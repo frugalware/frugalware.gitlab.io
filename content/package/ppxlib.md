@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ppxlib 0.31.0-1"
-version = "0.31.0-1"
+title = "ppxlib 0.31.0-2"
+version = "0.31.0-2"
 description = "Standard infrastructure for ppx rewriters"
-date = "2023-12-19T14:14:22"
+date = "2024-05-14T14:01:39"
 aliases = "/packages/221069"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-ppx/ppxlib"
 arch = "x86_64"
-size = "22957516"
-usize = "60341764"
-sha1sum = "aab202539c1c4ac80a6e955a4335b31fbaae66e7"
+size = "22944740"
+usize = "60320444"
+sha1sum = "6f906c4acb35efd4c9fda05424da2dee6022278c"
 depends = "['ocaml-compiler-libs-repackaged', 'ocaml-stdlib-shims', 'ppx_derivers', 'sexplib0']"
 reverse_depends = "['lwt']"
 +++

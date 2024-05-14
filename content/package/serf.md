@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "serf 1.3.10-1"
-version = "1.3.10-1"
+title = "serf 1.3.10-2"
+version = "1.3.10-2"
 description = "High-performance asynchronous HTTP client library"
-date = "2023-09-11T13:45:52"
+date = "2024-05-14T13:59:47"
 aliases = "/packages/184658"
 categories = ['lib-extra']
 upstreamurl = "http://serf.apache.org"
 arch = "x86_64"
-size = "82616"
-usize = "411150"
-sha1sum = "7c7e889681ef8b676e09e1a746b970ca58cba984"
+size = "82868"
+usize = "411206"
+sha1sum = "402862a7f14d3af40dec92740317ec498d03d731"
 depends = "['apr-util>=1.6.1-5', 'openssl>=3.1.0']"
 reverse_depends = "['subversion']"
 +++

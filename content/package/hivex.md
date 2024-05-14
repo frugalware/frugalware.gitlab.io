@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hivex 1.3.23-4"
-version = "1.3.23-4"
+title = "hivex 1.3.23-5"
+version = "1.3.23-5"
 description = "windows registry hive extraction library"
-date = "2024-01-20T22:17:01"
+date = "2024-05-14T14:03:49"
 aliases = "/packages/200051"
 categories = ['apps-extra']
 upstreamurl = "http://libguestfs.org/hivex.3.html"
 arch = "x86_64"
-size = "371144"
-usize = "617772"
-sha1sum = "585b30b44d05bb7a049e9d24f6bcb309f0d5735f"
+size = "369552"
+usize = "616900"
+sha1sum = "3bba705aca0656e864a61fd839e77971a3502767"
 depends = "['libxml2', 'readline>=8.0', 'xz']"
 reverse_depends = "['hivex-ocaml', 'hivex-perl', 'hivex-python', 'hivex-ruby']"
 +++

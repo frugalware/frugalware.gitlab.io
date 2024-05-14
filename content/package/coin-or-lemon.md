@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "coin-or-lemon 1.3.1-1"
-version = "1.3.1-1"
+title = "coin-or-lemon 1.3.1-2"
+version = "1.3.1-2"
 description = "A C++ template library providing many common graph algorithms"
-date = "2024-05-14T12:07:19"
+date = "2024-05-14T13:44:39"
 aliases = "/packages/221472"
 categories = ['lib-extra']
 upstreamurl = "http://lemon.cs.elte.hu/trac/lemon"
 arch = "x86_64"
-size = "493248"
-usize = "3470315"
-sha1sum = "1cf5b7099f97c7313c0efcb78406df569186fa40"
+size = "1487552"
+usize = "5070984"
+sha1sum = "4d738d38b31afb110bc13887c885a05dda0fa0f3"
 depends = "['coin-or-cbc', 'coin-or-clp']"
+reverse_depends = "['alicevision']"
 +++
 ### Description: 
 A C++ template library providing many common graph algorithms
@@ -123,6 +124,7 @@ A C++ template library providing many common graph algorithms
 * /usr/include/lemon/time_measure.h
 * /usr/include/lemon/tolerance.h
 * /usr/include/lemon/unionfind.h
+* /usr/lib/libemon.a
 * /usr/lib/libemon.so
 * /usr/lib/libemon.so.1.3.1
 * /usr/lib/pkgconfig/lemon.pc
@@ -131,5 +133,4 @@ A C++ template library providing many common graph algorithms
 * /usr/share/doc/coin-or-lemon-1.3.1/LICENSE
 * /usr/share/doc/coin-or-lemon-1.3.1/NEWS
 * /usr/share/doc/coin-or-lemon-1.3.1/README
-* /usr/share/doc/coin-or-lemon-1.3.1/README.md
 * /usr/share/lemon/cmake/LEMONConfig.cmake

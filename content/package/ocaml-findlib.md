@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-findlib 1.9.6-4"
-version = "1.9.6-4"
+title = "ocaml-findlib 1.9.6-5"
+version = "1.9.6-5"
 description = "Objective Caml (OCaml) package manager"
-date = "2023-12-19T12:03:21"
+date = "2024-05-14T14:02:35"
 aliases = "/packages/184611"
 categories = ['devel-extra']
 upstreamurl = "http://projects.camlcity.org/projects/findlib.html"
 arch = "x86_64"
-size = "1315048"
-usize = "4685978"
-sha1sum = "0cd3bdd68537f10a7781997f1b9662cf1ae3b9d1"
+size = "1307020"
+usize = "4634626"
+sha1sum = "d729260578cc90062f99e8e379f458d308396396"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['libguestfs-ocaml', 'supermin']"
 license = "MIT"
