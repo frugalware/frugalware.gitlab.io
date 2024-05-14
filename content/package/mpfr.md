@@ -12,7 +12,7 @@ size = "719660"
 usize = "2464134"
 sha1sum = "eea73f7fa92f6d7888125962b0b8a123f723c1d7"
 depends = "['gmp>=6.1.2-11']"
-reverse_depends = "['cgal', 'gawk', 'kalk', 'libmpc', 'rasqal', 'texlive']"
+reverse_depends = "['cgal', 'gawk', 'kalk', 'libmpc', 'rasqal', 'suitesparse', 'texlive']"
 +++
 ### Description: 
 Library for multiple-precision floating-point computations.

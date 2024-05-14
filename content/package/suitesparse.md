@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "suitesparse 7.7.0-2"
-version = "7.7.0-2"
+title = "suitesparse 7.7.0-3"
+version = "7.7.0-3"
 description = "A collection of sparse matrix libraries"
-date = "2024-05-12T20:17:28"
+date = "2024-05-14T10:05:57"
 aliases = "/packages/220120"
 categories = ['lib-extra']
 upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
-size = "45067072"
-usize = "218410323"
-sha1sum = "cdabcee576d30f80f722665d1cb620bd4e15634a"
-depends = "['libgomp', 'libstdc++>=11.2', 'openblas']"
+size = "19135636"
+usize = "147617418"
+sha1sum = "21dc9a1793e8655ab284f8d9c53a3b234c3e2a12"
+depends = "['gmp', 'lapack', 'libgomp', 'mpfr']"
 reverse_depends = "['ceres-solver', 'gegl', 'julia']"
 +++
 ### Description: 
@@ -130,84 +130,65 @@ A collection of sparse matrix libraries
 * /usr/lib/cmake/UMFPACK/UMFPACKConfigVersion.cmake
 * /usr/lib/cmake/UMFPACK/UMFPACKTargets-release.cmake
 * /usr/lib/cmake/UMFPACK/UMFPACKTargets.cmake
-* /usr/lib/libamd.a
 * /usr/lib/libamd.so
 * /usr/lib/libamd.so.3
 * /usr/lib/libamd.so.3.3.2
-* /usr/lib/libbtf.a
 * /usr/lib/libbtf.so
 * /usr/lib/libbtf.so.2
 * /usr/lib/libbtf.so.2.3.2
-* /usr/lib/libcamd.a
 * /usr/lib/libcamd.so
 * /usr/lib/libcamd.so.3
 * /usr/lib/libcamd.so.3.3.2
-* /usr/lib/libccolamd.a
 * /usr/lib/libccolamd.so
 * /usr/lib/libccolamd.so.3
 * /usr/lib/libccolamd.so.3.3.3
-* /usr/lib/libcholmod.a
 * /usr/lib/libcholmod.so
 * /usr/lib/libcholmod.so.5
 * /usr/lib/libcholmod.so.5.2.1
-* /usr/lib/libcolamd.a
 * /usr/lib/libcolamd.so
 * /usr/lib/libcolamd.so.3
 * /usr/lib/libcolamd.so.3.3.3
-* /usr/lib/libcxsparse.a
 * /usr/lib/libcxsparse.so
 * /usr/lib/libcxsparse.so.4
 * /usr/lib/libcxsparse.so.4.4.0
 * /usr/lib/libgraphblas.so
 * /usr/lib/libgraphblas.so.9
 * /usr/lib/libgraphblas.so.9.1.0
-* /usr/lib/libklu.a
 * /usr/lib/libklu.so
 * /usr/lib/libklu.so.2
 * /usr/lib/libklu.so.2.3.3
-* /usr/lib/libklu_cholmod.a
 * /usr/lib/libklu_cholmod.so
 * /usr/lib/libklu_cholmod.so.2
 * /usr/lib/libklu_cholmod.so.2.3.3
-* /usr/lib/liblagraph.a
 * /usr/lib/liblagraph.so
 * /usr/lib/liblagraph.so.1
 * /usr/lib/liblagraph.so.1.1.3
-* /usr/lib/liblagraphx.a
 * /usr/lib/liblagraphx.so
 * /usr/lib/liblagraphx.so.1
 * /usr/lib/liblagraphx.so.1.1.3
-* /usr/lib/libldl.a
 * /usr/lib/libldl.so
 * /usr/lib/libldl.so.3
 * /usr/lib/libldl.so.3.3.2
-* /usr/lib/libparu.a
 * /usr/lib/libparu.so
 * /usr/lib/libparu.so.0
 * /usr/lib/libparu.so.0.1.3
-* /usr/lib/librbio.a
 * /usr/lib/librbio.so
 * /usr/lib/librbio.so.4
 * /usr/lib/librbio.so.4.3.2
-* /usr/lib/libspex.a
 * /usr/lib/libspex.so
 * /usr/lib/libspex.so.3
 * /usr/lib/libspex.so.3.1.0
 * /usr/lib/libspexpython.so
 * /usr/lib/libspexpython.so.3
 * /usr/lib/libspexpython.so.3.1.0
-* /usr/lib/libspqr.a
 * /usr/lib/libspqr.so
 * /usr/lib/libspqr.so.4
 * /usr/lib/libspqr.so.4.3.3
-* /usr/lib/libsuitesparseconfig.a
 * /usr/lib/libsuitesparseconfig.so
 * /usr/lib/libsuitesparseconfig.so.7
 * /usr/lib/libsuitesparseconfig.so.7.7.0
-* /usr/lib/libsuitesparse_mongoose.a
 * /usr/lib/libsuitesparse_mongoose.so
 * /usr/lib/libsuitesparse_mongoose.so.3
-* /usr/lib/libumfpack.a
 * /usr/lib/libumfpack.so
 * /usr/lib/libumfpack.so.6
 * /usr/lib/libumfpack.so.6.3.3
