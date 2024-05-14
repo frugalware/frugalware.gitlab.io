@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libguestfs 1.50.1-2"
-version = "1.50.1-2"
+title = "libguestfs 1.52.1-1"
+version = "1.52.1-1"
 description = "tools for accessing and modifying virtual machine disk images"
-date = "2023-12-19T14:49:14"
+date = "2024-05-14T16:55:19"
 aliases = "/packages/200067"
 categories = ['apps-extra']
 upstreamurl = "http://libguestfs.org/"
 arch = "x86_64"
-size = "8079832"
-usize = "13540930"
-sha1sum = "a664a13353b43714b05fe4f5c0ed7c8c8c0922e3"
+size = "8041344"
+usize = "14231661"
+sha1sum = "da5180c62a4d35d65efadf92a708562bb8e17f29"
 depends = "['augeas>=1.9.0', 'cdrtools', 'cpio', 'fuse>=2.9.4', 'glib2>=2.50.1', 'gperf', 'jansson', 'libconfig', 'libvirt>=3.8.0', 'libxml2>=2.9.3-3', 'qemu>=2.10.1', 'readline>=8.0', 'yajl']"
 +++
 ### Description: 
@@ -121,6 +121,7 @@ tools for accessing and modifying virtual machine disk images
 * /usr/include/guestfs-gobject/struct-yara_detection.h
 * /usr/include/guestfs-gobject/tristate.h
 * /usr/include/guestfs.h
+* /usr/lib/girepository-1.0/Guestfs-1.0.typelib
 * /usr/lib/libguestfs-gobject-1.0.a
 * /usr/lib/libguestfs-gobject-1.0.so
 * /usr/lib/libguestfs-gobject-1.0.so.0
@@ -140,37 +141,13 @@ tools for accessing and modifying virtual machine disk images
 * /usr/share/bash-completion/completions/virt-rescue
 * /usr/share/bash-completion/completions/virt-tar-in
 * /usr/share/bash-completion/completions/virt-tar-out
-* /usr/share/doc/libguestfs-1.50.1/AUTHORS
-* /usr/share/doc/libguestfs-1.50.1/COPYING
-* /usr/share/doc/libguestfs-1.50.1/COPYING.LIB
-* /usr/share/doc/libguestfs-1.50.1/HACKING
-* /usr/share/doc/libguestfs-1.50.1/README
-* /usr/share/doc/libguestfs-1.50.1/TODO
-* /usr/share/locale/cs/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/de/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/es/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/eu/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/fi/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/fr/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/gu/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/hi/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/ja/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/ka/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/kn/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/ml/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/mr/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/nl/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/or/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/pa/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/pl/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/ru/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/si/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/ta/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/te/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/tg/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/uk/LC_MESSAGES/libguestfs.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libguestfs.mo
+* /usr/share/doc/libguestfs-1.52.1/AUTHORS
+* /usr/share/doc/libguestfs-1.52.1/COPYING
+* /usr/share/doc/libguestfs-1.52.1/COPYING.LIB
+* /usr/share/doc/libguestfs-1.52.1/HACKING
+* /usr/share/doc/libguestfs-1.52.1/README
+* /usr/share/doc/libguestfs-1.52.1/TODO
+* /usr/share/gir-1.0/Guestfs-1.0.gir
 * /usr/share/man/man1/guestfish.1.gz
 * /usr/share/man/man1/guestfs-building.1.gz
 * /usr/share/man/man1/guestfs-faq.1.gz
@@ -200,6 +177,7 @@ tools for accessing and modifying virtual machine disk images
 * /usr/share/man/man1/guestfs-release-notes-1.46.1.gz
 * /usr/share/man/man1/guestfs-release-notes-1.48.1.gz
 * /usr/share/man/man1/guestfs-release-notes-1.50.1.gz
+* /usr/share/man/man1/guestfs-release-notes-1.52.1.gz
 * /usr/share/man/man1/guestfs-release-notes-1.6.1.gz
 * /usr/share/man/man1/guestfs-release-notes-1.8.1.gz
 * /usr/share/man/man1/guestfs-release-notes.1.gz

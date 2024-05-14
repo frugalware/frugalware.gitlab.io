@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libguestfs-ocaml 1.50.1-2"
-version = "1.50.1-2"
+title = "libguestfs-ocaml 1.52.1-1"
+version = "1.52.1-1"
 description = "libguestfs ocaml bindings"
-date = "2023-12-19T14:49:14"
+date = "2024-05-14T16:55:19"
 aliases = "/packages/220872"
 categories = ['devel-extra']
 upstreamurl = "http://libguestfs.org/"
 arch = "x86_64"
-size = "1569840"
-usize = "4133340"
-sha1sum = "710c6193f1e6841923aacc055c0cf134e2be5251"
+size = "1578220"
+usize = "4138420"
+sha1sum = "da1488310e075476569409edc819c69dcbf90b94"
 depends = "['hivex-ocaml', 'ocaml-augeas', 'ocaml-findlib']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wcslib 8.2.2-1"
-version = "8.2.2-1"
+title = "wcslib 8.2.2-2"
+version = "8.2.2-2"
 description = "A C library that implements the 'World Coordinate System' (WCS) standard in FITS"
-date = "2023-12-29T10:58:54"
+date = "2024-05-14T16:57:44"
 aliases = "/packages/221198"
 categories = ['lib-extra']
 upstreamurl = "https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/"
 arch = "x86_64"
-size = "2557868"
-usize = "11568763"
-sha1sum = "f7d0db6479d489bf2d261c938b61de3544d702f8"
+size = "2562916"
+usize = "11585227"
+sha1sum = "6c2ceb61bb4eacb7cf3f3fc21b8d896226d6f629"
 depends = "['cfitsio']"
 reverse_depends = "['stellarsolver']"
 +++
