@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fpc-src 3.2.2-3"
-version = "3.2.2-3"
+title = "fpc-src 3.2.2-4"
+version = "3.2.2-4"
 description = "Source code for Free Pascal Compiler"
-date = "2022-02-16T10:36:06"
+date = "2024-05-15T09:08:08"
 aliases = "/packages/73260"
 categories = ['devel-extra']
 upstreamurl = "https://www.freepascal.org"
 arch = "x86_64"
-size = "31149856"
-usize = "304385760"
-sha1sum = "22347ddc54466823f47cbdc13f3d62fcc12f6137"
+size = "30940528"
+usize = "303175679"
+sha1sum = "e1d0309537858d6a1d576c049be13f3e18016cb8"
 depends = "[]"
 +++
 ### Description: 

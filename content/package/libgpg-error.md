@@ -12,7 +12,7 @@ size = "311220"
 usize = "1396984"
 sha1sum = "bd5687713432df90b74fdc46f70745d9f71cd200"
 depends = "['glibc>=2.35']"
-reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libassuan1', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
+reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
 +++
 ### Description: 
 Support library for libgcrypt

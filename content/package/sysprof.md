@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysprof 45.1-1"
-version = "45.1-1"
+title = "sysprof 46.0-1"
+version = "46.0-1"
 description = "A sampling CPU profiler that uses a Linux kernel module to profile the entire system"
-date = "2024-01-09T19:34:32"
+date = "2024-05-15T09:25:03"
 aliases = "/packages/168599"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "613608"
-usize = "3208703"
-sha1sum = "a1095ab0756191a609eaf1c815c776eac40fca3d"
+size = "683160"
+usize = "3688234"
+sha1sum = "e84f46fc90a9d9f966533522d729563a5f93fd71"
 depends = "['json-glib', 'libadwaita', 'libdex', 'libpanel', 'libsysprof-capture', 'libunwind', 'lzo', 'polkit']"
 +++
 ### Description: 
@@ -98,11 +98,11 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/dbus-1/interfaces/org.gnome.Sysprof3.Service.xml
 * /usr/share/dbus-1/system-services/org.gnome.Sysprof3.service
 * /usr/share/dbus-1/system.d/org.gnome.Sysprof3.conf
-* /usr/share/doc/sysprof-45.1/AUTHORS
-* /usr/share/doc/sysprof-45.1/COPYING
-* /usr/share/doc/sysprof-45.1/COPYING.gpl-2
-* /usr/share/doc/sysprof-45.1/NEWS
-* /usr/share/doc/sysprof-45.1/README.md
+* /usr/share/doc/sysprof-46.0/AUTHORS
+* /usr/share/doc/sysprof-46.0/COPYING
+* /usr/share/doc/sysprof-46.0/COPYING.gpl-2
+* /usr/share/doc/sysprof-46.0/NEWS
+* /usr/share/doc/sysprof-46.0/README.md
 * /usr/share/help/C/sysprof/faq.page
 * /usr/share/help/C/sysprof/figures/Sysprof.svg
 * /usr/share/help/C/sysprof/index.page
@@ -145,6 +145,18 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/help/es/sysprof/introduction.page
 * /usr/share/help/es/sysprof/legal.xml
 * /usr/share/help/es/sysprof/profiling.page
+* /usr/share/help/eu/sysprof/faq.page
+* /usr/share/help/eu/sysprof/figures/Sysprof.svg
+* /usr/share/help/eu/sysprof/index.page
+* /usr/share/help/eu/sysprof/introduction.page
+* /usr/share/help/eu/sysprof/legal.xml
+* /usr/share/help/eu/sysprof/profiling.page
+* /usr/share/help/fr/sysprof/faq.page
+* /usr/share/help/fr/sysprof/figures/Sysprof.svg
+* /usr/share/help/fr/sysprof/index.page
+* /usr/share/help/fr/sysprof/introduction.page
+* /usr/share/help/fr/sysprof/legal.xml
+* /usr/share/help/fr/sysprof/profiling.page
 * /usr/share/help/hu/sysprof/faq.page
 * /usr/share/help/hu/sysprof/figures/Sysprof.svg
 * /usr/share/help/hu/sysprof/index.page
@@ -212,6 +224,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/locale/da/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/de/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/el/LC_MESSAGES/sysprof.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/eo/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/es/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/eu/LC_MESSAGES/sysprof.mo
@@ -228,6 +241,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/locale/ko/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/lt/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/nl/LC_MESSAGES/sysprof.mo
+* /usr/share/locale/oc/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/pa/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/pl/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/pt/LC_MESSAGES/sysprof.mo
