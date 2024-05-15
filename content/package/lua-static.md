@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lua-static 5.4.6-1"
-version = "5.4.6-1"
+title = "lua-static 5.4.6-2"
+version = "5.4.6-2"
 description = "Static files for lua"
-date = "2023-05-15T22:12:27"
+date = "2024-05-15T19:30:21"
 aliases = "/packages/219921"
 categories = ['devel-extra']
 upstreamurl = "http://www.lua.org/"
 arch = "x86_64"
-size = "1480300"
-usize = "1697272"
-sha1sum = "df8b46ec94a9ebc48e9148fa93aec15a6f3564e8"
+size = "1493184"
+usize = "1708832"
+sha1sum = "c0faf21f29c47a8310f6c811bda22ecb837b5e41"
 depends = "[]"
 +++
 ### Description: 

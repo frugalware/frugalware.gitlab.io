@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mbedtls 2.28.8-1"
-version = "2.28.8-1"
+title = "mbedtls 2.28.8-2"
+version = "2.28.8-2"
 description = "Portable cryptographic and SSL/TLS library, aka polarssl"
-date = "2024-05-02T12:26:30"
+date = "2024-05-15T19:41:09"
 aliases = "/packages/218827"
 categories = ['lib']
 upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
-size = "777568"
-usize = "4515315"
-sha1sum = "4892499bc92e3a7ab0a672df2af819fb1fb54eef"
+size = "779644"
+usize = "4524155"
+sha1sum = "0d7df78bd19f85ca497bcb22e6f6d6230962e937"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'obs-studio', 'openrgb']"
 +++

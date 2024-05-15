@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgpg-error 1.49-1"
-version = "1.49-1"
+title = "lib32-libgpg-error 1.49-2"
+version = "1.49-2"
 description = "Support library for libgcrypt ( 32bit )"
-date = "2024-04-25T15:03:21"
+date = "2024-05-15T19:38:00"
 aliases = "/packages/217735"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "106484"
-usize = "392294"
-sha1sum = "ec222dac5b7fc7de40624d6022c082b4c71c130e"
+size = "107144"
+usize = "396390"
+sha1sum = "7516d381bdfa7d4a76fcc147eba75a91afb86db8"
 depends = "[]"
 reverse_depends = "['lib32-libgcrypt', 'lib32-libgcrypt15', 'lib32-libsystemd']"
 +++

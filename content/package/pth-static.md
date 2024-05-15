@@ -5,7 +5,7 @@ version = "2.0.7-11"
 description = "Static files for pth"
 date = "2022-01-08T16:50:07"
 aliases = "/packages/219937"
-categories = ['devel-extra']
+categories = []
 upstreamurl = "http://www.gnu.org/software/pth"
 arch = "x86_64"
 size = "408076"
@@ -17,4 +17,3 @@ depends = "[]"
 Static files for pth
 
 ### Files: 
-* /usr/lib/libpth.a

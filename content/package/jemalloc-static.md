@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jemalloc-static 5.3.0-2"
-version = "5.3.0-2"
+title = "jemalloc-static 5.3.0-3"
+version = "5.3.0-3"
 description = "Static files for jemalloc"
-date = "2024-01-19T12:59:01"
+date = "2024-05-15T19:29:29"
 aliases = "/packages/219910"
 categories = ['devel-extra']
 upstreamurl = "http://www.canonware.com/jemalloc"
 arch = "x86_64"
-size = "20884748"
-usize = "51829066"
-sha1sum = "daa6bf652877e3fe4a921b400a6338eeb2a63627"
+size = "20980784"
+usize = "52126314"
+sha1sum = "f45d1f21e34e08288d9c8dbcf23b002f7d65dd3f"
 depends = "[]"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgpg-error 1.49-1"
-version = "1.49-1"
+title = "libgpg-error 1.49-2"
+version = "1.49-2"
 description = "Support library for libgcrypt"
-date = "2024-04-25T15:03:21"
+date = "2024-05-15T19:38:00"
 aliases = "/packages/3176"
 categories = ['base']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "311220"
-usize = "1396984"
-sha1sum = "bd5687713432df90b74fdc46f70745d9f71cd200"
+size = "311464"
+usize = "1401080"
+sha1sum = "05bc1e20f44a6c795348734602a974b97acd3cc8"
 depends = "['glibc>=2.35']"
 reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
 +++

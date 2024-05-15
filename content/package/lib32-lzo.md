@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-lzo 2.10-11"
-version = "2.10-11"
+title = "lib32-lzo 2.10-12"
+version = "2.10-12"
 description = "A real-time data compression library ( 32bit )"
-date = "2023-08-28T12:02:48"
+date = "2024-05-15T19:32:05"
 aliases = "/packages/220903"
 categories = ['lib32-extra']
 upstreamurl = "http://www.oberhumer.com/opensource/lzo"
 arch = "x86_64"
-size = "64552"
-usize = "315375"
-sha1sum = "9f2e18a33a2bc7f8b9c3b6c65b69e73d6e16729d"
+size = "67052"
+usize = "319471"
+sha1sum = "84b3f072dd1b596059ab3a0df7f4138cdac6392c"
 depends = "[]"
 reverse_depends = "['lib32-cairo']"
 +++

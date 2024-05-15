@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libatomic_ops-static 7.8.2-1"
-version = "7.8.2-1"
+title = "libatomic_ops-static 7.8.2-2"
+version = "7.8.2-2"
 description = "Static files for libatomic_ops"
-date = "2023-12-18T08:50:05"
+date = "2024-05-15T19:36:27"
 aliases = "/packages/219914"
 categories = ['devel-extra']
 upstreamurl = "https://www.hboehm.info/gc"
 arch = "x86_64"
-size = "36168"
-usize = "44882"
-sha1sum = "9232fc1e92c5b75989cb61048cac33a62a37d596"
+size = "36112"
+usize = "44794"
+sha1sum = "f59b795561b38b9df00b914a18bf0b40cad86ed4"
 depends = "[]"
 +++
 ### Description: 

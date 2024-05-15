@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libarchive 3.7.4-2"
-version = "3.7.4-2"
+title = "libarchive 3.7.4-3"
+version = "3.7.4-3"
 description = "Library to create and read several different archive formats"
-date = "2024-05-08T07:22:59"
+date = "2024-05-15T19:35:44"
 aliases = "/packages/3144"
 categories = ['base']
 upstreamurl = "http://www.libarchive.org"
 arch = "x86_64"
-size = "728372"
+size = "728176"
 usize = "2779801"
-sha1sum = "a1803654886b4f988a9ceeb980077a8919cd504b"
+sha1sum = "ccd9d39a8805040ea3522b0b777368a3523362de"
 depends = "['bzip2>=1.0.6-16', 'expat>=2.2.6-2', 'lzo>=1.9.2', 'nettle>=3.5.1', 'openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'fwupd', 'gvfs', 'libappimage', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
 +++

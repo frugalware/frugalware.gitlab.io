@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncurses 6.5-2"
-version = "6.5-2"
+title = "ncurses 6.5-3"
+version = "6.5-3"
 description = "A System V curses emulation library"
-date = "2024-04-29T09:38:23"
+date = "2024-05-15T19:18:43"
 aliases = "/packages/2418"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/ncurses/ncurses.html"
 arch = "x86_64"
-size = "1331380"
-usize = "5870254"
-sha1sum = "b2f068bdab3fb598a07803aad8d93c1979fbc690"
+size = "1331660"
+usize = "5874350"
+sha1sum = "97d16f5b3f19ce9231a2d0d4ac2bdf6c4b630984"
 depends = "['glibc>=2.37', 'gmp>=6.1.2-10']"
 reverse_depends = "['aalib', 'alsa-utils', 'android-studio', 'aspell', 'bc', 'bind', 'bitchx', 'calcurse', 'clamav', 'clisp', 'cmake', 'crash', 'dialog', 'emacs', 'erlang', 'firebird', 'fish', 'fluidsynth', 'freeciv', 'gawk', 'gdb', 'gettext', 'gfs2-utils', 'gftp', 'ghc', 'gnokii', 'gnupg2', 'gpg-agent', 'gphoto2', 'gpm', 'gpsd', 'gptfdisk', 'gst1-plugins-good-caca', 'guile', 'htop', 'hunspell', 'hwloc', 'inetutils', 'iotop', 'irssi', 'joe', 'kvm', 'lame', 'less', 'libcaca', 'libcdio', 'libcec', 'libedit', 'libgnt', 'libqalculate', 'libtermkey', 'libtextstyle', 'lldb', 'llvm-libs', 'llvm15-libs', 'lua', 'lua51', 'lua53', 'lvm2', 'lynx', 'maxima', 'mcabber', 'mencoder', 'meshroom', 'minicom', 'mosh', 'mplayer', 'nano', 'ncdu', 'ncftp', 'ncmpc', 'ncmpcpp', 'ne', 'net-snmp', 'nethogs', 'nftables', 'ocaml', 'octave', 'partclone', 'parted', 'pcre2', 'php', 'postgresql', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'powertop', 'procps-ng', 'proftpd', 'psmisc', 'python3', 'qemu', 'readline', 'rtorrent', 'ruby', 'samba', 'screen', 'sedutil', 'sqlite3', 'tcsh', 'texinfo', 'texlive', 'tmux', 'unixodbc', 'util-linux', 'vile', 'vim', 'vkd3d', 'w3m', 'wavemon', 'weechat', 'wpa_supplicant', 'xrestop', 'xterm', 'zsh']"
 +++

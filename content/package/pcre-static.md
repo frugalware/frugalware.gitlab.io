@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pcre-static 8.45-6"
-version = "8.45-6"
+title = "pcre-static 8.45-7"
+version = "8.45-7"
 description = "Static files for pcre"
-date = "2023-09-12T12:18:08"
+date = "2024-05-15T19:33:54"
 aliases = "/packages/219933"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
-size = "3183240"
-usize = "4158414"
-sha1sum = "3754a303473bbbcc9a2b1d10472b3fed01cfffde"
+size = "3154652"
+usize = "4127678"
+sha1sum = "533491124b0facf26879daccc6411c338fcadd7f"
 depends = "[]"
 +++
 ### Description: 

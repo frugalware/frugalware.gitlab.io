@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libatomic_ops 7.8.2-1"
-version = "7.8.2-1"
+title = "libatomic_ops 7.8.2-2"
+version = "7.8.2-2"
 description = "Implementation for atomic memory update operations"
-date = "2023-12-18T08:50:05"
+date = "2024-05-15T19:36:27"
 aliases = "/packages/38619"
 categories = ['lib']
 upstreamurl = "https://www.hboehm.info/gc"
 arch = "x86_64"
-size = "84456"
+size = "84492"
 usize = "755316"
-sha1sum = "925911bc19375d621b1058efdfca7aa7e859b69e"
+sha1sum = "c35cee779f5611e558443a9ad7e1ebd359d5b0f0"
 depends = "[]"
 reverse_depends = "['libgc']"
 +++

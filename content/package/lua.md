@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lua 5.4.6-1"
-version = "5.4.6-1"
+title = "lua 5.4.6-2"
+version = "5.4.6-2"
 description = "A powerful light-weight programming language designed for extending applications."
-date = "2023-05-15T22:12:27"
+date = "2024-05-15T19:30:21"
 aliases = "/packages/3219"
 categories = ['devel']
 upstreamurl = "http://www.lua.org/"
 arch = "x86_64"
-size = "203664"
-usize = "843767"
-sha1sum = "3afb8f3250016c7f0394ff4075e25e9fd776b2bd"
+size = "205852"
+usize = "851959"
+sha1sum = "b7e38003cbc8395d4effcc0d9027bd229a13d5fe"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['conky', 'crawl', 'crawl-tiles', 'darktable', 'eiskaltdc', 'geany-plugins', 'haskell-lua', 'imapfilter', 'libquvi', 'libquvi-scripts', 'lighttpd', 'lpeg', 'luajit2', 'luarocks', 'mod_security', 'pdns', 'pdns-recursor', 'podofo', 'texworks', 'ultrastardx', 'uwsgi-plugin-lua', 'vlc-lua', 'weechat', 'wireplumber', 'wireshark']"
 +++

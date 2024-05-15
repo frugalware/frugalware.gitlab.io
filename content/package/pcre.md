@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pcre 8.45-6"
-version = "8.45-6"
+title = "pcre 8.45-7"
+version = "8.45-7"
 description = "Perl-compatible regular expression library"
-date = "2023-09-12T12:18:08"
+date = "2024-05-15T19:33:54"
 aliases = "/packages/2428"
 categories = ['base']
 upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
-size = "974700"
-usize = "3621937"
-sha1sum = "633e2aaac3349ccccf59adcfb3ce91335f1abf65"
+size = "984540"
+usize = "3654705"
+sha1sum = "adb6acc796a1d7ae221938961df03e22f37cbade"
 depends = "['bzip2>=1.0.6-16', 'libstdc++>=12.2', 'readline>=8.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['aide', 'apache', 'editorconfig-core-c', 'efl', 'enlightenment', 'ethereal', 'gdal', 'glib2', 'hyperscan', 'imapfilter', 'insight-toolkit', 'json-glib', 'leafnode', 'libmp3splt', 'libselinux', 'lighttpd', 'nginx', 'opencollada', 'php-embed', 'postfix', 'privoxy', 'qpdf', 'qt5-base', 'rasqal', 'slang', 'sord', 'swig', 'terminology', 'uwsgi', 'varnish']"
 +++

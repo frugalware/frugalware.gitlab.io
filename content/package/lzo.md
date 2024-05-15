@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lzo 2.10-11"
-version = "2.10-11"
+title = "lzo 2.10-12"
+version = "2.10-12"
 description = "A real-time data compression library"
-date = "2023-08-28T12:02:48"
+date = "2024-05-15T19:32:05"
 aliases = "/packages/3221"
 categories = ['base']
 upstreamurl = "http://www.oberhumer.com/opensource/lzo"
 arch = "x86_64"
-size = "83112"
-usize = "386488"
-sha1sum = "50e286a597aca1653dac92810a9a3c283e0ecf7d"
+size = "84372"
+usize = "390584"
+sha1sum = "43099615f9bfa00fbeb8d1b62b29389b40e11540"
 depends = "['glibc>=2.37']"
 reverse_depends = "['blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'easyeffects', 'fsarchiver', 'libarchive', 'lrzip', 'lzop', 'mariadb', 'mariadb-libs', 'mtd-utils', 'openttd', 'openvpn', 'qemu', 'squashfs', 'sysprof', 'vtun']"
 +++

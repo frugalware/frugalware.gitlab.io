@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libboost 1.85.0-1"
-version = "1.85.0-1"
+title = "libboost 1.85.0-2"
+version = "1.85.0-2"
 description = "Boost libraries."
-date = "2024-04-18T17:12:50"
+date = "2024-05-15T20:00:48"
 aliases = "/packages/30758"
 categories = ['lib']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "2002436"
-usize = "7797211"
-sha1sum = "980d5b596d714070de34de4d72c86576f3a44e83"
+size = "2040288"
+usize = "7915715"
+sha1sum = "be2109820826a6aa7206140988f0d6888b6ba075"
 depends = "['icu4c>=75.1', 'python3>=3.12', 'zstd']"
 reverse_depends = "['alembic', 'alicevision', 'blender', 'calamares-frugalware', 'cgal', 'cppgir', 'cryfs', 'eiskaltdc', 'enblend-enfuse', 'encfs', 'facter', 'freeorion', 'inkscape', 'innoextract', 'kdevelop', 'kdiff3', 'kicad', 'kig', 'libabw', 'libappimage', 'libboost-mpi', 'libcmis', 'libe-book', 'libetonyek', 'libftdi', 'liblas', 'liborcus', 'libpst-python', 'librevenge', 'libtorrent-rasterbar-python', 'lucene++', 'luminance-hdr', 'lyx', 'mkvtoolnix', 'mupen64plus', 'ncmpc', 'ncmpcpp', 'ogre', 'opencascade', 'opengv', 'openimageio', 'openscad', 'openshadinglanguage', 'openvdb', 'pdns', 'pdns-recursor', 'performous', 'poedit', 'qbittorrent', 'quassel', 'rocs', 'source-highlight', 'spring', 'supertux', 'telegram-desktop', 'vtk', 'wesnoth']"
 +++
