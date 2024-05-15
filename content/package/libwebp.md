@@ -12,7 +12,7 @@ size = "412640"
 usize = "1368929"
 sha1sum = "23a4a286c608320d28d24ada51d1711e88cab8d4"
 depends = "['libgif', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.10-2']"
-reverse_depends = "['efl', 'freeimage', 'gegl', 'graphicsmagick', 'imagemagick', 'libvips', 'opencv', 'python3-pillow', 'qt5-imageformats', 'qt5-webengine', 'qt6-imageformats', 'sdl2_image', 'thunderbird', 'webkit-gtk3', 'weston']"
+reverse_depends = "['efl', 'freeimage', 'gd', 'gegl', 'graphicsmagick', 'imagemagick', 'libvips', 'opencv', 'python3-pillow', 'qt5-imageformats', 'qt5-webengine', 'qt6-imageformats', 'sdl2_image', 'thunderbird', 'webkit-gtk3', 'weston']"
 +++
 ### Description: 
 A library for a new image format comparable to JPEG.

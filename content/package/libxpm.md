@@ -12,7 +12,7 @@ size = "94032"
 usize = "261252"
 sha1sum = "0e4d5cad80ac12b61bdd714093f70fb146a19417"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxt>=1.1.5-3']"
-reverse_depends = "['dzen', 'emacs', 'fluxbox', 'freeciv', 'gimp', 'graphviz', 'gvim', 'libxaw', 'libxaw3d', 'transfig', 'vlc-skins', 'xaw3d', 'xonotic', 'xterm', 'xxkb']"
+reverse_depends = "['dzen', 'emacs', 'fluxbox', 'freeciv', 'gd', 'gimp', 'graphviz', 'gvim', 'libxaw', 'libxaw3d', 'transfig', 'vlc-skins', 'xaw3d', 'xonotic', 'xterm', 'xxkb']"
 license = "GPL2"
 +++
 ### Description: 
