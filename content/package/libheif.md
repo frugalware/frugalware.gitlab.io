@@ -12,7 +12,7 @@ size = "307088"
 usize = "1037442"
 sha1sum = "d4e4a8330236bca02927e61b0f6e174506e880e4"
 depends = "['aom', 'dav1d>=1.3.0', 'libde265', 'rav1e', 'x265>=3.6']"
-reverse_depends = "['gdal', 'gimp', 'graphicsmagick', 'imagemagick', 'kimageformats', 'kimageformats5', 'libheif-gdk-pixbuf', 'libheif-tools', 'libvips', 'openimageio']"
+reverse_depends = "['gd', 'gdal', 'gimp', 'graphicsmagick', 'imagemagick', 'kimageformats', 'kimageformats5', 'libheif-gdk-pixbuf', 'libheif-tools', 'libvips', 'openimageio']"
 +++
 ### Description: 
 HEIF file format decoder and encoder
