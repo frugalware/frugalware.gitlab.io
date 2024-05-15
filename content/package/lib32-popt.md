@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-popt 1.19-1"
-version = "1.19-1"
+title = "lib32-popt 1.19-2"
+version = "1.19-2"
 description = "A commandline option parser ( 32bit )"
-date = "2024-03-04T09:06:45"
+date = "2024-05-15T18:10:56"
 aliases = "/packages/218958"
 categories = ['lib32-extra']
 upstreamurl = "http://rpm5.org"
 arch = "x86_64"
-size = "29208"
+size = "29164"
 usize = "76838"
-sha1sum = "4e4165eb273d5cf377d43afb0d9dec1df1a433c4"
+sha1sum = "b250b783aa7caa0b04a3825518f6f0a462e372cb"
 depends = "[]"
 reverse_depends = "['lib32-newt']"
 +++

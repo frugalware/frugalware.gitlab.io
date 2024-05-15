@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libunistring 1.2-1"
-version = "1.2-1"
+title = "lib32-libunistring 1.2-2"
+version = "1.2-2"
 description = "Library for manipulating Unicode strings and C strings. ( 32bit )"
-date = "2024-02-25T14:05:59"
+date = "2024-05-15T18:07:03"
 aliases = "/packages/219283"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/libunistring/"
 arch = "x86_64"
-size = "425680"
-usize = "1953091"
-sha1sum = "e5ca93aaeb1f5b0d6a2d67c7fb15731b01ad1498"
+size = "425596"
+usize = "1957187"
+sha1sum = "ab0d351cc48192893b0697f026e49503448b56d1"
 depends = "[]"
 reverse_depends = "['lib32-gettext', 'lib32-gnutls', 'lib32-libidn2']"
 +++

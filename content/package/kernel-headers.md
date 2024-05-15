@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.8.9-1"
-version = "6.8.9-1"
+title = "kernel-headers 6.9-1"
+version = "6.9-1"
 description = "Linux kernel include files"
-date = "2024-05-03T12:18:36"
+date = "2024-05-15T17:16:25"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1207324"
-usize = "5708432"
-sha1sum = "cbf95798a892cd96e677572ec6a5f01b0a9174f6"
+size = "1210012"
+usize = "5722462"
+sha1sum = "adadbe7e09c43d3d228101fa328f2eba5de486a4"
 depends = "[]"
 +++
 ### Description: 
@@ -95,6 +95,7 @@ Linux kernel include files
 * /usr/include/asm/resource.h
 * /usr/include/asm/sembuf.h
 * /usr/include/asm/setup.h
+* /usr/include/asm/setup_data.h
 * /usr/include/asm/sgx.h
 * /usr/include/asm/shmbuf.h
 * /usr/include/asm/sigcontext.h
@@ -167,6 +168,7 @@ Linux kernel include files
 * /usr/include/linux/bcm933xx_hcs.h
 * /usr/include/linux/bfs_fs.h
 * /usr/include/linux/binfmts.h
+* /usr/include/linux/bits.h
 * /usr/include/linux/blkpg.h
 * /usr/include/linux/blktrace_api.h
 * /usr/include/linux/blkzoned.h
@@ -359,7 +361,6 @@ Linux kernel include files
 * /usr/include/linux/ioam6_genl.h
 * /usr/include/linux/ioam6_iptunnel.h
 * /usr/include/linux/ioctl.h
-* /usr/include/linux/iommu.h
 * /usr/include/linux/iommufd.h
 * /usr/include/linux/ioprio.h
 * /usr/include/linux/io_uring.h
@@ -842,6 +843,7 @@ Linux kernel include files
 * /usr/include/linux/vdpa.h
 * /usr/include/linux/vduse.h
 * /usr/include/linux/version.h
+* /usr/include/linux/vesa.h
 * /usr/include/linux/veth.h
 * /usr/include/linux/vfio.h
 * /usr/include/linux/vfio_ccw.h

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-elfutils-debuginfod 0.191-1"
-version = "0.191-1"
+title = "lib32-elfutils-debuginfod 0.191-2"
+version = "0.191-2"
 description = "Elfutils debuginfod (32-bit)"
-date = "2024-03-02T21:34:31"
+date = "2024-05-15T17:20:31"
 aliases = "/packages/220227"
 categories = ['devel-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "19428"
+size = "19496"
 usize = "59333"
-sha1sum = "d807deeedb6bca70db5879b5af7bef9ce8658bf9"
+sha1sum = "b4023c12b4af7344d5673e7ea0b86f525cf1ac92"
 depends = "['lib32-curl', 'lib32-elfutils']"
 +++
 ### Description: 

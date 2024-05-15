@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libunwind 1.8.1-1"
-version = "1.8.1-1"
+title = "libunwind 1.8.1-2"
+version = "1.8.1-2"
 description = "Portable and efficient C programming interface (API) to determine the call-chain of a program"
-date = "2024-02-23T09:49:08"
+date = "2024-05-15T18:09:51"
 aliases = "/packages/152530"
 categories = ['lib']
 upstreamurl = "http://www.nongnu.org/libunwind"
 arch = "x86_64"
-size = "123992"
-usize = "969436"
-sha1sum = "9a23422d14099fb09d177c83223a9c83a38eb61e"
+size = "124332"
+usize = "969740"
+sha1sum = "ead4ad4523ca0664d7ca40994e17299325a50cf9"
 depends = "['xz>=5.2.2-4']"
 reverse_depends = "['efl', 'enlightenment', 'intel-gpu-tools', 'julia', 'mesa-dri-drivers', 'pdal', 'spring', 'sysprof', 'terminology']"
 +++

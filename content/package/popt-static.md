@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "popt-static 1.19-1"
-version = "1.19-1"
+title = "popt-static 1.19-2"
+version = "1.19-2"
 description = "Static files for popt"
-date = "2024-03-04T09:06:45"
+date = "2024-05-15T18:10:56"
 aliases = "/packages/219935"
 categories = ['devel-extra']
 upstreamurl = "http://rpm5.org"
 arch = "x86_64"
-size = "223488"
-usize = "243904"
-sha1sum = "01dc390ab1638c5964ae1b29efd8b8d8c090a40f"
+size = "223216"
+usize = "243528"
+sha1sum = "2b473f2d3396349bd1ec67080c8a565877d65344"
 depends = "[]"
 +++
 ### Description: 

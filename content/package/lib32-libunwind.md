@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libunwind 1.8.1-1"
-version = "1.8.1-1"
+title = "lib32-libunwind 1.8.1-2"
+version = "1.8.1-2"
 description = "Portable and efficient C programming interface (API) to determine the call-chain of a program ( 32bit )"
-date = "2024-02-23T09:49:08"
+date = "2024-05-15T18:09:51"
 aliases = "/packages/219514"
 categories = ['lib32-extra']
 upstreamurl = "http://www.nongnu.org/libunwind"
 arch = "x86_64"
-size = "121756"
-usize = "948060"
-sha1sum = "953529b3f0634754e2b7ad330999c90dc254317a"
+size = "122276"
+usize = "960604"
+sha1sum = "036a9e0d66310e0a38d6b2041fc3d4e56396eb87"
 depends = "['lib32-xz>=5.2.2-4']"
 reverse_depends = "['lib32-mesa-dri-drivers']"
 +++

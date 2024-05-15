@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libunwind-static 1.8.1-1"
-version = "1.8.1-1"
+title = "libunwind-static 1.8.1-2"
+version = "1.8.1-2"
 description = "Static files for libunwind"
-date = "2024-02-23T09:49:08"
+date = "2024-05-15T18:09:51"
 aliases = "/packages/219919"
 categories = ['devel-extra']
 upstreamurl = "http://www.nongnu.org/libunwind"
 arch = "x86_64"
-size = "1231264"
-usize = "1995978"
-sha1sum = "c6e97605b4c32870f49e71c3b8ead6039ede8e01"
+size = "1226996"
+usize = "1990610"
+sha1sum = "d8aa643b4a1f0bcaf75b2522df0891ef2c902b06"
 depends = "[]"
 +++
 ### Description: 

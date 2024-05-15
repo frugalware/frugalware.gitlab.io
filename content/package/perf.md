@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.8.9-1"
-version = "6.8.9-1"
+title = "perf 6.9-1"
+version = "6.9-1"
 description = "Kernel performance profiling tool"
-date = "2024-05-03T12:18:36"
+date = "2024-05-15T17:16:25"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2155464"
-usize = "11109710"
-sha1sum = "13e9ed7708da9619d03a42ce0eddbf93fec74a3e"
+size = "2193396"
+usize = "11317337"
+sha1sum = "188642605f09ead6d68d223d6fc1b2143eb130cd"
 depends = "['binutils>=2.40', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -162,7 +162,15 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/attr/test-stat-no-inherit
 * /usr/lib/perf/perf-core/tests/pe-file.exe
 * /usr/lib/perf/perf-core/tests/pe-file.exe.debug
+* /usr/lib/perf/perf-core/tests/shell/base_probe/settings.sh
+* /usr/lib/perf/perf-core/tests/shell/base_probe/test_adding_kernel.sh
 * /usr/lib/perf/perf-core/tests/shell/buildid.sh
+* /usr/lib/perf/perf-core/tests/shell/common/check_all_lines_matched.pl
+* /usr/lib/perf/perf-core/tests/shell/common/check_all_patterns_found.pl
+* /usr/lib/perf/perf-core/tests/shell/common/check_no_patterns_found.pl
+* /usr/lib/perf/perf-core/tests/shell/common/init.sh
+* /usr/lib/perf/perf-core/tests/shell/common/patterns.sh
+* /usr/lib/perf/perf-core/tests/shell/common/settings.sh
 * /usr/lib/perf/perf-core/tests/shell/coresight/asm_pure_loop.sh
 * /usr/lib/perf/perf-core/tests/shell/coresight/memcpy_thread_16k_10.sh
 * /usr/lib/perf/perf-core/tests/shell/coresight/thread_loop_check_tid_10.sh
@@ -181,6 +189,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/lib/waiting.sh
 * /usr/lib/perf/perf-core/tests/shell/list.sh
 * /usr/lib/perf/perf-core/tests/shell/lock_contention.sh
+* /usr/lib/perf/perf-core/tests/shell/perftool-testsuite_probe.sh
 * /usr/lib/perf/perf-core/tests/shell/pipe_test.sh
 * /usr/lib/perf/perf-core/tests/shell/probe_vfs_getname.sh
 * /usr/lib/perf/perf-core/tests/shell/record+probe_libc_inet_pton.sh

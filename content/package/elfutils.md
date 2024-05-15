@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils 0.191-1"
-version = "0.191-1"
+title = "elfutils 0.191-2"
+version = "0.191-2"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information"
-date = "2024-03-02T21:34:31"
+date = "2024-05-15T17:20:31"
 aliases = "/packages/137191"
 categories = ['base']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "818832"
-usize = "4994831"
-sha1sum = "c922c07d3ec9ab296622f8b4d1d4d4e3a6f4c486"
+size = "825676"
+usize = "5011016"
+sha1sum = "99cd64285e06aa843614fa6d5105500724cbeba8"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++
@@ -67,10 +67,8 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/share/doc/elfutils-0.191/COPYING-GPLV2
 * /usr/share/doc/elfutils-0.191/COPYING-LGPLV3
 * /usr/share/doc/elfutils-0.191/INSTALL
-* /usr/share/doc/elfutils-0.191/LICENSE
 * /usr/share/doc/elfutils-0.191/NEWS
 * /usr/share/doc/elfutils-0.191/README
-* /usr/share/doc/elfutils-0.191/README.md
 * /usr/share/doc/elfutils-0.191/THANKS
 * /usr/share/doc/elfutils-0.191/TODO
 * /usr/share/locale/de/LC_MESSAGES/elfutils.mo
