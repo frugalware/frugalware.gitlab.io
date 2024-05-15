@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "expat 2.6.2-3"
-version = "2.6.2-3"
+title = "expat 2.6.2-4"
+version = "2.6.2-4"
 description = "An XML Parser library written in C"
-date = "2024-05-08T08:30:51"
+date = "2024-05-15T19:10:29"
 aliases = "/packages/2370"
 categories = ['base']
 upstreamurl = "http://expat.sf.net"
 arch = "x86_64"
-size = "113080"
+size = "113028"
 usize = "357925"
-sha1sum = "73ed4fb1cdf7f5ea14416509e1f05648f631f151"
+sha1sum = "6101f18a422882b8d23733aa82c7331b8aeb5e5d"
 depends = "['coreutils>=6.26-2', 'glibc>=2.35']"
 reverse_depends = "['apache', 'apr-util', 'avahi', 'dbus', 'efl', 'elinks', 'enlightenment', 'exempi', 'exiv2', 'fontconfig', 'gdal', 'gdb', 'git', 'guarddog', 'insight-toolkit', 'intltool', 'kasablanca', 'kat', 'ksniffer', 'lftp', 'lib32-mesa-libswrast', 'libarchive', 'libdom', 'libextractor', 'libgl', 'liblcf', 'libosmesa', 'libreoffice', 'libva-mesa-driver', 'libxatracker', 'mesa-dri-drivers', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-vdpau-drivers', 'neon', 'perl-xml-parser', 'polkit', 'pwmanager', 'python3', 'qtparted', 'sablotron', 'terminology', 'unbound', 'wayland']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-expat 2.6.2-3"
-version = "2.6.2-3"
+title = "lib32-expat 2.6.2-4"
+version = "2.6.2-4"
 description = "An XML Parser library written in C ( 32bit )"
-date = "2024-05-08T08:30:51"
+date = "2024-05-15T19:10:29"
 aliases = "/packages/217708"
 categories = ['lib32-extra']
 upstreamurl = "http://expat.sf.net"
 arch = "x86_64"
-size = "88760"
+size = "88764"
 usize = "272177"
-sha1sum = "a5aa37ec1d0eb531fd1fa781e29cdc470c0a7541"
+sha1sum = "e2b945ac55de29361cb6c705567da3ffaf02acb8"
 depends = "[]"
 reverse_depends = "['lib32-avahi', 'lib32-dbus-glib', 'lib32-fontconfig', 'lib32-libgl', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-vdpau-drivers', 'lib32-polkit', 'lib32-wayland']"
 +++

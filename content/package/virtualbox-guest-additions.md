@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "virtualbox-guest-additions 7.0.18-1"
-version = "7.0.18-1"
+title = "virtualbox-guest-additions 7.0.18-3"
+version = "7.0.18-3"
 description = "VirtualBox guest Additions"
-date = "2024-05-06T14:51:59"
+date = "2024-05-15T18:05:03"
 aliases = "/packages/219162"
 categories = ['xapps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "750552"
-usize = "3126008"
-sha1sum = "73eda3f2d8cd576824eba2ed944ee3dd824869f9"
+size = "784728"
+usize = "3173526"
+sha1sum = "d121922471ff4ab1d2c1bac026ce5d2858aa7a84"
 depends = "['kernel=6.9-1', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrandr', 'mesa-dri-drivers', 'pam', 'xf86-video-vmware']"
 +++
 ### Description: 
