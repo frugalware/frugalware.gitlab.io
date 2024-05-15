@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sqlite3-static 3.45.3-1"
-version = "3.45.3-1"
+title = "sqlite3-static 3.45.3-2"
+version = "3.45.3-2"
 description = "Static files for sqlite3"
-date = "2024-04-16T12:33:41"
+date = "2024-05-15T12:36:05"
 aliases = "/packages/219949"
 categories = ['devel-extra']
 upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
-size = "6133956"
-usize = "6530408"
-sha1sum = "1e82ad68312e6afc2dd42cc590fe17a653670d4e"
+size = "6114440"
+usize = "6511288"
+sha1sum = "cf4a98bcd09aae5d1600e3d96aee2135eb24118a"
 depends = "[]"
 +++
 ### Description: 

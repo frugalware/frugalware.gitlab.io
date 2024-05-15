@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "irrlicht 1.8.5-1"
-version = "1.8.5-1"
+title = "irrlicht 1.8.5-2"
+version = "1.8.5-2"
 description = "An open source high performance realtime 3D graphics engine."
-date = "2022-04-22T12:44:16"
+date = "2024-05-15T12:23:47"
 aliases = "/packages/103737"
 categories = ['xlib-extra']
 upstreamurl = "https://sourceforge.net/projects/irrlicht"
 arch = "x86_64"
-size = "1696688"
-usize = "6320885"
-sha1sum = "7749f66b8369c02cd609d6d6128eb8d10cb9bb59"
+size = "1729752"
+usize = "6284929"
+sha1sum = "cc5893ae8e8e31aa6b89592b4a456ba480838f30"
 depends = "['libglvnd', 'libx11', 'libxcursor', 'libxxf86vm']"
 reverse_depends = "['irrlicht-examples']"
 +++
@@ -204,9 +204,4 @@ An open source high performance realtime 3D graphics engine.
 * /usr/lib/libIrrlicht.so.1
 * /usr/lib/libIrrlicht.so.1.8
 * /usr/lib/libIrrlicht.so.1.8.5
-* /usr/share/doc/irrlicht-1.8.5/AUTHORS
-* /usr/share/doc/irrlicht-1.8.5/COPYING
-* /usr/share/doc/irrlicht-1.8.5/NEWS
-* /usr/share/doc/irrlicht-1.8.5/README
 * /usr/share/doc/irrlicht-1.8.5/readme.txt
-* /usr/share/doc/irrlicht-1.8.5/TODO

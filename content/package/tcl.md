@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tcl 8.6.14-1"
-version = "8.6.14-1"
+title = "tcl 8.6.14-2"
+version = "8.6.14-2"
 description = "The Tcl scripting language"
-date = "2024-03-01T10:56:14"
+date = "2024-05-15T12:33:34"
 aliases = "/packages/3350"
 categories = ['devel']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "3265964"
-usize = "14271723"
-sha1sum = "2f8550205aa404d9071981f0e8c7c0edfc05fcc5"
+size = "3275928"
+usize = "14300267"
+sha1sum = "418162f954e6a7a323caa300ae12f25064d1f1f8"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['expect', 'insight-toolkit', 'postgresql-pltcl', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++

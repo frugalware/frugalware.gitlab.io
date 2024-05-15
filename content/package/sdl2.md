@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2 2.30.3-1"
-version = "2.30.3-1"
+title = "sdl2 2.30.3-2"
+version = "2.30.3-2"
 description = "Simple DirectMedia Layer library v2"
-date = "2024-05-01T18:17:04"
+date = "2024-05-15T12:29:05"
 aliases = "/packages/200474"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "888128"
-usize = "4326623"
-sha1sum = "66e985a02973c12d9a3fe4088220a7a70f5d093d"
+size = "896720"
+usize = "4363487"
+sha1sum = "409499891a0d71a9d7b12723afc6d6a9212a53e5"
 depends = "['glibc>=2.34']"
 reverse_depends = "['crawl', 'crawl-tiles', 'faudio', 'ffmpeg', 'freeorion', 'guvcview', 'jazz2', 'libcamera-tools', 'linuxconsole', 'love', 'mednafen', 'mupen64plus', 'naev', 'openal', 'opendiablo2', 'openscenegraph', 'qemu', 'qt5-gamepad', 'scrcpy', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_net', 'sdl2_ttf', 'sherlock265', 'smpeg2', 'solarus', 'spring', 'stella', 'ultrastardx', 'v4l-utils', 'xonotic']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf-python 25.3-1"
-version = "25.3-1"
+title = "protobuf-python 25.3-2"
+version = "25.3-2"
 description = "python bindings for protobuf"
-date = "2024-02-23T13:23:46"
+date = "2024-05-15T12:16:08"
 aliases = "/packages/74493"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "250368"
-usize = "1419890"
-sha1sum = "8d40fa219ed139e99aea8b446687582a3d0a4d94"
+size = "250388"
+usize = "1419934"
+sha1sum = "7bfa5ffc9a3acf60e5e70586659d8e14e81fc9da"
 depends = "['protobuf=25.3', 'python3>=3.12']"
 +++
 ### Description: 

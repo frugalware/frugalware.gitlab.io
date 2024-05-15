@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "botan 3.4.0-1"
-version = "3.4.0-1"
+title = "botan 3.4.0-2"
+version = "3.4.0-2"
 description = "Crypto library written in C++"
-date = "2024-05-02T09:57:15"
+date = "2024-05-15T12:38:49"
 aliases = "/packages/118822"
 categories = ['lib']
 upstreamurl = "http://botan.randombit.net/"
 arch = "x86_64"
-size = "2505120"
-usize = "9122262"
-sha1sum = "54b36cf4a8e4b1495b3c89e477662352a4d426bd"
+size = "2558944"
+usize = "9297862"
+sha1sum = "fa1d1718c4b4edeeb5c721fbc610fe054341b745"
 depends = "['bzip2', 'libgcc', 'libstdc++', 'python3', 'sqlite3', 'xz', 'zlib>=1.2.12']"
 reverse_depends = "['keepassxc', 'qca-botan', 'qca-qt5']"
 +++
