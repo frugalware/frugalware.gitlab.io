@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "201804"
 usize = "554043"
 sha1sum = "74d51148e03e0d2adbc57a776f2c6a568ceda5f6"
-depends = "['lz4', 'lzo', 'xz', 'zlib>=1.2.12', 'zstd']"
+depends = "['lzo', 'xz', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['binwalk', 'calamares-frugalware']"
 +++
 ### Description: 

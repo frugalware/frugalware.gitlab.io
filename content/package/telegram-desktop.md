@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "32121572"
 usize = "90863469"
 sha1sum = "f5c572084f5282e75e4b80c301ead605c2fb2bef"
-depends = "['abseil-cpp>=20230125', 'ffmpeg>=6.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'lz4', 'openal', 'openssl', 'opus', 'pipewire', 'protobuf>=25.3', 'qt6-5compat>=6.6.3', 'qt6-imageformats>=6.6.3', 'qt6-svg>=6.6.3', 'qt6-wayland>=6.6.3', 'rnnoise', 'webkit-gtk3', 'xxhash']"
+depends = "['abseil-cpp>=20230125', 'ffmpeg>=6.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'openal', 'openssl', 'opus', 'pipewire', 'protobuf>=25.3', 'qt6-5compat>=6.6.3', 'qt6-imageformats>=6.6.3', 'qt6-svg>=6.6.3', 'qt6-wayland>=6.6.3', 'rnnoise', 'webkit-gtk3', 'xxhash']"
 +++
 ### Description: 
 Official Telegram Desktop client

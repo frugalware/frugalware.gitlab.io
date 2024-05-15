@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "e2fsprogs 1.47.0-3"
-version = "1.47.0-3"
+title = "e2fsprogs 1.47.0-4"
+version = "1.47.0-4"
 description = "Utilities needed to create and maintain ext2 and ext3 filesystems"
-date = "2024-01-02T12:01:36"
+date = "2024-05-15T15:32:45"
 aliases = "/packages/2367"
 categories = ['base']
 upstreamurl = "http://e2fsprogs.sourceforge.net/"
 arch = "x86_64"
-size = "1152644"
-usize = "5157686"
-sha1sum = "4922d5d08a060596dc5d984a8fa5833d93561379"
+size = "1153968"
+usize = "5165950"
+sha1sum = "432cdedbf6841c6e440dd87767e3e8e65d8760ec"
 depends = "['coreutils>=8.29-5', 'glibc>=2.34', 'libblkid>=2.31.1-2', 'libuuid>=2.31.1-2', 'util-linux>=2.31.1-2']"
 reverse_depends = "['aide', 'btrfs-progs', 'cyrus-sasl', 'cyrus-sasl-sql', 'dovecot', 'e2fsimage', 'fsarchiver', 'kernel-initrd', 'kernel-lts-initrd', 'krb5', 'libkrb5', 'partclone', 'parted', 'partitionmanager', 'quota-tools', 'reiserfsprogs']"
 +++

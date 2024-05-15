@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "e2fsprogs-static 1.47.0-3"
-version = "1.47.0-3"
+title = "e2fsprogs-static 1.47.0-4"
+version = "1.47.0-4"
 description = "Static files for e2fsprogs"
-date = "2024-01-02T12:01:36"
+date = "2024-05-15T15:32:45"
 aliases = "/packages/219903"
 categories = ['devel-extra']
 upstreamurl = "http://e2fsprogs.sourceforge.net/"
 arch = "x86_64"
-size = "2639356"
-usize = "3253412"
-sha1sum = "f8bce16f0120bc16a52e8ed15ebf2c07917a64b8"
+size = "2640672"
+usize = "3254268"
+sha1sum = "853d8d1a6a46acf108adb2038d42328355afe816"
 depends = "[]"
 +++
 ### Description: 

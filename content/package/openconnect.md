@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "684916"
 usize = "3457207"
 sha1sum = "f70aaae47e163d70aee45f3227070719ba94c6e5"
-depends = "['gnutls', 'krb5', 'libproxy', 'libxml2', 'lz4', 'vpnc']"
+depends = "['gnutls', 'krb5', 'libproxy', 'libxml2', 'vpnc']"
 reverse_depends = "['nm-openconnect', 'plasma-nm-openconnect']"
 license = "LGPL2.1"
 +++

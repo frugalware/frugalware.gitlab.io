@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "10717200"
 usize = "49498622"
 sha1sum = "1eba58e33461930713428ed44b1abdf7f6849709"
-depends = "['alembic', 'assimp', 'ceres-solver>=2.2.0', 'coin-or-coinutils', 'coin-or-lemon', 'eigen', 'flann', 'geogram', 'imath', 'libboost>=1.83.0', 'libgomp', 'lz4', 'openexr', 'opengv', 'openimageio>=2.5.4.0', 'zlib>=1.2.12']"
+depends = "['alembic', 'assimp', 'ceres-solver>=2.2.0', 'coin-or-coinutils', 'coin-or-lemon', 'eigen', 'flann', 'geogram', 'imath', 'libboost>=1.83.0', 'libgomp', 'openexr', 'opengv', 'openimageio>=2.5.4.0', 'zlib>=1.2.12']"
 reverse_depends = "['meshroom']"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "5907144"
 usize = "26166075"
 sha1sum = "6e6dc380a72f82af8d79c337ef7e074bbb6b59ac"
-depends = "['bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'harfbuzz', 'hyphen', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libsndfile', 'libstdc++', 'libsystemd', 'libunwind', 'libuuid', 'libvorbis', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxtst', 'luajit2', 'lz4', 'mtdev', 'openssl', 'pcre', 'util-linux', 'wayland', 'xz', 'zlib>=1.2.12']"
+depends = "['bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'harfbuzz', 'hyphen', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libsndfile', 'libstdc++', 'libsystemd', 'libunwind', 'libuuid', 'libvorbis', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxtst', 'luajit2', 'mtdev', 'openssl', 'pcre', 'util-linux', 'wayland', 'xz', 'zlib>=1.2.12']"
 +++
 ### Description: 
 Enlightenment Foundation Terminal

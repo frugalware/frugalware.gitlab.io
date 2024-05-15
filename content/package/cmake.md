@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "10532528"
 usize = "64167605"
 sha1sum = "a395afb9905ca7a3c8a66e4006398dfff817d015"
-depends = "['cppdap', 'curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
+depends = "['cppdap', 'curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'ncurses>=6.5', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build']"
 +++
 ### Description: 

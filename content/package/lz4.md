@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "lz4 1.9.4-4"
-version = "1.9.4-4"
+title = "lz4 1.9.4-7"
+version = "1.9.4-7"
 description = "Extremely Fast Compression algorithm"
-date = "2024-05-13T23:54:40"
-aliases = "/packages/217470"
+date = "2024-05-15T15:25:07"
+aliases = "/packages/221474"
 categories = ['base']
 upstreamurl = "http://www.lz4.org/"
 arch = "x86_64"
-size = "141812"
+size = "141932"
 usize = "709933"
-sha1sum = "29736e782c50eba174ed92cf5f7868640e9403ad"
+sha1sum = "a7bb4d1c60781ee7738760dc0dd40c232238b3ae"
 depends = "['glibc>=2.35']"
-reverse_depends = "['alicevision', 'cmake', 'efl', 'enlightenment', 'flann', 'libsystemd', 'libvlc', 'mariadb-libs', 'openconnect', 'pacman-g2', 'squashfs', 'squashfuse', 'systemd', 'systemd-remote', 'systemd-sysvinit', 'telegram-desktop', 'terminology', 'zstd']"
+reverse_depends = "['zstd']"
 +++
 ### Description: 
 Extremely Fast Compression algorithm

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "57956"
 usize = "255067"
 sha1sum = "5757bd8de83127cb37ddf90286e0a3f00682e617"
-depends = "['fuse', 'lz4', 'xz', 'zlib', 'zstd']"
+depends = "['fuse', 'xz', 'zlib', 'zstd']"
 reverse_depends = "['libappimage']"
 +++
 ### Description: 

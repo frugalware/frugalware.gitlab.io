@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zstd-static 1.5.6-2"
-version = "1.5.6-2"
+title = "zstd-static 1.5.6-3"
+version = "1.5.6-3"
 description = "Static files for zstd"
-date = "2024-05-08T08:43:25"
+date = "2024-05-15T15:29:35"
 aliases = "/packages/220452"
 categories = ['devel-extra']
 upstreamurl = "http://www.zstd.net/"
 arch = "x86_64"
-size = "3113384"
-usize = "3614888"
-sha1sum = "c112da6e73c1b8187d1a35880170c0d45408bc00"
+size = "3113880"
+usize = "3614984"
+sha1sum = "0715c145696019e35abb74571f0220298a717890"
 depends = "[]"
 +++
 ### Description: 
