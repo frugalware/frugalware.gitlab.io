@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tk-static 8.6.13-1"
-version = "8.6.13-1"
+title = "tk-static 8.6.13-2"
+version = "8.6.13-2"
 description = "Static files for tk"
-date = "2023-09-25T09:46:28"
+date = "2024-05-15T14:57:49"
 aliases = "/packages/219955"
 categories = ['devel-extra']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "3176"
+size = "3220"
 usize = "5871"
-sha1sum = "9c3c5480274129806f90f898a4e8eab17a477528"
+sha1sum = "ccfcbeac23e71017f86ebbad9f682cfefbf31dd0"
 depends = "['tcl-static']"
 +++
 ### Description: 

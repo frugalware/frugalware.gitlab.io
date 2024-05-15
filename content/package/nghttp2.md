@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nghttp2 1.61.0-1"
-version = "1.61.0-1"
+title = "nghttp2 1.61.0-2"
+version = "1.61.0-2"
 description = "nghttp2 is an implementation of HTTP/2 in C"
-date = "2024-05-02T12:18:53"
+date = "2024-05-15T14:56:28"
 aliases = "/packages/217352"
 categories = ['chroot-core']
 upstreamurl = "http://nghttp2.org"
 arch = "x86_64"
-size = "155664"
+size = "155592"
 usize = "542113"
-sha1sum = "88865c0f2d7539f69da1fc137e4181076a5f7cd3"
+sha1sum = "03b993b7969a42d5d4687a790723147488bb02b9"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['apache', 'bind', 'curl', 'libsoup3', 'nginx', 'nodejs', 'nodejs18', 'wget2', 'wireshark']"
 +++
