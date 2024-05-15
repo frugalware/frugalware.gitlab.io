@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mariadb-libs 11.3.2-1"
-version = "11.3.2-1"
+title = "mariadb-libs 11.3.2-3"
+version = "11.3.2-3"
 description = "Mariadb library."
-date = "2024-03-04T10:14:17"
+date = "2024-05-15T20:33:06"
 aliases = "/packages/219863"
 categories = ['lib']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "6223596"
-usize = "30042603"
-sha1sum = "285db32af28009e82cdc0e6a4ab4fefb55dbbef5"
-depends = "['bzip2', 'libaio', 'liburing', 'lzo', 'openssl>=3.0.7', 'xz', 'zlib']"
+size = "6241984"
+usize = "30103691"
+sha1sum = "96adf7a9728feb333c0741d0823d0c6d0069b4ee"
+depends = "['bzip2', 'libaio', 'liburing', 'lz4', 'lzo', 'openssl>=3.0.7', 'xz', 'zlib']"
 reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'perl-dbd-mysql', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
 +++
 ### Description: 

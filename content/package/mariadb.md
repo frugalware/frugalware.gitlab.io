@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mariadb 11.3.2-1"
-version = "11.3.2-1"
+title = "mariadb 11.3.2-3"
+version = "11.3.2-3"
 description = "A fast SQL database server"
-date = "2024-03-04T10:14:17"
+date = "2024-05-15T20:33:06"
 aliases = "/packages/219549"
 categories = ['apps-extra']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "59374388"
-usize = "472689190"
-sha1sum = "09401f916b24b0d09bf8ec256c32d3143f0792ee"
-depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.3.2', 'openssl>=3.1.0']"
+size = "59848252"
+usize = "474501918"
+sha1sum = "e5ef88c30a4b8f74d1a64f17491a1a6418bf61cd"
+depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.3.2', 'openssl>=3.1.0', 'readline']"
 reverse_depends = "['postfixadmin']"
 +++
 ### Description: 
