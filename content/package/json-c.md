@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "json-c 0.17-2"
-version = "0.17-2"
+title = "json-c 0.17-3"
+version = "0.17-3"
 description = "JSON-C - A JSON implementation in C"
-date = "2023-09-05T09:33:17"
+date = "2024-05-15T17:09:41"
 aliases = "/packages/217485"
 categories = ['base']
 upstreamurl = "https://github.com/json-c/json-c/wiki"
 arch = "x86_64"
-size = "68836"
-usize = "238026"
-sha1sum = "5dadbf758f6055cf8c2c6825ede8e4e8ee3aec3c"
+size = "70072"
+usize = "238114"
+sha1sum = "24899aa5e883ff2d590f08aa28680369fe5f8e31"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cryptsetup-luks', 'efl', 'enlightenment', 'fontconfig', 'gdal', 'gdal', 'libmypaint', 'libnvme', 'libu2f-host', 'multipath-tools', 'ndctl', 'strongswan', 'terminology', 'tpm2-tss', 'v4l-utils']"
 +++

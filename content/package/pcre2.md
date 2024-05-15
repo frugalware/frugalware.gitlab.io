@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pcre2 10.37-6"
-version = "10.37-6"
+title = "pcre2 10.37-7"
+version = "10.37-7"
 description = "Perl-compatible regular expression library (version 2)."
-date = "2023-09-05T11:36:29"
+date = "2024-05-15T17:11:42"
 aliases = "/packages/217807"
 categories = ['base']
 upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
-size = "1107720"
-usize = "4138803"
-sha1sum = "ee32da443a0166fd57847655dc93b406b920f1de"
+size = "1106756"
+usize = "4163379"
+sha1sum = "1ba15f7b62769507864a15ffe7bb65f93833f8bb"
 depends = "['bzip2>=1.0.6-18', 'ncurses>=6.1', 'readline>=8.0-3', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'babe', 'clamav', 'cmst', 'fish', 'git', 'grep', 'juk', 'julia', 'kimagemapeditor', 'kmouth', 'ksmtp', 'kup', 'libgit2', 'libktorrent', 'lumina-desktop', 'pavucontrol-qt', 'qt5-networkauth', 'ripgrep', 'sdlmame', 'ssr', 'systemd', 'util-linux', 'vlc', 'vulkan-lunarg-tools', 'wget', 'wget2']"
 +++

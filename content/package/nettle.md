@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nettle 3.9.1-1"
-version = "3.9.1-1"
+title = "nettle 3.9.1-2"
+version = "3.9.1-2"
 description = "A low-level cryptographic library"
-date = "2023-06-02T13:51:18"
+date = "2024-05-15T17:13:38"
 aliases = "/packages/136587"
 categories = ['base']
 upstreamurl = "http://www.lysator.liu.se/~nisse/nettle/"
 arch = "x86_64"
-size = "587140"
+size = "587244"
 usize = "1716010"
-sha1sum = "6a3215e6b02e074356bd52b16e7029eb92e78469"
+sha1sum = "d310200ef015b2a5ffa6cfc7394b79752a330e9e"
 depends = "['gmp>=6.1.2-12']"
 reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad', 'libarchive', 'opendht', 'pacman-g2', 'qemu', 'rdfind', 'squid', 'supertuxkart', 'telepathy-salut', 'xorg-server-xwayland']"
 +++

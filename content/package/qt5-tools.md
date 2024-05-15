@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-tools 5.15.13-1"
-version = "5.15.13-1"
+title = "qt5-tools 5.15.13-2"
+version = "5.15.13-2"
 description = "The Qt5 toolkit, qttools"
-date = "2024-03-13T15:27:09"
+date = "2024-05-15T16:49:55"
 aliases = "/packages/217659"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "5072716"
-usize = "15597140"
-sha1sum = "27d250703f401980263e709dece4f82488244b90"
+size = "5093252"
+usize = "15711908"
+sha1sum = "0f4818fabb48224ad5b9ef5cb6a4612d406309bc"
 depends = "['clang-libs>=16.0.6', 'qt5-declarative>=5.15.6', 'qt5-location>=5.15.6', 'qt5-qdbus>=5.15.13']"
 reverse_depends = "['kdevelop', 'librecad', 'marble', 'qscintilla2-qt5', 'qtkeychain']"
 +++

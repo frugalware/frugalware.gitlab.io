@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-declarative-static 5.15.13-1"
-version = "5.15.13-1"
+title = "qt5-declarative-static 5.15.13-2"
+version = "5.15.13-2"
 description = "Qt5 declarative static libs."
-date = "2024-03-13T15:18:53"
+date = "2024-05-15T16:44:10"
 aliases = "/packages/219943"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "5480428"
-usize = "8758181"
-sha1sum = "2790f0c6fdb3867dd8d71dfdb9973b91ff0437a6"
+size = "5484244"
+usize = "8751655"
+sha1sum = "f9bab92d9181ffb60f57a4c88e86509f2a0b4798"
 depends = "[]"
 +++
 ### Description: 
