@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-glib2 2.80.0-1"
-version = "2.80.0-1"
+title = "lib32-glib2 2.80.0-2"
+version = "2.80.0-2"
 description = "Common C routines used by GTK+ and other libraries (32-bit)"
-date = "2024-04-03T07:40:12"
+date = "2024-05-15T11:44:51"
 aliases = "/packages/217903"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1556348"
+size = "1556240"
 usize = "8032814"
-sha1sum = "b8c9333ca206848b71ed1c8b38a2d72618fc0873"
+sha1sum = "15c674f5f9f712ef920a57b11fb062a3eee12cf5"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre', 'lib32-util-linux', 'lib32-zlib']"
 reverse_depends = "['lib32-at-spi2-core', 'lib32-avahi-glib', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++

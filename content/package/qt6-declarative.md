@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-declarative 6.7.0-2"
-version = "6.7.0-2"
+title = "qt6-declarative 6.7.0-3"
+version = "6.7.0-3"
 description = "The Qt6 toolkit, qtdeclarative"
-date = "2024-04-03T19:56:18"
+date = "2024-05-15T11:22:27"
 aliases = "/packages/220760"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "69438312"
-usize = "210287810"
-sha1sum = "66c07b9b628c21ae81024599bd56421e565cac27"
+size = "71308264"
+usize = "212610876"
+sha1sum = "5d89d2dc442cc121229712e1055e76ce5348772f"
 depends = "['qt6-languageserver']"
 reverse_depends = "['accounts-qml-module', 'akonadi-search', 'analitza', 'bluez-qt', 'calamares-frugalware', 'dolphin', 'kaccounts-integration', 'kanagram', 'kate', 'kdenlive', 'khangman', 'kiconthemes', 'kirigami', 'kopeninghours', 'kpublictransport', 'kquickcharts', 'kquickimageeditor', 'ktexttemplate', 'kuserfeedback', 'libkdegames', 'mpvqt', 'print-manager', 'pyside6', 'qcoro', 'qt6-3d', 'qt6-5compat', 'qt6-charts', 'qt6-connectivity', 'qt6-datavis3d', 'qt6-httpserver', 'qt6-location', 'qt6-lottie', 'qt6-positioning', 'qt6-quicktimeline', 'qt6-remoteobjects', 'qt6-scxml', 'qt6-sensors', 'qt6-speech', 'qt6-tools', 'qt6-virtualkeyboard', 'qt6-wayland', 'qt6-webchannel', 'qt6-websockets', 'sddm', 'solid']"
 +++
@@ -2085,14 +2085,6 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateTargets-release.cmake
 * /usr/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateTargets.cmake
 * /usr/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateVersionlessTargets.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersionImpl.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsDependencies.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-release.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake
-* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake
 * /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake
@@ -2317,7 +2309,6 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/qt6/bin/qmltc
 * /usr/lib/qt6/bin/qmltestrunner
 * /usr/lib/qt6/bin/qmltime
-* /usr/lib/qt6/bin/svgtoqml
 * /usr/lib/qt6/metatypes/qt6labsanimation_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6labsfolderlistmodel_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6labsqmlmodels_release_metatypes.json

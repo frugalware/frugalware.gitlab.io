@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib2 2.80.0-1"
-version = "2.80.0-1"
+title = "glib2 2.80.0-2"
+version = "2.80.0-2"
 description = "Common C routines used by GTK+ and other libraries"
-date = "2024-04-03T07:40:12"
+date = "2024-05-15T11:44:51"
 aliases = "/packages/2384"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "5281016"
-usize = "31107751"
-sha1sum = "d75ed82dc2a64610022e9dfa5ea1640e9940f622"
+size = "4033280"
+usize = "21663845"
+sha1sum = "57e694880591671ed1eddc01343dba72acd3d16b"
 depends = "['elfutils>=0.170-2', 'glibc>=2.34', 'libblkid>=2.33.2-2', 'libffi>=3.4', 'pcre>=8.42-2', 'python3', 'util-linux', 'zlib>=1.2.12']"
 reverse_depends = "['at-spi2-core', 'avahi-glib', 'bitlbee-common', 'bluez', 'cairo', 'colord', 'dbus-c++', 'dbus-glib', 'dbus-sharp-glib', 'ddcutil', 'desktop-file-utils', 'efl', 'enchant', 'enlightenment', 'gcab', 'gdk-pixbuf2', 'glib-networking', 'glibmm', 'glibmm24', 'glyr', 'gmime2', 'gmime3', 'gnokii-mysql', 'gnokii-pq', 'gobject-introspection', 'graphene', 'gsettings-desktop-schemas', 'gst1-plugins-base-gio', 'gstreamer1', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4-tools', 'gvfs', 'harfbuzz', 'ifuse', 'iio-sensor-proxy', 'irqbalance', 'irssi', 'json-glib', 'keximdb', 'lensfun', 'libaccounts-glib', 'libatspi', 'libcroco', 'libdbusmenu', 'libdex', 'libgee', 'libgee8', 'libgexiv2', 'libgovirt', 'libgudev', 'libguestfs', 'libgusb', 'libhandy', 'libibus', 'libidl', 'liblqr', 'libmbim', 'libmms', 'libosinfo', 'libportal', 'libqalculate', 'libqrtr-glib', 'libseafile', 'libsoup', 'libsoup3', 'libvterm', 'libwacom', 'libxmlb', 'loudmouth', 'mc', 'mcabber', 'mdbtools', 'meanwhile', 'msmtp', 'nm-libreswan', 'nm-openvpn', 'ofono', 'packagekit-glib', 'pacman-tools', 'pinentry', 'pkgconfig', 'qt5-base', 'redshift', 'rspamd', 'scribus', 'scummvm', 'shared-mime-info', 'sofia-sip', 'sshfs', 'switcheroo-control', 'sylpheed', 'telegram-desktop', 'template-glib', 'terminology', 'threema-desktop', 'tootle', 'vala', 'whalebird', 'wireshark', 'wpebackend-fdo', 'xdg-dbus-proxy', 'xdg-desktop-portal']"
 +++
@@ -402,106 +402,5 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/glib-2.0/dtds/gresource.dtd
 * /usr/share/glib-2.0/gdb/glib_gdb.py
 * /usr/share/glib-2.0/gdb/gobject_gdb.py
-* /usr/share/glib-2.0/gettext/po/Makefile.in.in
 * /usr/share/glib-2.0/schemas/gschema.dtd
 * /usr/share/glib-2.0/valgrind/glib.supp
-* /usr/share/locale/ab/LC_MESSAGES/glib20.mo
-* /usr/share/locale/af/LC_MESSAGES/glib20.mo
-* /usr/share/locale/am/LC_MESSAGES/glib20.mo
-* /usr/share/locale/an/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ar/LC_MESSAGES/glib20.mo
-* /usr/share/locale/as/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ast/LC_MESSAGES/glib20.mo
-* /usr/share/locale/az/LC_MESSAGES/glib20.mo
-* /usr/share/locale/be/LC_MESSAGES/glib20.mo
-* /usr/share/locale/be@latin/LC_MESSAGES/glib20.mo
-* /usr/share/locale/bg/LC_MESSAGES/glib20.mo
-* /usr/share/locale/bn/LC_MESSAGES/glib20.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/glib20.mo
-* /usr/share/locale/bs/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ca/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/glib20.mo
-* /usr/share/locale/cs/LC_MESSAGES/glib20.mo
-* /usr/share/locale/cy/LC_MESSAGES/glib20.mo
-* /usr/share/locale/da/LC_MESSAGES/glib20.mo
-* /usr/share/locale/de/LC_MESSAGES/glib20.mo
-* /usr/share/locale/dz/LC_MESSAGES/glib20.mo
-* /usr/share/locale/el/LC_MESSAGES/glib20.mo
-* /usr/share/locale/en@shaw/LC_MESSAGES/glib20.mo
-* /usr/share/locale/en_CA/LC_MESSAGES/glib20.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/glib20.mo
-* /usr/share/locale/eo/LC_MESSAGES/glib20.mo
-* /usr/share/locale/es/LC_MESSAGES/glib20.mo
-* /usr/share/locale/et/LC_MESSAGES/glib20.mo
-* /usr/share/locale/eu/LC_MESSAGES/glib20.mo
-* /usr/share/locale/fa/LC_MESSAGES/glib20.mo
-* /usr/share/locale/fi/LC_MESSAGES/glib20.mo
-* /usr/share/locale/fr/LC_MESSAGES/glib20.mo
-* /usr/share/locale/fur/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ga/LC_MESSAGES/glib20.mo
-* /usr/share/locale/gd/LC_MESSAGES/glib20.mo
-* /usr/share/locale/gl/LC_MESSAGES/glib20.mo
-* /usr/share/locale/gu/LC_MESSAGES/glib20.mo
-* /usr/share/locale/he/LC_MESSAGES/glib20.mo
-* /usr/share/locale/hi/LC_MESSAGES/glib20.mo
-* /usr/share/locale/hr/LC_MESSAGES/glib20.mo
-* /usr/share/locale/hu/LC_MESSAGES/glib20.mo
-* /usr/share/locale/hy/LC_MESSAGES/glib20.mo
-* /usr/share/locale/id/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ie/LC_MESSAGES/glib20.mo
-* /usr/share/locale/is/LC_MESSAGES/glib20.mo
-* /usr/share/locale/it/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ja/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ka/LC_MESSAGES/glib20.mo
-* /usr/share/locale/kk/LC_MESSAGES/glib20.mo
-* /usr/share/locale/kn/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ko/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ku/LC_MESSAGES/glib20.mo
-* /usr/share/locale/lt/LC_MESSAGES/glib20.mo
-* /usr/share/locale/lv/LC_MESSAGES/glib20.mo
-* /usr/share/locale/mai/LC_MESSAGES/glib20.mo
-* /usr/share/locale/mg/LC_MESSAGES/glib20.mo
-* /usr/share/locale/mk/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ml/LC_MESSAGES/glib20.mo
-* /usr/share/locale/mn/LC_MESSAGES/glib20.mo
-* /usr/share/locale/mr/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ms/LC_MESSAGES/glib20.mo
-* /usr/share/locale/nb/LC_MESSAGES/glib20.mo
-* /usr/share/locale/nds/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ne/LC_MESSAGES/glib20.mo
-* /usr/share/locale/nl/LC_MESSAGES/glib20.mo
-* /usr/share/locale/nn/LC_MESSAGES/glib20.mo
-* /usr/share/locale/oc/LC_MESSAGES/glib20.mo
-* /usr/share/locale/or/LC_MESSAGES/glib20.mo
-* /usr/share/locale/pa/LC_MESSAGES/glib20.mo
-* /usr/share/locale/pl/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ps/LC_MESSAGES/glib20.mo
-* /usr/share/locale/pt/LC_MESSAGES/glib20.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ro/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ru/LC_MESSAGES/glib20.mo
-* /usr/share/locale/rw/LC_MESSAGES/glib20.mo
-* /usr/share/locale/si/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sk/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sl/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sq/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sr/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sr@ije/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/glib20.mo
-* /usr/share/locale/sv/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ta/LC_MESSAGES/glib20.mo
-* /usr/share/locale/te/LC_MESSAGES/glib20.mo
-* /usr/share/locale/tg/LC_MESSAGES/glib20.mo
-* /usr/share/locale/th/LC_MESSAGES/glib20.mo
-* /usr/share/locale/tl/LC_MESSAGES/glib20.mo
-* /usr/share/locale/tr/LC_MESSAGES/glib20.mo
-* /usr/share/locale/tt/LC_MESSAGES/glib20.mo
-* /usr/share/locale/ug/LC_MESSAGES/glib20.mo
-* /usr/share/locale/uk/LC_MESSAGES/glib20.mo
-* /usr/share/locale/vi/LC_MESSAGES/glib20.mo
-* /usr/share/locale/wa/LC_MESSAGES/glib20.mo
-* /usr/share/locale/xh/LC_MESSAGES/glib20.mo
-* /usr/share/locale/yi/LC_MESSAGES/glib20.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/glib20.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/glib20.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/glib20.mo

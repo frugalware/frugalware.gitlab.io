@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsoap 2.8.127-1"
-version = "2.8.127-1"
+title = "gsoap 2.8.134-1"
+version = "2.8.134-1"
 description = "A cross-platform development environment for C and C++ SOAP/XML Web services."
-date = "2023-03-24T10:50:53"
+date = "2024-05-15T12:10:51"
 aliases = "/packages/220199"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/gsoap2"
 arch = "x86_64"
-size = "1123660"
-usize = "6088528"
-sha1sum = "1a171a6dc52055c5abb617bf41efa7dc3e84de00"
+size = "1231660"
+usize = "6235992"
+sha1sum = "422c3524d3516d7509303a08ab66e47bef781411"
 depends = "['flex', 'libgcc', 'libstdc++', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -26,8 +26,8 @@ A cross-platform development environment for C and C++ SOAP/XML Web services.
 * /usr/lib/pkgconfig/gsoapck.pc
 * /usr/lib/pkgconfig/gsoapssl++.pc
 * /usr/lib/pkgconfig/gsoapssl.pc
-* /usr/share/doc/gsoap-2.8.127/INSTALL.txt
-* /usr/share/doc/gsoap-2.8.127/README.txt
+* /usr/share/doc/gsoap-2.8.134/INSTALL.txt
+* /usr/share/doc/gsoap-2.8.134/README.txt
 * /usr/share/gsoap/custom/chrono_duration.cpp
 * /usr/share/gsoap/custom/chrono_duration.h
 * /usr/share/gsoap/custom/chrono_time_point.cpp
@@ -173,6 +173,9 @@ A cross-platform development environment for C and C++ SOAP/XML Web services.
 * /usr/share/gsoap/plugin/wsaapi.h
 * /usr/share/gsoap/plugin/wsddapi.c
 * /usr/share/gsoap/plugin/wsddapi.h
+* /usr/share/gsoap/plugin/wsdl2h-httpda.o
+* /usr/share/gsoap/plugin/wsdl2h-smdevp.o
+* /usr/share/gsoap/plugin/wsdl2h-threads.o
 * /usr/share/gsoap/plugin/wsrmapi.c
 * /usr/share/gsoap/plugin/wsrmapi.h
 * /usr/share/gsoap/plugin/wsse2api.c
