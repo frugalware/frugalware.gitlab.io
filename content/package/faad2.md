@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "faad2 2.8.8-5"
-version = "2.8.8-5"
+title = "faad2 2.8.8-6"
+version = "2.8.8-6"
 description = "ISO AAC audio decoder"
-date = "2023-10-22T12:11:15"
+date = "2024-05-16T00:41:11"
 aliases = "/packages/2992"
 categories = ['multimedia']
 upstreamurl = "http://www.audiocoding.com/"
 arch = "x86_64"
-size = "200216"
+size = "203804"
 usize = "608036"
-sha1sum = "ce8bd34029dae92bb401a3073661a863a336f831"
+sha1sum = "56484e23f87346eb8e14ec550016b31dade7002c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-faad2', 'mencoder', 'mplayer', 'mpv', 'scummvm', 'vlc-faad']"
 +++

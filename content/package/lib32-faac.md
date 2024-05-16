@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-faac 1.30-3"
-version = "1.30-3"
+title = "lib32-faac 1.30-4"
+version = "1.30-4"
 description = "FAAC is an AAC audio encoder. ( 32bit )"
-date = "2023-10-22T12:09:46"
+date = "2024-05-16T00:39:48"
 aliases = "/packages/219207"
 categories = ['lib32-extra']
 upstreamurl = "http://www.audiocoding.com"
 arch = "x86_64"
-size = "25264"
+size = "25904"
 usize = "55168"
-sha1sum = "64cfbdfda56246f05511fc869b5aa1bf919454b3"
+sha1sum = "3d39940b08b8f0aad43013000a9833f2079874b3"
 depends = "['lib32-libmp4v2>=2.1.0-3']"
 reverse_depends = "['lib32-ffmpeg']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "faac 1.30-3"
-version = "1.30-3"
+title = "faac 1.30-4"
+version = "1.30-4"
 description = "FAAC is an AAC audio encoder."
-date = "2023-10-22T12:09:46"
+date = "2024-05-16T00:39:48"
 aliases = "/packages/2991"
 categories = ['multimedia']
 upstreamurl = "http://www.audiocoding.com"
 arch = "x86_64"
-size = "62252"
+size = "62712"
 usize = "171168"
-sha1sum = "81b17e3974484c84282e63b0a4c08ef32716037c"
+sha1sum = "8224a3729bb77919f235fa24db45e06fb083c187"
 depends = "['libmp4v2>=2.1.0-3', 'libstdc++>=11.2']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-faac', 'mencoder', 'mplayer']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freetype2 2.13.2-1"
-version = "2.13.2-1"
+title = "freetype2 2.13.2-2"
+version = "2.13.2-2"
 description = "TrueType font rendering library - 2.0 series (with bytecode interpreter)"
-date = "2023-08-31T08:02:31"
+date = "2024-05-16T00:58:27"
 aliases = "/packages/2376"
 categories = ['lib']
 upstreamurl = "https://sourceforge.net/projects/freetype"
 arch = "x86_64"
-size = "554536"
-usize = "1918115"
-sha1sum = "401e1f3cba21099665930bd31178c1cd6d1db2fe"
+size = "556084"
+usize = "1926307"
+sha1sum = "523cde459c03e699d6ca0a793e54229c13f263d8"
 depends = "['brotli', 'bzip2>=1.0.6-16', 'libpng>=1.6.34-2', 'zlib>=1.2.12']"
 reverse_depends = "['alienarena', 'blender', 'bootsplash', 'cairo', 'chromium-browser', 'crawl', 'crawl-tiles', 'distcc-gui', 'easyrpg-player', 'efl', 'enlightenment', 'fontconfig', 'fonttosfnt', 'freeorion', 'get_steam', 'gparted', 'graphicsmagick', 'grub2-mkfont', 'gtk+2', 'harfbuzz', 'imlib2', 'kitty', 'libbluray', 'libotf', 'libxfont', 'libxfont2', 'libxft', 'love', 'mkfontscale', 'mupdf', 'mupen64plus', 'naev', 'ogre', 'openjre-x', 'php', 'podofo', 'printoxx', 'redeclipse', 'scim', 'scribus', 'scummvm', 'sdl2_ttf', 'sdl_ttf', 'sfml', 'spring', 'supertuxkart', 'sylpheed', 'terminology', 'terminus-font-ttf', 'ultrastardx', 'vlc-skins', 'xcfa', 'xpad', 'xterm']"
 +++

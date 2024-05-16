@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-freetype2 2.13.2-1"
-version = "2.13.2-1"
+title = "lib32-freetype2 2.13.2-2"
+version = "2.13.2-2"
 description = "TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit )"
-date = "2023-08-31T08:02:31"
+date = "2024-05-16T00:58:27"
 aliases = "/packages/217753"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceforge.net/projects/freetype"
 arch = "x86_64"
-size = "504188"
-usize = "1699673"
-sha1sum = "00de84ce334429b4d66e87e86fc066defda4cb26"
+size = "506940"
+usize = "1707865"
+sha1sum = "cd5cd99e624b2a669f5e3fb9e44b0dd5d4f5008b"
 depends = "['lib32-brotli', 'lib32-bzip2>=1.0.6-16', 'lib32-libpng>=1.6.34-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-cairo', 'lib32-fontconfig', 'lib32-imlib2', 'lib32-libbluray', 'lib32-libxfont', 'lib32-libxfont2', 'lib32-libxft', 'wine', 'wine-devel']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-cracklib 2.9.5-21"
-version = "2.9.5-21"
+title = "lib32-cracklib 2.9.5-22"
+version = "2.9.5-22"
 description = "Next generation version of libCrack password checking library. ( 32bit )"
-date = "2024-01-03T09:12:42"
+date = "2024-05-16T00:30:55"
 aliases = "/packages/218674"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceforge.net/projects/cracklib"
 arch = "x86_64"
-size = "14308"
+size = "14440"
 usize = "41442"
-sha1sum = "c860aea7c3950f41cac1ad101b13b52d3579a53f"
+sha1sum = "08ca262f9b2531704bb3d77856eb5e276b1c78f9"
 depends = "['glibc>=2.35', 'lib32-zlib>=1.2.12']"
 +++
 ### Description: 

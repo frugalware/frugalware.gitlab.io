@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fribidi 1.0.13-3"
-version = "1.0.13-3"
+title = "fribidi 1.0.13-4"
+version = "1.0.13-4"
 description = "A Free Implementation of the Unicode BiDirectional algorithm"
-date = "2023-09-05T08:42:28"
+date = "2024-05-16T00:59:30"
 aliases = "/packages/3005"
 categories = ['multimedia']
 upstreamurl = "https://github.com/fribidi/fribidi"
 arch = "x86_64"
-size = "122440"
-usize = "500201"
-sha1sum = "60715f2c365ea92a91ddceba9f6105176a53785a"
+size = "123056"
+usize = "504297"
+sha1sum = "1a6894857d74fa6d2f58f2fc360adcffbffd9d3b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libass', 'pango', 'scummvm', 'supertuxkart', 'terminology', 'vlc', 'vlc-skins']"
 license = "GPL2.1"

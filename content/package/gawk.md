@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gawk 5.3.0-1"
-version = "5.3.0-1"
+title = "gawk 5.3.0-2"
+version = "5.3.0-2"
 description = "Gnu version of awk"
-date = "2023-11-04T16:23:43"
+date = "2024-05-16T01:00:49"
 aliases = "/packages/2378"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/gawk/"
 arch = "x86_64"
-size = "1327396"
-usize = "3624891"
-sha1sum = "f08614e7b47ed43ef89bf8b2f8441e5b9ccd8287"
+size = "1329148"
+usize = "3629067"
+sha1sum = "a839b4659da00cb98b6e2b906cfa02593c3cc18d"
 depends = "['mpfr>=4.0.2-3', 'ncurses>=6.1', 'readline>=8.0-3']"
 reverse_depends = "['autoconf', 'autoconf213', 'backupninja', 'go', 'inxi', 'parted', 'prettyping', 'quilt', 'texinfo']"
 +++

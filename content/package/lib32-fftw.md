@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-fftw 3.3.10-3"
-version = "3.3.10-3"
+title = "lib32-fftw 3.3.10-4"
+version = "3.3.10-4"
 description = "C subroutine library for computing the Discrete Fourier Transform (DFT) ( 32bit )"
-date = "2023-10-08T14:56:03"
+date = "2024-05-16T00:51:27"
 aliases = "/packages/217943"
 categories = ['lib32-extra']
 upstreamurl = "http://www.fftw.org/"
 arch = "x86_64"
-size = "1320808"
-usize = "5291139"
-sha1sum = "0b93c13b0844fbc672b920c62dcb28e77e711a58"
+size = "1331424"
+usize = "5340363"
+sha1sum = "784a3d1ad76aa65cdb410deee67408bb1ba7511b"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duktape 2.7.0-4"
-version = "2.7.0-4"
+title = "duktape 2.7.0-5"
+version = "2.7.0-5"
 description = "Embeddable Javascript engine"
-date = "2023-09-05T08:29:13"
+date = "2024-05-16T00:38:35"
 aliases = "/packages/220566"
 categories = ['base']
 upstreamurl = "https://duktape.org"
 arch = "x86_64"
-size = "167212"
+size = "167880"
 usize = "801380"
-sha1sum = "5627c1e832ff4b1c15b6434209a5cfdcc5dd4fd2"
+sha1sum = "f0ab393aa675fc45092ae23212e2985912cf539d"
 depends = "['glibc']"
 reverse_depends = "['libproxy', 'polkit']"
 +++

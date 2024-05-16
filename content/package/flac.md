@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flac 1.4.3-3"
-version = "1.4.3-3"
+title = "flac 1.4.3-4"
+version = "1.4.3-4"
 description = "Free Lossless Audio Coder"
-date = "2023-09-05T08:36:41"
+date = "2024-05-16T00:55:42"
 aliases = "/packages/2998"
 categories = ['multimedia']
 upstreamurl = "https://xiph.org/flac/"
 arch = "x86_64"
-size = "680156"
-usize = "6722609"
-sha1sum = "caa658b57095ff68e25248ae6a4846c9200e2312"
+size = "685440"
+usize = "6747249"
+sha1sum = "cb466be584c81dc754b2b4149c9af06537d1d030"
 depends = "['libogg>=1.3.4', 'libstdc++>=11.2']"
 reverse_depends = "['audiocd-kio', 'chromium-browser', 'efl', 'enlightenment', 'gst1-plugins-good-flac', 'kwave', 'libpulse', 'libsndfile', 'minidlna', 'mkvtoolnix', 'mpd', 'rubberband', 'scummvm-tools', 'sdlmame', 'sfml', 'terminology', 'twolame', 'vlc-flac', 'vorbis-tools', 'xine-lib']"
 +++

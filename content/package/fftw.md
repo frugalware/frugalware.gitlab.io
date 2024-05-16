@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fftw 3.3.10-3"
-version = "3.3.10-3"
+title = "fftw 3.3.10-4"
+version = "3.3.10-4"
 description = "C subroutine library for computing the Discrete Fourier Transform (DFT)"
-date = "2023-10-08T14:56:03"
+date = "2024-05-16T00:51:27"
 aliases = "/packages/14373"
 categories = ['lib']
 upstreamurl = "http://www.fftw.org/"
 arch = "x86_64"
-size = "1170996"
-usize = "4061321"
-sha1sum = "5d309da985bdfaff4f87c064d8cc0ece77b25bca"
+size = "1173300"
+usize = "4065417"
+sha1sum = "0d03489c91473b539695d001d9360cd96575776c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['aacplusenc', 'blender', 'calf', 'imagemagick', 'insight-toolkit', 'julia', 'labplot', 'libkeyfinder', 'libpulse', 'libsamplerate', 'libvips', 'luminance-hdr', 'ncmpcpp', 'octave', 'zita-convolver']"
 license = "GPL-2"

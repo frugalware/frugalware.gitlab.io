@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdbm 1.23-3"
-version = "1.23-3"
+title = "gdbm 1.23-4"
+version = "1.23-4"
 description = "GNU database library"
-date = "2023-09-05T08:45:19"
+date = "2024-05-16T01:02:23"
 aliases = "/packages/2381"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/gdbm/gdbm.html"
 arch = "x86_64"
-size = "263828"
-usize = "832102"
-sha1sum = "65af485a82cb2a465ba0a53b78120bd1442c0e4e"
+size = "263360"
+usize = "828006"
+sha1sum = "4dc4cf30c143f8f8e5df35146c1b32c1f5cd61f1"
 depends = "['glibc>=2.34', 'readline>=8.0-2']"
 reverse_depends = "['apache', 'apr-util', 'avahi', 'courier-authlib', 'cyrus-sasl', 'man-db', 'ocaml', 'perl', 'php', 'python3', 'ruby', 'zsh']"
 +++

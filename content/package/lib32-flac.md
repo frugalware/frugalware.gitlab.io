@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-flac 1.4.3-3"
-version = "1.4.3-3"
+title = "lib32-flac 1.4.3-4"
+version = "1.4.3-4"
 description = "Free Lossless Audio Coder ( 32bit )"
-date = "2023-09-05T08:36:41"
+date = "2024-05-16T00:55:42"
 aliases = "/packages/217935"
 categories = ['lib32-extra']
 upstreamurl = "https://xiph.org/flac/"
 arch = "x86_64"
-size = "378752"
-usize = "1379462"
-sha1sum = "49f343cc1264c312490f367b3d8207ec641951dd"
+size = "383884"
+usize = "1400454"
+sha1sum = "252204347d6566d05153e800cf8ed3f4dcaa523b"
 depends = "['lib32-libogg>=1.3.4']"
 reverse_depends = "['lib32-libsndfile']"
 +++

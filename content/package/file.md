@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "file 5.45-2"
-version = "5.45-2"
+title = "file 5.45-3"
+version = "5.45-3"
 description = "File type identification utility"
-date = "2023-08-29T11:20:29"
+date = "2024-05-16T00:52:58"
 aliases = "/packages/2373"
 categories = ['base']
 upstreamurl = "http://www.darwinsys.com/file/"
 arch = "x86_64"
-size = "420648"
-usize = "8824769"
-sha1sum = "e07cba547ba91832730fa5c612a655de8e9eb43e"
+size = "421624"
+usize = "8828865"
+sha1sum = "46bffdd0d9965d79560a1de335ca66b02c4b769a"
 depends = "['bzip2', 'glibc>=2.35', 'xz', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['dracut', 'inxi', 'knoda', 'less', 'libmicrohttpd', 'mkvtoolnix', 'nano', 'scriptlet-core', 'subversion']"
 +++

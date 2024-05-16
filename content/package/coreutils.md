@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coreutils 9.5-1"
-version = "9.5-1"
+title = "coreutils 9.5-2"
+version = "9.5-2"
 description = "These are the GNU core utilities, the basic command line programs"
-date = "2024-03-31T11:18:41"
+date = "2024-05-16T00:29:40"
 aliases = "/packages/2357"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/coreutils"
 arch = "x86_64"
-size = "2881036"
-usize = "17221045"
-sha1sum = "f91d8c16c9385858af03fe50729f88035194bcd2"
+size = "2901772"
+usize = "17409741"
+sha1sum = "f8aa1e4de6f0ac74a3f858018ab86cc0ce5ab367"
 depends = "['bash>=4.4.12-3', 'glibc>=2.35', 'gmp>=6.1.2-6', 'libcap>=2.25-8', 'xfsprogs-acl>=2.2.52-7', 'xfsprogs-attr>=2.4.47-8']"
 reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
 +++

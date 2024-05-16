@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "double-conversion 3.3.0-2"
-version = "3.3.0-2"
+title = "double-conversion 3.3.0-3"
+version = "3.3.0-3"
 description = "Binary-decimal and decimal-binary routines for IEEE doubles"
-date = "2024-04-02T09:38:46"
+date = "2024-05-16T00:38:01"
 aliases = "/packages/219885"
 categories = ['lib']
 upstreamurl = "https://github.com/google/double-conversion"
 arch = "x86_64"
-size = "47444"
-usize = "173750"
-sha1sum = "2e3af3ff6df7c59123c49f4e91a6c3312eff8c02"
+size = "49216"
+usize = "178144"
+sha1sum = "aa9aa6588d84dfbbcaba06569ff576484869b8b1"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['inkscape', 'openscad', 'qt5-base', 'qt6-base']"
 +++

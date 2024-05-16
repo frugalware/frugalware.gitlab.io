@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cracklib 2.9.5-21"
-version = "2.9.5-21"
+title = "cracklib 2.9.5-22"
+version = "2.9.5-22"
 description = "Next generation version of libCrack password checking library."
-date = "2024-01-03T09:12:42"
+date = "2024-05-16T00:30:55"
 aliases = "/packages/15089"
 categories = ['base']
 upstreamurl = "https://sourceforge.net/projects/cracklib"
 arch = "x86_64"
-size = "173792"
+size = "173804"
 usize = "1196229"
-sha1sum = "892d59ad0628b05237528f216fc556df640b8f4c"
+sha1sum = "085cafeed79882cbf6357cc7ee940098551be87b"
 depends = "['glibc>=2.35', 'gzip>=1.9.1-2', 'python3', 'scriptlet-core', 'zlib>=1.2.12']"
 reverse_depends = "['libpwquality']"
 +++

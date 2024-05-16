@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-faad2 2.8.8-5"
-version = "2.8.8-5"
+title = "lib32-faad2 2.8.8-6"
+version = "2.8.8-6"
 description = "ISO AAC audio decoder ( 32bit )"
-date = "2023-10-22T12:11:15"
+date = "2024-05-16T00:41:11"
 aliases = "/packages/219217"
 categories = ['lib32-extra']
 upstreamurl = "http://www.audiocoding.com/"
 arch = "x86_64"
-size = "182844"
-usize = "559322"
-sha1sum = "15402e35545cafb9763094fcc4f62d7da369464c"
+size = "184688"
+usize = "559290"
+sha1sum = "d6c6ddd43bddef42fdafb952ee8e03545c51370e"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++
