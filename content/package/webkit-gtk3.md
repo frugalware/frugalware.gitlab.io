@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "webkit-gtk3 2.42.5-1"
-version = "2.42.5-1"
+title = "webkit-gtk3 2.42.5-2"
+version = "2.42.5-2"
 description = "Open source web browser engine gtk+3"
-date = "2024-04-19T21:43:11"
+date = "2024-05-16T12:31:13"
 aliases = "/packages/118799"
 categories = ['xlib-extra']
 upstreamurl = "http://www.webkitgtk.org"
 arch = "x86_64"
-size = "29447200"
-usize = "142847066"
-sha1sum = "4b8226036c24eb2c70bf3aca91dd24b83b84bc37"
-depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad', 'gst1-plugins-good', 'gtk+3', 'hyphen', 'icu4c>=75.1', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup3', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
+size = "29437572"
+usize = "142840796"
+sha1sum = "2ef3900d3332734b1e12c9fe92698fae5073a180"
+depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad', 'gst1-plugins-good', 'gtk+3', 'harfbuzz-icu', 'hyphen', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup3', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
 reverse_depends = "['geany-plugins', 'remmina-www', 'telegram-desktop', 'wxwidgets']"
 +++
 ### Description: 
@@ -255,7 +255,10 @@ Open source web browser engine gtk+3
 * /usr/lib/webkit-gtk3/WebKitNetworkProcess
 * /usr/lib/webkit-gtk3/WebKitWebProcess
 * /usr/lib/webkit2gtk-4.1/injected-bundle/libwebkit2gtkinjectedbundle.so
+* /usr/share/doc/webkit-gtk3-2.42.5/AUTHORS
+* /usr/share/doc/webkit-gtk3-2.42.5/COPYING
 * /usr/share/doc/webkit-gtk3-2.42.5/NEWS
+* /usr/share/doc/webkit-gtk3-2.42.5/README.md
 * /usr/share/gir-1.0/JavaScriptCore-4.1.gir
 * /usr/share/gir-1.0/WebKit2-4.1.gir
 * /usr/share/gir-1.0/WebKit2WebExtension-4.1.gir

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-good-shout 1.24.3-1"
-version = "1.24.3-1"
+title = "gst1-plugins-good-shout 1.24.3-2"
+version = "1.24.3-2"
 description = "GStreamer shout plugin (Good)."
-date = "2024-04-30T08:40:12"
+date = "2024-05-16T12:55:26"
 aliases = "/packages/168853"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "18520"
+size = "18628"
 usize = "34672"
-sha1sum = "d86b326b25cb23dd3c8387d62c353f0aa9b8cd3e"
+sha1sum = "b17f02002ad56060cfcc48c4a86cb63451674142"
 depends = "['gst1-plugins-base>=1.24.3', 'gst1-plugins-good>=1.24.3', 'libffi>=3.2.1-2', 'libshout>=2.4.1-7']"
 +++
 ### Description: 

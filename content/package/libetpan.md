@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libetpan 1.9.4-4"
-version = "1.9.4-4"
+title = "libetpan 1.9.4-5"
+version = "1.9.4-5"
 description = "A mail library"
-date = "2023-03-15T20:56:24"
+date = "2024-05-16T12:43:42"
 aliases = "/packages/14275"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/dinhviethoa/libetpan"
 arch = "x86_64"
-size = "353544"
-usize = "1772531"
-sha1sum = "eb4bc4a885c80b779ce03c8a9b978088cad52bc6"
+size = "353692"
+usize = "1764022"
+sha1sum = "d4e93323f42fc1ac9f503973f2a7dde0272ac671"
 depends = "['cyrus-sasl>=2.1.26-2', 'openssl>=3.1.0']"
 reverse_depends = "['claws-mail']"
 +++

@@ -12,7 +12,7 @@ size = "10442064"
 usize = "42822100"
 sha1sum = "5a4f8a459d5b15f83c8450266ec77f3b83577544"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['blender', 'calamares-frugalware', 'chromium-browser', 'darktable', 'dovecot', 'firebird', 'firefox', 'freeciv', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'kdeplasma-addons5', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs18', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'user-kcm', 'webkit-gtk3', 'xerces-c', 'xfsprogs', 'znc']"
+reverse_depends = "['blender', 'calamares-frugalware', 'chromium-browser', 'darktable', 'dovecot', 'firebird', 'firefox', 'freeciv', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'kdeplasma-addons5', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs18', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'user-kcm', 'xerces-c', 'xfsprogs', 'znc']"
 license = "License"
 +++
 ### Description: 
