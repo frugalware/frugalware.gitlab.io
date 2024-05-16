@@ -12,7 +12,6 @@ size = "16380"
 usize = "40226"
 sha1sum = "e8bcfe3e636bf18b2cfec2386766df753fd191a0"
 depends = "['perl>=5.34.0']"
-reverse_depends = "['postgrey']"
 +++
 ### Description: 
 Manage IO on many file handles

@@ -11,8 +11,8 @@ arch = "x86_64"
 size = "1465916"
 usize = "4813290"
 sha1sum = "c44e87a5c8ea73f1277a2b2ba1b03d2556fdf4de"
-depends = "['cyrus-sasl>=2.1.26-3', 'db>=18.1.32', 'icu4c>=75.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
-reverse_depends = "['arpwatch', 'postfixadmin', 'postgrey']"
+depends = "['cyrus-sasl>=2.1.26-3', 'icu4c>=75.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
+reverse_depends = "['arpwatch', 'postfixadmin']"
 +++
 ### Description: 
 A fast, easy to administer, and secure MTA

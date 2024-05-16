@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "353544"
 usize = "1772531"
 sha1sum = "eb4bc4a885c80b779ce03c8a9b978088cad52bc6"
-depends = "['cyrus-sasl>=2.1.26-2', 'db>=8.1.32', 'openssl>=3.1.0']"
+depends = "['cyrus-sasl>=2.1.26-2', 'openssl>=3.1.0']"
 reverse_depends = "['claws-mail']"
 +++
 ### Description: 

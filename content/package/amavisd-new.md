@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "601928"
 usize = "2662395"
 sha1sum = "84565a25025e66035ea613c35df212a9168a693c"
-depends = "['perl-archive-zip', 'perl-berkeleydb', 'perl-convert-binhex', 'perl-convert-tnef', 'perl-convert-uulib', 'perl-io-stringy', 'perl-mailtools', 'perl-mime-tools', 'perl-net-server', 'perl-unix-syslog', 'spamassassin', 'systemd']"
+depends = "['perl-archive-zip', 'perl-convert-binhex', 'perl-convert-tnef', 'perl-convert-uulib', 'perl-io-stringy', 'perl-mailtools', 'perl-mime-tools', 'perl-net-server', 'perl-unix-syslog', 'spamassassin', 'systemd']"
 +++
 ### Description: 
 Amavisd-new is a high-performance interface between mailer (MTA) and content checkers

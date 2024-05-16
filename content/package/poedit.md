@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1463016"
 usize = "7178085"
 sha1sum = "96b0ede2162e780010ac13a30cfcddee37fb961e"
-depends = "['db>=6.2.23', 'gtkspell3', 'icu4c>=75.1', 'libboost>=1.83.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
+depends = "['gtkspell3', 'icu4c>=75.1', 'libboost>=1.83.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
 license = "MIT"
 +++
 ### Description: 

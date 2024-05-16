@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "apr-util 1.6.3-3"
-version = "1.6.3-3"
+title = "apr-util 1.6.3-4"
+version = "1.6.3-4"
 description = "Apache Portable Runtime"
-date = "2024-02-01T14:11:20"
+date = "2024-05-16T08:51:46"
 aliases = "/packages/4243"
 categories = ['network']
 upstreamurl = "http://apr.apache.org/"
 arch = "x86_64"
-size = "161944"
-usize = "677143"
-sha1sum = "d7141e728631215e03279c4379c078ffa67d2fc8"
-depends = "['apr>=1.6.3', 'cyrus-sasl>=2.1.26', 'db>=18.1.32', 'expat>=2.1.0-5', 'gdbm>=1.15', 'libldap>=2.5.4', 'nss', 'openssl>=3.1.0', 'sqlite3>=3.9.2-4', 'unixodbc']"
+size = "161100"
+usize = "667116"
+sha1sum = "bb5fc04d31af44147fdc87608d21ae3431e40c97"
+depends = "['apr>=1.6.3', 'cyrus-sasl>=2.1.26', 'expat>=2.1.0-5', 'gdbm>=1.15', 'libldap>=2.5.4', 'nss', 'openssl>=3.1.0', 'sqlite3>=3.9.2-4', 'unixodbc']"
 reverse_depends = "['apache', 'mod_security', 'mod_svn', 'serf', 'subversion-svnserve']"
 +++
 ### Description: 
@@ -62,8 +62,6 @@ Apache Portable Runtime
 * /usr/lib/apr-util-1/apr_dbd_odbc.so
 * /usr/lib/apr-util-1/apr_dbd_sqlite3-1.so
 * /usr/lib/apr-util-1/apr_dbd_sqlite3.so
-* /usr/lib/apr-util-1/apr_dbm_db-1.so
-* /usr/lib/apr-util-1/apr_dbm_db.so
 * /usr/lib/apr-util-1/apr_dbm_gdbm-1.so
 * /usr/lib/apr-util-1/apr_dbm_gdbm.so
 * /usr/lib/apr-util-1/apr_ldap-1.so

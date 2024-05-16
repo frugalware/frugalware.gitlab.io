@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2360271"
 usize = "12500664"
 sha1sum = "572fe8758951e327371a9253abfccd316845fd7e"
-depends = "['db>=4.7.25', 'sdl']"
+depends = "['sdl']"
 +++
 ### Description: 
 Additional plugins and scripts for some KDE applications.

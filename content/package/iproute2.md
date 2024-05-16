@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1076276"
 usize = "2995922"
 sha1sum = "fd67743cc81e5f13e1820869bdcb3173449f6ce8"
-depends = "['db>=18.1.25', 'iptables>=1.6.1-4']"
+depends = "['iptables>=1.6.1-4']"
 reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
 ### Description: 

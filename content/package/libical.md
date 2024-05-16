@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "361832"
 usize = "2233025"
 sha1sum = "a420014269e0d9cfefbdb32e26730781993a1b5a"
-depends = "['db>=18.1.25', 'icu4c>=75.1']"
+depends = "['icu4c>=75.1']"
 reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'kcalendarcore5', 'openvas-manager']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "169988"
 usize = "523643"
 sha1sum = "986cd943e33e553fcbb8bb74b85d775c531c1346"
 depends = "['perl>=5.34.0']"
-reverse_depends = "['amavisd-new', 'munin-node', 'postgrey']"
+reverse_depends = "['amavisd-new', 'munin-node']"
 +++
 ### Description: 
 Extensible, general Perl server engine

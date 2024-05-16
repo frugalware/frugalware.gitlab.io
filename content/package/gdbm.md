@@ -12,7 +12,7 @@ size = "263360"
 usize = "828006"
 sha1sum = "4dc4cf30c143f8f8e5df35146c1b32c1f5cd61f1"
 depends = "['glibc>=2.34', 'readline>=8.0-2']"
-reverse_depends = "['apache', 'apr-util', 'avahi', 'courier-authlib', 'cyrus-sasl', 'man-db', 'ocaml', 'perl', 'php', 'python3', 'ruby', 'zsh']"
+reverse_depends = "['apache', 'apr-util', 'avahi', 'courier-authlib', 'cyrus-sasl', 'man-db', 'ocaml', 'pam', 'perl', 'php', 'python3', 'ruby', 'zsh']"
 +++
 ### Description: 
 GNU database library

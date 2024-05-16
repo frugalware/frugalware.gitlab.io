@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "10115112"
 usize = "46310523"
 sha1sum = "664cea165be18ba6f8c68947fe6d8a1d7483a3c9"
-depends = "['db>=18.1.25', 'gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0', 'zlib>=1.2.12']"
+depends = "['gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0', 'zlib>=1.2.12']"
 reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-hiera', 'ruby-hpricot', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount', 'ruby-rdiscount', 'ruby-ronn', 'ruby-sass', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "458314"
 usize = "1422928"
 sha1sum = "c5518324d118984172889d074b52cb9ac2f6dbb9"
-depends = "['db>=4.7.25']"
+depends = "[]"
 +++
 ### Description: 
 KLibido is a KDE usenet news grabber for Linux.
