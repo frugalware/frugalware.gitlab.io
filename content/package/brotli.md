@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "brotli 1.1.0-1"
-version = "1.1.0-1"
+title = "brotli 1.1.0-2"
+version = "1.1.0-2"
 description = "Brotli compression library"
-date = "2023-09-07T12:20:27"
+date = "2024-05-16T05:17:11"
 aliases = "/packages/219652"
 categories = ['chroot-core']
 upstreamurl = "https://github.com/google/brotli"
 arch = "x86_64"
-size = "308508"
-usize = "928979"
-sha1sum = "d21657ce107997b9cd2110c2b2bb809606697ebf"
+size = "308984"
+usize = "933155"
+sha1sum = "3de6664331aed48217275bf7ef44ae5051fb60d4"
 depends = "['glibc>=2.34']"
 reverse_depends = "['android-tools', 'curl', 'freetype2', 'gnutls', 'ladybird', 'libsoup3', 'nodejs18', 'qt6-base', 'wget2', 'woff2']"
 +++

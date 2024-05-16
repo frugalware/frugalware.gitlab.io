@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-brotli 1.1.0-1"
-version = "1.1.0-1"
+title = "lib32-brotli 1.1.0-2"
+version = "1.1.0-2"
 description = "Brotli compression library ( 32bit )"
-date = "2023-09-07T12:20:27"
+date = "2024-05-16T05:17:11"
 aliases = "/packages/220839"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/google/brotli"
 arch = "x86_64"
-size = "305472"
-usize = "933108"
-sha1sum = "35fd354aa509b1aeeb0e2ceb80d5d819ce897b16"
+size = "302280"
+usize = "933088"
+sha1sum = "b04f94b02546f0a838a0374ff80e338e3fe6afa6"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-freetype2', 'lib32-gnutls', 'lib32-libcurl-gnutls']"
 +++

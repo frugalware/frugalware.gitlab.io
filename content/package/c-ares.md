@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "c-ares 1.28.1-1"
-version = "1.28.1-1"
+title = "c-ares 1.28.1-2"
+version = "1.28.1-2"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-04-04T12:30:32"
+date = "2024-05-16T05:21:35"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "252780"
-usize = "676743"
-sha1sum = "f0709fda417f95dfc77ce1883be0667da371bd1d"
+size = "253212"
+usize = "676961"
+sha1sum = "6d491fe74c84cfa570f2e7d494bdd2df83998db7"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++

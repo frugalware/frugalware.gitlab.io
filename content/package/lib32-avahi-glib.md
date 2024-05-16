@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-avahi-glib 0.8-9"
-version = "0.8-9"
+title = "lib32-avahi-glib 0.8-10"
+version = "0.8-10"
 description = "Glib bindings for Avahi (32-Bit)"
-date = "2024-03-28T15:19:22"
+date = "2024-05-16T05:15:27"
 aliases = "/packages/218856"
 categories = ['lib32-extra']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "25776"
+size = "25772"
 usize = "83115"
-sha1sum = "33566fedbf402dcaafeb7f584e14f944b4dcbac6"
+sha1sum = "01534757cf39b0fe33b4286ce0c3d7a1bcfd828e"
 depends = "['lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1']"
 +++
 ### Description: 
