@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zix 0.4.2-1"
-version = "0.4.2-1"
+title = "zix 0.4.2-2"
+version = "0.4.2-2"
 description = "A lightweight C99 portability and data structure library"
-date = "2023-11-06T11:14:36"
+date = "2024-05-16T05:04:18"
 aliases = "/packages/221153"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/zix"
 arch = "x86_64"
-size = "35956"
+size = "36156"
 usize = "123209"
-sha1sum = "7f1a489420253ec44fe15b7fbe70ed431de97f1e"
+sha1sum = "b4972b6db1d1e3c3156494ada81910bcfd282e1d"
 depends = "['glibc']"
 reverse_depends = "['sord']"
 +++

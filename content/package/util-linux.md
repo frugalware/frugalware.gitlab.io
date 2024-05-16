@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "util-linux 2.40.1-1"
-version = "2.40.1-1"
+title = "util-linux 2.40.1-2"
+version = "2.40.1-2"
 description = "Miscellaneous system utilities for Linux"
-date = "2024-05-07T13:31:05"
+date = "2024-05-16T04:37:14"
 aliases = "/packages/118476"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "3360272"
-usize = "17596839"
-sha1sum = "cfdf2771c005c59ec3acfd1e89587f5876963c60"
+size = "1871260"
+usize = "7183573"
+sha1sum = "0547944aa5ec70cc7c6fe72bc6f1ad8235abd784"
 depends = "['libblkid', 'libcap-ng>=0.7.8-8', 'libsystemd', 'libudev', 'libuuid', 'libxcrypt', 'ncurses>=6.1-5', 'pam>=1.3.0-4', 'pcre2', 'readline>=8.0-3', 'sqlite3', 'zlib>=1.2.12']"
 reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
 +++
@@ -381,38 +381,6 @@ Miscellaneous system utilities for Linux
 * /usr/share/doc/util-linux-2.40.1/TODO
 * /usr/share/doc/util-linux/getopt-example.bash
 * /usr/share/doc/util-linux/getopt-example.tcsh
-* /usr/share/locale/ca/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/cs/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/da/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/de/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/es/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/et/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/eu/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/fi/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/fr/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/gl/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/hr/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/hu/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/id/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/it/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/ja/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/ka/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/ko/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/nl/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/pl/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/pt/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/ro/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/ru/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/sk/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/sl/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/sr/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/sv/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/tr/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/uk/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/vi/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/util-linux.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/util-linux.mo
 * /usr/share/man/man1/cal.1.gz
 * /usr/share/man/man1/chfn.1.gz
 * /usr/share/man/man1/choom.1.gz

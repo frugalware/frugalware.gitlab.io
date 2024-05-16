@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xfsprogs-acl 2.3.2-1"
-version = "2.3.2-1"
+title = "xfsprogs-acl 2.3.2-2"
+version = "2.3.2-2"
 description = "Dynamic library for access control list support."
-date = "2024-01-24T18:35:44"
+date = "2024-05-16T04:59:26"
 aliases = "/packages/2463"
 categories = ['base']
 upstreamurl = "http://oss.sgi.com/projects/xfs/"
 arch = "x86_64"
-size = "155912"
-usize = "401858"
-sha1sum = "c33a42a6fd4e7a7dc735591933fa6c14cf7e7bbd"
+size = "134088"
+usize = "342627"
+sha1sum = "7ee50e4c6bdc284093411843094c9d9a4da37f61"
 depends = "['xfsprogs-attr>=2.5.1-3']"
 reverse_depends = "['aide', 'cdrtools', 'coreutils', 'libisofs', 'libsystemd', 'logrotate', 'tar', 'vim', 'xorriso']"
 +++
@@ -27,15 +27,12 @@ Dynamic library for access control list support.
 * /usr/lib/libacl.so.1
 * /usr/lib/libacl.so.1.1.2302
 * /usr/lib/pkgconfig/libacl.pc
-* /usr/share/doc/xfsprogs-acl-2.3.2/AUTHORS
 * /usr/share/doc/xfsprogs-acl-2.3.2/CHANGES
 * /usr/share/doc/xfsprogs-acl-2.3.2/COPYING
 * /usr/share/doc/xfsprogs-acl-2.3.2/COPYING.LGPL
 * /usr/share/doc/xfsprogs-acl-2.3.2/extensions.txt
 * /usr/share/doc/xfsprogs-acl-2.3.2/libacl.txt
-* /usr/share/doc/xfsprogs-acl-2.3.2/LICENSE
 * /usr/share/doc/xfsprogs-acl-2.3.2/README
-* /usr/share/doc/xfsprogs-acl-2.3.2/README.md
 * /usr/share/locale/de/LC_MESSAGES/acl.mo
 * /usr/share/locale/en@boldquot/LC_MESSAGES/acl.mo
 * /usr/share/locale/en@quot/LC_MESSAGES/acl.mo

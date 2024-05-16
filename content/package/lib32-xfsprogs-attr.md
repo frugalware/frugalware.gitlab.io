@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-xfsprogs-attr 2.5.2-1"
-version = "2.5.2-1"
+title = "lib32-xfsprogs-attr 2.5.2-2"
+version = "2.5.2-2"
 description = "Dynamic library for extended attribute support. ( 32bit )"
-date = "2024-01-18T12:24:03"
+date = "2024-05-16T05:00:29"
 aliases = "/packages/220020"
 categories = ['lib32-extra']
 upstreamurl = "http://oss.sgi.com/projects/xfs/"
 arch = "x86_64"
-size = "27464"
+size = "27564"
 usize = "91963"
-sha1sum = "c44baa3ce2283efd1d852c7b2fbd0d0b8e0fc1bf"
+sha1sum = "690f8c797ec0fdb446f1fcb1777dbae97593c708"
 depends = "[]"
 reverse_depends = "['lib32-xfsprogs-acl']"
 +++

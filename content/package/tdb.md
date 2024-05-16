@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tdb 1.4.10-1"
-version = "1.4.10-1"
+title = "tdb 1.4.10-2"
+version = "1.4.10-2"
 description = "A Trivial Database"
-date = "2024-02-06T18:54:45"
+date = "2024-05-16T04:31:48"
 aliases = "/packages/15214"
 categories = ['apps']
 upstreamurl = "http://tdb.samba.org/"
 arch = "x86_64"
-size = "62032"
-usize = "236787"
-sha1sum = "cda620a8834ff658c3a02c199a22f92ea5529bc3"
+size = "62588"
+usize = "236867"
+sha1sum = "2f9da65e3401e43e0e5779eb1a84bafbb66ae445"
 depends = "['glibc>=2.35', 'python3>=3.12']"
 reverse_depends = "['libcanberra', 'libpulse', 'notification-daemon', 'samba', 'samba-client']"
 +++

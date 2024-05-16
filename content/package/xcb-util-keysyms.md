@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xcb-util-keysyms 0.4.1-2"
-version = "0.4.1-2"
+title = "xcb-util-keysyms 0.4.1-3"
+version = "0.4.1-3"
 description = "keysyms libraries for X C Binding"
-date = "2023-09-05T12:26:09"
+date = "2024-05-16T04:56:08"
 aliases = "/packages/119286"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "19336"
+size = "19396"
 usize = "58236"
-sha1sum = "4acbfb7ddef4f236c2e2f30388679c20de73bb03"
+sha1sum = "265c57729735f273b7291c850cd1fac895df14cd"
 depends = "['libxcb>=1.13']"
 reverse_depends = "['enlightenment', 'kwindowsystem', 'kwindowsystem5', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'qt6-base', 'xcb-util', 'xorg-server-xephyr']"
 +++

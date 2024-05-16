@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland 1.22.0-2"
-version = "1.22.0-2"
+title = "wayland 1.22.0-3"
+version = "1.22.0-3"
 description = "Wayland is intended as a simpler replacement for Xorg."
-date = "2023-09-05T12:13:56"
+date = "2024-05-16T04:42:47"
 aliases = "/packages/168711"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "130728"
+size = "130636"
 usize = "821057"
-sha1sum = "a78df4eedab9b175e693dfe4a47213a5193df3e9"
+sha1sum = "51da706a177f9cf1a0c0839eedc083d1895d4f33"
 depends = "['expat>=2.1.0-6', 'libffi>=3.4', 'libxml2']"
 reverse_depends = "['clightd', 'efl', 'efl', 'egl-wayland', 'enlightenment', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gtk-layer-shell', 'kitty', 'libegl', 'libgbm', 'libva', 'libvpl', 'mangohud', 'mesa-libegl', 'qt5-wayland', 'qt6-wayland', 'terminology', 'wayland-protocols', 'wayland-utils', 'weston', 'wl-clipboard', 'wlroots', 'wpebackend-fdo', 'wrapland']"
 +++

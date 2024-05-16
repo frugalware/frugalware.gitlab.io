@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-xcb-util-renderutil 0.3.10-2"
-version = "0.3.10-2"
+title = "lib32-xcb-util-renderutil 0.3.10-3"
+version = "0.3.10-3"
 description = "renderutil libraries for X C Binding ( 32bit )"
-date = "2023-09-05T12:27:09"
+date = "2024-05-16T04:57:09"
 aliases = "/packages/218895"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "7912"
+size = "7928"
 usize = "22639"
-sha1sum = "eb1db319174da0c3dbf47dd5e240404672f5de0a"
+sha1sum = "6ff9eded99b17610b770a180ee97b011d5e0f638"
 depends = "['lib32-libxcb>=1.12-2']"
 reverse_depends = "['lib32-xorg-server-xephyr']"
 +++

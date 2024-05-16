@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-util-linux 2.40.1-1"
-version = "2.40.1-1"
+title = "lib32-util-linux 2.40.1-2"
+version = "2.40.1-2"
 description = "Miscellaneous system utilities for Linux ( 32bit )"
-date = "2024-05-07T13:31:05"
+date = "2024-05-16T04:37:14"
 aliases = "/packages/217925"
 categories = ['lib32-extra']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "331292"
-usize = "1039279"
-sha1sum = "37488f456f5f7a942d9a8f796ec59e0f6e2368ab"
+size = "331684"
+usize = "1043375"
+sha1sum = "7e9b145df2c9ebb958273e1d8df290564405f6c4"
 depends = "['lib32-file', 'lib32-libcap-ng>=0.7.8-5', 'lib32-libuuid>=2.40.1', 'lib32-libxcrypt', 'lib32-ncurses>=6.0-13', 'lib32-pam>=1.1.8-5', 'lib32-pcre2', 'lib32-sqlite3', 'lib32-zlib>=1.2.8-10']"
 reverse_depends = "['lib32-glib2', 'lib32-harfbuzz', 'lib32-libsystemd', 'lib32-pango']"
 +++

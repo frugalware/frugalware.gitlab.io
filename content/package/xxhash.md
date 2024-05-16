@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xxhash 0.8.2-1"
-version = "0.8.2-1"
+title = "xxhash 0.8.2-2"
+version = "0.8.2-2"
 description = "Extremely fast non-cryptographic hash algorithm"
-date = "2023-08-20T19:21:58"
+date = "2024-05-16T05:02:02"
 aliases = "/packages/220076"
 categories = ['apps']
 upstreamurl = "https://www.xxhash.com/"
 arch = "x86_64"
-size = "89604"
-usize = "395030"
-sha1sum = "49feffab0d87d5101fa5b0ae0699d70edd4afe71"
+size = "90356"
+usize = "390934"
+sha1sum = "bc92c5c8de13a5efc7d3b3b4ea063e4f0e701abb"
 depends = "['glibc>=2.34']"
 reverse_depends = "['python3-xxhash', 'rsync', 'telegram-desktop']"
 +++

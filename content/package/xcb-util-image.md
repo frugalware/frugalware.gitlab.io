@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xcb-util-image 0.4.1-2"
-version = "0.4.1-2"
+title = "xcb-util-image 0.4.1-3"
+version = "0.4.1-3"
 description = "image libraries for X C Binding"
-date = "2023-09-05T12:25:07"
+date = "2024-05-16T04:55:05"
 aliases = "/packages/119285"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "31996"
+size = "32052"
 usize = "108181"
-sha1sum = "0eaf9e63016e90ed4e572cf716a0112ccd6bb0eb"
+sha1sum = "12fbbcc9df0b6b2e95de07e77e1da055e3eb20b5"
 depends = "['libxau>=1.0.8-3', 'libxcb>=1.12-2', 'libxdmcp>=1.1.2-3', 'xcb-util>=0.4.0-3']"
 reverse_depends = "['i3lock', 'qt5-base', 'sfml', 'xcb-util-cursor', 'xorg-server-xephyr']"
 +++

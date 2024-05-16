@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-xcb-util 0.4.1-2"
-version = "0.4.1-2"
+title = "lib32-xcb-util 0.4.1-3"
+version = "0.4.1-3"
 description = "Utility libraries for X C Binding ( 32bit )"
-date = "2023-09-05T12:24:01"
+date = "2024-05-16T04:54:00"
 aliases = "/packages/218892"
 categories = ['lib32-extra']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "10616"
+size = "10684"
 usize = "37157"
-sha1sum = "68c1c1f278f791a655ff6720d6c7105eb0c1b08c"
+sha1sum = "4c1467978b05fbd0c5443a2b88436eeb01627dc2"
 depends = "['lib32-libxau>=1.0.8-3', 'lib32-libxcb>=1.13', 'lib32-libxdmcp>=1.1.2-3']"
 reverse_depends = "['lib32-xcb-util-image']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sudo 1.9.15-3"
-version = "1.9.15-3"
+title = "sudo 1.9.15-4"
+version = "1.9.15-4"
 description = "Give limited root privileges to certain users"
-date = "2024-02-01T13:06:26"
+date = "2024-05-16T04:15:15"
 aliases = "/packages/3346"
 categories = ['base']
 upstreamurl = "http://www.sudo.ws/"
 arch = "x86_64"
-size = "1814672"
-usize = "8066635"
-sha1sum = "329ee64ab2c6e1bcfcc493aa29359305292671d8"
+size = "1813960"
+usize = "8070731"
+sha1sum = "6a41a2f77031172f35272139f47c2187639d309b"
 depends = "['glibc>=2.34', 'libxcrypt', 'openssl>=3.1.0']"
 reverse_depends = "['inxi']"
 +++

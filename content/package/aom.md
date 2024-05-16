@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "aom 3.4.0-3"
-version = "3.4.0-3"
+title = "aom 3.4.0-4"
+version = "3.4.0-4"
 description = "Alliance for Open Media video codec"
-date = "2023-09-05T08:13:57"
+date = "2024-05-16T05:12:09"
 aliases = "/packages/220565"
 categories = ['multimedia']
 upstreamurl = "https://aomedia.org"
 arch = "x86_64"
-size = "1792348"
-usize = "6151757"
-sha1sum = "44742114381e35935a6924257f9e3461a5d4cb76"
+size = "1806824"
+usize = "6241869"
+sha1sum = "582ae492d18a07dd734a73bb2c1b050575ea890d"
 depends = "['libstdc++']"
 reverse_depends = "['ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird']"
 +++

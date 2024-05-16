@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "abseil-cpp 20240116.2-1"
-version = "20240116.2-1"
+title = "abseil-cpp 20240116.2-2"
+version = "20240116.2-2"
 description = "Abseil Common Libraries (C++)"
-date = "2024-05-02T11:21:02"
+date = "2024-05-16T05:07:01"
 aliases = "/packages/220293"
 categories = ['lib']
 upstreamurl = "https://abseil.io"
 arch = "x86_64"
-size = "1022336"
-usize = "5940127"
-sha1sum = "d57b364749dadfb310dcd248b23dfc2793e260a8"
+size = "1027856"
+usize = "5948399"
+sha1sum = "ce7754d0ed485b07f3880790e7bfcc7ec726c0c3"
 depends = "['libstdc++']"
 reverse_depends = "['protobuf', 're2', 'telegram-desktop', 'webrtc-audio-processing-1']"
 +++

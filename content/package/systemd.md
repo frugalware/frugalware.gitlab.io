@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd 255.5-1"
-version = "255.5-1"
+title = "systemd 255.5-2"
+version = "255.5-2"
 description = "A System and Service Manager"
-date = "2024-04-24T21:32:33"
+date = "2024-05-16T04:26:17"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4345488"
-usize = "20467178"
-sha1sum = "40cf75f83c2ff7262b9bd1d9cb80059f26e9850e"
-depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=255.5', 'libudev>=255.5', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=255.5', 'systemd-sysvinit']"
+size = "4254832"
+usize = "19459579"
+sha1sum = "c2c5240fe77de0a91d1fcb4f7c863a09931bdb4b"
+depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=255.5', 'libudev>=255.5', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=255.5', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'gamemode', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
 ### Description: 
@@ -697,45 +697,6 @@ A System and Service Manager
 * /usr/share/factory/etc/pam.d/other
 * /usr/share/factory/etc/pam.d/system-auth
 * /usr/share/factory/etc/vconsole.conf
-* /usr/share/locale/be/LC_MESSAGES/systemd.mo
-* /usr/share/locale/be@latin/LC_MESSAGES/systemd.mo
-* /usr/share/locale/bg/LC_MESSAGES/systemd.mo
-* /usr/share/locale/ca/LC_MESSAGES/systemd.mo
-* /usr/share/locale/cs/LC_MESSAGES/systemd.mo
-* /usr/share/locale/da/LC_MESSAGES/systemd.mo
-* /usr/share/locale/de/LC_MESSAGES/systemd.mo
-* /usr/share/locale/el/LC_MESSAGES/systemd.mo
-* /usr/share/locale/es/LC_MESSAGES/systemd.mo
-* /usr/share/locale/et/LC_MESSAGES/systemd.mo
-* /usr/share/locale/eu/LC_MESSAGES/systemd.mo
-* /usr/share/locale/fi/LC_MESSAGES/systemd.mo
-* /usr/share/locale/fr/LC_MESSAGES/systemd.mo
-* /usr/share/locale/gl/LC_MESSAGES/systemd.mo
-* /usr/share/locale/he/LC_MESSAGES/systemd.mo
-* /usr/share/locale/hr/LC_MESSAGES/systemd.mo
-* /usr/share/locale/hu/LC_MESSAGES/systemd.mo
-* /usr/share/locale/id/LC_MESSAGES/systemd.mo
-* /usr/share/locale/it/LC_MESSAGES/systemd.mo
-* /usr/share/locale/ja/LC_MESSAGES/systemd.mo
-* /usr/share/locale/ka/LC_MESSAGES/systemd.mo
-* /usr/share/locale/kab/LC_MESSAGES/systemd.mo
-* /usr/share/locale/ko/LC_MESSAGES/systemd.mo
-* /usr/share/locale/lt/LC_MESSAGES/systemd.mo
-* /usr/share/locale/nl/LC_MESSAGES/systemd.mo
-* /usr/share/locale/pa/LC_MESSAGES/systemd.mo
-* /usr/share/locale/pl/LC_MESSAGES/systemd.mo
-* /usr/share/locale/pt/LC_MESSAGES/systemd.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/systemd.mo
-* /usr/share/locale/ro/LC_MESSAGES/systemd.mo
-* /usr/share/locale/ru/LC_MESSAGES/systemd.mo
-* /usr/share/locale/si/LC_MESSAGES/systemd.mo
-* /usr/share/locale/sk/LC_MESSAGES/systemd.mo
-* /usr/share/locale/sr/LC_MESSAGES/systemd.mo
-* /usr/share/locale/sv/LC_MESSAGES/systemd.mo
-* /usr/share/locale/tr/LC_MESSAGES/systemd.mo
-* /usr/share/locale/uk/LC_MESSAGES/systemd.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/systemd.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/systemd.mo
 * /usr/share/man/man1/busctl.1.gz
 * /usr/share/man/man1/coredumpctl.1.gz
 * /usr/share/man/man1/homectl.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "webrtc-audio-processing 0.3.1-5"
-version = "0.3.1-5"
+title = "webrtc-audio-processing 0.3.1-6"
+version = "0.3.1-6"
 description = "AudioProcessing library based on Google's implementation of WebRTC"
-date = "2023-09-05T12:15:05"
+date = "2024-05-16T04:44:01"
 aliases = "/packages/219889"
 categories = ['lib']
 upstreamurl = "https://freedesktop.org/software/pulseaudio/webrtc-audio-processing/"
 arch = "x86_64"
-size = "302196"
-usize = "840310"
-sha1sum = "fdc1f3847459a359df2d6177b4642e451c558875"
+size = "303424"
+usize = "848502"
+sha1sum = "77c0d4467b4457e5e5d6671995a5bd6c2dbaa8b7"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['libpulse']"
 +++

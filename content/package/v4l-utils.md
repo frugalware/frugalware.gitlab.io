@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l-utils 1.26.1-4"
-version = "1.26.1-4"
+title = "v4l-utils 1.26.1-5"
+version = "1.26.1-5"
 description = "Userspace tools and conversion library for Video 4 Linux"
-date = "2024-03-28T19:11:14"
+date = "2024-05-16T04:40:23"
 aliases = "/packages/103450"
 categories = ['multimedia']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1329800"
-usize = "5074086"
-sha1sum = "7ff197e16e282b9c17792fc8593ef431c92a032e"
+size = "1318472"
+usize = "5008024"
+sha1sum = "ec787dd6bb0e27a2f41fc70ed8f37a4423014029"
 depends = "['alsa-lib', 'elfutils', 'json-c', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
@@ -290,15 +290,6 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/share/icons/hicolor/32x32/apps/qvidcap.png
 * /usr/share/icons/hicolor/64x64/apps/qvidcap.png
 * /usr/share/icons/hicolor/scalable/apps/qvidcap.svg
-* /usr/share/locale/ca/LC_MESSAGES/libdvbv5.mo
-* /usr/share/locale/ca/LC_MESSAGES/v4l-utils.mo
-* /usr/share/locale/de/LC_MESSAGES/libdvbv5.mo
-* /usr/share/locale/de/LC_MESSAGES/v4l-utils.mo
-* /usr/share/locale/fr/LC_MESSAGES/v4l-utils.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libdvbv5.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/v4l-utils.mo
-* /usr/share/locale/uk/LC_MESSAGES/libdvbv5.mo
-* /usr/share/locale/uk/LC_MESSAGES/v4l-utils.mo
 * /usr/share/man/man1/cec-compliance.1.gz
 * /usr/share/man/man1/cec-ctl.1.gz
 * /usr/share/man/man1/cec-follower.1.gz

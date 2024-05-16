@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xfsprogs-attr 2.5.2-1"
-version = "2.5.2-1"
+title = "xfsprogs-attr 2.5.2-2"
+version = "2.5.2-2"
 description = "Dynamic library for extended attribute support."
-date = "2024-01-18T12:24:03"
+date = "2024-05-16T05:00:29"
 aliases = "/packages/2464"
 categories = ['base']
 upstreamurl = "http://oss.sgi.com/projects/xfs/"
 arch = "x86_64"
-size = "65420"
+size = "65332"
 usize = "221061"
-sha1sum = "9013982190bafb9b2ca3a8fba6e2bde25b4c7116"
+sha1sum = "9572b39fea499e6e1bbf8cfff6098db3ec357f6d"
 depends = "['glibc>=2.35']"
 reverse_depends = "['cdrtools', 'coreutils', 'kdebase-runtime-kstyles', 'ksubeditor', 'ksubtile', 'libcap', 'lighttpd', 'ntfs-3g', 'patch', 'xfsprogs-acl']"
 +++

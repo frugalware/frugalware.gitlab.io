@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-alsa-lib 1.2.11-1"
-version = "1.2.11-1"
+title = "lib32-alsa-lib 1.2.11-2"
+version = "1.2.11-2"
 description = "An alternative implementation of Linux sound support ( 32bit )"
-date = "2024-02-03T12:32:34"
+date = "2024-05-16T05:08:55"
 aliases = "/packages/217742"
 categories = ['lib32-extra']
 upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "491452"
-usize = "1840136"
-sha1sum = "4169671d0792a01c3eb6ab424b75cbf97dee6c57"
+size = "492436"
+usize = "1840144"
+sha1sum = "878fbb93ce8e5b553de7a27b78ff8c2e61a9a3c2"
 depends = "['glibc']"
 reverse_depends = "['get_steam', 'lib32-ffmpeg', 'lib32-libsndfile']"
 +++

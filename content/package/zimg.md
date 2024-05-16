@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zimg 3.0.5-2"
-version = "3.0.5-2"
+title = "zimg 3.0.5-3"
+version = "3.0.5-3"
 description = "Scaling, colorspace conversion, and dithering library"
-date = "2023-09-05T12:29:52"
+date = "2024-05-16T05:03:34"
 aliases = "/packages/220555"
 categories = ['lib']
 upstreamurl = "https://github.com/sekrit-twc/zimg"
 arch = "x86_64"
-size = "267652"
-usize = "957324"
-sha1sum = "00c0a96e9002f14f952ecfacfc040c3f4ee24268"
+size = "268148"
+usize = "965516"
+sha1sum = "437629cca00c3f9fe10bbc62b5127bf386d7febd"
 depends = "['glibc']"
 reverse_depends = "['ffmpeg']"
 +++

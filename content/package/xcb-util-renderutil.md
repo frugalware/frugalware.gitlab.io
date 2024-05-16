@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xcb-util-renderutil 0.3.10-2"
-version = "0.3.10-2"
+title = "xcb-util-renderutil 0.3.10-3"
+version = "0.3.10-3"
 description = "renderutil libraries for X C Binding"
-date = "2023-09-05T12:27:09"
+date = "2024-05-16T04:57:09"
 aliases = "/packages/119287"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "21312"
+size = "21336"
 usize = "68671"
-sha1sum = "ff13cd35a84f2bb1518f7377e8750899773bc839"
+sha1sum = "be644c511210ff828c7e3c84eb1db5343de062d1"
 depends = "['libxcb>=1.12-2']"
 reverse_depends = "['wlroots', 'xcb-util', 'xorg-server-xephyr']"
 license = "GPL2"

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-a52dec 0.8.0-1"
-version = "0.8.0-1"
+title = "lib32-a52dec 0.8.0-2"
+version = "0.8.0-2"
 description = "liba52 is a free library for decoding ATSC A/52 streams. ( 32bit )"
-date = "2024-04-17T08:40:12"
+date = "2024-05-16T05:05:30"
 aliases = "/packages/219205"
 categories = ['lib32-extra']
 upstreamurl = "https://git.adelielinux.org/community/a52dec/"
 arch = "x86_64"
-size = "36212"
+size = "36988"
 usize = "125974"
-sha1sum = "b6cc79697d9d7e9cbb9ed20896a13f5757a1a6d9"
+sha1sum = "352a53f0dd92cb2dd7330d1391c7d0dd5939acd2"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++

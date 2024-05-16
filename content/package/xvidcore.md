@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xvidcore 1.3.5-4"
-version = "1.3.5-4"
+title = "xvidcore 1.3.5-5"
+version = "1.3.5-5"
 description = "XviD is an open source MPEG-4 video codec"
-date = "2022-01-20T10:26:56"
+date = "2024-05-16T05:01:26"
 aliases = "/packages/3427"
 categories = ['multimedia']
 upstreamurl = "https://labs.xvid.com/"
 arch = "x86_64"
-size = "230784"
-usize = "908192"
-sha1sum = "46b2c86d2e5e48d81ea11ff8025a22e6acf2839c"
+size = "246624"
+usize = "940676"
+sha1sum = "9d4f1ee280ea71db239a2781e08a7629ffb0ed7f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'mencoder', 'mplayer', 'ufoai']"
 license = "GPL"

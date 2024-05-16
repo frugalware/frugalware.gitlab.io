@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "a52dec 0.8.0-1"
-version = "0.8.0-1"
+title = "a52dec 0.8.0-2"
+version = "0.8.0-2"
 description = "liba52 is a free library for decoding ATSC A/52 streams."
-date = "2024-04-17T08:40:12"
+date = "2024-05-16T05:05:30"
 aliases = "/packages/2909"
 categories = ['multimedia']
 upstreamurl = "https://git.adelielinux.org/community/a52dec/"
 arch = "x86_64"
-size = "59652"
-usize = "186333"
-sha1sum = "fbbf5ed7c12c83763fd477fad111d2bd0f1e7cc5"
+size = "60668"
+usize = "190501"
+sha1sum = "4c083944cfbd460840c7eded68fcf94a571ec806"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-ugly-a52dec', 'mencoder', 'mplayer', 'vlc-a52']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-wayland 1.22.0-2"
-version = "1.22.0-2"
+title = "lib32-wayland 1.22.0-3"
+version = "1.22.0-3"
 description = "Wayland is intended as a simpler replacement for Xorg. ( 32bit )"
-date = "2023-09-05T12:13:56"
+date = "2024-05-16T04:42:47"
 aliases = "/packages/217958"
 categories = ['lib32-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "120512"
+size = "120756"
 usize = "643887"
-sha1sum = "c67f45b014ed8bf8dc4ede1f59060d23906642f5"
+sha1sum = "ac8e6a1e8803cbe17a59e3e60528c8fd7c68a65f"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
 reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-vulkan-mesa-layers', 'vulkan-mesa-layers']"
 +++

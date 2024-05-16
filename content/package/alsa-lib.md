@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-lib 1.2.11-1"
-version = "1.2.11-1"
+title = "alsa-lib 1.2.11-2"
+version = "1.2.11-2"
 description = "An alternative implementation of Linux sound support"
-date = "2024-02-03T12:32:34"
+date = "2024-05-16T05:08:55"
 aliases = "/packages/2345"
 categories = ['multimedia']
 upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "501012"
-usize = "1905976"
-sha1sum = "9c1e155a0df92958fc268674c17fce778996e08e"
+size = "502080"
+usize = "1901880"
+sha1sum = "847125f0bb4c710c68f9597619deca1ef6b44cc4"
 depends = "['alsa-topology-conf', 'alsa-ucm-conf', 'glibc>=2.34']"
 reverse_depends = "['allegro', 'alsa-plugins', 'alsa-tools', 'alsa-utils', 'bluez', 'cef', 'enlightenment', 'ffmpeg', 'firefox', 'gst1-plugins-base-alsa', 'jack2', 'libao', 'libcanberra-alsa', 'libpulse', 'libsndfile', 'lirc', 'mlt', 'pcaudiolib', 'portaudio', 'portmidi', 'pyalsa', 'qemu', 'qt5-webengine', 'qv4l2', 'sphinxbase', 'spice-vdagent', 'ssr', 'stepmania', 'teams', 'tuxguitar', 'v4l-utils', 'virtualbox', 'vlc', 'volumeicon', 'whalebird', 'wildmidi', 'xcfa', 'xonotic']"
 +++

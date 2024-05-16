@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-xfsprogs-acl 2.3.2-1"
-version = "2.3.2-1"
+title = "lib32-xfsprogs-acl 2.3.2-2"
+version = "2.3.2-2"
 description = "Dynamic library for access control list support. ( 32bit )"
-date = "2024-01-24T18:35:44"
+date = "2024-05-16T04:59:26"
 aliases = "/packages/221029"
 categories = ['lib32-extra']
 upstreamurl = "http://oss.sgi.com/projects/xfs/"
 arch = "x86_64"
-size = "18260"
+size = "18496"
 usize = "36433"
-sha1sum = "4798aeeb5693ba906ba5e1a7350f37f2d63a89e6"
+sha1sum = "a9f912cb962cd64d013a8ef7670a7ec98f97228a"
 depends = "['lib32-xfsprogs-attr>=2.5.1-3']"
 reverse_depends = "['lib32-libsystemd']"
 +++
