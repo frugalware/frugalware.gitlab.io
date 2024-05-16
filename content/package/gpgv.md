@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gpgv 2.4.5-1"
-version = "2.4.5-1"
+title = "gpgv 2.4.5-2"
+version = "2.4.5-2"
 description = "gpgv from gnupg2."
-date = "2024-03-21T16:10:07"
+date = "2024-05-16T16:45:57"
 aliases = "/packages/152759"
 categories = ['apps']
 upstreamurl = "https://www.gnupg.org"
 arch = "x86_64"
-size = "139524"
-usize = "301932"
-sha1sum = "bf4642ebba398711dc4986217fe8d6b233e67f85"
+size = "140800"
+usize = "306028"
+sha1sum = "887834cd1f6eddd33ff895ee2e9a02d686d214e4"
 depends = "['zlib>=1.2.12']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksba 1.6.6-1"
-version = "1.6.6-1"
+title = "libksba 1.6.6-2"
+version = "1.6.6-2"
 description = "Libksba is a CMS and X.509 access library."
-date = "2024-02-25T15:05:50"
+date = "2024-05-16T16:29:20"
 aliases = "/packages/3186"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnupg.org/related_software/libksba/"
 arch = "x86_64"
-size = "176116"
-usize = "473133"
-sha1sum = "773f0c1aa705eef0660d2c255a5aa7ed7b20e3ee"
+size = "182420"
+usize = "489517"
+sha1sum = "7d8396f9bc9cdd3005452fbab6e153beb87de6d5"
 depends = "['libgpg-error>=1.24-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 license = "GPLv3"

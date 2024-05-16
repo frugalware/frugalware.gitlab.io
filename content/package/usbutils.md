@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "usbutils 017-1"
-version = "017-1"
+title = "usbutils 017-2"
+version = "017-2"
 description = "USB utilities - lsusb,usbmodules"
-date = "2023-11-02T11:43:37"
+date = "2024-05-16T16:40:02"
 aliases = "/packages/2457"
 categories = ['base']
 upstreamurl = "http://www.linux-usb.org/"
 arch = "x86_64"
-size = "83536"
+size = "83824"
 usize = "332527"
-sha1sum = "1fea558742a6e3d0aaadb0414d53c8b0857d9020"
-depends = "['hwdata', 'libudev>=242', 'libusb>=0.1.5-4']"
+sha1sum = "726362869aa8f1d0eac7666481ad8d072999d090"
+depends = "['hwdata', 'libudev>=242', 'libusb1']"
 reverse_depends = "['hw-probe', 'inxi']"
 +++
 ### Description: 
