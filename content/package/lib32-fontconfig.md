@@ -12,7 +12,7 @@ size = "161980"
 usize = "518603"
 sha1sum = "5c3d6a61364659de273d493798ac97b70095f5b8"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-expat>=2.2.5-2', 'lib32-freetype2>=2.10.0-2', 'lib32-json-c', 'lib32-libuuid']"
-reverse_depends = "['get_steam', 'lib32-cairo', 'lib32-libbluray', 'lib32-libxft']"
+reverse_depends = "['get_steam', 'lib32-cairo', 'lib32-libass', 'lib32-libbluray', 'lib32-libxft']"
 +++
 ### Description: 
 A library for configuring and customizing font access ( 32bit )

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fakeroot 1.34-1"
-version = "1.34-1"
+title = "fakeroot 1.34-2"
+version = "1.34-2"
 description = "Gives a fake root environment"
-date = "2024-03-09T13:44:15"
+date = "2024-05-16T14:19:11"
 aliases = "/packages/2371"
 categories = ['devel']
 upstreamurl = "http://packages.debian.org/unstable/utils/fakeroot"
 arch = "x86_64"
-size = "113904"
-usize = "297869"
-sha1sum = "6cc68d0be36734676ea337fbda8532e89273b1e0"
+size = "113916"
+usize = "293737"
+sha1sum = "780efc10aabc2ccada236ba13f3daf8a8b057839"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 

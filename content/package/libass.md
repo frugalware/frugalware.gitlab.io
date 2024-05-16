@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libass 0.17.1-2"
-version = "0.17.1-2"
+title = "libass 0.17.1-3"
+version = "0.17.1-3"
 description = "A portable library for SSA/ASS subtitles rendering"
-date = "2023-09-05T09:39:40"
+date = "2024-05-16T14:25:18"
 aliases = "/packages/152747"
 categories = ['xlib']
 upstreamurl = "https://github.com/libass/libass"
 arch = "x86_64"
-size = "108424"
-usize = "266502"
-sha1sum = "d4c202c12c4959927186af2bb59da2782798e7e8"
-depends = "['fribidi>=0.19.7-4', 'harfbuzz>=1.3.1', 'libenca>=1.16-4']"
+size = "109800"
+usize = "270598"
+sha1sum = "f0b5e76c739b837b3acd7728871c7bf32437936b"
+depends = "['fontconfig', 'fribidi>=0.19.7-4', 'harfbuzz>=1.3.1', 'libenca>=1.16-4']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad', 'gtk-handbrake', 'mencoder', 'mplayer', 'mpv', 'vlc-ass']"
 +++
 ### Description: 
