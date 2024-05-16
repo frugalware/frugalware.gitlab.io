@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libidn 1.42-1"
-version = "1.42-1"
+title = "libidn 1.42-2"
+version = "1.42-2"
 description = "GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification."
-date = "2024-01-18T09:59:43"
+date = "2024-05-16T02:13:26"
 aliases = "/packages/4244"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
-size = "251220"
-usize = "866139"
-sha1sum = "cc1d02bda9f55070aff928edfd8ce96e53765059"
+size = "252144"
+usize = "870323"
+sha1sum = "6163004c5ec82c3d90b542e64ce5b3b8837750c0"
 depends = "['glibc>=2.35']"
 reverse_depends = "['courier-imap', 'courier-maildrop', 'dirmngr', 'dirmngr-ldap', 'eiskaltdc', 'elinks', 'gloox', 'gmime3', 'gnunet', 'libgadu', 'libgs', 'libgsasl', 'libpurple', 'libsystemd', 'libvlc', 'libvncserver', 'lynx', 'mutt-devel', 'php', 'podofo', 'whois']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgudev 238-2"
-version = "238-2"
+title = "lib32-libgudev 238-3"
+version = "238-3"
 description = "GObject bindings for libudev ( 32bit )"
-date = "2023-09-05T10:04:39"
+date = "2024-05-16T02:09:04"
 aliases = "/packages/218952"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "14468"
+size = "14564"
 usize = "64567"
-sha1sum = "360b0502872d20dffd34e7f8530a93225c6a8158"
+sha1sum = "9c9ac900d8cd4f1855ef0cb5ec8af2522fb5c2b4"
 depends = "['lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libudev>=242']"
 reverse_depends = "['lib32-modemmanager', 'lib32-networkmanager']"
 +++

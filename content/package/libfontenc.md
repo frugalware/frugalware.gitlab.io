@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfontenc 1.1.8-1"
-version = "1.1.8-1"
+title = "libfontenc 1.1.8-2"
+version = "1.1.8-2"
 description = "The fontenc Library"
-date = "2024-03-03T16:22:41"
+date = "2024-05-16T02:02:01"
 aliases = "/packages/4777"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "31268"
+size = "31288"
 usize = "91654"
-sha1sum = "952051f9a1291b403cbab0e0c38a85b32ab4e24a"
+sha1sum = "a29c4f90829bbb6144def00fc5e7e14d47ac0b4b"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['fonttosfnt', 'libxfont', 'libxfont2', 'luit', 'mkfontscale']"
 license = "GPL2"

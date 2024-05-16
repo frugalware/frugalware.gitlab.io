@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-icu4c 75.1-2"
-version = "75.1-2"
+title = "lib32-icu4c 75.1-3"
+version = "75.1-3"
 description = "International Components for Unicode library ( 32bit )"
-date = "2024-05-06T18:43:32"
+date = "2024-05-16T01:27:16"
 aliases = "/packages/218972"
 categories = ['lib32-extra']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "10472552"
-usize = "42859064"
-sha1sum = "240dc1b8ccaaae87b6567253e79f3508f0f37f4f"
+size = "10493880"
+usize = "42896128"
+sha1sum = "c695ab4b32f2b0490ca3edfdd02bd1ea8814fe7d"
 depends = "[]"
 reverse_depends = "['lib32-harfbuzz', 'lib32-libxml2']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libice 1.1.1-2"
-version = "1.1.1-2"
+title = "libice 1.1.1-3"
+version = "1.1.1-3"
 description = "X Inter Client Exchange Library"
-date = "2023-09-05T10:07:10"
+date = "2024-05-16T02:10:19"
 aliases = "/packages/4779"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "102188"
-usize = "467052"
-sha1sum = "c1dc981e1322deb65bd19e56bc5b2348436a9cb2"
+size = "102224"
+usize = "462956"
+sha1sum = "08c7da64d862185924aae6c5a5b1f171d70c63da"
 depends = "['glibc>=2.34']"
 reverse_depends = "['firefox', 'gvim', 'iceauth', 'libqtdesignercomponents', 'libsm', 'polkit-qt5-1', 'polkit-qt6-1', 'qscintilla2', 'xpad']"
 license = "GPL2"

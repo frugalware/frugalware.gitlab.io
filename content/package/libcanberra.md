@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcanberra 0.30-22"
-version = "0.30-22"
+title = "libcanberra 0.30-23"
+version = "0.30-23"
 description = "libcanberra is an implementation of the XDG Sound Theme and Name Specifications."
-date = "2024-01-07T20:08:08"
+date = "2024-05-16T01:48:13"
 aliases = "/packages/49376"
 categories = ['multimedia']
 upstreamurl = "http://0pointer.de/lennart/projects/libcanberra/"
 arch = "x86_64"
-size = "43568"
+size = "43432"
 usize = "155405"
-sha1sum = "9c3e716597fe13b8ff5f717118851dad131fd945"
+sha1sum = "5dca0d03498c6f97296231b838ec6bc6dcc4ef18"
 depends = "['libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis>=1.3.5-5', 'tdb>=1.3.10-2']"
 reverse_depends = "['hexchat', 'kitty', 'kmix', 'knotifications', 'knotifications5', 'libcanberra-alsa', 'libcanberra-gst', 'libcanberra-gtk', 'libcanberra-gtk2', 'libcanberra-pulseaudio', 'pipewire', 'plasma-desktop', 'plasma-pa']"
 +++

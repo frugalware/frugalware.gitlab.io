@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcap 2.69-4"
-version = "2.69-4"
+title = "libcap 2.69-5"
+version = "2.69-5"
 description = "POSIX 1003.1e capabilities"
-date = "2024-01-02T20:58:58"
+date = "2024-05-16T01:49:30"
 aliases = "/packages/3151"
 categories = ['base']
 upstreamurl = "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2"
 arch = "x86_64"
-size = "83052"
-usize = "227056"
-sha1sum = "224b3d8522e8b04db543e5bf583d5d0778697b43"
+size = "83144"
+usize = "231152"
+sha1sum = "227602fbc153d698b8835fa2dc9d9312e9862c6c"
 depends = "['glibc>=2.35', 'xfsprogs-attr>=2.2.53-2']"
 reverse_depends = "['android-tools', 'cdrtools', 'chrony', 'coreutils', 'gstreamer1', 'hwloc', 'i3status', 'inetutils', 'iputils', 'libsystemd', 'pure-ftpd', 'systemd-pull', 'systemd-sysvinit', 'uwsgi', 'virtualbox', 'zsh']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libedit 20230828_3.1-2"
-version = "20230828_3.1-2"
+title = "lib32-libedit 20230828_3.1-3"
+version = "20230828_3.1-3"
 description = "Editline Library ( 32bit )"
-date = "2024-04-28T11:28:23"
+date = "2024-05-16T01:55:23"
 aliases = "/packages/218611"
 categories = ['lib32-extra']
 upstreamurl = "http://www.thrysoee.dk/editline/"
 arch = "x86_64"
-size = "85564"
-usize = "242153"
-sha1sum = "af8b824600181518754ef4c4a8e5399dea4d9253"
+size = "85748"
+usize = "242155"
+sha1sum = "9a90141a5df636d14cfb8e0142cb1246dacbf38d"
 depends = "['lib32-ncurses>=6.5']"
 reverse_depends = "['lib32-llvm-libs']"
 +++

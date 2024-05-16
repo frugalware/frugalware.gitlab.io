@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gnutls 3.8.5-1"
-version = "3.8.5-1"
+title = "lib32-gnutls 3.8.5-2"
+version = "3.8.5-2"
 description = "A library which provides a secure layer over a reliable transport layer ( 32bit )"
-date = "2024-04-22T11:55:28"
+date = "2024-05-16T01:21:49"
 aliases = "/packages/218968"
 categories = ['lib32-extra']
 upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
-size = "1060656"
-usize = "3614297"
-sha1sum = "2f471a6512a433f52109f232afba73718e194e8f"
+size = "1067364"
+usize = "3621813"
+sha1sum = "f035719fb12f1f7032b30796541d40f935ddb746"
 depends = "['lib32-brotli', 'lib32-libidn2>=1.35', 'lib32-libunistring>=1.1', 'lib32-nettle>=3.6', 'lib32-p11-kit>=0.23.2-10', 'lib32-zstd']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libcups', 'lib32-libcurl-gnutls', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-libzip', 'lib32-rtmpdump']"
 +++

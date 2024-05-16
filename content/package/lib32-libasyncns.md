@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libasyncns 0.8-12"
-version = "0.8-12"
+title = "lib32-libasyncns 0.8-13"
+version = "0.8-13"
 description = "libasyncns is a C library for Linux/Unix for executing name service queries asynchronously ( 32bit )"
-date = "2023-10-22T12:15:30"
+date = "2024-05-16T01:41:42"
 aliases = "/packages/217939"
 categories = ['lib32-extra']
 upstreamurl = "http://0pointer.de/lennart/projects/libasyncns/"
 arch = "x86_64"
-size = "10060"
+size = "10132"
 usize = "26003"
-sha1sum = "d4a631d4e21ee10a7b2b8b03976053be466df14e"
+sha1sum = "1b7c8622573176a0c4c5fbda90b1177a9d0caa69"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jsoncpp 1.9.5-3"
-version = "1.9.5-3"
+title = "jsoncpp 1.9.5-4"
+version = "1.9.5-4"
 description = "JSON C++ library."
-date = "2023-08-24T14:15:35"
+date = "2024-05-16T01:31:14"
 aliases = "/packages/184725"
 categories = ['lib']
 upstreamurl = "https://github.com/open-source-parsers/jsoncpp"
 arch = "x86_64"
-size = "93448"
-usize = "309271"
-sha1sum = "b1fa69baf43c543a5375a60cb00d5215dbecc418"
+size = "98284"
+usize = "321559"
+sha1sum = "4f18e071e040b477ddbc0c9b98281c62faa9724b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cmake', 'opendht', 'openvr', 'openxr', 'qt5-webengine', 'sysdig']"
 +++

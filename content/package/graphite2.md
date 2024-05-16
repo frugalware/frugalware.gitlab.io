@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "graphite2 1.3.14-3"
-version = "1.3.14-3"
+title = "graphite2 1.3.14-4"
+version = "1.3.14-4"
 description = "Font rendering capabilities for complex non-Roman writing systems"
-date = "2023-10-22T12:12:12"
+date = "2024-05-16T01:22:54"
 aliases = "/packages/136611"
 categories = ['xoffice']
 upstreamurl = "https://sourceforge.net/projects/silgraphite"
 arch = "x86_64"
-size = "86948"
-usize = "240550"
-sha1sum = "f27ef9616d72ed847ae3e6f82b979ac020e6917b"
+size = "86964"
+usize = "240768"
+sha1sum = "17225c879b91a9568a304e869881be83d8f629f2"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['efl', 'enlightenment', 'harfbuzz', 'libreoffice', 'terminology', 'texlive']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libevent 2.1.12-5"
-version = "2.1.12-5"
+title = "lib32-libevent 2.1.12-6"
+version = "2.1.12-6"
 description = "Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached ( 32bit )"
-date = "2023-09-05T09:55:28"
+date = "2024-05-16T01:59:47"
 aliases = "/packages/220047"
 categories = ['lib32-extra']
 upstreamurl = "http://libevent.org/"
 arch = "x86_64"
-size = "264888"
+size = "265224"
 usize = "1251222"
-sha1sum = "39602b9c9e5927c870c4afa354a77f5da3f4c370"
+sha1sum = "40c7b6cd2ea12351df2737a9a685f5125966a4ef"
 depends = "['lib32-openssl>=3.1.0']"
 reverse_depends = "['lib32-avahi']"
 +++

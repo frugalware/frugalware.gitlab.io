@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libidn 1.42-1"
-version = "1.42-1"
+title = "lib32-libidn 1.42-2"
+version = "1.42-2"
 description = "GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification. ( 32bit )"
-date = "2024-01-18T09:59:43"
+date = "2024-05-16T02:13:26"
 aliases = "/packages/218967"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
-size = "57632"
-usize = "266294"
-sha1sum = "cc18808322a978309e3f7242207d263b854032c7"
+size = "57620"
+usize = "270386"
+sha1sum = "cf7107d7c6e9e88ae163751a64723554ef7e5633"
 depends = "[]"
 +++
 ### Description: 

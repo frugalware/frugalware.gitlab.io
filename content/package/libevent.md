@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libevent 2.1.12-5"
-version = "2.1.12-5"
+title = "libevent 2.1.12-6"
+version = "2.1.12-6"
 description = "Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached"
-date = "2023-09-05T09:55:28"
+date = "2024-05-16T01:59:47"
 aliases = "/packages/3160"
 categories = ['lib']
 upstreamurl = "http://libevent.org/"
 arch = "x86_64"
-size = "297200"
-usize = "1309527"
-sha1sum = "4aba989837c44045dbf396a24c101e4b90a68329"
+size = "297152"
+usize = "1309607"
+sha1sum = "e4c5a030e0f2ea0f953b1b0473a3a4885f91513a"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['avahi', 'faifa', 'firefox', 'libreswan', 'memcached', 'nfs-utils', 'openpmix', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'seafile', 'thunderbird', 'tmux', 'tor', 'transmission-cli', 'unbound']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgcrypt 1.10.3-1"
-version = "1.10.3-1"
+title = "libgcrypt 1.10.3-2"
+version = "1.10.3-2"
 description = "Libgcrypt is a general purpose cryptographic library based on the code from GnuPG."
-date = "2023-11-14T19:18:30"
+date = "2024-05-16T02:04:34"
 aliases = "/packages/3164"
 categories = ['base']
 upstreamurl = "https://gnupg.org/software/libgcrypt/index.html"
 arch = "x86_64"
-size = "770352"
-usize = "2404527"
-sha1sum = "2dc53663f2f7cf86b82fb94ab1e4887d25078824"
+size = "774924"
+usize = "2416783"
+sha1sum = "39719bfe0306ef1b337ebe9aa21c9a8c56f6153f"
 depends = "['libgpg-error>=1.36-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'efl', 'enlightenment', 'freeipmi', 'fsarchiver', 'gcr-1', 'gnunet', 'gpg-agent', 'gtk-vnc', 'kvm', 'kwallet-pam', 'lftp', 'libgl', 'libgnome-keyring', 'libmicrohttpd', 'libotr', 'libquvi', 'libsecret', 'libssh', 'libsystemd', 'libvlc', 'libvncserver', 'libxslt', 'networkmanager', 'otter-browser', 'qca-gcrypt', 'rasqal', 'remmina', 'rng-tools', 'rtmpdump', 'systemd-pull', 'systemd-sysvinit', 'terminology', 'vpnc', 'weechat']"
 +++

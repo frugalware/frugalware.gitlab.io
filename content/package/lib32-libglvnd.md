@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libglvnd 1.7.0-2"
-version = "1.7.0-2"
+title = "lib32-libglvnd 1.7.0-3"
+version = "1.7.0-3"
 description = "The GL Vendor-Neutral Dispatch library ( 32bit )"
-date = "2023-09-12T18:00:00"
+date = "2024-05-16T02:07:23"
 aliases = "/packages/219513"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/NVIDIA/libglvnd"
 arch = "x86_64"
-size = "206436"
+size = "209324"
 usize = "1444041"
-sha1sum = "af675a1271373189d1ba2d3668ebe0978703d6e8"
+sha1sum = "8e1bd41dd711f3427a7c4ac562fd75f82a8142ab"
 depends = "['lib32-libx11', 'lib32-libxext']"
 reverse_depends = "['lib32-libepoxy', 'lib32-libglu', 'lib32-libva', 'lib32-nvidia', 'lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libffi 3.4.5-1"
-version = "3.4.5-1"
+title = "libffi 3.4.5-2"
+version = "3.4.5-2"
 description = "A Portable Foreign Function Interface Library"
-date = "2024-02-17T22:17:04"
+date = "2024-05-16T02:00:54"
 aliases = "/packages/14129"
 categories = ['base']
 upstreamurl = "http://sourceware.org/libffi/"
 arch = "x86_64"
-size = "168316"
+size = "168528"
 usize = "574120"
-sha1sum = "d554b898cc599379975b4711d156788b4975f27d"
+sha1sum = "63c756185a425fba2fd5e68c900307bccd36e4db"
 depends = "['glibc>=2.35']"
 reverse_depends = "['autogen', 'avahi-glib', 'cairo', 'cairomm', 'chromium-browser', 'clang', 'clang-libs', 'clang15', 'clang15-libs', 'colord', 'colord-gtk', 'dbus-glib', 'dbus-python', 'dirmngr', 'dirmngr-ldap', 'efl', 'enlightenment', 'farstream', 'firefox', 'gail', 'gconf', 'gegl', 'gftp', 'ghc', 'glib2', 'gobject-introspection', 'gst-libav', 'gst1-plugins-bad', 'gst1-plugins-bad-bzip2', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-soundtouch', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'gst1-plugins-ugly', 'gst1-plugins-ugly-a52dec', 'gst1-plugins-ugly-cdio', 'gst1-plugins-ugly-dvdread', 'gst1-plugins-ugly-mpeg2dec', 'gst1-plugins-ugly-x264', 'gstreamer1', 'gtk+2', 'gtk+3', 'gtk+3-demos', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4', 'gtk+4-demos', 'gtk+4-tools', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'gtkspell3', 'guile', 'harfbuzz', 'ibus', 'json-glib', 'lib32-mesa-libswrast', 'libcanberra-gst', 'libgadu', 'libgee8', 'libgphoto2', 'libgsf', 'libgudev', 'libgusb', 'libmicrohttpd', 'libnotify', 'libosmesa', 'libsoup', 'libva-mesa-driver', 'libvncserver', 'libwacom', 'libwnck', 'libwnck2', 'libxatracker', 'llvm-libs', 'llvm15-libs', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'meshroom', 'nice', 'ocaml-ctypes', 'openbox', 'openjre-x', 'p11-kit', 'pango', 'polkit', 'poppler-glib', 'poppler-pdftools', 'pygobject3-cairo', 'python3', 'python3-cffi', 'python3-pycairo', 'ruby', 'rust', 'shellcheck', 'telepathy-farstream', 'telepathy-idle', 'telepathy-logger', 'telepathy-salut', 'terminology', 'thunderbird', 'udisks2', 'uwsgi-plugin-ffi', 'vala', 'wayland', 'xine-lib', 'zeitgeist']"
 +++

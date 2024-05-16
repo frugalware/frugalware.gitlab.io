@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgcrypt 1.10.3-1"
-version = "1.10.3-1"
+title = "lib32-libgcrypt 1.10.3-2"
+version = "1.10.3-2"
 description = "Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. ( 32bit )"
-date = "2023-11-14T19:18:30"
+date = "2024-05-16T02:04:34"
 aliases = "/packages/217736"
 categories = ['lib32-extra']
 upstreamurl = "https://gnupg.org/software/libgcrypt/index.html"
 arch = "x86_64"
-size = "442868"
-usize = "1147624"
-sha1sum = "718bb3991f22555f2bb31a3d1fffcc960a1a9160"
+size = "445876"
+usize = "1151720"
+sha1sum = "78916667ee797c73f5d2d3fb0d1f76f6db4eb4b4"
 depends = "['lib32-libgpg-error>=1.36-2']"
 reverse_depends = "['lib32-libgl', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-pipewire', 'lib32-rtmpdump']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libevdev 1.13.1-2"
-version = "1.13.1-2"
+title = "libevdev 1.13.1-3"
+version = "1.13.1-3"
 description = "Wrapper library for evdev devices"
-date = "2023-09-05T09:53:32"
+date = "2024-05-16T01:57:41"
 aliases = "/packages/200940"
 categories = ['lib']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/libevdev/"
 arch = "x86_64"
-size = "58064"
+size = "58080"
 usize = "262222"
-sha1sum = "8e7bc37a94e14b57e915f33063f6219a07306350"
+sha1sum = "f52c71dd7e02992fa06fde763398e9b2174fbdb4"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libinput', 'libinput-debug-events', 'libmanette', 'libratbag', 'libwacom', 'python3-evdev', 'qt5-base', 'terminology', 'xf86-input-evdev', 'xf86-input-synaptics']"
 +++

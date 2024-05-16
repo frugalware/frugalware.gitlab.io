@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libcap 2.69-4"
-version = "2.69-4"
+title = "lib32-libcap 2.69-5"
+version = "2.69-5"
 description = "POSIX 1003.1e capabilities ( 32bit )"
-date = "2024-01-02T20:58:58"
+date = "2024-05-16T01:49:30"
 aliases = "/packages/217738"
 categories = ['lib32-extra']
 upstreamurl = "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2"
 arch = "x86_64"
-size = "51340"
+size = "51420"
 usize = "182588"
-sha1sum = "c3e3fe5653c7461bcaafb70c4277c5e4677f201e"
+sha1sum = "9468f1c039de7d663c92ba8a92e337d9ea5346b6"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libsystemd', 'lib32-pipewire']"
 +++

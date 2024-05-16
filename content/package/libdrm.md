@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdrm 2.4.120-1"
-version = "2.4.120-1"
+title = "libdrm 2.4.120-2"
+version = "2.4.120-2"
 description = "X.Org Userspace interface to kernel DRM services"
-date = "2024-01-17T21:07:26"
+date = "2024-05-16T01:54:02"
 aliases = "/packages/4776"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
-size = "313256"
-usize = "1248545"
-sha1sum = "0774177988530a042fe45e9f26c9faed277f4c67"
+size = "314732"
+usize = "1256737"
+sha1sum = "498b326817e13878b9ef192cb580da9b1b46bb1e"
 depends = "['libpciaccess>=0.13.4-4']"
 reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'dosbox', 'efl', 'enlightenment', 'evdi', 'guarddog', 'hsakmt-roct', 'intel-compute-runtime', 'intel-gpu-tools', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libgl', 'libosmesa', 'libva', 'libva-mesa-driver', 'libvpl', 'libxatracker', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'radeon-profile', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'xf86-video-intel']"
 +++

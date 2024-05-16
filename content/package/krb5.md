@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krb5 1.21.2-2"
-version = "1.21.2-2"
+title = "krb5 1.21.2-3"
+version = "1.21.2-3"
 description = "Kerberos: The Network Authentication Protocol"
-date = "2024-01-14T14:03:57"
+date = "2024-05-16T01:35:46"
 aliases = "/packages/74088"
 categories = ['lib-extra']
 upstreamurl = "http://web.mit.edu/kerberos/"
 arch = "x86_64"
-size = "516588"
-usize = "1892090"
-sha1sum = "3fd0426dec6843c13d6b9a5474af23ce24c17a5a"
+size = "438232"
+usize = "1373721"
+sha1sum = "67d6ba44cfb5b02badb838abc41a0687f860a0dd"
 depends = "['e2fsprogs>=1.43.3-2', 'libkrb5>=1.21.2', 'openssl>=3.1.0']"
 reverse_depends = "['openconnect']"
 license = "licence"
@@ -56,9 +56,6 @@ Kerberos: The Network Authentication Protocol
 * /usr/share/examples/krb5/kdc.conf
 * /usr/share/examples/krb5/krb5.conf
 * /usr/share/examples/krb5/services.append
-* /usr/share/locale/de/LC_MESSAGES/mit-krb5.mo
-* /usr/share/locale/en_US/LC_MESSAGES/mit-krb5.mo
-* /usr/share/locale/ka/LC_MESSAGES/mit-krb5.mo
 * /usr/share/man/man1/k5srvutil.1.gz
 * /usr/share/man/man1/kadmin.1.gz
 * /usr/share/man/man1/kdestroy.1.gz

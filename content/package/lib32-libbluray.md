@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libbluray 1.3.4-2"
-version = "1.3.4-2"
+title = "lib32-libbluray 1.3.4-3"
+version = "1.3.4-3"
 description = "Blu-Ray access library ( 32bit )"
-date = "2023-09-05T09:43:59"
+date = "2024-05-16T01:42:57"
 aliases = "/packages/219220"
 categories = ['lib32-extra']
 upstreamurl = "http://www.videolan.org/developers/libbluray.html"
 arch = "x86_64"
-size = "178608"
-usize = "546351"
-sha1sum = "92f002a2c360d22cbbc081096426ffd3a03f01ad"
+size = "179836"
+usize = "550423"
+sha1sum = "0fe9d3bc2600b2ac588bd3c3e7b30fd5286edd37"
 depends = "['lib32-fontconfig>=2.12.1-2', 'lib32-freetype2>=2.10.0', 'lib32-libxml2>=2.9.4-3']"
 reverse_depends = "['lib32-ffmpeg']"
 +++

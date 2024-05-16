@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libenca 1.19-8"
-version = "1.19-8"
+title = "libenca 1.19-9"
+version = "1.19-9"
 description = "An extremely naive character set analyzer library"
-date = "2023-10-22T12:22:45"
+date = "2024-05-16T01:56:41"
 aliases = "/packages/74672"
 categories = ['lib']
 upstreamurl = "http://cihar.com/software/enca/"
 arch = "x86_64"
-size = "80936"
+size = "81664"
 usize = "357108"
-sha1sum = "967a09d72404087f6719eec4f211ee4f80e46c52"
+sha1sum = "d12ad4d7d35c6f660f16bedce0029115170bcec9"
 depends = "['recode>=3.6-5']"
 reverse_depends = "['enca', 'libass']"
 +++

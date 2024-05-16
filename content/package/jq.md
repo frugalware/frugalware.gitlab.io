@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jq 1.7-1"
-version = "1.7-1"
+title = "jq 1.7-2"
+version = "1.7-2"
 description = "Command-line JSON processor."
-date = "2023-09-12T08:36:14"
+date = "2024-05-16T01:30:31"
 aliases = "/packages/219620"
 categories = ['chroot-core']
 upstreamurl = "https://github.com/stedolan/jq"
 arch = "x86_64"
-size = "188396"
+size = "188296"
 usize = "474468"
-sha1sum = "172296bb118f3127e520b0306b927f53c5330d5d"
+sha1sum = "f7253a41cd7c365818a92ba647cfa521f4286d49"
 depends = "['oniguruma>=6.9.8']"
 reverse_depends = "['sysdig']"
 +++

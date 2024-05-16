@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libglvnd 1.7.0-2"
-version = "1.7.0-2"
+title = "libglvnd 1.7.0-3"
+version = "1.7.0-3"
 description = "The GL Vendor-Neutral Dispatch library"
-date = "2023-09-12T18:00:00"
+date = "2024-05-16T02:07:23"
 aliases = "/packages/219512"
 categories = ['x11']
 upstreamurl = "https://github.com/NVIDIA/libglvnd"
 arch = "x86_64"
-size = "329880"
+size = "329672"
 usize = "4038876"
-sha1sum = "949a8ac2deb7b1b869e82063befca48d536ef33a"
+sha1sum = "cc0f53e877847383cc4a00216a89e3bc74cf643a"
 depends = "['libx11', 'libxext']"
 reverse_depends = "['cef', 'fltk', 'flutter', 'freeglut', 'glew', 'gst1-plugins-base', 'hip-runtime-amd', 'irrlicht', 'libepoxy', 'libglu', 'libplacebo', 'libva', 'lsp-plugins', 'nvidia', 'opencv', 'opendiablo2', 'openscenegraph', 'openxr', 'qt5-base', 'qt6-base', 'sdl2_ttf', 'virtualbox', 'weston', 'whalebird', 'wlroots', 'wpebackend-fdo', 'xdriinfo', 'xorg-server', 'xorg-server-xephyr', 'zam-plugins']"
 +++

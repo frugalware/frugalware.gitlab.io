@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcanberra-gtk 0.30-22"
-version = "0.30-22"
+title = "libcanberra-gtk 0.30-23"
+version = "0.30-23"
 description = "GTK+3 libcanberra"
-date = "2024-01-07T20:08:08"
+date = "2024-05-16T01:48:13"
 aliases = "/packages/49379"
 categories = ['gnome']
 upstreamurl = "http://0pointer.de/lennart/projects/libcanberra/"
 arch = "x86_64"
-size = "34940"
+size = "34916"
 usize = "190666"
-sha1sum = "085e60ae20a16b53ddc17dcebdfb48c16a3c526a"
+sha1sum = "fb88381e42fae778cdc478ff8f6cf2fef49369e5"
 depends = "['gtk+3>=3.22.29', 'libcanberra>=0.30']"
 reverse_depends = "['notification-daemon', 'pavucontrol']"
 +++

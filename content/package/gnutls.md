@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnutls 3.8.5-1"
-version = "3.8.5-1"
+title = "gnutls 3.8.5-2"
+version = "3.8.5-2"
 description = "A library which provides a secure layer over a reliable transport layer"
-date = "2024-04-22T11:55:28"
+date = "2024-05-16T01:21:49"
 aliases = "/packages/3065"
 categories = ['apps']
 upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
-size = "3287676"
-usize = "8101240"
-sha1sum = "342f69cf21b101177aafc19bfbb84cd07aa7eacd"
+size = "3290484"
+usize = "8093048"
+sha1sum = "507c59644c8d6e6fab5f775ec8bcdde19423e264"
 depends = "['brotli', 'libidn2>=1.35', 'libunistring>=1.1', 'nettle>=3.6', 'p11-kit>=0.23.2-10', 'zstd']"
 reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'net6', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
 +++

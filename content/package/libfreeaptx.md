@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfreeaptx 0.1.1-5"
-version = "0.1.1-5"
+title = "libfreeaptx 0.1.1-6"
+version = "0.1.1-6"
 description = "Open Source implementation of Audio Processing Technology codec (aptX)"
-date = "2023-10-22T12:23:29"
+date = "2024-05-16T02:02:38"
 aliases = "/packages/220458"
 categories = ['lib']
 upstreamurl = "https://github.com/iamthehorker/libfreeaptx"
 arch = "x86_64"
-size = "24772"
-usize = "89840"
-sha1sum = "88d0f92aac2456989a15ccad9bdf0758ecad6af3"
+size = "25156"
+usize = "90080"
+sha1sum = "56fbd6a73f92df731fdefd36c4b2449b234c40bc"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 +++

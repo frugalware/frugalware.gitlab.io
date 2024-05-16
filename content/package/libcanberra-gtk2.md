@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcanberra-gtk2 0.30-22"
-version = "0.30-22"
+title = "libcanberra-gtk2 0.30-23"
+version = "0.30-23"
 description = "GTK+2 libcanberra"
-date = "2024-01-07T20:08:08"
+date = "2024-05-16T01:48:13"
 aliases = "/packages/118774"
 categories = ['gnome-extra']
 upstreamurl = "http://0pointer.de/lennart/projects/libcanberra/"
 arch = "x86_64"
-size = "16428"
+size = "16624"
 usize = "50364"
-sha1sum = "60879813b6c5eb2727035ef061760d20d61ace10"
+sha1sum = "e4aabe3dc1d8744a295abf94e6bef666ade7b5b6"
 depends = "['gtk+2>=2.24.32-3', 'libcanberra>=0.30']"
 +++
 ### Description: 

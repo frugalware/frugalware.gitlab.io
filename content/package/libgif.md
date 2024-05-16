@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgif 5.2.2-1"
-version = "5.2.2-1"
+title = "libgif 5.2.2-2"
+version = "5.2.2-2"
 description = "GIF loading and saving shared library"
-date = "2024-02-20T12:27:06"
+date = "2024-05-16T02:05:25"
 aliases = "/packages/73463"
 categories = ['xlib']
 upstreamurl = "http://giflib.sourceforge.net/"
 arch = "x86_64"
-size = "94896"
+size = "94916"
 usize = "331393"
-sha1sum = "f8cf94c4bd45e2186e36f2eed6d5cec42010eec7"
+sha1sum = "5bb4ff2b8065645030c9af666f537f8b3ef68d68"
 depends = "['glibc>=2.34']"
 reverse_depends = "['dlib', 'efl', 'efl', 'emacs', 'fontforge', 'imlib2', 'khtml', 'khtml5', 'leptonica', 'libgdiplus', 'libwebp', 'mencoder', 'mplayer', 'openjre-x']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lame 3.100-8"
-version = "3.100-8"
+title = "lame 3.100-9"
+version = "3.100-9"
 description = "An LGPL MP3 encoder."
-date = "2024-04-28T12:53:15"
+date = "2024-05-16T01:37:35"
 aliases = "/packages/3139"
 categories = ['multimedia']
 upstreamurl = "https://sourceforge.net/projects/lame"
 arch = "x86_64"
-size = "427080"
-usize = "1664736"
-sha1sum = "b468457b967418b977afe43e1844eccb3b108584"
+size = "425716"
+usize = "1653746"
+sha1sum = "1664303e67fe39aaef3200f278fa257b872b2590"
 depends = "['ncurses>=6.5']"
 reverse_depends = "['cdrdao', 'ffmpeg', 'gtk-handbrake', 'mencoder', 'mlt', 'mplayer', 'realrekord', 'sox']"
 +++
@@ -30,7 +30,6 @@ An LGPL MP3 encoder.
 * /usr/share/doc/lame-3.100/INSTALL.configure
 * /usr/share/doc/lame-3.100/LICENSE
 * /usr/share/doc/lame-3.100/README
-* /usr/share/doc/lame-3.100/README.md
 * /usr/share/doc/lame-3.100/README.WINGTK
 * /usr/share/doc/lame-3.100/TODO
 * /usr/share/doc/lame/html/about.html

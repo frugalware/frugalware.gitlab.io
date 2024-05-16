@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "icu4c 75.1-2"
-version = "75.1-2"
+title = "icu4c 75.1-3"
+version = "75.1-3"
 description = "International Components for Unicode library"
-date = "2024-05-06T18:43:32"
+date = "2024-05-16T01:27:16"
 aliases = "/packages/60701"
 categories = ['lib']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "10418104"
-usize = "42772948"
-sha1sum = "947a69f71b1451fa06257021d2da42daa099172e"
+size = "10442064"
+usize = "42822100"
+sha1sum = "5a4f8a459d5b15f83c8450266ec77f3b83577544"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['blender', 'calamares-frugalware', 'chromium-browser', 'darktable', 'dovecot', 'firebird', 'firefox', 'freeciv', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'kdeplasma-addons5', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs18', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'user-kcm', 'webkit-gtk3', 'xerces-c', 'xfsprogs', 'znc']"
 license = "License"

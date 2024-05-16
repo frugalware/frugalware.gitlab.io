@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libbluray 1.3.4-2"
-version = "1.3.4-2"
+title = "libbluray 1.3.4-3"
+version = "1.3.4-3"
 description = "Blu-Ray access library"
-date = "2023-09-05T09:43:59"
+date = "2024-05-16T01:42:57"
 aliases = "/packages/136058"
 categories = ['xmultimedia']
 upstreamurl = "http://www.videolan.org/developers/libbluray.html"
 arch = "x86_64"
-size = "186216"
-usize = "545101"
-sha1sum = "3640e1ce1fe9e375945aa400dd6822c4605bf716"
+size = "186228"
+usize = "541005"
+sha1sum = "3c7871dd77181e00ea58ff702198d544b93efa66"
 depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.10.0', 'libxml2>=2.9.4-3']"
 reverse_depends = "['ffmpeg', 'gvfs', 'mencoder', 'mplayer', 'mpv', 'vlc-bluray']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libice 1.1.1-2"
-version = "1.1.1-2"
+title = "lib32-libice 1.1.1-3"
+version = "1.1.1-3"
 description = "X Inter Client Exchange Library ( 32bit )"
-date = "2023-09-05T10:07:10"
+date = "2024-05-16T02:10:19"
 aliases = "/packages/217982"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "47404"
+size = "47556"
 usize = "144768"
-sha1sum = "47a6abbef0443fd3e58ba16d2514a0734c6b3cb9"
+sha1sum = "f8f6a8899457276c088d1408ac338341ad6f536f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libsm']"
 +++

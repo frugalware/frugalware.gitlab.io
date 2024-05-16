@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcaca 0.99.beta20-1"
-version = "0.99.beta20-1"
+title = "libcaca 0.99.beta20-2"
+version = "0.99.beta20-2"
 description = "A graphics library that outputs text instead of pixels."
-date = "2023-10-05T07:41:06"
+date = "2024-05-16T01:45:03"
 aliases = "/packages/14409"
 categories = ['xlib']
 upstreamurl = "http://libcaca.zoy.org"
 arch = "x86_64"
-size = "293312"
+size = "293552"
 usize = "1711950"
-sha1sum = "3e268774c485a22007dfb38230fe46da7a74db11"
+sha1sum = "72cdce9f86e88abfdde792f81ffc527c4d788158"
 depends = "['imlib2>=1.4.7-4', 'libstdc++>=11.2', 'ncurses>=6.1', 'python3>=3.11', 'slang>=2.3.0-4']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-good-caca', 'vlc-caca']"
 +++

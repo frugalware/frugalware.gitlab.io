@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgssglue 0.9-1"
-version = "0.9-1"
+title = "libgssglue 0.9-2"
+version = "0.9-2"
 description = "Generic Security Services GLUE."
-date = "2024-02-01T08:00:50"
+date = "2024-05-16T02:08:21"
 aliases = "/packages/60726"
 categories = ['base']
 upstreamurl = "https://gitlab.com/gsasl/libgssglue"
 arch = "x86_64"
-size = "28860"
+size = "28968"
 usize = "94674"
-sha1sum = "88ec1abb4f0f4b8ac9ae287e106873f077add9c9"
+sha1sum = "54f9b0f78b61a41dcd082ca7be2873322eb2d5e5"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libkrb5', 'libtirpc']"
 +++

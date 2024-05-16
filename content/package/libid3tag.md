@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libid3tag 0.15.1b-14"
-version = "0.15.1b-14"
+title = "libid3tag 0.15.1b-15"
+version = "0.15.1b-15"
 description = "ID3 tag manipulation library"
-date = "2023-10-22T12:25:14"
+date = "2024-05-16T02:11:22"
 aliases = "/packages/3181"
 categories = ['multimedia']
 upstreamurl = "http://www.underbit.com/products/mad/"
 arch = "x86_64"
-size = "42188"
+size = "42248"
 usize = "157576"
-sha1sum = "4883d25ac292de64a4e56793fcea47438cd713ca"
+sha1sum = "2e6f946d8f29618d952eff46c4f7bbef095816d8"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['imlib2', 'libmp3splt', 'minidlna']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmod 32-1"
-version = "32-1"
+title = "kmod 32-2"
+version = "32-2"
 description = "Utilities for inserting and removing modules from the Linux kernel"
-date = "2024-03-06T14:53:57"
+date = "2024-05-16T01:32:14"
 aliases = "/packages/137173"
 categories = ['base']
 upstreamurl = "http://kernel.org"
 arch = "x86_64"
-size = "136036"
+size = "136268"
 usize = "366986"
-sha1sum = "30038c4466ae1d52c94fa7a087010428ad8cd9f4"
+sha1sum = "135184d293cd2bafe57beaac2d82a9ae0d4e85d3"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd>=1.4.4']"
 reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'pciutils', 'pcmciautils', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++

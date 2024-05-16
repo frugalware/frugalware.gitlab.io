@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcap-ng 0.8.5-1"
-version = "0.8.5-1"
+title = "libcap-ng 0.8.5-2"
+version = "0.8.5-2"
 description = "A library making programming with POSIX capabilities easier than traditional libcap"
-date = "2024-04-10T10:49:34"
+date = "2024-05-16T01:50:32"
 aliases = "/packages/218628"
 categories = ['base']
 upstreamurl = "http://people.redhat.com/sgrubb/libcap-ng/"
 arch = "x86_64"
-size = "58412"
+size = "58520"
 usize = "173430"
-sha1sum = "cc95758e86f87a5aae8e14573fbf08ed889bf45d"
+sha1sum = "6d942c949f3f085879b58ba51cdee163716f3f41"
 depends = "['glibc>=2.35']"
 reverse_depends = "['audit', 'greetd', 'libreswan', 'openvswitch', 'smartmontools', 'usbguard', 'util-linux']"
 license = "LGPL2.1"

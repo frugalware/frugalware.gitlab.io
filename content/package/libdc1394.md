@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdc1394 2.2.7-2"
-version = "2.2.7-2"
+title = "libdc1394 2.2.7-3"
+version = "2.2.7-3"
 description = "libdc1394 provides a high level programming interface to control IEEE 1394 based cameras."
-date = "2023-09-05T09:49:22"
+date = "2024-05-16T01:52:57"
 aliases = "/packages/3154"
 categories = ['multimedia']
 upstreamurl = "http://sourceforge.net/projects/libdc1394/"
 arch = "x86_64"
-size = "144656"
+size = "146060"
 usize = "519600"
-sha1sum = "c5405121ff68f589a4e3970d5febdba5ac110071"
+sha1sum = "86940bbf2662b2152f0cd2ff20186a6a1e168668"
 depends = "['libraw1394>=2.1.2-2', 'libudev>=242', 'libusb1>=1.0.20-5']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-libdc1394', 'opencv']"
 +++

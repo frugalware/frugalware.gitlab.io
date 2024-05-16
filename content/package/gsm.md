@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsm 1.0.22-3"
-version = "1.0.22-3"
+title = "gsm 1.0.22-4"
+version = "1.0.22-4"
 description = "Gsm is an implementation of the final draft GSM 06.10 standard for full-rate speech transcoding."
-date = "2024-03-05T12:44:57"
+date = "2024-05-16T01:23:32"
 aliases = "/packages/38835"
 categories = ['multimedia']
 upstreamurl = "http://www.quut.com/gsm"
 arch = "x86_64"
-size = "40548"
-usize = "116146"
-sha1sum = "dc22c5da2db026e3a0d578a3a7ff28f6b771d9ef"
+size = "41216"
+usize = "120242"
+sha1sum = "d3a96b6e6e8f7f49b98f00adf421030d1f617012"
 depends = "['glibc>=2.35']"
 reverse_depends = "['ffmpeg']"
 +++

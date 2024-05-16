@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdaemon 0.14-11"
-version = "0.14-11"
+title = "libdaemon 0.14-12"
+version = "0.14-12"
 description = "libdaemon is a lightweight C library that eases the writing of UNIX daemons."
-date = "2023-10-22T12:20:28"
+date = "2024-05-16T01:51:44"
 aliases = "/packages/10001"
 categories = ['lib']
 upstreamurl = "http://0pointer.de/lennart/projects/libdaemon/"
 arch = "x86_64"
-size = "26804"
+size = "26996"
 usize = "93485"
-sha1sum = "e2153e0255fdd27a5486470838d8348d49c30cf7"
+sha1sum = "5ddcfbccd6c6cfff3933ef72fc5b3527183e0ebf"
 depends = "['glibc>=2.34']"
 reverse_depends = "['avahi', 'avahi-dnsconfd']"
 +++
