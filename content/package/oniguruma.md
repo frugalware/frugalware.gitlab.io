@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "oniguruma 6.9.8-2"
-version = "6.9.8-2"
+title = "oniguruma 6.9.8-3"
+version = "6.9.8-3"
 description = "A regular expressions library"
-date = "2023-09-05T11:25:16"
+date = "2024-05-16T03:29:05"
 aliases = "/packages/219619"
 categories = ['chroot-core']
 upstreamurl = "https://github.com/kkos/oniguruma"
 arch = "x86_64"
-size = "194024"
-usize = "826060"
-sha1sum = "ff3f2f384c56c0464ba1ff356271f4852a76cd26"
+size = "194076"
+usize = "821964"
+sha1sum = "718ddb024cd3822558ffc5ce37a802fc8fb2704b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['jq']"
 +++

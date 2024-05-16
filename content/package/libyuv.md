@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libyuv 20240502.g6f1d8b1-1"
-version = "20240502.g6f1d8b1-1"
+title = "libyuv 20240502.g6f1d8b1-2"
+version = "20240502.g6f1d8b1-2"
 description = "Library for YUV scaling"
-date = "2024-05-02T12:21:00"
+date = "2024-05-16T03:18:55"
 aliases = "/packages/220806"
 categories = ['lib']
 upstreamurl = "https://chromium.googlesource.com/libyuv/libyuv"
 arch = "x86_64"
-size = "289296"
-usize = "1916819"
-sha1sum = "fd9e58017d048424968c0f1160bce0f008cac735"
+size = "289876"
+usize = "1916845"
+sha1sum = "287ba9440f6736ce2f07fc778a3a1511cddc8146"
 depends = "['libjpeg-turbo']"
 reverse_depends = "['libavif']"
 +++

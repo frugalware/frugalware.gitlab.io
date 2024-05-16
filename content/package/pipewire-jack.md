@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire-jack 1.0.5-1"
-version = "1.0.5-1"
+title = "pipewire-jack 1.0.5-2"
+version = "1.0.5-2"
 description = "Pipewire Jack config"
-date = "2024-04-17T08:13:23"
+date = "2024-05-16T03:47:06"
 aliases = "/packages/221088"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "191856"
-usize = "1078000"
-sha1sum = "2f0019429812329ea75e58a6041232109a25cf0a"
+size = "180396"
+usize = "840432"
+sha1sum = "0fc4829c869a5697ee4b8d8433d4ffe3ae2476a5"
 depends = "['jack2', 'wireplumber']"
 +++
 ### Description: 

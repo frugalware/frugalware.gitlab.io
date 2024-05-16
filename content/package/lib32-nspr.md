@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nspr 4.35-2"
-version = "4.35-2"
+title = "lib32-nspr 4.35-3"
+version = "4.35-3"
 description = "NSPR library from mozilla.org ( 32bit )"
-date = "2023-09-04T17:12:49"
+date = "2024-05-16T03:25:35"
 aliases = "/packages/218888"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mozilla.org/projects/nspr/"
 arch = "x86_64"
-size = "196652"
-usize = "897506"
-sha1sum = "af38b486765777cd17f0eefe6e554150c6544a8b"
+size = "198416"
+usize = "901602"
+sha1sum = "e962c4676f34bbf2227a90571f22cb6cbe7c5ba0"
 depends = "[]"
 reverse_depends = "['lib32-nss']"
 +++

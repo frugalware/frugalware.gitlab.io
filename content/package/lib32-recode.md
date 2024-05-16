@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-recode 3.6-10"
-version = "3.6-10"
+title = "lib32-recode 3.6-11"
+version = "3.6-11"
 description = "Converts files between various character sets and usages ( 32bit )"
-date = "2022-01-13T10:53:15"
+date = "2024-05-16T04:01:51"
 aliases = "/packages/219244"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/pinard/recode"
 arch = "x86_64"
-size = "517320"
-usize = "1433166"
-sha1sum = "e79756a3b8227a2231f3ec60538062ec07dc3246"
+size = "517664"
+usize = "1436651"
+sha1sum = "37454149812078841d438dbdaa5954d23f6e0adb"
 depends = "[]"
 reverse_depends = "['lib32-libenca']"
 +++

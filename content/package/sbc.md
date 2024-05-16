@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sbc 2.0-1"
-version = "2.0-1"
+title = "sbc 2.0-2"
+version = "2.0-2"
 description = "Library for Low Complexity Subband Coding with BlueZ"
-date = "2022-09-02T13:09:26"
+date = "2024-05-16T04:03:37"
 aliases = "/packages/200551"
 categories = ['apps']
 upstreamurl = "http://www.bluez.org"
 arch = "x86_64"
-size = "57940"
-usize = "261710"
-sha1sum = "780767138758644726e08b642b97fffa4e5dcb6c"
+size = "58680"
+usize = "265611"
+sha1sum = "d2e8cfec8046618b60aef1e97b64acb9bc23a9dc"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad-sbc', 'pipewire', 'pulseaudio-bluetooth', 'wireshark-qt']"
 +++

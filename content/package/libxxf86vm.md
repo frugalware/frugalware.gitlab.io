@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxxf86vm 1.1.5-2"
-version = "1.1.5-2"
+title = "libxxf86vm 1.1.5-3"
+version = "1.1.5-3"
 description = "X.Org Xxf86vm library"
-date = "2023-09-05T11:20:33"
+date = "2024-05-16T03:17:26"
 aliases = "/packages/4816"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "30244"
+size = "30316"
 usize = "83697"
-sha1sum = "79303d64cdd7f661ba582b53a6e110b968b3e762"
+sha1sum = "7cd319e26e37f1350cdc0ebb803aaa6303c1dc58"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['alienarena', 'allegro', 'argyllcms', 'dosbox', 'efl', 'freeglut', 'geogram', 'guarddog', 'irrlicht', 'kgamma5', 'knoda', 'koverartist', 'libepoxy', 'libgl', 'mesa-libglx', 'mpv', 'nvidia-settings', 'opendiablo2', 'openxr', 'redshift', 'wxwidgets', 'xgamma', 'xonotic', 'xvidtune']"
 license = "GPL2"

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "recode 3.6-10"
-version = "3.6-10"
+title = "recode 3.6-11"
+version = "3.6-11"
 description = "Converts files between various character sets and usages"
-date = "2022-01-13T10:53:15"
+date = "2024-05-16T04:01:51"
 aliases = "/packages/5112"
 categories = ['apps']
 upstreamurl = "https://github.com/pinard/recode"
 arch = "x86_64"
-size = "681296"
-usize = "2238951"
-sha1sum = "488689186b4cd840eb21fd03b70639ab1e55758f"
+size = "686624"
+usize = "2242811"
+sha1sum = "3ee339ed73a80e0508f0a3dc3e8557140221b641"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libenca']"
 +++

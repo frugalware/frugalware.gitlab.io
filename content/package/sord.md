@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sord 0.16.16-1"
-version = "0.16.16-1"
+title = "sord 0.16.16-2"
+version = "0.16.16-2"
 description = "Sord is a lightweight C library for storing RDF data in memory."
-date = "2023-11-06T11:16:59"
+date = "2024-05-16T04:08:21"
 aliases = "/packages/219692"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/sord"
 arch = "x86_64"
-size = "32404"
+size = "32384"
 usize = "119997"
-sha1sum = "bb0207ffa0b25777045b65e4230db764ef50bf0c"
+sha1sum = "9d591df5edeb0bf10493bdba680d0695c44d908f"
 depends = "['pcre', 'serd>=0.20.0-2', 'zix']"
 reverse_depends = "['sratom']"
 +++

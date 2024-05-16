@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "orc 0.4.38-1"
-version = "0.4.38-1"
+title = "orc 0.4.38-2"
+version = "0.4.38-2"
 description = "The Oil Runtime Compiler"
-date = "2024-03-01T09:54:48"
+date = "2024-05-16T03:32:23"
 aliases = "/packages/168895"
 categories = ['devel']
 upstreamurl = "http://gstreamer.freedesktop.org/"
 arch = "x86_64"
-size = "234692"
+size = "234828"
 usize = "1097629"
-sha1sum = "52adc6c17951d240f8c2988ee1bfcedcac6dadd3"
+sha1sum = "dc0c2cee2ee18bd8c8e82e09d649ae065e45cf10"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libpulse', 'libvips', 'spice']"
 +++

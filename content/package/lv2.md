@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lv2 1.18.10-1"
-version = "1.18.10-1"
+title = "lv2 1.18.10-2"
+version = "1.18.10-2"
 description = "LV2 is a plugin standard for audio system."
-date = "2022-10-16T12:34:27"
+date = "2024-05-16T03:20:25"
 aliases = "/packages/219688"
 categories = ['lib']
 upstreamurl = "http://lv2plug.in"
 arch = "x86_64"
-size = "122140"
-usize = "906694"
-sha1sum = "8e5e4cfcaa3f3d4f65380100fa21dada171cb4ea"
+size = "121944"
+usize = "890185"
+sha1sum = "54116fb34c86d6b7001e4ae151f9137cef6f3a40"
 depends = "['libsndfile>=1.0.0']"
 reverse_depends = "['lilv', 'qtractor', 'sratom']"
 +++

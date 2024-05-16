@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxv 1.0.12-2"
-version = "1.0.12-2"
+title = "libxv 1.0.12-3"
+version = "1.0.12-3"
 description = "X.Org Xv library"
-date = "2023-09-05T11:18:32"
+date = "2024-05-16T03:16:22"
 aliases = "/packages/4812"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "51756"
+size = "51700"
 usize = "117366"
-sha1sum = "ac98f213fb9a409eec1348425314dfb43b6a9470"
+sha1sum = "684de9cbdee7a307d0f92364e5a454dfe98e91ce"
 depends = "['libx11>=1.6.5-2', 'libxau>=1.0.8-3', 'libxext>=1.3.3-3']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-base', 'kdetv', 'libxvmc', 'mpeg2dec', 'mpv', 'xvinfo']"
 license = "GPL2"

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "npth 1.7-1"
-version = "1.7-1"
+title = "npth 1.7-2"
+version = "1.7-2"
 description = "nPth - The New Pth library"
-date = "2024-05-06T07:58:17"
+date = "2024-05-16T03:24:05"
 aliases = "/packages/217395"
 categories = ['apps']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/npth/"
 arch = "x86_64"
 size = "38328"
 usize = "124781"
-sha1sum = "a3334bc66ff74e82dddd8307af001724660ccd87"
+sha1sum = "e9f204aa1621579d9641c5c86672e8cb81efa656"
 depends = "['glibc>=2.34']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 +++

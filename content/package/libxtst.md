@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxtst 1.2.4-2"
-version = "1.2.4-2"
+title = "libxtst 1.2.4-3"
+version = "1.2.4-3"
 description = "X.Org Xtst library"
-date = "2023-09-05T11:17:27"
+date = "2024-05-16T03:15:19"
 aliases = "/packages/4811"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "46384"
+size = "46400"
 usize = "181028"
-sha1sum = "91d7546936a78eb548b616c9fc7d7b692d51bd24"
+sha1sum = "636e9dd0234de43464110943fd08cfc46fd41119"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxi>=1.7.7']"
 reverse_depends = "['anyremote', 'at-spi2-core', 'cef', 'chromium-browser', 'efl', 'enlightenment', 'kdeconnect-kde', 'keepassxc', 'krfb', 'libfakekey', 'libpulse', 'openjre-x', 'pulseaudio-x11', 'qt5-webengine', 'swt', 'teams', 'telegram-desktop', 'terminology', 'whalebird', 'x11vnc', 'xautomation', 'xdotool', 'xdpyinfo', 'xf86-video-intel', 'xine-ui']"
 license = "GPL2"

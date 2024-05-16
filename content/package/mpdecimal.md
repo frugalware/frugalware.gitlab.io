@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpdecimal 4.0.0-1"
-version = "4.0.0-1"
+title = "mpdecimal 4.0.0-2"
+version = "4.0.0-2"
 description = "Package for correctly-rounded arbitrary precision decimal floating point arithmetic"
-date = "2024-02-20T14:19:14"
+date = "2024-05-16T03:21:08"
 aliases = "/packages/220319"
 categories = ['devel-core']
 upstreamurl = "https://www.bytereef.org/mpdecimal"
 arch = "x86_64"
-size = "92656"
+size = "93584"
 usize = "332012"
-sha1sum = "28e1f4e94665b0b1298521d95996119fe59f58ee"
+sha1sum = "d8a3c9dad8636f087f7379db1d91b209bc12fec9"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['python3']"
 +++

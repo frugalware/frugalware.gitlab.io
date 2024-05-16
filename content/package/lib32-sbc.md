@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sbc 2.0-1"
-version = "2.0-1"
+title = "lib32-sbc 2.0-2"
+version = "2.0-2"
 description = "Library for Low Complexity Subband Coding with BlueZ ( 32bit )"
-date = "2022-09-02T13:09:26"
+date = "2024-05-16T04:03:37"
 aliases = "/packages/218890"
 categories = ['lib32-extra']
 upstreamurl = "http://www.bluez.org"
 arch = "x86_64"
-size = "43624"
-usize = "224977"
-sha1sum = "cdadc660a302de55f1c1dbd149644d768ded639d"
+size = "43716"
+usize = "224677"
+sha1sum = "2f3c21c97f3acd0ba6e3696676de1a712346606b"
 depends = "[]"
 +++
 ### Description: 

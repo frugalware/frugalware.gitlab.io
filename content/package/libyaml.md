@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libyaml 0.2.5-2"
-version = "0.2.5-2"
+title = "libyaml 0.2.5-3"
+version = "0.2.5-3"
 description = "LibYAML is a YAML 1.1 parser and emitter written in C."
-date = "2022-01-01T12:39:56"
+date = "2024-05-16T03:18:15"
 aliases = "/packages/136620"
 categories = ['lib']
 upstreamurl = "http://pyyaml.org/wiki/LibYAML"
 arch = "x86_64"
-size = "56336"
-usize = "198246"
-sha1sum = "2ae14664db905151aba18b61353b47aed2ed6dd4"
+size = "54768"
+usize = "183479"
+sha1sum = "6d7b8c4869c5f492e8ee430064e279e4f97201d6"
 depends = "['glibc>=2.34']"
 reverse_depends = "['appstream', 'appstream-glib', 'dtc', 'haskell-libyaml', 'libblockdev', 'libcamera', 'libcamera-tools', 'pyyaml3', 'ruby']"
 +++

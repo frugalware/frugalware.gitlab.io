@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-rtmpdump 2.4-14"
-version = "2.4-14"
+title = "lib32-rtmpdump 2.4-15"
+version = "2.4-15"
 description = "A tool to download rtmp:// and rtmpe:// streams ( 32bit )"
-date = "2024-01-07T20:31:49"
+date = "2024-05-16T04:02:41"
 aliases = "/packages/219240"
 categories = ['lib32-extra']
 upstreamurl = "http://rtmpdump.mplayerhq.hu/"
 arch = "x86_64"
-size = "82640"
+size = "82768"
 usize = "251499"
-sha1sum = "d5bf6f4b822cd6b3c1e44dbd6bb704be83785214"
+sha1sum = "2e9d7dcbb08fe7b321f48e2e153113d791b268a3"
 depends = "['lib32-gnutls', 'lib32-libgcrypt', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-ffmpeg']"
 +++

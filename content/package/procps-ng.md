@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "procps-ng 4.0.4-2"
-version = "4.0.4-2"
+title = "procps-ng 4.0.4-3"
+version = "4.0.4-3"
 description = "utilities for displaying process information"
-date = "2024-01-03T07:42:26"
+date = "2024-05-16T03:55:22"
 aliases = "/packages/218997"
 categories = ['base']
 upstreamurl = "https://gitlab.com/procps-ng/procps"
 arch = "x86_64"
-size = "917272"
-usize = "2600294"
-sha1sum = "ac625ce210898c5e29bd446ed19ada9156a9ca4c"
+size = "917432"
+usize = "2604390"
+sha1sum = "5c1127a795eeeda398e01036e561a670897af8b5"
 depends = "['ncurses>=6.1-2']"
 reverse_depends = "['intel-gpu-tools', 'opentrack', 'parallel', 'profile-sync-daemon', 'steamtinkerlaunch']"
 +++

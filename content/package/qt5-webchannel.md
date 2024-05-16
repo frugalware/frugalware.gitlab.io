@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-webchannel 5.15.13-1"
-version = "5.15.13-1"
+title = "qt5-webchannel 5.15.13-2"
+version = "5.15.13-2"
 description = "The Qt5 toolkit, qtwebchannel"
-date = "2024-03-13T16:05:46"
+date = "2024-05-16T03:58:42"
 aliases = "/packages/217631"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "72868"
-usize = "239983"
-sha1sum = "1bf4ddd0cc74699bc608378ef04e2c834eef025f"
+size = "72844"
+usize = "239887"
+sha1sum = "0791142319f4926281189f6dc8202bc7985cbcd7"
 depends = "['qt5-declarative>=5.15.13']"
 reverse_depends = "['ghostwriter', 'qt5-webengine']"
 +++

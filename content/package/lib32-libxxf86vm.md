@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxxf86vm 1.1.5-2"
-version = "1.1.5-2"
+title = "lib32-libxxf86vm 1.1.5-3"
+version = "1.1.5-3"
 description = "X.Org Xxf86vm library ( 32bit )"
-date = "2023-09-05T11:20:33"
+date = "2024-05-16T03:17:26"
 aliases = "/packages/217720"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "11480"
+size = "11604"
 usize = "33769"
-sha1sum = "f74edbe4fcb2fea85e05ca3b9755cbc9cf6d74a9"
+sha1sum = "24386efc79f6b67b40d4e55ba7a7b283d45c4908"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
 +++

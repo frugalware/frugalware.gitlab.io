@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pixman 0.43.4-1"
-version = "0.43.4-1"
+title = "lib32-pixman 0.43.4-2"
+version = "0.43.4-2"
 description = "X.Org pixman library ( 32bit )"
-date = "2024-03-01T09:33:54"
+date = "2024-05-16T03:49:27"
 aliases = "/packages/218889"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "261652"
-usize = "801457"
-sha1sum = "4b66600dd8122aefdf814a63b8bb161427e78835"
+size = "263300"
+usize = "797361"
+sha1sum = "61f482612f578d674289909f84240286b12f69c5"
 depends = "['lib32-libpng']"
 reverse_depends = "['lib32-cairo', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sratom 0.6.16-1"
-version = "0.6.16-1"
+title = "sratom 0.6.16-2"
+version = "0.6.16-2"
 description = "Sratom is a library for serialising LV2 atoms to/from RDF, particularly the Turtle syntax."
-date = "2023-11-06T11:19:44"
+date = "2024-05-16T04:12:14"
 aliases = "/packages/219693"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/sratom"
 arch = "x86_64"
-size = "17012"
-usize = "54613"
-sha1sum = "ada25c7a980048ab932d0bd6028d0f34f7a6c3c7"
+size = "16964"
+usize = "50517"
+sha1sum = "e31fcc140a04b110ead46c45bdf4923936e2215f"
 depends = "['lv2', 'sord']"
 reverse_depends = "['lilv']"
 +++

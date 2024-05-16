@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2_image 2.8.2-1"
-version = "2.8.2-1"
+title = "sdl2_image 2.8.2-2"
+version = "2.8.2-2"
 description = "Image loading library for SDL2"
-date = "2024-01-23T13:41:19"
+date = "2024-05-16T04:04:56"
 aliases = "/packages/200553"
 categories = ['xlib']
 upstreamurl = "http://www.libsdl.org/"
 arch = "x86_64"
-size = "91436"
-usize = "259206"
-sha1sum = "bd5e161dfb197fcacd95899c7e250fe86fa3e5f0"
+size = "92944"
+usize = "263302"
+sha1sum = "ec4f176f074f5df77102e0ffc7594750e91c507e"
 depends = "['jxrlib', 'libavif', 'libtiff>=4.0.6', 'libwebp>=0.5.0', 'sdl2>=2.0.8']"
 reverse_depends = "['crawl', 'crawl-tiles', 'enigma', 'freeciv', 'lincity-ng', 'redeclipse', 'solarus', 'supertux', 'ultrastardx', 'v4l-utils', 'wesnoth']"
 +++

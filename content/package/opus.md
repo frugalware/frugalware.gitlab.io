@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opus 1.5.2-1"
-version = "1.5.2-1"
+title = "opus 1.5.2-2"
+version = "1.5.2-2"
 description = "codec designed for interactive speech and audio transmission over the Internet"
-date = "2024-04-14T14:29:40"
+date = "2024-05-16T03:31:13"
 aliases = "/packages/217593"
 categories = ['multimedia']
 upstreamurl = "http://www.opus-codec.org"
 arch = "x86_64"
-size = "239804"
+size = "240172"
 usize = "609899"
-sha1sum = "4990726c3c09e31ad92e1f4e47c7e7c3cb645b5c"
+sha1sum = "0817d30c9ec3ebc9b1d7cc53e1b46861c10750a8"
 depends = "['glibc>=2.34']"
 reverse_depends = "['chromium-browser', 'gst1-plugins-bad-opus', 'gst1-plugins-base-opus', 'handbrake', 'jack2', 'kwave', 'mpd', 'mumble', 'qt5-webengine', 'qt5-webengine', 'qt6-webengine', 'spice', 'spice-glib', 'telegram-desktop', 'tox-core', 'virtualbox', 'vlc-opus', 'warzone2100', 'xrdp']"
 +++

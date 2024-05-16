@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nspr 4.35-2"
-version = "4.35-2"
+title = "nspr 4.35-3"
+version = "4.35-3"
 description = "NSPR library from mozilla.org"
-date = "2023-09-04T17:12:49"
+date = "2024-05-16T03:25:35"
 aliases = "/packages/10503"
 categories = ['base']
 upstreamurl = "http://www.mozilla.org/projects/nspr/"
 arch = "x86_64"
-size = "189424"
+size = "190608"
 usize = "747271"
-sha1sum = "eb84fc5e4dad3a1aa03f56971a6c3bea2c78d6a9"
+sha1sum = "286415b7a577d16b740cb88d1144d88ec698b48b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['discord', 'firefox', 'nss', 'thunderbird', 'whalebird']"
 license = "GPL"

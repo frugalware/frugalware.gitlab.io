@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpfr 4.2.1-1"
-version = "4.2.1-1"
+title = "mpfr 4.2.1-2"
+version = "4.2.1-2"
 description = "Library for multiple-precision floating-point computations."
-date = "2023-08-23T11:54:21"
+date = "2024-05-16T03:22:41"
 aliases = "/packages/9934"
 categories = ['base']
 upstreamurl = "http://www.mpfr.org/mpfr-current/"
 arch = "x86_64"
-size = "719660"
-usize = "2464134"
-sha1sum = "eea73f7fa92f6d7888125962b0b8a123f723c1d7"
+size = "728512"
+usize = "2484614"
+sha1sum = "31ec7f5dbb647c576008925929c7157a63b6486f"
 depends = "['gmp>=6.1.2-11']"
 reverse_depends = "['cgal', 'gawk', 'kalk', 'libmpc', 'rasqal', 'suitesparse', 'texlive']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rtmpdump 2.4-14"
-version = "2.4-14"
+title = "rtmpdump 2.4-15"
+version = "2.4-15"
 description = "A tool to download rtmp:// and rtmpe:// streams"
-date = "2024-01-07T20:31:49"
+date = "2024-05-16T04:02:41"
 aliases = "/packages/103275"
 categories = ['network']
 upstreamurl = "http://rtmpdump.mplayerhq.hu/"
 arch = "x86_64"
-size = "104092"
-usize = "303303"
-sha1sum = "54900d7fadef48d8a90b8a5aa928f9bc9f0ad841"
+size = "104316"
+usize = "303584"
+sha1sum = "57c32d11be5913f15fcd81e2dcca1336e3fe8a30"
 depends = "['gnutls', 'libgcrypt', 'zlib>=1.2.12']"
 reverse_depends = "['ffmpeg', 'streamlink', 'yt-dlp']"
 +++

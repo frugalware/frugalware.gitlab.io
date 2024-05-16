@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "serd 0.32.2-1"
-version = "0.32.2-1"
+title = "serd 0.32.2-2"
+version = "0.32.2-2"
 description = "Serd is a lightweight C library for RDF syntax which supports reading and writing Turtle and NTriples."
-date = "2024-01-29T10:05:42"
+date = "2024-05-16T04:05:43"
 aliases = "/packages/219691"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/serd"
 arch = "x86_64"
-size = "55832"
-usize = "164587"
-sha1sum = "d918a055064958eb09c82c773a6973bbf86309ef"
+size = "55768"
+usize = "168683"
+sha1sum = "31b1225330f3fba418fad6198e95972b65c1cce1"
 depends = "['glibc>=2.34']"
 reverse_depends = "['sord']"
 +++

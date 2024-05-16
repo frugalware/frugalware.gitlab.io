@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "srt 1.5.3-1"
-version = "1.5.3-1"
+title = "srt 1.5.3-2"
+version = "1.5.3-2"
 description = "Secure Reliable Transport library"
-date = "2023-09-07T17:48:19"
+date = "2024-05-16T04:13:10"
 aliases = "/packages/220571"
 categories = ['lib']
 upstreamurl = "https://github.com/Haivision/srt"
 arch = "x86_64"
-size = "796440"
-usize = "3671560"
-sha1sum = "a4ae5498c30c6be08b50a3433b242fac507c3253"
+size = "809404"
+usize = "3741192"
+sha1sum = "5d82f831c0046dcfc22db7a80d8c425f55e24eef"
 depends = "['libstdc++', 'openssl>=3.1.0']"
 reverse_depends = "['ffmpeg']"
 +++

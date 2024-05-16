@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lilv 0.24.24-1"
-version = "0.24.24-1"
+title = "lilv 0.24.24-2"
+version = "0.24.24-2"
 description = "Lilv is a C library to make the use of LV2 plugins as simple as possible for applications."
-date = "2024-01-29T10:00:11"
+date = "2024-05-16T03:19:42"
 aliases = "/packages/219687"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/lilv"
 arch = "x86_64"
-size = "97340"
-usize = "420100"
-sha1sum = "517fd308873bc318e27bbb1358b5c6917db6ab2f"
+size = "97580"
+usize = "420292"
+sha1sum = "04d661f28083c449165f62b7a458cceb5fd4b65d"
 depends = "['lv2>=1.18.0', 'python3>=3.12', 'sratom']"
 reverse_depends = "['gst1-plugins-bad', 'mixxx', 'pipewire', 'qtractor']"
 +++

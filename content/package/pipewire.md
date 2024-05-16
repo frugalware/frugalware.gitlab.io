@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.0.5-1"
-version = "1.0.5-1"
+title = "pipewire 1.0.5-2"
+version = "1.0.5-2"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2024-04-17T08:13:23"
+date = "2024-05-16T03:47:06"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3559320"
-usize = "37496899"
-sha1sum = "f72ba257a35c03cf98a8355878b48c40031379d3"
+size = "3494972"
+usize = "36599752"
+sha1sum = "1ee676473be595f99b60edd9fb652fd0c145986c"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -2061,59 +2061,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/wma_8h_source.html
 * /usr/share/doc/pipewire/html/work-queue_8h.html
 * /usr/share/doc/pipewire/html/work-queue_8h_source.html
-* /usr/share/locale/af/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/as/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/be/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/bg/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ca/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/cs/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/da/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/de/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/de_CH/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/el/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/eo/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/es/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/fi/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/fr/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/gl/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/gu/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/he/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/hi/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/hr/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/hu/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/id/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/it/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ja/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ka/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/kk/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/kn/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ko/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/lt/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ml/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/mr/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/my/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/nl/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/nn/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/oc/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/or/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/pa/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/pl/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/pt/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ro/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ru/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/si/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/sk/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/sr/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/sv/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/ta/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/te/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/tr/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/uk/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/pipewire.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/pipewire.mo
 * /usr/share/man/man1/pipewire.1.gz
 * /usr/share/man/man1/pw-cat.1.gz
 * /usr/share/man/man1/pw-cli.1.gz

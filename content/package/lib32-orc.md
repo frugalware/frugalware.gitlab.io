@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-orc 0.4.38-1"
-version = "0.4.38-1"
+title = "lib32-orc 0.4.38-2"
+version = "0.4.38-2"
 description = "The Oil Runtime Compiler ( 32bit )"
-date = "2024-03-01T09:54:48"
+date = "2024-05-16T03:32:23"
 aliases = "/packages/217940"
 categories = ['lib32-extra']
 upstreamurl = "http://gstreamer.freedesktop.org/"
 arch = "x86_64"
-size = "238428"
+size = "238488"
 usize = "1169623"
-sha1sum = "cb298f6d09469ce062417607bba35b7d96b1d545"
+sha1sum = "253a242fa760869e7b7e1a49adca8277c70b1fee"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++
