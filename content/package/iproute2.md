@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iproute2 6.8.0-1"
-version = "6.8.0-1"
+title = "iproute2 6.9.0-1"
+version = "6.9.0-1"
 description = "kernel routing and traffic control utilities."
-date = "2024-03-13T14:58:30"
+date = "2024-05-16T11:08:35"
 aliases = "/packages/3104"
 categories = ['base']
 upstreamurl = "http://www.kernel.org"
 arch = "x86_64"
-size = "1076276"
-usize = "2995922"
-sha1sum = "fd67743cc81e5f13e1820869bdcb3173449f6ce8"
+size = "1075596"
+usize = "2982523"
+sha1sum = "063b324de1edc763be8fd35fbd70262885c71ece"
 depends = "['iptables>=1.6.1-4']"
 reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'ipu
 kernel routing and traffic control utilities.
 
 ### Files: 
-* /usr/bin/arpd
 * /usr/bin/bridge
 * /usr/bin/ctstat
 * /usr/bin/dcb
@@ -44,10 +43,10 @@ kernel routing and traffic control utilities.
 * /usr/lib/tc/paretonormal.dist
 * /usr/share/bash-completion/completions/devlink
 * /usr/share/bash-completion/completions/tc
-* /usr/share/doc/iproute2-6.8.0/COPYING
-* /usr/share/doc/iproute2-6.8.0/CREDITS
-* /usr/share/doc/iproute2-6.8.0/README
-* /usr/share/doc/iproute2-6.8.0/README.devel
+* /usr/share/doc/iproute2-6.9.0/COPYING
+* /usr/share/doc/iproute2-6.9.0/CREDITS
+* /usr/share/doc/iproute2-6.9.0/README
+* /usr/share/doc/iproute2-6.9.0/README.devel
 * /usr/share/iproute2/bpf_pinning
 * /usr/share/iproute2/ematch_map
 * /usr/share/iproute2/group

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl 5.38.2-4"
-version = "5.38.2-4"
+title = "perl 5.38.2-5"
+version = "5.38.2-5"
 description = "Practical Extraction and Report Language."
-date = "2024-05-16T03:43:23"
+date = "2024-05-16T09:53:14"
 aliases = "/packages/2429"
 categories = ['devel']
 upstreamurl = "http://www.perl.org/"
 arch = "x86_64"
-size = "15367252"
-usize = "64971793"
-sha1sum = "e716f9979dc5ced99086681aab7b4e8daf56b10c"
-depends = "['gdbm>=1.18.1-3', 'openssl>=3.0.7', 'scriptlet-core']"
+size = "15311052"
+usize = "64824609"
+sha1sum = "68ed75b41102e83aa80f0a936bab9fb6c7392c59"
+depends = "['gdbm', 'openssl>=3.0.7', 'scriptlet-core']"
 reverse_depends = "['automake', 'bonnie++', 'ckbcomp', 'claws-mail-plugin-perl', 'convmv', 'ddclient', 'docbook-utils', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'go', 'graphviz', 'gtk-doc', 'hexchat', 'hivex-perl', 'hw-probe', 'i2c-tools', 'imagemagick', 'insight-toolkit', 'intltool', 'inxi', 'irssi', 'latex2html', 'lesspipe', 'lmsensors', 'logwatch', 'lxc', 'man2html', 'mirmon', 'mosh', 'net-snmp', 'pacman-tools', 'parallel', 'perl-appconfig', 'perl-archive-zip', 'perl-authen-sasl', 'perl-canary-stability', 'perl-class-method-modifiers', 'perl-class-singleton', 'perl-common-sense', 'perl-convert-binhex', 'perl-convert-tnef', 'perl-convert-uulib', 'perl-crypt-openssl-guess', 'perl-crypt-openssl-rsa', 'perl-data-optlist', 'perl-date-parse', 'perl-datetime', 'perl-datetime-locale', 'perl-datetime-timezone', 'perl-dbi', 'perl-devel-checklib', 'perl-devel-globaldestruction', 'perl-digest-hmac', 'perl-digest-sha1', 'perl-dist-checkconflicts', 'perl-encode-detect', 'perl-encode-locale', 'perl-error', 'perl-file-listing', 'perl-file-remove', 'perl-file-sharedir', 'perl-file-sharedir-install', 'perl-file-which', 'perl-gettext', 'perl-html-parser', 'perl-html-tagset', 'perl-html-template', 'perl-http-cookies', 'perl-http-daemon', 'perl-http-date', 'perl-http-message', 'perl-http-negotiate', 'perl-image-exiftool', 'perl-import-into', 'perl-inc-latest', 'perl-io-compress-bzip2', 'perl-io-compress-bzip2', 'perl-io-html', 'perl-io-multiplex', 'perl-io-socket-inet6', 'perl-io-socket-ssl', 'perl-io-stringy', 'perl-ip-country', 'perl-ip-country', 'perl-json', 'perl-json-xs', 'perl-libwww', 'perl-list-moreutils', 'perl-log-log4perl', 'perl-lwp-mediatypes', 'perl-mail-domainkeys', 'perl-mail-spf', 'perl-mailtools', 'perl-mailtools', 'perl-math-round', 'perl-mime-tools', 'perl-module-build', 'perl-module-implementation', 'perl-module-install', 'perl-module-runtime', 'perl-moo', 'perl-mysql', 'perl-namespace-autoclean', 'perl-net-cidr-lite', 'perl-net-cidr-lite', 'perl-net-dns', 'perl-net-dns-resolver-programmable', 'perl-net-http', 'perl-net-ident', 'perl-net-ident', 'perl-net-ip', 'perl-net-ip', 'perl-net-server', 'perl-net-snmp', 'perl-net-ssleay', 'perl-netaddr-ip', 'perl-params-util', 'perl-params-validate', 'perl-parse-yapp', 'perl-path-tiny', 'perl-pcsc', 'perl-pod-parser', 'perl-razor2-client-agent', 'perl-role-tiny', 'perl-sgmlspm', 'perl-socket6', 'perl-sub-exporter', 'perl-sub-exporter-progressive', 'perl-sub-install', 'perl-sub-quote', 'perl-sys-hostname-long', 'perl-template-toolkit', 'perl-test-fatal', 'perl-test-pod', 'perl-test-requires', 'perl-text-csv', 'perl-text-wrapi18n', 'perl-try-tiny', 'perl-unix-syslog', 'perl-uri', 'perl-www-robotrules', 'perl-xml-namespacesupport', 'perl-xml-parser', 'perl-xml-sax', 'perl-xml-sax-base', 'perl-xml-sax-expat', 'perl-xml-simple', 'perl-xml-writer', 'perl-xml-xslt', 'perl-yaml-tiny', 'postgresql-plperl', 'pptp', 'quilt', 'rdma-core', 'rkhunter', 'sim', 'spamassassin', 'stunnel', 'sub2srt', 'subversion-bindings', 'texi2html', 'texinfo', 'texlive', 'unp', 'uwsgi-plugin-psgi', 'valgrind']"
 +++
 ### Description: 
@@ -59,7 +59,6 @@ Practical Extraction and Report Language.
 * /usr/lib/perl5/5.38/core_perl/auto/Compress/Raw/Zlib/Zlib.so
 * /usr/lib/perl5/5.38/core_perl/auto/Cwd/Cwd.so
 * /usr/lib/perl5/5.38/core_perl/auto/Data/Dumper/Dumper.so
-* /usr/lib/perl5/5.38/core_perl/auto/DB_File/DB_File.so
 * /usr/lib/perl5/5.38/core_perl/auto/Devel/Peek/Peek.so
 * /usr/lib/perl5/5.38/core_perl/auto/Digest/MD5/MD5.so
 * /usr/lib/perl5/5.38/core_perl/auto/Digest/SHA/SHA.so
@@ -202,7 +201,6 @@ Practical Extraction and Report Language.
 * /usr/lib/perl5/5.38/core_perl/CORE/zaphod32_hash.h
 * /usr/lib/perl5/5.38/core_perl/Cwd.pm
 * /usr/lib/perl5/5.38/core_perl/Data/Dumper.pm
-* /usr/lib/perl5/5.38/core_perl/DB_File.pm
 * /usr/lib/perl5/5.38/core_perl/Devel/Peek.pm
 * /usr/lib/perl5/5.38/core_perl/Devel/PPPort.pm
 * /usr/lib/perl5/5.38/core_perl/Digest/MD5.pm
@@ -2079,7 +2077,6 @@ Practical Extraction and Report Language.
 * /usr/share/man/man3/DBM_Filter::int32.3perl.gz
 * /usr/share/man/man3/DBM_Filter::null.3perl.gz
 * /usr/share/man/man3/DBM_Filter::utf8.3perl.gz
-* /usr/share/man/man3/DB_File.3perl.gz
 * /usr/share/man/man3/deprecate.3perl.gz
 * /usr/share/man/man3/Devel::Peek.3perl.gz
 * /usr/share/man/man3/Devel::PPPort.3perl.gz
