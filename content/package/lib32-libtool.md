@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libtool 2.4.7-2"
-version = "2.4.7-2"
+title = "lib32-libtool 2.4.7-3"
+version = "2.4.7-3"
 description = "A generic library support script ( 32bit )"
-date = "2023-09-05T10:35:45"
+date = "2024-05-16T02:38:29"
 aliases = "/packages/217740"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/libtool"
 arch = "x86_64"
-size = "112996"
-usize = "571951"
-sha1sum = "d10756b269eb871780dd699638fb94e9a4b44bb5"
+size = "113152"
+usize = "571961"
+sha1sum = "7563c80267734f98a38fd69f9f19da1671043c5b"
 depends = "[]"
 reverse_depends = "['lib32-libldap', 'lib32-libmpg123', 'lib32-libpulse']"
 +++

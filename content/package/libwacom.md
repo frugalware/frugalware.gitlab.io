@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwacom 2.11.0-1"
-version = "2.11.0-1"
+title = "libwacom 2.11.0-2"
+version = "2.11.0-2"
 description = "Tablet Information Client Library"
-date = "2024-04-16T14:19:02"
+date = "2024-05-16T02:47:08"
 aliases = "/packages/153043"
 categories = ['x11']
 upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "89624"
+size = "89800"
 usize = "774758"
-sha1sum = "4333a4ae6274ed42131bfc403b97902086775182"
+sha1sum = "d8fb6aa966870964021f8e55fce539327891c75d"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++

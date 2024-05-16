@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxdamage 1.1.6-2"
-version = "1.1.6-2"
+title = "libxdamage 1.1.6-3"
+version = "1.1.6-3"
 description = "X.Org Xdamage library"
-date = "2023-09-05T10:58:35"
+date = "2024-05-16T03:02:22"
 aliases = "/packages/4788"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "20592"
+size = "20660"
 usize = "61509"
-sha1sum = "56587f4017047dd513853dbc7a858cd72804f51f"
+sha1sum = "9928866314120e268f2f86f7139c625116cb24b9"
 depends = "['libx11>=1.6.5-2', 'libxfixes>=5.0.1-3']"
 reverse_depends = "['conky', 'distcc-gui', 'efl', 'enlightenment', 'firefox', 'freeciv', 'freerdp', 'gst1-plugins-good-ximage', 'gtk2-sharp', 'gtk3-sharp', 'guvcview', 'hot-babe', 'kompose', 'ksubeditor', 'ksubtile', 'libepoxy', 'libextractor', 'libgl', 'maxemumtvguide', 'mesa-libglx', 'printoxx', 'terminology', 'virtualbox-guest-additions', 'whalebird', 'xcfa', 'xf86-video-intel', 'xpad']"
 license = "GPL2"

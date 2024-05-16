@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxscrnsaver 1.2.4-2"
-version = "1.2.4-2"
+title = "libxscrnsaver 1.2.4-3"
+version = "1.2.4-3"
 description = "The XScrnSaver Library"
-date = "2023-09-05T11:12:57"
+date = "2024-05-16T03:12:09"
 aliases = "/packages/4808"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "28352"
+size = "28424"
 usize = "71263"
-sha1sum = "710db346cf94acf8ba8916b17879bf376d0ac104"
+sha1sum = "6dde4a03f272c8672ca260a79315e7ed980210d4"
 depends = "['libx11>=1.6.7-2', 'libxext>=1.3.4-2']"
 reverse_depends = "['beforelight', 'cef', 'chromium-browser', 'discord', 'dunst', 'efl', 'enlightenment', 'kaffeine', 'kidletime', 'kidletime5', 'kvirc', 'mpv', 'pidgin', 'qt5-webengine', 'qtox', 'r2modman', 'retroshare', 'signal-desktop', 'sim', 'slack-desktop', 'teams', 'terminology', 'tk', 'xf86-video-intel', 'xine-ui']"
 license = "GPL2"

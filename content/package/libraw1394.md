@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libraw1394 2.1.2-8"
-version = "2.1.2-8"
+title = "libraw1394 2.1.2-9"
+version = "2.1.2-9"
 description = "Provides an API to the Linux IEEE1394 (FireWire) driver"
-date = "2023-10-22T12:29:07"
+date = "2024-05-16T02:25:40"
 aliases = "/packages/3192"
 categories = ['multimedia']
 upstreamurl = "https://ieee1394.wiki.kernel.org/index.php/Release_Notes_-_Libraries"
 arch = "x86_64"
-size = "71820"
-usize = "266259"
-sha1sum = "3ccb6512ae027010797d23993e71dda8b7701916"
+size = "71984"
+usize = "266339"
+sha1sum = "9d97cf9deb3579d696f9e85c44c05ee5bb51c82d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['guvcview', 'kinfocenter', 'kinfocenter5', 'libavc1394', 'libdc1394', 'libiec61883']"
 +++

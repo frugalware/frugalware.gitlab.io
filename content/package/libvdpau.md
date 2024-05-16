@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvdpau 1.5-1"
-version = "1.5-1"
+title = "libvdpau 1.5-2"
+version = "1.5-2"
 description = "VDPAU wrapper library"
-date = "2024-02-29T09:07:56"
+date = "2024-05-16T02:41:41"
 aliases = "/packages/74446"
 categories = ['x11']
 upstreamurl = "https://www.freedesktop.org/wiki/Software/VDPAU/"
 arch = "x86_64"
-size = "60752"
+size = "61060"
 usize = "295186"
-sha1sum = "7e3b96b424a56c342767e3c88c4f03e316d2e630"
+sha1sum = "ed82ace486465ff34f4eaf7a53b96d3532740a3e"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['ffmpeg', 'libva-vdpau-driver', 'libvdpau-va-gl', 'mencoder', 'mplayer', 'mpv', 'vdpauinfo']"
 +++

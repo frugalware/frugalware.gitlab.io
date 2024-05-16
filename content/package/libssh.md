@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssh 0.10.6-1"
-version = "0.10.6-1"
+title = "libssh 0.10.6-2"
+version = "0.10.6-2"
 description = "The SSH library"
-date = "2023-12-29T09:43:19"
+date = "2024-05-16T02:32:07"
 aliases = "/packages/15212"
 categories = ['base']
 upstreamurl = "http://www.libssh.org/"
 arch = "x86_64"
-size = "236752"
-usize = "776907"
-sha1sum = "bd7607dda368bd64bd40fc42754b639cafe5e921"
+size = "236092"
+usize = "777125"
+sha1sum = "efd6eef626c254fdc1c1d40ddd20dc5cbbe09208"
 depends = "['libgcrypt>=1.7.3-2', 'openssl>=3.0.7', 'zlib>=1.2.12']"
 reverse_depends = "['cryptsetup-luks', 'exiv2', 'kio-extras', 'kio-extras-kf5', 'krdc', 'remmina', 'wireshark']"
 +++

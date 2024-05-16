@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpsl 0.21.5-3"
-version = "0.21.5-3"
+title = "libpsl 0.21.5-4"
+version = "0.21.5-4"
 description = "Public Suffix List library"
-date = "2024-01-31T16:17:19"
+date = "2024-05-16T02:24:42"
 aliases = "/packages/219164"
 categories = ['chroot-core']
 upstreamurl = "https://github.com/rockdaboot/libpsl"
 arch = "x86_64"
-size = "85208"
-usize = "250763"
-sha1sum = "8cdf4dcd59c9f23ebea18e42a83f8e7de974475e"
+size = "85244"
+usize = "250762"
+sha1sum = "87f3b8a089eca94e91fececc197b6a60a0574fe9"
 depends = "['libidn2>=2.0.0-11']"
 reverse_depends = "['curl', 'libsoup', 'libsoup3', 'wget', 'wget2']"
 +++

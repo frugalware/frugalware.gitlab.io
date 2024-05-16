@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxdmcp 1.1.5-1"
-version = "1.1.5-1"
+title = "libxdmcp 1.1.5-2"
+version = "1.1.5-2"
 description = "X.Org Xdmcp library"
-date = "2024-03-03T16:10:29"
+date = "2024-05-16T03:03:28"
 aliases = "/packages/4789"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "48076"
+size = "48152"
 usize = "206477"
-sha1sum = "53a3e8b2ab3658a73b94a9b924605aa7a889e2e4"
+sha1sum = "dbaa334a5445e848a7e9c91b2462b50058f80041"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['distcc-gui', 'efl', 'enlightenment', 'firefox', 'guvcview', 'libextractor', 'libx11', 'libxcb', 'mupen64plus', 'printoxx', 'terminology', 'xcb-util', 'xcb-util-image', 'xcb-util-wm', 'xcfa', 'xorg-server-fbdev', 'xpad', 'xrdp']"
 license = "GPL2"

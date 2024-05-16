@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxext 1.3.6-1"
-version = "1.3.6-1"
+title = "libxext 1.3.6-2"
+version = "1.3.6-2"
 description = "Misc X Extension Library"
-date = "2024-02-05T12:48:35"
+date = "2024-05-16T03:04:37"
 aliases = "/packages/4791"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "128988"
+size = "129232"
 usize = "411759"
-sha1sum = "101e4aa391ee1adbd2ac7b255be0f7073568b1b0"
+sha1sum = "a102515bb68188ac2365924e82e2ec3481708e06"
 depends = "['libx11>=1.6.7-2']"
 reverse_depends = "['cairo', 'clightd', 'distcc-gui', 'efl', 'enlightenment', 'graphicsmagick', 'guvcview', 'imlib2', 'kchart', 'kdebase-runtime-kstyles', 'libdmx', 'libepoxy', 'libextractor', 'libglvnd', 'libqtdesignercomponents', 'libva', 'libvdpau', 'libxcomposite', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxp', 'libxpm', 'libxpresent', 'libxrandr', 'libxres', 'libxscrnsaver', 'libxtst', 'libxv', 'libxvmc', 'libxxf86dga', 'libxxf86vm', 'mesa-libglx', 'polkit-qt5-1', 'polkit-qt6-1', 'printoxx', 'terminology', 'virtualbox', 'whalebird', 'xauth', 'xcfa', 'xdbedizzy', 'xpad', 'xrdp', 'xxkb']"
 license = "GPL2"

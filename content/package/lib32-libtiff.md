@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libtiff 4.4.0-2"
-version = "4.4.0-2"
+title = "lib32-libtiff 4.4.0-3"
+version = "4.4.0-3"
 description = "Library for manipulation of TIFF images ( 32bit )"
-date = "2023-09-05T10:34:32"
+date = "2024-05-16T02:37:06"
 aliases = "/packages/217703"
 categories = ['lib32-extra']
 upstreamurl = "http://libtiff.maptools.org"
 arch = "x86_64"
-size = "321904"
-usize = "1195820"
-sha1sum = "093746796ebae2896e83f603eb14d87d8b870741"
+size = "324832"
+usize = "1199912"
+sha1sum = "2eee11ff63f3604056dacd5516be2f7024e8121c"
 depends = "['lib32-xz>=5.2.2-5', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-sdl2_image']"
 +++

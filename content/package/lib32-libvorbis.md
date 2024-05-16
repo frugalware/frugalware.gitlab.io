@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libvorbis 1.3.7-4"
-version = "1.3.7-4"
+title = "lib32-libvorbis 1.3.7-5"
+version = "1.3.7-5"
 description = "Vorbis codec library ( 32bit )"
-date = "2023-10-22T12:32:42"
+date = "2024-05-16T02:42:56"
 aliases = "/packages/217937"
 categories = ['lib32-extra']
 upstreamurl = "http://www.vorbis.com/"
 arch = "x86_64"
-size = "162848"
+size = "164084"
 usize = "824691"
-sha1sum = "9b0322a4de4be3fcd3224f310e5b381606b9eaf4"
+sha1sum = "da241ae3f07608aef52f6accaae853f40cbf4635"
 depends = "['lib32-libogg>=1.3.2-8']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libsndfile', 'lib32-sdl2_mixer']"
 +++

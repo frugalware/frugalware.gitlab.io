@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcursor 1.2.2-1"
-version = "1.2.2-1"
+title = "libxcursor 1.2.2-2"
+version = "1.2.2-2"
 description = "X Cursor Library"
-date = "2024-03-03T16:25:10"
+date = "2024-05-16T03:01:20"
 aliases = "/packages/4787"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "51820"
-usize = "135497"
-sha1sum = "618f8f929b0ee8e9140504b60b5baa2ad9e22f6d"
+size = "52016"
+usize = "135577"
+sha1sum = "70f41e47d71d072c05cdb07b900710510c9097f7"
 depends = "['libx11>=1.6.5-2', 'libxfixes>=5.0.1-3', 'libxrender>=0.9.9-5']"
 reverse_depends = "['allegro', 'box2d', 'cef', 'efl', 'enlightenment', 'fox', 'fox-1.2', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'irrlicht', 'ksubeditor', 'ksubtile', 'openbox', 'opendiablo2', 'plasma-integration', 'qt5-base', 'qt6-webengine', 'spring', 'terminology', 'virtualbox', 'weston', 'whalebird', 'wine', 'wine-devel', 'xcursorgen', 'xf86-video-intel', 'xsetroot']"
 license = "GPL2"

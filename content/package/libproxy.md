@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libproxy 0.5.6-1"
-version = "0.5.6-1"
+title = "libproxy 0.5.6-2"
+version = "0.5.6-2"
 description = "libproxy is a library that provides automatic proxy configuration management."
-date = "2024-05-02T09:25:22"
+date = "2024-05-16T02:23:25"
 aliases = "/packages/119954"
 categories = ['xlib']
 upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
-size = "1093704"
-usize = "1389867"
-sha1sum = "4ec8408e25480d7146e879b0bd2b874d7c2c521b"
+size = "1093856"
+usize = "1389947"
+sha1sum = "88672952e76b243ec3dbfdf9039cc76996dc1307"
 depends = "['curl', 'dbus', 'duktape']"
 reverse_depends = "['glib-networking', 'hexchat', 'libproxy-python3', 'libproxy-vala', 'libquvi', 'openconnect', 'qt5-base', 'qt6-base', 'signon', 'telepathy-qt5']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxkbfile 1.1.3-1"
-version = "1.1.3-1"
+title = "lib32-libxkbfile 1.1.3-2"
+version = "1.1.3-2"
 description = "The xkbfile Library ( 32bit )"
-date = "2024-02-05T12:45:39"
+date = "2024-05-16T03:08:55"
 aliases = "/packages/218871"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "73564"
+size = "73476"
 usize = "211613"
-sha1sum = "606375682a2c3a10de3f957a933fd591753fe144"
+sha1sum = "f2ef3ca5c1c4390b72e11c1bd0d0af99535a24b8"
 depends = "['lib32-libx11>=1.6.4-3']"
 +++
 ### Description: 

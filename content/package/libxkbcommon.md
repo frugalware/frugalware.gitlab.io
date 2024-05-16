@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxkbcommon 1.7.0-1"
-version = "1.7.0-1"
+title = "libxkbcommon 1.7.0-2"
+version = "1.7.0-2"
 description = "Keymap compiler and support library for the XKB specification."
-date = "2024-03-27T09:57:55"
+date = "2024-05-16T03:07:49"
 aliases = "/packages/168713"
 categories = ['x11']
 upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
-size = "211028"
-usize = "909041"
-sha1sum = "0060ff12911eb9e79c95d23e1fc5743cadc4b96c"
+size = "212412"
+usize = "913209"
+sha1sum = "9139f9dfc95c9196f2963d1ca8f9a6ca8a47eac2"
 depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'xkeyboard-config>=2.18-2']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'obs-studio', 'qt5-base', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
 +++

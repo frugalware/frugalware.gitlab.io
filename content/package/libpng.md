@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpng 1.6.43-1"
-version = "1.6.43-1"
+title = "libpng 1.6.43-2"
+version = "1.6.43-2"
 description = "A collection of routines used to create PNG format graphics files"
-date = "2024-03-12T09:28:29"
+date = "2024-05-16T02:22:19"
 aliases = "/packages/2405"
 categories = ['lib']
 upstreamurl = "http://www.libpng.org/"
 arch = "x86_64"
-size = "332652"
-usize = "909043"
-sha1sum = "2c2d360e109193b535db38ac531090d87a1f81bc"
+size = "333920"
+usize = "913211"
+sha1sum = "69ba1ddead81a129fa0f6ebb81194ce2d598626d"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['adios2', 'allegro', 'argyllcms', 'augustus', 'blender', 'cairo', 'crawl', 'crawl-tiles', 'devil', 'dlib', 'dosbox', 'doxygen', 'efl', 'emacs', 'enlightenment', 'feh', 'fltk', 'fox', 'fox-1.2', 'freeorion', 'freetype2', 'gail', 'gdal', 'gdk-pixbuf2', 'gftp', 'ghostscript', 'grfcodec', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gst1-plugins-good-png', 'gtk+2', 'gtk+3', 'gtk+4', 'gtkspell', 'icoutils', 'imlib2', 'insight-toolkit', 'julius', 'ksubeditor', 'ksubtile', 'latex2html', 'leptonica', 'libavif', 'libgsf', 'libnotify', 'libpano13', 'libreoffice', 'libreoffice', 'libvncserver', 'libwebp', 'libzmf', 'manaplus', 'mencoder', 'mjpegtools', 'mplayer', 'naev', 'netpbm', 'nufraw', 'ocrad', 'openbox', 'opencity', 'opencv', 'openjpeg', 'openjre-x', 'openscenegraph', 'openttd', 'optipng', 'pango', 'php', 'pixman', 'pngcrush', 'podofo', 'poppler', 'poppler-glib', 'poppler-pdftools', 'python3-pycairo', 'qemu', 'qrencode', 'qt5-base', 'scummvm-tools', 'silly', 'sox', 'terminology', 'transfig', 'ufoai', 'vigra', 'xautomation', 'xcursorgen', 'xine-lib', 'xine-ui', 'xonotic', 'zeitgeist', 'zvbi']"
 +++

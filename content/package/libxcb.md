@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcb 1.17.0-1"
-version = "1.17.0-1"
+title = "libxcb 1.17.0-2"
+version = "1.17.0-2"
 description = "X.org X-protocol C Binding"
-date = "2024-04-16T18:15:20"
+date = "2024-05-16T02:58:52"
 aliases = "/packages/14766"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "1023308"
-usize = "4433517"
-sha1sum = "487ed4613cef3be4f31ec69f9ff0dadb7161ca03"
+size = "1023300"
+usize = "4458093"
+sha1sum = "46e57d8696dcab6f767200d4d77b5f48df3e5919"
 depends = "['libxau>=1.0.8-8', 'libxdmcp>=1.1.2-8']"
 reverse_depends = "['cairo', 'efl', 'enlightenment', 'ffmpeg', 'libx11', 'libxkbcommon', 'mlt', 'nushell', 'qt5-base', 'redshift', 'sylpheed', 'terminology', 'vulkan-mesa-layers', 'vulkan-tools', 'whalebird', 'wlroots', 'xbacklight', 'xcb-util', 'xcb-util-image', 'xcb-util-keysyms', 'xcb-util-renderutil', 'xcb-util-wm', 'xlsatoms', 'xlsclients', 'xrdp', 'xwininfo']"
 license = "GPL2"

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libtasn1 4.19.0-2"
-version = "4.19.0-2"
+title = "lib32-libtasn1 4.19.0-3"
+version = "4.19.0-3"
 description = "The ASN.1 library used in GNUTLS ( 32bit )"
-date = "2023-09-05T10:59:52"
+date = "2024-05-16T02:34:05"
 aliases = "/packages/218965"
 categories = ['lib32-extra']
 upstreamurl = "http://josefsson.org/libtasn1/"
 arch = "x86_64"
-size = "52820"
+size = "53264"
 usize = "161839"
-sha1sum = "44dcaccc6afdcd412ad39623bfb67291b6bdfd0b"
+sha1sum = "2ea0a881323da6bcaf7154d4ea1b0658322d87f3"
 depends = "['glibc']"
 reverse_depends = "['lib32-p11-kit']"
 +++

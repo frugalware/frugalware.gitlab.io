@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxshmfence 1.3.2-2"
-version = "1.3.2-2"
+title = "libxshmfence 1.3.2-3"
+version = "1.3.2-3"
 description = "X Shared memory fences using futexes"
-date = "2023-09-05T11:14:00"
+date = "2024-05-16T03:13:14"
 aliases = "/packages/200941"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "8952"
+size = "8992"
 usize = "31467"
-sha1sum = "56f5bb8cea0b50e11a8770eb628132a65d04e4fc"
+sha1sum = "7e0d13f5afad8085526ad2beb10f2d4948d9259e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'libegl', 'libepoxy', 'libgl', 'mesa-libegl', 'mesa-libglx', 'qt6-webengine', 'xf86-video-intel']"
 license = "GPL2"

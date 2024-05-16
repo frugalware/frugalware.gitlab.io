@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxrandr 1.5.4-1"
-version = "1.5.4-1"
+title = "libxrandr 1.5.4-2"
+version = "1.5.4-2"
 description = "X RandR Library"
-date = "2023-10-13T15:18:12"
+date = "2024-05-16T03:09:59"
 aliases = "/packages/4805"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "48776"
+size = "48828"
 usize = "147232"
-sha1sum = "e29ca3443559d196a062a94417b037ec78c1da2f"
+sha1sum = "c1e0dd219f26ca37bf478ef711de5e0ae59d32cc"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.1.5-4', 'libxrender>=0.9.10']"
 reverse_depends = "['argyllcms', 'box2d', 'cef', 'clightd', 'colord-kde', 'ddcutil', 'efl', 'enlightenment', 'fluxbox', 'fox', 'fox-1.2', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'gtkmm', 'gtkmm3', 'ksubeditor', 'ksubtile', 'libcec', 'libkscreen', 'libkscreen5', 'libreoffice', 'libreoffice', 'libxpresent', 'lsp-plugins', 'mpv', 'mupdf', 'ogre', 'openbox', 'opendiablo2', 'openscenegraph', 'openxr', 'qt5-webengine', 'qt6-multimedia', 'qt6-webengine', 'radeon-profile', 'radeon-profile', 'setxkbmap', 'sfml', 'spice-vdagent', 'stepmania', 'supertuxkart', 'telegram-desktop', 'terminology', 'virtualbox', 'virtualbox-guest-additions', 'whalebird', 'wine', 'wine-devel', 'xev', 'xf86-input-wacom', 'xf86-video-intel', 'xinput', 'xrandr', 'xrdp']"
 license = "GPL2"

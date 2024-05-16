@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtheora 1.1.1-12"
-version = "1.1.1-12"
+title = "libtheora 1.1.1-13"
+version = "1.1.1-13"
 description = "An open video codec developed by the Xiph.org."
-date = "2023-10-22T12:30:20"
+date = "2024-05-16T02:35:17"
 aliases = "/packages/3203"
 categories = ['multimedia']
 upstreamurl = "http://www.theora.org/"
 arch = "x86_64"
-size = "294860"
+size = "295352"
 usize = "1775824"
-sha1sum = "3965c078cbb11e8ed95b3daccca189e98789110b"
+sha1sum = "6c34035151dc5cb3bbb4c94fb9cd0af8b8e612e6"
 depends = "['libogg>=1.3.2-5']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-base-theora', 'gtk-handbrake', 'icecast', 'libshout', 'love', 'mencoder', 'mplayer', 'picard', 'scummvm', 'ufoai', 'vlc-theora']"
 +++

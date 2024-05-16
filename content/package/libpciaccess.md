@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpciaccess 0.18.1-1"
-version = "0.18.1-1"
+title = "libpciaccess 0.18.1-2"
+version = "0.18.1-2"
 description = "X.Org PCI access library"
-date = "2024-03-27T10:12:54"
+date = "2024-05-16T02:20:56"
 aliases = "/packages/30878"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "21528"
+size = "21600"
 usize = "64969"
-sha1sum = "61706a751bb4285ebab4ac890554a0b74cba0482"
+sha1sum = "b623101bc9f682a00e4c73235052c7fef9ea686d"
 depends = "['glibc>=2.34', 'zlib']"
 reverse_depends = "['libdrm', 'libvirt', 'nvidia-xconfig', 'radeontool', 'spice-vdagent']"
 license = "GPL2"

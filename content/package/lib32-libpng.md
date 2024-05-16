@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libpng 1.6.43-1"
-version = "1.6.43-1"
+title = "lib32-libpng 1.6.43-2"
+version = "1.6.43-2"
 description = "A collection of routines used to create PNG format graphics files ( 32bit )"
-date = "2024-03-12T09:28:29"
+date = "2024-05-16T02:22:19"
 aliases = "/packages/217699"
 categories = ['lib32-extra']
 upstreamurl = "http://www.libpng.org/"
 arch = "x86_64"
-size = "170600"
-usize = "503016"
-sha1sum = "2425a2f5da535c1ab1b4df0434575fae1e5db5a3"
+size = "172372"
+usize = "507104"
+sha1sum = "b1c122d1aed46ad35e21ed822f6c6ae1e78d7a1a"
 depends = "['lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-cairo', 'lib32-freetype2', 'lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-pango', 'lib32-pixman', 'openloco']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtasn1 4.19.0-2"
-version = "4.19.0-2"
+title = "libtasn1 4.19.0-3"
+version = "4.19.0-3"
 description = "The ASN.1 library used in GNUTLS"
-date = "2023-09-05T10:59:52"
+date = "2024-05-16T02:34:05"
 aliases = "/packages/3202"
 categories = ['chroot-core']
 upstreamurl = "http://josefsson.org/libtasn1/"
 arch = "x86_64"
-size = "149524"
+size = "149620"
 usize = "377374"
-sha1sum = "2e8c30b7f8cfffc7922e2d9d61a73d6105688d6f"
+sha1sum = "e5209f48ee7c7eecee517ed8eba9b3f6ff5b7f6b"
 depends = "['glibc>=2.34', 'texinfo>=6.5-2']"
 reverse_depends = "['p11-kit']"
 +++

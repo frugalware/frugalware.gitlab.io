@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libogg 1.3.5-4"
-version = "1.3.5-4"
+title = "libogg 1.3.5-5"
+version = "1.3.5-5"
 description = "Ogg bitstream and framing library"
-date = "2023-10-22T12:27:57"
+date = "2024-05-16T02:18:31"
 aliases = "/packages/3190"
 categories = ['multimedia']
 upstreamurl = "http://www.vorbis.com/"
 arch = "x86_64"
-size = "192980"
+size = "192976"
 usize = "458233"
-sha1sum = "4bf33bcd1363072b8fcfb36c13885e669680b96d"
+sha1sum = "ec28b2d6af10e74338f95026889e86238f365629"
 depends = "['glibc>=2.34']"
 reverse_depends = "['celt', 'celt051', 'efl', 'enlightenment', 'flac', 'gst1-plugins-base-ogg', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'guvcview', 'libpulse', 'libsndfile', 'libtheora', 'libvorbis', 'minidlna', 'mlt', 'solarus', 'speex', 'stepmania', 'terminology']"
 +++

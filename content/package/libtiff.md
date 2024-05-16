@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtiff 4.4.0-2"
-version = "4.4.0-2"
+title = "libtiff 4.4.0-3"
+version = "4.4.0-3"
 description = "Library for manipulation of TIFF images"
-date = "2023-09-05T10:34:32"
+date = "2024-05-16T02:37:06"
 aliases = "/packages/2407"
 categories = ['lib']
 upstreamurl = "http://libtiff.maptools.org"
 arch = "x86_64"
-size = "814108"
-usize = "3310126"
-sha1sum = "59e0cdad62ed82faf2c4fae3a904f4d9a9f90fab"
+size = "816532"
+usize = "3322414"
+sha1sum = "0f6a41b098c83c13da42d898be79502e293d3b6f"
 depends = "['libstdc++>=11.2', 'xz>=5.2.2-5', 'zlib>=1.2.12']"
 reverse_depends = "['argyllcms', 'blender', 'djvulibre', 'efl', 'emacs', 'fontforge', 'fox', 'fox-1.2', 'freeimage', 'freeorion', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'gwenview', 'imagemagick', 'imlib2', 'insight-toolkit', 'lcms', 'lcms2', 'leptonica', 'libcamera-tools', 'libgdiplus', 'libgeotiff', 'libpano13', 'libwebp', 'netpbm', 'ninja', 'opencv', 'openjpeg', 'openscenegraph', 'openslide', 'podofo', 'proj', 'python3-pillow', 'qt5-imageformats', 'r', 'sane-backends', 'sdl2_image', 'vigra']"
 +++

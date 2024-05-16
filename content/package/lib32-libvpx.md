@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libvpx 1.14.0-1"
-version = "1.14.0-1"
+title = "lib32-libvpx 1.14.0-2"
+version = "1.14.0-2"
 description = "WebM VP8 VP9 Codec SDK ( 32bit )"
-date = "2024-02-20T15:33:30"
+date = "2024-05-16T02:46:18"
 aliases = "/packages/219218"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/webmproject/libvpx"
 arch = "x86_64"
-size = "1031276"
-usize = "3487368"
-sha1sum = "bafcc3cfb301e59e92ad8b034bfb92437fbeb644"
+size = "1057604"
+usize = "3581576"
+sha1sum = "c31ca4a3146a6f3da8b4e3599bd09c7e5bffa43b"
 depends = "[]"
 reverse_depends = "['lib32-ffmpeg']"
 +++

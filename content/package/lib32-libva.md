@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libva 2.21.0-1"
-version = "2.21.0-1"
+title = "lib32-libva 2.21.0-2"
+version = "2.21.0-2"
 description = "Uniform library API for hardware acceleration of video decoding. ( 32bit )"
-date = "2024-03-21T15:15:26"
+date = "2024-05-16T02:40:53"
 aliases = "/packages/219219"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/intel/libva"
 arch = "x86_64"
-size = "184912"
+size = "184996"
 usize = "973039"
-sha1sum = "2ebc8e546888e92be2653e002782bd445dec3d41"
+sha1sum = "344cee8c171d648025a5eb6e9d579376a3ccc9cd"
 depends = "['lib32-libdrm>=2.4.70-2', 'lib32-libglvnd', 'lib32-libxext>=1.3.3-3', 'lib32-libxfixes>=5.0.1-3', 'lib32-wayland>=1.11.0-3']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libva-intel-driver', 'steam-native']"
 +++

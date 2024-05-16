@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsndfile 1.0.28-7"
-version = "1.0.28-7"
+title = "libsndfile 1.0.28-8"
+version = "1.0.28-8"
 description = "Libsndfile is a C library for reading and writing files containing sampled sound"
-date = "2023-09-05T10:29:01"
+date = "2024-05-16T02:30:06"
 aliases = "/packages/3197"
 categories = ['multimedia']
 upstreamurl = "http://www.mega-nerd.com/libsndfile"
 arch = "x86_64"
-size = "340856"
-usize = "1277101"
-sha1sum = "ceafee89fe2cd4c357bb106a97249596be1c8a0f"
+size = "328824"
+usize = "1230082"
+sha1sum = "1a543089d0f688e631d2fcd9312e8969c06fc045"
 depends = "['alsa-lib>=1.1.2-2', 'flac>=1.4.0', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['efl', 'enlightenment', 'fluidsynth', 'libbs2b', 'libpulse', 'libreoffice', 'libsamplerate', 'lv2', 'mednafen', 'mumble', 'pulseaudio', 'qtractor', 'sfml', 'speech-dispatcher', 'terminology', 'twolame', 'vamp-plugin-sdk']"
 +++
@@ -27,7 +27,6 @@ Libsndfile is a C library for reading and writing files containing sampled sound
 * /usr/bin/sndfile-metadata-get
 * /usr/bin/sndfile-metadata-set
 * /usr/bin/sndfile-play
-* /usr/bin/sndfile-regtest
 * /usr/bin/sndfile-salvage
 * /usr/include/sndfile.h
 * /usr/include/sndfile.hh

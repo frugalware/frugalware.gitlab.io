@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxdmcp 1.1.5-1"
-version = "1.1.5-1"
+title = "lib32-libxdmcp 1.1.5-2"
+version = "1.1.5-2"
 description = "X.Org Xdmcp library ( 32bit )"
-date = "2024-03-03T16:10:29"
+date = "2024-05-16T03:03:28"
 aliases = "/packages/217714"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "12020"
+size = "12160"
 usize = "30474"
-sha1sum = "7a8a6ab3dd79b5d0aa6c9f9fcc62ab7ff5b3d598"
+sha1sum = "5e47f22e15508c02739b74b6433b415664a06f8a"
 depends = "[]"
 reverse_depends = "['lib32-libx11', 'lib32-libxcb', 'lib32-xcb-util', 'lib32-xcb-util-image', 'lib32-xcb-util-wm', 'lib32-xorg-server-fbdev']"
 +++

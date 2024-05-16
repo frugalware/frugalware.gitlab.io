@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmysofa 1.3.2-1"
-version = "1.3.2-1"
+title = "libmysofa 1.3.2-2"
+version = "1.3.2-2"
 description = "C library to read HRTFs if they are stored in the AES69-2015 SOFA format"
-date = "2023-11-06T15:24:03"
+date = "2024-05-16T02:17:34"
 aliases = "/packages/221087"
 categories = ['lib']
 upstreamurl = "https://github.com/hoene/libmysofa"
 arch = "x86_64"
 size = "1171132"
-usize = "1337085"
-sha1sum = "b023312f2c531a7285a4377a0f7dbdc76421fdd4"
+usize = "1337173"
+sha1sum = "0656abcdde4c8f6d3e0e9db697f1a989f2aa7a9a"
 depends = "['zlib']"
 reverse_depends = "['pipewire']"
 +++

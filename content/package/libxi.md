@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxi 1.8.1-2"
-version = "1.8.1-2"
+title = "libxi 1.8.1-3"
+version = "1.8.1-3"
 description = "X inputextension library"
-date = "2023-09-05T11:04:25"
+date = "2024-05-16T03:06:53"
 aliases = "/packages/4796"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "197024"
+size = "196784"
 usize = "697353"
-sha1sum = "7cbd17e711ad7aa3efb42aaecb5d457b7f8470f9"
+sha1sum = "eb616b7aa3b57d54317a3b2d2ee92bf1b8423afa"
 depends = "['libx11>=1.6.8', 'libxext>=1.3.3-3', 'libxfixes>=5.0.3']"
 reverse_depends = "['blender', 'box2d', 'efl', 'enlightenment', 'flightgear', 'fox', 'freeglut', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'guarddog', 'kasablanca', 'kat', 'kitty', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'kzenexplorer', 'libxtst', 'maxemumtvguide', 'mlt-qt', 'mupdf', 'opendiablo2', 'qscintilla2', 'qt5-base', 'qt6-base', 'terminology', 'whalebird', 'wine', 'wine-devel', 'xeyes', 'xf86-input-synaptics', 'xf86-input-wacom', 'xinput', 'xsetmode', 'xsetpointer']"
 license = "GPL2"

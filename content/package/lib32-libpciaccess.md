@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libpciaccess 0.18.1-1"
-version = "0.18.1-1"
+title = "lib32-libpciaccess 0.18.1-2"
+version = "0.18.1-2"
 description = "X.Org PCI access library ( 32bit )"
-date = "2024-03-27T10:12:54"
+date = "2024-05-16T02:20:56"
 aliases = "/packages/217709"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "21912"
+size = "21924"
 usize = "58000"
-sha1sum = "3ab3da68e24843a715655490162fb480f12b5779"
+sha1sum = "03c7719b2c3e48f8b28b805de04ab4fdb51e8a80"
 depends = "['lib32-zlib']"
 reverse_depends = "['lib32-libdrm']"
 +++

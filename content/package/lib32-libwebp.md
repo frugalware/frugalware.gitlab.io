@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libwebp 1.3.2-1"
-version = "1.3.2-1"
+title = "lib32-libwebp 1.3.2-2"
+version = "1.3.2-2"
 description = "A library for a new image format comparable to JPEG. ( 32bit )"
-date = "2023-09-14T08:18:13"
+date = "2024-05-16T02:49:15"
 aliases = "/packages/219920"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/webmproject/libwebp"
 arch = "x86_64"
-size = "319136"
-usize = "1137457"
-sha1sum = "c266b50010c80c8cc149e152afb3b853742eb275"
+size = "320460"
+usize = "1149549"
+sha1sum = "de729a3d7d6cf867742d0215184069e34328dcb0"
 depends = "['lib32-libgif', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.10-2']"
 reverse_depends = "['lib32-sdl2_image']"
 +++

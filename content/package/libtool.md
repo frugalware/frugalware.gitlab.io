@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtool 2.4.7-2"
-version = "2.4.7-2"
+title = "libtool 2.4.7-3"
+version = "2.4.7-3"
 description = "A generic library support script"
-date = "2023-09-05T10:35:45"
+date = "2024-05-16T02:38:29"
 aliases = "/packages/2408"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/libtool"
 arch = "x86_64"
-size = "701664"
-usize = "3638044"
-sha1sum = "7b09ec4e77bcd893c31cd316c249fd3a962174f5"
+size = "701676"
+usize = "3638054"
+sha1sum = "8315fe107dc83ba4c98ef2b431b85dc45aa6b89d"
 depends = "['bash>=3.2_039-3', 'glibc>=2.34']"
 reverse_depends = "['clamav', 'courier-authlib', 'guile', 'imagemagick', 'libcanberra', 'libextractor', 'libgphoto2', 'libmp3splt', 'libmpg123', 'libpulse', 'librdf', 'openldap', 'pulseaudio', 'scim', 'squid', 'unixodbc']"
 +++

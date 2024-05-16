@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxkbfile 1.1.3-1"
-version = "1.1.3-1"
+title = "libxkbfile 1.1.3-2"
+version = "1.1.3-2"
 description = "The xkbfile Library"
-date = "2024-02-05T12:45:39"
+date = "2024-05-16T03:08:55"
 aliases = "/packages/4798"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "90940"
+size = "90836"
 usize = "261698"
-sha1sum = "3a796f49c14102a4a1423fcf257e0ae6e44c03b1"
+sha1sum = "a30efd46b097f979751cf67848d67a1073393e41"
 depends = "['libx11>=1.6.4-3']"
 reverse_depends = "['editres', 'freerdp', 'gnome-desktop', 'libxkbui', 'oclock', 'plasma-desktop', 'pulsar', 'setxkbmap', 'vscode', 'xclock', 'xfd', 'xkbcomp', 'xkbevd', 'xkbprint', 'xterm', 'xwd']"
 license = "GPL2"

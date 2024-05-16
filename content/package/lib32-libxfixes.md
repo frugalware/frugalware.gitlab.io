@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxfixes 6.0.1-2"
-version = "6.0.1-2"
+title = "lib32-libxfixes 6.0.1-3"
+version = "6.0.1-3"
 description = "X.Org Xfixes library ( 32bit )"
-date = "2023-09-05T11:01:52"
+date = "2024-05-16T03:05:40"
 aliases = "/packages/217717"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "12264"
+size = "12340"
 usize = "33763"
-sha1sum = "d550c7a4a36009864255b481cceaf001367c9c2f"
+sha1sum = "82964b2eeb5e71e2a8348ccb5eaddde574314443"
 depends = "['lib32-libx11>=1.6.4-3']"
 reverse_depends = "['lib32-ffmpeg', 'lib32-libva', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxi']"
 +++

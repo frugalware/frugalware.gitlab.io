@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libseccomp 2.5.5-1"
-version = "2.5.5-1"
+title = "libseccomp 2.5.5-2"
+version = "2.5.5-2"
 description = "Enhanced seccomp library"
-date = "2023-12-03T12:22:57"
+date = "2024-05-16T02:27:21"
 aliases = "/packages/219075"
 categories = ['base']
 upstreamurl = "https://github.com/seccomp/libseccomp"
 arch = "x86_64"
-size = "89432"
+size = "89376"
 usize = "280757"
-sha1sum = "a96a47a5031285b8d8fd0ec8c015c6dcdc59cc28"
+sha1sum = "78ed7823d97ee370aea38decacc5a87642d5eb00"
 depends = "['glibc>=2.35']"
 reverse_depends = "['flatpak', 'gnome-desktop', 'kscreenlocker', 'qemu', 'runc', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'tor', 'usbguard', 'webkit-gtk3']"
 +++

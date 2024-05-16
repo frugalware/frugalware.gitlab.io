@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libva 2.21.0-1"
-version = "2.21.0-1"
+title = "libva 2.21.0-2"
+version = "2.21.0-2"
 description = "Uniform library API for hardware acceleration of video decoding."
-date = "2024-03-21T15:15:26"
+date = "2024-05-16T02:40:53"
 aliases = "/packages/135979"
 categories = ['x11']
 upstreamurl = "https://github.com/intel/libva"
 arch = "x86_64"
-size = "188872"
-usize = "972198"
-sha1sum = "99da2067c44b9b42ab258c1d3d9944c3f402c546"
+size = "189048"
+usize = "976374"
+sha1sum = "7255c7e8020410db8a5676a92f6f7f7f17802a8b"
 depends = "['libdrm>=2.4.70-2', 'libglvnd', 'libxext>=1.3.3-3', 'libxfixes>=5.0.1-3', 'wayland>=1.11.0-3']"
 reverse_depends = "['chromium-browser', 'ffmpeg', 'gst1-plugins-bad-libva', 'intel-compute-runtime', 'libva-intel-driver', 'libva-utils', 'libva-vdpau-driver', 'libvdpau-va-gl', 'libvpl', 'media-driver', 'mpv', 'stepmania', 'vlc', 'weston', 'xine-lib']"
 +++

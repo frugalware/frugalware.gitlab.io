@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libtheora 1.1.1-12"
-version = "1.1.1-12"
+title = "lib32-libtheora 1.1.1-13"
+version = "1.1.1-13"
 description = "An open video codec developed by the Xiph.org. ( 32bit )"
-date = "2023-10-22T12:30:20"
+date = "2024-05-16T02:35:17"
 aliases = "/packages/219209"
 categories = ['lib32-extra']
 upstreamurl = "http://www.theora.org/"
 arch = "x86_64"
-size = "183560"
-usize = "707137"
-sha1sum = "89c343304ff34b43077be0389677753519935fe0"
+size = "186700"
+usize = "711233"
+sha1sum = "009e1c90afc3c966ef50ca5f89f5165a296156ae"
 depends = "['lib32-libogg>=1.3.2-5']"
 reverse_depends = "['lib32-ffmpeg']"
 +++

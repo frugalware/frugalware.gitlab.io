@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxrandr 1.5.4-1"
-version = "1.5.4-1"
+title = "lib32-libxrandr 1.5.4-2"
+version = "1.5.4-2"
 description = "X RandR Library ( 32bit )"
-date = "2023-10-13T15:18:12"
+date = "2024-05-16T03:09:59"
 aliases = "/packages/217900"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "22244"
+size = "22288"
 usize = "71869"
-sha1sum = "91fc14c85d946eaad509bb732e74e01378ab89f6"
+sha1sum = "696092a4dbaec33f0ae57a057c068cfb5af86ffd"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.1.5-4', 'lib32-libxrender>=0.9.10']"
 reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmp4v2 5.0.1-2"
-version = "5.0.1-2"
+title = "libmp4v2 5.0.1-3"
+version = "5.0.1-3"
 description = "A library for working with files using the mp4 container format. (extracted from mpeg4ip)."
-date = "2023-10-22T12:26:54"
+date = "2024-05-16T02:16:25"
 aliases = "/packages/14661"
 categories = ['multimedia']
 upstreamurl = "https://github.com/Techsmith/mp4v2"
 arch = "x86_64"
-size = "381032"
-usize = "1445380"
-sha1sum = "07c17be3a32ef6aa8cb472cde4f14e0afc24ed22"
+size = "385064"
+usize = "1453572"
+sha1sum = "73950ed62f25e17151406fe44f1181a7af4b21c3"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['faac']"
 +++

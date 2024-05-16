@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvpl 2.11.0-1"
-version = "2.11.0-1"
+title = "libvpl 2.11.0-2"
+version = "2.11.0-2"
 description = "Intel Video Processing Library"
-date = "2024-05-02T11:24:22"
+date = "2024-05-16T02:43:45"
 aliases = "/packages/221231"
 categories = ['lib']
 upstreamurl = "https://www.intel.com/content/www/us/en/developer/tools/vpl/overview.html"
 arch = "x86_64"
-size = "4632408"
-usize = "17782046"
-sha1sum = "053cc6bd251dd2439d2dcf6eadc2248e80ed0e1a"
+size = "4637660"
+usize = "17798430"
+sha1sum = "bb4a3b5e718c9fe6f2ac877fa6538314973c2353"
 depends = "['libdrm', 'libva', 'wayland']"
 reverse_depends = "['ffmpeg', 'handbrake']"
 +++
