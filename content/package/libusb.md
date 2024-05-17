@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libusb 0.1.8-2"
-version = "0.1.8-2"
+title = "libusb 0.1.8-4"
+version = "0.1.8-4"
 description = "A library which allows userspace application access to USB devices"
-date = "2023-09-05T10:43:08"
+date = "2024-05-17T13:18:10"
 aliases = "/packages/2409"
-categories = ['base']
+categories = ['lib-extra']
 upstreamurl = "https://sourceforge.net/projects/libusb"
 arch = "x86_64"
-size = "31596"
-usize = "94822"
-sha1sum = "666f3b22c1f4ca1d8d0f32cdb5603db02234ae10"
+size = "24632"
+usize = "79079"
+sha1sum = "ecb12250078a711ad8a19b5bf2d9baa02cac14c1"
 depends = "['libusb1>=1.0.22-2']"
 reverse_depends = "['gnokii', 'lirc']"
 +++
@@ -25,7 +25,6 @@ A library which allows userspace application access to USB devices
 * /usr/lib/libusb.so
 * /usr/lib/pkgconfig/libusb.pc
 * /usr/share/doc/libusb-0.1.8/AUTHORS
-* /usr/share/doc/libusb-0.1.8/ChangeLog
 * /usr/share/doc/libusb-0.1.8/COPYING
 * /usr/share/doc/libusb-0.1.8/INSTALL
 * /usr/share/doc/libusb-0.1.8/LICENSE

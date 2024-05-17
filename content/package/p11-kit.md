@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "p11-kit 0.25.3-1"
-version = "0.25.3-1"
+title = "p11-kit 0.25.3-2"
+version = "0.25.3-2"
 description = "Provides a way to load and enumerate PKCS#11 modules."
-date = "2023-11-24T17:35:17"
+date = "2024-05-17T13:40:40"
 aliases = "/packages/136195"
 categories = ['apps']
 upstreamurl = "http://p11-glue.freedesktop.org/p11-kit.html"
 arch = "x86_64"
-size = "709084"
-usize = "5317847"
-sha1sum = "1cc273bece83d41f9c59057b5cb5c7176f82ad00"
+size = "715384"
+usize = "5326039"
+sha1sum = "ad916d74f2f05c0b66c92ec599014288c660c6e0"
 depends = "['ca-certificates', 'libffi>=3.4', 'libsystemd', 'libtasn1>=4.13-2']"
 reverse_depends = "['gcr-1', 'gnutls', 'libsystemd']"
 +++

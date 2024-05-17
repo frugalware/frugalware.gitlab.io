@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-location 5.15.13-2"
-version = "5.15.13-2"
+title = "qt5-location 5.15.13-3"
+version = "5.15.13-3"
 description = "The Qt5 toolkit, qtlocation"
-date = "2024-04-19T15:37:10"
+date = "2024-05-17T14:00:26"
 aliases = "/packages/217619"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "2386436"
-usize = "9605240"
-sha1sum = "f96faf99f0321438d1d48e17d4a9350dba69b991"
+size = "2429336"
+usize = "9764784"
+sha1sum = "d92e9b3026ec3071ff883861f64c00595b041890"
 depends = "['icu4c>=75.1', 'qt5-declarative>=5.15.13']"
 reverse_depends = "['aseman-qt-tools', 'marble', 'meshroom', 'qsyncthingtray', 'qt5-tools', 'qt5-webengine']"
 +++

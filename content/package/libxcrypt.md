@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcrypt 4.4.36-4"
-version = "4.4.36-4"
+title = "libxcrypt 4.4.36-5"
+version = "4.4.36-5"
 description = "Modern library for one-way hashing of passwords"
-date = "2024-02-02T10:48:28"
+date = "2024-05-17T13:25:01"
 aliases = "/packages/221225"
 categories = ['base']
 upstreamurl = "https://github.com/besser82/libxcrypt"
 arch = "x86_64"
-size = "108900"
-usize = "291984"
-sha1sum = "3063a3ee01ddc9ef6f3eeefd710df57247893ffc"
+size = "108968"
+usize = "296080"
+sha1sum = "d1eb0a97044cf5c66f29e0eeff34d484f82cfda4"
 depends = "['glibc']"
 reverse_depends = "['inetutils', 'lib32-libxcrypt', 'libreswan', 'libsmbclient', 'libsystemd', 'libxcrypt-compat', 'openldap', 'openvas-libraries', 'pam', 'ppp', 'saslauthd', 'shadow', 'squid', 'sudo', 'util-linux', 'uwsgi-plugin-router', 'xscreensaver-data']"
 +++
