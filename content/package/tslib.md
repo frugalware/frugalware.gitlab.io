@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tslib 1.23-1"
-version = "1.23-1"
+title = "tslib 1.23-2"
+version = "1.23-2"
 description = "Touchscreen Access Library"
-date = "2024-05-02T11:56:44"
+date = "2024-05-17T14:19:33"
 aliases = "/packages/220774"
 categories = ['lib']
 upstreamurl = "https://github.com/kergoth/tslib"
 arch = "x86_64"
-size = "121524"
+size = "121368"
 usize = "578245"
-sha1sum = "2344d052da9e4356e260efd5b919a565ed3bca03"
+sha1sum = "487d5d809f95505ae259e079e51a524d15af051d"
 depends = "['glibc']"
 reverse_depends = "['qt5-base', 'qt6-base']"
 +++

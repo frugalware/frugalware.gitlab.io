@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-slang 2.3.3-2"
-version = "2.3.3-2"
+title = "lib32-slang 2.3.3-3"
+version = "2.3.3-3"
 description = "S-Lang is a powerful interpreted language ( 32bit )"
-date = "2023-09-04T17:20:55"
+date = "2024-05-17T14:16:10"
 aliases = "/packages/218957"
 categories = ['lib32-extra']
 upstreamurl = "http://www.jedsoft.org/slang/"
 arch = "x86_64"
-size = "491480"
-usize = "1949606"
-sha1sum = "011bfb6eadd14ebe6a3c6a459370f4f579300396"
-depends = "['lib32-pcre>=8.40-2']"
+size = "498148"
+usize = "1980658"
+sha1sum = "e307c0f2c7cc9f618420efbb7fb296120f4d842e"
+depends = "['lib32-oniguruma', 'lib32-pcre>=8.40-2']"
 reverse_depends = "['lib32-libcaca', 'lib32-newt']"
 +++
 ### Description: 
@@ -33,6 +33,7 @@ S-Lang is a powerful interpreted language ( 32bit )
 * /usr/lib32/slang/v2/modules/histogram-module.so
 * /usr/lib32/slang/v2/modules/iconv-module.so
 * /usr/lib32/slang/v2/modules/json-module.so
+* /usr/lib32/slang/v2/modules/onig-module.so
 * /usr/lib32/slang/v2/modules/pcre-module.so
 * /usr/lib32/slang/v2/modules/rand-module.so
 * /usr/lib32/slang/v2/modules/select-module.so

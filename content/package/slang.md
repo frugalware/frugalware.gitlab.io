@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "slang 2.3.3-2"
-version = "2.3.3-2"
+title = "slang 2.3.3-3"
+version = "2.3.3-3"
 description = "S-Lang is a powerful interpreted language"
-date = "2023-09-04T17:20:55"
+date = "2024-05-17T14:16:10"
 aliases = "/packages/2442"
 categories = ['base']
 upstreamurl = "http://www.jedsoft.org/slang/"
 arch = "x86_64"
-size = "787808"
-usize = "3751143"
-sha1sum = "43310eba835f3490714286e0926da975206afdbc"
-depends = "['pcre>=8.40-2']"
+size = "794904"
+usize = "3783607"
+sha1sum = "420f64f5955e96b6fcb99568f857b91403987caf"
+depends = "['oniguruma', 'pcre>=8.40-2']"
 reverse_depends = "['gst1-plugins-good-caca', 'libcaca', 'mc', 'newt', 'perf', 'slrn']"
 +++
 ### Description: 
@@ -34,6 +34,7 @@ S-Lang is a powerful interpreted language
 * /usr/lib/slang/v2/modules/histogram-module.so
 * /usr/lib/slang/v2/modules/iconv-module.so
 * /usr/lib/slang/v2/modules/json-module.so
+* /usr/lib/slang/v2/modules/onig-module.so
 * /usr/lib/slang/v2/modules/pcre-module.so
 * /usr/lib/slang/v2/modules/rand-module.so
 * /usr/lib/slang/v2/modules/select-module.so

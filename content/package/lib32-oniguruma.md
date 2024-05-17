@@ -12,6 +12,7 @@ size = "157400"
 usize = "652160"
 sha1sum = "7e5bcf9be7b6f5afcb1e8fb82deda98f49510cf3"
 depends = "[]"
+reverse_depends = "['lib32-slang']"
 +++
 ### Description: 
 A regular expressions library ( 32bit )

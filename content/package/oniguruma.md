@@ -12,7 +12,7 @@ size = "196344"
 usize = "834100"
 sha1sum = "076a41117e9c4db9f6fbcb447846f2c0fd6c5432"
 depends = "['glibc>=2.34']"
-reverse_depends = "['jq']"
+reverse_depends = "['jq', 'slang']"
 +++
 ### Description: 
 A regular expressions library

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulseaudio-avahi 17.0-1"
-version = "17.0-1"
+title = "pulseaudio-avahi 17.0-2"
+version = "17.0-2"
 description = "avahi module for PulseAudio sound server"
-date = "2024-01-23T22:08:36"
+date = "2024-05-17T14:46:08"
 aliases = "/packages/61052"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "46000"
-usize = "178512"
-sha1sum = "dea154509a52b7a39afd97dc7d37f922af965776"
+size = "45932"
+usize = "178672"
+sha1sum = "da1b088159b85faab9af94377d47d5bcabf34ba8"
 depends = "['avahi>=0.6.31-7', 'openssl>=1.1.1', 'pulseaudio>=17.0']"
 +++
 ### Description: 
