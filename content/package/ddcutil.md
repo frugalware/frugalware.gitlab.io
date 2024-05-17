@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ddcutil 2.1.4-1"
-version = "2.1.4-1"
+title = "ddcutil 2.1.4-2"
+version = "2.1.4-2"
 description = "Query and change Linux monitor settings using DDC/CI and USB."
-date = "2024-02-23T21:23:57"
+date = "2024-05-17T11:16:31"
 aliases = "/packages/220890"
 categories = ['apps-extra']
 upstreamurl = "http://ddcutil.com/"
 arch = "x86_64"
-size = "638012"
+size = "640676"
 usize = "2269091"
-sha1sum = "38642d21cb99bfa0890e28fcc93dd85cd570c330"
-depends = "['glib2', 'i2c-tools', 'jansson', 'libdrm', 'libusb', 'libxrandr']"
+sha1sum = "6c74174442db889f8168ea4b6d99ba4573cd0e1d"
+depends = "['glib2', 'i2c-tools', 'jansson', 'libdrm', 'libusb1', 'libxrandr']"
 reverse_depends = "['clightd', 'hw-probe']"
 +++
 ### Description: 

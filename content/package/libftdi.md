@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libftdi 1.5-2"
-version = "1.5-2"
+title = "libftdi 1.5-3"
+version = "1.5-3"
 description = "A library to talk to FTDI chips"
-date = "2024-04-24T15:33:51"
+date = "2024-05-17T11:52:07"
 aliases = "/packages/221452"
 categories = ['lib']
 upstreamurl = "http://www.intra2net.com/en/developer/libftdi/"
 arch = "x86_64"
-size = "109200"
-usize = "522311"
-sha1sum = "e40da55dd0f30f957cc0767e0433abb4bd2c6ab6"
-depends = "['confuse', 'libboost', 'libusb']"
+size = "109500"
+usize = "518295"
+sha1sum = "a8381207a482e6d1cf9c2eb618351876f735c99d"
+depends = "['confuse', 'libboost', 'libusb1']"
 reverse_depends = "['flashrom']"
 +++
 ### Description: 

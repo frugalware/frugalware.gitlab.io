@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libykneomgr 0.1.8-5"
-version = "0.1.8-5"
+title = "libykneomgr 0.1.8-6"
+version = "0.1.8-6"
 description = "Yubico YubiKey NEO Manager C Library"
-date = "2022-02-13T20:18:51"
+date = "2024-05-17T12:10:09"
 aliases = "/packages/217246"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Yubico/libykneomgr"
 arch = "x86_64"
-size = "41820"
-usize = "154216"
-sha1sum = "fa72e5421269d86e1b369f84d3a1ae0dccde3cbc"
-depends = "['curl', 'libusb', 'libzip', 'pcsc-lite']"
+size = "32056"
+usize = "113337"
+sha1sum = "cfee68db1b4966dcf6323c02d06e317c4a89cff2"
+depends = "['libzip', 'pcsc-lite']"
 +++
 ### Description: 
 Yubico YubiKey NEO Manager C Library
@@ -26,7 +26,6 @@ Yubico YubiKey NEO Manager C Library
 * /usr/lib/libykneomgr.so.0.1.8
 * /usr/lib/pkgconfig/ykneomgr.pc
 * /usr/share/doc/libykneomgr-0.1.8/AUTHORS
-* /usr/share/doc/libykneomgr-0.1.8/ChangeLog
 * /usr/share/doc/libykneomgr-0.1.8/COPYING
 * /usr/share/doc/libykneomgr-0.1.8/INSTALL
 * /usr/share/doc/libykneomgr-0.1.8/NEWS

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1665680"
 usize = "6115342"
 sha1sum = "8497b46c9ba43bbfaf08d85bf98ce6b490bcffcf"
-depends = "['i2c-tools', 'libhidapi', 'libusb', 'mbedtls', 'qt5-base>=5.15.10']"
+depends = "['i2c-tools', 'libhidapi', 'libusb1', 'mbedtls', 'qt5-base>=5.15.10']"
 +++
 ### Description: 
 Open source RGB lighting control that doesn't depend on manufacturer software
