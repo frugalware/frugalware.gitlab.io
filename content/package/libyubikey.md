@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libyubikey 1.13-5"
-version = "1.13-5"
+title = "libyubikey 1.13-6"
+version = "1.13-6"
 description = "Yubico YubiKey C library"
-date = "2022-02-08T13:50:43"
+date = "2024-05-17T12:20:36"
 aliases = "/packages/217248"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Yubico/yubico-c"
 arch = "x86_64"
-size = "21804"
-usize = "93534"
-sha1sum = "d6a17de989c4ada7602b513dc7d207053ace374c"
-depends = "['curl', 'libusb']"
+size = "21980"
+usize = "93143"
+sha1sum = "d6056a002d5f4d83b7071da5abe5963baee858ba"
+depends = "['glibc']"
 reverse_depends = "['dracut-ykfde', 'ykclient']"
 +++
 ### Description: 

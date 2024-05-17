@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openrgb 0.9-4"
-version = "0.9-4"
+title = "openrgb 0.9-5"
+version = "0.9-5"
 description = "Open source RGB lighting control that doesn't depend on manufacturer software"
-date = "2024-03-28T15:59:36"
+date = "2024-05-17T12:14:50"
 aliases = "/packages/220821"
 categories = ['xapps-extra']
 upstreamurl = "https://gitlab.com/CalcProgrammer1/OpenRGB"
 arch = "x86_64"
-size = "1665680"
-usize = "6115342"
-sha1sum = "8497b46c9ba43bbfaf08d85bf98ce6b490bcffcf"
+size = "1688468"
+usize = "6258190"
+sha1sum = "18dc5cee816e6c44385574a891cb02277460092c"
 depends = "['i2c-tools', 'libhidapi', 'libusb1', 'mbedtls', 'qt5-base>=5.15.10']"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "274316"
 usize = "637735"
 sha1sum = "875329420e5bbe4495a705a008a478ca1b9e4d80"
-depends = "['perl>=5.34.0', 'perl>=5.28.2']"
+depends = "['perl>=5.28.2', 'perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 
