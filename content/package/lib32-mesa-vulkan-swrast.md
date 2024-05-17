@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-vulkan-swrast 24.0.6-1"
-version = "24.0.6-1"
+title = "lib32-mesa-vulkan-swrast 24.0.7-1"
+version = "24.0.7-1"
 description = "SWRast Support for Vulkan (32-bit)"
-date = "2024-04-25T06:45:12"
+date = "2024-05-17T15:18:02"
 aliases = "/packages/220858"
 categories = ['lib32-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "1918516"
-usize = "12579530"
-sha1sum = "77e66b6dfde801667c3a16a2f79aa2e168931186"
+size = "1663308"
+usize = "10625026"
+sha1sum = "cee28d1db0f86417f1138bea75edc79a6dffde48"
 depends = "['lib32-libudev', 'lib32-vulkan-icd-loader', 'lib32-xcb-util-keysyms', 'lib32-zstd']"
 +++
 ### Description: 
