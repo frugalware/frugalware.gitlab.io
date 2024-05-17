@@ -12,7 +12,7 @@ size = "31596"
 usize = "94822"
 sha1sum = "666f3b22c1f4ca1d8d0f32cdb5603db02234ae10"
 depends = "['libusb1>=1.0.22-2']"
-reverse_depends = "['clightd', 'ddcutil', 'gnokii', 'hplip', 'keepassxc', 'libftdi', 'libiio', 'libu2f-host', 'libykneomgr', 'libyubikey', 'lirc', 'openrgb', 'resetmsmice']"
+reverse_depends = "['clightd', 'ddcutil', 'gnokii', 'keepassxc', 'libftdi', 'libiio', 'libu2f-host', 'libykneomgr', 'libyubikey', 'lirc', 'openrgb']"
 +++
 ### Description: 
 A library which allows userspace application access to USB devices

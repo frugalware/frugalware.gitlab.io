@@ -12,7 +12,7 @@ size = "928496"
 usize = "4437695"
 sha1sum = "4cea8524a04e10732139b2a7fe6d8f0a5fba12dd"
 depends = "['libpsl', 'libuuid', 'openssl>=3.1.0', 'pcre2']"
-reverse_depends = "['get_steam', 'hplip', 'pacman-tools']"
+reverse_depends = "['get_steam', 'pacman-tools']"
 +++
 ### Description: 
 A network utility to retrieve files from the Web

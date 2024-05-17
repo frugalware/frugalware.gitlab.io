@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "resetmsmice 1.2.1-2"
-version = "1.2.1-2"
+title = "resetmsmice 1.2.1-3"
+version = "1.2.1-3"
 description = "Application to reset many MS wireless mice models to stop excessive wheel scrolling"
-date = "2024-01-15T14:22:18"
+date = "2024-05-17T11:06:37"
 aliases = "/packages/219990"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/resetmsmice"
 arch = "x86_64"
-size = "47688"
-usize = "157551"
-sha1sum = "bb3ccf3abb680413b8616e490601e0a348bf5c15"
-depends = "['gtk+3', 'libusb']"
+size = "47828"
+usize = "157631"
+sha1sum = "76e266612293ef1a330d47cb208b517761baada2"
+depends = "['gtk+3', 'libusb1']"
 +++
 ### Description: 
 Application to reset many MS wireless mice models to stop excessive wheel scrolling
