@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "k3b 24.02.2-3"
-version = "24.02.2-3"
+title = "k3b 24.02.2-4"
+version = "24.02.2-4"
 description = "The CD Kreator"
-date = "2024-04-17T02:12:34"
+date = "2024-05-18T11:25:45"
 aliases = "/packages/218657"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11308656"
-usize = "35200970"
-sha1sum = "a8a30ab6ef2986d4f3033a89cffedbf9269a0a72"
-depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kcmutils5>=5.115.0', 'kfilemetadata5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'libdvdread>=6.1.1', 'libkcddb5>=24.02.2', 'libmad>=0.15.1b-9', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.12', 'qt5-webengine>=5.15.12']"
+size = "11302856"
+usize = "35158050"
+sha1sum = "3e449c337a4fdf5a5e6747ecfbd335ba2f2ccbf6"
+depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kcmutils5>=5.115.0', 'kfilemetadata5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'libdvdread>=6.1.1', 'libkcddb5>=24.02.2', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.12libmad>=0.15.1b-9']"
 +++
 ### Description: 
 The CD Kreator
@@ -150,7 +150,6 @@ The CD Kreator
 * /usr/lib/qt5/plugins/k3b_plugins/k3bflacdecoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3blameencoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3blibsndfiledecoder.so
-* /usr/lib/qt5/plugins/k3b_plugins/k3bmaddecoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3bmpcdecoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3boggvorbisdecoder.so
 * /usr/lib/qt5/plugins/k3b_plugins/k3boggvorbisencoder.so
