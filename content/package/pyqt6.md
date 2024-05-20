@@ -1,29 +1,29 @@
 +++
 draft = false
-title = "pyqt6 6.6.0-4"
-version = "6.6.0-4"
-description = "PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit."
-date = "2024-04-05T14:25:44"
+title = "pyqt6 6.7.0-1"
+version = "6.7.0-1"
+description = "PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit."
+date = "2024-05-20T18:53:19"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "3821364"
-usize = "27712850"
-sha1sum = "b7b44d084ccb584bebd3ed9141da93cdb525ae9d"
+size = "3909212"
+usize = "28355774"
+sha1sum = "adde341ec5011cedec511058d308dbf124bd19c2"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'pyqt6webengine', 'yin-yang']"
 +++
 ### Description: 
-PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
+PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 
 ### Files: 
 * /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt6.abi3.so
-* /usr/lib/python3.12/site-packages/PyQt6-6.6.0.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQt6-6.6.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQt6-6.6.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/PyQt6-6.7.0.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQt6-6.7.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt6-6.7.0.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -134,6 +134,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qpycore_qlist.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qpycore_qmap.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qpycore_qset.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qpycore_std_optional.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qpycore_std_pair.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qpycore_virtual_error_handler.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qrandom.sip
@@ -177,6 +178,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qtranslator.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qtransposeproxymodel.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qtversion.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qtyperevision.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qtypes.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qurl.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qurlquery.sip
@@ -187,6 +189,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qwaitcondition.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qwineventnotifier.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qxmlstream.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtCore/qyieldcpu.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtDBus/qdbusabstractadaptor.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtDBus/qdbusabstractinterface.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtDBus/qdbusargument.sip
@@ -360,6 +363,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qsoundeffect.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/QtMultimedia.toml
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/QtMultimediamod.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qtvideo.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideoframe.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideoframeformat.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideosink.sip
@@ -377,6 +381,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhstspolicy.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhttp1configuration.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhttp2configuration.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhttpheaders.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhttpmultipart.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qlocalserver.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qlocalsocket.sip
@@ -543,6 +548,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgrendernode.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgsimplerectnode.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgsimpletexturenode.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgtextnode.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgtexture.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgtexturematerial.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtQuick/qsgtextureprovider.sip
@@ -600,6 +606,7 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvg/qsvggenerator.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvg/qsvgrenderer.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvg/QtSvg.toml
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvg/qtsvgglobal.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvg/QtSvgmod.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvgWidgets/qgraphicssvgitem.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtSvgWidgets/qsvgwidget.sip
@@ -755,6 +762,24 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/lupdate/translation_file.py
 * /usr/lib/python3.12/site-packages/PyQt6/lupdate/user.py
 * /usr/lib/python3.12/site-packages/PyQt6/lupdate/__init__.py
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/designer_source.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/designer_source.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/lupdate.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/lupdate.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/pylupdate.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/pylupdate.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/python_source.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/python_source.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/source_file.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/source_file.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/translations.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/translations.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/translation_file.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/translation_file.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/user.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/user.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/lupdate/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/PyQt6/py.typed
 * /usr/lib/python3.12/site-packages/PyQt6/QtBluetooth.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt6/QtBluetooth.pyi
@@ -829,6 +854,22 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/qobjectcreator.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/qtproxies.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__init__.py
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/as_string.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/as_string.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/compiler.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/compiler.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/indenter.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/indenter.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/misc.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/misc.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/proxy_metaclass.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/proxy_metaclass.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/qobjectcreator.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/qobjectcreator.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/qtproxies.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/qtproxies.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Compiler/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/PyQt6/uic/compile_ui.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/enum_map.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/exceptions.py
@@ -836,6 +877,12 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/loader.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/qobjectcreator.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__init__.py
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__pycache__/loader.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__pycache__/loader.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__pycache__/qobjectcreator.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__pycache__/qobjectcreator.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/Loader/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/PyQt6/uic/load_ui.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/objcreator.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/properties.py
@@ -845,15 +892,54 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qaxcontainer.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qscintilla.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qtcharts.py
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qtopenglwidgets.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qtprintsupport.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qtquickwidgets.py
 * /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/qtwebenginewidgets.py
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qaxcontainer.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qaxcontainer.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qscintilla.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qscintilla.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtcharts.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtcharts.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtopenglwidgets.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtopenglwidgets.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtprintsupport.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtprintsupport.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtquickwidgets.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtquickwidgets.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtwebenginewidgets.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/widget-plugins/__pycache__/qtwebenginewidgets.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/PyQt6/uic/__init__.py
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/compile_ui.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/compile_ui.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/enum_map.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/enum_map.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/exceptions.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/exceptions.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/icon_cache.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/icon_cache.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/load_ui.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/load_ui.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/objcreator.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/objcreator.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/properties.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/properties.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/pyuic.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/pyuic.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/uiparser.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/uiparser.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/ui_file.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/ui_file.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/uic/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/PyQt6/__init__.py
+* /usr/lib/python3.12/site-packages/PyQt6/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/PyQt6/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/qt6/plugins/designer/libpyqt6.so
 * /usr/lib/qt6/plugins/PyQt6/libpyqt6qmlplugin.so
-* /usr/share/doc/pyqt6-6.6.0/ChangeLog
-* /usr/share/doc/pyqt6-6.6.0/LICENSE
-* /usr/share/doc/pyqt6-6.6.0/NEWS
-* /usr/share/doc/pyqt6-6.6.0/README
+* /usr/share/doc/pyqt6-6.7.0/ChangeLog
+* /usr/share/doc/pyqt6-6.7.0/LICENSE
+* /usr/share/doc/pyqt6-6.7.0/NEWS
+* /usr/share/doc/pyqt6-6.7.0/README.md
 * /usr/share/qt6/qsci/api/python/PyQt6.api

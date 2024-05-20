@@ -12,7 +12,7 @@ size = "208844"
 usize = "812315"
 sha1sum = "3b29125682b9b835092e3478e2b2684161fe2828"
 depends = "['qt6-base']"
-reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'cutemaze', 'discover', 'kaccounts-providers', 'kanagram', 'kapman', 'kapptemplate', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kbruch', 'kcron', 'kde-gtk-config', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdenlive', 'kdesdk-thumbnailers', 'kdiagram', 'kdiamond', 'keysmith', 'kfourinline', 'kgeography', 'kgoldrunner', 'khangman', 'kiconthemes', 'kile', 'killbots', 'kimageannotator', 'kirigami', 'kiriki', 'kpmcore', 'krecorder', 'kuserfeedback', 'kvirc', 'kxmlgui', 'ladybird', 'libkgapi', 'libkmahjongg', 'mkvtoolnix-gui', 'obs-studio', 'okular', 'plasmatube', 'qmlkonsole', 'qt6-sensors', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop', 'yakuake']"
+reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'calibre', 'cutemaze', 'discover', 'kaccounts-providers', 'kanagram', 'kapman', 'kapptemplate', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kbruch', 'kcron', 'kde-gtk-config', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdenlive', 'kdesdk-thumbnailers', 'kdiagram', 'kdiamond', 'keysmith', 'kfourinline', 'kgeography', 'kgoldrunner', 'khangman', 'kiconthemes', 'kile', 'killbots', 'kimageannotator', 'kirigami', 'kiriki', 'kpmcore', 'krecorder', 'kuserfeedback', 'kvirc', 'kxmlgui', 'ladybird', 'libkgapi', 'libkmahjongg', 'mkvtoolnix-gui', 'obs-studio', 'okular', 'plasmatube', 'qmlkonsole', 'qt6-sensors', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop', 'yakuake']"
 +++
 ### Description: 
 The Qt6 toolkit, qtsvg

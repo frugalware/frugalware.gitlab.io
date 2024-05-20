@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calibre 7.1.0-4"
-version = "7.1.0-4"
+title = "calibre 7.10.0-1"
+version = "7.10.0-1"
 description = "Ebook management application"
-date = "2024-04-05T13:30:00"
+date = "2024-05-20T19:02:19"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "27157796"
-usize = "67180328"
-sha1sum = "a95ee61067c05b971c6fdbe8d333aed8fab3a71a"
-depends = "['html5lib-python', 'hunspell', 'hyphen', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'uchardet']"
+size = "27865752"
+usize = "68242762"
+sha1sum = "717ab65934e50110e76a5685ced4300a01f8759c"
+depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=75.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
 Ebook management application
@@ -673,6 +673,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/__init__.py
 * /usr/lib/calibre/calibre/gui2/actions/add.py
 * /usr/lib/calibre/calibre/gui2/actions/add_to_library.py
+* /usr/lib/calibre/calibre/gui2/actions/all_actions.py
 * /usr/lib/calibre/calibre/gui2/actions/annotate.py
 * /usr/lib/calibre/calibre/gui2/actions/author_mapper.py
 * /usr/lib/calibre/calibre/gui2/actions/auto_scroll.py
@@ -731,6 +732,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/catalog/catalog_epub_mobi_ui.py
 * /usr/lib/calibre/calibre/gui2/catalog/catalog_tab_template_ui.py
 * /usr/lib/calibre/calibre/gui2/catalog/__init__.py
+* /usr/lib/calibre/calibre/gui2/central.py
 * /usr/lib/calibre/calibre/gui2/changes.py
 * /usr/lib/calibre/calibre/gui2/comments_editor.py
 * /usr/lib/calibre/calibre/gui2/complete2.py
@@ -825,7 +827,6 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/dialogs/comments_dialog.py
 * /usr/lib/calibre/calibre/gui2/dialogs/confirm_delete.py
 * /usr/lib/calibre/calibre/gui2/dialogs/confirm_delete_location.py
-* /usr/lib/calibre/calibre/gui2/dialogs/confirm_delete_location_ui.py
 * /usr/lib/calibre/calibre/gui2/dialogs/confirm_merge.py
 * /usr/lib/calibre/calibre/gui2/dialogs/conversion_error.py
 * /usr/lib/calibre/calibre/gui2/dialogs/conversion_error_ui.py
@@ -851,6 +852,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/dialogs/metadata_bulk_ui.py
 * /usr/lib/calibre/calibre/gui2/dialogs/multisort.py
 * /usr/lib/calibre/calibre/gui2/dialogs/opml.py
+* /usr/lib/calibre/calibre/gui2/dialogs/palette.py
 * /usr/lib/calibre/calibre/gui2/dialogs/password.py
 * /usr/lib/calibre/calibre/gui2/dialogs/password_ui.py
 * /usr/lib/calibre/calibre/gui2/dialogs/plugin_updater.py
@@ -1023,6 +1025,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/store/stores/amazon_fr_plugin.py
 * /usr/lib/calibre/calibre/gui2/store/stores/amazon_in_plugin.py
 * /usr/lib/calibre/calibre/gui2/store/stores/amazon_it_plugin.py
+* /usr/lib/calibre/calibre/gui2/store/stores/amazon_mx_plugin.py
 * /usr/lib/calibre/calibre/gui2/store/stores/amazon_plugin.py
 * /usr/lib/calibre/calibre/gui2/store/stores/amazon_uk_plugin.py
 * /usr/lib/calibre/calibre/gui2/store/stores/archive_org_plugin.py
@@ -1939,10 +1942,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.1.0/COPYRIGHT
-* /usr/share/doc/calibre-7.1.0/INSTALL.rst
-* /usr/share/doc/calibre-7.1.0/LICENSE
-* /usr/share/doc/calibre-7.1.0/README.md
+* /usr/share/doc/calibre-7.10.0/COPYRIGHT
+* /usr/share/doc/calibre-7.10.0/INSTALL.rst
+* /usr/share/doc/calibre-7.10.0/LICENSE
+* /usr/share/doc/calibre-7.10.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png
