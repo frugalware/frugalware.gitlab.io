@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freerdp 3.5.1-1"
-version = "3.5.1-1"
+title = "freerdp 3.5.1-2"
+version = "3.5.1-2"
 description = "Remote Desktop Protocol cliente"
-date = "2024-05-05T13:09:42"
+date = "2024-05-20T20:02:21"
 aliases = "/packages/136181"
 categories = ['xapps']
 upstreamurl = "https://www.freerdp.com/"
 arch = "x86_64"
-size = "2293908"
-usize = "8942000"
-sha1sum = "c3b320c57ef606c2ba7a00649a6c8bf5a60479bf"
-depends = "['ffmpeg', 'fuse3', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'sdl2_ttf']"
+size = "2296252"
+usize = "8972348"
+sha1sum = "bc0b9b0b9c3667bb7eddb8742c720ecbb7e1202d"
+depends = "['ffmpeg', 'fuse3', 'icu4c>=75.1', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
 reverse_depends = "['remmina-rdp']"
 +++
 ### Description: 

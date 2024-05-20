@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "49451496"
 usize = "160930369"
 sha1sum = "2e7f20f3a38c7bb271d0026b3d3dae92357a65a3"
-depends = "['alsa-lib', 'ffmpeg>=6.0', 'icu4c>=75.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.13.0', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxml2', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'nss>=3.26', 'opus', 'opus>=1.1.3-2', 'protobuf', 'qt5-declarative>=5.15.12', 'qt5-location>=5.15.12', 'qt5-webchannel>=5.15.12', 'snappy>=1.2.0', 'zlib>=1.2.12']"
+depends = "['alsa-lib', 'ffmpeg>=6.0', 'icu4c>=75.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.13.0', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxml2', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'nss>=3.26', 'opus>=1.1.3-2', 'opus', 'protobuf', 'qt5-declarative>=5.15.12', 'qt5-location>=5.15.12', 'qt5-webchannel>=5.15.12', 'snappy>=1.2.0', 'zlib>=1.2.12']"
 reverse_depends = "['babe', 'cantor', 'ghostwriter', 'kdevelop', 'kimagemapeditor', 'kio-extras-kf5', 'libksysguard5', 'libmarble', 'luminance-hdr', 'nmapsi4', 'otter-browser', 'pyqtwebengine', 'qsyncthingtray', 'qt5-webview', 'quassel', 'rkward', 'rolisteam', 'sigil', 'skrooge']"
 +++
 ### Description: 
