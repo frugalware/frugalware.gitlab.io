@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vte3 0.76.1-1"
-version = "0.76.1-1"
+title = "vte3 0.76.1-2"
+version = "0.76.1-2"
 description = "Virtual Terminal Emulator (gtk+4)"
-date = "2024-05-05T14:07:53"
+date = "2024-05-20T17:35:31"
 aliases = "/packages/118797"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "918372"
-usize = "5161802"
-sha1sum = "9512e54e10111ce08ce712ea7ba21b086903c348"
-depends = "['gobject-introspection>=1.60.0', 'gtk+4']"
+size = "886404"
+usize = "5004037"
+sha1sum = "667e0022627de349b9e1e7ddcdff0dd2df05bf43"
+depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=75.1']"
 reverse_depends = "['gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager', 'xcfa']"
 +++
 ### Description: 
@@ -67,104 +67,6 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/share/glade/catalogs/vte-2.91.xml
 * /usr/share/glade/pixmaps/hicolor/16x16/actions/widget-vte-terminal.png
 * /usr/share/glade/pixmaps/hicolor/22x22/actions/widget-vte-terminal.png
-* /usr/share/locale/ab/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/am/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/an/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ang/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ar/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/as/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ast/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/az/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/be/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/be@latin/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/bg/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/bn/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/bs/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ca/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ckb/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/cs/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/cy/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/da/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/de/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/dz/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/el/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/en@shaw/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/en_CA/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/eo/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/es/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/et/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/eu/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/fa/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/fi/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/fr/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/fur/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ga/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/gd/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/gl/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/gu/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/he/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/hi/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/hr/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/hu/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/id/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/is/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/it/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ja/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ka/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/kk/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/kn/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ko/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ku/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ky/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/li/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/lt/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/lv/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/mai/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/mi/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/mjw/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/mk/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ml/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/mn/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/mr/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ms/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/nb/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/nds/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ne/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/nl/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/nn/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/oc/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/or/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/pa/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/pl/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/pt/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ro/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ru/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/rw/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/si/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/sk/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/sl/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/sq/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/sr/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/sv/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ta/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/te/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/tg/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/th/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/tr/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/ug/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/uk/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/vi/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/wa/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/xh/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/vte-2.91.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/vte-2.91.mo
 * /usr/share/vala/vapi/vte-2.91-gtk4.deps
 * /usr/share/vala/vapi/vte-2.91-gtk4.vapi
 * /usr/share/vala/vapi/vte-2.91.deps
