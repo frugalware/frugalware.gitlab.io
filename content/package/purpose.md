@@ -12,7 +12,7 @@ size = "303348"
 usize = "1650587"
 sha1sum = "7ded111c875662f3bd4675ee2f808bfdd8261f5e"
 depends = "['accounts-qml-module', 'kconfig>=6.1.0', 'kcoreaddons>=6.1.0', 'kdeclarative>=6.1.0', 'ki18n>=6.1.0', 'kio>=6.1.0', 'kirigami>=6.1.0']"
-reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'gwenview', 'kdenlive', 'kdeplasma-addons', 'kdeplasma-addons5', 'okular', 'pimcommon', 'plasma-browser-integration', 'plasmatube', 'skanpage', 'spectacle', 'tokodon']"
+reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'gwenview', 'kdenlive', 'kdeplasma-addons', 'okular', 'pimcommon', 'plasma-browser-integration', 'plasmatube', 'skanpage', 'spectacle', 'tokodon']"
 +++
 ### Description: 
 Offers the possibility to create integrate services and actions on any application.

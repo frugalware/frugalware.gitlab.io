@@ -12,7 +12,7 @@ size = "151432"
 usize = "604320"
 sha1sum = "9409aebce592a815e44c061937f4617364521ab6"
 depends = "['karchive>=6.1.0', 'kconfigwidgets>=6.1.0', 'kitemviews>=6.1.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
-reverse_depends = "['breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdesignerplugin', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style', 'user-kcm']"
+reverse_depends = "['breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdesignerplugin', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 
 Icon GUI utilities.

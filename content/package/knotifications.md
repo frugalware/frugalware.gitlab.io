@@ -12,7 +12,7 @@ size = "105084"
 usize = "366733"
 sha1sum = "36250a2a2302e009809d7dd7937993ce224e910f"
 depends = "['kiconthemes>=6.1.0', 'kservice>=6.1.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.7.0']"
-reverse_depends = "['dolphin', 'itinerary', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'kwrited5', 'plasma-browser-integration', 'tokodon', 'user-kcm', 'wacomtablet', 'xwaylandvideobridge']"
+reverse_depends = "['dolphin', 'itinerary', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'kwrited5', 'plasma-browser-integration', 'tokodon', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 
 KDE Desktop notifications.

@@ -12,7 +12,6 @@ size = "373908"
 usize = "1905021"
 sha1sum = "9794ec1eb32ccb4f470709581d4e4ac20077cc28"
 depends = "['kparts>=5.115.0']"
-reverse_depends = "['kdeplasma-addons5']"
 +++
 ### Description: 
 Embedding of scripting into applications.

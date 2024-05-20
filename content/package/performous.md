@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "performous 1.2.0-8"
-version = "1.2.0-8"
+title = "performous 1.2.0-9"
+version = "1.2.0-9"
 description = "PerformousThe free Linux karaoke game"
-date = "2024-02-17T21:38:19"
+date = "2024-05-20T20:12:34"
 aliases = "/packages/217751"
 categories = ['games-extra']
 upstreamurl = "http://performous.org/"
 arch = "x86_64"
-size = "4443536"
-usize = "9125153"
-sha1sum = "3e0824ece87e8b02212901952b167b334b8e6dd7"
+size = "4395364"
+usize = "8876999"
+sha1sum = "b0a0becfc054fb98430294ba2619f46bd1c4fddd"
 depends = "['aubio', 'fmtlib', 'glm', 'libboost>=1.83.0', 'libepoxy', 'libxml++2', 'nlohmann-json', 'openblas', 'opencv>=4.9.0', 'performous-songs', 'portaudio', 'portmidi']"
 +++
 ### Description: 
@@ -205,20 +205,4 @@ PerformousThe free Linux karaoke game
 * /usr/share/games/performous/themes/default/www/search.html
 * /usr/share/games/performous/xsl/songlist-to-tex.xsl
 * /usr/share/games/performous/xsl/songlist-to-xhtml.xsl
-* /usr/share/locale/ast/LC_MESSAGES/Performous.mo
-* /usr/share/locale/da/LC_MESSAGES/Performous.mo
-* /usr/share/locale/de/LC_MESSAGES/Performous.mo
-* /usr/share/locale/es/LC_MESSAGES/Performous.mo
-* /usr/share/locale/fa/LC_MESSAGES/Performous.mo
-* /usr/share/locale/fi/LC_MESSAGES/Performous.mo
-* /usr/share/locale/fr/LC_MESSAGES/Performous.mo
-* /usr/share/locale/hu/LC_MESSAGES/Performous.mo
-* /usr/share/locale/it/LC_MESSAGES/Performous.mo
-* /usr/share/locale/ja/LC_MESSAGES/Performous.mo
-* /usr/share/locale/nl/LC_MESSAGES/Performous.mo
-* /usr/share/locale/pl/LC_MESSAGES/Performous.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/Performous.mo
-* /usr/share/locale/sk/LC_MESSAGES/Performous.mo
-* /usr/share/locale/sv/LC_MESSAGES/Performous.mo
-* /usr/share/locale/zh/LC_MESSAGES/Performous.mo
 * /usr/share/pixmaps/performous.svg
