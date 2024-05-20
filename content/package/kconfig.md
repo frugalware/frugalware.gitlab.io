@@ -12,7 +12,7 @@ size = "392332"
 usize = "1796332"
 sha1sum = "fcc701b8b16a62820a536ee9898f45d570721711"
 depends = "['qt6-base>=6.7.0']"
-reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesignerplugin', 'kglobalacceld', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'libkscreen5', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'sweeper']"
+reverse_depends = "['akonadi-mime', 'alligator', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'kalk', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdesignerplugin', 'kglobalacceld', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'libkscreen5', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'sweeper']"
 +++
 ### Description: 
 Provides an advanced configuration system.

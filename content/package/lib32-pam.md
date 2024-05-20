@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "158532"
 usize = "648767"
 sha1sum = "3012666e17d749ad2a3e58d8c3968f9f987d43dc"
-depends = "['lib32-db>=18.1.32-2', 'lib32-libsystemd', 'lib32-libxcrypt']"
+depends = "['lib32-libsystemd', 'lib32-libxcrypt']"
 reverse_depends = "['lib32-libcups', 'lib32-polkit', 'lib32-util-linux', 'lib32-xorg-server']"
 +++
 ### Description: 

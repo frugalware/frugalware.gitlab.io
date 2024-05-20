@@ -12,7 +12,7 @@ size = "14332"
 usize = "41893"
 sha1sum = "17391606505e3e8d9298a3ef310662b282353e2a"
 depends = "['qt5-base>=5.15.13']"
-reverse_depends = "['kconfigwidgets5', 'kdbusaddons5', 'kdeplasma-addons5', 'keepassxc', 'kguiaddons5', 'kidletime5', 'kjobwidgets5', 'kwindowsystem5', 'kxmlgui5', 'libkipi', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'pinentry-qt5', 'qownnotes', 'qqc2-desktop-style5', 'qterminal', 'qtractor', 'ssr', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
+reverse_depends = "['kconfigwidgets5', 'kdbusaddons5', 'keepassxc', 'kguiaddons5', 'kidletime5', 'kjobwidgets5', 'kwindowsystem5', 'kxmlgui5', 'libkipi', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'pinentry-qt5', 'qownnotes', 'qqc2-desktop-style5', 'qterminal', 'qtractor', 'ssr', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtx11extras

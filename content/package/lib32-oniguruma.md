@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-oniguruma 6.9.9-1"
-version = "6.9.9-1"
+title = "lib32-oniguruma 6.9.9-2"
+version = "6.9.9-2"
 description = "A regular expressions library ( 32bit )"
-date = "2024-05-17T14:12:17"
+date = "2024-05-20T21:21:52"
 aliases = "/packages/221476"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/kkos/oniguruma"
 arch = "x86_64"
-size = "157400"
+size = "158032"
 usize = "652160"
-sha1sum = "7e5bcf9be7b6f5afcb1e8fb82deda98f49510cf3"
+sha1sum = "5abec90ba0d76087d0957059df03a60420511cde"
 depends = "[]"
 reverse_depends = "['lib32-slang']"
 +++

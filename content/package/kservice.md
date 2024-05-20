@@ -12,7 +12,7 @@ size = "210308"
 usize = "668604"
 sha1sum = "a7a966666a7ae78ae91212ba43351baba06470dc"
 depends = "['kconfig>=6.1.0', 'kcrash>=6.1.0', 'kdbusaddons>=6.1.0', 'ki18n>=6.1.0']"
-reverse_depends = "['kded', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdesu', 'kemoticons', 'kglobalaccel', 'knotifications', 'ktextwidgets', 'kwin']"
+reverse_depends = "['kded', 'kdeplasma-addons', 'kdesu', 'kemoticons', 'kglobalaccel', 'knotifications', 'ktextwidgets', 'kwin']"
 +++
 ### Description: 
 Plugin framework for desktop services.

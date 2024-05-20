@@ -12,7 +12,7 @@ size = "241796"
 usize = "1124830"
 sha1sum = "b8afbe6e7bbb80e1db18a5e7447610a6f525f7b7"
 depends = "['kdeclarative>=6.1.0']"
-reverse_depends = "['akonadi-search', 'audiocd-kio', 'bluedevil', 'bluedevil5', 'breeze', 'colord-kde', 'discover', 'dolphin', 'drkonqi', 'kaccounts-integration', 'kamera', 'kcron', 'kde-cli-tools', 'kde-gtk-config', 'kdeconnect-kde', 'kdeplasma-addons', 'kdeplasma-addons5', 'kdf', 'kgamma', 'kget', 'khelpcenter', 'khelpcenter5', 'kinfocenter', 'kinfocenter5', 'kio-extras', 'kleopatra', 'kmailtransport', 'knemo', 'konqueror', 'kup', 'kwin', 'libkcddb', 'libplasma', 'parley', 'plasma-desktop', 'plasma-disks', 'plasma-pa', 'plasma-settings', 'plasma-thunderbolt', 'plasma-workspace', 'sddm-kcm', 'systemsettings', 'wacomtablet']"
+reverse_depends = "['akonadi-search', 'audiocd-kio', 'bluedevil', 'bluedevil5', 'breeze', 'colord-kde', 'discover', 'dolphin', 'drkonqi', 'kaccounts-integration', 'kamera', 'kcron', 'kde-cli-tools', 'kde-gtk-config', 'kdeconnect-kde', 'kdeplasma-addons', 'kdf', 'kgamma', 'kget', 'khelpcenter', 'khelpcenter5', 'kinfocenter', 'kinfocenter5', 'kio-extras', 'kleopatra', 'kmailtransport', 'knemo', 'konqueror', 'kup', 'kwin', 'libkcddb', 'libplasma', 'parley', 'plasma-desktop', 'plasma-disks', 'plasma-pa', 'plasma-settings', 'plasma-thunderbolt', 'plasma-workspace', 'sddm-kcm', 'systemsettings', 'wacomtablet']"
 +++
 ### Description: 
 Utilities for interacting with KCModules.
