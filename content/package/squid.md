@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "squid 6.6-3"
-version = "6.6-3"
+title = "squid 6.9-1"
+version = "6.9-1"
 description = "Squid Web Proxy Cache"
-date = "2024-02-02T17:13:53"
+date = "2024-05-21T17:19:38"
 aliases = "/packages/4064"
 categories = ['network-extra']
 upstreamurl = "http://www.squid-cache.org/"
 arch = "x86_64"
-size = "2621560"
-usize = "8393760"
-sha1sum = "b1fff9eed0a05b0aba6e4c8e2ba569987f4f5ccb"
+size = "2658340"
+usize = "8523374"
+sha1sum = "a8c82154475bee3e5cd121ca38dd0439089a22f1"
 depends = "['dcron', 'gnutls', 'libtool', 'libxcrypt', 'nettle>=3.6']"
 +++
 ### Description: 
@@ -46,7 +46,6 @@ Squid Web Proxy Cache
 * /usr/lib/ext_delayer_acl
 * /usr/lib/ext_file_userip_acl
 * /usr/lib/ext_kerberos_sid_group_acl
-* /usr/lib/ext_session_acl
 * /usr/lib/ext_sql_session_acl
 * /usr/lib/ext_unix_group_acl
 * /usr/lib/ext_wbinfo_group_acl
@@ -63,13 +62,13 @@ Squid Web Proxy Cache
 * /usr/lib/url_fake_rewrite
 * /usr/lib/url_fake_rewrite.sh
 * /usr/lib/url_lfs_rewrite
-* /usr/share/doc/squid-6.6/ChangeLog
-* /usr/share/doc/squid-6.6/CONTRIBUTORS
-* /usr/share/doc/squid-6.6/COPYING
-* /usr/share/doc/squid-6.6/CREDITS
-* /usr/share/doc/squid-6.6/INSTALL
-* /usr/share/doc/squid-6.6/README
-* /usr/share/doc/squid-6.6/RELEASENOTES.html
+* /usr/share/doc/squid-6.9/ChangeLog
+* /usr/share/doc/squid-6.9/CONTRIBUTORS
+* /usr/share/doc/squid-6.9/COPYING
+* /usr/share/doc/squid-6.9/CREDITS
+* /usr/share/doc/squid-6.9/INSTALL
+* /usr/share/doc/squid-6.9/README
+* /usr/share/doc/squid-6.9/RELEASENOTES.html
 * /usr/share/man/man1/purge.1.gz
 * /usr/share/man/man1/squidclient.1.gz
 * /usr/share/man/man8/basic_db_auth.8.gz
@@ -83,7 +82,6 @@ Squid Web Proxy Cache
 * /usr/share/man/man8/ext_delayer_acl.8.gz
 * /usr/share/man/man8/ext_file_userip_acl.8.gz
 * /usr/share/man/man8/ext_kerberos_sid_group_acl.8.gz
-* /usr/share/man/man8/ext_session_acl.8.gz
 * /usr/share/man/man8/ext_sql_session_acl.8.gz
 * /usr/share/man/man8/ext_unix_group_acl.8.gz
 * /usr/share/man/man8/ext_wbinfo_group_acl.8.gz
