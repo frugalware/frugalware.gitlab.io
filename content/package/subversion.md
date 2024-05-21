@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "subversion 1.14.3-1"
-version = "1.14.3-1"
+title = "subversion 1.14.3-2"
+version = "1.14.3-2"
 description = "A version control system that is a compelling replacement for CVS."
-date = "2024-01-14T11:03:28"
+date = "2024-05-21T17:06:25"
 aliases = "/packages/3844"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
-size = "3210728"
-usize = "12793783"
-sha1sum = "54a01fc2521dcb032f0b9636720ae2e788f86ed7"
+size = "2530588"
+usize = "9034999"
+sha1sum = "cc725b975bfce7c9446d8312ad13ba2744b07161"
 depends = "['file>=5.25-3', 'serf>=1.3.9-4', 'utf8proc']"
 reverse_depends = "['mod_svn', 'subversion-bindings', 'subversion-svnserve']"
 +++
@@ -88,9 +88,6 @@ A version control system that is a compelling replacement for CVS.
 * /usr/lib/libsvn_fs-1.so
 * /usr/lib/libsvn_fs-1.so.0
 * /usr/lib/libsvn_fs-1.so.0.0.0
-* /usr/lib/libsvn_fs_base-1.so
-* /usr/lib/libsvn_fs_base-1.so.0
-* /usr/lib/libsvn_fs_base-1.so.0.0.0
 * /usr/lib/libsvn_fs_fs-1.so
 * /usr/lib/libsvn_fs_fs-1.so.0
 * /usr/lib/libsvn_fs_fs-1.so.0.0.0
@@ -125,7 +122,6 @@ A version control system that is a compelling replacement for CVS.
 * /usr/lib/pkgconfig/libsvn_delta.pc
 * /usr/lib/pkgconfig/libsvn_diff.pc
 * /usr/lib/pkgconfig/libsvn_fs.pc
-* /usr/lib/pkgconfig/libsvn_fs_base.pc
 * /usr/lib/pkgconfig/libsvn_fs_fs.pc
 * /usr/lib/pkgconfig/libsvn_fs_util.pc
 * /usr/lib/pkgconfig/libsvn_fs_x.pc
@@ -137,7 +133,6 @@ A version control system that is a compelling replacement for CVS.
 * /usr/lib/pkgconfig/libsvn_subr.pc
 * /usr/lib/pkgconfig/libsvn_wc.pc
 * /usr/share/doc/subversion-1.14.3/BUGS
-* /usr/share/doc/subversion-1.14.3/CHANGELOG
 * /usr/share/doc/subversion-1.14.3/CHANGES
 * /usr/share/doc/subversion-1.14.3/doc/doxygen.conf
 * /usr/share/doc/subversion-1.14.3/doc/programmer/WritingChangeLogs.txt
@@ -149,20 +144,6 @@ A version control system that is a compelling replacement for CVS.
 * /usr/share/doc/subversion-1.14.3/INSTALL
 * /usr/share/doc/subversion-1.14.3/LICENSE
 * /usr/share/doc/subversion-1.14.3/README
-* /usr/share/doc/subversion-1.14.3/README.Frugalware
-* /usr/share/doc/subversion-1.14.3/RELEASE.NOTES
-* /usr/share/locale/de/LC_MESSAGES/subversion.mo
-* /usr/share/locale/es/LC_MESSAGES/subversion.mo
-* /usr/share/locale/fr/LC_MESSAGES/subversion.mo
-* /usr/share/locale/it/LC_MESSAGES/subversion.mo
-* /usr/share/locale/ja/LC_MESSAGES/subversion.mo
-* /usr/share/locale/ko/LC_MESSAGES/subversion.mo
-* /usr/share/locale/nb/LC_MESSAGES/subversion.mo
-* /usr/share/locale/pl/LC_MESSAGES/subversion.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/subversion.mo
-* /usr/share/locale/sv/LC_MESSAGES/subversion.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/subversion.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/subversion.mo
 * /usr/share/man/man1/svn.1.gz
 * /usr/share/man/man1/svnadmin.1.gz
 * /usr/share/man/man1/svndumpfilter.1.gz
