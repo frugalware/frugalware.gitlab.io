@@ -12,7 +12,7 @@ size = "11444"
 usize = "15881"
 sha1sum = "8faeb5d841143878edb5b706cde4a97adb67efd4"
 depends = "['icu4c>=75.1']"
-reverse_depends = "['webkit-gtk3']"
+reverse_depends = "['scribus', 'webkit-gtk3']"
 +++
 ### Description: 
 Is an implementation of the OpenType Layout engine. ICU

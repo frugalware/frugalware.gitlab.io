@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gdal 3.7.3-1"
-version = "3.7.3-1"
+title = "gdal 3.9.0-1"
+version = "3.9.0-1"
 description = "GDAL - a translator library for raster geospatial data formats"
-date = "2023-11-07T14:32:55"
+date = "2024-05-21T20:50:52"
 aliases = "/packages/5175"
 categories = ['apps-extra']
 upstreamurl = "http://www.gdal.org/"
 arch = "x86_64"
-size = "7392784"
-usize = "26348876"
-sha1sum = "771d4ca2ddaea3c899ba12c58134afa3f77ac647"
-depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c', 'json-c>=0.14', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.9.4-3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=8.0.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
+size = "8486196"
+usize = "29918805"
+sha1sum = "c434625846d0a793d380da97c3204c1860a7060d"
+depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c>=0.14', 'json-c', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.9.4-3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=9.4.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
 reverse_depends = "['hexer', 'liblas', 'opencv', 'scribus']"
 license = "Warmerdam"
 +++
@@ -35,6 +35,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/bin/gdalwarp
 * /usr/bin/gdal_contour
 * /usr/bin/gdal_create
+* /usr/bin/gdal_footprint
 * /usr/bin/gdal_grid
 * /usr/bin/gdal_rasterize
 * /usr/bin/gdal_translate
@@ -61,9 +62,6 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/include/cpl_json.h
 * /usr/include/cpl_list.h
 * /usr/include/cpl_minixml.h
-* /usr/include/cpl_minizip_ioapi.h
-* /usr/include/cpl_minizip_unzip.h
-* /usr/include/cpl_minizip_zip.h
 * /usr/include/cpl_multiproc.h
 * /usr/include/cpl_odbc.h
 * /usr/include/cpl_port.h
@@ -84,6 +82,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/include/gdaljp2abstractdataset.h
 * /usr/include/gdaljp2metadata.h
 * /usr/include/gdalpansharpen.h
+* /usr/include/gdalsubdatasetinfo.h
 * /usr/include/gdalwarper.h
 * /usr/include/gdal_alg.h
 * /usr/include/gdal_alg_priv.h
@@ -108,6 +107,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/include/ogr_feature.h
 * /usr/include/ogr_featurestyle.h
 * /usr/include/ogr_geocoding.h
+* /usr/include/ogr_geomcoordinateprecision.h
 * /usr/include/ogr_geometry.h
 * /usr/include/ogr_p.h
 * /usr/include/ogr_recordbatch.h
@@ -122,8 +122,8 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/lib/cmake/gdal/GDALConfigVersion.cmake
 * /usr/lib/gdalplugins/drivers.ini
 * /usr/lib/libgdal.so
-* /usr/lib/libgdal.so.33
-* /usr/lib/libgdal.so.33.3.7.3
+* /usr/lib/libgdal.so.35
+* /usr/lib/libgdal.so.35.3.9.0
 * /usr/lib/pkgconfig/gdal.pc
 * /usr/share/bash-completion/completions/gdal-config
 * /usr/share/bash-completion/completions/gdal2tiles.py
@@ -163,10 +163,9 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/bash-completion/completions/ogrlineref
 * /usr/share/bash-completion/completions/ogrmerge.py
 * /usr/share/bash-completion/completions/ogrtindex
-* /usr/share/doc/gdal-3.7.3/HOWTO-RELEASE
-* /usr/share/doc/gdal-3.7.3/README.md
-* /usr/share/doc/gdal-3.7.3/VERSION
-* /usr/share/gdal/bag_template.xml
+* /usr/share/doc/gdal-3.9.0/HOWTO-RELEASE
+* /usr/share/doc/gdal-3.9.0/README.md
+* /usr/share/doc/gdal-3.9.0/VERSION
 * /usr/share/gdal/cubewerx_extra.wkt
 * /usr/share/gdal/default.rsc
 * /usr/share/gdal/ecw_cs.wkt
@@ -179,10 +178,9 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/GDALLogoColor.svg
 * /usr/share/gdal/GDALLogoGS.svg
 * /usr/share/gdal/gdalmdiminfo_output.schema.json
+* /usr/share/gdal/gdaltileindex.xsd
 * /usr/share/gdal/gdalvrt.xsd
 * /usr/share/gdal/gfs.xsd
-* /usr/share/gdal/gmlasconf.xml
-* /usr/share/gdal/gmlasconf.xsd
 * /usr/share/gdal/gml_registry.xml
 * /usr/share/gdal/gml_registry.xsd
 * /usr/share/gdal/grib2_center.csv
@@ -285,7 +283,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/jpfgdgml_WStrA.gfs
 * /usr/share/gdal/jpfgdgml_WStrL.gfs
 * /usr/share/gdal/LICENSE.TXT
-* /usr/share/gdal/netcdf_config.xsd
+* /usr/share/gdal/MM_m_idofic.csv
 * /usr/share/gdal/nitf_spec.xml
 * /usr/share/gdal/nitf_spec.xsd
 * /usr/share/gdal/ogrinfo_output.schema.json
@@ -309,7 +307,6 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/seed_2d.dgn
 * /usr/share/gdal/seed_3d.dgn
 * /usr/share/gdal/stateplane.csv
-* /usr/share/gdal/template_tiles.mapml
 * /usr/share/gdal/tms_LINZAntarticaMapTileGrid.json
 * /usr/share/gdal/tms_MapML_APSTILE.json
 * /usr/share/gdal/tms_MapML_CBMTILE.json
@@ -339,6 +336,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/man/man1/gdal_create.1.gz
 * /usr/share/man/man1/gdal_edit.1.gz
 * /usr/share/man/man1/gdal_fillnodata.1.gz
+* /usr/share/man/man1/gdal_footprint.1.gz
 * /usr/share/man/man1/gdal_grid.1.gz
 * /usr/share/man/man1/gdal_merge.1.gz
 * /usr/share/man/man1/gdal_pansharpen.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hexer 1.4.0-6"
-version = "1.4.0-6"
+title = "hexer 1.4.0-7"
+version = "1.4.0-7"
 description = "LAS and OGR hexagonal density and boundary surface generation"
-date = "2023-09-05T18:05:18"
+date = "2024-05-21T21:04:35"
 aliases = "/packages/220254"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/hobu/hexer"
 arch = "x86_64"
-size = "72284"
-usize = "218550"
-sha1sum = "158709bb19f7a271f9a4266dff0a305147f202e2"
+size = "72700"
+usize = "222638"
+sha1sum = "b1e257fcef24431f55f93dc919e1a410f4ba1095"
 depends = "['gdal>=3.7.1']"
 reverse_depends = "['pdal']"
 +++

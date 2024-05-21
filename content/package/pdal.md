@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pdal 2.6.3-1"
-version = "2.6.3-1"
+title = "pdal 2.7.1-1"
+version = "2.7.1-1"
 description = "A C++ library for translating and manipulating point cloud data"
-date = "2024-02-23T10:20:58"
+date = "2024-05-21T20:54:08"
 aliases = "/packages/220256"
 categories = ['lib-extra']
 upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
-size = "2081552"
-usize = "7851776"
-sha1sum = "4e9fdad5663d5a6907d70331a8f4f7b6c038595e"
+size = "2155144"
+usize = "8157035"
+sha1sum = "6f6d2223af4ec166e5585d254e831842779a6e93"
 depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'openscenegraph', 'zstd']"
 reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
@@ -61,7 +61,9 @@ A C++ library for translating and manipulating point cloud data
 * /usr/include/pdal/filters/GeoreferenceFilter.hpp
 * /usr/include/pdal/filters/GpsTimeConvert.hpp
 * /usr/include/pdal/filters/GreedyProjection.hpp
+* /usr/include/pdal/filters/GridDecimationFilter.hpp
 * /usr/include/pdal/filters/GroupByFilter.hpp
+* /usr/include/pdal/filters/H3Filter.hpp
 * /usr/include/pdal/filters/HagDelaunayFilter.hpp
 * /usr/include/pdal/filters/HagDemFilter.hpp
 * /usr/include/pdal/filters/HagNnFilter.hpp
@@ -139,6 +141,7 @@ A C++ library for translating and manipulating point cloud data
 * /usr/include/pdal/filters/SkewnessBalancingFilter.hpp
 * /usr/include/pdal/filters/SMRFilter.hpp
 * /usr/include/pdal/filters/SortFilter.hpp
+* /usr/include/pdal/filters/SparseSurfaceFilter.hpp
 * /usr/include/pdal/filters/SplitterFilter.hpp
 * /usr/include/pdal/filters/StatsFilter.hpp
 * /usr/include/pdal/filters/StraightenFilter.hpp
@@ -219,10 +222,12 @@ A C++ library for translating and manipulating point cloud data
 * /usr/include/pdal/io/private/esri/Obb.hpp
 * /usr/include/pdal/io/private/esri/PageManager.hpp
 * /usr/include/pdal/io/private/GDALGrid.hpp
+* /usr/include/pdal/io/private/las/ChunkInfo.hpp
 * /usr/include/pdal/io/private/las/Geotiff.hpp
 * /usr/include/pdal/io/private/las/Header.hpp
 * /usr/include/pdal/io/private/las/Srs.hpp
 * /usr/include/pdal/io/private/las/Summary.hpp
+* /usr/include/pdal/io/private/las/Tile.hpp
 * /usr/include/pdal/io/private/las/Utils.hpp
 * /usr/include/pdal/io/private/las/Vlr.hpp
 * /usr/include/pdal/io/private/stac/Catalog.hpp
@@ -342,13 +347,13 @@ A C++ library for translating and manipulating point cloud data
 * /usr/lib/cmake/PDAL/PDALTargets.cmake
 * /usr/lib/cmake/PDAL/pluginmacros.cmake
 * /usr/lib/libpdalcpp.so
-* /usr/lib/libpdalcpp.so.16
-* /usr/lib/libpdalcpp.so.16.3.0
+* /usr/lib/libpdalcpp.so.17
+* /usr/lib/libpdalcpp.so.17.0.0
 * /usr/lib/libpdal_plugin_kernel_fauxplugin.so
-* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.16
-* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.16.3.0
+* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17
+* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17.0.0
 * /usr/lib/pkgconfig/pdal.pc
 * /usr/share/bash-completion/completions/pdal
-* /usr/share/doc/pdal-2.6.3/HOWTORELEASE.txt
-* /usr/share/doc/pdal-2.6.3/README.md
-* /usr/share/doc/pdal-2.6.3/RELEASENOTES.txt
+* /usr/share/doc/pdal-2.7.1/HOWTORELEASE.txt
+* /usr/share/doc/pdal-2.7.1/README.md
+* /usr/share/doc/pdal-2.7.1/RELEASENOTES.txt

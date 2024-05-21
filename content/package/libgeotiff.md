@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgeotiff 1.7.1-1"
-version = "1.7.1-1"
+title = "libgeotiff 1.7.1-2"
+version = "1.7.1-2"
 description = "A TIFF based interchange format for georeferenced raster imagery"
-date = "2023-07-28T14:29:27"
+date = "2024-05-21T20:59:23"
 aliases = "/packages/220255"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/OSGeo/libgeotiff"
 arch = "x86_64"
-size = "86964"
+size = "85696"
 usize = "424032"
-sha1sum = "22769d79abb9fb23a10d94ecfcb0338c0ad7e2b8"
-depends = "['libtiff', 'proj>=8.0.0']"
+sha1sum = "c850f84bef91293dc4b3454978d6957bcbc4afb9"
+depends = "['libtiff', 'proj>=9.4.0']"
 reverse_depends = "['liblas', 'pdal']"
 +++
 ### Description: 
