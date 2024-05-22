@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lapack 3.12.0-6"
-version = "3.12.0-6"
+title = "lapack 3.12.0-7"
+version = "3.12.0-7"
 description = "Linear Algebra PACKage."
-date = "2024-05-22T07:47:22"
+date = "2024-05-22T10:01:44"
 aliases = "/packages/9231"
 categories = ['lib']
 upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
-size = "2616048"
+size = "2616476"
 usize = "9666631"
-sha1sum = "eee19cbeacadf80e15c595debead1a428dfe4b46"
+sha1sum = "86cd94f3f223d2579c056f9ebfb901082dba9e5f"
 depends = "['libblas', 'libgfortran>=11.2']"
 reverse_depends = "['coin-or-coinutils', 'dlib', 'julia', 'liblapacke', 'liblapacke64', 'octave', 'r', 'sphinxbase', 'suitesparse']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lapack64 3.12.0-6"
-version = "3.12.0-6"
+title = "lapack64 3.12.0-7"
+version = "3.12.0-7"
 description = "Linear Algebra PACKage. (64-bit)"
-date = "2024-05-22T07:47:22"
+date = "2024-05-22T10:01:44"
 aliases = "/packages/221236"
 categories = ['lib']
 upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
-size = "2435980"
+size = "2437172"
 usize = "7992892"
-sha1sum = "799dc14b84cd308d89d76b8093256b97d7e0156c"
+sha1sum = "7742bfe0fffd123ce61e53efad63d596155b6f9c"
 depends = "['libgfortran>=11.2']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "85696"
 usize = "424032"
 sha1sum = "c850f84bef91293dc4b3454978d6957bcbc4afb9"
 depends = "['libtiff', 'proj>=9.4.0']"
-reverse_depends = "['liblas', 'pdal']"
+reverse_depends = "['pdal']"
 +++
 ### Description: 
 A TIFF based interchange format for georeferenced raster imagery

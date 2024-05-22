@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-java-mysql 9.3.0-7"
-version = "9.3.0-7"
+title = "vtk-java-mysql 9.3.0-8"
+version = "9.3.0-8"
 description = "Java MySql interface and bindings for vtk"
-date = "2024-05-21T21:59:59"
+date = "2024-05-22T09:00:18"
 aliases = "/packages/219047"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "12140"
+size = "12180"
 usize = "34592"
-sha1sum = "918b1a73ae1c50ce51048962a8d36d884e369ddc"
+sha1sum = "3e309d3b1308ee784ad3f8f5732a3f8f721ec985"
 depends = "['vtk>=9.3.0', 'vtk-java>=9.3.0', 'vtk-mysql>=9.3.0']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-python3 9.3.0-7"
-version = "9.3.0-7"
+title = "vtk-python3 9.3.0-8"
+version = "9.3.0-8"
 description = "Python interface and bindings for vtk"
-date = "2024-05-21T21:59:59"
+date = "2024-05-22T09:00:18"
 aliases = "/packages/220826"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "6861124"
-usize = "51852660"
-sha1sum = "ecc602c39f77cffee002b604022958e8c4794117"
+size = "6860528"
+usize = "51829434"
+sha1sum = "6738c425be0c5c647a61783dc57644e072de4dd8"
 depends = "['libxt', 'python3-six', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl']"
 +++
@@ -163,7 +163,6 @@ Python interface and bindings for vtk
 * /usr/lib/python3.12/site-packages/vtkmodules/vtkIOImport.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/vtkmodules/vtkIOInfovis.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/vtkmodules/vtkIOIOSS.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/vtkmodules/vtkIOLAS.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/vtkmodules/vtkIOLegacy.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/vtkmodules/vtkIOLSDyna.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/vtkmodules/vtkIOMINC.cpython-312-x86_64-linux-gnu.so

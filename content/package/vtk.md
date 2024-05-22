@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vtk 9.3.0-7"
-version = "9.3.0-7"
+title = "vtk 9.3.0-8"
+version = "9.3.0-8"
 description = "Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization."
-date = "2024-05-21T21:59:59"
+date = "2024-05-22T09:00:18"
 aliases = "/packages/219042"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "39479860"
-usize = "209613282"
-sha1sum = "bc95747af32f8d71de44189793069f9e5e90406f"
-depends = "['adios2', 'libboost', 'liblas', 'openslide>=4.0.0', 'openturns>=1.22', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.6.1', 'postgresql']"
+size = "39505672"
+usize = "209389934"
+sha1sum = "09c0cbaeddde6085153a32841d311a546297369b"
+depends = "['adios2', 'libboost', 'openslide>=4.0.0', 'openturns>=1.22', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.6.1', 'postgresql']"
 reverse_depends = "['opencascade', 'opencv', 'vtk-ffmpeg', 'vtk-java', 'vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-mysql', 'vtk-python3', 'vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl', 'vtk-qt5']"
 license = "GPL-2"
 +++
@@ -339,9 +339,6 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/lib/libvtkIOIOSS.so
 * /usr/lib/libvtkIOIOSS.so.1
 * /usr/lib/libvtkIOIOSS.so.9.3
-* /usr/lib/libvtkIOLAS.so
-* /usr/lib/libvtkIOLAS.so.1
-* /usr/lib/libvtkIOLAS.so.9.3
 * /usr/lib/libvtkIOLegacy.so
 * /usr/lib/libvtkIOLegacy.so.1
 * /usr/lib/libvtkIOLegacy.so.9.3
@@ -792,7 +789,6 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOImport-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOInfovis-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOIOSS-hierarchy.txt
-* /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOLAS-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOLegacy-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOLSDyna-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkIOMINC-hierarchy.txt

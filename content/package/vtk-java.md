@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-java 9.3.0-7"
-version = "9.3.0-7"
+title = "vtk-java 9.3.0-8"
+version = "9.3.0-8"
 description = "Java interface and bindings for vtk"
-date = "2024-05-21T21:59:59"
+date = "2024-05-22T09:00:18"
 aliases = "/packages/219043"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "5887568"
-usize = "18345220"
-sha1sum = "83b9aea95da2c6b34de2d3b516ea25503ce1bef6"
+size = "5886304"
+usize = "18329772"
+sha1sum = "2e8f87e2cc9cb8c5442b9ea138952704f547b33a"
 depends = "['openjre', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-python3-java']"
 +++
@@ -111,7 +111,6 @@ Java interface and bindings for vtk
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOImportJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOInfovisJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOIOSSJava.so
-* /usr/lib/java/vtk-Linux-x86_64/libvtkIOLASJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOLegacyJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOLSDynaJava.so
 * /usr/lib/java/vtk-Linux-x86_64/libvtkIOMINCJava.so

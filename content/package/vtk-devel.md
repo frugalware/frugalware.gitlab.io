@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-devel 9.3.0-7"
-version = "9.3.0-7"
+title = "vtk-devel 9.3.0-8"
+version = "9.3.0-8"
 description = "Headers and cmake files for vtk"
-date = "2024-05-21T21:59:59"
+date = "2024-05-22T09:00:18"
 aliases = "/packages/219065"
 categories = ['devel-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "6144672"
-usize = "48150557"
-sha1sum = "abdb7cb3aa33ef63a587963a17582a8cb55fc35d"
+size = "6144332"
+usize = "48142111"
+sha1sum = "3af505b44e2dd09f59e0f7c6bef147a3d630e7b1"
 depends = "[]"
 +++
 ### Description: 
@@ -2134,7 +2134,6 @@ Headers and cmake files for vtk
 * /usr/include/vtk-9.3/vtkIOImportModule.h
 * /usr/include/vtk-9.3/vtkIOInfovisModule.h
 * /usr/include/vtk-9.3/vtkIOIOSSModule.h
-* /usr/include/vtk-9.3/vtkIOLASModule.h
 * /usr/include/vtk-9.3/vtkIOLegacyModule.h
 * /usr/include/vtk-9.3/vtkIOLSDynaModule.h
 * /usr/include/vtk-9.3/vtkIOMINCModule.h
@@ -2246,7 +2245,6 @@ Headers and cmake files for vtk
 * /usr/include/vtk-9.3/vtkLagrangianThreadedData.h
 * /usr/include/vtk-9.3/vtkLandmarkTransform.h
 * /usr/include/vtk-9.3/vtkLargeInteger.h
-* /usr/include/vtk-9.3/vtkLASReader.h
 * /usr/include/vtk-9.3/vtkLassoStencilSource.h
 * /usr/include/vtk-9.3/vtkLeaderActor2D.h
 * /usr/include/vtk-9.3/vtkLegacy.h

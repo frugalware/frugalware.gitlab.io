@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-python3-qt5 9.3.0-7"
-version = "9.3.0-7"
+title = "vtk-python3-qt5 9.3.0-8"
+version = "9.3.0-8"
 description = "Python2 Qt5 interface and bindings for vtk"
-date = "2024-05-21T21:59:59"
+date = "2024-05-22T09:00:18"
 aliases = "/packages/220827"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "25464"
+size = "25504"
 usize = "91754"
-sha1sum = "3f50c88733daa96fbb80de93c78a5e22a1020521"
+sha1sum = "23146567b2a7bf486af259959505378ef651cb8b"
 depends = "['vtk>=9.3.0', 'vtk-python3>=9.3.0', 'vtk-qt5>=9.3.0']"
 +++
 ### Description: 
