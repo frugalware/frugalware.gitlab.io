@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "facter 3.14.24-7"
-version = "3.14.24-7"
+title = "facter 3.14.24-8"
+version = "3.14.24-8"
 description = "Collect and display system facts"
-date = "2023-08-31T13:57:27"
+date = "2024-05-22T07:01:51"
 aliases = "/packages/218447"
 categories = ['apps-extra']
 upstreamurl = "http://puppetlabs.com/facter"
 arch = "x86_64"
-size = "798500"
-usize = "2696294"
-sha1sum = "5060f502a07c944f9cb36d89885a8ec0f9a4bfbe"
-depends = "['curl>=7.50.3-2', 'libboost>=1.82.0', 'openssl>=3.1.0', 'ruby>=2.3.1-3', 'yaml-cpp>=0.8.0']"
+size = "826228"
+usize = "2786406"
+sha1sum = "b382f90ca048514c9512d2edc590ab26f51ccab1"
+depends = "['curl>=7.50.3-2', 'libboost>=1.85.0', 'openssl>=3.1.0', 'ruby>=2.3.1-3', 'yaml-cpp>=0.8.0']"
 reverse_depends = "['puppet']"
 license = "APACHE"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-python3-tcl 9.3.0-6"
-version = "9.3.0-6"
+title = "vtk-python3-tcl 9.3.0-7"
+version = "9.3.0-7"
 description = "Python2 Tcl/Tk interface and bindings for vtk"
-date = "2024-03-28T19:10:25"
+date = "2024-05-21T21:59:59"
 aliases = "/packages/220828"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "13328"
+size = "13340"
 usize = "48450"
-sha1sum = "e094a33ad6e75c3e1cf5361446976b877081b975"
+sha1sum = "59ba15488d0b9c503c860c292ac856c5cab7ecb7"
 depends = "['vtk>=9.3.0', 'vtk-python3>=9.3.0']"
 +++
 ### Description: 

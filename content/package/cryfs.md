@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cryfs 0.11.4-2"
-version = "0.11.4-2"
+title = "cryfs 0.11.4-3"
+version = "0.11.4-3"
 description = "Cryptographic filesystem for the cloud"
-date = "2023-09-05T21:40:14"
+date = "2024-05-22T06:58:22"
 aliases = "/packages/219482"
 categories = ['apps']
 upstreamurl = "https://github.com/cryfs/cryfs"
 arch = "x86_64"
-size = "1214068"
-usize = "5012065"
-sha1sum = "4858a4484687af45b4a0060e1db23a1f4548087f"
-depends = "['cryptopp>=8.1.0', 'curl', 'fuse>=2.9.7-3', 'libboost>=1.83.0', 'libgomp']"
+size = "1246308"
+usize = "5143153"
+sha1sum = "be90b8cc0f2fde892af823c8ebc8997bfec7ccf9"
+depends = "['cryptopp>=8.1.0', 'curl', 'fuse>=2.9.7-3', 'libboost>=1.85.0', 'libgomp']"
 reverse_depends = "['plasma-vault']"
 +++
 ### Description: 
