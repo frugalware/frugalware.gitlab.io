@@ -12,7 +12,7 @@ size = "185632"
 usize = "2214988"
 sha1sum = "5188b5eefcc27123b568f693ca169321a4d3baaa"
 depends = "['librevenge>=0.0.4-2']"
-reverse_depends = "['scribus']"
+reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
 A library for import of Adobe PageMaker documents

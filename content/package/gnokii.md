@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnokii 0.6.31-14"
-version = "0.6.31-14"
+title = "gnokii 0.6.31-15"
+version = "0.6.31-15"
 description = "Tools and user space driver for use with mobile phones"
-date = "2024-01-30T10:41:06"
+date = "2024-05-22T20:35:49"
 aliases = "/packages/3613"
-categories = ['xapps']
+categories = ['xapps-extra']
 upstreamurl = "https://www.gnokii.org"
 arch = "x86_64"
-size = "584504"
-usize = "2285412"
-sha1sum = "5d9aaa51faf3cde610de78555a16e64510926805"
+size = "585796"
+usize = "2293756"
+sha1sum = "59c148f2ab836773a7c0b1d672240cdfb5a0fb2c"
 depends = "['bluez>=5.49-2', 'libusb>=0.1.5-4', 'ncurses>=6.0-12', 'readline>=8.0']"
 reverse_depends = "['gnokii-gui', 'gnokii-mysql', 'gnokii-pq']"
 +++

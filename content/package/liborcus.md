@@ -12,6 +12,7 @@ size = "584556"
 usize = "2309881"
 sha1sum = "c49ba803ce954b4813af8597ebe0cab4f2a475cd"
 depends = "['libboost>=1.85.0']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 Standalone file import filter library for spreadsheet documents

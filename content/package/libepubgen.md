@@ -12,6 +12,7 @@ size = "251024"
 usize = "2853503"
 sha1sum = "4f3ed14dc417831a3e98cce1ae076c77533a4268"
 depends = "['librevenge>=0.0.4-2']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 An EPUB generator library

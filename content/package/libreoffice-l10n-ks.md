@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ks 24.2.3.2-2"
-version = "24.2.3.2-2"
+title = "libreoffice-l10n-ks 24.2.3.2-3"
+version = "24.2.3.2-3"
 description = "Installs Kashmiri support in LibreOffice"
-date = "2024-05-08T23:23:28"
+date = "2024-05-22T19:56:10"
 aliases = "/packages/104079"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "240764"
-usize = "1520259"
-sha1sum = "294c916f61a71b9c371416b0b06d5e12f7ec4528"
+size = "240728"
+usize = "1520604"
+sha1sum = "aa233345d6d5a6aaf036b8c69e78f5fa176f0a1d"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

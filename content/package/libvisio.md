@@ -12,7 +12,7 @@ size = "297972"
 usize = "999405"
 sha1sum = "bdae3cd7f4c02159ec50184a0d6fa5c5237e702f"
 depends = "['icu4c>=75.1', 'libwpd>=0.10.1-4', 'libwpg>=0.3.1-4']"
-reverse_depends = "['inkscape', 'scribus']"
+reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
 ### Description: 
 libvisio import filter library

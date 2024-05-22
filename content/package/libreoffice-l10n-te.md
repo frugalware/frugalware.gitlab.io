@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-te 24.2.3.2-2"
-version = "24.2.3.2-2"
+title = "libreoffice-l10n-te 24.2.3.2-3"
+version = "24.2.3.2-3"
 description = "Installs Telugu support in LibreOffice"
-date = "2024-05-08T23:23:28"
+date = "2024-05-22T19:56:10"
 aliases = "/packages/104123"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "364224"
-usize = "2404101"
-sha1sum = "db17fdc4401d5b3f9709fa2472c08f05dac0d872"
+size = "363804"
+usize = "2404446"
+sha1sum = "87386ded656f958b3330a43745417250d4e490d0"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

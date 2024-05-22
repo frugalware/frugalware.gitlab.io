@@ -12,6 +12,7 @@ size = "106520"
 usize = "362895"
 sha1sum = "51ce2e57ad40089bf4c2565b8d49f3eced434b25"
 depends = "['libboost>=1.72.0', 'libwpd>=0.10.2-2']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 A library to import of AbiWord files

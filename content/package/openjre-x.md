@@ -12,7 +12,7 @@ size = "197324"
 usize = "598920"
 sha1sum = "2d17d4eaf84aac7df0909c64815b80263dd0c600"
 depends = "['fontconfig', 'freetype2', 'libffi', 'libgif>=5.1.1', 'libjpeg-turbo', 'libpng', 'libxcomposite', 'libxinerama', 'libxrender', 'libxtst', 'openjre']"
-reverse_depends = "['freeplane', 'ganttproject', 'jitsi', 'openjfx', 'projectlibre', 'spring', 'vtk-java-qt5']"
+reverse_depends = "['freeplane', 'ganttproject', 'jitsi', 'libreoffice', 'openjfx', 'projectlibre', 'spring', 'vtk-java-qt5']"
 +++
 ### Description: 
 Java graphic bindings

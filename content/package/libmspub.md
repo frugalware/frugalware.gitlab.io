@@ -12,7 +12,7 @@ size = "481396"
 usize = "8225506"
 sha1sum = "c633157af9502e43890eb85e7bcf6293cbf702ab"
 depends = "['icu4c>=75.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
-reverse_depends = "['scribus']"
+reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
 libmspub import filter library

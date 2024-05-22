@@ -12,7 +12,7 @@ size = "409136"
 usize = "947674"
 sha1sum = "0f9b0ebd6e97d3471ba6ffbc9b6d28035a6636ba"
 depends = "['icu4c>=75.1', 'lcms2>=2.8-2', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
-reverse_depends = "['inkscape', 'scribus']"
+reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
 ### Description: 
 A library providing ability to interpret and import Corel Draw drawings into various applications.

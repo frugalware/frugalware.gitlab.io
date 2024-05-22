@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice 24.2.3.2-2"
-version = "24.2.3.2-2"
+title = "libreoffice 24.2.3.2-3"
+version = "24.2.3.2-3"
 description = "Free Software Productivity Suite"
-date = "2024-05-08T23:23:28"
+date = "2024-05-22T19:56:10"
 aliases = "/packages/104025"
 categories = ['xoffice']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "197280248"
-usize = "690105115"
-sha1sum = "05b16f7d35db008845092c7a722998cf65945a2e"
-depends = "['box2d', 'clucene', 'cups', 'desktop-file-utils', 'expat', 'flex', 'fontconfig', 'glew>=2.0.0-2', 'graphite2', 'hyphen', 'libexttextcat>=3.4.5', 'libfbclient', 'libgpgmepp', 'libjpeg-turbo', 'liblangtag', 'libnumbertext>=1.0.3', 'libpng>=1.4.1', 'libpng>=1.6.25', 'libsndfile', 'libxaw>=1.0.5', 'libxml2', 'libxrandr', 'libxrandr', 'libxslt', 'lp_solve', 'mariadb-libs>=10.3.14', 'mythes', 'perl-archive-zip', 'poppler-glib>=24.02.0', 'python3>=3.12', 'sane-backends', 'startup-notification>=0.9-3', 'unixodbc>=2.3.1', 'unzip', 'xmlsec1>=1.2.25-2', 'zip', 'zxcvbn-c']"
+size = "177920964"
+usize = "621194977"
+sha1sum = "cd64f0ee07a7a717d113216fbecdd80d5730bb20"
+depends = "['box2d', 'clucene', 'cups', 'desktop-file-utils', 'expat', 'flex', 'fontconfig', 'glew>=2.0.0-2', 'graphite2', 'harfbuzz-icu', 'hyphen', 'libabw', 'libcdr>=0.0.10', 'libcmis>=0.6.2', 'libe-book', 'libepubgen', 'libetonyek', 'libexttextcat>=3.4.5', 'libfbclient', 'libfreehand', 'libgpgmepp', 'libjpeg-turbo', 'liblangtag', 'libmspub', 'libmwaw>=0.2.0', 'libnumbertext>=1.0.3', 'libodfgen', 'liborcus>=0.19.2', 'libpagemaker', 'libpng>=1.6.25', 'libpng>=1.4.1', 'libqxp', 'librdf', 'libsndfile', 'libstaroffice', 'libvisio>=0.0.24-2', 'libwps>=0.4.0', 'libxaw>=1.0.5', 'libxml2', 'libxrandr', 'libxrandr', 'libxslt', 'libzmf>=0.0.2', 'lp_solve', 'mariadb-libs>=10.3.14', 'mythes', 'openjre', 'openjre-x', 'perl-archive-zip', 'poppler-glib>=24.02.0', 'python3>=3.12', 'sane-backends', 'startup-notification>=0.9-3', 'unixodbc>=2.3.1', 'unzip', 'xmlsec1>=1.2.25-2', 'zip', 'zxcvbn-c']"
 reverse_depends = "['libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'libreoffice-l10n-af', 'libreoffice-l10n-am', 'libreoffice-l10n-ar', 'libreoffice-l10n-as', 'libreoffice-l10n-ast', 'libreoffice-l10n-be', 'libreoffice-l10n-bg', 'libreoffice-l10n-bn', 'libreoffice-l10n-bn-in', 'libreoffice-l10n-bo', 'libreoffice-l10n-br', 'libreoffice-l10n-brx', 'libreoffice-l10n-bs', 'libreoffice-l10n-ca', 'libreoffice-l10n-ca-valencia', 'libreoffice-l10n-ckb', 'libreoffice-l10n-cs', 'libreoffice-l10n-cy', 'libreoffice-l10n-da', 'libreoffice-l10n-de', 'libreoffice-l10n-dgo', 'libreoffice-l10n-dsb', 'libreoffice-l10n-dz', 'libreoffice-l10n-el', 'libreoffice-l10n-en-gb', 'libreoffice-l10n-en-za', 'libreoffice-l10n-eo', 'libreoffice-l10n-es', 'libreoffice-l10n-et', 'libreoffice-l10n-eu', 'libreoffice-l10n-fa', 'libreoffice-l10n-fi', 'libreoffice-l10n-fr', 'libreoffice-l10n-fur', 'libreoffice-l10n-fy', 'libreoffice-l10n-ga', 'libreoffice-l10n-gd', 'libreoffice-l10n-gl', 'libreoffice-l10n-gu', 'libreoffice-l10n-gug', 'libreoffice-l10n-he', 'libreoffice-l10n-hi', 'libreoffice-l10n-hr', 'libreoffice-l10n-hsb', 'libreoffice-l10n-hu', 'libreoffice-l10n-hy', 'libreoffice-l10n-id', 'libreoffice-l10n-is', 'libreoffice-l10n-it', 'libreoffice-l10n-ja', 'libreoffice-l10n-ka', 'libreoffice-l10n-kab', 'libreoffice-l10n-kk', 'libreoffice-l10n-km', 'libreoffice-l10n-kmr-latn', 'libreoffice-l10n-kn', 'libreoffice-l10n-ko', 'libreoffice-l10n-kok', 'libreoffice-l10n-ks', 'libreoffice-l10n-lb', 'libreoffice-l10n-lo', 'libreoffice-l10n-lt', 'libreoffice-l10n-lv', 'libreoffice-l10n-mai', 'libreoffice-l10n-mk', 'libreoffice-l10n-ml', 'libreoffice-l10n-mn', 'libreoffice-l10n-mni', 'libreoffice-l10n-mr', 'libreoffice-l10n-my', 'libreoffice-l10n-nb', 'libreoffice-l10n-ne', 'libreoffice-l10n-nl', 'libreoffice-l10n-nn', 'libreoffice-l10n-nr', 'libreoffice-l10n-nso', 'libreoffice-l10n-oc', 'libreoffice-l10n-om', 'libreoffice-l10n-or', 'libreoffice-l10n-pa-in', 'libreoffice-l10n-pl', 'libreoffice-l10n-pt', 'libreoffice-l10n-pt-br', 'libreoffice-l10n-ro', 'libreoffice-l10n-ru', 'libreoffice-l10n-rw', 'libreoffice-l10n-sa-in', 'libreoffice-l10n-sat', 'libreoffice-l10n-sd', 'libreoffice-l10n-si', 'libreoffice-l10n-sid', 'libreoffice-l10n-sk', 'libreoffice-l10n-sl', 'libreoffice-l10n-sq', 'libreoffice-l10n-sr', 'libreoffice-l10n-sr-latn', 'libreoffice-l10n-ss', 'libreoffice-l10n-st', 'libreoffice-l10n-sv', 'libreoffice-l10n-sw-tz', 'libreoffice-l10n-szl', 'libreoffice-l10n-ta', 'libreoffice-l10n-te', 'libreoffice-l10n-tg', 'libreoffice-l10n-th', 'libreoffice-l10n-tn', 'libreoffice-l10n-tr', 'libreoffice-l10n-ts', 'libreoffice-l10n-tt', 'libreoffice-l10n-ug', 'libreoffice-l10n-uk', 'libreoffice-l10n-uz', 'libreoffice-l10n-ve', 'libreoffice-l10n-vec', 'libreoffice-l10n-vi', 'libreoffice-l10n-xh', 'libreoffice-l10n-zh-cn', 'libreoffice-l10n-zh-tw', 'libreoffice-l10n-zu', 'libreoffice-nlpsolver', 'libreoffice-postgresql', 'libreoffice-report-builder', 'libreoffice-scripting-beanshell', 'libreoffice-scripting-javascript', 'libreoffice-scripting-python', 'unoconv']"
 +++
 ### Description: 
@@ -187,7 +187,6 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/program/libembobj.so
 * /usr/lib/libreoffice/program/libemboleobj.so
 * /usr/lib/libreoffice/program/libemfiolo.so
-* /usr/lib/libreoffice/program/libetonyek-0.1-lo.so.1
 * /usr/lib/libreoffice/program/libevtattlo.so
 * /usr/lib/libreoffice/program/libfilelo.so
 * /usr/lib/libreoffice/program/libfilterconfiglo.so
@@ -209,9 +208,6 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/program/libi18nsearchlo.so
 * /usr/lib/libreoffice/program/libi18nutil.so
 * /usr/lib/libreoffice/program/libicglo.so
-* /usr/lib/libreoffice/program/libicudata.so.73
-* /usr/lib/libreoffice/program/libicui18n.so.73
-* /usr/lib/libreoffice/program/libicuuc.so.73
 * /usr/lib/libreoffice/program/libindex_data.so
 * /usr/lib/libreoffice/program/libintrospectionlo.so
 * /usr/lib/libreoffice/program/libinvocadaptlo.so
@@ -236,21 +232,17 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/program/libmsformslo.so
 * /usr/lib/libreoffice/program/libmswordlo.so
 * /usr/lib/libreoffice/program/libmtfrendererlo.so
-* /usr/lib/libreoffice/program/libmwaw-0.3-lo.so.3
 * /usr/lib/libreoffice/program/libmysqlclo.so
 * /usr/lib/libreoffice/program/libmysql_jdbclo.so
 * /usr/lib/libreoffice/program/libnamingservicelo.so
 * /usr/lib/libreoffice/program/libnumbertextlo.so
 * /usr/lib/libreoffice/program/libodbclo.so
 * /usr/lib/libreoffice/program/libodfflatxmllo.so
-* /usr/lib/libreoffice/program/libodfgen-0.1-lo.so.1
 * /usr/lib/libreoffice/program/liboffacclo.so
 * /usr/lib/libreoffice/program/liboglcanvaslo.so
 * /usr/lib/libreoffice/program/libOGLTranslo.so
 * /usr/lib/libreoffice/program/libooxlo.so
 * /usr/lib/libreoffice/program/libopencllo.so
-* /usr/lib/libreoffice/program/liborcus-0.18.so.0
-* /usr/lib/libreoffice/program/liborcus-parser-0.18.so.0
 * /usr/lib/libreoffice/program/libpackage2.so
 * /usr/lib/libreoffice/program/libpasswordcontainerlo.so
 * /usr/lib/libreoffice/program/libpcrlo.so
@@ -263,12 +255,8 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/program/libproxyfaclo.so
 * /usr/lib/libreoffice/program/libpythonloaderlo.so
 * /usr/lib/libreoffice/program/libpyuno.so
-* /usr/lib/libreoffice/program/libraptor2-lo.so.0
-* /usr/lib/libreoffice/program/librasqal-lo.so.3
-* /usr/lib/libreoffice/program/librdf-lo.so.0
 * /usr/lib/libreoffice/program/libreflectionlo.so
 * /usr/lib/libreoffice/program/libreglo.so
-* /usr/lib/libreoffice/program/librevenge-0.0-lo.so.0
 * /usr/lib/libreoffice/program/libsal_textenclo.so
 * /usr/lib/libreoffice/program/libsaxlo.so
 * /usr/lib/libreoffice/program/libsblo.so
@@ -295,7 +283,6 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/program/libspelllo.so
 * /usr/lib/libreoffice/program/libspllo.so
 * /usr/lib/libreoffice/program/libsrtrs1.so
-* /usr/lib/libreoffice/program/libstaroffice-0.0-lo.so.0
 * /usr/lib/libreoffice/program/libstocserviceslo.so
 * /usr/lib/libreoffice/program/libstoragefdlo.so
 * /usr/lib/libreoffice/program/libstorelo.so
@@ -349,13 +336,10 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/program/libvclcanvaslo.so
 * /usr/lib/libreoffice/program/libvcllo.so
 * /usr/lib/libreoffice/program/libvclplug_genlo.so
-* /usr/lib/libreoffice/program/libwpd-0.10-lo.so.10
 * /usr/lib/libreoffice/program/libwpftcalclo.so
 * /usr/lib/libreoffice/program/libwpftdrawlo.so
 * /usr/lib/libreoffice/program/libwpftimpresslo.so
 * /usr/lib/libreoffice/program/libwpftwriterlo.so
-* /usr/lib/libreoffice/program/libwpg-0.3-lo.so.3
-* /usr/lib/libreoffice/program/libwps-0.4-lo.so.4
 * /usr/lib/libreoffice/program/libwriterfilterlo.so
 * /usr/lib/libreoffice/program/libwriterlo.so
 * /usr/lib/libreoffice/program/libwriterperfectlo.so

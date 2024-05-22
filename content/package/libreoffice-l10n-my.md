@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-my 24.2.3.2-2"
-version = "24.2.3.2-2"
+title = "libreoffice-l10n-my 24.2.3.2-3"
+version = "24.2.3.2-3"
 description = "Installs Burmese support in LibreOffice"
-date = "2024-05-08T23:23:28"
+date = "2024-05-22T19:56:10"
 aliases = "/packages/104091"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "314584"
-usize = "2342447"
-sha1sum = "42173bdb36f7feb21e5e47fc7d1102a7902acf8e"
+size = "314844"
+usize = "2342792"
+sha1sum = "fef6c91c6674d2bf1aab8bd8019cb66d0e9ce102"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

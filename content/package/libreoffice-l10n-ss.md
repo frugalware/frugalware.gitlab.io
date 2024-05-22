@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ss 24.2.3.2-2"
-version = "24.2.3.2-2"
+title = "libreoffice-l10n-ss 24.2.3.2-3"
+version = "24.2.3.2-3"
 description = "Installs Swazi support in LibreOffice"
-date = "2024-05-08T23:23:28"
+date = "2024-05-22T19:56:10"
 aliases = "/packages/104119"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "214828"
-usize = "1328258"
-sha1sum = "7b27be75032ff727dae99d3cf74b5901661de732"
+size = "214788"
+usize = "1328603"
+sha1sum = "b4847ccfc2bfb11ef2711f3992daea3c09b80f53"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

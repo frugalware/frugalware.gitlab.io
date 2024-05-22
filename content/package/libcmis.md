@@ -12,6 +12,7 @@ size = "399328"
 usize = "1399491"
 sha1sum = "3923337dc63e5f681e8ad0012230faaa32297a53"
 depends = "['curl>=7.50.3-2', 'libboost>=1.85.0', 'libxml2>=2.9.4-3']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 A C++ client library for the CMIS interface.

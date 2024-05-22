@@ -12,6 +12,7 @@ size = "171632"
 usize = "618182"
 sha1sum = "7097a99277e1ed9c532fdb5ff6adacc4bad084a6"
 depends = "['icu4c>=75.1', 'libboost>=1.85.0', 'liblangtag', 'libwpd>=0.10.1-5']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 A library for import of non-HTML reflowable e-book formats

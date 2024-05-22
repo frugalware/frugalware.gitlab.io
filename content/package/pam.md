@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pam 1.6.1-3"
-version = "1.6.1-3"
+title = "pam 1.6.1-4"
+version = "1.6.1-4"
 description = "Linux-PAM (Pluggable Authentication Modules)"
-date = "2024-05-16T08:37:14"
+date = "2024-05-22T20:43:24"
 aliases = "/packages/73298"
 categories = ['base']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "568424"
+size = "568548"
 usize = "2176746"
-sha1sum = "7d697166be5edb98540b48bd062b41f618996d78"
+sha1sum = "5f6581efcc632ccf2ae04b0d68463b7a8e96f0d8"
 depends = "['gdbm', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
 reverse_depends = "['cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++

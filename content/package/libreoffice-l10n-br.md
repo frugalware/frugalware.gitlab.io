@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-br 24.2.3.2-2"
-version = "24.2.3.2-2"
+title = "libreoffice-l10n-br 24.2.3.2-3"
+version = "24.2.3.2-3"
 description = "Installs Breton support in LibreOffice"
-date = "2024-05-08T23:23:28"
+date = "2024-05-22T19:56:10"
 aliases = "/packages/104038"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "443972"
-usize = "2360733"
-sha1sum = "76f6b892960ee972484d8c328db10b465e663d91"
+size = "444104"
+usize = "2361078"
+sha1sum = "664bc2fadd6bd6c74e66aeeb92610e92a14bb208"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

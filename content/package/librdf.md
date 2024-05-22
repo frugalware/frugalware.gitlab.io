@@ -12,6 +12,7 @@ size = "274284"
 usize = "2116090"
 sha1sum = "f77c5746f3f729387e1e18a1585c8acf2ddab6f8"
 depends = "['libpq>=10.1-2', 'libtool>=2.4.6-6', 'libxml2>=2.9.4-3', 'openssl>=1.1.1-2', 'rasqal>=0.9.33-6', 'sqlite3>=3.14.2-3']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 RDF Application Framework

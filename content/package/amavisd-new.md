@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "amavisd-new 2.11.1-3"
-version = "2.11.1-3"
+title = "amavisd-new 2.11.1-4"
+version = "2.11.1-4"
 description = "Amavisd-new is a high-performance interface between mailer (MTA) and content checkers"
-date = "2024-01-08T21:36:05"
+date = "2024-05-22T20:54:02"
 aliases = "/packages/9408"
 categories = ['network-extra']
 upstreamurl = "https://amavisd.de.postfix.org"
 arch = "x86_64"
-size = "601928"
+size = "601948"
 usize = "2662395"
-sha1sum = "84565a25025e66035ea613c35df212a9168a693c"
+sha1sum = "8db3c3cb66470e65f7f96981857b058da13cff89"
 depends = "['perl-archive-zip', 'perl-convert-binhex', 'perl-convert-tnef', 'perl-convert-uulib', 'perl-io-stringy', 'perl-mailtools', 'perl-mime-tools', 'perl-net-server', 'perl-unix-syslog', 'spamassassin', 'systemd']"
 +++
 ### Description: 
