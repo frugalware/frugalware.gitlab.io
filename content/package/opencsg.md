@@ -12,7 +12,6 @@ size = "49544"
 usize = "195318"
 sha1sum = "274e86e69aa61d812a095c5dae19f01267f044d5"
 depends = "['freeglut>=3.0.0-2', 'glew>=2.2.0']"
-reverse_depends = "['openscad']"
 license = "GPLv2"
 +++
 ### Description: 

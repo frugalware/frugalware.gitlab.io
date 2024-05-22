@@ -12,7 +12,7 @@ size = "1139492"
 usize = "6374335"
 sha1sum = "d4fb97669f5ae5e91eb27d4a9706ba6963f52229"
 depends = "['qt5-base>=5.15.10', 'qt5-tools>=5.15.10']"
-reverse_depends = "['database-browser-sqlite', 'openscad']"
+reverse_depends = "['database-browser-sqlite']"
 license = "2"
 +++
 ### Description: 

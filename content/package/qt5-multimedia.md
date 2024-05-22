@@ -12,7 +12,7 @@ size = "737248"
 usize = "3822001"
 sha1sum = "beb4bbf396286167bc8b66b7ee62ff3299f3366e"
 depends = "['gst1-plugins-bad>=1.10.3', 'gst1-plugins-base>=1.10.3', 'gst1-plugins-good>=1.10.3', 'libpulse', 'openal', 'qt5-declarative>=5.15.13']"
-reverse_depends = "['artikulate', 'aseman-qt-tools', 'babe', 'castersoundboard', 'eiskaltdc', 'hills', 'kfilemetadata5', 'kwave', 'lumina-desktop', 'openscad', 'otter-browser', 'plank-player', 'prison5', 'qt-virt-manager', 'qt5-speech', 'quassel', 'rolisteam', 'snorenotify', 'stellarium', 'vokoscreenng', 'wireshark-qt']"
+reverse_depends = "['artikulate', 'aseman-qt-tools', 'babe', 'castersoundboard', 'eiskaltdc', 'hills', 'kfilemetadata5', 'kwave', 'lumina-desktop', 'otter-browser', 'plank-player', 'prison5', 'qt-virt-manager', 'qt5-speech', 'quassel', 'rolisteam', 'snorenotify', 'stellarium', 'vokoscreenng', 'wireshark-qt']"
 +++
 ### Description: 
 The Qt5 toolkit, qtmultimedia

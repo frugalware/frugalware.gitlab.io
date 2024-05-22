@@ -12,7 +12,7 @@ size = "125672"
 usize = "1123699"
 sha1sum = "5171b67fd7cf4953e9b9a05754d825309a824fed"
 depends = "['bzip2', 'gnutls', 'openssl>=3.0.7', 'zlib>=1.2.12', 'zstd']"
-reverse_depends = "['ark', 'ebook-tools', 'libykneomgr', 'naev', 'okular', 'openscad', 'warzone2100']"
+reverse_depends = "['ark', 'ebook-tools', 'libykneomgr', 'naev', 'okular', 'warzone2100']"
 +++
 ### Description: 
 libzip is a C library for reading, creating, and modifying zip archives.

@@ -12,7 +12,7 @@ size = "1040532"
 usize = "8829062"
 sha1sum = "926f4ad36a1e23648f0ad7e6dcbd680bc94f0bb2"
 depends = "[]"
-reverse_depends = "['alicevision', 'analitza', 'ceres-solver', 'insight-toolkit', 'kalzium', 'krita', 'kstars', 'luminance-hdr', 'opencv', 'opengv']"
+reverse_depends = "['alicevision', 'analitza', 'ceres-solver', 'insight-toolkit', 'kalzium', 'krita', 'kstars', 'opencv', 'opengv']"
 +++
 ### Description: 
 A lightweight C++ template library for vector and matrix math.
