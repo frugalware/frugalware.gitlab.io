@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "innoextract 1.9-7"
-version = "1.9-7"
+title = "innoextract 1.9-8"
+version = "1.9-8"
 description = "A tool to unpack installers created by Inno Setup"
-date = "2023-09-06T08:26:40"
+date = "2024-05-22T07:30:52"
 aliases = "/packages/219674"
 categories = ['apps-extra']
 upstreamurl = "http://constexpr.org/innoextract/"
 arch = "x86_64"
-size = "189732"
-usize = "566681"
-sha1sum = "2731bb193d6f0459a05b4b649bb7250d72287cf4"
-depends = "['libboost>=1.83.0', 'xz']"
+size = "194304"
+usize = "578969"
+sha1sum = "77893c4f50ef1662689979d4b038c4d24699e059"
+depends = "['libboost>=1.85.0', 'xz']"
 reverse_depends = "['wimlib']"
 +++
 ### Description: 

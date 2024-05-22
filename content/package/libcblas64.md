@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcblas64 3.12.0-5"
-version = "3.12.0-5"
+title = "libcblas64 3.12.0-6"
+version = "3.12.0-6"
 description = "C Standard Interface to BLAS Basic Linear Algebra Subprograms."
-date = "2024-02-12T09:33:51"
+date = "2024-05-22T07:47:22"
 aliases = "/packages/221238"
 categories = ['lib']
 upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
-size = "39952"
-usize = "266590"
-sha1sum = "9d436d2fd2cac54fa24879a2f433617a12f14bd9"
+size = "39628"
+usize = "266678"
+sha1sum = "9edad38cc74afa1df4ed238f3d7c3a51187c1177"
 depends = "['libblas>=3.12.0', 'libgfortran>=11.2']"
 +++
 ### Description: 

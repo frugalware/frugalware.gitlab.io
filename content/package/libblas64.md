@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libblas64 3.12.0-5"
-version = "3.12.0-5"
+title = "libblas64 3.12.0-6"
+version = "3.12.0-6"
 description = "Basic Linear Algebra Subprograms."
-date = "2024-02-12T09:33:51"
+date = "2024-05-22T07:47:22"
 aliases = "/packages/221237"
 categories = ['lib']
 upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
-size = "129100"
-usize = "669768"
-sha1sum = "a44b471e2a4a28f96f03b7623ef474717c70885f"
+size = "131260"
+usize = "690248"
+sha1sum = "162a525e0142010d35ea5d6bfa06af36f7e41469"
 depends = "['libgfortran>=11.2']"
 +++
 ### Description: 
