@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-lt 125.0.3-1"
-version = "125.0.3-1"
+title = "firefox-lt 126.0-1"
+version = "126.0-1"
 description = "Lithuanian language support for Firefox"
-date = "2024-04-29T14:45:13"
+date = "2024-05-23T20:48:40"
 aliases = "/packages/73638"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "510832"
-usize = "569212"
-sha1sum = "b3687127d5fbfaf57fa3addb1252d11466524364"
-depends = "['firefox>=125.0.3']"
+size = "511704"
+usize = "570284"
+sha1sum = "e7f068e5a5318a3724caf61ed6ed39a509accb30"
+depends = "['firefox>=126.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

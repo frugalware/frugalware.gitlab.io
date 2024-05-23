@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sr 125.0.3-1"
-version = "125.0.3-1"
+title = "firefox-sr 126.0-1"
+version = "126.0-1"
 description = "Serbian language support for Firefox"
-date = "2024-04-29T14:45:13"
+date = "2024-05-23T20:48:40"
 aliases = "/packages/73651"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "580852"
-usize = "635728"
-sha1sum = "27b96c4bba2b0d0aff58470e22c98c4d80339d04"
-depends = "['firefox>=125.0.3']"
+size = "580928"
+usize = "636904"
+sha1sum = "c129379cb29f77ba320d5dccc65d2b5f5f49abd8"
+depends = "['firefox>=126.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

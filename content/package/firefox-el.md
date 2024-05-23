@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-el 125.0.3-1"
-version = "125.0.3-1"
+title = "firefox-el 126.0-1"
+version = "126.0-1"
 description = "Modern Greek (1453-) language support for Firefox"
-date = "2024-04-29T14:45:13"
+date = "2024-05-23T20:48:40"
 aliases = "/packages/3575"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "667692"
-usize = "720358"
-sha1sum = "12c5a04a65348b8740179fac55f8e568e18b9dd2"
-depends = "['firefox>=125.0.3']"
+size = "671164"
+usize = "724050"
+sha1sum = "8cb7b6654d0a169b288b44e83b776a23649bba13"
+depends = "['firefox>=126.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-nn-no 125.0.3-1"
-version = "125.0.3-1"
+title = "firefox-nn-no 126.0-1"
+version = "126.0-1"
 description = "Norwegian Nynorsk language support for Firefox"
-date = "2024-04-29T14:45:13"
+date = "2024-05-23T20:48:40"
 aliases = "/packages/73643"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "535116"
-usize = "591524"
-sha1sum = "7083417ba6a2211c67064b978d8339ce3808b70f"
-depends = "['firefox>=125.0.3']"
+size = "537220"
+usize = "593757"
+sha1sum = "0ad1dbce1f0981a889fb57c555b747892db23ca2"
+depends = "['firefox>=126.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
