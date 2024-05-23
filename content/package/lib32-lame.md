@@ -12,7 +12,7 @@ size = "167732"
 usize = "441283"
 sha1sum = "b3cffb70b6fb3221bd9a2f6db68acff524381ebd"
 depends = "['lib32-ncurses>=6.5']"
-reverse_depends = "['lib32-ffmpeg']"
+reverse_depends = "['lib32-ffmpeg', 'lib32-libsndfile']"
 +++
 ### Description: 
 An LGPL MP3 encoder. ( 32bit )

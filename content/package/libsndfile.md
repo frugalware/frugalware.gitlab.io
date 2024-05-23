@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsndfile 1.0.28-8"
-version = "1.0.28-8"
+title = "libsndfile 1.0.28-9"
+version = "1.0.28-9"
 description = "Libsndfile is a C library for reading and writing files containing sampled sound"
-date = "2024-05-16T02:30:06"
+date = "2024-05-23T18:24:30"
 aliases = "/packages/3197"
 categories = ['multimedia']
 upstreamurl = "http://www.mega-nerd.com/libsndfile"
 arch = "x86_64"
-size = "328824"
+size = "328920"
 usize = "1230082"
-sha1sum = "1a543089d0f688e631d2fcd9312e8969c06fc045"
-depends = "['alsa-lib>=1.1.2-2', 'flac>=1.4.0', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5', 'sqlite3>=3.9.2-4']"
+sha1sum = "7eb1c362dd0e3c2d06a9c37e9036c80056fcc0a3"
+depends = "['alsa-lib>=1.1.2-2', 'flac>=1.4.0', 'lame', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['efl', 'enlightenment', 'fluidsynth', 'libbs2b', 'libpulse', 'libreoffice', 'libsamplerate', 'lv2', 'mednafen', 'mumble', 'pulseaudio', 'qtractor', 'sfml', 'speech-dispatcher', 'terminology', 'twolame', 'vamp-plugin-sdk']"
 +++
 ### Description: 

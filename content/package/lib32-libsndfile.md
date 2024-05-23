@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-libsndfile 1.0.28-8"
-version = "1.0.28-8"
+title = "lib32-libsndfile 1.0.28-9"
+version = "1.0.28-9"
 description = "Libsndfile is a C library for reading and writing files containing sampled sound ( 32bit )"
-date = "2024-05-16T02:30:06"
+date = "2024-05-23T18:24:30"
 aliases = "/packages/217938"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mega-nerd.com/libsndfile"
 arch = "x86_64"
-size = "207676"
+size = "207644"
 usize = "744350"
-sha1sum = "ca04c297bf20664a15b45cbcf2efa2f159e9b077"
-depends = "['lib32-alsa-lib>=1.1.2-2', 'lib32-flac>=1.4.0', 'lib32-libogg>=1.3.2-5', 'lib32-libvorbis>=1.3.5-5', 'lib32-sqlite3>=3.9.2-4']"
+sha1sum = "fa71305dc4fefd5e5cc15313153e31472948b4a5"
+depends = "['lib32-alsa-lib>=1.1.2-2', 'lib32-flac>=1.4.0', 'lib32-lame', 'lib32-libogg>=1.3.2-5', 'lib32-libvorbis>=1.3.5-5', 'lib32-sqlite3>=3.9.2-4']"
 reverse_depends = "['lib32-libpulse']"
 +++
 ### Description: 
