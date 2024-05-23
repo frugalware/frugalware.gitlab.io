@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd 255.5-2"
-version = "255.5-2"
+title = "systemd 255.6-1"
+version = "255.6-1"
 description = "A System and Service Manager"
-date = "2024-05-16T04:26:17"
+date = "2024-05-23T08:25:28"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4254832"
-usize = "19459579"
-sha1sum = "c2c5240fe77de0a91d1fcb4f7c863a09931bdb4b"
-depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=255.5', 'libudev>=255.5', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=255.5', 'systemd-sysvinit']"
+size = "4272524"
+usize = "19641343"
+sha1sum = "1c3f7e61444597971024383ec2797aa43d92939b"
+depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=255.6', 'libudev>=255.6', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=255.6', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'gamemode', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
 ### Description: 
@@ -593,6 +593,7 @@ A System and Service Manager
 * /usr/share/bash-completion/completions/coredumpctl
 * /usr/share/bash-completion/completions/homectl
 * /usr/share/bash-completion/completions/hostnamectl
+* /usr/share/bash-completion/completions/importctl
 * /usr/share/bash-completion/completions/journalctl
 * /usr/share/bash-completion/completions/localectl
 * /usr/share/bash-completion/completions/loginctl
@@ -603,6 +604,7 @@ A System and Service Manager
 * /usr/share/bash-completion/completions/systemd-cat
 * /usr/share/bash-completion/completions/systemd-cgls
 * /usr/share/bash-completion/completions/systemd-cgtop
+* /usr/share/bash-completion/completions/systemd-confext
 * /usr/share/bash-completion/completions/systemd-cryptenroll
 * /usr/share/bash-completion/completions/systemd-delta
 * /usr/share/bash-completion/completions/systemd-detect-virt
@@ -664,10 +666,10 @@ A System and Service Manager
 * /usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
-* /usr/share/doc/systemd-255.5/NEWS
-* /usr/share/doc/systemd-255.5/README
-* /usr/share/doc/systemd-255.5/README.md
-* /usr/share/doc/systemd-255.5/TODO
+* /usr/share/doc/systemd-255.6/NEWS
+* /usr/share/doc/systemd-255.6/README
+* /usr/share/doc/systemd-255.6/README.md
+* /usr/share/doc/systemd-255.6/TODO
 * /usr/share/doc/systemd/CODING_STYLE.md
 * /usr/share/doc/systemd/DISTRO_PORTING.md
 * /usr/share/doc/systemd/ENVIRONMENT.md
@@ -1276,8 +1278,8 @@ A System and Service Manager
 * /usr/share/man/man3/sd_id128_string_equal.3.gz
 * /usr/share/man/man3/SD_ID128_STRING_MAX.3.gz
 * /usr/share/man/man3/sd_id128_t.3.gz
-* /usr/share/man/man3/sd_id128_to_string.3.gz
 * /usr/share/man/man3/SD_ID128_TO_STRING.3.gz
+* /usr/share/man/man3/sd_id128_to_string.3.gz
 * /usr/share/man/man3/SD_ID128_TO_UUID_STRING.3.gz
 * /usr/share/man/man3/sd_id128_to_uuid_string.3.gz
 * /usr/share/man/man3/SD_ID128_UUID_FORMAT_STR.3.gz

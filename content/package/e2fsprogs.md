@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "e2fsprogs 1.47.0-4"
-version = "1.47.0-4"
+title = "e2fsprogs 1.47.1-1"
+version = "1.47.1-1"
 description = "Utilities needed to create and maintain ext2 and ext3 filesystems"
-date = "2024-05-15T15:32:45"
+date = "2024-05-23T08:29:51"
 aliases = "/packages/2367"
 categories = ['base']
 upstreamurl = "http://e2fsprogs.sourceforge.net/"
 arch = "x86_64"
-size = "1153968"
-usize = "5165950"
-sha1sum = "432cdedbf6841c6e440dd87767e3e8e65d8760ec"
+size = "1191704"
+usize = "5385578"
+sha1sum = "73645cb7b9d968ae82d203158b6513130ee07f8a"
 depends = "['coreutils>=8.29-5', 'glibc>=2.34', 'libblkid>=2.31.1-2', 'libuuid>=2.31.1-2', 'util-linux>=2.31.1-2']"
 reverse_depends = "['aide', 'btrfs-progs', 'cyrus-sasl', 'cyrus-sasl-sql', 'dovecot', 'e2fsimage', 'fsarchiver', 'kernel-initrd', 'kernel-lts-initrd', 'krb5', 'libkrb5', 'partclone', 'parted', 'partitionmanager', 'quota-tools', 'reiserfsprogs']"
 +++
@@ -81,11 +81,12 @@ Utilities needed to create and maintain ext2 and ext3 filesystems
 * /usr/lib/pkgconfig/e2p.pc
 * /usr/lib/pkgconfig/ext2fs.pc
 * /usr/lib/pkgconfig/ss.pc
+* /usr/lib/udev/rules.d/64-ext4.rules
 * /usr/lib/udev/rules.d/96-e2scrub.rules
-* /usr/share/doc/e2fsprogs-1.47.0/INSTALL
-* /usr/share/doc/e2fsprogs-1.47.0/INSTALL.elfbin
-* /usr/share/doc/e2fsprogs-1.47.0/README
-* /usr/share/doc/e2fsprogs-1.47.0/RELEASE-NOTES
+* /usr/share/doc/e2fsprogs-1.47.1/INSTALL
+* /usr/share/doc/e2fsprogs-1.47.1/INSTALL.elfbin
+* /usr/share/doc/e2fsprogs-1.47.1/README
+* /usr/share/doc/e2fsprogs-1.47.1/RELEASE-NOTES
 * /usr/share/et/et_c.awk
 * /usr/share/et/et_h.awk
 * /usr/share/info/libext2fs.info.gz
@@ -105,6 +106,7 @@ Utilities needed to create and maintain ext2 and ext3 filesystems
 * /usr/share/locale/nl/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/pl/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/pt/LC_MESSAGES/e2fsprogs.mo
+* /usr/share/locale/ro/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/sr/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/sv/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/tr/LC_MESSAGES/e2fsprogs.mo

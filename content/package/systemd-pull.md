@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd-pull 255.5-2"
-version = "255.5-2"
+title = "systemd-pull 255.6-1"
+version = "255.6-1"
 description = "systemd container retrieval"
-date = "2024-05-16T04:26:17"
+date = "2024-05-23T08:25:28"
 aliases = "/packages/217490"
 categories = ['network-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "63220"
+size = "63284"
 usize = "104512"
-sha1sum = "ec776a1156f522d8d05f2bbb33f528a7346946c0"
-depends = "['curl>=7.58.0-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'openssl>=3.0.7', 'systemd=255.5']"
+sha1sum = "5359b4cf3caa35738f956cd97c45a72c7514a6c3"
+depends = "['curl>=7.58.0-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'openssl>=3.0.7', 'systemd=255.6']"
 +++
 ### Description: 
 systemd container retrieval

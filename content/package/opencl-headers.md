@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencl-headers 2023.12.14-2"
-version = "2023.12.14-2"
+title = "opencl-headers 2024.05.08-1"
+version = "2024.05.08-1"
 description = "OpenCL (Open Computing Language) header files"
-date = "2024-01-26T13:21:42"
+date = "2024-05-23T09:13:03"
 aliases = "/packages/220092"
 categories = ['devel-extra']
 upstreamurl = "https://www.khronos.org/registry/cl/"
 arch = "x86_64"
-size = "45512"
-usize = "393780"
-sha1sum = "872b28654501596b608be7955dc83dbb9085f096"
+size = "46584"
+usize = "404595"
+sha1sum = "0ee9ab712656e0f5d44cfa0de0f74ac25d1313a6"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
@@ -38,6 +38,6 @@ OpenCL (Open Computing Language) header files
 * /usr/share/cmake/OpenCLHeaders/OpenCLHeadersConfig.cmake
 * /usr/share/cmake/OpenCLHeaders/OpenCLHeadersConfigVersion.cmake
 * /usr/share/cmake/OpenCLHeaders/OpenCLHeadersTargets.cmake
-* /usr/share/doc/opencl-headers-2023.12.14/LICENSE
-* /usr/share/doc/opencl-headers-2023.12.14/README.md
+* /usr/share/doc/opencl-headers-2024.05.08/LICENSE
+* /usr/share/doc/opencl-headers-2024.05.08/README.md
 * /usr/share/pkgconfig/OpenCL-Headers.pc

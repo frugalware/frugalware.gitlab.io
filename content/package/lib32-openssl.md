@@ -12,7 +12,7 @@ size = "26452324"
 usize = "39109839"
 sha1sum = "b8acac8dfb865553ec4870753b8d2044df3b1084"
 depends = "[]"
-reverse_depends = "['lib32-curl', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libzip']"
+reverse_depends = "['lib32-curl', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libsystemd', 'lib32-libzip']"
 +++
 ### Description: 
 The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )

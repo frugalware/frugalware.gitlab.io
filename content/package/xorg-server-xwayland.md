@@ -21,6 +21,6 @@ run X clients under wayland
 * /usr/bin/Xwayland
 * /usr/lib/pkgconfig/xwayland.pc
 * /usr/share/applications/org.freedesktop.Xwayland.desktop
-* /usr/share/doc/xorg-server-xwayland-23.2.6/COPYING
-* /usr/share/doc/xorg-server-xwayland-23.2.6/README.md
+* /usr/share/doc/xorg-server-xwayland-24.1.0/COPYING
+* /usr/share/doc/xorg-server-xwayland-24.1.0/README.md
 * /usr/share/man/man1/Xwayland.1.gz

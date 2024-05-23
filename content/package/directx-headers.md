@@ -40,6 +40,7 @@ DirectX headers for using D3D12
 * /usr/include/directx/d3dx12_resource_helpers.h
 * /usr/include/directx/d3dx12_root_signature.h
 * /usr/include/directx/d3dx12_state_object.h
+* /usr/include/directx/DirectML.h
 * /usr/include/directx/dxcore.h
 * /usr/include/directx/dxcore_interface.h
 * /usr/include/directx/dxgicommon.h
@@ -62,5 +63,5 @@ DirectX headers for using D3D12
 * /usr/lib/libd3dx12-format-properties.a
 * /usr/lib/libDirectX-Guids.a
 * /usr/lib/pkgconfig/DirectX-Headers.pc
-* /usr/share/doc/directx-headers-1.613.1/LICENSE
-* /usr/share/doc/directx-headers-1.613.1/README.md
+* /usr/share/doc/directx-headers-1.614.0/LICENSE
+* /usr/share/doc/directx-headers-1.614.0/README.md

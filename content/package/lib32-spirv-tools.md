@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-spirv-tools 1.3.280.0-1"
-version = "1.3.280.0-1"
+title = "lib32-spirv-tools 1.3.283.0-1"
+version = "1.3.283.0-1"
 description = "API and commands for processing SPIR-V modules ( 32bit )"
-date = "2024-03-25T20:23:19"
+date = "2024-05-23T08:59:29"
 aliases = "/packages/220847"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/KhronosGroup/spirv-tools"
 arch = "x86_64"
-size = "1320656"
-usize = "5870104"
-sha1sum = "5051db15d2f607bc1f68466b8c7dcf1713eb875a"
+size = "1365284"
+usize = "6207063"
+sha1sum = "bb4d42ea3e8ef3537f7954b7d08b8e5a749568a6"
 depends = "['python3']"
 reverse_depends = "['lib32-spirv-llvm-translator']"
 +++
