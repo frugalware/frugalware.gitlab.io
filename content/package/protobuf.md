@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf 25.3-2"
-version = "25.3-2"
+title = "protobuf 27.0-1"
+version = "27.0-1"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2024-05-15T12:16:08"
+date = "2024-05-23T16:59:24"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "2090460"
-usize = "9750911"
-sha1sum = "bb4d109071af2887ed2b3285db7fbdeb67865f6b"
+size = "2373184"
+usize = "11604123"
+sha1sum = "e3d04cdbd108c1972059b7c66432a710a8ff2737"
 depends = "['abseil-cpp>==20240116.0', 'libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'protobuf-python', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
@@ -19,7 +19,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 
 ### Files: 
 * /usr/bin/protoc
-* /usr/bin/protoc-25.3.0
+* /usr/bin/protoc-27.0.0
+* /usr/bin/protoc-gen-upb
+* /usr/bin/protoc-gen-upb-27.0.0
+* /usr/bin/protoc-gen-upbdefs
+* /usr/bin/protoc-gen-upbdefs-27.0.0
+* /usr/bin/protoc-gen-upb_minitable
+* /usr/bin/protoc-gen-upb_minitable-27.0.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
 * /usr/include/google/protobuf/any.proto
@@ -31,8 +37,6 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/arena_align.h
 * /usr/include/google/protobuf/arena_allocation_policy.h
 * /usr/include/google/protobuf/arena_cleanup.h
-* /usr/include/google/protobuf/compiler/allowlists/allowlist.h
-* /usr/include/google/protobuf/compiler/allowlists/allowlists.h
 * /usr/include/google/protobuf/compiler/code_generator.h
 * /usr/include/google/protobuf/compiler/command_line_interface.h
 * /usr/include/google/protobuf/compiler/cpp/enum.h
@@ -42,9 +46,11 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/cpp/file.h
 * /usr/include/google/protobuf/compiler/cpp/generator.h
 * /usr/include/google/protobuf/compiler/cpp/helpers.h
+* /usr/include/google/protobuf/compiler/cpp/ifndef_guard.h
 * /usr/include/google/protobuf/compiler/cpp/message.h
 * /usr/include/google/protobuf/compiler/cpp/message_layout_helper.h
 * /usr/include/google/protobuf/compiler/cpp/names.h
+* /usr/include/google/protobuf/compiler/cpp/namespace_printer.h
 * /usr/include/google/protobuf/compiler/cpp/options.h
 * /usr/include/google/protobuf/compiler/cpp/padding_optimizer.h
 * /usr/include/google/protobuf/compiler/cpp/parse_function_generator.h
@@ -71,37 +77,45 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/importer.h
 * /usr/include/google/protobuf/compiler/java/context.h
 * /usr/include/google/protobuf/compiler/java/doc_comment.h
-* /usr/include/google/protobuf/compiler/java/enum.h
-* /usr/include/google/protobuf/compiler/java/enum_field.h
-* /usr/include/google/protobuf/compiler/java/enum_field_lite.h
-* /usr/include/google/protobuf/compiler/java/enum_lite.h
-* /usr/include/google/protobuf/compiler/java/extension.h
-* /usr/include/google/protobuf/compiler/java/extension_lite.h
-* /usr/include/google/protobuf/compiler/java/field.h
+* /usr/include/google/protobuf/compiler/java/field_common.h
 * /usr/include/google/protobuf/compiler/java/file.h
+* /usr/include/google/protobuf/compiler/java/full/enum.h
+* /usr/include/google/protobuf/compiler/java/full/enum_field.h
+* /usr/include/google/protobuf/compiler/java/full/extension.h
+* /usr/include/google/protobuf/compiler/java/full/field_generator.h
+* /usr/include/google/protobuf/compiler/java/full/generator_factory.h
+* /usr/include/google/protobuf/compiler/java/full/make_field_gens.h
+* /usr/include/google/protobuf/compiler/java/full/map_field.h
+* /usr/include/google/protobuf/compiler/java/full/message.h
+* /usr/include/google/protobuf/compiler/java/full/message_builder.h
+* /usr/include/google/protobuf/compiler/java/full/message_field.h
+* /usr/include/google/protobuf/compiler/java/full/primitive_field.h
+* /usr/include/google/protobuf/compiler/java/full/service.h
+* /usr/include/google/protobuf/compiler/java/full/string_field.h
 * /usr/include/google/protobuf/compiler/java/generator.h
+* /usr/include/google/protobuf/compiler/java/generator_common.h
 * /usr/include/google/protobuf/compiler/java/generator_factory.h
 * /usr/include/google/protobuf/compiler/java/helpers.h
+* /usr/include/google/protobuf/compiler/java/internal_helpers.h
 * /usr/include/google/protobuf/compiler/java/java_features.pb.h
 * /usr/include/google/protobuf/compiler/java/kotlin_generator.h
-* /usr/include/google/protobuf/compiler/java/map_field.h
-* /usr/include/google/protobuf/compiler/java/map_field_lite.h
-* /usr/include/google/protobuf/compiler/java/message.h
-* /usr/include/google/protobuf/compiler/java/message_builder.h
-* /usr/include/google/protobuf/compiler/java/message_builder_lite.h
-* /usr/include/google/protobuf/compiler/java/message_field.h
-* /usr/include/google/protobuf/compiler/java/message_field_lite.h
-* /usr/include/google/protobuf/compiler/java/message_lite.h
+* /usr/include/google/protobuf/compiler/java/lite/enum.h
+* /usr/include/google/protobuf/compiler/java/lite/enum_field.h
+* /usr/include/google/protobuf/compiler/java/lite/extension.h
+* /usr/include/google/protobuf/compiler/java/lite/field_generator.h
+* /usr/include/google/protobuf/compiler/java/lite/generator_factory.h
+* /usr/include/google/protobuf/compiler/java/lite/make_field_gens.h
+* /usr/include/google/protobuf/compiler/java/lite/map_field.h
+* /usr/include/google/protobuf/compiler/java/lite/message.h
+* /usr/include/google/protobuf/compiler/java/lite/message_builder.h
+* /usr/include/google/protobuf/compiler/java/lite/message_field.h
+* /usr/include/google/protobuf/compiler/java/lite/primitive_field.h
+* /usr/include/google/protobuf/compiler/java/lite/string_field.h
 * /usr/include/google/protobuf/compiler/java/message_serialization.h
 * /usr/include/google/protobuf/compiler/java/names.h
 * /usr/include/google/protobuf/compiler/java/name_resolver.h
 * /usr/include/google/protobuf/compiler/java/options.h
-* /usr/include/google/protobuf/compiler/java/primitive_field.h
-* /usr/include/google/protobuf/compiler/java/primitive_field_lite.h
-* /usr/include/google/protobuf/compiler/java/service.h
 * /usr/include/google/protobuf/compiler/java/shared_code_generator.h
-* /usr/include/google/protobuf/compiler/java/string_field.h
-* /usr/include/google/protobuf/compiler/java/string_field_lite.h
 * /usr/include/google/protobuf/compiler/objectivec/enum.h
 * /usr/include/google/protobuf/compiler/objectivec/enum_field.h
 * /usr/include/google/protobuf/compiler/objectivec/extension.h
@@ -119,7 +133,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/objectivec/oneof.h
 * /usr/include/google/protobuf/compiler/objectivec/options.h
 * /usr/include/google/protobuf/compiler/objectivec/primitive_field.h
-* /usr/include/google/protobuf/compiler/objectivec/text_format_decode_data.h
+* /usr/include/google/protobuf/compiler/objectivec/tf_decode_data.h
 * /usr/include/google/protobuf/compiler/parser.h
 * /usr/include/google/protobuf/compiler/php/names.h
 * /usr/include/google/protobuf/compiler/php/php_generator.h
@@ -132,17 +146,22 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/retention.h
 * /usr/include/google/protobuf/compiler/ruby/ruby_generator.h
 * /usr/include/google/protobuf/compiler/rust/accessors/accessors.h
-* /usr/include/google/protobuf/compiler/rust/accessors/accessor_generator.h
+* /usr/include/google/protobuf/compiler/rust/accessors/accessor_case.h
+* /usr/include/google/protobuf/compiler/rust/accessors/generator.h
+* /usr/include/google/protobuf/compiler/rust/accessors/helpers.h
 * /usr/include/google/protobuf/compiler/rust/context.h
+* /usr/include/google/protobuf/compiler/rust/crate_mapping.h
+* /usr/include/google/protobuf/compiler/rust/enum.h
 * /usr/include/google/protobuf/compiler/rust/generator.h
 * /usr/include/google/protobuf/compiler/rust/message.h
 * /usr/include/google/protobuf/compiler/rust/naming.h
 * /usr/include/google/protobuf/compiler/rust/oneof.h
 * /usr/include/google/protobuf/compiler/rust/relative_path.h
+* /usr/include/google/protobuf/compiler/rust/rust_field_type.h
+* /usr/include/google/protobuf/compiler/rust/rust_keywords.h
 * /usr/include/google/protobuf/compiler/scc.h
 * /usr/include/google/protobuf/compiler/subprocess.h
 * /usr/include/google/protobuf/compiler/versions.h
-* /usr/include/google/protobuf/compiler/versions_suffix.h
 * /usr/include/google/protobuf/compiler/zip_writer.h
 * /usr/include/google/protobuf/cpp_edition_defaults.h
 * /usr/include/google/protobuf/cpp_features.pb.h
@@ -150,8 +169,11 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/descriptor.h
 * /usr/include/google/protobuf/descriptor.pb.h
 * /usr/include/google/protobuf/descriptor.proto
+* /usr/include/google/protobuf/descriptor.upb.h
+* /usr/include/google/protobuf/descriptor.upb_minitable.h
 * /usr/include/google/protobuf/descriptor_database.h
 * /usr/include/google/protobuf/descriptor_legacy.h
+* /usr/include/google/protobuf/descriptor_lite.h
 * /usr/include/google/protobuf/descriptor_visitor.h
 * /usr/include/google/protobuf/duration.pb.h
 * /usr/include/google/protobuf/duration.proto
@@ -177,7 +199,6 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/has_bits.h
 * /usr/include/google/protobuf/implicit_weak_message.h
 * /usr/include/google/protobuf/inlined_string_field.h
-* /usr/include/google/protobuf/internal_message_util.h
 * /usr/include/google/protobuf/internal_visibility.h
 * /usr/include/google/protobuf/io/coded_stream.h
 * /usr/include/google/protobuf/io/gzip_stream.h
@@ -219,8 +240,11 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/reflection_internal.h
 * /usr/include/google/protobuf/reflection_mode.h
 * /usr/include/google/protobuf/reflection_ops.h
+* /usr/include/google/protobuf/reflection_visit_fields.h
+* /usr/include/google/protobuf/reflection_visit_field_info.h
 * /usr/include/google/protobuf/repeated_field.h
 * /usr/include/google/protobuf/repeated_ptr_field.h
+* /usr/include/google/protobuf/runtime_version.h
 * /usr/include/google/protobuf/serial_arena.h
 * /usr/include/google/protobuf/service.h
 * /usr/include/google/protobuf/source_context.pb.h
@@ -233,6 +257,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/stubs/platform_macros.h
 * /usr/include/google/protobuf/stubs/port.h
 * /usr/include/google/protobuf/stubs/status_macros.h
+* /usr/include/google/protobuf/testing/file.h
 * /usr/include/google/protobuf/text_format.h
 * /usr/include/google/protobuf/thread_safe_arena.h
 * /usr/include/google/protobuf/timestamp.pb.h
@@ -253,7 +278,117 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/wire_format_lite.h
 * /usr/include/google/protobuf/wrappers.pb.h
 * /usr/include/google/protobuf/wrappers.proto
-* /usr/include/java/core/src/main/java/com/google/protobuf/java_features.proto
+* /usr/include/java/core/src/main/resources/google/protobuf/java_features.proto
+* /usr/include/upb/base/descriptor_constants.h
+* /usr/include/upb/base/internal/endian.h
+* /usr/include/upb/base/internal/log2.h
+* /usr/include/upb/base/status.h
+* /usr/include/upb/base/status.hpp
+* /usr/include/upb/base/string_view.h
+* /usr/include/upb/base/upcast.h
+* /usr/include/upb/generated_code_support.h
+* /usr/include/upb/hash/common.h
+* /usr/include/upb/hash/int_table.h
+* /usr/include/upb/hash/str_table.h
+* /usr/include/upb/json/decode.h
+* /usr/include/upb/json/encode.h
+* /usr/include/upb/lex/atoi.h
+* /usr/include/upb/lex/round_trip.h
+* /usr/include/upb/lex/strtod.h
+* /usr/include/upb/lex/unicode.h
+* /usr/include/upb/mem/alloc.h
+* /usr/include/upb/mem/arena.h
+* /usr/include/upb/mem/arena.hpp
+* /usr/include/upb/mem/internal/arena.h
+* /usr/include/upb/message/accessors.h
+* /usr/include/upb/message/array.h
+* /usr/include/upb/message/compare.h
+* /usr/include/upb/message/compat.h
+* /usr/include/upb/message/copy.h
+* /usr/include/upb/message/internal/accessors.h
+* /usr/include/upb/message/internal/array.h
+* /usr/include/upb/message/internal/compare_unknown.h
+* /usr/include/upb/message/internal/extension.h
+* /usr/include/upb/message/internal/map.h
+* /usr/include/upb/message/internal/map_entry.h
+* /usr/include/upb/message/internal/map_sorter.h
+* /usr/include/upb/message/internal/message.h
+* /usr/include/upb/message/internal/tagged_ptr.h
+* /usr/include/upb/message/internal/types.h
+* /usr/include/upb/message/map.h
+* /usr/include/upb/message/map_gencode_util.h
+* /usr/include/upb/message/message.h
+* /usr/include/upb/message/tagged_ptr.h
+* /usr/include/upb/message/value.h
+* /usr/include/upb/mini_descriptor/build_enum.h
+* /usr/include/upb/mini_descriptor/decode.h
+* /usr/include/upb/mini_descriptor/internal/base92.h
+* /usr/include/upb/mini_descriptor/internal/decoder.h
+* /usr/include/upb/mini_descriptor/internal/encode.h
+* /usr/include/upb/mini_descriptor/internal/encode.hpp
+* /usr/include/upb/mini_descriptor/internal/modifiers.h
+* /usr/include/upb/mini_descriptor/internal/wire_constants.h
+* /usr/include/upb/mini_descriptor/link.h
+* /usr/include/upb/mini_table/enum.h
+* /usr/include/upb/mini_table/extension.h
+* /usr/include/upb/mini_table/extension_registry.h
+* /usr/include/upb/mini_table/field.h
+* /usr/include/upb/mini_table/file.h
+* /usr/include/upb/mini_table/internal/enum.h
+* /usr/include/upb/mini_table/internal/extension.h
+* /usr/include/upb/mini_table/internal/field.h
+* /usr/include/upb/mini_table/internal/file.h
+* /usr/include/upb/mini_table/internal/message.h
+* /usr/include/upb/mini_table/internal/size_log2.h
+* /usr/include/upb/mini_table/internal/sub.h
+* /usr/include/upb/mini_table/message.h
+* /usr/include/upb/mini_table/sub.h
+* /usr/include/upb/port/atomic.h
+* /usr/include/upb/port/def.inc
+* /usr/include/upb/port/undef.inc
+* /usr/include/upb/port/vsnprintf_compat.h
+* /usr/include/upb/reflection/common.h
+* /usr/include/upb/reflection/def.h
+* /usr/include/upb/reflection/def.hpp
+* /usr/include/upb/reflection/def_pool.h
+* /usr/include/upb/reflection/def_type.h
+* /usr/include/upb/reflection/enum_def.h
+* /usr/include/upb/reflection/enum_reserved_range.h
+* /usr/include/upb/reflection/enum_value_def.h
+* /usr/include/upb/reflection/extension_range.h
+* /usr/include/upb/reflection/field_def.h
+* /usr/include/upb/reflection/file_def.h
+* /usr/include/upb/reflection/internal/def_pool.h
+* /usr/include/upb/reflection/internal/desc_state.h
+* /usr/include/upb/reflection/internal/enum_def.h
+* /usr/include/upb/reflection/internal/enum_reserved_range.h
+* /usr/include/upb/reflection/internal/enum_value_def.h
+* /usr/include/upb/reflection/internal/extension_range.h
+* /usr/include/upb/reflection/internal/field_def.h
+* /usr/include/upb/reflection/internal/file_def.h
+* /usr/include/upb/reflection/internal/message_def.h
+* /usr/include/upb/reflection/internal/message_reserved_range.h
+* /usr/include/upb/reflection/internal/method_def.h
+* /usr/include/upb/reflection/internal/oneof_def.h
+* /usr/include/upb/reflection/internal/service_def.h
+* /usr/include/upb/reflection/internal/upb_edition_defaults.h
+* /usr/include/upb/reflection/message.h
+* /usr/include/upb/reflection/message.hpp
+* /usr/include/upb/reflection/message_def.h
+* /usr/include/upb/reflection/message_reserved_range.h
+* /usr/include/upb/reflection/method_def.h
+* /usr/include/upb/reflection/oneof_def.h
+* /usr/include/upb/reflection/service_def.h
+* /usr/include/upb/text/encode.h
+* /usr/include/upb/util/def_to_proto.h
+* /usr/include/upb/util/required_fields.h
+* /usr/include/upb/wire/decode.h
+* /usr/include/upb/wire/encode.h
+* /usr/include/upb/wire/eps_copy_input_stream.h
+* /usr/include/upb/wire/internal/decode_fast.h
+* /usr/include/upb/wire/reader.h
+* /usr/include/upb/wire/types.h
+* /usr/include/upb_generator/mangle.h
 * /usr/include/utf8_range.h
 * /usr/include/utf8_validity.h
 * /usr/lib/cmake/protobuf/protobuf-config-version.cmake
@@ -267,13 +402,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 * /usr/lib/cmake/utf8_range/utf8_range-targets.cmake
 * /usr/lib/libprotobuf-lite.so
-* /usr/lib/libprotobuf-lite.so.25.3.0
+* /usr/lib/libprotobuf-lite.so.27.0.0
 * /usr/lib/libprotobuf.so
-* /usr/lib/libprotobuf.so.25.3.0
+* /usr/lib/libprotobuf.so.27.0.0
 * /usr/lib/libprotoc.so
-* /usr/lib/libprotoc.so.25.3.0
+* /usr/lib/libprotoc.so.27.0.0
 * /usr/lib/pkgconfig/protobuf-lite.pc
 * /usr/lib/pkgconfig/protobuf.pc
 * /usr/lib/pkgconfig/utf8_range.pc
-* /usr/share/doc/protobuf-25.3/LICENSE
-* /usr/share/doc/protobuf-25.3/README.md
+* /usr/share/doc/protobuf-27.0/LICENSE
+* /usr/share/doc/protobuf-27.0/README.md

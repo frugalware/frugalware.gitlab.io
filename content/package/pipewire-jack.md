@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire-jack 1.0.5-2"
-version = "1.0.5-2"
+title = "pipewire-jack 1.1.81-1"
+version = "1.1.81-1"
 description = "Pipewire Jack config"
-date = "2024-05-16T03:47:06"
+date = "2024-05-23T16:27:16"
 aliases = "/packages/221088"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "180396"
-usize = "840432"
-sha1sum = "0fc4829c869a5697ee4b8d8433d4ffe3ae2476a5"
+size = "184424"
+usize = "849079"
+sha1sum = "562b92ae88f188d41012e4df4ad20df16d78e6f5"
 depends = "['jack2', 'wireplumber']"
 +++
 ### Description: 
@@ -20,13 +20,13 @@ Pipewire Jack config
 * /usr/bin/pw-jack
 * /usr/lib/pipewire-0.3/jack/libjack.so
 * /usr/lib/pipewire-0.3/jack/libjack.so.0
-* /usr/lib/pipewire-0.3/jack/libjack.so.0.3.1005
+* /usr/lib/pipewire-0.3/jack/libjack.so.0.3.1181
 * /usr/lib/pipewire-0.3/jack/libjacknet.so
 * /usr/lib/pipewire-0.3/jack/libjacknet.so.0
-* /usr/lib/pipewire-0.3/jack/libjacknet.so.0.3.1005
+* /usr/lib/pipewire-0.3/jack/libjacknet.so.0.3.1181
 * /usr/lib/pipewire-0.3/jack/libjackserver.so
 * /usr/lib/pipewire-0.3/jack/libjackserver.so.0
-* /usr/lib/pipewire-0.3/jack/libjackserver.so.0.3.1005
+* /usr/lib/pipewire-0.3/jack/libjackserver.so.0.3.1181
 * /usr/lib/pipewire-0.3/libpipewire-module-jack-tunnel.so
 * /usr/lib/pipewire-0.3/libpipewire-module-jackdbus-detect.so
 * /usr/lib/pipewire-0.3/libpipewire-module-netjack2-driver.so

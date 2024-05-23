@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pipewire 1.0.5-2"
-version = "1.0.5-2"
+title = "lib32-pipewire 1.1.81-1"
+version = "1.1.81-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux ( 32bit )"
-date = "2024-05-16T03:47:06"
+date = "2024-05-23T16:27:16"
 aliases = "/packages/220575"
 categories = ['lib32-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "1373600"
-usize = "6313718"
-sha1sum = "6ef705e20202877eed870f46513bc21e1ebfe128"
+size = "1431472"
+usize = "6513031"
+sha1sum = "ff0377f32b7ecbb7e74fedee69603b84e915af37"
 depends = "['lib32-glib2', 'lib32-libcap', 'lib32-libdrm', 'lib32-libgcrypt', 'lib32-libpulse', 'lib32-libsystemd', 'lib32-zstd']"
 +++
 ### Description: 
@@ -21,16 +21,16 @@ A project that aims to greatly improve handling of audio and video under Linux (
 * /usr/lib32/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib32/libpipewire-0.3.so
 * /usr/lib32/libpipewire-0.3.so.0
-* /usr/lib32/libpipewire-0.3.so.0.1005.0
+* /usr/lib32/libpipewire-0.3.so.0.1181.0
 * /usr/lib32/pipewire-0.3/jack/libjack.so
 * /usr/lib32/pipewire-0.3/jack/libjack.so.0
-* /usr/lib32/pipewire-0.3/jack/libjack.so.0.3.1005
+* /usr/lib32/pipewire-0.3/jack/libjack.so.0.3.1181
 * /usr/lib32/pipewire-0.3/jack/libjacknet.so
 * /usr/lib32/pipewire-0.3/jack/libjacknet.so.0
-* /usr/lib32/pipewire-0.3/jack/libjacknet.so.0.3.1005
+* /usr/lib32/pipewire-0.3/jack/libjacknet.so.0.3.1181
 * /usr/lib32/pipewire-0.3/jack/libjackserver.so
 * /usr/lib32/pipewire-0.3/jack/libjackserver.so.0
-* /usr/lib32/pipewire-0.3/jack/libjackserver.so.0.3.1005
+* /usr/lib32/pipewire-0.3/jack/libjackserver.so.0.3.1181
 * /usr/lib32/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-avb.so
@@ -45,6 +45,7 @@ A project that aims to greatly improve handling of audio and video under Linux (
 * /usr/lib32/pipewire-0.3/libpipewire-module-metadata.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-netjack2-driver.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-netjack2-manager.so
+* /usr/lib32/pipewire-0.3/libpipewire-module-parametric-equalizer.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-pipe-tunnel.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-portal.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-profiler.so
