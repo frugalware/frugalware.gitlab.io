@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-vdpau-drivers 24.0.7-1"
-version = "24.0.7-1"
+title = "lib32-mesa-vdpau-drivers 24.1.0-1"
+version = "24.1.0-1"
 description = "Mesa VDPAU drivers. (32-bit)"
-date = "2024-05-17T15:18:02"
+date = "2024-05-23T10:09:48"
 aliases = "/packages/218881"
 categories = ['lib32-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "3420180"
-usize = "20583367"
-sha1sum = "2146837697004e91ae33c98593672ec89138dce4"
+size = "3446996"
+usize = "20727239"
+sha1sum = "4ea54210b0ca11c2aa0e20f6863cd82cb5f671ee"
 depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.70-2', 'lib32-libffi>=3.2.1-2', 'lib32-libx11>=1.6.3-4', 'lib32-llvm-libs>=17.0.6']"
 +++
 ### Description: 
