@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mixxx 2.4.0-2"
-version = "2.4.0-2"
+title = "mixxx 2.4.1-1"
+version = "2.4.1-1"
 description = "An open source DJ tool."
-date = "2024-03-26T16:51:35"
+date = "2024-05-23T17:48:04"
 aliases = "/packages/218622"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
-size = "13766176"
-usize = "46969535"
-sha1sum = "f429e90a16b0479c2f6e8fa169c4339bb41d5d51"
-depends = "['chromaprint', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'portaudio', 'portmidi', 'protobuf>=25.3', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'rubberband', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
+size = "13832124"
+usize = "47262572"
+sha1sum = "500defcde0cd5e01ceba6b72338a98bdffe5d84e"
+depends = "['chromaprint', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'portaudio', 'portmidi', 'protobuf>=27', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'qtkeychain-qt5', 'rubberband', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
 ### Description: 
 An open source DJ tool.
@@ -20,9 +20,9 @@ An open source DJ tool.
 * /usr/bin/mixxx
 * /usr/lib/udev/rules.d/69-mixxx-usb-uaccess.rules
 * /usr/share/applications/org.mixxx.Mixxx.desktop
-* /usr/share/doc/mixxx-2.4.0/COPYING
-* /usr/share/doc/mixxx-2.4.0/LICENSE
-* /usr/share/doc/mixxx-2.4.0/README.md
+* /usr/share/doc/mixxx-2.4.1/COPYING
+* /usr/share/doc/mixxx-2.4.1/LICENSE
+* /usr/share/doc/mixxx-2.4.1/README.md
 * /usr/share/doc/mixxx/COPYING
 * /usr/share/doc/mixxx/LICENSE
 * /usr/share/doc/mixxx/Mixxx-Keyboard-Shortcuts.pdf

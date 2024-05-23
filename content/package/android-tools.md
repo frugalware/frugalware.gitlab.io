@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "android-tools 34.0.4-6"
-version = "34.0.4-6"
+title = "android-tools 35.0.1-1"
+version = "35.0.1-1"
 description = "Android platform tools"
-date = "2024-02-23T14:23:02"
+date = "2024-05-23T17:23:27"
 aliases = "/packages/220939"
 categories = ['apps-extra']
 upstreamurl = "http://tools.android.com/"
 arch = "x86_64"
-size = "1623116"
-usize = "5459759"
-sha1sum = "f22e6d157bbb8107a857658ad8f8a2a02339a7eb"
-depends = "['brotli', 'libcap', 'libusb1', 'pcre2', 'protobuf>=25.3', 'zstd']"
+size = "1825204"
+usize = "6186085"
+sha1sum = "f974e33604f1b3ae464e2b1339aaa408b6c82f38"
+depends = "['brotli', 'libcap', 'libusb1', 'pcre2', 'protobuf>=27', 'zstd']"
 reverse_depends = "['scrcpy']"
 +++
 ### Description: 
@@ -30,11 +30,13 @@ Android platform tools
 * /usr/bin/lpflash
 * /usr/bin/lpmake
 * /usr/bin/lpunpack
+* /usr/bin/make_f2fs
 * /usr/bin/mkbootimg
 * /usr/bin/mkdtboimg
 * /usr/bin/mke2fs.android
 * /usr/bin/repack_bootimg
 * /usr/bin/simg2img
+* /usr/bin/sload_f2fs
 * /usr/bin/unpack_bootimg
 * /usr/share/android-tools/completions/adb
 * /usr/share/android-tools/completions/fastboot
@@ -42,5 +44,5 @@ Android platform tools
 * /usr/share/android-tools/mkbootimg/mkbootimg.py
 * /usr/share/bash-completion/completions/adb
 * /usr/share/bash-completion/completions/fastboot
-* /usr/share/doc/android-tools-34.0.4/LICENSE
-* /usr/share/doc/android-tools-34.0.4/README.md
+* /usr/share/doc/android-tools-35.0.1/LICENSE
+* /usr/share/doc/android-tools-35.0.1/README.md
