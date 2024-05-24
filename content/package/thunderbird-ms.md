@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ms 125.0-1"
-version = "125.0-1"
+title = "thunderbird-ms 115.11.0-1"
+version = "115.11.0-1"
 description = "Malay language support for Thunderbird"
-date = "2024-04-29T17:00:48"
+date = "2024-05-24T01:04:35"
 aliases = "/packages/219719"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "494204"
-usize = "571791"
-sha1sum = "a154ba965ed963352d7cdbc9396d0c8f88cf0e65"
-depends = "['thunderbird>=125.0']"
+size = "496388"
+usize = "575471"
+sha1sum = "5bb1366a2435ecfba8e460dbcc91dfa8be32ab7b"
+depends = "['thunderbird>=115.11.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
