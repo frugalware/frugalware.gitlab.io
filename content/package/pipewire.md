@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.1.81-1"
-version = "1.1.81-1"
+title = "pipewire 1.1.82-1"
+version = "1.1.82-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2024-05-23T16:27:16"
+date = "2024-05-24T13:46:11"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3672420"
-usize = "38091367"
-sha1sum = "1ae58fa06d5758f0b2c01f7f52b8247ca4ed6806"
+size = "3654292"
+usize = "38089053"
+sha1sum = "f44cb5760b0169fa6a519eb3aee05204dcb22112"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -257,7 +257,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib/libpipewire-0.3.so
 * /usr/lib/libpipewire-0.3.so.0
-* /usr/lib/libpipewire-0.3.so.0.1181.0
+* /usr/lib/libpipewire-0.3.so.0.1182.0
 * /usr/lib/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib/pipewire-0.3/libpipewire-module-avb.so
@@ -287,6 +287,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/pipewire-0.3/libpipewire-module-rtp-sink.so
 * /usr/lib/pipewire-0.3/libpipewire-module-rtp-source.so
 * /usr/lib/pipewire-0.3/libpipewire-module-session-manager.so
+* /usr/lib/pipewire-0.3/libpipewire-module-snapcast-discover.so
 * /usr/lib/pipewire-0.3/libpipewire-module-spa-device-factory.so
 * /usr/lib/pipewire-0.3/libpipewire-module-spa-device.so
 * /usr/lib/pipewire-0.3/libpipewire-module-spa-node-factory.so
@@ -400,11 +401,11 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/alsa-card-profile/mixer/profile-sets/texas-instruments-pcm2902.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/usb-gaming-headset.conf
 * /usr/share/alsa/alsa.conf.d/50-pipewire.conf
-* /usr/share/doc/pipewire-1.1.81/COPYING
-* /usr/share/doc/pipewire-1.1.81/INSTALL.md
-* /usr/share/doc/pipewire-1.1.81/LICENSE
-* /usr/share/doc/pipewire-1.1.81/NEWS
-* /usr/share/doc/pipewire-1.1.81/README.md
+* /usr/share/doc/pipewire-1.1.82/COPYING
+* /usr/share/doc/pipewire-1.1.82/INSTALL.md
+* /usr/share/doc/pipewire-1.1.82/LICENSE
+* /usr/share/doc/pipewire-1.1.82/NEWS
+* /usr/share/doc/pipewire-1.1.82/README.md
 * /usr/share/doc/pipewire/html/aac-types_8h.html
 * /usr/share/doc/pipewire/html/aac-types_8h_source.html
 * /usr/share/doc/pipewire/html/aac-utils_8h.html
@@ -1117,6 +1118,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/page_module_rtp_sink.html
 * /usr/share/doc/pipewire/html/page_module_rtp_source.html
 * /usr/share/doc/pipewire/html/page_module_session_manager.html
+* /usr/share/doc/pipewire/html/page_module_snapcast_discover.html
 * /usr/share/doc/pipewire/html/page_module_vban_recv.html
 * /usr/share/doc/pipewire/html/page_module_vban_send.html
 * /usr/share/doc/pipewire/html/page_module_x11_bell.html
@@ -2176,6 +2178,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/man/man7/libpipewire-module-rtp-sink.7.gz
 * /usr/share/man/man7/libpipewire-module-rtp-source.7.gz
 * /usr/share/man/man7/libpipewire-module-session-manager.7.gz
+* /usr/share/man/man7/libpipewire-module-snapcast-discover.7.gz
 * /usr/share/man/man7/libpipewire-module-vban-recv.7.gz
 * /usr/share/man/man7/libpipewire-module-vban-send.7.gz
 * /usr/share/man/man7/libpipewire-module-x11-bell.7.gz

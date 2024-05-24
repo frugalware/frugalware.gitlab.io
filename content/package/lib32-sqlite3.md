@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sqlite3 3.45.3-2"
-version = "3.45.3-2"
+title = "lib32-sqlite3 3.46.0-1"
+version = "3.46.0-1"
 description = "A C library that implements an SQL database engine ( 32bit )"
-date = "2024-05-15T12:36:05"
+date = "2024-05-24T14:03:03"
 aliases = "/packages/217936"
 categories = ['lib32-extra']
 upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
-size = "1448872"
-usize = "4266586"
-sha1sum = "25471b060c4dccf6501bbebb0036281049fb4ccc"
+size = "1468648"
+usize = "4310990"
+sha1sum = "ae0325c94e795d1f2330aca5a9616bef5dd02c65"
 depends = "['lib32-ncurses>=6.1-5', 'lib32-readline>=8.0-3']"
 reverse_depends = "['lib32-libsndfile', 'lib32-nss', 'lib32-util-linux']"
 +++

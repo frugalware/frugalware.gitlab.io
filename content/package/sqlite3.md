@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sqlite3 3.45.3-2"
-version = "3.45.3-2"
+title = "sqlite3 3.46.0-1"
+version = "3.46.0-1"
 description = "A C library that implements an SQL database engine"
-date = "2024-05-15T12:36:05"
+date = "2024-05-24T14:03:03"
 aliases = "/packages/3341"
 categories = ['base']
 upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
-size = "1674864"
-usize = "8523433"
-sha1sum = "ac7e9fb8835ef4fc2ee178be5275404131b845ec"
+size = "1690984"
+usize = "8608365"
+sha1sum = "362a78fd973c6c61e3c262afaace933d7bc79817"
 depends = "['ncurses>=6.1-5', 'readline>=8.0-3']"
 reverse_depends = "['aircrack-ng', 'apr-util', 'aria2', 'bogofilter', 'botan', 'colord', 'courier-authlib', 'crawl', 'crawl-tiles', 'dlib', 'docker', 'firefox', 'freeciv', 'gdal', 'glyr', 'gnunet', 'gnupg2', 'gst1-plugins-good-libsoup', 'hyperscan', 'kat', 'libaccounts-glib', 'librdf', 'libsndfile', 'libsoup', 'libsoup3', 'minidlna', 'neko', 'nfs-utils', 'nss', 'openslide', 'pdns', 'php', 'python3-apsw', 'python3-sqlite3', 'qt5-base', 'qt6-base', 'seafile', 'strongswan', 'telepathy-logger', 'thunderbird', 'util-linux', 'uwsgi-plugin-sqlite', 'vscode']"
 +++
@@ -30,6 +30,6 @@ A C library that implements an SQL database engine
 * /usr/lib/libsqlite3.so.0
 * /usr/lib/libsqlite3.so.0.8.6
 * /usr/lib/pkgconfig/sqlite3.pc
-* /usr/share/doc/sqlite3-3.45.3/README.md
-* /usr/share/doc/sqlite3-3.45.3/VERSION
+* /usr/share/doc/sqlite3-3.46.0/README.md
+* /usr/share/doc/sqlite3-3.46.0/VERSION
 * /usr/share/man/man1/sqlite3.1.gz
