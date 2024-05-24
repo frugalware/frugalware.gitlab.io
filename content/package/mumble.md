@@ -1,30 +1,33 @@
 +++
 draft = false
-title = "mumble 1.4.287-16"
-version = "1.4.287-16"
+title = "mumble 1.5.634-1"
+version = "1.5.634-1"
 description = "A voice chat application similar to TeamSpeak"
-date = "2024-03-28T15:53:13"
+date = "2024-05-23T23:14:40"
 aliases = "/packages/218803"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/mumble-voip/mumble"
 arch = "x86_64"
-size = "4352304"
-usize = "10649251"
-sha1sum = "614c3eb67c80ee3c36af58b51b9de7678ed418d5"
-depends = "['avahi>=0.6.31-7', 'avahi-compat>=0.6.31-7', 'libsndfile', 'opus', 'poco>=1.13.2', 'protobuf>=25.3', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'speech-dispatcher', 'speex>=1.2rc2-4', 'speexdsp']"
+size = "5113972"
+usize = "12199737"
+sha1sum = "76db80f19c25ba18a9421285ddf28d172070bd10"
+depends = "['avahi>=0.6.31-7', 'avahi-compat>=0.6.31-7', 'libsndfile', 'opus', 'poco>=1.13.2', 'protobuf>=27', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'speech-dispatcher', 'speex>=1.2rc2-4', 'speexdsp']"
 +++
 ### Description: 
 A voice chat application similar to TeamSpeak
 
 ### Files: 
+* /etc/mumble/mumble-server.ini
+* /etc/systemd/system/mumble-server.service
+* /etc/sysusers.d/mumble-server.conf
+* /etc/tmpfiles.d/mumble-server.conf
 * /usr/bin/mumble
 * /usr/bin/mumble-overlay
-* /usr/lib/mumble/libcelt0.so
-* /usr/lib/mumble/libcelt0.so.0.7.0
+* /usr/bin/mumble-server-user-wrapper
 * /usr/lib/mumble/libmumbleoverlay.x86.so
-* /usr/lib/mumble/libmumbleoverlay.x86.so.1.4.287
+* /usr/lib/mumble/libmumbleoverlay.x86.so.1.5.634
 * /usr/lib/mumble/libmumbleoverlay.x86_64.so
-* /usr/lib/mumble/libmumbleoverlay.x86_64.so.1.4.287
+* /usr/lib/mumble/libmumbleoverlay.x86_64.so.1.5.634
 * /usr/lib/mumble/plugins/libamongus.so
 * /usr/lib/mumble/plugins/libaoc.so
 * /usr/lib/mumble/plugins/libarma2.so
@@ -72,10 +75,8 @@ A voice chat application similar to TeamSpeak
 * /usr/lib/mumble/plugins/libwow.so
 * /usr/lib/mumble/plugins/libwow_x64.so
 * /usr/share/applications/info.mumble.Mumble.desktop
-* /usr/share/doc/mumble-1.4.287/AUTHORS
-* /usr/share/doc/mumble-1.4.287/CHANGES
-* /usr/share/doc/mumble-1.4.287/LICENSE
-* /usr/share/doc/mumble-1.4.287/README.md
+* /usr/share/doc/mumble-1.5.634/LICENSE
+* /usr/share/doc/mumble-1.5.634/README.md
 * /usr/share/icons/hicolor/256x256/apps/mumble.png
 * /usr/share/icons/hicolor/scalable/apps/mumble.svg
 * /usr/share/man/man1/mumble-overlay.1.gz

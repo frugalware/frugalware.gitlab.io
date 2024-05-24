@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-live 3.0.20-11"
-version = "3.0.20-11"
+title = "vlc-live 3.0.20-12"
+version = "3.0.20-12"
 description = "vlc plugin for Live555"
-date = "2024-04-17T08:50:17"
+date = "2024-05-23T23:59:41"
 aliases = "/packages/219537"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "34728"
+size = "34808"
 usize = "59256"
-sha1sum = "554445d411fbf1ff945f4a91582ed5ec65820677"
+sha1sum = "9fdc661c885cc9d84ca7f6eb774d16fea46e0b0d"
 depends = "['libvlc>=3.0.20', 'live>=2024.02.15']"
 +++
 ### Description: 
