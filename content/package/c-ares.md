@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "c-ares 1.28.1-2"
-version = "1.28.1-2"
+title = "c-ares 1.29.0-1"
+version = "1.29.0-1"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-05-16T05:21:35"
+date = "2024-05-24T14:53:41"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "253212"
-usize = "676961"
-sha1sum = "6d491fe74c84cfa570f2e7d494bdd2df83998db7"
+size = "256092"
+usize = "695557"
+sha1sum = "e09ae770b9a16fc1ff47b30a73bcfdd25a3b91d5"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
@@ -33,17 +33,17 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/lib/cmake/c-ares/c-ares-targets.cmake
 * /usr/lib/libcares.so
 * /usr/lib/libcares.so.2
-* /usr/lib/libcares.so.2.13.1
+* /usr/lib/libcares.so.2.14.0
 * /usr/lib/pkgconfig/libcares.pc
-* /usr/share/doc/c-ares-1.28.1/AUTHORS
-* /usr/share/doc/c-ares-1.28.1/CHANGES
-* /usr/share/doc/c-ares-1.28.1/INSTALL.md
-* /usr/share/doc/c-ares-1.28.1/NEWS
-* /usr/share/doc/c-ares-1.28.1/README.cares
-* /usr/share/doc/c-ares-1.28.1/README.md
-* /usr/share/doc/c-ares-1.28.1/README.msvc
-* /usr/share/doc/c-ares-1.28.1/RELEASE-NOTES.md
-* /usr/share/doc/c-ares-1.28.1/TODO
+* /usr/share/doc/c-ares-1.29.0/AUTHORS
+* /usr/share/doc/c-ares-1.29.0/CHANGES
+* /usr/share/doc/c-ares-1.29.0/INSTALL.md
+* /usr/share/doc/c-ares-1.29.0/NEWS
+* /usr/share/doc/c-ares-1.29.0/README.cares
+* /usr/share/doc/c-ares-1.29.0/README.md
+* /usr/share/doc/c-ares-1.29.0/README.msvc
+* /usr/share/doc/c-ares-1.29.0/RELEASE-NOTES.md
+* /usr/share/doc/c-ares-1.29.0/TODO
 * /usr/share/man/man1/adig.1.gz
 * /usr/share/man/man1/ahost.1.gz
 * /usr/share/man/man3/ares_cancel.3.gz
@@ -172,6 +172,7 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_set_servers_csv.3.gz
 * /usr/share/man/man3/ares_set_servers_ports.3.gz
 * /usr/share/man/man3/ares_set_servers_ports_csv.3.gz
+* /usr/share/man/man3/ares_set_server_state_callback.3.gz
 * /usr/share/man/man3/ares_set_socket_callback.3.gz
 * /usr/share/man/man3/ares_set_socket_configure_callback.3.gz
 * /usr/share/man/man3/ares_set_socket_functions.3.gz

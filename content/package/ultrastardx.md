@@ -1,28 +1,28 @@
 +++
 draft = false
-title = "ultrastardx 2020.4.0-4"
-version = "2020.4.0-4"
-description = "Free and open source karaoke game. (GIT)"
-date = "2023-03-03T23:30:53"
+title = "ultrastardx 2024.5.1-1"
+version = "2024.5.1-1"
+description = "Free and open source karaoke game"
+date = "2024-05-24T14:46:32"
 aliases = "/packages/220454"
 categories = ['games-extra']
 upstreamurl = "http://usdx.eu/"
 arch = "x86_64"
-size = "46803000"
-usize = "82141311"
-sha1sum = "3967a1a4a99a65b4248abce94bb42351ed4e2630"
+size = "46963792"
+usize = "82541162"
+sha1sum = "e3d2ba3ac06784062b7c2cef412e7250d6d6ded0"
 depends = "['ffmpeg>=6.0', 'freetype2', 'lua', 'sdl2', 'sdl2_image']"
 +++
 ### Description: 
-Free and open source karaoke game. (GIT)
+Free and open source karaoke game
 
 ### Files: 
 * /usr/bin/ultrastardx
 * /usr/share/applications/ultrastardx.desktop
-* /usr/share/doc/ultrastardx-2020.4.0/COPYRIGHT.txt
-* /usr/share/doc/ultrastardx-2020.4.0/LICENSE
-* /usr/share/doc/ultrastardx-2020.4.0/README.md
-* /usr/share/doc/ultrastardx-2020.4.0/VERSION
+* /usr/share/doc/ultrastardx-2024.5.1/COPYRIGHT.txt
+* /usr/share/doc/ultrastardx-2024.5.1/LICENSE
+* /usr/share/doc/ultrastardx-2024.5.1/README.md
+* /usr/share/doc/ultrastardx-2024.5.1/VERSION
 * /usr/share/pixmaps/ultrastardx.png
 * /usr/share/ultrastardx/avatars/1.png
 * /usr/share/ultrastardx/avatars/2.png
@@ -374,6 +374,7 @@ Free and open source karaoke game. (GIT)
 * /usr/share/ultrastardx/themes/Deluxe/[icon]song_medley.png
 * /usr/share/ultrastardx/themes/Deluxe/[icon]song_menu.png
 * /usr/share/ultrastardx/themes/Deluxe/[icon]song_rap.png
+* /usr/share/ultrastardx/themes/Deluxe/[icon]song_rap_to_freestyle.png
 * /usr/share/ultrastardx/themes/Deluxe/[icon]song_search.png
 * /usr/share/ultrastardx/themes/Deluxe/[icon]song_video.png
 * /usr/share/ultrastardx/themes/Deluxe/[icon]stats.png
@@ -456,7 +457,7 @@ Free and open source karaoke game. (GIT)
 * /usr/share/ultrastardx/themes/Deluxe/[rap]notesPlainLeft.png
 * /usr/share/ultrastardx/themes/Deluxe/[rap]notesPlainMid.png
 * /usr/share/ultrastardx/themes/Deluxe/[rap]notesPlainRight.png
-* /usr/share/ultrastardx/themes/Deluxe/[rap]notesRightrap.png
+* /usr/share/ultrastardx/themes/Deluxe/[rap]notesRight.png
 * /usr/share/ultrastardx/themes/Deluxe/[score]bar_box_dark.png
 * /usr/share/ultrastardx/themes/Deluxe/[score]bar_box_light.png
 * /usr/share/ultrastardx/themes/Deluxe/[score]bar_box_lightest.png
@@ -587,6 +588,7 @@ Free and open source karaoke game. (GIT)
 * /usr/share/ultrastardx/themes/Modern/[icon]song_medley.png
 * /usr/share/ultrastardx/themes/Modern/[icon]song_menu.png
 * /usr/share/ultrastardx/themes/Modern/[icon]song_rap.png
+* /usr/share/ultrastardx/themes/Modern/[icon]song_rap_to_freestyle.png
 * /usr/share/ultrastardx/themes/Modern/[icon]song_search.png
 * /usr/share/ultrastardx/themes/Modern/[icon]song_video.png
 * /usr/share/ultrastardx/themes/Modern/[icon]stats.png
@@ -675,7 +677,7 @@ Free and open source karaoke game. (GIT)
 * /usr/share/ultrastardx/themes/Modern/[rap]notesPlainLeft.png
 * /usr/share/ultrastardx/themes/Modern/[rap]notesPlainMid.png
 * /usr/share/ultrastardx/themes/Modern/[rap]notesPlainRight.png
-* /usr/share/ultrastardx/themes/Modern/[rap]notesRightrap.png
+* /usr/share/ultrastardx/themes/Modern/[rap]notesRight.png
 * /usr/share/ultrastardx/themes/Modern/[score]bar_box_dark.png
 * /usr/share/ultrastardx/themes/Modern/[score]bar_box_light.png
 * /usr/share/ultrastardx/themes/Modern/[score]bar_box_lightest.png
