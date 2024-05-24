@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "623416"
 usize = "686802"
 sha1sum = "10c1f06f813aad2d2121660b808f2bb79a3e6035"
-depends = "['thunderbird>=125.0']"
+depends = "['thunderbird>=115.11.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
