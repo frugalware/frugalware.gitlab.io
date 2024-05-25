@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "man-pages 6.7-2"
-version = "6.7-2"
+title = "man-pages 6.8-1"
+version = "6.8-1"
 description = "Man pages are online documentation for Linux"
-date = "2024-04-22T10:16:23"
+date = "2024-05-25T12:51:40"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5613328"
-usize = "5649747"
-sha1sum = "99c392f642cb9b1f424a3f5c44299a8d2aafed0c"
+size = "5621676"
+usize = "5655171"
+sha1sum = "1ee052af6692d12137b22b9498f6d2facde96765"
 depends = "[]"
 +++
 ### Description: 
 Man pages are online documentation for Linux
 
 ### Files: 
-* /usr/share/doc/man-pages-6.7/INSTALL
-* /usr/share/doc/man-pages-6.7/POSIX-COPYRIGHT
-* /usr/share/doc/man-pages-6.7/README
-* /usr/share/doc/man-pages-6.7/RELEASE
+* /usr/share/doc/man-pages-6.8/INSTALL
+* /usr/share/doc/man-pages-6.8/POSIX-COPYRIGHT
+* /usr/share/doc/man-pages-6.8/README
+* /usr/share/doc/man-pages-6.8/RELEASE
 * /usr/share/man/man0p/aio.h.0p.gz
 * /usr/share/man/man0p/arpa_inet.h.0p.gz
 * /usr/share/man/man0p/assert.h.0p.gz
@@ -1809,8 +1809,14 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/pthread_cleanup_pop_restore_np.3.gz
 * /usr/share/man/man3/pthread_cleanup_push.3.gz
 * /usr/share/man/man3/pthread_cleanup_push_defer_np.3.gz
+* /usr/share/man/man3/pthread_condattr_destroy.3.gz
 * /usr/share/man/man3/pthread_condattr_init.3.gz
+* /usr/share/man/man3/pthread_cond_broadcast.3.gz
+* /usr/share/man/man3/pthread_cond_destroy.3.gz
 * /usr/share/man/man3/pthread_cond_init.3.gz
+* /usr/share/man/man3/pthread_cond_signal.3.gz
+* /usr/share/man/man3/pthread_cond_timedwait.3.gz
+* /usr/share/man/man3/pthread_cond_wait.3.gz
 * /usr/share/man/man3/pthread_create.3.gz
 * /usr/share/man/man3/pthread_detach.3.gz
 * /usr/share/man/man3/pthread_equal.3.gz
@@ -1822,22 +1828,31 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/pthread_getcpuclockid.3.gz
 * /usr/share/man/man3/pthread_getname_np.3.gz
 * /usr/share/man/man3/pthread_getschedparam.3.gz
+* /usr/share/man/man3/pthread_getspecific.3.gz
 * /usr/share/man/man3/pthread_join.3.gz
 * /usr/share/man/man3/pthread_key_create.3.gz
+* /usr/share/man/man3/pthread_key_delete.3.gz
 * /usr/share/man/man3/pthread_kill.3.gz
 * /usr/share/man/man3/pthread_kill_other_threads_np.3.gz
 * /usr/share/man/man3/pthread_mutexattr_destroy.3.gz
+* /usr/share/man/man3/pthread_mutexattr_getkind_np.3.gz
 * /usr/share/man/man3/pthread_mutexattr_getpshared.3.gz
 * /usr/share/man/man3/pthread_mutexattr_getrobust.3.gz
 * /usr/share/man/man3/pthread_mutexattr_getrobust_np.3.gz
+* /usr/share/man/man3/pthread_mutexattr_gettype.3.gz
 * /usr/share/man/man3/pthread_mutexattr_init.3.gz
 * /usr/share/man/man3/pthread_mutexattr_setkind_np.3.gz
 * /usr/share/man/man3/pthread_mutexattr_setpshared.3.gz
 * /usr/share/man/man3/pthread_mutexattr_setrobust.3.gz
 * /usr/share/man/man3/pthread_mutexattr_setrobust_np.3.gz
+* /usr/share/man/man3/pthread_mutexattr_settype.3.gz
 * /usr/share/man/man3/pthread_mutex_consistent.3.gz
 * /usr/share/man/man3/pthread_mutex_consistent_np.3.gz
+* /usr/share/man/man3/pthread_mutex_destroy.3.gz
 * /usr/share/man/man3/pthread_mutex_init.3.gz
+* /usr/share/man/man3/pthread_mutex_lock.3.gz
+* /usr/share/man/man3/pthread_mutex_trylock.3.gz
+* /usr/share/man/man3/pthread_mutex_unlock.3.gz
 * /usr/share/man/man3/pthread_once.3.gz
 * /usr/share/man/man3/pthread_rwlockattr_getkind_np.3.gz
 * /usr/share/man/man3/pthread_rwlockattr_setkind_np.3.gz
@@ -1850,6 +1865,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/pthread_setname_np.3.gz
 * /usr/share/man/man3/pthread_setschedparam.3.gz
 * /usr/share/man/man3/pthread_setschedprio.3.gz
+* /usr/share/man/man3/pthread_setspecific.3.gz
 * /usr/share/man/man3/pthread_sigmask.3.gz
 * /usr/share/man/man3/pthread_sigqueue.3.gz
 * /usr/share/man/man3/pthread_spin_destroy.3.gz
@@ -2206,6 +2222,13 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/sys_errlist.3.gz
 * /usr/share/man/man3/sys_nerr.3.gz
 * /usr/share/man/man3/sys_siglist.3.gz
+* /usr/share/man/man3/S_ISBLK.3.gz
+* /usr/share/man/man3/S_ISCHR.3.gz
+* /usr/share/man/man3/S_ISDIR.3.gz
+* /usr/share/man/man3/S_ISFIFO.3.gz
+* /usr/share/man/man3/S_ISLNK.3.gz
+* /usr/share/man/man3/S_ISREG.3.gz
+* /usr/share/man/man3/S_ISSOCK.3.gz
 * /usr/share/man/man3/tailq.3.gz
 * /usr/share/man/man3/TAILQ_CONCAT.3.gz
 * /usr/share/man/man3/TAILQ_EMPTY.3.gz
@@ -3389,7 +3412,9 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3type/lconv.3type.gz
 * /usr/share/man/man3type/ldiv_t.3type.gz
 * /usr/share/man/man3type/lldiv_t.3type.gz
+* /usr/share/man/man3type/locale_t.3type.gz
 * /usr/share/man/man3type/loff_t.3type.gz
+* /usr/share/man/man3type/mbstate_t.3type.gz
 * /usr/share/man/man3type/mode_t.3type.gz
 * /usr/share/man/man3type/off64_t.3type.gz
 * /usr/share/man/man3type/off_t.3type.gz
@@ -3435,6 +3460,8 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3type/useconds_t.3type.gz
 * /usr/share/man/man3type/va_list.3type.gz
 * /usr/share/man/man3type/void.3type.gz
+* /usr/share/man/man3type/wchar_t.3type.gz
+* /usr/share/man/man3type/wint_t.3type.gz
 * /usr/share/man/man4/cciss.4.gz
 * /usr/share/man/man4/console_codes.4.gz
 * /usr/share/man/man4/console_ioctl.4.gz
