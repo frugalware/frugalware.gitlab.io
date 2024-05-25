@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "aubio 0.4.9-7"
-version = "0.4.9-7"
+title = "aubio 0.4.9-9"
+version = "0.4.9-9"
 description = "A tool for extracting annotations from audio signals"
-date = "2024-04-18T09:20:29"
+date = "2024-05-25T13:57:08"
 aliases = "/packages/220466"
 categories = ['multimedia-extra']
 upstreamurl = "https://aubio.org"
 arch = "x86_64"
-size = "335120"
-usize = "3791465"
-sha1sum = "51620d15059c8e3389882e46f2b6312620bbdb7a"
+size = "1315232"
+usize = "5527121"
+sha1sum = "b097434cd774e35e8c0bc049f9e3c3becada50db"
 depends = "['ffmpeg', 'jack2', 'python3-numpy']"
 reverse_depends = "['performous']"
 +++
@@ -18,6 +18,8 @@ reverse_depends = "['performous']"
 A tool for extracting annotations from audio signals
 
 ### Files: 
+* /usr/bin/aubio
+* /usr/bin/aubiocut
 * /usr/bin/aubiomfcc
 * /usr/bin/aubionotes
 * /usr/bin/aubioonset
@@ -77,10 +79,34 @@ A tool for extracting annotations from audio signals
 * /usr/include/aubio/utils/parameter.h
 * /usr/include/aubio/utils/scale.h
 * /usr/include/aubio/vecutils.h
+* /usr/lib/libaubio.a
 * /usr/lib/libaubio.so
 * /usr/lib/libaubio.so.5
 * /usr/lib/libaubio.so.5.4.8
 * /usr/lib/pkgconfig/aubio.pc
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/AUTHORS
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/aubio/cmd.py
+* /usr/lib/python3.12/site-packages/aubio/cut.py
+* /usr/lib/python3.12/site-packages/aubio/midiconv.py
+* /usr/lib/python3.12/site-packages/aubio/slicing.py
+* /usr/lib/python3.12/site-packages/aubio/_aubio.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/aubio/__init__.py
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/cmd.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/cmd.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/cut.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/cut.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/midiconv.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/midiconv.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/slicing.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/slicing.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/aubio/__pycache__/__init__.cpython-312.pyc
 * /usr/share/doc/aubio-0.4.9/AUTHORS
 * /usr/share/doc/aubio-0.4.9/ChangeLog
 * /usr/share/doc/aubio-0.4.9/COPYING
