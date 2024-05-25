@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 22.1.0-3"
-version = "22.1.0-3"
+title = "nodejs 22.2.0-1"
+version = "22.2.0-1"
 description = "Evented I/O for V8 javascript"
-date = "2024-05-10T10:58:39"
+date = "2024-05-25T20:14:17"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "13882252"
-usize = "61607726"
-sha1sum = "3f9520756b09bdc7d362bf4ddfe38f485dcf47bd"
+size = "13964452"
+usize = "61585247"
+sha1sum = "90dc92f697605772e2d339b846f23b60b9fcc9c9"
 depends = "['c-ares', 'icu4c>=75.1', 'nghttp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
@@ -2104,6 +2104,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-22.1.0/LICENSE
-* /usr/share/doc/nodejs-22.1.0/README.md
+* /usr/share/doc/nodejs-22.2.0/LICENSE
+* /usr/share/doc/nodejs-22.2.0/README.md
 * /usr/share/man/man1/node.1.gz
