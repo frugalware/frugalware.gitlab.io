@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwbclient 4.20.0-2"
-version = "4.20.0-2"
+title = "libwbclient 4.20.1-1"
+version = "4.20.1-1"
 description = "WinBind Client library."
-date = "2024-04-19T23:13:11"
+date = "2024-05-24T15:53:49"
 aliases = "/packages/217567"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "44104"
+size = "44204"
 usize = "125740"
-sha1sum = "e0599aedec8c55ddb303bb52eba2e542f7a3a11f"
+sha1sum = "7d1b94b94cb57af2c3385be5a17c2bd43f4f4861"
 depends = "['libsmbclient', 'libwbclient']"
 reverse_depends = "['cifs-utils', 'libsmbclient', 'libwbclient', 'samba-client']"
 +++

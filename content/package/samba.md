@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "samba 4.20.0-2"
-version = "4.20.0-2"
+title = "samba 4.20.1-1"
+version = "4.20.1-1"
 description = "SMB file and print server."
-date = "2024-04-19T23:13:11"
+date = "2024-05-24T15:53:49"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7589820"
-usize = "60523346"
-sha1sum = "64bc13a4d67bdad3a93431f132bd6d032737a721"
-depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.20.0', 'talloc>=2.4.0', 'tdb>=1.4.6']"
+size = "7609356"
+usize = "60581097"
+sha1sum = "9e5cee93a587fb3a05c3fed4f8ff5ba1755481fb"
+depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.20.1', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
 ### Description: 
@@ -427,6 +427,8 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/check_output.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/claims.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/downgradedatabase.py
+* /usr/lib/python3.12/site-packages/samba/tests/blackbox/http_chunk.py
+* /usr/lib/python3.12/site-packages/samba/tests/blackbox/http_content.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/mdsearch.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/ndrdump.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/netads_dns.py
@@ -706,12 +708,12 @@ SMB file and print server.
 * /usr/lib/systemd/system/smb.socket
 * /usr/lib/systemd/system/smb@.service
 * /usr/lib/systemd/system/winbindd.service
-* /usr/share/doc/samba-4.20.0/COPYING
-* /usr/share/doc/samba-4.20.0/README.cifs-utils
-* /usr/share/doc/samba-4.20.0/README.Coding.md
-* /usr/share/doc/samba-4.20.0/README.contributing
-* /usr/share/doc/samba-4.20.0/README.md
-* /usr/share/doc/samba-4.20.0/VERSION
+* /usr/share/doc/samba-4.20.1/COPYING
+* /usr/share/doc/samba-4.20.1/README.cifs-utils
+* /usr/share/doc/samba-4.20.1/README.Coding.md
+* /usr/share/doc/samba-4.20.1/README.contributing
+* /usr/share/doc/samba-4.20.1/README.md
+* /usr/share/doc/samba-4.20.1/VERSION
 * /usr/share/man/man1/dbwrap_tool.1.gz
 * /usr/share/man/man1/gentest.1.gz
 * /usr/share/man/man1/ldbadd.1.gz
