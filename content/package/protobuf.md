@@ -12,7 +12,7 @@ size = "2373184"
 usize = "11604123"
 sha1sum = "e3d04cdbd108c1972059b7c66432a710a8ff2737"
 depends = "['abseil-cpp>==20240116.0', 'libstdc++>=11.3', 'zlib>=1.2.12']"
-reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'protobuf-python', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
+reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
 ### Description: 
 Protocol Buffers are a way of encoding structured data in an efficient yet extensible format

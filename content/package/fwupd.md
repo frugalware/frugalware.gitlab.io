@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 1.9.19-1"
-version = "1.9.19-1"
+title = "fwupd 1.9.20-1"
+version = "1.9.20-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-05-05T12:14:23"
+date = "2024-05-25T14:48:00"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7174224"
-usize = "46621683"
-sha1sum = "c37e3b17c671dfa0ee1552d824ccf646de6c17ad"
+size = "7192844"
+usize = "46847287"
+sha1sum = "e834517df43bf2defb85af8e44b9221d21878447"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -49,11 +49,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.19/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-1.9.19/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-1.9.19/libfwupdengine.so
-* /usr/lib/fwupd-1.9.19/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.19/libfwupdutil.so
+* /usr/lib/fwupd-1.9.20/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-1.9.20/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-1.9.20/libfwupdengine.so
+* /usr/lib/fwupd-1.9.20/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.20/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -99,9 +99,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.19/COPYING
-* /usr/share/doc/fwupd-1.9.19/README.md
-* /usr/share/doc/fwupd-1.9.19/RELEASE
+* /usr/share/doc/fwupd-1.9.20/COPYING
+* /usr/share/doc/fwupd-1.9.20/README.md
+* /usr/share/doc/fwupd-1.9.20/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -480,6 +480,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/method.Client.activate_async.html
 * /usr/share/doc/libfwupd/method.Client.activate_finish.html
 * /usr/share/doc/libfwupd/method.Client.add_hint.html
+* /usr/share/doc/libfwupd/method.Client.build_report_devices.html
 * /usr/share/doc/libfwupd/method.Client.clear_results.html
 * /usr/share/doc/libfwupd/method.Client.clear_results_async.html
 * /usr/share/doc/libfwupd/method.Client.clear_results_finish.html
@@ -638,6 +639,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/method.Client.upload_bytes.html
 * /usr/share/doc/libfwupd/method.Client.upload_bytes_async.html
 * /usr/share/doc/libfwupd/method.Client.upload_bytes_finish.html
+* /usr/share/doc/libfwupd/method.Client.upload_report.html
+* /usr/share/doc/libfwupd/method.Client.upload_report_async.html
+* /usr/share/doc/libfwupd/method.Client.upload_report_finish.html
 * /usr/share/doc/libfwupd/method.Client.verify.html
 * /usr/share/doc/libfwupd/method.Client.verify_async.html
 * /usr/share/doc/libfwupd/method.Client.verify_finish.html
