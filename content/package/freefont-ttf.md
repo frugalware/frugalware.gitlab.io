@@ -12,6 +12,7 @@ size = "4250312"
 usize = "11304142"
 sha1sum = "dd0ffdd8ab4a2b2ae7a5db228eea6e8eeb94fedf"
 depends = "['fontconfig', 'mkfontscale']"
+reverse_depends = "['motiontestsuite']"
 +++
 ### Description: 
 GNU FreeFont is a free family of scalable outline fonts.
