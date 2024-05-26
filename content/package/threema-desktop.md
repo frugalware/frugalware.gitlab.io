@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "threema-desktop 1.2.41-1"
-version = "1.2.41-1"
+title = "threema-desktop 1.2.43-1"
+version = "1.2.43-1"
 description = "Threema Desktop (Threema Web in Electron)."
-date = "2024-04-07T16:03:41"
+date = "2024-05-26T20:59:05"
 aliases = "/packages/220914"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/threema-ch/threema-web-electron"
 arch = "x86_64"
-size = "96972776"
-usize = "290497737"
-sha1sum = "746e8e8ad2910b51593208106f22293cf6443d94"
+size = "97901712"
+usize = "294989111"
+sha1sum = "00b966d1b3697ff447a100fdec4264f02bc451ad"
 depends = "['dbus', 'glib2']"
 +++
 ### Description: 
@@ -93,7 +93,7 @@ Threema Desktop (Threema Web in Electron).
 * /usr/lib/threema-desktop/version
 * /usr/lib/threema-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/threema-desktop.desktop
-* /usr/share/doc/threema-desktop-1.2.41/README.md
+* /usr/share/doc/threema-desktop-1.2.43/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/threema-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/threema-desktop.png
 * /usr/share/icons/hicolor/2048x2048/apps/threema-desktop.png
