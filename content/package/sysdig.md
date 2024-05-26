@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sysdig 0.36.1-3"
-version = "0.36.1-3"
+title = "sysdig 0.36.1-4"
+version = "0.36.1-4"
 description = "Open source system-level exploration and troubleshooting tool"
-date = "2024-05-23T07:31:00"
+date = "2024-05-26T14:30:12"
 aliases = "/packages/219877"
 categories = ['apps-extra']
 upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
-size = "293820"
-usize = "1162036"
-sha1sum = "dc411547556fa5ece185a815a02f6f140ec19027"
-depends = "['curl', 'grpc>=1.62', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.9.1-1', 'libb64', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
+size = "293832"
+usize = "1162018"
+sha1sum = "8062d04533252664e0f999857076bbf4eb3867c7"
+depends = "['curl', 'grpc>=1.62', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.9.2-1', 'libb64', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
 ### Description: 
 Open source system-level exploration and troubleshooting tool
@@ -223,7 +223,7 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/falcosecurity/userspace/plugin/plugin_api.h
 * /usr/include/falcosecurity/userspace/plugin/plugin_loader.h
 * /usr/include/falcosecurity/userspace/plugin/plugin_types.h
-* /usr/lib/modules/6.9.1-fw1/kernel/extra/scap.ko.zst
+* /usr/lib/modules/6.9.2-fw1/kernel/extra/scap.ko.zst
 * /usr/lib/pkgconfig/libscap.pc
 * /usr/lib/pkgconfig/libsinsp.pc
 * /usr/share/doc/sysdig-0.36.1/COPYING
