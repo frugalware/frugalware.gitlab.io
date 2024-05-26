@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polychromatic 0.9.0-1"
-version = "0.9.0-1"
+title = "polychromatic 0.9.1-1"
+version = "0.9.1-1"
 description = "A graphical front end for managing Razer peripherals under GNU/Linux."
-date = "2024-04-24T15:04:30"
+date = "2024-05-26T20:11:56"
 aliases = "/packages/220392"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/polychromatic/polychromatic"
 arch = "x86_64"
-size = "790020"
-usize = "4900616"
-sha1sum = "f7d255268de4b468b5b860ba176c245f69d6794e"
+size = "715444"
+usize = "4508748"
+sha1sum = "0fb3809b62bee722644c128d740e5989d3ee75f9"
 depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqt6webengine', 'python3-colorama', 'python3-colour']"
 +++
 ### Description: 
@@ -73,9 +73,9 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/lib/python3.12/site-packages/polychromatic/__pycache__/procpid.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/__pycache__/__init__.cpython-312.pyc
 * /usr/share/applications/polychromatic.desktop
-* /usr/share/doc/polychromatic-0.9.0/CHANGELOG
-* /usr/share/doc/polychromatic-0.9.0/LICENSE
-* /usr/share/doc/polychromatic-0.9.0/README.md
+* /usr/share/doc/polychromatic-0.9.1/CHANGELOG
+* /usr/share/doc/polychromatic-0.9.1/LICENSE
+* /usr/share/doc/polychromatic-0.9.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/polychromatic.png
 * /usr/share/icons/hicolor/16x16/apps/polychromatic.png
 * /usr/share/icons/hicolor/256x256/apps/polychromatic.png
@@ -83,15 +83,6 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/share/icons/hicolor/48x48/apps/polychromatic.png
 * /usr/share/icons/hicolor/64x64/apps/polychromatic.png
 * /usr/share/icons/hicolor/scalable/apps/polychromatic.svg
-* /usr/share/locale/de_DE/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/en_US/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/fi_FI/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/fr_FR/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/ka/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/nl/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/pl_PL/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/polychromatic.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/polychromatic.mo
 * /usr/share/man/man1/polychromatic-cli.1.gz
 * /usr/share/man/man1/polychromatic-controller.1.gz
 * /usr/share/man/man1/polychromatic-helper.1.gz

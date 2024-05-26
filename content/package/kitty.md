@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitty 0.34.1-1"
-version = "0.34.1-1"
+title = "kitty 0.35.0-1"
+version = "0.35.0-1"
 description = "A modern, hackable, featureful, OpenGL-based terminal emulator"
-date = "2024-04-22T09:34:22"
+date = "2024-05-26T19:38:33"
 aliases = "/packages/220895"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "11405764"
-usize = "41991034"
-sha1sum = "fb7448589aa1f5d65b223fe6d88bc92b0bc8deb1"
+size = "11465392"
+usize = "42498976"
+sha1sum = "b132548a68a0c82fcf993c1ec743ba4fd23b52c1"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.12', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
@@ -376,6 +376,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/rc/remove_marker.py
 * /usr/lib/kitty/kitty/rc/resize_os_window.py
 * /usr/lib/kitty/kitty/rc/resize_window.py
+* /usr/lib/kitty/kitty/rc/run.py
 * /usr/lib/kitty/kitty/rc/scroll_window.py
 * /usr/lib/kitty/kitty/rc/select_window.py
 * /usr/lib/kitty/kitty/rc/send_key.py
@@ -462,6 +463,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/rc/__pycache__/resize_window.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/rc/__pycache__/resize_window.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/rc/__pycache__/resize_window.cpython-312.pyc
+* /usr/lib/kitty/kitty/rc/__pycache__/run.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kitty/rc/__pycache__/run.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kitty/rc/__pycache__/run.cpython-312.pyc
 * /usr/lib/kitty/kitty/rc/__pycache__/scroll_window.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/rc/__pycache__/scroll_window.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/rc/__pycache__/scroll_window.cpython-312.pyc
@@ -690,9 +694,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/applications/kitty-open.desktop
 * /usr/share/applications/kitty.desktop
 * /usr/share/bash-completion/completions/kitty
-* /usr/share/doc/kitty-0.34.1/INSTALL.md
-* /usr/share/doc/kitty-0.34.1/LICENSE
-* /usr/share/doc/kitty-0.34.1/README.asciidoc
+* /usr/share/doc/kitty-0.35.0/INSTALL.md
+* /usr/share/doc/kitty-0.35.0/LICENSE
+* /usr/share/doc/kitty-0.35.0/README.asciidoc
 * /usr/share/doc/kitty/html/.buildinfo
 * /usr/share/doc/kitty/html/.nojekyll
 * /usr/share/doc/kitty/html/actions.html
@@ -934,6 +938,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/man/man1/kitten-@-remove-marker.1.gz
 * /usr/share/man/man1/kitten-@-resize-os-window.1.gz
 * /usr/share/man/man1/kitten-@-resize-window.1.gz
+* /usr/share/man/man1/kitten-@-run.1.gz
 * /usr/share/man/man1/kitten-@-scroll-window.1.gz
 * /usr/share/man/man1/kitten-@-select-window.1.gz
 * /usr/share/man/man1/kitten-@-send-key.1.gz

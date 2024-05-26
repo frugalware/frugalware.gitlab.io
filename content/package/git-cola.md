@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-cola 4.6.1-1"
-version = "4.6.1-1"
+title = "git-cola 4.7.1-1"
+version = "4.7.1-1"
 description = "Git-cola is a sleek and powerful Git GUI."
-date = "2024-04-25T14:13:45"
+date = "2024-05-26T20:10:16"
 aliases = "/packages/200469"
 categories = ['xapps-extra']
 upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "977152"
-usize = "7772864"
-sha1sum = "b742ca7fd564ce8c114a9fd847ea906a3347a9c8"
+size = "982696"
+usize = "7814067"
+sha1sum = "72a5e862dcea4c482ec884faf72547bb43ab694a"
 depends = "['pyinotify', 'pyqt5']"
 +++
 ### Description: 
@@ -435,18 +435,18 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/git_cola-4.6.1.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/git_cola-4.6.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/git_cola-4.6.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/git_cola-4.6.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/git_cola-4.6.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/git_cola-4.6.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/WHEEL
 * /usr/share/applications/git-cola-folder-handler.desktop
 * /usr/share/applications/git-cola.desktop
 * /usr/share/applications/git-dag.desktop
-* /usr/share/doc/git-cola-4.6.1/COPYING
-* /usr/share/doc/git-cola-4.6.1/COPYRIGHT
-* /usr/share/doc/git-cola-4.6.1/README.md
+* /usr/share/doc/git-cola-4.7.1/COPYING
+* /usr/share/doc/git-cola-4.7.1/COPYRIGHT
+* /usr/share/doc/git-cola-4.7.1/README.md
 * /usr/share/doc/git-cola/hotkeys.html
 * /usr/share/doc/git-cola/hotkeys_de.html
 * /usr/share/doc/git-cola/hotkeys_zh_CN.html

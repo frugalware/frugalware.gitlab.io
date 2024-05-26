@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-12 12.18-1"
-version = "12.18-1"
+title = "postgresql-upgrade-from-12 12.19-1"
+version = "12.19-1"
 description = "Seperate latest 12 PGSQL for pg_upgrade"
-date = "2024-02-26T20:58:50"
+date = "2024-05-26T19:25:48"
 aliases = "/packages/220236"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "459120"
-usize = "2321152"
-sha1sum = "1fb805fc0161e12d2d1e86a4b5097e21ac19b0f6"
-depends = "['libpq>=12.18', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
+size = "461824"
+usize = "2321536"
+sha1sum = "67fba215bc3606962118f25cfc1014be282b5236"
+depends = "['libpq>=12.19', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 12 PGSQL for pg_upgrade
@@ -302,11 +302,11 @@ Seperate latest 12 PGSQL for pg_upgrade
 * /opt/pgsql-12/share/extension/xml2.control
 * /opt/pgsql-12/share/tsearch_data/unaccent.rules
 * /opt/pgsql-12/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-12-12.18/README
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-12-12.19/README
