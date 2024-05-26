@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-15 15.6-1"
-version = "15.6-1"
+title = "postgresql-upgrade-from-15 15.7-1"
+version = "15.7-1"
 description = "Seperate latest 15 PGSQL for pg_upgrade"
-date = "2024-02-26T20:38:47"
+date = "2024-05-26T17:07:54"
 aliases = "/packages/221121"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "485996"
-usize = "2391543"
-sha1sum = "2c4210c613b23bd26541e1a0c9f6956d4cbdc530"
-depends = "['libpq>=15.6', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
+size = "490236"
+usize = "2396183"
+sha1sum = "1d68734049138df554cbcb7675ddc9c537b9d47a"
+depends = "['libpq>=15.7', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.12', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 15 PGSQL for pg_upgrade
@@ -294,11 +294,11 @@ Seperate latest 15 PGSQL for pg_upgrade
 * /opt/pgsql-15/share/extension/xml2.control
 * /opt/pgsql-15/share/tsearch_data/unaccent.rules
 * /opt/pgsql-15/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-15-15.6/README
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-15-15.7/README
