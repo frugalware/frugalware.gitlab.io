@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-pltcl 16.2-3"
-version = "16.2-3"
+title = "postgresql-pltcl 16.3-1"
+version = "16.3-1"
 description = "PostgreSQL tcl bindings"
-date = "2024-05-15T20:16:37"
+date = "2024-05-26T17:02:28"
 aliases = "/packages/217919"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "24860"
+size = "24832"
 usize = "67504"
-sha1sum = "07dafcc21086bc176f44ae1f6ec81c1e54fd170e"
-depends = "['postgresql>=16.2', 'tcl>=8.6.8']"
+sha1sum = "26c5f244e8a418b0248c04cfb4bf76f648549aaf"
+depends = "['postgresql>=16.3', 'tcl>=8.6.8']"
 +++
 ### Description: 
 PostgreSQL tcl bindings

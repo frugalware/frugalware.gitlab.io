@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql 16.2-3"
-version = "16.2-3"
+title = "postgresql 16.3-1"
+version = "16.3-1"
 description = "An advanced Object-Relational database management system (DBMS)"
-date = "2024-05-15T20:16:37"
+date = "2024-05-26T17:02:28"
 aliases = "/packages/3297"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "7080592"
-usize = "26429288"
-sha1sum = "251d3c2ed934568e187f673b1015528a4ea2d357"
-depends = "['icu4c>=75.1', 'libpq>=16.2', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
+size = "7085084"
+usize = "26444547"
+sha1sum = "33db69111355145c82c02ee9c733c3163b72f10f"
+depends = "['icu4c>=75.1', 'libpq>=16.3', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', 'postgresql-plpython', 'postgresql-pltcl', 'vtk']"
 +++
 ### Description: 
@@ -987,10 +987,10 @@ An advanced Object-Relational database management system (DBMS)
 * /usr/lib/postgresql/utf8_and_uhc.so
 * /usr/lib/postgresql/utf8_and_win.so
 * /usr/lib/systemd/system/postgresql.service
-* /usr/share/doc/postgresql-16.2/COPYRIGHT
-* /usr/share/doc/postgresql-16.2/HISTORY
-* /usr/share/doc/postgresql-16.2/INSTALL
-* /usr/share/doc/postgresql-16.2/README
+* /usr/share/doc/postgresql-16.3/COPYRIGHT
+* /usr/share/doc/postgresql-16.3/HISTORY
+* /usr/share/doc/postgresql-16.3/INSTALL
+* /usr/share/doc/postgresql-16.3/README
 * /usr/share/man/man1/clusterdb.1.gz
 * /usr/share/man/man1/createdb.1.gz
 * /usr/share/man/man1/createuser.1.gz
@@ -1298,6 +1298,7 @@ An advanced Object-Relational database management system (DBMS)
 * /usr/share/pgsql/extension/pltcl.control
 * /usr/share/pgsql/extension/pltclu--1.0.sql
 * /usr/share/pgsql/extension/pltclu.control
+* /usr/share/pgsql/fix-CVE-2024-4317.sql
 * /usr/share/pgsql/information_schema.sql
 * /usr/share/pgsql/pg_hba.conf.sample
 * /usr/share/pgsql/pg_ident.conf.sample
