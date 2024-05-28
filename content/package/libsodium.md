@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsodium 1.0.19-1"
-version = "1.0.19-1"
+title = "libsodium 1.0.20-1"
+version = "1.0.20-1"
 description = "Sodium is a portable, cross-compilable, installable, packageable fork of NaCl"
-date = "2023-11-19T13:26:45"
+date = "2024-05-27T09:59:21"
 aliases = "/packages/200215"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/jedisct1/libsodium"
 arch = "x86_64"
-size = "180928"
-usize = "589002"
-sha1sum = "082264dc17218d8e35ccea218fd5e38266ff4f56"
+size = "182052"
+usize = "598703"
+sha1sum = "b87d9429a8e17b9671eb77b4257584f076596296"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['adios2', 'dovecot', 'gnunet', 'keysmith', 'ostree', 'pdns-recursor', 'remmina', 'rspamd', 'tox-core', 'usbguard', 'warzone2100', 'zeromq']"
 +++
@@ -87,10 +87,10 @@ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl
 * /usr/include/sodium/version.h
 * /usr/lib/libsodium.so
 * /usr/lib/libsodium.so.26
-* /usr/lib/libsodium.so.26.1.0
+* /usr/lib/libsodium.so.26.2.0
 * /usr/lib/pkgconfig/libsodium.pc
-* /usr/share/doc/libsodium-1.0.19/AUTHORS
-* /usr/share/doc/libsodium-1.0.19/ChangeLog
-* /usr/share/doc/libsodium-1.0.19/LICENSE
-* /usr/share/doc/libsodium-1.0.19/README.markdown
-* /usr/share/doc/libsodium-1.0.19/THANKS
+* /usr/share/doc/libsodium-1.0.20/AUTHORS
+* /usr/share/doc/libsodium-1.0.20/ChangeLog
+* /usr/share/doc/libsodium-1.0.20/LICENSE
+* /usr/share/doc/libsodium-1.0.20/README.markdown
+* /usr/share/doc/libsodium-1.0.20/THANKS

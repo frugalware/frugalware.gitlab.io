@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt-sdl 7.18.0-3"
-version = "7.18.0-3"
+title = "mlt-sdl 7.24.0-2"
+version = "7.24.0-2"
 description = "SDL module for mlt"
-date = "2024-03-28T19:28:28"
+date = "2024-05-27T07:37:04"
 aliases = "/packages/218382"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "20356"
-usize = "46792"
-sha1sum = "80bb24b11a8b6ca8afffb8bdec7d3a0694939b00"
+size = "20600"
+usize = "46872"
+sha1sum = "f65000582b270d9cbb03b4428275c58a3a63bde3"
 depends = "['mlt', 'sdlimage']"
 reverse_depends = "['kdenlive']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libuv 1.48.0-1"
-version = "1.48.0-1"
+title = "libuv 1.48.0-2"
+version = "1.48.0-2"
 description = "Multi-platform support library with a focus on asynchronous I/O"
-date = "2024-02-20T14:25:45"
+date = "2024-05-28T09:42:54"
 aliases = "/packages/219701"
 categories = ['lib']
 upstreamurl = "https://github.com/libuv/libuv"
 arch = "x86_64"
-size = "151476"
-usize = "523411"
-sha1sum = "9b73b4c275dc6d5f8283396661d21bb7b61b55e2"
+size = "151684"
+usize = "523491"
+sha1sum = "cfe2932f7c41c89b46952ed6c977f6c5825c3823"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bind', 'cmake', 'libluv', 'libwebsockets', 'nodejs18', 'ocaml-luv']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "phonon-backend-gstreamer 4.10.0-8"
-version = "4.10.0-8"
+title = "phonon-backend-gstreamer 4.10.0-9"
+version = "4.10.0-9"
 description = "Phonon gstreamer backend."
-date = "2024-03-29T09:56:14"
+date = "2024-05-27T07:49:39"
 aliases = "/packages/74735"
 categories = ['phonon-backend']
 upstreamurl = "https://github.com/KDE/phonon-gstreamer"
 arch = "x86_64"
-size = "112372"
+size = "112052"
 usize = "350207"
-sha1sum = "cf12826dcb51eba9d3050b5ff391ca17278c7ee9"
-depends = "['gst1-plugins-base>=1.8.1', 'phonon-qt5', 'qt5-x11extras>=5.15.10']"
+sha1sum = "37e00a6f2bd1befb9e986cef4444aab1327983be"
+depends = "['gst1-plugins-base>=1.8.1', 'phonon-qt5', 'phonon-qt6>=4.9.0', 'qt5-x11extras>=5.15.10']"
 +++
 ### Description: 
 Phonon gstreamer backend.

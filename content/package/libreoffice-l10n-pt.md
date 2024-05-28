@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-pt 24.2.3.2-3"
-version = "24.2.3.2-3"
+title = "libreoffice-l10n-pt 24.2.3.2-4"
+version = "24.2.3.2-4"
 description = "Installs Portuguese support in LibreOffice"
-date = "2024-05-22T19:56:10"
+date = "2024-05-27T08:55:22"
 aliases = "/packages/104105"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4608488"
+size = "4608856"
 usize = "35489215"
-sha1sum = "02c4c266136bb53ee60c0b5d07a2df615aa89a92"
+sha1sum = "00aa2568f2ab0eadf0530f47a54c42e3cf42f70e"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

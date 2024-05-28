@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pinentry-fltk 1.3.0-1"
-version = "1.3.0-1"
+title = "pinentry-fltk 1.3.0-3"
+version = "1.3.0-3"
 description = "FLTK based Applications for entering PINs or Passphrases."
-date = "2024-04-08T09:06:55"
+date = "2024-05-27T09:30:07"
 aliases = "/packages/221422"
 categories = ['xapps-extra']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/pinentry/"
 arch = "x86_64"
-size = "37256"
-usize = "100824"
-sha1sum = "f9a38ec44a768b877d5d3a08513932b70f58cf8f"
+size = "38308"
+usize = "104920"
+sha1sum = "fe87062e76bfa38a58ce50cd138eacc5626a97db"
 depends = "['fltk', 'pinentry>=1.3.0']"
 +++
 ### Description: 

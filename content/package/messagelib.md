@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "messagelib 24.02.2-3"
-version = "24.02.2-3"
+title = "messagelib 24.05.0-1"
+version = "24.05.0-1"
 description = "KdePim message library."
-date = "2024-04-16T23:29:28"
+date = "2024-05-24T14:10:31"
 aliases = "/packages/218480"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6596000"
-usize = "18512505"
-sha1sum = "145ad58dbfdf0a8c95ee81495d3234a2eae4875c"
-depends = "['akonadi-notes>=24.02.2', 'kidentitymanagement>=24.02.2', 'kmailtransport>=24.02.2', 'ktextaddons>=1.3.1', 'libgravatar>=24.02.2', 'qca']"
+size = "6634988"
+usize = "18787633"
+sha1sum = "7b6c9b1a42032d47f9cb7b340c379e68fcbb53ed"
+depends = "['akonadi-notes>=24.05.0', 'kidentitymanagement>=24.05.0', 'kmailtransport>=24.05.0', 'ktextaddons>=1.3.1', 'libgravatar>=24.05.0', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -528,8 +528,6 @@ KdePim message library.
 * /usr/include/KPim6/WebEngineViewer/webengineviewer/updatedatabaseinfo.h
 * /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineAccessKey
 * /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineaccesskey.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineExportHtmlPageJob
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineexporthtmlpagejob.h
 * /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineExportPdfPageJob
 * /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineexportpdfpagejob.h
 * /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineManageScript
@@ -578,25 +576,25 @@ KdePim message library.
 * /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
 * /usr/lib/libKPim6MessageComposer.so
 * /usr/lib/libKPim6MessageComposer.so.6
-* /usr/lib/libKPim6MessageComposer.so.6.0.2
+* /usr/lib/libKPim6MessageComposer.so.6.1.0
 * /usr/lib/libKPim6MessageCore.so
 * /usr/lib/libKPim6MessageCore.so.6
-* /usr/lib/libKPim6MessageCore.so.6.0.2
+* /usr/lib/libKPim6MessageCore.so.6.1.0
 * /usr/lib/libKPim6MessageList.so
 * /usr/lib/libKPim6MessageList.so.6
-* /usr/lib/libKPim6MessageList.so.6.0.2
+* /usr/lib/libKPim6MessageList.so.6.1.0
 * /usr/lib/libKPim6MessageViewer.so
 * /usr/lib/libKPim6MessageViewer.so.6
-* /usr/lib/libKPim6MessageViewer.so.6.0.2
+* /usr/lib/libKPim6MessageViewer.so.6.1.0
 * /usr/lib/libKPim6MimeTreeParser.so
 * /usr/lib/libKPim6MimeTreeParser.so.6
-* /usr/lib/libKPim6MimeTreeParser.so.6.0.2
+* /usr/lib/libKPim6MimeTreeParser.so.6.1.0
 * /usr/lib/libKPim6TemplateParser.so
 * /usr/lib/libKPim6TemplateParser.so.6
-* /usr/lib/libKPim6TemplateParser.so.6.0.2
+* /usr/lib/libKPim6TemplateParser.so.6.1.0
 * /usr/lib/libKPim6WebEngineViewer.so
 * /usr/lib/libKPim6WebEngineViewer.so.6
-* /usr/lib/libKPim6WebEngineViewer.so.6.0.2
+* /usr/lib/libKPim6WebEngineViewer.so.6.1.0
 * /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
 * /usr/share/config.kcfg/customtemplates_kfg.kcfg
@@ -632,9 +630,13 @@ KdePim message library.
 * /usr/share/locale/ar/LC_MESSAGES/libmimetreeparser6.mo
 * /usr/share/locale/ar/LC_MESSAGES/libtemplateparser6.mo
 * /usr/share/locale/ar/LC_MESSAGES/libwebengineviewer6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libmessagecomposer6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmessagecore6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libmessagelist6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmimetreeparser6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libtemplateparser6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libwebengineviewer6.mo
 * /usr/share/locale/be/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/be/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/be/LC_MESSAGES/libmimetreeparser6.mo
@@ -769,9 +771,13 @@ KdePim message library.
 * /usr/share/locale/gl/LC_MESSAGES/libmimetreeparser6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libtemplateparser6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libwebengineviewer6.mo
+* /usr/share/locale/he/LC_MESSAGES/libmessagecomposer6.mo
+* /usr/share/locale/he/LC_MESSAGES/libmessagecore6.mo
 * /usr/share/locale/he/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/he/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/he/LC_MESSAGES/libmimetreeparser6.mo
+* /usr/share/locale/he/LC_MESSAGES/libtemplateparser6.mo
+* /usr/share/locale/he/LC_MESSAGES/libwebengineviewer6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmimetreeparser6.mo
@@ -845,10 +851,13 @@ KdePim message library.
 * /usr/share/locale/lt/LC_MESSAGES/libmimetreeparser6.mo
 * /usr/share/locale/lt/LC_MESSAGES/libtemplateparser6.mo
 * /usr/share/locale/lt/LC_MESSAGES/libwebengineviewer6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libmessagecomposer6.mo
 * /usr/share/locale/lv/LC_MESSAGES/libmessagecore6.mo
 * /usr/share/locale/lv/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/lv/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/lv/LC_MESSAGES/libmimetreeparser6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libtemplateparser6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libwebengineviewer6.mo
 * /usr/share/locale/mai/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/mai/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/mai/LC_MESSAGES/libmimetreeparser6.mo

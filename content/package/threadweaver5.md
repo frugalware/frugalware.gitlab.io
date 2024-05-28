@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "72312"
 usize = "283015"
 sha1sum = "529334760b619bb6d74fc6fdb99da10992776197"
-depends = "['qt5-base>=5.15.12']"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['krunner5']"
 +++
 ### Description: 
@@ -92,7 +92,7 @@ KDE Helper for multithreaded programming.
 * /usr/lib/cmake/KF5ThreadWeaver/KF5ThreadWeaverTargets.cmake
 * /usr/lib/libKF5ThreadWeaver.so
 * /usr/lib/libKF5ThreadWeaver.so.5
-* /usr/lib/libKF5ThreadWeaver.so.5.115.0
-* /usr/share/doc/threadweaver5-5.115.0/COPYING.LIB
-* /usr/share/doc/threadweaver5-5.115.0/README.md
+* /usr/lib/libKF5ThreadWeaver.so.5.116.0
+* /usr/share/doc/threadweaver5-5.116.0/COPYING.LIB
+* /usr/share/doc/threadweaver5-5.116.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_ThreadWeaver.pri

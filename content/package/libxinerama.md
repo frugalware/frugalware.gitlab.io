@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxinerama 1.1.5-2"
-version = "1.1.5-2"
+title = "libxinerama 1.1.5-3"
+version = "1.1.5-3"
 description = "X.Org Xinemara library"
-date = "2023-09-05T11:05:27"
+date = "2024-05-28T11:16:23"
 aliases = "/packages/4797"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "23736"
+size = "23748"
 usize = "69030"
-sha1sum = "a0585779db61a5d5080155b7c150248b01b18ee2"
+sha1sum = "c1f66c8c620d8fe2d0e1266066c32eaf9fb8a39f"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
 reverse_depends = "['argyllcms', 'box2d', 'conky', 'dmenu', 'dunst', 'dzen', 'efl', 'enlightenment', 'feh', 'fltk', 'freerdp', 'geogram', 'gtk+2-libs', 'gtk+4', 'ksubeditor', 'ksubtile', 'mpv', 'obs-studio', 'openbox', 'opendiablo2', 'openjre-x', 'spice-vdagent', 'ssr', 'terminology', 'virtualbox', 'vlc-skins', 'wine', 'wine-devel', 'xf86-input-wacom', 'xf86-video-intel', 'xine-lib', 'xinput', 'xterm']"
 license = "GPL2"

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meshroom 2023.3.0-3"
-version = "2023.3.0-3"
+title = "meshroom 2023.3.0-4"
+version = "2023.3.0-4"
 description = "3D Reconstruction Software"
-date = "2024-04-28T14:59:34"
+date = "2024-05-27T04:44:16"
 aliases = "/packages/220139"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/alicevision/meshroom"
 arch = "x86_64"
-size = "13376580"
-usize = "48153680"
-sha1sum = "2acad086a3e1dc8f933d7ac17d1dd4e65e1cb159"
+size = "13201192"
+usize = "48227645"
+sha1sum = "3a3717756a22b3c47d310bd596800c3ee7395a1c"
 depends = "['alicevision', 'libffi>=3.4', 'ncurses>=6.5', 'python3>=3.11', 'python3-markdown', 'python3-psutil', 'qmlalembic', 'qt5-3d>=5.15.10', 'qt5-graphicaleffects>=5.15.10', 'qt5-imageformats>=5.15.10', 'qt5-location>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'qtoiio']"
 +++
 ### Description: 

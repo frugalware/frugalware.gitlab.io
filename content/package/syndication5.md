@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "syndication5 5.115.0-3"
-version = "5.115.0-3"
+title = "syndication5 5.116.0-2"
+version = "5.116.0-2"
 description = "KParts Kontact interface."
-date = "2024-03-15T11:52:47"
+date = "2024-05-26T17:08:54"
 aliases = "/packages/221388"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "185968"
-usize = "777982"
-sha1sum = "589f22e0c44591dae40daa04a4188533d6440e45"
-depends = "['kio5>=5.115.0']"
+size = "186468"
+usize = "786262"
+sha1sum = "57de36ef281ec5ad5260fd009d275c990d9488b5"
+depends = "['kio5>=5.116.0']"
 reverse_depends = "['knewstuff5']"
 +++
 ### Description: 
@@ -156,8 +156,8 @@ KParts Kontact interface.
 * /usr/lib/cmake/KF5Syndication/KF5SyndicationTargets.cmake
 * /usr/lib/libKF5Syndication.so
 * /usr/lib/libKF5Syndication.so.5
-* /usr/lib/libKF5Syndication.so.5.115.0
-* /usr/share/doc/syndication5-5.115.0/README.md
+* /usr/lib/libKF5Syndication.so.5.116.0
+* /usr/share/doc/syndication5-5.116.0/README.md
 * /usr/share/qlogging-categories5/syndication.categories
 * /usr/share/qlogging-categories5/syndication.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Syndication.pri

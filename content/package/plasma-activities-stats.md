@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-activities-stats 6.0.4-1"
-version = "6.0.4-1"
+title = "plasma-activities-stats 6.0.5-1"
+version = "6.0.5-1"
 description = "Library for accessing the usage statistics data collected by the KDE activity manager."
-date = "2024-04-16T20:04:21"
+date = "2024-05-22T09:58:19"
 aliases = "/packages/221375"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "83792"
-usize = "290132"
-sha1sum = "d252289f14139e0eaf1cd64121aa988109f227b5"
-depends = "['kio>=6.1.0', 'plasma-activities>=6.0.4']"
+size = "84752"
+usize = "294316"
+sha1sum = "b350a5919dde4a695a54724893c86369c4006bb1"
+depends = "['kio>=6.2.0', 'plasma-activities>=6.0.5']"
 reverse_depends = "['kio-extras', 'plasma-desktop', 'plasma-workspace', 'sweeper']"
 +++
 ### Description: 
@@ -38,10 +38,10 @@ Library for accessing the usage statistics data collected by the KDE activity ma
 * /usr/lib/cmake/PlasmaActivitiesStats/PlasmaActivitiesStatsLibraryTargets.cmake
 * /usr/lib/libPlasmaActivitiesStats.so
 * /usr/lib/libPlasmaActivitiesStats.so.1
-* /usr/lib/libPlasmaActivitiesStats.so.6.0.4
+* /usr/lib/libPlasmaActivitiesStats.so.6.0.5
 * /usr/lib/pkgconfig/PlasmaActivitiesStats.pc
-* /usr/share/doc/plasma-activities-stats-6.0.4/README.developers
-* /usr/share/doc/plasma-activities-stats-6.0.4/README.md
-* /usr/share/doc/plasma-activities-stats-6.0.4/TODO
+* /usr/share/doc/plasma-activities-stats-6.0.5/README.developers
+* /usr/share/doc/plasma-activities-stats-6.0.5/README.md
+* /usr/share/doc/plasma-activities-stats-6.0.5/TODO
 * /usr/share/qlogging-categories6/plasma-activities-stats.categories
 * /usr/share/qlogging-categories6/plasma-activities-stats.renamecategories

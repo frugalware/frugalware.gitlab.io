@@ -1,25 +1,26 @@
 +++
 draft = false
-title = "neochat 24.02.2-4"
-version = "24.02.2-4"
+title = "neochat 24.05.0-1"
+version = "24.05.0-1"
 description = "A client for matrix, the decentralized communication protocol"
-date = "2024-05-20T21:12:28"
+date = "2024-05-25T13:23:41"
 aliases = "/packages/220990"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1318880"
-usize = "6471008"
-sha1sum = "4c2b5c59af6448bc2fc4c7f86ed6e1d2e41319ae"
-depends = "['cmark>=0.31.0', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'kstatusnotifieritem', 'libquotient', 'qqc2-desktop-style', 'qt6-webview', 'syntax-highlighting']"
+size = "1660640"
+usize = "8552585"
+sha1sum = "78d6af3a4c168a6ee960ee17bd628ae4056937dd"
+depends = "['cmark>=0.31.0', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'kstatusnotifieritem', 'libquotient', 'purpose', 'qqc2-desktop-style', 'qt6-webview', 'syntax-highlighting']"
 +++
 ### Description: 
 A client for matrix, the decentralized communication protocol
 
 ### Files: 
 * /usr/bin/neochat
+* /usr/lib/qt6/plugins/kf6/purpose/neochatplugin.so
 * /usr/share/applications/org.kde.neochat.desktop
-* /usr/share/doc/neochat-24.02.2/README.md
+* /usr/share/doc/neochat-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.tray.svg
 * /usr/share/knotifications6/neochat.notifyrc
@@ -48,6 +49,7 @@ A client for matrix, the decentralized communication protocol
 * /usr/share/locale/ka/LC_MESSAGES/neochat.mo
 * /usr/share/locale/ko/LC_MESSAGES/neochat.mo
 * /usr/share/locale/lt/LC_MESSAGES/neochat.mo
+* /usr/share/locale/lv/LC_MESSAGES/neochat.mo
 * /usr/share/locale/nl/LC_MESSAGES/neochat.mo
 * /usr/share/locale/nn/LC_MESSAGES/neochat.mo
 * /usr/share/locale/pa/LC_MESSAGES/neochat.mo

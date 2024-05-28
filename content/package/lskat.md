@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lskat 24.02.2-3"
-version = "24.02.2-3"
+title = "lskat 24.05.0-1"
+version = "24.05.0-1"
 description = "Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players"
-date = "2024-04-17T00:57:01"
+date = "2024-05-24T16:07:22"
 aliases = "/packages/219342"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1309292"
-usize = "4933866"
-sha1sum = "3b7241154dfce2dba91c7230ce79bf337d9c2294"
-depends = "['libkdegames>=24.02.2']"
+size = "1414532"
+usize = "2188952"
+sha1sum = "1c87ab7bb1b02f6742fba285400eee0988174db2"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players
@@ -49,10 +49,8 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/doc/HTML/sv/lskat/index.docbook
 * /usr/share/doc/HTML/uk/lskat/index.cache.bz2
 * /usr/share/doc/HTML/uk/lskat/index.docbook
-* /usr/share/doc/lskat-24.02.2/AUTHORS
-* /usr/share/doc/lskat-24.02.2/INSTALL
-* /usr/share/doc/lskat-24.02.2/README
-* /usr/share/doc/lskat-24.02.2/README.PACKAGERS
+* /usr/share/doc/lskat-24.05.0/AUTHORS
+* /usr/share/doc/lskat-24.05.0/README
 * /usr/share/icons/hicolor/128x128/apps/lskat.png
 * /usr/share/icons/hicolor/16x16/apps/lskat.png
 * /usr/share/icons/hicolor/22x22/apps/lskat.png
@@ -132,14 +130,14 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/locale/xh/LC_MESSAGES/lskat.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/lskat.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/lskat.mo
-* /usr/share/lskat/grafix/blue.desktop
-* /usr/share/lskat/grafix/blue.rc
-* /usr/share/lskat/grafix/blue.svg
-* /usr/share/lskat/grafix/egyptian.desktop
-* /usr/share/lskat/grafix/egyptian.rc
-* /usr/share/lskat/grafix/egyptian.svg
-* /usr/share/lskat/grafix/oxygen.desktop
-* /usr/share/lskat/grafix/oxygen.rc
-* /usr/share/lskat/grafix/oxygen.svg
+* /usr/share/lskat/themes/blue.desktop
+* /usr/share/lskat/themes/blue.rc
+* /usr/share/lskat/themes/blue.svgz
+* /usr/share/lskat/themes/egyptian.desktop
+* /usr/share/lskat/themes/egyptian.rc
+* /usr/share/lskat/themes/egyptian.svgz
+* /usr/share/lskat/themes/oxygen.desktop
+* /usr/share/lskat/themes/oxygen.rc
+* /usr/share/lskat/themes/oxygen.svgz
 * /usr/share/metainfo/org.kde.lskat.appdata.xml
 * /usr/share/qlogging-categories6/lskat.categories

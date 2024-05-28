@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "networkmanager-qt5 5.115.0-3"
-version = "5.115.0-3"
+title = "networkmanager-qt5 5.116.0-2"
+version = "5.116.0-2"
 description = "Qt wrapper for NetworkManager API."
-date = "2024-03-15T11:48:00"
+date = "2024-05-26T16:24:05"
 aliases = "/packages/221368"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "315160"
-usize = "1439756"
-sha1sum = "6c434370f2533c9c0d084766984448103f823f8d"
-depends = "['networkmanager>=1.6.2', 'qt5-base>=5.15.12']"
+size = "316784"
+usize = "1448036"
+sha1sum = "7c24c9e5305d21a0e8f26f70add5f798d1bd5120"
+depends = "['networkmanager>=1.6.2', 'qt5-base>=5.15.14']"
 +++
 ### Description: 
 Qt wrapper for NetworkManager API.
@@ -160,9 +160,9 @@ Qt wrapper for NetworkManager API.
 * /usr/lib/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets-release.cmake
 * /usr/lib/cmake/KF5NetworkManagerQt/KF5NetworkManagerQtTargets.cmake
 * /usr/lib/libKF5NetworkManagerQt.so
-* /usr/lib/libKF5NetworkManagerQt.so.5.115.0
+* /usr/lib/libKF5NetworkManagerQt.so.5.116.0
 * /usr/lib/libKF5NetworkManagerQt.so.6
-* /usr/share/doc/networkmanager-qt5-5.115.0/README.md
-* /usr/share/doc/networkmanager-qt5-5.115.0/TODO
+* /usr/share/doc/networkmanager-qt5-5.116.0/README.md
+* /usr/share/doc/networkmanager-qt5-5.116.0/TODO
 * /usr/share/qlogging-categories5/networkmanagerqt.categories
 * /usr/share/qlogging-categories5/networkmanagerqt.renamecategories

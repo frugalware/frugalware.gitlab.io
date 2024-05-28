@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "78384"
 usize = "303208"
 sha1sum = "fa0920e77eb5ea745cbcb9987cf4fde4059f720c"
-depends = "['qt6-base>=6.7.0']"
+depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['kasts', 'kate', 'krunner', 'okular']"
 +++
 ### Description: 
@@ -92,6 +92,6 @@ KDE Helper for multithreaded programming.
 * /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverTargets.cmake
 * /usr/lib/libKF6ThreadWeaver.so
 * /usr/lib/libKF6ThreadWeaver.so.6
-* /usr/lib/libKF6ThreadWeaver.so.6.1.0
-* /usr/share/doc/threadweaver-6.1.0/COPYING.LIB
-* /usr/share/doc/threadweaver-6.1.0/README.md
+* /usr/lib/libKF6ThreadWeaver.so.6.2.0
+* /usr/share/doc/threadweaver-6.2.0/COPYING.LIB
+* /usr/share/doc/threadweaver-6.2.0/README.md

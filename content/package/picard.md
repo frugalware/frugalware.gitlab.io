@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "picard 2.9.2-3"
-version = "2.9.2-3"
+title = "picard 2.11-1"
+version = "2.11-1"
 description = "The next generation MusicBrainz tagger"
-date = "2024-03-28T19:29:32"
+date = "2024-05-28T07:59:56"
 aliases = "/packages/219040"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://musicbrainz.org/doc/PicardTagger"
 arch = "x86_64"
-size = "2380744"
-usize = "11798083"
-sha1sum = "c2dacd7eaf0fa94040bf61ce98186257c05d3b04"
+size = "2414212"
+usize = "12492584"
+sha1sum = "e473244a4c87a31f25eccc6a609c6fd20b01d7ee"
 depends = "['ffmpeg>=3.3.2', 'libdiscid', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt5>=5.9.2', 'python3>=3.9.6']"
 +++
 ### Description: 
@@ -18,18 +18,21 @@ The next generation MusicBrainz tagger
 
 ### Files: 
 * /usr/bin/picard
-* /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/picard-2.9.2-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/picard/acoustid/json_helpers.py
 * /usr/lib/python3.12/site-packages/picard/acoustid/manager.py
+* /usr/lib/python3.12/site-packages/picard/acoustid/recordings.py
 * /usr/lib/python3.12/site-packages/picard/acoustid/__init__.py
 * /usr/lib/python3.12/site-packages/picard/acoustid/__pycache__/json_helpers.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/acoustid/__pycache__/manager.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/picard/acoustid/__pycache__/recordings.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/acoustid/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/album.py
+* /usr/lib/python3.12/site-packages/picard/audit.py
 * /usr/lib/python3.12/site-packages/picard/browser/addrelease.py
 * /usr/lib/python3.12/site-packages/picard/browser/browser.py
 * /usr/lib/python3.12/site-packages/picard/browser/filelookup.py
@@ -142,6 +145,7 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/tagger.py
 * /usr/lib/python3.12/site-packages/picard/track.py
 * /usr/lib/python3.12/site-packages/picard/ui/aboutdialog.py
+* /usr/lib/python3.12/site-packages/picard/ui/caa_types_selector.py
 * /usr/lib/python3.12/site-packages/picard/ui/cdlookup.py
 * /usr/lib/python3.12/site-packages/picard/ui/checkbox_list_item.py
 * /usr/lib/python3.12/site-packages/picard/ui/collectionmenu.py
@@ -216,6 +220,7 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/ui/options/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/passworddialog.py
 * /usr/lib/python3.12/site-packages/picard/ui/playertoolbar.py
+* /usr/lib/python3.12/site-packages/picard/ui/pluginupdatedialog.py
 * /usr/lib/python3.12/site-packages/picard/ui/ratingwidget.py
 * /usr/lib/python3.12/site-packages/picard/ui/savewarningdialog.py
 * /usr/lib/python3.12/site-packages/picard/ui/scripteditor.py
@@ -296,6 +301,7 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/ui/widgets/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__init__.py
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/aboutdialog.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/picard/ui/__pycache__/caa_types_selector.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/cdlookup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/checkbox_list_item.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/collectionmenu.cpython-312.pyc
@@ -314,6 +320,7 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/newuserdialog.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/passworddialog.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/playertoolbar.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/picard/ui/__pycache__/pluginupdatedialog.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/ratingwidget.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/savewarningdialog.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/ui/__pycache__/scripteditor.cpython-312.pyc
@@ -439,6 +446,7 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/webservice/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__init__.py
 * /usr/lib/python3.12/site-packages/picard/__pycache__/album.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/picard/__pycache__/audit.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/cluster.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/collection.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/config.cpython-312.pyc
@@ -460,9 +468,9 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/__pycache__/track.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/picard-2.9.2/COPYING.txt
-* /usr/share/doc/picard-2.9.2/INSTALL.md
-* /usr/share/doc/picard-2.9.2/README.md
+* /usr/share/doc/picard-2.11/COPYING.txt
+* /usr/share/doc/picard-2.11/INSTALL.md
+* /usr/share/doc/picard-2.11/README.md
 * /usr/share/share/applications/org.musicbrainz.Picard.desktop
 * /usr/share/share/icons/hicolor/128x128/apps/org.musicbrainz.Picard.png
 * /usr/share/share/icons/hicolor/16x16/apps/org.musicbrainz.Picard.png
@@ -471,26 +479,33 @@ The next generation MusicBrainz tagger
 * /usr/share/share/icons/hicolor/32x32/apps/org.musicbrainz.Picard.png
 * /usr/share/share/icons/hicolor/48x48/apps/org.musicbrainz.Picard.png
 * /usr/share/share/icons/hicolor/scalable/apps/org.musicbrainz.Picard.svg
-* /usr/share/share/locale/af/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/ar/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ar/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/ast/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ast/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/bg/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/bg/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/bg/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/bn/LC_MESSAGES/picard-countries.mo
+* /usr/share/share/locale/ca/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ca/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ca/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/cs/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/cs/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/cs/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/cy/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/cy/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/cy/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/da/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/da/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/da/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/da/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/de/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/de/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/de/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/de/LC_MESSAGES/picard.mo
-* /usr/share/share/locale/de_CH/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/el/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/el/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/el/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/el/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/en_AU/LC_MESSAGES/picard-attributes.mo
@@ -503,75 +518,103 @@ The next generation MusicBrainz tagger
 * /usr/share/share/locale/en_GB/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/en_GB/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/eo/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/eo/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/eo/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/eo/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/es/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/es/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/es/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/es/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/es_419/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/es_419/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/et/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/et/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/et/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/et/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/fa/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/fa/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/fi/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/fi/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/fi/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/fi/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/fo/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/fo/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/fr/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/fr/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/fr/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/fr/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/fr_CA/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/fr_CA/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/fr_CA/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/fy/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/fy/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/gl/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/gl/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/gl/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/gl/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/he/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/he/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/he/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/he/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/hi/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/hi/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/hi/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/hr/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/hr/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/hr/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/hr/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/hu/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/hu/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/id/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/id/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/id/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/id/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/is/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/is/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/it/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/it/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/it/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/it/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/ja/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/ja/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ja/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ja/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/kn/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/ko/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ko/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ko/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/lt/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/lt/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/lt/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/mr/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/mr/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/mr/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/ms/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ms_MY/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/ms_MY/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ms_MY/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/nb/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/nb/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/nb/LC_MESSAGES/picard.mo
-* /usr/share/share/locale/nds/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/nb_NO/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/nb_NO/LC_MESSAGES/picard-constants.mo
+* /usr/share/share/locale/nb_NO/LC_MESSAGES/picard-countries.mo
+* /usr/share/share/locale/ne/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ne/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/nl/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/nl/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/nl/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/nl/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/nl_BE/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/oc/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/oc/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/oc/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/pa/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/pl/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/pl/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/pl/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/pl/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/pt/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/pt/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/pt/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/pt_BR/LC_MESSAGES/picard-attributes.mo
@@ -579,32 +622,42 @@ The next generation MusicBrainz tagger
 * /usr/share/share/locale/pt_BR/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/pt_PT/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/ro/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/ro/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ro/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ro/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/ru/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/ru/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ru/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ru/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/sco/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/sk/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/sk/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/sk/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/sk/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/sl/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/sl/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/sl/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/sq/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/sq/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/sq/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/sq/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/sr/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/sr/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/sr/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/sv/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/sv/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/sv/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/sv/LC_MESSAGES/picard.mo
-* /usr/share/share/locale/ta/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/te/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/te/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/te/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/tr/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/tr/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/tr/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/tr/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/uk/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/uk/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/vi/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/vi/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/vi/LC_MESSAGES/picard.mo
 * /usr/share/share/locale/zh-Hans/LC_MESSAGES/picard-attributes.mo
@@ -614,6 +667,10 @@ The next generation MusicBrainz tagger
 * /usr/share/share/locale/zh_CN/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/zh_CN/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/zh_CN/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/zh_Hans/LC_MESSAGES/picard-attributes.mo
+* /usr/share/share/locale/zh_Hans/LC_MESSAGES/picard-constants.mo
+* /usr/share/share/locale/zh_Hans/LC_MESSAGES/picard-countries.mo
+* /usr/share/share/locale/zh_Hant/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard.mo

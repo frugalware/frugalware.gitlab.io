@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-sieve-editor 24.02.2-3"
-version = "24.02.2-3"
+title = "pim-sieve-editor 24.05.0-1"
+version = "24.05.0-1"
 description = "Assistant for editing IMAP Sieve filters"
-date = "2024-04-17T00:09:05"
+date = "2024-05-24T14:51:11"
 aliases = "/packages/218942"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "558472"
-usize = "1380157"
-sha1sum = "3d3ed05a4af5c788fde87070175b57209b42e4b1"
-depends = "['libksieve>=24.02.2', 'messagelib>=24.02.2']"
+size = "546448"
+usize = "1380078"
+sha1sum = "7f6555ceb5a8b5c4a8e64ad9f254717d0c9a545b"
+depends = "['libksieve>=24.05.0', 'messagelib>=24.05.0']"
 +++
 ### Description: 
 Assistant for editing IMAP Sieve filters
@@ -19,7 +19,7 @@ Assistant for editing IMAP Sieve filters
 ### Files: 
 * /usr/bin/sieveeditor
 * /usr/lib/libsieveeditor.so.6
-* /usr/lib/libsieveeditor.so.6.0.2
+* /usr/lib/libsieveeditor.so.6.1.0
 * /usr/share/applications/org.kde.sieveeditor.desktop
 * /usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/sieveeditor/first-start.png
@@ -75,6 +75,7 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/locale/fi/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/fr/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/gl/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/he/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/ia/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/it/LC_MESSAGES/sieveeditor.mo

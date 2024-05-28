@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "radeon-profile 20200824-5"
-version = "20200824-5"
+title = "radeon-profile 20200824-6"
+version = "20200824-6"
 description = "Application to read current clocks of ATi Radeon cards (xf86-video-ati, xf86-video-amdgpu)"
-date = "2024-03-28T16:27:47"
+date = "2024-05-27T05:21:50"
 aliases = "/packages/219625"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/marazmista/radeon-profile"
 arch = "x86_64"
-size = "477180"
-usize = "1191944"
-sha1sum = "302549d635813847144db036cb2d6d77607482d9"
+size = "477504"
+usize = "1196040"
+sha1sum = "f1df56caa57e54017fdbb7d98ee3b2605a1b2f3d"
 depends = "['libdrm', 'libxrandr', 'libxrandr', 'mesademos', 'qt5-base>=5.15.10', 'qt5-charts>=5.15.10', 'radeon-profile-daemon', 'xdriinfo']"
 +++
 ### Description: 

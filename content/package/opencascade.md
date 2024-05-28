@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencascade 7.8.1-1"
-version = "7.8.1-1"
+title = "opencascade 7.8.1-2"
+version = "7.8.1-2"
 description = "SDK intended for development of applications dealing with 3D CAD data"
-date = "2024-04-18T09:50:43"
+date = "2024-05-27T06:42:16"
 aliases = "/packages/219825"
 categories = ['xlib-extra']
 upstreamurl = "https://dev.opencascade.org"
 arch = "x86_64"
-size = "31493316"
-usize = "157068455"
-sha1sum = "34c4ef96586854a86a9198b0544511e42a47c545"
+size = "31935280"
+usize = "158371663"
+sha1sum = "dfad015e406b28fb9b10343486c76f11921573c8"
 depends = "['freeimage', 'intel-tbb', 'libboost', 'tk', 'vtk']"
 reverse_depends = "['kicad']"
 +++

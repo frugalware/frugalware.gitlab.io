@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "q4wine 1.3.13-3"
-version = "1.3.13-3"
+title = "q4wine 1.3.13-4"
+version = "1.3.13-4"
 description = "Q4Wine is a Qt5 GUI for W.I.N.E."
-date = "2024-03-28T16:13:36"
+date = "2024-05-27T05:07:23"
 aliases = "/packages/184364"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/brezerk/q4wine"
 arch = "x86_64"
-size = "3154068"
-usize = "6798323"
-sha1sum = "8b6f97e829732e7ab8d24b34e3dbebb46798c973"
+size = "3156004"
+usize = "6810611"
+sha1sum = "f931fa1f0da935446b5f00a526ed1c74412c2d69"
 depends = "['fuseiso>=20070708-4', 'icoutils>=0.31.0-3', 'qt5-svg>=5.15.10']"
 +++
 ### Description: 

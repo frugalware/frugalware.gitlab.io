@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lxqt-build-tools 0.13.0-2"
-version = "0.13.0-2"
+title = "lxqt-build-tools 0.13.0-3"
+version = "0.13.0-3"
 description = "Various packaging tools and scripts for LXQt applications."
-date = "2024-03-28T14:49:09"
+date = "2024-05-26T21:49:58"
 aliases = "/packages/219175"
 categories = ['devel-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "25836"
+size = "25892"
 usize = "132595"
-sha1sum = "8b042e212526121e2197c84f0471ac1d42070f24"
+sha1sum = "1f1299e912af6b4a5dd6068142143f12509b2e6e"
 depends = "['cmake']"
 +++
 ### Description: 

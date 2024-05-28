@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qownnotes 23.6.4-3"
-version = "23.6.4-3"
+title = "qownnotes 24.5.8-1"
+version = "24.5.8-1"
 description = "Plain-text file notepad with markdown support and ownCloud integration"
-date = "2024-03-28T16:19:36"
+date = "2024-05-27T07:03:52"
 aliases = "/packages/218639"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qownnotes.org/"
 arch = "x86_64"
-size = "3841944"
-usize = "23163245"
-sha1sum = "ec360c209d22489a305fc2155ea53912d73d3030"
+size = "3906768"
+usize = "23625276"
+sha1sum = "f74179e34665a5c449fd50e42b12df6667de3b6a"
 depends = "['hicolor-icon-theme>=0.15-3', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-websockets>=5.15.10', 'qt5-x11extras>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Plain-text file notepad with markdown support and ownCloud integration
 ### Files: 
 * /usr/bin/QOwnNotes
 * /usr/share/applications/PBE.QOwnNotes.desktop
-* /usr/share/doc/qownnotes-23.6.4/LICENSE
-* /usr/share/doc/qownnotes-23.6.4/README.md
+* /usr/share/doc/qownnotes-24.5.8/LICENSE
+* /usr/share/doc/qownnotes-24.5.8/README.md
 * /usr/share/icons/hicolor/128x128/apps/QOwnNotes.png
 * /usr/share/icons/hicolor/16x16/apps/QOwnNotes.png
 * /usr/share/icons/hicolor/24x24/apps/QOwnNotes.png

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "opencv 4.9.0-4"
-version = "4.9.0-4"
+title = "opencv 4.9.0-6"
+version = "4.9.0-6"
 description = "Intel(R) Open Source Computer Vision Library"
-date = "2024-04-05T18:23:54"
+date = "2024-05-28T00:30:12"
 aliases = "/packages/118859"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "24417412"
-usize = "98783031"
-sha1sum = "c575416cad3208ab0b3449bc6c2fb5649bfa4c31"
+size = "23076304"
+usize = "94909159"
+sha1sum = "cb327c4e10acb802da0c260931e3877bc6ce002c"
 depends = "['eigen', 'ffmpeg', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper>=2.0.10', 'jasper', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.2.0', 'protobuf>=3.2.0', 'qt6-5compat', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3', 'zlib>=1.2.12', 'zlib>=1.2.12']"
-reverse_depends = "['digikam', 'gmic', 'gst1-plugins-bad-opencv', 'howdy', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous']"
+reverse_depends = "['digikam', 'gmic', 'gst1-plugins-bad-opencv', 'howdy', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous', 'spectacle']"
 +++
 ### Description: 
 Intel(R) Open Source Computer Vision Library
@@ -782,8 +782,6 @@ Intel(R) Open Source Computer Vision Library
 * /usr/share/doc/opencv-4.9.0/COPYRIGHT
 * /usr/share/doc/opencv-4.9.0/LICENSE
 * /usr/share/doc/opencv-4.9.0/README.md
-* /usr/share/java/opencv4/libopencv_java490.so
-* /usr/share/java/opencv4/opencv-490.jar
 * /usr/share/licenses/opencv4/ade-LICENSE
 * /usr/share/licenses/opencv4/flatbuffers-LICENSE.txt
 * /usr/share/licenses/opencv4/ippicv-EULA.txt

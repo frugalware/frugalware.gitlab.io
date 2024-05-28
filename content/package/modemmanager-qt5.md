@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "modemmanager-qt5 5.115.0-3"
-version = "5.115.0-3"
+title = "modemmanager-qt5 5.116.0-2"
+version = "5.116.0-2"
 description = "Qt-only wrapper for ModemManager DBus API."
-date = "2024-03-15T11:46:28"
+date = "2024-05-26T16:11:45"
 aliases = "/packages/221366"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "136924"
-usize = "608177"
-sha1sum = "4a08e333a840b18bd79854812a3225daa17cf2b4"
-depends = "['modemmanager>=1.6.2', 'qt5-base>=5.15.12']"
+size = "138584"
+usize = "620553"
+sha1sum = "2fc7d0f263ebf5c700ff9af0a35127838f7fa682"
+depends = "['modemmanager>=1.6.2', 'qt5-base>=5.15.14']"
 +++
 ### Description: 
 Qt-only wrapper for ModemManager DBus API.
@@ -64,9 +64,9 @@ Qt-only wrapper for ModemManager DBus API.
 * /usr/lib/cmake/KF5ModemManagerQt/KF5ModemManagerQtTargets-release.cmake
 * /usr/lib/cmake/KF5ModemManagerQt/KF5ModemManagerQtTargets.cmake
 * /usr/lib/libKF5ModemManagerQt.so
-* /usr/lib/libKF5ModemManagerQt.so.5.115.0
+* /usr/lib/libKF5ModemManagerQt.so.5.116.0
 * /usr/lib/libKF5ModemManagerQt.so.6
-* /usr/share/doc/modemmanager-qt5-5.115.0/README
-* /usr/share/doc/modemmanager-qt5-5.115.0/README.md
+* /usr/share/doc/modemmanager-qt5-5.116.0/README
+* /usr/share/doc/modemmanager-qt5-5.116.0/README.md
 * /usr/share/qlogging-categories5/modemmanagerqt.categories
 * /usr/share/qlogging-categories5/modemmanagerqt.renamecategories

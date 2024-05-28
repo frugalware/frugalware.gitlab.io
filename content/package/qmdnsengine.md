@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmdnsengine 0.2.0-3"
-version = "0.2.0-3"
+title = "qmdnsengine 0.2.0-4"
+version = "0.2.0-4"
 description = "Simple multicast DNS library for Qt"
-date = "2024-03-28T15:16:15"
+date = "2024-05-26T22:16:24"
 aliases = "/packages/221083"
 categories = ['network-extra']
 upstreamurl = "https://github.com/nitroshare/qmdnsengine"
 arch = "x86_64"
-size = "59260"
-usize = "230707"
-sha1sum = "64889b1915a0dd543de4934f7b3b07be22a21e5f"
+size = "59712"
+usize = "234891"
+sha1sum = "855cc19a0b70aa0615d7da560bebcb93e34cb3a2"
 depends = "['qt5-base']"
 reverse_depends = "['nitroshare']"
 +++

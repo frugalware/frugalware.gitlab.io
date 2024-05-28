@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skanpage 24.02.2-3"
-version = "24.02.2-3"
+title = "skanpage 24.05.0-1"
+version = "24.05.0-1"
 description = "Utility to scan images and multi-page documents"
-date = "2024-04-17T01:52:41"
+date = "2024-05-25T18:18:26"
 aliases = "/packages/220994"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "224948"
-usize = "1139665"
-sha1sum = "8ee5cec7badd8275c44c6371fa0a0bacb2f07e82"
-depends = "['kirigami', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose', 'tesseract-ocr']"
+size = "240120"
+usize = "1222058"
+sha1sum = "3dee582e024bcafeb0d28ce3c262203554f7a119"
+depends = "['kirigami', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose', 'qt6-webengine>=', 'tesseract-ocr']"
 +++
 ### Description: 
 Utility to scan images and multi-page documents
@@ -19,10 +19,11 @@ Utility to scan images and multi-page documents
 ### Files: 
 * /usr/bin/skanpage
 * /usr/share/applications/org.kde.skanpage.desktop
-* /usr/share/doc/skanpage-24.02.2/README.md
+* /usr/share/doc/skanpage-24.05.0/README.md
 * /usr/share/icons/hicolor/48x48/apps/skanpage.png
 * /usr/share/icons/hicolor/scalable/apps/skanpage.svg
 * /usr/share/locale/ar/LC_MESSAGES/skanpage.mo
+* /usr/share/locale/ast/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/az/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/be/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/bg/LC_MESSAGES/skanpage.mo
@@ -37,6 +38,7 @@ Utility to scan images and multi-page documents
 * /usr/share/locale/eu/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/fi/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/fr/LC_MESSAGES/skanpage.mo
+* /usr/share/locale/he/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/hu/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/ia/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/id/LC_MESSAGES/skanpage.mo
@@ -46,6 +48,7 @@ Utility to scan images and multi-page documents
 * /usr/share/locale/ka/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/ko/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/lt/LC_MESSAGES/skanpage.mo
+* /usr/share/locale/lv/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/nl/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/pa/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/pl/LC_MESSAGES/skanpage.mo

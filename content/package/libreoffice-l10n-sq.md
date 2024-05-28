@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sq 24.2.3.2-3"
-version = "24.2.3.2-3"
+title = "libreoffice-l10n-sq 24.2.3.2-4"
+version = "24.2.3.2-4"
 description = "Installs Albanian support in LibreOffice"
-date = "2024-05-22T19:56:10"
+date = "2024-05-27T08:55:22"
 aliases = "/packages/104114"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3700848"
+size = "3700180"
 usize = "31664324"
-sha1sum = "b606de522bb122f37d328f3c416e024d7c072276"
+sha1sum = "fe083dd81f889a951884a65d97ac0d2d57abe65d"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

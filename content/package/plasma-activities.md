@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-activities 6.0.4-1"
-version = "6.0.4-1"
+title = "plasma-activities 6.0.5-1"
+version = "6.0.5-1"
 description = "The KActivity Manager Daemon."
-date = "2024-04-16T19:04:34"
+date = "2024-05-22T07:34:41"
 aliases = "/packages/221374"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "115668"
-usize = "452304"
-sha1sum = "c7c4fdf9ef4ffa7afd9f99ea835f83052af06819"
-depends = "['kio>=6.1.0']"
+size = "116128"
+usize = "456488"
+sha1sum = "7299b422cf98f1814400d7b52cb7ed04adf75d35"
+depends = "['kio>=6.2.0']"
 reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'systemsettings']"
 +++
 ### Description: 
@@ -39,16 +39,16 @@ The KActivity Manager Daemon.
 * /usr/lib/cmake/PlasmaActivities/PlasmaActivitiesLibraryTargets.cmake
 * /usr/lib/libPlasmaActivities.so
 * /usr/lib/libPlasmaActivities.so.6
-* /usr/lib/libPlasmaActivities.so.6.0.4
+* /usr/lib/libPlasmaActivities.so.6.0.5
 * /usr/lib/pkgconfig/PlasmaActivities.pc
 * /usr/lib/qt6/qml/org/kde/activities/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/activities/libplasmaactivitiesextensionplugin.so
 * /usr/lib/qt6/qml/org/kde/activities/plasmaactivitiesextensionplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/activities/qmldir
-* /usr/share/doc/plasma-activities-6.0.4/README
-* /usr/share/doc/plasma-activities-6.0.4/README.developers
-* /usr/share/doc/plasma-activities-6.0.4/README.md
-* /usr/share/doc/plasma-activities-6.0.4/README.packagers
-* /usr/share/doc/plasma-activities-6.0.4/TODO
+* /usr/share/doc/plasma-activities-6.0.5/README
+* /usr/share/doc/plasma-activities-6.0.5/README.developers
+* /usr/share/doc/plasma-activities-6.0.5/README.md
+* /usr/share/doc/plasma-activities-6.0.5/README.packagers
+* /usr/share/doc/plasma-activities-6.0.5/TODO
 * /usr/share/qlogging-categories6/plasma-activities.categories
 * /usr/share/qlogging-categories6/plasma-activities.renamecategories

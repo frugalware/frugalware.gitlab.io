@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-nlpsolver 24.2.3.2-3"
-version = "24.2.3.2-3"
+title = "libreoffice-nlpsolver 24.2.3.2-4"
+version = "24.2.3.2-4"
 description = "Installs nlpsolver support in LibreOffice"
-date = "2024-05-22T19:56:10"
+date = "2024-05-27T08:55:22"
 aliases = "/packages/152796"
 categories = ['xapps-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "11424"
+size = "11500"
 usize = "0"
-sha1sum = "df0b8bab8957ad6c2fa0ff1f624a91b55551d48b"
+sha1sum = "fdb36bc783b42c8609f52d1b1075e01638e2fdb6"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

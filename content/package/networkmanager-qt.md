@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "networkmanager-qt 6.1.0-1"
-version = "6.1.0-1"
+title = "networkmanager-qt 6.2.0-2"
+version = "6.2.0-2"
 description = "Qt wrapper for NetworkManager API."
-date = "2024-04-12T19:51:27"
+date = "2024-05-21T17:30:11"
 aliases = "/packages/218386"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "380824"
-usize = "1775555"
-sha1sum = "e9d1f416afaa9b8221bf42e1591bdc8408d07521"
-depends = "['networkmanager>=1.6.2', 'qt6-base>=6.7.0']"
+size = "383616"
+usize = "1787930"
+sha1sum = "b4121bea426ad059381849fad7fbdf470cfd8e0f"
+depends = "['networkmanager>=1.6.2', 'qt6-base>=6.7.1']"
 reverse_depends = "['itinerary', 'kasts', 'kpublictransport', 'ksysguard5', 'ksystemstats', 'plasma-nm', 'plasma-settings', 'plasma-vault', 'plasma-workspace']"
 +++
 ### Description: 
@@ -162,12 +162,12 @@ Qt wrapper for NetworkManager API.
 * /usr/lib/cmake/KF6NetworkManagerQt/KF6NetworkManagerQtTargets.cmake
 * /usr/lib/libKF6NetworkManagerQt.so
 * /usr/lib/libKF6NetworkManagerQt.so.6
-* /usr/lib/libKF6NetworkManagerQt.so.6.1.0
+* /usr/lib/libKF6NetworkManagerQt.so.6.2.0
 * /usr/lib/qt6/qml/org/kde/networkmanager/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/networkmanager/libnetworkmanagerqtqml.so
 * /usr/lib/qt6/qml/org/kde/networkmanager/networkmanagerqtqml.qmltypes
 * /usr/lib/qt6/qml/org/kde/networkmanager/qmldir
-* /usr/share/doc/networkmanager-qt-6.1.0/README.md
-* /usr/share/doc/networkmanager-qt-6.1.0/TODO
+* /usr/share/doc/networkmanager-qt-6.2.0/README.md
+* /usr/share/doc/networkmanager-qt-6.2.0/TODO
 * /usr/share/qlogging-categories6/networkmanagerqt.categories
 * /usr/share/qlogging-categories6/networkmanagerqt.renamecategories

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-openal 1.23.1-2"
-version = "1.23.1-2"
+title = "lib32-openal 1.23.1-3"
+version = "1.23.1-3"
 description = "A cross-platform 3D audio API appropriate for use with gaming applications. (32-bit)"
-date = "2023-09-05T11:27:00"
+date = "2024-05-27T10:13:04"
 aliases = "/packages/217743"
 categories = ['lib32-extra']
 upstreamurl = "http://openal-soft.org"
 arch = "x86_64"
-size = "460228"
-usize = "1198382"
-sha1sum = "da7b14d6ac4a568a427733e661a9098c17e29dcb"
+size = "481152"
+usize = "1255956"
+sha1sum = "7ce216135abc14a83a5471edad0b50eaf1338c69"
 depends = "['lib32-ffmpeg', 'lib32-sdl2', 'openal=1.23.1']"
 reverse_depends = "['get_steam', 'openloco']"
 +++

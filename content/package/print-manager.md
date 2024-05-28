@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "print-manager 6.0.4-1"
-version = "6.0.4-1"
+title = "print-manager 6.0.5-1"
+version = "6.0.5-1"
 description = "System tray utility, to autoconfig printers."
-date = "2024-04-16T20:35:23"
+date = "2024-05-22T10:28:59"
 aliases = "/packages/184208"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "493268"
-usize = "2628768"
-sha1sum = "ac7ddd4fb10394a60362e07ef0a41f84371da080"
-depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.1.0', 'qt6-declarative>=6.7.0']"
+size = "491980"
+usize = "2630787"
+sha1sum = "9f62d12e6fc13cc24bcd9eee1ddc91b2b40c5707"
+depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.2.0', 'qt6-declarative>=6.7.1']"
 +++
 ### Description: 
 System tray utility, to autoconfig printers.
@@ -20,7 +20,7 @@ System tray utility, to autoconfig printers.
 * /usr/bin/configure-printer
 * /usr/bin/kde-add-printer
 * /usr/bin/kde-print-queue
-* /usr/lib/libkcupslib.so.6.0.4
+* /usr/lib/libkcupslib.so.6.0.5
 * /usr/lib/qt6/plugins/kf6/kded/printmanager.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_printer_manager.so
 * /usr/lib/qt6/qml/org/kde/plasma/printmanager/kcupslib.qmltypes
@@ -31,7 +31,7 @@ System tray utility, to autoconfig printers.
 * /usr/share/applications/org.kde.ConfigurePrinter.desktop
 * /usr/share/applications/org.kde.kde-add-printer.desktop
 * /usr/share/applications/org.kde.PrintQueue.desktop
-* /usr/share/doc/print-manager-6.0.4/README.md
+* /usr/share/doc/print-manager-6.0.5/README.md
 * /usr/share/knotifications6/printmanager.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/ar/LC_MESSAGES/print-manager.mo

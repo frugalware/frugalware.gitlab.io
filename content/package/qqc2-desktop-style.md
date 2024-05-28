@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.1.0-1"
-version = "6.1.0-1"
+title = "qqc2-desktop-style 6.2.0-2"
+version = "6.2.0-2"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-04-13T09:59:12"
+date = "2024-05-21T18:28:53"
 aliases = "/packages/219485"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "390936"
-usize = "2239912"
-sha1sum = "9fc812c45573b636280eb0b0f906af93a425d4ea"
-depends = "['kconfigwidgets>=6.1.0', 'kiconthemes>=6.1.0', 'kirigami>=6.1.0']"
+size = "390360"
+usize = "2268412"
+sha1sum = "26b8969ca56a766ee91070dfc879d490d6b39ae6"
+depends = "['kconfigwidgets>=6.2.0', 'kiconthemes>=6.2.0', 'kirigami>=6.2.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
 +++
 ### Description: 
@@ -92,7 +92,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.1.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.2.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
@@ -108,9 +108,11 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/share/locale/ia/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ka/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/lv/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/nl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/pl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ta/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/tr/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/uk/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/zh_CN/LC_MESSAGES/qqc2desktopstyle_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-shiboken6 6.7.0-1"
-version = "6.7.0-1"
+title = "python3-shiboken6 6.7.1-1"
+version = "6.7.1-1"
 description = "Shiboken lib python only"
-date = "2024-04-16T21:21:26"
+date = "2024-05-28T08:17:15"
 aliases = "/packages/220853"
 categories = ['lib']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "142856"
-usize = "386369"
-sha1sum = "784cf6e64e2fe435889f7349a5276d973b6a4c2f"
+size = "146676"
+usize = "390561"
+sha1sum = "022d586d0e0e1b78c6a9c77197e038b3f52175f8"
 depends = "['python3>=3.12']"
 reverse_depends = "['pyside6']"
 +++
@@ -20,7 +20,7 @@ Shiboken lib python only
 ### Files: 
 * /usr/lib/libshiboken6.abi3.so
 * /usr/lib/libshiboken6.abi3.so.6.7
-* /usr/lib/libshiboken6.abi3.so.6.7.0
+* /usr/lib/libshiboken6.abi3.so.6.7.1
 * /usr/lib/python3.12/site-packages/shiboken6/py.typed
 * /usr/lib/python3.12/site-packages/shiboken6/Shiboken.abi3.so
 * /usr/lib/python3.12/site-packages/shiboken6/Shiboken.pyi

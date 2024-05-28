@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtcreator 12.0.2-4"
-version = "12.0.2-4"
+title = "qtcreator 13.0.1-1"
+version = "13.0.1-1"
 description = "The Qt6 toolkit, qtcreator"
-date = "2024-04-05T13:58:27"
+date = "2024-05-28T12:14:14"
 aliases = "/packages/103815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "31021200"
-usize = "121975675"
-sha1sum = "456e43630f597031bd57ef4ac581a4ba0ae71b1c"
+size = "32220488"
+usize = "127131689"
+sha1sum = "07198d9d5741cbb552def938a6da053069ddeba8"
 depends = "['clang>=17.0.6', 'cmake', 'gdb', 'litehtml', 'qt6-5compat', 'qt6-base-sql-common', 'qt6-quick3d', 'qt6-svg', 'qt6-tools', 'qt6-webengine', 'rustc-demangle', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
@@ -19,42 +19,46 @@ The Qt6 toolkit, qtcreator
 ### Files: 
 * /usr/bin/qtcreator
 * /usr/bin/qtcreator.sh
-* /usr/lib/qtcreator/libAdvancedDockingSystem.so.12
-* /usr/lib/qtcreator/libAdvancedDockingSystem.so.12.0.2
-* /usr/lib/qtcreator/libAggregation.so.12
-* /usr/lib/qtcreator/libAggregation.so.12.0.2
-* /usr/lib/qtcreator/libCPlusPlus.so.12
-* /usr/lib/qtcreator/libCPlusPlus.so.12.0.2
-* /usr/lib/qtcreator/libExtensionSystem.so.12
-* /usr/lib/qtcreator/libExtensionSystem.so.12.0.2
-* /usr/lib/qtcreator/libGLSL.so.12
-* /usr/lib/qtcreator/libGLSL.so.12.0.2
-* /usr/lib/qtcreator/libKSyntaxHighlighting.so.12
-* /usr/lib/qtcreator/libKSyntaxHighlighting.so.12.0.2
-* /usr/lib/qtcreator/libLanguageServerProtocol.so.12
-* /usr/lib/qtcreator/libLanguageServerProtocol.so.12.0.2
-* /usr/lib/qtcreator/libLanguageUtils.so.12
-* /usr/lib/qtcreator/libLanguageUtils.so.12.0.2
-* /usr/lib/qtcreator/libModeling.so.12
-* /usr/lib/qtcreator/libModeling.so.12.0.2
-* /usr/lib/qtcreator/libProParser.so.12
-* /usr/lib/qtcreator/libProParser.so.12.0.2
-* /usr/lib/qtcreator/libqlitehtml.so.12
-* /usr/lib/qtcreator/libqlitehtml.so.12.0.2
-* /usr/lib/qtcreator/libQmlDebug.so.12
-* /usr/lib/qtcreator/libQmlDebug.so.12.0.2
-* /usr/lib/qtcreator/libQmlEditorWidgets.so.12
-* /usr/lib/qtcreator/libQmlEditorWidgets.so.12.0.2
-* /usr/lib/qtcreator/libQmlJS.so.12
-* /usr/lib/qtcreator/libQmlJS.so.12.0.2
-* /usr/lib/qtcreator/libSqlite.so.12
-* /usr/lib/qtcreator/libSqlite.so.12.0.2
-* /usr/lib/qtcreator/libTerminalLib.so.12
-* /usr/lib/qtcreator/libTerminalLib.so.12.0.2
-* /usr/lib/qtcreator/libTracing.so.12
-* /usr/lib/qtcreator/libTracing.so.12.0.2
-* /usr/lib/qtcreator/libUtils.so.12
-* /usr/lib/qtcreator/libUtils.so.12.0.2
+* /usr/lib/qtcreator/libAdvancedDockingSystem.so.13
+* /usr/lib/qtcreator/libAdvancedDockingSystem.so.13.0.1
+* /usr/lib/qtcreator/libAggregation.so.13
+* /usr/lib/qtcreator/libAggregation.so.13.0.1
+* /usr/lib/qtcreator/libCPlusPlus.so.13
+* /usr/lib/qtcreator/libCPlusPlus.so.13.0.1
+* /usr/lib/qtcreator/libExtensionSystem.so.13
+* /usr/lib/qtcreator/libExtensionSystem.so.13.0.1
+* /usr/lib/qtcreator/libGLSL.so.13
+* /usr/lib/qtcreator/libGLSL.so.13.0.1
+* /usr/lib/qtcreator/libKSyntaxHighlighting.so.13
+* /usr/lib/qtcreator/libKSyntaxHighlighting.so.13.0.1
+* /usr/lib/qtcreator/libLanguageServerProtocol.so.13
+* /usr/lib/qtcreator/libLanguageServerProtocol.so.13.0.1
+* /usr/lib/qtcreator/libLanguageUtils.so.13
+* /usr/lib/qtcreator/libLanguageUtils.so.13.0.1
+* /usr/lib/qtcreator/libModeling.so.13
+* /usr/lib/qtcreator/libModeling.so.13.0.1
+* /usr/lib/qtcreator/libNanotrace.so.13
+* /usr/lib/qtcreator/libNanotrace.so.13.0.1
+* /usr/lib/qtcreator/libProParser.so.13
+* /usr/lib/qtcreator/libProParser.so.13.0.1
+* /usr/lib/qtcreator/libqlitehtml.so.13
+* /usr/lib/qtcreator/libqlitehtml.so.13.0.1
+* /usr/lib/qtcreator/libQmlDebug.so.13
+* /usr/lib/qtcreator/libQmlDebug.so.13.0.1
+* /usr/lib/qtcreator/libQmlEditorWidgets.so.13
+* /usr/lib/qtcreator/libQmlEditorWidgets.so.13.0.1
+* /usr/lib/qtcreator/libQmlJS.so.13
+* /usr/lib/qtcreator/libQmlJS.so.13.0.1
+* /usr/lib/qtcreator/libqtkeychain.so.13
+* /usr/lib/qtcreator/libqtkeychain.so.13.0.1
+* /usr/lib/qtcreator/libSqlite.so.13
+* /usr/lib/qtcreator/libSqlite.so.13.0.1
+* /usr/lib/qtcreator/libTerminalLib.so.13
+* /usr/lib/qtcreator/libTerminalLib.so.13.0.1
+* /usr/lib/qtcreator/libTracing.so.13
+* /usr/lib/qtcreator/libTracing.so.13.0.1
+* /usr/lib/qtcreator/libUtils.so.13
+* /usr/lib/qtcreator/libUtils.so.13.0.1
 * /usr/lib/qtcreator/plugins/libAndroid.so
 * /usr/lib/qtcreator/plugins/libAutoTest.so
 * /usr/lib/qtcreator/plugins/libAutotoolsProjectManager.so
@@ -85,7 +89,9 @@ The Qt6 toolkit, qtcreator
 * /usr/lib/qtcreator/plugins/libDesigner.so
 * /usr/lib/qtcreator/plugins/libDiffEditor.so
 * /usr/lib/qtcreator/plugins/libDocker.so
+* /usr/lib/qtcreator/plugins/libEffectComposer.so
 * /usr/lib/qtcreator/plugins/libEmacsKeys.so
+* /usr/lib/qtcreator/plugins/libExtensionManager.so
 * /usr/lib/qtcreator/plugins/libFakeVim.so
 * /usr/lib/qtcreator/plugins/libFossil.so
 * /usr/lib/qtcreator/plugins/libGenericProjectManager.so
@@ -121,6 +127,7 @@ The Qt6 toolkit, qtcreator
 * /usr/lib/qtcreator/plugins/libQmlProfiler.so
 * /usr/lib/qtcreator/plugins/libQmlProjectManager.so
 * /usr/lib/qtcreator/plugins/libQnx.so
+* /usr/lib/qtcreator/plugins/libQtApplicationManagerIntegration.so
 * /usr/lib/qtcreator/plugins/libQtSupport.so
 * /usr/lib/qtcreator/plugins/libRemoteLinux.so
 * /usr/lib/qtcreator/plugins/libResourceEditor.so
@@ -149,7 +156,7 @@ The Qt6 toolkit, qtcreator
 * /usr/lib/qtcreator/qtcreator/cpaster
 * /usr/lib/qtcreator/qtcreator/perf2text
 * /usr/lib/qtcreator/qtcreator/perfparser
-* /usr/lib/qtcreator/qtcreator/qml2puppet-12.0.2
+* /usr/lib/qtcreator/qtcreator/qml2puppet-13.0.1
 * /usr/lib/qtcreator/qtcreator/qtc-askpass
 * /usr/lib/qtcreator/qtcreator/qtcreator_processlauncher
 * /usr/lib/qtcreator/qtcreator/qtcreator_process_stub
@@ -182,6 +189,8 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/changelog/changes-12.0.0.md
 * /usr/share/qtcreator/changelog/changes-12.0.1.md
 * /usr/share/qtcreator/changelog/changes-12.0.2.md
+* /usr/share/qtcreator/changelog/changes-13.0.0.md
+* /usr/share/qtcreator/changelog/changes-13.0.1.md
 * /usr/share/qtcreator/changelog/changes-2.0.0
 * /usr/share/qtcreator/changelog/changes-2.0.1
 * /usr/share/qtcreator/changelog/changes-2.1.0
@@ -316,6 +325,8 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/fonts/SourceCodePro-Bold.ttf
 * /usr/share/qtcreator/fonts/SourceCodePro-BoldIt.ttf
 * /usr/share/qtcreator/fonts/SourceCodePro-It.ttf
+* /usr/share/qtcreator/fonts/SourceCodePro-Medium.ttf
+* /usr/share/qtcreator/fonts/SourceCodePro-MediumIt.ttf
 * /usr/share/qtcreator/fonts/SourceCodePro-Regular.ttf
 * /usr/share/qtcreator/fonts/SourceCodePro.txt
 * /usr/share/qtcreator/generic-highlighter/syntax/alert.xml
@@ -336,18 +347,18 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/generic-highlighter/syntax/licenses/LICENSE.GPLv3
 * /usr/share/qtcreator/generic-highlighter/syntax/licenses/LICENSE.LGPLv21
 * /usr/share/qtcreator/generic-highlighter/syntax/licenses/LICENSE.LGPLv3
-* /usr/share/qtcreator/generic-highlighter/syntax/makefile.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/markdown.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/modelines.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/perl.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/powershell.xml
-* /usr/share/qtcreator/generic-highlighter/syntax/python.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/qdocconf.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/ruby.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/spdx-comments.xml
+* /usr/share/qtcreator/generic-highlighter/syntax/toml.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/valgrind-suppression.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/xml.xml
 * /usr/share/qtcreator/generic-highlighter/syntax/yacc.xml
+* /usr/share/qtcreator/generic-highlighter/syntax/yaml.xml
 * /usr/share/qtcreator/glsl/glsl_120.frag
 * /usr/share/qtcreator/glsl/glsl_120.vert
 * /usr/share/qtcreator/glsl/glsl_120_common.glsl
@@ -365,6 +376,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/package-manager/auto-setup.cmake
 * /usr/share/qtcreator/package-manager/conan.cmake
 * /usr/share/qtcreator/package-manager/conan_provider.cmake
+* /usr/share/qtcreator/package-manager/LICENSE.conan
 * /usr/share/qtcreator/qml-type-descriptions/builtins.qmltypes
 * /usr/share/qtcreator/qml-type-descriptions/qbs-base.qmltypes
 * /usr/share/qtcreator/qml-type-descriptions/qbs-bundle.json
@@ -402,15 +414,18 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/assetsLibraryQmlSources/NewEffectDialog.qml
 * /usr/share/qtcreator/qmldesigner/assetsLibraryQmlSources/NewFolderDialog.qml
 * /usr/share/qtcreator/qmldesigner/assetsLibraryQmlSources/RenameFolderDialog.qml
+* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/CollectionDetailsEditDelegate.qml
+* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/CollectionDetailsToolbar.qml
+* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/CollectionDetailsView.qml
 * /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/CollectionItem.qml
 * /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/CollectionView.qml
-* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/CsvImport.qml
+* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/ColorViewDelegate.qml
+* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/EditPropertyDialog.qml
 * /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/IconTextButton.qml
-* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/JsonImport.qml
+* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/ImportDialog.qml
 * /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/Message.qml
 * /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/ModelSourceItem.qml
 * /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/NewCollectionDialog.qml
-* /usr/share/qtcreator/qmldesigner/collectionEditorQmlSource/SingleCollectionView.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/BindingsDialog.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/BindingsDialogForm.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/BindingsListView.qml
@@ -424,7 +439,6 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/connectionseditor/MyListViewDelegate.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/MyTreeViewDelegate.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/Pill.qml
-* /usr/share/qtcreator/qmldesigner/connectionseditor/PopupDialog.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/PopupLabel.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/PropertiesDialog.qml
 * /usr/share/qtcreator/qmldesigner/connectionseditor/PropertiesDialogForm.qml
@@ -452,28 +466,31 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/edit3dQmlSource/BakeLightsProgressDialog.qml
 * /usr/share/qtcreator/qmldesigner/edit3dQmlSource/BakeLightsSetupDialog.qml
 * /usr/share/qtcreator/qmldesigner/edit3dQmlSource/SnapConfigurationDialog.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectCompositionNode.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectCompositionNodeUniform.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectMaker.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectMakerPreview.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectMakerTopBar.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectNode.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/EffectNodesComboBox.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/images/preview0.png
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/images/preview1.png
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/images/preview2.png
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/images/preview3.png
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/images/preview4.png
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/PreviewImagesComboBox.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueBool.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueColor.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueDefine.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueFloat.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueImage.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueInt.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueVec2.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueVec3.qml
-* /usr/share/qtcreator/qmldesigner/effectMakerQmlSources/ValueVec4.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/BlurHelper.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectComposer.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectComposerPreview.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectComposerTopBar.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectCompositionNode.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectCompositionNodeUniform.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectNode.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/EffectNodesComboBox.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/images/preview0.png
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/images/preview1.png
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/images/preview2.png
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/images/preview3.png
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/images/preview4.png
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/PreviewImagesComboBox.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/SaveAsDialog.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/SaveChangesDialog.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueBool.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueColor.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueDefine.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueFloat.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueImage.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueInt.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueVec2.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueVec3.qml
+* /usr/share/qtcreator/qmldesigner/effectComposerQmlSources/ValueVec4.qml
 * /usr/share/qtcreator/qmldesigner/feedback/FeedbackPopup.qml
 * /usr/share/qtcreator/qmldesigner/feedback/star_empty.png
 * /usr/share/qtcreator/qmldesigner/feedback/star_empty@2x.png
@@ -565,10 +582,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/CheckBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ColorEditor.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ColorEditorPopup.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ColorLine.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ColorLogic.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ColorPalette.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ColorPicker.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ComboBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ComponentButton.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ComponentSection.qml
@@ -592,7 +606,6 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/GradientPresetTabContent.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/GradientPropertySpinBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/HorizontalScrollBar.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/HueSlider.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/IconButton.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/IconIndicator.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/IconLabel.qml
@@ -621,10 +634,8 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/LineEdit.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/LinkIndicator2D.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/ListViewComboBox.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/LuminanceSlider.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/MarginSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/MultiIconLabel.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/OpacitySlider.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/OriginControl.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/OriginIndicator.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/HelperWidgets/OriginSelector.qml
@@ -652,6 +663,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ButtonRow.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/CheckBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/CheckIndicator.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ColorEditor.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ComboBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ComboBoxInput.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ContextMenu.qml
@@ -659,6 +671,13 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/DialogButton.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/DialogButtonBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/FilterComboBox.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/IconIndicator.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/impl/ColorEditorPopup.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/impl/ColorPalette.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/impl/ColorPicker.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/impl/HueSlider.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/impl/LuminanceSlider.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/impl/OpacitySlider.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/Indicator.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/InfinityLoopIndicator.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ItemDelegate.qml
@@ -669,6 +688,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/MenuItem.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/MenuItemWithIcon.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/MenuSeparator.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/PopupDialog.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ProgressBar.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/qmldir
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/RadioButton.qml
@@ -695,6 +715,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/TextArea.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/TextField.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ToolTip.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/ToolTipArea.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/TopLevelComboBox.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/TransientScrollBar.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioControls/TranslationIndicator.qml
@@ -705,6 +726,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/DefaultStyle.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/icons.ttf
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/InternalConstants.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/MicroToolbarButtonStyle.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/PrimaryButtonStyle.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/qmldir
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/imports/StudioTheme/SearchControlStyle.qml
@@ -733,8 +755,6 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/PropertyTemplates/Vector3dEditorTemplate.template
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/PropertyTemplates/Vector4dEditorTemplate.template
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QML/QtObjectPane.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/Qt5HelperWindow.qml
-* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/Qt6HelperWindow.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtMultimedia/AudioOutputSpecifics.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtMultimedia/AudioSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtMultimedia/MediaPlayerSection.qml
@@ -749,6 +769,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/AlignDistributeSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/AnchorRow.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/AnimatedImageSpecifics.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/AnimatedSpriteSpecifics.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/AnimationSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/AnimationTargetSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick/BorderImageSpecifics.qml
@@ -857,6 +878,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick3D/SpatialAudio/NodeSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick3D/SpatialAudio/SpatialSoundSection.qml
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/QtQuick3D/SpatialAudio/SpatialSoundSpecifics.qml
+* /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/quick.metainfo
 * /usr/share/qtcreator/qmldesigner/propertyEditorQmlSources/RegExpValidator.qml
 * /usr/share/qtcreator/qmldesigner/qt4mcu/metadata.qml
 * /usr/share/qtcreator/qmldesigner/qt4mcu/qul-14.qml
@@ -1070,11 +1092,15 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/mobile-swipe/wizard.json
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/CMakeLists.importmodule.txt.tpl
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/Constants.qml.tpl
+* /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/data.json.tpl
+* /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/DataStore.qml.tpl
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/designer/plugin.metainfo
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/DirectoryFontLoader.qml.tpl
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/EventListModel.qml.tpl
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/EventListSimulator.qml.tpl
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/importmodule.qmldir.tpl
+* /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/JsonData.qml.tpl
+* /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/models.json.tpl
 * /usr/share/qtcreator/qmldesigner/studio_templates/projects/shared-plugin/name/qmldir
 * /usr/share/qtcreator/qmldesigner/textureEditorQmlSource/EmptyTextureEditorPane.qml
 * /usr/share/qtcreator/qmldesigner/textureEditorQmlSource/TextureEditorPane.qml
@@ -1084,6 +1110,84 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmldesigner/toolbar/CrumbleBread.qml
 * /usr/share/qtcreator/qmldesigner/toolbar/Main.qml
 * /usr/share/qtcreator/qmldesigner/toolbar/ToolbarButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/BrandBar.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/CheckButton.ui.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/CustomDialog.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/CustomDialogButtonBox.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/CustomGrid.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/CustomScrollBar.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/CustomScrollView.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/DialogButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/DownloadButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/DownloadPanel.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/DownloadProgressBar.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/FigmaButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/fonts/fonts.txt
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/adding-assets.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/animation-2d.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/border-arc.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/complex-shapes.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/congratulations.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/connecting-components.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/ds.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/ellipse-pie.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/figmaDarkNormal.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/figmaHover.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/figmaLightNormal.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/newThumbnail.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/noPreview.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/place_holder.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/sorting-components.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/states.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/thumbnailImage.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/thumbnail_test.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/top-toolbar.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/welcome-page.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/workspaces.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/youtubeDarkHover.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/youtubeDarkNormal.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/youtubeLightHover.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/images/youtubeLightNormal.png
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/gradientRect.webp
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/Highlight.ui.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/qmldir
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/Slide.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/SlideNavButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/SlidePlayer.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/SlideShow.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/UiTour/StrongHighlight.ui.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/WelcomeScreen/Constants.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/WelcomeScreen/designer/plugin.metainfo
+* /usr/share/qtcreator/qmldesigner/welcomepage/imports/WelcomeScreen/qmldir
+* /usr/share/qtcreator/qmldesigner/welcomepage/main.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/main.qml.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/MainGridStack.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/MainScreen.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/ExampleCheckout/FileDownloader.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/ExampleCheckout/FileExtractor.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/ExampleCheckout/qmldir
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/projectmodel/ProjectModel.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/projectmodel/qmldir
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/usagestatistics/qmldir
+* /usr/share/qtcreator/qmldesigner/welcomepage/mockData/usagestatistics/UsageStatisticModel.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/PushButton.ui.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/qtquickcontrols2.conf
+* /usr/share/qtcreator/qmldesigner/welcomepage/RangeMapper.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/SocialButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/StringMapper.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/Tag.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TagArea.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TestControlPanel.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/ThumbnailDelegate.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TourDialogButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TourModel.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TourProgressBar.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TourRestartButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TourThumbnailDelegate.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/TwirlButton.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/WelcomePage.qml
+* /usr/share/qtcreator/qmldesigner/welcomepage/WelcomeScreen.qmlproject
+* /usr/share/qtcreator/qmldesigner/welcomepage/YoutubeButton.qml
 * /usr/share/qtcreator/qmldesigner/workspacePresets/Advanced-3D.wrk
 * /usr/share/qtcreator/qmldesigner/workspacePresets/Animation-2D.wrk
 * /usr/share/qtcreator/qmldesigner/workspacePresets/Animation-3D.wrk
@@ -1148,6 +1252,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/qmlicons/Qt/16x16/Window.png
 * /usr/share/qtcreator/qmlicons/QtWebkit/16x16/WebView.png
 * /usr/share/qtcreator/schemes/MS_Visual_C++.kms
+* /usr/share/qtcreator/schemes/MS_Visual_Studio_Code.kms
 * /usr/share/qtcreator/schemes/Xcode.kms
 * /usr/share/qtcreator/snippets/cmake.xml
 * /usr/share/qtcreator/snippets/cpp.xml
@@ -1256,6 +1361,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/templates/wizards/files/testing/wizard.json
 * /usr/share/qtcreator/templates/wizards/files/text/file.txt
 * /usr/share/qtcreator/templates/wizards/files/text/wizard.json
+* /usr/share/qtcreator/templates/wizards/files/translation/wizard.json
 * /usr/share/qtcreator/templates/wizards/global/consoleapplication.png
 * /usr/share/qtcreator/templates/wizards/global/consoleapplication@2x.png
 * /usr/share/qtcreator/templates/wizards/global/guiapplication.png
@@ -1325,6 +1431,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/templates/wizards/projects/qtforpythonapplication/qtquickapplication/main.pyproject
 * /usr/share/qtcreator/templates/wizards/projects/qtforpythonapplication/qtquickapplication/main.qml.tpl
 * /usr/share/qtcreator/templates/wizards/projects/qtforpythonapplication/qtquickapplication/wizard.json
+* /usr/share/qtcreator/templates/wizards/projects/qtforpythonapplication/requirements.txt
 * /usr/share/qtcreator/templates/wizards/projects/qtforpythonapplication/widget/main.pyproject
 * /usr/share/qtcreator/templates/wizards/projects/qtforpythonapplication/widget/wizard.json
 * /usr/share/qtcreator/templates/wizards/projects/qtquick2-extension/CMakeLists.6.x.txt
@@ -1394,6 +1501,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/myplugin.h
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/MyPlugin.json.in
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/mypluginconstants.h
+* /usr/share/qtcreator/templates/wizards/qtcreatorplugin/myplugintr.h
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/myplugin_global.h
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/qtcreatorplugin.png
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/qtcreatorplugin@2x.png
@@ -1401,12 +1509,14 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/templates/wizards/qtcreatorplugin/wizard.json
 * /usr/share/qtcreator/templates/wizards/README.txt
 * /usr/share/qtcreator/themes/dark.creatortheme
+* /usr/share/qtcreator/themes/dark.figmatokens
 * /usr/share/qtcreator/themes/default.creatortheme
 * /usr/share/qtcreator/themes/design-light.creatortheme
 * /usr/share/qtcreator/themes/design.creatortheme
 * /usr/share/qtcreator/themes/flat-dark.creatortheme
 * /usr/share/qtcreator/themes/flat-light.creatortheme
 * /usr/share/qtcreator/themes/flat.creatortheme
+* /usr/share/qtcreator/themes/light.figmatokens
 * /usr/share/qtcreator/translations/qtcreator_cs.qm
 * /usr/share/qtcreator/translations/qtcreator_da.qm
 * /usr/share/qtcreator/translations/qtcreator_de.qm

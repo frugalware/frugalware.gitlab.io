@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pyside6 6.7.0-1"
-version = "6.7.0-1"
+title = "pyside6 6.7.1-1"
+version = "6.7.1-1"
 description = "The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework."
-date = "2024-04-16T21:40:17"
+date = "2024-05-28T08:31:00"
 aliases = "/packages/220854"
 categories = ['lib-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "9513888"
-usize = "60507986"
-sha1sum = "e3765f4de1ff7ff3804ddfaf369847e499effb24"
-depends = "['python3>=3.11', 'python3-shiboken6>=6.7.0', 'qt6-declarative>=6.7.0']"
+size = "9682388"
+usize = "60662164"
+sha1sum = "5514c0b4086006f23529966490810c6efeb9fee5"
+depends = "['python3>=3.11', 'python3-shiboken6>=6.7.1', 'qt6-declarative>=6.7.0']"
 reverse_depends = "['yin-yang']"
 +++
 ### Description: 
@@ -140,10 +140,10 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/lib/cmake/PySide6Qml/PySide6QmlTargets.cmake
 * /usr/lib/libpyside6.abi3.so
 * /usr/lib/libpyside6.abi3.so.6.7
-* /usr/lib/libpyside6.abi3.so.6.7.0
+* /usr/lib/libpyside6.abi3.so.6.7.1
 * /usr/lib/libpyside6qml.abi3.so
 * /usr/lib/libpyside6qml.abi3.so.6.7
-* /usr/lib/libpyside6qml.abi3.so.6.7.0
+* /usr/lib/libpyside6qml.abi3.so.6.7.1
 * /usr/lib/pkgconfig/pyside6.pc
 * /usr/lib/python3.12/site-packages/PySide6/Qt3DAnimation.abi3.so
 * /usr/lib/python3.12/site-packages/PySide6/Qt3DAnimation.pyi
@@ -267,13 +267,13 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/lib/python3.12/site-packages/PySide6/_git_pyside_version.py
 * /usr/lib/python3.12/site-packages/PySide6/__init__.py
 * /usr/lib/qt6/plugins/designer/libPySidePlugin.so
-* /usr/share/doc/pyside6-6.7.0/README.md
-* /usr/share/doc/pyside6-6.7.0/README.pyside6.md
-* /usr/share/doc/pyside6-6.7.0/README.pyside6_addons.md
-* /usr/share/doc/pyside6-6.7.0/README.pyside6_essentials.md
-* /usr/share/doc/pyside6-6.7.0/README.pyside6_examples.md
-* /usr/share/doc/pyside6-6.7.0/README.shiboken6-generator.md
-* /usr/share/doc/pyside6-6.7.0/README.shiboken6.md
+* /usr/share/doc/pyside6-6.7.1/README.md
+* /usr/share/doc/pyside6-6.7.1/README.pyside6.md
+* /usr/share/doc/pyside6-6.7.1/README.pyside6_addons.md
+* /usr/share/doc/pyside6-6.7.1/README.pyside6_essentials.md
+* /usr/share/doc/pyside6-6.7.1/README.pyside6_examples.md
+* /usr/share/doc/pyside6-6.7.1/README.shiboken6-generator.md
+* /usr/share/doc/pyside6-6.7.1/README.shiboken6.md
 * /usr/share/PySide6/glue/qtcharts.cpp
 * /usr/share/PySide6/glue/qtcore.cpp
 * /usr/share/PySide6/glue/qtdatavisualization.cpp

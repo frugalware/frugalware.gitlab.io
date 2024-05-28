@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-serialbus 5.15.13-1"
-version = "5.15.13-1"
+title = "qt5-serialbus 5.15.14-1"
+version = "5.15.14-1"
 description = "The Qt5 toolkit, qtserialbus"
-date = "2024-03-13T16:40:11"
+date = "2024-05-26T13:14:45"
 aliases = "/packages/220778"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "167344"
+size = "168492"
 usize = "720911"
-sha1sum = "558fe92a28717c18d271423799c9d08f65ed867f"
-depends = "['qt5-serialport>=5.15.13']"
+sha1sum = "e217834aa4a294f2534e777ed3165fa5964e23cf"
+depends = "['qt5-serialport>=5.15.14']"
 +++
 ### Description: 
 The Qt5 toolkit, qtserialbus
@@ -19,19 +19,19 @@ The Qt5 toolkit, qtserialbus
 ### Files: 
 * /usr/bin/canbusutil
 * /usr/bin/canbusutil-qt5
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qcanbusdeviceinfo_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qcanbusdevice_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbusadu_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbusclient_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbuscommevent_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbusdevice_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbusrtuserialmaster_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbusrtuserialslave_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbusserver_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbustcpclient_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbustcpserver_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qmodbus_symbols_p.h
-* /usr/include/qt5/QtSerialBus/5.15.13/QtSerialBus/private/qtserialbus-config_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qcanbusdeviceinfo_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qcanbusdevice_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbusadu_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbusclient_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbuscommevent_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbusdevice_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbusrtuserialmaster_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbusrtuserialslave_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbusserver_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbustcpclient_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbustcpserver_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qmodbus_symbols_p.h
+* /usr/include/qt5/QtSerialBus/5.15.14/QtSerialBus/private/qtserialbus-config_p.h
 * /usr/include/qt5/QtSerialBus/QCanBus
 * /usr/include/qt5/QtSerialBus/qcanbus.h
 * /usr/include/qt5/QtSerialBus/QCanBusDevice
@@ -88,7 +88,7 @@ The Qt5 toolkit, qtserialbus
 * /usr/lib/libQt5SerialBus.so
 * /usr/lib/libQt5SerialBus.so.5
 * /usr/lib/libQt5SerialBus.so.5.15
-* /usr/lib/libQt5SerialBus.so.5.15.13
+* /usr/lib/libQt5SerialBus.so.5.15.14
 * /usr/lib/pkgconfig/Qt5SerialBus.pc
 * /usr/lib/qt5/bin/canbusutil
 * /usr/lib/qt5/plugins/canbus/libqtpassthrucanbus.so

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rav1e 0.6.6-4"
-version = "0.6.6-4"
+title = "rav1e 0.6.6-5"
+version = "0.6.6-5"
 description = "An AV1 encoder focused on speed and safety"
-date = "2024-05-10T18:46:26"
+date = "2024-05-27T07:27:46"
 aliases = "/packages/220198"
 categories = ['multimedia']
 upstreamurl = "https://github.com/xiph/rav1e"
 arch = "x86_64"
-size = "2616932"
-usize = "17759503"
-sha1sum = "e94266fe910ec72edc02caca21c07efbc5f8865e"
+size = "2652792"
+usize = "17815519"
+sha1sum = "1336508c48c0319533db913faf1fdff21b385dea"
 depends = "['libgcc>=12.2']"
 reverse_depends = "['ffmpeg', 'libavif', 'libheif']"
 +++
@@ -25,5 +25,7 @@ An AV1 encoder focused on speed and safety
 * /usr/lib/librav1e.so.0.6
 * /usr/lib/librav1e.so.0.6.6
 * /usr/lib/pkgconfig/rav1e.pc
+* /usr/share/doc/rav1e-0.6.6/INSTALL.fa.md
+* /usr/share/doc/rav1e-0.6.6/INSTALL.md
 * /usr/share/doc/rav1e-0.6.6/LICENSE
 * /usr/share/doc/rav1e-0.6.6/README.md

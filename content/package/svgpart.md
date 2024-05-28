@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "svgpart 24.02.2-3"
-version = "24.02.2-3"
+title = "svgpart 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE kpart for viewing SVGs."
-date = "2024-04-17T00:41:48"
+date = "2024-05-24T15:51:06"
 aliases = "/packages/135754"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "25700"
-usize = "106236"
-sha1sum = "75d8d2d819d49d8c4110d040256e2f4e9d940545"
-depends = "['kcoreaddons>=6.1.0', 'kparts>=6.1.0', 'kxmlgui>=6.1.0']"
+size = "26160"
+usize = "107607"
+sha1sum = "c6369f2b05d27d4dbb2e14b5ce91370f516e57b5"
+depends = "['kcoreaddons>=6.2.0', 'kparts>=6.2.0', 'kxmlgui>=6.2.0']"
 +++
 ### Description: 
 KDE kpart for viewing SVGs.
@@ -38,6 +38,7 @@ KDE kpart for viewing SVGs.
 * /usr/share/locale/fr/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/ga/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/gl/LC_MESSAGES/svgpart.mo
+* /usr/share/locale/he/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/hi/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/hr/LC_MESSAGES/svgpart.mo
 * /usr/share/locale/hu/LC_MESSAGES/svgpart.mo

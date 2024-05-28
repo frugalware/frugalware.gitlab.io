@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "solid5 5.115.0-3"
-version = "5.115.0-3"
+title = "solid5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE Desktop hardware abstraction."
-date = "2024-03-15T11:50:31"
+date = "2024-05-26T16:18:14"
 aliases = "/packages/221387"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "321916"
-usize = "1773475"
-sha1sum = "7f2bf75bf2a350fbf7348ef19e53097b2cfe59a5"
-depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt5-declarative>=5.15.12', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
+size = "325748"
+usize = "1800426"
+sha1sum = "4af3ca44d0bf0179fa0ff7a12a0e2daa1796b06f"
+depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt5-declarative>=5.15.14', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
 reverse_depends = "['kio5']"
 +++
 ### Description: 
@@ -61,9 +61,9 @@ KDE Desktop hardware abstraction.
 * /usr/lib/cmake/KF5Solid/KF5SolidTargets.cmake
 * /usr/lib/libKF5Solid.so
 * /usr/lib/libKF5Solid.so.5
-* /usr/lib/libKF5Solid.so.5.115.0
-* /usr/share/doc/solid5-5.115.0/README.md
-* /usr/share/doc/solid5-5.115.0/TODO
+* /usr/lib/libKF5Solid.so.5.116.0
+* /usr/share/doc/solid5-5.116.0/README.md
+* /usr/share/doc/solid5-5.116.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/solid5_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/solid5_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/solid5_qt.qm

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "md4c 0.5.2-1"
-version = "0.5.2-1"
+title = "md4c 0.5.2-2"
+version = "0.5.2-2"
 description = "C Markdown parser"
-date = "2024-02-05T21:58:24"
+date = "2024-05-28T09:45:43"
 aliases = "/packages/220574"
 categories = ['lib']
 upstreamurl = "https://github.com/mity/md4c"
 arch = "x86_64"
-size = "67952"
-usize = "251810"
-sha1sum = "d7363fef96ef22990b856ba8ef5c3efcbea8f1ed"
+size = "67908"
+usize = "251898"
+sha1sum = "f60fa07f692328542ce9fa43dec9253b07d2383e"
 depends = "['glibc']"
-reverse_depends = "['qt6-base']"
+reverse_depends = "['qt5-base', 'qt6-base']"
 +++
 ### Description: 
 C Markdown parser

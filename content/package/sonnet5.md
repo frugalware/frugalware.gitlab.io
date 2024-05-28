@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sonnet5 5.115.0-4"
-version = "5.115.0-4"
+title = "sonnet5 5.116.0-2"
+version = "5.116.0-2"
 description = "Spelling framework for Qt, plugin-based."
-date = "2024-04-02T13:47:27"
+date = "2024-05-26T16:12:51"
 aliases = "/packages/221401"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "277628"
-usize = "1624973"
-sha1sum = "632bd4a0590b7d68a2d4c3a05bd1bb4b55563696"
-depends = "['qt5-base>=5.15.12']"
+size = "278140"
+usize = "1621233"
+sha1sum = "36505205f2658eedb8ad145bfdfe63f0d13d48fd"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['ktextwidgets5']"
 +++
 ### Description: 
@@ -51,12 +51,12 @@ Spelling framework for Qt, plugin-based.
 * /usr/lib/cmake/KF5Sonnet/KF5SonnetTargets.cmake
 * /usr/lib/libKF5SonnetCore.so
 * /usr/lib/libKF5SonnetCore.so.5
-* /usr/lib/libKF5SonnetCore.so.5.115.0
+* /usr/lib/libKF5SonnetCore.so.5.116.0
 * /usr/lib/libKF5SonnetUi.so
 * /usr/lib/libKF5SonnetUi.so.5
-* /usr/lib/libKF5SonnetUi.so.5.115.0
+* /usr/lib/libKF5SonnetUi.so.5.116.0
 * /usr/lib/qt5/plugins/designer/sonnetui5widgets.so
-* /usr/share/doc/sonnet5-5.115.0/README.md
+* /usr/share/doc/sonnet5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/sonnet5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/sonnet5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/sonnet5_qt.qm

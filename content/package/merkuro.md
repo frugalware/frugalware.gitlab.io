@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "merkuro 24.02.2-3"
-version = "24.02.2-3"
+title = "merkuro 24.05.0-1"
+version = "24.05.0-1"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2024-04-17T02:01:07"
+date = "2024-05-25T14:05:38"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1217696"
-usize = "5244253"
-sha1sum = "c0063584a3aaa85ade369493c7f1de933677bf38"
+size = "1229148"
+usize = "5275707"
+sha1sum = "3a07c14d1250b12dd76961af104d6f3918b19da1"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -29,6 +29,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/lib/qt6/qml/org/kde/akonadi/qmldir
 * /usr/lib/qt6/qml/org/kde/akonadi/TagManagerPage.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/calendar/BottomToolBar.qml
+* /usr/lib/qt6/qml/org/kde/merkuro/calendar/DatePopupSingleton.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/calendar/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/merkuro/calendar/libmerkuro_calendar_plugin.so
 * /usr/lib/qt6/qml/org/kde/merkuro/calendar/MenuBar.qml
@@ -103,7 +104,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/applications/org.kde.merkuro.calendar.desktop
 * /usr/share/applications/org.kde.merkuro.contact.desktop
 * /usr/share/applications/org.kde.merkuro.mail.desktop
-* /usr/share/doc/merkuro-24.02.2/README.md
+* /usr/share/doc/merkuro-24.05.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png

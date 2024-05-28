@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksysguard 6.0.4-1"
-version = "6.0.4-1"
+title = "libksysguard 6.0.5-1"
+version = "6.0.5-1"
 description = "Task management and system monitoring library."
-date = "2024-04-16T19:21:40"
+date = "2024-05-22T08:47:04"
 aliases = "/packages/221363"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "470204"
-usize = "2646755"
-sha1sum = "048fc081c36c1ac5700506efeeab858d3d9807d2"
+size = "472332"
+usize = "2663515"
+sha1sum = "122541a57846c3c3b110b171d7ffa07ea64d4b3a"
 depends = "['kconfigwidgets>=6.2.0', 'knewstuff>=6.2.0', 'kwindowsystem>=6.2.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.7.1']"
 reverse_depends = "['ksystemstats', 'plasma-vault', 'plasma-workspace']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mbox-importer 24.02.2-3"
-version = "24.02.2-3"
+title = "mbox-importer 24.05.0-1"
+version = "24.05.0-1"
 description = "Wizard to assist with importing MBox email archives into Akonadi"
-date = "2024-04-16T23:48:44"
+date = "2024-05-24T14:29:38"
 aliases = "/packages/218940"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "28552"
-usize = "128051"
-sha1sum = "65aad50fd5386abab2893a09dfa561b6c0f04822"
-depends = "['mailcommon>=24.02.2']"
+size = "28980"
+usize = "130981"
+sha1sum = "31f22b71b35db03c1f513baf87baf28a820f6729"
+depends = "['mailcommon>=24.05.0']"
 reverse_depends = "['kmail']"
 +++
 ### Description: 
@@ -38,6 +38,7 @@ Wizard to assist with importing MBox email archives into Akonadi
 * /usr/share/locale/fi/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/fr/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/gl/LC_MESSAGES/mboximporter.mo
+* /usr/share/locale/he/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/hi/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/hu/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/ia/LC_MESSAGES/mboximporter.mo
@@ -47,6 +48,7 @@ Wizard to assist with importing MBox email archives into Akonadi
 * /usr/share/locale/kk/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/ko/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/lt/LC_MESSAGES/mboximporter.mo
+* /usr/share/locale/lv/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/nb/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/nds/LC_MESSAGES/mboximporter.mo
 * /usr/share/locale/nl/LC_MESSAGES/mboximporter.mo

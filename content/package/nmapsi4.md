@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nmapsi4 0.5-14"
-version = "0.5-14"
+title = "nmapsi4 0.5-15"
+version = "0.5-15"
 description = "NmapSi4 is a complete Qt5-based Gui with nmap."
-date = "2024-03-28T15:54:48"
+date = "2024-05-27T04:55:04"
 aliases = "/packages/184368"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nmapsi4.org/"
 arch = "x86_64"
-size = "442736"
-usize = "1230461"
-sha1sum = "9a6e9dc4f168e881bcad5bba5cc4db18d6e427d3"
+size = "444496"
+usize = "1234557"
+sha1sum = "ecb77baca28a31529ef1468117ab816f09961855"
 depends = "['gst1-plugins-base', 'nmap', 'qt5-webengine>=5.15.10']"
 +++
 ### Description: 

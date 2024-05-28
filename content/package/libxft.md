@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxft 2.3.8-2"
-version = "2.3.8-2"
+title = "libxft 2.3.8-3"
+version = "2.3.8-3"
 description = "X FreeType library"
-date = "2023-09-05T11:03:06"
+date = "2024-05-28T11:01:43"
 aliases = "/packages/4795"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "82772"
+size = "82540"
 usize = "213253"
-sha1sum = "461a2ebf131ddc93eaa281db2967029922e4e5f7"
+sha1sum = "72d2eb26f1d86d5bc99c3008b19314c69d777d59"
 depends = "['fontconfig>=2.12.6-2', 'freetype2>=2.9', 'libx11>=1.6.7-2', 'libxext>=1.3.4-2', 'libxrender>=0.9.10-6']"
 reverse_depends = "['conky', 'dmenu', 'dzen', 'firefox', 'fltk', 'fluxbox', 'fox', 'fox-1.2', 'ksubeditor', 'ksubtile', 'm17n-lib', 'pango', 'plasma-desktop', 'plasma-workspace', 'tk', 'wmi', 'xclock', 'xfd', 'xscreensaver-data', 'xterm']"
 license = "GPL2"

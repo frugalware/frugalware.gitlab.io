@@ -12,7 +12,7 @@ size = "1197844"
 usize = "1483980"
 sha1sum = "3ae482d6a79306e278eba84cbdc7dfb38ff510ff"
 depends = "['glibc']"
-reverse_depends = "['easyeffects', 'telegram-desktop']"
+reverse_depends = "['easyeffects', 'obs-studio', 'telegram-desktop']"
 +++
 ### Description: 
 A noise suppression library based on a recurrent neural network

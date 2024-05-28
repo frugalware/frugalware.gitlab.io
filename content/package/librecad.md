@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "librecad 2.2.0.1-3"
-version = "2.2.0.1-3"
+title = "librecad 2.2.0.1-4"
+version = "2.2.0.1-4"
 description = "Free Open Source personal CAD application."
-date = "2024-03-28T15:40:53"
+date = "2024-05-27T04:38:06"
 aliases = "/packages/137081"
 categories = ['xapps-extra']
 upstreamurl = "http://librecad.org"
 arch = "x86_64"
-size = "8850880"
-usize = "83232205"
-sha1sum = "943d01f102229dd6b4433387495888a03fa0d613"
+size = "9251804"
+usize = "83518693"
+sha1sum = "3970ce9579f0373a03ffac2eb6a310c8b59e4937"
 depends = "['muparser>=2.2.5-2', 'qt5-svg>=5.15.10', 'qt5-tools>=5.15.10']"
 +++
 ### Description: 

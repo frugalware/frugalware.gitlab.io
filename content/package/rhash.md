@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rhash 1.4.4-2"
-version = "1.4.4-2"
+title = "rhash 1.4.4-3"
+version = "1.4.4-3"
 description = "Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms."
-date = "2024-02-16T13:39:42"
+date = "2024-05-28T09:22:33"
 aliases = "/packages/221181"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/rhash/rhash"
 arch = "x86_64"
-size = "176148"
-usize = "361889"
-sha1sum = "5b910fdc8ee67b0576e69f5c67d9e9ea09930376"
+size = "201852"
+usize = "414581"
+sha1sum = "8c3014d5ce54a870e7237cbc1a73dc15435f676a"
 depends = "['glibc']"
 reverse_depends = "['cmake']"
 +++
@@ -36,10 +36,13 @@ Utility for verifying hash sums (SFV, CRC, etc). Supports lots of algorithms.
 * /usr/lib/librhash.so
 * /usr/lib/librhash.so.1
 * /usr/lib/librhash.so.1.4.4
+* /usr/share/doc/rhash-1.4.4/AUTHORS
 * /usr/share/doc/rhash-1.4.4/ChangeLog
 * /usr/share/doc/rhash-1.4.4/COPYING
+* /usr/share/doc/rhash-1.4.4/INSTALL
 * /usr/share/doc/rhash-1.4.4/INSTALL.md
 * /usr/share/doc/rhash-1.4.4/README.md
+* /usr/share/doc/rhash-1.4.4/README.rst
 * /usr/share/man/man1/ed2k-link.1.gz
 * /usr/share/man/man1/edonr256-hash.1.gz
 * /usr/share/man/man1/edonr512-hash.1.gz

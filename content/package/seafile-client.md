@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "seafile-client 9.0.4-6"
-version = "9.0.4-6"
+title = "seafile-client 9.0.4-7"
+version = "9.0.4-7"
 description = "Seafile desktop client."
-date = "2024-04-05T14:01:49"
+date = "2024-05-27T13:03:05"
 aliases = "/packages/218722"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/haiwen/seafile-client"
 arch = "x86_64"
-size = "1643160"
-usize = "4320639"
-sha1sum = "dbcd52b56a034bdff6df77376dd9d15fd2e99ad5"
+size = "1644640"
+usize = "4357471"
+sha1sum = "adf323820423bbb8365ee55a4313639ae7673914"
 depends = "['jansson', 'libseafile>=9.0.4', 'qt6-5compat', 'qt6-base', 'qt6-webengine']"
 +++
 ### Description: 

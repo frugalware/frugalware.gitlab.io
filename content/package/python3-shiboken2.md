@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-shiboken2 5.15.11-4"
-version = "5.15.11-4"
+title = "python3-shiboken2 5.15.11-5"
+version = "5.15.11-5"
 description = "Shiboken lib python only"
-date = "2024-03-28T14:53:21"
+date = "2024-05-26T21:54:13"
 aliases = "/packages/220145"
 categories = ['lib']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "187272"
+size = "187312"
 usize = "458099"
-sha1sum = "e9ed767cb75027cbb42305587f906975320a34cc"
+sha1sum = "f8469d1d29c1baca51b9a23db9fd45a59d5bf885"
 depends = "['python3>=3.11']"
 +++
 ### Description: 

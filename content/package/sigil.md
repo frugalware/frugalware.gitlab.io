@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sigil 2.0.1-3"
-version = "2.0.1-3"
+title = "sigil 2.0.1-4"
+version = "2.0.1-4"
 description = "A WYSISYG ebook editor."
-date = "2024-03-28T16:38:22"
+date = "2024-05-27T05:26:38"
 aliases = "/packages/135763"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/user-none/Sigil"
 arch = "x86_64"
-size = "7000552"
-usize = "33622801"
-sha1sum = "c8e4ab1402fa35877e2c9b3bd13ac1fad6c1d040"
+size = "7026148"
+usize = "33749425"
+sha1sum = "6531dc67591112a1f44eabd53f8436b8ad7f7dc9"
 depends = "['hunspell', 'python3>=3.12', 'python3-lxml', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10']"
 +++
 ### Description: 

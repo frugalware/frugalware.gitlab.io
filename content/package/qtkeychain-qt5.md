@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtkeychain-qt5 0.14.2-6"
-version = "0.14.2-6"
+title = "qtkeychain-qt5 0.14.2-8"
+version = "0.14.2-8"
 description = "qtkeychain QT5"
-date = "2024-04-05T14:43:12"
+date = "2024-05-27T14:00:19"
 aliases = "/packages/221386"
 categories = ['xlib']
 upstreamurl = "https://github.com/frankosterfeld/qtkeychain"
 arch = "x86_64"
-size = "52532"
-usize = "203092"
-sha1sum = "e307329e7ea1b86e910404c8aab382127641fa36"
+size = "52736"
+usize = "203180"
+sha1sum = "e54ffb7d403b8b3689a163bba4b4b9279c51c492"
 depends = "['libsecret', 'qt5-base']"
 reverse_depends = "['aseman-qt-tools', 'kstars', 'mixxx']"
 +++

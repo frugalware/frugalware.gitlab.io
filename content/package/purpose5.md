@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "purpose5 5.115.0-3"
-version = "5.115.0-3"
+title = "purpose5 5.116.0-2"
+version = "5.116.0-2"
 description = "Offers the possibility to create integrate services and actions on any application."
-date = "2024-03-26T14:09:01"
+date = "2024-05-26T17:24:57"
 aliases = "/packages/221381"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "270052"
-usize = "1593984"
-sha1sum = "ce69f70c4142a5bc149d7ebabd0a33e6df5e28b6"
-depends = "['kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0', 'kdeclarative5>=5.115.0', 'ki18n5>=5.115.0', 'kio5>=5.115.0', 'kirigami25>=5.115.0']"
+size = "271624"
+usize = "1605154"
+sha1sum = "884b92ae576d07d19d795c70473442f56d0a0570"
+depends = "['kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kdeclarative5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'kirigami25>=5.116.0']"
 reverse_depends = "['kamoso']"
 +++
 ### Description: 
@@ -41,14 +41,14 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/kf5/kf5/purposeprocess
 * /usr/lib/libKF5Purpose.so
 * /usr/lib/libKF5Purpose.so.5
-* /usr/lib/libKF5Purpose.so.5.115.0
+* /usr/lib/libKF5Purpose.so.5.116.0
 * /usr/lib/libKF5PurposeWidgets.so
 * /usr/lib/libKF5PurposeWidgets.so.5
-* /usr/lib/libKF5PurposeWidgets.so.5.115.0
+* /usr/lib/libKF5PurposeWidgets.so.5.116.0
 * /usr/lib/libPhabricatorHelpers.so.5
-* /usr/lib/libPhabricatorHelpers.so.5.115.0
+* /usr/lib/libPhabricatorHelpers.so.5.116.0
 * /usr/lib/libReviewboardHelpers.so.5
-* /usr/lib/libReviewboardHelpers.so.5.115.0
+* /usr/lib/libReviewboardHelpers.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/kfileitemaction/sharefileitemaction.so
 * /usr/lib/qt5/plugins/kf5/purpose/barcodeplugin.so
 * /usr/lib/qt5/plugins/kf5/purpose/bluetoothplugin.so
@@ -63,8 +63,7 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/qt5/plugins/kf5/purpose/saveasplugin.so
 * /usr/lib/qt5/plugins/kf5/purpose/telegramplugin.so
 * /usr/lib/qt5/plugins/kf5/purpose/twitterplugin.so
-* /usr/share/doc/purpose5-5.115.0/AUTHORS
-* /usr/share/doc/purpose5-5.115.0/README.md
+* /usr/share/doc/purpose5-5.116.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/phabricator-purpose.png
 * /usr/share/icons/hicolor/128x128/apps/reviewboard-purpose.png
 * /usr/share/icons/hicolor/16x16/apps/phabricator-purpose.png
@@ -229,6 +228,8 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/share/locale/eo/LC_MESSAGES/purpose_ktp-sendfile.mo
 * /usr/share/locale/eo/LC_MESSAGES/purpose_nextcloud.mo
 * /usr/share/locale/eo/LC_MESSAGES/purpose_pastebin.mo
+* /usr/share/locale/eo/LC_MESSAGES/purpose_phabricator.mo
+* /usr/share/locale/eo/LC_MESSAGES/purpose_reviewboard.mo
 * /usr/share/locale/eo/LC_MESSAGES/purpose_saveas.mo
 * /usr/share/locale/eo/LC_MESSAGES/purpose_youtube.mo
 * /usr/share/locale/es/LC_MESSAGES/libpurpose_quick.mo
@@ -540,6 +541,8 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/share/locale/ro/LC_MESSAGES/purpose_ktp-sendfile.mo
 * /usr/share/locale/ro/LC_MESSAGES/purpose_nextcloud.mo
 * /usr/share/locale/ro/LC_MESSAGES/purpose_pastebin.mo
+* /usr/share/locale/ro/LC_MESSAGES/purpose_phabricator.mo
+* /usr/share/locale/ro/LC_MESSAGES/purpose_reviewboard.mo
 * /usr/share/locale/ro/LC_MESSAGES/purpose_saveas.mo
 * /usr/share/locale/ro/LC_MESSAGES/purpose_youtube.mo
 * /usr/share/locale/ru/LC_MESSAGES/libpurpose_quick.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyqt6-sip 13.6.0-2"
-version = "13.6.0-2"
+title = "python3-pyqt6-sip 13.6.0-3"
+version = "13.6.0-3"
 description = "SIP module support PyQT6"
-date = "2024-04-05T14:30:16"
+date = "2024-05-27T13:49:01"
 aliases = "/packages/220808"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/software/sip"
 arch = "x86_64"
-size = "49700"
+size = "49948"
 usize = "142541"
-sha1sum = "92010886a418746e98ae6a8dfe2a41ee3fad70a2"
+sha1sum = "2a30113931ed257cbdf7bc5c3c9b7acd6bc8a273"
 depends = "['python3>=3.12']"
 reverse_depends = "['pyqt6']"
 +++

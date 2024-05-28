@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmlkonsole 24.02.2-3"
-version = "24.02.2-3"
+title = "qmlkonsole 24.05.0-1"
+version = "24.05.0-1"
 description = "Terminal app for Plasma Mobile"
-date = "2024-04-17T01:51:23"
+date = "2024-05-25T13:47:29"
 aliases = "/packages/220993"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "185528"
-usize = "643948"
-sha1sum = "11c3b080880e39855c0263424a6de57a076e5fca"
+size = "186136"
+usize = "652781"
+sha1sum = "8b5c6f34cf4fd373f71d9ae1be49e2dd836de587"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kpty', 'kwindowsystem', 'qmltermwidget', 'qt6-5compat', 'qt6-svg']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ Terminal app for Plasma Mobile
 * /usr/bin/qmlkonsole
 * /usr/share/applications/org.kde.qmlkonsole.desktop
 * /usr/share/config.kcfg/terminalsettings.kcfg
-* /usr/share/doc/qmlkonsole-24.02.2/README.md
+* /usr/share/doc/qmlkonsole-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.qmlkonsole.svg
 * /usr/share/locale/ast/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ca/LC_MESSAGES/qmlkonsole.mo
@@ -34,6 +34,7 @@ Terminal app for Plasma Mobile
 * /usr/share/locale/fi/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/fr/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/gl/LC_MESSAGES/qmlkonsole.mo
+* /usr/share/locale/he/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/hi/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/hu/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ia/LC_MESSAGES/qmlkonsole.mo

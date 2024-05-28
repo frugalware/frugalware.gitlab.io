@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt-virt-manager 0.72.99-5"
-version = "0.72.99-5"
+title = "qt-virt-manager 0.72.99-6"
+version = "0.72.99-6"
 description = "A GUI application for managing virtual machines."
-date = "2024-03-28T22:02:24"
+date = "2024-05-27T05:16:59"
 aliases = "/packages/218684"
 categories = ['xapps-extra']
 upstreamurl = "http://f1ash.github.io/qt-virt-manager"
 arch = "x86_64"
-size = "3117412"
-usize = "7777390"
-sha1sum = "d3fba6c375dddaf5800a2064daa7786f9a4ed0cb"
+size = "3115736"
+usize = "7801966"
+sha1sum = "05316336249bc577034c37626ebc0f6a3391c50d"
 depends = "['hicolor-icon-theme', 'krdc', 'libvirt>=3.8.0', 'libvncserver>=0.9.11', 'qt5-base>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'qtermwidget>=1.2.0', 'spice-glib', 'spice-protocol']"
 +++
 ### Description: 

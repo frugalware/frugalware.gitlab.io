@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qgit 2.10-3"
-version = "2.10-3"
+title = "qgit 2.10-4"
+version = "2.10-4"
 description = "QGit is a git GUI viewer built on Qt/C++."
-date = "2024-03-28T16:17:46"
+date = "2024-05-27T05:11:14"
 aliases = "/packages/9657"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/tibirna/qgit"
 arch = "x86_64"
-size = "356104"
+size = "356744"
 usize = "1131324"
-sha1sum = "de31e159312cb475e4989482c210633b65f57f1d"
+sha1sum = "6cee2be29545df5d5f44eb264586bebad9210a75"
 depends = "['git', 'qt5-base>=5.15.10']"
 +++
 ### Description: 

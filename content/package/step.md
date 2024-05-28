@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "step 24.02.2-4"
-version = "24.02.2-4"
+title = "step 24.05.0-2"
+version = "24.05.0-2"
 description = "Interactive Physics Simulator."
-date = "2024-05-02T19:37:46"
+date = "2024-05-26T17:57:41"
 aliases = "/packages/152841"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1295984"
-usize = "11874734"
-sha1sum = "39bccf8289cfac1bb6499b7fbf691e3834d9e462"
-depends = "['gsl>=2.6', 'kdelibs4support5>=5.115.0', 'khtml5>=5.115.0', 'knewstuff5>=5.115.0', 'libqalculate>=5.0.0']"
+size = "1266860"
+usize = "11821514"
+sha1sum = "70b0fa1744782aba92d1abef9f8943f1635b3825"
+depends = "['gsl>=2.6', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstuff5>=5.116.0', 'libqalculate>=5.0.0']"
 +++
 ### Description: 
 Interactive Physics Simulator.
@@ -53,10 +53,6 @@ Interactive Physics Simulator.
 * /usr/share/doc/HTML/et/step/index.cache.bz2
 * /usr/share/doc/HTML/et/step/index.docbook
 * /usr/share/doc/HTML/et/step/tutorials.docbook
-* /usr/share/doc/HTML/fr/step/examples.docbook
-* /usr/share/doc/HTML/fr/step/index.cache.bz2
-* /usr/share/doc/HTML/fr/step/index.docbook
-* /usr/share/doc/HTML/fr/step/tutorials.docbook
 * /usr/share/doc/HTML/it/step/examples.docbook
 * /usr/share/doc/HTML/it/step/index.cache.bz2
 * /usr/share/doc/HTML/it/step/index.docbook
@@ -82,11 +78,11 @@ Interactive Physics Simulator.
 * /usr/share/doc/HTML/uk/step/index.docbook
 * /usr/share/doc/HTML/uk/step/mainwindow.png
 * /usr/share/doc/HTML/uk/step/tutorials.docbook
-* /usr/share/doc/step-24.02.2/AUTHORS
-* /usr/share/doc/step-24.02.2/ChangeLog
-* /usr/share/doc/step-24.02.2/INSTALL
-* /usr/share/doc/step-24.02.2/README
-* /usr/share/doc/step-24.02.2/TODO
+* /usr/share/doc/step-24.05.0/AUTHORS
+* /usr/share/doc/step-24.05.0/ChangeLog
+* /usr/share/doc/step-24.05.0/INSTALL
+* /usr/share/doc/step-24.05.0/README
+* /usr/share/doc/step-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/step.png
 * /usr/share/icons/hicolor/16x16/apps/step.png
 * /usr/share/icons/hicolor/22x22/actions/pointer.png

@@ -12,7 +12,7 @@ size = "5474320"
 usize = "34972863"
 sha1sum = "281c2001e99e7cbdfc5ebef480d1774fa84c0d72"
 depends = "['libgfortran', 'libgomp']"
-reverse_depends = "['blender', 'digikam', 'gmic', 'julia', 'nomacs', 'opencv-python3', 'openimageio', 'performous']"
+reverse_depends = "['blender', 'digikam', 'gmic', 'julia', 'nomacs', 'opencv-python3', 'openimageio', 'performous', 'spectacle']"
 +++
 ### Description: 
 An optimized BLAS library based on GotoBLAS2 1.13 BSD

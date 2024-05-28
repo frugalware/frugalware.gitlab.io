@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsamplerate 0.1.9-5"
-version = "0.1.9-5"
+title = "libsamplerate 0.1.9-6"
+version = "0.1.9-6"
 description = "Secret Rabbit Code"
-date = "2022-01-20T09:01:58"
+date = "2024-05-28T09:41:15"
 aliases = "/packages/3194"
 categories = ['multimedia']
 upstreamurl = "http://www.mega-nerd.com/SRC"
 arch = "x86_64"
-size = "987796"
-usize = "1644066"
-sha1sum = "7603dfa0db2077314b5e785a824bcef27d886dfb"
+size = "987276"
+usize = "1643486"
+sha1sum = "abff49a18385618154bae43be17461d37d603ef7"
 depends = "['fftw>=3.3.5-2', 'glibc>=2.34', 'libsndfile>=1.0.27-2']"
 reverse_depends = "['alsa-plugin-samplerate', 'alsa-utils', 'blender', 'dssi', 'gtk-handbrake', 'jack2', 'k3b', 'kwave', 'liblastfm', 'mlt', 'mpd', 'pocketsphinx', 'rubberband', 'vlc-samplerate', 'zam-plugins']"
 +++

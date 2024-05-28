@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qhttpengine 1.0.1-3"
-version = "1.0.1-3"
+title = "qhttpengine 1.0.1-4"
+version = "1.0.1-4"
 description = "Simple and secure HTTP server for Qt"
-date = "2024-03-28T15:15:31"
+date = "2024-05-26T22:15:45"
 aliases = "/packages/221082"
 categories = ['network-extra']
 upstreamurl = "https://github.com/nitroshare/qhttpengine"
 arch = "x86_64"
-size = "61328"
-usize = "250284"
-sha1sum = "8ce238d2bfb75c68061e5d78647e43cdccd4ecb4"
+size = "61588"
+usize = "250372"
+sha1sum = "90e6abc28ddbd403ccc2acdfd3708561ce27e0a8"
 depends = "['qt5-base']"
 reverse_depends = "['nitroshare']"
 +++

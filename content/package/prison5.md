@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "prison5 5.115.0-2"
-version = "5.115.0-2"
+title = "prison5 5.116.0-2"
+version = "5.116.0-2"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-03-14T15:14:24"
+date = "2024-05-26T16:20:23"
 aliases = "/packages/221380"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "57640"
-usize = "252766"
-sha1sum = "84aed3e673d0a298d1062e9f4df8ba567ed796d8"
-depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.12', 'qt5-multimedia>=5.15.12', 'zxing-cpp']"
+size = "57944"
+usize = "252662"
+sha1sum = "92fa686eaa1c75685947d83f0a5c60b69e393dd9"
+depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.14', 'qt5-multimedia>=5.15.14', 'zxing-cpp']"
 +++
 ### Description: 
 Qt library to access Open Collaboration Services
@@ -42,11 +42,11 @@ Qt library to access Open Collaboration Services
 * /usr/lib/cmake/KF5Prison/KF5PrisonTargets.cmake
 * /usr/lib/libKF5Prison.so
 * /usr/lib/libKF5Prison.so.5
-* /usr/lib/libKF5Prison.so.5.115.0
+* /usr/lib/libKF5Prison.so.5.116.0
 * /usr/lib/libKF5PrisonScanner.so
 * /usr/lib/libKF5PrisonScanner.so.5
-* /usr/lib/libKF5PrisonScanner.so.5.115.0
-* /usr/share/doc/prison5-5.115.0/README.md
+* /usr/lib/libKF5PrisonScanner.so.5.116.0
+* /usr/share/doc/prison5-5.116.0/README.md
 * /usr/share/qlogging-categories5/prison.categories
 * /usr/share/qlogging-categories5/prison.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Prison.pri

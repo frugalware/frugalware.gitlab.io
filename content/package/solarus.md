@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "solarus 1.6.5-2"
-version = "1.6.5-2"
+title = "solarus 1.6.5-3"
+version = "1.6.5-3"
 description = "Solarus is an open-source Zelda-like game engine written in C++."
-date = "2024-03-28T15:05:19"
+date = "2024-05-26T21:58:50"
 aliases = "/packages/136914"
 categories = ['games-extra']
 upstreamurl = "http://www.solarus-games.org/"
 arch = "x86_64"
-size = "1308168"
-usize = "5665153"
-sha1sum = "0198bb840a07ef719964b9559341418cf24196bf"
+size = "1322744"
+usize = "5744561"
+sha1sum = "b84c7f99dd82944a63d4b48190a2b195f7f24c22"
 depends = "['glm', 'libmodplug', 'libogg', 'libvorbis', 'luajit2', 'openal', 'physfs', 'qt5-base>=5.15.10', 'sdl2', 'sdl2_image', 'sdl2_ttf']"
 reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style5 5.115.0-2"
-version = "5.115.0-2"
+title = "qqc2-desktop-style5 5.116.0-2"
+version = "5.116.0-2"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-03-15T10:17:46"
+date = "2024-05-26T17:35:12"
 aliases = "/packages/221385"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "77216"
-usize = "381553"
-sha1sum = "f4952a0599cf4127b26b5f46c72c730e789d7c6c"
-depends = "['kconfigwidgets5>=5.115.0', 'kiconthemes5>=5.115.0', 'kirigami25>=5.115.0', 'plasma-framework5>=5.115.0', 'qt5-x11extras>=5.15.12']"
+size = "81400"
+usize = "404033"
+sha1sum = "2f60a26426694bc81f5912f93d7cf1114ed19121"
+depends = "['kconfigwidgets5>=5.116.0', 'kiconthemes5>=5.116.0', 'kirigami25>=5.116.0', 'plasma-framework5>=5.116.0', 'qt5-x11extras>=5.15.14']"
 +++
 ### Description: 
 QtQuickControls2 style that uses QWidget's QStyle for painting.
@@ -22,7 +22,21 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfig.cmake
 * /usr/lib/cmake/KF5QQC2DesktopStyle/KF5QQC2DesktopStyleConfigVersion.cmake
 * /usr/lib/qt5/plugins/kf5/kirigami/org.kde.desktop.so
-* /usr/share/doc/qqc2-desktop-style5-5.115.0/README.md
+* /usr/share/doc/qqc2-desktop-style5-5.116.0/README.md
+* /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/ca@valencia/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/cs/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/de/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/es/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/fr/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/it/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/nl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/sl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/sv/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/tr/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/uk/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/zh_CN/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/zh_TW/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/qt5/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/share/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/share/qt5/qml/QtQuick/Controls.2/org.kde.desktop/BusyIndicator.qml

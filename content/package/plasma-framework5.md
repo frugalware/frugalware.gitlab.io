@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-framework5 5.115.0-4"
-version = "5.115.0-4"
+title = "plasma-framework5 5.116.0-2"
+version = "5.116.0-2"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2024-03-15T11:49:25"
+date = "2024-05-26T17:32:53"
 aliases = "/packages/221376"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1132552"
-usize = "4306770"
-sha1sum = "6d51944881ce2601ef80990bc0e8a6948624f604"
-depends = "['kactivities5>=5.115.0', 'kdeclarative5>=5.115.0', 'kirigami25>=5.115.0', 'kwayland5>=5.115.0']"
+size = "1134624"
+usize = "4319966"
+sha1sum = "b58e23817cb72cdad63a378a742a92af2a9dd669"
+depends = "['kactivities5>=5.116.0', 'kdeclarative5>=5.116.0', 'kirigami25>=5.116.0', 'kwayland5>=5.116.0']"
 reverse_depends = "['kmix', 'krunner5', 'qqc2-desktop-style5', 'smb4k']"
 +++
 ### Description: 
@@ -80,10 +80,10 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake
 * /usr/lib/libKF5Plasma.so
 * /usr/lib/libKF5Plasma.so.5
-* /usr/lib/libKF5Plasma.so.5.115.0
+* /usr/lib/libKF5Plasma.so.5.116.0
 * /usr/lib/libKF5PlasmaQuick.so
 * /usr/lib/libKF5PlasmaQuick.so.5
-* /usr/lib/libKF5PlasmaQuick.so.5.115.0
+* /usr/lib/libKF5PlasmaQuick.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/kirigami/KirigamiPlasmaStyle.so
 * /usr/lib/qt5/plugins/kpackage/packagestructure/plasma_applet.so
 * /usr/lib/qt5/plugins/kpackage/packagestructure/plasma_containmentactions.so
@@ -91,7 +91,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt5/plugins/kpackage/packagestructure/plasma_generic.so
 * /usr/lib/qt5/plugins/kpackage/packagestructure/plasma_theme.so
 * /usr/lib/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so
-* /usr/share/doc/plasma-framework5-5.115.0/README.md
+* /usr/share/doc/plasma-framework5-5.116.0/README.md
 * /usr/share/kdevappwizard/templates/cpp-plasmoid.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma-wallpaper-with-qml-extension.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma-wallpaper.tar.bz2

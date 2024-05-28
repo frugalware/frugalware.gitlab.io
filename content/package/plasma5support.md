@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma5support 6.0.4-1"
-version = "6.0.4-1"
+title = "plasma5support 6.0.5-1"
+version = "6.0.5-1"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2024-04-16T20:03:06"
+date = "2024-05-22T09:57:11"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "114456"
-usize = "432204"
-sha1sum = "30f8eaf81a936a108662d5cb4d6eaf455287147c"
-depends = "['kconfig>=6.1.0', 'kcoreaddons>=6.1.0', 'ki18n>=6.1.0']"
+size = "114152"
+usize = "432295"
+sha1sum = "dbade465a0bc6bf3aac4074d906d3c83f611b820"
+depends = "['kconfig>=6.2.0', 'kcoreaddons>=6.2.0', 'ki18n>=6.2.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -42,12 +42,12 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets.cmake
 * /usr/lib/libPlasma5Support.so
 * /usr/lib/libPlasma5Support.so.6
-* /usr/lib/libPlasma5Support.so.6.0.4
+* /usr/lib/libPlasma5Support.so.6.0.5
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/libplasma5supportplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/plasma5supportplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/qmldir
-* /usr/share/doc/plasma5support-6.0.4/README.md
+* /usr/share/doc/plasma5support-6.0.5/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libplasma5support.mo
 * /usr/share/locale/ast/LC_MESSAGES/libplasma5support.mo
 * /usr/share/locale/bg/LC_MESSAGES/libplasma5support.mo

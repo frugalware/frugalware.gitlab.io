@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencv-cuda 4.9.0-4"
-version = "4.9.0-4"
+title = "opencv-cuda 4.9.0-6"
+version = "4.9.0-6"
 description = "Intel(R) Open Source Computer Vision Library CUDA"
-date = "2024-04-05T18:23:54"
+date = "2024-05-28T00:30:12"
 aliases = "/packages/221242"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "71268808"
-usize = "1590840894"
-sha1sum = "0e0b054652a778cdfe8bd071c1615fe9e0cc6a28"
+size = "70363016"
+usize = "1586419623"
+sha1sum = "6d728548101f53f4cc322fdeab641040039fbb23"
 depends = "['cuda-tools', 'jasper', 'opencv>=4.9.0']"
 +++
 ### Description: 
@@ -905,8 +905,6 @@ Intel(R) Open Source Computer Vision Library CUDA
 * /usr/lib/libopencv_xphoto.so.4.9.0
 * /usr/lib/libopencv_xphoto.so.409
 * /usr/lib/pkgconfig/opencv4.pc
-* /usr/share/java/opencv4/libopencv_java490.so
-* /usr/share/java/opencv4/opencv-490.jar
 * /usr/share/licenses/opencv4/ade-LICENSE
 * /usr/share/licenses/opencv4/flatbuffers-LICENSE.txt
 * /usr/share/licenses/opencv4/ippicv-EULA.txt

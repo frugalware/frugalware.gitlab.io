@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "snorenotify 0.7.0-17"
-version = "0.7.0-17"
+title = "snorenotify 0.7.0-18"
+version = "0.7.0-18"
 description = "Snorenotify is a multi platform Qt notification framework."
-date = "2024-03-28T17:27:47"
+date = "2024-05-27T06:15:57"
 aliases = "/packages/218410"
 categories = ['xapps']
 upstreamurl = "https://github.com/KDE/snorenotify"
 arch = "x86_64"
-size = "195312"
-usize = "1048740"
-sha1sum = "6aa2fa6ac0b47794a93dbb476802820b737a426c"
+size = "197004"
+usize = "1053092"
+sha1sum = "cc527d5bd99887cc1a614e90da4d0ad0042fd020"
 depends = "['qt5-multimedia>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-websockets>=5.15.10']"
 +++
 ### Description: 

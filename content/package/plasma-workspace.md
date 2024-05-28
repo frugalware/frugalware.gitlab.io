@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.0.4-3"
-version = "6.0.4-3"
+title = "plasma-workspace 6.0.5-1"
+version = "6.0.5-1"
 description = "KDE Plasma Workspace."
-date = "2024-05-20T20:27:27"
+date = "2024-05-22T10:07:19"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20771392"
-usize = "55486441"
-sha1sum = "85fe7a2c53d4ec6cfba8845499efc7321a0e9c89"
-depends = "['appstream-qt', 'baloo>=6.1.0', 'kcmutils>=6.1.0', 'kdeclarative>=6.1.0', 'kholidays>=6.1.0', 'kidletime>=6.1.0', 'kirigami-addons', 'knewstuff>=6.1.0', 'knotifyconfig>=6.1.0', 'kpackage>=6.1.0', 'kparts>=6.1.0', 'kquickcharts>=6.1.0', 'krunner>=6.1.0', 'ksvg>=6.1.0', 'ktexteditor>=6.1.0', 'kunitconversion>=6.1.0', 'kuserfeedback>=6.1.0', 'kwin>=6.0.4', 'libkexiv2', 'libksysguard>=6.0.4', 'libplasma>=6.0.4', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.1.0', 'plasma-activities-stats>=6.0.4', 'plasma5support>=6.0.4', 'prison>=6.1.0']"
+size = "20773368"
+usize = "55499072"
+sha1sum = "2efec2ba91df8795132aa7214d2b1613e7eea71e"
+depends = "['appstream-qt', 'baloo>=6.2.0', 'kcmutils>=6.2.0', 'kdeclarative>=6.2.0', 'kholidays>=6.2.0', 'kidletime>=6.2.0', 'kirigami-addons', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kpackage>=6.2.0', 'kparts>=6.2.0', 'kquickcharts>=6.2.0', 'krunner>=6.2.0', 'ksvg>=6.2.0', 'ktexteditor>=6.2.0', 'kunitconversion>=6.2.0', 'kuserfeedback>=6.2.0', 'kwin>=6.0.5', 'libkexiv2', 'libksysguard>=6.0.5', 'libplasma>=6.0.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.2.0', 'plasma-activities-stats>=6.0.5', 'plasma5support>=6.0.5', 'prison>=6.2.0']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-remotecontrollers', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
@@ -127,29 +127,29 @@ KDE Plasma Workspace.
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 * /usr/lib/libcolorcorrect.so
 * /usr/lib/libcolorcorrect.so.6
-* /usr/lib/libcolorcorrect.so.6.0.4
+* /usr/lib/libcolorcorrect.so.6.0.5
 * /usr/lib/libkfontinst.so
 * /usr/lib/libkfontinst.so.6
-* /usr/lib/libkfontinst.so.6.0.4
+* /usr/lib/libkfontinst.so.6.0.5
 * /usr/lib/libkfontinstui.so
 * /usr/lib/libkfontinstui.so.6
-* /usr/lib/libkfontinstui.so.6.0.4
+* /usr/lib/libkfontinstui.so.6.0.5
 * /usr/lib/libkmpris.so
 * /usr/lib/libkmpris.so.6
-* /usr/lib/libkmpris.so.6.0.4
+* /usr/lib/libkmpris.so.6.0.5
 * /usr/lib/libkrdb.so
 * /usr/lib/libkworkspace6.so
 * /usr/lib/libkworkspace6.so.6
-* /usr/lib/libkworkspace6.so.6.0.4
+* /usr/lib/libkworkspace6.so.6.0.5
 * /usr/lib/libnotificationmanager.so
 * /usr/lib/libnotificationmanager.so.1
-* /usr/lib/libnotificationmanager.so.6.0.4
+* /usr/lib/libnotificationmanager.so.6.0.5
 * /usr/lib/libplasma-geolocation-interface.so
 * /usr/lib/libplasma-geolocation-interface.so.6
-* /usr/lib/libplasma-geolocation-interface.so.6.0.4
+* /usr/lib/libplasma-geolocation-interface.so.6.0.5
 * /usr/lib/libtaskmanager.so
 * /usr/lib/libtaskmanager.so.6
-* /usr/lib/libtaskmanager.so.6.0.4
+* /usr/lib/libtaskmanager.so.6.0.5
 * /usr/lib/libweather_ion.so
 * /usr/lib/libweather_ion.so.7
 * /usr/lib/libweather_ion.so.7.0.0
@@ -858,8 +858,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.0.4/HACKING
-* /usr/share/doc/plasma-workspace-6.0.4/README.md
+* /usr/share/doc/plasma-workspace-6.0.5/HACKING
+* /usr/share/doc/plasma-workspace-6.0.5/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png
@@ -1647,6 +1647,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/cs/LC_MESSAGES/plasma_engine_soliddevice.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_engine_time.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_engine_weather.mo
+* /usr/share/locale/cs/LC_MESSAGES/plasma_interactiveconsole.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_lookandfeel_org.kde.lookandfeel.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_runner_appstream.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_runner_baloosearch.mo
@@ -2056,6 +2057,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/eo/LC_MESSAGES/plasma_engine_soliddevice.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_engine_time.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_engine_weather.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_interactiveconsole.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_lookandfeel_org.kde.lookandfeel.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_runner_appstream.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_runner_baloosearch.mo
@@ -2635,6 +2637,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/gl/LC_MESSAGES/plasma_engine_soliddevice.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_engine_time.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_engine_weather.mo
+* /usr/share/locale/gl/LC_MESSAGES/plasma_interactiveconsole.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_lookandfeel_org.kde.lookandfeel.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_runner_appstream.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_runner_baloosearch.mo
@@ -5960,6 +5963,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/uk/LC_MESSAGES/plasma_engine_soliddevice.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_engine_time.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_engine_weather.mo
+* /usr/share/locale/uk/LC_MESSAGES/plasma_interactiveconsole.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_lookandfeel_org.kde.lookandfeel.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_appstream.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_baloosearch.mo

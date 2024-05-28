@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "polkit-kde-agent-1 6.0.4-1"
-version = "6.0.4-1"
+title = "polkit-kde-agent-1 6.0.5-1"
+version = "6.0.5-1"
 description = "Daemon providing a polkit authentication UI for KDE"
-date = "2024-04-16T19:59:42"
+date = "2024-05-22T10:51:19"
 aliases = "/packages/118466"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "65096"
-usize = "237125"
-sha1sum = "69e44428d5f596c67e65416521d11c035fec21a2"
-depends = "['kcrash>=6.1.0', 'kdbusaddons>=6.1.0', 'kiconthemes>=6.1.0', 'polkit-qt6-1']"
+size = "65188"
+usize = "233275"
+sha1sum = "e446914ea2d77ff8c6ebc50001037a9f674528f5"
+depends = "['kcrash>=6.2.0', 'kdbusaddons>=6.2.0', 'kiconthemes>=6.2.0', 'polkit-qt6-1']"
 +++
 ### Description: 
 Daemon providing a polkit authentication UI for KDE

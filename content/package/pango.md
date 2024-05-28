@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pango 1.52.2-1"
-version = "1.52.2-1"
+title = "pango 1.52.2-2"
+version = "1.52.2-2"
 description = "A library for layout and rendering of text"
-date = "2024-05-02T08:47:33"
+date = "2024-05-28T11:05:23"
 aliases = "/packages/3276"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "435588"
-usize = "2531492"
-sha1sum = "390e65163029eb73453d95221d74e08d0be71265"
+size = "440572"
+usize = "2552204"
+sha1sum = "2487ef275b55eac406347d25c1b43e90aeb0cf34"
 depends = "['cairo>=1.17.2-2', 'fribidi>=1.0.5', 'harfbuzz>=2.5.0', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libxft>=2.3.2-2', 'util-linux']"
 reverse_depends = "['castor', 'cef', 'chromium-browser', 'dunst', 'fontforge', 'gail', 'gnuplot', 'gparted', 'granite', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4', 'gtk+4-demos', 'gtk+4-tools', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'i3', 'librsvg', 'libvips', 'packagekit', 'pangomm', 'r', 'rrdtool', 'scim', 'thunderbird', 'wesnoth', 'weston', 'whalebird']"
 +++

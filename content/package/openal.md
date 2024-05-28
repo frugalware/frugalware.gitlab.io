@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openal 1.23.1-2"
-version = "1.23.1-2"
+title = "openal 1.23.1-3"
+version = "1.23.1-3"
 description = "A cross-platform 3D audio API appropriate for use with gaming applications."
-date = "2023-09-05T11:27:00"
+date = "2024-05-27T10:13:04"
 aliases = "/packages/3268"
 categories = ['xlib']
 upstreamurl = "http://openal-soft.org"
 arch = "x86_64"
-size = "491364"
-usize = "1432652"
-sha1sum = "09be3611b6b9ea2ad7d2fd4bee4e61b9891dd5b2"
+size = "506836"
+usize = "1473830"
+sha1sum = "1daaaeb9520d7873b2a07c25cbcc0a7b8d949221"
 depends = "['ffmpeg>=3.3.2', 'freeglut', 'glibc>=2.29-6', 'sdl2>=2.0.4-2']"
 reverse_depends = "['alienarena', 'assaultcube', 'blender', 'filter_audio', 'freealut', 'freeorion', 'jazz2', 'lib32-openal', 'libkdegames', 'love', 'mencoder', 'minetest', 'mplayer', 'naev', 'qt5-multimedia', 'sfml', 'solarus', 'spring', 'supertux', 'supertuxkart', 'telegram-desktop', 'tox-core', 'warzone2100', 'wildmidi', 'wine', 'wine-devel']"
 +++

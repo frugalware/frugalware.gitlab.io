@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "luajit2 20240109.gc525bcb-2"
-version = "20240109.gc525bcb-2"
+title = "luajit2 20240528.g93e8799-1"
+version = "20240528.g93e8799-1"
 description = "A Just-In-Time Compiler for Lua"
-date = "2024-01-17T13:44:25"
+date = "2024-05-28T09:25:14"
 aliases = "/packages/153253"
 categories = ['lib']
 upstreamurl = "http://luajit.org/"
 arch = "x86_64"
-size = "366840"
-usize = "1420788"
-sha1sum = "6a5758b1b4c377d16c8c2df6fe292d3357d7a435"
+size = "371168"
+usize = "1427215"
+sha1sum = "ac307de63133b1a7cd6890c9c8c3b69572e7ed90"
 depends = "['lua>=5.4']"
 reverse_depends = "['cantor', 'cgit', 'efl', 'enlightenment', 'libluv', 'love', 'minetest', 'mpv', 'naev', 'obs-studio', 'pdns-recursor', 'rspamd', 'solarus', 'sysdig', 'terminology']"
 +++
@@ -19,7 +19,7 @@ A Just-In-Time Compiler for Lua
 
 ### Files: 
 * /usr/bin/luajit
-* /usr/bin/luajit-2.1.1703358377
+* /usr/bin/luajit-2.1.1716656478
 * /usr/include/luajit-2.1/lauxlib.h
 * /usr/include/luajit-2.1/lua.h
 * /usr/include/luajit-2.1/lua.hpp
@@ -28,10 +28,10 @@ A Just-In-Time Compiler for Lua
 * /usr/include/luajit-2.1/lualib.h
 * /usr/lib/libluajit-5.1.so
 * /usr/lib/libluajit-5.1.so.2
-* /usr/lib/libluajit-5.1.so.2.1.1703358377
+* /usr/lib/libluajit-5.1.so.2.1.1716656478
 * /usr/lib/pkgconfig/luajit.pc
-* /usr/share/doc/luajit2-20240109.gc525bcb/COPYRIGHT
-* /usr/share/doc/luajit2-20240109.gc525bcb/README
+* /usr/share/doc/luajit2-20240528.g93e8799/COPYRIGHT
+* /usr/share/doc/luajit2-20240528.g93e8799/README
 * /usr/share/luajit-2.1/jit/bc.lua
 * /usr/share/luajit-2.1/jit/bcsave.lua
 * /usr/share/luajit-2.1/jit/dis_arm.lua

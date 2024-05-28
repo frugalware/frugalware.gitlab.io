@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "phonon-qt6 4.12.0-9"
-version = "4.12.0-9"
+title = "phonon-qt6 4.12.0-11"
+version = "4.12.0-11"
 description = "The multimedia API for KDE 6."
-date = "2024-04-05T18:30:38"
+date = "2024-05-27T14:13:28"
 aliases = "/packages/221373"
 categories = ['xmultimedia']
 upstreamurl = "http://phonon.kde.org"
 arch = "x86_64"
-size = "388120"
-usize = "1803336"
-sha1sum = "78b82d3fa9ee1e1a0ad65917ccec78e319c4f851"
+size = "389416"
+usize = "1807608"
+sha1sum = "60ce709b36ab9fb5cf9e70778c24b48fae73b0c9"
 depends = "['libpulse>=9.0-2', 'libuuid>=2.28.2-2', 'libxml2>=2.9.4-3', 'qt6-5compat']"
-reverse_depends = "['kamoso', 'knotifications', 'konversation', 'kvirc', 'libkcompactdisc']"
+reverse_depends = "['kamoso', 'knotifications', 'konversation', 'kvirc', 'libkcompactdisc', 'phonon-backend-gstreamer']"
 +++
 ### Description: 
 The multimedia API for KDE 6.
