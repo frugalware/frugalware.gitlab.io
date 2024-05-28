@@ -11,7 +11,8 @@ arch = "x86_64"
 size = "1639956"
 usize = "2336934"
 sha1sum = "c361e73c093d3286f9f4d03ea41e346bfcd91c47"
-depends = "['karchive5>=5.115.0']"
+depends = "['karchive5>=5.116.0', 'kservice5>=5.116.0']"
+reverse_depends = "['kdelibs4support5']"
 +++
 ### Description: 
 Convert text emoticons to graphical emoticons.
@@ -31,13 +32,13 @@ Convert text emoticons to graphical emoticons.
 * /usr/lib/cmake/KF5Emoticons/KF5EmoticonsTargets.cmake
 * /usr/lib/libKF5Emoticons.so
 * /usr/lib/libKF5Emoticons.so.5
-* /usr/lib/libKF5Emoticons.so.5.115.0
+* /usr/lib/libKF5Emoticons.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/emoticonsthemes/adium.so
 * /usr/lib/qt5/plugins/kf5/emoticonsthemes/kde.so
 * /usr/lib/qt5/plugins/kf5/emoticonsthemes/pidgin.so
 * /usr/lib/qt5/plugins/kf5/emoticonsthemes/xmpp.so
 * /usr/lib/qt5/plugins/kf5/KEmoticonsIntegrationPlugin.so
-* /usr/share/doc/kemoticons5-5.115.0/README.md
+* /usr/share/doc/kemoticons5-5.116.0/README.md
 * /usr/share/emoticons/Breeze/drink-beer.png
 * /usr/share/emoticons/Breeze/drink-martini.png
 * /usr/share/emoticons/Breeze/emoticons.xml

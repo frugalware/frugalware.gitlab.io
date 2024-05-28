@@ -1,23 +1,25 @@
 +++
 draft = false
-title = "kalgebra 24.02.2-3"
-version = "24.02.2-3"
+title = "kalgebra 24.05.0-1"
+version = "24.05.0-1"
 description = "2D and 3D Graph Calculator."
-date = "2024-04-16T21:15:38"
+date = "2024-05-24T09:25:45"
 aliases = "/packages/152824"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1080076"
-usize = "2028653"
-sha1sum = "219e9ebef8bd7572ab76a76eff88729fccf2c583"
-depends = "['analitza>=24.02.2', 'kio>=6.1.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.0', 'readline>=8.0']"
+size = "1037892"
+usize = "2178091"
+sha1sum = "238fadec6db7ca7a103309348d7213d3d451c104"
+depends = "['analitza>=24.05.0', 'kio>=6.2.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.1', 'readline>=8.0']"
 +++
 ### Description: 
 2D and 3D Graph Calculator.
 
 ### Files: 
 * /usr/bin/calgebra
+* /usr/bin/kalgebra
+* /usr/share/applications/org.kde.kalgebra.desktop
 * /usr/share/doc/HTML/ca/kalgebra/commands.docbook
 * /usr/share/doc/HTML/ca/kalgebra/index.cache.bz2
 * /usr/share/doc/HTML/ca/kalgebra/index.docbook
@@ -73,12 +75,13 @@ depends = "['analitza>=24.02.2', 'kio>=6.1.0', 'libglu>=9.0.0-3', 'qt6-webengine
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-console-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-dictionary-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/kalgebra-24.02.2/COPYING
-* /usr/share/doc/kalgebra-24.02.2/COPYING.DOC
-* /usr/share/doc/kalgebra-24.02.2/COPYING.LIB
-* /usr/share/doc/kalgebra-24.02.2/TODO
+* /usr/share/doc/kalgebra-24.05.0/COPYING
+* /usr/share/doc/kalgebra-24.05.0/COPYING.DOC
+* /usr/share/doc/kalgebra-24.05.0/COPYING.LIB
+* /usr/share/doc/kalgebra-24.05.0/TODO
 * /usr/share/icons/hicolor/64x64/apps/kalgebra.png
 * /usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
+* /usr/share/katepart5/syntax/kalgebra.xml
 * /usr/share/locale/ar/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/ar/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/ast/LC_MESSAGES/kalgebra.mo
@@ -180,3 +183,4 @@ depends = "['analitza>=24.02.2', 'kio>=6.1.0', 'libglu>=9.0.0-3', 'qt6-webengine
 * /usr/share/locale/zh_CN/LC_MESSAGES/kalgebramobile.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kalgebra.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kalgebramobile.mo
+* /usr/share/metainfo/org.kde.kalgebra.appdata.xml

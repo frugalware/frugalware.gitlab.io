@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kactivities-stats5 5.115.0-2"
-version = "5.115.0-2"
+title = "kactivities-stats5 5.116.0-2"
+version = "5.116.0-2"
 description = "Library for accessing the usage statistics data collected by the KDE activity manager."
-date = "2024-03-15T09:22:54"
+date = "2024-05-26T17:11:33"
 aliases = "/packages/221285"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "74824"
-usize = "261720"
-sha1sum = "001344193a4dbc4f6933a7b93e20f3eff0a6b975"
-depends = "['kactivities5>=5.115.0']"
+size = "74864"
+usize = "261808"
+sha1sum = "1a539af7cd596a089fadce09d00d2aad1d18e3d7"
+depends = "['kactivities5>=5.116.0', 'kio5>=5.116.0']"
 reverse_depends = "['kio-extras-kf5']"
 +++
 ### Description: 
@@ -38,11 +38,11 @@ Library for accessing the usage statistics data collected by the KDE activity ma
 * /usr/lib/cmake/KF5ActivitiesStats/KF5ActivitiesStatsLibraryTargets.cmake
 * /usr/lib/libKF5ActivitiesStats.so
 * /usr/lib/libKF5ActivitiesStats.so.1
-* /usr/lib/libKF5ActivitiesStats.so.5.115.0
+* /usr/lib/libKF5ActivitiesStats.so.5.116.0
 * /usr/lib/pkgconfig/libKActivitiesStats.pc
-* /usr/share/doc/kactivities-stats5-5.115.0/README.developers
-* /usr/share/doc/kactivities-stats5-5.115.0/README.md
-* /usr/share/doc/kactivities-stats5-5.115.0/TODO
+* /usr/share/doc/kactivities-stats5-5.116.0/README.developers
+* /usr/share/doc/kactivities-stats5-5.116.0/README.md
+* /usr/share/doc/kactivities-stats5-5.116.0/TODO
 * /usr/share/qlogging-categories5/kactivities-stats.categories
 * /usr/share/qlogging-categories5/kactivities-stats.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KActivitiesStats.pri

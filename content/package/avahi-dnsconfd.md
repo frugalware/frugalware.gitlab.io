@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "avahi-dnsconfd 0.8-10"
-version = "0.8-10"
+title = "avahi-dnsconfd 0.8-11"
+version = "0.8-11"
 description = "Discovers DNS servers broadcast with Avahi on a local network"
-date = "2024-05-16T05:15:27"
+date = "2024-05-26T22:18:53"
 aliases = "/packages/16238"
 categories = ['network']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "15012"
+size = "15060"
 usize = "31782"
-sha1sum = "5a1406f2106dcde15fee4f14e2cbd508518291ea"
+sha1sum = "5ebb8a2f70dba9979cb3fca9f493454251ac9900"
 depends = "['libdaemon>=0.14-5', 'libssp>=7.3.0-5']"
 +++
 ### Description: 

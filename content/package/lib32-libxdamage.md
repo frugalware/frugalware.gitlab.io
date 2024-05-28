@@ -12,7 +12,7 @@ size = "7224"
 usize = "16092"
 sha1sum = "e3c4e65c52eeee11d9b591446a642fa87245ad78"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxfixes>=5.0.1-3']"
-reverse_depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
+reverse_depends = "['lib32-gtk+2-libs', 'lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
 +++
 ### Description: 
 X.Org Xdamage library ( 32bit )

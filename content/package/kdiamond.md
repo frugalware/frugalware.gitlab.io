@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4824324"
 usize = "5235135"
 sha1sum = "5da1877c3eedd8609a062981dc52d9bd20a2276d"
-depends = "['knotifyconfig>=6.1.0', 'libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
+depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 A single player puzzle game.
@@ -87,6 +87,7 @@ A single player puzzle game.
 * /usr/share/locale/ga/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/gl/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/gu/LC_MESSAGES/kdiamond.mo
+* /usr/share/locale/he/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/hi/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/hne/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/hr/LC_MESSAGES/kdiamond.mo

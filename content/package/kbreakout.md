@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbreakout 24.02.2-3"
-version = "24.02.2-3"
+title = "kbreakout 24.05.0-1"
+version = "24.05.0-1"
 description = "A Breakout-like game."
-date = "2024-04-16T22:20:19"
+date = "2024-05-24T10:35:27"
 aliases = "/packages/184178"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3082544"
-usize = "3651641"
-sha1sum = "0b0f0b46a26fea429f467432fa117bf97ce62619"
-depends = "['libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
+size = "3073928"
+usize = "3647018"
+sha1sum = "65cb291e2f3597efc0cd23b7b4e614b9b52579b1"
+depends = "['libkdegames>=24.05.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 A Breakout-like game.
@@ -70,7 +70,7 @@ A Breakout-like game.
 * /usr/share/doc/HTML/uk/kbreakout/gameboard.png
 * /usr/share/doc/HTML/uk/kbreakout/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbreakout/index.docbook
-* /usr/share/doc/kbreakout-24.02.2/TODO
+* /usr/share/doc/kbreakout-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbreakout.png
 * /usr/share/icons/hicolor/16x16/apps/kbreakout.png
 * /usr/share/icons/hicolor/22x22/apps/kbreakout.png
@@ -127,6 +127,7 @@ A Breakout-like game.
 * /usr/share/locale/ga/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/gl/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/gu/LC_MESSAGES/kbreakout.mo
+* /usr/share/locale/he/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/hr/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/hu/LC_MESSAGES/kbreakout.mo
 * /usr/share/locale/ia/LC_MESSAGES/kbreakout.mo

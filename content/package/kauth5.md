@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kauth5 5.115.0-2"
-version = "5.115.0-2"
+title = "kauth5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework which lets applications perform actions as a privileged user."
-date = "2024-03-14T15:46:48"
+date = "2024-05-26T16:31:35"
 aliases = "/packages/221288"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "94740"
-usize = "434155"
-sha1sum = "47f0020aaee4a715f489592abe5600ad905919c0"
-depends = "['polkit-qt5-1>=0.112.0-11']"
+size = "95552"
+usize = "435861"
+sha1sum = "fdf64175eb3a3d5b58569369961d39baa5b8249e"
+depends = "['kcoreaddons5>=5.116.0', 'polkit-qt5-1>=0.112.0-11']"
 reverse_depends = "['kconfigwidgets5', 'smb4k']"
 +++
 ### Description: 
@@ -53,14 +53,14 @@ Framework which lets applications perform actions as a privileged user.
 * /usr/lib/kf5/kauth/kauth-policy-gen
 * /usr/lib/libKF5Auth.so
 * /usr/lib/libKF5Auth.so.5
-* /usr/lib/libKF5Auth.so.5.115.0
+* /usr/lib/libKF5Auth.so.5.116.0
 * /usr/lib/libKF5AuthCore.so
 * /usr/lib/libKF5AuthCore.so.5
-* /usr/lib/libKF5AuthCore.so.5.115.0
+* /usr/lib/libKF5AuthCore.so.5.116.0
 * /usr/lib/qt5/plugins/kauth/backend/kauth_backend_plugin.so
 * /usr/lib/qt5/plugins/kauth/helper/kauth_helper_plugin.so
 * /usr/share/dbus-1/system.d/org.kde.kf5auth.conf
-* /usr/share/doc/kauth5-5.115.0/README.md
+* /usr/share/doc/kauth5-5.116.0/README.md
 * /usr/share/kf5/kauth/dbus_policy.stub
 * /usr/share/kf5/kauth/dbus_service.stub
 * /usr/share/locale/af/LC_MESSAGES/kauth5_qt.qm

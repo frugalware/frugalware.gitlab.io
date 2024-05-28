@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdbusaddons5 5.115.0-3"
-version = "5.115.0-3"
+title = "kdbusaddons5 5.116.0-2"
+version = "5.116.0-2"
 description = "Convenience classes for QtDBus."
-date = "2024-03-15T11:22:07"
+date = "2024-05-26T16:25:51"
 aliases = "/packages/221301"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "57128"
-usize = "226172"
-sha1sum = "d262a6344b564434d833a6ce570f5045908dea56"
-depends = "['qt5-x11extras>=5.15.12']"
+size = "57168"
+usize = "226260"
+sha1sum = "7916f5a5433076ddae2b4640224a919c30c59b3e"
+depends = "['qt5-x11extras>=5.15.14']"
 reverse_depends = "['kservice5']"
 +++
 ### Description: 
@@ -41,8 +41,8 @@ Convenience classes for QtDBus.
 * /usr/lib/cmake/KF5DBusAddons/KF5DBusAddonsTargets.cmake
 * /usr/lib/libKF5DBusAddons.so
 * /usr/lib/libKF5DBusAddons.so.5
-* /usr/lib/libKF5DBusAddons.so.5.115.0
-* /usr/share/doc/kdbusaddons5-5.115.0/README.md
+* /usr/lib/libKF5DBusAddons.so.5.116.0
+* /usr/share/doc/kdbusaddons5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdbusaddons5_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/kdbusaddons5_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/kdbusaddons5_qt.qm

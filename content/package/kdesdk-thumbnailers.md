@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdesdk-thumbnailers 24.02.2-3"
-version = "24.02.2-3"
+title = "kdesdk-thumbnailers 24.05.0-1"
+version = "24.05.0-1"
 description = "Thumnailers Creators for KDE SDK."
-date = "2024-04-16T21:25:46"
+date = "2024-05-24T09:36:15"
 aliases = "/packages/184305"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15192"
-usize = "58473"
-sha1sum = "870ef3664849f0d26e80f6d6fd3187e1e069c10c"
-depends = "['gettext', 'kio>=6.1.0', 'qt6-svg>=6.7.0']"
+size = "15376"
+usize = "59106"
+sha1sum = "1633a49ae658e91e8f16f7b94144f138a0e5e7a8"
+depends = "['gettext', 'kio>=6.2.0', 'qt6-svg>=6.7.1']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 
@@ -40,6 +40,7 @@ Thumnailers Creators for KDE SDK.
 * /usr/share/locale/gl/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/hi/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/hu/LC_MESSAGES/pothumbnail.mo
+* /usr/share/locale/ia/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/id/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/is/LC_MESSAGES/pothumbnail.mo
 * /usr/share/locale/it/LC_MESSAGES/pothumbnail.mo

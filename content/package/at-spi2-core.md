@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "at-spi2-core 2.52.0-1"
-version = "2.52.0-1"
+title = "at-spi2-core 2.52.0-2"
+version = "2.52.0-2"
 description = "Gnome Accessibility Toolkit"
-date = "2024-05-02T08:45:19"
+date = "2024-05-28T09:53:11"
 aliases = "/packages/118746"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "335372"
-usize = "1893593"
-sha1sum = "ccea5524ea7b1fc5d0605f7a417520eacd38ebae"
+size = "179860"
+usize = "815921"
+sha1sum = "ccc52ac68153de4d5f71ee31db6be29febf495c2"
 depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.52.0', 'libxml2', 'libxtst>=1.2.2-3']"
 reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++

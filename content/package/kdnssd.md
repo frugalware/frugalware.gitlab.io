@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "77776"
 usize = "286353"
 sha1sum = "ac4e4a603cb9c2927984e38a5c0e8c12ec7b5f00"
-depends = "['avahi>=0.6.31-9', 'qt6-base>=6.7.0']"
+depends = "['avahi>=0.6.31-9', 'qt6-base>=6.7.1']"
 reverse_depends = "['kio-extras', 'kio-zeroconf', 'knotes', 'krfb', 'libkdegames']"
 +++
 ### Description: 
@@ -42,8 +42,8 @@ Zeroconf Support for KDE.
 * /usr/lib/cmake/KF6DNSSD/KF6DNSSDTargets.cmake
 * /usr/lib/libKF6DNSSD.so
 * /usr/lib/libKF6DNSSD.so.6
-* /usr/lib/libKF6DNSSD.so.6.1.0
-* /usr/share/doc/kdnssd-6.1.0/README.md
+* /usr/lib/libKF6DNSSD.so.6.2.0
+* /usr/share/doc/kdnssd-6.2.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdnssd6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kdnssd6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kdnssd6_qt.qm

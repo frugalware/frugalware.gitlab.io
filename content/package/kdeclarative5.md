@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kdeclarative5 5.115.0-3"
-version = "5.115.0-3"
+title = "kdeclarative5 5.116.0-2"
+version = "5.116.0-2"
 description = "Integration of QML and KDE workspaces."
-date = "2024-03-15T11:23:21"
+date = "2024-05-26T17:22:22"
 aliases = "/packages/221302"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "264652"
-usize = "1381759"
-sha1sum = "89cb4ac7abe18a9dc97e521ebc9f9e2aa48f2405"
-depends = "['libepoxy>=1.3.1-6']"
-reverse_depends = "['artikulate', 'ktouch', 'plasma-framework5', 'purpose5', 'rocs']"
+size = "263324"
+usize = "1379300"
+sha1sum = "1dc30911370954a4d1b3736bc5ed395dbc5c6171"
+depends = "['kio5>=5.116.0', 'kpackage5>=5.116.0', 'libepoxy>=1.3.1-6']"
+reverse_depends = "['artikulate', 'kcmutils5', 'ktouch', 'plasma-framework5', 'purpose5', 'rocs']"
 +++
 ### Description: 
 Integration of QML and KDE workspaces.
@@ -56,14 +56,14 @@ Integration of QML and KDE workspaces.
 * /usr/lib/cmake/KF5Declarative/KF5DeclarativeTargets.cmake
 * /usr/lib/libKF5CalendarEvents.so
 * /usr/lib/libKF5CalendarEvents.so.5
-* /usr/lib/libKF5CalendarEvents.so.5.115.0
+* /usr/lib/libKF5CalendarEvents.so.5.116.0
 * /usr/lib/libKF5Declarative.so
 * /usr/lib/libKF5Declarative.so.5
-* /usr/lib/libKF5Declarative.so.5.115.0
+* /usr/lib/libKF5Declarative.so.5.116.0
 * /usr/lib/libKF5QuickAddons.so
 * /usr/lib/libKF5QuickAddons.so.5
-* /usr/lib/libKF5QuickAddons.so.5.115.0
-* /usr/share/doc/kdeclarative5-5.115.0/README.md
+* /usr/lib/libKF5QuickAddons.so.5.116.0
+* /usr/share/doc/kdeclarative5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdeclarative5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdeclarative5.mo
 * /usr/share/locale/as/LC_MESSAGES/kdeclarative5.mo

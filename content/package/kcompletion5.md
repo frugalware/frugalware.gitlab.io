@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcompletion5 5.115.0-2"
-version = "5.115.0-2"
+title = "kcompletion5 5.116.0-2"
+version = "5.116.0-2"
 description = "Provides widgets with advanced completion support."
-date = "2024-03-14T15:49:32"
+date = "2024-05-26T16:35:39"
 aliases = "/packages/221294"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111120"
-usize = "423555"
-sha1sum = "0a69691c65433d76f2209fff74f6575e095c6ced"
-depends = "[]"
+size = "111416"
+usize = "423643"
+sha1sum = "832044c76105c2c333fbd5b1f9a177b23b069fd4"
+depends = "['kconfig5>=5.116.0', 'kwidgetsaddons5>=5.116.0']"
 reverse_depends = "['krename', 'krita', 'ktextwidgets5', 'smb4k']"
 +++
 ### Description: 
@@ -44,9 +44,9 @@ Provides widgets with advanced completion support.
 * /usr/lib/cmake/KF5Completion/KF5CompletionTargets.cmake
 * /usr/lib/libKF5Completion.so
 * /usr/lib/libKF5Completion.so.5
-* /usr/lib/libKF5Completion.so.5.115.0
+* /usr/lib/libKF5Completion.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kcompletion5widgets.so
-* /usr/share/doc/kcompletion5-5.115.0/README.md
+* /usr/share/doc/kcompletion5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kcompletion5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcompletion5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kcompletion5_qt.qm

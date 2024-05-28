@@ -12,6 +12,7 @@ size = "167172"
 usize = "757755"
 sha1sum = "3a8f512dc4629bb4ab8fd46e277e41a13be71b0e"
 depends = "['karchive5>=5.115.0', 'kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0', 'ki18n5>=5.115.0']"
+reverse_depends = "['frameworkintegration5', 'kdeclarative5']"
 +++
 ### Description: 
 Framework that lets applications manage user installable packages of non-binary assets.

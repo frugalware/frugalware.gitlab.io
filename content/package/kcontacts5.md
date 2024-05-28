@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcontacts5 5.115.0-2"
-version = "5.115.0-2"
+title = "kcontacts5 5.116.0-2"
+version = "5.116.0-2"
 description = "Address book API for KDE"
-date = "2024-03-14T22:03:32"
+date = "2024-05-26T16:49:30"
 aliases = "/packages/221297"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "249576"
-usize = "1140857"
-sha1sum = "bf7a2cb8af9fd52aa4a498eded07a624605c5147"
-depends = "['kcodecs5>=5.115.0', 'kconfig5>=5.115.0']"
+size = "250780"
+usize = "1145071"
+sha1sum = "4033e31a2a584cd8f31466f6769bbfb8b2b88178"
+depends = "['kcodecs5>=5.116.0', 'kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0']"
 +++
 ### Description: 
 Address book API for KDE
@@ -89,8 +89,8 @@ Address book API for KDE
 * /usr/lib/cmake/KF5Contacts/KF5ContactsTargets.cmake
 * /usr/lib/libKF5Contacts.so
 * /usr/lib/libKF5Contacts.so.5
-* /usr/lib/libKF5Contacts.so.5.115.0
-* /usr/share/doc/kcontacts5-5.115.0/README.md
+* /usr/lib/libKF5Contacts.so.5.116.0
+* /usr/share/doc/kcontacts5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kcontacts5.mo
 * /usr/share/locale/az/LC_MESSAGES/kcontacts5.mo
 * /usr/share/locale/be/LC_MESSAGES/kcontacts5.mo

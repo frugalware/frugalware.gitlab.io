@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-cola 4.7.1-1"
-version = "4.7.1-1"
+title = "git-cola 4.7.1-2"
+version = "4.7.1-2"
 description = "Git-cola is a sleek and powerful Git GUI."
-date = "2024-05-26T20:10:16"
+date = "2024-05-27T04:29:46"
 aliases = "/packages/200469"
 categories = ['xapps-extra']
 upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "982696"
+size = "982652"
 usize = "7814067"
-sha1sum = "72a5e862dcea4c482ec884faf72547bb43ab694a"
+sha1sum = "f5ab626df5bbd7e186c9c83c232dd814849af458"
 depends = "['pyinotify', 'pyqt5']"
 +++
 ### Description: 

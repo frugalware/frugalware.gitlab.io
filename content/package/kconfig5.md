@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kconfig5 5.115.0-3"
-version = "5.115.0-3"
+title = "kconfig5 5.116.0-2"
+version = "5.116.0-2"
 description = "Provides an advanced configuration system."
-date = "2024-03-15T11:21:20"
+date = "2024-05-26T16:30:33"
 aliases = "/packages/221295"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "343080"
-usize = "1590226"
-sha1sum = "7a2add8f4bc1696c2daaa08876dd247ee0685e8b"
-depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kamoso', 'kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5', 'ktux', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'rkward', 'smb4k', 'telly-skout']"
+size = "347636"
+usize = "1607993"
+sha1sum = "e93d6d69e97506af7bca397586563828e539e814"
+depends = "['qt5-base>=5.15.14']"
+reverse_depends = "['kamoso', 'kcompletion5', 'kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5', 'ktux', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'rkward', 'smb4k', 'telly-skout']"
 +++
 ### Description: 
 Provides an advanced configuration system.
@@ -72,15 +72,15 @@ Provides an advanced configuration system.
 * /usr/lib/kf5/kf5/kconf_update
 * /usr/lib/libKF5ConfigCore.so
 * /usr/lib/libKF5ConfigCore.so.5
-* /usr/lib/libKF5ConfigCore.so.5.115.0
+* /usr/lib/libKF5ConfigCore.so.5.116.0
 * /usr/lib/libKF5ConfigGui.so
 * /usr/lib/libKF5ConfigGui.so.5
-* /usr/lib/libKF5ConfigGui.so.5.115.0
+* /usr/lib/libKF5ConfigGui.so.5.116.0
 * /usr/lib/libKF5ConfigQml.so
 * /usr/lib/libKF5ConfigQml.so.5
-* /usr/lib/libKF5ConfigQml.so.5.115.0
-* /usr/share/doc/kconfig5-5.115.0/README.md
-* /usr/share/doc/kconfig5-5.115.0/TODO
+* /usr/lib/libKF5ConfigQml.so.5.116.0
+* /usr/share/doc/kconfig5-5.116.0/README.md
+* /usr/share/doc/kconfig5-5.116.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/kconfig5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kconfig5_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/kconfig5_qt.qm

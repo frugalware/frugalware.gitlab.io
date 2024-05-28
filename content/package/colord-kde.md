@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord-kde 24.02.2-3"
-version = "24.02.2-3"
+title = "colord-kde 24.05.0-1"
+version = "24.05.0-1"
 description = "Interfaces and session daemon to colord for KDE"
-date = "2024-04-17T01:32:05"
+date = "2024-05-25T12:47:54"
 aliases = "/packages/220966"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "198380"
-usize = "883949"
-sha1sum = "fd0f7834919465852eeaac2559f05c8378341b07"
+size = "202056"
+usize = "910500"
+sha1sum = "8861f39f910465d74295730bef2df1b3c523b0cd"
 depends = "['colord', 'kcmutils', 'kdeclarative', 'kirigami-addons', 'kitemmodels', 'libxrandr']"
 +++
 ### Description: 
@@ -22,9 +22,10 @@ Interfaces and session daemon to colord for KDE
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_colord.so
 * /usr/share/applications/colordkdeiccimporter.desktop
 * /usr/share/applications/kcm_colord.desktop
-* /usr/share/doc/colord-kde-24.02.2/COPYING
-* /usr/share/doc/colord-kde-24.02.2/TODO
+* /usr/share/doc/colord-kde-24.05.0/COPYING
+* /usr/share/doc/colord-kde-24.05.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/colord-kde.mo
+* /usr/share/locale/ast/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/az/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/bg/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/bs/LC_MESSAGES/colord-kde.mo
@@ -43,6 +44,7 @@ Interfaces and session daemon to colord for KDE
 * /usr/share/locale/fr/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/ga/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/gl/LC_MESSAGES/colord-kde.mo
+* /usr/share/locale/he/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/hu/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/ia/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/id/LC_MESSAGES/colord-kde.mo
@@ -52,6 +54,7 @@ Interfaces and session daemon to colord for KDE
 * /usr/share/locale/km/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/ko/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/lt/LC_MESSAGES/colord-kde.mo
+* /usr/share/locale/lv/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/mr/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/nl/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/nn/LC_MESSAGES/colord-kde.mo

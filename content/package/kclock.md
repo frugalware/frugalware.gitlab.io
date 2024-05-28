@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kclock 24.02.2-3"
-version = "24.02.2-3"
+title = "kclock 24.05.0-1"
+version = "24.05.0-1"
 description = "Clock app for Plasma Mobile"
-date = "2024-04-17T01:35:41"
+date = "2024-05-25T12:57:36"
 aliases = "/packages/220972"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "201460"
-usize = "892973"
-sha1sum = "18bed36c13e35305a6be2cf76caafd0fed5f5b56"
+size = "209892"
+usize = "939643"
+sha1sum = "28e224330e17cd2e444f7fb50a4a2df2660c33fd"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kstatusnotifieritem', 'libplasma', 'qt6-multimedia']"
 +++
 ### Description: 
@@ -29,11 +29,13 @@ Clock app for Plasma Mobile
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.TimerModel.xml
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.Utility.xml
 * /usr/share/dbus-1/services/org.kde.kclockd.service
-* /usr/share/doc/kclock-24.02.2/README.md
+* /usr/share/doc/kclock-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/kclock_plasmoid_1x2.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kclock.svg
 * /usr/share/knotifications6/kclockd.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kclock.mo
+* /usr/share/locale/ast/LC_MESSAGES/kclock.mo
+* /usr/share/locale/ast/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/ca/LC_MESSAGES/kclock.mo
 * /usr/share/locale/ca/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kclock.mo
@@ -55,6 +57,9 @@ Clock app for Plasma Mobile
 * /usr/share/locale/fi/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/fr/LC_MESSAGES/kclock.mo
 * /usr/share/locale/fr/LC_MESSAGES/kclockd.mo
+* /usr/share/locale/gl/LC_MESSAGES/kclockd.mo
+* /usr/share/locale/he/LC_MESSAGES/kclock.mo
+* /usr/share/locale/he/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/hi/LC_MESSAGES/kclock.mo
 * /usr/share/locale/hu/LC_MESSAGES/kclock.mo
 * /usr/share/locale/ia/LC_MESSAGES/kclock.mo
@@ -69,11 +74,14 @@ Clock app for Plasma Mobile
 * /usr/share/locale/ko/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/lt/LC_MESSAGES/kclock.mo
 * /usr/share/locale/lt/LC_MESSAGES/kclockd.mo
+* /usr/share/locale/lv/LC_MESSAGES/kclock.mo
+* /usr/share/locale/lv/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/nl/LC_MESSAGES/kclock.mo
 * /usr/share/locale/nl/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/nn/LC_MESSAGES/kclock.mo
 * /usr/share/locale/nn/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/pa/LC_MESSAGES/kclock.mo
+* /usr/share/locale/pa/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/pl/LC_MESSAGES/kclock.mo
 * /usr/share/locale/pl/LC_MESSAGES/kclockd.mo
 * /usr/share/locale/pt/LC_MESSAGES/kclock.mo

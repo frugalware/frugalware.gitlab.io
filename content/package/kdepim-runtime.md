@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-runtime 24.02.2-3"
-version = "24.02.2-3"
+title = "kdepim-runtime 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE PIM Runtime"
-date = "2024-04-16T23:59:34"
+date = "2024-05-24T14:41:42"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2661248"
-usize = "15018625"
-sha1sum = "99f96e070599f89dcac7c3162dcf7a56788758de"
-depends = "['akonadi-calendar>=24.02.2', 'akonadi-notes>=24.02.2', 'kalarm>=24.02.2', 'kdav>=6.1.0', 'kimap>=24.02.2', 'kmbox>=24.02.2', 'knotifyconfig>=6.1.0', 'libkgapi>=24.02.2', 'pimcommon>=24.02.2', 'qca', 'qt6-networkauth>=6.7.0', 'syndication>=6.1.0']"
+size = "2698640"
+usize = "15144074"
+sha1sum = "93b587bab62daae93197e66c4a456ca180b60a4c"
+depends = "['akonadi-calendar>=24.05.0', 'akonadi-notes>=24.05.0', 'kalarm>=24.05.0', 'kdav>=6.2.0', 'kimap>=24.05.0', 'kmbox>=24.05.0', 'knotifyconfig>=6.2.0', 'libkgapi>=24.05.0', 'pimcommon>=24.05.0', 'qca', 'qt6-networkauth>=6.7.1', 'syndication>=6.2.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 
@@ -42,17 +42,17 @@ KDE PIM Runtime
 * /usr/bin/akonadi_vcard_resource
 * /usr/bin/gidmigrator
 * /usr/lib/libakonadi-filestore.so.6
-* /usr/lib/libakonadi-filestore.so.6.0.2
+* /usr/lib/libakonadi-filestore.so.6.1.0
 * /usr/lib/libakonadi-singlefileresource.so.6
-* /usr/lib/libakonadi-singlefileresource.so.6.0.2
+* /usr/lib/libakonadi-singlefileresource.so.6.1.0
 * /usr/lib/libfolderarchivesettings.so.6
-* /usr/lib/libfolderarchivesettings.so.6.0.2
+* /usr/lib/libfolderarchivesettings.so.6.1.0
 * /usr/lib/libkmindexreader.so.6
-* /usr/lib/libkmindexreader.so.6.0.2
+* /usr/lib/libkmindexreader.so.6.1.0
 * /usr/lib/libmaildir.so.6
-* /usr/lib/libmaildir.so.6.0.2
+* /usr/lib/libmaildir.so.6.1.0
 * /usr/lib/libnewmailnotifier.so.6
-* /usr/lib/libnewmailnotifier.so.6.0.2
+* /usr/lib/libnewmailnotifier.so.6.1.0
 * /usr/lib/qt6/plugins/kf6/kio/akonadi.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/akonotesconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/birthdaysconfig.so
@@ -123,7 +123,7 @@ KDE PIM Runtime
 * /usr/share/applications/org.kde.akonadi_vcard_resource.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.MixedMaildir.Settings.xml
-* /usr/share/doc/kdepim-runtime-24.02.2/README.md
+* /usr/share/doc/kdepim-runtime-24.05.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/128x128/apps/ox.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi-ews.png
@@ -1251,6 +1251,7 @@ KDE PIM Runtime
 * /usr/share/locale/sv/LC_MESSAGES/gid-migrator.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio_akonadi.mo
 * /usr/share/locale/sv/LC_MESSAGES/libfolderarchivesettings.mo
+* /usr/share/locale/ta/LC_MESSAGES/libfolderarchivesettings.mo
 * /usr/share/locale/th/LC_MESSAGES/akonadi_birthdays_resource.mo
 * /usr/share/locale/th/LC_MESSAGES/akonadi_contacts_resource.mo
 * /usr/share/locale/th/LC_MESSAGES/akonadi_ical_resource.mo

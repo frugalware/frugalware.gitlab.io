@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "elisa 24.02.2-3"
-version = "24.02.2-3"
+title = "elisa 24.05.0-1"
+version = "24.05.0-1"
 description = "A simple music player aiming to provide a nice experience for its users"
-date = "2024-04-17T02:06:23"
+date = "2024-05-25T14:42:06"
 aliases = "/packages/220967"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1474716"
-usize = "4215470"
-sha1sum = "e7f5cabeeea882aa4e8937ef742fa20e99a8b722"
-depends = "['baloo>=', 'kirigami>=', 'qqc2-desktop-style>=', 'qt6-multimedia>=', 'vlc']"
+size = "1699748"
+usize = "5589427"
+sha1sum = "e8d0c07f65bdc50ef29be75765589e0053d74e75"
+depends = "['baloo>=', 'kirigami-addons', 'qqc2-desktop-style>=', 'qt6-multimedia>=', 'vlc']"
 +++
 ### Description: 
 A simple music player aiming to provide a nice experience for its users
@@ -20,14 +20,11 @@ A simple music player aiming to provide a nice experience for its users
 * /usr/bin/elisa
 * /usr/lib/elisa/libelisaLib.so.0
 * /usr/lib/elisa/libelisaLib.so.0.1
-* /usr/lib/qt6/qml/org/kde/elisa/libelisaqmlplugin.so
-* /usr/lib/qt6/qml/org/kde/elisa/plugins.qmltypes
-* /usr/lib/qt6/qml/org/kde/elisa/qmldir
 * /usr/share/applications/org.kde.elisa.desktop
 * /usr/share/dbus-1/services/org.kde.elisa.service
-* /usr/share/doc/elisa-24.02.2/COPYING
-* /usr/share/doc/elisa-24.02.2/README.md
-* /usr/share/doc/elisa-24.02.2/README.packagers
+* /usr/share/doc/elisa-24.05.0/COPYING
+* /usr/share/doc/elisa-24.05.0/README.md
+* /usr/share/doc/elisa-24.05.0/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/elisa.png
 * /usr/share/icons/hicolor/16x16/apps/elisa.png
 * /usr/share/icons/hicolor/22x22/apps/elisa.png
@@ -65,6 +62,7 @@ A simple music player aiming to provide a nice experience for its users
 * /usr/share/locale/ka/LC_MESSAGES/elisa.mo
 * /usr/share/locale/ko/LC_MESSAGES/elisa.mo
 * /usr/share/locale/lt/LC_MESSAGES/elisa.mo
+* /usr/share/locale/lv/LC_MESSAGES/elisa.mo
 * /usr/share/locale/nl/LC_MESSAGES/elisa.mo
 * /usr/share/locale/nn/LC_MESSAGES/elisa.mo
 * /usr/share/locale/pa/LC_MESSAGES/elisa.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantleetheme 24.02.2-3"
-version = "24.02.2-3"
+title = "grantleetheme 24.05.0-1"
+version = "24.05.0-1"
 description = "This lib provides grantlee theme support"
-date = "2024-04-16T21:56:03"
+date = "2024-05-24T10:08:00"
 aliases = "/packages/218476"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "61780"
-usize = "225759"
-sha1sum = "f7b18981507187e42b65eb7e5b498fbf8b6bbd22"
-depends = "['knewstuff>=6.1.0', 'ktexttemplate>=6.1.0']"
+size = "62104"
+usize = "228668"
+sha1sum = "1b6a4d009a30ae8c9722b23963f6598c9d7899f8"
+depends = "['knewstuff>=6.2.0', 'ktexttemplate>=6.2.0']"
 reverse_depends = "['akonadi-contacts', 'knotes']"
 +++
 ### Description: 
@@ -44,10 +44,10 @@ This lib provides grantlee theme support
 * /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeTargets.cmake
 * /usr/lib/libKPim6GrantleeTheme.so
 * /usr/lib/libKPim6GrantleeTheme.so.6
-* /usr/lib/libKPim6GrantleeTheme.so.6.0.2
+* /usr/lib/libKPim6GrantleeTheme.so.6.1.0
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/kde_grantlee_plugin.so
-* /usr/share/doc/grantleetheme-24.02.2/README.md
-* /usr/share/doc/grantleetheme-24.02.2/README.md.license
+* /usr/share/doc/grantleetheme-24.05.0/README.md
+* /usr/share/doc/grantleetheme-24.05.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libgrantleetheme6.mo
@@ -66,6 +66,7 @@ This lib provides grantlee theme support
 * /usr/share/locale/fi/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/fr/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/he/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libgrantleetheme6.mo
@@ -75,6 +76,7 @@ This lib provides grantlee theme support
 * /usr/share/locale/kk/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/ko/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/lt/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/nb/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/nds/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/nl/LC_MESSAGES/libgrantleetheme6.mo
@@ -92,6 +94,7 @@ This lib provides grantlee theme support
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libgrantleetheme6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/tr/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/ug/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/uk/LC_MESSAGES/libgrantleetheme6.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-binutils 2.42-4"
-version = "2.42-4"
+title = "lib32-binutils 2.42-5"
+version = "2.42-5"
 description = "A set of programs to assemble and manipulate binary and object files ( 32bit )"
-date = "2024-05-10T20:11:13"
+date = "2024-05-27T08:37:47"
 aliases = "/packages/221229"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "4391772"
+size = "4391716"
 usize = "20582605"
-sha1sum = "af89997d308195ee395366309e7a5f8644d9c094"
+sha1sum = "08196ff7741c80c0dba80460b3752a08222da615"
 depends = "['lib32-zstd']"
 reverse_depends = "['lib32-cairo']"
 +++

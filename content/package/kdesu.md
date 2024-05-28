@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "63240"
 usize = "235516"
 sha1sum = "6011e8782be6f7af9a9e6fa80bc53b12216f3a4e"
-depends = "['kpty>=6.1.0', 'kservice>=6.1.0']"
+depends = "['kpty>=6.2.0', 'kservice>=6.2.0']"
 reverse_depends = "['kde-cli-tools', 'konqueror']"
 +++
 ### Description: 
@@ -39,8 +39,8 @@ User interface for running shell commands with root privileges.
 * /usr/lib/kdesu/kf6/kdesu_stub
 * /usr/lib/libKF6Su.so
 * /usr/lib/libKF6Su.so.6
-* /usr/lib/libKF6Su.so.6.1.0
-* /usr/share/doc/kdesu-6.1.0/README.md
+* /usr/lib/libKF6Su.so.6.2.0
+* /usr/share/doc/kdesu-6.2.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdesud6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdesud6.mo
 * /usr/share/locale/az/LC_MESSAGES/kdesud6.mo

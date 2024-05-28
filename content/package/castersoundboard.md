@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "castersoundboard 20191203-6"
-version = "20191203-6"
+title = "castersoundboard 20191203-7"
+version = "20191203-7"
 description = "A soundboard for hot-keying and playing back sounds."
-date = "2024-03-28T15:24:15"
+date = "2024-05-26T22:28:15"
 aliases = "/packages/220008"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/JupiterBroadcasting/castersoundboard"
 arch = "x86_64"
-size = "158580"
+size = "158028"
 usize = "402976"
-sha1sum = "b3baba9690010a0f554f11d2d6a42ed4a8992fb4"
+sha1sum = "98c94302c636483515b2d802f6e8812f881ed0ba"
 depends = "['gst1-plugins-bad', 'gst1-plugins-good', 'gst1-plugins-ugly', 'qt5-base>=5.15.10', 'qt5-multimedia>=5.15.10']"
 +++
 ### Description: 

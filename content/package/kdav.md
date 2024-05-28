@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdav 6.1.0-1"
-version = "6.1.0-1"
+title = "kdav 6.2.0-2"
+version = "6.2.0-2"
 description = "KDE DAV protocoll"
-date = "2024-04-13T10:00:33"
+date = "2024-05-21T18:29:56"
 aliases = "/packages/219157"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "104240"
-usize = "439192"
-sha1sum = "704d09b5eb173c6ebbdd11a6ae8f3022298b9b6d"
-depends = "['kcoreaddons>=6.1.0', 'kio>=6.1.0']"
+size = "104236"
+usize = "439280"
+sha1sum = "d803da47ef93afc1c24d13622dfc743ef78315f7"
+depends = "['kcoreaddons>=6.2.0', 'kio>=6.2.0']"
 reverse_depends = "['kdepim-runtime']"
 +++
 ### Description: 
@@ -66,8 +66,8 @@ KDE DAV protocoll
 * /usr/lib/cmake/KF6DAV/KF6DAVTargets.cmake
 * /usr/lib/libKF6DAV.so
 * /usr/lib/libKF6DAV.so.6
-* /usr/lib/libKF6DAV.so.6.1.0
-* /usr/share/doc/kdav-6.1.0/README.md
+* /usr/lib/libKF6DAV.so.6.2.0
+* /usr/share/doc/kdav-6.2.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkdav6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkdav6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkdav6.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jasper 2.0.14-4"
-version = "2.0.14-4"
+title = "jasper 2.0.14-5"
+version = "2.0.14-5"
 description = "Jasper is a implementation of the codec specified in the JPEG-2000 Part-1 standard."
-date = "2021-12-24T17:27:54"
+date = "2024-05-28T09:46:55"
 aliases = "/packages/5392"
 categories = ['xlib']
 upstreamurl = "http://www.ece.uvic.ca/~frodo/jasper"
 arch = "x86_64"
-size = "564468"
-usize = "1318009"
-sha1sum = "08abef5435e89df7c4cd735bb9b37a74c30bed5e"
+size = "561480"
+usize = "1266457"
+sha1sum = "6c3a49f33f8c3b643dfa16d9f4bc6671ab014870"
 depends = "['libjpeg-turbo']"
 reverse_depends = "['darktable', 'dcraw', 'devil', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'graphicsmagick', 'kimageformats', 'kimageformats5', 'nufraw', 'opencv', 'opencv', 'opencv-cuda', 'openscenegraph', 'qt5-imageformats', 'qt6-imageformats']"
 +++

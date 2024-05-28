@@ -12,7 +12,7 @@ size = "1508860"
 usize = "7348000"
 sha1sum = "ccf9db1d3e5f88bf3b18817771925067db73fec2"
 depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kdiff3', 'rkward']"
+reverse_depends = "['kcompletion5', 'kconfigwidgets5', 'kdiff3', 'rkward']"
 +++
 ### Description: 
 Large set of desktop widgets.

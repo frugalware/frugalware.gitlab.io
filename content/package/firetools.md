@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "firetools 0.9.72-4"
-version = "0.9.72-4"
+title = "firetools 0.9.72-5"
+version = "0.9.72-5"
 description = "Firejail Qt5 GUI."
-date = "2024-03-28T15:31:27"
+date = "2024-05-27T04:29:01"
 aliases = "/packages/219544"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/netblue30/firetools"
 arch = "x86_64"
-size = "213452"
-usize = "536646"
-sha1sum = "87a9c48f5923a58b0efe1d5ba7eccc9816a658eb"
+size = "214208"
+usize = "536645"
+sha1sum = "65f79f8139cc230b76e70f4327a49281fed40beb"
 depends = "['firejail>=0.9.62', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
 ### Description: 

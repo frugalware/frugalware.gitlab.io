@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-at-spi2-core 2.52.0-1"
-version = "2.52.0-1"
+title = "lib32-at-spi2-core 2.52.0-2"
+version = "2.52.0-2"
 description = "Gnome Accessibility Toolkit ( 32bit )"
-date = "2024-05-02T08:45:19"
+date = "2024-05-28T09:53:11"
 aliases = "/packages/220922"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "236004"
+size = "235844"
 usize = "1164468"
-sha1sum = "35efaee8ec189fb02f372a1d19e325ba01395264"
+sha1sum = "f0fc3316a50a4680ff968ae0d22652751fe210da"
 depends = "['lib32-glib2', 'lib32-libxml2', 'lib32-libxtst']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "443452"
 usize = "2516930"
 sha1sum = "0624598e783dddc9844908350d0289eb85607f11"
-depends = "['docbook-xsl', 'karchive5>=5.115.0', 'libxslt']"
+depends = "['docbook-xsl', 'karchive5>=5.116.0', 'libxslt']"
 reverse_depends = "['kio5', 'rkward']"
 +++
 ### Description: 
@@ -32,7 +32,7 @@ Create documentation from DocBook.
 * /usr/lib/cmake/KF5DocTools/KF5DocToolsToolsTargets.cmake
 * /usr/lib/libKF5DocTools.so
 * /usr/lib/libKF5DocTools.so.5
-* /usr/lib/libKF5DocTools.so.5.115.0
+* /usr/lib/libKF5DocTools.so.5.116.0
 * /usr/share/doc/HTML/af/kdoctools5-common/kde-localised.css
 * /usr/share/doc/HTML/ca/kdoctools5-common/kde-localised.css
 * /usr/share/doc/HTML/cs/kdoctools5-common/kde-localised.css
@@ -111,8 +111,8 @@ Create documentation from DocBook.
 * /usr/share/doc/HTML/uk/kdoctools5-common/lgpl-translated.html
 * /usr/share/doc/HTML/wa/kdoctools5-common/kde-localised.css
 * /usr/share/doc/HTML/xh/kdoctools5-common/kde-localised.css
-* /usr/share/doc/kdoctools5-5.115.0/README.md
-* /usr/share/doc/kdoctools5-5.115.0/TODO
+* /usr/share/doc/kdoctools5-5.116.0/README.md
+* /usr/share/doc/kdoctools5-5.116.0/TODO
 * /usr/share/kf5/kdoctools/customization/af/catalog.xml
 * /usr/share/kf5/kdoctools/customization/af/entities/fdl-notice.docbook
 * /usr/share/kf5/kdoctools/customization/af/entities/gpl-notice.docbook

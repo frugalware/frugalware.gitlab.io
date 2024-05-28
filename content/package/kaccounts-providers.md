@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-providers 24.02.2-3"
-version = "24.02.2-3"
+title = "kaccounts-providers 24.05.0-1"
+version = "24.05.0-1"
 description = "Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2024-04-17T00:17:17"
+date = "2024-05-24T15:00:18"
 aliases = "/packages/218268"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "64140"
-usize = "278409"
-sha1sum = "f9a983de5059d678706e4134d220881ecb23e76e"
-depends = "['kaccounts-integration>=24.02.2', 'qt6-svg>=6.7.0', 'qt6-webengine>=6.7.0']"
+size = "65348"
+usize = "285645"
+sha1sum = "62bc1f45a63b46094933e356a81b64592d74feb5"
+depends = "['kaccounts-integration>=24.05.0', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others
@@ -41,6 +41,7 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/contents/ui/Services.qml
 * /usr/share/kpackage/genericqml/org.kde.kaccounts.owncloud/metadata.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/ast/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/az/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/bg/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/bs/LC_MESSAGES/kaccounts-providers.mo
@@ -58,6 +59,7 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/fi/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/fr/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/gl/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/he/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/hu/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/ia/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/id/LC_MESSAGES/kaccounts-providers.mo
@@ -66,6 +68,7 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/ka/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/ko/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/lt/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/lv/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/nl/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/nn/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/pa/LC_MESSAGES/kaccounts-providers.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-gtk+2-libs 2.24.32-9"
-version = "2.24.32-9"
+title = "lib32-gtk+2-libs 2.24.33-1"
+version = "2.24.33-1"
 description = "GTK+2 core libraries. ( 32bit )"
-date = "2024-04-11T12:24:27"
+date = "2024-05-27T12:11:59"
 aliases = "/packages/218978"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "2379868"
-usize = "9846595"
-sha1sum = "d412d9dffaa8dde7ab134580ffc672249de8341b"
-depends = "['lib32-at-spi2-core', 'lib32-gdk-pixbuf2>=2.36.0', 'lib32-libcups', 'lib32-libxcomposite>=0.4.4-3', 'lib32-libxcursor>=1.1.14-3', 'lib32-libxi>=1.7.6-2', 'lib32-libxinerama>=1.1.3-3', 'lib32-libxrandr>=1.5.0-5', 'lib32-pango>=1.40.3-2']"
+size = "2380396"
+usize = "9834069"
+sha1sum = "3df298c031829ef2edbe136111509ec4f556b62a"
+depends = "['lib32-at-spi2-core', 'lib32-gdk-pixbuf2>=2.36.0', 'lib32-libcups', 'lib32-libxcomposite>=0.4.4-3', 'lib32-libxcursor>=1.1.14-3', 'lib32-libxdamage', 'lib32-libxi>=1.7.6-2', 'lib32-libxinerama>=1.1.3-3', 'lib32-libxrandr>=1.5.0-5', 'lib32-pango>=1.40.3-2']"
 reverse_depends = "['steam-native']"
 +++
 ### Description: 
@@ -306,10 +306,10 @@ GTK+2 core libraries. ( 32bit )
 * /usr/lib32/libgailutil.so.18.0.1
 * /usr/lib32/libgdk-x11-2.0.so
 * /usr/lib32/libgdk-x11-2.0.so.0
-* /usr/lib32/libgdk-x11-2.0.so.0.2400.32
+* /usr/lib32/libgdk-x11-2.0.so.0.2400.33
 * /usr/lib32/libgtk-x11-2.0.so
 * /usr/lib32/libgtk-x11-2.0.so.0
-* /usr/lib32/libgtk-x11-2.0.so.0.2400.32
+* /usr/lib32/libgtk-x11-2.0.so.0.2400.33
 * /usr/lib32/pkgconfig/gail.pc
 * /usr/lib32/pkgconfig/gdk-2.0.pc
 * /usr/lib32/pkgconfig/gdk-x11-2.0.pc

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "findutils 4.9.0-2"
-version = "4.9.0-2"
+title = "findutils 4.9.0-3"
+version = "4.9.0-3"
 description = "Basic directory searching utilities"
-date = "2022-07-10T13:29:05"
+date = "2024-05-27T09:42:09"
 aliases = "/packages/2374"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/findutils"
 arch = "x86_64"
-size = "592672"
-usize = "2221477"
-sha1sum = "b2c04245630eecc1b45138852bb3043859dcbe9b"
+size = "596356"
+usize = "2218824"
+sha1sum = "d9358018740c627f50c2f339f5131854a060df0a"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35']"
 reverse_depends = "['profile-sync-daemon', 'pulse-autoconf', 'scriptlet-core']"
 +++

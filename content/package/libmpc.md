@@ -12,7 +12,7 @@ size = "97816"
 usize = "222964"
 sha1sum = "f78c5c0d7b85f9ef07f6d8ef70718e9e75bc9dc4"
 depends = "['mpfr>=4.0.2-3']"
-reverse_depends = "['gcc', 'gcc-12']"
+reverse_depends = "['gcc', 'gcc-12', 'gcc-13']"
 +++
 ### Description: 
 A library for the arithmetic of complex numbers.

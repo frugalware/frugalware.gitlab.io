@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "215644"
 usize = "1261704"
 sha1sum = "4a54594fe87933b38ad2158602af53ff28118980"
-depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive>=6.1.0', 'kcoreaddons>=6.1.0', 'kdegraphics-mobipocket', 'ki18n>=6.1.0', 'libappimage', 'poppler-qt6>=0.62.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
+depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive>=6.2.0', 'kcoreaddons>=6.2.0', 'kdegraphics-mobipocket', 'ki18n>=6.2.0', 'libappimage', 'poppler-qt6>=0.62.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['ark', 'baloo', 'digikam', 'dolphin', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++
 ### Description: 
@@ -58,7 +58,7 @@ A library for extracting file metadata.
 * /usr/lib/cmake/KF6FileMetaData/KF6FileMetaDataTargets.cmake
 * /usr/lib/libKF6FileMetaData.so
 * /usr/lib/libKF6FileMetaData.so.3
-* /usr/lib/libKF6FileMetaData.so.6.1.0
+* /usr/lib/libKF6FileMetaData.so.6.2.0
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_appimageextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_epubextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_exiv2extractor.so
@@ -77,7 +77,7 @@ A library for extracting file metadata.
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_taglibextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_xmlextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/writers/kfilemetadata_taglibwriter.so
-* /usr/share/doc/kfilemetadata-6.1.0/README.md
+* /usr/share/doc/kfilemetadata-6.2.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/az/LC_MESSAGES/kfilemetadata6.mo
@@ -98,6 +98,7 @@ A library for extracting file metadata.
 * /usr/share/locale/fr/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/gd/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kfilemetadata6.mo
+* /usr/share/locale/he/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/hu/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/id/LC_MESSAGES/kfilemetadata6.mo

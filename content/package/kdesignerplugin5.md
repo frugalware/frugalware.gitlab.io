@@ -11,8 +11,8 @@ arch = "x86_64"
 size = "79044"
 usize = "184623"
 sha1sum = "b6d487d1f874a32399098c30b013045a93032265"
-depends = "['kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0']"
-reverse_depends = "['skrooge']"
+depends = "['kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kiconthemes5>=5.116.0', 'kio5>=5.116.0', 'kplotting5>=5.116.0', 'kxmlgui5>=5.116.0']"
+reverse_depends = "['kdelibs4support5', 'skrooge']"
 +++
 ### Description: 
 Integrating KDE frameworks widgets with Qt Designer.
@@ -24,8 +24,8 @@ Integrating KDE frameworks widgets with Qt Designer.
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginMacros.cmake
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginTargets-release.cmake
 * /usr/lib/cmake/KF5DesignerPlugin/KF5DesignerPluginTargets.cmake
-* /usr/share/doc/kdesignerplugin5-5.115.0/COPYING.LIB
-* /usr/share/doc/kdesignerplugin5-5.115.0/README.md
+* /usr/share/doc/kdesignerplugin5-5.116.0/COPYING.LIB
+* /usr/share/doc/kdesignerplugin5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdesignerplugin5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kdesignerplugin5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kdesignerplugin5_qt.qm

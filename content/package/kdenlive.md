@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenlive 24.02.2-3"
-version = "24.02.2-3"
+title = "kdenlive 24.05.0-1"
+version = "24.05.0-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2024-04-17T01:26:27"
+date = "2024-05-25T12:21:12"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "13911276"
-usize = "71813381"
-sha1sum = "58b50a5e75dcbd0d4314dc7ae3aeddd1052e76d7"
-depends = "['kfilemetadata>=6.1.0', 'knewstuff>=6.1.0', 'knotifyconfig>=6.1.0', 'kplotting>=6.1.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.1.0', 'qt6-declarative>=6.7.0', 'qt6-networkauth>=6.7.0', 'qt6-svg>=6.7.0', 'qt6-webengine>=6.7.0']"
+size = "13734568"
+usize = "72385867"
+sha1sum = "0b0a12a71560e2b27c8ef21bf4e2be42824bd9ac"
+depends = "['kfilemetadata>=6.2.0', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kplotting>=6.2.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.2.0', 'qt6-declarative>=6.7.1', 'qt6-networkauth>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-24.02.2/AUTHORS
-* /usr/share/doc/kdenlive-24.02.2/COPYING
-* /usr/share/doc/kdenlive-24.02.2/README.md
-* /usr/share/doc/kdenlive-24.02.2/README.md.license
+* /usr/share/doc/kdenlive-24.05.0/AUTHORS
+* /usr/share/doc/kdenlive-24.05.0/COPYING
+* /usr/share/doc/kdenlive-24.05.0/README.md
+* /usr/share/doc/kdenlive-24.05.0/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt
@@ -643,6 +643,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/knsrcfiles/kdenlive_titles.knsrc
 * /usr/share/knsrcfiles/kdenlive_wipes.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kdenlive.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/az/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/bs/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/ca/LC_MESSAGES/kdenlive.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "baloo5 5.115.0-4"
-version = "5.115.0-4"
+title = "baloo5 5.116.0-2"
+version = "5.116.0-2"
 description = "A framework for searching and managing metadata."
-date = "2024-03-15T11:16:25"
+date = "2024-05-26T17:07:42"
 aliases = "/packages/218253"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "306732"
-usize = "1667790"
-sha1sum = "adba9e6cde3c6d5cb463ada2764119fc927fbf07"
+size = "307344"
+usize = "1668367"
+sha1sum = "fdce83a400baca5d02641ba80b8348bc60344bce"
 depends = "['kfilemetadata5>=5.116.0', 'kidletime5>=5.116.0', 'kio5>=5.116.0', 'lmdb>=0.9.18-3']"
 +++
 ### Description: 

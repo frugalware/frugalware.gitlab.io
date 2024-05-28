@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jreen 1.3.0-14"
-version = "1.3.0-14"
+title = "jreen 1.3.0-15"
+version = "1.3.0-15"
 description = "Qt XMPP library"
-date = "2024-03-28T15:07:09"
+date = "2024-05-26T22:02:29"
 aliases = "/packages/136698"
 categories = ['lib-extra']
 upstreamurl = "http://qutim.org/jreen"
 arch = "x86_64"
-size = "335800"
-usize = "1274715"
-sha1sum = "19694ded32b75fc5e72c76e7015f92f8572817af"
+size = "338252"
+usize = "1278811"
+sha1sum = "12ef462ccdd600e37e2f0cd2a4ad79606dad61e2"
 depends = "['libgsasl>=1.8.0-2', 'qt5-base>=5.15.10']"
 +++
 ### Description: 

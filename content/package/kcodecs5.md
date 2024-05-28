@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcodecs5 5.115.0-2"
-version = "5.115.0-2"
+title = "kcodecs5 5.116.0-2"
+version = "5.116.0-2"
 description = "Plugins allowing Qt applications to access further types of images."
-date = "2024-03-14T14:41:43"
+date = "2024-05-26T16:24:58"
 aliases = "/packages/221292"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139776"
-usize = "683389"
-sha1sum = "86d88c8231a8e157423c38c3f741629caa57f20c"
-depends = "['qt5-base>=5.15.12']"
+size = "140652"
+usize = "686140"
+sha1sum = "a2e26854a53669c657403b2ed8e6ef2290d3d31e"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['kconfigwidgets5', 'kcontacts5']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Plugins allowing Qt applications to access further types of images.
 * /usr/lib/cmake/KF5Codecs/KF5CodecsTargets.cmake
 * /usr/lib/libKF5Codecs.so
 * /usr/lib/libKF5Codecs.so.5
-* /usr/lib/libKF5Codecs.so.5.115.0
-* /usr/share/doc/kcodecs5-5.115.0/README.md
+* /usr/lib/libKF5Codecs.so.5.116.0
+* /usr/share/doc/kcodecs5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kcodecs5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcodecs5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kcodecs5_qt.qm

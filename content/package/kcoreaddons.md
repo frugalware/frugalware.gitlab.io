@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcoreaddons 6.1.0-1"
-version = "6.1.0-1"
+title = "kcoreaddons 6.2.0-2"
+version = "6.2.0-2"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2024-04-12T19:57:49"
+date = "2024-05-21T17:35:28"
 aliases = "/packages/218286"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "452612"
-usize = "1969489"
-sha1sum = "7d97448a3e6b32ee4f51a68cfca5431195081f00"
-depends = "['qt6-base>=6.7.0', 'shared-mime-info']"
+size = "453576"
+usize = "1973689"
+sha1sum = "cba6f93962e5de50185a4e935b98c6875f32927a"
+depends = "['qt6-base>=6.7.1', 'shared-mime-info']"
 reverse_depends = "['alligator', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'isoimagewriter', 'itinerary', 'kalk', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdesignerplugin', 'kfilemetadata', 'kglobalacceld', 'kjournald', 'kongress', 'kontrast', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -98,12 +98,12 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsTargets.cmake
 * /usr/lib/libKF6CoreAddons.so
 * /usr/lib/libKF6CoreAddons.so.6
-* /usr/lib/libKF6CoreAddons.so.6.1.0
+* /usr/lib/libKF6CoreAddons.so.6.2.0
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/qmldir
-* /usr/share/doc/kcoreaddons-6.1.0/README.md
+* /usr/share/doc/kcoreaddons-6.2.0/README.md
 * /usr/share/kf6/jsonschema/kpluginmetadata.schema.json
 * /usr/share/kf6/licenses/ARTISTIC
 * /usr/share/kf6/licenses/BSD

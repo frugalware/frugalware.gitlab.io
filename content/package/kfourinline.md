@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "822016"
 usize = "6301231"
 sha1sum = "620a74e7a69b63bb53fc8579738e2da502cdb778"
-depends = "['knotifyconfig>=6.1.0', 'libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
+depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 A four-in-a-row game.
@@ -53,25 +53,25 @@ A four-in-a-row game.
 * /usr/share/doc/HTML/uk/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/uk/kfourinline/index.docbook
 * /usr/share/doc/HTML/uk/kfourinline/settings.png
-* /usr/share/doc/kfourinline-24.02.2/AUTHORS
-* /usr/share/doc/kfourinline-24.02.2/README.md
+* /usr/share/doc/kfourinline-24.05.0/AUTHORS
+* /usr/share/doc/kfourinline-24.05.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/kfourinline.png
 * /usr/share/icons/hicolor/16x16/apps/kfourinline.png
 * /usr/share/icons/hicolor/22x22/apps/kfourinline.png
 * /usr/share/icons/hicolor/32x32/apps/kfourinline.png
 * /usr/share/icons/hicolor/48x48/apps/kfourinline.png
 * /usr/share/icons/hicolor/64x64/apps/kfourinline.png
-* /usr/share/kfourinline/grafix/default.desktop
-* /usr/share/kfourinline/grafix/default.rc
-* /usr/share/kfourinline/grafix/default.svg
-* /usr/share/kfourinline/grafix/gray_reflection.desktop
-* /usr/share/kfourinline/grafix/gray_reflection.rc
-* /usr/share/kfourinline/grafix/gray_reflection.svg
-* /usr/share/kfourinline/grafix/yellow.desktop
-* /usr/share/kfourinline/grafix/yellow.rc
-* /usr/share/kfourinline/grafix/yellow.svg
-* /usr/share/kfourinline/grafix/yellow_reflection.desktop
-* /usr/share/kfourinline/grafix/yellow_reflection.rc
+* /usr/share/kfourinline/themes/default.desktop
+* /usr/share/kfourinline/themes/default.rc
+* /usr/share/kfourinline/themes/default.svgz
+* /usr/share/kfourinline/themes/gray_reflection.desktop
+* /usr/share/kfourinline/themes/gray_reflection.rc
+* /usr/share/kfourinline/themes/gray_reflection.svgz
+* /usr/share/kfourinline/themes/yellow.desktop
+* /usr/share/kfourinline/themes/yellow.rc
+* /usr/share/kfourinline/themes/yellow.svgz
+* /usr/share/kfourinline/themes/yellow_reflection.desktop
+* /usr/share/kfourinline/themes/yellow_reflection.rc
 * /usr/share/locale/af/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/ar/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/ast/LC_MESSAGES/kfourinline.mo

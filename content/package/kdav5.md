@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdav5 5.115.0-2"
-version = "5.115.0-2"
+title = "kdav5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE DAV protocoll"
-date = "2024-03-15T10:33:15"
+date = "2024-05-26T17:36:21"
 aliases = "/packages/221300"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "88980"
-usize = "415073"
-sha1sum = "0702f2cac5517d357244e9509e00f960aca6bce8"
-depends = "['kcoreaddons5>=5.115.0', 'qt5-xmlpatterns>=5.15.12']"
+size = "89348"
+usize = "415196"
+sha1sum = "932161fceacf0d95d81c05415cc398ff21b8219c"
+depends = "['kcoreaddons5>=5.116.0', 'kio5>=5.116.0', 'qt5-xmlpatterns>=5.15.14']"
 +++
 ### Description: 
 KDE DAV protocoll
@@ -65,8 +65,8 @@ KDE DAV protocoll
 * /usr/lib/cmake/KF5DAV/KF5DAVTargets.cmake
 * /usr/lib/libKF5DAV.so
 * /usr/lib/libKF5DAV.so.5
-* /usr/lib/libKF5DAV.so.5.115.0
-* /usr/share/doc/kdav5-5.115.0/README.md
+* /usr/lib/libKF5DAV.so.5.116.0
+* /usr/share/doc/kdav5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkdav.mo
 * /usr/share/locale/az/LC_MESSAGES/libkdav.mo
 * /usr/share/locale/bg/LC_MESSAGES/libkdav.mo

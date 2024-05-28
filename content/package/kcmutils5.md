@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcmutils5 5.115.0-3"
-version = "5.115.0-3"
+title = "kcmutils5 5.116.0-2"
+version = "5.116.0-2"
 description = "Utilities for interacting with KCModules."
-date = "2024-03-15T11:20:26"
+date = "2024-05-26T17:23:37"
 aliases = "/packages/221291"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "218904"
-usize = "1047535"
-sha1sum = "2efe356fc5ce427fde57ae49bc3fc76529e9b7a7"
-depends = "[]"
+size = "218988"
+usize = "1047782"
+sha1sum = "4ed0ed998e72e6ebc84a16e29ff139276851375c"
+depends = "['kdeclarative5>=5.116.0']"
 reverse_depends = "['k3b', 'kdevelop', 'kio-extras-kf5', 'krdc', 'ktouch', 'libkcddb5', 'okteta']"
 +++
 ### Description: 
@@ -57,11 +57,11 @@ Utilities for interacting with KCModules.
 * /usr/lib/kf5/kf5/kcmdesktopfilegenerator
 * /usr/lib/libKF5KCMUtils.so
 * /usr/lib/libKF5KCMUtils.so.5
-* /usr/lib/libKF5KCMUtils.so.5.115.0
+* /usr/lib/libKF5KCMUtils.so.5.116.0
 * /usr/lib/libKF5KCMUtilsCore.so
 * /usr/lib/libKF5KCMUtilsCore.so.5
-* /usr/lib/libKF5KCMUtilsCore.so.5.115.0
-* /usr/share/doc/kcmutils5-5.115.0/README.md
+* /usr/lib/libKF5KCMUtilsCore.so.5.116.0
+* /usr/share/doc/kcmutils5-5.116.0/README.md
 * /usr/share/kservicetypes5/kcmodule.desktop
 * /usr/share/kservicetypes5/kcmoduleinit.desktop
 * /usr/share/locale/af/LC_MESSAGES/kcmutils5.mo

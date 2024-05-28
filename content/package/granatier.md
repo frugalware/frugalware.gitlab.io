@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "granatier 24.02.2-3"
-version = "24.02.2-3"
+title = "granatier 24.05.0-1"
+version = "24.05.0-1"
 description = "A clone of the classic Bomberman game."
-date = "2024-04-16T22:12:56"
+date = "2024-05-24T10:28:09"
 aliases = "/packages/184172"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2273872"
-usize = "3596018"
-sha1sum = "9b4cd15b7a33c7e5c954d65fda276c4829ce8485"
-depends = "['libkdegames>=24.02.2']"
+size = "2168900"
+usize = "3487017"
+sha1sum = "04c70485c9dbb9f308cf6e7b0f6d58de61aead2c"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 A clone of the classic Bomberman game.
@@ -221,6 +221,7 @@ A clone of the classic Bomberman game.
 * /usr/share/locale/fr/LC_MESSAGES/granatier.mo
 * /usr/share/locale/ga/LC_MESSAGES/granatier.mo
 * /usr/share/locale/gl/LC_MESSAGES/granatier.mo
+* /usr/share/locale/he/LC_MESSAGES/granatier.mo
 * /usr/share/locale/hr/LC_MESSAGES/granatier.mo
 * /usr/share/locale/hu/LC_MESSAGES/granatier.mo
 * /usr/share/locale/ia/LC_MESSAGES/granatier.mo

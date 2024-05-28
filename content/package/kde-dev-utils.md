@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-dev-utils 24.02.2-3"
-version = "24.02.2-3"
+title = "kde-dev-utils 24.05.0-1"
+version = "24.05.0-1"
 description = "Developer utilities for kde."
-date = "2024-04-17T00:44:56"
+date = "2024-05-24T15:55:00"
 aliases = "/packages/219158"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "84348"
-usize = "396574"
-sha1sum = "90a15c6648d07ce23aaf0c2d699bfca217fe1bbf"
-depends = "['kparts>=6.1.0', 'qt6-tools']"
+size = "85640"
+usize = "398452"
+sha1sum = "9e669577918c9813662668491ac05159c6975796"
+depends = "['kparts>=6.2.0', 'qt6-tools']"
 +++
 ### Description: 
 Developer utilities for kde.
@@ -29,6 +29,8 @@ Developer utilities for kde.
 * /usr/share/icons/hicolor/64x64/apps/kuiviewer.png
 * /usr/share/icons/hicolor/scalable/apps/kuiviewer.svg
 * /usr/share/locale/ar/LC_MESSAGES/kuiviewer.mo
+* /usr/share/locale/ast/LC_MESSAGES/kpartloader.mo
+* /usr/share/locale/ast/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/az/LC_MESSAGES/kpartloader.mo
 * /usr/share/locale/az/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/be/LC_MESSAGES/kuiviewer.mo
@@ -69,6 +71,8 @@ Developer utilities for kde.
 * /usr/share/locale/ga/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/gl/LC_MESSAGES/kpartloader.mo
 * /usr/share/locale/gl/LC_MESSAGES/kuiviewer.mo
+* /usr/share/locale/he/LC_MESSAGES/kpartloader.mo
+* /usr/share/locale/he/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/hi/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/hne/LC_MESSAGES/kuiviewer.mo
 * /usr/share/locale/hr/LC_MESSAGES/kpartloader.mo

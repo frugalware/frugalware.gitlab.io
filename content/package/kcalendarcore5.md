@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalendarcore5 5.115.0-3"
-version = "5.115.0-3"
+title = "kcalendarcore5 5.116.0-2"
+version = "5.116.0-2"
 description = "The KDE calendar access library"
-date = "2024-03-15T11:19:24"
+date = "2024-05-26T17:37:19"
 aliases = "/packages/221290"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "299520"
-usize = "1466267"
-sha1sum = "8d4eed706d0f5827d2749e88543aab5358722fbb"
+size = "301532"
+usize = "1470451"
+sha1sum = "0fa03f3e2438637e49758b31f2764fa83cdcca2d"
 depends = "['libical>=3.0.3']"
 reverse_depends = "['calindori']"
 +++
@@ -161,9 +161,9 @@ The KDE calendar access library
 * /usr/lib/cmake/KF5CalendarCore/KF5CalendarCoreTargets.cmake
 * /usr/lib/libKF5CalendarCore.so
 * /usr/lib/libKF5CalendarCore.so.5
-* /usr/lib/libKF5CalendarCore.so.5.115.0
+* /usr/lib/libKF5CalendarCore.so.5.116.0
 * /usr/lib/pkgconfig/KF5CalendarCore.pc
-* /usr/share/doc/kcalendarcore5-5.115.0/README.md
+* /usr/share/doc/kcalendarcore5-5.116.0/README.md
 * /usr/share/qlogging-categories5/kcalendarcore.categories
 * /usr/share/qlogging-categories5/kcalendarcore.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KCalendarCore.pri

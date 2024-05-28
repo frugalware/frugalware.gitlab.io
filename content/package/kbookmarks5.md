@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbookmarks5 5.115.0-2"
-version = "5.115.0-2"
+title = "kbookmarks5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework that let you access and manipulate bookmarks stored using XBEL format."
-date = "2024-03-15T09:23:55"
+date = "2024-05-26T17:00:16"
 aliases = "/packages/221289"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "138228"
-usize = "684019"
-sha1sum = "378217e5a0c08f7d11069b6af8b1d80be0a98f9f"
-depends = "[]"
+size = "138868"
+usize = "688181"
+sha1sum = "76d53d517772c3b8612895e7633f62b7a0c784ca"
+depends = "['kxmlgui5>=5.116.0']"
 reverse_depends = "['kio5', 'krdc']"
 +++
 ### Description: 
@@ -53,8 +53,8 @@ Framework that let you access and manipulate bookmarks stored using XBEL format.
 * /usr/lib/cmake/KF5Bookmarks/KF5BookmarksTargets.cmake
 * /usr/lib/libKF5Bookmarks.so
 * /usr/lib/libKF5Bookmarks.so.5
-* /usr/lib/libKF5Bookmarks.so.5.115.0
-* /usr/share/doc/kbookmarks5-5.115.0/README.md
+* /usr/lib/libKF5Bookmarks.so.5.116.0
+* /usr/share/doc/kbookmarks5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kbookmarks5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kbookmarks5_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/kbookmarks5_qt.qm

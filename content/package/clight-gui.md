@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clight-gui 4.8-5"
-version = "4.8-5"
+title = "clight-gui 4.8-6"
+version = "4.8-6"
 description = "Qt GUI for Clight"
-date = "2024-03-28T15:25:26"
+date = "2024-05-27T04:23:26"
 aliases = "/packages/220479"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/nullobsi/clight-gui"
 arch = "x86_64"
-size = "134884"
+size = "135248"
 usize = "515042"
-sha1sum = "8a965379b4614927c5084b3095c924d4d7f4a10b"
+sha1sum = "15e69969f1704129eb77eb4b807412ca764c1fd8"
 depends = "['clight', 'qt5-charts>=5.15.10']"
 +++
 ### Description: 

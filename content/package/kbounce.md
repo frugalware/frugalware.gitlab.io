@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbounce 24.02.2-3"
-version = "24.02.2-3"
+title = "kbounce 24.05.0-1"
+version = "24.05.0-1"
 description = "A single player arcade game with the elements of puzzle."
-date = "2024-04-16T22:19:03"
+date = "2024-05-24T10:34:12"
 aliases = "/packages/184177"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3032464"
-usize = "6561785"
-sha1sum = "56689eac685c6a4a023ab97c46ba8c490a5a32d9"
-depends = "['libkdegames>=24.02.2', 'qt6-svg>=6.7.0']"
+size = "3294712"
+usize = "3933832"
+sha1sum = "4afc3278a19e78abefcfa3d1ed74c17038e444ac"
+depends = "['libkdegames>=24.05.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 A single player arcade game with the elements of puzzle.
@@ -83,7 +83,7 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/kbounce/themes/egyptian_bounce.svgz
 * /usr/share/kbounce/themes/geometry.desktop
 * /usr/share/kbounce/themes/geometry.png
-* /usr/share/kbounce/themes/kbounce.svg
+* /usr/share/kbounce/themes/kbounce.svgz
 * /usr/share/kbounce/themes/oxygen.desktop
 * /usr/share/kbounce/themes/oxygen.png
 * /usr/share/kbounce/themes/oxygen.svgz

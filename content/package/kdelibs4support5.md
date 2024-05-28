@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdelibs4support5 5.115.0-4"
-version = "5.115.0-4"
+title = "kdelibs4support5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE4 Support."
-date = "2024-03-26T13:29:22"
+date = "2024-05-26T17:28:02"
 aliases = "/packages/221304"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3387684"
-usize = "19175454"
-sha1sum = "42ffe404f06f495cd14817ec792911a2da1497fe"
-depends = "['kded5>=5.115.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
+size = "3376316"
+usize = "19185324"
+sha1sum = "0f1c52cd9e9866f60375139c479e9f4ef17635e4"
+depends = "['kded5>=5.116.0', 'kdesignerplugin5>=5.116.0', 'kemoticons5>=5.116.0', 'kitemmodels5>=5.116.0', 'kparts5>=5.116.0', 'kunitconversion5>=5.116.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
 reverse_depends = "['kmix', 'kmplot', 'kolourpaint', 'kross-interpreters', 'qtcurve-qt5', 'step']"
 +++
 ### Description: 
@@ -1022,7 +1022,7 @@ KDE4 Support.
 * /usr/lib/kf5/kf5/fileshareset
 * /usr/lib/libKF5KDELibs4Support.so
 * /usr/lib/libKF5KDELibs4Support.so.5
-* /usr/lib/libKF5KDELibs4Support.so.5.115.0
+* /usr/lib/libKF5KDELibs4Support.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kf5deprecatedwidgets.so
 * /usr/lib/qt5/plugins/kcm_ssl.so
 * /usr/lib/qt5/plugins/kf5/kded/networkstatus.so
@@ -1091,9 +1091,9 @@ KDE4 Support.
 * /usr/share/doc/HTML/uk/kcontrol5/kcm_ssl/index.docbook
 * /usr/share/doc/HTML/uk/kdebugdialog5/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdebugdialog5/index.docbook
-* /usr/share/doc/kdelibs4support5-5.115.0/COPYING
-* /usr/share/doc/kdelibs4support5-5.115.0/COPYING.LIB
-* /usr/share/doc/kdelibs4support5-5.115.0/README.md
+* /usr/share/doc/kdelibs4support5-5.116.0/COPYING
+* /usr/share/doc/kdelibs4support5-5.116.0/COPYING.LIB
+* /usr/share/doc/kdelibs4support5-5.116.0/README.md
 * /usr/share/kf5/kdoctools/customization/catalog4.xml
 * /usr/share/kf5/kdoctools/customization/dtd/kdex.dtd
 * /usr/share/kf5/kssl/ca-bundle.crt

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbackup 24.02.2-3"
-version = "24.02.2-3"
+title = "kbackup 24.05.0-1"
+version = "24.05.0-1"
 description = "Backup program for KDE."
-date = "2024-04-17T00:30:49"
+date = "2024-05-24T15:38:29"
 aliases = "/packages/219632"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "540500"
-usize = "1297060"
-sha1sum = "9fe6a5c340fccf4e55193c1461a39fcee33e9d01"
-depends = "['karchive>=6.1.0', 'ki18n>=6.1.0', 'kiconthemes>=6.1.0', 'kio>=6.1.0', 'knotifications>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'kwidgetsaddons>=6.1.0', 'kxmlgui>=6.1.0']"
+size = "505308"
+usize = "1264293"
+sha1sum = "36ccf9422a90d2fad4e9d9ccc92628ace2b35812"
+depends = "['karchive>=6.2.0', 'ki18n>=6.2.0', 'kiconthemes>=6.2.0', 'kio>=6.2.0', 'knotifications>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kwidgetsaddons>=6.2.0', 'kxmlgui>=6.2.0']"
 +++
 ### Description: 
 Backup program for KDE.
@@ -40,11 +40,11 @@ Backup program for KDE.
 * /usr/share/doc/HTML/uk/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbackup/index.docbook
 * /usr/share/doc/HTML/uk/kbackup/mainwindow.png
-* /usr/share/doc/kbackup-24.02.2/AUTHORS
-* /usr/share/doc/kbackup-24.02.2/ChangeLog
-* /usr/share/doc/kbackup-24.02.2/COPYING
-* /usr/share/doc/kbackup-24.02.2/README
-* /usr/share/doc/kbackup-24.02.2/TODO
+* /usr/share/doc/kbackup-24.05.0/AUTHORS
+* /usr/share/doc/kbackup-24.05.0/ChangeLog
+* /usr/share/doc/kbackup-24.05.0/COPYING
+* /usr/share/doc/kbackup-24.05.0/README
+* /usr/share/doc/kbackup-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbackup.png
 * /usr/share/icons/hicolor/16x16/apps/kbackup.png
 * /usr/share/icons/hicolor/16x16/mimetypes/text-x-kbp.png
@@ -71,6 +71,7 @@ Backup program for KDE.
 * /usr/share/locale/gl/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ia/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ie/LC_MESSAGES/kbackup.mo
+* /usr/share/locale/is/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/it/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ja/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ka/LC_MESSAGES/kbackup.mo

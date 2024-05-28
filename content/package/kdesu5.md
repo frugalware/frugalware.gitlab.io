@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "65932"
 usize = "252689"
 sha1sum = "6f20955266d422f82d199b087941b1bbee65c9e6"
-depends = "[]"
+depends = "['kpty5>=5.116.0', 'kservice5>=5.116.0']"
 reverse_depends = "['cervisia']"
 +++
 ### Description: 
@@ -43,8 +43,8 @@ User interface for running shell commands with root privileges.
 * /usr/lib/kf5/kf5/kdesu_stub
 * /usr/lib/libKF5Su.so
 * /usr/lib/libKF5Su.so.5
-* /usr/lib/libKF5Su.so.5.115.0
-* /usr/share/doc/kdesu5-5.115.0/README.md
+* /usr/lib/libKF5Su.so.5.116.0
+* /usr/share/doc/kdesu5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/az/LC_MESSAGES/kdesud5.mo
@@ -65,6 +65,7 @@ User interface for running shell commands with root privileges.
 * /usr/share/locale/fr/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/gd/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/gl/LC_MESSAGES/kdesud5.mo
+* /usr/share/locale/he/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/hi/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdesud5.mo
 * /usr/share/locale/ia/LC_MESSAGES/kdesud5.mo

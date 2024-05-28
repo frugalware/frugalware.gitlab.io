@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bash 5.2.21-2"
-version = "5.2.21-2"
+title = "bash 5.2.21-3"
+version = "5.2.21-3"
 description = "The GNU Bourne Again shell"
-date = "2024-01-02T17:16:51"
+date = "2024-05-27T09:26:49"
 aliases = "/packages/2347"
 categories = ['base']
 upstreamurl = "http://tiswww.case.edu/php/chet/bash/bashtop.html"
 arch = "x86_64"
-size = "1829048"
-usize = "9799935"
-sha1sum = "cb28fedd1986ecda11fc98358eb409d7186d51eb"
+size = "1830632"
+usize = "9800012"
+sha1sum = "2d38914b3a70267fb807d306567fd0113e38f71c"
 depends = "['glibc>=2.37', 'readline>=8.2']"
 reverse_depends = "['autoconf', 'autoconf213', 'automake', 'backupninja', 'bash-completion', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'dosfstools', 'dracut', 'findutils', 'flex', 'gradle', 'gzip', 'kbd', 'keychain', 'less', 'lesspipe', 'libtool', 'lxc', 'lynis', 'make', 'maxima', 'neofetch', 'nvm', 'openresolv', 'os-prober', 'pacman-tools', 'prettyping', 'pulse-autoconf', 'pyenv', 'rpcbind', 'screenfetch', 'scriptlet-core', 'steamtinkerlaunch', 'systemd-swap', 'tar', 'wgetpaste']"
 +++

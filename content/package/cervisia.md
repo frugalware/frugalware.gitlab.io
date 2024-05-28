@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cervisia 24.02.2-3"
-version = "24.02.2-3"
+title = "cervisia 24.05.0-1"
+version = "24.05.0-1"
 description = "CVS Frontend"
-date = "2024-04-17T06:17:23"
+date = "2024-05-26T20:45:41"
 aliases = "/packages/219319"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2469316"
-usize = "6577949"
-sha1sum = "74588447b9fc2fcdf26ff58d47ea89e7c8600851"
-depends = "['kdesu5>=5.115.0', 'kinit5>=5.115.0', 'kparts5>=5.115.0']"
+size = "2332576"
+usize = "6413963"
+sha1sum = "ca5a22e322d6e9e8cf2b5e5b66fabecded3b4ba1"
+depends = "['kdesu5>=5.116.0', 'kinit5>=5.116.0', 'kparts5>=5.116.0']"
 +++
 ### Description: 
 CVS Frontend
@@ -30,13 +30,13 @@ CVS Frontend
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
-* /usr/share/doc/cervisia-24.02.2/ChangeLog
-* /usr/share/doc/cervisia-24.02.2/COPYING
-* /usr/share/doc/cervisia-24.02.2/COPYING.DOC
-* /usr/share/doc/cervisia-24.02.2/COPYING.LIB
-* /usr/share/doc/cervisia-24.02.2/HACKING
-* /usr/share/doc/cervisia-24.02.2/README
-* /usr/share/doc/cervisia-24.02.2/TODO
+* /usr/share/doc/cervisia-24.05.0/ChangeLog
+* /usr/share/doc/cervisia-24.05.0/COPYING
+* /usr/share/doc/cervisia-24.05.0/COPYING.DOC
+* /usr/share/doc/cervisia-24.05.0/COPYING.LIB
+* /usr/share/doc/cervisia-24.05.0/HACKING
+* /usr/share/doc/cervisia-24.05.0/README
+* /usr/share/doc/cervisia-24.05.0/TODO
 * /usr/share/doc/HTML/ca/cervisia/checkout.png
 * /usr/share/doc/HTML/ca/cervisia/import.png
 * /usr/share/doc/HTML/ca/cervisia/index.cache.bz2

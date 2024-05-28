@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bovo 24.02.2-3"
-version = "24.02.2-3"
+title = "bovo 24.05.0-1"
+version = "24.05.0-1"
 description = "A Gomoku like game for two players."
-date = "2024-04-16T22:11:38"
+date = "2024-05-24T10:26:57"
 aliases = "/packages/184171"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "313288"
-usize = "817706"
-sha1sum = "20d66719b2a00627a374a58b021b91c406ac5c77"
-depends = "['libkdegames>=24.02.2']"
+size = "315840"
+usize = "797872"
+sha1sum = "f4eb12c79f1c5e35bf0b8c1d67d6525ee20bc745"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 A Gomoku like game for two players.
@@ -19,21 +19,21 @@ A Gomoku like game for two players.
 ### Files: 
 * /usr/bin/bovo
 * /usr/share/applications/org.kde.bovo.desktop
-* /usr/share/bovo/themes/gomoku/theme.svg
+* /usr/share/bovo/themes/gomoku/theme.svgz
 * /usr/share/bovo/themes/gomoku/themerc
-* /usr/share/bovo/themes/highcontrast/theme.svg
+* /usr/share/bovo/themes/highcontrast/theme.svgz
 * /usr/share/bovo/themes/highcontrast/themerc
-* /usr/share/bovo/themes/scribble/theme.svg
+* /usr/share/bovo/themes/scribble/theme.svgz
 * /usr/share/bovo/themes/scribble/themerc
-* /usr/share/bovo/themes/spacy/theme.svg
+* /usr/share/bovo/themes/spacy/theme.svgz
 * /usr/share/bovo/themes/spacy/themerc
-* /usr/share/doc/bovo-24.02.2/AUTHORS
-* /usr/share/doc/bovo-24.02.2/COPYING
-* /usr/share/doc/bovo-24.02.2/COPYING.DOC
-* /usr/share/doc/bovo-24.02.2/HISTORY
-* /usr/share/doc/bovo-24.02.2/INSTALL
-* /usr/share/doc/bovo-24.02.2/README.PACKAGERS
-* /usr/share/doc/bovo-24.02.2/TODO
+* /usr/share/doc/bovo-24.05.0/AUTHORS
+* /usr/share/doc/bovo-24.05.0/COPYING
+* /usr/share/doc/bovo-24.05.0/COPYING.DOC
+* /usr/share/doc/bovo-24.05.0/HISTORY
+* /usr/share/doc/bovo-24.05.0/INSTALL
+* /usr/share/doc/bovo-24.05.0/README.PACKAGERS
+* /usr/share/doc/bovo-24.05.0/TODO
 * /usr/share/doc/HTML/ca/bovo/index.cache.bz2
 * /usr/share/doc/HTML/ca/bovo/index.docbook
 * /usr/share/doc/HTML/ca/bovo/mainscreen.png
@@ -92,6 +92,7 @@ A Gomoku like game for two players.
 * /usr/share/locale/fr/LC_MESSAGES/bovo.mo
 * /usr/share/locale/ga/LC_MESSAGES/bovo.mo
 * /usr/share/locale/gl/LC_MESSAGES/bovo.mo
+* /usr/share/locale/he/LC_MESSAGES/bovo.mo
 * /usr/share/locale/hi/LC_MESSAGES/bovo.mo
 * /usr/share/locale/hne/LC_MESSAGES/bovo.mo
 * /usr/share/locale/hr/LC_MESSAGES/bovo.mo

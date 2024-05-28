@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kamoso 24.02.2-3"
-version = "24.02.2-3"
+title = "kamoso 24.05.0-1"
+version = "24.05.0-1"
 description = "Kamoso is an application to take pictures and videos out of your webcam."
-date = "2024-04-17T05:59:24"
+date = "2024-05-26T20:26:15"
 aliases = "/packages/219631"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "241320"
-usize = "704611"
-sha1sum = "759d748fe66616c68da6621d6a472446ed19ab76"
-depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'kconfig5>=5.115.0', 'ki18n5>=5.115.0', 'kio5>=5.115.0', 'phonon-qt6', 'purpose5>=5.115.0', 'solid']"
+size = "273260"
+usize = "700624"
+sha1sum = "ab5c8b1c6b35385bda87eb8199414ea1bb8add44"
+depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'kconfig5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'phonon-qt6', 'purpose5>=5.116.0', 'solid']"
 +++
 ### Description: 
 Kamoso is an application to take pictures and videos out of your webcam.
@@ -68,7 +68,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 * /usr/share/doc/HTML/uk/kamoso/index.docbook
 * /usr/share/doc/HTML/zh_CN/kamoso/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kamoso/index.docbook
-* /usr/share/doc/kamoso-24.02.2/AUTHORS
+* /usr/share/doc/kamoso-24.05.0/AUTHORS
 * /usr/share/icons/hicolor/128x128/apps/kamoso.png
 * /usr/share/icons/hicolor/16x16/apps/kamoso.png
 * /usr/share/icons/hicolor/22x22/apps/kamoso.png
@@ -76,7 +76,7 @@ Kamoso is an application to take pictures and videos out of your webcam.
 * /usr/share/icons/hicolor/48x48/apps/kamoso.png
 * /usr/share/icons/hicolor/64x64/apps/kamoso.png
 * /usr/share/icons/hicolor/scalable/actions/burst.svgz
-* /usr/share/icons/hicolor/scalable/apps/kamoso.svgz
+* /usr/share/icons/hicolor/scalable/apps/kamoso.svg
 * /usr/share/knotifications5/kamoso.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kamoso.mo
 * /usr/share/locale/bg/LC_MESSAGES/kamoso.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hills 1.0-10"
-version = "1.0-10"
+title = "hills 1.0-11"
+version = "1.0-11"
 description = "Hills Theme is based on two themes: Maui and Numix"
-date = "2024-03-28T19:26:50"
+date = "2024-05-27T07:35:33"
 aliases = "/packages/218816"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://bitbucket.org/zettdaymond/sddm-hills-theme"
 arch = "x86_64"
-size = "28869968"
+size = "28869608"
 usize = "28913374"
-sha1sum = "2207cd9b44547cf7b3a2be2bcda937cf3bb02da2"
+sha1sum = "8e1d47bb14cbe83315bb1e699c8499f159867e5f"
 depends = "['glibc', 'qt5-multimedia>=5.15.10', 'sddm']"
 +++
 ### Description: 

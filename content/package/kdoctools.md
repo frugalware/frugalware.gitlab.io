@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "416664"
 usize = "2474118"
 sha1sum = "c61e66a23b49c83f1489b7719f80c84c6dff50ac"
-depends = "['docbook-xsl', 'karchive>=6.1.0', 'libxslt']"
+depends = "['docbook-xsl', 'karchive>=6.2.0', 'libxslt']"
 reverse_depends = "['kcachegrind', 'sweeper']"
 +++
 ### Description: 
@@ -32,7 +32,7 @@ Create documentation from DocBook.
 * /usr/lib/cmake/KF6DocTools/KF6DocToolsToolsTargets.cmake
 * /usr/lib/libKF6DocTools.so
 * /usr/lib/libKF6DocTools.so.6
-* /usr/lib/libKF6DocTools.so.6.1.0
+* /usr/lib/libKF6DocTools.so.6.2.0
 * /usr/share/doc/HTML/af/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/ca/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/cs/kdoctools6-common/kde-localised.css
@@ -111,8 +111,8 @@ Create documentation from DocBook.
 * /usr/share/doc/HTML/uk/kdoctools6-common/lgpl-translated.html
 * /usr/share/doc/HTML/wa/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/xh/kdoctools6-common/kde-localised.css
-* /usr/share/doc/kdoctools-6.1.0/README.md
-* /usr/share/doc/kdoctools-6.1.0/TODO
+* /usr/share/doc/kdoctools-6.2.0/README.md
+* /usr/share/doc/kdoctools-6.2.0/TODO
 * /usr/share/kf6/kdoctools/customization/af/catalog.xml
 * /usr/share/kf6/kdoctools/customization/af/entities/fdl-notice.docbook
 * /usr/share/kf6/kdoctools/customization/af/entities/gpl-notice.docbook

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "k3b 24.02.2-4"
-version = "24.02.2-4"
+title = "k3b 24.05.0-2"
+version = "24.05.0-2"
 description = "The CD Kreator"
-date = "2024-05-18T11:25:45"
+date = "2024-05-26T17:40:46"
 aliases = "/packages/218657"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11302856"
-usize = "35158050"
-sha1sum = "3e449c337a4fdf5a5e6747ecfbd335ba2f2ccbf6"
-depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kcmutils5>=5.115.0', 'kfilemetadata5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'libdvdread>=6.1.1', 'libkcddb5>=24.02.2', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.12libmad>=0.15.1b-9']"
+size = "11035348"
+usize = "34882762"
+sha1sum = "1b7708c0e7f249b8e59e871ab9f50855f98d55b6"
+depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'ffmpeg>=5.0', 'kcmutils5>=5.116.0', 'kfilemetadata5>=5.116.0', 'knewstuff5>=5.116.0', 'knotifyconfig5>=5.116.0', 'libdvdread>=6.1.1', 'libkcddb5>=24.05.0', 'libmpcdec>=1.2.6-4', 'libsamplerate>=0.1.9', 'qt5-svg>=5.15.14libmad>=0.15.1b-9']"
 +++
 ### Description: 
 The CD Kreator
@@ -232,10 +232,10 @@ The CD Kreator
 * /usr/share/doc/HTML/uk/k3b/K3bMoreActions.png
 * /usr/share/doc/HTML/uk/k3b/K3bsetup.png
 * /usr/share/doc/HTML/uk/k3b/K3bSetVerify.png
-* /usr/share/doc/k3b-24.02.2/ChangeLog
-* /usr/share/doc/k3b-24.02.2/FAQ.txt
-* /usr/share/doc/k3b-24.02.2/INSTALL.txt
-* /usr/share/doc/k3b-24.02.2/README.txt
+* /usr/share/doc/k3b-24.05.0/ChangeLog
+* /usr/share/doc/k3b-24.05.0/FAQ.txt
+* /usr/share/doc/k3b-24.05.0/INSTALL.txt
+* /usr/share/doc/k3b-24.05.0/README.txt
 * /usr/share/icons/hicolor/128x128/apps/k3b.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-k3b.png
 * /usr/share/icons/hicolor/16x16/apps/k3b.png

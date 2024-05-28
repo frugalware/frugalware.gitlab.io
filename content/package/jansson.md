@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jansson 2.14-1"
-version = "2.14-1"
+title = "jansson 2.14-2"
+version = "2.14-2"
 description = "C library for encoding, decoding and manipulating JSON data"
-date = "2021-10-06T11:13:45"
+date = "2024-05-28T09:29:36"
 aliases = "/packages/152481"
 categories = ['base']
 upstreamurl = "http://www.digip.org/jansson"
 arch = "x86_64"
-size = "38692"
-usize = "114027"
-sha1sum = "0ab6fafa5c28f6ce1ad0c26ac39268dba52d8d79"
+size = "37196"
+usize = "104886"
+sha1sum = "4c23b330fdf278b506f7ef12026ba553fbd3bad5"
 depends = "['glibc>=2.34']"
 reverse_depends = "['apache', 'ddcutil', 'gnunet', 'handbrake', 'libguestfs', 'libsearpc', 'libsmbclient', 'networkmanager', 'obs-studio', 'rng-tools', 'seafile-client', 'uwsgi']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcachegrind 24.02.2-3"
-version = "24.02.2-3"
+title = "kcachegrind 24.05.0-1"
+version = "24.05.0-1"
 description = "Visualization of Performance Profiling Data."
-date = "2024-04-17T00:32:08"
+date = "2024-05-24T15:40:04"
 aliases = "/packages/218525"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1047628"
-usize = "4557816"
-sha1sum = "944ed3cd0e04f228a4c24afce367be45d2955bd0"
-depends = "['karchive>=6.1.0', 'kconfig>=6.1.0', 'kcoreaddons>=6.1.0', 'kdoctools>=6.1.0', 'ki18n>=6.1.0', 'kio>=6.1.0', 'kwidgetsaddons>=6.1.0', 'kxmlgui>=6.1.0']"
+size = "1049068"
+usize = "4563493"
+sha1sum = "1b0af6f3905cd74f8d8837b18ae89fe05badfb3d"
+depends = "['karchive>=6.2.0', 'kconfig>=6.2.0', 'kcoreaddons>=6.2.0', 'kdoctools>=6.2.0', 'ki18n>=6.2.0', 'kio>=6.2.0', 'kwidgetsaddons>=6.2.0', 'kxmlgui>=6.2.0']"
 +++
 ### Description: 
 Visualization of Performance Profiling Data.
@@ -52,12 +52,12 @@ Visualization of Performance Profiling Data.
 * /usr/share/doc/HTML/sv/kcachegrind/index.docbook
 * /usr/share/doc/HTML/uk/kcachegrind/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcachegrind/index.docbook
-* /usr/share/doc/kcachegrind-24.02.2/AUTHORS
-* /usr/share/doc/kcachegrind-24.02.2/ChangeLog
-* /usr/share/doc/kcachegrind-24.02.2/INSTALL
-* /usr/share/doc/kcachegrind-24.02.2/README
-* /usr/share/doc/kcachegrind-24.02.2/README_DEVELOPER
-* /usr/share/doc/kcachegrind-24.02.2/TODO
+* /usr/share/doc/kcachegrind-24.05.0/AUTHORS
+* /usr/share/doc/kcachegrind-24.05.0/ChangeLog
+* /usr/share/doc/kcachegrind-24.05.0/INSTALL
+* /usr/share/doc/kcachegrind-24.05.0/README
+* /usr/share/doc/kcachegrind-24.05.0/README_DEVELOPER
+* /usr/share/doc/kcachegrind-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kcachegrind.png
 * /usr/share/icons/hicolor/32x32/apps/kcachegrind.png
 * /usr/share/icons/hicolor/48x48/apps/kcachegrind.png

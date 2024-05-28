@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "database-browser-sqlite 3.12.2-4"
-version = "3.12.2-4"
+title = "database-browser-sqlite 3.12.2-5"
+version = "3.12.2-5"
 description = "A light GUI editor for SQLite databases, built on top of Qt"
-date = "2024-03-28T15:27:59"
+date = "2024-05-27T04:25:56"
 aliases = "/packages/201204"
 categories = ['xapps-extra']
 upstreamurl = "http://sqlitebrowser.org"
 arch = "x86_64"
-size = "2182644"
-usize = "5646978"
-sha1sum = "f9204d349e0100200644f18d18460d0be238165b"
+size = "2197972"
+usize = "5700226"
+sha1sum = "59c0be17d132a0a7c1246019b7ffa5061702e1a1"
 depends = "['qscintilla2-qt5>=2.11.1', 'qt5-base>=5.15.10']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "46833640"
 usize = "194536152"
 sha1sum = "4b79c88cd56a3d31f04222e9c500579011eb9bcf"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zlib>=1.2.11-11', 'zstd']"
-reverse_depends = "['cuda', 'gcc-g++', 'gcc-gfortran', 'gcc-objc', 'kernel-lts-source', 'libb64']"
+reverse_depends = "['gcc-g++', 'gcc-gfortran', 'gcc-objc', 'kernel-lts-source', 'libb64']"
 +++
 ### Description: 
 The GNU Compiler Collection

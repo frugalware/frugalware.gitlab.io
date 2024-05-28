@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "625368"
 usize = "1377596"
 sha1sum = "281ea91d753e941e3290112d46066f68ded4e435"
-depends = "['kcmutils>=6.1.0', 'kio>=6.1.0', 'kstatusnotifieritem>=6.1.0']"
+depends = "['kcmutils>=6.2.0', 'kio>=6.2.0', 'kstatusnotifieritem>=6.2.0']"
 +++
 ### Description: 
 KDiskFree displays the available file devices
@@ -20,7 +20,7 @@ KDiskFree displays the available file devices
 * /usr/bin/kdf
 * /usr/bin/kwikdisk
 * /usr/lib/libkdfprivate.so.24
-* /usr/lib/libkdfprivate.so.24.02.2
+* /usr/lib/libkdfprivate.so.24.05.0
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdf.so
 * /usr/share/applications/kcm_kdf.desktop
 * /usr/share/applications/org.kde.kdf.desktop

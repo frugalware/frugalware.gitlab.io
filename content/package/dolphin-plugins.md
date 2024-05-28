@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin-plugins 24.02.2-3"
-version = "24.02.2-3"
+title = "dolphin-plugins 24.05.0-1"
+version = "24.05.0-1"
 description = "Extra Dolphin plugins."
-date = "2024-04-17T01:08:56"
+date = "2024-05-25T11:53:52"
 aliases = "/packages/218508"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "422340"
-usize = "2727268"
-sha1sum = "8265395083351835177afdabbe7a213c1c653a88"
-depends = "['dolphin>=24.02.2', 'ktexteditor>=6.1.0']"
+size = "436088"
+usize = "2798162"
+sha1sum = "5a58fc6800fa7ad1bc649cddfed204e648bedb25"
+depends = "['dolphin>=24.05.0', 'ktexteditor>=6.2.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.
@@ -28,6 +28,12 @@ Extra Dolphin plugins.
 * /usr/share/config.kcfg/fileviewhgpluginsettings.kcfg
 * /usr/share/config.kcfg/fileviewsvnpluginsettings.kcfg
 * /usr/share/locale/ar/LC_MESSAGES/mountisoaction.mo
+* /usr/share/locale/ast/LC_MESSAGES/fileviewbazaarplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/fileviewgitplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/fileviewhgplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/makefileactions.mo
+* /usr/share/locale/ast/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/az/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/az/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/az/LC_MESSAGES/fileviewhgplugin.mo
@@ -123,6 +129,9 @@ Extra Dolphin plugins.
 * /usr/share/locale/gl/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/fileviewsvnplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/mountisoaction.mo
+* /usr/share/locale/he/LC_MESSAGES/fileviewbazaarplugin.mo
+* /usr/share/locale/he/LC_MESSAGES/makefileactions.mo
+* /usr/share/locale/he/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/hu/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/hu/LC_MESSAGES/fileviewhgplugin.mo
@@ -174,6 +183,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/lt/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/lt/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/lt/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/lt/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/lt/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/mr/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/mr/LC_MESSAGES/fileviewgitplugin.mo

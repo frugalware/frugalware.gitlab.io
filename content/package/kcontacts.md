@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcontacts 6.1.0-1"
-version = "6.1.0-1"
+title = "kcontacts 6.2.0-2"
+version = "6.2.0-2"
 description = "Address book API for KDE"
-date = "2024-04-12T20:23:39"
+date = "2024-05-21T17:56:56"
 aliases = "/packages/220115"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "270112"
-usize = "1233952"
-sha1sum = "c3d13c56d01fb17664583b33b5e5d7b8f55ad1d7"
-depends = "['kcodecs>=6.1.0', 'kconfig>=6.1.0', 'kcoreaddons>=6.1.0', 'ki18n>=6.1.0']"
+size = "271040"
+usize = "1248269"
+sha1sum = "9b7e3bcbd09bb8a0e3f3f97d8dca2c24b5b5b062"
+depends = "['kcodecs>=6.2.0', 'kconfig>=6.2.0', 'kcoreaddons>=6.2.0', 'ki18n>=6.2.0']"
 reverse_depends = "['akonadi-contacts', 'itinerary', 'kitinerary', 'kpeople', 'kpeoplevcard', 'ktnef', 'libkgapi']"
 +++
 ### Description: 
@@ -88,8 +88,8 @@ Address book API for KDE
 * /usr/lib/cmake/KF6Contacts/KF6ContactsTargets.cmake
 * /usr/lib/libKF6Contacts.so
 * /usr/lib/libKF6Contacts.so.6
-* /usr/lib/libKF6Contacts.so.6.1.0
-* /usr/share/doc/kcontacts-6.1.0/README.md
+* /usr/lib/libKF6Contacts.so.6.2.0
+* /usr/share/doc/kcontacts-6.2.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/az/LC_MESSAGES/kcontacts6.mo
@@ -111,6 +111,7 @@ Address book API for KDE
 * /usr/share/locale/fr/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcontacts6.mo
+* /usr/share/locale/he/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcontacts6.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chromium-browser 125.0.6422.112-1"
-version = "125.0.6422.112-1"
+title = "chromium-browser 125.0.6422.112-3"
+version = "125.0.6422.112-3"
 description = "Chromium browser"
-date = "2024-05-25T22:42:37"
+date = "2024-05-27T12:42:54"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "105280908"
+size = "105246568"
 usize = "417117291"
-sha1sum = "6259b7d815a1c68003ae8ca0399dc574dd35110d"
+sha1sum = "ebd02a9ebbf643644bfa400e467ed047175eb081"
 depends = "['curl', 'dav1d', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=75.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++

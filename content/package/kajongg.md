@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kajongg 24.02.2-3"
-version = "24.02.2-3"
+title = "kajongg 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE Mahjongg game."
-date = "2024-04-17T01:27:36"
+date = "2024-05-25T12:43:32"
 aliases = "/packages/219325"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5139216"
-usize = "10665327"
-sha1sum = "055b995553d790db100bb237f59a536ee139a34b"
-depends = "['libkmahjongg>=24.02.2', 'python3-twisted']"
+size = "5209580"
+usize = "10912028"
+sha1sum = "c272d081eb6b8418fae0767e8fb90a12295add8b"
+depends = "['libkmahjongg>=24.05.0', 'python3-twisted']"
 +++
 ### Description: 
 KDE Mahjongg game.
@@ -66,11 +66,11 @@ KDE Mahjongg game.
 * /usr/share/doc/HTML/uk/kajongg/index.docbook
 * /usr/share/doc/HTML/uk/kajongg/ruleseteditor.png
 * /usr/share/doc/HTML/uk/kajongg/scoretable.png
-* /usr/share/doc/kajongg-24.02.2/COPYING.DOC
-* /usr/share/doc/kajongg-24.02.2/LICENSE
-* /usr/share/doc/kajongg-24.02.2/README
-* /usr/share/doc/kajongg-24.02.2/README.packagers
-* /usr/share/doc/kajongg-24.02.2/README.windows
+* /usr/share/doc/kajongg-24.05.0/COPYING.DOC
+* /usr/share/doc/kajongg-24.05.0/LICENSE
+* /usr/share/doc/kajongg-24.05.0/README
+* /usr/share/doc/kajongg-24.05.0/README.packagers
+* /usr/share/doc/kajongg-24.05.0/README.windows
 * /usr/share/icons/hicolor/128x128/apps/kajongg.png
 * /usr/share/icons/hicolor/16x16/apps/kajongg.png
 * /usr/share/icons/hicolor/22x22/apps/kajongg.png
@@ -112,7 +112,6 @@ KDE Mahjongg game.
 * /usr/share/kajongg/log.py
 * /usr/share/kajongg/login.py
 * /usr/share/kajongg/mainwindow.py
-* /usr/share/kajongg/meld.py
 * /usr/share/kajongg/message.py
 * /usr/share/kajongg/mi18n.py
 * /usr/share/kajongg/mjresource.py
@@ -532,7 +531,6 @@ KDE Mahjongg game.
 * /usr/share/kajongg/__pycache__/log.cpython-312.pyc
 * /usr/share/kajongg/__pycache__/login.cpython-312.pyc
 * /usr/share/kajongg/__pycache__/mainwindow.cpython-312.pyc
-* /usr/share/kajongg/__pycache__/meld.cpython-312.pyc
 * /usr/share/kajongg/__pycache__/message.cpython-312.pyc
 * /usr/share/kajongg/__pycache__/mi18n.cpython-312.pyc
 * /usr/share/kajongg/__pycache__/mjresource.cpython-312.pyc

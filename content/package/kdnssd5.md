@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "66368"
 usize = "248431"
 sha1sum = "1fe9385f86f1c181fd3483fa23091c15592121e5"
-depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.12']"
+depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.14']"
 reverse_depends = "['kio-extras-kf5', 'krdc', 'smb4k']"
 +++
 ### Description: 
@@ -58,8 +58,8 @@ Zeroconf Support for KDE.
 * /usr/lib/cmake/KF5DNSSD/KF5DNSSDTargets.cmake
 * /usr/lib/libKF5DNSSD.so
 * /usr/lib/libKF5DNSSD.so.5
-* /usr/lib/libKF5DNSSD.so.5.115.0
-* /usr/share/doc/kdnssd5-5.115.0/README.md
+* /usr/lib/libKF5DNSSD.so.5.116.0
+* /usr/share/doc/kdnssd5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdnssd5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kdnssd5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kdnssd5_qt.qm

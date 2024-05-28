@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.02.2-4"
-version = "24.02.2-4"
+title = "kdeconnect-kde 24.05.0-1"
+version = "24.05.0-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2024-05-13T20:51:22"
+date = "2024-05-25T11:56:35"
 aliases = "/packages/220147"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5481008"
-usize = "14371396"
-sha1sum = "dcb3ab397c4203d25a702440b406843a5d79cd40"
-depends = "['kcmutils>=6.1.0', 'kio>=6.1.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'kwayland>=6.0.4', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.1.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.1.0', 'qt6-multimedia>=6.7.0', 'qt6-sensors>=6.7.0']"
+size = "5493848"
+usize = "14452644"
+sha1sum = "ea279341ec0894097b054579fbcadb86151848a9"
+depends = "['kcmutils>=6.2.0', 'kio>=6.2.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kwayland>=6.0.5', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.2.0', 'pulseaudio-qt>=1.3', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.2.0', 'qt6-multimedia>=6.7.1', 'qt6-sensors>=6.7.1']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone
@@ -24,12 +24,12 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-indicator
 * /usr/bin/kdeconnect-settings
 * /usr/bin/kdeconnect-sms
-* /usr/lib/kdeconnect-kde/kdeconnectd
+* /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.02.2
+* /usr/lib/libkdeconnectcore.so.24.05.0
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.02.2
+* /usr/lib/libkdeconnectpluginkcm.so.24.05.0
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -113,7 +113,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.02.2/README.md
+* /usr/share/doc/kdeconnect-kde-24.05.0/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
@@ -175,6 +175,21 @@ Adds communication between KDE and your smartphone
 * /usr/share/locale/ar/LC_MESSAGES/kdeconnect-sms.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdeconnect-urlhandler.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-app.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-cli.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-core.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-indicator.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-interfaces.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kcm.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kded.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kio.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-plugins.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-settings.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-sms.mo
+* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-urlhandler.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
 * /usr/share/locale/az/LC_MESSAGES/kdeconnect-app.mo
 * /usr/share/locale/az/LC_MESSAGES/kdeconnect-cli.mo
 * /usr/share/locale/az/LC_MESSAGES/kdeconnect-core.mo
@@ -582,6 +597,21 @@ Adds communication between KDE and your smartphone
 * /usr/share/locale/lt/LC_MESSAGES/kdeconnect-sms.mo
 * /usr/share/locale/lt/LC_MESSAGES/kdeconnect-urlhandler.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-app.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-cli.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-core.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-indicator.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-interfaces.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kcm.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kded.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kio.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-plugins.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-settings.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-sms.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-urlhandler.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
 * /usr/share/locale/ml/LC_MESSAGES/kdeconnect-app.mo
 * /usr/share/locale/ml/LC_MESSAGES/kdeconnect-cli.mo
 * /usr/share/locale/ml/LC_MESSAGES/kdeconnect-core.mo
@@ -627,6 +657,21 @@ Adds communication between KDE and your smartphone
 * /usr/share/locale/nn/LC_MESSAGES/kdeconnect-sms.mo
 * /usr/share/locale/nn/LC_MESSAGES/kdeconnect-urlhandler.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-app.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-cli.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-core.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-indicator.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-interfaces.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kcm.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kded.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kio.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-plugins.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-settings.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-sms.mo
+* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-urlhandler.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
 * /usr/share/locale/pl/LC_MESSAGES/kdeconnect-app.mo
 * /usr/share/locale/pl/LC_MESSAGES/kdeconnect-cli.mo
 * /usr/share/locale/pl/LC_MESSAGES/kdeconnect-core.mo
@@ -786,11 +831,14 @@ Adds communication between KDE and your smartphone
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-indicator.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-interfaces.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kcm.mo
+* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kded.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kio.mo
+* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-nautilus-extension.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-plugins.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-settings.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-sms.mo
 * /usr/share/locale/ta/LC_MESSAGES/kdeconnect-urlhandler.mo
+* /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
 * /usr/share/locale/tg/LC_MESSAGES/kdeconnect-fileitemaction.mo
 * /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kcm.mo
 * /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kded.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda-static 12.4.1-2"
-version = "12.4.1-2"
+title = "cuda-static 12.3.2-4"
+version = "12.3.2-4"
 description = "NVIDIA GPU programming toolkit static files"
-date = "2024-05-14T17:06:18"
+date = "2024-05-27T21:58:56"
 aliases = "/packages/221201"
 categories = ['devel-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "937186328"
-usize = "2603944790"
-sha1sum = "2283b61707b00846c3b638cc3a0a09b6752fc4c6"
+size = "722521156"
+usize = "2381211486"
+sha1sum = "61e9d51fb36325e5a1888b4547c30f2b24224c46"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -45,7 +45,6 @@ NVIDIA GPU programming toolkit static files
 * /opt/cuda/targets/x86_64-linux/lib/libnppisu_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnppitc_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnpps_static.a
-* /opt/cuda/targets/x86_64-linux/lib/libnvfatbin_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnvJitLink_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnvjpeg_static.a
 * /opt/cuda/targets/x86_64-linux/lib/libnvptxcompiler_static.a

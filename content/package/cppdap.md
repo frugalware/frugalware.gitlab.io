@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cppdap 1.58.0-1"
-version = "1.58.0-1"
+title = "cppdap 1.58.0-2"
+version = "1.58.0-2"
 description = "C++ library for the Debug Adapter Protocol"
-date = "2024-02-16T14:05:16"
+date = "2024-05-28T09:28:01"
 aliases = "/packages/221234"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/cppdap"
 arch = "x86_64"
-size = "299608"
-usize = "1656810"
-sha1sum = "8ddec296264daf87e8b480d606d5802855b9ae19"
+size = "304068"
+usize = "1673412"
+sha1sum = "510581252c604eb80a2f42318ecdf4e4bdaf303b"
 depends = "['libstdc++']"
 reverse_depends = "['cmake']"
 +++

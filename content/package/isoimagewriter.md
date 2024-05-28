@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "isoimagewriter 24.02.2-3"
-version = "24.02.2-3"
+title = "isoimagewriter 24.05.0-1"
+version = "24.05.0-1"
 description = "Program to write hybrid ISO files onto USB disks"
-date = "2024-04-17T05:46:26"
+date = "2024-05-25T17:30:06"
 aliases = "/packages/221411"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "125456"
-usize = "543687"
-sha1sum = "2c6ce5a3f242fcf36b1b4d6d088de281a091c8ff"
-depends = "['karchive>=', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kiconthemes>=', 'kwidgetsaddons>=', 'solid>=']"
+size = "138932"
+usize = "594882"
+sha1sum = "92bdc63c2243043d8eed4c9772746fef64cc3ad5"
+depends = "['karchive>=', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kiconthemes>=', 'kwidgetsaddons>=', 'libqgpgme', 'solid>=']"
 +++
 ### Description: 
 Program to write hybrid ISO files onto USB disks
@@ -19,12 +19,14 @@ Program to write hybrid ISO files onto USB disks
 ### Files: 
 * /usr/bin/isoimagewriter
 * /usr/share/applications/org.kde.isoimagewriter.desktop
-* /usr/share/doc/isoimagewriter-24.02.2/README.md
+* /usr/share/doc/isoimagewriter-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.isoimagewriter.svg
 * /usr/share/isoimagewriter/arch-signing-key.gpg
 * /usr/share/isoimagewriter/neon-signing-key.gpg
 * /usr/share/isoimagewriter/ubuntu-signing-key.gpg
 * /usr/share/locale/ar/LC_MESSAGES/isoimagewriter.mo
+* /usr/share/locale/ast/LC_MESSAGES/isoimagewriter.mo
+* /usr/share/locale/bg/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/ca/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/cs/LC_MESSAGES/isoimagewriter.mo
@@ -39,6 +41,7 @@ Program to write hybrid ISO files onto USB disks
 * /usr/share/locale/fi/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/fr/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/gl/LC_MESSAGES/isoimagewriter.mo
+* /usr/share/locale/he/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/hu/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/ia/LC_MESSAGES/isoimagewriter.mo
 * /usr/share/locale/id/LC_MESSAGES/isoimagewriter.mo

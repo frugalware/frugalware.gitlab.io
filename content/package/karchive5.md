@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "karchive5 5.115.0-2"
-version = "5.115.0-2"
+title = "karchive5 5.116.0-2"
+version = "5.116.0-2"
 description = "Qt 5 addon providing access to numerous types of archives."
-date = "2024-03-15T10:55:59"
+date = "2024-05-26T16:14:09"
 aliases = "/packages/221287"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "133376"
-usize = "618773"
-sha1sum = "adbff775c268cd2b1b6fcbe0137088c5ab00c59e"
-depends = "['qt5-base>=5.15.12']"
+size = "136432"
+usize = "637921"
+sha1sum = "24cc6e2be3e57ace96d04c5a830ca36ed83bb9d8"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['kdoctools5', 'kemoticons5', 'kfilemetadata5', 'kiconthemes5', 'kimageformats5', 'kio5', 'kpackage5']"
 +++
 ### Description: 
@@ -52,10 +52,10 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/lib/cmake/KF5Archive/KF5ArchiveTargets.cmake
 * /usr/lib/libKF5Archive.so
 * /usr/lib/libKF5Archive.so.5
-* /usr/lib/libKF5Archive.so.5.115.0
-* /usr/share/doc/karchive5-5.115.0/AUTHORS
-* /usr/share/doc/karchive5-5.115.0/INSTALL
-* /usr/share/doc/karchive5-5.115.0/README.md
+* /usr/lib/libKF5Archive.so.5.116.0
+* /usr/share/doc/karchive5-5.116.0/AUTHORS
+* /usr/share/doc/karchive5-5.116.0/INSTALL
+* /usr/share/doc/karchive5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/ca@valencia/LC_MESSAGES/karchive5_qt.qm
@@ -79,6 +79,7 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/share/locale/nn/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/pl/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/pt/LC_MESSAGES/karchive5_qt.qm
+* /usr/share/locale/ro/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/karchive5_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/karchive5_qt.qm

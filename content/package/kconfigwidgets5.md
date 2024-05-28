@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kconfigwidgets5 5.115.0-2"
-version = "5.115.0-2"
+title = "kconfigwidgets5 5.116.0-2"
+version = "5.116.0-2"
 description = "Widgets for KConfig."
-date = "2024-03-14T22:02:35"
+date = "2024-05-26T16:46:33"
 aliases = "/packages/221296"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "364568"
-usize = "1621649"
-sha1sum = "6a3c0a282e139bcd1279c64465adc43ff67f806d"
-depends = "['kauth5>=5.115.0', 'kcodecs5>=5.115.0', 'kconfig5>=5.115.0', 'qt5-x11extras>=5.15.12']"
+size = "365092"
+usize = "1624264"
+sha1sum = "5c00372834ee8e578436473539bccb5836314308"
+depends = "['kauth5>=5.116.0', 'kcodecs5>=5.116.0', 'kconfig5>=5.116.0', 'kguiaddons5>=5.116.0', 'ki18n5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-x11extras>=5.15.14']"
 reverse_depends = "['kiconthemes5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
@@ -68,9 +68,9 @@ Widgets for KConfig.
 * /usr/lib/cmake/KF5ConfigWidgets/KF5ConfigWidgetsTargets.cmake
 * /usr/lib/libKF5ConfigWidgets.so
 * /usr/lib/libKF5ConfigWidgets.so.5
-* /usr/lib/libKF5ConfigWidgets.so.5.115.0
+* /usr/lib/libKF5ConfigWidgets.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kconfigwidgets5widgets.so
-* /usr/share/doc/kconfigwidgets5-5.115.0/README.md
+* /usr/share/doc/kconfigwidgets5-5.116.0/README.md
 * /usr/share/locale/af/kf5_entry.desktop
 * /usr/share/locale/af/LC_MESSAGES/kconfigwidgets5.mo
 * /usr/share/locale/ar/kf5_entry.desktop

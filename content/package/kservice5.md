@@ -12,7 +12,7 @@ size = "310100"
 usize = "1079044"
 sha1sum = "20db94613e1224ff93084539080333bfc8bc9d40"
 depends = "['kconfig5>=5.115.0', 'kcrash5>=5.115.0', 'kdbusaddons5>=5.115.0', 'ki18n5>=5.115.0']"
-reverse_depends = "['ktextwidgets5']"
+reverse_depends = "['kdesu5', 'kemoticons5', 'ktextwidgets5']"
 +++
 ### Description: 
 Plugin framework for desktop services.
