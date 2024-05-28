@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libedit 20230828_3.1-3"
-version = "20230828_3.1-3"
+title = "libedit 20240517_3.1-1"
+version = "20240517_3.1-1"
 description = "Editline Library"
-date = "2024-05-16T01:55:23"
+date = "2024-05-28T09:22:46"
 aliases = "/packages/49798"
 categories = ['lib']
 upstreamurl = "http://www.thrysoee.dk/editline/"
 arch = "x86_64"
-size = "107792"
-usize = "290032"
-sha1sum = "ab08a8a8ed2d01df0b15ebee8196454f41434a9e"
+size = "107720"
+usize = "290097"
+sha1sum = "2682cae6ee94d7d53a1abaff7d9001466a712d94"
 depends = "['ncurses>=6.5']"
 reverse_depends = "['firebird', 'ghc', 'llvm-libs', 'llvm15-libs', 'nftables', 'ntp', 'openssh']"
 +++
@@ -22,12 +22,12 @@ Editline Library
 * /usr/include/histedit.h
 * /usr/lib/libedit.so
 * /usr/lib/libedit.so.0
-* /usr/lib/libedit.so.0.0.72
+* /usr/lib/libedit.so.0.0.73
 * /usr/lib/pkgconfig/libedit.pc
-* /usr/share/doc/libedit-20230828_3.1/ChangeLog
-* /usr/share/doc/libedit-20230828_3.1/COPYING
-* /usr/share/doc/libedit-20230828_3.1/INSTALL
-* /usr/share/doc/libedit-20230828_3.1/THANKS
+* /usr/share/doc/libedit-20240517_3.1/ChangeLog
+* /usr/share/doc/libedit-20240517_3.1/COPYING
+* /usr/share/doc/libedit-20240517_3.1/INSTALL
+* /usr/share/doc/libedit-20240517_3.1/THANKS
 * /usr/share/man/man3/editline.3.gz
 * /usr/share/man/man3/el_deletestr.3.gz
 * /usr/share/man/man3/el_end.3.gz

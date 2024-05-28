@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "assimp 5.4.0-1"
-version = "5.4.0-1"
+title = "assimp 5.4.1-1"
+version = "5.4.1-1"
 description = "Library to import various well-known 3D model formats in an uniform manner"
-date = "2024-05-02T12:16:55"
+date = "2024-05-28T09:52:42"
 aliases = "/packages/220780"
 categories = ['lib']
 upstreamurl = "https://github.com/assimp/assimp"
 arch = "x86_64"
-size = "2251640"
-usize = "8566424"
-sha1sum = "bee8483df4755e33f5db609ab5585c19ffad9fa9"
+size = "2269616"
+usize = "8595096"
+sha1sum = "bfa134bf153c25ab1d4bdcc58baa429aee1ddab0"
 depends = "['libstdc++', 'zlib']"
 reverse_depends = "['alicevision', 'qt5-3d', 'qt6-3d', 'qt6-quick3d']"
 +++
@@ -114,10 +114,10 @@ Library to import various well-known 3D model formats in an uniform manner
 * /usr/lib/cmake/assimp-5.4/assimpTargets.cmake
 * /usr/lib/libassimp.so
 * /usr/lib/libassimp.so.5
-* /usr/lib/libassimp.so.5.4.0
+* /usr/lib/libassimp.so.5.4.1
 * /usr/lib/pkgconfig/assimp.pc
-* /usr/share/doc/assimp-5.4.0/CHANGES
-* /usr/share/doc/assimp-5.4.0/CREDITS
-* /usr/share/doc/assimp-5.4.0/INSTALL
-* /usr/share/doc/assimp-5.4.0/LICENSE
-* /usr/share/doc/assimp-5.4.0/Readme.md
+* /usr/share/doc/assimp-5.4.1/CHANGES
+* /usr/share/doc/assimp-5.4.1/CREDITS
+* /usr/share/doc/assimp-5.4.1/INSTALL
+* /usr/share/doc/assimp-5.4.1/LICENSE
+* /usr/share/doc/assimp-5.4.1/Readme.md

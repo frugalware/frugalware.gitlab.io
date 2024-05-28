@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libopenmpt 0.7.6-2"
-version = "0.7.6-2"
+title = "libopenmpt 0.7.7-1"
+version = "0.7.7-1"
 description = "A library to render tracker music to a PCM audio stream"
-date = "2024-05-16T02:20:09"
+date = "2024-05-28T09:26:14"
 aliases = "/packages/221244"
 categories = ['lib']
 upstreamurl = "https://lib.openmpt.org/libopenmpt"
 arch = "x86_64"
-size = "767488"
-usize = "2299845"
-sha1sum = "db1d79bfdc4a3ddde929d2aad1a6f3a741b516e7"
+size = "696956"
+usize = "2271828"
+sha1sum = "c2479520a9cd2a71e00c036db6dd25e5dc17a8da"
 depends = "['libmpg123', 'libpulse', 'portaudio']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-openmpt', 'jazz2']"
 +++
@@ -36,12 +36,13 @@ A library to render tracker music to a PCM audio stream
 * /usr/lib/libopenmpt.so.0
 * /usr/lib/libopenmpt.so.0.4.4
 * /usr/lib/pkgconfig/libopenmpt.pc
-* /usr/share/doc/libopenmpt-0.7.6/examples/libopenmpt_example_c.c
-* /usr/share/doc/libopenmpt-0.7.6/examples/libopenmpt_example_cxx.cpp
-* /usr/share/doc/libopenmpt-0.7.6/examples/libopenmpt_example_c_mem.c
-* /usr/share/doc/libopenmpt-0.7.6/examples/libopenmpt_example_c_probe.c
-* /usr/share/doc/libopenmpt-0.7.6/examples/libopenmpt_example_c_stdout.c
-* /usr/share/doc/libopenmpt-0.7.6/examples/libopenmpt_example_c_unsafe.c
-* /usr/share/doc/libopenmpt-0.7.6/LICENSE
-* /usr/share/doc/libopenmpt-0.7.6/README.md
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_c.c
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_cxx.cpp
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_c_mem.c
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_c_pipe.c
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_c_probe.c
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_c_stdout.c
+* /usr/share/doc/libopenmpt-0.7.7/examples/libopenmpt_example_c_unsafe.c
+* /usr/share/doc/libopenmpt-0.7.7/LICENSE
+* /usr/share/doc/libopenmpt-0.7.7/README.md
 * /usr/share/man/man1/openmpt123.1.gz

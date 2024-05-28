@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tpm2-tss 4.1.0-1"
-version = "4.1.0-1"
+title = "tpm2-tss 4.1.3-1"
+version = "4.1.3-1"
 description = "Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)"
-date = "2024-05-02T11:51:01"
+date = "2024-05-28T09:48:00"
 aliases = "/packages/219962"
 categories = ['lib']
 upstreamurl = "https://github.com/tpm2-software/tpm2-tss"
 arch = "x86_64"
-size = "756052"
-usize = "3164078"
-sha1sum = "f3bc5b21a46a22be734410ea75ea15b453558b94"
+size = "764548"
+usize = "3184543"
+sha1sum = "03ed9edbb6878495f204f8f84f3c8680f3cd89ef"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
@@ -109,12 +109,12 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /usr/lib/pkgconfig/tss2-tcti-swtpm.pc
 * /usr/lib/pkgconfig/tss2-tctildr.pc
 * /usr/lib/udev/rules.d/tpm-udev.rules
-* /usr/share/doc/tpm2-tss-4.1.0/AUTHORS
-* /usr/share/doc/tpm2-tss-4.1.0/INSTALL.md
-* /usr/share/doc/tpm2-tss-4.1.0/LICENSE
-* /usr/share/doc/tpm2-tss-4.1.0/README.md
-* /usr/share/doc/tpm2-tss-4.1.0/RELEASE.md
-* /usr/share/doc/tpm2-tss-4.1.0/VERSION
+* /usr/share/doc/tpm2-tss-4.1.3/AUTHORS
+* /usr/share/doc/tpm2-tss-4.1.3/INSTALL.md
+* /usr/share/doc/tpm2-tss-4.1.3/LICENSE
+* /usr/share/doc/tpm2-tss-4.1.3/README.md
+* /usr/share/doc/tpm2-tss-4.1.3/RELEASE.md
+* /usr/share/doc/tpm2-tss-4.1.3/VERSION
 * /usr/share/man/man3/Esys_ActivateCredential.3.gz
 * /usr/share/man/man3/Esys_Certify.3.gz
 * /usr/share/man/man3/Esys_CertifyCreation.3.gz
