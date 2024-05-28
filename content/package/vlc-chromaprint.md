@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-chromaprint 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc-chromaprint 3.0.20-13"
+version = "3.0.20-13"
 description = "vlc plugin for chromaprint"
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/219501"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "16372"
+size = "16448"
 usize = "14104"
-sha1sum = "03c1461ffc127bb9ff80160f4fa47f9be464d221"
+sha1sum = "f0e8c83e2ab5d4829eafe7ce15cd8b352b1140fe"
 depends = "['chromaprint', 'libvlc>=3.0.20']"
 +++
 ### Description: 

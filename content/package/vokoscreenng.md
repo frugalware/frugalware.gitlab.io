@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vokoscreenng 3.6.0-3"
-version = "3.6.0-3"
+title = "vokoscreenng 3.6.0-4"
+version = "3.6.0-4"
 description = "Screencasting tool for Linux"
-date = "2024-03-28T17:11:23"
+date = "2024-05-27T05:58:35"
 aliases = "/packages/220166"
 categories = ['xapps-extra']
 upstreamurl = "https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html"
 arch = "x86_64"
-size = "2021512"
-usize = "3592032"
-sha1sum = "c21afbf4650761a2a8e816eccbf3d8da3775efb2"
+size = "2022580"
+usize = "3596128"
+sha1sum = "e8b0fea166b5197ae2496bd101f9d8e3a8c99e60"
 depends = "['gstreamer1', 'qt5-multimedia>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
 ### Description: 

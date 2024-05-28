@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-sftp 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc-sftp 3.0.20-13"
+version = "3.0.20-13"
 description = "vlc plugin for libssh2"
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/218053"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18996"
+size = "19076"
 usize = "22296"
-sha1sum = "962797af301dc6ea529fc7dbe9a889235145014b"
+sha1sum = "0c7d675991471e322a14230cdbcd611b333ceee9"
 depends = "['libssh2', 'libvlc>=3.0.20']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-vnc 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc-vnc 3.0.20-13"
+version = "3.0.20-13"
 description = "vlc plugin for vnc"
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/218054"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18372"
+size = "18460"
 usize = "18200"
-sha1sum = "3973e0a6a152c19b68992e78e6f254cb486f4409"
+sha1sum = "df5c22fbd8cd675b39fa99c3433818a0ec6076b8"
 depends = "['libvlc>=3.0.20', 'libvncserver>=0.9.11']"
 +++
 ### Description: 

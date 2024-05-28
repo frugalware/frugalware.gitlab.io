@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-qt5 9.3.0-8"
-version = "9.3.0-8"
+title = "vtk-qt5 9.3.0-9"
+version = "9.3.0-9"
 description = "Qt5 interface and bindings for vtk"
-date = "2024-05-22T09:00:18"
+date = "2024-05-27T14:42:22"
 aliases = "/packages/219062"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "201224"
+size = "202172"
 usize = "849602"
-sha1sum = "5456b04e474a3efecffdfc043b7ade1174c08830"
+sha1sum = "0f085876586e02fa32580040e023a999cc41d9b6"
 depends = "['qt5-base>=5.15.10', 'qt5-quickcontrols>=5.15.10', 'qt5-x11extras>=5.15.10', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-java-qt5', 'vtk-python3-qt5']"
 +++

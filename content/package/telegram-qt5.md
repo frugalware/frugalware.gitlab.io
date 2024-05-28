@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telegram-qt5 0.1.0-19"
-version = "0.1.0-19"
+title = "telegram-qt5 0.1.0-20"
+version = "0.1.0-20"
 description = "Telegram Qt5 bindings"
-date = "2024-03-28T19:21:59"
+date = "2024-05-27T07:31:01"
 aliases = "/packages/218417"
 categories = ['xlib']
 upstreamurl = "https://github.com/Kaffeine/telegram-qt"
 arch = "x86_64"
-size = "210348"
-usize = "717373"
-sha1sum = "ef5e9075255876ce9e6d3929bafb3180c0516376"
+size = "214160"
+usize = "733757"
+sha1sum = "ead7fdb585443eb0dc20c1f1f029dfa91db36848"
 depends = "['openssl>=3.1.0', 'qt5-base>=5.15.10']"
 reverse_depends = "['telepathy-morse']"
 +++

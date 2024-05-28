@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tanglet 1.6.5-1"
-version = "1.6.5-1"
+title = "tanglet 1.6.5-2"
+version = "1.6.5-2"
 description = "Tanglet is a single player word finding game based on Boggle(tm)."
-date = "2024-04-08T12:08:24"
+date = "2024-05-27T09:44:15"
 aliases = "/packages/184385"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/tanglet"
 arch = "x86_64"
-size = "22488864"
-usize = "24920714"
-sha1sum = "bbcfd1c0ef1451ad74b0ca8946cd5e493412423f"
+size = "22489648"
+usize = "24924810"
+sha1sum = "f02a8e9b0ae61b72f44674e76e81aaad7ca90a28"
 depends = "['qt6-base']"
 +++
 ### Description: 

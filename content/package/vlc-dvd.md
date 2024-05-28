@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-dvd 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc-dvd 3.0.20-13"
+version = "3.0.20-13"
 description = "vlc DVD support"
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/219596"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "27612"
+size = "27692"
 usize = "34584"
-sha1sum = "54c8ebed39a0dab5da4dfc759491c6d04132f7dd"
+sha1sum = "6b9e6863c26afa3f93ceb745cb9581c16be9d020"
 depends = "['libdvdread>=6.1.1', 'libvlc>=3.0.20']"
 +++
 ### Description: 

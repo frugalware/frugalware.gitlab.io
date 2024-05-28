@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tar 1.35-3"
-version = "1.35-3"
+title = "tar 1.35-4"
+version = "1.35-4"
 description = "Utility used to store, backup, and transport files"
-date = "2024-01-02T19:11:41"
+date = "2024-05-27T09:50:07"
 aliases = "/packages/2447"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/tar/tar.html"
 arch = "x86_64"
-size = "908728"
-usize = "3633025"
-sha1sum = "501a59acf36a293b4c75c26a104a21dcc8686dd9"
+size = "911560"
+usize = "3645337"
+sha1sum = "5652dcb0b763fe92f0a91f0b2c043b8691e384f6"
 depends = "['bash>=4.4.12-2', 'xfsprogs-acl>=2.2.53-2']"
 reverse_depends = "['binwalk', 'kernel-initrd', 'kernel-lts-initrd']"
 +++

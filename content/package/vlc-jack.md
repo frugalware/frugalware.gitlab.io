@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-jack 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc-jack 3.0.20-13"
+version = "3.0.20-13"
 description = "vlc plugin for jack"
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/219500"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "22920"
+size = "22992"
 usize = "40496"
-sha1sum = "03ee1f8a4ab2d676e6f1fb993c6377b8656b2310"
+sha1sum = "4c7ad9d6e90dc6324de6a945d145723dc262ee90"
 depends = "['libvlc>=3.0.20']"
 +++
 ### Description: 

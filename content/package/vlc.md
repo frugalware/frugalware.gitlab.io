@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc 3.0.20-13"
+version = "3.0.20-13"
 description = "The cross-platform media player and streaming server."
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/14226"
 categories = ['xmultimedia']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "10109652"
+size = "10111264"
 usize = "57099883"
-sha1sum = "c9cd4ec877c67fe32229bba71643d73390c67ef8"
+sha1sum = "a3a6814a905cc086284256c8deeb959a221fac5c"
 depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.20', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
 reverse_depends = "['elisa', 'kaffeine', 'kasts', 'obs-studio']"
 +++

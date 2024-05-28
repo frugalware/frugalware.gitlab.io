@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tiled 1.10.2-3"
-version = "1.10.2-3"
+title = "tiled 1.10.2-4"
+version = "1.10.2-4"
 description = "Tiled is a general purpose tile map editor."
-date = "2024-03-28T17:09:06"
+date = "2024-05-27T05:48:03"
 aliases = "/packages/217393"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/bjorn/tiled"
 arch = "x86_64"
-size = "3449612"
-usize = "17132822"
-sha1sum = "34dc06dc5187e095252ea3de04ab1204be2c67d3"
+size = "3443328"
+usize = "17132806"
+sha1sum = "1d0c32075af5eb7fbc2493c54a42252ed838414c"
 depends = "['python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'zlib>=1.2.12']"
 +++
 ### Description: 

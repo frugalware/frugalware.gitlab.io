@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xcb-util-cursor 0.1.4-1"
-version = "0.1.4-1"
+title = "xcb-util-cursor 0.1.4-2"
+version = "0.1.4-2"
 description = "cursor libraries for X C Binding"
-date = "2022-10-20T11:21:32"
+date = "2024-05-28T09:48:11"
 aliases = "/packages/200320"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "21504"
-usize = "66415"
-sha1sum = "3203d3099966650068927b7d3794be1e642104ab"
+size = "21572"
+usize = "66046"
+sha1sum = "6d21f6cd3a7fe9d6ba447167bf1ed02e0aa5d457"
 depends = "['xcb-util-image>=0.4.0-3']"
 reverse_depends = "['i3', 'qt6-base', 'spectacle']"
 +++

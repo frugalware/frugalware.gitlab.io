@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texmaker 5.1.4-3"
-version = "5.1.4-3"
+title = "texmaker 5.1.4-4"
+version = "5.1.4-4"
 description = "Texmaker is a free LaTeX editor."
-date = "2024-03-28T16:59:23"
+date = "2024-05-27T05:38:13"
 aliases = "/packages/30512"
 categories = ['xapps-extra']
 upstreamurl = "http://www.xm1math.net/texmaker/"
 arch = "x86_64"
-size = "10267804"
-usize = "38721148"
-sha1sum = "e39adcdd216d475c7b4151897bd10570a62e9198"
+size = "10293340"
+usize = "38789052"
+sha1sum = "0274d4adc3701a46dbe489fcb3c7723bf418633b"
 depends = "['poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'xghostscript']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texstudio 4.5.2-3"
-version = "4.5.2-3"
+title = "texstudio 4.5.2-4"
+version = "4.5.2-4"
 description = "Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents"
-date = "2024-03-28T17:01:47"
+date = "2024-05-27T05:40:50"
 aliases = "/packages/168583"
 categories = ['xapps-extra']
 upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
-size = "62041144"
-usize = "369648020"
-sha1sum = "82aa3dff8c3d890dc88e634ada2dbb015208f781"
+size = "62046000"
+usize = "369693076"
+sha1sum = "db59a43687a975bfa8e5686f84950b295bf7844a"
 depends = "['hunspell>=1.7.0', 'poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10']"
 +++
 ### Description: 

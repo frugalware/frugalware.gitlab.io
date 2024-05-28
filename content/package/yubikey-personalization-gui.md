@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yubikey-personalization-gui 3.1.25-11"
-version = "3.1.25-11"
+title = "yubikey-personalization-gui 3.1.25-12"
+version = "3.1.25-12"
 description = "Yubico YubiKey Personalization GUI"
-date = "2024-03-28T17:21:10"
+date = "2024-05-27T06:08:17"
 aliases = "/packages/217354"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Yubico/yubikey-personalization-gui"
 arch = "x86_64"
-size = "585656"
-usize = "1338741"
-sha1sum = "9fb9acb1e4a37497fb69d2444fdb7f1a0f72c577"
+size = "585504"
+usize = "1342837"
+sha1sum = "4cb1666c6929781dd0828ad35666e4c7a96b44e1"
 depends = "['qt5-base>=5.15.10', 'yubikey-personalization']"
 +++
 ### Description: 

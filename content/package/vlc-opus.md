@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-opus 3.0.20-12"
-version = "3.0.20-12"
+title = "vlc-opus 3.0.20-13"
+version = "3.0.20-13"
 description = "vlc plugin for opus"
-date = "2024-05-23T23:59:41"
+date = "2024-05-27T07:56:23"
 aliases = "/packages/218050"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "21912"
+size = "21992"
 usize = "22296"
-sha1sum = "c45b69e6c1b5f954466ff515da166865ecd4c278"
+sha1sum = "b259b420d46118d6d2c3a81e9ac0b2968d987721"
 depends = "['libvlc>=3.0.20', 'opus>=1.1.2']"
 +++
 ### Description: 

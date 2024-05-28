@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syntax-highlighting5 5.115.0-2"
-version = "5.115.0-2"
+title = "syntax-highlighting5 5.116.0-2"
+version = "5.116.0-2"
 description = "Syntax highlighting Engine for Structured Text and Code"
-date = "2024-03-17T21:01:35"
+date = "2024-05-26T16:19:38"
 aliases = "/packages/221389"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1715964"
-usize = "2479989"
-sha1sum = "64ce8161eddc5d5f4e37c79425c240c4eceb76e7"
+size = "1716636"
+usize = "2488173"
+sha1sum = "265eda3d1e6564330fa1a5275e4954671a76a018"
 depends = "['qt5-base>=5.15.14', 'qt5-xmlpatterns>=5.15.14']"
 reverse_depends = "['kio-extras-kf5', 'ktexteditor5']"
 +++

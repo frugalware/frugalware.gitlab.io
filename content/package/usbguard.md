@@ -12,7 +12,7 @@ size = "463956"
 usize = "1718908"
 sha1sum = "bfee135374b7694d33a579327e26b8f33483e2ed"
 depends = "['audit', 'dbus-glib', 'libaudit', 'libcap-ng', 'libqb>=2.0.0', 'libseccomp', 'libsodium>=1.0.19', 'polkit', 'protobuf>=27']"
-reverse_depends = "['usbguard-applet-qt', 'usbguard-notifier']"
+reverse_depends = "['usbguard-applet-qt', 'usbguard-notifier', 'usbguard-qt']"
 +++
 ### Description: 
 USBGuard is a software framework for implementing USB device authorization policies
