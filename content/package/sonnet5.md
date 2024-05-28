@@ -12,6 +12,7 @@ size = "277628"
 usize = "1624973"
 sha1sum = "632bd4a0590b7d68a2d4c3a05bd1bb4b55563696"
 depends = "['qt5-base>=5.15.12']"
+reverse_depends = "['ktextwidgets5']"
 +++
 ### Description: 
 Spelling framework for Qt, plugin-based.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitemmodels5 5.115.0-2"
-version = "5.115.0-2"
+title = "kitemmodels5 5.116.0-2"
+version = "5.116.0-2"
 description = "Set of item models extending the Qt model-view framework."
-date = "2024-03-14T14:56:23"
+date = "2024-05-26T16:27:37"
 aliases = "/packages/221330"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "122512"
-usize = "487316"
-sha1sum = "5790d3bdefbf8ca7872f67ea7154879fa54f1028"
-depends = "['qt5-base>=5.15.12']"
+size = "122148"
+usize = "487308"
+sha1sum = "03269f742acce4fb75cece2ed38e419805063086"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['kdelibs4support5', 'kdevelop', 'kirigami-gallery']"
 +++
 ### Description: 
@@ -50,8 +50,8 @@ Set of item models extending the Qt model-view framework.
 * /usr/lib/cmake/KF5ItemModels/KF5ItemModelsTargets.cmake
 * /usr/lib/libKF5ItemModels.so
 * /usr/lib/libKF5ItemModels.so.5
-* /usr/lib/libKF5ItemModels.so.5.115.0
-* /usr/share/doc/kitemmodels5-5.115.0/README.md
+* /usr/lib/libKF5ItemModels.so.5.116.0
+* /usr/share/doc/kitemmodels5-5.116.0/README.md
 * /usr/share/qlogging-categories5/kitemmodels.categories
 * /usr/share/qlogging-categories5/kitemmodels.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_KItemModels.pri

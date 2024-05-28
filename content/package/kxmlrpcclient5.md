@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kxmlrpcclient5 5.115.0-3"
-version = "5.115.0-3"
+title = "kxmlrpcclient5 5.116.0-2"
+version = "5.116.0-2"
 description = "XML-RPC client library for KDE."
-date = "2024-03-15T11:45:23"
+date = "2024-05-26T17:29:12"
 aliases = "/packages/221361"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "34076"
-usize = "134634"
-sha1sum = "45770340219e8d14e27bfb7accabfc7959d054c7"
-depends = "['kio5>=5.115.0']"
+size = "34564"
+usize = "134852"
+sha1sum = "4b3a511b8b58761f264a6f189e11e693e3c0aedc"
+depends = "['kio5>=5.116.0']"
 +++
 ### Description: 
 XML-RPC client library for KDE.
@@ -27,8 +27,8 @@ XML-RPC client library for KDE.
 * /usr/lib/cmake/KF5XmlRpcClient/KF5XmlRpcClientTargets.cmake
 * /usr/lib/libKF5XmlRpcClient.so
 * /usr/lib/libKF5XmlRpcClient.so.5
-* /usr/lib/libKF5XmlRpcClient.so.5.115.0
-* /usr/share/doc/kxmlrpcclient5-5.115.0/README.md
+* /usr/lib/libKF5XmlRpcClient.so.5.116.0
+* /usr/share/doc/kxmlrpcclient5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkxmlrpcclient5.mo
 * /usr/share/locale/az/LC_MESSAGES/libkxmlrpcclient5.mo
 * /usr/share/locale/be/LC_MESSAGES/libkxmlrpcclient5.mo

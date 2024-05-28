@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klettres 24.02.2-3"
-version = "24.02.2-3"
+title = "klettres 24.05.0-1"
+version = "24.05.0-1"
 description = "Learn The Alphabet."
-date = "2024-04-16T22:30:00"
+date = "2024-05-24T10:44:59"
 aliases = "/packages/152832"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39552572"
-usize = "50095412"
-sha1sum = "acbe845203b89ff48e12125509429644cbada1c5"
-depends = "['knotifyconfig>=6.1.0', 'libkdegames>=24.02.2']"
+size = "39866796"
+usize = "50519766"
+sha1sum = "ca0df617adc89e0a6464e91750a787acdecd6c24"
+depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
 +++
 ### Description: 
 Learn The Alphabet.
@@ -62,6 +62,17 @@ Learn The Alphabet.
 * /usr/share/doc/HTML/es/klettres/klettres6.png
 * /usr/share/doc/HTML/et/klettres/index.cache.bz2
 * /usr/share/doc/HTML/et/klettres/index.docbook
+* /usr/share/doc/HTML/fr/klettres/index.cache.bz2
+* /usr/share/doc/HTML/fr/klettres/index.docbook
+* /usr/share/doc/HTML/fr/klettres/klettres-newstuff.png
+* /usr/share/doc/HTML/fr/klettres/klettres-newstuff1.png
+* /usr/share/doc/HTML/fr/klettres/klettres-newstuff2.png
+* /usr/share/doc/HTML/fr/klettres/klettres1.png
+* /usr/share/doc/HTML/fr/klettres/klettres2.png
+* /usr/share/doc/HTML/fr/klettres/klettres3.png
+* /usr/share/doc/HTML/fr/klettres/klettres4.png
+* /usr/share/doc/HTML/fr/klettres/klettres5.png
+* /usr/share/doc/HTML/fr/klettres/klettres6.png
 * /usr/share/doc/HTML/it/klettres/index.cache.bz2
 * /usr/share/doc/HTML/it/klettres/index.docbook
 * /usr/share/doc/HTML/it/klettres/klettres1.png
@@ -98,12 +109,12 @@ Learn The Alphabet.
 * /usr/share/doc/HTML/uk/klettres/klettres4.png
 * /usr/share/doc/HTML/uk/klettres/klettres5.png
 * /usr/share/doc/HTML/uk/klettres/klettres6.png
-* /usr/share/doc/klettres-24.02.2/AUTHORS
-* /usr/share/doc/klettres-24.02.2/ChangeLog
-* /usr/share/doc/klettres-24.02.2/COPYING.DOC
-* /usr/share/doc/klettres-24.02.2/INSTALL
-* /usr/share/doc/klettres-24.02.2/README_packagers
-* /usr/share/doc/klettres-24.02.2/TODO
+* /usr/share/doc/klettres-24.05.0/AUTHORS
+* /usr/share/doc/klettres-24.05.0/ChangeLog
+* /usr/share/doc/klettres-24.05.0/COPYING.DOC
+* /usr/share/doc/klettres-24.05.0/INSTALL
+* /usr/share/doc/klettres-24.05.0/README_packagers
+* /usr/share/doc/klettres-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/klettres.png
 * /usr/share/icons/hicolor/16x16/apps/klettres.png
 * /usr/share/icons/hicolor/22x22/apps/klettres.png

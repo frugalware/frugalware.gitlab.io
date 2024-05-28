@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktouch 24.02.2-3"
-version = "24.02.2-3"
+title = "ktouch 24.05.0-1"
+version = "24.05.0-1"
 description = "Touch Typing Tutor."
-date = "2024-04-17T06:10:03"
+date = "2024-05-26T20:37:27"
 aliases = "/packages/152835"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4672116"
-usize = "8987322"
-sha1sum = "a29582123df7a0b795b3c77c52393b46df8b8eeb"
-depends = "['kcmutils5>=5.115.0', 'kdeclarative5>=5.115.0', 'kio5>=5.115.0', 'knewstuff5>=5.115.0', 'kqtquickcharts>=24.02.2', 'ktexteditor5>=5.115.0']"
+size = "4422628"
+usize = "8719121"
+sha1sum = "557f0c3a6ae6c592f98a70d87fe672b64174c3ac"
+depends = "['kcmutils5>=5.116.0', 'kdeclarative5>=5.116.0', 'kio5>=5.116.0', 'knewstuff5>=5.116.0', 'kqtquickcharts>=24.05.0', 'ktexteditor5>=5.116.0']"
 +++
 ### Description: 
 Touch Typing Tutor.
@@ -154,8 +154,8 @@ Touch Typing Tutor.
 * /usr/share/doc/HTML/uk/ktouch/statistics_show.png
 * /usr/share/doc/HTML/uk/ktouch/training_options.png
 * /usr/share/doc/HTML/uk/ktouch/welcome_screen.png
-* /usr/share/doc/ktouch-24.02.2/AUTHORS
-* /usr/share/doc/ktouch-24.02.2/README.md
+* /usr/share/doc/ktouch-24.05.0/AUTHORS
+* /usr/share/doc/ktouch-24.05.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/ktouch.png
 * /usr/share/icons/hicolor/16x16/apps/ktouch.png
 * /usr/share/icons/hicolor/22x22/apps/ktouch.png

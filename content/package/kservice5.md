@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kservice5 5.115.0-2"
-version = "5.115.0-2"
+title = "kservice5 5.116.0-2"
+version = "5.116.0-2"
 description = "Plugin framework for desktop services."
-date = "2024-03-14T22:17:00"
+date = "2024-05-26T16:50:34"
 aliases = "/packages/221348"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "310100"
-usize = "1079044"
-sha1sum = "20db94613e1224ff93084539080333bfc8bc9d40"
-depends = "['kconfig5>=5.115.0', 'kcrash5>=5.115.0', 'kdbusaddons5>=5.115.0', 'ki18n5>=5.115.0']"
-reverse_depends = "['kdesu5', 'kemoticons5', 'ktextwidgets5']"
+size = "312932"
+usize = "1091545"
+sha1sum = "750e486e9092d306c352cf95bb9ac1e56d21ac3f"
+depends = "['kconfig5>=5.116.0', 'kcrash5>=5.116.0', 'kdbusaddons5>=5.116.0', 'ki18n5>=5.116.0']"
+reverse_depends = "['kdesu5', 'kemoticons5', 'kglobalaccel5', 'knotifications5', 'kpeople5', 'ktextwidgets5']"
 +++
 ### Description: 
 Plugin framework for desktop services.
@@ -61,8 +61,8 @@ Plugin framework for desktop services.
 * /usr/lib/cmake/KF5Service/KF5ServiceTargets.cmake
 * /usr/lib/libKF5Service.so
 * /usr/lib/libKF5Service.so.5
-* /usr/lib/libKF5Service.so.5.115.0
-* /usr/share/doc/kservice5-5.115.0/README.md
+* /usr/lib/libKF5Service.so.5.116.0
+* /usr/share/doc/kservice5-5.116.0/README.md
 * /usr/share/kservicetypes5/application.desktop
 * /usr/share/kservicetypes5/kplugininfo.desktop
 * /usr/share/locale/af/LC_MESSAGES/kservice5.mo

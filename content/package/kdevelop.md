@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdevelop 24.02.2-3"
-version = "24.02.2-3"
+title = "kdevelop 24.05.0-1"
+version = "24.05.0-1"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-04-17T06:03:39"
+date = "2024-05-26T20:32:59"
 aliases = "/packages/10830"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "9820724"
-usize = "35883539"
-sha1sum = "bfd20e95a15f5914da53adaeed7559ba24a89f0c"
-depends = "['clang-libs>=17.0.6', 'grantlee', 'kcmutils5>=5.115.0', 'kitemmodels5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'krunner5>=5.115.0', 'ktexteditor5>=5.115.0', 'libboost>=1.72.0', 'libkomparediff2', 'qt5-tools>=5.15.12', 'qt5-webengine>=5.15.12']"
+size = "9838396"
+usize = "35985990"
+sha1sum = "de0f76569c3e65ecef1a8ee42287fd2a759ab016"
+depends = "['clang-libs>=17.0.6', 'grantlee', 'kcmutils5>=5.116.0', 'kitemmodels5>=5.116.0', 'knewstuff5>=5.116.0', 'knotifyconfig5>=5.116.0', 'krunner5>=5.116.0', 'ktexteditor5>=5.116.0', 'libboost>=1.72.0', 'libkomparediff2', 'qt5-tools>=5.15.14', 'qt5-webengine>=5.15.14']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
 ### Description: 
@@ -275,6 +275,7 @@ The KDevelop integrated C/C++ application development environment
 * /usr/include/kdevplatform/project/widgets/dependencieswidget.h
 * /usr/include/kdevplatform/serialization/abstractitemrepository.h
 * /usr/include/kdevplatform/serialization/indexedstring.h
+* /usr/include/kdevplatform/serialization/indexedstringview.h
 * /usr/include/kdevplatform/serialization/itemrepository.h
 * /usr/include/kdevplatform/serialization/itemrepositoryexampleitem.h
 * /usr/include/kdevplatform/serialization/itemrepositoryreferencecounting.h
@@ -401,102 +402,102 @@ The KDevelop integrated C/C++ application development environment
 * /usr/lib/cmake/KDevPlatform/KDevPlatformMacros.cmake
 * /usr/lib/cmake/KDevPlatform/KDevPlatformTargets-release.cmake
 * /usr/lib/cmake/KDevPlatform/KDevPlatformTargets.cmake
-* /usr/lib/libKDevClangPrivate.so.513
-* /usr/lib/libKDevCMakeCommon.so.513
-* /usr/lib/libKDevCompileAnalyzerCommon.so.513
+* /usr/lib/libKDevClangPrivate.so.514
+* /usr/lib/libKDevCMakeCommon.so.514
+* /usr/lib/libKDevCompileAnalyzerCommon.so.514
 * /usr/lib/libKDevelopSessionsWatch.so
 * /usr/lib/libKDevPlatformDebugger.so
-* /usr/lib/libKDevPlatformDebugger.so.5.13.240202
-* /usr/lib/libKDevPlatformDebugger.so.513
+* /usr/lib/libKDevPlatformDebugger.so.5.14.240500
+* /usr/lib/libKDevPlatformDebugger.so.514
 * /usr/lib/libKDevPlatformDocumentation.so
-* /usr/lib/libKDevPlatformDocumentation.so.5.13.240202
-* /usr/lib/libKDevPlatformDocumentation.so.513
+* /usr/lib/libKDevPlatformDocumentation.so.5.14.240500
+* /usr/lib/libKDevPlatformDocumentation.so.514
 * /usr/lib/libKDevPlatformInterfaces.so
-* /usr/lib/libKDevPlatformInterfaces.so.5.13.240202
-* /usr/lib/libKDevPlatformInterfaces.so.513
+* /usr/lib/libKDevPlatformInterfaces.so.5.14.240500
+* /usr/lib/libKDevPlatformInterfaces.so.514
 * /usr/lib/libKDevPlatformLanguage.so
-* /usr/lib/libKDevPlatformLanguage.so.5.13.240202
-* /usr/lib/libKDevPlatformLanguage.so.513
+* /usr/lib/libKDevPlatformLanguage.so.5.14.240500
+* /usr/lib/libKDevPlatformLanguage.so.514
 * /usr/lib/libKDevPlatformOutputView.so
-* /usr/lib/libKDevPlatformOutputView.so.5.13.240202
-* /usr/lib/libKDevPlatformOutputView.so.513
+* /usr/lib/libKDevPlatformOutputView.so.5.14.240500
+* /usr/lib/libKDevPlatformOutputView.so.514
 * /usr/lib/libKDevPlatformProject.so
-* /usr/lib/libKDevPlatformProject.so.5.13.240202
-* /usr/lib/libKDevPlatformProject.so.513
+* /usr/lib/libKDevPlatformProject.so.5.14.240500
+* /usr/lib/libKDevPlatformProject.so.514
 * /usr/lib/libKDevPlatformSerialization.so
-* /usr/lib/libKDevPlatformSerialization.so.5.13.240202
-* /usr/lib/libKDevPlatformSerialization.so.513
+* /usr/lib/libKDevPlatformSerialization.so.5.14.240500
+* /usr/lib/libKDevPlatformSerialization.so.514
 * /usr/lib/libKDevPlatformShell.so
-* /usr/lib/libKDevPlatformShell.so.5.13.240202
-* /usr/lib/libKDevPlatformShell.so.513
+* /usr/lib/libKDevPlatformShell.so.5.14.240500
+* /usr/lib/libKDevPlatformShell.so.514
 * /usr/lib/libKDevPlatformSublime.so
-* /usr/lib/libKDevPlatformSublime.so.5.13.240202
-* /usr/lib/libKDevPlatformSublime.so.513
+* /usr/lib/libKDevPlatformSublime.so.5.14.240500
+* /usr/lib/libKDevPlatformSublime.so.514
 * /usr/lib/libKDevPlatformUtil.so
-* /usr/lib/libKDevPlatformUtil.so.5.13.240202
-* /usr/lib/libKDevPlatformUtil.so.513
+* /usr/lib/libKDevPlatformUtil.so.5.14.240500
+* /usr/lib/libKDevPlatformUtil.so.514
 * /usr/lib/libKDevPlatformVcs.so
-* /usr/lib/libKDevPlatformVcs.so.5.13.240202
-* /usr/lib/libKDevPlatformVcs.so.513
+* /usr/lib/libKDevPlatformVcs.so.5.14.240500
+* /usr/lib/libKDevPlatformVcs.so.514
 * /usr/lib/qt5/plugins/grantlee/5.3/kdev_filters.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevandroid.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevappwizard.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevastyle.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevbazaar.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevclangsupport.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevclangtidy.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevclassbrowser.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevclazy.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcmakebuilder.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcmakedocumentation.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcmakemanager.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcodeutils.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcontextbrowser.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcppcheck.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcraft.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcustombuildsystem.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcustommakemanager.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevcustomscript.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevdefinesandincludesmanager.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevdocker.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevdocumentswitcher.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevdocumentview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevexecute.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevexecuteplasmoid.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevexecutescript.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevexternalscript.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevfilemanager.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevfiletemplates.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevflatpak.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevgdb.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevgenericmanager.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevghprovider.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevgit.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevgrepview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevheaptrack.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevkonsoleview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevlldb.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevmakebuilder.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevmanpage.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevmesonmanager.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevninja.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevopenwith.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevoutlineview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevpatchreview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevperforce.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevproblemreporter.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevprojectfilter.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevprojectmanagerview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevqmljslanguagesupport.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevqthelp.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevquickopen.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevscratchpad.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevsourceformatter.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevstandardoutputview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevswitchtobuddy.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevtestview.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevvcschangesviewplugin.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevwelcomepage.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevandroid.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevappwizard.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevastyle.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevbazaar.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevclangsupport.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevclangtidy.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevclassbrowser.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevclazy.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcmakebuilder.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcmakedocumentation.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcmakemanager.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcodeutils.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcontextbrowser.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcppcheck.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcraft.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcustombuildsystem.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcustommakemanager.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevcustomscript.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevdefinesandincludesmanager.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevdocker.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevdocumentswitcher.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevdocumentview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevexecute.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevexecuteplasmoid.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevexecutescript.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevexternalscript.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevfilemanager.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevfiletemplates.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevflatpak.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevgdb.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevgenericmanager.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevghprovider.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevgit.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevgrepview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevheaptrack.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevkonsoleview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevlldb.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevmakebuilder.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevmanpage.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevmesonmanager.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevninja.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevopenwith.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevoutlineview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevpatchreview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevperforce.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevproblemreporter.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevprojectfilter.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevprojectmanagerview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevqmljslanguagesupport.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevqthelp.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevquickopen.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevscratchpad.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevsourceformatter.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevstandardoutputview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevswitchtobuddy.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevtestview.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevvcschangesviewplugin.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevwelcomepage.so
 * /usr/lib/qt5/plugins/kf5/krunner/krunner_kdevelopsessions.so
 * /usr/share/applications/org.kde.kdevelop.desktop
 * /usr/share/applications/org.kde.kdevelop_bzr.desktop
@@ -573,10 +574,10 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/doc/HTML/sv/kdevelop/index.docbook
 * /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdevelop/index.docbook
-* /usr/share/doc/kdevelop-24.02.2/AUTHORS
-* /usr/share/doc/kdevelop-24.02.2/COPYING.DOC
-* /usr/share/doc/kdevelop-24.02.2/INSTALL
-* /usr/share/doc/kdevelop-24.02.2/README.md
+* /usr/share/doc/kdevelop-24.05.0/AUTHORS
+* /usr/share/doc/kdevelop-24.05.0/COPYING.DOC
+* /usr/share/doc/kdevelop-24.05.0/INSTALL
+* /usr/share/doc/kdevelop-24.05.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
 * /usr/share/icons/hicolor/128x128/apps/bazaar.png
 * /usr/share/icons/hicolor/128x128/apps/clazy.png

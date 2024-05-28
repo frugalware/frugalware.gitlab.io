@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kjournald 24.02.2-3"
-version = "24.02.2-3"
+title = "kjournald 24.05.0-1"
+version = "24.05.0-1"
 description = "Framework for interacting with systemd-journald"
-date = "2024-04-17T01:38:43"
+date = "2024-05-25T13:08:44"
 aliases = "/packages/220980"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "146608"
-usize = "572873"
-sha1sum = "f4d8d1733431879e89fdf143fadd7917f42da82f"
+size = "150664"
+usize = "592905"
+sha1sum = "dd4f7b6541b98b3eaa82e2ad831c5e5d6d7fbb3e"
 depends = "['kcoreaddons', 'ki18n', 'kirigami']"
 +++
 ### Description: 
@@ -20,9 +20,10 @@ Framework for interacting with systemd-journald
 * /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0
-* /usr/lib/libkjournald.so.24.02.2
+* /usr/lib/libkjournald.so.24.05.0
 * /usr/share/applications/org.kde.kjournaldbrowser.desktop
-* /usr/share/doc/kjournald-24.02.2/README.md
+* /usr/share/doc/kjournald-24.05.0/README.md
+* /usr/share/locale/ar/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ast/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kjournald.mo
@@ -35,8 +36,10 @@ Framework for interacting with systemd-journald
 * /usr/share/locale/fi/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/fr/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/gl/LC_MESSAGES/kjournald.mo
+* /usr/share/locale/he/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ia/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ie/LC_MESSAGES/kjournald.mo
+* /usr/share/locale/is/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/it/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ja/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ka/LC_MESSAGES/kjournald.mo

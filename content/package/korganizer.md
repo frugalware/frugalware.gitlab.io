@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "korganizer 24.02.2-3"
-version = "24.02.2-3"
+title = "korganizer 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE Personal Organizer."
-date = "2024-04-17T00:07:26"
+date = "2024-05-24T14:49:32"
 aliases = "/packages/218939"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2349652"
-usize = "10710680"
-sha1sum = "e3280d91ebb7b868f41f72060cb718ab47f335ef"
-depends = "['incidenceeditor>=24.02.2', 'kdepim-runtime>=24.02.2', 'kontactinterface>=24.02.2', 'mailcommon>=24.02.2']"
+size = "2306904"
+usize = "10475127"
+sha1sum = "b75347fc903c4c097c4a84386b094b4a6b473e2d"
+depends = "['incidenceeditor>=24.05.0', 'kdepim-runtime>=24.05.0', 'kontactinterface>=24.05.0', 'mailcommon>=24.05.0']"
 +++
 ### Description: 
 KDE Personal Organizer.
@@ -19,14 +19,13 @@ KDE Personal Organizer.
 ### Files: 
 * /usr/bin/korganizer
 * /usr/lib/libkorganizerprivate.so.6
-* /usr/lib/libkorganizerprivate.so.6.0.2
+* /usr/lib/libkorganizerprivate.so.6.1.0
 * /usr/lib/libkorganizer_core.so.6
-* /usr/lib/libkorganizer_core.so.6.0.2
+* /usr/lib/libkorganizer_core.so.6.1.0
 * /usr/lib/libkorganizer_interfaces.so.6
-* /usr/lib/libkorganizer_interfaces.so.6.0.2
+* /usr/lib/libkorganizer_interfaces.so.6.1.0
 * /usr/lib/qt6/plugins/korganizerpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configcolorsandfonts.so
-* /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configdesignerfields.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configfreebusy.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configgroupscheduling.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configmain.so
@@ -106,9 +105,9 @@ KDE Personal Organizer.
 * /usr/share/doc/HTML/sv/korganizer/index.docbook
 * /usr/share/doc/HTML/uk/korganizer/index.cache.bz2
 * /usr/share/doc/HTML/uk/korganizer/index.docbook
-* /usr/share/doc/korganizer-24.02.2/AUTHORS
-* /usr/share/doc/korganizer-24.02.2/README.md
-* /usr/share/doc/korganizer-24.02.2/README.md.license
+* /usr/share/doc/korganizer-24.05.0/AUTHORS
+* /usr/share/doc/korganizer-24.05.0/README.md
+* /usr/share/doc/korganizer-24.05.0/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/korg-journal.png
 * /usr/share/icons/hicolor/128x128/apps/korg-todo.png
 * /usr/share/icons/hicolor/128x128/apps/korganizer.png

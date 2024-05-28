@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfilemetadata5 5.115.0-4"
-version = "5.115.0-4"
+title = "kfilemetadata5 5.116.0-2"
+version = "5.116.0-2"
 description = "A library for extracting file metadata."
-date = "2024-04-10T09:42:47"
+date = "2024-05-26T16:45:34"
 aliases = "/packages/218307"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "187044"
-usize = "1143807"
-sha1sum = "d3f34b34dcdeaf4b98aeedfce45b41ca0acf7151"
-depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive5>=5.115.0', 'kcoreaddons5>=5.115.0', 'ki18n5>=5.115.0', 'libappimage', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
+size = "190748"
+usize = "1148044"
+sha1sum = "5f1ff6936d4d331f53d6818ea0ac61247fad50c5"
+depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=6.0', 'karchive5>=5.116.0', 'kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'libappimage', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['baloo5', 'k3b']"
 +++
 ### Description: 
@@ -58,7 +58,7 @@ A library for extracting file metadata.
 * /usr/lib/cmake/KF5FileMetaData/KF5FileMetaDataTargets.cmake
 * /usr/lib/libKF5FileMetaData.so
 * /usr/lib/libKF5FileMetaData.so.3
-* /usr/lib/libKF5FileMetaData.so.5.115.0
+* /usr/lib/libKF5FileMetaData.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/kfilemetadata/kfilemetadata_epubextractor.so
 * /usr/lib/qt5/plugins/kf5/kfilemetadata/kfilemetadata_exiv2extractor.so
 * /usr/lib/qt5/plugins/kf5/kfilemetadata/kfilemetadata_fb2extractor.so
@@ -74,7 +74,7 @@ A library for extracting file metadata.
 * /usr/lib/qt5/plugins/kf5/kfilemetadata/kfilemetadata_taglibextractor.so
 * /usr/lib/qt5/plugins/kf5/kfilemetadata/kfilemetadata_xmlextractor.so
 * /usr/lib/qt5/plugins/kf5/kfilemetadata/writers/kfilemetadata_taglibwriter.so
-* /usr/share/doc/kfilemetadata5-5.115.0/README.md
+* /usr/share/doc/kfilemetadata5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kfilemetadata5.mo
 * /usr/share/locale/az/LC_MESSAGES/kfilemetadata5.mo
 * /usr/share/locale/bg/LC_MESSAGES/kfilemetadata5.mo

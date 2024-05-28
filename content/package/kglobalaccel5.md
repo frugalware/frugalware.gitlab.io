@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kglobalaccel5 5.115.0-4"
-version = "5.115.0-4"
+title = "kglobalaccel5 5.116.0-2"
+version = "5.116.0-2"
 description = "Global desktop keyboard shortcuts."
-date = "2024-03-15T11:27:28"
+date = "2024-05-26T16:51:35"
 aliases = "/packages/221314"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "105408"
-usize = "422468"
-sha1sum = "63bb58a380d765cd02ebc6d1da0d2936362937b5"
-depends = "[]"
+size = "106076"
+usize = "422818"
+sha1sum = "c87fab90864a6a424e4b223b4dbaab173c63cd1c"
+depends = "['kservice5>=5.116.0']"
 reverse_depends = "['kxmlgui5']"
 +++
 ### Description: 
@@ -33,12 +33,12 @@ Global desktop keyboard shortcuts.
 * /usr/lib/cmake/KF5GlobalAccel/KF5GlobalAccelTargets.cmake
 * /usr/lib/libKF5GlobalAccel.so
 * /usr/lib/libKF5GlobalAccel.so.5
-* /usr/lib/libKF5GlobalAccel.so.5.115.0
+* /usr/lib/libKF5GlobalAccel.so.5.116.0
 * /usr/lib/libKF5GlobalAccelPrivate.so.5
-* /usr/lib/libKF5GlobalAccelPrivate.so.5.115.0
+* /usr/lib/libKF5GlobalAccelPrivate.so.5.116.0
 * /usr/share/dbus-1/interfaces/kf5_org.kde.kglobalaccel.Component.xml
 * /usr/share/dbus-1/interfaces/kf5_org.kde.KGlobalAccel.xml
-* /usr/share/doc/kglobalaccel5-5.115.0/README.md
+* /usr/share/doc/kglobalaccel5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kglobalaccel5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kglobalaccel5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kglobalaccel5_qt.qm

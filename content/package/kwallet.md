@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwallet 6.1.0-1"
-version = "6.1.0-1"
+title = "kwallet 6.2.0-2"
+version = "6.2.0-2"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-04-12T20:29:21"
+date = "2024-05-21T18:01:39"
 aliases = "/packages/221354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "455196"
-usize = "2408463"
-sha1sum = "2bf4203b7e10022ff04fe69d42d181f6da53dd76"
-depends = "['knotifications>=6.1.0', 'libgpgmepp>=1.10.0', 'qca']"
+size = "463600"
+usize = "2433759"
+sha1sum = "6f0e40f686d67e6ea56b916e0d3f0201974c83a8"
+depends = "['knotifications>=6.2.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'ksshaskpass', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension']"
 +++
 ### Description: 
@@ -30,14 +30,14 @@ Safe desktop-wide storage for passwords.
 * /usr/lib/cmake/KF6Wallet/KF6WalletTargets.cmake
 * /usr/lib/libKF6Wallet.so
 * /usr/lib/libKF6Wallet.so.6
-* /usr/lib/libKF6Wallet.so.6.1.0
+* /usr/lib/libKF6Wallet.so.6.2.0
 * /usr/lib/libKF6WalletBackend.so.6
-* /usr/lib/libKF6WalletBackend.so.6.1.0
+* /usr/lib/libKF6WalletBackend.so.6.2.0
 * /usr/share/applications/org.kde.kwalletd6.desktop
 * /usr/share/dbus-1/interfaces/kf6_org.kde.KWallet.xml
 * /usr/share/dbus-1/services/org.kde.kwalletd5.service
 * /usr/share/dbus-1/services/org.kde.kwalletd6.service
-* /usr/share/doc/kwallet-6.1.0/README.md
+* /usr/share/doc/kwallet-6.2.0/README.md
 * /usr/share/knotifications6/kwalletd6.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletd6.mo
@@ -174,3 +174,4 @@ Safe desktop-wide storage for passwords.
 * /usr/share/man/man1/kwallet-query.1.gz
 * /usr/share/qlogging-categories6/kwallet.categories
 * /usr/share/qlogging-categories6/kwallet.renamecategories
+* /usr/share/xdg-desktop-portal/portals/kwallet.portal

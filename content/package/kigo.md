@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kigo 24.02.2-3"
-version = "24.02.2-3"
+title = "kigo 24.05.0-1"
+version = "24.05.0-1"
 description = "Kigo is an open-source implementation of the popular Go game"
-date = "2024-04-16T22:25:18"
+date = "2024-05-24T10:40:18"
 aliases = "/packages/219332"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5347344"
-usize = "6510880"
-sha1sum = "b4144a7d6c3cef0ecd4e69d5b0bcda3e14218b76"
-depends = "['libkdegames>=24.02.2']"
+size = "5014416"
+usize = "6180502"
+sha1sum = "1556b9bb49f92e33920e2a66d5492af1d1334d0e"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 Kigo is an open-source implementation of the popular Go game
@@ -81,9 +81,9 @@ Kigo is an open-source implementation of the popular Go game
 * /usr/share/doc/HTML/uk/kigo/setup-theme.png
 * /usr/share/doc/HTML/uk/kigo/start-loaded-game.png
 * /usr/share/doc/HTML/uk/kigo/start-new-game.png
-* /usr/share/doc/kigo-24.02.2/AUTHORS
-* /usr/share/doc/kigo-24.02.2/README
-* /usr/share/doc/kigo-24.02.2/TODO
+* /usr/share/doc/kigo-24.05.0/AUTHORS
+* /usr/share/doc/kigo-24.05.0/README
+* /usr/share/doc/kigo-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kigo.png
 * /usr/share/icons/hicolor/16x16/apps/kigo.png
 * /usr/share/icons/hicolor/22x22/apps/kigo.png
@@ -119,6 +119,7 @@ Kigo is an open-source implementation of the popular Go game
 * /usr/share/locale/fr/LC_MESSAGES/kigo.mo
 * /usr/share/locale/ga/LC_MESSAGES/kigo.mo
 * /usr/share/locale/gl/LC_MESSAGES/kigo.mo
+* /usr/share/locale/he/LC_MESSAGES/kigo.mo
 * /usr/share/locale/hr/LC_MESSAGES/kigo.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kigo.mo
 * /usr/share/locale/hu/LC_MESSAGES/kigo.mo

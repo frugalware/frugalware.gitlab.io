@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "layer-shell-qt 6.0.4-1"
-version = "6.0.4-1"
+title = "layer-shell-qt 6.0.5-1"
+version = "6.0.5-1"
 description = "Qt component to allow applications to make use of the Wayland wl-layer-shell protocol"
-date = "2024-04-16T19:16:45"
+date = "2024-05-22T08:41:04"
 aliases = "/packages/220407"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "31348"
-usize = "134755"
-sha1sum = "c0cac99c78be4e8d504525a24213ed83e56023e8"
-depends = "['qt6-wayland>=6.7.0']"
+size = "31408"
+usize = "134843"
+sha1sum = "1aa28f230f161af9108546e8e23714b0e58f8b3e"
+depends = "['qt6-wayland>=6.7.1']"
 reverse_depends = "['kscreen', 'kscreenlocker']"
 +++
 ### Description: 
@@ -29,11 +29,11 @@ Qt component to allow applications to make use of the Wayland wl-layer-shell pro
 * /usr/lib/cmake/LayerShellQt/LayerShellQtTargets.cmake
 * /usr/lib/libLayerShellQtInterface.so
 * /usr/lib/libLayerShellQtInterface.so.6
-* /usr/lib/libLayerShellQtInterface.so.6.0.4
+* /usr/lib/libLayerShellQtInterface.so.6.0.5
 * /usr/lib/qt6/plugins/wayland-shell-integration/liblayer-shell.so
 * /usr/lib/qt6/qml/org/kde/layershell/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/layershell/LayerShellQtQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/layershell/libLayerShellQtQml.so
 * /usr/lib/qt6/qml/org/kde/layershell/qmldir
-* /usr/share/doc/layer-shell-qt-6.0.4/README.md
-* /usr/share/doc/layer-shell-qt-6.0.4/README.md.license
+* /usr/share/doc/layer-shell-qt-6.0.5/README.md
+* /usr/share/doc/layer-shell-qt-6.0.5/README.md.license

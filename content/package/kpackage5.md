@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kpackage5 5.115.0-2"
-version = "5.115.0-2"
+title = "kpackage5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework that lets applications manage user installable packages of non-binary assets."
-date = "2024-03-14T22:13:45"
+date = "2024-05-26T16:39:54"
 aliases = "/packages/221340"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "167172"
-usize = "757755"
-sha1sum = "3a8f512dc4629bb4ab8fd46e277e41a13be71b0e"
-depends = "['karchive5>=5.115.0', 'kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0', 'ki18n5>=5.115.0']"
-reverse_depends = "['frameworkintegration5', 'kdeclarative5']"
+size = "167452"
+usize = "754427"
+sha1sum = "5eaaececa715509734abb5f539dfb5f7ad019627"
+depends = "['karchive5>=5.116.0', 'kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0']"
+reverse_depends = "['frameworkintegration5', 'kdeclarative5', 'knewstuff5']"
 +++
 ### Description: 
 Framework that lets applications manage user installable packages of non-binary assets.
@@ -38,8 +38,8 @@ Framework that lets applications manage user installable packages of non-binary 
 * /usr/lib/cmake/KF5Package/qrc.cmake
 * /usr/lib/libKF5Package.so
 * /usr/lib/libKF5Package.so.5
-* /usr/lib/libKF5Package.so.5.115.0
-* /usr/share/doc/kpackage5-5.115.0/README.md
+* /usr/lib/libKF5Package.so.5.116.0
+* /usr/share/doc/kpackage5-5.116.0/README.md
 * /usr/share/kservicetypes5/kpackage-generic.desktop
 * /usr/share/kservicetypes5/kpackage-genericqml.desktop
 * /usr/share/kservicetypes5/kpackage-packagestructure.desktop

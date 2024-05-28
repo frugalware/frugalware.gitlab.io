@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knewstuff5 5.115.0-3"
-version = "5.115.0-3"
+title = "knewstuff5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework for downloading and sharing additional application data."
-date = "2024-03-15T11:37:45"
+date = "2024-05-26T17:10:26"
 aliases = "/packages/221337"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "818188"
-usize = "4281487"
-sha1sum = "c913646da24e764e9321015f76958e6129c1affc"
-depends = "['kio5>=5.115.0', 'kirigami25>=5.115.0']"
+size = "821424"
+usize = "4303499"
+sha1sum = "84d463dc5d7a6ed2bab805150191a3e27d5ce510"
+depends = "['kio5>=5.116.0', 'kirigami25>=5.116.0', 'kpackage5>=5.116.0', 'syndication5>=5.116.0']"
 reverse_depends = "['artikulate', 'cantor', 'frameworkintegration5', 'k3b', 'kalzium', 'kdevelop', 'kstars', 'ktouch', 'libmarble', 'okteta', 'skrooge', 'step']"
 +++
 ### Description: 
@@ -135,17 +135,17 @@ Framework for downloading and sharing additional application data.
 * /usr/lib/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfigVersion.cmake
 * /usr/lib/libKF5NewStuff.so
 * /usr/lib/libKF5NewStuff.so.5
-* /usr/lib/libKF5NewStuff.so.5.115.0
+* /usr/lib/libKF5NewStuff.so.5.116.0
 * /usr/lib/libKF5NewStuffCore.so
 * /usr/lib/libKF5NewStuffCore.so.5
-* /usr/lib/libKF5NewStuffCore.so.5.115.0
+* /usr/lib/libKF5NewStuffCore.so.5.116.0
 * /usr/lib/libKF5NewStuffWidgets.so
 * /usr/lib/libKF5NewStuffWidgets.so.5
-* /usr/lib/libKF5NewStuffWidgets.so.5.115.0
+* /usr/lib/libKF5NewStuffWidgets.so.5.116.0
 * /usr/lib/qt5/plugins/designer/knewstuffwidgets.so
 * /usr/share/applications/org.kde.knewstuff-dialog.desktop
-* /usr/share/doc/knewstuff5-5.115.0/README.md
-* /usr/share/doc/knewstuff5-5.115.0/TODO
+* /usr/share/doc/knewstuff5-5.116.0/README.md
+* /usr/share/doc/knewstuff5-5.116.0/TODO
 * /usr/share/kf5/kmoretools/presets-kmoretools/angrysearch.desktop
 * /usr/share/kf5/kmoretools/presets-kmoretools/catfish.desktop
 * /usr/share/kf5/kmoretools/presets-kmoretools/com.obsproject.Studio.desktop

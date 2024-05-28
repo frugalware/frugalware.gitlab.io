@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdnssd 6.1.0-1"
-version = "6.1.0-1"
+title = "kdnssd 6.2.0-2"
+version = "6.2.0-2"
 description = "Zeroconf Support for KDE."
-date = "2024-04-12T19:48:13"
+date = "2024-05-21T17:27:06"
 aliases = "/packages/218304"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "77776"
-usize = "286353"
-sha1sum = "ac4e4a603cb9c2927984e38a5c0e8c12ec7b5f00"
+size = "77784"
+usize = "286441"
+sha1sum = "03706715fb2b2564f66f358c04248dda86c27059"
 depends = "['avahi>=0.6.31-9', 'qt6-base>=6.7.1']"
 reverse_depends = "['kio-extras', 'kio-zeroconf', 'knotes', 'krfb', 'libkdegames']"
 +++

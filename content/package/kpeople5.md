@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpeople5 5.115.0-3"
-version = "5.115.0-3"
+title = "kpeople5 5.116.0-2"
+version = "5.116.0-2"
 description = "A library that provides access to all contacts and the people who hold them."
-date = "2024-03-15T11:41:02"
+date = "2024-05-26T16:58:01"
 aliases = "/packages/218342"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "119908"
-usize = "492355"
-sha1sum = "f9b7196c128b35df162739c2b3029c3c1b970566"
-depends = "['kitemviews5>=5.115.0', 'qt5-declarative>=5.15.12']"
+size = "120048"
+usize = "492435"
+sha1sum = "b3d513b4c5d9039eae6049e73911e2554ff85d5d"
+depends = "['kitemviews5>=5.116.0', 'kservice5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-declarative>=5.15.14']"
 reverse_depends = "['calindori']"
 +++
 ### Description: 
@@ -61,15 +61,15 @@ A library that provides access to all contacts and the people who hold them.
 * /usr/lib/cmake/KF5People/KPeopleTargets.cmake
 * /usr/lib/libKF5People.so
 * /usr/lib/libKF5People.so.5
-* /usr/lib/libKF5People.so.5.115.0
+* /usr/lib/libKF5People.so.5.116.0
 * /usr/lib/libKF5PeopleBackend.so
 * /usr/lib/libKF5PeopleBackend.so.5
-* /usr/lib/libKF5PeopleBackend.so.5.115.0
+* /usr/lib/libKF5PeopleBackend.so.5.116.0
 * /usr/lib/libKF5PeopleWidgets.so
 * /usr/lib/libKF5PeopleWidgets.so.5
-* /usr/lib/libKF5PeopleWidgets.so.5.115.0
-* /usr/share/doc/kpeople5-5.115.0/README.md
-* /usr/share/doc/kpeople5-5.115.0/README.md.license
+* /usr/lib/libKF5PeopleWidgets.so.5.116.0
+* /usr/share/doc/kpeople5-5.116.0/README.md
+* /usr/share/doc/kpeople5-5.116.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kpeople5.mo
 * /usr/share/locale/az/LC_MESSAGES/kpeople5.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpeople5.mo

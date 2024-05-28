@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konqueror 24.02.2-3"
-version = "24.02.2-3"
+title = "konqueror 24.05.0-1"
+version = "24.05.0-1"
 description = "Web browser and file manager"
-date = "2024-04-16T21:35:33"
+date = "2024-05-24T09:46:08"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8722996"
-usize = "27397720"
-sha1sum = "9a47d87ef077ca832338cd67620753c6704d0d0c"
-depends = "['hunspell', 'kcmutils>=6.1.0', 'kdesu>=6.1.0', 'kparts>=6.1.0', 'plasma-activities>=6.0.4', 'qt6-speech>=6.7.0', 'qt6-webengine>=6.7.0', 'tidy>=5.6.0']"
+size = "8503940"
+usize = "27399500"
+sha1sum = "a9b40709b2da2faec4755cc5c748af05d9de8114"
+depends = "['hunspell', 'kcmutils>=6.2.0', 'kdesu>=6.2.0', 'kparts>=6.2.0', 'plasma-activities>=6.0.5', 'qt6-speech>=6.7.1', 'qt6-webengine>=6.7.1', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager
@@ -42,9 +42,9 @@ Web browser and file manager
 * /usr/lib/libKF6Konq.so.5.97.0
 * /usr/lib/libKF6Konq.so.7
 * /usr/lib/libkonqsidebarplugin.so
-* /usr/lib/libkonqsidebarplugin.so.24.02.2
+* /usr/lib/libkonqsidebarplugin.so.24.05.0
 * /usr/lib/libkonqsidebarplugin.so.6
-* /usr/lib/libkonquerorprivate.so.24.02.2
+* /usr/lib/libkonquerorprivate.so.24.05.0
 * /usr/lib/libkonquerorprivate.so.5
 * /usr/lib/libkwebenginepart.so
 * /usr/lib/qt6/plugins/akregatorkonqfeedicon.so
@@ -58,6 +58,7 @@ Web browser and file manager
 * /usr/lib/qt6/plugins/kf6/parts/fsviewpart.so
 * /usr/lib/qt6/plugins/kf6/parts/konq_sidebar.so
 * /usr/lib/qt6/plugins/kf6/parts/webenginepart.so
+* /usr/lib/qt6/plugins/kf6/thumbcreator/webarchivethumbnail.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/akregatorkonqfeediconkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/autorefreshkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/babelfishpluginkhtml_kpartplugins.so
@@ -94,7 +95,6 @@ Web browser and file manager
 * /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/webarchiverpluginkwebkitpart_kpartplugins.so
 * /usr/lib/qt6/plugins/uachangerplugin.so
 * /usr/lib/qt6/plugins/webarchiverplugin.so
-* /usr/lib/qt6/plugins/webarchivethumbnail.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/akregatorkonqfeediconwebenginepart_kpartplugins.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/autorefreshwebenginepart_kpartplugins.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/babelfishpluginwebenginepart_kpartplugins.so
@@ -597,8 +597,8 @@ Web browser and file manager
 * /usr/share/doc/HTML/uk/konqueror/viewproperties-dialog.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.docbook
-* /usr/share/doc/konqueror-24.02.2/AUTHORS
-* /usr/share/doc/konqueror-24.02.2/ChangeLog
+* /usr/share/doc/konqueror-24.05.0/AUTHORS
+* /usr/share/doc/konqueror-24.05.0/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/konqueror.png
 * /usr/share/icons/hicolor/128x128/apps/webengine.png
 * /usr/share/icons/hicolor/16x16/actions/babelfish.png
@@ -710,6 +710,28 @@ Web browser and file manager
 * /usr/share/locale/ar/LC_MESSAGES/searchbarplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/webenginepart.mo
+* /usr/share/locale/ast/LC_MESSAGES/akregator_konqplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/autorefresh.mo
+* /usr/share/locale/ast/LC_MESSAGES/babelfish.mo
+* /usr/share/locale/ast/LC_MESSAGES/dirfilterplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/fsview.mo
+* /usr/share/locale/ast/LC_MESSAGES/imgalleryplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmbookmarks.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmkonq.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmkonqhtml.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcmperformance.mo
+* /usr/share/locale/ast/LC_MESSAGES/kfmclient.mo
+* /usr/share/locale/ast/LC_MESSAGES/kgetplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/khtmlsettingsplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/khtmltts.mo
+* /usr/share/locale/ast/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ast/LC_MESSAGES/konqueror.mo
+* /usr/share/locale/ast/LC_MESSAGES/kshellcmdplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/libkonq.mo
+* /usr/share/locale/ast/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/uachangerplugin.mo
+* /usr/share/locale/ast/LC_MESSAGES/webarchiver.mo
+* /usr/share/locale/ast/LC_MESSAGES/webenginepart.mo
 * /usr/share/locale/be/LC_MESSAGES/akregator_konqplugin.mo
 * /usr/share/locale/be/LC_MESSAGES/autorefresh.mo
 * /usr/share/locale/be/LC_MESSAGES/babelfish.mo
@@ -1593,6 +1615,8 @@ Web browser and file manager
 * /usr/share/locale/lv/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/lv/LC_MESSAGES/searchbarplugin.mo
 * /usr/share/locale/lv/LC_MESSAGES/uachangerplugin.mo
+* /usr/share/locale/lv/LC_MESSAGES/webarchiver.mo
+* /usr/share/locale/lv/LC_MESSAGES/webenginepart.mo
 * /usr/share/locale/mai/LC_MESSAGES/akregator_konqplugin.mo
 * /usr/share/locale/mai/LC_MESSAGES/autorefresh.mo
 * /usr/share/locale/mai/LC_MESSAGES/babelfish.mo

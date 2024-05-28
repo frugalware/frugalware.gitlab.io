@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksnakeduel 24.02.2-3"
-version = "24.02.2-3"
+title = "ksnakeduel 24.05.0-1"
+version = "24.05.0-1"
 description = "KSnakeDuel is a simple snake duel game"
-date = "2024-04-17T00:52:22"
+date = "2024-05-24T16:02:38"
 aliases = "/packages/219339"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "605928"
-usize = "1047159"
-sha1sum = "485b4cdc5376ed9f966068bc565d7ee9349303f5"
-depends = "['libkdegames>=24.02.2']"
+size = "576176"
+usize = "1032697"
+sha1sum = "d4faa9d9c1a02a42741919d3bf49a57e9fe8bb6e"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 KSnakeDuel is a simple snake duel game
@@ -79,6 +79,7 @@ KSnakeDuel is a simple snake duel game
 * /usr/share/locale/fr/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/ga/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/gl/LC_MESSAGES/ksnakeduel.mo
+* /usr/share/locale/he/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/hr/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/hsb/LC_MESSAGES/ksnakeduel.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksnakeduel.mo

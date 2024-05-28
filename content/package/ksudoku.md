@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksudoku 24.02.2-3"
-version = "24.02.2-3"
+title = "ksudoku 24.05.0-1"
+version = "24.05.0-1"
 description = "KSudoku is a logic-based symbol placement puzzle"
-date = "2024-04-17T00:54:41"
+date = "2024-05-24T16:05:01"
 aliases = "/packages/219460"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1819324"
-usize = "4777381"
-sha1sum = "0c3ada03e5c0ef3ebafcd86eab54794a14a5e0b3"
-depends = "['libglu', 'libkdegames>=24.02.2']"
+size = "1884596"
+usize = "3702581"
+sha1sum = "ec2003c24b80807930301afd3eb4d30889ef1b0e"
+depends = "['libglu', 'libkdegames>=24.05.0']"
 +++
 ### Description: 
 KSudoku is a logic-based symbol placement puzzle
@@ -48,11 +48,11 @@ KSudoku is a logic-based symbol placement puzzle
 * /usr/share/doc/HTML/sv/ksudoku/index.docbook
 * /usr/share/doc/HTML/uk/ksudoku/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksudoku/index.docbook
-* /usr/share/doc/ksudoku-24.02.2/ChangeLog
-* /usr/share/doc/ksudoku-24.02.2/COPYING
-* /usr/share/doc/ksudoku-24.02.2/COPYING.DOC
-* /usr/share/doc/ksudoku-24.02.2/README
-* /usr/share/doc/ksudoku-24.02.2/README.PACKAGERS
+* /usr/share/doc/ksudoku-24.05.0/ChangeLog
+* /usr/share/doc/ksudoku-24.05.0/COPYING
+* /usr/share/doc/ksudoku-24.05.0/COPYING.DOC
+* /usr/share/doc/ksudoku-24.05.0/README
+* /usr/share/doc/ksudoku-24.05.0/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/ksudoku.png
 * /usr/share/icons/hicolor/16x16/apps/ksudoku.png
 * /usr/share/icons/hicolor/32x32/apps/ksudoku.png
@@ -161,13 +161,13 @@ KSudoku is a logic-based symbol placement puzzle
 * /usr/share/ksudoku/Tetromino.desktop
 * /usr/share/ksudoku/Tetromino.xml
 * /usr/share/ksudoku/themes/abstraction.desktop
-* /usr/share/ksudoku/themes/abstraction.svg
+* /usr/share/ksudoku/themes/abstraction.svgz
 * /usr/share/ksudoku/themes/abstraction_preview.png
 * /usr/share/ksudoku/themes/default.desktop
 * /usr/share/ksudoku/themes/egyptian_preview.png
-* /usr/share/ksudoku/themes/ksudoku_egyptian.svg
+* /usr/share/ksudoku/themes/ksudoku_egyptian.svgz
 * /usr/share/ksudoku/themes/ksudoku_scrible.desktop
-* /usr/share/ksudoku/themes/ksudoku_scrible.svg
+* /usr/share/ksudoku/themes/ksudoku_scrible.svgz
 * /usr/share/ksudoku/themes/scribble_preview.png
 * /usr/share/ksudoku/TinySamurai.desktop
 * /usr/share/ksudoku/TinySamurai.xml
@@ -196,6 +196,7 @@ KSudoku is a logic-based symbol placement puzzle
 * /usr/share/locale/fr/LC_MESSAGES/ksudoku.mo
 * /usr/share/locale/ga/LC_MESSAGES/ksudoku.mo
 * /usr/share/locale/gl/LC_MESSAGES/ksudoku.mo
+* /usr/share/locale/he/LC_MESSAGES/ksudoku.mo
 * /usr/share/locale/hi/LC_MESSAGES/ksudoku.mo
 * /usr/share/locale/hne/LC_MESSAGES/ksudoku.mo
 * /usr/share/locale/hr/LC_MESSAGES/ksudoku.mo

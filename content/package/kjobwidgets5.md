@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kjobwidgets5 5.115.0-2"
-version = "5.115.0-2"
+title = "kjobwidgets5 5.116.0-2"
+version = "5.116.0-2"
 description = "Widgets for showing progress of asynchronous jobs."
-date = "2024-03-14T15:48:30"
+date = "2024-05-26T16:34:39"
 aliases = "/packages/221332"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "89760"
-usize = "436308"
-sha1sum = "c614554316d46d9a3dd770a35d0618f28b181de1"
-depends = "['kcoreaddons5>=5.115.0', 'qt5-x11extras>=5.15.12']"
-reverse_depends = "['krename']"
+size = "90232"
+usize = "436396"
+sha1sum = "54ee951c7c231f90e7f8afa9ee160d8a29122f0b"
+depends = "['kcoreaddons5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-x11extras>=5.15.14']"
+reverse_depends = "['kio5', 'krename']"
 +++
 ### Description: 
 Widgets for showing progress of asynchronous jobs.
@@ -40,11 +40,11 @@ Widgets for showing progress of asynchronous jobs.
 * /usr/lib/cmake/KF5JobWidgets/KF5JobWidgetsTargets.cmake
 * /usr/lib/libKF5JobWidgets.so
 * /usr/lib/libKF5JobWidgets.so.5
-* /usr/lib/libKF5JobWidgets.so.5.115.0
+* /usr/lib/libKF5JobWidgets.so.5.116.0
 * /usr/share/dbus-1/interfaces/kf5_org.kde.JobView.xml
 * /usr/share/dbus-1/interfaces/kf5_org.kde.JobViewServer.xml
 * /usr/share/dbus-1/interfaces/kf5_org.kde.JobViewV2.xml
-* /usr/share/doc/kjobwidgets5-5.115.0/README.md
+* /usr/share/doc/kjobwidgets5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kjobwidgets5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kjobwidgets5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kjobwidgets5_qt.qm

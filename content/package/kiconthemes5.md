@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes5 5.115.0-3"
-version = "5.115.0-3"
+title = "kiconthemes5 5.116.0-2"
+version = "5.116.0-2"
 description = "Icon GUI utilities."
-date = "2024-03-15T11:31:05"
+date = "2024-05-26T16:47:30"
 aliases = "/packages/221321"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "129340"
-usize = "506227"
-sha1sum = "da9df4cf0bb17f7904023d6dfb8397571574616c"
-depends = "['karchive5>=5.115.0', 'kconfigwidgets5>=5.115.0', 'qt5-declarative>=5.15.12', 'qt5-svg>=5.15.12']"
+size = "130272"
+usize = "510427"
+sha1sum = "b5b5a8fa7f6ad1e28b45f5021229b49103c663fb"
+depends = "['karchive5>=5.116.0', 'kconfigwidgets5>=5.116.0', 'kitemviews5>=5.116.0', 'qt5-declarative>=5.15.14', 'qt5-svg>=5.15.14']"
 reverse_depends = "['kdesignerplugin5', 'kdiff3', 'knotifications5', 'krename', 'ktextwidgets5', 'qqc2-desktop-style5', 'smb4k']"
 +++
 ### Description: 
@@ -43,10 +43,10 @@ Icon GUI utilities.
 * /usr/lib/cmake/KF5IconThemes/KF5IconThemesTargets.cmake
 * /usr/lib/libKF5IconThemes.so
 * /usr/lib/libKF5IconThemes.so.5
-* /usr/lib/libKF5IconThemes.so.5.115.0
+* /usr/lib/libKF5IconThemes.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kiconthemes5widgets.so
 * /usr/lib/qt5/plugins/iconengines/KIconEnginePlugin.so
-* /usr/share/doc/kiconthemes5-5.115.0/README.md
+* /usr/share/doc/kiconthemes5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kiconthemes5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiconthemes5.mo
 * /usr/share/locale/az/LC_MESSAGES/kiconthemes5.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkleo 24.02.2-3"
-version = "24.02.2-3"
+title = "libkleo 24.05.0-1"
+version = "24.05.0-1"
 description = "This lib provides crypto for mails."
-date = "2024-04-16T21:57:26"
+date = "2024-05-24T10:09:28"
 aliases = "/packages/218474"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "735868"
-usize = "3596529"
-sha1sum = "b83544c5eab20160d92a91de17a2521a42de95af"
-depends = "['kitemmodels>=6.1.0', 'kpimtextedit>=24.02.2', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
+size = "791048"
+usize = "3834643"
+sha1sum = "6ef5f92ea69839fff656aa38e90cc61afcc94c7d"
+depends = "['kitemmodels>=6.2.0', 'kpimtextedit>=24.05.0', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
 reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++
 ### Description: 
@@ -19,6 +19,8 @@ This lib provides crypto for mails.
 
 ### Files: 
 * /etc/xdg/libkleopatrarc
+* /usr/include/KPim6/Libkleo/Libkleo/AdjustingScrollArea
+* /usr/include/KPim6/Libkleo/libkleo/adjustingscrollarea.h
 * /usr/include/KPim6/Libkleo/Libkleo/Algorithm
 * /usr/include/KPim6/Libkleo/libkleo/algorithm.h
 * /usr/include/KPim6/Libkleo/Libkleo/Assuan
@@ -126,10 +128,6 @@ This lib provides crypto for mails.
 * /usr/include/KPim6/Libkleo/libkleo/kleo_export.h
 * /usr/include/KPim6/Libkleo/Libkleo/MessageBox
 * /usr/include/KPim6/Libkleo/libkleo/messagebox.h
-* /usr/include/KPim6/Libkleo/Libkleo/NavigatableTreeView
-* /usr/include/KPim6/Libkleo/libkleo/navigatabletreeview.h
-* /usr/include/KPim6/Libkleo/Libkleo/NavigatableTreeWidget
-* /usr/include/KPim6/Libkleo/libkleo/navigatabletreewidget.h
 * /usr/include/KPim6/Libkleo/Libkleo/NewKeyApprovalDialog
 * /usr/include/KPim6/Libkleo/libkleo/newkeyapprovaldialog.h
 * /usr/include/KPim6/Libkleo/Libkleo/OidMap
@@ -154,10 +152,18 @@ This lib provides crypto for mails.
 * /usr/include/KPim6/Libkleo/libkleo/systeminfo.h
 * /usr/include/KPim6/Libkleo/Libkleo/Test
 * /usr/include/KPim6/Libkleo/libkleo/test.h
+* /usr/include/KPim6/Libkleo/Libkleo/TreeView
+* /usr/include/KPim6/Libkleo/libkleo/treeview.h
+* /usr/include/KPim6/Libkleo/Libkleo/TreeWidget
+* /usr/include/KPim6/Libkleo/libkleo/treewidget.h
 * /usr/include/KPim6/Libkleo/Libkleo/UniqueLock
 * /usr/include/KPim6/Libkleo/libkleo/uniquelock.h
 * /usr/include/KPim6/Libkleo/Libkleo/UserIDListModel
 * /usr/include/KPim6/Libkleo/libkleo/useridlistmodel.h
+* /usr/include/KPim6/Libkleo/Libkleo/UserIDProxyModel
+* /usr/include/KPim6/Libkleo/libkleo/useridproxymodel.h
+* /usr/include/KPim6/Libkleo/Libkleo/UserIDSelectionCombo
+* /usr/include/KPim6/Libkleo/libkleo/useridselectioncombo.h
 * /usr/include/KPim6/Libkleo/libkleo_version.h
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoConfig.cmake
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoConfigVersion.cmake
@@ -165,7 +171,7 @@ This lib provides crypto for mails.
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoTargets.cmake
 * /usr/lib/libKPim6Libkleo.so
 * /usr/lib/libKPim6Libkleo.so.6
-* /usr/lib/libKPim6Libkleo.so.6.0.2
+* /usr/lib/libKPim6Libkleo.so.6.1.0
 * /usr/share/libkleopatra/pics/chiasmus_chi.png
 * /usr/share/libkleopatra/pics/hi16-app-gpg.png
 * /usr/share/libkleopatra/pics/hi16-app-gpgsm.png
@@ -179,6 +185,7 @@ This lib provides crypto for mails.
 * /usr/share/libkleopatra/pics/key_unknown.png
 * /usr/share/libkleopatra/pics/smartcard.xpm
 * /usr/share/locale/ar/LC_MESSAGES/libkleopatra6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/be/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/br/LC_MESSAGES/libkleopatra6.mo

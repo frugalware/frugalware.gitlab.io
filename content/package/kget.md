@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 24.02.2-3"
-version = "24.02.2-3"
+title = "kget 24.05.0-1"
+version = "24.05.0-1"
 description = "A free download manager for KDE."
-date = "2024-04-17T00:35:48"
+date = "2024-05-24T15:44:39"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5938560"
-usize = "12055363"
-sha1sum = "06ad818adfeebd576b8907cf2fabca3835f4e452"
-depends = "['kcmutils>=6.1.0', 'knotifyconfig>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.4']"
+size = "5289092"
+usize = "11439558"
+sha1sum = "61168929fc90d15778869d19715b304659613383"
+depends = "['kcmutils>=6.2.0', 'knotifyconfig>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.5']"
 +++
 ### Description: 
 A free download manager for KDE.
@@ -197,14 +197,14 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/uk/kget/metalink1.png
 * /usr/share/doc/HTML/uk/kget/metalink2.png
 * /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-24.02.2/AUTHORS
-* /usr/share/doc/kget-24.02.2/Changelog
-* /usr/share/doc/kget-24.02.2/COPYING
-* /usr/share/doc/kget-24.02.2/COPYING.DOC
-* /usr/share/doc/kget-24.02.2/COPYING.LIB
-* /usr/share/doc/kget-24.02.2/HACKING
-* /usr/share/doc/kget-24.02.2/README
-* /usr/share/doc/kget-24.02.2/TODO
+* /usr/share/doc/kget-24.05.0/AUTHORS
+* /usr/share/doc/kget-24.05.0/Changelog
+* /usr/share/doc/kget-24.05.0/COPYING
+* /usr/share/doc/kget-24.05.0/COPYING.DOC
+* /usr/share/doc/kget-24.05.0/COPYING.LIB
+* /usr/share/doc/kget-24.05.0/HACKING
+* /usr/share/doc/kget-24.05.0/README
+* /usr/share/doc/kget-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kget.png
 * /usr/share/icons/hicolor/16x16/apps/kget.png
 * /usr/share/icons/hicolor/22x22/apps/kget.png
@@ -217,6 +217,7 @@ A free download manager for KDE.
 * /usr/share/knotifications6/kget.notifyrc
 * /usr/share/locale/af/LC_MESSAGES/kget.mo
 * /usr/share/locale/ar/LC_MESSAGES/kget.mo
+* /usr/share/locale/ast/LC_MESSAGES/kget.mo
 * /usr/share/locale/be/LC_MESSAGES/kget.mo
 * /usr/share/locale/bg/LC_MESSAGES/kget.mo
 * /usr/share/locale/br/LC_MESSAGES/kget.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinit5 5.115.0-4"
-version = "5.115.0-4"
+title = "kinit5 5.116.0-2"
+version = "5.116.0-2"
 description = "KInit."
-date = "2024-03-26T13:46:19"
+date = "2024-05-26T17:06:09"
 aliases = "/packages/221325"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "114388"
-usize = "507103"
-sha1sum = "703c332f3e15f25439bdcced0266cd9dc7729643"
-depends = "[]"
+size = "114836"
+usize = "507142"
+sha1sum = "355039d8f6bb7e5f7d1dae4cc0801a14ee5347e6"
+depends = "['kio5>=5.116.0']"
 reverse_depends = "['cervisia', 'kded5']"
 +++
 ### Description: 
@@ -32,7 +32,7 @@ KInit.
 * /usr/lib/kf5/kf5/start_kdeinit_wrapper
 * /usr/lib/libkdeinit5_klauncher.so
 * /usr/share/dbus-1/interfaces/kf5_org.kde.KLauncher.xml
-* /usr/share/doc/kinit5-5.115.0/README.md
+* /usr/share/doc/kinit5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kinit5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kinit5.mo
 * /usr/share/locale/as/LC_MESSAGES/kinit5.mo

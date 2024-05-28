@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kgamma 6.0.4-1"
-version = "6.0.4-1"
+title = "kgamma 6.0.5-1"
+version = "6.0.5-1"
 description = "Adjust your monitor's gamma settings"
-date = "2024-04-16T18:48:09"
+date = "2024-05-22T07:30:27"
 aliases = "/packages/221313"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137380"
-usize = "379156"
-sha1sum = "ddf67eee9750292e76201ab0632e35c9a6c73014"
+size = "138056"
+usize = "379159"
+sha1sum = "025d20c2c465565992c55f4b73cd64d4f13589ee"
 depends = "['kcmutils>=6.2.0', 'kconfigwidgets>=6.2.0']"
 +++
 ### Description: 

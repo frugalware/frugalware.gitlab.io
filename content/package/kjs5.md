@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kjs5 5.115.0-4"
-version = "5.115.0-4"
+title = "kjs5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE Javascript engine."
-date = "2024-03-26T10:36:27"
+date = "2024-05-26T16:41:34"
 aliases = "/packages/221333"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "366428"
-usize = "1576749"
-sha1sum = "42adb5ace1a579aa585a30b29ddad466a74e662b"
-depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kjsembed5', 'krename']"
+size = "367168"
+usize = "1580933"
+sha1sum = "65223ca3246c731d70f5569e31a13ad89a1d9fa2"
+depends = "['qt5-base>=5.15.14']"
+reverse_depends = "['khtml5', 'kjsembed5', 'krename']"
 +++
 ### Description: 
 KDE Javascript engine.
@@ -118,12 +118,12 @@ KDE Javascript engine.
 * /usr/lib/cmake/KF5JS/KF5JSTargets.cmake
 * /usr/lib/libKF5JS.so
 * /usr/lib/libKF5JS.so.5
-* /usr/lib/libKF5JS.so.5.115.0
+* /usr/lib/libKF5JS.so.5.116.0
 * /usr/lib/libKF5JSApi.so
 * /usr/lib/libKF5JSApi.so.5
-* /usr/lib/libKF5JSApi.so.5.115.0
-* /usr/share/doc/kjs5-5.115.0/COPYING.LIB
-* /usr/share/doc/kjs5-5.115.0/README.md
+* /usr/lib/libKF5JSApi.so.5.116.0
+* /usr/share/doc/kjs5-5.116.0/COPYING.LIB
+* /usr/share/doc/kjs5-5.116.0/README.md
 * /usr/share/kf5/kjs/create_hash_table
 * /usr/share/man/ca/man1/kjs5.1.gz
 * /usr/share/man/ca@valencia/man1/kjs5.1.gz

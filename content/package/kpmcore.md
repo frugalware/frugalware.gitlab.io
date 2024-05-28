@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpmcore 24.02.2-3"
-version = "24.02.2-3"
+title = "kpmcore 24.05.0-1"
+version = "24.05.0-1"
 description = "Library for managing partitions"
-date = "2024-04-17T00:20:54"
+date = "2024-05-24T15:04:30"
 aliases = "/packages/218345"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "656148"
-usize = "4217925"
-sha1sum = "6c1117e1df1273e60c0b5b807a69f9415ab8e7f5"
-depends = "['kauth>=6.1.0', 'ki18n>=>=6.1.0', 'kwidgetsaddons>=6.1.0', 'qca', 'qca-ossl', 'qt6-svg>=6.7.0', 'util-linux']"
+size = "666772"
+usize = "4259675"
+sha1sum = "7523ea8c0cc5e63445ea541e9411060fd59f5fee"
+depends = "['kauth>=6.2.0', 'ki18n>=>=6.2.0', 'kwidgetsaddons>=6.2.0', 'qca', 'qca-ossl', 'qt6-svg>=6.7.1', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
 ### Description: 
@@ -106,14 +106,16 @@ Library for managing partitions
 * /usr/lib/kpmcore/kpmcore_externalcommand
 * /usr/lib/libkpmcore.so
 * /usr/lib/libkpmcore.so.12
-* /usr/lib/libkpmcore.so.24.02.2
+* /usr/lib/libkpmcore.so.24.05.0
 * /usr/lib/qt6/plugins/kpmcore/pmdummybackendplugin.so
 * /usr/lib/qt6/plugins/kpmcore/pmsfdiskbackendplugin.so
 * /usr/share/dbus-1/system-services/org.kde.kpmcore.helperinterface.service
 * /usr/share/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
-* /usr/share/doc/kpmcore-24.02.2/INSTALL.md
-* /usr/share/doc/kpmcore-24.02.2/README.md
+* /usr/share/doc/kpmcore-24.05.0/INSTALL.md
+* /usr/share/doc/kpmcore-24.05.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpmcore.mo
+* /usr/share/locale/ast/LC_MESSAGES/kpmcore.mo
+* /usr/share/locale/ast/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/bs/LC_MESSAGES/kpmcore.mo

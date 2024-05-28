@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinfocenter 6.0.4-1"
-version = "6.0.4-1"
+title = "kinfocenter 6.0.5-1"
+version = "6.0.5-1"
 description = "Utility that provides information about a computer system."
-date = "2024-04-16T19:15:30"
+date = "2024-05-22T08:39:41"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "903344"
-usize = "3141338"
-sha1sum = "bd9f16bbe59b9d40635851a2f5d4a0b5f97a2d34"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.1.0', 'kirigami>=6.1.0', 'kpackage>=6.1.0', 'kwayland>=6.0.4', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.1.0', 'systemsettings>=6.0.4', 'vulkan-tools', 'wayland-utils']"
+size = "904404"
+usize = "3146027"
+sha1sum = "8e552c2109790bb7a2b2bee5d3acb1477de8fc95"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.2.0', 'kirigami>=6.2.0', 'kpackage>=6.2.0', 'kwayland>=6.0.5', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.2.0', 'systemsettings>=6.0.5', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.
@@ -81,7 +81,7 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/uk/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/uk/kinfocenter/index.docbook
 * /usr/share/doc/HTML/uk/kinfocenter/kinfocenter.png
-* /usr/share/doc/kinfocenter-6.0.4/README.md
+* /usr/share/doc/kinfocenter-6.0.5/README.md
 * /usr/share/kinfocenter/categories/basicinformation.desktop
 * /usr/share/kinfocenter/categories/deviceinfocategory.desktop
 * /usr/share/kinfocenter/categories/graphicalinfocategory.desktop

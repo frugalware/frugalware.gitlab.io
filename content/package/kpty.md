@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpty 6.1.0-1"
-version = "6.1.0-1"
+title = "kpty 6.2.0-2"
+version = "6.2.0-2"
 description = "Interfacing with pseudo terminal devices."
-date = "2024-04-12T20:19:28"
+date = "2024-05-21T17:53:28"
 aliases = "/packages/218346"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42748"
-usize = "166322"
-sha1sum = "273ce4b4752998aa68bf17fa6987cb4907513bc0"
-depends = "['kcoreaddons>=6.1.0', 'ki18n>=6.1.0', 'libutempter']"
+size = "42948"
+usize = "166410"
+sha1sum = "df8628423ddbfab251d5952f505f9b8415753912"
+depends = "['kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'libutempter']"
 reverse_depends = "['ark', 'cantor', 'kdesu', 'kio-extras', 'konsole', 'kwrited', 'kwrited5', 'okular', 'qmlkonsole']"
 +++
 ### Description: 
@@ -32,8 +32,8 @@ Interfacing with pseudo terminal devices.
 * /usr/lib/cmake/KF6Pty/KF6PtyTargets.cmake
 * /usr/lib/libKF6Pty.so
 * /usr/lib/libKF6Pty.so.6
-* /usr/lib/libKF6Pty.so.6.1.0
-* /usr/share/doc/kpty-6.1.0/README.md
+* /usr/lib/libKF6Pty.so.6.2.0
+* /usr/share/doc/kpty-6.2.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kpty6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kpty6.mo
 * /usr/share/locale/as/LC_MESSAGES/kpty6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdc 24.02.2-3"
-version = "24.02.2-3"
+title = "krdc 24.05.0-2"
+version = "24.05.0-2"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2024-04-17T02:19:37"
+date = "2024-05-26T17:47:39"
 aliases = "/packages/74081"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1693700"
-usize = "3431643"
-sha1sum = "a0facfef1d3c02193c588d1c89792d47d16c9bac"
-depends = "['kactivities5>=5.115.0', 'kbookmarks5>=5.115.0', 'kcmutils5>=5.115.0', 'kdnssd5>=5.115.0', 'knotifications5>=5.115.0', 'knotifyconfig5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kwallet5>=5.115.0', 'libssh', 'libvncserver']"
+size = "1585884"
+usize = "3326877"
+sha1sum = "659272ec6f1bdd0e3a525034b72af9c9ab3a01fa"
+depends = "['kactivities5>=5.116.0', 'kbookmarks5>=5.116.0', 'kcmutils5>=5.116.0', 'kdnssd5>=5.116.0', 'knotifications5>=5.116.0', 'knotifyconfig5>=5.116.0', 'knotifyconfig5>=5.116.0', 'kwallet5>=5.116.0', 'libssh', 'libvncserver']"
 reverse_depends = "['qt-virt-manager']"
 +++
 ### Description: 
@@ -24,11 +24,11 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/include/krdc/remoteviewfactory.h
 * /usr/include/krdccore_export.h
 * /usr/lib/libkrdccore.so
-* /usr/lib/libkrdccore.so.24.02.2
+* /usr/lib/libkrdccore.so.24.05.0
 * /usr/lib/libkrdccore.so.5
 * /usr/lib/qt5/plugins/krdc/kcms/libkcm_krdc_vncplugin.so
-* /usr/lib/qt5/plugins/krdc/libkrdc_testplugin.so
-* /usr/lib/qt5/plugins/krdc/libkrdc_vncplugin.so
+* /usr/lib/qt5/plugins/krdc/krdc_testplugin.so
+* /usr/lib/qt5/plugins/krdc/krdc_vncplugin.so
 * /usr/share/applications/org.kde.krdc.desktop
 * /usr/share/config.kcfg/krdc.kcfg
 * /usr/share/doc/HTML/ca/krdc/index.cache.bz2

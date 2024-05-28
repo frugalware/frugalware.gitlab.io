@@ -12,6 +12,7 @@ size = "72312"
 usize = "283015"
 sha1sum = "529334760b619bb6d74fc6fdb99da10992776197"
 depends = "['qt5-base>=5.15.12']"
+reverse_depends = "['krunner5']"
 +++
 ### Description: 
 KDE Helper for multithreaded programming.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifyconfig5 5.115.0-3"
-version = "5.115.0-3"
+title = "knotifyconfig5 5.116.0-2"
+version = "5.116.0-2"
 description = "Configuration dialog for desktop notifications."
-date = "2024-03-15T11:38:53"
+date = "2024-05-26T17:14:50"
 aliases = "/packages/221339"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "71672"
-usize = "357767"
-sha1sum = "e2d22fe882c1fe24697b79d096266c515f3a8448"
-depends = "['kio5>=5.115.0']"
+size = "71920"
+usize = "361961"
+sha1sum = "5e72d8a56a67b0460fa4ac8361934ab14b923d7f"
+depends = "['kio5>=5.116.0']"
 reverse_depends = "['k3b', 'kdevelop', 'krdc', 'krdc', 'kstars', 'quassel', 'rsibreak', 'skrooge']"
 +++
 ### Description: 
@@ -28,8 +28,8 @@ Configuration dialog for desktop notifications.
 * /usr/lib/cmake/KF5NotifyConfig/KF5NotifyConfigTargets.cmake
 * /usr/lib/libKF5NotifyConfig.so
 * /usr/lib/libKF5NotifyConfig.so.5
-* /usr/lib/libKF5NotifyConfig.so.5.115.0
-* /usr/share/doc/knotifyconfig5-5.115.0/README.md
+* /usr/lib/libKF5NotifyConfig.so.5.116.0
+* /usr/share/doc/knotifyconfig5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/knotifyconfig5.mo
 * /usr/share/locale/ar/LC_MESSAGES/knotifyconfig5.mo
 * /usr/share/locale/as/LC_MESSAGES/knotifyconfig5.mo

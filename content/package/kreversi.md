@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kreversi 24.02.2-3"
-version = "24.02.2-3"
+title = "kreversi 24.05.0-1"
+version = "24.05.0-1"
 description = "KReversi is is a simple one player strategy game played against the computer"
-date = "2024-04-17T00:49:50"
+date = "2024-05-24T16:00:03"
 aliases = "/packages/219338"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1064464"
-usize = "2291954"
-sha1sum = "efc996486fcaad66f30a9efbe49de9767988028d"
-depends = "['libkdegames>=24.02.2']"
+size = "1027668"
+usize = "1992098"
+sha1sum = "3b2d3f7d0c4e3f4433066b0c84cc5f4f0b7657c5"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 KReversi is is a simple one player strategy game played against the computer
@@ -63,10 +63,10 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/doc/HTML/uk/kreversi/index.docbook
 * /usr/share/doc/HTML/uk/kreversi/kreversi1.png
 * /usr/share/doc/HTML/uk/kreversi/kreversi2.png
-* /usr/share/doc/kreversi-24.02.2/AUTHORS
-* /usr/share/doc/kreversi-24.02.2/ChangeLog
-* /usr/share/doc/kreversi-24.02.2/NEWS
-* /usr/share/doc/kreversi-24.02.2/TODO
+* /usr/share/doc/kreversi-24.05.0/AUTHORS
+* /usr/share/doc/kreversi-24.05.0/ChangeLog
+* /usr/share/doc/kreversi-24.05.0/NEWS
+* /usr/share/doc/kreversi-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kreversi.png
 * /usr/share/icons/hicolor/16x16/actions/lastmoves.png
 * /usr/share/icons/hicolor/16x16/actions/legalmoves.png
@@ -84,8 +84,6 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/icons/hicolor/scalable/actions/lastmoves.svgz
 * /usr/share/icons/hicolor/scalable/actions/legalmoves.svgz
 * /usr/share/knotifications6/kreversi.notifyrc
-* /usr/share/kreversi/pics/default_theme.desktop
-* /usr/share/kreversi/pics/default_theme.svgz
 * /usr/share/kreversi/qml/Board.qml
 * /usr/share/kreversi/qml/CanvasItem.qml
 * /usr/share/kreversi/qml/Cell.qml
@@ -95,6 +93,8 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/kreversi/qml/Table.qml
 * /usr/share/kreversi/sounds/reversi-click.wav
 * /usr/share/kreversi/sounds/reversi-won.wav
+* /usr/share/kreversi/themes/default.desktop
+* /usr/share/kreversi/themes/default.svgz
 * /usr/share/locale/af/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/ar/LC_MESSAGES/kreversi.mo
 * /usr/share/locale/ast/LC_MESSAGES/kreversi.mo

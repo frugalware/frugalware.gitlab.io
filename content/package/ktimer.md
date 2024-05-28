@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktimer 24.02.2-3"
-version = "24.02.2-3"
+title = "ktimer 24.05.0-1"
+version = "24.05.0-1"
 description = "Countdown timer."
-date = "2024-04-16T21:43:13"
+date = "2024-05-24T09:54:50"
 aliases = "/packages/153208"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "463956"
-usize = "962899"
-sha1sum = "6e25d12098f4f774ff3da6e8adc2cb42888dc27a"
-depends = "['kio>=6.1.0', 'kstatusnotifieritem>=6.1.0']"
+size = "506056"
+usize = "953817"
+sha1sum = "66677c908077e78eb1555bc0a44af3fa0aff6e7d"
+depends = "['kio>=6.2.0', 'kstatusnotifieritem>=6.2.0']"
 +++
 ### Description: 
 Countdown timer.
@@ -73,7 +73,7 @@ Countdown timer.
 * /usr/share/doc/HTML/uk/ktimer/main.png
 * /usr/share/doc/HTML/uk/ktimer/running.png
 * /usr/share/doc/HTML/uk/ktimer/two_at_once.png
-* /usr/share/doc/ktimer-24.02.2/COPYING
+* /usr/share/doc/ktimer-24.05.0/COPYING
 * /usr/share/icons/hicolor/128x128/apps/ktimer.png
 * /usr/share/icons/hicolor/16x16/apps/ktimer.png
 * /usr/share/icons/hicolor/32x32/apps/ktimer.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes 6.1.0-1"
-version = "6.1.0-1"
+title = "kiconthemes 6.2.0-2"
+version = "6.2.0-2"
 description = "Icon GUI utilities."
-date = "2024-04-12T20:12:57"
+date = "2024-05-21T17:48:10"
 aliases = "/packages/218316"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "151432"
-usize = "604320"
-sha1sum = "9409aebce592a815e44c061937f4617364521ab6"
-depends = "['karchive>=6.1.0', 'kconfigwidgets>=6.1.0', 'kitemviews>=6.1.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
+size = "151664"
+usize = "607564"
+sha1sum = "79315ff48219add16d4c095fb5639802e6bd9b0a"
+depends = "['karchive>=6.2.0', 'kconfigwidgets>=6.2.0', 'kitemviews>=6.2.0', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
 reverse_depends = "['breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdesignerplugin', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -46,17 +46,17 @@ Icon GUI utilities.
 * /usr/lib/cmake/KF6IconThemes/KF6IconThemesTargets.cmake
 * /usr/lib/libKF6IconThemes.so
 * /usr/lib/libKF6IconThemes.so.6
-* /usr/lib/libKF6IconThemes.so.6.1.0
+* /usr/lib/libKF6IconThemes.so.6.2.0
 * /usr/lib/libKF6IconWidgets.so
 * /usr/lib/libKF6IconWidgets.so.6
-* /usr/lib/libKF6IconWidgets.so.6.1.0
+* /usr/lib/libKF6IconWidgets.so.6.2.0
 * /usr/lib/qt6/plugins/designer/kiconthemes6widgets.so
 * /usr/lib/qt6/plugins/iconengines/KIconEnginePlugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/iconthemesplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/iconthemes/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/iconthemes/libiconthemesplugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/qmldir
-* /usr/share/doc/kiconthemes-6.1.0/README.md
+* /usr/share/doc/kiconthemes-6.2.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kiconthemes6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail-account-wizard 24.02.2-3"
-version = "24.02.2-3"
+title = "kmail-account-wizard 24.05.0-1"
+version = "24.05.0-1"
 description = "Assistant for KMail accounts configuration"
-date = "2024-04-16T23:47:21"
+date = "2024-05-24T14:28:23"
 aliases = "/packages/218935"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "136924"
-usize = "579005"
-sha1sum = "d7b3faaa16b8e4926466673f42422e02929f672e"
-depends = "['kidentitymanagement>=24.02.2', 'kmailtransport>=24.02.2', 'knewstuff>=6.1.0', 'knotifyconfig>=6.1.0', 'ktexteditor>=6.1.0', 'libkdepim>=24.02.2', 'libkleo>=24.02.2', 'mailcommon>=24.02.2']"
+size = "141860"
+usize = "605509"
+sha1sum = "8b4a745dc1f7f8e569687f9696f48cfb1ff77e0a"
+depends = "['kidentitymanagement>=24.05.0', 'kmailtransport>=24.05.0', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'ktexteditor>=6.2.0', 'libkdepim>=24.05.0', 'libkleo>=24.05.0', 'mailcommon>=24.05.0']"
 reverse_depends = "['kmail']"
 +++
 ### Description: 

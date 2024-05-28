@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kguiaddons5 5.115.0-3"
-version = "5.115.0-3"
+title = "kguiaddons5 5.116.0-2"
+version = "5.116.0-2"
 description = "Utilities for graphical user interfaces."
-date = "2024-03-14T15:45:46"
+date = "2024-05-26T16:29:36"
 aliases = "/packages/221316"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "86136"
-usize = "318508"
-sha1sum = "2972bda637189e2c12eeded048a1ff29536d9dc5"
-depends = "['qt5-base>=5.15.12', 'qt5-wayland>=5.15.12', 'qt5-x11extras>=5.15.12']"
+size = "85616"
+usize = "314508"
+sha1sum = "eb11cca58dbae28e9e8355ac3fddce3fdbc6881c"
+depends = "['qt5-base>=5.15.14', 'qt5-wayland>=5.15.14', 'qt5-x11extras>=5.15.14']"
 reverse_depends = "['kconfigwidgets5', 'krita', 'kwayland-integration']"
 +++
 ### Description: 
@@ -54,8 +54,8 @@ Utilities for graphical user interfaces.
 * /usr/lib/cmake/KF5GuiAddons/KF5GuiAddonsTargets.cmake
 * /usr/lib/libKF5GuiAddons.so
 * /usr/lib/libKF5GuiAddons.so.5
-* /usr/lib/libKF5GuiAddons.so.5.115.0
-* /usr/share/doc/kguiaddons5-5.115.0/README.md
-* /usr/share/doc/kguiaddons5-5.115.0/README.md.license
+* /usr/lib/libKF5GuiAddons.so.5.116.0
+* /usr/share/doc/kguiaddons5-5.116.0/README.md
+* /usr/share/doc/kguiaddons5-5.116.0/README.md.license
 * /usr/share/qlogging-categories5/kguiaddons.categories
 * /usr/share/qt5/mkspecs/modules/qt_KGuiAddons.pri

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kross5 5.115.0-4"
-version = "5.115.0-4"
+title = "kross5 5.116.0-2"
+version = "5.116.0-2"
 description = "Embedding of scripting into applications."
-date = "2024-03-26T10:22:41"
+date = "2024-05-26T17:20:59"
 aliases = "/packages/221346"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "369956"
-usize = "1905021"
-sha1sum = "20b795afcfc49825fc00c27f92b7e499e1e1fcae"
-depends = "['kparts5>=5.115.0']"
+size = "374428"
+usize = "1937877"
+sha1sum = "e61c444b590e09c41d199add545d56648d736f64"
+depends = "['kparts5>=5.116.0']"
 reverse_depends = "['kross-interpreters', 'lokalize']"
 +++
 ### Description: 
@@ -61,16 +61,16 @@ Embedding of scripting into applications.
 * /usr/lib/cmake/KF5Kross/KF5KrossTargets.cmake
 * /usr/lib/libKF5KrossCore.so
 * /usr/lib/libKF5KrossCore.so.5
-* /usr/lib/libKF5KrossCore.so.5.115.0
+* /usr/lib/libKF5KrossCore.so.5.116.0
 * /usr/lib/libKF5KrossUi.so
 * /usr/lib/libKF5KrossUi.so.5
-* /usr/lib/libKF5KrossUi.so.5.115.0
+* /usr/lib/libKF5KrossUi.so.5.116.0
 * /usr/lib/qt5/plugins/krossmoduleforms.so
 * /usr/lib/qt5/plugins/krossmodulekdetranslation.so
 * /usr/lib/qt5/plugins/krossqts.so
 * /usr/lib/qt5/plugins/script/krossqtsplugin.so
-* /usr/share/doc/kross5-5.115.0/COPYING.LIB
-* /usr/share/doc/kross5-5.115.0/README.md
+* /usr/share/doc/kross5-5.116.0/COPYING.LIB
+* /usr/share/doc/kross5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kross5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kross5.mo
 * /usr/share/locale/as/LC_MESSAGES/kross5.mo

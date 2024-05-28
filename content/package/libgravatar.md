@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgravatar 24.02.2-3"
-version = "24.02.2-3"
+title = "libgravatar 24.05.0-1"
+version = "24.05.0-1"
 description = "A library that provides an interface for the Gravatar API"
-date = "2024-04-16T23:23:35"
+date = "2024-05-24T14:03:08"
 aliases = "/packages/218469"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42392"
-usize = "171385"
-sha1sum = "4604c649590f8221539c386aaea809924bec5701"
-depends = "['akonadi>=24.02.2', 'pimcommon>=24.02.2']"
+size = "42872"
+usize = "174494"
+sha1sum = "599a4f634ae793e3ca4e10db95b571a8cb467c30"
+depends = "['akonadi>=24.05.0', 'pimcommon>=24.05.0']"
 reverse_depends = "['messagelib']"
 +++
 ### Description: 
@@ -37,9 +37,9 @@ A library that provides an interface for the Gravatar API
 * /usr/lib/cmake/KPim6Gravatar/KPim6GravatarTargets.cmake
 * /usr/lib/libKPim6Gravatar.so
 * /usr/lib/libKPim6Gravatar.so.6
-* /usr/lib/libKPim6Gravatar.so.6.0.2
-* /usr/share/doc/libgravatar-24.02.2/README.md
-* /usr/share/doc/libgravatar-24.02.2/README.md.license
+* /usr/lib/libKPim6Gravatar.so.6.1.0
+* /usr/share/doc/libgravatar-24.05.0/README.md
+* /usr/share/doc/libgravatar-24.05.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/ca/LC_MESSAGES/libgravatar6.mo
@@ -56,6 +56,7 @@ A library that provides an interface for the Gravatar API
 * /usr/share/locale/fi/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/fr/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libgravatar6.mo
+* /usr/share/locale/he/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libgravatar6.mo
@@ -65,6 +66,7 @@ A library that provides an interface for the Gravatar API
 * /usr/share/locale/ka/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/ko/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/lt/LC_MESSAGES/libgravatar6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/nl/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/nn/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/pl/LC_MESSAGES/libgravatar6.mo
@@ -80,6 +82,7 @@ A library that provides an interface for the Gravatar API
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libgravatar6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/tr/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/uk/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libgravatar6.mo

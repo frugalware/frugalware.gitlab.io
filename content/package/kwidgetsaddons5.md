@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kwidgetsaddons5 5.115.0-2"
-version = "5.115.0-2"
+title = "kwidgetsaddons5 5.116.0-2"
+version = "5.116.0-2"
 description = "Large set of desktop widgets."
-date = "2024-03-14T15:07:54"
+date = "2024-05-26T16:33:38"
 aliases = "/packages/221356"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1508860"
-usize = "7348000"
-sha1sum = "ccf9db1d3e5f88bf3b18817771925067db73fec2"
-depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kcompletion5', 'kconfigwidgets5', 'kdiff3', 'rkward']"
+size = "1518364"
+usize = "7380563"
+sha1sum = "2626dfedecd8979293f8ffaec64044f17a04c91b"
+depends = "['qt5-base>=5.15.14']"
+reverse_depends = "['kcompletion5', 'kconfigwidgets5', 'kdiff3', 'kjobwidgets5', 'kpeople5', 'rkward']"
 +++
 ### Description: 
 Large set of desktop widgets.
@@ -183,9 +183,9 @@ Large set of desktop widgets.
 * /usr/lib/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake
 * /usr/lib/libKF5WidgetsAddons.so
 * /usr/lib/libKF5WidgetsAddons.so.5
-* /usr/lib/libKF5WidgetsAddons.so.5.115.0
+* /usr/lib/libKF5WidgetsAddons.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kwidgetsaddons5widgets.so
-* /usr/share/doc/kwidgetsaddons5-5.115.0/README.md
+* /usr/share/doc/kwidgetsaddons5-5.116.0/README.md
 * /usr/share/kf5/kcharselect/kcharselect-data
 * /usr/share/locale/af/LC_MESSAGES/kwidgetsaddons5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kwidgetsaddons5_qt.qm

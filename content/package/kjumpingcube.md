@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjumpingcube 24.02.2-3"
-version = "24.02.2-3"
+title = "kjumpingcube 24.05.0-1"
+version = "24.05.0-1"
 description = "A simple tactical game."
-date = "2024-04-16T22:28:47"
+date = "2024-05-24T10:43:46"
 aliases = "/packages/184185"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "452240"
-usize = "1359092"
-sha1sum = "ff2f0b0d30ca1b006c5b7693468e6df954095149"
-depends = "['knotifyconfig>=6.1.0', 'libkdegames>=24.02.2']"
+size = "455308"
+usize = "1269850"
+sha1sum = "8df1da758ac70ac2709a0034524636e8b7020e43"
+depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
 +++
 ### Description: 
 A simple tactical game.
@@ -51,19 +51,19 @@ A simple tactical game.
 * /usr/share/doc/HTML/uk/kjumpingcube/index.cache.bz2
 * /usr/share/doc/HTML/uk/kjumpingcube/index.docbook
 * /usr/share/doc/HTML/uk/kjumpingcube/settings.png
-* /usr/share/doc/kjumpingcube-24.02.2/AUTHORS
-* /usr/share/doc/kjumpingcube-24.02.2/ChangeLog
-* /usr/share/doc/kjumpingcube-24.02.2/README
-* /usr/share/doc/kjumpingcube-24.02.2/README.PACKAGERS
-* /usr/share/doc/kjumpingcube-24.02.2/TODO
+* /usr/share/doc/kjumpingcube-24.05.0/AUTHORS
+* /usr/share/doc/kjumpingcube-24.05.0/ChangeLog
+* /usr/share/doc/kjumpingcube-24.05.0/README
+* /usr/share/doc/kjumpingcube-24.05.0/README.PACKAGERS
+* /usr/share/doc/kjumpingcube-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/16x16/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/22x22/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/32x32/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/48x48/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/64x64/apps/kjumpingcube.png
-* /usr/share/kjumpingcube/pics/default.desktop
-* /usr/share/kjumpingcube/pics/default.svg
+* /usr/share/kjumpingcube/themes/default.desktop
+* /usr/share/kjumpingcube/themes/default.svgz
 * /usr/share/locale/af/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/ar/LC_MESSAGES/kjumpingcube.mo
 * /usr/share/locale/ast/LC_MESSAGES/kjumpingcube.mo

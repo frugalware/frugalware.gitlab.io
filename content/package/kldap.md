@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kldap 24.02.2-3"
-version = "24.02.2-3"
+title = "kldap 24.05.0-1"
+version = "24.05.0-1"
 description = "Desc: C++ API for LDAP access."
-date = "2024-04-16T21:49:54"
+date = "2024-05-24T10:01:55"
 aliases = "/packages/218330"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "213356"
-usize = "873015"
-sha1sum = "0d7205d02e57f5fe7216d6e244cdfabce10f6ffb"
-depends = "['kcompletion>=6.1.0', 'ki18n>=6.1.0', 'kio>=6.1.0', 'kmbox>=24.02.2', 'libldap>=2.5.4', 'qtkeychain']"
+size = "216972"
+usize = "897454"
+sha1sum = "7a101cbd43a663c34317e4c89503073bd2b37703"
+depends = "['kcompletion>=6.2.0', 'ki18n>=6.2.0', 'kio>=6.2.0', 'kmbox>=24.05.0', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -72,10 +72,10 @@ Desc: C++ API for LDAP access.
 * /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
 * /usr/lib/libKPim6LdapCore.so
 * /usr/lib/libKPim6LdapCore.so.6
-* /usr/lib/libKPim6LdapCore.so.6.0.2
+* /usr/lib/libKPim6LdapCore.so.6.1.0
 * /usr/lib/libKPim6LdapWidgets.so
 * /usr/lib/libKPim6LdapWidgets.so.6
-* /usr/lib/libKPim6LdapWidgets.so.6.0.2
+* /usr/lib/libKPim6LdapWidgets.so.6.1.0
 * /usr/lib/qt6/plugins/kf6/kio/ldap.so
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
@@ -113,8 +113,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
-* /usr/share/doc/kldap-24.02.2/README.md
-* /usr/share/doc/kldap-24.02.2/README.md.license
+* /usr/share/doc/kldap-24.05.0/README.md
+* /usr/share/doc/kldap-24.05.0/README.md.license
 * /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo
@@ -163,6 +163,7 @@ Desc: C++ API for LDAP access.
 * /usr/share/locale/gl/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/he/LC_MESSAGES/kio_ldap.mo
+* /usr/share/locale/he/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/hi/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio_ldap.mo
@@ -232,6 +233,7 @@ Desc: C++ API for LDAP access.
 * /usr/share/locale/sv/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/sv/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/ta/LC_MESSAGES/kio_ldap.mo
+* /usr/share/locale/ta/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/th/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/th/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio_ldap.mo

@@ -12,6 +12,7 @@ size = "185968"
 usize = "777982"
 sha1sum = "589f22e0c44591dae40daa04a4188533d6440e45"
 depends = "['kio5>=5.115.0']"
+reverse_depends = "['knewstuff5']"
 +++
 ### Description: 
 KParts Kontact interface.

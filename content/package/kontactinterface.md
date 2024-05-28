@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontactinterface 24.02.2-3"
-version = "24.02.2-3"
+title = "kontactinterface 24.05.0-1"
+version = "24.05.0-1"
 description = "KParts Kontact interface."
-date = "2024-04-16T21:58:34"
+date = "2024-05-24T10:10:36"
 aliases = "/packages/218339"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "47768"
-usize = "192171"
-sha1sum = "688c783147f598ec4103a7fdb3684d07b8f71f52"
-depends = "['kparts>=6.1.0']"
+size = "48012"
+usize = "192257"
+sha1sum = "ff9df31dbe420b1fe715f10e00203530f532384c"
+depends = "['kparts>=6.2.0']"
 reverse_depends = "['akregator', 'kaddressbook', 'kdepim-addons', 'kmail', 'knotes', 'kontact', 'korganizer', 'zanshin']"
 +++
 ### Description: 
@@ -38,7 +38,7 @@ KParts Kontact interface.
 * /usr/lib/cmake/KPim6KontactInterface/KPim6KontactInterfaceTargets.cmake
 * /usr/lib/libKPim6KontactInterface.so
 * /usr/lib/libKPim6KontactInterface.so.6
-* /usr/lib/libKPim6KontactInterface.so.6.0.2
+* /usr/lib/libKPim6KontactInterface.so.6.1.0
 * /usr/share/locale/ar/LC_MESSAGES/kontactinterfaces6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kontactinterfaces6.mo
 * /usr/share/locale/az/LC_MESSAGES/kontactinterfaces6.mo

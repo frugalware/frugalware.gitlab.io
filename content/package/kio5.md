@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kio5 5.115.0-6"
-version = "5.115.0-6"
+title = "kio5 5.116.0-2"
+version = "5.116.0-2"
 description = "Network transparent access to files and data."
-date = "2024-03-26T15:58:47"
+date = "2024-05-26T17:03:29"
 aliases = "/packages/221326"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4374004"
-usize = "24232541"
-sha1sum = "1231c7a348a982d88a7f1f692f869104649e4918"
-depends = "['karchive5>=5.115.0', 'kbookmarks5>=5.115.0', 'kded5', 'kdoctools5>=5.115.0', 'kwallet5>=5.115.0', 'libkrb5>=1.14.4', 'libxslt', 'switcheroo-control']"
-reverse_depends = "['baloo5', 'frameworkintegration5', 'kactivities-stats5', 'kactivities5', 'kamoso', 'kdav5', 'kdeclarative5', 'kdesignerplugin5', 'kipi-plugins', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'kstars', 'ktouch', 'kwave', 'kxmlrpcclient5', 'libkcddb5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'skanlite', 'syndication5']"
+size = "4388600"
+usize = "24279247"
+sha1sum = "4c03836d51114d324921cb239677045471c12f61"
+depends = "['karchive5>=5.116.0', 'kbookmarks5>=5.116.0', 'kded5', 'kdoctools5>=5.116.0', 'kjobwidgets5>=5.116.0', 'kwallet5>=5.116.0', 'libkrb5>=1.14.4', 'libxslt', 'solid5>=5.116.0', 'switcheroo-control']"
+reverse_depends = "['baloo5', 'frameworkintegration5', 'kactivities-stats5', 'kactivities5', 'kamoso', 'kdav5', 'kdeclarative5', 'kdesignerplugin5', 'kinit5', 'kipi-plugins', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'kstars', 'ktouch', 'kwave', 'kxmlrpcclient5', 'libkcddb5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'skanlite', 'syndication5']"
 +++
 ### Description: 
 Network transparent access to files and data.
@@ -329,19 +329,19 @@ Network transparent access to files and data.
 * /usr/lib/kf5/kf5/kpac_dhcp_helper
 * /usr/lib/libKF5KIOCore.so
 * /usr/lib/libKF5KIOCore.so.5
-* /usr/lib/libKF5KIOCore.so.5.115.0
+* /usr/lib/libKF5KIOCore.so.5.116.0
 * /usr/lib/libKF5KIOFileWidgets.so
 * /usr/lib/libKF5KIOFileWidgets.so.5
-* /usr/lib/libKF5KIOFileWidgets.so.5.115.0
+* /usr/lib/libKF5KIOFileWidgets.so.5.116.0
 * /usr/lib/libKF5KIOGui.so
 * /usr/lib/libKF5KIOGui.so.5
-* /usr/lib/libKF5KIOGui.so.5.115.0
+* /usr/lib/libKF5KIOGui.so.5.116.0
 * /usr/lib/libKF5KIONTLM.so
 * /usr/lib/libKF5KIONTLM.so.5
-* /usr/lib/libKF5KIONTLM.so.5.115.0
+* /usr/lib/libKF5KIONTLM.so.5.116.0
 * /usr/lib/libKF5KIOWidgets.so
 * /usr/lib/libKF5KIOWidgets.so.5
-* /usr/lib/libKF5KIOWidgets.so.5.115.0
+* /usr/lib/libKF5KIOWidgets.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kio5widgets.so
 * /usr/lib/qt5/plugins/kcm_proxy.so
 * /usr/lib/qt5/plugins/kcm_trash.so
@@ -798,7 +798,7 @@ Network transparent access to files and data.
 * /usr/share/doc/HTML/uk/kioslave5/http/index.docbook
 * /usr/share/doc/HTML/uk/kioslave5/webdav/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioslave5/webdav/index.docbook
-* /usr/share/doc/kio5-5.115.0/README.md
+* /usr/share/doc/kio5-5.116.0/README.md
 * /usr/share/kconf_update/filepicker.upd
 * /usr/share/kdevappwizard/templates/kioworker.tar.bz2
 * /usr/share/kf5/kcookiejar/domain_info

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kqtquickcharts 24.02.2-3"
-version = "24.02.2-3"
+title = "kqtquickcharts 24.05.0-1"
+version = "24.05.0-1"
 description = "A QtQuick plugin to render beautiful and interactive charts."
-date = "2024-04-17T06:08:36"
+date = "2024-05-26T20:36:07"
 aliases = "/packages/200754"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69284"
-usize = "335778"
-sha1sum = "6deef44cebd02555332535c5fc6850732d0851d7"
+size = "68624"
+usize = "331730"
+sha1sum = "9d5098d64629bcb2212bd9b209d167e9543b7a0d"
 depends = "['qt5-declarative']"
 reverse_depends = "['ktouch']"
 +++
@@ -21,9 +21,9 @@ A QtQuick plugin to render beautiful and interactive charts.
 * /usr/include/KF5/kqtquickcharts_version.h
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsConfig.cmake
 * /usr/lib/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake
-* /usr/share/doc/kqtquickcharts-24.02.2/AUTHORS
-* /usr/share/doc/kqtquickcharts-24.02.2/COPYING
-* /usr/share/doc/kqtquickcharts-24.02.2/README.md
+* /usr/share/doc/kqtquickcharts-24.05.0/AUTHORS
+* /usr/share/doc/kqtquickcharts-24.05.0/COPYING
+* /usr/share/doc/kqtquickcharts-24.05.0/README.md
 * /usr/share/qt5/qml/org/kde/charts/BarChart.qml
 * /usr/share/qt5/qml/org/kde/charts/Label.qml
 * /usr/share/qt5/qml/org/kde/charts/LegendItem.qml

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwallet5 5.115.0-4"
-version = "5.115.0-4"
+title = "kwallet5 5.116.0-2"
+version = "5.116.0-2"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-03-15T11:44:19"
+date = "2024-05-26T16:56:52"
 aliases = "/packages/218360"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "238764"
-usize = "1639413"
-sha1sum = "8350cd4e3d11468c8e4169576580cc0af5d671e4"
-depends = "['knotifications5>=5.115.0', 'libgpgmepp>=1.10.0', 'qca']"
+size = "239636"
+usize = "1648553"
+sha1sum = "7f94b09e80bc55a3b8ed25602538354b66c20fcc"
+depends = "['knotifications5>=5.116.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['kio5', 'krdc', 'ksshaskpass5', 'libksane5', 'remmina-kwallet']"
 +++
 ### Description: 
@@ -28,9 +28,9 @@ Safe desktop-wide storage for passwords.
 * /usr/lib/cmake/KF5Wallet/KF5WalletTargets.cmake
 * /usr/lib/libKF5Wallet.so
 * /usr/lib/libKF5Wallet.so.5
-* /usr/lib/libKF5Wallet.so.5.115.0
+* /usr/lib/libKF5Wallet.so.5.116.0
 * /usr/share/dbus-1/interfaces/kf5_org.kde.KWallet.xml
-* /usr/share/doc/kwallet5-5.115.0/README.md
+* /usr/share/doc/kwallet5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/az/LC_MESSAGES/kwallet-query.mo
@@ -55,6 +55,7 @@ Safe desktop-wide storage for passwords.
 * /usr/share/locale/el/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kwalletd5.mo
+* /usr/share/locale/eo/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/eo/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/es/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/es/LC_MESSAGES/kwalletd5.mo
@@ -74,6 +75,7 @@ Safe desktop-wide storage for passwords.
 * /usr/share/locale/gl/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/gl/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/gu/LC_MESSAGES/kwalletd5.mo
+* /usr/share/locale/he/LC_MESSAGES/kwallet-query.mo
 * /usr/share/locale/he/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/hi/LC_MESSAGES/kwalletd5.mo
 * /usr/share/locale/hr/LC_MESSAGES/kwalletd5.mo

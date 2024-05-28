@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwayland5 5.115.0-2"
-version = "5.115.0-2"
+title = "kwayland5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE Wayland"
-date = "2024-03-14T15:06:28"
+date = "2024-05-26T16:21:09"
 aliases = "/packages/221355"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2328564"
-usize = "6444394"
-sha1sum = "7b35fdf4899d0f75e957120d7148a84e009f251f"
-depends = "['qt5-wayland>=5.15.12']"
+size = "2326816"
+usize = "6444464"
+sha1sum = "e0afb96eaa722b393b60e4bbdde90e258ffe32ac"
+depends = "['qt5-wayland>=5.15.14']"
 reverse_depends = "['kwayland-integration', 'pinentry-qt5', 'plasma-framework5']"
 +++
 ### Description: 
@@ -130,12 +130,12 @@ KDE Wayland
 * /usr/lib/kf5/org-kde-kf5-kwayland-testserver
 * /usr/lib/libKF5WaylandClient.so
 * /usr/lib/libKF5WaylandClient.so.5
-* /usr/lib/libKF5WaylandClient.so.5.115.0
+* /usr/lib/libKF5WaylandClient.so.5.116.0
 * /usr/lib/libKF5WaylandServer.so
 * /usr/lib/libKF5WaylandServer.so.5
-* /usr/lib/libKF5WaylandServer.so.5.115.0
+* /usr/lib/libKF5WaylandServer.so.5.116.0
 * /usr/lib/pkgconfig/KF5WaylandClient.pc
-* /usr/share/doc/kwayland5-5.115.0/README.md
+* /usr/share/doc/kwayland5-5.116.0/README.md
 * /usr/share/doc/qt5/KF5Wayland.qch
 * /usr/share/doc/qt5/KF5Wayland.tags
 * /usr/share/qlogging-categories5/kwayland.categories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-admin 24.02.2-3"
-version = "24.02.2-3"
+title = "kio-admin 24.05.0-1"
+version = "24.05.0-1"
 description = "Manage files as administrator using the admin:// KIO protocol"
-date = "2024-04-17T02:08:51"
+date = "2024-05-25T16:20:27"
 aliases = "/packages/220978"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69104"
-usize = "326292"
-sha1sum = "20916e5ef1157c2d9a2da87d6e13f171fb62c2c6"
-depends = "['kio']"
+size = "71264"
+usize = "332341"
+sha1sum = "4cf45a7655c57fd914ef95b61d52cdf7246a8371"
+depends = "['kio', 'libatomic']"
 +++
 ### Description: 
 Manage files as administrator using the admin:// KIO protocol
@@ -22,7 +22,7 @@ Manage files as administrator using the admin:// KIO protocol
 * /usr/lib/qt6/plugins/kf6/kio/admin.so
 * /usr/share/dbus-1/system-services/org.kde.kio.admin.service
 * /usr/share/dbus-1/system.d/org.kde.kio.admin.conf
-* /usr/share/doc/kio-admin-24.02.2/README.md
+* /usr/share/doc/kio-admin-24.05.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/be/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio5_admin.mo
@@ -37,6 +37,7 @@ Manage files as administrator using the admin:// KIO protocol
 * /usr/share/locale/fi/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio5_admin.mo
+* /usr/share/locale/ia/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/ie/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/it/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/ja/LC_MESSAGES/kio5_admin.mo
@@ -52,6 +53,7 @@ Manage files as administrator using the admin:// KIO protocol
 * /usr/share/locale/ru/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio5_admin.mo
+* /usr/share/locale/sv/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio5_admin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio5_admin.mo

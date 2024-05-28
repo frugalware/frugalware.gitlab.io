@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksystemlog 24.02.2-3"
-version = "24.02.2-3"
+title = "ksystemlog 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE system log viewer tool."
-date = "2024-04-16T21:42:06"
+date = "2024-05-24T09:53:38"
 aliases = "/packages/135946"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2156600"
-usize = "6238795"
-sha1sum = "2760a6062027cc8112c51065a243be990074675e"
-depends = "['kio>=6.1.0']"
+size = "1998524"
+usize = "6126416"
+sha1sum = "b2892e1d85d4eff1b30820d00dafa21f79cdc4b3"
+depends = "['kio>=6.2.0']"
 +++
 ### Description: 
 KDE system log viewer tool.
@@ -66,7 +66,7 @@ KDE system log viewer tool.
 * /usr/share/doc/HTML/uk/ksystemlog/main-screen.png
 * /usr/share/doc/HTML/zh_CN/ksystemlog/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ksystemlog/index.docbook
-* /usr/share/doc/ksystemlog-24.02.2/Changelog
+* /usr/share/doc/ksystemlog-24.05.0/Changelog
 * /usr/share/locale/ar/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/ast/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/az/LC_MESSAGES/ksystemlog.mo

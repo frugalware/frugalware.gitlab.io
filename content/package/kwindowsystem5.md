@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwindowsystem5 5.115.0-2"
-version = "5.115.0-2"
+title = "kwindowsystem5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE Access to window manager."
-date = "2024-03-14T15:09:04"
+date = "2024-05-26T16:10:31"
 aliases = "/packages/221358"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "175720"
-usize = "729153"
-sha1sum = "f0ff6e729ad3dcea8948812abdef2eaa957152e3"
-depends = "['qt5-x11extras>=5.15.12', 'xcb-util-keysyms>=0.4.0-3']"
+size = "176320"
+usize = "733337"
+sha1sum = "42eed5b2a96877dea22e263a05ad0d1a5bf17bee"
+depends = "['qt5-x11extras>=5.15.14', 'xcb-util-keysyms>=0.4.0-3']"
 reverse_depends = "['kcrash5', 'kwayland-integration', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'rkward']"
 +++
 ### Description: 
@@ -61,9 +61,9 @@ KDE Access to window manager.
 * /usr/lib/cmake/KF5WindowSystem/KF5WindowSystemTargets.cmake
 * /usr/lib/libKF5WindowSystem.so
 * /usr/lib/libKF5WindowSystem.so.5
-* /usr/lib/libKF5WindowSystem.so.5.115.0
+* /usr/lib/libKF5WindowSystem.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemX11Plugin.so
-* /usr/share/doc/kwindowsystem5-5.115.0/README.md
+* /usr/share/doc/kwindowsystem5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kwindowsystem5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kwindowsystem5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kwindowsystem5_qt.qm

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmailtransport 24.02.2-3"
-version = "24.02.2-3"
+title = "kmailtransport 24.05.0-1"
+version = "24.05.0-1"
 description = "Mail Transport Service"
-date = "2024-04-16T23:26:56"
+date = "2024-05-24T14:06:51"
 aliases = "/packages/218331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "225816"
-usize = "1127443"
-sha1sum = "dcc4bb539b0406a435fd926ded3737921111ee07"
-depends = "['akonadi-contacts>=24.02.2', 'kcmutils>=6.1.0', 'ksmtp>=24.02.2', 'libkgapi>=24.02.2', 'qtkeychain']"
+size = "255660"
+usize = "1264193"
+sha1sum = "d6410d3e4eb2237eebe13cf13f80700043833125"
+depends = "['akonadi-contacts>=24.05.0', 'kcmutils>=6.2.0', 'ksmtp>=24.05.0', 'libkgapi>=24.05.0', 'qtkeychain']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
@@ -19,6 +19,8 @@ Mail Transport Service
 
 ### Files: 
 * /usr/include/KPim6/MailTransport/mailtransport/mailtransport_export.h
+* /usr/include/KPim6/MailTransport/MailTransport/OutlookOAuthTokenRequester
+* /usr/include/KPim6/MailTransport/mailtransport/outlookoauthtokenrequester.h
 * /usr/include/KPim6/MailTransport/MailTransport/PrecommandJob
 * /usr/include/KPim6/MailTransport/mailtransport/precommandjob.h
 * /usr/include/KPim6/MailTransport/mailtransport/private/transportconfigwidget_p.h
@@ -28,6 +30,8 @@ Mail Transport Service
 * /usr/include/KPim6/MailTransport/mailtransport/transport.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportAbstractPlugin
 * /usr/include/KPim6/MailTransport/mailtransport/transportabstractplugin.h
+* /usr/include/KPim6/MailTransport/MailTransport/TransportActivitiesAbstract
+* /usr/include/KPim6/MailTransport/mailtransport/transportactivitiesabstract.h
 * /usr/include/KPim6/MailTransport/mailtransport/transportbase.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportComboBox
 * /usr/include/KPim6/MailTransport/mailtransport/transportcombobox.h
@@ -37,8 +41,12 @@ Mail Transport Service
 * /usr/include/KPim6/MailTransport/mailtransport/transportjob.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportManagementWidget
 * /usr/include/KPim6/MailTransport/mailtransport/transportmanagementwidget.h
+* /usr/include/KPim6/MailTransport/MailTransport/TransportManagementWidgetNg
+* /usr/include/KPim6/MailTransport/mailtransport/transportmanagementwidgetng.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportManager
 * /usr/include/KPim6/MailTransport/mailtransport/transportmanager.h
+* /usr/include/KPim6/MailTransport/MailTransport/TransportModel
+* /usr/include/KPim6/MailTransport/mailtransport/transportmodel.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportType
 * /usr/include/KPim6/MailTransport/mailtransport/transporttype.h
 * /usr/include/KPim6/MailTransport/mailtransport_version.h
@@ -48,10 +56,10 @@ Mail Transport Service
 * /usr/lib/cmake/KPim6MailTransport/KPim6MailTransportTargets.cmake
 * /usr/lib/libKPim6MailTransport.so
 * /usr/lib/libKPim6MailTransport.so.6
-* /usr/lib/libKPim6MailTransport.so.6.0.2
+* /usr/lib/libKPim6MailTransport.so.6.1.0
 * /usr/lib/qt6/plugins/pim6/mailtransport/mailtransport_smtpplugin.so
 * /usr/share/config.kcfg/mailtransport.kcfg
-* /usr/share/doc/kmailtransport-24.02.2/TODO
+* /usr/share/doc/kmailtransport-24.05.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/be/LC_MESSAGES/libmailtransport6.mo
@@ -72,6 +80,7 @@ Mail Transport Service
 * /usr/share/locale/fr/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libmailtransport6.mo
+* /usr/share/locale/he/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/hne/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libmailtransport6.mo

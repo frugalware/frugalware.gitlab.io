@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kitemviews5 5.115.0-2"
-version = "5.115.0-2"
+title = "kitemviews5 5.116.0-2"
+version = "5.116.0-2"
 description = "Set of item views extending the Qt model-view framework."
-date = "2024-03-14T14:57:17"
+date = "2024-05-26T16:26:45"
 aliases = "/packages/221331"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "94168"
-usize = "352703"
-sha1sum = "9399ab63cee36df9d172a1e7c202acadfdbe72cf"
-depends = "['qt5-base>=5.15.12']"
-reverse_depends = "['kpeople5', 'krename', 'krita']"
+size = "94244"
+usize = "352791"
+sha1sum = "d5773a892319f129401114ec2c9601dfa18a1f6d"
+depends = "['qt5-base>=5.15.14']"
+reverse_depends = "['kiconthemes5', 'kpeople5', 'krename', 'krita']"
 +++
 ### Description: 
 Set of item views extending the Qt model-view framework.
@@ -44,9 +44,9 @@ Set of item views extending the Qt model-view framework.
 * /usr/lib/cmake/KF5ItemViews/KF5ItemViewsTargets.cmake
 * /usr/lib/libKF5ItemViews.so
 * /usr/lib/libKF5ItemViews.so.5
-* /usr/lib/libKF5ItemViews.so.5.115.0
+* /usr/lib/libKF5ItemViews.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kitemviews5widgets.so
-* /usr/share/doc/kitemviews5-5.115.0/README.md
+* /usr/share/doc/kitemviews5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kitemviews5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kitemviews5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kitemviews5_qt.qm

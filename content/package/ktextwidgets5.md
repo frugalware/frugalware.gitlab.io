@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktextwidgets5 5.115.0-2"
-version = "5.115.0-2"
+title = "ktextwidgets5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE Text editing widgets."
-date = "2024-03-14T22:18:25"
+date = "2024-05-26T16:54:33"
 aliases = "/packages/221351"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "267576"
-usize = "1480500"
-sha1sum = "3a431ec434369bbfc3bd7849f8eede532ba54574"
-depends = "['kcompletion5>=5.115.0', 'kiconthemes5>=5.115.0', 'kservice5>=5.115.0', 'qt5-speech>=5.15.12']"
+size = "268356"
+usize = "1480618"
+sha1sum = "19f43479665209045eb72c9567247c89f21fb945"
+depends = "['kcompletion5>=5.116.0', 'kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'qt5-speech>=5.15.14', 'sonnet5>=5.116.0']"
 reverse_depends = "['kxmlgui5', 'libksane5']"
 +++
 ### Description: 
@@ -44,9 +44,9 @@ KDE Text editing widgets.
 * /usr/lib/cmake/KF5TextWidgets/KF5TextWidgetsTargets.cmake
 * /usr/lib/libKF5TextWidgets.so
 * /usr/lib/libKF5TextWidgets.so.5
-* /usr/lib/libKF5TextWidgets.so.5.115.0
+* /usr/lib/libKF5TextWidgets.so.5.116.0
 * /usr/lib/qt5/plugins/designer/ktextwidgets5widgets.so
-* /usr/share/doc/ktextwidgets5-5.115.0/README.md
+* /usr/share/doc/ktextwidgets5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/ktextwidgets5.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktextwidgets5.mo
 * /usr/share/locale/as/LC_MESSAGES/ktextwidgets5.mo

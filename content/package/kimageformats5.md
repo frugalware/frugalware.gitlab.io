@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimageformats5 5.115.0-3"
-version = "5.115.0-3"
+title = "kimageformats5 5.116.0-2"
+version = "5.116.0-2"
 description = "Image format plugins."
-date = "2024-03-15T11:31:58"
+date = "2024-05-26T16:15:05"
 aliases = "/packages/221323"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "181528"
-usize = "753776"
-sha1sum = "128cb4ddab6ad5a8f2b48680ed7a55b302061219"
-depends = "['jasper>=1.900.1-10', 'karchive5>=5.115.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.2.0', 'qt5-base>=5.15.12']"
+size = "184068"
+usize = "766064"
+sha1sum = "6a49d0d0c9fb35f34851dec9da2eb25c8c4bae85"
+depends = "['jasper>=1.900.1-10', 'karchive5>=5.116.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.2.0', 'qt5-base>=5.15.14']"
 +++
 ### Description: 
 Image format plugins.
@@ -34,7 +34,7 @@ Image format plugins.
 * /usr/lib/qt5/plugins/imageformats/kimg_rgb.so
 * /usr/lib/qt5/plugins/imageformats/kimg_tga.so
 * /usr/lib/qt5/plugins/imageformats/kimg_xcf.so
-* /usr/share/doc/kimageformats5-5.115.0/README.md
+* /usr/share/doc/kimageformats5-5.116.0/README.md
 * /usr/share/kservices5/qimageioplugins/ani.desktop
 * /usr/share/kservices5/qimageioplugins/avif.desktop
 * /usr/share/kservices5/qimageioplugins/dds.desktop

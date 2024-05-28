@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotes 24.02.2-3"
-version = "24.02.2-3"
+title = "knotes 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE Popup Notes."
-date = "2024-04-17T00:03:32"
+date = "2024-05-24T14:45:21"
 aliases = "/packages/218936"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "660904"
-usize = "2894687"
-sha1sum = "07846841cfb48517189da204c47b9156c2eab5ef"
-depends = "['akonadi-notes>=24.02.2', 'grantleetheme>=24.02.2', 'kcalutils>=24.02.2', 'kdnssd>=6.1.0', 'knotifyconfig>=6.1.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.1.0', 'pimcommon>=24.02.2']"
+size = "663224"
+usize = "2911923"
+sha1sum = "53b3f92d3afc107db81c9d27efea89c4fa7d3d4d"
+depends = "['akonadi-notes>=24.05.0', 'grantleetheme>=24.05.0', 'kcalutils>=24.05.0', 'kdnssd>=6.2.0', 'knotifyconfig>=6.2.0', 'kontactinterface>=24.05.0', 'kstatusnotifieritem>=6.2.0', 'pimcommon>=24.05.0']"
 +++
 ### Description: 
 KDE Popup Notes.
@@ -20,9 +20,9 @@ KDE Popup Notes.
 * /usr/bin/akonadi_notes_agent
 * /usr/bin/knotes
 * /usr/lib/libknotesprivate.so.6
-* /usr/lib/libknotesprivate.so.6.0.2
+* /usr/lib/libknotesprivate.so.6.1.0
 * /usr/lib/libnotesharedprivate.so.6
-* /usr/lib/libnotesharedprivate.so.6.0.2
+* /usr/lib/libnotesharedprivate.so.6.1.0
 * /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_action.so
 * /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_collection.so
 * /usr/lib/qt6/plugins/pim6/kcms/knotes/kcm_knote_display.so
@@ -93,10 +93,10 @@ KDE Popup Notes.
 * /usr/share/doc/HTML/uk/akonadi_notes_agent/index.docbook
 * /usr/share/doc/HTML/uk/knotes/index.cache.bz2
 * /usr/share/doc/HTML/uk/knotes/index.docbook
-* /usr/share/doc/knotes-24.02.2/AUTHORS
-* /usr/share/doc/knotes-24.02.2/HACKING
-* /usr/share/doc/knotes-24.02.2/README
-* /usr/share/doc/knotes-24.02.2/TODO
+* /usr/share/doc/knotes-24.05.0/AUTHORS
+* /usr/share/doc/knotes-24.05.0/HACKING
+* /usr/share/doc/knotes-24.05.0/README
+* /usr/share/doc/knotes-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/knotes.png
 * /usr/share/icons/hicolor/16x16/actions/knotes_alarm.png
 * /usr/share/icons/hicolor/16x16/actions/knotes_close.png
@@ -264,6 +264,7 @@ KDE Popup Notes.
 * /usr/share/locale/sv/LC_MESSAGES/knotes.mo
 * /usr/share/locale/sv/LC_MESSAGES/libnoteshared.mo
 * /usr/share/locale/ta/LC_MESSAGES/knotes.mo
+* /usr/share/locale/ta/LC_MESSAGES/libnoteshared.mo
 * /usr/share/locale/tg/LC_MESSAGES/knotes.mo
 * /usr/share/locale/th/LC_MESSAGES/knotes.mo
 * /usr/share/locale/tr/LC_MESSAGES/akonadi_notes_agent.mo

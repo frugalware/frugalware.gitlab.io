@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kparts5 5.115.0-3"
-version = "5.115.0-3"
+title = "kparts5 5.116.0-2"
+version = "5.116.0-2"
 description = "Plugin framework for user interface components."
-date = "2024-03-15T11:40:02"
+date = "2024-05-26T17:13:45"
 aliases = "/packages/221341"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "233240"
-usize = "892140"
-sha1sum = "ab06c32fa1de7346885c3e44353b41e0cde2ea4e"
-depends = "['kio5>=5.115.0']"
-reverse_depends = "['cervisia', 'kalzium', 'kdelibs4support5', 'kdiff3', 'kig', 'kross5', 'krusader', 'ktexteditor5', 'libkomparediff2', 'libmarble', 'okteta', 'rkward', 'skrooge']"
+size = "233832"
+usize = "892500"
+sha1sum = "a30db2a4712fdc799b4df18a490f0f83e0645e1d"
+depends = "['kio5>=5.116.0']"
+reverse_depends = "['cervisia', 'kalzium', 'kdelibs4support5', 'kdiff3', 'khtml5', 'kig', 'kmediaplayer5', 'kross5', 'krusader', 'ktexteditor5', 'libkomparediff2', 'libmarble', 'okteta', 'rkward', 'skrooge']"
 +++
 ### Description: 
 Plugin framework for user interface components.
@@ -91,9 +91,9 @@ Plugin framework for user interface components.
 * /usr/lib/cmake/KF5Parts/KF5PartsTargets.cmake
 * /usr/lib/libKF5Parts.so
 * /usr/lib/libKF5Parts.so.5
-* /usr/lib/libKF5Parts.so.5.115.0
-* /usr/share/doc/kparts5-5.115.0/AUTHORS
-* /usr/share/doc/kparts5-5.115.0/README.md
+* /usr/lib/libKF5Parts.so.5.116.0
+* /usr/share/doc/kparts5-5.116.0/AUTHORS
+* /usr/share/doc/kparts5-5.116.0/README.md
 * /usr/share/kdevappwizard/templates/kpartsapp.tar.bz2
 * /usr/share/kservicetypes5/browserview.desktop
 * /usr/share/kservicetypes5/kpart.desktop

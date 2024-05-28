@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktexteditor5 5.115.0-2"
-version = "5.115.0-2"
+title = "ktexteditor5 5.116.0-2"
+version = "5.116.0-2"
 description = "Provides a powerful text editor component."
-date = "2024-03-17T21:04:33"
+date = "2024-05-26T17:31:07"
 aliases = "/packages/221350"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2492284"
-usize = "13045352"
-sha1sum = "e979b54ec4fc6e48cefe5679b4915ae8374d18d4"
-depends = "['editorconfig-core-c', 'kparts5>=5.115.0', 'libgit2>=1.3.0']"
+size = "2502780"
+usize = "13082329"
+sha1sum = "adf4cb8405811caac938eec86a6b3fc089bfcba9"
+depends = "['editorconfig-core-c', 'kparts5>=5.116.0', 'libgit2>=1.3.0', 'syntax-highlighting5>=5.116.0']"
 reverse_depends = "['cantor', 'kdevelop', 'kompare', 'ktouch', 'rkward', 'rocs']"
 +++
 ### Description: 
@@ -89,11 +89,11 @@ Provides a powerful text editor component.
 * /usr/lib/kf5/kauth/kauth_ktexteditor_helper
 * /usr/lib/libKF5TextEditor.so
 * /usr/lib/libKF5TextEditor.so.5
-* /usr/lib/libKF5TextEditor.so.5.115.0
+* /usr/lib/libKF5TextEditor.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/parts/katepart.so
 * /usr/share/dbus-1/system-services/org.kde.ktexteditor.katetextbuffer.service
 * /usr/share/dbus-1/system.d/org.kde.ktexteditor.katetextbuffer.conf
-* /usr/share/doc/ktexteditor5-5.115.0/README.md
+* /usr/share/doc/ktexteditor5-5.116.0/README.md
 * /usr/share/katepart5/script/README.md
 * /usr/share/kdevappwizard/templates/ktexteditor-plugin.tar.bz2
 * /usr/share/kservices5/katepart.desktop

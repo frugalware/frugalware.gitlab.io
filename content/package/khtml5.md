@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khtml5 5.115.0-4"
-version = "5.115.0-4"
+title = "khtml5 5.116.0-2"
+version = "5.116.0-2"
 description = "HTML rendering engine."
-date = "2024-03-26T10:02:02"
+date = "2024-05-26T17:18:31"
 aliases = "/packages/221319"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2300480"
-usize = "10602552"
-sha1sum = "1f4db8c12eebb084ab865237a9e2f1277890159e"
-depends = "['libgif>=5.1.4-2']"
+size = "2313424"
+usize = "10647726"
+sha1sum = "fe2dc1e105db82d36c65f680cb07fba0cfd117c1"
+depends = "['kjs5>=5.116.0', 'kparts5>=5.116.0', 'libgif>=5.1.4-2']"
 reverse_depends = "['kimagemapeditor', 'step']"
 +++
 ### Description: 
@@ -68,15 +68,15 @@ HTML rendering engine.
 * /usr/lib/cmake/KF5KHtml/KF5KHtmlTargets.cmake
 * /usr/lib/libKF5KHtml.so
 * /usr/lib/libKF5KHtml.so.5
-* /usr/lib/libKF5KHtml.so.5.115.0
+* /usr/lib/libKF5KHtml.so.5.116.0
 * /usr/lib/qt5/plugins/kf5/parts/khtmladaptorpart.so
 * /usr/lib/qt5/plugins/kf5/parts/khtmlimagepart.so
 * /usr/lib/qt5/plugins/kf5/parts/khtmlpart.so
 * /usr/lib/qt5/plugins/kf5/parts/kmultipart.so
-* /usr/share/doc/khtml5-5.115.0/COPYING.GPL3
-* /usr/share/doc/khtml5-5.115.0/COPYING.LGPL-2
-* /usr/share/doc/khtml5-5.115.0/COPYING.LIB
-* /usr/share/doc/khtml5-5.115.0/README.md
+* /usr/share/doc/khtml5-5.116.0/COPYING.GPL3
+* /usr/share/doc/khtml5-5.116.0/COPYING.LGPL-2
+* /usr/share/doc/khtml5-5.116.0/COPYING.LIB
+* /usr/share/doc/khtml5-5.116.0/README.md
 * /usr/share/kf5/khtml/css/html4.css
 * /usr/share/kf5/khtml/css/presentational.css
 * /usr/share/kf5/khtml/css/quirks.css

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail 24.02.2-3"
-version = "24.02.2-3"
+title = "kmail 24.05.0-1"
+version = "24.05.0-1"
 description = "Email client, supporting POP3 and IMAP mailboxes"
-date = "2024-04-17T00:13:18"
+date = "2024-05-24T14:56:13"
 aliases = "/packages/218934"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7196032"
-usize = "24007231"
-sha1sum = "534e8b20e8ff0e4ed046272a9be9319838c3171a"
-depends = "['akonadi-import-wizard>=24.02.2', 'kcalutils>=24.02.2', 'kdepim-runtime>=24.02.2', 'kmail-account-wizard>=24.02.2', 'knotifyconfig>=6.1.0', 'kontactinterface>=24.02.2', 'kstatusnotifieritem>=6.1.0', 'ktnef>=24.02.2', 'libksieve>=24.02.2', 'mailcommon>=24.02.2', 'mbox-importer>=']"
+size = "7538256"
+usize = "31296366"
+sha1sum = "d964b122edf66b68b7d696899f597ab3380c2c72"
+depends = "['akonadi-import-wizard>=24.05.0', 'kcalutils>=24.05.0', 'kdepim-runtime>=24.05.0', 'kmail-account-wizard>=24.05.0', 'knotifyconfig>=6.2.0', 'kontactinterface>=24.05.0', 'kstatusnotifieritem>=6.2.0', 'ktnef>=24.05.0', 'libksieve>=24.05.0', 'mailcommon>=24.05.0', 'mbox-importer>=']"
 +++
 ### Description: 
 Email client, supporting POP3 and IMAP mailboxes
@@ -27,9 +27,9 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/bin/kmail-refresh-settings
 * /usr/bin/ktnef
 * /usr/lib/libkmailprivate.so.6
-* /usr/lib/libkmailprivate.so.6.0.2
+* /usr/lib/libkmailprivate.so.6.1.0
 * /usr/lib/libmailfilteragentprivate.so.6
-* /usr/lib/libmailfilteragentprivate.so.6.0.2
+* /usr/lib/libmailfilteragentprivate.so.6.1.0
 * /usr/lib/qt6/plugins/kmailpart.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/archivemailagentconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/followupreminderagentconfig.so
@@ -68,6 +68,28 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/ca/akonadi_sendlater_agent/index.docbook
 * /usr/share/doc/HTML/ca/akonadi_sendlater_agent/sendlateragent-configure.png
 * /usr/share/doc/HTML/ca/akonadi_sendlater_agent/sendlateragent-dialog.png
+* /usr/share/doc/HTML/ca/kmail/akonadi_archivemail_agent/add-archive-mail.png
+* /usr/share/doc/HTML/ca/kmail/akonadi_archivemail_agent/configure-archive-mail-agent.png
+* /usr/share/doc/HTML/ca/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/ca/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/ca/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/ca/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/ca/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/ca/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/ca/kmail/akonadi_sendlater_agent/sendlateragent-configure.png
+* /usr/share/doc/HTML/ca/kmail/akonadi_sendlater_agent/sendlateragent-dialog.png
+* /usr/share/doc/HTML/ca/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/ca/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/ca/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/ca/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/ca/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/ca/kmail2/configure.docbook
 * /usr/share/doc/HTML/ca/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/ca/kmail2/faq.docbook
@@ -86,6 +108,24 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/de/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/de/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/de/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/de/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/de/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/de/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/de/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/de/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/de/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/de/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/de/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/de/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/de/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/de/kmail2/configure.docbook
 * /usr/share/doc/HTML/de/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/de/kmail2/faq.docbook
@@ -230,6 +270,24 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/es/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/es/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/es/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/es/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/es/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/es/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/es/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/es/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/es/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/es/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/es/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/es/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/es/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/es/kmail2/configure.docbook
 * /usr/share/doc/HTML/es/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/es/kmail2/faq.docbook
@@ -248,16 +306,34 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/et/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/et/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/et/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/et/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/et/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/et/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/et/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/et/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/et/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/et/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/et/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/et/ktnef/index.cache.bz2
 * /usr/share/doc/HTML/et/ktnef/index.docbook
 * /usr/share/doc/HTML/fr/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/fr/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/fr/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/fr/kmail/akonadi_sendlater_agent/index.docbook
 * /usr/share/doc/HTML/it/akonadi_archivemail_agent/index.cache.bz2
 * /usr/share/doc/HTML/it/akonadi_archivemail_agent/index.docbook
 * /usr/share/doc/HTML/it/akonadi_followupreminder_agent/index.cache.bz2
 * /usr/share/doc/HTML/it/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/it/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/it/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/it/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/it/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/it/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/it/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/it/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/it/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/it/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/it/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/it/ktnef/index.cache.bz2
 * /usr/share/doc/HTML/it/ktnef/index.docbook
 * /usr/share/doc/HTML/nl/akonadi_archivemail_agent/index.cache.bz2
@@ -266,6 +342,24 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/nl/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/nl/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/nl/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/nl/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/nl/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/nl/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/nl/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/nl/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/nl/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/nl/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/nl/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/nl/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/nl/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/nl/kmail2/configure.docbook
 * /usr/share/doc/HTML/nl/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/nl/kmail2/faq.docbook
@@ -282,6 +376,12 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/pt/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/pt/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/pt/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/pt/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/pt/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/pt/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/pt/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/pt/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/pt/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/pt/ktnef/index.cache.bz2
 * /usr/share/doc/HTML/pt/ktnef/index.docbook
 * /usr/share/doc/HTML/pt_BR/akonadi_archivemail_agent/index.cache.bz2
@@ -290,6 +390,24 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/pt_BR/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/pt_BR/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/pt_BR/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/pt_BR/kmail2/configure.docbook
 * /usr/share/doc/HTML/pt_BR/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/pt_BR/kmail2/faq.docbook
@@ -308,6 +426,24 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/ru/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/ru/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/ru/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/ru/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/ru/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/ru/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/ru/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/ru/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/ru/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/ru/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/ru/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/ru/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/ru/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/ru/kmail2/configure.docbook
 * /usr/share/doc/HTML/ru/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/ru/kmail2/faq.docbook
@@ -326,6 +462,24 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/sv/akonadi_followupreminder_agent/index.docbook
 * /usr/share/doc/HTML/sv/akonadi_sendlater_agent/index.cache.bz2
 * /usr/share/doc/HTML/sv/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/sv/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/sv/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/sv/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/sv/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/sv/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/sv/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/sv/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/sv/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/sv/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/sv/kmail/ktnef/index.docbook
 * /usr/share/doc/HTML/sv/kmail2/configure.docbook
 * /usr/share/doc/HTML/sv/kmail2/credits-and-licenses.docbook
 * /usr/share/doc/HTML/sv/kmail2/faq.docbook
@@ -350,6 +504,74 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/uk/akonadi_sendlater_agent/index.docbook
 * /usr/share/doc/HTML/uk/akonadi_sendlater_agent/sendlateragent-configure.png
 * /usr/share/doc/HTML/uk/akonadi_sendlater_agent/sendlateragent-dialog.png
+* /usr/share/doc/HTML/uk/kmail/akonadi_archivemail_agent/add-archive-mail.png
+* /usr/share/doc/HTML/uk/kmail/akonadi_archivemail_agent/configure-archive-mail-agent.png
+* /usr/share/doc/HTML/uk/kmail/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/uk/kmail/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/uk/kmail/akonadi_followupreminder_agent/add-followup-reminder.png
+* /usr/share/doc/HTML/uk/kmail/akonadi_followupreminder_agent/followupreminder-configure.png
+* /usr/share/doc/HTML/uk/kmail/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/uk/kmail/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/uk/kmail/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/uk/kmail/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/uk/kmail/akonadi_sendlater_agent/sendlateragent-configure.png
+* /usr/share/doc/HTML/uk/kmail/akonadi_sendlater_agent/sendlateragent-dialog.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/accounts-ldap.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/accounts-receiving.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/accounts-sending.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/appearancecolors.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/appearancefonts.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/appearancegeneral.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/appearancelayout.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/appearancelist.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/appearancetags.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composer-window.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composerattach.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composercharset.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composercorrect.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composercustom.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composergeneral.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composerheaders.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composerresize.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composerstandard.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/composersubject.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/configure.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/credits-and-licenses.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/faq.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/folder-example.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/folder-properties.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/getting-started.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/identitiesadvanced.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/identitycryptography.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/identitygeneral.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/identitypicture.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/identitysignature.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/identitytemplate.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/index.cache.bz2
+* /usr/share/doc/HTML/uk/kmail/kmail2/index.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/intro.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/menus.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/miscfolders.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/miscinvite.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/miscprint.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/plugin01.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/plugin02.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/plugin03.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/plugin04.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/plugin05.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/receiving.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/securitycomposing.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/securitymdn.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/securitymisc.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/securityreading.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/securitysmime.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/sending.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/sending2.png
+* /usr/share/doc/HTML/uk/kmail/kmail2/troubleshooting.docbook
+* /usr/share/doc/HTML/uk/kmail/kmail2/using-kmail.docbook
+* /usr/share/doc/HTML/uk/kmail/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/uk/kmail/ktnef/index.docbook
+* /usr/share/doc/HTML/uk/kmail/ktnef/mainwindow.png
 * /usr/share/doc/HTML/uk/kmail2/accounts-ldap.png
 * /usr/share/doc/HTML/uk/kmail2/accounts-receiving.png
 * /usr/share/doc/HTML/uk/kmail2/accounts-sending.png
@@ -629,7 +851,15 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/locale/gl/LC_MESSAGES/kmail-refresh-settings.mo
 * /usr/share/locale/gl/LC_MESSAGES/kmail.mo
 * /usr/share/locale/gl/LC_MESSAGES/ktnef.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_archivemail_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_followupreminder_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_mailfilter_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_mailmerge_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_sendlater_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_unifiedmailbox_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/kmail-refresh-settings.mo
 * /usr/share/locale/he/LC_MESSAGES/kmail.mo
+* /usr/share/locale/he/LC_MESSAGES/ktnef.mo
 * /usr/share/locale/hi/LC_MESSAGES/kmail.mo
 * /usr/share/locale/hne/LC_MESSAGES/kmail.mo
 * /usr/share/locale/hr/LC_MESSAGES/kmail.mo
@@ -709,7 +939,14 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/locale/lt/LC_MESSAGES/kmail.mo
 * /usr/share/locale/lt/LC_MESSAGES/ktnef.mo
 * /usr/share/locale/lv/LC_MESSAGES/akonadi_archivemail_agent.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadi_followupreminder_agent.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadi_mailfilter_agent.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadi_mailmerge_agent.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadi_sendlater_agent.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadi_unifiedmailbox_agent.mo
+* /usr/share/locale/lv/LC_MESSAGES/kmail-refresh-settings.mo
 * /usr/share/locale/lv/LC_MESSAGES/kmail.mo
+* /usr/share/locale/lv/LC_MESSAGES/ktnef.mo
 * /usr/share/locale/mk/LC_MESSAGES/kmail.mo
 * /usr/share/locale/mr/LC_MESSAGES/akonadi_archivemail_agent.mo
 * /usr/share/locale/mr/LC_MESSAGES/akonadi_mailfilter_agent.mo

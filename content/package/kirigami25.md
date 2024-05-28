@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami25 5.115.0-3"
-version = "5.115.0-3"
+title = "kirigami25 5.116.0-2"
+version = "5.116.0-2"
 description = "UI framework for mobile and convergent applications written in Qt."
-date = "2024-03-26T13:40:39"
+date = "2024-05-26T16:18:52"
 aliases = "/packages/221329"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "440588"
-usize = "2108038"
-sha1sum = "ce7311ebc95afd07bfa120beebe542bbb25ade12"
-depends = "['libgomp', 'qt5-declarative>=5.15.12', 'qt5-graphicaleffects>=5.15.12', 'qt5-quickcontrols2>=5.15.12', 'qt5-svg>=5.15.12']"
+size = "461288"
+usize = "2187730"
+sha1sum = "7f2dd736970f7ced738478a4fee6e942b9ea84e7"
+depends = "['libgomp', 'qt5-declarative>=5.15.14', 'qt5-graphicaleffects>=5.15.14', 'qt5-quickcontrols2>=5.15.14', 'qt5-svg>=5.15.14']"
 reverse_depends = "['calindori', 'kirigami-gallery', 'knewstuff5', 'plasma-framework5', 'purpose5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
@@ -44,8 +44,15 @@ UI framework for mobile and convergent applications written in Qt.
 * /usr/lib/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake
 * /usr/lib/libKF5Kirigami2.so
 * /usr/lib/libKF5Kirigami2.so.5
-* /usr/lib/libKF5Kirigami2.so.5.115.0
-* /usr/share/doc/kirigami25-5.115.0/README.md
+* /usr/lib/libKF5Kirigami2.so.5.116.0
+* /usr/share/doc/kirigami25-5.116.0/AUTHORS
+* /usr/share/doc/kirigami25-5.116.0/BUGS
+* /usr/share/doc/kirigami25-5.116.0/ChangeLog
+* /usr/share/doc/kirigami25-5.116.0/COPYING
+* /usr/share/doc/kirigami25-5.116.0/COPYING.DOC
+* /usr/share/doc/kirigami25-5.116.0/COPYING.LIB
+* /usr/share/doc/kirigami25-5.116.0/NEWS
+* /usr/share/doc/kirigami25-5.116.0/README.md
 * /usr/share/kdevappwizard/templates/kirigami.tar.bz2
 * /usr/share/locale/ar/LC_MESSAGES/libkirigami2plugin_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/libkirigami2plugin_qt.qm

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kipi-plugins 24.02.2-3"
-version = "24.02.2-3"
+title = "kipi-plugins 24.05.0-1"
+version = "24.05.0-1"
 description = "kipi-plugins is based in part on the work of the Independent JPEG Group."
-date = "2024-04-17T02:35:14"
+date = "2024-05-26T19:58:36"
 aliases = "/packages/219978"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1616136"
-usize = "17293623"
-sha1sum = "2e35017fbd6330add0cb61ee7035efabe525e40b"
-depends = "['kio5>=5.115.0', 'libkipi>=24.02.2']"
+size = "1638084"
+usize = "17357890"
+sha1sum = "b061193dff54e4fe25331c480abc70ffc94aacde"
+depends = "['kio5>=5.116.0', 'libkipi>=24.05.0']"
 +++
 ### Description: 
 kipi-plugins is based in part on the work of the Independent JPEG Group.
@@ -35,15 +35,19 @@ kipi-plugins is based in part on the work of the Independent JPEG Group.
 * /usr/lib/qt5/plugins/kipiplugin_smug.so
 * /usr/lib/qt5/plugins/kipiplugin_yandexfotki.so
 * /usr/share/applications/kipiplugins.desktop
-* /usr/share/doc/kipi-plugins-24.02.2/AUTHORS
-* /usr/share/doc/kipi-plugins-24.02.2/ChangeLog
-* /usr/share/doc/kipi-plugins-24.02.2/COPYING
-* /usr/share/doc/kipi-plugins-24.02.2/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/kipi-plugins-24.02.2/HACKING
-* /usr/share/doc/kipi-plugins-24.02.2/INSTALL
-* /usr/share/doc/kipi-plugins-24.02.2/NEWS
-* /usr/share/doc/kipi-plugins-24.02.2/README
-* /usr/share/doc/kipi-plugins-24.02.2/TODO
+* /usr/share/doc/kipi-plugins-24.05.0/AUTHORS
+* /usr/share/doc/kipi-plugins-24.05.0/BUGS
+* /usr/share/doc/kipi-plugins-24.05.0/ChangeLog
+* /usr/share/doc/kipi-plugins-24.05.0/COPYING
+* /usr/share/doc/kipi-plugins-24.05.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/kipi-plugins-24.05.0/COPYING.DOC
+* /usr/share/doc/kipi-plugins-24.05.0/COPYING.LIB
+* /usr/share/doc/kipi-plugins-24.05.0/HACKING
+* /usr/share/doc/kipi-plugins-24.05.0/INSTALL
+* /usr/share/doc/kipi-plugins-24.05.0/NEWS
+* /usr/share/doc/kipi-plugins-24.05.0/README
+* /usr/share/doc/kipi-plugins-24.05.0/README.md
+* /usr/share/doc/kipi-plugins-24.05.0/TODO
 * /usr/share/icons/hicolor/16x16/apps/kipi-dropbox.png
 * /usr/share/icons/hicolor/16x16/apps/kipi-facebook.png
 * /usr/share/icons/hicolor/16x16/apps/kipi-flickr.png

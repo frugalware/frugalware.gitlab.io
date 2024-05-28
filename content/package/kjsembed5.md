@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjsembed5 5.115.0-3"
-version = "5.115.0-3"
+title = "kjsembed5 5.116.0-2"
+version = "5.116.0-2"
 description = "Binding Javascript object to QObjects."
-date = "2024-03-15T11:36:26"
+date = "2024-05-26T16:48:33"
 aliases = "/packages/221334"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "379248"
-usize = "1704159"
-sha1sum = "3f37c85279ee9ef89f5eb99367edcf4dedd93ccb"
-depends = "['ki18n5>=5.115.0', 'kjs5>=5.115.0', 'qt5-svg>=5.15.12']"
+size = "382480"
+usize = "1724757"
+sha1sum = "e90ab6958bcc0af7f150fa76b2e12909b53b5ece"
+depends = "['ki18n5>=5.116.0', 'kjs5>=5.116.0', 'qt5-svg>=5.15.14']"
 +++
 ### Description: 
 Binding Javascript object to QObjects.
@@ -33,10 +33,10 @@ Binding Javascript object to QObjects.
 * /usr/lib/cmake/KF5JsEmbed/KF5JsEmbedTargets.cmake
 * /usr/lib/libKF5JsEmbed.so
 * /usr/lib/libKF5JsEmbed.so.5
-* /usr/lib/libKF5JsEmbed.so.5.115.0
-* /usr/share/doc/kjsembed5-5.115.0/AUTHORS
-* /usr/share/doc/kjsembed5-5.115.0/COPYING.LIB
-* /usr/share/doc/kjsembed5-5.115.0/README.md
+* /usr/lib/libKF5JsEmbed.so.5.116.0
+* /usr/share/doc/kjsembed5-5.116.0/AUTHORS
+* /usr/share/doc/kjsembed5-5.116.0/COPYING.LIB
+* /usr/share/doc/kjsembed5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kjsembed5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kjsembed5.mo
 * /usr/share/locale/as/LC_MESSAGES/kjsembed5.mo

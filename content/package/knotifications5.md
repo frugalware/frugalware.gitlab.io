@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifications5 5.115.0-2"
-version = "5.115.0-2"
+title = "knotifications5 5.116.0-2"
+version = "5.116.0-2"
 description = "KDE Desktop notifications."
-date = "2024-03-15T09:39:34"
+date = "2024-05-26T16:55:45"
 aliases = "/packages/221338"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "131248"
-usize = "505701"
-sha1sum = "664d7d82a727fa6b8c31e7b020e93883bc645d7b"
-depends = "['kiconthemes5>=5.115.0', 'libcanberra', 'libcanberra-alsa', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'phonon-qt5>=4.9.1-5', 'qt5-speech>=5.15.12']"
+size = "131788"
+usize = "509885"
+sha1sum = "469f7541a496b61459f45dcd2589e640bcfc55db"
+depends = "['kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'libcanberra', 'libcanberra-alsa', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'phonon-qt5>=4.9.1-5', 'qt5-speech>=5.15.14']"
 reverse_depends = "['babe', 'calindori', 'krdc', 'kwallet5', 'rkward']"
 +++
 ### Description: 
@@ -42,10 +42,10 @@ KDE Desktop notifications.
 * /usr/lib/cmake/KF5Notifications/KF5NotificationsTargets.cmake
 * /usr/lib/libKF5Notifications.so
 * /usr/lib/libKF5Notifications.so.5
-* /usr/lib/libKF5Notifications.so.5.115.0
+* /usr/lib/libKF5Notifications.so.5.116.0
 * /usr/share/dbus-1/interfaces/kf5_org.kde.StatusNotifierItem.xml
 * /usr/share/dbus-1/interfaces/kf5_org.kde.StatusNotifierWatcher.xml
-* /usr/share/doc/knotifications5-5.115.0/README.md
+* /usr/share/doc/knotifications5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/knotifications5_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/knotifications5_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/knotifications5_qt.qm

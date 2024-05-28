@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "724632"
 usize = "2774250"
 sha1sum = "cb82c96f58154c1c0d42778356f0ae181dff3a71"
-depends = "['kio>=6.1.0', 'pcre2', 'qca']"
+depends = "['kio>=6.2.0', 'pcre2', 'qca']"
 reverse_depends = "['kget', 'ktorrent']"
 +++
 ### Description: 
@@ -207,10 +207,11 @@ A BitTorrent library for KDE applications.
 * /usr/lib/cmake/KTorrent6/KTorrent6Targets-release.cmake
 * /usr/lib/cmake/KTorrent6/KTorrent6Targets.cmake
 * /usr/lib/libKTorrent6.so
-* /usr/lib/libKTorrent6.so.24.02.2
+* /usr/lib/libKTorrent6.so.24.05.0
 * /usr/lib/libKTorrent6.so.6
-* /usr/share/doc/libktorrent-24.02.2/ChangeLog
+* /usr/share/doc/libktorrent-24.05.0/ChangeLog
 * /usr/share/locale/ar/LC_MESSAGES/libktorrent6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/be/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libktorrent6.mo
@@ -229,6 +230,7 @@ A BitTorrent library for KDE applications.
 * /usr/share/locale/fr/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libktorrent6.mo
+* /usr/share/locale/he/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/hne/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/hr/LC_MESSAGES/libktorrent6.mo

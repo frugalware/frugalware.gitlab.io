@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kholidays5 5.115.0-3"
-version = "5.115.0-3"
+title = "kholidays5 5.116.0-2"
+version = "5.116.0-2"
 description = "C++ library for calendar holidays."
-date = "2024-03-15T11:28:18"
+date = "2024-05-26T16:21:34"
 aliases = "/packages/221318"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "244748"
-usize = "938219"
-sha1sum = "eb5e2190d0ed45376ac183b073df3879078de8ea"
-depends = "['qt5-base>=5.15.12']"
+size = "246164"
+usize = "949187"
+sha1sum = "fcb5b5b723d6e10a214b120b04f0da9a9ed29e60"
+depends = "['qt5-base>=5.15.14']"
 +++
 ### Description: 
 C++ library for calendar holidays.
@@ -37,8 +37,8 @@ C++ library for calendar holidays.
 * /usr/lib/cmake/KF5Holidays/KF5HolidaysTargets.cmake
 * /usr/lib/libKF5Holidays.so
 * /usr/lib/libKF5Holidays.so.5
-* /usr/lib/libKF5Holidays.so.5.115.0
-* /usr/share/doc/kholidays5-5.115.0/README.md
+* /usr/lib/libKF5Holidays.so.5.116.0
+* /usr/share/doc/kholidays5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkholidays5_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/libkholidays5_qt.qm
 * /usr/share/locale/be/LC_MESSAGES/libkholidays5_qt.qm

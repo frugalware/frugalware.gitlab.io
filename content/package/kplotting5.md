@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kplotting5 5.115.0-2"
-version = "5.115.0-2"
+title = "kplotting5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework providing easy data-plotting functions."
-date = "2024-03-14T15:01:48"
+date = "2024-05-26T16:09:29"
 aliases = "/packages/221343"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "36964"
-usize = "135416"
-sha1sum = "434669aa3599c4b4e5d6aa42be7a2870a390c1c6"
-depends = "['qt5-base>=5.15.12']"
+size = "36900"
+usize = "135504"
+sha1sum = "1d8f459103189af5ae50b3f821b6c3265d6bf848"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['kalzium', 'kdesignerplugin5', 'kstars']"
 +++
 ### Description: 
@@ -34,7 +34,7 @@ Framework providing easy data-plotting functions.
 * /usr/lib/cmake/KF5Plotting/KF5PlottingTargets.cmake
 * /usr/lib/libKF5Plotting.so
 * /usr/lib/libKF5Plotting.so.5
-* /usr/lib/libKF5Plotting.so.5.115.0
+* /usr/lib/libKF5Plotting.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kplotting5widgets.so
-* /usr/share/doc/kplotting5-5.115.0/README.md
+* /usr/share/doc/kplotting5-5.116.0/README.md
 * /usr/share/qt5/mkspecs/modules/qt_KPlotting.pri

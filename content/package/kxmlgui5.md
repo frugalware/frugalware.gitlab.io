@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kxmlgui5 5.115.0-2"
-version = "5.115.0-2"
+title = "kxmlgui5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework for managing menu and toolbar actions."
-date = "2024-03-15T09:35:08"
+date = "2024-05-26T16:59:10"
 aliases = "/packages/221360"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "668924"
-usize = "3559880"
-sha1sum = "7f3962722e23fcd637ff93f492500c1b860d4087"
-depends = "['attica5>=5.115.0', 'kglobalaccel5>=5.115.0', 'ktextwidgets5>=5.115.0', 'qt5-svg>=5.15.12', 'qt5-x11extras>=5.15.12']"
+size = "671852"
+usize = "3578374"
+sha1sum = "664e15bdc0bb84709bc155e7b53c3f556c41ac0b"
+depends = "['attica5>=5.116.0', 'kglobalaccel5>=5.116.0', 'ktextwidgets5>=5.116.0', 'qt5-svg>=5.15.14', 'qt5-x11extras>=5.15.14']"
 reverse_depends = "['ghostwriter', 'kbookmarks5', 'kdesignerplugin5', 'libkipi', 'rkward', 'skanlite']"
 +++
 ### Description: 
@@ -68,9 +68,9 @@ Framework for managing menu and toolbar actions.
 * /usr/lib/kf5/kf5/ksendbugmail
 * /usr/lib/libKF5XmlGui.so
 * /usr/lib/libKF5XmlGui.so.5
-* /usr/lib/libKF5XmlGui.so.5.115.0
+* /usr/lib/libKF5XmlGui.so.5.116.0
 * /usr/lib/qt5/plugins/designer/kxmlgui5widgets.so
-* /usr/share/doc/kxmlgui5-5.115.0/README.md
+* /usr/share/doc/kxmlgui5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kxmlgui5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kxmlgui5.mo
 * /usr/share/locale/as/LC_MESSAGES/kxmlgui5.mo

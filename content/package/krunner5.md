@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krunner5 5.115.0-2"
-version = "5.115.0-2"
+title = "krunner5 5.116.0-2"
+version = "5.116.0-2"
 description = "Framework for providing different actions given a string query."
-date = "2024-03-15T10:20:39"
+date = "2024-05-26T17:34:08"
 aliases = "/packages/218348"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "149864"
-usize = "448256"
-sha1sum = "f3b27894689fa4acb9479246c2e471a707beb766"
-depends = "[]"
+size = "150056"
+usize = "448378"
+sha1sum = "30fd8120efc5400b9ebef5216fe1ba21166cef7c"
+depends = "['plasma-framework5>=5.116.0', 'threadweaver5>=5.116.0']"
 reverse_depends = "['kdevelop', 'libmarble', 'skrooge']"
 +++
 ### Description: 
@@ -39,10 +39,10 @@ Framework for providing different actions given a string query.
 * /usr/lib/cmake/KF5Runner/KF5RunnerTargets.cmake
 * /usr/lib/libKF5Runner.so
 * /usr/lib/libKF5Runner.so.5
-* /usr/lib/libKF5Runner.so.5.115.0
+* /usr/lib/libKF5Runner.so.5.116.0
 * /usr/share/dbus-1/interfaces/kf5_org.kde.krunner1.xml
-* /usr/share/doc/krunner5-5.115.0/README.md
-* /usr/share/doc/krunner5-5.115.0/README.md.license
+* /usr/share/doc/krunner5-5.116.0/README.md
+* /usr/share/doc/krunner5-5.116.0/README.md.license
 * /usr/share/kdevappwizard/templates/runner.tar.bz2
 * /usr/share/kdevappwizard/templates/runnerpython.tar.bz2
 * /usr/share/kservicetypes5/plasma-runner.desktop

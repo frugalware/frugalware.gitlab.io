@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpimtextedit 24.02.2-3"
-version = "24.02.2-3"
+title = "kpimtextedit 24.05.0-1"
+version = "24.05.0-1"
 description = "Desc: A library for textedit with PIM-specific features."
-date = "2024-04-16T21:51:07"
+date = "2024-05-24T10:03:09"
 aliases = "/packages/218343"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "174036"
-usize = "824059"
-sha1sum = "ad84360bb55d988171510f9dcadce9281228ccd8"
-depends = "['kcoreaddons>=6.1.0', 'kio>=6.1.0', 'ktextaddons', 'ktexteditor>=6.1.0', 'ktexttemplate>=6.1.0', 'qt6-speech>=6.7.0', 'sonnet>=6.1.0', 'syntax-highlighting>=6.1.0']"
+size = "176132"
+usize = "838419"
+sha1sum = "d5fa19df55774d53f4c438e8e03618e8b4668e16"
+depends = "['kcoreaddons>=6.2.0', 'kio>=6.2.0', 'ktextaddons', 'ktexteditor>=6.2.0', 'ktexttemplate>=6.2.0', 'qt6-speech>=6.7.1', 'sonnet>=6.2.0', 'syntax-highlighting>=6.2.0']"
 reverse_depends = "['kidentitymanagement', 'libkleo', 'pimcommon']"
 +++
 ### Description: 
@@ -50,8 +50,9 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/lib/cmake/KPim6TextEdit/KPim6TextEditTargets.cmake
 * /usr/lib/libKPim6TextEdit.so
 * /usr/lib/libKPim6TextEdit.so.6
-* /usr/lib/libKPim6TextEdit.so.6.0.2
+* /usr/lib/libKPim6TextEdit.so.6.1.0
 * /usr/share/locale/ar/LC_MESSAGES/libkpimtextedit6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ca/LC_MESSAGES/libkpimtextedit6.mo
@@ -69,6 +70,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/share/locale/fr/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkpimtextedit6.mo
+* /usr/share/locale/he/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/it/LC_MESSAGES/libkpimtextedit6.mo
@@ -98,6 +100,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libkpimtextedit6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/tr/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ug/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/uk/LC_MESSAGES/libkpimtextedit6.mo

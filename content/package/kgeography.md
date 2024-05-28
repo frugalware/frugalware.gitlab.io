@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgeography 24.02.2-3"
-version = "24.02.2-3"
+title = "kgeography 24.05.0-1"
+version = "24.05.0-1"
 description = "Geography Trainer."
-date = "2024-04-16T21:30:46"
+date = "2024-05-24T09:41:05"
 aliases = "/packages/152828"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11061040"
-usize = "32051804"
-sha1sum = "a1420c51ff492731b83575d1acdd0bf80ed1ea44"
-depends = "['kxmlgui>=6.1.0', 'qt6-svg>=6.7.0']"
+size = "11260840"
+usize = "32293172"
+sha1sum = "2d074529618b84f78fb0f451cc319ec053e514d5"
+depends = "['kxmlgui>=6.2.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 Geography Trainer.
@@ -62,6 +62,22 @@ Geography Trainer.
 * /usr/share/doc/HTML/es/kgeography/index.docbook
 * /usr/share/doc/HTML/et/kgeography/index.cache.bz2
 * /usr/share/doc/HTML/et/kgeography/index.docbook
+* /usr/share/doc/HTML/fr/kgeography/first-start1.png
+* /usr/share/doc/HTML/fr/kgeography/first-start10.png
+* /usr/share/doc/HTML/fr/kgeography/first-start11.png
+* /usr/share/doc/HTML/fr/kgeography/first-start12.png
+* /usr/share/doc/HTML/fr/kgeography/first-start2.png
+* /usr/share/doc/HTML/fr/kgeography/first-start3.png
+* /usr/share/doc/HTML/fr/kgeography/first-start4.png
+* /usr/share/doc/HTML/fr/kgeography/first-start5.png
+* /usr/share/doc/HTML/fr/kgeography/first-start6.png
+* /usr/share/doc/HTML/fr/kgeography/first-start7.png
+* /usr/share/doc/HTML/fr/kgeography/first-start8.png
+* /usr/share/doc/HTML/fr/kgeography/first-start9.png
+* /usr/share/doc/HTML/fr/kgeography/index.cache.bz2
+* /usr/share/doc/HTML/fr/kgeography/index.docbook
+* /usr/share/doc/HTML/fr/kgeography/kgeography.png
+* /usr/share/doc/HTML/fr/kgeography/zoom.png
 * /usr/share/doc/HTML/it/kgeography/index.cache.bz2
 * /usr/share/doc/HTML/it/kgeography/index.docbook
 * /usr/share/doc/HTML/nl/kgeography/first-start1.png
@@ -123,11 +139,11 @@ Geography Trainer.
 * /usr/share/doc/HTML/uk/kgeography/index.docbook
 * /usr/share/doc/HTML/uk/kgeography/kgeography.png
 * /usr/share/doc/HTML/uk/kgeography/zoom.png
-* /usr/share/doc/kgeography-24.02.2/AUTHORS
-* /usr/share/doc/kgeography-24.02.2/COPYING
-* /usr/share/doc/kgeography-24.02.2/COPYING.DOC
-* /usr/share/doc/kgeography-24.02.2/README
-* /usr/share/doc/kgeography-24.02.2/TODO
+* /usr/share/doc/kgeography-24.05.0/AUTHORS
+* /usr/share/doc/kgeography-24.05.0/COPYING
+* /usr/share/doc/kgeography-24.05.0/COPYING.DOC
+* /usr/share/doc/kgeography-24.05.0/README
+* /usr/share/doc/kgeography-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgeography.png
 * /usr/share/icons/hicolor/16x16/apps/kgeography.png
 * /usr/share/icons/hicolor/22x22/apps/kgeography.png

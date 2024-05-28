@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kunitconversion5 5.115.0-3"
-version = "5.115.0-3"
+title = "kunitconversion5 5.116.0-2"
+version = "5.116.0-2"
 description = "Converting physical units."
-date = "2024-03-15T11:43:14"
+date = "2024-05-26T16:44:03"
 aliases = "/packages/221352"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "822488"
-usize = "11109758"
-sha1sum = "115a5a7efd1c6384b9b9a78f514762711b2f3a39"
-depends = "['ki18n5>=5.115.0', 'qt5-base>=5.15.12']"
+size = "822952"
+usize = "11113218"
+sha1sum = "5ab2162b2ee6216f0d851784c846033bae13353d"
+depends = "['ki18n5>=5.116.0', 'qt5-base>=5.15.14']"
 reverse_depends = "['kalzium', 'kdelibs4support5']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Converting physical units.
 * /usr/lib/cmake/KF5UnitConversion/KF5UnitConversionTargets.cmake
 * /usr/lib/libKF5UnitConversion.so
 * /usr/lib/libKF5UnitConversion.so.5
-* /usr/lib/libKF5UnitConversion.so.5.115.0
-* /usr/share/doc/kunitconversion5-5.115.0/README.md
+* /usr/lib/libKF5UnitConversion.so.5.116.0
+* /usr/share/doc/kunitconversion5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kunitconversion5.mo
 * /usr/share/locale/az/LC_MESSAGES/kunitconversion5.mo
 * /usr/share/locale/bg/LC_MESSAGES/kunitconversion5.mo

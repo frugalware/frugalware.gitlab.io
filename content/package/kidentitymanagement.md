@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kidentitymanagement 24.02.2-3"
-version = "24.02.2-3"
+title = "kidentitymanagement 24.05.0-1"
+version = "24.05.0-1"
 description = "KDE PIM libraries"
-date = "2024-04-16T21:53:39"
+date = "2024-05-24T10:05:43"
 aliases = "/packages/218317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "173232"
-usize = "785098"
-sha1sum = "f8025da48f4ffd1372ca6b6b6065da11c091bc78"
-depends = "['kirigami-addons', 'kpimtextedit>=24.02.2']"
+size = "183488"
+usize = "846393"
+sha1sum = "06f71637e77fad9c81f759c12cd43d7de168c388"
+depends = "['kirigami-addons', 'kpimtextedit>=24.05.0']"
 reverse_depends = "['kcalutils', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
@@ -20,10 +20,14 @@ KDE PIM libraries
 ### Files: 
 * /usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/Identity
 * /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/identity.h
+* /usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/IdentityActivitiesAbstract
+* /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/identityactivitiesabstract.h
 * /usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/IdentityManager
 * /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/identitymanager.h
 * /usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/IdentityModel
 * /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/identitymodel.h
+* /usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/IdentityTreeModel
+* /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/identitytreemodel.h
 * /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/kidentitymanagementcore_export.h
 * /usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/Signature
 * /usr/include/KPim6/KIdentityManagementCore/kidentitymanagementcore/signature.h
@@ -40,6 +44,8 @@ KDE PIM libraries
 * /usr/include/KPim6/KIdentityManagementQuick/kidentitymanagementquick_version.h
 * /usr/include/KPim6/KIdentityManagementWidgets/KIdentityManagementWidgets/IdentityCombo
 * /usr/include/KPim6/KIdentityManagementWidgets/kidentitymanagementwidgets/identitycombo.h
+* /usr/include/KPim6/KIdentityManagementWidgets/KIdentityManagementWidgets/IdentityTreeView
+* /usr/include/KPim6/KIdentityManagementWidgets/kidentitymanagementwidgets/identitytreeview.h
 * /usr/include/KPim6/KIdentityManagementWidgets/kidentitymanagementwidgets/kidentitymanagementwidgets_export.h
 * /usr/include/KPim6/KIdentityManagementWidgets/KIdentityManagementWidgets/SignatureConfigurator
 * /usr/include/KPim6/KIdentityManagementWidgets/kidentitymanagementwidgets/signatureconfigurator.h
@@ -58,13 +64,13 @@ KDE PIM libraries
 * /usr/lib/cmake/KPim6IdentityManagementWidgets/KPim6IdentityManagementWidgetsTargets.cmake
 * /usr/lib/libKPim6IdentityManagementCore.so
 * /usr/lib/libKPim6IdentityManagementCore.so.6
-* /usr/lib/libKPim6IdentityManagementCore.so.6.0.2
+* /usr/lib/libKPim6IdentityManagementCore.so.6.1.0
 * /usr/lib/libKPim6IdentityManagementQuick.so
 * /usr/lib/libKPim6IdentityManagementQuick.so.6
-* /usr/lib/libKPim6IdentityManagementQuick.so.6.0.2
+* /usr/lib/libKPim6IdentityManagementQuick.so.6.1.0
 * /usr/lib/libKPim6IdentityManagementWidgets.so
 * /usr/lib/libKPim6IdentityManagementWidgets.so.6
-* /usr/lib/libKPim6IdentityManagementWidgets.so.6.0.2
+* /usr/lib/libKPim6IdentityManagementWidgets.so.6.1.0
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/BasicIdentityEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/CryptographyEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/IdentityConfigurationForm.qml
@@ -94,6 +100,7 @@ KDE PIM libraries
 * /usr/share/locale/fr/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkpimidentities6.mo
+* /usr/share/locale/he/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/hne/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkpimidentities6.mo
@@ -126,6 +133,7 @@ KDE PIM libraries
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libkpimidentities6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/th/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/tr/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/ug/LC_MESSAGES/libkpimidentities6.mo

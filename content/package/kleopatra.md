@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kleopatra 24.02.2-3"
-version = "24.02.2-3"
+title = "kleopatra 24.05.0-1"
+version = "24.05.0-1"
 description = "Certificate manager and GUI for OpenPGP and CMS cryptography."
-date = "2024-04-16T22:03:26"
+date = "2024-05-24T10:18:33"
 aliases = "/packages/219334"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3323564"
-usize = "16039720"
-sha1sum = "89eb3a34a8cd7b1a8e486ec55185bb4806ba1dd7"
-depends = "['kcmutils>=6.1.0', 'kitemmodels>=6.1.0', 'kmime>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'libkleo>=24.02.2', 'mimetreeparser>=24.02.2']"
+size = "3456552"
+usize = "16316486"
+sha1sum = "cf900083a23e5fef080c79baea3cb43f2668a0a8"
+depends = "['kcmutils>=6.2.0', 'kitemmodels>=6.2.0', 'kmime>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'libkleo>=24.05.0', 'mimetreeparser>=24.05.0']"
 +++
 ### Description: 
 Certificate manager and GUI for OpenPGP and CMS cryptography.
@@ -47,6 +47,10 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/doc/HTML/et/kleopatra/index.docbook
 * /usr/share/doc/HTML/et/kwatchgnupg/index.cache.bz2
 * /usr/share/doc/HTML/et/kwatchgnupg/index.docbook
+* /usr/share/doc/HTML/fr/kleopatra/index.cache.bz2
+* /usr/share/doc/HTML/fr/kleopatra/index.docbook
+* /usr/share/doc/HTML/fr/kwatchgnupg/index.cache.bz2
+* /usr/share/doc/HTML/fr/kwatchgnupg/index.docbook
 * /usr/share/doc/HTML/it/kleopatra/index.cache.bz2
 * /usr/share/doc/HTML/it/kleopatra/index.docbook
 * /usr/share/doc/HTML/it/kwatchgnupg/index.cache.bz2
@@ -75,7 +79,7 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/doc/HTML/uk/kleopatra/index.docbook
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.docbook
-* /usr/share/doc/kleopatra-24.02.2/README.packagers
+* /usr/share/doc/kleopatra-24.05.0/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/kleopatra.png
 * /usr/share/icons/hicolor/16x16/apps/kleopatra.png
 * /usr/share/icons/hicolor/22x22/apps/kleopatra.png
@@ -84,8 +88,6 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/icons/hicolor/32x32/apps/kleopatra.png
 * /usr/share/icons/hicolor/48x48/apps/kleopatra.png
 * /usr/share/icons/hicolor/64x64/apps/kleopatra.png
-* /usr/share/kconf_update/kleopatra-15.08-kickoff.sh
-* /usr/share/kconf_update/kleopatra.upd
 * /usr/share/kio/servicemenus/kleopatra_decryptverifyfiles.desktop
 * /usr/share/kio/servicemenus/kleopatra_decryptverifyfolders.desktop
 * /usr/share/kio/servicemenus/kleopatra_signencryptfiles.desktop
@@ -146,6 +148,7 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/locale/gl/LC_MESSAGES/kleopatra.mo
 * /usr/share/locale/gl/LC_MESSAGES/kwatchgnupg.mo
 * /usr/share/locale/he/LC_MESSAGES/kleopatra.mo
+* /usr/share/locale/he/LC_MESSAGES/kwatchgnupg.mo
 * /usr/share/locale/hi/LC_MESSAGES/kleopatra.mo
 * /usr/share/locale/hi/LC_MESSAGES/kwatchgnupg.mo
 * /usr/share/locale/hne/LC_MESSAGES/kleopatra.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimap 24.02.2-3"
-version = "24.02.2-3"
+title = "kimap 24.05.0-1"
+version = "24.05.0-1"
 description = "C++ API for IMAP support."
-date = "2024-04-16T21:47:47"
+date = "2024-05-24T09:59:34"
 aliases = "/packages/218320"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "249760"
-usize = "984117"
-sha1sum = "643be9ff1d98bf97012e94ee7674242a92747aab"
-depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.1.0', 'kmime>=24.02.2']"
+size = "251628"
+usize = "994102"
+sha1sum = "84f258640ef071a3b93a4805d61e79d5521b28d3"
+depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.2.0', 'kmime>=24.05.0']"
 reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
 ### Description: 
@@ -152,9 +152,9 @@ C++ API for IMAP support.
 * /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets.cmake
 * /usr/lib/libKPim6IMAP.so
 * /usr/lib/libKPim6IMAP.so.6
-* /usr/lib/libKPim6IMAP.so.6.0.2
-* /usr/share/doc/kimap-24.02.2/README.md
-* /usr/share/doc/kimap-24.02.2/README.md.license
+* /usr/lib/libKPim6IMAP.so.6.1.0
+* /usr/share/doc/kimap-24.05.0/README.md
+* /usr/share/doc/kimap-24.05.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libkimap6.mo
@@ -173,6 +173,7 @@ C++ API for IMAP support.
 * /usr/share/locale/fr/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkimap6.mo
+* /usr/share/locale/he/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/it/LC_MESSAGES/libkimap6.mo
@@ -202,6 +203,7 @@ C++ API for IMAP support.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libkimap6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/tr/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ug/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/uk/LC_MESSAGES/libkimap6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpty5 5.115.0-2"
-version = "5.115.0-2"
+title = "kpty5 5.116.0-2"
+version = "5.116.0-2"
 description = "Interfacing with pseudo terminal devices."
-date = "2024-03-14T22:15:18"
+date = "2024-05-26T16:42:40"
 aliases = "/packages/221344"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "41024"
-usize = "154505"
-sha1sum = "bd92e9ec5bcd830b6d73539622d6011744be1904"
-depends = "['kcoreaddons5>=5.115.0', 'ki18n5>=5.115.0', 'libutempter']"
+size = "41108"
+usize = "154593"
+sha1sum = "0d0a5c4002a5c7e7b2ed309e3f2837b50f526d96"
+depends = "['kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'libutempter']"
 reverse_depends = "['kdesu5', 'kio-extras-kf5']"
 +++
 ### Description: 
@@ -32,8 +32,8 @@ Interfacing with pseudo terminal devices.
 * /usr/lib/cmake/KF5Pty/KF5PtyTargets.cmake
 * /usr/lib/libKF5Pty.so
 * /usr/lib/libKF5Pty.so.5
-* /usr/lib/libKF5Pty.so.5.115.0
-* /usr/share/doc/kpty5-5.115.0/README.md
+* /usr/lib/libKF5Pty.so.5.116.0
+* /usr/share/doc/kpty5-5.116.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kpty5.mo
 * /usr/share/locale/ar/LC_MESSAGES/kpty5.mo
 * /usr/share/locale/as/LC_MESSAGES/kpty5.mo

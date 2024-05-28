@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitinerary 24.02.2-4"
-version = "24.02.2-4"
+title = "kitinerary 24.05.0-1"
+version = "24.05.0-1"
 description = "Data model and extraction system for travel reservation information"
-date = "2024-05-03T08:35:13"
+date = "2024-05-25T11:38:14"
 aliases = "/packages/219723"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1391048"
-usize = "4022903"
-sha1sum = "9655d9bc98ade811eef325b8c9d578574fdc9364"
-depends = "['kcalendarcore>=6.1.0', 'kcontacts>=6.1.0', 'ki18n>=6.1.0', 'kmime>=6.1.0', 'kpkpass>=24.02.2', 'poppler>=24.05.0', 'zxing-cpp']"
+size = "1407276"
+usize = "4074108"
+sha1sum = "7a4078eeb0dbad19adc7434ae26a26ee4ec27801"
+depends = "['kcalendarcore>=6.2.0', 'kcontacts>=6.2.0', 'ki18n>=6.2.0', 'kmime>=6.2.0', 'kpkpass>=24.05.0', 'poppler>=24.05.0', 'zxing-cpp']"
 reverse_depends = "['itinerary', 'kdepim-addons']"
 +++
 ### Description: 
@@ -172,9 +172,9 @@ Data model and extraction system for travel reservation information
 * /usr/lib/kitinerary/kf6/kitinerary-extractor
 * /usr/lib/libKPim6Itinerary.so
 * /usr/lib/libKPim6Itinerary.so.6
-* /usr/lib/libKPim6Itinerary.so.6.0.2
-* /usr/share/doc/kitinerary-24.02.2/README.md
-* /usr/share/doc/kitinerary-24.02.2/README.md.license
+* /usr/lib/libKPim6Itinerary.so.6.1.0
+* /usr/share/doc/kitinerary-24.05.0/README.md
+* /usr/share/doc/kitinerary-24.05.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ca/LC_MESSAGES/kitinerary6.mo
@@ -190,12 +190,14 @@ Data model and extraction system for travel reservation information
 * /usr/share/locale/fi/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/fr/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kitinerary6.mo
+* /usr/share/locale/he/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/it/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ja/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ka/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ko/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/lt/LC_MESSAGES/kitinerary6.mo
+* /usr/share/locale/lv/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/nl/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/nn/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/pl/LC_MESSAGES/kitinerary6.mo

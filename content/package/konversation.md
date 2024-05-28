@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konversation 24.02.2-3"
-version = "24.02.2-3"
+title = "konversation 24.05.0-1"
+version = "24.05.0-1"
 description = "IRC clinet for KDE5"
-date = "2024-04-17T01:17:18"
+date = "2024-05-25T12:03:57"
 aliases = "/packages/218844"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4868432"
-usize = "16332484"
-sha1sum = "9a830ac474de8fed90d5e98b1a844b6f85215ad9"
-depends = "['kidletime>=6.1.0', 'knewstuff>=6.1.0', 'knotifyconfig>=6.1.0', 'kparts>=6.1.0', 'kstatusnotifieritem>=6.1.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.0']"
+size = "4807676"
+usize = "16429125"
+sha1sum = "0fb20125c5d365f8214c85efe2e3505aec67cf53"
+depends = "['kidletime>=6.2.0', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kparts>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.1']"
 +++
 ### Description: 
 IRC clinet for KDE5
@@ -133,11 +133,11 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/uk/konversation/index.cache.bz2
 * /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-24.02.2/AUTHORS
-* /usr/share/doc/konversation-24.02.2/ChangeLog
-* /usr/share/doc/konversation-24.02.2/INSTALL
-* /usr/share/doc/konversation-24.02.2/NEWS
-* /usr/share/doc/konversation-24.02.2/README
+* /usr/share/doc/konversation-24.05.0/AUTHORS
+* /usr/share/doc/konversation-24.05.0/ChangeLog
+* /usr/share/doc/konversation-24.05.0/INSTALL
+* /usr/share/doc/konversation-24.05.0/NEWS
+* /usr/share/doc/konversation-24.05.0/README
 * /usr/share/icons/hicolor/128x128/actions/konv_message.png
 * /usr/share/icons/hicolor/128x128/apps/konversation.png
 * /usr/share/icons/hicolor/16x16/actions/konv_message.png
@@ -240,6 +240,7 @@ IRC clinet for KDE5
 * /usr/share/konversation/themes/square/irc_owner.png
 * /usr/share/konversation/themes/square/irc_voice.png
 * /usr/share/locale/ar/LC_MESSAGES/konversation.mo
+* /usr/share/locale/ast/LC_MESSAGES/konversation.mo
 * /usr/share/locale/bg/LC_MESSAGES/konversation.mo
 * /usr/share/locale/br/LC_MESSAGES/konversation.mo
 * /usr/share/locale/bs/LC_MESSAGES/konversation.mo
@@ -273,6 +274,7 @@ IRC clinet for KDE5
 * /usr/share/locale/km/LC_MESSAGES/konversation.mo
 * /usr/share/locale/ko/LC_MESSAGES/konversation.mo
 * /usr/share/locale/lt/LC_MESSAGES/konversation.mo
+* /usr/share/locale/lv/LC_MESSAGES/konversation.mo
 * /usr/share/locale/mr/LC_MESSAGES/konversation.mo
 * /usr/share/locale/ms/LC_MESSAGES/konversation.mo
 * /usr/share/locale/mt/LC_MESSAGES/konversation.mo

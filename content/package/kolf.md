@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kolf 24.02.2-3"
-version = "24.02.2-3"
+title = "kolf 24.05.0-1"
+version = "24.05.0-1"
 description = "Kolf is a miniature golf game."
-date = "2024-04-17T00:46:13"
+date = "2024-05-24T15:56:27"
 aliases = "/packages/219527"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1273044"
-usize = "3455911"
-sha1sum = "a030e11df9c75f6e3ece5ef00964ccc3d5b9202b"
-depends = "['libkdegames>=24.02.2']"
+size = "1272072"
+usize = "3468385"
+sha1sum = "b1015b610e262fbf83d37c86b4f1bec9443c3043"
+depends = "['libkdegames>=24.05.0']"
 +++
 ### Description: 
 Kolf is a miniature golf game.
@@ -47,13 +47,13 @@ Kolf is a miniature golf game.
 * /usr/share/doc/HTML/sv/kolf/index.docbook
 * /usr/share/doc/HTML/uk/kolf/index.cache.bz2
 * /usr/share/doc/HTML/uk/kolf/index.docbook
-* /usr/share/doc/kolf-24.02.2/COPYING
-* /usr/share/doc/kolf-24.02.2/COPYING.DOC
-* /usr/share/doc/kolf-24.02.2/COPYING.LIB
-* /usr/share/doc/kolf-24.02.2/README.objectplugins
-* /usr/share/doc/kolf-24.02.2/README.PACKAGERS
-* /usr/share/doc/kolf-24.02.2/README.pool
-* /usr/share/doc/kolf-24.02.2/TODO
+* /usr/share/doc/kolf-24.05.0/COPYING
+* /usr/share/doc/kolf-24.05.0/COPYING.DOC
+* /usr/share/doc/kolf-24.05.0/COPYING.LIB
+* /usr/share/doc/kolf-24.05.0/README.objectplugins
+* /usr/share/doc/kolf-24.05.0/README.PACKAGERS
+* /usr/share/doc/kolf-24.05.0/README.pool
+* /usr/share/doc/kolf-24.05.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kolf.png
 * /usr/share/icons/hicolor/16x16/apps/kolf.png
 * /usr/share/icons/hicolor/22x22/apps/kolf.png
@@ -70,7 +70,6 @@ Kolf is a miniature golf game.
 * /usr/share/kolf/courses/ReallyEasy
 * /usr/share/kolf/courses/USApro
 * /usr/share/kolf/intro
-* /usr/share/kolf/pics/default_theme.svgz
 * /usr/share/kolf/sounds/blackhole.wav
 * /usr/share/kolf/sounds/blackholeeject.wav
 * /usr/share/kolf/sounds/blackholeputin.wav
@@ -81,6 +80,7 @@ Kolf is a miniature golf game.
 * /usr/share/kolf/sounds/puddle.wav
 * /usr/share/kolf/sounds/wall.wav
 * /usr/share/kolf/sounds/woohoo.wav
+* /usr/share/kolf/themes/default.svgz
 * /usr/share/kolf/tutorial.kolf
 * /usr/share/kolf/tutorial.kolfgame
 * /usr/share/locale/af/LC_MESSAGES/kolf.mo
