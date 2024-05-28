@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "683152"
 usize = "2492842"
 sha1sum = "293f40e43373378b165bdabdd3143c3fa6352f44"
-depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=6.1.0', 'libkcddb>=24.02.2', 'libkcompactdisc>=24.02.2']"
+depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=6.2.0', 'libkcddb>=24.05.0', 'libkcompactdisc>=24.05.0']"
 +++
 ### Description: 
 Kioslave for accessing audio CDs
@@ -35,9 +35,9 @@ Kioslave for accessing audio CDs
 * /usr/share/config.kcfg/audiocd_lame_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_opus_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_vorbis_encoder.kcfg
-* /usr/share/doc/audiocd-kio-24.02.2/COPYING
-* /usr/share/doc/audiocd-kio-24.02.2/COPYING.DOC
-* /usr/share/doc/audiocd-kio-24.02.2/HACKING
+* /usr/share/doc/audiocd-kio-24.05.0/COPYING
+* /usr/share/doc/audiocd-kio-24.05.0/COPYING.DOC
+* /usr/share/doc/audiocd-kio-24.05.0/HACKING
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/audiocd/index.cache.bz2

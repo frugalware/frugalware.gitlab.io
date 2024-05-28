@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "488864"
 usize = "2037815"
 sha1sum = "fab2b986e3640b494a316619e007913b6f650be2"
-depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.1.0', 'ksvg>=6.1.0', 'libplasma>=6.0.4']"
+depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.2.0', 'ksvg>=6.2.0', 'libplasma>=6.0.5']"
 +++
 ### Description: 
 KDE Bluetooth Framework
@@ -31,7 +31,7 @@ KDE Bluetooth Framework
 * /usr/share/applications/org.kde.bluedevilsendfile.desktop
 * /usr/share/applications/org.kde.bluedevilwizard.desktop
 * /usr/share/bluedevilwizard/pin-code-database.xml
-* /usr/share/doc/bluedevil-6.0.4/README
+* /usr/share/doc/bluedevil-6.0.5.1/README
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/bluedevil/bluetooth-add.png

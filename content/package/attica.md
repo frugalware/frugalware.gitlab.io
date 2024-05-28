@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "180020"
 usize = "870256"
 sha1sum = "bb834cd0d776434544f56b6e899de6d75c23bf9d"
-depends = "['qt6-base>=6.7.0']"
+depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['kxmlgui', 'okular']"
 +++
 ### Description: 
@@ -79,6 +79,7 @@ Qt library to access Open Collaboration Services
 * /usr/include/KF6/Attica/attica/person.h
 * /usr/include/KF6/Attica/attica/platformdependent.h
 * /usr/include/KF6/Attica/attica/platformdependent_v2.h
+* /usr/include/KF6/Attica/attica/platformdependent_v3.h
 * /usr/include/KF6/Attica/Attica/PostJob
 * /usr/include/KF6/Attica/attica/postjob.h
 * /usr/include/KF6/Attica/Attica/PrivateData
@@ -107,10 +108,10 @@ Qt library to access Open Collaboration Services
 * /usr/lib/cmake/KF6Attica/KF6AtticaTargets.cmake
 * /usr/lib/libKF6Attica.so
 * /usr/lib/libKF6Attica.so.6
-* /usr/lib/libKF6Attica.so.6.1.0
+* /usr/lib/libKF6Attica.so.6.2.0
 * /usr/lib/pkgconfig/KF6Attica.pc
-* /usr/share/doc/attica-6.1.0/AUTHORS
-* /usr/share/doc/attica-6.1.0/ChangeLog
-* /usr/share/doc/attica-6.1.0/README.md
+* /usr/share/doc/attica-6.2.0/AUTHORS
+* /usr/share/doc/attica-6.2.0/ChangeLog
+* /usr/share/doc/attica-6.2.0/README.md
 * /usr/share/qlogging-categories6/attica.categories
 * /usr/share/qlogging-categories6/attica.renamecategories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mangohud 0.7.1-1"
-version = "0.7.1-1"
+title = "mangohud 0.7.2-1"
+version = "0.7.2-1"
 description = "Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more"
-date = "2024-02-08T18:29:49"
+date = "2024-05-28T12:38:27"
 aliases = "/packages/220078"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/flightlessmango/mangohud"
 arch = "x86_64"
-size = "1379380"
-usize = "6263420"
-sha1sum = "5a97ec742a34a5e66b22f5c998397e72a006eaab"
-depends = "['libx11', 'nlohmann-json', 'vulkan-icd-loader', 'wayland']"
+size = "1396684"
+usize = "6341980"
+sha1sum = "2a9e6a81ba4ffc733fda1621e04f62ec523c1cc1"
+depends = "['libx11', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
 Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more
@@ -22,8 +22,8 @@ Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more
 * /usr/lib/mangohud/libMangoHud.so
 * /usr/lib/mangohud/libMangoHud_dlsym.so
 * /usr/lib/mangohud/libMangoHud_opengl.so
-* /usr/share/doc/mangohud-0.7.1/LICENSE
-* /usr/share/doc/mangohud-0.7.1/README.md
+* /usr/share/doc/mangohud-0.7.2/LICENSE
+* /usr/share/doc/mangohud-0.7.2/README.md
 * /usr/share/doc/mangohud/MangoHud.conf.example
 * /usr/share/doc/mangohud/presets.conf.example
 * /usr/share/icons/hicolor/scalable/apps/io.github.flightlessmango.mangohud.svg

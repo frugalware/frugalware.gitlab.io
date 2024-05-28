@@ -12,7 +12,7 @@ size = "777000"
 usize = "6849902"
 sha1sum = "e2355b1d096f5754b21bbcf905c76242a38835c2"
 depends = "['xkbcomp>=1.3.1-2']"
-reverse_depends = "['ckbcomp', 'gnome-desktop', 'libxkbcommon']"
+reverse_depends = "['ckbcomp', 'gnome-desktop']"
 +++
 ### Description: 
 X.org XML-based XKB configuration registry

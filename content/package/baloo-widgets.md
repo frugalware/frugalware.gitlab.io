@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "128428"
 usize = "501539"
 sha1sum = "105c8230690b40ba98552d3b28849fb56fc28bc5"
-depends = "['baloo>=6.1.0']"
+depends = "['baloo>=6.2.0']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 
@@ -31,7 +31,7 @@ Widgets for Baloo
 * /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets-release.cmake
 * /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets.cmake
 * /usr/lib/libKF6BalooWidgets.so
-* /usr/lib/libKF6BalooWidgets.so.24.02.2
+* /usr/lib/libKF6BalooWidgets.so.24.05.0
 * /usr/lib/libKF6BalooWidgets.so.6
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/tagsfileitemaction.so
 * /usr/lib/qt6/plugins/kf6/propertiesdialog/baloofilepropertiesplugin.so

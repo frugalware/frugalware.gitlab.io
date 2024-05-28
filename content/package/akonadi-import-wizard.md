@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-import-wizard 24.02.2-3"
-version = "24.02.2-3"
+title = "akonadi-import-wizard 24.05.0-1"
+version = "24.05.0-1"
 description = "KMail import wizard application."
-date = "2024-04-16T23:39:55"
+date = "2024-05-24T14:20:52"
 aliases = "/packages/218923"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "708696"
-usize = "1925241"
-sha1sum = "54c762cc91e2e48036b9bf1d6faa733d36df4454"
-depends = "['mailcommon>=24.02.2']"
+size = "681656"
+usize = "1913986"
+sha1sum = "c6651dd49b386bf86c019cc60d98f03675bbb4b5"
+depends = "['mailcommon>=24.05.0']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
@@ -41,7 +41,7 @@ KMail import wizard application.
 * /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardTargets.cmake
 * /usr/lib/libKPim6ImportWizard.so
 * /usr/lib/libKPim6ImportWizard.so.6
-* /usr/lib/libKPim6ImportWizard.so.6.0.2
+* /usr/lib/libKPim6ImportWizard.so.6.1.0
 * /usr/lib/qt6/plugins/pim6/importwizard/balsaimporterplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/clawsmailimporterplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/evolutionv3importerplugin.so
@@ -105,6 +105,7 @@ KMail import wizard application.
 * /usr/share/locale/fr/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/ga/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/gl/LC_MESSAGES/akonadiimportwizard.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadiimportwizard.mo
@@ -114,6 +115,7 @@ KMail import wizard application.
 * /usr/share/locale/km/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadiimportwizard.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/mr/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/nb/LC_MESSAGES/akonadiimportwizard.mo
 * /usr/share/locale/nds/LC_MESSAGES/akonadiimportwizard.mo

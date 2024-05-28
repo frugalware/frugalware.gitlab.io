@@ -21,7 +21,7 @@ Web browser for Plasma Mobile
 * /usr/bin/angelfish-webapp
 * /usr/share/applications/org.kde.angelfish.desktop
 * /usr/share/config.kcfg/angelfishsettings.kcfg
-* /usr/share/doc/angelfish-24.02.2/README.md
+* /usr/share/doc/angelfish-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.angelfish.svg
 * /usr/share/knotifications6/angelfish.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/angelfish.mo
@@ -41,6 +41,7 @@ Web browser for Plasma Mobile
 * /usr/share/locale/fi/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/fr/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/gl/LC_MESSAGES/angelfish.mo
+* /usr/share/locale/he/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/hu/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/ia/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/id/LC_MESSAGES/angelfish.mo
@@ -49,6 +50,7 @@ Web browser for Plasma Mobile
 * /usr/share/locale/ka/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/ko/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/lt/LC_MESSAGES/angelfish.mo
+* /usr/share/locale/lv/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/nl/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/nn/LC_MESSAGES/angelfish.mo
 * /usr/share/locale/pa/LC_MESSAGES/angelfish.mo

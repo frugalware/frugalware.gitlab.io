@@ -19,9 +19,10 @@ Client for YouTube Music
 ### Files: 
 * /usr/bin/audiotube
 * /usr/share/applications/org.kde.audiotube.desktop
-* /usr/share/doc/audiotube-24.02.2/README.md
+* /usr/share/doc/audiotube-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.audiotube.svg
 * /usr/share/locale/ar/LC_MESSAGES/audiotube.mo
+* /usr/share/locale/ast/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/az/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/ca/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/audiotube.mo
@@ -34,6 +35,7 @@ Client for YouTube Music
 * /usr/share/locale/fi/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/fr/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/gl/LC_MESSAGES/audiotube.mo
+* /usr/share/locale/he/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/hi/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/hu/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/ia/LC_MESSAGES/audiotube.mo

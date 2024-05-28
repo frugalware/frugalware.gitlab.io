@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "306732"
 usize = "1667790"
 sha1sum = "adba9e6cde3c6d5cb463ada2764119fc927fbf07"
-depends = "['kfilemetadata5>=5.115.0', 'lmdb>=0.9.18-3']"
+depends = "['kfilemetadata5>=5.116.0', 'kidletime5>=5.116.0', 'kio5>=5.116.0', 'lmdb>=0.9.18-3']"
 +++
 ### Description: 
 A framework for searching and managing metadata.
@@ -42,15 +42,15 @@ A framework for searching and managing metadata.
 * /usr/lib/cmake/KF5Baloo/KF5BalooTargets.cmake
 * /usr/lib/libKF5Baloo.so
 * /usr/lib/libKF5Baloo.so.5
-* /usr/lib/libKF5Baloo.so.5.115.0
+* /usr/lib/libKF5Baloo.so.5.116.0
 * /usr/lib/libKF5BalooEngine.so.5
-* /usr/lib/libKF5BalooEngine.so.5.115.0
+* /usr/lib/libKF5BalooEngine.so.5.116.0
 * /usr/lib/pkgconfig/Baloo.pc
 * /usr/lib/qt5/plugins/kf5/kded/baloosearchmodule.so
 * /usr/lib/qt5/plugins/kf5/kio/baloosearch.so
 * /usr/lib/qt5/plugins/kf5/kio/tags.so
 * /usr/lib/qt5/plugins/kf5/kio/timeline.so
-* /usr/share/doc/baloo5-5.115.0/README.md
+* /usr/share/doc/baloo5-5.116.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/balooctl5.mo
 * /usr/share/locale/ar/LC_MESSAGES/baloodb5.mo
 * /usr/share/locale/ar/LC_MESSAGES/balooengine5.mo

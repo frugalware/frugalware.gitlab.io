@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-mime 24.02.2-3"
-version = "24.02.2-3"
+title = "akonadi-mime 24.05.0-1"
+version = "24.05.0-1"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-04-16T23:13:55"
+date = "2024-05-24T13:53:46"
 aliases = "/packages/218738"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "219412"
-usize = "1160969"
-sha1sum = "edf89cf45d125c68f2c6f0ed751423b4cd8b3a3d"
-depends = "['akonadi>=24.02.2', 'kconfig>=6.1.0', 'kdbusaddons>=6.1.0', 'ki18n>=6.1.0', 'kio>=6.1.0', 'kitemmodels>=6.1.0', 'kmime>=24.02.2', 'kxmlgui>=6.1.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
+size = "224456"
+usize = "1186760"
+sha1sum = "85ffee79c153df716041cfac49c648ce7251f34a"
+depends = "['akonadi>=24.05.0', 'kconfig>=6.2.0', 'kdbusaddons>=6.2.0', 'ki18n>=6.2.0', 'kio>=6.2.0', 'kitemmodels>=6.2.0', 'kmime>=24.05.0', 'kxmlgui>=6.2.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
 reverse_depends = "['akonadi-contacts']"
 +++
 ### Description: 
@@ -74,12 +74,12 @@ Libraries and daemons to implement searching in Akonad
 * /usr/lib/cmake/KPim6AkonadiMime/KPim6AkonadiMimeTargets.cmake
 * /usr/lib/libKPim6AkonadiMime.so
 * /usr/lib/libKPim6AkonadiMime.so.6
-* /usr/lib/libKPim6AkonadiMime.so.6.0.2
+* /usr/lib/libKPim6AkonadiMime.so.6.1.0
 * /usr/lib/qt6/plugins/akonadi_serializer_mail.so
 * /usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 * /usr/share/config.kcfg/specialmailcollections.kcfg
-* /usr/share/doc/akonadi-mime-24.02.2/README.md
-* /usr/share/doc/akonadi-mime-24.02.2/README.md.license
+* /usr/share/doc/akonadi-mime-24.05.0/README.md
+* /usr/share/doc/akonadi-mime-24.05.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/az/LC_MESSAGES/libakonadi-kmime6.mo
@@ -100,6 +100,7 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/fr/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libakonadi-kmime6.mo
+* /usr/share/locale/he/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/ie/LC_MESSAGES/libakonadi-kmime6.mo
@@ -110,6 +111,7 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/km/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/ko/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/lt/LC_MESSAGES/libakonadi-kmime6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/mai/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/mr/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/nb/LC_MESSAGES/libakonadi-kmime6.mo

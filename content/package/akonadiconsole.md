@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadiconsole 24.02.2-3"
-version = "24.02.2-3"
+title = "akonadiconsole 24.05.0-1"
+version = "24.05.0-1"
 description = "A utility that can be used to explore or manage Akonadi"
-date = "2024-04-16T23:41:51"
+date = "2024-05-24T14:22:44"
 aliases = "/packages/218924"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "478268"
-usize = "1673972"
-sha1sum = "14a1e92ec64a2c8f84aeadb8958e401f9d31f54d"
-depends = "['calendarsupport>=24.02.2', 'messagelib>=24.02.2']"
+size = "477400"
+usize = "1670310"
+sha1sum = "e3d4fd6a1db27d80825af832cb8b9ec0bbbce9da"
+depends = "['calendarsupport>=24.05.0', 'messagelib>=24.05.0']"
 +++
 ### Description: 
 A utility that can be used to explore or manage Akonadi
@@ -19,7 +19,7 @@ A utility that can be used to explore or manage Akonadi
 ### Files: 
 * /usr/bin/akonadiconsole
 * /usr/lib/libakonadiconsole.so.6
-* /usr/lib/libakonadiconsole.so.6.0.2
+* /usr/lib/libakonadiconsole.so.6.1.0
 * /usr/share/applications/org.kde.akonadiconsole.desktop
 * /usr/share/icons/hicolor/128x128/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/16x16/apps/akonadiconsole.png

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libxkbcommon 1.7.0-2"
-version = "1.7.0-2"
+title = "libxkbcommon 1.7.0-3"
+version = "1.7.0-3"
 description = "Keymap compiler and support library for the XKB specification."
-date = "2024-05-16T03:07:49"
+date = "2024-05-28T12:35:52"
 aliases = "/packages/168713"
 categories = ['x11']
 upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
-size = "212412"
+size = "212788"
 usize = "913209"
-sha1sum = "9139f9dfc95c9196f2963d1ca8f9a6ca8a47eac2"
-depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'xkeyboard-config>=2.18-2']"
-reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'obs-studio', 'qt5-base', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
+sha1sum = "acf1f0132d24da989b04399f4f7e77ee85a64848"
+depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'libxml2']"
+reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'mangohud', 'obs-studio', 'qt5-base', 'qt6-base', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'xdotool']"
 +++
 ### Description: 
 Keymap compiler and support library for the XKB specification.

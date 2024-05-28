@@ -19,7 +19,7 @@ EPub Reader for mobile devices
 ### Files: 
 * /usr/bin/arianna
 * /usr/share/applications/org.kde.arianna.desktop
-* /usr/share/doc/arianna-24.02.2/README.md
+* /usr/share/doc/arianna-24.05.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.arianna.svg
 * /usr/share/locale/ar/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ast/LC_MESSAGES/arianna.mo
@@ -34,6 +34,7 @@ EPub Reader for mobile devices
 * /usr/share/locale/fi/LC_MESSAGES/arianna.mo
 * /usr/share/locale/fr/LC_MESSAGES/arianna.mo
 * /usr/share/locale/gl/LC_MESSAGES/arianna.mo
+* /usr/share/locale/he/LC_MESSAGES/arianna.mo
 * /usr/share/locale/hu/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ia/LC_MESSAGES/arianna.mo
 * /usr/share/locale/is/LC_MESSAGES/arianna.mo
@@ -42,6 +43,7 @@ EPub Reader for mobile devices
 * /usr/share/locale/ka/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ko/LC_MESSAGES/arianna.mo
 * /usr/share/locale/lt/LC_MESSAGES/arianna.mo
+* /usr/share/locale/lv/LC_MESSAGES/arianna.mo
 * /usr/share/locale/nl/LC_MESSAGES/arianna.mo
 * /usr/share/locale/pl/LC_MESSAGES/arianna.mo
 * /usr/share/locale/pt/LC_MESSAGES/arianna.mo

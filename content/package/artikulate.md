@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1166764"
 usize = "2549341"
 sha1sum = "1745bc879d89433d879d100df5af8bc8e31eec9e"
-depends = "['kdeclarative5>=5.115.0', 'knewstuff5>=5.115.0', 'qt5-gstreamer>=1.2.0', 'qt5-multimedia>=5.15.12', 'qt5-xmlpatterns>=5.15.12']"
+depends = "['kdeclarative5>=5.116.0', 'knewstuff5>=5.116.0', 'qt5-gstreamer>=1.2.0', 'qt5-multimedia>=5.15.14', 'qt5-xmlpatterns>=5.15.14']"
 +++
 ### Description: 
 Memory Enhancement Game.
@@ -24,9 +24,9 @@ Memory Enhancement Game.
 * /usr/lib/libartikulatesound.so.0
 * /usr/share/applications/org.kde.artikulate.desktop
 * /usr/share/config.kcfg/artikulate.kcfg
-* /usr/share/doc/artikulate-24.02.2/COPYING
-* /usr/share/doc/artikulate-24.02.2/COPYING.DOC
-* /usr/share/doc/artikulate-24.02.2/README.md
+* /usr/share/doc/artikulate-24.05.0/COPYING
+* /usr/share/doc/artikulate-24.05.0/COPYING.DOC
+* /usr/share/doc/artikulate-24.05.0/README.md
 * /usr/share/doc/HTML/ca/artikulate/first-steps-1-create-profile.png
 * /usr/share/doc/HTML/ca/artikulate/first-steps-3-download-course.png
 * /usr/share/doc/HTML/ca/artikulate/first-steps-4-start-training.png

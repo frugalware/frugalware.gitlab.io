@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "150384"
 usize = "734491"
 sha1sum = "e16d65d50631b8fe6224ebdc0a0b73afae902500"
-depends = "['qt5-base>=5.15.12']"
+depends = "['qt5-base>=5.15.14']"
 reverse_depends = "['kxmlgui5']"
 +++
 ### Description: 
@@ -107,11 +107,11 @@ Qt library to access Open Collaboration Services
 * /usr/lib/cmake/KF5Attica/KF5AtticaTargets.cmake
 * /usr/lib/libKF5Attica.so
 * /usr/lib/libKF5Attica.so.5
-* /usr/lib/libKF5Attica.so.5.115.0
+* /usr/lib/libKF5Attica.so.5.116.0
 * /usr/lib/pkgconfig/libKF5Attica.pc
-* /usr/share/doc/attica5-5.115.0/AUTHORS
-* /usr/share/doc/attica5-5.115.0/ChangeLog
-* /usr/share/doc/attica5-5.115.0/README.md
+* /usr/share/doc/attica5-5.116.0/AUTHORS
+* /usr/share/doc/attica5-5.116.0/ChangeLog
+* /usr/share/doc/attica5-5.116.0/README.md
 * /usr/share/qlogging-categories5/attica.categories
 * /usr/share/qlogging-categories5/attica.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_Attica.pri

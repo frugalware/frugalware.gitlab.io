@@ -1,18 +1,17 @@
 +++
 draft = false
-title = "lib32-nlohmann-json 3.11.3-2"
-version = "3.11.3-2"
+title = "lib32-nlohmann-json 3.11.3-3"
+version = "3.11.3-3"
 description = "JSON for Modern C++ ( 32bit )"
-date = "2024-02-16T14:01:05"
+date = "2024-05-28T12:11:47"
 aliases = "/packages/221151"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/nlohmann/json"
 arch = "x86_64"
-size = "109948"
-usize = "925614"
-sha1sum = "ab5045d0e0da2de242a1b62215924d14bd51103b"
+size = "109996"
+usize = "925701"
+sha1sum = "3cdd1574b92464829c9a714d1d4c63398f4a57a0"
 depends = "[]"
-reverse_depends = "['lib32-mangohud']"
 +++
 ### Description: 
 JSON for Modern C++ ( 32bit )

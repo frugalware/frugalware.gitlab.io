@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi 24.02.2-3"
-version = "24.02.2-3"
+title = "akonadi 24.05.0-1"
+version = "24.05.0-1"
 description = "PIM layer, which provides an asynchronous API to access all kind of PIM data"
-date = "2024-04-16T23:12:20"
+date = "2024-05-24T13:52:14"
 aliases = "/packages/74013"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2697384"
-usize = "11475759"
-sha1sum = "3a1dbac0e798184d6d1e205f7360f7207ba400bf"
-depends = "['kaccounts-integration>=24.02.2', 'kio>=6.1.0', 'kitemmodels>=6.1.0', 'kitemviews>=6.1.0', 'libxslt', 'qt6-base>=6.7.0', 'shared-mime-info']"
+size = "3068292"
+usize = "13617703"
+sha1sum = "c9630c97d63a6e86aaa02c1e35d6343aeec211c4"
+depends = "['kaccounts-integration>=24.05.0', 'kio>=6.2.0', 'kitemmodels>=6.2.0', 'kitemviews>=6.2.0', 'libxslt', 'qt6-base>=6.7.1', 'shared-mime-info']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++
 ### Description: 
@@ -24,6 +24,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /etc/apparmor.d/usr.bin.akonadiserver
 * /etc/xdg/akonadi/mysql-global-mobile.conf
 * /etc/xdg/akonadi/mysql-global.conf
+* /usr/bin/akonadi-db-migrator
 * /usr/bin/akonadi2xml
 * /usr/bin/akonadictl
 * /usr/bin/akonadiselftest
@@ -348,19 +349,19 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/lib/cmake/KPim6Akonadi/KPimAkonadiMacros.cmake
 * /usr/lib/libKPim6AkonadiAgentBase.so
 * /usr/lib/libKPim6AkonadiAgentBase.so.6
-* /usr/lib/libKPim6AkonadiAgentBase.so.6.0.2
+* /usr/lib/libKPim6AkonadiAgentBase.so.6.1.0
 * /usr/lib/libKPim6AkonadiCore.so
 * /usr/lib/libKPim6AkonadiCore.so.6
-* /usr/lib/libKPim6AkonadiCore.so.6.0.2
+* /usr/lib/libKPim6AkonadiCore.so.6.1.0
 * /usr/lib/libKPim6AkonadiPrivate.so
 * /usr/lib/libKPim6AkonadiPrivate.so.6
-* /usr/lib/libKPim6AkonadiPrivate.so.6.0.2
+* /usr/lib/libKPim6AkonadiPrivate.so.6.1.0
 * /usr/lib/libKPim6AkonadiWidgets.so
 * /usr/lib/libKPim6AkonadiWidgets.so.6
-* /usr/lib/libKPim6AkonadiWidgets.so.6.0.2
+* /usr/lib/libKPim6AkonadiWidgets.so.6.1.0
 * /usr/lib/libKPim6AkonadiXml.so
 * /usr/lib/libKPim6AkonadiXml.so.6
-* /usr/lib/libKPim6AkonadiXml.so.6.0.2
+* /usr/lib/libKPim6AkonadiXml.so.6.1.0
 * /usr/lib/qt6/plugins/designer/akonadi6widgets.so
 * /usr/lib/qt6/plugins/pim6/akonadi/akonadi_test_searchplugin.so
 * /usr/share/akonadi/agents/knutresource.desktop
@@ -380,11 +381,11 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.Tracer.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.TracerNotification.xml
 * /usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
-* /usr/share/doc/akonadi-24.02.2/AUTHORS
-* /usr/share/doc/akonadi-24.02.2/INSTALL
-* /usr/share/doc/akonadi-24.02.2/NEWS
-* /usr/share/doc/akonadi-24.02.2/README.md
-* /usr/share/doc/akonadi-24.02.2/README.md.license
+* /usr/share/doc/akonadi-24.05.0/AUTHORS
+* /usr/share/doc/akonadi-24.05.0/INSTALL
+* /usr/share/doc/akonadi-24.05.0/NEWS
+* /usr/share/doc/akonadi-24.05.0/README.md
+* /usr/share/doc/akonadi-24.05.0/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/akonadi.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi.png
 * /usr/share/icons/hicolor/22x22/apps/akonadi.png
@@ -400,6 +401,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/kf6/akonadi_knut_resource/knut-template.xml
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/ar/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/ast/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadi_knut_resource.mo
@@ -458,6 +460,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/ia/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/id/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/id/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/is/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/libakonadi6.mo
@@ -474,8 +477,10 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/ko/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/ko/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/lt/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/lt/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/lv/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/lv/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/mai/LC_MESSAGES/libakonadi6.mo
@@ -523,6 +528,8 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/sr@latin/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadi-db-migrator.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/ta/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/tg/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/tg/LC_MESSAGES/libakonadi6.mo
@@ -538,6 +545,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libakonadi6.mo
 * /usr/share/mime/packages/akonadi-mime.xml

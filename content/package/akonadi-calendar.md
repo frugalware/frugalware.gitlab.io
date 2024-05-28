@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-calendar 24.02.2-3"
-version = "24.02.2-3"
+title = "akonadi-calendar 24.05.0-1"
+version = "24.05.0-1"
 description = "Akonadi calendar integration"
-date = "2024-04-16T23:31:40"
+date = "2024-05-24T14:12:36"
 aliases = "/packages/218249"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "682112"
-usize = "3539901"
-sha1sum = "ebca07946598bb1c892cc29a9e025736a1c3b213"
-depends = "['kcalutils>=24.02.2', 'kmailtransport>=24.02.2', 'messagelib>=24.02.2']"
+size = "699176"
+usize = "3631191"
+sha1sum = "fd02fd425c894f5f04a1cdfd9631659c082dfc43"
+depends = "['kcalutils>=24.05.0', 'kmailtransport>=24.05.0', 'messagelib>=24.05.0']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime']"
 +++
 ### Description: 
@@ -31,6 +31,10 @@ Akonadi calendar integration
 * /usr/include/KPim6/AkonadiCalendar/akonadi/calendarsettings.h
 * /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarUtils
 * /usr/include/KPim6/AkonadiCalendar/akonadi/calendarutils.h
+* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalFilterPartStatusProxyModel
+* /usr/include/KPim6/AkonadiCalendar/akonadi/calfilterpartstatusproxymodel.h
+* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalFilterProxyModel
+* /usr/include/KPim6/AkonadiCalendar/akonadi/calfilterproxymodel.h
 * /usr/include/KPim6/AkonadiCalendar/Akonadi/CollectionCalendar
 * /usr/include/KPim6/AkonadiCalendar/akonadi/collectioncalendar.h
 * /usr/include/KPim6/AkonadiCalendar/Akonadi/ETMCalendar
@@ -67,14 +71,14 @@ Akonadi calendar integration
 * /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarTargets.cmake
 * /usr/lib/libKPim6AkonadiCalendar.so
 * /usr/lib/libKPim6AkonadiCalendar.so.6
-* /usr/lib/libKPim6AkonadiCalendar.so.6.0.2
+* /usr/lib/libKPim6AkonadiCalendar.so.6.1.0
 * /usr/lib/qt6/plugins/akonadi_serializer_kcalcore.so
 * /usr/lib/qt6/plugins/kf6/org.kde.kcalendarcore.calendars/libakonadicalendarplugin.so
 * /usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 * /usr/share/dbus-1/services/org.kde.kalendarac.service
-* /usr/share/doc/akonadi-calendar-24.02.2/README.md
-* /usr/share/doc/akonadi-calendar-24.02.2/README.md.license
-* /usr/share/doc/akonadi-calendar-24.02.2/TODO
+* /usr/share/doc/akonadi-calendar-24.05.0/README.md
+* /usr/share/doc/akonadi-calendar-24.05.0/README.md.license
+* /usr/share/doc/akonadi-calendar-24.05.0/TODO
 * /usr/share/knotifications6/kalendarac.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kalendarac.mo
 * /usr/share/locale/ar/LC_MESSAGES/libakonadi-calendar6-serializer.mo
@@ -141,6 +145,8 @@ Akonadi calendar integration
 * /usr/share/locale/id/LC_MESSAGES/kalendarac.mo
 * /usr/share/locale/id/LC_MESSAGES/libakonadi-calendar6-serializer.mo
 * /usr/share/locale/id/LC_MESSAGES/libakonadi-calendar6.mo
+* /usr/share/locale/is/LC_MESSAGES/kalendarac.mo
+* /usr/share/locale/is/LC_MESSAGES/libakonadi-calendar6-serializer.mo
 * /usr/share/locale/it/LC_MESSAGES/kalendarac.mo
 * /usr/share/locale/it/LC_MESSAGES/libakonadi-calendar6-serializer.mo
 * /usr/share/locale/it/LC_MESSAGES/libakonadi-calendar6.mo
@@ -160,7 +166,9 @@ Akonadi calendar integration
 * /usr/share/locale/lt/LC_MESSAGES/kalendarac.mo
 * /usr/share/locale/lt/LC_MESSAGES/libakonadi-calendar6-serializer.mo
 * /usr/share/locale/lt/LC_MESSAGES/libakonadi-calendar6.mo
+* /usr/share/locale/lv/LC_MESSAGES/kalendarac.mo
 * /usr/share/locale/lv/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* /usr/share/locale/lv/LC_MESSAGES/libakonadi-calendar6.mo
 * /usr/share/locale/mai/LC_MESSAGES/libakonadi-calendar6.mo
 * /usr/share/locale/mr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
 * /usr/share/locale/mr/LC_MESSAGES/libakonadi-calendar6.mo

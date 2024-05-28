@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2413784"
 usize = "3306601"
 sha1sum = "451c66771ccd0c2432ed1ee1d79b1a38811c4494"
-depends = "['kdeclarative>=6.1.0', 'knewstuff>=6.1.0']"
+depends = "[]"
 +++
 ### Description: 
 Memory Enhancement Game.

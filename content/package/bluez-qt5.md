@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "221684"
 usize = "1017818"
 sha1sum = "7e8bf517bf1ffca54b3da225c4de0960f5fb42c6"
-depends = "['qt5-declarative>=5.15.12']"
+depends = "['qt5-declarative>=5.15.14']"
 +++
 ### Description: 
 A Qt wrapper for bluez
@@ -100,11 +100,11 @@ A Qt wrapper for bluez
 * /usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets-release.cmake
 * /usr/lib/cmake/KF5BluezQt/KF5BluezQtTargets.cmake
 * /usr/lib/libKF5BluezQt.so
-* /usr/lib/libKF5BluezQt.so.5.115.0
+* /usr/lib/libKF5BluezQt.so.5.116.0
 * /usr/lib/libKF5BluezQt.so.6
 * /usr/lib/pkgconfig/KF5BluezQt.pc
 * /usr/lib/udev/rules.d/61-kde-bluetooth-rfkill.rules
-* /usr/share/doc/bluez-qt5-5.115.0/README.md
+* /usr/share/doc/bluez-qt5-5.116.0/README.md
 * /usr/share/qlogging-categories5/bluezqt.categories
 * /usr/share/qlogging-categories5/bluezqt.renamecategories
 * /usr/share/qt5/mkspecs/modules/qt_BluezQt.pri

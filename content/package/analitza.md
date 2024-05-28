@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "analitza 24.02.2-3"
-version = "24.02.2-3"
+title = "analitza 24.05.0-1"
+version = "24.05.0-1"
 description = "Shared Math libraries from Kalgebra."
-date = "2024-04-16T21:14:26"
+date = "2024-05-24T09:24:28"
 aliases = "/packages/152574"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "530908"
-usize = "2573004"
-sha1sum = "3ae1b22630185c8cc723e5f9d32fc4fcb07c6b41"
-depends = "['eigen>=3.2.9-3', 'qt6-5compat>=6.7.0', 'qt6-declarative>=6.7.0', 'qt6-svg>=6.7.0']"
+size = "538112"
+usize = "2608912"
+sha1sum = "4a27056eb925fd28a8afec39f5067006efa25eb1"
+depends = "['eigen>=3.2.9-3', 'qt6-5compat>=6.7.1', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
 reverse_depends = "['cantor', 'kalgebra']"
 +++
 ### Description: 
@@ -66,27 +66,27 @@ Shared Math libraries from Kalgebra.
 * /usr/lib/cmake/Analitza6/Analitza6Targets-release.cmake
 * /usr/lib/cmake/Analitza6/Analitza6Targets.cmake
 * /usr/lib/libAnalitza.so
-* /usr/lib/libAnalitza.so.8
-* /usr/lib/libAnalitza.so.8.0.0
+* /usr/lib/libAnalitza.so.9
+* /usr/lib/libAnalitza.so.9.0.0
 * /usr/lib/libAnalitzaGui.so
-* /usr/lib/libAnalitzaGui.so.8
-* /usr/lib/libAnalitzaGui.so.8.0.0
+* /usr/lib/libAnalitzaGui.so.9
+* /usr/lib/libAnalitzaGui.so.9.0.0
 * /usr/lib/libAnalitzaPlot.so
-* /usr/lib/libAnalitzaPlot.so.8
-* /usr/lib/libAnalitzaPlot.so.8.0.0
+* /usr/lib/libAnalitzaPlot.so.9
+* /usr/lib/libAnalitzaPlot.so.9.0.0
 * /usr/lib/libAnalitzaWidgets.so
-* /usr/lib/libAnalitzaWidgets.so.8
-* /usr/lib/libAnalitzaWidgets.so.8.0.0
+* /usr/lib/libAnalitzaWidgets.so.9
+* /usr/lib/libAnalitzaWidgets.so.9.0.0
 * /usr/lib/qt6/qml/org/kde/analitza/analitzadeclarativeplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/analitza/Graph2D.qml
 * /usr/lib/qt6/qml/org/kde/analitza/Graph3D.qml
 * /usr/lib/qt6/qml/org/kde/analitza/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/analitza/qmldir
-* /usr/share/doc/analitza-24.02.2/COPYING
-* /usr/share/doc/analitza-24.02.2/COPYING.DOC
-* /usr/share/doc/analitza-24.02.2/COPYING.LIB
-* /usr/share/doc/analitza-24.02.2/TODO
+* /usr/share/doc/analitza-24.05.0/COPYING
+* /usr/share/doc/analitza-24.05.0/COPYING.DOC
+* /usr/share/doc/analitza-24.05.0/COPYING.LIB
+* /usr/share/doc/analitza-24.05.0/TODO
 * /usr/share/libanalitza/plots/3Ds.plots
 * /usr/share/libanalitza/plots/basic_curves.plots
 * /usr/share/libanalitza/plots/conics.plots

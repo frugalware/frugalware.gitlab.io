@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1109628"
 usize = "3736199"
 sha1sum = "a469ef0cb01691ee7965141a80bd167bd8d51bb3"
-depends = "['qt5-location>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-sensors>=5.15.10']"
+depends = "['qt5-location>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-sensors>=5.15.10', 'qtkeychain-qt5']"
 +++
 ### Description: 
 AsemanQtTools, is the shared tools and functions, we used in the aseman's projects.

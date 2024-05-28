@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-notes 24.02.2-3"
-version = "24.02.2-3"
+title = "akonadi-notes 24.05.0-1"
+version = "24.05.0-1"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-04-16T23:15:02"
+date = "2024-05-24T13:54:50"
 aliases = "/packages/218739"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "29964"
-usize = "105610"
-sha1sum = "ee3bcb0764b13a8e1c238e584320ba0c513ca99b"
-depends = "['akonadi>=24.02.2', 'ki18n>=6.1.0', 'kmime>=24.02.2']"
+size = "30208"
+usize = "106267"
+sha1sum = "916aa003ea53f185c6ac02fe81aecef4468fd59e"
+depends = "['akonadi>=24.05.0', 'ki18n>=6.2.0', 'kmime>=24.05.0']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime', 'knotes', 'messagelib']"
 +++
 ### Description: 
@@ -29,9 +29,9 @@ Libraries and daemons to implement searching in Akonad
 * /usr/lib/cmake/KPim6AkonadiNotes/KPim6AkonadiNotesTargets.cmake
 * /usr/lib/libKPim6AkonadiNotes.so
 * /usr/lib/libKPim6AkonadiNotes.so.6
-* /usr/lib/libKPim6AkonadiNotes.so.6.0.2
-* /usr/share/doc/akonadi-notes-24.02.2/README.md
-* /usr/share/doc/akonadi-notes-24.02.2/README.md.license
+* /usr/lib/libKPim6AkonadiNotes.so.6.1.0
+* /usr/share/doc/akonadi-notes-24.05.0/README.md
+* /usr/share/doc/akonadi-notes-24.05.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/az/LC_MESSAGES/akonadinotes6.mo
@@ -66,6 +66,7 @@ Libraries and daemons to implement searching in Akonad
 * /usr/share/locale/km/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadinotes6.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/mr/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/nb/LC_MESSAGES/akonadinotes6.mo
 * /usr/share/locale/nds/LC_MESSAGES/akonadinotes6.mo
