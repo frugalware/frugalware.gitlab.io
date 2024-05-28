@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clight 4.11-1"
-version = "4.11-1"
+title = "clight 4.11-2"
+version = "4.11-2"
 description = "A C daemon that turns your webcam into a light sensor. It can also change"
-date = "2024-04-07T17:34:21"
+date = "2024-05-28T20:38:35"
 aliases = "/packages/220478"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/FedeDP/clight"
 arch = "x86_64"
-size = "84256"
-usize = "257566"
-sha1sum = "e639b6c7f7b7a1545374c0a9b5f0c5223055c320"
-depends = "['clightd', 'geoclue2', 'gsl>=2.7.1', 'hicolor-icon-theme', 'libconfig', 'popt', 'upower']"
+size = "84660"
+usize = "261662"
+sha1sum = "7aaf7a3fc75a26c18363c458b05800d61cd17d32"
+depends = "['clightd', 'geoclue2', 'gsl>=2.8', 'hicolor-icon-theme', 'libconfig', 'popt', 'upower']"
 reverse_depends = "['clight-gui']"
 +++
 ### Description: 
