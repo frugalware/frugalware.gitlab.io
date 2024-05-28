@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libyuv 20240502.g6f1d8b1-2"
-version = "20240502.g6f1d8b1-2"
+title = "libyuv 20240528.g6b9604d-1"
+version = "20240528.g6b9604d-1"
 description = "Library for YUV scaling"
-date = "2024-05-16T03:18:55"
+date = "2024-05-28T11:14:15"
 aliases = "/packages/220806"
 categories = ['lib']
 upstreamurl = "https://chromium.googlesource.com/libyuv/libyuv"
 arch = "x86_64"
-size = "289876"
-usize = "1916845"
-sha1sum = "287ba9440f6736ce2f07fc778a3a1511cddc8146"
+size = "290516"
+usize = "1917809"
+sha1sum = "ef3d61d4c68dc531c11b72f01bdc937c1b401721"
 depends = "['libjpeg-turbo']"
 reverse_depends = "['libavif']"
 +++
@@ -44,7 +44,7 @@ Library for YUV scaling
 * /usr/include/libyuv/version.h
 * /usr/include/libyuv/video_common.h
 * /usr/lib/libyuv.so
-* /usr/share/doc/libyuv-20240502.g6f1d8b1/AUTHORS
-* /usr/share/doc/libyuv-20240502.g6f1d8b1/LICENSE
-* /usr/share/doc/libyuv-20240502.g6f1d8b1/README.chromium
-* /usr/share/doc/libyuv-20240502.g6f1d8b1/README.md
+* /usr/share/doc/libyuv-20240528.g6b9604d/AUTHORS
+* /usr/share/doc/libyuv-20240528.g6b9604d/LICENSE
+* /usr/share/doc/libyuv-20240528.g6b9604d/README.chromium
+* /usr/share/doc/libyuv-20240528.g6b9604d/README.md

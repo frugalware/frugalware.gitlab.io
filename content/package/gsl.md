@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsl 2.7.1-1"
-version = "2.7.1-1"
+title = "gsl 2.8-1"
+version = "2.8-1"
 description = "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers."
-date = "2022-01-13T08:37:54"
+date = "2024-05-28T09:59:17"
 aliases = "/packages/9230"
 categories = ['lib']
 upstreamurl = "http://www.gnu.org/software/gsl/"
 arch = "x86_64"
-size = "1566464"
-usize = "5080057"
-sha1sum = "6a2c66dde27250e644f7a20217b603ba6820420b"
+size = "1637580"
+usize = "5205019"
+sha1sum = "53e221d21a0ac33cf6ca00c5dc1da585a5587338"
 depends = "['glibc>=2.34']"
 reverse_depends = "['clight', 'easyeffects', 'enblend-enfuse', 'guvcview', 'inkscape', 'krita', 'kstars', 'labplot', 'stellarsolver', 'step']"
 +++
@@ -175,6 +175,7 @@ The GNU Scientific Library (GSL) is a numerical library for C and C++ programmer
 * /usr/include/gsl/gsl_rstat.h
 * /usr/include/gsl/gsl_sf.h
 * /usr/include/gsl/gsl_sf_airy.h
+* /usr/include/gsl/gsl_sf_alf.h
 * /usr/include/gsl/gsl_sf_bessel.h
 * /usr/include/gsl/gsl_sf_clausen.h
 * /usr/include/gsl/gsl_sf_coulomb.h
@@ -288,21 +289,21 @@ The GNU Scientific Library (GSL) is a numerical library for C and C++ programmer
 * /usr/include/gsl/gsl_wavelet2d.h
 * /usr/include/gsl/test_source.c
 * /usr/lib/libgsl.so
-* /usr/lib/libgsl.so.27
-* /usr/lib/libgsl.so.27.0.0
+* /usr/lib/libgsl.so.28
+* /usr/lib/libgsl.so.28.0.0
 * /usr/lib/libgslcblas.so
 * /usr/lib/libgslcblas.so.0
 * /usr/lib/libgslcblas.so.0.0.0
 * /usr/lib/pkgconfig/gsl.pc
 * /usr/share/aclocal/gsl.m4
-* /usr/share/doc/gsl-2.7.1/AUTHORS
-* /usr/share/doc/gsl-2.7.1/ChangeLog
-* /usr/share/doc/gsl-2.7.1/COPYING
-* /usr/share/doc/gsl-2.7.1/INSTALL
-* /usr/share/doc/gsl-2.7.1/NEWS
-* /usr/share/doc/gsl-2.7.1/README
-* /usr/share/doc/gsl-2.7.1/THANKS
-* /usr/share/doc/gsl-2.7.1/TODO
+* /usr/share/doc/gsl-2.8/AUTHORS
+* /usr/share/doc/gsl-2.8/ChangeLog
+* /usr/share/doc/gsl-2.8/COPYING
+* /usr/share/doc/gsl-2.8/INSTALL
+* /usr/share/doc/gsl-2.8/NEWS
+* /usr/share/doc/gsl-2.8/README
+* /usr/share/doc/gsl-2.8/THANKS
+* /usr/share/doc/gsl-2.8/TODO
 * /usr/share/info/gsl-ref.info.gz
 * /usr/share/man/man1/gsl-config.1.gz
 * /usr/share/man/man1/gsl-histogram.1.gz
