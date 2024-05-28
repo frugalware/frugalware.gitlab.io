@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-16"
-version = "7.1.1-16"
+title = "imagemagick 7.1.1-17"
+version = "7.1.1-17"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2024-05-06T08:19:04"
+date = "2024-05-28T08:53:15"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8556500"
-usize = "22881616"
-sha1sum = "2189293bb5d169def048176d80c15c1f6ed044b1"
+size = "8585680"
+usize = "22954319"
+sha1sum = "6123bbf475dc5507a91e48e057082699266a9729"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.2.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'emacs', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
@@ -166,7 +166,6 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/include/ImageMagick-7/MagickWand/compare.h
 * /usr/include/ImageMagick-7/MagickWand/composite.h
 * /usr/include/ImageMagick-7/MagickWand/conjure.h
-* /usr/include/ImageMagick-7/MagickWand/convert.h
 * /usr/include/ImageMagick-7/MagickWand/deprecate.h
 * /usr/include/ImageMagick-7/MagickWand/display.h
 * /usr/include/ImageMagick-7/MagickWand/drawing-wand.h

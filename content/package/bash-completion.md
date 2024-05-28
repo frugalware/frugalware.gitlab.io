@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bash-completion 2.13.0-1"
-version = "2.13.0-1"
+title = "bash-completion 2.14.0-1"
+version = "2.14.0-1"
 description = "Programmable completion for bash"
-date = "2024-04-10T13:11:59"
+date = "2024-05-28T08:39:06"
 aliases = "/packages/2926"
 categories = ['apps']
 upstreamurl = "https://github.com/scop/bash-completion"
 arch = "x86_64"
-size = "199668"
-usize = "1052158"
-sha1sum = "76addba2594adf6f4bf661ec0756063df9dc13c6"
+size = "200720"
+usize = "1059794"
+sha1sum = "19ab0debd933aea6658791a339ebcd1a08f5dcb5"
 depends = "['bash']"
 reverse_depends = "['git-imerge', 'packagekit']"
 +++
@@ -178,6 +178,7 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/ebtables
 * /usr/share/bash-completion/completions/ecryptfs-migrate-home
 * /usr/share/bash-completion/completions/edquota
+* /usr/share/bash-completion/completions/env
 * /usr/share/bash-completion/completions/eog
 * /usr/share/bash-completion/completions/ether-wake
 * /usr/share/bash-completion/completions/etherwake
@@ -803,6 +804,7 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/_ansible-pull
 * /usr/share/bash-completion/completions/_ansible-vault
 * /usr/share/bash-completion/completions/_arduino-cli
+* /usr/share/bash-completion/completions/_bao
 * /usr/share/bash-completion/completions/_black
 * /usr/share/bash-completion/completions/_blackd
 * /usr/share/bash-completion/completions/_buf
@@ -821,6 +823,7 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/_datree
 * /usr/share/bash-completion/completions/_deno
 * /usr/share/bash-completion/completions/_diesel
+* /usr/share/bash-completion/completions/_dlv
 * /usr/share/bash-completion/completions/_dmesg
 * /usr/share/bash-completion/completions/_docker
 * /usr/share/bash-completion/completions/_dprint
@@ -838,12 +841,14 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/_gopherjs
 * /usr/share/bash-completion/completions/_goreleaser
 * /usr/share/bash-completion/completions/_gsctl
+* /usr/share/bash-completion/completions/_gup
 * /usr/share/bash-completion/completions/_helm
 * /usr/share/bash-completion/completions/_hexdump
 * /usr/share/bash-completion/completions/_httpx
 * /usr/share/bash-completion/completions/_hugo
 * /usr/share/bash-completion/completions/_hwclock
 * /usr/share/bash-completion/completions/_ignite
+* /usr/share/bash-completion/completions/_incus
 * /usr/share/bash-completion/completions/_infracost
 * /usr/share/bash-completion/completions/_ionice
 * /usr/share/bash-completion/completions/_istioctl
@@ -917,6 +922,7 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/_terraform
 * /usr/share/bash-completion/completions/_tkn
 * /usr/share/bash-completion/completions/_tkn-pac
+* /usr/share/bash-completion/completions/_tofu
 * /usr/share/bash-completion/completions/_tokio-console
 * /usr/share/bash-completion/completions/_trivy
 * /usr/share/bash-completion/completions/_udevadm
@@ -931,12 +937,13 @@ Programmable completion for bash
 * /usr/share/bash-completion/completions/_xm
 * /usr/share/bash-completion/completions/_yq
 * /usr/share/bash-completion/completions/_yum
+* /usr/share/bash-completion/completions/_zarf
 * /usr/share/bash-completion/completions/_zitadel
 * /usr/share/bash-completion/helpers/make-extract-targets.awk
 * /usr/share/bash-completion/helpers/perl
 * /usr/share/bash-completion/helpers/python
 * /usr/share/cmake/bash-completion/bash-completion-config-version.cmake
 * /usr/share/cmake/bash-completion/bash-completion-config.cmake
-* /usr/share/doc/bash-completion-2.13.0/AUTHORS
-* /usr/share/doc/bash-completion-2.13.0/COPYING
-* /usr/share/doc/bash-completion-2.13.0/README.md
+* /usr/share/doc/bash-completion-2.14.0/AUTHORS
+* /usr/share/doc/bash-completion-2.14.0/COPYING
+* /usr/share/doc/bash-completion-2.14.0/README.md
