@@ -66,5 +66,6 @@ JSON for Modern C++
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+* /usr/share/doc/nlohmann-json-3.11.3/LICENSE
 * /usr/share/doc/nlohmann-json-3.11.3/README.md
 * /usr/share/pkgconfig/nlohmann_json.pc

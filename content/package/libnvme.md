@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libnvme 1.8-1"
-version = "1.8-1"
+title = "libnvme 1.9-1"
+version = "1.9-1"
 description = "C Library for NVM Express on Linux"
-date = "2024-02-20T14:27:23"
+date = "2024-05-28T11:18:55"
 aliases = "/packages/221028"
 categories = ['lib']
 upstreamurl = "https://github.com/linux-nvme/libnvme"
 arch = "x86_64"
-size = "249136"
-usize = "1376108"
-sha1sum = "1a791ae291e9c02302a8930df6c4708693240732"
+size = "258100"
+usize = "1435706"
+sha1sum = "57b836e84c60f2e3843f51176b71953505df07c5"
 depends = "['dbus', 'json-c', 'keyutils', 'openssl', 'python3>=3.12']"
 reverse_depends = "['libblockdev', 'nvme-cli']"
 +++
@@ -33,10 +33,10 @@ C Library for NVM Express on Linux
 * /usr/include/nvme/util.h
 * /usr/lib/libnvme-mi.so
 * /usr/lib/libnvme-mi.so.1
-* /usr/lib/libnvme-mi.so.1.8.0
+* /usr/lib/libnvme-mi.so.1.9.0
 * /usr/lib/libnvme.so
 * /usr/lib/libnvme.so.1
-* /usr/lib/libnvme.so.1.8.0
+* /usr/lib/libnvme.so.1.9.0
 * /usr/lib/pkgconfig/libnvme-mi.pc
 * /usr/lib/pkgconfig/libnvme.pc
 * /usr/lib/python3.12/site-packages/libnvme/nvme.py
@@ -44,5 +44,5 @@ C Library for NVM Express on Linux
 * /usr/lib/python3.12/site-packages/libnvme/__init__.py
 * /usr/lib/python3.12/site-packages/libnvme/__pycache__/nvme.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/libnvme/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/libnvme-1.8/COPYING
-* /usr/share/doc/libnvme-1.8/README.md
+* /usr/share/doc/libnvme-1.9/COPYING
+* /usr/share/doc/libnvme-1.9/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libwebp 1.3.2-2"
-version = "1.3.2-2"
+title = "lib32-libwebp 1.4.0-1"
+version = "1.4.0-1"
 description = "A library for a new image format comparable to JPEG. ( 32bit )"
-date = "2024-05-16T02:49:15"
+date = "2024-05-28T11:21:11"
 aliases = "/packages/219920"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/webmproject/libwebp"
 arch = "x86_64"
-size = "320460"
-usize = "1149549"
-sha1sum = "de729a3d7d6cf867742d0215184069e34328dcb0"
+size = "323984"
+usize = "1169548"
+sha1sum = "8203186f640e1a62011e05dffef102a148d9b204"
 depends = "['lib32-libgif', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.10-2']"
 reverse_depends = "['lib32-sdl2_image']"
 +++
@@ -34,19 +34,19 @@ A library for a new image format comparable to JPEG. ( 32bit )
 * /usr/i686-frugalware-linux/include/webp/types.h
 * /usr/lib32/libsharpyuv.so
 * /usr/lib32/libsharpyuv.so.0
-* /usr/lib32/libsharpyuv.so.0.0.1
+* /usr/lib32/libsharpyuv.so.0.1.0
 * /usr/lib32/libwebp.so
 * /usr/lib32/libwebp.so.7
-* /usr/lib32/libwebp.so.7.1.8
+* /usr/lib32/libwebp.so.7.1.9
 * /usr/lib32/libwebpdecoder.so
 * /usr/lib32/libwebpdecoder.so.3
-* /usr/lib32/libwebpdecoder.so.3.1.8
+* /usr/lib32/libwebpdecoder.so.3.1.9
 * /usr/lib32/libwebpdemux.so
 * /usr/lib32/libwebpdemux.so.2
-* /usr/lib32/libwebpdemux.so.2.0.14
+* /usr/lib32/libwebpdemux.so.2.0.15
 * /usr/lib32/libwebpmux.so
 * /usr/lib32/libwebpmux.so.3
-* /usr/lib32/libwebpmux.so.3.0.13
+* /usr/lib32/libwebpmux.so.3.1.0
 * /usr/lib32/pkgconfig/libsharpyuv.pc
 * /usr/lib32/pkgconfig/libwebp.pc
 * /usr/lib32/pkgconfig/libwebpdecoder.pc
