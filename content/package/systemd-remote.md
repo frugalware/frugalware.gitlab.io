@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "86816"
 usize = "198273"
 sha1sum = "31446a4fd1d5e023ab0c1ac62e28a6f4ab855bdb"
-depends = "['libmicrohttpd>=0.9.58-2', 'lz4>=1.8.1.2-2', 'openssl>=3.0.7', 'systemd=255.6']"
+depends = "['libmicrohttpd>=0.9.58-2', 'lz4>=1.8.1.2-2', 'openssl>=3.0.7', 'systemd=255.7']"
 +++
 ### Description: 
 systemd remote journald

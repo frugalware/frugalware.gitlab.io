@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "30404"
 usize = "5189"
 sha1sum = "c6fda30b3d6240550a60b68fef31aed639e5f23e"
-depends = "['kmod>=25-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'lz4>=1.8.1.2-2', 'pam>=1.3.0-4', 'systemd=255.6']"
+depends = "['kmod>=25-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'lz4>=1.8.1.2-2', 'pam>=1.3.0-4', 'systemd=255.7']"
 reverse_depends = "['systemd']"
 +++
 ### Description: 

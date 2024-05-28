@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "63284"
 usize = "104512"
 sha1sum = "5359b4cf3caa35738f956cd97c45a72c7514a6c3"
-depends = "['curl>=7.58.0-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'openssl>=3.0.7', 'systemd=255.6']"
+depends = "['curl>=7.58.0-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'openssl>=3.0.7', 'systemd=255.7']"
 +++
 ### Description: 
 systemd container retrieval
