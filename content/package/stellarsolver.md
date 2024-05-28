@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "stellarsolver 2.5-4"
-version = "2.5-4"
+title = "stellarsolver 2.5-5"
+version = "2.5-5"
 description = "The cross platform Sextractor and Astrometry.net-Based internal astrometric solver"
-date = "2024-05-27T13:34:38"
+date = "2024-05-28T22:24:33"
 aliases = "/packages/221199"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/rlancaste/stellarsolver"
 arch = "x86_64"
-size = "1215616"
+size = "1215484"
 usize = "2619787"
-sha1sum = "bee7192c6f7faf5f780318814e555792c22f0cf9"
-depends = "['gsl', 'hicolor-icon-theme', 'qt5-base', 'wcslib']"
+sha1sum = "c1c8c4afd13c13cab12a149b0fc44a527ff2e652"
+depends = "['gsl>=2.8', 'hicolor-icon-theme', 'qt5-base', 'wcslib']"
 reverse_depends = "['kstars']"
 +++
 ### Description: 
