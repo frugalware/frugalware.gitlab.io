@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-speech 6.7.0-1"
-version = "6.7.0-1"
+title = "qt6-speech 6.7.1-1"
+version = "6.7.1-1"
 description = "The Qt6 toolkit, qtspeech"
-date = "2024-04-03T18:33:53"
+date = "2024-05-21T10:55:25"
 aliases = "/packages/220803"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "90016"
-usize = "438499"
-sha1sum = "2e9cea4e1116a603aeec675963a6fb0800254285"
+size = "90028"
+usize = "439223"
+sha1sum = "ec14270373d24e24c3e58efd1e76082997f7dbf2"
 depends = "['qt6-declarative', 'qt6-multimedia', 'speech-dispatcher']"
 reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets', 'okular']"
 +++
@@ -18,9 +18,9 @@ reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'kt
 The Qt6 toolkit, qtspeech
 
 ### Files: 
-* /usr/include/qt6/QtTextToSpeech/6.7.0/QtTextToSpeech/private/qtexttospeech_p.h
-* /usr/include/qt6/QtTextToSpeech/6.7.0/QtTextToSpeech/private/qttexttospeech-config_p.h
-* /usr/include/qt6/QtTextToSpeech/6.7.0/QtTextToSpeech/private/qvoice_p.h
+* /usr/include/qt6/QtTextToSpeech/6.7.1/QtTextToSpeech/private/qtexttospeech_p.h
+* /usr/include/qt6/QtTextToSpeech/6.7.1/QtTextToSpeech/private/qttexttospeech-config_p.h
+* /usr/include/qt6/QtTextToSpeech/6.7.1/QtTextToSpeech/private/qvoice_p.h
 * /usr/include/qt6/QtTextToSpeech/QTextToSpeech
 * /usr/include/qt6/QtTextToSpeech/qtexttospeech.h
 * /usr/include/qt6/QtTextToSpeech/QTextToSpeechEngine
@@ -68,7 +68,7 @@ The Qt6 toolkit, qtspeech
 * /usr/lib/libQt6TextToSpeech.prl
 * /usr/lib/libQt6TextToSpeech.so
 * /usr/lib/libQt6TextToSpeech.so.6
-* /usr/lib/libQt6TextToSpeech.so.6.7.0
+* /usr/lib/libQt6TextToSpeech.so.6.7.1
 * /usr/lib/pkgconfig/Qt6TextToSpeech.pc
 * /usr/lib/qt6/metatypes/qt6texttospeech_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_texttospeech.pri

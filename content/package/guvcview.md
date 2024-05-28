@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "guvcview 2.0.6-4"
-version = "2.0.6-4"
+title = "guvcview 2.0.6-5"
+version = "2.0.6-5"
 description = "A video viewer and capturer for the linux uvc driver"
-date = "2023-03-01T12:09:21"
+date = "2024-05-28T21:19:22"
 aliases = "/packages/220086"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/guvcview"
 arch = "x86_64"
-size = "295884"
-usize = "1091883"
-sha1sum = "2215af0c45d118b68699852f5def5aff0533a549"
-depends = "['ffmpeg>=6.0', 'gsl>=2.7.1', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'sdl2', 'systemd>=188', 'twolame']"
+size = "299352"
+usize = "1100871"
+sha1sum = "20467bbf4c8bf7e4ff2f6f44dae15e464ab9de6e"
+depends = "['ffmpeg>=6.0', 'gsl>=2.8', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'sdl2', 'systemd>=188', 'twolame']"
 +++
 ### Description: 
 A video viewer and capturer for the linux uvc driver

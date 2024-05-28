@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "enblend-enfuse 4.2-9"
-version = "4.2-9"
+title = "enblend-enfuse 4.2-10"
+version = "4.2-10"
 description = "Enblend blends away the seams in a panoramic image mosaic using a multiresolution spline"
-date = "2022-08-05T10:12:20"
+date = "2024-05-28T21:07:26"
 aliases = "/packages/60120"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/enblend"
 arch = "x86_64"
-size = "1042744"
-usize = "4476576"
-sha1sum = "4a89995fd88bec726cbdf9b3b6f7239d11dcc48c"
+size = "1139172"
+usize = "4693352"
+sha1sum = "4c777eef6b962b1fa3648ebe4db8bf1574f406a2"
 depends = "['gsl>=2.8', 'lcms2>=2.7-3', 'libboost>=1.72.0', 'vigra>=1.11.0']"
 +++
 ### Description: 

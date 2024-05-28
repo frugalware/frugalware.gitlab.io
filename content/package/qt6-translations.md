@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-translations 6.7.0-1"
-version = "6.7.0-1"
+title = "qt6-translations 6.7.1-1"
+version = "6.7.1-1"
 description = "The Qt6 toolkit, qttranslations"
-date = "2024-04-03T13:28:42"
+date = "2024-05-21T09:01:20"
 aliases = "/packages/220787"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1657296"
-usize = "13640706"
-sha1sum = "6f4800ea5d361e2350207366d6176719566bace0"
+size = "1732052"
+usize = "14311873"
+sha1sum = "3324d6d5f1fc5bf3f31f836e3cb32cd0bc4fe85d"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++
@@ -29,6 +29,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/assistant_hr.qm
 * /usr/share/qt6/translations/assistant_hu.qm
 * /usr/share/qt6/translations/assistant_ja.qm
+* /usr/share/qt6/translations/assistant_ka.qm
 * /usr/share/qt6/translations/assistant_ko.qm
 * /usr/share/qt6/translations/assistant_nl.qm
 * /usr/share/qt6/translations/assistant_pl.qm
@@ -52,6 +53,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/designer_hr.qm
 * /usr/share/qt6/translations/designer_hu.qm
 * /usr/share/qt6/translations/designer_ja.qm
+* /usr/share/qt6/translations/designer_ka.qm
 * /usr/share/qt6/translations/designer_ko.qm
 * /usr/share/qt6/translations/designer_nl.qm
 * /usr/share/qt6/translations/designer_pl.qm
@@ -74,6 +76,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/linguist_hu.qm
 * /usr/share/qt6/translations/linguist_it.qm
 * /usr/share/qt6/translations/linguist_ja.qm
+* /usr/share/qt6/translations/linguist_ka.qm
 * /usr/share/qt6/translations/linguist_ko.qm
 * /usr/share/qt6/translations/linguist_nl.qm
 * /usr/share/qt6/translations/linguist_pl.qm
@@ -102,6 +105,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtbase_hu.qm
 * /usr/share/qt6/translations/qtbase_it.qm
 * /usr/share/qt6/translations/qtbase_ja.qm
+* /usr/share/qt6/translations/qtbase_ka.qm
 * /usr/share/qt6/translations/qtbase_ko.qm
 * /usr/share/qt6/translations/qtbase_lv.qm
 * /usr/share/qt6/translations/qtbase_nl.qm
@@ -122,6 +126,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtconnectivity_es.qm
 * /usr/share/qt6/translations/qtconnectivity_hr.qm
 * /usr/share/qt6/translations/qtconnectivity_hu.qm
+* /usr/share/qt6/translations/qtconnectivity_ka.qm
 * /usr/share/qt6/translations/qtconnectivity_ko.qm
 * /usr/share/qt6/translations/qtconnectivity_nl.qm
 * /usr/share/qt6/translations/qtconnectivity_pl.qm
@@ -143,6 +148,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtdeclarative_hr.qm
 * /usr/share/qt6/translations/qtdeclarative_hu.qm
 * /usr/share/qt6/translations/qtdeclarative_ja.qm
+* /usr/share/qt6/translations/qtdeclarative_ka.qm
 * /usr/share/qt6/translations/qtdeclarative_ko.qm
 * /usr/share/qt6/translations/qtdeclarative_lv.qm
 * /usr/share/qt6/translations/qtdeclarative_nl.qm
@@ -165,6 +171,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtlocation_fr.qm
 * /usr/share/qt6/translations/qtlocation_hr.qm
 * /usr/share/qt6/translations/qtlocation_hu.qm
+* /usr/share/qt6/translations/qtlocation_ka.qm
 * /usr/share/qt6/translations/qtlocation_ko.qm
 * /usr/share/qt6/translations/qtlocation_nl.qm
 * /usr/share/qt6/translations/qtlocation_pl.qm
@@ -188,6 +195,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtmultimedia_hu.qm
 * /usr/share/qt6/translations/qtmultimedia_it.qm
 * /usr/share/qt6/translations/qtmultimedia_ja.qm
+* /usr/share/qt6/translations/qtmultimedia_ka.qm
 * /usr/share/qt6/translations/qtmultimedia_ko.qm
 * /usr/share/qt6/translations/qtmultimedia_nl.qm
 * /usr/share/qt6/translations/qtmultimedia_nn.qm
@@ -203,6 +211,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtserialport_en.qm
 * /usr/share/qt6/translations/qtserialport_es.qm
 * /usr/share/qt6/translations/qtserialport_ja.qm
+* /usr/share/qt6/translations/qtserialport_ka.qm
 * /usr/share/qt6/translations/qtserialport_ko.qm
 * /usr/share/qt6/translations/qtserialport_pl.qm
 * /usr/share/qt6/translations/qtserialport_ru.qm
@@ -212,6 +221,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtwebengine_de.qm
 * /usr/share/qt6/translations/qtwebengine_en.qm
 * /usr/share/qt6/translations/qtwebengine_es.qm
+* /usr/share/qt6/translations/qtwebengine_ka.qm
 * /usr/share/qt6/translations/qtwebengine_ko.qm
 * /usr/share/qt6/translations/qtwebengine_pl.qm
 * /usr/share/qt6/translations/qtwebengine_ru.qm
@@ -223,10 +233,12 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtwebsockets_es.qm
 * /usr/share/qt6/translations/qtwebsockets_fr.qm
 * /usr/share/qt6/translations/qtwebsockets_ja.qm
+* /usr/share/qt6/translations/qtwebsockets_ka.qm
 * /usr/share/qt6/translations/qtwebsockets_ko.qm
 * /usr/share/qt6/translations/qtwebsockets_pl.qm
 * /usr/share/qt6/translations/qtwebsockets_ru.qm
 * /usr/share/qt6/translations/qtwebsockets_uk.qm
+* /usr/share/qt6/translations/qtwebsockets_zh_CN.qm
 * /usr/share/qt6/translations/qt_ar.qm
 * /usr/share/qt6/translations/qt_bg.qm
 * /usr/share/qt6/translations/qt_ca.qm
@@ -255,6 +267,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qt_help_hu.qm
 * /usr/share/qt6/translations/qt_help_it.qm
 * /usr/share/qt6/translations/qt_help_ja.qm
+* /usr/share/qt6/translations/qt_help_ka.qm
 * /usr/share/qt6/translations/qt_help_ko.qm
 * /usr/share/qt6/translations/qt_help_nl.qm
 * /usr/share/qt6/translations/qt_help_nn.qm
@@ -271,6 +284,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qt_hu.qm
 * /usr/share/qt6/translations/qt_it.qm
 * /usr/share/qt6/translations/qt_ja.qm
+* /usr/share/qt6/translations/qt_ka.qm
 * /usr/share/qt6/translations/qt_ko.qm
 * /usr/share/qt6/translations/qt_lt.qm
 * /usr/share/qt6/translations/qt_lv.qm

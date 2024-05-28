@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "inkscape 1.3.2-4"
-version = "1.3.2-4"
+title = "inkscape 1.3.2-5"
+version = "1.3.2-5"
 description = "A vector illustrator program"
-date = "2024-05-21T20:14:15"
+date = "2024-05-28T21:41:15"
 aliases = "/packages/3102"
 categories = ['xapps-extra']
 upstreamurl = "https://www.inkscape.org/"
 arch = "x86_64"
-size = "18360032"
-usize = "136364640"
-sha1sum = "53a4e778cfb8610e5111a2ebccc74eedef245f41"
-depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl', 'gspell', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'jemalloc', 'libboost>=1.83.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=24.05.0', 'potrace']"
+size = "18348384"
+usize = "136364639"
+sha1sum = "cca98ce038c384358ef60dca32f2813057abd47a"
+depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl>=2.8', 'gspell', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'jemalloc', 'libboost>=1.83.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=24.05.0', 'potrace']"
 +++
 ### Description: 
 A vector illustrator program

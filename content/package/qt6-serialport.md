@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-serialport 6.7.0-1"
-version = "6.7.0-1"
+title = "qt6-serialport 6.7.1-1"
+version = "6.7.1-1"
 description = "The Qt6 toolkit, qtserialport"
-date = "2024-04-03T13:19:48"
+date = "2024-05-21T08:58:05"
 aliases = "/packages/220771"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "46428"
-usize = "187790"
-sha1sum = "7f7ac446d42d9da78065033bd4d01c6dc6515ccc"
+size = "46388"
+usize = "187964"
+sha1sum = "7b979e06d83d387430cc771f556b1373bab345ae"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
 +++
@@ -18,9 +18,9 @@ reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
 The Qt6 toolkit, qtserialport
 
 ### Files: 
-* /usr/include/qt6/QtSerialPort/6.7.0/QtSerialPort/private/qserialportinfo_p.h
-* /usr/include/qt6/QtSerialPort/6.7.0/QtSerialPort/private/qserialport_p.h
-* /usr/include/qt6/QtSerialPort/6.7.0/QtSerialPort/private/qtserialport-config_p.h
+* /usr/include/qt6/QtSerialPort/6.7.1/QtSerialPort/private/qserialportinfo_p.h
+* /usr/include/qt6/QtSerialPort/6.7.1/QtSerialPort/private/qserialport_p.h
+* /usr/include/qt6/QtSerialPort/6.7.1/QtSerialPort/private/qtserialport-config_p.h
 * /usr/include/qt6/QtSerialPort/QSerialPort
 * /usr/include/qt6/QtSerialPort/qserialport.h
 * /usr/include/qt6/QtSerialPort/qserialportglobal.h
@@ -44,7 +44,7 @@ The Qt6 toolkit, qtserialport
 * /usr/lib/libQt6SerialPort.prl
 * /usr/lib/libQt6SerialPort.so
 * /usr/lib/libQt6SerialPort.so.6
-* /usr/lib/libQt6SerialPort.so.6.7.0
+* /usr/lib/libQt6SerialPort.so.6.7.1
 * /usr/lib/pkgconfig/Qt6SerialPort.pc
 * /usr/lib/qt6/metatypes/qt6serialport_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_serialport.pri
