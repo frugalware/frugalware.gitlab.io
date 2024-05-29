@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kvirc 5.2.2-2"
-version = "5.2.2-2"
+title = "kvirc 5.2.4-1"
+version = "5.2.4-1"
 description = "Graphical Irc client for K Desktop"
-date = "2024-04-07T12:51:47"
+date = "2024-05-29T10:11:43"
 aliases = "/packages/3706"
 categories = ['kde6']
 upstreamurl = "http://www.kvirc.net"
 arch = "x86_64"
-size = "5324136"
-usize = "38337740"
-sha1sum = "e824245377e48f16e8044334b5a7876e7f95be79"
+size = "5305424"
+usize = "38175390"
+sha1sum = "c37bb628119c78261cbac50fb1e90f8159453830"
 depends = "['enchant', 'kio>=6.2.0', 'knotifications>=6.2.0', 'kparts>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kxmlgui>=6.2.0', 'libxscrnsaver>=1.2.2-2', 'openssl>=3.1.0', 'phonon-qt6', 'python3>=3.12', 'qt6-multimedia>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
