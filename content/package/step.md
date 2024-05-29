@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "step 24.05.0-2"
-version = "24.05.0-2"
+title = "step 24.05.0-3"
+version = "24.05.0-3"
 description = "Interactive Physics Simulator."
-date = "2024-05-26T17:57:41"
+date = "2024-05-28T23:33:41"
 aliases = "/packages/152841"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1266860"
+size = "1267336"
 usize = "11821514"
-sha1sum = "70b0fa1744782aba92d1abef9f8943f1635b3825"
-depends = "['gsl>=2.6', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstuff5>=5.116.0', 'libqalculate>=5.0.0']"
+sha1sum = "87ddc2ed86bc14243a282acb57d1cff9c360c92b"
+depends = "['gsl>=2.8', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstuff5>=5.116.0', 'libqalculate>=5.0.0']"
 +++
 ### Description: 
 Interactive Physics Simulator.

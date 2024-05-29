@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-php 24.02.2-1"
-version = "24.02.2-1"
+title = "kdev-php 24.05.0-1"
+version = "24.05.0-1"
 description = "PHP Language Plugin for KDevelop"
-date = "2024-04-25T06:25:14"
+date = "2024-05-28T23:57:41"
 aliases = "/packages/220975"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1276340"
-usize = "8224148"
-sha1sum = "8fe8195f5580b8fd30b52d1cf39a14dd46c9c61a"
+size = "1279572"
+usize = "8228503"
+sha1sum = "d4458bb63dccfba7d53c5e97c324bcd285aa61c1"
 depends = "['kdevelop', 'php']"
 reverse_depends = "['umbrello']"
 +++
@@ -38,13 +38,13 @@ PHP Language Plugin for KDevelop
 * /usr/lib/libkdevphpcompletion.so
 * /usr/lib/libkdevphpduchain.so
 * /usr/lib/libkdevphpparser.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kcm/kcm_kdevphpdocs.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevphpdocs.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevphplanguagesupport.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevphpunitprovider.so
-* /usr/share/doc/kdev-php-24.02.2/AUTHORS
-* /usr/share/doc/kdev-php-24.02.2/HACKING
-* /usr/share/doc/kdev-php-24.02.2/TODO
+* /usr/lib/qt5/plugins/kdevplatform/514/kcm/kcm_kdevphpdocs.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevphpdocs.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevphplanguagesupport.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevphpunitprovider.so
+* /usr/share/doc/kdev-php-24.05.0/AUTHORS
+* /usr/share/doc/kdev-php-24.05.0/HACKING
+* /usr/share/doc/kdev-php-24.05.0/TODO
 * /usr/share/kdevappwizard/templates/simple_phpapp.tar.bz2
 * /usr/share/kdevphpsupport/phpfunctions.php
 * /usr/share/kdevphpsupport/phpunitdeclarations.php

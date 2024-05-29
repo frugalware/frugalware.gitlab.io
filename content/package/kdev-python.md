@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-python 24.02.2-1"
-version = "24.02.2-1"
+title = "kdev-python 24.05.0-1"
+version = "24.05.0-1"
 description = "Python Language Plugin for KDevelop"
-date = "2024-04-24T21:41:05"
+date = "2024-05-29T00:09:08"
 aliases = "/packages/220976"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1258916"
-usize = "11523287"
-sha1sum = "6859ca871822a1547224737ecbf0e228534dca2a"
+size = "1236088"
+usize = "11527454"
+sha1sum = "14086a55b156de5ee010afe91ed86440ff5bbb07"
 depends = "['kdevelop', 'python3>=3.12']"
 +++
 ### Description: 
@@ -20,11 +20,11 @@ Python Language Plugin for KDevelop
 * /usr/lib/libkdevpythoncompletion.so
 * /usr/lib/libkdevpythonduchain.so
 * /usr/lib/libkdevpythonparser.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevpdb.so
-* /usr/lib/qt5/plugins/kdevplatform/513/kdevpythonlanguagesupport.so
-* /usr/share/doc/kdev-python-24.02.2/INSTALL
-* /usr/share/doc/kdev-python-24.02.2/README
-* /usr/share/doc/kdev-python-24.02.2/README.packagers
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevpdb.so
+* /usr/lib/qt5/plugins/kdevplatform/514/kdevpythonlanguagesupport.so
+* /usr/share/doc/kdev-python-24.05.0/INSTALL
+* /usr/share/doc/kdev-python-24.05.0/README
+* /usr/share/doc/kdev-python-24.05.0/README.packagers
 * /usr/share/kdevappwizard/templates/django_project.tar.bz2
 * /usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2
 * /usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2
