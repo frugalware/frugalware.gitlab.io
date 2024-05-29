@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "5324136"
 usize = "38337740"
 sha1sum = "e824245377e48f16e8044334b5a7876e7f95be79"
-depends = "['enchant', 'kio>=6.0.0', 'knotifications>=6.0.0', 'kparts>=6.0.0', 'kstatusnotifieritem>=6.0.0', 'kxmlgui>=6.0.0', 'libxscrnsaver>=1.2.2-2', 'openssl>=3.1.0', 'phonon-qt6', 'python3>=3.12', 'qt6-multimedia>=6.7.0', 'qt6-svg>=6.7.0', 'qt6-webengine>=6.7.0']"
+depends = "['enchant', 'kio>=6.2.0', 'knotifications>=6.2.0', 'kparts>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kxmlgui>=6.2.0', 'libxscrnsaver>=1.2.2-2', 'openssl>=3.1.0', 'phonon-qt6', 'python3>=3.12', 'qt6-multimedia>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 Graphical Irc client for K Desktop
@@ -94,12 +94,12 @@ Graphical Irc client for K Desktop
 * /usr/lib/kvirc/5.2/modules/libkviwindow.so
 * /usr/lib/libkvilib.so
 * /usr/lib/libkvilib.so.5
-* /usr/lib/libkvilib.so.5.2.2
+* /usr/lib/libkvilib.so.5.2.4
 * /usr/share/applications/net.kvirc.KVIrc5.desktop
-* /usr/share/doc/kvirc-5.2.2/COPYING
-* /usr/share/doc/kvirc-5.2.2/INSTALL
-* /usr/share/doc/kvirc-5.2.2/README.md
-* /usr/share/doc/kvirc-5.2.2/RELEASES
+* /usr/share/doc/kvirc-5.2.4/COPYING
+* /usr/share/doc/kvirc-5.2.4/INSTALL
+* /usr/share/doc/kvirc-5.2.4/README.md
+* /usr/share/doc/kvirc-5.2.4/RELEASES
 * /usr/share/icons/hicolor/128x128/apps/kvirc.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kva.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kvt.png
@@ -557,7 +557,7 @@ Graphical Irc client for K Desktop
 * /usr/share/kvirc/5.2/help/en/cmd_window.splitview.html
 * /usr/share/kvirc/5.2/help/en/cmd_window.undock.html
 * /usr/share/kvirc/5.2/help/en/cmd_window.unsplitview.html
-* /usr/share/kvirc/5.2/help/en/documentation.5.2.2.tag
+* /usr/share/kvirc/5.2/help/en/documentation.5.2.4.tag
 * /usr/share/kvirc/5.2/help/en/doc_aliases.html
 * /usr/share/kvirc/5.2/help/en/doc_antispam.html
 * /usr/share/kvirc/5.2/help/en/doc_arrayconcatenation.html
@@ -820,7 +820,6 @@ Graphical Irc client for K Desktop
 * /usr/share/kvirc/5.2/help/en/doc_perl_and_kvs.html
 * /usr/share/kvirc/5.2/help/en/doc_python_and_kvs.html
 * /usr/share/kvirc/5.2/help/en/doc_registered_users.html
-* /usr/share/kvirc/5.2/help/en/doc_rfc2812.html
 * /usr/share/kvirc/5.2/help/en/doc_rfc2812wrappers.html
 * /usr/share/kvirc/5.2/help/en/doc_script_localization.html
 * /usr/share/kvirc/5.2/help/en/doc_selfarithmetic.html

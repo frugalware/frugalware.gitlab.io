@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami-addons 1.1.0-1"
-version = "1.1.0-1"
+title = "kirigami-addons 1.2.1-1"
+version = "1.2.1-1"
 description = "Add-ons for the Kirigami framework"
-date = "2024-04-02T09:21:10"
+date = "2024-05-29T09:24:29"
 aliases = "/packages/220616"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "484296"
-usize = "2846165"
-sha1sum = "d3a1e2fcb1bdc7bf8200fe847c286e83a9f3478e"
-depends = "['kirigami>=6.0.0']"
+size = "519344"
+usize = "2989792"
+sha1sum = "85eac35a6610bc2f2f07dcf35ce258cbcf53dcac"
+depends = "['kconfig>=6.2.0', 'kirigami>=6.2.0']"
 reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kde', 'discover', 'elisa', 'filelight', 'itinerary', 'kasts', 'kclock', 'kdeconnect-kde', 'kdeconnect-kde', 'kdeplasma-addons', 'kidentitymanagement', 'krecorder', 'ktrip', 'kweather', 'kwordquiz', 'merkuro', 'neochat', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-welcome', 'plasma-workspace', 'plasmatube', 'qmlkonsole', 'tokodon']"
 +++
 ### Description: 
@@ -28,6 +28,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/DialogRoundedBackground.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/DoubleFloatingButton.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/FloatingButton.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/FloatingToolBar.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/libcomponentsplugin.so
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/MessageDialog.qml
@@ -126,7 +127,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/styles/org.kde.desktop/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/treeviewplugin.qmltypes
-* /usr/share/doc/kirigami-addons-1.1.0/README.md
+* /usr/share/doc/kirigami-addons-1.2.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ca/LC_MESSAGES/kirigami-addons6.mo
@@ -141,10 +142,12 @@ Add-ons for the Kirigami framework
 * /usr/share/locale/fi/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/fr/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kirigami-addons6.mo
+* /usr/share/locale/he/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/hu/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/is/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/it/LC_MESSAGES/kirigami-addons6.mo
+* /usr/share/locale/ja/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ka/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ko/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/lt/LC_MESSAGES/kirigami-addons6.mo
