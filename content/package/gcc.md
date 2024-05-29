@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc 14.1.0-2"
-version = "14.1.0-2"
+title = "gcc 14.1.0-3"
+version = "14.1.0-3"
 description = "The GNU Compiler Collection"
-date = "2024-05-08T09:53:30"
+date = "2024-05-29T15:17:01"
 aliases = "/packages/2379"
 categories = ['devel']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "46833640"
+size = "46828500"
 usize = "194536152"
-sha1sum = "4b79c88cd56a3d31f04222e9c500579011eb9bcf"
+sha1sum = "5ced759de34df30b5ce40425f07ee51f32114bbf"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zlib>=1.2.11-11', 'zstd']"
 reverse_depends = "['gcc-g++', 'gcc-gfortran', 'gcc-objc', 'kernel-lts-source', 'libb64']"
 +++

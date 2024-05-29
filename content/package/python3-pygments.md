@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pygments 2.16.1-1"
-version = "2.16.1-1"
+title = "python3-pygments 2.16.1-2"
+version = "2.16.1-2"
 description = "Pygments is a fast syntax highlighter written in Python with a special focus on details. (Python3)"
-date = "2023-10-05T11:25:41"
+date = "2024-05-29T15:28:43"
 aliases = "/packages/219989"
 categories = ['devel-extra']
 upstreamurl = "http://pygments.org/"
 arch = "x86_64"
-size = "1733476"
-usize = "11619472"
-sha1sum = "ddbc88b8b90764bf6c1b68bdc237338be5f7182b"
+size = "1733520"
+usize = "11619514"
+sha1sum = "433fbfe029fc3b99136514560ce3e84c07303880"
 depends = "['python3>=3.12']"
 reverse_depends = "['gi-docgen', 'kitty', 'python3-mako', 'python3-sphinx']"
 +++

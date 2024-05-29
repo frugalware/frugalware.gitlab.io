@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-numpy 1.26.4-4"
-version = "1.26.4-4"
+title = "python3-numpy 1.26.4-5"
+version = "1.26.4-5"
 description = "Numerical Python adds a fast array facility to the Python3 language."
-date = "2024-05-11T09:56:40"
+date = "2024-05-29T15:45:07"
 aliases = "/packages/219648"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "6734340"
-usize = "45475397"
-sha1sum = "3a44c95c86081946136d8a4c4ced02ffaaaf9e15"
+size = "6735364"
+usize = "45475157"
+sha1sum = "19c7fba95a1dff0065e8901a018c800505504e63"
 depends = "['python3>=3.12']"
 reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'howdy', 'opencv-python3', 'openrazer', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn']"
 +++
