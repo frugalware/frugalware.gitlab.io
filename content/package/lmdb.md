@@ -12,7 +12,7 @@ size = "107580"
 usize = "411380"
 sha1sum = "17cbdff7c0c4904807be9a62ede99057781a0e7a"
 depends = "['glibc>=2.34']"
-reverse_depends = "['baloo', 'baloo5', 'libsmbclient']"
+reverse_depends = "['baloo', 'baloo5', 'libsmbclient', 'postfix']"
 +++
 ### Description: 
 Symas Lightning Memory-Mapped Database
