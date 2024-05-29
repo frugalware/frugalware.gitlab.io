@@ -1,0 +1,25 @@
++++
+draft = false
+title = "babe 20200620.g116b7cd-4"
+version = "20200620.g116b7cd-4"
+description = "Tiny Qt Music Player to keep your favorite songs at hand"
+date = "2024-04-01T20:07:54"
+aliases = "/packages/219181"
+categories = ['kde5-extra']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "552032"
+usize = "1752365"
+sha1sum = "f68d2336da44ba94a9bc2d6733299e1c83790173"
+depends = "['knotifications5>=5.115.0', 'pcre2', 'qt5-multimedia>=5.15.12', 'qt5-webengine>=5.15.12', 'qt5-websockets>=5.15.12', 'taglib>=2.0']"
++++
+### Description: 
+Tiny Qt Music Player to keep your favorite songs at hand
+
+### Files: 
+* /usr/bin/babe
+* /usr/share/applications/org.kde.babe.desktop
+* /usr/share/doc/babe-20200620.g116b7cd/COPYING
+* /usr/share/doc/babe-20200620.g116b7cd/README.md
+* /usr/share/icons/hicolor/scalable/apps/babe.svg
+* /usr/share/metainfo/org.kde.babe.appdata.xml

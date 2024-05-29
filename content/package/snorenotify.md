@@ -1,0 +1,83 @@
++++
+draft = false
+title = "snorenotify 0.7.0-18"
+version = "0.7.0-18"
+description = "Snorenotify is a multi platform Qt notification framework."
+date = "2024-05-27T06:15:57"
+aliases = "/packages/218410"
+categories = ['xapps']
+upstreamurl = "https://github.com/KDE/snorenotify"
+arch = "x86_64"
+size = "197004"
+usize = "1053092"
+sha1sum = "cc527d5bd99887cc1a614e90da4d0ad0042fd020"
+depends = "['qt5-multimedia>=5.15.10', 'qt5-qdbus>=5.15.10', 'qt5-websockets>=5.15.10']"
++++
+### Description: 
+Snorenotify is a multi platform Qt notification framework.
+
+### Files: 
+* /usr/bin/snorenotify
+* /usr/bin/snoresend
+* /usr/bin/snoresettings
+* /usr/bin/snoresettings-cli
+* /usr/include/libsnore/alert.h
+* /usr/include/libsnore/application.h
+* /usr/include/libsnore/hint.h
+* /usr/include/libsnore/lambdahint.h
+* /usr/include/libsnore/notification/icon.h
+* /usr/include/libsnore/notification/notification.h
+* /usr/include/libsnore/notification/notificationaction.h
+* /usr/include/libsnore/plugins/plugins.h
+* /usr/include/libsnore/plugins/settingsplugin.h
+* /usr/include/libsnore/plugins/snorebackend.h
+* /usr/include/libsnore/plugins/snorefrontend.h
+* /usr/include/libsnore/plugins/snoresecondarybackend.h
+* /usr/include/libsnore/settings/pluginsettingswidget.h
+* /usr/include/libsnore/settings/settings.h
+* /usr/include/libsnore/settings/settingsdialog.h
+* /usr/include/libsnore/settings/snore_settings_exports.h
+* /usr/include/libsnore/snore.h
+* /usr/include/libsnore/snoreglobals.h
+* /usr/include/libsnore/snore_exports.h
+* /usr/include/libsnore/snore_p.h
+* /usr/include/libsnore/utils.h
+* /usr/include/libsnore/version.h
+* /usr/lib/cmake/libsnoreQt5/LibsnoreQt5Config.cmake
+* /usr/lib/cmake/libsnoreQt5/LibsnoreQt5ConfigVersion.cmake
+* /usr/lib/cmake/libsnoreQt5/LibsnoreQt5Target-release.cmake
+* /usr/lib/cmake/libsnoreQt5/LibsnoreQt5Target.cmake
+* /usr/lib/cmake/libsnoreQt5/SnoreAddPlugin.cmake
+* /usr/lib/cmake/libsnoresettingsQt5/LibsnoreSettingsQt5Config.cmake
+* /usr/lib/cmake/libsnoresettingsQt5/LibsnoreSettingsQt5ConfigVersion.cmake
+* /usr/lib/cmake/libsnoresettingsQt5/LibsnoreSettingsQt5Target-release.cmake
+* /usr/lib/cmake/libsnoresettingsQt5/LibsnoreSettingsQt5Target.cmake
+* /usr/lib/libsnore-qt5.so
+* /usr/lib/libsnore-qt5.so.0.7
+* /usr/lib/libsnore-qt5.so.0.7.0
+* /usr/lib/libsnoresettings-qt5.so
+* /usr/lib/libsnoresettings-qt5.so.0.7
+* /usr/lib/libsnoresettings-qt5.so.0.7.0
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_backend_freedesktop.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_backend_snore.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_backend_trayicon.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_frontend_freedesktop.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_frontend_pushover.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_frontend_snarlnetwork.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_secondarybackend_nma.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_secondarybackend_puhover.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_secondarybackend_sound.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_secondarybackend_toasty.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_settings_backend_snore.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_settings_frontend_pushover.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_settings_secondarybackend_nma.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_settings_secondarybackend_puhover.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_settings_secondarybackend_sound.so
+* /usr/lib/qt5/plugins/libsnore-qt5/libsnore_settings_secondarybackend_toasty.so
+* /usr/share/applications/snorenotify.desktop
+* /usr/share/applications/snoresettings.desktop
+* /usr/share/doc/snorenotify-0.7.0/COPYING.LGPL-3
+* /usr/share/doc/snorenotify-0.7.0/README.md
+* /usr/share/icons/hicolor/128x128/apps/snore.png
+* /usr/share/qt5/mkspecs/modules/qt_LibsnoreQt5.pri
+* /usr/share/qt5/mkspecs/modules/qt_LibsnoreSettingsQt5.pri

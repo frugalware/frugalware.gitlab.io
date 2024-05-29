@@ -1,0 +1,68 @@
++++
+draft = false
+title = "lib32-avahi 0.8-11"
+version = "0.8-11"
+description = "A multicast/unicast DNS-SD framework (32-Bit)"
+date = "2024-05-26T22:18:53"
+aliases = "/packages/218855"
+categories = ['lib32-extra']
+upstreamurl = "http://www.avahi.org"
+arch = "x86_64"
+size = "166320"
+usize = "632130"
+sha1sum = "8686e1a4d66e308c5d0ba008d4e0f5b77fc561a1"
+depends = "['lib32-expat', 'lib32-gdbm>=1.15', 'lib32-libdaemon', 'lib32-libdbus', 'lib32-libevent', 'lib32-libsystemd']"
+reverse_depends = "['lib32-libcups']"
++++
+### Description: 
+A multicast/unicast DNS-SD framework (32-Bit)
+
+### Files: 
+* /usr/i686-frugalware-linux/bin/avahi-browse
+* /usr/i686-frugalware-linux/bin/avahi-browse-domains
+* /usr/i686-frugalware-linux/bin/avahi-publish
+* /usr/i686-frugalware-linux/bin/avahi-publish-address
+* /usr/i686-frugalware-linux/bin/avahi-publish-service
+* /usr/i686-frugalware-linux/bin/avahi-resolve
+* /usr/i686-frugalware-linux/bin/avahi-resolve-address
+* /usr/i686-frugalware-linux/bin/avahi-resolve-host-name
+* /usr/i686-frugalware-linux/bin/avahi-set-host-name
+* /usr/i686-frugalware-linux/include/avahi-client/client.h
+* /usr/i686-frugalware-linux/include/avahi-client/lookup.h
+* /usr/i686-frugalware-linux/include/avahi-client/publish.h
+* /usr/i686-frugalware-linux/include/avahi-common/address.h
+* /usr/i686-frugalware-linux/include/avahi-common/alternative.h
+* /usr/i686-frugalware-linux/include/avahi-common/cdecl.h
+* /usr/i686-frugalware-linux/include/avahi-common/defs.h
+* /usr/i686-frugalware-linux/include/avahi-common/domain.h
+* /usr/i686-frugalware-linux/include/avahi-common/error.h
+* /usr/i686-frugalware-linux/include/avahi-common/gccmacro.h
+* /usr/i686-frugalware-linux/include/avahi-common/llist.h
+* /usr/i686-frugalware-linux/include/avahi-common/malloc.h
+* /usr/i686-frugalware-linux/include/avahi-common/rlist.h
+* /usr/i686-frugalware-linux/include/avahi-common/simple-watch.h
+* /usr/i686-frugalware-linux/include/avahi-common/strlst.h
+* /usr/i686-frugalware-linux/include/avahi-common/thread-watch.h
+* /usr/i686-frugalware-linux/include/avahi-common/timeval.h
+* /usr/i686-frugalware-linux/include/avahi-common/watch.h
+* /usr/i686-frugalware-linux/include/avahi-core/core.h
+* /usr/i686-frugalware-linux/include/avahi-core/log.h
+* /usr/i686-frugalware-linux/include/avahi-core/lookup.h
+* /usr/i686-frugalware-linux/include/avahi-core/publish.h
+* /usr/i686-frugalware-linux/include/avahi-core/rr.h
+* /usr/i686-frugalware-linux/include/avahi-libevent/libevent-watch.h
+* /usr/lib32/libavahi-client.so
+* /usr/lib32/libavahi-client.so.3
+* /usr/lib32/libavahi-client.so.3.2.9
+* /usr/lib32/libavahi-common.so
+* /usr/lib32/libavahi-common.so.3
+* /usr/lib32/libavahi-common.so.3.5.4
+* /usr/lib32/libavahi-core.so
+* /usr/lib32/libavahi-core.so.7
+* /usr/lib32/libavahi-core.so.7.1.0
+* /usr/lib32/libavahi-libevent.so
+* /usr/lib32/libavahi-libevent.so.1
+* /usr/lib32/libavahi-libevent.so.1.0.0
+* /usr/lib32/pkgconfig/avahi-client.pc
+* /usr/lib32/pkgconfig/avahi-core.pc
+* /usr/lib32/pkgconfig/avahi-libevent.pc

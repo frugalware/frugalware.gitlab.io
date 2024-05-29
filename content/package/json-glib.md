@@ -1,0 +1,135 @@
++++
+draft = false
+title = "json-glib 1.8.0-1"
+version = "1.8.0-1"
+description = "JSON library built on GLib"
+date = "2023-09-24T14:01:24"
+aliases = "/packages/49906"
+categories = ['devel']
+upstreamurl = "http://www.gnome.org/"
+arch = "x86_64"
+size = "210332"
+usize = "1362114"
+sha1sum = "3aed066ad8c2eb1203adc86183b9456519ec65b7"
+depends = "['glib2>=2.60.0', 'libffi>=3.2.1-3', 'pcre>=8.37-3']"
+reverse_depends = "['appstream-glib', 'chromium-browser', 'conky-manager', 'darktable', 'flatpak', 'gegl', 'geoclue2', 'gst1-plugins-bad-json', 'hotdoc', 'jsonrpc-glib', 'libgusb', 'libjcat', 'librest', 'openvas-scanner', 'pavucontrol', 'pidgin-facebookchat', 'pidgin-skypeweb', 'remmina', 'spice-glib', 'sysprof', 'tootle', 'zeitgeist']"
++++
+### Description: 
+JSON library built on GLib
+
+### Files: 
+* /usr/bin/json-glib-format
+* /usr/bin/json-glib-validate
+* /usr/include/json-glib-1.0/json-glib/json-builder.h
+* /usr/include/json-glib-1.0/json-glib/json-enum-types.h
+* /usr/include/json-glib-1.0/json-glib/json-generator.h
+* /usr/include/json-glib-1.0/json-glib/json-glib.h
+* /usr/include/json-glib-1.0/json-glib/json-gobject.h
+* /usr/include/json-glib-1.0/json-glib/json-gvariant.h
+* /usr/include/json-glib-1.0/json-glib/json-parser.h
+* /usr/include/json-glib-1.0/json-glib/json-path.h
+* /usr/include/json-glib-1.0/json-glib/json-reader.h
+* /usr/include/json-glib-1.0/json-glib/json-types.h
+* /usr/include/json-glib-1.0/json-glib/json-utils.h
+* /usr/include/json-glib-1.0/json-glib/json-version-macros.h
+* /usr/include/json-glib-1.0/json-glib/json-version.h
+* /usr/lib/girepository-1.0/Json-1.0.typelib
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/array
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/boxed
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/builder
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/generator
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/gvariant
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/invalid
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/invalid.json
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/node
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/object
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/parser
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/path
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/reader
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/serialize-complex
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/serialize-full
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/serialize-simple
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/skip-bom.json
+* /usr/lib/json-glib/installed-tests/json-glib-1.0/stream-load.json
+* /usr/lib/libjson-glib-1.0.so
+* /usr/lib/libjson-glib-1.0.so.0
+* /usr/lib/libjson-glib-1.0.so.0.800.0
+* /usr/lib/pkgconfig/json-glib-1.0.pc
+* /usr/share/doc/json-glib-1.8.0/COPYING
+* /usr/share/doc/json-glib-1.8.0/NEWS
+* /usr/share/doc/json-glib-1.8.0/README.md
+* /usr/share/gir-1.0/Json-1.0.gir
+* /usr/share/installed-tests/json-glib-1.0/array.test
+* /usr/share/installed-tests/json-glib-1.0/boxed.test
+* /usr/share/installed-tests/json-glib-1.0/builder.test
+* /usr/share/installed-tests/json-glib-1.0/generator.test
+* /usr/share/installed-tests/json-glib-1.0/gvariant.test
+* /usr/share/installed-tests/json-glib-1.0/invalid.test
+* /usr/share/installed-tests/json-glib-1.0/node.test
+* /usr/share/installed-tests/json-glib-1.0/object.test
+* /usr/share/installed-tests/json-glib-1.0/parser.test
+* /usr/share/installed-tests/json-glib-1.0/path.test
+* /usr/share/installed-tests/json-glib-1.0/reader.test
+* /usr/share/installed-tests/json-glib-1.0/serialize-complex.test
+* /usr/share/installed-tests/json-glib-1.0/serialize-full.test
+* /usr/share/installed-tests/json-glib-1.0/serialize-simple.test
+* /usr/share/locale/ab/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/as/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/be/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/bg/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/bn_IN/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/bs/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ca/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/cs/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/da/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/de/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/el/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/eo/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/es/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/et/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/eu/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/fa/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/fr/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/fur/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/gl/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/he/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/hi/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/hr/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/hu/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/id/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/it/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ja/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ka/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ko/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ky/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/lt/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/lv/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ml/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ms/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/nb/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ne/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/nl/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/oc/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/or/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/pa/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/pl/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/pt/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ro/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ru/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/sk/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/sl/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/sr/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/sv/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/te/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/tg/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/tr/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/ug/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/uk/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/vi/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/json-glib-1.0.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/json-glib-1.0.mo
