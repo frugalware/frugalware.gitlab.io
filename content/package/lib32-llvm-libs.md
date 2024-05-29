@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm-libs 17.0.6-3"
-version = "17.0.6-3"
+title = "lib32-llvm-libs 17.0.6-4"
+version = "17.0.6-4"
 description = "LLVM shared libs (32-bit)"
-date = "2024-05-14T18:52:57"
+date = "2024-05-29T17:17:14"
 aliases = "/packages/217727"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "32692016"
+size = "32691076"
 usize = "181205586"
-sha1sum = "882aae8b74e390a716bc1116350d16ae503e6058"
+sha1sum = "08315426542985f8cdc33cbf1c3d6c8d88499968"
 depends = "['lib32-libedit>=20160903_3.1i', 'lib32-libffi>=3.4', 'lib32-ncurses>=6.0-12', 'lib32-zstd']"
 reverse_depends = "['lib32-clang-libs', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-spirv-llvm-translator']"
 +++
