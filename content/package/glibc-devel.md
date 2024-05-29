@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibc-devel 2.39-5"
-version = "2.39-5"
+title = "glibc-devel 2.39-6"
+version = "2.39-6"
 description = "Development files for glibc."
-date = "2024-05-15T08:40:41"
+date = "2024-05-29T12:55:49"
 aliases = "/packages/219907"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/libc/libc.html"
 arch = "x86_64"
-size = "3275472"
+size = "3276216"
 usize = "20470109"
-sha1sum = "ba46dae371ec18abdf6a9ff075f4c7592767953a"
+sha1sum = "5afae370fddadc402337982692a4e97be355c6a3"
 depends = "[]"
 +++
 ### Description: 
