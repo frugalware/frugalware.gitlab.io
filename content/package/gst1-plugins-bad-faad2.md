@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "15156"
 usize = "30640"
 sha1sum = "9b64270774bdf08b196957b0eccfefd3a723c448"
-depends = "['faad2>=2.7-6', 'gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libffi>=3.2.1-2']"
+depends = "['faad2>=2.7-6', 'gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer plugin (Bad).

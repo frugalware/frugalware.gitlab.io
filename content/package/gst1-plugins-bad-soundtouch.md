@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "17116"
 usize = "34824"
 sha1sum = "100933a995e0097c06f534092228efe6d97c34af"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libffi>=3.2.1-2', 'soundtouch>=1.9.2-3']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libffi>=3.2.1-2', 'soundtouch>=1.9.2-3']"
 +++
 ### Description: 
 GStreamer soundtouch plugin (Bad).

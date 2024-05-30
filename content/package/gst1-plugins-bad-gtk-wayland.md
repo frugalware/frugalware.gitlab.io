@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "22556"
 usize = "55152"
 sha1sum = "e8cf57cebc91fc9cd011a287d7a40bfed65c770c"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'gtk+3', 'wayland']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'gtk+3', 'wayland']"
 +++
 ### Description: 
 GStreamer Gtk Wayland plugin (Bad).

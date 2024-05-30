@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "419832"
 usize = "1266260"
 sha1sum = "969f2e2b4679a6734b0202ca1b85403ac8e80417"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libva']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libva']"
 +++
 ### Description: 
 GStreamer libva plugin (Bad).
@@ -32,8 +32,8 @@ GStreamer libva plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstva.so
 * /usr/lib/libgstdxva-1.0.so
 * /usr/lib/libgstdxva-1.0.so.0
-* /usr/lib/libgstdxva-1.0.so.0.2403.0
+* /usr/lib/libgstdxva-1.0.so.0.2404.0
 * /usr/lib/libgstva-1.0.so
 * /usr/lib/libgstva-1.0.so.0
-* /usr/lib/libgstva-1.0.so.0.2403.0
+* /usr/lib/libgstva-1.0.so.0.2404.0
 * /usr/lib/pkgconfig/gstreamer-va-1.0.pc

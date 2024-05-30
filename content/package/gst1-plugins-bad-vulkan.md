@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "193136"
 usize = "748774"
 sha1sum = "4205e36e29a77769a235722c45343135af7815cf"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
 GStreamer Vulkan plugin (Bad).
@@ -62,7 +62,7 @@ GStreamer Vulkan plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstvulkan.so
 * /usr/lib/libgstvulkan-1.0.so
 * /usr/lib/libgstvulkan-1.0.so.0
-* /usr/lib/libgstvulkan-1.0.so.0.2403.0
+* /usr/lib/libgstvulkan-1.0.so.0.2404.0
 * /usr/lib/pkgconfig/gstreamer-vulkan-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-vulkan-wayland-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-vulkan-xcb-1.0.pc

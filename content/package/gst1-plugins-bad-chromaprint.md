@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "10772"
 usize = "18200"
 sha1sum = "cd42b7c6fae451e7925e85e3073bba9e537af978"
-depends = "['chromaprint', 'gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3']"
+depends = "['chromaprint', 'gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4']"
 +++
 ### Description: 
 GStreamer Chromaprint plugin (Bad).

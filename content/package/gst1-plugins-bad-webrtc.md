@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "137224"
 usize = "476893"
 sha1sum = "246a1be42cf7bb44d42005d670b0e70c57aed4c9"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'webrtc-audio-processing-1']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'webrtc-audio-processing-1']"
 +++
 ### Description: 
 GStreamer WebRTC plugin (Bad).
@@ -38,9 +38,9 @@ GStreamer WebRTC plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstwebrtcdsp.so
 * /usr/lib/libgstwebrtc-1.0.so
 * /usr/lib/libgstwebrtc-1.0.so.0
-* /usr/lib/libgstwebrtc-1.0.so.0.2403.0
+* /usr/lib/libgstwebrtc-1.0.so.0.2404.0
 * /usr/lib/libgstwebrtcnice-1.0.so
 * /usr/lib/libgstwebrtcnice-1.0.so.0
-* /usr/lib/libgstwebrtcnice-1.0.so.0.2403.0
+* /usr/lib/libgstwebrtcnice-1.0.so.0.2404.0
 * /usr/lib/pkgconfig/gstreamer-webrtc-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-webrtc-nice-1.0.pc

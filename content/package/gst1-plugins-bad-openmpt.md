@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "15180"
 usize = "30640"
 sha1sum = "3d0705106cc6a45c3082a4d73b38f3efa258d7f7"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libopenmpt']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libopenmpt']"
 +++
 ### Description: 
 GStreamer OpenMPT plugin (Bad).

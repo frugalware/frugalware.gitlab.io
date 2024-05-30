@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "285376"
 usize = "864138"
 sha1sum = "17b19b3911dcc683c43cbbfe52e140ad173e5f45"
-depends = "['cuda', 'gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3']"
+depends = "['cuda', 'gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4']"
 +++
 ### Description: 
 GStreamer CUDA plugin (Bad).
@@ -30,5 +30,5 @@ GStreamer CUDA plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstnvcodec.so
 * /usr/lib/libgstcuda-1.0.so
 * /usr/lib/libgstcuda-1.0.so.0
-* /usr/lib/libgstcuda-1.0.so.0.2403.0
+* /usr/lib/libgstcuda-1.0.so.0.2404.0
 * /usr/lib/pkgconfig/gstreamer-cuda-1.0.pc

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "17008"
 usize = "34736"
 sha1sum = "062859c655c7458ac200925757d7329a67e3ee9a"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libde265']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libde265']"
 +++
 ### Description: 
 GStreamer de265 plugin (Bad).

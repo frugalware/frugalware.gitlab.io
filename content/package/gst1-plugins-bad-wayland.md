@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "38728"
 usize = "122028"
 sha1sum = "3d3133ec09d205cb2ea3e56c7d8768ecd25446eb"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'wayland']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'wayland']"
 +++
 ### Description: 
 GStreamer Wayland plugin (Bad).
@@ -31,5 +31,5 @@ GStreamer Wayland plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstwaylandsink.so
 * /usr/lib/libgstwayland-1.0.so
 * /usr/lib/libgstwayland-1.0.so.0
-* /usr/lib/libgstwayland-1.0.so.0.2403.0
+* /usr/lib/libgstwayland-1.0.so.0.2404.0
 * /usr/lib/pkgconfig/gstreamer-wayland-1.0.pc

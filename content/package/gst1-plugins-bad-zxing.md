@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "12176"
 usize = "22536"
 sha1sum = "06ef7ab1a158b9988833401d2380ed148376e69e"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'zxing-cpp']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'zxing-cpp']"
 +++
 ### Description: 
 GStreamer zxing plugin (Bad).

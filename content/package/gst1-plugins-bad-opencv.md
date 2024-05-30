@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "86404"
 usize = "255229"
 sha1sum = "36a337da2b45736c330b4581c890e6bc8bc8fa2e"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'opencv']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'opencv']"
 +++
 ### Description: 
 GStreamer OpenCV plugin (Bad).
@@ -23,4 +23,4 @@ GStreamer OpenCV plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstopencv.so
 * /usr/lib/libgstopencv-1.0.so
 * /usr/lib/libgstopencv-1.0.so.0
-* /usr/lib/libgstopencv-1.0.so.0.2403.0
+* /usr/lib/libgstopencv-1.0.so.0.2404.0

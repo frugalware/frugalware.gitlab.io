@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "27900"
 usize = "67920"
 sha1sum = "15aeccb0141c7b3a3e10d8a8bbca4839b74002a8"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'libsrtp']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libsrtp']"
 +++
 ### Description: 
 GStreamer srtp plugin (Bad).

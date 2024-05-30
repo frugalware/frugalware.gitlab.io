@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "31084"
 usize = "88048"
 sha1sum = "984175742ce1061d0439bb8e41e3ee7e17b2c644"
-depends = "['bluez', 'gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3']"
+depends = "['bluez', 'gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4']"
 +++
 ### Description: 
 GStreamer BlueZ plugin (Bad).

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "13340"
 usize = "26672"
 sha1sum = "676dfbee5147808c3e0eb70cc3907bf528d6515f"
-depends = "['gst1-plugins-bad>=1.24.3', 'gst1-plugins-base>=1.24.3', 'sbc']"
+depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'sbc']"
 +++
 ### Description: 
 GStreamer SBC plugin (Bad).
