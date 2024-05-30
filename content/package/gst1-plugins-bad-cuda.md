@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-cuda 1.24.3-1"
-version = "1.24.3-1"
+title = "gst1-plugins-bad-cuda 1.24.4-1"
+version = "1.24.4-1"
 description = "GStreamer CUDA plugin (Bad)."
-date = "2024-04-30T08:49:11"
+date = "2024-05-30T09:16:47"
 aliases = "/packages/221257"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "285376"
-usize = "864138"
-sha1sum = "17b19b3911dcc683c43cbbfe52e140ad173e5f45"
+size = "291552"
+usize = "888714"
+sha1sum = "5374778f140a45a6b3f36a09ace5dbde3ddab306"
 depends = "['cuda', 'gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4']"
 +++
 ### Description: 
