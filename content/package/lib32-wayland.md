@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-wayland 1.22.0-3"
-version = "1.22.0-3"
+title = "lib32-wayland 1.23.0-1"
+version = "1.23.0-1"
 description = "Wayland is intended as a simpler replacement for Xorg. ( 32bit )"
-date = "2024-05-16T04:42:47"
+date = "2024-05-31T08:47:44"
 aliases = "/packages/217958"
 categories = ['lib32-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "120756"
-usize = "643887"
-sha1sum = "ac8e6a1e8803cbe17a59e3e60528c8fd7c68a65f"
+size = "126168"
+usize = "682083"
+sha1sum = "bd85e64453fbd708b0b493e87b7d155fe08bfad3"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
 reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-vulkan-mesa-layers', 'vulkan-mesa-layers']"
 +++
@@ -33,16 +33,16 @@ Wayland is intended as a simpler replacement for Xorg. ( 32bit )
 * /usr/i686-frugalware-linux/include/wayland-version.h
 * /usr/lib32/libwayland-client.so
 * /usr/lib32/libwayland-client.so.0
-* /usr/lib32/libwayland-client.so.0.22.0
+* /usr/lib32/libwayland-client.so.0.23.0
 * /usr/lib32/libwayland-cursor.so
 * /usr/lib32/libwayland-cursor.so.0
-* /usr/lib32/libwayland-cursor.so.0.22.0
+* /usr/lib32/libwayland-cursor.so.0.23.0
 * /usr/lib32/libwayland-egl.so
 * /usr/lib32/libwayland-egl.so.1
-* /usr/lib32/libwayland-egl.so.1.22.0
+* /usr/lib32/libwayland-egl.so.1.23.0
 * /usr/lib32/libwayland-server.so
 * /usr/lib32/libwayland-server.so.0
-* /usr/lib32/libwayland-server.so.0.22.0
+* /usr/lib32/libwayland-server.so.0.23.0
 * /usr/lib32/pkgconfig/wayland-client.pc
 * /usr/lib32/pkgconfig/wayland-cursor.pc
 * /usr/lib32/pkgconfig/wayland-egl-backend.pc
