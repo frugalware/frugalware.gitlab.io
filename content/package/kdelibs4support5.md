@@ -12,7 +12,7 @@ size = "3376316"
 usize = "19185324"
 sha1sum = "0f1c52cd9e9866f60375139c479e9f4ef17635e4"
 depends = "['kded5>=5.116.0', 'kdesignerplugin5>=5.116.0', 'kemoticons5>=5.116.0', 'kitemmodels5>=5.116.0', 'kparts5>=5.116.0', 'kunitconversion5>=5.116.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
-reverse_depends = "['kmix', 'kmplot', 'kolourpaint', 'kross-interpreters', 'qtcurve-qt5', 'step']"
+reverse_depends = "['kmix', 'kmplot', 'kross-interpreters', 'qtcurve-qt5', 'step']"
 +++
 ### Description: 
 KDE4 Support.

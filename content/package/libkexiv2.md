@@ -12,7 +12,7 @@ size = "140704"
 usize = "451297"
 sha1sum = "33ceda0af7a2c802184019f3cc8eadf42b5eed61"
 depends = "['exiv2>=0.28.1', 'qt6-base>=6.7.1']"
-reverse_depends = "['kdegraphics-thumbnailers', 'kio-extras', 'kolourpaint', 'okular', 'plasma-workspace']"
+reverse_depends = "['kdegraphics-thumbnailers', 'kio-extras', 'okular', 'plasma-workspace']"
 +++
 ### Description: 
 A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library.

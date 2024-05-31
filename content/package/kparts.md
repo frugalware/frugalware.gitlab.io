@@ -12,7 +12,7 @@ size = "160104"
 usize = "531327"
 sha1sum = "b7a25e28cb34fbfbe408cc70369cdf708ecc26f7"
 depends = "['kio>=6.2.0']"
-reverse_depends = "['ark', 'dolphin', 'dragon', 'filelight', 'gwenview', 'kde-dev-utils', 'kdelibs4support', 'keditbookmarks', 'khtml', 'kmediaplayer', 'konqueror', 'konsole', 'kontactinterface', 'konversation', 'kross', 'ktexteditor', 'kvirc', 'markdownpart', 'okular', 'plasma-workspace', 'svgpart', 'yakuake']"
+reverse_depends = "['ark', 'dolphin', 'dragon', 'filelight', 'gwenview', 'kde-dev-utils', 'kdelibs4support', 'kdiff3', 'keditbookmarks', 'khtml', 'kmediaplayer', 'konqueror', 'konsole', 'kontactinterface', 'konversation', 'kross', 'ktexteditor', 'kvirc', 'markdownpart', 'okular', 'plasma-workspace', 'svgpart', 'yakuake']"
 +++
 ### Description: 
 Plugin framework for user interface components.

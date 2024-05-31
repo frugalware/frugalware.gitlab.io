@@ -1,25 +1,24 @@
 +++
 draft = false
-title = "kdiff3 1.10.7-2"
-version = "1.10.7-2"
+title = "kdiff3 1.11.1-1"
+version = "1.11.1-1"
 description = "Tool for comparison and merge of files and directories"
-date = "2024-03-31T13:33:51"
+date = "2024-05-31T14:39:42"
 aliases = "/packages/217705"
-categories = ['kde5-extra']
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1701672"
-usize = "7233033"
-sha1sum = "4a2c8d49959dd50203514285b357c36b41d5b56c"
-depends = "['kcoreaddons5>=5.115.0', 'ki18n5>=5.115.0', 'kiconthemes5>=5.115.0', 'kparts5>=5.115.0', 'kwidgetsaddons5>=5.115.0', 'libboost']"
+size = "1515788"
+usize = "5691796"
+sha1sum = "ad5c898ec887747eac4c63512453e45845d9db01"
+depends = "['kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'kiconthemes>=6.2.0', 'kparts>=6.2.0', 'kwidgetsaddons>=6.2.0', 'libboost']"
 +++
 ### Description: 
 Tool for comparison and merge of files and directories
 
 ### Files: 
 * /usr/bin/kdiff3
-* /usr/lib/qt5/plugins/kf5/kfileitemaction/kdiff3fileitemaction.so
-* /usr/lib/qt5/plugins/kf5/parts/kdiff3part.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/kdiff3fileitemaction.so
 * /usr/share/applications/org.kde.kdiff3.desktop
 * /usr/share/doc/HTML/ca/kdiff3/index.cache.bz2
 * /usr/share/doc/HTML/ca/kdiff3/index.docbook
@@ -49,12 +48,10 @@ Tool for comparison and merge of files and directories
 * /usr/share/doc/HTML/sv/kdiff3/index.docbook
 * /usr/share/doc/HTML/uk/kdiff3/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdiff3/index.docbook
-* /usr/share/doc/kdiff3-1.10.7/AUTHORS
-* /usr/share/doc/kdiff3-1.10.7/ChangeLog
-* /usr/share/doc/kdiff3-1.10.7/COPYING
-* /usr/share/doc/kdiff3-1.10.7/INSTALL
-* /usr/share/doc/kdiff3-1.10.7/NEWS
-* /usr/share/doc/kdiff3-1.10.7/README
+* /usr/share/doc/kdiff3-1.11.1/ChangeLog
+* /usr/share/doc/kdiff3-1.11.1/COPYING
+* /usr/share/doc/kdiff3-1.11.1/INSTALL
+* /usr/share/doc/kdiff3-1.11.1/README
 * /usr/share/icons/hicolor/128x128/apps/kdiff3.png
 * /usr/share/icons/hicolor/16x16/apps/kdiff3.png
 * /usr/share/icons/hicolor/22x22/apps/kdiff3.png
@@ -63,9 +60,6 @@ Tool for comparison and merge of files and directories
 * /usr/share/icons/hicolor/48x48/apps/kdiff3.png
 * /usr/share/icons/hicolor/64x64/apps/kdiff3.png
 * /usr/share/icons/hicolor/scalable/apps/kdiff3.svgz
-* /usr/share/kservices5/kdiff3part.desktop
-* /usr/share/kxmlgui5/kdiff3/kdiff3_shell.rc
-* /usr/share/kxmlgui5/kdiff3part/kdiff3_part.rc
 * /usr/share/locale/ar/LC_MESSAGES/kdiff3.mo
 * /usr/share/locale/bg/LC_MESSAGES/diff_ext.mo
 * /usr/share/locale/bg/LC_MESSAGES/kdiff3.mo
