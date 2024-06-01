@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fmtlib 10.2.1-1"
-version = "10.2.1-1"
+title = "fmtlib 10.2.1-2"
+version = "10.2.1-2"
 description = "Open-source formatting library for C++"
-date = "2024-01-20T21:36:50"
+date = "2024-06-01T14:25:31"
 aliases = "/packages/220117"
-categories = ['lib-extra']
+categories = ['devel-core']
 upstreamurl = "https://fmtlib.net"
 arch = "x86_64"
-size = "174796"
-usize = "726696"
-sha1sum = "c75394b0073432e25fe3c5ae3d911cd4478dafb7"
+size = "178660"
+usize = "730887"
+sha1sum = "3ac00b8ef6087453d2f677f6463b67bde201a954"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ccache', 'cppgir', 'easyeffects', 'easyrpg-player', 'mkvtoolnix', 'mpd', 'opendht', 'openimageio', 'performous', 'restinio', 'telegram-desktop', 'warzone2100']"
 +++

@@ -12,7 +12,7 @@ size = "390360"
 usize = "2268412"
 sha1sum = "26b8969ca56a766ee91070dfc879d490d6b39ae6"
 depends = "['kconfigwidgets>=6.2.0', 'kiconthemes>=6.2.0', 'kirigami>=6.2.0']"
-reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
+reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
 +++
 ### Description: 
 QtQuickControls2 style that uses QWidget's QStyle for painting.

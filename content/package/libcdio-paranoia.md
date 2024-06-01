@@ -12,7 +12,7 @@ size = "85764"
 usize = "254856"
 sha1sum = "354e6596ee1b9d1ebee49408c8fcdb8b4c169e4d"
 depends = "['libcdio>=2.1.0']"
-reverse_depends = "['gvfs', 'mpv', 'qmmp']"
+reverse_depends = "['audex', 'gvfs', 'mpv', 'qmmp']"
 license = "GPL2"
 +++
 ### Description: 
