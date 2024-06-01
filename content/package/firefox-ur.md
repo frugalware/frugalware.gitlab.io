@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ur 126.0-1"
-version = "126.0-1"
+title = "firefox-ur 126.0.1-1"
+version = "126.0.1-1"
 description = "Urdu language support for Firefox"
-date = "2024-05-23T20:48:40"
+date = "2024-06-01T11:59:32"
 aliases = "/packages/219161"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "498120"
-usize = "558139"
-sha1sum = "2607590ede17f93a9b4263cf9a1a621220f24cbf"
-depends = "['firefox>=126.0']"
+size = "497432"
+usize = "557227"
+sha1sum = "fc848e40cde4935f2fa5558de1922d1c832ad7f6"
+depends = "['firefox>=126.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
