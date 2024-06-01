@@ -12,7 +12,7 @@ size = "443608"
 usize = "2052032"
 sha1sum = "77930bb80243a69feac5427b03e833be2385e5a2"
 depends = "['libsepol>=3.3', 'pcre', 'python3>=3.10', 'ruby>=3.3.0']"
-reverse_depends = "['steam-native']"
+reverse_depends = "['networkmanager', 'steam-native']"
 +++
 ### Description: 
 SELinux library and simple utilities
