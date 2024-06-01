@@ -12,7 +12,7 @@ size = "238640"
 usize = "697954"
 sha1sum = "d07233fab0a04eb832c98bd9bd7672a77b6f17d3"
 depends = "['glibc']"
-reverse_depends = "['bluez']"
+reverse_depends = "['bluez', 'iwd']"
 +++
 ### Description: 
 Embedded Linux library

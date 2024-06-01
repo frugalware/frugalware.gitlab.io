@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-ncurses 6.5-3"
-version = "6.5-3"
+title = "lib32-ncurses 6.5-4"
+version = "6.5-4"
 description = "A System V curses emulation library ( 32bit )"
-date = "2024-05-15T19:18:43"
+date = "2024-06-01T19:52:12"
 aliases = "/packages/217726"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/ncurses/ncurses.html"
 arch = "x86_64"
-size = "6806872"
-usize = "10802687"
-sha1sum = "8e09176447d5412dba3101204b0ec609c94d5c5f"
+size = "6809752"
+usize = "10802949"
+sha1sum = "0af77918ffc2f6cec4d652328a55d697f6dae585"
 depends = "['glibc>=2.35', 'lib32-gmp>=6.1.2-9']"
 reverse_depends = "['lib32-gettext', 'lib32-lame', 'lib32-libcaca', 'lib32-libedit', 'lib32-libtextstyle', 'lib32-llvm-libs', 'lib32-pcre2', 'lib32-readline', 'lib32-sqlite3', 'lib32-util-linux', 'lib32-vkd3d', 'wine', 'wine-devel']"
 +++
@@ -125,3 +125,5 @@ A System V curses emulation library ( 32bit )
 * /usr/lib32/pkgconfig/ncursesw.pc
 * /usr/lib32/pkgconfig/panel.pc
 * /usr/lib32/pkgconfig/panelw.pc
+* /usr/lib32/pkgconfig/tic.pc
+* /usr/lib32/pkgconfig/tinfo.pc

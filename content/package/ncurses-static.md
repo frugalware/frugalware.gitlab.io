@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncurses-static 6.5-3"
-version = "6.5-3"
+title = "ncurses-static 6.5-4"
+version = "6.5-4"
 description = "Static files for ncurses"
-date = "2024-05-15T19:18:43"
+date = "2024-06-01T19:52:12"
 aliases = "/packages/219926"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnu.org/software/ncurses/ncurses.html"
 arch = "x86_64"
-size = "5753996"
-usize = "8952276"
-sha1sum = "86b711773edb792b68db3e2a26801e4cfa22414f"
+size = "5755172"
+usize = "8952252"
+sha1sum = "93e2c79cd2ebaa62b6369648869bc004b8b10b68"
 depends = "[]"
 +++
 ### Description: 
