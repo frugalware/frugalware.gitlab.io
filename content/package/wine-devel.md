@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 9.9-1"
-version = "9.9-1"
+title = "wine-devel 9.10-1"
+version = "9.10-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-05-26T21:34:48"
+date = "2024-06-01T11:08:14"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "72373960"
-usize = "647321705"
-sha1sum = "1d78cb53c321a0b5b6a6b37a17476b21068d2698"
+size = "83159856"
+usize = "647626932"
+sha1sum = "e3240cba6034d4bc2ecba0739b6bf71883e7da2b"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -4840,11 +4840,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/xpsprint.dll
 * /usr/lib32/wine/i386-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.9/AUTHORS
-* /usr/share/doc/wine-devel-9.9/COPYING.LIB
-* /usr/share/doc/wine-devel-9.9/LICENSE
-* /usr/share/doc/wine-devel-9.9/README.md
-* /usr/share/doc/wine-devel-9.9/VERSION
+* /usr/share/doc/wine-devel-9.10/AUTHORS
+* /usr/share/doc/wine-devel-9.10/COPYING.LIB
+* /usr/share/doc/wine-devel-9.10/LICENSE
+* /usr/share/doc/wine-devel-9.10/README.md
+* /usr/share/doc/wine-devel-9.10/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
