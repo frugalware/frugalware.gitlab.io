@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "graphviz 10.0.1-1"
-version = "10.0.1-1"
+title = "graphviz 11.0.0-1"
+version = "11.0.0-1"
 description = "Open Source Graph Visualization Software"
-date = "2024-04-25T14:04:09"
+date = "2024-06-02T14:04:07"
 aliases = "/packages/4238"
 categories = ['xapps-extra']
 upstreamurl = "https://www.graphviz.org"
 arch = "x86_64"
-size = "3321292"
-usize = "11253125"
-sha1sum = "ec6048ff7a5767eb704929aa486eba3dadd26692"
+size = "3344292"
+usize = "11369193"
+sha1sum = "3e5fb048cc417bd69228030040d047cde41c82d6"
 depends = "['devil>=1.8.0', 'freeglut', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'librsvg', 'libxaw', 'libxpm', 'perl>=5.22.1', 'python3>=3.12']"
 reverse_depends = "['libmediainfo', 'vala']"
 +++
@@ -111,6 +111,9 @@ Open Source Graph Visualization Software
 * /usr/lib/graphviz/libgvplugin_vt.so
 * /usr/lib/graphviz/libgvplugin_vt.so.6
 * /usr/lib/graphviz/libgvplugin_vt.so.6.0.0
+* /usr/lib/graphviz/libgvplugin_webp.so
+* /usr/lib/graphviz/libgvplugin_webp.so.6
+* /usr/lib/graphviz/libgvplugin_webp.so.6.0.0
 * /usr/lib/graphviz/libgvplugin_xlib.so
 * /usr/lib/graphviz/libgvplugin_xlib.so.6
 * /usr/lib/graphviz/libgvplugin_xlib.so.6.0.0
@@ -160,91 +163,91 @@ Open Source Graph Visualization Software
 * /usr/lib/tcl8.6/graphviz/libtcldot_builtin.so
 * /usr/lib/tcl8.6/graphviz/libtclplan.so
 * /usr/lib/tcl8.6/graphviz/pkgIndex.tcl
-* /usr/share/doc/graphviz-10.0.1/acyclic.1.pdf
-* /usr/share/doc/graphviz-10.0.1/Agraph.pdf
-* /usr/share/doc/graphviz-10.0.1/AUTHORS
-* /usr/share/doc/graphviz-10.0.1/bcomps.1.pdf
-* /usr/share/doc/graphviz-10.0.1/build.html
-* /usr/share/doc/graphviz-10.0.1/ccomps.1.pdf
-* /usr/share/doc/graphviz-10.0.1/cdt.3.pdf
-* /usr/share/doc/graphviz-10.0.1/cgraph.3.pdf
-* /usr/share/doc/graphviz-10.0.1/ChangeLog
-* /usr/share/doc/graphviz-10.0.1/CHANGELOG.md
-* /usr/share/doc/graphviz-10.0.1/char.html
-* /usr/share/doc/graphviz-10.0.1/circo.1.pdf
-* /usr/share/doc/graphviz-10.0.1/cluster.1.pdf
-* /usr/share/doc/graphviz-10.0.1/COPYING
-* /usr/share/doc/graphviz-10.0.1/cpl1.0.txt
-* /usr/share/doc/graphviz-10.0.1/diffimg.1.pdf
-* /usr/share/doc/graphviz-10.0.1/dijkstra.1.pdf
-* /usr/share/doc/graphviz-10.0.1/dot.1.pdf
-* /usr/share/doc/graphviz-10.0.1/Dot.ref
-* /usr/share/doc/graphviz-10.0.1/dot2gxl.1.pdf
-* /usr/share/doc/graphviz-10.0.1/dotguide.pdf
-* /usr/share/doc/graphviz-10.0.1/edgepaint.1.pdf
-* /usr/share/doc/graphviz-10.0.1/expr.3.pdf
-* /usr/share/doc/graphviz-10.0.1/FAQ.html
-* /usr/share/doc/graphviz-10.0.1/fdp.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gc.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gdtclft.3tcl.pdf
-* /usr/share/doc/graphviz-10.0.1/gdtclft.entities.example.png
-* /usr/share/doc/graphviz-10.0.1/gml2gv.1.pdf
-* /usr/share/doc/graphviz-10.0.1/graphml2gv.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gv.3guile.pdf
-* /usr/share/doc/graphviz-10.0.1/gv.3perl.pdf
-* /usr/share/doc/graphviz-10.0.1/gv.3python.pdf
-* /usr/share/doc/graphviz-10.0.1/gv.3tcl.pdf
-* /usr/share/doc/graphviz-10.0.1/gv2gml.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gv2gxl.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvc.3.pdf
-* /usr/share/doc/graphviz-10.0.1/gvcolor.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvgen.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvmap.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvmap.sh.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvpack.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvpr.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gvpr.3.pdf
-* /usr/share/doc/graphviz-10.0.1/gxl2dot.1.pdf
-* /usr/share/doc/graphviz-10.0.1/gxl2gv.1.pdf
-* /usr/share/doc/graphviz-10.0.1/index.html
-* /usr/share/doc/graphviz-10.0.1/info/arrows.html
-* /usr/share/doc/graphviz-10.0.1/info/attrs.html
-* /usr/share/doc/graphviz-10.0.1/info/colors.html
-* /usr/share/doc/graphviz-10.0.1/info/command.html
-* /usr/share/doc/graphviz-10.0.1/info/index.html
-* /usr/share/doc/graphviz-10.0.1/info/lang.html
-* /usr/share/doc/graphviz-10.0.1/info/output.html
-* /usr/share/doc/graphviz-10.0.1/info/shapes.html
-* /usr/share/doc/graphviz-10.0.1/INSTALL
-* /usr/share/doc/graphviz-10.0.1/internal_todo.html
-* /usr/share/doc/graphviz-10.0.1/latex_suggestions.txt
-* /usr/share/doc/graphviz-10.0.1/libguide.pdf
-* /usr/share/doc/graphviz-10.0.1/mm2gv.1.pdf
-* /usr/share/doc/graphviz-10.0.1/neato.1.pdf
-* /usr/share/doc/graphviz-10.0.1/neatoguide.pdf
-* /usr/share/doc/graphviz-10.0.1/NEWS
-* /usr/share/doc/graphviz-10.0.1/nop.1.pdf
-* /usr/share/doc/graphviz-10.0.1/osage.1.pdf
-* /usr/share/doc/graphviz-10.0.1/pack.3.pdf
-* /usr/share/doc/graphviz-10.0.1/patchwork.1.pdf
-* /usr/share/doc/graphviz-10.0.1/pathplan.3.pdf
-* /usr/share/doc/graphviz-10.0.1/prune.1.pdf
-* /usr/share/doc/graphviz-10.0.1/pspdf.png
-* /usr/share/doc/graphviz-10.0.1/README
-* /usr/share/doc/graphviz-10.0.1/sccmap.1.pdf
-* /usr/share/doc/graphviz-10.0.1/schema/arguments.xml
-* /usr/share/doc/graphviz-10.0.1/schema/attributes.xml
-* /usr/share/doc/graphviz-10.0.1/schema/attributes.xslt
-* /usr/share/doc/graphviz-10.0.1/sfdp.1.pdf
-* /usr/share/doc/graphviz-10.0.1/tcldot.3tcl.pdf
-* /usr/share/doc/graphviz-10.0.1/tcldot.html
-* /usr/share/doc/graphviz-10.0.1/todo.html
-* /usr/share/doc/graphviz-10.0.1/tred.1.pdf
-* /usr/share/doc/graphviz-10.0.1/twopi.1.pdf
-* /usr/share/doc/graphviz-10.0.1/unflatten.1.pdf
-* /usr/share/doc/graphviz-10.0.1/vimdot.1.pdf
-* /usr/share/doc/graphviz-10.0.1/winbuild.html
-* /usr/share/doc/graphviz-10.0.1/xdot.3.pdf
+* /usr/share/doc/graphviz-11.0.0/acyclic.1.pdf
+* /usr/share/doc/graphviz-11.0.0/Agraph.pdf
+* /usr/share/doc/graphviz-11.0.0/AUTHORS
+* /usr/share/doc/graphviz-11.0.0/bcomps.1.pdf
+* /usr/share/doc/graphviz-11.0.0/build.html
+* /usr/share/doc/graphviz-11.0.0/ccomps.1.pdf
+* /usr/share/doc/graphviz-11.0.0/cdt.3.pdf
+* /usr/share/doc/graphviz-11.0.0/cgraph.3.pdf
+* /usr/share/doc/graphviz-11.0.0/ChangeLog
+* /usr/share/doc/graphviz-11.0.0/CHANGELOG.md
+* /usr/share/doc/graphviz-11.0.0/char.html
+* /usr/share/doc/graphviz-11.0.0/circo.1.pdf
+* /usr/share/doc/graphviz-11.0.0/cluster.1.pdf
+* /usr/share/doc/graphviz-11.0.0/COPYING
+* /usr/share/doc/graphviz-11.0.0/cpl1.0.txt
+* /usr/share/doc/graphviz-11.0.0/diffimg.1.pdf
+* /usr/share/doc/graphviz-11.0.0/dijkstra.1.pdf
+* /usr/share/doc/graphviz-11.0.0/dot.1.pdf
+* /usr/share/doc/graphviz-11.0.0/Dot.ref
+* /usr/share/doc/graphviz-11.0.0/dot2gxl.1.pdf
+* /usr/share/doc/graphviz-11.0.0/dotguide.pdf
+* /usr/share/doc/graphviz-11.0.0/edgepaint.1.pdf
+* /usr/share/doc/graphviz-11.0.0/expr.3.pdf
+* /usr/share/doc/graphviz-11.0.0/FAQ.html
+* /usr/share/doc/graphviz-11.0.0/fdp.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gc.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gdtclft.3tcl.pdf
+* /usr/share/doc/graphviz-11.0.0/gdtclft.entities.example.png
+* /usr/share/doc/graphviz-11.0.0/gml2gv.1.pdf
+* /usr/share/doc/graphviz-11.0.0/graphml2gv.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gv.3guile.pdf
+* /usr/share/doc/graphviz-11.0.0/gv.3perl.pdf
+* /usr/share/doc/graphviz-11.0.0/gv.3python.pdf
+* /usr/share/doc/graphviz-11.0.0/gv.3tcl.pdf
+* /usr/share/doc/graphviz-11.0.0/gv2gml.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gv2gxl.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvc.3.pdf
+* /usr/share/doc/graphviz-11.0.0/gvcolor.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvgen.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvmap.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvmap.sh.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvpack.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvpr.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gvpr.3.pdf
+* /usr/share/doc/graphviz-11.0.0/gxl2dot.1.pdf
+* /usr/share/doc/graphviz-11.0.0/gxl2gv.1.pdf
+* /usr/share/doc/graphviz-11.0.0/index.html
+* /usr/share/doc/graphviz-11.0.0/info/arrows.html
+* /usr/share/doc/graphviz-11.0.0/info/attrs.html
+* /usr/share/doc/graphviz-11.0.0/info/colors.html
+* /usr/share/doc/graphviz-11.0.0/info/command.html
+* /usr/share/doc/graphviz-11.0.0/info/index.html
+* /usr/share/doc/graphviz-11.0.0/info/lang.html
+* /usr/share/doc/graphviz-11.0.0/info/output.html
+* /usr/share/doc/graphviz-11.0.0/info/shapes.html
+* /usr/share/doc/graphviz-11.0.0/INSTALL
+* /usr/share/doc/graphviz-11.0.0/internal_todo.html
+* /usr/share/doc/graphviz-11.0.0/latex_suggestions.txt
+* /usr/share/doc/graphviz-11.0.0/libguide.pdf
+* /usr/share/doc/graphviz-11.0.0/mm2gv.1.pdf
+* /usr/share/doc/graphviz-11.0.0/neato.1.pdf
+* /usr/share/doc/graphviz-11.0.0/neatoguide.pdf
+* /usr/share/doc/graphviz-11.0.0/NEWS
+* /usr/share/doc/graphviz-11.0.0/nop.1.pdf
+* /usr/share/doc/graphviz-11.0.0/osage.1.pdf
+* /usr/share/doc/graphviz-11.0.0/pack.3.pdf
+* /usr/share/doc/graphviz-11.0.0/patchwork.1.pdf
+* /usr/share/doc/graphviz-11.0.0/pathplan.3.pdf
+* /usr/share/doc/graphviz-11.0.0/prune.1.pdf
+* /usr/share/doc/graphviz-11.0.0/pspdf.png
+* /usr/share/doc/graphviz-11.0.0/README
+* /usr/share/doc/graphviz-11.0.0/sccmap.1.pdf
+* /usr/share/doc/graphviz-11.0.0/schema/arguments.xml
+* /usr/share/doc/graphviz-11.0.0/schema/attributes.xml
+* /usr/share/doc/graphviz-11.0.0/schema/attributes.xslt
+* /usr/share/doc/graphviz-11.0.0/sfdp.1.pdf
+* /usr/share/doc/graphviz-11.0.0/tcldot.3tcl.pdf
+* /usr/share/doc/graphviz-11.0.0/tcldot.html
+* /usr/share/doc/graphviz-11.0.0/todo.html
+* /usr/share/doc/graphviz-11.0.0/tred.1.pdf
+* /usr/share/doc/graphviz-11.0.0/twopi.1.pdf
+* /usr/share/doc/graphviz-11.0.0/unflatten.1.pdf
+* /usr/share/doc/graphviz-11.0.0/vimdot.1.pdf
+* /usr/share/doc/graphviz-11.0.0/winbuild.html
+* /usr/share/doc/graphviz-11.0.0/xdot.3.pdf
 * /usr/share/graphviz/demo/doted.tcl
 * /usr/share/graphviz/demo/doted.tcl.README
 * /usr/share/graphviz/demo/entities.html

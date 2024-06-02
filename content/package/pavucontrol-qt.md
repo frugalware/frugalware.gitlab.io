@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pavucontrol-qt 1.3.0-4"
-version = "1.3.0-4"
+title = "pavucontrol-qt 2.0.0-1"
+version = "2.0.0-1"
 description = "A Pulseaudio mixer in Qt5."
-date = "2024-05-27T05:06:07"
+date = "2024-06-02T13:50:17"
 aliases = "/packages/219344"
 categories = ['xapps-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "144516"
-usize = "957447"
-sha1sum = "84936affb21963ecfc3e25f36947b55195eb1baf"
-depends = "['libpulse', 'pcre2', 'pulseaudio', 'qt5-base>=5.15.10']"
+size = "154840"
+usize = "1017389"
+sha1sum = "c639a7851aee0270257c23bcf93dfaa68f6d1fbc"
+depends = "['libpulse', 'pcre2', 'pulseaudio', 'qt6-base']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
@@ -20,10 +20,10 @@ A Pulseaudio mixer in Qt5.
 ### Files: 
 * /usr/bin/pavucontrol-qt
 * /usr/share/applications/pavucontrol-qt.desktop
-* /usr/share/doc/pavucontrol-qt-1.3.0/AUTHORS
-* /usr/share/doc/pavucontrol-qt-1.3.0/CHANGELOG
-* /usr/share/doc/pavucontrol-qt-1.3.0/LICENSE
-* /usr/share/doc/pavucontrol-qt-1.3.0/README.md
+* /usr/share/doc/pavucontrol-qt-2.0.0/AUTHORS
+* /usr/share/doc/pavucontrol-qt-2.0.0/CHANGELOG
+* /usr/share/doc/pavucontrol-qt-2.0.0/LICENSE
+* /usr/share/doc/pavucontrol-qt-2.0.0/README.md
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ar.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_arn.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_as.qm
@@ -51,6 +51,7 @@ A Pulseaudio mixer in Qt5.
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ja.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_kn.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ko.qm
+* /usr/share/pavucontrol-qt/translations/pavucontrol-qt_lg.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_lt.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ml.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_mr.qm
