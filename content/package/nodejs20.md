@@ -1,21 +1,21 @@
 +++
 draft = false
-title = "nodejs 22.2.0-2"
-version = "22.2.0-2"
-description = "Evented I/O for V8 javascript"
-date = "2024-06-02T15:44:58"
-aliases = "/packages/153770"
+title = "nodejs20 20.14.0-1"
+version = "20.14.0-1"
+description = "Evented I/O for V8 javascript (LTS release: Iron)"
+date = "2024-06-02T16:05:48"
+aliases = "/packages/221497"
 categories = ['devel-extra']
-upstreamurl = "https://nodejs.org/"
+upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "13566200"
-usize = "60884883"
-sha1sum = "b3404a34e38018299c5ea338581706aac89d9816"
-depends = "['c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
+size = "11811308"
+usize = "53223912"
+sha1sum = "8d00959a43d4689ac08cd42179adaa580cb2d903"
+depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
 ### Description: 
-Evented I/O for V8 javascript
+Evented I/O for V8 javascript (LTS release: Iron)
 
 ### Files: 
 * /usr/bin/corepack
@@ -93,7 +93,6 @@ Evented I/O for V8 javascript
 * /usr/include/node/v8-forward.h
 * /usr/include/node/v8-function-callback.h
 * /usr/include/node/v8-function.h
-* /usr/include/node/v8-handle-base.h
 * /usr/include/node/v8-initialization.h
 * /usr/include/node/v8-internal.h
 * /usr/include/node/v8-isolate.h
@@ -116,7 +115,6 @@ Evented I/O for V8 javascript
 * /usr/include/node/v8-regexp.h
 * /usr/include/node/v8-script.h
 * /usr/include/node/v8-snapshot.h
-* /usr/include/node/v8-source-location.h
 * /usr/include/node/v8-statistics.h
 * /usr/include/node/v8-template.h
 * /usr/include/node/v8-traced-handle.h
@@ -2090,6 +2088,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-22.2.0/LICENSE
-* /usr/share/doc/nodejs-22.2.0/README.md
+* /usr/share/doc/nodejs20-20.14.0/LICENSE
+* /usr/share/doc/nodejs20-20.14.0/README.md
 * /usr/share/man/man1/node.1.gz

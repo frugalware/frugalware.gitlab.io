@@ -12,7 +12,7 @@ size = "77056"
 usize = "278766"
 sha1sum = "9433680b96e7e8078e03238e0139066d89bbbf5a"
 depends = "['glibc>=2.3.4']"
-reverse_depends = "['curl']"
+reverse_depends = "['curl', 'nodejs']"
 +++
 ### Description: 
 nghttp3 is an implementation of HTTP/3 in C

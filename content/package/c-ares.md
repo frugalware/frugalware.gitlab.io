@@ -12,7 +12,7 @@ size = "256092"
 usize = "695557"
 sha1sum = "e09ae770b9a16fc1ff47b30a73bcfdd25a3b91d5"
 depends = "['glibc>=2.3.4']"
-reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
+reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'nodejs20', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
 ### Description: 
 C library that performs DNS requests and name resolves asynchronously.
