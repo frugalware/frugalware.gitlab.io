@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libdrm 2.4.120-2"
-version = "2.4.120-2"
+title = "lib32-libdrm 2.4.121-1"
+version = "2.4.121-1"
 description = "X.Org Userspace interface to kernel DRM services ( 32bit )"
-date = "2024-05-16T01:54:02"
+date = "2024-06-02T11:00:01"
 aliases = "/packages/217710"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
-size = "325924"
-usize = "1282554"
-sha1sum = "28ce8fe3465cb58079039717c59ce358b31af958"
+size = "327992"
+usize = "1285662"
+sha1sum = "cb67dd2c8480b8c76fe83060099e4a7879c32475"
 depends = "['lib32-libpciaccess>=0.13.4-4']"
 reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libgl', 'lib32-libosmesa', 'lib32-libva', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-pipewire', 'lib32-vulkan-mesa-layers']"
 +++

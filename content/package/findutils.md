@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "findutils 4.9.0-3"
-version = "4.9.0-3"
+title = "findutils 4.10.0-1"
+version = "4.10.0-1"
 description = "Basic directory searching utilities"
-date = "2024-05-27T09:42:09"
+date = "2024-06-02T10:58:35"
 aliases = "/packages/2374"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/findutils"
 arch = "x86_64"
-size = "596356"
-usize = "2218824"
-sha1sum = "d9358018740c627f50c2f339f5131854a060df0a"
+size = "660144"
+usize = "2662386"
+sha1sum = "4d2355faa03872b3afe05ae1535931b48cb7fcf4"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35']"
 reverse_depends = "['profile-sync-daemon', 'pulse-autoconf', 'scriptlet-core']"
 +++
@@ -21,18 +21,16 @@ Basic directory searching utilities
 * /usr/bin/find
 * /usr/bin/xargs
 * /usr/lib/findutils/frcode
-* /usr/share/doc/findutils-4.9.0/AUTHORS
-* /usr/share/doc/findutils-4.9.0/ChangeLog
-* /usr/share/doc/findutils-4.9.0/COPYING
-* /usr/share/doc/findutils-4.9.0/INSTALL
-* /usr/share/doc/findutils-4.9.0/NEWS
-* /usr/share/doc/findutils-4.9.0/README
-* /usr/share/doc/findutils-4.9.0/README-hacking
-* /usr/share/doc/findutils-4.9.0/THANKS
-* /usr/share/doc/findutils-4.9.0/TODO
+* /usr/share/doc/findutils-4.10.0/AUTHORS
+* /usr/share/doc/findutils-4.10.0/ChangeLog
+* /usr/share/doc/findutils-4.10.0/COPYING
+* /usr/share/doc/findutils-4.10.0/INSTALL
+* /usr/share/doc/findutils-4.10.0/NEWS
+* /usr/share/doc/findutils-4.10.0/README
+* /usr/share/doc/findutils-4.10.0/README-hacking
+* /usr/share/doc/findutils-4.10.0/THANKS
+* /usr/share/doc/findutils-4.10.0/TODO
 * /usr/share/info/find-maint.info.gz
-* /usr/share/info/find.info-1.gz
-* /usr/share/info/find.info-2.gz
 * /usr/share/info/find.info.gz
 * /usr/share/locale/be/LC_MESSAGES/findutils.mo
 * /usr/share/locale/bg/LC_MESSAGES/findutils.mo
@@ -53,6 +51,7 @@ Basic directory searching utilities
 * /usr/share/locale/id/LC_MESSAGES/findutils.mo
 * /usr/share/locale/it/LC_MESSAGES/findutils.mo
 * /usr/share/locale/ja/LC_MESSAGES/findutils.mo
+* /usr/share/locale/ka/LC_MESSAGES/findutils.mo
 * /usr/share/locale/ko/LC_MESSAGES/findutils.mo
 * /usr/share/locale/lg/LC_MESSAGES/findutils.mo
 * /usr/share/locale/lt/LC_MESSAGES/findutils.mo

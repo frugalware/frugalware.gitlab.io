@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-fonts 24.5.1-1"
-version = "24.5.1-1"
+title = "noto-fonts 24.6.1-1"
+version = "24.6.1-1"
 description = "Noto fonts"
-date = "2024-05-01T11:14:13"
+date = "2024-06-02T11:04:00"
 aliases = "/packages/218387"
 categories = ['x11']
 upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
-size = "27683436"
-usize = "117735978"
-sha1sum = "401fe42bb2526eed4b1415722667e345fed0e620"
+size = "33634460"
+usize = "116591866"
+sha1sum = "3156a160ee49b303877dbd3105f79cf93ac12ca3"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumina-desktop', 'plasma-integration']"
 +++
@@ -18,8 +18,8 @@ reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumi
 Noto fonts
 
 ### Files: 
-* /usr/share/doc/noto-fonts-24.5.1/LICENSE
-* /usr/share/doc/noto-fonts-24.5.1/README.md
+* /usr/share/doc/noto-fonts-24.6.1/LICENSE
+* /usr/share/doc/noto-fonts-24.6.1/README.md
 * /usr/share/fontconfig/conf.avail/46-noto-mono.conf
 * /usr/share/fontconfig/conf.avail/46-noto-sans.conf
 * /usr/share/fontconfig/conf.avail/46-noto-serif.conf
@@ -639,3 +639,4 @@ Noto fonts
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Bold.ttf
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Light.ttf
 * /usr/share/fonts/X11/TTF/NotoTraditionalNushu-Regular.ttf
+* /usr/share/fonts/X11/TTF/NotoZnamennyMusicalNotation-Regular.ttf
