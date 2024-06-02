@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jitterentropy-library 3.4.1-1"
-version = "3.4.1-1"
+title = "jitterentropy-library 3.5.0-1"
+version = "3.5.0-1"
 description = "Hardware RNG based on CPU timing jitter"
-date = "2022-09-01T08:43:15"
+date = "2024-06-02T17:51:18"
 aliases = "/packages/219997"
 categories = ['base']
-upstreamurl = "https://www.chronox.de/jent.html"
+upstreamurl = "https://www.chronox.de/jent/index.html"
 arch = "x86_64"
-size = "23928"
-usize = "72422"
-sha1sum = "e67b48ee42aae12e8bdb93aaa774be1bfec64b55"
+size = "25120"
+usize = "74616"
+sha1sum = "82f7e223947d4e2644496dfde893c93f5d550921"
 depends = "['glibc>=2.34']"
 reverse_depends = "['rng-tools']"
 +++
@@ -22,7 +22,7 @@ Hardware RNG based on CPU timing jitter
 * /usr/include/jitterentropy.h
 * /usr/lib/libjitterentropy.so
 * /usr/lib/libjitterentropy.so.3
-* /usr/lib/libjitterentropy.so.3.4.1
-* /usr/share/doc/jitterentropy-library-3.4.1/LICENSE
-* /usr/share/doc/jitterentropy-library-3.4.1/README.md
+* /usr/lib/libjitterentropy.so.3.5.0
+* /usr/share/doc/jitterentropy-library-3.5.0/LICENSE
+* /usr/share/doc/jitterentropy-library-3.5.0/README.md
 * /usr/share/man/man3/jitterentropy.3.gz
