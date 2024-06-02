@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "docbook2x 0.8.8-5"
-version = "0.8.8-5"
+title = "docbook2x 0.8.8-6"
+version = "0.8.8-6"
 description = "Converts DocBook documents to man and Texinfo format."
-date = "2021-10-18T09:05:52"
+date = "2024-06-02T13:05:40"
 aliases = "/packages/30926"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/docbook2x"
 arch = "x86_64"
-size = "279964"
-usize = "1366607"
-sha1sum = "833661bbd9b5013b3baaddf4bce627d1561a8c58"
-depends = "['libxslt', 'perl-sgmlspm', 'perl-xml-sax>=0.99-5', 'perl-xml-writer>=0.625-5', 'perl-xml-xslt>=0.48-4']"
+size = "279752"
+usize = "1344823"
+sha1sum = "d606038034a51a3ef60f59726777fb944368ef7e"
+depends = "['libxslt', 'perl-sgmlspm', 'perl-xml-sax-expat', 'perl-xml-writer>=0.625-5', 'perl-xml-xslt>=0.48-4']"
 +++
 ### Description: 
 Converts DocBook documents to man and Texinfo format.
