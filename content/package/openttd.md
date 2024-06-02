@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openttd 14.0-1"
-version = "14.0-1"
+title = "openttd 14.1-1"
+version = "14.1-1"
 description = "An open source clone of the Microprose game Transport Tycoon Deluxe."
-date = "2024-04-21T20:02:17"
+date = "2024-06-02T11:58:35"
 aliases = "/packages/3755"
 categories = ['games-extra']
 upstreamurl = "http://www.openttd.org"
 arch = "x86_64"
-size = "6426304"
-usize = "25209912"
-sha1sum = "de0ed68bbf2c0b42d6c44976956e7e2ce4aaf126"
+size = "6517228"
+usize = "25510198"
+sha1sum = "98c2be324c52809437cde8697fe4fb199c5c8914"
 depends = "['fontconfig>=2.11.94-3', 'icu4c>=75.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl>=1.2.15-3', 'xz>=5.2.2-4']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ An open source clone of the Microprose game Transport Tycoon Deluxe.
 ### Files: 
 * /usr/bin/openttd
 * /usr/share/applications/openttd.desktop
-* /usr/share/doc/openttd-14.0/COPYING.md
-* /usr/share/doc/openttd-14.0/README.md
+* /usr/share/doc/openttd-14.1/COPYING.md
+* /usr/share/doc/openttd-14.1/README.md
 * /usr/share/doc/openttd/changelog.txt
 * /usr/share/doc/openttd/CONTRIBUTING.md
 * /usr/share/doc/openttd/COPYING.md
