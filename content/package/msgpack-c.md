@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "msgpack-c 6.0.0-2"
-version = "6.0.0-2"
+title = "msgpack-c 6.0.1-1"
+version = "6.0.1-1"
 description = "An efficient object serialization library"
-date = "2024-05-08T13:59:47"
+date = "2024-06-03T12:01:29"
 aliases = "/packages/220445"
 categories = ['lib-extra']
 upstreamurl = "http://msgpack.org/"
 arch = "x86_64"
-size = "150004"
-usize = "291776"
-sha1sum = "9511f7a8cf1c66716d72ad3371ec5f1ae109d03d"
+size = "150040"
+usize = "291894"
+sha1sum = "a496df49b215989822bd631aa0c93ffa45dc3205"
 depends = "['glibc>=2.34']"
 reverse_depends = "['neovim']"
 +++
@@ -46,7 +46,7 @@ An efficient object serialization library
 * /usr/lib/libmsgpack-c.so.2
 * /usr/lib/libmsgpack-c.so.2.0.0
 * /usr/lib/pkgconfig/msgpack-c.pc
-* /usr/share/doc/msgpack-c-6.0.0/ChangeLog
-* /usr/share/doc/msgpack-c-6.0.0/COPYING
-* /usr/share/doc/msgpack-c-6.0.0/README
-* /usr/share/doc/msgpack-c-6.0.0/README.md
+* /usr/share/doc/msgpack-c-6.0.1/ChangeLog
+* /usr/share/doc/msgpack-c-6.0.1/COPYING
+* /usr/share/doc/msgpack-c-6.0.1/README
+* /usr/share/doc/msgpack-c-6.0.1/README.md
