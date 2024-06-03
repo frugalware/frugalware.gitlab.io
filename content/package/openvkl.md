@@ -1,43 +1,43 @@
 +++
 draft = false
-title = "openvkl 1.2.0-1"
-version = "1.2.0-1"
+title = "openvkl 2.0.1-1"
+version = "2.0.1-1"
 description = "Open Volume Kernel Library"
-date = "2022-04-26T13:17:20"
+date = "2024-06-03T16:17:12"
 aliases = "/packages/220250"
 categories = ['xlib-extra']
 upstreamurl = "https://www.openvkl.org/"
 arch = "x86_64"
-size = "6165716"
-usize = "32052320"
-sha1sum = "d1b9d386f34abaa64bb2498e480870346252a2a8"
-depends = "['embree', 'ispc', 'rkcommon>=1.6.0']"
+size = "6457972"
+usize = "33293800"
+sha1sum = "d74a3a77a37a28946e6c1682914651a388cc1a5a"
+depends = "['embree>=3.4.1', 'ispc', 'rkcommon>=1.13.0']"
 reverse_depends = "['ospray']"
 +++
 ### Description: 
 Open Volume Kernel Library
 
 ### Files: 
-* /usr/bin/vklExamples
+* /usr/bin/vklExamplesCPU
 * /usr/bin/vklMinimal_01
 * /usr/bin/vklMinimal_02
 * /usr/bin/vklMinimal_03
 * /usr/bin/vklMinimal_04
 * /usr/bin/vklMinimal_05
 * /usr/bin/vklMinimal_06
-* /usr/bin/vklTests
-* /usr/bin/vklTutorial
+* /usr/bin/vklTestsCPU
+* /usr/bin/vklTutorialCPU
 * /usr/bin/vklTutorialISPC
 * /usr/include/openvkl/common.h
 * /usr/include/openvkl/common.isph
 * /usr/include/openvkl/data.h
 * /usr/include/openvkl/device.h
-* /usr/include/openvkl/device.isph
+* /usr/include/openvkl/devices/cpu/openvkl/device/max_iterator_size.h
+* /usr/include/openvkl/devices/cpu/openvkl/device/openvkl.h
+* /usr/include/openvkl/devices/cpu/openvkl/device/openvkl.isph
 * /usr/include/openvkl/ispc_cpp_interop.h
 * /usr/include/openvkl/iterator.h
 * /usr/include/openvkl/iterator.isph
-* /usr/include/openvkl/max_iterator_size.h
-* /usr/include/openvkl/module.h
 * /usr/include/openvkl/observer.h
 * /usr/include/openvkl/openvkl.h
 * /usr/include/openvkl/openvkl.isph
@@ -65,34 +65,26 @@ Open Volume Kernel Library
 * /usr/include/openvkl/VKLTemporalFormat.h
 * /usr/include/openvkl/volume.h
 * /usr/include/openvkl/volume.isph
-* /usr/lib/cmake/openvkl-1.2.0/openvklConfig.cmake
-* /usr/lib/cmake/openvkl-1.2.0/openvklConfigVersion.cmake
-* /usr/lib/cmake/openvkl-1.2.0/openvkl_Exports-release.cmake
-* /usr/lib/cmake/openvkl-1.2.0/openvkl_Exports.cmake
+* /usr/lib/cmake/openvkl-2.0.1/openvklConfig.cmake
+* /usr/lib/cmake/openvkl-2.0.1/openvklConfigVersion.cmake
+* /usr/lib/cmake/openvkl-2.0.1/openvkl_Exports-release.cmake
+* /usr/lib/cmake/openvkl-2.0.1/openvkl_Exports.cmake
 * /usr/lib/libopenvkl.so
-* /usr/lib/libopenvkl.so.1
-* /usr/lib/libopenvkl.so.1.2.0
+* /usr/lib/libopenvkl.so.2
+* /usr/lib/libopenvkl.so.2.0.1
 * /usr/lib/libopenvkl_module_cpu_device.so
-* /usr/lib/libopenvkl_module_cpu_device.so.1
-* /usr/lib/libopenvkl_module_cpu_device.so.1.2.0
+* /usr/lib/libopenvkl_module_cpu_device.so.2
+* /usr/lib/libopenvkl_module_cpu_device.so.2.0.1
 * /usr/lib/libopenvkl_module_cpu_device_16.so
-* /usr/lib/libopenvkl_module_cpu_device_16.so.1
-* /usr/lib/libopenvkl_module_cpu_device_16.so.1.2.0
+* /usr/lib/libopenvkl_module_cpu_device_16.so.2
+* /usr/lib/libopenvkl_module_cpu_device_16.so.2.0.1
 * /usr/lib/libopenvkl_module_cpu_device_4.so
-* /usr/lib/libopenvkl_module_cpu_device_4.so.1
-* /usr/lib/libopenvkl_module_cpu_device_4.so.1.2.0
+* /usr/lib/libopenvkl_module_cpu_device_4.so.2
+* /usr/lib/libopenvkl_module_cpu_device_4.so.2.0.1
 * /usr/lib/libopenvkl_module_cpu_device_8.so
-* /usr/lib/libopenvkl_module_cpu_device_8.so.1
-* /usr/lib/libopenvkl_module_cpu_device_8.so.1.2.0
-* /usr/share/doc/openvkl-1.2.0/AUTHORS
-* /usr/share/doc/openvkl-1.2.0/COPYING
-* /usr/share/doc/openvkl-1.2.0/INSTALL
-* /usr/share/doc/openvkl-1.2.0/INSTALL.md
-* /usr/share/doc/openvkl-1.2.0/LICENSE
-* /usr/share/doc/openvkl-1.2.0/NEWS
-* /usr/share/doc/openvkl-1.2.0/README
-* /usr/share/doc/openvkl-1.2.0/README.md
-* /usr/share/doc/openvkl-1.2.0/TODO
+* /usr/lib/libopenvkl_module_cpu_device_8.so.2
+* /usr/lib/libopenvkl_module_cpu_device_8.so.2.0.1
+* /usr/share/doc/openvkl-2.0.1/README.md
 * /usr/share/doc/openvkl/CHANGELOG.md
 * /usr/share/doc/openvkl/LICENSE.txt
 * /usr/share/doc/openvkl/README.md
