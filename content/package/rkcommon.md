@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rkcommon 1.9.0-1"
-version = "1.9.0-1"
+title = "rkcommon 1.13.0-1"
+version = "1.13.0-1"
 description = "Common C++ infrastructure for oneAPI Rendering Toolkit"
-date = "2022-04-26T12:52:09"
+date = "2024-06-03T13:14:08"
 aliases = "/packages/220249"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/ospray/rkcommon"
 arch = "x86_64"
-size = "509044"
-usize = "2269262"
-sha1sum = "acce577a86f21f8289e42e7b23a3ae03b3aaa216"
+size = "640948"
+usize = "2841587"
+sha1sum = "b9452004ddf1b9cb98c8aebf2d8d758baeb1e69c"
 depends = "['intel-tbb']"
 reverse_depends = "['openvkl']"
 +++
@@ -27,12 +27,14 @@ Common C++ infrastructure for oneAPI Rendering Toolkit
 * /usr/include/rkcommon/containers/FlatMap.h
 * /usr/include/rkcommon/containers/TransactionalBuffer.h
 * /usr/include/rkcommon/math/AffineSpace.h
+* /usr/include/rkcommon/math/AffineSpace.ih
 * /usr/include/rkcommon/math/arm/emulation.h
 * /usr/include/rkcommon/math/arm/sse2neon.h
 * /usr/include/rkcommon/math/box.h
 * /usr/include/rkcommon/math/box.ih
 * /usr/include/rkcommon/math/constants.h
 * /usr/include/rkcommon/math/LinearSpace.h
+* /usr/include/rkcommon/math/LinearSpace.ih
 * /usr/include/rkcommon/math/math.ih
 * /usr/include/rkcommon/math/Quaternion.h
 * /usr/include/rkcommon/math/range.h
@@ -63,6 +65,7 @@ Common C++ infrastructure for oneAPI Rendering Toolkit
 * /usr/include/rkcommon/tasking/parallel_foreach.h
 * /usr/include/rkcommon/tasking/schedule.h
 * /usr/include/rkcommon/tasking/tasking_system_init.h
+* /usr/include/rkcommon/tracing/Tracing.h
 * /usr/include/rkcommon/traits/rktraits.h
 * /usr/include/rkcommon/utility/AbstractArray.h
 * /usr/include/rkcommon/utility/Any.h
@@ -86,18 +89,19 @@ Common C++ infrastructure for oneAPI Rendering Toolkit
 * /usr/include/rkcommon/utility/ParameterizedObject.h
 * /usr/include/rkcommon/utility/PseudoURL.h
 * /usr/include/rkcommon/utility/random.h
+* /usr/include/rkcommon/utility/random.ih
 * /usr/include/rkcommon/utility/SaveImage.h
 * /usr/include/rkcommon/utility/StringManip.h
 * /usr/include/rkcommon/utility/TimeStamp.h
 * /usr/include/rkcommon/utility/TransactionalValue.h
 * /usr/include/rkcommon/xml/XML.h
-* /usr/lib/cmake/rkcommon-1.9.0/FindTBB.cmake
-* /usr/lib/cmake/rkcommon-1.9.0/rkcommonConfig.cmake
-* /usr/lib/cmake/rkcommon-1.9.0/rkcommonConfigVersion.cmake
-* /usr/lib/cmake/rkcommon-1.9.0/rkcommon_Exports-release.cmake
-* /usr/lib/cmake/rkcommon-1.9.0/rkcommon_Exports.cmake
-* /usr/lib/cmake/rkcommon-1.9.0/rkcommon_macros.cmake
+* /usr/lib/cmake/rkcommon-1.13.0/FindTBB.cmake
+* /usr/lib/cmake/rkcommon-1.13.0/rkcommonConfig.cmake
+* /usr/lib/cmake/rkcommon-1.13.0/rkcommonConfigVersion.cmake
+* /usr/lib/cmake/rkcommon-1.13.0/rkcommon_Exports-release.cmake
+* /usr/lib/cmake/rkcommon-1.13.0/rkcommon_Exports.cmake
+* /usr/lib/cmake/rkcommon-1.13.0/rkcommon_macros.cmake
 * /usr/lib/librkcommon.so
 * /usr/lib/librkcommon.so.1
-* /usr/lib/librkcommon.so.1.9.0
-* /usr/share/doc/rkcommon-1.9.0/README.md
+* /usr/lib/librkcommon.so.1.13.0
+* /usr/share/doc/rkcommon-1.13.0/README.md

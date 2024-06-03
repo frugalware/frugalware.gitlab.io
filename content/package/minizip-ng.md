@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "minizip-ng 4.0.4-1"
-version = "4.0.4-1"
+title = "minizip-ng 4.0.6-1"
+version = "4.0.6-1"
 description = "Fork of the popular zip manipulation library found in the zlib distribution"
-date = "2024-02-15T21:21:07"
+date = "2024-06-03T12:48:25"
 aliases = "/packages/221240"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/zlib-ng/minizip-ng"
 arch = "x86_64"
-size = "65204"
-usize = "249004"
-sha1sum = "bb878d0a27fd1b63466523786e6e37d10c15b478"
+size = "65704"
+usize = "249049"
+sha1sum = "f06a5ae86ae0cca738149989f78cee04e19be8cf"
 depends = "['bzip2', 'openssl', 'xz', 'zlib', 'zstd']"
 reverse_depends = "['opencolorio']"
 +++
@@ -44,8 +44,7 @@ Fork of the popular zip manipulation library found in the zlib distribution
 * /usr/lib/cmake/minizip-ng/minizip-ng.cmake
 * /usr/lib/libminizip-ng.so
 * /usr/lib/libminizip-ng.so.1
-* /usr/lib/libminizip-ng.so.4.0.4
+* /usr/lib/libminizip-ng.so.4.0.6
 * /usr/lib/pkgconfig/minizip-ng.pc
-* /usr/share/doc/minizip-ng-4.0.4/INSTALL.md
-* /usr/share/doc/minizip-ng-4.0.4/LICENSE
-* /usr/share/doc/minizip-ng-4.0.4/README.md
+* /usr/share/doc/minizip-ng-4.0.6/LICENSE
+* /usr/share/doc/minizip-ng-4.0.6/README.md

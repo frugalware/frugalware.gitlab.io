@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyudev 0.24.1-1"
-version = "0.24.1-1"
+title = "pyudev 0.24.3-1"
+version = "0.24.3-1"
 description = "Python binding to libudev."
-date = "2023-12-10T16:34:33"
+date = "2024-06-03T12:42:33"
 aliases = "/packages/220388"
 categories = ['lib-extra']
 upstreamurl = "http://packages.python.org/pyudev/"
 arch = "x86_64"
-size = "70388"
-usize = "367289"
-sha1sum = "0fe89459fb1ca1e1fb1fc2664c7c98fc217fb689"
+size = "70188"
+usize = "366269"
+sha1sum = "e331fe41403dbaa5be13f0b9d541ac90212ba593"
 depends = "['python3>=3.10', 'systemd>=188']"
 reverse_depends = "['openrazer']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['openrazer']"
 Python binding to libudev.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pyudev-0.24.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pyudev-0.24.3-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pyudev-0.24.3-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pyudev-0.24.3-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pyudev-0.24.3-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/pyudev/core.py
 * /usr/lib/python3.12/site-packages/pyudev/device/_device.py
 * /usr/lib/python3.12/site-packages/pyudev/device/__init__.py
@@ -70,5 +70,5 @@ Python binding to libudev.
 * /usr/lib/python3.12/site-packages/pyudev/__pycache__/_qt_base.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyudev/__pycache__/_util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyudev/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/pyudev-0.24.1/COPYING
-* /usr/share/doc/pyudev-0.24.1/README.rst
+* /usr/share/doc/pyudev-0.24.3/COPYING
+* /usr/share/doc/pyudev-0.24.3/README.rst

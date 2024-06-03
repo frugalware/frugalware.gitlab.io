@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "faudio 24.02-1"
-version = "24.02-1"
+title = "faudio 24.06-1"
+version = "24.06-1"
 description = "XAudio2 reimplementation"
-date = "2024-02-05T14:47:18"
+date = "2024-06-03T12:57:03"
 aliases = "/packages/220096"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/FNA-XNA/FAudio/"
 arch = "x86_64"
-size = "109664"
-usize = "347166"
-sha1sum = "a3dffb65a7bb7ce93231658cfab9aea4cc4b7b4f"
+size = "110640"
+usize = "351639"
+sha1sum = "0ced25edc9f8493178312bc51389a654841d5835"
 depends = "['ffmpeg', 'sdl2']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
@@ -31,7 +31,7 @@ XAudio2 reimplementation
 * /usr/lib/cmake/FAudio/FAudioConfig.cmake
 * /usr/lib/libFAudio.so
 * /usr/lib/libFAudio.so.0
-* /usr/lib/libFAudio.so.0.24.02
+* /usr/lib/libFAudio.so.0.24.06
 * /usr/lib/pkgconfig/FAudio.pc
-* /usr/share/doc/faudio-24.02/LICENSE
-* /usr/share/doc/faudio-24.02/README
+* /usr/share/doc/faudio-24.06/LICENSE
+* /usr/share/doc/faudio-24.06/README

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "benchmark 1.8.3-1"
-version = "1.8.3-1"
+title = "benchmark 1.8.4-1"
+version = "1.8.4-1"
 description = "A microbenchmark support library"
-date = "2023-09-08T08:14:30"
+date = "2024-06-03T12:44:00"
 aliases = "/packages/220441"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/benchmark"
 arch = "x86_64"
-size = "199232"
-usize = "619229"
-sha1sum = "c9fce0bc350a85ff3418299ba109559a112f94ec"
+size = "204788"
+usize = "638505"
+sha1sum = "fbc05e84d75b78ad6bbc483be2174dd2c2833d9c"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ospray']"
 +++
@@ -25,16 +25,17 @@ A microbenchmark support library
 * /usr/lib/cmake/benchmark/benchmarkTargets-release.cmake
 * /usr/lib/cmake/benchmark/benchmarkTargets.cmake
 * /usr/lib/libbenchmark.so
-* /usr/lib/libbenchmark.so.1
-* /usr/lib/libbenchmark.so.1.8.3
+* /usr/lib/libbenchmark.so.0
+* /usr/lib/libbenchmark.so.0.0.0
 * /usr/lib/libbenchmark_main.so
-* /usr/lib/libbenchmark_main.so.1
-* /usr/lib/libbenchmark_main.so.1.8.3
+* /usr/lib/libbenchmark_main.so.0
+* /usr/lib/libbenchmark_main.so.0.0.0
 * /usr/lib/pkgconfig/benchmark.pc
-* /usr/share/doc/benchmark-1.8.3/AUTHORS
-* /usr/share/doc/benchmark-1.8.3/CONTRIBUTORS
-* /usr/share/doc/benchmark-1.8.3/LICENSE
-* /usr/share/doc/benchmark-1.8.3/README.md
+* /usr/lib/pkgconfig/benchmark_main.pc
+* /usr/share/doc/benchmark-1.8.4/AUTHORS
+* /usr/share/doc/benchmark-1.8.4/CONTRIBUTORS
+* /usr/share/doc/benchmark-1.8.4/LICENSE
+* /usr/share/doc/benchmark-1.8.4/README.md
 * /usr/share/doc/benchmark/AssemblyTests.md
 * /usr/share/doc/benchmark/assets/images/icon.png
 * /usr/share/doc/benchmark/assets/images/icon.xcf

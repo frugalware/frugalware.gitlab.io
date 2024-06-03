@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libbsd 0.12.1-1"
-version = "0.12.1-1"
+title = "libbsd 0.12.2-1"
+version = "0.12.2-1"
 description = "This library provides useful functions commonly found on BSD systems"
-date = "2024-02-28T13:50:07"
+date = "2024-06-03T12:58:58"
 aliases = "/packages/219020"
 categories = ['lib-extra']
 upstreamurl = "http://libbsd.freedesktop.org/wiki/"
 arch = "x86_64"
-size = "228600"
-usize = "670627"
-sha1sum = "8bb808168460e9def04c644cf1228393ab29d809"
+size = "228740"
+usize = "674257"
+sha1sum = "6e4111acf03a060f7af3fa14aee40612f6458b31"
 depends = "['libmd']"
 reverse_depends = "['criu', 'hfsprogs', 'openvas-manager', 'openvas-scanner']"
 +++
@@ -48,14 +48,14 @@ This library provides useful functions commonly found on BSD systems
 * /usr/include/bsd/wchar.h
 * /usr/lib/libbsd.so
 * /usr/lib/libbsd.so.0
-* /usr/lib/libbsd.so.0.12.1
+* /usr/lib/libbsd.so.0.12.2
 * /usr/lib/pkgconfig/libbsd-ctor.pc
 * /usr/lib/pkgconfig/libbsd-overlay.pc
 * /usr/lib/pkgconfig/libbsd.pc
-* /usr/share/doc/libbsd-0.12.1/ChangeLog
-* /usr/share/doc/libbsd-0.12.1/COPYING
-* /usr/share/doc/libbsd-0.12.1/README
-* /usr/share/doc/libbsd-0.12.1/TODO
+* /usr/share/doc/libbsd-0.12.2/ChangeLog
+* /usr/share/doc/libbsd-0.12.2/COPYING
+* /usr/share/doc/libbsd-0.12.2/README
+* /usr/share/doc/libbsd-0.12.2/TODO
 * /usr/share/man/man3/arc4random.3bsd.gz
 * /usr/share/man/man3/arc4random_addrandom.3bsd.gz
 * /usr/share/man/man3/arc4random_buf.3bsd.gz
@@ -276,20 +276,19 @@ This library provides useful functions commonly found on BSD systems
 * /usr/share/man/man3/timercmp.3bsd.gz
 * /usr/share/man/man3/timerisset.3bsd.gz
 * /usr/share/man/man3/timersub.3bsd.gz
-* /usr/share/man/man3/timespec.3bsd.gz
 * /usr/share/man/man3/timespecadd.3bsd.gz
 * /usr/share/man/man3/timespecclear.3bsd.gz
 * /usr/share/man/man3/timespeccmp.3bsd.gz
 * /usr/share/man/man3/timespecisset.3bsd.gz
 * /usr/share/man/man3/timespecsub.3bsd.gz
-* /usr/share/man/man3/TIMESPEC_TO_TIMEVAL.3bsd.gz
-* /usr/share/man/man3/timeval.3bsd.gz
-* /usr/share/man/man3/TIMEVAL_TO_TIMESPEC.3bsd.gz
 * /usr/share/man/man3/tree.3bsd.gz
 * /usr/share/man/man3/uid_from_user.3bsd.gz
 * /usr/share/man/man3/unvis.3bsd.gz
 * /usr/share/man/man3/user_from_uid.3bsd.gz
+* /usr/share/man/man3/verrc.3bsd.gz
 * /usr/share/man/man3/vis.3bsd.gz
+* /usr/share/man/man3/vwarnc.3bsd.gz
+* /usr/share/man/man3/warnc.3bsd.gz
 * /usr/share/man/man3/wcslcat.3bsd.gz
 * /usr/share/man/man3/wcslcpy.3bsd.gz
 * /usr/share/man/man7/libbsd.7.gz
