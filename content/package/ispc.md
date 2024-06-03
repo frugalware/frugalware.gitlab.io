@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "ispc 1.24.0-1"
-version = "1.24.0-1"
+title = "ispc 1.24.0-2"
+version = "1.24.0-2"
 description = "A compiler for high-performance SIMD programming on the CPU"
-date = "2024-06-03T16:28:24"
+date = "2024-06-03T18:17:42"
 aliases = "/packages/220210"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ispc/ispc"
 arch = "x86_64"
-size = "1488432"
-usize = "21162065"
-sha1sum = "f2b68af8e3014e264410eef67cd7da8f74ff6a49"
+size = "1587668"
+usize = "21681453"
+sha1sum = "9324a7b1ac8b5fc1c15306f3e06acfae9ceba17a"
 depends = "['clang-libs>=17.0.0', 'intel-tbb']"
-reverse_depends = "['openvkl']"
+reverse_depends = "['openvkl', 'ospray']"
 +++
 ### Description: 
 A compiler for high-performance SIMD programming on the CPU
@@ -37,4 +37,5 @@ A compiler for high-performance SIMD programming on the CPU
 * /usr/lib/libispcrt_device_cpu.so
 * /usr/lib/libispcrt_device_cpu.so.1
 * /usr/lib/libispcrt_device_cpu.so.1.24.0
+* /usr/lib/libispcrt_static.a
 * /usr/share/doc/ispc-1.24.0/README.md
