@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "re2 2024.05.01-2"
-version = "2024.05.01-2"
+title = "re2 2024.06.01-1"
+version = "2024.06.01-1"
 description = "Fast, safe, thread-friendly regular expression engine."
-date = "2024-05-15T11:48:09"
+date = "2024-06-03T07:47:56"
 aliases = "/packages/219987"
 categories = ['lib']
 upstreamurl = "https://github.com/google/re2"
 arch = "x86_64"
-size = "164384"
-usize = "462721"
-sha1sum = "fe06c840fe9d4feabde6a16a5e704d6413e2d718"
+size = "148700"
+usize = "413699"
+sha1sum = "3e68074b3092d52c36b0c00c593f540c2e2ec321"
 depends = "['abseil-cpp>=20240116.0', 'icu4c', 'libgcc', 'libstdc++']"
 reverse_depends = "['grpc', 'qt6-webengine', 'r2modman']"
 +++
@@ -30,5 +30,5 @@ Fast, safe, thread-friendly regular expression engine.
 * /usr/lib/libre2.so.11
 * /usr/lib/libre2.so.11.0.0
 * /usr/lib/pkgconfig/re2.pc
-* /usr/share/doc/re2-2024.05.01/LICENSE
-* /usr/share/doc/re2-2024.05.01/README
+* /usr/share/doc/re2-2024.06.01/LICENSE
+* /usr/share/doc/re2-2024.06.01/README
