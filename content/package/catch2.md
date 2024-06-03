@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "catch2 3.5.4-2"
-version = "3.5.4-2"
+title = "catch2 3.6.0-1"
+version = "3.6.0-1"
 description = "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later"
-date = "2024-05-12T13:26:24"
+date = "2024-06-03T09:27:35"
 aliases = "/packages/219639"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/catchorg/catch2"
 arch = "x86_64"
-size = "6142540"
-usize = "10630835"
-sha1sum = "b2de95ebe1502399d8dbc4b4c27c8be96dd0731a"
+size = "6174756"
+usize = "10673484"
+sha1sum = "066e6ae1cd7913a177baf7623c71167d510484a9"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
@@ -209,7 +209,7 @@ A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - 
 * /usr/lib/pkgconfig/catch2.pc
 * /usr/share/Catch2/gdbinit
 * /usr/share/Catch2/lldbinit
-* /usr/share/doc/catch2-3.5.4/README.md
+* /usr/share/doc/catch2-3.6.0/README.md
 * /usr/share/doc/Catch2/assertions.md
 * /usr/share/doc/Catch2/benchmarks.md
 * /usr/share/doc/Catch2/ci-and-misc.md
