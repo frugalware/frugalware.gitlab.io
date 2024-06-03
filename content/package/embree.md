@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "embree 4.3.1-2"
-version = "4.3.1-2"
+title = "embree 4.3.1-3"
+version = "4.3.1-3"
 description = "Collection of high-performance ray tracing kernels"
-date = "2024-06-03T16:48:18"
+date = "2024-06-03T17:37:23"
 aliases = "/packages/220211"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/RenderKit/embree"
 arch = "x86_64"
-size = "11583628"
-usize = "45131004"
-sha1sum = "1a932b6e1f5bf82bb604318716167bbb22504dc3"
+size = "11583764"
+usize = "45131003"
+sha1sum = "f05ffa6bea8fd67010a93fda489fa27c9c744036"
 depends = "['glfw', 'intel-tbb', 'openimageio>=2.3.15.0']"
 reverse_depends = "['blender', 'openvkl']"
 +++
