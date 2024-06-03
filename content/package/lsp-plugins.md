@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.15-2"
-version = "1.2.15-2"
+title = "lsp-plugins 1.2.16-1"
+version = "1.2.16-1"
 description = "Collection of open-source plugins"
-date = "2024-05-13T21:01:21"
+date = "2024-06-03T09:13:05"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "37723988"
-usize = "105276802"
-sha1sum = "44dec67702ca17f3a0833d5b2cce8302f6b78a2b"
+size = "39237512"
+usize = "106475365"
+sha1sum = "ef7c1e94813ba47744a61a352acdef2942a11054"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
@@ -31,6 +31,8 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-autogain-stereo
 * /usr/bin/lsp-plugins-beat-breather-mono
 * /usr/bin/lsp-plugins-beat-breather-stereo
+* /usr/bin/lsp-plugins-chorus-mono
+* /usr/bin/lsp-plugins-chorus-stereo
 * /usr/bin/lsp-plugins-clipper-mono
 * /usr/bin/lsp-plugins-clipper-stereo
 * /usr/bin/lsp-plugins-comp-delay-mono
@@ -200,10 +202,10 @@ Collection of open-source plugins
 * /usr/include/lsp-plug.in/r3d/glx/version.h
 * /usr/lib/clap/lsp-plugins-clap.clap
 * /usr/lib/ladspa/lsp-plugins-ladspa.so
-* /usr/lib/liblsp-r3d-glx-lib-1.0.17.so
+* /usr/lib/liblsp-r3d-glx-lib-1.0.18.so
 * /usr/lib/liblsp-r3d-glx-lib.a
 * /usr/lib/liblsp-r3d-glx-lib.so
-* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.15.so
+* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.16.so
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x4_mono.ttl
@@ -216,6 +218,8 @@ Collection of open-source plugins
 * /usr/lib/lv2/lsp-plugins.lv2/autogain_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/beat_breather_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/beat_breather_stereo.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/chorus_mono.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/chorus_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/clipper_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/clipper_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/compressor_lr.ttl
@@ -396,6 +400,8 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins/autogain-stereo.so
 * /usr/lib/vst/lsp-plugins/beat-breather-mono.so
 * /usr/lib/vst/lsp-plugins/beat-breather-stereo.so
+* /usr/lib/vst/lsp-plugins/chorus-mono.so
+* /usr/lib/vst/lsp-plugins/chorus-stereo.so
 * /usr/lib/vst/lsp-plugins/clipper-mono.so
 * /usr/lib/vst/lsp-plugins/clipper-stereo.so
 * /usr/lib/vst/lsp-plugins/comp-delay-mono.so
@@ -446,7 +452,7 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins/limiter-stereo.so
 * /usr/lib/vst/lsp-plugins/loud-comp-mono.so
 * /usr/lib/vst/lsp-plugins/loud-comp-stereo.so
-* /usr/lib/vst/lsp-plugins/lsp-plugins-vst2-1.2.15.so
+* /usr/lib/vst/lsp-plugins/lsp-plugins-vst2-1.2.16.so
 * /usr/lib/vst/lsp-plugins/mb-clipper-mono.so
 * /usr/lib/vst/lsp-plugins/mb-clipper-stereo.so
 * /usr/lib/vst/lsp-plugins/mb-compressor-lr.so
@@ -573,6 +579,8 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_autogain_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_beat_breather_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_beat_breather_stereo.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_chorus_mono.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_chorus_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_clipper_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_clipper_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_compressor_lr.desktop
@@ -734,10 +742,10 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
 * /usr/share/desktop-directories/lsp-plugins.directory
-* /usr/share/doc/lsp-plugins-1.2.15/CHANGELOG
-* /usr/share/doc/lsp-plugins-1.2.15/COPYING
-* /usr/share/doc/lsp-plugins-1.2.15/COPYING.LESSER
-* /usr/share/doc/lsp-plugins-1.2.15/README.md
+* /usr/share/doc/lsp-plugins-1.2.16/CHANGELOG
+* /usr/share/doc/lsp-plugins-1.2.16/COPYING
+* /usr/share/doc/lsp-plugins-1.2.16/COPYING.LESSER
+* /usr/share/doc/lsp-plugins-1.2.16/README.md
 * /usr/share/doc/lsp-plugins/css/style.css
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff2
@@ -763,6 +771,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/html/plugins/autogain_stereo.html
 * /usr/share/doc/lsp-plugins/html/plugins/beat_breather_mono.html
 * /usr/share/doc/lsp-plugins/html/plugins/beat_breather_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/chorus_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/chorus_stereo.html
 * /usr/share/doc/lsp-plugins/html/plugins/clipper_mono.html
 * /usr/share/doc/lsp-plugins/html/plugins/clipper_stereo.html
 * /usr/share/doc/lsp-plugins/html/plugins/compressor_lr.html
@@ -1034,6 +1044,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/plugins/autogain_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/beat_breather_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/beat_breather_stereo.png
+* /usr/share/doc/lsp-plugins/img/plugins/chorus_mono.png
+* /usr/share/doc/lsp-plugins/img/plugins/chorus_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/clipper_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/clipper_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/compressor_lr.png

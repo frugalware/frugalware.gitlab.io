@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hicolor-icon-theme 0.17-6"
-version = "0.17-6"
+title = "hicolor-icon-theme 0.18-1"
+version = "0.18-1"
 description = "Freedesktop.org Hicolor icon theme"
-date = "2022-01-24T12:17:20"
+date = "2024-06-03T08:39:59"
 aliases = "/packages/3091"
 categories = ['xlib']
 upstreamurl = "http://icon-theme.freedesktop.org"
 arch = "x86_64"
-size = "16192"
-usize = "84470"
-sha1sum = "1e5cf7b4d0cb173721e22ba7f7e5e0492020b580"
+size = "18764"
+usize = "77471"
+sha1sum = "0ab6eeab184b40a06c695131fc7dfc6eaa18136f"
 depends = "[]"
 reverse_depends = "['adwaita-icon-theme', 'clight', 'get_steam', 'keepassxc', 'kitty', 'love', 'nitroshare', 'obsidian', 'polychromatic', 'qownnotes', 'qt-virt-manager', 'signal-desktop', 'stellarsolver', 'telegram-desktop', 'tootle', 'whalebird']"
 +++
@@ -18,8 +18,8 @@ reverse_depends = "['adwaita-icon-theme', 'clight', 'get_steam', 'keepassxc', 'k
 Freedesktop.org Hicolor icon theme
 
 ### Files: 
-* /usr/share/doc/hicolor-icon-theme-0.17/ChangeLog
-* /usr/share/doc/hicolor-icon-theme-0.17/COPYING
-* /usr/share/doc/hicolor-icon-theme-0.17/NEWS
-* /usr/share/doc/hicolor-icon-theme-0.17/README
+* /usr/share/doc/hicolor-icon-theme-0.18/COPYING
+* /usr/share/doc/hicolor-icon-theme-0.18/NEWS
+* /usr/share/doc/hicolor-icon-theme-0.18/README.md
 * /usr/share/icons/hicolor/index.theme
+* /usr/share/pkgconfig/default-icon-theme.pc
