@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "powerstat 0.04.02-1"
-version = "0.04.02-1"
+title = "powerstat 0.04.03-1"
+version = "0.04.03-1"
 description = "Measures the power consumption of a laptop using the ACPI battery information."
-date = "2024-02-23T21:14:54"
+date = "2024-06-04T14:12:19"
 aliases = "/packages/200729"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ColinIanKing/powerstat"
 arch = "x86_64"
-size = "32724"
-usize = "80654"
-sha1sum = "f0ec31a51e75053ad18dacd860dd17d00cdbf87a"
+size = "32028"
+usize = "79177"
+sha1sum = "07178d96c882fa80c2187dff2517d5de6a1a9c63"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -19,9 +19,6 @@ Measures the power consumption of a laptop using the ACPI battery information.
 ### Files: 
 * /usr/bin/powerstat
 * /usr/share/bash-completion/completions/powerstat
-* /usr/share/doc/powerstat-0.04.02/AUTHORS
-* /usr/share/doc/powerstat-0.04.02/COPYING
-* /usr/share/doc/powerstat-0.04.02/LICENSE
-* /usr/share/doc/powerstat-0.04.02/README.md
-* /usr/share/doc/powerstat-0.04.02/README.txt
+* /usr/share/doc/powerstat-0.04.03/COPYING
+* /usr/share/doc/powerstat-0.04.03/README.md
 * /usr/share/man/man8/powerstat.8.gz
