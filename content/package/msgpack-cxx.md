@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "msgpack-cxx 6.1.0-1"
-version = "6.1.0-1"
+title = "msgpack-cxx 6.1.1-1"
+version = "6.1.1-1"
 description = "An efficient object serialization library (C++)"
-date = "2023-09-11T13:42:02"
+date = "2024-06-04T12:35:42"
 aliases = "/packages/220450"
 categories = ['lib-extra']
 upstreamurl = "http://msgpack.org/"
 arch = "x86_64"
-size = "204440"
-usize = "5366340"
-sha1sum = "516a75dfd14ff4d44ed2029b4202676efa8ae146"
+size = "205660"
+usize = "5367011"
+sha1sum = "69ba58cc591b5ff5a549cd258b09361b5a35c0bd"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -752,7 +752,7 @@ An efficient object serialization library (C++)
 * /usr/lib/cmake/msgpack-cxx/msgpack-cxx-config-version.cmake
 * /usr/lib/cmake/msgpack-cxx/msgpack-cxx-config.cmake
 * /usr/lib/cmake/msgpack-cxx/msgpack-cxx-targets.cmake
-* /usr/share/doc/msgpack-cxx-6.1.0/ChangeLog
-* /usr/share/doc/msgpack-cxx-6.1.0/COPYING
-* /usr/share/doc/msgpack-cxx-6.1.0/README
-* /usr/share/doc/msgpack-cxx-6.1.0/README.md
+* /usr/share/doc/msgpack-cxx-6.1.1/ChangeLog
+* /usr/share/doc/msgpack-cxx-6.1.1/COPYING
+* /usr/share/doc/msgpack-cxx-6.1.1/README
+* /usr/share/doc/msgpack-cxx-6.1.1/README.md

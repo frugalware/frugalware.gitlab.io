@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cgal 5.6-1"
-version = "5.6-1"
+title = "cgal 5.6.1-1"
+version = "5.6.1-1"
 description = "An efficient C++ software library of geometric data structures and algorithms"
-date = "2023-08-27T19:32:33"
+date = "2024-06-04T12:18:38"
 aliases = "/packages/60204"
 categories = ['lib-extra']
 upstreamurl = "http://www.cgal.org/"
 arch = "x86_64"
-size = "5233092"
-usize = "40956890"
-sha1sum = "984b1c2a63f1c1bfca7955b2c32a9da16724340b"
+size = "5235880"
+usize = "40977201"
+sha1sum = "5e2b46b068024cf449ba1c42c780cc5e350db609"
 depends = "['libboost>=1.78.0', 'mpfr>=4.0.0-3']"
 +++
 ### Description: 
@@ -431,7 +431,6 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/boost/graph/breadth_first_search.h
 * /usr/include/CGAL/boost/graph/convert_nef_polyhedron_to_polygon_mesh.h
 * /usr/include/CGAL/boost/graph/copy_face_graph.h
-* /usr/include/CGAL/boost/graph/dijkstra_shortest_paths.h
 * /usr/include/CGAL/boost/graph/Dual.h
 * /usr/include/CGAL/boost/graph/Euler_operations.h
 * /usr/include/CGAL/boost/graph/Face_filtered_graph.h
@@ -3722,11 +3721,11 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/UseLASLIB.cmake
 * /usr/lib/cmake/CGAL/UseOpenMesh.cmake
 * /usr/lib/cmake/CGAL/UseTBB.cmake
-* /usr/share/doc/cgal-5.6/AUTHORS
-* /usr/share/doc/cgal-5.6/INSTALL.md
-* /usr/share/doc/cgal-5.6/LICENSE
-* /usr/share/doc/cgal-5.6/README
-* /usr/share/doc/cgal-5.6/VERSION
+* /usr/share/doc/cgal-5.6.1/AUTHORS
+* /usr/share/doc/cgal-5.6.1/INSTALL.md
+* /usr/share/doc/cgal-5.6.1/LICENSE
+* /usr/share/doc/cgal-5.6.1/README
+* /usr/share/doc/cgal-5.6.1/VERSION
 * /usr/share/doc/CGAL/AUTHORS
 * /usr/share/doc/CGAL/CHANGES.md
 * /usr/share/doc/CGAL/LICENSE

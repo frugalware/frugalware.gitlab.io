@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libquotient 0.8.1.2-6"
-version = "0.8.1.2-6"
+title = "libquotient 0.8.2-1"
+version = "0.8.2-1"
 description = "A Qt library to write cross-platform clients for Matrix"
-date = "2024-05-27T09:49:22"
+date = "2024-06-04T12:24:26"
 aliases = "/packages/220989"
 categories = ['lib-extra']
 upstreamurl = "https://matrix.org/docs/projects/sdk/quotient"
 arch = "x86_64"
-size = "747892"
-usize = "3095191"
-sha1sum = "0aef88564fd0f1ce67d55a3c254eea6ce993f626"
+size = "783636"
+usize = "3223021"
+sha1sum = "6ee521737224a955f62a633ad751eab9bf58999a"
 depends = "['olm', 'qt6-multimedia', 'qtkeychain']"
 reverse_depends = "['neochat']"
 +++
@@ -112,6 +112,7 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/include/Quotient/csapi/wellknown.h
 * /usr/include/Quotient/csapi/whoami.h
 * /usr/include/Quotient/database.h
+* /usr/include/Quotient/e2ee/cryptoutils.h
 * /usr/include/Quotient/e2ee/e2ee_common.h
 * /usr/include/Quotient/e2ee/qolmaccount.h
 * /usr/include/Quotient/e2ee/qolminboundsession.h
@@ -119,6 +120,7 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/include/Quotient/e2ee/qolmoutboundsession.h
 * /usr/include/Quotient/e2ee/qolmsession.h
 * /usr/include/Quotient/e2ee/qolmutility.h
+* /usr/include/Quotient/e2ee/sssshandler.h
 * /usr/include/Quotient/eventitem.h
 * /usr/include/Quotient/events/accountdataevents.h
 * /usr/include/Quotient/events/callevents.h
@@ -168,6 +170,7 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/include/Quotient/quotient_common.h
 * /usr/include/Quotient/quotient_export.h
 * /usr/include/Quotient/room.h
+* /usr/include/Quotient/roommember.h
 * /usr/include/Quotient/roomstateview.h
 * /usr/include/Quotient/settings.h
 * /usr/include/Quotient/ssosession.h
@@ -182,8 +185,8 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/lib/cmake/QuotientQt6/QuotientQt6Targets.cmake
 * /usr/lib/libQuotientQt6.so
 * /usr/lib/libQuotientQt6.so.0.8
-* /usr/lib/libQuotientQt6.so.0.8.1.2
+* /usr/lib/libQuotientQt6.so.0.8.2
 * /usr/lib/pkgconfig/QuotientQt6.pc
-* /usr/share/doc/libquotient-0.8.1.2/COPYING
-* /usr/share/doc/libquotient-0.8.1.2/README.md
+* /usr/share/doc/libquotient-0.8.2/COPYING
+* /usr/share/doc/libquotient-0.8.2/README.md
 * /usr/share/ndk-modules/Android.mk
