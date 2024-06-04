@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "transmission-gtk 4.0.5-3"
-version = "4.0.5-3"
+title = "transmission-gtk 4.0.6-1"
+version = "4.0.6-1"
 description = "Gtk based gui for transmission."
-date = "2024-05-26T21:53:40"
+date = "2024-06-04T19:48:55"
 aliases = "/packages/153765"
 categories = ['xapps-extra']
 upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
-size = "1292128"
-usize = "5095944"
-sha1sum = "1bd5f1deeb16d76fcf3086aa200a32123b9780ba"
-depends = "['gtkmm', 'transmission-cli>=4.0.5']"
+size = "1313144"
+usize = "5157384"
+sha1sum = "0eeb82ef80a7d5362a2fa4d758498ec740021e86"
+depends = "['gtkmm', 'transmission-cli>=4.0.6']"
 +++
 ### Description: 
 Gtk based gui for transmission.

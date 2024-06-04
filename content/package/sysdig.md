@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysdig 0.36.1-5"
-version = "0.36.1-5"
+title = "sysdig 0.37.1-1"
+version = "0.37.1-1"
 description = "Open source system-level exploration and troubleshooting tool"
-date = "2024-06-01T09:32:20"
+date = "2024-06-04T20:02:03"
 aliases = "/packages/219877"
 categories = ['apps-extra']
 upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
-size = "294384"
+size = "294404"
 usize = "1162018"
-sha1sum = "f6bc1a79bc4ddc9396a1cb5a0514c5787a65def6"
+sha1sum = "b1e36a0bb23a0dc57a83f67f264ae6683fdd5687"
 depends = "['curl', 'grpc>=1.62', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.9.3-1', 'libb64', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
 ### Description: 
@@ -226,6 +226,6 @@ Open source system-level exploration and troubleshooting tool
 * /usr/lib/modules/6.9.3-fw1/kernel/extra/scap.ko.zst
 * /usr/lib/pkgconfig/libscap.pc
 * /usr/lib/pkgconfig/libsinsp.pc
-* /usr/share/doc/sysdig-0.36.1/COPYING
-* /usr/share/doc/sysdig-0.36.1/LICENSE
-* /usr/share/doc/sysdig-0.36.1/README.md
+* /usr/share/doc/sysdig-0.37.1/COPYING
+* /usr/share/doc/sysdig-0.37.1/LICENSE
+* /usr/share/doc/sysdig-0.37.1/README.md

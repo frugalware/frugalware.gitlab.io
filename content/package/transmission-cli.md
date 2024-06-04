@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "transmission-cli 4.0.5-3"
-version = "4.0.5-3"
+title = "transmission-cli 4.0.6-1"
+version = "4.0.6-1"
 description = "A free, lightweight BitTorrent Client. (CLI based)"
-date = "2024-05-26T21:53:40"
+date = "2024-06-04T19:48:55"
 aliases = "/packages/153764"
 categories = ['apps-extra']
 upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
-size = "1312760"
-usize = "6376424"
-sha1sum = "bcdaf7ad29f4aade3876c8cbc7df4773ea43afcf"
+size = "1358476"
+usize = "6690399"
+sha1sum = "6cd789d57e3297f82e9ba7ecacb116e6df871f3d"
 depends = "['curl>=7.26.0', 'libb64', 'libdeflate', 'libevent>=2.1.11', 'miniupnpc>=2.1', 'openssl>=3.1.0']"
 reverse_depends = "['transmission-gtk', 'transmission-qt']"
 +++
@@ -24,9 +24,9 @@ A free, lightweight BitTorrent Client. (CLI based)
 * /usr/bin/transmission-edit
 * /usr/bin/transmission-remote
 * /usr/bin/transmission-show
-* /usr/share/doc/transmission-cli-4.0.5/AUTHORS
-* /usr/share/doc/transmission-cli-4.0.5/COPYING
-* /usr/share/doc/transmission-cli-4.0.5/README.md
+* /usr/share/doc/transmission-cli-4.0.6/AUTHORS
+* /usr/share/doc/transmission-cli-4.0.6/COPYING
+* /usr/share/doc/transmission-cli-4.0.6/README.md
 * /usr/share/doc/transmission/AUTHORS
 * /usr/share/doc/transmission/COPYING
 * /usr/share/doc/transmission/news/news-2.42-and-older.md
@@ -63,6 +63,7 @@ A free, lightweight BitTorrent Client. (CLI based)
 * /usr/share/doc/transmission/news/news-4.0.3.md
 * /usr/share/doc/transmission/news/news-4.0.4.md
 * /usr/share/doc/transmission/news/news-4.0.5.md
+* /usr/share/doc/transmission/news/news-4.0.6.md
 * /usr/share/doc/transmission/README.md
 * /usr/share/doc/transmission/rpc-spec.md
 * /usr/share/doc/transmission/send-email-when-torrent-done.sh
