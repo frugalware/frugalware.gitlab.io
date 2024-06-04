@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl 3.3.0-3"
-version = "3.3.0-3"
+title = "openssl 3.3.1-1"
+version = "3.3.1-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security"
-date = "2024-05-15T19:08:16"
+date = "2024-06-04T18:42:14"
 aliases = "/packages/2422"
 categories = ['base']
-upstreamurl = "http://www.openssl.org/source/"
+upstreamurl = "https://openssl.org"
 arch = "x86_64"
-size = "5131328"
-usize = "12641852"
-sha1sum = "133c93d2e4d73f4a5ae93ec2c17aba5296f6c1a8"
+size = "5160144"
+usize = "12652141"
+sha1sum = "9cd7d3959e85fe5a61908af9144e849f2e8894e7"
 depends = "['glibc>=2.35']"
 reverse_depends = "['aircrack-ng', 'apache', 'apr-util', 'bind', 'bip', 'bitchx', 'ca-certificates', 'castor', 'cgit', 'chntpw', 'clamav', 'courier-imap', 'cryptsetup-luks', 'curl', 'cyrus-sasl', 'dd-rescue', 'dovecot', 'efl', 'eiskaltdc', 'elinks', 'encfs', 'enlightenment', 'erlang', 'facter', 'falkon', 'fetchmail', 'gammu', 'gdal', 'gfpm', 'gftp', 'git', 'git-crypt', 'gocryptfs', 'grpc', 'gsoap', 'gst1-plugins-bad', 'gutenprint', 'hexchat', 'hfsprogs', 'hostapd', 'icecast', 'imapfilter', 'iputils', 'irssi', 'john', 'kicad', 'kmod', 'krb5', 'kup', 'kvirc', 'ldns', 'libarchive', 'libcups', 'libetpan', 'libevent', 'libfido2', 'libimobiledevice', 'libldap', 'libnvme', 'libp11', 'libpq', 'librdf', 'libshout', 'libssh', 'libssh2', 'libsystemd', 'libtorrent', 'libtorrent-rasterbar', 'libwebsockets', 'libzip', 'lighttpd', 'links', 'lynx', 'mariadb', 'mariadb-libs', 'mcabber', 'minizip-ng', 'mktorrent', 'mold', 'monit', 'mosh', 'mtd-utils', 'mupdf-gl', 'murmur', 'mutt-devel', 'ncat', 'neon', 'net-snmp', 'nginx', 'nmap', 'nodejs', 'nping', 'ntp', 'nushell', 'open-isns', 'openimageio', 'openntpd', 'opensc', 'openslp', 'openssh', 'openvpn', 'openvswitch', 'pacman-g2', 'pacman-tools', 'paho-mqtt-c', 'partclone', 'partimage', 'pdns', 'pdns-recursor', 'perl', 'perl-crypt-openssl-rsa', 'perl-dbd-mysql', 'perl-net-ssleay', 'php', 'php-embed', 'poco', 'podofo', 'popa3d', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'ppp', 'proftpd', 'pulseaudio-avahi', 'pure-ftpd', 'pycurl', 'python3', 'python3-cryptography', 'python3-m2crypto', 'python3-openssl', 'qca-ossl', 'qpdf', 'qt5-base', 'raptor', 'restbed', 'retroshare', 'rsync', 'rtorrent', 'ruby', 's-nail', 'samba', 'sccache', 'serf', 'sim', 'socat', 'sofia-sip', 'spamassassin', 'spice', 'spice-glib', 'sqlcipher', 'srt', 'ssmtp', 'strongswan', 'stunnel', 'sudo', 'sylpheed', 'systemd', 'systemd-pull', 'systemd-remote', 'tcpdump', 'telegram-desktop', 'telegram-qt5', 'telepathy-idle', 'terminology', 'tor', 'tpm2-tss', 'transmission-cli', 'transmission-qt', 'uget', 'unbound', 'uwsgi', 'vde2', 'virtualbox', 'vlc-shout', 'vpnc', 'vsftpd', 'vtun', 'w3m', 'wget', 'wget2', 'wimlib', 'wpa_supplicant', 'x11vnc', 'xmlrpc-c', 'xrdp', 'xrdp', 'znc']"
 +++
@@ -347,12 +347,12 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/lib/pkgconfig/libcrypto.pc
 * /usr/lib/pkgconfig/libssl.pc
 * /usr/lib/pkgconfig/openssl.pc
-* /usr/share/doc/openssl-3.3.0/INSTALL.md
-* /usr/share/doc/openssl-3.3.0/README-ENGINES.md
-* /usr/share/doc/openssl-3.3.0/README-FIPS.md
-* /usr/share/doc/openssl-3.3.0/README-PROVIDERS.md
-* /usr/share/doc/openssl-3.3.0/README-QUIC.md
-* /usr/share/doc/openssl-3.3.0/README.md
+* /usr/share/doc/openssl-3.3.1/INSTALL.md
+* /usr/share/doc/openssl-3.3.1/README-ENGINES.md
+* /usr/share/doc/openssl-3.3.1/README-FIPS.md
+* /usr/share/doc/openssl-3.3.1/README-PROVIDERS.md
+* /usr/share/doc/openssl-3.3.1/README-QUIC.md
+* /usr/share/doc/openssl-3.3.1/README.md
 * /usr/share/man/man1/asn1parse.1openssl.gz
 * /usr/share/man/man1/ca.1openssl.gz
 * /usr/share/man/man1/CA.pl.1openssl.gz
@@ -5411,6 +5411,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/SSL_set_security_level.3openssl.gz
 * /usr/share/man/man3/SSL_set_session.3openssl.gz
 * /usr/share/man/man3/SSL_set_session_id_context.3openssl.gz
+* /usr/share/man/man3/SSL_set_session_secret_cb.3openssl.gz
 * /usr/share/man/man3/SSL_set_shutdown.3openssl.gz
 * /usr/share/man/man3/SSL_set_split_send_fragment.3openssl.gz
 * /usr/share/man/man3/SSL_set_srp_server_param.3openssl.gz
@@ -5519,6 +5520,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/TLS_FEATURE_new.3openssl.gz
 * /usr/share/man/man3/TLS_method.3openssl.gz
 * /usr/share/man/man3/TLS_server_method.3openssl.gz
+* /usr/share/man/man3/tls_session_secret_cb_fn.3openssl.gz
 * /usr/share/man/man3/TS_ACCURACY_dup.3openssl.gz
 * /usr/share/man/man3/TS_ACCURACY_free.3openssl.gz
 * /usr/share/man/man3/TS_ACCURACY_new.3openssl.gz
@@ -6283,6 +6285,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man7/OSSL_PROVIDER-legacy.7openssl.gz
 * /usr/share/man/man7/OSSL_PROVIDER-null.7openssl.gz
 * /usr/share/man/man7/ossl_store-file.7openssl.gz
+* /usr/share/man/man7/OSSL_STORE-winstore.7openssl.gz
 * /usr/share/man/man7/ossl_store.7openssl.gz
 * /usr/share/man/man7/passphrase-encoding.7openssl.gz
 * /usr/share/man/man7/property.7openssl.gz

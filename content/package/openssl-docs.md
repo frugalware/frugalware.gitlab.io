@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl-docs 3.3.0-3"
-version = "3.3.0-3"
+title = "openssl-docs 3.3.1-1"
+version = "3.3.1-1"
 description = "HTML documentation for openssl"
-date = "2024-05-15T19:08:16"
+date = "2024-06-04T18:42:14"
 aliases = "/packages/219932"
 categories = ['devel-extra']
-upstreamurl = "http://www.openssl.org/source/"
+upstreamurl = "https://openssl.org"
 arch = "x86_64"
-size = "1234060"
-usize = "6787866"
-sha1sum = "8ef2583cfb0803d19717ddf3f124392dc2d14ec6"
+size = "1246308"
+usize = "6804252"
+sha1sum = "1b1e5e51bb9d3e19af42e89278fee9f6007003de"
 depends = "[]"
 +++
 ### Description: 
@@ -655,6 +655,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/SSL_set_incoming_stream_policy.html
 * /usr/share/doc/openssl/html/man3/SSL_set_retry_verify.html
 * /usr/share/doc/openssl/html/man3/SSL_set_session.html
+* /usr/share/doc/openssl/html/man3/SSL_set_session_secret_cb.html
 * /usr/share/doc/openssl/html/man3/SSL_set_shutdown.html
 * /usr/share/doc/openssl/html/man3/SSL_set_verify_result.html
 * /usr/share/doc/openssl/html/man3/SSL_shutdown.html
@@ -850,6 +851,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man7/OSSL_PROVIDER-legacy.html
 * /usr/share/doc/openssl/html/man7/OSSL_PROVIDER-null.html
 * /usr/share/doc/openssl/html/man7/ossl_store-file.html
+* /usr/share/doc/openssl/html/man7/OSSL_STORE-winstore.html
 * /usr/share/doc/openssl/html/man7/ossl_store.html
 * /usr/share/doc/openssl/html/man7/passphrase-encoding.html
 * /usr/share/doc/openssl/html/man7/property.html
