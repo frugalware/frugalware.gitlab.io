@@ -21,4 +21,4 @@ Demangling for Rust symbols, C API
 * /usr/include/rustc_demangle.h
 * /usr/lib/librustc_demangle.a
 * /usr/lib/librustc_demangle.so
-* /usr/share/doc/rustc-demangle-0.1.23/README.md
+* /usr/share/doc/rustc-demangle-0.1.24/README.md
