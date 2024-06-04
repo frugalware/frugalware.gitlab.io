@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "udiskie 2.5.2-1"
-version = "2.5.2-1"
+title = "udiskie 2.5.3-1"
+version = "2.5.3-1"
 description = "An automatic disk mounting service using udisks."
-date = "2024-02-23T21:20:22"
+date = "2024-06-04T14:32:39"
 aliases = "/packages/153638"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/coldfix/udiskie"
 arch = "x86_64"
-size = "131404"
-usize = "619734"
-sha1sum = "9287cc6218bdba29dbdf8db96d9377a8f62502d4"
+size = "131764"
+usize = "620806"
+sha1sum = "b23f6ca876e0ab6dc13f533bed905a0174be2f5e"
 depends = "['pygobject3', 'udisks2']"
 +++
 ### Description: 
@@ -21,13 +21,13 @@ An automatic disk mounting service using udisks.
 * /usr/bin/udiskie-info
 * /usr/bin/udiskie-mount
 * /usr/bin/udiskie-umount
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/udiskie-2.5.2-py3.12.egg-info/zip-safe
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/udiskie-2.5.3-py3.12.egg-info/zip-safe
 * /usr/lib/python3.12/site-packages/udiskie/appindicator.py
 * /usr/lib/python3.12/site-packages/udiskie/async_.py
 * /usr/lib/python3.12/site-packages/udiskie/automount.py
@@ -72,8 +72,8 @@ An automatic disk mounting service using udisks.
 * /usr/lib/python3.12/site-packages/udiskie/__pycache__/tray.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/udiskie/__pycache__/udisks2.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/udiskie/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/udiskie-2.5.2/COPYING
-* /usr/share/doc/udiskie-2.5.2/README.rst
+* /usr/share/doc/udiskie-2.5.3/COPYING
+* /usr/share/doc/udiskie-2.5.3/README.rst
 * /usr/share/share/bash-completion/completions/udiskie
 * /usr/share/share/bash-completion/completions/udiskie-info
 * /usr/share/share/bash-completion/completions/udiskie-mount

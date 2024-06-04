@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flatpak 1.15.6-3"
-version = "1.15.6-3"
+title = "flatpak 1.15.8-1"
+version = "1.15.8-1"
 description = "Linux application sandboxing and distribution framework (formerly xdg-app)"
-date = "2024-01-09T13:26:32"
+date = "2024-06-04T14:18:02"
 aliases = "/packages/220841"
 categories = ['apps-extra']
 upstreamurl = "https://flatpak.org"
 arch = "x86_64"
-size = "1526932"
-usize = "8017990"
-sha1sum = "5122fd4d73865983a589813f9c222d576433f1ef"
+size = "1552372"
+usize = "8083221"
+sha1sum = "1bb982f85b95dc061999a324b8f0544c82bd4974"
 depends = "['appstream>=1.0.0', 'bubblewrap', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'xdg-dbus-proxy']"
 reverse_depends = "['discover', 'flatpak-kcm']"
 +++
@@ -45,7 +45,7 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/lib/girepository-1.0/Flatpak-1.0.typelib
 * /usr/lib/libflatpak.so
 * /usr/lib/libflatpak.so.0
-* /usr/lib/libflatpak.so.0.11506.0
+* /usr/lib/libflatpak.so.0.11508.0
 * /usr/lib/pkgconfig/flatpak.pc
 * /usr/lib/systemd/system-environment-generators/60-flatpak-system-only
 * /usr/lib/systemd/system/flatpak-system-helper.service
@@ -64,9 +64,9 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/dbus-1/services/org.freedesktop.portal.Flatpak.service
 * /usr/share/dbus-1/system-services/org.freedesktop.Flatpak.SystemHelper.service
 * /usr/share/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
-* /usr/share/doc/flatpak-1.15.6/COPYING
-* /usr/share/doc/flatpak-1.15.6/NEWS
-* /usr/share/doc/flatpak-1.15.6/README.md
+* /usr/share/doc/flatpak-1.15.8/COPYING
+* /usr/share/doc/flatpak-1.15.8/NEWS
+* /usr/share/doc/flatpak-1.15.8/README.md
 * /usr/share/doc/flatpak/docbook.css
 * /usr/share/doc/flatpak/flatpak-docs.html
 * /usr/share/fish/vendor_completions.d/flatpak.fish
@@ -187,6 +187,8 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/man/man5/flatpak-installation.5.gz
 * /usr/share/man/man5/flatpak-metadata.5.gz
 * /usr/share/man/man5/flatpak-remote.5.gz
+* /usr/share/man/man5/flatpakref.5.gz
+* /usr/share/man/man5/flatpakrepo.5.gz
 * /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy
 * /usr/share/polkit-1/rules.d/org.freedesktop.Flatpak.rules
 * /usr/share/zsh/site-functions/_flatpak

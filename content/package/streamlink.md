@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 6.6.2-1"
-version = "6.6.2-1"
+title = "streamlink 6.7.4-1"
+version = "6.7.4-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-02-27T12:26:15"
+date = "2024-06-04T15:03:23"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "781276"
-usize = "3895024"
-sha1sum = "554e33b472418e291a099040985361f849d90745"
+size = "800572"
+usize = "3972726"
+sha1sum = "96dbfe0b04d2a91abd234b1da1a7d16518458872"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -80,6 +80,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cbsnews.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cdnbg.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/ceskatelevize.py
+* /usr/lib/python3.12/site-packages/streamlink/plugins/chzzk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cinergroup.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/clubbingtv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cmmedia.py
@@ -117,6 +118,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/lnk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/lrt.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/ltv_lsm_lv.py
+* /usr/lib/python3.12/site-packages/streamlink/plugins/mangomolo.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mdstrm.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mediaklikk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mediavitrina.py
@@ -131,7 +133,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/nicolive.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/nimotv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/nos.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/nownews.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/nowtvtr.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/nrk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/okru.py
@@ -229,6 +230,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cbsnews.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cdnbg.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/ceskatelevize.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/chzzk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cinergroup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/clubbingtv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cmmedia.cpython-312.pyc
@@ -266,6 +268,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/lnk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/lrt.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/ltv_lsm_lv.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mangomolo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mdstrm.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mediaklikk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mediavitrina.cpython-312.pyc
@@ -280,7 +283,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/nicolive.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/nimotv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/nos.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/nownews.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/nowtvtr.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/nrk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/okru.cpython-312.pyc
@@ -501,6 +503,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/compat.py
 * /usr/lib/python3.12/site-packages/streamlink_cli/console.py
 * /usr/lib/python3.12/site-packages/streamlink_cli/constants.py
+* /usr/lib/python3.12/site-packages/streamlink_cli/exceptions.py
 * /usr/lib/python3.12/site-packages/streamlink_cli/main.py
 * /usr/lib/python3.12/site-packages/streamlink_cli/output/abc.py
 * /usr/lib/python3.12/site-packages/streamlink_cli/output/file.py
@@ -533,11 +536,18 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/compat.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/console.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/constants.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/exceptions.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/main.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/streamrunner.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/_parser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/streamlink-6.6.2/AUTHORS
-* /usr/share/doc/streamlink-6.6.2/LICENSE
-* /usr/share/doc/streamlink-6.6.2/README.md
+* /usr/share/doc/streamlink-6.7.4/AUTHORS
+* /usr/share/doc/streamlink-6.7.4/BUGS
+* /usr/share/doc/streamlink-6.7.4/COPYING.md
+* /usr/share/doc/streamlink-6.7.4/COPYRIGHT
+* /usr/share/doc/streamlink-6.7.4/INSTALL.md
+* /usr/share/doc/streamlink-6.7.4/LICENSE
+* /usr/share/doc/streamlink-6.7.4/README.md
+* /usr/share/doc/streamlink-6.7.4/README.template
+* /usr/share/doc/streamlink-6.7.4/RELEASE-CHECKLIST

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lynis 3.0.9-2"
-version = "3.0.9-2"
+title = "lynis 3.1.1-1"
+version = "3.1.1-1"
 description = "Open source security auditing tool."
-date = "2024-01-16T09:59:11"
+date = "2024-06-04T15:10:03"
 aliases = "/packages/219085"
 categories = ['apps-extra']
 upstreamurl = "https://cisofy.com/lynis/"
 arch = "x86_64"
-size = "223444"
-usize = "1627114"
-sha1sum = "313eebb04cf51023d6a239429a3fdf8c9f7fc77a"
+size = "224732"
+usize = "1641730"
+sha1sum = "bffd089ba542569cbe6ad5f4691d0bee02a6b183"
 depends = "['bash']"
 +++
 ### Description: 
@@ -22,10 +22,10 @@ Open source security auditing tool.
 * /etc/lynis/README
 * /usr/bin/lynis
 * /usr/share/applications/lynis.desktop
-* /usr/share/doc/lynis-3.0.9/FAQ
-* /usr/share/doc/lynis-3.0.9/INSTALL
-* /usr/share/doc/lynis-3.0.9/LICENSE
-* /usr/share/doc/lynis-3.0.9/README
+* /usr/share/doc/lynis-3.1.1/FAQ
+* /usr/share/doc/lynis-3.1.1/INSTALL
+* /usr/share/doc/lynis-3.1.1/LICENSE
+* /usr/share/doc/lynis-3.1.1/README
 * /usr/share/lynis/db/fileperms.db
 * /usr/share/lynis/db/hints.db
 * /usr/share/lynis/db/integrity.db
@@ -44,6 +44,7 @@ Open source security auditing tool.
 * /usr/share/lynis/db/languages/gr
 * /usr/share/lynis/db/languages/he
 * /usr/share/lynis/db/languages/hu
+* /usr/share/lynis/db/languages/id
 * /usr/share/lynis/db/languages/it
 * /usr/share/lynis/db/languages/ja
 * /usr/share/lynis/db/languages/ko

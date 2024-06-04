@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.5.2-1"
-version = "0.5.2-1"
+title = "wireplumber 0.5.3-1"
+version = "0.5.3-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2024-04-24T14:14:24"
+date = "2024-06-04T14:51:51"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "342928"
-usize = "1603318"
-sha1sum = "4953a48268f8edaef50395d99f75a7dfb53b7690"
+size = "333996"
+usize = "1551482"
+sha1sum = "70162dec918586f980b000cd055b49cae8d27f61"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
@@ -63,7 +63,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/wpversion.h
 * /usr/lib/libwireplumber-0.5.so
 * /usr/lib/libwireplumber-0.5.so.0
-* /usr/lib/libwireplumber-0.5.so.0.502.0
+* /usr/lib/libwireplumber-0.5.so.0.503.0
 * /usr/lib/pkgconfig/wireplumber-0.5.pc
 * /usr/lib/systemd/user/wireplumber.service
 * /usr/lib/systemd/user/wireplumber@.service
@@ -82,8 +82,8 @@ Session / policy manager implementation for PipeWire
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
-* /usr/share/doc/wireplumber-0.5.2/LICENSE
-* /usr/share/doc/wireplumber-0.5.2/README.rst
+* /usr/share/doc/wireplumber-0.5.3/LICENSE
+* /usr/share/doc/wireplumber-0.5.3/README.rst
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
@@ -94,60 +94,6 @@ Session / policy manager implementation for PipeWire
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/stream.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/v4l2.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/virtual.conf
-* /usr/share/locale/af/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/as/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/be/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/bg/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ca/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/cs/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/da/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/de/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/de_CH/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/el/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/eo/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/es/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/fa/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/fi/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/fr/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/gl/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/gu/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/he/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/hi/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/hr/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/hu/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/id/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/it/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ja/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ka/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/kk/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/kn/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ko/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/lt/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ml/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/mr/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/my/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/nl/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/nn/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/oc/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/or/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/pa/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/pl/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/pt/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ro/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ru/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/si/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/sk/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/sr/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/sv/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/ta/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/te/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/tr/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/uk/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/wireplumber.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/wireplumber.mo
 * /usr/share/wireplumber/scripts/client/access-default.lua
 * /usr/share/wireplumber/scripts/client/access-portal.lua
 * /usr/share/wireplumber/scripts/client/access-snap.lua
