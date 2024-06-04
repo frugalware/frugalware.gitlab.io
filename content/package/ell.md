@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ell 0.65-1"
-version = "0.65-1"
+title = "ell 0.66-1"
+version = "0.66-1"
 description = "Embedded Linux library"
-date = "2024-06-01T18:34:28"
+date = "2024-06-04T20:50:54"
 aliases = "/packages/221491"
 categories = ['lib']
 upstreamurl = "https://01.org/ell"
 arch = "x86_64"
-size = "238640"
-usize = "697954"
-sha1sum = "d07233fab0a04eb832c98bd9bd7672a77b6f17d3"
+size = "240620"
+usize = "703621"
+sha1sum = "c8723aabf2e918c124fbd2124f10e2ba91a74be1"
 depends = "['glibc']"
 reverse_depends = "['bluez', 'iwd']"
 +++
@@ -48,6 +48,7 @@ Embedded Linux library
 * /usr/include/ell/net.h
 * /usr/include/ell/netconfig.h
 * /usr/include/ell/netlink.h
+* /usr/include/ell/notifylist.h
 * /usr/include/ell/path.h
 * /usr/include/ell/pem.h
 * /usr/include/ell/queue.h
@@ -72,9 +73,9 @@ Embedded Linux library
 * /usr/lib/libell.so.0
 * /usr/lib/libell.so.0.0.2
 * /usr/lib/pkgconfig/ell.pc
-* /usr/share/doc/ell-0.65/AUTHORS
-* /usr/share/doc/ell-0.65/ChangeLog
-* /usr/share/doc/ell-0.65/COPYING
-* /usr/share/doc/ell-0.65/INSTALL
-* /usr/share/doc/ell-0.65/README
-* /usr/share/doc/ell-0.65/TODO
+* /usr/share/doc/ell-0.66/AUTHORS
+* /usr/share/doc/ell-0.66/ChangeLog
+* /usr/share/doc/ell-0.66/COPYING
+* /usr/share/doc/ell-0.66/INSTALL
+* /usr/share/doc/ell-0.66/README
+* /usr/share/doc/ell-0.66/TODO
