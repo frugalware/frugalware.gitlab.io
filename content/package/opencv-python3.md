@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencv-python3 4.9.0-6"
-version = "4.9.0-6"
+title = "opencv-python3 4.10.0-1"
+version = "4.10.0-1"
 description = "Opencv python3 bindings"
-date = "2024-05-28T00:30:12"
+date = "2024-06-05T19:53:19"
 aliases = "/packages/218389"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "2150856"
-usize = "11398621"
-sha1sum = "a79a4a434a0a8fe113852f4ab6a3a2d1504e985a"
-depends = "['libgfortran', 'openblas', 'openblas64', 'opencv>=4.9.0', 'python3>=3.12', 'python3-numpy']"
+size = "2195892"
+usize = "11570768"
+sha1sum = "e26b578b3d54b20aa0c104cce304814df95a1ed3"
+depends = "['libgfortran', 'openblas', 'openblas64', 'opencv>=4.10.0', 'python3>=3.12', 'python3-numpy']"
 reverse_depends = "['howdy']"
 +++
 ### Description: 
@@ -103,6 +103,7 @@ Opencv python3 bindings
 * /usr/lib/python3.12/site-packages/cv2/saliency/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/samples/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/segmentation/__init__.pyi
+* /usr/lib/python3.12/site-packages/cv2/signal/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/stereo/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/structured_light/__init__.pyi
 * /usr/lib/python3.12/site-packages/cv2/text/__init__.pyi

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencv-samples 4.9.0-6"
-version = "4.9.0-6"
+title = "opencv-samples 4.10.0-1"
+version = "4.10.0-1"
 description = "Intel(R) Open Source Computer Vision Library Examples"
-date = "2024-05-28T00:30:12"
+date = "2024-06-05T19:53:19"
 aliases = "/packages/218388"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "33689164"
-usize = "56785933"
-sha1sum = "98eef3fd07a5ed25614e5d9016ec271bbefcee35"
-depends = "['opencv>=4.9.0']"
+size = "33709892"
+usize = "56720420"
+sha1sum = "a3572b957a84af310c51797c145ddba4e0fe34f6"
+depends = "['opencv>=4.10.0']"
 +++
 ### Description: 
 Intel(R) Open Source Computer Vision Library Examples
@@ -21,22 +21,6 @@ Intel(R) Open Source Computer Vision Library Examples
 * /usr/share/opencv4/samples/alphamat/input_images/plant.jpg
 * /usr/share/opencv4/samples/alphamat/output_mattes/plant_result.png
 * /usr/share/opencv4/samples/alphamat/trimaps/plant.png
-* /usr/share/opencv4/samples/aruco/aruco_samples_utility.hpp
-* /usr/share/opencv4/samples/aruco/calibrate_camera.cpp
-* /usr/share/opencv4/samples/aruco/calibrate_camera_charuco.cpp
-* /usr/share/opencv4/samples/aruco/create_board.cpp
-* /usr/share/opencv4/samples/aruco/create_board_charuco.cpp
-* /usr/share/opencv4/samples/aruco/create_diamond.cpp
-* /usr/share/opencv4/samples/aruco/create_marker.cpp
-* /usr/share/opencv4/samples/aruco/detector_params.yml
-* /usr/share/opencv4/samples/aruco/detect_board.cpp
-* /usr/share/opencv4/samples/aruco/detect_board_charuco.cpp
-* /usr/share/opencv4/samples/aruco/detect_diamonds.cpp
-* /usr/share/opencv4/samples/aruco/detect_markers.cpp
-* /usr/share/opencv4/samples/aruco/tutorial_camera_charuco.yml
-* /usr/share/opencv4/samples/aruco/tutorial_camera_params.yml
-* /usr/share/opencv4/samples/aruco/tutorial_charuco_create_detect.cpp
-* /usr/share/opencv4/samples/aruco/tutorial_dict.yml
 * /usr/share/opencv4/samples/bgsegm/bgfg.cpp
 * /usr/share/opencv4/samples/bgsegm/evaluation.py
 * /usr/share/opencv4/samples/bgsegm/viz.py
@@ -45,8 +29,10 @@ Intel(R) Open Source Computer Vision Library Examples
 * /usr/share/opencv4/samples/bioinspired/cpp/OpenEXRimages_HDR_Retina_toneMapping_video.cpp
 * /usr/share/opencv4/samples/bioinspired/cpp/retinaDemo.cpp
 * /usr/share/opencv4/samples/bioinspired/cpp/tutorial_code/bioinspired/retina_tutorial.cpp
+* /usr/share/opencv4/samples/bioinspired/default_retina_config.xml
 * /usr/share/opencv4/samples/bioinspired/ocl/retina_ocl.cpp
 * /usr/share/opencv4/samples/bioinspired/OpenEXRimages_HDR_Retina_toneMapping.cpp
+* /usr/share/opencv4/samples/bioinspired/realistic_retina_config.xml
 * /usr/share/opencv4/samples/bioinspired/retinaDemo.cpp
 * /usr/share/opencv4/samples/ccalib/multi_cameras_calibration.cpp
 * /usr/share/opencv4/samples/ccalib/omni_calibration.cpp
@@ -321,6 +307,7 @@ Intel(R) Open Source Computer Vision Library Examples
 * /usr/share/opencv4/samples/dnn/speech_recognition.cpp
 * /usr/share/opencv4/samples/dnn/text_detection.cpp
 * /usr/share/opencv4/samples/dnn/vit_tracker.cpp
+* /usr/share/opencv4/samples/dnn/yolo_detector.cpp
 * /usr/share/opencv4/samples/dnn_objdetect/data/README.md
 * /usr/share/opencv4/samples/dnn_objdetect/data/SqueezeDet_deploy.prototxt
 * /usr/share/opencv4/samples/dnn_objdetect/data/SqueezeDet_solver.prototxt
