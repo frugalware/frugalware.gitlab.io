@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-xz 5.6.1-4"
-version = "5.6.1-4"
+title = "lib32-xz 5.6.2-1"
+version = "5.6.2-1"
 description = "XZ Utils is free general-purpose data compression software with high compression ratio. ( 32bit )"
-date = "2024-05-15T14:55:07"
+date = "2024-06-05T06:55:49"
 aliases = "/packages/217723"
 categories = ['lib32-extra']
 upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
-size = "197912"
-usize = "642245"
-sha1sum = "2ad36af30a564d0e7646e893235627b80d8c9ca6"
+size = "197992"
+usize = "642215"
+sha1sum = "2ff3b9742fc600ab4db6ea40cf66d23823da796f"
 depends = "[]"
 reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-libsystemd', 'lib32-libtiff', 'lib32-libunwind', 'lib32-libxml2', 'lib32-rust', 'lib32-zstd']"
 +++
@@ -58,5 +58,5 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/i686-frugalware-linux/include/lzma/vli.h
 * /usr/lib32/liblzma.so
 * /usr/lib32/liblzma.so.5
-* /usr/lib32/liblzma.so.5.6.1
+* /usr/lib32/liblzma.so.5.6.2
 * /usr/lib32/pkgconfig/liblzma.pc

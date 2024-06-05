@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xz 5.6.1-4"
-version = "5.6.1-4"
+title = "xz 5.6.2-1"
+version = "5.6.2-1"
 description = "XZ Utils is free general-purpose data compression software with high compression ratio."
-date = "2024-05-15T14:55:07"
+date = "2024-06-05T06:55:49"
 aliases = "/packages/74189"
 categories = ['base']
 upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
-size = "386500"
-usize = "1577468"
-sha1sum = "65a0a18a45ae88b0282098e4934d3069acfed5f8"
+size = "685660"
+usize = "2231285"
+sha1sum = "6f105f67f12fba106471647e9167e5f449db5e35"
 depends = "['glibc>=2.37']"
 reverse_depends = "['aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'squashfs', 'squashfuse', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++
@@ -58,33 +58,32 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/include/lzma/vli.h
 * /usr/lib/liblzma.so
 * /usr/lib/liblzma.so.5
-* /usr/lib/liblzma.so.5.6.1
+* /usr/lib/liblzma.so.5.6.2
 * /usr/lib/pkgconfig/liblzma.pc
-* /usr/share/doc/xz-5.6.1/AUTHORS
-* /usr/share/doc/xz-5.6.1/ChangeLog
-* /usr/share/doc/xz-5.6.1/COPYING
-* /usr/share/doc/xz-5.6.1/COPYING.0BSD
-* /usr/share/doc/xz-5.6.1/COPYING.CC-BY-SA-4.0
-* /usr/share/doc/xz-5.6.1/COPYING.GPLv2
-* /usr/share/doc/xz-5.6.1/COPYING.GPLv3
-* /usr/share/doc/xz-5.6.1/COPYING.LGPLv2.1
-* /usr/share/doc/xz-5.6.1/examples/00_README.txt
-* /usr/share/doc/xz-5.6.1/examples/01_compress_easy.c
-* /usr/share/doc/xz-5.6.1/examples/02_decompress.c
-* /usr/share/doc/xz-5.6.1/examples/03_compress_custom.c
-* /usr/share/doc/xz-5.6.1/examples/04_compress_easy_mt.c
-* /usr/share/doc/xz-5.6.1/examples/11_file_info.c
-* /usr/share/doc/xz-5.6.1/examples/Makefile
-* /usr/share/doc/xz-5.6.1/faq.txt
-* /usr/share/doc/xz-5.6.1/history.txt
-* /usr/share/doc/xz-5.6.1/INSTALL
-* /usr/share/doc/xz-5.6.1/INSTALL.generic
-* /usr/share/doc/xz-5.6.1/lzma-file-format.txt
-* /usr/share/doc/xz-5.6.1/NEWS
-* /usr/share/doc/xz-5.6.1/README
-* /usr/share/doc/xz-5.6.1/THANKS
-* /usr/share/doc/xz-5.6.1/TODO
-* /usr/share/doc/xz-5.6.1/xz-file-format.txt
+* /usr/share/doc/xz-5.6.2/AUTHORS
+* /usr/share/doc/xz-5.6.2/ChangeLog
+* /usr/share/doc/xz-5.6.2/COPYING
+* /usr/share/doc/xz-5.6.2/COPYING.0BSD
+* /usr/share/doc/xz-5.6.2/COPYING.GPLv2
+* /usr/share/doc/xz-5.6.2/COPYING.GPLv3
+* /usr/share/doc/xz-5.6.2/COPYING.LGPLv2.1
+* /usr/share/doc/xz-5.6.2/examples/00_README.txt
+* /usr/share/doc/xz-5.6.2/examples/01_compress_easy.c
+* /usr/share/doc/xz-5.6.2/examples/02_decompress.c
+* /usr/share/doc/xz-5.6.2/examples/03_compress_custom.c
+* /usr/share/doc/xz-5.6.2/examples/04_compress_easy_mt.c
+* /usr/share/doc/xz-5.6.2/examples/11_file_info.c
+* /usr/share/doc/xz-5.6.2/examples/Makefile
+* /usr/share/doc/xz-5.6.2/faq.txt
+* /usr/share/doc/xz-5.6.2/history.txt
+* /usr/share/doc/xz-5.6.2/INSTALL
+* /usr/share/doc/xz-5.6.2/INSTALL.generic
+* /usr/share/doc/xz-5.6.2/lzma-file-format.txt
+* /usr/share/doc/xz-5.6.2/NEWS
+* /usr/share/doc/xz-5.6.2/README
+* /usr/share/doc/xz-5.6.2/THANKS
+* /usr/share/doc/xz-5.6.2/TODO
+* /usr/share/doc/xz-5.6.2/xz-file-format.txt
 * /usr/share/locale/ca/LC_MESSAGES/xz.mo
 * /usr/share/locale/cs/LC_MESSAGES/xz.mo
 * /usr/share/locale/da/LC_MESSAGES/xz.mo
@@ -108,6 +107,63 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/locale/vi/LC_MESSAGES/xz.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/xz.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/xz.mo
+* /usr/share/man/de/man1/lzcat.1.gz
+* /usr/share/man/de/man1/lzcmp.1.gz
+* /usr/share/man/de/man1/lzdiff.1.gz
+* /usr/share/man/de/man1/lzegrep.1.gz
+* /usr/share/man/de/man1/lzfgrep.1.gz
+* /usr/share/man/de/man1/lzgrep.1.gz
+* /usr/share/man/de/man1/lzless.1.gz
+* /usr/share/man/de/man1/lzma.1.gz
+* /usr/share/man/de/man1/lzmadec.1.gz
+* /usr/share/man/de/man1/lzmainfo.1.gz
+* /usr/share/man/de/man1/lzmore.1.gz
+* /usr/share/man/de/man1/unlzma.1.gz
+* /usr/share/man/de/man1/unxz.1.gz
+* /usr/share/man/de/man1/xz.1.gz
+* /usr/share/man/de/man1/xzcat.1.gz
+* /usr/share/man/de/man1/xzcmp.1.gz
+* /usr/share/man/de/man1/xzdec.1.gz
+* /usr/share/man/de/man1/xzdiff.1.gz
+* /usr/share/man/de/man1/xzegrep.1.gz
+* /usr/share/man/de/man1/xzfgrep.1.gz
+* /usr/share/man/de/man1/xzgrep.1.gz
+* /usr/share/man/de/man1/xzless.1.gz
+* /usr/share/man/de/man1/xzmore.1.gz
+* /usr/share/man/fr/man1/lzcat.1.gz
+* /usr/share/man/fr/man1/lzless.1.gz
+* /usr/share/man/fr/man1/lzma.1.gz
+* /usr/share/man/fr/man1/lzmadec.1.gz
+* /usr/share/man/fr/man1/lzmainfo.1.gz
+* /usr/share/man/fr/man1/unlzma.1.gz
+* /usr/share/man/fr/man1/unxz.1.gz
+* /usr/share/man/fr/man1/xz.1.gz
+* /usr/share/man/fr/man1/xzcat.1.gz
+* /usr/share/man/fr/man1/xzdec.1.gz
+* /usr/share/man/fr/man1/xzless.1.gz
+* /usr/share/man/ko/man1/lzcat.1.gz
+* /usr/share/man/ko/man1/lzcmp.1.gz
+* /usr/share/man/ko/man1/lzdiff.1.gz
+* /usr/share/man/ko/man1/lzegrep.1.gz
+* /usr/share/man/ko/man1/lzfgrep.1.gz
+* /usr/share/man/ko/man1/lzgrep.1.gz
+* /usr/share/man/ko/man1/lzless.1.gz
+* /usr/share/man/ko/man1/lzma.1.gz
+* /usr/share/man/ko/man1/lzmadec.1.gz
+* /usr/share/man/ko/man1/lzmainfo.1.gz
+* /usr/share/man/ko/man1/lzmore.1.gz
+* /usr/share/man/ko/man1/unlzma.1.gz
+* /usr/share/man/ko/man1/unxz.1.gz
+* /usr/share/man/ko/man1/xz.1.gz
+* /usr/share/man/ko/man1/xzcat.1.gz
+* /usr/share/man/ko/man1/xzcmp.1.gz
+* /usr/share/man/ko/man1/xzdec.1.gz
+* /usr/share/man/ko/man1/xzdiff.1.gz
+* /usr/share/man/ko/man1/xzegrep.1.gz
+* /usr/share/man/ko/man1/xzfgrep.1.gz
+* /usr/share/man/ko/man1/xzgrep.1.gz
+* /usr/share/man/ko/man1/xzless.1.gz
+* /usr/share/man/ko/man1/xzmore.1.gz
 * /usr/share/man/man1/lzcat.1.gz
 * /usr/share/man/man1/lzcmp.1.gz
 * /usr/share/man/man1/lzdiff.1.gz
@@ -131,3 +187,60 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/man/man1/xzgrep.1.gz
 * /usr/share/man/man1/xzless.1.gz
 * /usr/share/man/man1/xzmore.1.gz
+* /usr/share/man/pt_BR/man1/lzcat.1.gz
+* /usr/share/man/pt_BR/man1/lzless.1.gz
+* /usr/share/man/pt_BR/man1/lzma.1.gz
+* /usr/share/man/pt_BR/man1/lzmadec.1.gz
+* /usr/share/man/pt_BR/man1/lzmainfo.1.gz
+* /usr/share/man/pt_BR/man1/unlzma.1.gz
+* /usr/share/man/pt_BR/man1/unxz.1.gz
+* /usr/share/man/pt_BR/man1/xz.1.gz
+* /usr/share/man/pt_BR/man1/xzcat.1.gz
+* /usr/share/man/pt_BR/man1/xzdec.1.gz
+* /usr/share/man/pt_BR/man1/xzless.1.gz
+* /usr/share/man/ro/man1/lzcat.1.gz
+* /usr/share/man/ro/man1/lzcmp.1.gz
+* /usr/share/man/ro/man1/lzdiff.1.gz
+* /usr/share/man/ro/man1/lzegrep.1.gz
+* /usr/share/man/ro/man1/lzfgrep.1.gz
+* /usr/share/man/ro/man1/lzgrep.1.gz
+* /usr/share/man/ro/man1/lzless.1.gz
+* /usr/share/man/ro/man1/lzma.1.gz
+* /usr/share/man/ro/man1/lzmadec.1.gz
+* /usr/share/man/ro/man1/lzmainfo.1.gz
+* /usr/share/man/ro/man1/lzmore.1.gz
+* /usr/share/man/ro/man1/unlzma.1.gz
+* /usr/share/man/ro/man1/unxz.1.gz
+* /usr/share/man/ro/man1/xz.1.gz
+* /usr/share/man/ro/man1/xzcat.1.gz
+* /usr/share/man/ro/man1/xzcmp.1.gz
+* /usr/share/man/ro/man1/xzdec.1.gz
+* /usr/share/man/ro/man1/xzdiff.1.gz
+* /usr/share/man/ro/man1/xzegrep.1.gz
+* /usr/share/man/ro/man1/xzfgrep.1.gz
+* /usr/share/man/ro/man1/xzgrep.1.gz
+* /usr/share/man/ro/man1/xzless.1.gz
+* /usr/share/man/ro/man1/xzmore.1.gz
+* /usr/share/man/uk/man1/lzcat.1.gz
+* /usr/share/man/uk/man1/lzcmp.1.gz
+* /usr/share/man/uk/man1/lzdiff.1.gz
+* /usr/share/man/uk/man1/lzegrep.1.gz
+* /usr/share/man/uk/man1/lzfgrep.1.gz
+* /usr/share/man/uk/man1/lzgrep.1.gz
+* /usr/share/man/uk/man1/lzless.1.gz
+* /usr/share/man/uk/man1/lzma.1.gz
+* /usr/share/man/uk/man1/lzmadec.1.gz
+* /usr/share/man/uk/man1/lzmainfo.1.gz
+* /usr/share/man/uk/man1/lzmore.1.gz
+* /usr/share/man/uk/man1/unlzma.1.gz
+* /usr/share/man/uk/man1/unxz.1.gz
+* /usr/share/man/uk/man1/xz.1.gz
+* /usr/share/man/uk/man1/xzcat.1.gz
+* /usr/share/man/uk/man1/xzcmp.1.gz
+* /usr/share/man/uk/man1/xzdec.1.gz
+* /usr/share/man/uk/man1/xzdiff.1.gz
+* /usr/share/man/uk/man1/xzegrep.1.gz
+* /usr/share/man/uk/man1/xzfgrep.1.gz
+* /usr/share/man/uk/man1/xzgrep.1.gz
+* /usr/share/man/uk/man1/xzless.1.gz
+* /usr/share/man/uk/man1/xzmore.1.gz
