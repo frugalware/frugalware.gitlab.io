@@ -12,7 +12,7 @@ size = "28248"
 usize = "72953"
 sha1sum = "ffbcfc27d2fa1833254b3fe5b989b74d308c077e"
 depends = "['perl>=5.34.0']"
-reverse_depends = "['perl-module-install']"
+reverse_depends = "['perl-module-install', 'po4a']"
 +++
 ### Description: 
 Read/Write YAML files with as little code as possible
