@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "containerd 1.7.17-1"
-version = "1.7.17-1"
+title = "containerd 1.7.18-1"
+version = "1.7.18-1"
 description = "open and reliable container runtime"
-date = "2024-06-04T14:46:28"
+date = "2024-06-05T07:17:59"
 aliases = "/packages/219031"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/containerd/containerd"
 arch = "x86_64"
-size = "34768024"
-usize = "137258575"
-sha1sum = "d40c083dcbb5c1a90748432ec484c22235375f07"
+size = "35397444"
+usize = "137265953"
+sha1sum = "0c0411cfaa44ee552be1640bd2f3c9337902315c"
 depends = "['glibc', 'runc']"
 reverse_depends = "['docker']"
 +++
@@ -28,6 +28,7 @@ open and reliable container runtime
 * /usr/bin/docker-containerd-ctr
 * /usr/bin/docker-containerd-shim
 * /usr/lib/systemd/system/containerd.service
+* /usr/share/doc/containerd-1.7.18/LICENSE
 * /usr/share/man/man5/containerd-config.toml.5.gz
 * /usr/share/man/man8/containerd-config.8.gz
 * /usr/share/man/man8/containerd.8.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lxc 5.0.3-2"
-version = "5.0.3-2"
+title = "lxc 6.0.0-1"
+version = "6.0.0-1"
 description = "Linux Containers"
-date = "2024-01-14T13:15:03"
+date = "2024-06-05T07:22:32"
 aliases = "/packages/200045"
 categories = ['apps-extra']
 upstreamurl = "https://linuxcontainers.org"
 arch = "x86_64"
-size = "3198992"
-usize = "29205497"
-sha1sum = "510b22cfcab0f145d9547078006a539290c51d13"
+size = "958476"
+usize = "3908171"
+sha1sum = "153849dc19857696dc8b8b310af1c38dce15db8d"
 depends = "['bash', 'pam', 'perl']"
 +++
 ### Description: 
@@ -50,7 +50,7 @@ Linux Containers
 * /usr/include/lxc/version.h
 * /usr/lib/liblxc.so
 * /usr/lib/liblxc.so.1
-* /usr/lib/liblxc.so.1.7.0
+* /usr/lib/liblxc.so.1.8.0
 * /usr/lib/lxc/lxc/hooks/unmount-namespace
 * /usr/lib/lxc/lxc/lxc-apparmor-load
 * /usr/lib/lxc/lxc/lxc-containers
@@ -87,9 +87,9 @@ Linux Containers
 * /usr/share/bash-completion/completions/lxc-usernsexec
 * /usr/share/bash-completion/completions/lxc-wait
 * /usr/share/bash-completion/completions/_lxc
-* /usr/share/doc/lxc-5.0.3/AUTHORS
-* /usr/share/doc/lxc-5.0.3/COPYING
-* /usr/share/doc/lxc-5.0.3/README.md
+* /usr/share/doc/lxc-6.0.0/AUTHORS
+* /usr/share/doc/lxc-6.0.0/COPYING
+* /usr/share/doc/lxc-6.0.0/README.md
 * /usr/share/doc/lxc/examples/lxc-complex.conf
 * /usr/share/doc/lxc/examples/lxc-empty-netns.conf
 * /usr/share/doc/lxc/examples/lxc-macvlan.conf

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-workspace 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-workspace 6.0.5.1-1"
+version = "6.0.5.1-1"
 description = "KDE Plasma Workspace."
-date = "2024-05-22T10:07:19"
+date = "2024-06-05T08:12:38"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20773368"
-usize = "55499072"
-sha1sum = "2efec2ba91df8795132aa7214d2b1613e7eea71e"
+size = "20780128"
+usize = "55497254"
+sha1sum = "28fc3d4b0d979bca3555a857bdfaa496b2f348f3"
 depends = "['appstream-qt', 'baloo>=6.2.0', 'kcmutils>=6.2.0', 'kdeclarative>=6.2.0', 'kholidays>=6.2.0', 'kidletime>=6.2.0', 'kirigami-addons', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kpackage>=6.2.0', 'kparts>=6.2.0', 'kquickcharts>=6.2.0', 'krunner>=6.2.0', 'ksvg>=6.2.0', 'ktexteditor>=6.2.0', 'kunitconversion>=6.2.0', 'kuserfeedback>=6.2.0', 'kwin>=6.0.5', 'libkexiv2', 'libksysguard>=6.0.5', 'libplasma>=6.0.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.2.0', 'plasma-activities-stats>=6.0.5', 'plasma5support>=6.0.5', 'prison>=6.2.0']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-remotecontrollers', 'plasma-wayland-session', 'powerdevil']"
 +++
@@ -858,8 +858,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.0.5/HACKING
-* /usr/share/doc/plasma-workspace-6.0.5/README.md
+* /usr/share/doc/plasma-workspace-6.0.5.1/HACKING
+* /usr/share/doc/plasma-workspace-6.0.5.1/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png
