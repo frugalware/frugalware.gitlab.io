@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-cak 115.11.1-1"
-version = "115.11.1-1"
+title = "thunderbird-cak 115.11.1-2"
+version = "115.11.1-2"
 description = "Kaqchikel language support for Thunderbird"
-date = "2024-06-02T10:28:51"
+date = "2024-06-05T16:26:49"
 aliases = "/packages/219958"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "602776"
+size = "602892"
 usize = "669821"
-sha1sum = "91c2074a278728ca04d87e07b86dada9f9350fdc"
+sha1sum = "62041c90c5c765dd45b58d31c7bb4fd60b8613c3"
 depends = "['thunderbird>=115.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++

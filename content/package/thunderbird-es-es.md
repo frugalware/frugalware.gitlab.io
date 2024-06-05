@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-es-es 115.11.1-1"
-version = "115.11.1-1"
+title = "thunderbird-es-es 115.11.1-2"
+version = "115.11.1-2"
 description = "Castilian Spanish language support for Thunderbird"
-date = "2024-06-02T10:28:51"
+date = "2024-06-05T16:26:49"
 aliases = "/packages/73773"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "641148"
+size = "641192"
 usize = "707995"
-sha1sum = "0fe7ef057f813d152a823bb5e5e3b9b956104872"
+sha1sum = "5de5446b244ee68bafacddc0111877c1b1ffd0b1"
 depends = "['thunderbird>=115.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-de 115.11.1-1"
-version = "115.11.1-1"
+title = "thunderbird-de 115.11.1-2"
+version = "115.11.1-2"
 description = "German language support for Thunderbird"
-date = "2024-06-02T10:28:51"
+date = "2024-06-05T16:26:49"
 aliases = "/packages/5145"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "689212"
+size = "689224"
 usize = "750860"
-sha1sum = "d2c5091ba1c019b84b1c6d8bcd6d5f1ddff2fdef"
+sha1sum = "a480069e7954fb1532a87f65451348fbecb3e63f"
 depends = "['thunderbird>=115.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++

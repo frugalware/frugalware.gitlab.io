@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-be 115.11.1-1"
-version = "115.11.1-1"
+title = "thunderbird-be 115.11.1-2"
+version = "115.11.1-2"
 description = "Belarusian language support for Thunderbird"
-date = "2024-06-02T10:28:51"
+date = "2024-06-05T16:26:49"
 aliases = "/packages/135579"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "666268"
+size = "666340"
 usize = "734713"
-sha1sum = "ffdbe05cf89fca6eaac8af1ba883ce959ba34892"
+sha1sum = "346ce52713b1c3388ff415174f3141d0f0684a9f"
 depends = "['thunderbird>=115.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++

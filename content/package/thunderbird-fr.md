@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-fr 115.11.1-1"
-version = "115.11.1-1"
+title = "thunderbird-fr 115.11.1-2"
+version = "115.11.1-2"
 description = "French language support for Thunderbird"
-date = "2024-06-02T10:28:51"
+date = "2024-06-05T16:26:49"
 aliases = "/packages/5192"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "696164"
+size = "696212"
 usize = "757740"
-sha1sum = "f2ffcf33bd48f5dc6cc62b35674a89e6f023f484"
+sha1sum = "750f71722d8efac445d092085e82ac95b7625303"
 depends = "['thunderbird>=115.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++

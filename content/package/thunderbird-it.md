@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird-it 115.11.1-1"
-version = "115.11.1-1"
+title = "thunderbird-it 115.11.1-2"
+version = "115.11.1-2"
 description = "Italian language support for Thunderbird"
-date = "2024-06-02T10:28:51"
+date = "2024-06-05T16:26:49"
 aliases = "/packages/5205"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "614888"
+size = "614992"
 usize = "676205"
-sha1sum = "4573a6c226a9e47f8362b79a85241fd49376b29b"
+sha1sum = "d01fe2dab076546e796912663310b36d828db808"
 depends = "['thunderbird>=115.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
