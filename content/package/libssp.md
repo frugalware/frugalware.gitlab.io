@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssp 14.1.0-3"
-version = "14.1.0-3"
+title = "libssp 14.1.0-4"
+version = "14.1.0-4"
 description = "SSP libraries from GCC"
-date = "2024-05-29T15:17:01"
+date = "2024-06-05T12:40:09"
 aliases = "/packages/16260"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "27492"
+size = "27576"
 usize = "99241"
-sha1sum = "07eb4b7744525014d48ed826269eb71ef1f2312b"
+sha1sum = "13f7eee038e1ef8f1117df5d1199768022155f4f"
 depends = "['glibc']"
 reverse_depends = "['avahi', 'avahi-compat', 'avahi-dnsconfd', 'efl']"
 +++

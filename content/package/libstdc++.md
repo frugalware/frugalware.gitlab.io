@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libstdc++ 14.1.0-3"
-version = "14.1.0-3"
+title = "libstdc++ 14.1.0-4"
+version = "14.1.0-4"
 description = "GNU Standard C++ Library"
-date = "2024-05-29T15:17:01"
+date = "2024-06-05T12:40:09"
 aliases = "/packages/3199"
 categories = ['base']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "3881400"
-usize = "32036386"
-sha1sum = "725cc40729eb8ccaf73405e145c3b469e1135066"
+size = "3719480"
+usize = "32036764"
+sha1sum = "319f4d6cd4828414fca4548ddef872956a371587"
 depends = "['libgcc']"
 reverse_depends = "['7zip', 'abseil-cpp', 'acpitool', 'alsa-tools', 'aom', 'aspell', 'assimp', 'audiofile', 'benchmark', 'binutils', 'botan', 'bullet', 'capnproto', 'catcodec', 'cdrdao', 'cld2', 'clucene', 'codecs', 'courier-unicode', 'cppdap', 'cppunit', 'cryptopp', 'ddrescue', 'djvulibre', 'double-conversion', 'doxygen', 'dssi', 'dvd+rw-tools', 'edid-decode', 'efl', 'elfutils', 'enchant', 'enlightenment', 'exempi', 'exiv2', 'faac', 'ffmpeg', 'firebird', 'firefox', 'fish', 'flac', 'flann-static', 'flatbuffers', 'fluxbox', 'flvstreamer', 'fmtlib', 'foldingathome', 'fox-1.2', 'freehdl', 'gcc-g++', 'gegl', 'geos', 'glslang', 'gmmlib', 'gmp', 'gnucap', 'google-glog', 'gperf', 'gptfdisk', 'graphite2', 'grfcodec', 'groff', 'gsoap', 'gst1-plugins-bad-mpeg2enc', 'gtest', 'gtkmm', 'gtkmm3', 'guarddog', 'harfbuzz', 'hdf5', 'hk_classes-base', 'hunspell', 'icu4c', 'id3lib', 'imagemagick', 'iniparser', 'iperf', 'kasablanca', 'kat', 'knetstats', 'knoda', 'koverartist', 'ksniffer', 'ksubeditor', 'ksubtile', 'ladspa_sdk', 'lensfun', 'level-zero', 'lib32-llvm', 'lib32-vulkan-loader-layers', 'libboost-mpi', 'libbs2b', 'libcaca', 'libcdio', 'libconfig', 'libde265', 'libebml', 'libextractor', 'libfilezilla', 'libglu', 'libgpgmepp', 'libmodplug', 'libmp4v2', 'libnumbertext', 'libopenraw', 'libpgf', 'libqalculate', 'libquvi', 'libsass', 'libsigc++2', 'libsigc++3', 'libsmbios', 'libtiff', 'libvpx', 'libwpd', 'libwpe', 'libwpg', 'libzen', 'litehtml', 'live', 'llvm', 'llvm15', 'log4cpp', 'lrzip', 'lshw', 'lz4-static', 'lzip', 'maxemumtvguide', 'mda.lv2', 'mimetic', 'mlt-qt', 'mold', 'mono', 'mosh', 'mpdecimal', 'mrustc', 'mythes', 'nauty-static', 'netpanzer', 'nettle-static', 'nss', 'ntv2', 'ocrad', 'octave', 'ode', 'olm', 'openh264', 'openjade', 'openloco', 'openmpi', 'opensp', 'p8-platform', 'partimage', 'patchelf', 'pbzip2', 'pcre', 'pdns', 'pdns-recursor', 'poppler', 'poppler-glib', 'poppler-pdftools', 'printoxx', 'protobuf', 'qpdf', 'qscintilla2', 'qt5-base-static', 'qt6-base-static', 'qtcurve', 'qtcurve-gtk', 'ragel', 're2', 're2c', 'rr', 's2tc', 'scim', 'silly', 'smartmontools', 'snappy', 'soundtouch', 'srt', 'stella', 'swig', 'taglib', 'taglib1', 'terminology', 'tinyxml2', 'uchardet', 'uncrustify', 'unrar', 'upx', 'uwsgi-plugin-cplusplus', 'v4l-utils', 'vamp-plugin-sdk', 'vdpauinfo', 'vkbasalt', 'vulkan-loader-layers', 'vulkan-tools', 'webrtc-audio-processing', 'webrtc-audio-processing-1', 'wmi', 'x265', 'xapian-core', 'xmlrpc-c', 'xz-static', 'zeromq', 'znc', 'zsplit', 'zxing-cpp']"
 +++
