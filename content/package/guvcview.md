@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "guvcview 2.0.6-5"
-version = "2.0.6-5"
+title = "guvcview 2.1.0-1"
+version = "2.1.0-1"
 description = "A video viewer and capturer for the linux uvc driver"
-date = "2024-05-28T21:19:22"
+date = "2024-06-05T18:35:06"
 aliases = "/packages/220086"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/guvcview"
 arch = "x86_64"
-size = "299352"
-usize = "1100871"
-sha1sum = "20467bbf4c8bf7e4ff2f6f44dae15e464ab9de6e"
-depends = "['ffmpeg>=6.0', 'gsl>=2.8', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'sdl2', 'systemd>=188', 'twolame']"
+size = "284664"
+usize = "1081688"
+sha1sum = "e83f5d6e4dad76f00e3b45653e1bd98b8ed15eb9"
+depends = "['ffmpeg>=7.0', 'gsl>=2.8', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'sdl2', 'systemd>=188', 'twolame']"
 +++
 ### Description: 
 A video viewer and capturer for the linux uvc driver
@@ -23,29 +23,28 @@ A video viewer and capturer for the linux uvc driver
 * /usr/include/guvcview-2/libgviewrender/gviewrender.h
 * /usr/include/guvcview-2/libgviewv4l2core/gview.h
 * /usr/include/guvcview-2/libgviewv4l2core/gviewv4l2core.h
-* /usr/lib/libgviewaudio-2.0.so.2
-* /usr/lib/libgviewaudio-2.0.so.2.0.0
+* /usr/lib/libgviewaudio-2.2.so.2
+* /usr/lib/libgviewaudio-2.2.so.2.0.2
 * /usr/lib/libgviewaudio.so
-* /usr/lib/libgviewencoder-2.0.so.2
-* /usr/lib/libgviewencoder-2.0.so.2.0.0
+* /usr/lib/libgviewencoder-2.2.so.2
+* /usr/lib/libgviewencoder-2.2.so.2.0.2
 * /usr/lib/libgviewencoder.so
-* /usr/lib/libgviewrender-2.0.so.2
-* /usr/lib/libgviewrender-2.0.so.2.0.0
+* /usr/lib/libgviewrender-2.2.so.2
+* /usr/lib/libgviewrender-2.2.so.2.0.2
 * /usr/lib/libgviewrender.so
-* /usr/lib/libgviewv4l2core-2.0.so.2
-* /usr/lib/libgviewv4l2core-2.0.so.2.0.0
+* /usr/lib/libgviewv4l2core-2.2.so.2
+* /usr/lib/libgviewv4l2core-2.2.so.2.0.2
 * /usr/lib/libgviewv4l2core.so
 * /usr/lib/pkgconfig/libgviewaudio.pc
 * /usr/lib/pkgconfig/libgviewencoder.pc
 * /usr/lib/pkgconfig/libgviewrender.pc
 * /usr/lib/pkgconfig/libgviewv4l2core.pc
-* /usr/share/appdata/guvcview.appdata.xml
 * /usr/share/applications/guvcview.desktop
-* /usr/share/doc/guvcview-2.0.6/AUTHORS
-* /usr/share/doc/guvcview-2.0.6/ChangeLog
-* /usr/share/doc/guvcview-2.0.6/COPYING
-* /usr/share/doc/guvcview-2.0.6/INSTALL
-* /usr/share/doc/guvcview-2.0.6/README.md
+* /usr/share/doc/guvcview-2.1.0/AUTHORS
+* /usr/share/doc/guvcview-2.1.0/ChangeLog
+* /usr/share/doc/guvcview-2.1.0/COPYING
+* /usr/share/doc/guvcview-2.1.0/INSTALL
+* /usr/share/doc/guvcview-2.1.0/README.md
 * /usr/share/doc/guvcview/AUTHORS
 * /usr/share/doc/guvcview/ChangeLog
 * /usr/share/doc/guvcview/COPYING
@@ -105,10 +104,5 @@ A video viewer and capturer for the linux uvc driver
 * /usr/share/locale/zh_TW/LC_MESSAGES/gview_v4l2core.mo
 * /usr/share/man/man1/guvcview.1.gz
 * /usr/share/menu/guvcview
-* /usr/share/pixmaps/guvcview/audio_controls.png
-* /usr/share/pixmaps/guvcview/camera.png
-* /usr/share/pixmaps/guvcview/close.png
+* /usr/share/metainfo/guvcview.appdata.xml
 * /usr/share/pixmaps/guvcview/guvcview.png
-* /usr/share/pixmaps/guvcview/image_controls.png
-* /usr/share/pixmaps/guvcview/movie.png
-* /usr/share/pixmaps/guvcview/video_controls.png

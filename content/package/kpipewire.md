@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpipewire 6.0.5-1"
-version = "6.0.5-1"
+title = "kpipewire 6.0.5-2"
+version = "6.0.5-2"
 description = "Components relating to pipewire use in Plasma"
-date = "2024-05-22T10:30:32"
+date = "2024-06-05T18:28:14"
 aliases = "/packages/220610"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "113716"
-usize = "441065"
-sha1sum = "44ccc3ec9966cbfa8b94a6410a161e967301cc3f"
-depends = "['ffmpeg>=6.0', 'kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'kwayland>=6.0.5', 'libepoxy', 'pipewire']"
+size = "114264"
+usize = "417913"
+sha1sum = "11b1e182bb2dbdbb9315adbc07f406b338146844"
+depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'kwayland>=6.0.5', 'libepoxy', 'pipewire']"
 reverse_depends = "['krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
 +++
 ### Description: 

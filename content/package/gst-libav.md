@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst-libav 1.24.4-1"
-version = "1.24.4-1"
+title = "gst-libav 1.24.4-2"
+version = "1.24.4-2"
 description = "GStreamer plugin for the libav* library (former FFmpeg)"
-date = "2024-05-30T09:39:58"
+date = "2024-06-05T18:26:09"
 aliases = "/packages/168829"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "141128"
-usize = "410338"
-sha1sum = "f1c331db84ba65a1bb061b1db3aa997044bf6c10"
-depends = "['ffmpeg>=6.0', 'gst1-plugins-base>=1.24.4', 'libffi>=3.2.1-2']"
+size = "141324"
+usize = "402882"
+sha1sum = "75b1c13102824b6d981d70333eb66655d2996d9a"
+depends = "['ffmpeg>=7.0', 'gst1-plugins-base>=1.24.4', 'libffi>=3.2.1-2']"
 reverse_depends = "['spice', 'spice-glib', 'webkit-gtk3']"
 +++
 ### Description: 
