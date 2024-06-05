@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-plugins 1.2.7.1-3"
-version = "1.2.7.1-3"
+title = "alsa-plugins 1.2.7.1-4"
+version = "1.2.7.1-4"
 description = "Various plugins for ALSA."
-date = "2024-05-24T15:30:14"
+date = "2024-06-05T13:31:46"
 aliases = "/packages/153061"
 categories = ['multimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "37840"
+size = "38044"
 usize = "152716"
-sha1sum = "289c8aee49fc29dba22d0668ced5b6aee6c12d3c"
+sha1sum = "c1ada43b49e704b39f46e09c741ef7c1875a6c38"
 depends = "['alsa-lib>=1.1.3']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'alsa-plugin-jack', 'alsa-plugin-pulseaudio', 'alsa-plugin-samplerate', 'alsa-plugin-speex']"
 +++

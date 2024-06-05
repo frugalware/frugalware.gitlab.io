@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libde265 1.0.15-3"
-version = "1.0.15-3"
+title = "libde265 1.0.15-4"
+version = "1.0.15-4"
 description = "Open h.265 video codec implementation"
-date = "2024-05-26T22:10:51"
+date = "2024-06-05T13:37:51"
 aliases = "/packages/220874"
 categories = ['lib']
 upstreamurl = "https://github.com/strukturag/libde265"
 arch = "x86_64"
-size = "258768"
-usize = "822845"
-sha1sum = "6a930a9398aa5670dd00065e4d84af284618512d"
+size = "260804"
+usize = "765693"
+sha1sum = "cbdbc8f6b1e1abe7c7ddcbc9e2a8ce6332acc721"
 depends = "['libstdc++']"
 reverse_depends = "['gst1-plugins-bad-de265', 'libheif', 'sherlock265']"
 +++

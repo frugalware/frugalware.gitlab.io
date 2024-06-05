@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "alsa-plugin-ffmpeg 1.2.7.1-3"
-version = "1.2.7.1-3"
+title = "alsa-plugin-ffmpeg 1.2.7.1-4"
+version = "1.2.7.1-4"
 description = "ALSA plugin for ffmpeg."
-date = "2024-05-24T15:30:14"
+date = "2024-06-05T13:31:46"
 aliases = "/packages/153062"
 categories = ['xmultimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "14336"
+size = "14540"
 usize = "38068"
-sha1sum = "f2a020fb200c260075587b87fc7d2a897b1052a1"
-depends = "['alsa-plugins>=1.2.7.1', 'ffmpeg>=6.0']"
+sha1sum = "7165bc9008dc31311868955c86f0fe457947fd9f"
+depends = "['alsa-plugins>=1.2.7.1', 'ffmpeg>=7.0']"
 +++
 ### Description: 
 ALSA plugin for ffmpeg.
