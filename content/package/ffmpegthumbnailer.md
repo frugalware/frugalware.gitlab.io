@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ffmpegthumbnailer 2.2.2-4"
-version = "2.2.2-4"
+title = "ffmpegthumbnailer 2.2.2-5"
+version = "2.2.2-5"
 description = "Creates thumbnails for your video files"
-date = "2023-03-01T07:40:40"
+date = "2024-06-05T18:02:22"
 aliases = "/packages/39926"
 categories = ['xapps']
 upstreamurl = "https://github.com/dirkvdb/ffmpegthumbnailer"
 arch = "x86_64"
-size = "85808"
-usize = "281917"
-sha1sum = "ce08a111f76a5197d0149e876904d1e8ca52ccdf"
-depends = "['ffmpeg>=6.0']"
+size = "89532"
+usize = "282631"
+sha1sum = "a73c541e50ad49c47bea44af03168397571ce66a"
+depends = "['ffmpeg>=7.0']"
 +++
 ### Description: 
 Creates thumbnails for your video files

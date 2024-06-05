@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "aubio 0.4.9-9"
-version = "0.4.9-9"
+title = "aubio 0.4.9-10"
+version = "0.4.9-10"
 description = "A tool for extracting annotations from audio signals"
-date = "2024-05-25T13:57:08"
+date = "2024-06-05T18:00:52"
 aliases = "/packages/220466"
 categories = ['multimedia-extra']
 upstreamurl = "https://aubio.org"
 arch = "x86_64"
-size = "1315232"
-usize = "5527121"
-sha1sum = "b097434cd774e35e8c0bc049f9e3c3becada50db"
-depends = "['ffmpeg', 'jack2', 'python3-numpy']"
+size = "1321812"
+usize = "5465913"
+sha1sum = "ba3db33222b54371a0488e69c58994ebb6602f27"
+depends = "['ffmpeg>=7.0', 'jack2', 'python3-numpy']"
 reverse_depends = "['performous']"
 +++
 ### Description: 

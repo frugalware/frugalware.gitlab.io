@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "unpaper 7.0.0-2"
-version = "7.0.0-2"
+title = "unpaper 7.0.0-3"
+version = "7.0.0-3"
 description = "post-processing scanned and photocopied book pages"
-date = "2023-03-01T15:07:34"
+date = "2024-06-05T17:21:56"
 aliases = "/packages/87757"
 categories = ['apps-extra']
 upstreamurl = "https://www.flameeyes.eu/projects/unpaper"
 arch = "x86_64"
-size = "43504"
-usize = "104739"
-sha1sum = "505f5723a4acbd302ba66c74de179dcbc9f574e6"
-depends = "['ffmpeg>=6.0']"
+size = "43664"
+usize = "94333"
+sha1sum = "055cc7d3a7247e1ba762db5b0b89ea750fe38236"
+depends = "['ffmpeg>=7.0']"
 +++
 ### Description: 
 post-processing scanned and photocopied book pages
