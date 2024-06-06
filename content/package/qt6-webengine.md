@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-webengine 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-webengine 6.7.1-2"
+version = "6.7.1-2"
 description = "The Qt6 toolkit, qtwebengine"
-date = "2024-05-21T10:25:45"
+date = "2024-06-06T13:16:19"
 aliases = "/packages/220791"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "82023684"
-usize = "250000045"
-sha1sum = "ebd208bb785d857094a7120b99022e68941b7e91"
-depends = "['ffmpeg>=6.0', 'icu4c>=75.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libvpx', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
+size = "82414152"
+usize = "250538973"
+sha1sum = "4fa4d905ec8b85c320895df4048227fa3126a0c1"
+depends = "['ffmpeg>=7.0', 'icu4c>=75.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libvpx', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
 reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'falkon', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'seafile-client', 'skanpage']"
 +++
 ### Description: 
