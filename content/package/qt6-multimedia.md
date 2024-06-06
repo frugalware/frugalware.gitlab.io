@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-multimedia 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-multimedia 6.7.1-2"
+version = "6.7.1-2"
 description = "The Qt6 toolkit, qtmultimedia"
-date = "2024-05-21T10:54:05"
+date = "2024-06-06T14:48:15"
 aliases = "/packages/220802"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "918604"
-usize = "3953354"
-sha1sum = "122f65e2a9f9849c515a297b58ce060f87b801b3"
-depends = "['ffmpeg>=6.0', 'gst1-plugins-base', 'libxrandr', 'qt6-quick3d']"
+size = "917652"
+usize = "3889682"
+sha1sum = "f309b687e9176f0e8632ecf08741a9381db331b1"
+depends = "['ffmpeg>=7.0', 'gst1-plugins-base', 'libxrandr', 'qt6-quick3d']"
 reverse_depends = "['audiotube', 'elisa', 'kclock', 'kdeconnect-kde', 'kfilemetadata', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'ladybird', 'libquotient', 'mkvtoolnix-gui', 'parley', 'prison', 'qmmp', 'qt6-charts', 'qt6-speech']"
 +++
 ### Description: 
