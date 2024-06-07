@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xine-lib 1.2.13-8"
-version = "1.2.13-8"
+title = "xine-lib 1.2.13-9"
+version = "1.2.13-9"
 description = "Xine multimedia playback engine libraries"
-date = "2024-02-20T18:52:20"
+date = "2024-06-07T08:24:15"
 aliases = "/packages/3421"
 categories = ['xlib']
 upstreamurl = "http://xinehq.de"
 arch = "x86_64"
-size = "2401876"
-usize = "8238768"
-sha1sum = "69535b40f0084d1c72f164e37120e61ef312eeee"
-depends = "['aalib>=1.4rc5-8', 'dav1d>=1.3.0', 'ffmpeg>=6.0', 'flac>=1.4.0', 'imagemagick>=7.1.1', 'libdca>=0.0.5-4', 'libdvdnav>=6.1.0', 'libffi>=3.2.1', 'libglu>=9.0.0-2', 'libmad>=0.15.1b-9', 'libmng>=2.0.3-3', 'libmodplug>=0.8.8.5-2', 'libmpcdec>=1.2.6-3', 'libpng>=1.6.25', 'libva>=2.3', 'libvpx>=1.13.0', 'libxinerama>=1.1.3-2', 'libxvmc>=1.0.9-2', 'ocl-icd', 'sdl', 'vcdimager>=0.7.24-6', 'wavpack>=4.75.2-2']"
+size = "2408124"
+usize = "7652800"
+sha1sum = "3fff8dc8901931f55d3adeacecad93dbe134cc25"
+depends = "['aalib>=1.4rc5-8', 'dav1d>=1.3.0', 'ffmpeg>=7.0', 'flac>=1.4.0', 'imagemagick>=7.1.1', 'libdca>=0.0.5-4', 'libdvdnav>=6.1.0', 'libffi>=3.2.1', 'libglu>=9.0.0-2', 'libmad>=0.15.1b-9', 'libmng>=2.0.3-3', 'libmodplug>=0.8.8.5-2', 'libmpcdec>=1.2.6-3', 'libpng>=1.6.25', 'libva>=2.3', 'libvpx>=1.13.0', 'libxinerama>=1.1.3-2', 'libxvmc>=1.0.9-2', 'ocl-icd', 'sdl', 'vcdimager>=0.7.24-6', 'wavpack>=4.75.2-2']"
 reverse_depends = "['codeine', 'opencv', 'xine-ui']"
 +++
 ### Description: 
@@ -130,7 +130,6 @@ Xine multimedia playback engine libraries
 * /usr/lib/xine/plugins/2.11/xineplug_inp_network.so
 * /usr/lib/xine/plugins/2.11/xineplug_inp_pvr.so
 * /usr/lib/xine/plugins/2.11/xineplug_inp_rtp.so
-* /usr/lib/xine/plugins/2.11/xineplug_inp_ssh.so
 * /usr/lib/xine/plugins/2.11/xineplug_inp_v4l2.so
 * /usr/lib/xine/plugins/2.11/xineplug_inp_vcd.so
 * /usr/lib/xine/plugins/2.11/xineplug_inp_vcdo.so
@@ -177,7 +176,6 @@ Xine multimedia playback engine libraries
 * /usr/share/doc/xine-lib-1.2.13/hackersguide/overlays.png
 * /usr/share/doc/xine-lib-1.2.13/hackersguide/post_frame.png
 * /usr/share/doc/xine-lib-1.2.13/INSTALL
-* /usr/share/doc/xine-lib-1.2.13/LICENSE
 * /usr/share/doc/xine-lib-1.2.13/NEWS
 * /usr/share/doc/xine-lib-1.2.13/README
 * /usr/share/doc/xine-lib-1.2.13/README.cetus
@@ -186,7 +184,6 @@ Xine multimedia playback engine libraries
 * /usr/share/doc/xine-lib-1.2.13/README.freebsd
 * /usr/share/doc/xine-lib-1.2.13/README.irix
 * /usr/share/doc/xine-lib-1.2.13/README.macosx
-* /usr/share/doc/xine-lib-1.2.13/README.md
 * /usr/share/doc/xine-lib-1.2.13/README.MINGWCROSS
 * /usr/share/doc/xine-lib-1.2.13/README.network_dvd
 * /usr/share/doc/xine-lib-1.2.13/README.opengl

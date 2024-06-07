@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openimageio 2.5.10.1-1"
-version = "2.5.10.1-1"
+title = "openimageio 2.5.12.0-1"
+version = "2.5.12.0-1"
 description = "A library for reading and writing images, including classes, utilities, and applications."
-date = "2024-04-21T00:24:42"
+date = "2024-06-07T08:48:06"
 aliases = "/packages/169088"
 categories = ['xlib-extra']
 upstreamurl = "http://www.openimageio.org/"
 arch = "x86_64"
-size = "4071432"
-usize = "16944456"
-sha1sum = "add3c11773ca6e249de02440c5840cdaf8c6d842"
-depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.85.0', 'libheif', 'libraw>=0.21.1', 'openblas', 'opencv>=4.9.0', 'openexr>=3.2.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb', 'pybind11', 'zlib>=1.2.12']"
+size = "4172488"
+usize = "17635263"
+sha1sum = "0e070e8c8ad80a911fba080db6c9860453517eb0"
+depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.85.0', 'libheif', 'libraw>=0.21.1', 'openblas', 'opencv>=4.10.0', 'openexr>=3.2.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb', 'pybind11', 'zlib>=1.2.12']"
 reverse_depends = "['alicevision', 'blender', 'embree', 'openshadinglanguage', 'qtoiio']"
 +++
 ### Description: 
@@ -95,15 +95,15 @@ A library for reading and writing images, including classes, utilities, and appl
 * /usr/lib/cmake/OpenImageIO/OpenImageIOTargets.cmake
 * /usr/lib/libOpenImageIO.so
 * /usr/lib/libOpenImageIO.so.2.5
-* /usr/lib/libOpenImageIO.so.2.5.10
+* /usr/lib/libOpenImageIO.so.2.5.12
 * /usr/lib/libOpenImageIO_Util.so
 * /usr/lib/libOpenImageIO_Util.so.2.5
-* /usr/lib/libOpenImageIO_Util.so.2.5.10
+* /usr/lib/libOpenImageIO_Util.so.2.5.12
 * /usr/lib/pkgconfig/OpenImageIO.pc
 * /usr/lib/python3.12/site-packages/OpenImageIO/OpenImageIO.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/OpenImageIO/__init__.py
-* /usr/share/doc/openimageio-2.5.10.1/INSTALL.md
-* /usr/share/doc/openimageio-2.5.10.1/README.md
+* /usr/share/doc/openimageio-2.5.12.0/INSTALL.md
+* /usr/share/doc/openimageio-2.5.12.0/README.md
 * /usr/share/doc/OpenImageIO/CHANGES-0.x.md
 * /usr/share/doc/OpenImageIO/CHANGES-1.x.md
 * /usr/share/doc/OpenImageIO/CHANGES.md
