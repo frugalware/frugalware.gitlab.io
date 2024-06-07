@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ultrastardx 2024.5.1-1"
-version = "2024.5.1-1"
+title = "ultrastardx 2024.5.1-2"
+version = "2024.5.1-2"
 description = "Free and open source karaoke game"
-date = "2024-05-24T14:46:32"
+date = "2024-06-07T14:09:51"
 aliases = "/packages/220454"
 categories = ['games-extra']
 upstreamurl = "http://usdx.eu/"
 arch = "x86_64"
-size = "46963792"
-usize = "82541162"
-sha1sum = "e3d2ba3ac06784062b7c2cef412e7250d6d6ded0"
-depends = "['ffmpeg>=6.0', 'freetype2', 'lua', 'sdl2', 'sdl2_image']"
+size = "46599816"
+usize = "82541354"
+sha1sum = "31162612accc3d9829ba25361b3dff742f7aa8c4"
+depends = "['ffmpeg>=7.0', 'freetype2', 'lua', 'sdl2', 'sdl2_image']"
 +++
 ### Description: 
 Free and open source karaoke game
