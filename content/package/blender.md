@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blender 4.1.1-3"
-version = "4.1.1-3"
+title = "blender 4.1.1-4"
+version = "4.1.1-4"
 description = "A 3D modeling/rendering/animation/gaming application"
-date = "2024-06-03T19:50:30"
+date = "2024-06-07T15:25:58"
 aliases = "/packages/2933"
 categories = ['xapps-extra']
 upstreamurl = "https://www.blender.org"
 arch = "x86_64"
-size = "65574680"
-usize = "221935565"
-sha1sum = "2ca923cd7948186397f035306677eec5a374762b"
+size = "65452436"
+usize = "221546445"
+sha1sum = "7d902d7464be1d7c1c72f9e35f6f9229e13f76a7"
 depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.82.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.1.0', 'openimageio>=2.1.12.0', 'openjpeg', 'openshadinglanguage', 'openvdb>=10.1.0', 'potrace', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl>=1.2.13-2']"
 +++
 ### Description: 
