@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-resindvd 1.24.4-1"
-version = "1.24.4-1"
+title = "gst1-plugins-bad-resindvd 1.24.4-2"
+version = "1.24.4-2"
 description = "GStreamer resindvd plugin (Bad)."
-date = "2024-05-30T09:16:47"
+date = "2024-06-07T20:04:28"
 aliases = "/packages/168838"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "70668"
-usize = "183184"
-sha1sum = "75180428c4ab7b742427f74992dd4cc7137917ee"
+size = "71108"
+usize = "175632"
+sha1sum = "d9354ea3180ce31fc2221fede8c27634c643d2da"
 depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'libdvdnav>=6.1.0', 'libdvdread>=6.1.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 

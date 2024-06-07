@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-wayland 1.24.4-1"
-version = "1.24.4-1"
+title = "gst1-plugins-bad-wayland 1.24.4-2"
+version = "1.24.4-2"
 description = "GStreamer Wayland plugin (Bad)."
-date = "2024-05-30T09:16:47"
+date = "2024-06-07T20:04:28"
 aliases = "/packages/221260"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "38556"
-usize = "122028"
-sha1sum = "2f062e7f9385fe5e49057389378fd4c7de897786"
+size = "39052"
+usize = "117788"
+sha1sum = "ca13add11bc7741e7731f1e095732ff23cd9f944"
 depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'wayland']"
 +++
 ### Description: 

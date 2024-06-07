@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-webrtc 1.24.4-1"
-version = "1.24.4-1"
+title = "gst1-plugins-bad-webrtc 1.24.4-2"
+version = "1.24.4-2"
 description = "GStreamer WebRTC plugin (Bad)."
-date = "2024-05-30T09:16:47"
+date = "2024-06-07T20:04:28"
 aliases = "/packages/221259"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "137812"
-usize = "476973"
-sha1sum = "d73bb2dfe124245cd09a7ce47943da8e9f882e20"
+size = "138872"
+usize = "449141"
+sha1sum = "18458e7ff189c80f607b5daafb67c5ed1219575b"
 depends = "['gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4', 'webrtc-audio-processing-1']"
 +++
 ### Description: 
