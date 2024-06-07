@@ -12,7 +12,7 @@ size = "116292"
 usize = "290454"
 sha1sum = "5c94d3d969aef45c353727d6d8a6e10886e32f81"
 depends = "['fontconfig', 'fribidi>=0.19.7-4', 'harfbuzz>=1.3.1', 'libenca>=1.16-4']"
-reverse_depends = "['ffmpeg', 'gst1-plugins-bad', 'gtk-handbrake', 'mencoder', 'mplayer', 'mpv', 'vlc-ass']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad', 'gtk-handbrake', 'mencoder', 'mplayer', 'mpv', 'vlc-ass']"
 +++
 ### Description: 
 A portable library for SSA/ASS subtitles rendering

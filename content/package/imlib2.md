@@ -12,7 +12,7 @@ size = "570836"
 usize = "1510113"
 sha1sum = "a776fa571beecbe52a12155d6501458c1dae5252"
 depends = "['freetype2>=2.9', 'libgif>=5.1.1-2', 'libid3tag>=0.15.1b-6', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6', 'libxext>=1.3.3-3']"
-reverse_depends = "['conky', 'feh', 'ffmpeg', 'fluxbox', 'kompose', 'libcaca', 'openbox']"
+reverse_depends = "['conky', 'feh', 'ffmpeg', 'ffmpeg4.4', 'fluxbox', 'kompose', 'libcaca', 'openbox']"
 +++
 ### Description: 
 Imlib 2 is the successor to Imlib.

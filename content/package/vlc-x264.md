@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vlc-x264 3.0.20-13"
-version = "3.0.20-13"
+title = "vlc-x264 3.0.21-1"
+version = "3.0.21-1"
 description = "vlc x264 support"
-date = "2024-05-27T07:56:23"
+date = "2024-06-07T07:56:39"
 aliases = "/packages/219598"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "31712"
-usize = "97840"
-sha1sum = "5eef40176ce2be9a9b1c0117ff9fc57fb5560721"
-depends = "['libvlc>=3.0.20', 'x264>=20230712.ga8b68eb']"
+size = "32712"
+usize = "91360"
+sha1sum = "55397b93459e47aaeb9b95e9fcf0972882c165d5"
+depends = "['libvlc>=3.0.21', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
 vlc x264 support

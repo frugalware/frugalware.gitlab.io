@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vlc-fluidsynth 3.0.20-13"
-version = "3.0.20-13"
+title = "vlc-fluidsynth 3.0.21-1"
+version = "3.0.21-1"
 description = "vlc plugin for fluidsynth"
-date = "2024-05-27T07:56:23"
+date = "2024-06-07T07:56:39"
 aliases = "/packages/219499"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17156"
-usize = "14024"
-sha1sum = "3ab21be61ba332c8322aa1b80ccffb1aa135d4a6"
-depends = "['fluidsynth', 'libvlc>=3.0.20']"
+size = "17236"
+usize = "12576"
+sha1sum = "8f8441530dfd1599e442ae5e29fb34072202d511"
+depends = "['fluidsynth', 'libvlc>=3.0.21']"
 +++
 ### Description: 
 vlc plugin for fluidsynth

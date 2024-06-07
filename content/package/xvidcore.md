@@ -12,7 +12,7 @@ size = "246624"
 usize = "940676"
 sha1sum = "9d4f1ee280ea71db239a2781e08a7629ffb0ed7f"
 depends = "['glibc>=2.34']"
-reverse_depends = "['ffmpeg', 'mencoder', 'mplayer', 'ufoai']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'mencoder', 'mplayer', 'ufoai']"
 license = "GPL"
 +++
 ### Description: 

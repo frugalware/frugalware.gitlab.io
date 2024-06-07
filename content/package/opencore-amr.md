@@ -12,7 +12,7 @@ size = "135560"
 usize = "266467"
 sha1sum = "0beca1f2251a8858b636118a4747260570c9baad"
 depends = "['glibc>=2.34']"
-reverse_depends = "['ffmpeg', 'mencoder', 'mplayer']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'mencoder', 'mplayer']"
 +++
 ### Description: 
 Library of OpenCORE Framework implementation of Adaptive Multi Rate Narrowband and Wideband speech codec

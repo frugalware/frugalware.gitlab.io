@@ -12,7 +12,7 @@ size = "161380"
 usize = "638870"
 sha1sum = "81dc3308d44f8d6401d3ed4c7dd476e96082fa19"
 depends = "['libunistring>=1.1']"
-reverse_depends = "['aria2', 'curl', 'ffmpeg', 'gnutls', 'iputils', 'libpsl', 's-nail', 'systemd', 'systemd-nspawn', 'systemd-systemctl']"
+reverse_depends = "['aria2', 'curl', 'ffmpeg', 'ffmpeg4.4', 'gnutls', 'iputils', 'libpsl', 's-nail', 'systemd', 'systemd-nspawn', 'systemd-systemctl']"
 +++
 ### Description: 
 GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification.

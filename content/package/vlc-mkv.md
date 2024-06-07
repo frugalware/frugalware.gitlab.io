@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vlc-mkv 3.0.20-13"
-version = "3.0.20-13"
+title = "vlc-mkv 3.0.21-1"
+version = "3.0.21-1"
 description = "vlc plugin for mkv"
-date = "2024-05-27T07:56:23"
+date = "2024-06-07T07:56:39"
 aliases = "/packages/135932"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "182924"
-usize = "477064"
-sha1sum = "a42c99c6fb4cca251485f6ed7f6f54556a92f83e"
-depends = "['libmatroska>=1.2.0', 'libvlc>=3.0.20']"
+size = "183760"
+usize = "467776"
+sha1sum = "786e66c002fa7d11960af1a4248596782448413a"
+depends = "['libmatroska>=1.2.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 
 vlc plugin for mkv

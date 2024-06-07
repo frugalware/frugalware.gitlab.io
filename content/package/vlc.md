@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vlc 3.0.20-13"
-version = "3.0.20-13"
+title = "vlc 3.0.21-1"
+version = "3.0.21-1"
 description = "The cross-platform media player and streaming server."
-date = "2024-05-27T07:56:23"
+date = "2024-06-07T07:56:39"
 aliases = "/packages/14226"
 categories = ['xmultimedia']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "10111264"
-usize = "57099883"
-sha1sum = "a3a6814a905cc086284256c8deeb959a221fac5c"
-depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.20', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
+size = "10108512"
+usize = "55281478"
+sha1sum = "b05ebbbb13c2c2711b4c4f54cc1ca624f61efb3e"
+depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.21', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
 reverse_depends = "['elisa', 'kaffeine', 'kasts', 'obs-studio']"
 +++
 ### Description: 
@@ -121,7 +121,6 @@ The cross-platform media player and streaming server.
 * /usr/lib/vlc/plugins/access/libaccess_imem_plugin.so
 * /usr/lib/vlc/plugins/access/libaccess_mms_plugin.so
 * /usr/lib/vlc/plugins/access/libaccess_realrtsp_plugin.so
-* /usr/lib/vlc/plugins/access/libaccess_srt_plugin.so
 * /usr/lib/vlc/plugins/access/libattachment_plugin.so
 * /usr/lib/vlc/plugins/access/libdtv_plugin.so
 * /usr/lib/vlc/plugins/access/libfilesystem_plugin.so
@@ -147,7 +146,6 @@ The cross-platform media player and streaming server.
 * /usr/lib/vlc/plugins/access_output/libaccess_output_http_plugin.so
 * /usr/lib/vlc/plugins/access_output/libaccess_output_livehttp_plugin.so
 * /usr/lib/vlc/plugins/access_output/libaccess_output_rist_plugin.so
-* /usr/lib/vlc/plugins/access_output/libaccess_output_srt_plugin.so
 * /usr/lib/vlc/plugins/access_output/libaccess_output_udp_plugin.so
 * /usr/lib/vlc/plugins/audio_filter/libaudiobargraph_a_plugin.so
 * /usr/lib/vlc/plugins/audio_filter/libaudio_format_plugin.so
@@ -208,6 +206,8 @@ The cross-platform media player and streaming server.
 * /usr/lib/vlc/plugins/codec/libtextst_plugin.so
 * /usr/lib/vlc/plugins/codec/libttml_plugin.so
 * /usr/lib/vlc/plugins/codec/libuleaddvaudio_plugin.so
+* /usr/lib/vlc/plugins/codec/libvaapi_drm_plugin.so
+* /usr/lib/vlc/plugins/codec/libvaapi_plugin.so
 * /usr/lib/vlc/plugins/codec/libwebvtt_plugin.so
 * /usr/lib/vlc/plugins/codec/libxwd_plugin.so
 * /usr/lib/vlc/plugins/control/libdbus_plugin.so
@@ -431,43 +431,43 @@ The cross-platform media player and streaming server.
 * /usr/lib/vlc/plugins/visualization/libvisual_plugin.so
 * /usr/lib/vlc/vlc-cache-gen
 * /usr/share/applications/vlc.desktop
-* /usr/share/doc/vlc-3.0.20/AUTHORS
-* /usr/share/doc/vlc-3.0.20/ChangeLog
-* /usr/share/doc/vlc-3.0.20/COPYING
-* /usr/share/doc/vlc-3.0.20/COPYING.LIB
-* /usr/share/doc/vlc-3.0.20/fortunes.txt
-* /usr/share/doc/vlc-3.0.20/INSTALL
-* /usr/share/doc/vlc-3.0.20/libvlc/CMakeLists.txt
-* /usr/share/doc/vlc-3.0.20/libvlc/gtk_player.c
-* /usr/share/doc/vlc-3.0.20/libvlc/libvlc_DVD_ripper.c
-* /usr/share/doc/vlc-3.0.20/libvlc/QtPlayer/LICENSE
-* /usr/share/doc/vlc-3.0.20/libvlc/QtPlayer/main.cpp
-* /usr/share/doc/vlc-3.0.20/libvlc/QtPlayer/player.cpp
-* /usr/share/doc/vlc-3.0.20/libvlc/QtPlayer/player.h
-* /usr/share/doc/vlc-3.0.20/libvlc/QtPlayer/QtVLC.pro
-* /usr/share/doc/vlc-3.0.20/libvlc/vlc-thumb.c
-* /usr/share/doc/vlc-3.0.20/libvlc/win_player.c
-* /usr/share/doc/vlc-3.0.20/libvlc/wx_player.cpp
-* /usr/share/doc/vlc-3.0.20/lua/extensions/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/http/requests/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/intf/dumpmeta.lua
-* /usr/share/doc/vlc-3.0.20/lua/intf/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/meta/art/01_googleimage.lua
-* /usr/share/doc/vlc-3.0.20/lua/meta/art/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/meta/fetcher/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/meta/reader/filename.lua
-* /usr/share/doc/vlc-3.0.20/lua/meta/reader/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/meta/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/playlist/liveleak.lua
-* /usr/share/doc/vlc-3.0.20/lua/playlist/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/playlist/youtube.lua
-* /usr/share/doc/vlc-3.0.20/lua/README.txt
-* /usr/share/doc/vlc-3.0.20/lua/sd/icast.lua
-* /usr/share/doc/vlc-3.0.20/lua/sd/icecast.lua
-* /usr/share/doc/vlc-3.0.20/lua/sd/README.txt
-* /usr/share/doc/vlc-3.0.20/NEWS
-* /usr/share/doc/vlc-3.0.20/README
-* /usr/share/doc/vlc-3.0.20/THANKS
+* /usr/share/doc/vlc-3.0.21/AUTHORS
+* /usr/share/doc/vlc-3.0.21/ChangeLog
+* /usr/share/doc/vlc-3.0.21/COPYING
+* /usr/share/doc/vlc-3.0.21/COPYING.LIB
+* /usr/share/doc/vlc-3.0.21/fortunes.txt
+* /usr/share/doc/vlc-3.0.21/INSTALL
+* /usr/share/doc/vlc-3.0.21/libvlc/CMakeLists.txt
+* /usr/share/doc/vlc-3.0.21/libvlc/gtk_player.c
+* /usr/share/doc/vlc-3.0.21/libvlc/libvlc_DVD_ripper.c
+* /usr/share/doc/vlc-3.0.21/libvlc/QtPlayer/LICENSE
+* /usr/share/doc/vlc-3.0.21/libvlc/QtPlayer/main.cpp
+* /usr/share/doc/vlc-3.0.21/libvlc/QtPlayer/player.cpp
+* /usr/share/doc/vlc-3.0.21/libvlc/QtPlayer/player.h
+* /usr/share/doc/vlc-3.0.21/libvlc/QtPlayer/QtVLC.pro
+* /usr/share/doc/vlc-3.0.21/libvlc/vlc-thumb.c
+* /usr/share/doc/vlc-3.0.21/libvlc/win_player.c
+* /usr/share/doc/vlc-3.0.21/libvlc/wx_player.cpp
+* /usr/share/doc/vlc-3.0.21/lua/extensions/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/http/requests/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/intf/dumpmeta.lua
+* /usr/share/doc/vlc-3.0.21/lua/intf/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/meta/art/01_googleimage.lua
+* /usr/share/doc/vlc-3.0.21/lua/meta/art/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/meta/fetcher/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/meta/reader/filename.lua
+* /usr/share/doc/vlc-3.0.21/lua/meta/reader/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/meta/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/playlist/liveleak.lua
+* /usr/share/doc/vlc-3.0.21/lua/playlist/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/playlist/youtube.lua
+* /usr/share/doc/vlc-3.0.21/lua/README.txt
+* /usr/share/doc/vlc-3.0.21/lua/sd/icast.lua
+* /usr/share/doc/vlc-3.0.21/lua/sd/icecast.lua
+* /usr/share/doc/vlc-3.0.21/lua/sd/README.txt
+* /usr/share/doc/vlc-3.0.21/NEWS
+* /usr/share/doc/vlc-3.0.21/README
+* /usr/share/doc/vlc-3.0.21/THANKS
 * /usr/share/icons/hicolor/128x128/apps/vlc-kb.png
 * /usr/share/icons/hicolor/128x128/apps/vlc-xmas.png
 * /usr/share/icons/hicolor/128x128/apps/vlc.png

@@ -12,7 +12,7 @@ size = "203804"
 usize = "608036"
 sha1sum = "56484e23f87346eb8e14ec550016b31dade7002c"
 depends = "['glibc>=2.34']"
-reverse_depends = "['ffmpeg', 'gst1-plugins-bad-faad2', 'mencoder', 'mplayer', 'mpv', 'scummvm', 'vlc-faad']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-faad2', 'mencoder', 'mplayer', 'mpv', 'scummvm', 'vlc-faad']"
 +++
 ### Description: 
 ISO AAC audio decoder

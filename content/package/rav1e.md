@@ -12,7 +12,7 @@ size = "2652792"
 usize = "17815519"
 sha1sum = "1336508c48c0319533db913faf1fdff21b385dea"
 depends = "['libgcc>=12.2']"
-reverse_depends = "['ffmpeg', 'libavif', 'libheif']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'libavif', 'libheif']"
 +++
 ### Description: 
 An AV1 encoder focused on speed and safety
