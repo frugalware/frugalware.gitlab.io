@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gegl 0.4.46-1"
-version = "0.4.46-1"
+title = "gegl 0.4.48-1"
+version = "0.4.48-1"
 description = "GEGL is a graph based image processing framework."
-date = "2023-09-01T08:25:47"
+date = "2024-06-07T14:41:35"
 aliases = "/packages/38778"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gegl.org/"
 arch = "x86_64"
-size = "2734876"
-usize = "14283324"
-sha1sum = "a31272e9925262443f1203c25d3e5729ea803e3e"
-depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=6.0', 'jasper>=2.0.10', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'openexr>=3.2.0', 'suitesparse>=7.0.1']"
+size = "1907960"
+usize = "9189473"
+sha1sum = "5c9aff3c7af0e6f6207e58dde30c911cdf9b111a"
+depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=7.0', 'jasper>=2.0.10', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'openexr>=3.2.0', 'suitesparse>=7.0.1']"
 reverse_depends = "['gimp', 'libmypaint']"
 +++
 ### Description: 
@@ -158,51 +158,14 @@ GEGL is a graph based image processing framework.
 * /usr/lib/girepository-1.0/Gegl-0.4.typelib
 * /usr/lib/libgegl-0.4.so
 * /usr/lib/libgegl-0.4.so.0
-* /usr/lib/libgegl-0.4.so.0.445.1
+* /usr/lib/libgegl-0.4.so.0.447.1
 * /usr/lib/libgegl-npd-0.4.so
 * /usr/lib/libgegl-sc-0.4.so
 * /usr/lib/pkgconfig/gegl-0.4.pc
 * /usr/lib/pkgconfig/gegl-sc-0.4.pc
-* /usr/share/doc/gegl-0.4.46/AUTHORS
-* /usr/share/doc/gegl-0.4.46/COPYING
-* /usr/share/doc/gegl-0.4.46/COPYING.LESSER
-* /usr/share/doc/gegl-0.4.46/NEWS
-* /usr/share/doc/gegl-0.4.46/README
+* /usr/share/doc/gegl-0.4.48/AUTHORS
+* /usr/share/doc/gegl-0.4.48/COPYING
+* /usr/share/doc/gegl-0.4.48/COPYING.LESSER
+* /usr/share/doc/gegl-0.4.48/NEWS
+* /usr/share/doc/gegl-0.4.48/README
 * /usr/share/gir-1.0/Gegl-0.4.gir
-* /usr/share/locale/bs/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/ca/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/da/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/de/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/el/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/eo/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/es/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/eu/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/fr/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/gl/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/hr/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/id/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/is/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/it/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/ka/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/kab/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/ko/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/lv/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/mr/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/nb/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/ne/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/nl/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/oc/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/pl/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/pt/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/ro/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/ru/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/sk/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/sl/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/sr/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/sv/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/tr/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/uk/LC_MESSAGES/gegl-0.4.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/gegl-0.4.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mlt 7.24.0-2"
-version = "7.24.0-2"
+title = "mlt 7.24.0-3"
+version = "7.24.0-3"
 description = "MLT is an open source multimedia framework, designed and developed for television broadcasting."
-date = "2024-05-27T07:37:04"
+date = "2024-06-07T14:43:45"
 aliases = "/packages/218378"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "592756"
-usize = "2179202"
-sha1sum = "04202ee1e21cf0a90fb3ff3d821fd753f2114b27"
-depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=6.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libdv', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
+size = "595100"
+usize = "2065634"
+sha1sum = "60b89d983fe045a09d501056ba733c936cc4e10d"
+depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=7.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libdv', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
 reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-qt', 'mlt-sdl']"
 +++
 ### Description: 

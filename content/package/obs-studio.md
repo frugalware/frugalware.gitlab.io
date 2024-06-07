@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "obs-studio 30.1.2-2"
-version = "30.1.2-2"
+title = "obs-studio 30.1.2-3"
+version = "30.1.2-3"
 description = "Free, open source software for live streaming and recording"
-date = "2024-05-28T11:53:05"
+date = "2024-06-07T14:52:46"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "5825236"
-usize = "24053606"
-sha1sum = "6ce75cf108da1cdf038101114b03be65a1b7c6b8"
-depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=6.0', 'gtk+3', 'jansson', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.12', 'qt6-svg', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
+size = "5887816"
+usize = "23921726"
+sha1sum = "50cf67c22b4dff4f76fd11942e787aae9def6368"
+depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.12', 'qt6-svg', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 reverse_depends = "['obs-v4l2sink']"
 +++
 ### Description: 
