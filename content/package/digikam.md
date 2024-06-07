@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "digikam 8.3.0-2"
-version = "8.3.0-2"
+title = "digikam 8.3.0-3"
+version = "8.3.0-3"
 description = "Digital photo management application for kde"
-date = "2024-04-18T11:56:06"
+date = "2024-06-07T10:17:23"
 aliases = "/packages/3549"
 categories = ['kde6-extra']
 upstreamurl = "https://www.digikam.org"
 arch = "x86_64"
-size = "33582316"
-usize = "112456351"
-sha1sum = "fc69f6b7a2c0c65ffea6b132326e8ae6c56f6c22"
-depends = "['akonadi-contacts', 'kfilemetadata>=6.1.0', 'knotifyconfig>=6.1.0', 'lensfun', 'libksane', 'openblas', 'opencv', 'qt6-networkauth>=6.7.0', 'qt6-scxml>=6.7.0']"
+size = "33963060"
+usize = "111739781"
+sha1sum = "d705f278df3628ac91b9d5ce1598ba788796f3dc"
+depends = "['akonadi-contacts', 'kfilemetadata>=6.2.0', 'knotifyconfig>=6.2.0', 'lensfun', 'libksane', 'openblas', 'opencv', 'qt6-networkauth>=6.7.1', 'qt6-scxml>=6.7.1']"
 +++
 ### Description: 
 Digital photo management application for kde
