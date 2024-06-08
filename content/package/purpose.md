@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "purpose 6.2.0-2"
-version = "6.2.0-2"
+title = "purpose 6.3.0-1"
+version = "6.3.0-1"
 description = "Offers the possibility to create integrate services and actions on any application."
-date = "2024-05-21T18:24:29"
+date = "2024-06-08T12:50:04"
 aliases = "/packages/219557"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "306236"
-usize = "1672601"
-sha1sum = "9d018b45fa6de602fac5cffc65431c2729329f94"
+size = "305076"
+usize = "1567038"
+sha1sum = "7221ce03b502f4367c4f4ab1fed270dd9e908d64"
 depends = "['accounts-qml-module', 'kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kdeclarative>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kirigami>=6.3.0']"
 reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'gwenview', 'kdenlive', 'kdeplasma-addons', 'neochat', 'okular', 'pimcommon', 'plasma-browser-integration', 'plasmatube', 'skanpage', 'spectacle', 'tokodon']"
 +++
