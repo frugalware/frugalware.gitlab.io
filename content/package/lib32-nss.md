@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nss 3.100-1"
-version = "3.100-1"
+title = "lib32-nss 3.101-1"
+version = "3.101-1"
 description = "NSS library from mozilla.org ( 32bit )"
-date = "2024-05-23T07:46:38"
+date = "2024-06-08T11:09:22"
 aliases = "/packages/218950"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mozilla.org/projects/security/pki/nss/"
 arch = "x86_64"
-size = "1906324"
-usize = "6415961"
-sha1sum = "7494161430898877bac3b650a60e3c2e5476ddb5"
+size = "1861048"
+usize = "6329341"
+sha1sum = "2c3be030502c6d89046cc8b4e32059a11d2b87f9"
 depends = "['lib32-nspr>=4.34', 'lib32-sqlite3>=3.14.2-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-networkmanager', 'steam-native']"
 +++
@@ -76,6 +76,7 @@ NSS library from mozilla.org ( 32bit )
 * /usr/i686-frugalware-linux/include/nss3/nssckg.h
 * /usr/i686-frugalware-linux/include/nss3/nssckmdt.h
 * /usr/i686-frugalware-linux/include/nss3/nssckt.h
+* /usr/i686-frugalware-linux/include/nss3/nsshash.h
 * /usr/i686-frugalware-linux/include/nss3/nssilckt.h
 * /usr/i686-frugalware-linux/include/nss3/nssilock.h
 * /usr/i686-frugalware-linux/include/nss3/nsslocks.h
