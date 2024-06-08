@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kholidays 6.2.0-2"
-version = "6.2.0-2"
+title = "kholidays 6.3.0-1"
+version = "6.3.0-1"
 description = "C++ library for calendar holidays."
-date = "2024-05-21T17:04:49"
+date = "2024-06-08T11:23:32"
 aliases = "/packages/218312"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "253392"
-usize = "929802"
-sha1sum = "6f2aad789b3ed8490e307f95a392c2d6df465582"
+size = "254144"
+usize = "920304"
+sha1sum = "4f1a9bd78dd4aad9c53985368e66e3dce215a722"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['calendarsupport', 'itinerary', 'kalarm', 'kopeninghours', 'kweathercore', 'plasma-workspace']"
 +++
@@ -38,12 +38,12 @@ C++ library for calendar holidays.
 * /usr/lib/cmake/KF6Holidays/KF6HolidaysTargets.cmake
 * /usr/lib/libKF6Holidays.so
 * /usr/lib/libKF6Holidays.so.6
-* /usr/lib/libKF6Holidays.so.6.2.0
+* /usr/lib/libKF6Holidays.so.6.3.0
 * /usr/lib/qt6/qml/org/kde/kholidays/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kholidays/kholidaysdeclarativeplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kholidays/libkholidaysdeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/kholidays/qmldir
-* /usr/share/doc/kholidays-6.2.0/README.md
+* /usr/share/doc/kholidays-6.3.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkholidays6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkholidays6_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/libkholidays6_qt.qm

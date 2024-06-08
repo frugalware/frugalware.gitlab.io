@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "196492"
 usize = "718511"
 sha1sum = "115925cc5b5903262276dd17f17b992a6b592f90"
-depends = "['kio>=6.2.0']"
+depends = "['kio>=6.3.0']"
 reverse_depends = "['akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewstuff', 'ktorrent']"
 +++
 ### Description: 
@@ -90,7 +90,7 @@ KParts Kontact interface.
 * /usr/lib/cmake/KF6Syndication/KF6SyndicationTargets.cmake
 * /usr/lib/libKF6Syndication.so
 * /usr/lib/libKF6Syndication.so.6
-* /usr/lib/libKF6Syndication.so.6.2.0
-* /usr/share/doc/syndication-6.2.0/README.md
+* /usr/lib/libKF6Syndication.so.6.3.0
+* /usr/share/doc/syndication-6.3.0/README.md
 * /usr/share/qlogging-categories6/syndication.categories
 * /usr/share/qlogging-categories6/syndication.renamecategories

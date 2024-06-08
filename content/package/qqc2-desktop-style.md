@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "390360"
 usize = "2268412"
 sha1sum = "26b8969ca56a766ee91070dfc879d490d6b39ae6"
-depends = "['kconfigwidgets>=6.2.0', 'kiconthemes>=6.2.0', 'kirigami>=6.2.0']"
+depends = "['kconfigwidgets>=6.3.0', 'kiconthemes>=6.3.0', 'kirigami>=6.3.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'tokodon']"
 +++
 ### Description: 
@@ -92,17 +92,19 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.2.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.3.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca@valencia/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/cs/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/de/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/en_GB/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/eo/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/es/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/eu/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/fr/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/gl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/qqc2desktopstyle_qt.qm

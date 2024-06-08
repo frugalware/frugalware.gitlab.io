@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdoctools 6.2.0-2"
-version = "6.2.0-2"
+title = "kdoctools 6.3.0-1"
+version = "6.3.0-1"
 description = "Create documentation from DocBook."
-date = "2024-05-21T17:43:44"
+date = "2024-06-08T11:50:19"
 aliases = "/packages/218305"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "416876"
-usize = "2474424"
-sha1sum = "4508b1e5304b314646a4509574f372a75e132cb6"
-depends = "['docbook-xsl', 'karchive>=6.2.0', 'libxslt']"
+size = "420564"
+usize = "2458829"
+sha1sum = "b3a4573689875e0334a528eba67e461eec80a229"
+depends = "['docbook-xsl', 'karchive>=6.3.0', 'libxslt']"
 reverse_depends = "['kcachegrind', 'sweeper']"
 +++
 ### Description: 
@@ -32,7 +32,7 @@ Create documentation from DocBook.
 * /usr/lib/cmake/KF6DocTools/KF6DocToolsToolsTargets.cmake
 * /usr/lib/libKF6DocTools.so
 * /usr/lib/libKF6DocTools.so.6
-* /usr/lib/libKF6DocTools.so.6.2.0
+* /usr/lib/libKF6DocTools.so.6.3.0
 * /usr/share/doc/HTML/af/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/ca/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/cs/kdoctools6-common/kde-localised.css
@@ -111,8 +111,8 @@ Create documentation from DocBook.
 * /usr/share/doc/HTML/uk/kdoctools6-common/lgpl-translated.html
 * /usr/share/doc/HTML/wa/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/xh/kdoctools6-common/kde-localised.css
-* /usr/share/doc/kdoctools-6.2.0/README.md
-* /usr/share/doc/kdoctools-6.2.0/TODO
+* /usr/share/doc/kdoctools-6.3.0/README.md
+* /usr/share/doc/kdoctools-6.3.0/TODO
 * /usr/share/kf6/kdoctools/customization/af/catalog.xml
 * /usr/share/kf6/kdoctools/customization/af/entities/fdl-notice.docbook
 * /usr/share/kf6/kdoctools/customization/af/entities/gpl-notice.docbook

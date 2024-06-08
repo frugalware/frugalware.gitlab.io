@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcmutils 6.2.0-2"
-version = "6.2.0-2"
+title = "kcmutils 6.3.0-1"
+version = "6.3.0-1"
 description = "Utilities for interacting with KCModules."
-date = "2024-05-21T18:22:58"
+date = "2024-06-08T12:49:04"
 aliases = "/packages/218280"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "244184"
-usize = "1131369"
-sha1sum = "2c6f3fb3ae39ee7b0c35a18e50fd913b16a7517e"
-depends = "['kdeclarative>=6.2.0']"
+size = "245040"
+usize = "1097272"
+sha1sum = "8c35cda0fd80ae363495c68e0f62e6b06a289f3c"
+depends = "['kdeclarative>=6.3.0']"
 reverse_depends = "['akonadi-search', 'audex', 'audiocd-kio', 'bluedevil', 'bluedevil5', 'breeze', 'colord-kde', 'discover', 'dolphin', 'drkonqi', 'kaccounts-integration', 'kamera', 'kcron', 'kde-cli-tools', 'kde-gtk-config', 'kdeconnect-kde', 'kdeplasma-addons', 'kdf', 'kgamma', 'kget', 'khelpcenter', 'khelpcenter5', 'kinfocenter', 'kinfocenter5', 'kio-extras', 'kleopatra', 'kmailtransport', 'knemo', 'konqueror', 'kup', 'kwin', 'libkcddb', 'libplasma', 'parley', 'plasma-desktop', 'plasma-disks', 'plasma-pa', 'plasma-settings', 'plasma-thunderbolt', 'plasma-workspace', 'sddm-kcm', 'systemsettings', 'wacomtablet']"
 +++
 ### Description: 
@@ -55,13 +55,13 @@ Utilities for interacting with KCModules.
 * /usr/lib/kcmutils/kf6/kcmdesktopfilegenerator
 * /usr/lib/libKF6KCMUtils.so
 * /usr/lib/libKF6KCMUtils.so.6
-* /usr/lib/libKF6KCMUtils.so.6.2.0
+* /usr/lib/libKF6KCMUtils.so.6.3.0
 * /usr/lib/libKF6KCMUtilsCore.so
 * /usr/lib/libKF6KCMUtilsCore.so.6
-* /usr/lib/libKF6KCMUtilsCore.so.6.2.0
+* /usr/lib/libKF6KCMUtilsCore.so.6.3.0
 * /usr/lib/libKF6KCMUtilsQuick.so
 * /usr/lib/libKF6KCMUtilsQuick.so.6
-* /usr/lib/libKF6KCMUtilsQuick.so.6.2.0
+* /usr/lib/libKF6KCMUtilsQuick.so.6.3.0
 * /usr/lib/qt6/qml/org/kde/kcmutils/AbstractKCM.qml
 * /usr/lib/qt6/qml/org/kde/kcmutils/ContextualHelpButton.qml
 * /usr/lib/qt6/qml/org/kde/kcmutils/GridDelegate.qml
@@ -85,7 +85,7 @@ Utilities for interacting with KCModules.
 * /usr/lib/qt6/qml/org/kde/kcmutils/SettingHighlighter.qml
 * /usr/lib/qt6/qml/org/kde/kcmutils/SettingStateBinding.qml
 * /usr/lib/qt6/qml/org/kde/kcmutils/SimpleKCM.qml
-* /usr/share/doc/kcmutils-6.2.0/README.md
+* /usr/share/doc/kcmutils-6.3.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kcmutils6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcmshell6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcmutils6.mo
@@ -93,6 +93,7 @@ Utilities for interacting with KCModules.
 * /usr/share/locale/ast/LC_MESSAGES/kcmshell6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcmutils6.mo
 * /usr/share/locale/az/LC_MESSAGES/kcmutils6.mo
+* /usr/share/locale/be/LC_MESSAGES/kcmshell6.mo
 * /usr/share/locale/be/LC_MESSAGES/kcmutils6.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kcmutils6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcmutils6.mo

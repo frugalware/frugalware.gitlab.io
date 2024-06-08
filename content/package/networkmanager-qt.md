@@ -162,12 +162,12 @@ Qt wrapper for NetworkManager API.
 * /usr/lib/cmake/KF6NetworkManagerQt/KF6NetworkManagerQtTargets.cmake
 * /usr/lib/libKF6NetworkManagerQt.so
 * /usr/lib/libKF6NetworkManagerQt.so.6
-* /usr/lib/libKF6NetworkManagerQt.so.6.2.0
+* /usr/lib/libKF6NetworkManagerQt.so.6.3.0
 * /usr/lib/qt6/qml/org/kde/networkmanager/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/networkmanager/libnetworkmanagerqtqml.so
 * /usr/lib/qt6/qml/org/kde/networkmanager/networkmanagerqtqml.qmltypes
 * /usr/lib/qt6/qml/org/kde/networkmanager/qmldir
-* /usr/share/doc/networkmanager-qt-6.2.0/README.md
-* /usr/share/doc/networkmanager-qt-6.2.0/TODO
+* /usr/share/doc/networkmanager-qt-6.3.0/README.md
+* /usr/share/doc/networkmanager-qt-6.3.0/TODO
 * /usr/share/qlogging-categories6/networkmanagerqt.categories
 * /usr/share/qlogging-categories6/networkmanagerqt.renamecategories

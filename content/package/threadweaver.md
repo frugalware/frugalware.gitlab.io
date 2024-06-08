@@ -92,6 +92,6 @@ KDE Helper for multithreaded programming.
 * /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverTargets.cmake
 * /usr/lib/libKF6ThreadWeaver.so
 * /usr/lib/libKF6ThreadWeaver.so.6
-* /usr/lib/libKF6ThreadWeaver.so.6.2.0
-* /usr/share/doc/threadweaver-6.2.0/COPYING.LIB
-* /usr/share/doc/threadweaver-6.2.0/README.md
+* /usr/lib/libKF6ThreadWeaver.so.6.3.0
+* /usr/share/doc/threadweaver-6.3.0/COPYING.LIB
+* /usr/share/doc/threadweaver-6.3.0/README.md

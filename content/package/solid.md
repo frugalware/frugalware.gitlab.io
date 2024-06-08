@@ -61,9 +61,9 @@ KDE Desktop hardware abstraction.
 * /usr/lib/cmake/KF6Solid/KF6SolidTargets.cmake
 * /usr/lib/libKF6Solid.so
 * /usr/lib/libKF6Solid.so.6
-* /usr/lib/libKF6Solid.so.6.2.0
-* /usr/share/doc/solid-6.2.0/README.md
-* /usr/share/doc/solid-6.2.0/TODO
+* /usr/lib/libKF6Solid.so.6.3.0
+* /usr/share/doc/solid-6.3.0/README.md
+* /usr/share/doc/solid-6.3.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/solid6_qt.qm

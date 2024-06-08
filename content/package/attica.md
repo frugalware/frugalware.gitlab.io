@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "attica 6.2.0-2"
-version = "6.2.0-2"
+title = "attica 6.3.0-1"
+version = "6.3.0-1"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-05-21T17:12:15"
+date = "2024-06-08T11:27:00"
 aliases = "/packages/87758"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "184376"
-usize = "896542"
-sha1sum = "d3fb4dde42cd5e43b97060f4d0813cf38d426204"
+size = "185940"
+usize = "888646"
+sha1sum = "abf131de4aa4269c1429fb6538fe2371633b8075"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['kxmlgui', 'okular']"
 +++
@@ -108,10 +108,10 @@ Qt library to access Open Collaboration Services
 * /usr/lib/cmake/KF6Attica/KF6AtticaTargets.cmake
 * /usr/lib/libKF6Attica.so
 * /usr/lib/libKF6Attica.so.6
-* /usr/lib/libKF6Attica.so.6.2.0
+* /usr/lib/libKF6Attica.so.6.3.0
 * /usr/lib/pkgconfig/KF6Attica.pc
-* /usr/share/doc/attica-6.2.0/AUTHORS
-* /usr/share/doc/attica-6.2.0/ChangeLog
-* /usr/share/doc/attica-6.2.0/README.md
+* /usr/share/doc/attica-6.3.0/AUTHORS
+* /usr/share/doc/attica-6.3.0/ChangeLog
+* /usr/share/doc/attica-6.3.0/README.md
 * /usr/share/qlogging-categories6/attica.categories
 * /usr/share/qlogging-categories6/attica.renamecategories

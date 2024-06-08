@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcolorscheme 6.2.0-2"
-version = "6.2.0-2"
+title = "kcolorscheme 6.3.0-1"
+version = "6.3.0-1"
 description = "Classes to read and interact with color schemes"
-date = "2024-05-21T17:45:43"
+date = "2024-06-08T11:51:50"
 aliases = "/packages/221293"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "38800"
-usize = "142048"
-sha1sum = "ac04d4340f377911a00253f8ed6865c007d51c3e"
-depends = "['kconfig>=6.2.0', 'kguiaddons>=6.2.0', 'ki18n>=6.2.0']"
+size = "40252"
+usize = "139019"
+sha1sum = "1584225d289dca75064939c72b69f9722f7c8240"
+depends = "['kconfig>=6.3.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0']"
 reverse_depends = "['audex', 'breeze', 'kconfigwidgets', 'ksvg']"
 +++
 ### Description: 
@@ -34,11 +34,12 @@ Classes to read and interact with color schemes
 * /usr/lib/cmake/KF6ColorScheme/KF6ColorSchemeTargets.cmake
 * /usr/lib/libKF6ColorScheme.so
 * /usr/lib/libKF6ColorScheme.so.6
-* /usr/lib/libKF6ColorScheme.so.6.2.0
-* /usr/share/doc/kcolorscheme-6.2.0/README.md
-* /usr/share/doc/kcolorscheme-6.2.0/README.md.license
+* /usr/lib/libKF6ColorScheme.so.6.3.0
+* /usr/share/doc/kcolorscheme-6.3.0/README.md
+* /usr/share/doc/kcolorscheme-6.3.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kcolorscheme6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcolorscheme6.mo
+* /usr/share/locale/be/LC_MESSAGES/kcolorscheme6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcolorscheme6.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcolorscheme6.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcolorscheme6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksvg 6.2.0-2"
-version = "6.2.0-2"
+title = "ksvg 6.3.0-1"
+version = "6.3.0-1"
 description = "A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching."
-date = "2024-05-21T18:33:38"
+date = "2024-06-08T12:56:55"
 aliases = "/packages/221400"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "133904"
-usize = "464659"
-sha1sum = "763f79ea3b8fd95a656261ea8bc83dcf54d7c6ee"
-depends = "['karchive>=6.2.0', 'kcolorscheme>=6.2.0', 'kcoreaddons>=6.2.0', 'kirigami>=6.2.0']"
+size = "136020"
+usize = "475419"
+sha1sum = "dff1c546e79af8036a3c8442d28bfd14c2032a3a"
+depends = "['karchive>=6.3.0', 'kcolorscheme>=6.3.0', 'kcoreaddons>=6.3.0', 'kirigami>=6.3.0']"
 reverse_depends = "['bluedevil', 'knights', 'kscreen', 'kwin', 'libplasma', 'milou', 'plasma-pa', 'plasma-workspace']"
 +++
 ### Description: 
@@ -32,10 +32,10 @@ A library for rendering SVG-based themes with stylesheet re-coloring and on-disk
 * /usr/lib/cmake/KF6Svg/KF6SvgTargets.cmake
 * /usr/lib/libKF6Svg.so
 * /usr/lib/libKF6Svg.so.6
-* /usr/lib/libKF6Svg.so.6.2.0
+* /usr/lib/libKF6Svg.so.6.3.0
 * /usr/lib/qt6/qml/org/kde/ksvg/corebindingsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/ksvg/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/ksvg/libcorebindingsplugin.so
 * /usr/lib/qt6/qml/org/kde/ksvg/qmldir
-* /usr/share/doc/ksvg-6.2.0/README.md
+* /usr/share/doc/ksvg-6.3.0/README.md
 * /usr/share/qlogging-categories6/ksvg.categories

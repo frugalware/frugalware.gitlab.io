@@ -47,12 +47,12 @@ Syntax highlighting Engine for Structured Text and Code
 * /usr/lib/cmake/KF6SyntaxHighlighting/KF6SyntaxHighlightingTargets.cmake
 * /usr/lib/libKF6SyntaxHighlighting.so
 * /usr/lib/libKF6SyntaxHighlighting.so.6
-* /usr/lib/libKF6SyntaxHighlighting.so.6.2.0
+* /usr/lib/libKF6SyntaxHighlighting.so.6.3.0
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/kquicksyntaxhighlightingplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/libkquicksyntaxhighlightingplugin.so
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/qmldir
-* /usr/share/doc/syntax-highlighting-6.2.0/README.md
+* /usr/share/doc/syntax-highlighting-6.3.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/syntaxhighlighting6_qt.qm

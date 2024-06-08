@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kconfig 6.2.0-2"
-version = "6.2.0-2"
+title = "kconfig 6.3.0-1"
+version = "6.3.0-1"
 description = "Provides an advanced configuration system."
-date = "2024-05-21T17:37:40"
+date = "2024-06-08T11:46:03"
 aliases = "/packages/218283"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "395460"
-usize = "1801201"
-sha1sum = "40a159f3a08b72f1702b0f24e8cfebe883508482"
+size = "431032"
+usize = "1975671"
+sha1sum = "262235f4bd5b1b717bd00c7fde0b7189c6ea2166"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['akonadi-mime', 'alligator', 'audex', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'francis', 'kalk', 'kalm', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kdesignerplugin', 'kglobalacceld', 'kirigami-addons', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'libkscreen5', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'skladnik', 'sweeper']"
 +++
@@ -51,6 +51,9 @@ Provides an advanced configuration system.
 * /usr/include/KF6/KConfigGui/kconfigloader.h
 * /usr/include/KF6/KConfigGui/KConfigSkeleton
 * /usr/include/KF6/KConfigGui/kconfigskeleton.h
+* /usr/include/KF6/KConfigGui/KStandardActions
+* /usr/include/KF6/KConfigGui/kstandardactions.h
+* /usr/include/KF6/KConfigGui/kstandardactions_p.h
 * /usr/include/KF6/KConfigGui/KStandardShortcut
 * /usr/include/KF6/KConfigGui/kstandardshortcut.h
 * /usr/include/KF6/KConfigGui/KStandardShortcutWatcher
@@ -73,19 +76,19 @@ Provides an advanced configuration system.
 * /usr/lib/kconfig/kf6/kconf_update
 * /usr/lib/libKF6ConfigCore.so
 * /usr/lib/libKF6ConfigCore.so.6
-* /usr/lib/libKF6ConfigCore.so.6.2.0
+* /usr/lib/libKF6ConfigCore.so.6.3.0
 * /usr/lib/libKF6ConfigGui.so
 * /usr/lib/libKF6ConfigGui.so.6
-* /usr/lib/libKF6ConfigGui.so.6.2.0
+* /usr/lib/libKF6ConfigGui.so.6.3.0
 * /usr/lib/libKF6ConfigQml.so
 * /usr/lib/libKF6ConfigQml.so.6
-* /usr/lib/libKF6ConfigQml.so.6.2.0
+* /usr/lib/libKF6ConfigQml.so.6.3.0
 * /usr/lib/qt6/qml/org/kde/config/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/config/KF6ConfigQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/config/libKF6ConfigQmlplugin.so
 * /usr/lib/qt6/qml/org/kde/config/qmldir
-* /usr/share/doc/kconfig-6.2.0/README.md
-* /usr/share/doc/kconfig-6.2.0/TODO
+* /usr/share/doc/kconfig-6.3.0/README.md
+* /usr/share/doc/kconfig-6.3.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kconfig6_qt.qm

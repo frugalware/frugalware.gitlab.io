@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kconfigwidgets 6.2.0-2"
-version = "6.2.0-2"
+title = "kconfigwidgets 6.3.0-1"
+version = "6.3.0-1"
 description = "Widgets for KConfig."
-date = "2024-05-21T17:46:47"
+date = "2024-06-08T11:52:44"
 aliases = "/packages/218284"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "302620"
-usize = "1366529"
-sha1sum = "9840d1d3686ed3c750be2bdfe613c6c69ef061d5"
-depends = "['kcodecs>=6.2.0', 'kcolorscheme>=6.2.0', 'kcoreaddons>=6.2.0', 'kwidgetsaddons>=6.2.0']"
+size = "309220"
+usize = "1368829"
+sha1sum = "e9ccfd751d94b60e24745723594215b36759b7c4"
+depends = "['kcodecs>=6.3.0', 'kcolorscheme>=6.3.0', 'kcoreaddons>=6.3.0', 'kwidgetsaddons>=6.3.0']"
 reverse_depends = "['accessibility-inspector', 'audex', 'kaccounts-integration', 'kdeplasma-addons', 'kgamma', 'kgamma5', 'kiconthemes', 'kwin', 'libkmahjongg', 'libksysguard', 'libksysguard5', 'qqc2-desktop-style', 'skladnik', 'sweeper']"
 +++
 ### Description: 
@@ -44,6 +44,8 @@ Widgets for KConfig.
 * /usr/include/KF6/KConfigWidgets/krecentfilesaction.h
 * /usr/include/KF6/KConfigWidgets/KStandardAction
 * /usr/include/KF6/KConfigWidgets/kstandardaction.h
+* /usr/include/KF6/KConfigWidgets/KStyleManager
+* /usr/include/KF6/KConfigWidgets/kstylemanager.h
 * /usr/include/KF6/KConfigWidgets/KViewStateMaintainer
 * /usr/include/KF6/KConfigWidgets/kviewstatemaintainer.h
 * /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsConfig.cmake
@@ -52,9 +54,9 @@ Widgets for KConfig.
 * /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsTargets.cmake
 * /usr/lib/libKF6ConfigWidgets.so
 * /usr/lib/libKF6ConfigWidgets.so.6
-* /usr/lib/libKF6ConfigWidgets.so.6.2.0
+* /usr/lib/libKF6ConfigWidgets.so.6.3.0
 * /usr/lib/qt6/plugins/designer/kconfigwidgets6widgets.so
-* /usr/share/doc/kconfigwidgets-6.2.0/README.md
+* /usr/share/doc/kconfigwidgets-6.3.0/README.md
 * /usr/share/locale/af/kf6_entry.desktop
 * /usr/share/locale/af/LC_MESSAGES/kconfigwidgets6.mo
 * /usr/share/locale/ar/kf6_entry.desktop

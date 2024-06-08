@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "306236"
 usize = "1672601"
 sha1sum = "9d018b45fa6de602fac5cffc65431c2729329f94"
-depends = "['accounts-qml-module', 'kconfig>=6.2.0', 'kcoreaddons>=6.2.0', 'kdeclarative>=6.2.0', 'ki18n>=6.2.0', 'kio>=6.2.0', 'kirigami>=6.2.0']"
+depends = "['accounts-qml-module', 'kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kdeclarative>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kirigami>=6.3.0']"
 reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'gwenview', 'kdenlive', 'kdeplasma-addons', 'neochat', 'okular', 'pimcommon', 'plasma-browser-integration', 'plasmatube', 'skanpage', 'spectacle', 'tokodon']"
 +++
 ### Description: 
@@ -37,10 +37,10 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/cmake/KF6Purpose/KF6PurposeTargets.cmake
 * /usr/lib/libKF6Purpose.so
 * /usr/lib/libKF6Purpose.so.6
-* /usr/lib/libKF6Purpose.so.6.2.0
+* /usr/lib/libKF6Purpose.so.6.3.0
 * /usr/lib/libKF6PurposeWidgets.so
 * /usr/lib/libKF6PurposeWidgets.so.6
-* /usr/lib/libKF6PurposeWidgets.so.6.2.0
+* /usr/lib/libKF6PurposeWidgets.so.6.3.0
 * /usr/lib/purpose/kf6/purposeprocess
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/sharefileitemaction.so
 * /usr/lib/qt6/plugins/kf6/purpose/barcodeplugin.so
@@ -65,7 +65,7 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/qt6/qml/org/kde/purpose/qmldir
 * /usr/lib/qt6/qml/org/kde/purpose/reviewboard/librbpurposequickplugin.so
 * /usr/lib/qt6/qml/org/kde/purpose/reviewboard/qmldir
-* /usr/share/doc/purpose-6.2.0/README.md
+* /usr/share/doc/purpose-6.3.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/phabricator-purpose6.png
 * /usr/share/icons/hicolor/128x128/apps/reviewboard-purpose6.png
 * /usr/share/icons/hicolor/16x16/apps/phabricator-purpose6.png
@@ -620,6 +620,7 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/share/locale/sv/LC_MESSAGES/purpose6_reviewboard.mo
 * /usr/share/locale/sv/LC_MESSAGES/purpose6_saveas.mo
 * /usr/share/locale/sv/LC_MESSAGES/purpose6_youtube.mo
+* /usr/share/locale/ta/LC_MESSAGES/libpurpose6_quick.mo
 * /usr/share/locale/ta/LC_MESSAGES/libpurpose6_widgets.mo
 * /usr/share/locale/ta/LC_MESSAGES/purpose6_bluetooth.mo
 * /usr/share/locale/ta/LC_MESSAGES/purpose6_fileitemaction.mo
