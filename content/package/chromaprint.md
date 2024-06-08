@@ -12,7 +12,7 @@ size = "38360"
 usize = "94673"
 sha1sum = "222d5c2ef69161165c7ab41a7c06530d6caf7559"
 depends = "['ffmpeg>=7.0']"
-reverse_depends = "['gst1-plugins-bad-chromaprint', 'mixxx', 'vlc-chromaprint']"
+reverse_depends = "['gst1-plugins-bad-chromaprint', 'mixxx']"
 +++
 ### Description: 
 Library that implements a custom algorithm for extracting fingerprints from any audio source.
