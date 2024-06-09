@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjfx-doc 22.0.1+7-1"
-version = "22.0.1+7-1"
+title = "openjfx-doc 22.0.1+7-2"
+version = "22.0.1+7-2"
 description = "OpenJFX Documentation"
-date = "2024-04-18T15:21:37"
+date = "2024-06-09T15:36:37"
 aliases = "/packages/220280"
 categories = ['docs-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "12899348"
-usize = "74495219"
-sha1sum = "707ccdc461fd01635273e7e844d2417a48e9cee9"
+size = "12939040"
+usize = "74933201"
+sha1sum = "a912a5f7342559982c38c8a7ceb6f6e546122862"
 depends = "[]"
 +++
 ### Description: 
@@ -20,7 +20,6 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/allclasses-index.html
 * /usr/share/doc/java-openjfx/allpackages-index.html
 * /usr/share/doc/java-openjfx/constant-values.html
-* /usr/share/doc/java-openjfx/copy.svg
 * /usr/share/doc/java-openjfx/deprecated-list.html
 * /usr/share/doc/java-openjfx/element-list
 * /usr/share/doc/java-openjfx/help-doc.html
@@ -1922,23 +1921,29 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.web/javafx/scene/web/WebHistory.html
 * /usr/share/doc/java-openjfx/javafx.web/javafx/scene/web/WebView.html
 * /usr/share/doc/java-openjfx/javafx.web/module-summary.html
-* /usr/share/doc/java-openjfx/link.svg
+* /usr/share/doc/java-openjfx/legal/ADDITIONAL_LICENSE_INFO
+* /usr/share/doc/java-openjfx/legal/ASSEMBLY_EXCEPTION
+* /usr/share/doc/java-openjfx/legal/jquery.md
+* /usr/share/doc/java-openjfx/legal/jqueryUI.md
+* /usr/share/doc/java-openjfx/legal/LICENSE
 * /usr/share/doc/java-openjfx/member-search-index.js
 * /usr/share/doc/java-openjfx/module-search-index.js
 * /usr/share/doc/java-openjfx/new-list.html
 * /usr/share/doc/java-openjfx/overview-summary.html
 * /usr/share/doc/java-openjfx/overview-tree.html
 * /usr/share/doc/java-openjfx/package-search-index.js
-* /usr/share/doc/java-openjfx/resources/glass.png
-* /usr/share/doc/java-openjfx/resources/x.png
-* /usr/share/doc/java-openjfx/script-dir/jquery-3.6.1.min.js
-* /usr/share/doc/java-openjfx/script-dir/jquery-ui.min.css
-* /usr/share/doc/java-openjfx/script-dir/jquery-ui.min.js
-* /usr/share/doc/java-openjfx/script.js
-* /usr/share/doc/java-openjfx/search-page.js
+* /usr/share/doc/java-openjfx/resource-files/copy.svg
+* /usr/share/doc/java-openjfx/resource-files/glass.png
+* /usr/share/doc/java-openjfx/resource-files/jquery-ui.min.css
+* /usr/share/doc/java-openjfx/resource-files/link.svg
+* /usr/share/doc/java-openjfx/resource-files/stylesheet.css
+* /usr/share/doc/java-openjfx/resource-files/x.png
+* /usr/share/doc/java-openjfx/script-files/jquery-3.6.1.min.js
+* /usr/share/doc/java-openjfx/script-files/jquery-ui.min.js
+* /usr/share/doc/java-openjfx/script-files/script.js
+* /usr/share/doc/java-openjfx/script-files/search-page.js
+* /usr/share/doc/java-openjfx/script-files/search.js
 * /usr/share/doc/java-openjfx/search.html
-* /usr/share/doc/java-openjfx/search.js
 * /usr/share/doc/java-openjfx/serialized-form.html
-* /usr/share/doc/java-openjfx/stylesheet.css
 * /usr/share/doc/java-openjfx/tag-search-index.js
 * /usr/share/doc/java-openjfx/type-search-index.js

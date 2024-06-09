@@ -1,31 +1,22 @@
 +++
 draft = false
-title = "openjfx 22.0.1+7-1"
-version = "22.0.1+7-1"
+title = "openjfx 22.0.1+7-2"
+version = "22.0.1+7-2"
 description = "Java OpenJFX client application platform (open-source implementation of JavaFX)"
-date = "2024-04-18T15:21:37"
+date = "2024-06-09T15:36:37"
 aliases = "/packages/219023"
 categories = ['xlib-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "84691580"
-usize = "171571924"
-sha1sum = "43b963b5364cf892555095ba3b12b46beb9b1c43"
-depends = "['ffmpeg', 'gtk+2-libs', 'gtk+3', 'openjre-x']"
+size = "85512288"
+usize = "179542690"
+sha1sum = "6f017e2d0fff7b5ebb6dff6a071c68da16b06ded"
+depends = "['ffmpeg4.4', 'gtk+2-libs', 'gtk+3', 'openjre-x']"
 +++
 ### Description: 
 Java OpenJFX client application platform (open-source implementation of JavaFX)
 
 ### Files: 
-* /usr/lib/jvm/java-22-openjdk/javafx-swt.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.base.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.controls.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.fxml.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.graphics.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.media.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.properties
-* /usr/lib/jvm/java-22-openjdk/javafx.swing.jar
-* /usr/lib/jvm/java-22-openjdk/javafx.web.jar
 * /usr/lib/jvm/java-22-openjdk/jmods/javafx.base.jmod
 * /usr/lib/jvm/java-22-openjdk/jmods/javafx.controls.jmod
 * /usr/lib/jvm/java-22-openjdk/jmods/javafx.fxml.jmod
@@ -33,20 +24,29 @@ Java OpenJFX client application platform (open-source implementation of JavaFX)
 * /usr/lib/jvm/java-22-openjdk/jmods/javafx.media.jmod
 * /usr/lib/jvm/java-22-openjdk/jmods/javafx.swing.jmod
 * /usr/lib/jvm/java-22-openjdk/jmods/javafx.web.jmod
-* /usr/lib/jvm/java-22-openjdk/libavplugin.so
-* /usr/lib/jvm/java-22-openjdk/libdecora_sse.so
-* /usr/lib/jvm/java-22-openjdk/libfxplugins.so
-* /usr/lib/jvm/java-22-openjdk/libglass.so
-* /usr/lib/jvm/java-22-openjdk/libglassgtk3.so
-* /usr/lib/jvm/java-22-openjdk/libgstreamer-lite.so
-* /usr/lib/jvm/java-22-openjdk/libjavafx_font.so
-* /usr/lib/jvm/java-22-openjdk/libjavafx_font_freetype.so
-* /usr/lib/jvm/java-22-openjdk/libjavafx_font_pango.so
-* /usr/lib/jvm/java-22-openjdk/libjavafx_iio.so
-* /usr/lib/jvm/java-22-openjdk/libjfxmedia.so
-* /usr/lib/jvm/java-22-openjdk/libjfxwebkit.so
-* /usr/lib/jvm/java-22-openjdk/libprism_common.so
-* /usr/lib/jvm/java-22-openjdk/libprism_es2.so
-* /usr/lib/jvm/java-22-openjdk/libprism_sw.so
+* /usr/lib/jvm/java-22-openjdk/lib/javafx-swt.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.base.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.controls.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.fxml.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.graphics.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.media.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.properties
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.swing.jar
+* /usr/lib/jvm/java-22-openjdk/lib/javafx.web.jar
+* /usr/lib/jvm/java-22-openjdk/lib/libavplugin.so
+* /usr/lib/jvm/java-22-openjdk/lib/libdecora_sse.so
+* /usr/lib/jvm/java-22-openjdk/lib/libfxplugins.so
+* /usr/lib/jvm/java-22-openjdk/lib/libglass.so
+* /usr/lib/jvm/java-22-openjdk/lib/libglassgtk3.so
+* /usr/lib/jvm/java-22-openjdk/lib/libgstreamer-lite.so
+* /usr/lib/jvm/java-22-openjdk/lib/libjavafx_font.so
+* /usr/lib/jvm/java-22-openjdk/lib/libjavafx_font_freetype.so
+* /usr/lib/jvm/java-22-openjdk/lib/libjavafx_font_pango.so
+* /usr/lib/jvm/java-22-openjdk/lib/libjavafx_iio.so
+* /usr/lib/jvm/java-22-openjdk/lib/libjfxmedia.so
+* /usr/lib/jvm/java-22-openjdk/lib/libjfxwebkit.so
+* /usr/lib/jvm/java-22-openjdk/lib/libprism_common.so
+* /usr/lib/jvm/java-22-openjdk/lib/libprism_es2.so
+* /usr/lib/jvm/java-22-openjdk/lib/libprism_sw.so
 * /usr/share/doc/openjfx-22.0.1+7/LICENSE
 * /usr/share/doc/openjfx-22.0.1+7/README.md
