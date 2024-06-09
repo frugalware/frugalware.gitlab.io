@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "marble 24.05.0-1"
-version = "24.05.0-1"
+title = "marble 24.05.0-2"
+version = "24.05.0-2"
 description = "Desc: Virtual Globe and World Atlas."
-date = "2024-05-26T20:16:32"
+date = "2024-06-09T21:45:14"
 aliases = "/packages/152838"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "42952228"
-usize = "66141030"
-sha1sum = "34edb49e6f4b2e513c9af376ef3475fec292774a"
+size = "42993648"
+usize = "66102862"
+sha1sum = "616dfa60e451abcfefaf2613a9600649771450c2"
 depends = "['libmarble', 'qt5-location>=5.15.14', 'qt5-tools>=5.15.14']"
 +++
 ### Description: 
