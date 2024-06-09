@@ -12,7 +12,6 @@ size = "179836"
 usize = "550423"
 sha1sum = "0fe9d3bc2600b2ac588bd3c3e7b30fd5286edd37"
 depends = "['lib32-fontconfig>=2.12.1-2', 'lib32-freetype2>=2.10.0', 'lib32-libxml2>=2.9.4-3']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 Blu-Ray access library ( 32bit )

@@ -12,7 +12,6 @@ size = "251472"
 usize = "947028"
 sha1sum = "84dad2a1b2242c088d274038b3c8b46a8dcd0510"
 depends = "[]"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 Scaling, colorspace conversion, and dithering library ( 32bit )

@@ -12,7 +12,7 @@ size = "12340"
 usize = "33763"
 sha1sum = "82964b2eeb5e71e2a8348ccb5eaddde574314443"
 depends = "['lib32-libx11>=1.6.4-3']"
-reverse_depends = "['lib32-ffmpeg', 'lib32-libva', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxi']"
+reverse_depends = "['lib32-libva', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxi']"
 +++
 ### Description: 
 X.Org Xfixes library ( 32bit )

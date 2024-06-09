@@ -12,7 +12,7 @@ size = "312740"
 usize = "3157970"
 sha1sum = "3a039b222c45f5d815a8f28af4256208bec32913"
 depends = "['lib32-libxau>=1.0.8-8', 'lib32-libxdmcp>=1.1.2-8']"
-reverse_depends = "['lib32-cairo', 'lib32-ffmpeg', 'lib32-libx11', 'lib32-libxkbcommon', 'lib32-vulkan-mesa-layers', 'lib32-xcb-util', 'lib32-xcb-util-image', 'lib32-xcb-util-keysyms', 'lib32-xcb-util-renderutil', 'lib32-xcb-util-wm']"
+reverse_depends = "['lib32-cairo', 'lib32-libx11', 'lib32-libxkbcommon', 'lib32-vulkan-mesa-layers', 'lib32-xcb-util', 'lib32-xcb-util-image', 'lib32-xcb-util-keysyms', 'lib32-xcb-util-renderutil', 'lib32-xcb-util-wm']"
 +++
 ### Description: 
 X.org X-protocol C Binding ( 32bit )

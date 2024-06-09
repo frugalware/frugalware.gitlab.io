@@ -12,7 +12,6 @@ size = "105636"
 usize = "399668"
 sha1sum = "a7d2ed5e26b626bd31ccacddfecd25844ecfd530"
 depends = "['lib32-libraw1394>=2.1.2-2', 'lib32-libudev>=242', 'lib32-libusb1>=1.0.20-5']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 libdc1394 provides a high level programming interface to control IEEE 1394 based cameras. ( 32bit )

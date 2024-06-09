@@ -12,7 +12,6 @@ size = "1085992"
 usize = "4215650"
 sha1sum = "bda96462f0c8db687d81b4517c70cbbddfadc4e7"
 depends = "['lib32-elfutils', 'lib32-json-c', 'lib32-libglu', 'lib32-libjpeg-turbo', 'lib32-libsystemd', 'lib32-libudev', 'lib32-libx11', 'lib32-sdl2', 'lib32-sdl2_image', 'v4l-utils>=1.26.1']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 v4l-utils (32-bit)

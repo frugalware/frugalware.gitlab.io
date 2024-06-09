@@ -12,7 +12,6 @@ size = "57444"
 usize = "300958"
 sha1sum = "17c4c6ab319486615ffdebdc7a334e1ab27c8e63"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 VDPAU wrapper library ( 32bit )

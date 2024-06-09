@@ -12,7 +12,6 @@ size = "25904"
 usize = "55168"
 sha1sum = "3d39940b08b8f0aad43013000a9833f2079874b3"
 depends = "['lib32-libmp4v2>=2.1.0-3']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 FAAC is an AAC audio encoder. ( 32bit )

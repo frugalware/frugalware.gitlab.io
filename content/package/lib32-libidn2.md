@@ -12,7 +12,7 @@ size = "52800"
 usize = "169498"
 sha1sum = "fd82dc0bf5b50583bfd3898311e902e60feb3501"
 depends = "['lib32-libunistring>=1.1']"
-reverse_depends = "['lib32-ffmpeg', 'lib32-gnutls', 'lib32-libpsl', 'lib32-libsystemd']"
+reverse_depends = "['lib32-gnutls', 'lib32-libpsl', 'lib32-libsystemd']"
 +++
 ### Description: 
 GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification. ( 32bit )

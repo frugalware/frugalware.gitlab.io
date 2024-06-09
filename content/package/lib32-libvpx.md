@@ -12,7 +12,6 @@ size = "1060968"
 usize = "3589768"
 sha1sum = "a9e2ad3438e1ca00ffd05b189001cb419f9f9c75"
 depends = "[]"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 WebM VP8 VP9 Codec SDK ( 32bit )

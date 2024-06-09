@@ -12,7 +12,6 @@ size = "186700"
 usize = "711233"
 sha1sum = "009e1c90afc3c966ef50ca5f89f5165a296156ae"
 depends = "['lib32-libogg>=1.3.2-5']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 An open video codec developed by the Xiph.org. ( 32bit )

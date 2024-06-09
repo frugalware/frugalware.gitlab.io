@@ -12,7 +12,7 @@ size = "225812"
 usize = "979137"
 sha1sum = "c45d4c21ea38bb9612edfcb519fddb9358c5f822"
 depends = "['lib32-freetype2>=2.9', 'lib32-libgif>=5.1.1-2', 'lib32-libid3tag>=0.15.1b-6', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.6', 'lib32-libxext>=1.3.3-3']"
-reverse_depends = "['lib32-ffmpeg', 'lib32-libcaca']"
+reverse_depends = "['lib32-libcaca']"
 +++
 ### Description: 
 Imlib 2 is the successor to Imlib. ( 32bit )

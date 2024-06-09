@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-taglib 3.0.21-1"
-version = "3.0.21-1"
+title = "vlc-taglib 3.0.21-2"
+version = "3.0.21-2"
 description = "vlc taglib support"
-date = "2024-06-07T07:56:39"
+date = "2024-06-09T22:11:51"
 aliases = "/packages/219577"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "45704"
+size = "45608"
 usize = "99104"
-sha1sum = "f6aca06106da4f6756fe2c76ffcfc95c1b6b0046"
+sha1sum = "f8a689648e54eb658e803e8d84921573434c5855"
 depends = "['libvlc>=3.0.21', 'taglib>=2.0']"
 +++
 ### Description: 

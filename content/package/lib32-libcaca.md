@@ -12,7 +12,6 @@ size = "289928"
 usize = "1410649"
 sha1sum = "36ac94b8b08aaa00615011b5dd016beb02d3cdfc"
 depends = "['lib32-imlib2', 'lib32-ncurses', 'lib32-slang']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 A graphics library that outputs text instead of pixels. ( 32bit )

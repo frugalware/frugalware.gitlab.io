@@ -12,7 +12,7 @@ size = "492436"
 usize = "1840144"
 sha1sum = "878fbb93ce8e5b553de7a27b78ff8c2e61a9a3c2"
 depends = "['glibc']"
-reverse_depends = "['get_steam', 'lib32-ffmpeg', 'lib32-libsndfile']"
+reverse_depends = "['get_steam', 'lib32-libsndfile']"
 +++
 ### Description: 
 An alternative implementation of Linux sound support ( 32bit )

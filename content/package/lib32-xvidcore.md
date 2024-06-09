@@ -12,7 +12,6 @@ size = "196232"
 usize = "724067"
 sha1sum = "06cce34de034e1d3b7eea2244998874e17f2a699"
 depends = "[]"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 XviD is an open source MPEG-4 video codec ( 32bit )

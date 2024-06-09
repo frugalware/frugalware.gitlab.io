@@ -12,7 +12,7 @@ size = "164084"
 usize = "824691"
 sha1sum = "da241ae3f07608aef52f6accaae853f40cbf4635"
 depends = "['lib32-libogg>=1.3.2-8']"
-reverse_depends = "['lib32-ffmpeg', 'lib32-libsndfile', 'lib32-sdl2_mixer']"
+reverse_depends = "['lib32-libsndfile', 'lib32-sdl2_mixer']"
 +++
 ### Description: 
 Vorbis codec library ( 32bit )

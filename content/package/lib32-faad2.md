@@ -12,7 +12,6 @@ size = "184688"
 usize = "559290"
 sha1sum = "d6c6ddd43bddef42fdafb952ee8e03545c51370e"
 depends = "[]"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 ISO AAC audio decoder ( 32bit )

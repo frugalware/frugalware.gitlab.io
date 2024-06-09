@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-ffmpeg 3.0.21-1"
-version = "3.0.21-1"
+title = "vlc-ffmpeg 3.0.21-2"
+version = "3.0.21-2"
 description = "vlc ffmpeg support"
-date = "2024-06-07T07:56:39"
+date = "2024-06-09T22:11:51"
 aliases = "/packages/219575"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "88748"
+size = "88868"
 usize = "217520"
-sha1sum = "824193bf065dff8ec0ab59fd37fb3499fb4f1242"
+sha1sum = "839940c141a4dc39bb365ae97298f6b6fffca2e7"
 depends = "['ffmpeg4.4', 'libvlc>=3.0.21']"
 +++
 ### Description: 

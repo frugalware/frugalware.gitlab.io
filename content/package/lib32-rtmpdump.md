@@ -12,7 +12,6 @@ size = "82768"
 usize = "251499"
 sha1sum = "2e9d7dcbb08fe7b321f48e2e153113d791b268a3"
 depends = "['lib32-gnutls', 'lib32-libgcrypt', 'lib32-zlib>=1.2.12']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 A tool to download rtmp:// and rtmpe:// streams ( 32bit )

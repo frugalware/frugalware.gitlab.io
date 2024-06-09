@@ -12,7 +12,6 @@ size = "110136"
 usize = "291257"
 sha1sum = "4c1b9bb47d440ca8d54373e8a044055553f8bb33"
 depends = "['lib32-fontconfig', 'lib32-fribidi>=0.19.7-4', 'lib32-harfbuzz>=1.3.1', 'lib32-libenca>=1.16-4']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 A portable library for SSA/ASS subtitles rendering ( 32bit )

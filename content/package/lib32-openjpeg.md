@@ -12,7 +12,6 @@ size = "1785944"
 usize = "2391110"
 sha1sum = "c0f9856f062c52d9b72ee7f50ff793bb9d73687a"
 depends = "['lib32-lcms2>=2.8-2', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.6-2']"
-reverse_depends = "['lib32-ffmpeg']"
 +++
 ### Description: 
 An open-source JPEG 2000 codec written in C ( 32bit )
