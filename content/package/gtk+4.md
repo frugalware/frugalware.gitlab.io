@@ -12,7 +12,7 @@ size = "19335404"
 usize = "142206066"
 sha1sum = "0071bd296502b64a2f20060759b59aee941a86a1"
 depends = "['adwaita-icon-theme', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'graphene', 'gst1-plugins-bad>=1.22.1', 'gtk+3-tools', 'gtk-update-icon-cache', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxinerama', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'sassc', 'shared-mime-info', 'vulkan-icd-loader', 'wayland-protocols>=1.7-2']"
-reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'granite', 'gssdp', 'gtk+4-demos', 'gtk+4-tools', 'gtkmm', 'ibus', 'libadwaita', 'libpanel', 'libportal-gtk4', 'vte3']"
+reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'granite', 'gssdp', 'gtk+4-demos', 'gtk+4-tools', 'gtk-handbrake', 'gtkmm', 'ibus', 'libadwaita', 'libpanel', 'libportal-gtk4', 'vte3']"
 +++
 ### Description: 
 The GTK+ Toolkit (3.x series)

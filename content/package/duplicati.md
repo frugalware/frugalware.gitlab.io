@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "duplicati 2.0.9.100-2"
-version = "2.0.9.100-2"
+title = "duplicati 2.0.9.100-3"
+version = "2.0.9.100-3"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-06-03T08:36:55"
+date = "2024-06-09T18:43:18"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "55340076"
+size = "55341288"
 usize = "171854940"
-sha1sum = "769c9b9851f1326fbec064bf36f73a407abb7ffb"
-depends = "['glibc']"
+sha1sum = "753f5617dd0489f6564fb15e38fabc6c2f35af85"
+depends = "['lttng-ust']"
 +++
 ### Description: 
 A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers

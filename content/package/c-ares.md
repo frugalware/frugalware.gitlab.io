@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "c-ares 1.29.0-1"
-version = "1.29.0-1"
+title = "c-ares 1.30.0-1"
+version = "1.30.0-1"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-05-24T14:53:41"
+date = "2024-06-09T18:58:04"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "256092"
-usize = "695557"
-sha1sum = "e09ae770b9a16fc1ff47b30a73bcfdd25a3b91d5"
+size = "192412"
+usize = "453965"
+sha1sum = "9547a7b388654ec6ec28d7d234ab95c165456df5"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'nodejs20', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
@@ -33,17 +33,17 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/lib/cmake/c-ares/c-ares-targets.cmake
 * /usr/lib/libcares.so
 * /usr/lib/libcares.so.2
-* /usr/lib/libcares.so.2.14.0
+* /usr/lib/libcares.so.2.15.0
 * /usr/lib/pkgconfig/libcares.pc
-* /usr/share/doc/c-ares-1.29.0/AUTHORS
-* /usr/share/doc/c-ares-1.29.0/CHANGES
-* /usr/share/doc/c-ares-1.29.0/INSTALL.md
-* /usr/share/doc/c-ares-1.29.0/NEWS
-* /usr/share/doc/c-ares-1.29.0/README.cares
-* /usr/share/doc/c-ares-1.29.0/README.md
-* /usr/share/doc/c-ares-1.29.0/README.msvc
-* /usr/share/doc/c-ares-1.29.0/RELEASE-NOTES.md
-* /usr/share/doc/c-ares-1.29.0/TODO
+* /usr/share/doc/c-ares-1.30.0/AUTHORS
+* /usr/share/doc/c-ares-1.30.0/CHANGES
+* /usr/share/doc/c-ares-1.30.0/INSTALL.md
+* /usr/share/doc/c-ares-1.30.0/NEWS
+* /usr/share/doc/c-ares-1.30.0/README.cares
+* /usr/share/doc/c-ares-1.30.0/README.md
+* /usr/share/doc/c-ares-1.30.0/README.msvc
+* /usr/share/doc/c-ares-1.30.0/RELEASE-NOTES.md
+* /usr/share/doc/c-ares-1.30.0/TODO
 * /usr/share/man/man1/adig.1.gz
 * /usr/share/man/man1/ahost.1.gz
 * /usr/share/man/man3/ares_cancel.3.gz

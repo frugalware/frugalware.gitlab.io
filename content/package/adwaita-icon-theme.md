@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "adwaita-icon-theme 46.0-1"
-version = "46.0-1"
+title = "adwaita-icon-theme 46.2-1"
+version = "46.2-1"
 description = "Default icon theme for GNOME"
-date = "2024-04-05T19:55:06"
+date = "2024-06-09T19:03:05"
 aliases = "/packages/217275"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "577116"
-usize = "11771148"
-sha1sum = "aee2c75b578dfa213caf8f9ae4fb899f0ef311b2"
+size = "580044"
+usize = "11771308"
+sha1sum = "0c317669e097643a84732aeeb0a4564123faeeed"
 depends = "['gtk+4-update-icon-cache', 'gtk-update-icon-cache>=3.22.29', 'hicolor-icon-theme']"
 reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
 Default icon theme for GNOME
 
 ### Files: 
-* /usr/share/doc/adwaita-icon-theme-46.0/AUTHORS
-* /usr/share/doc/adwaita-icon-theme-46.0/COPYING
-* /usr/share/doc/adwaita-icon-theme-46.0/COPYING_CCBYSA3
-* /usr/share/doc/adwaita-icon-theme-46.0/COPYING_LGPL
-* /usr/share/doc/adwaita-icon-theme-46.0/NEWS
-* /usr/share/doc/adwaita-icon-theme-46.0/README.md
+* /usr/share/doc/adwaita-icon-theme-46.2/AUTHORS
+* /usr/share/doc/adwaita-icon-theme-46.2/COPYING
+* /usr/share/doc/adwaita-icon-theme-46.2/COPYING_CCBYSA3
+* /usr/share/doc/adwaita-icon-theme-46.2/COPYING_LGPL
+* /usr/share/doc/adwaita-icon-theme-46.2/NEWS
+* /usr/share/doc/adwaita-icon-theme-46.2/README.md
 * /usr/share/icons/Adwaita/16x16/devices/audio-headphones.png
 * /usr/share/icons/Adwaita/16x16/devices/audio-headset.png
 * /usr/share/icons/Adwaita/16x16/emblems/emblem-readonly.png
@@ -91,6 +91,7 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/cursors/cross_reverse
 * /usr/share/icons/Adwaita/cursors/default
 * /usr/share/icons/Adwaita/cursors/diamond_cross
+* /usr/share/icons/Adwaita/cursors/dnd-move
 * /usr/share/icons/Adwaita/cursors/e-resize
 * /usr/share/icons/Adwaita/cursors/ew-resize
 * /usr/share/icons/Adwaita/cursors/fd_double_arrow

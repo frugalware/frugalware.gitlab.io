@@ -12,7 +12,7 @@ size = "1871260"
 usize = "7183573"
 sha1sum = "0547944aa5ec70cc7c6fe72bc6f1ad8235abd784"
 depends = "['libblkid', 'libcap-ng>=0.7.8-8', 'libsystemd', 'libudev', 'libuuid', 'libxcrypt', 'ncurses>=6.1-5', 'pam>=1.3.0-4', 'pcre2', 'readline>=8.0-3', 'sqlite3', 'zlib>=1.2.12']"
-reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
+reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'lttng-ust', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
 +++
 ### Description: 
 Miscellaneous system utilities for Linux

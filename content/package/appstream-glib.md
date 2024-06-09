@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "appstream-glib 0.8.2-2"
-version = "0.8.2-2"
+title = "appstream-glib 0.8.3-1"
+version = "0.8.3-1"
 description = "Library for AppStream metadata"
-date = "2023-09-28T14:09:59"
+date = "2024-06-09T19:04:49"
 aliases = "/packages/218044"
 categories = ['xlib']
 upstreamurl = "https://people.freedesktop.org/~hughsient/appstream-glib"
 arch = "x86_64"
-size = "418832"
-usize = "2556521"
-sha1sum = "b6a090fa8981cbf2a027486b1dff4dd06605c506"
+size = "323660"
+usize = "1874649"
+sha1sum = "69c03eb4c548eb96db3db3a46a85d11568dd3c7f"
 depends = "['curl', 'gcab>=1.2-2', 'gtk+3>=3.24.7-2', 'json-glib>=1.4.2-3', 'libstemmer', 'libyaml']"
 reverse_depends = "['fwupd']"
 +++
@@ -67,45 +67,13 @@ Library for AppStream metadata
 * /usr/share/aclocal/appstream-xml.m4
 * /usr/share/bash-completion/completions/appstream-builder
 * /usr/share/bash-completion/completions/appstream-util
-* /usr/share/doc/appstream-glib-0.8.2/AUTHORS
-* /usr/share/doc/appstream-glib-0.8.2/COPYING
-* /usr/share/doc/appstream-glib-0.8.2/NEWS
-* /usr/share/doc/appstream-glib-0.8.2/README.md
-* /usr/share/doc/appstream-glib-0.8.2/RELEASE
+* /usr/share/doc/appstream-glib-0.8.3/AUTHORS
+* /usr/share/doc/appstream-glib-0.8.3/COPYING
+* /usr/share/doc/appstream-glib-0.8.3/NEWS
+* /usr/share/doc/appstream-glib-0.8.3/README.md
+* /usr/share/doc/appstream-glib-0.8.3/RELEASE
 * /usr/share/gettext/its/appdata.its
 * /usr/share/gettext/its/appdata.loc
 * /usr/share/gir-1.0/AppStreamGlib-1.0.gir
 * /usr/share/installed-tests/appstream-glib/appdata-validate.test
 * /usr/share/installed-tests/appstream-glib/destdir-check.test
-* /usr/share/locale/ca/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/cs/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/da/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/de/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/es/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/fa/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/fi/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/fr/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/fur/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/gl/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/hr/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/hu/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/id/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/it/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/ka/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/ko/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/lt/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/oc/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/pl/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/pt/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/ru/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/sk/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/sl/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/sr/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/sv/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/tr/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/uk/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/appstream-glib.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/appstream-glib.mo

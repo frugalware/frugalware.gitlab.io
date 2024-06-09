@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler 24.05.0-4"
-version = "24.05.0-4"
+title = "poppler 24.06.0-1"
+version = "24.06.0-1"
 description = "A PDF rendering library"
-date = "2024-05-27T13:55:03"
+date = "2024-06-09T19:11:52"
 aliases = "/packages/3295"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "1978816"
-usize = "10021823"
-sha1sum = "cc5754338b649765f4fa7382a81492e8985c187c"
+size = "2011360"
+usize = "10035103"
+sha1sum = "e19aff26c429e36b1cbfad57720e394188534534"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data', 'poppler-data']"
 reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
@@ -166,13 +166,13 @@ A PDF rendering library
 * /usr/lib/libpoppler.so.137.0.0
 * /usr/lib/pkgconfig/poppler-cpp.pc
 * /usr/lib/pkgconfig/poppler.pc
-* /usr/share/doc/poppler-24.05.0/AUTHORS
-* /usr/share/doc/poppler-24.05.0/ChangeLog
-* /usr/share/doc/poppler-24.05.0/COPYING
-* /usr/share/doc/poppler-24.05.0/COPYING3
-* /usr/share/doc/poppler-24.05.0/INSTALL
-* /usr/share/doc/poppler-24.05.0/NEWS
-* /usr/share/doc/poppler-24.05.0/README-XPDF
-* /usr/share/doc/poppler-24.05.0/README.contributors
-* /usr/share/doc/poppler-24.05.0/README.md
+* /usr/share/doc/poppler-24.06.0/AUTHORS
+* /usr/share/doc/poppler-24.06.0/ChangeLog
+* /usr/share/doc/poppler-24.06.0/COPYING
+* /usr/share/doc/poppler-24.06.0/COPYING3
+* /usr/share/doc/poppler-24.06.0/INSTALL
+* /usr/share/doc/poppler-24.06.0/NEWS
+* /usr/share/doc/poppler-24.06.0/README-XPDF
+* /usr/share/doc/poppler-24.06.0/README.contributors
+* /usr/share/doc/poppler-24.06.0/README.md
 * /usr/share/gir-1.0/Poppler-0.18.gir

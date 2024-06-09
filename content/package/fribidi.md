@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fribidi 1.0.14-1"
-version = "1.0.14-1"
+title = "fribidi 1.0.15-1"
+version = "1.0.15-1"
 description = "A Free Implementation of the Unicode BiDirectional algorithm"
-date = "2024-05-25T12:10:21"
+date = "2024-06-09T19:00:19"
 aliases = "/packages/3005"
 categories = ['multimedia']
 upstreamurl = "https://github.com/fribidi/fribidi"
 arch = "x86_64"
-size = "123328"
-usize = "498718"
-sha1sum = "798eb65407156e05ed70d9bc145ad457aecfb53a"
+size = "123748"
+usize = "490066"
+sha1sum = "4af91dac80b42ee63a33c210293ff77ea43c3769"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libass', 'pango', 'scummvm', 'supertuxkart', 'terminology', 'vlc', 'vlc-skins']"
 license = "GPL2.1"
@@ -46,15 +46,15 @@ A Free Implementation of the Unicode BiDirectional algorithm
 * /usr/lib/libfribidi.so.0
 * /usr/lib/libfribidi.so.0.4.0
 * /usr/lib/pkgconfig/fribidi.pc
-* /usr/share/doc/fribidi-1.0.14/AUTHORS
-* /usr/share/doc/fribidi-1.0.14/ChangeLog
-* /usr/share/doc/fribidi-1.0.14/COPYING
-* /usr/share/doc/fribidi-1.0.14/INSTALL
-* /usr/share/doc/fribidi-1.0.14/NEWS
-* /usr/share/doc/fribidi-1.0.14/README
-* /usr/share/doc/fribidi-1.0.14/README.md
-* /usr/share/doc/fribidi-1.0.14/THANKS
-* /usr/share/doc/fribidi-1.0.14/TODO
+* /usr/share/doc/fribidi-1.0.15/AUTHORS
+* /usr/share/doc/fribidi-1.0.15/ChangeLog
+* /usr/share/doc/fribidi-1.0.15/COPYING
+* /usr/share/doc/fribidi-1.0.15/INSTALL
+* /usr/share/doc/fribidi-1.0.15/NEWS
+* /usr/share/doc/fribidi-1.0.15/README
+* /usr/share/doc/fribidi-1.0.15/README.md
+* /usr/share/doc/fribidi-1.0.15/THANKS
+* /usr/share/doc/fribidi-1.0.15/TODO
 * /usr/share/man/man3/fribidi_charset_to_unicode.3.gz
 * /usr/share/man/man3/fribidi_debug_status.3.gz
 * /usr/share/man/man3/fribidi_get_bidi_type.3.gz

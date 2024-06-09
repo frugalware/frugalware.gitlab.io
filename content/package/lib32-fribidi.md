@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-fribidi 1.0.14-1"
-version = "1.0.14-1"
+title = "lib32-fribidi 1.0.15-1"
+version = "1.0.15-1"
 description = "A Free Implementation of the Unicode BiDirectional algorithm ( 32bit )"
-date = "2024-05-25T12:10:21"
+date = "2024-06-09T19:00:19"
 aliases = "/packages/219243"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/fribidi/fribidi"
 arch = "x86_64"
-size = "39896"
-usize = "221801"
-sha1sum = "ee3be59ad086cd2b2b612fa48bf91fa911bfd161"
+size = "41092"
+usize = "218586"
+sha1sum = "149656ea658b75260000d50ab729f8c0d47026af"
 depends = "[]"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++

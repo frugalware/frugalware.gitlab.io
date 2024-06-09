@@ -12,7 +12,7 @@ size = "4637660"
 usize = "17798430"
 sha1sum = "bb4a3b5e718c9fe6f2ac877fa6538314973c2353"
 depends = "['libdrm', 'libva', 'wayland']"
-reverse_depends = "['ffmpeg', 'handbrake']"
+reverse_depends = "['ffmpeg']"
 +++
 ### Description: 
 Intel Video Processing Library
