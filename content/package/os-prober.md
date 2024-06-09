@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "os-prober 1.81-1"
-version = "1.81-1"
+title = "os-prober 1.82-1"
+version = "1.82-1"
 description = "Utility to detect other OSes on a set of drives."
-date = "2022-08-26T17:15:35"
+date = "2024-06-09T14:20:51"
 aliases = "/packages/10153"
 categories = ['base']
 upstreamurl = "http://packages.debian.org/os-prober"
 arch = "x86_64"
-size = "32400"
-usize = "114274"
-sha1sum = "a86dc12788256bfcd6c25f622178d9bac8a9a6dd"
+size = "32448"
+usize = "104607"
+sha1sum = "7da68f9bef7d9ede41d35f5dd6f16a2bb7eea41c"
 depends = "['bash', 'grub2-mount']"
 +++
 ### Description: 
@@ -40,7 +40,7 @@ Utility to detect other OSes on a set of drives.
 * /usr/lib/os-probes/mounted/90solaris
 * /usr/lib/os-probes/mounted/efi/10elilo
 * /usr/lib/os-probes/mounted/efi/20microsoft
-* /usr/share/doc/os-prober-1.81/changelog
-* /usr/share/doc/os-prober-1.81/README
-* /usr/share/doc/os-prober-1.81/TODO
+* /usr/share/doc/os-prober-1.82/changelog
+* /usr/share/doc/os-prober-1.82/README
+* /usr/share/doc/os-prober-1.82/TODO
 * /usr/share/os-prober/common.sh

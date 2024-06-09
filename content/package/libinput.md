@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libinput 1.25.0-2"
-version = "1.25.0-2"
+title = "libinput 1.26.0-1"
+version = "1.26.0-1"
 description = "A library to handle input devices in Wayland compositors and to provide a generic X.Org input driver"
-date = "2024-05-16T02:14:30"
+date = "2024-06-09T14:37:52"
 aliases = "/packages/201250"
 categories = ['x11']
 upstreamurl = "https://gitlab.freedesktop.org/libinput/libinput"
 arch = "x86_64"
-size = "247912"
-usize = "1019998"
-sha1sum = "ba374b52cb5ba7d1deb83f72fed332a63584007d"
+size = "253964"
+usize = "957877"
+sha1sum = "a83737712f0d2b7b34de9a2640bcf078ce6cb2a7"
 depends = "['libevdev>=1.5.4-2', 'libudev>=242', 'libwacom>=0.29', 'mtdev>=1.1.5-4']"
 reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-gestures', 'qt5-base', 'qt6-base', 'terminology', 'virtualbox', 'weston', 'wlroots', 'xf86-input-libinput']"
 +++
@@ -47,8 +47,8 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/lib/udev/libinput-fuzz-to-zero
 * /usr/lib/udev/rules.d/80-libinput-device-groups.rules
 * /usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
-* /usr/share/doc/libinput-1.25.0/COPYING
-* /usr/share/doc/libinput-1.25.0/README.md
+* /usr/share/doc/libinput-1.26.0/COPYING
+* /usr/share/doc/libinput-1.26.0/README.md
 * /usr/share/libinput/10-generic-keyboard.quirks
 * /usr/share/libinput/10-generic-mouse.quirks
 * /usr/share/libinput/10-generic-trackball.quirks
@@ -59,7 +59,9 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/share/libinput/30-vendor-cypress.quirks
 * /usr/share/libinput/30-vendor-elantech.quirks
 * /usr/share/libinput/30-vendor-glorious.quirks
+* /usr/share/libinput/30-vendor-huion.quirks
 * /usr/share/libinput/30-vendor-ibm.quirks
+* /usr/share/libinput/30-vendor-ite.quirks
 * /usr/share/libinput/30-vendor-kensington.quirks
 * /usr/share/libinput/30-vendor-logitech.quirks
 * /usr/share/libinput/30-vendor-madcatz.quirks
@@ -69,6 +71,7 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/share/libinput/30-vendor-razer.quirks
 * /usr/share/libinput/30-vendor-synaptics.quirks
 * /usr/share/libinput/30-vendor-trust.quirks
+* /usr/share/libinput/30-vendor-uniwill.quirks
 * /usr/share/libinput/30-vendor-vmware.quirks
 * /usr/share/libinput/30-vendor-wacom.quirks
 * /usr/share/libinput/50-system-acer.quirks

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xkeyboard-config 2.41-1"
-version = "2.41-1"
+title = "xkeyboard-config 2.42-1"
+version = "2.42-1"
 description = "X.org XML-based XKB configuration registry"
-date = "2024-02-05T12:39:03"
+date = "2024-06-09T14:46:00"
 aliases = "/packages/14767"
 categories = ['x11']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/XKeyboardConfig"
 arch = "x86_64"
-size = "777000"
-usize = "6849902"
-sha1sum = "e2355b1d096f5754b21bbcf905c76242a38835c2"
+size = "343160"
+usize = "3269165"
+sha1sum = "2fc0669213eee2c23cdd3fdd08ef8b67f2c09fef"
 depends = "['xkbcomp>=1.3.1-2']"
 reverse_depends = "['ckbcomp', 'gnome-desktop']"
 +++
@@ -20,60 +20,17 @@ X.org XML-based XKB configuration registry
 ### Files: 
 * /usr/lib/pkgconfig/xkeyboard-config.pc
 * /usr/lib/X11/xkb
-* /usr/share/doc/xkeyboard-config-2.41/AUTHORS
-* /usr/share/doc/xkeyboard-config-2.41/ChangeLog
-* /usr/share/doc/xkeyboard-config-2.41/COPYING
-* /usr/share/doc/xkeyboard-config-2.41/NEWS
-* /usr/share/doc/xkeyboard-config-2.41/README
-* /usr/share/locale/af/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ar/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/az/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/bg/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ca/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/crh/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/cs/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/da/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/de/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/el/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/eo/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/es/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/fi/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/fr/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/fur/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/gl/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/he/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/hr/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/hu/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/id/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/it/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ja/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ka/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ko/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ky/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/lt/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/nb/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/nl/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/pl/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/pt/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ro/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/ru/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/rw/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/sk/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/sl/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/sq/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/sr/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/sv/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/tr/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/uk/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/vi/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/xkeyboard-config.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/xkeyboard-config.mo
+* /usr/share/doc/xkeyboard-config-2.42/AUTHORS
+* /usr/share/doc/xkeyboard-config-2.42/ChangeLog
+* /usr/share/doc/xkeyboard-config-2.42/COPYING
+* /usr/share/doc/xkeyboard-config-2.42/NEWS
+* /usr/share/doc/xkeyboard-config-2.42/README
 * /usr/share/X11/xkb/compat/accessx
 * /usr/share/X11/xkb/compat/basic
 * /usr/share/X11/xkb/compat/caps
 * /usr/share/X11/xkb/compat/complete
+* /usr/share/X11/xkb/compat/grab
+* /usr/share/X11/xkb/compat/grp_led
 * /usr/share/X11/xkb/compat/iso9995
 * /usr/share/X11/xkb/compat/japan
 * /usr/share/X11/xkb/compat/ledcaps
@@ -82,6 +39,7 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/compat/ledscroll
 * /usr/share/X11/xkb/compat/level5
 * /usr/share/X11/xkb/compat/misc
+* /usr/share/X11/xkb/compat/mod_led
 * /usr/share/X11/xkb/compat/mousekeys
 * /usr/share/X11/xkb/compat/olpc
 * /usr/share/X11/xkb/compat/pc
@@ -105,7 +63,6 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/geometry/macintosh
 * /usr/share/X11/xkb/geometry/microsoft
 * /usr/share/X11/xkb/geometry/nec
-* /usr/share/X11/xkb/geometry/nokia
 * /usr/share/X11/xkb/geometry/northgate
 * /usr/share/X11/xkb/geometry/pc
 * /usr/share/X11/xkb/geometry/README
@@ -209,6 +166,7 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/symbols/gh
 * /usr/share/X11/xkb/symbols/gn
 * /usr/share/X11/xkb/symbols/gr
+* /usr/share/X11/xkb/symbols/grab
 * /usr/share/X11/xkb/symbols/group
 * /usr/share/X11/xkb/symbols/hp_vndr/us
 * /usr/share/X11/xkb/symbols/hr
@@ -271,9 +229,6 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/symbols/ng
 * /usr/share/X11/xkb/symbols/nl
 * /usr/share/X11/xkb/symbols/no
-* /usr/share/X11/xkb/symbols/nokia_vndr/rx-44
-* /usr/share/X11/xkb/symbols/nokia_vndr/rx-51
-* /usr/share/X11/xkb/symbols/nokia_vndr/su-8w
 * /usr/share/X11/xkb/symbols/np
 * /usr/share/X11/xkb/symbols/nz
 * /usr/share/X11/xkb/symbols/olpc
@@ -287,6 +242,7 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/symbols/rs
 * /usr/share/X11/xkb/symbols/ru
 * /usr/share/X11/xkb/symbols/rupeesign
+* /usr/share/X11/xkb/symbols/scrolllock
 * /usr/share/X11/xkb/symbols/se
 * /usr/share/X11/xkb/symbols/sgi_vndr/jp
 * /usr/share/X11/xkb/symbols/sharp_vndr/sl-c3x00
@@ -299,6 +255,7 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/symbols/sk
 * /usr/share/X11/xkb/symbols/sn
 * /usr/share/X11/xkb/symbols/sony_vndr/us
+* /usr/share/X11/xkb/symbols/srvrkeys
 * /usr/share/X11/xkb/symbols/srvr_ctrl
 * /usr/share/X11/xkb/symbols/sun_vndr/ara
 * /usr/share/X11/xkb/symbols/sun_vndr/be
@@ -359,7 +316,6 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/types/iso9995
 * /usr/share/X11/xkb/types/level5
 * /usr/share/X11/xkb/types/mousekeys
-* /usr/share/X11/xkb/types/nokia
 * /usr/share/X11/xkb/types/numpad
 * /usr/share/X11/xkb/types/pc
 * /usr/share/X11/xkb/types/README

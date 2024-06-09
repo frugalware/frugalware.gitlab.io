@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3 3.12.3-3"
-version = "3.12.3-3"
+title = "python3 3.12.4-1"
+version = "3.12.4-1"
 description = "A high-level scripting language"
-date = "2024-05-21T16:53:15"
+date = "2024-06-09T15:01:05"
 aliases = "/packages/217990"
 categories = ['devel']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "23934076"
-usize = "186637594"
-sha1sum = "fa9e317b1e37d9fd3792633881af14d2e0a1f1cf"
+size = "29962908"
+usize = "186916683"
+sha1sum = "4b43dee5b371d4473c106dcc68f6f56c5ecbbaa1"
 depends = "['bzip2>=1.0.6-16', 'expat>=2.2.5-2', 'gdbm>=1.18.1-3', 'glibc>=2.34', 'libffi>=3.4', 'mpdecimal>=4.0.0', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0-2', 'xz>=5.2.3-4', 'zlib>=1.2.12']"
 reverse_depends = "['apipkg', 'asciidoc', 'autojump', 'bcc', 'beautifulsoup4', 'binwalk', 'botan', 'calamares-frugalware', 'cantor', 'cattrs', 'certifi', 'cffsubr', 'chardet3', 'clang-python', 'compreffor', 'cracklib', 'criu', 'cssutils', 'cu2qu', 'cuda', 'dbus-python', 'distcc', 'django', 'docutils', 'dtc', 'epydoc', 'evdi', 'face_recognition_models', 'falkon-python-plugins', 'flake8', 'fontforge', 'fontmath', 'freeorion', 'gdb', 'gdcm', 'gem', 'git-imerge', 'glade', 'glib2', 'gobject-introspection', 'graphviz', 'gtk-vnc', 'hexchat', 'hivex-python', 'html5lib-python', 'iso-codes', 'kapidox', 'kapidox5', 'kdev-python', 'kicad', 'kig', 'kitty', 'kvirc', 'ladybird', 'lib32-spirv-tools', 'libaccounts-glib', 'libblockdev', 'libboost', 'libbytesize', 'libcaca', 'libguestfs-python3', 'libieee1284', 'liblirc', 'libnvme', 'libproxy-python3', 'libpst-python', 'libpwquality', 'libreoffice', 'libsearpc', 'libselinux', 'libsmbclient', 'libsmbios', 'libtorrent-rasterbar-python', 'libvirt-python3', 'libxml2-python', 'libxslt', 'lilv', 'llvm', 'llvm15', 'mercurial', 'meshroom', 'meson', 'mftrace', 'mod_wsgi', 'mpv', 'mutagen', 'newt-python3-snackmodule', 'nftables', 'nitroshare', 'obs-studio', 'openbox', 'opencv-python3', 'openshadinglanguage', 'openvas-cli', 'packagekit', 'pacman-g2', 'pacman-tools', 'pam-python', 'pam_wrapper', 'pcsc-lite', 'perf', 'pexpect', 'picard', 'pocketsphinx', 'polysh', 'postgresql-plpython', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'ptyprocess', 'py3dns', 'pyalsa', 'pybind11', 'pybluez', 'pycups', 'pycurl', 'pyenchant', 'pygobject3', 'pyinotify', 'pylibmount', 'pylint', 'pymad', 'pymysql', 'pyparsing3', 'pypolicyd-spf', 'pyqt-builder', 'pyserial', 'pyside6', 'pyspf', 'pystring', 'python3-alabaster', 'python3-annotated-types', 'python3-appdirs', 'python3-apsw', 'python3-asn1crypto', 'python3-async_generator', 'python3-attrs', 'python3-babel', 'python3-boto', 'python3-cachy', 'python3-calver', 'python3-cchardet', 'python3-cffi', 'python3-charset-normalizer', 'python3-cheetah3', 'python3-click', 'python3-colorama', 'python3-colour', 'python3-commonmark', 'python3-constantly', 'python3-contextlib2', 'python3-crashtest', 'python3-cryptography', 'python3-css-parser', 'python3-cython', 'python3-cython0', 'python3-d2to1', 'python3-daemonize', 'python3-decorator', 'python3-distlib', 'python3-distro', 'python3-editables', 'python3-evdev', 'python3-eventlet', 'python3-exceptiongroup', 'python3-fasteners', 'python3-fastimport', 'python3-fastjsonschema', 'python3-feedparser', 'python3-filelock', 'python3-fonttools', 'python3-formencode', 'python3-fs', 'python3-gast', 'python3-gevent', 'python3-gnupginterface', 'python3-gpgme', 'python3-greenlet', 'python3-gunicorn', 'python3-gvm', 'python3-h11', 'python3-hiredis', 'python3-html5-parser', 'python3-httplib2', 'python3-idna', 'python3-ifaddr', 'python3-imagesize', 'python3-incremental', 'python3-iniconfig', 'python3-installer', 'python3-isodate', 'python3-isort', 'python3-jedi', 'python3-jeepney', 'python3-jinja', 'python3-jsmin', 'python3-lazy-object-proxy', 'python3-lockfile', 'python3-logilab-common', 'python3-lxml', 'python3-m2crypto', 'python3-markupsafe', 'python3-mccabe', 'python3-mock', 'python3-monotonic', 'python3-more-itertools', 'python3-mpi4py', 'python3-msgpack', 'python3-mysql', 'python3-netifaces', 'python3-numpy', 'python3-numpy-static', 'python3-packaging', 'python3-passlib', 'python3-patchelf', 'python3-pathspec', 'python3-pbr', 'python3-pefile', 'python3-pkgconfig', 'python3-pkginfo', 'python3-pluggy', 'python3-ply', 'python3-poetry-plugin-export', 'python3-psutil', 'python3-pulsectl', 'python3-py', 'python3-py3c', 'python3-pyasn1', 'python3-pycairo', 'python3-pycountry', 'python3-pycryptodome', 'python3-pydbus', 'python3-pygdbmi', 'python3-pygments', 'python3-pypatchelf', 'python3-pyqt5-sip', 'python3-pyqt6-sip', 'python3-pyrsistent', 'python3-pysocks', 'python3-pytest-runner', 'python3-pytz', 'python3-pyzmq', 'python3-random2', 'python3-regex', 'python3-requests', 'python3-rpds-py', 'python3-sane', 'python3-semantic-version', 'python3-setproctitle', 'python3-setuptools', 'python3-shellingham', 'python3-shiboken2', 'python3-shiboken6', 'python3-six', 'python3-smartypants', 'python3-sniffio', 'python3-snowballstemmer', 'python3-sortedcontainers', 'python3-soupsieve', 'python3-sphinx', 'python3-sphinx-applehelp', 'python3-sphinx-automodapi', 'python3-sphinx-copybutton', 'python3-sphinx-devhelp', 'python3-sphinx-htmlhelp', 'python3-sphinx-jsmath', 'python3-sphinx-markdown-tables', 'python3-sphinx-qthelp', 'python3-sphinx-rtd-theme', 'python3-sphinx-serializinghtml', 'python3-sqlalchemy', 'python3-sqlite3', 'python3-systemd', 'python3-tk', 'python3-toml', 'python3-tomli', 'python3-tomlkit', 'python3-tools', 'python3-toposort', 'python3-trove-classifiers', 'python3-typing_extensions', 'python3-webencodings', 'python3-websocket-client', 'python3-websocket_client', 'python3-wheezy', 'python3-wrapt', 'python3-xdg', 'python3-xxhash', 'python3-zipp', 'python3-zombie-imp', 'python3-zopeinterface', 'pyudev', 'pyxdg', 'pyyaml3', 'qbittorrent', 'ranger', 'rdma-core', 'remmina', 'rrdtool', 's3cmd', 'samba', 'scapy', 'scons', 'scribus', 'sigil', 'skia-pathops', 'speech-dispatcher', 'sphinxbase', 'spirv-tools', 'statmake', 'subversion-bindings', 'system-config-printer', 'talloc', 'tdb', 'tiled', 'translate-toolkit', 'txt2tags', 'ufo2ft', 'ufolib2', 'ufw', 'unoconv', 'urwid', 'vde2', 'virtualbox', 'volume_key', 'waf', 'watchdog', 'weechat', 'xcb-proto', 'zeitgeist', 'znc']"
 +++
@@ -2149,11 +2149,11 @@ A high-level scripting language
 * /usr/lib/python3.12/lib2to3/fixes/__pycache__/__init__.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/lib2to3/fixes/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/lib2to3/Grammar.txt
-* /usr/lib/python3.12/lib2to3/Grammar3.12.3.final.0.pickle
+* /usr/lib/python3.12/lib2to3/Grammar3.12.4.final.0.pickle
 * /usr/lib/python3.12/lib2to3/main.py
 * /usr/lib/python3.12/lib2to3/patcomp.py
 * /usr/lib/python3.12/lib2to3/PatternGrammar.txt
-* /usr/lib/python3.12/lib2to3/PatternGrammar3.12.3.final.0.pickle
+* /usr/lib/python3.12/lib2to3/PatternGrammar3.12.4.final.0.pickle
 * /usr/lib/python3.12/lib2to3/pgen2/conv.py
 * /usr/lib/python3.12/lib2to3/pgen2/driver.py
 * /usr/lib/python3.12/lib2to3/pgen2/grammar.py
@@ -3208,6 +3208,7 @@ A high-level scripting language
 * /usr/lib/python3.12/test/test_capi/test_long.py
 * /usr/lib/python3.12/test/test_capi/test_mem.py
 * /usr/lib/python3.12/test/test_capi/test_misc.py
+* /usr/lib/python3.12/test/test_capi/test_run.py
 * /usr/lib/python3.12/test/test_capi/test_set.py
 * /usr/lib/python3.12/test/test_capi/test_structmembers.py
 * /usr/lib/python3.12/test/test_capi/test_sys.py
@@ -3263,6 +3264,9 @@ A high-level scripting language
 * /usr/lib/python3.12/test/test_capi/__pycache__/test_misc.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/test_capi/__pycache__/test_misc.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/test_capi/__pycache__/test_misc.cpython-312.pyc
+* /usr/lib/python3.12/test/test_capi/__pycache__/test_run.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/test_capi/__pycache__/test_run.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/test_capi/__pycache__/test_run.cpython-312.pyc
 * /usr/lib/python3.12/test/test_capi/__pycache__/test_set.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/test_capi/__pycache__/test_set.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/test_capi/__pycache__/test_set.cpython-312.pyc
@@ -4042,6 +4046,22 @@ A high-level scripting language
 * /usr/lib/python3.12/test/test_import/data/package2/__pycache__/submodule2.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/test_import/data/package2/__pycache__/submodule2.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/test_import/data/package2/__pycache__/submodule2.cpython-312.pyc
+* /usr/lib/python3.12/test/test_import/data/package3/submodule.py
+* /usr/lib/python3.12/test/test_import/data/package3/__init__.py
+* /usr/lib/python3.12/test/test_import/data/package3/__pycache__/submodule.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/test_import/data/package3/__pycache__/submodule.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/test_import/data/package3/__pycache__/submodule.cpython-312.pyc
+* /usr/lib/python3.12/test/test_import/data/package3/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/test_import/data/package3/__pycache__/__init__.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/test_import/data/package3/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/test/test_import/data/package4/submodule.py
+* /usr/lib/python3.12/test/test_import/data/package4/__init__.py
+* /usr/lib/python3.12/test/test_import/data/package4/__pycache__/submodule.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/test_import/data/package4/__pycache__/submodule.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/test_import/data/package4/__pycache__/submodule.cpython-312.pyc
+* /usr/lib/python3.12/test/test_import/data/package4/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/test_import/data/package4/__pycache__/__init__.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/test_import/data/package4/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/test/test_import/data/unwritable/x.py
 * /usr/lib/python3.12/test/test_import/data/unwritable/__init__.py
 * /usr/lib/python3.12/test/test_import/data/unwritable/__pycache__/x.cpython-312.opt-1.pyc
@@ -5350,6 +5370,7 @@ A high-level scripting language
 * /usr/lib/python3.12/test/test_weakref.py
 * /usr/lib/python3.12/test/test_weakset.py
 * /usr/lib/python3.12/test/test_webbrowser.py
+* /usr/lib/python3.12/test/test_winapi.py
 * /usr/lib/python3.12/test/test_winconsoleio.py
 * /usr/lib/python3.12/test/test_winreg.py
 * /usr/lib/python3.12/test/test_winsound.py
@@ -5477,6 +5498,7 @@ A high-level scripting language
 * /usr/lib/python3.12/test/typinganndata/ann_module4.py
 * /usr/lib/python3.12/test/typinganndata/ann_module5.py
 * /usr/lib/python3.12/test/typinganndata/ann_module6.py
+* /usr/lib/python3.12/test/typinganndata/ann_module695.py
 * /usr/lib/python3.12/test/typinganndata/ann_module7.py
 * /usr/lib/python3.12/test/typinganndata/ann_module8.py
 * /usr/lib/python3.12/test/typinganndata/ann_module9.py
@@ -5501,6 +5523,9 @@ A high-level scripting language
 * /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module6.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module6.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module6.cpython-312.pyc
+* /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module695.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module695.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module695.cpython-312.pyc
 * /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module7.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module7.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/typinganndata/__pycache__/ann_module7.cpython-312.pyc
@@ -6833,6 +6858,9 @@ A high-level scripting language
 * /usr/lib/python3.12/test/__pycache__/test_webbrowser.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/__pycache__/test_webbrowser.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/__pycache__/test_webbrowser.cpython-312.pyc
+* /usr/lib/python3.12/test/__pycache__/test_winapi.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/test/__pycache__/test_winapi.cpython-312.opt-2.pyc
+* /usr/lib/python3.12/test/__pycache__/test_winapi.cpython-312.pyc
 * /usr/lib/python3.12/test/__pycache__/test_winconsoleio.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/test/__pycache__/test_winconsoleio.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/test/__pycache__/test_winconsoleio.cpython-312.pyc
@@ -7836,8 +7864,8 @@ A high-level scripting language
 * /usr/lib/python3.12/__pycache__/__hello__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/__pycache__/__hello__.cpython-312.opt-2.pyc
 * /usr/lib/python3.12/__pycache__/__hello__.cpython-312.pyc
-* /usr/share/doc/python3-3.12.3/LICENSE
-* /usr/share/doc/python3-3.12.3/README.rst
+* /usr/share/doc/python3-3.12.4/LICENSE
+* /usr/share/doc/python3-3.12.4/README.rst
 * /usr/share/man/man1/python.1.gz
 * /usr/share/man/man1/python3.1.gz
 * /usr/share/man/man1/python3.12.1.gz
