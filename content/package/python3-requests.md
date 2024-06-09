@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-requests 2.31.0-2"
-version = "2.31.0-2"
+title = "python3-requests 2.32.3-1"
+version = "2.32.3-1"
 description = "Python HTTP for Humans."
-date = "2023-10-05T11:33:22"
+date = "2024-06-09T19:26:01"
 aliases = "/packages/219475"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/requests"
 arch = "x86_64"
-size = "103604"
-usize = "399744"
-sha1sum = "37f9c4cd95f3adacf6cd55ac913ff5be6e81564a"
+size = "108180"
+usize = "418839"
+sha1sum = "1223e9831124a1ce1d798e668c308ec38e46d1a6"
 depends = "['python3>=3.12', 'python3-idna', 'python3-urllib3']"
 reverse_depends = "['blender', 'discover-overlay', 'lutris', 'python3-cachecontrol', 'python3-requests-toolbelt', 'python3-sphinx', 'python3-ytmusicapi', 'streamlink', 'system-config-printer', 'virt-manager']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['blender', 'discover-overlay', 'lutris', 'python3-cachecontr
 Python HTTP for Humans.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/requests-2.31.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/requests-2.32.3-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/requests-2.32.3-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/requests-2.32.3-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/requests-2.32.3-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/requests-2.32.3-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/requests-2.32.3-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/requests/adapters.py
 * /usr/lib/python3.12/site-packages/requests/api.py
 * /usr/lib/python3.12/site-packages/requests/auth.py
@@ -60,5 +60,5 @@ Python HTTP for Humans.
 * /usr/lib/python3.12/site-packages/requests/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/requests/__pycache__/__version__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/requests/__version__.py
-* /usr/share/doc/python3-requests-2.31.0/LICENSE
-* /usr/share/doc/python3-requests-2.31.0/README.md
+* /usr/share/doc/python3-requests-2.32.3/LICENSE
+* /usr/share/doc/python3-requests-2.32.3/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "google-glog 0.7.0-1"
-version = "0.7.0-1"
+title = "google-glog 0.7.1-1"
+version = "0.7.1-1"
 description = "Logging library for C++"
-date = "2024-02-18T18:21:45"
+date = "2024-06-09T19:28:23"
 aliases = "/packages/220119"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/glog"
 arch = "x86_64"
-size = "124504"
-usize = "411730"
-sha1sum = "3f96cefca1a8977d60d82dd4a7d7ba73327f4c26"
+size = "127420"
+usize = "416980"
+sha1sum = "131939e4c1d41eb5161bc333662c029f6817e742"
 depends = "['libstdc++']"
 reverse_depends = "['ceres-solver']"
 +++
@@ -33,10 +33,10 @@ Logging library for C++
 * /usr/lib/cmake/glog/glog-targets-release.cmake
 * /usr/lib/cmake/glog/glog-targets.cmake
 * /usr/lib/libglog.so
-* /usr/lib/libglog.so.0.7.0
+* /usr/lib/libglog.so.0.7.1
 * /usr/lib/libglog.so.2
-* /usr/share/doc/google-glog-0.7.0/AUTHORS
-* /usr/share/doc/google-glog-0.7.0/ChangeLog
-* /usr/share/doc/google-glog-0.7.0/CONTRIBUTORS
-* /usr/share/doc/google-glog-0.7.0/COPYING
-* /usr/share/doc/google-glog-0.7.0/README.rst
+* /usr/share/doc/google-glog-0.7.1/AUTHORS
+* /usr/share/doc/google-glog-0.7.1/ChangeLog
+* /usr/share/doc/google-glog-0.7.1/CONTRIBUTORS
+* /usr/share/doc/google-glog-0.7.1/COPYING
+* /usr/share/doc/google-glog-0.7.1/README.rst

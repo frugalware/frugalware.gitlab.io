@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grpc 1.64.2-1"
-version = "1.64.2-1"
+title = "grpc 1.64.2-2"
+version = "1.64.2-2"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2024-06-09T15:08:25"
+date = "2024-06-09T19:42:52"
 aliases = "/packages/219876"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "4581064"
+size = "4581836"
 usize = "20636936"
-sha1sum = "8e02af1fbb014c78c1281b65a4b107e731f6c218"
-depends = "['c-ares', 'icu4c>=75.1', 'openssl>=3.1.0', 'protobuf>=27', 're2']"
+sha1sum = "1be3c5fb332cbc5581d184e79179994ed2340bbf"
+depends = "['c-ares', 'icu4c>=75.1', 'openssl>=3.1.0', 'protobuf>=27.1', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
 ### Description: 

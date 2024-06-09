@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tesseract-ocr 5.3.4-1"
-version = "5.3.4-1"
+title = "tesseract-ocr 5.4.0-1"
+version = "5.4.0-1"
 description = "An OCR program"
-date = "2024-05-26T21:03:28"
+date = "2024-06-09T19:40:22"
 aliases = "/packages/219347"
 categories = ['xapps-extra']
 upstreamurl = "http://code.google.com/p/tesseract-ocr"
 arch = "x86_64"
-size = "1293252"
-usize = "3591730"
-sha1sum = "074295bc6f889194f13883240dba6fecd6a1e96c"
+size = "1338896"
+usize = "3710463"
+sha1sum = "e74050003b091175d9fa61f044bc0904b42f9d86"
 depends = "['leptonica>=1.74.4', 'tessdata']"
 reverse_depends = "['opencv', 'skanpage']"
 +++
@@ -33,15 +33,15 @@ An OCR program
 * /usr/include/tesseract/version.h
 * /usr/lib/libtesseract.so
 * /usr/lib/libtesseract.so.5
-* /usr/lib/libtesseract.so.5.0.3
+* /usr/lib/libtesseract.so.5.0.4
 * /usr/lib/pkgconfig/tesseract.pc
-* /usr/share/doc/tesseract-ocr-5.3.4/AUTHORS
-* /usr/share/doc/tesseract-ocr-5.3.4/ChangeLog
-* /usr/share/doc/tesseract-ocr-5.3.4/INSTALL
-* /usr/share/doc/tesseract-ocr-5.3.4/INSTALL.GIT.md
-* /usr/share/doc/tesseract-ocr-5.3.4/LICENSE
-* /usr/share/doc/tesseract-ocr-5.3.4/README.md
-* /usr/share/doc/tesseract-ocr-5.3.4/VERSION
+* /usr/share/doc/tesseract-ocr-5.4.0/AUTHORS
+* /usr/share/doc/tesseract-ocr-5.4.0/ChangeLog
+* /usr/share/doc/tesseract-ocr-5.4.0/INSTALL
+* /usr/share/doc/tesseract-ocr-5.4.0/INSTALL.GIT.md
+* /usr/share/doc/tesseract-ocr-5.4.0/LICENSE
+* /usr/share/doc/tesseract-ocr-5.4.0/README.md
+* /usr/share/doc/tesseract-ocr-5.4.0/VERSION
 * /usr/share/tessdata/configs/alto
 * /usr/share/tessdata/configs/ambigs.train
 * /usr/share/tessdata/configs/api_config
@@ -59,6 +59,7 @@ An OCR program
 * /usr/share/tessdata/configs/lstmbox
 * /usr/share/tessdata/configs/lstmdebug
 * /usr/share/tessdata/configs/makebox
+* /usr/share/tessdata/configs/page
 * /usr/share/tessdata/configs/pdf
 * /usr/share/tessdata/configs/quiet
 * /usr/share/tessdata/configs/rebox

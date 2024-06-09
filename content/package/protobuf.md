@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf 27.0-1"
-version = "27.0-1"
+title = "protobuf 27.1-1"
+version = "27.1-1"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2024-05-23T16:59:24"
+date = "2024-06-09T19:21:59"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "2373184"
-usize = "11604123"
-sha1sum = "e3d04cdbd108c1972059b7c66432a710a8ff2737"
+size = "2397724"
+usize = "11563195"
+sha1sum = "9b18b90b56d2a262bbe1427f70d463c430712490"
 depends = "['abseil-cpp>==20240116.0', 'libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
@@ -19,13 +19,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 
 ### Files: 
 * /usr/bin/protoc
-* /usr/bin/protoc-27.0.0
+* /usr/bin/protoc-27.1.0
 * /usr/bin/protoc-gen-upb
-* /usr/bin/protoc-gen-upb-27.0.0
+* /usr/bin/protoc-gen-upb-27.1.0
 * /usr/bin/protoc-gen-upbdefs
-* /usr/bin/protoc-gen-upbdefs-27.0.0
+* /usr/bin/protoc-gen-upbdefs-27.1.0
 * /usr/bin/protoc-gen-upb_minitable
-* /usr/bin/protoc-gen-upb_minitable-27.0.0
+* /usr/bin/protoc-gen-upb_minitable-27.1.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
 * /usr/include/google/protobuf/any.proto
@@ -402,13 +402,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 * /usr/lib/cmake/utf8_range/utf8_range-targets.cmake
 * /usr/lib/libprotobuf-lite.so
-* /usr/lib/libprotobuf-lite.so.27.0.0
+* /usr/lib/libprotobuf-lite.so.27.1.0
 * /usr/lib/libprotobuf.so
-* /usr/lib/libprotobuf.so.27.0.0
+* /usr/lib/libprotobuf.so.27.1.0
 * /usr/lib/libprotoc.so
-* /usr/lib/libprotoc.so.27.0.0
+* /usr/lib/libprotoc.so.27.1.0
 * /usr/lib/pkgconfig/protobuf-lite.pc
 * /usr/lib/pkgconfig/protobuf.pc
 * /usr/lib/pkgconfig/utf8_range.pc
-* /usr/share/doc/protobuf-27.0/LICENSE
-* /usr/share/doc/protobuf-27.0/README.md
+* /usr/share/doc/protobuf-27.1/LICENSE
+* /usr/share/doc/protobuf-27.1/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdispatch 5.10-1"
-version = "5.10-1"
+title = "libdispatch 5.10.1-1"
+version = "5.10.1-1"
 description = "Comprehensive support for concurrent code execution on multicore hardware"
-date = "2024-06-03T12:49:34"
+date = "2024-06-09T19:29:27"
 aliases = "/packages/220804"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/apple/swift-corelibs-libdispatch"
 arch = "x86_64"
-size = "745036"
-usize = "1234728"
-sha1sum = "031096d5015a89d59c475cd95833a618eadcc828"
+size = "744872"
+usize = "1222298"
+sha1sum = "94fdc56cfd1419926ad22110d5e873741f1c7a5c"
 depends = "['glibc']"
 reverse_depends = "['telegram-desktop']"
 +++
@@ -38,10 +38,10 @@ Comprehensive support for concurrent code execution on multicore hardware
 * /usr/include/os/object.h
 * /usr/lib/libBlocksRuntime.so
 * /usr/lib/libdispatch.so
-* /usr/share/doc/libdispatch-5.10/INSTALL.md
-* /usr/share/doc/libdispatch-5.10/LICENSE
-* /usr/share/doc/libdispatch-5.10/README.md
-* /usr/share/doc/libdispatch-5.10/swift-5.10-RELEASE.tar.gz
+* /usr/share/doc/libdispatch-5.10.1/INSTALL.md
+* /usr/share/doc/libdispatch-5.10.1/LICENSE
+* /usr/share/doc/libdispatch-5.10.1/README.md
+* /usr/share/doc/libdispatch-5.10.1/swift-5.10.1-RELEASE.tar.gz
 * /usr/share/man/man3/dispatch.3.gz
 * /usr/share/man/man3/dispatch_after.3.gz
 * /usr/share/man/man3/dispatch_api.3.gz

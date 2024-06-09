@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xscreensaver-data 6.08-2"
-version = "6.08-2"
+title = "xscreensaver-data 6.09-1"
+version = "6.09-1"
 description = "Screensavers for Xscreensaver"
-date = "2024-02-02T18:43:54"
+date = "2024-06-09T19:17:04"
 aliases = "/packages/10216"
 categories = ['xlib']
 upstreamurl = "https://www.jwz.org/xscreensaver"
 arch = "x86_64"
-size = "12282312"
-usize = "40535263"
-sha1sum = "52ea2211d13757b240e8aaea3d14576ab7c1a5e9"
+size = "18364908"
+usize = "40564171"
+sha1sum = "d966d809767b6f08601e9395af8747fe8671e4c1"
 depends = "['gdk-pixbuf2>=2.42.0', 'libglu', 'libxcrypt', 'libxft']"
 reverse_depends = "['xscreensaver']"
 +++
@@ -134,6 +134,7 @@ Screensavers for Xscreensaver
 * /usr/lib/xscreensaver/hexadrop
 * /usr/lib/xscreensaver/hexstrut
 * /usr/lib/xscreensaver/hextrail
+* /usr/lib/xscreensaver/highvoltage
 * /usr/lib/xscreensaver/hilbert
 * /usr/lib/xscreensaver/hopalong
 * /usr/lib/xscreensaver/hydrostat
@@ -150,6 +151,7 @@ Screensavers for Xscreensaver
 * /usr/lib/xscreensaver/julia
 * /usr/lib/xscreensaver/kaleidescope
 * /usr/lib/xscreensaver/kaleidocycle
+* /usr/lib/xscreensaver/kallisti
 * /usr/lib/xscreensaver/klein
 * /usr/lib/xscreensaver/kumppa
 * /usr/lib/xscreensaver/lament
@@ -394,6 +396,7 @@ Screensavers for Xscreensaver
 * /usr/share/man/man6/hexadrop.6.gz
 * /usr/share/man/man6/hexstrut.6.gz
 * /usr/share/man/man6/hextrail.6.gz
+* /usr/share/man/man6/highvoltage.6.gz
 * /usr/share/man/man6/hilbert.6.gz
 * /usr/share/man/man6/hopalong.6.gz
 * /usr/share/man/man6/hydrostat.6.gz
@@ -410,6 +413,7 @@ Screensavers for Xscreensaver
 * /usr/share/man/man6/julia.6.gz
 * /usr/share/man/man6/kaleidescope.6.gz
 * /usr/share/man/man6/kaleidocycle.6.gz
+* /usr/share/man/man6/kallisti.6.gz
 * /usr/share/man/man6/klein.6.gz
 * /usr/share/man/man6/kumppa.6.gz
 * /usr/share/man/man6/lament.6.gz
@@ -417,6 +421,7 @@ Screensavers for Xscreensaver
 * /usr/share/man/man6/lcdscrub.6.gz
 * /usr/share/man/man6/lockward.6.gz
 * /usr/share/man/man6/loop.6.gz
+* /usr/share/man/man6/m6502.6.gz
 * /usr/share/man/man6/mapscroller.6.gz
 * /usr/share/man/man6/marbling.6.gz
 * /usr/share/man/man6/maze.6.gz
@@ -453,6 +458,7 @@ Screensavers for Xscreensaver
 * /usr/share/man/man6/polyominoes.6.gz
 * /usr/share/man/man6/polytopes.6.gz
 * /usr/share/man/man6/pong.6.gz
+* /usr/share/man/man6/popsquares.6.gz
 * /usr/share/man/man6/projectiveplane.6.gz
 * /usr/share/man/man6/providence.6.gz
 * /usr/share/man/man6/pulsar.6.gz
@@ -650,6 +656,7 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/hexadrop.xml
 * /usr/share/xscreensaver/config/hexstrut.xml
 * /usr/share/xscreensaver/config/hextrail.xml
+* /usr/share/xscreensaver/config/highvoltage.xml
 * /usr/share/xscreensaver/config/hilbert.xml
 * /usr/share/xscreensaver/config/hopalong.xml
 * /usr/share/xscreensaver/config/hydrostat.xml
@@ -666,6 +673,7 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/julia.xml
 * /usr/share/xscreensaver/config/kaleidescope.xml
 * /usr/share/xscreensaver/config/kaleidocycle.xml
+* /usr/share/xscreensaver/config/kallisti.xml
 * /usr/share/xscreensaver/config/klein.xml
 * /usr/share/xscreensaver/config/kumppa.xml
 * /usr/share/xscreensaver/config/lament.xml
