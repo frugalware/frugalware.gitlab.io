@@ -12,7 +12,7 @@ size = "317056"
 usize = "1261678"
 sha1sum = "e8db6be64fdc487e408c237ca8e79207073fff94"
 depends = "['libpciaccess>=0.13.4-4']"
-reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'dosbox', 'efl', 'enlightenment', 'evdi', 'guarddog', 'hsakmt-roct', 'intel-compute-runtime', 'intel-gpu-tools', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libgl', 'libosmesa', 'libva', 'libva-mesa-driver', 'libvpl', 'libxatracker', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'radeon-profile', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'xf86-video-intel']"
+reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'dosbox', 'efl', 'enlightenment', 'evdi', 'guarddog', 'hsakmt-roct', 'intel-compute-runtime', 'intel-gpu-tools', 'intel-media-sdk', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libgl', 'libosmesa', 'libva', 'libva-mesa-driver', 'libvpl', 'libxatracker', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'radeon-profile', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'xf86-video-intel']"
 +++
 ### Description: 
 X.Org Userspace interface to kernel DRM services

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffmpeg 7.0.1-1"
-version = "7.0.1-1"
+title = "ffmpeg 7.0.1-2"
+version = "7.0.1-2"
 description = "FFMpeg is a complete and free Internet live audio and video broadcasting solution for Linux/Unix."
-date = "2024-06-05T13:04:56"
+date = "2024-06-09T17:48:24"
 aliases = "/packages/16224"
 categories = ['xmultimedia']
 upstreamurl = "http://ffmpeg.sourceforge.net/"
 arch = "x86_64"
-size = "11662408"
-usize = "41114170"
-sha1sum = "fe296b61527dad379256ff5059bb96e5585719df"
+size = "9970760"
+usize = "39054537"
+sha1sum = "8e35cbd74b6caa37b4c66787f8eb20e4525b1220"
 depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'aom', 'dav1d>=1.3.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.22', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libopenmpt', 'libpulse>=12.2-8', 'librist', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpl', 'libvpx>=1.14.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'libxv', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'srt', 'svt-av1>=2.0.0', 'v4l-utils>=1.8.1-3', 'x264>=20230712.ga8b68eb', 'x265>=3.6', 'xvidcore>=1.3.4-3', 'zimg', 'zlib>=1.2.12']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'aubio', 'chromaprint', 'faudio', 'ffmpegthumbnailer', 'ffmpegthumbs', 'firefox', 'freerdp', 'gegl', 'gst-libav', 'guvcview', 'handbrake', 'k3b', 'kfilemetadata', 'kfilemetadata5', 'kpipewire', 'minidlna', 'mlt', 'mpd', 'mpv', 'obs-studio', 'openal', 'opencv', 'picard', 'qt5-webengine', 'qt6-multimedia', 'qt6-webengine', 'r2modman', 'scrcpy', 'sherlock265', 'streamlink', 'telegram-desktop', 'tox-core', 'ultrastardx', 'unpaper', 'vscode', 'vtk-ffmpeg', 'xine-lib', 'yt-dlp']"
 +++
@@ -239,57 +239,3 @@ FFMpeg is a complete and free Internet live audio and video broadcasting solutio
 * /usr/share/doc/ffmpeg-7.0.1/RELEASE_NOTES
 * /usr/share/doc/ffmpeg-7.0.1/style.min.css
 * /usr/share/doc/ffmpeg-7.0.1/VERSION
-* /usr/share/ffmpeg/examples/avio_http_serve_files.c
-* /usr/share/ffmpeg/examples/avio_list_dir.c
-* /usr/share/ffmpeg/examples/avio_read_callback.c
-* /usr/share/ffmpeg/examples/decode_audio.c
-* /usr/share/ffmpeg/examples/decode_filter_audio.c
-* /usr/share/ffmpeg/examples/decode_filter_video.c
-* /usr/share/ffmpeg/examples/decode_video.c
-* /usr/share/ffmpeg/examples/demux_decode.c
-* /usr/share/ffmpeg/examples/encode_audio.c
-* /usr/share/ffmpeg/examples/encode_video.c
-* /usr/share/ffmpeg/examples/extract_mvs.c
-* /usr/share/ffmpeg/examples/filter_audio.c
-* /usr/share/ffmpeg/examples/hw_decode.c
-* /usr/share/ffmpeg/examples/Makefile
-* /usr/share/ffmpeg/examples/mux.c
-* /usr/share/ffmpeg/examples/qsv_decode.c
-* /usr/share/ffmpeg/examples/qsv_transcode.c
-* /usr/share/ffmpeg/examples/README
-* /usr/share/ffmpeg/examples/remux.c
-* /usr/share/ffmpeg/examples/resample_audio.c
-* /usr/share/ffmpeg/examples/scale_video.c
-* /usr/share/ffmpeg/examples/show_metadata.c
-* /usr/share/ffmpeg/examples/transcode.c
-* /usr/share/ffmpeg/examples/transcode_aac.c
-* /usr/share/ffmpeg/examples/vaapi_encode.c
-* /usr/share/ffmpeg/examples/vaapi_transcode.c
-* /usr/share/ffmpeg/ffprobe.xsd
-* /usr/share/ffmpeg/libvpx-1080p.ffpreset
-* /usr/share/ffmpeg/libvpx-1080p50_60.ffpreset
-* /usr/share/ffmpeg/libvpx-360p.ffpreset
-* /usr/share/ffmpeg/libvpx-720p.ffpreset
-* /usr/share/ffmpeg/libvpx-720p50_60.ffpreset
-* /usr/share/man/man1/ffmpeg-all.1.gz
-* /usr/share/man/man1/ffmpeg-bitstream-filters.1.gz
-* /usr/share/man/man1/ffmpeg-codecs.1.gz
-* /usr/share/man/man1/ffmpeg-devices.1.gz
-* /usr/share/man/man1/ffmpeg-filters.1.gz
-* /usr/share/man/man1/ffmpeg-formats.1.gz
-* /usr/share/man/man1/ffmpeg-protocols.1.gz
-* /usr/share/man/man1/ffmpeg-resampler.1.gz
-* /usr/share/man/man1/ffmpeg-scaler.1.gz
-* /usr/share/man/man1/ffmpeg-utils.1.gz
-* /usr/share/man/man1/ffmpeg.1.gz
-* /usr/share/man/man1/ffplay-all.1.gz
-* /usr/share/man/man1/ffplay.1.gz
-* /usr/share/man/man1/ffprobe-all.1.gz
-* /usr/share/man/man1/ffprobe.1.gz
-* /usr/share/man/man3/libavcodec.3.gz
-* /usr/share/man/man3/libavdevice.3.gz
-* /usr/share/man/man3/libavfilter.3.gz
-* /usr/share/man/man3/libavformat.3.gz
-* /usr/share/man/man3/libavutil.3.gz
-* /usr/share/man/man3/libswresample.3.gz
-* /usr/share/man/man3/libswscale.3.gz

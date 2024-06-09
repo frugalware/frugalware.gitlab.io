@@ -12,6 +12,7 @@ size = "6280028"
 usize = "37915366"
 sha1sum = "3feefd2c192e4f04baa16122fa5c221734ae21a5"
 depends = "['gmmlib>=22.3.1', 'libva>=2.7']"
+reverse_depends = "['intel-media-sdk']"
 +++
 ### Description: 
 Intel Media Driver for VAAPI — Broadwell+ iGPUs

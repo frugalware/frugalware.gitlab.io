@@ -12,7 +12,7 @@ size = "207644"
 usize = "744350"
 sha1sum = "fa71305dc4fefd5e5cc15313153e31472948b4a5"
 depends = "['lib32-alsa-lib>=1.1.2-2', 'lib32-flac>=1.4.0', 'lib32-lame', 'lib32-libogg>=1.3.2-5', 'lib32-libvorbis>=1.3.5-5', 'lib32-sqlite3>=3.9.2-4']"
-reverse_depends = "['lib32-libpulse']"
+reverse_depends = "['lib32-libpulse', 'lib32-openal']"
 +++
 ### Description: 
 Libsndfile is a C library for reading and writing files containing sampled sound ( 32bit )

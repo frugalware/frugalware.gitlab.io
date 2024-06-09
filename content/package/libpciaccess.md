@@ -12,7 +12,7 @@ size = "21600"
 usize = "64969"
 sha1sum = "b623101bc9f682a00e4c73235052c7fef9ea686d"
 depends = "['glibc>=2.34', 'zlib']"
-reverse_depends = "['libdrm', 'libvirt', 'nvidia-xconfig', 'radeontool', 'spice-vdagent']"
+reverse_depends = "['intel-media-sdk', 'libdrm', 'libvirt', 'nvidia-xconfig', 'radeontool', 'spice-vdagent']"
 license = "GPL2"
 +++
 ### Description: 
