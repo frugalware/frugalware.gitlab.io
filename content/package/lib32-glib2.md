@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-glib2 2.80.2-1"
-version = "2.80.2-1"
+title = "lib32-glib2 2.80.3-1"
+version = "2.80.3-1"
 description = "Common C routines used by GTK+ and other libraries (32-bit)"
-date = "2024-05-23T08:02:49"
+date = "2024-06-10T20:10:45"
 aliases = "/packages/217903"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1557276"
+size = "1562020"
 usize = "8041106"
-sha1sum = "39c4aed475ff486fab1cdf495cb072265965a94d"
+sha1sum = "53aac4b52f8144cf86a76593f17b45f8825c89ca"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre', 'lib32-util-linux', 'lib32-zlib']"
 reverse_depends = "['lib32-at-spi2-core', 'lib32-avahi-glib', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++
@@ -345,22 +345,22 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/lib32/glib2/gio-launch-desktop
 * /usr/lib32/libgio-2.0.so
 * /usr/lib32/libgio-2.0.so.0
-* /usr/lib32/libgio-2.0.so.0.8000.2
+* /usr/lib32/libgio-2.0.so.0.8000.3
 * /usr/lib32/libgirepository-2.0.so
 * /usr/lib32/libgirepository-2.0.so.0
-* /usr/lib32/libgirepository-2.0.so.0.8000.2
+* /usr/lib32/libgirepository-2.0.so.0.8000.3
 * /usr/lib32/libglib-2.0.so
 * /usr/lib32/libglib-2.0.so.0
-* /usr/lib32/libglib-2.0.so.0.8000.2
+* /usr/lib32/libglib-2.0.so.0.8000.3
 * /usr/lib32/libgmodule-2.0.so
 * /usr/lib32/libgmodule-2.0.so.0
-* /usr/lib32/libgmodule-2.0.so.0.8000.2
+* /usr/lib32/libgmodule-2.0.so.0.8000.3
 * /usr/lib32/libgobject-2.0.so
 * /usr/lib32/libgobject-2.0.so.0
-* /usr/lib32/libgobject-2.0.so.0.8000.2
+* /usr/lib32/libgobject-2.0.so.0.8000.3
 * /usr/lib32/libgthread-2.0.so
 * /usr/lib32/libgthread-2.0.so.0
-* /usr/lib32/libgthread-2.0.so.0.8000.2
+* /usr/lib32/libgthread-2.0.so.0.8000.3
 * /usr/lib32/pkgconfig/gio-2.0.pc
 * /usr/lib32/pkgconfig/gio-unix-2.0.pc
 * /usr/lib32/pkgconfig/girepository-2.0.pc
