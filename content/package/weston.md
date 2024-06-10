@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "weston 13.0.1-1"
-version = "13.0.1-1"
+title = "weston 13.0.3-1"
+version = "13.0.3-1"
 description = "Wayland Default Display Compositor"
-date = "2024-04-24T13:43:38"
+date = "2024-06-10T20:32:24"
 aliases = "/packages/168990"
 categories = ['x11-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "1200564"
-usize = "4953634"
-sha1sum = "42d8a50874d71ee06f4630a805637b89ba067600"
+size = "1200388"
+usize = "4612843"
+sha1sum = "5dac6135ae8abe7abc5ec6d7df3c80a6b8d9ff0e"
 depends = "['gst1-plugins-base', 'lcms2', 'libdisplay-info', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'pango', 'pipewire', 'seatd', 'wayland']"
 +++
 ### Description: 
@@ -72,7 +72,7 @@ Wayland Default Display Compositor
 * /usr/include/weston/weston.h
 * /usr/lib/libweston-13.so
 * /usr/lib/libweston-13.so.0
-* /usr/lib/libweston-13.so.0.0.1
+* /usr/lib/libweston-13.so.0.0.3
 * /usr/lib/libweston-13/color-lcms.so
 * /usr/lib/libweston-13/drm-backend.so
 * /usr/lib/libweston-13/gl-renderer.so
@@ -99,8 +99,8 @@ Wayland Default Display Compositor
 * /usr/lib/weston/weston-ivi-shell-user-interface
 * /usr/lib/weston/weston-keyboard
 * /usr/lib/weston/weston-simple-im
-* /usr/share/doc/weston-13.0.1/COPYING
-* /usr/share/doc/weston-13.0.1/README.md
+* /usr/share/doc/weston-13.0.3/COPYING
+* /usr/share/doc/weston-13.0.3/README.md
 * /usr/share/libweston-13/protocols/weston-content-protection.xml
 * /usr/share/libweston-13/protocols/weston-debug.xml
 * /usr/share/libweston-13/protocols/weston-direct-display.xml
