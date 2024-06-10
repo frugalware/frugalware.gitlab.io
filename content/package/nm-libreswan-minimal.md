@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nm-libreswan-minimal 1.2.16-1"
-version = "1.2.16-1"
+title = "nm-libreswan-minimal 1.2.22-1"
+version = "1.2.22-1"
 description = "network management framework (libreswan plugin) without GNOME"
-date = "2023-03-13T15:48:51"
+date = "2024-06-10T13:42:10"
 aliases = "/packages/218632"
 categories = ['network-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "86652"
-usize = "412749"
-sha1sum = "218a680a597502bb529692476be965517b3ae978"
+size = "104760"
+usize = "470301"
+sha1sum = "0992fddd075ff350b80b94204e171b64737c9154"
 depends = "['networkmanager']"
 +++
 ### Description: 
@@ -40,6 +40,7 @@ network management framework (libreswan plugin) without GNOME
 * /usr/share/locale/fur/LC_MESSAGES/NetworkManager-libreswan.mo
 * /usr/share/locale/gl/LC_MESSAGES/NetworkManager-libreswan.mo
 * /usr/share/locale/gu/LC_MESSAGES/NetworkManager-libreswan.mo
+* /usr/share/locale/hi/LC_MESSAGES/NetworkManager-libreswan.mo
 * /usr/share/locale/hr/LC_MESSAGES/NetworkManager-libreswan.mo
 * /usr/share/locale/hu/LC_MESSAGES/NetworkManager-libreswan.mo
 * /usr/share/locale/id/LC_MESSAGES/NetworkManager-libreswan.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nm-openvpn-minimal 1.10.2-1"
-version = "1.10.2-1"
+title = "nm-openvpn-minimal 1.11.0-1"
+version = "1.11.0-1"
 description = "network management framework (OPENVPN plugin) without GNOME"
-date = "2023-03-13T15:54:37"
+date = "2024-06-10T13:17:30"
 aliases = "/packages/218533"
 categories = ['network-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "221596"
-usize = "1241665"
-sha1sum = "3bc0fb16e8e554960a9c496f5005cc879620cb6c"
+size = "226076"
+usize = "1240770"
+sha1sum = "cd076b052de2914c5145ea86691089bfa3d53fc3"
 depends = "['networkmanager']"
 reverse_depends = "['nm-openvpn']"
 +++
