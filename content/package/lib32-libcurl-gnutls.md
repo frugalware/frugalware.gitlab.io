@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libcurl-gnutls 8.7.1-1"
-version = "8.7.1-1"
+title = "lib32-libcurl-gnutls 8.8.0-1"
+version = "8.8.0-1"
 description = "A command line tool for transferring data specified with URL syntax. (32-bit gnutls version)"
-date = "2024-04-27T10:28:47"
+date = "2024-06-10T09:27:59"
 aliases = "/packages/219201"
 categories = ['network-extra']
 upstreamurl = "https://curl.haxx.se"
 arch = "x86_64"
-size = "370156"
-usize = "1012774"
-sha1sum = "3ddd44b2ac9701e0932d451d6b1c7e344f153ead"
+size = "375716"
+usize = "1017647"
+sha1sum = "d29076f56a8bef5b06afd544cd502319e08ca107"
 depends = "['lib32-brotli', 'lib32-curl', 'lib32-gnutls>=3.6.9', 'lib32-libpsl>=0.20.1', 'lib32-nettle>=3.6', 'lib32-zlib', 'lib32-zstd']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ A command line tool for transferring data specified with URL syntax. (32-bit gnu
 * /usr/lib32/libcurl-gnutls.so.4.6.0
 * /usr/lib32/libcurl-gnutls.so.4.7.0
 * /usr/lib32/libcurl-gnutls.so.4.8.0
-* /usr/share/doc/lib32-libcurl-gnutls-8.7.1/CHANGES
-* /usr/share/doc/lib32-libcurl-gnutls-8.7.1/COPYING
-* /usr/share/doc/lib32-libcurl-gnutls-8.7.1/README
-* /usr/share/doc/lib32-libcurl-gnutls-8.7.1/RELEASE-NOTES
+* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/CHANGES
+* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/COPYING
+* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/README
+* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/RELEASE-NOTES

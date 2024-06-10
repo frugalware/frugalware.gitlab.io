@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.22.2-1"
-version = "1.22.2-1"
+title = "go 1.22.4-1"
+version = "1.22.4-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-04-10T13:37:11"
+date = "2024-06-10T09:33:11"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "143360468"
-usize = "312108205"
-sha1sum = "fb2bac21846d9d761ccf6a58a8d990a551386fa8"
+size = "142732496"
+usize = "312112777"
+sha1sum = "fc365d34aa4226a50f82b7b56aff328f024de0b1"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -119,6 +119,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/archive/zip/reader_test.go
 * /usr/lib/go/src/archive/zip/register.go
 * /usr/lib/go/src/archive/zip/struct.go
+* /usr/lib/go/src/archive/zip/testdata/comment-truncated.zip
 * /usr/lib/go/src/archive/zip/testdata/crc32-not-streamed.zip
 * /usr/lib/go/src/archive/zip/testdata/dd.zip
 * /usr/lib/go/src/archive/zip/testdata/dupdir.zip
@@ -2110,6 +2111,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/cover_test_race_issue56370.txt
 * /usr/lib/go/src/cmd/go/testdata/script/cover_var_init_order.txt
 * /usr/lib/go/src/cmd/go/testdata/script/cpu_profile_twice.txt
+* /usr/lib/go/src/cmd/go/testdata/script/darwin_lto_library_ldflag.txt
 * /usr/lib/go/src/cmd/go/testdata/script/devnull.txt
 * /usr/lib/go/src/cmd/go/testdata/script/dist_list_missing.txt
 * /usr/lib/go/src/cmd/go/testdata/script/doc.txt
@@ -2152,6 +2154,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/gopath_vendor_dup_err.txt
 * /usr/lib/go/src/cmd/go/testdata/script/goroot_executable.txt
 * /usr/lib/go/src/cmd/go/testdata/script/goroot_executable_trimpath.txt
+* /usr/lib/go/src/cmd/go/testdata/script/gotoolchain_issue66175.txt
 * /usr/lib/go/src/cmd/go/testdata/script/gotoolchain_local.txt
 * /usr/lib/go/src/cmd/go/testdata/script/gotoolchain_loop.txt
 * /usr/lib/go/src/cmd/go/testdata/script/gotoolchain_modcmds.txt
@@ -4589,7 +4592,6 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/crypto/x509/root_aix.go
 * /usr/lib/go/src/crypto/x509/root_bsd.go
 * /usr/lib/go/src/crypto/x509/root_darwin.go
-* /usr/lib/go/src/crypto/x509/root_darwin_test.go
 * /usr/lib/go/src/crypto/x509/root_linux.go
 * /usr/lib/go/src/crypto/x509/root_plan9.go
 * /usr/lib/go/src/crypto/x509/root_solaris.go
@@ -4598,7 +4600,6 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/crypto/x509/root_unix_test.go
 * /usr/lib/go/src/crypto/x509/root_wasm.go
 * /usr/lib/go/src/crypto/x509/root_windows.go
-* /usr/lib/go/src/crypto/x509/root_windows_test.go
 * /usr/lib/go/src/crypto/x509/sec1.go
 * /usr/lib/go/src/crypto/x509/sec1_test.go
 * /usr/lib/go/src/crypto/x509/test-file.crt
@@ -9548,9 +9549,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/transform.go
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/trie.go
 * /usr/lib/go/src/vendor/modules.txt
-* /usr/share/doc/go-1.22.2/LICENSE
-* /usr/share/doc/go-1.22.2/README.md
-* /usr/share/doc/go-1.22.2/VERSION
+* /usr/share/doc/go-1.22.4/LICENSE
+* /usr/share/doc/go-1.22.4/README.md
+* /usr/share/doc/go-1.22.4/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
