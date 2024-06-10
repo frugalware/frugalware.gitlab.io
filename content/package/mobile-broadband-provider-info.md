@@ -12,7 +12,7 @@ size = "61304"
 usize = "516615"
 sha1sum = "4a62fcfa13cea2f38f0848a7bd33f92bd2b59016"
 depends = "[]"
-reverse_depends = "['networkmanager', 'nm-connection-editor', 'ofono', 'plasma-nm']"
+reverse_depends = "['libnma', 'networkmanager', 'nm-connection-editor', 'ofono', 'plasma-nm']"
 +++
 ### Description: 
 Contains service provider specific settings of mobile broadband providers in different countries.

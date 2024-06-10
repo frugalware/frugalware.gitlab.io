@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "networkmanager 1.48.0-1"
-version = "1.48.0-1"
+title = "networkmanager 1.48.0-2"
+version = "1.48.0-2"
 description = "Network Management daemon"
-date = "2024-06-01T20:58:59"
+date = "2024-06-10T14:54:11"
 aliases = "/packages/88398"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "4060560"
-usize = "22201477"
-sha1sum = "09b980a31dd433617d10883ce56af18443bcc6d4"
+size = "4193368"
+usize = "22430255"
+sha1sum = "26af5d386a900a5542ef0d1bfbc7b96a0e490bf1"
 depends = "['ca-certificates', 'curl', 'dbus-glib>=0.108-2', 'ethtool', 'iproute2>=4.7.0-2', 'iptables', 'jansson', 'libarchive>=3.0.3-2', 'libgcrypt>=1.7.3-2', 'libndp>=1.5-4', 'libnl>=3.2.9-2', 'libselinux', 'mobile-broadband-provider-info', 'modemmanager>=1.6.0-2', 'newt>=0.52.19-2', 'nss>=3.21-2', 'openresolv', 'polkit>=0.113-9', 'ppp>=2.4.7-3', 'readline>=8.0', 'wireless_tools>=29-5', 'wpa_supplicant>=2.5-4']"
-reverse_depends = "['claws-mail', 'kdelibs4support', 'kdelibs4support5', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'networkmanager-qt5', 'nm-applet', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'nm-wireguard-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
+reverse_depends = "['claws-mail', 'kdelibs4support', 'kdelibs4support5', 'libnma', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'networkmanager-qt5', 'nm-applet', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'nm-wireguard-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
 +++
 ### Description: 
 Network Management daemon
@@ -316,3 +316,5 @@ Network Management daemon
 * /usr/share/locale/zh_HK/LC_MESSAGES/NetworkManager.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/NetworkManager.mo
 * /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy
+* /usr/share/vala/vapi/libnm.deps
+* /usr/share/vala/vapi/libnm.vapi
