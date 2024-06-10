@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rustup 1.26.0-1"
-version = "1.26.0-1"
+title = "rustup 1.27.1-1"
+version = "1.27.1-1"
 description = "The Rust toolchain installer"
-date = "2023-07-14T09:09:32"
+date = "2024-06-10T11:16:25"
 aliases = "/packages/220009"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/rust-lang/rustup.rs"
 arch = "x86_64"
-size = "2399928"
-usize = "7270483"
-sha1sum = "8dd7227a724ad322e6908d8486d9321b8c9d69d4"
+size = "2563728"
+usize = "7982183"
+sha1sum = "7c3e8e6781639c91662da68ee5f09363a5d4f89d"
 depends = "['curl']"
 +++
 ### Description: 
@@ -29,6 +29,6 @@ The Rust toolchain installer
 * /usr/bin/rustfmt
 * /usr/bin/rustup
 * /usr/share/bash-completion/completions/rustup
-* /usr/share/doc/rustup-1.26.0/README.md
+* /usr/share/doc/rustup-1.27.1/README.md
 * /usr/share/fish/completions/rustup.fish
 * /usr/share/zsh/site-functions/_rustup

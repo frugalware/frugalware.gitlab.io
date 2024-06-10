@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mercurial-hgk 6.6-1"
-version = "6.6-1"
+title = "mercurial-hgk 6.7.3-1"
+version = "6.7.3-1"
 description = "Graphical repository and history browser based on gitk."
-date = "2023-11-27T09:21:25"
+date = "2024-06-10T11:56:45"
 aliases = "/packages/23185"
 categories = ['devel-extra']
 upstreamurl = "https://www.mercurial-scm.org"
 arch = "x86_64"
-size = "36180"
+size = "36220"
 usize = "125253"
-sha1sum = "a59a19dd4d0ca85671ca39d0212fdb0b4b2809c3"
+sha1sum = "5ad1c20890418c557750aaa4e87ccfd7af09a34c"
 depends = "['mercurial', 'tk']"
 +++
 ### Description: 

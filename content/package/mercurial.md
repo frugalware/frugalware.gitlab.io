@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mercurial 6.6-1"
-version = "6.6-1"
+title = "mercurial 6.7.3-1"
+version = "6.7.3-1"
 description = "A fast, lightweight source control management system."
-date = "2023-11-27T09:21:25"
+date = "2024-06-10T11:56:45"
 aliases = "/packages/3731"
 categories = ['devel-extra']
 upstreamurl = "https://www.mercurial-scm.org"
 arch = "x86_64"
-size = "5720620"
-usize = "24851471"
-sha1sum = "1cc40ff4b2b6370aefcfbffdb75db3bccda82112"
+size = "5895508"
+usize = "25337893"
+sha1sum = "aa055fe4316539cd289b8bf0e81ed18a92f76f85"
 depends = "['python3>=3.10']"
 reverse_depends = "['mercurial-hgk']"
 +++
@@ -311,12 +311,14 @@ A fast, lightweight source control management system.
 * /usr/lib/python3.12/site-packages/hgext/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hgext3rd/__init__.py
 * /usr/lib/python3.12/site-packages/hgext3rd/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/mercurial-6.6-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/mercurial-6.6-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/mercurial-6.6-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/mercurial-6.6-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/mercurial-6.7.3-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/mercurial-6.7.3-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/mercurial-6.7.3-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/mercurial-6.7.3-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/mercurial/admin/chainsaw.py
 * /usr/lib/python3.12/site-packages/mercurial/admin/verify.py
 * /usr/lib/python3.12/site-packages/mercurial/admin/__init__.py
+* /usr/lib/python3.12/site-packages/mercurial/admin/__pycache__/chainsaw.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mercurial/admin/__pycache__/verify.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mercurial/admin/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mercurial/admin_commands.py
@@ -1081,9 +1083,13 @@ A fast, lightweight source control management system.
 * /usr/lib/python3.12/site-packages/mercurial/__pycache__/__version__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mercurial/__version__.py
 * /usr/share/bash-completion/completions/hg
-* /usr/share/doc/mercurial-6.6/CONTRIBUTORS
-* /usr/share/doc/mercurial-6.6/COPYING
-* /usr/share/doc/mercurial-6.6/README.rst
+* /usr/share/doc/mercurial-6.7.3/CONTRIBUTORS
+* /usr/share/doc/mercurial-6.7.3/COPYING
+* /usr/share/doc/mercurial-6.7.3/COPYING.LIB
+* /usr/share/doc/mercurial-6.7.3/INSTALL
+* /usr/share/doc/mercurial-6.7.3/NEWS
+* /usr/share/doc/mercurial-6.7.3/README
+* /usr/share/doc/mercurial-6.7.3/README.rst
 * /usr/share/man/man1/hg.1.gz
 * /usr/share/man/man5/hgignore.5.gz
 * /usr/share/man/man5/hgrc.5.gz
