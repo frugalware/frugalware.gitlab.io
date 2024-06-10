@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "python3-zeroconf 0.131.0-1"
-version = "0.131.0-1"
+title = "python3-zeroconf 0.132.2-1"
+version = "0.132.2-1"
 description = "A pure python implementation of multicast DNS service discovery"
-date = "2024-02-19T12:15:40"
+date = "2024-06-10T07:52:02"
 aliases = "/packages/220272"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/jstasiak/python-zeroconf"
 arch = "x86_64"
-size = "975388"
-usize = "5469614"
-sha1sum = "e3a40bd889fb27a8dec212ad88d773e46c061571"
+size = "1065500"
+usize = "5768733"
+sha1sum = "4b71eb37f8e0072871d04dc37b460ab23b2ad356"
 depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
 ### Description: 
 A pure python implementation of multicast DNS service discovery
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/zeroconf-0.131.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/zeroconf/asyncio.py
 * /usr/lib/python3.12/site-packages/zeroconf/const.py
 * /usr/lib/python3.12/site-packages/zeroconf/py.typed
@@ -157,5 +157,16 @@ A pure python implementation of multicast DNS service discovery
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_updates.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-zeroconf-0.131.0/COPYING
-* /usr/share/doc/python3-zeroconf-0.131.0/README.rst
+* /usr/share/doc/python3-zeroconf-0.132.2/Changelog
+* /usr/share/doc/python3-zeroconf-0.132.2/COPYING
+* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.GPLv2
+* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.GPLv3
+* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.LGPLv2.1
+* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.LGPLv3
+* /usr/share/doc/python3-zeroconf-0.132.2/CREDITS
+* /usr/share/doc/python3-zeroconf-0.132.2/INSTALL.md
+* /usr/share/doc/python3-zeroconf-0.132.2/README.md
+* /usr/share/doc/python3-zeroconf-0.132.2/README.rst
+* /usr/share/doc/python3-zeroconf-0.132.2/RELEASE
+* /usr/share/doc/python3-zeroconf-0.132.2/RELEASE_NOTES
+* /usr/share/doc/python3-zeroconf-0.132.2/VERSION
