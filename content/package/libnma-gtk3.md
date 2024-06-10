@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libnma-gtk3 1.10.6-1"
-version = "1.10.6-1"
+title = "libnma-gtk3 1.10.6-2"
+version = "1.10.6-2"
 description = "NetworkManager GUI client library (GTK3)"
-date = "2024-06-10T15:12:34"
+date = "2024-06-10T15:22:58"
 aliases = "/packages/221508"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "98260"
+size = "98540"
 usize = "479759"
-sha1sum = "ef14c775d5c02197867b3248da3b2b14df63e396"
-depends = "['gtk+3>=3.22.29']"
+sha1sum = "d193b31fe51205abb2f743f7e4cdb0c666f6ecc7"
+depends = "['gtk+3>=3.22.29', 'libnma']"
 +++
 ### Description: 
 NetworkManager GUI client library (GTK3)
