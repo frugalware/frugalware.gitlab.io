@@ -12,7 +12,7 @@ size = "38034936"
 usize = "145877676"
 sha1sum = "13b608b81117ef3b1d5b38874b853d3c47f45826"
 depends = "['binutils>=2.38', 'gdbm>=1.11-2', 'libxml2>=2.9.4-2', 'ncurses>=6.0-18']"
-reverse_depends = "['cppo', 'dune', 'hivex-ocaml', 'llvm-ocaml', 'ocaml-bigarray-compat', 'ocaml-cmdliner', 'ocaml-compiler-libs', 'ocaml-compiler-libs-repackaged', 'ocaml-ctypes', 'ocaml-domain-shims', 'ocaml-extlib', 'ocaml-findlib', 'ocaml-integers', 'ocaml-luv', 'ocaml-react', 'ocaml-result', 'ocaml-seq', 'ocaml-stdlib-shims', 'ocaml-topkg', 'ocamlbuild', 'ocplib-endian', 'ppx_derivers', 'sexplib0', 'thread-table']"
+reverse_depends = "['cppo', 'dune', 'hivex-ocaml', 'llvm-ocaml', 'ocaml-bigarray-compat', 'ocaml-cmdliner', 'ocaml-compiler-libs', 'ocaml-compiler-libs-repackaged', 'ocaml-ctypes', 'ocaml-domain-shims', 'ocaml-extlib', 'ocaml-findlib', 'ocaml-integers', 'ocaml-luv', 'ocaml-re', 'ocaml-react', 'ocaml-result', 'ocaml-seq', 'ocaml-stdlib-shims', 'ocaml-topkg', 'ocamlbuild', 'ocplib-endian', 'ppx_derivers', 'sexplib0', 'thread-table']"
 +++
 ### Description: 
 Caml is a general-purpose programming language, designed with program safety and reliability in mind.

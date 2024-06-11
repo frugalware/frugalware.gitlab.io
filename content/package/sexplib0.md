@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sexplib0 0.16.0-3"
-version = "0.16.0-3"
+title = "sexplib0 0.17.0-1"
+version = "0.17.0-1"
 description = "Library containing the definition of S-expressions and some base converters"
-date = "2024-05-12T20:23:07"
+date = "2024-06-11T19:22:17"
 aliases = "/packages/221067"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/janestreet/sexplib0"
 arch = "x86_64"
-size = "415096"
-usize = "871482"
-sha1sum = "72944b34f789ecc1e58a4183a5ae3cceaba3d77f"
-depends = "['ocaml>=5.1.1']"
+size = "439028"
+usize = "918577"
+sha1sum = "d19ea139cf8fd790e62605a1edc50c3b0b81ebce"
+depends = "['ocaml>=5.2.0']"
 reverse_depends = "['ppxlib']"
 +++
 ### Description: 
@@ -54,6 +54,10 @@ Library containing the definition of S-expressions and some base converters
 * /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_grammar.cmt
 * /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_grammar.cmti
 * /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_grammar.cmx
+* /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_labeled_tuple.cmi
+* /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_labeled_tuple.cmt
+* /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_labeled_tuple.cmti
+* /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_labeled_tuple.cmx
 * /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_record.cmi
 * /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_record.cmt
 * /usr/lib/ocaml/sexplib0/sexplib0__Sexp_conv_record.cmti
@@ -66,10 +70,12 @@ Library containing the definition of S-expressions and some base converters
 * /usr/lib/ocaml/sexplib0/sexp_conv_error.ml
 * /usr/lib/ocaml/sexplib0/sexp_conv_grammar.ml
 * /usr/lib/ocaml/sexplib0/sexp_conv_grammar.mli
+* /usr/lib/ocaml/sexplib0/sexp_conv_labeled_tuple.ml
+* /usr/lib/ocaml/sexplib0/sexp_conv_labeled_tuple.mli
 * /usr/lib/ocaml/sexplib0/sexp_conv_record.ml
 * /usr/lib/ocaml/sexplib0/sexp_conv_record.mli
 * /usr/lib/ocaml/sexplib0/sexp_grammar.ml
-* /usr/share/doc/sexplib0-0.16.0/README.md
-* /usr/share/doc/sexplib0-0.16.0/sexplib0/CHANGES.md
-* /usr/share/doc/sexplib0-0.16.0/sexplib0/LICENSE.md
-* /usr/share/doc/sexplib0-0.16.0/sexplib0/README.md
+* /usr/share/doc/sexplib0-0.17.0/README.md
+* /usr/share/doc/sexplib0-0.17.0/sexplib0/CHANGES.md
+* /usr/share/doc/sexplib0-0.17.0/sexplib0/LICENSE.md
+* /usr/share/doc/sexplib0-0.17.0/sexplib0/README.md

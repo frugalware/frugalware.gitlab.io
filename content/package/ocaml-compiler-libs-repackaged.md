@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-compiler-libs-repackaged 0.12.4-3"
-version = "0.12.4-3"
+title = "ocaml-compiler-libs-repackaged 0.17.0-1"
+version = "0.17.0-1"
 description = "OCaml compiler libraries repackaged"
-date = "2024-05-12T20:23:46"
+date = "2024-06-11T19:24:33"
 aliases = "/packages/221068"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/janestreet/ocaml-compiler-libs"
 arch = "x86_64"
-size = "147540"
-usize = "330474"
-sha1sum = "21f9b4733985de5fa55a9e504b5df6802f587a57"
-depends = "['ocaml>=5.1.1', 'ocaml-compiler-libs']"
+size = "154760"
+usize = "340644"
+sha1sum = "374f7e5b474992393380d907606f9a2e34ccfc0b"
+depends = "['ocaml>=5.2.0', 'ocaml-compiler-libs']"
 reverse_depends = "['ppxlib']"
 +++
 ### Description: 
@@ -61,7 +61,7 @@ OCaml compiler libraries repackaged
 * /usr/lib/ocaml/ocaml-compiler-libs/toplevel/ocaml_toplevel.cmxa
 * /usr/lib/ocaml/ocaml-compiler-libs/toplevel/ocaml_toplevel.cmxs
 * /usr/lib/ocaml/ocaml-compiler-libs/toplevel/ocaml_toplevel.ml
-* /usr/share/doc/ocaml-compiler-libs-repackaged-0.12.4/ocaml-compiler-libs/CHANGES.md
-* /usr/share/doc/ocaml-compiler-libs-repackaged-0.12.4/ocaml-compiler-libs/LICENSE.md
-* /usr/share/doc/ocaml-compiler-libs-repackaged-0.12.4/ocaml-compiler-libs/README.org
-* /usr/share/doc/ocaml-compiler-libs-repackaged-0.12.4/README.org
+* /usr/share/doc/ocaml-compiler-libs-repackaged-0.17.0/ocaml-compiler-libs/CHANGES.md
+* /usr/share/doc/ocaml-compiler-libs-repackaged-0.17.0/ocaml-compiler-libs/LICENSE.md
+* /usr/share/doc/ocaml-compiler-libs-repackaged-0.17.0/ocaml-compiler-libs/README.org
+* /usr/share/doc/ocaml-compiler-libs-repackaged-0.17.0/README.org
