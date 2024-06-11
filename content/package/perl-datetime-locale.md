@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-datetime-locale 1.40-1"
-version = "1.40-1"
+title = "perl-datetime-locale 1.42-1"
+version = "1.42-1"
 description = "Localization support for DateTime.pm"
-date = "2023-12-04T13:17:45"
+date = "2024-06-11T08:19:06"
 aliases = "/packages/217574"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "3022640"
-usize = "22863221"
-sha1sum = "dcde2ad0018a34d8b3bfac508db45e2b8dd425eb"
+size = "3142664"
+usize = "23351139"
+sha1sum = "910fff9665b55f54532c64aa620305913c41f472"
 depends = "['perl>=5.34.0', 'perl-file-sharedir', 'perl-file-sharedir-install', 'perl-list-moreutils', 'perl-params-validate>=0.13']"
 reverse_depends = "['perl-datetime']"
 +++
@@ -1134,6 +1134,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/be.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bem.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bem_ZM.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/bew.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/bew_ID.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bez.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bez_TZ.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/be_BY.pod
@@ -1150,6 +1152,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/bg_BG.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bho.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bho_IN.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/blo.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/blo_BJ.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/blt.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/blt_VN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/bm.pod
@@ -1208,6 +1212,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/Conflicts.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/co_FR.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/cs.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/csw.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/csw_CA.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/cs_CZ.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/cu.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/cu_RU.pod
@@ -1295,6 +1301,7 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/en_GU.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/en_GY.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/en_HK.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/en_ID.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/en_IE.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/en_IL.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/en_IM.pod
@@ -1546,6 +1553,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/ia_001.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/id.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/id_ID.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/ie.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/ie_EE.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ig.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ig_NG.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ii.pod
@@ -1610,6 +1619,7 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/ko.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/kok.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/kok_IN.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/ko_CN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ko_KP.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ko_KR.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/kpe.pod
@@ -1630,6 +1640,15 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/ku_TR.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/kw.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/kw_GB.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Deva.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Deva_IN.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Latn.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Latn_IN.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Orya.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Orya_IN.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Telu.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/kxv_Telu_IN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ky.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ky_KG.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/la.pod
@@ -1684,6 +1703,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/mgo_CM.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/mg_MG.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/mi.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/mic.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/mic_CA.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/mi_NZ.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/mk.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/mk_MK.pod
@@ -1793,7 +1814,7 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/pl.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/pl_PL.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/prg.pod
-* /usr/lib/perl5/site_perl/DateTime/Locale/prg_001.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/prg_PL.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ps.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ps_AF.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ps_PK.pod
@@ -1892,6 +1913,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/sid_ET.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/si_LK.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/sk.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/skr.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/skr_PK.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/sk_SK.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/sl.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/sl_SI.pod
@@ -1995,6 +2018,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/tt_RU.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/twq.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/twq_NE.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/tyv.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/tyv_RU.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/tzm.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/tzm_MA.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/ug.pod
@@ -2024,6 +2049,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/ve_ZA.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/vi.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/vi_VN.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/vmw.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/vmw_MZ.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/vo.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/vo_001.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/vun.pod
@@ -2040,12 +2067,14 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/wo_SN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/xh.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/xh_ZA.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/xnr.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/xnr_IN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/xog.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/xog_UG.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yav.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yav_CM.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yi.pod
-* /usr/lib/perl5/site_perl/DateTime/Locale/yi_001.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/yi_UA.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yo.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yo_BJ.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yo_NG.pod
@@ -2058,6 +2087,8 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/yue_Hans_CN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yue_Hant.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/yue_Hant_HK.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/za.pod
+* /usr/lib/perl5/site_perl/DateTime/Locale/za_CN.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zgh.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zgh_MA.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zh.pod
@@ -2072,10 +2103,10 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/zh_Hant_TW.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zu.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zu_ZA.pod
-* /usr/share/doc/perl-datetime-locale-1.40/INSTALL
-* /usr/share/doc/perl-datetime-locale-1.40/LICENSE
-* /usr/share/doc/perl-datetime-locale-1.40/MANIFEST
-* /usr/share/doc/perl-datetime-locale-1.40/README.md
+* /usr/share/doc/perl-datetime-locale-1.42/INSTALL
+* /usr/share/doc/perl-datetime-locale-1.42/LICENSE
+* /usr/share/doc/perl-datetime-locale-1.42/MANIFEST
+* /usr/share/doc/perl-datetime-locale-1.42/README.md
 * /usr/share/man/man3/DateTime::Locale.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::aa.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::aa_DJ.3perl.gz
@@ -2156,6 +2187,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::be.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bem.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bem_ZM.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::bew.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::bew_ID.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bez.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bez_TZ.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::be_BY.3perl.gz
@@ -2172,6 +2205,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::bg_BG.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bho.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bho_IN.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::blo.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::blo_BJ.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::blt.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::blt_VN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::bm.3perl.gz
@@ -2230,6 +2265,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::Conflicts.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::co_FR.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::cs.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::csw.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::csw_CA.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::cs_CZ.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::cu.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::cu_RU.3perl.gz
@@ -2317,6 +2354,7 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::en_GU.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::en_GY.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::en_HK.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::en_ID.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::en_IE.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::en_IL.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::en_IM.3perl.gz
@@ -2568,6 +2606,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::ia_001.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::id.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::id_ID.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::ie.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::ie_EE.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ig.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ig_NG.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ii.3perl.gz
@@ -2632,6 +2672,7 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::ko.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::kok.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::kok_IN.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::ko_CN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ko_KP.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ko_KR.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::kpe.3perl.gz
@@ -2652,6 +2693,15 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::ku_TR.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::kw.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::kw_GB.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Deva.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Deva_IN.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Latn.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Latn_IN.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Orya.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Orya_IN.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Telu.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::kxv_Telu_IN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ky.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ky_KG.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::la.3perl.gz
@@ -2706,6 +2756,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::mgo_CM.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::mg_MG.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::mi.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::mic.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::mic_CA.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::mi_NZ.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::mk.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::mk_MK.3perl.gz
@@ -2815,7 +2867,7 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::pl.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::pl_PL.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::prg.3perl.gz
-* /usr/share/man/man3/DateTime::Locale::prg_001.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::prg_PL.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ps.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ps_AF.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ps_PK.3perl.gz
@@ -2914,6 +2966,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::sid_ET.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::si_LK.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::sk.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::skr.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::skr_PK.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::sk_SK.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::sl.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::sl_SI.3perl.gz
@@ -3017,6 +3071,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::tt_RU.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::twq.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::twq_NE.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::tyv.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::tyv_RU.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::tzm.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::tzm_MA.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::ug.3perl.gz
@@ -3046,6 +3102,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::ve_ZA.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::vi.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::vi_VN.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::vmw.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::vmw_MZ.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::vo.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::vo_001.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::vun.3perl.gz
@@ -3062,12 +3120,14 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::wo_SN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::xh.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::xh_ZA.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::xnr.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::xnr_IN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::xog.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::xog_UG.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yav.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yav_CM.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yi.3perl.gz
-* /usr/share/man/man3/DateTime::Locale::yi_001.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::yi_UA.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yo.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yo_BJ.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yo_NG.3perl.gz
@@ -3080,6 +3140,8 @@ Localization support for DateTime.pm
 * /usr/share/man/man3/DateTime::Locale::yue_Hans_CN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yue_Hant.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::yue_Hant_HK.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::za.3perl.gz
+* /usr/share/man/man3/DateTime::Locale::za_CN.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::zgh.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::zgh_MA.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::zh.3perl.gz

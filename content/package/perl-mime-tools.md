@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-mime-tools 5.510-1"
-version = "5.510-1"
+title = "perl-mime-tools 5.515-1"
+version = "5.515-1"
 description = "Perl modules for parsing (and creating!) MIME entities"
-date = "2023-02-21T14:20:30"
+date = "2024-06-11T08:20:26"
 aliases = "/packages/3782"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "201928"
-usize = "502347"
-sha1sum = "6ff365e0e835a7739f76d7b3f6008a5bde679db3"
+size = "196736"
+usize = "497076"
+sha1sum = "e87f87e332adcc8a6b06df7d09d6e408f24514f0"
 depends = "['perl>=5.34.0', 'perl-io-stringy', 'perl-mailtools']"
 reverse_depends = "['amavisd-new']"
 +++
@@ -40,11 +40,11 @@ Perl modules for parsing (and creating!) MIME entities
 * /usr/lib/perl5/site_perl/MIME/Tools.pm
 * /usr/lib/perl5/site_perl/MIME/WordDecoder.pm
 * /usr/lib/perl5/site_perl/MIME/Words.pm
-* /usr/share/doc/perl-mime-tools-5.510/ChangeLog
-* /usr/share/doc/perl-mime-tools-5.510/COPYING
-* /usr/share/doc/perl-mime-tools-5.510/INSTALLING
-* /usr/share/doc/perl-mime-tools-5.510/MANIFEST
-* /usr/share/doc/perl-mime-tools-5.510/README
+* /usr/share/doc/perl-mime-tools-5.515/ChangeLog
+* /usr/share/doc/perl-mime-tools-5.515/COPYING
+* /usr/share/doc/perl-mime-tools-5.515/INSTALLING
+* /usr/share/doc/perl-mime-tools-5.515/MANIFEST
+* /usr/share/doc/perl-mime-tools-5.515/README
 * /usr/share/man/man3/MIME::Body.3perl.gz
 * /usr/share/man/man3/MIME::Decoder.3perl.gz
 * /usr/share/man/man3/MIME::Decoder::Base64.3perl.gz

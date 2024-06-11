@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-net-dns 1.41-1"
-version = "1.41-1"
+title = "perl-net-dns 1.45-1"
+version = "1.45-1"
 description = "Perl interface to the DNS resolver"
-date = "2023-12-04T13:44:43"
+date = "2024-06-11T08:29:16"
 aliases = "/packages/3784"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "308876"
-usize = "833992"
-sha1sum = "0ea8d50c74b9ba38c56a351e49e26bb8dea221be"
+size = "311412"
+usize = "840786"
+sha1sum = "b3e4200b18887f686209d2e131c1766591b12e59"
 depends = "['perl>=5.34.0', 'perl-digest-hmac', 'perl-io-socket-inet6>=2.72-2', 'perl-net-ip']"
 reverse_depends = "['perl-mail-dkim', 'perl-mail-spf', 'perl-net-dns-resolver-programmable', 'spamassassin']"
 +++
@@ -49,6 +49,7 @@ Perl interface to the DNS resolver
 * /usr/lib/perl5/site_perl/Net/DNS/RR/CERT.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/CNAME.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/CSYNC.pm
+* /usr/lib/perl5/site_perl/Net/DNS/RR/DELEG.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/DHCID.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/DNAME.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/DNSKEY.pm
@@ -103,9 +104,9 @@ Perl interface to the DNS resolver
 * /usr/lib/perl5/site_perl/Net/DNS/Text.pm
 * /usr/lib/perl5/site_perl/Net/DNS/Update.pm
 * /usr/lib/perl5/site_perl/Net/DNS/ZoneFile.pm
-* /usr/share/doc/perl-net-dns-1.41/LICENSE
-* /usr/share/doc/perl-net-dns-1.41/MANIFEST
-* /usr/share/doc/perl-net-dns-1.41/README
+* /usr/share/doc/perl-net-dns-1.45/LICENSE
+* /usr/share/doc/perl-net-dns-1.45/MANIFEST
+* /usr/share/doc/perl-net-dns-1.45/README
 * /usr/share/man/man3/Net::DNS.3perl.gz
 * /usr/share/man/man3/Net::DNS::Domain.3perl.gz
 * /usr/share/man/man3/Net::DNS::DomainName.3perl.gz
@@ -137,6 +138,7 @@ Perl interface to the DNS resolver
 * /usr/share/man/man3/Net::DNS::RR::CERT.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::CNAME.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::CSYNC.3perl.gz
+* /usr/share/man/man3/Net::DNS::RR::DELEG.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::DHCID.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::DNAME.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::DNSKEY.3perl.gz

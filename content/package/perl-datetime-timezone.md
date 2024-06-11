@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-datetime-timezone 2.60-1"
-version = "2.60-1"
+title = "perl-datetime-timezone 2.62-1"
+version = "2.62-1"
 description = "Time zone object base class and factory"
-date = "2023-12-04T13:18:29"
+date = "2024-06-11T08:19:46"
 aliases = "/packages/60092"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "241796"
-usize = "6526263"
-sha1sum = "4543e167eab8a1289530ea5c000076058a4d10b7"
+size = "243776"
+usize = "6587506"
+sha1sum = "61eea3bbf1fe61f0585917536849255adc7a1f1e"
 depends = "['perl>=5.34.0', 'perl-class-singleton', 'perl-params-validate']"
 reverse_depends = "['perl-datetime']"
 +++
@@ -165,6 +165,7 @@ Time zone object base class and factory
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Antarctica/Palmer.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Antarctica/Rothera.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Antarctica/Troll.pm
+* /usr/lib/perl5/site_perl/DateTime/TimeZone/Antarctica/Vostok.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Asia/Almaty.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Asia/Amman.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Asia/Anadyr.pm
@@ -354,10 +355,10 @@ Time zone object base class and factory
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/PST8PDT.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/UTC.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/WET.pm
-* /usr/share/doc/perl-datetime-timezone-2.60/INSTALL
-* /usr/share/doc/perl-datetime-timezone-2.60/LICENSE
-* /usr/share/doc/perl-datetime-timezone-2.60/MANIFEST
-* /usr/share/doc/perl-datetime-timezone-2.60/README.md
+* /usr/share/doc/perl-datetime-timezone-2.62/INSTALL
+* /usr/share/doc/perl-datetime-timezone-2.62/LICENSE
+* /usr/share/doc/perl-datetime-timezone-2.62/MANIFEST
+* /usr/share/doc/perl-datetime-timezone-2.62/README.md
 * /usr/share/man/man3/DateTime::TimeZone.3perl.gz
 * /usr/share/man/man3/DateTime::TimeZone::Catalog.3perl.gz
 * /usr/share/man/man3/DateTime::TimeZone::Floating.3perl.gz

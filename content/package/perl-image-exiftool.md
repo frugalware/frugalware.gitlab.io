@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-image-exiftool 12.70-1"
-version = "12.70-1"
+title = "perl-image-exiftool 12.76-1"
+version = "12.76-1"
 description = "Read and write meta information"
-date = "2023-12-04T13:43:49"
+date = "2024-06-11T08:28:35"
 aliases = "/packages/217581"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "2817576"
-usize = "16443770"
-sha1sum = "c12676dc6f78ebf6f88aa4a522c7ad51d590f40e"
+size = "2826472"
+usize = "16496849"
+sha1sum = "f84deda88e5d4fd1582c45d41a9538734ea6912a"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['darktable']"
 +++
@@ -24,6 +24,7 @@ Read and write meta information
 * /usr/lib/perl5/site_perl/Image/ExifTool.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool.pod
 * /usr/lib/perl5/site_perl/Image/ExifTool/7Z.pm
+* /usr/lib/perl5/site_perl/Image/ExifTool/AAC.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/AES.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/AFCP.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/AIFF.pm
@@ -250,12 +251,13 @@ Read and write meta information
 * /usr/lib/perl5/site_perl/Image/ExifTool/XMPStruct.pl
 * /usr/lib/perl5/site_perl/Image/ExifTool/ZIP.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/ZISRAW.pm
-* /usr/share/doc/perl-image-exiftool-12.70/MANIFEST
-* /usr/share/doc/perl-image-exiftool-12.70/README
+* /usr/share/doc/perl-image-exiftool-12.76/MANIFEST
+* /usr/share/doc/perl-image-exiftool-12.76/README
 * /usr/share/man/man1/exiftool.1perl.gz
 * /usr/share/man/man3/File::RandomAccess.3perl.gz
 * /usr/share/man/man3/Image::ExifTool.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::7Z.3perl.gz
+* /usr/share/man/man3/Image::ExifTool::AAC.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::AES.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::AFCP.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::AIFF.3perl.gz
