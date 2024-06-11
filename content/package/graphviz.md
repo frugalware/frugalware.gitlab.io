@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "graphviz 11.0.0-1"
-version = "11.0.0-1"
+title = "graphviz 11.0.0-2"
+version = "11.0.0-2"
 description = "Open Source Graph Visualization Software"
-date = "2024-06-02T14:04:07"
+date = "2024-06-11T13:53:07"
 aliases = "/packages/4238"
 categories = ['xapps-extra']
 upstreamurl = "https://www.graphviz.org"
 arch = "x86_64"
-size = "3344292"
-usize = "11369193"
-sha1sum = "3e5fb048cc417bd69228030040d047cde41c82d6"
+size = "3396808"
+usize = "11004727"
+sha1sum = "4e7ebfbc1f4e0ee4e31ca413373a7e366a32a748"
 depends = "['devil>=1.8.0', 'freeglut', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'librsvg', 'libxaw', 'libxpm', 'perl>=5.22.1', 'python3>=3.12']"
 reverse_depends = "['libmediainfo', 'vala']"
 +++
@@ -147,8 +147,8 @@ Open Source Graph Visualization Software
 * /usr/lib/libxdot.so
 * /usr/lib/libxdot.so.4
 * /usr/lib/libxdot.so.4.0.0
-* /usr/lib/perl5/5.38/vendor_perl/gv.pm
-* /usr/lib/perl5/5.38/vendor_perl/gv.so
+* /usr/lib/perl5/5.40/vendor_perl/gv.pm
+* /usr/lib/perl5/5.40/vendor_perl/gv.so
 * /usr/lib/pkgconfig/libcdt.pc
 * /usr/lib/pkgconfig/libcgraph.pc
 * /usr/lib/pkgconfig/libgvc.pc

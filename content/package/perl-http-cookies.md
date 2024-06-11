@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-http-cookies 6.11-1"
-version = "6.11-1"
+title = "perl-http-cookies 6.11-2"
+version = "6.11-2"
 description = "HTTP cookie jars"
-date = "2024-06-11T08:28:00"
+date = "2024-06-11T13:30:06"
 aliases = "/packages/200387"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "28836"
-usize = "75813"
-sha1sum = "38e4cade4b56b7d7c50f78ce989cd4ef8c5fbd34"
+size = "28896"
+usize = "75817"
+sha1sum = "c6f597dc0ecdfe090a85c64404e5aad4f78f24b6"
 depends = "['perl>=5.34.0', 'perl-http-date']"
 reverse_depends = "['perl-libwww']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-uri 5.28-1"
-version = "5.28-1"
+title = "perl-uri 5.28-2"
+version = "5.28-2"
 description = "Uniform Resource Identifiers (absolute and relative)"
-date = "2024-04-04T09:37:17"
+date = "2024-06-11T13:16:10"
 aliases = "/packages/3286"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "91640"
-usize = "213724"
-sha1sum = "a1c0a0b53fd612b3263d4c62ef37cd58a6a4c1c9"
+size = "91668"
+usize = "213754"
+sha1sum = "bd83ebd01e0cbee47ec51a41e09f723cdc81d352"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 'perl-www-robotrules']"
 +++

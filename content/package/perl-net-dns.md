@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-net-dns 1.45-1"
-version = "1.45-1"
+title = "perl-net-dns 1.45-2"
+version = "1.45-2"
 description = "Perl interface to the DNS resolver"
-date = "2024-06-11T08:29:16"
+date = "2024-06-11T13:31:17"
 aliases = "/packages/3784"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "311412"
-usize = "840786"
-sha1sum = "b3e4200b18887f686209d2e131c1766591b12e59"
+size = "311324"
+usize = "840891"
+sha1sum = "489f485f8e8543dcab2964a5ce1abedf5af1034f"
 depends = "['perl>=5.34.0', 'perl-digest-hmac', 'perl-io-socket-inet6>=2.72-2', 'perl-net-ip']"
 reverse_depends = "['perl-mail-dkim', 'perl-mail-spf', 'perl-net-dns-resolver-programmable', 'spamassassin']"
 +++

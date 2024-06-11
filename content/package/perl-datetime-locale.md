@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-datetime-locale 1.42-1"
-version = "1.42-1"
+title = "perl-datetime-locale 1.42-2"
+version = "1.42-2"
 description = "Localization support for DateTime.pm"
-date = "2024-06-11T08:19:06"
+date = "2024-06-11T13:25:08"
 aliases = "/packages/217574"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "3142664"
-usize = "23351139"
-sha1sum = "910fff9665b55f54532c64aa620305913c41f472"
+size = "3151780"
+usize = "23352867"
+sha1sum = "1d1018c4588f1847628baa31069a28ad637a7c79"
 depends = "['perl>=5.34.0', 'perl-file-sharedir', 'perl-file-sharedir-install', 'perl-list-moreutils', 'perl-params-validate>=0.13']"
 reverse_depends = "['perl-datetime']"
 +++

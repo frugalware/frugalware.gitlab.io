@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-mime-tools 5.515-1"
-version = "5.515-1"
+title = "perl-mime-tools 5.515-2"
+version = "5.515-2"
 description = "Perl modules for parsing (and creating!) MIME entities"
-date = "2024-06-11T08:20:26"
+date = "2024-06-11T13:26:12"
 aliases = "/packages/3782"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "196736"
-usize = "497076"
-sha1sum = "e87f87e332adcc8a6b06df7d09d6e408f24514f0"
+usize = "497118"
+sha1sum = "7aef9474f3a11c880645dda55ea6b78f9c054131"
 depends = "['perl>=5.34.0', 'perl-io-stringy', 'perl-mailtools']"
 reverse_depends = "['amavisd-new']"
 +++

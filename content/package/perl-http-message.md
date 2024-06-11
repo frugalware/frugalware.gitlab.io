@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-http-message 6.46-1"
-version = "6.46-1"
+title = "perl-http-message 6.46-2"
+version = "6.46-2"
 description = "HTTP style message (base class)."
-date = "2024-06-11T08:24:38"
+date = "2024-06-11T13:28:11"
 aliases = "/packages/200385"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "82688"
-usize = "210092"
-sha1sum = "6bb0c300fbf7e1f7501c7f41e0df4fd8f9687408"
+size = "82732"
+usize = "210116"
+sha1sum = "1199d7145f5237af75f2bc991a85b394ef2b6b1c"
 depends = "['perl>=5.34.0', 'perl-encode-locale', 'perl-http-date', 'perl-io-html', 'perl-lwp-mediatypes', 'perl-uri']"
 reverse_depends = "['perl-http-daemon', 'perl-http-negotiate']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-xml-parser 2.47-1"
-version = "2.47-1"
+title = "perl-xml-parser 2.47-2"
+version = "2.47-2"
 description = "A perl module for parsing XML documents"
-date = "2024-01-29T08:45:52"
+date = "2024-06-11T13:15:04"
 aliases = "/packages/30936"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "147744"
-usize = "499055"
-sha1sum = "306186329a94f86f3913b547371d10df818bc417"
+size = "145644"
+usize = "499518"
+sha1sum = "dabbf1078770e5c254b5cd0b0ee2e068670ce73b"
 depends = "['expat>=2.1.0-4', 'perl>=5.34.0']"
 reverse_depends = "['hwinfo', 'intltool', 'perl-xml-sax-expat', 'xmltoman']"
 +++

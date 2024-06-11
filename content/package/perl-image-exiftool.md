@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-image-exiftool 12.76-1"
-version = "12.76-1"
+title = "perl-image-exiftool 12.76-2"
+version = "12.76-2"
 description = "Read and write meta information"
-date = "2024-06-11T08:28:35"
+date = "2024-06-11T13:30:40"
 aliases = "/packages/217581"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "2826472"
-usize = "16496849"
-sha1sum = "f84deda88e5d4fd1582c45d41a9538734ea6912a"
+size = "2839240"
+usize = "16497163"
+sha1sum = "00116969f6e787ae1013578a811700d65e633a11"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['darktable']"
 +++

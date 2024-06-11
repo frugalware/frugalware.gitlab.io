@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-datetime-timezone 2.62-1"
-version = "2.62-1"
+title = "perl-datetime-timezone 2.62-2"
+version = "2.62-2"
 description = "Time zone object base class and factory"
-date = "2024-06-11T08:19:46"
+date = "2024-06-11T13:25:42"
 aliases = "/packages/60092"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "243776"
-usize = "6587506"
-sha1sum = "61eea3bbf1fe61f0585917536849255adc7a1f1e"
+size = "242840"
+usize = "6587522"
+sha1sum = "627d025a32bf0cca17715bd543d0ec7427919d51"
 depends = "['perl>=5.34.0', 'perl-class-singleton', 'perl-params-validate']"
 reverse_depends = "['perl-datetime']"
 +++

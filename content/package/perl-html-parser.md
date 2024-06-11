@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-html-parser 3.82-1"
-version = "3.82-1"
+title = "perl-html-parser 3.82-2"
+version = "3.82-2"
 description = "Perl Module: HTML parser class"
-date = "2024-06-11T08:21:00"
+date = "2024-06-11T13:26:43"
 aliases = "/packages/3280"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "89896"
-usize = "236085"
-sha1sum = "cabf61127ec953b7a26a659dd86126940a0d9d1d"
+size = "91272"
+usize = "241397"
+sha1sum = "e97808edaf86e07782d254a375482ce94073699f"
 depends = "['perl>=5.34.0', 'perl-html-tagset']"
 reverse_depends = "['perl-libwww', 'spamassassin']"
 +++
@@ -18,14 +18,14 @@ reverse_depends = "['perl-libwww', 'spamassassin']"
 Perl Module: HTML parser class
 
 ### Files: 
-* /usr/lib/perl5/5.38/site_perl/auto/HTML/Parser/Parser.so
-* /usr/lib/perl5/5.38/site_perl/HTML/Entities.pm
-* /usr/lib/perl5/5.38/site_perl/HTML/Filter.pm
-* /usr/lib/perl5/5.38/site_perl/HTML/HeadParser.pm
-* /usr/lib/perl5/5.38/site_perl/HTML/LinkExtor.pm
-* /usr/lib/perl5/5.38/site_perl/HTML/Parser.pm
-* /usr/lib/perl5/5.38/site_perl/HTML/PullParser.pm
-* /usr/lib/perl5/5.38/site_perl/HTML/TokeParser.pm
+* /usr/lib/perl5/5.40/site_perl/auto/HTML/Parser/Parser.so
+* /usr/lib/perl5/5.40/site_perl/HTML/Entities.pm
+* /usr/lib/perl5/5.40/site_perl/HTML/Filter.pm
+* /usr/lib/perl5/5.40/site_perl/HTML/HeadParser.pm
+* /usr/lib/perl5/5.40/site_perl/HTML/LinkExtor.pm
+* /usr/lib/perl5/5.40/site_perl/HTML/Parser.pm
+* /usr/lib/perl5/5.40/site_perl/HTML/PullParser.pm
+* /usr/lib/perl5/5.40/site_perl/HTML/TokeParser.pm
 * /usr/share/doc/perl-html-parser-3.82/LICENSE
 * /usr/share/doc/perl-html-parser-3.82/MANIFEST
 * /usr/share/doc/perl-html-parser-3.82/README

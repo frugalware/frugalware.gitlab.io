@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nginx 1.26.0-1"
-version = "1.26.0-1"
+title = "nginx 1.26.0-2"
+version = "1.26.0-2"
 description = "[engine x] is a HTTP server and mail proxy server."
-date = "2024-04-25T16:39:35"
+date = "2024-06-11T13:17:10"
 aliases = "/packages/21864"
 categories = ['network-extra']
 upstreamurl = "http://nginx.org"
 arch = "x86_64"
-size = "662016"
-usize = "2196507"
-sha1sum = "bbff981683b4d3a23943d7e2723fe5cf75cb3ef8"
+size = "666784"
+usize = "2212078"
+sha1sum = "88569ca0d58ad973d432fdb9de725d4cacf30c83"
 depends = "['gd', 'geoip', 'libaio', 'libxslt', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 license = "BSD"
 +++
@@ -43,8 +43,8 @@ license = "BSD"
 * /etc/nginx/modules/ngx_stream_geoip_module.so
 * /etc/nginx/modules/ngx_stream_module.so
 * /usr/bin/nginx
-* /usr/lib/perl5/5.38/site_perl/auto/nginx/nginx.so
-* /usr/lib/perl5/5.38/site_perl/nginx.pm
+* /usr/lib/perl5/5.40/site_perl/auto/nginx/nginx.so
+* /usr/lib/perl5/5.40/site_perl/nginx.pm
 * /usr/lib/systemd/system/nginx.service
 * /usr/share/doc/nginx-1.26.0/CHANGES
 * /usr/share/doc/nginx-1.26.0/LICENSE

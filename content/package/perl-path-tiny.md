@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-path-tiny 0.146-1"
-version = "0.146-1"
+title = "perl-path-tiny 0.146-2"
+version = "0.146-2"
 description = "File path utility"
-date = "2024-06-11T08:21:37"
+date = "2024-06-11T13:27:10"
 aliases = "/packages/219726"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "54028"
-usize = "203968"
-sha1sum = "b5956aa1955b82f0698b197c824d6ad7bd132a5f"
+size = "54080"
+usize = "203970"
+sha1sum = "29be64b9f4ba98e836f4e4ef37b7c8a0454f0bb6"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['freecell-solver']"
 +++

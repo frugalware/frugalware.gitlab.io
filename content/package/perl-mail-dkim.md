@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-mail-dkim 1.20240124-1"
-version = "1.20240124-1"
+title = "perl-mail-dkim 1.20240124-2"
+version = "1.20240124-2"
 description = "Signs/verifies Internet mail with DKIM/DomainKey signatures"
-date = "2024-06-11T08:29:54"
+date = "2024-06-11T13:31:49"
 aliases = "/packages/23496"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "138624"
-usize = "406578"
-sha1sum = "728e8c323a0084b8a163ca970486e3d95a1c1e67"
+size = "136976"
+usize = "406638"
+sha1sum = "c48a1dfde68ed03780ad92b5065711804d97825d"
 depends = "['perl-crypt-openssl-rsa>=0.24', 'perl-digest-sha1', 'perl-mailtools', 'perl-net-dns']"
 reverse_depends = "['spamassassin']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-pod-parser 1.67-1"
-version = "1.67-1"
+title = "perl-pod-parser 1.67-2"
+version = "1.67-2"
 description = "Modules for parsing/translating POD format documents"
-date = "2024-06-11T08:22:21"
+date = "2024-06-11T13:27:39"
 aliases = "/packages/220532"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "91504"
-usize = "271882"
-sha1sum = "10b280a59fab9bd6e54842742beb4f731dbe756e"
+size = "91496"
+usize = "271899"
+sha1sum = "84a7a60ffd8aa101724a3a454398c71d5352c942"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['po4a']"
 +++
