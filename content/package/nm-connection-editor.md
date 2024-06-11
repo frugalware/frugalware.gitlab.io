@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nm-connection-editor 1.8.24-1"
-version = "1.8.24-1"
+title = "nm-connection-editor 1.36.0-1"
+version = "1.36.0-1"
 description = "A network connection configuration editor for NetworkManager"
-date = "2019-11-05T12:38:44"
+date = "2024-06-11T14:20:20"
 aliases = "/packages/184500"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "877960"
-usize = "5680895"
-sha1sum = "80217890bf6b2f1532ed637a33bfffe654862b37"
-depends = "['gtk+3>=3.22.29', 'mobile-broadband-provider-info>=20151214-3', 'networkmanager>=1.4.0-2']"
+size = "749964"
+usize = "4980997"
+sha1sum = "6ce63b5e75da37ed64027a76c1ca0dc5bcd696c1"
+depends = "['libnma-gtk3', 'mobile-broadband-provider-info>=20151214-3', 'networkmanager>=1.4.0-2']"
 reverse_depends = "['nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'nm-wireguard']"
 +++
 ### Description: 
@@ -19,22 +19,7 @@ A network connection configuration editor for NetworkManager
 
 ### Files: 
 * /usr/bin/nm-connection-editor
-* /usr/include/libnma/nma-bar-code-widget.h
-* /usr/include/libnma/nma-bar-code.h
-* /usr/include/libnma/nma-cert-chooser.h
-* /usr/include/libnma/nma-mobile-providers.h
-* /usr/include/libnma/nma-mobile-wizard.h
-* /usr/include/libnma/nma-ui-utils.h
-* /usr/include/libnma/nma-version.h
-* /usr/include/libnma/nma-vpn-password-dialog.h
-* /usr/include/libnma/nma-wifi-dialog.h
-* /usr/lib/girepository-1.0/NMA-1.0.typelib
-* /usr/lib/libnma.so
-* /usr/lib/libnma.so.0
-* /usr/lib/libnma.so.0.0.0
-* /usr/lib/pkgconfig/libnma.pc
 * /usr/share/applications/nm-connection-editor.desktop
-* /usr/share/gir-1.0/NMA-1.0.gir
 * /usr/share/glib-2.0/schemas/org.gnome.nm-applet.gschema.xml
 * /usr/share/icons/hicolor/16x16/apps/nm-device-wired.png
 * /usr/share/icons/hicolor/16x16/apps/nm-no-connection.png
@@ -46,7 +31,10 @@ A network connection configuration editor for NetworkManager
 * /usr/share/icons/hicolor/32x32/apps/nm-device-wired.png
 * /usr/share/icons/hicolor/32x32/apps/nm-no-connection.png
 * /usr/share/icons/hicolor/48x48/apps/nm-device-wireless.png
+* /usr/share/icons/hicolor/scalable/apps/nm-device-wired-secure-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-device-wired-symbolic.svg
 * /usr/share/icons/hicolor/scalable/apps/nm-device-wired.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-device-wwan-symbolic.svg
 * /usr/share/icons/hicolor/scalable/apps/nm-no-connection.svg
 * /usr/share/locale/af/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/an/LC_MESSAGES/nm-applet.mo
@@ -83,9 +71,11 @@ A network connection configuration editor for NetworkManager
 * /usr/share/locale/hr/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/hu/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/id/LC_MESSAGES/nm-applet.mo
+* /usr/share/locale/ie/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/is/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/it/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/ja/LC_MESSAGES/nm-applet.mo
+* /usr/share/locale/ka/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/kk/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/km/LC_MESSAGES/nm-applet.mo
 * /usr/share/locale/kn/LC_MESSAGES/nm-applet.mo

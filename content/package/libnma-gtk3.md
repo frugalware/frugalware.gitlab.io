@@ -12,6 +12,7 @@ size = "98540"
 usize = "479759"
 sha1sum = "d193b31fe51205abb2f743f7e4cdb0c666f6ecc7"
 depends = "['gtk+3>=3.22.29', 'libnma']"
+reverse_depends = "['nm-applet', 'nm-connection-editor']"
 +++
 ### Description: 
 NetworkManager GUI client library (GTK3)

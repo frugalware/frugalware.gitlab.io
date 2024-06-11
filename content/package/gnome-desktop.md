@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "gnome-desktop 3.38.9-1"
-version = "3.38.9-1"
+title = "gnome-desktop 44.0-1"
+version = "44.0-1"
 description = "The GNOME Desktop"
-date = "2023-03-13T09:11:10"
+date = "2024-06-11T14:35:11"
 aliases = "/packages/220201"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "531160"
-usize = "3139703"
-sha1sum = "44f79b875dd2bee4c414b5cb3b5a64f5b559bde6"
+size = "618980"
+usize = "3903140"
+sha1sum = "a22257c21b409c30ccaca1a1c1f5c661f265555f"
 depends = "['gsettings-desktop-schemas>=3.28.0', 'gtk+3>=3.24.0', 'iso-codes>=3.70-2', 'libseccomp', 'libxkbfile>=1.0.9-3', 'xkeyboard-config>=2.18-2']"
-reverse_depends = "['gnome-desktop-doc', 'lutris']"
+reverse_depends = "['gnome-desktop-doc', 'lutris', 'xdg-desktop-portal-gnome']"
 +++
 ### Description: 
 The GNOME Desktop
@@ -22,6 +22,7 @@ The GNOME Desktop
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-slide-show.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-thumbnail.h
+* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-version.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-idle-monitor.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-languages.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-pnp-ids.h
@@ -30,22 +31,58 @@ The GNOME Desktop
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-systemd.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-wall-clock.h
 * /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-xkb-info.h
+* /usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg-slide-show.h
+* /usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg.h
+* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-config.h
+* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-output-info.h
+* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-screen.h
+* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-types.h
+* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-thumbnail.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-version.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-idle-monitor.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-languages.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-pnp-ids.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-systemd.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-wall-clock.h
+* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-xkb-info.h
+* /usr/lib/girepository-1.0/GnomeBG-4.0.typelib
 * /usr/lib/girepository-1.0/GnomeDesktop-3.0.typelib
-* /usr/lib/gnome-desktop/gnome-rr-debug
+* /usr/lib/girepository-1.0/GnomeDesktop-4.0.typelib
+* /usr/lib/girepository-1.0/GnomeRR-4.0.typelib
+* /usr/lib/gnome-desktop/gnome-desktop-debug/gnome-rr-debug
+* /usr/lib/gnome-desktop/gnome-desktop-debug/test-desktop-thumbnail
+* /usr/lib/gnome-desktop/gnome-desktop-debug/test-idle-monitor
+* /usr/lib/gnome-desktop/gnome-desktop-debug/test-languages
+* /usr/lib/gnome-desktop/gnome-desktop-debug/test-pnp-ids
+* /usr/lib/gnome-desktop/gnome-desktop-debug/test-wall-clock
+* /usr/lib/gnome-desktop/gnome-desktop-debug/test-xkb-info
+* /usr/lib/libgnome-bg-4.so
+* /usr/lib/libgnome-bg-4.so.2
+* /usr/lib/libgnome-bg-4.so.2.1.0
 * /usr/lib/libgnome-desktop-3.so
-* /usr/lib/libgnome-desktop-3.so.19
-* /usr/lib/libgnome-desktop-3.so.19.0.11
+* /usr/lib/libgnome-desktop-3.so.20
+* /usr/lib/libgnome-desktop-3.so.20.0.0
+* /usr/lib/libgnome-desktop-4.so
+* /usr/lib/libgnome-desktop-4.so.2
+* /usr/lib/libgnome-desktop-4.so.2.1.0
+* /usr/lib/libgnome-rr-4.so
+* /usr/lib/libgnome-rr-4.so.2
+* /usr/lib/libgnome-rr-4.so.2.1.0
+* /usr/lib/pkgconfig/gnome-bg-4.pc
 * /usr/lib/pkgconfig/gnome-desktop-3.0.pc
-* /usr/share/doc/gnome-desktop-3.38.9/AUTHORS
-* /usr/share/doc/gnome-desktop-3.38.9/ChangeLog
-* /usr/share/doc/gnome-desktop-3.38.9/COPYING
-* /usr/share/doc/gnome-desktop-3.38.9/COPYING-DOCS
-* /usr/share/doc/gnome-desktop-3.38.9/COPYING.LIB
-* /usr/share/doc/gnome-desktop-3.38.9/HACKING
-* /usr/share/doc/gnome-desktop-3.38.9/NEWS
-* /usr/share/doc/gnome-desktop-3.38.9/README
+* /usr/lib/pkgconfig/gnome-desktop-4.pc
+* /usr/lib/pkgconfig/gnome-rr-4.pc
+* /usr/share/doc/gnome-desktop-44.0/AUTHORS
+* /usr/share/doc/gnome-desktop-44.0/COPYING
+* /usr/share/doc/gnome-desktop-44.0/COPYING-DOCS
+* /usr/share/doc/gnome-desktop-44.0/COPYING.LIB
+* /usr/share/doc/gnome-desktop-44.0/NEWS
+* /usr/share/doc/gnome-desktop-44.0/README.md
+* /usr/share/gir-1.0/GnomeBG-4.0.gir
 * /usr/share/gir-1.0/GnomeDesktop-3.0.gir
-* /usr/share/gnome/gnome-version.xml
+* /usr/share/gir-1.0/GnomeDesktop-4.0.gir
+* /usr/share/gir-1.0/GnomeRR-4.0.gir
 * /usr/share/help/ar/fdl/index.docbook
 * /usr/share/help/ar/gpl/index.docbook
 * /usr/share/help/ar/lgpl/index.docbook
@@ -78,6 +115,9 @@ The GNOME Desktop
 * /usr/share/help/gl/fdl/index.docbook
 * /usr/share/help/gl/gpl/index.docbook
 * /usr/share/help/gl/lgpl/index.docbook
+* /usr/share/help/hr/fdl/index.docbook
+* /usr/share/help/hr/gpl/index.docbook
+* /usr/share/help/hr/lgpl/index.docbook
 * /usr/share/help/hu/fdl/index.docbook
 * /usr/share/help/hu/gpl/index.docbook
 * /usr/share/help/hu/lgpl/index.docbook
@@ -96,6 +136,7 @@ The GNOME Desktop
 * /usr/share/help/sl/fdl/index.docbook
 * /usr/share/help/sl/gpl/index.docbook
 * /usr/share/help/sl/lgpl/index.docbook
+* /usr/share/help/sr/fdl/index.docbook
 * /usr/share/help/sr/gpl/index.docbook
 * /usr/share/help/sr@latin/gpl/index.docbook
 * /usr/share/help/sv/fdl/index.docbook
@@ -113,6 +154,7 @@ The GNOME Desktop
 * /usr/share/help/zh_CN/fdl/index.docbook
 * /usr/share/help/zh_CN/gpl/index.docbook
 * /usr/share/help/zh_CN/lgpl/index.docbook
+* /usr/share/locale/ab/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/af/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/am/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/an/LC_MESSAGES/gnome-desktop-3.0.mo
@@ -167,6 +209,7 @@ The GNOME Desktop
 * /usr/share/locale/it/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/ja/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/ka/LC_MESSAGES/gnome-desktop-3.0.mo
+* /usr/share/locale/kab/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/kg/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/kk/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/km/LC_MESSAGES/gnome-desktop-3.0.mo
@@ -203,6 +246,7 @@ The GNOME Desktop
 * /usr/share/locale/ro/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/ru/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/rw/LC_MESSAGES/gnome-desktop-3.0.mo
+* /usr/share/locale/sat/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/si/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/sk/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/sl/LC_MESSAGES/gnome-desktop-3.0.mo

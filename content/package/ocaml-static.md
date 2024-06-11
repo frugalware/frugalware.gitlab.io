@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-static 5.1.1-2"
-version = "5.1.1-2"
+title = "ocaml-static 5.2.0-1"
+version = "5.2.0-1"
 description = "Caml libraries statically linked."
-date = "2024-05-08T23:22:51"
+date = "2024-06-11T14:43:46"
 aliases = "/packages/219961"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "12431116"
-usize = "30580076"
-sha1sum = "0b18cdc9cb84b0137c28f41b546068511b9f6e7b"
+size = "13013460"
+usize = "31920360"
+sha1sum = "7d6f55272a9ce29e90208c004f58163f04a143ac"
 depends = "[]"
 +++
 ### Description: 
@@ -29,6 +29,7 @@ Caml libraries statically linked.
 * /usr/lib/ocaml/libcamlrun_pic.a
 * /usr/lib/ocaml/libcamlstrbyt.a
 * /usr/lib/ocaml/libcamlstrnat.a
+* /usr/lib/ocaml/libcomprmarsh.a
 * /usr/lib/ocaml/libthreads.a
 * /usr/lib/ocaml/libthreadsnat.a
 * /usr/lib/ocaml/libunixbyt.a

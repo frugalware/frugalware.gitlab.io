@@ -12,7 +12,7 @@ size = "45816"
 usize = "217284"
 sha1sum = "27dcb2cfc2f2c4b81f5de84f244c478669e2b01b"
 depends = "['dbus-glib', 'libdbusmenu-gtk3', 'libindicator>=12.10']"
-reverse_depends = "['polychromatic', 'r2modman', 'remmina', 'slack-desktop', 'syncthing-gtk']"
+reverse_depends = "['nm-applet', 'polychromatic', 'r2modman', 'remmina', 'slack-desktop', 'syncthing-gtk']"
 +++
 ### Description: 
 Library to allow applications to export a menu into the Unity Menu bar (GTK+ 2 library)

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-compiler-libs 5.1.1-2"
-version = "5.1.1-2"
+title = "ocaml-compiler-libs 5.2.0-1"
+version = "5.2.0-1"
 description = "Several modules used internally by the OCaml compiler"
-date = "2024-05-08T23:22:51"
+date = "2024-06-11T14:43:46"
 aliases = "/packages/220405"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "39845100"
-usize = "74149531"
-sha1sum = "5839eb7327ab95687fb33809aa4c2aa1d267c7bf"
+size = "41760024"
+usize = "75221387"
+sha1sum = "98199fbea773a1bde7365e6e06d437202caaac1c"
 depends = "['ocaml']"
 reverse_depends = "['ocaml-compiler-libs-repackaged', 'opam']"
 +++
@@ -968,11 +968,6 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/projection.cmti
 * /usr/lib/ocaml/compiler-libs/projection.cmx
 * /usr/lib/ocaml/compiler-libs/projection.mli
-* /usr/lib/ocaml/compiler-libs/rec_check.cmi
-* /usr/lib/ocaml/compiler-libs/rec_check.cmt
-* /usr/lib/ocaml/compiler-libs/rec_check.cmti
-* /usr/lib/ocaml/compiler-libs/rec_check.cmx
-* /usr/lib/ocaml/compiler-libs/rec_check.mli
 * /usr/lib/ocaml/compiler-libs/ref_to_variables.cmi
 * /usr/lib/ocaml/compiler-libs/ref_to_variables.cmt
 * /usr/lib/ocaml/compiler-libs/ref_to_variables.cmti
@@ -1058,6 +1053,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/shape.cmti
 * /usr/lib/ocaml/compiler-libs/shape.cmx
 * /usr/lib/ocaml/compiler-libs/shape.mli
+* /usr/lib/ocaml/compiler-libs/shape_reduce.cmi
+* /usr/lib/ocaml/compiler-libs/shape_reduce.cmt
+* /usr/lib/ocaml/compiler-libs/shape_reduce.cmti
+* /usr/lib/ocaml/compiler-libs/shape_reduce.cmx
+* /usr/lib/ocaml/compiler-libs/shape_reduce.mli
 * /usr/lib/ocaml/compiler-libs/share_constants.cmi
 * /usr/lib/ocaml/compiler-libs/share_constants.cmt
 * /usr/lib/ocaml/compiler-libs/share_constants.cmti
@@ -1106,6 +1106,16 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/split.cmti
 * /usr/lib/ocaml/compiler-libs/split.cmx
 * /usr/lib/ocaml/compiler-libs/split.mli
+* /usr/lib/ocaml/compiler-libs/stackframe.cmi
+* /usr/lib/ocaml/compiler-libs/stackframe.cmt
+* /usr/lib/ocaml/compiler-libs/stackframe.cmti
+* /usr/lib/ocaml/compiler-libs/stackframe.cmx
+* /usr/lib/ocaml/compiler-libs/stackframe.mli
+* /usr/lib/ocaml/compiler-libs/stackframegen.cmi
+* /usr/lib/ocaml/compiler-libs/stackframegen.cmt
+* /usr/lib/ocaml/compiler-libs/stackframegen.cmti
+* /usr/lib/ocaml/compiler-libs/stackframegen.cmx
+* /usr/lib/ocaml/compiler-libs/stackframegen.mli
 * /usr/lib/ocaml/compiler-libs/static_exception.cmi
 * /usr/lib/ocaml/compiler-libs/static_exception.cmt
 * /usr/lib/ocaml/compiler-libs/static_exception.cmti
@@ -1176,6 +1186,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/terminfo.cmti
 * /usr/lib/ocaml/compiler-libs/terminfo.cmx
 * /usr/lib/ocaml/compiler-libs/terminfo.mli
+* /usr/lib/ocaml/compiler-libs/thread_sanitizer.cmi
+* /usr/lib/ocaml/compiler-libs/thread_sanitizer.cmt
+* /usr/lib/ocaml/compiler-libs/thread_sanitizer.cmti
+* /usr/lib/ocaml/compiler-libs/thread_sanitizer.cmx
+* /usr/lib/ocaml/compiler-libs/thread_sanitizer.mli
 * /usr/lib/ocaml/compiler-libs/tmc.cmi
 * /usr/lib/ocaml/compiler-libs/tmc.cmt
 * /usr/lib/ocaml/compiler-libs/tmc.cmti
@@ -1345,6 +1360,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/unbox_specialised_args.cmti
 * /usr/lib/ocaml/compiler-libs/unbox_specialised_args.cmx
 * /usr/lib/ocaml/compiler-libs/unbox_specialised_args.mli
+* /usr/lib/ocaml/compiler-libs/unit_info.cmi
+* /usr/lib/ocaml/compiler-libs/unit_info.cmt
+* /usr/lib/ocaml/compiler-libs/unit_info.cmti
+* /usr/lib/ocaml/compiler-libs/unit_info.cmx
+* /usr/lib/ocaml/compiler-libs/unit_info.mli
 * /usr/lib/ocaml/compiler-libs/untypeast.cmi
 * /usr/lib/ocaml/compiler-libs/untypeast.cmt
 * /usr/lib/ocaml/compiler-libs/untypeast.cmti
@@ -1355,6 +1375,19 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/un_anf.cmti
 * /usr/lib/ocaml/compiler-libs/un_anf.cmx
 * /usr/lib/ocaml/compiler-libs/un_anf.mli
+* /usr/lib/ocaml/compiler-libs/value_rec_check.cmi
+* /usr/lib/ocaml/compiler-libs/value_rec_check.cmt
+* /usr/lib/ocaml/compiler-libs/value_rec_check.cmti
+* /usr/lib/ocaml/compiler-libs/value_rec_check.cmx
+* /usr/lib/ocaml/compiler-libs/value_rec_check.mli
+* /usr/lib/ocaml/compiler-libs/value_rec_compiler.cmi
+* /usr/lib/ocaml/compiler-libs/value_rec_compiler.cmt
+* /usr/lib/ocaml/compiler-libs/value_rec_compiler.cmti
+* /usr/lib/ocaml/compiler-libs/value_rec_compiler.cmx
+* /usr/lib/ocaml/compiler-libs/value_rec_compiler.mli
+* /usr/lib/ocaml/compiler-libs/value_rec_types.cmi
+* /usr/lib/ocaml/compiler-libs/value_rec_types.cmti
+* /usr/lib/ocaml/compiler-libs/value_rec_types.mli
 * /usr/lib/ocaml/compiler-libs/variable.cmi
 * /usr/lib/ocaml/compiler-libs/variable.cmt
 * /usr/lib/ocaml/compiler-libs/variable.cmti

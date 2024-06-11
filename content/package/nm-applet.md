@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nm-applet 1.8.24-1"
-version = "1.8.24-1"
+title = "nm-applet 1.36.0-1"
+version = "1.36.0-1"
 description = "Network Management applet"
-date = "2019-11-05T12:38:44"
+date = "2024-06-11T14:20:20"
 aliases = "/packages/88403"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "237620"
-usize = "973900"
-sha1sum = "d9b6509ccbbfe417c2c525b9053983e72930f811"
-depends = "['iso-codes>=3.70-2', 'libnotify>=0.7.7-4', 'libsecret>=0.18.5-5', 'networkmanager>=1.8.4', 'nm-connection-editor']"
+size = "160528"
+usize = "419932"
+sha1sum = "e1f67b1324c07f97e8b0bf73941dae00dff61017"
+depends = "['iso-codes>=3.70-2', 'libappindicator', 'libnma-gtk3', 'libnotify>=0.7.7-4', 'libsecret>=0.18.5-5', 'nm-connection-editor']"
 +++
 ### Description: 
 Network Management applet
@@ -20,34 +20,11 @@ Network Management applet
 * /etc/xdg/autostart/nm-applet.desktop
 * /usr/bin/nm-applet
 * /usr/share/applications/nm-applet.desktop
-* /usr/share/doc/nm-applet-1.8.24/ChangeLog
-* /usr/share/doc/nm-applet-1.8.24/COPYING
-* /usr/share/doc/nm-applet-1.8.24/INSTALL
-* /usr/share/doc/nm-applet-1.8.24/NEWS
+* /usr/share/doc/nm-applet-1.36.0/COPYING
+* /usr/share/doc/nm-applet-1.36.0/NEWS
 * /usr/share/GConf/gsettings/nm-applet.convert
-* /usr/share/gtk-doc/html/libnma/annotation-glossary.html
-* /usr/share/gtk-doc/html/libnma/api-index-1.8.0.html
-* /usr/share/gtk-doc/html/libnma/api-index-full.html
-* /usr/share/gtk-doc/html/libnma/api-reference.html
-* /usr/share/gtk-doc/html/libnma/home.png
-* /usr/share/gtk-doc/html/libnma/index.html
-* /usr/share/gtk-doc/html/libnma/left-insensitive.png
-* /usr/share/gtk-doc/html/libnma/left.png
-* /usr/share/gtk-doc/html/libnma/libnma-nma-ui-utils.html
-* /usr/share/gtk-doc/html/libnma/libnma.devhelp2
-* /usr/share/gtk-doc/html/libnma/NMABarCode.html
-* /usr/share/gtk-doc/html/libnma/NMACertChooser.html
-* /usr/share/gtk-doc/html/libnma/NMAMobileProvidersDatabase.html
-* /usr/share/gtk-doc/html/libnma/NMAMobileWizard.html
-* /usr/share/gtk-doc/html/libnma/NMAVpnPasswordDialog.html
-* /usr/share/gtk-doc/html/libnma/NMAWifiDialog.html
-* /usr/share/gtk-doc/html/libnma/object-tree.html
-* /usr/share/gtk-doc/html/libnma/right-insensitive.png
-* /usr/share/gtk-doc/html/libnma/right.png
-* /usr/share/gtk-doc/html/libnma/style.css
-* /usr/share/gtk-doc/html/libnma/up-insensitive.png
-* /usr/share/gtk-doc/html/libnma/up.png
 * /usr/share/icons/hicolor/22x22/apps/nm-adhoc.png
+* /usr/share/icons/hicolor/22x22/apps/nm-insecure-warn.png
 * /usr/share/icons/hicolor/22x22/apps/nm-mb-roam.png
 * /usr/share/icons/hicolor/22x22/apps/nm-secure-lock.png
 * /usr/share/icons/hicolor/22x22/apps/nm-signal-00-secure.png
@@ -117,5 +94,32 @@ Network Management applet
 * /usr/share/icons/hicolor/22x22/apps/nm-vpn-connecting13.png
 * /usr/share/icons/hicolor/22x22/apps/nm-vpn-connecting14.png
 * /usr/share/icons/hicolor/22x22/apps/nm-wwan-tower.png
+* /usr/share/icons/hicolor/scalable/apps/nm-no-connection-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-00-secure-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-00-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-100-secure-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-100-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-25-secure-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-25-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-50-secure-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-50-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-75-secure-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-signal-75-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-active-lock-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting01-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting02-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting03-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting04-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting05-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting06-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting07-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting08-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting09-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting10-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting11-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting12-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting13-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-connecting14-symbolic.svg
+* /usr/share/icons/hicolor/scalable/apps/nm-vpn-standalone-lock-symbolic.svg
 * /usr/share/man/man1/nm-applet.1.gz
 * /usr/share/metainfo/nm-connection-editor.appdata.xml

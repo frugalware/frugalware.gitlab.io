@@ -12,7 +12,7 @@ size = "347948"
 usize = "2327547"
 sha1sum = "1a552d5be5fe641bc74a236e48f303447c819521"
 depends = "['fuse3', 'geoclue2', 'glib2', 'libportal', 'pipewire', 'rtkit', 'systemd']"
-reverse_depends = "['plasma-wayland-session']"
+reverse_depends = "['plasma-wayland-session', 'xdg-desktop-portal-gtk']"
 +++
 ### Description: 
 Desktop integration portals for sandboxed apps

@@ -12,7 +12,7 @@ size = "594208"
 usize = "4664126"
 sha1sum = "f550f3aa46976f399cb2316fde0991571ecb6bdd"
 depends = "['glib2>=2.60.3']"
-reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config']"
+reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config', 'xdg-desktop-portal-gtk']"
 +++
 ### Description: 
 Shared GSettings schemas for the desktop
