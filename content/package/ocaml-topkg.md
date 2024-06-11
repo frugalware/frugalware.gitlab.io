@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-topkg 1.0.7-3"
-version = "1.0.7-3"
+title = "ocaml-topkg 1.0.7-4"
+version = "1.0.7-4"
 description = "A packager for distributing OCaml software"
-date = "2023-12-19T12:59:23"
+date = "2024-06-11T18:42:45"
 aliases = "/packages/219267"
 categories = ['devel-extra']
 upstreamurl = "https://erratique.ch/software/topkg"
 arch = "x86_64"
-size = "473840"
-usize = "709772"
-sha1sum = "e69b1f963bebaec5d36f734874a67fc45f101d79"
+size = "471116"
+usize = "705855"
+sha1sum = "56b140d47d9c2713f4713fcbcda5b0d80bf1930f"
 depends = "['ocaml>=5.1.1', 'ocaml-result']"
 +++
 ### Description: 

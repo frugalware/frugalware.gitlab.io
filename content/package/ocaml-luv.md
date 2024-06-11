@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-luv 0.5.12-4"
-version = "0.5.12-4"
+title = "ocaml-luv 0.5.13-1"
+version = "0.5.13-1"
 description = "Cross-platform asynchronous I/O and system calls"
-date = "2024-05-13T20:55:33"
+date = "2024-06-11T18:23:54"
 aliases = "/packages/221064"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/aantron/luv"
 arch = "x86_64"
-size = "3992184"
-usize = "8105368"
-sha1sum = "c482b81ac293de58a6ccb9e404fef0fbe9a81fa6"
-depends = "['libuv', 'ocaml>=5.1.1', 'ocaml-ctypes']"
+size = "4194608"
+usize = "8489366"
+sha1sum = "c2afb9e3ece008fceec974d774d8bd9c75fba3f9"
+depends = "['libuv', 'ocaml>=5.2.0', 'ocaml-ctypes']"
 reverse_depends = "['lwt']"
 +++
 ### Description: 
@@ -256,6 +256,10 @@ Cross-platform asynchronous I/O and system calls
 * /usr/lib/ocaml/luv/luv__Stream.cmt
 * /usr/lib/ocaml/luv/luv__Stream.cmti
 * /usr/lib/ocaml/luv/luv__Stream.cmx
+* /usr/lib/ocaml/luv/luv__String_.cmi
+* /usr/lib/ocaml/luv/luv__String_.cmt
+* /usr/lib/ocaml/luv/luv__String_.cmti
+* /usr/lib/ocaml/luv/luv__String_.cmx
 * /usr/lib/ocaml/luv/luv__System_info.cmi
 * /usr/lib/ocaml/luv/luv__System_info.cmt
 * /usr/lib/ocaml/luv/luv__System_info.cmti
@@ -340,6 +344,8 @@ Cross-platform asynchronous I/O and system calls
 * /usr/lib/ocaml/luv/sockaddr.mli
 * /usr/lib/ocaml/luv/stream.ml
 * /usr/lib/ocaml/luv/stream.mli
+* /usr/lib/ocaml/luv/string_.ml
+* /usr/lib/ocaml/luv/string_.mli
 * /usr/lib/ocaml/luv/system_info.ml
 * /usr/lib/ocaml/luv/system_info.mli
 * /usr/lib/ocaml/luv/TCP.ml
@@ -376,9 +382,9 @@ Cross-platform asynchronous I/O and system calls
 * /usr/lib/ocaml/luv_unix/opam
 * /usr/lib/ocaml/stublibs/dllluv_c_stubs.so
 * /usr/lib/ocaml/stublibs/dllluv_unix_stubs.so
-* /usr/share/doc/ocaml-luv-0.5.12/luv/LICENSE.md
-* /usr/share/doc/ocaml-luv-0.5.12/luv/odoc-pages/index.mld
-* /usr/share/doc/ocaml-luv-0.5.12/luv/README.md
-* /usr/share/doc/ocaml-luv-0.5.12/luv_unix/LICENSE.md
-* /usr/share/doc/ocaml-luv-0.5.12/luv_unix/README.md
-* /usr/share/doc/ocaml-luv-0.5.12/README.md
+* /usr/share/doc/ocaml-luv-0.5.13/luv/LICENSE.md
+* /usr/share/doc/ocaml-luv-0.5.13/luv/odoc-pages/index.mld
+* /usr/share/doc/ocaml-luv-0.5.13/luv/README.md
+* /usr/share/doc/ocaml-luv-0.5.13/luv_unix/LICENSE.md
+* /usr/share/doc/ocaml-luv-0.5.13/luv_unix/README.md
+* /usr/share/doc/ocaml-luv-0.5.13/README.md

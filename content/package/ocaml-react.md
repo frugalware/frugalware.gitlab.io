@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-react 1.2.2-2"
-version = "1.2.2-2"
+title = "ocaml-react 1.2.2-3"
+version = "1.2.2-3"
 description = "An OCaml module for functional reactive programming"
-date = "2023-12-19T13:04:02"
+date = "2024-06-11T19:08:52"
 aliases = "/packages/221070"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/dbuenzli/react"
 arch = "x86_64"
-size = "234456"
-usize = "346103"
-sha1sum = "06aaebc8cddbd51c8912a479ad8ce73b476ee078"
-depends = "['ocaml>=5.1.1']"
+size = "232176"
+usize = "343638"
+sha1sum = "2051f5f90a47d7b50eefa034bc9e25c43ce72576"
+depends = "['ocaml>=5.2.0']"
 reverse_depends = "['lwt']"
 +++
 ### Description: 

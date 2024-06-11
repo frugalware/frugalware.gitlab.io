@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-findlib 1.9.6-5"
-version = "1.9.6-5"
+title = "ocaml-findlib 1.9.6-6"
+version = "1.9.6-6"
 description = "Objective Caml (OCaml) package manager"
-date = "2024-05-14T14:02:35"
+date = "2024-06-11T18:29:50"
 aliases = "/packages/184611"
 categories = ['devel-extra']
 upstreamurl = "http://projects.camlcity.org/projects/findlib.html"
 arch = "x86_64"
-size = "1307020"
-usize = "4634626"
-sha1sum = "d729260578cc90062f99e8e379f458d308396396"
-depends = "['ocaml>=5.1.1']"
+size = "1422256"
+usize = "5266198"
+sha1sum = "26ac7d8a8af0de1faa60b659e920ed45f67b9808"
+depends = "['ocaml>=5.2.0']"
 reverse_depends = "['libguestfs-ocaml', 'supermin']"
 license = "MIT"
 +++
@@ -54,8 +54,10 @@ Objective Caml (OCaml) package manager
 * /usr/lib/ocaml/findlib/topfind.cmi
 * /usr/lib/ocaml/findlib/topfind.mli
 * /usr/lib/ocaml/topfind
+* /usr/share/doc/ocaml-findlib-1.9.6/CHANGES
 * /usr/share/doc/ocaml-findlib-1.9.6/INSTALL
 * /usr/share/doc/ocaml-findlib-1.9.6/LICENSE
+* /usr/share/doc/ocaml-findlib-1.9.6/README.md
 * /usr/share/man/man1/ocamlfind.1.gz
 * /usr/share/man/man5/findlib.conf.5.gz
 * /usr/share/man/man5/META.5.gz

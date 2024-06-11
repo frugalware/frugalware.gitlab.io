@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-ctypes 0.21.1-4"
-version = "0.21.1-4"
+title = "ocaml-ctypes 0.22.0-1"
+version = "0.22.0-1"
 description = "Library for binding to C libraries using pure OCaml"
-date = "2024-05-08T10:35:20"
+date = "2024-06-11T18:17:23"
 aliases = "/packages/217326"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocamllabs/ocaml-ctypes"
 arch = "x86_64"
-size = "2741472"
-usize = "6180103"
-sha1sum = "be892b4f2a615fa0ed7a192906fb25b6a91f61f0"
-depends = "['libffi>=3.4', 'ocaml>=5.1.1', 'ocaml-bigarray-compat', 'ocaml-integers>=0.3.0-4']"
+size = "2755132"
+usize = "6193713"
+sha1sum = "005413093cfae3977bb46ea79a1fdd36bf77dc7d"
+depends = "['libffi>=3.4', 'ocaml>=5.2.0', 'ocaml-bigarray-compat', 'ocaml-integers>=0.3.0-4']"
 reverse_depends = "['ocaml-luv']"
 license = "custom"
 +++
@@ -294,11 +294,11 @@ Library for binding to C libraries using pure OCaml
 * /usr/lib/ocaml/ctypes/top/install_ctypes_printers.ml
 * /usr/lib/ocaml/stublibs/dllctypes_foreign_stubs.so
 * /usr/lib/ocaml/stublibs/dllctypes_stubs.so
-* /usr/share/doc/ocaml-ctypes-0.21.1/ctypes-foreign/CHANGES.md
-* /usr/share/doc/ocaml-ctypes-0.21.1/ctypes-foreign/LICENSE
-* /usr/share/doc/ocaml-ctypes-0.21.1/ctypes-foreign/README.md
-* /usr/share/doc/ocaml-ctypes-0.21.1/ctypes/CHANGES.md
-* /usr/share/doc/ocaml-ctypes-0.21.1/ctypes/LICENSE
-* /usr/share/doc/ocaml-ctypes-0.21.1/ctypes/README.md
-* /usr/share/doc/ocaml-ctypes-0.21.1/LICENSE
-* /usr/share/doc/ocaml-ctypes-0.21.1/README.md
+* /usr/share/doc/ocaml-ctypes-0.22.0/ctypes-foreign/CHANGES.md
+* /usr/share/doc/ocaml-ctypes-0.22.0/ctypes-foreign/LICENSE
+* /usr/share/doc/ocaml-ctypes-0.22.0/ctypes-foreign/README.md
+* /usr/share/doc/ocaml-ctypes-0.22.0/ctypes/CHANGES.md
+* /usr/share/doc/ocaml-ctypes-0.22.0/ctypes/LICENSE
+* /usr/share/doc/ocaml-ctypes-0.22.0/ctypes/README.md
+* /usr/share/doc/ocaml-ctypes-0.22.0/LICENSE
+* /usr/share/doc/ocaml-ctypes-0.22.0/README.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocplib-endian 1.2-3"
-version = "1.2-3"
+title = "ocplib-endian 1.2-4"
+version = "1.2-4"
 description = "Optimised functions to read and write int16/32/64 from strings, bytes and bigarrays"
-date = "2024-05-14T16:56:35"
+date = "2024-06-11T18:26:48"
 aliases = "/packages/221065"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/OCamlPro/ocplib-endian"
 arch = "x86_64"
-size = "346856"
-usize = "831593"
-sha1sum = "3a542c19e30daf23be9582e04aedd34c036d9d92"
-depends = "['ocaml>=5.1.1']"
+size = "364376"
+usize = "886013"
+sha1sum = "7b58b76b4673d709d9edc86e0c8415ffb0f188fd"
+depends = "['ocaml>=5.2.0']"
 reverse_depends = "['lwt']"
 +++
 ### Description: 
@@ -47,6 +47,7 @@ Optimised functions to read and write int16/32/64 from strings, bytes and bigarr
 * /usr/lib/ocaml/ocplib-endian/ocplib_endian.cmxa
 * /usr/lib/ocaml/ocplib-endian/ocplib_endian.cmxs
 * /usr/lib/ocaml/ocplib-endian/opam
+* /usr/share/doc/ocplib-endian-1.2/CHANGES
 * /usr/share/doc/ocplib-endian-1.2/COPYING.txt
 * /usr/share/doc/ocplib-endian-1.2/ocplib-endian/CHANGES.md
 * /usr/share/doc/ocplib-endian-1.2/ocplib-endian/README.md
