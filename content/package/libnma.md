@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libnma 1.10.6-2"
-version = "1.10.6-2"
+title = "libnma 1.10.6-3"
+version = "1.10.6-3"
 description = "NetworkManager GUI client library"
-date = "2024-06-10T15:22:58"
+date = "2024-06-11T17:14:50"
 aliases = "/packages/221507"
-categories = ['gnome-extra']
+categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "170868"
+size = "171132"
 usize = "1162672"
-sha1sum = "27b07c8ae4fa1e6ad00c3a459c11e55bd2b2ef7b"
+sha1sum = "3be93e5fd3e19fdb4b696e8f1a43406169ef2645"
 depends = "['gcr', 'gobject-introspection', 'iso-codes', 'mobile-broadband-provider-info', 'networkmanager']"
 reverse_depends = "['libnma-gtk3', 'libnma-gtk4']"
 +++

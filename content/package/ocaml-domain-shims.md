@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-domain-shims 0.1.0-1"
-version = "0.1.0-1"
+title = "ocaml-domain-shims 0.1.0-2"
+version = "0.1.0-2"
 description = "Self-contained implementation of the Domain module for OCaml 4"
-date = "2023-12-19T12:54:15"
+date = "2024-06-11T17:55:43"
 aliases = "/packages/221196"
 categories = ['devel-extra']
 upstreamurl = "https://gitlab.com/gasche/domain-shims"
 arch = "x86_64"
-size = "4748"
+size = "4860"
 usize = "24751"
-sha1sum = "a0ab202bbcd76a5b927c020daf151e11bae64589"
-depends = "['ocaml>=5.1.1']"
+sha1sum = "588998aaf3f23d27f3716dbf2225f2711079786a"
+depends = "['ocaml>=5.2.0']"
 reverse_depends = "['saturn']"
 +++
 ### Description: 

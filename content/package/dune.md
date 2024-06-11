@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "12255824"
 usize = "36763421"
 sha1sum = "7e64fed75634da9fcc7028d3e1a306fa13a1e7c5"
-depends = "['glibc>=2.34']"
+depends = "['ocaml>=5.2.0']"
 +++
 ### Description: 
 A composable build system for OCaml (formerly jbuilder)
@@ -945,6 +945,10 @@ A composable build system for OCaml (formerly jbuilder)
 * /usr/lib/ocaml/stdune/stdune__String.cmt
 * /usr/lib/ocaml/stdune/stdune__String.cmti
 * /usr/lib/ocaml/stdune/stdune__String.cmx
+* /usr/lib/ocaml/stdune/stdune__String_builder.cmi
+* /usr/lib/ocaml/stdune/stdune__String_builder.cmt
+* /usr/lib/ocaml/stdune/stdune__String_builder.cmti
+* /usr/lib/ocaml/stdune/stdune__String_builder.cmx
 * /usr/lib/ocaml/stdune/stdune__String_split.cmi
 * /usr/lib/ocaml/stdune/stdune__String_split.cmt
 * /usr/lib/ocaml/stdune/stdune__String_split.cmti
@@ -1001,6 +1005,8 @@ A composable build system for OCaml (formerly jbuilder)
 * /usr/lib/ocaml/stdune/stdune__User_warning.cmx
 * /usr/lib/ocaml/stdune/string.ml
 * /usr/lib/ocaml/stdune/string.mli
+* /usr/lib/ocaml/stdune/string_builder.ml
+* /usr/lib/ocaml/stdune/string_builder.mli
 * /usr/lib/ocaml/stdune/string_split.ml
 * /usr/lib/ocaml/stdune/string_split.mli
 * /usr/lib/ocaml/stdune/sys.ml
@@ -1044,7 +1050,7 @@ A composable build system for OCaml (formerly jbuilder)
 * /usr/lib/ocaml/xdg/xdg.cmxs
 * /usr/lib/ocaml/xdg/xdg.ml
 * /usr/lib/ocaml/xdg/xdg.mli
-* /usr/share/doc/dune-3.12.1/README.md
+* /usr/share/doc/dune-3.15.3/README.md
 * /usr/share/doc/dune-action-plugin/CHANGES.md
 * /usr/share/doc/dune-action-plugin/LICENSE.md
 * /usr/share/doc/dune-action-plugin/README.md

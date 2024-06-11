@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "saturn 0.4.1-3"
-version = "0.4.1-3"
+title = "saturn 0.4.1-4"
+version = "0.4.1-4"
 description = "Lock-free data structures for multicore OCaml"
-date = "2024-05-08T23:13:28"
+date = "2024-06-11T17:57:57"
 aliases = "/packages/221060"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/saturn"
 arch = "x86_64"
-size = "291252"
-usize = "631471"
-sha1sum = "358721f4b0293f80bf449008839a616d7af5448b"
+size = "294352"
+usize = "634895"
+sha1sum = "31a4ed8ccc3b66c618051805e16dcf53aa6e9e27"
 depends = "['ocaml-domain-shims']"
 reverse_depends = "['domainslib']"
 +++

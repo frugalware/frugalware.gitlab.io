@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "domain-local-await 1.0.0-2"
-version = "1.0.0-2"
+title = "domain-local-await 1.0.1-1"
+version = "1.0.1-1"
 description = "A scheduler independent blocking mechanism"
-date = "2024-05-13T21:03:52"
+date = "2024-06-11T17:48:12"
 aliases = "/packages/221062"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/domain-local-await"
 arch = "x86_64"
-size = "46712"
-usize = "103401"
-sha1sum = "3bf021e315c4f52f8c00c042905c8b10c0d320df"
+size = "53320"
+usize = "142687"
+sha1sum = "ff434c77cdd354c87033dd7449479d0248770477"
 depends = "['thread-table']"
 reverse_depends = "['domainslib']"
 +++
@@ -39,7 +39,7 @@ A scheduler independent blocking mechanism
 * /usr/lib/ocaml/domain-local-await/META
 * /usr/lib/ocaml/domain-local-await/opam
 * /usr/lib/ocaml/domain-local-await/Thread_intf.ml
-* /usr/share/doc/domain-local-await-1.0.0/domain-local-await/CHANGES.md
-* /usr/share/doc/domain-local-await-1.0.0/domain-local-await/LICENSE.md
-* /usr/share/doc/domain-local-await-1.0.0/domain-local-await/README.md
-* /usr/share/doc/domain-local-await-1.0.0/README.md
+* /usr/share/doc/domain-local-await-1.0.1/domain-local-await/CHANGES.md
+* /usr/share/doc/domain-local-await-1.0.1/domain-local-await/LICENSE.md
+* /usr/share/doc/domain-local-await-1.0.1/domain-local-await/README.md
+* /usr/share/doc/domain-local-await-1.0.1/README.md

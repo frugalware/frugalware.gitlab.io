@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thread-table 1.0.0-2"
-version = "1.0.0-2"
+title = "thread-table 1.0.0-3"
+version = "1.0.0-3"
 description = "A lock-free thread-safe integer keyed hash table"
-date = "2024-05-08T23:11:24"
+date = "2024-06-11T17:46:51"
 aliases = "/packages/221061"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/thread-table"
 arch = "x86_64"
-size = "63664"
-usize = "129642"
-sha1sum = "b39263459ac55350c44d1ca352230ac019715402"
-depends = "['ocaml>=5.1.1']"
+size = "64448"
+usize = "130469"
+sha1sum = "d24ab966122835d598f66e7898bbc01e8498a524"
+depends = "['ocaml>=5.2.0']"
 reverse_depends = "['domain-local-await']"
 +++
 ### Description: 
