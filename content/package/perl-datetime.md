@@ -1,32 +1,32 @@
 +++
 draft = false
-title = "perl-datetime 1.65-1"
-version = "1.65-1"
+title = "perl-datetime 1.65-2"
+version = "1.65-2"
 description = "A complete, easy to use date and time object"
-date = "2023-12-04T13:19:17"
+date = "2024-06-11T13:06:17"
 aliases = "/packages/217575"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "96820"
-usize = "328600"
-sha1sum = "6d3a2cd2bb240d732e361895452eba3878e5cc73"
+size = "97556"
+usize = "326317"
+sha1sum = "5380f9fb73616b695c883b5b31c78e05a2583b21"
 depends = "['perl>=5.34.0', 'perl-datetime-locale>=1.22', 'perl-datetime-timezone>=2.00', 'perl-params-validate>=1.03', 'perl-try-tiny']"
 +++
 ### Description: 
 A complete, easy to use date and time object
 
 ### Files: 
-* /usr/lib/perl5/5.38/site_perl/auto/DateTime/DateTime.so
-* /usr/lib/perl5/5.38/site_perl/DateTime.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/Conflicts.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/Duration.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/Helpers.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/Infinite.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/LeapSecond.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/PP.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/PPExtra.pm
-* /usr/lib/perl5/5.38/site_perl/DateTime/Types.pm
+* /usr/lib/perl5/5.40/site_perl/auto/DateTime/DateTime.so
+* /usr/lib/perl5/5.40/site_perl/DateTime.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/Conflicts.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/Duration.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/Helpers.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/Infinite.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/LeapSecond.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/PP.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/PPExtra.pm
+* /usr/lib/perl5/5.40/site_perl/DateTime/Types.pm
 * /usr/share/doc/perl-datetime-1.65/CREDITS
 * /usr/share/doc/perl-datetime-1.65/INSTALL
 * /usr/share/doc/perl-datetime-1.65/LICENSE

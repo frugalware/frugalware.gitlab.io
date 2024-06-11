@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-net-dns-resolver-programmable 0.009-5"
-version = "0.009-5"
+title = "perl-net-dns-resolver-programmable 0.009-6"
+version = "0.009-6"
 description = "programmable DNS resolver class for offline emulation of DNS"
-date = "2024-01-10T08:52:57"
+date = "2024-06-11T13:13:28"
 aliases = "/packages/218571"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "17340"
-usize = "44508"
-sha1sum = "d7d6df1c7b741aef0ae336137b167e54e2c41e56"
+size = "17392"
+usize = "44510"
+sha1sum = "2ead71db7edbd58944d25eaa6647be7dbf7fa434"
 depends = "['perl>=5.34.0', 'perl-net-dns']"
 +++
 ### Description: 

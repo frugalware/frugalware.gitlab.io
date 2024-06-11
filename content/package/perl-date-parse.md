@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-date-parse 2.33-2"
-version = "2.33-2"
+title = "perl-date-parse 2.33-3"
+version = "2.33-3"
 description = "Parse date strings into time values"
-date = "2023-09-24T19:30:42"
+date = "2024-06-11T13:04:36"
 aliases = "/packages/3763"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "34044"
-usize = "98809"
-sha1sum = "63ec68d9bb0f9bfb4b9c7f38b873f23154788cc3"
+size = "34048"
+usize = "98824"
+sha1sum = "ca09861c3c9ee203a52a3dbdd812471505e96c94"
 depends = "['perl>=5.28.2']"
 reverse_depends = "['perl-mailtools']"
 +++

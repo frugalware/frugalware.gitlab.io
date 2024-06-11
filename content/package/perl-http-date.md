@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-http-date 6.06-1"
-version = "6.06-1"
+title = "perl-http-date 6.06-2"
+version = "6.06-2"
 description = "HTTP::Date - date conversion routines."
-date = "2023-12-04T13:35:25"
+date = "2024-06-11T13:09:27"
 aliases = "/packages/200372"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "16756"
-usize = "43826"
-sha1sum = "6be8277b426636eae51eef6d50f8640fbde20af6"
+size = "16816"
+usize = "43827"
+sha1sum = "6baebf1b447bcd8fd02ec7342d4e6ae2b44cae1b"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-file-listing', 'perl-http-cookies', 'perl-http-message']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-file-sharedir 1.118-2"
-version = "1.118-2"
+title = "perl-file-sharedir 1.118-3"
+version = "1.118-3"
 description = "Locate per-dist and per-module shared files"
-date = "2023-02-21T14:06:35"
+date = "2024-06-11T12:45:47"
 aliases = "/packages/219150"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "19400"
-usize = "54476"
-sha1sum = "0f3b7e344486ca12f08ddbce7fa12ea3224277ef"
+size = "19156"
+usize = "53552"
+sha1sum = "42dd9153aa62de15f3907d1590d340d11e6837e7"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-datetime-locale']"
 +++

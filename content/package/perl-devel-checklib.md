@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-devel-checklib 1.16-1"
-version = "1.16-1"
+title = "perl-devel-checklib 1.16-2"
+version = "1.16-2"
 description = "check that a library is available"
-date = "2023-02-21T14:12:57"
+date = "2024-06-11T12:27:22"
 aliases = "/packages/219082"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "15924"
-usize = "32107"
-sha1sum = "e0a3f5854da3ac14f4ccb055e686786663198cdf"
+size = "15396"
+usize = "30995"
+sha1sum = "0a904f5e1d95cf05ae1a9c9f7288504fe5ff1abd"
 depends = "['perl>=5.34.0']"
 +++
 ### Description: 

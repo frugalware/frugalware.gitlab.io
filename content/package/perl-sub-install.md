@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-sub-install 0.929-1"
-version = "0.929-1"
+title = "perl-sub-install 0.929-2"
+version = "0.929-2"
 description = "Install subroutines into packages easily"
-date = "2023-02-21T14:24:10"
+date = "2024-06-11T12:50:29"
 aliases = "/packages/220183"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "14492"
-usize = "36011"
-sha1sum = "abe5d79aa88735745ffc85de430c0fc97a718fd6"
+size = "14284"
+usize = "35335"
+sha1sum = "88595190603e8ce940ba0395f938d0b680945503"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-data-optlist', 'perl-sub-exporter']"
 +++

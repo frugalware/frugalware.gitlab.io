@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "foomatic-db-engine 4.0.13-2"
-version = "4.0.13-2"
+title = "foomatic-db-engine 4.0.13-3"
+version = "4.0.13-3"
 description = "Foomatic's database engine generates PPD files from the data in Foomatic's XML database."
-date = "2024-01-14T16:05:50"
+date = "2024-06-11T13:14:00"
 aliases = "/packages/168919"
 categories = ['apps-extra']
 upstreamurl = "http://www.linuxfoundation.org/collaborate/workgroups/openprinting/databasefoomatic"
 arch = "x86_64"
-size = "240740"
-usize = "1001840"
-sha1sum = "db49de0d752772859fa955e34dcdb027103b7dae"
+size = "242644"
+usize = "997040"
+sha1sum = "b2829c83e94d518bb301dfcf76eb1097a2819431"
 depends = "['libxml2', 'perl', 'xz']"
 reverse_depends = "['hplip-driver']"
 +++

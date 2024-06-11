@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-test-fatal 0.017-1"
-version = "0.017-1"
+title = "perl-test-fatal 0.017-2"
+version = "0.017-2"
 description = "Incredibly simple helpers for testing code with exceptions"
-date = "2023-02-21T14:28:32"
+date = "2024-06-11T12:48:13"
 aliases = "/packages/153573"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "15604"
-usize = "38894"
-sha1sum = "12f391d6bca962db3d487ac84410c1f11bc9ba38"
+size = "15376"
+usize = "38212"
+sha1sum = "8f2fec92a02201c90d94ca38bb7c9b282cb7ebbe"
 depends = "['perl>=5.34.0']"
 +++
 ### Description: 

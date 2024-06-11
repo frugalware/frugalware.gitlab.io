@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-xml-namespacesupport 1.12-5"
-version = "1.12-5"
+title = "perl-xml-namespacesupport 1.12-6"
+version = "1.12-6"
 description = "a simple generic namespace support class"
-date = "2022-12-19T20:39:20"
+date = "2024-06-11T12:42:09"
 aliases = "/packages/10634"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "17400"
-usize = "43746"
-sha1sum = "dbaa5517a8d23a95c5672e926f849f844e6f967d"
+size = "17180"
+usize = "43008"
+sha1sum = "55a9578d501e6cdd8433c00694a4bd27d5903594"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-xml-sax', 'perl-xml-sax-expat']"
 +++

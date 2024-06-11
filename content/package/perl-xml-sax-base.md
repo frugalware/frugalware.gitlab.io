@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-xml-sax-base 1.09-5"
-version = "1.09-5"
+title = "perl-xml-sax-base 1.09-6"
+version = "1.09-6"
 description = "Base class SAX Drivers and Filters"
-date = "2022-12-19T20:40:59"
+date = "2024-06-11T12:49:04"
 aliases = "/packages/217603"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "23320"
-usize = "175445"
-sha1sum = "b97bda2e4b2c318c57c99d3f7d45704415b738c4"
+size = "22728"
+usize = "174027"
+sha1sum = "0ef06d1688a34781889d4174c3062b7387ca18f3"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-xml-sax']"
 +++

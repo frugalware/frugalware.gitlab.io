@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-xml-writer 0.900-1"
-version = "0.900-1"
+title = "perl-xml-writer 0.900-2"
+version = "0.900-2"
 description = "Perl extension for writing XML documents."
-date = "2023-02-21T14:29:33"
+date = "2024-06-11T12:44:50"
 aliases = "/packages/217580"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "20976"
-usize = "53769"
-sha1sum = "f8e975fbbc0b00d76ba5c5d12b589509538ed516"
+size = "20728"
+usize = "53010"
+sha1sum = "7f1661e42da6c006e3d900f1456e20f165e9df5f"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['docbook2x', 'hwinfo']"
 +++

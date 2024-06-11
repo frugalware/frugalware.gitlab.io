@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2037888"
 usize = "3694353"
 sha1sum = "a060345f3642685f9cf95d8cb93070e25c42ea81"
-depends = "['perl-gettext', 'perl-pod-parser', 'perl-sgmlspm', 'perl-syntax-keyword-try', 'perl-termreadkey', 'perl-text-wrapi18n', 'perl-unicode-linebreak', 'perl-yaml-tiny']"
+depends = "['perl-gettext', 'perl-pod-parser', 'perl-sgmlspm', 'perl-syntax-keyword-try', 'perl-text-wrapi18n', 'perl-unicode-linebreak', 'perl-yaml-tiny']"
 +++
 ### Description: 
 Eases translation work, and in particular the maintenance of translations.

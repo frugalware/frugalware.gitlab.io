@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-xml-sax 1.02-2"
-version = "1.02-2"
+title = "perl-xml-sax 1.02-3"
+version = "1.02-3"
 description = "Simple API for XML"
-date = "2022-12-19T20:49:37"
+date = "2024-06-11T12:48:41"
 aliases = "/packages/10638"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "56256"
-usize = "155933"
-sha1sum = "8e93890b1ff425d559b29d7527fe317358076344"
+size = "43148"
+usize = "120353"
+sha1sum = "3205c23b189cf0f6f3d31b9cadcd1e0c82d051ef"
 depends = "['perl>=5.34.0', 'perl-xml-namespacesupport>=1.12-2', 'perl-xml-sax-base>=1.09-2']"
 reverse_depends = "['perl-xml-sax-expat']"
 +++
@@ -38,13 +38,9 @@ Simple API for XML
 * /usr/lib/perl5/site_perl/XML/SAX/PurePerl/Reader/URI.pm
 * /usr/lib/perl5/site_perl/XML/SAX/PurePerl/UnicodeExt.pm
 * /usr/lib/perl5/site_perl/XML/SAX/PurePerl/XMLDecl.pm
-* /usr/share/doc/perl-xml-sax-1.02/COPYING
-* /usr/share/doc/perl-xml-sax-1.02/INSTALL
 * /usr/share/doc/perl-xml-sax-1.02/LICENSE
 * /usr/share/doc/perl-xml-sax-1.02/MANIFEST
 * /usr/share/doc/perl-xml-sax-1.02/README
-* /usr/share/doc/perl-xml-sax-1.02/README.Frugalware
-* /usr/share/doc/perl-xml-sax-1.02/README.md
 * /usr/share/man/man3/XML::SAX.3perl.gz
 * /usr/share/man/man3/XML::SAX::DocumentLocator.3perl.gz
 * /usr/share/man/man3/XML::SAX::Intro.3perl.gz

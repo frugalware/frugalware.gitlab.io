@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-yaml-tiny 1.74-1"
-version = "1.74-1"
+title = "perl-yaml-tiny 1.74-2"
+version = "1.74-2"
 description = "Read/Write YAML files with as little code as possible"
-date = "2023-09-24T15:27:22"
+date = "2024-06-11T12:59:08"
 aliases = "/packages/219556"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "28248"
-usize = "72953"
-sha1sum = "ffbcfc27d2fa1833254b3fe5b989b74d308c077e"
+size = "28308"
+usize = "72955"
+sha1sum = "0fca4264e24c3254dd04a8897e0c5c6275ebc5f4"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-module-install', 'po4a']"
 +++

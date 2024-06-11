@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-crypt-openssl-guess 0.15-2"
-version = "0.15-2"
+title = "perl-crypt-openssl-guess 0.15-3"
+version = "0.15-3"
 description = "Guess OpenSSL include path"
-date = "2023-09-24T19:28:57"
+date = "2024-06-11T13:03:33"
 aliases = "/packages/219650"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "12296"
-usize = "32006"
-sha1sum = "7b35543583a9e682a2a620b1706b178077d61d1d"
+size = "12360"
+usize = "32008"
+sha1sum = "a115cb25071cc490c6fde603296ac01c231f0528"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-crypt-openssl-rsa']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-canary-stability 2013-4"
-version = "2013-4"
+title = "perl-canary-stability 2013-5"
+version = "2013-5"
 description = "canary to check perl compatibility for schmorp's modules"
-date = "2023-09-24T19:25:05"
+date = "2024-06-11T13:00:03"
 aliases = "/packages/218569"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "6084"
-usize = "10315"
-sha1sum = "7d7ff00f2d5c5fedb277699db4a86b0db70b53a9"
+size = "6148"
+usize = "10316"
+sha1sum = "49a87104b81c84ba1cc1b830a90d1663862c10b8"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-convert-uulib', 'perl-json-xs']"
 +++
