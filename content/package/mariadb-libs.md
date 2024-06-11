@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mariadb-libs 11.3.2-3"
-version = "11.3.2-3"
+title = "mariadb-libs 11.4.2-1"
+version = "11.4.2-1"
 description = "Mariadb library."
-date = "2024-05-15T20:33:06"
+date = "2024-06-11T09:45:01"
 aliases = "/packages/219863"
 categories = ['lib']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "6241984"
-usize = "30103691"
-sha1sum = "96adf7a9728feb333c0741d0823d0c6d0069b4ee"
+size = "6348104"
+usize = "30228665"
+sha1sum = "209d8362e2905ab3b9df4b40e12a50d38eb8038c"
 depends = "['bzip2', 'libaio', 'liburing', 'lz4', 'lzo', 'openssl>=3.0.7', 'xz', 'zlib']"
 reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'perl-dbd-mysql', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
 +++
@@ -35,7 +35,6 @@ Mariadb library.
 * /usr/include/mysql/mysql.h
 * /usr/include/mysql/mysql/client_plugin.h
 * /usr/include/mysql/mysql/plugin_auth.h
-* /usr/include/mysql/mysql/plugin_auth_common.h
 * /usr/include/mysql/mysqld_error.h
 * /usr/include/mysql/mysql_com.h
 * /usr/include/mysql/mysql_version.h
@@ -98,6 +97,7 @@ Mariadb library.
 * /usr/include/mysql/server/mysql/service_my_crypt.h
 * /usr/include/mysql/server/mysql/service_my_print_error.h
 * /usr/include/mysql/server/mysql/service_my_snprintf.h
+* /usr/include/mysql/server/mysql/service_print_check_msg.h
 * /usr/include/mysql/server/mysql/service_progress_report.h
 * /usr/include/mysql/server/mysql/service_sha1.h
 * /usr/include/mysql/server/mysql/service_sha2.h
@@ -184,6 +184,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/grant.h
 * /usr/include/mysql/server/private/group_by_handler.h
 * /usr/include/mysql/server/private/gstream.h
+* /usr/include/mysql/server/private/gtid_index.h
 * /usr/include/mysql/server/private/handler.h
 * /usr/include/mysql/server/private/handle_connections_win.h
 * /usr/include/mysql/server/private/hash.h
@@ -241,7 +242,6 @@ Mariadb library.
 * /usr/include/mysql/server/private/mysqld_default_groups.h
 * /usr/include/mysql/server/private/mysqld_suffix.h
 * /usr/include/mysql/server/private/mysys_err.h
-* /usr/include/mysql/server/private/my_alarm.h
 * /usr/include/mysql/server/private/my_apc.h
 * /usr/include/mysql/server/private/my_atomic.h
 * /usr/include/mysql/server/private/my_atomic_wrapper.h
@@ -442,7 +442,6 @@ Mariadb library.
 * /usr/include/mysql/server/private/threadpool_generic.h
 * /usr/include/mysql/server/private/threadpool_winsockets.h
 * /usr/include/mysql/server/private/thread_cache.h
-* /usr/include/mysql/server/private/thr_alarm.h
 * /usr/include/mysql/server/private/thr_lock.h
 * /usr/include/mysql/server/private/thr_malloc.h
 * /usr/include/mysql/server/private/thr_timer.h
@@ -457,7 +456,6 @@ Mariadb library.
 * /usr/include/mysql/server/private/waiting_threads.h
 * /usr/include/mysql/server/private/welcome_copyright_notice.h
 * /usr/include/mysql/server/private/winservice.h
-* /usr/include/mysql/server/private/win_tzname_data.h
 * /usr/include/mysql/server/private/wqueue.h
 * /usr/include/mysql/server/private/wsrep.h
 * /usr/include/mysql/server/private/wsrep_allowlist_service.h

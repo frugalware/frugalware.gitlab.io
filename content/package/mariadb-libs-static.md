@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mariadb-libs-static 11.3.2-3"
-version = "11.3.2-3"
+title = "mariadb-libs-static 11.4.2-1"
+version = "11.4.2-1"
 description = "Static files for mariadb"
-date = "2024-05-15T20:33:06"
+date = "2024-06-11T09:45:01"
 aliases = "/packages/219924"
 categories = ['devel-extra']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "176942636"
-usize = "336748879"
-sha1sum = "d622e9f2c5b8ea337fed734107d4cad33f5a4d2d"
+size = "177585904"
+usize = "337901411"
+sha1sum = "e58ad84c8e118ffe7c9924fd225dcde5a07cc218"
 depends = "[]"
 +++
 ### Description: 
