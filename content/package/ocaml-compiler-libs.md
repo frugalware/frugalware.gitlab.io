@@ -12,7 +12,7 @@ size = "41760024"
 usize = "75221387"
 sha1sum = "98199fbea773a1bde7365e6e06d437202caaac1c"
 depends = "['ocaml']"
-reverse_depends = "['ocaml-compiler-libs-repackaged', 'opam']"
+reverse_depends = "['ocaml-compiler-libs-repackaged', 'ocaml-graphics', 'opam']"
 +++
 ### Description: 
 Several modules used internally by the OCaml compiler

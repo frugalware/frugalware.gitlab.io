@@ -12,6 +12,7 @@ size = "12804736"
 usize = "39697375"
 sha1sum = "72f770c2899c6ab29bf0dfed059b42b360471a6b"
 depends = "['ocaml>=5.2.0']"
+reverse_depends = "['ocaml-graphics']"
 +++
 ### Description: 
 A composable build system for OCaml (formerly jbuilder)
