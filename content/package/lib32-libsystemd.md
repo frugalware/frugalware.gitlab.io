@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libsystemd 255.7-1"
-version = "255.7-1"
+title = "lib32-libsystemd 256-1"
+version = "256-1"
 description = "systemd libs ( 32bit )"
-date = "2024-05-28T08:12:45"
+date = "2024-06-12T09:25:22"
 aliases = "/packages/217739"
 categories = ['lib32-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "2469448"
-usize = "8965745"
-sha1sum = "e7711206acedb754a7400008da058cadd43ce980"
+size = "2606544"
+usize = "9267517"
+sha1sum = "1abcab65b9bfb7457d39fc10cdaddc1c92d811d6"
 depends = "['glibc>=2.34', 'lib32-glib2', 'lib32-gnutls', 'lib32-libblkid>=2.28.2-4', 'lib32-libcap>=2.25-5', 'lib32-libgcrypt>=1.7.3-3', 'lib32-libgpg-error>=1.24-3', 'lib32-libidn2', 'lib32-libuuid>=2.28.2-4', 'lib32-libxcrypt', 'lib32-openssl', 'lib32-p11-kit', 'lib32-util-linux', 'lib32-xfsprogs-acl', 'lib32-xz', 'lib32-zstd', 'libgcc>=11.2']"
 reverse_depends = "['lib32-avahi', 'lib32-libcups', 'lib32-modemmanager', 'lib32-p11-kit', 'lib32-pam', 'lib32-pipewire', 'lib32-polkit', 'lib32-v4l-utils', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++
@@ -38,8 +38,8 @@ systemd libs ( 32bit )
 * /usr/lib32/libnss_systemd.so.2
 * /usr/lib32/libsystemd.so
 * /usr/lib32/libsystemd.so.0
-* /usr/lib32/libsystemd.so.0.38.0
+* /usr/lib32/libsystemd.so.0.39.0
 * /usr/lib32/pkgconfig/libsystemd.pc
 * /usr/lib32/pkgconfig/systemd.pc
-* /usr/lib32/systemd/libsystemd-core-255.so
-* /usr/lib32/systemd/libsystemd-shared-255.so
+* /usr/lib32/systemd/libsystemd-core-256.so
+* /usr/lib32/systemd/libsystemd-shared-256.so

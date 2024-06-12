@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyalsa 1.2.7-3"
-version = "1.2.7-3"
+title = "pyalsa 1.2.12-1"
+version = "1.2.12-1"
 description = "Python bindings for ALSA lib"
-date = "2023-10-11T21:09:19"
+date = "2024-06-12T09:14:24"
 aliases = "/packages/220954"
 categories = ['lib']
 upstreamurl = "https://alsa-project.org"
 arch = "x86_64"
-size = "44640"
-usize = "235185"
-sha1sum = "350a799bfb979e6466cc73e9b1a1bc5dbc079ea4"
+size = "45224"
+usize = "197914"
+sha1sum = "151764fc39e28173f281c14c16f5dcf821b87fe8"
 depends = "['alsa-lib', 'python3']"
 reverse_depends = "['alsa-tools']"
 +++
