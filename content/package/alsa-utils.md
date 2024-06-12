@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-utils 1.2.11-1"
-version = "1.2.11-1"
+title = "alsa-utils 1.2.12-1"
+version = "1.2.12-1"
 description = "An alternative implementation of Linux sound support"
-date = "2024-02-03T12:42:39"
+date = "2024-06-12T09:10:55"
 aliases = "/packages/2913"
 categories = ['multimedia']
 upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "1117152"
-usize = "2536910"
-sha1sum = "00b01b6dea1ae863722825764e66ab0759443fa6"
+size = "1124768"
+usize = "2453273"
+sha1sum = "901d24a7ead5b848fb3fc7c15c6354269b981eb0"
 depends = "['alsa-lib>=1.1.4', 'libsamplerate>=0.1.8-3', 'ncurses>=6.0-12']"
 reverse_depends = "['lumina-desktop']"
 +++
@@ -35,6 +35,7 @@ An alternative implementation of Linux sound support
 * /usr/bin/arecordmidi
 * /usr/bin/aseqdump
 * /usr/bin/aseqnet
+* /usr/bin/aseqsend
 * /usr/bin/axfer
 * /usr/bin/iecset
 * /usr/bin/nhlt-dmic-info
@@ -52,11 +53,11 @@ An alternative implementation of Linux sound support
 * /usr/share/alsa/init/help
 * /usr/share/alsa/init/info
 * /usr/share/alsa/init/test
-* /usr/share/doc/alsa-utils-1.2.11/ChangeLog
-* /usr/share/doc/alsa-utils-1.2.11/COPYING
-* /usr/share/doc/alsa-utils-1.2.11/INSTALL
-* /usr/share/doc/alsa-utils-1.2.11/README.md
-* /usr/share/doc/alsa-utils-1.2.11/TODO
+* /usr/share/doc/alsa-utils-1.2.12/ChangeLog
+* /usr/share/doc/alsa-utils-1.2.12/COPYING
+* /usr/share/doc/alsa-utils-1.2.12/INSTALL
+* /usr/share/doc/alsa-utils-1.2.12/README.md
+* /usr/share/doc/alsa-utils-1.2.12/TODO
 * /usr/share/locale/de/LC_MESSAGES/alsa-utils.mo
 * /usr/share/locale/eu/LC_MESSAGES/alsa-utils.mo
 * /usr/share/locale/fr/LC_MESSAGES/alsa-utils.mo
@@ -82,6 +83,7 @@ An alternative implementation of Linux sound support
 * /usr/share/man/man1/arecordmidi.1.gz
 * /usr/share/man/man1/aseqdump.1.gz
 * /usr/share/man/man1/aseqnet.1.gz
+* /usr/share/man/man1/aseqsend.1.gz
 * /usr/share/man/man1/axfer-list.1.gz
 * /usr/share/man/man1/axfer-transfer.1.gz
 * /usr/share/man/man1/axfer.1.gz

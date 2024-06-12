@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "alsa-plugin-pulseaudio 1.2.7.1-4"
-version = "1.2.7.1-4"
+title = "alsa-plugin-pulseaudio 1.2.12-1"
+version = "1.2.12-1"
 description = "ALSA plugin for pulseaudio."
-date = "2024-06-05T13:31:46"
+date = "2024-06-12T09:05:22"
 aliases = "/packages/153064"
 categories = ['xmultimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "18124"
+size = "18132"
 usize = "67256"
-sha1sum = "ba40eb7802fb82e382c97f609a442545dd408c14"
-depends = "['alsa-plugins>=1.2.7.1', 'libpulse>=9.0-2']"
+sha1sum = "70f32aff4c7ec94a71ace6abb203d7ee461de2ea"
+depends = "['alsa-plugins>=1.2.12', 'libpulse>=9.0-2']"
 +++
 ### Description: 
 ALSA plugin for pulseaudio.

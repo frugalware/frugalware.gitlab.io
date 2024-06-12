@@ -18,10 +18,10 @@ reverse_depends = "['alsa-tools']"
 Python bindings for ALSA lib
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pyalsa-1.2.7-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pyalsa-1.2.12-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pyalsa-1.2.12-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pyalsa-1.2.12-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pyalsa-1.2.12-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/pyalsa/alsacard.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pyalsa/alsacontrol.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/pyalsa/alsahcontrol.cpython-312-x86_64-linux-gnu.so

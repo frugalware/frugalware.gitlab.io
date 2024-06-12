@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-lib 1.2.11-2"
-version = "1.2.11-2"
+title = "alsa-lib 1.2.12-1"
+version = "1.2.12-1"
 description = "An alternative implementation of Linux sound support"
-date = "2024-05-16T05:08:55"
+date = "2024-06-12T08:53:39"
 aliases = "/packages/2345"
 categories = ['multimedia']
 upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "502080"
-usize = "1901880"
-sha1sum = "847125f0bb4c710c68f9597619deca1ef6b44cc4"
+size = "509636"
+usize = "1909177"
+sha1sum = "e156c8ff5d6ac730e7dbabb9836f6c8d6a842894"
 depends = "['alsa-topology-conf', 'alsa-ucm-conf', 'glibc>=2.34']"
 reverse_depends = "['allegro', 'alsa-plugins', 'alsa-tools', 'alsa-utils', 'bluez', 'cef', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'gst1-plugins-base-alsa', 'jack2', 'libao', 'libcanberra-alsa', 'libpulse', 'libsndfile', 'lirc', 'mlt', 'pcaudiolib', 'portaudio', 'portmidi', 'pyalsa', 'qemu', 'qt5-webengine', 'qv4l2', 'sphinxbase', 'spice-vdagent', 'stepmania', 'teams', 'tuxguitar', 'v4l-utils', 'virtualbox', 'vlc', 'volumeicon', 'whalebird', 'wildmidi', 'xcfa', 'xonotic']"
 +++
@@ -156,8 +156,8 @@ An alternative implementation of Linux sound support
 * /usr/share/alsa/pcm/surround50.conf
 * /usr/share/alsa/pcm/surround51.conf
 * /usr/share/alsa/pcm/surround71.conf
-* /usr/share/doc/alsa-lib-1.2.11/ChangeLog
-* /usr/share/doc/alsa-lib-1.2.11/COPYING
-* /usr/share/doc/alsa-lib-1.2.11/INSTALL
-* /usr/share/doc/alsa-lib-1.2.11/README.md
-* /usr/share/doc/alsa-lib-1.2.11/TODO
+* /usr/share/doc/alsa-lib-1.2.12/ChangeLog
+* /usr/share/doc/alsa-lib-1.2.12/COPYING
+* /usr/share/doc/alsa-lib-1.2.12/INSTALL
+* /usr/share/doc/alsa-lib-1.2.12/README.md
+* /usr/share/doc/alsa-lib-1.2.12/TODO

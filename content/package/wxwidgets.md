@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wxwidgets 3.2.2.1-3"
-version = "3.2.2.1-3"
+title = "wxwidgets 3.2.5-1"
+version = "3.2.5-1"
 description = "GTK+ implementation of wxWidgets API for GUI (Development Release)"
-date = "2023-09-29T09:11:39"
+date = "2024-06-12T08:41:45"
 aliases = "/packages/217795"
 categories = ['xlib-extra']
 upstreamurl = "http://www.wxwidgets.org/"
 arch = "x86_64"
-size = "6750964"
-usize = "31496715"
-sha1sum = "d9cb9d53866bb7f686bf61565b143b746704ea14"
-depends = "['gspell', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'sdl>=1.2.15-3', 'webkit-gtk3>=2.42.1']"
+size = "6974636"
+usize = "31776334"
+sha1sum = "f16c92ce274b0c3501129e4536733c1783daace3"
+depends = "['gspell', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'sdl>=1.2.15-3', 'webkit-gtk3>=2.44.1']"
 reverse_depends = "['erlang', 'kicad', 'scummvm-tools', 'wxmaxima']"
 +++
 ### Description: 
@@ -1532,54 +1532,54 @@ GTK+ implementation of wxWidgets API for GUI (Development Release)
 * /usr/lib/cmake/wxWidgets/wxWidgetsTargets.cmake
 * /usr/lib/libwx_baseu-3.2.so
 * /usr/lib/libwx_baseu-3.2.so.0
-* /usr/lib/libwx_baseu-3.2.so.0.2.1
+* /usr/lib/libwx_baseu-3.2.so.0.2.3
 * /usr/lib/libwx_baseu_net-3.2.so
 * /usr/lib/libwx_baseu_net-3.2.so.0
-* /usr/lib/libwx_baseu_net-3.2.so.0.2.1
+* /usr/lib/libwx_baseu_net-3.2.so.0.2.3
 * /usr/lib/libwx_baseu_xml-3.2.so
 * /usr/lib/libwx_baseu_xml-3.2.so.0
-* /usr/lib/libwx_baseu_xml-3.2.so.0.2.1
+* /usr/lib/libwx_baseu_xml-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_adv-3.2.so
 * /usr/lib/libwx_gtk3u_adv-3.2.so.0
-* /usr/lib/libwx_gtk3u_adv-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_adv-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_aui-3.2.so
 * /usr/lib/libwx_gtk3u_aui-3.2.so.0
-* /usr/lib/libwx_gtk3u_aui-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_aui-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_core-3.2.so
 * /usr/lib/libwx_gtk3u_core-3.2.so.0
-* /usr/lib/libwx_gtk3u_core-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_core-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_gl-3.2.so
 * /usr/lib/libwx_gtk3u_gl-3.2.so.0
-* /usr/lib/libwx_gtk3u_gl-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_gl-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_html-3.2.so
 * /usr/lib/libwx_gtk3u_html-3.2.so.0
-* /usr/lib/libwx_gtk3u_html-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_html-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_media-3.2.so
 * /usr/lib/libwx_gtk3u_media-3.2.so.0
-* /usr/lib/libwx_gtk3u_media-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_media-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_propgrid-3.2.so
 * /usr/lib/libwx_gtk3u_propgrid-3.2.so.0
-* /usr/lib/libwx_gtk3u_propgrid-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_propgrid-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_qa-3.2.so
 * /usr/lib/libwx_gtk3u_qa-3.2.so.0
-* /usr/lib/libwx_gtk3u_qa-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_qa-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_ribbon-3.2.so
 * /usr/lib/libwx_gtk3u_ribbon-3.2.so.0
-* /usr/lib/libwx_gtk3u_ribbon-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_ribbon-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_richtext-3.2.so
 * /usr/lib/libwx_gtk3u_richtext-3.2.so.0
-* /usr/lib/libwx_gtk3u_richtext-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_richtext-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_stc-3.2.so
 * /usr/lib/libwx_gtk3u_stc-3.2.so.0
-* /usr/lib/libwx_gtk3u_stc-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_stc-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_webview-3.2.so
 * /usr/lib/libwx_gtk3u_webview-3.2.so.0
-* /usr/lib/libwx_gtk3u_webview-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_webview-3.2.so.0.2.3
 * /usr/lib/libwx_gtk3u_xrc-3.2.so
 * /usr/lib/libwx_gtk3u_xrc-3.2.so.0
-* /usr/lib/libwx_gtk3u_xrc-3.2.so.0.2.1
+* /usr/lib/libwx_gtk3u_xrc-3.2.so.0.2.3
 * /usr/lib/wx/3.2/web-extensions/webkit2_extu-3.2.so
 * /usr/lib/wx/config/gtk3-unicode-3.2
 * /usr/lib/wx/include/gtk3-unicode-3.2/wx/setup.h
-* /usr/share/doc/wxwidgets-3.2.2.1/README-GIT.md
-* /usr/share/doc/wxwidgets-3.2.2.1/README.md
+* /usr/share/doc/wxwidgets-3.2.5/README-GIT.md
+* /usr/share/doc/wxwidgets-3.2.5/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-plugins 1.2.7.1-4"
-version = "1.2.7.1-4"
+title = "alsa-plugins 1.2.12-1"
+version = "1.2.12-1"
 description = "Various plugins for ALSA."
-date = "2024-06-05T13:31:46"
+date = "2024-06-12T09:05:22"
 aliases = "/packages/153061"
 categories = ['multimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "38044"
+size = "38112"
 usize = "152716"
-sha1sum = "c1ada43b49e704b39f46e09c741ef7c1875a6c38"
+sha1sum = "65a8f1d22e8cadfef9c2477be0838513d6af7b0e"
 depends = "['alsa-lib>=1.1.3']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'alsa-plugin-jack', 'alsa-plugin-pulseaudio', 'alsa-plugin-samplerate', 'alsa-plugin-speex']"
 +++
@@ -35,5 +35,5 @@ Various plugins for ALSA.
 * /usr/share/alsa/alsa.conf.d/60-upmix.conf
 * /usr/share/alsa/alsa.conf.d/60-vdownmix.conf
 * /usr/share/alsa/alsa.conf.d/98-usb-stream.conf
-* /usr/share/doc/alsa-plugins-1.2.7.1/COPYING
-* /usr/share/doc/alsa-plugins-1.2.7.1/COPYING.GPL
+* /usr/share/doc/alsa-plugins-1.2.12/COPYING
+* /usr/share/doc/alsa-plugins-1.2.12/COPYING.GPL

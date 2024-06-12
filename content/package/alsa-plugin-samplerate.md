@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "alsa-plugin-samplerate 1.2.7.1-4"
-version = "1.2.7.1-4"
+title = "alsa-plugin-samplerate 1.2.12-1"
+version = "1.2.12-1"
 description = "ALSA plugin for samplerate."
-date = "2024-06-05T13:31:46"
+date = "2024-06-12T09:05:22"
 aliases = "/packages/153066"
 categories = ['multimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "7500"
+size = "7548"
 usize = "14767"
-sha1sum = "d4cd5b865bd2e34ee871e6bcaa037cd9a8d50f89"
-depends = "['alsa-plugins>=1.2.7.1', 'libsamplerate>=0.1.8-2']"
+sha1sum = "c7a7b6e3ef982f5ad21e63d4174fbdb58b274d9e"
+depends = "['alsa-plugins>=1.2.12', 'libsamplerate>=0.1.8-2']"
 +++
 ### Description: 
 ALSA plugin for samplerate.

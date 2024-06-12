@@ -1,36 +1,35 @@
 +++
 draft = false
-title = "nm-openconnect 1.2.8-1"
-version = "1.2.8-1"
+title = "nm-openconnect 1.2.10-1"
+version = "1.2.10-1"
 description = "Open Cisco AnyConnect VPN plugin for Network Manager"
-date = "2023-03-13T15:52:15"
+date = "2024-06-12T08:37:22"
 aliases = "/packages/218620"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "506876"
-usize = "3082273"
-sha1sum = "90783ecfe7d31b5b763470584b9480181b8a859e"
-depends = "['gcr-1', 'libsecret>=0.18.5', 'nm-connection-editor>=1.1.92', 'openconnect']"
+size = "538748"
+usize = "3204125"
+sha1sum = "9584ecc1e4836a401cb3924ebfcf08fb40a5502b"
+depends = "['gcr-1', 'libsecret>=0.18.5', 'nm-connection-editor>=1.1.92', 'openconnect', 'webkit-gtk3']"
 +++
 ### Description: 
 Open Cisco AnyConnect VPN plugin for Network Manager
 
 ### Files: 
-* /etc/dbus-1/system.d/nm-openconnect-service.conf
 * /usr/lib/NetworkManager/libnm-vpn-plugin-openconnect-editor.so
 * /usr/lib/NetworkManager/libnm-vpn-plugin-openconnect.so
 * /usr/lib/NetworkManager/VPN/nm-openconnect-service.name
 * /usr/lib/nm-openconnect/nm-openconnect-auth-dialog
 * /usr/lib/nm-openconnect/nm-openconnect-service
 * /usr/lib/nm-openconnect/nm-openconnect-service-openconnect-helper
-* /usr/share/appdata/network-manager-openconnect.metainfo.xml
-* /usr/share/doc/nm-openconnect-1.2.8/AUTHORS
-* /usr/share/doc/nm-openconnect-1.2.8/ChangeLog
-* /usr/share/doc/nm-openconnect-1.2.8/COPYING
-* /usr/share/doc/nm-openconnect-1.2.8/INSTALL
-* /usr/share/doc/nm-openconnect-1.2.8/NEWS
-* /usr/share/doc/nm-openconnect-1.2.8/README
+* /usr/share/dbus-1/system.d/nm-openconnect-service.conf
+* /usr/share/doc/nm-openconnect-1.2.10/AUTHORS
+* /usr/share/doc/nm-openconnect-1.2.10/ChangeLog
+* /usr/share/doc/nm-openconnect-1.2.10/COPYING
+* /usr/share/doc/nm-openconnect-1.2.10/INSTALL
+* /usr/share/doc/nm-openconnect-1.2.10/NEWS
+* /usr/share/doc/nm-openconnect-1.2.10/README
 * /usr/share/locale/ar/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/as/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/bg/LC_MESSAGES/NetworkManager-openconnect.mo
@@ -57,6 +56,7 @@ Open Cisco AnyConnect VPN plugin for Network Manager
 * /usr/share/locale/hu/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/id/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/it/LC_MESSAGES/NetworkManager-openconnect.mo
+* /usr/share/locale/ka/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/kn/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/ko/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/lt/LC_MESSAGES/NetworkManager-openconnect.mo
@@ -86,3 +86,4 @@ Open Cisco AnyConnect VPN plugin for Network Manager
 * /usr/share/locale/zh_CN/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/NetworkManager-openconnect.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/NetworkManager-openconnect.mo
+* /usr/share/metainfo/network-manager-openconnect.metainfo.xml

@@ -29,9 +29,9 @@ Tablet Information Client Library
 * /usr/lib/pkgconfig/libwacom.pc
 * /usr/lib/udev/hwdb.d/65-libwacom.hwdb
 * /usr/lib/udev/rules.d/65-libwacom.rules
-* /usr/share/doc/libwacom-2.12.0/COPYING
-* /usr/share/doc/libwacom-2.12.0/NEWS
-* /usr/share/doc/libwacom-2.12.0/README.md
+* /usr/share/doc/libwacom-2.12.1/COPYING
+* /usr/share/doc/libwacom-2.12.1/NEWS
+* /usr/share/doc/libwacom-2.12.1/README.md
 * /usr/share/libwacom/bamboo-0fg-m-p-alt.tablet
 * /usr/share/libwacom/bamboo-0fg-s-p-alt.tablet
 * /usr/share/libwacom/bamboo-0fg-s-p.tablet

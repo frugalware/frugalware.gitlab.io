@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alsa-ucm-conf 1.2.11-1"
-version = "1.2.11-1"
+title = "alsa-ucm-conf 1.2.12-1"
+version = "1.2.12-1"
 description = "ALSA Use Case Manager configuration (and topologies)"
-date = "2024-02-03T12:21:11"
+date = "2024-06-12T09:07:31"
 aliases = "/packages/220051"
 categories = ['multimedia']
 upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "56896"
-usize = "401134"
-sha1sum = "c28b5cec01334d62d192c1e273c77ae3fd712ad4"
+size = "60452"
+usize = "417609"
+sha1sum = "a22ae0655f470e5770728be8c80569f44a636322"
 depends = "['glibc>=2.34']"
 reverse_depends = "['alsa-lib']"
 +++
@@ -31,6 +31,24 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/AMD/acpd7219m98357/HiFi.conf
 * /usr/share/alsa/ucm2/Amlogic/p241/p241-HiFi.conf
 * /usr/share/alsa/ucm2/Amlogic/p241/p241.conf
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_fir/pass.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_fir/README.md
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/highpass_100hz_0db_48khz.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/highpass_20hz_0db_48khz.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/highpass_50hz_0db_48khz.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/pass.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/README.md
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/drc/passthrough.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/drc/README.md
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/drc/speaker_default.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_fir/pass.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_fir/README.md
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/highpass_100hz_0db_48khz.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/highpass_20hz_0db_48khz.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/highpass_50hz_0db_48khz.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/pass.blob
+* /usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/README.md
+* /usr/share/alsa/ucm2/blobs/sof/product_configs/AAEON/UPX-TGL01.conf
 * /usr/share/alsa/ucm2/codecs/cs42l43/init.conf
 * /usr/share/alsa/ucm2/codecs/cx2072x/DisableSeq.conf
 * /usr/share/alsa/ucm2/codecs/cx2072x/EnableSeq.conf
@@ -130,6 +148,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/codecs/rt713-sdca/init.conf
 * /usr/share/alsa/ucm2/codecs/rt715-sdca/init.conf
 * /usr/share/alsa/ucm2/codecs/rt715/init.conf
+* /usr/share/alsa/ucm2/codecs/rt722/init.conf
 * /usr/share/alsa/ucm2/codecs/wcd934x/DefaultDisableSeq.conf
 * /usr/share/alsa/ucm2/codecs/wcd934x/DefaultEnableSeq.conf
 * /usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneDisableSeq.conf
@@ -139,6 +158,11 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/codecs/wcd934x/init.conf
 * /usr/share/alsa/ucm2/codecs/wcd934x/SpeakerDisableSeq.conf
 * /usr/share/alsa/ucm2/codecs/wcd934x/SpeakerEnableSeq.conf
+* /usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneDisableSeq.conf
+* /usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneEnableSeq.conf
+* /usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneMicDisableSeq.conf
+* /usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneMicEnableSeq.conf
+* /usr/share/alsa/ucm2/codecs/wcd937x/init.conf
 * /usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneDisableSeq.conf
 * /usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneEnableSeq.conf
 * /usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicDisableSeq.conf
@@ -181,6 +205,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/common/direct.conf
 * /usr/share/alsa/ucm2/common/linked-card.conf
 * /usr/share/alsa/ucm2/common/linked.conf
+* /usr/share/alsa/ucm2/common/pcm/hdmi.conf
 * /usr/share/alsa/ucm2/common/pcm/split.conf
 * /usr/share/alsa/ucm2/conf.d/acp/acp.conf
 * /usr/share/alsa/ucm2/conf.d/acp3x-es83xx/acp3x-es83xx.conf
@@ -220,6 +245,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/conf.d/rk3399-gru-soun/rk3399-gru-soun.conf
 * /usr/share/alsa/ucm2/conf.d/rk3588-es8316/rk3588-es8316.conf
 * /usr/share/alsa/ucm2/conf.d/rockchip_es8316/rockchip_es8316.conf
+* /usr/share/alsa/ucm2/conf.d/SC7180/sc7180-adau7002-max98357a.conf
 * /usr/share/alsa/ucm2/conf.d/SC7180/sc7180-rt5682-max98357a-1mic.conf
 * /usr/share/alsa/ucm2/conf.d/sc8280xp/sc8280xp.conf
 * /usr/share/alsa/ucm2/conf.d/sdm845/DB845c.conf
@@ -239,6 +265,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/conf.d/sof-glkda7219ma/sof-glkda7219ma.conf
 * /usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-hda-dsp.conf
 * /usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-skl_hda_card.conf
+* /usr/share/alsa/ucm2/conf.d/sof-m8195_r1019/sof-m8195_r1019_5682s.conf
 * /usr/share/alsa/ucm2/conf.d/sof-mt8195_r101/sof-mt8195_r1019_5682.conf
 * /usr/share/alsa/ucm2/conf.d/sof-skl_hda_card
 * /usr/share/alsa/ucm2/conf.d/sof-soundwire/sof-soundwire.conf
@@ -327,6 +354,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/Intel/sof-glkda7219max/HiFi.conf
 * /usr/share/alsa/ucm2/Intel/sof-glkda7219max/sof-glkda7219max.conf
 * /usr/share/alsa/ucm2/Intel/sof-hda-dsp/Hdmi.conf
+* /usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi-sof.conf
 * /usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi.conf
 * /usr/share/alsa/ucm2/Intel/sof-hda-dsp/sof-hda-dsp.conf
 * /usr/share/alsa/ucm2/Intel/SOF/HiFi.conf
@@ -391,6 +419,8 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/Qualcomm/apq8096/apq8096.conf
 * /usr/share/alsa/ucm2/Qualcomm/apq8096/HDMI.conf
 * /usr/share/alsa/ucm2/Qualcomm/apq8096/HiFi.conf
+* /usr/share/alsa/ucm2/Qualcomm/sc7180/adau7002-max98357a/HiFi.conf
+* /usr/share/alsa/ucm2/Qualcomm/sc7180/adau7002-max98357a/sc7180-adau7002-max98357a.conf
 * /usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/HiFi.conf
 * /usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/init.conf
 * /usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf
@@ -426,6 +456,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/Samsung/snow/snow.conf
 * /usr/share/alsa/ucm2/sof-soundwire/cs35l56.conf
 * /usr/share/alsa/ucm2/sof-soundwire/cs42l43-dmic.conf
+* /usr/share/alsa/ucm2/sof-soundwire/cs42l43-spk.conf
 * /usr/share/alsa/ucm2/sof-soundwire/cs42l43.conf
 * /usr/share/alsa/ucm2/sof-soundwire/dmic.conf
 * /usr/share/alsa/ucm2/sof-soundwire/Hdmi.conf
@@ -441,6 +472,7 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/sof-soundwire/rt713-sdca.conf
 * /usr/share/alsa/ucm2/sof-soundwire/rt715-sdca.conf
 * /usr/share/alsa/ucm2/sof-soundwire/rt715.conf
+* /usr/share/alsa/ucm2/sof-soundwire/rt722.conf
 * /usr/share/alsa/ucm2/sof-soundwire/sof-soundwire.conf
 * /usr/share/alsa/ucm2/Tegra/alc5632/alc5632.conf
 * /usr/share/alsa/ucm2/Tegra/alc5632/HiFi.conf
@@ -528,5 +560,5 @@ ALSA Use Case Manager configuration (and topologies)
 * /usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2-HiFi.conf
 * /usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2.conf
 * /usr/share/alsa/ucm2/USB-Audio/USB-Audio.conf
-* /usr/share/doc/alsa-ucm-conf-1.2.11/LICENSE
-* /usr/share/doc/alsa-ucm-conf-1.2.11/README.md
+* /usr/share/doc/alsa-ucm-conf-1.2.12/LICENSE
+* /usr/share/doc/alsa-ucm-conf-1.2.12/README.md

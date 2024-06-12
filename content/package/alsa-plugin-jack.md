@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "alsa-plugin-jack 1.2.7.1-4"
-version = "1.2.7.1-4"
+title = "alsa-plugin-jack 1.2.12-1"
+version = "1.2.12-1"
 description = "ALSA plugin for jack."
-date = "2024-06-05T13:31:46"
+date = "2024-06-12T09:05:22"
 aliases = "/packages/153063"
 categories = ['multimedia']
 upstreamurl = "http://www.alsa-project.org"
 arch = "x86_64"
-size = "10640"
+size = "10688"
 usize = "22704"
-sha1sum = "9d4fce8cb4b280d98b333ac9f6ab5e54d5d7098e"
-depends = "['alsa-plugins>=1.2.7.1']"
+sha1sum = "aea575b9aefc174a0f2de36a26477e48b0d2e207"
+depends = "['alsa-plugins>=1.2.12']"
 +++
 ### Description: 
 ALSA plugin for jack.

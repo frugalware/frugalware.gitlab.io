@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina 1.4.33-5"
-version = "1.4.33-5"
+title = "remmina 1.4.35-1"
+version = "1.4.35-1"
 description = "A GTK+ RDP, VNC, XDMCP and SSH client"
-date = "2024-01-22T12:31:56"
+date = "2024-06-12T08:49:11"
 aliases = "/packages/135956"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "916688"
-usize = "4880916"
-sha1sum = "72b6cac0280f9a19d4633b45f25c2d74cf866351"
+size = "932492"
+usize = "4857622"
+sha1sum = "19c0f52e3bc31e8ae46a40708859ebb6700eff75"
 depends = "['avahi', 'json-glib', 'libappindicator', 'libcups', 'libgcrypt', 'libsodium>=1.0.19', 'libsoup3', 'libssh', 'python3>=3.12', 'vte3']"
 +++
 ### Description: 
@@ -28,11 +28,11 @@ A GTK+ RDP, VNC, XDMCP and SSH client
 * /usr/lib/remmina/plugins/remmina-plugin-x2go.so
 * /usr/share/applications/org.remmina.Remmina-file.desktop
 * /usr/share/applications/org.remmina.Remmina.desktop
-* /usr/share/doc/remmina-1.4.33/AUTHORS
-* /usr/share/doc/remmina-1.4.33/ChangeLog
-* /usr/share/doc/remmina-1.4.33/COPYING
-* /usr/share/doc/remmina-1.4.33/LICENSE
-* /usr/share/doc/remmina-1.4.33/README.md
+* /usr/share/doc/remmina-1.4.35/AUTHORS
+* /usr/share/doc/remmina-1.4.35/ChangeLog
+* /usr/share/doc/remmina-1.4.35/COPYING
+* /usr/share/doc/remmina-1.4.35/LICENSE
+* /usr/share/doc/remmina-1.4.35/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.remmina.Remmina.png
 * /usr/share/icons/hicolor/16x16/apps/org.remmina.Remmina.png
 * /usr/share/icons/hicolor/16x16/status/org.remmina.Remmina-status.svg
