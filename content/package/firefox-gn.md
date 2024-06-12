@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-gn 126.0.1-1"
-version = "126.0.1-1"
+title = "firefox-gn 127.0-1"
+version = "127.0-1"
 description = "Guarani language support for Firefox"
-date = "2024-06-01T11:59:32"
+date = "2024-06-12T07:20:35"
 aliases = "/packages/217998"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "577316"
-usize = "630932"
-sha1sum = "0d81cee8013e8c9aa73c48e34361eff84dab17db"
-depends = "['firefox>=126.0.1']"
+size = "580064"
+usize = "633214"
+sha1sum = "213ac278f4bd119aa69dbfa40b918518034a4b37"
+depends = "['firefox>=127.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
