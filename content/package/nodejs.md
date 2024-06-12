@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 22.2.0-2"
-version = "22.2.0-2"
+title = "nodejs 22.3.0-1"
+version = "22.3.0-1"
 description = "Evented I/O for V8 javascript"
-date = "2024-06-02T15:44:58"
+date = "2024-06-12T15:58:35"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "13566200"
-usize = "60884883"
-sha1sum = "b3404a34e38018299c5ea338581706aac89d9816"
+size = "13644228"
+usize = "61527719"
+sha1sum = "8d50140c390e93080ad231384b9d5d0e250a7e4e"
 depends = "['c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
@@ -347,6 +347,8 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/docs/output/commands/npx.html
 * /usr/lib/node_modules/npm/docs/output/configuring-npm/folders.html
 * /usr/lib/node_modules/npm/docs/output/configuring-npm/install.html
+* /usr/lib/node_modules/npm/docs/output/configuring-npm/npm-global.html
+* /usr/lib/node_modules/npm/docs/output/configuring-npm/npm-json.html
 * /usr/lib/node_modules/npm/docs/output/configuring-npm/npm-shrinkwrap-json.html
 * /usr/lib/node_modules/npm/docs/output/configuring-npm/npmrc.html
 * /usr/lib/node_modules/npm/docs/output/configuring-npm/package-json.html
@@ -460,9 +462,8 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/lib/utils/is-windows.js
 * /usr/lib/node_modules/npm/lib/utils/log-file.js
 * /usr/lib/node_modules/npm/lib/utils/npm-usage.js
-* /usr/lib/node_modules/npm/lib/utils/open-url-prompt.js
 * /usr/lib/node_modules/npm/lib/utils/open-url.js
-* /usr/lib/node_modules/npm/lib/utils/otplease.js
+* /usr/lib/node_modules/npm/lib/utils/output-error.js
 * /usr/lib/node_modules/npm/lib/utils/ping.js
 * /usr/lib/node_modules/npm/lib/utils/queryable.js
 * /usr/lib/node_modules/npm/lib/utils/read-user-info.js
@@ -475,7 +476,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/lib/utils/update-workspaces.js
 * /usr/lib/node_modules/npm/lib/utils/validate-lockfile.js
 * /usr/lib/node_modules/npm/lib/utils/verify-signatures.js
-* /usr/lib/node_modules/npm/lib/utils/web-auth.js
 * /usr/lib/node_modules/npm/LICENSE
 * /usr/lib/node_modules/npm/man/man1/npm-access.1
 * /usr/lib/node_modules/npm/man/man1/npm-adduser.1
@@ -636,6 +636,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/optional-set.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/override-resolves.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/override-set.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/packument-cache.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/peer-entry-sets.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/printable.js
@@ -818,6 +819,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/bundler/message.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/error.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/external/error.js
+* /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/external/fetch.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/external/fulcio.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/external/rekor.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/sign/dist/external/tsa.js
@@ -950,9 +952,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/brace-expansion/index.js
 * /usr/lib/node_modules/npm/node_modules/brace-expansion/LICENSE
 * /usr/lib/node_modules/npm/node_modules/brace-expansion/package.json
-* /usr/lib/node_modules/npm/node_modules/builtins/index.js
-* /usr/lib/node_modules/npm/node_modules/builtins/License
-* /usr/lib/node_modules/npm/node_modules/builtins/package.json
 * /usr/lib/node_modules/npm/node_modules/cacache/lib/content/path.js
 * /usr/lib/node_modules/npm/node_modules/cacache/lib/content/read.js
 * /usr/lib/node_modules/npm/node_modules/cacache/lib/content/rm.js
@@ -983,7 +982,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/ci-info/LICENSE
 * /usr/lib/node_modules/npm/node_modules/ci-info/package.json
 * /usr/lib/node_modules/npm/node_modules/ci-info/vendors.json
-* /usr/lib/node_modules/npm/node_modules/cidr-regex/index.js
+* /usr/lib/node_modules/npm/node_modules/cidr-regex/dist/index.js
 * /usr/lib/node_modules/npm/node_modules/cidr-regex/LICENSE
 * /usr/lib/node_modules/npm/node_modules/cidr-regex/package.json
 * /usr/lib/node_modules/npm/node_modules/clean-stack/index.js
@@ -1262,7 +1261,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/ip-regex/index.js
 * /usr/lib/node_modules/npm/node_modules/ip-regex/license
 * /usr/lib/node_modules/npm/node_modules/ip-regex/package.json
-* /usr/lib/node_modules/npm/node_modules/is-cidr/index.js
+* /usr/lib/node_modules/npm/node_modules/is-cidr/dist/index.js
 * /usr/lib/node_modules/npm/node_modules/is-cidr/package.json
 * /usr/lib/node_modules/npm/node_modules/is-core-module/core.json
 * /usr/lib/node_modules/npm/node_modules/is-core-module/index.js
@@ -1648,7 +1647,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/p-map/index.js
 * /usr/lib/node_modules/npm/node_modules/p-map/license
 * /usr/lib/node_modules/npm/node_modules/p-map/package.json
-* /usr/lib/node_modules/npm/node_modules/pacote/lib/bin.js
+* /usr/lib/node_modules/npm/node_modules/pacote/bin/index.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/dir.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/fetcher.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/file.js
@@ -1660,6 +1659,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/util/cache-dir.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/util/is-package-bin.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/util/npm.js
+* /usr/lib/node_modules/npm/node_modules/pacote/lib/util/protected.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/util/tar-create-options.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/util/trailing-slashes.js
 * /usr/lib/node_modules/npm/node_modules/pacote/LICENSE
@@ -1816,12 +1816,10 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/semver/internal/constants.js
 * /usr/lib/node_modules/npm/node_modules/semver/internal/debug.js
 * /usr/lib/node_modules/npm/node_modules/semver/internal/identifiers.js
+* /usr/lib/node_modules/npm/node_modules/semver/internal/lrucache.js
 * /usr/lib/node_modules/npm/node_modules/semver/internal/parse-options.js
 * /usr/lib/node_modules/npm/node_modules/semver/internal/re.js
 * /usr/lib/node_modules/npm/node_modules/semver/LICENSE
-* /usr/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache/index.js
-* /usr/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache/LICENSE
-* /usr/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache/package.json
 * /usr/lib/node_modules/npm/node_modules/semver/package.json
 * /usr/lib/node_modules/npm/node_modules/semver/preload.js
 * /usr/lib/node_modules/npm/node_modules/semver/range.bnf
@@ -2090,6 +2088,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-22.2.0/LICENSE
-* /usr/share/doc/nodejs-22.2.0/README.md
+* /usr/share/doc/nodejs-22.3.0/LICENSE
+* /usr/share/doc/nodejs-22.3.0/README.md
 * /usr/share/man/man1/node.1.gz

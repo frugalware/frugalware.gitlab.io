@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tesseract-ocr 5.4.0-1"
-version = "5.4.0-1"
+title = "tesseract-ocr 5.4.1-1"
+version = "5.4.1-1"
 description = "An OCR program"
-date = "2024-06-09T19:40:22"
+date = "2024-06-12T15:17:27"
 aliases = "/packages/219347"
 categories = ['xapps-extra']
 upstreamurl = "http://code.google.com/p/tesseract-ocr"
 arch = "x86_64"
-size = "1338896"
-usize = "3710463"
-sha1sum = "e74050003b091175d9fa61f044bc0904b42f9d86"
+size = "1414668"
+usize = "3849582"
+sha1sum = "2862c3a36a964db114e0924c1dbf1f4ff355c51d"
 depends = "['leptonica>=1.74.4', 'tessdata']"
 reverse_depends = "['opencv', 'skanpage']"
 +++

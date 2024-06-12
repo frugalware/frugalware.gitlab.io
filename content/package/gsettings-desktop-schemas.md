@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsettings-desktop-schemas 3.38.0-3"
-version = "3.38.0-3"
+title = "gsettings-desktop-schemas 46.0-1"
+version = "46.0-1"
 description = "Shared GSettings schemas for the desktop"
-date = "2022-02-02T17:37:12"
+date = "2024-06-12T15:26:08"
 aliases = "/packages/103187"
 categories = ['apps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "594208"
-usize = "4664126"
-sha1sum = "f550f3aa46976f399cb2316fde0991571ecb6bdd"
+size = "677732"
+usize = "5363546"
+sha1sum = "f4336463e7515c26de581e7ec90aef867b3894a9"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config', 'xdg-desktop-portal-gtk']"
 +++
@@ -20,18 +20,18 @@ Shared GSettings schemas for the desktop
 ### Files: 
 * /usr/include/gsettings-desktop-schemas/gdesktop-enums.h
 * /usr/lib/girepository-1.0/GDesktopEnums-3.0.typelib
-* /usr/lib/pkgconfig/gsettings-desktop-schemas.pc
-* /usr/share/doc/gsettings-desktop-schemas-3.38.0/AUTHORS
-* /usr/share/doc/gsettings-desktop-schemas-3.38.0/ChangeLog
-* /usr/share/doc/gsettings-desktop-schemas-3.38.0/COPYING
-* /usr/share/doc/gsettings-desktop-schemas-3.38.0/HACKING
-* /usr/share/doc/gsettings-desktop-schemas-3.38.0/NEWS
-* /usr/share/doc/gsettings-desktop-schemas-3.38.0/README
+* /usr/share/doc/gsettings-desktop-schemas-46.0/AUTHORS
+* /usr/share/doc/gsettings-desktop-schemas-46.0/ChangeLog
+* /usr/share/doc/gsettings-desktop-schemas-46.0/COPYING
+* /usr/share/doc/gsettings-desktop-schemas-46.0/HACKING
+* /usr/share/doc/gsettings-desktop-schemas-46.0/NEWS
+* /usr/share/doc/gsettings-desktop-schemas-46.0/README
 * /usr/share/GConf/gsettings/gsettings-desktop-schemas.convert
 * /usr/share/GConf/gsettings/wm-schemas.convert
 * /usr/share/gir-1.0/GDesktopEnums-3.0.gir
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.applications.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.gschema.xml
+* /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.interface.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.keyboard.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.magnifier.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.mouse.gschema.xml
@@ -59,7 +59,9 @@ Shared GSettings schemas for the desktop
 * /usr/share/glib-2.0/schemas/org.gnome.system.locale.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.system.location.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.system.proxy.gschema.xml
+* /usr/share/locale/ab/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/as/LC_MESSAGES/gsettings-desktop-schemas.mo
+* /usr/share/locale/be/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/bg/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/bs/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/ca/LC_MESSAGES/gsettings-desktop-schemas.mo
@@ -69,9 +71,11 @@ Shared GSettings schemas for the desktop
 * /usr/share/locale/de/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/el/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/gsettings-desktop-schemas.mo
+* /usr/share/locale/en_US/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/eo/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/es/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/eu/LC_MESSAGES/gsettings-desktop-schemas.mo
+* /usr/share/locale/fa/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/fi/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/fr/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/fur/LC_MESSAGES/gsettings-desktop-schemas.mo
@@ -85,6 +89,7 @@ Shared GSettings schemas for the desktop
 * /usr/share/locale/is/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/it/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/ja/LC_MESSAGES/gsettings-desktop-schemas.mo
+* /usr/share/locale/ka/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/kk/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/lt/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/lv/LC_MESSAGES/gsettings-desktop-schemas.mo
@@ -114,3 +119,4 @@ Shared GSettings schemas for the desktop
 * /usr/share/locale/zh_CN/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/gsettings-desktop-schemas.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gsettings-desktop-schemas.mo
+* /usr/share/pkgconfig/gsettings-desktop-schemas.pc
