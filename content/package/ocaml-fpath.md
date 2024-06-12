@@ -12,6 +12,7 @@ size = "118236"
 usize = "190728"
 sha1sum = "bab7f031bde9376b1313704b84def5ea416b559a"
 depends = "['ocaml-astring']"
+reverse_depends = "['ocaml-bos']"
 +++
 ### Description: 
 File system paths for OCaml

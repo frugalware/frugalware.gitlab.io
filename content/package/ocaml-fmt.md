@@ -12,7 +12,7 @@ size = "151156"
 usize = "224471"
 sha1sum = "0a50efd74fad4bac375770540277b2e58d9871b2"
 depends = "['ocaml-cmdliner']"
-reverse_depends = "['ocaml-logs']"
+reverse_depends = "['ocaml-bos', 'ocaml-logs']"
 +++
 ### Description: 
 Combinators to devise OCaml Format pretty-printing functions

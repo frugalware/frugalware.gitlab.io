@@ -12,7 +12,7 @@ size = "9197792"
 usize = "33310368"
 sha1sum = "b4379ee4e7f4545b2f8dadfac66dbd064ea89384"
 depends = "['domainslib', 'ocaml-luv', 'ocaml-react', 'ocplib-endian', 'ppxlib']"
-reverse_depends = "['ounit']"
+reverse_depends = "['ocaml-logs', 'ounit']"
 +++
 ### Description: 
 A library for cooperative threads in OCaml

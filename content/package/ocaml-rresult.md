@@ -12,6 +12,7 @@ size = "44076"
 usize = "65898"
 sha1sum = "1ba4711ef4d74d973223e2775f887834302d67d4"
 depends = "['ocaml>=5.2.0']"
+reverse_depends = "['ocaml-bos']"
 +++
 ### Description: 
 Result value combinators for OCaml
