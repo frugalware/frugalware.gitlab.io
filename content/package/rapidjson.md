@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rapidjson 1.1.0-2"
-version = "1.1.0-2"
+title = "rapidjson 1.1.0-3"
+version = "1.1.0-3"
 description = "A fast JSON parser/generator for C++"
-date = "2022-02-21T21:48:26"
+date = "2024-06-12T20:34:58"
 aliases = "/packages/219626"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/Tencent/rapidjson"
 arch = "x86_64"
-size = "89880"
-usize = "604498"
-sha1sum = "7216327f841b7dfaf305fe42145b89ca4eda8fab"
+size = "89936"
+usize = "599735"
+sha1sum = "717700a249e7daa5bd726b7fec61034df0cc72d1"
 depends = "[]"
 +++
 ### Description: 
