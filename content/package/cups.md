@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups 2.4.8-3"
-version = "2.4.8-3"
+title = "cups 2.4.9-1"
+version = "2.4.9-1"
 description = "The CUPS Printing System"
-date = "2024-05-17T14:30:29"
+date = "2024-06-12T17:17:04"
 aliases = "/packages/2954"
 categories = ['xapps']
 upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
-size = "5377516"
-usize = "13586017"
-sha1sum = "ea3a61089b145d4ec40748366291b56dbba1d316"
+size = "5383760"
+usize = "13281523"
+sha1sum = "9f187306d588432b94c7f58f9b807bad014ee109"
 depends = "['avahi>=0.6.31-9', 'cups-browsed', 'cups-filters', 'dbus', 'libcups', 'libpaper', 'libusb1>=1.0.20-5', 'pam']"
 reverse_depends = "['cups-pk-helper', 'gimp-print', 'gutenprint', 'libreoffice', 'print-manager']"
 +++
@@ -814,9 +814,9 @@ The CUPS Printing System
 * /usr/share/cups/templates/users.tmpl
 * /usr/share/cups/usb/org.cups.usb-quirks
 * /usr/share/dbus-1/system.d/cups.conf
-* /usr/share/doc/cups-2.4.8/INSTALL.md
-* /usr/share/doc/cups-2.4.8/LICENSE
-* /usr/share/doc/cups-2.4.8/README.md
+* /usr/share/doc/cups-2.4.9/INSTALL.md
+* /usr/share/doc/cups-2.4.9/LICENSE
+* /usr/share/doc/cups-2.4.9/README.md
 * /usr/share/icons/hicolor/128x128/apps/cups.png
 * /usr/share/icons/hicolor/16x16/apps/cups.png
 * /usr/share/icons/hicolor/32x32/apps/cups.png
