@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vala 0.56.4-1"
-version = "0.56.4-1"
+title = "vala 0.56.17-1"
+version = "0.56.17-1"
 description = "Vala is a prgramming language that aims to bring modern programming language features to GNOME developers"
-date = "2023-02-27T10:33:49"
+date = "2024-06-12T09:54:12"
 aliases = "/packages/38773"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2451140"
-usize = "16335070"
-sha1sum = "c555e55f850dc3901851ed1275555b7563b006b8"
+size = "2501216"
+usize = "16287420"
+sha1sum = "fcb725936d8599c7080c873f470b33c33ba4050b"
 depends = "['glib2>=2.60.0', 'graphviz', 'libffi>=3.2.1-2']"
 reverse_depends = "['libproxy-vala', 'libsecret-vala']"
 +++
@@ -69,14 +69,14 @@ Vala is a prgramming language that aims to bring modern programming language fea
 * /usr/share/devhelp/books/vala-0.56/Structs.html
 * /usr/share/devhelp/books/vala-0.56/Types.html
 * /usr/share/devhelp/books/vala-0.56/vala-0.56.devhelp2
-* /usr/share/doc/vala-0.56.4/AUTHORS
-* /usr/share/doc/vala-0.56.4/ChangeLog
-* /usr/share/doc/vala-0.56.4/COPYING
-* /usr/share/doc/vala-0.56.4/INSTALL
-* /usr/share/doc/vala-0.56.4/NEWS
-* /usr/share/doc/vala-0.56.4/README
-* /usr/share/doc/vala-0.56.4/README.md
-* /usr/share/doc/vala-0.56.4/THANKS
+* /usr/share/doc/vala-0.56.17/AUTHORS
+* /usr/share/doc/vala-0.56.17/ChangeLog
+* /usr/share/doc/vala-0.56.17/COPYING
+* /usr/share/doc/vala-0.56.17/INSTALL
+* /usr/share/doc/vala-0.56.17/NEWS
+* /usr/share/doc/vala-0.56.17/README
+* /usr/share/doc/vala-0.56.17/README.md
+* /usr/share/doc/vala-0.56.17/THANKS
 * /usr/share/man/man1/vala-gen-introspect-0.56.1.gz
 * /usr/share/man/man1/vala-gen-introspect.1.gz
 * /usr/share/man/man1/valac-0.56.1.gz
@@ -397,6 +397,8 @@ Vala is a prgramming language that aims to bring modern programming language fea
 * /usr/share/vala-0.56/vapi/webkitgtk-6.0.vapi
 * /usr/share/vala-0.56/vapi/webkitgtk-web-extension-6.0.deps
 * /usr/share/vala-0.56/vapi/webkitgtk-web-extension-6.0.vapi
+* /usr/share/vala-0.56/vapi/webkitgtk-web-process-extension-6.0.deps
+* /usr/share/vala-0.56/vapi/webkitgtk-web-process-extension-6.0.vapi
 * /usr/share/vala-0.56/vapi/x11.vapi
 * /usr/share/vala-0.56/vapi/xcb-icccm.deps
 * /usr/share/vala-0.56/vapi/xcb-icccm.vapi
