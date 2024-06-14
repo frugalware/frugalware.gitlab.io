@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi 24.05.0-1"
-version = "24.05.0-1"
+title = "akonadi 24.05.1-1"
+version = "24.05.1-1"
 description = "PIM layer, which provides an asynchronous API to access all kind of PIM data"
-date = "2024-05-24T13:52:14"
+date = "2024-06-14T20:51:26"
 aliases = "/packages/74013"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3068292"
-usize = "13617703"
-sha1sum = "c9630c97d63a6e86aaa02c1e35d6343aeec211c4"
-depends = "['kaccounts-integration>=24.05.0', 'kio>=6.2.0', 'kitemmodels>=6.2.0', 'kitemviews>=6.2.0', 'libxslt', 'qt6-base>=6.7.1', 'shared-mime-info']"
+size = "3039532"
+usize = "13507464"
+sha1sum = "b3d46ca9c38f01597e45fb6e6e114bfa514ce251"
+depends = "['kaccounts-integration>=24.05.1', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kitemviews>=6.3.0', 'libxslt', 'qt6-base>=6.7.1', 'shared-mime-info']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++
 ### Description: 
@@ -349,19 +349,19 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/lib/cmake/KPim6Akonadi/KPimAkonadiMacros.cmake
 * /usr/lib/libKPim6AkonadiAgentBase.so
 * /usr/lib/libKPim6AkonadiAgentBase.so.6
-* /usr/lib/libKPim6AkonadiAgentBase.so.6.1.0
+* /usr/lib/libKPim6AkonadiAgentBase.so.6.1.1
 * /usr/lib/libKPim6AkonadiCore.so
 * /usr/lib/libKPim6AkonadiCore.so.6
-* /usr/lib/libKPim6AkonadiCore.so.6.1.0
+* /usr/lib/libKPim6AkonadiCore.so.6.1.1
 * /usr/lib/libKPim6AkonadiPrivate.so
 * /usr/lib/libKPim6AkonadiPrivate.so.6
-* /usr/lib/libKPim6AkonadiPrivate.so.6.1.0
+* /usr/lib/libKPim6AkonadiPrivate.so.6.1.1
 * /usr/lib/libKPim6AkonadiWidgets.so
 * /usr/lib/libKPim6AkonadiWidgets.so.6
-* /usr/lib/libKPim6AkonadiWidgets.so.6.1.0
+* /usr/lib/libKPim6AkonadiWidgets.so.6.1.1
 * /usr/lib/libKPim6AkonadiXml.so
 * /usr/lib/libKPim6AkonadiXml.so.6
-* /usr/lib/libKPim6AkonadiXml.so.6.1.0
+* /usr/lib/libKPim6AkonadiXml.so.6.1.1
 * /usr/lib/qt6/plugins/designer/akonadi6widgets.so
 * /usr/lib/qt6/plugins/pim6/akonadi/akonadi_test_searchplugin.so
 * /usr/share/akonadi/agents/knutresource.desktop
@@ -381,11 +381,11 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.Tracer.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.TracerNotification.xml
 * /usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
-* /usr/share/doc/akonadi-24.05.0/AUTHORS
-* /usr/share/doc/akonadi-24.05.0/INSTALL
-* /usr/share/doc/akonadi-24.05.0/NEWS
-* /usr/share/doc/akonadi-24.05.0/README.md
-* /usr/share/doc/akonadi-24.05.0/README.md.license
+* /usr/share/doc/akonadi-24.05.1/AUTHORS
+* /usr/share/doc/akonadi-24.05.1/INSTALL
+* /usr/share/doc/akonadi-24.05.1/NEWS
+* /usr/share/doc/akonadi-24.05.1/README.md
+* /usr/share/doc/akonadi-24.05.1/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/akonadi.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi.png
 * /usr/share/icons/hicolor/22x22/apps/akonadi.png
@@ -428,6 +428,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/de/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/el/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/eo/LC_MESSAGES/akonadi-db-migrator.mo

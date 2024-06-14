@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "477400"
 usize = "1670310"
 sha1sum = "e3d4fd6a1db27d80825af832cb8b9ec0bbbce9da"
-depends = "['calendarsupport>=24.05.0', 'messagelib>=24.05.0']"
+depends = "['calendarsupport>=24.05.1', 'messagelib>=24.05.1']"
 +++
 ### Description: 
 A utility that can be used to explore or manage Akonadi
@@ -19,7 +19,7 @@ A utility that can be used to explore or manage Akonadi
 ### Files: 
 * /usr/bin/akonadiconsole
 * /usr/lib/libakonadiconsole.so.6
-* /usr/lib/libakonadiconsole.so.6.1.0
+* /usr/lib/libakonadiconsole.so.6.1.1
 * /usr/share/applications/org.kde.akonadiconsole.desktop
 * /usr/share/icons/hicolor/128x128/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/16x16/apps/akonadiconsole.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ark 24.05.0-1"
-version = "24.05.0-1"
+title = "ark 24.05.1-1"
+version = "24.05.1-1"
 description = "KDE Archiving Tool."
-date = "2024-05-24T13:41:43"
+date = "2024-06-14T20:42:00"
 aliases = "/packages/153200"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1397736"
-usize = "5123956"
-sha1sum = "7fdba893c7f193024d2a708d015d75489b35a964"
-depends = "['kfilemetadata>=6.2.0', 'kitemmodels>=6.2.0', 'kparts>=6.2.0', 'kpty>=6.2.0', 'libarchive>=3.1.2-8', 'libzip']"
+size = "1391780"
+usize = "5053536"
+sha1sum = "eec020c9cddb280ad4ad18e6dc73c3d8dbf2449c"
+depends = "['kfilemetadata>=6.3.0', 'kitemmodels>=6.3.0', 'kparts>=6.3.0', 'kpty>=6.3.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
 ### Description: 
 KDE Archiving Tool.
@@ -20,7 +20,7 @@ KDE Archiving Tool.
 * /etc/xdg/arkrc
 * /usr/bin/ark
 * /usr/lib/libkerfuffle.so.24
-* /usr/lib/libkerfuffle.so.24.05.0
+* /usr/lib/libkerfuffle.so.24.05.1
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cli7z.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cliarj.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_clirar.so
@@ -35,9 +35,9 @@ KDE Archiving Tool.
 * /usr/lib/qt6/plugins/kf6/parts/arkpart.so
 * /usr/share/applications/org.kde.ark.desktop
 * /usr/share/config.kcfg/ark.kcfg
-* /usr/share/doc/ark-24.05.0/COPYING.icons
-* /usr/share/doc/ark-24.05.0/README.md
-* /usr/share/doc/ark-24.05.0/README.packagers
+* /usr/share/doc/ark-24.05.1/COPYING.icons
+* /usr/share/doc/ark-24.05.1/README.md
+* /usr/share/doc/ark-24.05.1/README.packagers
 * /usr/share/doc/HTML/ca/ark/index.cache.bz2
 * /usr/share/doc/HTML/ca/ark/index.docbook
 * /usr/share/doc/HTML/en/ark/ark-comment.png

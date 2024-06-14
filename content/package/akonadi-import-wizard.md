@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "681656"
 usize = "1913986"
 sha1sum = "c6651dd49b386bf86c019cc60d98f03675bbb4b5"
-depends = "['mailcommon>=24.05.0']"
+depends = "['mailcommon>=24.05.1']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
@@ -41,7 +41,7 @@ KMail import wizard application.
 * /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardTargets.cmake
 * /usr/lib/libKPim6ImportWizard.so
 * /usr/lib/libKPim6ImportWizard.so.6
-* /usr/lib/libKPim6ImportWizard.so.6.1.0
+* /usr/lib/libKPim6ImportWizard.so.6.1.1
 * /usr/lib/qt6/plugins/pim6/importwizard/balsaimporterplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/clawsmailimporterplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/evolutionv3importerplugin.so

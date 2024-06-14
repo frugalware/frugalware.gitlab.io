@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmines 24.05.0-1"
-version = "24.05.0-1"
+title = "kmines 24.05.1-1"
+version = "24.05.1-1"
 description = "The classic Minesweeper game."
-date = "2024-05-24T10:48:59"
+date = "2024-06-14T20:15:34"
 aliases = "/packages/184189"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1151052"
-usize = "1658546"
-sha1sum = "cffbca4a34983efed5472ca665ca86868f612e79"
+size = "1152092"
+usize = "1655575"
+sha1sum = "c07849f5a4bbcd455bb3e617fdad9760b1646815"
 depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 

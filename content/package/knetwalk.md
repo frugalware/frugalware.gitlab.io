@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knetwalk 24.05.0-1"
-version = "24.05.0-1"
+title = "knetwalk 24.05.1-1"
+version = "24.05.1-1"
 description = "Connect all the terminals to the server, in as few turns as possible."
-date = "2024-05-24T10:51:26"
+date = "2024-06-14T20:18:02"
 aliases = "/packages/184191"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1192344"
-usize = "1743440"
-sha1sum = "016752e5eea98e60214a1506fc27abac3e173d11"
+size = "1192752"
+usize = "1739821"
+sha1sum = "a4eb16c8a00e3bb052b4224721e35c1ca9255078"
 depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 

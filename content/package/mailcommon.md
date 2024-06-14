@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mailcommon 24.05.0-1"
-version = "24.05.0-1"
+title = "mailcommon 24.05.1-1"
+version = "24.05.1-1"
 description = "KdePim mail-common files"
-date = "2024-05-24T14:19:03"
+date = "2024-06-14T21:14:02"
 aliases = "/packages/218481"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "826492"
-usize = "4252743"
-sha1sum = "57724354287267b14a5f8faa4a56ac4b62e501f0"
-depends = "['mailimporter>=24.05.0', 'messagelib>=24.05.0']"
+size = "828952"
+usize = "4240310"
+sha1sum = "27d9acadf2af5b215faa651b0e61ec39f88012ef"
+depends = "['mailimporter>=24.05.1', 'messagelib>=24.05.1']"
 reverse_depends = "['akonadi-import-wizard', 'kaddressbook', 'kalarm', 'kdepim-addons', 'kmail', 'kmail-account-wizard', 'kontact', 'korganizer', 'mbox-importer', 'merkuro', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -132,7 +132,7 @@ KdePim mail-common files
 * /usr/lib/cmake/KPim6MailCommon/KPim6MailCommonTargets.cmake
 * /usr/lib/libKPim6MailCommon.so
 * /usr/lib/libKPim6MailCommon.so.6
-* /usr/lib/libKPim6MailCommon.so.6.1.0
+* /usr/lib/libKPim6MailCommon.so.6.1.1
 * /usr/lib/qt6/plugins/designer/mailcommon6widgets.so
 * /usr/share/locale/ar/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmailcommon6.mo
