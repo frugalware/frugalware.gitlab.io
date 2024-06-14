@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krfb 24.05.0-1"
-version = "24.05.0-1"
+title = "krfb 24.05.1-1"
+version = "24.05.1-1"
 description = "KRfb is a RFB protocol server (VNC)."
-date = "2024-05-24T09:50:15"
+date = "2024-06-14T19:21:18"
 aliases = "/packages/74082"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1259268"
-usize = "2539656"
-sha1sum = "b1235a8750f57394174e1e79a17064a545d415de"
-depends = "['kdnssd>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kwallet>=6.2.0', 'kwayland>=6.0.5', 'kxmlgui>=6.2.0', 'libvncserver>=0.9.11', 'libxtst']"
+size = "1259464"
+usize = "2516588"
+sha1sum = "63da2bdaea7c70055f50e51c38fa9e64729b779f"
+depends = "['kdnssd>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwallet>=6.3.0', 'kwayland>=6.0.5', 'kxmlgui>=6.3.0', 'libvncserver>=0.9.11', 'libxtst']"
 reverse_depends = "['krfb-pipewire']"
 +++
 ### Description: 
@@ -82,12 +82,12 @@ KRfb is a RFB protocol server (VNC).
 * /usr/share/doc/HTML/sv/krfb/screenshot.png
 * /usr/share/doc/HTML/uk/krfb/index.cache.bz2
 * /usr/share/doc/HTML/uk/krfb/index.docbook
-* /usr/share/doc/krfb-24.05.0/AUTHORS
-* /usr/share/doc/krfb-24.05.0/COPYING
-* /usr/share/doc/krfb-24.05.0/COPYING.DOC
-* /usr/share/doc/krfb-24.05.0/COPYING.LIB
-* /usr/share/doc/krfb-24.05.0/README
-* /usr/share/doc/krfb-24.05.0/TODO
+* /usr/share/doc/krfb-24.05.1/AUTHORS
+* /usr/share/doc/krfb-24.05.1/COPYING
+* /usr/share/doc/krfb-24.05.1/COPYING.DOC
+* /usr/share/doc/krfb-24.05.1/COPYING.LIB
+* /usr/share/doc/krfb-24.05.1/README
+* /usr/share/doc/krfb-24.05.1/TODO
 * /usr/share/icons/hicolor/48x48/apps/krfb.png
 * /usr/share/icons/hicolor/scalable/apps/krfb.svgz
 * /usr/share/krfb/krfb.notifyrc

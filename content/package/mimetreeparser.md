@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 24.05.0-1"
-version = "24.05.0-1"
+title = "mimetreeparser 24.05.1-1"
+version = "24.05.1-1"
 description = "Parser for MIME trees"
-date = "2024-05-24T10:15:08"
+date = "2024-06-14T19:41:58"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "215744"
-usize = "979989"
-sha1sum = "cd921a4813d42e4fdcc3f6e6f9d0571e9cea4469"
-depends = "['kcalendarcore>=6.2.0', 'kcodecs>=6.2.0', 'ki18n>=6.2.0', 'kmbox>=24.05.0', 'kmime>=24.05.0', 'libkleo>=24.05.0']"
+size = "216348"
+usize = "969612"
+sha1sum = "f81b74357f933839b7169d1cce71be6bb4004203"
+depends = "['kcalendarcore>=6.3.0', 'kcodecs>=6.3.0', 'ki18n>=6.3.0', 'kmbox>=24.05.1', 'kmime>=24.05.1', 'libkleo>=24.05.1']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -54,10 +54,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.1.0
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.1.1
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.1.0
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.1.1
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -74,12 +74,13 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.05.0/README.md
+* /usr/share/doc/mimetreeparser-24.05.1/README.md
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/cs/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/de/LC_MESSAGES/mimetreeparser6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/eo/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/es/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/eu/LC_MESSAGES/mimetreeparser6.mo

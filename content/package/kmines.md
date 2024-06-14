@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1151052"
 usize = "1658546"
 sha1sum = "cffbca4a34983efed5472ca665ca86868f612e79"
-depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 
 The classic Minesweeper game.
@@ -58,8 +58,8 @@ The classic Minesweeper game.
 * /usr/share/doc/HTML/uk/kmines/gameboard.png
 * /usr/share/doc/HTML/uk/kmines/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmines/index.docbook
-* /usr/share/doc/kmines-24.05.0/README
-* /usr/share/doc/kmines-24.05.0/TODO
+* /usr/share/doc/kmines-24.05.1/README
+* /usr/share/doc/kmines-24.05.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kmines.png
 * /usr/share/icons/hicolor/16x16/apps/kmines.png
 * /usr/share/icons/hicolor/22x22/apps/kmines.png

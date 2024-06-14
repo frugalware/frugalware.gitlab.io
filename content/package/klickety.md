@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klickety 24.05.0-1"
-version = "24.05.0-1"
+title = "klickety 24.05.1-1"
+version = "24.05.1-1"
 description = "An adaptation of the Clickomania game."
-date = "2024-05-24T10:46:42"
+date = "2024-06-14T20:13:08"
 aliases = "/packages/184186"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1480532"
-usize = "2083159"
-sha1sum = "7e932d8ff38140966960523d7a273f304cef6f47"
-depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
+size = "1480892"
+usize = "2079746"
+sha1sum = "9bdea40ecad7c784b7ff5ccef46cf4ce027eab4b"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 
 An adaptation of the Clickomania game.
@@ -75,8 +75,8 @@ An adaptation of the Clickomania game.
 * /usr/share/doc/HTML/uk/klickety/index.docbook
 * /usr/share/doc/HTML/uk/klickety/ksamemode.png
 * /usr/share/doc/HTML/uk/klickety/numbered.png
-* /usr/share/doc/klickety-24.05.0/README.PACKAGERS
-* /usr/share/doc/klickety-24.05.0/README.THEMES
+* /usr/share/doc/klickety-24.05.1/README.PACKAGERS
+* /usr/share/doc/klickety-24.05.1/README.THEMES
 * /usr/share/icons/hicolor/128x128/apps/klickety.png
 * /usr/share/icons/hicolor/128x128/apps/ksame.png
 * /usr/share/icons/hicolor/16x16/apps/klickety.png

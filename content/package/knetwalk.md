@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1192344"
 usize = "1743440"
 sha1sum = "016752e5eea98e60214a1506fc27abac3e173d11"
-depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 
 Connect all the terminals to the server, in as few turns as possible.
@@ -56,8 +56,8 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/doc/HTML/uk/knetwalk/gameboard.png
 * /usr/share/doc/HTML/uk/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/uk/knetwalk/index.docbook
-* /usr/share/doc/knetwalk-24.05.0/AUTHORS
-* /usr/share/doc/knetwalk-24.05.0/TODO
+* /usr/share/doc/knetwalk-24.05.1/AUTHORS
+* /usr/share/doc/knetwalk-24.05.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/knetwalk.png
 * /usr/share/icons/hicolor/16x16/apps/knetwalk.png
 * /usr/share/icons/hicolor/22x22/apps/knetwalk.png

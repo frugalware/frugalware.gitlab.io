@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1606352"
 usize = "2537373"
 sha1sum = "1ea70eb847026b73eaee0b3f68cc82851c2cca45"
-depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 
 A ship sinking game.
@@ -50,10 +50,10 @@ A ship sinking game.
 * /usr/share/doc/HTML/uk/knavalbattle/gameboard.png
 * /usr/share/doc/HTML/uk/knavalbattle/index.cache.bz2
 * /usr/share/doc/HTML/uk/knavalbattle/index.docbook
-* /usr/share/doc/knavalbattle-24.05.0/AUTHORS
-* /usr/share/doc/knavalbattle-24.05.0/COPYING.DOC
-* /usr/share/doc/knavalbattle-24.05.0/README.md
-* /usr/share/doc/knavalbattle-24.05.0/README.PACKAGERS
+* /usr/share/doc/knavalbattle-24.05.1/AUTHORS
+* /usr/share/doc/knavalbattle-24.05.1/COPYING.DOC
+* /usr/share/doc/knavalbattle-24.05.1/README.md
+* /usr/share/doc/knavalbattle-24.05.1/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/knavalbattle.png
 * /usr/share/icons/hicolor/16x16/apps/knavalbattle.png
 * /usr/share/icons/hicolor/22x22/apps/knavalbattle.png

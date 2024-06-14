@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konsole 24.05.0-1"
-version = "24.05.0-1"
+title = "konsole 24.05.1-1"
+version = "24.05.1-1"
 description = "KDE Terminal emulator."
-date = "2024-05-24T09:48:38"
+date = "2024-06-14T19:19:57"
 aliases = "/packages/88141"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1948476"
-usize = "9328214"
-sha1sum = "540753e693907e17b2c710573cfbdf599db71013"
-depends = "['knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kparts>=6.2.0', 'kpty>=6.2.0']"
+size = "1945052"
+usize = "9289416"
+sha1sum = "f723f815305ff7db4740bb0e520ada03371d3dbf"
+depends = "['knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kparts>=6.3.0', 'kpty>=6.3.0']"
 +++
 ### Description: 
 KDE Terminal emulator.
@@ -22,8 +22,8 @@ KDE Terminal emulator.
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel
 * /usr/lib/kconf_update_bin/konsole_show_menubar
-* /usr/lib/libkonsoleapp.so.24.05.0
-* /usr/lib/libkonsoleprivate.so.24.05.0
+* /usr/lib/libkonsoleapp.so.24.05.1
+* /usr/lib/libkonsoleprivate.so.24.05.1
 * /usr/lib/qt6/plugins/kf6/parts/konsolepart.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_quickcommandsplugin.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_sshmanagerplugin.so
@@ -61,10 +61,10 @@ KDE Terminal emulator.
 * /usr/share/doc/HTML/uk/konsole/index.docbook
 * /usr/share/doc/HTML/zh_CN/konsole/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/konsole/index.docbook
-* /usr/share/doc/konsole-24.05.0/COPYING
-* /usr/share/doc/konsole-24.05.0/COPYING.DOC
-* /usr/share/doc/konsole-24.05.0/COPYING.LIB
-* /usr/share/doc/konsole-24.05.0/README.md
+* /usr/share/doc/konsole-24.05.1/COPYING
+* /usr/share/doc/konsole-24.05.1/COPYING.DOC
+* /usr/share/doc/konsole-24.05.1/COPYING.LIB
+* /usr/share/doc/konsole-24.05.1/README.md
 * /usr/share/kconf_update/konsole.upd
 * /usr/share/kconf_update/konsole_add_hamburgermenu_to_toolbar.sh
 * /usr/share/kglobalaccel/org.kde.konsole.desktop

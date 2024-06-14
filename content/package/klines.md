@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1754340"
 usize = "2223993"
 sha1sum = "2e48632d13c93c842cd7f1d109559fcbea7021d1"
-depends = "['knotifyconfig>=6.2.0', 'libkdegames>=24.05.0']"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 
 A simple but highly addictive, one player game.
@@ -48,9 +48,9 @@ A simple but highly addictive, one player game.
 * /usr/share/doc/HTML/uk/klines/gamescreen.png
 * /usr/share/doc/HTML/uk/klines/index.cache.bz2
 * /usr/share/doc/HTML/uk/klines/index.docbook
-* /usr/share/doc/klines-24.05.0/AUTHORS
-* /usr/share/doc/klines-24.05.0/README.PACKAGERS
-* /usr/share/doc/klines-24.05.0/README.themes
+* /usr/share/doc/klines-24.05.1/AUTHORS
+* /usr/share/doc/klines-24.05.1/README.PACKAGERS
+* /usr/share/doc/klines-24.05.1/README.themes
 * /usr/share/icons/hicolor/128x128/apps/klines.png
 * /usr/share/icons/hicolor/16x16/apps/klines.png
 * /usr/share/icons/hicolor/22x22/apps/klines.png
