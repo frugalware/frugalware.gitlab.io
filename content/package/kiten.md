@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "11553188"
 usize = "33084514"
 sha1sum = "77e87dd1d688ba2dcacce993a3a0c9bd8bf9014d"
-depends = "['kio>=6.2.0']"
+depends = "['kio>=6.3.0']"
 +++
 ### Description: 
 Japanese Reference/Study Tool.
@@ -95,10 +95,10 @@ Japanese Reference/Study Tool.
 * /usr/share/doc/HTML/uk/kiten/verb_deinflection.png
 * /usr/share/doc/HTML/uk/kiten/with_filtering.png
 * /usr/share/doc/HTML/uk/kiten/word_type_results.png
-* /usr/share/doc/kiten-24.05.0/AUTHORS
-* /usr/share/doc/kiten-24.05.0/COPYING.DOC
-* /usr/share/doc/kiten-24.05.0/README.md
-* /usr/share/doc/kiten-24.05.0/TODO
+* /usr/share/doc/kiten-24.05.1/AUTHORS
+* /usr/share/doc/kiten-24.05.1/COPYING.DOC
+* /usr/share/doc/kiten-24.05.1/README.md
+* /usr/share/doc/kiten-24.05.1/TODO
 * /usr/share/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf
 * /usr/share/icons/hicolor/128x128/apps/kiten.png
 * /usr/share/icons/hicolor/16x16/apps/kiten.png

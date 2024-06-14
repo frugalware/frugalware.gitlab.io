@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kapptemplate 24.05.0-1"
-version = "24.05.0-1"
+title = "kapptemplate 24.05.1-1"
+version = "24.05.1-1"
 description = "KDE Template Generator."
-date = "2024-05-24T09:28:06"
+date = "2024-06-14T18:58:05"
 aliases = "/packages/118444"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "435248"
-usize = "988383"
-sha1sum = "cc98b3d8f96304ba4499908810d8d01cf32ea1c9"
-depends = "['kio>=6.2.0', 'qt6-svg>=6.7.1']"
+size = "434680"
+usize = "981499"
+sha1sum = "dab4a840bc7fca1926f3ce9164a6d2f7ddce480f"
+depends = "['kio>=6.3.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 KDE Template Generator.
@@ -50,8 +50,8 @@ KDE Template Generator.
 * /usr/share/doc/HTML/sv/kapptemplate/index.docbook
 * /usr/share/doc/HTML/uk/kapptemplate/index.cache.bz2
 * /usr/share/doc/HTML/uk/kapptemplate/index.docbook
-* /usr/share/doc/kapptemplate-24.05.0/README.md
-* /usr/share/doc/kapptemplate-24.05.0/TODO
+* /usr/share/doc/kapptemplate-24.05.1/README.md
+* /usr/share/doc/kapptemplate-24.05.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kapptemplate.png
 * /usr/share/icons/hicolor/16x16/apps/kapptemplate.png
 * /usr/share/icons/hicolor/22x22/apps/kapptemplate.png

@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "kdebugsettings 24.05.0-1"
-version = "24.05.0-1"
+title = "kdebugsettings 24.05.1-1"
+version = "24.05.1-1"
 description = "An application to enable/disable qCDebug"
-date = "2024-05-24T09:33:58"
+date = "2024-06-14T19:05:07"
 aliases = "/packages/218293"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "151408"
-usize = "751278"
-sha1sum = "7295b4d469ee2b1ce27252b2da4af3533b608a45"
-depends = "['kcompletion>=6.2.0', 'kcoreaddons>=6.2.0', 'kdbusaddons>=6.2.0', 'ki18n>=6.2.0', 'kitemviews>=6.2.0']"
+size = "152080"
+usize = "744676"
+sha1sum = "259e7e782de6021e837881913e316f1f3684f55f"
+depends = "['kcompletion>=6.3.0', 'kcoreaddons>=6.3.0', 'kdbusaddons>=6.3.0', 'ki18n>=6.3.0', 'kitemviews>=6.3.0']"
 +++
 ### Description: 
 An application to enable/disable qCDebug
 
 ### Files: 
 * /usr/bin/kdebugsettings
-* /usr/lib/libkdebugsettings.so.24.05.0
+* /usr/lib/libkdebugsettings.so.24.05.1
 * /usr/lib/libkdebugsettings.so.6
-* /usr/lib/libkdebugsettingscore.so.24.05.0
+* /usr/lib/libkdebugsettingscore.so.24.05.1
 * /usr/lib/libkdebugsettingscore.so.6
 * /usr/share/applications/org.kde.kdebugsettings.desktop
 * /usr/share/kdebugsettings/groups/Full Debug Ruqola

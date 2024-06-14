@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkcompactdisc 24.05.0-1"
-version = "24.05.0-1"
+title = "libkcompactdisc 24.05.1-1"
+version = "24.05.1-1"
 description = "A library for interfacing with CDs."
-date = "2024-05-24T09:17:55"
+date = "2024-06-14T18:46:51"
 aliases = "/packages/168473"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "74108"
-usize = "261876"
-sha1sum = "3f194031733e3595b4f09c10aba31aab028a121e"
+size = "74284"
+usize = "257669"
+sha1sum = "29f0dbadff2e19f178b111ac9e292d69418f0184"
 depends = "['kcoreaddons>=$_F_kf6_full', 'ki18n>=$_F_kf6_full', 'phonon-qt6', 'solid>=$_F_kf6_full']"
 reverse_depends = "['audiocd-kio']"
 +++
@@ -30,8 +30,8 @@ A library for interfacing with CDs.
 * /usr/lib/libKCompactDisc6.so.5
 * /usr/lib/libKCompactDisc6.so.5.0.0
 * /usr/lib/qt6/mkspecs/modules/qt_KCompactDisc.pri
-* /usr/share/doc/libkcompactdisc-24.05.0/COPYING
-* /usr/share/doc/libkcompactdisc-24.05.0/COPYING.LIB
+* /usr/share/doc/libkcompactdisc-24.05.1/COPYING
+* /usr/share/doc/libkcompactdisc-24.05.1/COPYING.LIB
 * /usr/share/locale/ar/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkcompactdisc.mo
 * /usr/share/locale/be/LC_MESSAGES/libkcompactdisc.mo

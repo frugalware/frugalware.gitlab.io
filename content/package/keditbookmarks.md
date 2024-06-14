@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "keditbookmarks 24.05.0-1"
-version = "24.05.0-1"
+title = "keditbookmarks 24.05.1-1"
+version = "24.05.1-1"
 description = "KDE's bookmarks editor"
-date = "2024-05-24T09:39:58"
+date = "2024-06-14T19:11:23"
 aliases = "/packages/88143"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "363368"
-usize = "1582247"
-sha1sum = "99c8475e35e7ba80f9dc9d2f221b92d7e8fb09d7"
-depends = "['kparts>=6.2.0']"
+size = "362628"
+usize = "1562881"
+sha1sum = "2f68885248787e025f77e0ea1b1297495d4add3e"
+depends = "['kparts>=6.3.0']"
 +++
 ### Description: 
 KDE's bookmarks editor
@@ -51,9 +51,9 @@ KDE's bookmarks editor
 * /usr/share/doc/HTML/uk/keditbookmarks/index.docbook
 * /usr/share/doc/HTML/zh_CN/keditbookmarks/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/keditbookmarks/index.docbook
-* /usr/share/doc/keditbookmarks-24.05.0/COPYING
-* /usr/share/doc/keditbookmarks-24.05.0/COPYING.DOC
-* /usr/share/doc/keditbookmarks-24.05.0/TODO
+* /usr/share/doc/keditbookmarks-24.05.1/COPYING
+* /usr/share/doc/keditbookmarks-24.05.1/COPYING.DOC
+* /usr/share/doc/keditbookmarks-24.05.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/ast/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/be/LC_MESSAGES/keditbookmarks.mo
