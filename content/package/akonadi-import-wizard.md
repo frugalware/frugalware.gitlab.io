@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadi-import-wizard 24.05.0-1"
-version = "24.05.0-1"
+title = "akonadi-import-wizard 24.05.1-1"
+version = "24.05.1-1"
 description = "KMail import wizard application."
-date = "2024-05-24T14:20:52"
+date = "2024-06-14T21:15:27"
 aliases = "/packages/218923"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "681656"
-usize = "1913986"
-sha1sum = "c6651dd49b386bf86c019cc60d98f03675bbb4b5"
+size = "679620"
+usize = "1854882"
+sha1sum = "a2533206b6a96c2dad48d55907cd6f8ded7f8cc5"
 depends = "['mailcommon>=24.05.1']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++

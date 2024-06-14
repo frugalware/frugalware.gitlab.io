@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-data-exporter 24.05.0-1"
-version = "24.05.0-1"
+title = "pim-data-exporter 24.05.1-1"
+version = "24.05.1-1"
 description = "Assistant to backup and archive PIM data and configuration"
-date = "2024-05-24T14:37:58"
+date = "2024-06-14T21:28:39"
 aliases = "/packages/218941"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "489568"
-usize = "1890672"
-sha1sum = "ee224fe916b4d4259c2560de858a9c9f62830e6c"
-depends = "['calendarsupport>=24.05.0', 'kalarm>=24.05.0', 'mailcommon>=24.05.0']"
+size = "487892"
+usize = "1866748"
+sha1sum = "5892098a915ed1f66c9e82b1de3a64087cbf7e5b"
+depends = "['calendarsupport>=24.05.1', 'kalarm>=24.05.1', 'mailcommon>=24.05.1']"
 +++
 ### Description: 
 Assistant to backup and archive PIM data and configuration
@@ -20,7 +20,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/bin/pimdataexporter
 * /usr/bin/pimdataexporterconsole
 * /usr/lib/libpimdataexporterprivate.so.6
-* /usr/lib/libpimdataexporterprivate.so.6.1.0
+* /usr/lib/libpimdataexporterprivate.so.6.1.1
 * /usr/share/applications/org.kde.pimdataexporter.desktop
 * /usr/share/config.kcfg/pimdataexporterglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/pimsettingexporter/index.cache.bz2
@@ -49,7 +49,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/doc/HTML/sv/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.docbook
-* /usr/share/doc/pim-data-exporter-24.05.0/TODO
+* /usr/share/doc/pim-data-exporter-24.05.1/TODO
 * /usr/share/locale/ar/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ast/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/az/LC_MESSAGES/pimdataexporter.mo
