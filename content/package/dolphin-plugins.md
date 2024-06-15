@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "436088"
 usize = "2798162"
 sha1sum = "5a58fc6800fa7ad1bc649cddfed204e648bedb25"
-depends = "['dolphin>=24.05.0', 'ktexteditor>=6.2.0']"
+depends = "['dolphin>=24.05.1', 'ktexteditor>=6.3.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.
@@ -43,6 +43,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/bg/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/bg/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/bg/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/bs/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/bs/LC_MESSAGES/fileviewgitplugin.mo
@@ -84,6 +85,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/en_GB/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/eo/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/eo/LC_MESSAGES/fileviewgitplugin.mo
@@ -128,6 +130,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/gl/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/gl/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/gl/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/he/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/makefileactions.mo

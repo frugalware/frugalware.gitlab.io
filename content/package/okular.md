@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "6867148"
 usize = "19547999"
 sha1sum = "d28b5f6a03aa3f72d6b1ad30beba1a827bd95e06"
-depends = "['attica>=6.2.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.05.0', 'kirigami>=6.2.0', 'kparts>=6.2.0', 'kpty>=6.2.0', 'libkexiv2>=24.05.0', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.0.5', 'poppler-qt6>=0.60.1-2', 'purpose>=6.2.0', 'qca', 'qt6-speech>=6.7.1', 'qt6-svg>=6.7.1', 'threadweaver>=6.2.0']"
+depends = "['attica>=6.3.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.05.1', 'kirigami>=6.3.0', 'kparts>=6.3.0', 'kpty>=6.3.0', 'libkexiv2>=24.05.1', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.0.5', 'poppler-qt6>=0.60.1-2', 'purpose>=6.3.0', 'qca', 'qt6-speech>=6.7.1', 'qt6-svg>=6.7.1', 'threadweaver>=6.3.0']"
 reverse_depends = "['kile']"
 +++
 ### Description: 
@@ -290,10 +290,10 @@ KDE universal document viewer.
 * /usr/share/doc/HTML/uk/okular/mainwindow.png
 * /usr/share/doc/HTML/uk/okular/signatures-bar.png
 * /usr/share/doc/HTML/uk/okular/signatures-panel.png
-* /usr/share/doc/okular-24.05.0/README.clang-format
-* /usr/share/doc/okular-24.05.0/README.internals.png
-* /usr/share/doc/okular-24.05.0/README.md
-* /usr/share/doc/okular-24.05.0/TODO
+* /usr/share/doc/okular-24.05.1/README.clang-format
+* /usr/share/doc/okular-24.05.1/README.internals.png
+* /usr/share/doc/okular-24.05.1/README.md
+* /usr/share/doc/okular-24.05.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/okular.png
 * /usr/share/icons/hicolor/16x16/apps/okular.png
 * /usr/share/icons/hicolor/22x22/apps/okular.png
