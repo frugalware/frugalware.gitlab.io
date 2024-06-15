@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalk 24.05.0-1"
-version = "24.05.0-1"
+title = "kalk 24.05.1-1"
+version = "24.05.1-1"
 description = "A powerful cross-platform calculator application built with the Kirigami framework"
-date = "2024-05-25T12:53:31"
+date = "2024-06-15T08:44:39"
 aliases = "/packages/220970"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "71192"
-usize = "249078"
-sha1sum = "5c4a8f3c8a536baeb19fab1a837c31ff9e1ca117"
+size = "71116"
+usize = "245078"
+sha1sum = "1fcec48c27009a577ae39ce90f621d74e18205df"
 depends = "['kconfig', 'kcoreaddons', 'kirigami', 'kunitconversion', 'libqalculate>=5.0.0', 'mpfr']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ A powerful cross-platform calculator application built with the Kirigami framewo
 ### Files: 
 * /usr/bin/kalk
 * /usr/share/applications/org.kde.kalk.desktop
-* /usr/share/doc/kalk-24.05.0/README.md
+* /usr/share/doc/kalk-24.05.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kalk.svg
 * /usr/share/locale/ar/LC_MESSAGES/kalk.mo
 * /usr/share/locale/ast/LC_MESSAGES/kalk.mo

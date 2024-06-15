@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konversation 24.05.0-1"
-version = "24.05.0-1"
+title = "konversation 24.05.1-1"
+version = "24.05.1-1"
 description = "IRC clinet for KDE5"
-date = "2024-05-25T12:03:57"
+date = "2024-06-15T08:29:00"
 aliases = "/packages/218844"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4807676"
-usize = "16429125"
-sha1sum = "0fb20125c5d365f8214c85efe2e3505aec67cf53"
-depends = "['kidletime>=6.2.0', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kparts>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.1']"
+size = "4810472"
+usize = "16430922"
+sha1sum = "c81c1854ce0a925c2bbb68eaa3d92f3b02f6f041"
+depends = "['kidletime>=6.3.0', 'knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kparts>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.1']"
 +++
 ### Description: 
 IRC clinet for KDE5
@@ -133,11 +133,11 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/uk/konversation/index.cache.bz2
 * /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-24.05.0/AUTHORS
-* /usr/share/doc/konversation-24.05.0/ChangeLog
-* /usr/share/doc/konversation-24.05.0/INSTALL
-* /usr/share/doc/konversation-24.05.0/NEWS
-* /usr/share/doc/konversation-24.05.0/README
+* /usr/share/doc/konversation-24.05.1/AUTHORS
+* /usr/share/doc/konversation-24.05.1/ChangeLog
+* /usr/share/doc/konversation-24.05.1/INSTALL
+* /usr/share/doc/konversation-24.05.1/NEWS
+* /usr/share/doc/konversation-24.05.1/README
 * /usr/share/icons/hicolor/128x128/actions/konv_message.png
 * /usr/share/icons/hicolor/128x128/apps/konversation.png
 * /usr/share/icons/hicolor/16x16/actions/konv_message.png

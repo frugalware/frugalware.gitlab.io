@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "keysmith 24.05.0-1"
-version = "24.05.0-1"
+title = "keysmith 24.05.1-1"
+version = "24.05.1-1"
 description = "OTP client for Plasma Mobile and Desktop"
-date = "2024-05-25T13:02:35"
+date = "2024-06-15T08:49:25"
 aliases = "/packages/220977"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "179760"
-usize = "801481"
-sha1sum = "9aa392bd3c967030f4493b136d92123c81ad57f1"
+size = "179732"
+usize = "800305"
+sha1sum = "5486047deec7ec7bddc22ef0638ee63d82906db9"
 depends = "['kdbusaddons', 'ki18n', 'kirigami', 'kwindowsystem', 'libsodium>=1.0.19', 'qqc2-desktop-style', 'qt6-5compat>=', 'qt6-svg>=']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ OTP client for Plasma Mobile and Desktop
 ### Files: 
 * /usr/bin/keysmith
 * /usr/share/applications/org.kde.keysmith.desktop
-* /usr/share/doc/keysmith-24.05.0/COPYING
-* /usr/share/doc/keysmith-24.05.0/README.md
+* /usr/share/doc/keysmith-24.05.1/COPYING
+* /usr/share/doc/keysmith-24.05.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/keysmith.svg
 * /usr/share/locale/ast/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/ca/LC_MESSAGES/keysmith.mo

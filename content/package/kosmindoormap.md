@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kosmindoormap 24.05.0-1"
-version = "24.05.0-1"
+title = "kosmindoormap 24.05.1-1"
+version = "24.05.1-1"
 description = "OSM multi-floor indoor map renderer"
-date = "2024-05-25T12:10:22"
+date = "2024-06-15T08:34:07"
 aliases = "/packages/220317"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "702552"
-usize = "2321519"
-sha1sum = "cf2be0661437d218ed87822970a2030c0be6fe0e"
-depends = "['ki18n>=6.2.0', 'kopeninghours>=24.05.0', 'kpublictransport=>24.05.0']"
+size = "703156"
+usize = "2299710"
+sha1sum = "77f2d675479e578b3bc358a94ead82e7bfca1aa4"
+depends = "['ki18n>=6.3.0', 'kopeninghours>=24.05.1', 'kpublictransport=>24.05.1']"
 reverse_depends = "['itinerary']"
 +++
 ### Description: 
@@ -75,10 +75,10 @@ OSM multi-floor indoor map renderer
 * /usr/lib/cmake/KOSMIndoorMap/KOSMIndoorMapTargets.cmake
 * /usr/lib/libKOSM.so
 * /usr/lib/libKOSM.so.1
-* /usr/lib/libKOSM.so.24.05.0
+* /usr/lib/libKOSM.so.24.05.1
 * /usr/lib/libKOSMIndoorMap.so
 * /usr/lib/libKOSMIndoorMap.so.1
-* /usr/lib/libKOSMIndoorMap.so.24.05.0
+* /usr/lib/libKOSMIndoorMap.so.24.05.1
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/IndoorMap.qml
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/IndoorMapAttributionLabel.qml
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/IndoorMapScale.qml
@@ -94,8 +94,8 @@ OSM multi-floor indoor map renderer
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/kosmeditorcontrollerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/libkosmeditorcontrollerplugin.so
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/qmldir
-* /usr/share/doc/kosmindoormap-24.05.0/README.md
-* /usr/share/doc/kosmindoormap-24.05.0/README.md.license
+* /usr/share/doc/kosmindoormap-24.05.1/README.md
+* /usr/share/doc/kosmindoormap-24.05.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ast/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ca/LC_MESSAGES/kosmindoormap.mo

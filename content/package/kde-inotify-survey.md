@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-inotify-survey 24.05.0-1"
-version = "24.05.0-1"
+title = "kde-inotify-survey 24.05.1-1"
+version = "24.05.1-1"
 description = "Tooling for monitoring inotify limits and informing the user when they have been or about to be reached"
-date = "2024-05-25T12:58:41"
+date = "2024-06-15T08:48:19"
 aliases = "/packages/220973"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "51528"
-usize = "253117"
-sha1sum = "6bfb339af9c07a038d721bf4dc0a881958708745"
+size = "51472"
+usize = "246389"
+sha1sum = "241ac4b09c1417048d845376ae5e2840c489c081"
 depends = "['kauth>=', 'knotifications>=']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ Tooling for monitoring inotify limits and informing the user when they have been
 * /usr/lib/qt6/plugins/kf6/kded/inotify.so
 * /usr/share/dbus-1/system-services/org.kde.kded.inotify.service
 * /usr/share/dbus-1/system.d/org.kde.kded.inotify.conf
-* /usr/share/doc/kde-inotify-survey-24.05.0/README.md
+* /usr/share/doc/kde-inotify-survey-24.05.1/README.md
 * /usr/share/knotifications6/org.kde.kded.inotify.notifyrc
 * /usr/share/locale/ast/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/ca/LC_MESSAGES/kde-inotify-survey.mo
@@ -37,6 +37,7 @@ Tooling for monitoring inotify limits and informing the user when they have been
 * /usr/share/locale/fr/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/gl/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/he/LC_MESSAGES/kde-inotify-survey.mo
+* /usr/share/locale/hu/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/ia/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/id/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/it/LC_MESSAGES/kde-inotify-survey.mo

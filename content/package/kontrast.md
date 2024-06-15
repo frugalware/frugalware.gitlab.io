@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontrast 24.05.0-1"
-version = "24.05.0-1"
+title = "kontrast 24.05.1-1"
+version = "24.05.1-1"
 description = "Tool to check contrast for colors that allows verifying that your colors are correctly accessible"
-date = "2024-05-25T12:01:59"
+date = "2024-06-15T08:27:20"
 aliases = "/packages/220313"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "175028"
-usize = "480223"
-sha1sum = "aa3ebd757048b8c817ab74b931395b14da389696"
-depends = "['futuresql', 'kcoreaddons>=6.2.0', 'kdeclarative>=6.2.0', 'ki18n>=6.2.0', 'kirigami>=6.2.0', 'qcoro']"
+size = "174928"
+usize = "474118"
+sha1sum = "f6a85fd12f7612ff63000ed4a0fe3409ad6e375e"
+depends = "['futuresql', 'kcoreaddons>=6.3.0', 'kdeclarative>=6.3.0', 'ki18n>=6.3.0', 'kirigami>=6.3.0', 'qcoro']"
 +++
 ### Description: 
 Tool to check contrast for colors that allows verifying that your colors are correctly accessible
@@ -34,7 +34,7 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/doc/HTML/sv/kontrast/index.docbook
 * /usr/share/doc/HTML/uk/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/uk/kontrast/index.docbook
-* /usr/share/doc/kontrast-24.05.0/README.md
+* /usr/share/doc/kontrast-24.05.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kontrast.svg
 * /usr/share/locale/ast/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ca/LC_MESSAGES/kontrast.mo

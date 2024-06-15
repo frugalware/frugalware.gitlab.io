@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "merkuro 24.05.0-1"
-version = "24.05.0-1"
+title = "merkuro 24.05.1-1"
+version = "24.05.1-1"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2024-05-25T14:05:38"
+date = "2024-06-15T09:10:28"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1229148"
-usize = "5275707"
-sha1sum = "3a07c14d1250b12dd76961af104d6f3918b19da1"
+size = "1225956"
+usize = "5242220"
+sha1sum = "07eb0208a9c384e2614ce8e24fc60f4ad59ed76f"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -104,7 +104,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/applications/org.kde.merkuro.calendar.desktop
 * /usr/share/applications/org.kde.merkuro.contact.desktop
 * /usr/share/applications/org.kde.merkuro.mail.desktop
-* /usr/share/doc/merkuro-24.05.0/README.md
+* /usr/share/doc/merkuro-24.05.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png

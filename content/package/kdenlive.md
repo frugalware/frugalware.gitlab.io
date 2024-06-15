@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenlive 24.05.0-1"
-version = "24.05.0-1"
+title = "kdenlive 24.05.1-1"
+version = "24.05.1-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2024-05-25T12:21:12"
+date = "2024-06-15T08:39:00"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "13734568"
-usize = "72385867"
-sha1sum = "0b0a12a71560e2b27c8ef21bf4e2be42824bd9ac"
-depends = "['kfilemetadata>=6.2.0', 'knewstuff>=6.2.0', 'knotifyconfig>=6.2.0', 'kplotting>=6.2.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.2.0', 'qt6-declarative>=6.7.1', 'qt6-networkauth>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
+size = "13757148"
+usize = "72440605"
+sha1sum = "e96e0371e83f8de63ad1e5e508ca5682718a3c1b"
+depends = "['kfilemetadata>=6.3.0', 'knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kplotting>=6.3.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.3.0', 'qt6-declarative>=6.7.1', 'qt6-networkauth>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-24.05.0/AUTHORS
-* /usr/share/doc/kdenlive-24.05.0/COPYING
-* /usr/share/doc/kdenlive-24.05.0/README.md
-* /usr/share/doc/kdenlive-24.05.0/README.md.license
+* /usr/share/doc/kdenlive-24.05.1/AUTHORS
+* /usr/share/doc/kdenlive-24.05.1/COPYING
+* /usr/share/doc/kdenlive-24.05.1/README.md
+* /usr/share/doc/kdenlive-24.05.1/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt

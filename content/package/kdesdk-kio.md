@@ -11,14 +11,14 @@ arch = "x86_64"
 size = "45124"
 usize = "215374"
 sha1sum = "0fa97b9f5c41bc476c6fd5c1fe8b9695f00ec97c"
-depends = "['ki18n>=6.2.0', 'kio>=6.2.0']"
+depends = "['ki18n>=6.3.0', 'kio>=6.3.0']"
 +++
 ### Description: 
 KIO-Slaves.
 
 ### Files: 
 * /usr/lib/qt6/plugins/kf6/kio/perldoc.so
-* /usr/share/doc/kdesdk-kio-24.05.0/COPYING
+* /usr/share/doc/kdesdk-kio-24.05.1/COPYING
 * /usr/share/kio_perldoc/pod2html.pl
 * /usr/share/locale/bs/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_perldoc.mo
