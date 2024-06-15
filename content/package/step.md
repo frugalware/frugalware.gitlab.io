@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "step 24.05.0-3"
-version = "24.05.0-3"
+title = "step 24.05.1-1"
+version = "24.05.1-1"
 description = "Interactive Physics Simulator."
-date = "2024-05-28T23:33:41"
+date = "2024-06-15T10:11:17"
 aliases = "/packages/152841"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1267336"
-usize = "11821514"
-sha1sum = "87ddc2ed86bc14243a282acb57d1cff9c360c92b"
+size = "1236656"
+usize = "11853859"
+sha1sum = "26a6f87817f2e2ce6274652f318b6ddcade80b7c"
 depends = "['gsl>=2.8', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstuff5>=5.116.0', 'libqalculate>=5.0.0']"
 +++
 ### Description: 
@@ -53,6 +53,10 @@ Interactive Physics Simulator.
 * /usr/share/doc/HTML/et/step/index.cache.bz2
 * /usr/share/doc/HTML/et/step/index.docbook
 * /usr/share/doc/HTML/et/step/tutorials.docbook
+* /usr/share/doc/HTML/fr/step/examples.docbook
+* /usr/share/doc/HTML/fr/step/index.cache.bz2
+* /usr/share/doc/HTML/fr/step/index.docbook
+* /usr/share/doc/HTML/fr/step/tutorials.docbook
 * /usr/share/doc/HTML/it/step/examples.docbook
 * /usr/share/doc/HTML/it/step/index.cache.bz2
 * /usr/share/doc/HTML/it/step/index.docbook
@@ -78,11 +82,11 @@ Interactive Physics Simulator.
 * /usr/share/doc/HTML/uk/step/index.docbook
 * /usr/share/doc/HTML/uk/step/mainwindow.png
 * /usr/share/doc/HTML/uk/step/tutorials.docbook
-* /usr/share/doc/step-24.05.0/AUTHORS
-* /usr/share/doc/step-24.05.0/ChangeLog
-* /usr/share/doc/step-24.05.0/INSTALL
-* /usr/share/doc/step-24.05.0/README
-* /usr/share/doc/step-24.05.0/TODO
+* /usr/share/doc/step-24.05.1/AUTHORS
+* /usr/share/doc/step-24.05.1/ChangeLog
+* /usr/share/doc/step-24.05.1/INSTALL
+* /usr/share/doc/step-24.05.1/README
+* /usr/share/doc/step-24.05.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/step.png
 * /usr/share/icons/hicolor/16x16/apps/step.png
 * /usr/share/icons/hicolor/22x22/actions/pointer.png

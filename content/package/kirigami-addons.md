@@ -12,7 +12,7 @@ size = "519344"
 usize = "2989792"
 sha1sum = "85eac35a6610bc2f2f07dcf35ce258cbcf53dcac"
 depends = "['kconfig>=6.2.0', 'kirigami>=6.2.0']"
-reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kde', 'discover', 'elisa', 'filelight', 'francis', 'itinerary', 'kalm', 'kasts', 'kclock', 'kdeconnect-kde', 'kdeconnect-kde', 'kdeplasma-addons', 'kidentitymanagement', 'krecorder', 'ktrip', 'kweather', 'kwordquiz', 'merkuro', 'neochat', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-welcome', 'plasma-workspace', 'plasmatube', 'qmlkonsole', 'tokodon']"
+reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kde', 'discover', 'elisa', 'filelight', 'francis', 'itinerary', 'kalm', 'kasts', 'kclock', 'kdeconnect-kde', 'kdeconnect-kde', 'kdeplasma-addons', 'kidentitymanagement', 'krecorder', 'ktrip', 'kweather', 'kwordquiz', 'merkuro', 'neochat', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-welcome', 'plasma-workspace', 'plasmatube', 'qmlkonsole', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
 Add-ons for the Kirigami framework

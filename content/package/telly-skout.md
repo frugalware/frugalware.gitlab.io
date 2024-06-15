@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "telly-skout 24.02.2-3"
-version = "24.02.2-3"
+title = "telly-skout 24.05.1-1"
+version = "24.05.1-1"
 description = "Convergent TV guide based on Kirigami"
-date = "2024-04-17T06:12:56"
+date = "2024-06-15T09:44:19"
 aliases = "/packages/220995"
-categories = ['kde5-extra']
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "96420"
-usize = "355302"
-sha1sum = "7bd67900e4db330fb60f2b6f2bcc361cd7169e79"
-depends = "['kconfig5', 'kcrash5', 'ki18n5', 'kirigami-addons5']"
+size = "150564"
+usize = "592059"
+sha1sum = "2c274f6ad8b22de529e32b602419a81f2174650d"
+depends = "['kconfig', 'kcrash', 'ki18n', 'kirigami-addons', 'qqc2-desktop-style']"
 +++
 ### Description: 
 Convergent TV guide based on Kirigami
@@ -19,8 +19,9 @@ Convergent TV guide based on Kirigami
 ### Files: 
 * /usr/bin/telly-skout
 * /usr/share/applications/org.kde.telly-skout.desktop
-* /usr/share/doc/telly-skout-24.02.2/README.md
+* /usr/share/doc/telly-skout-24.05.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.telly-skout.svg
+* /usr/share/locale/ast/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ca/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/cs/LC_MESSAGES/telly-skout.mo
@@ -32,11 +33,15 @@ Convergent TV guide based on Kirigami
 * /usr/share/locale/fi/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/fr/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/gl/LC_MESSAGES/telly-skout.mo
+* /usr/share/locale/he/LC_MESSAGES/telly-skout.mo
+* /usr/share/locale/hu/LC_MESSAGES/telly-skout.mo
+* /usr/share/locale/ia/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/it/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ja/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ka/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ko/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/lt/LC_MESSAGES/telly-skout.mo
+* /usr/share/locale/lv/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/nl/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/pl/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/pt/LC_MESSAGES/telly-skout.mo

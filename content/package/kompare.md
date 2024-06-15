@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "887752"
 usize = "2685137"
 sha1sum = "9d16a3636803186bf03602ab482fa0287e244869"
-depends = "['ktexteditor5>=5.116.0', 'libkomparediff2>=24.05.0']"
+depends = "['ktexteditor5>=5.116.0', 'libkomparediff2>=24.05.1']"
 +++
 ### Description: 
 Diff/Patch Frontend.
@@ -75,10 +75,10 @@ Diff/Patch Frontend.
 * /usr/share/doc/HTML/uk/kompare/settings-diff4.png
 * /usr/share/doc/HTML/uk/kompare/settings-view1.png
 * /usr/share/doc/HTML/uk/kompare/settings-view2.png
-* /usr/share/doc/kompare-24.05.0/AUTHORS
-* /usr/share/doc/kompare-24.05.0/ChangeLog
-* /usr/share/doc/kompare-24.05.0/README
-* /usr/share/doc/kompare-24.05.0/TODO
+* /usr/share/doc/kompare-24.05.1/AUTHORS
+* /usr/share/doc/kompare-24.05.1/ChangeLog
+* /usr/share/doc/kompare-24.05.1/README
+* /usr/share/doc/kompare-24.05.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kompare.png
 * /usr/share/icons/hicolor/16x16/apps/kompare.png
 * /usr/share/icons/hicolor/22x22/apps/kompare.png
