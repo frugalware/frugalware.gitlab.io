@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "element 1.11.68-1"
-version = "1.11.68-1"
+title = "element 1.11.68-2"
+version = "1.11.68-2"
 description = "A feature-rich client for Matrix.org"
-date = "2024-06-05T08:20:51"
+date = "2024-06-15T13:35:40"
 aliases = "/packages/220170"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/vector-im/element-web"
 arch = "x86_64"
-size = "98989504"
-usize = "356916821"
-sha1sum = "285487e44a42bac4d3263c77b2dfcdf387870c76"
+size = "98997956"
+usize = "357058096"
+sha1sum = "d2258f3ad75bdfdcb354e92fd10e22b67cd7842d"
 depends = "['7zip', 'libsecret', 'sqlcipher']"
 +++
 ### Description: 
