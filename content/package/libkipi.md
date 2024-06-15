@@ -12,6 +12,7 @@ size = "100028"
 usize = "270112"
 sha1sum = "3dab662ed53133b113e5172b4ea4cb6c29e8095d"
 depends = "['kxmlgui5>=5.116.0', 'qt5-svg>=5.15.14', 'qt5-x11extras>=5.15.14']"
+reverse_depends = "['kipi-plugins']"
 +++
 ### Description: 
 KDE Image Plugin Interface, a C++ library to share plugins among graphic release-service.
