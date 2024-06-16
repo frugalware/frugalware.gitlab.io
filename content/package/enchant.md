@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "enchant 2.8.0-1"
-version = "2.8.0-1"
+title = "enchant 2.8.1-1"
+version = "2.8.1-1"
 description = "Generic spell checking library"
-date = "2024-06-03T08:58:53"
+date = "2024-06-16T14:05:42"
 aliases = "/packages/3564"
 categories = ['apps']
 upstreamurl = "https://abiword.github.io/enchant/"
 arch = "x86_64"
-size = "72824"
-usize = "267226"
-sha1sum = "d40a7b41e1938749f64a00177c4c2f6027ea2914"
+size = "73152"
+usize = "234817"
+sha1sum = "f1491e44ccd0dad53593139a642b0ccb4397233b"
 depends = "['aspell', 'glib2>=2.50.0', 'hspell', 'hunspell>=1.7.0', 'libstdc++>=11.2']"
 reverse_depends = "['claws-mail', 'gspell', 'gtkspell', 'gtkspell3', 'kvirc', 'lyx', 'pyenchant', 'sylpheed', 'webkit-gtk3']"
 license = "LGPL"
@@ -28,18 +28,18 @@ Generic spell checking library
 * /usr/lib/enchant-2/enchant_hunspell.so
 * /usr/lib/libenchant-2.so
 * /usr/lib/libenchant-2.so.2
-* /usr/lib/libenchant-2.so.2.8.0
+* /usr/lib/libenchant-2.so.2.8.1
 * /usr/lib/pkgconfig/enchant-2.pc
-* /usr/share/doc/enchant-2.8.0/AUTHORS
-* /usr/share/doc/enchant-2.8.0/ChangeLog
-* /usr/share/doc/enchant-2.8.0/COPYING.LIB
-* /usr/share/doc/enchant-2.8.0/enchant-2.html
-* /usr/share/doc/enchant-2.8.0/enchant-lsmod-2.html
-* /usr/share/doc/enchant-2.8.0/enchant.html
-* /usr/share/doc/enchant-2.8.0/HACKING
-* /usr/share/doc/enchant-2.8.0/INSTALL
-* /usr/share/doc/enchant-2.8.0/NEWS
-* /usr/share/doc/enchant-2.8.0/README.md
+* /usr/share/doc/enchant-2.8.1/AUTHORS
+* /usr/share/doc/enchant-2.8.1/ChangeLog
+* /usr/share/doc/enchant-2.8.1/COPYING.LIB
+* /usr/share/doc/enchant-2.8.1/enchant-2.html
+* /usr/share/doc/enchant-2.8.1/enchant-lsmod-2.html
+* /usr/share/doc/enchant-2.8.1/enchant.html
+* /usr/share/doc/enchant-2.8.1/HACKING
+* /usr/share/doc/enchant-2.8.1/INSTALL
+* /usr/share/doc/enchant-2.8.1/NEWS
+* /usr/share/doc/enchant-2.8.1/README.md
 * /usr/share/enchant-2/enchant.ordering
 * /usr/share/man/man1/enchant-2.1.gz
 * /usr/share/man/man1/enchant-lsmod-2.1.gz
