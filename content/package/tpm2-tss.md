@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tpm2-tss 4.1.3-1"
-version = "4.1.3-1"
+title = "tpm2-tss 4.1.3-2"
+version = "4.1.3-2"
 description = "Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)"
-date = "2024-05-28T09:48:00"
+date = "2024-06-16T17:47:04"
 aliases = "/packages/219962"
 categories = ['lib']
 upstreamurl = "https://github.com/tpm2-software/tpm2-tss"
 arch = "x86_64"
-size = "764548"
-usize = "3184543"
-sha1sum = "03ed9edbb6878495f204f8f84f3c8680f3cd89ef"
+size = "772336"
+usize = "3101031"
+sha1sum = "deb28b4a3f544ff818a6092e3762a1ae007566e8"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
@@ -108,7 +108,7 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /usr/lib/pkgconfig/tss2-tcti-spidev.pc
 * /usr/lib/pkgconfig/tss2-tcti-swtpm.pc
 * /usr/lib/pkgconfig/tss2-tctildr.pc
-* /usr/lib/udev/rules.d/tpm-udev.rules
+* /usr/lib/udev/rules.d/60-tpm-udev.rules
 * /usr/share/doc/tpm2-tss-4.1.3/AUTHORS
 * /usr/share/doc/tpm2-tss-4.1.3/INSTALL.md
 * /usr/share/doc/tpm2-tss-4.1.3/LICENSE

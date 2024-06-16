@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liblirc 0.10.2-3"
-version = "0.10.2-3"
+title = "liblirc 0.10.2-4"
+version = "0.10.2-4"
 description = "Client library for lirc."
-date = "2024-01-10T21:00:41"
+date = "2024-06-16T15:27:46"
 aliases = "/packages/73218"
 categories = ['lib']
 upstreamurl = "http://www.lirc.org/"
 arch = "x86_64"
-size = "306372"
-usize = "1777467"
-sha1sum = "4dce799e3363df6e9a2b2391c38797aff130c210"
+size = "319300"
+usize = "1543887"
+sha1sum = "22c70ee7eb6d62a08a30b3a8f80862ef0768b4fa"
 depends = "['glibc>=2.35', 'python3>=3.12']"
 reverse_depends = "['lirc', 'mencoder', 'mplayer', 'mpv', 'pulseaudio-lirc']"
 +++

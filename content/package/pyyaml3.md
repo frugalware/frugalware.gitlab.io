@@ -12,7 +12,7 @@ size = "99712"
 usize = "484980"
 sha1sum = "5ea9a2016a83c853a0728c4c8a459751cd1ae0d8"
 depends = "['libyaml', 'python3>=3.9.6']"
-reverse_depends = "['crawl', 'crawl-tiles', 'hotdoc', 'lutris']"
+reverse_depends = "['crawl', 'crawl-tiles', 'hotdoc', 'lirc', 'lutris']"
 +++
 ### Description: 
 a complete python YAML 1.1 parser
