@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hplip-driver 3.23.12-6"
-version = "3.23.12-6"
+title = "hplip-driver 3.24.4-1"
+version = "3.24.4-1"
 description = "HPLIP printing, scanning, and scanning driver for HP inkjet and laser based printers."
-date = "2024-05-26T21:40:10"
+date = "2024-06-17T09:55:58"
 aliases = "/packages/88588"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
-size = "15449016"
-usize = "22821303"
-sha1sum = "b38a07afc1cc29202dd9ef4e8169f468a0409b1c"
+size = "15799648"
+usize = "22834187"
+sha1sum = "745c846a85d230195b487a53d0811f848ca44481"
 depends = "['cups-filters', 'foomatic-db', 'foomatic-db-engine', 'ghostscript', 'libcups>=2.1.2-2', 'libjpeg-turbo', 'libusb1>=1.0.20-4', 'net-snmp>=5.9']"
 reverse_depends = "['hplip']"
 +++
@@ -19,7 +19,6 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 
 ### Files: 
 * /etc/hp/hplip.conf
-* /etc/udev/rules.d/56-hpmud.rules
 * /usr/bin/hp-makeuri
 * /usr/lib/cups/backend/hp
 * /usr/lib/cups/backend/hpfax
@@ -39,6 +38,7 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/lib/sane/libsane-hpaio.so
 * /usr/lib/sane/libsane-hpaio.so.1
 * /usr/lib/sane/libsane-hpaio.so.1.0.0
+* /usr/lib/udev/rules.d/56-hpmud.rules
 * /usr/share/cups/drv/hp/hpcups.drv
 * /usr/share/cups/mime/pstotiff.convs
 * /usr/share/cups/mime/pstotiff.types
@@ -1072,6 +1072,10 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-officejet_8010_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_8020_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_8040_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_8120e_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_8120_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_8130e_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_8130_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_8700.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_9010_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_9100_series-pcl3.ppd.gz
@@ -1119,6 +1123,10 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-officejet_pro_8020_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_8030_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_8100.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_8120e_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_8120_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_8130e_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_8130_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_8210-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_8500_a909a.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_8500_a909g.ppd.gz
@@ -1140,6 +1148,10 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-officejet_pro_9110b_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_9120b_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_9130b_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_9720e_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_9720_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_9730e_series.ppd.gz
+* /usr/share/cups/model/HP/hp-officejet_pro_9730_series.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_k5300.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_k5400.ppd.gz
 * /usr/share/cups/model/HP/hp-officejet_pro_k550.ppd.gz
