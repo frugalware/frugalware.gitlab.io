@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "privoxy 3.0.34-2"
-version = "3.0.34-2"
+title = "privoxy 3.0.34-3"
+version = "3.0.34-3"
 description = "Privoxy is a web proxy with advanced filtering capabilities."
-date = "2024-01-15T15:41:37"
+date = "2024-06-17T20:07:08"
 aliases = "/packages/15113"
 categories = ['network-extra']
 upstreamurl = "http://www.privoxy.org/"
 arch = "x86_64"
-size = "541332"
-usize = "2303968"
-sha1sum = "e063293396c190ce36d2dc88204af5eb7d2632a4"
+size = "543552"
+usize = "2300193"
+sha1sum = "10ba2b443350d9beaeac0ea55f004be824b7a5a7"
 depends = "['pcre']"
 +++
 ### Description: 
@@ -66,6 +66,7 @@ Privoxy is a web proxy with advanced filtering capabilities.
 * /etc/privoxy/user.filter
 * /usr/bin/privoxy
 * /usr/lib/systemd/system/privoxy.service
+* /usr/lib/sysusers.d/privoxy.conf
 * /usr/share/doc/privoxy-3.0.34/AUTHORS
 * /usr/share/doc/privoxy-3.0.34/ChangeLog
 * /usr/share/doc/privoxy-3.0.34/developer-manual/coding.html
