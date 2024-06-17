@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pacman-tools 1.3.5-8"
-version = "1.3.5-8"
+title = "pacman-tools 1.3.5-9"
+version = "1.3.5-9"
 description = "Tools for developers for managing packages"
-date = "2024-05-10T09:55:03"
+date = "2024-06-17T14:14:07"
 aliases = "/packages/2424"
 categories = ['devel']
 upstreamurl = "https://ftp.frugalware.org/pub/other/pacman-tools"
 arch = "x86_64"
-size = "223160"
-usize = "571394"
-sha1sum = "bf5a6c6684f6242ae5eb02d0ac98c8f5748ed94b"
-depends = "['bash', 'glib2>=2.16.4-2', 'libxml2>=2.6.32-2', 'openssl>=1.0.0', 'pacman-g2>=3.9.0-31', 'perl>=5.34', 'python3', 'shadow', 'wget']"
+size = "223880"
+usize = "571422"
+sha1sum = "55db40443f1eea5dbfac50ddbc6aeeb155ec66f7"
+depends = "['bash', 'glib2>=2.16.4-2', 'openssl>=1.0.0', 'pacman-g2>=3.9.0-31', 'perl>=5.34', 'python3', 'shadow', 'wget']"
 +++
 ### Description: 
 Tools for developers for managing packages
@@ -46,6 +46,7 @@ Tools for developers for managing packages
 * /usr/lib/frugalware/fwmakepkg
 * /usr/lib/systemd/system/syncpkgcd.service
 * /usr/lib/systemd/system/syncpkgd.service
+* /usr/lib/sysusers.d/pacman-tools.conf
 * /usr/share/doc/pacman-tools-1.3.5/AUTHORS
 * /usr/share/doc/pacman-tools-1.3.5/Changelog
 * /usr/share/doc/pacman-tools-1.3.5/hooks/README

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "distcc 3.4-6"
-version = "3.4-6"
+title = "distcc 3.4-7"
+version = "3.4-7"
 description = "A distributed C, C++, Obj C compiler"
-date = "2024-01-10T19:37:36"
+date = "2024-06-17T14:07:37"
 aliases = "/packages/4212"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/distcc/distcc"
 arch = "x86_64"
-size = "484444"
-usize = "1954344"
-sha1sum = "9a698bae19f457b2c9b8e3ac7b6c96cfeb63d1a1"
+size = "487768"
+usize = "1926285"
+sha1sum = "f8565e9648b5de9aa90c33ed8a977289618b3fc9"
 depends = "['lzo', 'popt>=1.14-2', 'python3>=3.10', 'shadow>=4.1.2.1-2']"
 reverse_depends = "['distcc-gui']"
 +++
@@ -94,6 +94,7 @@ A distributed C, C++, Obj C compiler
 * /usr/lib/python3.12/site-packages/include_server/__pycache__/setup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/include_server/__pycache__/statistics.cpython-312.pyc
 * /usr/lib/systemd/system/distccd.service
+* /usr/lib/sysusers.d/distccd.conf
 * /usr/share/doc/distcc-3.4/AUTHORS
 * /usr/share/doc/distcc-3.4/ChangeLog
 * /usr/share/doc/distcc-3.4/COPYING

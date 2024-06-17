@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postgresql-plperl 16.3-2"
-version = "16.3-2"
+title = "postgresql-plperl 16.3-3"
+version = "16.3-3"
 description = "PostgreSQL perl bindings"
-date = "2024-06-17T12:57:08"
+date = "2024-06-17T13:20:11"
 aliases = "/packages/88517"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "35840"
+size = "35872"
 usize = "83984"
-sha1sum = "9a4bc7d5f54f697717e9f77d962f766d78d9bce7"
+sha1sum = "d0a3cd8d13c1f3d288f5b526e92d035d80e80e62"
 depends = "['perl>=2.26.1', 'postgresql>=16.3']"
 +++
 ### Description: 

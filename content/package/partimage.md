@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "partimage 0.6.9-17"
-version = "0.6.9-17"
+title = "partimage 0.6.9-18"
+version = "0.6.9-18"
 description = "a Linux/UNIX utility which saves partitions in many formats to an image file."
-date = "2024-06-17T12:50:34"
+date = "2024-06-17T13:14:37"
 aliases = "/packages/14960"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/partimage"
 arch = "x86_64"
-size = "223892"
-usize = "769903"
-sha1sum = "7700af0e1a3cbc1ca2b5ab9d68cb08a6d55be910"
+size = "224240"
+usize = "769904"
+sha1sum = "b20bc8972cdb8b188fd3ae0517f2929a29a8ec63"
 depends = "['bzip2', 'libstdc++', 'newt', 'openssl>=3.1.0', 'zlib>=1.2.12']"
 +++
 ### Description: 
