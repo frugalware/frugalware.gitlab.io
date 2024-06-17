@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "munin 2.0.75-1"
-version = "2.0.75-1"
+title = "munin 2.0.76-1"
+version = "2.0.76-1"
 description = "Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface."
-date = "2024-01-16T10:17:52"
+date = "2024-06-17T15:47:13"
 aliases = "/packages/9441"
 categories = ['network-extra']
 upstreamurl = "http://munin-monitoring.org/"
 arch = "x86_64"
-size = "903732"
-usize = "3105239"
-sha1sum = "8b810501d89ec368a5cb756ebffb1705798e05f2"
+size = "907636"
+usize = "3105887"
+sha1sum = "b034d2b72d41279e0bd4fd10034b02d3ffa5c07d"
 depends = "['perl-html-template', 'rrdtool>=1.7.1']"
 +++
 ### Description: 
@@ -338,14 +338,15 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /usr/lib/perl5/site_perl/current/Munin/Plugin.pm
 * /usr/lib/perl5/site_perl/current/Munin/Plugin/Pgsql.pm
 * /usr/lib/perl5/site_perl/current/Munin/Plugin/SNMP.pm
-* /usr/share/doc/munin-2.0.75/ChangeLog
-* /usr/share/doc/munin-2.0.75/COPYING
-* /usr/share/doc/munin-2.0.75/INSTALL
-* /usr/share/doc/munin-2.0.75/README
-* /usr/share/doc/munin-2.0.75/README.Frugalware
-* /usr/share/doc/munin-2.0.75/README.HP-UX
-* /usr/share/doc/munin-2.0.75/README.OSX
-* /usr/share/doc/munin-2.0.75/RELEASE
+* /usr/lib/sysusers.d/munin.conf
+* /usr/share/doc/munin-2.0.76/ChangeLog
+* /usr/share/doc/munin-2.0.76/COPYING
+* /usr/share/doc/munin-2.0.76/INSTALL
+* /usr/share/doc/munin-2.0.76/README
+* /usr/share/doc/munin-2.0.76/README.Frugalware
+* /usr/share/doc/munin-2.0.76/README.HP-UX
+* /usr/share/doc/munin-2.0.76/README.OSX
+* /usr/share/doc/munin-2.0.76/RELEASE
 * /usr/share/man/man1/munin-get.1perl.gz
 * /usr/share/man/man1/munin-node-configure.1perl.gz
 * /usr/share/man/man1/munin-node.1perl.gz

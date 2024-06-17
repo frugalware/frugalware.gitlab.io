@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "munin-node 2.0.75-1"
-version = "2.0.75-1"
+title = "munin-node 2.0.76-1"
+version = "2.0.76-1"
 description = "Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface. (Node)"
-date = "2024-01-16T10:17:52"
+date = "2024-06-17T15:47:13"
 aliases = "/packages/9442"
 categories = ['network-extra']
 upstreamurl = "http://munin-monitoring.org/"
 arch = "x86_64"
-size = "305596"
-usize = "1409661"
-sha1sum = "2ae1910af4343492f02af7a2d8fdd32ab0250f27"
+size = "307360"
+usize = "1409916"
+sha1sum = "e0177c043d1c2fc712dce324e236305c8a1ce83f"
 depends = "['perl-net-server']"
 +++
 ### Description: 
@@ -269,6 +269,7 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /usr/lib/perl5/site_perl/current/Munin/Plugin/Pgsql.pm
 * /usr/lib/perl5/site_perl/current/Munin/Plugin/SNMP.pm
 * /usr/lib/systemd/system/munin-node.service
+* /usr/lib/sysusers.d/munin-node.conf
 * /usr/share/man/man1/munin-get.1perl.gz
 * /usr/share/man/man1/munin-node-configure.1perl.gz
 * /usr/share/man/man1/munin-node.1perl.gz
