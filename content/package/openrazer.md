@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openrazer 3.8.0-9"
-version = "3.8.0-9"
+title = "openrazer 3.8.0-10"
+version = "3.8.0-10"
 description = "An entirely open source driver and user-space daemon that allows you to manage your Razer peripherals on GNU/Linux."
-date = "2024-06-13T13:23:17"
+date = "2024-06-17T08:16:01"
 aliases = "/packages/220390"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/openrazer/openrazer"
 arch = "x86_64"
-size = "279608"
+size = "280416"
 usize = "2053078"
-sha1sum = "9a1648600ced9f6ba5487721be53f06540b23f0a"
+sha1sum = "264b700516216996ac39d7b51dbc9da5982946f3"
 depends = "['gtk+3', 'kernel=6.9.5-1', 'pygobject3', 'python3-daemonize', 'python3-notify2', 'python3-numpy', 'python3-setproctitle', 'pyudev', 'xautomation']"
 reverse_depends = "['libopenrazer', 'polychromatic']"
 +++
