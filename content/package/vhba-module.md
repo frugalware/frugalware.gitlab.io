@@ -11,13 +11,13 @@ arch = "x86_64"
 size = "41092"
 usize = "32054"
 sha1sum = "e0408c2a7c9dde1bc39fcdd7e9fbbbdfee93d780"
-depends = "['kernel=6.9.4-1']"
+depends = "['kernel=6.9.5-1']"
 +++
 ### Description: 
 VHBA module provides a Virtual (SCSI) HBA, which is the link between userspace daemon and linux kernel.
 
 ### Files: 
-* /usr/lib/modules/6.9.4-fw1/kernel/drivers/scsi/vhba.ko.zst
+* /usr/lib/modules/6.9.5-fw1/kernel/drivers/scsi/vhba.ko.zst
 * /usr/lib/udev/rules.d/60-vhba.rules
 * /usr/share/doc/vhba-module-20240202/AUTHORS
 * /usr/share/doc/vhba-module-20240202/ChangeLog

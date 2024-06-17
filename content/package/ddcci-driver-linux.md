@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "10340"
 usize = "24094"
 sha1sum = "44dc89eaf78d57a874c91e56b1a999fab9c330a7"
-depends = "['kernel=6.9.4-1']"
+depends = "['kernel=6.9.5-1']"
 +++
 ### Description: 
 A pair of Linux kernel drivers for DDC/CI monitors

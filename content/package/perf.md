@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.9.4-1"
-version = "6.9.4-1"
+title = "perf 6.9.5-1"
+version = "6.9.5-1"
 description = "Kernel performance profiling tool"
-date = "2024-06-13T13:04:21"
+date = "2024-06-17T08:05:30"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2230340"
-usize = "11328537"
-sha1sum = "2b6943040073fba618cf93945046c4a4441d518e"
+size = "2231132"
+usize = "11328475"
+sha1sum = "49b527e53e69125ac142f3da018a3895b78b0e18"
 depends = "['binutils>=2.40', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
