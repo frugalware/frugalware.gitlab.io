@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "squid 6.9-1"
-version = "6.9-1"
+title = "squid 6.10-1"
+version = "6.10-1"
 description = "Squid Web Proxy Cache"
-date = "2024-05-21T17:19:38"
+date = "2024-06-17T17:45:06"
 aliases = "/packages/4064"
 categories = ['network-extra']
 upstreamurl = "http://www.squid-cache.org/"
 arch = "x86_64"
-size = "2658340"
-usize = "8523374"
-sha1sum = "a8c82154475bee3e5cd121ca38dd0439089a22f1"
+size = "2598708"
+usize = "8277790"
+sha1sum = "33538fd8e772c41e1b0bb84975924e0e5c6c75c7"
 depends = "['dcron', 'gnutls', 'libtool', 'libxcrypt', 'nettle>=3.6']"
 +++
 ### Description: 
@@ -58,17 +58,18 @@ Squid Web Proxy Cache
 * /usr/lib/squid/cache_swap.sh
 * /usr/lib/storeid_file_rewrite
 * /usr/lib/systemd/system/squid.service
+* /usr/lib/sysusers.d/squid.conf
 * /usr/lib/unlinkd
 * /usr/lib/url_fake_rewrite
 * /usr/lib/url_fake_rewrite.sh
 * /usr/lib/url_lfs_rewrite
-* /usr/share/doc/squid-6.9/ChangeLog
-* /usr/share/doc/squid-6.9/CONTRIBUTORS
-* /usr/share/doc/squid-6.9/COPYING
-* /usr/share/doc/squid-6.9/CREDITS
-* /usr/share/doc/squid-6.9/INSTALL
-* /usr/share/doc/squid-6.9/README
-* /usr/share/doc/squid-6.9/RELEASENOTES.html
+* /usr/share/doc/squid-6.10/ChangeLog
+* /usr/share/doc/squid-6.10/CONTRIBUTORS
+* /usr/share/doc/squid-6.10/COPYING
+* /usr/share/doc/squid-6.10/CREDITS
+* /usr/share/doc/squid-6.10/INSTALL
+* /usr/share/doc/squid-6.10/README
+* /usr/share/doc/squid-6.10/RELEASENOTES.html
 * /usr/share/man/man1/purge.1.gz
 * /usr/share/man/man1/squidclient.1.gz
 * /usr/share/man/man8/basic_db_auth.8.gz
