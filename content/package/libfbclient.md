@@ -12,7 +12,7 @@ size = "948164"
 usize = "3342542"
 sha1sum = "8ca057b96af324b1f3308b1d64a930b3f9d233e8"
 depends = "['libgcc', 'libtommath']"
-reverse_depends = "['firebird', 'libreoffice']"
+reverse_depends = "['libreoffice']"
 +++
 ### Description: 
 Multi-process, local client libraries for Firebird SQL RDBMS

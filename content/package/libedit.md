@@ -12,7 +12,7 @@ size = "107720"
 usize = "290097"
 sha1sum = "2682cae6ee94d7d53a1abaff7d9001466a712d94"
 depends = "['ncurses>=6.5']"
-reverse_depends = "['firebird', 'ghc', 'llvm-libs', 'llvm15-libs', 'nftables', 'ntp', 'openssh']"
+reverse_depends = "['ghc', 'llvm-libs', 'llvm15-libs', 'nftables', 'ntp', 'openssh']"
 +++
 ### Description: 
 Editline Library

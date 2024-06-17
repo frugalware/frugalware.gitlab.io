@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "logcheck 1.3.22-1"
-version = "1.3.22-1"
+title = "logcheck 1.4.3-1"
+version = "1.4.3-1"
 description = "allow a system administrator to view the logfiles under their control"
-date = "2021-03-01T12:22:51"
+date = "2024-06-17T12:41:30"
 aliases = "/packages/219141"
 categories = ['apps-extra']
 upstreamurl = "http://logcheck.org/"
 arch = "x86_64"
-size = "69412"
-usize = "349335"
-sha1sum = "1088deebfa8362ae7a5c100bc74d781d06040b38"
+size = "72064"
+usize = "380028"
+sha1sum = "44f5f1bfafb7cb5837634cd1e5de33813d4cac53"
 depends = "[]"
 +++
 ### Description: 
@@ -202,6 +202,8 @@ allow a system administrator to view the logfiles under their control
 * /etc/logcheck/ignore.d.workstation/xlockmore
 * /etc/logcheck/logcheck.conf
 * /etc/logcheck/logcheck.logfiles
+* /etc/logcheck/logcheck.logfiles.d/journal.logfiles
+* /etc/logcheck/logcheck.logfiles.d/syslog.logfiles
 * /etc/logcheck/violations.d/kernel
 * /etc/logcheck/violations.d/logcheck
 * /etc/logcheck/violations.d/smartd
@@ -211,15 +213,16 @@ allow a system administrator to view the logfiles under their control
 * /etc/logcheck/violations.ignore.d/logcheck-sudo
 * /etc/tmpfiles.d/logcheck.conf
 * /usr/bin/logcheck-test
+* /usr/lib/sysusers.d/logcheck.conf
 * /usr/sbin/logcheck
 * /usr/sbin/logtail
 * /usr/sbin/logtail2
-* /usr/share/doc/logcheck-1.3.22/AUTHORS
-* /usr/share/doc/logcheck-1.3.22/CHANGES
-* /usr/share/doc/logcheck-1.3.22/CREDITS
-* /usr/share/doc/logcheck-1.3.22/INSTALL
-* /usr/share/doc/logcheck-1.3.22/LICENSE
-* /usr/share/doc/logcheck-1.3.22/TODO
+* /usr/share/doc/logcheck-1.4.3/AUTHORS
+* /usr/share/doc/logcheck-1.4.3/CHANGES
+* /usr/share/doc/logcheck-1.4.3/CREDITS
+* /usr/share/doc/logcheck-1.4.3/INSTALL
+* /usr/share/doc/logcheck-1.4.3/LICENSE
+* /usr/share/doc/logcheck-1.4.3/TODO
 * /usr/share/logtail/detectrotate/10-savelog.dtr
 * /usr/share/logtail/detectrotate/20-logrotate.dtr
 * /usr/share/logtail/detectrotate/30-logrotate-dateext.dtr

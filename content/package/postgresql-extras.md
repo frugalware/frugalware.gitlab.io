@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postgresql-extras 16.3-1"
-version = "16.3-1"
+title = "postgresql-extras 16.3-2"
+version = "16.3-2"
 description = "PostgreSQL extra tools"
-date = "2024-05-26T17:02:28"
+date = "2024-06-17T12:57:08"
 aliases = "/packages/14944"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "479272"
-usize = "2342349"
-sha1sum = "efa2bc4f592677b44f5c1c9e107f5f7ecd36e5ea"
+size = "490988"
+usize = "2007637"
+sha1sum = "63ec82763d9d36529ed7a31fdc9ee148547015a4"
 depends = "['libpq>=16.3', 'libxml2>=2.9.4-3', 'openssl>=3.0.7']"
 +++
 ### Description: 

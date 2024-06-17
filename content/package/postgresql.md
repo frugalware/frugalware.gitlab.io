@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postgresql 16.3-1"
-version = "16.3-1"
+title = "postgresql 16.3-2"
+version = "16.3-2"
 description = "An advanced Object-Relational database management system (DBMS)"
-date = "2024-05-26T17:02:28"
+date = "2024-06-17T12:57:08"
 aliases = "/packages/3297"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "7085084"
-usize = "26444547"
-sha1sum = "33db69111355145c82c02ee9c733c3163b72f10f"
+size = "7180068"
+usize = "26126299"
+sha1sum = "f970efc9b4374566a99002b4b3c55b1b7fd1f0c0"
 depends = "['icu4c>=75.1', 'libpq>=16.3', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', 'postgresql-plpython', 'postgresql-pltcl', 'vtk']"
 +++
@@ -987,6 +987,7 @@ An advanced Object-Relational database management system (DBMS)
 * /usr/lib/postgresql/utf8_and_uhc.so
 * /usr/lib/postgresql/utf8_and_win.so
 * /usr/lib/systemd/system/postgresql.service
+* /usr/lib/sysusers.d/postgresql.conf
 * /usr/share/doc/postgresql-16.3/COPYRIGHT
 * /usr/share/doc/postgresql-16.3/HISTORY
 * /usr/share/doc/postgresql-16.3/INSTALL

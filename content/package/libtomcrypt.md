@@ -12,7 +12,6 @@ size = "384808"
 usize = "1085257"
 sha1sum = "18db0584b2a131b1189476aa9965325b02465116"
 depends = "['gmp', 'libtommath']"
-reverse_depends = "['firebird']"
 +++
 ### Description: 
 A fairly comprehensive, modular and portable cryptographic toolkit
