@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chrony 4.5-3"
-version = "4.5-3"
+title = "chrony 4.5-4"
+version = "4.5-4"
 description = "Dial-up friendly NTP daemon and excellent replacement for NTP on desktop systems"
-date = "2024-04-08T17:56:17"
+date = "2024-06-17T14:55:40"
 aliases = "/packages/136603"
 categories = ['network']
 upstreamurl = "https://chrony-project.org"
 arch = "x86_64"
-size = "276444"
-usize = "583836"
-sha1sum = "624067fac1771385304f1cc082da1ae3fe73bc63"
+size = "279240"
+usize = "580354"
+sha1sum = "9187db5a88ce5c4051ccb7d24736cc35a93bed33"
 depends = "['libcap>=2.24-4', 'nettle>=3.6', 'readline>=8.0']"
 reverse_depends = "['networkmanager-dispatcher-chrony']"
 +++
@@ -23,6 +23,7 @@ Dial-up friendly NTP daemon and excellent replacement for NTP on desktop systems
 * /usr/bin/chronyc
 * /usr/bin/chronyd
 * /usr/lib/systemd/system/chrony.service
+* /usr/lib/sysusers.d/chrony.conf
 * /usr/share/doc/chrony-4.5/COPYING
 * /usr/share/doc/chrony-4.5/FAQ
 * /usr/share/doc/chrony-4.5/INSTALL

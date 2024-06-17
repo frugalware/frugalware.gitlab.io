@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "avahi-compat 0.8-11"
-version = "0.8-11"
+title = "avahi-compat 0.8-12"
+version = "0.8-12"
 description = "mDNSresponder and Howl compatibility libraries/headers for Avahi"
-date = "2024-05-26T22:18:53"
+date = "2024-06-17T14:40:34"
 aliases = "/packages/10026"
 categories = ['lib']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "56372"
+size = "56212"
 usize = "265466"
-sha1sum = "d24d889d47bcf878b51287a01534cb05b0e0b58b"
+sha1sum = "2d668f3fd6d6d041e2e0459c5e2d4407055e8664"
 depends = "['libssp>=7.3.0-5']"
 reverse_depends = "['mumble', 'murmur']"
 +++

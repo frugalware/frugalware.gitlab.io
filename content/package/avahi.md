@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "avahi 0.8-11"
-version = "0.8-11"
+title = "avahi 0.8-12"
+version = "0.8-12"
 description = "A multicast/unicast DNS-SD framework"
-date = "2024-05-26T22:18:53"
+date = "2024-06-17T14:40:34"
 aliases = "/packages/10021"
 categories = ['network']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "317760"
-usize = "1446696"
-sha1sum = "4ad8af8a2c01f25ecccce3a37e7585e08ad6d910"
+size = "317072"
+usize = "1419067"
+sha1sum = "dd557cc126eafd62dd680f47b5f6c69da0f7e3d3"
 depends = "['dbus>=1.10.10-3', 'expat>=2.1.0-6', 'gdbm>=1.15', 'libdaemon>=0.14-4', 'libevent', 'libssp>=9.1.0-3', 'libsystemd>=231-6', 'shadow>=4.2.1-5']"
 reverse_depends = "['anyremote', 'cups', 'efl', 'geoclue2', 'kdnssd', 'kdnssd5', 'libcups', 'libiio', 'libvirt', 'mpd', 'mumble', 'murmur', 'pipewire-pulse', 'pulseaudio-avahi', 'remmina', 'sane-backends', 'telepathy-salut', 'vlc-avahi']"
 +++
@@ -77,6 +77,7 @@ A multicast/unicast DNS-SD framework
 * /usr/lib/pkgconfig/avahi-libevent.pc
 * /usr/lib/systemd/system/avahi-daemon.service
 * /usr/lib/systemd/system/avahi-daemon.socket
+* /usr/lib/sysusers.d/avahi.conf
 * /usr/share/avahi/avahi-service.dtd
 * /usr/share/dbus-1/interfaces/org.freedesktop.Avahi.AddressResolver.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.Avahi.DomainBrowser.xml

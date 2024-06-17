@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord 1.4.7-3"
-version = "1.4.7-3"
+title = "colord 1.4.7-4"
+version = "1.4.7-4"
 description = "color daemon"
-date = "2024-01-30T10:29:58"
+date = "2024-06-17T15:13:05"
 aliases = "/packages/136178"
 categories = ['xlib']
 upstreamurl = "http://www.freedesktop.org/software/colord/"
 arch = "x86_64"
-size = "1527656"
-usize = "5259584"
-sha1sum = "263729c2e14dec97b9899949d66d75e48ea55272"
+size = "1541352"
+usize = "5167949"
+sha1sum = "6218a28578c3fbf7af8901738c92033cef725ae9"
 depends = "['argyllcms>=1.8.3-2', 'glib2>=2.60.0', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libgudev>=232-4', 'libgusb>=0.3.0-2', 'libudev>=242', 'libxslt', 'polkit>=0.113-6', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+4']"
 +++
@@ -86,6 +86,7 @@ color daemon
 * /usr/lib/pkgconfig/colorhug.pc
 * /usr/lib/systemd/system/colord.service
 * /usr/lib/systemd/user/colord-session.service
+* /usr/lib/sysusers.d/colord.conf
 * /usr/lib/tmpfiles.d/colord.conf
 * /usr/lib/udev/rules.d/69-cd-sensors.rules
 * /usr/lib/udev/rules.d/95-cd-devices.rules
@@ -247,6 +248,10 @@ color daemon
 * /usr/share/locale/uk/LC_MESSAGES/colord.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/colord.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/colord.mo
+* /usr/share/man/man1/cd-create-profile.1.gz
+* /usr/share/man/man1/cd-fix-profile.1.gz
+* /usr/share/man/man1/cd-it8.1.gz
+* /usr/share/man/man1/colormgr.1.gz
 * /usr/share/polkit-1/actions/org.freedesktop.color.policy
 * /usr/share/vala/vapi/colord.deps
 * /usr/share/vala/vapi/colord.vapi

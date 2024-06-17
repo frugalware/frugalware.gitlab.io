@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpulse 17.0-2"
-version = "17.0-2"
+title = "libpulse 17.0-4"
+version = "17.0-4"
 description = "pulseaduio client library"
-date = "2024-05-17T14:46:08"
+date = "2024-06-17T14:33:04"
 aliases = "/packages/136453"
 categories = ['xmultimedia']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "1196440"
-usize = "5256167"
-sha1sum = "44e43df66235892979b281d83882f7ef43da363f"
+size = "1220716"
+usize = "4811570"
+sha1sum = "2f9cad5502e90ce70eae3e569cdcabd77d959422"
 depends = "['alsa-lib', 'dbus>=1.10.10-4', 'fftw>=3.3.4-4', 'flac', 'libasyncns>=0.8-3', 'libogg', 'libsm', 'libsndfile>=1.0.26-2', 'libsystemd>=242-3', 'libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis', 'libx11>=1.6.3-4', 'libxtst', 'orc>=0.4.24-2', 'soxr', 'speexdsp>=1.2rc3-3', 'tdb>=1.3.10-2', 'webrtc-audio-processing']"
 reverse_depends = "['alsa-plugin-pulseaudio', 'chromium-browser', 'conky', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'fluidsynth', 'gst1-plugins-good-pulseaudio', 'gtk-vnc', 'guvcview', 'i3status', 'libao-pulse', 'libcanberra-pulseaudio', 'libmikmod', 'libopenmpt', 'mencoder', 'mplayer', 'mpv', 'openjre', 'pavucontrol-qt', 'pcaudiolib', 'phonon-qt5', 'phonon-qt6', 'pipewire-pulse', 'pocketsphinx', 'pulse-autoconf', 'pulseaudio', 'pulseaudio-qt', 'python3-pulsectl', 'qt5-multimedia', 'sdlmame', 'sox', 'speech-dispatcher', 'spice-glib', 'terminology', 'thunderbird', 'virtualbox', 'vlc-pulseaudio', 'wine', 'wine-devel']"
 +++
@@ -155,6 +155,7 @@ pulseaduio client library
 * /usr/lib/systemd/user/pulseaudio-x11.service
 * /usr/lib/systemd/user/pulseaudio.service
 * /usr/lib/systemd/user/pulseaudio.socket
+* /usr/lib/sysusers.d/pulseaudio.conf
 * /usr/lib/udev/rules.d/90-pulseaudio.rules
 * /usr/share/man/man5/default.pa.5.gz
 * /usr/share/man/man5/pulse-cli-syntax.5.gz
