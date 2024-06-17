@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tpm2-tss 4.1.3-2"
-version = "4.1.3-2"
+title = "tpm2-tss 4.1.3-4"
+version = "4.1.3-4"
 description = "Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)"
-date = "2024-06-16T17:47:04"
+date = "2024-06-17T18:07:12"
 aliases = "/packages/219962"
 categories = ['lib']
 upstreamurl = "https://github.com/tpm2-software/tpm2-tss"
 arch = "x86_64"
-size = "772336"
+size = "773972"
 usize = "3101031"
-sha1sum = "deb28b4a3f544ff818a6092e3762a1ae007566e8"
+sha1sum = "f9fce30a6ee0f9fe53002ac7b589427ee3c14dc1"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
 reverse_depends = "['fwupd']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['fwupd']"
 Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 
 ### Files: 
-* /etc/sysusers.d/tpm2-tss.conf
 * /etc/tmpfiles.d/tpm2-tss-fapi.conf
 * /etc/tpm2-tss/fapi-config.json
 * /etc/tpm2-tss/fapi-profiles/P_ECCP256SHA256.json
@@ -108,6 +107,7 @@ Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
 * /usr/lib/pkgconfig/tss2-tcti-spidev.pc
 * /usr/lib/pkgconfig/tss2-tcti-swtpm.pc
 * /usr/lib/pkgconfig/tss2-tctildr.pc
+* /usr/lib/sysusers.d/tpm2-tss.conf
 * /usr/lib/udev/rules.d/60-tpm-udev.rules
 * /usr/share/doc/tpm2-tss-4.1.3/AUTHORS
 * /usr/share/doc/tpm2-tss-4.1.3/INSTALL.md
