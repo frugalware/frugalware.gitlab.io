@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iscsi 2.1.9-1"
-version = "2.1.9-1"
+title = "iscsi 2.1.10-1"
+version = "2.1.10-1"
 description = "Open-iSCSI project is a high performance, transport independent"
-date = "2024-01-14T13:51:35"
+date = "2024-06-17T11:04:04"
 aliases = "/packages/74664"
 categories = ['network-extra']
 upstreamurl = "https://github.com/open-iscsi/open-iscsi"
 arch = "x86_64"
-size = "419072"
-usize = "1507536"
-sha1sum = "8605ad407e3488cc2d974b8709cf21de52f0d5a6"
+size = "428564"
+usize = "1487862"
+sha1sum = "0e394df924636232cda8de41fed00cb1e0b32a37"
 depends = "['kmod', 'libsystemd', 'open-isns>=0.102']"
 reverse_depends = "['dracut-network', 'libvirt']"
 +++
@@ -22,7 +22,6 @@ Open-iSCSI project is a high performance, transport independent
 * /etc/iscsi/iscsid.conf
 * /etc/logrotate.d/iscsiuiolog
 * /etc/sysconfig/iscsid
-* /etc/udev/rules.d/50-iscsi-firmware-login.rules
 * /usr/bin/brcm_iscsiuio
 * /usr/bin/iscsi-gen-initiatorname
 * /usr/bin/iscsi-iname
@@ -49,11 +48,12 @@ Open-iSCSI project is a high performance, transport independent
 * /usr/lib/systemd/system/iscsid.socket
 * /usr/lib/systemd/system/iscsiuio.service
 * /usr/lib/systemd/system/iscsiuio.socket
-* /usr/share/doc/iscsi-2.1.9/Changelog
-* /usr/share/doc/iscsi-2.1.9/COPYING
-* /usr/share/doc/iscsi-2.1.9/README
-* /usr/share/doc/iscsi-2.1.9/THANKS
-* /usr/share/doc/iscsi-2.1.9/TODO
+* /usr/lib/udev/rules.d/50-iscsi-firmware-login.rules
+* /usr/share/doc/iscsi-2.1.10/Changelog
+* /usr/share/doc/iscsi-2.1.10/COPYING
+* /usr/share/doc/iscsi-2.1.10/README
+* /usr/share/doc/iscsi-2.1.10/THANKS
+* /usr/share/doc/iscsi-2.1.10/TODO
 * /usr/share/man/man3/iscsi_context_free.3.gz
 * /usr/share/man/man3/iscsi_context_log_func_set.3.gz
 * /usr/share/man/man3/iscsi_context_log_priority_get.3.gz

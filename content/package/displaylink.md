@@ -1,23 +1,22 @@
 +++
 draft = false
-title = "displaylink 5.8-2"
-version = "5.8-2"
+title = "displaylink 6.0-1"
+version = "6.0-1"
 description = "Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00"
-date = "2024-01-16T14:02:09"
+date = "2024-06-17T10:58:49"
 aliases = "/packages/219801"
 categories = ['x11-extra']
 upstreamurl = "http://www.displaylink.com"
 arch = "x86_64"
-size = "6220120"
-usize = "15099567"
-sha1sum = "bdbc828cf349c55c84892662d3efc2dfac975429"
+size = "6799472"
+usize = "16047007"
+sha1sum = "09037d3484ab21a3646d62094ff762c920c6faa7"
 depends = "['evdi']"
 +++
 ### Description: 
 Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00
 
 ### Files: 
-* /etc/udev/rules.d/99-displaylink.rules
 * /opt/displaylink/udev.sh
 * /usr/lib/displaylink/DisplayLinkManager
 * /usr/lib/displaylink/ella-dock-release.spkg
@@ -26,4 +25,5 @@ Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00
 * /usr/lib/displaylink/ridge-dock-release.spkg
 * /usr/lib/systemd/system-sleep/displaylink.sh
 * /usr/lib/systemd/system/displaylink.service
-* /usr/share/doc/displaylink-5.8/LICENSE
+* /usr/lib/udev/rules.d/99-displaylink.rules
+* /usr/share/doc/displaylink-6.0/LICENSE
