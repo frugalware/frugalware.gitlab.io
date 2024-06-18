@@ -1,29 +1,24 @@
 +++
 draft = false
-title = "mumble 1.5.634-4"
-version = "1.5.634-4"
+title = "mumble 1.5.634-5"
+version = "1.5.634-5"
 description = "A voice chat application similar to TeamSpeak"
-date = "2024-06-09T20:18:06"
+date = "2024-06-18T12:13:17"
 aliases = "/packages/218803"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/mumble-voip/mumble"
 arch = "x86_64"
-size = "5127692"
-usize = "11970321"
-sha1sum = "6ff85c038f7a33e627c5c2476d54d15caf90b991"
+size = "5120844"
+usize = "11947939"
+sha1sum = "5078293ec5368a77be62786947adac7f893680a6"
 depends = "['avahi>=0.6.31-7', 'avahi-compat>=0.6.31-7', 'libsndfile', 'opus', 'poco>=1.13.3', 'protobuf>=27.1', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'speech-dispatcher', 'speex>=1.2rc2-4', 'speexdsp']"
 +++
 ### Description: 
 A voice chat application similar to TeamSpeak
 
 ### Files: 
-* /etc/mumble/mumble-server.ini
-* /etc/systemd/system/mumble-server.service
-* /etc/sysusers.d/mumble-server.conf
-* /etc/tmpfiles.d/mumble-server.conf
 * /usr/bin/mumble
 * /usr/bin/mumble-overlay
-* /usr/bin/mumble-server-user-wrapper
 * /usr/lib/mumble/libmumbleoverlay.x86.so
 * /usr/lib/mumble/libmumbleoverlay.x86.so.1.5.634
 * /usr/lib/mumble/libmumbleoverlay.x86_64.so
