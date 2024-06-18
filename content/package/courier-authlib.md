@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "courier-authlib 0.72.0-2"
-version = "0.72.0-2"
+title = "courier-authlib 0.72.0-3"
+version = "0.72.0-3"
 description = "The Courier authentication library & daemon"
-date = "2024-02-01T14:21:17"
+date = "2024-06-18T13:55:46"
 aliases = "/packages/2951"
 categories = ['network-extra']
 upstreamurl = "http://www.courier-mta.org/"
 arch = "x86_64"
-size = "244412"
-usize = "1032586"
-sha1sum = "56bafb92fb9910037757dc8f521560c0156e1724"
+size = "243008"
+usize = "891942"
+sha1sum = "80cb9e12228623db6fc1c01ef446f45d326de67e"
 depends = "['courier-unicode>=2.1', 'expect', 'gdbm>=1.15', 'libldap>=2.5.4', 'libpq>=11.2-2', 'libtool', 'mariadb-libs>=10.3.14', 'sqlite3>=3.10.2']"
 reverse_depends = "['courier-imap', 'courier-maildrop']"
 +++
@@ -21,7 +21,6 @@ The Courier authentication library & daemon
 * /etc/courier/authdaemonrc
 * /etc/courier/authlib/userdb
 * /etc/ld.so.conf.d/courier-authlib.conf
-* /etc/tmpfiles.d/courier-authlib.conf
 * /usr/bin/authdaemond
 * /usr/bin/authenumerate
 * /usr/bin/authpasswd
@@ -77,6 +76,7 @@ The Courier authentication library & daemon
 * /usr/lib/courier/courier-authlib/authsystem.passwd
 * /usr/lib/courier/courier-authlib/makedatprog
 * /usr/lib/systemd/system/courier-authlib.service
+* /usr/lib/tmpfiles.d/courier-authlib.conf
 * /usr/share/doc/courier-authlib-0.72.0/AUTHORS
 * /usr/share/doc/courier-authlib-0.72.0/ChangeLog
 * /usr/share/doc/courier-authlib-0.72.0/COPYING

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvpn 2.6.10-1"
-version = "2.6.10-1"
+title = "openvpn 2.6.10-2"
+version = "2.6.10-2"
 description = "A secure tunneling daemon"
-date = "2024-04-22T08:54:55"
+date = "2024-06-18T14:01:33"
 aliases = "/packages/3756"
 categories = ['network-extra']
 upstreamurl = "https://www.openvpn.net"
 arch = "x86_64"
-size = "551376"
-usize = "1366512"
-sha1sum = "c34a965e09654d819e818d0d3dc5d1d955563be0"
+size = "560172"
+usize = "1368858"
+sha1sum = "f01593b6cb2122119a141a6ca7e860c2fe1791d2"
 depends = "['iproute2', 'lzo', 'openssl>=3.1.0', 'pam']"
 reverse_depends = "['connman', 'nm-openvpn']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['connman', 'nm-openvpn']"
 A secure tunneling daemon
 
 ### Files: 
-* /etc/tmpfiles.d/openvpn.conf
 * /usr/bin/openvpn
 * /usr/include/openvpn-msg.h
 * /usr/include/openvpn-plugin.h

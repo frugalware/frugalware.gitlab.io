@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-geoip 2.0.23-4"
-version = "2.0.23-4"
+title = "uwsgi-plugin-geoip 2.0.23-5"
+version = "2.0.23-5"
 description = "UWSGI GeoIP Plugin"
-date = "2024-02-02T17:19:52"
+date = "2024-06-18T13:57:13"
 aliases = "/packages/200413"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "5760"
-usize = "14648"
-sha1sum = "b49775683c22a402811f2fed8dbae1962eace06c"
+size = "5860"
+usize = "8536"
+sha1sum = "06a5cdaca9f739200e14309f0d9696662913ab0d"
 depends = "['geoip', 'uwsgi']"
 +++
 ### Description: 

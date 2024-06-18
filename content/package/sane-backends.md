@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sane-backends 1.3.1-2"
-version = "1.3.1-2"
+title = "sane-backends 1.3.1-3"
+version = "1.3.1-3"
 description = "Scanner Access Now Easy"
-date = "2024-06-18T13:09:29"
+date = "2024-06-18T13:48:13"
 aliases = "/packages/3327"
 categories = ['multimedia']
 upstreamurl = "http://www.sane-project.org"
 arch = "x86_64"
-size = "4073416"
+size = "4073148"
 usize = "20407003"
-sha1sum = "daf09fc3eefdc9c8b2f0bd3c1511f1cc66d74ff5"
+sha1sum = "0993fbb57707b263df53943a34931e2ca267e55d"
 depends = "['avahi', 'curl', 'libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=3.2.1-2', 'libusb1>=1.0.20-5', 'poppler-glib', 'v4l-utils']"
 reverse_depends = "['hplip', 'ksanecore', 'ksanecore5', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
 +++
@@ -101,7 +101,6 @@ Scanner Access Now Easy
 * /etc/sane.d/umax_pp.conf
 * /etc/sane.d/v4l.conf
 * /etc/sane.d/xerox_mfp.conf
-* /etc/tmpfiles.d/sane.conf
 * /usr/bin/gamma4scanimage
 * /usr/bin/sane-config
 * /usr/bin/sane-find-scanner
@@ -391,6 +390,7 @@ Scanner Access Now Easy
 * /usr/lib/sane/libsane-xerox_mfp.so.1
 * /usr/lib/sane/libsane-xerox_mfp.so.1.2.1
 * /usr/lib/sysusers.d/scanner.conf
+* /usr/lib/tmpfiles.d/sane.conf
 * /usr/lib/udev/rules.d/70-libsane.rules
 * /usr/share/doc/sane-backends-1.3.1/AUTHORS
 * /usr/share/doc/sane-backends-1.3.1/backend-writing.txt

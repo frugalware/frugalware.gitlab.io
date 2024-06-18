@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mdadm 4.3-1"
-version = "4.3-1"
+title = "mdadm 4.3-2"
+version = "4.3-2"
 description = "A tool for managing software RAID under Linux"
-date = "2024-03-01T09:17:00"
+date = "2024-06-18T14:00:39"
 aliases = "/packages/3223"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/raid/mdadm/"
 arch = "x86_64"
-size = "390224"
+size = "390668"
 usize = "1123538"
-sha1sum = "7355989757f1ec7e177ab47f5c58c2420f9239b4"
+sha1sum = "ef8ba91486f6f8f82689ada69440ffb6f5885121"
 depends = "['glibc>=2.34']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -19,10 +19,10 @@ A tool for managing software RAID under Linux
 
 ### Files: 
 * /etc/dracut.conf.d/11-raid.conf
-* /etc/tmpfiles.d/mdadm.conf
 * /usr/bin/mdadm
 * /usr/bin/mdmon
 * /usr/lib/systemd/system/mdadm.service
+* /usr/lib/tmpfiles.d/mdadm.conf
 * /usr/lib/udev/rules.d/01-md-raid-creating.rules
 * /usr/lib/udev/rules.d/63-md-raid-arrays.rules
 * /usr/lib/udev/rules.d/64-md-raid-assembly.rules

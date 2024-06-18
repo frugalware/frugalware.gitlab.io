@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pam 1.6.1-4"
-version = "1.6.1-4"
+title = "pam 1.6.1-5"
+version = "1.6.1-5"
 description = "Linux-PAM (Pluggable Authentication Modules)"
-date = "2024-05-22T20:43:24"
+date = "2024-06-18T14:06:06"
 aliases = "/packages/73298"
 categories = ['base']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "568548"
+size = "568228"
 usize = "2176746"
-sha1sum = "5f6581efcc632ccf2ae04b0d68463b7a8e96f0d8"
+sha1sum = "7165621b05915b7554cd18595bae7b9a492a653d"
 depends = "['gdbm', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
 reverse_depends = "['cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++
@@ -28,7 +28,6 @@ Linux-PAM (Pluggable Authentication Modules)
 * /etc/security/pam_env.conf
 * /etc/security/pwhistory.conf
 * /etc/security/time.conf
-* /etc/tmpfiles.d/pam.conf
 * /usr/bin/faillock
 * /usr/bin/mkhomedir_helper
 * /usr/bin/pam_namespace_helper
@@ -100,6 +99,7 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/lib/security/pam_wheel.so
 * /usr/lib/security/pam_xauth.so
 * /usr/lib/systemd/pam_namespace.service
+* /usr/lib/tmpfiles.d/pam.conf
 * /usr/share/doc/pam-1.6.1/AUTHORS
 * /usr/share/doc/pam-1.6.1/ChangeLog
 * /usr/share/doc/pam-1.6.1/CHANGELOG

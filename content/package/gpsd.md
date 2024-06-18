@@ -21,7 +21,6 @@ GPS daemon and library to support USB/serial GPS devices
 * /etc/hotplug/usb/gpsd
 * /etc/hotplug/usb/gpsd.usermap
 * /etc/sysconfig/gpsd
-* /etc/tmpfiles.d/gpsd.conf
 * /usr/bin/cgps
 * /usr/bin/gegps
 * /usr/bin/gps2udp
@@ -60,6 +59,7 @@ GPS daemon and library to support USB/serial GPS devices
 * /usr/lib/systemd/system/gpsd.service
 * /usr/lib/systemd/system/gpsd.socket
 * /usr/lib/systemd/system/gpsdctl@.service
+* /usr/lib/tmpfiles.d/gpsd.conf
 * /usr/share/doc/gpsd-3.25/AUTHORS
 * /usr/share/doc/gpsd-3.25/COPYING
 * /usr/share/doc/gpsd-3.25/HACKING

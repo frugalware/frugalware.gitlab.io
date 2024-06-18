@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "screen 4.9.1-3"
-version = "4.9.1-3"
+title = "screen 4.9.1-4"
+version = "4.9.1-4"
 description = "A full-screen window manager that multiplexes a physical terminal"
-date = "2024-04-28T11:24:12"
+date = "2024-06-18T14:02:37"
 aliases = "/packages/3330"
 categories = ['apps']
 upstreamurl = "http://www.gnu.org/software/screen/screen.html"
 arch = "x86_64"
-size = "561188"
-usize = "971985"
-sha1sum = "b47946df119fe6d700e7b3cd679927138fb9924a"
+size = "558288"
+usize = "968913"
+sha1sum = "8639c63401a322e6b2ec2106612f9e3fa83501b2"
 depends = "['ncurses>=6.5', 'pam']"
 +++
 ### Description: 
@@ -20,8 +20,8 @@ A full-screen window manager that multiplexes a physical terminal
 * /etc/pam.d/screen
 * /etc/screen/screenrc
 * /etc/screen/screenrc.user.example
-* /etc/tmpfiles.d/screen.conf
 * /usr/bin/screen
+* /usr/lib/tmpfiles.d/screen.conf
 * /usr/share/doc/screen-4.9.1/ChangeLog
 * /usr/share/doc/screen-4.9.1/COPYING
 * /usr/share/doc/screen-4.9.1/FAQ

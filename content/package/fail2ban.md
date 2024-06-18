@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fail2ban 1.0.2-4"
-version = "1.0.2-4"
+title = "fail2ban 1.0.2-5"
+version = "1.0.2-5"
 description = "Bans IP that make too many password failures"
-date = "2024-01-09T14:58:43"
+date = "2024-06-18T13:52:51"
 aliases = "/packages/119345"
 categories = ['network-extra']
 upstreamurl = "https://github.com/fail2ban/fail2ban"
 arch = "x86_64"
-size = "786780"
-usize = "3504325"
-sha1sum = "a122c0357ad76c5586dfff3b037d8bba040c3245"
+size = "788876"
+usize = "3504331"
+sha1sum = "dd31a8d357482ce6b9aff6c4bf27e549c3252847"
 depends = "['ipset', 'iptables', 'pyinotify', 'python3-py', 'python3-sqlite3', 'python3-systemd', 'whois']"
 +++
 ### Description: 
@@ -185,7 +185,6 @@ Bans IP that make too many password failures
 * /etc/fail2ban/paths-freebsd.conf
 * /etc/fail2ban/paths-opensuse.conf
 * /etc/fail2ban/paths-osx.conf
-* /etc/tmpfiles.d/fail2ban.conf
 * /usr/bin/fail2ban-client
 * /usr/bin/fail2ban-python
 * /usr/bin/fail2ban-regex
@@ -489,6 +488,7 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/systemd/system/fail2ban.service
+* /usr/lib/tmpfiles.d/fail2ban.conf
 * /usr/share/doc/fail2ban-1.0.2/ChangeLog
 * /usr/share/doc/fail2ban-1.0.2/COPYING
 * /usr/share/doc/fail2ban-1.0.2/MANIFEST
