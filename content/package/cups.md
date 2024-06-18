@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups 2.4.9-1"
-version = "2.4.9-1"
+title = "cups 2.4.9-2"
+version = "2.4.9-2"
 description = "The CUPS Printing System"
-date = "2024-06-12T17:17:04"
+date = "2024-06-18T09:44:39"
 aliases = "/packages/2954"
 categories = ['xapps']
 upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
-size = "5383760"
-usize = "13281523"
-sha1sum = "9f187306d588432b94c7f58f9b807bad014ee109"
+size = "5384292"
+usize = "13281561"
+sha1sum = "d75d58378e573fcaf2ee1698fde76ddec11abd04"
 depends = "['avahi>=0.6.31-9', 'cups-browsed', 'cups-filters', 'dbus', 'libcups', 'libpaper', 'libusb1>=1.0.20-5', 'pam']"
 reverse_depends = "['cups-pk-helper', 'gimp-print', 'gutenprint', 'libreoffice', 'print-manager']"
 +++
@@ -108,6 +108,7 @@ The CUPS Printing System
 * /usr/lib/systemd/system/cups.path
 * /usr/lib/systemd/system/cups.service
 * /usr/lib/systemd/system/cups.socket
+* /usr/lib/sysusers.d/cups.conf
 * /usr/share/applications/cups.desktop
 * /usr/share/cups/doc/apple-touch-icon.png
 * /usr/share/cups/doc/cups-printable.css

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openldap 2.6.8-1"
-version = "2.6.8-1"
+title = "openldap 2.6.8-2"
+version = "2.6.8-2"
 description = "A suite of the Lightweight Directory Access Protocol servers"
-date = "2024-06-18T07:42:46"
+date = "2024-06-18T09:30:19"
 aliases = "/packages/3272"
 categories = ['network-extra']
 upstreamurl = "http://www.openldap.org/"
 arch = "x86_64"
-size = "1187816"
+size = "1186004"
 usize = "3274590"
-sha1sum = "448eddf1c2328cde3be319d371dfae36168b95c2"
+sha1sum = "a7e18df0df1eff884df0a2fbb843120995303266"
 depends = "['libldap>=2.6.8', 'libtool>=2.4.6-5', 'libxcrypt']"
 +++
 ### Description: 

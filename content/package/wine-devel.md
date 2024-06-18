@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 9.10-1"
-version = "9.10-1"
+title = "wine-devel 9.11-1"
+version = "9.11-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-06-01T11:08:14"
+date = "2024-06-18T09:21:14"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "83159856"
-usize = "647626932"
-sha1sum = "e3240cba6034d4bc2ecba0739b6bf71883e7da2b"
+size = "80397936"
+usize = "644499549"
+sha1sum = "1b1fe2c083ecc661b15fab23d6ee20c57d84efd6"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -424,6 +424,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/dinputd.h
 * /usr/include/wine/windows/directmanipulation.h
 * /usr/include/wine/windows/directmanipulation.idl
+* /usr/include/wine/windows/dispatcherqueue.h
+* /usr/include/wine/windows/dispatcherqueue.idl
 * /usr/include/wine/windows/dispdib.h
 * /usr/include/wine/windows/dispex.h
 * /usr/include/wine/windows/dispex.idl
@@ -1400,6 +1402,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/conhost.exe.so
 * /usr/lib/wine/x86_64-unix/connect.dll.so
 * /usr/lib/wine/x86_64-unix/control.exe.so
+* /usr/lib/wine/x86_64-unix/coremessaging.dll.so
 * /usr/lib/wine/x86_64-unix/credui.dll.so
 * /usr/lib/wine/x86_64-unix/crtdll.dll.so
 * /usr/lib/wine/x86_64-unix/crypt32.dll.so
@@ -2372,6 +2375,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/conhost.exe
 * /usr/lib/wine/x86_64-windows/connect.dll
 * /usr/lib/wine/x86_64-windows/control.exe
+* /usr/lib/wine/x86_64-windows/coremessaging.dll
 * /usr/lib/wine/x86_64-windows/credui.dll
 * /usr/lib/wine/x86_64-windows/crtdll.dll
 * /usr/lib/wine/x86_64-windows/crypt32.dll
@@ -3099,6 +3103,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/conhost.exe.so
 * /usr/lib32/wine/i386-unix/connect.dll.so
 * /usr/lib32/wine/i386-unix/control.exe.so
+* /usr/lib32/wine/i386-unix/coremessaging.dll.so
 * /usr/lib32/wine/i386-unix/credui.dll.so
 * /usr/lib32/wine/i386-unix/crtdll.dll.so
 * /usr/lib32/wine/i386-unix/crypt32.dll.so
@@ -3932,8 +3937,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/windows.ui.dll.so
 * /usr/lib32/wine/i386-unix/windowscodecs.dll.so
 * /usr/lib32/wine/i386-unix/windowscodecsext.dll.so
-* /usr/lib32/wine/i386-unix/winealsa.drv.so
-* /usr/lib32/wine/i386-unix/winealsa.so
 * /usr/lib32/wine/i386-unix/wineboot.exe.so
 * /usr/lib32/wine/i386-unix/winebrowser.exe.so
 * /usr/lib32/wine/i386-unix/winebus.so
@@ -3953,10 +3956,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/wineps.drv.so
 * /usr/lib32/wine/i386-unix/wineps.so
 * /usr/lib32/wine/i386-unix/wineps16.drv16.so
-* /usr/lib32/wine/i386-unix/winepulse.drv.so
-* /usr/lib32/wine/i386-unix/winepulse.so
-* /usr/lib32/wine/i386-unix/wineusb.so
-* /usr/lib32/wine/i386-unix/wineusb.sys.so
 * /usr/lib32/wine/i386-unix/winevdm.exe.so
 * /usr/lib32/wine/i386-unix/winevulkan.dll.so
 * /usr/lib32/wine/i386-unix/winevulkan.so
@@ -4121,6 +4120,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/conhost.exe
 * /usr/lib32/wine/i386-windows/connect.dll
 * /usr/lib32/wine/i386-windows/control.exe
+* /usr/lib32/wine/i386-windows/coremessaging.dll
 * /usr/lib32/wine/i386-windows/credui.dll
 * /usr/lib32/wine/i386-windows/crtdll.dll
 * /usr/lib32/wine/i386-windows/crypt32.dll
@@ -4719,7 +4719,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/windows.ui.dll
 * /usr/lib32/wine/i386-windows/windowscodecs.dll
 * /usr/lib32/wine/i386-windows/windowscodecsext.dll
-* /usr/lib32/wine/i386-windows/winealsa.drv
 * /usr/lib32/wine/i386-windows/wineboot.exe
 * /usr/lib32/wine/i386-windows/winebrowser.exe
 * /usr/lib32/wine/i386-windows/winebus.sys
@@ -4737,8 +4736,6 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/winepath.exe
 * /usr/lib32/wine/i386-windows/wineps.drv
 * /usr/lib32/wine/i386-windows/wineps16.drv16
-* /usr/lib32/wine/i386-windows/winepulse.drv
-* /usr/lib32/wine/i386-windows/wineusb.sys
 * /usr/lib32/wine/i386-windows/winevdm.exe
 * /usr/lib32/wine/i386-windows/winevulkan.dll
 * /usr/lib32/wine/i386-windows/winex11.drv
@@ -4840,11 +4837,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/xpsprint.dll
 * /usr/lib32/wine/i386-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.10/AUTHORS
-* /usr/share/doc/wine-devel-9.10/COPYING.LIB
-* /usr/share/doc/wine-devel-9.10/LICENSE
-* /usr/share/doc/wine-devel-9.10/README.md
-* /usr/share/doc/wine-devel-9.10/VERSION
+* /usr/share/doc/wine-devel-9.11/AUTHORS
+* /usr/share/doc/wine-devel-9.11/COPYING.LIB
+* /usr/share/doc/wine-devel-9.11/LICENSE
+* /usr/share/doc/wine-devel-9.11/README.md
+* /usr/share/doc/wine-devel-9.11/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
