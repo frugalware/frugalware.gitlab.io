@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "avahi 0.8-12"
-version = "0.8-12"
+title = "avahi 0.8-13"
+version = "0.8-13"
 description = "A multicast/unicast DNS-SD framework"
-date = "2024-06-17T14:40:34"
+date = "2024-06-18T22:14:22"
 aliases = "/packages/10021"
 categories = ['network']
 upstreamurl = "http://www.avahi.org"
 arch = "x86_64"
-size = "317072"
-usize = "1419067"
-sha1sum = "dd557cc126eafd62dd680f47b5f6c69da0f7e3d3"
+size = "326396"
+usize = "1489114"
+sha1sum = "f2d66078b90c38ad9efb01e400c625bf5285ee94"
 depends = "['dbus>=1.10.10-3', 'expat>=2.1.0-6', 'gdbm>=1.15', 'libdaemon>=0.14-4', 'libevent', 'libssp>=9.1.0-3', 'libsystemd>=231-6', 'shadow>=4.2.1-5']"
 reverse_depends = "['anyremote', 'cups', 'efl', 'geoclue2', 'kdnssd', 'kdnssd5', 'libcups', 'libiio', 'libvirt', 'mpd', 'mumble', 'murmur', 'pipewire-pulse', 'pulseaudio-avahi', 'remmina', 'sane-backends', 'telepathy-salut', 'vlc-avahi']"
 +++
@@ -23,7 +23,6 @@ A multicast/unicast DNS-SD framework
 * /etc/avahi/hosts
 * /etc/avahi/services/sftp-ssh.service
 * /etc/avahi/services/ssh.service
-* /etc/dbus-1/system.d/avahi-dbus.conf
 * /etc/systemd/system/avahi-daemon.service.d/ad.conf
 * /usr/bin/avahi-autoipd
 * /usr/bin/avahi-browse
@@ -89,6 +88,7 @@ A multicast/unicast DNS-SD framework
 * /usr/share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceResolver.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceTypeBrowser.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.Avahi.service
+* /usr/share/dbus-1/system.d/avahi-dbus.conf
 * /usr/share/doc/avahi-0.8/ChangeLog
 * /usr/share/doc/avahi-0.8/LICENSE
 * /usr/share/doc/avahi-0.8/README
@@ -114,10 +114,13 @@ A multicast/unicast DNS-SD framework
 * /usr/share/locale/fr/LC_MESSAGES/avahi.mo
 * /usr/share/locale/gl/LC_MESSAGES/avahi.mo
 * /usr/share/locale/he/LC_MESSAGES/avahi.mo
+* /usr/share/locale/hi/LC_MESSAGES/avahi.mo
+* /usr/share/locale/hr/LC_MESSAGES/avahi.mo
 * /usr/share/locale/hu/LC_MESSAGES/avahi.mo
 * /usr/share/locale/id/LC_MESSAGES/avahi.mo
 * /usr/share/locale/it/LC_MESSAGES/avahi.mo
 * /usr/share/locale/ja/LC_MESSAGES/avahi.mo
+* /usr/share/locale/ka/LC_MESSAGES/avahi.mo
 * /usr/share/locale/ko/LC_MESSAGES/avahi.mo
 * /usr/share/locale/lv/LC_MESSAGES/avahi.mo
 * /usr/share/locale/ms/LC_MESSAGES/avahi.mo
