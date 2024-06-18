@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6webengine 6.6.0-5"
-version = "6.6.0-5"
+title = "pyqt6webengine 6.7.0-1"
+version = "6.7.0-1"
 description = "Python bindings for Qt6WebEngine"
-date = "2024-05-27T13:48:18"
+date = "2024-06-18T07:59:54"
 aliases = "/packages/220813"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "121992"
-usize = "667994"
-sha1sum = "7e25cdb0d09c184ffd1539831f177c8c753891dc"
+size = "126592"
+usize = "686646"
+sha1sum = "3f57c3d273da258d53460ad3fd2441805db9b99b"
 depends = "['pyqt6', 'qt6-webengine']"
 reverse_depends = "['calibre', 'polychromatic']"
 +++
@@ -26,6 +26,7 @@ Python bindings for Qt6WebEngine
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebengineclientcertificatestore.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginecontextmenurequest.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginecookiestore.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginedesktopmediarequest.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginedownloadrequest.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginefilesystemaccessrequest.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginefindtextresult.sip
@@ -49,6 +50,7 @@ Python bindings for Qt6WebEngine
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebengineurlrequestjob.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebengineurlscheme.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebengineurlschemehandler.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineCore/qwebenginewebauthuxrequest.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineQuick/qquickwebengineprofile.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineQuick/QtWebEngineQuick.toml
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtWebEngineQuick/qtwebenginequickglobal.sip
@@ -59,10 +61,10 @@ Python bindings for Qt6WebEngine
 * /usr/lib/python3.12/site-packages/PyQt6/QtWebEngineCore.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt6/QtWebEngineQuick.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt6/QtWebEngineWidgets.abi3.so
-* /usr/lib/python3.12/site-packages/PyQt6_WebEngine-6.6.0.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQt6_WebEngine-6.6.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQt6_WebEngine-6.6.0.dist-info/RECORD
-* /usr/share/doc/pyqt6webengine-6.6.0/ChangeLog
-* /usr/share/doc/pyqt6webengine-6.6.0/LICENSE
-* /usr/share/doc/pyqt6webengine-6.6.0/NEWS
-* /usr/share/doc/pyqt6webengine-6.6.0/README
+* /usr/lib/python3.12/site-packages/PyQt6_WebEngine-6.7.0.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQt6_WebEngine-6.7.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt6_WebEngine-6.7.0.dist-info/RECORD
+* /usr/share/doc/pyqt6webengine-6.7.0/ChangeLog
+* /usr/share/doc/pyqt6webengine-6.7.0/LICENSE
+* /usr/share/doc/pyqt6webengine-6.7.0/NEWS
+* /usr/share/doc/pyqt6webengine-6.7.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bitlbee-common 3.6-2"
-version = "3.6-2"
+title = "bitlbee-common 3.6-3"
+version = "3.6-3"
 description = "Common files required by bitlbee/bitlbee-libpurple."
-date = "2024-01-30T10:45:42"
+date = "2024-06-18T07:33:51"
 aliases = "/packages/168636"
 categories = ['network-extra']
 upstreamurl = "http://www.bitlbee.org/main.php/news.html"
 arch = "x86_64"
-size = "261732"
-usize = "933170"
-sha1sum = "af66a28e6f61aa5182d5e5d66138776f0b768504"
+size = "262172"
+usize = "927633"
+sha1sum = "bf3cc28b95c485dbf8e42ca30f03983907391e6f"
 depends = "['glib2', 'gnutls>=3.4.2', 'systemd']"
 reverse_depends = "['bitlbee', 'bitlbee-libpurple']"
 +++
@@ -60,6 +60,7 @@ Common files required by bitlbee/bitlbee-libpurple.
 * /usr/include/bitlbee/url.h
 * /usr/include/bitlbee/xmltree.h
 * /usr/lib/pkgconfig/bitlbee.pc
+* /usr/lib/sysusers.d/bitlbee.conf
 * /usr/share/bitlbee/help.txt
 * /usr/share/doc/bitlbee-3.6/AUTHORS
 * /usr/share/doc/bitlbee-3.6/CHANGES

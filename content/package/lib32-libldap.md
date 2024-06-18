@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libldap 2.6.7-1"
-version = "2.6.7-1"
+title = "lib32-libldap 2.6.8-1"
+version = "2.6.8-1"
 description = "OpenLDAP library ( 32bit )"
-date = "2024-02-01T18:08:27"
+date = "2024-06-18T07:42:46"
 aliases = "/packages/220098"
 categories = ['lib32-extra']
 upstreamurl = "http://www.openldap.org/"
 arch = "x86_64"
-size = "164660"
-usize = "464756"
-sha1sum = "8f1ba305ed4ea0c70dfb6091fe4aae46b1d0d96f"
+size = "165652"
+usize = "465153"
+sha1sum = "8f1dcefa3f0195efa9f25fbef6bf10c413276faa"
 depends = "['lib32-libtool', 'lib32-openssl>=3.0.7']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
@@ -18,6 +18,7 @@ reverse_depends = "['wine', 'wine-devel']"
 OpenLDAP library ( 32bit )
 
 ### Files: 
+* /usr/lib/systemd/system/slapd.service
 * /usr/lib32/liblber.la
 * /usr/lib32/liblber.so
 * /usr/lib32/liblber.so.2

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nettle 3.9.1-2"
-version = "3.9.1-2"
+title = "nettle 3.10-1"
+version = "3.10-1"
 description = "A low-level cryptographic library"
-date = "2024-05-15T17:13:38"
+date = "2024-06-18T07:17:19"
 aliases = "/packages/136587"
 categories = ['base']
 upstreamurl = "http://www.lysator.liu.se/~nisse/nettle/"
 arch = "x86_64"
-size = "587244"
-usize = "1716010"
-sha1sum = "d310200ef015b2a5ffa6cfc7394b79752a330e9e"
+size = "597140"
+usize = "1753888"
+sha1sum = "5193c72698fde279ffd6112cd2a808fb2b631f81"
 depends = "['gmp>=6.1.2-12']"
 reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad', 'libarchive', 'opendht', 'pacman-g2', 'qemu', 'rdfind', 'squid', 'supertuxkart', 'telepathy-salut', 'xorg-server-xwayland']"
 +++
@@ -45,6 +45,7 @@ A low-level cryptographic library
 * /usr/include/nettle/curve25519.h
 * /usr/include/nettle/curve448.h
 * /usr/include/nettle/des.h
+* /usr/include/nettle/drbg-ctr.h
 * /usr/include/nettle/dsa-compat.h
 * /usr/include/nettle/dsa.h
 * /usr/include/nettle/eax.h
@@ -97,19 +98,19 @@ A low-level cryptographic library
 * /usr/include/nettle/yarrow.h
 * /usr/lib/libhogweed.so
 * /usr/lib/libhogweed.so.6
-* /usr/lib/libhogweed.so.6.8
+* /usr/lib/libhogweed.so.6.9
 * /usr/lib/libnettle.so
 * /usr/lib/libnettle.so.8
-* /usr/lib/libnettle.so.8.8
+* /usr/lib/libnettle.so.8.9
 * /usr/lib/pkgconfig/hogweed.pc
 * /usr/lib/pkgconfig/nettle.pc
-* /usr/share/doc/nettle-3.9.1/AUTHORS
-* /usr/share/doc/nettle-3.9.1/ChangeLog
-* /usr/share/doc/nettle-3.9.1/COPYING.LESSERv3
-* /usr/share/doc/nettle-3.9.1/COPYINGv2
-* /usr/share/doc/nettle-3.9.1/COPYINGv3
-* /usr/share/doc/nettle-3.9.1/descore.README
-* /usr/share/doc/nettle-3.9.1/INSTALL
-* /usr/share/doc/nettle-3.9.1/NEWS
-* /usr/share/doc/nettle-3.9.1/README
+* /usr/share/doc/nettle-3.10/AUTHORS
+* /usr/share/doc/nettle-3.10/ChangeLog
+* /usr/share/doc/nettle-3.10/COPYING.LESSERv3
+* /usr/share/doc/nettle-3.10/COPYINGv2
+* /usr/share/doc/nettle-3.10/COPYINGv3
+* /usr/share/doc/nettle-3.10/descore.README
+* /usr/share/doc/nettle-3.10/INSTALL
+* /usr/share/doc/nettle-3.10/NEWS
+* /usr/share/doc/nettle-3.10/README
 * /usr/share/info/nettle.info.gz

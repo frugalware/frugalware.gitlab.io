@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libldap 2.6.7-1"
-version = "2.6.7-1"
+title = "libldap 2.6.8-1"
+version = "2.6.8-1"
 description = "OpenLDAP library."
-date = "2024-02-01T18:08:27"
+date = "2024-06-18T07:42:46"
 aliases = "/packages/10585"
 categories = ['lib']
 upstreamurl = "http://www.openldap.org/"
 arch = "x86_64"
-size = "190628"
+size = "192208"
 usize = "603496"
-sha1sum = "2a046f04ad1625aeaafbbca66aecf4f15867d88d"
+sha1sum = "6f0350a42c3bb037de2629144ccdcea780ab2c51"
 depends = "['cyrus-sasl>=2.1.26-5', 'openssl>=3.0.7']"
 reverse_depends = "['apr-util', 'audit', 'claws-mail', 'courier-authlib', 'dirmngr-ldap', 'dovecot', 'kldap', 'libsmbclient', 'lighttpd', 'openldap', 'openvas-libraries', 'postfix', 'proftpd', 'samba', 'seahorse', 'sylpheed', 'uwsgi-plugin-ldap', 'wine', 'wine-devel']"
 +++

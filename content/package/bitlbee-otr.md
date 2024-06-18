@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bitlbee-otr 3.6-2"
-version = "3.6-2"
+title = "bitlbee-otr 3.6-3"
+version = "3.6-3"
 description = "OTR support for BitlBee."
-date = "2024-01-30T10:45:42"
+date = "2024-06-18T07:33:51"
 aliases = "/packages/103296"
 categories = ['network-extra']
 upstreamurl = "http://www.bitlbee.org/main.php/news.html"
 arch = "x86_64"
-size = "20040"
-usize = "51040"
-sha1sum = "7056af4b67a3bc37d8faa74e487445efc25db522"
+size = "20236"
+usize = "46168"
+sha1sum = "b64dd77f1426e2be38a7a3cc23c9824ea42391e1"
 depends = "['bitlbee=3.6', 'libotr>=4.0.0']"
 +++
 ### Description: 
