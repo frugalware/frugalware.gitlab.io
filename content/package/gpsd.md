@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gpsd 3.25-7"
-version = "3.25-7"
+title = "gpsd 3.25-8"
+version = "3.25-8"
 description = "GPS daemon and library to support USB/serial GPS devices"
-date = "2024-05-27T06:13:16"
+date = "2024-06-18T14:16:35"
 aliases = "/packages/61099"
 categories = ['xapps']
 upstreamurl = "http://www.catb.org/gpsd"
 arch = "x86_64"
-size = "920016"
-usize = "4298414"
-sha1sum = "860e0291c828b0ad32d7113f80422f0a063a5e51"
+size = "921596"
+usize = "4290339"
+sha1sum = "6ec00f9ced2e11e7624ac05489a6901151180cd6"
 depends = "['bluez>=5.41-2', 'libusb1>=1.0.20-4', 'ncurses>=6.5']"
 reverse_depends = "['gpsd-qt', 'libmarble']"
 +++

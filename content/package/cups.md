@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups 2.4.10-1"
-version = "2.4.10-1"
+title = "cups 2.4.10-2"
+version = "2.4.10-2"
 description = "The CUPS Printing System"
-date = "2024-06-18T12:50:41"
+date = "2024-06-18T14:39:35"
 aliases = "/packages/2954"
 categories = ['xapps']
 upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
-size = "5384132"
+size = "5384272"
 usize = "13281585"
-sha1sum = "e923bdfef0a0818e38fcc0d588eeca29883ba193"
+sha1sum = "ec9c026cc16f3e8555b18e051aa759fbb85ca161"
 depends = "['avahi>=0.6.31-9', 'cups-browsed', 'cups-filters', 'dbus', 'libcups', 'libpaper', 'libusb1>=1.0.20-5', 'pam']"
 reverse_depends = "['cups-pk-helper', 'gimp-print', 'gutenprint', 'libreoffice', 'print-manager']"
 +++
@@ -25,7 +25,6 @@ The CUPS Printing System
 * /etc/cups/snmp.conf
 * /etc/cups/snmp.conf.default
 * /etc/pam.d/cups
-* /etc/tmpfiles.d/cups.conf
 * /usr/bin/cancel
 * /usr/bin/cups-config
 * /usr/bin/cupsaccept
@@ -109,6 +108,7 @@ The CUPS Printing System
 * /usr/lib/systemd/system/cups.service
 * /usr/lib/systemd/system/cups.socket
 * /usr/lib/sysusers.d/cups.conf
+* /usr/lib/tmpfiles.d/cups.conf
 * /usr/share/applications/cups.desktop
 * /usr/share/cups/doc/apple-touch-icon.png
 * /usr/share/cups/doc/cups-printable.css

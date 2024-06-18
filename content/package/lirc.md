@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lirc 0.10.2-4"
-version = "0.10.2-4"
+title = "lirc 0.10.2-5"
+version = "0.10.2-5"
 description = "LIRC is a package that allows you to decode and send infra-red signals of many commonly used remote controls."
-date = "2024-06-16T15:27:46"
+date = "2024-06-18T14:32:25"
 aliases = "/packages/15069"
 categories = ['apps-extra']
 upstreamurl = "http://www.lirc.org/"
 arch = "x86_64"
-size = "1254704"
-usize = "8221622"
-sha1sum = "ec3612951c5ff03b0e2c9cef4ccb88e52f558154"
+size = "1255056"
+usize = "8220905"
+sha1sum = "d8f47581f7ca321d395d241387c436119a43e335"
 depends = "['alsa-lib>=1.1.2-2', 'liblirc=0.10.2', 'libusb>=0.1.5-4', 'pyyaml3']"
 +++
 ### Description: 
@@ -24,7 +24,6 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /etc/lirc/lircmd.conf
 * /etc/lirc/lirc_options.conf
 * /etc/logrotate.d/lirc.logrotate
-* /etc/tmpfiles.d/lirc.conf
 * /usr/bin/ircat
 * /usr/bin/irdb-get
 * /usr/bin/irexec

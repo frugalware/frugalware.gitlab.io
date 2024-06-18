@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mariadb 11.4.2-1"
-version = "11.4.2-1"
+title = "mariadb 11.4.2-2"
+version = "11.4.2-2"
 description = "A fast SQL database server"
-date = "2024-06-11T09:45:01"
+date = "2024-06-18T14:28:58"
 aliases = "/packages/219549"
 categories = ['apps-extra']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "59857180"
+size = "61748276"
 usize = "476786131"
-sha1sum = "b93b35890cc530cba65b0fdd63ca469253aeafa5"
+sha1sum = "747501f904a6b3991df0d98fc9699b3e59c2d5b8"
 depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.4.2', 'openssl>=3.1.0', 'readline']"
 reverse_depends = "['postfixadmin']"
 +++
@@ -31,7 +31,6 @@ A fast SQL database server
 * /etc/mysql/my.cnf.d/s3.cnf
 * /etc/mysql/my.cnf.d/server.cnf
 * /etc/mysql/my.cnf.d/spider.cnf
-* /etc/tmpfiles.d/mariadb.conf
 * /usr/bin/aria_chk
 * /usr/bin/aria_dump_log
 * /usr/bin/aria_ftdump
@@ -195,6 +194,7 @@ A fast SQL database server
 * /usr/lib/systemd/system/mysqld.service
 * /usr/lib/systemd/system/mysqld@.service
 * /usr/lib/sysusers.d/mariadb.conf
+* /usr/lib/tmpfiles.d/mariadb.conf
 * /usr/mariadb-test/asan.supp
 * /usr/mariadb-test/collections/10.0-compatible.list
 * /usr/mariadb-test/collections/buildbot_suites.bat

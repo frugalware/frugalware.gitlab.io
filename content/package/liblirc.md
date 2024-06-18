@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liblirc 0.10.2-4"
-version = "0.10.2-4"
+title = "liblirc 0.10.2-5"
+version = "0.10.2-5"
 description = "Client library for lirc."
-date = "2024-06-16T15:27:46"
+date = "2024-06-18T14:32:25"
 aliases = "/packages/73218"
 categories = ['lib']
 upstreamurl = "http://www.lirc.org/"
 arch = "x86_64"
-size = "319300"
-usize = "1543887"
-sha1sum = "22c70ee7eb6d62a08a30b3a8f80862ef0768b4fa"
+size = "318728"
+usize = "1543768"
+sha1sum = "cef12449006a9756a14440ea24ee7bcdaa8c32f0"
 depends = "['glibc>=2.35', 'python3>=3.12']"
 reverse_depends = "['lirc', 'mencoder', 'mplayer', 'mpv', 'pulseaudio-lirc']"
 +++
@@ -145,3 +145,4 @@ Client library for lirc.
 * /usr/lib/systemd/system/lircd.service
 * /usr/lib/systemd/system/lircd.socket
 * /usr/lib/systemd/system/lircmd.service
+* /usr/lib/tmpfiles.d/lirc.conf

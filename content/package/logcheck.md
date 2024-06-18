@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "logcheck 1.4.3-1"
-version = "1.4.3-1"
+title = "logcheck 1.4.3-2"
+version = "1.4.3-2"
 description = "allow a system administrator to view the logfiles under their control"
-date = "2024-06-17T12:41:30"
+date = "2024-06-18T14:34:58"
 aliases = "/packages/219141"
 categories = ['apps-extra']
 upstreamurl = "http://logcheck.org/"
 arch = "x86_64"
-size = "72064"
+size = "72088"
 usize = "380028"
-sha1sum = "44f5f1bfafb7cb5837634cd1e5de33813d4cac53"
+sha1sum = "b7f77f5bbb1b6c5997882483581d8e7f45d54504"
 depends = "[]"
 +++
 ### Description: 
@@ -211,9 +211,9 @@ allow a system administrator to view the logfiles under their control
 * /etc/logcheck/violations.d/sudo
 * /etc/logcheck/violations.ignore.d/logcheck-su
 * /etc/logcheck/violations.ignore.d/logcheck-sudo
-* /etc/tmpfiles.d/logcheck.conf
 * /usr/bin/logcheck-test
 * /usr/lib/sysusers.d/logcheck.conf
+* /usr/lib/tmpfiles.d/logcheck.conf
 * /usr/sbin/logcheck
 * /usr/sbin/logtail
 * /usr/sbin/logtail2

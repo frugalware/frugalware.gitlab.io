@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "munin-node 2.0.76-1"
-version = "2.0.76-1"
+title = "munin-node 2.0.76-2"
+version = "2.0.76-2"
 description = "Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface. (Node)"
-date = "2024-06-17T15:47:13"
+date = "2024-06-18T14:36:20"
 aliases = "/packages/9442"
 categories = ['network-extra']
 upstreamurl = "http://munin-monitoring.org/"
 arch = "x86_64"
-size = "307360"
+size = "307436"
 usize = "1409916"
-sha1sum = "e0177c043d1c2fc712dce324e236305c8a1ce83f"
+sha1sum = "89312275a310fb777c7a365dc435c90a199a4b7e"
 depends = "['perl-net-server']"
 +++
 ### Description: 

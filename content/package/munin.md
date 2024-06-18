@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "munin 2.0.76-1"
-version = "2.0.76-1"
+title = "munin 2.0.76-2"
+version = "2.0.76-2"
 description = "Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface."
-date = "2024-06-17T15:47:13"
+date = "2024-06-18T14:36:20"
 aliases = "/packages/9441"
 categories = ['network-extra']
 upstreamurl = "http://munin-monitoring.org/"
 arch = "x86_64"
-size = "907636"
+size = "907608"
 usize = "3105887"
-sha1sum = "b034d2b72d41279e0bd4fd10034b02d3ffa5c07d"
+sha1sum = "52c022495f9674b13eae4c76b2dd6ea3125262cb"
 depends = "['perl-html-template', 'rrdtool>=1.7.1']"
 +++
 ### Description: 
@@ -52,7 +52,6 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /etc/munin/templates/partial/logo_path.tmpl
 * /etc/munin/templates/partial/navigation.tmpl
 * /etc/munin/templates/partial/path.tmpl
-* /etc/tmpfiles.d/munin.conf
 * /usr/bin/munin-check
 * /usr/bin/munin-cron
 * /usr/bin/munin-get
@@ -339,6 +338,7 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /usr/lib/perl5/site_perl/current/Munin/Plugin/Pgsql.pm
 * /usr/lib/perl5/site_perl/current/Munin/Plugin/SNMP.pm
 * /usr/lib/sysusers.d/munin.conf
+* /usr/lib/tmpfiles.d/munin.conf
 * /usr/share/doc/munin-2.0.76/ChangeLog
 * /usr/share/doc/munin-2.0.76/COPYING
 * /usr/share/doc/munin-2.0.76/INSTALL
