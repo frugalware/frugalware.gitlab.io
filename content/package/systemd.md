@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "systemd 256-1"
-version = "256-1"
+title = "systemd 256-2"
+version = "256-2"
 description = "A System and Service Manager"
-date = "2024-06-12T09:25:22"
+date = "2024-06-18T12:45:45"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4584948"
-usize = "20711090"
-sha1sum = "6cdc09ea3af0f59c5a7e44714fd828c8d19803b1"
+size = "4585572"
+usize = "20711097"
+sha1sum = "054a7ccbdc4ed9ffa701b3badcf4737dfae76ed0"
 depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=256', 'libudev>=256', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=256', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'gamemode', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
@@ -947,8 +947,8 @@ A System and Service Manager
 * /usr/share/man/man3/sd_bus_error_is_set.3.gz
 * /usr/share/man/man3/SD_BUS_ERROR_LIMITS_EXCEEDED.3.gz
 * /usr/share/man/man3/SD_BUS_ERROR_MAKE_CONST.3.gz
-* /usr/share/man/man3/SD_BUS_ERROR_MAP.3.gz
 * /usr/share/man/man3/sd_bus_error_map.3.gz
+* /usr/share/man/man3/SD_BUS_ERROR_MAP.3.gz
 * /usr/share/man/man3/SD_BUS_ERROR_MATCH_RULE_INVALID.3.gz
 * /usr/share/man/man3/SD_BUS_ERROR_MATCH_RULE_NOT_FOUND.3.gz
 * /usr/share/man/man3/sd_bus_error_move.3.gz

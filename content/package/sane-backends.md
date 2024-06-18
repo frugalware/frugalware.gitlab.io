@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sane-backends 1.3.1-1"
-version = "1.3.1-1"
+title = "sane-backends 1.3.1-2"
+version = "1.3.1-2"
 description = "Scanner Access Now Easy"
-date = "2024-05-25T12:06:10"
+date = "2024-06-18T13:09:29"
 aliases = "/packages/3327"
 categories = ['multimedia']
 upstreamurl = "http://www.sane-project.org"
 arch = "x86_64"
-size = "3967848"
-usize = "20968157"
-sha1sum = "1c1dd44249b20903529e630e85178db96d1b311c"
+size = "4073416"
+usize = "20407003"
+sha1sum = "daf09fc3eefdc9c8b2f0bd3c1511f1cc66d74ff5"
 depends = "['avahi', 'curl', 'libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=3.2.1-2', 'libusb1>=1.0.20-5', 'poppler-glib', 'v4l-utils']"
 reverse_depends = "['hplip', 'ksanecore', 'ksanecore5', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
 +++
@@ -390,6 +390,7 @@ Scanner Access Now Easy
 * /usr/lib/sane/libsane-xerox_mfp.so
 * /usr/lib/sane/libsane-xerox_mfp.so.1
 * /usr/lib/sane/libsane-xerox_mfp.so.1.2.1
+* /usr/lib/sysusers.d/scanner.conf
 * /usr/lib/udev/rules.d/70-libsane.rules
 * /usr/share/doc/sane-backends-1.3.1/AUTHORS
 * /usr/share/doc/sane-backends-1.3.1/backend-writing.txt
