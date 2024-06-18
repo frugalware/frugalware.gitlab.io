@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups 2.4.10-2"
-version = "2.4.10-2"
+title = "cups 2.4.10-3"
+version = "2.4.10-3"
 description = "The CUPS Printing System"
-date = "2024-06-18T14:39:35"
+date = "2024-06-18T21:36:51"
 aliases = "/packages/2954"
 categories = ['xapps']
 upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
-size = "5384272"
+size = "5384728"
 usize = "13281585"
-sha1sum = "ec9c026cc16f3e8555b18e051aa759fbb85ca161"
+sha1sum = "c068289886948fb607d25faf3c6ee6268fa9d134"
 depends = "['avahi>=0.6.31-9', 'cups-browsed', 'cups-filters', 'dbus', 'libcups', 'libpaper', 'libusb1>=1.0.20-5', 'pam']"
 reverse_depends = "['cups-pk-helper', 'gimp-print', 'gutenprint', 'libreoffice', 'print-manager']"
 +++

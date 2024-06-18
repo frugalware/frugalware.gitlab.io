@@ -12,7 +12,6 @@ size = "169132"
 usize = "629558"
 sha1sum = "768ca2022bbef9bb4037696598bf240728103a15"
 depends = "['lib32-expat', 'lib32-gdbm>=1.15', 'lib32-libdaemon', 'lib32-libdbus', 'lib32-libevent', 'lib32-libsystemd']"
-reverse_depends = "['lib32-libcups']"
 +++
 ### Description: 
 A multicast/unicast DNS-SD framework (32-Bit)
