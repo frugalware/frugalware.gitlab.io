@@ -12,7 +12,7 @@ size = "1562020"
 usize = "8041106"
 sha1sum = "53aac4b52f8144cf86a76593f17b45f8825c89ca"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre', 'lib32-util-linux', 'lib32-zlib']"
-reverse_depends = "['lib32-at-spi2-core', 'lib32-avahi-glib', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
+reverse_depends = "['lib32-at-spi2-core', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++
 ### Description: 
 Common C routines used by GTK+ and other libraries (32-bit)

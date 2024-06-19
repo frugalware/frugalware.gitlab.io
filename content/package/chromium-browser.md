@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chromium-browser 126.0.6478.61-1"
-version = "126.0.6478.61-1"
+title = "chromium-browser 126.0.6478.114-1"
+version = "126.0.6478.114-1"
 description = "Chromium browser"
-date = "2024-06-14T18:27:04"
+date = "2024-06-19T11:42:09"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "106634088"
-usize = "419832172"
-sha1sum = "fea4d9ccabc9f21f27110760d12daaea649c0920"
+size = "106656356"
+usize = "419832044"
+sha1sum = "700ae3e46e2fd600e1e63114f5992efc8e490f85"
 depends = "['curl', 'dav1d', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=75.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
@@ -158,10 +158,10 @@ Chromium browser
 * /usr/lib/chromium/v8_context_snapshot.bin
 * /usr/lib/chromium/vk_swiftshader_icd.json
 * /usr/share/applications/chromium.desktop
-* /usr/share/doc/chromium-browser-126.0.6478.61/AUTHORS
-* /usr/share/doc/chromium-browser-126.0.6478.61/LICENSE
-* /usr/share/doc/chromium-browser-126.0.6478.61/LICENSE.chromium_os
-* /usr/share/doc/chromium-browser-126.0.6478.61/README.md
+* /usr/share/doc/chromium-browser-126.0.6478.114/AUTHORS
+* /usr/share/doc/chromium-browser-126.0.6478.114/LICENSE
+* /usr/share/doc/chromium-browser-126.0.6478.114/LICENSE.chromium_os
+* /usr/share/doc/chromium-browser-126.0.6478.114/README.md
 * /usr/share/icons/hicolor/128x128/apps/chromium.png
 * /usr/share/icons/hicolor/16x16/apps/chromium.png
 * /usr/share/icons/hicolor/24x24/apps/chromium.png

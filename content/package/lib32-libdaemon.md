@@ -12,7 +12,6 @@ size = "15800"
 usize = "49344"
 sha1sum = "fe839e52fe8e5fdcf0f6baa42176baec317c1784"
 depends = "[]"
-reverse_depends = "['lib32-avahi']"
 +++
 ### Description: 
 libdaemon is a lightweight C library that eases the writing of UNIX daemons. ( 32bit )

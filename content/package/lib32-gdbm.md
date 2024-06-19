@@ -12,7 +12,6 @@ size = "99208"
 usize = "309233"
 sha1sum = "ba3e6bdded937f27d7f2fdb56248922afb49266f"
 depends = "['lib32-readline>=8.0-2']"
-reverse_depends = "['lib32-avahi']"
 +++
 ### Description: 
 GNU database library ( 32bit )

@@ -12,7 +12,7 @@ size = "55752"
 usize = "155616"
 sha1sum = "746f602c01ccd32c8bcfc148cd2d7e21c79b0795"
 depends = "['glibc']"
-reverse_depends = "['libfbclient', 'libtomcrypt']"
+reverse_depends = "['libtomcrypt']"
 +++
 ### Description: 
 Highly optimized and portable routines for integer based number theoretic applications

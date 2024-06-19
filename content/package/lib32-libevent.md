@@ -12,7 +12,6 @@ size = "265224"
 usize = "1251222"
 sha1sum = "40c7b6cd2ea12351df2737a9a685f5125966a4ef"
 depends = "['lib32-openssl>=3.1.0']"
-reverse_depends = "['lib32-avahi']"
 +++
 ### Description: 
 Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached ( 32bit )
