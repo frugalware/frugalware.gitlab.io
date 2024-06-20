@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-chromaprint 1.24.4-2"
-version = "1.24.4-2"
+title = "gst1-plugins-bad-chromaprint 1.24.5-1"
+version = "1.24.5-1"
 description = "GStreamer Chromaprint plugin (Bad)."
-date = "2024-06-07T20:04:28"
+date = "2024-06-20T21:52:05"
 aliases = "/packages/221268"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "10900"
+size = "10932"
 usize = "12528"
-sha1sum = "a22f1eae4c216a12c66f8f197f692db9dc99614b"
-depends = "['chromaprint', 'gst1-plugins-bad>=1.24.4', 'gst1-plugins-base>=1.24.4']"
+sha1sum = "ef0dd9888362108308116d4bb3c8380b3cc9b8a5"
+depends = "['chromaprint', 'gst1-plugins-bad>=1.24.5', 'gst1-plugins-base>=1.24.5']"
 +++
 ### Description: 
 GStreamer Chromaprint plugin (Bad).
