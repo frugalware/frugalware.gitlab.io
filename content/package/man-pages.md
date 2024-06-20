@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "man-pages 6.9-1"
-version = "6.9-1"
+title = "man-pages 6.9.1-1"
+version = "6.9.1-1"
 description = "Man pages are online documentation for Linux"
-date = "2024-06-16T14:18:34"
+date = "2024-06-20T15:28:03"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5709400"
-usize = "5741410"
-sha1sum = "33b45aa0503f5064e0f3d8c212d6b1c98eb73899"
+size = "5711252"
+usize = "5741315"
+sha1sum = "3e585d41d5c96e49b57404b0d574d116bb05fa53"
 depends = "[]"
 +++
 ### Description: 
 Man pages are online documentation for Linux
 
 ### Files: 
-* /usr/share/doc/man-pages-6.9/INSTALL
-* /usr/share/doc/man-pages-6.9/POSIX-COPYRIGHT
-* /usr/share/doc/man-pages-6.9/README
-* /usr/share/doc/man-pages-6.9/RELEASE
+* /usr/share/doc/man-pages-6.9.1/INSTALL
+* /usr/share/doc/man-pages-6.9.1/POSIX-COPYRIGHT
+* /usr/share/doc/man-pages-6.9.1/README
+* /usr/share/doc/man-pages-6.9.1/RELEASE
 * /usr/share/man/man0p/aio.h.0p.gz
 * /usr/share/man/man0p/arpa_inet.h.0p.gz
 * /usr/share/man/man0p/assert.h.0p.gz
@@ -770,8 +770,8 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2/waitpid.2.gz
 * /usr/share/man/man2/write.2.gz
 * /usr/share/man/man2/writev.2.gz
-* /usr/share/man/man2/_Exit.2.gz
 * /usr/share/man/man2/_exit.2.gz
+* /usr/share/man/man2/_Exit.2.gz
 * /usr/share/man/man2/_llseek.2.gz
 * /usr/share/man/man2/_newselect.2.gz
 * /usr/share/man/man2/_syscall.2.gz
@@ -3637,6 +3637,8 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3type/regex_t.3type.gz
 * /usr/share/man/man3type/regmatch_t.3type.gz
 * /usr/share/man/man3type/regoff_t.3type.gz
+* /usr/share/man/man3type/rlimit.3type.gz
+* /usr/share/man/man3type/rlim_t.3type.gz
 * /usr/share/man/man3type/sa_family_t.3type.gz
 * /usr/share/man/man3type/sigevent.3type.gz
 * /usr/share/man/man3type/siginfo_t.3type.gz
