@@ -18,9 +18,9 @@ reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
 The Qt6 toolkit, qtserialport
 
 ### Files: 
-* /usr/include/qt6/QtSerialPort/6.7.1/QtSerialPort/private/qserialportinfo_p.h
-* /usr/include/qt6/QtSerialPort/6.7.1/QtSerialPort/private/qserialport_p.h
-* /usr/include/qt6/QtSerialPort/6.7.1/QtSerialPort/private/qtserialport-config_p.h
+* /usr/include/qt6/QtSerialPort/6.7.2/QtSerialPort/private/qserialportinfo_p.h
+* /usr/include/qt6/QtSerialPort/6.7.2/QtSerialPort/private/qserialport_p.h
+* /usr/include/qt6/QtSerialPort/6.7.2/QtSerialPort/private/qtserialport-config_p.h
 * /usr/include/qt6/QtSerialPort/QSerialPort
 * /usr/include/qt6/QtSerialPort/qserialport.h
 * /usr/include/qt6/QtSerialPort/qserialportglobal.h
@@ -44,7 +44,7 @@ The Qt6 toolkit, qtserialport
 * /usr/lib/libQt6SerialPort.prl
 * /usr/lib/libQt6SerialPort.so
 * /usr/lib/libQt6SerialPort.so.6
-* /usr/lib/libQt6SerialPort.so.6.7.1
+* /usr/lib/libQt6SerialPort.so.6.7.2
 * /usr/lib/pkgconfig/Qt6SerialPort.pc
 * /usr/lib/qt6/metatypes/qt6serialport_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_serialport.pri

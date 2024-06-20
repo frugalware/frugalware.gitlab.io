@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kget 24.05.1-1"
-version = "24.05.1-1"
+title = "kget 24.05.1-2"
+version = "24.05.1-2"
 description = "A free download manager for KDE."
-date = "2024-06-15T07:46:50"
+date = "2024-06-20T10:13:43"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5284192"
+size = "5284104"
 usize = "11365005"
-sha1sum = "6e556f991b92cc8c8fda8323e7585af2bff3281e"
+sha1sum = "79143051f2ec376374cdb60d92816ec0a8056a69"
 depends = "['kcmutils>=6.3.0', 'knotifyconfig>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.0']"
 +++
 ### Description: 

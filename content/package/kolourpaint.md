@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kolourpaint 24.05.1-1"
-version = "24.05.1-1"
+title = "kolourpaint 24.05.1-2"
+version = "24.05.1-2"
 description = "KDE Paint Program."
-date = "2024-06-14T22:11:39"
+date = "2024-06-20T10:08:02"
 aliases = "/packages/88169"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5433968"
+size = "5433712"
 usize = "9645215"
-sha1sum = "c26d1fb6caac3e4fd6c618568d811ca1c655a741"
+sha1sum = "476b4abc24d62e2224bfd336645f7a353502a1c2"
 depends = "['kio>=6.3.0', 'libksane>=24.05.1']"
 +++
 ### Description: 

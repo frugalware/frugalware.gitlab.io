@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "oxygen-sounds 6.0.5-2"
-version = "6.0.5-2"
+title = "oxygen-sounds 6.1.0-1"
+version = "6.1.0-1"
 description = "The Oxygen Sound Theme"
-date = "2024-05-26T22:20:30"
+date = "2024-06-19T20:45:16"
 aliases = "/packages/218432"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1926056"
-usize = "2167118"
-sha1sum = "b8381d633177924ca6c1bc8e501d96a2a7c24fab"
+size = "1926512"
+usize = "2167665"
+sha1sum = "1b7d7638bd1af859fed6e55c7e3a61cabf9d703a"
 depends = "['qt5-base', 'qt6-base']"
 reverse_depends = "['kwrited', 'kwrited5']"
 +++

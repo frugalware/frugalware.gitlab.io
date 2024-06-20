@@ -18,18 +18,18 @@ reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'calib
 The Qt6 toolkit, qtsvg
 
 ### Files: 
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgfilter_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgfont_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvggraphics_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvghandler_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvghelper_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgnode_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgstructure_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgstyle_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgtinydocument_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qsvgvisitor_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qtsvgexports_p.h
-* /usr/include/qt6/QtSvg/6.7.1/QtSvg/private/qtsvgglobal_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgfilter_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgfont_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvggraphics_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvghandler_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvghelper_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgnode_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgstructure_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgstyle_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgtinydocument_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qsvgvisitor_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qtsvgexports_p.h
+* /usr/include/qt6/QtSvg/6.7.2/QtSvg/private/qtsvgglobal_p.h
 * /usr/include/qt6/QtSvg/QSvgGenerator
 * /usr/include/qt6/QtSvg/qsvggenerator.h
 * /usr/include/qt6/QtSvg/QSvgRenderer
@@ -82,11 +82,11 @@ The Qt6 toolkit, qtsvg
 * /usr/lib/libQt6Svg.prl
 * /usr/lib/libQt6Svg.so
 * /usr/lib/libQt6Svg.so.6
-* /usr/lib/libQt6Svg.so.6.7.1
+* /usr/lib/libQt6Svg.so.6.7.2
 * /usr/lib/libQt6SvgWidgets.prl
 * /usr/lib/libQt6SvgWidgets.so
 * /usr/lib/libQt6SvgWidgets.so.6
-* /usr/lib/libQt6SvgWidgets.so.6.7.1
+* /usr/lib/libQt6SvgWidgets.so.6.7.2
 * /usr/lib/pkgconfig/Qt6Svg.pc
 * /usr/lib/pkgconfig/Qt6SvgWidgets.pc
 * /usr/lib/qt6/metatypes/qt6svgwidgets_release_metatypes.json

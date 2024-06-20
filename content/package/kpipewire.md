@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpipewire 6.0.5-2"
-version = "6.0.5-2"
+title = "kpipewire 6.1.0-1"
+version = "6.1.0-1"
 description = "Components relating to pipewire use in Plasma"
-date = "2024-06-05T18:28:14"
+date = "2024-06-19T21:51:47"
 aliases = "/packages/220610"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "114264"
-usize = "417913"
-sha1sum = "11b1e182bb2dbdbb9315adbc07f406b338146844"
-depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'kwayland>=6.0.5', 'libepoxy', 'pipewire']"
+size = "119716"
+usize = "440232"
+sha1sum = "70e1b88ab4a3e086fbdabea9d38eee98b2ccbce5"
+depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.3.0', 'ki18n>=6.3.0', 'kwayland>=6.1.0', 'libepoxy', 'pipewire']"
 reverse_depends = "['krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -39,13 +39,13 @@ Components relating to pipewire use in Plasma
 * /usr/lib/cmake/KPipeWire/KPipeWireTargets.cmake
 * /usr/lib/libKPipeWire.so
 * /usr/lib/libKPipeWire.so.6
-* /usr/lib/libKPipeWire.so.6.0.5
+* /usr/lib/libKPipeWire.so.6.1.0
 * /usr/lib/libKPipeWireDmaBuf.so
 * /usr/lib/libKPipeWireDmaBuf.so.6
-* /usr/lib/libKPipeWireDmaBuf.so.6.0.5
+* /usr/lib/libKPipeWireDmaBuf.so.6.1.0
 * /usr/lib/libKPipeWireRecord.so
 * /usr/lib/libKPipeWireRecord.so.6
-* /usr/lib/libKPipeWireRecord.so.6.0.5
+* /usr/lib/libKPipeWireRecord.so.6.1.0
 * /usr/lib/qt6/qml/org/kde/pipewire/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/pipewire/KPipeWireDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/libKPipeWireDeclarative.so
@@ -58,7 +58,7 @@ Components relating to pipewire use in Plasma
 * /usr/lib/qt6/qml/org/kde/pipewire/record/KPipeWireRecordDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/record/libKPipeWireRecordDeclarative.so
 * /usr/lib/qt6/qml/org/kde/pipewire/record/qmldir
-* /usr/share/doc/kpipewire-6.0.5/README.md
+* /usr/share/doc/kpipewire-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpipewire6.mo
@@ -73,14 +73,17 @@ Components relating to pipewire use in Plasma
 * /usr/share/locale/fi/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/fr/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kpipewire6.mo
+* /usr/share/locale/he/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/id/LC_MESSAGES/kpipewire6.mo
+* /usr/share/locale/is/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/it/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ja/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ka/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ko/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/lt/LC_MESSAGES/kpipewire6.mo
+* /usr/share/locale/lv/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/nl/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/nn/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/pa/LC_MESSAGES/kpipewire6.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kruler 24.05.1-1"
-version = "24.05.1-1"
+title = "kruler 24.05.1-2"
+version = "24.05.1-2"
 description = "KDE Ruler Widget."
-date = "2024-06-14T19:22:52"
+date = "2024-06-20T08:13:14"
 aliases = "/packages/88170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "274776"
+size = "274800"
 usize = "625363"
-sha1sum = "0c35ba6313a008f67a4586e5053fed5304013dd1"
+sha1sum = "6b5b565ac2828451505ba04fbcd50f04385f1986"
 depends = "['knotifications>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kxmlgui>=6.3.0']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-imageformats 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-imageformats 6.7.2-1"
+version = "6.7.2-1"
 description = "The Qt6 toolkit, qtimageformats"
-date = "2024-05-21T08:50:46"
+date = "2024-06-19T14:57:05"
 aliases = "/packages/220765"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "54836"
-usize = "320316"
-sha1sum = "ca65c241ff43d760777b97921fb77a419edaa12a"
+size = "54356"
+usize = "287060"
+sha1sum = "df41ca99e11867365b5d8d45d2c8d4fb40b2e505"
 depends = "['jasper', 'libmng', 'libwebp', 'qt6-base']"
 reverse_depends = "['gwenview', 'telegram-desktop']"
 +++

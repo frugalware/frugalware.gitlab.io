@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kopeninghours 24.05.1-1"
-version = "24.05.1-1"
+title = "kopeninghours 24.05.1-2"
+version = "24.05.1-2"
 description = "Library for parsing and evaluating OSM opening hours expressions"
-date = "2024-06-15T08:32:44"
+date = "2024-06-20T10:46:41"
 aliases = "/packages/220984"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "103932"
+size = "103832"
 usize = "383741"
-sha1sum = "8acfe175113bcf1ab52cf24229b8d78e085b03b5"
+sha1sum = "b952f87f85fc249fe7e1ca2d40cfe865f9caf399"
 depends = "['kholidays', 'ki18n', 'qt6-declarative']"
 reverse_depends = "['kosmindoormap']"
 +++

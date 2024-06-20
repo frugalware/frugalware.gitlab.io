@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkscreen 6.0.5-1"
-version = "6.0.5-1"
+title = "libkscreen 6.1.0-1"
+version = "6.1.0-1"
 description = "KDE screen management software."
-date = "2024-05-22T07:33:14"
+date = "2024-06-19T19:06:50"
 aliases = "/packages/221362"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "259892"
-usize = "1041225"
-sha1sum = "8742253bb9ece8b444f08c72440d675a017913d2"
-depends = "['kconfig>=6.2.0', 'kwayland>=6.0.5', 'libxrandr>=1.5.0-5']"
+size = "260388"
+usize = "1007665"
+sha1sum = "fc7ee9c5785fc438a7b789632e4e7bf426788e6f"
+depends = "['kconfig>=6.3.0', 'kwayland>=6.1.0', 'libxrandr>=1.5.0-5']"
 reverse_depends = "['kscreen']"
 +++
 ### Description: 
@@ -52,10 +52,10 @@ KDE screen management software.
 * /usr/lib/cmake/KF6Screen/KF6ScreenTargets-release.cmake
 * /usr/lib/cmake/KF6Screen/KF6ScreenTargets.cmake
 * /usr/lib/libKF6Screen.so
-* /usr/lib/libKF6Screen.so.6.0.5
+* /usr/lib/libKF6Screen.so.6.1.0
 * /usr/lib/libKF6Screen.so.8
 * /usr/lib/libKF6ScreenDpms.so
-* /usr/lib/libKF6ScreenDpms.so.6.0.5
+* /usr/lib/libKF6ScreenDpms.so.6.1.0
 * /usr/lib/libKF6ScreenDpms.so.8
 * /usr/lib/libkscreen/kf6/kscreen_backend_launcher
 * /usr/lib/pkgconfig/KF6Screen.pc
@@ -65,7 +65,7 @@ KDE screen management software.
 * /usr/lib/qt6/plugins/kf6/kscreen/KSC_XRandR.so
 * /usr/lib/systemd/user/plasma-kscreen.service
 * /usr/share/dbus-1/services/org.kde.kscreen.service
-* /usr/share/doc/libkscreen-6.0.5/README.md
+* /usr/share/doc/libkscreen-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/libkscreen6_qt.qm
@@ -80,6 +80,7 @@ KDE screen management software.
 * /usr/share/locale/fi/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/fr/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/libkscreen6_qt.qm
+* /usr/share/locale/he/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/id/LC_MESSAGES/libkscreen6_qt.qm
@@ -89,6 +90,7 @@ KDE screen management software.
 * /usr/share/locale/ka/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/ko/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/lt/LC_MESSAGES/libkscreen6_qt.qm
+* /usr/share/locale/lv/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/nl/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/nn/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/pl/LC_MESSAGES/libkscreen6_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kstatusnotifieritem 6.3.0-1"
-version = "6.3.0-1"
+title = "kstatusnotifieritem 6.3.0-2"
+version = "6.3.0-2"
 description = "Status Notifier Items"
-date = "2024-06-08T12:56:00"
+date = "2024-06-19T18:31:25"
 aliases = "/packages/221402"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "107040"
+size = "107168"
 usize = "370143"
-sha1sum = "4bfc0c3455cb2825f9ddd4b7f7c44fe9b271ea9f"
+sha1sum = "24d40944e51fb66c5ee8cf8e4d209e61cd626ba2"
 depends = "['kwindowsystem>=6.3.0']"
 reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmousetool', 'knotes', 'konversation', 'krfb', 'kruler', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++

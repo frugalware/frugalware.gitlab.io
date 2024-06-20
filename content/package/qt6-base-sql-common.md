@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-base-sql-common 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-base-sql-common 6.7.2-1"
+version = "6.7.2-1"
 description = "Development files for SQL plugins"
-date = "2024-05-21T07:59:52"
+date = "2024-06-19T14:35:48"
 aliases = "/packages/220754"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "12664"
-usize = "59731"
-sha1sum = "07f0a0f1f221b1e899eab92adbeda7f35b76a005"
+size = "12888"
+usize = "59656"
+sha1sum = "c76b37d4d0f2f69c60debf3c72284cfd59284b35"
 depends = "[]"
 reverse_depends = "['alizams', 'futuresql', 'qt6-base-mysql', 'qt6-base-postgresql', 'qtcreator']"
 +++
@@ -18,14 +18,14 @@ reverse_depends = "['alizams', 'futuresql', 'qt6-base-mysql', 'qt6-base-postgres
 Development files for SQL plugins
 
 ### Files: 
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qsqlcachedresult_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qsqldriver_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qsqlnulldriver_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qsqlquerymodel_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qsqlresult_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qsqltablemodel_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qtsql-config_p.h
-* /usr/include/qt6/QtSql/6.7.1/QtSql/private/qtsqlglobal_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qsqlcachedresult_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qsqldriver_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qsqlnulldriver_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qsqlquerymodel_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qsqlresult_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qsqltablemodel_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qtsql-config_p.h
+* /usr/include/qt6/QtSql/6.7.2/QtSql/private/qtsqlglobal_p.h
 * /usr/include/qt6/QtSql/QSql
 * /usr/include/qt6/QtSql/QSqlDatabase
 * /usr/include/qt6/QtSql/qsqldatabase.h

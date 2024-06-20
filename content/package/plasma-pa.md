@@ -1,22 +1,26 @@
 +++
 draft = false
-title = "plasma-pa 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-pa 6.1.0-1"
+version = "6.1.0-1"
 description = "Plasma applet written in QML for PulseAudio"
-date = "2024-05-22T08:50:18"
+date = "2024-06-19T19:43:25"
 aliases = "/packages/218400"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "267280"
-usize = "1149669"
-sha1sum = "a85833cd4ee5f04cb67f0514eb68dd04c000866a"
-depends = "['kcmutils>=6.2.0', 'kdeclarative>=6.2.0', 'kirigami-addons', 'kitemmodels>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'ksvg>=6.2.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.0.5', 'sound-theme-freedesktop']"
+size = "239292"
+usize = "1044075"
+sha1sum = "7622375394e42bbfaa7f65c20eb564009fb2d21a"
+depends = "['kcmutils>=6.3.0', 'kdeclarative>=6.3.0', 'kirigami-addons', 'kitemmodels>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'ksvg>=6.3.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.1.0', 'pulseaudio-qt', 'sound-theme-freedesktop']"
 +++
 ### Description: 
 Plasma applet written in QML for PulseAudio
 
 ### Files: 
+* /usr/lib/libplasma-volume.so
+* /usr/lib/libplasma-volume.so.6
+* /usr/lib/libplasma-volume.so.6.1.0
+* /usr/lib/qt6/plugins/kf6/kded/audioshortcutsservice.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/volume/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/volume/libplasma-volume-declarative.so
@@ -107,6 +111,7 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
@@ -152,7 +157,6 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/metainfo/org.kde.plasma.volume.appdata.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/code/icon.js
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/config/main.xml
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/DeviceListItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/HorizontalStackView.qml

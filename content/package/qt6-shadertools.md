@@ -18,13 +18,13 @@ reverse_depends = "['qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
 The Qt6 toolkit, qtshadertools
 
 ### Files: 
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/private/qshaderrewriter_p.h
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/private/qspirvcompiler_p.h
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/private/qspirvshaderremap_p.h
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/private/qspirvshader_p.h
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/private/qtshadertoolsexports_p.h
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/private/qtshadertoolsglobal_p.h
-* /usr/include/qt6/QtShaderTools/6.7.1/QtShaderTools/rhi/qshaderbaker.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/private/qshaderrewriter_p.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/private/qspirvcompiler_p.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/private/qspirvshaderremap_p.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/private/qspirvshader_p.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/private/qtshadertoolsexports_p.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/private/qtshadertoolsglobal_p.h
+* /usr/include/qt6/QtShaderTools/6.7.2/QtShaderTools/rhi/qshaderbaker.h
 * /usr/include/qt6/QtShaderTools/QtShaderTools
 * /usr/include/qt6/QtShaderTools/QtShaderToolsDepends
 * /usr/include/qt6/QtShaderTools/qtshadertoolsexports.h
@@ -52,7 +52,7 @@ The Qt6 toolkit, qtshadertools
 * /usr/lib/libQt6ShaderTools.prl
 * /usr/lib/libQt6ShaderTools.so
 * /usr/lib/libQt6ShaderTools.so.6
-* /usr/lib/libQt6ShaderTools.so.6.7.1
+* /usr/lib/libQt6ShaderTools.so.6.7.2
 * /usr/lib/pkgconfig/Qt6ShaderTools.pc
 * /usr/lib/qt6/bin/qsb
 * /usr/lib/qt6/metatypes/qt6shadertools_release_metatypes.json

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libplasma 6.0.5-1"
-version = "6.0.5-1"
+title = "libplasma 6.1.0-1"
+version = "6.1.0-1"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2024-05-22T07:37:05"
+date = "2024-06-19T19:09:11"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2624724"
-usize = "5926592"
-sha1sum = "6f7c446096a0ca70469974969f912fe3305b418e"
-depends = "['kcmutils>=6.2.0', 'ksvg>=6.2.0', 'plasma-activities>=6.0.5']"
+size = "2691508"
+usize = "6278878"
+sha1sum = "948802d1be0873cdc295e66b5821874ecc9482fc"
+depends = "['kcmutils>=6.3.0', 'ksvg>=6.3.0', 'plasma-activities>=6.1.0']"
 reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -47,6 +47,8 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/include/PlasmaQuick/PlasmaQuick/Dialog
 * /usr/include/PlasmaQuick/plasmaquick/dialog.h
 * /usr/include/PlasmaQuick/plasmaquick/plasmaquick_export.h
+* /usr/include/PlasmaQuick/PlasmaQuick/PlasmaShellWaylandIntegration
+* /usr/include/PlasmaQuick/plasmaquick/plasmashellwaylandintegration.h
 * /usr/include/PlasmaQuick/PlasmaQuick/PlasmaWindow
 * /usr/include/PlasmaQuick/plasmaquick/plasmawindow.h
 * /usr/include/PlasmaQuick/PlasmaQuick/PopupPlasmaWindow
@@ -66,10 +68,10 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/cmake/PlasmaQuick/PlasmaQuickTargets.cmake
 * /usr/lib/libPlasma.so
 * /usr/lib/libPlasma.so.6
-* /usr/lib/libPlasma.so.6.0.5
+* /usr/lib/libPlasma.so.6.1.0
 * /usr/lib/libPlasmaQuick.so
 * /usr/lib/libPlasmaQuick.so.6
-* /usr/lib/libPlasmaQuick.so.6.0.5
+* /usr/lib/libPlasmaQuick.so.6.1.0
 * /usr/lib/qt6/plugins/kf6/kirigami/platform/KirigamiPlasmaStyle.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_applet.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_containmentactions.so
@@ -161,6 +163,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/extras/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/extras/libplasmaextracomponentsplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/extras/ListItem.qml
+* /usr/lib/qt6/qml/org/kde/plasma/extras/ListSectionHeader.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/ModelContextMenu.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/PasswordField.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/PlaceholderMessage.qml
@@ -171,7 +174,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/extras/Representation.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/SearchField.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/ShadowedLabel.qml
-* /usr/share/doc/libplasma-6.0.5/README.md
+* /usr/share/doc/libplasma-6.1.0/README.md
 * /usr/share/kdevappwizard/templates/cpp-plasmoid6.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper-with-qml-extension.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper.tar.bz2
@@ -202,6 +205,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/share/locale/hu/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/id/LC_MESSAGES/libplasma6.mo
+* /usr/share/locale/is/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/it/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/ja/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/ka/LC_MESSAGES/libplasma6.mo

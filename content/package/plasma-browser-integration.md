@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-browser-integration 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-browser-integration 6.1.0-1"
+version = "6.1.0-1"
 description = "Qt Platform Theme integration plugins for the Plasma workspaces."
-date = "2024-05-29T10:16:22"
+date = "2024-06-19T21:56:15"
 aliases = "/packages/219689"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "146184"
-usize = "542866"
-sha1sum = "4556a1fec05231321845ec292f14ded2f52ed2ef"
-depends = "['kconfig>=6.2.0', 'kdbusaddons>=6.2.0', 'kfilemetadata>=6.2.0', 'ki18n>=6.2.0', 'kio>=6.2.0', 'knotifications>=6.2.0', 'krunner>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kwindowsystem>=6.2.0', 'plasma-activities>=6.0.5', 'plasma-workspace>=6.0.5', 'purpose>=6.2.0']"
+size = "147208"
+usize = "541804"
+sha1sum = "372cedc67da4ffa0a9eaf35a7df45be48fae0fea"
+depends = "['kconfig>=6.3.0', 'kdbusaddons>=6.3.0', 'kfilemetadata>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'knotifications>=6.3.0', 'krunner>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwindowsystem>=6.3.0', 'plasma-activities>=6.1.0', 'plasma-workspace>=6.1.0', 'purpose>=6.3.0']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
@@ -24,9 +24,9 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/lib/mozilla/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/lib/qt6/plugins/kf6/kded/browserintegrationreminder.so
 * /usr/share/applications/org.kde.plasma.browser_integration.host.desktop
-* /usr/share/doc/plasma-browser-integration-6.0.5/COPYING-GPL3
-* /usr/share/doc/plasma-browser-integration-6.0.5/dev_README.txt
-* /usr/share/doc/plasma-browser-integration-6.0.5/README.md
+* /usr/share/doc/plasma-browser-integration-6.1.0/COPYING-GPL3
+* /usr/share/doc/plasma-browser-integration-6.1.0/dev_README.txt
+* /usr/share/doc/plasma-browser-integration-6.1.0/README.md
 * /usr/share/krunner/dbusplugins/plasma-runner-browserhistory.desktop
 * /usr/share/krunner/dbusplugins/plasma-runner-browsertabs.desktop
 * /usr/share/locale/ar/LC_MESSAGES/plasma-browser-integration-host.mo
@@ -85,12 +85,15 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/share/locale/ko/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma-browser-integration-reminder.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma-browser-integration-host.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma-browser-integration-reminder.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma-browser-integration-reminder.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma-browser-integration-host.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma-browser-integration-reminder.mo

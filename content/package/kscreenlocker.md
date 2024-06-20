@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kscreenlocker 6.0.5-1"
-version = "6.0.5-1"
+title = "kscreenlocker 6.1.0-1"
+version = "6.1.0-1"
 description = "KDE Screenlocker"
-date = "2024-05-22T09:00:05"
+date = "2024-06-19T20:31:28"
 aliases = "/packages/218350"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "221420"
-usize = "931873"
-sha1sum = "624e584fa5b5f978b54e9f913c288045174cf1e7"
-depends = "['kidletime>=', 'kscreen>=6.0.5', 'layer-shell-qt>=6.0.5', 'libseccomp', 'systemd']"
+size = "233832"
+usize = "1006115"
+sha1sum = "672ab5c284908bab995bf427ade29dcdcb465489"
+depends = "['kidletime>=', 'kscreen>=6.1.0', 'layer-shell-qt>=6.1.0', 'libseccomp', 'systemd']"
 reverse_depends = "['kwin']"
 +++
 ### Description: 
@@ -32,13 +32,13 @@ KDE Screenlocker
 * /usr/lib/kscreenlocker/kscreenlocker_greet
 * /usr/lib/libKScreenLocker.so
 * /usr/lib/libKScreenLocker.so.6
-* /usr/lib/libKScreenLocker.so.6.0.5
+* /usr/lib/libKScreenLocker.so.6.1.0
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_screenlocker.so
 * /usr/share/applications/kcm_screenlocker.desktop
 * /usr/share/dbus-1/interfaces/kf6_org.freedesktop.ScreenSaver.xml
 * /usr/share/dbus-1/interfaces/org.kde.screensaver.xml
-* /usr/share/doc/kscreenlocker-6.0.5/COPYING
-* /usr/share/doc/kscreenlocker-6.0.5/README.pam
+* /usr/share/doc/kscreenlocker-6.1.0/COPYING
+* /usr/share/doc/kscreenlocker-6.1.0/README.pam
 * /usr/share/knotifications6/ksmserver.notifyrc
 * /usr/share/ksmserver/screenlocker/org.kde.passworddialog/metadata.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcm_screenlocker.mo
@@ -131,6 +131,7 @@ KDE Screenlocker
 * /usr/share/locale/lt/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/lt/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/lt/LC_MESSAGES/kscreenlocker_greet.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_screenlocker.mo
 * /usr/share/locale/lv/LC_MESSAGES/kscreenlocker.mo
 * /usr/share/locale/lv/LC_MESSAGES/kscreenlocker_greet.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_screenlocker.mo

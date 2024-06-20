@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkdegames 24.05.1-1"
-version = "24.05.1-1"
+title = "libkdegames 24.05.1-2"
+version = "24.05.1-2"
 description = "Library for KDE games."
-date = "2024-06-14T19:50:52"
+date = "2024-06-20T08:32:42"
 aliases = "/packages/184209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9183476"
+size = "9183348"
 usize = "10702715"
-sha1sum = "ed09a0faef94d295a54a008a212f5ff1c022562b"
+sha1sum = "423dbe935712e1f3241bda22092111383147fb2d"
 depends = "['kdeclarative>=6.3.0', 'kdnssd>=6.3.0', 'knewstuff>=6.3.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.7.1']"
 reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi', 'skladnik']"
 +++

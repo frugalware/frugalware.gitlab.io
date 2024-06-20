@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "print-manager 6.0.5-1"
-version = "6.0.5-1"
+title = "print-manager 6.1.0-1"
+version = "6.1.0-1"
 description = "System tray utility, to autoconfig printers."
-date = "2024-05-22T10:28:59"
+date = "2024-06-19T21:50:53"
 aliases = "/packages/184208"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "491980"
-usize = "2630787"
-sha1sum = "9f62d12e6fc13cc24bcd9eee1ddc91b2b40c5707"
-depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.2.0', 'qt6-declarative>=6.7.1']"
+size = "520964"
+usize = "2808864"
+sha1sum = "602bbcf3b66a54618af296777fd6c2d1822392f4"
+depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.3.0', 'qt6-declarative>=6.7.1']"
 +++
 ### Description: 
 System tray utility, to autoconfig printers.
@@ -20,7 +20,7 @@ System tray utility, to autoconfig printers.
 * /usr/bin/configure-printer
 * /usr/bin/kde-add-printer
 * /usr/bin/kde-print-queue
-* /usr/lib/libkcupslib.so.6.0.5
+* /usr/lib/libkcupslib.so.6.1.0
 * /usr/lib/qt6/plugins/kf6/kded/printmanager.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_printer_manager.so
 * /usr/lib/qt6/qml/org/kde/plasma/printmanager/kcupslib.qmltypes
@@ -31,8 +31,9 @@ System tray utility, to autoconfig printers.
 * /usr/share/applications/org.kde.ConfigurePrinter.desktop
 * /usr/share/applications/org.kde.kde-add-printer.desktop
 * /usr/share/applications/org.kde.PrintQueue.desktop
-* /usr/share/doc/print-manager-6.0.5/README.md
+* /usr/share/doc/print-manager-6.1.0/README.md
 * /usr/share/knotifications6/printmanager.notifyrc
+* /usr/share/locale/ar/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/ar/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_printer_manager.mo
@@ -40,6 +41,7 @@ System tray utility, to autoconfig printers.
 * /usr/share/locale/ast/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/az/LC_MESSAGES/print-manager.mo
+* /usr/share/locale/be/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/be/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_printer_manager.mo
@@ -63,6 +65,7 @@ System tray utility, to autoconfig printers.
 * /usr/share/locale/de/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/el/LC_MESSAGES/print-manager.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_printer_manager.mo
@@ -100,6 +103,7 @@ System tray utility, to autoconfig printers.
 * /usr/share/locale/id/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/id/LC_MESSAGES/print-manager.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/is/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_printer_manager.mo
@@ -118,6 +122,7 @@ System tray utility, to autoconfig printers.
 * /usr/share/locale/ko/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/ko/LC_MESSAGES/print-manager.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/lt/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/mr/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
@@ -144,6 +149,7 @@ System tray utility, to autoconfig printers.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/print-manager.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_printer_manager.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo
 * /usr/share/locale/ro/LC_MESSAGES/print-manager.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_printer_manager.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksystemstats 6.0.5-1"
-version = "6.0.5-1"
+title = "ksystemstats 6.1.0-1"
+version = "6.1.0-1"
 description = "A plugin based system monitoring daemon"
-date = "2024-05-22T08:55:15"
+date = "2024-06-19T19:47:41"
 aliases = "/packages/220409"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "212776"
-usize = "1203565"
-sha1sum = "1018cd92711eea7b836a19c5f2f9d6990519e916"
-depends = "['libksysguard>=6.0.5', 'networkmanager-qt']"
+size = "214748"
+usize = "1164578"
+sha1sum = "9c37fb238e0a3f7c7a536568f19aa18cb211ccce"
+depends = "['libksysguard>=6.1.0', 'networkmanager-qt']"
 reverse_depends = "['plasma-systemmonitor']"
 +++
 ### Description: 
@@ -30,7 +30,7 @@ A plugin based system monitoring daemon
 * /usr/lib/qt6/plugins/ksystemstats/ksystemstats_plugin_power.so
 * /usr/lib/systemd/user/plasma-ksystemstats.service
 * /usr/share/dbus-1/services/org.kde.ksystemstats1.service
-* /usr/share/doc/ksystemstats-6.0.5/README.md
+* /usr/share/doc/ksystemstats-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/ast/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/az/LC_MESSAGES/ksystemstats_plugins.mo
@@ -47,6 +47,7 @@ A plugin based system monitoring daemon
 * /usr/share/locale/eu/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/fi/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/fr/LC_MESSAGES/ksystemstats_plugins.mo
+* /usr/share/locale/he/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/ia/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/id/LC_MESSAGES/ksystemstats_plugins.mo

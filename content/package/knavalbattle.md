@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knavalbattle 24.05.1-1"
-version = "24.05.1-1"
+title = "knavalbattle 24.05.1-2"
+version = "24.05.1-2"
 description = "A ship sinking game."
-date = "2024-06-14T20:17:00"
+date = "2024-06-20T08:49:40"
 aliases = "/packages/184190"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1606356"
+size = "1606352"
 usize = "2533198"
-sha1sum = "a3c58b4b33079f1f81be16bb5bca22dd7fa79dbf"
+sha1sum = "0f3049b855c0b48f10f58b08962de3af3f5c0fa5"
 depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 

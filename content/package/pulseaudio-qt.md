@@ -12,7 +12,7 @@ size = "102084"
 usize = "494970"
 sha1sum = "aac549c62dd49e70d089662421e71fd5c683ca56"
 depends = "['libpulse', 'qt6-base>=6.7.1']"
-reverse_depends = "['kdeconnect-kde']"
+reverse_depends = "['kdeconnect-kde', 'plasma-pa']"
 +++
 ### Description: 
 Qt bindings for libpulse

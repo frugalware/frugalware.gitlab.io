@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kidentitymanagement 24.05.1-1"
-version = "24.05.1-1"
+title = "kidentitymanagement 24.05.1-2"
+version = "24.05.1-2"
 description = "KDE PIM libraries"
-date = "2024-06-14T19:36:03"
+date = "2024-06-20T08:22:25"
 aliases = "/packages/218317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "184000"
+size = "184236"
 usize = "835055"
-sha1sum = "b1ed802d090af891d4055ce5752d0e47f8a6e31b"
+sha1sum = "d2c5ea129be9b5201aa68ec35fea93ea89793550"
 depends = "['kirigami-addons', 'kpimtextedit>=24.05.1']"
 reverse_depends = "['kcalutils', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "milou 6.0.5-1"
-version = "6.0.5-1"
+title = "milou 6.1.0-1"
+version = "6.1.0-1"
 description = "A dedicated search application built on top of Baloo."
-date = "2024-05-22T08:48:38"
+date = "2024-06-19T19:17:34"
 aliases = "/packages/218377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "71984"
-usize = "291268"
-sha1sum = "3ff52c9fd1316ba915c9b5928f3f55bc67f15299"
-depends = "['kitemmodels>=6.2.0', 'krunner>=6.2.0', 'ksvg>=6.2.0', 'libplasma>=6.0.5']"
+size = "72296"
+usize = "288246"
+sha1sum = "e175f8a325fd29c212bb295fd4f4ab08f187614e"
+depends = "['kitemmodels>=6.3.0', 'krunner>=6.3.0', 'ksvg>=6.3.0', 'libplasma>=6.1.0']"
 +++
 ### Description: 
 A dedicated search application built on top of Baloo.
@@ -81,6 +81,8 @@ A dedicated search application built on top of Baloo.
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/lt/LC_MESSAGES/milou.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.milou.mo
+* /usr/share/locale/lv/LC_MESSAGES/milou.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/ml/LC_MESSAGES/milou.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.milou.mo
 * /usr/share/locale/nb/LC_MESSAGES/milou.mo

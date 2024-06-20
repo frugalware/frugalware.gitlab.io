@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kguiaddons 6.3.0-1"
-version = "6.3.0-1"
+title = "kguiaddons 6.3.0-2"
+version = "6.3.0-2"
 description = "Utilities for graphical user interfaces."
-date = "2024-06-08T11:45:12"
+date = "2024-06-19T17:53:22"
 aliases = "/packages/218310"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "114776"
+size = "114588"
 usize = "409234"
-sha1sum = "7d67e9fa639addd3c78f036671811207eddc223d"
+sha1sum = "76784ea4b2dd6c05f04c244fd8538adf9506e98f"
 depends = "['qt6-base>=6.7.1', 'qt6-wayland>=6.7.1']"
-reverse_depends = "['breeze', 'kcolorscheme', 'kwin', 'pinentry-qt6', 'qqc2-breeze-style']"
+reverse_depends = "['breeze', 'kcolorscheme', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
 +++
 ### Description: 
 Utilities for graphical user interfaces.

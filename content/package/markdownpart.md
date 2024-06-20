@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "markdownpart 24.05.1-1"
-version = "24.05.1-1"
+title = "markdownpart 24.05.1-2"
+version = "24.05.1-2"
 description = "KPart for rendering Markdown content"
-date = "2024-06-15T08:31:39"
+date = "2024-06-20T10:46:00"
 aliases = "/packages/220316"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "37532"
+size = "37616"
 usize = "149114"
-sha1sum = "c8d6158dc00c4e59c22353bf31a5473379aed1d9"
+sha1sum = "c8bd23875e7db72415e4fc2baea8f0283370f20e"
 depends = "['kparts>=6.3.0']"
 +++
 ### Description: 

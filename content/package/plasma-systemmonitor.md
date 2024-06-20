@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-systemmonitor 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-systemmonitor 6.1.0-1"
+version = "6.1.0-1"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2024-05-22T09:03:11"
+date = "2024-06-19T20:33:18"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "369728"
-usize = "2075624"
-sha1sum = "7b0e0bf577816392ce3930a70da5d57e47dccae0"
-depends = "['kdeclarative>=6.2.0', 'kirigami-addons', 'kitemmodels>=6.2.0', 'ksystemstats>=6.0.5']"
+size = "372944"
+usize = "2084881"
+sha1sum = "4f1138c92262f9f8646649bf56f97cc183040188"
+depends = "['kdeclarative>=6.3.0', 'kirigami-addons', 'kitemmodels>=6.3.0', 'ksystemstats>=6.1.0']"
 +++
 ### Description: 
 An interface for monitoring system sensors, process information and other system resources
@@ -58,7 +58,7 @@ An interface for monitoring system sensors, process information and other system
 * /usr/lib/qt6/qml/org/kde/ksysguard/table/UserCellDelegate.qml
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
-* /usr/share/doc/plasma-systemmonitor-6.0.5/README.md
+* /usr/share/doc/plasma-systemmonitor-6.1.0/README.md
 * /usr/share/kglobalaccel/org.kde.plasma-systemmonitor.desktop
 * /usr/share/knsrcfiles/plasma-systemmonitor.knsrc
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/config/main.xml
@@ -129,6 +129,9 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/locale/gl/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/gl/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/he/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/he/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma-systemmonitor.mo
@@ -153,6 +156,9 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/locale/lt/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/lt/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/nl/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/nl/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo

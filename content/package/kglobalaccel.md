@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kglobalaccel 6.3.0-1"
-version = "6.3.0-1"
+title = "kglobalaccel 6.3.0-2"
+version = "6.3.0-2"
 description = "Global desktop keyboard shortcuts."
-date = "2024-06-08T12:07:48"
+date = "2024-06-19T18:07:37"
 aliases = "/packages/218309"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "80008"
+size = "80092"
 usize = "284177"
-sha1sum = "2550855da9f2e1d7c25f4245b2299662239bc82f"
+sha1sum = "d70df2be2e4b3ed9f7cfc0562a253617542da3d1"
 depends = "['kservice>=6.3.0']"
 reverse_depends = "['kglobalacceld', 'kxmlgui', 'wacomtablet']"
 +++

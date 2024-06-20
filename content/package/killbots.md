@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "killbots 24.05.1-1"
-version = "24.05.1-1"
+title = "killbots 24.05.1-2"
+version = "24.05.1-2"
 description = "A simple game of evading killer robots."
-date = "2024-06-14T20:08:14"
+date = "2024-06-20T08:43:48"
 aliases = "/packages/184183"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1361328"
+size = "1361204"
 usize = "2538710"
-sha1sum = "7edafdfae287580115a65ffe9129aa300ded5e74"
+sha1sum = "42bec5e7481471087a1be18b8383d95cada8546f"
 depends = "['libkdegames>=24.05.1', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 

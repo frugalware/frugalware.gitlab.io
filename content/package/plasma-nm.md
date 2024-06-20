@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nm 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-nm 6.1.0-1"
+version = "6.1.0-1"
 description = "Plasma applet written in QML for managing network connections."
-date = "2024-05-22T10:21:17"
+date = "2024-06-19T21:27:31"
 aliases = "/packages/218399"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1314688"
-usize = "8769874"
-sha1sum = "85c8a551cf85feddda8c3e1d58ac8f99c8aa9559"
-depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.2.0', 'networkmanager-qt>=6.2.0', 'plasma-workspace>=6.0.5', 'qca>=2.1.1-6', 'qcoro']"
+size = "1339280"
+usize = "8837008"
+sha1sum = "45bea474d4681942de16fd452045eb4c0d502e80"
+depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.3.0', 'networkmanager-qt>=6.3.0', 'plasma-workspace>=6.1.0', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.
@@ -36,15 +36,17 @@ Plasma applet written in QML for managing network connections.
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/plasmanm_internal.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/qmldir
 * /usr/share/applications/kcm_networkmanagement.desktop
-* /usr/share/doc/plasma-nm-6.0.5/README.md
+* /usr/share/doc/plasma-nm-6.1.0/README.md
 * /usr/share/kcm_networkmanagement/qml/AddConnectionDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConfigurationDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConnectionItem.qml
 * /usr/share/kcm_networkmanagement/qml/ListItem.qml
 * /usr/share/kcm_networkmanagement/qml/main.qml
 * /usr/share/knotifications6/networkmanagement.notifyrc
+* /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement-libs.mo
+* /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_iodineui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_l2tpui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_openvpnui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
@@ -357,6 +359,7 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement_fortisslvpnui.mo
 * /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement_openvpnui.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
@@ -430,6 +433,19 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement-kded.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement-libs.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_fortisslvpnui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_iodineui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_l2tpui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_libreswanui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_openvpnui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_pptpui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_sshui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_sstpui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/mai/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasmanetworkmanagement-kcm.mo

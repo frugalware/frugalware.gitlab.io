@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kteatime 24.05.1-1"
-version = "24.05.1-1"
+title = "kteatime 24.05.1-2"
+version = "24.05.1-2"
 description = "Tea Cooker."
-date = "2024-06-14T20:22:25"
+date = "2024-06-20T08:53:12"
 aliases = "/packages/184729"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "338908"
+size = "338912"
 usize = "752848"
-sha1sum = "cab4914562b54065497d6e076fca5da1bbf1461e"
+sha1sum = "4b441bba12340b614e2da70e4a9b9195ee34b496"
 depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
 +++
 ### Description: 

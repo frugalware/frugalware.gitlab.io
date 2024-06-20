@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kuserfeedback 6.3.0-1"
-version = "6.3.0-1"
+title = "kuserfeedback 6.3.0-2"
+version = "6.3.0-2"
 description = "Framework for collecting user feedback for applications via telemetry and surveys"
-date = "2024-06-08T12:59:01"
+date = "2024-06-19T18:34:03"
 aliases = "/packages/220607"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "508944"
+size = "509704"
 usize = "2717055"
-sha1sum = "f60cc0a5fb049af821a200593201b1a124d8d3e2"
+sha1sum = "28d4114e62c853a139fff66a033f6f2570e554cc"
 depends = "['qt6-charts>=_F_kdever_qt6', 'qt6-declarative>=', 'qt6-svg>=_F_kdever_qt6']"
 reverse_depends = "['discover', 'plasma-welcome', 'plasma-workspace']"
 +++

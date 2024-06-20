@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kfind 24.05.1-1"
-version = "24.05.1-1"
+title = "kfind 24.05.1-2"
+version = "24.05.1-2"
 description = "A standalone search too."
-date = "2024-06-14T19:28:20"
+date = "2024-06-20T08:17:04"
 aliases = "/packages/218932"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "400612"
+size = "400824"
 usize = "1488454"
-sha1sum = "3c23c3e46635b7d2aa304107422756ec7549409a"
+sha1sum = "67961f8e76cd46e5a7267d90ac7ff4d72d811f65"
 depends = "['kfilemetadata>==6.3.0']"
 +++
 ### Description: 

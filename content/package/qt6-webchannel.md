@@ -18,9 +18,9 @@ reverse_depends = "['falkon', 'qt6-webengine']"
 The Qt6 toolkit, qtwebchannel
 
 ### Files: 
-* /usr/include/qt6/QtWebChannel/6.7.1/QtWebChannel/private/qmetaobjectpublisher_p.h
-* /usr/include/qt6/QtWebChannel/6.7.1/QtWebChannel/private/qwebchannel_p.h
-* /usr/include/qt6/QtWebChannel/6.7.1/QtWebChannel/private/signalhandler_p.h
+* /usr/include/qt6/QtWebChannel/6.7.2/QtWebChannel/private/qmetaobjectpublisher_p.h
+* /usr/include/qt6/QtWebChannel/6.7.2/QtWebChannel/private/qwebchannel_p.h
+* /usr/include/qt6/QtWebChannel/6.7.2/QtWebChannel/private/signalhandler_p.h
 * /usr/include/qt6/QtWebChannel/QtWebChannel
 * /usr/include/qt6/QtWebChannel/QtWebChannelDepends
 * /usr/include/qt6/QtWebChannel/qtwebchannelexports.h
@@ -31,7 +31,7 @@ The Qt6 toolkit, qtwebchannel
 * /usr/include/qt6/QtWebChannel/QWebChannelAbstractTransport
 * /usr/include/qt6/QtWebChannel/qwebchannelabstracttransport.h
 * /usr/include/qt6/QtWebChannel/qwebchannelglobal.h
-* /usr/include/qt6/QtWebChannelQuick/6.7.1/QtWebChannelQuick/private/qqmlwebchannelattached_p.h
+* /usr/include/qt6/QtWebChannelQuick/6.7.2/QtWebChannelQuick/private/qqmlwebchannelattached_p.h
 * /usr/include/qt6/QtWebChannelQuick/QQmlWebChannel
 * /usr/include/qt6/QtWebChannelQuick/qqmlwebchannel.h
 * /usr/include/qt6/QtWebChannelQuick/QtWebChannelQuick
@@ -66,11 +66,11 @@ The Qt6 toolkit, qtwebchannel
 * /usr/lib/libQt6WebChannel.prl
 * /usr/lib/libQt6WebChannel.so
 * /usr/lib/libQt6WebChannel.so.6
-* /usr/lib/libQt6WebChannel.so.6.7.1
+* /usr/lib/libQt6WebChannel.so.6.7.2
 * /usr/lib/libQt6WebChannelQuick.prl
 * /usr/lib/libQt6WebChannelQuick.so
 * /usr/lib/libQt6WebChannelQuick.so.6
-* /usr/lib/libQt6WebChannelQuick.so.6.7.1
+* /usr/lib/libQt6WebChannelQuick.so.6.7.2
 * /usr/lib/pkgconfig/Qt6WebChannel.pc
 * /usr/lib/pkgconfig/Qt6WebChannelQuick.pc
 * /usr/lib/qt6/metatypes/qt6webchannelquick_release_metatypes.json

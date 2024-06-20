@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nano 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-nano 6.1.0-1"
+version = "6.1.0-1"
 description = "A minimal Plasma shell package"
-date = "2024-05-29T11:55:50"
+date = "2024-06-19T22:04:25"
 aliases = "/packages/220612"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "40408"
-usize = "202659"
-sha1sum = "b05843f2927e1a3f01c509d8274d6c5357b26a91"
-depends = "['kitemmodels>=6.2.0', 'kwayland>=', 'libplasma>=6.0.5']"
+size = "41148"
+usize = "201502"
+sha1sum = "a8344c21d16eb00dbd701a3c107f4369ff44091a"
+depends = "['kitemmodels>=6.3.0', 'kwayland>=', 'libplasma>=6.1.0']"
 +++
 ### Description: 
 A minimal Plasma shell package
@@ -20,7 +20,7 @@ A minimal Plasma shell package
 * /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/libplasmananoshellprivateplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/qml/StartupFeedback.qml
 * /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/qmldir
-* /usr/share/doc/plasma-nano-6.0.5/README.md
+* /usr/share/doc/plasma-nano-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -57,6 +57,8 @@ A minimal Plasma shell package
 * /usr/share/locale/fr/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
@@ -65,6 +67,8 @@ A minimal Plasma shell package
 * /usr/share/locale/ia/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_toolbox_org.kde.plasma.nano.desktoptoolbox.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo

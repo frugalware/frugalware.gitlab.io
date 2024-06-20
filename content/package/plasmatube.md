@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasmatube 24.05.1-1"
-version = "24.05.1-1"
+title = "plasmatube 24.05.1-2"
+version = "24.05.1-2"
 description = "Kirigami YouTube video player based on QtMultimedia and youtube-dl"
-date = "2024-06-15T09:01:55"
+date = "2024-06-20T11:28:37"
 aliases = "/packages/220991"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "442432"
+size = "442308"
 usize = "2135115"
-sha1sum = "bbd112c00c160066902735318a1bc00eb38bc1cb"
+sha1sum = "125219bdff934cc1f6084de6436aa46767b8faad"
 depends = "['kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'mpvqt', 'purpose', 'qt6-svg', 'qtkeychain', 'yt-dlp']"
 +++
 ### Description: 

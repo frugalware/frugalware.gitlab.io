@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-welcome 6.0.5-1"
-version = "6.0.5-1"
+title = "plasma-welcome 6.1.0-1"
+version = "6.1.0-1"
 description = "A friendly onboarding wizard for Plasma"
-date = "2024-05-29T10:21:55"
+date = "2024-06-19T21:57:12"
 aliases = "/packages/220919"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "959772"
-usize = "2202415"
-sha1sum = "3231c0bf394c72dd7fcbc2c3d240aa379ec70eb9"
-depends = "['kaccounts-integration>=24.05.0', 'kirigami>=6.2.0', 'kirigami-addons', 'knewstuff>=6.2.0', 'kuserfeedback', 'libplasma>=']"
+size = "725760"
+usize = "2331205"
+sha1sum = "ae1d9e5186589f6fbf2f1504c734250237274366"
+depends = "['kaccounts-integration>=24.05.1', 'kirigami>=6.3.0', 'kirigami-addons', 'knewstuff>=6.3.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 
 A friendly onboarding wizard for Plasma
@@ -20,7 +20,7 @@ A friendly onboarding wizard for Plasma
 * /usr/bin/plasma-welcome
 * /usr/lib/qt6/plugins/kf6/kded/kded_plasma-welcome.so
 * /usr/share/applications/org.kde.plasma-welcome.desktop
-* /usr/share/doc/plasma-welcome-6.0.5/README.md
+* /usr/share/doc/plasma-welcome-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma-welcome.mo
@@ -33,7 +33,6 @@ A friendly onboarding wizard for Plasma
 * /usr/share/locale/eo/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma-welcome.mo
-* /usr/share/locale/fa/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma-welcome.mo
@@ -47,6 +46,7 @@ A friendly onboarding wizard for Plasma
 * /usr/share/locale/ka/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma-welcome.mo

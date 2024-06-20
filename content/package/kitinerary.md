@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitinerary 24.05.1-1"
-version = "24.05.1-1"
+title = "kitinerary 24.05.1-2"
+version = "24.05.1-2"
 description = "Data model and extraction system for travel reservation information"
-date = "2024-06-15T08:11:29"
+date = "2024-06-20T10:30:03"
 aliases = "/packages/219723"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1411860"
+size = "1416764"
 usize = "4062133"
-sha1sum = "3eb287debf19693531a1d11eb27c3d5693ebdf2c"
+sha1sum = "7e45fb1ac36fb7748b563acc9ad70268c9d936ec"
 depends = "['kcalendarcore>=6.3.0', 'kcontacts>=6.3.0', 'ki18n>=6.3.0', 'kmime>=6.3.0', 'kpkpass>=24.05.1', 'poppler>=24.05.0', 'zxing-cpp']"
 reverse_depends = "['itinerary', 'kdepim-addons']"
 +++
