@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bomber 24.05.1-1"
-version = "24.05.1-1"
+title = "bomber 24.05.1-2"
+version = "24.05.1-2"
 description = "A single player arcade game."
-date = "2024-06-14T19:52:16"
+date = "2024-06-20T08:33:32"
 aliases = "/packages/184170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "960320"
+size = "960372"
 usize = "1280235"
-sha1sum = "c11177e68fceafbf380d4bc8613ff0b2b181fa19"
+sha1sum = "928373cc0c91c670a75929b9fd95c4c67f2f18af"
 depends = "['libkdegames>=24.05.1']"
 +++
 ### Description: 

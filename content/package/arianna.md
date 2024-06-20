@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "arianna 24.05.1-1"
-version = "24.05.1-1"
+title = "arianna 24.05.1-2"
+version = "24.05.1-2"
 description = "EPub Reader for mobile devices"
-date = "2024-06-15T09:11:32"
+date = "2024-06-20T11:36:24"
 aliases = "/packages/221079"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "312544"
+size = "312564"
 usize = "743975"
-sha1sum = "4f9f49ef92b77a8bd8f4a21f41a0c415f7e0e014"
+sha1sum = "ed8d0f3243a9813d609230fa2b88d67e48ea978f"
 depends = "['baloo>=', 'kirigami-addons', 'kquickcharts>=', 'qqc2-desktop-style>=', 'qt6-httpserver>=', 'qt6-webengine>=', 'qt6-websockets>=']"
 +++
 ### Description: 

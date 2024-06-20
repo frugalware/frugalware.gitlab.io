@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "baloo-widgets 24.05.1-1"
-version = "24.05.1-1"
+title = "baloo-widgets 24.05.1-2"
+version = "24.05.1-2"
 description = "Widgets for Baloo"
-date = "2024-06-14T20:32:33"
+date = "2024-06-20T09:00:05"
 aliases = "/packages/200750"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "126132"
+size = "126272"
 usize = "478198"
-sha1sum = "6831c20a138d91f061453cc088ff1fa2e2f5d352"
+sha1sum = "5569e59b7fe7a7fd14f04accb4d705e53c28e719"
 depends = "['baloo>=6.3.0']"
 reverse_depends = "['dolphin']"
 +++

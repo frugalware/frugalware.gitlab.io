@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-cli-tools 6.0.5-1"
-version = "6.0.5-1"
+title = "kde-cli-tools 6.1.0-1"
+version = "6.1.0-1"
 description = "Tools based on KDE Frameworks 5 to better interact with the system."
-date = "2024-05-22T10:23:00"
+date = "2024-06-19T21:28:50"
 aliases = "/packages/218291"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "812420"
-usize = "3841195"
-sha1sum = "fff88c449760b9842a7a8c94b72cbe7062c4cb72"
-depends = "['kcmutils>=6.2.0', 'kdesu>=6.2.0', 'plasma-workspace>=6.0.5']"
+size = "814740"
+usize = "3768487"
+sha1sum = "872dcba7ca7be48c131e36982adef6506d2e7707"
+depends = "['kcmutils>=6.3.0', 'kdesu>=6.3.0', 'plasma-workspace>=6.1.0']"
 +++
 ### Description: 
 Tools based on KDE Frameworks 5 to better interact with the system.
@@ -122,6 +122,7 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/ar/LC_MESSAGES/plasma-open-settings.mo
 * /usr/share/locale/ast/LC_MESSAGES/kbroadcastnotification.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/ast/LC_MESSAGES/kde-inhibit.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/ast/LC_MESSAGES/kioclient.mo
 * /usr/share/locale/ast/LC_MESSAGES/kmimetypefinder.mo
@@ -221,6 +222,7 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/el/LC_MESSAGES/plasma-open-settings.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kbroadcastnotification.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kde-inhibit.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kioclient.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kmimetypefinder.mo
@@ -409,6 +411,7 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/ku/LC_MESSAGES/kstart.mo
 * /usr/share/locale/lt/LC_MESSAGES/kbroadcastnotification.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/lt/LC_MESSAGES/kde-inhibit.mo
 * /usr/share/locale/lt/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/lt/LC_MESSAGES/kioclient.mo
 * /usr/share/locale/lt/LC_MESSAGES/kmimetypefinder.mo

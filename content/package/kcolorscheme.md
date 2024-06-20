@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcolorscheme 6.3.0-1"
-version = "6.3.0-1"
+title = "kcolorscheme 6.3.0-2"
+version = "6.3.0-2"
 description = "Classes to read and interact with color schemes"
-date = "2024-06-08T11:51:50"
+date = "2024-06-19T17:59:36"
 aliases = "/packages/221293"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "40252"
+size = "40380"
 usize = "139019"
-sha1sum = "1584225d289dca75064939c72b69f9722f7c8240"
+sha1sum = "044b87254c66d96dfb6ea98965b2c74ced390fcd"
 depends = "['kconfig>=6.3.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0']"
 reverse_depends = "['audex', 'breeze', 'kconfigwidgets', 'ksvg']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdav 6.3.0-1"
-version = "6.3.0-1"
+title = "kdav 6.3.0-2"
+version = "6.3.0-2"
 description = "KDE DAV protocoll"
-date = "2024-06-08T12:53:55"
+date = "2024-06-19T18:29:30"
 aliases = "/packages/219157"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "104808"
+size = "104680"
 usize = "436632"
-sha1sum = "3af461a2fa3278931c800d5245638f7d00072180"
+sha1sum = "ac4abf09382c82e3d7d7652a73cf3ebf8ff0213d"
 depends = "['kcoreaddons>=6.3.0', 'kio>=6.3.0']"
 reverse_depends = "['kdepim-runtime']"
 +++

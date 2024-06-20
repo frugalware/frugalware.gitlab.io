@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadi-calendar 24.05.1-1"
-version = "24.05.1-1"
+title = "akonadi-calendar 24.05.1-2"
+version = "24.05.1-2"
 description = "Akonadi calendar integration"
-date = "2024-06-14T21:08:42"
+date = "2024-06-20T09:26:37"
 aliases = "/packages/218249"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "699160"
+size = "699104"
 usize = "3617188"
-sha1sum = "709f04d20c147156937924ddf1a83faf0483c660"
+sha1sum = "93714e52085bc4c7b826c9b87acca32710d481ca"
 depends = "['kcalutils>=24.05.1', 'kmailtransport>=24.05.1', 'messagelib>=24.05.1']"
 reverse_depends = "['calendarsupport', 'kdepim-runtime']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcompletion 6.3.0-1"
-version = "6.3.0-1"
+title = "kcompletion 6.3.0-2"
+version = "6.3.0-2"
 description = "Provides widgets with advanced completion support."
-date = "2024-06-08T12:03:05"
+date = "2024-06-19T18:03:19"
 aliases = "/packages/218282"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "114072"
+size = "113976"
 usize = "412672"
-sha1sum = "866081a4bef8397be5536c189defc810d1cace4e"
+sha1sum = "29530cf1123830ade9a72926470061b271def550"
 depends = "['kcodecs>=6.3.0', 'kconfig>=6.3.0', 'kwidgetsaddons>=6.3.0']"
 reverse_depends = "['akonadi-contacts', 'audex', 'dolphin', 'kdebugsettings', 'kldap', 'ktextwidgets', 'libkmahjongg']"
 +++

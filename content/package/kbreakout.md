@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kbreakout 24.05.1-1"
-version = "24.05.1-1"
+title = "kbreakout 24.05.1-2"
+version = "24.05.1-2"
 description = "A Breakout-like game."
-date = "2024-06-14T20:02:28"
+date = "2024-06-20T08:39:48"
 aliases = "/packages/184178"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3074036"
+size = "3074012"
 usize = "3642563"
-sha1sum = "907fbfe7b9c6e35eff7a6c32bd8efb3cebaf6aab"
+sha1sum = "bb70fbaa505cd03e808cbcac2bc868239eba79f1"
 depends = "['libkdegames>=24.05.1', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 

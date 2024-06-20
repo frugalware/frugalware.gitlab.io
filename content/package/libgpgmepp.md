@@ -12,7 +12,7 @@ size = "110896"
 usize = "386976"
 sha1sum = "073217126963c396eb63861753250440700d7fef"
 depends = "['gpgme>=1.23.2', 'libstdc++>=11.2']"
-reverse_depends = "['isoimagewriter', 'kwallet', 'kwallet5', 'libkleo', 'libreoffice', 'poppler']"
+reverse_depends = "['kwallet', 'kwallet5', 'libkleo', 'libreoffice', 'poppler']"
 +++
 ### Description: 
 C++ bindings for gpgme

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "138056"
 usize = "379159"
 sha1sum = "025d20c2c465565992c55f4b73cd64d4f13589ee"
-depends = "['kcmutils>=6.2.0', 'kconfigwidgets>=6.2.0']"
+depends = "['kcmutils>=6.3.0', 'kconfigwidgets>=6.3.0']"
 +++
 ### Description: 
 Adjust your monitor's gamma settings
@@ -52,7 +52,7 @@ Adjust your monitor's gamma settings
 * /usr/share/doc/HTML/tr/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.docbook
-* /usr/share/doc/kgamma-6.0.5/ChangeLog
+* /usr/share/doc/kgamma-6.1.0/ChangeLog
 * /usr/share/kgamma/pics/background.png
 * /usr/share/kgamma/pics/cmyscale.png
 * /usr/share/kgamma/pics/darkgrey.png

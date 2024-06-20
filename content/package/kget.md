@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "5284192"
 usize = "11365005"
 sha1sum = "6e556f991b92cc8c8fda8323e7585af2bff3281e"
-depends = "['kcmutils>=6.3.0', 'knotifyconfig>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.0.5']"
+depends = "['kcmutils>=6.3.0', 'knotifyconfig>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.0']"
 +++
 ### Description: 
 A free download manager for KDE.

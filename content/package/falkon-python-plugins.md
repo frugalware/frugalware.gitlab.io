@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "falkon-python-plugins 24.05.1-1"
-version = "24.05.1-1"
+title = "falkon-python-plugins 24.05.1-2"
+version = "24.05.1-2"
 description = "Python Plugins for Falkon"
-date = "2024-06-14T21:54:16"
+date = "2024-06-20T10:02:14"
 aliases = "/packages/220146"
 categories = ['xlib-extra']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "435328"
+size = "435748"
 usize = "1406368"
-sha1sum = "58aad8e0c58640a3af72afef7adc2ba6a6ba2dbe"
+sha1sum = "746fb54b7d12eaafc599d1638d415c7238325b14"
 depends = "['falkon', 'python3']"
 +++
 ### Description: 

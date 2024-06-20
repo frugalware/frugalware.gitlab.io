@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "francis 24.05.1-1"
-version = "24.05.1-1"
+title = "francis 24.05.1-2"
+version = "24.05.1-2"
 description = "Track your time"
-date = "2024-06-15T09:47:43"
+date = "2024-06-20T12:32:18"
 aliases = "/packages/221488"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "33664"
+size = "33772"
 usize = "136746"
-sha1sum = "1a74cb6e240b4c95521bf170761a0dc4a69d1760"
+sha1sum = "7820ba6089eda9fd116cc429b66ff0696fd9976e"
 depends = "['kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami', 'kirigami-addons', 'knotifications']"
 +++
 ### Description: 

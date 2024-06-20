@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "itinerary 24.05.1-1"
-version = "24.05.1-1"
+title = "itinerary 24.05.1-2"
+version = "24.05.1-2"
 description = "Itinerary and boarding pass management application"
-date = "2024-06-15T08:36:00"
+date = "2024-06-20T10:49:16"
 aliases = "/packages/220318"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1087796"
+size = "1088116"
 usize = "5462865"
-sha1sum = "f35ae8215aa642e3e0664c118a4604126debd82f"
+sha1sum = "9f885b3deec3f098e288bd44dd4583f5cd941f1a"
 depends = "['kcontacts>=6.3.0', 'kcoreaddons>=6.3.0', 'kholidays>=6.3.0', 'kirigami-addons', 'kitinerary>=', 'knotifications>=6.3.0', 'kosmindoormap>=', 'kpkpass>=', 'kunitconversion>=6.3.0', 'networkmanager-qt>=6.3.0', 'prison>=6.3.0', 'qqc2-desktop-style>=6.3.0', 'qt6-positioning>=6.7.1', 'solid>=6.3.0']"
 +++
 ### Description: 

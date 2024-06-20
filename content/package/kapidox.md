@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kapidox 6.3.0-1"
-version = "6.3.0-1"
+title = "kapidox 6.3.0-2"
+version = "6.3.0-2"
 description = "Frameworks API Documentation Tools."
-date = "2024-06-08T12:55:13"
+date = "2024-06-19T18:30:45"
 aliases = "/packages/218273"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69968"
+size = "70008"
 usize = "243503"
-sha1sum = "e943b5064cd85b9fedd1b0e12cd428b07df01066"
+sha1sum = "23d074a6bee5f6902c7996543240544cc1d9d08d"
 depends = "['python3>=3.10']"
 +++
 ### Description: 

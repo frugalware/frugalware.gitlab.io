@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "extra-cmake-modules 6.3.0-1"
-version = "6.3.0-1"
+title = "extra-cmake-modules 6.3.0-2"
+version = "6.3.0-2"
 description = "Extra CMake modules."
-date = "2024-06-08T11:20:29"
+date = "2024-06-19T17:32:25"
 aliases = "/packages/218262"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "284944"
-usize = "1857623"
-sha1sum = "b32e4b4cdcfd433e111811c916dae1e3faf3785f"
+size = "284844"
+usize = "1857621"
+sha1sum = "7120f24a4941b72ab3d9334005f3828dbf91b552"
 depends = "[]"
 +++
 ### Description: 

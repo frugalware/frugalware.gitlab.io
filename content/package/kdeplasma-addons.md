@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeplasma-addons 6.0.5-1"
-version = "6.0.5-1"
+title = "kdeplasma-addons 6.1.0-1"
+version = "6.1.0-1"
 description = "Plasma AddOns"
-date = "2024-05-22T10:16:11"
+date = "2024-06-19T21:24:14"
 aliases = "/packages/221305"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "993964"
-usize = "6316431"
-sha1sum = "dc75a44d3518f54b8c53aca204d645e58afb5929"
-depends = "['icu4c>=75.1', 'kcmutils>=6.2.0', 'kconfig>=6.2.0', 'kconfigwidgets>=6.2.0', 'kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'kio>=6.2.0', 'kirigami-addons', 'kitemmodels>=6.2.0', 'knewstuff>=6.2.0', 'krunner>=6.2.0', 'kservice>=6.2.0', 'kunitconversion>=6.2.0', 'plasma-activities>=6.0.5', 'plasma-workspace>=6.0.5', 'purpose>=6.2.0']"
+size = "1028696"
+usize = "6347123"
+sha1sum = "cd66e2970f4ee21526c59d03dc6a1e064bc9569b"
+depends = "['icu4c>=75.1', 'kcmutils>=6.3.0', 'kconfig>=6.3.0', 'kconfigwidgets>=6.3.0', 'kcoreaddons>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kirigami-addons', 'kitemmodels>=6.3.0', 'knewstuff>=6.3.0', 'krunner>=6.3.0', 'kservice>=6.3.0', 'kunitconversion>=6.3.0', 'plasma-activities>=6.1.0', 'plasma-workspace>=6.1.0', 'purpose>=6.3.0']"
 +++
 ### Description: 
 Plasma AddOns
@@ -23,9 +23,11 @@ Plasma AddOns
 * /usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderConfigVersion.cmake
 * /usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderTargets-release.cmake
 * /usr/lib/cmake/PlasmaPotdProvider/PlasmaPotdProviderTargets.cmake
+* /usr/lib/kauth/kf6/kauth/kameleonhelper
 * /usr/lib/libplasmapotdprovidercore.so
 * /usr/lib/libplasmapotdprovidercore.so.2
 * /usr/lib/libplasmapotdprovidercore.so.2.0.0
+* /usr/lib/qt6/plugins/kf6/kded/kameleon.so
 * /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_charrunner.so
 * /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_dictionary.so
 * /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_spellcheck.so
@@ -54,6 +56,10 @@ Plasma AddOns
 * /usr/lib/qt6/plugins/potd/plasma_potd_noaaprovider.so
 * /usr/lib/qt6/plugins/potd/plasma_potd_simonstalenhagprovider.so
 * /usr/lib/qt6/plugins/potd/plasma_potd_wcpotdprovider.so
+* /usr/lib/qt6/qml/org/kde/plasma/private/alternatecalendarconfig/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/private/alternatecalendarconfig/libplasmacalendaralternatecalendarconfig.so
+* /usr/lib/qt6/qml/org/kde/plasma/private/alternatecalendarconfig/plasmacalendaralternatecalendarconfig.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/private/alternatecalendarconfig/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/private/colorpicker/colorpickerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/colorpicker/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/colorpicker/libcolorpickerplugin.so
@@ -98,14 +104,13 @@ Plasma AddOns
 * /usr/lib/qt6/qml/org/kde/plasma/wallpapers/potd/libplasma_wallpaper_potdplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/wallpapers/potd/plasma_wallpaper_potdplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/wallpapers/potd/qmldir
-* /usr/lib/qt6/qml/org/kde/plasmacalendar/alternatecalendarconfig/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/plasmacalendar/alternatecalendarconfig/libplasmacalendaralternatecalendarconfig.so
-* /usr/lib/qt6/qml/org/kde/plasmacalendar/alternatecalendarconfig/plasmacalendaralternatecalendarconfig.qmltypes
-* /usr/lib/qt6/qml/org/kde/plasmacalendar/alternatecalendarconfig/qmldir
 * /usr/lib/qt6/qml/org/kde/plasmacalendar/astronomicaleventsconfig/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasmacalendar/astronomicaleventsconfig/libplasmacalendarastronomicaleventsconfig.so
 * /usr/lib/qt6/qml/org/kde/plasmacalendar/astronomicaleventsconfig/plasmacalendarastronomicaleventsconfig.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasmacalendar/astronomicaleventsconfig/qmldir
+* /usr/share/dbus-1/system-services/org.kde.kameleonhelper.service
+* /usr/share/dbus-1/system.d/org.kde.kameleonhelper.conf
+* /usr/share/doc/kdeplasma-addons-6.1.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/accessories-dictionary.svgz
 * /usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 * /usr/share/kdevappwizard/templates/plasmapotdprovider.tar.bz2
@@ -118,6 +123,7 @@ Plasma AddOns
 * /usr/share/kwin/effects/cube/contents/ui/CubeFace.qml
 * /usr/share/kwin/effects/cube/contents/ui/DesktopView.qml
 * /usr/share/kwin/effects/cube/contents/ui/main.qml
+* /usr/share/kwin/effects/cube/contents/ui/PlaceholderView.qml
 * /usr/share/kwin/effects/cube/contents/ui/ScreenView.qml
 * /usr/share/kwin/effects/cube/metadata.json
 * /usr/share/kwin/tabbox/big_icons/contents/ui/main.qml
@@ -130,6 +136,7 @@ Plasma AddOns
 * /usr/share/kwin/tabbox/flipswitch/metadata.json
 * /usr/share/kwin/tabbox/sidebar/contents/ui/main.qml
 * /usr/share/kwin/tabbox/sidebar/metadata.json
+* /usr/share/locale/ar/LC_MESSAGES/kwin_effect_cube.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_addons_profiles_utility.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
@@ -224,6 +231,7 @@ Plasma AddOns
 * /usr/share/locale/az/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/be/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.colorpicker.mo
@@ -383,6 +391,7 @@ Plasma AddOns
 * /usr/share/locale/csb/LC_MESSAGES/plasma_applet_org.kde.plasma.comic.mo
 * /usr/share/locale/csb/LC_MESSAGES/plasma_applet_org.kde.plasma.fifteenpuzzle.mo
 * /usr/share/locale/csb/LC_MESSAGES/plasma_applet_org.kde.plasma.notes.mo
+* /usr/share/locale/da/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -464,6 +473,7 @@ Plasma AddOns
 * /usr/share/locale/el/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kwin_effect_cube.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_addons_profiles_utility.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
@@ -559,6 +569,7 @@ Plasma AddOns
 * /usr/share/locale/es/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/et/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -718,6 +729,7 @@ Plasma AddOns
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.timer.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.userswitcher.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.weather.mo
+* /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.webbrowser.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma_applet_dict.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
@@ -761,6 +773,7 @@ Plasma AddOns
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.fuzzyclock.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
@@ -872,6 +885,7 @@ Plasma AddOns
 * /usr/share/locale/id/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/is/LC_MESSAGES/kwin_effect_cube.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_addons_profiles_utility.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
@@ -1075,6 +1089,7 @@ Plasma AddOns
 * /usr/share/locale/ku/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ku/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/ku/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/lt/LC_MESSAGES/kwin_effect_cube.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_addons_profiles_utility.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
@@ -1106,21 +1121,39 @@ Plasma AddOns
 * /usr/share/locale/lt/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/lv/LC_MESSAGES/kwin_effect_cube.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_addons_engine_dict.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_addons_profiles_utility.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.colorpicker.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.comic.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.diskquota.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.fifteenpuzzle.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.fuzzyclock.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.keyboardindicator.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.konsoleprofiles.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.mediaframe.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.notes.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.private.grouping.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.quicklaunch.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.timer.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.userswitcher.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.weather.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.webbrowser.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma_applet_dict.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_CharacterRunner.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_katesessions.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_runner_konsoleprofiles.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/ml/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1270,6 +1303,7 @@ Plasma AddOns
 * /usr/share/locale/nn/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1525,6 +1559,7 @@ Plasma AddOns
 * /usr/share/locale/sq/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/sq/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/sq/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/sr/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1548,6 +1583,7 @@ Plasma AddOns
 * /usr/share/locale/sr/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1571,6 +1607,7 @@ Plasma AddOns
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1594,6 +1631,7 @@ Plasma AddOns
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1617,6 +1655,7 @@ Plasma AddOns
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/sv/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.calculator.mo
@@ -1646,6 +1685,7 @@ Plasma AddOns
 * /usr/share/locale/sv/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
 * /usr/share/locale/ta/LC_MESSAGES/kwin_effect_cube.mo
+* /usr/share/locale/ta/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_addons_profiles_utility.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.addons.katesessions.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
@@ -1676,6 +1716,7 @@ Plasma AddOns
 * /usr/share/locale/ta/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_wallpaper_org.kde.potd.mo
+* /usr/share/locale/tg/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.binaryclock.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.konsoleprofiles.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.notes.mo
@@ -1701,6 +1742,7 @@ Plasma AddOns
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_katesessions.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_krunner_dictionary.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_spellcheckrunner.mo
+* /usr/share/locale/tok/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/tr/LC_MESSAGES/kwin_effect_cube.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_addons_engine_dict.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_addons_profiles_utility.mo
@@ -2066,4 +2108,5 @@ Plasma AddOns
 * /usr/share/plasma/wallpapers/org.kde.potd/contents/ui/WallpaperDelegate.qml
 * /usr/share/plasma/wallpapers/org.kde.potd/contents/ui/WallpaperPreview.qml
 * /usr/share/plasma/wallpapers/org.kde.potd/metadata.json
+* /usr/share/polkit-1/actions/org.kde.kameleonhelper.policy
 * /usr/share/qlogging-categories6/kdeplasma-addons.categories

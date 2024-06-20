@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "breeze 6.0.5-1"
-version = "6.0.5-1"
+title = "breeze 6.1.0-1"
+version = "6.1.0-1"
 description = "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop."
-date = "2024-05-22T09:06:02"
+date = "2024-06-19T20:35:11"
 aliases = "/packages/218256"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "52884292"
-usize = "83140802"
-sha1sum = "d40d87416ef61dccfffb1f2e3d6853faa80d2e8d"
-depends = "['kcmutils>=6.2.0', 'kcolorscheme>=6.2.0', 'kconfig>=6.2.0', 'kcoreaddons>=6.2.0', 'kdecoration>=6.0.5', 'kguiaddons>=6.2.0', 'ki18n>=6.2.0', 'kiconthemes>=6.2.0', 'kirigami>=6.2.0', 'kwindowsystem>=6.2.0']"
+size = "52901412"
+usize = "83120228"
+sha1sum = "3a6acd718f86d5a40ee89748c44a73c58ba2347c"
+depends = "['kcmutils>=6.3.0', 'kcolorscheme>=6.3.0', 'kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kdecoration>=6.1.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0', 'kiconthemes>=6.3.0', 'kirigami>=6.3.0', 'kwindowsystem>=6.3.0']"
 reverse_depends = "['kwin', 'plasma-integration']"
 +++
 ### Description: 
@@ -30,8 +30,8 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/color-schemes/BreezeClassic.colors
 * /usr/share/color-schemes/BreezeDark.colors
 * /usr/share/color-schemes/BreezeLight.colors
-* /usr/share/doc/breeze-6.0.5/AUTHORS
-* /usr/share/doc/breeze-6.0.5/README.md
+* /usr/share/doc/breeze-6.1.0/AUTHORS
+* /usr/share/doc/breeze-6.1.0/README.md
 * /usr/share/icons/breeze_cursors/cursors/00000000000000020006000e7e9ffc3f
 * /usr/share/icons/breeze_cursors/cursors/00008160000006810000408080010102
 * /usr/share/icons/breeze_cursors/cursors/03b6e0fcb3499374a867c041f52298f0
@@ -164,6 +164,7 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/Breeze_Light/cursors/a2a266d0498c3104214a47bd64ab0fc8
 * /usr/share/icons/Breeze_Light/cursors/alias
 * /usr/share/icons/Breeze_Light/cursors/all-scroll
+* /usr/share/icons/Breeze_Light/cursors/arrow
 * /usr/share/icons/Breeze_Light/cursors/b66166c04f8c3109214a4fbd64a50fc8
 * /usr/share/icons/Breeze_Light/cursors/bottom_left_corner
 * /usr/share/icons/Breeze_Light/cursors/bottom_right_corner
@@ -325,6 +326,8 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/locale/ko/LC_MESSAGES/breeze_style_config.mo
 * /usr/share/locale/lt/LC_MESSAGES/breeze_kwin_deco.mo
 * /usr/share/locale/lt/LC_MESSAGES/breeze_style_config.mo
+* /usr/share/locale/lv/LC_MESSAGES/breeze_kwin_deco.mo
+* /usr/share/locale/lv/LC_MESSAGES/breeze_style_config.mo
 * /usr/share/locale/ml/LC_MESSAGES/breeze_kwin_deco.mo
 * /usr/share/locale/ml/LC_MESSAGES/breeze_style_config.mo
 * /usr/share/locale/nb/LC_MESSAGES/breeze_kwin_deco.mo

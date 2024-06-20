@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elisa 24.05.1-1"
-version = "24.05.1-1"
+title = "elisa 24.05.1-2"
+version = "24.05.1-2"
 description = "A simple music player aiming to provide a nice experience for its users"
-date = "2024-06-15T09:14:15"
+date = "2024-06-20T11:38:31"
 aliases = "/packages/220967"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1698400"
+size = "1697784"
 usize = "5576349"
-sha1sum = "e2ceaf92028518c23588a6c1024d709ba4d8fe5e"
+sha1sum = "db392d074551cf4f084539f7af6d594d3e561fcc"
 depends = "['baloo>=', 'kirigami-addons', 'qqc2-desktop-style>=', 'qt6-multimedia>=', 'vlc']"
 +++
 ### Description: 

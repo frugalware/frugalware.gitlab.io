@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdecoration 6.0.5-1"
-version = "6.0.5-1"
+title = "kdecoration 6.1.0-1"
+version = "6.1.0-1"
 description = "KDE Decoration"
-date = "2024-05-22T08:58:31"
+date = "2024-06-19T20:30:37"
 aliases = "/packages/218295"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "80256"
-usize = "342630"
-sha1sum = "e1bcbbc46c558df3ccafac386fde6c62baedf031"
-depends = "['kcoreaddons>=6.2.0', 'ki18n>=6.2.0', 'qt6-base>=6.7.1']"
+size = "80344"
+usize = "331366"
+sha1sum = "08128e87d57f157d820a16d8367317b0000a3a1c"
+depends = "['kcoreaddons>=6.3.0', 'ki18n>=6.3.0', 'qt6-base>=6.7.1']"
 reverse_depends = "['breeze', 'kde-gtk-config']"
 +++
 ### Description: 
@@ -48,11 +48,11 @@ KDE Decoration
 * /usr/lib/cmake/KDecoration2/KDecoration2Targets.cmake
 * /usr/lib/libkdecorations2.so
 * /usr/lib/libkdecorations2.so.6
-* /usr/lib/libkdecorations2.so.6.0.5
+* /usr/lib/libkdecorations2.so.6.1.0
 * /usr/lib/libkdecorations2private.so
 * /usr/lib/libkdecorations2private.so.11
-* /usr/lib/libkdecorations2private.so.6.0.5
-* /usr/share/doc/kdecoration-6.0.5/README.md
+* /usr/lib/libkdecorations2private.so.6.1.0
+* /usr/share/doc/kdecoration-6.1.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/az/LC_MESSAGES/kdecoration.mo
@@ -71,6 +71,7 @@ KDE Decoration
 * /usr/share/locale/fi/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/fr/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/gl/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/he/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/hi/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ia/LC_MESSAGES/kdecoration.mo
@@ -81,6 +82,7 @@ KDE Decoration
 * /usr/share/locale/ka/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ko/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/lt/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ml/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/nl/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/nn/LC_MESSAGES/kdecoration.mo
