@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-sensors 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-sensors 6.7.2-1"
+version = "6.7.2-1"
 description = "The Qt6 toolkit, qtsensors"
-date = "2024-05-21T10:34:00"
+date = "2024-06-19T16:55:51"
 aliases = "/packages/220795"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "166116"
-usize = "1149126"
-sha1sum = "a9ad37ebb3cf56c42f253377f897211989f49163"
+size = "167896"
+usize = "1120710"
+sha1sum = "5c85e0513971f02e721621720dc3c2fd85b83de7"
 depends = "['iio-sensor-proxy', 'qt6-connectivity', 'qt6-declarative', 'qt6-svg']"
 reverse_depends = "['kdeconnect-kde', 'kscreen', 'kwin', 'qt6-remoteobjects']"
 +++

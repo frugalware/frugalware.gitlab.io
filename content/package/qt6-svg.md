@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-svg 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-svg 6.7.2-1"
+version = "6.7.2-1"
 description = "The Qt6 toolkit, qtsvg"
-date = "2024-05-21T08:53:15"
+date = "2024-06-19T14:58:30"
 aliases = "/packages/220767"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "210336"
-usize = "821329"
-sha1sum = "a5a6bdb4efaa4610bc66864b61a034c433df10e0"
+size = "212300"
+usize = "799608"
+sha1sum = "a1aef30611c1fd90440ff790fb11e33e991b59b6"
 depends = "['qt6-base']"
 reverse_depends = "['akonadi-search', 'analitza', 'calamares-frugalware', 'calibre', 'cutemaze', 'discover', 'kaccounts-providers', 'kanagram', 'kapman', 'kapptemplate', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kbruch', 'kcron', 'kde-gtk-config', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdenlive', 'kdesdk-thumbnailers', 'kdiagram', 'kdiamond', 'keysmith', 'kfourinline', 'kgeography', 'kgoldrunner', 'khangman', 'kiconthemes', 'kile', 'killbots', 'kimageannotator', 'kirigami', 'kiriki', 'kpmcore', 'krecorder', 'kuserfeedback', 'kvirc', 'kxmlgui', 'ladybird', 'libkgapi', 'libkmahjongg', 'mkvtoolnix-gui', 'obs-studio', 'okular', 'plasmatube', 'qmlkonsole', 'qt6-sensors', 'qt6-virtualkeyboard', 'qtcreator', 'socnetv', 'telegram-desktop', 'yakuake']"
 +++

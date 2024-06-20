@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libva-utils 2.21.0-1"
-version = "2.21.0-1"
+title = "libva-utils 2.22.0-1"
+version = "2.22.0-1"
 description = "Intel VA-API Media Applications and Scripts for libva"
-date = "2024-03-21T16:26:29"
+date = "2024-06-20T15:13:54"
 aliases = "/packages/219820"
 categories = ['xapps']
 upstreamurl = "https://github.com/intel/libva-utils"
 arch = "x86_64"
-size = "489676"
-usize = "3301442"
-sha1sum = "d98cd73c3a270772e4cdefa498781fc644065561"
+size = "495532"
+usize = "3178303"
+sha1sum = "b1946ec8cdab10b618013628db91003d269950dd"
 depends = "['libva>=2.18.0']"
 +++
 ### Description: 
@@ -42,7 +42,7 @@ Intel VA-API Media Applications and Scripts for libva
 * /usr/bin/vppscaling_csc
 * /usr/bin/vppscaling_n_out_usrptr
 * /usr/bin/vppsharpness
-* /usr/share/doc/libva-utils-2.21.0/COPYING
-* /usr/share/doc/libva-utils-2.21.0/INSTALL
-* /usr/share/doc/libva-utils-2.21.0/NEWS
-* /usr/share/doc/libva-utils-2.21.0/README.md
+* /usr/share/doc/libva-utils-2.22.0/COPYING
+* /usr/share/doc/libva-utils-2.22.0/INSTALL
+* /usr/share/doc/libva-utils-2.22.0/NEWS
+* /usr/share/doc/libva-utils-2.22.0/README.md

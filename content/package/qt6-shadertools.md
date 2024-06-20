@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-shadertools 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-shadertools 6.7.2-1"
+version = "6.7.2-1"
 description = "The Qt6 toolkit, qtshadertools"
-date = "2024-05-21T08:17:10"
+date = "2024-06-19T14:41:57"
 aliases = "/packages/220757"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1420092"
-usize = "4685328"
-sha1sum = "410ab968fc92897f54669f7ba03e5bd465bd9db6"
+size = "1447948"
+usize = "4685176"
+sha1sum = "eb706e7b68d93b51b347c438103c53d5c1cd0d7e"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
 +++

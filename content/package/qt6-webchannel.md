@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-webchannel 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-webchannel 6.7.2-1"
+version = "6.7.2-1"
 description = "The Qt6 toolkit, qtwebchannel"
-date = "2024-05-21T09:05:42"
+date = "2024-06-19T15:15:20"
 aliases = "/packages/220789"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "111660"
-usize = "436676"
-sha1sum = "9f24861cd2a0530f6ddbb327c6a5710684157287"
+size = "111368"
+usize = "416572"
+sha1sum = "e387bbfcb3881646a5dadf39ebd742593e8b63de"
 depends = "['qt6-declarative']"
 reverse_depends = "['falkon', 'qt6-webengine']"
 +++

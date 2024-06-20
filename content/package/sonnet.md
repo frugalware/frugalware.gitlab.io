@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sonnet 6.3.0-1"
-version = "6.3.0-1"
+title = "sonnet 6.3.0-2"
+version = "6.3.0-2"
 description = "Spelling framework for Qt, plugin-based."
-date = "2024-06-08T11:33:20"
+date = "2024-06-19T17:43:01"
 aliases = "/packages/218412"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "319496"
+size = "319672"
 usize = "1462105"
-sha1sum = "64dc8494c00ebe35a94282d1bb4c4aa14f7dcbe4"
+sha1sum = "ba5df05ab120a5166f1a56af737c9bd72201701f"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['ghostwriter', 'kpimtextedit', 'ktextwidgets']"
 +++

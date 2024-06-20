@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sonnet-plugin-hspell 6.3.0-1"
-version = "6.3.0-1"
+title = "sonnet-plugin-hspell 6.3.0-2"
+version = "6.3.0-2"
 description = "Hspell plugin for sonnet"
-date = "2024-06-08T11:33:20"
+date = "2024-06-19T17:43:01"
 aliases = "/packages/218501"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "16564"
+size = "16596"
 usize = "41600"
-sha1sum = "95b0c3574fde8bf8f3ad68f66acdc202baee63c9"
+sha1sum = "27d93d9bd261409c6c319f6b0a12d2b0242e7793"
 depends = "['hspell>=1.3-3']"
 +++
 ### Description: 

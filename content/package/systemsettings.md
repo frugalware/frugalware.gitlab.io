@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemsettings 6.0.5-1"
-version = "6.0.5-1"
+title = "systemsettings 6.1.0-1"
+version = "6.1.0-1"
 description = "KDE system settings."
-date = "2024-05-22T08:37:47"
+date = "2024-06-19T19:12:18"
 aliases = "/packages/221390"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "344880"
-usize = "1217272"
-sha1sum = "94be191a38c62fdff74876b6a81deba55c3dc30b"
-depends = "['kcmutils>=6.2.0', 'kdeclarative>=6.2.0', 'kirigami>=6.2.0', 'kitemmodels>=6.2.0', 'krunner>=6.2.0', 'plasma-activities>=6.0.5']"
+size = "324688"
+usize = "1108204"
+sha1sum = "f6776195df4973aa421e761c0adb53ff5f370481"
+depends = "['kcmutils>=6.3.0', 'kdeclarative>=6.3.0', 'kirigami>=6.3.0', 'kitemmodels>=6.3.0', 'krunner>=6.3.0', 'plasma-activities>=6.1.0']"
 reverse_depends = "['flatpak-kcm', 'kinfocenter', 'plasma-firewall']"
 +++
 ### Description: 
@@ -19,7 +19,6 @@ KDE system settings.
 
 ### Files: 
 * /usr/bin/systemsettings
-* /usr/lib/libsystemsettingsview.so.3
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_systemsettings.so
 * /usr/share/applications/kdesystemsettings.desktop
 * /usr/share/applications/systemsettings.desktop

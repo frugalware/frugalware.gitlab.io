@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sonnet-plugin-hunspell 6.3.0-1"
-version = "6.3.0-1"
+title = "sonnet-plugin-hunspell 6.3.0-2"
+version = "6.3.0-2"
 description = "Hunspell plugin for sonnet"
-date = "2024-06-08T11:33:20"
+date = "2024-06-19T17:43:01"
 aliases = "/packages/218519"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18608"
+size = "18652"
 usize = "48288"
-sha1sum = "813dad71ab63ff88a3dcd493d8e5d07f9a6d6214"
+sha1sum = "cdc35e31f27b32254c707b1c9844d361812ad571"
 depends = "['hunspell>=1.7.0']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "spectacle 24.05.1-1"
-version = "24.05.1-1"
+title = "spectacle 24.05.1-2"
+version = "24.05.1-2"
 description = "KDE screenshot capture utility"
-date = "2024-06-14T22:09:46"
+date = "2024-06-20T10:06:40"
 aliases = "/packages/218413"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1829760"
+size = "1829796"
 usize = "5392416"
-sha1sum = "b1223af760e4d32a9beaa583e0e11bf89df313db"
-depends = "['kdeclarative>=6.3.0', 'kio>=6.3.0', 'knewstuff>=6.3.0', 'kpipewire>=6.0.5', 'kscreen>=6.0.5', 'openblas', 'opencv>=4.10.0', 'purpose>=6.3.0', 'xcb-util-cursor', 'zxing-cpp']"
+sha1sum = "0741deafb023d736fd9316253d7d41677f8877d1"
+depends = "['kdeclarative>=6.3.0', 'kio>=6.3.0', 'knewstuff>=6.3.0', 'kpipewire>=6.1.0', 'kscreen>=6.1.0', 'openblas', 'opencv>=4.10.0', 'purpose>=6.3.0', 'xcb-util-cursor', 'zxing-cpp']"
 +++
 ### Description: 
 KDE screenshot capture utility

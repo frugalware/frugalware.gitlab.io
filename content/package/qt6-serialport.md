@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-serialport 6.7.1-1"
-version = "6.7.1-1"
+title = "qt6-serialport 6.7.2-1"
+version = "6.7.2-1"
 description = "The Qt6 toolkit, qtserialport"
-date = "2024-05-21T08:58:05"
+date = "2024-06-19T15:01:24"
 aliases = "/packages/220771"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "46388"
-usize = "187964"
-sha1sum = "7b979e06d83d387430cc771f556b1373bab345ae"
+size = "46512"
+usize = "182076"
+sha1sum = "efa8e72b6f679d13e762dff720522358f029cb93"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xdg-desktop-portal-kde 6.0.5-1"
-version = "6.0.5-1"
+title = "xdg-desktop-portal-kde 6.1.0-1"
+version = "6.1.0-1"
 description = "A backend implementation for xdg-desktop-portal using Qt/KF5"
-date = "2024-05-22T09:17:48"
+date = "2024-06-19T20:46:29"
 aliases = "/packages/220562"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "354312"
-usize = "1464789"
-sha1sum = "358d2c6e086caf1693994b8aca6612b57190e2d3"
-depends = "['kio>=6.2.0', 'kio-fuse', 'kirigami>=6.2.0', 'kstatusnotifieritem>=6.2.0', 'kwayland>=_6.0.5']"
+size = "379484"
+usize = "1572911"
+sha1sum = "266530b86915ff06b4be5462dc0d02c8dbd3adf6"
+depends = "['kio>=6.3.0', 'kio-fuse', 'kirigami>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwayland>=_6.1.0']"
 reverse_depends = "['plasma-integration', 'plasma-integration', 'plasma-wayland-session']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/lib/xdg-desktop-portal-kde/xdg-desktop-portal-kde
 * /usr/share/applications/org.freedesktop.impl.portal.desktop.kde.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kde.service
-* /usr/share/doc/xdg-desktop-portal-kde-6.0.5/README.md
-* /usr/share/doc/xdg-desktop-portal-kde-6.0.5/TODO
+* /usr/share/doc/xdg-desktop-portal-kde-6.1.0/README.md
+* /usr/share/doc/xdg-desktop-portal-kde-6.1.0/TODO
 * /usr/share/knotifications6/xdg-desktop-portal-kde.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ast/LC_MESSAGES/xdg-desktop-portal-kde.mo
@@ -52,6 +52,7 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/share/locale/ka/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ko/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/lt/LC_MESSAGES/xdg-desktop-portal-kde.mo
+* /usr/share/locale/lv/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ml/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/nl/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/nn/LC_MESSAGES/xdg-desktop-portal-kde.mo
