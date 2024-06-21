@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yin-yang 3.4-2"
-version = "3.4-2"
+title = "yin-yang 3.4-3"
+version = "3.4-3"
 description = "Light/dark theme switcher for Linux. Supports popular Desktops, text editors and more!"
-date = "2024-05-27T13:22:48"
+date = "2024-06-21T12:29:50"
 aliases = "/packages/220855"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/oskarsh/Yin-Yang"
 arch = "x86_64"
-size = "46476"
+size = "46640"
 usize = "244697"
-sha1sum = "470bd43e02778eb2de19d12a62b717d6759029c9"
+sha1sum = "8eaf6a89bcf832c1fe0ec65f1616adf1fab69ba0"
 depends = "['pyqt6', 'pyside6', 'python3-psutil', 'python3-suntime', 'python3-systemd', 'qt6-positioning']"
 +++
 ### Description: 

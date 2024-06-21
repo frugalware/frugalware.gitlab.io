@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "usbguard-qt 0.8.1-1"
-version = "0.8.1-1"
+title = "usbguard-qt 0.8.1-2"
+version = "0.8.1-2"
 description = "USBguard QT GUI"
-date = "2024-05-27T13:51:36"
+date = "2024-06-21T12:29:10"
 aliases = "/packages/221483"
 categories = ['xapps-extra']
 upstreamurl = "https://gitlab.com/WheelchairArtist/usbguard-qt"
 arch = "x86_64"
-size = "70656"
-usize = "267613"
-sha1sum = "07ddee0d70c1fee342a838d6a8902a9f9c8e96c1"
+size = "70164"
+usize = "261485"
+sha1sum = "b591213f5d7614843fa42f15f9cd7e1f03719652"
 depends = "['qt6-base', 'usbguard']"
 +++
 ### Description: 

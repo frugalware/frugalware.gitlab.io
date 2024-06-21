@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtcreator 13.0.1-1"
-version = "13.0.1-1"
+title = "qtcreator 13.0.2-1"
+version = "13.0.2-1"
 description = "The Qt6 toolkit, qtcreator"
-date = "2024-05-28T12:14:14"
+date = "2024-06-21T12:21:09"
 aliases = "/packages/103815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "32220488"
-usize = "127131689"
-sha1sum = "07198d9d5741cbb552def938a6da053069ddeba8"
+size = "32192840"
+usize = "126402030"
+sha1sum = "ff6aa7fe07b8a2651dc16792f0d75038b74ceaae"
 depends = "['clang>=17.0.6', 'cmake', 'gdb', 'litehtml', 'qt6-5compat', 'qt6-base-sql-common', 'qt6-quick3d', 'qt6-svg', 'qt6-tools', 'qt6-webengine', 'rustc-demangle', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
@@ -20,45 +20,45 @@ The Qt6 toolkit, qtcreator
 * /usr/bin/qtcreator
 * /usr/bin/qtcreator.sh
 * /usr/lib/qtcreator/libAdvancedDockingSystem.so.13
-* /usr/lib/qtcreator/libAdvancedDockingSystem.so.13.0.1
+* /usr/lib/qtcreator/libAdvancedDockingSystem.so.13.0.2
 * /usr/lib/qtcreator/libAggregation.so.13
-* /usr/lib/qtcreator/libAggregation.so.13.0.1
+* /usr/lib/qtcreator/libAggregation.so.13.0.2
 * /usr/lib/qtcreator/libCPlusPlus.so.13
-* /usr/lib/qtcreator/libCPlusPlus.so.13.0.1
+* /usr/lib/qtcreator/libCPlusPlus.so.13.0.2
 * /usr/lib/qtcreator/libExtensionSystem.so.13
-* /usr/lib/qtcreator/libExtensionSystem.so.13.0.1
+* /usr/lib/qtcreator/libExtensionSystem.so.13.0.2
 * /usr/lib/qtcreator/libGLSL.so.13
-* /usr/lib/qtcreator/libGLSL.so.13.0.1
+* /usr/lib/qtcreator/libGLSL.so.13.0.2
 * /usr/lib/qtcreator/libKSyntaxHighlighting.so.13
-* /usr/lib/qtcreator/libKSyntaxHighlighting.so.13.0.1
+* /usr/lib/qtcreator/libKSyntaxHighlighting.so.13.0.2
 * /usr/lib/qtcreator/libLanguageServerProtocol.so.13
-* /usr/lib/qtcreator/libLanguageServerProtocol.so.13.0.1
+* /usr/lib/qtcreator/libLanguageServerProtocol.so.13.0.2
 * /usr/lib/qtcreator/libLanguageUtils.so.13
-* /usr/lib/qtcreator/libLanguageUtils.so.13.0.1
+* /usr/lib/qtcreator/libLanguageUtils.so.13.0.2
 * /usr/lib/qtcreator/libModeling.so.13
-* /usr/lib/qtcreator/libModeling.so.13.0.1
+* /usr/lib/qtcreator/libModeling.so.13.0.2
 * /usr/lib/qtcreator/libNanotrace.so.13
-* /usr/lib/qtcreator/libNanotrace.so.13.0.1
+* /usr/lib/qtcreator/libNanotrace.so.13.0.2
 * /usr/lib/qtcreator/libProParser.so.13
-* /usr/lib/qtcreator/libProParser.so.13.0.1
+* /usr/lib/qtcreator/libProParser.so.13.0.2
 * /usr/lib/qtcreator/libqlitehtml.so.13
-* /usr/lib/qtcreator/libqlitehtml.so.13.0.1
+* /usr/lib/qtcreator/libqlitehtml.so.13.0.2
 * /usr/lib/qtcreator/libQmlDebug.so.13
-* /usr/lib/qtcreator/libQmlDebug.so.13.0.1
+* /usr/lib/qtcreator/libQmlDebug.so.13.0.2
 * /usr/lib/qtcreator/libQmlEditorWidgets.so.13
-* /usr/lib/qtcreator/libQmlEditorWidgets.so.13.0.1
+* /usr/lib/qtcreator/libQmlEditorWidgets.so.13.0.2
 * /usr/lib/qtcreator/libQmlJS.so.13
-* /usr/lib/qtcreator/libQmlJS.so.13.0.1
+* /usr/lib/qtcreator/libQmlJS.so.13.0.2
 * /usr/lib/qtcreator/libqtkeychain.so.13
-* /usr/lib/qtcreator/libqtkeychain.so.13.0.1
+* /usr/lib/qtcreator/libqtkeychain.so.13.0.2
 * /usr/lib/qtcreator/libSqlite.so.13
-* /usr/lib/qtcreator/libSqlite.so.13.0.1
+* /usr/lib/qtcreator/libSqlite.so.13.0.2
 * /usr/lib/qtcreator/libTerminalLib.so.13
-* /usr/lib/qtcreator/libTerminalLib.so.13.0.1
+* /usr/lib/qtcreator/libTerminalLib.so.13.0.2
 * /usr/lib/qtcreator/libTracing.so.13
-* /usr/lib/qtcreator/libTracing.so.13.0.1
+* /usr/lib/qtcreator/libTracing.so.13.0.2
 * /usr/lib/qtcreator/libUtils.so.13
-* /usr/lib/qtcreator/libUtils.so.13.0.1
+* /usr/lib/qtcreator/libUtils.so.13.0.2
 * /usr/lib/qtcreator/plugins/libAndroid.so
 * /usr/lib/qtcreator/plugins/libAutoTest.so
 * /usr/lib/qtcreator/plugins/libAutotoolsProjectManager.so
@@ -156,7 +156,7 @@ The Qt6 toolkit, qtcreator
 * /usr/lib/qtcreator/qtcreator/cpaster
 * /usr/lib/qtcreator/qtcreator/perf2text
 * /usr/lib/qtcreator/qtcreator/perfparser
-* /usr/lib/qtcreator/qtcreator/qml2puppet-13.0.1
+* /usr/lib/qtcreator/qtcreator/qml2puppet-13.0.2
 * /usr/lib/qtcreator/qtcreator/qtc-askpass
 * /usr/lib/qtcreator/qtcreator/qtcreator_processlauncher
 * /usr/lib/qtcreator/qtcreator/qtcreator_process_stub
@@ -191,6 +191,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/changelog/changes-12.0.2.md
 * /usr/share/qtcreator/changelog/changes-13.0.0.md
 * /usr/share/qtcreator/changelog/changes-13.0.1.md
+* /usr/share/qtcreator/changelog/changes-13.0.2.md
 * /usr/share/qtcreator/changelog/changes-2.0.0
 * /usr/share/qtcreator/changelog/changes-2.0.1
 * /usr/share/qtcreator/changelog/changes-2.1.0
