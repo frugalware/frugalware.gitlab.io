@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bootconfig 6.9.5-1"
-version = "6.9.5-1"
+title = "bootconfig 6.9.6-1"
+version = "6.9.6-1"
 description = "Kernel tool for appending cmd line options to a initrd."
-date = "2024-06-17T08:05:30"
+date = "2024-06-21T20:25:42"
 aliases = "/packages/220099"
 categories = ['apps-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "40000"
+size = "40008"
 usize = "21440"
-sha1sum = "1dc464988f502d5f99acc2c86b5b4576c401a0c3"
+sha1sum = "3b1682a17bbf39b7abe9c54b2fbb8a5b1bcc8092"
 depends = "[]"
 +++
 ### Description: 
