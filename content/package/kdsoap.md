@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdsoap 2.2.0-7"
-version = "2.2.0-7"
+title = "kdsoap 2.2.0-8"
+version = "2.2.0-8"
 description = "Qt-based client-side and server-side SOAP component"
-date = "2024-05-27T10:02:08"
+date = "2024-06-21T09:55:20"
 aliases = "/packages/220152"
 categories = ['lib']
 upstreamurl = "https://github.com/KDAB/kdsoap"
 arch = "x86_64"
-size = "423364"
-usize = "1319522"
-sha1sum = "4b35254232288ad11b24547f1fab712ff6cb36b0"
+size = "424568"
+usize = "1305218"
+sha1sum = "ad0dad68ece9cc602d95039d03e1b46299e33142"
 depends = "['qt6-base>=5.15.10']"
 reverse_depends = "['kdsoap-ws-discovery-client']"
 +++

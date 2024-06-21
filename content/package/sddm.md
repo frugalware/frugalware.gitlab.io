@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sddm 0.21.0-13"
-version = "0.21.0-13"
+title = "sddm 0.21.0-14"
+version = "0.21.0-14"
 description = "QML based X11 display manager"
-date = "2024-06-17T13:59:25"
+date = "2024-06-21T10:02:36"
 aliases = "/packages/217437"
 categories = ['x11']
 upstreamurl = "https://github.com/sddm/sddm"
 arch = "x86_64"
-size = "3663228"
-usize = "5531475"
-sha1sum = "707378ba6f8265fe5e8a2cab7ae40df1fde48358"
+size = "3601264"
+usize = "4978529"
+sha1sum = "8442593f156675fffdf0765f7f6828482daf9161"
 depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative', 'qt6-declarative', 'xauth']"
 reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-desktop', 'sddm-deepin', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
 +++
@@ -22,7 +22,6 @@ QML based X11 display manager
 * /etc/pam.d/sddm-autologin
 * /etc/pam.d/sddm-greeter
 * /usr/bin/sddm
-* /usr/bin/sddm-greeter
 * /usr/bin/sddm-greeter-qt6
 * /usr/lib/qt6/qml/SddmComponents/Background.qml
 * /usr/lib/qt6/qml/SddmComponents/Button.qml
@@ -54,19 +53,6 @@ QML based X11 display manager
 * /usr/share/man/man1/sddm.1.gz
 * /usr/share/man/man5/sddm-state.conf.5.gz
 * /usr/share/man/man5/sddm.conf.5.gz
-* /usr/share/qt5/qml/SddmComponents/Background.qml
-* /usr/share/qt5/qml/SddmComponents/Button.qml
-* /usr/share/qt5/qml/SddmComponents/Clock.qml
-* /usr/share/qt5/qml/SddmComponents/ComboBox.qml
-* /usr/share/qt5/qml/SddmComponents/ImageButton.qml
-* /usr/share/qt5/qml/SddmComponents/LayoutBox.qml
-* /usr/share/qt5/qml/SddmComponents/Menu.qml
-* /usr/share/qt5/qml/SddmComponents/PasswordBox.qml
-* /usr/share/qt5/qml/SddmComponents/PictureBox.qml
-* /usr/share/qt5/qml/SddmComponents/qmldir
-* /usr/share/qt5/qml/SddmComponents/TextBox.qml
-* /usr/share/qt5/qml/SddmComponents/TextConstants.qml
-* /usr/share/qt5/qml/SddmComponents/warning.png
 * /usr/share/sddm/faces/.face.icon
 * /usr/share/sddm/faces/root.face.icon
 * /usr/share/sddm/flags/ae.png
