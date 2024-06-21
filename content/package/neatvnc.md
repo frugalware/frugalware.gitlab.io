@@ -12,6 +12,7 @@ size = "47916"
 usize = "123538"
 sha1sum = "4800046ca00aac2d64a81e1dfba6a44f42921300"
 depends = "['aml', 'gnutls', 'libdrm', 'libjpeg-turbo', 'pixman']"
+reverse_depends = "['weston']"
 +++
 ### Description: 
 Fast and neat VNC server library

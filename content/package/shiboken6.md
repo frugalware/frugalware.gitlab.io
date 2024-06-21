@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "977136"
 usize = "2960905"
 sha1sum = "14fd620c17d991944ca070ac55271f87d0d0b135"
-depends = "['clang-libs>=17.0.6', 'libxslt', 'qt6-base>=6.7.0']"
+depends = "['clang-libs>=17.0.6', 'libxslt', 'qt6-base>=6.7.2']"
 +++
 ### Description: 
 Support library for Python bindings.
@@ -65,10 +65,10 @@ Support library for Python bindings.
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake
 * /usr/lib/pkgconfig/shiboken6.pc
-* /usr/share/doc/shiboken6-6.7.1/README.md
-* /usr/share/doc/shiboken6-6.7.1/README.pyside6.md
-* /usr/share/doc/shiboken6-6.7.1/README.pyside6_addons.md
-* /usr/share/doc/shiboken6-6.7.1/README.pyside6_essentials.md
-* /usr/share/doc/shiboken6-6.7.1/README.pyside6_examples.md
-* /usr/share/doc/shiboken6-6.7.1/README.shiboken6-generator.md
-* /usr/share/doc/shiboken6-6.7.1/README.shiboken6.md
+* /usr/share/doc/shiboken6-6.7.2/README.md
+* /usr/share/doc/shiboken6-6.7.2/README.pyside6.md
+* /usr/share/doc/shiboken6-6.7.2/README.pyside6_addons.md
+* /usr/share/doc/shiboken6-6.7.2/README.pyside6_essentials.md
+* /usr/share/doc/shiboken6-6.7.2/README.pyside6_examples.md
+* /usr/share/doc/shiboken6-6.7.2/README.shiboken6-generator.md
+* /usr/share/doc/shiboken6-6.7.2/README.shiboken6.md

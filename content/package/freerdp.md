@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freerdp 3.5.1-3"
-version = "3.5.1-3"
+title = "freerdp 3.5.1-4"
+version = "3.5.1-4"
 description = "Remote Desktop Protocol cliente"
-date = "2024-06-05T18:12:23"
+date = "2024-06-21T08:37:00"
 aliases = "/packages/136181"
 categories = ['xapps']
 upstreamurl = "https://www.freerdp.com/"
 arch = "x86_64"
-size = "2343052"
-usize = "8855603"
-sha1sum = "c2daf15999fdd04b300d82bedac3237322d9419d"
+size = "2333944"
+usize = "8780314"
+sha1sum = "b5569b3a21f85b6cb14eb991542b34cf8a5a51ac"
 depends = "['ffmpeg>=7.0', 'fuse3', 'icu4c>=75.1', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
 reverse_depends = "['remmina-rdp']"
 +++
@@ -18,15 +18,15 @@ reverse_depends = "['remmina-rdp']"
 Remote Desktop Protocol cliente
 
 ### Files: 
-* /usr/bin/freerdp-proxy
-* /usr/bin/freerdp-shadow-cli
-* /usr/bin/sdl-freerdp
-* /usr/bin/sfreerdp
-* /usr/bin/sfreerdp-server
-* /usr/bin/winpr-hash
-* /usr/bin/winpr-makecert
-* /usr/bin/wlfreerdp
-* /usr/bin/xfreerdp
+* /usr/bin/freerdp-proxy3
+* /usr/bin/freerdp-shadow-cli3
+* /usr/bin/sdl-freerdp3
+* /usr/bin/sfreerdp-server3
+* /usr/bin/sfreerdp3
+* /usr/bin/winpr-hash3
+* /usr/bin/winpr-makecert3
+* /usr/bin/wlfreerdp3
+* /usr/bin/xfreerdp3
 * /usr/include/freerdp3/freerdp/addin.h
 * /usr/include/freerdp3/freerdp/altsec.h
 * /usr/include/freerdp3/freerdp/api.h
@@ -207,18 +207,6 @@ Remote Desktop Protocol cliente
 * /usr/include/freerdp3/freerdp/utils/string.h
 * /usr/include/freerdp3/freerdp/version.h
 * /usr/include/freerdp3/freerdp/window.h
-* /usr/include/rdtk0/rdtk/api.h
-* /usr/include/rdtk0/rdtk/build-config.h
-* /usr/include/rdtk0/rdtk/buildflags.h
-* /usr/include/rdtk0/rdtk/config.h
-* /usr/include/rdtk0/rdtk/rdtk.h
-* /usr/include/rdtk0/rdtk/version.h
-* /usr/include/uwac0/uwac/build-config.h
-* /usr/include/uwac0/uwac/buildflags.h
-* /usr/include/uwac0/uwac/config.h
-* /usr/include/uwac0/uwac/uwac-tools.h
-* /usr/include/uwac0/uwac/uwac.h
-* /usr/include/uwac0/uwac/version.h
 * /usr/include/winpr3/winpr/asn1.h
 * /usr/include/winpr3/winpr/assert.h
 * /usr/include/winpr3/winpr/bcrypt.h
@@ -308,14 +296,6 @@ Remote Desktop Protocol cliente
 * /usr/lib/cmake/FreeRDP3/FreeRDPConfigVersion.cmake
 * /usr/lib/cmake/FreeRDP3/FreeRDPTargets-release.cmake
 * /usr/lib/cmake/FreeRDP3/FreeRDPTargets.cmake
-* /usr/lib/cmake/rdtk0/rdtk-release.cmake
-* /usr/lib/cmake/rdtk0/rdtk.cmake
-* /usr/lib/cmake/rdtk0/rdtkConfig.cmake
-* /usr/lib/cmake/rdtk0/rdtkConfigVersion.cmake
-* /usr/lib/cmake/uwac0/uwac-release.cmake
-* /usr/lib/cmake/uwac0/uwac.cmake
-* /usr/lib/cmake/uwac0/uwacConfig.cmake
-* /usr/lib/cmake/uwac0/uwacConfigVersion.cmake
 * /usr/lib/cmake/WinPR-tools3/WinPR-toolsConfig.cmake
 * /usr/lib/cmake/WinPR-tools3/WinPR-toolsConfigVersion.cmake
 * /usr/lib/cmake/WinPR-tools3/WinPR-toolsTargets-release.cmake
@@ -324,9 +304,9 @@ Remote Desktop Protocol cliente
 * /usr/lib/cmake/WinPR3/WinPRConfigVersion.cmake
 * /usr/lib/cmake/WinPR3/WinPRTargets-release.cmake
 * /usr/lib/cmake/WinPR3/WinPRTargets.cmake
-* /usr/lib/freerdp2/server/proxy/plugins/proxy-bitmap-filter-plugin.so
-* /usr/lib/freerdp2/server/proxy/plugins/proxy-demo-plugin.so
-* /usr/lib/freerdp2/server/proxy/plugins/proxy-dyn-channel-dump-plugin.so
+* /usr/lib/freerdp/server/proxy/plugins/proxy-bitmap-filter-plugin.so
+* /usr/lib/freerdp/server/proxy/plugins/proxy-demo-plugin.so
+* /usr/lib/freerdp/server/proxy/plugins/proxy-dyn-channel-dump-plugin.so
 * /usr/lib/libfreerdp-client3.so
 * /usr/lib/libfreerdp-client3.so.3
 * /usr/lib/libfreerdp-client3.so.3.5.1
@@ -345,12 +325,6 @@ Remote Desktop Protocol cliente
 * /usr/lib/libfreerdp3.so
 * /usr/lib/libfreerdp3.so.3
 * /usr/lib/libfreerdp3.so.3.5.1
-* /usr/lib/librdtk0.so
-* /usr/lib/librdtk0.so.0
-* /usr/lib/librdtk0.so.0.2.0
-* /usr/lib/libuwac0.so
-* /usr/lib/libuwac0.so.0
-* /usr/lib/libuwac0.so.0.2.0
 * /usr/lib/libwinpr-tools3.so
 * /usr/lib/libwinpr-tools3.so.3
 * /usr/lib/libwinpr-tools3.so.3.5.1
@@ -362,22 +336,20 @@ Remote Desktop Protocol cliente
 * /usr/lib/pkgconfig/freerdp-server3.pc
 * /usr/lib/pkgconfig/freerdp-shadow3.pc
 * /usr/lib/pkgconfig/freerdp3.pc
-* /usr/lib/pkgconfig/rdtk0.pc
-* /usr/lib/pkgconfig/uwac0.pc
 * /usr/lib/pkgconfig/winpr-tools3.pc
 * /usr/lib/pkgconfig/winpr3.pc
 * /usr/share/doc/freerdp-3.5.1/ChangeLog
 * /usr/share/doc/freerdp-3.5.1/LICENSE
 * /usr/share/doc/freerdp-3.5.1/README.md
-* /usr/share/FreeRDP/images/test_icon.bmp
-* /usr/share/FreeRDP/images/test_icon.jpg
-* /usr/share/FreeRDP/images/test_icon.png
-* /usr/share/FreeRDP/images/test_icon.webp
-* /usr/share/man/man1/freerdp-proxy.1.gz
-* /usr/share/man/man1/freerdp-shadow-cli.1.gz
-* /usr/share/man/man1/sdl-freerdp.1.gz
-* /usr/share/man/man1/winpr-hash.1.gz
-* /usr/share/man/man1/winpr-makecert.1.gz
-* /usr/share/man/man1/wlfreerdp.1.gz
-* /usr/share/man/man1/xfreerdp.1.gz
-* /usr/share/man/man7/wlog.7.gz
+* /usr/share/FreeRDP3/images/test_icon.bmp
+* /usr/share/FreeRDP3/images/test_icon.jpg
+* /usr/share/FreeRDP3/images/test_icon.png
+* /usr/share/FreeRDP3/images/test_icon.webp
+* /usr/share/man/man1/freerdp-proxy3.1.gz
+* /usr/share/man/man1/freerdp-shadow-cli3.1.gz
+* /usr/share/man/man1/sdl-freerdp3.1.gz
+* /usr/share/man/man1/winpr-hash3.1.gz
+* /usr/share/man/man1/winpr-makecert3.1.gz
+* /usr/share/man/man1/wlfreerdp3.1.gz
+* /usr/share/man/man1/xfreerdp3.1.gz
+* /usr/share/man/man7/wlog3.7.gz

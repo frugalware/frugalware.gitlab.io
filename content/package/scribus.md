@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scribus 1.6.1-3"
-version = "1.6.1-3"
+title = "scribus 1.6.2-1"
+version = "1.6.2-1"
 description = "A professional desktop publishing application."
-date = "2024-05-21T20:32:49"
+date = "2024-06-21T08:57:40"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "74943060"
-usize = "138733929"
-sha1sum = "8c0ffa0d38ffc03e5b14a156a136cdf121fe01b5"
+size = "75450632"
+usize = "138354034"
+sha1sum = "18786ef1911ff7ce44cdfecde7eebbf124859c2a"
 depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=75.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.04.0', 'python3>=3.12', 'qt5-declarative>=5.15.0']"
 +++
 ### Description: 
@@ -87,15 +87,15 @@ A professional desktop publishing application.
 * /usr/lib/scribus/plugins/libxpsexplugin.so
 * /usr/lib/scribus/scribus.css
 * /usr/share/applications/scribus.desktop
-* /usr/share/doc/scribus-1.6.1/AUTHORS
-* /usr/share/doc/scribus-1.6.1/ChangeLog
-* /usr/share/doc/scribus-1.6.1/COPYING
-* /usr/share/doc/scribus-1.6.1/NEWS
-* /usr/share/doc/scribus-1.6.1/README
-* /usr/share/doc/scribus-1.6.1/README.MacOSX
-* /usr/share/doc/scribus-1.6.1/README.md
-* /usr/share/doc/scribus-1.6.1/README_150Manual
-* /usr/share/doc/scribus-1.6.1/TODO
+* /usr/share/doc/scribus-1.6.2/AUTHORS
+* /usr/share/doc/scribus-1.6.2/ChangeLog
+* /usr/share/doc/scribus-1.6.2/COPYING
+* /usr/share/doc/scribus-1.6.2/NEWS
+* /usr/share/doc/scribus-1.6.2/README
+* /usr/share/doc/scribus-1.6.2/README.MacOSX
+* /usr/share/doc/scribus-1.6.2/README.md
+* /usr/share/doc/scribus-1.6.2/README_150Manual
+* /usr/share/doc/scribus-1.6.2/TODO
 * /usr/share/doc/scribus/AUTHORS
 * /usr/share/doc/scribus/ChangeLog
 * /usr/share/doc/scribus/COPYING
@@ -3278,7 +3278,6 @@ A professional desktop publishing application.
 * /usr/share/scribus/profiles/srgb.license
 * /usr/share/scribus/profiles/sRGB_icc22.icm
 * /usr/share/scribus/profiles/sRGB_icc22.txt
-* /usr/share/scribus/qml/qtq_test1.qml
 * /usr/share/scribus/samples/3columnA4.py
 * /usr/share/scribus/samples/3columnUSLTR.py
 * /usr/share/scribus/samples/boilerplate.py

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libqgpgme 1.23.2-6"
-version = "1.23.2-6"
+title = "libqgpgme 1.23.2-7"
+version = "1.23.2-7"
 description = "Qt6 bindings for gpgme"
-date = "2024-05-27T09:33:24"
+date = "2024-06-21T09:08:15"
 aliases = "/packages/218790"
 categories = ['xlib']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "11520608"
-usize = "24146522"
-sha1sum = "56ecf2a8fc9ae5fab0ff2a1b44e5de9930a13f40"
+size = "11518836"
+usize = "24137714"
+sha1sum = "5aebf22ef1234d28f3502164ddfb91c9f61b89d3"
 depends = "['gpgme>=1.23.2', 'qt6-base']"
 reverse_depends = "['isoimagewriter', 'kget', 'libkleo']"
 +++

@@ -20,7 +20,7 @@ Shiboken lib python only
 ### Files: 
 * /usr/lib/libshiboken6.abi3.so
 * /usr/lib/libshiboken6.abi3.so.6.7
-* /usr/lib/libshiboken6.abi3.so.6.7.1
+* /usr/lib/libshiboken6.abi3.so.6.7.2
 * /usr/lib/python3.12/site-packages/shiboken6/py.typed
 * /usr/lib/python3.12/site-packages/shiboken6/Shiboken.abi3.so
 * /usr/lib/python3.12/site-packages/shiboken6/Shiboken.pyi

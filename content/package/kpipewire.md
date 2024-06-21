@@ -12,7 +12,7 @@ size = "119716"
 usize = "440232"
 sha1sum = "70e1b88ab4a3e086fbdabea9d38eee98b2ccbce5"
 depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.3.0', 'ki18n>=6.3.0', 'kwayland>=6.1.0', 'libepoxy', 'pipewire']"
-reverse_depends = "['krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
+reverse_depends = "['krdp', 'krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
 +++
 ### Description: 
 Components relating to pipewire use in Plasma

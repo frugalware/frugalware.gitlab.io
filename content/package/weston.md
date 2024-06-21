@@ -1,22 +1,23 @@
 +++
 draft = false
-title = "weston 13.0.3-1"
-version = "13.0.3-1"
+title = "weston 13.0.3-2"
+version = "13.0.3-2"
 description = "Wayland Default Display Compositor"
-date = "2024-06-10T20:32:24"
+date = "2024-06-21T08:51:25"
 aliases = "/packages/168990"
 categories = ['x11-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "1200388"
-usize = "4612843"
-sha1sum = "5dac6135ae8abe7abc5ec6d7df3c80a6b8d9ff0e"
-depends = "['gst1-plugins-base', 'lcms2', 'libdisplay-info', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'pango', 'pipewire', 'seatd', 'wayland']"
+size = "1235200"
+usize = "4723669"
+sha1sum = "7362044093c7abb86494258e77351284591e8076"
+depends = "['freerdp2', 'gst1-plugins-base', 'lcms2', 'libdisplay-info', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'neatvnc', 'pango', 'pipewire', 'seatd', 'wayland']"
 +++
 ### Description: 
 Wayland Default Display Compositor
 
 ### Files: 
+* /etc/pam.d/weston-remote-access
 * /usr/bin/wcap-decode
 * /usr/bin/weston
 * /usr/bin/weston-calibrator
@@ -53,6 +54,8 @@ Wayland Default Display Compositor
 * /usr/include/libweston-13/libweston/backend-drm.h
 * /usr/include/libweston-13/libweston/backend-headless.h
 * /usr/include/libweston-13/libweston/backend-pipewire.h
+* /usr/include/libweston-13/libweston/backend-rdp.h
+* /usr/include/libweston-13/libweston/backend-vnc.h
 * /usr/include/libweston-13/libweston/backend-wayland.h
 * /usr/include/libweston-13/libweston/backend-x11.h
 * /usr/include/libweston-13/libweston/config-parser.h
@@ -79,7 +82,9 @@ Wayland Default Display Compositor
 * /usr/lib/libweston-13/headless-backend.so
 * /usr/lib/libweston-13/pipewire-backend.so
 * /usr/lib/libweston-13/pipewire-plugin.so
+* /usr/lib/libweston-13/rdp-backend.so
 * /usr/lib/libweston-13/remoting-plugin.so
+* /usr/lib/libweston-13/vnc-backend.so
 * /usr/lib/libweston-13/wayland-backend.so
 * /usr/lib/libweston-13/x11-backend.so
 * /usr/lib/libweston-13/xwayland.so
@@ -110,6 +115,8 @@ Wayland Default Display Compositor
 * /usr/share/man/man5/weston.ini.5.gz
 * /usr/share/man/man7/weston-bindings.7.gz
 * /usr/share/man/man7/weston-drm.7.gz
+* /usr/share/man/man7/weston-rdp.7.gz
+* /usr/share/man/man7/weston-vnc.7.gz
 * /usr/share/pkgconfig/libweston-13-protocols.pc
 * /usr/share/wayland-sessions/weston.desktop
 * /usr/share/weston/background.png

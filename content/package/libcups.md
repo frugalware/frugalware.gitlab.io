@@ -12,7 +12,7 @@ size = "242248"
 usize = "652221"
 sha1sum = "c6d7830dd486f6ffaefb42fbb369d2ff62a6c5d3"
 depends = "['avahi>=0.6.31-9', 'gnutls>=3.4.15-2', 'libsystemd', 'openssl>=3.0.7', 'pam']"
-reverse_depends = "['chromium-browser', 'cups', 'freerdp', 'ghostscript', 'gtk+2', 'gtk+3', 'gtk+4', 'hplip', 'hplip-driver', 'libcupsfilters', 'libgs', 'libppd', 'pycups', 'qt5-base', 'qt6-base', 'remmina', 'whalebird']"
+reverse_depends = "['chromium-browser', 'cups', 'freerdp', 'freerdp2', 'ghostscript', 'gtk+2', 'gtk+3', 'gtk+4', 'hplip', 'hplip-driver', 'libcupsfilters', 'libgs', 'libppd', 'pycups', 'qt5-base', 'qt6-base', 'remmina', 'whalebird']"
 +++
 ### Description: 
 Main library of the CUPS printing system.

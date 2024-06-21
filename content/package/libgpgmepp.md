@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgpgmepp 1.23.2-6"
-version = "1.23.2-6"
+title = "libgpgmepp 1.23.2-7"
+version = "1.23.2-7"
 description = "C++ bindings for gpgme"
-date = "2024-05-27T09:33:24"
+date = "2024-06-21T09:08:15"
 aliases = "/packages/218789"
 categories = ['lib']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "110896"
-usize = "386976"
-sha1sum = "073217126963c396eb63861753250440700d7fef"
+size = "111192"
+usize = "380224"
+sha1sum = "606c20a3703b564c7db90ba2962e7028e33df5ce"
 depends = "['gpgme>=1.23.2', 'libstdc++>=11.2']"
 reverse_depends = "['kwallet', 'kwallet5', 'libkleo', 'libreoffice', 'poppler']"
 +++

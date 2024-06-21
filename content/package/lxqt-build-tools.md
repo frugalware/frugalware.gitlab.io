@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lxqt-build-tools 2.0.0-1"
-version = "2.0.0-1"
+title = "lxqt-build-tools 2.0.0-2"
+version = "2.0.0-2"
 description = "Various packaging tools and scripts for LXQt applications."
-date = "2024-06-02T13:49:14"
+date = "2024-06-21T09:10:07"
 aliases = "/packages/219175"
 categories = ['devel-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "26312"
+size = "26360"
 usize = "133910"
-sha1sum = "0f19b555c0f83879a0952ac469690800318b99b6"
+sha1sum = "d82bd9525a23843c4f9c0ecbd255a9366b4dacd2"
 depends = "['cmake']"
 +++
 ### Description: 
