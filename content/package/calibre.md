@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 7.10.0-2"
-version = "7.10.0-2"
+title = "calibre 7.12.0-1"
+version = "7.12.0-1"
 description = "Ebook management application"
-date = "2024-05-27T10:18:10"
+date = "2024-06-21T11:07:30"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "28024568"
-usize = "68247294"
-sha1sum = "7407e139f5c85fdc946382eab803155411da12f9"
+size = "29554592"
+usize = "68377073"
+sha1sum = "3984b9c2fa28682f6ad5fbb83f36c89ccb9a0c28"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=75.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
@@ -517,6 +517,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/__init__.py
 * /usr/lib/calibre/calibre/ebooks/oeb/reader.py
 * /usr/lib/calibre/calibre/ebooks/oeb/stylizer.py
+* /usr/lib/calibre/calibre/ebooks/oeb/transforms/alt_text.py
 * /usr/lib/calibre/calibre/ebooks/oeb/transforms/cover.py
 * /usr/lib/calibre/calibre/ebooks/oeb/transforms/data_url.py
 * /usr/lib/calibre/calibre/ebooks/oeb/transforms/embed_fonts.py
@@ -1942,10 +1943,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.10.0/COPYRIGHT
-* /usr/share/doc/calibre-7.10.0/INSTALL.rst
-* /usr/share/doc/calibre-7.10.0/LICENSE
-* /usr/share/doc/calibre-7.10.0/README.md
+* /usr/share/doc/calibre-7.12.0/COPYRIGHT
+* /usr/share/doc/calibre-7.12.0/INSTALL.rst
+* /usr/share/doc/calibre-7.12.0/LICENSE
+* /usr/share/doc/calibre-7.12.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png
