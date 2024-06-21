@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca-gcrypt 2.3.8-10"
-version = "2.3.8-10"
+title = "qca-gcrypt 2.3.8-11"
+version = "2.3.8-11"
 description = "Plugins for qca with gcrypt"
-date = "2024-05-27T13:57:02"
+date = "2024-06-21T13:20:19"
 aliases = "/packages/217815"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "21860"
-usize = "76712"
-sha1sum = "d16fe185dea2914a19036faed3986917f9b636bb"
+size = "22024"
+usize = "71816"
+sha1sum = "ca2b6782673e898a3e729c16145fe2ab17c2a2b2"
 depends = "['libgcrypt>=1.7.3-2', 'qca']"
 +++
 ### Description: 

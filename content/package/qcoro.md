@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qcoro 0.10.0-6"
-version = "0.10.0-6"
+title = "qcoro 0.10.0-7"
+version = "0.10.0-7"
 description = "C++ Coroutines for Qt"
-date = "2024-05-27T13:59:19"
+date = "2024-06-21T13:26:14"
 aliases = "/packages/220955"
 categories = ['xlib']
 upstreamurl = "https://github.com/danvratil/qcoro"
 arch = "x86_64"
-size = "2649748"
-usize = "5036732"
-sha1sum = "9bea6cf06d976bacae04d12d8c4bc5c92612c1ca"
+size = "2651816"
+usize = "5036948"
+sha1sum = "b139c2420db1aa9303b9ab580e54acbb31d37e39"
 depends = "['qt6-declarative', 'qt6-websockets']"
 reverse_depends = "['angelfish', 'audiotube', 'kaccounts-integration', 'kdenetwork-filesharing', 'kio-extras', 'kio-extras-kf5', 'kontrast', 'plasma-nm', 'plasma-workspace']"
 +++
