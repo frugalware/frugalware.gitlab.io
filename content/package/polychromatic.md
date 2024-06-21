@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polychromatic 0.9.1-2"
-version = "0.9.1-2"
+title = "polychromatic 0.9.1-3"
+version = "0.9.1-3"
 description = "A graphical front end for managing Razer peripherals under GNU/Linux."
-date = "2024-05-27T12:58:03"
+date = "2024-06-21T12:07:56"
 aliases = "/packages/220392"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/polychromatic/polychromatic"
 arch = "x86_64"
-size = "715444"
+size = "717500"
 usize = "4508748"
-sha1sum = "0d733293ddb0565428f77e917927682220762d5c"
+sha1sum = "498fb98547e877948fab0b1d9acf23fe2544ce2b"
 depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqt6webengine', 'python3-colorama', 'python3-colour']"
 +++
 ### Description: 
