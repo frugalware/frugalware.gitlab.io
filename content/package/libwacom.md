@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwacom 2.12.1-1"
-version = "2.12.1-1"
+title = "libwacom 2.12.2-1"
+version = "2.12.2-1"
 description = "Tablet Information Client Library"
-date = "2024-06-12T09:16:26"
+date = "2024-06-22T19:08:54"
 aliases = "/packages/153043"
 categories = ['x11']
 upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "125848"
-usize = "1429629"
-sha1sum = "59d8c432a6f4e315ce68bd8a1dbab34ff9d7972f"
+size = "126068"
+usize = "1428801"
+sha1sum = "015ca80b95daf95436d6ebc3fdbc71a607b49edf"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
@@ -29,9 +29,9 @@ Tablet Information Client Library
 * /usr/lib/pkgconfig/libwacom.pc
 * /usr/lib/udev/hwdb.d/65-libwacom.hwdb
 * /usr/lib/udev/rules.d/65-libwacom.rules
-* /usr/share/doc/libwacom-2.12.1/COPYING
-* /usr/share/doc/libwacom-2.12.1/NEWS
-* /usr/share/doc/libwacom-2.12.1/README.md
+* /usr/share/doc/libwacom-2.12.2/COPYING
+* /usr/share/doc/libwacom-2.12.2/NEWS
+* /usr/share/doc/libwacom-2.12.2/README.md
 * /usr/share/libwacom/bamboo-0fg-m-p-alt.tablet
 * /usr/share/libwacom/bamboo-0fg-s-p-alt.tablet
 * /usr/share/libwacom/bamboo-0fg-s-p.tablet
@@ -261,6 +261,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/huion-kamvas-gt-221-pro.tablet
 * /usr/share/libwacom/huion-kamvas-pro-12-gt-116.tablet
 * /usr/share/libwacom/huion-kamvas-pro-13-gt1302.tablet
+* /usr/share/libwacom/huion-kamvas-pro-13.tablet
 * /usr/share/libwacom/huion-kamvas-pro-16-gt-156.tablet
 * /usr/share/libwacom/huion-kamvas-pro-16-gt1561.tablet
 * /usr/share/libwacom/huion-kamvas-pro-16-gt1602.tablet
@@ -516,7 +517,6 @@ Tablet Information Client Library
 * /usr/share/libwacom/isdv4-ec.tablet
 * /usr/share/libwacom/isdv4-ed.tablet
 * /usr/share/libwacom/isdv4-ef.tablet
-* /usr/share/libwacom/kamvas-pro-13.tablet
 * /usr/share/libwacom/layouts/bamboo-0fg-s-p-alt.svg
 * /usr/share/libwacom/layouts/bamboo-0fg-s-p.svg
 * /usr/share/libwacom/layouts/bamboo-16fg-m-pt.svg
@@ -650,6 +650,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/layouts/huion-kamvas-gt-221-pro.svg
 * /usr/share/libwacom/layouts/huion-kamvas-pro-12-gt-116.svg
 * /usr/share/libwacom/layouts/huion-kamvas-pro-13-gt1302.svg
+* /usr/share/libwacom/layouts/huion-kamvas-pro-13.svg
 * /usr/share/libwacom/layouts/huion-kamvas-pro-16-gt-156.svg
 * /usr/share/libwacom/layouts/huion-kamvas-pro-16-gt1602.svg
 * /usr/share/libwacom/layouts/huion-kamvas-pro-20-gt-192.svg
@@ -696,7 +697,6 @@ Tablet Information Client Library
 * /usr/share/libwacom/layouts/intuos5-l.svg
 * /usr/share/libwacom/layouts/intuos5-m.svg
 * /usr/share/libwacom/layouts/intuos5-s.svg
-* /usr/share/libwacom/layouts/kamvas-pro-13.svg
 * /usr/share/libwacom/layouts/mobilestudio-pro-13.svg
 * /usr/share/libwacom/layouts/mobilestudio-pro-16.svg
 * /usr/share/libwacom/layouts/movink.svg
