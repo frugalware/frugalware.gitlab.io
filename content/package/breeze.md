@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "breeze 6.1.0-1"
-version = "6.1.0-1"
+title = "breeze 6.1.0-2"
+version = "6.1.0-2"
 description = "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop."
-date = "2024-06-19T20:35:11"
+date = "2024-06-22T19:21:49"
 aliases = "/packages/218256"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "52901412"
-usize = "83120228"
-sha1sum = "3a6acd718f86d5a40ee89748c44a73c58ba2347c"
-depends = "['kcmutils>=6.3.0', 'kcolorscheme>=6.3.0', 'kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kdecoration>=6.1.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0', 'kiconthemes>=6.3.0', 'kirigami>=6.3.0', 'kwindowsystem>=6.3.0']"
+size = "52902360"
+usize = "83120644"
+sha1sum = "c2cbb5d05f7213278def71b26423626dd0c75857"
+depends = "['frameworkintegration>=6.3.0', 'kcmutils>=6.3.0', 'kcolorscheme>=6.3.0', 'kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kdecoration>=6.1.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0', 'kiconthemes>=6.3.0', 'kirigami>=6.3.0', 'kwindowsystem>=6.3.0']"
 reverse_depends = "['kwin', 'plasma-integration']"
 +++
 ### Description: 

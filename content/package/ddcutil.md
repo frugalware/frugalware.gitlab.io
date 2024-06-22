@@ -12,7 +12,7 @@ size = "640676"
 usize = "2269091"
 sha1sum = "6c74174442db889f8168ea4b6d99ba4573cd0e1d"
 depends = "['glib2', 'i2c-tools', 'jansson', 'libdrm', 'libusb1', 'libxrandr']"
-reverse_depends = "['clightd', 'hw-probe']"
+reverse_depends = "['clightd', 'hw-probe', 'powerdevil']"
 +++
 ### Description: 
 Query and change Linux monitor settings using DDC/CI and USB.

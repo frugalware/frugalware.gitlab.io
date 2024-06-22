@@ -12,7 +12,7 @@ size = "58128"
 usize = "262349"
 sha1sum = "9d923fa0eebb86f7cb31be92e91641a21c6f1647"
 depends = "['glibc>=2.34']"
-reverse_depends = "['efl', 'enlightenment', 'libinput', 'libinput-debug-events', 'libmanette', 'libratbag', 'libwacom', 'python3-evdev', 'qt5-base', 'terminology', 'xf86-input-evdev', 'xf86-input-synaptics']"
+reverse_depends = "['efl', 'enlightenment', 'libei', 'libinput', 'libinput-debug-events', 'libmanette', 'libratbag', 'libwacom', 'python3-evdev', 'qt5-base', 'terminology', 'xf86-input-evdev', 'xf86-input-synaptics']"
 +++
 ### Description: 
 Wrapper library for evdev devices
