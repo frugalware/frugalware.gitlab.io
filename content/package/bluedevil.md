@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bluedevil 6.0.5.1-1"
-version = "6.0.5.1-1"
+title = "bluedevil 6.1.0-1"
+version = "6.1.0-1"
 description = "KDE Bluetooth Framework"
-date = "2024-05-22T10:50:14"
+date = "2024-06-22T10:31:31"
 aliases = "/packages/221282"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "488612"
-usize = "2041914"
-sha1sum = "3e2c188c70aef3a645ed198773facd9e88f5bfbb"
-depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.2.0', 'ksvg>=6.2.0', 'libplasma>=6.0.5']"
+size = "488828"
+usize = "1988540"
+sha1sum = "e740456a579f75a92d6ae9e70e65ab7b60408b05"
+depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.3.0', 'ksvg>=6.3.0', 'libplasma>=6.1.0']"
 +++
 ### Description: 
 KDE Bluetooth Framework
@@ -31,7 +31,7 @@ KDE Bluetooth Framework
 * /usr/share/applications/org.kde.bluedevilsendfile.desktop
 * /usr/share/applications/org.kde.bluedevilwizard.desktop
 * /usr/share/bluedevilwizard/pin-code-database.xml
-* /usr/share/doc/bluedevil-6.0.5.1/README
+* /usr/share/doc/bluedevil-6.1.0/README
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/bluedevil/bluetooth-add.png
@@ -137,6 +137,9 @@ KDE Bluetooth Framework
 * /usr/share/locale/ie/LC_MESSAGES/bluedevil.mo
 * /usr/share/locale/ie/LC_MESSAGES/kcm_bluetooth.mo
 * /usr/share/locale/ie/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo
+* /usr/share/locale/is/LC_MESSAGES/bluedevil.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_bluetooth.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo
 * /usr/share/locale/it/LC_MESSAGES/bluedevil.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_bluetooth.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo
@@ -152,6 +155,9 @@ KDE Bluetooth Framework
 * /usr/share/locale/lt/LC_MESSAGES/bluedevil.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_bluetooth.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo
+* /usr/share/locale/lv/LC_MESSAGES/bluedevil.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_bluetooth.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo
 * /usr/share/locale/ml/LC_MESSAGES/bluedevil.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo
 * /usr/share/locale/nb/LC_MESSAGES/bluedevil.mo
