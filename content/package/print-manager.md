@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "print-manager 6.1.0-1"
-version = "6.1.0-1"
+title = "print-manager 6.1.0-2"
+version = "6.1.0-2"
 description = "System tray utility, to autoconfig printers."
-date = "2024-06-19T21:50:53"
+date = "2024-06-22T20:41:31"
 aliases = "/packages/184208"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "520964"
+size = "520968"
 usize = "2808864"
-sha1sum = "602bbcf3b66a54618af296777fd6c2d1822392f4"
+sha1sum = "844d38de92e3eab6c36eff32795b1aa6c0cdf673"
 depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.3.0', 'qt6-declarative>=6.7.1']"
 +++
 ### Description: 

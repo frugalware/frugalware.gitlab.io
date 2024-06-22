@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-thunderbolt 6.1.0-1"
-version = "6.1.0-1"
+title = "plasma-thunderbolt 6.1.0-2"
+version = "6.1.0-2"
 description = "Plasma integration for controlling Thunderbolt devices"
-date = "2024-06-19T19:45:46"
+date = "2024-06-22T21:04:12"
 aliases = "/packages/219992"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "121140"
+size = "121028"
 usize = "512735"
-sha1sum = "d64c212dba968274310a12b72628a36e063aa54a"
+sha1sum = "c4c41c097377aa165ab2fc18355029eb99094933"
 depends = "['bolt', 'kcmutils>=6.3.0']"
 +++
 ### Description: 

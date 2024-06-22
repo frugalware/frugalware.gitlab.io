@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-disks 6.1.0-1"
-version = "6.1.0-1"
+title = "plasma-disks 6.1.0-2"
+version = "6.1.0-2"
 description = "Monitors S.M.A.R.T. capable devices for imminent failure"
-date = "2024-06-19T19:46:37"
+date = "2024-06-22T21:11:51"
 aliases = "/packages/220244"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "135012"
+size = "134960"
 usize = "586692"
-sha1sum = "302504436d2a3f14fb5e097c285898b79677af79"
+sha1sum = "1a1430a81a987cdb1ecc5ecd88af13356a5acc63"
 depends = "['kcmutils>=6.3.0', 'kdeclarative>=6.3.0', 'smartmontools']"
 +++
 ### Description: 
