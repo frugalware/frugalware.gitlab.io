@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "firefox-ka 127.0-1"
-version = "127.0-1"
+title = "firefox-ka 127.0.1-1"
+version = "127.0.1-1"
 description = "Georgian language support for Firefox"
-date = "2024-06-12T07:20:35"
+date = "2024-06-23T13:59:51"
 aliases = "/packages/219027"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "604876"
-usize = "658463"
-sha1sum = "38a9f2b2a2f7d5096007346b67161c53bbec9521"
+size = "605068"
+usize = "658458"
+sha1sum = "4267bd7f8a5d0e647b8aceee2fe67e3e0a6c3596"
 depends = "['firefox>=127.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++

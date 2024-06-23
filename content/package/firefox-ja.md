@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ja 127.0-1"
-version = "127.0-1"
+title = "firefox-ja 127.0.1-1"
+version = "127.0.1-1"
 description = "Japanese language support for Firefox"
-date = "2024-06-12T07:20:35"
+date = "2024-06-23T13:59:51"
 aliases = "/packages/3582"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "619852"
-usize = "673196"
-sha1sum = "441746ae90f93810ca477f9ccd9cf1220df7afeb"
-depends = "['firefox>=127.0']"
+size = "620624"
+usize = "673185"
+sha1sum = "c2dfe6d61170a84a26517997acc15b50e56b5c99"
+depends = "['firefox>=127.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

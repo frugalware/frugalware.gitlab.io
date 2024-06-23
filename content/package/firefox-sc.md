@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "firefox-sc 127.0-1"
-version = "127.0-1"
+title = "firefox-sc 127.0.1-1"
+version = "127.0.1-1"
 description = "Sardinian language support for Firefox"
-date = "2024-06-12T07:20:35"
+date = "2024-06-23T13:59:51"
 aliases = "/packages/220932"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "528124"
-usize = "582657"
-sha1sum = "ed8c3cf6b09bff3215e4481e5c2ccb64074e1abd"
+size = "528300"
+usize = "582658"
+sha1sum = "58345265cf46d13d3847e41376145d7be414f355"
 depends = "['firefox>=127.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
