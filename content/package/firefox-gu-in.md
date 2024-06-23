@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "459944"
 usize = "525144"
 sha1sum = "dce04eec101ebb50268fc6c79916d2c4c8078026"
-depends = "['firefox>=127.0']"
+depends = "['firefox>=127.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

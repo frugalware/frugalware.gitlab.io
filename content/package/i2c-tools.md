@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "i2c-tools 4.3-1"
-version = "4.3-1"
+title = "i2c-tools 4.3-2"
+version = "4.3-2"
 description = "Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors"
-date = "2022-12-08T13:57:00"
+date = "2024-06-23T13:27:08"
 aliases = "/packages/220820"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "https://i2c.wiki.kernel.org/index.php/I2C_Tools"
 arch = "x86_64"
-size = "91224"
-usize = "354937"
-sha1sum = "f1e40c8a1c84e16e78bdf732d1ae8f28e473b316"
+size = "91676"
+usize = "312510"
+sha1sum = "24f70f3aa6108ee029a8be3c9e11dcb4bffbadfb"
 depends = "['perl']"
 reverse_depends = "['ddcutil', 'openrgb']"
 +++
