@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libassuan-static 2.5.7-2"
-version = "2.5.7-2"
+title = "libassuan-static 3.0.1-1"
+version = "3.0.1-1"
 description = "Static files for libassuan"
-date = "2024-05-15T18:24:16"
+date = "2024-06-24T17:12:58"
 aliases = "/packages/219913"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnupg.org/related_software/libassuan/"
 arch = "x86_64"
-size = "493568"
-usize = "584536"
-sha1sum = "d81533c037eba7c2c5e9bc74b707a8bdc881fd4e"
+size = "514504"
+usize = "608174"
+sha1sum = "0e1bb7dd31b9d56e839d3313d3e98c0c9da62bea"
 depends = "[]"
 +++
 ### Description: 

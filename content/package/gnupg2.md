@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gnupg2 2.4.5-2"
-version = "2.4.5-2"
+title = "gnupg2 2.4.5-3"
+version = "2.4.5-3"
 description = "GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME"
-date = "2024-05-16T16:45:57"
+date = "2024-06-24T17:59:49"
 aliases = "/packages/14925"
 categories = ['apps']
 upstreamurl = "https://www.gnupg.org"
 arch = "x86_64"
-size = "2713884"
-usize = "10838560"
-sha1sum = "2b645f844d1f59824d9b8e78de465faf00bf4938"
-depends = "['libassuan>=2.5.1-2', 'libksba>=1.3.5-2', 'libsystemd>=231-22', 'libusb1', 'ncurses>=6.0-12', 'npth>=1.5-2', 'readline>=8.0', 'sqlite3>=3.9.2-4']"
+size = "2723364"
+usize = "10742992"
+sha1sum = "23b1dbfefed9388caf50ea61ea744784ec0d61e4"
+depends = "['libassuan>=3.0.1', 'libksba>=1.3.5-2', 'libsystemd>=231-22', 'libusb1', 'ncurses>=6.0-12', 'npth>=1.5-2', 'readline>=8.0', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg']"
 +++
 ### Description: 
