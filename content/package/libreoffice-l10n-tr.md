@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-tr 24.2.3.2-5"
-version = "24.2.3.2-5"
+title = "libreoffice-l10n-tr 24.2.3.2-6"
+version = "24.2.3.2-6"
 description = "Installs Turkish support in LibreOffice"
-date = "2024-06-19T12:51:10"
+date = "2024-06-24T13:59:18"
 aliases = "/packages/104128"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5179200"
+size = "4814300"
 usize = "35621918"
-sha1sum = "373f83afca0a66d077d48ad4e8d43529f8c0d524"
+sha1sum = "84cc891e3d04d616d4e2b7879b0b4b4a75ee4288"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 

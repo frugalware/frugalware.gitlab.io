@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ast 24.2.3.2-5"
-version = "24.2.3.2-5"
+title = "libreoffice-l10n-ast 24.2.3.2-6"
+version = "24.2.3.2-6"
 description = "Installs Asturian support in LibreOffice"
-date = "2024-06-19T12:51:10"
+date = "2024-06-24T13:59:18"
 aliases = "/packages/104034"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4671288"
+size = "4329176"
 usize = "33511484"
-sha1sum = "f41566fdbbc622c87aec372e6ce6def43769f37a"
+sha1sum = "88d01e479a7762712bed7d5880fcc345730a9ce6"
 depends = "['libreoffice>=24.2.3.2']"
 +++
 ### Description: 
