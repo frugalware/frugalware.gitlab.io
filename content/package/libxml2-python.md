@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxml2-python 2.12.7-1"
-version = "2.12.7-1"
+title = "libxml2-python 2.13.1-1"
+version = "2.13.1-1"
 description = "Python bindings for libxml2"
-date = "2024-05-29T07:49:58"
+date = "2024-06-24T20:46:45"
 aliases = "/packages/217494"
 categories = ['devel']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "186796"
-usize = "1726140"
-sha1sum = "1665812c7cb31e53dd17b86ad23b703b91ed9422"
-depends = "['libxml2=2.12.7', 'python3>=3.12']"
+size = "200020"
+usize = "1793333"
+sha1sum = "ac6f42c81495b480a38bd17c172125a53f98c911"
+depends = "['libxml2=2.13.1', 'python3>=3.12']"
 reverse_depends = "['itstool']"
 +++
 ### Description: 

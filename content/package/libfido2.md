@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfido2 1.14.0-2"
-version = "1.14.0-2"
+title = "libfido2 1.15.0-1"
+version = "1.15.0-1"
 description = "Library functionality for FIDO 2.0, including communication with a device over USB"
-date = "2024-02-07T13:09:09"
+date = "2024-06-24T20:44:29"
 aliases = "/packages/220053"
 categories = ['lib']
 upstreamurl = "https://developers.yubico.com/libfido2/"
 arch = "x86_64"
-size = "179208"
-usize = "474290"
-sha1sum = "2037c9099ab969321e793b2ef86ead0cad429ba1"
+size = "182004"
+usize = "459641"
+sha1sum = "cf66996355f1e09f7d780a16f1ea55ed170f0c76"
 depends = "['libcbor>=0.11.0', 'libhidapi', 'openssl>=3.1.0', 'systemd']"
 reverse_depends = "['openssh']"
 +++
@@ -34,11 +34,11 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/include/fido/types.h
 * /usr/lib/libfido2.so
 * /usr/lib/libfido2.so.1
-* /usr/lib/libfido2.so.1.14.0
+* /usr/lib/libfido2.so.1.15.0
 * /usr/lib/pkgconfig/libfido2.pc
-* /usr/share/doc/libfido2-1.14.0/LICENSE
-* /usr/share/doc/libfido2-1.14.0/NEWS
-* /usr/share/doc/libfido2-1.14.0/README.adoc
+* /usr/share/doc/libfido2-1.15.0/LICENSE
+* /usr/share/doc/libfido2-1.15.0/NEWS
+* /usr/share/doc/libfido2-1.15.0/README.adoc
 * /usr/share/man/man1/fido2-assert.1.gz
 * /usr/share/man/man1/fido2-cred.1.gz
 * /usr/share/man/man1/fido2-token.1.gz
@@ -208,6 +208,7 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/share/man/man3/fido_cred_pubkey_ptr.3.gz
 * /usr/share/man/man3/fido_cred_rp_id.3.gz
 * /usr/share/man/man3/fido_cred_rp_name.3.gz
+* /usr/share/man/man3/fido_cred_set_attobj.3.gz
 * /usr/share/man/man3/fido_cred_set_attstmt.3.gz
 * /usr/share/man/man3/fido_cred_set_authdata.3.gz
 * /usr/share/man/man3/fido_cred_set_authdata_raw.3.gz
@@ -236,6 +237,9 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/share/man/man3/fido_cred_verify.3.gz
 * /usr/share/man/man3/fido_cred_verify_self.3.gz
 * /usr/share/man/man3/fido_cred_x5c_len.3.gz
+* /usr/share/man/man3/fido_cred_x5c_list_count.3.gz
+* /usr/share/man/man3/fido_cred_x5c_list_len.3.gz
+* /usr/share/man/man3/fido_cred_x5c_list_ptr.3.gz
 * /usr/share/man/man3/fido_cred_x5c_ptr.3.gz
 * /usr/share/man/man3/fido_dev_build.3.gz
 * /usr/share/man/man3/fido_dev_cancel.3.gz

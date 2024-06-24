@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksba 1.6.6-2"
-version = "1.6.6-2"
+title = "libksba 1.6.7-1"
+version = "1.6.7-1"
 description = "Libksba is a CMS and X.509 access library."
-date = "2024-05-16T16:29:20"
+date = "2024-06-24T20:41:26"
 aliases = "/packages/3186"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnupg.org/related_software/libksba/"
 arch = "x86_64"
-size = "182420"
-usize = "489517"
-sha1sum = "7d8396f9bc9cdd3005452fbab6e153beb87de6d5"
+size = "184024"
+usize = "494494"
+sha1sum = "7c8874cf779ddb5701ca177d882636d2bc06cc35"
 depends = "['libgpg-error>=1.24-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent']"
 license = "GPLv3"
@@ -22,18 +22,18 @@ Libksba is a CMS and X.509 access library.
 * /usr/include/ksba.h
 * /usr/lib/libksba.so
 * /usr/lib/libksba.so.8
-* /usr/lib/libksba.so.8.14.6
+* /usr/lib/libksba.so.8.14.7
 * /usr/lib/pkgconfig/ksba.pc
 * /usr/share/aclocal/ksba.m4
-* /usr/share/doc/libksba-1.6.6/AUTHORS
-* /usr/share/doc/libksba-1.6.6/ChangeLog
-* /usr/share/doc/libksba-1.6.6/COPYING
-* /usr/share/doc/libksba-1.6.6/COPYING.GPLv2
-* /usr/share/doc/libksba-1.6.6/COPYING.GPLv3
-* /usr/share/doc/libksba-1.6.6/COPYING.LGPLv3
-* /usr/share/doc/libksba-1.6.6/INSTALL
-* /usr/share/doc/libksba-1.6.6/NEWS
-* /usr/share/doc/libksba-1.6.6/README
-* /usr/share/doc/libksba-1.6.6/THANKS
-* /usr/share/doc/libksba-1.6.6/TODO
+* /usr/share/doc/libksba-1.6.7/AUTHORS
+* /usr/share/doc/libksba-1.6.7/ChangeLog
+* /usr/share/doc/libksba-1.6.7/COPYING
+* /usr/share/doc/libksba-1.6.7/COPYING.GPLv2
+* /usr/share/doc/libksba-1.6.7/COPYING.GPLv3
+* /usr/share/doc/libksba-1.6.7/COPYING.LGPLv3
+* /usr/share/doc/libksba-1.6.7/INSTALL
+* /usr/share/doc/libksba-1.6.7/NEWS
+* /usr/share/doc/libksba-1.6.7/README
+* /usr/share/doc/libksba-1.6.7/THANKS
+* /usr/share/doc/libksba-1.6.7/TODO
 * /usr/share/info/ksba.info.gz
