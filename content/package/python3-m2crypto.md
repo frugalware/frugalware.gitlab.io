@@ -17,11 +17,12 @@ depends = "['openssl>=3.0.7', 'python3']"
 A Python crypto and SSL toolkit.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/M2Crypto-0.40.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/M2Crypto-0.40.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/M2Crypto-0.40.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/M2Crypto-0.40.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/M2Crypto-0.40.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/M2Crypto-0.41.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/M2Crypto-0.41.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/M2Crypto-0.41.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/M2Crypto-0.41.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/M2Crypto-0.41.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/M2Crypto-0.41.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/M2Crypto/ASN1.py
 * /usr/lib/python3.12/site-packages/M2Crypto/AuthCookie.py
 * /usr/lib/python3.12/site-packages/M2Crypto/BIO.py
@@ -43,7 +44,6 @@ A Python crypto and SSL toolkit.
 * /usr/lib/python3.12/site-packages/M2Crypto/Rand.py
 * /usr/lib/python3.12/site-packages/M2Crypto/RC4.py
 * /usr/lib/python3.12/site-packages/M2Crypto/RSA.py
-* /usr/lib/python3.12/site-packages/M2Crypto/six.py
 * /usr/lib/python3.12/site-packages/M2Crypto/SMIME.py
 * /usr/lib/python3.12/site-packages/M2Crypto/SSL/cb.py
 * /usr/lib/python3.12/site-packages/M2Crypto/SSL/Checker.py
@@ -91,14 +91,11 @@ A Python crypto and SSL toolkit.
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/Rand.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/RC4.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/RSA.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/six.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/SMIME.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/threading.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/X509.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/M2Crypto/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-m2crypto-0.40.1/CHANGES
-* /usr/share/doc/python3-m2crypto-0.40.1/INSTALL.rst
-* /usr/share/doc/python3-m2crypto-0.40.1/LICENSE
-* /usr/share/doc/python3-m2crypto-0.40.1/README
-* /usr/share/doc/python3-m2crypto-0.40.1/README.rst
+* /usr/share/doc/python3-m2crypto-0.41.0/CHANGES
+* /usr/share/doc/python3-m2crypto-0.41.0/INSTALL.rst
+* /usr/share/doc/python3-m2crypto-0.41.0/README.rst

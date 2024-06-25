@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sphinx-applehelp 1.0.7-1"
-version = "1.0.7-1"
+title = "python3-sphinx-applehelp 1.0.8-1"
+version = "1.0.8-1"
 description = "Sphinx extension which outputs Apple help books"
-date = "2023-10-05T11:43:38"
+date = "2024-06-25T13:12:20"
 aliases = "/packages/220114"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-applehelp"
 arch = "x86_64"
-size = "26276"
-usize = "274867"
-sha1sum = "5a6c05ae37e8958899e616d3633e5155f4e23dd0"
+size = "26492"
+usize = "275313"
+sha1sum = "954c4cb4b652f6c1fb20ab897efcda0fceda844b"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
@@ -124,10 +124,10 @@ Sphinx extension which outputs Apple help books
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/__init__.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/applehelp/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.7.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.7.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.7.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.7.dist-info/WHEEL
-* /usr/share/doc/python3-sphinx-applehelp-1.0.7/CHANGES
-* /usr/share/doc/python3-sphinx-applehelp-1.0.7/LICENSE
-* /usr/share/doc/python3-sphinx-applehelp-1.0.7/README.rst
+* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.8.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.8.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.8.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sphinxcontrib_applehelp-1.0.8.dist-info/WHEEL
+* /usr/share/doc/python3-sphinx-applehelp-1.0.8/CHANGES
+* /usr/share/doc/python3-sphinx-applehelp-1.0.8/LICENSE
+* /usr/share/doc/python3-sphinx-applehelp-1.0.8/README.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pytz 2023.3.post1-1"
-version = "2023.3.post1-1"
+title = "python3-pytz 2024.1-1"
+version = "2024.1-1"
 description = "World Timezone Definitions for Python"
-date = "2023-10-05T11:29:43"
+date = "2024-06-25T12:45:01"
 aliases = "/packages/220033"
 categories = ['devel-extra']
 upstreamurl = "http://pythoinhosted.org/pytz/"
 arch = "x86_64"
-size = "148164"
-usize = "1049231"
-sha1sum = "abe31339ac09bd94aea56d4c6569c018964921b1"
+size = "150604"
+usize = "1058148"
+sha1sum = "aba7e4ae5561c8398c22dfbafc95d8b2faf0f45c"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-babel', 'python3-pillow']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-babel', 'python3-pillow']"
 World Timezone Definitions for Python
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/pytz-2023.3.post1-py3.12.egg-info/zip-safe
+* /usr/lib/python3.12/site-packages/pytz-2024.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pytz-2024.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pytz-2024.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pytz-2024.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pytz-2024.1-py3.12.egg-info/zip-safe
 * /usr/lib/python3.12/site-packages/pytz/exceptions.py
 * /usr/lib/python3.12/site-packages/pytz/lazy.py
 * /usr/lib/python3.12/site-packages/pytz/reference.py
@@ -629,6 +629,7 @@ World Timezone Definitions for Python
 * /usr/lib/python3.12/site-packages/pytz/zoneinfo/WET
 * /usr/lib/python3.12/site-packages/pytz/zoneinfo/zone.tab
 * /usr/lib/python3.12/site-packages/pytz/zoneinfo/zone1970.tab
+* /usr/lib/python3.12/site-packages/pytz/zoneinfo/zonenow.tab
 * /usr/lib/python3.12/site-packages/pytz/zoneinfo/Zulu
 * /usr/lib/python3.12/site-packages/pytz/__init__.py
 * /usr/lib/python3.12/site-packages/pytz/__pycache__/exceptions.cpython-312.pyc
@@ -637,4 +638,4 @@ World Timezone Definitions for Python
 * /usr/lib/python3.12/site-packages/pytz/__pycache__/tzfile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pytz/__pycache__/tzinfo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pytz/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pytz-2023.3.post1/README.rst
+* /usr/share/doc/python3-pytz-2024.1/README.rst

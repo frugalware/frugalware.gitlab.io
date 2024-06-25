@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyasn1 0.5.1-1"
-version = "0.5.1-1"
+title = "python3-pyasn1 0.6.0-1"
+version = "0.6.0-1"
 description = "ASN.1 library for Python"
-date = "2023-12-04T15:10:26"
+date = "2024-06-25T12:32:35"
 aliases = "/packages/219790"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pyasn1"
 arch = "x86_64"
-size = "148140"
-usize = "829031"
-sha1sum = "7159a2bfde124b1f4cfa6a8e5fd281527aff4836"
+size = "149308"
+usize = "845508"
+sha1sum = "335679780b072819add4c0da220c703315f4343c"
 depends = "['python3>=3.12']"
 reverse_depends = "['paramiko']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['paramiko']"
 ASN.1 library for Python
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/pyasn1-0.5.1-py3.12.egg-info/zip-safe
+* /usr/lib/python3.12/site-packages/pyasn1-0.6.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pyasn1-0.6.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pyasn1-0.6.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pyasn1-0.6.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pyasn1-0.6.0-py3.12.egg-info/zip-safe
 * /usr/lib/python3.12/site-packages/pyasn1/codec/ber/decoder.py
 * /usr/lib/python3.12/site-packages/pyasn1/codec/ber/encoder.py
 * /usr/lib/python3.12/site-packages/pyasn1/codec/ber/eoo.py
@@ -89,4 +89,4 @@ ASN.1 library for Python
 * /usr/lib/python3.12/site-packages/pyasn1/__pycache__/debug.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyasn1/__pycache__/error.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyasn1/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pyasn1-0.5.1/README.md
+* /usr/share/doc/python3-pyasn1-0.6.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dnspython 2.4.2-1"
-version = "2.4.2-1"
+title = "python3-dnspython 2.6.1-1"
+version = "2.6.1-1"
 description = "A DNS toolkit for Python"
-date = "2023-12-04T14:23:48"
+date = "2024-06-25T13:02:29"
 aliases = "/packages/219779"
 categories = ['devel-extra']
 upstreamurl = "http://www.dnspython.org"
 arch = "x86_64"
-size = "430728"
-usize = "3420671"
-sha1sum = "e9e8d126c4d187ae0e37896760d9317f6a029ffa"
+size = "441836"
+usize = "3501914"
+sha1sum = "48ce5c38154b4e8dd1d0e25f48b29b376806f490"
 depends = "['python3-wheel']"
 reverse_depends = "['python3-eventlet']"
 +++
@@ -331,6 +331,7 @@ A DNS toolkit for Python
 * /usr/lib/python3.12/site-packages/dns/_asyncbackend.py
 * /usr/lib/python3.12/site-packages/dns/_asyncio_backend.py
 * /usr/lib/python3.12/site-packages/dns/_ddr.py
+* /usr/lib/python3.12/site-packages/dns/_features.py
 * /usr/lib/python3.12/site-packages/dns/_immutable_ctx.py
 * /usr/lib/python3.12/site-packages/dns/_trio_backend.py
 * /usr/lib/python3.12/site-packages/dns/__init__.py
@@ -436,15 +437,17 @@ A DNS toolkit for Python
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_asyncio_backend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_ddr.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_ddr.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/dns/__pycache__/_features.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/dns/__pycache__/_features.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_immutable_ctx.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_immutable_ctx.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_trio_backend.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/_trio_backend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dns/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dnspython-2.4.2.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/dnspython-2.4.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/dnspython-2.4.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/dnspython-2.4.2.dist-info/WHEEL
-* /usr/share/doc/python3-dnspython-2.4.2/LICENSE
-* /usr/share/doc/python3-dnspython-2.4.2/README.md
+* /usr/lib/python3.12/site-packages/dnspython-2.6.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/dnspython-2.6.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/dnspython-2.6.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/dnspython-2.6.1.dist-info/WHEEL
+* /usr/share/doc/python3-dnspython-2.6.1/LICENSE
+* /usr/share/doc/python3-dnspython-2.6.1/README.md

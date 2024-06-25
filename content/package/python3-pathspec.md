@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pathspec 0.11.2-1"
-version = "0.11.2-1"
+title = "python3-pathspec 0.12.1-1"
+version = "0.12.1-1"
 description = "Utility library for gitignore style pattern matching of file paths"
-date = "2023-10-05T12:24:09"
+date = "2024-06-25T13:09:42"
 aliases = "/packages/220600"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pathspec"
 arch = "x86_64"
-size = "40536"
-usize = "259111"
-sha1sum = "11ab2721a549edf1b9d9e4c9bc667040676a087c"
+size = "42084"
+usize = "281488"
+sha1sum = "7b1da1f3b9d25e650206d8ff6e0b635e018b2a76"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-hatchling']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-hatchling']"
 Utility library for gitignore style pattern matching of file paths
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/pathspec-0.11.2.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/pathspec-0.12.1.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/pathspec-0.12.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/pathspec-0.12.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/pathspec-0.12.1.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/pathspec/gitignore.py
 * /usr/lib/python3.12/site-packages/pathspec/pathspec.py
 * /usr/lib/python3.12/site-packages/pathspec/pattern.py
@@ -47,7 +47,6 @@ Utility library for gitignore style pattern matching of file paths
 * /usr/lib/python3.12/site-packages/pathspec/__pycache__/_meta.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pathspec/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pathspec/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pathspec-0.11.2/LICENSE
-* /usr/share/doc/python3-pathspec-0.11.2/README-dist.rst
-* /usr/share/doc/python3-pathspec-0.11.2/README.md
-* /usr/share/doc/python3-pathspec-0.11.2/README.rst
+* /usr/share/doc/python3-pathspec-0.12.1/LICENSE
+* /usr/share/doc/python3-pathspec-0.12.1/README-dist.rst
+* /usr/share/doc/python3-pathspec-0.12.1/README.rst

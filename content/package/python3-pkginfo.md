@@ -19,12 +19,12 @@ Query metadata from sdists / bdists / installed packages
 
 ### Files: 
 * /usr/bin/pkginfo
-* /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/LICENSE.txt
-* /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/pkginfo-1.9.6.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/pkginfo-1.11.1.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/pkginfo-1.11.1.dist-info/LICENSE.txt
+* /usr/lib/python3.12/site-packages/pkginfo-1.11.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/pkginfo-1.11.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/pkginfo-1.11.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pkginfo-1.11.1.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/pkginfo/bdist.py
 * /usr/lib/python3.12/site-packages/pkginfo/bdist.pyi
 * /usr/lib/python3.12/site-packages/pkginfo/commandline.py
@@ -40,6 +40,7 @@ Query metadata from sdists / bdists / installed packages
 * /usr/lib/python3.12/site-packages/pkginfo/py.typed
 * /usr/lib/python3.12/site-packages/pkginfo/sdist.py
 * /usr/lib/python3.12/site-packages/pkginfo/sdist.pyi
+* /usr/lib/python3.12/site-packages/pkginfo/tests/conftest.py
 * /usr/lib/python3.12/site-packages/pkginfo/tests/test_bdist.py
 * /usr/lib/python3.12/site-packages/pkginfo/tests/test_commandline.py
 * /usr/lib/python3.12/site-packages/pkginfo/tests/test_develop.py
@@ -50,6 +51,8 @@ Query metadata from sdists / bdists / installed packages
 * /usr/lib/python3.12/site-packages/pkginfo/tests/test_utils.py
 * /usr/lib/python3.12/site-packages/pkginfo/tests/test_wheel.py
 * /usr/lib/python3.12/site-packages/pkginfo/tests/__init__.py
+* /usr/lib/python3.12/site-packages/pkginfo/tests/__pycache__/conftest.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/pkginfo/tests/__pycache__/conftest.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pkginfo/tests/__pycache__/test_bdist.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pkginfo/tests/__pycache__/test_bdist.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pkginfo/tests/__pycache__/test_commandline.cpython-312.opt-1.pyc
@@ -96,4 +99,4 @@ Query metadata from sdists / bdists / installed packages
 * /usr/lib/python3.12/site-packages/pkginfo/__pycache__/wheel.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pkginfo/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pkginfo/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pkginfo-1.9.6/README.txt
+* /usr/share/doc/python3-pkginfo-1.11.1/README.txt

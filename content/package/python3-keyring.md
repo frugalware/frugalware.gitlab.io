@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-keyring 24.3.0-1"
-version = "24.3.0-1"
+title = "python3-keyring 25.2.1-1"
+version = "25.2.1-1"
 description = "Store and access your passwords safely"
-date = "2023-12-04T14:47:06"
+date = "2024-06-25T13:11:08"
 aliases = "/packages/221166"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/keyring"
 arch = "x86_64"
-size = "62700"
-usize = "352998"
-sha1sum = "a1c6cd158c6fb3a321b6a87d1cff75b45bcb4c6f"
+size = "63428"
+usize = "355808"
+sha1sum = "6bddda0a6003f74afeb9f718e3c31f0a8eaf03db"
 depends = "['python3-importlib-metadata', 'python3-jaraco.classes', 'python3-secretstorage']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -19,12 +19,12 @@ Store and access your passwords safely
 
 ### Files: 
 * /usr/bin/keyring
-* /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/keyring-24.3.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/keyring-25.2.1.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/keyring-25.2.1.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/keyring-25.2.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/keyring-25.2.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/keyring-25.2.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/keyring-25.2.1.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/keyring/backend.py
 * /usr/lib/python3.12/site-packages/keyring/backends/chainer.py
 * /usr/lib/python3.12/site-packages/keyring/backends/fail.py
@@ -59,6 +59,18 @@ Store and access your passwords safely
 * /usr/lib/python3.12/site-packages/keyring/backend_complete.bash
 * /usr/lib/python3.12/site-packages/keyring/backend_complete.zsh
 * /usr/lib/python3.12/site-packages/keyring/cli.py
+* /usr/lib/python3.12/site-packages/keyring/compat/properties.py
+* /usr/lib/python3.12/site-packages/keyring/compat/py312.py
+* /usr/lib/python3.12/site-packages/keyring/compat/py38.py
+* /usr/lib/python3.12/site-packages/keyring/compat/__init__.py
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/properties.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/properties.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/py312.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/py312.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/py38.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/py38.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/keyring/compat/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/keyring/completion.py
 * /usr/lib/python3.12/site-packages/keyring/core.py
 * /usr/lib/python3.12/site-packages/keyring/credentials.py
@@ -66,7 +78,6 @@ Store and access your passwords safely
 * /usr/lib/python3.12/site-packages/keyring/errors.py
 * /usr/lib/python3.12/site-packages/keyring/http.py
 * /usr/lib/python3.12/site-packages/keyring/py.typed
-* /usr/lib/python3.12/site-packages/keyring/py312compat.py
 * /usr/lib/python3.12/site-packages/keyring/testing/backend.py
 * /usr/lib/python3.12/site-packages/keyring/testing/util.py
 * /usr/lib/python3.12/site-packages/keyring/testing/__init__.py
@@ -82,8 +93,6 @@ Store and access your passwords safely
 * /usr/lib/python3.12/site-packages/keyring/util/__pycache__/platform_.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/keyring/util/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/keyring/util/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/keyring/_compat.py
-* /usr/lib/python3.12/site-packages/keyring/_properties_compat.py
 * /usr/lib/python3.12/site-packages/keyring/__init__.py
 * /usr/lib/python3.12/site-packages/keyring/__main__.py
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/backend.cpython-312.opt-1.pyc
@@ -102,15 +111,9 @@ Store and access your passwords safely
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/errors.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/http.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/http.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/keyring/__pycache__/py312compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/keyring/__pycache__/py312compat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/keyring/__pycache__/_compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/keyring/__pycache__/_compat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/keyring/__pycache__/_properties_compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/keyring/__pycache__/_properties_compat.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/keyring/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-keyring-24.3.0/LICENSE
-* /usr/share/doc/python3-keyring-24.3.0/README.rst
+* /usr/share/doc/python3-keyring-25.2.1/LICENSE
+* /usr/share/doc/python3-keyring-25.2.1/README.rst

@@ -18,14 +18,14 @@ reverse_depends = "['python3-hatchling', 'python3-poetry']"
 Canonical source for classifiers on PyPI (pypi.org)
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/trove_classifiers-2023.11.29-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/trove_classifiers-2023.11.29-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/trove_classifiers-2023.11.29-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/trove_classifiers-2023.11.29-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/trove_classifiers-2024.4.10-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/trove_classifiers-2024.4.10-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/trove_classifiers-2024.4.10-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/trove_classifiers-2024.4.10-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/trove_classifiers/py.typed
 * /usr/lib/python3.12/site-packages/trove_classifiers/__init__.py
 * /usr/lib/python3.12/site-packages/trove_classifiers/__main__.py
 * /usr/lib/python3.12/site-packages/trove_classifiers/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trove_classifiers/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-trove-classifiers-2023.11.29/LICENSE
-* /usr/share/doc/python3-trove-classifiers-2023.11.29/README.md
+* /usr/share/doc/python3-trove-classifiers-2024.4.10/LICENSE
+* /usr/share/doc/python3-trove-classifiers-2024.4.10/README.md

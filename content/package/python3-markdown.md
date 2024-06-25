@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-markdown 3.5.1-1"
-version = "3.5.1-1"
+title = "python3-markdown 3.6-1"
+version = "3.6-1"
 description = "Python implementation of Markdown."
-date = "2023-12-04T14:52:21"
+date = "2024-06-25T12:50:49"
 aliases = "/packages/220142"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/Markdown"
 arch = "x86_64"
-size = "157948"
-usize = "989947"
-sha1sum = "56be6ed191034947d7251e45c290e4eeb172f7b6"
+size = "163180"
+usize = "1023499"
+sha1sum = "d6c2d3860c2395e3ab69cec3452a0481971e559e"
 depends = "['python3-importlib-metadata']"
 reverse_depends = "['gi-docgen', 'meshroom']"
 +++
@@ -19,12 +19,12 @@ Python implementation of Markdown.
 
 ### Files: 
 * /usr/bin/markdown_py
-* /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/LICENSE.md
-* /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/Markdown-3.5.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/Markdown-3.6.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/Markdown-3.6.dist-info/LICENSE.md
+* /usr/lib/python3.12/site-packages/Markdown-3.6.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/Markdown-3.6.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/Markdown-3.6.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/Markdown-3.6.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/markdown/blockparser.py
 * /usr/lib/python3.12/site-packages/markdown/blockprocessors.py
 * /usr/lib/python3.12/site-packages/markdown/core.py
@@ -124,5 +124,5 @@ Python implementation of Markdown.
 * /usr/lib/python3.12/site-packages/markdown/__pycache__/__main__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/markdown/__pycache__/__meta__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/markdown/__pycache__/__meta__.cpython-312.pyc
-* /usr/share/doc/python3-markdown-3.5.1/INSTALL.md
-* /usr/share/doc/python3-markdown-3.5.1/README.md
+* /usr/share/doc/python3-markdown-3.6/INSTALL.md
+* /usr/share/doc/python3-markdown-3.6/README.md

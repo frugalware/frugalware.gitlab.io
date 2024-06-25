@@ -134,10 +134,10 @@ Sphinx extension which outputs 'serialized' HTML files (json and pickle)
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/jsonimpl.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.9.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.9.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.9.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.9.dist-info/WHEEL
-* /usr/share/doc/python3-sphinx-serializinghtml-1.1.9/CHANGES
-* /usr/share/doc/python3-sphinx-serializinghtml-1.1.9/LICENSE
-* /usr/share/doc/python3-sphinx-serializinghtml-1.1.9/README.rst
+* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/WHEEL
+* /usr/share/doc/python3-sphinx-serializinghtml-1.1.10/CHANGES
+* /usr/share/doc/python3-sphinx-serializinghtml-1.1.10/LICENSE
+* /usr/share/doc/python3-sphinx-serializinghtml-1.1.10/README.rst

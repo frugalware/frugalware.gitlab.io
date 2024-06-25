@@ -121,10 +121,10 @@ Sphinx extension which outputs QtHelp document
 * /usr/lib/python3.12/site-packages/sphinxcontrib/qthelp/__init__.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/qthelp/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/qthelp/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.6.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.6.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.6.dist-info/WHEEL
-* /usr/share/doc/python3-sphinx-qthelp-1.0.6/CHANGES
-* /usr/share/doc/python3-sphinx-qthelp-1.0.6/LICENSE
-* /usr/share/doc/python3-sphinx-qthelp-1.0.6/README.rst
+* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.7.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.7.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.7.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sphinxcontrib_qthelp-1.0.7.dist-info/WHEEL
+* /usr/share/doc/python3-sphinx-qthelp-1.0.7/CHANGES
+* /usr/share/doc/python3-sphinx-qthelp-1.0.7/LICENSE
+* /usr/share/doc/python3-sphinx-qthelp-1.0.7/README.rst

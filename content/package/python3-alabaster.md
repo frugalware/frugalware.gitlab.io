@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-alabaster 0.7.13-2"
-version = "0.7.13-2"
+title = "python3-alabaster 0.7.16-1"
+version = "0.7.16-1"
 description = "Python Sphinx Read The Docs Theme"
-date = "2023-10-05T10:35:33"
+date = "2024-06-25T12:57:22"
 aliases = "/packages/220103"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/alabaster"
 arch = "x86_64"
-size = "14496"
-usize = "43043"
-sha1sum = "fd4e84996f7ad4bb1548eb80a2b1fdf08a9c6263"
+size = "15268"
+usize = "49797"
+sha1sum = "25c93c80bb8c2c7268354981e873c4af5e930bef"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-sphinx']"
 Python Sphinx Read The Docs Theme
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/alabaster-0.7.13-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/alabaster-0.7.16.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/alabaster-0.7.16.dist-info/LICENSE.rst
+* /usr/lib/python3.12/site-packages/alabaster-0.7.16.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/alabaster-0.7.16.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/alabaster-0.7.16.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/alabaster/about.html
 * /usr/lib/python3.12/site-packages/alabaster/donate.html
 * /usr/lib/python3.12/site-packages/alabaster/layout.html
@@ -32,10 +32,9 @@ Python Sphinx Read The Docs Theme
 * /usr/lib/python3.12/site-packages/alabaster/static/custom.css
 * /usr/lib/python3.12/site-packages/alabaster/support.py
 * /usr/lib/python3.12/site-packages/alabaster/theme.conf
-* /usr/lib/python3.12/site-packages/alabaster/_version.py
 * /usr/lib/python3.12/site-packages/alabaster/__init__.py
+* /usr/lib/python3.12/site-packages/alabaster/__pycache__/support.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/alabaster/__pycache__/support.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/alabaster/__pycache__/_version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/alabaster/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/alabaster/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-alabaster-0.7.13/LICENSE
-* /usr/share/doc/python3-alabaster-0.7.13/README.rst
+* /usr/share/doc/python3-alabaster-0.7.16/README.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-hatchling 1.18.0-2"
-version = "1.18.0-2"
+title = "python3-hatchling 1.25.0-1"
+version = "1.25.0-1"
 description = "A modern project, package, and virtual env manager (backend)"
-date = "2023-10-05T12:25:53"
+date = "2024-06-25T13:00:23"
 aliases = "/packages/220602"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/hatchling"
 arch = "x86_64"
-size = "139868"
-usize = "1010353"
-sha1sum = "5fac461abb8068ba7838a589f118287618f7bd26"
+size = "156316"
+usize = "1109630"
+sha1sum = "69802e2e1ccc384a495fd281543c83660ec594e3"
 depends = "['python3-editables', 'python3-packaging', 'python3-pathspec', 'python3-pluggy', 'python3-tomli', 'python3-trove-classifiers']"
 reverse_depends = "['python3-hatch-fancy-pypi-readme', 'python3-hatch-vcs']"
 +++
@@ -19,11 +19,11 @@ A modern project, package, and virtual env manager (backend)
 
 ### Files: 
 * /usr/bin/hatchling
-* /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/licenses/LICENSE.txt
-* /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/hatchling-1.18.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/hatchling-1.25.0.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/hatchling-1.25.0.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.12/site-packages/hatchling-1.25.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/hatchling-1.25.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/hatchling-1.25.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/hatchling/bridge/app.py
 * /usr/lib/python3.12/site-packages/hatchling/bridge/__init__.py
 * /usr/lib/python3.12/site-packages/hatchling/bridge/__pycache__/app.cpython-312.opt-1.pyc
@@ -32,6 +32,7 @@ A modern project, package, and virtual env manager (backend)
 * /usr/lib/python3.12/site-packages/hatchling/bridge/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/build.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/app.py
+* /usr/lib/python3.12/site-packages/hatchling/builders/binary.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/config.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/constants.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/custom.py
@@ -53,6 +54,7 @@ A modern project, package, and virtual env manager (backend)
 * /usr/lib/python3.12/site-packages/hatchling/builders/hooks/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/hooks/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/hooks/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/hatchling/builders/macos.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/plugin/hooks.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/plugin/interface.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/plugin/__init__.py
@@ -68,12 +70,16 @@ A modern project, package, and virtual env manager (backend)
 * /usr/lib/python3.12/site-packages/hatchling/builders/__init__.py
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/app.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/app.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/binary.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/binary.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/config.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/config.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/constants.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/constants.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/custom.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/custom.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/macos.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/macos.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/sdist.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/sdist.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/builders/__pycache__/utils.cpython-312.opt-1.pyc
@@ -220,4 +226,4 @@ A modern project, package, and virtual env manager (backend)
 * /usr/lib/python3.12/site-packages/hatchling/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatchling/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatchling/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-hatchling-1.18.0/README.md
+* /usr/share/doc/python3-hatchling-1.25.0/README.md

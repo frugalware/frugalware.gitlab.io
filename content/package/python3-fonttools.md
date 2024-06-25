@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-fonttools 4.46.0-1"
-version = "4.46.0-1"
+title = "python3-fonttools 4.53.0-1"
+version = "4.53.0-1"
 description = "Library to manipulate font files from Python"
-date = "2023-12-04T14:27:45"
+date = "2024-06-25T12:37:20"
 aliases = "/packages/220028"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/fonttools"
 arch = "x86_64"
-size = "1884328"
-usize = "8817560"
-sha1sum = "c492153e9aeb5e6cd9e364a242061b95cea84ff2"
+size = "1933460"
+usize = "9065945"
+sha1sum = "094fdf680307eb8fe138be07ad6e8b92f1f72e5e"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
@@ -21,18 +21,24 @@ Library to manipulate font files from Python
 * /usr/bin/pyftmerge
 * /usr/bin/pyftsubset
 * /usr/bin/ttx
-* /usr/lib/python3.12/site-packages/fonttools-4.46.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.46.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.46.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/fonttools-4.46.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.46.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.46.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/fontTools/afmLib.py
 * /usr/lib/python3.12/site-packages/fontTools/agl.py
+* /usr/lib/python3.12/site-packages/fontTools/cffLib/CFF2ToCFF.py
+* /usr/lib/python3.12/site-packages/fontTools/cffLib/CFFToCFF2.py
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/specializer.py
+* /usr/lib/python3.12/site-packages/fontTools/cffLib/transforms.py
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/width.py
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/__init__.py
+* /usr/lib/python3.12/site-packages/fontTools/cffLib/__pycache__/CFF2ToCFF.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/cffLib/__pycache__/CFFToCFF2.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/__pycache__/specializer.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/cffLib/__pycache__/transforms.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/__pycache__/width.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/colorLib/builder.py
@@ -67,10 +73,12 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/statNames.py
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/types.py
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__init__.py
+* /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__main__.py
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__pycache__/split.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__pycache__/statNames.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__pycache__/types.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/designspaceLib/__pycache__/__main__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/encodings/codecs.py
 * /usr/lib/python3.12/site-packages/fontTools/encodings/MacRoman.py
 * /usr/lib/python3.12/site-packages/fontTools/encodings/StandardEncoding.py
@@ -132,6 +140,8 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/misc/filenames.py
 * /usr/lib/python3.12/site-packages/fontTools/misc/fixedTools.py
 * /usr/lib/python3.12/site-packages/fontTools/misc/intTools.py
+* /usr/lib/python3.12/site-packages/fontTools/misc/iterTools.py
+* /usr/lib/python3.12/site-packages/fontTools/misc/lazyTools.py
 * /usr/lib/python3.12/site-packages/fontTools/misc/loggingTools.py
 * /usr/lib/python3.12/site-packages/fontTools/misc/macCreatorType.py
 * /usr/lib/python3.12/site-packages/fontTools/misc/macRes.py
@@ -168,6 +178,8 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/filenames.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/fixedTools.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/intTools.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/iterTools.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/lazyTools.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/loggingTools.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/macCreatorType.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/misc/__pycache__/macRes.cpython-312.pyc
@@ -299,6 +311,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/tfmLib.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/macUtils.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/removeOverlaps.py
+* /usr/lib/python3.12/site-packages/fontTools/ttLib/reorderGlyphs.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/scaleUpem.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/standardGlyphOrder.py
@@ -361,6 +374,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/T_S_I__3.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/T_S_I__5.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/T_T_F_A_.py
+* /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/V_A_R_C_.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/V_D_M_X_.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/V_O_R_G_.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/V_V_A_R_.py
@@ -458,6 +472,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/T_S_I__3.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/T_S_I__5.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/T_T_F_A_.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/V_A_R_C_.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/V_D_M_X_.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/V_O_R_G_.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/tables/__pycache__/V_V_A_R_.cpython-312.pyc
@@ -506,6 +521,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/__main__.py
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/__pycache__/macUtils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/__pycache__/removeOverlaps.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/ttLib/__pycache__/reorderGlyphs.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/__pycache__/scaleUpem.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/__pycache__/sfnt.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/ttLib/__pycache__/standardGlyphOrder.cpython-312.pyc
@@ -575,6 +591,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/varLib/iup.py
 * /usr/lib/python3.12/site-packages/fontTools/varLib/merger.py
 * /usr/lib/python3.12/site-packages/fontTools/varLib/models.py
+* /usr/lib/python3.12/site-packages/fontTools/varLib/multiVarStore.py
 * /usr/lib/python3.12/site-packages/fontTools/varLib/mutator.py
 * /usr/lib/python3.12/site-packages/fontTools/varLib/mvar.py
 * /usr/lib/python3.12/site-packages/fontTools/varLib/plot.py
@@ -597,6 +614,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/iup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/merger.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/models.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/multiVarStore.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/mutator.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/mvar.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/varLib/__pycache__/plot.cpython-312.pyc
@@ -627,6 +645,6 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/__pycache__/unicode.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-fonttools-4.46.0/LICENSE
-* /usr/share/doc/python3-fonttools-4.46.0/README.rst
+* /usr/share/doc/python3-fonttools-4.53.0/LICENSE
+* /usr/share/doc/python3-fonttools-4.53.0/README.rst
 * /usr/share/man/man1/ttx.1.gz

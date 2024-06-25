@@ -17,11 +17,11 @@ depends = "['python3-async-timeout']"
 The Python interface to the Redis key-value store
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/redis-5.0.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/redis-5.1.0b7.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/redis-5.1.0b7.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/redis-5.1.0b7.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/redis-5.1.0b7.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/redis-5.1.0b7.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/redis/asyncio/client.py
 * /usr/lib/python3.12/site-packages/redis/asyncio/cluster.py
 * /usr/lib/python3.12/site-packages/redis/asyncio/connection.py
@@ -163,7 +163,6 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.12/site-packages/redis/commands/__pycache__/sentinel.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/redis/commands/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/redis/commands/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/redis/compat.py
 * /usr/lib/python3.12/site-packages/redis/connection.py
 * /usr/lib/python3.12/site-packages/redis/crc.py
 * /usr/lib/python3.12/site-packages/redis/credentials.py
@@ -174,6 +173,7 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.12/site-packages/redis/sentinel.py
 * /usr/lib/python3.12/site-packages/redis/typing.py
 * /usr/lib/python3.12/site-packages/redis/utils.py
+* /usr/lib/python3.12/site-packages/redis/_cache.py
 * /usr/lib/python3.12/site-packages/redis/_parsers/base.py
 * /usr/lib/python3.12/site-packages/redis/_parsers/commands.py
 * /usr/lib/python3.12/site-packages/redis/_parsers/encoders.py
@@ -208,8 +208,6 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.12/site-packages/redis/__pycache__/client.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/cluster.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/cluster.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/redis/__pycache__/compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/redis/__pycache__/compat.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/connection.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/connection.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/crc.cpython-312.opt-1.pyc
@@ -230,8 +228,10 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.12/site-packages/redis/__pycache__/typing.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/utils.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/utils.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/redis/__pycache__/_cache.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/redis/__pycache__/_cache.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/redis/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-redis-5.0.1/INSTALL
-* /usr/share/doc/python3-redis-5.0.1/LICENSE
-* /usr/share/doc/python3-redis-5.0.1/README.md
+* /usr/share/doc/python3-redis-5.1.0b7/INSTALL
+* /usr/share/doc/python3-redis-5.1.0b7/LICENSE
+* /usr/share/doc/python3-redis-5.1.0b7/README.md

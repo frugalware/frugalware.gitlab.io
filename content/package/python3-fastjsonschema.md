@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-fastjsonschema 2.19.0-1"
-version = "2.19.0-1"
+title = "python3-fastjsonschema 2.20.0-1"
+version = "2.20.0-1"
 description = "Fast JSON schema validator for Python"
-date = "2023-12-04T14:26:19"
+date = "2024-06-25T12:29:55"
 aliases = "/packages/221175"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/fastjsonschema"
 arch = "x86_64"
-size = "41316"
-usize = "276524"
-sha1sum = "05e021418e34b2bd4ce7f1ed153f0c9835e9d7d0"
+size = "42264"
+usize = "280497"
+sha1sum = "694dc5c2e9af7c63d3821a79b63e675a45cd9017"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -18,11 +18,12 @@ reverse_depends = "['python3-poetry']"
 Fast JSON schema validator for Python
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/fastjsonschema-2.19.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.20.0.dist-info/AUTHORS
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.20.0.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.20.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.20.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.20.0.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/fastjsonschema-2.20.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/fastjsonschema/draft04.py
 * /usr/lib/python3.12/site-packages/fastjsonschema/draft06.py
 * /usr/lib/python3.12/site-packages/fastjsonschema/draft07.py
@@ -53,5 +54,6 @@ Fast JSON schema validator for Python
 * /usr/lib/python3.12/site-packages/fastjsonschema/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fastjsonschema/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/fastjsonschema/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-fastjsonschema-2.19.0/LICENSE
-* /usr/share/doc/python3-fastjsonschema-2.19.0/README.rst
+* /usr/share/doc/python3-fastjsonschema-2.20.0/AUTHORS
+* /usr/share/doc/python3-fastjsonschema-2.20.0/LICENSE
+* /usr/share/doc/python3-fastjsonschema-2.20.0/README.rst

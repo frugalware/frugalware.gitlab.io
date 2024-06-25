@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-mako 1.3.0-1"
-version = "1.3.0-1"
+title = "python3-mako 1.3.5-1"
+version = "1.3.5-1"
 description = "Mako is a template library written in Python."
-date = "2023-12-04T14:49:21"
+date = "2024-06-25T12:40:31"
 aliases = "/packages/219849"
 categories = ['devel-extra']
 upstreamurl = "http://www.makotemplates.org"
 arch = "x86_64"
-size = "152728"
-usize = "638354"
-sha1sum = "e730ec4889f91c27c1aadee00d993ae3fd5995e1"
+size = "153628"
+usize = "642393"
+sha1sum = "c0a1b280cb539b2b25f21973fb253189e3e2673f"
 depends = "['python3-markupsafe', 'python3-pygments']"
 +++
 ### Description: 
@@ -18,13 +18,13 @@ Mako is a template library written in Python.
 
 ### Files: 
 * /usr/bin/mako-render
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/Mako-1.3.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/Mako-1.3.5-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/mako/ast.py
 * /usr/lib/python3.12/site-packages/mako/cache.py
 * /usr/lib/python3.12/site-packages/mako/cmd.py
@@ -91,7 +91,7 @@ Mako is a template library written in Python.
 * /usr/lib/python3.12/site-packages/mako/__pycache__/util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mako/__pycache__/_ast_util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mako/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-mako-1.3.0/AUTHORS
-* /usr/share/doc/python3-mako-1.3.0/CHANGES
-* /usr/share/doc/python3-mako-1.3.0/LICENSE
-* /usr/share/doc/python3-mako-1.3.0/README.rst
+* /usr/share/doc/python3-mako-1.3.5/AUTHORS
+* /usr/share/doc/python3-mako-1.3.5/CHANGES
+* /usr/share/doc/python3-mako-1.3.5/LICENSE
+* /usr/share/doc/python3-mako-1.3.5/README.rst

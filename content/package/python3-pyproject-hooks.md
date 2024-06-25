@@ -18,11 +18,10 @@ reverse_depends = "['python3-build', 'python3-poetry']"
 A low-level library for calling build-backends in pyproject.toml-based project
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/pyproject_hooks-1.0.0.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/pyproject_hooks/_compat.py
+* /usr/lib/python3.12/site-packages/pyproject_hooks-1.1.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/pyproject_hooks-1.1.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/pyproject_hooks-1.1.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/pyproject_hooks/py.typed
 * /usr/lib/python3.12/site-packages/pyproject_hooks/_impl.py
 * /usr/lib/python3.12/site-packages/pyproject_hooks/_in_process/_in_process.py
 * /usr/lib/python3.12/site-packages/pyproject_hooks/_in_process/__init__.py
@@ -31,11 +30,8 @@ A low-level library for calling build-backends in pyproject.toml-based project
 * /usr/lib/python3.12/site-packages/pyproject_hooks/_in_process/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyproject_hooks/_in_process/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyproject_hooks/__init__.py
-* /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/_compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/_compat.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/_impl.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/_impl.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyproject_hooks/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pyproject-hooks-1.0.0/LICENSE
-* /usr/share/doc/python3-pyproject-hooks-1.0.0/README.rst
+* /usr/share/doc/python3-pyproject-hooks-1.1.0/README.rst

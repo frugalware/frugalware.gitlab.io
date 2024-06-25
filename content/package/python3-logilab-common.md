@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-logilab-common 1.11.0-1"
-version = "1.11.0-1"
+title = "python3-logilab-common 2.0.0-1"
+version = "2.0.0-1"
 description = "Providing low level functionalities needed for logilab python programs."
-date = "2023-12-04T14:48:37"
+date = "2024-06-25T12:30:49"
 aliases = "/packages/220538"
 categories = ['devel-extra']
 upstreamurl = "https://www.logilab.org/project/logilab-common"
 arch = "x86_64"
-size = "303212"
-usize = "1210190"
-sha1sum = "a2d8b76d03de8169245efd19f9ef6251ae73a993"
+size = "266744"
+usize = "1059022"
+sha1sum = "f9de3697135b6096b3b0d0aaa0d0ac58d060d4e1"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
@@ -34,10 +34,8 @@ Providing low level functionalities needed for logilab python programs.
 * /usr/lib/python3.12/site-packages/logilab/common/logging_ext.py
 * /usr/lib/python3.12/site-packages/logilab/common/modutils.py
 * /usr/lib/python3.12/site-packages/logilab/common/optik_ext.py
-* /usr/lib/python3.12/site-packages/logilab/common/optparser.py
 * /usr/lib/python3.12/site-packages/logilab/common/proc.py
 * /usr/lib/python3.12/site-packages/logilab/common/py.typed
-* /usr/lib/python3.12/site-packages/logilab/common/pytest.py
 * /usr/lib/python3.12/site-packages/logilab/common/registry.py
 * /usr/lib/python3.12/site-packages/logilab/common/shellutils.py
 * /usr/lib/python3.12/site-packages/logilab/common/sphinxutils.py
@@ -80,9 +78,7 @@ Providing low level functionalities needed for logilab python programs.
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/logging_ext.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/modutils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/optik_ext.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/logilab/common/__pycache__/optparser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/proc.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/logilab/common/__pycache__/pytest.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/registry.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/shellutils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/sphinxutils.cpython-312.pyc
@@ -99,14 +95,14 @@ Providing low level functionalities needed for logilab python programs.
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/visitor.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/xmlutils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/logilab/common/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12-nspkg.pth
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12.egg-info/namespace_packages.txt
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/logilab_common-1.11.0-py3.12.egg-info/top_level.txt
-* /usr/share/doc/python3-logilab-common-1.11.0/ChangeLog
-* /usr/share/doc/python3-logilab-common-1.11.0/COPYING
-* /usr/share/doc/python3-logilab-common-1.11.0/COPYING.LESSER
-* /usr/share/doc/python3-logilab-common-1.11.0/README.rst
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12-nspkg.pth
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12.egg-info/namespace_packages.txt
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/logilab_common-2.0.0-py3.12.egg-info/top_level.txt
+* /usr/share/doc/python3-logilab-common-2.0.0/ChangeLog
+* /usr/share/doc/python3-logilab-common-2.0.0/COPYING
+* /usr/share/doc/python3-logilab-common-2.0.0/COPYING.LESSER
+* /usr/share/doc/python3-logilab-common-2.0.0/README.rst

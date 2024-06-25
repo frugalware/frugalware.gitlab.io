@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-hatch-fancy-pypi-readme 23.1.0-1"
-version = "23.1.0-1"
+title = "python3-hatch-fancy-pypi-readme 24.1.0-1"
+version = "24.1.0-1"
 description = "Fancy PyPI READMEs with Hatch"
-date = "2023-10-05T17:32:35"
+date = "2024-06-25T13:13:12"
 aliases = "/packages/220604"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/hynek/hatch-fancy-pypi-readme"
 arch = "x86_64"
-size = "18480"
-usize = "69789"
-sha1sum = "670aad73110fca4761ac43bcd2e6ba69cddc7f7e"
+size = "19020"
+usize = "71893"
+sha1sum = "fb2c4fd880de21005f608c11ba7124ead611d25c"
 depends = "['python3-hatchling']"
 +++
 ### Description: 
@@ -18,12 +18,12 @@ Fancy PyPI READMEs with Hatch
 
 ### Files: 
 * /usr/bin/hatch-fancy-pypi-readme
-* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/licenses/AUTHORS.md
-* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/licenses/LICENSE.txt
-* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-23.1.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-24.1.0.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-24.1.0.dist-info/licenses/AUTHORS.md
+* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-24.1.0.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-24.1.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-24.1.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme-24.1.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme/exceptions.py
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme/hooks.py
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme/py.typed
@@ -52,4 +52,4 @@ Fancy PyPI READMEs with Hatch
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/hatch_fancy_pypi_readme/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-hatch-fancy-pypi-readme-23.1.0/README.md
+* /usr/share/doc/python3-hatch-fancy-pypi-readme-24.1.0/README.md

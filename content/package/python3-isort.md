@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-isort 5.12.0-2"
-version = "5.12.0-2"
+title = "python3-isort 6.0.0b2-1"
+version = "6.0.0b2-1"
 description = "A Python3 utility / library to sort Python3 imports"
-date = "2023-10-11T17:15:57"
+date = "2024-06-25T12:38:45"
 aliases = "/packages/219608"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/isort"
 arch = "x86_64"
-size = "172332"
-usize = "1041079"
-sha1sum = "91e104de6e2ac9611a1928d4995093fcbae75307"
+size = "193880"
+usize = "1157851"
+sha1sum = "b1fa82e782e2637d3e7b6ee00ca241b6b9697298"
 depends = "['python3>=3.11']"
 reverse_depends = "['pylint']"
 +++
@@ -20,12 +20,12 @@ A Python3 utility / library to sort Python3 imports
 ### Files: 
 * /usr/bin/isort-identify-imports
 * /usr/bin/isort3
-* /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/isort-5.12.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/isort-6.0.0b2-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/isort-6.0.0b2-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/isort-6.0.0b2-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/isort-6.0.0b2-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/isort-6.0.0b2-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/isort-6.0.0b2-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/isort/api.py
 * /usr/lib/python3.12/site-packages/isort/comments.py
 * /usr/lib/python3.12/site-packages/isort/core.py
@@ -60,6 +60,7 @@ A Python3 utility / library to sort Python3 imports
 * /usr/lib/python3.12/site-packages/isort/stdlibs/py3.py
 * /usr/lib/python3.12/site-packages/isort/stdlibs/py310.py
 * /usr/lib/python3.12/site-packages/isort/stdlibs/py311.py
+* /usr/lib/python3.12/site-packages/isort/stdlibs/py35.py
 * /usr/lib/python3.12/site-packages/isort/stdlibs/py36.py
 * /usr/lib/python3.12/site-packages/isort/stdlibs/py37.py
 * /usr/lib/python3.12/site-packages/isort/stdlibs/py38.py
@@ -77,6 +78,8 @@ A Python3 utility / library to sort Python3 imports
 * /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py310.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py311.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py311.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py35.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py35.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py36.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py36.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/isort/stdlibs/__pycache__/py37.cpython-312.opt-1.pyc
@@ -90,6 +93,12 @@ A Python3 utility / library to sort Python3 imports
 * /usr/lib/python3.12/site-packages/isort/utils.py
 * /usr/lib/python3.12/site-packages/isort/wrap.py
 * /usr/lib/python3.12/site-packages/isort/wrap_modes.py
+* /usr/lib/python3.12/site-packages/isort/_future/_dataclasses.py
+* /usr/lib/python3.12/site-packages/isort/_future/__init__.py
+* /usr/lib/python3.12/site-packages/isort/_future/__pycache__/_dataclasses.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/isort/_future/__pycache__/_dataclasses.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/isort/_future/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/isort/_future/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/isort/_vendored/tomli/LICENSE
 * /usr/lib/python3.12/site-packages/isort/_vendored/tomli/py.typed
 * /usr/lib/python3.12/site-packages/isort/_vendored/tomli/_parser.py
@@ -158,5 +167,5 @@ A Python3 utility / library to sort Python3 imports
 * /usr/lib/python3.12/site-packages/isort/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/isort/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/isort/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-isort-5.12.0/LICENSE
-* /usr/share/doc/python3-isort-5.12.0/README.md
+* /usr/share/doc/python3-isort-6.0.0b2/LICENSE
+* /usr/share/doc/python3-isort-6.0.0b2/README.md

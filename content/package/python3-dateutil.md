@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dateutil 2.8.2-5"
-version = "2.8.2-5"
+title = "python3-dateutil 2.9.0-1"
+version = "2.9.0-1"
 description = "Provides powerful extensions to the standard datetime module."
-date = "2023-10-06T21:15:39"
+date = "2024-06-25T13:08:24"
 aliases = "/packages/220267"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/dateutil/dateutil"
 arch = "x86_64"
-size = "320516"
-usize = "809267"
-sha1sum = "7fc47027239140ff693103454edda2adbfea9c00"
+size = "304408"
+usize = "793620"
+sha1sum = "cd795ad2aae6be99b675d86eccbd6b275ce9bfc3"
 depends = "['python3-six']"
 reverse_depends = "['python3-suntime', 'syncthing-gtk', 'yokadi']"
 +++
@@ -55,12 +55,12 @@ Provides powerful extensions to the standard datetime module.
 * /usr/lib/python3.12/site-packages/dateutil/__pycache__/_common.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dateutil/__pycache__/_version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dateutil/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/python_dateutil-2.8.2-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/python_dateutil-2.8.2-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/python_dateutil-2.8.2-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/python_dateutil-2.8.2-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/python_dateutil-2.8.2-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/python_dateutil-2.8.2-py3.12.egg-info/zip-safe
-* /usr/share/doc/python3-dateutil-2.8.2/LICENSE
-* /usr/share/doc/python3-dateutil-2.8.2/NEWS
-* /usr/share/doc/python3-dateutil-2.8.2/README.rst
+* /usr/lib/python3.12/site-packages/python_dateutil-2.9.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/python_dateutil-2.9.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/python_dateutil-2.9.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/python_dateutil-2.9.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/python_dateutil-2.9.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/python_dateutil-2.9.0-py3.12.egg-info/zip-safe
+* /usr/share/doc/python3-dateutil-2.9.0/LICENSE
+* /usr/share/doc/python3-dateutil-2.9.0/NEWS
+* /usr/share/doc/python3-dateutil-2.9.0/README.rst

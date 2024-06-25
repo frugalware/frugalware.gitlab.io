@@ -134,10 +134,10 @@ Sphinx extension which renders HTML help files
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/__init__.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/htmlhelp/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.4.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.4.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.4.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.4.dist-info/WHEEL
-* /usr/share/doc/python3-sphinx-htmlhelp-2.0.4/CHANGES
-* /usr/share/doc/python3-sphinx-htmlhelp-2.0.4/LICENSE
-* /usr/share/doc/python3-sphinx-htmlhelp-2.0.4/README.rst
+* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.5.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.5.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.5.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sphinxcontrib_htmlhelp-2.0.5.dist-info/WHEEL
+* /usr/share/doc/python3-sphinx-htmlhelp-2.0.5/CHANGES
+* /usr/share/doc/python3-sphinx-htmlhelp-2.0.5/LICENSE
+* /usr/share/doc/python3-sphinx-htmlhelp-2.0.5/README.rst

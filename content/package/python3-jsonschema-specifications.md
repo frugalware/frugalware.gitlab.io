@@ -12,6 +12,7 @@ size = "10272"
 usize = "57450"
 sha1sum = "20924196df4497ef8f52f7f20b6fb2bf230c84c8"
 depends = "[]"
+reverse_depends = "['python3-jsonschema']"
 +++
 ### Description: 
 The JSON Schema meta-schemas and vocabularies, exposed as a Registry

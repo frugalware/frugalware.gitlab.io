@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sphinx-automodapi 0.16.0-1"
-version = "0.16.0-1"
+title = "python3-sphinx-automodapi 0.17.0-1"
+version = "0.17.0-1"
 description = "Sphinx extension for auto-generating API documentation for entire modules"
-date = "2023-10-05T14:13:02"
+date = "2024-06-25T13:14:07"
 aliases = "/packages/220545"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinx-automodapi"
 arch = "x86_64"
-size = "60320"
-usize = "247893"
-sha1sum = "eed849f68952512fa5c3708d68b4e96fd4f28d76"
+size = "62804"
+usize = "260670"
+sha1sum = "2d51ad5d45c20fe4b77a86c06f2c6b5717462a9d"
 depends = "['python3>=3.12']"
 +++
 ### Description: 
@@ -120,10 +120,17 @@ Sphinx extension for auto-generating API documentation for entire modules
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/input/index.rst
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.add.rst
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst
-* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.nonascii.NonAscii.rst
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.nonascii.NonAscii\303\204\303\266\303\274\303\237\305\221.rst
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodapi
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodsumm
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/non_ascii/README.md
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/input/index.rst
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedParam.rst
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedSlotParam.rst
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.SlotDict.rst
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/output/index.rst.automodapi
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/output/index.rst.automodsumm
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/slots/README.md
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/source_dir/input/src/index.rst
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.add.rst
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.multiply.rst
@@ -156,6 +163,7 @@ Sphinx extension for auto-generating API documentation for entire modules
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/noall.py
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/nonascii.py
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/other_classes.py
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/slots.py
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/stdlib.py
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/variables.py
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__init__.py
@@ -167,6 +175,7 @@ Sphinx extension for auto-generating API documentation for entire modules
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/noall.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/nonascii.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/other_classes.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/slots.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/stdlib.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/variables.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/tests/example_module/__pycache__/__init__.cpython-312.pyc
@@ -194,4 +203,4 @@ Sphinx extension for auto-generating API documentation for entire modules
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx_automodapi/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-sphinx-automodapi-0.16.0/README.rst
+* /usr/share/doc/python3-sphinx-automodapi-0.17.0/README.rst
