@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sphinx 7.2.6-1"
-version = "7.2.6-1"
+title = "python3-sphinx 7.3.7-1"
+version = "7.3.7-1"
 description = "Python documentation generator"
-date = "2023-10-05T10:24:07"
+date = "2024-06-25T12:07:44"
 aliases = "/packages/219852"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/Sphinx"
 arch = "x86_64"
-size = "2140552"
-usize = "19159872"
-sha1sum = "60b5d844377b872581d8e7cb5ba7679dfb354dd9"
+size = "2115608"
+usize = "19496545"
+sha1sum = "10fe7e0c5d9838ba88d08506e30411deec685206"
 depends = "['docutils', 'python3>=3.10', 'python3-alabaster', 'python3-babel', 'python3-imagesize', 'python3-jinja', 'python3-pygments', 'python3-requests', 'python3-setuptools', 'python3-snowballstemmer', 'python3-sphinx-applehelp', 'python3-sphinx-devhelp', 'python3-sphinx-htmlhelp', 'python3-sphinx-jsmath', 'python3-sphinx-qthelp', 'python3-sphinx-serializinghtml']"
 reverse_depends = "['python3-breathe', 'python3-hawkmoth', 'sphinx-httpdomain', 'sphinx-jquery', 'sphinx-websupport']"
 +++
@@ -22,11 +22,11 @@ Python documentation generator
 * /usr/bin/sphinx-autogen
 * /usr/bin/sphinx-build
 * /usr/bin/sphinx-quickstart
-* /usr/lib/python3.12/site-packages/sphinx-7.2.6.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/sphinx-7.2.6.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinx-7.2.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinx-7.2.6.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinx-7.2.6.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/sphinx-7.3.7.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/sphinx-7.3.7.dist-info/LICENSE.rst
+* /usr/lib/python3.12/site-packages/sphinx-7.3.7.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sphinx-7.3.7.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sphinx-7.3.7.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/sphinx/addnodes.py
 * /usr/lib/python3.12/site-packages/sphinx/application.py
 * /usr/lib/python3.12/site-packages/sphinx/builders/changes.py
@@ -121,37 +121,67 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/directives/__pycache__/patches.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/directives/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/directives/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/c.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/_ast.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/_ids.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/_parser.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/_symbol.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__init__.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_ast.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_ast.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_ids.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_ids.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_parser.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_parser.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_symbol.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/_symbol.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/c/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/changeset.py
 * /usr/lib/python3.12/site-packages/sphinx/domains/citation.py
-* /usr/lib/python3.12/site-packages/sphinx/domains/cpp.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/_ast.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/_ids.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/_parser.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/_symbol.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__init__.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_ast.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_ast.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_ids.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_ids.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_parser.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_parser.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_symbol.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/_symbol.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/cpp/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/index.py
 * /usr/lib/python3.12/site-packages/sphinx/domains/javascript.py
 * /usr/lib/python3.12/site-packages/sphinx/domains/math.py
-* /usr/lib/python3.12/site-packages/sphinx/domains/python.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/_annotations.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/_object.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__init__.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__pycache__/_annotations.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__pycache__/_annotations.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__pycache__/_object.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__pycache__/_object.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/python/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/rst.py
-* /usr/lib/python3.12/site-packages/sphinx/domains/std.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/std/__init__.py
+* /usr/lib/python3.12/site-packages/sphinx/domains/std/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/domains/std/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__init__.py
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/c.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/c.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/changeset.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/changeset.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/citation.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/citation.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/cpp.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/cpp.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/index.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/index.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/javascript.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/javascript.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/math.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/math.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/python.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/python.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/rst.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/rst.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/std.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/std.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/domains/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/environment/adapters/asset.py
@@ -662,12 +692,13 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/texinputs/sphinxpackageboxes.sty
 * /usr/lib/python3.12/site-packages/sphinx/texinputs/sphinxpackagecyrillic.sty
 * /usr/lib/python3.12/site-packages/sphinx/texinputs/sphinxpackagefootnote.sty
+* /usr/lib/python3.12/site-packages/sphinx/texinputs/sphinxpackagesubstitutefont.sty
 * /usr/lib/python3.12/site-packages/sphinx/texinputs_win/Makefile_t
 * /usr/lib/python3.12/site-packages/sphinx/themes/agogo/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/agogo/static/agogo.css_t
 * /usr/lib/python3.12/site-packages/sphinx/themes/agogo/static/bgfooter.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/agogo/static/bgtop.png
-* /usr/lib/python3.12/site-packages/sphinx/themes/agogo/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/agogo/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/basic/changes/frameset.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/basic/changes/rstsource.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/basic/changes/versionchanges.html
@@ -695,36 +726,36 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/themes/basic/static/plus.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/basic/static/searchtools.js
 * /usr/lib/python3.12/site-packages/sphinx/themes/basic/static/sphinx_highlight.js
-* /usr/lib/python3.12/site-packages/sphinx/themes/basic/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/basic/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/static/background_b01.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/static/bizstyle.css_t
 * /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/static/bizstyle.js_t
 * /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/static/css3-mediaqueries.js
 * /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/static/css3-mediaqueries_src.js
-* /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/bizstyle/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/classic/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/classic/static/classic.css_t
 * /usr/lib/python3.12/site-packages/sphinx/themes/classic/static/sidebar.js_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/classic/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/classic/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/default/static/default.css
-* /usr/lib/python3.12/site-packages/sphinx/themes/default/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/default/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/epub/epub-cover.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/epub/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/epub/static/epub.css_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/epub/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/epub/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/haiku/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/haiku/static/alert_info_32.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/haiku/static/alert_warning_32.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/haiku/static/bg-page.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/haiku/static/bullet_orange.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/haiku/static/haiku.css_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/haiku/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/haiku/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/nature/static/nature.css_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/nature/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/nature/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/nonav/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/nonav/static/nonav.css_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/nonav/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/nonav/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/static/dialog-note.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/static/dialog-seealso.png
@@ -738,7 +769,7 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/static/middlebg.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/static/pyramid.css_t
 * /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/static/transparent.gif
-* /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/pyramid/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/artwork/logo.svg
 * /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/layout.html
 * /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/static/darkmetal.png
@@ -751,13 +782,13 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/static/theme_extras.js
 * /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/static/watermark.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/static/watermark_blur.png
-* /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/scrolls/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/sphinxdoc/static/contents.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/sphinxdoc/static/navigation.png
 * /usr/lib/python3.12/site-packages/sphinx/themes/sphinxdoc/static/sphinxdoc.css_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/sphinxdoc/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/sphinxdoc/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/themes/traditional/static/traditional.css_t
-* /usr/lib/python3.12/site-packages/sphinx/themes/traditional/theme.conf
+* /usr/lib/python3.12/site-packages/sphinx/themes/traditional/theme.toml
 * /usr/lib/python3.12/site-packages/sphinx/theming.py
 * /usr/lib/python3.12/site-packages/sphinx/transforms/compact_bullet_list.py
 * /usr/lib/python3.12/site-packages/sphinx/transforms/i18n.py
@@ -808,6 +839,7 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/util/template.py
 * /usr/lib/python3.12/site-packages/sphinx/util/texescape.py
 * /usr/lib/python3.12/site-packages/sphinx/util/typing.py
+* /usr/lib/python3.12/site-packages/sphinx/util/_io.py
 * /usr/lib/python3.12/site-packages/sphinx/util/_pathlib.py
 * /usr/lib/python3.12/site-packages/sphinx/util/__init__.py
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/build_phase.cpython-312.opt-1.pyc
@@ -866,6 +898,8 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/texescape.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/typing.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/typing.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/_io.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/_io.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/_pathlib.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/_pathlib.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/util/__pycache__/__init__.cpython-312.opt-1.pyc
@@ -935,8 +969,4 @@ Python documentation generator
 * /usr/lib/python3.12/site-packages/sphinx/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sphinx/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinx/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-sphinx-7.2.6/AUTHORS
-* /usr/share/doc/python3-sphinx-7.2.6/CHANGES
-* /usr/share/doc/python3-sphinx-7.2.6/LICENSE
-* /usr/share/doc/python3-sphinx-7.2.6/README.rst
-* /usr/share/doc/python3-sphinx-7.2.6/README.txt
+* /usr/share/doc/python3-sphinx-7.3.7/README.rst
