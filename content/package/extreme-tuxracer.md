@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "extreme-tuxracer 0.8.3-1"
-version = "0.8.3-1"
+title = "extreme-tuxracer 0.8.4-1"
+version = "0.8.4-1"
 description = "High speed arctic racing game based on Tux Racer"
-date = "2023-07-11T12:34:22"
+date = "2024-06-25T08:01:12"
 aliases = "/packages/30805"
 categories = ['games-extra']
 upstreamurl = "http://www.extremetuxracer.com"
 arch = "x86_64"
-size = "40801352"
-usize = "44047259"
-sha1sum = "1175baa899f3addf07895561ba1f326db37803b8"
+size = "40816416"
+usize = "44088929"
+sha1sum = "ecca77b56f4e09e59c1736daae819fd0af2e6a74"
 depends = "['sfml>=2.5.0']"
 +++
 ### Description: 
@@ -20,17 +20,17 @@ High speed arctic racing game based on Tux Racer
 * /usr/bin/etr
 * /usr/share/applications/extreme-tuxracer.desktop
 * /usr/share/applications/net.sourceforge.extremetuxracer.desktop
-* /usr/share/doc/extreme-tuxracer-0.8.3/AUTHORS
-* /usr/share/doc/extreme-tuxracer-0.8.3/ChangeLog
-* /usr/share/doc/extreme-tuxracer-0.8.3/code
-* /usr/share/doc/extreme-tuxracer-0.8.3/COPYING
-* /usr/share/doc/extreme-tuxracer-0.8.3/courses_events
-* /usr/share/doc/extreme-tuxracer-0.8.3/guide
-* /usr/share/doc/extreme-tuxracer-0.8.3/INSTALL
-* /usr/share/doc/extreme-tuxracer-0.8.3/NEWS
-* /usr/share/doc/extreme-tuxracer-0.8.3/README
-* /usr/share/doc/extreme-tuxracer-0.8.3/score_algorithm
-* /usr/share/doc/extreme-tuxracer-0.8.3/TODO
+* /usr/share/doc/extreme-tuxracer-0.8.4/AUTHORS
+* /usr/share/doc/extreme-tuxracer-0.8.4/ChangeLog
+* /usr/share/doc/extreme-tuxracer-0.8.4/code
+* /usr/share/doc/extreme-tuxracer-0.8.4/COPYING
+* /usr/share/doc/extreme-tuxracer-0.8.4/courses_events
+* /usr/share/doc/extreme-tuxracer-0.8.4/guide
+* /usr/share/doc/extreme-tuxracer-0.8.4/INSTALL
+* /usr/share/doc/extreme-tuxracer-0.8.4/NEWS
+* /usr/share/doc/extreme-tuxracer-0.8.4/README
+* /usr/share/doc/extreme-tuxracer-0.8.4/score_algorithm
+* /usr/share/doc/extreme-tuxracer-0.8.4/TODO
 * /usr/share/etr/char/beastie/finish.lst
 * /usr/share/etr/char/beastie/lostrace.lst
 * /usr/share/etr/char/beastie/preview.png
@@ -500,6 +500,7 @@ High speed arctic racing game based on Tux Racer
 * /usr/share/etr/translations/it_IT.lst
 * /usr/share/etr/translations/languages.lst
 * /usr/share/etr/translations/pl_PL.lst
+* /usr/share/etr/translations/pt_PT.lst
 * /usr/share/etr/translations/ro_RO.lst
 * /usr/share/etr/translations/se_SE.lst
 * /usr/share/etr/translations/xx_XX.lst

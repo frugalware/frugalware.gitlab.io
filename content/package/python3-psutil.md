@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-psutil 5.9.8-1"
-version = "5.9.8-1"
+title = "python3-psutil 6.0.0-1"
+version = "6.0.0-1"
 description = "A cross-platform process ans system utilities module for Python"
-date = "2024-04-02T11:47:08"
+date = "2024-06-25T08:03:43"
 aliases = "/packages/220004"
 categories = ['lib']
 upstreamurl = "http://pypi.python.org/pypi/psutil"
 arch = "x86_64"
-size = "443860"
-usize = "3268141"
-sha1sum = "b8adb0b51cb4f64b7c8502d73f86c44ddd669136"
+size = "452116"
+usize = "3295653"
+sha1sum = "b22629043be34716192f0971c80ce5002fefc655"
 depends = "['python3>=3.12']"
 reverse_depends = "['bpytop', 'drkonqi', 'meshroom', 'python3-pidfile', 'yin-yang']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['bpytop', 'drkonqi', 'meshroom', 'python3-pidfile', 'yin-yan
 A cross-platform process ans system utilities module for Python
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/psutil-5.9.8-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/psutil-5.9.8-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/psutil-5.9.8-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/psutil-5.9.8-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/psutil-5.9.8-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/psutil-5.9.8-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/psutil/tests/runner.py
 * /usr/lib/python3.12/site-packages/psutil/tests/test_aix.py
 * /usr/lib/python3.12/site-packages/psutil/tests/test_bsd.py
@@ -113,7 +113,7 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/_pswindows.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-psutil-5.9.8/CREDITS
-* /usr/share/doc/python3-psutil-5.9.8/INSTALL.rst
-* /usr/share/doc/python3-psutil-5.9.8/LICENSE
-* /usr/share/doc/python3-psutil-5.9.8/README.rst
+* /usr/share/doc/python3-psutil-6.0.0/CREDITS
+* /usr/share/doc/python3-psutil-6.0.0/INSTALL.rst
+* /usr/share/doc/python3-psutil-6.0.0/LICENSE
+* /usr/share/doc/python3-psutil-6.0.0/README.rst
