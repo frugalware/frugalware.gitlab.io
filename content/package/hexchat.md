@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "hexchat 2.16.1-3"
-version = "2.16.1-3"
+title = "hexchat 2.16.2-1"
+version = "2.16.2-1"
 description = "HexChat is an IRC client based on XChat."
-date = "2023-10-05T19:38:33"
+date = "2024-06-25T15:31:34"
 aliases = "/packages/184515"
 categories = ['xapps-extra']
 upstreamurl = "http://hexchat.github.io/"
 arch = "x86_64"
-size = "1105892"
-usize = "5401019"
-sha1sum = "918fb3b9e160a81a5768cee11ad154485bc667e9"
-depends = "['dbus', 'dbus-glib', 'gtk+2-libs>=2.24.31-2', 'iso-codes', 'libcanberra', 'libnotify>=0.7.7', 'libproxy', 'openssl>=3.1.0', 'pciutils>=3.4.1', 'perl>=5.22.1', 'python3>=3.12']"
+size = "1118432"
+usize = "5373165"
+sha1sum = "c6213d8de7b1ca11569e542507fd06d1b564e9bf"
+depends = "['dbus', 'dbus-glib', 'gtk+2-libs>=2.24.31-2', 'iso-codes', 'libcanberra', 'libnotify>=0.7.7', 'libproxy>=0.5.7', 'openssl>=3.1.0', 'pciutils>=3.4.1', 'perl>=5.22.1', 'python3>=3.12']"
 +++
 ### Description: 
 HexChat is an IRC client based on XChat.
@@ -31,7 +31,7 @@ HexChat is an IRC client based on XChat.
 * /usr/lib/pkgconfig/hexchat-plugin.pc
 * /usr/share/applications/io.github.Hexchat.desktop
 * /usr/share/dbus-1/services/org.hexchat.service.service
-* /usr/share/doc/hexchat-2.16.1/COPYING
+* /usr/share/doc/hexchat-2.16.2/COPYING
 * /usr/share/icons/hicolor/48x48/apps/io.github.Hexchat.png
 * /usr/share/icons/hicolor/scalable/apps/io.github.Hexchat.svg
 * /usr/share/locale/af/LC_MESSAGES/hexchat.mo

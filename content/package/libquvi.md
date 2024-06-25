@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libquvi 0.9.4-13"
-version = "0.9.4-13"
+title = "libquvi 0.9.4-14"
+version = "0.9.4-14"
 description = "Small C library used to parse flash media stream URLs"
-date = "2022-01-24T20:43:37"
+date = "2024-06-25T15:41:42"
 aliases = "/packages/136726"
 categories = ['xlib']
 upstreamurl = "https://sourceforge.net/projects/quvi"
 arch = "x86_64"
-size = "87760"
-usize = "383887"
-sha1sum = "16f056b472369e03fa8414d40deb76afbbbf048c"
-depends = "['curl>=7.50.3-2', 'libgcrypt>=1.6.4-3', 'libproxy>=0.4.13-2', 'libstdc++>=11.2', 'lua>=5.4']"
+size = "87880"
+usize = "383258"
+sha1sum = "cf5f6eab5b096ca1c428a774c1ea3e9ee61cac76"
+depends = "['curl>=7.50.3-2', 'libgcrypt>=1.6.4-3', 'libproxy>=0.5.7', 'libstdc++>=11.2', 'lua>=5.4']"
 +++
 ### Description: 
 Small C library used to parse flash media stream URLs

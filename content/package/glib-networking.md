@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib-networking 2.78.0-1"
-version = "2.78.0-1"
+title = "glib-networking 2.80.0-1"
+version = "2.80.0-1"
 description = "Network extensions for GLib"
-date = "2023-11-06T12:34:53"
+date = "2024-06-25T15:14:29"
 aliases = "/packages/118754"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "144116"
-usize = "695977"
-sha1sum = "2b48422f50d4c598122196949e7608d5e3742abf"
+size = "152228"
+usize = "711240"
+sha1sum = "a9e383de20689f92db5092f9f03adcfd68f61313"
 depends = "['ca-certificates', 'glib2', 'gnutls', 'libproxy>=0.5.7']"
 reverse_depends = "['gimp', 'libsoup', 'libsoup3']"
 +++
