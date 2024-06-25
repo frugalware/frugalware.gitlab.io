@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-cchardet 2.1.7-7"
-version = "2.1.7-7"
+title = "python3-cchardet 2.2.0a2-1"
+version = "2.2.0a2-1"
 description = "Universal encoding detector faster than chardet."
-date = "2023-10-11T18:34:17"
+date = "2024-06-25T13:38:44"
 aliases = "/packages/220218"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cchardet"
 arch = "x86_64"
-size = "110040"
-usize = "372662"
-sha1sum = "575accdaeff6455dc740e64962af00c34dcb0afa"
+size = "153804"
+usize = "722931"
+sha1sum = "7dd65c61870d731647764da5cbfe3ea67553323d"
 depends = "['python3>=3.11']"
 reverse_depends = "['hotdoc']"
 +++

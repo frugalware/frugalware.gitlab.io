@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-distlib 0.3.7-1"
-version = "0.3.7-1"
+title = "python3-distlib 0.3.8-1"
+version = "0.3.8-1"
 description = "Low-level functions that relate to packaging and distribution of Python software"
-date = "2023-11-08T17:16:09"
+date = "2024-06-25T13:33:45"
 aliases = "/packages/221173"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/distlib"
 arch = "x86_64"
-size = "390076"
-usize = "2103317"
-sha1sum = "11b40861089c25468cc665180fe2faec7060611c"
+size = "390184"
+usize = "2102587"
+sha1sum = "00787ca4248ded8dfecc12a36dc94c5b2fa3c4dd"
 depends = "['python3']"
 reverse_depends = "['python3-virtualenv']"
 +++

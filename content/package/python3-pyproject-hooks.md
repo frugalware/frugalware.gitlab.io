@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyproject-hooks 1.0.0-2"
-version = "1.0.0-2"
+title = "python3-pyproject-hooks 1.1.0-1"
+version = "1.1.0-1"
 description = "A low-level library for calling build-backends in pyproject.toml-based project"
-date = "2023-10-05T10:32:02"
+date = "2024-06-25T13:22:16"
 aliases = "/packages/220915"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pyproject_hooks"
 arch = "x86_64"
-size = "16636"
-usize = "90962"
-sha1sum = "75bdbd691147d6ba2c747b83aa90b4f908f92e31"
+size = "17704"
+usize = "99149"
+sha1sum = "9386ab8f836fb5ef485a4ff9236614de81e3a2a0"
 depends = "['python3-tomli']"
 reverse_depends = "['python3-build', 'python3-poetry']"
 +++

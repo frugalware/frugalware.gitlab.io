@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pytest 7.4.3-1"
-version = "7.4.3-1"
+title = "python3-pytest 8.2.2-1"
+version = "8.2.2-1"
 description = "Simple powerful testing with Python"
-date = "2023-11-30T12:23:24"
+date = "2024-06-25T13:15:54"
 aliases = "/packages/221194"
 categories = ['devel-extra']
 upstreamurl = "https://pytest.org/"
 arch = "x86_64"
-size = "639152"
-usize = "3932134"
-sha1sum = "0dd8095ee58caed2544da0240dbfb44863ce24ea"
+size = "658904"
+usize = "4114972"
+sha1sum = "e55163478599d50454f8890c3ba55408f363b303"
 depends = "['python3-iniconfig', 'python3-packaging', 'python3-pluggy']"
 +++
 ### Description: 

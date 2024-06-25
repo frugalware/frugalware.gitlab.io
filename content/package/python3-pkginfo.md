@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pkginfo 1.9.6-1"
-version = "1.9.6-1"
+title = "python3-pkginfo 1.11.1-1"
+version = "1.11.1-1"
 description = "Query metadata from sdists / bdists / installed packages"
-date = "2023-11-06T20:56:41"
+date = "2024-06-25T13:32:26"
 aliases = "/packages/221167"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pkginfo"
 arch = "x86_64"
-size = "49360"
-usize = "396442"
-sha1sum = "da64bd2aaeeea4ad4fb2168278ec08a4fcfc7131"
+size = "56764"
+usize = "343479"
+sha1sum = "2d30376c476c2f90dd3d92dcd5a2a8f53903fe70"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++

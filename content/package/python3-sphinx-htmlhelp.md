@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sphinx-htmlhelp 2.0.4-1"
-version = "2.0.4-1"
+title = "python3-sphinx-htmlhelp 2.0.5-1"
+version = "2.0.5-1"
 description = "Sphinx extension which renders HTML help files"
-date = "2023-10-05T12:03:40"
+date = "2024-06-25T13:20:56"
 aliases = "/packages/220111"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-htmlhelp"
 arch = "x86_64"
-size = "30060"
-usize = "180058"
-sha1sum = "09f63ebf00a2f453996c53dd00e9d7200569e2a4"
+size = "30308"
+usize = "180504"
+sha1sum = "cb95107e8b7130925ebd81818b0cfac64263e30c"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++

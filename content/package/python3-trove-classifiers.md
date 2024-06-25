@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-trove-classifiers 2023.11.29-1"
-version = "2023.11.29-1"
+title = "python3-trove-classifiers 2024.4.10-1"
+version = "2024.4.10-1"
 description = "Canonical source for classifiers on PyPI (pypi.org)"
-date = "2023-12-04T15:34:44"
+date = "2024-06-25T13:30:56"
 aliases = "/packages/221110"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/trove-classifiers"
 arch = "x86_64"
-size = "15416"
-usize = "92278"
-sha1sum = "9e14d6f83ed6e258698b78cf009f9b047d34602a"
+size = "15668"
+usize = "93767"
+sha1sum = "e0c8d05da857a3bac856cd2cfc3297e5a71073a5"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-hatchling', 'python3-poetry']"
 +++

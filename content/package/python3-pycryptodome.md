@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pycryptodome 3.19.0-1"
-version = "3.19.0-1"
+title = "python3-pycryptodome 3.20.0-1"
+version = "3.20.0-1"
 description = "Collection of cryptographic algorithms and protocols, implemented for use from Python 3."
-date = "2023-12-04T15:11:59"
+date = "2024-06-25T13:27:57"
 aliases = "/packages/220285"
 categories = ['devel-extra']
 upstreamurl = "https://www.pycryptodome.org/"
 arch = "x86_64"
-size = "1436592"
-usize = "6235066"
-sha1sum = "efad8c9ca9b91c01e02600876ae37fa3eb2095ae"
+size = "1455340"
+usize = "6065028"
+sha1sum = "c5f04f8c7edd789c7af52a20ffbbe4c8622a6480"
 depends = "['gmp', 'python3>=3.11']"
 reverse_depends = "['streamlink']"
 +++
@@ -69,6 +69,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/_mode_siv.py
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/_mode_siv.pyi
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/_pkcs1_decode.abi3.so
+* /usr/lib/python3.12/site-packages/Crypto/Cipher/_pkcs1_oaep_decode.py
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/_raw_aes.abi3.so
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/_raw_aesni.abi3.so
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/_raw_arc2.abi3.so
@@ -110,6 +111,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/__pycache__/_mode_ofb.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/__pycache__/_mode_openpgp.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/__pycache__/_mode_siv.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/Crypto/Cipher/__pycache__/_pkcs1_oaep_decode.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Hash/BLAKE2b.py
 * /usr/lib/python3.12/site-packages/Crypto/Hash/BLAKE2b.pyi
@@ -171,6 +173,10 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/Hash/TupleHash128.pyi
 * /usr/lib/python3.12/site-packages/Crypto/Hash/TupleHash256.py
 * /usr/lib/python3.12/site-packages/Crypto/Hash/TupleHash256.pyi
+* /usr/lib/python3.12/site-packages/Crypto/Hash/TurboSHAKE128.py
+* /usr/lib/python3.12/site-packages/Crypto/Hash/TurboSHAKE128.pyi
+* /usr/lib/python3.12/site-packages/Crypto/Hash/TurboSHAKE256.py
+* /usr/lib/python3.12/site-packages/Crypto/Hash/TurboSHAKE256.pyi
 * /usr/lib/python3.12/site-packages/Crypto/Hash/_BLAKE2b.abi3.so
 * /usr/lib/python3.12/site-packages/Crypto/Hash/_BLAKE2s.abi3.so
 * /usr/lib/python3.12/site-packages/Crypto/Hash/_ghash_clmul.abi3.so
@@ -218,6 +224,8 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/Hash/__pycache__/SHAKE256.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Hash/__pycache__/TupleHash128.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Hash/__pycache__/TupleHash256.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/Crypto/Hash/__pycache__/TurboSHAKE128.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/Crypto/Hash/__pycache__/TurboSHAKE256.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/Hash/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/IO/PEM.py
 * /usr/lib/python3.12/site-packages/Crypto/IO/PEM.pyi
@@ -365,6 +373,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/test_SHA512.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/test_SHAKE.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/test_TupleHash.py
+* /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/test_TurboSHAKE.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__init__.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/common.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/test_BLAKE2.cpython-312.pyc
@@ -390,6 +399,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/test_SHA512.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/test_SHAKE.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/test_TupleHash.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/test_TurboSHAKE.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Hash/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/IO/test_PBES.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/IO/test_PKCS8.py
@@ -399,10 +409,12 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/IO/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/loader.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/test_modexp.py
+* /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/test_modmult.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/test_Numbers.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/test_Primality.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/__init__.py
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/__pycache__/test_modexp.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/__pycache__/test_modmult.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/__pycache__/test_Numbers.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/__pycache__/test_Primality.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Crypto/SelfTest/Math/__pycache__/__init__.cpython-312.pyc
@@ -528,10 +540,10 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.12/site-packages/Crypto/__init__.py
 * /usr/lib/python3.12/site-packages/Crypto/__init__.pyi
 * /usr/lib/python3.12/site-packages/Crypto/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pycryptodome-3.19.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pycryptodome-3.19.0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/pycryptodome-3.19.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pycryptodome-3.19.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pycryptodome-3.19.0-py3.12.egg-info/top_level.txt
-* /usr/share/doc/python3-pycryptodome-3.19.0/INSTALL.rst
-* /usr/share/doc/python3-pycryptodome-3.19.0/README.rst
+* /usr/lib/python3.12/site-packages/pycryptodome-3.20.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pycryptodome-3.20.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/pycryptodome-3.20.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pycryptodome-3.20.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pycryptodome-3.20.0-py3.12.egg-info/top_level.txt
+* /usr/share/doc/python3-pycryptodome-3.20.0/INSTALL.rst
+* /usr/share/doc/python3-pycryptodome-3.20.0/README.rst

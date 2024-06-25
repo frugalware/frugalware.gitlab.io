@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-redis 5.0.1-1"
-version = "5.0.1-1"
+title = "python3-redis 5.1.0b7-1"
+version = "5.1.0b7-1"
 description = "The Python interface to the Redis key-value store"
-date = "2023-12-04T15:20:47"
+date = "2024-06-25T13:14:55"
 aliases = "/packages/221108"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/redis"
 arch = "x86_64"
-size = "436100"
-usize = "3514613"
-sha1sum = "bbb97fc73f6e8d18abd0aa714c52c0f1e053a5e9"
+size = "455204"
+usize = "3746701"
+sha1sum = "2c42ffe2728a54f0490e95b55c0a1ff5c68b9fc5"
 depends = "['python3-async-timeout']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sphinx-serializinghtml 1.1.9-1"
-version = "1.1.9-1"
+title = "python3-sphinx-serializinghtml 1.1.10-1"
+version = "1.1.10-1"
 description = "Sphinx extension which outputs 'serialized' HTML files (json and pickle)"
-date = "2023-10-05T12:12:35"
+date = "2024-06-25T13:17:02"
 aliases = "/packages/220110"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-serializinghtml"
 arch = "x86_64"
-size = "23912"
-usize = "145807"
-sha1sum = "7486352ef8a925c04e16dca3b60f1789ab970def"
+size = "24080"
+usize = "146264"
+sha1sum = "5c7f942121eefc39d595dde30f949e76b66227f8"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++

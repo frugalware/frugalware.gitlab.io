@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-m2crypto 0.40.1-1"
-version = "0.40.1-1"
+title = "python3-m2crypto 0.41.0-1"
+version = "0.41.0-1"
 description = "A Python crypto and SSL toolkit."
-date = "2024-01-02T12:58:18"
+date = "2024-06-25T13:34:57"
 aliases = "/packages/221202"
 categories = ['devel-extra']
 upstreamurl = "http://chandlerproject.org/Projects/MeTooCrypto"
 arch = "x86_64"
-size = "269408"
-usize = "1323348"
-sha1sum = "5be537cdabcfcb9f37d54f6eeeae20aa2f496ff0"
+size = "252112"
+usize = "1236803"
+sha1sum = "b8e3186a6b27d4102d09e76cc76d30c955e3bd27"
 depends = "['openssl>=3.0.7', 'python3']"
 +++
 ### Description: 
