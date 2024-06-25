@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "144116"
 usize = "695977"
 sha1sum = "2b48422f50d4c598122196949e7608d5e3742abf"
-depends = "['ca-certificates', 'glib2', 'gnutls', 'libproxy']"
+depends = "['ca-certificates', 'glib2', 'gnutls', 'libproxy>=0.5.7']"
 reverse_depends = "['gimp', 'libsoup', 'libsoup3']"
 +++
 ### Description: 
@@ -24,9 +24,9 @@ Network extensions for GLib
 * /usr/lib/glib-networking/glib-pacrunner
 * /usr/lib/systemd/user/glib-pacrunner.service
 * /usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service
-* /usr/share/doc/glib-networking-2.78.0/COPYING
-* /usr/share/doc/glib-networking-2.78.0/NEWS
-* /usr/share/doc/glib-networking-2.78.0/README
+* /usr/share/doc/glib-networking-2.80.0/COPYING
+* /usr/share/doc/glib-networking-2.80.0/NEWS
+* /usr/share/doc/glib-networking-2.80.0/README
 * /usr/share/locale/ab/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/an/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/ar/LC_MESSAGES/glib-networking.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-base 6.7.2-1"
-version = "6.7.2-1"
+title = "qt6-base 6.7.2-2"
+version = "6.7.2-2"
 description = "The Qt6 toolkit, qtbase"
-date = "2024-06-19T14:35:48"
+date = "2024-06-25T14:12:28"
 aliases = "/packages/220751"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "13219692"
-usize = "58072209"
-sha1sum = "cda908ea3c88d9ce81f78dcc118211ad0db7ff0c"
+size = "13108944"
+usize = "58072155"
+sha1sum = "005af8b9a97bdf3d87061f9606bc3b8b13ff6ed9"
 depends = "['at-spi2-core', 'brotli', 'double-conversion', 'fontconfig', 'harfbuzz', 'icu4c>=75.1', 'libb2', 'libcups', 'libglvnd', 'libinput', 'libjpeg-turbo', 'libproxy>=0.5.7', 'libxi', 'libxkbcommon', 'libxrender', 'md4c', 'qt6-translations', 'shared-mime-info', 'sqlite3', 'tslib', 'xcb-util-cursor', 'xcb-util-keysyms', 'xcb-util-wm', 'xdg-utils']"
 reverse_depends = "['akonadi', 'alizams', 'appstream-qt', 'attica', 'breeze-gtk', 'falkon', 'freeciv-qt', 'gottet', 'karchive', 'kcodecs', 'kcolorpicker', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kdecoration', 'kdnssd', 'kdsoap', 'kguiaddons', 'kholidays', 'kimageformats', 'kitemmodels', 'kitemviews', 'kplotting', 'kunitconversion', 'kwidgetsaddons', 'ladybird', 'libaccounts-qt', 'libkdcraw', 'libkexiv2', 'libqaccessibilityclient', 'libqgpgme', 'modemmanager-qt', 'networkmanager-qt', 'ocean-sound-theme', 'oxygen-sounds', 'packagekit-qt6', 'pavucontrol-qt', 'pinentry-qt6', 'polkit-qt6-1', 'poppler-qt6', 'prison', 'pulseaudio-qt', 'pyqt6', 'qt6-base-mysql', 'qt6-base-platformtheme-gtk3', 'qt6-base-postgresql', 'qt6-imageformats', 'qt6-languageserver', 'qt6-networkauth', 'qt6-serialport', 'qt6-shadertools', 'qt6-svg', 'qtkeychain', 'seafile-client', 'shiboken6', 'signon', 'simsu', 'sonnet', 'syntax-highlighting', 'tanglet', 'tetzle', 'threadweaver', 'usbguard-qt', 'wrapland']"
 +++

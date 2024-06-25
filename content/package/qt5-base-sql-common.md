@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-base-sql-common 5.15.14-2"
-version = "5.15.14-2"
+title = "qt5-base-sql-common 5.15.14-3"
+version = "5.15.14-3"
 description = "Development files for SQL plugins"
-date = "2024-05-25T20:26:44"
+date = "2024-06-25T14:41:04"
 aliases = "/packages/219176"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "9988"
+size = "10024"
 usize = "30700"
-sha1sum = "b0c6333ab7e8192ee75b24ab0a6e9283c1d132ba"
+sha1sum = "f76c2e77faacd3b88b4908e5acc9a51a593d0f13"
 depends = "[]"
 reverse_depends = "['qt5-base-mysql', 'qt5-base-postgresql']"
 +++

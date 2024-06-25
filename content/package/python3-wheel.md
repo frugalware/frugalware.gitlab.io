@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-wheel 0.42.0-1"
-version = "0.42.0-1"
+title = "python3-wheel 0.43.0-1"
+version = "0.43.0-1"
 description = "A built-package format for Python"
-date = "2023-12-04T15:38:53"
+date = "2024-06-25T15:06:53"
 aliases = "/packages/220550"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/wheel"
 arch = "x86_64"
-size = "118868"
-usize = "443462"
-sha1sum = "c8f49ecfa78fe35a732d30ed36e662626ac71e17"
+size = "119636"
+usize = "446041"
+sha1sum = "cfac3c9f5b9a7318360bb1384689601e1e041c91"
 depends = "['python3-packaging']"
 reverse_depends = "['meson-python', 'python3-dnspython', 'scikit-build']"
 +++
@@ -19,12 +19,12 @@ A built-package format for Python
 
 ### Files: 
 * /usr/bin/wheel
-* /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/wheel-0.42.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/wheel-0.43.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/wheel-0.43.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/wheel-0.43.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/wheel-0.43.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/wheel-0.43.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/wheel-0.43.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/wheel/bdist_wheel.py
 * /usr/lib/python3.12/site-packages/wheel/cli/convert.py
 * /usr/lib/python3.12/site-packages/wheel/cli/pack.py
@@ -80,4 +80,4 @@ A built-package format for Python
 * /usr/lib/python3.12/site-packages/wheel/__pycache__/_setuptools_logging.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/wheel/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/wheel/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-wheel-0.42.0/README.rst
+* /usr/share/doc/python3-wheel-0.43.0/README.rst
