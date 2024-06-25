@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libproxy 0.5.6-2"
-version = "0.5.6-2"
+title = "libproxy 0.5.7-1"
+version = "0.5.7-1"
 description = "libproxy is a library that provides automatic proxy configuration management."
-date = "2024-05-16T02:23:25"
+date = "2024-06-25T08:59:46"
 aliases = "/packages/119954"
 categories = ['xlib']
 upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
-size = "1093856"
-usize = "1389947"
-sha1sum = "88672952e76b243ec3dbfdf9039cc76996dc1307"
+size = "1095556"
+usize = "1369979"
+sha1sum = "cc09b7c1a4065036ab21c0ee6a09074c4ecf0ce2"
 depends = "['curl', 'dbus', 'duktape']"
 reverse_depends = "['glib-networking', 'hexchat', 'libproxy-python3', 'libproxy-vala', 'libquvi', 'openconnect', 'qt5-base', 'qt6-base', 'signon', 'telepathy-qt5']"
 +++
@@ -22,12 +22,12 @@ libproxy is a library that provides automatic proxy configuration management.
 * /usr/include/libproxy/proxy.h
 * /usr/lib/girepository-1.0/Libproxy-1.0.typelib
 * /usr/lib/libproxy.so
-* /usr/lib/libproxy.so.0.5.6
+* /usr/lib/libproxy.so.0.5.7
 * /usr/lib/libproxy.so.1
 * /usr/lib/libproxy/libpxbackend-1.0.so
 * /usr/lib/pkgconfig/libproxy-1.0.pc
-* /usr/share/doc/libproxy-0.5.6/COPYING
-* /usr/share/doc/libproxy-0.5.6/README.md
+* /usr/share/doc/libproxy-0.5.7/COPYING
+* /usr/share/doc/libproxy-0.5.7/README.md
 * /usr/share/doc/libproxy-1.0/applications.html
 * /usr/share/doc/libproxy-1.0/architecture.html
 * /usr/share/doc/libproxy-1.0/build-steps.html

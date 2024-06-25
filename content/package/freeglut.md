@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeglut 3.4.0-3"
-version = "3.4.0-3"
+title = "freeglut 3.6.0-1"
+version = "3.6.0-1"
 description = "The free OpenGL utility toolkit, alternative to the GLUT library"
-date = "2023-09-05T08:41:34"
+date = "2024-06-25T08:40:07"
 aliases = "/packages/5085"
 categories = ['xlib']
 upstreamurl = "http://freeglut.sourceforge.net"
 arch = "x86_64"
-size = "146732"
-usize = "601106"
-sha1sum = "067b2ad96d3f7e93b42d6d9f19f7ec43c047db8f"
+size = "148676"
+usize = "601003"
+sha1sum = "237794fb6f00bfa71b7ac8f4e63fcdd7358c97b5"
 depends = "['libglvnd', 'libxi>=1.7.6-2', 'libxxf86vm']"
 reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'mesademos', 'mupdf-gl', 'openal', 'opencolorio', 'opencsg']"
 +++
@@ -29,16 +29,17 @@ The free OpenGL utility toolkit, alternative to the GLUT library
 * /usr/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake
 * /usr/lib/libglut.so
 * /usr/lib/libglut.so.3
-* /usr/lib/libglut.so.3.12.0
+* /usr/lib/libglut.so.3.12.1
 * /usr/lib/pkgconfig/glut.pc
-* /usr/share/doc/freeglut-3.4.0/AUTHORS
-* /usr/share/doc/freeglut-3.4.0/ChangeLog
-* /usr/share/doc/freeglut-3.4.0/COPYING
-* /usr/share/doc/freeglut-3.4.0/README.android
-* /usr/share/doc/freeglut-3.4.0/README.blackberry
-* /usr/share/doc/freeglut-3.4.0/README.cmake
-* /usr/share/doc/freeglut-3.4.0/README.cygwin_mingw
-* /usr/share/doc/freeglut-3.4.0/README.macosx
-* /usr/share/doc/freeglut-3.4.0/README.md
-* /usr/share/doc/freeglut-3.4.0/README.mingw_cross
-* /usr/share/doc/freeglut-3.4.0/README.win32
+* /usr/share/doc/freeglut-3.6.0/AUTHORS
+* /usr/share/doc/freeglut-3.6.0/ChangeLog
+* /usr/share/doc/freeglut-3.6.0/COPYING
+* /usr/share/doc/freeglut-3.6.0/README.android
+* /usr/share/doc/freeglut-3.6.0/README.blackberry
+* /usr/share/doc/freeglut-3.6.0/README.cmake
+* /usr/share/doc/freeglut-3.6.0/README.cygwin_mingw
+* /usr/share/doc/freeglut-3.6.0/README.macosx
+* /usr/share/doc/freeglut-3.6.0/README.md
+* /usr/share/doc/freeglut-3.6.0/README.mingw_cross
+* /usr/share/doc/freeglut-3.6.0/README.ogc
+* /usr/share/doc/freeglut-3.6.0/README.win32

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca-qt5 2.3.8-11"
-version = "2.3.8-11"
+title = "qca-qt5 2.3.9-1"
+version = "2.3.9-1"
 description = "QCA qt5"
-date = "2024-06-21T13:20:19"
+date = "2024-06-25T08:28:54"
 aliases = "/packages/221384"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "693264"
+size = "692184"
 usize = "2854288"
-sha1sum = "2263d7e6c9c7886d46c184a2b4ff47bdc933c439"
+sha1sum = "c8e3b818cedd71a1597f71934c9e1d26f4342b4c"
 depends = "['botan', 'cyrus-sasl', 'nss', 'qca', 'qt5-base']"
 reverse_depends = "['skrooge']"
 +++
@@ -43,7 +43,7 @@ QCA qt5
 * /usr/lib/cmake/Qca-qt5/Qca-qt5Targets.cmake
 * /usr/lib/libqca-qt5.so
 * /usr/lib/libqca-qt5.so.2
-* /usr/lib/libqca-qt5.so.2.3.8
+* /usr/lib/libqca-qt5.so.2.3.9
 * /usr/lib/pkgconfig/qca2-qt5.pc
 * /usr/lib/qca-qt5/crypto/libqca-botan.so
 * /usr/lib/qca-qt5/crypto/libqca-cyrus-sasl.so
