@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-lij 127.0.1-1"
-version = "127.0.1-1"
+title = "firefox-lij 127.0.2-1"
+version = "127.0.2-1"
 description = "Ligurian language support for Firefox"
-date = "2024-06-23T13:59:51"
+date = "2024-06-25T09:50:37"
 aliases = "/packages/152767"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "419104"
-usize = "481952"
-sha1sum = "e17f89ea635e5ccbe58d21b20b7a6ee9dc17d084"
-depends = "['firefox>=127.0.1']"
+size = "418696"
+usize = "481948"
+sha1sum = "7909671e56a259536748495d7e0d77b6cc9349b7"
+depends = "['firefox>=127.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

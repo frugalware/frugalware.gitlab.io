@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-gl 127.0.1-1"
-version = "127.0.1-1"
+title = "firefox-gl 127.0.2-1"
+version = "127.0.2-1"
 description = "Galician language support for Firefox"
-date = "2024-06-23T13:59:51"
+date = "2024-06-25T09:50:37"
 aliases = "/packages/73628"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "547616"
-usize = "601873"
-sha1sum = "6bc6dbc5e37d5c015a8891b5d22a47bc962bff06"
-depends = "['firefox>=127.0.1']"
+size = "547948"
+usize = "601871"
+sha1sum = "5b6c714ea46b3aee0450e0adf4ffc9526915c5c4"
+depends = "['firefox>=127.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
