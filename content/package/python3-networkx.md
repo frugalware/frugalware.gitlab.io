@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-networkx 3.2.1-1"
-version = "3.2.1-1"
+title = "python3-networkx 3.3-1"
+version = "3.3-1"
 description = "Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks"
-date = "2023-12-04T15:03:05"
+date = "2024-06-26T12:03:29"
 aliases = "/packages/220217"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/networkx/networkx"
 arch = "x86_64"
-size = "2637876"
-usize = "20729743"
-sha1sum = "6926f1d93eb0580f32e9ec416d4671594074f575"
+size = "2678328"
+usize = "21565994"
+sha1sum = "9e84758bd7c26604ca89e3e12eb96d6088ec7066"
 depends = "['python3-decorator']"
 reverse_depends = "['hotdoc', 'python3-pythran']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['hotdoc', 'python3-pythran']"
 Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/LICENSE.txt
-* /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/networkx-3.2.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/networkx-3.3.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/networkx-3.3.dist-info/LICENSE.txt
+* /usr/lib/python3.12/site-packages/networkx-3.3.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/networkx-3.3.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/networkx-3.3.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/networkx-3.3.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/networkx/algorithms/approximation/clique.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/approximation/clustering_coefficient.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/approximation/connectivity.py
@@ -228,6 +228,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/bipartite/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/boundary.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/bridges.py
+* /usr/lib/python3.12/site-packages/networkx/algorithms/broadcasting.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/centrality/betweenness.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/centrality/betweenness_subset.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/centrality/closeness.py
@@ -380,6 +381,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/asyn_fluid.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/centrality.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/community_utils.py
+* /usr/lib/python3.12/site-packages/networkx/algorithms/community/divisive.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/kclique.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/kernighan_lin.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/label_propagation.py
@@ -389,6 +391,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/quality.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/test_asyn_fluid.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/test_centrality.py
+* /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/test_divisive.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/test_kclique.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/test_kernighan_lin.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/test_label_propagation.py
@@ -402,6 +405,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_asyn_fluid.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_centrality.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_centrality.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_divisive.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_divisive.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_kclique.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_kclique.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/tests/__pycache__/test_kernighan_lin.cpython-312.opt-1.pyc
@@ -427,6 +432,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/centrality.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/community_utils.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/community_utils.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/divisive.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/divisive.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/kclique.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/kclique.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/community/__pycache__/kernighan_lin.cpython-312.opt-1.pyc
@@ -798,6 +805,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_asteroidal.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_boundary.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_bridges.py
+* /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_broadcasting.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_chains.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_chordal.py
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/test_clique.py
@@ -857,6 +865,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_boundary.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_bridges.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_bridges.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_broadcasting.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_broadcasting.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_chains.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_chains.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/tests/__pycache__/test_chordal.cpython-312.opt-1.pyc
@@ -1056,6 +1066,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/boundary.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/bridges.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/bridges.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/broadcasting.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/broadcasting.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/chains.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/chains.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/algorithms/__pycache__/chordal.cpython-312.opt-1.pyc
@@ -1171,7 +1183,6 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/classes/reportviews.py
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/dispatch_interface.py
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/historical_tests.py
-* /usr/lib/python3.12/site-packages/networkx/classes/tests/test_backends.py
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/test_coreviews.py
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/test_digraph.py
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/test_digraph_historical.py
@@ -1190,8 +1201,6 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/dispatch_interface.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/historical_tests.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/historical_tests.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/test_backends.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/test_backends.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/test_coreviews.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/test_coreviews.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/classes/tests/__pycache__/test_digraph.cpython-312.opt-1.pyc
@@ -1646,12 +1655,15 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/tests/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/tests/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/backends.py
+* /usr/lib/python3.12/site-packages/networkx/utils/configs.py
 * /usr/lib/python3.12/site-packages/networkx/utils/decorators.py
 * /usr/lib/python3.12/site-packages/networkx/utils/heaps.py
 * /usr/lib/python3.12/site-packages/networkx/utils/mapped_queue.py
 * /usr/lib/python3.12/site-packages/networkx/utils/misc.py
 * /usr/lib/python3.12/site-packages/networkx/utils/random_sequence.py
 * /usr/lib/python3.12/site-packages/networkx/utils/rcm.py
+* /usr/lib/python3.12/site-packages/networkx/utils/tests/test_backends.py
+* /usr/lib/python3.12/site-packages/networkx/utils/tests/test_config.py
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/test_decorators.py
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/test_heaps.py
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/test_mapped_queue.py
@@ -1661,6 +1673,10 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/test_unionfind.py
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/test__init.py
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/__init__.py
+* /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_backends.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_backends.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_config.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_config.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_decorators.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_decorators.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/tests/__pycache__/test_heaps.cpython-312.opt-1.pyc
@@ -1683,6 +1699,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/utils/__init__.py
 * /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/backends.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/backends.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/configs.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/configs.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/decorators.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/decorators.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/utils/__pycache__/heaps.cpython-312.opt-1.pyc
@@ -1714,5 +1732,5 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.12/site-packages/networkx/__pycache__/relabel.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/networkx/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/networkx/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-networkx-3.2.1/INSTALL.rst
-* /usr/share/doc/python3-networkx-3.2.1/README.rst
+* /usr/share/doc/python3-networkx-3.3/INSTALL.rst
+* /usr/share/doc/python3-networkx-3.3/README.rst

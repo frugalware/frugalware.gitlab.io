@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-virtualenv 20.25.0-1"
-version = "20.25.0-1"
+title = "python3-virtualenv 20.26.3-1"
+version = "20.26.3-1"
 description = "Virtual Python Environment builder"
-date = "2023-12-04T15:36:39"
+date = "2024-06-26T11:47:59"
 aliases = "/packages/221174"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/virtualenv"
 arch = "x86_64"
-size = "3244764"
-usize = "4805062"
-sha1sum = "7e7187d169c0301efb171a77e59aeab2d4dfb794"
+size = "4487684"
+usize = "6765782"
+sha1sum = "f5051714b81d553cfed5f8a53b0d8d76f5f6f1ea"
 depends = "['python3-distlib', 'python3-filelock', 'python3-platformdirs']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -19,11 +19,11 @@ Virtual Python Environment builder
 
 ### Files: 
 * /usr/bin/virtualenv
-* /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/virtualenv-20.25.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/virtualenv-20.26.3.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/virtualenv-20.26.3.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/virtualenv-20.26.3.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/virtualenv-20.26.3.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/virtualenv-20.26.3.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/virtualenv/activation/activator.py
 * /usr/lib/python3.12/site-packages/virtualenv/activation/bash/activate.sh
 * /usr/lib/python3.12/site-packages/virtualenv/activation/bash/__init__.py
@@ -244,10 +244,12 @@ Virtual Python Environment builder
 * /usr/lib/python3.12/site-packages/virtualenv/seed/seeder.py
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/acquire.py
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/bundle.py
-* /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/pip-23.3.1-py3-none-any.whl
+* /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/pip-24.0-py3-none-any.whl
+* /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/pip-24.1-py3-none-any.whl
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/setuptools-68.0.0-py3-none-any.whl
-* /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/setuptools-69.0.2-py3-none-any.whl
+* /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/setuptools-70.1.0-py3-none-any.whl
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/wheel-0.42.0-py3-none-any.whl
+* /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/wheel-0.43.0-py3-none-any.whl
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/__init__.py
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/virtualenv/seed/wheels/embed/__pycache__/__init__.cpython-312.pyc
@@ -309,5 +311,5 @@ Virtual Python Environment builder
 * /usr/lib/python3.12/site-packages/virtualenv/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/virtualenv/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/virtualenv/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-virtualenv-20.25.0/LICENSE
-* /usr/share/doc/python3-virtualenv-20.25.0/README.md
+* /usr/share/doc/python3-virtualenv-20.26.3/LICENSE
+* /usr/share/doc/python3-virtualenv-20.26.3/README.md

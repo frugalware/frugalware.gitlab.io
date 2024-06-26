@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-poetry 1.7.1-1"
-version = "1.7.1-1"
+title = "python3-poetry 1.8.3-1"
+version = "1.8.3-1"
 description = "Python dependency management and packaging made easy"
-date = "2023-12-04T15:08:58"
+date = "2024-06-26T11:49:27"
 aliases = "/packages/221177"
 categories = ['devel-extra']
 upstreamurl = "https://python-poetry.org"
 arch = "x86_64"
-size = "422412"
-usize = "2639759"
-sha1sum = "b81b40f47ea96c57ef369d8bbc27a41c1356a614"
+size = "448156"
+usize = "2791754"
+sha1sum = "70a72c98d1ad0873f43217025b63573907c19fb0"
 depends = "['html5lib-python', 'pexpect', 'python3-build', 'python3-cachecontrol', 'python3-cachy', 'python3-cleo', 'python3-crashtest', 'python3-dulwich', 'python3-fastjsonschema', 'python3-filelock', 'python3-installer', 'python3-keyring', 'python3-lockfile', 'python3-packaging', 'python3-pkginfo', 'python3-platformdirs', 'python3-poetry-core', 'python3-poetry-plugin-export', 'python3-pyproject-hooks', 'python3-requests-toolbelt', 'python3-shellingham', 'python3-tomlkit', 'python3-trove-classifiers', 'python3-urllib3', 'python3-virtualenv']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ Python dependency management and packaging made easy
 
 ### Files: 
 * /usr/bin/poetry
-* /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/poetry-1.7.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/poetry-1.8.3.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/poetry-1.8.3.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/poetry-1.8.3.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/poetry-1.8.3.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/poetry-1.8.3.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/poetry/config/config.py
 * /usr/lib/python3.12/site-packages/poetry/config/config_source.py
 * /usr/lib/python3.12/site-packages/poetry/config/dict_config_source.py
@@ -233,9 +233,12 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.12/site-packages/poetry/exceptions.py
 * /usr/lib/python3.12/site-packages/poetry/factory.py
 * /usr/lib/python3.12/site-packages/poetry/inspection/info.py
+* /usr/lib/python3.12/site-packages/poetry/inspection/lazy_wheel.py
 * /usr/lib/python3.12/site-packages/poetry/inspection/__init__.py
 * /usr/lib/python3.12/site-packages/poetry/inspection/__pycache__/info.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/poetry/inspection/__pycache__/info.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/poetry/inspection/__pycache__/lazy_wheel.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/poetry/inspection/__pycache__/lazy_wheel.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/poetry/inspection/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/poetry/inspection/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/poetry/installation/chef.py
@@ -584,7 +587,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.12/site-packages/poetry/__pycache__/__version__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/poetry/__version__.py
 * /usr/share/bash-completion/completions/poetry
-* /usr/share/doc/python3-poetry-1.7.1/LICENSE
-* /usr/share/doc/python3-poetry-1.7.1/README.md
+* /usr/share/doc/python3-poetry-1.8.3/LICENSE
+* /usr/share/doc/python3-poetry-1.8.3/README.md
 * /usr/share/fish/vendor_completions.d/poetry.fish
 * /usr/share/zsh/site-functions/_poetry

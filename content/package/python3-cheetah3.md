@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-cheetah3 3.3.3-1"
-version = "3.3.3-1"
+title = "python3-cheetah3 3.3.4a3-1"
+version = "3.3.4a3-1"
 description = "A Python-powered template engine and code generator"
-date = "2023-12-04T14:15:27"
+date = "2024-06-26T12:04:40"
 aliases = "/packages/220003"
 categories = ['devel-extra']
 upstreamurl = "http://www.cheetahtemplate.org/"
 arch = "x86_64"
-size = "333336"
-usize = "1558652"
-sha1sum = "3bcef791471caaf1e6c0ed1349f43fc803605493"
+size = "335952"
+usize = "1550123"
+sha1sum = "46d5df767b6a8766358e281767338b6006d96bf3"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
@@ -149,12 +149,12 @@ A Python-powered template engine and code generator
 * /usr/lib/python3.12/site-packages/Cheetah/__pycache__/Unspecified.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Cheetah/__pycache__/Version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/Cheetah/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/CT3-3.3.3-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/CT3-3.3.3-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/CT3-3.3.3-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/CT3-3.3.3-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/CT3-3.3.3-py3.12.egg-info/top_level.txt
-* /usr/share/doc/python3-cheetah3-3.3.3/BUGS
-* /usr/share/doc/python3-cheetah3-3.3.3/LICENSE
-* /usr/share/doc/python3-cheetah3-3.3.3/README.rst
-* /usr/share/doc/python3-cheetah3-3.3.3/TODO
+* /usr/lib/python3.12/site-packages/CT3-3.3.4a3-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/CT3-3.3.4a3-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/CT3-3.3.4a3-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/CT3-3.3.4a3-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/CT3-3.3.4a3-py3.12.egg-info/top_level.txt
+* /usr/share/doc/python3-cheetah3-3.3.4a3/BUGS
+* /usr/share/doc/python3-cheetah3-3.3.4a3/LICENSE
+* /usr/share/doc/python3-cheetah3-3.3.4a3/README.rst
+* /usr/share/doc/python3-cheetah3-3.3.4a3/TODO

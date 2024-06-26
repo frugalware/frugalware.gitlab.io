@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sphinx-devhelp 1.0.5-1"
-version = "1.0.5-1"
+title = "python3-sphinx-devhelp 1.0.6-1"
+version = "1.0.6-1"
 description = "Sphinx extension which outputs QtHelp document"
-date = "2023-10-05T11:59:57"
+date = "2024-06-26T12:06:13"
 aliases = "/packages/220113"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-devhelp"
 arch = "x86_64"
-size = "19584"
-usize = "135349"
-sha1sum = "d305cf25ba2c311f327d9bd1dba917e4c550fe0f"
+size = "19800"
+usize = "135792"
+sha1sum = "224b416424276bb8b1bfaac4840b8124d68cc7b4"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-sphinx']"
 +++
@@ -119,10 +119,10 @@ Sphinx extension which outputs QtHelp document
 * /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/__init__.py
 * /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sphinxcontrib/devhelp/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.5.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.5.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.5.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.5.dist-info/WHEEL
-* /usr/share/doc/python3-sphinx-devhelp-1.0.5/CHANGES
-* /usr/share/doc/python3-sphinx-devhelp-1.0.5/LICENSE
-* /usr/share/doc/python3-sphinx-devhelp-1.0.5/README.rst
+* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.6.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.6.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.6.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sphinxcontrib_devhelp-1.0.6.dist-info/WHEEL
+* /usr/share/doc/python3-sphinx-devhelp-1.0.6/CHANGES
+* /usr/share/doc/python3-sphinx-devhelp-1.0.6/LICENSE
+* /usr/share/doc/python3-sphinx-devhelp-1.0.6/README.rst

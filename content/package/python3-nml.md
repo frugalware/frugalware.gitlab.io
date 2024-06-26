@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-nml 0.7.4-1"
-version = "0.7.4-1"
+title = "python3-nml 0.7.5-1"
+version = "0.7.5-1"
 description = "OpenTTD NewGRF Meta Language Tools"
-date = "2023-12-04T15:04:26"
+date = "2024-06-26T12:01:25"
 aliases = "/packages/220591"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/OpenTTD/nml"
 arch = "x86_64"
-size = "489284"
-usize = "2675119"
-sha1sum = "80d685b0840bdfcd2e532267febb2e72ccdca47f"
+size = "493292"
+usize = "2678412"
+sha1sum = "e224c3fdcf084015207c4d5d279051aa2a3dbd3a"
 depends = "['python3-pillow', 'python3-ply']"
 +++
 ### Description: 
@@ -241,5 +241,5 @@ OpenTTD NewGRF Meta Language Tools
 * /usr/lib/python3.12/site-packages/nml/__pycache__/version_update.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/nml/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/nml_lz77.cpython-312-x86_64-linux-gnu.so
-* /usr/share/doc/python3-nml-0.7.4/LICENSE
-* /usr/share/doc/python3-nml-0.7.4/README.md
+* /usr/share/doc/python3-nml-0.7.5/LICENSE
+* /usr/share/doc/python3-nml-0.7.5/README.md

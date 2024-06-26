@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-greenlet 3.0.1-1"
-version = "3.0.1-1"
+title = "python3-greenlet 3.0.3-1"
+version = "3.0.3-1"
 description = "Lightweight in-process concurrent programming"
-date = "2023-12-04T14:40:58"
+date = "2024-06-26T12:02:18"
 aliases = "/packages/219778"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/greenlet"
 arch = "x86_64"
-size = "188744"
-usize = "818495"
-sha1sum = "962d358a3101f8df9b4a76f0e4fe6f2967f9c4f9"
+size = "194040"
+usize = "821440"
+sha1sum = "94b2e98e9be5d8238ed4e08d6ec3464eb60e6648"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-eventlet', 'python3-gevent', 'uwsgi-plugin-python']"
 +++
@@ -19,12 +19,12 @@ Lightweight in-process concurrent programming
 
 ### Files: 
 * /usr/include/python3.12/greenlet/greenlet.h
-* /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/greenlet-3.0.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/greenlet-3.0.3-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/greenlet-3.0.3-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/greenlet-3.0.3-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/greenlet-3.0.3-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/greenlet-3.0.3-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/greenlet-3.0.3-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/greenlet/greenlet.cpp
 * /usr/lib/python3.12/site-packages/greenlet/greenlet.h
 * /usr/lib/python3.12/site-packages/greenlet/greenlet_allocator.hpp
@@ -132,6 +132,6 @@ Lightweight in-process concurrent programming
 * /usr/lib/python3.12/site-packages/greenlet/_greenlet.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/greenlet/__init__.py
 * /usr/lib/python3.12/site-packages/greenlet/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-greenlet-3.0.1/AUTHORS
-* /usr/share/doc/python3-greenlet-3.0.1/LICENSE
-* /usr/share/doc/python3-greenlet-3.0.1/README.rst
+* /usr/share/doc/python3-greenlet-3.0.3/AUTHORS
+* /usr/share/doc/python3-greenlet-3.0.3/LICENSE
+* /usr/share/doc/python3-greenlet-3.0.3/README.rst

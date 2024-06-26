@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dbusmock 0.30.0-1"
-version = "0.30.0-1"
+title = "python3-dbusmock 0.31.1-1"
+version = "0.31.1-1"
 description = "python-dbusmock: mock D-Bus objects for tests"
-date = "2023-12-04T14:20:37"
+date = "2024-06-26T12:10:19"
 aliases = "/packages/219601"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/python-dbusmock"
 arch = "x86_64"
-size = "114752"
-usize = "754370"
-sha1sum = "44d9861b4251b2bebcbd3e9e21fd05bc73d887d8"
+size = "114584"
+usize = "756250"
+sha1sum = "906c61982580eb14ce594d93e60aa977da67d01a"
 depends = "['dbus-python']"
 +++
 ### Description: 
@@ -34,6 +34,7 @@ python-dbusmock: mock D-Bus objects for tests
 * /usr/lib/python3.12/site-packages/dbusmock/templates/systemd.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/timedated.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/upower.py
+* /usr/lib/python3.12/site-packages/dbusmock/templates/upower_power_profiles_daemon.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/urfkill.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__init__.py
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5-obex.cpython-312.opt-1.pyc
@@ -64,6 +65,8 @@ python-dbusmock: mock D-Bus objects for tests
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/timedated.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower_power_profiles_daemon.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower_power_profiles_daemon.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/urfkill.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/urfkill.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/__init__.cpython-312.opt-1.pyc
@@ -84,11 +87,11 @@ python-dbusmock: mock D-Bus objects for tests
 * /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.30.0.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.30.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.30.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.30.0.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.30.0.dist-info/WHEEL
-* /usr/share/doc/python3-dbusmock-0.30.0/COPYING
-* /usr/share/doc/python3-dbusmock-0.30.0/NEWS
-* /usr/share/doc/python3-dbusmock-0.30.0/README.md
+* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/WHEEL
+* /usr/share/doc/python3-dbusmock-0.31.1/COPYING
+* /usr/share/doc/python3-dbusmock-0.31.1/NEWS
+* /usr/share/doc/python3-dbusmock-0.31.1/README.md
