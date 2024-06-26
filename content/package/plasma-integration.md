@@ -11,14 +11,14 @@ arch = "x86_64"
 size = "134772"
 usize = "496489"
 sha1sum = "73e030a1f1b03408ea79aaafb3df49b2c2a45f76"
-depends = "['breeze>=6.1.0', 'hack', 'kio>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwayland>=6.1.0', 'libxcursor', 'noto-emoji', 'noto-fonts', 'xdg-desktop-portal-kde>=6.1.0', 'xdg-desktop-portal-kde>=6.1.0']"
+depends = "['breeze>=6.1.1', 'hack', 'kio>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwayland>=6.1.1', 'libxcursor', 'noto-emoji', 'noto-fonts', 'xdg-desktop-portal-kde>=6.1.1', 'xdg-desktop-portal-kde>=6.1.1']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
 
 ### Files: 
 * /usr/lib/qt6/plugins/platformthemes/KDEPlasmaPlatformTheme6.so
-* /usr/share/doc/plasma-integration-6.1.0/README.md
+* /usr/share/doc/plasma-integration-6.1.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmaintegration5.mo

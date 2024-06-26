@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "14916"
 usize = "44453"
 sha1sum = "b10bb7cc1a9ab1a6de2e16e8e9d44b61f620bbb0"
-depends = "['knotifications>=6.3.0', 'kpty>=6.3.0', 'oxygen-sounds>=6.1.0']"
+depends = "['knotifications>=6.3.0', 'kpty>=6.3.0', 'oxygen-sounds>=6.1.1']"
 +++
 ### Description: 
 Daemon listening for wall and write messages.
