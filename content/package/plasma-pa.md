@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-pa 6.1.0-1"
-version = "6.1.0-1"
+title = "plasma-pa 6.1.1-1"
+version = "6.1.1-1"
 description = "Plasma applet written in QML for PulseAudio"
-date = "2024-06-19T19:43:25"
+date = "2024-06-26T07:18:16"
 aliases = "/packages/218400"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "239292"
-usize = "1044075"
-sha1sum = "7622375394e42bbfaa7f65c20eb564009fb2d21a"
+size = "239268"
+usize = "1044149"
+sha1sum = "de60b35f1c30b9ccab126f18fb8f48a33809c888"
 depends = "['kcmutils>=6.3.0', 'kdeclarative>=6.3.0', 'kirigami-addons', 'kitemmodels>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'ksvg>=6.3.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.1.1', 'pulseaudio-qt', 'sound-theme-freedesktop']"
 +++
 ### Description: 
