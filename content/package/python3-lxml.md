@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-lxml 4.9.3-1"
-version = "4.9.3-1"
+title = "python3-lxml 5.2.2-1"
+version = "5.2.2-1"
 description = "Easy-to-use library for working with XML and HTML in Python."
-date = "2023-10-07T09:38:50"
+date = "2024-06-26T12:51:43"
 aliases = "/packages/219317"
 categories = ['devel-extra']
 upstreamurl = "http://lxml.de/"
 arch = "x86_64"
-size = "1319476"
-usize = "5633181"
-sha1sum = "6b17eb34a62539514602e1ef68830ccaf7e895ce"
+size = "1266100"
+usize = "5372641"
+sha1sum = "6f33b8e1cccbaca6a7b18f17b6308ff0666689ec"
 depends = "['libxml2>=2.9.6', 'libxslt>=1.1.31', 'python3>=3.12']"
 reverse_depends = "['calibre', 'glad', 'hotdoc', 'hotdoc', 'piper', 'python3-dbus-deviation', 'sigil']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['calibre', 'glad', 'hotdoc', 'hotdoc', 'piper', 'python3-dbu
 Easy-to-use library for working with XML and HTML in Python.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/lxml-4.9.3-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/lxml-5.2.2-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/lxml-5.2.2-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/lxml-5.2.2-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/lxml-5.2.2-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/lxml-5.2.2-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/lxml-5.2.2-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/lxml/apihelpers.pxi
 * /usr/lib/python3.12/site-packages/lxml/builder.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/lxml/builder.py
@@ -41,7 +41,6 @@ Easy-to-use library for working with XML and HTML in Python.
 * /usr/lib/python3.12/site-packages/lxml/etree_api.h
 * /usr/lib/python3.12/site-packages/lxml/extensions.pxi
 * /usr/lib/python3.12/site-packages/lxml/html/builder.py
-* /usr/lib/python3.12/site-packages/lxml/html/clean.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/lxml/html/clean.py
 * /usr/lib/python3.12/site-packages/lxml/html/defs.py
 * /usr/lib/python3.12/site-packages/lxml/html/diff.cpython-312-x86_64-linux-gnu.so
@@ -162,5 +161,5 @@ Easy-to-use library for working with XML and HTML in Python.
 * /usr/lib/python3.12/site-packages/lxml/__pycache__/_elementpath.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/lxml/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/lxml/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-lxml-4.9.3/INSTALL.txt
-* /usr/share/doc/python3-lxml-4.9.3/README.rst
+* /usr/share/doc/python3-lxml-5.2.2/INSTALL.txt
+* /usr/share/doc/python3-lxml-5.2.2/README.rst

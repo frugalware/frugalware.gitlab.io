@@ -23,9 +23,9 @@ Python bindings to the Rust rpds crate for persistent data structures
 * /usr/lib/python3.12/site-packages/rpds/__init__.pyi
 * /usr/lib/python3.12/site-packages/rpds/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/rpds/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/rpds_py-0.18.0.dist-info/license_files/LICENSE
-* /usr/lib/python3.12/site-packages/rpds_py-0.18.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/rpds_py-0.18.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/rpds_py-0.18.0.dist-info/WHEEL
-* /usr/share/doc/python3-rpds-py-0.18.0/LICENSE
-* /usr/share/doc/python3-rpds-py-0.18.0/README.rst
+* /usr/lib/python3.12/site-packages/rpds_py-0.18.1.dist-info/license_files/LICENSE
+* /usr/lib/python3.12/site-packages/rpds_py-0.18.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/rpds_py-0.18.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/rpds_py-0.18.1.dist-info/WHEEL
+* /usr/share/doc/python3-rpds-py-0.18.1/LICENSE
+* /usr/share/doc/python3-rpds-py-0.18.1/README.rst

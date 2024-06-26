@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-zopeinterface 6.1-1"
-version = "6.1-1"
+title = "python3-zopeinterface 6.4-1"
+version = "6.4-1"
 description = "Standalone Zope interface library"
-date = "2023-12-04T15:55:17"
+date = "2024-06-26T13:04:44"
 aliases = "/packages/219323"
 categories = ['network-extra']
 upstreamurl = "http://pypi.python.org/pypi/zope.interface"
 arch = "x86_64"
-size = "337176"
-usize = "2077621"
-sha1sum = "4e87b135e8df602414663f46ce8958e58056a57b"
+size = "340300"
+usize = "2075718"
+sha1sum = "f3667424c33bebc312be82a21819a23b64e836ba"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-twisted']"
 +++
@@ -18,14 +18,14 @@ reverse_depends = "['python3-twisted']"
 Standalone Zope interface library
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12-nspkg.pth
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/namespace_packages.txt
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/zope.interface-6.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12-nspkg.pth
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/namespace_packages.txt
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/zope.interface-6.4.post2-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/zope/interface/adapter.py
 * /usr/lib/python3.12/site-packages/zope/interface/advice.py
 * /usr/lib/python3.12/site-packages/zope/interface/common/builtins.py
@@ -128,5 +128,5 @@ Standalone Zope interface library
 * /usr/lib/python3.12/site-packages/zope/interface/__pycache__/_compat.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/zope/interface/__pycache__/_flatten.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/zope/interface/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-zopeinterface-6.1/COPYRIGHT.txt
-* /usr/share/doc/python3-zopeinterface-6.1/README.rst
+* /usr/share/doc/python3-zopeinterface-6.4/COPYRIGHT.txt
+* /usr/share/doc/python3-zopeinterface-6.4/README.rst

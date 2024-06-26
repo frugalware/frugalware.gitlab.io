@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dulwich 0.21.6-1"
-version = "0.21.6-1"
+title = "python3-dulwich 0.22.1-1"
+version = "0.22.1-1"
 description = "Pure-Python implementation of the Git file formats and protocols"
-date = "2023-11-06T17:11:13"
+date = "2024-06-26T12:32:35"
 aliases = "/packages/221161"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/dulwich"
 arch = "x86_64"
-size = "886928"
-usize = "6728315"
-sha1sum = "e43b751f3ef2ab31f6638dcd3b86e2ff41865ee6"
+size = "507836"
+usize = "3232103"
+sha1sum = "411cd2e1115edbe21a8edc11bd72268764c73a33"
 depends = "['paramiko', 'pyinotify', 'python3-fastimport', 'python3-gpgme', 'python3-idna', 'python3-openssl', 'python3-urllib3']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -21,22 +21,12 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/bin/dul-receive-pack
 * /usr/bin/dul-upload-pack
 * /usr/bin/dulwich
-* /usr/lib/python3.12/site-packages/docs/tutorial/conclusion.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/encoding.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/file-format.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/index.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/introduction.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/object-store.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/porcelain.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/remote.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/repo.txt
-* /usr/lib/python3.12/site-packages/docs/tutorial/tag.txt
-* /usr/lib/python3.12/site-packages/dulwich-0.21.6.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/dulwich-0.21.6.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/dulwich-0.21.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/dulwich-0.21.6.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/dulwich-0.21.6.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/dulwich-0.21.6.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/dulwich-0.22.1.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/dulwich-0.22.1.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/dulwich-0.22.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/dulwich-0.22.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/dulwich-0.22.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/dulwich-0.22.1.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/dulwich/archive.py
 * /usr/lib/python3.12/site-packages/dulwich/bundle.py
 * /usr/lib/python3.12/site-packages/dulwich/cli.py
@@ -50,15 +40,9 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.12/site-packages/dulwich/config.py
 * /usr/lib/python3.12/site-packages/dulwich/contrib/diffstat.py
 * /usr/lib/python3.12/site-packages/dulwich/contrib/paramiko_vendor.py
-* /usr/lib/python3.12/site-packages/dulwich/contrib/README.md
-* /usr/lib/python3.12/site-packages/dulwich/contrib/README.swift.rst
 * /usr/lib/python3.12/site-packages/dulwich/contrib/release_robot.py
 * /usr/lib/python3.12/site-packages/dulwich/contrib/requests_vendor.py
 * /usr/lib/python3.12/site-packages/dulwich/contrib/swift.py
-* /usr/lib/python3.12/site-packages/dulwich/contrib/test_paramiko_vendor.py
-* /usr/lib/python3.12/site-packages/dulwich/contrib/test_release_robot.py
-* /usr/lib/python3.12/site-packages/dulwich/contrib/test_swift.py
-* /usr/lib/python3.12/site-packages/dulwich/contrib/test_swift_smoke.py
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__init__.py
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/diffstat.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/diffstat.cpython-312.pyc
@@ -70,14 +54,6 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/requests_vendor.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/swift.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/swift.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_paramiko_vendor.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_paramiko_vendor.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_release_robot.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_release_robot.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_swift.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_swift.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_swift_smoke.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/test_swift_smoke.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/contrib/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/credentials.py
@@ -110,158 +86,17 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.12/site-packages/dulwich/stash.py
 * /usr/lib/python3.12/site-packages/dulwich/stdint.h
 * /usr/lib/python3.12/site-packages/dulwich/submodule.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/server_utils.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_client.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_pack.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_patch.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_porcelain.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_repository.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_server.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_utils.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/test_web.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/utils.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__init__.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/server_utils.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/server_utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_client.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_pack.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_pack.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_patch.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_patch.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_porcelain.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_porcelain.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_repository.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_repository.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_server.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_server.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_utils.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_web.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/test_web.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/utils.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/compat/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_archive.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_blackbox.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_bundle.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_client.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_config.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_credentials.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_diff_tree.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_fastexport.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_file.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_grafts.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_graph.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_greenthreads.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_hooks.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_ignore.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_index.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_lfs.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_line_ending.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_lru_cache.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_mailmap.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_missing_obj_finder.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_objects.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_objectspec.py
 * /usr/lib/python3.12/site-packages/dulwich/tests/test_object_store.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_pack.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_patch.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_porcelain.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_protocol.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_reflog.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_refs.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_repository.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_server.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_stash.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_utils.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_walk.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/test_web.py
 * /usr/lib/python3.12/site-packages/dulwich/tests/utils.py
 * /usr/lib/python3.12/site-packages/dulwich/tests/__init__.py
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_archive.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_archive.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_blackbox.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_blackbox.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_bundle.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_bundle.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_client.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_config.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_config.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_credentials.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_credentials.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_diff_tree.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_diff_tree.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_fastexport.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_fastexport.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_file.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_file.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_grafts.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_grafts.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_graph.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_graph.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_greenthreads.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_greenthreads.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_hooks.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_hooks.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_ignore.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_ignore.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_index.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_index.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_lfs.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_lfs.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_line_ending.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_line_ending.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_lru_cache.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_lru_cache.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_mailmap.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_mailmap.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_missing_obj_finder.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_missing_obj_finder.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_objects.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_objects.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_objectspec.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_objectspec.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_object_store.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_object_store.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_pack.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_pack.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_patch.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_patch.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_porcelain.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_porcelain.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_protocol.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_protocol.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_reflog.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_reflog.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_refs.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_refs.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_repository.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_repository.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_server.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_server.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_stash.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_stash.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_utils.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_walk.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_walk.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_web.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/test_web.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/utils.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/tests/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/walk.py
 * /usr/lib/python3.12/site-packages/dulwich/web.py
-* /usr/lib/python3.12/site-packages/dulwich/_diff_tree.c
-* /usr/lib/python3.12/site-packages/dulwich/_diff_tree.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/dulwich/_objects.c
-* /usr/lib/python3.12/site-packages/dulwich/_objects.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/dulwich/_pack.c
-* /usr/lib/python3.12/site-packages/dulwich/_pack.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/dulwich/__init__.py
 * /usr/lib/python3.12/site-packages/dulwich/__main__.py
 * /usr/lib/python3.12/site-packages/dulwich/__pycache__/archive.cpython-312.opt-1.pyc
@@ -338,8 +173,8 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.12/site-packages/dulwich/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/dulwich/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/dulwich/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-dulwich-0.21.6/AUTHORS
-* /usr/share/doc/python3-dulwich-0.21.6/COPYING
-* /usr/share/doc/python3-dulwich-0.21.6/NEWS
-* /usr/share/doc/python3-dulwich-0.21.6/README.rst
-* /usr/share/doc/python3-dulwich-0.21.6/TODO
+* /usr/share/doc/python3-dulwich-0.22.1/AUTHORS
+* /usr/share/doc/python3-dulwich-0.22.1/COPYING
+* /usr/share/doc/python3-dulwich-0.22.1/NEWS
+* /usr/share/doc/python3-dulwich-0.22.1/README.rst
+* /usr/share/doc/python3-dulwich-0.22.1/TODO

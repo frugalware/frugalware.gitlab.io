@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pythran 0.14.0-1"
-version = "0.14.0-1"
+title = "python3-pythran 0.16.1-1"
+version = "0.16.1-1"
 description = "Ahead of Time compiler for numeric kernels"
-date = "2023-12-04T15:19:58"
+date = "2024-06-26T12:57:17"
 aliases = "/packages/220487"
 categories = ['devel-extra']
 upstreamurl = "https://pythran.readthedocs.io/"
 arch = "x86_64"
-size = "824416"
-usize = "5844746"
-sha1sum = "193337c3f6dc5d5548a879dbeb09ba5233c3c4c6"
+size = "849860"
+usize = "6083628"
+sha1sum = "ada92dc67e485eb944c95d6ba404d773b33dd9a5"
 depends = "['boost', 'python3-beniget', 'python3-networkx', 'python3-numpy', 'python3-ply', 'python3-six']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Ahead of Time compiler for numeric kernels
 * /usr/bin/pythran-config
 * /usr/lib/python3.12/site-packages/omp/__init__.py
 * /usr/lib/python3.12/site-packages/omp/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pythran-0.14.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pythran-0.14.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/pythran-0.14.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pythran-0.14.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/pythran-0.14.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pythran-0.14.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pythran-0.16.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pythran-0.16.1-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/pythran-0.16.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pythran-0.16.1-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/pythran-0.16.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pythran-0.16.1-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/pythran/analyses/aliases.py
 * /usr/lib/python3.12/site-packages/pythran/analyses/ancestors.py
 * /usr/lib/python3.12/site-packages/pythran/analyses/argument_effects.py
@@ -313,7 +313,6 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/replace.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/rstrip.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/split.hpp
-* /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/splitlines.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/startswith.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/strip.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/builtins/str/upper.hpp
@@ -513,7 +512,6 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/replace.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/rstrip.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/split.hpp
-* /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/splitlines.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/startswith.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/strip.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/builtins/str/upper.hpp
@@ -621,6 +619,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/math/tan.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/math/tanh.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/math/trunc.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/abs.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/absolute.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/add.hpp
@@ -998,6 +997,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/ushort.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/var.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/vdot.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/vectorize.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/vstack.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/where.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/zeros.hpp
@@ -1008,6 +1008,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/omp/get_wtime.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/omp/in_parallel.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/omp/set_nested.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/include/omp/set_num_threads.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/operator_/abs.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/operator_/add.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/operator_/and_.hpp
@@ -1190,6 +1191,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/numpy_operators.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/numpy_op_helper.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/numpy_texpr.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/numpy_ufunc.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/numpy_unary_op.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/numpy_vexpr.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/pointer.hpp
@@ -1208,6 +1210,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/uintp.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/variant_functor.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/types/vectorizable_type.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/include/utils/allocate.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/utils/array_helper.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/utils/broadcast_copy.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/include/utils/functor.hpp
@@ -1295,6 +1298,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/math/tan.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/math/tanh.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/math/trunc.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/abs.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/absolute.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/add.hpp
@@ -1674,6 +1678,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/ushort.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/var.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/vdot.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/vectorize.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/vstack.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/where.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/numpy/zeros.hpp
@@ -1684,6 +1689,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/omp/get_wtime.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/omp/in_parallel.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/omp/set_nested.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/omp/set_num_threads.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/operator_/abs.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/operator_/add.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/operator_/and_.hpp
@@ -1887,6 +1893,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/pythonic/types/uintp.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/types/variant_functor.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/types/vectorizable_type.hpp
+* /usr/lib/python3.12/site-packages/pythran/pythonic/utils/allocate.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/utils/array_helper.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/utils/boost_local_config.hpp
 * /usr/lib/python3.12/site-packages/pythran/pythonic/utils/broadcast_copy.hpp
@@ -2002,17 +2009,27 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512bw.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512cd.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512dq.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512er.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512f.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512ifma.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512pf.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512vbmi.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512vnni_avx512bw.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avx512vnni_avx512vbmi.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_avxvnni.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_constants.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_emulated.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_fma3_avx.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_fma3_avx2.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_fma3_sse.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_fma4.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_generic.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_generic_fwd.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_i8mm_neon64.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_isa.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_neon.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_neon64.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_rvv.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_scalar.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_sse2.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_sse3.hpp
@@ -2020,9 +2037,11 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_sse4_2.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_ssse3.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_sve.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/arch/xsimd_wasm.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/config/xsimd_arch.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/config/xsimd_config.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/config/xsimd_cpuid.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/config/xsimd_inline.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/math/xsimd_rem_pio2.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/memory/xsimd_aligned_allocator.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/memory/xsimd_alignment.hpp
@@ -2032,18 +2051,28 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512bw_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512cd_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512dq_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512er_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512f_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512ifma_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512pf_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512vbmi_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512vnni_avx512bw_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx512vnni_avx512vbmi_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avxvnni_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_avx_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_batch.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_batch_constant.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_emulated_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_fma3_avx2_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_fma3_avx_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_fma3_sse_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_fma4_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_generic_arch.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_i8mm_neon64_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_neon64_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_neon_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_register.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_rvv_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_sse2_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_sse3_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_sse4_1_register.hpp
@@ -2052,6 +2081,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_sve_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_traits.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_utils.hpp
+* /usr/lib/python3.12/site-packages/pythran/xsimd/types/xsimd_wasm_register.hpp
 * /usr/lib/python3.12/site-packages/pythran/xsimd/xsimd.hpp
 * /usr/lib/python3.12/site-packages/pythran/__init__.py
 * /usr/lib/python3.12/site-packages/pythran/__pycache__/backend.cpython-312.pyc
@@ -2081,7 +2111,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.12/site-packages/pythran/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pythran/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pythran/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pythran-0.14.0/AUTHORS
-* /usr/share/doc/python3-pythran-0.14.0/Changelog
-* /usr/share/doc/python3-pythran-0.14.0/LICENSE
-* /usr/share/doc/python3-pythran-0.14.0/README.rst
+* /usr/share/doc/python3-pythran-0.16.1/AUTHORS
+* /usr/share/doc/python3-pythran-0.16.1/Changelog
+* /usr/share/doc/python3-pythran-0.16.1/LICENSE
+* /usr/share/doc/python3-pythran-0.16.1/README.rst

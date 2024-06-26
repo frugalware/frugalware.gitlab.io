@@ -18,10 +18,10 @@ reverse_depends = "['lutris', 'python3-cffi']"
 A complete C99 parsing library for python.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pycparser-2.21-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pycparser-2.22-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pycparser-2.22-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pycparser-2.22-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pycparser-2.22-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/pycparser/ast_transforms.py
 * /usr/lib/python3.12/site-packages/pycparser/c_ast.py
 * /usr/lib/python3.12/site-packages/pycparser/c_generator.py
@@ -55,7 +55,7 @@ A complete C99 parsing library for python.
 * /usr/lib/python3.12/site-packages/pycparser/__pycache__/_ast_gen.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pycparser/__pycache__/_build_tables.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pycparser/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pycparser-2.21/CHANGES
-* /usr/share/doc/python3-pycparser-2.21/CONTRIBUTORS
-* /usr/share/doc/python3-pycparser-2.21/LICENSE
-* /usr/share/doc/python3-pycparser-2.21/README.rst
+* /usr/share/doc/python3-pycparser-2.22/CHANGES
+* /usr/share/doc/python3-pycparser-2.22/CONTRIBUTORS
+* /usr/share/doc/python3-pycparser-2.22/LICENSE
+* /usr/share/doc/python3-pycparser-2.22/README.rst
