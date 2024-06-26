@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdp 6.1.0-1"
-version = "6.1.0-1"
+title = "krdp 6.1.1-1"
+version = "6.1.1-1"
 description = "Library and examples for creating an RDP server"
-date = "2024-06-21T08:44:21"
+date = "2024-06-26T10:03:52"
 aliases = "/packages/221525"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139956"
-usize = "535570"
-sha1sum = "e216f9f6d612e2c21fba8e16b6bcbf505712a454"
-depends = "['freerdp2', 'kcmutils>=6.3.0', 'kpipewire>=6.1.0', 'kstatusnotifieritem>=6.3.0', 'qtkeychain']"
+size = "143616"
+usize = "558238"
+sha1sum = "42fd3b1260a86af6312e72ff179733aa1ad4b233"
+depends = "['freerdp2', 'kcmutils>=6.3.0', 'kpipewire>=6.1.1', 'kstatusnotifieritem>=6.3.0', 'qtkeychain']"
 +++
 ### Description: 
 Library and examples for creating an RDP server
@@ -22,19 +22,21 @@ Library and examples for creating an RDP server
 * /usr/lib/cmake/KRdp/KRdpConfigVersion.cmake
 * /usr/lib/libKRdp.so
 * /usr/lib/libKRdp.so.6
-* /usr/lib/libKRdp.so.6.1.0
+* /usr/lib/libKRdp.so.6.1.1
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_krdpserver.so
 * /usr/lib/systemd/user/plasma-krdp_server.service
 * /usr/share/applications/kcm_krdpserver.desktop
 * /usr/share/applications/org.kde.krdp.desktop
-* /usr/share/doc/krdp-6.1.0/README.md
-* /usr/share/doc/krdp-6.1.0/README.md.license
+* /usr/share/doc/krdp-6.1.1/README.md
+* /usr/share/doc/krdp-6.1.1/README.md.license
 * /usr/share/locale/bg/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/bg/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/ca/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/krdpserver.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_krdpserver.mo
+* /usr/share/locale/cs/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/de/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_krdpserver.mo
@@ -42,8 +44,11 @@ Library and examples for creating an RDP server
 * /usr/share/locale/eo/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/es/LC_MESSAGES/krdpserver.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_krdpserver.mo
+* /usr/share/locale/eu/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/fr/LC_MESSAGES/krdpserver.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/gl/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_krdpserver.mo
@@ -59,7 +64,10 @@ Library and examples for creating an RDP server
 * /usr/share/locale/pl/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/sl/LC_MESSAGES/krdpserver.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_krdpserver.mo
+* /usr/share/locale/sv/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_krdpserver.mo
+* /usr/share/locale/tr/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/uk/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_krdpserver.mo

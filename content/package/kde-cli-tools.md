@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-cli-tools 6.1.0-1"
-version = "6.1.0-1"
+title = "kde-cli-tools 6.1.1-1"
+version = "6.1.1-1"
 description = "Tools based on KDE Frameworks 5 to better interact with the system."
-date = "2024-06-19T21:28:50"
+date = "2024-06-26T09:42:25"
 aliases = "/packages/218291"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "814740"
-usize = "3768487"
-sha1sum = "872dcba7ca7be48c131e36982adef6506d2e7707"
-depends = "['kcmutils>=6.3.0', 'kdesu>=6.3.0', 'plasma-workspace>=6.1.0']"
+size = "815072"
+usize = "3769571"
+sha1sum = "067b05909ca1eb08487d16bf5a91c33f2da1c95f"
+depends = "['kcmutils>=6.3.0', 'kdesu>=6.3.0', 'plasma-workspace>=6.1.1']"
 +++
 ### Description: 
 Tools based on KDE Frameworks 5 to better interact with the system.
@@ -587,6 +587,7 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/sr@latin/LC_MESSAGES/kstart.mo
 * /usr/share/locale/sv/LC_MESSAGES/kbroadcastnotification.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/sv/LC_MESSAGES/kde-inhibit.mo
 * /usr/share/locale/sv/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/sv/LC_MESSAGES/kioclient.mo
 * /usr/share/locale/sv/LC_MESSAGES/kmimetypefinder.mo

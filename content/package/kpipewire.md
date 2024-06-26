@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpipewire 6.1.0-1"
-version = "6.1.0-1"
+title = "kpipewire 6.1.1-1"
+version = "6.1.1-1"
 description = "Components relating to pipewire use in Plasma"
-date = "2024-06-19T21:51:47"
+date = "2024-06-26T09:50:39"
 aliases = "/packages/220610"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "119716"
-usize = "440232"
-sha1sum = "70e1b88ab4a3e086fbdabea9d38eee98b2ccbce5"
-depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.3.0', 'ki18n>=6.3.0', 'kwayland>=6.1.0', 'libepoxy', 'pipewire']"
+size = "119708"
+usize = "440296"
+sha1sum = "1ba5e33597846e80cf6199935664c575f5be5876"
+depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.3.0', 'ki18n>=6.3.0', 'kwayland>=6.1.1', 'libepoxy', 'pipewire']"
 reverse_depends = "['krdp', 'krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -39,13 +39,13 @@ Components relating to pipewire use in Plasma
 * /usr/lib/cmake/KPipeWire/KPipeWireTargets.cmake
 * /usr/lib/libKPipeWire.so
 * /usr/lib/libKPipeWire.so.6
-* /usr/lib/libKPipeWire.so.6.1.0
+* /usr/lib/libKPipeWire.so.6.1.1
 * /usr/lib/libKPipeWireDmaBuf.so
 * /usr/lib/libKPipeWireDmaBuf.so.6
-* /usr/lib/libKPipeWireDmaBuf.so.6.1.0
+* /usr/lib/libKPipeWireDmaBuf.so.6.1.1
 * /usr/lib/libKPipeWireRecord.so
 * /usr/lib/libKPipeWireRecord.so.6
-* /usr/lib/libKPipeWireRecord.so.6.1.0
+* /usr/lib/libKPipeWireRecord.so.6.1.1
 * /usr/lib/qt6/qml/org/kde/pipewire/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/pipewire/KPipeWireDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/libKPipeWireDeclarative.so
@@ -58,7 +58,7 @@ Components relating to pipewire use in Plasma
 * /usr/lib/qt6/qml/org/kde/pipewire/record/KPipeWireRecordDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/record/libKPipeWireRecordDeclarative.so
 * /usr/lib/qt6/qml/org/kde/pipewire/record/qmldir
-* /usr/share/doc/kpipewire-6.1.0/README.md
+* /usr/share/doc/kpipewire-6.1.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpipewire6.mo
