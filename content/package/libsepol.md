@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsepol 3.6-4"
-version = "3.6-4"
+title = "libsepol 3.7-1"
+version = "3.7-1"
 description = "SELinux binary policy manipulation library"
-date = "2024-06-03T09:25:17"
+date = "2024-06-26T18:35:43"
 aliases = "/packages/219880"
 categories = ['base']
 upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
-size = "4601420"
-usize = "5917926"
-sha1sum = "661970462d5b6ed4448bf75ea6e13be8dcf92260"
+size = "4620476"
+usize = "5883856"
+sha1sum = "a4124fee4d0af376c6243a86835f9a5a856a96e7"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libselinux']"
 +++
@@ -73,8 +73,8 @@ SELinux binary policy manipulation library
 * /usr/lib/libsepol.so
 * /usr/lib/libsepol.so.2
 * /usr/lib/pkgconfig/libsepol.pc
-* /usr/share/doc/libsepol-3.6/LICENSE
-* /usr/share/doc/libsepol-3.6/VERSION
+* /usr/share/doc/libsepol-3.7/LICENSE
+* /usr/share/doc/libsepol-3.7/VERSION
 * /usr/share/man/man3/sepol_check_context.3.gz
 * /usr/share/man/man8/chkcon.8.gz
 * /usr/share/man/man8/genpolbools.8.gz
