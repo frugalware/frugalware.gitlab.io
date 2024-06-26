@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "drkonqi 6.1.0-2"
-version = "6.1.0-2"
+title = "drkonqi 6.1.1-1"
+version = "6.1.1-1"
 description = "The KDE Crash Handler."
-date = "2024-06-22T21:07:55"
+date = "2024-06-26T07:04:27"
 aliases = "/packages/219483"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "598640"
-usize = "3211065"
-sha1sum = "cfa48c73b07007b4d6380635dd625b39a7728f2e"
+size = "598688"
+usize = "3211378"
+sha1sum = "03ac968641d73a18fef283d552b1ee7d79013d42"
 depends = "['kcmutils>=6.3.0', 'kidletime>=6.3.0', 'kio>=6.3.0', 'kirigami>=6.3.0', 'kitemmodels>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'python3-psutil', 'python3-pygdbmi', 'python3-sentry-sdk', 'syntax-highlighting>=6.3.0']"
 +++
 ### Description: 
@@ -48,7 +48,7 @@ The KDE Crash Handler.
 * /usr/share/applications/org.kde.drkonqi.desktop
 * /usr/share/dbus-1/system-services/org.kde.drkonqi.service
 * /usr/share/dbus-1/system.d/org.kde.drkonqi.conf
-* /usr/share/doc/drkonqi-6.1.0/README.md
+* /usr/share/doc/drkonqi-6.1.1/README.md
 * /usr/share/drkonqi/debuggers/external.mac/lldbrc
 * /usr/share/drkonqi/debuggers/external/gdbrc
 * /usr/share/drkonqi/debuggers/external/lldbrc

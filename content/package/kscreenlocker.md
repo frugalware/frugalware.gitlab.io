@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "234268"
 usize = "1006115"
 sha1sum = "1c1a6de480a5ede4a681f254cb6ad231be4165d9"
-depends = "['kidletime>=', 'kscreen>=6.1.0', 'layer-shell-qt>=6.1.0', 'libseccomp', 'systemd']"
+depends = "['kidletime>=', 'kscreen>=6.1.1', 'layer-shell-qt>=6.1.1', 'libseccomp', 'systemd']"
 reverse_depends = "['kwin']"
 +++
 ### Description: 
@@ -32,13 +32,13 @@ KDE Screenlocker
 * /usr/lib/kscreenlocker/kscreenlocker_greet
 * /usr/lib/libKScreenLocker.so
 * /usr/lib/libKScreenLocker.so.6
-* /usr/lib/libKScreenLocker.so.6.1.0
+* /usr/lib/libKScreenLocker.so.6.1.1
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_screenlocker.so
 * /usr/share/applications/kcm_screenlocker.desktop
 * /usr/share/dbus-1/interfaces/kf6_org.freedesktop.ScreenSaver.xml
 * /usr/share/dbus-1/interfaces/org.kde.screensaver.xml
-* /usr/share/doc/kscreenlocker-6.1.0/COPYING
-* /usr/share/doc/kscreenlocker-6.1.0/README.pam
+* /usr/share/doc/kscreenlocker-6.1.1/COPYING
+* /usr/share/doc/kscreenlocker-6.1.1/README.pam
 * /usr/share/knotifications6/ksmserver.notifyrc
 * /usr/share/ksmserver/screenlocker/org.kde.passworddialog/metadata.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcm_screenlocker.mo
