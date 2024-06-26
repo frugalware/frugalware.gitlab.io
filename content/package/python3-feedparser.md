@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "python3-feedparser 6.0.10-4"
-version = "6.0.10-4"
+title = "python3-feedparser 6.0.11-1"
+version = "6.0.11-1"
 description = "Python RSS and Atom feeds parser."
-date = "2023-10-11T18:48:01"
+date = "2024-06-26T14:36:11"
 aliases = "/packages/220536"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/feedparser"
 arch = "x86_64"
-size = "117704"
-usize = "553940"
-sha1sum = "f20316da97ab037dd9d7dffb87102194bceadccd"
+size = "119040"
+usize = "555380"
+sha1sum = "e87dc6be43377600808b58fecbc8bce64ad52a5a"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
 Python RSS and Atom feeds parser.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/feedparser-6.0.10-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/feedparser-6.0.11-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/feedparser-6.0.11-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/feedparser-6.0.11-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/feedparser-6.0.11-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/feedparser-6.0.11-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/feedparser/api.py
 * /usr/lib/python3.12/site-packages/feedparser/datetimes/asctime.py
 * /usr/lib/python3.12/site-packages/feedparser/datetimes/greek.py
@@ -86,6 +86,6 @@ Python RSS and Atom feeds parser.
 * /usr/lib/python3.12/site-packages/feedparser/__pycache__/urls.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/feedparser/__pycache__/util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/feedparser/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-feedparser-6.0.10/LICENSE
-* /usr/share/doc/python3-feedparser-6.0.10/NEWS
-* /usr/share/doc/python3-feedparser-6.0.10/README.rst
+* /usr/share/doc/python3-feedparser-6.0.11/LICENSE
+* /usr/share/doc/python3-feedparser-6.0.11/NEWS
+* /usr/share/doc/python3-feedparser-6.0.11/README.rst

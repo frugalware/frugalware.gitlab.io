@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-babel 2.13.1-1"
-version = "2.13.1-1"
+title = "python3-babel 2.14.0-1"
+version = "2.14.0-1"
 description = "A collection of tools for internationalizing Python applications"
-date = "2023-12-04T14:12:42"
+date = "2024-06-26T14:42:43"
 aliases = "/packages/220104"
 categories = ['devel-extra']
 upstreamurl = "http://babel.edgewall.org"
 arch = "x86_64"
-size = "6172524"
-usize = "32385221"
-sha1sum = "17fd609b9782141600bb3dea23833652ab2950a0"
+size = "6758688"
+usize = "35637821"
+sha1sum = "a8ff720987df98ccbe7dbdb411dd6fef2637992d"
 depends = "['python3>=3.12', 'python3-pytz']"
 reverse_depends = "['python3-sphinx']"
 +++
@@ -19,18 +19,24 @@ A collection of tools for internationalizing Python applications
 
 ### Files: 
 * /usr/bin/pybabel
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/Babel-2.13.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/Babel-2.14.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/babel/core.py
 * /usr/lib/python3.12/site-packages/babel/dates.py
 * /usr/lib/python3.12/site-packages/babel/global.dat
 * /usr/lib/python3.12/site-packages/babel/languages.py
 * /usr/lib/python3.12/site-packages/babel/lists.py
+* /usr/lib/python3.12/site-packages/babel/locale-data/aa.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/aa_DJ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/aa_ER.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/aa_ET.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ab.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ab_GE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/af.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/af_NA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/af_ZA.dat
@@ -40,9 +46,15 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/ak_GH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/am.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/am_ET.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/an.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ann.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ann_NG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/an_ES.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/apc.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/apc_SY.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ar.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/arn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/arn_CL.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ar_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ar_AE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ar_BH.dat
@@ -78,12 +90,23 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/ast_ES.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/as_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/az.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/az_Arab.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/az_Arab_IQ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/az_Arab_IR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/az_Arab_TR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/az_Cyrl.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/az_Cyrl_AZ.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/az_Latn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/az_Latn_AZ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ba.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bal.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bal_Arab.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bal_Arab_PK.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bal_Latn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bal_Latn_PK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bas.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bas_CM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ba_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/be.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bem.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bem_ZM.dat
@@ -94,11 +117,21 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/bg.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bgc.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bgc_IN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bgn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bgn_AE.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bgn_AF.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bgn_IR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bgn_OM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bgn_PK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bg_BG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bho.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bho_IN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/blt.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/blt_VN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bm.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bm_ML.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bm_Nkoo.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bm_Nkoo_ML.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bn_BD.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bn_IN.dat
@@ -110,16 +143,24 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/brx_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/br_FR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bs.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bss.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/bss_CM.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bs_Cyrl.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bs_Cyrl_BA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bs_Latn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/bs_Latn_BA.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/byn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/byn_ER.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ca.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cad.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cad_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ca_AD.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ca_ES.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ca_ES_VALENCIA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ca_FR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ca_IT.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cch.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cch_NG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ccp.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ccp_BD.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ccp_IN.dat
@@ -129,13 +170,21 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/ce_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cgg.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cgg_UG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cho.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cho_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/chr.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/chr_US.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cic.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cic_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ckb.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ckb_IQ.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ckb_IR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/co.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/co_FR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cs.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cs_CZ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cu.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/cu_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cv.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cv_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/cy.dat
@@ -161,6 +210,8 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/dsb_DE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/dua.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/dua_CM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/dv.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/dv_MV.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/dyo.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/dyo_SN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/dz.dat
@@ -173,6 +224,7 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/el.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/el_CY.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/el_GR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/el_POLYTON.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_150.dat
@@ -200,6 +252,8 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_DG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_DK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_DM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/en_Dsrt.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/en_Dsrt_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_ER.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_FI.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_FJ.dat
@@ -258,6 +312,8 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_SE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_SG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_SH.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/en_Shaw.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/en_Shaw_GB.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_SI.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_SL.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/en_SS.dat
@@ -409,12 +465,19 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/fy.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/fy_NL.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ga.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gaa.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gaa_GH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ga_GB.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ga_IE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gd.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gd_GB.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gez.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gez_ER.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gez_ET.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gl.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gl_ES.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/gn_PY.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gsw.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gsw_CH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/gsw_FR.dat
@@ -428,6 +491,9 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/ha.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/haw.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/haw_US.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ha_Arab.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ha_Arab_NG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ha_Arab_SD.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ha_GH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ha_NE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ha_NG.dat
@@ -437,6 +503,9 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/hi_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/hi_Latn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/hi_Latn_IN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/hnj.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/hnj_Hmnp.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/hnj_Hmnp_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/hr.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/hr_BA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/hr_HR.dat
@@ -454,6 +523,8 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/ig_NG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ii.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ii_CN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/io.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/io_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/is.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/is_IS.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/it.dat
@@ -461,8 +532,14 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/it_IT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/it_SM.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/it_VA.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/iu.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/iu_CA.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/iu_Latn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/iu_Latn_CA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ja.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ja_JP.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/jbo.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/jbo_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/jgo.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/jgo_CM.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/jmc.dat
@@ -472,13 +549,19 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/ka.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kab.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kab_DZ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kaj.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kaj_NG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kam.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kam_KE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ka_GE.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kcg.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kcg_NG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kde.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kde_TZ.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kea.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kea_CV.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ken.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ken_CM.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kgp.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/kgp_BR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/khq.dat
@@ -502,6 +585,9 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/kok_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ko_KP.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ko_KR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kpe.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kpe_GN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/kpe_LR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ks.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ksb.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ksb_TZ.dat
@@ -519,14 +605,20 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/kw_GB.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ky.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ky_KG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/la.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lag.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lag_TZ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/la_VA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lb.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lb_LU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lg.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lg_UG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/lij.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/lij_IT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lkt.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/lkt_US.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/lmo.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/lmo_IT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ln.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ln_AO.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ln_CD.dat
@@ -574,10 +666,20 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/mni.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mni_Beng.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mni_Beng_IN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mni_Mtei.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mni_Mtei_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mn_MN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mn_Mong.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mn_Mong_CN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mn_Mong_MN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/moh.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/moh_CA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mr.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mr_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ms.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ms_Arab.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ms_Arab_BN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ms_Arab_MY.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ms_BN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ms_ID.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ms_MY.dat
@@ -586,7 +688,11 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/mt_MT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mua.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mua_CM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mus.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/mus_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/my.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/myv.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/myv_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/my_MM.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mzn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/mzn_IR.dat
@@ -618,10 +724,20 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/nnh_CM.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/nn_NO.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/no.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nqo.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nqo_GN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nr.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nr_ZA.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nso.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nso_ZA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/nus.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/nus_SS.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nv.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/nv_US.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ny.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/nyn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/nyn_UG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ny_MW.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/oc.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/oc_ES.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/oc_FR.dat
@@ -631,9 +747,14 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/or.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/or_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/os.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/osa.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/osa_US.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/os_GE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/os_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pa.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/pap.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/pap_AW.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/pap_CW.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pa_Arab.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pa_Arab_PK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pa_Guru.dat
@@ -644,6 +765,8 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/pis_SB.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pl.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pl_PL.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/prg.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/prg_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ps.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ps_AF.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ps_PK.dat
@@ -661,11 +784,19 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/pt_ST.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/pt_TL.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/qu.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/quc.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/quc_GT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/qu_BO.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/qu_EC.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/qu_PE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/raj.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/raj_IN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/rhg.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/rhg_Rohg.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/rhg_Rohg_BD.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/rhg_Rohg_MM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/rif.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/rif_MA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/rm.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/rm_CH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/rn.dat
@@ -693,14 +824,21 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/saq.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/saq_KE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sat.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sat_Deva.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sat_Deva_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sat_Olck.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sat_Olck_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sa_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sbp.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sbp_TZ.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sc.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/scn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/scn_IT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sc_IT.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sd.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sdh.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sdh_IQ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sdh_IR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sd_Arab.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sd_Arab_PK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sd_Deva.dat
@@ -720,12 +858,23 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/shi_Latn_MA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/shi_Tfng.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/shi_Tfng_MA.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/shn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/shn_MM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/shn_TH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/si.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sid.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sid_ET.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/si_LK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sk.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sk_SK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sl.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sl_SI.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sma.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sma_NO.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/sma_SE.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/smj.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/smj_NO.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/smj_SE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/smn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/smn_FI.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sms.dat
@@ -752,6 +901,14 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/sr_Latn_ME.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sr_Latn_RS.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sr_Latn_XK.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ss.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ssy.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ssy_ER.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ss_SZ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ss_ZA.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/st.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/st_LS.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/st_ZA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/su.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/su_Latn.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/su_Latn_ID.dat
@@ -764,6 +921,11 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/sw_KE.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sw_TZ.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/sw_UG.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/syr.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/syr_IQ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/syr_SY.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/szl.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/szl_PL.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ta.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ta_IN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ta_LK.dat
@@ -779,17 +941,30 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/th.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/th_TH.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ti.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tig.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tig_ER.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ti_ER.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/ti_ET.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tk.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tk_TM.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tn.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tn_BW.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tn_ZA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/to.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tok.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tok_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/to_TO.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tpi.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/tpi_PG.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tr.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/trv.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/trv_TW.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/trw.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/trw_PK.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tr_CY.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tr_TR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ts.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ts_ZA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tt.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/tt_RU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/twq.dat
@@ -815,12 +990,24 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/locale-data/vai_Latn_LR.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/vai_Vaii.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/vai_Vaii_LR.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ve.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/vec.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/vec_IT.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/ve_ZA.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/vi.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/vi_VN.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/vo.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/vo_001.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/vun.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/vun_TZ.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/wa.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/wae.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/wae_CH.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/wal.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/wal_ET.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/wa_BE.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/wbp.dat
+* /usr/lib/python3.12/site-packages/babel/locale-data/wbp_AU.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/wo.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/wo_SN.dat
 * /usr/lib/python3.12/site-packages/babel/locale-data/xh.dat
@@ -876,6 +1063,7 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/messages/mofile.py
 * /usr/lib/python3.12/site-packages/babel/messages/plurals.py
 * /usr/lib/python3.12/site-packages/babel/messages/pofile.py
+* /usr/lib/python3.12/site-packages/babel/messages/setuptools_frontend.py
 * /usr/lib/python3.12/site-packages/babel/messages/__init__.py
 * /usr/lib/python3.12/site-packages/babel/messages/__pycache__/catalog.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/messages/__pycache__/checkers.cpython-312.pyc
@@ -885,6 +1073,7 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/messages/__pycache__/mofile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/messages/__pycache__/plurals.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/messages/__pycache__/pofile.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/babel/messages/__pycache__/setuptools_frontend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/messages/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/numbers.py
 * /usr/lib/python3.12/site-packages/babel/plural.py
@@ -904,7 +1093,7 @@ A collection of tools for internationalizing Python applications
 * /usr/lib/python3.12/site-packages/babel/__pycache__/units.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/__pycache__/util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/babel/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-babel-2.13.1/AUTHORS
-* /usr/share/doc/python3-babel-2.13.1/LICENSE
-* /usr/share/doc/python3-babel-2.13.1/README-common.md
-* /usr/share/doc/python3-babel-2.13.1/README.rst
+* /usr/share/doc/python3-babel-2.14.0/AUTHORS
+* /usr/share/doc/python3-babel-2.14.0/LICENSE
+* /usr/share/doc/python3-babel-2.14.0/README-common.md
+* /usr/share/doc/python3-babel-2.14.0/README.rst

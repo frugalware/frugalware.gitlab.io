@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "python3-sqlalchemy 2.0.23-1"
-version = "2.0.23-1"
+title = "python3-sqlalchemy 2.0.31-1"
+version = "2.0.31-1"
 description = "A Python-centric SQL toolset, database resource manager and object-relational mapper."
-date = "2023-12-04T15:31:20"
+date = "2024-06-26T14:37:46"
 aliases = "/packages/219871"
 categories = ['devel-extra']
 upstreamurl = "http://www.sqlalchemy.org/"
 arch = "x86_64"
-size = "2916136"
-usize = "16565587"
-sha1sum = "a9628e05caf3f6cbf22a78b34dbb0e1117193bac"
+size = "2952400"
+usize = "16704656"
+sha1sum = "607d441a669aabc5f3550ed9ef249ce56ab6f236"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
 A Python-centric SQL toolset, database resource manager and object-relational mapper.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.23-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.31-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.31-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.31-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.31-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/SQLAlchemy-2.0.31-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/sqlalchemy/connectors/aioodbc.py
 * /usr/lib/python3.12/site-packages/sqlalchemy/connectors/asyncio.py
 * /usr/lib/python3.12/site-packages/sqlalchemy/connectors/pyodbc.py
@@ -30,7 +30,6 @@ A Python-centric SQL toolset, database resource manager and object-relational ma
 * /usr/lib/python3.12/site-packages/sqlalchemy/connectors/__pycache__/asyncio.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sqlalchemy/connectors/__pycache__/pyodbc.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sqlalchemy/connectors/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sqlalchemy/cyextension/.gitignore
 * /usr/lib/python3.12/site-packages/sqlalchemy/cyextension/collections.pyx
 * /usr/lib/python3.12/site-packages/sqlalchemy/cyextension/immutabledict.pxd
 * /usr/lib/python3.12/site-packages/sqlalchemy/cyextension/immutabledict.pyx
@@ -541,8 +540,8 @@ A Python-centric SQL toolset, database resource manager and object-relational ma
 * /usr/lib/python3.12/site-packages/sqlalchemy/__pycache__/schema.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sqlalchemy/__pycache__/types.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sqlalchemy/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-sqlalchemy-2.0.23/AUTHORS
-* /usr/share/doc/python3-sqlalchemy-2.0.23/LICENSE
-* /usr/share/doc/python3-sqlalchemy-2.0.23/README.dialects.rst
-* /usr/share/doc/python3-sqlalchemy-2.0.23/README.rst
-* /usr/share/doc/python3-sqlalchemy-2.0.23/README.unittests.rst
+* /usr/share/doc/python3-sqlalchemy-2.0.31/AUTHORS
+* /usr/share/doc/python3-sqlalchemy-2.0.31/LICENSE
+* /usr/share/doc/python3-sqlalchemy-2.0.31/README.dialects.rst
+* /usr/share/doc/python3-sqlalchemy-2.0.31/README.rst
+* /usr/share/doc/python3-sqlalchemy-2.0.31/README.unittests.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scikit-build-core 0.9.6-1"
-version = "0.9.6-1"
+title = "scikit-build-core 0.9.6-2"
+version = "0.9.6-2"
 description = "Next generation Python CMake adaptor and Python API for plugins"
-date = "2024-06-26T14:08:57"
+date = "2024-06-26T14:13:40"
 aliases = "/packages/221528"
 categories = ['devel-extra']
 upstreamurl = "https://scikit-build.org/"
 arch = "x86_64"
-size = "208032"
+size = "208172"
 usize = "1284937"
-sha1sum = "71734b6b320d2dca2e23367f13f5d00ed9a0a8dc"
+sha1sum = "5cd9213cd928893dccef9f93b109cc490e18adfe"
 depends = "['cmake', 'ninja', 'python3', 'python3-packaging', 'python3-pathspec']"
 +++
 ### Description: 

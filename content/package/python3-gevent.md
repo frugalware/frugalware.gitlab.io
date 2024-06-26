@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-gevent 23.9.1-1"
-version = "23.9.1-1"
+title = "python3-gevent 24.2.1-1"
+version = "24.2.1-1"
 description = "Network library that uses greenlet and libev for easy and scalable concurrency"
-date = "2023-12-04T14:37:07"
+date = "2024-06-26T14:28:20"
 aliases = "/packages/219796"
 categories = ['devel-extra']
 upstreamurl = "http://eventlet.net"
 arch = "x86_64"
-size = "1632556"
-usize = "7174989"
-sha1sum = "b862474ea365ba9abb1f94911baffac77ed2b07c"
+size = "1697492"
+usize = "7289560"
+sha1sum = "ddc99ccf76e4087d5d3f9ef3f25e4e62d7c92d88"
 depends = "['c-ares', 'python3>=3.10', 'python3-greenlet']"
 reverse_depends = "['python3-gunicorn']"
 +++
@@ -18,13 +18,13 @@ reverse_depends = "['python3-gunicorn']"
 Network library that uses greenlet and libev for easy and scalable concurrency
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/gevent-23.9.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/gevent-24.2.1-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/gevent/ares.py
 * /usr/lib/python3.12/site-packages/gevent/backdoor.py
 * /usr/lib/python3.12/site-packages/gevent/baseserver.py
@@ -233,7 +233,6 @@ Network library that uses greenlet and libev for easy and scalable concurrency
 * /usr/lib/python3.12/site-packages/gevent/tests/test__memleak.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__monkey.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__monkey_builtins_future.py
-* /usr/lib/python3.12/site-packages/gevent/tests/test__monkey_futures_thread.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__monkey_hub_in_thread.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__monkey_logging.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__monkey_module_run.py
@@ -283,6 +282,7 @@ Network library that uses greenlet and libev for easy and scalable concurrency
 * /usr/lib/python3.12/site-packages/gevent/tests/test__threading.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__threading_2.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__threading_before_monkey.py
+* /usr/lib/python3.12/site-packages/gevent/tests/test__threading_fork_from_dummy.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__threading_holding_lock_while_monkey.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__threading_monkey_in_thread.py
 * /usr/lib/python3.12/site-packages/gevent/tests/test__threading_native_before_monkey.py
@@ -375,7 +375,6 @@ Network library that uses greenlet and libev for easy and scalable concurrency
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__memleak.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__monkey.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__monkey_builtins_future.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__monkey_futures_thread.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__monkey_hub_in_thread.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__monkey_logging.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__monkey_module_run.cpython-312.pyc
@@ -425,6 +424,7 @@ Network library that uses greenlet and libev for easy and scalable concurrency
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading_2.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading_before_monkey.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading_fork_from_dummy.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading_holding_lock_while_monkey.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading_monkey_in_thread.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/tests/__pycache__/test__threading_native_before_monkey.cpython-312.pyc
@@ -554,7 +554,7 @@ Network library that uses greenlet and libev for easy and scalable concurrency
 * /usr/lib/python3.12/site-packages/gevent/__pycache__/_util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/__pycache__/_waiter.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gevent/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-gevent-23.9.1/AUTHORS
-* /usr/share/doc/python3-gevent-23.9.1/LICENSE
-* /usr/share/doc/python3-gevent-23.9.1/README.rst
-* /usr/share/doc/python3-gevent-23.9.1/TODO
+* /usr/share/doc/python3-gevent-24.2.1/AUTHORS
+* /usr/share/doc/python3-gevent-24.2.1/LICENSE
+* /usr/share/doc/python3-gevent-24.2.1/README.rst
+* /usr/share/doc/python3-gevent-24.2.1/TODO

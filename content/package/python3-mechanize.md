@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-mechanize 0.4.9-1"
-version = "0.4.9-1"
+title = "python3-mechanize 0.4.10-1"
+version = "0.4.10-1"
 description = "Stateful programmatic web browsing in Python."
-date = "2023-12-04T14:56:32"
+date = "2024-06-26T14:36:52"
 aliases = "/packages/220812"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/mechanize"
 arch = "x86_64"
-size = "216604"
-usize = "871891"
-sha1sum = "f34a66cee0eb1cbdddd415c4606e95022fe78e0b"
+size = "218000"
+usize = "872049"
+sha1sum = "e8bb664474bd0008b701e445f09858fc8dd79f00"
 depends = "['python3-html5-parser']"
 reverse_depends = "['calibre']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['calibre']"
 Stateful programmatic web browsing in Python.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/mechanize-0.4.9-py3.12.egg-info/zip-safe
+* /usr/lib/python3.12/site-packages/mechanize-0.4.10-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/mechanize-0.4.10-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/mechanize-0.4.10-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/mechanize-0.4.10-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/mechanize-0.4.10-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/mechanize-0.4.10-py3.12.egg-info/zip-safe
 * /usr/lib/python3.12/site-packages/mechanize/polyglot.py
 * /usr/lib/python3.12/site-packages/mechanize/_auth.py
 * /usr/lib/python3.12/site-packages/mechanize/_clientcookie.py
@@ -74,7 +74,7 @@ Stateful programmatic web browsing in Python.
 * /usr/lib/python3.12/site-packages/mechanize/__pycache__/_util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mechanize/__pycache__/_version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mechanize/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-mechanize-0.4.9/ChangeLog
-* /usr/share/doc/python3-mechanize-0.4.9/COPYRIGHT
-* /usr/share/doc/python3-mechanize-0.4.9/LICENSE
-* /usr/share/doc/python3-mechanize-0.4.9/README.rst
+* /usr/share/doc/python3-mechanize-0.4.10/ChangeLog
+* /usr/share/doc/python3-mechanize-0.4.10/COPYRIGHT
+* /usr/share/doc/python3-mechanize-0.4.10/LICENSE
+* /usr/share/doc/python3-mechanize-0.4.10/README.rst

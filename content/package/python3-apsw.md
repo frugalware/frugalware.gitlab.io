@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-apsw 3.44.2.0-1"
-version = "3.44.2.0-1"
+title = "python3-apsw 3.46.0.1-1"
+version = "3.46.0.1-1"
 description = "Python3 wrapper for SQLite."
-date = "2023-12-04T14:04:01"
+date = "2024-06-26T14:21:17"
 aliases = "/packages/220277"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/rogerbinns/apsw"
 arch = "x86_64"
-size = "515176"
-usize = "2314285"
-sha1sum = "9d62fc29e6a2904192e84aed0510d8ae9cf8f205"
+size = "528864"
+usize = "2337393"
+sha1sum = "ffe3c59b84071dbb4a01b2224db176179710fd9e"
 depends = "['python3>=3.12', 'sqlite3>=3.15.1']"
 reverse_depends = "['calibre']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['calibre']"
 Python3 wrapper for SQLite.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/apsw-3.44.2.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/apsw-3.46.0.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/apsw-3.46.0.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/apsw-3.46.0.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/apsw-3.46.0.1-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/apsw/bestpractice.py
 * /usr/lib/python3.12/site-packages/apsw/ext.py
 * /usr/lib/python3.12/site-packages/apsw/py.typed
@@ -39,5 +39,5 @@ Python3 wrapper for SQLite.
 * /usr/lib/python3.12/site-packages/apsw/__pycache__/tests.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/apsw/__pycache__/trace.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/apsw/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-apsw-3.44.2.0/LICENSE
-* /usr/share/doc/python3-apsw-3.44.2.0/README.rst
+* /usr/share/doc/python3-apsw-3.46.0.1/LICENSE
+* /usr/share/doc/python3-apsw-3.46.0.1/README.rst

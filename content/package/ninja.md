@@ -12,7 +12,7 @@ size = "135500"
 usize = "407167"
 sha1sum = "6354be1dfdd9c6fb78d748c8cc2cea8783368c1a"
 depends = "['libgcc>=7.3.0-4', 'libtiff>=3.2.1-7']"
-reverse_depends = "['gyp', 'meson']"
+reverse_depends = "['gyp', 'meson', 'scikit-build-core']"
 +++
 ### Description: 
 Small build system with a focus on speed

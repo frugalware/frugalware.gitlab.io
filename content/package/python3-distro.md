@@ -12,7 +12,7 @@ size = "30996"
 usize = "196365"
 sha1sum = "807a989614a3d3392448f0cb7cbc11a332f249ae"
 depends = "['python3>=3.12']"
-reverse_depends = "['hplip', 'scikit-build', 'scikit-build-core']"
+reverse_depends = "['hplip', 'scikit-build']"
 +++
 ### Description: 
 Linux OS platform information API

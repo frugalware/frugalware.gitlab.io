@@ -12,7 +12,7 @@ size = "42084"
 usize = "281488"
 sha1sum = "7b1da1f3b9d25e650206d8ff6e0b635e018b2a76"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-hatchling']"
+reverse_depends = "['python3-hatchling', 'scikit-build-core']"
 +++
 ### Description: 
 Utility library for gitignore style pattern matching of file paths

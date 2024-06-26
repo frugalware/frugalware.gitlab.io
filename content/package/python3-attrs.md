@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-attrs 23.1.0-1"
-version = "23.1.0-1"
+title = "python3-attrs 23.2.0-1"
+version = "23.2.0-1"
 description = "Attributes without boilerplate."
-date = "2023-12-04T14:08:54"
+date = "2024-06-26T14:44:38"
 aliases = "/packages/219729"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/attrs"
 arch = "x86_64"
-size = "93264"
-usize = "567944"
-sha1sum = "96a7a31c95efe4c7f3cf2e1efea1789cae46a3cd"
+size = "95072"
+usize = "571074"
+sha1sum = "a6a1d891d98f97087a21424420d3ad858bf6cf46"
 depends = "['python3>=3.11']"
 reverse_depends = "['python3-jsonschema', 'python3-outcome', 'python3-trio', 'python3-twisted']"
 +++
@@ -67,10 +67,10 @@ Attributes without boilerplate.
 * /usr/lib/python3.12/site-packages/attr/__pycache__/_version_info.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/attr/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/attr/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.12/site-packages/attrs-23.1.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/attrs-23.1.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/attrs-23.1.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/attrs-23.2.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/attrs-23.2.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/attrs-23.2.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/attrs-23.2.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/attrs/converters.py
 * /usr/lib/python3.12/site-packages/attrs/exceptions.py
 * /usr/lib/python3.12/site-packages/attrs/filters.py
@@ -91,5 +91,5 @@ Attributes without boilerplate.
 * /usr/lib/python3.12/site-packages/attrs/__pycache__/validators.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/attrs/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/attrs/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-attrs-23.1.0/LICENSE
-* /usr/share/doc/python3-attrs-23.1.0/README.md
+* /usr/share/doc/python3-attrs-23.2.0/LICENSE
+* /usr/share/doc/python3-attrs-23.2.0/README.md
