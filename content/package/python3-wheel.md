@@ -12,7 +12,7 @@ size = "119636"
 usize = "446041"
 sha1sum = "cfac3c9f5b9a7318360bb1384689601e1e041c91"
 depends = "['python3-packaging']"
-reverse_depends = "['meson-python', 'python3-dnspython', 'scikit-build']"
+reverse_depends = "['meson-python', 'python3-dnspython', 'scikit-build', 'scikit-build-core']"
 +++
 ### Description: 
 A built-package format for Python

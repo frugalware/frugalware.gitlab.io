@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "scikit-build 0.17.6-1"
-version = "0.17.6-1"
+title = "scikit-build 0.18.0-1"
+version = "0.18.0-1"
 description = "Improved build system generator for CPython C, C++, Cython and Fortran extensions"
-date = "2023-10-05T17:34:44"
+date = "2024-06-26T14:04:45"
 aliases = "/packages/220749"
 categories = ['devel-extra']
 upstreamurl = "https://scikit-build.org/"
 arch = "x86_64"
-size = "108744"
-usize = "601099"
-sha1sum = "18e937d75362af96f47217f076c2fe2973c0d295"
+size = "110924"
+usize = "607693"
+sha1sum = "ec85765b2c8dc36f5162cac635fa38d0d3ccea40"
 depends = "['cmake', 'python3-distro', 'python3-setuptools', 'python3-wheel']"
 +++
 ### Description: 
 Improved build system generator for CPython C, C++, Cython and Fortran extensions
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/licenses/AUTHORS.rst
-* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/licenses/LICENSE
-* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/scikit_build-0.17.6.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/scikit_build-0.18.0.dist-info/licenses/AUTHORS.rst
+* /usr/lib/python3.12/site-packages/scikit_build-0.18.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/scikit_build-0.18.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/scikit_build-0.18.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/scikit_build-0.18.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/skbuild/cmaker.py
 * /usr/lib/python3.12/site-packages/skbuild/command/bdist.py
 * /usr/lib/python3.12/site-packages/skbuild/command/bdist_wheel.py
@@ -35,7 +35,6 @@ Improved build system generator for CPython C, C++, Cython and Fortran extension
 * /usr/lib/python3.12/site-packages/skbuild/command/install_lib.py
 * /usr/lib/python3.12/site-packages/skbuild/command/install_scripts.py
 * /usr/lib/python3.12/site-packages/skbuild/command/sdist.py
-* /usr/lib/python3.12/site-packages/skbuild/command/test.py
 * /usr/lib/python3.12/site-packages/skbuild/command/__init__.py
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/bdist.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/bdist.cpython-312.pyc
@@ -61,8 +60,6 @@ Improved build system generator for CPython C, C++, Cython and Fortran extension
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/install_scripts.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/sdist.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/sdist.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/test.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/test.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/skbuild/command/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/skbuild/constants.py
@@ -137,5 +134,5 @@ Improved build system generator for CPython C, C++, Cython and Fortran extension
 * /usr/lib/python3.12/site-packages/skbuild/__pycache__/_version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/skbuild/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/skbuild/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/scikit-build-0.17.6/LICENSE
-* /usr/share/doc/scikit-build-0.17.6/README.rst
+* /usr/share/doc/scikit-build-0.18.0/LICENSE
+* /usr/share/doc/scikit-build-0.18.0/README.rst

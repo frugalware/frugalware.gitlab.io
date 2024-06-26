@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pydantic 2.5.2-1"
-version = "2.5.2-1"
+title = "python3-pydantic 2.7.4-1"
+version = "2.7.4-1"
 description = "Data validation using Python type hints"
-date = "2023-12-04T15:12:46"
+date = "2024-06-26T13:28:13"
 aliases = "/packages/221058"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pydantic"
 arch = "x86_64"
-size = "651152"
-usize = "4670045"
-sha1sum = "f6b1ec658b250ff2f93f2bf30d53f8c6d89a0085"
+size = "688356"
+usize = "4920442"
+sha1sum = "cd88085d60a5d801711770d2a91e87382009142b"
 depends = "['python3-annotated-types', 'python3-pydantic-core']"
 reverse_depends = "['input-remapper']"
 +++
@@ -18,10 +18,11 @@ reverse_depends = "['input-remapper']"
 Data validation using Python type hints
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/licenses/LICENSE
-* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/pydantic-2.5.2.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/pydantic-2.7.4.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/pydantic-2.7.4.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/pydantic-2.7.4.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/pydantic-2.7.4.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/pydantic/aliases.py
 * /usr/lib/python3.12/site-packages/pydantic/alias_generators.py
 * /usr/lib/python3.12/site-packages/pydantic/annotated_handlers.py
 * /usr/lib/python3.12/site-packages/pydantic/class_validators.py
@@ -174,16 +175,19 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_decorators.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_decorators_v1.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_discriminated_union.py
+* /usr/lib/python3.12/site-packages/pydantic/_internal/_docs_extraction.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_fields.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_forward_ref.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_generics.py
+* /usr/lib/python3.12/site-packages/pydantic/_internal/_git.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_internal_dataclass.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_known_annotated_metadata.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_mock_val_ser.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_model_construction.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_repr.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_schema_generation_shared.py
+* /usr/lib/python3.12/site-packages/pydantic/_internal/_signature.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_std_types_schema.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_typing_extra.py
 * /usr/lib/python3.12/site-packages/pydantic/_internal/_utils.py
@@ -204,6 +208,8 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_decorators_v1.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_discriminated_union.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_discriminated_union.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_docs_extraction.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_docs_extraction.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_fields.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_fields.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_forward_ref.cpython-312.opt-1.pyc
@@ -212,6 +218,8 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_generate_schema.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_generics.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_generics.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_git.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_git.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_internal_dataclass.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_internal_dataclass.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_known_annotated_metadata.cpython-312.opt-1.pyc
@@ -224,6 +232,8 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_repr.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_schema_generation_shared.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_schema_generation_shared.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_signature.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_signature.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_std_types_schema.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_std_types_schema.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/_typing_extra.cpython-312.opt-1.pyc
@@ -238,6 +248,8 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/_internal/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/_migration.py
 * /usr/lib/python3.12/site-packages/pydantic/__init__.py
+* /usr/lib/python3.12/site-packages/pydantic/__pycache__/aliases.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/pydantic/__pycache__/aliases.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/alias_generators.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/alias_generators.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/annotated_handlers.cpython-312.opt-1.pyc
@@ -306,5 +318,5 @@ Data validation using Python type hints
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/_migration.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pydantic/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-pydantic-2.5.2/LICENSE
-* /usr/share/doc/python3-pydantic-2.5.2/README.md
+* /usr/share/doc/python3-pydantic-2.7.4/LICENSE
+* /usr/share/doc/python3-pydantic-2.7.4/README.md

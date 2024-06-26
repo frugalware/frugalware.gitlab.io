@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pillow 10.1.0-1"
-version = "10.1.0-1"
+title = "python3-pillow 10.3.0-1"
+version = "10.3.0-1"
 description = "Python Imaging Library (PIL) fork"
-date = "2023-12-04T16:04:16"
+date = "2024-06-26T13:14:50"
 aliases = "/packages/219182"
 categories = ['xlib-extra']
-upstreamurl = "http://pypi.python.org/pypi/Pillow"
+upstreamurl = "http://pypi.python.org/pypi/pillow"
 arch = "x86_64"
-size = "733328"
-usize = "2897460"
-sha1sum = "7b06a300ded518e710782cee92bf653049fe1ce5"
+size = "764284"
+usize = "2958826"
+sha1sum = "63c9a01ddf3b2e2f96deb137c4a5289dc318d7af"
 depends = "['libtiff', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
 reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'python3-nml']"
 +++

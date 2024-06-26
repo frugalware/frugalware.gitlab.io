@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-trio 0.23.1-1"
-version = "0.23.1-1"
+title = "python3-trio 0.25.1-1"
+version = "0.25.1-1"
 description = "A friendly Python library for async concurrency and I/O"
-date = "2023-12-04T15:34:01"
+date = "2024-06-26T13:28:58"
 aliases = "/packages/221145"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/trio"
 arch = "x86_64"
-size = "867928"
-usize = "5430689"
-sha1sum = "79f78ed15815234b0dd743d0583d1bc27b4512ea"
+size = "893012"
+usize = "5643619"
+sha1sum = "d990852623f54d0ba3cf82110b7c59f03859468e"
 depends = "['python3-async_generator', 'python3-attrs', 'python3-exceptiongroup', 'python3-idna', 'python3-outcome', 'python3-sniffio', 'python3-sortedcontainers']"
 reverse_depends = "['python3-selenium', 'python3-trio-websocket']"
 +++
@@ -18,13 +18,14 @@ reverse_depends = "['python3-selenium', 'python3-trio-websocket']"
 A friendly Python library for async concurrency and I/O
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/LICENSE.APACHE2
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/LICENSE.MIT
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/trio-0.23.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/LICENSE.APACHE2
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/LICENSE.MIT
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/trio-0.25.1.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/trio/abc.py
 * /usr/lib/python3.12/site-packages/trio/from_thread.py
 * /usr/lib/python3.12/site-packages/trio/lowlevel.py
@@ -35,6 +36,7 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/testing/_fake_net.py
 * /usr/lib/python3.12/site-packages/trio/testing/_memory_streams.py
 * /usr/lib/python3.12/site-packages/trio/testing/_network.py
+* /usr/lib/python3.12/site-packages/trio/testing/_raises_group.py
 * /usr/lib/python3.12/site-packages/trio/testing/_sequencer.py
 * /usr/lib/python3.12/site-packages/trio/testing/_trio_test.py
 * /usr/lib/python3.12/site-packages/trio/testing/__init__.py
@@ -48,17 +50,19 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_memory_streams.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_network.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_network.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_raises_group.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_raises_group.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_sequencer.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_sequencer.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_trio_test.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/_trio_test.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/testing/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/tests.py
 * /usr/lib/python3.12/site-packages/trio/to_thread.py
 * /usr/lib/python3.12/site-packages/trio/_abc.py
 * /usr/lib/python3.12/site-packages/trio/_channel.py
 * /usr/lib/python3.12/site-packages/trio/_core/_asyncgens.py
+* /usr/lib/python3.12/site-packages/trio/_core/_concat_tb.py
 * /usr/lib/python3.12/site-packages/trio/_core/_entry_queue.py
 * /usr/lib/python3.12/site-packages/trio/_core/_exceptions.py
 * /usr/lib/python3.12/site-packages/trio/_core/_generated_instrumentation.py
@@ -74,29 +78,16 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_core/_ki.py
 * /usr/lib/python3.12/site-packages/trio/_core/_local.py
 * /usr/lib/python3.12/site-packages/trio/_core/_mock_clock.py
-* /usr/lib/python3.12/site-packages/trio/_core/_multierror.py
 * /usr/lib/python3.12/site-packages/trio/_core/_parking_lot.py
 * /usr/lib/python3.12/site-packages/trio/_core/_run.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_asyncgen.py
+* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_exceptiongroup_gc.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_guest_mode.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_instrumentation.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_io.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_ki.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_local.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_mock_clock.py
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror.py
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/apport_excepthook.py
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/simple_excepthook.py
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/_common.py
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__init__.py
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/apport_excepthook.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/apport_excepthook.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/simple_excepthook.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/simple_excepthook.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/_common.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/_common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/test_multierror_scripts/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_parking_lot.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_run.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_thread_cache.py
@@ -104,9 +95,14 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_unbounded_queue.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/test_windows.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/tutil.py
+* /usr/lib/python3.12/site-packages/trio/_core/_tests/type_tests/nursery_start.py
+* /usr/lib/python3.12/site-packages/trio/_core/_tests/type_tests/__pycache__/nursery_start.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_core/_tests/type_tests/__pycache__/nursery_start.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__init__.py
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_asyncgen.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_asyncgen.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_exceptiongroup_gc.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_exceptiongroup_gc.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_guest_mode.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_guest_mode.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_instrumentation.cpython-312.opt-1.pyc
@@ -119,8 +115,6 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_local.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_mock_clock.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_mock_clock.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_multierror.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_multierror.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_parking_lot.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_parking_lot.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/_tests/__pycache__/test_run.cpython-312.opt-1.pyc
@@ -145,6 +139,8 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_core/__init__.py
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_asyncgens.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_asyncgens.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_concat_tb.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_concat_tb.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_entry_queue.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_entry_queue.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_exceptions.cpython-312.opt-1.pyc
@@ -175,8 +171,6 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_local.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_mock_clock.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_mock_clock.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_multierror.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_multierror.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_parking_lot.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_parking_lot.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_core/__pycache__/_run.cpython-312.opt-1.pyc
@@ -228,6 +222,7 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_tests/test_channel.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_contextvars.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_deprecate.py
+* /usr/lib/python3.12/site-packages/trio/_tests/test_deprecate_strict_exception_groups_false.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_dtls.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_exports.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_fakenet.py
@@ -247,6 +242,7 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_tests/test_subprocess.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_sync.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_testing.py
+* /usr/lib/python3.12/site-packages/trio/_tests/test_testing_raisesgroup.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_threads.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_timeouts.py
 * /usr/lib/python3.12/site-packages/trio/_tests/test_tracing.py
@@ -263,6 +259,18 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_tests/tools/__pycache__/test_mypy_annotate.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/tools/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/tools/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/check_wraps.py
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/open_memory_channel.py
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/path.py
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/raisesgroup.py
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/check_wraps.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/check_wraps.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/open_memory_channel.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/open_memory_channel.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/path.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/path.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/raisesgroup.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/type_tests/__pycache__/raisesgroup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__init__.py
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/check_type_completeness.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/check_type_completeness.cpython-312.pyc
@@ -278,6 +286,8 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_contextvars.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_deprecate.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_deprecate.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_deprecate_strict_exception_groups_false.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_deprecate_strict_exception_groups_false.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_dtls.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_dtls.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_exports.cpython-312.opt-1.pyc
@@ -316,6 +326,8 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_sync.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_testing.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_testing.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_testing_raisesgroup.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_testing_raisesgroup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_threads.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_threads.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/_tests/__pycache__/test_timeouts.cpython-312.opt-1.pyc
@@ -357,8 +369,6 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/__pycache__/lowlevel.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/socket.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/socket.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/trio/__pycache__/tests.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/trio/__pycache__/tests.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/to_thread.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/to_thread.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/_abc.cpython-312.opt-1.pyc
@@ -413,5 +423,5 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.12/site-packages/trio/__pycache__/_windows_pipes.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/trio/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-trio-0.23.1/LICENSE
-* /usr/share/doc/python3-trio-0.23.1/README.rst
+* /usr/share/doc/python3-trio-0.25.1/LICENSE
+* /usr/share/doc/python3-trio-0.25.1/README.rst

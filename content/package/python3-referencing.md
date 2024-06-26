@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "python3-referencing 0.34.0-2"
-version = "0.34.0-2"
+title = "python3-referencing 0.35.1-1"
+version = "0.35.1-1"
 description = "An implementation-agnostic implementation of JSON reference resolution"
-date = "2024-04-22T12:08:52"
+date = "2024-06-26T13:44:07"
 aliases = "/packages/221464"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/referencing"
 arch = "x86_64"
-size = "59704"
-usize = "397672"
-sha1sum = "4e40e7c72404d2497f9e0231f9d7297391cefb8b"
-depends = "[]"
+size = "60628"
+usize = "399772"
+sha1sum = "6e49d2c81735d59271fbacd76ee7cd6b976751e6"
+depends = "['python3-rpds-py']"
 +++
 ### Description: 
 An implementation-agnostic implementation of JSON reference resolution
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/referencing-0.34.0.dist-info/licenses/COPYING
-* /usr/lib/python3.12/site-packages/referencing-0.34.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/referencing-0.34.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/referencing-0.34.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/referencing-0.35.1.dist-info/licenses/COPYING
+* /usr/lib/python3.12/site-packages/referencing-0.35.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/referencing-0.35.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/referencing-0.35.1.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/referencing/exceptions.py
 * /usr/lib/python3.12/site-packages/referencing/jsonschema.py
 * /usr/lib/python3.12/site-packages/referencing/py.typed
@@ -62,5 +62,5 @@ An implementation-agnostic implementation of JSON reference resolution
 * /usr/lib/python3.12/site-packages/referencing/__pycache__/_core.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/referencing/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/referencing/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-referencing-0.34.0/COPYING
-* /usr/share/doc/python3-referencing-0.34.0/README.rst
+* /usr/share/doc/python3-referencing-0.35.1/COPYING
+* /usr/share/doc/python3-referencing-0.35.1/README.rst

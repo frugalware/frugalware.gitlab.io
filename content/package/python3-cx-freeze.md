@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-cx-freeze 6.15.11-1"
-version = "6.15.11-1"
+title = "python3-cx-freeze 6.15.16-1"
+version = "6.15.16-1"
 description = "cx_Freeze is a set of scripts and modules for freezing Python scripts into executables in much the same way that py2exe and py2app do"
-date = "2023-12-04T14:02:33"
+date = "2024-06-26T13:59:51"
 aliases = "/packages/220138"
 categories = ['apps-extra']
 upstreamurl = "http://pypi.python.org/pypi/cx_Freeze"
 arch = "x86_64"
-size = "231688"
-usize = "1556470"
-sha1sum = "86b3510f0ef921ce4362314087761fe53cbe5a7f"
+size = "237872"
+usize = "1580418"
+sha1sum = "d70beeef1becd657ae9a26420f2401ccf78756e1"
 depends = "['python3-importlib-metadata', 'python3-patchelf']"
 +++
 ### Description: 
@@ -19,13 +19,13 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 ### Files: 
 * /usr/bin/cxfreeze
 * /usr/bin/cxfreeze-quickstart
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.11-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/cx_Freeze-6.15.16-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/cx_Freeze/bases/console-cpython-312-x86_64-linux-gnu
 * /usr/lib/python3.12/site-packages/cx_Freeze/bases/__init__.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/bases/__pycache__/__init__.cpython-312.opt-1.pyc
@@ -65,10 +65,12 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/finder.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/freezer.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/anyio.py
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/av.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/backports.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/clr.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/crypto.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/cv2.py
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/easyocr.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/exclude.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/glib.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/matplotlib.py
@@ -77,6 +79,7 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pandas.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pil.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pyarrow.py
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pyproj.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pyqt5/debug.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pyqt5/qt.conf
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/pyqt5/resource.py
@@ -132,10 +135,12 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/skimage.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/sklearn.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/ssl.py
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/tensorflow.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/tidylib.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/tiktoken.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/tkinter.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/torch.py
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/torchvision.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/triton.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/xlib.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/zoneinfo.py
@@ -144,6 +149,8 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__init__.py
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/anyio.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/anyio.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/av.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/av.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/backports.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/backports.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/clr.cpython-312.opt-1.pyc
@@ -152,6 +159,8 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/crypto.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/cv2.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/cv2.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/easyocr.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/easyocr.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/exclude.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/exclude.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/glib.cpython-312.opt-1.pyc
@@ -168,6 +177,8 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pil.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pyarrow.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pyarrow.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pyproj.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pyproj.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pytz.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/pytz.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/rns.cpython-312.opt-1.pyc
@@ -182,6 +193,8 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/sklearn.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/ssl.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/ssl.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/tensorflow.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/tensorflow.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/tidylib.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/tidylib.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/tiktoken.cpython-312.opt-1.pyc
@@ -190,6 +203,8 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/tkinter.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/torch.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/torch.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/torchvision.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/torchvision.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/triton.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/triton.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/hooks/__pycache__/xlib.cpython-312.opt-1.pyc
@@ -260,4 +275,4 @@ cx_Freeze is a set of scripts and modules for freezing Python scripts into execu
 * /usr/lib/python3.12/site-packages/cx_Freeze/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cx_Freeze/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-cx-freeze-6.15.11/README.md
+* /usr/share/doc/python3-cx-freeze-6.15.16/README.md

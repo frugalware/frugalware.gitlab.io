@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "python3-rpds-py 0.18.0-1"
-version = "0.18.0-1"
+title = "python3-rpds-py 0.18.1-1"
+version = "0.18.1-1"
 description = "Python bindings to the Rust rpds crate for persistent data structures"
-date = "2024-04-22T12:07:39"
+date = "2024-06-26T13:17:47"
 aliases = "/packages/221465"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/rpds_py"
 arch = "x86_64"
-size = "242032"
-usize = "733491"
-sha1sum = "3996509d59f29d95030635e49f345f55ce47f8fa"
+size = "244024"
+usize = "725293"
+sha1sum = "22bff0c4a222733473236314bb06bff67b9261c4"
 depends = "['python3']"
+reverse_depends = "['python3-referencing']"
 +++
 ### Description: 
 Python bindings to the Rust rpds crate for persistent data structures

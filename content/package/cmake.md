@@ -12,7 +12,7 @@ size = "12517484"
 usize = "72594575"
 sha1sum = "bb33f2780648e65d7f71f0705eb7d25b973993c7"
 depends = "['cppdap', 'curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
-reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build']"
+reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build', 'scikit-build-core']"
 +++
 ### Description: 
 Cross platform make

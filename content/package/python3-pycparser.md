@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pycparser 2.21-4"
-version = "2.21-4"
+title = "python3-pycparser 2.22-1"
+version = "2.22-1"
 description = "A complete C99 parsing library for python."
-date = "2023-10-05T19:36:56"
+date = "2024-06-26T13:16:39"
 aliases = "/packages/219785"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/eliben/pycparser"
 arch = "x86_64"
-size = "192140"
-usize = "1023657"
-sha1sum = "8f00ef971d98404eaa2c4829ae6c7e628171271a"
+size = "193572"
+usize = "1028061"
+sha1sum = "fa41767e2d81493985656c0bd0b090d544c76124"
 depends = "['python3-ply']"
 reverse_depends = "['lutris', 'python3-cffi']"
 +++

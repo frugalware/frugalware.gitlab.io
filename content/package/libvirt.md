@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt 9.10.0-2"
-version = "9.10.0-2"
+title = "libvirt 10.4.0-1"
+version = "10.4.0-1"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2024-01-08T15:09:56"
+date = "2024-06-26T13:48:10"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "8147952"
-usize = "48461808"
-sha1sum = "5f81b95acfa6ca9c76ac55ce4b15ed143a483d7d"
+size = "5727112"
+usize = "29295022"
+sha1sum = "15e9caa00e65f8012500e34dd61bb32133c0877d"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3', 'qt-virt-manager']"
 +++
@@ -22,6 +22,7 @@ libvirt is a library providing access to information from various virtualization
 * /etc/libvirt/libvirt.conf
 * /etc/libvirt/libvirtd.conf
 * /etc/libvirt/lxc.conf
+* /etc/libvirt/network.conf
 * /etc/libvirt/nwfilter/allow-arp.xml
 * /etc/libvirt/nwfilter/allow-dhcp-server.xml
 * /etc/libvirt/nwfilter/allow-dhcp.xml
@@ -69,6 +70,7 @@ libvirt is a library providing access to information from various virtualization
 * /etc/logrotate.d/libvirtd.lxc
 * /etc/logrotate.d/libvirtd.qemu
 * /etc/sasl2/libvirt.conf
+* /etc/ssh/ssh_config.d/30-libvirt-ssh-proxy.conf
 * /usr/bin/libvirtd
 * /usr/bin/virsh
 * /usr/bin/virt-admin
@@ -121,16 +123,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libnss_libvirt_guest.so.2
 * /usr/lib/libvirt-admin.so
 * /usr/lib/libvirt-admin.so.0
-* /usr/lib/libvirt-admin.so.0.9010.0
+* /usr/lib/libvirt-admin.so.0.10004.0
 * /usr/lib/libvirt-lxc.so
 * /usr/lib/libvirt-lxc.so.0
-* /usr/lib/libvirt-lxc.so.0.9010.0
+* /usr/lib/libvirt-lxc.so.0.10004.0
 * /usr/lib/libvirt-qemu.so
 * /usr/lib/libvirt-qemu.so.0
-* /usr/lib/libvirt-qemu.so.0.9010.0
+* /usr/lib/libvirt-qemu.so.0.10004.0
 * /usr/lib/libvirt.so
 * /usr/lib/libvirt.so.0
-* /usr/lib/libvirt.so.0.9010.0
+* /usr/lib/libvirt.so.0.10004.0
 * /usr/lib/libvirt/connection-driver/libvirt_driver_ch.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_interface.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so
@@ -143,6 +145,7 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libvirt/connection-driver/libvirt_driver_vbox.so
 * /usr/lib/libvirt/libvirt-guests
 * /usr/lib/libvirt/libvirt-guests.sh
+* /usr/lib/libvirt/libvirt-ssh-proxy
 * /usr/lib/libvirt/libvirt_iohelper
 * /usr/lib/libvirt/libvirt_leaseshelper
 * /usr/lib/libvirt/libvirt_lxc
@@ -224,13 +227,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/systemd/system/virtvboxd-ro.socket
 * /usr/lib/systemd/system/virtvboxd.service
 * /usr/lib/systemd/system/virtvboxd.socket
+* /usr/lib/sysusers.d/libvirt-qemu.conf
 * /usr/lib/tmpfiles.d/libvirt.conf
 * /usr/share/augeas/lenses/libvirtd.aug
 * /usr/share/augeas/lenses/libvirtd_lxc.aug
+* /usr/share/augeas/lenses/libvirtd_network.aug
 * /usr/share/augeas/lenses/libvirtd_qemu.aug
 * /usr/share/augeas/lenses/libvirt_lockd.aug
 * /usr/share/augeas/lenses/tests/test_libvirtd.aug
 * /usr/share/augeas/lenses/tests/test_libvirtd_lxc.aug
+* /usr/share/augeas/lenses/tests/test_libvirtd_network.aug
 * /usr/share/augeas/lenses/tests/test_libvirtd_qemu.aug
 * /usr/share/augeas/lenses/tests/test_libvirt_lockd.aug
 * /usr/share/augeas/lenses/tests/test_virtchd.aug
@@ -259,9 +265,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/augeas/lenses/virtsecretd.aug
 * /usr/share/augeas/lenses/virtstoraged.aug
 * /usr/share/augeas/lenses/virtvboxd.aug
-* /usr/share/doc/libvirt-9.10.0/COPYING
-* /usr/share/doc/libvirt-9.10.0/COPYING.LESSER
-* /usr/share/doc/libvirt-9.10.0/README.rst
+* /usr/share/doc/libvirt-10.4.0/COPYING
+* /usr/share/doc/libvirt-10.4.0/COPYING.LESSER
+* /usr/share/doc/libvirt-10.4.0/README.rst
 * /usr/share/doc/libvirt/examples/c/admin/client_close.c
 * /usr/share/doc/libvirt/examples/c/admin/client_info.c
 * /usr/share/doc/libvirt/examples/c/admin/client_limits.c
@@ -332,9 +338,12 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/doc/libvirt/html/csharp.html
 * /usr/share/doc/libvirt/html/css/fonts.css
 * /usr/share/doc/libvirt/html/css/generic.css
+* /usr/share/doc/libvirt/html/css/libvirt-api.css
+* /usr/share/doc/libvirt/html/css/libvirt-template.css
 * /usr/share/doc/libvirt/html/css/libvirt.css
 * /usr/share/doc/libvirt/html/css/main.css
-* /usr/share/doc/libvirt/html/css/mobile.css
+* /usr/share/doc/libvirt/html/css/mobile-libvirt.css
+* /usr/share/doc/libvirt/html/css/mobile-template.css
 * /usr/share/doc/libvirt/html/daemons.html
 * /usr/share/doc/libvirt/html/dbus.html
 * /usr/share/doc/libvirt/html/docs.html
@@ -426,9 +435,11 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/doc/libvirt/html/index.html
 * /usr/share/doc/libvirt/html/issue-handling.html
 * /usr/share/doc/libvirt/html/js/main.js
+* /usr/share/doc/libvirt/html/js/virt-tools-blog-planet.js
 * /usr/share/doc/libvirt/html/kbase/backing_chains.html
 * /usr/share/doc/libvirt/html/kbase/debuglogs.html
 * /usr/share/doc/libvirt/html/kbase/domainstatecapture.html
+* /usr/share/doc/libvirt/html/kbase/failed_connection_after_install.html
 * /usr/share/doc/libvirt/html/kbase/index.html
 * /usr/share/doc/libvirt/html/kbase/internals/command.html
 * /usr/share/doc/libvirt/html/kbase/internals/eventloop.html
@@ -537,6 +548,7 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/doc/libvirt/html/python.html
 * /usr/share/doc/libvirt/html/remote.html
 * /usr/share/doc/libvirt/html/securityprocess.html
+* /usr/share/doc/libvirt/html/ssh-proxy.html
 * /usr/share/doc/libvirt/html/storage.html
 * /usr/share/doc/libvirt/html/strategy.html
 * /usr/share/doc/libvirt/html/styleguide.html
@@ -663,53 +675,6 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/schemas/storagepoolcaps.rng
 * /usr/share/libvirt/schemas/storagevol.rng
 * /usr/share/libvirt/test-screenshot.png
-* /usr/share/locale/as/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/bg/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/bs/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ca/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/cs/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/da/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/de/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/el/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/es/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/fi/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/fr/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/gu/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/hi/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/hr/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/hu/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/id/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/it/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ja/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ka/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/kn/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ko/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/mk/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ml/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/mr/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ms/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/nb/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/nl/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/or/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/pa/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/pl/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/pt/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ro/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ru/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/si/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/sr/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/sv/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/ta/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/te/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/tr/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/uk/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/vi/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libvirt.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libvirt.mo
 * /usr/share/man/man1/virsh.1.gz
 * /usr/share/man/man1/virt-admin.1.gz
 * /usr/share/man/man1/virt-host-validate.1.gz
