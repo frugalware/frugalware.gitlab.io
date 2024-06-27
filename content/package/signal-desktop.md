@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.11.1-1"
-version = "7.11.1-1"
+title = "signal-desktop 7.14.0-1"
+version = "7.14.0-1"
 description = "Signal Private Messenger for Linux"
-date = "2024-06-10T08:05:09"
+date = "2024-06-27T13:50:25"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "117239224"
-usize = "426448861"
-sha1sum = "ccc7e7e8571b8093d539d5fd6cb6f5bf11595c26"
+size = "117676876"
+usize = "430315326"
+sha1sum = "a7f4a72160b017a17cf01025217a89524c6be688"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -128,7 +128,7 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.data.xml.dom/build/Release/binding.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.ui.notifications/build/Release/binding.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/better-sqlite3/build/Release/better_sqlite3.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/libsignal-client/prebuilds/linux-x64/node.napi.node
+* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/libsignal-client/prebuilds/linux-x64/@signalapp+libsignal-client.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/ringrtc/build/linux/libringrtc-x64.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/windows-dummy-keystroke/build/Release/NativeExtension.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/fs-xattr/build/Release/xattr.node
@@ -138,8 +138,8 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.11.1/LICENSE
-* /usr/share/doc/signal-desktop-7.11.1/README.md
+* /usr/share/doc/signal-desktop-7.14.0/LICENSE
+* /usr/share/doc/signal-desktop-7.14.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png

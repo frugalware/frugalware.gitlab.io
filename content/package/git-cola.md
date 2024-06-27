@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-cola 4.7.1-2"
-version = "4.7.1-2"
+title = "git-cola 4.8.0-1"
+version = "4.8.0-1"
 description = "Git-cola is a sleek and powerful Git GUI."
-date = "2024-05-27T04:29:46"
+date = "2024-06-27T13:37:23"
 aliases = "/packages/200469"
 categories = ['xapps-extra']
 upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "982652"
-usize = "7814067"
-sha1sum = "f5ab626df5bbd7e186c9c83c232dd814849af458"
+size = "990968"
+usize = "7892312"
+sha1sum = "818cf04a04d839410825b0a108f69c954b3d8d7c"
 depends = "['pyinotify', 'pyqt5']"
 +++
 ### Description: 
@@ -154,6 +154,8 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/lib/python3.12/site-packages/cola/icons/folder.svg
 * /usr/lib/python3.12/site-packages/cola/icons/gear.svg
 * /usr/lib/python3.12/site-packages/cola/icons/git-branch.svg
+* /usr/lib/python3.12/site-packages/cola/icons/git-cola-error.svg
+* /usr/lib/python3.12/site-packages/cola/icons/git-cola-ok.svg
 * /usr/lib/python3.12/site-packages/cola/icons/git-cola.svg
 * /usr/lib/python3.12/site-packages/cola/icons/git-commit.svg
 * /usr/lib/python3.12/site-packages/cola/icons/git-compare.svg
@@ -435,18 +437,18 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/git_cola-4.7.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/git_cola-4.8.0.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/git_cola-4.8.0.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/git_cola-4.8.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/git_cola-4.8.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/git_cola-4.8.0.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/git_cola-4.8.0.dist-info/WHEEL
 * /usr/share/applications/git-cola-folder-handler.desktop
 * /usr/share/applications/git-cola.desktop
 * /usr/share/applications/git-dag.desktop
-* /usr/share/doc/git-cola-4.7.1/COPYING
-* /usr/share/doc/git-cola-4.7.1/COPYRIGHT
-* /usr/share/doc/git-cola-4.7.1/README.md
+* /usr/share/doc/git-cola-4.8.0/COPYING
+* /usr/share/doc/git-cola-4.8.0/COPYRIGHT
+* /usr/share/doc/git-cola-4.8.0/README.md
 * /usr/share/doc/git-cola/hotkeys.html
 * /usr/share/doc/git-cola/hotkeys_de.html
 * /usr/share/doc/git-cola/hotkeys_zh_CN.html

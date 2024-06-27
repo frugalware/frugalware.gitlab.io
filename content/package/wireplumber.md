@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.5.3-2"
-version = "0.5.3-2"
+title = "wireplumber 0.5.4-1"
+version = "0.5.4-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2024-06-20T17:16:00"
+date = "2024-06-27T13:25:16"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "337448"
-usize = "1423602"
-sha1sum = "45f47c9dc0069ef31d3d6e6ecc6c3ca899432314"
+size = "337816"
+usize = "1413916"
+sha1sum = "4c84d31d40a2b98f94e5a032d119852ffbca5112"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
@@ -63,7 +63,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/wpversion.h
 * /usr/lib/libwireplumber-0.5.so
 * /usr/lib/libwireplumber-0.5.so.0
-* /usr/lib/libwireplumber-0.5.so.0.503.0
+* /usr/lib/libwireplumber-0.5.so.0.504.0
 * /usr/lib/pkgconfig/wireplumber-0.5.pc
 * /usr/lib/systemd/user/wireplumber.service
 * /usr/lib/systemd/user/wireplumber@.service
@@ -78,12 +78,11 @@ Session / policy manager implementation for PipeWire
 * /usr/lib/wireplumber-0.5/libwireplumber-module-reserve-device.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-settings.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-audio-adapter.so
-* /usr/lib/wireplumber-0.5/libwireplumber-module-si-audio-virtual.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
-* /usr/share/doc/wireplumber-0.5.3/LICENSE
-* /usr/share/doc/wireplumber-0.5.3/README.rst
+* /usr/share/doc/wireplumber-0.5.4/LICENSE
+* /usr/share/doc/wireplumber-0.5.4/README.rst
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
@@ -91,9 +90,10 @@ Session / policy manager implementation for PipeWire
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/libcamera.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/linking.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/log.conf
+* /usr/share/doc/wireplumber/examples/wireplumber.conf.d/media-role-nodes.conf
+* /usr/share/doc/wireplumber/examples/wireplumber.conf.d/smart-equalizer.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/stream.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/v4l2.conf
-* /usr/share/doc/wireplumber/examples/wireplumber.conf.d/virtual.conf
 * /usr/share/wireplumber/scripts/client/access-default.lua
 * /usr/share/wireplumber/scripts/client/access-portal.lua
 * /usr/share/wireplumber/scripts/client/access-snap.lua
@@ -113,7 +113,6 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/device/state-profile.lua
 * /usr/share/wireplumber/scripts/device/state-routes.lua
 * /usr/share/wireplumber/scripts/fallback-sink.lua
-* /usr/share/wireplumber/scripts/intended-roles.lua
 * /usr/share/wireplumber/scripts/lib/common-utils.lua
 * /usr/share/wireplumber/scripts/lib/device-info-cache.lua
 * /usr/share/wireplumber/scripts/lib/filter-utils.lua
@@ -124,12 +123,12 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/linking/find-default-target.lua
 * /usr/share/wireplumber/scripts/linking/find-defined-target.lua
 * /usr/share/wireplumber/scripts/linking/find-filter-target.lua
+* /usr/share/wireplumber/scripts/linking/find-media-role-target.lua
 * /usr/share/wireplumber/scripts/linking/find-user-target.lua.example
-* /usr/share/wireplumber/scripts/linking/find-virtual-target.lua
 * /usr/share/wireplumber/scripts/linking/get-filter-from-target.lua
 * /usr/share/wireplumber/scripts/linking/link-target.lua
 * /usr/share/wireplumber/scripts/linking/prepare-link.lua
-* /usr/share/wireplumber/scripts/linking/rescan-virtual-links.lua
+* /usr/share/wireplumber/scripts/linking/rescan-media-role-links.lua
 * /usr/share/wireplumber/scripts/linking/rescan.lua
 * /usr/share/wireplumber/scripts/metadata.lua
 * /usr/share/wireplumber/scripts/monitors/alsa-midi.lua
@@ -147,7 +146,6 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/monitors/v4l2/name-device.lua
 * /usr/share/wireplumber/scripts/monitors/v4l2/name-node.lua
 * /usr/share/wireplumber/scripts/node/create-item.lua
-* /usr/share/wireplumber/scripts/node/create-virtual-item.lua
 * /usr/share/wireplumber/scripts/node/filter-forward-format.lua
 * /usr/share/wireplumber/scripts/node/software-dsp.lua
 * /usr/share/wireplumber/scripts/node/state-stream.lua

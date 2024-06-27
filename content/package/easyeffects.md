@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "easyeffects 7.1.6-2"
-version = "7.1.6-2"
+title = "easyeffects 7.1.7-1"
+version = "7.1.7-1"
 description = "Audio Effects for Pipewire Applications"
-date = "2024-05-28T20:42:18"
+date = "2024-06-27T13:35:25"
 aliases = "/packages/220894"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/wwmm/pulseeffects"
 arch = "x86_64"
-size = "1154992"
-usize = "8120343"
-sha1sum = "2e4d0ec909de90627d4a41998489d5c5410209cf"
+size = "1178552"
+usize = "8241995"
+sha1sum = "3345c94636a02117ddc2a5edf851117a2b5d1ae0"
 depends = "['fmtlib>=10.0', 'gsl>=2.8', 'intel-tbb', 'ladspa_sdk', 'libadwaita', 'libbs2b', 'libebur128', 'libsigc++3', 'lsp-plugins', 'lzo', 'pipewire', 'rnnoise', 'rubberband', 'soundtouch', 'speexdsp', 'zita-convolver']"
 +++
 ### Description: 
@@ -20,8 +20,8 @@ Audio Effects for Pipewire Applications
 * /usr/bin/easyeffects
 * /usr/share/applications/com.github.wwmm.easyeffects.desktop
 * /usr/share/dbus-1/services/com.github.wwmm.easyeffects.service
-* /usr/share/doc/easyeffects-7.1.6/LICENSE
-* /usr/share/doc/easyeffects-7.1.6/README.md
+* /usr/share/doc/easyeffects-7.1.7/LICENSE
+* /usr/share/doc/easyeffects-7.1.7/README.md
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.autogain.gschema.xml
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.bassenhancer.gschema.xml
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.bassloudness.gschema.xml
@@ -64,6 +64,7 @@ Audio Effects for Pipewire Applications
 * /usr/share/help/C/easyeffects/convolver.page
 * /usr/share/help/C/easyeffects/crossfeed.page
 * /usr/share/help/C/easyeffects/crystalizer.page
+* /usr/share/help/C/easyeffects/deepfilternet.page
 * /usr/share/help/C/easyeffects/deesser.page
 * /usr/share/help/C/easyeffects/delay.page
 * /usr/share/help/C/easyeffects/echocanceller.page
@@ -96,6 +97,7 @@ Audio Effects for Pipewire Applications
 * /usr/share/icons/hicolor/symbolic/apps/com.github.wwmm.easyeffects-symbolic.svg
 * /usr/share/locale/af/LC_MESSAGES/easyeffects-news.mo
 * /usr/share/locale/af/LC_MESSAGES/easyeffects.mo
+* /usr/share/locale/ar/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/bg/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/ca/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/cs/LC_MESSAGES/easyeffects-news.mo
@@ -119,6 +121,7 @@ Audio Effects for Pipewire Applications
 * /usr/share/locale/gl/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/hr/LC_MESSAGES/easyeffects-news.mo
 * /usr/share/locale/hr/LC_MESSAGES/easyeffects.mo
+* /usr/share/locale/hu/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/id_ID/LC_MESSAGES/easyeffects-news.mo
 * /usr/share/locale/id_ID/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/it_IT/LC_MESSAGES/easyeffects-news.mo
