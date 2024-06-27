@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openturns 1.22-2"
-version = "1.22-2"
+title = "openturns 1.23-1"
+version = "1.23-1"
 description = "Uncertainty treatment library"
-date = "2024-02-17T21:31:44"
+date = "2024-06-27T11:34:55"
 aliases = "/packages/220263"
 categories = ['lib-extra']
 upstreamurl = "http://www.openturns.org"
 arch = "x86_64"
-size = "5549728"
-usize = "26396168"
-sha1sum = "db18f8ff857027e01f94bfc96a186f00eff7af72"
+size = "5929304"
+usize = "27684515"
+sha1sum = "4e5c655bedac5f7e11e20539bd439e5cdfb4f038"
 depends = "['intel-tbb', 'libxml2']"
 reverse_depends = "['vtk']"
 +++
@@ -72,6 +72,7 @@ Uncertainty treatment library
 * /usr/include/openturns/BipartiteGraph.hxx
 * /usr/include/openturns/Bisection.hxx
 * /usr/include/openturns/BlendedStep.hxx
+* /usr/include/openturns/BlockIndependentCopula.hxx
 * /usr/include/openturns/BlockIndependentDistribution.hxx
 * /usr/include/openturns/Bonmin.hxx
 * /usr/include/openturns/BootstrapExperiment.hxx
@@ -149,9 +150,11 @@ Uncertainty treatment library
 * /usr/include/openturns/CovarianceModelFactory.hxx
 * /usr/include/openturns/CovarianceModelFactoryImplementation.hxx
 * /usr/include/openturns/CovarianceModelImplementation.hxx
+* /usr/include/openturns/CovariatesResult.hxx
 * /usr/include/openturns/CrossEntropyImportanceSampling.hxx
 * /usr/include/openturns/CrossEntropyResult.hxx
 * /usr/include/openturns/csv_parser_state.hxx
+* /usr/include/openturns/CubaIntegration.hxx
 * /usr/include/openturns/CumulativeDistributionNetwork.hxx
 * /usr/include/openturns/Curve.hxx
 * /usr/include/openturns/DatabaseEvaluation.hxx
@@ -214,6 +217,7 @@ Uncertainty treatment library
 * /usr/include/openturns/ExpectationSimulationResult.hxx
 * /usr/include/openturns/Experiment.hxx
 * /usr/include/openturns/ExperimentImplementation.hxx
+* /usr/include/openturns/ExperimentIntegration.hxx
 * /usr/include/openturns/ExpertMixture.hxx
 * /usr/include/openturns/Exponential.hxx
 * /usr/include/openturns/ExponentialFactory.hxx
@@ -291,6 +295,7 @@ Uncertainty treatment library
 * /usr/include/openturns/GeneralizedExtremeValueValidation.hxx
 * /usr/include/openturns/GeneralizedPareto.hxx
 * /usr/include/openturns/GeneralizedParetoFactory.hxx
+* /usr/include/openturns/GeneralizedParetoValidation.hxx
 * /usr/include/openturns/GeneralLinearModelAlgorithm.hxx
 * /usr/include/openturns/GeneralLinearModelResult.hxx
 * /usr/include/openturns/Geometric.hxx
@@ -304,6 +309,7 @@ Uncertainty treatment library
 * /usr/include/openturns/Greater.hxx
 * /usr/include/openturns/GreaterOrEqual.hxx
 * /usr/include/openturns/GridLayout.hxx
+* /usr/include/openturns/GSobolUseCase.hxx
 * /usr/include/openturns/Gumbel.hxx
 * /usr/include/openturns/GumbelCopula.hxx
 * /usr/include/openturns/GumbelCopulaFactory.hxx
@@ -384,6 +390,7 @@ Uncertainty treatment library
 * /usr/include/openturns/InverseTrendTransform.hxx
 * /usr/include/openturns/InverseWishart.hxx
 * /usr/include/openturns/Ipopt.hxx
+* /usr/include/openturns/IshigamiUseCase.hxx
 * /usr/include/openturns/IsotropicCovarianceModel.hxx
 * /usr/include/openturns/IteratedQuadrature.hxx
 * /usr/include/openturns/IterativeAlgorithm.hxx
@@ -394,6 +401,7 @@ Uncertainty treatment library
 * /usr/include/openturns/JacobiFactory.hxx
 * /usr/include/openturns/JansenSensitivityAlgorithm.hxx
 * /usr/include/openturns/JoeCopula.hxx
+* /usr/include/openturns/JointDistribution.hxx
 * /usr/include/openturns/KarhunenLoeveAlgorithm.hxx
 * /usr/include/openturns/KarhunenLoeveAlgorithmImplementation.hxx
 * /usr/include/openturns/KarhunenLoeveLifting.hxx
@@ -441,7 +449,6 @@ Uncertainty treatment library
 * /usr/include/openturns/LessOrEqual.hxx
 * /usr/include/openturns/LevelSet.hxx
 * /usr/include/openturns/LevelSetMesher.hxx
-* /usr/include/openturns/LHS.hxx
 * /usr/include/openturns/LHSExperiment.hxx
 * /usr/include/openturns/LHSResult.hxx
 * /usr/include/openturns/LinearBasisFactory.hxx
@@ -667,6 +674,7 @@ Uncertainty treatment library
 * /usr/include/openturns/Pointer.hxx
 * /usr/include/openturns/PointToFieldConnection.hxx
 * /usr/include/openturns/PointToFieldFunction.hxx
+* /usr/include/openturns/PointToFieldFunctionalChaosAlgorithm.hxx
 * /usr/include/openturns/PointToFieldFunctionImplementation.hxx
 * /usr/include/openturns/PointToPointConnection.hxx
 * /usr/include/openturns/PointToPointEvaluation.hxx
@@ -719,6 +727,7 @@ Uncertainty treatment library
 * /usr/include/openturns/RandomWalk.hxx
 * /usr/include/openturns/RandomWalkMetropolisHastings.hxx
 * /usr/include/openturns/RankMCovarianceModel.hxx
+* /usr/include/openturns/RankSobolSensitivityAlgorithm.hxx
 * /usr/include/openturns/RatioDistribution.hxx
 * /usr/include/openturns/Rayleigh.hxx
 * /usr/include/openturns/RayleighFactory.hxx
@@ -738,6 +747,7 @@ Uncertainty treatment library
 * /usr/include/openturns/SaltelliSensitivityAlgorithm.hxx
 * /usr/include/openturns/Sample.hxx
 * /usr/include/openturns/SampleImplementation.hxx
+* /usr/include/openturns/SamplePartition.hxx
 * /usr/include/openturns/SamplingStrategy.hxx
 * /usr/include/openturns/SamplingStrategyImplementation.hxx
 * /usr/include/openturns/Secant.hxx
@@ -751,6 +761,7 @@ Uncertainty treatment library
 * /usr/include/openturns/SklarCopula.hxx
 * /usr/include/openturns/SmolyakExperiment.hxx
 * /usr/include/openturns/SmoothedUniform.hxx
+* /usr/include/openturns/SmoothedUniformFactory.hxx
 * /usr/include/openturns/SobolIndicesAlgorithm.hxx
 * /usr/include/openturns/SobolIndicesAlgorithmImplementation.hxx
 * /usr/include/openturns/SobolIndicesExperiment.hxx
@@ -850,6 +861,7 @@ Uncertainty treatment library
 * /usr/include/openturns/Uniform.hxx
 * /usr/include/openturns/UniformFactory.hxx
 * /usr/include/openturns/UniformMuSigma.hxx
+* /usr/include/openturns/UniformOrderStatistics.hxx
 * /usr/include/openturns/UniformOverMesh.hxx
 * /usr/include/openturns/UnionEvent.hxx
 * /usr/include/openturns/UniVariateFunction.hxx
@@ -894,37 +906,33 @@ Uncertainty treatment library
 * /usr/lib/cmake/openturns/OpenTURNSConfig.cmake
 * /usr/lib/cmake/openturns/OpenTURNSConfigVersion.cmake
 * /usr/lib/libOT.so
-* /usr/lib/libOT.so.0.23
-* /usr/lib/libOT.so.0.23.0
-* /usr/share/doc/openturns-1.22/ChangeLog
-* /usr/share/doc/openturns-1.22/COPYING
-* /usr/share/doc/openturns-1.22/COPYING.cobyla
-* /usr/share/doc/openturns-1.22/COPYING.dsfmt
-* /usr/share/doc/openturns-1.22/COPYING.ev3
-* /usr/share/doc/openturns-1.22/COPYING.exprtk
-* /usr/share/doc/openturns-1.22/COPYING.faddeeva
-* /usr/share/doc/openturns-1.22/COPYING.hmat
-* /usr/share/doc/openturns-1.22/COPYING.kendall
-* /usr/share/doc/openturns-1.22/COPYING.kissfft
-* /usr/share/doc/openturns-1.22/COPYING.KolmogorovSmirnovDist
-* /usr/share/doc/openturns-1.22/COPYING.LESSER
-* /usr/share/doc/openturns-1.22/COPYING.poissinv
-* /usr/share/doc/openturns-1.22/COPYING.tnc
-* /usr/share/doc/openturns-1.22/LICENSE
-* /usr/share/doc/openturns-1.22/README.rst
-* /usr/share/doc/openturns-1.22/TODO
-* /usr/share/doc/openturns-1.22/VERSION
+* /usr/lib/libOT.so.0.24
+* /usr/lib/libOT.so.0.24.0
+* /usr/share/doc/openturns-1.23/ChangeLog
+* /usr/share/doc/openturns-1.23/COPYING
+* /usr/share/doc/openturns-1.23/COPYING.cephes
+* /usr/share/doc/openturns-1.23/COPYING.cobyla
+* /usr/share/doc/openturns-1.23/COPYING.dsfmt
+* /usr/share/doc/openturns-1.23/COPYING.ev3
+* /usr/share/doc/openturns-1.23/COPYING.exprtk
+* /usr/share/doc/openturns-1.23/COPYING.faddeeva
+* /usr/share/doc/openturns-1.23/COPYING.kendall
+* /usr/share/doc/openturns-1.23/COPYING.kissfft
+* /usr/share/doc/openturns-1.23/COPYING.LESSER
+* /usr/share/doc/openturns-1.23/COPYING.tnc
+* /usr/share/doc/openturns-1.23/LICENSE
+* /usr/share/doc/openturns-1.23/README.rst
+* /usr/share/doc/openturns-1.23/TODO
+* /usr/share/doc/openturns-1.23/VERSION
 * /usr/share/doc/openturns/COPYING
+* /usr/share/doc/openturns/COPYING.cephes
 * /usr/share/doc/openturns/COPYING.cobyla
 * /usr/share/doc/openturns/COPYING.dsfmt
 * /usr/share/doc/openturns/COPYING.ev3
 * /usr/share/doc/openturns/COPYING.exprtk
 * /usr/share/doc/openturns/COPYING.faddeeva
-* /usr/share/doc/openturns/COPYING.hmat
 * /usr/share/doc/openturns/COPYING.kendall
 * /usr/share/doc/openturns/COPYING.kissfft
-* /usr/share/doc/openturns/COPYING.KolmogorovSmirnovDist
 * /usr/share/doc/openturns/COPYING.LESSER
-* /usr/share/doc/openturns/COPYING.poissinv
 * /usr/share/doc/openturns/COPYING.tnc
-* /usr/share/gdb/auto-load/usr/lib/libOT.so.0.23.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libOT.so.0.24.0-gdb.py

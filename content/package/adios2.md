@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "adios2 2.9.2-2"
-version = "2.9.2-2"
+title = "adios2 2.10.1-1"
+version = "2.10.1-1"
 description = "Next generation of ADIOS developed in the Exascale Computing Program"
-date = "2023-11-20T09:58:41"
+date = "2024-06-27T11:43:38"
 aliases = "/packages/220262"
 categories = ['lib-extra']
 upstreamurl = "https://adios2.readthedocs.io/en/latest/index.html"
 arch = "x86_64"
-size = "3146176"
-usize = "14678039"
-sha1sum = "1ebe662b45565a601afccff3530e1cd4c18f9d57"
+size = "3320652"
+usize = "15426174"
+sha1sum = "7f3f4a370d34c6ff359dcde98058368c236067e3"
 depends = "['blosc', 'hdf5', 'libfabric', 'libpng', 'libsodium>=1.0.19', 'python3-numpy', 'sz', 'zeromq', 'zfp>=1.0.0']"
 reverse_depends = "['vtk']"
 +++
@@ -18,8 +18,10 @@ reverse_depends = "['vtk']"
 Next generation of ADIOS developed in the Exascale Computing Program
 
 ### Files: 
+* /usr/bin/adios2_campaign_manager
 * /usr/bin/adios2_deactivate_bp
 * /usr/bin/adios2_json_pp
+* /usr/bin/adios2_remote_server
 * /usr/bin/adios2_reorganize
 * /usr/bin/bp2h5
 * /usr/bin/bp4dbg
@@ -51,6 +53,7 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/core/Stream.h
 * /usr/include/adios2/core/Variable.h
 * /usr/include/adios2/core/VariableBase.h
+* /usr/include/adios2/core/VariableDerived.h
 * /usr/include/adios2/core/VariableStruct.h
 * /usr/include/adios2/cxx11/ADIOS.h
 * /usr/include/adios2/cxx11/ADIOS.inl
@@ -73,6 +76,13 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/engine/bp5/BP5Engine.h
 * /usr/include/adios2/engine/bp5/BP5Reader.h
 * /usr/include/adios2/engine/bp5/BP5Writer.h
+* /usr/include/adios2/engine/campaign/CampaignData.h
+* /usr/include/adios2/engine/campaign/CampaignManager.h
+* /usr/include/adios2/engine/campaign/CampaignReader.h
+* /usr/include/adios2/engine/campaign/CampaignRecord.h
+* /usr/include/adios2/engine/daos/DaosEngine.h
+* /usr/include/adios2/engine/daos/DaosReader.h
+* /usr/include/adios2/engine/daos/DaosWriter.h
 * /usr/include/adios2/engine/dataman/DataManMonitor.h
 * /usr/include/adios2/engine/dataman/DataManReader.h
 * /usr/include/adios2/engine/dataman/DataManWriter.h
@@ -118,6 +128,7 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/fortran/adios2_functions_allocate_mod.mod
 * /usr/include/adios2/fortran/adios2_functions_mod.mod
 * /usr/include/adios2/fortran/adios2_io_define_attribute_mod.mod
+* /usr/include/adios2/fortran/adios2_io_define_derived_variable_mod.mod
 * /usr/include/adios2/fortran/adios2_io_define_variable_mod.mod
 * /usr/include/adios2/fortran/adios2_io_mod.mod
 * /usr/include/adios2/fortran/adios2_io_mod.smod
@@ -170,6 +181,7 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/operator/OperatorFactory.h
 * /usr/include/adios2/operator/plugin/PluginOperator.h
 * /usr/include/adios2/operator/plugin/PluginOperatorInterface.h
+* /usr/include/adios2/operator/refactor/RefactorMDR.h
 * /usr/include/adios2/toolkit/aggregator/mpi/MPIAggregator.h
 * /usr/include/adios2/toolkit/aggregator/mpi/MPIChain.h
 * /usr/include/adios2/toolkit/aggregator/mpi/MPIShmChain.h
@@ -177,6 +189,9 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/toolkit/burstbuffer/FileDrainerSingleThread.h
 * /usr/include/adios2/toolkit/dataspaces/ds.h
 * /usr/include/adios2/toolkit/dataspaces/ds_data.h
+* /usr/include/adios2/toolkit/derived/Expression.h
+* /usr/include/adios2/toolkit/derived/ExprHelper.h
+* /usr/include/adios2/toolkit/derived/Function.h
 * /usr/include/adios2/toolkit/format/bp/bp3/BP3Base.h
 * /usr/include/adios2/toolkit/format/bp/bp3/BP3Deserializer.h
 * /usr/include/adios2/toolkit/format/bp/bp3/BP3Serializer.h
@@ -196,6 +211,7 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/toolkit/format/buffer/BufferV.h
 * /usr/include/adios2/toolkit/format/buffer/chunk/ChunkV.h
 * /usr/include/adios2/toolkit/format/buffer/ffs/BufferFFS.h
+* /usr/include/adios2/toolkit/format/buffer/heap/BufferMalloc.h
 * /usr/include/adios2/toolkit/format/buffer/heap/BufferSTL.h
 * /usr/include/adios2/toolkit/format/buffer/ipc/BufferSystemV.h
 * /usr/include/adios2/toolkit/format/buffer/malloc/MallocV.h
@@ -208,6 +224,8 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/toolkit/query/Query.h
 * /usr/include/adios2/toolkit/query/Util.h
 * /usr/include/adios2/toolkit/query/Worker.h
+* /usr/include/adios2/toolkit/remote/Remote.h
+* /usr/include/adios2/toolkit/remote/remote_common.h
 * /usr/include/adios2/toolkit/shm/SerializeProcesses.h
 * /usr/include/adios2/toolkit/shm/Spinlock.h
 * /usr/include/adios2/toolkit/shm/TokenChain.h
@@ -221,8 +239,10 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/toolkit/transport/file/FileAWSSDK.h
 * /usr/include/adios2/toolkit/transport/file/FileDaos.h
 * /usr/include/adios2/toolkit/transport/file/FileFStream.h
+* /usr/include/adios2/toolkit/transport/file/FileHTTP.h
 * /usr/include/adios2/toolkit/transport/file/FileIME.h
 * /usr/include/adios2/toolkit/transport/file/FilePOSIX.h
+* /usr/include/adios2/toolkit/transport/file/FileRemote.h
 * /usr/include/adios2/toolkit/transport/file/FileStdio.h
 * /usr/include/adios2/toolkit/transport/null/NullTransport.h
 * /usr/include/adios2/toolkit/transport/shm/ShmSystemV.h
@@ -231,14 +251,12 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/include/adios2/toolkit/zmq/zmqpubsub/ZmqPubSub.h
 * /usr/include/adios2/toolkit/zmq/zmqreqrep/ZmqReqRep.h
 * /usr/include/adios2_c.h
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmenet.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmepoll.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmfabric.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmmulticast.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmselect.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmsockets.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmudp.so
-* /usr/lib/adios2-evpath-modules-2_9/libadios2_cmzplenet.so
+* /usr/lib/adios2-evpath-modules-2_10/libadios2_cmenet.so
+* /usr/lib/adios2-evpath-modules-2_10/libadios2_cmepoll.so
+* /usr/lib/adios2-evpath-modules-2_10/libadios2_cmmulticast.so
+* /usr/lib/adios2-evpath-modules-2_10/libadios2_cmselect.so
+* /usr/lib/adios2-evpath-modules-2_10/libadios2_cmsockets.so
+* /usr/lib/adios2-evpath-modules-2_10/libadios2_cmudp.so
 * /usr/lib/cmake/adios2/adios2-c-targets-release.cmake
 * /usr/lib/cmake/adios2/adios2-c-targets.cmake
 * /usr/lib/cmake/adios2/adios2-config-common.cmake
@@ -251,7 +269,6 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/lib/cmake/adios2/adios2-targets-release.cmake
 * /usr/lib/cmake/adios2/adios2-targets.cmake
 * /usr/lib/cmake/adios2/CMakeFindDependencyMacro.cmake
-* /usr/lib/cmake/adios2/FindBlosc2.cmake
 * /usr/lib/cmake/adios2/FindBZip2.cmake
 * /usr/lib/cmake/adios2/FindCrayDRC.cmake
 * /usr/lib/cmake/adios2/FindDAOS.cmake
@@ -314,33 +331,40 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/lib/cmake/adios2/upstream/FindPython/Support.cmake
 * /usr/lib/cmake/adios2/upstream/GoogleTest.cmake
 * /usr/lib/libadios2_atl.so
-* /usr/lib/libadios2_atl.so.2
-* /usr/lib/libadios2_atl.so.2.2.1
+* /usr/lib/libadios2_atl.so.2.10
+* /usr/lib/libadios2_atl.so.2.10.1
 * /usr/lib/libadios2_c.so
-* /usr/lib/libadios2_c.so.2
-* /usr/lib/libadios2_c.so.2.9.2
+* /usr/lib/libadios2_c.so.2.10
+* /usr/lib/libadios2_c.so.2.10.1
 * /usr/lib/libadios2_core.so
-* /usr/lib/libadios2_core.so.2
-* /usr/lib/libadios2_core.so.2.9.2
+* /usr/lib/libadios2_core.so.2.10
+* /usr/lib/libadios2_core.so.2.10.1
 * /usr/lib/libadios2_cxx11.so
-* /usr/lib/libadios2_cxx11.so.2
-* /usr/lib/libadios2_cxx11.so.2.9.2
+* /usr/lib/libadios2_cxx11.so.2.10
+* /usr/lib/libadios2_cxx11.so.2.10.1
 * /usr/lib/libadios2_dill.so
-* /usr/lib/libadios2_dill.so.2
-* /usr/lib/libadios2_dill.so.2.4.1
+* /usr/lib/libadios2_dill.so.2.10
+* /usr/lib/libadios2_dill.so.2.10.1
 * /usr/lib/libadios2_enet.so
-* /usr/lib/libadios2_enet.so.1
-* /usr/lib/libadios2_enet.so.1.3.14
+* /usr/lib/libadios2_enet.so.2.10
+* /usr/lib/libadios2_enet.so.2.10.1
 * /usr/lib/libadios2_evpath.so
+* /usr/lib/libadios2_evpath.so.2.10
+* /usr/lib/libadios2_evpath.so.2.10.1
 * /usr/lib/libadios2_ffs.so
-* /usr/lib/libadios2_ffs.so.2
-* /usr/lib/libadios2_ffs.so.2.0.0
+* /usr/lib/libadios2_ffs.so.2.10
+* /usr/lib/libadios2_ffs.so.2.10.1
 * /usr/lib/libadios2_fortran.so
-* /usr/lib/libadios2_fortran.so.2
-* /usr/lib/libadios2_fortran.so.2.9.2
+* /usr/lib/libadios2_fortran.so.2.10
+* /usr/lib/libadios2_fortran.so.2.10.1
 * /usr/lib/libadios2_perfstubs.so
+* /usr/lib/libadios2_perfstubs.so.2.10
+* /usr/lib/libadios2_perfstubs.so.2.10.1
 * /usr/lib/libEncryptionOperator.so
-* /usr/lib/python3.12/site-packages/adios2/adios2.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/adios2/adios.py
+* /usr/lib/python3.12/site-packages/adios2/attribute.py
+* /usr/lib/python3.12/site-packages/adios2/bindings/adios2_bindings.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/adios2/bindings/__init__.py
 * /usr/lib/python3.12/site-packages/adios2/bp4dbg/data.py
 * /usr/lib/python3.12/site-packages/adios2/bp4dbg/idxtable.py
 * /usr/lib/python3.12/site-packages/adios2/bp4dbg/metadata.py
@@ -351,5 +375,13 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/lib/python3.12/site-packages/adios2/bp5dbg/metametadata.py
 * /usr/lib/python3.12/site-packages/adios2/bp5dbg/utils.py
 * /usr/lib/python3.12/site-packages/adios2/bp5dbg/__init__.py
+* /usr/lib/python3.12/site-packages/adios2/engine.py
+* /usr/lib/python3.12/site-packages/adios2/file_reader.py
+* /usr/lib/python3.12/site-packages/adios2/io.py
+* /usr/lib/python3.12/site-packages/adios2/operator.py
+* /usr/lib/python3.12/site-packages/adios2/stream.py
+* /usr/lib/python3.12/site-packages/adios2/test/simple_read_write.py
+* /usr/lib/python3.12/site-packages/adios2/test/__init__.py
+* /usr/lib/python3.12/site-packages/adios2/variable.py
 * /usr/lib/python3.12/site-packages/adios2/__init__.py
-* /usr/share/doc/adios2-2.9.2/LICENSE
+* /usr/share/doc/adios2-2.10.1/LICENSE

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freecell-solver 6.8.0-1"
-version = "6.8.0-1"
+title = "freecell-solver 6.10.0-1"
+version = "6.10.0-1"
 description = "A program that automatically solves layouts of Freecell and similar variants of Card Solitaire"
-date = "2023-03-06T14:31:32"
+date = "2024-06-27T11:48:03"
 aliases = "/packages/219722"
 categories = ['lib-extra']
 upstreamurl = "http://fc-solve.shlomifish.org"
 arch = "x86_64"
-size = "193312"
-usize = "689004"
-sha1sum = "a5ce7c811f7467dddc165c36150f20e123959680"
+size = "189200"
+usize = "619461"
+sha1sum = "0534386f25fde50b8eb248a7b7b0782df6231832"
 depends = "['gperf', 'perl-path-tiny', 'perl-template-toolkit', 'python3-pysol_cards', 'python3-random2', 'python3-six', 'rinutils']"
 reverse_depends = "['kpat']"
 +++
@@ -44,17 +44,17 @@ A program that automatically solves layouts of Freecell and similar variants of 
 * /usr/lib/libfreecell-solver.so.0
 * /usr/lib/libfreecell-solver.so.0.7.0
 * /usr/lib/pkgconfig/libfreecell-solver.pc
-* /usr/share/doc/freecell-solver-6.8.0/COPYING.asciidoc
-* /usr/share/doc/freecell-solver-6.8.0/COPYING.html
-* /usr/share/doc/freecell-solver-6.8.0/COPYING.txt
-* /usr/share/doc/freecell-solver-6.8.0/COPYING.xml
-* /usr/share/doc/freecell-solver-6.8.0/INSTALL.asciidoc
-* /usr/share/doc/freecell-solver-6.8.0/INSTALL.html
-* /usr/share/doc/freecell-solver-6.8.0/INSTALL.xml
-* /usr/share/doc/freecell-solver-6.8.0/README.asciidoc
-* /usr/share/doc/freecell-solver-6.8.0/README.html
-* /usr/share/doc/freecell-solver-6.8.0/README.win32.txt
-* /usr/share/doc/freecell-solver-6.8.0/README.xml
+* /usr/share/doc/freecell-solver-6.10.0/COPYING.asciidoc
+* /usr/share/doc/freecell-solver-6.10.0/COPYING.html
+* /usr/share/doc/freecell-solver-6.10.0/COPYING.txt
+* /usr/share/doc/freecell-solver-6.10.0/COPYING.xml
+* /usr/share/doc/freecell-solver-6.10.0/INSTALL.asciidoc
+* /usr/share/doc/freecell-solver-6.10.0/INSTALL.html
+* /usr/share/doc/freecell-solver-6.10.0/INSTALL.xml
+* /usr/share/doc/freecell-solver-6.10.0/README.asciidoc
+* /usr/share/doc/freecell-solver-6.10.0/README.html
+* /usr/share/doc/freecell-solver-6.10.0/README.win32.txt
+* /usr/share/doc/freecell-solver-6.10.0/README.xml
 * /usr/share/doc/freecell-solver/AUTHORS
 * /usr/share/doc/freecell-solver/COPYING
 * /usr/share/doc/freecell-solver/HACKING
