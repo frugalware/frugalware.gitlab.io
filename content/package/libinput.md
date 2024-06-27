@@ -25,6 +25,7 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/lib/libinput.so.10
 * /usr/lib/libinput.so.10.13.0
 * /usr/lib/libinput/libinput/libinput-analyze
+* /usr/lib/libinput/libinput/libinput-analyze-buttons
 * /usr/lib/libinput/libinput/libinput-analyze-per-slot-delta
 * /usr/lib/libinput/libinput/libinput-analyze-recording
 * /usr/lib/libinput/libinput/libinput-analyze-touch-down-state
@@ -47,8 +48,8 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/lib/udev/libinput-fuzz-to-zero
 * /usr/lib/udev/rules.d/80-libinput-device-groups.rules
 * /usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
-* /usr/share/doc/libinput-1.26.0/COPYING
-* /usr/share/doc/libinput-1.26.0/README.md
+* /usr/share/doc/libinput-1.26.1/COPYING
+* /usr/share/doc/libinput-1.26.1/README.md
 * /usr/share/libinput/10-generic-keyboard.quirks
 * /usr/share/libinput/10-generic-mouse.quirks
 * /usr/share/libinput/10-generic-trackball.quirks
@@ -95,6 +96,7 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/share/libinput/50-system-system76.quirks
 * /usr/share/libinput/50-system-toshiba.quirks
 * /usr/share/libinput/50-system-vaio.quirks
+* /usr/share/man/man1/libinput-analyze-buttons.1.gz
 * /usr/share/man/man1/libinput-analyze-per-slot-delta.1.gz
 * /usr/share/man/man1/libinput-analyze-recording.1.gz
 * /usr/share/man/man1/libinput-analyze-touch-down-state.1.gz
