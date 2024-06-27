@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vtk 9.3.0-10"
-version = "9.3.0-10"
+title = "vtk 9.3.0-11"
+version = "9.3.0-11"
 description = "Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization."
-date = "2024-06-07T09:33:54"
+date = "2024-06-27T12:21:06"
 aliases = "/packages/219042"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "39930684"
-usize = "207883066"
-sha1sum = "eb14f310f7a7a55a4526c43b6537169404184d56"
-depends = "['adios2', 'libboost', 'openslide>=4.0.0', 'openturns>=1.22', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.6.1', 'postgresql']"
+size = "39925588"
+usize = "207839598"
+sha1sum = "fdc298bf9d46c123a17e592091b8cafbc3efb989"
+depends = "['adios2', 'libboost', 'openslide>=4.0.0', 'openturns>=1.23', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.6.1', 'postgresql']"
 reverse_depends = "['opencascade', 'opencv', 'vtk-ffmpeg', 'vtk-java', 'vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-mysql', 'vtk-python3', 'vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl', 'vtk-qt5']"
 license = "GPL-2"
 +++
@@ -855,7 +855,6 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkViewsInfovis-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkWebCore-hierarchy.txt
 * /usr/lib/vtk-9.3/hierarchy/VTK/vtkWebGLExporter-hierarchy.txt
-* /usr/share/doc/vtk-9.3.0/COPYING
 * /usr/share/doc/vtk-9.3.0/README.md
 * /usr/share/licenses/VTK/Copyright.txt
 * /usr/share/licenses/VTK/vtkAcceleratorsVTKmCore/LICENSE

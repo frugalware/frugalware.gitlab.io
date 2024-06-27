@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-python3 9.3.0-10"
-version = "9.3.0-10"
+title = "vtk-python3 9.3.0-11"
+version = "9.3.0-11"
 description = "Python interface and bindings for vtk"
-date = "2024-06-07T09:33:54"
+date = "2024-06-27T12:21:06"
 aliases = "/packages/220826"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "7125536"
+size = "7131336"
 usize = "50834170"
-sha1sum = "ce5a00294b4728583f96dd96aad9a6f493228f73"
+sha1sum = "7ac5065a8473d191ac301ce46f71d4fd7aecaffb"
 depends = "['libxt', 'python3-six', 'vtk>=9.3.0']"
 reverse_depends = "['vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hwloc 2.10.0-2"
-version = "2.10.0-2"
+title = "hwloc 2.11.0-1"
+version = "2.11.0-1"
 description = "Portable Hardware Locality is a portable abstraction of hierarchical architectures"
-date = "2024-01-10T20:30:16"
+date = "2024-06-27T12:27:57"
 aliases = "/packages/221188"
 categories = ['lib-extra']
 upstreamurl = "https://www.open-mpi.org"
 arch = "x86_64"
-size = "2489004"
-usize = "3975400"
-sha1sum = "f24fdb7f0dd0cfef2710c326da8cd22197b9b64e"
+size = "2499064"
+usize = "3916014"
+sha1sum = "c5daf4341eb301e68146d299c07d7703edfb1e3b"
 depends = "['libcap', 'libudev', 'libxml2', 'ncurses']"
 reverse_depends = "['openpmix']"
 +++
@@ -61,17 +61,17 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/lib/hwloc/hwloc_xml_libxml.so
 * /usr/lib/libhwloc.so
 * /usr/lib/libhwloc.so.15
-* /usr/lib/libhwloc.so.15.7.0
+* /usr/lib/libhwloc.so.15.8.0
 * /usr/lib/pkgconfig/hwloc.pc
 * /usr/share/bash-completion/completions/hwloc
-* /usr/share/doc/hwloc-2.10.0/AUTHORS
-* /usr/share/doc/hwloc-2.10.0/COPYING
-* /usr/share/doc/hwloc-2.10.0/dynamic_SVG_example.html
-* /usr/share/doc/hwloc-2.10.0/hwloc-a4.pdf
-* /usr/share/doc/hwloc-2.10.0/hwloc-letter.pdf
-* /usr/share/doc/hwloc-2.10.0/NEWS
-* /usr/share/doc/hwloc-2.10.0/README
-* /usr/share/doc/hwloc-2.10.0/VERSION
+* /usr/share/doc/hwloc-2.11.0/AUTHORS
+* /usr/share/doc/hwloc-2.11.0/COPYING
+* /usr/share/doc/hwloc-2.11.0/dynamic_SVG_example.html
+* /usr/share/doc/hwloc-2.11.0/hwloc-a4.pdf
+* /usr/share/doc/hwloc-2.11.0/hwloc-letter.pdf
+* /usr/share/doc/hwloc-2.11.0/NEWS
+* /usr/share/doc/hwloc-2.11.0/README
+* /usr/share/doc/hwloc-2.11.0/VERSION
 * /usr/share/hwloc/hwloc-dump-hwdata.service
 * /usr/share/hwloc/hwloc-ps.www/assets/index.html
 * /usr/share/hwloc/hwloc-ps.www/assets/main.css
@@ -387,6 +387,7 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/share/man/man3/HWLOC_MEMBIND_PROCESS.3.gz
 * /usr/share/man/man3/HWLOC_MEMBIND_STRICT.3.gz
 * /usr/share/man/man3/HWLOC_MEMBIND_THREAD.3.gz
+* /usr/share/man/man3/HWLOC_MEMBIND_WEIGHTED_INTERLEAVE.3.gz
 * /usr/share/man/man3/hwloc_nodeset_from_linux_libnuma_bitmask.3.gz
 * /usr/share/man/man3/hwloc_nodeset_from_linux_libnuma_ulongs.3.gz
 * /usr/share/man/man3/hwloc_nodeset_t.3.gz
@@ -444,6 +445,7 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/share/man/man3/HWLOC_OBJ_PACKAGE.3.gz
 * /usr/share/man/man3/HWLOC_OBJ_PCI_DEVICE.3.gz
 * /usr/share/man/man3/HWLOC_OBJ_PU.3.gz
+* /usr/share/man/man3/hwloc_obj_set_subtype.3.gz
 * /usr/share/man/man3/hwloc_obj_t.3.gz
 * /usr/share/man/man3/hwloc_obj_type_is_cache.3.gz
 * /usr/share/man/man3/hwloc_obj_type_is_dcache.3.gz

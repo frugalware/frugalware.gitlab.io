@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 6.7.4-1"
-version = "6.7.4-1"
+title = "streamlink 6.8.1-1"
+version = "6.8.1-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-06-04T15:03:23"
+date = "2024-06-27T13:00:31"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "800572"
-usize = "3972726"
-sha1sum = "96dbfe0b04d2a91abd234b1da1a7d16518458872"
+size = "799224"
+usize = "3956487"
+sha1sum = "e815e2bc0dd31d67f7a29bc88f4088e7d8918c16"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -84,6 +84,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cinergroup.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/clubbingtv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cmmedia.py
+* /usr/lib/python3.12/site-packages/streamlink/plugins/cnbce.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cnews.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/crunchyroll.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/dailymotion.py
@@ -112,6 +113,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/idf1.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/indihometv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/invintus.py
+* /usr/lib/python3.12/site-packages/streamlink/plugins/kick.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/kugou.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/linelive.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/livestream.py
@@ -234,6 +236,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cinergroup.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/clubbingtv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cmmedia.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cnbce.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cnews.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/crunchyroll.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/dailymotion.cpython-312.pyc
@@ -262,6 +265,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/idf1.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/indihometv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/invintus.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/kick.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/kugou.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/linelive.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/livestream.cpython-312.pyc
@@ -542,12 +546,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/_parser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/streamlink-6.7.4/AUTHORS
-* /usr/share/doc/streamlink-6.7.4/BUGS
-* /usr/share/doc/streamlink-6.7.4/COPYING.md
-* /usr/share/doc/streamlink-6.7.4/COPYRIGHT
-* /usr/share/doc/streamlink-6.7.4/INSTALL.md
-* /usr/share/doc/streamlink-6.7.4/LICENSE
-* /usr/share/doc/streamlink-6.7.4/README.md
-* /usr/share/doc/streamlink-6.7.4/README.template
-* /usr/share/doc/streamlink-6.7.4/RELEASE-CHECKLIST
+* /usr/share/doc/streamlink-6.8.1/AUTHORS
+* /usr/share/doc/streamlink-6.8.1/LICENSE
+* /usr/share/doc/streamlink-6.8.1/README.md
