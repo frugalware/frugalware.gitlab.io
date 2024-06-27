@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-welcome 6.1.0-1"
-version = "6.1.0-1"
+title = "plasma-welcome 6.1.1-1"
+version = "6.1.1-1"
 description = "A friendly onboarding wizard for Plasma"
-date = "2024-06-19T21:57:12"
+date = "2024-06-27T08:42:20"
 aliases = "/packages/220919"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "725760"
-usize = "2331205"
-sha1sum = "ae1d9e5186589f6fbf2f1504c734250237274366"
+size = "732488"
+usize = "2373184"
+sha1sum = "6a8ec18b4b52e035c2158952c4ad696b7f0b6522"
 depends = "['kaccounts-integration>=24.05.1', 'kirigami>=6.3.0', 'kirigami-addons', 'knewstuff>=6.3.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ A friendly onboarding wizard for Plasma
 * /usr/bin/plasma-welcome
 * /usr/lib/qt6/plugins/kf6/kded/kded_plasma-welcome.so
 * /usr/share/applications/org.kde.plasma-welcome.desktop
-* /usr/share/doc/plasma-welcome-6.1.0/README.md
+* /usr/share/doc/plasma-welcome-6.1.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma-welcome.mo
@@ -58,6 +58,7 @@ A friendly onboarding wizard for Plasma
 * /usr/share/locale/sa/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma-welcome.mo
+* /usr/share/locale/sv/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma-welcome.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf-static 27.1-1"
-version = "27.1-1"
+title = "protobuf-static 27.2-1"
+version = "27.2-1"
 description = "Static files for protobuf"
-date = "2024-06-09T19:21:59"
+date = "2024-06-27T08:31:30"
 aliases = "/packages/221080"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "1610168"
-usize = "2181430"
-sha1sum = "202f049bd4a778010a028dbac1992a0ca395ee96"
+size = "1609736"
+usize = "2180982"
+sha1sum = "1fbba497db6bc936a7735f7400754d387ab2f867"
 depends = "[]"
 +++
 ### Description: 

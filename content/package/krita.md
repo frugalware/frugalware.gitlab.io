@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krita 5.2.2-4"
-version = "5.2.2-4"
+title = "krita 5.2.3-1"
+version = "5.2.3-1"
 description = "Krita is a FREE sketching and painting program"
-date = "2024-05-28T22:18:47"
+date = "2024-06-27T09:02:01"
 aliases = "/packages/218645"
 categories = ['kde5-extra']
 upstreamurl = "https://krita.org/"
 arch = "x86_64"
-size = "73984056"
-usize = "177640731"
-sha1sum = "894d852d05ce07bb242f6ea4c9555b9b258d0362"
+size = "76878464"
+usize = "172421683"
+sha1sum = "6f35137d57e9a6ed8460de1cbbfd14bd69e13dfb"
 depends = "['eigen', 'exiv2>=0.28.1', 'gsl>=2.8', 'kcompletion5', 'kcrash5', 'kguiaddons5', 'ki18n5', 'kitemviews5', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5', 'qt5-svg', 'quazip']"
 +++
 ### Description: 
@@ -42,6 +42,7 @@ Krita is a FREE sketching and painting program
 * /usr/lib/krita-python-libs/krita/sceditor/widget.py
 * /usr/lib/krita-python-libs/krita/sceditor/__init__.py
 * /usr/lib/krita-python-libs/krita/__init__.py
+* /usr/lib/krita-python-libs/PyKrita/krita.pyi
 * /usr/lib/krita-python-libs/PyKrita/krita.so
 * /usr/lib/kritaplugins/kritaanimationdocker.so
 * /usr/lib/kritaplugins/kritaarrangedocker.so
@@ -260,9 +261,6 @@ Krita is a FREE sketching and painting program
 * /usr/lib/libkritaqmicinterface.so
 * /usr/lib/libkritaqmicinterface.so.19
 * /usr/lib/libkritaqmicinterface.so.19.0.0
-* /usr/lib/libkritaqml.so
-* /usr/lib/libkritaqml.so.19
-* /usr/lib/libkritaqml.so.19.0.0
 * /usr/lib/libkritaresources.so
 * /usr/lib/libkritaresources.so.19
 * /usr/lib/libkritaresources.so.19.0.0
@@ -350,13 +348,13 @@ Krita is a FREE sketching and painting program
 * /usr/share/color/icc/krita/sRGB-elle-V2-srgbtrc.icc
 * /usr/share/color/icc/krita/WideRGB-elle-V2-g22.icc
 * /usr/share/color/icc/krita/XYZ-D50-Identity-elle-V4.icc
-* /usr/share/doc/krita-5.2.2/AUTHORS
-* /usr/share/doc/krita-5.2.2/COPYING
-* /usr/share/doc/krita-5.2.2/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/krita-5.2.2/HACKING
-* /usr/share/doc/krita-5.2.2/README.android.md
-* /usr/share/doc/krita-5.2.2/README.md
-* /usr/share/doc/krita-5.2.2/README.packagers.md
+* /usr/share/doc/krita-5.2.3/AUTHORS
+* /usr/share/doc/krita-5.2.3/COPYING
+* /usr/share/doc/krita-5.2.3/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/krita-5.2.3/HACKING
+* /usr/share/doc/krita-5.2.3/README.android.md
+* /usr/share/doc/krita-5.2.3/README.md
+* /usr/share/doc/krita-5.2.3/README.packagers.md
 * /usr/share/icons/hicolor/1024x1024/apps/krita.png
 * /usr/share/icons/hicolor/1024x1024/mimetypes/application-x-krita.png
 * /usr/share/icons/hicolor/128x128/apps/krita.png
@@ -995,148 +993,6 @@ Krita is a FREE sketching and painting program
 * /usr/share/krita/pykrita/tenscripts/tenscriptsdialog.py
 * /usr/share/krita/pykrita/tenscripts/uitenscripts.py
 * /usr/share/krita/pykrita/tenscripts/__init__.py
-* /usr/share/krita/qmlthemes/default/colors.js
-* /usr/share/krita/qmlthemes/default/fonts.js
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-Black.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-BlackIt.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-Bold.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-BoldIt.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-ExtraLight.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-ExtraLightIt.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-It.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-Light.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-LightIt.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-Regular.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-Semibold.otf
-* /usr/share/krita/qmlthemes/default/fonts/SourceSansPro-SemiboldIt.otf
-* /usr/share/krita/qmlthemes/default/icons/A4landscape-black.svg
-* /usr/share/krita/qmlthemes/default/icons/A4portrait-black.svg
-* /usr/share/krita/qmlthemes/default/icons/add-black.svg
-* /usr/share/krita/qmlthemes/default/icons/add.svg
-* /usr/share/krita/qmlthemes/default/icons/apply-black.svg
-* /usr/share/krita/qmlthemes/default/icons/apply.svg
-* /usr/share/krita/qmlthemes/default/icons/back-black.svg
-* /usr/share/krita/qmlthemes/default/icons/back.svg
-* /usr/share/krita/qmlthemes/default/icons/camera-black.svg
-* /usr/share/krita/qmlthemes/default/icons/cancel-black.svg
-* /usr/share/krita/qmlthemes/default/icons/checkbox-checked.svg
-* /usr/share/krita/qmlthemes/default/icons/checkbox-unchecked.svg
-* /usr/share/krita/qmlthemes/default/icons/checker-small.svg
-* /usr/share/krita/qmlthemes/default/icons/close-black.svg
-* /usr/share/krita/qmlthemes/default/icons/close.svg
-* /usr/share/krita/qmlthemes/default/icons/colorsampler-black.svg
-* /usr/share/krita/qmlthemes/default/icons/colorsampler.svg
-* /usr/share/krita/qmlthemes/default/icons/color_wheel-black.svg
-* /usr/share/krita/qmlthemes/default/icons/color_wheel.svg
-* /usr/share/krita/qmlthemes/default/icons/combo-arrows-white.svg
-* /usr/share/krita/qmlthemes/default/icons/crop-black.svg
-* /usr/share/krita/qmlthemes/default/icons/crop.svg
-* /usr/share/krita/qmlthemes/default/icons/delete-black.svg
-* /usr/share/krita/qmlthemes/default/icons/delete.svg
-* /usr/share/krita/qmlthemes/default/icons/down-black.svg
-* /usr/share/krita/qmlthemes/default/icons/down.svg
-* /usr/share/krita/qmlthemes/default/icons/edit-black.svg
-* /usr/share/krita/qmlthemes/default/icons/edit.svg
-* /usr/share/krita/qmlthemes/default/icons/erase-black.svg
-* /usr/share/krita/qmlthemes/default/icons/erase.svg
-* /usr/share/krita/qmlthemes/default/icons/expansionmarker.svg
-* /usr/share/krita/qmlthemes/default/icons/fileclip-black.svg
-* /usr/share/krita/qmlthemes/default/icons/fileclip.svg
-* /usr/share/krita/qmlthemes/default/icons/filenew-black.svg
-* /usr/share/krita/qmlthemes/default/icons/filenew.svg
-* /usr/share/krita/qmlthemes/default/icons/fileopen-black.svg
-* /usr/share/krita/qmlthemes/default/icons/fileopen.svg
-* /usr/share/krita/qmlthemes/default/icons/filesave-black.svg
-* /usr/share/krita/qmlthemes/default/icons/filesave.svg
-* /usr/share/krita/qmlthemes/default/icons/filesaveas-black.svg
-* /usr/share/krita/qmlthemes/default/icons/filesaveas.svg
-* /usr/share/krita/qmlthemes/default/icons/fileshare-black.svg
-* /usr/share/krita/qmlthemes/default/icons/fileshare.svg
-* /usr/share/krita/qmlthemes/default/icons/fill-black.svg
-* /usr/share/krita/qmlthemes/default/icons/fill.svg
-* /usr/share/krita/qmlthemes/default/icons/filter_delete-black.svg
-* /usr/share/krita/qmlthemes/default/icons/filter_load-black.svg
-* /usr/share/krita/qmlthemes/default/icons/filter_save-black.svg
-* /usr/share/krita/qmlthemes/default/icons/forward-black.svg
-* /usr/share/krita/qmlthemes/default/icons/forward.svg
-* /usr/share/krita/qmlthemes/default/icons/gradient-black.svg
-* /usr/share/krita/qmlthemes/default/icons/gradient.svg
-* /usr/share/krita/qmlthemes/default/icons/help-black.svg
-* /usr/share/krita/qmlthemes/default/icons/help.svg
-* /usr/share/krita/qmlthemes/default/icons/krita_sketch.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_clear.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_duplicate.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_filter-black.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_group-black.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_move_down.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_move_left.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_move_right.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_move_up.svg
-* /usr/share/krita/qmlthemes/default/icons/layer_paint-black.svg
-* /usr/share/krita/qmlthemes/default/icons/locked_off-black.svg
-* /usr/share/krita/qmlthemes/default/icons/locked_off-small.svg
-* /usr/share/krita/qmlthemes/default/icons/locked_on-black.svg
-* /usr/share/krita/qmlthemes/default/icons/locked_on-small.svg
-* /usr/share/krita/qmlthemes/default/icons/minimize-black.svg
-* /usr/share/krita/qmlthemes/default/icons/minimize.svg
-* /usr/share/krita/qmlthemes/default/icons/mirror_c-black.svg
-* /usr/share/krita/qmlthemes/default/icons/mirror_h-black.svg
-* /usr/share/krita/qmlthemes/default/icons/mirror_v-black.svg
-* /usr/share/krita/qmlthemes/default/icons/move-black.svg
-* /usr/share/krita/qmlthemes/default/icons/move.svg
-* /usr/share/krita/qmlthemes/default/icons/paint-black.svg
-* /usr/share/krita/qmlthemes/default/icons/paint.svg
-* /usr/share/krita/qmlthemes/default/icons/palette-add-black.svg
-* /usr/share/krita/qmlthemes/default/icons/palette-black.svg
-* /usr/share/krita/qmlthemes/default/icons/palette-delete-black.svg
-* /usr/share/krita/qmlthemes/default/icons/palette.svg
-* /usr/share/krita/qmlthemes/default/icons/redo-black.svg
-* /usr/share/krita/qmlthemes/default/icons/redo.svg
-* /usr/share/krita/qmlthemes/default/icons/select-add.svg
-* /usr/share/krita/qmlthemes/default/icons/select-apply.svg
-* /usr/share/krita/qmlthemes/default/icons/select-area.svg
-* /usr/share/krita/qmlthemes/default/icons/select-color.svg
-* /usr/share/krita/qmlthemes/default/icons/select-deselect-black.svg
-* /usr/share/krita/qmlthemes/default/icons/select-deselect.svg
-* /usr/share/krita/qmlthemes/default/icons/select-hide-black.svg
-* /usr/share/krita/qmlthemes/default/icons/select-hide.svg
-* /usr/share/krita/qmlthemes/default/icons/select-intersect.svg
-* /usr/share/krita/qmlthemes/default/icons/select-polygon.svg
-* /usr/share/krita/qmlthemes/default/icons/select-rectangle.svg
-* /usr/share/krita/qmlthemes/default/icons/select-replace.svg
-* /usr/share/krita/qmlthemes/default/icons/select-reselect-black.svg
-* /usr/share/krita/qmlthemes/default/icons/select-reselect.svg
-* /usr/share/krita/qmlthemes/default/icons/select-show-black.svg
-* /usr/share/krita/qmlthemes/default/icons/select-show.svg
-* /usr/share/krita/qmlthemes/default/icons/select-sub.svg
-* /usr/share/krita/qmlthemes/default/icons/settings-black.svg
-* /usr/share/krita/qmlthemes/default/icons/settings.svg
-* /usr/share/krita/qmlthemes/default/icons/square-black.svg
-* /usr/share/krita/qmlthemes/default/icons/square.svg
-* /usr/share/krita/qmlthemes/default/icons/switch-black.svg
-* /usr/share/krita/qmlthemes/default/icons/switch.svg
-* /usr/share/krita/qmlthemes/default/icons/transform-black.svg
-* /usr/share/krita/qmlthemes/default/icons/transform.svg
-* /usr/share/krita/qmlthemes/default/icons/undo-black.svg
-* /usr/share/krita/qmlthemes/default/icons/undo.svg
-* /usr/share/krita/qmlthemes/default/icons/up-black.svg
-* /usr/share/krita/qmlthemes/default/icons/up.svg
-* /usr/share/krita/qmlthemes/default/icons/visible_off-black.svg
-* /usr/share/krita/qmlthemes/default/icons/visible_off-small.svg
-* /usr/share/krita/qmlthemes/default/icons/visible_off.svg
-* /usr/share/krita/qmlthemes/default/icons/visible_on-black.svg
-* /usr/share/krita/qmlthemes/default/icons/visible_on-small.svg
-* /usr/share/krita/qmlthemes/default/icons/visible_on.svg
-* /usr/share/krita/qmlthemes/default/icons/web-black.svg
-* /usr/share/krita/qmlthemes/default/icons/web.svg
-* /usr/share/krita/qmlthemes/default/images/busyindicator.png
-* /usr/share/krita/qmlthemes/default/images/divider.png
-* /usr/share/krita/qmlthemes/default/images/header_krita_sketch.png
-* /usr/share/krita/qmlthemes/default/images/header_krita_sketch_light.png
-* /usr/share/krita/qmlthemes/default/images/kritasketch.png
-* /usr/share/krita/qmlthemes/default/images/shadow.png
-* /usr/share/krita/qmlthemes/default/sizes.js
-* /usr/share/krita/qmlthemes/default/theme.qml
 * /usr/share/krita/seexpr_scripts/Disney_noisecolor2.kse
 * /usr/share/krita/shortcuts/clip_studio_paint_compatible.shortcuts
 * /usr/share/krita/shortcuts/krita_default.shortcuts
@@ -1316,38 +1172,3 @@ Krita is a FREE sketching and painting program
 * /usr/share/locale/zh_CN/LC_MESSAGES/krita.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krita.mo
 * /usr/share/metainfo/org.kde.krita.appdata.xml
-* /usr/share/qt5/qml/org/krita/draganddrop/libdraganddropplugin.so
-* /usr/share/qt5/qml/org/krita/draganddrop/qmldir
-* /usr/share/qt5/qml/org/krita/sketch/components/BusyIndicator.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Button.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/ButtonSquared.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/CategorySwitcher.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/CheckBox.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/ColorSwatch.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Dialog.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Divider.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/DropShadow.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/ExpandingListView.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Header.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Label.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/ListItem.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/MessageStack.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/NewImageList.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/NewsList.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Page.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/PageStack.js
-* /usr/share/qt5/qml/org/krita/sketch/components/PageStack.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/PanelTextField.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/qmldir
-* /usr/share/qt5/qml/org/krita/sketch/components/RangeCombo.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/RangeInput.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/RecentFilesList.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/ScrollDecorator.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Shadow.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Slider.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/TextField.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/TextFieldMultiline.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/Tooltip.qml
-* /usr/share/qt5/qml/org/krita/sketch/components/VirtualKeyboard.qml
-* /usr/share/qt5/qml/org/krita/sketch/libkritasketchplugin.so
-* /usr/share/qt5/qml/org/krita/sketch/qmldir
