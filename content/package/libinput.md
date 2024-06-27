@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libinput 1.26.0-1"
-version = "1.26.0-1"
+title = "libinput 1.26.1-1"
+version = "1.26.1-1"
 description = "A library to handle input devices in Wayland compositors and to provide a generic X.Org input driver"
-date = "2024-06-09T14:37:52"
+date = "2024-06-27T07:14:58"
 aliases = "/packages/201250"
 categories = ['x11']
 upstreamurl = "https://gitlab.freedesktop.org/libinput/libinput"
 arch = "x86_64"
-size = "253964"
-usize = "957877"
-sha1sum = "a83737712f0d2b7b34de9a2640bcf078ce6cb2a7"
+size = "257108"
+usize = "971522"
+sha1sum = "4ce2c422f8af0257bcfb73a2aaef895ad5b89885"
 depends = "['libevdev>=1.5.4-2', 'libudev>=242', 'libwacom>=0.29', 'mtdev>=1.1.5-4']"
 reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-gestures', 'qt5-base', 'qt6-base', 'terminology', 'virtualbox', 'weston', 'wlroots', 'xf86-input-libinput']"
 +++
