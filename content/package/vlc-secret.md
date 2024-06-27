@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-secret 3.0.21-2"
-version = "3.0.21-2"
+title = "vlc-secret 3.0.21-3"
+version = "3.0.21-3"
 description = "vlc secret support"
-date = "2024-06-09T22:11:51"
+date = "2024-06-27T09:59:30"
 aliases = "/packages/219584"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "16532"
+size = "16560"
 usize = "11032"
-sha1sum = "51c1041a4c264576d65867c020dcd573c35355d4"
+sha1sum = "c6400f0aecf89ee84c768341e91bfd1e8e1b6ae3"
 depends = "['libsecret', 'libvlc>=3.0.21']"
 +++
 ### Description: 

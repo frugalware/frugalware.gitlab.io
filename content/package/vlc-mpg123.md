@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-mpg123 3.0.21-2"
-version = "3.0.21-2"
+title = "vlc-mpg123 3.0.21-3"
+version = "3.0.21-3"
 description = "vlc mpg123 support"
-date = "2024-06-09T22:11:51"
+date = "2024-06-27T09:59:30"
 aliases = "/packages/219583"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "16740"
+size = "16764"
 usize = "10592"
-sha1sum = "57cf43b159529da0a20b7057bc76739230d0d3b2"
+sha1sum = "9a08a2a586c5dba9c026d62ead70c69f16a0bf06"
 depends = "['libmpg123', 'libvlc>=3.0.21']"
 +++
 ### Description: 

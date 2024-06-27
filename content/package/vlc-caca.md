@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-caca 3.0.21-2"
-version = "3.0.21-2"
+title = "vlc-caca 3.0.21-3"
+version = "3.0.21-3"
 description = "vlc plugin for libcaca"
-date = "2024-06-09T22:11:51"
+date = "2024-06-27T09:59:30"
 aliases = "/packages/135935"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17892"
+size = "17908"
 usize = "14456"
-sha1sum = "736b6c7c3cba7c1796dabf506f072530cf76e573"
+sha1sum = "2c5a3de0be486c7c24a231b6ec7abbd4890b0855"
 depends = "['libcaca', 'libvlc>=3.0.21']"
 +++
 ### Description: 
