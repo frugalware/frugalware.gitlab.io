@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sol2 3.3.0-1"
-version = "3.3.0-1"
+title = "sol2 3.3.1-1"
+version = "3.3.1-1"
 description = "C++ <-> Lua API wrapper with advanced features and top notch performance"
-date = "2022-09-14T09:01:45"
+date = "2024-06-28T12:57:33"
 aliases = "/packages/220589"
 categories = ['devel-extra']
 upstreamurl = "https://sol2.rtfd.io"
 arch = "x86_64"
-size = "135524"
-usize = "1149051"
-sha1sum = "e9fc35bf7388a01cbaccbe2d8700508ebdf01787"
+size = "135928"
+usize = "1144471"
+sha1sum = "a74c2200fbe1a059643c2edc22b8334233dba71f"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -133,4 +133,4 @@ C++ <-> Lua API wrapper with advanced features and top notch performance
 * /usr/lib/cmake/sol2/sol2-config.cmake
 * /usr/lib/cmake/sol2/sol2-targets.cmake
 * /usr/lib/pkgconfig/sol2.pc
-* /usr/share/doc/sol2-3.3.0/README.md
+* /usr/share/doc/sol2-3.3.1/README.md

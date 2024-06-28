@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glad 2.0.4-2"
-version = "2.0.4-2"
+title = "glad 2.0.6-1"
+version = "2.0.6-1"
 description = "Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs"
-date = "2023-10-12T11:07:59"
+date = "2024-06-28T12:52:38"
 aliases = "/packages/220869"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/Dav1dde/glad"
 arch = "x86_64"
-size = "471052"
-usize = "6116674"
-sha1sum = "c173acf6358bf8de2cb606f078f6af12ae87853c"
+size = "468220"
+usize = "6346949"
+sha1sum = "a4e776a5e5dc2071552f2d43bc9349b1e3b4cfeb"
 depends = "['python3-jinja', 'python3-lxml', 'python3-setuptools']"
 +++
 ### Description: 
@@ -26,6 +26,9 @@ Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official
 * /usr/lib/python3.12/site-packages/glad/files/khrplatform.h
 * /usr/lib/python3.12/site-packages/glad/files/vk.xml
 * /usr/lib/python3.12/site-packages/glad/files/vk_platform.h
+* /usr/lib/python3.12/site-packages/glad/files/vulkan_video_codecs_common.h
+* /usr/lib/python3.12/site-packages/glad/files/vulkan_video_codec_av1std.h
+* /usr/lib/python3.12/site-packages/glad/files/vulkan_video_codec_av1std_decode.h
 * /usr/lib/python3.12/site-packages/glad/files/vulkan_video_codec_h264std.h
 * /usr/lib/python3.12/site-packages/glad/files/vulkan_video_codec_h264std_decode.h
 * /usr/lib/python3.12/site-packages/glad/files/vulkan_video_codec_h264std_encode.h
@@ -117,15 +120,11 @@ Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official
 * /usr/lib/python3.12/site-packages/glad/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/glad/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/glad/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/glad2-2.0.4.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/glad2-2.0.4.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/glad2-2.0.4.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/glad2-2.0.4.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/glad2-2.0.4.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/glad2-2.0.4.dist-info/WHEEL
-* /usr/share/doc/glad-2.0.4/AUTHORS
-* /usr/share/doc/glad-2.0.4/ChangeLog
-* /usr/share/doc/glad-2.0.4/COPYING
-* /usr/share/doc/glad-2.0.4/LICENSE
-* /usr/share/doc/glad-2.0.4/README.md
-* /usr/share/doc/glad-2.0.4/VERSION
+* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/WHEEL
+* /usr/share/doc/glad-2.0.6/LICENSE
+* /usr/share/doc/glad-2.0.6/README.md

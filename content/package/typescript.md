@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "typescript 5.2.2-1"
-version = "5.2.2-1"
+title = "typescript 5.5.2-1"
+version = "5.5.2-1"
 description = "TypeScript is a language for application scale JavaScript development"
-date = "2023-09-13T18:11:25"
+date = "2024-06-28T12:53:46"
 aliases = "/packages/220286"
 categories = ['devel-extra']
 upstreamurl = "http://typescriptlang.org"
 arch = "x86_64"
-size = "3989232"
-usize = "40660223"
-sha1sum = "96e7f2639ba53ad8e2221b8fc330dd2c0bf8cd28"
+size = "2623968"
+usize = "21914223"
+sha1sum = "54686a571bfa90d7f59f51ec6b5326e49fd9d2ef"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -86,6 +86,7 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/lib/lib.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.decorators.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.dom.asynciterable.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.dom.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts
@@ -101,6 +102,7 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2016.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.es2016.intl.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2017.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2017.date.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2017.full.d.ts
@@ -152,14 +154,22 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/lib/lib.es2023.collection.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2023.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es2023.full.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.es2023.intl.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es5.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.es6.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.array.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.collection.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.decorators.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.disposable.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.full.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.object.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.promise.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.regexp.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.string.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.webworker.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.webworker.iterable.d.ts
@@ -183,4 +193,4 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/README.md
 * /usr/lib/node_modules/typescript/SECURITY.md
 * /usr/lib/node_modules/typescript/ThirdPartyNoticeText.txt
-* /usr/share/doc/typescript-5.2.2/README.md
+* /usr/share/doc/typescript-5.5.2/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xsimd 11.2.0-1"
-version = "11.2.0-1"
+title = "xsimd 13.0.0-1"
+version = "13.0.0-1"
 description = "QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy computing"
-date = "2023-11-28T14:47:11"
+date = "2024-06-28T13:02:37"
 aliases = "/packages/220486"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/QuantStack/xsimd"
 arch = "x86_64"
-size = "107876"
-usize = "1236986"
-sha1sum = "2354fa0e6b5a1bc032c4aac50017cb4dd278a754"
+size = "123188"
+usize = "1431955"
+sha1sum = "879a4804e59d8c8f907f34f6d9980daac13f2df4"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -30,17 +30,27 @@ QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy c
 * /usr/include/xsimd/arch/xsimd_avx512bw.hpp
 * /usr/include/xsimd/arch/xsimd_avx512cd.hpp
 * /usr/include/xsimd/arch/xsimd_avx512dq.hpp
+* /usr/include/xsimd/arch/xsimd_avx512er.hpp
 * /usr/include/xsimd/arch/xsimd_avx512f.hpp
+* /usr/include/xsimd/arch/xsimd_avx512ifma.hpp
+* /usr/include/xsimd/arch/xsimd_avx512pf.hpp
+* /usr/include/xsimd/arch/xsimd_avx512vbmi.hpp
+* /usr/include/xsimd/arch/xsimd_avx512vnni_avx512bw.hpp
+* /usr/include/xsimd/arch/xsimd_avx512vnni_avx512vbmi.hpp
+* /usr/include/xsimd/arch/xsimd_avxvnni.hpp
 * /usr/include/xsimd/arch/xsimd_constants.hpp
+* /usr/include/xsimd/arch/xsimd_emulated.hpp
 * /usr/include/xsimd/arch/xsimd_fma3_avx.hpp
 * /usr/include/xsimd/arch/xsimd_fma3_avx2.hpp
 * /usr/include/xsimd/arch/xsimd_fma3_sse.hpp
 * /usr/include/xsimd/arch/xsimd_fma4.hpp
 * /usr/include/xsimd/arch/xsimd_generic.hpp
 * /usr/include/xsimd/arch/xsimd_generic_fwd.hpp
+* /usr/include/xsimd/arch/xsimd_i8mm_neon64.hpp
 * /usr/include/xsimd/arch/xsimd_isa.hpp
 * /usr/include/xsimd/arch/xsimd_neon.hpp
 * /usr/include/xsimd/arch/xsimd_neon64.hpp
+* /usr/include/xsimd/arch/xsimd_rvv.hpp
 * /usr/include/xsimd/arch/xsimd_scalar.hpp
 * /usr/include/xsimd/arch/xsimd_sse2.hpp
 * /usr/include/xsimd/arch/xsimd_sse3.hpp
@@ -52,6 +62,7 @@ QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy c
 * /usr/include/xsimd/config/xsimd_arch.hpp
 * /usr/include/xsimd/config/xsimd_config.hpp
 * /usr/include/xsimd/config/xsimd_cpuid.hpp
+* /usr/include/xsimd/config/xsimd_inline.hpp
 * /usr/include/xsimd/math/xsimd_rem_pio2.hpp
 * /usr/include/xsimd/memory/xsimd_aligned_allocator.hpp
 * /usr/include/xsimd/memory/xsimd_alignment.hpp
@@ -61,18 +72,28 @@ QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy c
 * /usr/include/xsimd/types/xsimd_avx512bw_register.hpp
 * /usr/include/xsimd/types/xsimd_avx512cd_register.hpp
 * /usr/include/xsimd/types/xsimd_avx512dq_register.hpp
+* /usr/include/xsimd/types/xsimd_avx512er_register.hpp
 * /usr/include/xsimd/types/xsimd_avx512f_register.hpp
+* /usr/include/xsimd/types/xsimd_avx512ifma_register.hpp
+* /usr/include/xsimd/types/xsimd_avx512pf_register.hpp
+* /usr/include/xsimd/types/xsimd_avx512vbmi_register.hpp
+* /usr/include/xsimd/types/xsimd_avx512vnni_avx512bw_register.hpp
+* /usr/include/xsimd/types/xsimd_avx512vnni_avx512vbmi_register.hpp
+* /usr/include/xsimd/types/xsimd_avxvnni_register.hpp
 * /usr/include/xsimd/types/xsimd_avx_register.hpp
 * /usr/include/xsimd/types/xsimd_batch.hpp
 * /usr/include/xsimd/types/xsimd_batch_constant.hpp
+* /usr/include/xsimd/types/xsimd_emulated_register.hpp
 * /usr/include/xsimd/types/xsimd_fma3_avx2_register.hpp
 * /usr/include/xsimd/types/xsimd_fma3_avx_register.hpp
 * /usr/include/xsimd/types/xsimd_fma3_sse_register.hpp
 * /usr/include/xsimd/types/xsimd_fma4_register.hpp
 * /usr/include/xsimd/types/xsimd_generic_arch.hpp
+* /usr/include/xsimd/types/xsimd_i8mm_neon64_register.hpp
 * /usr/include/xsimd/types/xsimd_neon64_register.hpp
 * /usr/include/xsimd/types/xsimd_neon_register.hpp
 * /usr/include/xsimd/types/xsimd_register.hpp
+* /usr/include/xsimd/types/xsimd_rvv_register.hpp
 * /usr/include/xsimd/types/xsimd_sse2_register.hpp
 * /usr/include/xsimd/types/xsimd_sse3_register.hpp
 * /usr/include/xsimd/types/xsimd_sse4_1_register.hpp
@@ -87,5 +108,5 @@ QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy c
 * /usr/lib/cmake/xsimd/xsimdConfigVersion.cmake
 * /usr/lib/cmake/xsimd/xsimdTargets.cmake
 * /usr/lib/pkgconfig/xsimd.pc
-* /usr/share/doc/xsimd-11.2.0/LICENSE
-* /usr/share/doc/xsimd-11.2.0/README.md
+* /usr/share/doc/xsimd-13.0.0/LICENSE
+* /usr/share/doc/xsimd-13.0.0/README.md
