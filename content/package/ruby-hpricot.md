@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "591808"
 usize = "2691642"
 sha1sum = "aa34c7760e43c33072bb6ea6f6157aa8fa980aa2"
-depends = "['ruby>=3.2.0', 'ruby>=3.3.0']"
+depends = "['ruby>=3.3.0', 'ruby>=3.2.0']"
 reverse_depends = "['ruby-ronn']"
 +++
 ### Description: 

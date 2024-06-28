@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glslang 14.2.0-2"
-version = "14.2.0-2"
+title = "glslang 14.3.0-1"
+version = "14.3.0-1"
 description = "An OpenGL and OpenGL ES shader front end and validator"
-date = "2024-05-13T23:09:19"
+date = "2024-06-28T13:14:14"
 aliases = "/packages/219802"
 categories = ['apps']
 upstreamurl = "https://github.com/KhronosGroup/glslang"
 arch = "x86_64"
-size = "19091432"
-usize = "39666564"
-sha1sum = "93931abccf36f1d3a044398b95af291df06ec4e4"
+size = "19022680"
+usize = "39735456"
+sha1sum = "86c269041289b3ce078a25853b51d488dc093335"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['shaderc', 'vkbasalt']"
 +++
