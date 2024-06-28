@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libndp 1.8-3"
-version = "1.8-3"
+title = "libndp 1.9-1"
+version = "1.9-1"
 description = "This package contains a library which provides a wrapper for IPv6 Neighbor Discovery Protocol."
-date = "2021-10-06T12:20:39"
+date = "2024-06-28T11:40:13"
 aliases = "/packages/200914"
 categories = ['base']
 upstreamurl = "https://github.com/jpirko/libndp"
 arch = "x86_64"
-size = "27996"
-usize = "98282"
-sha1sum = "b57dd2f35b4ecf5807ee9a9055cf1365bd7a7882"
+size = "26496"
+usize = "79133"
+sha1sum = "8d4913723cafb7f357472cbe8544c46fbe595b20"
 depends = "['glibc>=2.34']"
 reverse_depends = "['networkmanager']"
 +++
@@ -22,8 +22,8 @@ This package contains a library which provides a wrapper for IPv6 Neighbor Disco
 * /usr/include/ndp.h
 * /usr/lib/libndp.so
 * /usr/lib/libndp.so.0
-* /usr/lib/libndp.so.0.2.0
+* /usr/lib/libndp.so.0.3.0
 * /usr/lib/pkgconfig/libndp.pc
-* /usr/share/doc/libndp-1.8/COPYING
-* /usr/share/doc/libndp-1.8/README
+* /usr/share/doc/libndp-1.9/COPYING
+* /usr/share/doc/libndp-1.9/README
 * /usr/share/man/man8/ndptool.8.gz
