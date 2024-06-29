@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.5.4-1"
-version = "0.5.4-1"
+title = "wireplumber 0.5.5-1"
+version = "0.5.5-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2024-06-27T13:25:16"
+date = "2024-06-29T12:56:37"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "337816"
-usize = "1413916"
-sha1sum = "4c84d31d40a2b98f94e5a032d119852ffbca5112"
+size = "337712"
+usize = "1419101"
+sha1sum = "4974812fddcef8b8b543da146e7ea52c8ab7fc43"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
@@ -63,7 +63,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/wpversion.h
 * /usr/lib/libwireplumber-0.5.so
 * /usr/lib/libwireplumber-0.5.so.0
-* /usr/lib/libwireplumber-0.5.so.0.504.0
+* /usr/lib/libwireplumber-0.5.so.0.505.0
 * /usr/lib/pkgconfig/wireplumber-0.5.pc
 * /usr/lib/systemd/user/wireplumber.service
 * /usr/lib/systemd/user/wireplumber@.service
@@ -81,8 +81,8 @@ Session / policy manager implementation for PipeWire
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
-* /usr/share/doc/wireplumber-0.5.4/LICENSE
-* /usr/share/doc/wireplumber-0.5.4/README.rst
+* /usr/share/doc/wireplumber-0.5.5/LICENSE
+* /usr/share/doc/wireplumber-0.5.5/README.rst
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
