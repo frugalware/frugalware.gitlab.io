@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pdal 2.7.1-1"
-version = "2.7.1-1"
+title = "pdal 2.7.2-1"
+version = "2.7.2-1"
 description = "A C++ library for translating and manipulating point cloud data"
-date = "2024-05-21T20:54:08"
+date = "2024-06-29T19:18:06"
 aliases = "/packages/220256"
 categories = ['lib-extra']
 upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
-size = "2155144"
-usize = "8157035"
-sha1sum = "6f6d2223af4ec166e5585d254e831842779a6e93"
+size = "2150504"
+usize = "8133478"
+sha1sum = "bd03776f7781b72850e4420e19eeb81b4f196f13"
 depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'openscenegraph', 'zstd']"
 reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
@@ -348,12 +348,12 @@ A C++ library for translating and manipulating point cloud data
 * /usr/lib/cmake/PDAL/pluginmacros.cmake
 * /usr/lib/libpdalcpp.so
 * /usr/lib/libpdalcpp.so.17
-* /usr/lib/libpdalcpp.so.17.0.0
+* /usr/lib/libpdalcpp.so.17.1.0
 * /usr/lib/libpdal_plugin_kernel_fauxplugin.so
 * /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17
-* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17.0.0
+* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17.1.0
 * /usr/lib/pkgconfig/pdal.pc
 * /usr/share/bash-completion/completions/pdal
-* /usr/share/doc/pdal-2.7.1/HOWTORELEASE.txt
-* /usr/share/doc/pdal-2.7.1/README.md
-* /usr/share/doc/pdal-2.7.1/RELEASENOTES.txt
+* /usr/share/doc/pdal-2.7.2/HOWTORELEASE.txt
+* /usr/share/doc/pdal-2.7.2/README.md
+* /usr/share/doc/pdal-2.7.2/RELEASENOTES.txt

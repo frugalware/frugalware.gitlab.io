@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt-builder 1.15.3-1"
-version = "1.15.3-1"
+title = "pyqt-builder 1.16.0-1"
+version = "1.16.0-1"
 description = "The PEP 517 compliant PyQt build system"
-date = "2023-11-10T22:25:52"
+date = "2024-06-29T19:59:19"
 aliases = "/packages/220235"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/PyQt-builder"
 arch = "x86_64"
-size = "2792488"
-usize = "9547831"
-sha1sum = "df69de79915feb23e9ba63d1346b5f19cd4f1451"
+size = "2782568"
+usize = "9585076"
+sha1sum = "2ce675765c30620ffb4a84abc57e3fb233710bc9"
 depends = "['python3>=3.12']"
 +++
 ### Description: 
@@ -54,20 +54,35 @@ The PEP 517 compliant PyQt build system
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/pyqtpurchasing.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/pyqtwebengine.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__init__.py
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt3d.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt3d.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt5.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt5.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_3d.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_3d.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_charts.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_charts.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_datavisualization.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_datavisualization.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_networkauth.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_networkauth.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_webengine.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqt6_webengine.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtchart.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtchart.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtdatavisualization.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtdatavisualization.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtnetworkauth.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtnetworkauth.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtpurchasing.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtpurchasing.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtwebengine.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/pyqtwebengine.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/packages/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/qt_metadata.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/qt_wheel.py
@@ -78,32 +93,46 @@ The PEP 517 compliant PyQt build system
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/verbose.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/wheel.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__init__.py
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/abstract_package.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/abstract_package.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/bundle.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/bundle.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/bundle_main.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/bundle_main.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/qt_metadata.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/qt_metadata.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/qt_wheel.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/qt_wheel.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/qt_wheel_main.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/qt_wheel_main.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/verbose.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/verbose.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/wheel.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/wheel.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/bundle/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/installable.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/project.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/version.py
+* /usr/lib/python3.12/site-packages/pyqtbuild/_version.py
 * /usr/lib/python3.12/site-packages/pyqtbuild/__init__.py
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/bindings.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/bindings.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/builder.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/builder.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/installable.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/installable.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/project.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/project.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/version.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/_version.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/_version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/pyqtbuild/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PyQt_builder-1.15.3-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/PyQt_builder-1.15.3-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/PyQt_builder-1.15.3-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/PyQt_builder-1.15.3-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/PyQt_builder-1.15.3-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/PyQt_builder-1.15.3-py3.12.egg-info/top_level.txt
-* /usr/share/doc/pyqt-builder-1.15.3/ChangeLog
-* /usr/share/doc/pyqt-builder-1.15.3/LICENSE
-* /usr/share/doc/pyqt-builder-1.15.3/NEWS
-* /usr/share/doc/pyqt-builder-1.15.3/README
+* /usr/lib/python3.12/site-packages/PyQt_builder-1.16.0.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/PyQt_builder-1.16.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt_builder-1.16.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/PyQt_builder-1.16.0.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/PyQt_builder-1.16.0.dist-info/WHEEL
+* /usr/share/doc/pyqt-builder-1.16.0/README.md

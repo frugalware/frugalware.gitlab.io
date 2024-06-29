@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simde 0.8.0-1"
-version = "0.8.0-1"
+title = "simde 0.8.2-1"
+version = "0.8.2-1"
 description = "Implementations of SIMD instruction sets"
-date = "2024-04-07T15:25:35"
+date = "2024-06-29T19:39:33"
 aliases = "/packages/221420"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/simd-everywhere/simde"
 arch = "x86_64"
-size = "453388"
-usize = "8272135"
-sha1sum = "3712b71455bd9f86abf2db68aa92c387cfd7997c"
+size = "457928"
+usize = "8338643"
+sha1sum = "fba52293dd2145356613ae8b75595aece0f55235"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -487,8 +487,5 @@ Implementations of SIMD instruction sets
 * /usr/include/simde/x86/svml.h
 * /usr/include/simde/x86/xop.h
 * /usr/lib/pkgconfig/simde.pc
-* /usr/share/doc/simde-0.8.0/COPYING
-* /usr/share/doc/simde-0.8.0/INSTALL.md
-* /usr/share/doc/simde-0.8.0/LICENSE
-* /usr/share/doc/simde-0.8.0/README.asciidoc
-* /usr/share/doc/simde-0.8.0/README.md
+* /usr/share/doc/simde-0.8.2/COPYING
+* /usr/share/doc/simde-0.8.2/README.md

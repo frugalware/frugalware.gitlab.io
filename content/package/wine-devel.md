@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 9.11-1"
-version = "9.11-1"
+title = "wine-devel 9.12-1"
+version = "9.12-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-06-18T09:21:14"
+date = "2024-06-29T19:30:36"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "80397936"
-usize = "644499549"
-sha1sum = "1b1fe2c083ecc661b15fab23d6ee20c57d84efd6"
+size = "80496736"
+usize = "646900496"
+sha1sum = "0c2715f12aa68ff68ca627da81cd501204e2c57d"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -895,6 +895,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/rmxftmpl.x
 * /usr/include/wine/windows/roapi.h
 * /usr/include/wine/windows/roerrorapi.h
+* /usr/include/wine/windows/rometadata.h
 * /usr/include/wine/windows/rometadataresolution.h
 * /usr/include/wine/windows/roparameterizediid.h
 * /usr/include/wine/windows/roparameterizediid.idl
@@ -1102,6 +1103,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windef.h
 * /usr/include/wine/windows/windns.h
 * /usr/include/wine/windows/windot11.h
+* /usr/include/wine/windows/windows.applicationmodel.activation.h
+* /usr/include/wine/windows/windows.applicationmodel.activation.idl
+* /usr/include/wine/windows/windows.applicationmodel.background.h
+* /usr/include/wine/windows/windows.applicationmodel.background.idl
 * /usr/include/wine/windows/windows.applicationmodel.core.h
 * /usr/include/wine/windows/windows.applicationmodel.core.idl
 * /usr/include/wine/windows/windows.applicationmodel.h
@@ -1114,6 +1119,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.devices.geolocation.idl
 * /usr/include/wine/windows/windows.devices.haptics.h
 * /usr/include/wine/windows/windows.devices.haptics.idl
+* /usr/include/wine/windows/windows.devices.input.h
+* /usr/include/wine/windows/windows.devices.input.idl
 * /usr/include/wine/windows/windows.devices.power.h
 * /usr/include/wine/windows/windows.devices.power.idl
 * /usr/include/wine/windows/windows.devices.radios.h
@@ -1148,8 +1155,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.graphics.directx.idl
 * /usr/include/wine/windows/windows.graphics.effects.h
 * /usr/include/wine/windows/windows.graphics.effects.idl
+* /usr/include/wine/windows/windows.graphics.h
 * /usr/include/wine/windows/windows.graphics.holographic.h
 * /usr/include/wine/windows/windows.graphics.holographic.idl
+* /usr/include/wine/windows/windows.graphics.idl
 * /usr/include/wine/windows/windows.graphics.imaging.h
 * /usr/include/wine/windows/windows.graphics.imaging.idl
 * /usr/include/wine/windows/windows.h
@@ -1221,6 +1230,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.ui.core.idl
 * /usr/include/wine/windows/windows.ui.h
 * /usr/include/wine/windows/windows.ui.idl
+* /usr/include/wine/windows/windows.ui.input.h
+* /usr/include/wine/windows/windows.ui.input.idl
 * /usr/include/wine/windows/windows.ui.viewmanagement.h
 * /usr/include/wine/windows/windows.ui.viewmanagement.idl
 * /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.h
@@ -1373,6 +1384,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/avicap32.so
 * /usr/lib/wine/x86_64-unix/avifil32.dll.so
 * /usr/lib/wine/x86_64-unix/avrt.dll.so
+* /usr/lib/wine/x86_64-unix/bcp47langs.dll.so
 * /usr/lib/wine/x86_64-unix/bcrypt.dll.so
 * /usr/lib/wine/x86_64-unix/bcrypt.so
 * /usr/lib/wine/x86_64-unix/bcryptprimitives.dll.so
@@ -1629,6 +1641,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libavicap32.a
 * /usr/lib/wine/x86_64-unix/libavifil32.a
 * /usr/lib/wine/x86_64-unix/libavrt.a
+* /usr/lib/wine/x86_64-unix/libbcp47langs.a
 * /usr/lib/wine/x86_64-unix/libbcrypt.a
 * /usr/lib/wine/x86_64-unix/libbluetoothapis.a
 * /usr/lib/wine/x86_64-unix/libcabinet.a
@@ -1768,6 +1781,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libpdh.a
 * /usr/lib/wine/x86_64-unix/libpowrprof.a
 * /usr/lib/wine/x86_64-unix/libprntvpt.a
+* /usr/lib/wine/x86_64-unix/libprofapi.a
 * /usr/lib/wine/x86_64-unix/libpropsys.a
 * /usr/lib/wine/x86_64-unix/libpsapi.a
 * /usr/lib/wine/x86_64-unix/libquartz.a
@@ -1776,6 +1790,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/librasdlg.a
 * /usr/lib/wine/x86_64-unix/libresutils.a
 * /usr/lib/wine/x86_64-unix/libriched20.a
+* /usr/lib/wine/x86_64-unix/librometadata.a
 * /usr/lib/wine/x86_64-unix/librpcrt4.a
 * /usr/lib/wine/x86_64-unix/librsaenh.a
 * /usr/lib/wine/x86_64-unix/librtutils.a
@@ -2022,6 +2037,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/presentationfontcache.exe.so
 * /usr/lib/wine/x86_64-unix/printui.dll.so
 * /usr/lib/wine/x86_64-unix/prntvpt.dll.so
+* /usr/lib/wine/x86_64-unix/profapi.dll.so
 * /usr/lib/wine/x86_64-unix/progman.exe.so
 * /usr/lib/wine/x86_64-unix/propsys.dll.so
 * /usr/lib/wine/x86_64-unix/psapi.dll.so
@@ -2050,6 +2066,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/riched20.dll.so
 * /usr/lib/wine/x86_64-unix/riched32.dll.so
 * /usr/lib/wine/x86_64-unix/robocopy.exe.so
+* /usr/lib/wine/x86_64-unix/rometadata.dll.so
 * /usr/lib/wine/x86_64-unix/rpcrt4.dll.so
 * /usr/lib/wine/x86_64-unix/rpcss.exe.so
 * /usr/lib/wine/x86_64-unix/rsabase.dll.so
@@ -2347,6 +2364,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/avicap32.dll
 * /usr/lib/wine/x86_64-windows/avifil32.dll
 * /usr/lib/wine/x86_64-windows/avrt.dll
+* /usr/lib/wine/x86_64-windows/bcp47langs.dll
 * /usr/lib/wine/x86_64-windows/bcrypt.dll
 * /usr/lib/wine/x86_64-windows/bcryptprimitives.dll
 * /usr/lib/wine/x86_64-windows/bluetoothapis.dll
@@ -2755,6 +2773,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/presentationfontcache.exe
 * /usr/lib/wine/x86_64-windows/printui.dll
 * /usr/lib/wine/x86_64-windows/prntvpt.dll
+* /usr/lib/wine/x86_64-windows/profapi.dll
 * /usr/lib/wine/x86_64-windows/progman.exe
 * /usr/lib/wine/x86_64-windows/propsys.dll
 * /usr/lib/wine/x86_64-windows/psapi.dll
@@ -2782,6 +2801,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/riched20.dll
 * /usr/lib/wine/x86_64-windows/riched32.dll
 * /usr/lib/wine/x86_64-windows/robocopy.exe
+* /usr/lib/wine/x86_64-windows/rometadata.dll
 * /usr/lib/wine/x86_64-windows/rpcrt4.dll
 * /usr/lib/wine/x86_64-windows/rpcss.exe
 * /usr/lib/wine/x86_64-windows/rsabase.dll
@@ -3071,6 +3091,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/avifil32.dll.so
 * /usr/lib32/wine/i386-unix/avifile.dll16.so
 * /usr/lib32/wine/i386-unix/avrt.dll.so
+* /usr/lib32/wine/i386-unix/bcp47langs.dll.so
 * /usr/lib32/wine/i386-unix/bcrypt.dll.so
 * /usr/lib32/wine/i386-unix/bcrypt.so
 * /usr/lib32/wine/i386-unix/bcryptprimitives.dll.so
@@ -3338,6 +3359,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libavicap32.a
 * /usr/lib32/wine/i386-unix/libavifil32.a
 * /usr/lib32/wine/i386-unix/libavrt.a
+* /usr/lib32/wine/i386-unix/libbcp47langs.a
 * /usr/lib32/wine/i386-unix/libbcrypt.a
 * /usr/lib32/wine/i386-unix/libbluetoothapis.a
 * /usr/lib32/wine/i386-unix/libcabinet.a
@@ -3478,6 +3500,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libpdh.a
 * /usr/lib32/wine/i386-unix/libpowrprof.a
 * /usr/lib32/wine/i386-unix/libprntvpt.a
+* /usr/lib32/wine/i386-unix/libprofapi.a
 * /usr/lib32/wine/i386-unix/libpropsys.a
 * /usr/lib32/wine/i386-unix/libpsapi.a
 * /usr/lib32/wine/i386-unix/libquartz.a
@@ -3486,6 +3509,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/librasdlg.a
 * /usr/lib32/wine/i386-unix/libresutils.a
 * /usr/lib32/wine/i386-unix/libriched20.a
+* /usr/lib32/wine/i386-unix/librometadata.a
 * /usr/lib32/wine/i386-unix/librpcrt4.a
 * /usr/lib32/wine/i386-unix/librsaenh.a
 * /usr/lib32/wine/i386-unix/librtutils.a
@@ -3746,6 +3770,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/presentationfontcache.exe.so
 * /usr/lib32/wine/i386-unix/printui.dll.so
 * /usr/lib32/wine/i386-unix/prntvpt.dll.so
+* /usr/lib32/wine/i386-unix/profapi.dll.so
 * /usr/lib32/wine/i386-unix/progman.exe.so
 * /usr/lib32/wine/i386-unix/propsys.dll.so
 * /usr/lib32/wine/i386-unix/psapi.dll.so
@@ -3775,6 +3800,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/riched20.dll.so
 * /usr/lib32/wine/i386-unix/riched32.dll.so
 * /usr/lib32/wine/i386-unix/robocopy.exe.so
+* /usr/lib32/wine/i386-unix/rometadata.dll.so
 * /usr/lib32/wine/i386-unix/rpcrt4.dll.so
 * /usr/lib32/wine/i386-unix/rpcss.exe.so
 * /usr/lib32/wine/i386-unix/rsabase.dll.so
@@ -4089,6 +4115,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/avifil32.dll
 * /usr/lib32/wine/i386-windows/avifile.dll16
 * /usr/lib32/wine/i386-windows/avrt.dll
+* /usr/lib32/wine/i386-windows/bcp47langs.dll
 * /usr/lib32/wine/i386-windows/bcrypt.dll
 * /usr/lib32/wine/i386-windows/bcryptprimitives.dll
 * /usr/lib32/wine/i386-windows/bluetoothapis.dll
@@ -4524,6 +4551,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/presentationfontcache.exe
 * /usr/lib32/wine/i386-windows/printui.dll
 * /usr/lib32/wine/i386-windows/prntvpt.dll
+* /usr/lib32/wine/i386-windows/profapi.dll
 * /usr/lib32/wine/i386-windows/progman.exe
 * /usr/lib32/wine/i386-windows/propsys.dll
 * /usr/lib32/wine/i386-windows/psapi.dll
@@ -4552,6 +4580,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/riched20.dll
 * /usr/lib32/wine/i386-windows/riched32.dll
 * /usr/lib32/wine/i386-windows/robocopy.exe
+* /usr/lib32/wine/i386-windows/rometadata.dll
 * /usr/lib32/wine/i386-windows/rpcrt4.dll
 * /usr/lib32/wine/i386-windows/rpcss.exe
 * /usr/lib32/wine/i386-windows/rsabase.dll
@@ -4837,11 +4866,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/xpsprint.dll
 * /usr/lib32/wine/i386-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.11/AUTHORS
-* /usr/share/doc/wine-devel-9.11/COPYING.LIB
-* /usr/share/doc/wine-devel-9.11/LICENSE
-* /usr/share/doc/wine-devel-9.11/README.md
-* /usr/share/doc/wine-devel-9.11/VERSION
+* /usr/share/doc/wine-devel-9.12/AUTHORS
+* /usr/share/doc/wine-devel-9.12/COPYING.LIB
+* /usr/share/doc/wine-devel-9.12/LICENSE
+* /usr/share/doc/wine-devel-9.12/README.md
+* /usr/share/doc/wine-devel-9.12/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
