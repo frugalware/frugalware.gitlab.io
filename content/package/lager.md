@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lager 0.1.0-1"
-version = "0.1.0-1"
+title = "lager 0.1.1-1"
+version = "0.1.1-1"
 description = "C++ library for value-oriented design using the unidirectional data-flow architecture"
-date = "2023-10-08T13:54:54"
+date = "2024-06-30T15:19:19"
 aliases = "/packages/221124"
 categories = ['devel-extra']
 upstreamurl = "https://sinusoid.es/lager"
 arch = "x86_64"
-size = "45076"
-usize = "266168"
-sha1sum = "817847a938a084f8dc06385f13f25a0d38744be5"
+size = "45128"
+usize = "267092"
+sha1sum = "3889a9c6f73d8731ca97eee6e64638250c493b61"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -87,5 +87,5 @@ C++ library for value-oriented design using the unidirectional data-flow archite
 * /usr/include/lager/with.hpp
 * /usr/include/lager/writer.hpp
 * /usr/lib/cmake/Lager/LagerConfig.cmake
-* /usr/share/doc/lager-0.1.0/LICENSE
-* /usr/share/doc/lager-0.1.0/README.rst
+* /usr/share/doc/lager-0.1.1/LICENSE
+* /usr/share/doc/lager-0.1.1/README.rst
