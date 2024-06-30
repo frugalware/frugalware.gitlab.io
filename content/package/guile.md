@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "guile 3.0.9-4"
-version = "3.0.9-4"
+title = "guile 3.0.10-1"
+version = "3.0.10-1"
 description = "Guile is a portable, embeddable Scheme implementation written in C"
-date = "2024-02-01T14:44:24"
+date = "2024-06-30T16:42:43"
 aliases = "/packages/3085"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnu.org/software/guile/"
 arch = "x86_64"
-size = "7683260"
-usize = "56130261"
-sha1sum = "9ece4d036d062912f8d9e057ffd2cf8f3735dc56"
+size = "7954684"
+usize = "57980466"
+sha1sum = "3dc5e250f130a2e779b1567db87b3e36e2303fe5"
 depends = "['gmp>=5.0.1', 'libffi>=3.4', 'libgc>=7.6.2-2', 'libtool>=2.2.2', 'libunistring>=1.1', 'ncurses>=6.0-18', 'readline>=8.0']"
 reverse_depends = "['autogen', 'graphviz', 'weechat']"
 +++
@@ -162,6 +162,7 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/lib/guile/3.0/ccache/ice-9/control.go
 * /usr/lib/guile/3.0/ccache/ice-9/copy-tree.go
 * /usr/lib/guile/3.0/ccache/ice-9/curried-definitions.go
+* /usr/lib/guile/3.0/ccache/ice-9/custom-ports.go
 * /usr/lib/guile/3.0/ccache/ice-9/deprecated.go
 * /usr/lib/guile/3.0/ccache/ice-9/documentation.go
 * /usr/lib/guile/3.0/ccache/ice-9/eval-string.go
@@ -217,6 +218,7 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/lib/guile/3.0/ccache/ice-9/serialize.go
 * /usr/lib/guile/3.0/ccache/ice-9/session.go
 * /usr/lib/guile/3.0/ccache/ice-9/slib.go
+* /usr/lib/guile/3.0/ccache/ice-9/soft-ports.go
 * /usr/lib/guile/3.0/ccache/ice-9/stack-catch.go
 * /usr/lib/guile/3.0/ccache/ice-9/streams.go
 * /usr/lib/guile/3.0/ccache/ice-9/string-fun.go
@@ -245,14 +247,16 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/lib/guile/3.0/ccache/language/cps/effects-analysis.go
 * /usr/lib/guile/3.0/ccache/language/cps/elide-arity-checks.go
 * /usr/lib/guile/3.0/ccache/language/cps/graphs.go
+* /usr/lib/guile/3.0/ccache/language/cps/guile-vm.go
+* /usr/lib/guile/3.0/ccache/language/cps/guile-vm/loop-instrumentation.go
+* /usr/lib/guile/3.0/ccache/language/cps/guile-vm/lower-primcalls.go
+* /usr/lib/guile/3.0/ccache/language/cps/guile-vm/reify-primitives.go
 * /usr/lib/guile/3.0/ccache/language/cps/intmap.go
 * /usr/lib/guile/3.0/ccache/language/cps/intset.go
 * /usr/lib/guile/3.0/ccache/language/cps/licm.go
-* /usr/lib/guile/3.0/ccache/language/cps/loop-instrumentation.go
 * /usr/lib/guile/3.0/ccache/language/cps/optimize.go
 * /usr/lib/guile/3.0/ccache/language/cps/peel-loops.go
 * /usr/lib/guile/3.0/ccache/language/cps/prune-top-level-scopes.go
-* /usr/lib/guile/3.0/ccache/language/cps/reify-primitives.go
 * /usr/lib/guile/3.0/ccache/language/cps/renumber.go
 * /usr/lib/guile/3.0/ccache/language/cps/return-types.go
 * /usr/lib/guile/3.0/ccache/language/cps/rotate-loops.go
@@ -297,6 +301,7 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/lib/guile/3.0/ccache/language/tree-il/compile-cps.go
 * /usr/lib/guile/3.0/ccache/language/tree-il/cps-primitives.go
 * /usr/lib/guile/3.0/ccache/language/tree-il/debug.go
+* /usr/lib/guile/3.0/ccache/language/tree-il/demux-lambda.go
 * /usr/lib/guile/3.0/ccache/language/tree-il/effects.go
 * /usr/lib/guile/3.0/ccache/language/tree-il/eta-expand.go
 * /usr/lib/guile/3.0/ccache/language/tree-il/fix-letrec.go
@@ -308,6 +313,8 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/lib/guile/3.0/ccache/language/tree-il/resolve-free-vars.go
 * /usr/lib/guile/3.0/ccache/language/tree-il/spec.go
 * /usr/lib/guile/3.0/ccache/language/value/spec.go
+* /usr/lib/guile/3.0/ccache/language/wisp.go
+* /usr/lib/guile/3.0/ccache/language/wisp/spec.go
 * /usr/lib/guile/3.0/ccache/oop/goops.go
 * /usr/lib/guile/3.0/ccache/oop/goops/accessors.go
 * /usr/lib/guile/3.0/ccache/oop/goops/active-slot.go
@@ -487,20 +494,19 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/lib/guile/3.0/extensions/guile-readline.so.0.0.0
 * /usr/lib/libguile-3.0.so
 * /usr/lib/libguile-3.0.so.1
-* /usr/lib/libguile-3.0.so.1.6.0
+* /usr/lib/libguile-3.0.so.1.7.0
 * /usr/lib/pkgconfig/guile-3.0.pc
 * /usr/share/aclocal/guile.m4
-* /usr/share/doc/guile-3.0.9/AUTHORS
-* /usr/share/doc/guile-3.0.9/ChangeLog
-* /usr/share/doc/guile-3.0.9/COPYING
-* /usr/share/doc/guile-3.0.9/COPYING.LESSER
-* /usr/share/doc/guile-3.0.9/HACKING
-* /usr/share/doc/guile-3.0.9/INSTALL
-* /usr/share/doc/guile-3.0.9/LICENSE
-* /usr/share/doc/guile-3.0.9/NEWS
-* /usr/share/doc/guile-3.0.9/README
-* /usr/share/doc/guile-3.0.9/THANKS
-* /usr/share/gdb/auto-load/libguile-3.0.so.1.6.0-gdb.scm
+* /usr/share/doc/guile-3.0.10/AUTHORS
+* /usr/share/doc/guile-3.0.10/COPYING
+* /usr/share/doc/guile-3.0.10/COPYING.LESSER
+* /usr/share/doc/guile-3.0.10/HACKING
+* /usr/share/doc/guile-3.0.10/INSTALL
+* /usr/share/doc/guile-3.0.10/LICENSE
+* /usr/share/doc/guile-3.0.10/NEWS
+* /usr/share/doc/guile-3.0.10/README
+* /usr/share/doc/guile-3.0.10/THANKS
+* /usr/share/gdb/auto-load/libguile-3.0.so.1.7.0-gdb.scm
 * /usr/share/guile/3.0/guile-procedures.txt
 * /usr/share/guile/3.0/ice-9/and-let-star.scm
 * /usr/share/guile/3.0/ice-9/arrays.scm
@@ -514,6 +520,7 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/share/guile/3.0/ice-9/control.scm
 * /usr/share/guile/3.0/ice-9/copy-tree.scm
 * /usr/share/guile/3.0/ice-9/curried-definitions.scm
+* /usr/share/guile/3.0/ice-9/custom-ports.scm
 * /usr/share/guile/3.0/ice-9/deprecated.scm
 * /usr/share/guile/3.0/ice-9/documentation.scm
 * /usr/share/guile/3.0/ice-9/eval-string.scm
@@ -575,6 +582,7 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/share/guile/3.0/ice-9/serialize.scm
 * /usr/share/guile/3.0/ice-9/session.scm
 * /usr/share/guile/3.0/ice-9/slib.scm
+* /usr/share/guile/3.0/ice-9/soft-ports.scm
 * /usr/share/guile/3.0/ice-9/stack-catch.scm
 * /usr/share/guile/3.0/ice-9/streams.scm
 * /usr/share/guile/3.0/ice-9/string-fun.scm
@@ -603,14 +611,16 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/share/guile/3.0/language/cps/effects-analysis.scm
 * /usr/share/guile/3.0/language/cps/elide-arity-checks.scm
 * /usr/share/guile/3.0/language/cps/graphs.scm
+* /usr/share/guile/3.0/language/cps/guile-vm.scm
+* /usr/share/guile/3.0/language/cps/guile-vm/loop-instrumentation.scm
+* /usr/share/guile/3.0/language/cps/guile-vm/lower-primcalls.scm
+* /usr/share/guile/3.0/language/cps/guile-vm/reify-primitives.scm
 * /usr/share/guile/3.0/language/cps/intmap.scm
 * /usr/share/guile/3.0/language/cps/intset.scm
 * /usr/share/guile/3.0/language/cps/licm.scm
-* /usr/share/guile/3.0/language/cps/loop-instrumentation.scm
 * /usr/share/guile/3.0/language/cps/optimize.scm
 * /usr/share/guile/3.0/language/cps/peel-loops.scm
 * /usr/share/guile/3.0/language/cps/prune-top-level-scopes.scm
-* /usr/share/guile/3.0/language/cps/reify-primitives.scm
 * /usr/share/guile/3.0/language/cps/renumber.scm
 * /usr/share/guile/3.0/language/cps/return-types.scm
 * /usr/share/guile/3.0/language/cps/rotate-loops.scm
@@ -655,6 +665,7 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/share/guile/3.0/language/tree-il/compile-cps.scm
 * /usr/share/guile/3.0/language/tree-il/cps-primitives.scm
 * /usr/share/guile/3.0/language/tree-il/debug.scm
+* /usr/share/guile/3.0/language/tree-il/demux-lambda.scm
 * /usr/share/guile/3.0/language/tree-il/effects.scm
 * /usr/share/guile/3.0/language/tree-il/eta-expand.scm
 * /usr/share/guile/3.0/language/tree-il/fix-letrec.scm
@@ -666,6 +677,8 @@ Guile is a portable, embeddable Scheme implementation written in C
 * /usr/share/guile/3.0/language/tree-il/resolve-free-vars.scm
 * /usr/share/guile/3.0/language/tree-il/spec.scm
 * /usr/share/guile/3.0/language/value/spec.scm
+* /usr/share/guile/3.0/language/wisp.scm
+* /usr/share/guile/3.0/language/wisp/spec.scm
 * /usr/share/guile/3.0/oop/goops.scm
 * /usr/share/guile/3.0/oop/goops/accessors.scm
 * /usr/share/guile/3.0/oop/goops/active-slot.scm

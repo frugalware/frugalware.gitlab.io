@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zug 0.1.0-1"
-version = "0.1.0-1"
+title = "zug 0.1.1-1"
+version = "0.1.1-1"
 description = "Transducers for C++"
-date = "2023-10-08T13:48:52"
+date = "2024-06-30T16:49:40"
 aliases = "/packages/221123"
 categories = ['devel-extra']
 upstreamurl = "https://sinusoid.es/zug"
 arch = "x86_64"
-size = "35208"
-usize = "199000"
-sha1sum = "e1bcfb28e9cd5603241da615ace2bda9d20ead88"
+size = "35312"
+usize = "199087"
+sha1sum = "5d42198e03c059e5cb8453753e6dbf84fd6b7b55"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -101,5 +101,5 @@ Transducers for C++
 * /usr/include/zug/util.hpp
 * /usr/include/zug/with_state.hpp
 * /usr/lib/cmake/Zug/ZugConfig.cmake
-* /usr/share/doc/zug-0.1.0/LICENSE
-* /usr/share/doc/zug-0.1.0/README.rst
+* /usr/share/doc/zug-0.1.1/LICENSE
+* /usr/share/doc/zug-0.1.1/README.rst
