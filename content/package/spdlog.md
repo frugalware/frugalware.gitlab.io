@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spdlog 1.12.0-2"
-version = "1.12.0-2"
+title = "spdlog 1.14.1-1"
+version = "1.14.1-1"
 description = "Very fast, header-only/compiled, C++ logging library"
-date = "2024-05-12T14:14:24"
+date = "2024-06-30T18:01:32"
 aliases = "/packages/220551"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/gabime/spdlog"
 arch = "x86_64"
-size = "2861772"
-usize = "5838327"
-sha1sum = "d4b20f57e8f370364a98fac9c118b128f9ff16f6"
+size = "2710620"
+usize = "5387804"
+sha1sum = "5e20d1fd168bf669a8aa6027e1d6eafb32dd80f5"
 depends = "['glibc>=2.38']"
 +++
 ### Description: 
@@ -80,6 +80,7 @@ Very fast, header-only/compiled, C++ logging library
 * /usr/include/spdlog/fwd.h
 * /usr/include/spdlog/logger-inl.h
 * /usr/include/spdlog/logger.h
+* /usr/include/spdlog/mdc.h
 * /usr/include/spdlog/pattern_formatter-inl.h
 * /usr/include/spdlog/pattern_formatter.h
 * /usr/include/spdlog/sinks/android_sink.h
@@ -127,6 +128,6 @@ Very fast, header-only/compiled, C++ logging library
 * /usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
 * /usr/lib/libspdlog.a
 * /usr/lib/pkgconfig/spdlog.pc
-* /usr/share/doc/spdlog-1.12.0/INSTALL
-* /usr/share/doc/spdlog-1.12.0/LICENSE
-* /usr/share/doc/spdlog-1.12.0/README.md
+* /usr/share/doc/spdlog-1.14.1/INSTALL
+* /usr/share/doc/spdlog-1.14.1/LICENSE
+* /usr/share/doc/spdlog-1.14.1/README.md
