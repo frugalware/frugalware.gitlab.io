@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ostree 2024.5-1"
-version = "2024.5-1"
+title = "ostree 2024.6-1"
+version = "2024.6-1"
 description = "Operating system and container binary deployment and upgrades"
-date = "2024-06-04T19:30:44"
+date = "2024-06-30T15:00:39"
 aliases = "/packages/220840"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ostreedev/ostree"
 arch = "x86_64"
-size = "700348"
-usize = "4214338"
-sha1sum = "902619dc9a3b4c05cf702788492cb16db76d6bd9"
+size = "684228"
+usize = "4133316"
+sha1sum = "96bddb9d77cc66281844ff51f80a903c21b23f4c"
 depends = "['curl', 'fuse3', 'gpgme', 'libarchive', 'libsodium>=1.0.19', 'libsoup']"
 reverse_depends = "['flatpak']"
 +++
@@ -70,9 +70,9 @@ Operating system and container binary deployment and upgrades
 * /usr/lib/systemd/system/ostree-state-overlay@.service
 * /usr/lib/tmpfiles.d/ostree-tmpfiles.conf
 * /usr/share/bash-completion/completions/ostree
-* /usr/share/doc/ostree-2024.5/COPYING
-* /usr/share/doc/ostree-2024.5/README.md
-* /usr/share/doc/ostree-2024.5/TODO
+* /usr/share/doc/ostree-2024.6/COPYING
+* /usr/share/doc/ostree-2024.6/README.md
+* /usr/share/doc/ostree-2024.6/TODO
 * /usr/share/gir-1.0/OSTree-1.0.gir
 * /usr/share/gtk-doc/html/ostree/home.png
 * /usr/share/gtk-doc/html/ostree/index.html
