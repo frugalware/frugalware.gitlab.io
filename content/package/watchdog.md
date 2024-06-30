@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "watchdog 2.3.1-2"
-version = "2.3.1-2"
+title = "watchdog 4.0.1-1"
+version = "4.0.1-1"
 description = "Filesystem events monitoring"
-date = "2023-10-11T16:54:20"
+date = "2024-06-30T17:16:55"
 aliases = "/packages/200719"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/watchdog"
 arch = "x86_64"
-size = "115376"
-usize = "517901"
-sha1sum = "d1eae321865823ea6bd9ceeb73d7afd6e6e5302b"
+size = "119708"
+usize = "531969"
+sha1sum = "87c6f39b55a372053a0c5e9ccee6172159607904"
 depends = "['python3>=3.10']"
 +++
 ### Description: 
@@ -18,13 +18,13 @@ Filesystem events monitoring
 
 ### Files: 
 * /usr/bin/watchmedo
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/watchdog-2.3.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/watchdog/events.py
 * /usr/lib/python3.12/site-packages/watchdog/observers/api.py
 * /usr/lib/python3.12/site-packages/watchdog/observers/fsevents.py
@@ -76,7 +76,7 @@ Filesystem events monitoring
 * /usr/lib/python3.12/site-packages/watchdog/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/watchdog/__pycache__/watchmedo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/watchdog/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/watchdog-2.3.1/AUTHORS
-* /usr/share/doc/watchdog-2.3.1/COPYING
-* /usr/share/doc/watchdog-2.3.1/LICENSE
-* /usr/share/doc/watchdog-2.3.1/README.rst
+* /usr/share/doc/watchdog-4.0.1/AUTHORS
+* /usr/share/doc/watchdog-4.0.1/COPYING
+* /usr/share/doc/watchdog-4.0.1/LICENSE
+* /usr/share/doc/watchdog-4.0.1/README.rst
