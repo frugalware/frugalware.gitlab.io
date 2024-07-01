@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-tn 24.2.3.2-6"
-version = "24.2.3.2-6"
+title = "libreoffice-l10n-tn 24.2.4.2-1"
+version = "24.2.4.2-1"
 description = "Installs Tswana support in LibreOffice"
-date = "2024-06-24T13:59:18"
+date = "2024-07-01T09:14:35"
 aliases = "/packages/104127"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "197060"
+size = "197312"
 usize = "1258208"
-sha1sum = "0c7b1b3332163c81912c45a0b737cf455853621d"
-depends = "['libreoffice>=24.2.3.2']"
+sha1sum = "5a5ed4d71082cfae8c1cd746f0586385f77fad36"
+depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 
 Installs Tswana support in LibreOffice

@@ -18,8 +18,8 @@ reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumi
 Noto fonts
 
 ### Files: 
-* /usr/share/doc/noto-fonts-24.6.1/LICENSE
-* /usr/share/doc/noto-fonts-24.6.1/README.md
+* /usr/share/doc/noto-fonts-24.7.1/LICENSE
+* /usr/share/doc/noto-fonts-24.7.1/README.md
 * /usr/share/fontconfig/conf.avail/46-noto-mono.conf
 * /usr/share/fontconfig/conf.avail/46-noto-sans.conf
 * /usr/share/fontconfig/conf.avail/46-noto-serif.conf
@@ -80,6 +80,12 @@ Noto fonts
 * /usr/share/fonts/X11/TTF/NotoSansArabic-Medium.ttf
 * /usr/share/fonts/X11/TTF/NotoSansArabic-Regular.ttf
 * /usr/share/fonts/X11/TTF/NotoSansArabic-Thin.ttf
+* /usr/share/fonts/X11/TTF/NotoSansArabicUI-Black.ttf
+* /usr/share/fonts/X11/TTF/NotoSansArabicUI-Bold.ttf
+* /usr/share/fonts/X11/TTF/NotoSansArabicUI-Light.ttf
+* /usr/share/fonts/X11/TTF/NotoSansArabicUI-Medium.ttf
+* /usr/share/fonts/X11/TTF/NotoSansArabicUI-Regular.ttf
+* /usr/share/fonts/X11/TTF/NotoSansArabicUI-Thin.ttf
 * /usr/share/fonts/X11/TTF/NotoSansArmenian-Black.ttf
 * /usr/share/fonts/X11/TTF/NotoSansArmenian-Bold.ttf
 * /usr/share/fonts/X11/TTF/NotoSansArmenian-Light.ttf

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-he 24.2.3.2-6"
-version = "24.2.3.2-6"
+title = "libreoffice-l10n-he 24.2.4.2-1"
+version = "24.2.4.2-1"
 description = "Installs Hebrew support in LibreOffice"
-date = "2024-06-24T13:59:18"
+date = "2024-07-01T09:14:35"
 aliases = "/packages/104064"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3716516"
-usize = "31221839"
-sha1sum = "a65872c370c8ebc14709b278dd7f0c30d3924006"
-depends = "['libreoffice>=24.2.3.2']"
+size = "4024572"
+usize = "31222035"
+sha1sum = "dc0e9e0bbd423a75a361bd8ba5b392e9ad485273"
+depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 
 Installs Hebrew support in LibreOffice
