@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssh 9.7-1"
-version = "9.7-1"
+title = "openssh 9.8-1"
+version = "9.8-1"
 description = "Secure Shell daemon and clients"
-date = "2024-03-21T15:56:35"
+date = "2024-07-01T10:19:37"
 aliases = "/packages/2421"
 categories = ['network']
 upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
-size = "1177376"
-usize = "5411152"
-sha1sum = "78c4d50c6541b00818fe2a57cc6a47a9e839a8d4"
+size = "1232680"
+usize = "5639188"
+sha1sum = "5f94727c655b50d0df09ab0502f42da58e7f104a"
 depends = "['glibc>=2.35', 'ldns', 'libedit', 'libfido2>=1.10', 'openssl>=3.1', 'pam', 'zlib>=1.2.12']"
 reverse_depends = "['autossh', 'gnome-keyring', 'keychain', 'kssh', 'seahorse', 'ssh-contact', 'sshcode']"
 +++
@@ -38,20 +38,21 @@ Secure Shell daemon and clients
 * /usr/lib/openssh/ssh-keysign
 * /usr/lib/openssh/ssh-pkcs11-helper
 * /usr/lib/openssh/ssh-sk-helper
+* /usr/lib/openssh/sshd-session
 * /usr/lib/systemd/system/sshd-keygen.service
 * /usr/lib/systemd/system/sshd.service
 * /usr/lib/systemd/user/ssh-agent.service
-* /usr/share/doc/openssh-9.7/ChangeLog
-* /usr/share/doc/openssh-9.7/CREDITS
-* /usr/share/doc/openssh-9.7/INSTALL
-* /usr/share/doc/openssh-9.7/README
-* /usr/share/doc/openssh-9.7/README.dns
-* /usr/share/doc/openssh-9.7/README.Frugalware
-* /usr/share/doc/openssh-9.7/README.md
-* /usr/share/doc/openssh-9.7/README.platform
-* /usr/share/doc/openssh-9.7/README.privsep
-* /usr/share/doc/openssh-9.7/README.tun
-* /usr/share/doc/openssh-9.7/TODO
+* /usr/share/doc/openssh-9.8/ChangeLog
+* /usr/share/doc/openssh-9.8/CREDITS
+* /usr/share/doc/openssh-9.8/INSTALL
+* /usr/share/doc/openssh-9.8/README
+* /usr/share/doc/openssh-9.8/README.dns
+* /usr/share/doc/openssh-9.8/README.Frugalware
+* /usr/share/doc/openssh-9.8/README.md
+* /usr/share/doc/openssh-9.8/README.platform
+* /usr/share/doc/openssh-9.8/README.privsep
+* /usr/share/doc/openssh-9.8/README.tun
+* /usr/share/doc/openssh-9.8/TODO
 * /usr/share/man/man1/scp.1.gz
 * /usr/share/man/man1/sftp.1.gz
 * /usr/share/man/man1/ssh-add.1.gz
