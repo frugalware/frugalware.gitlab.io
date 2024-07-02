@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gobject-introspection 1.80.1-1"
-version = "1.80.1-1"
+title = "gobject-introspection 1.80.1-2"
+version = "1.80.1-2"
 description = "Generate interface introspection data for GObject libraries."
-date = "2024-07-02T08:11:48"
+date = "2024-07-02T10:51:10"
 aliases = "/packages/103233"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "401648"
+size = "401988"
 usize = "2321741"
-sha1sum = "69ad4f70fc5121f0933c1d8f05e254cc5e0b6005"
+sha1sum = "5539b175e5eb05786152b0d638506936e9adf54a"
 depends = "['glib2>=2.70.2', 'libffi>=3.4', 'python3>=3.12']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'libnma', 'lutris', 'piper', 'vte3']"
 +++
