@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gobject-introspection 1.78.1-4"
-version = "1.78.1-4"
+title = "gobject-introspection 1.80.1-1"
+version = "1.80.1-1"
 description = "Generate interface introspection data for GObject libraries."
-date = "2024-01-30T10:32:36"
+date = "2024-07-02T08:11:48"
 aliases = "/packages/103233"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1340900"
-usize = "13865541"
-sha1sum = "59eb8cc7be4f8b3d1969a380e975a3fc9ff8f606"
+size = "401648"
+usize = "2321741"
+sha1sum = "69ad4f70fc5121f0933c1d8f05e254cc5e0b6005"
 depends = "['glib2>=2.70.2', 'libffi>=3.4', 'python3>=3.12']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'libnma', 'lutris', 'piper', 'vte3']"
 +++
@@ -50,12 +50,8 @@ Generate interface introspection data for GObject libraries.
 * /usr/lib/girepository-1.0/DBusGLib-1.0.typelib
 * /usr/lib/girepository-1.0/fontconfig-2.0.typelib
 * /usr/lib/girepository-1.0/freetype2-2.0.typelib
-* /usr/lib/girepository-1.0/Gio-2.0.typelib
 * /usr/lib/girepository-1.0/GIRepository-2.0.typelib
 * /usr/lib/girepository-1.0/GL-1.0.typelib
-* /usr/lib/girepository-1.0/GLib-2.0.typelib
-* /usr/lib/girepository-1.0/GModule-2.0.typelib
-* /usr/lib/girepository-1.0/GObject-2.0.typelib
 * /usr/lib/girepository-1.0/libxml2-2.0.typelib
 * /usr/lib/girepository-1.0/Vulkan-1.0.typelib
 * /usr/lib/girepository-1.0/win32-1.0.typelib
@@ -162,26 +158,20 @@ Generate interface introspection data for GObject libraries.
 * /usr/lib/pkgconfig/gobject-introspection-1.0.pc
 * /usr/lib/pkgconfig/gobject-introspection-no-export-1.0.pc
 * /usr/share/aclocal/introspection.m4
-* /usr/share/doc/gobject-introspection-1.78.1/COPYING
-* /usr/share/doc/gobject-introspection-1.78.1/COPYING.GPL
-* /usr/share/doc/gobject-introspection-1.78.1/COPYING.LGPL
-* /usr/share/doc/gobject-introspection-1.78.1/HACKING
-* /usr/share/doc/gobject-introspection-1.78.1/MSVC.README.rst
-* /usr/share/doc/gobject-introspection-1.78.1/NEWS
-* /usr/share/doc/gobject-introspection-1.78.1/README.rst
-* /usr/share/doc/gobject-introspection-1.78.1/TODO
+* /usr/share/doc/gobject-introspection-1.80.1/COPYING
+* /usr/share/doc/gobject-introspection-1.80.1/COPYING.GPL
+* /usr/share/doc/gobject-introspection-1.80.1/COPYING.LGPL
+* /usr/share/doc/gobject-introspection-1.80.1/MSVC.README.rst
+* /usr/share/doc/gobject-introspection-1.80.1/NEWS
+* /usr/share/doc/gobject-introspection-1.80.1/README.rst
 * /usr/share/gir-1.0/cairo-1.0.gir
 * /usr/share/gir-1.0/DBus-1.0.gir
 * /usr/share/gir-1.0/DBusGLib-1.0.gir
 * /usr/share/gir-1.0/fontconfig-2.0.gir
 * /usr/share/gir-1.0/freetype2-2.0.gir
-* /usr/share/gir-1.0/Gio-2.0.gir
 * /usr/share/gir-1.0/gir-1.2.rnc
 * /usr/share/gir-1.0/GIRepository-2.0.gir
 * /usr/share/gir-1.0/GL-1.0.gir
-* /usr/share/gir-1.0/GLib-2.0.gir
-* /usr/share/gir-1.0/GModule-2.0.gir
-* /usr/share/gir-1.0/GObject-2.0.gir
 * /usr/share/gir-1.0/libxml2-2.0.gir
 * /usr/share/gir-1.0/Vulkan-1.0.gir
 * /usr/share/gir-1.0/win32-1.0.gir
