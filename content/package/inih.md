@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "inih r58-1"
-version = "r58-1"
+title = "inih r58-2"
+version = "r58-2"
 description = "Simple .INI file parser in C, good for embedded systems"
-date = "2024-01-24T18:53:32"
+date = "2024-07-02T13:10:13"
 aliases = "/packages/220291"
 categories = ['base']
 upstreamurl = "https://github.com/benhoyt/inih"
 arch = "x86_64"
-size = "16268"
-usize = "61052"
-sha1sum = "9188420a0b59c87f5b10fdf57af9c6e4d080bc4a"
+size = "16408"
+usize = "46620"
+sha1sum = "dda2ee4e488b6b1ff8c3a9b6661802d0b772f8d2"
 depends = "['glibc>=2.34']"
 reverse_depends = "['exiv2', 'gamemode', 'xfsprogs']"
 +++

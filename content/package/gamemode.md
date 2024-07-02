@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gamemode 1.8.1-2"
-version = "1.8.1-2"
+title = "gamemode 1.8.1-3"
+version = "1.8.1-3"
 description = "A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS"
-date = "2024-01-14T13:18:31"
+date = "2024-07-02T13:13:42"
 aliases = "/packages/220069"
 categories = ['games-extra']
 upstreamurl = "https://github.com/FeralInteractive/gamemode"
 arch = "x86_64"
-size = "78692"
-usize = "320098"
-sha1sum = "ad6534737aa4a26b117b4a66f98bee2e00acb37a"
-depends = "['inih>=r49', 'polkit', 'systemd']"
+size = "79064"
+usize = "270634"
+sha1sum = "9c06391da81548a97e7618ee130e8f02298e8855"
+depends = "['inih>=r49', 'libsystemd', 'polkit']"
 +++
 ### Description: 
 A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS
