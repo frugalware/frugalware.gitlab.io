@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "20334944"
 usize = "56605267"
 sha1sum = "ce333ae2a42102f0a43a432523d41ac8e922d9af"
-depends = "['appstream-qt', 'baloo>=6.3.0', 'kcmutils>=6.3.0', 'kdeclarative>=6.3.0', 'kholidays>=6.3.0', 'kidletime>=6.3.0', 'kirigami-addons', 'knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kpackage>=6.3.0', 'kparts>=6.3.0', 'kquickcharts>=6.3.0', 'krunner>=6.3.0', 'ksvg>=6.3.0', 'ktexteditor>=6.3.0', 'kunitconversion>=6.3.0', 'kuserfeedback>=6.3.0', 'kwin>=6.1.1', 'libkexiv2', 'libksysguard>=6.1.1', 'libplasma>=6.1.1', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.3.0', 'plasma-activities-stats>=6.1.1', 'plasma5support>=6.1.1', 'prison>=6.3.0', 'qcoro']"
+depends = "['appstream-qt', 'baloo>=6.3.0', 'kcmutils>=6.3.0', 'kdeclarative>=6.3.0', 'kholidays>=6.3.0', 'kidletime>=6.3.0', 'kirigami-addons', 'knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kpackage>=6.3.0', 'kparts>=6.3.0', 'kquickcharts>=6.3.0', 'krunner>=6.3.0', 'ksvg>=6.3.0', 'ktexteditor>=6.3.0', 'kunitconversion>=6.3.0', 'kuserfeedback>=6.3.0', 'kwin>=6.1.2', 'libkexiv2', 'libksysguard>=6.1.2', 'libplasma>=6.1.2', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.3.0', 'plasma-activities-stats>=6.1.2', 'plasma5support>=6.1.2', 'prison>=6.3.0', 'qcoro']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-remotecontrollers', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
@@ -128,32 +128,32 @@ KDE Plasma Workspace.
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 * /usr/lib/libbatterycontrol.so
 * /usr/lib/libbatterycontrol.so.6
-* /usr/lib/libbatterycontrol.so.6.1.1
+* /usr/lib/libbatterycontrol.so.6.1.2
 * /usr/lib/libcolorcorrect.so
 * /usr/lib/libcolorcorrect.so.6
-* /usr/lib/libcolorcorrect.so.6.1.1
+* /usr/lib/libcolorcorrect.so.6.1.2
 * /usr/lib/libkfontinst.so
 * /usr/lib/libkfontinst.so.6
-* /usr/lib/libkfontinst.so.6.1.1
+* /usr/lib/libkfontinst.so.6.1.2
 * /usr/lib/libkfontinstui.so
 * /usr/lib/libkfontinstui.so.6
-* /usr/lib/libkfontinstui.so.6.1.1
+* /usr/lib/libkfontinstui.so.6.1.2
 * /usr/lib/libkmpris.so
 * /usr/lib/libkmpris.so.6
-* /usr/lib/libkmpris.so.6.1.1
+* /usr/lib/libkmpris.so.6.1.2
 * /usr/lib/libkrdb.so
 * /usr/lib/libkworkspace6.so
 * /usr/lib/libkworkspace6.so.6
-* /usr/lib/libkworkspace6.so.6.1.1
+* /usr/lib/libkworkspace6.so.6.1.2
 * /usr/lib/libnotificationmanager.so
 * /usr/lib/libnotificationmanager.so.1
-* /usr/lib/libnotificationmanager.so.6.1.1
+* /usr/lib/libnotificationmanager.so.6.1.2
 * /usr/lib/libplasma-geolocation-interface.so
 * /usr/lib/libplasma-geolocation-interface.so.6
-* /usr/lib/libplasma-geolocation-interface.so.6.1.1
+* /usr/lib/libplasma-geolocation-interface.so.6.1.2
 * /usr/lib/libtaskmanager.so
 * /usr/lib/libtaskmanager.so.6
-* /usr/lib/libtaskmanager.so.6.1.1
+* /usr/lib/libtaskmanager.so.6.1.2
 * /usr/lib/libweather_ion.so
 * /usr/lib/libweather_ion.so.7
 * /usr/lib/libweather_ion.so.7.0.0
@@ -900,8 +900,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.1.1/HACKING
-* /usr/share/doc/plasma-workspace-6.1.1/README.md
+* /usr/share/doc/plasma-workspace-6.1.2/HACKING
+* /usr/share/doc/plasma-workspace-6.1.2/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png

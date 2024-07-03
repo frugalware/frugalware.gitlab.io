@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma5support 6.1.1-1"
-version = "6.1.1-1"
+title = "plasma5support 6.1.2-1"
+version = "6.1.2-1"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2024-06-26T09:20:22"
+date = "2024-07-03T10:08:29"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "164880"
-usize = "722677"
-sha1sum = "a5df830f7c127bf0ad33971b17b64303d583d2bc"
-depends = "['kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0', 'knotifications>=6.3.0', 'libksysguard>=6.1.1', 'solid>=6.3.0']"
+size = "164692"
+usize = "721013"
+sha1sum = "9229f9fe50df8d995b16fee881e23214d96141e0"
+depends = "['kconfig>=6.3.0', 'kcoreaddons>=6.3.0', 'kguiaddons>=6.3.0', 'ki18n>=6.3.0', 'knotifications>=6.3.0', 'libksysguard>=6.1.2', 'solid>=6.3.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -42,14 +42,14 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets.cmake
 * /usr/lib/libPlasma5Support.so
 * /usr/lib/libPlasma5Support.so.6
-* /usr/lib/libPlasma5Support.so.6.1.1
+* /usr/lib/libPlasma5Support.so.6.1.2
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_devicenotifications.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_keystate.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/libplasma5supportplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/plasma5supportplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/qmldir
-* /usr/share/doc/plasma5support-6.1.1/README.md
+* /usr/share/doc/plasma5support-6.1.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libplasma5support.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_devicenotifications.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_keystate.mo
