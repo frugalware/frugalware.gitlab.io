@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kactivitymanagerd 6.1.1-1"
-version = "6.1.1-1"
+title = "kactivitymanagerd 6.1.2-1"
+version = "6.1.2-1"
 description = "System service to manage user's activities, track the usage patterns etc."
-date = "2024-06-26T07:06:27"
+date = "2024-07-03T08:20:19"
 aliases = "/packages/218271"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "196176"
-usize = "768267"
-sha1sum = "d0150b7e03fa3f558bca8f555a2e4c2661a61003"
+size = "196104"
+usize = "767339"
+sha1sum = "1fe3694bea73168a8510501c3f2b3c7970871368"
 depends = "['kio>=6.3.0']"
 reverse_depends = "['plasma-desktop']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-activities 6.1.1-1"
-version = "6.1.1-1"
+title = "plasma-activities 6.1.2-1"
+version = "6.1.2-1"
 description = "The KActivity Manager Daemon."
-date = "2024-06-26T07:01:02"
+date = "2024-07-03T08:14:24"
 aliases = "/packages/221374"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "115880"
+size = "116112"
 usize = "433936"
-sha1sum = "0ac7537e1968b5953ae1dab1ade17453df9d83e5"
+sha1sum = "cbb1d4f74d7591608c140d99dea6f8e011cf947f"
 depends = "['kio>=6.3.0']"
 reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'systemsettings']"
 +++

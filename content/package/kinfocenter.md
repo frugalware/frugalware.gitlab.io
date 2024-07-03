@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kinfocenter 6.1.1-1"
-version = "6.1.1-1"
+title = "kinfocenter 6.1.2-1"
+version = "6.1.2-1"
 description = "Utility that provides information about a computer system."
-date = "2024-06-26T07:09:34"
+date = "2024-07-03T08:23:12"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "821460"
-usize = "2628465"
-sha1sum = "7225f8d0693ebca189ac0b34a54b442ba93b8c1e"
+size = "820972"
+usize = "2621361"
+sha1sum = "6fce16a64151a778663b848a5ca60d4889263ddd"
 depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.3.0', 'kirigami>=6.3.0', 'kpackage>=6.3.0', 'kwayland>=6.1.2', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.3.0', 'systemsettings>=6.1.2', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
