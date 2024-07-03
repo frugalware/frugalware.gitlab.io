@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "ocean-sound-theme 6.1.1-1"
-version = "6.1.1-1"
+title = "ocean-sound-theme 6.1.2-1"
+version = "6.1.2-1"
 description = "Ocean Sound Theme for Plasma"
-date = "2024-06-26T09:51:29"
+date = "2024-07-03T10:40:23"
 aliases = "/packages/221370"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1101192"
-usize = "1239276"
-sha1sum = "f8943fd3abaf009bd37e7d384e24337bdb51f0bb"
+size = "1101280"
+usize = "1239298"
+sha1sum = "f441a68ee4cdcd35e156a3a02e4d74b5b5c99f12"
 depends = "['qt6-base']"
 +++
 ### Description: 
 Ocean Sound Theme for Plasma
 
 ### Files: 
-* /usr/share/doc/ocean-sound-theme-6.1.1/README.md
-* /usr/share/doc/ocean-sound-theme-6.1.1/README.md.license
+* /usr/share/doc/ocean-sound-theme-6.1.2/README.md
+* /usr/share/doc/ocean-sound-theme-6.1.2/README.md.license
 * /usr/share/sounds/ocean/index.theme
 * /usr/share/sounds/ocean/index.theme.license
 * /usr/share/sounds/ocean/stereo/alarm-clock-elapsed.oga
@@ -32,6 +32,7 @@ Ocean Sound Theme for Plasma
 * /usr/share/sounds/ocean/stereo/battery-low.oga.license
 * /usr/share/sounds/ocean/stereo/bell-window-system.oga
 * /usr/share/sounds/ocean/stereo/bell-window-system.oga.license
+* /usr/share/sounds/ocean/stereo/bell.oga
 * /usr/share/sounds/ocean/stereo/complete-media-burn.oga
 * /usr/share/sounds/ocean/stereo/complete-media-error.oga
 * /usr/share/sounds/ocean/stereo/completion-fail.oga
