@@ -30,9 +30,9 @@ System service to manage user's activities, track the usage patterns etc.
 * /usr/lib/qt6/plugins/kactivitymanagerd1/org.kde.ActivityManager.VirtualDesktopSwitch.so
 * /usr/lib/systemd/user/plasma-kactivitymanagerd.service
 * /usr/share/dbus-1/services/org.kde.ActivityManager.service
-* /usr/share/doc/kactivitymanagerd-6.1.1/README.developers
-* /usr/share/doc/kactivitymanagerd-6.1.1/README.md
-* /usr/share/doc/kactivitymanagerd-6.1.1/TODO
+* /usr/share/doc/kactivitymanagerd-6.1.2/README.developers
+* /usr/share/doc/kactivitymanagerd-6.1.2/README.md
+* /usr/share/doc/kactivitymanagerd-6.1.2/TODO
 * /usr/share/krunner/dbusplugins/plasma-runnners-activities.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kactivities6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kactivities6.mo

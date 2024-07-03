@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pygobject3-devel 3.47.0-1"
-version = "3.47.0-1"
+title = "pygobject3-devel 3.48.2-1"
+version = "3.48.2-1"
 description = "pygobject devel"
-date = "2024-02-20T10:08:40"
+date = "2024-07-03T08:02:54"
 aliases = "/packages/136259"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "10860"
+size = "10908"
 usize = "25689"
-sha1sum = "8ad896c6853d23c3bce219c0190582a0d108a7b5"
+sha1sum = "2de098c2db3a0d834c012f57f85f1faa9ee4690d"
 depends = "[]"
 reverse_depends = "['pygobject3']"
 +++

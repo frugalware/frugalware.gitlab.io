@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib2 2.80.3-2"
-version = "2.80.3-2"
+title = "glib2 2.81.0-2"
+version = "2.81.0-2"
 description = "Common C routines used by GTK+ and other libraries"
-date = "2024-07-02T10:09:32"
+date = "2024-07-03T07:58:40"
 aliases = "/packages/2384"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "4021888"
-usize = "21687950"
-sha1sum = "aae92044b017b7d6a5585cbca2f6473564817f90"
+size = "5498756"
+usize = "34563320"
+sha1sum = "ca145fc5cf399b8e6a467aebb53c0b397d83a62a"
 depends = "['elfutils>=0.170-2', 'glibc>=2.34', 'libblkid>=2.33.2-2', 'libffi>=3.4', 'pcre>=8.42-2', 'python3', 'util-linux', 'zlib>=1.2.12']"
 reverse_depends = "['at-spi2-core', 'avahi-glib', 'bitlbee-common', 'bluez', 'cairo', 'colord', 'dbus-c++', 'dbus-glib', 'dbus-sharp-glib', 'ddcutil', 'desktop-file-utils', 'efl', 'enchant', 'enlightenment', 'gcab', 'gdk-pixbuf2', 'glib-networking', 'glibmm', 'glibmm24', 'glyr', 'gmime2', 'gmime3', 'gnokii-mysql', 'gnokii-pq', 'gobject-introspection', 'graphene', 'gsettings-desktop-schemas', 'gst1-plugins-base-gio', 'gstreamer1', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4-tools', 'gvfs', 'harfbuzz', 'ifuse', 'iio-sensor-proxy', 'irqbalance', 'irssi', 'json-glib', 'keximdb', 'lensfun', 'libaccounts-glib', 'libatspi', 'libcroco', 'libdbusmenu', 'libdex', 'libgee', 'libgee8', 'libgexiv2', 'libgovirt', 'libgudev', 'libguestfs', 'libgusb', 'libhandy', 'libibus', 'libidl', 'liblqr', 'libmbim', 'libmms', 'libosinfo', 'libportal', 'libqalculate', 'libqrtr-glib', 'libseafile', 'libsoup', 'libsoup3', 'libvterm', 'libwacom', 'libxmlb', 'loudmouth', 'mc', 'mcabber', 'mdbtools', 'meanwhile', 'msmtp', 'nm-libreswan', 'nm-openvpn', 'ofono', 'packagekit-glib', 'pacman-tools', 'pinentry', 'pkgconfig', 'qt5-base', 'redshift', 'rspamd', 'scribus', 'scummvm', 'shared-mime-info', 'sofia-sip', 'sshfs', 'switcheroo-control', 'sylpheed', 'telegram-desktop', 'template-glib', 'terminology', 'threema-desktop', 'tootle', 'vala', 'whalebird', 'wireshark', 'wpebackend-fdo', 'xdg-dbus-proxy', 'xdg-desktop-portal']"
 +++
@@ -344,26 +344,33 @@ Common C routines used by GTK+ and other libraries
 * /usr/include/glib-2.0/gobject/gvaluecollector.h
 * /usr/include/glib-2.0/gobject/gvaluetypes.h
 * /usr/lib/gio/modules/giomodule.cache
+* /usr/lib/girepository-1.0/Gio-2.0.typelib
+* /usr/lib/girepository-1.0/GioUnix-2.0.typelib
+* /usr/lib/girepository-1.0/GIRepository-3.0.typelib
+* /usr/lib/girepository-1.0/GLib-2.0.typelib
+* /usr/lib/girepository-1.0/GLibUnix-2.0.typelib
+* /usr/lib/girepository-1.0/GModule-2.0.typelib
+* /usr/lib/girepository-1.0/GObject-2.0.typelib
 * /usr/lib/glib-2.0/include/glibconfig.h
 * /usr/lib/glib2/gio-launch-desktop
 * /usr/lib/libgio-2.0.so
 * /usr/lib/libgio-2.0.so.0
-* /usr/lib/libgio-2.0.so.0.8000.3
+* /usr/lib/libgio-2.0.so.0.8100.0
 * /usr/lib/libgirepository-2.0.so
 * /usr/lib/libgirepository-2.0.so.0
-* /usr/lib/libgirepository-2.0.so.0.8000.3
+* /usr/lib/libgirepository-2.0.so.0.8100.0
 * /usr/lib/libglib-2.0.so
 * /usr/lib/libglib-2.0.so.0
-* /usr/lib/libglib-2.0.so.0.8000.3
+* /usr/lib/libglib-2.0.so.0.8100.0
 * /usr/lib/libgmodule-2.0.so
 * /usr/lib/libgmodule-2.0.so.0
-* /usr/lib/libgmodule-2.0.so.0.8000.3
+* /usr/lib/libgmodule-2.0.so.0.8100.0
 * /usr/lib/libgobject-2.0.so
 * /usr/lib/libgobject-2.0.so.0
-* /usr/lib/libgobject-2.0.so.0.8000.3
+* /usr/lib/libgobject-2.0.so.0.8100.0
 * /usr/lib/libgthread-2.0.so
 * /usr/lib/libgthread-2.0.so.0
-* /usr/lib/libgthread-2.0.so.0.8000.3
+* /usr/lib/libgthread-2.0.so.0.8100.0
 * /usr/lib/pkgconfig/gio-2.0.pc
 * /usr/lib/pkgconfig/gio-unix-2.0.pc
 * /usr/lib/pkgconfig/girepository-2.0.pc
@@ -381,14 +388,21 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/bash-completion/completions/gio
 * /usr/share/bash-completion/completions/gresource
 * /usr/share/bash-completion/completions/gsettings
-* /usr/share/doc/glib2-2.80.3/COPYING
-* /usr/share/doc/glib2-2.80.3/INSTALL.md
-* /usr/share/doc/glib2-2.80.3/NEWS
-* /usr/share/doc/glib2-2.80.3/README.md
-* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8000.3-gdb.py
-* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8000.3-gdb.py
+* /usr/share/doc/glib2-2.81.0/COPYING
+* /usr/share/doc/glib2-2.81.0/INSTALL.md
+* /usr/share/doc/glib2-2.81.0/NEWS
+* /usr/share/doc/glib2-2.81.0/README.md
+* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8100.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8100.0-gdb.py
 * /usr/share/gettext/its/gschema.its
 * /usr/share/gettext/its/gschema.loc
+* /usr/share/gir-1.0/Gio-2.0.gir
+* /usr/share/gir-1.0/GioUnix-2.0.gir
+* /usr/share/gir-1.0/GIRepository-3.0.gir
+* /usr/share/gir-1.0/GLib-2.0.gir
+* /usr/share/gir-1.0/GLibUnix-2.0.gir
+* /usr/share/gir-1.0/GModule-2.0.gir
+* /usr/share/gir-1.0/GObject-2.0.gir
 * /usr/share/glib-2.0/codegen/codegen.py
 * /usr/share/glib-2.0/codegen/codegen_docbook.py
 * /usr/share/glib-2.0/codegen/codegen_main.py

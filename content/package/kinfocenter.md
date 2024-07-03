@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "821460"
 usize = "2628465"
 sha1sum = "7225f8d0693ebca189ac0b34a54b442ba93b8c1e"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.3.0', 'kirigami>=6.3.0', 'kpackage>=6.3.0', 'kwayland>=6.1.1', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.3.0', 'systemsettings>=6.1.1', 'vulkan-tools', 'wayland-utils']"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.3.0', 'kirigami>=6.3.0', 'kpackage>=6.3.0', 'kwayland>=6.1.2', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.3.0', 'systemsettings>=6.1.2', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.
@@ -82,7 +82,7 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/uk/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/uk/kinfocenter/index.docbook
 * /usr/share/doc/HTML/uk/kinfocenter/kinfocenter.png
-* /usr/share/doc/kinfocenter-6.1.1/README.md
+* /usr/share/doc/kinfocenter-6.1.2/README.md
 * /usr/share/kinfocenter/categories/basicinformation.desktop
 * /usr/share/kinfocenter/categories/deviceinfocategory.desktop
 * /usr/share/kinfocenter/categories/graphicalinfocategory.desktop

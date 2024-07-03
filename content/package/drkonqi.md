@@ -48,7 +48,7 @@ The KDE Crash Handler.
 * /usr/share/applications/org.kde.drkonqi.desktop
 * /usr/share/dbus-1/system-services/org.kde.drkonqi.service
 * /usr/share/dbus-1/system.d/org.kde.drkonqi.conf
-* /usr/share/doc/drkonqi-6.1.1/README.md
+* /usr/share/doc/drkonqi-6.1.2/README.md
 * /usr/share/drkonqi/debuggers/external.mac/lldbrc
 * /usr/share/drkonqi/debuggers/external/gdbrc
 * /usr/share/drkonqi/debuggers/external/lldbrc
