@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gdbm 1.23-4"
-version = "1.23-4"
+title = "lib32-gdbm 1.24-1"
+version = "1.24-1"
 description = "GNU database library ( 32bit )"
-date = "2024-05-16T01:02:23"
+date = "2024-07-03T13:10:59"
 aliases = "/packages/217922"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/gdbm/gdbm.html"
 arch = "x86_64"
-size = "99208"
-usize = "309233"
-sha1sum = "ba3e6bdded937f27d7f2fdb56248922afb49266f"
+size = "103784"
+usize = "315760"
+sha1sum = "1f1a22d5fc6081f127febcae478bf975a925901c"
 depends = "['lib32-readline>=8.0-2']"
 +++
 ### Description: 

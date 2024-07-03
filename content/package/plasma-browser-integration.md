@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "147028"
 usize = "541804"
 sha1sum = "9d723f7a5b21809f16efee4f4106ddee45805007"
-depends = "['kconfig>=6.3.0', 'kdbusaddons>=6.3.0', 'kfilemetadata>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'knotifications>=6.3.0', 'krunner>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwindowsystem>=6.3.0', 'plasma-activities>=6.1.1', 'plasma-workspace>=6.1.1', 'purpose>=6.3.0']"
+depends = "['kconfig>=6.3.0', 'kdbusaddons>=6.3.0', 'kfilemetadata>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'knotifications>=6.3.0', 'krunner>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwindowsystem>=6.3.0', 'plasma-activities>=6.1.2', 'plasma-workspace>=6.1.2', 'purpose>=6.3.0']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
@@ -24,9 +24,9 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/lib/mozilla/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/lib/qt6/plugins/kf6/kded/browserintegrationreminder.so
 * /usr/share/applications/org.kde.plasma.browser_integration.host.desktop
-* /usr/share/doc/plasma-browser-integration-6.1.1/COPYING-GPL3
-* /usr/share/doc/plasma-browser-integration-6.1.1/dev_README.txt
-* /usr/share/doc/plasma-browser-integration-6.1.1/README.md
+* /usr/share/doc/plasma-browser-integration-6.1.2/COPYING-GPL3
+* /usr/share/doc/plasma-browser-integration-6.1.2/dev_README.txt
+* /usr/share/doc/plasma-browser-integration-6.1.2/README.md
 * /usr/share/krunner/dbusplugins/plasma-runner-browserhistory.desktop
 * /usr/share/krunner/dbusplugins/plasma-runner-browsertabs.desktop
 * /usr/share/locale/ar/LC_MESSAGES/plasma-browser-integration-host.mo
