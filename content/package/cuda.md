@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda 12.5.0-3"
-version = "12.5.0-3"
+title = "cuda 12.5.1-1"
+version = "12.5.1-1"
 description = "NVIDIA's GPU programming toolkit"
-date = "2024-06-24T11:36:49"
+date = "2024-07-03T14:55:38"
 aliases = "/packages/221200"
 categories = ['lib-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "981865068"
-usize = "2363528843"
-sha1sum = "807a78c3245e37fd24254407fb7ee03cc427cec7"
+size = "990916608"
+usize = "2374786070"
+sha1sum = "06685c02d97008a4dbf26c697efa4d4769ffa928"
 depends = "['gcc-13', 'nvidia', 'python3']"
 reverse_depends = "['cuda-tools', 'gst1-plugins-bad-cuda']"
 +++
@@ -240,7 +240,7 @@ NVIDIA's GPU programming toolkit
 * /opt/cuda/extras/compute-sanitizer/x86/libTreeLauncherTargetUpdatePreloadInjection.so
 * /opt/cuda/extras/compute-sanitizer/x86/TreeLauncherSubreaper
 * /opt/cuda/extras/compute-sanitizer/x86/TreeLauncherTargetLdPreloadHelper
-* /opt/cuda/extras/cuda-gdb-12.5.39.src.tar.gz
+* /opt/cuda/extras/cuda-gdb-12.5.82.src.tar.gz
 * /opt/cuda/extras/CUPTI/doc/html/api/data-structures.html
 * /opt/cuda/extras/CUPTI/doc/html/api/group__CUPTI__ACTIVITY__API.html
 * /opt/cuda/extras/CUPTI/doc/html/api/group__CUPTI__CALLBACK__API.html
@@ -533,7 +533,7 @@ NVIDIA's GPU programming toolkit
 * /opt/cuda/extras/CUPTI/lib64/libcheckpoint.so
 * /opt/cuda/extras/CUPTI/lib64/libcupti.so
 * /opt/cuda/extras/CUPTI/lib64/libcupti.so.12
-* /opt/cuda/extras/CUPTI/lib64/libcupti.so.2024.2.0
+* /opt/cuda/extras/CUPTI/lib64/libcupti.so.2024.2.1
 * /opt/cuda/extras/CUPTI/lib64/libcupti_static.a
 * /opt/cuda/extras/CUPTI/lib64/libnvperf_host.so
 * /opt/cuda/extras/CUPTI/lib64/libnvperf_host_static.a
@@ -2596,94 +2596,94 @@ NVIDIA's GPU programming toolkit
 * /opt/cuda/targets/x86_64-linux/lib/cmake/thrust/thrust-header-search.cmake
 * /opt/cuda/targets/x86_64-linux/lib/libaccinj64.so
 * /opt/cuda/targets/x86_64-linux/lib/libaccinj64.so.12.5
-* /opt/cuda/targets/x86_64-linux/lib/libaccinj64.so.12.5.39
+* /opt/cuda/targets/x86_64-linux/lib/libaccinj64.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libcublas.so
 * /opt/cuda/targets/x86_64-linux/lib/libcublas.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libcublas.so.12.5.2.13
+* /opt/cuda/targets/x86_64-linux/lib/libcublas.so.12.5.3.2
 * /opt/cuda/targets/x86_64-linux/lib/libcublasLt.so
 * /opt/cuda/targets/x86_64-linux/lib/libcublasLt.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libcublasLt.so.12.5.2.13
+* /opt/cuda/targets/x86_64-linux/lib/libcublasLt.so.12.5.3.2
 * /opt/cuda/targets/x86_64-linux/lib/libcudart.so
 * /opt/cuda/targets/x86_64-linux/lib/libcudart.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libcudart.so.12.5.39
+* /opt/cuda/targets/x86_64-linux/lib/libcudart.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libcufft.so
 * /opt/cuda/targets/x86_64-linux/lib/libcufft.so.11
-* /opt/cuda/targets/x86_64-linux/lib/libcufft.so.11.2.3.18
+* /opt/cuda/targets/x86_64-linux/lib/libcufft.so.11.2.3.61
 * /opt/cuda/targets/x86_64-linux/lib/libcufftw.so
 * /opt/cuda/targets/x86_64-linux/lib/libcufftw.so.11
-* /opt/cuda/targets/x86_64-linux/lib/libcufftw.so.11.2.3.18
+* /opt/cuda/targets/x86_64-linux/lib/libcufftw.so.11.2.3.61
 * /opt/cuda/targets/x86_64-linux/lib/libcufile.so
 * /opt/cuda/targets/x86_64-linux/lib/libcufile.so.0
-* /opt/cuda/targets/x86_64-linux/lib/libcufile.so.1.10.0
+* /opt/cuda/targets/x86_64-linux/lib/libcufile.so.1.10.1
 * /opt/cuda/targets/x86_64-linux/lib/libcufile_rdma.so
 * /opt/cuda/targets/x86_64-linux/lib/libcufile_rdma.so.1
-* /opt/cuda/targets/x86_64-linux/lib/libcufile_rdma.so.1.10.0
+* /opt/cuda/targets/x86_64-linux/lib/libcufile_rdma.so.1.10.1
 * /opt/cuda/targets/x86_64-linux/lib/libcuinj64.so
 * /opt/cuda/targets/x86_64-linux/lib/libcuinj64.so.12.5
-* /opt/cuda/targets/x86_64-linux/lib/libcuinj64.so.12.5.39
+* /opt/cuda/targets/x86_64-linux/lib/libcuinj64.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libcurand.so
 * /opt/cuda/targets/x86_64-linux/lib/libcurand.so.10
-* /opt/cuda/targets/x86_64-linux/lib/libcurand.so.10.3.6.39
+* /opt/cuda/targets/x86_64-linux/lib/libcurand.so.10.3.6.82
 * /opt/cuda/targets/x86_64-linux/lib/libcusolver.so
 * /opt/cuda/targets/x86_64-linux/lib/libcusolver.so.11
-* /opt/cuda/targets/x86_64-linux/lib/libcusolver.so.11.6.2.40
+* /opt/cuda/targets/x86_64-linux/lib/libcusolver.so.11.6.3.83
 * /opt/cuda/targets/x86_64-linux/lib/libcusolverMg.so
 * /opt/cuda/targets/x86_64-linux/lib/libcusolverMg.so.11
-* /opt/cuda/targets/x86_64-linux/lib/libcusolverMg.so.11.6.2.40
+* /opt/cuda/targets/x86_64-linux/lib/libcusolverMg.so.11.6.3.83
 * /opt/cuda/targets/x86_64-linux/lib/libcusparse.so
 * /opt/cuda/targets/x86_64-linux/lib/libcusparse.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libcusparse.so.12.4.1.24
+* /opt/cuda/targets/x86_64-linux/lib/libcusparse.so.12.5.1.3
 * /opt/cuda/targets/x86_64-linux/lib/libnppc.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppc.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppc.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppc.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppial.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppial.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppial.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppial.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppicc.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppicc.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppicc.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppicc.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppidei.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppidei.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppidei.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppidei.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppif.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppif.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppif.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppif.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppig.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppig.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppig.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppig.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppim.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppim.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppim.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppim.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppist.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppist.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppist.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppist.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppisu.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppisu.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppisu.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppisu.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnppitc.so
 * /opt/cuda/targets/x86_64-linux/lib/libnppitc.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnppitc.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnppitc.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnpps.so
 * /opt/cuda/targets/x86_64-linux/lib/libnpps.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnpps.so.12.3.0.116
+* /opt/cuda/targets/x86_64-linux/lib/libnpps.so.12.3.0.159
 * /opt/cuda/targets/x86_64-linux/lib/libnvblas.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvblas.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnvblas.so.12.5.2.13
+* /opt/cuda/targets/x86_64-linux/lib/libnvblas.so.12.5.3.2
 * /opt/cuda/targets/x86_64-linux/lib/libnvfatbin.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvfatbin.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnvfatbin.so.12.5.39
+* /opt/cuda/targets/x86_64-linux/lib/libnvfatbin.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libnvJitLink.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvJitLink.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnvJitLink.so.12.5.40
+* /opt/cuda/targets/x86_64-linux/lib/libnvJitLink.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libnvjpeg.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvjpeg.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnvjpeg.so.12.3.2.38
+* /opt/cuda/targets/x86_64-linux/lib/libnvjpeg.so.12.3.2.81
 * /opt/cuda/targets/x86_64-linux/lib/libnvrtc-builtins.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvrtc-builtins.so.12.5
-* /opt/cuda/targets/x86_64-linux/lib/libnvrtc-builtins.so.12.5.40
+* /opt/cuda/targets/x86_64-linux/lib/libnvrtc-builtins.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libnvrtc.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvrtc.so.12
-* /opt/cuda/targets/x86_64-linux/lib/libnvrtc.so.12.5.40
+* /opt/cuda/targets/x86_64-linux/lib/libnvrtc.so.12.5.82
 * /opt/cuda/targets/x86_64-linux/lib/libnvToolsExt.so
 * /opt/cuda/targets/x86_64-linux/lib/libnvToolsExt.so.1
 * /opt/cuda/targets/x86_64-linux/lib/libnvToolsExt.so.1.0.0
@@ -2776,3 +2776,7 @@ NVIDIA's GPU programming toolkit
 * /usr/lib/pkgconfig/nvjpeg.pc
 * /usr/lib/pkgconfig/nvrtc.pc
 * /usr/lib/pkgconfig/nvToolsExt.pc
+* /usr/share/doc/cuda-12.5.1/LICENSE
+* /usr/share/doc/cuda-12.5.1/README.md
+* /usr/share/doc/cuda-12.5.1/RELEASE.md
+* /usr/share/doc/cuda-12.5.1/VERSION
