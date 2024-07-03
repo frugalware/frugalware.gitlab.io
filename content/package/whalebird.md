@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "whalebird 6.1.1-1"
-version = "6.1.1-1"
+title = "whalebird 6.1.2-1"
+version = "6.1.2-1"
 description = "An Electron based Mastodon, Pleroma and Misskey client"
-date = "2024-06-02T14:37:51"
+date = "2024-07-03T14:27:48"
 aliases = "/packages/220304"
 categories = ['xapps-extra']
 upstreamurl = "https://whalebird.social"
 arch = "x86_64"
-size = "87212208"
-usize = "398963727"
-sha1sum = "35317edf711cf240940c072a069ccb2dda4b2d9f"
+size = "87214576"
+usize = "398977516"
+sha1sum = "dc0a5e35d7acc426e9f8f5eb02cf447c617dd30b"
 depends = "['alsa-lib', 'cairo', 'dbus', 'gdk-pixbuf2', 'glib2', 'gtk+3', 'hicolor-icon-theme', 'libcups', 'libglvnd', 'libx11', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxext', 'libxfixes', 'libxi', 'libxrandr', 'libxrender', 'libxtst', 'nspr', 'nss', 'pango']"
 +++
 ### Description: 
@@ -92,8 +92,8 @@ An Electron based Mastodon, Pleroma and Misskey client
 * /usr/lib/whalebird-desktop/vk_swiftshader_icd.json
 * /usr/lib/whalebird-desktop/whalebird
 * /usr/share/applications/whalebird.desktop
-* /usr/share/doc/whalebird-6.1.1/LICENSE
-* /usr/share/doc/whalebird-6.1.1/README.md
+* /usr/share/doc/whalebird-6.1.2/LICENSE
+* /usr/share/doc/whalebird-6.1.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/whalebird.png
 * /usr/share/icons/hicolor/16x16/apps/whalebird.png
 * /usr/share/icons/hicolor/256x256/apps/whalebird.png

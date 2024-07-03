@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hsakmt-roct 6.0.0-2"
-version = "6.0.0-2"
+title = "hsakmt-roct 6.1.2-1"
+version = "6.1.2-1"
 description = "Radeon Open Compute Thunk Interface"
-date = "2024-02-29T21:05:45"
+date = "2024-07-03T14:35:52"
 aliases = "/packages/221250"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/ROCT-Thunk-Interface"
 arch = "x86_64"
-size = "78652"
-usize = "283746"
-sha1sum = "63313233e579cb362dd3a6da8f9bb51d19b7d474"
+size = "79120"
+usize = "280135"
+sha1sum = "8ef5c3a0a78773ff0d365c1a711c013a314f7f91"
 depends = "['libdrm', 'numactl', 'pciutils', 'rocm-core']"
 reverse_depends = "['hsa-rocr']"
 +++
@@ -29,4 +29,4 @@ Radeon Open Compute Thunk Interface
 * /opt/rocm/lib/libhsakmt.so.1.0.6
 * /opt/rocm/lib/pkgconfig/libhsakmt.pc
 * /opt/rocm/share/doc/hsakmt/LICENSE.md
-* /usr/share/doc/hsakmt-roct-6.0.0/README.md
+* /usr/share/doc/hsakmt-roct-6.1.2/README.md
