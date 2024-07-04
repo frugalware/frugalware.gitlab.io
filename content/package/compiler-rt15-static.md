@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "compiler-rt15-static 15.0.7-4"
-version = "15.0.7-4"
+title = "compiler-rt15-static 15.0.7-5"
+version = "15.0.7-5"
 description = "Compiler runtime libraries for clang (static)"
-date = "2024-05-15T10:21:45"
+date = "2024-07-04T11:17:38"
 aliases = "/packages/221099"
 categories = ['devel-extra-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1711848"
-usize = "28379314"
-sha1sum = "6e39bddd96e89af90e5f50837bb60b5df10dcd4d"
+size = "1962172"
+usize = "28409762"
+sha1sum = "4d26dd0ca6c230194fdf10def53d94280a1d6de3"
 depends = "[]"
 +++
 ### Description: 

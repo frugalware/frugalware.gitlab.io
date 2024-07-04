@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang15-libs 15.0.7-4"
-version = "15.0.7-4"
+title = "clang15-libs 15.0.7-5"
+version = "15.0.7-5"
 description = "C/C++ language family frontend for LLVM15 Libs"
-date = "2024-05-15T10:21:45"
+date = "2024-07-04T11:17:38"
 aliases = "/packages/221094"
 categories = ['lib']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "21439608"
-usize = "90055898"
-sha1sum = "5805cff58162d4e3863b0a5ee630cf62e520e933"
+size = "21415724"
+usize = "90018298"
+sha1sum = "795d0305b0fbf784d9338b04ce559deeece92a4e"
 depends = "['libffi>=3.4', 'libxml2', 'llvm15-libs>=15.0.7']"
 +++
 ### Description: 

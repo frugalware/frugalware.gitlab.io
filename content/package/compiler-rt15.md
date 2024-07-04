@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "compiler-rt15 15.0.7-4"
-version = "15.0.7-4"
+title = "compiler-rt15 15.0.7-5"
+version = "15.0.7-5"
 description = "Compiler runtime libraries for clang15"
-date = "2024-05-15T10:21:45"
+date = "2024-07-04T11:17:38"
 aliases = "/packages/221095"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2091752"
-usize = "20887733"
-sha1sum = "1e25a28fea196cd00e83da0f64be6e0050018a9b"
+size = "2120684"
+usize = "20916387"
+sha1sum = "53ccd0d240b3fc323f7faf3054e2668a5ba7e1f1"
 depends = "[]"
 +++
 ### Description: 
