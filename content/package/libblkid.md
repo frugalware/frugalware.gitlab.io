@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libblkid 2.40.1-2"
-version = "2.40.1-2"
+title = "libblkid 2.40.2-1"
+version = "2.40.2-1"
 description = "Block device id library"
-date = "2024-05-16T04:37:14"
+date = "2024-07-04T09:26:43"
 aliases = "/packages/74345"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "107568"
-usize = "261322"
-sha1sum = "01a3ff2a311ce13eddff3a4671c32bd3e75dc4f6"
-depends = "['glibc>=2.36', 'libuuid>=2.40.1']"
+size = "130332"
+usize = "326674"
+sha1sum = "7516b4889665b3d0950b69844b265e77fe17a344"
+depends = "['glibc>=2.36', 'libuuid>=2.40.2']"
 reverse_depends = "['cryptsetup-luks', 'e2fsprogs', 'efl', 'enlightenment', 'gfs2-utils', 'glib2', 'lvm2', 'lvm2-libs', 'terminology', 'util-linux', 'volume_key']"
 +++
 ### Description: 

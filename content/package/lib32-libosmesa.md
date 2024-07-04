@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libosmesa 24.1.2-1"
-version = "24.1.2-1"
+title = "lib32-libosmesa 24.1.3-1"
+version = "24.1.3-1"
 description = "Mesa Off-screen Rendering (32-bit)"
-date = "2024-06-20T14:58:21"
+date = "2024-07-04T09:35:35"
 aliases = "/packages/218883"
 categories = ['lib32-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "2788580"
+size = "2787612"
 usize = "17458060"
-sha1sum = "a6a85eef2fb0929e61a2db94496c8b9d8705f83e"
+sha1sum = "d210c6db5f54630b7af6208d6e91655ba3cd3355"
 depends = "['lib32-elfutils>=0.167-2', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.70-2', 'lib32-libffi>=3.2.1-2', 'lib32-libglapi', 'lib32-libx11>=1.6.3-4', 'lib32-llvm-libs>=17.0.6', 'lib32-zstd']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
