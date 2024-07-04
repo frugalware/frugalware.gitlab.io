@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm15 15.0.7-5"
-version = "15.0.7-5"
+title = "llvm15 15.0.7-6"
+version = "15.0.7-6"
 description = "Low Level Virtual Machine (Compiler , Tools and Libs) Version 15"
-date = "2024-07-04T11:17:38"
+date = "2024-07-04T12:37:40"
 aliases = "/packages/221092"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "18053044"
-usize = "79408881"
-sha1sum = "bf2cde0515a92776db67bbce9c1f50065c921fb9"
+size = "18057460"
+usize = "79414013"
+sha1sum = "8dee5a865166977a1a6a9ae44681e0b0b183cc48"
 depends = "['libstdc++>=14.1.0', 'llvm15-libs', 'python3']"
 reverse_depends = "['ghc']"
 +++
@@ -1954,4 +1954,9 @@ Low Level Virtual Machine (Compiler , Tools and Libs) Version 15
 * /usr/lib/llvm15/lib/libscanbuild/resources/sorttable.js
 * /usr/lib/llvm15/lib/libscanbuild/shell.py
 * /usr/lib/llvm15/lib/libscanbuild/__init__.py
+* /usr/share/doc/llvm15-15.0.7/INSTALL
+* /usr/share/doc/llvm15-15.0.7/INSTALL.md
+* /usr/share/doc/llvm15-15.0.7/LICENSE
+* /usr/share/doc/llvm15-15.0.7/README
 * /usr/share/doc/llvm15-15.0.7/README.md
+* /usr/share/doc/llvm15-15.0.7/VERSION

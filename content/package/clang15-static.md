@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang15-static 15.0.7-5"
-version = "15.0.7-5"
+title = "clang15-static 15.0.7-6"
+version = "15.0.7-6"
 description = "C/C++ language family frontend for LLVM15 (static)"
-date = "2024-07-04T11:17:38"
+date = "2024-07-04T12:37:40"
 aliases = "/packages/221097"
 categories = ['devel-extra-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "35507628"
+size = "35523260"
 usize = "563277170"
-sha1sum = "ecc8b58c6d1392f1e096b380360fc39a5e1dbea0"
+sha1sum = "c29fe6fabfc94b68a27419c98389dbf959e14ef5"
 depends = "[]"
 +++
 ### Description: 

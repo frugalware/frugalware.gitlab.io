@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm15-libs 15.0.7-5"
-version = "15.0.7-5"
+title = "llvm15-libs 15.0.7-6"
+version = "15.0.7-6"
 description = "LLVM15 shared libs"
-date = "2024-07-04T11:17:38"
+date = "2024-07-04T12:37:40"
 aliases = "/packages/221096"
 categories = ['lib']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "26689756"
+size = "26697084"
 usize = "118353688"
-sha1sum = "bf30db15d2eeb1696e7e61c52d0b51b469d551a7"
+sha1sum = "5414e7d4ea10964da07cb036eb856d05e45a5b0a"
 depends = "['libedit>=20190324_3.1', 'libffi>=3.4', 'libxml2', 'ncurses>=6.0-16', 'zstd']"
 reverse_depends = "['clang15-libs', 'julia', 'llvm15']"
 +++
