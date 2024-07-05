@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "217132"
 usize = "879123"
 sha1sum = "3de47aac13971a20ae30eb36636d65fcf148d89b"
-depends = "['kcompletion>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kmbox>=24.05.1', 'libldap>=2.5.4', 'qtkeychain']"
+depends = "['kcompletion>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kmbox>=24.05.2', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -72,10 +72,10 @@ Desc: C++ API for LDAP access.
 * /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
 * /usr/lib/libKPim6LdapCore.so
 * /usr/lib/libKPim6LdapCore.so.6
-* /usr/lib/libKPim6LdapCore.so.6.1.1
+* /usr/lib/libKPim6LdapCore.so.6.1.2
 * /usr/lib/libKPim6LdapWidgets.so
 * /usr/lib/libKPim6LdapWidgets.so.6
-* /usr/lib/libKPim6LdapWidgets.so.6.1.1
+* /usr/lib/libKPim6LdapWidgets.so.6.1.2
 * /usr/lib/qt6/plugins/kf6/kio/ldap.so
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
@@ -113,8 +113,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
-* /usr/share/doc/kldap-24.05.1/README.md
-* /usr/share/doc/kldap-24.05.1/README.md.license
+* /usr/share/doc/kldap-24.05.2/README.md
+* /usr/share/doc/kldap-24.05.2/README.md.license
 * /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo

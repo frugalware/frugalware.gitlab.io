@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "284932"
 usize = "1924228"
 sha1sum = "1865c39fe0350b7445bc2478748e424f2772f535"
-depends = "['kcalendarcore>=6.3.0', 'kidentitymanagement>=24.05.1']"
+depends = "['kcalendarcore>=6.3.0', 'kidentitymanagement>=24.05.2']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'knotes', 'ktnef']"
 +++
 ### Description: 
@@ -38,10 +38,10 @@ The KDE calendar utility library
 * /usr/lib/cmake/KPim6CalendarUtils/KPim6CalendarUtilsTargets.cmake
 * /usr/lib/libKPim6CalendarUtils.so
 * /usr/lib/libKPim6CalendarUtils.so.6
-* /usr/lib/libKPim6CalendarUtils.so.6.1.1
+* /usr/lib/libKPim6CalendarUtils.so.6.1.2
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/kcalendar_grantlee_plugin.so
-* /usr/share/doc/kcalutils-24.05.1/README.md
-* /usr/share/doc/kcalutils-24.05.1/README.md.license
+* /usr/share/doc/kcalutils-24.05.2/README.md
+* /usr/share/doc/kcalutils-24.05.2/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkcalutils6.mo

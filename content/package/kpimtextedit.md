@@ -50,7 +50,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/lib/cmake/KPim6TextEdit/KPim6TextEditTargets.cmake
 * /usr/lib/libKPim6TextEdit.so
 * /usr/lib/libKPim6TextEdit.so.6
-* /usr/lib/libKPim6TextEdit.so.6.1.1
+* /usr/lib/libKPim6TextEdit.so.6.1.2
 * /usr/share/locale/ar/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkpimtextedit6.mo

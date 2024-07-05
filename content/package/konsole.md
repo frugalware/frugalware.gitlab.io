@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "konsole 24.05.1-2"
-version = "24.05.1-2"
+title = "konsole 24.05.2-1"
+version = "24.05.2-1"
 description = "KDE Terminal emulator."
-date = "2024-06-20T08:11:37"
+date = "2024-07-05T09:06:25"
 aliases = "/packages/88141"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1945176"
-usize = "9289416"
-sha1sum = "d0ed26de1dc95da66c3cd6ef5bd86a46c6f56994"
+size = "1942244"
+usize = "9289328"
+sha1sum = "3b49e763e66e2918358b866db57b02ce457391fe"
 depends = "['knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kparts>=6.3.0', 'kpty>=6.3.0']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ KDE Terminal emulator.
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel
 * /usr/lib/kconf_update_bin/konsole_show_menubar
-* /usr/lib/libkonsoleapp.so.24.05.1
-* /usr/lib/libkonsoleprivate.so.24.05.1
+* /usr/lib/libkonsoleapp.so.24.05.2
+* /usr/lib/libkonsoleprivate.so.24.05.2
 * /usr/lib/qt6/plugins/kf6/parts/konsolepart.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_quickcommandsplugin.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_sshmanagerplugin.so
@@ -61,10 +61,10 @@ KDE Terminal emulator.
 * /usr/share/doc/HTML/uk/konsole/index.docbook
 * /usr/share/doc/HTML/zh_CN/konsole/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/konsole/index.docbook
-* /usr/share/doc/konsole-24.05.1/COPYING
-* /usr/share/doc/konsole-24.05.1/COPYING.DOC
-* /usr/share/doc/konsole-24.05.1/COPYING.LIB
-* /usr/share/doc/konsole-24.05.1/README.md
+* /usr/share/doc/konsole-24.05.2/COPYING
+* /usr/share/doc/konsole-24.05.2/COPYING.DOC
+* /usr/share/doc/konsole-24.05.2/COPYING.LIB
+* /usr/share/doc/konsole-24.05.2/README.md
 * /usr/share/kconf_update/konsole.upd
 * /usr/share/kconf_update/konsole_add_hamburgermenu_to_toolbar.sh
 * /usr/share/kglobalaccel/org.kde.konsole.desktop

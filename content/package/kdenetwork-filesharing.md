@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdenetwork-filesharing 24.05.1-2"
-version = "24.05.1-2"
+title = "kdenetwork-filesharing 24.05.2-1"
+version = "24.05.2-1"
 description = "Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing."
-date = "2024-06-20T08:03:17"
+date = "2024-07-05T08:52:15"
 aliases = "/packages/184677"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "194280"
-usize = "1023873"
-sha1sum = "d55b4fbd92829cd3c1921f385b0f03d1e3b34f24"
+size = "194120"
+usize = "1023617"
+sha1sum = "9760dbd8fc0afada57033c60e0cdf6987f17446a"
 depends = "['kdeclarative>=6.3.0', 'kio>=6.3.0', 'packagekit-qt6>=1.0.1', 'qcoro', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 

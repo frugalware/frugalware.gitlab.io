@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "251168"
 usize = "985311"
 sha1sum = "d0595f54be6979a77082d77a12c5e4d546efff6f"
-depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.3.0', 'kmime>=24.05.1']"
+depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.3.0', 'kmime>=24.05.2']"
 reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
 ### Description: 
@@ -152,9 +152,9 @@ C++ API for IMAP support.
 * /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets.cmake
 * /usr/lib/libKPim6IMAP.so
 * /usr/lib/libKPim6IMAP.so.6
-* /usr/lib/libKPim6IMAP.so.6.1.1
-* /usr/share/doc/kimap-24.05.1/README.md
-* /usr/share/doc/kimap-24.05.1/README.md.license
+* /usr/lib/libKPim6IMAP.so.6.1.2
+* /usr/share/doc/kimap-24.05.2/README.md
+* /usr/share/doc/kimap-24.05.2/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libkimap6.mo

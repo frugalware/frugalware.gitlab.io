@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kbruch 24.05.1-2"
-version = "24.05.1-2"
+title = "kbruch 24.05.2-1"
+version = "24.05.2-1"
 description = "Practice Fractions."
-date = "2024-06-20T07:59:32"
+date = "2024-07-05T08:45:27"
 aliases = "/packages/152827"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4685632"
-usize = "6576182"
-sha1sum = "cec5a32d851458b6fdf0aef123673db422608b13"
+size = "4685784"
+usize = "6576233"
+sha1sum = "77f8341e95517530a0f290b84fc32b2276e3fde8"
 depends = "['kxmlgui>=6.3.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
@@ -145,11 +145,11 @@ Practice Fractions.
 * /usr/share/doc/HTML/uk/kbruch/reduced.png
 * /usr/share/doc/HTML/uk/kbruch/settings.png
 * /usr/share/doc/HTML/uk/kbruch/statistics.png
-* /usr/share/doc/kbruch-24.05.1/AUTHORS
-* /usr/share/doc/kbruch-24.05.1/ChangeLog
-* /usr/share/doc/kbruch-24.05.1/NEWS
-* /usr/share/doc/kbruch-24.05.1/README
-* /usr/share/doc/kbruch-24.05.1/TODO
+* /usr/share/doc/kbruch-24.05.2/AUTHORS
+* /usr/share/doc/kbruch-24.05.2/ChangeLog
+* /usr/share/doc/kbruch-24.05.2/NEWS
+* /usr/share/doc/kbruch-24.05.2/README
+* /usr/share/doc/kbruch-24.05.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbruch.png
 * /usr/share/icons/hicolor/16x16/apps/kbruch.png
 * /usr/share/icons/hicolor/22x22/apps/kbruch.png

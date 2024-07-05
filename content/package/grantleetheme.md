@@ -44,10 +44,10 @@ This lib provides grantlee theme support
 * /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeTargets.cmake
 * /usr/lib/libKPim6GrantleeTheme.so
 * /usr/lib/libKPim6GrantleeTheme.so.6
-* /usr/lib/libKPim6GrantleeTheme.so.6.1.1
+* /usr/lib/libKPim6GrantleeTheme.so.6.1.2
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/kde_grantlee_plugin.so
-* /usr/share/doc/grantleetheme-24.05.1/README.md
-* /usr/share/doc/grantleetheme-24.05.1/README.md.license
+* /usr/share/doc/grantleetheme-24.05.2/README.md
+* /usr/share/doc/grantleetheme-24.05.2/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libgrantleetheme6.mo

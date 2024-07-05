@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "58080"
 usize = "215039"
 sha1sum = "c39fe0878bb5bff6819ca2d576cb75fde5370d6f"
-depends = "['cyrus-sasl', 'kcoreaddons>=6.3.0', 'kio>=6.3.0', 'kmime>=24.05.1', 'pcre2']"
+depends = "['cyrus-sasl', 'kcoreaddons>=6.3.0', 'kio>=6.3.0', 'kmime>=24.05.2', 'pcre2']"
 reverse_depends = "['kmailtransport']"
 +++
 ### Description: 
@@ -36,7 +36,7 @@ Job-based library to send email through an SMTP server.
 * /usr/lib/cmake/KPim6SMTP/KPim6SMTPTargets.cmake
 * /usr/lib/libKPim6SMTP.so
 * /usr/lib/libKPim6SMTP.so.6
-* /usr/lib/libKPim6SMTP.so.6.1.1
+* /usr/lib/libKPim6SMTP.so.6.1.2
 * /usr/share/locale/ar/LC_MESSAGES/libksmtp6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libksmtp6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libksmtp6.mo

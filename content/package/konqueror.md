@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konqueror 24.05.1-2"
-version = "24.05.1-2"
+title = "konqueror 24.05.2-1"
+version = "24.05.2-1"
 description = "Web browser and file manager"
-date = "2024-06-20T08:10:06"
+date = "2024-07-05T09:03:24"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8458608"
-usize = "27198509"
-sha1sum = "ac83135bbde5c1b24e7b64aa53b0d7c52828c55a"
-depends = "['hunspell', 'kcmutils>=6.3.0', 'kdesu>=6.3.0', 'kparts>=6.3.0', 'plasma-activities>=6.1.0', 'qt6-speech>=6.7.1', 'qt6-webengine>=6.7.1', 'tidy>=5.6.0']"
+size = "8475748"
+usize = "27188687"
+sha1sum = "14202254f7e3ea4b9d7484d8ef34cd1a38fc6069"
+depends = "['hunspell', 'kcmutils>=6.3.0', 'kdesu>=6.3.0', 'kparts>=6.3.0', 'plasma-activities>=6.1.2', 'qt6-speech>=6.7.1', 'qt6-webengine>=6.7.1', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager
@@ -42,9 +42,9 @@ Web browser and file manager
 * /usr/lib/libKF6Konq.so.5.97.0
 * /usr/lib/libKF6Konq.so.7
 * /usr/lib/libkonqsidebarplugin.so
-* /usr/lib/libkonqsidebarplugin.so.24.05.1
+* /usr/lib/libkonqsidebarplugin.so.24.05.2
 * /usr/lib/libkonqsidebarplugin.so.6
-* /usr/lib/libkonquerorprivate.so.24.05.1
+* /usr/lib/libkonquerorprivate.so.24.05.2
 * /usr/lib/libkonquerorprivate.so.5
 * /usr/lib/libkwebenginepart.so
 * /usr/lib/qt6/plugins/akregatorkonqfeedicon.so
@@ -597,8 +597,8 @@ Web browser and file manager
 * /usr/share/doc/HTML/uk/konqueror/viewproperties-dialog.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.docbook
-* /usr/share/doc/konqueror-24.05.1/AUTHORS
-* /usr/share/doc/konqueror-24.05.1/ChangeLog
+* /usr/share/doc/konqueror-24.05.2/AUTHORS
+* /usr/share/doc/konqueror-24.05.2/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/konqueror.png
 * /usr/share/icons/hicolor/128x128/apps/webengine.png
 * /usr/share/icons/hicolor/16x16/actions/babelfish.png
@@ -1228,6 +1228,7 @@ Web browser and file manager
 * /usr/share/locale/gl/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/gl/LC_MESSAGES/searchbarplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/uachangerplugin.mo
+* /usr/share/locale/gl/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/gl/LC_MESSAGES/webenginepart.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcmbookmarks.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcmkonq.mo

@@ -47,11 +47,11 @@ Desc: C++ API for MIME handling.
 * /usr/lib/cmake/KPim6Mime/KPim6MimeTargets.cmake
 * /usr/lib/libKPim6Mime.so
 * /usr/lib/libKPim6Mime.so.6
-* /usr/lib/libKPim6Mime.so.6.1.1
-* /usr/share/doc/kmime-24.05.1/AUTHORS
-* /usr/share/doc/kmime-24.05.1/README.md
-* /usr/share/doc/kmime-24.05.1/README.md.license
-* /usr/share/doc/kmime-24.05.1/TODO
+* /usr/lib/libKPim6Mime.so.6.1.2
+* /usr/share/doc/kmime-24.05.2/AUTHORS
+* /usr/share/doc/kmime-24.05.2/README.md
+* /usr/share/doc/kmime-24.05.2/README.md.license
+* /usr/share/doc/kmime-24.05.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/libkmime6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkmime6.mo
 * /usr/share/locale/be/LC_MESSAGES/libkmime6.mo
