@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kasts 24.05.1-2"
-version = "24.05.1-2"
+title = "kasts 24.05.2-1"
+version = "24.05.2-1"
 description = "Kirigami-based podcast player"
-date = "2024-06-20T11:16:48"
+date = "2024-07-05T12:58:25"
 aliases = "/packages/220971"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "807776"
-usize = "3997734"
-sha1sum = "d4645f7ac12b3a2af4d48fe549ecb9c56812cae8"
+size = "809956"
+usize = "4036268"
+sha1sum = "417ff21470420599aedb7bd66e25fd8e78cba7cc"
 depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qtkeychain', 'syndication', 'taglib>=2.0', 'threadweaver', 'vlc']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ Kirigami-based podcast player
 * /usr/bin/kasts
 * /usr/lib/libKMediaSession.so
 * /usr/share/applications/org.kde.kasts.desktop
-* /usr/share/doc/kasts-24.05.1/README.md
+* /usr/share/doc/kasts-24.05.2/README.md
 * /usr/share/icons/hicolor/scalable/actions/media-playback-cloud.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts-tray-dark.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts-tray-light.svg

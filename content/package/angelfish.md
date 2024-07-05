@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "angelfish 24.05.1-2"
-version = "24.05.1-2"
+title = "angelfish 24.05.2-1"
+version = "24.05.2-1"
 description = "Web browser for Plasma Mobile"
-date = "2024-06-20T11:09:55"
+date = "2024-07-05T12:54:30"
 aliases = "/packages/220961"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1327136"
-usize = "4973230"
-sha1sum = "1c31a518c389caf2303ce70814a6bbef050426b8"
+size = "1330684"
+usize = "4990083"
+sha1sum = "8cc33ce3bfa6aa14c76db51a67700d14926330c9"
 depends = "['futuresql', 'kirigami-addons', 'purpose', 'qcoro', 'qqc2-desktop-style', 'qt6-webengine']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ Web browser for Plasma Mobile
 * /usr/bin/angelfish-webapp
 * /usr/share/applications/org.kde.angelfish.desktop
 * /usr/share/config.kcfg/angelfishsettings.kcfg
-* /usr/share/doc/angelfish-24.05.1/README.md
+* /usr/share/doc/angelfish-24.05.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.angelfish.svg
 * /usr/share/knotifications6/angelfish.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/angelfish.mo

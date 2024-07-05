@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.05.1-2"
-version = "24.05.1-2"
+title = "kdeconnect-kde 24.05.2-1"
+version = "24.05.2-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2024-06-20T10:38:43"
+date = "2024-07-05T12:33:12"
 aliases = "/packages/220147"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5452892"
-usize = "14193047"
-sha1sum = "18d3a38e2bb679d4efcda203bceccafbed911873"
-depends = "['kcmutils>=6.3.0', 'kio>=6.3.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwayland>=6.1.0', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.3.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.3.0', 'qt6-multimedia>=6.7.1', 'qt6-sensors>=6.7.1']"
+size = "5449948"
+usize = "14157461"
+sha1sum = "e78fbde957724aaa7b9233110d61cf1a0a8ca171"
+depends = "['kcmutils>=6.3.0', 'kio>=6.3.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwayland>=6.1.2', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.3.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.3.0', 'qt6-multimedia>=6.7.1', 'qt6-sensors>=6.7.1']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.05.1
+* /usr/lib/libkdeconnectcore.so.24.05.2
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.05.1
+* /usr/lib/libkdeconnectpluginkcm.so.24.05.2
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -113,7 +113,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.05.1/README.md
+* /usr/share/doc/kdeconnect-kde-24.05.2/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg

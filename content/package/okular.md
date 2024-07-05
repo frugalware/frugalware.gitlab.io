@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "okular 24.05.1-2"
-version = "24.05.1-2"
+title = "okular 24.05.2-1"
+version = "24.05.2-1"
 description = "KDE universal document viewer."
-date = "2024-06-20T10:33:41"
+date = "2024-07-05T12:26:17"
 aliases = "/packages/218510"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6875076"
-usize = "19446346"
-sha1sum = "dc9135f1a3ed31bbdc7c0c5c6c661f605a053879"
-depends = "['attica>=6.3.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.05.1', 'kirigami>=6.3.0', 'kparts>=6.3.0', 'kpty>=6.3.0', 'libkexiv2>=24.05.1', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.1.0', 'poppler-qt6>=0.60.1-2', 'purpose>=6.3.0', 'qca', 'qt6-speech>=6.7.1', 'qt6-svg>=6.7.1', 'threadweaver>=6.3.0']"
+size = "6874872"
+usize = "19411897"
+sha1sum = "b5a95d1adf6cce31ba22cd8cd2f05974b2b6c26f"
+depends = "['attica>=6.3.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.05.2', 'kirigami>=6.3.0', 'kparts>=6.3.0', 'kpty>=6.3.0', 'libkexiv2>=24.05.2', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.1.2', 'poppler-qt6>=0.60.1-2', 'purpose>=6.3.0', 'qca', 'qt6-speech>=6.7.1', 'qt6-svg>=6.7.1', 'threadweaver>=6.3.0']"
 reverse_depends = "['kile']"
 +++
 ### Description: 
@@ -290,10 +290,10 @@ KDE universal document viewer.
 * /usr/share/doc/HTML/uk/okular/mainwindow.png
 * /usr/share/doc/HTML/uk/okular/signatures-bar.png
 * /usr/share/doc/HTML/uk/okular/signatures-panel.png
-* /usr/share/doc/okular-24.05.1/README.clang-format
-* /usr/share/doc/okular-24.05.1/README.internals.png
-* /usr/share/doc/okular-24.05.1/README.md
-* /usr/share/doc/okular-24.05.1/TODO
+* /usr/share/doc/okular-24.05.2/README.clang-format
+* /usr/share/doc/okular-24.05.2/README.internals.png
+* /usr/share/doc/okular-24.05.2/README.md
+* /usr/share/doc/okular-24.05.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/okular.png
 * /usr/share/icons/hicolor/16x16/apps/okular.png
 * /usr/share/icons/hicolor/22x22/apps/okular.png

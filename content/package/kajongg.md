@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kajongg 24.05.1-2"
-version = "24.05.1-2"
+title = "kajongg 24.05.2-1"
+version = "24.05.2-1"
 description = "KDE Mahjongg game."
-date = "2024-06-20T10:52:34"
+date = "2024-07-05T12:52:27"
 aliases = "/packages/219325"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5212556"
-usize = "10914038"
-sha1sum = "83f31a4a8087adc48855c1300b9613a15432988d"
-depends = "['libkmahjongg>=24.05.1', 'python3-twisted']"
+size = "5213132"
+usize = "10914089"
+sha1sum = "2759c8b4bc8951003dae8bfcd91f9ec2d0df7605"
+depends = "['libkmahjongg>=24.05.2', 'python3-twisted']"
 +++
 ### Description: 
 KDE Mahjongg game.
@@ -66,11 +66,11 @@ KDE Mahjongg game.
 * /usr/share/doc/HTML/uk/kajongg/index.docbook
 * /usr/share/doc/HTML/uk/kajongg/ruleseteditor.png
 * /usr/share/doc/HTML/uk/kajongg/scoretable.png
-* /usr/share/doc/kajongg-24.05.1/COPYING.DOC
-* /usr/share/doc/kajongg-24.05.1/LICENSE
-* /usr/share/doc/kajongg-24.05.1/README
-* /usr/share/doc/kajongg-24.05.1/README.packagers
-* /usr/share/doc/kajongg-24.05.1/README.windows
+* /usr/share/doc/kajongg-24.05.2/COPYING.DOC
+* /usr/share/doc/kajongg-24.05.2/LICENSE
+* /usr/share/doc/kajongg-24.05.2/README
+* /usr/share/doc/kajongg-24.05.2/README.packagers
+* /usr/share/doc/kajongg-24.05.2/README.windows
 * /usr/share/icons/hicolor/128x128/apps/kajongg.png
 * /usr/share/icons/hicolor/16x16/apps/kajongg.png
 * /usr/share/icons/hicolor/22x22/apps/kajongg.png
