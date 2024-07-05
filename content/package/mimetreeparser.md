@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 24.05.1-2"
-version = "24.05.1-2"
+title = "mimetreeparser 24.05.2-1"
+version = "24.05.2-1"
 description = "Parser for MIME trees"
-date = "2024-06-20T08:26:22"
+date = "2024-07-05T09:29:29"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "216444"
-usize = "969612"
-sha1sum = "ab2cc409ca2c8bb9ffe78e46622cafcfb1a4ef80"
-depends = "['kcalendarcore>=6.3.0', 'kcodecs>=6.3.0', 'ki18n>=6.3.0', 'kmbox>=24.05.1', 'kmime>=24.05.1', 'libkleo>=24.05.1']"
+size = "218180"
+usize = "988609"
+sha1sum = "c88c0b7e17d3abea4b2f912ad3654437ad3da79f"
+depends = "['kcalendarcore>=6.3.0', 'kcodecs>=6.3.0', 'ki18n>=6.3.0', 'kmbox>=24.05.2', 'kmime>=24.05.2', 'libkleo>=24.05.2']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -54,10 +54,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.1.1
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.1.2
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.1.1
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.1.2
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -74,7 +74,7 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.05.1/README.md
+* /usr/share/doc/mimetreeparser-24.05.2/README.md
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/mimetreeparser6.mo
@@ -86,6 +86,7 @@ Parser for MIME trees
 * /usr/share/locale/eu/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/fi/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/fr/LC_MESSAGES/mimetreeparser6.mo
+* /usr/share/locale/gl/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/he/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/hu/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ia/LC_MESSAGES/mimetreeparser6.mo

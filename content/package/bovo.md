@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bovo 24.05.1-2"
-version = "24.05.1-2"
+title = "bovo 24.05.2-1"
+version = "24.05.2-1"
 description = "A Gomoku like game for two players."
-date = "2024-06-20T08:34:15"
+date = "2024-07-05T09:40:12"
 aliases = "/packages/184171"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "315284"
-usize = "790415"
-sha1sum = "dc9c9a75159d3040e26598f9169f7bb71bc2decd"
-depends = "['libkdegames>=24.05.1']"
+size = "315192"
+usize = "790470"
+sha1sum = "0d15fd22df3fc891fa16d6de4cd6ff6e4d0f9e0e"
+depends = "['libkdegames>=24.05.2']"
 +++
 ### Description: 
 A Gomoku like game for two players.
@@ -27,13 +27,13 @@ A Gomoku like game for two players.
 * /usr/share/bovo/themes/scribble/themerc
 * /usr/share/bovo/themes/spacy/theme.svgz
 * /usr/share/bovo/themes/spacy/themerc
-* /usr/share/doc/bovo-24.05.1/AUTHORS
-* /usr/share/doc/bovo-24.05.1/COPYING
-* /usr/share/doc/bovo-24.05.1/COPYING.DOC
-* /usr/share/doc/bovo-24.05.1/HISTORY
-* /usr/share/doc/bovo-24.05.1/INSTALL
-* /usr/share/doc/bovo-24.05.1/README.PACKAGERS
-* /usr/share/doc/bovo-24.05.1/TODO
+* /usr/share/doc/bovo-24.05.2/AUTHORS
+* /usr/share/doc/bovo-24.05.2/COPYING
+* /usr/share/doc/bovo-24.05.2/COPYING.DOC
+* /usr/share/doc/bovo-24.05.2/HISTORY
+* /usr/share/doc/bovo-24.05.2/INSTALL
+* /usr/share/doc/bovo-24.05.2/README.PACKAGERS
+* /usr/share/doc/bovo-24.05.2/TODO
 * /usr/share/doc/HTML/ca/bovo/index.cache.bz2
 * /usr/share/doc/HTML/ca/bovo/index.docbook
 * /usr/share/doc/HTML/ca/bovo/mainscreen.png

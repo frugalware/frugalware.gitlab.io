@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "6218644"
 usize = "9528428"
 sha1sum = "8804c8b9d229c3ef2d69561b0b8683bc323d24b1"
-depends = "['kdeclarative>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.1', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
+depends = "['kdeclarative>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.2', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 KDE hangman game.
@@ -102,16 +102,16 @@ KDE hangman game.
 * /usr/share/doc/HTML/uk/khangman/settings-languages.png
 * /usr/share/doc/HTML/uk/khangman/settings-timers.png
 * /usr/share/doc/HTML/uk/khangman/settings.png
-* /usr/share/doc/khangman-24.05.1/AUTHORS
-* /usr/share/doc/khangman-24.05.1/ChangeLog
-* /usr/share/doc/khangman-24.05.1/COPYING
-* /usr/share/doc/khangman-24.05.1/COPYING.DOC
-* /usr/share/doc/khangman-24.05.1/INSTALL
-* /usr/share/doc/khangman-24.05.1/README
-* /usr/share/doc/khangman-24.05.1/README.developer
-* /usr/share/doc/khangman-24.05.1/README.languages
-* /usr/share/doc/khangman-24.05.1/README_packagers
-* /usr/share/doc/khangman-24.05.1/TODO
+* /usr/share/doc/khangman-24.05.2/AUTHORS
+* /usr/share/doc/khangman-24.05.2/ChangeLog
+* /usr/share/doc/khangman-24.05.2/COPYING
+* /usr/share/doc/khangman-24.05.2/COPYING.DOC
+* /usr/share/doc/khangman-24.05.2/INSTALL
+* /usr/share/doc/khangman-24.05.2/README
+* /usr/share/doc/khangman-24.05.2/README.developer
+* /usr/share/doc/khangman-24.05.2/README.languages
+* /usr/share/doc/khangman-24.05.2/README_packagers
+* /usr/share/doc/khangman-24.05.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/khangman.png
 * /usr/share/icons/hicolor/16x16/apps/khangman.png
 * /usr/share/icons/hicolor/22x22/apps/khangman.png

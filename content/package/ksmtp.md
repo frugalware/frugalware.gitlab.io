@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksmtp 24.05.1-2"
-version = "24.05.1-2"
+title = "ksmtp 24.05.2-1"
+version = "24.05.2-1"
 description = "Job-based library to send email through an SMTP server."
-date = "2024-06-20T08:21:31"
+date = "2024-07-05T09:22:08"
 aliases = "/packages/219529"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "58080"
+size = "58068"
 usize = "215039"
-sha1sum = "c39fe0878bb5bff6819ca2d576cb75fde5370d6f"
+sha1sum = "5e85c3fcee815e6d97d5ace31512462a734113e2"
 depends = "['cyrus-sasl', 'kcoreaddons>=6.3.0', 'kio>=6.3.0', 'kmime>=24.05.2', 'pcre2']"
 reverse_depends = "['kmailtransport']"
 +++

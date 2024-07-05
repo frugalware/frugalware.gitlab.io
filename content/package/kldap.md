@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kldap 24.05.1-2"
-version = "24.05.1-2"
+title = "kldap 24.05.2-1"
+version = "24.05.2-1"
 description = "Desc: C++ API for LDAP access."
-date = "2024-06-20T08:19:55"
+date = "2024-07-05T09:19:57"
 aliases = "/packages/218330"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "217132"
-usize = "879123"
-sha1sum = "3de47aac13971a20ae30eb36636d65fcf148d89b"
+size = "217160"
+usize = "879221"
+sha1sum = "3b89f372d3606a9e9ad22b2d40d41c724332b47e"
 depends = "['kcompletion>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kmbox>=24.05.2', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++

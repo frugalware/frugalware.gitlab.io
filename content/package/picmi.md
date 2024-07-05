@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "picmi 24.05.1-2"
-version = "24.05.1-2"
+title = "picmi 24.05.2-1"
+version = "24.05.2-1"
 description = "A nonogram logic game for KDE."
-date = "2024-06-20T08:56:20"
+date = "2024-07-05T10:12:38"
 aliases = "/packages/184207"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1303816"
-usize = "1957185"
-sha1sum = "32a587e47333ddf7ceb1c6c3d164a57f2d575858"
-depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
+size = "1303928"
+usize = "1957238"
+sha1sum = "3bee24e6a6e384e42b631cf06e1beb7e784e6e34"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.2']"
 +++
 ### Description: 
 A nonogram logic game for KDE.
@@ -46,10 +46,10 @@ A nonogram logic game for KDE.
 * /usr/share/doc/HTML/uk/picmi/gameboard.png
 * /usr/share/doc/HTML/uk/picmi/index.cache.bz2
 * /usr/share/doc/HTML/uk/picmi/index.docbook
-* /usr/share/doc/picmi-24.05.1/AUTHORS
-* /usr/share/doc/picmi-24.05.1/INSTALL
-* /usr/share/doc/picmi-24.05.1/README
-* /usr/share/doc/picmi-24.05.1/TODO
+* /usr/share/doc/picmi-24.05.2/AUTHORS
+* /usr/share/doc/picmi-24.05.2/INSTALL
+* /usr/share/doc/picmi-24.05.2/README
+* /usr/share/doc/picmi-24.05.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/picmi.png
 * /usr/share/icons/hicolor/16x16/apps/picmi.png
 * /usr/share/icons/hicolor/22x22/apps/picmi.png

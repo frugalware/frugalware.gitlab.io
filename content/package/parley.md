@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "7553476"
 usize = "12334205"
 sha1sum = "dbef20575ce787e39eefa2c0d79e137fccaf51f3"
-depends = "['kcmutils>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.1', 'qt6-multimedia>=6.7.1', 'qt6-webengine>=6.7.1']"
+depends = "['kcmutils>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.2', 'qt6-multimedia>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 Vocabulary Trainer.
@@ -190,9 +190,9 @@ Vocabulary Trainer.
 * /usr/share/doc/HTML/sv/parley/index.docbook
 * /usr/share/doc/HTML/uk/parley/index.cache.bz2
 * /usr/share/doc/HTML/uk/parley/index.docbook
-* /usr/share/doc/parley-24.05.1/AUTHORS
-* /usr/share/doc/parley-24.05.1/README.md
-* /usr/share/doc/parley-24.05.1/TODO
+* /usr/share/doc/parley-24.05.2/AUTHORS
+* /usr/share/doc/parley-24.05.2/README.md
+* /usr/share/doc/parley-24.05.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/parley.png
 * /usr/share/icons/hicolor/16x16/apps/parley.png
 * /usr/share/icons/hicolor/32x32/apps/parley.png

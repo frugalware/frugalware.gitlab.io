@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knavalbattle 24.05.1-2"
-version = "24.05.1-2"
+title = "knavalbattle 24.05.2-1"
+version = "24.05.2-1"
 description = "A ship sinking game."
-date = "2024-06-20T08:49:40"
+date = "2024-07-05T10:02:54"
 aliases = "/packages/184190"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1606352"
-usize = "2533198"
-sha1sum = "0f3049b855c0b48f10f58b08962de3af3f5c0fa5"
-depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.1']"
+size = "1606472"
+usize = "2533251"
+sha1sum = "26765c35da80e63d7d488cf07f1019f5ec57cee1"
+depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.2']"
 +++
 ### Description: 
 A ship sinking game.
@@ -50,10 +50,10 @@ A ship sinking game.
 * /usr/share/doc/HTML/uk/knavalbattle/gameboard.png
 * /usr/share/doc/HTML/uk/knavalbattle/index.cache.bz2
 * /usr/share/doc/HTML/uk/knavalbattle/index.docbook
-* /usr/share/doc/knavalbattle-24.05.1/AUTHORS
-* /usr/share/doc/knavalbattle-24.05.1/COPYING.DOC
-* /usr/share/doc/knavalbattle-24.05.1/README.md
-* /usr/share/doc/knavalbattle-24.05.1/README.PACKAGERS
+* /usr/share/doc/knavalbattle-24.05.2/AUTHORS
+* /usr/share/doc/knavalbattle-24.05.2/COPYING.DOC
+* /usr/share/doc/knavalbattle-24.05.2/README.md
+* /usr/share/doc/knavalbattle-24.05.2/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/knavalbattle.png
 * /usr/share/icons/hicolor/16x16/apps/knavalbattle.png
 * /usr/share/icons/hicolor/22x22/apps/knavalbattle.png
