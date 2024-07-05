@@ -19,7 +19,7 @@ Track your time
 ### Files: 
 * /usr/bin/francis
 * /usr/share/applications/org.kde.francis.desktop
-* /usr/share/doc/francis-24.05.1/README.md
+* /usr/share/doc/francis-24.05.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.francis.svg
 * /usr/share/locale/ast/LC_MESSAGES/francis.mo
 * /usr/share/locale/ca/LC_MESSAGES/francis.mo
@@ -34,6 +34,7 @@ Track your time
 * /usr/share/locale/fr/LC_MESSAGES/francis.mo
 * /usr/share/locale/gl/LC_MESSAGES/francis.mo
 * /usr/share/locale/he/LC_MESSAGES/francis.mo
+* /usr/share/locale/hu/LC_MESSAGES/francis.mo
 * /usr/share/locale/ia/LC_MESSAGES/francis.mo
 * /usr/share/locale/it/LC_MESSAGES/francis.mo
 * /usr/share/locale/ja/LC_MESSAGES/francis.mo

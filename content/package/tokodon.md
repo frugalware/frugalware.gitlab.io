@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tokodon 24.05.1-2"
-version = "24.05.1-2"
+title = "tokodon 24.05.2-1"
+version = "24.05.2-1"
 description = "A Mastodon client for Plasma"
-date = "2024-06-20T11:31:59"
+date = "2024-07-05T13:18:59"
 aliases = "/packages/220996"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1433784"
-usize = "7759847"
-sha1sum = "228823d30d7ee6a4e23c97b58946991a43d50a56"
+size = "1414968"
+usize = "7783119"
+sha1sum = "06a5f0e94761234e6a16d9283bbef4daffa7bb29"
 depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'mpvqt', 'purpose', 'qqc2-desktop-style', 'qt6-websockets', 'qt6-webview', 'qtkeychain']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ A Mastodon client for Plasma
 * /usr/bin/tokodon
 * /usr/lib/qt6/plugins/kf6/purpose/tokodonplugin.so
 * /usr/share/applications/org.kde.tokodon.desktop
-* /usr/share/doc/tokodon-24.05.1/README.md
+* /usr/share/doc/tokodon-24.05.2/README.md
 * /usr/share/icons/hicolor/scalable/actions/tokodon-chat-reply.svg
 * /usr/share/icons/hicolor/scalable/actions/tokodon-post-bookmarked.svg
 * /usr/share/icons/hicolor/scalable/actions/tokodon-post-boost.svg

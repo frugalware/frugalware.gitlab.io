@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skanpage 24.05.1-2"
-version = "24.05.1-2"
+title = "skanpage 24.05.2-1"
+version = "24.05.2-1"
 description = "Utility to scan images and multi-page documents"
-date = "2024-06-20T12:28:30"
+date = "2024-07-05T14:09:13"
 aliases = "/packages/220994"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "238120"
-usize = "1214105"
-sha1sum = "b196e7e7164040088ee9660d5ec4b83a88606c68"
+size = "238984"
+usize = "1223093"
+sha1sum = "79c78abb5cdf74b89455e8afb9c99bb98c7a91c1"
 depends = "['kirigami', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose', 'qt6-webengine>=', 'tesseract-ocr']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Utility to scan images and multi-page documents
 ### Files: 
 * /usr/bin/skanpage
 * /usr/share/applications/org.kde.skanpage.desktop
-* /usr/share/doc/skanpage-24.05.1/README.md
+* /usr/share/doc/skanpage-24.05.2/README.md
 * /usr/share/icons/hicolor/48x48/apps/skanpage.png
 * /usr/share/icons/hicolor/scalable/apps/skanpage.svg
 * /usr/share/locale/ar/LC_MESSAGES/skanpage.mo
@@ -38,6 +38,7 @@ Utility to scan images and multi-page documents
 * /usr/share/locale/eu/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/fi/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/fr/LC_MESSAGES/skanpage.mo
+* /usr/share/locale/gl/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/he/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/hu/LC_MESSAGES/skanpage.mo
 * /usr/share/locale/ia/LC_MESSAGES/skanpage.mo
