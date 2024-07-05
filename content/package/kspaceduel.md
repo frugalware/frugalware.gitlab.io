@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "662040"
 usize = "1774584"
 sha1sum = "28c2090d36e712d1051a161bd292ee1df45c73d7"
-depends = "['libkdegames>=24.05.1']"
+depends = "['libkdegames>=24.05.2']"
 +++
 ### Description: 
 KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun
@@ -60,11 +60,11 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/doc/HTML/uk/kspaceduel/index.cache.bz2
 * /usr/share/doc/HTML/uk/kspaceduel/index.docbook
 * /usr/share/doc/HTML/uk/kspaceduel/kspaceduel3.png
-* /usr/share/doc/kspaceduel-24.05.1/AUTHORS
-* /usr/share/doc/kspaceduel-24.05.1/ChangeLog
-* /usr/share/doc/kspaceduel-24.05.1/README
-* /usr/share/doc/kspaceduel-24.05.1/README.PACKAGERS
-* /usr/share/doc/kspaceduel-24.05.1/TODO
+* /usr/share/doc/kspaceduel-24.05.2/AUTHORS
+* /usr/share/doc/kspaceduel-24.05.2/ChangeLog
+* /usr/share/doc/kspaceduel-24.05.2/README
+* /usr/share/doc/kspaceduel-24.05.2/README.PACKAGERS
+* /usr/share/doc/kspaceduel-24.05.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kspaceduel.png
 * /usr/share/icons/hicolor/16x16/apps/kspaceduel.png
 * /usr/share/icons/hicolor/22x22/apps/kspaceduel.png

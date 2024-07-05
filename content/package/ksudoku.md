@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1882780"
 usize = "3698899"
 sha1sum = "bac8095c56827b5cf77c14d68bfb7349962573ca"
-depends = "['libglu', 'libkdegames>=24.05.1']"
+depends = "['libglu', 'libkdegames>=24.05.2']"
 +++
 ### Description: 
 KSudoku is a logic-based symbol placement puzzle
@@ -48,11 +48,11 @@ KSudoku is a logic-based symbol placement puzzle
 * /usr/share/doc/HTML/sv/ksudoku/index.docbook
 * /usr/share/doc/HTML/uk/ksudoku/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksudoku/index.docbook
-* /usr/share/doc/ksudoku-24.05.1/ChangeLog
-* /usr/share/doc/ksudoku-24.05.1/COPYING
-* /usr/share/doc/ksudoku-24.05.1/COPYING.DOC
-* /usr/share/doc/ksudoku-24.05.1/README
-* /usr/share/doc/ksudoku-24.05.1/README.PACKAGERS
+* /usr/share/doc/ksudoku-24.05.2/ChangeLog
+* /usr/share/doc/ksudoku-24.05.2/COPYING
+* /usr/share/doc/ksudoku-24.05.2/COPYING.DOC
+* /usr/share/doc/ksudoku-24.05.2/README
+* /usr/share/doc/ksudoku-24.05.2/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/ksudoku.png
 * /usr/share/icons/hicolor/16x16/apps/ksudoku.png
 * /usr/share/icons/hicolor/32x32/apps/ksudoku.png

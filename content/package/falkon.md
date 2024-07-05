@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "falkon 24.05.1-2"
-version = "24.05.1-2"
+title = "falkon 24.05.2-1"
+version = "24.05.2-1"
 description = "Web browser written in Qt."
-date = "2024-06-20T10:02:14"
+date = "2024-07-05T11:41:48"
 aliases = "/packages/219685"
 categories = ['kde6']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "2232360"
-usize = "11433558"
-sha1sum = "dc674f4bb8f872e1be61d3899814f11448701eed"
+size = "2233696"
+usize = "11442599"
+sha1sum = "02397e1121d558417dd1548468fa2de0dc860f77"
 depends = "['openssl>=3.1.0', 'qt6-base>=5.15.0>=', 'qt6-webchannel>=', 'qt6-webengine>=']"
 reverse_depends = "['falkon-kde', 'falkon-python-plugins']"
 +++
@@ -19,13 +19,13 @@ Web browser written in Qt.
 
 ### Files: 
 * /usr/bin/falkon
-* /usr/lib/libFalkonPrivate.so.24.05.1
+* /usr/lib/libFalkonPrivate.so.24.05.2
 * /usr/lib/libFalkonPrivate.so.3
 * /usr/share/applications/org.kde.falkon.desktop
 * /usr/share/bash-completion/completions/falkon
-* /usr/share/doc/falkon-24.05.1/CHANGELOG
-* /usr/share/doc/falkon-24.05.1/COPYING
-* /usr/share/doc/falkon-24.05.1/README.md
+* /usr/share/doc/falkon-24.05.2/CHANGELOG
+* /usr/share/doc/falkon-24.05.2/COPYING
+* /usr/share/doc/falkon-24.05.2/README.md
 * /usr/share/falkon/themes/chrome/images/gotoaddress.png
 * /usr/share/falkon/themes/chrome/images/key.png
 * /usr/share/falkon/themes/chrome/images/library-bg.png

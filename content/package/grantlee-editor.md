@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantlee-editor 24.05.1-2"
-version = "24.05.1-2"
+title = "grantlee-editor 24.05.2-1"
+version = "24.05.2-1"
 description = "gantt editor for PIM application."
-date = "2024-06-20T09:51:24"
+date = "2024-07-05T11:27:34"
 aliases = "/packages/218927"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "246984"
-usize = "1299780"
-sha1sum = "f72875ee03fcca346c6755848b3253dd84898fd3"
-depends = "['ktexteditor>=6.3.0', 'messagelib>=24.05.1']"
+size = "247340"
+usize = "1300990"
+sha1sum = "48594d0ee2c7d335bc5f317628d94b7cfbbf96de"
+depends = "['ktexteditor>=6.3.0', 'messagelib>=24.05.2']"
 +++
 ### Description: 
 gantt editor for PIM application.
@@ -21,7 +21,7 @@ gantt editor for PIM application.
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor
 * /usr/lib/libgrantleethemeeditor.so.6
-* /usr/lib/libgrantleethemeeditor.so.6.1.1
+* /usr/lib/libgrantleethemeeditor.so.6.1.2
 * /usr/share/applications/org.kde.contactprintthemeeditor.desktop
 * /usr/share/applications/org.kde.contactthemeeditor.desktop
 * /usr/share/applications/org.kde.headerthemeeditor.desktop

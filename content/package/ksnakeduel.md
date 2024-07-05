@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksnakeduel 24.05.1-2"
-version = "24.05.1-2"
+title = "ksnakeduel 24.05.2-1"
+version = "24.05.2-1"
 description = "KSnakeDuel is a simple snake duel game"
-date = "2024-06-20T10:24:44"
+date = "2024-07-05T12:13:30"
 aliases = "/packages/219339"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "575972"
-usize = "1027091"
-sha1sum = "cf8ac5ed6e6f782b7467ca9f8b97172214a33c8a"
-depends = "['libkdegames>=24.05.1']"
+size = "576120"
+usize = "1027144"
+sha1sum = "5fbfacc1c54404a09ab9bb7a34ba75908f8772e5"
+depends = "['libkdegames>=24.05.2']"
 +++
 ### Description: 
 KSnakeDuel is a simple snake duel game
