@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkomparediff2 24.05.1-1"
-version = "24.05.1-1"
+title = "libkomparediff2 24.05.2-1"
+version = "24.05.2-1"
 description = "Library to compare files and strings."
-date = "2024-06-15T09:54:20"
+date = "2024-07-05T14:39:33"
 aliases = "/packages/200332"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "103672"
+size = "103828"
 usize = "396469"
-sha1sum = "f16cdca1d995aee647e0328aa40a1c496e7d3003"
+sha1sum = "6099ba724acd4a985aac1ea6632630bf452c51a2"
 depends = "['kparts5>=5.116.0', 'qt5-svg>=5.15.14']"
 reverse_depends = "['kdevelop', 'kompare']"
 +++
@@ -57,8 +57,8 @@ Library to compare files and strings.
 * /usr/lib/libkomparediff2.so
 * /usr/lib/libkomparediff2.so.5
 * /usr/lib/libkomparediff2.so.5.4.0
-* /usr/share/doc/libkomparediff2-24.05.1/COPYING
-* /usr/share/doc/libkomparediff2-24.05.1/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/libkomparediff2-24.05.2/COPYING
+* /usr/share/doc/libkomparediff2-24.05.2/COPYING-CMAKE-SCRIPTS
 * /usr/share/locale/af/LC_MESSAGES/libkomparediff2.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkomparediff2.mo
 * /usr/share/locale/be/LC_MESSAGES/libkomparediff2.mo

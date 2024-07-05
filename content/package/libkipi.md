@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkipi 24.05.1-1"
-version = "24.05.1-1"
+title = "libkipi 24.05.2-1"
+version = "24.05.2-1"
 description = "KDE Image Plugin Interface, a C++ library to share plugins among graphic release-service."
-date = "2024-06-15T10:12:49"
+date = "2024-07-05T14:56:35"
 aliases = "/packages/74206"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "100028"
+size = "100024"
 usize = "270112"
-sha1sum = "3dab662ed53133b113e5172b4ea4cb6c29e8095d"
+sha1sum = "f9ae87eed37d81f4ab6f78b88468ad26f60ef0b2"
 depends = "['kxmlgui5>=5.116.0', 'qt5-svg>=5.15.14', 'qt5-x11extras>=5.15.14']"
 reverse_depends = "['kipi-plugins']"
 +++
@@ -48,8 +48,8 @@ KDE Image Plugin Interface, a C++ library to share plugins among graphic release
 * /usr/lib/libKF5Kipi.so
 * /usr/lib/libKF5Kipi.so.32.0.0
 * /usr/lib/libKF5Kipi.so.5.2.0
-* /usr/share/doc/libkipi-24.05.1/AUTHORS
-* /usr/share/doc/libkipi-24.05.1/README
+* /usr/share/doc/libkipi-24.05.2/AUTHORS
+* /usr/share/doc/libkipi-24.05.2/README
 * /usr/share/icons/hicolor/128x128/apps/kipi.png
 * /usr/share/icons/hicolor/16x16/apps/kipi.png
 * /usr/share/icons/hicolor/22x22/apps/kipi.png

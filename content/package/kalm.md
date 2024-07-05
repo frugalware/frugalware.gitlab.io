@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalm 24.05.1-2"
-version = "24.05.1-2"
+title = "kalm 24.05.2-1"
+version = "24.05.2-1"
 description = "Kalm can teach you different breathing techniques"
-date = "2024-06-20T12:33:04"
+date = "2024-07-05T14:16:02"
 aliases = "/packages/221489"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "62848"
-usize = "378457"
-sha1sum = "ef06c88bd173b3b13d36ef158f5852c081b6308a"
+size = "64040"
+usize = "390094"
+sha1sum = "2023493a323bec2eed72b3a7f9cc9d51c4c68535"
 depends = "['kconfig', 'kcoreaddons', 'kcrash', 'ki18n', 'kirigami', 'kirigami-addons', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Kalm can teach you different breathing techniques
 ### Files: 
 * /usr/bin/kalm
 * /usr/share/applications/org.kde.kalm.desktop
-* /usr/share/doc/kalm-24.05.1/README.md
+* /usr/share/doc/kalm-24.05.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kalm.svg
 * /usr/share/locale/ast/LC_MESSAGES/kalm.mo
 * /usr/share/locale/ca/LC_MESSAGES/kalm.mo
@@ -31,6 +31,7 @@ Kalm can teach you different breathing techniques
 * /usr/share/locale/es/LC_MESSAGES/kalm.mo
 * /usr/share/locale/eu/LC_MESSAGES/kalm.mo
 * /usr/share/locale/fr/LC_MESSAGES/kalm.mo
+* /usr/share/locale/gl/LC_MESSAGES/kalm.mo
 * /usr/share/locale/he/LC_MESSAGES/kalm.mo
 * /usr/share/locale/it/LC_MESSAGES/kalm.mo
 * /usr/share/locale/ja/LC_MESSAGES/kalm.mo

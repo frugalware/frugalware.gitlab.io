@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ghostwriter 24.05.1-1"
-version = "24.05.1-1"
+title = "ghostwriter 24.05.2-1"
+version = "24.05.2-1"
 description = "Aesthetic, distraction-free Markdown editor"
-date = "2024-06-15T10:39:56"
+date = "2024-07-05T15:12:22"
 aliases = "/packages/220968"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2480956"
-usize = "12227798"
-sha1sum = "9f2989f0fcc0b1cfde7ea9f38530e9bf628ef50f"
+size = "2486384"
+usize = "12265872"
+sha1sum = "5589fc578d68c6e7729419b7863a03959ec581c8"
 depends = "['cmark', 'hunspell', 'kxmlgui5', 'mathjax', 'qt5-webchannel', 'qt5-webengine', 'sonnet']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Aesthetic, distraction-free Markdown editor
 ### Files: 
 * /usr/bin/ghostwriter
 * /usr/share/applications/org.kde.ghostwriter.desktop
-* /usr/share/doc/ghostwriter-24.05.1/COPYING
-* /usr/share/doc/ghostwriter-24.05.1/README.md
+* /usr/share/doc/ghostwriter-24.05.2/COPYING
+* /usr/share/doc/ghostwriter-24.05.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/ghostwriter.png
 * /usr/share/icons/hicolor/16x16/apps/ghostwriter.png
 * /usr/share/icons/hicolor/22x22/apps/ghostwriter.png
@@ -39,6 +39,7 @@ Aesthetic, distraction-free Markdown editor
 * /usr/share/locale/eu/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/fi/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/fr/LC_MESSAGES/ghostwriter_qt.qm
+* /usr/share/locale/gl/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/id/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/ja/LC_MESSAGES/ghostwriter_qt.qm

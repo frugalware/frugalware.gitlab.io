@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kipi-plugins 24.05.1-1"
-version = "24.05.1-1"
+title = "kipi-plugins 24.05.2-1"
+version = "24.05.2-1"
 description = "kipi-plugins is based in part on the work of the Independent JPEG Group."
-date = "2024-06-15T10:17:15"
+date = "2024-07-05T15:00:28"
 aliases = "/packages/219978"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1622832"
-usize = "17213678"
-sha1sum = "8225368458589c03601220329552a8f1662e604c"
-depends = "['kio5>=5.116.0', 'libkipi>=24.05.1']"
+size = "1622556"
+usize = "17213669"
+sha1sum = "49320731eae7e8f2d657981bc36701f5b86ce6bf"
+depends = "['kio5>=5.116.0', 'libkipi>=24.05.2']"
 +++
 ### Description: 
 kipi-plugins is based in part on the work of the Independent JPEG Group.
@@ -35,15 +35,15 @@ kipi-plugins is based in part on the work of the Independent JPEG Group.
 * /usr/lib/qt5/plugins/kipiplugin_smug.so
 * /usr/lib/qt5/plugins/kipiplugin_yandexfotki.so
 * /usr/share/applications/kipiplugins.desktop
-* /usr/share/doc/kipi-plugins-24.05.1/AUTHORS
-* /usr/share/doc/kipi-plugins-24.05.1/ChangeLog
-* /usr/share/doc/kipi-plugins-24.05.1/COPYING
-* /usr/share/doc/kipi-plugins-24.05.1/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/kipi-plugins-24.05.1/HACKING
-* /usr/share/doc/kipi-plugins-24.05.1/INSTALL
-* /usr/share/doc/kipi-plugins-24.05.1/NEWS
-* /usr/share/doc/kipi-plugins-24.05.1/README
-* /usr/share/doc/kipi-plugins-24.05.1/TODO
+* /usr/share/doc/kipi-plugins-24.05.2/AUTHORS
+* /usr/share/doc/kipi-plugins-24.05.2/ChangeLog
+* /usr/share/doc/kipi-plugins-24.05.2/COPYING
+* /usr/share/doc/kipi-plugins-24.05.2/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/kipi-plugins-24.05.2/HACKING
+* /usr/share/doc/kipi-plugins-24.05.2/INSTALL
+* /usr/share/doc/kipi-plugins-24.05.2/NEWS
+* /usr/share/doc/kipi-plugins-24.05.2/README
+* /usr/share/doc/kipi-plugins-24.05.2/TODO
 * /usr/share/icons/hicolor/16x16/apps/kipi-dropbox.png
 * /usr/share/icons/hicolor/16x16/apps/kipi-facebook.png
 * /usr/share/icons/hicolor/16x16/apps/kipi-flickr.png
