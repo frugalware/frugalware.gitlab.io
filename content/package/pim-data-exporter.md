@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "487448"
 usize = "1866748"
 sha1sum = "d3a19ff5938682a89ae45637260512980788a08b"
-depends = "['calendarsupport>=24.05.1', 'kalarm>=24.05.1', 'mailcommon>=24.05.1']"
+depends = "['calendarsupport>=24.05.2', 'kalarm>=24.05.2', 'mailcommon>=24.05.2']"
 +++
 ### Description: 
 Assistant to backup and archive PIM data and configuration
@@ -20,7 +20,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/bin/pimdataexporter
 * /usr/bin/pimdataexporterconsole
 * /usr/lib/libpimdataexporterprivate.so.6
-* /usr/lib/libpimdataexporterprivate.so.6.1.1
+* /usr/lib/libpimdataexporterprivate.so.6.1.2
 * /usr/share/applications/org.kde.pimdataexporter.desktop
 * /usr/share/config.kcfg/pimdataexporterglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/pimsettingexporter/index.cache.bz2
@@ -49,7 +49,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/doc/HTML/sv/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.docbook
-* /usr/share/doc/pim-data-exporter-24.05.1/TODO
+* /usr/share/doc/pim-data-exporter-24.05.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ast/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/az/LC_MESSAGES/pimdataexporter.mo

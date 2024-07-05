@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkexiv25 24.05.1-2"
-version = "24.05.1-2"
+title = "libkexiv25 24.05.2-1"
+version = "24.05.2-1"
 description = "A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library. KF5"
-date = "2024-06-20T09:01:26"
+date = "2024-07-05T10:20:32"
 aliases = "/packages/221413"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "128564"
+size = "128524"
 usize = "406149"
-sha1sum = "b07d710e8b52ec963117dfaaa6a908e741775340"
+sha1sum = "9483c35d4ffa21723f5762536b6a19062bf9d544"
 depends = "['exiv2', 'qt5-base']"
 reverse_depends = "['kio-extras-kf5']"
 +++

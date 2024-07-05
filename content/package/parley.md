@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "parley 24.05.1-2"
-version = "24.05.1-2"
+title = "parley 24.05.2-1"
+version = "24.05.2-1"
 description = "Vocabulary Trainer."
-date = "2024-06-20T08:59:14"
+date = "2024-07-05T10:16:50"
 aliases = "/packages/152839"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7553476"
-usize = "12334205"
-sha1sum = "dbef20575ce787e39eefa2c0d79e137fccaf51f3"
+size = "7553248"
+usize = "12334259"
+sha1sum = "cb69cffc2da757301a7781ec46581dbad4b58c20"
 depends = "['kcmutils>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.2', 'qt6-multimedia>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 

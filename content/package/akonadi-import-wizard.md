@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-import-wizard 24.05.1-2"
-version = "24.05.1-2"
+title = "akonadi-import-wizard 24.05.2-1"
+version = "24.05.2-1"
 description = "KMail import wizard application."
-date = "2024-06-20T09:32:05"
+date = "2024-07-05T11:01:23"
 aliases = "/packages/218923"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "679344"
-usize = "1854882"
-sha1sum = "cc9013e8357a08e029cd1f32039dcccec3851dbf"
-depends = "['mailcommon>=24.05.1']"
+size = "679996"
+usize = "1854750"
+sha1sum = "f44e12eb79faf127bd565deef89f1902d29a1909"
+depends = "['mailcommon>=24.05.2']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
@@ -41,7 +41,7 @@ KMail import wizard application.
 * /usr/lib/cmake/KPim6ImportWizard/KPim6ImportWizardTargets.cmake
 * /usr/lib/libKPim6ImportWizard.so
 * /usr/lib/libKPim6ImportWizard.so.6
-* /usr/lib/libKPim6ImportWizard.so.6.1.1
+* /usr/lib/libKPim6ImportWizard.so.6.1.2
 * /usr/lib/qt6/plugins/pim6/importwizard/balsaimporterplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/clawsmailimporterplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/evolutionv3importerplugin.so

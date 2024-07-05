@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi 24.05.1-2"
-version = "24.05.1-2"
+title = "akonadi 24.05.2-1"
+version = "24.05.2-1"
 description = "PIM layer, which provides an asynchronous API to access all kind of PIM data"
-date = "2024-06-20T09:14:00"
+date = "2024-07-05T10:36:58"
 aliases = "/packages/74013"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3039604"
-usize = "13507543"
-sha1sum = "2ffe170c817952fc8f7385208bbedff636ae9f44"
-depends = "['kaccounts-integration>=24.05.1', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kitemviews>=6.3.0', 'libxslt', 'qt6-base>=6.7.1', 'shared-mime-info']"
+size = "3040224"
+usize = "13522603"
+sha1sum = "3ab08aa9fc25fb7c6f06016a7bb080ed79e6e722"
+depends = "['kaccounts-integration>=24.05.2', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kitemviews>=6.3.0', 'libxslt', 'qt6-base>=6.7.1', 'shared-mime-info']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++
 ### Description: 
@@ -349,19 +349,19 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/lib/cmake/KPim6Akonadi/KPimAkonadiMacros.cmake
 * /usr/lib/libKPim6AkonadiAgentBase.so
 * /usr/lib/libKPim6AkonadiAgentBase.so.6
-* /usr/lib/libKPim6AkonadiAgentBase.so.6.1.1
+* /usr/lib/libKPim6AkonadiAgentBase.so.6.1.2
 * /usr/lib/libKPim6AkonadiCore.so
 * /usr/lib/libKPim6AkonadiCore.so.6
-* /usr/lib/libKPim6AkonadiCore.so.6.1.1
+* /usr/lib/libKPim6AkonadiCore.so.6.1.2
 * /usr/lib/libKPim6AkonadiPrivate.so
 * /usr/lib/libKPim6AkonadiPrivate.so.6
-* /usr/lib/libKPim6AkonadiPrivate.so.6.1.1
+* /usr/lib/libKPim6AkonadiPrivate.so.6.1.2
 * /usr/lib/libKPim6AkonadiWidgets.so
 * /usr/lib/libKPim6AkonadiWidgets.so.6
-* /usr/lib/libKPim6AkonadiWidgets.so.6.1.1
+* /usr/lib/libKPim6AkonadiWidgets.so.6.1.2
 * /usr/lib/libKPim6AkonadiXml.so
 * /usr/lib/libKPim6AkonadiXml.so.6
-* /usr/lib/libKPim6AkonadiXml.so.6.1.1
+* /usr/lib/libKPim6AkonadiXml.so.6.1.2
 * /usr/lib/qt6/plugins/designer/akonadi6widgets.so
 * /usr/lib/qt6/plugins/pim6/akonadi/akonadi_test_searchplugin.so
 * /usr/share/akonadi/agents/knutresource.desktop
@@ -381,11 +381,11 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.Tracer.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.TracerNotification.xml
 * /usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
-* /usr/share/doc/akonadi-24.05.1/AUTHORS
-* /usr/share/doc/akonadi-24.05.1/INSTALL
-* /usr/share/doc/akonadi-24.05.1/NEWS
-* /usr/share/doc/akonadi-24.05.1/README.md
-* /usr/share/doc/akonadi-24.05.1/README.md.license
+* /usr/share/doc/akonadi-24.05.2/AUTHORS
+* /usr/share/doc/akonadi-24.05.2/INSTALL
+* /usr/share/doc/akonadi-24.05.2/NEWS
+* /usr/share/doc/akonadi-24.05.2/README.md
+* /usr/share/doc/akonadi-24.05.2/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/akonadi.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi.png
 * /usr/share/icons/hicolor/22x22/apps/akonadi.png
@@ -450,6 +450,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/fr/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/ga/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/ga/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/gl/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/gl/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/hsb/LC_MESSAGES/libakonadi6.mo
@@ -527,6 +528,7 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/libakonadi6.mo
+* /usr/share/locale/sv/LC_MESSAGES/akonadi-db-migrator.mo
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_knut_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/libakonadi6.mo
 * /usr/share/locale/ta/LC_MESSAGES/akonadi-db-migrator.mo

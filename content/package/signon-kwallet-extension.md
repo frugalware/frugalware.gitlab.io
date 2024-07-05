@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signon-kwallet-extension 24.05.1-2"
-version = "24.05.1-2"
+title = "signon-kwallet-extension 24.05.2-1"
+version = "24.05.2-1"
 description = "KWallet signon extension"
-date = "2024-06-20T09:09:38"
+date = "2024-07-05T10:31:41"
 aliases = "/packages/218407"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18252"
+size = "18284"
 usize = "49465"
-sha1sum = "2e3215faf3cc94ccaf13a861f51d4cef3cc89f7b"
+sha1sum = "6a2c6b15b9f5f49fff74239c5bbab19e2039b13b"
 depends = "['kwallet>=6.3.0', 'signon>=8.58-4']"
 reverse_depends = "['kaccounts-integration']"
 +++
@@ -19,4 +19,4 @@ KWallet signon extension
 
 ### Files: 
 * /usr/lib/signon/extensions/libkeyring-kwallet.so
-* /usr/share/doc/signon-kwallet-extension-24.05.1/COPYING
+* /usr/share/doc/signon-kwallet-extension-24.05.2/COPYING

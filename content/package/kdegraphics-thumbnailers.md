@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdegraphics-thumbnailers 24.05.1-2"
-version = "24.05.1-2"
+title = "kdegraphics-thumbnailers 24.05.2-1"
+version = "24.05.2-1"
 description = "Thumnailers Creators for Kdegraphics."
-date = "2024-06-20T09:02:24"
+date = "2024-07-05T10:21:45"
 aliases = "/packages/88171"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "48056"
-usize = "175842"
-sha1sum = "4cd96352e8ece3da49a8bfedbd8107d7291ef38e"
-depends = "['kdegraphics-mobipocket>=24.05.1', 'kio>=6.3.0', 'libkdcraw>=24.05.1', 'libkexiv2>=24.05.1', 'qt6-svg>=6.7.1']"
+size = "48172"
+usize = "175928"
+sha1sum = "144b97033e235e4a15078cada0947642ac1f7c30"
+depends = "['kdegraphics-mobipocket>=24.05.2', 'kio>=6.3.0', 'libkdcraw>=24.05.2', 'libkexiv2>=24.05.2', 'qt6-svg>=6.7.1']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 
@@ -22,6 +22,6 @@ Thumnailers Creators for Kdegraphics.
 * /usr/lib/qt6/plugins/kf6/thumbcreator/gsthumbnail.so
 * /usr/lib/qt6/plugins/kf6/thumbcreator/mobithumbnail.so
 * /usr/lib/qt6/plugins/kf6/thumbcreator/rawthumbnail.so
-* /usr/share/doc/kdegraphics-thumbnailers-24.05.1/COPYING
-* /usr/share/doc/kdegraphics-thumbnailers-24.05.1/COPYING.LIB
+* /usr/share/doc/kdegraphics-thumbnailers-24.05.2/COPYING
+* /usr/share/doc/kdegraphics-thumbnailers-24.05.2/COPYING.LIB
 * /usr/share/metainfo/org.kde.kdegraphics-thumbnailers.metainfo.xml

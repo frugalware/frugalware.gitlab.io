@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 24.05.1-2"
-version = "24.05.1-2"
+title = "kate 24.05.2-1"
+version = "24.05.2-1"
 description = "KDE Advanced Text Editor."
-date = "2024-06-20T09:05:38"
+date = "2024-07-05T10:25:49"
 aliases = "/packages/118445"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10068508"
-usize = "34345543"
-sha1sum = "8d58fc5bdcb2a1f4089ffe0147c9f725bdf559cc"
-depends = "['kitemmodels>=6.3.0', 'knewstuff>=6.3.0', 'ktexteditor>=6.3.0', 'libgit2>=0.26', 'libplasma>=6.1.0', 'qt6-declarative>=6.7.1', 'threadweaver>=6.3.0']"
+size = "10067852"
+usize = "34360087"
+sha1sum = "0130255e9375a307ee4211e70c8a79a1bc2e9179"
+depends = "['kitemmodels>=6.3.0', 'knewstuff>=6.3.0', 'ktexteditor>=6.3.0', 'libgit2>=0.26', 'libplasma>=6.1.2', 'qt6-declarative>=6.7.1', 'threadweaver>=6.3.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.
@@ -19,7 +19,7 @@ KDE Advanced Text Editor.
 ### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
-* /usr/lib/libkateprivate.so.24.05.1
+* /usr/lib/libkateprivate.so.24.05.2
 * /usr/lib/qt6/plugins/kf6/ktexteditor/cmaketoolsplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/compilerexplorer.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/eslintplugin.so
@@ -412,7 +412,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/uk/katepart/vi.docbook
 * /usr/share/doc/HTML/uk/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwrite/index.docbook
-* /usr/share/doc/kate-24.05.1/README.md
+* /usr/share/doc/kate-24.05.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/kate.png
 * /usr/share/icons/hicolor/128x128/apps/kwrite.png
 * /usr/share/icons/hicolor/150x150/apps/kate.png
@@ -532,6 +532,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/be/LC_MESSAGES/katesymbolviewer.mo
 * /usr/share/locale/be/LC_MESSAGES/katetextfilter.mo
 * /usr/share/locale/be/LC_MESSAGES/katexmltools.mo
+* /usr/share/locale/bg/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/kate.mo
@@ -968,10 +969,12 @@ KDE Advanced Text Editor.
 * /usr/share/locale/gl/LC_MESSAGES/katebuild-plugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/katecloseexceptplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/katecolorpickerplugin.mo
+* /usr/share/locale/gl/LC_MESSAGES/kateexternaltoolsplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/katefilebrowserplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/katefiletree.mo
 * /usr/share/locale/gl/LC_MESSAGES/kategdbplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/kategitblameplugin.mo
+* /usr/share/locale/gl/LC_MESSAGES/katekeyboardmacros.mo
 * /usr/share/locale/gl/LC_MESSAGES/katekonsoleplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/kateproject.mo
 * /usr/share/locale/gl/LC_MESSAGES/katesearch.mo
@@ -1767,6 +1770,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/sr@latin/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/tabswitcherplugin.mo
+* /usr/share/locale/sv/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/kate-ctags-plugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/kate-replicode-plugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/kate.mo
@@ -1791,6 +1795,8 @@ KDE Advanced Text Editor.
 * /usr/share/locale/sv/LC_MESSAGES/katexmltools.mo
 * /usr/share/locale/sv/LC_MESSAGES/ktexteditorpreviewplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/lspclient.mo
+* /usr/share/locale/sv/LC_MESSAGES/rainbowparens.mo
+* /usr/share/locale/sv/LC_MESSAGES/rbqlplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/tabswitcherplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/formatplugin.mo
 * /usr/share/locale/ta/LC_MESSAGES/kate-ctags-plugin.mo

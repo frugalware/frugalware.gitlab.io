@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-mime 24.05.1-2"
-version = "24.05.1-2"
+title = "akonadi-mime 24.05.2-1"
+version = "24.05.2-1"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2024-06-20T09:14:57"
+date = "2024-07-05T10:38:29"
 aliases = "/packages/218738"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "224136"
+size = "224092"
 usize = "1171862"
-sha1sum = "421caff08342551f72ee5926a3f95c5254a466a7"
-depends = "['akonadi>=24.05.1', 'kconfig>=6.3.0', 'kdbusaddons>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kmime>=24.05.1', 'kxmlgui>=6.3.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
+sha1sum = "5fa166e601d168b25e32b49497a26d3165f87bd1"
+depends = "['akonadi>=24.05.2', 'kconfig>=6.3.0', 'kdbusaddons>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kmime>=24.05.2', 'kxmlgui>=6.3.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
 reverse_depends = "['akonadi-contacts']"
 +++
 ### Description: 
@@ -74,12 +74,12 @@ Libraries and daemons to implement searching in Akonad
 * /usr/lib/cmake/KPim6AkonadiMime/KPim6AkonadiMimeTargets.cmake
 * /usr/lib/libKPim6AkonadiMime.so
 * /usr/lib/libKPim6AkonadiMime.so.6
-* /usr/lib/libKPim6AkonadiMime.so.6.1.1
+* /usr/lib/libKPim6AkonadiMime.so.6.1.2
 * /usr/lib/qt6/plugins/akonadi_serializer_mail.so
 * /usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 * /usr/share/config.kcfg/specialmailcollections.kcfg
-* /usr/share/doc/akonadi-mime-24.05.1/README.md
-* /usr/share/doc/akonadi-mime-24.05.1/README.md.license
+* /usr/share/doc/akonadi-mime-24.05.2/README.md
+* /usr/share/doc/akonadi-mime-24.05.2/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libakonadi-kmime6.mo
 * /usr/share/locale/az/LC_MESSAGES/libakonadi-kmime6.mo

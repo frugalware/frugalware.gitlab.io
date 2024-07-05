@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadiconsole 24.05.1-2"
-version = "24.05.1-2"
+title = "akonadiconsole 24.05.2-1"
+version = "24.05.2-1"
 description = "A utility that can be used to explore or manage Akonadi"
-date = "2024-06-20T09:33:11"
+date = "2024-07-05T11:02:59"
 aliases = "/packages/218924"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "477972"
-usize = "1661348"
-sha1sum = "d79d8f3d94d38aa6a4eb0f24ed1689abc13576f7"
-depends = "['calendarsupport>=24.05.1', 'messagelib>=24.05.1']"
+size = "483468"
+usize = "1710174"
+sha1sum = "c0f75f0e1685abd2a1c4cdb34f2bbcd1db143dae"
+depends = "['calendarsupport>=24.05.2', 'messagelib>=24.05.2']"
 +++
 ### Description: 
 A utility that can be used to explore or manage Akonadi
@@ -19,7 +19,7 @@ A utility that can be used to explore or manage Akonadi
 ### Files: 
 * /usr/bin/akonadiconsole
 * /usr/lib/libakonadiconsole.so.6
-* /usr/lib/libakonadiconsole.so.6.1.1
+* /usr/lib/libakonadiconsole.so.6.1.2
 * /usr/share/applications/org.kde.akonadiconsole.desktop
 * /usr/share/icons/hicolor/128x128/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/16x16/apps/akonadiconsole.png
@@ -29,6 +29,7 @@ A utility that can be used to explore or manage Akonadi
 * /usr/share/icons/hicolor/48x48/apps/akonadiconsole.png
 * /usr/share/icons/hicolor/64x64/apps/akonadiconsole.png
 * /usr/share/locale/ast/LC_MESSAGES/akonadiconsole.mo
+* /usr/share/locale/bg/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/cs/LC_MESSAGES/akonadiconsole.mo
@@ -39,6 +40,7 @@ A utility that can be used to explore or manage Akonadi
 * /usr/share/locale/eu/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/fi/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/fr/LC_MESSAGES/akonadiconsole.mo
+* /usr/share/locale/gl/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadiconsole.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadiconsole.mo
