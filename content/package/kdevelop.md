@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdevelop 24.05.1-1"
-version = "24.05.1-1"
+title = "kdevelop 24.05.2-1"
+version = "24.05.2-1"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-06-15T10:48:24"
+date = "2024-07-05T15:20:17"
 aliases = "/packages/10830"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "9965896"
-usize = "35546493"
-sha1sum = "68bf44836a4ff38327ee36b6c8adbd1044fa6515"
+size = "9919060"
+usize = "35512267"
+sha1sum = "bf501af991495db6dec1c330f7d412946daa9f2d"
 depends = "['clang-libs>=17.0.6', 'grantlee', 'kcmutils5>=5.116.0', 'kitemmodels5>=5.116.0', 'knewstuff5>=5.116.0', 'knotifyconfig5>=5.116.0', 'krunner5>=5.116.0', 'ktexteditor5>=5.116.0', 'libboost>=1.72.0', 'libkomparediff2', 'qt5-tools>=5.15.14', 'qt5-webengine>=5.15.14']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
@@ -407,37 +407,37 @@ The KDevelop integrated C/C++ application development environment
 * /usr/lib/libKDevCompileAnalyzerCommon.so.514
 * /usr/lib/libKDevelopSessionsWatch.so
 * /usr/lib/libKDevPlatformDebugger.so
-* /usr/lib/libKDevPlatformDebugger.so.5.14.240501
+* /usr/lib/libKDevPlatformDebugger.so.5.14.240502
 * /usr/lib/libKDevPlatformDebugger.so.514
 * /usr/lib/libKDevPlatformDocumentation.so
-* /usr/lib/libKDevPlatformDocumentation.so.5.14.240501
+* /usr/lib/libKDevPlatformDocumentation.so.5.14.240502
 * /usr/lib/libKDevPlatformDocumentation.so.514
 * /usr/lib/libKDevPlatformInterfaces.so
-* /usr/lib/libKDevPlatformInterfaces.so.5.14.240501
+* /usr/lib/libKDevPlatformInterfaces.so.5.14.240502
 * /usr/lib/libKDevPlatformInterfaces.so.514
 * /usr/lib/libKDevPlatformLanguage.so
-* /usr/lib/libKDevPlatformLanguage.so.5.14.240501
+* /usr/lib/libKDevPlatformLanguage.so.5.14.240502
 * /usr/lib/libKDevPlatformLanguage.so.514
 * /usr/lib/libKDevPlatformOutputView.so
-* /usr/lib/libKDevPlatformOutputView.so.5.14.240501
+* /usr/lib/libKDevPlatformOutputView.so.5.14.240502
 * /usr/lib/libKDevPlatformOutputView.so.514
 * /usr/lib/libKDevPlatformProject.so
-* /usr/lib/libKDevPlatformProject.so.5.14.240501
+* /usr/lib/libKDevPlatformProject.so.5.14.240502
 * /usr/lib/libKDevPlatformProject.so.514
 * /usr/lib/libKDevPlatformSerialization.so
-* /usr/lib/libKDevPlatformSerialization.so.5.14.240501
+* /usr/lib/libKDevPlatformSerialization.so.5.14.240502
 * /usr/lib/libKDevPlatformSerialization.so.514
 * /usr/lib/libKDevPlatformShell.so
-* /usr/lib/libKDevPlatformShell.so.5.14.240501
+* /usr/lib/libKDevPlatformShell.so.5.14.240502
 * /usr/lib/libKDevPlatformShell.so.514
 * /usr/lib/libKDevPlatformSublime.so
-* /usr/lib/libKDevPlatformSublime.so.5.14.240501
+* /usr/lib/libKDevPlatformSublime.so.5.14.240502
 * /usr/lib/libKDevPlatformSublime.so.514
 * /usr/lib/libKDevPlatformUtil.so
-* /usr/lib/libKDevPlatformUtil.so.5.14.240501
+* /usr/lib/libKDevPlatformUtil.so.5.14.240502
 * /usr/lib/libKDevPlatformUtil.so.514
 * /usr/lib/libKDevPlatformVcs.so
-* /usr/lib/libKDevPlatformVcs.so.5.14.240501
+* /usr/lib/libKDevPlatformVcs.so.5.14.240502
 * /usr/lib/libKDevPlatformVcs.so.514
 * /usr/lib/qt5/plugins/grantlee/5.3/kdev_filters.so
 * /usr/lib/qt5/plugins/kdevplatform/514/kdevandroid.so
@@ -574,10 +574,10 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/doc/HTML/sv/kdevelop/index.docbook
 * /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdevelop/index.docbook
-* /usr/share/doc/kdevelop-24.05.1/AUTHORS
-* /usr/share/doc/kdevelop-24.05.1/COPYING.DOC
-* /usr/share/doc/kdevelop-24.05.1/INSTALL
-* /usr/share/doc/kdevelop-24.05.1/README.md
+* /usr/share/doc/kdevelop-24.05.2/AUTHORS
+* /usr/share/doc/kdevelop-24.05.2/COPYING.DOC
+* /usr/share/doc/kdevelop-24.05.2/INSTALL
+* /usr/share/doc/kdevelop-24.05.2/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
 * /usr/share/icons/hicolor/128x128/apps/bazaar.png
 * /usr/share/icons/hicolor/128x128/apps/clazy.png
