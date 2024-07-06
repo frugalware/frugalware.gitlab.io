@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xapian-core 1.4.25-1"
-version = "1.4.25-1"
+title = "xapian-core 1.4.25-2"
+version = "1.4.25-2"
 description = "Xapian is an Open Source Search Engine Library."
-date = "2024-04-22T09:46:25"
+date = "2024-07-06T18:35:06"
 aliases = "/packages/14965"
 categories = ['apps']
 upstreamurl = "http://www.xapian.org/"
 arch = "x86_64"
-size = "2440368"
-usize = "11746962"
-sha1sum = "5e63e1505172edf2b3a29121e4a63d409cd5a72b"
-depends = "['libstdc++>=12.2', 'libuuid>=2.28.2-2', 'zlib>=1.2.12']"
+size = "2498200"
+usize = "11722082"
+sha1sum = "20875186b78c490a0bc004fe28c2887190956b5f"
+depends = "['libstdc++>=12.2', 'libuuid>=2.40.2', 'zlib>=1.2.12']"
 reverse_depends = "['akonadi-search', 'khelpcenter', 'khelpcenter5']"
 license = "GPL"
 +++
