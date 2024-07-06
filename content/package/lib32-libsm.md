@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-libsm 1.2.4-3"
-version = "1.2.4-3"
+title = "lib32-libsm 1.2.4-4"
+version = "1.2.4-4"
 description = "X Session Management Library ( 32bit )"
-date = "2024-05-16T02:28:24"
+date = "2024-07-06T12:59:05"
 aliases = "/packages/217983"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "19196"
-usize = "61418"
-sha1sum = "d1e137f03441b6d1857b442e48ef23a96ba65cbd"
-depends = "['lib32-libice>=1.0.9-8', 'lib32-libuuid>=2.31.1-3']"
+size = "19240"
+usize = "52890"
+sha1sum = "3fe991637829dcfa8bd15c91a58947199767ce74"
+depends = "['lib32-libice>=1.0.9-8', 'lib32-libuuid>=2.40.2']"
 reverse_depends = "['lib32-libxt', 'steam-native']"
 +++
 ### Description: 

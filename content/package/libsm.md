@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsm 1.2.4-3"
-version = "1.2.4-3"
+title = "libsm 1.2.4-4"
+version = "1.2.4-4"
 description = "X Session Management Library"
-date = "2024-05-16T02:28:24"
+date = "2024-07-06T12:59:05"
 aliases = "/packages/4782"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "66844"
-usize = "344407"
-sha1sum = "51bc9039c2c7a3d924b95d0458e86f9ae18ca68e"
-depends = "['libice>=1.0.9-8', 'libuuid>=2.31.1-3']"
+size = "67064"
+usize = "338311"
+sha1sum = "4cd7d0e22e1ee4b68204d929ecec09615e33a5c7"
+depends = "['libice>=1.0.9-8', 'libuuid>=2.40.2']"
 reverse_depends = "['allegro', 'claws-mail', 'dbus-x11', 'gifsicle', 'gvim', 'kdelibs4support', 'kdelibs4support5', 'ksubeditor', 'ksubtile', 'libpulse', 'libxt', 'openbox', 'opencv', 'pidgin', 'pulseaudio-x11', 'qt5-base', 'wmi', 'xpad']"
 license = "GPL2"
 +++
