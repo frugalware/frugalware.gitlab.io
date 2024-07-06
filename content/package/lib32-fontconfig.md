@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-fontconfig 2.15.0-2"
-version = "2.15.0-2"
+title = "lib32-fontconfig 2.15.0-3"
+version = "2.15.0-3"
 description = "A library for configuring and customizing font access ( 32bit )"
-date = "2024-05-16T00:57:25"
+date = "2024-07-06T17:18:09"
 aliases = "/packages/217754"
 categories = ['lib32-extra']
 upstreamurl = "http://fontconfig.org/"
 arch = "x86_64"
-size = "161980"
-usize = "518603"
-sha1sum = "5c3d6a61364659de273d493798ac97b70095f5b8"
-depends = "['lib32-bzip2>=1.0.6-16', 'lib32-expat>=2.2.5-2', 'lib32-freetype2>=2.10.0-2', 'lib32-json-c', 'lib32-libuuid']"
+size = "166260"
+usize = "483879"
+sha1sum = "2dd015da4402aad0d7aa980eecf295afa0fc070c"
+depends = "['lib32-bzip2>=1.0.6-16', 'lib32-expat>=2.2.5-2', 'lib32-freetype2>=2.10.0-2', 'lib32-json-c', 'lib32-libuuid>=2.40.2']"
 reverse_depends = "['get_steam', 'lib32-cairo', 'lib32-libass', 'lib32-libbluray', 'lib32-libxft']"
 +++
 ### Description: 

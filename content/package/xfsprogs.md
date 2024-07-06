@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xfsprogs 6.8.0-1"
-version = "6.8.0-1"
+title = "xfsprogs 6.8.0-2"
+version = "6.8.0-2"
 description = "XFS filesystem-specific static libraries and headers."
-date = "2024-05-28T08:42:38"
+date = "2024-07-06T17:55:14"
 aliases = "/packages/2462"
 categories = ['apps']
 upstreamurl = "http://xfs.org"
 arch = "x86_64"
-size = "1035876"
-usize = "3958940"
-sha1sum = "a9223d9e0eba78bf2ff8593b71d7213f0ca6cae3"
-depends = "['glibc>=2.35', 'icu4c>=75.1', 'inih', 'liburcu', 'libuuid>=2.31.1-3', 'readline>=8.0']"
+size = "1030620"
+usize = "3872844"
+sha1sum = "9e9a11ebe06d170ce557078f73966867febd788a"
+depends = "['glibc>=2.35', 'icu4c>=75.1', 'inih', 'liburcu', 'libuuid>=2.40.2', 'readline>=8.0']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'partitionmanager', 'qtparted']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rasqal 0.9.33-7"
-version = "0.9.33-7"
+title = "rasqal 0.9.33-8"
+version = "0.9.33-8"
 description = "RDF query parsing and execution library"
-date = "2022-01-14T11:36:05"
+date = "2024-07-06T17:20:11"
 aliases = "/packages/23336"
 categories = ['lib']
 upstreamurl = "http://librdf.org/rasqal/"
 arch = "x86_64"
-size = "332348"
-usize = "2089388"
-sha1sum = "9e2aa6cbdb0a9c2312648e99125e7b75268aa020"
-depends = "['libgcrypt>=1.7.3-2', 'libuuid>=2.29.2-2', 'mpfr>=3.1.3_05-3', 'pcre>=8.39-3', 'raptor>=2.0.15-5']"
+size = "337072"
+usize = "2074632"
+sha1sum = "a0160315a0d9a109d9569cc4f383bac63984707a"
+depends = "['libgcrypt>=1.7.3-2', 'libuuid>=2.40.2', 'mpfr>=3.1.3_05-3', 'pcre>=8.39-3', 'raptor>=2.0.15-5']"
 reverse_depends = "['librdf']"
 +++
 ### Description: 

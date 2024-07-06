@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fontconfig 2.15.0-2"
-version = "2.15.0-2"
+title = "fontconfig 2.15.0-3"
+version = "2.15.0-3"
 description = "A library for configuring and customizing font access"
-date = "2024-05-16T00:57:25"
+date = "2024-07-06T17:18:09"
 aliases = "/packages/3000"
 categories = ['lib']
 upstreamurl = "http://fontconfig.org/"
 arch = "x86_64"
-size = "1103344"
-usize = "3378906"
-sha1sum = "0619c8e885e55d6d5aa57703ad99d83283622ba4"
-depends = "['bzip2>=1.0.6-16', 'expat>=2.2.5-2', 'freetype2>=2.10.0-2', 'frugalware', 'json-c', 'libuuid', 'mkfontscale']"
+size = "1106512"
+usize = "3327026"
+sha1sum = "fe34066f530c3d2e33884c9c2ec52b9180b7d2a8"
+depends = "['bzip2>=1.0.6-16', 'expat>=2.2.5-2', 'freetype2>=2.10.0-2', 'frugalware', 'json-c', 'libuuid>=2.40.2', 'mkfontscale']"
 reverse_depends = "['anonymous-pro-ttf', 'artwiz-fonts', 'cairo', 'chromium-browser', 'crosextrafonts-caladea', 'crosextrafonts-carlito', 'dejavu-lgc-ttf', 'dejavu-ttf', 'efl', 'enlightenment', 'firacode', 'font-cursor-misc', 'font-misc-misc', 'freefont-ttf', 'gd', 'ghostscript', 'hack', 'inconsolata-otf', 'kitty', 'libass', 'libbluray', 'libgs', 'libreoffice', 'libxft', 'm17n-lib', 'monaco_linux', 'noto-cjk', 'noto-emoji', 'noto-fonts', 'ohsnap', 'open-sans', 'openjre-x', 'openttd', 'otf-texgyre', 'otf-texgyre', 'podofo', 'poppler', 'qt5-base', 'qt6-base', 'scribus', 'sourcecodepro-fonts', 'terminology', 'terminus-font', 'terminus-font-ttf', 'terminusmod', 'termsyn', 'ttf-agave', 'ttf-emojione-color', 'ttf-fantasque-sans', 'ttf-linux-libertine', 'ttf-mintspirit', 'ttf-roboto', 'ttf-symbola', 'ttf-twemoji-color', 'ttf-ubuntu-font-family', 'ttf-ubuntu-font-family', 'ttf-zick-fonts', 'unifont', 'urw-fonts', 'utox', 'xterm']"
 +++
 ### Description: 
