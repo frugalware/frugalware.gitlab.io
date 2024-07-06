@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxaw 1.0.16-1"
-version = "1.0.16-1"
+title = "libxaw 1.0.16-2"
+version = "1.0.16-2"
 description = "X.Org Xaw library"
-date = "2024-03-21T15:11:25"
+date = "2024-07-06T21:19:11"
 aliases = "/packages/4785"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "373316"
-usize = "1905599"
-sha1sum = "972ca6a0d111db23a8564bb90abfd848de94726f"
-depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
+size = "376100"
+usize = "1894463"
+sha1sum = "45646e595702480707c1e3ef7d9c69f6c84c3525"
+depends = "['libuuid>=2.40.2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 reverse_depends = "['bitmap', 'editres', 'graphviz', 'libotf', 'libreoffice', 'listres', 'm17n-lib', 'ngspice', 'ogre', 't1lib', 'viewres', 'xbiff', 'xcalc', 'xclipboard', 'xclock', 'xconsole', 'xditview', 'xdm', 'xedit', 'xfd', 'xfontsel', 'xgc', 'xkbutils', 'xload', 'xlogo', 'xmag', 'xman', 'xmessage', 'xmh', 'xmore', 'xsm', 'xterm', 'xvidtune']"
 license = "GPL2"
 +++
