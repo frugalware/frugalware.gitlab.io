@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ndctl 79-1"
-version = "79-1"
+title = "ndctl 79-2"
+version = "79-2"
 description = "Utility for managing the libnvdimm sub-system in the Linux kernel"
-date = "2024-05-05T20:42:01"
+date = "2024-07-06T20:38:57"
 aliases = "/packages/219663"
 categories = ['apps']
 upstreamurl = "https://github.com/pmem/ndctl"
 arch = "x86_64"
-size = "301440"
-usize = "774999"
-sha1sum = "3e4df02666f42327d3c6bc4d623c614ed5409e19"
-depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=79', 'libndctl>=79', 'libtracefs', 'libudev>=242', 'libuuid']"
+size = "304576"
+usize = "756244"
+sha1sum = "c5e0b5199e299d4efe9ee5a3424862289fe254ed"
+depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=79', 'libndctl>=79', 'libtracefs', 'libudev>=242', 'libuuid>=2.40.2']"
 +++
 ### Description: 
 Utility for managing the libnvdimm sub-system in the Linux kernel

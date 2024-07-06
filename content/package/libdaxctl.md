@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdaxctl 79-1"
-version = "79-1"
+title = "libdaxctl 79-2"
+version = "79-2"
 description = "Library for managing DAX devices."
-date = "2024-05-05T20:42:01"
+date = "2024-07-06T20:38:57"
 aliases = "/packages/219665"
 categories = ['lib']
 upstreamurl = "https://github.com/pmem/ndctl"
 arch = "x86_64"
-size = "18908"
-usize = "53099"
-sha1sum = "83ebfab945a7901ab24d54505074507843cc8cc3"
+size = "18984"
+usize = "49435"
+sha1sum = "b00d6bbabe194394887d7248683cf2752883ebf7"
 depends = "['libuuid']"
 reverse_depends = "['libndctl', 'ndctl']"
 +++
