@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cryptsetup-luks 2.7.3-1"
-version = "2.7.3-1"
+title = "cryptsetup-luks 2.7.3-2"
+version = "2.7.3-2"
 description = "cryptsetup-luks is intended as a complete replacement for the original cryptsetup."
-date = "2024-06-18T07:22:49"
+date = "2024-07-06T13:36:30"
 aliases = "/packages/14464"
 categories = ['base']
 upstreamurl = "https://gitlab.com/cryptsetup/cryptsetup"
 arch = "x86_64"
-size = "748776"
-usize = "3045023"
-sha1sum = "08984ec5b581e977593d89dc8592f9fcb14c26b5"
-depends = "['argon2', 'json-c>=0.14', 'libblkid', 'libssh', 'libuuid>=2.31.1-3', 'lvm2-libs>=2.02.177-4', 'openssl>=3.1.0', 'popt>=1.16-9']"
+size = "747788"
+usize = "3044639"
+sha1sum = "1c9958e0c771d2f0dcde3c0a1597878373e927f8"
+depends = "['argon2', 'json-c>=0.14', 'libblkid', 'libssh', 'libuuid>=2.40.2', 'lvm2-libs>=2.02.177-4', 'openssl>=3.1.0', 'popt>=1.16-9']"
 reverse_depends = "['dracut-ykfde', 'kernel-initrd', 'kernel-lts-initrd', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'volume_key', 'zulucrypt']"
 +++
 ### Description: 

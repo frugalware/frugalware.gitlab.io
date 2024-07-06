@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "jfsutils 1.1.15-13"
-version = "1.1.15-13"
+title = "jfsutils 1.1.15-14"
+version = "1.1.15-14"
 description = "JFS filesystem utilities"
-date = "2024-01-02T16:27:03"
+date = "2024-07-06T13:50:54"
 aliases = "/packages/2395"
 categories = ['base']
 upstreamurl = "http://www-124.ibm.com/developerworks/oss/jfs/"
 arch = "x86_64"
-size = "203784"
-usize = "1104316"
-sha1sum = "d4ddd5b6269c784c923bcc4521971d3d86022855"
-depends = "['glibc>=2.34', 'libuuid>=2.31.1-3']"
+size = "204796"
+usize = "1072972"
+sha1sum = "67ccb3d31bb176af70a86dd1a665a9e3001945e4"
+depends = "['glibc>=2.34', 'libuuid>=2.40.2']"
 reverse_depends = "['partitionmanager', 'qtparted']"
 +++
 ### Description: 

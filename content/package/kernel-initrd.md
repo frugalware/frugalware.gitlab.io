@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kernel-initrd 6.9.7-1"
-version = "6.9.7-1"
+title = "kernel-initrd 6.9.8-1"
+version = "6.9.8-1"
 description = "The initrd for the Frugalware Linux Kernel."
-date = "2024-06-28T09:34:33"
+date = "2024-07-06T13:32:28"
 aliases = "/packages/136050"
 categories = ['base']
 upstreamurl = "http://www.frugalware.org"
 arch = "x86_64"
-size = "22732"
+size = "22736"
 usize = "0"
-sha1sum = "6cdae045946bda960e9e6a6d028fa6489fc8b2a2"
-depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dracut>=056', 'e2fsprogs>=1.46.5', 'frugalware>=2.1', 'gnupg2', 'intel-ucode>=20220809', 'kernel=6.9.7-1', 'keyutils>=1.5.9-5', 'kmod>=30', 'less', 'linux-firmware>=20230404', 'lvm2>=2.03.16', 'mdadm>=4.0', 'scriptlet-core', 'systemd>=253.3', 'tar', 'terminus-font-console', 'xfsprogs>=6.0.0', 'xz']"
+sha1sum = "8aca6bac8945cf7b7375ec7e6edfbfc32fab5bcb"
+depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dracut>=056', 'e2fsprogs>=1.46.5', 'frugalware>=2.1', 'gnupg2', 'intel-ucode>=20220809', 'kernel=6.9.8-1', 'keyutils>=1.5.9-5', 'kmod>=30', 'less', 'linux-firmware>=20230404', 'lvm2>=2.03.16', 'mdadm>=4.0', 'scriptlet-core', 'systemd>=253.3', 'tar', 'terminus-font-console', 'xfsprogs>=6.0.0', 'xz']"
 +++
 ### Description: 
 The initrd for the Frugalware Linux Kernel.

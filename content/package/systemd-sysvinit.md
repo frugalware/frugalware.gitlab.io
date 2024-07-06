@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "systemd-sysvinit 256-2"
-version = "256-2"
+title = "systemd-sysvinit 256-3"
+version = "256-3"
 description = "systemd System V init tools"
-date = "2024-06-18T12:45:45"
+date = "2024-07-06T13:56:10"
 aliases = "/packages/103629"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "30524"
+size = "30592"
 usize = "5180"
-sha1sum = "a971980046359b32c8ec2e423487425bae50a004"
+sha1sum = "12cdf2c09cb272fb026fbc5e48298fc0ecf36cbc"
 depends = "['kmod>=25-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'lz4>=1.8.1.2-2', 'pam>=1.3.0-4', 'systemd=256']"
 reverse_depends = "['systemd']"
 +++

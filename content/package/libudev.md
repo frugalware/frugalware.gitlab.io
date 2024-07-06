@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libudev 256-2"
-version = "256-2"
+title = "libudev 256-3"
+version = "256-3"
 description = "Udev library."
-date = "2024-06-18T12:45:45"
+date = "2024-07-06T13:56:10"
 aliases = "/packages/219950"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "131072"
+size = "131184"
 usize = "311573"
-sha1sum = "14ad8a471de55fe8dee08f33b517b7324f59492c"
+sha1sum = "d8fd68ac00c7fe34792296bf8d0a8704520c2275"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bluez', 'colord', 'dhcpcd', 'hwloc', 'intel-gpu-tools', 'libatasmart', 'libcanberra', 'libcec', 'libdc1394', 'libgphoto2', 'libgudev', 'libinput', 'libpulse', 'libudev0-shim', 'libusb1', 'libvirt', 'libwacom', 'lvm2', 'multipath-tools', 'ndctl', 'pciutils', 'pcsc-lite', 'sfml', 'systemd', 'uhubctl', 'usbutils', 'util-linux', 'v4l-utils', 'xf86-input-evdev', 'xf86-input-libinput', 'xf86-input-synaptics', 'xf86-input-vmmouse', 'xf86-input-wacom', 'xf86-video-amdgpu', 'xf86-video-ati', 'xf86-video-intel', 'xf86-video-nouveau', 'xf86-video-vmware', 'xorg-server']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gptfdisk 1.0.10-1"
-version = "1.0.10-1"
+title = "gptfdisk 1.0.10-2"
+version = "1.0.10-2"
 description = "A clone of fdisk that works on GPT disks instead of MBR disks."
-date = "2024-02-25T14:32:25"
+date = "2024-07-06T13:44:00"
 aliases = "/packages/119045"
 categories = ['base']
 upstreamurl = "https://sourceforge.net/projects/gptfdisk"
 arch = "x86_64"
-size = "221112"
-usize = "732725"
-sha1sum = "b96b06fe7b530e07d71ff0ebc16b924e80db4c8a"
-depends = "['libstdc++>=11.3', 'libuuid>=2.31.1-3', 'ncurses>=6.1', 'popt>=1.16-7']"
+size = "232152"
+usize = "737605"
+sha1sum = "2778fe5ff1c9e15cdbf28f73d3c0aaf65658511c"
+depends = "['libstdc++>=11.3', 'libuuid>=2.40.2', 'ncurses>=6.1', 'popt>=1.16-7']"
 +++
 ### Description: 
 A clone of fdisk that works on GPT disks instead of MBR disks.
