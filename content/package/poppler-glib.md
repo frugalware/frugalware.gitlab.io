@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "poppler-glib 24.06.1-1"
-version = "24.06.1-1"
+title = "poppler-glib 24.07.0-1"
+version = "24.07.0-1"
 description = "Poppler glib bindings"
-date = "2024-06-21T12:35:24"
+date = "2024-07-07T16:34:29"
 aliases = "/packages/5055"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "162796"
+size = "162588"
 usize = "604170"
-sha1sum = "87accfd0d5cc7ff9a0815778ad6a651ab8e0e522"
-depends = "['cairo>=1.14.6-4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler>=24.06.1']"
+sha1sum = "bba80bb1d90d1a4714084df375a5fbbfe5a18355"
+depends = "['cairo>=1.14.6-4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler>=24.07.0']"
 reverse_depends = "['claws-mail-plugin-pdf_viewer', 'gimp', 'inkscape', 'libreoffice', 'libvips', 'openscenegraph', 'pdf2svg', 'sane-backends']"
 +++
 ### Description: 

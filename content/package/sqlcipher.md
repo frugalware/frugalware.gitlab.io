@@ -12,7 +12,7 @@ size = "1280180"
 usize = "3592312"
 sha1sum = "91e4a2e9cc3b23f1878194dd4b87d4f18cbccc5b"
 depends = "['openssl>=3.1.0', 'readline', 'zlib>=1.2.12']"
-reverse_depends = "['element', 'skrooge']"
+reverse_depends = "['element', 'retroshare', 'skrooge']"
 +++
 ### Description: 
 SQLite extension that provides 256 bit AES encryption of database files.

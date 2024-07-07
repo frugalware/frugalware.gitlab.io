@@ -12,7 +12,7 @@ size = "23608"
 usize = "33491"
 sha1sum = "7245ffe30510a6512ef39356df3dfca0a816e165"
 depends = "['glibc>=2.36']"
-reverse_depends = "['apr', 'cryptsetup-luks', 'dssi', 'e2fsprogs', 'efl', 'enlightenment', 'fontconfig', 'gifsicle', 'gptfdisk', 'gtans', 'jfsutils', 'libblkid', 'libdaxctl', 'libndctl', 'libsm', 'libxaw', 'libxaw3d', 'mtd-utils', 'ndctl', 'nvme-cli', 'openjre', 'oxygen-gtk', 'pesign', 'phonon-qt5', 'phonon-qt6', 'polkit-qt5-1', 'polkit-qt6-1', 'rasqal', 'retroshare', 'syslinux', 'terminology', 'util-linux', 'uwsgi', 'virtualbox', 'wget', 'xapian-core', 'xfsprogs']"
+reverse_depends = "['apr', 'cryptsetup-luks', 'dssi', 'e2fsprogs', 'efl', 'enlightenment', 'fontconfig', 'gifsicle', 'gptfdisk', 'gtans', 'jfsutils', 'libblkid', 'libdaxctl', 'libndctl', 'libsm', 'libxaw', 'libxaw3d', 'mtd-utils', 'ndctl', 'nvme-cli', 'openjre', 'oxygen-gtk', 'pesign', 'phonon-qt5', 'phonon-qt6', 'polkit-qt5-1', 'polkit-qt6-1', 'rasqal', 'syslinux', 'terminology', 'util-linux', 'uwsgi', 'virtualbox', 'wget', 'xapian-core', 'xfsprogs']"
 +++
 ### Description: 
 Universally unique id library

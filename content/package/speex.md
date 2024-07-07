@@ -12,7 +12,7 @@ size = "492904"
 usize = "659496"
 sha1sum = "370aea7d23e8660793fe195de6e79a97a2a0104a"
 depends = "['glibc>=2.34', 'libogg>=1.3.2-8', 'speexdsp>=1.2rc3-6']"
-reverse_depends = "['alsa-plugin-speex', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-speex', 'icecast', 'libshout', 'mencoder', 'mplayer', 'mpv', 'mumble', 'retroshare', 'vlc-speex', 'vorbis-tools']"
+reverse_depends = "['alsa-plugin-speex', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-speex', 'icecast', 'libshout', 'mencoder', 'mplayer', 'mpv', 'mumble', 'vlc-speex', 'vorbis-tools']"
 +++
 ### Description: 
 Speex is an audio codec tuned for speech

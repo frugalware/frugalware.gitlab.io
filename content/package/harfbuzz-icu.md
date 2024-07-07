@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz-icu 8.5.0-1"
-version = "8.5.0-1"
+title = "harfbuzz-icu 9.0.0-1"
+version = "9.0.0-1"
 description = "Is an implementation of the OpenType Layout engine. ICU"
-date = "2024-05-22T20:47:42"
+date = "2024-07-07T16:37:49"
 aliases = "/packages/221460"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "11488"
-usize = "15881"
-sha1sum = "5563c2cd20d9f87eed1acad6aea8c257df1774fc"
+size = "11580"
+usize = "10289"
+sha1sum = "e26c4e21603308a5e7c6980df2b04fc9aefb2e7d"
 depends = "['icu4c>=75.1']"
 reverse_depends = "['libreoffice', 'scribus', 'webkit-gtk3']"
 +++
@@ -21,5 +21,5 @@ Is an implementation of the OpenType Layout engine. ICU
 * /usr/include/harfbuzz/hb-icu.h
 * /usr/lib/libharfbuzz-icu.so
 * /usr/lib/libharfbuzz-icu.so.0
-* /usr/lib/libharfbuzz-icu.so.0.60850.0
+* /usr/lib/libharfbuzz-icu.so.0.60900.0
 * /usr/lib/pkgconfig/harfbuzz-icu.pc

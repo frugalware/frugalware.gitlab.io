@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler-qt6 24.06.1-1"
-version = "24.06.1-1"
+title = "poppler-qt6 24.07.0-1"
+version = "24.07.0-1"
 description = "Poppler QT6 bindings"
-date = "2024-06-21T12:35:24"
+date = "2024-07-07T16:34:29"
 aliases = "/packages/221154"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "187652"
-usize = "669385"
-sha1sum = "7c312fb207834816cc61390812287a2c1d378fe6"
+size = "189976"
+usize = "678532"
+sha1sum = "d3ead1954e7b76384c6ff25e9edf70a037185e08"
 depends = "['poppler', 'qt6-base>=6.6.3']"
 reverse_depends = "['kdepim-addons', 'kfilemetadata', 'kile', 'okular']"
 +++
@@ -29,5 +29,5 @@ Poppler QT6 bindings
 * /usr/include/poppler/qt6/poppler-version.h
 * /usr/lib/libpoppler-qt6.so
 * /usr/lib/libpoppler-qt6.so.3
-* /usr/lib/libpoppler-qt6.so.3.5.0
+* /usr/lib/libpoppler-qt6.so.3.6.0
 * /usr/lib/pkgconfig/poppler-qt6.pc

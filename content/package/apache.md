@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "apache 2.4.59-1"
-version = "2.4.59-1"
+title = "apache 2.4.61-1"
+version = "2.4.61-1"
 description = "A high performance Unix-based HTTP server (with SSL)"
-date = "2024-04-05T19:29:33"
+date = "2024-07-07T16:23:13"
 aliases = "/packages/2915"
 categories = ['network']
 upstreamurl = "http://httpd.apache.org/"
 arch = "x86_64"
-size = "5619944"
-usize = "30440218"
-sha1sum = "58b6791557fcadf257a0ea31c2f85a245d00042e"
+size = "5706180"
+usize = "29743118"
+sha1sum = "7c1eba8c543da12e1266fe5dbd0e72e3132b800e"
 depends = "['apr-util>=1.6.0-2', 'curl', 'expat', 'gdbm>=1.10', 'jansson', 'libxml2', 'lua53', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 reverse_depends = "['mod_evasive', 'mod_security', 'mod_svn', 'mod_wsgi', 'phpbb-php5mod', 'postfixadmin']"
 +++
@@ -261,14 +261,14 @@ A high performance Unix-based HTTP server (with SSL)
 * /usr/lib/apache/mod_watchdog.so
 * /usr/lib/apache/mod_xml2enc.so
 * /usr/lib/systemd/system/httpd.service
-* /usr/share/doc/apache-2.4.59/CHANGES
-* /usr/share/doc/apache-2.4.59/INSTALL
-* /usr/share/doc/apache-2.4.59/LICENSE
-* /usr/share/doc/apache-2.4.59/README
-* /usr/share/doc/apache-2.4.59/README.CHANGES
-* /usr/share/doc/apache-2.4.59/README.cmake
-* /usr/share/doc/apache-2.4.59/README.Frugalware
-* /usr/share/doc/apache-2.4.59/README.platforms
+* /usr/share/doc/apache-2.4.61/CHANGES
+* /usr/share/doc/apache-2.4.61/INSTALL
+* /usr/share/doc/apache-2.4.61/LICENSE
+* /usr/share/doc/apache-2.4.61/README
+* /usr/share/doc/apache-2.4.61/README.CHANGES
+* /usr/share/doc/apache-2.4.61/README.cmake
+* /usr/share/doc/apache-2.4.61/README.Frugalware
+* /usr/share/doc/apache-2.4.61/README.platforms
 * /usr/share/man/man1/ab.1.gz
 * /usr/share/man/man1/apxs.1.gz
 * /usr/share/man/man1/dbmmanage.1.gz

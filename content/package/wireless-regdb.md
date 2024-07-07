@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireless-regdb 2024.05.08-1"
-version = "2024.05.08-1"
+title = "wireless-regdb 2024.07.04-1"
+version = "2024.07.04-1"
 description = "Central Regulatory Domain Database"
-date = "2024-05-23T08:32:30"
+date = "2024-07-07T16:19:59"
 aliases = "/packages/200048"
 categories = ['base']
 upstreamurl = "http://wireless.kernel.org/en/developers/Regulatory/CRDA"
 arch = "x86_64"
-size = "10504"
-usize = "16689"
-sha1sum = "42d3b241e79d9108ab59d7ebecf2852527395dbc"
+size = "10748"
+usize = "17765"
+sha1sum = "6528cf42e9ca5b17ef9725442d40e40c011c0239"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ Central Regulatory Domain Database
 * /usr/lib/crda/regulatory.bin
 * /usr/lib/firmware/regulatory.db
 * /usr/lib/firmware/regulatory.db.p7s
-* /usr/share/doc/wireless-regdb-2024.05.08/LICENSE
-* /usr/share/doc/wireless-regdb-2024.05.08/README
+* /usr/share/doc/wireless-regdb-2024.07.04/LICENSE
+* /usr/share/doc/wireless-regdb-2024.07.04/README
 * /usr/share/man/man5/regulatory.bin.5.gz
 * /usr/share/man/man5/regulatory.db.5.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz 8.5.0-1"
-version = "8.5.0-1"
+title = "harfbuzz 9.0.0-1"
+version = "9.0.0-1"
 description = "Is an implementation of the OpenType Layout engine."
-date = "2024-05-22T20:47:42"
+date = "2024-07-07T16:37:49"
 aliases = "/packages/168883"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1236868"
-usize = "7586756"
-sha1sum = "e2fdf757793847845817ec8758974bf6bf989cdd"
+size = "1244096"
+usize = "7549709"
+sha1sum = "42cb64d1428af0d9a5f19758050db9f0a8be194d"
 depends = "['freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'ogre', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++
@@ -61,24 +61,23 @@ Is an implementation of the OpenType Layout engine.
 * /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib
 * /usr/lib/libharfbuzz-gobject.so
 * /usr/lib/libharfbuzz-gobject.so.0
-* /usr/lib/libharfbuzz-gobject.so.0.60850.0
+* /usr/lib/libharfbuzz-gobject.so.0.60900.0
 * /usr/lib/libharfbuzz-subset.so
 * /usr/lib/libharfbuzz-subset.so.0
-* /usr/lib/libharfbuzz-subset.so.0.60850.0
+* /usr/lib/libharfbuzz-subset.so.0.60900.0
 * /usr/lib/libharfbuzz.so
 * /usr/lib/libharfbuzz.so.0
-* /usr/lib/libharfbuzz.so.0.60850.0
+* /usr/lib/libharfbuzz.so.0.60900.0
 * /usr/lib/pkgconfig/harfbuzz-gobject.pc
 * /usr/lib/pkgconfig/harfbuzz-subset.pc
 * /usr/lib/pkgconfig/harfbuzz.pc
-* /usr/share/doc/harfbuzz-8.5.0/AUTHORS
-* /usr/share/doc/harfbuzz-8.5.0/COPYING
-* /usr/share/doc/harfbuzz-8.5.0/NEWS
-* /usr/share/doc/harfbuzz-8.5.0/README
-* /usr/share/doc/harfbuzz-8.5.0/README.md
-* /usr/share/doc/harfbuzz-8.5.0/README.mingw.md
-* /usr/share/doc/harfbuzz-8.5.0/README.python.md
-* /usr/share/doc/harfbuzz-8.5.0/THANKS
+* /usr/share/doc/harfbuzz-9.0.0/AUTHORS
+* /usr/share/doc/harfbuzz-9.0.0/COPYING
+* /usr/share/doc/harfbuzz-9.0.0/NEWS
+* /usr/share/doc/harfbuzz-9.0.0/README
+* /usr/share/doc/harfbuzz-9.0.0/README.md
+* /usr/share/doc/harfbuzz-9.0.0/README.python.md
+* /usr/share/doc/harfbuzz-9.0.0/THANKS
 * /usr/share/gir-1.0/HarfBuzz-0.0.gir
 * /usr/share/gtk-doc/html/harfbuzz/a-clustering-example-for-levels-0-and-1.html
 * /usr/share/gtk-doc/html/harfbuzz/a-simple-shaping-example.html

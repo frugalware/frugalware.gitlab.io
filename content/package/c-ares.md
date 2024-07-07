@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "c-ares 1.31.0-1"
-version = "1.31.0-1"
+title = "c-ares 1.32.1-1"
+version = "1.32.1-1"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-06-24T08:17:41"
+date = "2024-07-07T16:25:58"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "191832"
-usize = "451549"
-sha1sum = "33804e2dd2c13f771879c6e111b99e2af5bec120"
+size = "196420"
+usize = "463839"
+sha1sum = "fd8bbc4990dcd7f42ff6b7e373f9f038de8fb542"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'nodejs20', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
@@ -25,7 +25,6 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/include/ares_dns.h
 * /usr/include/ares_dns_record.h
 * /usr/include/ares_nameser.h
-* /usr/include/ares_rules.h
 * /usr/include/ares_version.h
 * /usr/lib/cmake/c-ares/c-ares-config-version.cmake
 * /usr/lib/cmake/c-ares/c-ares-config.cmake
@@ -33,13 +32,13 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/lib/cmake/c-ares/c-ares-targets.cmake
 * /usr/lib/libcares.so
 * /usr/lib/libcares.so.2
-* /usr/lib/libcares.so.2.16.0
+* /usr/lib/libcares.so.2.17.1
 * /usr/lib/pkgconfig/libcares.pc
-* /usr/share/doc/c-ares-1.31.0/AUTHORS
-* /usr/share/doc/c-ares-1.31.0/INSTALL.md
-* /usr/share/doc/c-ares-1.31.0/README.md
-* /usr/share/doc/c-ares-1.31.0/README.msvc
-* /usr/share/doc/c-ares-1.31.0/RELEASE-NOTES.md
+* /usr/share/doc/c-ares-1.32.1/AUTHORS
+* /usr/share/doc/c-ares-1.32.1/INSTALL.md
+* /usr/share/doc/c-ares-1.32.1/README.md
+* /usr/share/doc/c-ares-1.32.1/README.msvc
+* /usr/share/doc/c-ares-1.32.1/RELEASE-NOTES.md
 * /usr/share/man/man1/adig.1.gz
 * /usr/share/man/man1/ahost.1.gz
 * /usr/share/man/man3/ares_cancel.3.gz
@@ -82,6 +81,10 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_dns_rec_type_t.3.gz
 * /usr/share/man/man3/ares_dns_rec_type_tostr.3.gz
 * /usr/share/man/man3/ares_dns_rr.3.gz
+* /usr/share/man/man3/ares_dns_rr_add_abin.3.gz
+* /usr/share/man/man3/ares_dns_rr_del_abin.3.gz
+* /usr/share/man/man3/ares_dns_rr_get_abin.3.gz
+* /usr/share/man/man3/ares_dns_rr_get_abin_cnt.3.gz
 * /usr/share/man/man3/ares_dns_rr_get_addr.3.gz
 * /usr/share/man/man3/ares_dns_rr_get_addr6.3.gz
 * /usr/share/man/man3/ares_dns_rr_get_bin.3.gz
