@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wget 1.24.5-1"
-version = "1.24.5-1"
+title = "wget 1.24.5-2"
+version = "1.24.5-2"
 description = "A network utility to retrieve files from the Web"
-date = "2024-04-04T12:26:55"
+date = "2024-07-07T12:33:58"
 aliases = "/packages/221000"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnu.org/software/wget/wget.html"
 arch = "x86_64"
-size = "928496"
-usize = "4437695"
-sha1sum = "4cea8524a04e10732139b2a7fe6d8f0a5fba12dd"
-depends = "['libpsl', 'libuuid', 'openssl>=3.1.0', 'pcre2']"
+size = "933876"
+usize = "4441571"
+sha1sum = "8e9e7a967787588bb8675e51efd50d8241dfd490"
+depends = "['libpsl', 'libuuid>=2.40.2', 'openssl>=3.1.0', 'pcre2']"
 reverse_depends = "['get_steam', 'pacman-tools']"
 +++
 ### Description: 

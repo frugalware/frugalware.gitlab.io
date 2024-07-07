@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "syslinux 6.03-5"
-version = "6.03-5"
+title = "syslinux 6.03-6"
+version = "6.03-6"
 description = "Bootloaders for FAT, EXT2/3/4, and ISO file systems."
-date = "2024-01-16T13:47:22"
+date = "2024-07-07T13:04:32"
 aliases = "/packages/87665"
 categories = ['base-extra']
 upstreamurl = "http://syslinux.zytor.com"
 arch = "x86_64"
-size = "1113956"
-usize = "3996782"
-sha1sum = "f6ceeb2f15ff8c0fc19f343ce47fb2a93f00b4ab"
-depends = "['coreutils', 'libuuid', 'util-linux']"
+size = "1115200"
+usize = "3993479"
+sha1sum = "3f9a0aa5703e0f1bef711bdc40c863943935cef6"
+depends = "['coreutils', 'libuuid>=2.40.2', 'util-linux']"
 reverse_depends = "['wimlib']"
 +++
 ### Description: 

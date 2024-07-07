@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dssi 1.1.1-3"
-version = "1.1.1-3"
+title = "dssi 1.1.1-4"
+version = "1.1.1-4"
 description = "DSSI is an API for audio processing plugins."
-date = "2022-07-29T09:26:08"
+date = "2024-07-07T12:47:57"
 aliases = "/packages/219828"
 categories = ['apps-extra']
 upstreamurl = "http://dssi.sourceforge.net/index.html"
 arch = "x86_64"
-size = "66176"
-usize = "242982"
-sha1sum = "10e159ac34e788cf44bdaaaf9cfc315726c55c07"
-depends = "['ladspa_sdk', 'liblo>=0.26', 'libsamplerate', 'libstdc++>=11.3', 'libuuid']"
+size = "67592"
+usize = "218740"
+sha1sum = "4acb5891fdc069cdb8564e49ea2e7bceb0090eb9"
+depends = "['ladspa_sdk', 'liblo>=0.26', 'libsamplerate', 'libstdc++>=11.3', 'libuuid>=2.40.2']"
 reverse_depends = "['calf', 'qtractor']"
 +++
 ### Description: 

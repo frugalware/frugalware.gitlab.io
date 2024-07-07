@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgexiv2 0.14.2-3"
-version = "0.14.2-3"
+title = "libgexiv2 0.14.3-1"
+version = "0.14.3-1"
 description = "GObject-based wrapper around the Exiv2 library."
-date = "2023-11-07T11:15:29"
+date = "2024-07-07T12:18:10"
 aliases = "/packages/88879"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "109168"
-usize = "607727"
-sha1sum = "dd83a19c7e25e715a7d567f53bdb16686fd42b3c"
+size = "112236"
+usize = "604638"
+sha1sum = "0c4c92eea9b3c143ce90db7d55a0c57086b19d06"
 depends = "['exiv2>=0.28.1', 'glib2>=2.60.0']"
 reverse_depends = "['gimp']"
 +++
@@ -30,16 +30,16 @@ GObject-based wrapper around the Exiv2 library.
 * /usr/lib/girepository-1.0/GExiv2-0.10.typelib
 * /usr/lib/libgexiv2.so
 * /usr/lib/libgexiv2.so.2
-* /usr/lib/libgexiv2.so.2.14.2
+* /usr/lib/libgexiv2.so.2.14.3
 * /usr/lib/pkgconfig/gexiv2.pc
 * /usr/lib/python3.12/site-packages/gi/overrides/GExiv2.py
 * /usr/lib/python3.12/site-packages/gi/overrides/__pycache__/GExiv2.cpython-312.pyc
-* /usr/share/doc/libgexiv2-0.14.2/AUTHORS
-* /usr/share/doc/libgexiv2-0.14.2/COPYING
-* /usr/share/doc/libgexiv2-0.14.2/INSTALLING
-* /usr/share/doc/libgexiv2-0.14.2/NEWS
-* /usr/share/doc/libgexiv2-0.14.2/README
-* /usr/share/doc/libgexiv2-0.14.2/THANKS
+* /usr/share/doc/libgexiv2-0.14.3/AUTHORS
+* /usr/share/doc/libgexiv2-0.14.3/COPYING
+* /usr/share/doc/libgexiv2-0.14.3/INSTALLING.md
+* /usr/share/doc/libgexiv2-0.14.3/NEWS
+* /usr/share/doc/libgexiv2-0.14.3/README.md
+* /usr/share/doc/libgexiv2-0.14.3/THANKS
 * /usr/share/gir-1.0/GExiv2-0.10.gir
 * /usr/share/vala/vapi/gexiv2.deps
 * /usr/share/vala/vapi/gexiv2.vapi

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "efl 1.27.0-1"
-version = "1.27.0-1"
+title = "efl 1.27.0-2"
+version = "1.27.0-2"
 description = "Enlightenment Foundation Libraries"
-date = "2024-05-02T19:04:19"
+date = "2024-07-07T13:09:54"
 aliases = "/packages/218022"
 categories = ['e-libs']
 upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
-size = "30916556"
-usize = "73768746"
-sha1sum = "2448f61e371a0492a26b57b78c47fa48fc86d5c1"
-depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'luajit2', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=24.05.0', 'scim', 'util-linux', 'wayland', 'wayland', 'wayland-protocols', 'xz', 'zlib>=1.2.12']"
+size = "31216312"
+usize = "73042447"
+sha1sum = "e89c25b13eb41260460dfbf87b978aebd13a85a9"
+depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid>=2.40.2', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'luajit2', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=24.05.0', 'scim', 'util-linux', 'wayland', 'wayland', 'wayland-protocols', 'xz', 'zlib>=1.2.12']"
 reverse_depends = "['eflete', 'enlightenment', 'enventor', 'pinentry-enlightment', 'python-efl', 'rage', 'terminology']"
 license = "LGPL2.1"
 +++
@@ -3378,38 +3378,5 @@ Enlightenment Foundation Libraries
 * /usr/share/icons/Enlightenment-X/status/128/weather-snow.png
 * /usr/share/icons/Enlightenment-X/status/128/weather-storm.png
 * /usr/share/icons/hicolor/128x128/apps/elementary.png
-* /usr/share/locale/ar/LC_MESSAGES/efl.mo
-* /usr/share/locale/az_IR/LC_MESSAGES/efl.mo
-* /usr/share/locale/ca/LC_MESSAGES/efl.mo
-* /usr/share/locale/cs/LC_MESSAGES/efl.mo
-* /usr/share/locale/da/LC_MESSAGES/efl.mo
-* /usr/share/locale/de/LC_MESSAGES/efl.mo
-* /usr/share/locale/el/LC_MESSAGES/efl.mo
-* /usr/share/locale/eo/LC_MESSAGES/efl.mo
-* /usr/share/locale/es/LC_MESSAGES/efl.mo
-* /usr/share/locale/fa/LC_MESSAGES/efl.mo
-* /usr/share/locale/fi/LC_MESSAGES/efl.mo
-* /usr/share/locale/fr/LC_MESSAGES/efl.mo
-* /usr/share/locale/gl/LC_MESSAGES/efl.mo
-* /usr/share/locale/he/LC_MESSAGES/efl.mo
-* /usr/share/locale/hu/LC_MESSAGES/efl.mo
-* /usr/share/locale/it/LC_MESSAGES/efl.mo
-* /usr/share/locale/ja/LC_MESSAGES/efl.mo
-* /usr/share/locale/ka/LC_MESSAGES/efl.mo
-* /usr/share/locale/ko/LC_MESSAGES/efl.mo
-* /usr/share/locale/ko_KR/LC_MESSAGES/efl.mo
-* /usr/share/locale/lt/LC_MESSAGES/efl.mo
-* /usr/share/locale/nl/LC_MESSAGES/efl.mo
-* /usr/share/locale/pl/LC_MESSAGES/efl.mo
-* /usr/share/locale/ps/LC_MESSAGES/efl.mo
-* /usr/share/locale/pt/LC_MESSAGES/efl.mo
-* /usr/share/locale/ru/LC_MESSAGES/efl.mo
-* /usr/share/locale/sl/LC_MESSAGES/efl.mo
-* /usr/share/locale/sr/LC_MESSAGES/efl.mo
-* /usr/share/locale/tr/LC_MESSAGES/efl.mo
-* /usr/share/locale/ur/LC_MESSAGES/efl.mo
-* /usr/share/locale/vi/LC_MESSAGES/efl.mo
-* /usr/share/locale/yi/LC_MESSAGES/efl.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/efl.mo
 * /usr/share/mime/packages/edje.xml
 * /usr/share/mime/packages/evas.xml

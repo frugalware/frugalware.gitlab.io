@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nvme-cli 2.9.1-1"
-version = "2.9.1-1"
+title = "nvme-cli 2.9.1-2"
+version = "2.9.1-2"
 description = "NVMe management command line interface."
-date = "2024-06-04T14:53:44"
+date = "2024-07-07T12:51:24"
 aliases = "/packages/219154"
 categories = ['apps-extra']
 upstreamurl = "http://nvmexpress.org/"
 arch = "x86_64"
-size = "431748"
-usize = "1436735"
-sha1sum = "2f2c35f971d532028f55aadf70ceee1d298136d4"
-depends = "['libnvme', 'libsystemd', 'libuuid']"
+size = "448836"
+usize = "1432991"
+sha1sum = "62636cf7608d1e5beba161394744bc0f01dc083b"
+depends = "['libnvme', 'libsystemd', 'libuuid>=2.40.2']"
 +++
 ### Description: 
 NVMe management command line interface.

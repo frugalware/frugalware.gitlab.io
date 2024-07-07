@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxaw3d 1.6.6-1"
-version = "1.6.6-1"
+title = "libxaw3d 1.6.6-2"
+version = "1.6.6-2"
 description = "Athena widgets (libXaw) drop-in replacement"
-date = "2024-03-03T16:38:07"
+date = "2024-07-07T12:23:03"
 aliases = "/packages/137229"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "195232"
-usize = "823948"
-sha1sum = "22bc2ab37645815db59e047a5d4ca4748b72aa44"
-depends = "['libuuid>=2.29.2-2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
+size = "197304"
+usize = "819996"
+sha1sum = "2b2168b31667973d22219ccef5342547acc0c5a5"
+depends = "['libuuid>=2.40.2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
 license = "GPL2"
 +++
 ### Description: 

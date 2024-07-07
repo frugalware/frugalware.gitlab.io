@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openjre 22.0.1-2"
-version = "22.0.1-2"
+title = "openjre 22.0.1-3"
+version = "22.0.1-3"
 description = "Open-source Java Runtime Environment."
-date = "2024-04-26T08:08:31"
+date = "2024-07-07T12:41:33"
 aliases = "/packages/102858"
 categories = ['apps']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "47657252"
-usize = "206867884"
-sha1sum = "3843c9cba142a8a4499ba72210018060132c1d3b"
-depends = "['ca-certificates-java', 'harfbuzz', 'lcms2', 'libkrb5', 'libpulse>=7.1', 'libuuid', 'lksctp-tools>=1.0.18-2', 'nss', 'pcsc-lite']"
+size = "47644104"
+usize = "207226787"
+sha1sum = "d35f709bfc349fd3dcae9e0b77810bf4bf9a57b7"
+depends = "['ca-certificates-java', 'harfbuzz', 'lcms2', 'libkrb5', 'libpulse>=7.1', 'libuuid>=2.40.2', 'lksctp-tools>=1.0.18-2', 'nss', 'pcsc-lite']"
 reverse_depends = "['antlr-openjava', 'apache-ant', 'apache-log4j1', 'bcel', 'bcprov', 'bouncycastle-mail', 'commons-cli', 'commons-codec', 'commons-io', 'commons-logging', 'dom4j', 'freerapid', 'gnu-crypto', 'gnuinetlib', 'gradle', 'insight-toolkit', 'iso-relax', 'itext-core', 'jaf', 'jakarta-oro', 'jakarta-regexp', 'java-hamcrest', 'javacup', 'libreoffice', 'lxmed', 'ntru', 'oneswarm', 'openjdk', 'openjre-x', 'rhino', 'sac', 'servletapi', 'subversion-bindings', 'sweethome3d', 'swt', 'vtk-java', 'xalan-j-serializer', 'xjavac', 'xml-commons-resolver', 'xpp3']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "apr 1.7.4-1"
-version = "1.7.4-1"
+title = "apr 1.7.4-2"
+version = "1.7.4-2"
 description = "Apache Portable Runtime"
-date = "2023-04-25T07:31:15"
+date = "2024-07-07T12:31:40"
 aliases = "/packages/4242"
 categories = ['network']
 upstreamurl = "http://apr.apache.org/"
 arch = "x86_64"
-size = "268892"
-usize = "1202353"
-sha1sum = "b4c44774a835d4a4c4913d83d7129cd729d1614b"
-depends = "['libuuid>=2.28.2-2']"
+size = "269308"
+usize = "1197767"
+sha1sum = "a8a736b83f617b1c8dcdeee65f07960d40fbb0ee"
+depends = "['libuuid>=2.40.2']"
 reverse_depends = "['apr-util']"
 +++
 ### Description: 

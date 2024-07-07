@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjre-x 22.0.1-2"
-version = "22.0.1-2"
+title = "openjre-x 22.0.1-3"
+version = "22.0.1-3"
 description = "Java graphic bindings"
-date = "2024-04-26T08:08:31"
+date = "2024-07-07T12:41:33"
 aliases = "/packages/219553"
 categories = ['xapps']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "197324"
-usize = "598920"
-sha1sum = "2d17d4eaf84aac7df0909c64815b80263dd0c600"
+size = "194076"
+usize = "536976"
+sha1sum = "32efcdd98713392f75d8833ee346caa7f9982f4e"
 depends = "['fontconfig', 'freetype2', 'libffi', 'libgif>=5.1.1', 'libjpeg-turbo', 'libpng', 'libxcomposite', 'libxinerama', 'libxrender', 'libxtst', 'openjre']"
 reverse_depends = "['freeplane', 'ganttproject', 'jitsi', 'libreoffice', 'openjfx', 'projectlibre', 'spring', 'vtk-java-qt5']"
 +++

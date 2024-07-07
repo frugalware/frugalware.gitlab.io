@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mtd-utils 2.1.6-1"
-version = "2.1.6-1"
+title = "mtd-utils 2.2.0-1"
+version = "2.2.0-1"
 description = "Utilities for dealing with MTD (flash) devices"
-date = "2024-01-09T20:45:15"
+date = "2024-07-07T12:49:45"
 aliases = "/packages/137096"
 categories = ['apps-extra']
 upstreamurl = "http://www.linux-mtd.infradead.org/"
 arch = "x86_64"
-size = "418264"
-usize = "2300275"
-sha1sum = "837cacb8943ab7e494b590819b3d6d6a6ac38b18"
-depends = "['libuuid', 'lzo', 'openssl>=3.1.0', 'zlib>=1.2.12', 'zstd']"
+size = "431532"
+usize = "1854987"
+sha1sum = "3dafdaf39981fd1edf06e3bcb8856441994d54d5"
+depends = "['libuuid>=2.40.2', 'lzo', 'openssl>=3.1.0', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['binwalk']"
 +++
 ### Description: 
@@ -114,7 +114,8 @@ Utilities for dealing with MTD (flash) devices
 * /usr/lib/mtd-utils/mtd-utils/test_2
 * /usr/lib/mtd-utils/mtd-utils/ubi-stress-test.sh
 * /usr/lib/mtd-utils/mtd-utils/volrefcnt
-* /usr/share/doc/mtd-utils-2.1.6/COPYING
+* /usr/share/doc/mtd-utils-2.2.0/COPYING
+* /usr/share/doc/mtd-utils-2.2.0/README.txt
 * /usr/share/man/man1/mkfs.jffs2.1.gz
 * /usr/share/man/man8/lsmtd.8.gz
 * /usr/share/man/man8/ubinize.8.gz
