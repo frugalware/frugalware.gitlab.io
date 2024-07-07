@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-hy 24.2.4.2-1"
-version = "24.2.4.2-1"
+title = "libreoffice-l10n-hy 24.2.4.2-2"
+version = "24.2.4.2-2"
 description = "Installs Armenian support in LibreOffice"
-date = "2024-07-01T09:14:35"
+date = "2024-07-07T21:08:42"
 aliases = "/packages/221233"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "801732"
+size = "802048"
 usize = "4839432"
-sha1sum = "951374e2f1a65c379019257ce5b6052bab0832f4"
+sha1sum = "b558ac98b638359a0f55a8eb551e524ee4bfdb07"
 depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 

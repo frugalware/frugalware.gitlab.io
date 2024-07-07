@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-es 24.2.4.2-1"
-version = "24.2.4.2-1"
+title = "libreoffice-l10n-es 24.2.4.2-2"
+version = "24.2.4.2-2"
 description = "Installs Spanish support in LibreOffice"
-date = "2024-07-01T09:14:35"
+date = "2024-07-07T21:08:42"
 aliases = "/packages/104054"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5229740"
+size = "5228336"
 usize = "36509619"
-sha1sum = "1358d5cdd784b645c55ba580cf767997b75c504d"
+sha1sum = "d109493c2f937099bc7ea880dfb6318966b8c10a"
 depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 

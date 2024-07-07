@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-gug 24.2.4.2-1"
-version = "24.2.4.2-1"
+title = "libreoffice-l10n-gug 24.2.4.2-2"
+version = "24.2.4.2-2"
 description = "Installs Guarani support in LibreOffice"
-date = "2024-07-01T09:14:35"
+date = "2024-07-07T21:08:42"
 aliases = "/packages/217477"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "362936"
+size = "363080"
 usize = "1993445"
-sha1sum = "5959c4cd987a0cd74494db11aa59c5ab238a8715"
+sha1sum = "a2b5a61fb1c349c95f7b907b256ca03efb22572e"
 depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 

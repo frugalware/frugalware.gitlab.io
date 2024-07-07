@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ko 24.2.4.2-1"
-version = "24.2.4.2-1"
+title = "libreoffice-l10n-ko 24.2.4.2-2"
+version = "24.2.4.2-2"
 description = "Installs Korean support in LibreOffice"
-date = "2024-07-01T09:14:35"
+date = "2024-07-07T21:08:42"
 aliases = "/packages/104077"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5448340"
+size = "5448020"
 usize = "35901645"
-sha1sum = "cb14815ef8234a355f08181a843a28839c080ebe"
+sha1sum = "7917d6ebea9d998fc1c2aeea6cda12beaeeee84a"
 depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 

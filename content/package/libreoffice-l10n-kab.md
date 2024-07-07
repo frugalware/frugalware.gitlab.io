@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-kab 24.2.4.2-1"
-version = "24.2.4.2-1"
+title = "libreoffice-l10n-kab 24.2.4.2-2"
+version = "24.2.4.2-2"
 description = "Installs Kabyle support in LibreOffice"
-date = "2024-07-01T09:14:35"
+date = "2024-07-07T21:08:42"
 aliases = "/packages/219721"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "446128"
+size = "446304"
 usize = "2309032"
-sha1sum = "47ad12bfd4849415b5a5db31e788ae7aa1ae80c4"
+sha1sum = "8ea7e91ae511ff6f731e454f1a0215cdbf6ee6a1"
 depends = "['libreoffice>=24.2.4.2']"
 +++
 ### Description: 
