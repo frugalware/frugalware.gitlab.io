@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "enlightenment 0.25.4-1"
-version = "0.25.4-1"
+title = "enlightenment 0.26.0-1"
+version = "0.26.0-1"
 description = "Enlightenment Foundation Window Manager"
-date = "2023-01-09T16:02:37"
+date = "2024-07-07T13:14:04"
 aliases = "/packages/218026"
 categories = ['e-apps']
 upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
-size = "404388056"
-usize = "422482840"
-sha1sum = "555dbbb11e50c2c9db0863ffc73cbb57639942f5"
+size = "403890008"
+usize = "417719487"
+sha1sum = "a5424ab82116e426aeecd2b59e1b3e454308f261"
 depends = "['alsa-lib', 'bluez', 'bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'harfbuzz', 'hyphen', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libexif', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libsndfile', 'libstdc++', 'libsystemd', 'libunwind', 'libuuid>=2.40.2', 'libvorbis', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxtst', 'luajit2', 'lz4', 'mtdev', 'openssl', 'pam', 'pcre', 'util-linux', 'wayland', 'xcb-util-keysyms', 'xz', 'zlib>=1.2.12']"
 +++
 ### Description: 

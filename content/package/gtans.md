@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtans 1.99.0-3"
-version = "1.99.0-3"
+title = "gtans 1.99.0-4"
+version = "1.99.0-4"
 description = "The Tangram chinese puzzle game"
-date = "2018-05-11T11:22:18"
+date = "2024-07-07T13:23:36"
 aliases = "/packages/184697"
 categories = ['games-extra']
-upstreamurl = "http://sourceforge.net/projects/gtans"
+upstreamurl = "https://sourceforge.net/projects/gtans"
 arch = "x86_64"
-size = "151784"
-usize = "474318"
-sha1sum = "d135bd64d13f8e989b5b0d989722c4993ff818b5"
-depends = "['bzip2', 'gdk-pixbuf2', 'gtk+2', 'libuuid']"
+size = "149848"
+usize = "462308"
+sha1sum = "c39ed7bf3f7afbe2a730c33b706557aaf7c9f1c5"
+depends = "['bzip2', 'gdk-pixbuf2', 'gtk+2', 'libuuid>=2.40.2']"
 +++
 ### Description: 
 The Tangram chinese puzzle game

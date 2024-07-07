@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-sqlite 2.0.23-5"
-version = "2.0.23-5"
+title = "uwsgi-plugin-sqlite 2.0.26-1"
+version = "2.0.26-1"
 description = "UWSGI SQLite3 Plugin"
-date = "2024-06-18T13:57:13"
+date = "2024-07-07T13:26:15"
 aliases = "/packages/200414"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "5224"
+size = "5288"
 usize = "6680"
-sha1sum = "c7331458b6a0d1f5cd7b9320a40b322b5a9b2f03"
+sha1sum = "4252f62992a96e383435a39b2939860ec7904914"
 depends = "['sqlite3', 'uwsgi']"
 +++
 ### Description: 

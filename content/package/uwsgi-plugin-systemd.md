@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-systemd 2.0.23-5"
-version = "2.0.23-5"
+title = "uwsgi-plugin-systemd 2.0.26-1"
+version = "2.0.26-1"
 description = "UWSGI Sysemd Logging Plugin"
-date = "2024-06-18T13:57:13"
+date = "2024-07-07T13:26:15"
 aliases = "/packages/200424"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "4972"
-usize = "5504"
-sha1sum = "59cfc2d81e105a99ec7b69ec376ffb1968a608f5"
+size = "5068"
+usize = "5568"
+sha1sum = "eae349fc864eb9695ad41bcb8021250c99a4b8f5"
 depends = "['systemd', 'uwsgi']"
 +++
 ### Description: 

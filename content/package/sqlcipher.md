@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sqlcipher 4.5.2-2"
-version = "4.5.2-2"
+title = "sqlcipher 4.6.0-1"
+version = "4.6.0-1"
 description = "SQLite extension that provides 256 bit AES encryption of database files."
-date = "2023-03-16T03:06:55"
+date = "2024-07-07T13:51:34"
 aliases = "/packages/218414"
 categories = ['apps-extra']
 upstreamurl = "https://www.zetetic.net/sqlcipher/"
 arch = "x86_64"
-size = "1181280"
-usize = "3362701"
-sha1sum = "f86b54e1047a4224f9142bda123bf1207bb79d53"
+size = "1280180"
+usize = "3592312"
+sha1sum = "91e4a2e9cc3b23f1878194dd4b87d4f18cbccc5b"
 depends = "['openssl>=3.1.0', 'readline', 'zlib>=1.2.12']"
 reverse_depends = "['element', 'skrooge']"
 +++
@@ -27,6 +27,7 @@ SQLite extension that provides 256 bit AES encryption of database files.
 * /usr/lib/pkgconfig/sqlcipher.pc
 * /usr/lib/tcl8.6/sqlite3/libtclsqlite3.so
 * /usr/lib/tcl8.6/sqlite3/pkgIndex.tcl
-* /usr/share/doc/sqlcipher-4.5.2/LICENSE
-* /usr/share/doc/sqlcipher-4.5.2/README.md
-* /usr/share/doc/sqlcipher-4.5.2/VERSION
+* /usr/share/doc/sqlcipher-4.6.0/COPYING
+* /usr/share/doc/sqlcipher-4.6.0/README.asciidoc
+* /usr/share/doc/sqlcipher-4.6.0/README.md
+* /usr/share/doc/sqlcipher-4.6.0/VERSION

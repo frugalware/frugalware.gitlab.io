@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oxygen-gtk 1.4.6-4"
-version = "1.4.6-4"
+title = "oxygen-gtk 1.4.6-5"
+version = "1.4.6-5"
 description = "Port of the KDE widget theme (Oxygen) to Gtk2."
-date = "2020-11-13T18:08:23"
+date = "2024-07-07T13:33:04"
 aliases = "/packages/136389"
 categories = ['xapps-extra']
 upstreamurl = "http://download.kde.org/stable/oxygen-gtk2"
 arch = "x86_64"
-size = "390720"
-usize = "1360982"
-sha1sum = "1a945b23b23ee7c8cfee3e029bf2293232d47a67"
-depends = "['bzip2', 'dbus-glib', 'gtk+2', 'libuuid']"
+size = "392864"
+usize = "1367539"
+sha1sum = "6b4be4652d552ef23b4e95594106b7a2f892db5a"
+depends = "['bzip2', 'dbus-glib', 'gtk+2', 'libuuid>=2.40.2']"
 +++
 ### Description: 
 Port of the KDE widget theme (Oxygen) to Gtk2.

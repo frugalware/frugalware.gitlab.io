@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gifsicle 1.95-1"
-version = "1.95-1"
+title = "gifsicle 1.95-2"
+version = "1.95-2"
 description = "A command-line tool for creating, editing, and getting information about GIF images and animations"
-date = "2024-06-02T13:53:05"
+date = "2024-07-07T13:31:03"
 aliases = "/packages/10060"
 categories = ['xapps-extra']
 upstreamurl = "http://www.lcdf.org/gifsicle/"
 arch = "x86_64"
-size = "146844"
-usize = "357904"
-sha1sum = "9e3c56abdc07000f782d6d16eacd30bb705b6583"
-depends = "['libsm', 'libuuid', 'libx11', 'libxt']"
+size = "146968"
+usize = "343032"
+sha1sum = "0a72e93a9b0b50155db8e9cbb329f60ed7e3184c"
+depends = "['libsm', 'libuuid>=2.40.2', 'libx11', 'libxt']"
 +++
 ### Description: 
 A command-line tool for creating, editing, and getting information about GIF images and animations

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-emperor_pg 2.0.23-5"
-version = "2.0.23-5"
+title = "uwsgi-plugin-emperor_pg 2.0.26-1"
+version = "2.0.26-1"
 description = "USWGI Emperor PostgreSQL Plugin"
-date = "2024-06-18T13:57:13"
+date = "2024-07-07T13:26:15"
 aliases = "/packages/217833"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "5692"
+size = "5752"
 usize = "7832"
-sha1sum = "2067f654f6c6d626ceae7e22763c1c6ff120ffe3"
+sha1sum = "214d19a6cd8e9d8a3f9a80c8277da50614efc52d"
 depends = "['libpq>=11.2-2', 'uwsgi']"
 +++
 ### Description: 
