@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ach 127.0.2-1"
-version = "127.0.2-1"
+title = "firefox-ach 128.0-1"
+version = "128.0-1"
 description = "Acoli language support for Firefox"
-date = "2024-06-25T09:50:37"
+date = "2024-07-09T15:22:20"
 aliases = "/packages/168753"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "397872"
-usize = "461920"
-sha1sum = "29a83951a5442e35e709bb73e31a2e54f4041f2d"
-depends = "['firefox>=127.0.2']"
+size = "399572"
+usize = "463921"
+sha1sum = "4dc038aad73783f5991f3311dc73f0a465bb7308"
+depends = "['firefox>=128.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

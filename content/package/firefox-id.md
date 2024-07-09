@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-id 127.0.2-1"
-version = "127.0.2-1"
+title = "firefox-id 128.0-1"
+version = "128.0-1"
 description = "Indonesian language support for Firefox"
-date = "2024-06-25T09:50:37"
+date = "2024-07-09T15:22:20"
 aliases = "/packages/73632"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "517316"
-usize = "572107"
-sha1sum = "df50bf04adb56459c7028007122f4e630063a08e"
-depends = "['firefox>=127.0.2']"
+size = "525368"
+usize = "580043"
+sha1sum = "a871a5cdcdf5e1043e31961664bd786bc2d033f7"
+depends = "['firefox>=128.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sk 127.0.2-1"
-version = "127.0.2-1"
+title = "firefox-sk 128.0-1"
+version = "128.0-1"
 description = "Slovak language support for Firefox"
-date = "2024-06-25T09:50:37"
+date = "2024-07-09T15:22:20"
 aliases = "/packages/4424"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "591612"
-usize = "646183"
-sha1sum = "961a18cc3b8a60e7f42bce1433382f0ccd124613"
-depends = "['firefox>=127.0.2']"
+size = "596532"
+usize = "649995"
+sha1sum = "e455ae6f6c7a27d7a637f99cf04e7eebbde2d0ea"
+depends = "['firefox>=128.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

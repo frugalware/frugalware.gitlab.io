@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-an 127.0.2-1"
-version = "127.0.2-1"
+title = "firefox-an 128.0-1"
+version = "128.0-1"
 description = "Aragonese language support for Firefox"
-date = "2024-06-25T09:50:37"
+date = "2024-07-09T15:22:20"
 aliases = "/packages/200611"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "442352"
-usize = "503728"
-sha1sum = "561f83e2271bdbc52df64e19d22b890e1528ab50"
-depends = "['firefox>=127.0.2']"
+size = "443888"
+usize = "505732"
+sha1sum = "64342959ee5e5c594b73794ef3ffc9d65fca22db"
+depends = "['firefox>=128.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

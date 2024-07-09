@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-kn 127.0.2-1"
-version = "127.0.2-1"
+title = "firefox-kn 128.0-1"
+version = "128.0-1"
 description = "Kannada language support for Firefox"
-date = "2024-06-25T09:50:37"
+date = "2024-07-09T15:22:20"
 aliases = "/packages/73636"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "423312"
-usize = "489100"
-sha1sum = "87771dffc959b394aae1d357b223bf07f768b77c"
-depends = "['firefox>=127.0.2']"
+size = "425180"
+usize = "491095"
+sha1sum = "ce78ce632ebd57dfced8e968e92045fbe517c261"
+depends = "['firefox>=128.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
