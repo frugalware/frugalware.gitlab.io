@@ -12,7 +12,7 @@ size = "431328"
 usize = "5508234"
 sha1sum = "ecddb3da416dcebf67682d5758128fe0ae40b894"
 depends = "['haskell-splitmix>=0.1.0.3']"
-reverse_depends = "['haskell-streaming-commons', 'haskell-temporary', 'haskell-tf-random', 'haskell-uuid-types']"
+reverse_depends = "['haskell-streaming-commons', 'haskell-temporary', 'haskell-tf-random', 'haskell-uuid-types', 'haskell-vector']"
 +++
 ### Description: 
 Haskell random number library.
