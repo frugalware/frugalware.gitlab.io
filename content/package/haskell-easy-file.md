@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-easy-file 0.2.5-4"
-version = "0.2.5-4"
+title = "haskell-easy-file 0.2.5-5"
+version = "0.2.5-5"
 description = "Cross-platform File handling"
-date = "2024-04-15T18:15:16"
+date = "2024-07-11T14:14:35"
 aliases = "/packages/220702"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/easy-file"
 arch = "x86_64"
-size = "89220"
-usize = "628357"
-sha1sum = "1ae64dc35504133f684cc88ddb5eb4c3eda08fd9"
+size = "98168"
+usize = "674569"
+sha1sum = "249a4069a380d7c0ad8b1b8e094e61de4bb3c68c"
 depends = "['ghc>=9.6.1']"
 reverse_depends = "['haskell-fast-logger']"
 +++

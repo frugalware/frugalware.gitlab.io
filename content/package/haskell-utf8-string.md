@@ -12,7 +12,7 @@ size = "167560"
 usize = "1474208"
 sha1sum = "e5e47547cabbc5428e0384ccc040b3d0d7bcfd62"
 depends = "['ghc>=9.6.1']"
-reverse_depends = "['haskell-http-media', 'haskell-http2', 'haskell-skylighting-core', 'haskell-string-conversions']"
+reverse_depends = "['haskell-http-media', 'haskell-http-semantics', 'haskell-skylighting-core', 'haskell-string-conversions']"
 +++
 ### Description: 
 Support for reading and writing UTF8 Strings

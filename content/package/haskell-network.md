@@ -12,7 +12,7 @@ size = "559048"
 usize = "5784520"
 sha1sum = "2aaf6d4d5a74085b8df32f1c9acf2d7a1564d87d"
 depends = "['ghc>=9.6.1']"
-reverse_depends = "['haskell-http', 'haskell-http2', 'haskell-iproute', 'haskell-recv', 'haskell-simple-sendfile', 'haskell-socks', 'haskell-streaming-commons', 'haskell-tls', 'haskell-wai', 'haskell-wai-logger']"
+reverse_depends = "['haskell-http', 'haskell-http-semantics', 'haskell-iproute', 'haskell-recv', 'haskell-simple-sendfile', 'haskell-socks', 'haskell-streaming-commons', 'haskell-tls', 'haskell-wai', 'haskell-wai-logger']"
 +++
 ### Description: 
 Networking-related facilities

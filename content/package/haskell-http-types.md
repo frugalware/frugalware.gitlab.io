@@ -12,7 +12,7 @@ size = "285352"
 usize = "3431362"
 sha1sum = "2440f58a0fe46a3ce29e71412448e246dcd722c2"
 depends = "['haskell-case-insensitive>=1.2.1.0-3']"
-reverse_depends = "['haskell-http-api-data', 'haskell-http-client', 'haskell-http2', 'haskell-servant', 'haskell-wai', 'haskell-wai-logger']"
+reverse_depends = "['haskell-http-api-data', 'haskell-http-client', 'haskell-http-semantics', 'haskell-servant', 'haskell-wai', 'haskell-wai-logger']"
 +++
 ### Description: 
 Generic HTTP types for Haskell (for both client and server code).

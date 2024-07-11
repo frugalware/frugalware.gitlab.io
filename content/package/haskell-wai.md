@@ -12,7 +12,7 @@ size = "87928"
 usize = "584689"
 sha1sum = "0987b8e44bbdd58229bf3f8af4da222fe562a7a5"
 depends = "['haskell-http-types', 'haskell-network', 'haskell-vault']"
-reverse_depends = "['haskell-wai-cors', 'haskell-warp']"
+reverse_depends = "['haskell-wai-cors', 'haskell-wai-logger', 'haskell-warp']"
 +++
 ### Description: 
 Web Application Interface
