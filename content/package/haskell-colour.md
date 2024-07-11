@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-colour 2.3.6-12"
-version = "2.3.6-12"
+title = "haskell-colour 2.3.6-13"
+version = "2.3.6-13"
 description = "A model for human colour/color perception"
-date = "2024-04-15T17:50:20"
+date = "2024-07-11T14:02:14"
 aliases = "/packages/220376"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/colour"
 arch = "x86_64"
-size = "267832"
-usize = "3088284"
-sha1sum = "d84290ecee7d5ba5ff6ef4e8d37b9352e870e224"
+size = "312308"
+usize = "3484688"
+sha1sum = "8c0f2b9d570782d416c8270abb5a9e40e5136117"
 depends = "['ghc>=9.8.2']"
 reverse_depends = "['haskell-ansi-terminal', 'haskell-ansi-terminal-types', 'haskell-skylighting-core']"
 +++
@@ -18,81 +18,81 @@ reverse_depends = "['haskell-ansi-terminal', 'haskell-ansi-terminal-types', 'has
 A model for human colour/color perception
 
 ### Files: 
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Chan.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Chan.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/CIE.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/CIE.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/CIE/Chromaticity.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/CIE/Chromaticity.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/CIE/Illuminant.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/CIE/Illuminant.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Internal.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Internal.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Matrix.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Matrix.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Names.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/Names.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGB.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGB.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGBSpace.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGBSpace.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSL.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSL.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSV.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSV.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/SRGB.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/SRGB.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/SRGB/Linear.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/Data/Colour/SRGB/Linear.hi
-* /usr/lib/ghc-9.8.2/site-local/colour-2.3.6/libHScolour-2.3.6-DkN6DMkckQ2CabciHEla3F.a
-* /usr/lib/x86_64-linux-ghc-9.8.2/libHScolour-2.3.6-DkN6DMkckQ2CabciHEla3F-ghc9.8.2.so
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Chan.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Chan.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/CIE.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/CIE.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/CIE/Chromaticity.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/CIE/Chromaticity.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/CIE/Illuminant.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/CIE/Illuminant.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Internal.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Internal.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Matrix.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Matrix.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Names.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/Names.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGB.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGB.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGBSpace.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGBSpace.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSL.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSL.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSV.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/RGBSpace/HSV.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/SRGB.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/SRGB.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/SRGB/Linear.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/Data/Colour/SRGB/Linear.hi
+* /usr/lib/ghc-9.10.1/site-local/colour-2.3.6/libHScolour-2.3.6-1uDD9Z6TdgoCz8C6DmvALh.a
+* /usr/lib/x86_64-linux-ghc-9.10.1-inplace/libHScolour-2.3.6-1uDD9Z6TdgoCz8C6DmvALh-ghc9.10.1.so
 * /usr/share/doc/haskell-colour-2.3.6/CHANGELOG
 * /usr/share/doc/haskell-colour-2.3.6/LICENSE
 * /usr/share/doc/haskell-colour-2.3.6/README
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/colour.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-CIE-Illuminant.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-CIE.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-Names.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-RGBSpace-HSL.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-RGBSpace-HSV.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-RGBSpace.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-SRGB-Linear.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour-SRGB.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/Data-Colour.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-A.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-All.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-B.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-C.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-D.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-E.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-F.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-G.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-H.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-I.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-K.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-L.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-M.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-N.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-O.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-P.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-R.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-S.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-T.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-U.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-V.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-W.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index-Y.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/colour-2.3.6/LICENSE
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/colour.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-CIE-Illuminant.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-CIE.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-Names.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-RGBSpace-HSL.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-RGBSpace-HSV.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-RGBSpace.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-SRGB-Linear.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour-SRGB.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/Data-Colour.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-A.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-All.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-B.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-C.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-D.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-E.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-F.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-G.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-H.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-I.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-K.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-L.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-M.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-N.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-O.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-P.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-R.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-S.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-T.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-U.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-V.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-W.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index-Y.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/LICENSE
 * /usr/share/haskell/haskell-colour/register.sh
 * /usr/share/haskell/haskell-colour/unregister.sh
-* /usr/share/x86_64-linux-ghc-9.8.2/colour-2.3.6/CHANGELOG
-* /usr/share/x86_64-linux-ghc-9.8.2/colour-2.3.6/README
+* /usr/share/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/CHANGELOG
+* /usr/share/x86_64-linux-ghc-9.10.1-inplace/colour-2.3.6/README
