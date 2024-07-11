@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "haskell-unicode-collation 0.1.3.6-1"
-version = "0.1.3.6-1"
+title = "haskell-unicode-collation 0.1.3.6-2"
+version = "0.1.3.6-2"
 description = "Haskell implementation of the Unicode Collation Algorithm"
-date = "2024-04-16T08:45:13"
+date = "2024-07-11T17:19:24"
 aliases = "/packages/220722"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/unicode-collation"
 arch = "x86_64"
-size = "1026624"
-usize = "25068974"
-sha1sum = "3d32a79af6db4b9923365e49227ceb8662fb9d52"
+size = "1178224"
+usize = "25435436"
+sha1sum = "9d5bd1548046a5f6c9c035729483697104dda553"
 depends = "['haskell-th-lift-instances']"
 reverse_depends = "['haskell-citeproc']"
 +++
@@ -18,43 +18,43 @@ reverse_depends = "['haskell-citeproc']"
 Haskell implementation of the Unicode Collation Algorithm
 
 ### Files: 
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/libHSunicode-collation-0.1.3.6-10opLSsSBpIAtRZwYaGtr0.a
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/CanonicalCombiningClass.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/CanonicalCombiningClass.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Collation.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Collation.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Collator.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Collator.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Lang.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Lang.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Normalize.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Normalize.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Tailorings.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Tailorings.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/TH.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/TH.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Trie.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/Trie.hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/UnicodeData.dyn_hi
-* /usr/lib/ghc-9.8.2/site-local/unicode-collation-0.1.3.6/Text/Collate/UnicodeData.hi
-* /usr/lib/x86_64-linux-ghc-9.8.2/libHSunicode-collation-0.1.3.6-10opLSsSBpIAtRZwYaGtr0-ghc9.8.2.so
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/libHSunicode-collation-0.1.3.6-IQLf0a70SV0BamZls7lObU.a
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/CanonicalCombiningClass.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/CanonicalCombiningClass.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Collation.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Collation.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Collator.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Collator.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Lang.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Lang.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Normalize.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Normalize.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Tailorings.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Tailorings.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/TH.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/TH.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Trie.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/Trie.hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/UnicodeData.dyn_hi
+* /usr/lib/ghc-9.10.1/site-local/unicode-collation-0.1.3.6/Text/Collate/UnicodeData.hi
+* /usr/lib/x86_64-linux-ghc-9.10.1-inplace/libHSunicode-collation-0.1.3.6-IQLf0a70SV0BamZls7lObU-ghc9.10.1.so
 * /usr/share/doc/haskell-unicode-collation-0.1.3.6/LICENSE
 * /usr/share/doc/haskell-unicode-collation-0.1.3.6/README.md
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/CHANGELOG.md
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/doc-index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/haddock-bundle.min.js
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/index.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/linuwial.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/meta.json
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/quick-jump.css
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/README.md
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/synopsis.png
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/Text-Collate-Lang.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/Text-Collate-Normalize.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/Text-Collate.html
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/html/unicode-collation.haddock
-* /usr/share/doc/x86_64-linux-ghc-9.8.2/unicode-collation-0.1.3.6/LICENSE
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/CHANGELOG.md
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/doc-index.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/haddock-bundle.min.js
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/index.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/linuwial.css
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/meta.json
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/quick-jump.css
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/README.md
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/synopsis.png
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/Text-Collate-Lang.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/Text-Collate-Normalize.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/Text-Collate.html
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/html/unicode-collation.haddock
+* /usr/share/doc/x86_64-linux-ghc-9.10.1-inplace/unicode-collation-0.1.3.6/LICENSE
 * /usr/share/haskell/haskell-unicode-collation/register.sh
 * /usr/share/haskell/haskell-unicode-collation/unregister.sh
