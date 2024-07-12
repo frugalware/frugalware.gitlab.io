@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.2.0-1"
-version = "1.2.0-1"
+title = "pipewire 1.2.1-1"
+version = "1.2.1-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2024-06-27T14:57:50"
+date = "2024-07-12T21:40:00"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3897368"
-usize = "37679737"
-sha1sum = "cfac1db324858fcf8b1738da655579b3f89adf9a"
+size = "3905560"
+usize = "37692267"
+sha1sum = "4d7e55e43ca04d7dad4ee6bd7cbcf464dc3accc0"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -257,7 +257,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib/libpipewire-0.3.so
 * /usr/lib/libpipewire-0.3.so.0
-* /usr/lib/libpipewire-0.3.so.0.1200.0
+* /usr/lib/libpipewire-0.3.so.0.1201.0
 * /usr/lib/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib/pipewire-0.3/libpipewire-module-avb.so
@@ -401,11 +401,11 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/alsa-card-profile/mixer/profile-sets/texas-instruments-pcm2902.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/usb-gaming-headset.conf
 * /usr/share/alsa/alsa.conf.d/50-pipewire.conf
-* /usr/share/doc/pipewire-1.2.0/COPYING
-* /usr/share/doc/pipewire-1.2.0/INSTALL.md
-* /usr/share/doc/pipewire-1.2.0/LICENSE
-* /usr/share/doc/pipewire-1.2.0/NEWS
-* /usr/share/doc/pipewire-1.2.0/README.md
+* /usr/share/doc/pipewire-1.2.1/COPYING
+* /usr/share/doc/pipewire-1.2.1/INSTALL.md
+* /usr/share/doc/pipewire-1.2.1/LICENSE
+* /usr/share/doc/pipewire-1.2.1/NEWS
+* /usr/share/doc/pipewire-1.2.1/README.md
 * /usr/share/doc/pipewire/html/aac-types_8h.html
 * /usr/share/doc/pipewire/html/aac-types_8h_source.html
 * /usr/share/doc/pipewire/html/aac-utils_8h.html

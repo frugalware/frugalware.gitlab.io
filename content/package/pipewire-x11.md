@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire-x11 1.2.0-1"
-version = "1.2.0-1"
+title = "pipewire-x11 1.2.1-1"
+version = "1.2.1-1"
 description = "Pipewire X11 bell"
-date = "2024-06-27T14:57:50"
+date = "2024-07-12T21:40:00"
 aliases = "/packages/221089"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "7472"
+size = "7520"
 usize = "13504"
-sha1sum = "73cc97e01273a7562bafa566c6383e5ff847155b"
+sha1sum = "c142de0793d38c81873b31584c2d07a7b6b7ec6d"
 depends = "['libx11', 'libxfixes', 'wireplumber']"
 +++
 ### Description: 

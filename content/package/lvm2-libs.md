@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lvm2-libs 2.03.24-1"
-version = "2.03.24-1"
+title = "lvm2-libs 2.03.25-1"
+version = "2.03.25-1"
 description = "Libraries from lvm2"
-date = "2024-05-17T14:22:29"
+date = "2024-07-12T21:31:31"
 aliases = "/packages/200571"
 categories = ['base']
 upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
-size = "1065076"
-usize = "3385003"
-sha1sum = "ff953a3d98bbe93d0ae4501431a264830a380d09"
+size = "1157800"
+usize = "3840491"
+sha1sum = "4aeb87481c727a885c59373db0aa9202bfe519dc"
 depends = "['libblkid>=2.31.1-3', 'libgudev>=230-7']"
 reverse_depends = "['cryptsetup-luks', 'dmraid', 'lvm2', 'nfs-utils']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lvm2 2.03.24-1"
-version = "2.03.24-1"
+title = "lvm2 2.03.25-1"
+version = "2.03.25-1"
 description = "Logical Volume Manager 2 utilities"
-date = "2024-05-17T14:22:29"
+date = "2024-07-12T21:31:31"
 aliases = "/packages/3220"
 categories = ['base']
 upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
-size = "1412472"
-usize = "3857866"
-sha1sum = "fe96e85dffe87aa0fc2e4ab655e8e24d2c792e9f"
+size = "1513436"
+usize = "4334263"
+sha1sum = "deccdb09d6e02f6e3035b933e9e05f3e2432ea2d"
 depends = "['libaio', 'libblkid>=2.31.1-3', 'libsystemd', 'libudev>=242', 'lvm2-libs', 'ncurses>=6.1', 'readline>=8.0', 'systemd-systemctl', 'thin-provisioning-tools>=1.0.2']"
 reverse_depends = "['docker', 'dracut', 'kernel-initrd', 'kernel-lts-initrd', 'libvirt', 'multipath-tools', 'parted', 'udisks2', 'virtualbox']"
 +++
@@ -91,6 +91,8 @@ Logical Volume Manager 2 utilities
 * /usr/lib/systemd/system/blk-availability.service
 * /usr/lib/systemd/system/dm-event.service
 * /usr/lib/systemd/system/dm-event.socket
+* /usr/lib/systemd/system/lvm-devices-import.path
+* /usr/lib/systemd/system/lvm-devices-import.service
 * /usr/lib/systemd/system/lvm2-lvmpolld.service
 * /usr/lib/systemd/system/lvm2-lvmpolld.socket
 * /usr/lib/systemd/system/lvm2-monitor.service
@@ -100,13 +102,13 @@ Logical Volume Manager 2 utilities
 * /usr/lib/udev/rules.d/13-dm-disk.rules
 * /usr/lib/udev/rules.d/69-dm-lvm.rules
 * /usr/lib/udev/rules.d/95-dm-notify.rules
-* /usr/share/doc/lvm2-2.03.24/COPYING
-* /usr/share/doc/lvm2-2.03.24/COPYING.BSD
-* /usr/share/doc/lvm2-2.03.24/COPYING.LIB
-* /usr/share/doc/lvm2-2.03.24/INSTALL
-* /usr/share/doc/lvm2-2.03.24/README
-* /usr/share/doc/lvm2-2.03.24/README.Frugalware
-* /usr/share/doc/lvm2-2.03.24/VERSION
+* /usr/share/doc/lvm2-2.03.25/COPYING
+* /usr/share/doc/lvm2-2.03.25/COPYING.BSD
+* /usr/share/doc/lvm2-2.03.25/COPYING.LIB
+* /usr/share/doc/lvm2-2.03.25/INSTALL
+* /usr/share/doc/lvm2-2.03.25/README
+* /usr/share/doc/lvm2-2.03.25/README.Frugalware
+* /usr/share/doc/lvm2-2.03.25/VERSION
 * /usr/share/man/man5/lvm.conf.5.gz
 * /usr/share/man/man7/lvmautoactivation.7.gz
 * /usr/share/man/man7/lvmcache.7.gz
