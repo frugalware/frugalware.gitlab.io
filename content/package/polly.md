@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "polly 17.0.6-4"
-version = "17.0.6-4"
+title = "polly 18.1.8-1"
+version = "18.1.8-1"
 description = "High-level loop and data-locality optimizer and optimization infrastructure for LLVM"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/220521"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "3325708"
-usize = "18654269"
-sha1sum = "a2243d9a7f4d0fd378f1c336efc1c6e5a5e32a88"
-depends = "['llvm-libs>=17.0.6']"
+size = "2950216"
+usize = "18655369"
+sha1sum = "2bd0a08111a837beeb431f0615424a13208e4f24"
+depends = "['llvm-libs>=18.1.8']"
 +++
 ### Description: 
 High-level loop and data-locality optimizer and optimization infrastructure for LLVM
@@ -19,7 +19,6 @@ High-level loop and data-locality optimizer and optimization infrastructure for 
 ### Files: 
 * /usr/include/polly/Canonicalization.h
 * /usr/include/polly/CodeGen/BlockGenerators.h
-* /usr/include/polly/CodeGen/CodegenCleanup.h
 * /usr/include/polly/CodeGen/CodeGeneration.h
 * /usr/include/polly/CodeGen/IRBuilder.h
 * /usr/include/polly/CodeGen/IslAst.h

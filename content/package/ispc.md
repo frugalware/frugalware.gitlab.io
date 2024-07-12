@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ispc 1.24.0-2"
-version = "1.24.0-2"
+title = "ispc 1.24.0-3"
+version = "1.24.0-3"
 description = "A compiler for high-performance SIMD programming on the CPU"
-date = "2024-06-03T18:17:42"
+date = "2024-07-12T19:14:20"
 aliases = "/packages/220210"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ispc/ispc"
 arch = "x86_64"
-size = "1587668"
-usize = "21681453"
-sha1sum = "9324a7b1ac8b5fc1c15306f3e06acfae9ceba17a"
-depends = "['clang-libs>=17.0.0', 'intel-tbb']"
+size = "1616196"
+usize = "21760577"
+sha1sum = "b6c5eb3e54d120e86167be4c43442db8f22404a2"
+depends = "['clang-libs>=18.1.8', 'intel-tbb']"
 reverse_depends = "['openvkl', 'ospray']"
 +++
 ### Description: 

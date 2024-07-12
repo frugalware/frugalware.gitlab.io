@@ -1,28 +1,32 @@
 +++
 draft = false
-title = "mlir 17.0.6-4"
-version = "17.0.6-4"
+title = "mlir 18.1.8-1"
+version = "18.1.8-1"
 description = "Multi-Level Intermediate Representation"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/220528"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "65141324"
-usize = "542873398"
-sha1sum = "afd7f3616a60969550f467d0c5ec0b2c20079903"
-depends = "['llvm-libs>=17.0.6']"
+size = "84024176"
+usize = "679378733"
+sha1sum = "8f3df533ebe20c1400729cb53239ebd8c6139c0c"
+depends = "['llvm-libs>=18.1.8']"
 +++
 ### Description: 
 Multi-Level Intermediate Representation
 
 ### Files: 
+* /usr/bin/mlir-cat
 * /usr/bin/mlir-cpu-runner
 * /usr/bin/mlir-linalg-ods-yaml-gen
 * /usr/bin/mlir-lsp-server
+* /usr/bin/mlir-minimal-opt
+* /usr/bin/mlir-minimal-opt-canonicalize
 * /usr/bin/mlir-opt
 * /usr/bin/mlir-pdll
 * /usr/bin/mlir-pdll-lsp-server
+* /usr/bin/mlir-query
 * /usr/bin/mlir-reduce
 * /usr/bin/mlir-tblgen
 * /usr/bin/mlir-translate
@@ -34,6 +38,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir-c/Conversion.h
 * /usr/include/mlir-c/Debug.h
 * /usr/include/mlir-c/Diagnostics.h
+* /usr/include/mlir-c/Dialect/AMDGPU.h
 * /usr/include/mlir-c/Dialect/Arith.h
 * /usr/include/mlir-c/Dialect/Async.h
 * /usr/include/mlir-c/Dialect/ControlFlow.h
@@ -44,11 +49,16 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir-c/Dialect/Math.h
 * /usr/include/mlir-c/Dialect/MemRef.h
 * /usr/include/mlir-c/Dialect/MLProgram.h
+* /usr/include/mlir-c/Dialect/NVGPU.h
+* /usr/include/mlir-c/Dialect/NVVM.h
+* /usr/include/mlir-c/Dialect/OpenMP.h
 * /usr/include/mlir-c/Dialect/PDL.h
 * /usr/include/mlir-c/Dialect/Quant.h
+* /usr/include/mlir-c/Dialect/ROCDL.h
 * /usr/include/mlir-c/Dialect/SCF.h
 * /usr/include/mlir-c/Dialect/Shape.h
 * /usr/include/mlir-c/Dialect/SparseTensor.h
+* /usr/include/mlir-c/Dialect/SPIRV.h
 * /usr/include/mlir-c/Dialect/Tensor.h
 * /usr/include/mlir-c/Dialect/Transform.h
 * /usr/include/mlir-c/Dialect/Vector.h
@@ -59,6 +69,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir-c/Pass.h
 * /usr/include/mlir-c/RegisterEverything.h
 * /usr/include/mlir-c/Support.h
+* /usr/include/mlir-c/Target/LLVMIR.h
 * /usr/include/mlir-c/Transforms.h
 * /usr/include/mlir/Analysis/AliasAnalysis.h
 * /usr/include/mlir/Analysis/AliasAnalysis/LocalAliasAnalysis.h
@@ -74,7 +85,9 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Analysis/DataLayoutAnalysis.h
 * /usr/include/mlir/Analysis/FlatLinearValueConstraints.h
 * /usr/include/mlir/Analysis/Liveness.h
+* /usr/include/mlir/Analysis/Presburger/Barvinok.h
 * /usr/include/mlir/Analysis/Presburger/Fraction.h
+* /usr/include/mlir/Analysis/Presburger/GeneratingFunction.h
 * /usr/include/mlir/Analysis/Presburger/IntegerRelation.h
 * /usr/include/mlir/Analysis/Presburger/LinearTransform.h
 * /usr/include/mlir/Analysis/Presburger/Matrix.h
@@ -82,6 +95,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Analysis/Presburger/PresburgerRelation.h
 * /usr/include/mlir/Analysis/Presburger/PresburgerSpace.h
 * /usr/include/mlir/Analysis/Presburger/PWMAFunction.h
+* /usr/include/mlir/Analysis/Presburger/QuasiPolynomial.h
 * /usr/include/mlir/Analysis/Presburger/Simplex.h
 * /usr/include/mlir/Analysis/Presburger/SlowMPInt.h
 * /usr/include/mlir/Analysis/Presburger/Utils.h
@@ -97,6 +111,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Bytecode/BytecodeOpInterface.h.inc
 * /usr/include/mlir/Bytecode/BytecodeOpInterface.td
 * /usr/include/mlir/Bytecode/BytecodeReader.h
+* /usr/include/mlir/Bytecode/BytecodeReaderConfig.h
 * /usr/include/mlir/Bytecode/BytecodeWriter.h
 * /usr/include/mlir/Bytecode/Encoding.h
 * /usr/include/mlir/CAPI/AffineExpr.h
@@ -115,9 +130,13 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Conversion/AffineToStandard/AffineToStandard.h
 * /usr/include/mlir/Conversion/AMDGPUToROCDL/AMDGPUToROCDL.h
 * /usr/include/mlir/Conversion/ArithCommon/AttrToLLVMConverter.h
+* /usr/include/mlir/Conversion/ArithToAMDGPU/ArithToAMDGPU.h
+* /usr/include/mlir/Conversion/ArithToArmSME/ArithToArmSME.h
 * /usr/include/mlir/Conversion/ArithToLLVM/ArithToLLVM.h
 * /usr/include/mlir/Conversion/ArithToSPIRV/ArithToSPIRV.h
 * /usr/include/mlir/Conversion/ArmNeon2dToIntr/ArmNeon2dToIntr.h
+* /usr/include/mlir/Conversion/ArmSMEToLLVM/ArmSMEToLLVM.h
+* /usr/include/mlir/Conversion/ArmSMEToSCF/ArmSMEToSCF.h
 * /usr/include/mlir/Conversion/AsyncToLLVM/AsyncToLLVM.h
 * /usr/include/mlir/Conversion/BufferizationToMemRef/BufferizationToMemRef.h
 * /usr/include/mlir/Conversion/ComplexToLibm/ComplexToLibm.h
@@ -126,8 +145,11 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Conversion/ComplexToSPIRV/ComplexToSPIRVPass.h
 * /usr/include/mlir/Conversion/ComplexToStandard/ComplexToStandard.h
 * /usr/include/mlir/Conversion/ControlFlowToLLVM/ControlFlowToLLVM.h
+* /usr/include/mlir/Conversion/ControlFlowToSCF/ControlFlowToSCF.h
 * /usr/include/mlir/Conversion/ControlFlowToSPIRV/ControlFlowToSPIRV.h
 * /usr/include/mlir/Conversion/ControlFlowToSPIRV/ControlFlowToSPIRVPass.h
+* /usr/include/mlir/Conversion/ConvertToLLVM/ToLLVMInterface.h
+* /usr/include/mlir/Conversion/ConvertToLLVM/ToLLVMPass.h
 * /usr/include/mlir/Conversion/FuncToLLVM/ConvertFuncToLLVM.h
 * /usr/include/mlir/Conversion/FuncToLLVM/ConvertFuncToLLVMPass.h
 * /usr/include/mlir/Conversion/FuncToSPIRV/FuncToSPIRV.h
@@ -140,12 +162,13 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Conversion/GPUToSPIRV/GPUToSPIRVPass.h
 * /usr/include/mlir/Conversion/GPUToVulkan/ConvertGPUToVulkanPass.h
 * /usr/include/mlir/Conversion/IndexToLLVM/IndexToLLVM.h
-* /usr/include/mlir/Conversion/LinalgToLLVM/LinalgToLLVM.h
+* /usr/include/mlir/Conversion/IndexToSPIRV/IndexToSPIRV.h
 * /usr/include/mlir/Conversion/LinalgToStandard/LinalgToStandard.h
 * /usr/include/mlir/Conversion/LLVMCommon/ConversionTarget.h
 * /usr/include/mlir/Conversion/LLVMCommon/LoweringOptions.h
 * /usr/include/mlir/Conversion/LLVMCommon/MemRefBuilder.h
 * /usr/include/mlir/Conversion/LLVMCommon/Pattern.h
+* /usr/include/mlir/Conversion/LLVMCommon/PrintCallHelper.h
 * /usr/include/mlir/Conversion/LLVMCommon/StructBuilder.h
 * /usr/include/mlir/Conversion/LLVMCommon/TypeConverter.h
 * /usr/include/mlir/Conversion/LLVMCommon/VectorPattern.h
@@ -170,6 +193,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Conversion/PDLToPDLInterp/PDLToPDLInterp.h
 * /usr/include/mlir/Conversion/ReconcileUnrealizedCasts/ReconcileUnrealizedCasts.h
 * /usr/include/mlir/Conversion/SCFToControlFlow/SCFToControlFlow.h
+* /usr/include/mlir/Conversion/SCFToEmitC/SCFToEmitC.h
 * /usr/include/mlir/Conversion/SCFToGPU/SCFToGPU.h
 * /usr/include/mlir/Conversion/SCFToGPU/SCFToGPUPass.h
 * /usr/include/mlir/Conversion/SCFToOpenMP/SCFToOpenMP.h
@@ -184,6 +208,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Conversion/TensorToSPIRV/TensorToSPIRVPass.h
 * /usr/include/mlir/Conversion/TosaToArith/TosaToArith.h
 * /usr/include/mlir/Conversion/TosaToLinalg/TosaToLinalg.h
+* /usr/include/mlir/Conversion/TosaToMLProgram/TosaToMLProgram.h
 * /usr/include/mlir/Conversion/TosaToSCF/TosaToSCF.h
 * /usr/include/mlir/Conversion/TosaToTensor/TosaToTensor.h
 * /usr/include/mlir/Conversion/UBToLLVM/UBToLLVM.h
@@ -191,6 +216,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Conversion/VectorToArmSME/VectorToArmSME.h
 * /usr/include/mlir/Conversion/VectorToGPU/VectorToGPU.h
 * /usr/include/mlir/Conversion/VectorToLLVM/ConvertVectorToLLVM.h
+* /usr/include/mlir/Conversion/VectorToLLVM/ConvertVectorToLLVMPass.h
 * /usr/include/mlir/Conversion/VectorToSCF/VectorToSCF.h
 * /usr/include/mlir/Conversion/VectorToSPIRV/VectorToSPIRV.h
 * /usr/include/mlir/Conversion/VectorToSPIRV/VectorToSPIRVPass.h
@@ -202,6 +228,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Debug/DebuggerExecutionContextHook.h
 * /usr/include/mlir/Debug/ExecutionContext.h
 * /usr/include/mlir/Debug/Observers/ActionLogging.h
+* /usr/include/mlir/Debug/Observers/ActionProfiler.h
 * /usr/include/mlir/Dialect/Affine/Analysis/AffineAnalysis.h
 * /usr/include/mlir/Dialect/Affine/Analysis/AffineStructures.h
 * /usr/include/mlir/Dialect/Affine/Analysis/LoopAnalysis.h
@@ -276,6 +303,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Arith/IR/ArithOpsTypes.cpp.inc
 * /usr/include/mlir/Dialect/Arith/IR/ArithOpsTypes.h.inc
 * /usr/include/mlir/Dialect/Arith/IR/ValueBoundsOpInterfaceImpl.h
+* /usr/include/mlir/Dialect/Arith/Transforms/BufferDeallocationOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/Arith/Transforms/BufferizableOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/Arith/Transforms/NarrowTypeEmulationConverter.h
 * /usr/include/mlir/Dialect/Arith/Transforms/Passes.h
@@ -297,26 +325,45 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSME.h
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSME.h.inc
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSME.td
-* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEConversions.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEAttrDefs.cpp.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEAttrDefs.h.inc
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEDialect.cpp.inc
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEDialect.h.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEEnums.cpp.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEEnums.h
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEEnums.h.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEIntrinsicConversions.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEIntrinsicOps.cpp.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEIntrinsicOps.h.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEIntrinsicOps.td
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEOpInterfaces.cpp.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEOpInterfaces.h.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEOps.cpp.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEOps.h.inc
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEOps.td
+* /usr/include/mlir/Dialect/ArmSME/IR/ArmSMEOpsConversions.inc
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSMETypes.cpp.inc
 * /usr/include/mlir/Dialect/ArmSME/IR/ArmSMETypes.h.inc
 * /usr/include/mlir/Dialect/ArmSME/Transforms/Passes.h
 * /usr/include/mlir/Dialect/ArmSME/Transforms/Passes.h.inc
 * /usr/include/mlir/Dialect/ArmSME/Transforms/Passes.td
+* /usr/include/mlir/Dialect/ArmSME/Transforms/PassesEnums.cpp.inc
+* /usr/include/mlir/Dialect/ArmSME/Transforms/PassesEnums.h.inc
 * /usr/include/mlir/Dialect/ArmSME/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/ArmSME/Utils/Utils.h
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVE.cpp.inc
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVE.h.inc
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVE.td
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVEConversions.inc
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVEDialect.cpp.inc
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVEDialect.h
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVEDialect.h.inc
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVETypes.cpp.inc
-* /usr/include/mlir/Dialect/ArmSVE/ArmSVETypes.h.inc
-* /usr/include/mlir/Dialect/ArmSVE/Transforms.h
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVE.cpp.inc
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVE.h.inc
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVE.td
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVEConversions.inc
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVEDialect.cpp.inc
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVEDialect.h
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVEDialect.h.inc
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVETypes.cpp.inc
+* /usr/include/mlir/Dialect/ArmSVE/IR/ArmSVETypes.h.inc
+* /usr/include/mlir/Dialect/ArmSVE/Transforms/Passes.h
+* /usr/include/mlir/Dialect/ArmSVE/Transforms/Passes.h.inc
+* /usr/include/mlir/Dialect/ArmSVE/Transforms/Passes.td
+* /usr/include/mlir/Dialect/ArmSVE/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/Async/IR/Async.h
 * /usr/include/mlir/Dialect/Async/IR/AsyncDialect.td
 * /usr/include/mlir/Dialect/Async/IR/AsyncOps.cpp.inc
@@ -338,6 +385,10 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Bufferization/IR/AllocationOpInterface.h
 * /usr/include/mlir/Dialect/Bufferization/IR/AllocationOpInterface.h.inc
 * /usr/include/mlir/Dialect/Bufferization/IR/AllocationOpInterface.td
+* /usr/include/mlir/Dialect/Bufferization/IR/BufferDeallocationOpInterface.cpp.inc
+* /usr/include/mlir/Dialect/Bufferization/IR/BufferDeallocationOpInterface.h
+* /usr/include/mlir/Dialect/Bufferization/IR/BufferDeallocationOpInterface.h.inc
+* /usr/include/mlir/Dialect/Bufferization/IR/BufferDeallocationOpInterface.td
 * /usr/include/mlir/Dialect/Bufferization/IR/BufferizableOpInterface.cpp.inc
 * /usr/include/mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h
 * /usr/include/mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h.inc
@@ -355,6 +406,8 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Bufferization/IR/BufferizationOpsTypes.cpp.inc
 * /usr/include/mlir/Dialect/Bufferization/IR/BufferizationOpsTypes.h.inc
 * /usr/include/mlir/Dialect/Bufferization/IR/DstBufferizableOpInterfaceImpl.h
+* /usr/include/mlir/Dialect/Bufferization/IR/UnstructuredControlFlow.h
+* /usr/include/mlir/Dialect/Bufferization/Pipelines/Passes.h
 * /usr/include/mlir/Dialect/Bufferization/TransformOps/BufferizationTransformOps.cpp.inc
 * /usr/include/mlir/Dialect/Bufferization/TransformOps/BufferizationTransformOps.h
 * /usr/include/mlir/Dialect/Bufferization/TransformOps/BufferizationTransformOps.h.inc
@@ -391,6 +444,8 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/ControlFlow/IR/ControlFlowOpsDialect.h.inc
 * /usr/include/mlir/Dialect/ControlFlow/IR/ControlFlowOpsTypes.cpp.inc
 * /usr/include/mlir/Dialect/ControlFlow/IR/ControlFlowOpsTypes.h.inc
+* /usr/include/mlir/Dialect/ControlFlow/Transforms/BufferDeallocationOpInterfaceImpl.h
+* /usr/include/mlir/Dialect/ControlFlow/Transforms/BufferizableOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/DLTI/DLTI.cpp.inc
 * /usr/include/mlir/Dialect/DLTI/DLTI.h
 * /usr/include/mlir/Dialect/DLTI/DLTI.h.inc
@@ -411,9 +466,15 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/EmitC/IR/EmitCBase.td
 * /usr/include/mlir/Dialect/EmitC/IR/EmitCDialect.cpp.inc
 * /usr/include/mlir/Dialect/EmitC/IR/EmitCDialect.h.inc
+* /usr/include/mlir/Dialect/EmitC/IR/EmitCEnums.cpp.inc
+* /usr/include/mlir/Dialect/EmitC/IR/EmitCEnums.h.inc
 * /usr/include/mlir/Dialect/EmitC/IR/EmitCTypes.cpp.inc
 * /usr/include/mlir/Dialect/EmitC/IR/EmitCTypes.h.inc
 * /usr/include/mlir/Dialect/EmitC/IR/EmitCTypes.td
+* /usr/include/mlir/Dialect/EmitC/Transforms/Passes.h
+* /usr/include/mlir/Dialect/EmitC/Transforms/Passes.h.inc
+* /usr/include/mlir/Dialect/EmitC/Transforms/Passes.td
+* /usr/include/mlir/Dialect/EmitC/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/Func/Extensions/AllExtensions.h
 * /usr/include/mlir/Dialect/Func/Extensions/InlinerExtension.h
 * /usr/include/mlir/Dialect/Func/IR/FuncOps.cpp.inc
@@ -422,12 +483,21 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Func/IR/FuncOps.td
 * /usr/include/mlir/Dialect/Func/IR/FuncOpsDialect.cpp.inc
 * /usr/include/mlir/Dialect/Func/IR/FuncOpsDialect.h.inc
+* /usr/include/mlir/Dialect/Func/TransformOps/FuncTransformOps.cpp.inc
+* /usr/include/mlir/Dialect/Func/TransformOps/FuncTransformOps.h
+* /usr/include/mlir/Dialect/Func/TransformOps/FuncTransformOps.h.inc
+* /usr/include/mlir/Dialect/Func/TransformOps/FuncTransformOps.td
 * /usr/include/mlir/Dialect/Func/Transforms/DecomposeCallGraphTypes.h
 * /usr/include/mlir/Dialect/Func/Transforms/FuncConversions.h
 * /usr/include/mlir/Dialect/Func/Transforms/OneToNFuncConversions.h
 * /usr/include/mlir/Dialect/Func/Transforms/Passes.h
 * /usr/include/mlir/Dialect/Func/Transforms/Passes.h.inc
 * /usr/include/mlir/Dialect/Func/Transforms/Passes.td
+* /usr/include/mlir/Dialect/GPU/IR/CompilationAttrInterfaces.cpp.inc
+* /usr/include/mlir/Dialect/GPU/IR/CompilationAttrInterfaces.h.inc
+* /usr/include/mlir/Dialect/GPU/IR/CompilationAttrInterfaces.td
+* /usr/include/mlir/Dialect/GPU/IR/CompilationAttrs.td
+* /usr/include/mlir/Dialect/GPU/IR/CompilationInterfaces.h
 * /usr/include/mlir/Dialect/GPU/IR/GPUBase.td
 * /usr/include/mlir/Dialect/GPU/IR/GPUDialect.h
 * /usr/include/mlir/Dialect/GPU/IR/GPUOpInterfaces.cpp.inc
@@ -446,6 +516,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/GPU/IR/ParallelLoopMapperAttr.td
 * /usr/include/mlir/Dialect/GPU/IR/ParallelLoopMapperEnums.cpp.inc
 * /usr/include/mlir/Dialect/GPU/IR/ParallelLoopMapperEnums.h.inc
+* /usr/include/mlir/Dialect/GPU/Pipelines/Passes.h
 * /usr/include/mlir/Dialect/GPU/TransformOps/GPUDeviceMapperEnums.cpp.inc
 * /usr/include/mlir/Dialect/GPU/TransformOps/GPUDeviceMapperEnums.h.inc
 * /usr/include/mlir/Dialect/GPU/TransformOps/GPUDeviceMappingAttr.td
@@ -454,6 +525,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/GPU/TransformOps/GPUTransformOps.h.inc
 * /usr/include/mlir/Dialect/GPU/TransformOps/GPUTransformOps.td
 * /usr/include/mlir/Dialect/GPU/TransformOps/Utils.h
+* /usr/include/mlir/Dialect/GPU/Transforms/BufferDeallocationOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/GPU/Transforms/MemoryPromotion.h
 * /usr/include/mlir/Dialect/GPU/Transforms/ParallelLoopMapper.h
 * /usr/include/mlir/Dialect/GPU/Transforms/Passes.capi.cpp.inc
@@ -482,8 +554,13 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/IRDL/IR/IRDL.h
 * /usr/include/mlir/Dialect/IRDL/IR/IRDL.h.inc
 * /usr/include/mlir/Dialect/IRDL/IR/IRDL.td
+* /usr/include/mlir/Dialect/IRDL/IR/IRDLAttributes.cpp.inc
+* /usr/include/mlir/Dialect/IRDL/IR/IRDLAttributes.h.inc
+* /usr/include/mlir/Dialect/IRDL/IR/IRDLAttributes.td
 * /usr/include/mlir/Dialect/IRDL/IR/IRDLDialect.cpp.inc
 * /usr/include/mlir/Dialect/IRDL/IR/IRDLDialect.h.inc
+* /usr/include/mlir/Dialect/IRDL/IR/IRDLEnums.cpp.inc
+* /usr/include/mlir/Dialect/IRDL/IR/IRDLEnums.h.inc
 * /usr/include/mlir/Dialect/IRDL/IR/IRDLInterfaces.cpp.inc
 * /usr/include/mlir/Dialect/IRDL/IR/IRDLInterfaces.h
 * /usr/include/mlir/Dialect/IRDL/IR/IRDLInterfaces.h.inc
@@ -545,9 +622,14 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Linalg/TransformOps/Syntax.h
 * /usr/include/mlir/Dialect/Linalg/Transforms/BufferizableOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/Linalg/Transforms/Hoisting.h
+* /usr/include/mlir/Dialect/Linalg/Transforms/SubsetInsertionOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/Linalg/Transforms/TilingInterfaceImpl.h
 * /usr/include/mlir/Dialect/Linalg/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/Linalg/Utils/Utils.h
+* /usr/include/mlir/Dialect/LLVMIR/BasicPtxBuilderInterface.cpp.inc
+* /usr/include/mlir/Dialect/LLVMIR/BasicPtxBuilderInterface.h
+* /usr/include/mlir/Dialect/LLVMIR/BasicPtxBuilderInterface.h.inc
+* /usr/include/mlir/Dialect/LLVMIR/BasicPtxBuilderInterface.td
 * /usr/include/mlir/Dialect/LLVMIR/FunctionCallUtils.h
 * /usr/include/mlir/Dialect/LLVMIR/LLVMAttrDefs.td
 * /usr/include/mlir/Dialect/LLVMIR/LLVMAttrs.h
@@ -585,7 +667,9 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/LLVMIR/LLVMTypes.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/LLVMTypes.td
 * /usr/include/mlir/Dialect/LLVMIR/NVVMConversions.inc
+* /usr/include/mlir/Dialect/LLVMIR/NVVMConvertibleLLVMIRIntrinsics.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMDialect.h
+* /usr/include/mlir/Dialect/LLVMIR/NVVMFromLLVMIRConversions.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOps.cpp.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOps.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOps.td
@@ -595,8 +679,6 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOpsDialect.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOpsEnums.cpp.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOpsEnums.h.inc
-* /usr/include/mlir/Dialect/LLVMIR/NVVMOpsInterface.cpp.inc
-* /usr/include/mlir/Dialect/LLVMIR/NVVMOpsInterface.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOpsTypes.cpp.inc
 * /usr/include/mlir/Dialect/LLVMIR/NVVMOpsTypes.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLConversions.inc
@@ -604,11 +686,15 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOps.cpp.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOps.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOps.td
+* /usr/include/mlir/Dialect/LLVMIR/ROCDLOpsAttributes.cpp.inc
+* /usr/include/mlir/Dialect/LLVMIR/ROCDLOpsAttributes.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOpsDialect.cpp.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOpsDialect.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOpsTypes.cpp.inc
 * /usr/include/mlir/Dialect/LLVMIR/ROCDLOpsTypes.h.inc
 * /usr/include/mlir/Dialect/LLVMIR/Transforms/AddComdats.h
+* /usr/include/mlir/Dialect/LLVMIR/Transforms/DIExpressionLegalization.h
+* /usr/include/mlir/Dialect/LLVMIR/Transforms/DIExpressionRewriter.h
 * /usr/include/mlir/Dialect/LLVMIR/Transforms/LegalizeForExport.h
 * /usr/include/mlir/Dialect/LLVMIR/Transforms/OptimizeForNVVM.h
 * /usr/include/mlir/Dialect/LLVMIR/Transforms/Passes.h
@@ -644,7 +730,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/MemRef/TransformOps/MemRefTransformOps.h
 * /usr/include/mlir/Dialect/MemRef/TransformOps/MemRefTransformOps.h.inc
 * /usr/include/mlir/Dialect/MemRef/TransformOps/MemRefTransformOps.td
-* /usr/include/mlir/Dialect/MemRef/Transforms/BufferizableOpInterfaceImpl.h
+* /usr/include/mlir/Dialect/MemRef/Transforms/AllocationOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/MemRef/Transforms/ComposeSubView.h
 * /usr/include/mlir/Dialect/MemRef/Transforms/Passes.h
 * /usr/include/mlir/Dialect/MemRef/Transforms/Passes.h.inc
@@ -652,6 +738,29 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/MemRef/Transforms/RuntimeOpVerification.h
 * /usr/include/mlir/Dialect/MemRef/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/MemRef/Utils/MemRefUtils.h
+* /usr/include/mlir/Dialect/Mesh/Interfaces/ShardingInterface.cpp.inc
+* /usr/include/mlir/Dialect/Mesh/Interfaces/ShardingInterface.h
+* /usr/include/mlir/Dialect/Mesh/Interfaces/ShardingInterface.h.inc
+* /usr/include/mlir/Dialect/Mesh/Interfaces/ShardingInterface.td
+* /usr/include/mlir/Dialect/Mesh/IR/MeshBase.td
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOps.cpp.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOps.h
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOps.h.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOps.td
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsAttributes.cpp.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsAttributes.h.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsDialect.cpp.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsDialect.h.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsEnums.cpp.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsEnums.h.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsTypes.cpp.inc
+* /usr/include/mlir/Dialect/Mesh/IR/MeshOpsTypes.h.inc
+* /usr/include/mlir/Dialect/Mesh/Transforms/Passes.h
+* /usr/include/mlir/Dialect/Mesh/Transforms/Passes.h.inc
+* /usr/include/mlir/Dialect/Mesh/Transforms/Passes.td
+* /usr/include/mlir/Dialect/Mesh/Transforms/Simplifications.h
+* /usr/include/mlir/Dialect/Mesh/Transforms/Spmdization.h
+* /usr/include/mlir/Dialect/Mesh/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/MLProgram/IR/MLProgram.h
 * /usr/include/mlir/Dialect/MLProgram/IR/MLProgramAttributes.cpp.inc
 * /usr/include/mlir/Dialect/MLProgram/IR/MLProgramAttributes.h
@@ -669,6 +778,9 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/MLProgram/IR/MLProgramTypes.h
 * /usr/include/mlir/Dialect/MLProgram/IR/MLProgramTypes.h.inc
 * /usr/include/mlir/Dialect/MLProgram/IR/MLProgramTypes.td
+* /usr/include/mlir/Dialect/MLProgram/Transforms/Passes.h
+* /usr/include/mlir/Dialect/MLProgram/Transforms/Passes.h.inc
+* /usr/include/mlir/Dialect/MLProgram/Transforms/Passes.td
 * /usr/include/mlir/Dialect/NVGPU/IR/NVGPU.cpp.inc
 * /usr/include/mlir/Dialect/NVGPU/IR/NVGPU.h.inc
 * /usr/include/mlir/Dialect/NVGPU/IR/NVGPU.td
@@ -698,6 +810,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/OpenACC/AccCommon.td
 * /usr/include/mlir/Dialect/OpenACC/OpenACC.h
 * /usr/include/mlir/Dialect/OpenACC/OpenACCBase.td
+* /usr/include/mlir/Dialect/OpenACC/OpenACCInterfaces.h
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOps.cpp.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOps.h.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOps.td
@@ -707,12 +820,19 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOpsDialect.h.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOpsEnums.cpp.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOpsEnums.h.inc
+* /usr/include/mlir/Dialect/OpenACC/OpenACCOpsInterfaces.cpp.inc
+* /usr/include/mlir/Dialect/OpenACC/OpenACCOpsInterfaces.h.inc
+* /usr/include/mlir/Dialect/OpenACC/OpenACCOpsInterfaces.td
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOpsTypes.cpp.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOpsTypes.h.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCOpsTypes.td
 * /usr/include/mlir/Dialect/OpenACC/OpenACCTypeInterfaces.cpp.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCTypeInterfaces.h.inc
 * /usr/include/mlir/Dialect/OpenACC/OpenACCTypeInterfaces.td
+* /usr/include/mlir/Dialect/OpenACCMPCommon/Interfaces/AtomicInterfaces.cpp.inc
+* /usr/include/mlir/Dialect/OpenACCMPCommon/Interfaces/AtomicInterfaces.h
+* /usr/include/mlir/Dialect/OpenACCMPCommon/Interfaces/AtomicInterfaces.h.inc
+* /usr/include/mlir/Dialect/OpenACCMPCommon/Interfaces/AtomicInterfaces.td
 * /usr/include/mlir/Dialect/OpenMP/OmpCommon.td
 * /usr/include/mlir/Dialect/OpenMP/OpenMPDialect.h
 * /usr/include/mlir/Dialect/OpenMP/OpenMPInterfaces.h
@@ -728,6 +848,8 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/OpenMP/OpenMPOpsInterfaces.cpp.inc
 * /usr/include/mlir/Dialect/OpenMP/OpenMPOpsInterfaces.h.inc
 * /usr/include/mlir/Dialect/OpenMP/OpenMPOpsInterfaces.td
+* /usr/include/mlir/Dialect/OpenMP/OpenMPOpsTypes.cpp.inc
+* /usr/include/mlir/Dialect/OpenMP/OpenMPOpsTypes.h.inc
 * /usr/include/mlir/Dialect/OpenMP/OpenMPTypeInterfaces.cpp.inc
 * /usr/include/mlir/Dialect/OpenMP/OpenMPTypeInterfaces.h.inc
 * /usr/include/mlir/Dialect/OpenMP/OpenMPTypeInterfaces.td
@@ -784,6 +906,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/SCF/TransformOps/SCFTransformOps.h
 * /usr/include/mlir/Dialect/SCF/TransformOps/SCFTransformOps.h.inc
 * /usr/include/mlir/Dialect/SCF/TransformOps/SCFTransformOps.td
+* /usr/include/mlir/Dialect/SCF/Transforms/BufferDeallocationOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/SCF/Transforms/BufferizableOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/SCF/Transforms/Passes.h
 * /usr/include/mlir/Dialect/SCF/Transforms/Passes.h.inc
@@ -815,6 +938,10 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorAttrEnums.cpp.inc
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorAttrEnums.h.inc
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorBase.td
+* /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorInterfaces.cpp.inc
+* /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorInterfaces.h
+* /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorInterfaces.h.inc
+* /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorInterfaces.td
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorOps.cpp.inc
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorOps.h.inc
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorOps.td
@@ -828,6 +955,10 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorTypes.h.inc
 * /usr/include/mlir/Dialect/SparseTensor/IR/SparseTensorTypes.td
 * /usr/include/mlir/Dialect/SparseTensor/Pipelines/Passes.h
+* /usr/include/mlir/Dialect/SparseTensor/TransformOps/SparseTensorTransformOps.cpp.inc
+* /usr/include/mlir/Dialect/SparseTensor/TransformOps/SparseTensorTransformOps.h
+* /usr/include/mlir/Dialect/SparseTensor/TransformOps/SparseTensorTransformOps.h.inc
+* /usr/include/mlir/Dialect/SparseTensor/TransformOps/SparseTensorTransformOps.td
 * /usr/include/mlir/Dialect/SparseTensor/Transforms/BufferizableOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/SparseTensor/Transforms/Passes.capi.cpp.inc
 * /usr/include/mlir/Dialect/SparseTensor/Transforms/Passes.capi.h.inc
@@ -835,7 +966,6 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/SparseTensor/Transforms/Passes.h.inc
 * /usr/include/mlir/Dialect/SparseTensor/Transforms/Passes.td
 * /usr/include/mlir/Dialect/SparseTensor/Utils/Merger.h
-* /usr/include/mlir/Dialect/SparseTensor/Utils/MergerNewtypes.h
 * /usr/include/mlir/Dialect/SPIRV/IR/SPIRVArithmeticOps.td
 * /usr/include/mlir/Dialect/SPIRV/IR/SPIRVAtomicOps.td
 * /usr/include/mlir/Dialect/SPIRV/IR/SPIRVAttributes.cpp.inc
@@ -914,11 +1044,15 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Tensor/Transforms/Passes.h
 * /usr/include/mlir/Dialect/Tensor/Transforms/Passes.h.inc
 * /usr/include/mlir/Dialect/Tensor/Transforms/Passes.td
+* /usr/include/mlir/Dialect/Tensor/Transforms/SubsetInsertionOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/Tensor/Transforms/Transforms.h
 * /usr/include/mlir/Dialect/Tensor/Transforms/TransformUtils.h
 * /usr/include/mlir/Dialect/Tensor/Utils/Utils.h
+* /usr/include/mlir/Dialect/Tosa/IR/ShardingInterfaceImpl.h
 * /usr/include/mlir/Dialect/Tosa/IR/TosaAttributes.cpp.inc
 * /usr/include/mlir/Dialect/Tosa/IR/TosaAttributes.h.inc
+* /usr/include/mlir/Dialect/Tosa/IR/TosaDialectBytecode.cpp.inc
+* /usr/include/mlir/Dialect/Tosa/IR/TosaDialectBytecode.td
 * /usr/include/mlir/Dialect/Tosa/IR/TosaInterfaces.cpp.inc
 * /usr/include/mlir/Dialect/Tosa/IR/TosaInterfaces.h.inc
 * /usr/include/mlir/Dialect/Tosa/IR/TosaInterfaces.td
@@ -942,6 +1076,11 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Tosa/Utils/QuantUtils.h
 * /usr/include/mlir/Dialect/Tosa/Utils/ShapeUtils.h
 * /usr/include/mlir/Dialect/Traits.h
+* /usr/include/mlir/Dialect/Transform/DebugExtension/DebugExtension.h
+* /usr/include/mlir/Dialect/Transform/DebugExtension/DebugExtensionOps.cpp.inc
+* /usr/include/mlir/Dialect/Transform/DebugExtension/DebugExtensionOps.h
+* /usr/include/mlir/Dialect/Transform/DebugExtension/DebugExtensionOps.h.inc
+* /usr/include/mlir/Dialect/Transform/DebugExtension/DebugExtensionOps.td
 * /usr/include/mlir/Dialect/Transform/IR/MatchInterfaces.cpp.inc
 * /usr/include/mlir/Dialect/Transform/IR/MatchInterfaces.h
 * /usr/include/mlir/Dialect/Transform/IR/MatchInterfaces.h.inc
@@ -972,6 +1111,12 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Transform/IR/TransformTypes.h
 * /usr/include/mlir/Dialect/Transform/IR/TransformTypes.h.inc
 * /usr/include/mlir/Dialect/Transform/IR/TransformTypes.td
+* /usr/include/mlir/Dialect/Transform/IR/Utils.h
+* /usr/include/mlir/Dialect/Transform/LoopExtension/LoopExtension.h
+* /usr/include/mlir/Dialect/Transform/LoopExtension/LoopExtensionOps.cpp.inc
+* /usr/include/mlir/Dialect/Transform/LoopExtension/LoopExtensionOps.h
+* /usr/include/mlir/Dialect/Transform/LoopExtension/LoopExtensionOps.h.inc
+* /usr/include/mlir/Dialect/Transform/LoopExtension/LoopExtensionOps.td
 * /usr/include/mlir/Dialect/Transform/PDLExtension/PDLExtension.h
 * /usr/include/mlir/Dialect/Transform/PDLExtension/PDLExtensionOps.cpp.inc
 * /usr/include/mlir/Dialect/Transform/PDLExtension/PDLExtensionOps.h
@@ -981,6 +1126,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Transform/Transforms/Passes.h.inc
 * /usr/include/mlir/Dialect/Transform/Transforms/Passes.td
 * /usr/include/mlir/Dialect/Transform/Transforms/TransformInterpreterPassBase.h
+* /usr/include/mlir/Dialect/Transform/Transforms/TransformInterpreterUtils.h
 * /usr/include/mlir/Dialect/Transform/Utils/DiagnosedSilenceableFailure.h
 * /usr/include/mlir/Dialect/Transform/Utils/RaggedArray.h
 * /usr/include/mlir/Dialect/Transform/Utils/Utils.h
@@ -1010,18 +1156,22 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Vector/Interfaces/MaskingOpInterface.h
 * /usr/include/mlir/Dialect/Vector/Interfaces/MaskingOpInterface.h.inc
 * /usr/include/mlir/Dialect/Vector/Interfaces/MaskingOpInterface.td
+* /usr/include/mlir/Dialect/Vector/IR/Vector.cpp.inc
+* /usr/include/mlir/Dialect/Vector/IR/Vector.h.inc
+* /usr/include/mlir/Dialect/Vector/IR/Vector.td
+* /usr/include/mlir/Dialect/Vector/IR/VectorAttributes.cpp.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorAttributes.h.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorAttributes.td
+* /usr/include/mlir/Dialect/Vector/IR/VectorDialect.cpp.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorDialect.h.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorEnums.cpp.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorEnums.h.inc
 * /usr/include/mlir/Dialect/Vector/IR/VectorOps.cpp.inc
 * /usr/include/mlir/Dialect/Vector/IR/VectorOps.h
 * /usr/include/mlir/Dialect/Vector/IR/VectorOps.h.inc
 * /usr/include/mlir/Dialect/Vector/IR/VectorOps.td
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsAttrDefs.cpp.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsAttrDefs.h.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsDialect.cpp.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsDialect.h.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsEnums.cpp.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsEnums.h.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsTypes.cpp.inc
-* /usr/include/mlir/Dialect/Vector/IR/VectorOpsTypes.h.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorTypes.cpp.inc
+* /usr/include/mlir/Dialect/Vector/IR/VectorTypes.h.inc
 * /usr/include/mlir/Dialect/Vector/TransformOps/VectorTransformOps.cpp.inc
 * /usr/include/mlir/Dialect/Vector/TransformOps/VectorTransformOps.h
 * /usr/include/mlir/Dialect/Vector/TransformOps/VectorTransformOps.h.inc
@@ -1031,6 +1181,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Dialect/Vector/Transforms/Passes.h
 * /usr/include/mlir/Dialect/Vector/Transforms/Passes.h.inc
 * /usr/include/mlir/Dialect/Vector/Transforms/Passes.td
+* /usr/include/mlir/Dialect/Vector/Transforms/SubsetOpInterfaceImpl.h
 * /usr/include/mlir/Dialect/Vector/Transforms/VectorDistribution.h
 * /usr/include/mlir/Dialect/Vector/Transforms/VectorRewritePatterns.h
 * /usr/include/mlir/Dialect/Vector/Transforms/VectorTransforms.h
@@ -1058,11 +1209,10 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/ExecutionEngine/OptUtils.h
 * /usr/include/mlir/ExecutionEngine/RunnerUtils.h
 * /usr/include/mlir/ExecutionEngine/SparseTensor/ArithmeticUtils.h
-* /usr/include/mlir/ExecutionEngine/SparseTensor/Attributes.h
 * /usr/include/mlir/ExecutionEngine/SparseTensor/COO.h
 * /usr/include/mlir/ExecutionEngine/SparseTensor/ErrorHandling.h
 * /usr/include/mlir/ExecutionEngine/SparseTensor/File.h
-* /usr/include/mlir/ExecutionEngine/SparseTensor/PermutationRef.h
+* /usr/include/mlir/ExecutionEngine/SparseTensor/MapRef.h
 * /usr/include/mlir/ExecutionEngine/SparseTensor/Storage.h
 * /usr/include/mlir/ExecutionEngine/SparseTensorRuntime.h
 * /usr/include/mlir/InitAllDialects.h
@@ -1102,6 +1252,11 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Interfaces/DestinationStyleOpInterface.h.inc
 * /usr/include/mlir/Interfaces/DestinationStyleOpInterface.td
 * /usr/include/mlir/Interfaces/FoldInterfaces.h
+* /usr/include/mlir/Interfaces/FunctionImplementation.h
+* /usr/include/mlir/Interfaces/FunctionInterfaces.cpp.inc
+* /usr/include/mlir/Interfaces/FunctionInterfaces.h
+* /usr/include/mlir/Interfaces/FunctionInterfaces.h.inc
+* /usr/include/mlir/Interfaces/FunctionInterfaces.td
 * /usr/include/mlir/Interfaces/InferIntRangeInterface.cpp.inc
 * /usr/include/mlir/Interfaces/InferIntRangeInterface.h
 * /usr/include/mlir/Interfaces/InferIntRangeInterface.h.inc
@@ -1137,6 +1292,10 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Interfaces/SideEffectInterfaces.h
 * /usr/include/mlir/Interfaces/SideEffectInterfaces.h.inc
 * /usr/include/mlir/Interfaces/SideEffectInterfaces.td
+* /usr/include/mlir/Interfaces/SubsetOpInterface.cpp.inc
+* /usr/include/mlir/Interfaces/SubsetOpInterface.h
+* /usr/include/mlir/Interfaces/SubsetOpInterface.h.inc
+* /usr/include/mlir/Interfaces/SubsetOpInterface.td
 * /usr/include/mlir/Interfaces/TilingInterface.cpp.inc
 * /usr/include/mlir/Interfaces/TilingInterface.h
 * /usr/include/mlir/Interfaces/TilingInterface.h.inc
@@ -1196,6 +1355,9 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/IR/BuiltinTypes.h.inc
 * /usr/include/mlir/IR/BuiltinTypes.td
 * /usr/include/mlir/IR/BytecodeBase.td
+* /usr/include/mlir/IR/CommonAttrConstraints.td
+* /usr/include/mlir/IR/CommonTypeConstraints.td
+* /usr/include/mlir/IR/Constraints.td
 * /usr/include/mlir/IR/Diagnostics.h
 * /usr/include/mlir/IR/Dialect.h
 * /usr/include/mlir/IR/DialectBase.td
@@ -1206,13 +1368,9 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/IR/Dominance.h
 * /usr/include/mlir/IR/EnumAttr.td
 * /usr/include/mlir/IR/ExtensibleDialect.h
-* /usr/include/mlir/IR/FunctionImplementation.h
-* /usr/include/mlir/IR/FunctionInterfaces.h
-* /usr/include/mlir/IR/FunctionInterfaces.td
-* /usr/include/mlir/IR/FunctionOpInterfaces.cpp.inc
-* /usr/include/mlir/IR/FunctionOpInterfaces.h.inc
 * /usr/include/mlir/IR/ImplicitLocOpBuilder.h
 * /usr/include/mlir/IR/IntegerSet.h
+* /usr/include/mlir/IR/Interfaces.td
 * /usr/include/mlir/IR/IRMapping.h
 * /usr/include/mlir/IR/Iterators.h
 * /usr/include/mlir/IR/Location.h
@@ -1230,6 +1388,8 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/IR/OwningOpRef.h
 * /usr/include/mlir/IR/PatternBase.td
 * /usr/include/mlir/IR/PatternMatch.h
+* /usr/include/mlir/IR/PDLPatternMatch.h.inc
+* /usr/include/mlir/IR/Properties.td
 * /usr/include/mlir/IR/Region.h
 * /usr/include/mlir/IR/RegionGraphTraits.h
 * /usr/include/mlir/IR/RegionKindInterface.cpp.inc
@@ -1246,12 +1406,14 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/IR/TensorEncoding.h
 * /usr/include/mlir/IR/TensorEncoding.td
 * /usr/include/mlir/IR/Threading.h
+* /usr/include/mlir/IR/Traits.td
 * /usr/include/mlir/IR/TypeRange.h
 * /usr/include/mlir/IR/Types.h
 * /usr/include/mlir/IR/TypeSupport.h
 * /usr/include/mlir/IR/TypeUtilities.h
 * /usr/include/mlir/IR/Unit.h
 * /usr/include/mlir/IR/UseDefLists.h
+* /usr/include/mlir/IR/Utils.td
 * /usr/include/mlir/IR/Value.h
 * /usr/include/mlir/IR/ValueRange.h
 * /usr/include/mlir/IR/Verifier.h
@@ -1264,6 +1426,14 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Pass/PassManager.h
 * /usr/include/mlir/Pass/PassOptions.h
 * /usr/include/mlir/Pass/PassRegistry.h
+* /usr/include/mlir/Query/Matcher/ErrorBuilder.h
+* /usr/include/mlir/Query/Matcher/Marshallers.h
+* /usr/include/mlir/Query/Matcher/MatchersInternal.h
+* /usr/include/mlir/Query/Matcher/MatchFinder.h
+* /usr/include/mlir/Query/Matcher/Registry.h
+* /usr/include/mlir/Query/Matcher/VariantValue.h
+* /usr/include/mlir/Query/Query.h
+* /usr/include/mlir/Query/QuerySession.h
 * /usr/include/mlir/Reducer/Passes.h
 * /usr/include/mlir/Reducer/Passes.h.inc
 * /usr/include/mlir/Reducer/Passes.td
@@ -1273,6 +1443,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Rewrite/FrozenRewritePatternSet.h
 * /usr/include/mlir/Rewrite/PassUtil.td
 * /usr/include/mlir/Rewrite/PatternApplicator.h
+* /usr/include/mlir/Support/ADTExtras.h
 * /usr/include/mlir/Support/DebugStringHelper.h
 * /usr/include/mlir/Support/FileUtilities.h
 * /usr/include/mlir/Support/IndentedOstream.h
@@ -1280,6 +1451,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Support/LLVM.h
 * /usr/include/mlir/Support/LogicalResult.h
 * /usr/include/mlir/Support/MathExtras.h
+* /usr/include/mlir/Support/RawOstreamExtras.h
 * /usr/include/mlir/Support/StorageUniquer.h
 * /usr/include/mlir/Support/ThreadLocalCache.h
 * /usr/include/mlir/Support/Timing.h
@@ -1308,6 +1480,11 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/TableGen/Trait.h
 * /usr/include/mlir/TableGen/Type.h
 * /usr/include/mlir/Target/Cpp/CppEmitter.h
+* /usr/include/mlir/Target/LLVM/ModuleToObject.h
+* /usr/include/mlir/Target/LLVM/NVVM/Target.h
+* /usr/include/mlir/Target/LLVM/NVVM/Utils.h
+* /usr/include/mlir/Target/LLVM/ROCDL/Target.h
+* /usr/include/mlir/Target/LLVM/ROCDL/Utils.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/All.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/AMX/AMXToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/ArmNeon/ArmNeonToLLVMIRTranslation.h
@@ -1317,11 +1494,13 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Target/LLVMIR/Dialect/GPU/GPUToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMIRToLLVMTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMToLLVMIRTranslation.h
+* /usr/include/mlir/Target/LLVMIR/Dialect/NVVM/LLVMIRToNVVMTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/NVVM/NVVMToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/OpenACC/OpenACCToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/OpenMP/OpenMPToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/OpenMPCommon.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/ROCDL/ROCDLToLLVMIRTranslation.h
+* /usr/include/mlir/Target/LLVMIR/Dialect/SPIRV/SPIRVToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Dialect/X86Vector/X86VectorToLLVMIRTranslation.h
 * /usr/include/mlir/Target/LLVMIR/Export.h
 * /usr/include/mlir/Target/LLVMIR/Import.h
@@ -1334,6 +1513,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Target/SPIRV/Deserialization.h
 * /usr/include/mlir/Target/SPIRV/Serialization.h
 * /usr/include/mlir/Target/SPIRV/SPIRVBinaryUtils.h
+* /usr/include/mlir/Target/SPIRV/Target.h
 * /usr/include/mlir/Tools/lsp-server-support/CompilationDatabase.h
 * /usr/include/mlir/Tools/lsp-server-support/Logging.h
 * /usr/include/mlir/Tools/lsp-server-support/Protocol.h
@@ -1342,6 +1522,7 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Tools/mlir-lsp-server/MlirLspServerMain.h
 * /usr/include/mlir/Tools/mlir-opt/MlirOptMain.h
 * /usr/include/mlir/Tools/mlir-pdll-lsp-server/MlirPdllLspServerMain.h
+* /usr/include/mlir/Tools/mlir-query/MlirQueryMain.h
 * /usr/include/mlir/Tools/mlir-reduce/MlirReduceMain.h
 * /usr/include/mlir/Tools/mlir-tblgen/MlirTblgenMain.h
 * /usr/include/mlir/Tools/mlir-translate/MlirTranslateMain.h
@@ -1362,12 +1543,15 @@ Multi-Level Intermediate Representation
 * /usr/include/mlir/Tools/Plugins/DialectPlugin.h
 * /usr/include/mlir/Tools/Plugins/PassPlugin.h
 * /usr/include/mlir/Tools/tblgen-lsp-server/TableGenLspServerMain.h
+* /usr/include/mlir/Transforms/CFGToSCF.h
 * /usr/include/mlir/Transforms/CommutativityUtils.h
 * /usr/include/mlir/Transforms/ControlFlowSinkUtils.h
 * /usr/include/mlir/Transforms/CSE.h
 * /usr/include/mlir/Transforms/DialectConversion.h
+* /usr/include/mlir/Transforms/EndomorphismSimplification.h
 * /usr/include/mlir/Transforms/FoldUtils.h
 * /usr/include/mlir/Transforms/GreedyPatternRewriteDriver.h
+* /usr/include/mlir/Transforms/HomomorphismSimplification.h
 * /usr/include/mlir/Transforms/InliningUtils.h
 * /usr/include/mlir/Transforms/LocationSnapshot.h
 * /usr/include/mlir/Transforms/LoopInvariantCodeMotionUtils.h
@@ -1390,7 +1574,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/cmake/mlir/MLIRTargets-release.cmake
 * /usr/lib/cmake/mlir/MLIRTargets.cmake
 * /usr/lib/libMLIR.so
-* /usr/lib/libMLIR.so.17
+* /usr/lib/libMLIR.so.18.1
 * /usr/lib/libMLIRAffineAnalysis.a
 * /usr/lib/libMLIRAffineDialect.a
 * /usr/lib/libMLIRAffineToStandard.a
@@ -1409,6 +1593,8 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRArithAttrToLLVMConversion.a
 * /usr/lib/libMLIRArithDialect.a
 * /usr/lib/libMLIRArithTestPasses.a
+* /usr/lib/libMLIRArithToAMDGPU.a
+* /usr/lib/libMLIRArithToArmSME.a
 * /usr/lib/libMLIRArithToLLVM.a
 * /usr/lib/libMLIRArithToSPIRV.a
 * /usr/lib/libMLIRArithTransforms.a
@@ -1418,9 +1604,10 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRArmNeonDialect.a
 * /usr/lib/libMLIRArmNeonToLLVMIRTranslation.a
 * /usr/lib/libMLIRArmSMEDialect.a
+* /usr/lib/libMLIRArmSMEToLLVM.a
 * /usr/lib/libMLIRArmSMEToLLVMIRTranslation.a
+* /usr/lib/libMLIRArmSMEToSCF.a
 * /usr/lib/libMLIRArmSMETransforms.a
-* /usr/lib/libMLIRArmSMEUtils.a
 * /usr/lib/libMLIRArmSVEDialect.a
 * /usr/lib/libMLIRArmSVEToLLVMIRTranslation.a
 * /usr/lib/libMLIRArmSVETransforms.a
@@ -1429,6 +1616,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRAsyncToLLVM.a
 * /usr/lib/libMLIRAsyncTransforms.a
 * /usr/lib/libMLIRBufferizationDialect.a
+* /usr/lib/libMLIRBufferizationPipelines.a
 * /usr/lib/libMLIRBufferizationTestPasses.a
 * /usr/lib/libMLIRBufferizationToMemRef.a
 * /usr/lib/libMLIRBufferizationTransformOps.a
@@ -1438,6 +1626,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRBytecodeReader.a
 * /usr/lib/libMLIRBytecodeWriter.a
 * /usr/lib/libMLIRCallInterfaces.a
+* /usr/lib/libMLIRCAPIAMDGPU.a
 * /usr/lib/libMLIRCAPIArith.a
 * /usr/lib/libMLIRCAPIAsync.a
 * /usr/lib/libMLIRCAPIControlFlow.a
@@ -1453,12 +1642,18 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRCAPIMath.a
 * /usr/lib/libMLIRCAPIMemRef.a
 * /usr/lib/libMLIRCAPIMLProgram.a
+* /usr/lib/libMLIRCAPINVGPU.a
+* /usr/lib/libMLIRCAPINVVM.a
+* /usr/lib/libMLIRCAPIOpenMP.a
 * /usr/lib/libMLIRCAPIPDL.a
 * /usr/lib/libMLIRCAPIQuant.a
 * /usr/lib/libMLIRCAPIRegisterEverything.a
+* /usr/lib/libMLIRCAPIROCDL.a
 * /usr/lib/libMLIRCAPISCF.a
 * /usr/lib/libMLIRCAPIShape.a
 * /usr/lib/libMLIRCAPISparseTensor.a
+* /usr/lib/libMLIRCAPISPIRV.a
+* /usr/lib/libMLIRCAPITarget.a
 * /usr/lib/libMLIRCAPITensor.a
 * /usr/lib/libMLIRCAPITransformDialect.a
 * /usr/lib/libMLIRCAPITransforms.a
@@ -1473,7 +1668,11 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRControlFlowInterfaces.a
 * /usr/lib/libMLIRControlFlowTestPasses.a
 * /usr/lib/libMLIRControlFlowToLLVM.a
+* /usr/lib/libMLIRControlFlowToSCF.a
 * /usr/lib/libMLIRControlFlowToSPIRV.a
+* /usr/lib/libMLIRControlFlowTransforms.a
+* /usr/lib/libMLIRConvertToLLVMInterface.a
+* /usr/lib/libMLIRConvertToLLVMPass.a
 * /usr/lib/libMLIRCopyOpInterface.a
 * /usr/lib/libMLIRDataLayoutInterfaces.a
 * /usr/lib/libMLIRDebug.a
@@ -1484,6 +1683,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRDLTIDialect.a
 * /usr/lib/libMLIRDLTITestPasses.a
 * /usr/lib/libMLIREmitCDialect.a
+* /usr/lib/libMLIREmitCTransforms.a
 * /usr/lib/libMLIRExecutionEngine.a
 * /usr/lib/libMLIRExecutionEngineUtils.a
 * /usr/lib/libMLIRFromLLVMIRTranslationRegistration.a
@@ -1491,10 +1691,13 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRFuncDialect.a
 * /usr/lib/libMLIRFuncInlinerExtension.a
 * /usr/lib/libMLIRFuncTestPasses.a
+* /usr/lib/libMLIRFunctionInterfaces.a
 * /usr/lib/libMLIRFuncToLLVM.a
 * /usr/lib/libMLIRFuncToSPIRV.a
+* /usr/lib/libMLIRFuncTransformOps.a
 * /usr/lib/libMLIRFuncTransforms.a
 * /usr/lib/libMLIRGPUDialect.a
+* /usr/lib/libMLIRGPUPipelines.a
 * /usr/lib/libMLIRGPUTestPasses.a
 * /usr/lib/libMLIRGPUToGPURuntimeTransforms.a
 * /usr/lib/libMLIRGPUToLLVMIRTranslation.a
@@ -1506,6 +1709,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRGPUTransforms.a
 * /usr/lib/libMLIRIndexDialect.a
 * /usr/lib/libMLIRIndexToLLVM.a
+* /usr/lib/libMLIRIndexToSPIRV.a
 * /usr/lib/libMLIRInferIntRangeCommon.a
 * /usr/lib/libMLIRInferIntRangeInterface.a
 * /usr/lib/libMLIRInferTypeOpInterface.a
@@ -1514,7 +1718,6 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRJitRunner.a
 * /usr/lib/libMLIRLinalgDialect.a
 * /usr/lib/libMLIRLinalgTestPasses.a
-* /usr/lib/libMLIRLinalgToLLVM.a
 * /usr/lib/libMLIRLinalgToStandard.a
 * /usr/lib/libMLIRLinalgTransformOps.a
 * /usr/lib/libMLIRLinalgTransforms.a
@@ -1522,6 +1725,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRLLVMCommonConversion.a
 * /usr/lib/libMLIRLLVMDialect.a
 * /usr/lib/libMLIRLLVMIRToLLVMTranslation.a
+* /usr/lib/libMLIRLLVMIRToNVVMTranslation.a
 * /usr/lib/libMLIRLLVMIRTransforms.a
 * /usr/lib/libMLIRLLVMTestPasses.a
 * /usr/lib/libMLIRLLVMToLLVMIRTranslation.a
@@ -1546,8 +1750,12 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRMemRefTransformOps.a
 * /usr/lib/libMLIRMemRefTransforms.a
 * /usr/lib/libMLIRMemRefUtils.a
+* /usr/lib/libMLIRMeshDialect.a
+* /usr/lib/libMLIRMeshTest.a
+* /usr/lib/libMLIRMeshTransforms.a
 * /usr/lib/libMLIRMlirOptMain.a
 * /usr/lib/libMLIRMLProgramDialect.a
+* /usr/lib/libMLIRMLProgramTransforms.a
 * /usr/lib/libMLIRNVGPUDialect.a
 * /usr/lib/libMLIRNVGPUTestPasses.a
 * /usr/lib/libMLIRNVGPUToNVVM.a
@@ -1555,10 +1763,12 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRNVGPUTransforms.a
 * /usr/lib/libMLIRNVGPUUtils.a
 * /usr/lib/libMLIRNVVMDialect.a
+* /usr/lib/libMLIRNVVMTarget.a
 * /usr/lib/libMLIRNVVMToLLVM.a
 * /usr/lib/libMLIRNVVMToLLVMIRTranslation.a
 * /usr/lib/libMLIRObservers.a
 * /usr/lib/libMLIROpenACCDialect.a
+* /usr/lib/libMLIROpenACCMPCommon.a
 * /usr/lib/libMLIROpenACCToLLVMIRTranslation.a
 * /usr/lib/libMLIROpenACCToSCF.a
 * /usr/lib/libMLIROpenMPDialect.a
@@ -1578,16 +1788,22 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRPresburger.a
 * /usr/lib/libMLIRQuantDialect.a
 * /usr/lib/libMLIRQuantUtils.a
+* /usr/lib/libMLIRQuery.a
+* /usr/lib/libMLIRQueryLib.a
+* /usr/lib/libMLIRQueryMatcher.a
 * /usr/lib/libMLIRReconcileUnrealizedCasts.a
 * /usr/lib/libMLIRReduce.a
 * /usr/lib/libMLIRReduceLib.a
 * /usr/lib/libMLIRRewrite.a
+* /usr/lib/libMLIRRewritePDL.a
 * /usr/lib/libMLIRROCDLDialect.a
+* /usr/lib/libMLIRROCDLTarget.a
 * /usr/lib/libMLIRROCDLToLLVMIRTranslation.a
 * /usr/lib/libMLIRRuntimeVerifiableOpInterface.a
 * /usr/lib/libMLIRSCFDialect.a
 * /usr/lib/libMLIRSCFTestPasses.a
 * /usr/lib/libMLIRSCFToControlFlow.a
+* /usr/lib/libMLIRSCFToEmitC.a
 * /usr/lib/libMLIRSCFToGPU.a
 * /usr/lib/libMLIRSCFToOpenMP.a
 * /usr/lib/libMLIRSCFToSPIRV.a
@@ -1599,10 +1815,12 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRShapeOpsTransforms.a
 * /usr/lib/libMLIRShapeTestPasses.a
 * /usr/lib/libMLIRShapeToStandard.a
+* /usr/lib/libMLIRShardingInterface.a
 * /usr/lib/libMLIRSideEffectInterfaces.a
 * /usr/lib/libMLIRSparseTensorDialect.a
 * /usr/lib/libMLIRSparseTensorPipelines.a
 * /usr/lib/libMLIRSparseTensorRuntime.a
+* /usr/lib/libMLIRSparseTensorTransformOps.a
 * /usr/lib/libMLIRSparseTensorTransforms.a
 * /usr/lib/libMLIRSparseTensorUtils.a
 * /usr/lib/libMLIRSPIRVBinaryUtils.a
@@ -1611,14 +1829,18 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRSPIRVDialect.a
 * /usr/lib/libMLIRSPIRVModuleCombiner.a
 * /usr/lib/libMLIRSPIRVSerialization.a
+* /usr/lib/libMLIRSPIRVTarget.a
 * /usr/lib/libMLIRSPIRVTestPasses.a
 * /usr/lib/libMLIRSPIRVToLLVM.a
+* /usr/lib/libMLIRSPIRVToLLVMIRTranslation.a
 * /usr/lib/libMLIRSPIRVTransforms.a
 * /usr/lib/libMLIRSPIRVTranslateRegistration.a
 * /usr/lib/libMLIRSPIRVUtils.a
+* /usr/lib/libMLIRSubsetOpInterface.a
 * /usr/lib/libMLIRSupport.a
 * /usr/lib/libMLIRTableGen.a
 * /usr/lib/libMLIRTargetCpp.a
+* /usr/lib/libMLIRTargetLLVM.a
 * /usr/lib/libMLIRTargetLLVMIRExport.a
 * /usr/lib/libMLIRTargetLLVMIRImport.a
 * /usr/lib/libMLIRTblgenLib.a
@@ -1641,6 +1863,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRTestPDLL.a
 * /usr/lib/libMLIRTestReducer.a
 * /usr/lib/libMLIRTestRewrite.a
+* /usr/lib/libMLIRTestToLLVMIRTranslation.a
 * /usr/lib/libMLIRTestTransformDialect.a
 * /usr/lib/libMLIRTestTransforms.a
 * /usr/lib/libMLIRTestVectorToSPIRV.a
@@ -1648,15 +1871,19 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRTilingInterfaceTestPasses.a
 * /usr/lib/libMLIRToLLVMIRTranslationRegistration.a
 * /usr/lib/libMLIRTosaDialect.a
+* /usr/lib/libMLIRTosaShardingInterfaceImpl.a
 * /usr/lib/libMLIRTosaTestPasses.a
 * /usr/lib/libMLIRTosaToArith.a
 * /usr/lib/libMLIRTosaToLinalg.a
+* /usr/lib/libMLIRTosaToMLProgram.a
 * /usr/lib/libMLIRTosaToSCF.a
 * /usr/lib/libMLIRTosaToTensor.a
 * /usr/lib/libMLIRTosaTransforms.a
+* /usr/lib/libMLIRTransformDebugExtension.a
 * /usr/lib/libMLIRTransformDialect.a
 * /usr/lib/libMLIRTransformDialectTransforms.a
 * /usr/lib/libMLIRTransformDialectUtils.a
+* /usr/lib/libMLIRTransformLoopExtension.a
 * /usr/lib/libMLIRTransformPDLExtension.a
 * /usr/lib/libMLIRTransforms.a
 * /usr/lib/libMLIRTransformUtils.a
@@ -1671,6 +1898,7 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRVectorToArmSME.a
 * /usr/lib/libMLIRVectorToGPU.a
 * /usr/lib/libMLIRVectorToLLVM.a
+* /usr/lib/libMLIRVectorToLLVMPass.a
 * /usr/lib/libMLIRVectorToSCF.a
 * /usr/lib/libMLIRVectorToSPIRV.a
 * /usr/lib/libMLIRVectorTransformOps.a
@@ -1680,11 +1908,15 @@ Multi-Level Intermediate Representation
 * /usr/lib/libMLIRX86VectorDialect.a
 * /usr/lib/libMLIRX86VectorToLLVMIRTranslation.a
 * /usr/lib/libMLIRX86VectorTransforms.a
+* /usr/lib/libmlir_arm_runner_utils.so
+* /usr/lib/libmlir_arm_runner_utils.so.18.1
+* /usr/lib/libmlir_arm_sme_abi_stubs.so
+* /usr/lib/libmlir_arm_sme_abi_stubs.so.18.1
 * /usr/lib/libmlir_async_runtime.so
-* /usr/lib/libmlir_async_runtime.so.17
+* /usr/lib/libmlir_async_runtime.so.18.1
 * /usr/lib/libmlir_c_runner_utils.so
-* /usr/lib/libmlir_c_runner_utils.so.17
+* /usr/lib/libmlir_c_runner_utils.so.18.1
 * /usr/lib/libmlir_float16_utils.so
-* /usr/lib/libmlir_float16_utils.so.17
+* /usr/lib/libmlir_float16_utils.so.18.1
 * /usr/lib/libmlir_runner_utils.so
-* /usr/lib/libmlir_runner_utils.so.17
+* /usr/lib/libmlir_runner_utils.so.18.1

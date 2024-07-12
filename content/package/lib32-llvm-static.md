@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm-static 17.0.6-4"
-version = "17.0.6-4"
+title = "lib32-llvm-static 18.1.8-1"
+version = "18.1.8-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/219972"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "118358408"
-usize = "1464510548"
-sha1sum = "289431624bb74070a87a840c6f673e91217da09b"
+size = "123861336"
+usize = "1526321628"
+sha1sum = "c3220413cabf67b47280289afea13dd27315bb89"
 depends = "[]"
 +++
 ### Description: 
@@ -73,6 +73,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMDiff.a
 * /usr/lib32/libLLVMDlltoolDriver.a
 * /usr/lib32/libLLVMDWARFLinker.a
+* /usr/lib32/libLLVMDWARFLinkerClassic.a
 * /usr/lib32/libLLVMDWARFLinkerParallel.a
 * /usr/lib32/libLLVMDWP.a
 * /usr/lib32/libLLVMExecutionEngine.a
@@ -83,7 +84,9 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMExegesisX86.a
 * /usr/lib32/libLLVMExtensions.a
 * /usr/lib32/libLLVMFileCheck.a
+* /usr/lib32/libLLVMFrontendDriver.a
 * /usr/lib32/libLLVMFrontendHLSL.a
+* /usr/lib32/libLLVMFrontendOffloading.a
 * /usr/lib32/libLLVMFrontendOpenACC.a
 * /usr/lib32/libLLVMFrontendOpenMP.a
 * /usr/lib32/libLLVMFuzzerCLI.a
@@ -94,6 +97,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMHexagonDesc.a
 * /usr/lib32/libLLVMHexagonDisassembler.a
 * /usr/lib32/libLLVMHexagonInfo.a
+* /usr/lib32/libLLVMHipStdPar.a
 * /usr/lib32/libLLVMInstCombine.a
 * /usr/lib32/libLLVMInstrumentation.a
 * /usr/lib32/libLLVMInterfaceStub.a
@@ -140,6 +144,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMObject.a
 * /usr/lib32/libLLVMObjectYAML.a
 * /usr/lib32/libLLVMOption.a
+* /usr/lib32/libLLVMOrcDebugging.a
 * /usr/lib32/libLLVMOrcJIT.a
 * /usr/lib32/libLLVMOrcShared.a
 * /usr/lib32/libLLVMOrcTargetProcess.a
@@ -179,6 +184,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMTarget.a
 * /usr/lib32/libLLVMTargetParser.a
 * /usr/lib32/libLLVMTextAPI.a
+* /usr/lib32/libLLVMTextAPIBinaryReader.a
 * /usr/lib32/libLLVMTransformUtils.a
 * /usr/lib32/libLLVMVEAsmParser.a
 * /usr/lib32/libLLVMVECodeGen.a

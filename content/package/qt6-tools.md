@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-tools 6.7.2-1"
-version = "6.7.2-1"
+title = "qt6-tools 6.7.2-2"
+version = "6.7.2-2"
 description = "The Qt6 toolkit, qttools"
-date = "2024-06-19T14:53:28"
+date = "2024-07-12T19:59:06"
 aliases = "/packages/220761"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "6132528"
-usize = "19743472"
-sha1sum = "a90bfdec97c3d3a6705f3122a245532695deb55a"
-depends = "['clang-libs>=17.0.6', 'qt6-declarative', 'zstd']"
+size = "6132964"
+usize = "19744496"
+sha1sum = "865d30cf6159883c650175cf35cfddc01b135cde"
+depends = "['clang-libs>=18.1.8', 'qt6-declarative', 'zstd']"
 reverse_depends = "['kde-dev-utils', 'kwin', 'qtcreator']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "shiboken2 5.15.11-5"
-version = "5.15.11-5"
+title = "shiboken2 5.15.14-1"
+version = "5.15.14-1"
 description = "Support library for Python bindings."
-date = "2024-05-26T21:54:13"
+date = "2024-07-12T21:08:14"
 aliases = "/packages/220140"
 categories = ['devel-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "595508"
-usize = "2002236"
-sha1sum = "7cf910cebb478a18eb4bb8de7047378e0a727384"
-depends = "['clang-libs>=17.0.6', 'libxslt', 'qt5-xmlpatterns>=5.15.10']"
+size = "599340"
+usize = "1992552"
+sha1sum = "feabda8534430c2fba871fd2d5293aa02168db94"
+depends = "['clang-libs>=18.1.8', 'libxslt', 'qt5-xmlpatterns>=5.15.10']"
 +++
 ### Description: 
 Support library for Python bindings.
@@ -44,15 +44,15 @@ Support library for Python bindings.
 * /usr/include/shiboken2/threadstatesaver.h
 * /usr/include/shiboken2/typespec.h
 * /usr/include/shiboken2/voidptr.h
-* /usr/lib/cmake/Shiboken2-5.15.11/Shiboken2Config.cmake
-* /usr/lib/cmake/Shiboken2-5.15.11/Shiboken2Config.cpython-312-x86_64-linux-gnu.cmake
-* /usr/lib/cmake/Shiboken2-5.15.11/Shiboken2ConfigVersion.cmake
-* /usr/lib/cmake/Shiboken2-5.15.11/Shiboken2Targets-release.cmake
-* /usr/lib/cmake/Shiboken2-5.15.11/Shiboken2Targets.cmake
-* /usr/lib/cmake/Shiboken2-5.15.11/shiboken_helpers.cmake
+* /usr/lib/cmake/Shiboken2-5.15.14/Shiboken2Config.cmake
+* /usr/lib/cmake/Shiboken2-5.15.14/Shiboken2Config.cpython-312-x86_64-linux-gnu.cmake
+* /usr/lib/cmake/Shiboken2-5.15.14/Shiboken2ConfigVersion.cmake
+* /usr/lib/cmake/Shiboken2-5.15.14/Shiboken2Targets-release.cmake
+* /usr/lib/cmake/Shiboken2-5.15.14/Shiboken2Targets.cmake
+* /usr/lib/cmake/Shiboken2-5.15.14/shiboken_helpers.cmake
 * /usr/lib/pkgconfig/shiboken2.pc
-* /usr/share/doc/shiboken2-5.15.11/README.cmake.md
-* /usr/share/doc/shiboken2-5.15.11/README.md
-* /usr/share/doc/shiboken2-5.15.11/README.pyside2.md
-* /usr/share/doc/shiboken2-5.15.11/README.shiboken2-generator.md
-* /usr/share/doc/shiboken2-5.15.11/README.shiboken2.md
+* /usr/share/doc/shiboken2-5.15.14/README.cmake.md
+* /usr/share/doc/shiboken2-5.15.14/README.md
+* /usr/share/doc/shiboken2-5.15.14/README.pyside2.md
+* /usr/share/doc/shiboken2-5.15.14/README.shiboken2-generator.md
+* /usr/share/doc/shiboken2-5.15.14/README.shiboken2.md

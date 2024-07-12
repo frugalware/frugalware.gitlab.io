@@ -12,7 +12,7 @@ size = "2115608"
 usize = "19496545"
 sha1sum = "10fe7e0c5d9838ba88d08506e30411deec685206"
 depends = "['docutils', 'python3>=3.10', 'python3-alabaster', 'python3-babel', 'python3-imagesize', 'python3-jinja', 'python3-pygments', 'python3-requests', 'python3-setuptools', 'python3-snowballstemmer', 'python3-sphinx-applehelp', 'python3-sphinx-devhelp', 'python3-sphinx-htmlhelp', 'python3-sphinx-jsmath', 'python3-sphinx-qthelp', 'python3-sphinx-serializinghtml']"
-reverse_depends = "['python3-breathe', 'python3-hawkmoth', 'sphinx-httpdomain', 'sphinx-jquery', 'sphinx-websupport']"
+reverse_depends = "['python3-breathe', 'python3-hawkmoth', 'python3-myst-parser', 'sphinx-httpdomain', 'sphinx-jquery', 'sphinx-websupport']"
 +++
 ### Description: 
 Python documentation generator

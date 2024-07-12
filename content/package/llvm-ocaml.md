@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "llvm-ocaml 17.0.6-4"
-version = "17.0.6-4"
+title = "llvm-ocaml 18.1.8-1"
+version = "18.1.8-1"
 description = "OCaml bindings for LLVM"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/136476"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "591324"
-usize = "908757"
-sha1sum = "a880bff49378946eeb659615acd8fa552b5ee92e"
-depends = "['llvm>=17.0.6', 'ocaml>=4.10.0']"
+size = "612276"
+usize = "930295"
+sha1sum = "4eb9b6c14f3fa7784e6e9b05f1ecf46377287631"
+depends = "['llvm>=18.1.8', 'ocaml>=4.10.0']"
 +++
 ### Description: 
 OCaml bindings for LLVM
@@ -159,6 +159,13 @@ OCaml bindings for LLVM
 * /usr/lib/ocaml/llvm/llvm_NVPTX.cmx
 * /usr/lib/ocaml/llvm/llvm_NVPTX.cmxa
 * /usr/lib/ocaml/llvm/llvm_NVPTX.mli
+* /usr/lib/ocaml/llvm/llvm_passbuilder.cma
+* /usr/lib/ocaml/llvm/llvm_passbuilder.cmi
+* /usr/lib/ocaml/llvm/llvm_passbuilder.cmt
+* /usr/lib/ocaml/llvm/llvm_passbuilder.cmti
+* /usr/lib/ocaml/llvm/llvm_passbuilder.cmx
+* /usr/lib/ocaml/llvm/llvm_passbuilder.cmxa
+* /usr/lib/ocaml/llvm/llvm_passbuilder.mli
 * /usr/lib/ocaml/llvm/llvm_PowerPC.cma
 * /usr/lib/ocaml/llvm/llvm_PowerPC.cmi
 * /usr/lib/ocaml/llvm/llvm_PowerPC.cmt

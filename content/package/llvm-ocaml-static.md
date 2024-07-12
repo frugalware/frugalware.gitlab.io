@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-ocaml-static 17.0.6-4"
-version = "17.0.6-4"
+title = "llvm-ocaml-static 18.1.8-1"
+version = "18.1.8-1"
 description = "OCaml bindings for LLVM (static)"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/219977"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "562356"
-usize = "1318198"
-sha1sum = "39ac736e8dcab05680749959840db014bd287a49"
+size = "579800"
+usize = "1342824"
+sha1sum = "25af2106027f0b2ce2aefb8426db643bfc387d4f"
 depends = "[]"
 +++
 ### Description: 
@@ -37,6 +37,7 @@ OCaml bindings for LLVM (static)
 * /usr/lib/ocaml/llvm/libllvm_Mips.a
 * /usr/lib/ocaml/llvm/libllvm_MSP430.a
 * /usr/lib/ocaml/llvm/libllvm_NVPTX.a
+* /usr/lib/ocaml/llvm/libllvm_passbuilder.a
 * /usr/lib/ocaml/llvm/libllvm_PowerPC.a
 * /usr/lib/ocaml/llvm/libllvm_RISCV.a
 * /usr/lib/ocaml/llvm/libllvm_Sparc.a
@@ -67,6 +68,7 @@ OCaml bindings for LLVM (static)
 * /usr/lib/ocaml/llvm/llvm_Mips.a
 * /usr/lib/ocaml/llvm/llvm_MSP430.a
 * /usr/lib/ocaml/llvm/llvm_NVPTX.a
+* /usr/lib/ocaml/llvm/llvm_passbuilder.a
 * /usr/lib/ocaml/llvm/llvm_PowerPC.a
 * /usr/lib/ocaml/llvm/llvm_RISCV.a
 * /usr/lib/ocaml/llvm/llvm_Sparc.a

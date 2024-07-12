@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openmp 17.0.6-4"
-version = "17.0.6-4"
+title = "openmp 18.1.8-1"
+version = "18.1.8-1"
 description = "LLVM OpenMP Runtime Library"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/220451"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "857336"
-usize = "22543179"
-sha1sum = "914dbd229a0281772eae5839d5c525e8ff8ec5e2"
-depends = "['llvm-libs>=17.0.6']"
+size = "1294936"
+usize = "28140798"
+sha1sum = "d01eb65e141c742f1a79e71fe99d5e05be7d78ed"
+depends = "['llvm-libs>=18.1.8']"
 reverse_depends = "['darktable']"
 +++
 ### Description: 
@@ -49,6 +49,8 @@ LLVM OpenMP Runtime Library
 * /usr/lib/libomptarget-amdgpu-gfx90a.bc
 * /usr/lib/libomptarget-amdgpu-gfx90c.bc
 * /usr/lib/libomptarget-amdgpu-gfx940.bc
+* /usr/lib/libomptarget-amdgpu-gfx941.bc
+* /usr/lib/libomptarget-amdgpu-gfx942.bc
 * /usr/lib/libomptarget-nvptx-sm_35.bc
 * /usr/lib/libomptarget-nvptx-sm_37.bc
 * /usr/lib/libomptarget-nvptx-sm_50.bc
@@ -67,10 +69,11 @@ LLVM OpenMP Runtime Library
 * /usr/lib/libomptarget-nvptx-sm_90.bc
 * /usr/lib/libomptarget.devicertl.a
 * /usr/lib/libomptarget.rtl.x86_64.so
-* /usr/lib/libomptarget.rtl.x86_64.so.17
+* /usr/lib/libomptarget.rtl.x86_64.so.18.1
 * /usr/lib/libomptarget.so
-* /usr/lib/libomptarget.so.17
+* /usr/lib/libomptarget.so.18.1
 * /usr/share/doc/LLVM/openmp/html/.buildinfo
+* /usr/share/doc/LLVM/openmp/html/CommandLineArgumentReference.html
 * /usr/share/doc/LLVM/openmp/html/design/GPUGenericMode.html
 * /usr/share/doc/LLVM/openmp/html/design/GPUSPMDMode.html
 * /usr/share/doc/LLVM/openmp/html/design/Offloading.html

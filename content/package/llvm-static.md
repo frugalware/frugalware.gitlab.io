@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-static 17.0.6-4"
-version = "17.0.6-4"
+title = "llvm-static 18.1.8-1"
+version = "18.1.8-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (static)"
-date = "2024-05-29T17:17:14"
+date = "2024-07-12T14:09:22"
 aliases = "/packages/219970"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "39774660"
-usize = "292414656"
-sha1sum = "e08281790a049312d3338faffbf559e525c1231f"
+size = "41692348"
+usize = "298108256"
+sha1sum = "00870779fbc8788d732066e10509df1dc836b031"
 depends = "[]"
 +++
 ### Description: 
@@ -73,6 +73,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMDiff.a
 * /usr/lib/libLLVMDlltoolDriver.a
 * /usr/lib/libLLVMDWARFLinker.a
+* /usr/lib/libLLVMDWARFLinkerClassic.a
 * /usr/lib/libLLVMDWARFLinkerParallel.a
 * /usr/lib/libLLVMDWP.a
 * /usr/lib/libLLVMExecutionEngine.a
@@ -83,7 +84,9 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMExegesisX86.a
 * /usr/lib/libLLVMExtensions.a
 * /usr/lib/libLLVMFileCheck.a
+* /usr/lib/libLLVMFrontendDriver.a
 * /usr/lib/libLLVMFrontendHLSL.a
+* /usr/lib/libLLVMFrontendOffloading.a
 * /usr/lib/libLLVMFrontendOpenACC.a
 * /usr/lib/libLLVMFrontendOpenMP.a
 * /usr/lib/libLLVMFuzzerCLI.a
@@ -94,6 +97,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMHexagonDesc.a
 * /usr/lib/libLLVMHexagonDisassembler.a
 * /usr/lib/libLLVMHexagonInfo.a
+* /usr/lib/libLLVMHipStdPar.a
 * /usr/lib/libLLVMInstCombine.a
 * /usr/lib/libLLVMInstrumentation.a
 * /usr/lib/libLLVMInterfaceStub.a
@@ -140,6 +144,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMObject.a
 * /usr/lib/libLLVMObjectYAML.a
 * /usr/lib/libLLVMOption.a
+* /usr/lib/libLLVMOrcDebugging.a
 * /usr/lib/libLLVMOrcJIT.a
 * /usr/lib/libLLVMOrcShared.a
 * /usr/lib/libLLVMOrcTargetProcess.a
@@ -179,6 +184,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMTarget.a
 * /usr/lib/libLLVMTargetParser.a
 * /usr/lib/libLLVMTextAPI.a
+* /usr/lib/libLLVMTextAPIBinaryReader.a
 * /usr/lib/libLLVMTransformUtils.a
 * /usr/lib/libLLVMVEAsmParser.a
 * /usr/lib/libLLVMVECodeGen.a

@@ -12,7 +12,7 @@ size = "875536"
 usize = "6040395"
 sha1sum = "9eff1f701a6634598debe3796e420c5fc0d95788"
 depends = "['python3>=3.11']"
-reverse_depends = "['python3-sphinx']"
+reverse_depends = "['python3-myst-parser', 'python3-sphinx']"
 +++
 ### Description: 
 Documentation Utilities

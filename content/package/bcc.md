@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bcc 0.29.1-1"
-version = "0.29.1-1"
+title = "bcc 0.29.1-2"
+version = "0.29.1-2"
 description = "BPF Compiler Collection"
-date = "2024-02-17T19:45:49"
+date = "2024-07-12T20:49:56"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "18135736"
-usize = "61475076"
-sha1sum = "2547ab68286c361a5bea18e1db31cc5b81062704"
-depends = "['clang-libs>=17.0.6', 'elfutils', 'python3>=3.11']"
+size = "19609368"
+usize = "64561252"
+sha1sum = "a5a95e2a7049e79ffd1fe7f0a9a1f0f0ceedf017"
+depends = "['clang-libs>=18.1.8', 'elfutils', 'python3>=3.11']"
 +++
 ### Description: 
 BPF Compiler Collection
@@ -30,12 +30,10 @@ BPF Compiler Collection
 * /usr/include/bcc/compat/linux/bpf.h
 * /usr/include/bcc/compat/linux/bpf_common.h
 * /usr/include/bcc/compat/linux/btf.h
-* /usr/include/bcc/compat/linux/fcntl.h
 * /usr/include/bcc/compat/linux/if_link.h
 * /usr/include/bcc/compat/linux/if_xdp.h
 * /usr/include/bcc/compat/linux/netdev.h
 * /usr/include/bcc/compat/linux/netlink.h
-* /usr/include/bcc/compat/linux/openat2.h
 * /usr/include/bcc/compat/linux/perf_event.h
 * /usr/include/bcc/compat/linux/pkt_cls.h
 * /usr/include/bcc/compat/linux/pkt_sched.h
