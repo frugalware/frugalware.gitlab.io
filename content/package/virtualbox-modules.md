@@ -11,13 +11,13 @@ arch = "x86_64"
 size = "284800"
 usize = "248480"
 sha1sum = "f35e64225c829d2188f620d135fcd43011f34386"
-depends = "['kernel=6.9.8-1']"
+depends = "['kernel=6.9.9-1']"
 reverse_depends = "['virtualbox']"
 +++
 ### Description: 
 Kernel modules for VirtualBox
 
 ### Files: 
-* /usr/lib/modules/6.9.8-fw1/kernel/misc/vboxdrv.ko.zst
-* /usr/lib/modules/6.9.8-fw1/kernel/misc/vboxnetadp.ko.zst
-* /usr/lib/modules/6.9.8-fw1/kernel/misc/vboxnetflt.ko.zst
+* /usr/lib/modules/6.9.9-fw1/kernel/misc/vboxdrv.ko.zst
+* /usr/lib/modules/6.9.9-fw1/kernel/misc/vboxnetadp.ko.zst
+* /usr/lib/modules/6.9.9-fw1/kernel/misc/vboxnetflt.ko.zst
