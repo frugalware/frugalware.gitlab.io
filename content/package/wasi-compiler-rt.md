@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "wasi-compiler-rt 17.0.6-2"
-version = "17.0.6-2"
+title = "wasi-compiler-rt 18.1.8-1"
+version = "18.1.8-1"
 description = "WASI LLVM compiler runtime"
-date = "2024-05-13T21:03:12"
+date = "2024-07-13T12:31:43"
 aliases = "/packages/220951"
 categories = ['devel-extra']
 upstreamurl = "https://compiler-rt.llvm.org/"
 arch = "x86_64"
-size = "67008"
-usize = "249234"
-sha1sum = "9c5ec05fef45a17f091f95c6a9a8194499b472d1"
+size = "68952"
+usize = "260718"
+sha1sum = "426e061c04f3692ed4cbe12a39fcea8c8c8acd9c"
 depends = "['wasi-libc']"
 +++
 ### Description: 
 WASI LLVM compiler runtime
 
 ### Files: 
-* /usr/lib/clang/17/lib/wasi/libclang_rt.builtins-wasm32.a
-* /usr/share/doc/wasi-compiler-rt-17.0.6/README.md
-* /usr/share/doc/wasi-compiler-rt-17.0.6/README.rst
-* /usr/share/doc/wasi-compiler-rt-17.0.6/README.txt
+* /usr/lib/clang/18/lib/wasi/libclang_rt.builtins-wasm32.a
+* /usr/share/doc/wasi-compiler-rt-18.1.8/README.md
+* /usr/share/doc/wasi-compiler-rt-18.1.8/README.rst
+* /usr/share/doc/wasi-compiler-rt-18.1.8/README.txt

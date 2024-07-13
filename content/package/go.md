@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.22.4-1"
-version = "1.22.4-1"
+title = "go 1.22.5-1"
+version = "1.22.5-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-06-10T09:33:11"
+date = "2024-07-13T12:34:25"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "142732496"
-usize = "312112777"
-sha1sum = "fc365d34aa4226a50f82b7b56aff328f024de0b1"
+size = "143881660"
+usize = "312129512"
+sha1sum = "8a4ec1b6700a02905ae463c6843b00a186e9e275"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -539,6 +539,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/issue53989/plugin.go
 * /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/issue62430/main.go
 * /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/issue62430/plugin.go
+* /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/issue67976/plugin.go
 * /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/mangle/plugin.go
 * /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/method/main.go
 * /usr/lib/go/src/cmd/cgo/internal/testplugin/testdata/method/plugin.go
@@ -1797,6 +1798,8 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_incompatible_v2.0.0+incompatible.txt
 * /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_missingmod_v1.0.0.txt
 * /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_missingmod_v1.9.0.txt
+* /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_newergoversion_v1.0.0.txt
+* /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_newergoversion_v1.2.0.txt
 * /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_noupgrade_v1.0.0.txt
 * /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_rationale_v1.0.0-block.txt
 * /usr/lib/go/src/cmd/go/testdata/mod/example.com_retract_rationale_v1.0.0-blockwithcomment.txt
@@ -2227,6 +2230,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/list_pkgconfig_error.txt
 * /usr/lib/go/src/cmd/go/testdata/script/list_replace_absolute_windows.txt
 * /usr/lib/go/src/cmd/go/testdata/script/list_reserved.txt
+* /usr/lib/go/src/cmd/go/testdata/script/list_retractions_issue66403.txt
 * /usr/lib/go/src/cmd/go/testdata/script/list_shadow.txt
 * /usr/lib/go/src/cmd/go/testdata/script/list_split_main.txt
 * /usr/lib/go/src/cmd/go/testdata/script/list_std.txt
@@ -2620,6 +2624,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/test_fullpath.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_fuzz.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_fuzz_cache.txt
+* /usr/lib/go/src/cmd/go/testdata/script/test_fuzz_cgo.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_fuzz_chatty.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_fuzz_cleanup.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_fuzz_cov.txt
@@ -9549,9 +9554,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/transform.go
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/trie.go
 * /usr/lib/go/src/vendor/modules.txt
-* /usr/share/doc/go-1.22.4/LICENSE
-* /usr/share/doc/go-1.22.4/README.md
-* /usr/share/doc/go-1.22.4/VERSION
+* /usr/share/doc/go-1.22.5/LICENSE
+* /usr/share/doc/go-1.22.5/README.md
+* /usr/share/doc/go-1.22.5/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
