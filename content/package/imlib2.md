@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "imlib2 1.12.2-2"
-version = "1.12.2-2"
+title = "imlib2 1.12.3-1"
+version = "1.12.3-1"
 description = "Imlib 2 is the successor to Imlib."
-date = "2024-05-16T01:29:23"
+date = "2024-07-13T15:48:44"
 aliases = "/packages/3099"
 categories = ['xlib']
 upstreamurl = "http://enlightenment.org"
 arch = "x86_64"
-size = "570836"
-usize = "1510113"
-sha1sum = "a776fa571beecbe52a12155d6501458c1dae5252"
+size = "574168"
+usize = "1300049"
+sha1sum = "f0ac24c019269ab0cbec21665b8fe0fdca3ebdb5"
 depends = "['freetype2>=2.9', 'libgif>=5.1.1-2', 'libid3tag>=0.15.1b-6', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6', 'libxext>=1.3.3-3']"
 reverse_depends = "['conky', 'feh', 'ffmpeg', 'ffmpeg4.4', 'fluxbox', 'kompose', 'libcaca', 'openbox']"
 +++
@@ -53,16 +53,16 @@ Imlib 2 is the successor to Imlib.
 * /usr/lib/imlib2/loaders/zlib.so
 * /usr/lib/libImlib2.so
 * /usr/lib/libImlib2.so.1
-* /usr/lib/libImlib2.so.1.12.2
+* /usr/lib/libImlib2.so.1.12.3
 * /usr/lib/pkgconfig/imlib2.pc
-* /usr/share/doc/imlib2-1.12.2/AUTHORS
-* /usr/share/doc/imlib2-1.12.2/ChangeLog
-* /usr/share/doc/imlib2-1.12.2/COPYING
-* /usr/share/doc/imlib2-1.12.2/COPYING-PLAIN
-* /usr/share/doc/imlib2-1.12.2/INSTALL
-* /usr/share/doc/imlib2-1.12.2/README
-* /usr/share/doc/imlib2-1.12.2/README.in
-* /usr/share/doc/imlib2-1.12.2/TODO
+* /usr/share/doc/imlib2-1.12.3/AUTHORS
+* /usr/share/doc/imlib2-1.12.3/ChangeLog
+* /usr/share/doc/imlib2-1.12.3/COPYING
+* /usr/share/doc/imlib2-1.12.3/COPYING-PLAIN
+* /usr/share/doc/imlib2-1.12.3/INSTALL
+* /usr/share/doc/imlib2-1.12.3/README
+* /usr/share/doc/imlib2-1.12.3/README.in
+* /usr/share/doc/imlib2-1.12.3/TODO
 * /usr/share/imlib2/data/fonts/cinema.ttf
 * /usr/share/imlib2/data/fonts/grunge.ttf
 * /usr/share/imlib2/data/fonts/morpheus.ttf

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvpl 2.11.0-2"
-version = "2.11.0-2"
+title = "libvpl 2.12.0-1"
+version = "2.12.0-1"
 description = "Intel Video Processing Library"
-date = "2024-05-16T02:43:45"
+date = "2024-07-13T16:06:23"
 aliases = "/packages/221231"
 categories = ['lib']
 upstreamurl = "https://www.intel.com/content/www/us/en/developer/tools/vpl/overview.html"
 arch = "x86_64"
-size = "4637660"
-usize = "17798430"
-sha1sum = "bb4a3b5e718c9fe6f2ac877fa6538314973c2353"
+size = "4645980"
+usize = "17798904"
+sha1sum = "bc566bf05f2a210bb6403048819a4f04519d5fae"
 depends = "['libdrm', 'libva', 'wayland']"
 reverse_depends = "['ffmpeg']"
 +++
@@ -46,11 +46,11 @@ Intel Video Processing Library
 * /usr/lib/cmake/vpl/VPLConfigVersion.cmake
 * /usr/lib/libvpl.so
 * /usr/lib/libvpl.so.2
-* /usr/lib/libvpl.so.2.11
+* /usr/lib/libvpl.so.2.12
 * /usr/lib/pkgconfig/vpl.pc
-* /usr/share/doc/libvpl-2.11.0/INSTALL.md
-* /usr/share/doc/libvpl-2.11.0/LICENSE
-* /usr/share/doc/libvpl-2.11.0/README.md
+* /usr/share/doc/libvpl-2.12.0/INSTALL.md
+* /usr/share/doc/libvpl-2.12.0/LICENSE
+* /usr/share/doc/libvpl-2.12.0/README.md
 * /usr/share/vpl/examples/api1x_core/legacy-decode/CMakeLists.txt
 * /usr/share/vpl/examples/api1x_core/legacy-decode/docker/Dockerfile
 * /usr/share/vpl/examples/api1x_core/legacy-decode/License.txt

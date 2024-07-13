@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libplacebo 6.338.2-1"
-version = "6.338.2-1"
+title = "libplacebo 7.349.0-1"
+version = "7.349.0-1"
 description = "Reusable library for GPU-accelerated video/image rendering primitives"
-date = "2024-02-07T11:06:14"
+date = "2024-07-13T16:08:58"
 aliases = "/packages/220396"
 categories = ['lib']
 upstreamurl = "https://github.com/haasn/libplacebo"
 arch = "x86_64"
-size = "485864"
-usize = "1631772"
-sha1sum = "479d835443c3d43273fb773a09ceb86abbe950a0"
+size = "496176"
+usize = "1647035"
+sha1sum = "7ab222956377771dc95b7228dea368d8a0a5ae9d"
 depends = "['lcms2', 'libepoxy', 'libglvnd', 'shaderc', 'vulkan-icd-loader']"
 reverse_depends = "['mpv']"
 +++
@@ -53,7 +53,7 @@ Reusable library for GPU-accelerated video/image rendering primitives
 * /usr/include/libplacebo/utils/upload.h
 * /usr/include/libplacebo/vulkan.h
 * /usr/lib/libplacebo.so
-* /usr/lib/libplacebo.so.338
+* /usr/lib/libplacebo.so.349
 * /usr/lib/pkgconfig/libplacebo.pc
-* /usr/share/doc/libplacebo-6.338.2/LICENSE
-* /usr/share/doc/libplacebo-6.338.2/README.md
+* /usr/share/doc/libplacebo-7.349.0/LICENSE
+* /usr/share/doc/libplacebo-7.349.0/README.md

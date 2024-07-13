@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-imlib2 1.12.2-2"
-version = "1.12.2-2"
+title = "lib32-imlib2 1.12.3-1"
+version = "1.12.3-1"
 description = "Imlib 2 is the successor to Imlib. ( 32bit )"
-date = "2024-05-16T01:29:23"
+date = "2024-07-13T15:48:44"
 aliases = "/packages/219216"
 categories = ['lib32-extra']
 upstreamurl = "http://enlightenment.org"
 arch = "x86_64"
-size = "225812"
-usize = "979137"
-sha1sum = "c45d4c21ea38bb9612edfcb519fddb9358c5f822"
+size = "233340"
+usize = "780945"
+sha1sum = "3f2d5c0473099d619be8a14c38a0dafe0ea12d80"
 depends = "['lib32-freetype2>=2.9', 'lib32-libgif>=5.1.1-2', 'lib32-libid3tag>=0.15.1b-6', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.6', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-libcaca']"
 +++
@@ -53,5 +53,5 @@ Imlib 2 is the successor to Imlib. ( 32bit )
 * /usr/lib32/imlib2/loaders/zlib.so
 * /usr/lib32/libImlib2.so
 * /usr/lib32/libImlib2.so.1
-* /usr/lib32/libImlib2.so.1.12.2
+* /usr/lib32/libImlib2.so.1.12.3
 * /usr/lib32/pkgconfig/imlib2.pc
