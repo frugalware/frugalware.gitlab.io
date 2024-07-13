@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtk+3-immodules-xim 3.24.42-1"
-version = "3.24.42-1"
+title = "gtk+3-immodules-xim 3.24.43-1"
+version = "3.24.43-1"
 description = "The gtk3-immodule-xim package contains XIM support for GTK+ 3."
-date = "2024-05-28T11:33:55"
+date = "2024-07-13T12:41:32"
 aliases = "/packages/217861"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "23860"
-usize = "42784"
-sha1sum = "d0c7426b919f62a978920c375d43db7438f1f513"
-depends = "['glib2>=2.60.0', 'gtk+3>=3.24.42', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
+size = "23832"
+usize = "34392"
+sha1sum = "ca2c4f66af97f4a778d32968838bfbc6b4a9ecdb"
+depends = "['glib2>=2.60.0', 'gtk+3>=3.24.43', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
 ### Description: 
 The gtk3-immodule-xim package contains XIM support for GTK+ 3.
