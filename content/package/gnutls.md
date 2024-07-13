@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnutls 3.8.5-2"
-version = "3.8.5-2"
+title = "gnutls 3.8.6-1"
+version = "3.8.6-1"
 description = "A library which provides a secure layer over a reliable transport layer"
-date = "2024-05-16T01:21:49"
+date = "2024-07-13T19:44:09"
 aliases = "/packages/3065"
 categories = ['apps']
 upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
-size = "3290484"
-usize = "8093048"
-sha1sum = "507c59644c8d6e6fab5f775ec8bcdde19423e264"
+size = "3315476"
+usize = "8065163"
+sha1sum = "a8d40661b669f9a5b6b881ec798675443e30bcd6"
 depends = "['brotli', 'libidn2>=1.35', 'libunistring>=1.1', 'nettle>=3.6', 'p11-kit>=0.23.2-10', 'zstd']"
 reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'ffmpeg4.4', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'net6', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
 +++
@@ -49,29 +49,29 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/lib/libgnutls-openssl.so.27.0.2
 * /usr/lib/libgnutls.so
 * /usr/lib/libgnutls.so.30
-* /usr/lib/libgnutls.so.30.39.0
+* /usr/lib/libgnutls.so.30.40.0
 * /usr/lib/libgnutlsxx.so
 * /usr/lib/libgnutlsxx.so.30
 * /usr/lib/libgnutlsxx.so.30.0.0
 * /usr/lib/pkgconfig/gnutls.pc
-* /usr/share/doc/gnutls-3.8.5/AUTHORS
-* /usr/share/doc/gnutls-3.8.5/ChangeLog
-* /usr/share/doc/gnutls-3.8.5/gnutls-client-server-use-case.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-crypto-layers.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-handshake-sequence.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-handshake-state.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-internals.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-layers.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-logo.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-modauth.png
-* /usr/share/doc/gnutls-3.8.5/gnutls-x509.png
-* /usr/share/doc/gnutls-3.8.5/INSTALL.md
-* /usr/share/doc/gnutls-3.8.5/LICENSE
-* /usr/share/doc/gnutls-3.8.5/NEWS
-* /usr/share/doc/gnutls-3.8.5/pkcs11-vision.png
-* /usr/share/doc/gnutls-3.8.5/README.md
-* /usr/share/doc/gnutls-3.8.5/RELEASES.md
-* /usr/share/doc/gnutls-3.8.5/THANKS
+* /usr/share/doc/gnutls-3.8.6/AUTHORS
+* /usr/share/doc/gnutls-3.8.6/ChangeLog
+* /usr/share/doc/gnutls-3.8.6/gnutls-client-server-use-case.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-crypto-layers.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-handshake-sequence.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-handshake-state.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-internals.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-layers.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-logo.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-modauth.png
+* /usr/share/doc/gnutls-3.8.6/gnutls-x509.png
+* /usr/share/doc/gnutls-3.8.6/INSTALL.md
+* /usr/share/doc/gnutls-3.8.6/LICENSE
+* /usr/share/doc/gnutls-3.8.6/NEWS
+* /usr/share/doc/gnutls-3.8.6/pkcs11-vision.png
+* /usr/share/doc/gnutls-3.8.6/README.md
+* /usr/share/doc/gnutls-3.8.6/RELEASES.md
+* /usr/share/doc/gnutls-3.8.6/THANKS
 * /usr/share/info/gnutls-client-server-use-case.png.gz
 * /usr/share/info/gnutls-crypto-layers.png.gz
 * /usr/share/info/gnutls-handshake-sequence.png.gz
@@ -389,6 +389,7 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/share/man/man3/gnutls_hash_get_len.3.gz
 * /usr/share/man/man3/gnutls_hash_init.3.gz
 * /usr/share/man/man3/gnutls_hash_output.3.gz
+* /usr/share/man/man3/gnutls_hash_squeeze.3.gz
 * /usr/share/man/man3/gnutls_heartbeat_allowed.3.gz
 * /usr/share/man/man3/gnutls_heartbeat_enable.3.gz
 * /usr/share/man/man3/gnutls_heartbeat_get_timeout.3.gz
@@ -578,6 +579,7 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/share/man/man3/gnutls_pkcs12_export2.3.gz
 * /usr/share/man/man3/gnutls_pkcs12_generate_mac.3.gz
 * /usr/share/man/man3/gnutls_pkcs12_generate_mac2.3.gz
+* /usr/share/man/man3/gnutls_pkcs12_generate_mac3.3.gz
 * /usr/share/man/man3/gnutls_pkcs12_get_bag.3.gz
 * /usr/share/man/man3/gnutls_pkcs12_import.3.gz
 * /usr/share/man/man3/gnutls_pkcs12_init.3.gz
