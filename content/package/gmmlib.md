@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmmlib 22.3.20-1"
-version = "22.3.20-1"
+title = "gmmlib 22.4.1-1"
+version = "22.4.1-1"
 description = "Intel Graphics Memory Management Library"
-date = "2024-06-09T19:24:10"
+date = "2024-07-13T17:11:33"
 aliases = "/packages/220080"
 categories = ['lib']
 upstreamurl = "https://github.com/intel/gmmlib"
 arch = "x86_64"
-size = "246244"
-usize = "1640230"
-sha1sum = "9620cefb9ff082a35ac39b720949aa6e3529fe22"
+size = "287356"
+usize = "1886667"
+sha1sum = "3d14d07a70a598e0b8db821101b483a98ef7d702"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['intel-compute-runtime', 'media-driver']"
 +++
@@ -27,6 +27,7 @@ Intel Graphics Memory Management Library
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmGen12dGPUCachePolicy.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmGen8CachePolicy.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmGen9CachePolicy.h
+* /usr/include/igdgmm/GmmLib/CachePolicy/GmmXe2_LPGCachePolicy.h
 * /usr/include/igdgmm/GmmLib/CachePolicy/GmmXe_LPGCachePolicy.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyGen10.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyGen11.h
@@ -34,6 +35,7 @@ Intel Graphics Memory Management Library
 * /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyGen12dGPU.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyGen8.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyGen9.h
+* /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyXe2_LPG.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/CachePolicy/GmmCachePolicyXe_LPG.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/GmmCachePolicy.h
 * /usr/include/igdgmm/GmmLib/inc/External/Common/GmmCachePolicyCommon.h
@@ -83,6 +85,8 @@ Intel Graphics Memory Management Library
 * /usr/include/igdgmm/util/g_gfxDebug.h
 * /usr/lib/libigdgmm.so
 * /usr/lib/libigdgmm.so.12
-* /usr/lib/libigdgmm.so.12.3.0
+* /usr/lib/libigdgmm.so.12.4.0
 * /usr/lib/pkgconfig/igdgmm.pc
-* /usr/share/doc/gmmlib-22.3.20/README.rst
+* /usr/share/doc/gmmlib-22.4.1/LICENSE
+* /usr/share/doc/gmmlib-22.4.1/README.md
+* /usr/share/doc/gmmlib-22.4.1/README.rst
