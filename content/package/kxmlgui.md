@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kxmlgui 6.3.0-2"
-version = "6.3.0-2"
+title = "kxmlgui 6.4.0-1"
+version = "6.4.0-1"
 description = "Framework for managing menu and toolbar actions."
-date = "2024-06-19T18:11:48"
+date = "2024-07-12T22:39:05"
 aliases = "/packages/218367"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "632068"
-usize = "3160002"
-sha1sum = "ed457647b018194eea4ccc75b3682b76349c19e9"
-depends = "['attica>=6.3.0', 'kglobalaccel>=6.3.0', 'ktextwidgets>=6.3.0', 'qt6-svg>=6.7.1']"
+size = "632040"
+usize = "3157590"
+sha1sum = "390be4668159941adbb0074be2b2d80e6ed76313"
+depends = "['attica>=6.4.0', 'kglobalaccel>=6.4.0', 'ktextwidgets>=6.4.0', 'qt6-svg>=6.7.1']"
 reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'audex', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcalc', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'ktextaddons', 'kvirc', 'kwin', 'skladnik', 'svgpart', 'wacomtablet']"
 +++
 ### Description: 
@@ -66,9 +66,9 @@ Framework for managing menu and toolbar actions.
 * /usr/lib/cmake/KF6XmlGui/KF6XmlGuiTargets.cmake
 * /usr/lib/libKF6XmlGui.so
 * /usr/lib/libKF6XmlGui.so.6
-* /usr/lib/libKF6XmlGui.so.6.3.0
+* /usr/lib/libKF6XmlGui.so.6.4.0
 * /usr/lib/qt6/plugins/designer/kxmlgui6widgets.so
-* /usr/share/doc/kxmlgui-6.3.0/README.md
+* /usr/share/doc/kxmlgui-6.4.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kxmlgui6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kxmlgui6.mo
 * /usr/share/locale/as/LC_MESSAGES/kxmlgui6.mo

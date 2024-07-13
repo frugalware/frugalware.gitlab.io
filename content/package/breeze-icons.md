@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.3.0-2"
-version = "6.3.0-2"
+title = "breeze-icons 6.4.0-1"
+version = "6.4.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2024-06-19T17:36:49"
+date = "2024-07-12T21:57:18"
 aliases = "/packages/218259"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7752588"
-usize = "56264031"
-sha1sum = "63cbc7d2fbb9c04dc4c7c4fd00ddb0ebd195d64f"
+size = "7753520"
+usize = "56257109"
+sha1sum = "d596ff7a3bb837b8c5225a1401e697acc8acc3d6"
 depends = "[]"
 reverse_depends = "['kiconthemes']"
 +++
@@ -28,10 +28,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsTargets.cmake
 * /usr/lib/libKF6BreezeIcons.so
 * /usr/lib/libKF6BreezeIcons.so.6
-* /usr/lib/libKF6BreezeIcons.so.6.3.0
-* /usr/share/doc/breeze-icons-6.3.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.3.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.3.0/README.md
+* /usr/lib/libKF6BreezeIcons.so.6.4.0
+* /usr/share/doc/breeze-icons-6.4.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.4.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.4.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
@@ -3042,6 +3042,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/transform-skew-horizontal.svg
 * /usr/share/icons/breeze-dark/actions/16/transform-skew-vertical-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/transform-skew-vertical.svg
+* /usr/share/icons/breeze-dark/actions/16/translate-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/16/translate.svg
 * /usr/share/icons/breeze-dark/actions/16/transsearch-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/transsearch.svg
 * /usr/share/icons/breeze-dark/actions/16/trash-empty-symbolic.svg
@@ -10383,6 +10385,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/devices/16/network-wired-unavailable.svg
 * /usr/share/icons/breeze-dark/devices/16/network-wired.svg
 * /usr/share/icons/breeze-dark/devices/16/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze-dark/devices/16/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze-dark/devices/16/network-wireless-connected-00-symbolic.svg
 * /usr/share/icons/breeze-dark/devices/16/network-wireless-connected-00.svg
 * /usr/share/icons/breeze-dark/devices/16/network-wireless-connected-100-symbolic.svg
@@ -10534,6 +10537,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/devices/22/network-wired-symbolic.svg
 * /usr/share/icons/breeze-dark/devices/22/network-wired.svg
 * /usr/share/icons/breeze-dark/devices/22/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze-dark/devices/22/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze-dark/devices/22/network-wireless-hotspot-symbolic.svg
 * /usr/share/icons/breeze-dark/devices/22/network-wireless-hotspot.svg
 * /usr/share/icons/breeze-dark/devices/22/network-wireless-symbolic.svg
@@ -15012,6 +15016,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/network-wireless-acquiring.svg
 * /usr/share/icons/breeze-dark/status/22/network-wireless-available.svg
 * /usr/share/icons/breeze-dark/status/22/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze-dark/status/22/network-wireless-connected-00-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/network-wireless-connected-00.svg
 * /usr/share/icons/breeze-dark/status/22/network-wireless-connected-100-symbolic.svg
@@ -15480,7 +15485,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/24/network-wireless-80.svg
 * /usr/share/icons/breeze-dark/status/24/network-wireless-acquiring.svg
 * /usr/share/icons/breeze-dark/status/24/network-wireless-available.svg
-* /usr/share/icons/breeze-dark/status/24/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze-dark/status/24/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze-dark/status/24/network-wireless-connected-00.svg
 * /usr/share/icons/breeze-dark/status/24/network-wireless-connected-100.svg
 * /usr/share/icons/breeze-dark/status/24/network-wireless-connected-20.svg
@@ -18670,6 +18675,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/transform-skew-horizontal.svg
 * /usr/share/icons/breeze/actions/16/transform-skew-vertical-symbolic.svg
 * /usr/share/icons/breeze/actions/16/transform-skew-vertical.svg
+* /usr/share/icons/breeze/actions/16/translate-symbolic.svg
+* /usr/share/icons/breeze/actions/16/translate.svg
 * /usr/share/icons/breeze/actions/16/transsearch-symbolic.svg
 * /usr/share/icons/breeze/actions/16/transsearch.svg
 * /usr/share/icons/breeze/actions/16/trash-empty-symbolic.svg
@@ -26039,6 +26046,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/devices/16/network-wired-unavailable.svg
 * /usr/share/icons/breeze/devices/16/network-wired.svg
 * /usr/share/icons/breeze/devices/16/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze/devices/16/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze/devices/16/network-wireless-connected-00-symbolic.svg
 * /usr/share/icons/breeze/devices/16/network-wireless-connected-00.svg
 * /usr/share/icons/breeze/devices/16/network-wireless-connected-100-symbolic.svg
@@ -26192,6 +26200,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/devices/22/network-wired-symbolic.svg
 * /usr/share/icons/breeze/devices/22/network-wired.svg
 * /usr/share/icons/breeze/devices/22/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze/devices/22/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze/devices/22/network-wireless-hotspot-symbolic.svg
 * /usr/share/icons/breeze/devices/22/network-wireless-hotspot.svg
 * /usr/share/icons/breeze/devices/22/network-wireless-symbolic.svg
@@ -30977,6 +30986,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/network-wireless-acquiring.svg
 * /usr/share/icons/breeze/status/22/network-wireless-available.svg
 * /usr/share/icons/breeze/status/22/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze/status/22/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze/status/22/network-wireless-connected-00-symbolic.svg
 * /usr/share/icons/breeze/status/22/network-wireless-connected-00.svg
 * /usr/share/icons/breeze/status/22/network-wireless-connected-100-symbolic.svg
@@ -31449,7 +31459,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/24/network-wireless-80.svg
 * /usr/share/icons/breeze/status/24/network-wireless-acquiring.svg
 * /usr/share/icons/breeze/status/24/network-wireless-available.svg
-* /usr/share/icons/breeze/status/24/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/breeze/status/24/network-wireless-bluetooth.svg
 * /usr/share/icons/breeze/status/24/network-wireless-connected-00.svg
 * /usr/share/icons/breeze/status/24/network-wireless-connected-100.svg
 * /usr/share/icons/breeze/status/24/network-wireless-connected-20.svg

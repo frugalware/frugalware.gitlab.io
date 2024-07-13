@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "wasi-libc++ 17.0.6-2"
-version = "17.0.6-2"
+title = "wasi-libc++ 18.1.8-1"
+version = "18.1.8-1"
 description = "WASI LLVM C++ standard library"
-date = "2024-05-12T20:19:32"
+date = "2024-07-13T12:10:32"
 aliases = "/packages/220952"
 categories = ['lib-extra']
 upstreamurl = "https://libcxx.llvm.org/"
 arch = "x86_64"
-size = "985768"
-usize = "9364083"
-sha1sum = "d2de77905a3635e7a61854c5a766b5850becb6e2"
+size = "966516"
+usize = "8873183"
+sha1sum = "b197b00f4d50f838ada94a7016f433376f0acb42"
 depends = "['glibc']"
 +++
 ### Description: 
 WASI LLVM C++ standard library
 
 ### Files: 
-* /usr/share/doc/wasi-libc++-17.0.6/README.md
+* /usr/share/doc/wasi-libc++-18.1.8/README.md
 * /usr/share/wasi-sysroot/include/c++/v1/algorithm
 * /usr/share/wasi-sysroot/include/c++/v1/any
 * /usr/share/wasi-sysroot/include/c++/v1/array
@@ -66,24 +66,23 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/exception
 * /usr/share/wasi-sysroot/include/c++/v1/execution
 * /usr/share/wasi-sysroot/include/c++/v1/expected
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/deque
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/forward_list
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/iterator
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/list
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/map
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/memory_resource
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/memory
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/propagate_const
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/regex
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/set
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/simd
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/string
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/type_traits
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/unordered_map
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/unordered_set
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/utility
-* /usr/share/wasi-sysroot/include/c++/v1/experimental/vector
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/__config
 * /usr/share/wasi-sysroot/include/c++/v1/experimental/__memory
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/aligned_tag.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/declaration.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/reference.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/scalar.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/simd.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/simd_mask.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/traits.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/utility.h
+* /usr/share/wasi-sysroot/include/c++/v1/experimental/__simd/vec_ext.h
 * /usr/share/wasi-sysroot/include/c++/v1/ext/hash_map
 * /usr/share/wasi-sysroot/include/c++/v1/ext/hash_set
 * /usr/share/wasi-sysroot/include/c++/v1/ext/__hash
@@ -106,7 +105,6 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/latch
 * /usr/share/wasi-sysroot/include/c++/v1/libcxx.imp
 * /usr/share/wasi-sysroot/include/c++/v1/limits
-* /usr/share/wasi-sysroot/include/c++/v1/limits.h
 * /usr/share/wasi-sysroot/include/c++/v1/list
 * /usr/share/wasi-sysroot/include/c++/v1/locale
 * /usr/share/wasi-sysroot/include/c++/v1/locale.h
@@ -131,7 +129,6 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/scoped_allocator
 * /usr/share/wasi-sysroot/include/c++/v1/semaphore
 * /usr/share/wasi-sysroot/include/c++/v1/set
-* /usr/share/wasi-sysroot/include/c++/v1/setjmp.h
 * /usr/share/wasi-sysroot/include/c++/v1/shared_mutex
 * /usr/share/wasi-sysroot/include/c++/v1/source_location
 * /usr/share/wasi-sysroot/include/c++/v1/span
@@ -150,6 +147,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/string.h
 * /usr/share/wasi-sysroot/include/c++/v1/string_view
 * /usr/share/wasi-sysroot/include/c++/v1/strstream
+* /usr/share/wasi-sysroot/include/c++/v1/syncstream
 * /usr/share/wasi-sysroot/include/c++/v1/system_error
 * /usr/share/wasi-sysroot/include/c++/v1/tgmath.h
 * /usr/share/wasi-sysroot/include/c++/v1/thread
@@ -190,6 +188,8 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/find_first_of.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/find_if.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/find_if_not.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/find_segment_if.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/fold.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/for_each.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/for_each_n.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/for_each_segment.h
@@ -255,6 +255,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_copy.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_count.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_equal.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_fill.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_find.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_for_each.h
@@ -262,7 +263,9 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_generate.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_is_partitioned.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_merge.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_move.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_replace.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_rotate_copy.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_sort.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_stable_sort.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/pstl_transform.h
@@ -272,12 +275,14 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_any_of.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_binary_search.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_clamp.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_contains.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_copy.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_copy_backward.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_copy_if.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_copy_n.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_count.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_count_if.h
+* /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_ends_with.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_equal.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_equal_range.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/ranges_fill.h
@@ -391,6 +396,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/unwrap_range.h
 * /usr/share/wasi-sysroot/include/c++/v1/__algorithm/upper_bound.h
 * /usr/share/wasi-sysroot/include/c++/v1/__assert
+* /usr/share/wasi-sysroot/include/c++/v1/__assertion_handler
 * /usr/share/wasi-sysroot/include/c++/v1/__atomic/aliases.h
 * /usr/share/wasi-sysroot/include/c++/v1/__atomic/atomic.h
 * /usr/share/wasi-sysroot/include/c++/v1/__atomic/atomic_base.h
@@ -417,6 +423,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__bit/countr.h
 * /usr/share/wasi-sysroot/include/c++/v1/__bit/endian.h
 * /usr/share/wasi-sysroot/include/c++/v1/__bit/has_single_bit.h
+* /usr/share/wasi-sysroot/include/c++/v1/__bit/invert_if.h
 * /usr/share/wasi-sysroot/include/c++/v1/__bit/popcount.h
 * /usr/share/wasi-sysroot/include/c++/v1/__bit/rotate.h
 * /usr/share/wasi-sysroot/include/c++/v1/__bit_reference
@@ -450,6 +457,8 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__chrono/steady_clock.h
 * /usr/share/wasi-sysroot/include/c++/v1/__chrono/system_clock.h
 * /usr/share/wasi-sysroot/include/c++/v1/__chrono/time_point.h
+* /usr/share/wasi-sysroot/include/c++/v1/__chrono/tzdb.h
+* /usr/share/wasi-sysroot/include/c++/v1/__chrono/tzdb_list.h
 * /usr/share/wasi-sysroot/include/c++/v1/__chrono/weekday.h
 * /usr/share/wasi-sysroot/include/c++/v1/__chrono/year.h
 * /usr/share/wasi-sysroot/include/c++/v1/__chrono/year_month.h
@@ -585,6 +594,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__functional/unary_negate.h
 * /usr/share/wasi-sysroot/include/c++/v1/__functional/weak_result_type.h
 * /usr/share/wasi-sysroot/include/c++/v1/__fwd/array.h
+* /usr/share/wasi-sysroot/include/c++/v1/__fwd/bit_reference.h
 * /usr/share/wasi-sysroot/include/c++/v1/__fwd/fstream.h
 * /usr/share/wasi-sysroot/include/c++/v1/__fwd/get.h
 * /usr/share/wasi-sysroot/include/c++/v1/__fwd/hash.h
@@ -649,11 +659,31 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h
 * /usr/share/wasi-sysroot/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h
 * /usr/share/wasi-sysroot/include/c++/v1/__locale_dir/locale_base_api/locale_guard.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/abs.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/copysign.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/error_functions.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/exponential_functions.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/fdim.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/fma.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/gamma.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/hyperbolic_functions.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/hypot.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/inverse_hyperbolic_functions.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/inverse_trigonometric_functions.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/logarithms.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/min_max.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/modulo.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/remainder.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/roots.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/rounding_functions.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/traits.h
+* /usr/share/wasi-sysroot/include/c++/v1/__math/trigonometric_functions.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mbstate_t.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mdspan/default_accessor.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mdspan/extents.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mdspan/layout_left.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mdspan/layout_right.h
+* /usr/share/wasi-sysroot/include/c++/v1/__mdspan/layout_stride.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mdspan/mdspan.h
 * /usr/share/wasi-sysroot/include/c++/v1/__memory/addressof.h
 * /usr/share/wasi-sysroot/include/c++/v1/__memory/align.h
@@ -692,6 +722,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__memory_resource/unsynchronized_pool_resource.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mutex/lock_guard.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mutex/mutex.h
+* /usr/share/wasi-sysroot/include/c++/v1/__mutex/once_flag.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mutex/tag_types.h
 * /usr/share/wasi-sysroot/include/c++/v1/__mutex/unique_lock.h
 * /usr/share/wasi-sysroot/include/c++/v1/__node_handle
@@ -707,42 +738,10 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__numeric/pstl_reduce.h
 * /usr/share/wasi-sysroot/include/c++/v1/__numeric/pstl_transform_reduce.h
 * /usr/share/wasi-sysroot/include/c++/v1/__numeric/reduce.h
+* /usr/share/wasi-sysroot/include/c++/v1/__numeric/saturation_arithmetic.h
 * /usr/share/wasi-sysroot/include/c++/v1/__numeric/transform_exclusive_scan.h
 * /usr/share/wasi-sysroot/include/c++/v1/__numeric/transform_inclusive_scan.h
 * /usr/share/wasi-sysroot/include/c++/v1/__numeric/transform_reduce.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/algorithm_fwd.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/algorithm_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/execution_defs.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/execution_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/glue_algorithm_defs.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/glue_algorithm_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/glue_memory_defs.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/glue_memory_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/glue_numeric_defs.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/glue_numeric_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/memory_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/numeric_fwd.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/numeric_impl.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_for.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_for_each.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_invoke.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_merge.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_scan.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_stable_partial_sort.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_stable_sort.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_transform_reduce.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/parallel_transform_scan.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/omp/util.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/parallel_backend.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/parallel_backend_omp.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/parallel_backend_serial.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/parallel_backend_tbb.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/parallel_backend_utils.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/unseq_backend_simd.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl/internal/utils.h
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl_algorithm
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl_memory
-* /usr/share/wasi-sysroot/include/c++/v1/__pstl_numeric
 * /usr/share/wasi-sysroot/include/c++/v1/__random/bernoulli_distribution.h
 * /usr/share/wasi-sysroot/include/c++/v1/__random/binomial_distribution.h
 * /usr/share/wasi-sysroot/include/c++/v1/__random/cauchy_distribution.h
@@ -783,6 +782,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__ranges/access.h
 * /usr/share/wasi-sysroot/include/c++/v1/__ranges/all.h
 * /usr/share/wasi-sysroot/include/c++/v1/__ranges/as_rvalue_view.h
+* /usr/share/wasi-sysroot/include/c++/v1/__ranges/chunk_by_view.h
 * /usr/share/wasi-sysroot/include/c++/v1/__ranges/common_view.h
 * /usr/share/wasi-sysroot/include/c++/v1/__ranges/concepts.h
 * /usr/share/wasi-sysroot/include/c++/v1/__ranges/container_compatible_range.h
@@ -855,6 +855,7 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__system_error/system_error.h
 * /usr/share/wasi-sysroot/include/c++/v1/__thread/formatter.h
 * /usr/share/wasi-sysroot/include/c++/v1/__thread/id.h
+* /usr/share/wasi-sysroot/include/c++/v1/__thread/jthread.h
 * /usr/share/wasi-sysroot/include/c++/v1/__thread/poll_with_backoff.h
 * /usr/share/wasi-sysroot/include/c++/v1/__thread/this_thread.h
 * /usr/share/wasi-sysroot/include/c++/v1/__thread/thread.h
@@ -989,7 +990,6 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/negation.h
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/operation_traits.h
-* /usr/share/wasi-sysroot/include/c++/v1/__type_traits/predicate_traits.h
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/promote.h
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/rank.h
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/remove_all_extents.h
@@ -1010,10 +1010,12 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__type_traits/void_t.h
 * /usr/share/wasi-sysroot/include/c++/v1/__undef_macros
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/as_const.h
+* /usr/share/wasi-sysroot/include/c++/v1/__utility/as_lvalue.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/auto_cast.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/cmp.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/convert_to_integral.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/declval.h
+* /usr/share/wasi-sysroot/include/c++/v1/__utility/empty.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/exception_guard.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/exchange.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/forward.h
@@ -1022,12 +1024,13 @@ WASI LLVM C++ standard library
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/in_place.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/is_pointer_in_range.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/move.h
+* /usr/share/wasi-sysroot/include/c++/v1/__utility/no_destroy.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/pair.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/piecewise_construct.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/priority_tag.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/rel_ops.h
+* /usr/share/wasi-sysroot/include/c++/v1/__utility/small_buffer.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/swap.h
-* /usr/share/wasi-sysroot/include/c++/v1/__utility/terminate_on_exception.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/to_underlying.h
 * /usr/share/wasi-sysroot/include/c++/v1/__utility/unreachable.h
 * /usr/share/wasi-sysroot/include/c++/v1/__variant/monostate.h

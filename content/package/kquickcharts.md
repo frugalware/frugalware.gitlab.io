@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kquickcharts 6.3.0-2"
-version = "6.3.0-2"
+title = "kquickcharts 6.4.0-1"
+version = "6.4.0-1"
 description = "A QtQuick plugin providing high-performance charts"
-date = "2024-06-19T17:45:29"
+date = "2024-07-12T22:07:29"
 aliases = "/packages/220015"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "168620"
-usize = "658496"
-sha1sum = "1cc49dae1e5c3d918779672183cb712549f8532f"
+size = "169128"
+usize = "659305"
+sha1sum = "5bafc2a0a553092d627adfb07f5345a7770d51b1"
 depends = "['qt6-declarative>=6.7.1']"
 reverse_depends = "['arianna', 'plasma-workspace', 'qqc2-breeze-style']"
 +++
@@ -22,10 +22,10 @@ A QtQuick plugin providing high-performance charts
 * /usr/lib/cmake/KF6QuickCharts/KF6QuickChartsConfigVersion.cmake
 * /usr/lib/libQuickCharts.so
 * /usr/lib/libQuickCharts.so.1
-* /usr/lib/libQuickCharts.so.6.3.0
+* /usr/lib/libQuickCharts.so.6.4.0
 * /usr/lib/libQuickChartsControls.so
 * /usr/lib/libQuickChartsControls.so.1
-* /usr/lib/libQuickChartsControls.so.6.3.0
+* /usr/lib/libQuickChartsControls.so.6.4.0
 * /usr/lib/qt6/qml/org/kde/quickcharts/controls/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/quickcharts/controls/KirigamiTheme.qml
 * /usr/lib/qt6/qml/org/kde/quickcharts/controls/Legend.qml
@@ -40,5 +40,5 @@ A QtQuick plugin providing high-performance charts
 * /usr/lib/qt6/qml/org/kde/quickcharts/libQuickChartsplugin.so
 * /usr/lib/qt6/qml/org/kde/quickcharts/qmldir
 * /usr/lib/qt6/qml/org/kde/quickcharts/QuickCharts.qmltypes
-* /usr/share/doc/kquickcharts-6.3.0/README.md
+* /usr/share/doc/kquickcharts-6.4.0/README.md
 * /usr/share/qlogging-categories6/kquickcharts.categories

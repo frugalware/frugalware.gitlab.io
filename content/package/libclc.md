@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libclc 17.0.6-1"
-version = "17.0.6-1"
+title = "libclc 18.1.8-1"
+version = "18.1.8-1"
 description = "Library requirements of the OpenCL C programming language"
-date = "2024-02-10T13:00:34"
+date = "2024-07-13T12:05:16"
 aliases = "/packages/217322"
 categories = ['lib']
 upstreamurl = "http://libclc.llvm.org/"
 arch = "x86_64"
-size = "8736652"
-usize = "80750383"
-sha1sum = "249ec09b1c939ce4465788d1685bc48b8c1eff6a"
+size = "12521288"
+usize = "82236043"
+sha1sum = "a29e8bc8785b79a774b0e258506d68abeaa2e5cd"
 depends = "['glibc']"
 reverse_depends = "['lib32-opencl-clover', 'opencl-clover', 'opencl-rusticl']"
 +++
@@ -310,6 +310,50 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/cypress-r600--.bc
 * /usr/share/clc/fiji-amdgcn--.bc
 * /usr/share/clc/fiji-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1010-amdgcn--.bc
+* /usr/share/clc/gfx1010-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1011-amdgcn--.bc
+* /usr/share/clc/gfx1011-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1012-amdgcn--.bc
+* /usr/share/clc/gfx1012-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1013-amdgcn--.bc
+* /usr/share/clc/gfx1013-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1030-amdgcn--.bc
+* /usr/share/clc/gfx1030-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1031-amdgcn--.bc
+* /usr/share/clc/gfx1031-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1032-amdgcn--.bc
+* /usr/share/clc/gfx1032-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1033-amdgcn--.bc
+* /usr/share/clc/gfx1033-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1034-amdgcn--.bc
+* /usr/share/clc/gfx1034-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1035-amdgcn--.bc
+* /usr/share/clc/gfx1035-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1036-amdgcn--.bc
+* /usr/share/clc/gfx1036-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1100-amdgcn--.bc
+* /usr/share/clc/gfx1100-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1101-amdgcn--.bc
+* /usr/share/clc/gfx1101-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1102-amdgcn--.bc
+* /usr/share/clc/gfx1102-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1103-amdgcn--.bc
+* /usr/share/clc/gfx1103-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1150-amdgcn--.bc
+* /usr/share/clc/gfx1150-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1151-amdgcn--.bc
+* /usr/share/clc/gfx1151-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1200-amdgcn--.bc
+* /usr/share/clc/gfx1200-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1201-amdgcn--.bc
+* /usr/share/clc/gfx1201-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx602-amdgcn--.bc
+* /usr/share/clc/gfx602-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx705-amdgcn--.bc
+* /usr/share/clc/gfx705-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx805-amdgcn--.bc
+* /usr/share/clc/gfx805-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx900-amdgcn--.bc
 * /usr/share/clc/gfx900-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx902-amdgcn--.bc
@@ -318,6 +362,20 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/gfx904-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx906-amdgcn--.bc
 * /usr/share/clc/gfx906-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx908-amdgcn--.bc
+* /usr/share/clc/gfx908-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx909-amdgcn--.bc
+* /usr/share/clc/gfx909-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx90a-amdgcn--.bc
+* /usr/share/clc/gfx90a-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx90c-amdgcn--.bc
+* /usr/share/clc/gfx90c-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx940-amdgcn--.bc
+* /usr/share/clc/gfx940-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx941-amdgcn--.bc
+* /usr/share/clc/gfx941-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx942-amdgcn--.bc
+* /usr/share/clc/gfx942-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/hainan-amdgcn--.bc
 * /usr/share/clc/hainan-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/hawaii-amdgcn--.bc
@@ -356,8 +414,10 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/tahiti-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/tonga-amdgcn--.bc
 * /usr/share/clc/tonga-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/tongapro-amdgcn--.bc
+* /usr/share/clc/tongapro-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/turks-r600--.bc
 * /usr/share/clc/verde-amdgcn--.bc
 * /usr/share/clc/verde-amdgcn-mesa-mesa3d.bc
-* /usr/share/doc/libclc-17.0.6/README.md
+* /usr/share/doc/libclc-18.1.8/README.md
 * /usr/share/pkgconfig/libclc.pc

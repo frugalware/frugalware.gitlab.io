@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitemviews 6.3.0-2"
-version = "6.3.0-2"
+title = "kitemviews 6.4.0-1"
+version = "6.4.0-1"
 description = "Set of item views extending the Qt model-view framework."
-date = "2024-06-19T17:51:13"
+date = "2024-07-12T22:14:12"
 aliases = "/packages/218326"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "112740"
-usize = "398752"
-sha1sum = "cd21882283e9289334816c76ee015740891ec746"
+size = "112764"
+usize = "398898"
+sha1sum = "e2760029e79a6565cbf38a5c588042e3e7ea7649"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['akonadi', 'discover', 'kdebugsettings', 'kiconthemes', 'kpeople']"
 +++
@@ -42,9 +42,9 @@ Set of item views extending the Qt model-view framework.
 * /usr/lib/cmake/KF6ItemViews/KF6ItemViewsTargets.cmake
 * /usr/lib/libKF6ItemViews.so
 * /usr/lib/libKF6ItemViews.so.6
-* /usr/lib/libKF6ItemViews.so.6.3.0
+* /usr/lib/libKF6ItemViews.so.6.4.0
 * /usr/lib/qt6/plugins/designer/kitemviews6widgets.so
-* /usr/share/doc/kitemviews-6.3.0/README.md
+* /usr/share/doc/kitemviews-6.4.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kitemviews6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kitemviews6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kitemviews6_qt.qm

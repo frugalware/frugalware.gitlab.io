@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpeople 6.3.0-2"
-version = "6.3.0-2"
+title = "kpeople 6.4.0-1"
+version = "6.4.0-1"
 description = "A library that provides access to all contacts and the people who hold them."
-date = "2024-06-19T18:10:46"
+date = "2024-07-12T22:38:01"
 aliases = "/packages/221342"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "158028"
-usize = "621459"
-sha1sum = "0af8134eabe1649c69403ef9386f87934f3ec0a3"
-depends = "['kcontacts>=6.3.0', 'kitemviews=>6.3.0', 'kwidgetsaddons>=6.3.0']"
+size = "158612"
+usize = "621577"
+sha1sum = "4b2a0020ae4e40b12cabe14157785aff4401f32e"
+depends = "['kcontacts>=6.4.0', 'kitemviews=>6.4.0', 'kwidgetsaddons>=6.4.0']"
 reverse_depends = "['calindori', 'kdeconnect-kde', 'kpeoplevcard', 'plasma-desktop']"
 +++
 ### Description: 
@@ -61,20 +61,20 @@ A library that provides access to all contacts and the people who hold them.
 * /usr/lib/cmake/KF6People/KPeopleTargets.cmake
 * /usr/lib/libKF6People.so
 * /usr/lib/libKF6People.so.6
-* /usr/lib/libKF6People.so.6.3.0
+* /usr/lib/libKF6People.so.6.4.0
 * /usr/lib/libKF6PeopleBackend.so
 * /usr/lib/libKF6PeopleBackend.so.6
-* /usr/lib/libKF6PeopleBackend.so.6.3.0
+* /usr/lib/libKF6PeopleBackend.so.6.4.0
 * /usr/lib/libKF6PeopleWidgets.so
 * /usr/lib/libKF6PeopleWidgets.so.6
-* /usr/lib/libKF6PeopleWidgets.so.6.3.0
+* /usr/lib/libKF6PeopleWidgets.so.6.4.0
 * /usr/lib/qt6/plugins/kpeople/datasource/KPeopleVCard.so
 * /usr/lib/qt6/qml/org/kde/people/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/people/KF6PeopleDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/people/libKF6PeopleDeclarative.so
 * /usr/lib/qt6/qml/org/kde/people/qmldir
-* /usr/share/doc/kpeople-6.3.0/README.md
-* /usr/share/doc/kpeople-6.3.0/README.md.license
+* /usr/share/doc/kpeople-6.4.0/README.md
+* /usr/share/doc/kpeople-6.4.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kpeople6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpeople6.mo
 * /usr/share/locale/az/LC_MESSAGES/kpeople6.mo

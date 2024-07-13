@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "baloo 6.3.0-2"
-version = "6.3.0-2"
+title = "baloo 6.4.0-1"
+version = "6.4.0-1"
 description = "A framework for searching and managing metadata."
-date = "2024-06-19T18:17:46"
+date = "2024-07-12T22:45:48"
 aliases = "/packages/221281"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "472076"
-usize = "2320220"
-sha1sum = "d07f15854d186ceb63959165be7dccabcaff1c34"
-depends = "['kfilemetadata>=6.3.0', 'kidletime>=6.3.0', 'kio>=6.3.0', 'lmdb>=0.9.18-3']"
+size = "475368"
+usize = "2343304"
+sha1sum = "d336902fac449cde277816f2b5b423c18628803c"
+depends = "['kfilemetadata>=6.4.0', 'kidletime>=6.4.0', 'kio>=6.4.0', 'lmdb>=0.9.18-3']"
 reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
 +++
 ### Description: 
@@ -46,16 +46,20 @@ A framework for searching and managing metadata.
 * /usr/lib/cmake/KF6Baloo/KF6BalooTargets.cmake
 * /usr/lib/libKF6Baloo.so
 * /usr/lib/libKF6Baloo.so.6
-* /usr/lib/libKF6Baloo.so.6.3.0
+* /usr/lib/libKF6Baloo.so.6.4.0
 * /usr/lib/libKF6BalooEngine.so.6
-* /usr/lib/libKF6BalooEngine.so.6.3.0
+* /usr/lib/libKF6BalooEngine.so.6.4.0
 * /usr/lib/pkgconfig/KF6Baloo.pc
 * /usr/lib/qt6/plugins/kf6/kded/baloosearchmodule.so
 * /usr/lib/qt6/plugins/kf6/kio/baloosearch.so
 * /usr/lib/qt6/plugins/kf6/kio/tags.so
 * /usr/lib/qt6/plugins/kf6/kio/timeline.so
+* /usr/lib/qt6/qml/org/kde/baloo/balooplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/baloo/experimental/baloomonitorplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/baloo/experimental/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/baloo/experimental/libbaloomonitorplugin.so
 * /usr/lib/qt6/qml/org/kde/baloo/experimental/qmldir
+* /usr/lib/qt6/qml/org/kde/baloo/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/baloo/libbalooplugin.so
 * /usr/lib/qt6/qml/org/kde/baloo/qmldir
 * /usr/lib/systemd/user/kde-baloo.service
@@ -64,7 +68,7 @@ A framework for searching and managing metadata.
 * /usr/share/dbus-1/interfaces/org.kde.baloo.main.xml
 * /usr/share/dbus-1/interfaces/org.kde.baloo.scheduler.xml
 * /usr/share/dbus-1/interfaces/org.kde.BalooWatcherApplication.xml
-* /usr/share/doc/baloo-6.3.0/README.md
+* /usr/share/doc/baloo-6.4.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/balooctl6.mo
 * /usr/share/locale/ar/LC_MESSAGES/baloodb6.mo
 * /usr/share/locale/ar/LC_MESSAGES/balooengine6.mo
@@ -494,6 +498,8 @@ A framework for searching and managing metadata.
 * /usr/share/locale/sv/LC_MESSAGES/balooengine6.mo
 * /usr/share/locale/sv/LC_MESSAGES/baloosearch6.mo
 * /usr/share/locale/sv/LC_MESSAGES/balooshow6.mo
+* /usr/share/locale/sv/LC_MESSAGES/baloo_file6.mo
+* /usr/share/locale/sv/LC_MESSAGES/baloo_file_extractor6.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_baloosearch.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_tags.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_timeline.mo
