@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "botan-static 3.4.0-2"
-version = "3.4.0-2"
+title = "botan-static 3.5.0-1"
+version = "3.5.0-1"
 description = "Static files for botan"
-date = "2024-05-15T12:38:49"
+date = "2024-07-13T15:04:07"
 aliases = "/packages/219899"
 categories = ['devel-extra']
 upstreamurl = "http://botan.randombit.net/"
 arch = "x86_64"
-size = "51742024"
-usize = "88775158"
-sha1sum = "bb4ef970d7a1b85e51d71cc25c2d2f78f550e196"
+size = "56199176"
+usize = "97088436"
+sha1sum = "5bd9dfbca74843d3c51070fde4e9379bef9ef680"
 depends = "[]"
 +++
 ### Description: 
