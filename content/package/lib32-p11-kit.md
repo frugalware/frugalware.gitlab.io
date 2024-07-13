@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-p11-kit 0.25.3-2"
-version = "0.25.3-2"
+title = "lib32-p11-kit 0.25.5-1"
+version = "0.25.5-1"
 description = "Provides a way to load and enumerate PKCS#11 modules. ( 32bit )"
-date = "2024-05-17T13:40:40"
+date = "2024-07-13T18:32:07"
 aliases = "/packages/218966"
 categories = ['lib32-extra']
 upstreamurl = "http://p11-glue.freedesktop.org/p11-kit.html"
 arch = "x86_64"
-size = "731660"
-usize = "5156640"
-sha1sum = "1d75ac01fd2263d73c6ac6850b98e277ac4bf723"
+size = "810800"
+usize = "4847734"
+sha1sum = "a4745d11c9fd80a35a84d160b1ddf9249432d263"
 depends = "['lib32-libffi', 'lib32-libsystemd', 'lib32-libtasn1']"
 reverse_depends = "['lib32-gnutls', 'lib32-libsystemd']"
 +++
@@ -35,7 +35,7 @@ Provides a way to load and enumerate PKCS#11 modules. ( 32bit )
 * /usr/lib/systemd/user/p11-kit-server.socket
 * /usr/lib32/libp11-kit.so
 * /usr/lib32/libp11-kit.so.0
-* /usr/lib32/libp11-kit.so.0.3.1
+* /usr/lib32/libp11-kit.so.0.4.1
 * /usr/lib32/p11-kit-proxy.so
 * /usr/lib32/pkcs11/p11-kit-client.so
 * /usr/lib32/pkcs11/p11-kit-trust.so

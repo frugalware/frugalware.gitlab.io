@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "certifi 2024.6.2-1"
-version = "2024.6.2-1"
+title = "certifi 2024.7.4-1"
+version = "2024.7.4-1"
 description = "Python package for providing Mozilla's CA Bundle"
-date = "2024-06-03T09:07:57"
+date = "2024-07-13T18:27:10"
 aliases = "/packages/220824"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/certifi"
 arch = "x86_64"
-size = "152844"
-usize = "307417"
-sha1sum = "cf850bb3a296cc7d67cecaf5335b5c7ff1eec339"
+size = "151480"
+usize = "304994"
+sha1sum = "36116969bf8ac308f1802b3ff5ea8a72242c0903"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-selenium', 'python3-sentry-sdk']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-selenium', 'python3-sentry-sdk']"
 Python package for providing Mozilla's CA Bundle
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/certifi-2024.6.2-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/certifi-2024.6.2-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/certifi-2024.6.2-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/certifi-2024.6.2-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/certifi-2024.6.2-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/certifi-2024.7.4-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/certifi-2024.7.4-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/certifi-2024.7.4-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/certifi-2024.7.4-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/certifi-2024.7.4-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/certifi/cacert.pem
 * /usr/lib/python3.12/site-packages/certifi/core.py
 * /usr/lib/python3.12/site-packages/certifi/py.typed
@@ -31,5 +31,5 @@ Python package for providing Mozilla's CA Bundle
 * /usr/lib/python3.12/site-packages/certifi/__pycache__/core.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/certifi/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/certifi/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/certifi-2024.6.2/LICENSE
-* /usr/share/doc/certifi-2024.6.2/README.rst
+* /usr/share/doc/certifi-2024.7.4/LICENSE
+* /usr/share/doc/certifi-2024.7.4/README.rst

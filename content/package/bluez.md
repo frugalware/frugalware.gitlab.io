@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.76-2"
-version = "5.76-2"
+title = "bluez 5.77-1"
+version = "5.77-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2024-06-01T18:50:01"
+date = "2024-07-13T19:13:35"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1850188"
-usize = "6633556"
-sha1sum = "c3b9b49f30ac60b2552a4bbfac195a7469890dd5"
+size = "1932072"
+usize = "6518128"
+sha1sum = "1f224d06fbbeb691cce014524d36a85c7aecfc7d"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'ell', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -110,13 +110,13 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system-services/org.bluez.service
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
-* /usr/share/doc/bluez-5.76/AUTHORS
-* /usr/share/doc/bluez-5.76/ChangeLog
-* /usr/share/doc/bluez-5.76/COPYING
-* /usr/share/doc/bluez-5.76/COPYING.LIB
-* /usr/share/doc/bluez-5.76/INSTALL
-* /usr/share/doc/bluez-5.76/README
-* /usr/share/doc/bluez-5.76/TODO
+* /usr/share/doc/bluez-5.77/AUTHORS
+* /usr/share/doc/bluez-5.77/ChangeLog
+* /usr/share/doc/bluez-5.77/COPYING
+* /usr/share/doc/bluez-5.77/COPYING.LIB
+* /usr/share/doc/bluez-5.77/INSTALL
+* /usr/share/doc/bluez-5.77/README
+* /usr/share/doc/bluez-5.77/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
 * /usr/share/man/man1/bluetoothctl-endpoint.1.gz
@@ -183,6 +183,8 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/man/man5/org.bluez.obex.Transfer.5.gz
 * /usr/share/man/man5/org.bluez.Profile.5.gz
 * /usr/share/man/man5/org.bluez.ProfileManager.5.gz
+* /usr/share/man/man7/l2cap.7.gz
+* /usr/share/man/man7/rfcomm.7.gz
 * /usr/share/man/man8/bluetooth-meshd.8.gz
 * /usr/share/man/man8/bluetoothd.8.gz
 * /usr/share/zsh/site-functions/_bluetoothctl

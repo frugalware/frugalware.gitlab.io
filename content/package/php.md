@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php 8.3.8-1"
-version = "8.3.8-1"
+title = "php 8.3.9-1"
+version = "8.3.9-1"
 description = "A widely-used general-purpose scripting language"
-date = "2024-06-09T14:50:56"
+date = "2024-07-13T18:18:31"
 aliases = "/packages/3288"
 categories = ['devel']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "7927272"
-usize = "45026181"
-sha1sum = "150b5d865b5c3af5da86a76dd5b2ae552c590ca4"
+size = "7712160"
+usize = "43284962"
+sha1sum = "90d497c32987da4f42a81652a61874bd5f4830f1"
 depends = "['curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3', 'zlib>=1.2.12']"
 reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++
@@ -19,11 +19,7 @@ A widely-used general-purpose scripting language
 
 ### Files: 
 * /etc/httpd/conf/modules.d/php.conf
-* /etc/pear.conf
 * /etc/php.ini
-* /usr/bin/pear
-* /usr/bin/peardev
-* /usr/bin/pecl
 * /usr/bin/phar
 * /usr/bin/phar.phar
 * /usr/bin/php
@@ -389,11 +385,11 @@ A widely-used general-purpose scripting language
 * /usr/lib/php/sysvshm.so
 * /usr/lib/php/tidy.so
 * /usr/lib/php/xsl.so
-* /usr/share/doc/php-8.3.8/LICENSE
-* /usr/share/doc/php-8.3.8/NEWS
-* /usr/share/doc/php-8.3.8/README.Frugalware
-* /usr/share/doc/php-8.3.8/README.md
-* /usr/share/doc/php-8.3.8/README.REDIST.BINS
+* /usr/share/doc/php-8.3.9/LICENSE
+* /usr/share/doc/php-8.3.9/NEWS
+* /usr/share/doc/php-8.3.9/README.Frugalware
+* /usr/share/doc/php-8.3.9/README.md
+* /usr/share/doc/php-8.3.9/README.REDIST.BINS
 * /usr/share/man/man1/phar.1.gz
 * /usr/share/man/man1/phar.phar.1.gz
 * /usr/share/man/man1/php-config.1.gz
@@ -410,119 +406,19 @@ A widely-used general-purpose scripting language
 * /usr/share/pear/.lock
 * /usr/share/pear/.registry/archive_tar.reg
 * /usr/share/pear/.registry/console_getopt.reg
-* /usr/share/pear/.registry/pear.reg
 * /usr/share/pear/.registry/structures_graph.reg
 * /usr/share/pear/.registry/xml_util.reg
 * /usr/share/pear/Archive/Tar.php
 * /usr/share/pear/Console/Getopt.php
-* /usr/share/pear/data/PEAR/package.dtd
-* /usr/share/pear/data/PEAR/template.spec
 * /usr/share/pear/doc/Archive_Tar/docs/Archive_Tar.txt
-* /usr/share/pear/doc/PEAR/INSTALL
-* /usr/share/pear/doc/PEAR/LICENSE
-* /usr/share/pear/doc/PEAR/README.rst
 * /usr/share/pear/doc/Structures_Graph/docs/tutorials/Structures_Graph/Structures_Graph.pkg
 * /usr/share/pear/doc/Structures_Graph/LICENSE
 * /usr/share/pear/doc/XML_Util/examples/example.php
 * /usr/share/pear/doc/XML_Util/examples/example2.php
-* /usr/share/pear/OS/Guess.php
-* /usr/share/pear/PEAR.php
-* /usr/share/pear/PEAR/Builder.php
-* /usr/share/pear/PEAR/ChannelFile.php
-* /usr/share/pear/PEAR/ChannelFile/Parser.php
-* /usr/share/pear/PEAR/Command.php
-* /usr/share/pear/PEAR/Command/Auth.php
-* /usr/share/pear/PEAR/Command/Auth.xml
-* /usr/share/pear/PEAR/Command/Build.php
-* /usr/share/pear/PEAR/Command/Build.xml
-* /usr/share/pear/PEAR/Command/Channels.php
-* /usr/share/pear/PEAR/Command/Channels.xml
-* /usr/share/pear/PEAR/Command/Common.php
-* /usr/share/pear/PEAR/Command/Config.php
-* /usr/share/pear/PEAR/Command/Config.xml
-* /usr/share/pear/PEAR/Command/Install.php
-* /usr/share/pear/PEAR/Command/Install.xml
-* /usr/share/pear/PEAR/Command/Mirror.php
-* /usr/share/pear/PEAR/Command/Mirror.xml
-* /usr/share/pear/PEAR/Command/Package.php
-* /usr/share/pear/PEAR/Command/Package.xml
-* /usr/share/pear/PEAR/Command/Pickle.php
-* /usr/share/pear/PEAR/Command/Pickle.xml
-* /usr/share/pear/PEAR/Command/Registry.php
-* /usr/share/pear/PEAR/Command/Registry.xml
-* /usr/share/pear/PEAR/Command/Remote.php
-* /usr/share/pear/PEAR/Command/Remote.xml
-* /usr/share/pear/PEAR/Command/Test.php
-* /usr/share/pear/PEAR/Command/Test.xml
-* /usr/share/pear/PEAR/Common.php
-* /usr/share/pear/PEAR/Config.php
-* /usr/share/pear/PEAR/Dependency2.php
-* /usr/share/pear/PEAR/DependencyDB.php
-* /usr/share/pear/PEAR/Downloader.php
-* /usr/share/pear/PEAR/Downloader/Package.php
-* /usr/share/pear/PEAR/ErrorStack.php
-* /usr/share/pear/PEAR/Exception.php
-* /usr/share/pear/PEAR/Frontend.php
-* /usr/share/pear/PEAR/Frontend/CLI.php
-* /usr/share/pear/PEAR/Installer.php
-* /usr/share/pear/PEAR/Installer/Role.php
-* /usr/share/pear/PEAR/Installer/Role/Cfg.php
-* /usr/share/pear/PEAR/Installer/Role/Cfg.xml
-* /usr/share/pear/PEAR/Installer/Role/Common.php
-* /usr/share/pear/PEAR/Installer/Role/Data.php
-* /usr/share/pear/PEAR/Installer/Role/Data.xml
-* /usr/share/pear/PEAR/Installer/Role/Doc.php
-* /usr/share/pear/PEAR/Installer/Role/Doc.xml
-* /usr/share/pear/PEAR/Installer/Role/Ext.php
-* /usr/share/pear/PEAR/Installer/Role/Ext.xml
-* /usr/share/pear/PEAR/Installer/Role/Man.php
-* /usr/share/pear/PEAR/Installer/Role/Man.xml
-* /usr/share/pear/PEAR/Installer/Role/Php.php
-* /usr/share/pear/PEAR/Installer/Role/Php.xml
-* /usr/share/pear/PEAR/Installer/Role/Script.php
-* /usr/share/pear/PEAR/Installer/Role/Script.xml
-* /usr/share/pear/PEAR/Installer/Role/Src.php
-* /usr/share/pear/PEAR/Installer/Role/Src.xml
-* /usr/share/pear/PEAR/Installer/Role/Test.php
-* /usr/share/pear/PEAR/Installer/Role/Test.xml
-* /usr/share/pear/PEAR/Installer/Role/Www.php
-* /usr/share/pear/PEAR/Installer/Role/Www.xml
-* /usr/share/pear/PEAR/PackageFile.php
-* /usr/share/pear/PEAR/PackageFile/Generator/v1.php
-* /usr/share/pear/PEAR/PackageFile/Generator/v2.php
-* /usr/share/pear/PEAR/PackageFile/Parser/v1.php
-* /usr/share/pear/PEAR/PackageFile/Parser/v2.php
-* /usr/share/pear/PEAR/PackageFile/v1.php
-* /usr/share/pear/PEAR/PackageFile/v2.php
-* /usr/share/pear/PEAR/PackageFile/v2/rw.php
-* /usr/share/pear/PEAR/PackageFile/v2/Validator.php
-* /usr/share/pear/PEAR/Packager.php
-* /usr/share/pear/PEAR/Proxy.php
-* /usr/share/pear/PEAR/Registry.php
-* /usr/share/pear/PEAR/REST.php
-* /usr/share/pear/PEAR/REST/10.php
-* /usr/share/pear/PEAR/REST/11.php
-* /usr/share/pear/PEAR/REST/13.php
-* /usr/share/pear/PEAR/RunTest.php
-* /usr/share/pear/PEAR/Task/Common.php
-* /usr/share/pear/PEAR/Task/Postinstallscript.php
-* /usr/share/pear/PEAR/Task/Postinstallscript/rw.php
-* /usr/share/pear/PEAR/Task/Replace.php
-* /usr/share/pear/PEAR/Task/Replace/rw.php
-* /usr/share/pear/PEAR/Task/Unixeol.php
-* /usr/share/pear/PEAR/Task/Unixeol/rw.php
-* /usr/share/pear/PEAR/Task/Windowseol.php
-* /usr/share/pear/PEAR/Task/Windowseol/rw.php
-* /usr/share/pear/PEAR/Validate.php
-* /usr/share/pear/PEAR/Validator/PECL.php
-* /usr/share/pear/PEAR/XMLParser.php
-* /usr/share/pear/pearcmd.php
-* /usr/share/pear/peclcmd.php
 * /usr/share/pear/Structures/Graph.php
 * /usr/share/pear/Structures/Graph/Manipulator/AcyclicTest.php
 * /usr/share/pear/Structures/Graph/Manipulator/TopologicalSorter.php
 * /usr/share/pear/Structures/Graph/Node.php
-* /usr/share/pear/System.php
 * /usr/share/pear/test/Console_Getopt/tests/001-getopt.phpt
 * /usr/share/pear/test/Console_Getopt/tests/bug10557.phpt
 * /usr/share/pear/test/Console_Getopt/tests/bug11068.phpt

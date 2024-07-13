@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "exiv2 0.28.2-1"
-version = "0.28.2-1"
+title = "exiv2 0.28.3-1"
+version = "0.28.3-1"
 description = "Exiv2 is a C++ library and a command line utility to access image metadata."
-date = "2024-02-18T18:19:02"
+date = "2024-07-13T18:45:18"
 aliases = "/packages/14730"
 categories = ['apps']
 upstreamurl = "http://www.exiv2.org"
 arch = "x86_64"
-size = "1748300"
-usize = "8711499"
-sha1sum = "c33324dfa535ce93089a8b7442c9bccd1220f18b"
+size = "2805756"
+usize = "16744039"
+sha1sum = "4e2f186900460c93f4d7014ced5635dd888b71e9"
 depends = "['curl>=7.50.3-2', 'expat>=2.1.0-6', 'inih', 'libssh>=0.7.4-2', 'libstdc++>=11.2', 'zlib>=1.2.12']"
 reverse_depends = "['darktable', 'gwenview', 'kfilemetadata', 'kfilemetadata5', 'kio-extras-kf5', 'koko', 'krename', 'krita', 'libextractor', 'libgexiv2', 'libkexiv2', 'libkexiv25', 'mlt', 'nomacs', 'nufraw']"
 +++
@@ -72,26 +72,30 @@ Exiv2 is a C++ library and a command line utility to access image metadata.
 * /usr/lib/cmake/exiv2/exiv2Export-release.cmake
 * /usr/lib/cmake/exiv2/exiv2Export.cmake
 * /usr/lib/libexiv2.so
-* /usr/lib/libexiv2.so.0.28.2
+* /usr/lib/libexiv2.so.0.28.3
 * /usr/lib/libexiv2.so.28
 * /usr/lib/pkgconfig/exiv2.pc
-* /usr/share/doc/exiv2-0.28.2/AUTHORS
-* /usr/share/doc/exiv2-0.28.2/COPYING
-* /usr/share/doc/exiv2-0.28.2/README-CONAN.md
-* /usr/share/doc/exiv2-0.28.2/README-meson
-* /usr/share/doc/exiv2-0.28.2/README-SAMPLES.md
-* /usr/share/doc/exiv2-0.28.2/README.md
+* /usr/share/doc/exiv2-0.28.3/AUTHORS
+* /usr/share/doc/exiv2-0.28.3/COPYING
+* /usr/share/doc/exiv2-0.28.3/README-CONAN.md
+* /usr/share/doc/exiv2-0.28.3/README-meson
+* /usr/share/doc/exiv2-0.28.3/README-SAMPLES.md
+* /usr/share/doc/exiv2-0.28.3/README.md
 * /usr/share/locale/bs/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/ca/LC_MESSAGES/exiv2.mo
+* /usr/share/locale/da/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/de/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/es/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/fi/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/fr/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/gl/LC_MESSAGES/exiv2.mo
+* /usr/share/locale/it/LC_MESSAGES/exiv2.mo
+* /usr/share/locale/ka/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/ms/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/nl/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/pl/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/pt/LC_MESSAGES/exiv2.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/ru/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/sk/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/sv/LC_MESSAGES/exiv2.mo

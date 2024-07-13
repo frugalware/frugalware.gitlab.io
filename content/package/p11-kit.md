@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "p11-kit 0.25.3-2"
-version = "0.25.3-2"
+title = "p11-kit 0.25.5-1"
+version = "0.25.5-1"
 description = "Provides a way to load and enumerate PKCS#11 modules."
-date = "2024-05-17T13:40:40"
+date = "2024-07-13T18:32:07"
 aliases = "/packages/136195"
 categories = ['apps']
 upstreamurl = "http://p11-glue.freedesktop.org/p11-kit.html"
 arch = "x86_64"
-size = "715384"
-usize = "5326039"
-sha1sum = "ad916d74f2f05c0b66c92ec599014288c660c6e0"
+size = "751516"
+usize = "4993679"
+sha1sum = "d3c3377f4a84dd80bb889608ae475fd26abafc63"
 depends = "['ca-certificates', 'libffi>=3.4', 'libsystemd', 'libtasn1>=4.13-2']"
 reverse_depends = "['gcr-1', 'gnutls', 'libsystemd']"
 +++
@@ -31,7 +31,7 @@ Provides a way to load and enumerate PKCS#11 modules.
 * /usr/include/p11-kit-1/p11-kit/uri.h
 * /usr/lib/libp11-kit.so
 * /usr/lib/libp11-kit.so.0
-* /usr/lib/libp11-kit.so.0.3.1
+* /usr/lib/libp11-kit.so.0.4.1
 * /usr/lib/p11-kit-proxy.so
 * /usr/lib/p11-kit/p11-kit/p11-kit-remote
 * /usr/lib/p11-kit/p11-kit/p11-kit-server
@@ -39,11 +39,14 @@ Provides a way to load and enumerate PKCS#11 modules.
 * /usr/lib/pkcs11/p11-kit-client.so
 * /usr/lib/pkcs11/p11-kit-trust.so
 * /usr/lib/pkgconfig/p11-kit-1.pc
-* /usr/share/doc/p11-kit-0.25.3/AUTHORS
-* /usr/share/doc/p11-kit-0.25.3/ChangeLog
-* /usr/share/doc/p11-kit-0.25.3/COPYING
-* /usr/share/doc/p11-kit-0.25.3/NEWS
-* /usr/share/doc/p11-kit-0.25.3/README
+* /usr/share/doc/p11-kit-0.25.5/AUTHORS
+* /usr/share/doc/p11-kit-0.25.5/BUGS
+* /usr/share/doc/p11-kit-0.25.5/ChangeLog
+* /usr/share/doc/p11-kit-0.25.5/COPYING
+* /usr/share/doc/p11-kit-0.25.5/INSTALL
+* /usr/share/doc/p11-kit-0.25.5/NEWS
+* /usr/share/doc/p11-kit-0.25.5/README
+* /usr/share/doc/p11-kit-0.25.5/README_MACOSX.txt
 * /usr/share/gtk-doc/html/p11-kit/config-example.html
 * /usr/share/gtk-doc/html/p11-kit/config-files.html
 * /usr/share/gtk-doc/html/p11-kit/config.html

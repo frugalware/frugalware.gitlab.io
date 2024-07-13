@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ruby 3.3.3-1"
-version = "3.3.3-1"
+title = "ruby 3.3.4-1"
+version = "3.3.4-1"
 description = "An object-oriented programming language."
-date = "2024-06-12T09:33:46"
+date = "2024-07-13T18:23:30"
 aliases = "/packages/3323"
 categories = ['devel']
 upstreamurl = "http://www.ruby-lang.org"
 arch = "x86_64"
-size = "10348036"
-usize = "45771518"
-sha1sum = "0fd587efb1b54f18b1046c8ffb77ef2ba2b90cc2"
+size = "10415124"
+usize = "46083488"
+sha1sum = "9e0c86e7207729a60881189f386b58ed0e3ac905"
 depends = "['gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0', 'zlib>=1.2.12']"
 reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-hiera', 'ruby-hpricot', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount', 'ruby-rdiscount', 'ruby-ronn', 'ruby-sass', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
 +++
@@ -225,7 +225,7 @@ An object-oriented programming language.
 * /usr/include/ruby-3.3.0/x86_64-linux/ruby/config.h
 * /usr/lib/libruby.so
 * /usr/lib/libruby.so.3.3
-* /usr/lib/libruby.so.3.3.3
+* /usr/lib/libruby.so.3.3.4
 * /usr/lib/pkgconfig/ruby-3.3.pc
 * /usr/lib/ruby/3.3.0/abbrev.rb
 * /usr/lib/ruby/3.3.0/base64.rb
@@ -1494,8 +1494,15 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/CONTRIBUTING.md
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/exe/rdbg
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/debug.c
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/debug.o
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/debug_version.h
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/extconf.h
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/extconf.rb
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/iseq_collector.c
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/iseq_collector.o
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/Makefile
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/ext/debug/mkmf.log
+* /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/exts.mk
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/Gemfile
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/lib/debug.rb
 * /usr/lib/ruby/gems/3.3.0/gems/debug-1.9.1/lib/debug/abbrev_command.rb
@@ -1836,22 +1843,35 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/exe/rbs
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/constants.c
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/constants.h
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/constants.o
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/extconf.h
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/extconf.rb
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/lexer.c
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/lexer.h
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/lexer.o
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/lexer.re
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/lexstate.c
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/lexstate.o
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/location.c
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/location.h
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/location.o
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/main.c
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/main.o
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/Makefile
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/mkmf.log
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/parser.c
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/parser.h
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/parser.o
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/parserstate.c
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/parserstate.h
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/parserstate.o
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/rbs_extension.h
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/ruby_objs.c
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/ruby_objs.h
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/ruby_objs.o
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/unescape.c
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/ext/rbs_extension/unescape.o
+* /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/exts.mk
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/Gemfile
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/Gemfile.lock
 * /usr/lib/ruby/gems/3.3.0/gems/rbs-3.4.0/goodcheck.yml
@@ -2495,14 +2515,14 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.3.0/specifications/rss-0.3.0.gemspec
 * /usr/lib/ruby/gems/3.3.0/specifications/test-unit-3.6.1.gemspec
 * /usr/lib/ruby/gems/3.3.0/specifications/typeprof-0.21.9.gemspec
-* /usr/share/doc/ruby-3.3.3/ChangeLog
-* /usr/share/doc/ruby-3.3.3/COPYING
-* /usr/share/doc/ruby-3.3.3/COPYING.ja
-* /usr/share/doc/ruby-3.3.3/KNOWNBUGS.rb
-* /usr/share/doc/ruby-3.3.3/README.EXT
-* /usr/share/doc/ruby-3.3.3/README.EXT.ja
-* /usr/share/doc/ruby-3.3.3/README.ja.md
-* /usr/share/doc/ruby-3.3.3/README.md
+* /usr/share/doc/ruby-3.3.4/ChangeLog
+* /usr/share/doc/ruby-3.3.4/COPYING
+* /usr/share/doc/ruby-3.3.4/COPYING.ja
+* /usr/share/doc/ruby-3.3.4/KNOWNBUGS.rb
+* /usr/share/doc/ruby-3.3.4/README.EXT
+* /usr/share/doc/ruby-3.3.4/README.EXT.ja
+* /usr/share/doc/ruby-3.3.4/README.ja.md
+* /usr/share/doc/ruby-3.3.4/README.md
 * /usr/share/man/man1/erb.1.gz
 * /usr/share/man/man1/irb.1.gz
 * /usr/share/man/man1/ri.1.gz
