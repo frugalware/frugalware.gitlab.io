@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 6.8.1-1"
-version = "6.8.1-1"
+title = "streamlink 6.8.3-1"
+version = "6.8.3-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-06-27T13:00:31"
+date = "2024-07-14T20:37:28"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "799224"
-usize = "3956487"
-sha1sum = "e815e2bc0dd31d67f7a29bc88f4088e7d8918c16"
+size = "805360"
+usize = "3986312"
+sha1sum = "dd5cad87fc5ce84050cd0f9601027acb68432656"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -94,6 +94,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/dlive.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/dogan.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/dogus.py
+* /usr/lib/python3.12/site-packages/streamlink/plugins/douyin.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/drdk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/earthcam.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/euronews.py
@@ -173,6 +174,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/telefe.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/telemadrid.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/tf1.py
+* /usr/lib/python3.12/site-packages/streamlink/plugins/tiktok.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/trovo.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/turkuvaz.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/tv360.py
@@ -246,6 +248,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/dlive.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/dogan.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/dogus.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/douyin.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/drdk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/earthcam.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/euronews.cpython-312.pyc
@@ -325,6 +328,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/telefe.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/telemadrid.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tf1.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tiktok.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/trovo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/turkuvaz.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tv360.cpython-312.pyc
@@ -546,6 +550,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/_parser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/streamlink-6.8.1/AUTHORS
-* /usr/share/doc/streamlink-6.8.1/LICENSE
-* /usr/share/doc/streamlink-6.8.1/README.md
+* /usr/share/doc/streamlink-6.8.3/AUTHORS
+* /usr/share/doc/streamlink-6.8.3/LICENSE
+* /usr/share/doc/streamlink-6.8.3/README.md

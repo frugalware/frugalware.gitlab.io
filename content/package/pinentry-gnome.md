@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pinentry-gnome 1.3.0-5"
-version = "1.3.0-5"
+title = "pinentry-gnome 1.3.1-1"
+version = "1.3.1-1"
 description = "GNOME based Applications for entering PINs or Passphrases."
-date = "2024-06-24T18:05:12"
+date = "2024-07-14T20:38:52"
 aliases = "/packages/221424"
 categories = ['xapps-extra']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/pinentry/"
 arch = "x86_64"
-size = "32984"
-usize = "77216"
-sha1sum = "e73400218e711092b3f0d84cc87c2226dcda4c33"
-depends = "['gcr', 'pinentry>=1.3.0']"
+size = "33132"
+usize = "77280"
+sha1sum = "391a44ff22ded9695fd1201b134bfa7468c00d54"
+depends = "['gcr', 'pinentry>=1.3.1']"
 +++
 ### Description: 
 GNOME based Applications for entering PINs or Passphrases.

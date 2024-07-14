@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libadwaita 1.4.5-1"
-version = "1.4.5-1"
+title = "libadwaita 1.5.2-1"
+version = "1.5.2-1"
 description = "Building blocks for modern adaptive GNOME applications"
-date = "2024-06-04T13:03:16"
+date = "2024-07-14T20:24:45"
 aliases = "/packages/220893"
 categories = ['lib-extra']
 upstreamurl = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
 arch = "x86_64"
-size = "593028"
-usize = "4453052"
-sha1sum = "b16aef21da5df388a91274b9ddcf5feb624dd0e7"
+size = "641228"
+usize = "4912434"
+sha1sum = "71547db02a2d7a871a2c8043b3b62a4d729cdcec"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome']"
 +++
@@ -19,8 +19,10 @@ Building blocks for modern adaptive GNOME applications
 
 ### Files: 
 * /usr/bin/adwaita-1-demo
+* /usr/include/libadwaita-1/adw-about-dialog.h
 * /usr/include/libadwaita-1/adw-about-window.h
 * /usr/include/libadwaita-1/adw-action-row.h
+* /usr/include/libadwaita-1/adw-alert-dialog.h
 * /usr/include/libadwaita-1/adw-animation-target.h
 * /usr/include/libadwaita-1/adw-animation-util.h
 * /usr/include/libadwaita-1/adw-animation.h
@@ -39,6 +41,7 @@ Building blocks for modern adaptive GNOME applications
 * /usr/include/libadwaita-1/adw-clamp-scrollable.h
 * /usr/include/libadwaita-1/adw-clamp.h
 * /usr/include/libadwaita-1/adw-combo-row.h
+* /usr/include/libadwaita-1/adw-dialog.h
 * /usr/include/libadwaita-1/adw-easing.h
 * /usr/include/libadwaita-1/adw-entry-row.h
 * /usr/include/libadwaita-1/adw-enum-list-model.h
@@ -56,6 +59,7 @@ Building blocks for modern adaptive GNOME applications
 * /usr/include/libadwaita-1/adw-navigation-view.h
 * /usr/include/libadwaita-1/adw-overlay-split-view.h
 * /usr/include/libadwaita-1/adw-password-entry-row.h
+* /usr/include/libadwaita-1/adw-preferences-dialog.h
 * /usr/include/libadwaita-1/adw-preferences-group.h
 * /usr/include/libadwaita-1/adw-preferences-page.h
 * /usr/include/libadwaita-1/adw-preferences-row.h
@@ -91,10 +95,10 @@ Building blocks for modern adaptive GNOME applications
 * /usr/lib/libadwaita-1.so.0
 * /usr/lib/pkgconfig/libadwaita-1.pc
 * /usr/share/applications/org.gnome.Adwaita1.Demo.desktop
-* /usr/share/doc/libadwaita-1.4.5/AUTHORS
-* /usr/share/doc/libadwaita-1.4.5/COPYING
-* /usr/share/doc/libadwaita-1.4.5/NEWS
-* /usr/share/doc/libadwaita-1.4.5/README.md
+* /usr/share/doc/libadwaita-1.5.2/AUTHORS
+* /usr/share/doc/libadwaita-1.5.2/COPYING
+* /usr/share/doc/libadwaita-1.5.2/NEWS
+* /usr/share/doc/libadwaita-1.5.2/README.md
 * /usr/share/gir-1.0/Adw-1.gir
 * /usr/share/icons/hicolor/scalable/apps/org.gnome.Adwaita1.Demo.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gnome.Adwaita1.Demo-symbolic.svg
@@ -123,9 +127,11 @@ Building blocks for modern adaptive GNOME applications
 * /usr/share/locale/it/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/ja/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/ka/LC_MESSAGES/libadwaita.mo
+* /usr/share/locale/kab/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/kk/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/ko/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/lt/LC_MESSAGES/libadwaita.mo
+* /usr/share/locale/lv/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/nb/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/ne/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/nl/LC_MESSAGES/libadwaita.mo
