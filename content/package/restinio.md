@@ -1,38 +1,24 @@
 +++
 draft = false
-title = "restinio 0.7.2-1"
-version = "0.7.2-1"
+title = "restinio 0.7.2-2"
+version = "0.7.2-2"
 description = "Header-only C++14 library that gives you an embedded HTTP/Websocket server"
-date = "2024-06-28T12:50:22"
+date = "2024-07-14T17:07:05"
 aliases = "/packages/220118"
 categories = ['devel-extra']
 upstreamurl = "https://stiffstream.com/en/products/restinio.html"
 arch = "x86_64"
-size = "300520"
-usize = "1806809"
-sha1sum = "8913e9cf28f6d1b07af2c44eda4ebe8e1500f0f6"
-depends = "['fmtlib', 'http-parser']"
+size = "185888"
+usize = "1173736"
+sha1sum = "560bcfbd6ae63d1362a136ad59a12652b6f0178c"
+depends = "['glibc']"
 reverse_depends = "['opendht']"
 +++
 ### Description: 
 Header-only C++14 library that gives you an embedded HTTP/Websocket server
 
 ### Files: 
-* /usr/include/fmt/args.h
-* /usr/include/fmt/chrono.h
-* /usr/include/fmt/color.h
-* /usr/include/fmt/compile.h
-* /usr/include/fmt/core.h
-* /usr/include/fmt/format-inl.h
-* /usr/include/fmt/format.h
-* /usr/include/fmt/os.h
-* /usr/include/fmt/ostream.h
-* /usr/include/fmt/printf.h
-* /usr/include/fmt/ranges.h
-* /usr/include/fmt/std.h
-* /usr/include/fmt/xchar.h
 * /usr/include/llhttp.h
-* /usr/include/nonstd/expected.hpp
 * /usr/include/restinio/all.hpp
 * /usr/include/restinio/asio_include.hpp
 * /usr/include/restinio/asio_timer_manager.hpp
@@ -159,19 +145,11 @@ Header-only C++14 library that gives you an embedded HTTP/Websocket server
 * /usr/include/restinio/websocket/impl/ws_protocol_validator.hpp
 * /usr/include/restinio/websocket/message.hpp
 * /usr/include/restinio/websocket/websocket.hpp
-* /usr/lib/cmake/expected-lite/expected-lite-config-version.cmake
-* /usr/lib/cmake/expected-lite/expected-lite-config.cmake
-* /usr/lib/cmake/expected-lite/expected-lite-targets.cmake
-* /usr/lib/cmake/fmt/fmt-config-version.cmake
-* /usr/lib/cmake/fmt/fmt-config.cmake
-* /usr/lib/cmake/fmt/fmt-targets-release.cmake
-* /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/cmake/llhttp/llhttp-config-release.cmake
 * /usr/lib/cmake/llhttp/llhttp-config.cmake
 * /usr/lib/cmake/restinio/restinio-config-version.cmake
 * /usr/lib/cmake/restinio/restinio-config.cmake
 * /usr/lib/cmake/restinio/restinio-targets.cmake
-* /usr/lib/pkgconfig/fmt.pc
 * /usr/lib/pkgconfig/libllhttp.pc
 * /usr/share/doc/restinio-0.7.2/LICENSE
 * /usr/share/doc/restinio-0.7.2/README.md

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1117640"
 usize = "3993753"
 sha1sum = "196b8130d57e40b1cff58a5e03609db9aeb25541"
-depends = "['argon2', 'asio', 'fmtlib>=10.0.0', 'gnutls', 'jsoncpp>=1.9.5', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
+depends = "['argon2', 'asio', 'fmtlib>=11.0.1', 'gnutls', 'jsoncpp>=1.9.5', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
 +++
 ### Description: 
 A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
@@ -23,6 +23,7 @@ A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
 * /usr/bin/dhtcluster
 * /usr/bin/dhtnode
 * /usr/bin/dhtscanner
+* /usr/include/llhttp.h
 * /usr/include/opendht.h
 * /usr/include/opendht/callbacks.h
 * /usr/include/opendht/crypto.h
@@ -55,20 +56,26 @@ A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
 * /usr/include/opendht/thread_pool.h
 * /usr/include/opendht/utils.h
 * /usr/include/opendht/value.h
-* /usr/lib/cmake/opendht/opendhtConfig-none.cmake
+* /usr/lib/cmake/llhttp/llhttp-config-release.cmake
+* /usr/lib/cmake/llhttp/llhttp-config.cmake
+* /usr/lib/cmake/opendht/opendhtConfig-release.cmake
 * /usr/lib/cmake/opendht/opendhtConfig.cmake
 * /usr/lib/cmake/opendht/opendhtConfigVersion.cmake
+* /usr/lib/libllhttp.so
+* /usr/lib/libllhttp.so.9.2
+* /usr/lib/libllhttp.so.9.2.0
 * /usr/lib/libopendht.so
 * /usr/lib/libopendht.so.3
-* /usr/lib/libopendht.so.3.1.7
+* /usr/lib/libopendht.so.3.1.11
+* /usr/lib/pkgconfig/libllhttp.pc
 * /usr/lib/pkgconfig/opendht.pc
-* /usr/lib/python3.12/site-packages/opendht-3.1.7-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/opendht-3.1.7-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/opendht-3.1.7-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/opendht-3.1.7-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/opendht-3.1.11-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/opendht-3.1.11-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/opendht-3.1.11-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/opendht-3.1.11-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/opendht.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/systemd/system/dhtcluster.service
 * /usr/lib/systemd/system/dhtnode.service
-* /usr/share/doc/opendht-3.1.7/COPYING
-* /usr/share/doc/opendht-3.1.7/README.md
+* /usr/share/doc/opendht-3.1.11/COPYING
+* /usr/share/doc/opendht-3.1.11/README.md
 * /usr/share/man/man1/dhtnode.1.gz
