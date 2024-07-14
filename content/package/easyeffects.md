@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "easyeffects 7.1.7-1"
-version = "7.1.7-1"
+title = "easyeffects 7.1.7-2"
+version = "7.1.7-2"
 description = "Audio Effects for Pipewire Applications"
-date = "2024-06-27T13:35:25"
+date = "2024-07-14T16:00:29"
 aliases = "/packages/220894"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/wwmm/pulseeffects"
 arch = "x86_64"
-size = "1178552"
-usize = "8241995"
-sha1sum = "3345c94636a02117ddc2a5edf851117a2b5d1ae0"
-depends = "['fmtlib>=10.0', 'gsl>=2.8', 'intel-tbb', 'ladspa_sdk', 'libadwaita', 'libbs2b', 'libebur128', 'libsigc++3', 'lsp-plugins', 'lzo', 'pipewire', 'rnnoise', 'rubberband', 'soundtouch', 'speexdsp', 'zita-convolver']"
+size = "1174912"
+usize = "8230283"
+sha1sum = "a10c9cf086240d497a25b79c8ac6f4e92b6580c6"
+depends = "['fmtlib>=11.0.1', 'gsl>=2.8', 'intel-tbb', 'ladspa_sdk', 'libadwaita', 'libbs2b', 'libebur128', 'libsigc++3', 'lsp-plugins', 'lzo', 'pipewire', 'rnnoise', 'rubberband', 'soundtouch', 'speexdsp', 'zita-convolver']"
 +++
 ### Description: 
 Audio Effects for Pipewire Applications

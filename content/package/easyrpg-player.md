@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "easyrpg-player 0.8-1"
-version = "0.8-1"
+title = "easyrpg-player 0.8-2"
+version = "0.8-2"
 description = "EasyRPG Player is a game interpreter to play RPG Maker 2000, 2003 and EasyRPG games."
-date = "2023-07-29T10:43:03"
+date = "2024-07-14T16:03:39"
 aliases = "/packages/217398"
 categories = ['xapps-extra']
 upstreamurl = "https://easy-rpg.org"
 arch = "x86_64"
-size = "1268080"
-usize = "3683373"
-sha1sum = "a5e3a110fe412c694465f407e557ec7bb5d035e1"
-depends = "['fmtlib>=10.0.0', 'freetype2>=2.7', 'liblcf>=0.8', 'pixman>=0.34.0-2', 'sdl2_mixer>=2.0.1-2']"
+size = "1313088"
+usize = "3799205"
+sha1sum = "234e1ea1b9a1e0016add3af7416bc46291ad9330"
+depends = "['fmtlib>=11.0.1', 'freetype2>=2.7', 'liblcf>=0.8', 'pixman>=0.34.0-2', 'sdl2_mixer>=2.0.1-2']"
 +++
 ### Description: 
 EasyRPG Player is a game interpreter to play RPG Maker 2000, 2003 and EasyRPG games.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fmtlib 10.2.1-2"
-version = "10.2.1-2"
+title = "fmtlib 11.0.1-1"
+version = "11.0.1-1"
 description = "Open-source formatting library for C++"
-date = "2024-06-01T14:25:31"
+date = "2024-07-14T15:35:50"
 aliases = "/packages/220117"
 categories = ['devel-core']
 upstreamurl = "https://fmtlib.net"
 arch = "x86_64"
-size = "178660"
-usize = "730887"
-sha1sum = "3ac00b8ef6087453d2f677f6463b67bde201a954"
+size = "176996"
+usize = "736352"
+sha1sum = "6abbd96a631aeb3b91b25a9e1a0deba4ca868cd8"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ccache', 'cppgir', 'easyeffects', 'easyrpg-player', 'mkvtoolnix', 'mpd', 'opendht', 'openimageio', 'performous', 'restinio', 'telegram-desktop', 'warzone2100']"
 +++
@@ -19,6 +19,7 @@ Open-source formatting library for C++
 
 ### Files: 
 * /usr/include/fmt/args.h
+* /usr/include/fmt/base.h
 * /usr/include/fmt/chrono.h
 * /usr/include/fmt/color.h
 * /usr/include/fmt/compile.h
@@ -36,8 +37,8 @@ Open-source formatting library for C++
 * /usr/lib/cmake/fmt/fmt-targets-release.cmake
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/libfmt.so
-* /usr/lib/libfmt.so.10
-* /usr/lib/libfmt.so.10.2.1
+* /usr/lib/libfmt.so.11
+* /usr/lib/libfmt.so.11.0.1
 * /usr/lib/pkgconfig/fmt.pc
-* /usr/share/doc/fmtlib-10.2.1/LICENSE
-* /usr/share/doc/fmtlib-10.2.1/README.md
+* /usr/share/doc/fmtlib-11.0.1/LICENSE
+* /usr/share/doc/fmtlib-11.0.1/README.md

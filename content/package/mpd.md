@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mpd 0.23.15-4"
-version = "0.23.15-4"
+title = "mpd 0.23.15-5"
+version = "0.23.15-5"
 description = "the Music Player Daemon"
-date = "2024-06-05T18:38:22"
+date = "2024-07-14T16:12:16"
 aliases = "/packages/3231"
 categories = ['multimedia-extra']
 upstreamurl = "http://www.musicpd.org/"
 arch = "x86_64"
-size = "772916"
-usize = "2670684"
-sha1sum = "e0e1630320ffe1addb1fe19b37913bd4a62b26ed"
-depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=7.0', 'flac>=1.4.0', 'fluidsynth>=2.0.0', 'fmtlib', 'icu4c>=75.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=4.0', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
+size = "772276"
+usize = "2669325"
+sha1sum = "da756863fde4981808be3f122dbc3e613e3e5720"
+depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=7.0', 'flac>=1.4.0', 'fluidsynth>=2.0.0', 'fmtlib>=11.0.1', 'icu4c>=75.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=4.0', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
 +++
 ### Description: 
 the Music Player Daemon

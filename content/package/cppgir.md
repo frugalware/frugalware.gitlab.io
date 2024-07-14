@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cppgir 2.0-1"
-version = "2.0-1"
+title = "cppgir 2.0-2"
+version = "2.0-2"
 description = "GObject-Introspection C++ binding wrapper generator"
-date = "2024-05-22T06:54:43"
+date = "2024-07-14T15:46:21"
 aliases = "/packages/221022"
 categories = ['devel-extra']
 upstreamurl = "https://gitlab.com/mnauw/cppgir"
 arch = "x86_64"
-size = "288224"
-usize = "932872"
-sha1sum = "c571de3761c57a481e3bcee0b570ea219e584abd"
-depends = "['fmtlib>=10.0', 'libboost>=1.85.0']"
+size = "288448"
+usize = "933016"
+sha1sum = "accfe19a1d808cf81a5043254213fa3a4d650812"
+depends = "['fmtlib>=11.0.1', 'libboost>=1.85.0']"
 +++
 ### Description: 
 GObject-Introspection C++ binding wrapper generator

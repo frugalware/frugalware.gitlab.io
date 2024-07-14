@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rinutils 0.10.2-1"
-version = "0.10.2-1"
+title = "rinutils 0.10.3-1"
+version = "0.10.3-1"
 description = "C11 / gnu11 utilities C library"
-date = "2023-07-28T08:43:20"
+date = "2024-07-14T15:34:17"
 aliases = "/packages/220025"
 categories = ['lib-extra']
 upstreamurl = "https://www.shlomifish.org/open-source/projects/"
 arch = "x86_64"
-size = "7224"
+size = "7244"
 usize = "23392"
-sha1sum = "01e371205e2161fefaf8620a3c98e48006b7c23c"
+sha1sum = "3d36050bd5d06f7e99e7d474901d6a023c0a1ded"
 depends = "['glibc>=2.34']"
 reverse_depends = "['freecell-solver']"
 +++
@@ -35,5 +35,5 @@ C11 / gnu11 utilities C library
 * /usr/lib/cmake/Rinutils/RinutilsConfig.cmake
 * /usr/lib/cmake/Rinutils/RinutilsConfigVersion.cmake
 * /usr/lib/pkgconfig/librinutils.pc
-* /usr/share/doc/rinutils-0.10.2/LICENSE
-* /usr/share/doc/rinutils-0.10.2/README.asciidoc
+* /usr/share/doc/rinutils-0.10.3/LICENSE
+* /usr/share/doc/rinutils-0.10.3/README.asciidoc

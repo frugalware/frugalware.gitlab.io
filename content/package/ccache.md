@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ccache 4.10-2"
-version = "4.10-2"
+title = "ccache 4.10.1-1"
+version = "4.10.1-1"
 description = "A fast compiler cache"
-date = "2024-05-31T15:30:02"
+date = "2024-07-14T15:44:45"
 aliases = "/packages/2941"
 categories = ['devel-core']
 upstreamurl = "http://ccache.dev"
 arch = "x86_64"
-size = "460456"
-usize = "1237550"
-sha1sum = "1224ee12e77eac9a644a3b775e9ecad747b6cdb3"
-depends = "['fmtlib', 'hiredis', 'zstd']"
+size = "462964"
+usize = "1234124"
+sha1sum = "7ea9ebb40b7873e2397c7e344eacb302be57e5d9"
+depends = "['fmtlib>=11.0.1', 'hiredis', 'zstd']"
 +++
 ### Description: 
 A fast compiler cache
@@ -28,6 +28,6 @@ A fast compiler cache
 * /usr/lib/ccache/bin/x86_64-frugalware-linux-cc
 * /usr/lib/ccache/bin/x86_64-frugalware-linux-g++
 * /usr/lib/ccache/bin/x86_64-frugalware-linux-gcc
-* /usr/share/doc/ccache-4.10/README.Frugalware
-* /usr/share/doc/ccache-4.10/README.md
+* /usr/share/doc/ccache-4.10.1/README.Frugalware
+* /usr/share/doc/ccache-4.10.1/README.md
 * /usr/share/man/man1/ccache.1.gz
