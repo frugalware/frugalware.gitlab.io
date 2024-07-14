@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dracut 102-1"
-version = "102-1"
+title = "dracut 103-1"
+version = "103-1"
 description = "Generic initramfs generationtool"
-date = "2024-05-30T08:17:12"
+date = "2024-07-14T14:38:37"
 aliases = "/packages/103623"
 categories = ['base']
 upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "254504"
-usize = "987246"
-sha1sum = "b75c4d4830e2c7b25f6877c43b88c24dccd41fc6"
+size = "255952"
+usize = "973089"
+sha1sum = "3ba5371feb4f19e95bfb6b481aec37e54dd3e99f"
 depends = "['bash>=4.4', 'binutils', 'cpio>=2.12-3', 'dash>=0.5.8', 'dmraid', 'elfutils', 'file', 'grep', 'kbd>=2.0.3-3', 'keyutils>=1.5.9-5', 'kmod', 'lvm2>=2.03.01-3', 'multipath-tools', 'pkgconfig', 'popt>=1.16-5', 'systemd>=227-15', 'util-linux>=2.27.1-4']"
 reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -57,7 +57,11 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/01systemd-journald/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-ldconfig/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-modules-load/module-setup.sh
+* /usr/lib/dracut/modules.d/01systemd-networkd/99-default.network
+* /usr/lib/dracut/modules.d/01systemd-networkd/99-wait-online-dracut.conf
 * /usr/lib/dracut/modules.d/01systemd-networkd/module-setup.sh
+* /usr/lib/dracut/modules.d/01systemd-networkd/networkd-config.sh
+* /usr/lib/dracut/modules.d/01systemd-networkd/networkd-run.sh
 * /usr/lib/dracut/modules.d/01systemd-pcrphase/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-portabled/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-pstore/module-setup.sh
@@ -240,6 +244,7 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/95debug/module-setup.sh
 * /usr/lib/dracut/modules.d/95fstab-sys/module-setup.sh
 * /usr/lib/dracut/modules.d/95fstab-sys/mount-sys.sh
+* /usr/lib/dracut/modules.d/95hwdb/module-setup.sh
 * /usr/lib/dracut/modules.d/95lunmask/fc_transport_scan_lun.sh
 * /usr/lib/dracut/modules.d/95lunmask/module-setup.sh
 * /usr/lib/dracut/modules.d/95lunmask/parse-lunmask.sh
@@ -379,11 +384,9 @@ Generic initramfs generationtool
 * /usr/lib/systemd/system/sysinit.target.wants/dracut-shutdown.service
 * /usr/share/bash-completion/completions/dracut
 * /usr/share/bash-completion/completions/lsinitrd
-* /usr/share/doc/dracut-102/AUTHORS
-* /usr/share/doc/dracut-102/COPYING
-* /usr/share/doc/dracut-102/README.md
-* /usr/share/doc/dracut-102/README.rst
-* /usr/share/doc/dracut-102/VERSION
+* /usr/share/doc/dracut-103/AUTHORS
+* /usr/share/doc/dracut-103/COPYING
+* /usr/share/doc/dracut-103/README.md
 * /usr/share/man/man1/lsinitrd.1.gz
 * /usr/share/man/man5/dracut.conf.5.gz
 * /usr/share/man/man7/dracut.bootup.7.gz

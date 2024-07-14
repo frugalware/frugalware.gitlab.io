@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sentry-sdk 2.7.0-1"
-version = "2.7.0-1"
+title = "python3-sentry-sdk 2.9.0-1"
+version = "2.9.0-1"
 description = "The official Python SDK for Sentry.io"
-date = "2024-06-26T14:35:27"
+date = "2024-07-14T14:56:58"
 aliases = "/packages/221383"
 categories = ['devel']
 upstreamurl = "https://sentry.io/for/python"
 arch = "x86_64"
-size = "474076"
-usize = "2159990"
-sha1sum = "3d8f119a69cb8f55786e20df90c5355888778cc4"
+size = "480960"
+usize = "2180301"
+sha1sum = "757558d18fe2b294480d88771d9cb3d940047ac1"
 depends = "['certifi', 'python3-urllib3']"
 reverse_depends = "['drkonqi']"
 +++
@@ -18,12 +18,13 @@ reverse_depends = "['drkonqi']"
 The official Python SDK for Sentry.io
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.7.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.7.0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.7.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.7.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.7.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.7.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/sentry_sdk-2.9.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/sentry_sdk/ai/monitoring.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/ai/utils.py
 * /usr/lib/python3.12/site-packages/sentry_sdk/ai/__init__.py
@@ -297,5 +298,6 @@ The official Python SDK for Sentry.io
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_types.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_werkzeug.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-sentry-sdk-2.7.0/LICENSE
-* /usr/share/doc/python3-sentry-sdk-2.7.0/README.md
+* /usr/share/doc/python3-sentry-sdk-2.9.0/LICENSE
+* /usr/share/doc/python3-sentry-sdk-2.9.0/README.md
+* /usr/share/doc/python3-sentry-sdk-2.9.0/Readme.md
