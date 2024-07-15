@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gradle 8.8-1"
-version = "8.8-1"
+title = "gradle 8.9-1"
+version = "8.9-1"
 description = "Powerful build system for the JVM"
-date = "2024-06-05T13:59:22"
+date = "2024-07-15T17:14:00"
 aliases = "/packages/219011"
 categories = ['devel-extra']
 upstreamurl = "https://gradle.org/"
 arch = "x86_64"
-size = "135956416"
-usize = "152916815"
-sha1sum = "7e3a0d97a9eefd5328682dac15fbc9e45fc5c0d7"
+size = "133990600"
+usize = "151076066"
+sha1sum = "ddc60a60ed3f85c0700aca6c1fc14e764616fa64"
 depends = "['bash', 'openjre']"
 +++
 ### Description: 
