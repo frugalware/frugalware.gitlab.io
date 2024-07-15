@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs20 20.15.0-1"
-version = "20.15.0-1"
+title = "nodejs20 20.15.1-1"
+version = "20.15.1-1"
 description = "Evented I/O for V8 javascript (LTS release: Iron)"
-date = "2024-06-30T17:33:36"
+date = "2024-07-15T09:10:16"
 aliases = "/packages/221497"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "12010744"
+size = "12007736"
 usize = "52853257"
-sha1sum = "2b5c903fa1022d3b2dd36fceea7380c57945dae1"
+sha1sum = "606301020710164fb19d7cb0456423bd1e9fc5a2"
 depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
@@ -2088,6 +2088,6 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs20-20.15.0/LICENSE
-* /usr/share/doc/nodejs20-20.15.0/README.md
+* /usr/share/doc/nodejs20-20.15.1/LICENSE
+* /usr/share/doc/nodejs20-20.15.1/README.md
 * /usr/share/man/man1/node.1.gz
