@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyenv 2.3.36-1"
-version = "2.3.36-1"
+title = "pyenv 2.4.7-1"
+version = "2.4.7-1"
 description = "Easily switch between multiple versions of Python"
-date = "2024-02-20T20:33:23"
+date = "2024-07-15T21:14:43"
 aliases = "/packages/221127"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/pyenv/pyenv"
 arch = "x86_64"
-size = "248728"
-usize = "3196279"
-sha1sum = "0c67073a2f1262739972caf67a70214839a8fc62"
+size = "268484"
+usize = "3283125"
+sha1sum = "52882e94828fa17e1601ec862612e1d6a2d6afef"
 depends = "['bash']"
 +++
 ### Description: 
