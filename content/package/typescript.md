@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "typescript 5.5.2-1"
-version = "5.5.2-1"
+title = "typescript 5.5.3-1"
+version = "5.5.3-1"
 description = "TypeScript is a language for application scale JavaScript development"
-date = "2024-06-28T12:53:46"
+date = "2024-07-15T16:12:43"
 aliases = "/packages/220286"
 categories = ['devel-extra']
 upstreamurl = "http://typescriptlang.org"
 arch = "x86_64"
-size = "2623968"
-usize = "21914223"
-sha1sum = "54686a571bfa90d7f59f51ec6b5326e49fd9d2ef"
+size = "2624464"
+usize = "21914337"
+sha1sum = "4be5af35f0c00d7845ba8fb054d1b837364512a2"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -193,4 +193,4 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/README.md
 * /usr/lib/node_modules/typescript/SECURITY.md
 * /usr/lib/node_modules/typescript/ThirdPartyNoticeText.txt
-* /usr/share/doc/typescript-5.5.2/README.md
+* /usr/share/doc/typescript-5.5.3/README.md

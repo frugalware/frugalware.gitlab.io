@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rapidfuzz-cpp 3.0.4-1"
-version = "3.0.4-1"
+title = "rapidfuzz-cpp 3.0.5-1"
+version = "3.0.5-1"
 description = "Rapid fuzzy string matching in C++ using the Levenshtein Distance"
-date = "2024-06-28T12:51:37"
+date = "2024-07-15T15:32:21"
 aliases = "/packages/221157"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/maxbachmann/rapidfuzz-cpp"
 arch = "x86_64"
-size = "49012"
-usize = "401063"
-sha1sum = "dab77816451c198fba51000b9ab22b036221f7af"
+size = "49176"
+usize = "401667"
+sha1sum = "e3a01686137891b0e08c8e668e6b82caccc22869"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -59,5 +59,5 @@ Rapid fuzzy string matching in C++ using the Levenshtein Distance
 * /usr/lib/cmake/rapidfuzz/rapidfuzzConfig.cmake
 * /usr/lib/cmake/rapidfuzz/rapidfuzzConfigVersion.cmake
 * /usr/lib/cmake/rapidfuzz/rapidfuzzTargets.cmake
-* /usr/share/doc/rapidfuzz-cpp-3.0.4/LICENSE
-* /usr/share/doc/rapidfuzz-cpp-3.0.4/README.md
+* /usr/share/doc/rapidfuzz-cpp-3.0.5/LICENSE
+* /usr/share/doc/rapidfuzz-cpp-3.0.5/README.md
