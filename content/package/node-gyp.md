@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "node-gyp 10.1.0-1"
-version = "10.1.0-1"
+title = "node-gyp 10.2.0-1"
+version = "10.2.0-1"
 description = "Node.js native addon build tool"
-date = "2024-04-06T18:30:20"
+date = "2024-07-15T17:10:38"
 aliases = "/packages/221182"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/nodejs/node-gyp"
 arch = "x86_64"
-size = "1132268"
-usize = "7905982"
-sha1sum = "b4d23744e72670eda61c3ba9edbec3d3d953f3ab"
+size = "1185928"
+usize = "8490735"
+sha1sum = "9102ed62839e022672ab98b34f65af3d062c0398"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -38,16 +38,26 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/docs/Linking-to-OpenSSL.md
 * /usr/lib/node_modules/node-gyp/docs/README.md
 * /usr/lib/node_modules/node-gyp/docs/Updating-npm-bundled-node-gyp.md
+* /usr/lib/node_modules/node-gyp/gyp/.github/dependabot.yml
 * /usr/lib/node_modules/node-gyp/gyp/.github/workflows/node-gyp.yml
 * /usr/lib/node_modules/node-gyp/gyp/.github/workflows/nodejs-windows.yml
 * /usr/lib/node_modules/node-gyp/gyp/.github/workflows/Python_tests.yml
 * /usr/lib/node_modules/node-gyp/gyp/.github/workflows/release-please.yml
 * /usr/lib/node_modules/node-gyp/gyp/.npmignore
+* /usr/lib/node_modules/node-gyp/gyp/.release-please-manifest.json
 * /usr/lib/node_modules/node-gyp/gyp/AUTHORS
 * /usr/lib/node_modules/node-gyp/gyp/CHANGELOG.md
 * /usr/lib/node_modules/node-gyp/gyp/CODE_OF_CONDUCT.md
 * /usr/lib/node_modules/node-gyp/gyp/CONTRIBUTING.md
+* /usr/lib/node_modules/node-gyp/gyp/data/ninja/build.ninja
 * /usr/lib/node_modules/node-gyp/gyp/data/win/large-pdb-shim.cc
+* /usr/lib/node_modules/node-gyp/gyp/docs/GypVsCMake.md
+* /usr/lib/node_modules/node-gyp/gyp/docs/Hacking.md
+* /usr/lib/node_modules/node-gyp/gyp/docs/InputFormatReference.md
+* /usr/lib/node_modules/node-gyp/gyp/docs/LanguageSpecification.md
+* /usr/lib/node_modules/node-gyp/gyp/docs/README.md
+* /usr/lib/node_modules/node-gyp/gyp/docs/Testing.md
+* /usr/lib/node_modules/node-gyp/gyp/docs/UserDocumentation.md
 * /usr/lib/node_modules/node-gyp/gyp/gyp
 * /usr/lib/node_modules/node-gyp/gyp/gyp.bat
 * /usr/lib/node_modules/node-gyp/gyp/gyp_main.py
@@ -90,6 +100,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/win_tool.py
 * /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py
 * /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py
+* /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation_test.py
 * /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/xcode_ninja.py
 * /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/xml_fix.py
 * /usr/lib/node_modules/node-gyp/gyp/pylib/gyp/__init__.py
@@ -113,6 +124,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/gyp/pylib/packaging/__init__.py
 * /usr/lib/node_modules/node-gyp/gyp/pyproject.toml
 * /usr/lib/node_modules/node-gyp/gyp/README.md
+* /usr/lib/node_modules/node-gyp/gyp/release-please-config.json
 * /usr/lib/node_modules/node-gyp/gyp/test_gyp.py
 * /usr/lib/node_modules/node-gyp/gyp/tools/emacs/gyp-tests.el
 * /usr/lib/node_modules/node-gyp/gyp/tools/emacs/gyp.el
@@ -379,32 +391,40 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/README.md
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/all-signals.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/all-signals.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/all-signals.js
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/all-signals.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/watchdog.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/watchdog.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/watchdog.js
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/cjs/watchdog.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/all-signals.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/all-signals.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/all-signals.js
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/all-signals.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/watchdog.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/watchdog.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/watchdog.js
-* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/mjs/watchdog.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/proxy-signals.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/proxy-signals.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/proxy-signals.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/proxy-signals.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/watchdog.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/watchdog.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/watchdog.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/watchdog.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/all-signals.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/all-signals.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/all-signals.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/all-signals.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/proxy-signals.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/proxy-signals.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/proxy-signals.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/proxy-signals.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/watchdog.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/watchdog.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/watchdog.js
+* /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/esm/watchdog.js.map
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/README.md
@@ -653,9 +673,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/commonjs/parse-args-cjs.cjs.map
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/commonjs/parse-args-cjs.d.cts.map
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/commonjs/parse-args.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/commonjs/parse-args.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/commonjs/parse-args.js
-* /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/commonjs/parse-args.js.map
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/esm/index.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/esm/index.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/jackspeak/dist/esm/index.js
@@ -681,11 +699,15 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.min.js
+* /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/index.min.js.map
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/commonjs/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/index.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/index.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/index.min.js
+* /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/index.min.js.map
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/dist/esm/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/lru-cache/package.json
@@ -862,6 +884,19 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/p-map/license
 * /usr/lib/node_modules/node-gyp/node_modules/p-map/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/p-map/readme.md
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/commonjs/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/commonjs/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/commonjs/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/commonjs/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/commonjs/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/esm/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/esm/index.d.ts.map
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/esm/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/esm/index.js.map
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/dist/esm/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/LICENSE.md
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/package-json-from-dist/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/path-key/index.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/path-key/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/path-key/license
@@ -949,13 +984,10 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/semver/internal/constants.js
 * /usr/lib/node_modules/node-gyp/node_modules/semver/internal/debug.js
 * /usr/lib/node_modules/node-gyp/node_modules/semver/internal/identifiers.js
+* /usr/lib/node_modules/node-gyp/node_modules/semver/internal/lrucache.js
 * /usr/lib/node_modules/node-gyp/node_modules/semver/internal/parse-options.js
 * /usr/lib/node_modules/node-gyp/node_modules/semver/internal/re.js
 * /usr/lib/node_modules/node-gyp/node_modules/semver/LICENSE
-* /usr/lib/node_modules/node-gyp/node_modules/semver/node_modules/lru-cache/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/semver/node_modules/lru-cache/LICENSE
-* /usr/lib/node_modules/node-gyp/node_modules/semver/node_modules/lru-cache/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/semver/node_modules/lru-cache/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/semver/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/semver/preload.js
 * /usr/lib/node_modules/node-gyp/node_modules/semver/range.bnf
@@ -1241,6 +1273,11 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2019_Community_workload.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2019_Preview.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2022_Community_workload.txt
+* /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/binding.gyp
+* /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/common.gypi
+* /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/hello.c
+* /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/hello.js
+* /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/package.json
 * /usr/lib/node_modules/node-gyp/test/node_modules/hello_world/binding.gyp
 * /usr/lib/node_modules/node-gyp/test/node_modules/hello_world/hello.cc
 * /usr/lib/node_modules/node-gyp/test/node_modules/hello_world/hello.js
@@ -1258,6 +1295,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/test-install.js
 * /usr/lib/node_modules/node-gyp/test/test-options.js
 * /usr/lib/node_modules/node-gyp/test/test-process-release.js
+* /usr/lib/node_modules/node-gyp/test/test-windows-make.js
 * /usr/lib/node_modules/node-gyp/update-gyp.py
-* /usr/share/doc/node-gyp-10.1.0/LICENSE
-* /usr/share/doc/node-gyp-10.1.0/README.md
+* /usr/share/doc/node-gyp-10.2.0/LICENSE
+* /usr/share/doc/node-gyp-10.2.0/README.md
