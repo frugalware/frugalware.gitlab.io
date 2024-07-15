@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "discord 0.0.59-1"
-version = "0.0.59-1"
+title = "discord 0.0.60-1"
+version = "0.0.60-1"
 description = "All-in-one voice and text chat for gamers that's free and secure."
-date = "2024-07-08T20:17:29"
+date = "2024-07-15T22:16:37"
 aliases = "/packages/220398"
 categories = ['xapps-extra']
 upstreamurl = "https://discord.com"
