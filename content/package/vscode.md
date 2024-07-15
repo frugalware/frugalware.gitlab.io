@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.90.2-1"
-version = "1.90.2-1"
+title = "vscode 1.91.1-1"
+version = "1.91.1-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-06-28T12:25:40"
+date = "2024-07-15T15:11:14"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "92044844"
-usize = "362448434"
-sha1sum = "1cdf48bd32ea9c25d33047e9668d26a6994541c9"
+size = "90944688"
+usize = "352244170"
+sha1sum = "9436fbb96065a65a60afa71eeaf4c24cbe96ccf5"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.90.2/README.md
+* /usr/share/doc/vscode-1.91.1/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -607,8 +607,10 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2023.collection.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2023.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2023.full.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es2023.intl.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.es6.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.array.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.collection.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts
@@ -617,6 +619,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.object.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.promise.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.regexp.d.ts
+* /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.esnext.string.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/lib.webworker.d.ts
