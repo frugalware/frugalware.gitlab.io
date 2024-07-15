@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blake3 1.5.1-2"
-version = "1.5.1-2"
+title = "blake3 1.5.3-1"
+version = "1.5.3-1"
 description = "C Implementation of the BLAKE3 cryptographic hash function"
-date = "2024-05-31T15:10:39"
+date = "2024-07-15T09:23:09"
 aliases = "/packages/221485"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/BLAKE3-team/blake3"
 arch = "x86_64"
-size = "32360"
-usize = "119933"
-sha1sum = "7860469b6406e0b4f84ac7cf87a5a0e73e3de458"
+size = "26888"
+usize = "99368"
+sha1sum = "9ffe93346e1e1ea21414ebed8431a1023ccba6f3"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -24,7 +24,6 @@ C Implementation of the BLAKE3 cryptographic hash function
 * /usr/lib/cmake/blake3/blake3-targets.cmake
 * /usr/lib/libblake3.so
 * /usr/lib/libblake3.so.0
-* /usr/lib/libblake3.so.1.5.1
+* /usr/lib/libblake3.so.1.5.3
 * /usr/lib/pkgconfig/libblake3.pc
-* /usr/share/doc/blake3-1.5.1/LICENSE
-* /usr/share/doc/blake3-1.5.1/README.md
+* /usr/share/doc/blake3-1.5.3/README.md

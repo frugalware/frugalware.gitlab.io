@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.0.9.100-3"
-version = "2.0.9.100-3"
+title = "duplicati 2.0.9.101-1"
+version = "2.0.9.101-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-06-09T18:43:18"
+date = "2024-07-15T09:37:07"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "55341288"
-usize = "171854940"
-sha1sum = "753f5617dd0489f6564fb15e38fabc6c2f35af85"
+size = "55147680"
+usize = "171063301"
+sha1sum = "f5220e99031e0d17478e51db934e6d716e1256f9"
 depends = "['lttng-ust']"
 +++
 ### Description: 
@@ -19,9 +19,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 ### Files: 
 * /opt/duplicati/acknowledgements.txt
 * /opt/duplicati/Aliyun.OSS.Core.dll
-* /opt/duplicati/AlphaFS.dll
 * /opt/duplicati/AlphaVSS.Common.dll
-* /opt/duplicati/ARSoft.Tools.Net.dll
+* /opt/duplicati/Artalk.Xmpp.dll
 * /opt/duplicati/Avalonia.Base.dll
 * /opt/duplicati/Avalonia.Controls.dll
 * /opt/duplicati/Avalonia.DesignerSupport.dll
@@ -182,22 +181,19 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/licenses/AngularJS/Homepage.txt
 * /opt/duplicati/licenses/AngularJS/License.txt
 * /opt/duplicati/licenses/AngularJS/licensedata.json
-* /opt/duplicati/licenses/ARSoft.Tools.Net/download.txt
-* /opt/duplicati/licenses/ARSoft.Tools.Net/license.txt
-* /opt/duplicati/licenses/ARSoft.Tools.Net/licensedata.json
+* /opt/duplicati/licenses/Artalk.Xmpp/download.txt
+* /opt/duplicati/licenses/Artalk.Xmpp/license.txt
+* /opt/duplicati/licenses/Artalk.Xmpp/licensedata.json
 * /opt/duplicati/licenses/AWSSDK/download.txt
 * /opt/duplicati/licenses/AWSSDK/license.txt
 * /opt/duplicati/licenses/AWSSDK/licensedata.json
 * /opt/duplicati/licenses/CoCoL/download.txt
 * /opt/duplicati/licenses/CoCoL/license.txt
 * /opt/duplicati/licenses/CoCoL/licensedata.json
-* /opt/duplicati/licenses/duplicati-url.txt
+* /opt/duplicati/licenses/duplicat-url.txt
 * /opt/duplicati/licenses/FluentFTP/Homepage.txt
 * /opt/duplicati/licenses/FluentFTP/License.txt
 * /opt/duplicati/licenses/FluentFTP/licensedata.json
-* /opt/duplicati/licenses/gpg/Homepage.txt
-* /opt/duplicati/licenses/gpg/License.txt
-* /opt/duplicati/licenses/gpg/licensedata.json
 * /opt/duplicati/licenses/HttpServer/Homepage.txt
 * /opt/duplicati/licenses/HttpServer/license.txt
 * /opt/duplicati/licenses/HttpServer/licensedata.json
@@ -226,9 +222,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/licenses/SharePointPnP-Sites-Core/download.txt
 * /opt/duplicati/licenses/SharePointPnP-Sites-Core/license.txt
 * /opt/duplicati/licenses/SharePointPnP-Sites-Core/licensedata.json
-* /opt/duplicati/licenses/Sharp.Xmpp/download.txt
-* /opt/duplicati/licenses/Sharp.Xmpp/license.txt
-* /opt/duplicati/licenses/Sharp.Xmpp/licensedata.json
 * /opt/duplicati/licenses/SharpAESCrypt/download.txt
 * /opt/duplicati/licenses/SharpAESCrypt/License.txt
 * /opt/duplicati/licenses/SharpAESCrypt/licensedata.json
@@ -417,7 +410,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/run-script-example.sh
 * /opt/duplicati/set-permissions.sh
 * /opt/duplicati/SharePointPnP.Client.dll
-* /opt/duplicati/Sharp.Xmpp.dll
 * /opt/duplicati/SharpAESCrypt.dll
 * /opt/duplicati/SharpCompress.dll
 * /opt/duplicati/SkiaSharp.dll
