@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.14.0-1"
-version = "7.14.0-1"
+title = "signal-desktop 7.15.0-1"
+version = "7.15.0-1"
 description = "Signal Private Messenger for Linux"
-date = "2024-06-27T13:50:25"
+date = "2024-07-15T10:24:17"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "117676876"
-usize = "430315326"
-sha1sum = "a7f4a72160b017a17cf01025217a89524c6be688"
+size = "119921004"
+usize = "460298171"
+sha1sum = "72231666057ec750cb2aeb7c2b951a3f40c82fe0"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -138,8 +138,8 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.14.0/LICENSE
-* /usr/share/doc/signal-desktop-7.14.0/README.md
+* /usr/share/doc/signal-desktop-7.15.0/LICENSE
+* /usr/share/doc/signal-desktop-7.15.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png
