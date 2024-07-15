@@ -12,7 +12,7 @@ size = "308984"
 usize = "933155"
 sha1sum = "3de6664331aed48217275bf7ef44ae5051fb60d4"
 depends = "['glibc>=2.34']"
-reverse_depends = "['android-tools', 'curl', 'freetype2', 'gnutls', 'ladybird', 'libsoup3', 'nodejs18', 'nodejs20', 'qt6-base', 'wget2', 'woff2']"
+reverse_depends = "['android-tools', 'curl', 'freetype2', 'gnutls', 'ladybird', 'libsoup3', 'nodejs20', 'qt6-base', 'wget2', 'woff2']"
 +++
 ### Description: 
 Brotli compression library

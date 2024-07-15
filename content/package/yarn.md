@@ -30,5 +30,5 @@ Fast, reliable, and secure dependency management
 * /usr/lib/node_modules/yarn/package.json
 * /usr/lib/node_modules/yarn/preinstall.js
 * /usr/lib/node_modules/yarn/README.md
-* /usr/share/doc/yarn-1.22.21/LICENSE
-* /usr/share/doc/yarn-1.22.21/README.md
+* /usr/share/doc/yarn-1.22.22/LICENSE
+* /usr/share/doc/yarn-1.22.22/README.md

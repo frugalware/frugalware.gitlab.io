@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meson 1.4.1-1"
-version = "1.4.1-1"
+title = "meson 1.5.0-1"
+version = "1.5.0-1"
 description = "High productivity build system"
-date = "2024-06-10T12:19:04"
+date = "2024-07-15T17:27:09"
 aliases = "/packages/219168"
 categories = ['devel-extra']
 upstreamurl = "http://mesonbuild.com/"
 arch = "x86_64"
-size = "1775264"
-usize = "8216559"
-sha1sum = "0abf4aa2d4e84fc6522f3deaf3f81d0dde720a25"
+size = "1828228"
+usize = "8405078"
+sha1sum = "7a31ebe4839c2a79e0ba2c2d3e61a7ef4d281be6"
 depends = "['ninja>=1.8.2-2', 'python3>=3.12', 'python3-setuptools']"
 reverse_depends = "['meson-python']"
 +++
@@ -19,12 +19,12 @@ High productivity build system
 
 ### Files: 
 * /usr/bin/meson
-* /usr/lib/python3.12/site-packages/meson-1.4.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/meson-1.4.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/meson-1.4.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/meson-1.4.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/meson-1.4.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/meson-1.4.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/meson-1.5.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/meson-1.5.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/meson-1.5.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/meson-1.5.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/meson-1.5.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/meson-1.5.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/mesonbuild/arglist.py
 * /usr/lib/python3.12/site-packages/mesonbuild/ast/interpreter.py
 * /usr/lib/python3.12/site-packages/mesonbuild/ast/introspection.py
@@ -108,6 +108,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/detect.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/fortran.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/java.py
+* /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/apple.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/arm.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/ccrx.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/clang.py
@@ -124,6 +125,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/visualstudio.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/xc16.py
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/__init__.py
+* /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/__pycache__/apple.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/__pycache__/arm.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/__pycache__/ccrx.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/compilers/mixins/__pycache__/clang.cpython-312.pyc
@@ -271,6 +273,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/linkers/__pycache__/detect.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/linkers/__pycache__/linkers.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/linkers/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/mesonbuild/machinefile.py
 * /usr/lib/python3.12/site-packages/mesonbuild/mcompile.py
 * /usr/lib/python3.12/site-packages/mesonbuild/mconf.py
 * /usr/lib/python3.12/site-packages/mesonbuild/mdevenv.py
@@ -278,6 +281,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/mesondata.py
 * /usr/lib/python3.12/site-packages/mesonbuild/mesonlib.py
 * /usr/lib/python3.12/site-packages/mesonbuild/mesonmain.py
+* /usr/lib/python3.12/site-packages/mesonbuild/mformat.py
 * /usr/lib/python3.12/site-packages/mesonbuild/minit.py
 * /usr/lib/python3.12/site-packages/mesonbuild/minstall.py
 * /usr/lib/python3.12/site-packages/mesonbuild/mintro.py
@@ -297,7 +301,6 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/pkgconfig.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/python.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/python3.py
-* /usr/lib/python3.12/site-packages/mesonbuild/modules/qt.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/qt4.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/qt5.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/qt6.py
@@ -306,6 +309,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/sourceset.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/wayland.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/windows.py
+* /usr/lib/python3.12/site-packages/mesonbuild/modules/_qt.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__init__.py
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/cmake.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/cuda.cpython-312.pyc
@@ -322,7 +326,6 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/pkgconfig.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/python.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/python3.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/qt.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/qt4.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/qt5.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/qt6.cpython-312.pyc
@@ -331,6 +334,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/sourceset.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/wayland.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/windows.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/_qt.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/modules/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/mparser.py
 * /usr/lib/python3.12/site-packages/mesonbuild/msetup.py
@@ -338,6 +342,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/mtest.py
 * /usr/lib/python3.12/site-packages/mesonbuild/munstable_coredata.py
 * /usr/lib/python3.12/site-packages/mesonbuild/optinterpreter.py
+* /usr/lib/python3.12/site-packages/mesonbuild/options.py
 * /usr/lib/python3.12/site-packages/mesonbuild/programs.py
 * /usr/lib/python3.12/site-packages/mesonbuild/rewriter.py
 * /usr/lib/python3.12/site-packages/mesonbuild/scripts/clangformat.py
@@ -460,6 +465,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/depfile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/envconfig.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/environment.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/machinefile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mcompile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mconf.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mdevenv.cpython-312.pyc
@@ -467,6 +473,7 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mesondata.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mesonlib.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mesonmain.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mformat.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/minit.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/minstall.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mintro.cpython-312.pyc
@@ -477,12 +484,13 @@ High productivity build system
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/mtest.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/munstable_coredata.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/optinterpreter.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/options.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/programs.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/rewriter.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/_pathlib.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/_typing.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/mesonbuild/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/meson-1.4.1/COPYING
-* /usr/share/doc/meson-1.4.1/README.md
+* /usr/share/doc/meson-1.5.0/COPYING
+* /usr/share/doc/meson-1.5.0/README.md
 * /usr/share/share/man/man1/meson.1
 * /usr/share/share/polkit-1/actions/com.mesonbuild.install.policy
