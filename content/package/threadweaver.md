@@ -12,7 +12,7 @@ size = "78324"
 usize = "293560"
 sha1sum = "8afbaf2e139cde5d4238983d33bdd0143655fbf2"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['kasts', 'kate', 'krunner', 'okular']"
+reverse_depends = "['digikam', 'kasts', 'kate', 'krunner', 'okular']"
 +++
 ### Description: 
 KDE Helper for multithreaded programming.

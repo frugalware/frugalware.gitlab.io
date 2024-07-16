@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "digikam 8.3.0-3"
-version = "8.3.0-3"
+title = "digikam 8.4.0-1"
+version = "8.4.0-1"
 description = "Digital photo management application for kde"
-date = "2024-06-07T10:17:23"
+date = "2024-07-16T17:41:21"
 aliases = "/packages/3549"
 categories = ['kde6-extra']
 upstreamurl = "https://www.digikam.org"
 arch = "x86_64"
-size = "33963060"
-usize = "111739781"
-sha1sum = "d705f278df3628ac91b9d5ce1598ba788796f3dc"
-depends = "['akonadi-contacts', 'kfilemetadata>=6.2.0', 'knotifyconfig>=6.2.0', 'lensfun', 'libksane', 'openblas', 'opencv', 'qt6-networkauth>=6.7.1', 'qt6-scxml>=6.7.1']"
+size = "30939504"
+usize = "109626694"
+sha1sum = "0ba91623f6449a3ad78cef4deeb0c32d006a8392"
+depends = "['akonadi-contacts', 'kfilemetadata>=6.4.0', 'knotifyconfig>=6.4.0', 'lensfun', 'libksane>=24.05.2', 'openblas', 'opencv', 'qt6-networkauth>=6.7.1', 'qt6-scxml>=6.7.1', 'threadweaver>=6.4.0']"
 +++
 ### Description: 
 Digital photo management application for kde
@@ -23,6 +23,7 @@ Digital photo management application for kde
 * /usr/bin/showfoto
 * /usr/include/digikam/batchtool.h
 * /usr/include/digikam/bcgcontainer.h
+* /usr/include/digikam/bqminfoiface.h
 * /usr/include/digikam/captionvalues.h
 * /usr/include/digikam/coredbaccess.h
 * /usr/include/digikam/coredbalbuminfo.h
@@ -36,11 +37,13 @@ Digital photo management application for kde
 * /usr/include/digikam/dbengineconfigsettings.h
 * /usr/include/digikam/dbengineerrorhandler.h
 * /usr/include/digikam/dbengineparameters.h
+* /usr/include/digikam/dbinfoiface.h
 * /usr/include/digikam/dcolor.h
 * /usr/include/digikam/dcolorblend.h
 * /usr/include/digikam/dcolorcomposer.h
 * /usr/include/digikam/dcolorpixelaccess.h
 * /usr/include/digikam/dcolorselector.h
+* /usr/include/digikam/dexpanderbox.h
 * /usr/include/digikam/dhistoryview.h
 * /usr/include/digikam/digikam_config.h
 * /usr/include/digikam/digikam_core_export.h
@@ -60,6 +63,7 @@ Digital photo management application for kde
 * /usr/include/digikam/dimgthreadedfilter.h
 * /usr/include/digikam/dinfointerface.h
 * /usr/include/digikam/ditemslist.h
+* /usr/include/digikam/ditemtooltip.h
 * /usr/include/digikam/dmessagebox.h
 * /usr/include/digikam/dmetainfoiface.h
 * /usr/include/digikam/dplugin.h
@@ -81,6 +85,7 @@ Digital photo management application for kde
 * /usr/include/digikam/drawdecoding.h
 * /usr/include/digikam/drawinfo.h
 * /usr/include/digikam/dsavesettingswidget.h
+* /usr/include/digikam/dtextedit.h
 * /usr/include/digikam/dwizarddlg.h
 * /usr/include/digikam/dwizardpage.h
 * /usr/include/digikam/dynamicthread.h
@@ -96,6 +101,7 @@ Digital photo management application for kde
 * /usr/include/digikam/historyimageid.h
 * /usr/include/digikam/iccprofile.h
 * /usr/include/digikam/icctransform.h
+* /usr/include/digikam/imagecurves.h
 * /usr/include/digikam/imagedialog.h
 * /usr/include/digikam/imageiface.h
 * /usr/include/digikam/imageregionwidget.h
@@ -103,12 +109,14 @@ Digital photo management application for kde
 * /usr/include/digikam/iofilesettings.h
 * /usr/include/digikam/iteminfo.h
 * /usr/include/digikam/iteminfolist.h
+* /usr/include/digikam/iteminfoset.h
 * /usr/include/digikam/loadingdescription.h
 * /usr/include/digikam/loadsavethread.h
 * /usr/include/digikam/managedloadsavethread.h
 * /usr/include/digikam/metadatainfo.h
 * /usr/include/digikam/metaengine.h
 * /usr/include/digikam/metaengine_data.h
+* /usr/include/digikam/modelcompleter.h
 * /usr/include/digikam/photoinfocontainer.h
 * /usr/include/digikam/previewlayout.h
 * /usr/include/digikam/previewloadthread.h
@@ -116,6 +124,8 @@ Digital photo management application for kde
 * /usr/include/digikam/previewtoolbar.h
 * /usr/include/digikam/queuesettings.h
 * /usr/include/digikam/rginfo.h
+* /usr/include/digikam/searchtextbar.h
+* /usr/include/digikam/statesavingobject.h
 * /usr/include/digikam/thumbnailinfo.h
 * /usr/include/digikam/thumbnailloadthread.h
 * /usr/include/digikam/wbcontainer.h
@@ -136,11 +146,11 @@ Digital photo management application for kde
 * /usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 * /usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
 * /usr/lib/libdigikamcore.so
-* /usr/lib/libdigikamcore.so.8.3.0
+* /usr/lib/libdigikamcore.so.8.4.0
 * /usr/lib/libdigikamdatabase.so
-* /usr/lib/libdigikamdatabase.so.8.3.0
+* /usr/lib/libdigikamdatabase.so.8.4.0
 * /usr/lib/libdigikamgui.so
-* /usr/lib/libdigikamgui.so.8.3.0
+* /usr/lib/libdigikamgui.so.8.4.0
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_AntiVignetting_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ApplyMetadata_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Assigncaptions_Plugin.so
@@ -158,7 +168,6 @@ Digital photo management application for kde
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Convert16To8_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Convert8To16_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToAVIF_Plugin.so
-* /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToDNG_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToHEIF_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToJP2lugin_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToJPEG_Plugin.so
@@ -247,7 +256,6 @@ Digital photo management application for kde
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Box_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Calendar_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_DigitalScanner_Plugin.so
-* /usr/lib/qt6/plugins/digikam/generic/Generic_DNGConverter_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_DropBox_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_ExpoBlending_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_FileCopy_Plugin.so
@@ -266,6 +274,7 @@ Digital photo management application for kde
 * /usr/lib/qt6/plugins/digikam/generic/Generic_MetadataEdit_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_MjpegStream_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_OneDrive_Plugin.so
+* /usr/lib/qt6/plugins/digikam/generic/Generic_Panorama_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Pinterest_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Piwigo_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Presentation_Plugin.so
@@ -1876,15 +1885,16 @@ Digital photo management application for kde
 * /usr/share/digikam/themes/vanilla/template.xsl
 * /usr/share/digikam/themes/vanilla/vanilla.desktop
 * /usr/share/digikam/utils/digikam-camera
-* /usr/share/doc/digikam-8.3.0/AUTHORS
-* /usr/share/doc/digikam-8.3.0/ChangeLog
-* /usr/share/doc/digikam-8.3.0/COPYING
-* /usr/share/doc/digikam-8.3.0/NEWS
-* /usr/share/doc/digikam-8.3.0/README.BUNDLES
-* /usr/share/doc/digikam-8.3.0/README.md
+* /usr/share/doc/digikam-8.4.0/AUTHORS
+* /usr/share/doc/digikam-8.4.0/ChangeLog
+* /usr/share/doc/digikam-8.4.0/COPYING
+* /usr/share/doc/digikam-8.4.0/NEWS
+* /usr/share/doc/digikam-8.4.0/README.BUNDLES
+* /usr/share/doc/digikam-8.4.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/avplayer.png
 * /usr/share/icons/hicolor/128x128/apps/digikam.png
 * /usr/share/icons/hicolor/128x128/apps/expoblending.png
+* /usr/share/icons/hicolor/128x128/apps/panorama.png
 * /usr/share/icons/hicolor/128x128/apps/showfoto.png
 * /usr/share/icons/hicolor/16x16/apps/avplayer.png
 * /usr/share/icons/hicolor/16x16/apps/digikam.png
@@ -1902,6 +1912,7 @@ Digital photo management application for kde
 * /usr/share/icons/hicolor/16x16/apps/dk-piwigo.png
 * /usr/share/icons/hicolor/16x16/apps/dk-smugmug.png
 * /usr/share/icons/hicolor/16x16/apps/expoblending.png
+* /usr/share/icons/hicolor/16x16/apps/panorama.png
 * /usr/share/icons/hicolor/16x16/apps/showfoto.png
 * /usr/share/icons/hicolor/22x22/apps/avplayer.png
 * /usr/share/icons/hicolor/22x22/apps/digikam.png
@@ -1919,6 +1930,7 @@ Digital photo management application for kde
 * /usr/share/icons/hicolor/22x22/apps/dk-piwigo.png
 * /usr/share/icons/hicolor/22x22/apps/dk-smugmug.png
 * /usr/share/icons/hicolor/22x22/apps/expoblending.png
+* /usr/share/icons/hicolor/22x22/apps/panorama.png
 * /usr/share/icons/hicolor/22x22/apps/showfoto.png
 * /usr/share/icons/hicolor/256x256/apps/avplayer.png
 * /usr/share/icons/hicolor/256x256/apps/digikam.png
@@ -1957,6 +1969,7 @@ Digital photo management application for kde
 * /usr/share/icons/hicolor/32x32/apps/dk-piwigo.png
 * /usr/share/icons/hicolor/32x32/apps/dk-smugmug.png
 * /usr/share/icons/hicolor/32x32/apps/expoblending.png
+* /usr/share/icons/hicolor/32x32/apps/panorama.png
 * /usr/share/icons/hicolor/32x32/apps/showfoto.png
 * /usr/share/icons/hicolor/48x48/apps/avplayer.png
 * /usr/share/icons/hicolor/48x48/apps/digikam.png
@@ -1974,11 +1987,13 @@ Digital photo management application for kde
 * /usr/share/icons/hicolor/48x48/apps/dk-piwigo.png
 * /usr/share/icons/hicolor/48x48/apps/dk-smugmug.png
 * /usr/share/icons/hicolor/48x48/apps/expoblending.png
+* /usr/share/icons/hicolor/48x48/apps/panorama.png
 * /usr/share/icons/hicolor/48x48/apps/showfoto.png
 * /usr/share/icons/hicolor/64x64/apps/avplayer.png
 * /usr/share/icons/hicolor/64x64/apps/digikam.png
 * /usr/share/icons/hicolor/64x64/apps/showfoto.png
 * /usr/share/icons/hicolor/96x96/apps/expoblending.png
+* /usr/share/icons/hicolor/96x96/apps/panorama.png
 * /usr/share/icons/hicolor/scalable/apps/avplayer.svgz
 * /usr/share/icons/hicolor/scalable/apps/digikam.svgz
 * /usr/share/icons/hicolor/scalable/apps/dk-flickr.svgz
@@ -1987,6 +2002,7 @@ Digital photo management application for kde
 * /usr/share/icons/hicolor/scalable/apps/dk-mediawiki.svgz
 * /usr/share/icons/hicolor/scalable/apps/dk-piwigo.svgz
 * /usr/share/icons/hicolor/scalable/apps/dk-smugmug.svgz
+* /usr/share/icons/hicolor/scalable/apps/panorama.svgz
 * /usr/share/icons/hicolor/scalable/apps/showfoto.svgz
 * /usr/share/knotifications6/digikam.notifyrc
 * /usr/share/kxmlgui5/digikam/digikamui5.rc
