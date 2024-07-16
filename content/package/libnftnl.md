@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libnftnl 1.2.6-2"
-version = "1.2.6-2"
+title = "libnftnl 1.2.7-1"
+version = "1.2.7-1"
 description = "A low-level netlink programming interface."
-date = "2023-09-05T10:15:17"
+date = "2024-07-16T10:21:15"
 aliases = "/packages/217970"
 categories = ['base']
 upstreamurl = "http://netfilter.org/projects/libnftnl/index.html"
 arch = "x86_64"
-size = "69836"
-usize = "271905"
-sha1sum = "90b74bf7272c137ace3b5ed80c94cf87c291ec21"
+size = "72780"
+usize = "273267"
+sha1sum = "bda4ecd640edc1e5223e4b4f61cdbd4f04f02e85"
 depends = "['glibc>=2.35', 'libmnl>=1.0.4-5']"
 reverse_depends = "['iptables', 'nftables']"
 +++
@@ -35,4 +35,4 @@ A low-level netlink programming interface.
 * /usr/lib/libnftnl.so.11
 * /usr/lib/libnftnl.so.11.6.0
 * /usr/lib/pkgconfig/libnftnl.pc
-* /usr/share/doc/libnftnl-1.2.6/COPYING
+* /usr/share/doc/libnftnl-1.2.7/COPYING
