@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "labplot 2.10.1-5"
-version = "2.10.1-5"
+title = "labplot 2.11.1-1"
+version = "2.11.1-1"
 description = "Application for interactive graphing and analysis of scientific data."
-date = "2024-05-28T22:38:22"
+date = "2024-07-16T18:44:13"
 aliases = "/packages/218743"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "14870988"
-usize = "36193599"
-sha1sum = "308918ac1086d5c9db5f65b81f0012cc14709562"
+size = "16403836"
+usize = "42911340"
+sha1sum = "652851336ecdec6ed173f5d8d7c4192c48c981ae"
 depends = "['cantor', 'cfitsio>=4.2.0', 'discount>=3.0.0', 'fftw', 'gsl>=2.8', 'hdf5', 'qt5-serialport', 'readstat']"
 +++
 ### Description: 
@@ -18,6 +18,37 @@ Application for interactive graphing and analysis of scientific data.
 
 ### Files: 
 * /usr/bin/labplot2
+* /usr/include/labplot/backend/core/AbstractAspect.h
+* /usr/include/labplot/backend/core/AbstractColumn.h
+* /usr/include/labplot/backend/core/AbstractPart.h
+* /usr/include/labplot/backend/core/column/Column.h
+* /usr/include/labplot/backend/core/column/ColumnPrivate.h
+* /usr/include/labplot/backend/gsl/parser.h
+* /usr/include/labplot/backend/lib/commandtemplates.h
+* /usr/include/labplot/backend/lib/Interval.h
+* /usr/include/labplot/backend/lib/IntervalAttribute.h
+* /usr/include/labplot/backend/lib/macros.h
+* /usr/include/labplot/backend/lib/macrosCurve.h
+* /usr/include/labplot/backend/lib/Range.h
+* /usr/include/labplot/backend/nsl/nsl_fit.h
+* /usr/include/labplot/backend/nsl/nsl_math.h
+* /usr/include/labplot/backend/worksheet/plots/AbstractPlot.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/Axis.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/BoxPlot.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/CartesianPlot.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/CartesianPlotLegend.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/Histogram.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/XYAnalysisCurve.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/XYCurve.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/XYEquationCurve.h
+* /usr/include/labplot/backend/worksheet/plots/cartesian/XYFitCurve.h
+* /usr/include/labplot/backend/worksheet/plots/PlotArea.h
+* /usr/include/labplot/backend/worksheet/Worksheet.h
+* /usr/include/labplot/backend/worksheet/WorksheetElement.h
+* /usr/include/labplot/backend/worksheet/WorksheetElementContainer.h
+* /usr/include/labplot/labplot.h
+* /usr/include/labplot/labplot_export.h
+* /usr/lib/liblabplot.so
 * /usr/share/applications/org.kde.labplot2.desktop
 * /usr/share/doc/HTML/ca/labplot2/index.cache.bz2
 * /usr/share/doc/HTML/ca/labplot2/index.docbook
@@ -74,6 +105,8 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/doc/HTML/nl/labplot2/index.docbook
 * /usr/share/doc/HTML/pt_BR/labplot2/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/labplot2/index.docbook
+* /usr/share/doc/HTML/ru/labplot2/index.cache.bz2
+* /usr/share/doc/HTML/ru/labplot2/index.docbook
 * /usr/share/doc/HTML/sv/labplot2/index.cache.bz2
 * /usr/share/doc/HTML/sv/labplot2/index.docbook
 * /usr/share/doc/HTML/uk/labplot2/export_spreadsheet_dialog.png
@@ -112,10 +145,10 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/doc/HTML/uk/labplot2/tutorial-xy-function9.png
 * /usr/share/doc/HTML/uk/labplot2/workbook.png
 * /usr/share/doc/HTML/uk/labplot2/worksheet.png
-* /usr/share/doc/labplot-2.10.1/AUTHORS
-* /usr/share/doc/labplot-2.10.1/ChangeLog
-* /usr/share/doc/labplot-2.10.1/INSTALL
-* /usr/share/doc/labplot-2.10.1/README.md
+* /usr/share/doc/labplot-2.11.1/AUTHORS
+* /usr/share/doc/labplot-2.11.1/ChangeLog
+* /usr/share/doc/labplot-2.11.1/INSTALL
+* /usr/share/doc/labplot-2.11.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/labplot2.png
 * /usr/share/icons/hicolor/150x150/apps/labplot2.png
 * /usr/share/icons/hicolor/16x16/apps/labplot2.png
@@ -183,11 +216,11 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/icons/hicolor/scalable/apps/labplot-zoom-select.svg
 * /usr/share/icons/hicolor/scalable/apps/labplot-zoom.svg
 * /usr/share/icons/hicolor/scalable/apps/labplot2.svgz
-* /usr/share/kxmlgui5/labplot2/labplot2ui.rc
 * /usr/share/labplot2/application-x-labplot2.ico
 * /usr/share/labplot2/color-schemes/Breeze.colors
 * /usr/share/labplot2/color-schemes/BreezeDark.colors
 * /usr/share/labplot2/color-schemes/BreezeHighContrast.colors
+* /usr/share/labplot2/color-schemes/Dracula.colors
 * /usr/share/labplot2/color-schemes/Honeycomb.colors
 * /usr/share/labplot2/color-schemes/Norway.colors
 * /usr/share/labplot2/color-schemes/ObsidianCoast.colors
@@ -212,6 +245,7 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/labplot2/colormaps/ColorCET (Rainbow).json
 * /usr/share/labplot2/colormaps/ColormapCollections.json
 * /usr/share/labplot2/colormaps/Diverging Color Maps for Scientific Visualization.json
+* /usr/share/labplot2/colormaps/Dracula (Categorical).json
 * /usr/share/labplot2/colormaps/Scientific Colour Maps (Cyclic).json
 * /usr/share/labplot2/colormaps/Scientific Colour Maps (Diverging).json
 * /usr/share/labplot2/colormaps/Scientific Colour Maps (Multi-sequential).json
@@ -224,6 +258,7 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/labplot2/datasets/OzDASL.json
 * /usr/share/labplot2/datasets/Rdatasets.json
 * /usr/share/labplot2/datasets/README.md
+* /usr/share/labplot2/datasets/seaborn.json
 * /usr/share/labplot2/datasets/StatLib.json
 * /usr/share/labplot2/examples/Analysis/Fit/ENSO.lml
 * /usr/share/labplot2/examples/Analysis/Fourier Filter/SOS Morse Signal.lml
@@ -341,6 +376,7 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/labplot2/themes/Dark
 * /usr/share/labplot2/themes/DarkPastels
 * /usr/share/labplot2/themes/Default
+* /usr/share/labplot2/themes/Dracula
 * /usr/share/labplot2/themes/GgplotDark
 * /usr/share/labplot2/themes/GgplotGrey
 * /usr/share/labplot2/themes/GreenOnBlack
@@ -356,6 +392,7 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/labplot2/themes/screenshots/Dark.png
 * /usr/share/labplot2/themes/screenshots/DarkPastels.png
 * /usr/share/labplot2/themes/screenshots/Default.png
+* /usr/share/labplot2/themes/screenshots/Dracula.png
 * /usr/share/labplot2/themes/screenshots/GgplotDark.png
 * /usr/share/labplot2/themes/screenshots/GgplotGrey.png
 * /usr/share/labplot2/themes/screenshots/GreenOnBlack.png
@@ -365,11 +402,14 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/labplot2/themes/screenshots/RedOnBlack.png
 * /usr/share/labplot2/themes/screenshots/Solarized.png
 * /usr/share/labplot2/themes/screenshots/SolarizedLight.png
+* /usr/share/labplot2/themes/screenshots/Sparkline.png
 * /usr/share/labplot2/themes/screenshots/Tufte.png
 * /usr/share/labplot2/themes/screenshots/Unavailable.png
 * /usr/share/labplot2/themes/Solarized
 * /usr/share/labplot2/themes/SolarizedLight
+* /usr/share/labplot2/themes/Sparkline
 * /usr/share/labplot2/themes/Tufte
+* /usr/share/locale/ar/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/bs/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/ca/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/labplot2.mo
@@ -378,6 +418,7 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/locale/de/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/el/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/labplot2.mo
+* /usr/share/locale/eo/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/es/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/eu/LC_MESSAGES/labplot2.mo
 * /usr/share/locale/fi/LC_MESSAGES/labplot2.mo
@@ -408,6 +449,7 @@ Application for interactive graphing and analysis of scientific data.
 * /usr/share/man/man1/labplot2.1.gz
 * /usr/share/man/nl/man1/labplot2.1.gz
 * /usr/share/man/pt_BR/man1/labplot2.1.gz
+* /usr/share/man/ru/man1/labplot2.1.gz
 * /usr/share/man/sv/man1/labplot2.1.gz
 * /usr/share/man/uk/man1/labplot2.1.gz
 * /usr/share/metainfo/org.kde.labplot2.appdata.xml
