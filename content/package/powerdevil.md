@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "powerdevil 6.1.2-1"
-version = "6.1.2-1"
+title = "powerdevil 6.1.3-1"
+version = "6.1.3-1"
 description = "KDE power management tools."
-date = "2024-07-03T10:19:50"
+date = "2024-07-17T12:37:44"
 aliases = "/packages/221379"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1032532"
-usize = "3284114"
-sha1sum = "acf69cf84614e9d3a989a39cd3ddc977148d1e36"
-depends = "['bluez-qt>=6.3.0', 'ddcutil', 'plasma-workspace>=6.1.2', 'power-profiles-daemon']"
+size = "1033108"
+usize = "3297907"
+sha1sum = "0ec519d645054189e4e9aa0115b421ec3a1c718f"
+depends = "['bluez-qt>=6.4.0', 'ddcutil', 'plasma-workspace>=6.1.3', 'power-profiles-daemon']"
 +++
 ### Description: 
 KDE power management tools.
@@ -23,10 +23,10 @@ KDE power management tools.
 * /usr/lib/kauth/kf6/kauth/discretegpuhelper
 * /usr/lib/libpowerdevilconfigcommonprivate.so
 * /usr/lib/libpowerdevilconfigcommonprivate.so.6
-* /usr/lib/libpowerdevilconfigcommonprivate.so.6.1.2
+* /usr/lib/libpowerdevilconfigcommonprivate.so.6.1.3
 * /usr/lib/libpowerdevilcore.so
 * /usr/lib/libpowerdevilcore.so.2
-* /usr/lib/libpowerdevilcore.so.6.1.2
+* /usr/lib/libpowerdevilcore.so.6.1.3
 * /usr/lib/powerdevil/org_kde_powerdevil
 * /usr/lib/powerdevil/power_profile_osd_service
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_powerdevilprofilesconfig.so
@@ -87,8 +87,8 @@ KDE power management tools.
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/energy.png
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.docbook
-* /usr/share/doc/powerdevil-6.1.2/COPYING
-* /usr/share/doc/powerdevil-6.1.2/README.md
+* /usr/share/doc/powerdevil-6.1.3/COPYING
+* /usr/share/doc/powerdevil-6.1.3/README.md
 * /usr/share/knotifications6/powerdevil.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ar/LC_MESSAGES/libpowerdevilcommonconfig.mo
@@ -243,6 +243,7 @@ KDE power management tools.
 * /usr/share/locale/nn/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/nn/LC_MESSAGES/libpowerdevilcommonconfig.mo
 * /usr/share/locale/nn/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/nn/LC_MESSAGES/powerdevil_osd.mo
 * /usr/share/locale/or/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/pa/LC_MESSAGES/libpowerdevilcommonconfig.mo

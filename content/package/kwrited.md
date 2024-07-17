@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwrited 6.1.2-1"
-version = "6.1.2-1"
+title = "kwrited 6.1.3-1"
+version = "6.1.3-1"
 description = "Daemon listening for wall and write messages."
-date = "2024-07-03T10:06:21"
+date = "2024-07-17T12:24:23"
 aliases = "/packages/221359"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15000"
+size = "15024"
 usize = "44325"
-sha1sum = "0eb4415f01ffe9c302e206b21687beba97575cfc"
-depends = "['knotifications>=6.3.0', 'kpty>=6.3.0', 'oxygen-sounds>=6.1.2']"
+sha1sum = "e871c280130492c0f6d2b75ed79b7ac698d438d6"
+depends = "['knotifications>=6.4.0', 'kpty>=6.4.0', 'oxygen-sounds>=6.1.3']"
 +++
 ### Description: 
 Daemon listening for wall and write messages.
