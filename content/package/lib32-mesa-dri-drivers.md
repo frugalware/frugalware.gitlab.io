@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-dri-drivers 24.1.3-2"
-version = "24.1.3-2"
+title = "lib32-mesa-dri-drivers 24.1.4-1"
+version = "24.1.4-1"
 description = "Mesa OpenGL DRI drivers. (32-Bit)"
-date = "2024-07-12T19:48:40"
+date = "2024-07-17T17:50:40"
 aliases = "/packages/217728"
 categories = ['lib32-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "11601788"
-usize = "70912880"
-sha1sum = "a9b04a8843bce2035d075699ebcc8bbfc48d1f37"
+size = "11600052"
+usize = "70916976"
+sha1sum = "be226c77c76adc785b7b99c4d77e374b2fe8ba48"
 depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-libffi>=3.2.1-2', 'lib32-libunwind', 'lib32-llvm-libs>=18.1.8', 'lib32-lmsensors>=3.5.0', 'lib32-zstd']"
 reverse_depends = "['lib32-libgl', 'lib32-xorg-server']"
 +++
