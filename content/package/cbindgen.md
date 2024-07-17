@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cbindgen 0.26.0-1"
-version = "0.26.0-1"
+title = "cbindgen 0.26.0-2"
+version = "0.26.0-2"
 description = "A project for generating C bindings from Rust code."
-date = "2023-10-04T13:01:38"
+date = "2024-07-17T08:47:58"
 aliases = "/packages/219774"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/eqrion/cbindgen"
 arch = "x86_64"
-size = "1432108"
-usize = "5234318"
-sha1sum = "9f109babc3daff1b5ffe0aa200185a7d73279b4b"
+size = "1370940"
+usize = "5131966"
+sha1sum = "0e80904269d9c68d6e5fa0008b208bb186710499"
 depends = "['libgcc>=13.2']"
 +++
 ### Description: 
