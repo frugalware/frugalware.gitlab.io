@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "779632"
 usize = "2661194"
 sha1sum = "49fbf8eda02854aa4dcfa26fc060e6b2d0d42195"
-depends = "['kcmutils>=6.3.0', 'kdbusaddons>=6.3.0', 'kglobalaccel>=6.3.0', 'kio>=6.3.0', 'knotifications>=6.3.0', 'kwidgetsaddons>=6.3.0', 'kwindowsystem>=6.3.0', 'kxmlgui>=6.3.0', 'libplasma>=6.1.2', 'plasma5support>=6.1.2', 'xf86-input-wacom']"
+depends = "['kcmutils>=6.4.0', 'kdbusaddons>=6.4.0', 'kglobalaccel>=6.4.0', 'kio>=6.4.0', 'knotifications>=6.4.0', 'kwidgetsaddons>=6.4.0', 'kwindowsystem>=6.4.0', 'kxmlgui>=6.4.0', 'libplasma>=6.1.3', 'plasma5support>=6.1.3', 'xf86-input-wacom']"
 +++
 ### Description: 
 GUI for Wacom Linux drivers that supports different button/pen layout profiles
@@ -52,9 +52,9 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/doc/HTML/uk/kcontrol/wacomtablet/tabletarea.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.docbook
-* /usr/share/doc/wacomtablet-6.1.2/AUTHORS
-* /usr/share/doc/wacomtablet-6.1.2/COPYING
-* /usr/share/doc/wacomtablet-6.1.2/README.md
+* /usr/share/doc/wacomtablet-6.1.3/AUTHORS
+* /usr/share/doc/wacomtablet-6.1.3/COPYING
+* /usr/share/doc/wacomtablet-6.1.3/README.md
 * /usr/share/knotifications6/wacomtablet.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/ar/LC_MESSAGES/wacomtablet.mo
