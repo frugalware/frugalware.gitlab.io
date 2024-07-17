@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinfocenter 6.1.2-1"
-version = "6.1.2-1"
+title = "kinfocenter 6.1.3-1"
+version = "6.1.3-1"
 description = "Utility that provides information about a computer system."
-date = "2024-07-03T08:23:12"
+date = "2024-07-17T11:47:25"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "820972"
-usize = "2621361"
-sha1sum = "6fce16a64151a778663b848a5ca60d4889263ddd"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.3.0', 'kirigami>=6.3.0', 'kpackage>=6.3.0', 'kwayland>=6.1.2', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.3.0', 'systemsettings>=6.1.2', 'vulkan-tools', 'wayland-utils']"
+size = "820988"
+usize = "2622446"
+sha1sum = "fe79a87bb22c102a6075da3558b6b9ef10dd9909"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.4.0', 'kirigami>=6.4.0', 'kpackage>=6.4.0', 'kwayland>=6.1.3', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.4.0', 'systemsettings>=6.1.3', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.
@@ -82,7 +82,7 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/uk/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/uk/kinfocenter/index.docbook
 * /usr/share/doc/HTML/uk/kinfocenter/kinfocenter.png
-* /usr/share/doc/kinfocenter-6.1.2/README.md
+* /usr/share/doc/kinfocenter-6.1.3/README.md
 * /usr/share/kinfocenter/categories/basicinformation.desktop
 * /usr/share/kinfocenter/categories/deviceinfocategory.desktop
 * /usr/share/kinfocenter/categories/graphicalinfocategory.desktop
@@ -293,6 +293,7 @@ Utility that provides information about a computer system.
 * /usr/share/locale/nn/LC_MESSAGES/kcm_about-distro.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_energyinfo.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_samba.mo
+* /usr/share/locale/nn/LC_MESSAGES/kinfocenter.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcmusb.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/or/LC_MESSAGES/kcmusb.mo

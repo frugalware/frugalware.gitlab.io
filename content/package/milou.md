@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "milou 6.1.2-1"
-version = "6.1.2-1"
+title = "milou 6.1.3-1"
+version = "6.1.3-1"
 description = "A dedicated search application built on top of Baloo."
-date = "2024-07-03T08:30:12"
+date = "2024-07-17T11:53:42"
 aliases = "/packages/218377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72216"
+size = "72196"
 usize = "286533"
-sha1sum = "40b95c125e1165c7f28900a6d174d1e8c61ef9f8"
-depends = "['kitemmodels>=6.3.0', 'krunner>=6.3.0', 'ksvg>=6.3.0', 'libplasma>=6.1.2']"
+sha1sum = "1a4441bef78403cbf4278f90e2d7ee1f2bb27db3"
+depends = "['kitemmodels>=6.4.0', 'krunner>=6.4.0', 'ksvg>=6.4.0', 'libplasma>=6.1.3']"
 +++
 ### Description: 
 A dedicated search application built on top of Baloo.

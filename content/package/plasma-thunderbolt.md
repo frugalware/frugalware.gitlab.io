@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-thunderbolt 6.1.2-1"
-version = "6.1.2-1"
+title = "plasma-thunderbolt 6.1.3-1"
+version = "6.1.3-1"
 description = "Plasma integration for controlling Thunderbolt devices"
-date = "2024-07-03T08:33:18"
+date = "2024-07-17T11:56:43"
 aliases = "/packages/219992"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "120804"
+size = "120780"
 usize = "510009"
-sha1sum = "e69b36c88f131c3c9b0a384effc9aed737c3eff0"
-depends = "['bolt', 'kcmutils>=6.3.0']"
+sha1sum = "cb680c50a3d155ba0baa1b947b92a8cc08f1a3bd"
+depends = "['bolt', 'kcmutils>=6.4.0']"
 +++
 ### Description: 
 Plasma integration for controlling Thunderbolt devices
@@ -21,8 +21,8 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/lib/qt6/plugins/kf6/kded/kded_bolt.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_bolt.so
 * /usr/share/applications/kcm_bolt.desktop
-* /usr/share/doc/plasma-thunderbolt-6.1.2/README.md
-* /usr/share/doc/plasma-thunderbolt-6.1.2/TODO
+* /usr/share/doc/plasma-thunderbolt-6.1.3/README.md
+* /usr/share/doc/plasma-thunderbolt-6.1.3/TODO
 * /usr/share/knotifications6/kded_bolt.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/ar/LC_MESSAGES/kded_bolt.mo
