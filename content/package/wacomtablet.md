@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wacomtablet 6.1.2-1"
-version = "6.1.2-1"
+title = "wacomtablet 6.1.3-1"
+version = "6.1.3-1"
 description = "GUI for Wacom Linux drivers that supports different button/pen layout profiles"
-date = "2024-07-03T13:20:45"
+date = "2024-07-17T16:16:02"
 aliases = "/packages/221410"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "779632"
-usize = "2661194"
-sha1sum = "49fbf8eda02854aa4dcfa26fc060e6b2d0d42195"
+size = "779688"
+usize = "2661197"
+sha1sum = "774005caa534d5fd35a14043aef60ba3a532b991"
 depends = "['kcmutils>=6.4.0', 'kdbusaddons>=6.4.0', 'kglobalaccel>=6.4.0', 'kio>=6.4.0', 'knotifications>=6.4.0', 'kwidgetsaddons>=6.4.0', 'kwindowsystem>=6.4.0', 'kxmlgui>=6.4.0', 'libplasma>=6.1.3', 'plasma5support>=6.1.3', 'xf86-input-wacom']"
 +++
 ### Description: 
