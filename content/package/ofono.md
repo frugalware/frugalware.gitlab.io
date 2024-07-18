@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ofono 2.6-1"
-version = "2.6-1"
+title = "ofono 2.9-1"
+version = "2.9-1"
 description = "mobile manager"
-date = "2024-04-27T10:56:06"
+date = "2024-07-18T10:57:45"
 aliases = "/packages/200033"
 categories = ['network-extra']
 upstreamurl = "http://ofono.org/"
 arch = "x86_64"
-size = "765252"
-usize = "2557714"
-sha1sum = "bf6cd5a3fbaf4943a8f8f5656c3673faacc06794"
+size = "789868"
+usize = "2586813"
+sha1sum = "62da3f117f1794ad6622bb1ff7a8e91c75f28457"
 depends = "['bluez', 'glib2', 'mobile-broadband-provider-info', 'modemmanager']"
 license = "GPL2"
 +++
@@ -62,11 +62,11 @@ mobile manager
 * /usr/include/ofono/version.h
 * /usr/include/ofono/voicecall.h
 * /usr/lib/pkgconfig/ofono.pc
-* /usr/share/doc/ofono-2.6/AUTHORS
-* /usr/share/doc/ofono-2.6/ChangeLog
-* /usr/share/doc/ofono-2.6/COPYING
-* /usr/share/doc/ofono-2.6/INSTALL
-* /usr/share/doc/ofono-2.6/README
-* /usr/share/doc/ofono-2.6/TODO
+* /usr/share/doc/ofono-2.9/AUTHORS
+* /usr/share/doc/ofono-2.9/ChangeLog
+* /usr/share/doc/ofono-2.9/COPYING
+* /usr/share/doc/ofono-2.9/INSTALL
+* /usr/share/doc/ofono-2.9/README
+* /usr/share/doc/ofono-2.9/TODO
 * /usr/share/man/man8/ofonod.8.gz
 * /usr/share/ofono/provision.db

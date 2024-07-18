@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mkvtoolnix-gui 86.0-1"
-version = "86.0-1"
+title = "mkvtoolnix-gui 86.0-2"
+version = "86.0-2"
 description = "Qt6 GUI for MKVToolnix"
-date = "2024-07-14T15:32:40"
+date = "2024-07-18T11:04:14"
 aliases = "/packages/218655"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://mkvtoolnix.download/"
 arch = "x86_64"
-size = "2202224"
-usize = "7568157"
-sha1sum = "93c4ad73aef41f2c001865e8073c4b99f506bf3f"
+size = "2197484"
+usize = "7559293"
+sha1sum = "e282d0b30219c52571916ac59a5abc05ecbb7b4b"
 depends = "['cmark>=0.31.0', 'mkvtoolnix', 'qt6-multimedia', 'qt6-svg']"
 +++
 ### Description: 

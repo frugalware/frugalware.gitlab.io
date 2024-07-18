@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mkvtoolnix 86.0-1"
-version = "86.0-1"
+title = "mkvtoolnix 86.0-2"
+version = "86.0-2"
 description = "MKVToolnix is a set of tools to create, alter and inspect Matroska files under Linux."
-date = "2024-07-14T15:32:40"
+date = "2024-07-18T11:04:14"
 aliases = "/packages/9387"
 categories = ['multimedia-extra']
 upstreamurl = "https://mkvtoolnix.download/"
 arch = "x86_64"
-size = "10098964"
-usize = "33461400"
-sha1sum = "52de049f09ce61f5aa963e43cf1a81cc70e02c69"
-depends = "['file>=5.25-3', 'flac>=1.4.0', 'fmtlib>=10.0', 'libboost>=1.85.0', 'libdvdread', 'libmatroska>=1.4.5-2', 'libvorbis>=1.3.5-4', 'pugixml']"
+size = "10079024"
+usize = "33365496"
+sha1sum = "b6b58e4692655f639ffacf150fd932213f23e343"
+depends = "['file>=5.25-3', 'flac>=1.4.0', 'libboost>=1.85.0', 'libdvdread', 'libmatroska>=1.4.5-2', 'libvorbis>=1.3.5-4', 'pugixml']"
 reverse_depends = "['mkvtoolnix-gui']"
 +++
 ### Description: 
