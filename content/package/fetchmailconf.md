@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fetchmailconf 6.4.38-1"
-version = "6.4.38-1"
+title = "fetchmailconf 6.4.39-1"
+version = "6.4.39-1"
 description = "fetchmail setup tool"
-date = "2024-02-03T11:16:05"
+date = "2024-07-20T18:03:14"
 aliases = "/packages/4348"
 categories = ['xapps-extra']
 upstreamurl = "http://www.fetchmail.info"
 arch = "x86_64"
-size = "56036"
-usize = "325588"
-sha1sum = "53caa156dc9a3dfda4921203e2d9bfe2f6abd021"
-depends = "['dialog', 'fetchmail>=6.4.38', 'python3-tk>=2.7.11-4', 'tk>=8.6.4']"
+size = "56684"
+usize = "325362"
+sha1sum = "ee955f2f07eb20eb125ff163075c4c69423e1641"
+depends = "['dialog', 'fetchmail>=6.4.39', 'python3-tk>=2.7.11-4', 'tk>=8.6.4']"
 +++
 ### Description: 
 fetchmail setup tool
