@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "v4l2loopback 0.13.2-7"
-version = "0.13.2-7"
+title = "v4l2loopback 0.13.2-9"
+version = "0.13.2-9"
 description = "v4l2-loopback device"
-date = "2024-07-12T10:55:14"
+date = "2024-07-20T09:27:26"
 aliases = "/packages/220159"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/umlaeute/v4l2loopback"
 arch = "x86_64"
-size = "63156"
-usize = "106722"
-sha1sum = "0f187ea2ed45c309f818360c39b1ee2f533a168c"
-depends = "['kernel=6.9.9-1']"
+size = "227176"
+usize = "270328"
+sha1sum = "ca502b837332d81ded6ded9da101ca56550f8e20"
+depends = "['kernel=6.10-2']"
 reverse_depends = "['obs-v4l2sink']"
 +++
 ### Description: 
 v4l2-loopback device
 
 ### Files: 
-* /usr/lib/modules/6.9.9-fw1/kernel/extra/v4l2loopback.ko.zst
+* /usr/lib/modules/6.10-fw2/kernel/extra/v4l2loopback.ko.zst
 * /usr/share/doc/v4l2loopback-0.13.2/AUTHORS
 * /usr/share/doc/v4l2loopback-0.13.2/ChangeLog
 * /usr/share/doc/v4l2loopback-0.13.2/COPYING

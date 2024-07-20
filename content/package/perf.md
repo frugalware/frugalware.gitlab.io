@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.9.9-1"
-version = "6.9.9-1"
+title = "perf 6.10-2"
+version = "6.10-2"
 description = "Kernel performance profiling tool"
-date = "2024-07-12T09:22:20"
+date = "2024-07-20T08:53:18"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2231152"
-usize = "11328538"
-sha1sum = "cc4ac4c168dc59d10617e1e3aa32625f3f7f85d6"
+size = "2265884"
+usize = "11490618"
+sha1sum = "b7a38098c0575d087cab22698d8402ef256b8f40"
 depends = "['binutils>=2.40', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -100,6 +100,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/scripts/python/mem-phys-addr.py
 * /usr/lib/perf/perf-core/scripts/python/netdev-times.py
 * /usr/lib/perf/perf-core/scripts/python/net_dropmonitor.py
+* /usr/lib/perf/perf-core/scripts/python/parallel-perf.py
 * /usr/lib/perf/perf-core/scripts/python/Perf-Trace-Util/lib/Perf/Trace/Core.py
 * /usr/lib/perf/perf-core/scripts/python/Perf-Trace-Util/lib/Perf/Trace/EventClass.py
 * /usr/lib/perf/perf-core/scripts/python/Perf-Trace-Util/lib/Perf/Trace/SchedGui.py
@@ -162,6 +163,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/attr/test-stat-no-inherit
 * /usr/lib/perf/perf-core/tests/pe-file.exe
 * /usr/lib/perf/perf-core/tests/pe-file.exe.debug
+* /usr/lib/perf/perf-core/tests/shell/annotate.sh
 * /usr/lib/perf/perf-core/tests/shell/base_probe/settings.sh
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_adding_kernel.sh
 * /usr/lib/perf/perf-core/tests/shell/buildid.sh

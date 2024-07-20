@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libnl 3.9.0-1"
-version = "3.9.0-1"
+title = "lib32-libnl 3.10.0-1"
+version = "3.10.0-1"
 description = "A library to ease the use of netlink sockets ( 32bit )"
-date = "2023-12-04T18:42:49"
+date = "2024-07-20T10:39:21"
 aliases = "/packages/218953"
 categories = ['lib32-extra']
 upstreamurl = "http://www.infradead.org/~tgr/libnl/"
 arch = "x86_64"
-size = "392008"
-usize = "2300412"
-sha1sum = "20ace2af951f6c4b391cb0bff8c748f1d5e07eeb"
+size = "412748"
+usize = "1950309"
+sha1sum = "e4fa0ef69b491195f21ff52c6e6c5bd2c53421cf"
 depends = "[]"
 reverse_depends = "['lib32-networkmanager']"
 +++

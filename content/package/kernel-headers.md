@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.9.9-1"
-version = "6.9.9-1"
+title = "kernel-headers 6.10-2"
+version = "6.10-2"
 description = "Linux kernel include files"
-date = "2024-07-12T09:22:20"
+date = "2024-07-20T08:53:18"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1213504"
-usize = "5722510"
-sha1sum = "cd7e982fcc123027c598403f70bda18511f8f7b8"
+size = "1218236"
+usize = "5743695"
+sha1sum = "ceb8057b8b2910199930e46627ed5246089a36c4"
 depends = "[]"
 +++
 ### Description: 
@@ -632,6 +632,7 @@ Linux kernel include files
 * /usr/include/linux/openat2.h
 * /usr/include/linux/openvswitch.h
 * /usr/include/linux/packet_diag.h
+* /usr/include/linux/papr_pdsm.h
 * /usr/include/linux/param.h
 * /usr/include/linux/parport.h
 * /usr/include/linux/patchkey.h
@@ -793,6 +794,7 @@ Linux kernel include files
 * /usr/include/linux/tls.h
 * /usr/include/linux/toshiba.h
 * /usr/include/linux/tps6594_pfsm.h
+* /usr/include/linux/trace_mmap.h
 * /usr/include/linux/tty.h
 * /usr/include/linux/tty_flags.h
 * /usr/include/linux/types.h

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libnl 3.9.0-1"
-version = "3.9.0-1"
+title = "libnl 3.10.0-1"
+version = "3.10.0-1"
 description = "A library to ease the use of netlink sockets"
-date = "2023-12-04T18:42:49"
+date = "2024-07-20T10:39:21"
 aliases = "/packages/10511"
 categories = ['base']
 upstreamurl = "http://www.infradead.org/~tgr/libnl/"
 arch = "x86_64"
-size = "382864"
-usize = "2219753"
-sha1sum = "78b961c9b4b097158209ce7666d821ac878b1868"
+size = "393636"
+usize = "1808782"
+sha1sum = "ceeade0eb7059909efcf24b15efcd77175e9feda"
 depends = "['glibc>=2.34']"
 reverse_depends = "['aircrack-ng', 'criu', 'hostapd', 'i3status', 'iw', 'ksysguard5', 'libksysguard', 'libksysguard5', 'libvirt', 'networkmanager', 'powertop', 'quota-tools', 'rdma-core', 'wavemon', 'wireshark', 'wireshark-qt', 'wpa_supplicant']"
 +++
@@ -241,8 +241,8 @@ A library to ease the use of netlink sockets
 * /usr/lib/pkgconfig/libnl-nf-3.0.pc
 * /usr/lib/pkgconfig/libnl-route-3.0.pc
 * /usr/lib/pkgconfig/libnl-xfrm-3.0.pc
-* /usr/share/doc/libnl-3.9.0/ChangeLog
-* /usr/share/doc/libnl-3.9.0/COPYING
+* /usr/share/doc/libnl-3.10.0/ChangeLog
+* /usr/share/doc/libnl-3.10.0/COPYING
 * /usr/share/man/man8/genl-ctrl-list.8.gz
 * /usr/share/man/man8/nl-classid-lookup.8.gz
 * /usr/share/man/man8/nl-pktloc-lookup.8.gz
