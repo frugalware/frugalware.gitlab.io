@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa 24.1.4-1"
-version = "24.1.4-1"
+title = "mesa 24.1.4-2"
+version = "24.1.4-2"
 description = "Mesa is a 3D graphics library"
-date = "2024-07-17T17:50:40"
+date = "2024-07-20T16:05:46"
 aliases = "/packages/4137"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "11497604"
+size = "11499868"
 usize = "142486575"
-sha1sum = "5b448e5c482adc450ac29b431b8d70b770fbf514"
+sha1sum = "a8fb6941994ad2fd616dec9afd47b22ddd40646f"
 depends = "[]"
 +++
 ### Description: 

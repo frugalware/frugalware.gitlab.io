@@ -12,7 +12,7 @@ size = "825676"
 usize = "5011016"
 sha1sum = "99cd64285e06aa843614fa6d5105500724cbeba8"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
-reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
+reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libbpf', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++
 ### Description: 
 Collection of libraries and utilities for working with ELF object files and DWARF debugging information

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio 6.4.0-1"
-version = "6.4.0-1"
+title = "kio 6.4.1-1"
+version = "6.4.1-1"
 description = "Network transparent access to files and data."
-date = "2024-07-12T22:44:25"
+date = "2024-07-20T16:12:16"
 aliases = "/packages/218323"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3343936"
-usize = "18480504"
-sha1sum = "0786b8ce971d392e099fa40a2c6de3d88973c360"
+size = "3342268"
+usize = "18480635"
+sha1sum = "b8d4d4d69955e7a32ff4dd516c59dcf713eb08c6"
 depends = "['karchive>=6.4.0', 'kauth>=6.4.0', 'kbookmarks>=6.4.0', 'kded>=6.4.0', 'kjobwidgets>=6.4.0', 'kwallet>=', 'solid>=6.4.0', 'switcheroo-control']"
 reverse_depends = "['akonadi', 'akonadi-contacts', 'akonadi-mime', 'audex', 'baloo', 'bluedevil5', 'discover', 'dolphin', 'drkonqi', 'falkon-kde', 'ffmpegthumbs', 'frameworkintegration', 'juk', 'kactivities-stats', 'kactivitymanagerd', 'kalgebra', 'kamera', 'kapptemplate', 'kbackup', 'kcachegrind', 'kcron', 'kdav', 'kdeclarative', 'kdeconnect-kde', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdeplasma-addons', 'kdesdk-kio', 'kdesdk-thumbnailers', 'kdesignerplugin', 'kdf', 'kdialog', 'kglobalacceld', 'kgoldrunner', 'kimap', 'kinit', 'kio-admin', 'kio-fuse', 'kio-gdrive', 'kio-zeroconf', 'kiten', 'kldap', 'kmag', 'kmenuedit', 'kmouth', 'knewstuff', 'knotifyconfig', 'koko', 'kolourpaint', 'kparts', 'kpimtextedit', 'ksmtp', 'ksystemlog', 'ktextaddons', 'ktimer', 'kturtle', 'kvirc', 'kxmlrpcclient', 'libkcddb', 'libkeduvocdocument', 'libkgapi', 'libktorrent', 'neochat', 'partitionmanager', 'plasma-activities', 'plasma-activities-stats', 'plasma-browser-integration', 'plasma-integration', 'print-manager', 'purpose', 'skladnik', 'spectacle', 'syndication', 'tokodon', 'wacomtablet', 'xdg-desktop-portal-kde']"
 +++

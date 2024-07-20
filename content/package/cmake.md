@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cmake 3.30.0-1"
-version = "3.30.0-1"
+title = "cmake 3.30.1-1"
+version = "3.30.1-1"
 description = "Cross platform make"
-date = "2024-07-15T16:17:51"
+date = "2024-07-20T16:58:14"
 aliases = "/packages/9148"
 categories = ['devel-extra']
 upstreamurl = "https://cmake.org"
 arch = "x86_64"
-size = "12499144"
-usize = "74121937"
-sha1sum = "e8c316f8b975492d2061fc8518435389645941d4"
+size = "12500940"
+usize = "74125505"
+sha1sum = "5b28852ed2433e256d1ae267b3c624f3bd236197"
 depends = "['cppdap', 'curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build', 'scikit-build-core']"
 +++
@@ -3426,7 +3426,8 @@ Cross platform make
 * /usr/share/cmake/Templates/Windows/SplashScreen.png
 * /usr/share/cmake/Templates/Windows/StoreLogo.png
 * /usr/share/cmake/Templates/Windows/Windows_TemporaryKey.pfx
-* /usr/share/doc/cmake-3.30.0/README.rst
+* /usr/share/doc/cmake-3.30.1/README.rst
+* /usr/share/doc/cmake-3.30.1/VERSION
 * /usr/share/doc/cmake/cmsys/Copyright.txt
 * /usr/share/doc/cmake/Copyright.txt
 * /usr/share/doc/cmake/html/command/add_compile_definitions.html

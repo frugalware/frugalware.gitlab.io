@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcc 0.29.1-2"
-version = "0.29.1-2"
+title = "bcc 0.30.0-1"
+version = "0.30.0-1"
 description = "BPF Compiler Collection"
-date = "2024-07-12T20:49:56"
+date = "2024-07-20T16:24:54"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "19609368"
-usize = "64561252"
-sha1sum = "a5a95e2a7049e79ffd1fe7f0a9a1f0f0ceedf017"
+size = "1412688"
+usize = "5657890"
+sha1sum = "fd1a79d1da8cf31ac8d1ca39be078fb231c238c4"
 depends = "['clang-libs>=18.1.8', 'elfutils', 'python3>=3.11']"
 +++
 ### Description: 
@@ -27,16 +27,6 @@ BPF Compiler Collection
 * /usr/include/bcc/BPF.h
 * /usr/include/bcc/BPFTable.h
 * /usr/include/bcc/bpf_module.h
-* /usr/include/bcc/compat/linux/bpf.h
-* /usr/include/bcc/compat/linux/bpf_common.h
-* /usr/include/bcc/compat/linux/btf.h
-* /usr/include/bcc/compat/linux/if_link.h
-* /usr/include/bcc/compat/linux/if_xdp.h
-* /usr/include/bcc/compat/linux/netdev.h
-* /usr/include/bcc/compat/linux/netlink.h
-* /usr/include/bcc/compat/linux/perf_event.h
-* /usr/include/bcc/compat/linux/pkt_cls.h
-* /usr/include/bcc/compat/linux/pkt_sched.h
 * /usr/include/bcc/file_desc.h
 * /usr/include/bcc/libbpf.h
 * /usr/include/bcc/perf_reader.h
@@ -44,15 +34,15 @@ BPF Compiler Collection
 * /usr/include/bcc/table_storage.h
 * /usr/lib/libbcc.so
 * /usr/lib/libbcc.so.0
-* /usr/lib/libbcc.so.0.29.1
+* /usr/lib/libbcc.so.0.30.0
 * /usr/lib/libbcc_bpf.so
 * /usr/lib/libbcc_bpf.so.0
-* /usr/lib/libbcc_bpf.so.0.29.1
+* /usr/lib/libbcc_bpf.so.0.30.0
 * /usr/lib/pkgconfig/libbcc.pc
-* /usr/lib/python3.12/site-packages/bcc-0.29.1+eb8ede2d-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/bcc-0.29.1+eb8ede2d-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/bcc-0.29.1+eb8ede2d-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/bcc-0.29.1+eb8ede2d-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/bcc-0.30.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/bcc-0.30.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/bcc-0.30.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/bcc-0.30.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/bcc/containers.py
 * /usr/lib/python3.12/site-packages/bcc/disassembler.py
 * /usr/lib/python3.12/site-packages/bcc/libbcc.py
@@ -144,6 +134,7 @@ BPF Compiler Collection
 * /usr/share/bcc/examples/tracing/hello_perf_output_using_ns.py
 * /usr/share/bcc/examples/tracing/kvm_hypercall.py
 * /usr/share/bcc/examples/tracing/kvm_hypercall.txt
+* /usr/share/bcc/examples/tracing/lbr.py
 * /usr/share/bcc/examples/tracing/mallocstacks.py
 * /usr/share/bcc/examples/tracing/mysqld_query.py
 * /usr/share/bcc/examples/tracing/mysqld_query_example.txt
@@ -206,6 +197,7 @@ BPF Compiler Collection
 * /usr/share/bcc/man/man8/exitsnoop.8.gz
 * /usr/share/bcc/man/man8/ext4dist.8.gz
 * /usr/share/bcc/man/man8/ext4slower.8.gz
+* /usr/share/bcc/man/man8/f2fsslower.8.gz
 * /usr/share/bcc/man/man8/filegone.8.gz
 * /usr/share/bcc/man/man8/filelife.8.gz
 * /usr/share/bcc/man/man8/fileslower.8.gz
@@ -308,6 +300,7 @@ BPF Compiler Collection
 * /usr/share/bcc/man/man8/vfsstat.8.gz
 * /usr/share/bcc/man/man8/virtiostat.8.gz
 * /usr/share/bcc/man/man8/wakeuptime.8.gz
+* /usr/share/bcc/man/man8/wqlat.8.gz
 * /usr/share/bcc/man/man8/xfsdist.8.gz
 * /usr/share/bcc/man/man8/xfsslower.8.gz
 * /usr/share/bcc/man/man8/zfsdist.8.gz
@@ -371,6 +364,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/doc/exitsnoop_example.txt
 * /usr/share/bcc/tools/doc/ext4dist_example.txt
 * /usr/share/bcc/tools/doc/ext4slower_example.txt
+* /usr/share/bcc/tools/doc/f2fsslower_example.txt
 * /usr/share/bcc/tools/doc/filegone_example.txt
 * /usr/share/bcc/tools/doc/filelife_example.txt
 * /usr/share/bcc/tools/doc/fileslower_example.txt
@@ -471,6 +465,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/doc/vfsstat_example.txt
 * /usr/share/bcc/tools/doc/virtiostat_example.txt
 * /usr/share/bcc/tools/doc/wakeuptime_example.txt
+* /usr/share/bcc/tools/doc/wqlat_example.txt
 * /usr/share/bcc/tools/doc/xfsdist_example.txt
 * /usr/share/bcc/tools/doc/xfsslower_example.txt
 * /usr/share/bcc/tools/doc/zfsdist_example.txt
@@ -480,6 +475,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/exitsnoop
 * /usr/share/bcc/tools/ext4dist
 * /usr/share/bcc/tools/ext4slower
+* /usr/share/bcc/tools/f2fsslower
 * /usr/share/bcc/tools/filegone
 * /usr/share/bcc/tools/filelife
 * /usr/share/bcc/tools/fileslower
@@ -603,10 +599,11 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/vfsstat
 * /usr/share/bcc/tools/virtiostat
 * /usr/share/bcc/tools/wakeuptime
+* /usr/share/bcc/tools/wqlat
 * /usr/share/bcc/tools/xfsdist
 * /usr/share/bcc/tools/xfsslower
 * /usr/share/bcc/tools/zfsdist
 * /usr/share/bcc/tools/zfsslower
-* /usr/share/doc/bcc-0.29.1/FAQ.txt
-* /usr/share/doc/bcc-0.29.1/INSTALL.md
-* /usr/share/doc/bcc-0.29.1/README.md
+* /usr/share/doc/bcc-0.30.0/FAQ.txt
+* /usr/share/doc/bcc-0.30.0/INSTALL.md
+* /usr/share/doc/bcc-0.30.0/README.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "iproute2 6.10.0-1"
-version = "6.10.0-1"
+title = "iproute2 6.10.0-2"
+version = "6.10.0-2"
 description = "kernel routing and traffic control utilities."
-date = "2024-07-20T10:37:13"
+date = "2024-07-20T16:28:23"
 aliases = "/packages/3104"
 categories = ['base']
 upstreamurl = "http://www.kernel.org"
 arch = "x86_64"
-size = "1094680"
-usize = "2929065"
-sha1sum = "cef27c82ca900ecc5db44095dab80c08db15ed30"
-depends = "['iptables>=1.6.1-4']"
+size = "1093660"
+usize = "2924777"
+sha1sum = "5363c0f4b05cbb0822bfc97544da96800ac9437c"
+depends = "['iptables>=1.6.1-4', 'libbpf']"
 reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
 ### Description: 

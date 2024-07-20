@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "v4l-utils 1.26.1-6"
-version = "1.26.1-6"
+title = "v4l-utils 1.28.0-1"
+version = "1.28.0-1"
 description = "Userspace tools and conversion library for Video 4 Linux"
-date = "2024-05-26T22:13:59"
+date = "2024-07-20T16:37:45"
 aliases = "/packages/103450"
 categories = ['multimedia']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1318924"
-usize = "5008024"
-sha1sum = "a686b7ca8b96b98699a88680e20c814779be17d3"
-depends = "['alsa-lib', 'elfutils', 'json-c', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
+size = "1368888"
+usize = "4904854"
+sha1sum = "54ed12763ba3d37e719213190d54d3a6b171528a"
+depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
 ### Description: 
@@ -119,7 +119,6 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/pkgconfig/libv4l2.pc
 * /usr/lib/pkgconfig/libv4l2rds.pc
 * /usr/lib/pkgconfig/libv4lconvert.pc
-* /usr/lib/systemd/system/systemd-udevd.service.d/50-rc_keymap.conf
 * /usr/lib/udev/rc_keymaps/adstech_dvb_t_pci.toml
 * /usr/lib/udev/rc_keymaps/af9005.toml
 * /usr/lib/udev/rc_keymaps/alink_dtu_m.toml
@@ -215,6 +214,7 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/udev/rc_keymaps/msi_digivox_iii.toml
 * /usr/lib/udev/rc_keymaps/msi_tvanywhere.toml
 * /usr/lib/udev/rc_keymaps/msi_tvanywhere_plus.toml
+* /usr/lib/udev/rc_keymaps/mygica_utv3.toml
 * /usr/lib/udev/rc_keymaps/nebula.toml
 * /usr/lib/udev/rc_keymaps/nec_terratec_cinergy_xs.toml
 * /usr/lib/udev/rc_keymaps/norwood.toml
@@ -233,6 +233,15 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/udev/rc_keymaps/pixelview_new.toml
 * /usr/lib/udev/rc_keymaps/powercolor_real_angel.toml
 * /usr/lib/udev/rc_keymaps/proteus_2309.toml
+* /usr/lib/udev/rc_keymaps/protocols/grundig.o
+* /usr/lib/udev/rc_keymaps/protocols/imon_rsc.o
+* /usr/lib/udev/rc_keymaps/protocols/manchester.o
+* /usr/lib/udev/rc_keymaps/protocols/pulse_distance.o
+* /usr/lib/udev/rc_keymaps/protocols/pulse_length.o
+* /usr/lib/udev/rc_keymaps/protocols/raw.o
+* /usr/lib/udev/rc_keymaps/protocols/rc_mm.o
+* /usr/lib/udev/rc_keymaps/protocols/samsung36.o
+* /usr/lib/udev/rc_keymaps/protocols/xbox-dvd.o
 * /usr/lib/udev/rc_keymaps/purpletv.toml
 * /usr/lib/udev/rc_keymaps/pv951.toml
 * /usr/lib/udev/rc_keymaps/rc6_mce.toml
@@ -276,15 +285,15 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/udev/rc_keymaps/zx_irdec.toml
 * /usr/lib/udev/rules.d/70-infrared.rules
 * /usr/share/applications/qvidcap.desktop
-* /usr/share/doc/v4l-utils-1.26.1/ChangeLog
-* /usr/share/doc/v4l-utils-1.26.1/COPYING
-* /usr/share/doc/v4l-utils-1.26.1/COPYING.libdvbv5
-* /usr/share/doc/v4l-utils-1.26.1/COPYING.libv4l
-* /usr/share/doc/v4l-utils-1.26.1/INSTALL.md
-* /usr/share/doc/v4l-utils-1.26.1/README.lib-multi-threading
-* /usr/share/doc/v4l-utils-1.26.1/README.libv4l
-* /usr/share/doc/v4l-utils-1.26.1/README.md
-* /usr/share/doc/v4l-utils-1.26.1/TODO
+* /usr/share/doc/v4l-utils-1.28.0/ChangeLog
+* /usr/share/doc/v4l-utils-1.28.0/COPYING
+* /usr/share/doc/v4l-utils-1.28.0/COPYING.libdvbv5
+* /usr/share/doc/v4l-utils-1.28.0/COPYING.libv4l
+* /usr/share/doc/v4l-utils-1.28.0/INSTALL.md
+* /usr/share/doc/v4l-utils-1.28.0/README.lib-multi-threading
+* /usr/share/doc/v4l-utils-1.28.0/README.libv4l
+* /usr/share/doc/v4l-utils-1.28.0/README.md
+* /usr/share/doc/v4l-utils-1.28.0/TODO
 * /usr/share/icons/hicolor/16x16/apps/qvidcap.png
 * /usr/share/icons/hicolor/24x24/apps/qvidcap.png
 * /usr/share/icons/hicolor/32x32/apps/qvidcap.png

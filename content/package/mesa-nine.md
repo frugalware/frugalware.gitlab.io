@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-nine 24.1.4-1"
-version = "24.1.4-1"
+title = "mesa-nine 24.1.4-2"
+version = "24.1.4-2"
 description = "Mesa Support for DirectX 9"
-date = "2024-07-17T17:50:40"
+date = "2024-07-20T16:05:46"
 aliases = "/packages/217538"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "8231580"
+size = "8231748"
 usize = "33258674"
-sha1sum = "05b90e50623ba99fec722957f6dbcc91b890cd0d"
+sha1sum = "5a0a5d980c7721401d651fb0938882bf69c8c9cd"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70', 'libffi>=3.2.1-2', 'llvm-libs>=18.1.8', 'lmsensors>=3.5.0', 'zstd']"
 +++
 ### Description: 
