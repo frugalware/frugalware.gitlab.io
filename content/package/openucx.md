@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openucx 1.15.0-1"
-version = "1.15.0-1"
+title = "openucx 1.17.0-1"
+version = "1.17.0-1"
 description = "Unified Communication X"
-date = "2024-02-02T23:54:27"
+date = "2024-07-20T18:23:22"
 aliases = "/packages/220865"
 categories = ['network-extra']
 upstreamurl = "http://www.openucx.org"
 arch = "x86_64"
-size = "1049036"
-usize = "3846005"
-sha1sum = "8a7b85a563081a5bdcdc04c43424dc25ec2c13cc"
+size = "1420148"
+usize = "4926519"
+sha1sum = "456612c09488465486ce5e335f76eb22d6878bcc"
 depends = "['binutils>=2.42', 'libgomp', 'numactl', 'rdma-core']"
 reverse_depends = "['cuda-tools']"
 +++
@@ -18,9 +18,11 @@ reverse_depends = "['cuda-tools']"
 Unified Communication X
 
 ### Files: 
+* /etc/ucx/ucx.conf
 * /usr/bin/io_demo
 * /usr/bin/ucx_info
 * /usr/bin/ucx_perftest
+* /usr/bin/ucx_perftest_daemon
 * /usr/bin/ucx_read_profile
 * /usr/include/ucm/api/ucm.h
 * /usr/include/ucp/api/ucp.h
@@ -38,6 +40,8 @@ Unified Communication X
 * /usr/include/ucs/arch/global_opts.h
 * /usr/include/ucs/arch/ppc64/bitops.h
 * /usr/include/ucs/arch/ppc64/global_opts.h
+* /usr/include/ucs/arch/rv64/bitops.h
+* /usr/include/ucs/arch/rv64/global_opts.h
 * /usr/include/ucs/arch/x86_64/atomic.h
 * /usr/include/ucs/arch/x86_64/bitops.h
 * /usr/include/ucs/arch/x86_64/global_opts.h
@@ -47,8 +51,8 @@ Unified Communication X
 * /usr/include/ucs/config/parser.h
 * /usr/include/ucs/config/types.h
 * /usr/include/ucs/datastruct/array.h
-* /usr/include/ucs/datastruct/array.inl
 * /usr/include/ucs/datastruct/callbackq.h
+* /usr/include/ucs/datastruct/callbackq_compat.h
 * /usr/include/ucs/datastruct/hlist.h
 * /usr/include/ucs/datastruct/khash.h
 * /usr/include/ucs/datastruct/linear_func.h
@@ -56,6 +60,7 @@ Unified Communication X
 * /usr/include/ucs/datastruct/mpool.h
 * /usr/include/ucs/datastruct/mpool_set.h
 * /usr/include/ucs/datastruct/pgtable.h
+* /usr/include/ucs/datastruct/piecewise_func.h
 * /usr/include/ucs/datastruct/queue_types.h
 * /usr/include/ucs/datastruct/strided_alloc.h
 * /usr/include/ucs/datastruct/string_buffer.h
@@ -65,6 +70,7 @@ Unified Communication X
 * /usr/include/ucs/debug/memtrack.h
 * /usr/include/ucs/memory/memory_type.h
 * /usr/include/ucs/memory/memtype_cache.h
+* /usr/include/ucs/memory/numa.h
 * /usr/include/ucs/memory/rcache.h
 * /usr/include/ucs/profile/profile_defs.h
 * /usr/include/ucs/profile/profile_off.h
@@ -127,11 +133,11 @@ Unified Communication X
 * /usr/lib/ucx/libuct_rdmacm.so
 * /usr/lib/ucx/libuct_rdmacm.so.0
 * /usr/lib/ucx/libuct_rdmacm.so.0.0.0
-* /usr/share/doc/openucx-1.15.0/AUTHORS
-* /usr/share/doc/openucx-1.15.0/LICENSE
-* /usr/share/doc/openucx-1.15.0/NEWS
-* /usr/share/doc/openucx-1.15.0/README
-* /usr/share/doc/openucx-1.15.0/README.md
+* /usr/share/doc/openucx-1.17.0/AUTHORS
+* /usr/share/doc/openucx-1.17.0/LICENSE
+* /usr/share/doc/openucx-1.17.0/NEWS
+* /usr/share/doc/openucx-1.17.0/README
+* /usr/share/doc/openucx-1.17.0/README.md
 * /usr/share/ucx/examples/hello_world_util.h
 * /usr/share/ucx/examples/ucp_client_server.c
 * /usr/share/ucx/examples/ucp_hello_world.c

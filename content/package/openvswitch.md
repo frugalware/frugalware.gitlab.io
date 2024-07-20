@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvswitch 3.2.1-1"
-version = "3.2.1-1"
+title = "openvswitch 3.3.1-1"
+version = "3.3.1-1"
 description = "A production quality, multilayer virtual switch"
-date = "2024-01-15T10:01:44"
+date = "2024-07-20T18:45:09"
 aliases = "/packages/200352"
 categories = ['network-extra']
 upstreamurl = "http://openvswitch.org/"
 arch = "x86_64"
-size = "2648288"
-usize = "10497565"
-sha1sum = "e5833a03284991a6a4c4020bab858821a9996872"
+size = "2785608"
+usize = "10885424"
+sha1sum = "6f4a5934b6a28e9385801c3195b6438417638dc1"
 depends = "['libcap-ng', 'openssl>=3.1.0']"
 license = "Apache"
 +++
@@ -107,9 +107,9 @@ A production quality, multilayer virtual switch
 * /usr/lib/pkgconfig/libopenvswitch.pc
 * /usr/lib/pkgconfig/libovsdb.pc
 * /usr/lib/pkgconfig/libsflow.pc
-* /usr/share/doc/openvswitch-3.2.1/LICENSE
-* /usr/share/doc/openvswitch-3.2.1/NEWS
-* /usr/share/doc/openvswitch-3.2.1/README.rst
+* /usr/share/doc/openvswitch-3.3.1/LICENSE
+* /usr/share/doc/openvswitch-3.3.1/NEWS
+* /usr/share/doc/openvswitch-3.3.1/README.rst
 * /usr/share/man/man1/ovs-pcap.1.gz
 * /usr/share/man/man1/ovsdb-client.1.gz
 * /usr/share/man/man1/ovsdb-server.1.gz
@@ -206,6 +206,8 @@ A production quality, multilayer virtual switch
 * /usr/share/openvswitch/scripts/ovs-vtep
 * /usr/share/openvswitch/scripts/usdt/bridge_loop.bt
 * /usr/share/openvswitch/scripts/usdt/dpif_nl_exec_monitor.py
+* /usr/share/openvswitch/scripts/usdt/kernel_delay.py
+* /usr/share/openvswitch/scripts/usdt/kernel_delay.rst
 * /usr/share/openvswitch/scripts/usdt/reval_monitor.py
 * /usr/share/openvswitch/scripts/usdt/upcall_cost.py
 * /usr/share/openvswitch/scripts/usdt/upcall_monitor.py
