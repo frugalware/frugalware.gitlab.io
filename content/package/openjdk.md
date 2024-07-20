@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openjdk 22.0.1-3"
-version = "22.0.1-3"
+title = "openjdk 22.0.2-1"
+version = "22.0.2-1"
 description = "Open-source Java Development Kit implementation."
-date = "2024-07-07T12:41:33"
+date = "2024-07-20T20:39:32"
 aliases = "/packages/102857"
 categories = ['devel-extra']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "81411004"
-usize = "91176042"
-sha1sum = "3d6496f0fbc6a4c2b645045a143471bc1afc7056"
-depends = "['openjre=22.0.1-3']"
+size = "81422236"
+usize = "91185566"
+sha1sum = "961ac203b511061253ec59dfcc79ea61fe026214"
+depends = "['openjre=22.0.2-1']"
 reverse_depends = "['flutter', 'maven', 'openjdk-source', 'testng']"
 +++
 ### Description: 
@@ -221,8 +221,8 @@ Open-source Java Development Kit implementation.
 * /usr/lib/jvm/java-22-openjdk/jmods/jdk.unsupported.jmod
 * /usr/lib/jvm/java-22-openjdk/jmods/jdk.xml.dom.jmod
 * /usr/lib/jvm/java-22-openjdk/jmods/jdk.zipfs.jmod
-* /usr/share/doc/openjdk-22.0.1/LICENSE
-* /usr/share/doc/openjdk-22.0.1/README.md
+* /usr/share/doc/openjdk-22.0.2/LICENSE
+* /usr/share/doc/openjdk-22.0.2/README.md
 * /usr/share/man/man1/jar.1.gz
 * /usr/share/man/man1/jarsigner.1.gz
 * /usr/share/man/man1/java.1.gz
