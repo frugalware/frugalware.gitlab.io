@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "strongswan 5.9.13-1"
-version = "5.9.13-1"
+title = "strongswan 5.9.14-1"
+version = "5.9.14-1"
 description = "the OpenSource IPsec-based VPN Solution for Linux"
-date = "2024-01-08T22:03:00"
+date = "2024-07-20T19:31:08"
 aliases = "/packages/136023"
 categories = ['network-extra']
 upstreamurl = "http://www.strongswan.org/"
 arch = "x86_64"
-size = "1391048"
-usize = "5181322"
-sha1sum = "0ee16710154abf4060ce80fb31a776a593f322eb"
+size = "1428152"
+usize = "4681218"
+sha1sum = "c5c4a285bc74ccd99ef423575fd9dd38b9f9b9a8"
 depends = "['curl', 'gmp', 'iproute2', 'json-c>=0.13.1', 'libsoup', 'libsystemd', 'networkmanager', 'openresolv', 'openssl', 'sqlite3']"
 +++
 ### Description: 
@@ -245,13 +245,13 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /usr/lib/systemd/strongswan-starter.service
 * /usr/lib/systemd/strongswan.service
 * /usr/share/dbus-1/system.d/nm-strongswan-service.conf
-* /usr/share/doc/strongswan-5.9.13/ChangeLog
-* /usr/share/doc/strongswan-5.9.13/COPYING
-* /usr/share/doc/strongswan-5.9.13/INSTALL
-* /usr/share/doc/strongswan-5.9.13/LICENSE
-* /usr/share/doc/strongswan-5.9.13/NEWS
-* /usr/share/doc/strongswan-5.9.13/README
-* /usr/share/doc/strongswan-5.9.13/TODO
+* /usr/share/doc/strongswan-5.9.14/ChangeLog
+* /usr/share/doc/strongswan-5.9.14/COPYING
+* /usr/share/doc/strongswan-5.9.14/INSTALL
+* /usr/share/doc/strongswan-5.9.14/LICENSE
+* /usr/share/doc/strongswan-5.9.14/NEWS
+* /usr/share/doc/strongswan-5.9.14/README
+* /usr/share/doc/strongswan-5.9.14/TODO
 * /usr/share/man/man1/pki---acert.1.gz
 * /usr/share/man/man1/pki---dn.1.gz
 * /usr/share/man/man1/pki---est.1.gz

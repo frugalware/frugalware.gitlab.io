@@ -1,28 +1,28 @@
 +++
 draft = false
-title = "pavucontrol 5.0-1"
-version = "5.0-1"
+title = "pavucontrol 6.0-1"
+version = "6.0-1"
 description = "PulseAudio Volume Control"
-date = "2021-08-19T10:16:55"
+date = "2024-07-20T20:09:34"
 aliases = "/packages/217680"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://freedesktop.org/software/pulseaudio/pavucontrol/"
 arch = "x86_64"
-size = "156664"
-usize = "1009800"
-sha1sum = "b3ecff3df1498d0ef11cc87702c57fd56d90749f"
-depends = "['gtkmm3', 'json-glib', 'libcanberra-gtk', 'pulseaudio>=8.0']"
+size = "162120"
+usize = "881648"
+sha1sum = "fb9bb443ec87de16c6cb5b498e5be498f01dc7e9"
+depends = "['gtkmm', 'json-glib', 'libcanberra-gtk', 'pulseaudio>=8.0']"
 +++
 ### Description: 
 PulseAudio Volume Control
 
 ### Files: 
 * /usr/bin/pavucontrol
-* /usr/share/applications/pavucontrol.desktop
-* /usr/share/doc/pavucontrol-5.0/LICENSE
-* /usr/share/doc/pavucontrol-5.0/README
-* /usr/share/doc/pavucontrol-5.0/README.html
-* /usr/share/doc/pavucontrol-5.0/style.css
+* /usr/share/applications/org.pulseaudio.pavucontrol.desktop
+* /usr/share/doc/pavucontrol-6.0/LICENSE
+* /usr/share/doc/pavucontrol/README
+* /usr/share/doc/pavucontrol/README.html
+* /usr/share/doc/pavucontrol/style.css
 * /usr/share/locale/as/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/ast/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/be/LC_MESSAGES/pavucontrol.mo
@@ -43,6 +43,7 @@ PulseAudio Volume Control
 * /usr/share/locale/hi/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/hr/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/hu/LC_MESSAGES/pavucontrol.mo
+* /usr/share/locale/id/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/it/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/ja/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/kk/LC_MESSAGES/pavucontrol.mo
@@ -59,6 +60,7 @@ PulseAudio Volume Control
 * /usr/share/locale/pl/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/pt/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/pavucontrol.mo
+* /usr/share/locale/ro/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/ru/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/si/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/sk/LC_MESSAGES/pavucontrol.mo
@@ -73,4 +75,4 @@ PulseAudio Volume Control
 * /usr/share/locale/uk/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/pavucontrol.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/pavucontrol.mo
-* /usr/share/pavucontrol/pavucontrol.glade
+* /usr/share/metainfo/org.pulseaudio.pavucontrol.metainfo.xml
