@@ -12,7 +12,7 @@ size = "461976"
 usize = "3160832"
 sha1sum = "4d3d0eee3aeb579502733711936e83f628fc29d1"
 depends = "['dbus>=1.10.10-4', 'libpulse', 'libsndfile>=1.0.26-3', 'libtool>=2.4.6-5']"
-reverse_depends = "['get_steam', 'pavucontrol', 'pavucontrol-qt', 'pulseaudio-avahi', 'pulseaudio-bluetooth', 'pulseaudio-lirc', 'pulseaudio-x11', 'qemu']"
+reverse_depends = "['get_steam', 'pavucontrol-qt', 'pulseaudio-avahi', 'pulseaudio-bluetooth', 'pulseaudio-lirc', 'pulseaudio-x11', 'qemu']"
 +++
 ### Description: 
 PulseAudio is a sound server with an advanced plugin system
