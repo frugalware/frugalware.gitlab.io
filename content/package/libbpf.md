@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libbpf 1.4.5-2"
-version = "1.4.5-2"
+title = "libbpf 1.4.5-3"
+version = "1.4.5-3"
 description = "Library for loading eBPF programs and reading and manipulating eBPF objects from user-space"
-date = "2024-07-20T16:35:47"
+date = "2024-07-21T09:02:00"
 aliases = "/packages/221542"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/libbpf/libbpf"
 arch = "x86_64"
-size = "238892"
+size = "238652"
 usize = "806030"
-sha1sum = "0c3f04e52168336eaad0daed4cebaa89cab5079d"
+sha1sum = "62b63a8fec4189c9f7d219d88dc409572d5d5909"
 depends = "['elfutils']"
 reverse_depends = "['iproute2', 'pahole', 'v4l-utils']"
 +++
