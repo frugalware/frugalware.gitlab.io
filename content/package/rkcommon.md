@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rkcommon 1.13.0-1"
-version = "1.13.0-1"
+title = "rkcommon 1.14.0-1"
+version = "1.14.0-1"
 description = "Common C++ infrastructure for oneAPI Rendering Toolkit"
-date = "2024-06-03T13:14:08"
+date = "2024-07-22T09:57:18"
 aliases = "/packages/220249"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/ospray/rkcommon"
 arch = "x86_64"
-size = "640948"
-usize = "2841587"
-sha1sum = "b9452004ddf1b9cb98c8aebf2d8d758baeb1e69c"
+size = "521348"
+usize = "2414010"
+sha1sum = "8bf8934fa9d463be5abfa4ce9d4b0bb86c4dc549"
 depends = "['intel-tbb']"
 reverse_depends = "['openvkl']"
 +++
@@ -95,13 +95,13 @@ Common C++ infrastructure for oneAPI Rendering Toolkit
 * /usr/include/rkcommon/utility/TimeStamp.h
 * /usr/include/rkcommon/utility/TransactionalValue.h
 * /usr/include/rkcommon/xml/XML.h
-* /usr/lib/cmake/rkcommon-1.13.0/FindTBB.cmake
-* /usr/lib/cmake/rkcommon-1.13.0/rkcommonConfig.cmake
-* /usr/lib/cmake/rkcommon-1.13.0/rkcommonConfigVersion.cmake
-* /usr/lib/cmake/rkcommon-1.13.0/rkcommon_Exports-release.cmake
-* /usr/lib/cmake/rkcommon-1.13.0/rkcommon_Exports.cmake
-* /usr/lib/cmake/rkcommon-1.13.0/rkcommon_macros.cmake
+* /usr/lib/cmake/rkcommon-1.14.0/FindTBB.cmake
+* /usr/lib/cmake/rkcommon-1.14.0/rkcommonConfig.cmake
+* /usr/lib/cmake/rkcommon-1.14.0/rkcommonConfigVersion.cmake
+* /usr/lib/cmake/rkcommon-1.14.0/rkcommon_Exports-release.cmake
+* /usr/lib/cmake/rkcommon-1.14.0/rkcommon_Exports.cmake
+* /usr/lib/cmake/rkcommon-1.14.0/rkcommon_macros.cmake
 * /usr/lib/librkcommon.so
 * /usr/lib/librkcommon.so.1
-* /usr/lib/librkcommon.so.1.13.0
-* /usr/share/doc/rkcommon-1.13.0/README.md
+* /usr/lib/librkcommon.so.1.14.0
+* /usr/share/doc/rkcommon-1.14.0/README.md
