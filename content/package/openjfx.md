@@ -48,5 +48,5 @@ Java OpenJFX client application platform (open-source implementation of JavaFX)
 * /usr/lib/jvm/java-22-openjdk/lib/libprism_common.so
 * /usr/lib/jvm/java-22-openjdk/lib/libprism_es2.so
 * /usr/lib/jvm/java-22-openjdk/lib/libprism_sw.so
-* /usr/share/doc/openjfx-22.0.1+7/LICENSE
-* /usr/share/doc/openjfx-22.0.1+7/README.md
+* /usr/share/doc/openjfx-22.0.2+4/LICENSE
+* /usr/share/doc/openjfx-22.0.2+4/README.md

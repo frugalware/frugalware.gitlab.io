@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ospray 3.1.0-1"
-version = "3.1.0-1"
+title = "ospray 3.1.0-2"
+version = "3.1.0-2"
 description = "A Ray Tracing Based Rendering Engine for High-Fidelity Visualization"
-date = "2024-06-03T18:42:33"
+date = "2024-07-22T12:17:31"
 aliases = "/packages/220251"
 categories = ['xlib-extra']
 upstreamurl = "https://www.ospray.org/"
 arch = "x86_64"
-size = "4676048"
-usize = "19138870"
-sha1sum = "4a48e8a17a02e37847e5b41ba82698e86709f23a"
+size = "4634196"
+usize = "18934580"
+sha1sum = "576df816a7774847b03b1a3a36c371bd3ade6e33"
 depends = "['benchmark>=1.8.5', 'glfw', 'ispc', 'libglu', 'openmpi', 'openvkl>=2.0.1', 'snappy']"
 +++
 ### Description: 

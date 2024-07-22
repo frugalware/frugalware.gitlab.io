@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "extreme-tuxracer 0.8.4-1"
-version = "0.8.4-1"
+title = "extreme-tuxracer 0.8.4-2"
+version = "0.8.4-2"
 description = "High speed arctic racing game based on Tux Racer"
-date = "2024-06-25T08:01:12"
+date = "2024-07-22T12:22:51"
 aliases = "/packages/30805"
 categories = ['games-extra']
 upstreamurl = "http://www.extremetuxracer.com"
 arch = "x86_64"
-size = "40816416"
-usize = "44088929"
-sha1sum = "ecca77b56f4e09e59c1736daae819fd0af2e6a74"
-depends = "['sfml>=2.5.0']"
+size = "40811684"
+usize = "44088961"
+sha1sum = "92267356b2d8882433b99edbc0ef4a15eafd616d"
+depends = "['sfml>=2.6.1']"
 +++
 ### Description: 
 High speed arctic racing game based on Tux Racer
