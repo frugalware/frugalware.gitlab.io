@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-orc 0.4.38-2"
-version = "0.4.38-2"
+title = "lib32-orc 0.4.39-1"
+version = "0.4.39-1"
 description = "The Oil Runtime Compiler ( 32bit )"
-date = "2024-05-16T03:32:23"
+date = "2024-07-22T14:32:16"
 aliases = "/packages/217940"
 categories = ['lib32-extra']
 upstreamurl = "http://gstreamer.freedesktop.org/"
 arch = "x86_64"
-size = "238488"
-usize = "1169623"
-sha1sum = "253a242fa760869e7b7e1a49adca8277c70b1fee"
+size = "231100"
+usize = "1157643"
+sha1sum = "2c515a0219d79d56c39e47840b23d29c2f9f49e2"
 depends = "[]"
 reverse_depends = "['lib32-libpulse']"
 +++
@@ -34,7 +34,6 @@ The Oil Runtime Compiler ( 32bit )
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orccompiler.h
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orcconstant.h
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orccpu.h
-* /usr/i686-frugalware-linux/include/orc-0.4/orc/orccpuinsn.h
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orcdebug.h
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orcemulateopcodes.h
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orcexecutor.h
@@ -59,9 +58,9 @@ The Oil Runtime Compiler ( 32bit )
 * /usr/i686-frugalware-linux/include/orc-0.4/orc/orcx86insn.h
 * /usr/lib32/liborc-0.4.so
 * /usr/lib32/liborc-0.4.so.0
-* /usr/lib32/liborc-0.4.so.0.38.0
+* /usr/lib32/liborc-0.4.so.0.39.0
 * /usr/lib32/liborc-test-0.4.so
 * /usr/lib32/liborc-test-0.4.so.0
-* /usr/lib32/liborc-test-0.4.so.0.38.0
+* /usr/lib32/liborc-test-0.4.so.0.39.0
 * /usr/lib32/pkgconfig/orc-0.4.pc
 * /usr/lib32/pkgconfig/orc-test-0.4.pc

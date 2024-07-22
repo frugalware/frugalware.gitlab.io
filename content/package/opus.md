@@ -12,7 +12,7 @@ size = "240172"
 usize = "609899"
 sha1sum = "0817d30c9ec3ebc9b1d7cc53e1b46861c10750a8"
 depends = "['glibc>=2.34']"
-reverse_depends = "['chromium-browser', 'gst1-plugins-bad-opus', 'gst1-plugins-base-opus', 'handbrake', 'jack2', 'kwave', 'mpd', 'mumble', 'qt5-webengine', 'qt5-webengine', 'qt6-webengine', 'spice', 'spice-glib', 'telegram-desktop', 'tox-core', 'virtualbox', 'vlc-opus', 'xrdp']"
+reverse_depends = "['chromium-browser', 'gst1-plugins-bad-opus', 'gst1-plugins-base-opus', 'handbrake', 'jack2', 'kwave', 'mpd', 'mumble', 'qt5-webengine', 'qt5-webengine', 'qt6-webengine', 'spice', 'spice-glib', 'telegram-desktop', 'tox-core', 'virtualbox', 'vlc-opus', 'warzone2100', 'xrdp']"
 +++
 ### Description: 
 codec designed for interactive speech and audio transmission over the Internet
