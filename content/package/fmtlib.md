@@ -12,7 +12,7 @@ size = "178044"
 usize = "741328"
 sha1sum = "69dc2bb77c5469af3d72c98085675b3f8b357eec"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['ccache', 'cppgir', 'easyeffects', 'easyrpg-player', 'mpd', 'opendht', 'openimageio', 'performous', 'telegram-desktop', 'warzone2100']"
+reverse_depends = "['ccache', 'cppgir', 'easyeffects', 'easyrpg-player', 'mpd', 'opendht', 'openimageio', 'performous', 'telegram-desktop']"
 +++
 ### Description: 
 Open-source formatting library for C++

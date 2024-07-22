@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjfx-doc 22.0.1+7-2"
-version = "22.0.1+7-2"
+title = "openjfx-doc 22.0.2+4-1"
+version = "22.0.2+4-1"
 description = "OpenJFX Documentation"
-date = "2024-06-09T15:36:37"
+date = "2024-07-22T13:14:52"
 aliases = "/packages/220280"
 categories = ['docs-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "12939040"
+size = "12932900"
 usize = "74933201"
-sha1sum = "a912a5f7342559982c38c8a7ceb6f6e546122862"
+sha1sum = "f99abc58a9e3f61d87f53ca54197f7f94ff2b859"
 depends = "[]"
 +++
 ### Description: 

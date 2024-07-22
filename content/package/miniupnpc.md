@@ -12,7 +12,7 @@ size = "251144"
 usize = "376680"
 sha1sum = "34bc42ba9481d539c95ceafd92117978ec357d61"
 depends = "['glibc']"
-reverse_depends = "['dante', 'eiskaltdc', 'transmission-cli', 'warzone2100']"
+reverse_depends = "['dante', 'eiskaltdc', 'transmission-cli']"
 +++
 ### Description: 
 A small UPnP client library/tool to access Internet Gateway Devices

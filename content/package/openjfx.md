@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjfx 22.0.1+7-2"
-version = "22.0.1+7-2"
+title = "openjfx 22.0.2+4-1"
+version = "22.0.2+4-1"
 description = "Java OpenJFX client application platform (open-source implementation of JavaFX)"
-date = "2024-06-09T15:36:37"
+date = "2024-07-22T13:14:52"
 aliases = "/packages/219023"
 categories = ['xlib-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "85512288"
-usize = "179542690"
-sha1sum = "6f017e2d0fff7b5ebb6dff6a071c68da16b06ded"
+size = "87330632"
+usize = "178260948"
+sha1sum = "5fed0edb84556f7e4ca1dfde457108f92ff59ed1"
 depends = "['ffmpeg4.4', 'gtk+2-libs', 'gtk+3', 'openjre-x']"
 +++
 ### Description: 

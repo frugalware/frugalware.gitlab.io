@@ -12,7 +12,7 @@ size = "103076"
 usize = "366923"
 sha1sum = "3c178b55b051c94a5f0eb44f7c3c237e137f6b9b"
 depends = "['readline>=8.0']"
-reverse_depends = "['lincity-ng', 'manaplus', 'netpanzer', 'solarus', 'supertux', 'warzone2100']"
+reverse_depends = "['lincity-ng', 'manaplus', 'netpanzer', 'solarus', 'supertux']"
 +++
 ### Description: 
 PhysicsFS is a library to provide abstract access to various archive

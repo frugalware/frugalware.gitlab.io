@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "darktable 4.6.1-1"
-version = "4.6.1-1"
+title = "darktable 4.8.0-1"
+version = "4.8.0-1"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2024-04-22T12:36:51"
+date = "2024-07-22T13:44:49"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "6434196"
-usize = "32354707"
-sha1sum = "592ac45f9ed8dbb2af5e25602315a13118787179"
+size = "6537272"
+usize = "31900694"
+sha1sum = "8cb602537fbef319bd8e1e5c1183cea86eaee3c9"
 depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.2.6', 'gnuplot', 'graphicsmagick', 'icu4c>=75.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
 reverse_depends = "['gimp']"
 +++
@@ -72,6 +72,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/libcolorchecker.so
 * /usr/lib/darktable/plugins/libcolorcontrast.so
 * /usr/lib/darktable/plugins/libcolorcorrection.so
+* /usr/lib/darktable/plugins/libcolorequal.so
 * /usr/lib/darktable/plugins/libcolorin.so
 * /usr/lib/darktable/plugins/libcolorize.so
 * /usr/lib/darktable/plugins/libcolormapping.so
@@ -85,6 +86,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/libdenoiseprofile.so
 * /usr/lib/darktable/plugins/libdiffuse.so
 * /usr/lib/darktable/plugins/libdither.so
+* /usr/lib/darktable/plugins/libenlargecanvas.so
 * /usr/lib/darktable/plugins/libequalizer.so
 * /usr/lib/darktable/plugins/libexposure.so
 * /usr/lib/darktable/plugins/libfilmic.so
@@ -111,6 +113,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/libnegadoctor.so
 * /usr/lib/darktable/plugins/libnlmeans.so
 * /usr/lib/darktable/plugins/liboverexposed.so
+* /usr/lib/darktable/plugins/liboverlay.so
 * /usr/lib/darktable/plugins/libprimaries.so
 * /usr/lib/darktable/plugins/libprofile_gamma.so
 * /usr/lib/darktable/plugins/librawdenoise.so
@@ -179,7 +182,6 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/lighttable/libviewswitcher.so
 * /usr/lib/darktable/plugins/lighttable/libview_toolbox.so
 * /usr/lib/darktable/views/libdarkroom.so
-* /usr/lib/darktable/views/libknight.so
 * /usr/lib/darktable/views/liblighttable.so
 * /usr/lib/darktable/views/libslideshow.so
 * /usr/lib/darktable/views/libtethering.so
@@ -391,6 +393,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/tools/basecurve/plot.basecurve
 * /usr/share/darktable/tools/basecurve/plot.tonecurve
 * /usr/share/darktable/tools/common.sh
+* /usr/share/darktable/tools/extract_wb_from_images.sh
 * /usr/share/darktable/tools/purge_from_cache.sh
 * /usr/share/darktable/tools/purge_non_existing_images.sh
 * /usr/share/darktable/tools/purge_unused_tags.sh
@@ -402,10 +405,10 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/watermarks/simple-text-shadow.svg
 * /usr/share/darktable/watermarks/simple-text.svg
 * /usr/share/darktable/wb_presets.json
-* /usr/share/doc/darktable-4.6.1/AUTHORS
-* /usr/share/doc/darktable-4.6.1/LICENSE
-* /usr/share/doc/darktable-4.6.1/README.md
-* /usr/share/doc/darktable-4.6.1/RELEASE_NOTES.md
+* /usr/share/doc/darktable-4.8.0/AUTHORS
+* /usr/share/doc/darktable-4.8.0/LICENSE
+* /usr/share/doc/darktable-4.8.0/README.md
+* /usr/share/doc/darktable-4.8.0/RELEASE_NOTES.md
 * /usr/share/doc/darktable/AUTHORS
 * /usr/share/doc/darktable/LICENSE
 * /usr/share/doc/darktable/README.md
@@ -437,7 +440,6 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/locale/ru/LC_MESSAGES/darktable.mo
 * /usr/share/locale/sl/LC_MESSAGES/darktable.mo
 * /usr/share/locale/sq/LC_MESSAGES/darktable.mo
-* /usr/share/locale/tr/LC_MESSAGES/darktable.mo
 * /usr/share/locale/uk/LC_MESSAGES/darktable.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/darktable.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/darktable.mo
