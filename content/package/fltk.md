@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fltk 1.3.8-3"
-version = "1.3.8-3"
+title = "fltk 1.3.9-1"
+version = "1.3.9-1"
 description = "FLTK is a cross-platform C++ GUI toolkit for X"
-date = "2024-05-08T23:12:43"
+date = "2024-07-22T11:44:15"
 aliases = "/packages/4220"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fltk.org/"
 arch = "x86_64"
-size = "1326384"
-usize = "7491883"
-sha1sum = "b75fd0649923d695fc733c7fd5b72985a37fba8f"
+size = "1333588"
+usize = "7513914"
+sha1sum = "323b3dfca15e2f0ff7d75e4607c44addc23328c1"
 depends = "['libglvnd', 'libjpeg-turbo', 'libpng>=1.6.20', 'libxft>=2.3.2-2', 'libxinerama>=1.1.3-2']"
 reverse_depends = "['htmldoc', 'octave', 'pinentry-fltk']"
 +++
@@ -177,18 +177,18 @@ FLTK is a cross-platform C++ GUI toolkit for X
 * /usr/lib/libfltk_images.a
 * /usr/lib/libfltk_images.so
 * /usr/lib/libfltk_images.so.1.3
-* /usr/share/doc/fltk-1.3.8/CHANGES
-* /usr/share/doc/fltk-1.3.8/COPYING
-* /usr/share/doc/fltk-1.3.8/CREDITS
-* /usr/share/doc/fltk-1.3.8/KNOWN_BUGS.html
-* /usr/share/doc/fltk-1.3.8/README
-* /usr/share/doc/fltk-1.3.8/README.abi-version.txt
-* /usr/share/doc/fltk-1.3.8/README.bundled-libs.txt
-* /usr/share/doc/fltk-1.3.8/README.Cairo.txt
-* /usr/share/doc/fltk-1.3.8/README.CMake.txt
-* /usr/share/doc/fltk-1.3.8/README.MSWindows.txt
-* /usr/share/doc/fltk-1.3.8/README.OSX.txt
-* /usr/share/doc/fltk-1.3.8/README.Unix.txt
+* /usr/share/doc/fltk-1.3.9/CHANGES
+* /usr/share/doc/fltk-1.3.9/COPYING
+* /usr/share/doc/fltk-1.3.9/CREDITS
+* /usr/share/doc/fltk-1.3.9/KNOWN_BUGS.html
+* /usr/share/doc/fltk-1.3.9/README
+* /usr/share/doc/fltk-1.3.9/README.abi-version.txt
+* /usr/share/doc/fltk-1.3.9/README.bundled-libs.txt
+* /usr/share/doc/fltk-1.3.9/README.Cairo.txt
+* /usr/share/doc/fltk-1.3.9/README.CMake.txt
+* /usr/share/doc/fltk-1.3.9/README.MSWindows.txt
+* /usr/share/doc/fltk-1.3.9/README.OSX.txt
+* /usr/share/doc/fltk-1.3.9/README.Unix.txt
 * /usr/share/doc/fltk/examples/adjuster.cxx
 * /usr/share/doc/fltk/examples/animated.cxx
 * /usr/share/doc/fltk/examples/arc.cxx

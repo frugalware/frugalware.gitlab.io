@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4676048"
 usize = "19138870"
 sha1sum = "4a48e8a17a02e37847e5b41ba82698e86709f23a"
-depends = "['benchmark>=1.8.4', 'glfw', 'ispc', 'libglu', 'openmpi', 'openvkl>=2.0.1', 'snappy']"
+depends = "['benchmark>=1.8.5', 'glfw', 'ispc', 'libglu', 'openmpi', 'openvkl>=2.0.1', 'snappy']"
 +++
 ### Description: 
 A Ray Tracing Based Rendering Engine for High-Fidelity Visualization

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfprint 1.94.6-1"
-version = "1.94.6-1"
+title = "libfprint 1.94.7-1"
+version = "1.94.7-1"
 description = "Fingerprint Reader Library"
-date = "2024-01-11T09:21:42"
+date = "2024-07-22T11:21:52"
 aliases = "/packages/74502"
 categories = ['xlib-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/fprint/libfprint"
 arch = "x86_64"
-size = "6842452"
-usize = "24916253"
-sha1sum = "b1c5fca309fa53d6d8f7b840b9250fa6121a3839"
+size = "6894524"
+usize = "25226205"
+sha1sum = "fd92e4100990d2eec6738ef49315a2a314855147"
 depends = "['gobject-introspection', 'libgusb', 'nss', 'pixman']"
 reverse_depends = "['fprintd']"
 +++
@@ -35,12 +35,12 @@ Fingerprint Reader Library
 * /usr/lib/libfprint/installed-tests/libfprint-2/umockdev-test.py
 * /usr/lib/pkgconfig/libfprint-2.pc
 * /usr/lib/udev/rules.d/70-libfprint-2.rules
-* /usr/share/doc/libfprint-1.94.6/AUTHORS
-* /usr/share/doc/libfprint-1.94.6/COPYING
-* /usr/share/doc/libfprint-1.94.6/INSTALL
-* /usr/share/doc/libfprint-1.94.6/NEWS
-* /usr/share/doc/libfprint-1.94.6/README.md
-* /usr/share/doc/libfprint-1.94.6/THANKS
+* /usr/share/doc/libfprint-1.94.7/AUTHORS
+* /usr/share/doc/libfprint-1.94.7/COPYING
+* /usr/share/doc/libfprint-1.94.7/INSTALL
+* /usr/share/doc/libfprint-1.94.7/NEWS
+* /usr/share/doc/libfprint-1.94.7/README.md
+* /usr/share/doc/libfprint-1.94.7/THANKS
 * /usr/share/gir-1.0/FPrint-2.0.gir
 * /usr/share/gtk-doc/html/libfprint-2/advanced-topics.html
 * /usr/share/gtk-doc/html/libfprint-2/api-index.html
@@ -88,13 +88,17 @@ Fingerprint Reader Library
 * /usr/share/installed-tests/libfprint-2/driver-aes2501.test
 * /usr/share/installed-tests/libfprint-2/driver-aes3500.test
 * /usr/share/installed-tests/libfprint-2/driver-egis0570.test
+* /usr/share/installed-tests/libfprint-2/driver-egismoc-05a1.test
+* /usr/share/installed-tests/libfprint-2/driver-egismoc.test
 * /usr/share/installed-tests/libfprint-2/driver-elan-cobo.test
 * /usr/share/installed-tests/libfprint-2/driver-elan.test
 * /usr/share/installed-tests/libfprint-2/driver-elanmoc.test
 * /usr/share/installed-tests/libfprint-2/driver-elanspi.test
+* /usr/share/installed-tests/libfprint-2/driver-focaltech_moc.test
 * /usr/share/installed-tests/libfprint-2/driver-fpcmoc.test
 * /usr/share/installed-tests/libfprint-2/driver-goodixmoc.test
 * /usr/share/installed-tests/libfprint-2/driver-nb1010.test
+* /usr/share/installed-tests/libfprint-2/driver-realtek.test
 * /usr/share/installed-tests/libfprint-2/driver-synaptics.test
 * /usr/share/installed-tests/libfprint-2/driver-upektc_img-tcs1s.test
 * /usr/share/installed-tests/libfprint-2/driver-upektc_img.test
@@ -107,6 +111,12 @@ Fingerprint Reader Library
 * /usr/share/installed-tests/libfprint-2/egis0570/capture.pcapng
 * /usr/share/installed-tests/libfprint-2/egis0570/capture.png
 * /usr/share/installed-tests/libfprint-2/egis0570/device
+* /usr/share/installed-tests/libfprint-2/egismoc-05a1/custom.pcapng
+* /usr/share/installed-tests/libfprint-2/egismoc-05a1/custom.py
+* /usr/share/installed-tests/libfprint-2/egismoc-05a1/device
+* /usr/share/installed-tests/libfprint-2/egismoc/custom.pcapng
+* /usr/share/installed-tests/libfprint-2/egismoc/custom.py
+* /usr/share/installed-tests/libfprint-2/egismoc/device
 * /usr/share/installed-tests/libfprint-2/elan-cobo/capture.pcapng
 * /usr/share/installed-tests/libfprint-2/elan-cobo/capture.png
 * /usr/share/installed-tests/libfprint-2/elan-cobo/device
@@ -121,6 +131,9 @@ Fingerprint Reader Library
 * /usr/share/installed-tests/libfprint-2/elanspi/capture.png
 * /usr/share/installed-tests/libfprint-2/elanspi/device-hidraw
 * /usr/share/installed-tests/libfprint-2/elanspi/device-spi
+* /usr/share/installed-tests/libfprint-2/focaltech_moc/custom.pcapng
+* /usr/share/installed-tests/libfprint-2/focaltech_moc/custom.py
+* /usr/share/installed-tests/libfprint-2/focaltech_moc/device
 * /usr/share/installed-tests/libfprint-2/fpcmoc/custom.pcapng
 * /usr/share/installed-tests/libfprint-2/fpcmoc/custom.py
 * /usr/share/installed-tests/libfprint-2/fpcmoc/device
@@ -141,6 +154,9 @@ Fingerprint Reader Library
 * /usr/share/installed-tests/libfprint-2/prints/tented_arch.png
 * /usr/share/installed-tests/libfprint-2/prints/whorl.jpg
 * /usr/share/installed-tests/libfprint-2/prints/whorl.png
+* /usr/share/installed-tests/libfprint-2/realtek/custom.pcapng
+* /usr/share/installed-tests/libfprint-2/realtek/custom.py
+* /usr/share/installed-tests/libfprint-2/realtek/device
 * /usr/share/installed-tests/libfprint-2/synaptics/custom.pcapng
 * /usr/share/installed-tests/libfprint-2/synaptics/custom.py
 * /usr/share/installed-tests/libfprint-2/synaptics/device

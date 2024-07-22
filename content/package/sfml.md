@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sfml 2.5.1-4"
-version = "2.5.1-4"
+title = "sfml 2.6.1-1"
+version = "2.6.1-1"
 description = "SFML is a free multimedia C++ API."
-date = "2022-09-19T12:22:18"
+date = "2024-07-22T11:55:51"
 aliases = "/packages/218691"
 categories = ['xlib-extra']
 upstreamurl = "http://sfml-dev.org/"
 arch = "x86_64"
-size = "347640"
-usize = "1693442"
-sha1sum = "3bbdfac4ada544ee19ae8cad1e39b8b611e7601e"
-depends = "['flac>=1.4.0', 'freetype2', 'glew>=1.10.0', 'libjpeg-turbo', 'libsndfile', 'libudev', 'libxrandr', 'openal', 'xcb-util-image']"
+size = "416164"
+usize = "1888705"
+sha1sum = "3603839f0067eb22b7f90a39cd8da6d9fa4b7c39"
+depends = "['flac>=1.4.0', 'freetype2', 'glew>=1.10.0', 'libjpeg-turbo', 'libsndfile', 'libudev', 'libxcursor', 'libxrandr', 'openal', 'xcb-util-image']"
 reverse_depends = "['extreme-tuxracer']"
 +++
 ### Description: 
@@ -122,7 +122,9 @@ SFML is a free multimedia C++ API.
 * /usr/include/SFML/Window/Sensor.hpp
 * /usr/include/SFML/Window/Touch.hpp
 * /usr/include/SFML/Window/VideoMode.hpp
+* /usr/include/SFML/Window/Vulkan.hpp
 * /usr/include/SFML/Window/Window.hpp
+* /usr/include/SFML/Window/WindowBase.hpp
 * /usr/include/SFML/Window/WindowHandle.hpp
 * /usr/include/SFML/Window/WindowStyle.hpp
 * /usr/lib/cmake/SFML/SFMLConfig.cmake
@@ -131,25 +133,25 @@ SFML is a free multimedia C++ API.
 * /usr/lib/cmake/SFML/SFMLSharedTargets-release.cmake
 * /usr/lib/cmake/SFML/SFMLSharedTargets.cmake
 * /usr/lib/libsfml-audio.so
-* /usr/lib/libsfml-audio.so.2.5
-* /usr/lib/libsfml-audio.so.2.5.1
+* /usr/lib/libsfml-audio.so.2.6
+* /usr/lib/libsfml-audio.so.2.6.1
 * /usr/lib/libsfml-graphics.so
-* /usr/lib/libsfml-graphics.so.2.5
-* /usr/lib/libsfml-graphics.so.2.5.1
+* /usr/lib/libsfml-graphics.so.2.6
+* /usr/lib/libsfml-graphics.so.2.6.1
 * /usr/lib/libsfml-network.so
-* /usr/lib/libsfml-network.so.2.5
-* /usr/lib/libsfml-network.so.2.5.1
+* /usr/lib/libsfml-network.so.2.6
+* /usr/lib/libsfml-network.so.2.6.1
 * /usr/lib/libsfml-system.so
-* /usr/lib/libsfml-system.so.2.5
-* /usr/lib/libsfml-system.so.2.5.1
+* /usr/lib/libsfml-system.so.2.6
+* /usr/lib/libsfml-system.so.2.6.1
 * /usr/lib/libsfml-window.so
-* /usr/lib/libsfml-window.so.2.5
-* /usr/lib/libsfml-window.so.2.5.1
+* /usr/lib/libsfml-window.so.2.6
+* /usr/lib/libsfml-window.so.2.6.1
 * /usr/lib/pkgconfig/sfml-all.pc
 * /usr/lib/pkgconfig/sfml-audio.pc
 * /usr/lib/pkgconfig/sfml-graphics.pc
 * /usr/lib/pkgconfig/sfml-network.pc
 * /usr/lib/pkgconfig/sfml-system.pc
 * /usr/lib/pkgconfig/sfml-window.pc
-* /usr/share/SFML/license.md
-* /usr/share/SFML/readme.md
+* /usr/share/doc/SFML/license.md
+* /usr/share/doc/SFML/readme.md

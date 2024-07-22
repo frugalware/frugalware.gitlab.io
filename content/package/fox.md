@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fox 1.7.79-1"
-version = "1.7.79-1"
+title = "fox 1.7.84-1"
+version = "1.7.84-1"
 description = "FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively."
-date = "2022-04-26T13:50:24"
+date = "2024-07-22T11:48:25"
 aliases = "/packages/3598"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fox-toolkit.org/"
 arch = "x86_64"
-size = "4251976"
-usize = "11253229"
-sha1sum = "a32b4529f4a188afd51a3312b56398d06ce0973b"
+size = "4305104"
+usize = "11307873"
+sha1sum = "56403c785ef5adf6155f1d3d1f206d43eb7f8903"
 depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff', 'libxcursor', 'libxft', 'libxi', 'libxrandr']"
 +++
 ### Description: 
@@ -71,6 +71,7 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXCalendarView.h
 * /usr/include/fox-1.7/FXCallback.h
 * /usr/include/fox-1.7/FXCanvas.h
+* /usr/include/fox-1.7/fxchar.h
 * /usr/include/fox-1.7/FXCheckButton.h
 * /usr/include/fox-1.7/FXChoiceBox.h
 * /usr/include/fox-1.7/FXColorBar.h
@@ -200,6 +201,8 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXImage.h
 * /usr/include/fox-1.7/FXImageFrame.h
 * /usr/include/fox-1.7/FXImageView.h
+* /usr/include/fox-1.7/FXINI.h
+* /usr/include/fox-1.7/FXINIFile.h
 * /usr/include/fox-1.7/FXInputDialog.h
 * /usr/include/fox-1.7/FXIO.h
 * /usr/include/fox-1.7/FXIOBuffer.h
@@ -220,6 +223,8 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXListBox.h
 * /usr/include/fox-1.7/FXLocale.h
 * /usr/include/fox-1.7/FXMainWindow.h
+* /usr/include/fox-1.7/FXMappedFile.h
+* /usr/include/fox-1.7/FXMarkedPtr.h
 * /usr/include/fox-1.7/FXMat2d.h
 * /usr/include/fox-1.7/FXMat2f.h
 * /usr/include/fox-1.7/FXMat3d.h
@@ -231,7 +236,6 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXMDIButton.h
 * /usr/include/fox-1.7/FXMDIChild.h
 * /usr/include/fox-1.7/FXMDIClient.h
-* /usr/include/fox-1.7/FXMemMap.h
 * /usr/include/fox-1.7/FXMemoryStream.h
 * /usr/include/fox-1.7/FXMenuBar.h
 * /usr/include/fox-1.7/FXMenuButton.h
@@ -252,6 +256,7 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXOptionMenu.h
 * /usr/include/fox-1.7/FXPacker.h
 * /usr/include/fox-1.7/FXParallel.h
+* /usr/include/fox-1.7/FXParseBuffer.h
 * /usr/include/fox-1.7/FXPath.h
 * /usr/include/fox-1.7/FXPCXIcon.h
 * /usr/include/fox-1.7/FXPCXImage.h
@@ -386,15 +391,15 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/xincs.h
 * /usr/lib/libCHART-1.7.so
 * /usr/lib/libCHART-1.7.so.0
-* /usr/lib/libCHART-1.7.so.0.0.79
+* /usr/lib/libCHART-1.7.so.0.0.84
 * /usr/lib/libFOX-1.7.so
 * /usr/lib/libFOX-1.7.so.0
-* /usr/lib/libFOX-1.7.so.0.0.79
+* /usr/lib/libFOX-1.7.so.0.0.84
 * /usr/lib/pkgconfig/fox17.pc
-* /usr/share/doc/fox-1.7.79/AUTHORS
-* /usr/share/doc/fox-1.7.79/INSTALL
-* /usr/share/doc/fox-1.7.79/LICENSE
-* /usr/share/doc/fox-1.7.79/README
+* /usr/share/doc/fox-1.7.84/AUTHORS
+* /usr/share/doc/fox-1.7.84/INSTALL
+* /usr/share/doc/fox-1.7.84/LICENSE
+* /usr/share/doc/fox-1.7.84/README
 * /usr/share/doc/fox-1.7/html/adie.html
 * /usr/share/doc/fox-1.7/html/app.html
 * /usr/share/doc/fox-1.7/html/art/bigpenguin.png

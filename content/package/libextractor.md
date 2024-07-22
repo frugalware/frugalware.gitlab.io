@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libextractor 1.11-4"
-version = "1.11-4"
+title = "libextractor 1.13-1"
+version = "1.13-1"
 description = "libextractor is a library used to extract meta-data from files of arbitrary type"
-date = "2023-11-07T11:13:31"
+date = "2024-07-22T11:40:37"
 aliases = "/packages/60286"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnu.org/software/libextractor/"
 arch = "x86_64"
-size = "194792"
-usize = "1031832"
-sha1sum = "659e26fc3129f0daa0df0cf210d3899b7eb735ce"
+size = "208724"
+usize = "889686"
+sha1sum = "dfec83b96ac035dc6f608213f69f6645c8b75f3e"
 depends = "['exiv2>=0.28.1', 'expat', 'gtk+2>=2.20.1', 'libgsf', 'libstdc++', 'libtool', 'libvorbis', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxext>=1.0.99.4-1', 'zlib>=1.2.12']"
 reverse_depends = "['gnunet']"
 +++
@@ -26,6 +26,7 @@ libextractor is a library used to extract meta-data from files of arbitrary type
 * /usr/lib/libextractor/libextractor_archive.so
 * /usr/lib/libextractor/libextractor_deb.so
 * /usr/lib/libextractor/libextractor_dvi.so
+* /usr/lib/libextractor/libextractor_elf.so
 * /usr/lib/libextractor/libextractor_exiv2.so
 * /usr/lib/libextractor/libextractor_it.so
 * /usr/lib/libextractor/libextractor_jpeg.so
@@ -39,6 +40,7 @@ libextractor is a library used to extract meta-data from files of arbitrary type
 * /usr/lib/libextractor/libextractor_pdf.so
 * /usr/lib/libextractor/libextractor_png.so
 * /usr/lib/libextractor/libextractor_ps.so
+* /usr/lib/libextractor/libextractor_real.so
 * /usr/lib/libextractor/libextractor_riff.so
 * /usr/lib/libextractor/libextractor_s3m.so
 * /usr/lib/libextractor/libextractor_sid.so
@@ -51,13 +53,13 @@ libextractor is a library used to extract meta-data from files of arbitrary type
 * /usr/lib/libextractor_common.so.1
 * /usr/lib/libextractor_common.so.1.0.0
 * /usr/lib/pkgconfig/libextractor.pc
-* /usr/share/doc/libextractor-1.11/AUTHORS
-* /usr/share/doc/libextractor-1.11/ChangeLog
-* /usr/share/doc/libextractor-1.11/COPYING
-* /usr/share/doc/libextractor-1.11/INSTALL
-* /usr/share/doc/libextractor-1.11/NEWS
-* /usr/share/doc/libextractor-1.11/README
-* /usr/share/doc/libextractor-1.11/TODO
+* /usr/share/doc/libextractor-1.13/AUTHORS
+* /usr/share/doc/libextractor-1.13/ChangeLog
+* /usr/share/doc/libextractor-1.13/COPYING
+* /usr/share/doc/libextractor-1.13/INSTALL
+* /usr/share/doc/libextractor-1.13/NEWS
+* /usr/share/doc/libextractor-1.13/README
+* /usr/share/doc/libextractor-1.13/TODO
 * /usr/share/info/libextractor.info.gz
 * /usr/share/locale/da/LC_MESSAGES/libextractor.mo
 * /usr/share/locale/de/LC_MESSAGES/libextractor.mo

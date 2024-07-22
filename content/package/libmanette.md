@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmanette 0.2.6-3"
-version = "0.2.6-3"
+title = "libmanette 0.2.7-1"
+version = "0.2.7-1"
 description = "Simple GObject game controller library"
-date = "2023-07-10T08:27:57"
+date = "2024-07-22T11:34:11"
 aliases = "/packages/220300"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "41568"
-usize = "286822"
-sha1sum = "7ea70efc2de01ea0707ed74cfa55ee9011f3d60f"
+size = "42732"
+usize = "280275"
+sha1sum = "efd9351035713147c53876bf757c9bd70acb997f"
 depends = "['libevdev', 'libgudev']"
 reverse_depends = "['webkit-gtk3']"
 +++
@@ -29,9 +29,9 @@ Simple GObject game controller library
 * /usr/lib/libmanette-0.2.so
 * /usr/lib/libmanette-0.2.so.0
 * /usr/lib/pkgconfig/manette-0.2.pc
-* /usr/share/doc/libmanette-0.2.6/COPYING
-* /usr/share/doc/libmanette-0.2.6/NEWS
-* /usr/share/doc/libmanette-0.2.6/README.md
+* /usr/share/doc/libmanette-0.2.7/COPYING
+* /usr/share/doc/libmanette-0.2.7/NEWS
+* /usr/share/doc/libmanette-0.2.7/README.md
 * /usr/share/gir-1.0/Manette-0.2.gir
 * /usr/share/vala/vapi/manette-0.2.deps
 * /usr/share/vala/vapi/manette-0.2.vapi
