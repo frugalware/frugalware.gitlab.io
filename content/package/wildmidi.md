@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wildmidi 0.4.4-2"
-version = "0.4.4-2"
+title = "wildmidi 0.4.6-1"
+version = "0.4.6-1"
 description = "A midi processing library and a midi player using the gus patch set."
-date = "2022-05-17T12:37:54"
+date = "2024-07-22T09:49:45"
 aliases = "/packages/23206"
 categories = ['xlib-extra']
 upstreamurl = "https://sourceforge.net/projects/wildmidi"
 arch = "x86_64"
-size = "103064"
-usize = "217703"
-sha1sum = "64e9e115d44e259f7d6fff14b737f4c3f51bd90f"
+size = "105844"
+usize = "207084"
+sha1sum = "1620bab5921e4b525f87c3bab1397e944be388d1"
 depends = "['alsa-lib>=1.1.2-2', 'openal']"
 reverse_depends = "['gst1-plugins-bad-wildmidi', 'mpd']"
 +++
@@ -28,8 +28,8 @@ A midi processing library and a midi player using the gus patch set.
 * /usr/lib/libWildMidi.so.2
 * /usr/lib/libWildMidi.so.2.1.0
 * /usr/lib/pkgconfig/wildmidi.pc
-* /usr/share/doc/wildmidi-0.4.4/COPYING
-* /usr/share/doc/wildmidi-0.4.4/README.md
+* /usr/share/doc/wildmidi-0.4.6/COPYING
+* /usr/share/doc/wildmidi-0.4.6/README.md
 * /usr/share/man/man1/wildmidi.1.gz
 * /usr/share/man/man3/WildMidi_ClearError.3.gz
 * /usr/share/man/man3/WildMidi_Close.3.gz

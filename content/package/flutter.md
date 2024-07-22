@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flutter 3.22.2-1"
-version = "3.22.2-1"
+title = "flutter 3.22.3-1"
+version = "3.22.3-1"
 description = "A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android."
-date = "2024-06-30T15:10:51"
+date = "2024-07-22T09:22:32"
 aliases = "/packages/220938"
 categories = ['devel-extra']
 upstreamurl = "https://flutter.dev"
 arch = "x86_64"
-size = "759051208"
-usize = "1786206561"
-sha1sum = "04e2d24775f848853e3ca1eb85cb098c7ef115c3"
+size = "753264004"
+usize = "1781260493"
+sha1sum = "1c8f28d861969a6c33accd581c93982b86823142"
 depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
 ### Description: 
@@ -42,40 +42,24 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.git/info/refs
 * /opt/flutter/.git/logs/HEAD
 * /opt/flutter/.git/logs/refs/heads/stable
-* /opt/flutter/.git/logs/refs/remotes/origin/3.32
-* /opt/flutter/.git/logs/refs/remotes/origin/beta
-* /opt/flutter/.git/logs/refs/remotes/origin/dds_from_sdk
-* /opt/flutter/.git/logs/refs/remotes/origin/dependabot/github_actions/codecov/codecov-action-4.5.0
-* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.23-candidate.13
+* /opt/flutter/.git/logs/refs/remotes/origin/changelog-update
 * /opt/flutter/.git/logs/refs/remotes/origin/HEAD
 * /opt/flutter/.git/logs/refs/remotes/origin/main
 * /opt/flutter/.git/logs/refs/remotes/origin/master
-* /opt/flutter/.git/logs/refs/remotes/origin/mdebbar-patch-1
-* /opt/flutter/.git/logs/refs/remotes/origin/reidbaker-postmortem-android-14-platform-views-background
-* /opt/flutter/.git/logs/refs/remotes/origin/revert-150147-revert-149471-as-gesture
 * /opt/flutter/.git/objects/info/commit-graph
 * /opt/flutter/.git/objects/info/packs
-* /opt/flutter/.git/objects/pack/pack-7b14083be7e8ef3da97df26f15c412c3c2db26a9.idx
-* /opt/flutter/.git/objects/pack/pack-7b14083be7e8ef3da97df26f15c412c3c2db26a9.pack
-* /opt/flutter/.git/objects/pack/pack-7b14083be7e8ef3da97df26f15c412c3c2db26a9.rev
-* /opt/flutter/.git/objects/pack/pack-8da36681d7430f199b5962cbc1f84e91961deca9.idx
-* /opt/flutter/.git/objects/pack/pack-8da36681d7430f199b5962cbc1f84e91961deca9.pack
-* /opt/flutter/.git/objects/pack/pack-8da36681d7430f199b5962cbc1f84e91961deca9.rev
+* /opt/flutter/.git/objects/pack/pack-0e9bb6a94a2adb56df4a4ee8c264c9e37c860a22.idx
+* /opt/flutter/.git/objects/pack/pack-0e9bb6a94a2adb56df4a4ee8c264c9e37c860a22.pack
+* /opt/flutter/.git/objects/pack/pack-0e9bb6a94a2adb56df4a4ee8c264c9e37c860a22.rev
+* /opt/flutter/.git/objects/pack/pack-35381f7ea5146c3c513a6596bf7e481d9e18dbe4.idx
+* /opt/flutter/.git/objects/pack/pack-35381f7ea5146c3c513a6596bf7e481d9e18dbe4.pack
+* /opt/flutter/.git/objects/pack/pack-35381f7ea5146c3c513a6596bf7e481d9e18dbe4.rev
 * /opt/flutter/.git/ORIG_HEAD
 * /opt/flutter/.git/packed-refs
-* /opt/flutter/.git/refs/remotes/origin/3.32
-* /opt/flutter/.git/refs/remotes/origin/beta
-* /opt/flutter/.git/refs/remotes/origin/dds_from_sdk
-* /opt/flutter/.git/refs/remotes/origin/dependabot/github_actions/codecov/codecov-action-4.5.0
-* /opt/flutter/.git/refs/remotes/origin/flutter-3.23-candidate.13
+* /opt/flutter/.git/refs/remotes/origin/changelog-update
 * /opt/flutter/.git/refs/remotes/origin/HEAD
 * /opt/flutter/.git/refs/remotes/origin/main
 * /opt/flutter/.git/refs/remotes/origin/master
-* /opt/flutter/.git/refs/remotes/origin/mdebbar-patch-1
-* /opt/flutter/.git/refs/remotes/origin/reidbaker-postmortem-android-14-platform-views-background
-* /opt/flutter/.git/refs/remotes/origin/revert-150147-revert-149471-as-gesture
-* /opt/flutter/.git/refs/tags/3.23.0-0.1.pre
-* /opt/flutter/.git/refs/tags/3.23.0-13.0.pre
 * /opt/flutter/.gitattributes
 * /opt/flutter/.github/dependabot.yml
 * /opt/flutter/.github/ISSUE_TEMPLATE/10_feature.yml
@@ -274,7 +258,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.pub-preload-cache/test_api-0.7.0.tar.gz
 * /opt/flutter/.pub-preload-cache/test_core-0.6.0.tar.gz
 * /opt/flutter/.pub-preload-cache/typed_data-1.3.2.tar.gz
-* /opt/flutter/.pub-preload-cache/unified_analytics-5.8.8+1.tar.gz
+* /opt/flutter/.pub-preload-cache/unified_analytics-5.8.8+2.tar.gz
 * /opt/flutter/.pub-preload-cache/url_launcher-6.2.5.tar.gz
 * /opt/flutter/.pub-preload-cache/url_launcher_android-6.3.0.tar.gz
 * /opt/flutter/.pub-preload-cache/url_launcher_ios-6.2.5.tar.gz
@@ -1867,7 +1851,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/canvas.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/codecs.dart
-* /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/dart_js_conversion.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/filters.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/font_collection.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/image.dart
@@ -1904,7 +1887,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/surface.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_impl/skwasm_impl/vertices.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_stub/skwasm_stub.dart
-* /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_stub/skwasm_stub/dart_js_conversion.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_skwasm_stub/skwasm_stub/renderer.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_web_locale_keymap/web_locale_keymap.dart
 * /opt/flutter/bin/cache/flutter_web_sdk/lib/_web_locale_keymap/web_locale_keymap/key_mappings.g.dart
@@ -10539,6 +10521,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/TESTOWNERS
 * /opt/flutter/version
 * /usr/bin/flutter
-* /usr/share/doc/flutter-3.22.2/AUTHORS
-* /usr/share/doc/flutter-3.22.2/LICENSE
-* /usr/share/doc/flutter-3.22.2/README.md
+* /usr/share/doc/flutter-3.22.3/AUTHORS
+* /usr/share/doc/flutter-3.22.3/LICENSE
+* /usr/share/doc/flutter-3.22.3/README.md

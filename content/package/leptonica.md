@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "leptonica 1.83.0-1"
-version = "1.83.0-1"
+title = "leptonica 1.84.1-1"
+version = "1.84.1-1"
 description = "Software that is broadly useful for image processing and image analysis applications"
-date = "2023-01-23T09:39:07"
+date = "2024-07-22T09:42:35"
 aliases = "/packages/219346"
 categories = ['xlib-extra']
 upstreamurl = "http://www.leptonica.com"
 arch = "x86_64"
-size = "1159816"
-usize = "3706313"
-sha1sum = "d42560e2bed61180e575c3b919e6e48b7fed5320"
+size = "1182456"
+usize = "3673373"
+sha1sum = "92f996d0d2d555e8aafc79fd83008964bdf721de"
 depends = "['libgif', 'libjpeg-turbo', 'libpng', 'libtiff']"
 reverse_depends = "['tesseract-ocr']"
 +++
@@ -70,5 +70,5 @@ Software that is broadly useful for image processing and image analysis applicat
 * /usr/lib/libleptonica.so.6
 * /usr/lib/libleptonica.so.6.0.0
 * /usr/lib/pkgconfig/lept.pc
-* /usr/share/doc/leptonica-1.83.0/README.html
-* /usr/share/doc/leptonica-1.83.0/README.md
+* /usr/share/doc/leptonica-1.84.1/README.html
+* /usr/share/doc/leptonica-1.84.1/README.md

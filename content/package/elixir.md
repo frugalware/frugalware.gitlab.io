@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elixir 1.16.3-1"
-version = "1.16.3-1"
+title = "elixir 1.17.2-1"
+version = "1.17.2-1"
 description = "a functional meta-programming aware language built on top of the Erlang VM"
-date = "2024-06-10T09:57:54"
+date = "2024-07-22T09:34:20"
 aliases = "/packages/219629"
 categories = ['devel-extra']
 upstreamurl = "http://elixir-lang.org"
 arch = "x86_64"
-size = "5017080"
-usize = "7492043"
-sha1sum = "83d1bb1c503109f5f4c5fa1125d4cb409b105366"
+size = "5114784"
+usize = "7624300"
+sha1sum = "e10407b2c8fecc8f437f8a125d1086d7bd225dd5"
 depends = "['erlang>=26.1']"
 +++
 ### Description: 
@@ -78,6 +78,7 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Date.Range.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.DateTime.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Dict.beam
+* /usr/lib/elixir/lib/elixir/ebin/Elixir.Duration.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.DynamicSupervisor.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Enum.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Enum.EmptyError.beam
@@ -120,6 +121,7 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.Date.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.Date.Range.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.DateTime.beam
+* /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.Duration.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.Error.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.Float.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Inspect.Function.beam
@@ -177,16 +179,15 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.MatchError.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.MismatchedDelimiterError.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.beam
+* /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Behaviour.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.LocalsTracker.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.ParallelChecker.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.beam
-* /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Behaviour.beam
-* /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Error.beam
+* /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Descr.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Expr.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Helpers.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Of.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Pattern.beam
-* /usr/lib/elixir/lib/elixir/ebin/Elixir.Module.Types.Unify.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.NaiveDateTime.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.Node.beam
 * /usr/lib/elixir/lib/elixir/ebin/Elixir.OptionParser.beam
@@ -310,6 +311,7 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.Formatter.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.MultiError.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.OnExitHandler.beam
+* /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.OnExitHandler.Supervisor.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.Runner.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.RunnerStats.beam
 * /usr/lib/elixir/lib/ex_unit/ebin/Elixir.ExUnit.Server.beam
@@ -448,6 +450,7 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Profile.Cprof.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Profile.Eprof.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Profile.Fprof.beam
+* /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Profile.Tprof.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Release.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Release.Init.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Tasks.Run.beam
@@ -458,10 +461,10 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.TasksServer.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Utils.beam
 * /usr/lib/elixir/lib/mix/ebin/mix.app
-* /usr/share/doc/elixir-1.16.3/LICENSE
-* /usr/share/doc/elixir-1.16.3/README.md
-* /usr/share/doc/elixir-1.16.3/RELEASE.md
-* /usr/share/doc/elixir-1.16.3/VERSION
+* /usr/share/doc/elixir-1.17.2/LICENSE
+* /usr/share/doc/elixir-1.17.2/README.md
+* /usr/share/doc/elixir-1.17.2/RELEASE.md
+* /usr/share/doc/elixir-1.17.2/VERSION
 * /usr/share/man/man1/elixir.1.gz
 * /usr/share/man/man1/elixirc.1.gz
 * /usr/share/man/man1/iex.1.gz

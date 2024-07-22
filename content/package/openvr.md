@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvr 1.16.8-2"
-version = "1.16.8-2"
+title = "openvr 2.5.1-1"
+version = "2.5.1-1"
 description = "API and runtime that allows access to VR hardware from multiple vendors"
-date = "2022-05-03T14:24:47"
+date = "2024-07-22T09:55:24"
 aliases = "/packages/220252"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/ValveSoftware/openvr"
 arch = "x86_64"
-size = "118152"
-usize = "725035"
-sha1sum = "82007f2e458ad0d1dedf7c26441a74ca917ba701"
+size = "126672"
+usize = "759640"
+sha1sum = "bcad9654ffcfe9980362974fe2d407508faec38a"
 depends = "['jsoncpp']"
 reverse_depends = "['vtk']"
 +++
@@ -22,6 +22,6 @@ API and runtime that allows access to VR hardware from multiple vendors
 * /usr/include/openvr/openvr_capi.h
 * /usr/include/openvr/openvr_driver.h
 * /usr/lib/libopenvr_api.so
-* /usr/lib/pkgconfig/openvr.pc
-* /usr/share/doc/openvr-1.16.8/LICENSE
-* /usr/share/doc/openvr-1.16.8/README.md
+* /usr/share/doc/openvr-2.5.1/LICENSE
+* /usr/share/doc/openvr-2.5.1/README.md
+* /usr/share/pkgconfig/openvr.pc

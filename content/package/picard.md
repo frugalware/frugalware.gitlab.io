@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "picard 2.11-1"
-version = "2.11-1"
+title = "picard 2.12-1"
+version = "2.12-1"
 description = "The next generation MusicBrainz tagger"
-date = "2024-05-28T07:59:56"
+date = "2024-07-22T09:35:47"
 aliases = "/packages/219040"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://musicbrainz.org/doc/PicardTagger"
 arch = "x86_64"
-size = "2414212"
-usize = "12492584"
-sha1sum = "e473244a4c87a31f25eccc6a609c6fd20b01d7ee"
+size = "2433420"
+usize = "12595628"
+sha1sum = "2a2851f07dc2ddba82e0919a8f656be4919c3fad"
 depends = "['ffmpeg>=3.3.2', 'libdiscid', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt5>=5.9.2', 'python3>=3.9.6']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ The next generation MusicBrainz tagger
 
 ### Files: 
 * /usr/bin/picard
-* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/picard-2.11-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/picard-2.12-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/picard-2.12-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/picard-2.12-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/picard-2.12-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/picard-2.12-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/picard/acoustid/json_helpers.py
 * /usr/lib/python3.12/site-packages/picard/acoustid/manager.py
 * /usr/lib/python3.12/site-packages/picard/acoustid/recordings.py
@@ -468,9 +468,9 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.12/site-packages/picard/__pycache__/track.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/picard/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/picard-2.11/COPYING.txt
-* /usr/share/doc/picard-2.11/INSTALL.md
-* /usr/share/doc/picard-2.11/README.md
+* /usr/share/doc/picard-2.12/COPYING.txt
+* /usr/share/doc/picard-2.12/INSTALL.md
+* /usr/share/doc/picard-2.12/README.md
 * /usr/share/share/applications/org.musicbrainz.Picard.desktop
 * /usr/share/share/icons/hicolor/128x128/apps/org.musicbrainz.Picard.png
 * /usr/share/share/icons/hicolor/16x16/apps/org.musicbrainz.Picard.png

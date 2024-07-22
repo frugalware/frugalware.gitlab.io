@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "obsidian 1.6.5-1"
-version = "1.6.5-1"
+title = "obsidian 1.6.7-1"
+version = "1.6.7-1"
 description = "A powerful knowledge base that works on top of a local folder of plain text Markdown files"
-date = "2024-06-27T13:57:21"
+date = "2024-07-22T09:15:44"
 aliases = "/packages/220608"
 categories = ['xapps-extra']
 upstreamurl = "https://obsidian.md/"
