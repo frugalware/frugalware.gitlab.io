@@ -12,7 +12,6 @@ size = "317844"
 usize = "1344206"
 sha1sum = "f84d4bc3fca23f8470d0b1d0f16335e8369d9b35"
 depends = "['liburcu>=0.7.2', 'numactl', 'util-linux']"
-reverse_depends = "['duplicati']"
 +++
 ### Description: 
 Userspace tracing library for LTTng

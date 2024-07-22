@@ -12,7 +12,7 @@ size = "127688"
 usize = "891150"
 sha1sum = "778c551782167ba564a092398e16f2fb195b20ef"
 depends = "['glibc>=2.34']"
-reverse_depends = "['lttng-ust', 'multipath-tools', 'xfsprogs']"
+reverse_depends = "['lttng-ust', 'lttng-ust12', 'multipath-tools', 'xfsprogs']"
 license = "LGPL2.1"
 +++
 ### Description: 
