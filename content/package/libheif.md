@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libheif 1.18.0-1"
-version = "1.18.0-1"
+title = "libheif 1.18.1-1"
+version = "1.18.1-1"
 description = "HEIF file format decoder and encoder"
-date = "2024-07-13T16:57:32"
+date = "2024-07-23T09:03:14"
 aliases = "/packages/220876"
 categories = ['lib']
 upstreamurl = "https://github.com/strukturag/libheif"
 arch = "x86_64"
-size = "334112"
-usize = "1122579"
-sha1sum = "59a9beb2f911ef1527d13b64f4050299114c6911"
+size = "339096"
+usize = "1134291"
+sha1sum = "6d5a5f58f09d8788399499c5c7c62214b0d06f52"
 depends = "['aom', 'dav1d>=1.3.0', 'libde265', 'libwebp', 'rav1e', 'x265>=3.6']"
 reverse_depends = "['gd', 'gdal', 'gimp', 'graphicsmagick', 'imagemagick', 'kimageformats', 'kimageformats5', 'libheif-gdk-pixbuf', 'libheif-tools', 'libvips', 'openimageio']"
 +++
@@ -30,10 +30,10 @@ HEIF file format decoder and encoder
 * /usr/lib/cmake/libheif/libheif-config.cmake
 * /usr/lib/libheif.so
 * /usr/lib/libheif.so.1
-* /usr/lib/libheif.so.1.18.0
+* /usr/lib/libheif.so.1.18.1
 * /usr/lib/pkgconfig/libheif.pc
-* /usr/share/doc/libheif-1.18.0/COPYING
-* /usr/share/doc/libheif-1.18.0/README.md
+* /usr/share/doc/libheif-1.18.1/COPYING
+* /usr/share/doc/libheif-1.18.1/README.md
 * /usr/share/man/man1/heif-dec.1.gz
 * /usr/share/man/man1/heif-enc.1.gz
 * /usr/share/man/man1/heif-info.1.gz

@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "spdlog 1.14.1-1"
-version = "1.14.1-1"
+title = "spdlog 1.14.1-2"
+version = "1.14.1-2"
 description = "Very fast, header-only/compiled, C++ logging library"
-date = "2024-06-30T18:01:32"
+date = "2024-07-23T08:45:29"
 aliases = "/packages/220551"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/gabime/spdlog"
 arch = "x86_64"
-size = "2710620"
-usize = "5387804"
-sha1sum = "5e20d1fd168bf669a8aa6027e1d6eafb32dd80f5"
-depends = "['glibc>=2.38']"
+size = "148888"
+usize = "711970"
+sha1sum = "8d2a1aaa27e76caf4504c363a5bca9497f367a56"
+depends = "['fmtlib']"
+reverse_depends = "['level-zero']"
 +++
 ### Description: 
 Very fast, header-only/compiled, C++ logging library
@@ -54,21 +55,6 @@ Very fast, header-only/compiled, C++ logging library
 * /usr/include/spdlog/details/udp_client.h
 * /usr/include/spdlog/details/windows_include.h
 * /usr/include/spdlog/fmt/bin_to_hex.h
-* /usr/include/spdlog/fmt/bundled/args.h
-* /usr/include/spdlog/fmt/bundled/chrono.h
-* /usr/include/spdlog/fmt/bundled/color.h
-* /usr/include/spdlog/fmt/bundled/compile.h
-* /usr/include/spdlog/fmt/bundled/core.h
-* /usr/include/spdlog/fmt/bundled/fmt.license.rst
-* /usr/include/spdlog/fmt/bundled/format-inl.h
-* /usr/include/spdlog/fmt/bundled/format.h
-* /usr/include/spdlog/fmt/bundled/locale.h
-* /usr/include/spdlog/fmt/bundled/os.h
-* /usr/include/spdlog/fmt/bundled/ostream.h
-* /usr/include/spdlog/fmt/bundled/printf.h
-* /usr/include/spdlog/fmt/bundled/ranges.h
-* /usr/include/spdlog/fmt/bundled/std.h
-* /usr/include/spdlog/fmt/bundled/xchar.h
 * /usr/include/spdlog/fmt/chrono.h
 * /usr/include/spdlog/fmt/compile.h
 * /usr/include/spdlog/fmt/fmt.h
@@ -126,7 +112,9 @@ Very fast, header-only/compiled, C++ logging library
 * /usr/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
 * /usr/lib/cmake/spdlog/spdlogConfigTargets.cmake
 * /usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
-* /usr/lib/libspdlog.a
+* /usr/lib/libspdlog.so
+* /usr/lib/libspdlog.so.1.14
+* /usr/lib/libspdlog.so.1.14.1
 * /usr/lib/pkgconfig/spdlog.pc
 * /usr/share/doc/spdlog-1.14.1/INSTALL
 * /usr/share/doc/spdlog-1.14.1/LICENSE

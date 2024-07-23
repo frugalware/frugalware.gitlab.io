@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libopenmpt 0.7.8-1"
-version = "0.7.8-1"
+title = "libopenmpt 0.7.9-1"
+version = "0.7.9-1"
 description = "A library to render tracker music to a PCM audio stream"
-date = "2024-06-09T19:19:31"
+date = "2024-07-23T08:32:02"
 aliases = "/packages/221244"
 categories = ['lib']
 upstreamurl = "https://lib.openmpt.org/libopenmpt"
 arch = "x86_64"
-size = "699024"
-usize = "2258628"
-sha1sum = "12449df19d890410aed3a144484ebbb01dffae58"
+size = "769476"
+usize = "2289491"
+sha1sum = "ab2b289dcf447e1790b5e0240e871ced12c9b85e"
 depends = "['libmpg123', 'libpulse', 'portaudio']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-openmpt', 'jazz2']"
 +++
@@ -36,13 +36,13 @@ A library to render tracker music to a PCM audio stream
 * /usr/lib/libopenmpt.so.0
 * /usr/lib/libopenmpt.so.0.4.4
 * /usr/lib/pkgconfig/libopenmpt.pc
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_c.c
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_cxx.cpp
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_c_mem.c
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_c_pipe.c
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_c_probe.c
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_c_stdout.c
-* /usr/share/doc/libopenmpt-0.7.8/examples/libopenmpt_example_c_unsafe.c
-* /usr/share/doc/libopenmpt-0.7.8/LICENSE
-* /usr/share/doc/libopenmpt-0.7.8/README.md
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_c.c
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_cxx.cpp
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_c_mem.c
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_c_pipe.c
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_c_probe.c
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_c_stdout.c
+* /usr/share/doc/libopenmpt-0.7.9/examples/libopenmpt_example_c_unsafe.c
+* /usr/share/doc/libopenmpt-0.7.9/LICENSE
+* /usr/share/doc/libopenmpt-0.7.9/README.md
 * /usr/share/man/man1/openmpt123.1.gz
