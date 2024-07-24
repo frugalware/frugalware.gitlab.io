@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qv4l2 1.28.0-1"
-version = "1.28.0-1"
+title = "qv4l2 1.28.1-1"
+version = "1.28.1-1"
 description = "Video 4 Linux Qt Application"
-date = "2024-07-20T16:37:45"
+date = "2024-07-24T20:31:25"
 aliases = "/packages/219238"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "200364"
-usize = "588369"
-sha1sum = "d7a7e26a65f831e7bcb8c5104786ca840ebf77b8"
-depends = "['alsa-lib', 'qt5-base>=5.15.11', 'v4l-utils>=1.28.0']"
+size = "199636"
+usize = "588336"
+sha1sum = "8a73c215dce882d04f76bf23cc36f63d975f913f"
+depends = "['alsa-lib', 'qt5-base>=5.15.11', 'v4l-utils>=1.28.1']"
 +++
 ### Description: 
 Video 4 Linux Qt Application

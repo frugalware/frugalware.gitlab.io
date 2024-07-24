@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l-utils 1.28.0-1"
-version = "1.28.0-1"
+title = "v4l-utils 1.28.1-1"
+version = "1.28.1-1"
 description = "Userspace tools and conversion library for Video 4 Linux"
-date = "2024-07-20T16:37:45"
+date = "2024-07-24T20:31:25"
 aliases = "/packages/103450"
 categories = ['multimedia']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1368888"
-usize = "4904854"
-sha1sum = "54ed12763ba3d37e719213190d54d3a6b171528a"
+size = "1369468"
+usize = "4905320"
+sha1sum = "1adeccc2b8c95ae3f6a825109a74c371206461de"
 depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
@@ -285,15 +285,15 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/udev/rc_keymaps/zx_irdec.toml
 * /usr/lib/udev/rules.d/70-infrared.rules
 * /usr/share/applications/qvidcap.desktop
-* /usr/share/doc/v4l-utils-1.28.0/ChangeLog
-* /usr/share/doc/v4l-utils-1.28.0/COPYING
-* /usr/share/doc/v4l-utils-1.28.0/COPYING.libdvbv5
-* /usr/share/doc/v4l-utils-1.28.0/COPYING.libv4l
-* /usr/share/doc/v4l-utils-1.28.0/INSTALL.md
-* /usr/share/doc/v4l-utils-1.28.0/README.lib-multi-threading
-* /usr/share/doc/v4l-utils-1.28.0/README.libv4l
-* /usr/share/doc/v4l-utils-1.28.0/README.md
-* /usr/share/doc/v4l-utils-1.28.0/TODO
+* /usr/share/doc/v4l-utils-1.28.1/ChangeLog
+* /usr/share/doc/v4l-utils-1.28.1/COPYING
+* /usr/share/doc/v4l-utils-1.28.1/COPYING.libdvbv5
+* /usr/share/doc/v4l-utils-1.28.1/COPYING.libv4l
+* /usr/share/doc/v4l-utils-1.28.1/INSTALL.md
+* /usr/share/doc/v4l-utils-1.28.1/README.lib-multi-threading
+* /usr/share/doc/v4l-utils-1.28.1/README.libv4l
+* /usr/share/doc/v4l-utils-1.28.1/README.md
+* /usr/share/doc/v4l-utils-1.28.1/TODO
 * /usr/share/icons/hicolor/16x16/apps/qvidcap.png
 * /usr/share/icons/hicolor/24x24/apps/qvidcap.png
 * /usr/share/icons/hicolor/32x32/apps/qvidcap.png

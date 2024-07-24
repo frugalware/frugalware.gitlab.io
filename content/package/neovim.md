@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neovim 0.10.0-2"
-version = "0.10.0-2"
+title = "neovim 0.10.1-1"
+version = "0.10.1-1"
 description = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
-date = "2024-06-09T18:50:23"
+date = "2024-07-24T19:44:38"
 aliases = "/packages/219742"
 categories = ['apps-extra']
 upstreamurl = "https://neovim.io"
 arch = "x86_64"
-size = "6581472"
-usize = "29261111"
-sha1sum = "847b4fb19c2a6ded17653f66f4a8194a89f4d8f7"
+size = "6578420"
+usize = "29258934"
+sha1sum = "50eb9a8b15a0d36f4b792db22561c0367d4d7437"
 depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter', 'unibilium']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 ### Files: 
 * /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
-* /usr/share/doc/neovim-0.10.0/INSTALL.md
-* /usr/share/doc/neovim-0.10.0/README.md
+* /usr/share/doc/neovim-0.10.1/INSTALL.md
+* /usr/share/doc/neovim-0.10.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/nvim.png
 * /usr/share/locale/af/LC_MESSAGES/nvim.mo
 * /usr/share/locale/ca/LC_MESSAGES/nvim.mo
@@ -505,6 +505,7 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/ftplugin/gitignore.vim
 * /usr/share/nvim/runtime/ftplugin/gitrebase.vim
 * /usr/share/nvim/runtime/ftplugin/gitsendemail.vim
+* /usr/share/nvim/runtime/ftplugin/glsl.lua
 * /usr/share/nvim/runtime/ftplugin/go.vim
 * /usr/share/nvim/runtime/ftplugin/gpg.vim
 * /usr/share/nvim/runtime/ftplugin/gprof.vim
@@ -1154,9 +1155,6 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/plugin/tohtml.lua
 * /usr/share/nvim/runtime/plugin/tutor.vim
 * /usr/share/nvim/runtime/plugin/zipPlugin.vim
-* /usr/share/nvim/runtime/queries/bash/folds.scm
-* /usr/share/nvim/runtime/queries/bash/highlights.scm
-* /usr/share/nvim/runtime/queries/bash/injections.scm
 * /usr/share/nvim/runtime/queries/c/folds.scm
 * /usr/share/nvim/runtime/queries/c/highlights.scm
 * /usr/share/nvim/runtime/queries/c/injections.scm
@@ -1168,8 +1166,6 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/queries/markdown/injections.scm
 * /usr/share/nvim/runtime/queries/markdown_inline/highlights.scm
 * /usr/share/nvim/runtime/queries/markdown_inline/injections.scm
-* /usr/share/nvim/runtime/queries/python/folds.scm
-* /usr/share/nvim/runtime/queries/python/highlights.scm
 * /usr/share/nvim/runtime/queries/query/folds.scm
 * /usr/share/nvim/runtime/queries/query/highlights.scm
 * /usr/share/nvim/runtime/queries/vim/folds.scm
