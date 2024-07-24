@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-hr 115.12.2-1"
-version = "115.12.2-1"
+title = "thunderbird-hr 128.0-1"
+version = "128.0-1"
 description = "Croatian language support for Thunderbird"
-date = "2024-06-23T17:26:45"
+date = "2024-07-24T08:41:10"
 aliases = "/packages/152768"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "625116"
-usize = "689196"
-sha1sum = "6b02341bee0fdeccb09b428b72fe0cfb2ca9625e"
-depends = "['thunderbird>=115.12.2']"
+size = "626140"
+usize = "698405"
+sha1sum = "9288dcd46636854fb6fc0955bba3b2b6de3ff90f"
+depends = "['thunderbird>=128.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

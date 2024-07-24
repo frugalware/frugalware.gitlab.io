@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spdlog 1.14.1-2"
-version = "1.14.1-2"
+title = "spdlog 1.14.1-3"
+version = "1.14.1-3"
 description = "Very fast, header-only/compiled, C++ logging library"
-date = "2024-07-23T08:45:29"
+date = "2024-07-24T09:02:38"
 aliases = "/packages/220551"
-categories = ['devel-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/gabime/spdlog"
 arch = "x86_64"
-size = "148888"
+size = "148656"
 usize = "711970"
-sha1sum = "8d2a1aaa27e76caf4504c363a5bca9497f367a56"
+sha1sum = "edd5327b69be0b4438d603ae4bcaa6ae4669a3f0"
 depends = "['fmtlib']"
 reverse_depends = "['level-zero']"
 +++

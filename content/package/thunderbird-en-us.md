@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-en-us 115.12.2-1"
-version = "115.12.2-1"
+title = "thunderbird-en-us 128.0-1"
+version = "128.0-1"
 description = "American English language support for Thunderbird"
-date = "2024-06-23T17:26:45"
+date = "2024-07-24T08:41:10"
 aliases = "/packages/88810"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "586336"
-usize = "650010"
-sha1sum = "9dc1d19789c3dfe87959d8a501f7fbbe7a2fe02a"
-depends = "['thunderbird>=115.12.2']"
+size = "591984"
+usize = "663475"
+sha1sum = "77938585fc19ff20d7e58d94f2edcb67c8e5e547"
+depends = "['thunderbird>=128.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

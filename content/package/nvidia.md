@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nvidia 555.58.02-5"
-version = "555.58.02-5"
+title = "nvidia 560.28.03-1"
+version = "560.28.03-1"
 description = "3D accelerated display driver for Nvidia cards"
-date = "2024-07-20T09:32:38"
+date = "2024-07-24T08:22:07"
 aliases = "/packages/3749"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "100493520"
-usize = "304182161"
-sha1sum = "78fe98c2c22a41db21d64ffdb6bf324e7372e039"
-depends = "['kernel=6.10-2', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=555.58.02']"
+size = "112198100"
+usize = "336233478"
+sha1sum = "01929fd81964750301e064de2f8b69a909268977"
+depends = "['kernel=6.10-2', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=560.28.03']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
 ### Description: 
@@ -25,53 +25,53 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/bin/nvidia-smi
 * /usr/lib/libcuda.so
 * /usr/lib/libcuda.so.1
-* /usr/lib/libcuda.so.555.58.02
+* /usr/lib/libcuda.so.560.28.03
 * /usr/lib/libEGL_nvidia.so
 * /usr/lib/libEGL_nvidia.so.0
-* /usr/lib/libEGL_nvidia.so.555.58.02
+* /usr/lib/libEGL_nvidia.so.560.28.03
 * /usr/lib/libGLESv1_CM_nvidia.so
 * /usr/lib/libGLESv1_CM_nvidia.so.1
-* /usr/lib/libGLESv1_CM_nvidia.so.555.58.02
+* /usr/lib/libGLESv1_CM_nvidia.so.560.28.03
 * /usr/lib/libGLESv2_nvidia.so
 * /usr/lib/libGLESv2_nvidia.so.2
-* /usr/lib/libGLESv2_nvidia.so.555.58.02
+* /usr/lib/libGLESv2_nvidia.so.560.28.03
 * /usr/lib/libGLX_nvidia.so
 * /usr/lib/libGLX_nvidia.so.0
-* /usr/lib/libGLX_nvidia.so.555.58.02
+* /usr/lib/libGLX_nvidia.so.560.28.03
 * /usr/lib/libnvcuvid.so
 * /usr/lib/libnvcuvid.so.1
-* /usr/lib/libnvcuvid.so.555.58.02
+* /usr/lib/libnvcuvid.so.560.28.03
 * /usr/lib/libnvidia-cfg.so
 * /usr/lib/libnvidia-cfg.so.1
-* /usr/lib/libnvidia-cfg.so.555.58.02
+* /usr/lib/libnvidia-cfg.so.560.28.03
 * /usr/lib/libnvidia-egl-wayland.so
 * /usr/lib/libnvidia-egl-wayland.so.1
 * /usr/lib/libnvidia-egl-wayland.so.1.1.13
 * /usr/lib/libnvidia-eglcore.so
-* /usr/lib/libnvidia-eglcore.so.555.58.02
+* /usr/lib/libnvidia-eglcore.so.560.28.03
 * /usr/lib/libnvidia-encode.so
 * /usr/lib/libnvidia-encode.so.1
-* /usr/lib/libnvidia-encode.so.555.58.02
+* /usr/lib/libnvidia-encode.so.560.28.03
 * /usr/lib/libnvidia-fbc.so
 * /usr/lib/libnvidia-fbc.so.1
-* /usr/lib/libnvidia-fbc.so.555.58.02
+* /usr/lib/libnvidia-fbc.so.560.28.03
 * /usr/lib/libnvidia-glcore.so
-* /usr/lib/libnvidia-glcore.so.555.58.02
+* /usr/lib/libnvidia-glcore.so.560.28.03
 * /usr/lib/libnvidia-glsi.so
-* /usr/lib/libnvidia-glsi.so.555.58.02
-* /usr/lib/libnvidia-glvkspirv.so.555.58.02
-* /usr/lib/libnvidia-gpucomp.so.555.58.02
-* /usr/lib/libnvidia-gtk2.so.555.58.02
-* /usr/lib/libnvidia-gtk3.so.555.58.02
+* /usr/lib/libnvidia-glsi.so.560.28.03
+* /usr/lib/libnvidia-glvkspirv.so.560.28.03
+* /usr/lib/libnvidia-gpucomp.so.560.28.03
+* /usr/lib/libnvidia-gtk2.so.560.28.03
+* /usr/lib/libnvidia-gtk3.so.560.28.03
 * /usr/lib/libnvidia-ml.so
 * /usr/lib/libnvidia-ml.so.1
-* /usr/lib/libnvidia-ml.so.555.58.02
-* /usr/lib/libnvidia-opencl.so.555.58.02
+* /usr/lib/libnvidia-ml.so.560.28.03
+* /usr/lib/libnvidia-opencl.so.560.28.03
 * /usr/lib/libnvidia-ptxjitcompiler.so
 * /usr/lib/libnvidia-ptxjitcompiler.so.1
-* /usr/lib/libnvidia-ptxjitcompiler.so.555.58.02
+* /usr/lib/libnvidia-ptxjitcompiler.so.560.28.03
 * /usr/lib/libnvidia-tls.so
-* /usr/lib/libnvidia-tls.so.555.58.02
+* /usr/lib/libnvidia-tls.so.560.28.03
 * /usr/lib/modules/6.10-fw2/kernel/drivers/video/nvidia-drm.ko.zst
 * /usr/lib/modules/6.10-fw2/kernel/drivers/video/nvidia-modeset.ko.zst
 * /usr/lib/modules/6.10-fw2/kernel/drivers/video/nvidia-uvm.ko.zst
@@ -79,76 +79,76 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/lib/vdpau/libvdpau_nvidia.so
 * /usr/lib/vdpau/libvdpau_nvidia.so.1
 * /usr/lib/vdpau/libvdpau_nvidia.so.1.0
-* /usr/lib/vdpau/libvdpau_nvidia.so.555.58.02
+* /usr/lib/vdpau/libvdpau_nvidia.so.560.28.03
 * /usr/lib/xorg/modules/drivers/nvidia_drv.so
 * /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so
-* /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so.555.58.02
-* /usr/share/doc/nvidia-555.58.02/html/acknowledgements.html
-* /usr/share/doc/nvidia-555.58.02/html/addressingcapabilities.html
-* /usr/share/doc/nvidia-555.58.02/html/addtlresources.html
-* /usr/share/doc/nvidia-555.58.02/html/appendices.html
-* /usr/share/doc/nvidia-555.58.02/html/audiosupport.html
-* /usr/share/doc/nvidia-555.58.02/html/commonproblems.html
-* /usr/share/doc/nvidia-555.58.02/html/configlaptop.html
-* /usr/share/doc/nvidia-555.58.02/html/configmultxscreens.html
-* /usr/share/doc/nvidia-555.58.02/html/configtwinview.html
-* /usr/share/doc/nvidia-555.58.02/html/depth30.html
-* /usr/share/doc/nvidia-555.58.02/html/displaydevicenames.html
-* /usr/share/doc/nvidia-555.58.02/html/dma_issues.html
-* /usr/share/doc/nvidia-555.58.02/html/dpi.html
-* /usr/share/doc/nvidia-555.58.02/html/dynamicboost.html
-* /usr/share/doc/nvidia-555.58.02/html/dynamicpowermanagement.html
-* /usr/share/doc/nvidia-555.58.02/html/editxconfig.html
-* /usr/share/doc/nvidia-555.58.02/html/egpu.html
-* /usr/share/doc/nvidia-555.58.02/html/faq.html
-* /usr/share/doc/nvidia-555.58.02/html/flippingubb.html
-* /usr/share/doc/nvidia-555.58.02/html/framelock.html
-* /usr/share/doc/nvidia-555.58.02/html/gbm.html
-* /usr/share/doc/nvidia-555.58.02/html/glxsupport.html
-* /usr/share/doc/nvidia-555.58.02/html/gpunames.html
-* /usr/share/doc/nvidia-555.58.02/html/gsp.html
-* /usr/share/doc/nvidia-555.58.02/html/i2c.html
-* /usr/share/doc/nvidia-555.58.02/html/index.html
-* /usr/share/doc/nvidia-555.58.02/html/installationandconfiguration.html
-* /usr/share/doc/nvidia-555.58.02/html/installdriver.html
-* /usr/share/doc/nvidia-555.58.02/html/installedcomponents.html
-* /usr/share/doc/nvidia-555.58.02/html/introduction.html
-* /usr/share/doc/nvidia-555.58.02/html/kernel_open.html
-* /usr/share/doc/nvidia-555.58.02/html/kms.html
-* /usr/share/doc/nvidia-555.58.02/html/knownissues.html
-* /usr/share/doc/nvidia-555.58.02/html/minimumrequirements.html
-* /usr/share/doc/nvidia-555.58.02/html/newusertips.html
-* /usr/share/doc/nvidia-555.58.02/html/ngx.html
-* /usr/share/doc/nvidia-555.58.02/html/nvidia-debugdump.html
-* /usr/share/doc/nvidia-555.58.02/html/nvidia-ml.html
-* /usr/share/doc/nvidia-555.58.02/html/nvidia-peermem.html
-* /usr/share/doc/nvidia-555.58.02/html/nvidia-persistenced.html
-* /usr/share/doc/nvidia-555.58.02/html/nvidia-smi.html
-* /usr/share/doc/nvidia-555.58.02/html/nvidiasettings.html
-* /usr/share/doc/nvidia-555.58.02/html/openglenvvariables.html
-* /usr/share/doc/nvidia-555.58.02/html/optimus.html
-* /usr/share/doc/nvidia-555.58.02/html/powermanagement.html
-* /usr/share/doc/nvidia-555.58.02/html/primerenderoffload.html
-* /usr/share/doc/nvidia-555.58.02/html/procinterface.html
-* /usr/share/doc/nvidia-555.58.02/html/profiles.html
-* /usr/share/doc/nvidia-555.58.02/html/programmingmodes.html
-* /usr/share/doc/nvidia-555.58.02/html/randr14.html
-* /usr/share/doc/nvidia-555.58.02/html/retpoline.html
-* /usr/share/doc/nvidia-555.58.02/html/selectdriver.html
-* /usr/share/doc/nvidia-555.58.02/html/sli.html
-* /usr/share/doc/nvidia-555.58.02/html/supportedchips.html
-* /usr/share/doc/nvidia-555.58.02/html/vdpausupport.html
-* /usr/share/doc/nvidia-555.58.02/html/wayland-issues.html
-* /usr/share/doc/nvidia-555.58.02/html/xcompositeextension.html
-* /usr/share/doc/nvidia-555.58.02/html/xconfigoptions.html
-* /usr/share/doc/nvidia-555.58.02/html/xineramaglx.html
-* /usr/share/doc/nvidia-555.58.02/html/xrandrextension.html
-* /usr/share/doc/nvidia-555.58.02/html/xwayland.html
-* /usr/share/doc/nvidia-555.58.02/LICENSE
-* /usr/share/doc/nvidia-555.58.02/README.txt
+* /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so.560.28.03
+* /usr/share/doc/nvidia-560.28.03/html/acknowledgements.html
+* /usr/share/doc/nvidia-560.28.03/html/addressingcapabilities.html
+* /usr/share/doc/nvidia-560.28.03/html/addtlresources.html
+* /usr/share/doc/nvidia-560.28.03/html/appendices.html
+* /usr/share/doc/nvidia-560.28.03/html/audiosupport.html
+* /usr/share/doc/nvidia-560.28.03/html/commonproblems.html
+* /usr/share/doc/nvidia-560.28.03/html/configlaptop.html
+* /usr/share/doc/nvidia-560.28.03/html/configmultxscreens.html
+* /usr/share/doc/nvidia-560.28.03/html/configtwinview.html
+* /usr/share/doc/nvidia-560.28.03/html/depth30.html
+* /usr/share/doc/nvidia-560.28.03/html/displaydevicenames.html
+* /usr/share/doc/nvidia-560.28.03/html/dma_issues.html
+* /usr/share/doc/nvidia-560.28.03/html/dpi.html
+* /usr/share/doc/nvidia-560.28.03/html/dynamicboost.html
+* /usr/share/doc/nvidia-560.28.03/html/dynamicpowermanagement.html
+* /usr/share/doc/nvidia-560.28.03/html/editxconfig.html
+* /usr/share/doc/nvidia-560.28.03/html/egpu.html
+* /usr/share/doc/nvidia-560.28.03/html/faq.html
+* /usr/share/doc/nvidia-560.28.03/html/flippingubb.html
+* /usr/share/doc/nvidia-560.28.03/html/framelock.html
+* /usr/share/doc/nvidia-560.28.03/html/gbm.html
+* /usr/share/doc/nvidia-560.28.03/html/glxsupport.html
+* /usr/share/doc/nvidia-560.28.03/html/gpunames.html
+* /usr/share/doc/nvidia-560.28.03/html/gsp.html
+* /usr/share/doc/nvidia-560.28.03/html/i2c.html
+* /usr/share/doc/nvidia-560.28.03/html/index.html
+* /usr/share/doc/nvidia-560.28.03/html/installationandconfiguration.html
+* /usr/share/doc/nvidia-560.28.03/html/installdriver.html
+* /usr/share/doc/nvidia-560.28.03/html/installedcomponents.html
+* /usr/share/doc/nvidia-560.28.03/html/introduction.html
+* /usr/share/doc/nvidia-560.28.03/html/kernel_open.html
+* /usr/share/doc/nvidia-560.28.03/html/kms.html
+* /usr/share/doc/nvidia-560.28.03/html/knownissues.html
+* /usr/share/doc/nvidia-560.28.03/html/minimumrequirements.html
+* /usr/share/doc/nvidia-560.28.03/html/newusertips.html
+* /usr/share/doc/nvidia-560.28.03/html/ngx.html
+* /usr/share/doc/nvidia-560.28.03/html/nvidia-debugdump.html
+* /usr/share/doc/nvidia-560.28.03/html/nvidia-ml.html
+* /usr/share/doc/nvidia-560.28.03/html/nvidia-peermem.html
+* /usr/share/doc/nvidia-560.28.03/html/nvidia-persistenced.html
+* /usr/share/doc/nvidia-560.28.03/html/nvidia-smi.html
+* /usr/share/doc/nvidia-560.28.03/html/nvidiasettings.html
+* /usr/share/doc/nvidia-560.28.03/html/openglenvvariables.html
+* /usr/share/doc/nvidia-560.28.03/html/optimus.html
+* /usr/share/doc/nvidia-560.28.03/html/powermanagement.html
+* /usr/share/doc/nvidia-560.28.03/html/primerenderoffload.html
+* /usr/share/doc/nvidia-560.28.03/html/procinterface.html
+* /usr/share/doc/nvidia-560.28.03/html/profiles.html
+* /usr/share/doc/nvidia-560.28.03/html/programmingmodes.html
+* /usr/share/doc/nvidia-560.28.03/html/randr14.html
+* /usr/share/doc/nvidia-560.28.03/html/retpoline.html
+* /usr/share/doc/nvidia-560.28.03/html/selectdriver.html
+* /usr/share/doc/nvidia-560.28.03/html/sli.html
+* /usr/share/doc/nvidia-560.28.03/html/supportedchips.html
+* /usr/share/doc/nvidia-560.28.03/html/vdpausupport.html
+* /usr/share/doc/nvidia-560.28.03/html/wayland-issues.html
+* /usr/share/doc/nvidia-560.28.03/html/xcompositeextension.html
+* /usr/share/doc/nvidia-560.28.03/html/xconfigoptions.html
+* /usr/share/doc/nvidia-560.28.03/html/xineramaglx.html
+* /usr/share/doc/nvidia-560.28.03/html/xrandrextension.html
+* /usr/share/doc/nvidia-560.28.03/html/xwayland.html
+* /usr/share/doc/nvidia-560.28.03/LICENSE
+* /usr/share/doc/nvidia-560.28.03/README.txt
 * /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json
 * /usr/share/glvnd/egl_vendor.d/10_nvidia.json
 * /usr/share/man/man1/nvidia-smi.1.gz
-* /usr/share/nvidia/nvidia-application-profiles-555.58.02-key-documentation
-* /usr/share/nvidia/nvidia-application-profiles-555.58.02-rc
+* /usr/share/nvidia/nvidia-application-profiles-560.28.03-key-documentation
+* /usr/share/nvidia/nvidia-application-profiles-560.28.03-rc
 * /usr/share/vulkan/icd.d/nvidia_icd.json

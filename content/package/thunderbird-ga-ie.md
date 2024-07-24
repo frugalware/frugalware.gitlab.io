@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ga-ie 115.12.2-1"
-version = "115.12.2-1"
+title = "thunderbird-ga-ie 128.0-1"
+version = "128.0-1"
 description = "Irish language support for Thunderbird"
-date = "2024-06-23T17:26:45"
+date = "2024-07-24T08:41:10"
 aliases = "/packages/16126"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "527760"
-usize = "611161"
-sha1sum = "0978cb8163c0f3cc198f7cfabd562df632b18160"
-depends = "['thunderbird>=115.12.2']"
+size = "524456"
+usize = "614767"
+sha1sum = "cd3e8868f2bd22a74da6ae4031446aa03e636a34"
+depends = "['thunderbird>=128.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

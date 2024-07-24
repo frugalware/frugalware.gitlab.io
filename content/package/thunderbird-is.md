@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-is 115.12.2-1"
-version = "115.12.2-1"
+title = "thunderbird-is 128.0-1"
+version = "128.0-1"
 description = "Icelandic language support for Thunderbird"
-date = "2024-06-23T17:26:45"
+date = "2024-07-24T08:41:10"
 aliases = "/packages/73778"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "665340"
-usize = "727097"
-sha1sum = "63d66d1c15bc3694fb6fa27aac5a64ab3a460c3d"
-depends = "['thunderbird>=115.12.2']"
+size = "673172"
+usize = "742507"
+sha1sum = "9a0bcc9c9bfd7ac8edbd93875d0778edb9fbd7c7"
+depends = "['thunderbird>=128.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-uk 115.12.2-1"
-version = "115.12.2-1"
+title = "thunderbird-uk 128.0-1"
+version = "128.0-1"
 description = "Ukrainian language support for Thunderbird"
-date = "2024-06-23T17:26:45"
+date = "2024-07-24T08:41:10"
 aliases = "/packages/60752"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "786796"
-usize = "846640"
-sha1sum = "66a13606451d7e488048018567750e7ef016cea9"
-depends = "['thunderbird>=115.12.2']"
+size = "787864"
+usize = "855600"
+sha1sum = "2fb571d56ee2f2b2824a43f366403bad06715d9a"
+depends = "['thunderbird>=128.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
