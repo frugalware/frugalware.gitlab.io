@@ -1,20 +1,21 @@
 +++
 draft = false
-title = "python3-numpy-static 1.26.4-5"
-version = "1.26.4-5"
+title = "python3-numpy-static 2.0.1-1"
+version = "2.0.1-1"
 description = "Numerical Python3 static files."
-date = "2024-05-29T15:45:07"
+date = "2024-07-24T14:51:47"
 aliases = "/packages/219940"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "128176"
-usize = "194010"
-sha1sum = "739e4a64d91559d3878819f41d258b4392732a1c"
+size = "278484"
+usize = "369280"
+sha1sum = "3f499b6dadbb9bc15d3c163f0cfb561ccf3a3593"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
 Numerical Python3 static files.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/numpy/core/lib/libnpymath.a
+* /usr/lib/python3.12/site-packages/numpy/random/lib/libnpyrandom.a
+* /usr/lib/python3.12/site-packages/numpy/_core/lib/libnpymath.a

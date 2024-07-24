@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fluxbox 1.3.7-3"
-version = "1.3.7-3"
+title = "fluxbox 1.3.7-4"
+version = "1.3.7-4"
 description = "A lightweight wm, based on the code of blackbox"
-date = "2023-10-22T09:42:46"
+date = "2024-07-24T14:21:33"
 aliases = "/packages/218681"
 categories = ['x11-extra']
 upstreamurl = "http://www.fluxbox.org"
 arch = "x86_64"
-size = "817452"
-usize = "3256404"
-sha1sum = "6754a11d802338bbe358aaeb400497d782a2ad9f"
+size = "799592"
+usize = "3168834"
+sha1sum = "fd4dda16c1e7227373e176ddc868b7b3cc2a49af"
 depends = "['imlib2>=1.4.3-2', 'libstdc++', 'libxft>=2.1.13-2', 'libxml2>=2.7.8', 'libxpm>=3.5.7-2', 'libxrandr']"
 reverse_depends = "['lumina-desktop']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "curl 8.8.0-2"
-version = "8.8.0-2"
+title = "curl 8.9.0-1"
+version = "8.9.0-1"
 description = "A command line tool for transferring data specified with URL syntax."
-date = "2024-06-02T15:15:34"
+date = "2024-07-24T15:04:06"
 aliases = "/packages/2359"
 categories = ['network']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "1208684"
-usize = "2274034"
-sha1sum = "a67ed3a7247a7b675ceea956c0db6d516ab8ee7c"
+size = "1263412"
+usize = "2425624"
+sha1sum = "8ea961e1211b3a3bae30df5835300b4cae7c32c8"
 depends = "['brotli', 'c-ares>=1.13.0-2', 'libidn2>=2.0.0-5', 'libpsl>=0.21.5', 'libssh2>=1.8.2-2', 'nghttp2>=1.37.0-2', 'nghttp3', 'openssl>=3.1.0', 'zstd']"
 reverse_depends = "['alienarena', 'apache', 'appstream', 'appstream-glib', 'assaultcube', 'cargo-c', 'chromium-browser', 'clamav', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-vcalendar', 'cmake', 'cryfs', 'dovecot', 'elfutils-debuginfod', 'enigma', 'exiv2', 'facter', 'feh', 'firefox', 'flickcurl', 'flutter', 'freeciv', 'freetuxtv', 'get_steam', 'git', 'glyr', 'gmic', 'gnunet', 'hw-probe', 'icecast', 'julia', 'keepassxc', 'kvm', 'libclastfm', 'libcmis', 'libmediainfo', 'libmicrohttpd', 'liboauth', 'libofx', 'libproxy', 'libqalculate', 'libquvi', 'libreswan', 'libvirt', 'libvirt-glib', 'manaplus', 'minetest', 'mod_security', 'mpd', 'mupdf', 'ncmpcpp', 'networkmanager', 'nushell', 'obs-studio', 'octave', 'openscenegraph', 'ostree', 'pdns', 'pdns-recursor', 'php', 'poppler', 'proj', 'pycurl', 'qemu', 'qmmp', 'r', 'raptor', 'rng-tools', 'rsyslog', 'rust', 'rustup', 'sane-backends', 'scummvm', 'seafile', 'spamassassin', 'spring', 'strongswan', 'supertux', 'supertuxkart', 'sysdig', 'systemd-pull', 'tpm2-tss', 'transmission-cli', 'ufoai', 'uget', 'uwsgi-plugin-curl', 'virtualbox', 'vorbis-tools', 'warzone2100', 'weechat', 'wesnoth', 'xcfa', 'xine-ui', 'xmlrpc-c', 'xonotic']"
 +++
@@ -37,10 +37,12 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/lib/libcurl.so.4.8.0
 * /usr/lib/pkgconfig/libcurl.pc
 * /usr/share/aclocal/libcurl.m4
-* /usr/share/doc/curl-8.8.0/CHANGES
-* /usr/share/doc/curl-8.8.0/COPYING
-* /usr/share/doc/curl-8.8.0/README
-* /usr/share/doc/curl-8.8.0/RELEASE-NOTES
+* /usr/share/doc/curl-8.9.0/CHANGES
+* /usr/share/doc/curl-8.9.0/COPYING
+* /usr/share/doc/curl-8.9.0/README
+* /usr/share/doc/curl-8.9.0/RELEASE-NOTES
+* /usr/share/fish/vendor_completions.d/curl.fish
+* /usr/share/man/man1/curl-config.1.gz
 * /usr/share/man/man1/curl.1.gz
 * /usr/share/man/man3/CURLINFO_ACTIVESOCKET.3.gz
 * /usr/share/man/man3/CURLINFO_APPCONNECT_TIME.3.gz
@@ -400,6 +402,7 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/share/man/man3/CURLOPT_SUPPRESS_CONNECT_HEADERS.3.gz
 * /usr/share/man/man3/CURLOPT_TCP_FASTOPEN.3.gz
 * /usr/share/man/man3/CURLOPT_TCP_KEEPALIVE.3.gz
+* /usr/share/man/man3/CURLOPT_TCP_KEEPCNT.3.gz
 * /usr/share/man/man3/CURLOPT_TCP_KEEPIDLE.3.gz
 * /usr/share/man/man3/CURLOPT_TCP_KEEPINTVL.3.gz
 * /usr/share/man/man3/CURLOPT_TCP_NODELAY.3.gz
@@ -540,3 +543,4 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/share/man/man3/libcurl-url.3.gz
 * /usr/share/man/man3/libcurl-ws.3.gz
 * /usr/share/man/man3/libcurl.3.gz
+* /usr/share/zsh/site-functions/_curl

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "utox 0.16.1-9"
-version = "0.16.1-9"
+title = "utox 0.18.1-1"
+version = "0.18.1-1"
 description = "Lightweight Tox client."
-date = "2024-02-20T16:34:23"
+date = "2024-07-24T14:30:11"
 aliases = "/packages/217519"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/utox/utox"
 arch = "x86_64"
-size = "295196"
-usize = "763881"
-sha1sum = "07ee81457a7794f776e100bfab41f85664e6c972"
+size = "315496"
+usize = "782201"
+sha1sum = "92e3a4b03c981ebf7dc84a9485262b99333429fc"
 depends = "['filter_audio', 'fontconfig', 'libxrender', 'tox-core>=0.2.18']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Lightweight Tox client.
 ### Files: 
 * /usr/bin/utox
 * /usr/share/applications/utox.desktop
-* /usr/share/doc/utox-0.16.1/LICENSE
-* /usr/share/doc/utox-0.16.1/README.md
+* /usr/share/doc/utox-0.18.1/LICENSE
+* /usr/share/doc/utox-0.18.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/utox-128x128.png
 * /usr/share/icons/hicolor/14x14/apps/utox-14x14.png
 * /usr/share/icons/hicolor/16x16/apps/utox-16x16.png
