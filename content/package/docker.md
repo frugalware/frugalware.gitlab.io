@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "docker 27.0.3-1"
-version = "27.0.3-1"
+title = "docker 27.1.1-1"
+version = "27.1.1-1"
 description = "Docker - the Linux container runtime"
-date = "2024-07-14T20:41:22"
+date = "2024-07-24T13:02:20"
 aliases = "/packages/217244"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/docker/cli"
 arch = "x86_64"
-size = "28229272"
-usize = "120573254"
-sha1sum = "7ee65e301fac91ee8ba991297542ca19669014fb"
-depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'libnetwork', 'lvm2', 'runc', 'sqlite3', 'tini']"
+size = "28920540"
+usize = "122487184"
+sha1sum = "53ff4712fa701953e3dffaa4f08007277706402e"
+depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'lvm2', 'runc', 'sqlite3', 'tini']"
 reverse_depends = "['docker-compose']"
 +++
 ### Description: 
@@ -19,6 +19,7 @@ Docker - the Linux container runtime
 
 ### Files: 
 * /usr/bin/docker
+* /usr/bin/docker-proxy
 * /usr/bin/dockerd
 * /usr/lib/systemd/system/docker.service
 * /usr/lib/systemd/system/docker.socket

@@ -12,7 +12,7 @@ size = "78108"
 usize = "323758"
 sha1sum = "9940e4f3603f592bb523a322be0a709dc76b5a39"
 depends = "[]"
-reverse_depends = "['dssi', 'qtractor', 'zam-plugins']"
+reverse_depends = "['dssi', 'qtractor']"
 +++
 ### Description: 
 Lightweight OSC implementation.
