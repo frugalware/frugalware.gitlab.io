@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd 256.3-1"
-version = "256.3-1"
+title = "systemd 256.4-1"
+version = "256.4-1"
 description = "A System and Service Manager"
-date = "2024-07-24T09:10:13"
+date = "2024-07-24T18:47:30"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4591028"
-usize = "20726033"
-sha1sum = "a233ce357419f71f4426704794cdbfc7cfcf83ab"
-depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=256.3', 'libudev>=256.3', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=256.3', 'systemd-sysvinit']"
+size = "4590556"
+usize = "20732254"
+sha1sum = "3081822eabf0b2773bec577fced01bdba757cac9"
+depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=256.4', 'libudev>=256.4', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=256.4', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
 ### Description: 
@@ -577,6 +577,7 @@ A System and Service Manager
 * /usr/lib/udev/hwdb.d/70-analyzers.hwdb
 * /usr/lib/udev/hwdb.d/70-av-production.hwdb
 * /usr/lib/udev/hwdb.d/70-cameras.hwdb
+* /usr/lib/udev/hwdb.d/70-hardware-wallets.hwdb
 * /usr/lib/udev/hwdb.d/70-joystick.hwdb
 * /usr/lib/udev/hwdb.d/70-mouse.hwdb
 * /usr/lib/udev/hwdb.d/70-pda.hwdb
@@ -707,10 +708,10 @@ A System and Service Manager
 * /usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
-* /usr/share/doc/systemd-256.3/NEWS
-* /usr/share/doc/systemd-256.3/README
-* /usr/share/doc/systemd-256.3/README.md
-* /usr/share/doc/systemd-256.3/TODO
+* /usr/share/doc/systemd-256.4/NEWS
+* /usr/share/doc/systemd-256.4/README
+* /usr/share/doc/systemd-256.4/README.md
+* /usr/share/doc/systemd-256.4/TODO
 * /usr/share/doc/systemd/CODING_STYLE.md
 * /usr/share/doc/systemd/DISTRO_PORTING.md
 * /usr/share/doc/systemd/ENVIRONMENT.md
