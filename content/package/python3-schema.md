@@ -12,7 +12,6 @@ size = "33024"
 usize = "145245"
 sha1sum = "e888d1b50fc74f9e4d0f62566fd9d78cf6f16b38"
 depends = "['python3-contextlib2']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 Python module to validate and convert data structures.

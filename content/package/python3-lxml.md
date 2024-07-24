@@ -12,7 +12,7 @@ size = "1266100"
 usize = "5372641"
 sha1sum = "6f33b8e1cccbaca6a7b18f17b6308ff0666689ec"
 depends = "['libxml2>=2.9.6', 'libxslt>=1.1.31', 'python3>=3.12']"
-reverse_depends = "['calibre', 'glad', 'hotdoc', 'hotdoc', 'piper', 'python3-dbus-deviation', 'sigil']"
+reverse_depends = "['calibre', 'glad', 'piper', 'python3-dbus-deviation', 'sigil']"
 +++
 ### Description: 
 Easy-to-use library for working with XML and HTML in Python.

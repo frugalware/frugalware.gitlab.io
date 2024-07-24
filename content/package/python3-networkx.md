@@ -12,7 +12,7 @@ size = "2678328"
 usize = "21565994"
 sha1sum = "9e84758bd7c26604ca89e3e12eb96d6088ec7066"
 depends = "['python3-decorator']"
-reverse_depends = "['hotdoc', 'python3-pythran']"
+reverse_depends = "['python3-pythran']"
 +++
 ### Description: 
 Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks

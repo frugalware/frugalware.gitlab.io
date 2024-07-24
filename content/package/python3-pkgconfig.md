@@ -12,7 +12,6 @@ size = "11704"
 usize = "29799"
 sha1sum = "4d2458011a036733eef01f0016a28d1ad72535ed"
 depends = "['python3>=3.11']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 Python module to interface with the pkg-config command line tool

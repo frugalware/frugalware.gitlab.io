@@ -12,7 +12,6 @@ size = "77200"
 usize = "619221"
 sha1sum = "9113c4b902e0ecab0ddb33213f5eb06080ca72a4"
 depends = "['python3-lxml']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 Parser for D-Bus introspection XML and processing it in various ways

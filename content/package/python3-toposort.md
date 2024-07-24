@@ -12,7 +12,6 @@ size = "11396"
 usize = "30803"
 sha1sum = "a167ce5f3e0a430316bb230298ab5f93e4ee7d3e"
 depends = "['python3>=3.11']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 Implements a topological sort algorithm

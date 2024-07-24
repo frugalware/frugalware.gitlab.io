@@ -12,7 +12,6 @@ size = "153804"
 usize = "722931"
 sha1sum = "7dd65c61870d731647764da5cbfe3ea67553323d"
 depends = "['python3>=3.11']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 Universal encoding detector faster than chardet.

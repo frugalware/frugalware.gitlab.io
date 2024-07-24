@@ -12,7 +12,7 @@ size = "29596744"
 usize = "167665378"
 sha1sum = "a19a5a07ba0edba6451044e57b675785ea4636ef"
 depends = "['clang-libs>=18.1.8', 'libffi>=3.4', 'libxml2']"
-reverse_depends = "['hotdoc', 'insight-toolkit', 'lldb', 'qtcreator']"
+reverse_depends = "['insight-toolkit', 'lldb', 'qtcreator']"
 +++
 ### Description: 
 C/C++ language family frontend for LLVM

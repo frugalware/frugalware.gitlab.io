@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ldacbt 1.1-5"
-version = "1.1-5"
+title = "ldacbt 2.0.2.3-1"
+version = "2.0.2.3-1"
 description = "AOSP libldac dispatcher"
-date = "2024-05-16T01:39:45"
+date = "2024-07-24T14:12:32"
 aliases = "/packages/219833"
 categories = ['lib']
 upstreamurl = "https://github.com/EHfive/ldacbt"
 arch = "x86_64"
-size = "35004"
-usize = "109614"
-sha1sum = "eac5ee611fd7aaf9b195178e319d309dca532acf"
+size = "34868"
+usize = "95796"
+sha1sum = "a9ec98510a2392b63064af5d8606dd22b1c7021e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gst1-plugins-bad', 'pipewire']"
 +++
@@ -28,5 +28,5 @@ AOSP libldac dispatcher
 * /usr/lib/libldacBT_enc.so.2.0.2.3
 * /usr/lib/pkgconfig/ldacBT-abr.pc
 * /usr/lib/pkgconfig/ldacBT-enc.pc
-* /usr/share/doc/ldacbt-1.1/LICENSE
-* /usr/share/doc/ldacbt-1.1/README.md
+* /usr/share/doc/ldacbt-2.0.2.3/LICENSE
+* /usr/share/doc/ldacbt-2.0.2.3/README.md

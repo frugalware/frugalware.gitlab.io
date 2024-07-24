@@ -12,7 +12,6 @@ size = "4872"
 usize = "12663"
 sha1sum = "2678c0d6316e45fc12bf947fa6c98974e7f7946c"
 depends = "['python3']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 Python module which provides the variables defined by the XDG Base Directory Specification

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "restbed 4.8-2"
-version = "4.8-2"
+title = "restbed 4.8-3"
+version = "4.8-3"
 description = "A framework for asynchronous RESTful functionality in C++11 applications"
-date = "2022-02-13T21:35:20"
+date = "2024-07-24T14:01:51"
 aliases = "/packages/219641"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Corvusoft/restbed"
 arch = "x86_64"
-size = "247476"
-usize = "903872"
-sha1sum = "cc40577ae027d37ab3c7a2d841952022f02bfca8"
+size = "253988"
+usize = "908268"
+sha1sum = "5e17d96cfe893daf0215e4b62a2e8dd220526e3d"
 depends = "['openssl>=1.1.1']"
 +++
 ### Description: 

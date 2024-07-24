@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kup 0.9.1-3"
-version = "0.9.1-3"
+title = "kup 0.10.0-1"
+version = "0.10.0-1"
 description = "Kup is a KDE-based frontend for the bup backup software"
-date = "2024-04-07T19:49:31"
+date = "2024-07-24T13:57:23"
 aliases = "/packages/218506"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "380340"
-usize = "2017049"
-sha1sum = "7a2fccbe33ecbd01c7ef219115faa314e6c03093"
-depends = "['kcmutils>=6.0.0', 'kidletime>=6.0.0', 'libgit2>=1.8.0', 'libplasma>=6.0.3', 'openssl>=3.1.0', 'pcre2', 'plasma5support>=6.0.3']"
+size = "384016"
+usize = "2025025"
+sha1sum = "089adfe4f040ebbb429f7b943ef68efc24908619"
+depends = "['kcmutils>=6.4.0', 'kidletime>=6.4.0', 'libgit2>=1.8.0', 'libplasma>=6.1.3', 'openssl>=3.1.0', 'pcre2', 'plasma5support>=6.1.3']"
 +++
 ### Description: 
 Kup is a KDE-based frontend for the bup backup software
@@ -25,7 +25,7 @@ Kup is a KDE-based frontend for the bup backup software
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kup.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_kup.so
 * /usr/share/applications/kcm_kup.desktop
-* /usr/share/doc/kup-0.9.1/README.md
+* /usr/share/doc/kup-0.10.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/kup.svg
 * /usr/share/knotifications6/kupdaemon.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kup.mo

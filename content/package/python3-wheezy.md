@@ -12,7 +12,6 @@ size = "43176"
 usize = "150077"
 sha1sum = "d5ebade885c10a641d4e427c4aeafb4d9fae4ac9"
 depends = "['python3']"
-reverse_depends = "['hotdoc']"
 +++
 ### Description: 
 A lightweight template library

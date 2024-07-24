@@ -12,7 +12,7 @@ size = "293508"
 usize = "982381"
 sha1sum = "8e8a4a80f44fc0dbc0ac8439731f2a1419f13199"
 depends = "['bash>=4.4.12-4', 'glibc>=2.34']"
-reverse_depends = "['bip', 'gsoap', 'hotdoc', 'libreoffice']"
+reverse_depends = "['bip', 'gsoap', 'libreoffice']"
 +++
 ### Description: 
 A tool for generating text-scanning programs

@@ -12,7 +12,7 @@ size = "683404"
 usize = "2288373"
 sha1sum = "2d9f05bb60ce9d5c7dc4ae7ea5cfd68a2191606d"
 depends = "['libstdc++>=12.2']"
-reverse_depends = "['cln', 'coreutils', 'ecm', 'frobby', 'ghc', 'glpk', 'guile', 'julia', 'libisl', 'libsecp256k1', 'libtomcrypt', 'mpfr', 'ncurses', 'nettle', 'nftables', 'pari', 'python3-pycryptodome', 'ruby', 'strongswan', 'suitesparse']"
+reverse_depends = "['cln', 'coreutils', 'ecm', 'frobby', 'ghc', 'glpk', 'guile', 'julia', 'libisl', 'libtomcrypt', 'mpfr', 'ncurses', 'nettle', 'nftables', 'pari', 'python3-pycryptodome', 'ruby', 'strongswan', 'suitesparse']"
 +++
 ### Description: 
 GNU multiple precision arithmetic library

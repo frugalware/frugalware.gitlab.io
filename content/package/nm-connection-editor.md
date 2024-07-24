@@ -12,7 +12,7 @@ size = "749964"
 usize = "4980997"
 sha1sum = "6ce63b5e75da37ed64027a76c1ca0dc5bcd696c1"
 depends = "['libnma-gtk3', 'mobile-broadband-provider-info>=20151214-3', 'networkmanager>=1.4.0-2']"
-reverse_depends = "['nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'nm-wireguard']"
+reverse_depends = "['nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc']"
 +++
 ### Description: 
 A network connection configuration editor for NetworkManager
