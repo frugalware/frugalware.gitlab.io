@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fmtlib 11.0.2-1"
-version = "11.0.2-1"
+title = "fmtlib 11.0.2-2"
+version = "11.0.2-2"
 description = "Open-source formatting library for C++"
-date = "2024-07-22T07:51:08"
+date = "2024-07-25T06:28:29"
 aliases = "/packages/220117"
 categories = ['devel-core']
 upstreamurl = "https://fmtlib.net"
 arch = "x86_64"
-size = "178044"
+size = "177560"
 usize = "741328"
-sha1sum = "69dc2bb77c5469af3d72c98085675b3f8b357eec"
+sha1sum = "27aa8ba07e6f4a77de0c37f326192c2da4d0aeeb"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ccache', 'cppgir', 'easyeffects', 'easyrpg-player', 'mpd', 'opendht', 'openimageio', 'performous', 'spdlog', 'telegram-desktop', 'warzone2100']"
 +++
