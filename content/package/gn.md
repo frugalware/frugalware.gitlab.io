@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gn 20230918.g991530c-2"
-version = "20230918.g991530c-2"
+title = "gn 20240725.gb2afae1-1"
+version = "20240725.gb2afae1-1"
 description = "Meta-build system that generates build files for Ninja"
-date = "2023-09-18T08:48:45"
+date = "2024-07-25T15:25:58"
 aliases = "/packages/219838"
 categories = ['devel-extra']
 upstreamurl = "https://gn.googlesource.com/gn/+/master/README.md"
 arch = "x86_64"
-size = "674196"
-usize = "2202711"
-sha1sum = "28ce725d0f359755cbf236c5b7b71cbac1b35770"
+size = "712748"
+usize = "2235051"
+sha1sum = "fa1adc6fd11e73f7fd7f0934d4ea037a08347be1"
 depends = "['libgcc']"
 +++
 ### Description: 
@@ -18,6 +18,6 @@ Meta-build system that generates build files for Ninja
 
 ### Files: 
 * /usr/bin/gn
-* /usr/share/doc/gn-20230918.g991530c/AUTHORS
-* /usr/share/doc/gn-20230918.g991530c/LICENSE
-* /usr/share/doc/gn-20230918.g991530c/README.md
+* /usr/share/doc/gn-20240725.gb2afae1/AUTHORS
+* /usr/share/doc/gn-20240725.gb2afae1/LICENSE
+* /usr/share/doc/gn-20240725.gb2afae1/README.md
