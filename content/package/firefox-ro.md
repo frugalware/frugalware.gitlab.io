@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ro 128.0-1"
-version = "128.0-1"
+title = "firefox-ro 128.0.2-1"
+version = "128.0.2-1"
 description = "Romanian language support for Firefox"
-date = "2024-07-09T15:22:20"
+date = "2024-07-25T13:27:39"
 aliases = "/packages/3590"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "486452"
-usize = "549650"
-sha1sum = "dcf0445f0ee7b5ea40c5622c89c433e2c9aa4a05"
-depends = "['firefox>=128.0']"
+size = "490388"
+usize = "549787"
+sha1sum = "4ec811fe625f608bfb6968de74b7973fdf17a81a"
+depends = "['firefox>=128.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

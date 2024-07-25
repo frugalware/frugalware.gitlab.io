@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-eu 128.0-1"
-version = "128.0-1"
+title = "firefox-eu 128.0.2-1"
+version = "128.0.2-1"
 description = "Basque language support for Firefox"
-date = "2024-07-09T15:22:20"
+date = "2024-07-25T13:27:39"
 aliases = "/packages/4418"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "541696"
-usize = "596447"
-sha1sum = "27c30b8a011811956d15fdc85ebd8ec2a10bc984"
-depends = "['firefox>=128.0']"
+size = "544988"
+usize = "599320"
+sha1sum = "408f44ffca61a7abee0e9f2ccc8cd75bb5f32808"
+depends = "['firefox>=128.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

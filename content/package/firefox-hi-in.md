@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-hi-in 128.0-1"
-version = "128.0-1"
+title = "firefox-hi-in 128.0.2-1"
+version = "128.0.2-1"
 description = "Hindi language support for Firefox"
-date = "2024-07-09T15:22:20"
+date = "2024-07-25T13:27:39"
 aliases = "/packages/73630"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "505692"
-usize = "566639"
-sha1sum = "b2336d71aa720010a01b05d7bc3aed1e46fc2afc"
-depends = "['firefox>=128.0']"
+size = "505244"
+usize = "566764"
+sha1sum = "3c0a8ee7dc6c60c0c9e51ed45beafd64a89829cf"
+depends = "['firefox>=128.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

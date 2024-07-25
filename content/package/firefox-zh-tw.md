@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-zh-tw 128.0-1"
-version = "128.0-1"
+title = "firefox-zh-tw 128.0.2-1"
+version = "128.0.2-1"
 description = "Chinese Traditional language support for Firefox"
-date = "2024-07-09T15:22:20"
+date = "2024-07-25T13:27:39"
 aliases = "/packages/39366"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "601128"
-usize = "656867"
-sha1sum = "e9568b0a1a61c544abebb01702639e89e22a94d5"
-depends = "['firefox>=128.0']"
+size = "596768"
+usize = "659230"
+sha1sum = "69c12db2d4f7bc7c734f48c2a5eff093e162c1c9"
+depends = "['firefox>=128.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
