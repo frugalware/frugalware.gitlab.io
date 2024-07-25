@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "acpi_call 1.1.0-643"
-version = "1.1.0-643"
+title = "acpi_call 1.1.0-644"
+version = "1.1.0-644"
 description = "kernel module that enables calls to ACPI methods through /proc/acpi/call"
-date = "2024-07-20T09:21:39"
+date = "2024-07-25T08:14:34"
 aliases = "/packages/200768"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/mkottman/acpi_call"
 arch = "x86_64"
-size = "108500"
-usize = "87705"
-sha1sum = "81377a9a4aaa2d42b5ca0464808d20572b84090f"
+size = "108096"
+usize = "87810"
+sha1sum = "4a040508776bf3552e3218fa37038406e6ddc0ff"
 depends = "['kernel=6.10.1-1']"
 license = "GPL"
 +++

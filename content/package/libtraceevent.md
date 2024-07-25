@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtraceevent 1.8.2-1"
-version = "1.8.2-1"
+title = "libtraceevent 1.8.3-1"
+version = "1.8.3-1"
 description = "Linux kernel trace event library"
-date = "2024-01-29T10:02:16"
+date = "2024-07-25T09:10:15"
 aliases = "/packages/220920"
 categories = ['lib']
 upstreamurl = "https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git"
 arch = "x86_64"
-size = "70204"
-usize = "362717"
-sha1sum = "1cc9edc535d173c9968b71d4091f8717c6c252a5"
+size = "71036"
+usize = "263061"
+sha1sum = "58015c0eace4011e2dbca9c8d5cbe27b00b347b6"
 depends = "['glibc']"
 reverse_depends = "['libtracefs', 'perf']"
 +++
@@ -24,7 +24,7 @@ Linux kernel trace event library
 * /usr/include/traceevent/trace-seq.h
 * /usr/lib/libtraceevent.so
 * /usr/lib/libtraceevent.so.1
-* /usr/lib/libtraceevent.so.1.8.2
+* /usr/lib/libtraceevent.so.1.8.3
 * /usr/lib/pkgconfig/libtraceevent.pc
 * /usr/lib/traceevent/plugins/plugin_cfg80211.so
 * /usr/lib/traceevent/plugins/plugin_function.so
@@ -38,4 +38,4 @@ Linux kernel trace event library
 * /usr/lib/traceevent/plugins/plugin_scsi.so
 * /usr/lib/traceevent/plugins/plugin_tlb.so
 * /usr/lib/traceevent/plugins/plugin_xen.so
-* /usr/share/doc/libtraceevent-1.8.2/README
+* /usr/share/doc/libtraceevent-1.8.3/README

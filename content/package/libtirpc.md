@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtirpc 1.3.4-1"
-version = "1.3.4-1"
+title = "libtirpc 1.3.5-1"
+version = "1.3.5-1"
 description = "A port of Suns Transport-Independent RPC library to Linux."
-date = "2023-11-06T14:56:45"
+date = "2024-07-25T09:13:56"
 aliases = "/packages/103874"
 categories = ['lib']
 upstreamurl = "https://sourceforge.net/projects/libtirpc"
 arch = "x86_64"
-size = "176372"
-usize = "468079"
-sha1sum = "56bafdabc139a370b8c51e923a85e213b89f0642"
+size = "171916"
+usize = "446828"
+sha1sum = "d33c02ea94b31d56ea71645c59e24c9e7a01c63a"
 depends = "['libgssglue>=0.4-3', 'libkrb5>=1.16']"
 reverse_depends = "['kio-extras', 'kio-extras-kf5', 'libnsl', 'libvirt', 'quota-tools', 'rpcbind', 'xorg-server-xwayland', 'zfs']"
 +++
@@ -58,16 +58,15 @@ A port of Suns Transport-Independent RPC library to Linux.
 * /usr/lib/libtirpc.so.3
 * /usr/lib/libtirpc.so.3.0.0
 * /usr/lib/pkgconfig/libtirpc.pc
-* /usr/share/doc/libtirpc-1.3.4/AUTHORS
-* /usr/share/doc/libtirpc-1.3.4/ChangeLog
-* /usr/share/doc/libtirpc-1.3.4/COPYING
-* /usr/share/doc/libtirpc-1.3.4/HACKING
-* /usr/share/doc/libtirpc-1.3.4/INSTALL
-* /usr/share/doc/libtirpc-1.3.4/NEWS
-* /usr/share/doc/libtirpc-1.3.4/README
-* /usr/share/doc/libtirpc-1.3.4/THANKS
-* /usr/share/doc/libtirpc-1.3.4/TODO
-* /usr/share/doc/libtirpc-1.3.4/VERSION
+* /usr/share/doc/libtirpc-1.3.5/AUTHORS
+* /usr/share/doc/libtirpc-1.3.5/ChangeLog
+* /usr/share/doc/libtirpc-1.3.5/COPYING
+* /usr/share/doc/libtirpc-1.3.5/HACKING
+* /usr/share/doc/libtirpc-1.3.5/NEWS
+* /usr/share/doc/libtirpc-1.3.5/README
+* /usr/share/doc/libtirpc-1.3.5/THANKS
+* /usr/share/doc/libtirpc-1.3.5/TODO
+* /usr/share/doc/libtirpc-1.3.5/VERSION
 * /usr/share/man/man3/bindresvport.3t.gz
 * /usr/share/man/man3/des_crypt.3t.gz
 * /usr/share/man/man3/getnetconfig.3t.gz
