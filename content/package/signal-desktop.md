@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.17.0-1"
-version = "7.17.0-1"
+title = "signal-desktop 7.17.0-2"
+version = "7.17.0-2"
 description = "Signal Private Messenger for Linux"
-date = "2024-07-26T19:35:56"
+date = "2024-07-26T20:24:03"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "118938856"
-usize = "460205118"
-sha1sum = "f33acdeb68770572116e4306aaa3c7abb1cf7ba2"
+size = "119624900"
+usize = "444993767"
+sha1sum = "238723b9c905f796eeedbb3a55a03696baacc82f"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -127,6 +127,7 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/resources/app.asar
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.data.xml.dom/build/Release/binding.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.ui.notifications/build/Release/binding.node
+* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/better-sqlite3/build/Release/better_sqlite3.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/libsignal-client/prebuilds/linux-x64/@signalapp+libsignal-client.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/ringrtc/build/linux/libringrtc-x64.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/windows-dummy-keystroke/build/Release/NativeExtension.node

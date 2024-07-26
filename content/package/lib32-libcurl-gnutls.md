@@ -28,7 +28,7 @@ A command line tool for transferring data specified with URL syntax. (32-bit gnu
 * /usr/lib32/libcurl-gnutls.so.4.6.0
 * /usr/lib32/libcurl-gnutls.so.4.7.0
 * /usr/lib32/libcurl-gnutls.so.4.8.0
-* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/CHANGES
-* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/COPYING
-* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/README
-* /usr/share/doc/lib32-libcurl-gnutls-8.8.0/RELEASE-NOTES
+* /usr/share/doc/lib32-libcurl-gnutls-8.9.0/CHANGES
+* /usr/share/doc/lib32-libcurl-gnutls-8.9.0/COPYING
+* /usr/share/doc/lib32-libcurl-gnutls-8.9.0/README
+* /usr/share/doc/lib32-libcurl-gnutls-8.9.0/RELEASE-NOTES
