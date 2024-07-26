@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "networkmanager 1.48.4-1"
-version = "1.48.4-1"
+title = "networkmanager 1.48.6-1"
+version = "1.48.6-1"
 description = "Network Management daemon"
-date = "2024-07-07T12:16:06"
+date = "2024-07-26T08:57:03"
 aliases = "/packages/88398"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "4120872"
-usize = "22445589"
-sha1sum = "d8a3e24f0904fed7f9a943cac3a5f6c8b07e4eca"
+size = "4122400"
+usize = "22446877"
+sha1sum = "fa0cea9587a74d0de45fdb4ed9c67e9b27bc4497"
 depends = "['ca-certificates', 'curl', 'dbus-glib>=0.108-2', 'ethtool', 'iproute2>=4.7.0-2', 'iptables', 'jansson', 'libarchive>=3.0.3-2', 'libgcrypt>=1.7.3-2', 'libndp>=1.5-4', 'libnl>=3.2.9-2', 'libselinux', 'mobile-broadband-provider-info', 'modemmanager>=1.6.0-2', 'newt>=0.52.19-2', 'nss>=3.21-2', 'openresolv', 'polkit>=0.113-9', 'ppp>=2.4.7-3', 'readline>=8.0', 'wireless_tools>=29-5', 'wpa_supplicant>=2.5-4']"
 reverse_depends = "['claws-mail', 'kdelibs4support', 'kdelibs4support5', 'libnma', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'networkmanager-qt5', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
 +++
@@ -154,13 +154,13 @@ Network Management daemon
 * /usr/lib/libnm.so
 * /usr/lib/libnm.so.0
 * /usr/lib/libnm.so.0.1.0
-* /usr/lib/NetworkManager/1.48.4/libnm-device-plugin-adsl.so
-* /usr/lib/NetworkManager/1.48.4/libnm-device-plugin-bluetooth.so
-* /usr/lib/NetworkManager/1.48.4/libnm-device-plugin-ovs.so
-* /usr/lib/NetworkManager/1.48.4/libnm-device-plugin-wifi.so
-* /usr/lib/NetworkManager/1.48.4/libnm-device-plugin-wwan.so
-* /usr/lib/NetworkManager/1.48.4/libnm-ppp-plugin.so
-* /usr/lib/NetworkManager/1.48.4/libnm-wwan.so
+* /usr/lib/NetworkManager/1.48.6/libnm-device-plugin-adsl.so
+* /usr/lib/NetworkManager/1.48.6/libnm-device-plugin-bluetooth.so
+* /usr/lib/NetworkManager/1.48.6/libnm-device-plugin-ovs.so
+* /usr/lib/NetworkManager/1.48.6/libnm-device-plugin-wifi.so
+* /usr/lib/NetworkManager/1.48.6/libnm-device-plugin-wwan.so
+* /usr/lib/NetworkManager/1.48.6/libnm-ppp-plugin.so
+* /usr/lib/NetworkManager/1.48.6/libnm-wwan.so
 * /usr/lib/NetworkManager/dispatcher.d/90-nm-cloud-setup.sh
 * /usr/lib/NetworkManager/dispatcher.d/no-wait.d/90-nm-cloud-setup.sh
 * /usr/lib/NetworkManager/dispatcher.d/pre-up.d/90-nm-cloud-setup.sh
@@ -239,14 +239,14 @@ Network Management daemon
 * /usr/share/dbus-1/system.d/nm-dispatcher.conf
 * /usr/share/dbus-1/system.d/nm-priv-helper.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.NetworkManager.conf
-* /usr/share/doc/networkmanager-1.48.4/AUTHORS
-* /usr/share/doc/networkmanager-1.48.4/ChangeLog
-* /usr/share/doc/networkmanager-1.48.4/COPYING
-* /usr/share/doc/networkmanager-1.48.4/COPYING.GFDL
-* /usr/share/doc/networkmanager-1.48.4/COPYING.LGPL
-* /usr/share/doc/networkmanager-1.48.4/NEWS
-* /usr/share/doc/networkmanager-1.48.4/README.md
-* /usr/share/doc/networkmanager-1.48.4/TODO
+* /usr/share/doc/networkmanager-1.48.6/AUTHORS
+* /usr/share/doc/networkmanager-1.48.6/ChangeLog
+* /usr/share/doc/networkmanager-1.48.6/COPYING
+* /usr/share/doc/networkmanager-1.48.6/COPYING.GFDL
+* /usr/share/doc/networkmanager-1.48.6/COPYING.LGPL
+* /usr/share/doc/networkmanager-1.48.6/NEWS
+* /usr/share/doc/networkmanager-1.48.6/README.md
+* /usr/share/doc/networkmanager-1.48.6/TODO
 * /usr/share/doc/NetworkManager/examples/server.conf
 * /usr/share/gir-1.0/NM-1.0.gir
 * /usr/share/locale/as/LC_MESSAGES/NetworkManager.mo
