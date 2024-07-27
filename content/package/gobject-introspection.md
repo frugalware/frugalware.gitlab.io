@@ -163,7 +163,9 @@ Generate interface introspection data for GObject libraries.
 * /usr/share/doc/gobject-introspection-1.80.1/COPYING.LGPL
 * /usr/share/doc/gobject-introspection-1.80.1/MSVC.README.rst
 * /usr/share/doc/gobject-introspection-1.80.1/NEWS
+* /usr/share/doc/gobject-introspection-1.80.1/README.md
 * /usr/share/doc/gobject-introspection-1.80.1/README.rst
+* /usr/share/doc/gobject-introspection-1.80.1/RELEASE
 * /usr/share/gir-1.0/cairo-1.0.gir
 * /usr/share/gir-1.0/DBus-1.0.gir
 * /usr/share/gir-1.0/DBusGLib-1.0.gir

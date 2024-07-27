@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pygobject3 3.48.2-1"
-version = "3.48.2-1"
+title = "pygobject3 3.48.2-2"
+version = "3.48.2-2"
 description = "Python bindings for GObject"
-date = "2024-07-03T08:02:54"
+date = "2024-07-27T11:01:02"
 aliases = "/packages/136197"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "80064"
+size = "80092"
 usize = "298641"
-sha1sum = "07be1a1826c637df73ccfee47ac950d9044c579e"
+sha1sum = "2aafd6e2ff77874c7a2a5aa30185c6aba7756917"
 depends = "['pygobject3-devel', 'python3>=3.12']"
 reverse_depends = "['claws-mail-plugin-python', 'discover-overlay', 'input-remapper', 'openrazer', 'pygobject3-cairo', 'redshift-gtk', 'switcheroo-control', 'telepathy-haze', 'udiskie']"
 +++

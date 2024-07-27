@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pygobject3-cairo 3.48.2-1"
-version = "3.48.2-1"
+title = "pygobject3-cairo 3.48.2-2"
+version = "3.48.2-2"
 description = "pygobject3 with cairo support"
-date = "2024-07-03T08:02:54"
+date = "2024-07-27T11:01:02"
 aliases = "/packages/136198"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
 size = "257248"
 usize = "967035"
-sha1sum = "174fe1220ec3b6e8223c803d39040f183f8976d3"
+sha1sum = "fc4198e9b896f10866e827826d7ff0de333e4da7"
 depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.48.2', 'python3-pycairo>=1.20.1']"
 reverse_depends = "['hplip', 'input-remapper', 'piper', 'sunflower', 'syncthing-gtk', 'virt-manager']"
 +++
