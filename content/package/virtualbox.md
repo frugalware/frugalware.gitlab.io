@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "virtualbox 7.0.20-3"
-version = "7.0.20-3"
+title = "virtualbox 7.0.20-4"
+version = "7.0.20-4"
 description = "Oracle VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use."
-date = "2024-07-25T08:59:02"
+date = "2024-07-28T16:31:04"
 aliases = "/packages/136016"
 categories = ['xapps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "43687272"
-usize = "124680392"
-sha1sum = "66b7844ab575a2ae2bac8fcdc05bbd5e1de5d2cd"
-depends = "['alsa-lib>=1.1.4.1', 'curl', 'iasl', 'iproute2', 'kernel=6.10.1-1', 'libcap', 'libglu', 'libglvnd', 'libidl', 'libinput', 'libpulse', 'libuuid', 'libvncserver', 'libvpx>=1.13.0', 'libx11', 'libxcomposite', 'libxcursor', 'libxext', 'libxinerama', 'libxmu', 'libxrandr', 'libxslt', 'lvm2', 'mesa-libegl>=17.3.0-3', 'mesa-libglx>=17.3.0-3', 'openssl>=3.1.0', 'opus', 'python3', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10', 'sdl', 'virtualbox-modules>=7.0.20', 'xalan-c>=1.10.0-2', 'xerces-c>=2.8.0', 'xrandr']"
+size = "43695884"
+usize = "124680407"
+sha1sum = "8b6df56c24758bf6ba9deb1d791131ff7d3033f0"
+depends = "['alsa-lib>=1.1.4.1', 'curl', 'iasl', 'iproute2', 'kernel=6.10.2-1', 'libcap', 'libglu', 'libglvnd', 'libidl', 'libinput', 'libpulse', 'libuuid', 'libvncserver', 'libvpx>=1.13.0', 'libx11', 'libxcomposite', 'libxcursor', 'libxext', 'libxinerama', 'libxmu', 'libxrandr', 'libxslt', 'lvm2', 'mesa-libegl>=17.3.0-3', 'mesa-libglx>=17.3.0-3', 'openssl>=3.1.0', 'opus', 'python3', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10', 'sdl', 'virtualbox-modules>=7.0.20', 'xalan-c>=1.10.0-2', 'xerces-c>=2.8.0', 'xrandr']"
 +++
 ### Description: 
 Oracle VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use.
