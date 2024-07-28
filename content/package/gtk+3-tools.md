@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+3-tools 3.24.43-1"
-version = "3.24.43-1"
+title = "gtk+3-tools 3.24.43-2"
+version = "3.24.43-2"
 description = "GTK+3 commandline tools."
-date = "2024-07-13T12:41:32"
+date = "2024-07-28T21:22:58"
 aliases = "/packages/103189"
 categories = ['xapps']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "26196"
-usize = "24315"
-sha1sum = "e36be3ff2ecd6ac0f4703ba0ed5e5eaee4510594"
+size = "26192"
+usize = "24316"
+sha1sum = "c547007106b48f8297989d047cda0bd9bedea227"
 depends = "['glib2>=2.60.0', 'gtk+3>=3.24.43', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 reverse_depends = "['gtk+3', 'gtk+4']"
 +++

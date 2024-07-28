@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+3-immodules 3.24.43-1"
-version = "3.24.43-1"
+title = "gtk+3-immodules 3.24.43-2"
+version = "3.24.43-2"
 description = "Input methods for GTK3+."
-date = "2024-07-13T12:41:32"
+date = "2024-07-28T21:22:58"
 aliases = "/packages/217860"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "30484"
+size = "30520"
 usize = "141088"
-sha1sum = "7e67b64f961a836419cadf1745d5a431ae42f3b8"
+sha1sum = "07892c827cff1dbff870ac20d256c234289cef9c"
 depends = "['glib2>=2.60.0', 'gtk+3>=3.24.43', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
 ### Description: 

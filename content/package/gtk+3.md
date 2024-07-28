@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtk+3 3.24.43-1"
-version = "3.24.43-1"
+title = "gtk+3 3.24.43-2"
+version = "3.24.43-2"
 description = "The GTK+ Toolkit (3.x series)"
-date = "2024-07-13T12:41:32"
+date = "2024-07-28T21:22:58"
 aliases = "/packages/103188"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "5393276"
-usize = "29656486"
-sha1sum = "c86a8098e5560e178449036427e35140a4a4da12"
-depends = "['adwaita-icon-theme', 'at-spi2-core>=2.32.0', 'gdk-pixbuf2>=2.38.1-2', 'gtk+3-tools', 'gtk-update-icon-cache', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'shared-mime-info']"
+size = "5396760"
+usize = "29663050"
+sha1sum = "e3c57313caad7fe1c2250f8b80449789f0229a0f"
+depends = "['adwaita-icon-theme', 'at-spi2-core>=2.32.0', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'gtk+3-tools', 'gtk-update-icon-cache', 'iso-codes', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'shared-mime-info']"
 reverse_depends = "['appmenu-gtk', 'appstream-glib', 'castor', 'claws-mail', 'colord-gtk3', 'conky-manager', 'discord', 'discover-overlay', 'distcc-gui', 'firefox', 'fontforge', 'freeciv-gtk3', 'freetuxtv', 'gcr-1', 'gdl', 'geany', 'glade', 'gnome-desktop', 'gnome-panel-doc', 'gparted', 'gspell', 'gst1-plugins-bad-gtk-wayland', 'gtk+3-demos', 'gtk+3-doc', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk-layer-shell', 'gtk-vnc', 'gtk3-sharp', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'gupnp-tools', 'gvfs', 'gvim', 'ibus', 'input-remapper', 'libcanberra-gtk', 'libdbusmenu-gtk3', 'libhandy', 'libindicator', 'libinput-debug-events', 'libnma-gtk3', 'libportal-gtk3', 'libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libwnck', 'mesademos', 'mp3splt-gtk', 'neko', 'obs-studio', 'openclonk', 'openjfx', 'openrazer', 'plotinus', 'qt5-base-platformtheme-gtk3', 'qt6-base-platformtheme-gtk3', 'r2modman', 'redshift-gtk', 'resetmsmice', 'signal-desktop', 'slack-desktop', 'spice-gtk', 'sunflower', 'swt', 'syncthing-gtk', 'teams', 'thunderbird', 'tootle', 'uget', 'volumeicon', 'webkit-gtk3', 'whalebird', 'xcfa', 'xdg-desktop-portal-gnome', 'xdg-desktop-portal-gtk', 'xdg-user-dirs-gtk', 'yad', 'zeitgeist', 'zenity']"
 +++
 ### Description: 

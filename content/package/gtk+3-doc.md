@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+3-doc 3.24.43-1"
-version = "3.24.43-1"
+title = "gtk+3-doc 3.24.43-2"
+version = "3.24.43-2"
 description = "gtk+3 documention"
-date = "2024-07-13T12:41:32"
+date = "2024-07-28T21:22:58"
 aliases = "/packages/217859"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "3261428"
+size = "3261820"
 usize = "23726638"
-sha1sum = "63314ab1edc17537e6c9da00cc88df21896c8f70"
+sha1sum = "e98b6a1a292a0d63a5eb51b4279f4da7568e447c"
 depends = "['gtk+3>=3.24.43']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "1541352"
 usize = "5167949"
 sha1sum = "6218a28578c3fbf7af8901738c92033cef725ae9"
 depends = "['argyllcms>=1.8.3-2', 'glib2>=2.60.0', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libgudev>=232-4', 'libgusb>=0.3.0-2', 'libudev>=242', 'libxslt', 'polkit>=0.113-6', 'sqlite3>=3.9.2-4']"
-reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+4']"
+reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+3', 'gtk+4']"
 +++
 ### Description: 
 color daemon
