@@ -1,21 +1,21 @@
 +++
 draft = false
-title = "lib32-glib2 2.80.4-1"
-version = "2.80.4-1"
-description = "Common C routines used by GTK+ and other libraries (32-bit)"
-date = "2024-07-26T21:39:13"
+title = "lib32-glib2 2.80.4-2"
+version = "2.80.4-2"
+description = "Common C routines used by GTK+ and other libraries ( 32bit )"
+date = "2024-07-29T19:02:21"
 aliases = "/packages/217903"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1564604"
-usize = "8041106"
-sha1sum = "d579ecb43c9394829bfd6120fdce32b01a5ab5b1"
+size = "1564068"
+usize = "8041503"
+sha1sum = "5ce9a53a48cc0d3666435743b400a486b82e7926"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre', 'lib32-util-linux', 'lib32-zlib']"
 reverse_depends = "['lib32-at-spi2-core', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++
 ### Description: 
-Common C routines used by GTK+ and other libraries (32-bit)
+Common C routines used by GTK+ and other libraries ( 32bit )
 
 ### Files: 
 * /usr/i686-frugalware-linux/bin/gapplication
@@ -370,3 +370,5 @@ Common C routines used by GTK+ and other libraries (32-bit)
 * /usr/lib32/pkgconfig/gmodule-no-export-2.0.pc
 * /usr/lib32/pkgconfig/gobject-2.0.pc
 * /usr/lib32/pkgconfig/gthread-2.0.pc
+* /usr/share/gdb/auto-load/usr/lib32/libglib-2.0.so.0.8000.4-gdb.py
+* /usr/share/gdb/auto-load/usr/lib32/libgobject-2.0.so.0.8000.4-gdb.py

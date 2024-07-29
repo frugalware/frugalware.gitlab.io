@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 1.9.21-1"
-version = "1.9.21-1"
+title = "fwupd 1.9.22-1"
+version = "1.9.22-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-06-16T14:31:12"
+date = "2024-07-29T19:10:24"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7334264"
-usize = "46667142"
-sha1sum = "18a14ee0cba64c9e084817ea24634852e17430b8"
+size = "7339756"
+usize = "46689172"
+sha1sum = "72902c2b4e906c6833ed1cd1f68f1ba2c7e5acd3"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -49,11 +49,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.21/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-1.9.21/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-1.9.21/libfwupdengine.so
-* /usr/lib/fwupd-1.9.21/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.21/libfwupdutil.so
+* /usr/lib/fwupd-1.9.22/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-1.9.22/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-1.9.22/libfwupdengine.so
+* /usr/lib/fwupd-1.9.22/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.22/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -99,9 +99,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.21/COPYING
-* /usr/share/doc/fwupd-1.9.21/README.md
-* /usr/share/doc/fwupd-1.9.21/RELEASE
+* /usr/share/doc/fwupd-1.9.22/COPYING
+* /usr/share/doc/fwupd-1.9.22/README.md
+* /usr/share/doc/fwupd-1.9.22/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -3516,6 +3516,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.HidDevice.set_report.html
 * /usr/share/doc/libfwupdplugin/method.Hwids.add_guid.html
 * /usr/share/doc/libfwupdplugin/method.Hwids.add_value.html
+* /usr/share/doc/libfwupdplugin/method.Hwids.get_chid_keys.html
 * /usr/share/doc/libfwupdplugin/method.Hwids.get_guid.html
 * /usr/share/doc/libfwupdplugin/method.Hwids.get_guids.html
 * /usr/share/doc/libfwupdplugin/method.Hwids.get_keys.html
