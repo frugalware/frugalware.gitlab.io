@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffmpeg4.4 4.4.4-8"
-version = "4.4.4-8"
+title = "ffmpeg4.4 4.4.5-1"
+version = "4.4.5-1"
 description = "FFMpeg compatibility version"
-date = "2024-06-07T07:42:18"
+date = "2024-07-29T14:05:35"
 aliases = "/packages/221503"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://www.ffmpeg.org"
 arch = "x86_64"
-size = "8432640"
-usize = "25379724"
-sha1sum = "9bf1d683cb3c33475ea7779d25c8d5f36dc4d1f2"
+size = "8394348"
+usize = "25241883"
+sha1sum = "759580feabcf19d132684bd35f15e6e39cfadc26"
 depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.13.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'svt-av1', 'v4l-utils>=1.8.1-3', 'x264>==20230712.ga8b68eb', 'x265>=3.5', 'xvidcore>=1.3.4-3', 'zlib>=1.2.12']"
 reverse_depends = "['openjfx', 'vlc-ffmpeg']"
 +++
@@ -176,14 +176,14 @@ FFMpeg compatibility version
 * /usr/lib/libswresample.so.3.9.100
 * /usr/lib/libswscale.so.5
 * /usr/lib/libswscale.so.5.9.100
-* /usr/share/doc/ffmpeg4.4-4.4.4/Changelog
-* /usr/share/doc/ffmpeg4.4-4.4.4/COPYING.GPLv2
-* /usr/share/doc/ffmpeg4.4-4.4.4/COPYING.GPLv3
-* /usr/share/doc/ffmpeg4.4-4.4.4/COPYING.LGPLv2.1
-* /usr/share/doc/ffmpeg4.4-4.4.4/COPYING.LGPLv3
-* /usr/share/doc/ffmpeg4.4-4.4.4/CREDITS
-* /usr/share/doc/ffmpeg4.4-4.4.4/INSTALL.md
-* /usr/share/doc/ffmpeg4.4-4.4.4/README.md
-* /usr/share/doc/ffmpeg4.4-4.4.4/RELEASE
-* /usr/share/doc/ffmpeg4.4-4.4.4/RELEASE_NOTES
-* /usr/share/doc/ffmpeg4.4-4.4.4/VERSION
+* /usr/share/doc/ffmpeg4.4-4.4.5/Changelog
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.GPLv2
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.GPLv3
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.LGPLv2.1
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.LGPLv3
+* /usr/share/doc/ffmpeg4.4-4.4.5/CREDITS
+* /usr/share/doc/ffmpeg4.4-4.4.5/INSTALL.md
+* /usr/share/doc/ffmpeg4.4-4.4.5/README.md
+* /usr/share/doc/ffmpeg4.4-4.4.5/RELEASE
+* /usr/share/doc/ffmpeg4.4-4.4.5/RELEASE_NOTES
+* /usr/share/doc/ffmpeg4.4-4.4.5/VERSION

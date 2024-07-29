@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gimp 2.10.36-1"
-version = "2.10.36-1"
+title = "gimp 2.10.38-1"
+version = "2.10.38-1"
 description = "The GNU Image Manipulation Program"
-date = "2023-11-17T10:41:57"
+date = "2024-07-29T13:41:11"
 aliases = "/packages/3029"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gimp.org/"
 arch = "x86_64"
-size = "19937632"
-usize = "118137700"
-sha1sum = "5895a5f605a600f667619f83b4991bb629d63e6b"
-depends = "['aalib', 'darktable>=2.2.5-4', 'gegl>=0.4.42', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxpm', 'mypaint-brushes', 'poppler-glib>=0.60.1-2', 'xdg-utils']"
+size = "20171724"
+usize = "117989720"
+sha1sum = "5b3e8627e197735052ec3d6305cd6dcd153415c6"
+depends = "['aalib', 'darktable>=2.2.5-4', 'gegl>=0.4.42', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'xdg-utils']"
 reverse_depends = "['gmic', 'xsane-gimp']"
 +++
 ### Description: 
@@ -322,7 +322,6 @@ The GNU Image Manipulation Program
 * /usr/lib/gimp/2.0/plug-ins/file-gih/file-gih
 * /usr/lib/gimp/2.0/plug-ins/file-glob/file-glob
 * /usr/lib/gimp/2.0/plug-ins/file-header/file-header
-* /usr/lib/gimp/2.0/plug-ins/file-heif/file-heif
 * /usr/lib/gimp/2.0/plug-ins/file-html-table/file-html-table
 * /usr/lib/gimp/2.0/plug-ins/file-ico/file-ico
 * /usr/lib/gimp/2.0/plug-ins/file-jp2-load/file-jp2-load
@@ -400,45 +399,45 @@ The GNU Image Manipulation Program
 * /usr/lib/gimp/gimp-debug-tool-2.0
 * /usr/lib/libgimp-2.0.so
 * /usr/lib/libgimp-2.0.so.0
-* /usr/lib/libgimp-2.0.so.0.1000.36
+* /usr/lib/libgimp-2.0.so.0.1000.38
 * /usr/lib/libgimpbase-2.0.so
 * /usr/lib/libgimpbase-2.0.so.0
-* /usr/lib/libgimpbase-2.0.so.0.1000.36
+* /usr/lib/libgimpbase-2.0.so.0.1000.38
 * /usr/lib/libgimpcolor-2.0.so
 * /usr/lib/libgimpcolor-2.0.so.0
-* /usr/lib/libgimpcolor-2.0.so.0.1000.36
+* /usr/lib/libgimpcolor-2.0.so.0.1000.38
 * /usr/lib/libgimpconfig-2.0.so
 * /usr/lib/libgimpconfig-2.0.so.0
-* /usr/lib/libgimpconfig-2.0.so.0.1000.36
+* /usr/lib/libgimpconfig-2.0.so.0.1000.38
 * /usr/lib/libgimpmath-2.0.so
 * /usr/lib/libgimpmath-2.0.so.0
-* /usr/lib/libgimpmath-2.0.so.0.1000.36
+* /usr/lib/libgimpmath-2.0.so.0.1000.38
 * /usr/lib/libgimpmodule-2.0.so
 * /usr/lib/libgimpmodule-2.0.so.0
-* /usr/lib/libgimpmodule-2.0.so.0.1000.36
+* /usr/lib/libgimpmodule-2.0.so.0.1000.38
 * /usr/lib/libgimpthumb-2.0.so
 * /usr/lib/libgimpthumb-2.0.so.0
-* /usr/lib/libgimpthumb-2.0.so.0.1000.36
+* /usr/lib/libgimpthumb-2.0.so.0.1000.38
 * /usr/lib/libgimpui-2.0.so
 * /usr/lib/libgimpui-2.0.so.0
-* /usr/lib/libgimpui-2.0.so.0.1000.36
+* /usr/lib/libgimpui-2.0.so.0.1000.38
 * /usr/lib/libgimpwidgets-2.0.so
 * /usr/lib/libgimpwidgets-2.0.so.0
-* /usr/lib/libgimpwidgets-2.0.so.0.1000.36
+* /usr/lib/libgimpwidgets-2.0.so.0.1000.38
 * /usr/lib/pkgconfig/gimp-2.0.pc
 * /usr/lib/pkgconfig/gimpthumb-2.0.pc
 * /usr/lib/pkgconfig/gimpui-2.0.pc
 * /usr/share/aclocal/gimp-2.0.m4
 * /usr/share/applications/gimp.desktop
-* /usr/share/doc/gimp-2.10.36/AUTHORS
-* /usr/share/doc/gimp-2.10.36/COPYING
-* /usr/share/doc/gimp-2.10.36/HACKING
-* /usr/share/doc/gimp-2.10.36/INSTALL
-* /usr/share/doc/gimp-2.10.36/INSTALL.in
-* /usr/share/doc/gimp-2.10.36/LICENSE
-* /usr/share/doc/gimp-2.10.36/NEWS
-* /usr/share/doc/gimp-2.10.36/README
-* /usr/share/doc/gimp-2.10.36/README.i18n
+* /usr/share/doc/gimp-2.10.38/AUTHORS
+* /usr/share/doc/gimp-2.10.38/COPYING
+* /usr/share/doc/gimp-2.10.38/HACKING
+* /usr/share/doc/gimp-2.10.38/INSTALL
+* /usr/share/doc/gimp-2.10.38/INSTALL.in
+* /usr/share/doc/gimp-2.10.38/LICENSE
+* /usr/share/doc/gimp-2.10.38/NEWS
+* /usr/share/doc/gimp-2.10.38/README
+* /usr/share/doc/gimp-2.10.38/README.i18n
 * /usr/share/gimp/2.0/brushes/Basic/1-pixel.vbr
 * /usr/share/gimp/2.0/brushes/Basic/Block-01.vbr
 * /usr/share/gimp/2.0/brushes/Basic/Block-02.vbr
@@ -5244,6 +5243,7 @@ The GNU Image Manipulation Program
 * /usr/share/locale/ka/LC_MESSAGES/gimp20-script-fu.mo
 * /usr/share/locale/ka/LC_MESSAGES/gimp20-std-plug-ins.mo
 * /usr/share/locale/ka/LC_MESSAGES/gimp20.mo
+* /usr/share/locale/kab/LC_MESSAGES/gimp20-libgimp.mo
 * /usr/share/locale/kab/LC_MESSAGES/gimp20-python.mo
 * /usr/share/locale/kab/LC_MESSAGES/gimp20-std-plug-ins.mo
 * /usr/share/locale/kk/LC_MESSAGES/gimp20-libgimp.mo
