@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "py3status 3.53-2"
-version = "3.53-2"
+title = "py3status 3.58-1"
+version = "3.58-1"
 description = "py3status is an extensible i3status wrapper written in python"
-date = "2023-10-12T11:21:04"
+date = "2024-07-29T08:39:28"
 aliases = "/packages/200606"
 categories = ['x11-extra']
 upstreamurl = "http://www.ultrabug.fr/py3status/"
 arch = "x86_64"
-size = "561720"
-usize = "3872831"
-sha1sum = "42469388feef1827fa64a95136f60bf607c9d3cd"
+size = "562992"
+usize = "3874755"
+sha1sum = "ebf46160f3b50a3929844344d4ed17343b6db2d2"
 depends = "['glibc', 'i3', 'python3-setuptools']"
 +++
 ### Description: 
@@ -19,11 +19,11 @@ py3status is an extensible i3status wrapper written in python
 ### Files: 
 * /usr/bin/py3-cmd
 * /usr/bin/py3status
-* /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/licenses/LICENSE
-* /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/py3status-3.53.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/py3status-3.58.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/py3status-3.58.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/py3status-3.58.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/py3status-3.58.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/py3status-3.58.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/py3status/argparsers.py
 * /usr/lib/python3.12/site-packages/py3status/autodoc.py
 * /usr/lib/python3.12/site-packages/py3status/command.py
@@ -47,13 +47,13 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/battery_level.py
 * /usr/lib/python3.12/site-packages/py3status/modules/bluetooth.py
 * /usr/lib/python3.12/site-packages/py3status/modules/check_tcp.py
-* /usr/lib/python3.12/site-packages/py3status/modules/clementine.py
 * /usr/lib/python3.12/site-packages/py3status/modules/clock.py
 * /usr/lib/python3.12/site-packages/py3status/modules/cmus.py
 * /usr/lib/python3.12/site-packages/py3status/modules/coin_balance.py
 * /usr/lib/python3.12/site-packages/py3status/modules/coin_market.py
 * /usr/lib/python3.12/site-packages/py3status/modules/conky.py
 * /usr/lib/python3.12/site-packages/py3status/modules/deadbeef.py
+* /usr/lib/python3.12/site-packages/py3status/modules/dexcom.py
 * /usr/lib/python3.12/site-packages/py3status/modules/diskdata.py
 * /usr/lib/python3.12/site-packages/py3status/modules/do_not_disturb.py
 * /usr/lib/python3.12/site-packages/py3status/modules/dpms.py
@@ -69,7 +69,6 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/gitlab.py
 * /usr/lib/python3.12/site-packages/py3status/modules/glpi.py
 * /usr/lib/python3.12/site-packages/py3status/modules/google_calendar.py
-* /usr/lib/python3.12/site-packages/py3status/modules/gpmdp.py
 * /usr/lib/python3.12/site-packages/py3status/modules/graphite.py
 * /usr/lib/python3.12/site-packages/py3status/modules/group.py
 * /usr/lib/python3.12/site-packages/py3status/modules/hamster.py
@@ -100,7 +99,6 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/online_status.py
 * /usr/lib/python3.12/site-packages/py3status/modules/pingdom.py
 * /usr/lib/python3.12/site-packages/py3status/modules/playerctl.py
-* /usr/lib/python3.12/site-packages/py3status/modules/player_control.py
 * /usr/lib/python3.12/site-packages/py3status/modules/pomodoro.py
 * /usr/lib/python3.12/site-packages/py3status/modules/process_status.py
 * /usr/lib/python3.12/site-packages/py3status/modules/prometheus.py
@@ -173,8 +171,6 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/bluetooth.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/check_tcp.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/check_tcp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/clementine.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/clementine.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/clock.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/clock.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/cmus.cpython-312.opt-1.pyc
@@ -187,6 +183,8 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/conky.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/deadbeef.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/deadbeef.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/dexcom.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/dexcom.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/diskdata.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/diskdata.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/do_not_disturb.cpython-312.opt-1.pyc
@@ -217,8 +215,6 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/glpi.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/google_calendar.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/google_calendar.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/gpmdp.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/gpmdp.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/graphite.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/graphite.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/group.cpython-312.opt-1.pyc
@@ -279,8 +275,6 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/pingdom.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/playerctl.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/playerctl.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/player_control.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/player_control.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/pomodoro.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/pomodoro.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/modules/__pycache__/process_status.cpython-312.opt-1.pyc
@@ -448,6 +442,6 @@ py3status is an extensible i3status wrapper written in python
 * /usr/lib/python3.12/site-packages/py3status/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/py3status/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/py3status/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/py3status-3.53/CHANGELOG
-* /usr/share/doc/py3status-3.53/LICENSE
-* /usr/share/doc/py3status-3.53/README.md
+* /usr/share/doc/py3status-3.58/CHANGELOG
+* /usr/share/doc/py3status-3.58/LICENSE
+* /usr/share/doc/py3status-3.58/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glm 0.9.9.8-2"
-version = "0.9.9.8-2"
+title = "glm 1.0.1-1"
+version = "1.0.1-1"
 description = "OpenGL Mathematics"
-date = "2022-05-17T14:14:45"
+date = "2024-07-29T08:37:15"
 aliases = "/packages/200695"
 categories = ['x11-extra']
 upstreamurl = "https://github.com/g-truc/glm"
 arch = "x86_64"
-size = "157804"
-usize = "2073932"
-sha1sum = "9b7618226d53b0f3a08b46a49dc48ebc1a3bd79f"
+size = "169528"
+usize = "2196017"
+sha1sum = "222c10704cc1ebc1bd1d50e4341034eba81d83b5"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['kicad', 'performous', 'solarus', 'supertux']"
 +++
@@ -20,6 +20,7 @@ OpenGL Mathematics
 ### Files: 
 * /usr/include/glm/common.hpp
 * /usr/include/glm/detail/compute_common.hpp
+* /usr/include/glm/detail/compute_vector_decl.hpp
 * /usr/include/glm/detail/compute_vector_relational.hpp
 * /usr/include/glm/detail/func_common.inl
 * /usr/include/glm/detail/func_common_simd.inl
@@ -140,6 +141,8 @@ OpenGL Mathematics
 * /usr/include/glm/ext/matrix_int4x3_sized.hpp
 * /usr/include/glm/ext/matrix_int4x4.hpp
 * /usr/include/glm/ext/matrix_int4x4_sized.hpp
+* /usr/include/glm/ext/matrix_integer.hpp
+* /usr/include/glm/ext/matrix_integer.inl
 * /usr/include/glm/ext/matrix_projection.hpp
 * /usr/include/glm/ext/matrix_projection.inl
 * /usr/include/glm/ext/matrix_relational.hpp
@@ -190,6 +193,8 @@ OpenGL Mathematics
 * /usr/include/glm/ext/scalar_int_sized.hpp
 * /usr/include/glm/ext/scalar_packing.hpp
 * /usr/include/glm/ext/scalar_packing.inl
+* /usr/include/glm/ext/scalar_reciprocal.hpp
+* /usr/include/glm/ext/scalar_reciprocal.inl
 * /usr/include/glm/ext/scalar_relational.hpp
 * /usr/include/glm/ext/scalar_relational.inl
 * /usr/include/glm/ext/scalar_uint_sized.hpp
@@ -233,6 +238,8 @@ OpenGL Mathematics
 * /usr/include/glm/ext/vector_integer.inl
 * /usr/include/glm/ext/vector_packing.hpp
 * /usr/include/glm/ext/vector_packing.inl
+* /usr/include/glm/ext/vector_reciprocal.hpp
+* /usr/include/glm/ext/vector_reciprocal.inl
 * /usr/include/glm/ext/vector_relational.hpp
 * /usr/include/glm/ext/vector_relational.inl
 * /usr/include/glm/ext/vector_uint1.hpp
@@ -245,8 +252,10 @@ OpenGL Mathematics
 * /usr/include/glm/ext/vector_uint4_sized.hpp
 * /usr/include/glm/ext/vector_ulp.hpp
 * /usr/include/glm/ext/vector_ulp.inl
+* /usr/include/glm/ext/_matrix_vectorize.hpp
 * /usr/include/glm/fwd.hpp
 * /usr/include/glm/geometric.hpp
+* /usr/include/glm/glm.cppm
 * /usr/include/glm/glm.hpp
 * /usr/include/glm/gtc/bitfield.hpp
 * /usr/include/glm/gtc/bitfield.inl
@@ -275,7 +284,6 @@ OpenGL Mathematics
 * /usr/include/glm/gtc/random.hpp
 * /usr/include/glm/gtc/random.inl
 * /usr/include/glm/gtc/reciprocal.hpp
-* /usr/include/glm/gtc/reciprocal.inl
 * /usr/include/glm/gtc/round.hpp
 * /usr/include/glm/gtc/round.inl
 * /usr/include/glm/gtc/type_aligned.hpp
@@ -364,11 +372,12 @@ OpenGL Mathematics
 * /usr/include/glm/gtx/normalize_dot.hpp
 * /usr/include/glm/gtx/normalize_dot.inl
 * /usr/include/glm/gtx/number_precision.hpp
-* /usr/include/glm/gtx/number_precision.inl
 * /usr/include/glm/gtx/optimum_pow.hpp
 * /usr/include/glm/gtx/optimum_pow.inl
 * /usr/include/glm/gtx/orthonormalize.hpp
 * /usr/include/glm/gtx/orthonormalize.inl
+* /usr/include/glm/gtx/pca.hpp
+* /usr/include/glm/gtx/pca.inl
 * /usr/include/glm/gtx/perpendicular.hpp
 * /usr/include/glm/gtx/perpendicular.inl
 * /usr/include/glm/gtx/polar_coordinates.hpp
@@ -437,5 +446,6 @@ OpenGL Mathematics
 * /usr/include/glm/vec3.hpp
 * /usr/include/glm/vec4.hpp
 * /usr/include/glm/vector_relational.hpp
-* /usr/lib/cmake/glm/glmConfig.cmake
-* /usr/lib/cmake/glm/glmConfigVersion.cmake
+* /usr/share/glm/glmConfig-release.cmake
+* /usr/share/glm/glmConfig.cmake
+* /usr/share/glm/glmConfigVersion.cmake

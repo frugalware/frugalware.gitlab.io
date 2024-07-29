@@ -12,7 +12,7 @@ size = "27704"
 usize = "98429"
 sha1sum = "bba6dbcd94167d0b4f3e100793c07511188a489a"
 depends = "['libx11>=1.6.3-3', 'xcb-util>=0.4.0-2']"
-reverse_depends = "['claws-mail', 'firefox', 'i3', 'libreoffice', 'libwnck', 'libwnck2', 'openbox', 'pidgin']"
+reverse_depends = "['claws-mail', 'firefox', 'i3', 'libreoffice', 'libwnck', 'libwnck2', 'pidgin']"
 +++
 ### Description: 
 Application startup notification and feedback library
