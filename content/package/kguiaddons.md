@@ -12,7 +12,7 @@ size = "114620"
 usize = "409234"
 sha1sum = "e80c573bdfb8468094978b37dcb0db944cb2dfb6"
 depends = "['qt6-base>=6.7.1', 'qt6-wayland>=6.7.1']"
-reverse_depends = "['breeze', 'kcolorscheme', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
+reverse_depends = "['breeze', 'kcolorscheme', 'kirigami-addons', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
 +++
 ### Description: 
 Utilities for graphical user interfaces.

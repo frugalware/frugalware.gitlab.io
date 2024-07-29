@@ -1,25 +1,35 @@
 +++
 draft = false
-title = "kirigami-addons 1.3.0-1"
-version = "1.3.0-1"
+title = "kirigami-addons 1.4.0-1"
+version = "1.4.0-1"
 description = "Add-ons for the Kirigami framework"
-date = "2024-06-27T11:28:51"
+date = "2024-07-29T12:40:49"
 aliases = "/packages/220616"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "556000"
-usize = "3157224"
-sha1sum = "9a18fb2702380ee5af7f2ac6adde8e958b0fc44e"
-depends = "['kconfig>=6.3.0', 'kirigami>=6.3.0']"
+size = "727732"
+usize = "3762158"
+sha1sum = "252fcc904678f471eadd819a4bbb822b031b95ec"
+depends = "['kconfig>=6.4.0', 'kcoreaddons>=6.4.0', 'kglobalaccel>=6.4.0', 'kguiaddons>=6.4.0', 'kirigami>=6.4.0']"
 reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kde', 'discover', 'elisa', 'filelight', 'francis', 'itinerary', 'kalm', 'kasts', 'kclock', 'kdeconnect-kde', 'kdeconnect-kde', 'kdeplasma-addons', 'kidentitymanagement', 'krecorder', 'ktrip', 'kweather', 'kwordquiz', 'merkuro', 'neochat', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-welcome', 'plasma-workspace', 'plasmatube', 'qmlkonsole', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
 Add-ons for the Kirigami framework
 
 ### Files: 
+* /usr/include/KirigamiAddonsStatefulApp/AbstractKirigamiApplication
+* /usr/include/KirigamiAddonsStatefulApp/abstractkirigamiapplication.h
+* /usr/include/KirigamiAddonsStatefulApp/KirigamiActionCollection
+* /usr/include/KirigamiAddonsStatefulApp/kirigamiactioncollection.h
+* /usr/include/KirigamiAddonsStatefulApp/kirigamiaddonsstatefulapp_export.h
 * /usr/lib/cmake/KF6KirigamiAddons/KF6KirigamiAddonsConfig.cmake
 * /usr/lib/cmake/KF6KirigamiAddons/KF6KirigamiAddonsConfigVersion.cmake
+* /usr/lib/cmake/KF6KirigamiAddons/KirigamiAddonsTargets-release.cmake
+* /usr/lib/cmake/KF6KirigamiAddons/KirigamiAddonsTargets.cmake
+* /usr/lib/libKirigamiAddonsStatefulApp.so
+* /usr/lib/libKirigamiAddonsStatefulApp.so.1.4.0
+* /usr/lib/libKirigamiAddonsStatefulApp.so.6
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/Avatar.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/AvatarButton.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/Banner.qml
@@ -76,6 +86,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSectionText.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSpinBoxDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSwitchDelegate.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormTextAreaDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormTextDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormTextFieldDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/kde-qmlmodule.version
@@ -119,6 +130,23 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/sounds/qmldir
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/sounds/SoundsPicker.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/sounds/soundsplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/KirigamiAddonsStatefulApp.qmltypes
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/libstatefulapplabsplugin.so
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/NativeMenuItem.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/qmldir
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/statefulapplabsplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/libKirigamiAddonsStatefulAppplugin.so
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/KeySequenceItem.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/KQuickCommandBarPage.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/libstatefulappprivateplugin.so
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/qmldir
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/ShortcutsEditor.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/private/statefulappprivateplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/qmldir
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/StatefulWindow.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/tableview/HeaderComponent.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/tableview/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/tableview/KTableView.qml
@@ -138,9 +166,11 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/styles/org.kde.desktop/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/treeviewplugin.qmltypes
-* /usr/share/doc/kirigami-addons-1.3.0/README.md
+* /usr/share/doc/kirigami-addons-1.4.0/README.md
+* /usr/share/kdevappwizard/templates/kirigamiaddons6.tar.bz2
 * /usr/share/locale/ar/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kirigami-addons6.mo
+* /usr/share/locale/bg/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ca/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/cs/LC_MESSAGES/kirigami-addons6.mo
