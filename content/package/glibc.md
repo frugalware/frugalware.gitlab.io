@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibc 2.39-6"
-version = "2.39-6"
+title = "glibc 2.40-1"
+version = "2.40-1"
 description = "GNU C Library"
-date = "2024-05-29T12:55:49"
+date = "2024-07-29T09:11:23"
 aliases = "/packages/2385"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/libc/libc.html"
 arch = "x86_64"
-size = "23949808"
-usize = "278227064"
-sha1sum = "dcb14219a23a8690cbf001c8c498dfd992bafd01"
+size = "24024292"
+usize = "280885015"
+sha1sum = "931424d95a7f0fe04d818691bec81a708aafacc1"
 depends = "['frugalware', 'tzdata>=2017a']"
 reverse_depends = "['a52dec', 'aalib', 'abstractdark-sddm-theme', 'acct', 'acpi', 'acpid', 'adjtimex', 'adns', 'afr-tessdata', 'age', 'alsa-lib', 'alsa-topology-conf', 'alsa-ucm-conf', 'amh-tessdata', 'aml', 'amtterm', 'anthy', 'antiword', 'ara-tessdata', 'arc', 'argh', 'argon2', 'asm-tessdata', 'at', 'audiofile', 'aze-tessdata', 'aze_cyrl-tessdata', 'b43-fwcutter', 'barcode', 'bash', 'bchunk', 'bcunit', 'bel-tessdata', 'ben-tessdata', 'binutils', 'bitchx', 'black-hole-solver', 'blake3', 'bod-tessdata', 'bos-tessdata', 'bower', 'bridge-utils', 'brotli', 'bubblewrap', 'bul-tessdata', 'bwping', 'byacc', 'bzip2', 'c-ares', 'cabextract', 'cantarell-fonts', 'castor', 'cat-tessdata', 'catch2', 'catdoc', 'ccd2iso', 'ccrypt', 'cdparanoia', 'cdrtools', 'ceb-tessdata', 'celt', 'ces-tessdata', 'cfitsio', 'check', 'chi_sim-tessdata', 'chi_tra-tessdata', 'chr-tessdata', 'chromium-flash', 'clisp', 'cmark', 'cmdpack', 'cmocka', 'coffee-script', 'coin-or-asl', 'coin-or-data-sample', 'comet', 'confuse', 'containerd', 'coreutils', 'courier-maildrop', 'cpio', 'cpp-hocon', 'cppzmq', 'cracklib', 'ctags', 'cuda-static', 'cuetools', 'cunit', 'cym-tessdata', 'dan-tessdata', 'dan_frak-tessdata', 'dash', 'debianutils', 'debootstrap', 'dejavu-ttf', 'detox', 'deu-tessdata', 'deu_frak-tessdata', 'dhclient', 'dhcp', 'dhcpcd', 'diffstat', 'diffutils', 'directx-headers', 'direnv', 'discount', 'dmidecode', 'dnssec-anchors', 'docker-compose', 'dosfstools', 'dotconf', 'duktape', 'dvbsnoop', 'dzo-tessdata', 'e2fsprogs', 'ed', 'efl', 'elfutils', 'ell', 'ell-tessdata', 'enet', 'eng-tessdata', 'enlightenment', 'enm-tessdata', 'enscript', 'epo-tessdata', 'equ-tessdata', 'est-tessdata', 'eus-tessdata', 'exfatprogs', 'expat', 'expect', 'expected-lite', 'faad2', 'fakeroot', 'fas-tessdata', 'fbset', 'fdk-aac', 'ffcall', 'fftw', 'file', 'fin-tessdata', 'findutils', 'firejail', 'flatbuffers', 'flex', 'font-alias', 'fra-tessdata', 'freeipmi', 'fribidi', 'frk-tessdata', 'frm-tessdata', 'frugalware-cursor-theme', 'fuse', 'fuse3', 'fwupd-efi', 'gavl', 'gcc', 'gcc-12', 'gcc-13', 'gcc-lib', 'gccmakedep', 'gdbm', 'gengetopt', 'gle-tessdata', 'glg-tessdata', 'glib2', 'glib2-static', 'glm', 'glow', 'glut', 'go-md2man', 'gocryptfs', 'gpgme', 'grc-tessdata', 'gsl', 'gsm', 'guj-tessdata', 'gulp', 'gumbo-parser', 'hamachi', 'hat-tessdata', 'hddtemp', 'hdparm', 'heb-tessdata', 'hills', 'hin-tessdata', 'hiredis', 'hrv-tessdata', 'hsakmt', 'http-parser', 'hun-tessdata', 'hyperfine', 'hyphen', 'iasl', 'iat', 'ijs', 'iku-tessdata', 'imake', 'immer', 'ind-tessdata', 'indent', 'inih', 'intel-metee', 'intel-tbb', 'ion', 'iptables', 'ipw3945d', 'isl-tessdata', 'ita-tessdata', 'ita_old-tessdata', 'jam', 'jansson', 'jav-tessdata', 'jbigkit', 'jemalloc', 'jfsutils', 'jitterentropy-library', 'joe-theme1', 'jpn-tessdata', 'json-c', 'jsoncpp', 'jxrlib', 'kan-tessdata', 'kat-tessdata', 'kat_old-tessdata', 'kaz-tessdata', 'kbd', 'kde-dev-scripts', 'keyutils', 'khm-tessdata', 'kir-tessdata', 'kor-tessdata', 'kur-tessdata', 'lager', 'lao-tessdata', 'laszip', 'lat-tessdata', 'lav-tessdata', 'ldacbt', 'lessc', 'level-zero-devel', 'lib32-alsa-lib', 'lib32-bzip2', 'lib32-cracklib', 'lib32-flex', 'lib32-glib2', 'lib32-libblkid', 'lib32-libcap', 'lib32-libdbus', 'lib32-libgif', 'lib32-libglapi', 'lib32-libgles', 'lib32-libice', 'lib32-libsystemd', 'lib32-libtasn1', 'lib32-libudev', 'lib32-libuuid', 'lib32-libxcrypt', 'lib32-libxcrypt-compat', 'lib32-ncurses', 'lib32-tdb', 'lib32-zlib', 'libaal', 'libaio', 'libasyncns', 'libatomic', 'libaudit', 'libb2', 'libblkid', 'libburn', 'libcap', 'libcap-ng', 'libcaption', 'libcbor', 'libcddb', 'libclc', 'libcue', 'libdaemon', 'libdca', 'libdiscid', 'libdispatch', 'libdisplay-info', 'libdmtx', 'libdv', 'libdvbpsi', 'libdvdcss', 'libdvdnav', 'libdvdread', 'libebur128', 'libestr', 'libev', 'libevdev', 'libexif', 'libexttextcat', 'libfabric', 'libfastjson', 'libffi', 'libfreeaptx', 'libfs', 'libgcc', 'libgif', 'libglapi', 'libgles', 'libgomp', 'libgpg-error', 'libgssglue', 'libice', 'libiconv', 'libidn', 'libieee1284', 'libiodbc', 'libjpeg', 'libjpeg-turbo', 'libjpeg6-turbo', 'liblirc', 'liblogging', 'libmad', 'libmcrypt', 'libmd', 'libmnl', 'libmodule', 'libmpack', 'libmpcdec', 'libmpdclient', 'libmspack', 'libndp', 'libnet', 'libnfnetlink', 'libnfs', 'libnftnl', 'libnl', 'libogg', 'liboil', 'libomxil-bellagio', 'libpaper', 'libparserutils', 'libpciaccess', 'libpipeline', 'libpthread-stubs', 'libqb', 'libquadmath', 'libraw1394', 'libsamplerate', 'libseccomp', 'libsepol', 'libserialport', 'libsigsegv', 'libsodium', 'libspiro', 'libsrtp', 'libssp', 'libstemmer', 'libsysprof-capture', 'libtasn1', 'libtommath', 'libtool', 'libtraceevent', 'libudev', 'libunibreak', 'libunistring', 'libupnp', 'liburcu', 'liburing', 'libusb1', 'libutempter', 'libuuid', 'libuv', 'libvisual', 'libvlc', 'libvorbis', 'libwapcaplet', 'libwebsockets', 'libx86emu', 'libxau', 'libxcrypt', 'libxcrypt-compat', 'libxcvt', 'libxdg-basedir', 'libxdmcp', 'libxkbcommon', 'libxshmfence', 'libyaml', 'libytnef', 'libyubikey', 'linux-atm', 'linuxdoc-tools', 'linuxjoymap', 'linuxtv-dvb-apps', 'lit-tessdata', 'live', 'lksctp-tools', 'lmdb', 'lmsensors', 'lndir', 'lp_solve', 'lrzsz', 'lsdvd', 'lsof', 'lsscsi', 'lua', 'lua51', 'lua53', 'lz4', 'lzo', 'm4', 'mailcap', 'make', 'makedepend', 'mal-tessdata', 'mar-tessdata', 'mathjax', 'maxima', 'mbedtls', 'mbrola', 'mcpp', 'md4c', 'mdadm', 'mhash', 'micro', 'microsoft-gsl', 'miniupnpc', 'mkd-tessdata', 'mlocate', 'mlt-tessdata', 'mob', 'ms-sys', 'msa-tessdata', 'msgpack-c', 'msgpack-cxx', 'mtdev', 'mya-tessdata', 'mypaint-brushes', 'nasm', 'nauty', 'ncurses', 'nep-tessdata', 'netsurf-buildsystem', 'nftables', 'nghttp2', 'nghttp3', 'ngtcp2', 'nld-tessdata', 'nlohmann-json', 'nlopt', 'node-gyp', 'noip2', 'nor-tessdata', 'npth', 'nspr', 'nss', 'nss-mdns', 'nss-winbind', 'ntfsprogs', 'numactl', 'nv-codec-headers', 'nv-codec-headers-12.1', 'ocl-icd', 'ois', 'oniguruma', 'openal', 'opencl-clhpp', 'opencl-headers', 'opencore-amr', 'openslp', 'openssh', 'openssl', 'opus', 'orc', 'ori-tessdata', 'osd-tessdata', 'pacman-g2', 'pam', 'pan-tessdata', 'paperkey', 'patch', 'patchutils', 'pciutils', 'pcsc-lite', 'pdfcrack', 'performous-songs', 'picocom', 'pidgin-otr', 'plasma-wayland-protocols', 'plib', 'pol-tessdata', 'popt', 'por-tessdata', 'powerstat', 'ppp', 'psutils', 'publicsuffix-list', 'pugixml', 'pus-tessdata', 'py3status', 'python3', 'qemu-user-static', 'qt6-translations', 'range-v3', 'rapidfuzz-cpp', 'rapydscript-ng', 'rclone', 'rdate', 'recode', 'redis', 'reflex', 'restinio', 'rgb', 'rhash', 'rinutils', 'rnnoise', 'rocm-core', 'rocm-device-libs', 'ron-tessdata', 'rpcsvc-proto', 'rstart', 'rus-tessdata', 'rustc-demangle', 'sablotron', 'san-tessdata', 'sbc', 'scdoc', 'sddm-deepin', 'sdl', 'sdl2', 'sdparm', 'sed', 'serd', 'sessreg', 'setserial', 'sg3-utils', 'sharutils', 'simde', 'simdjson', 'simgear', 'sin-tessdata', 'slk-tessdata', 'slk_frak-tessdata', 'slv-tessdata', 'sof-firmware', 'sol2', 'solarized_sddm_theme', 'sops', 'soxr', 'spa-tessdata', 'spa_old-tessdata', 'speex', 'speexdsp', 'spirv-headers', 'sqi-tessdata', 'srm', 'srp-tessdata', 'srp_latn-tessdata', 'statifier', 'stellar', 'strace', 'stress-ng', 'submount', 'sudo', 'svt-av1', 'swa-tessdata', 'swe-tessdata', 'syncthing', 'syr-tessdata', 'sysfsutils', 'sz', 't1utils', 'talloc', 'tam-tessdata', 'tcc', 'tdb', 'tel-tessdata', 'terminology', 'terraform', 'tessdata', 'tgk-tessdata', 'tgl-tessdata', 'tha-tessdata', 'tidy', 'time', 'tini', 'tir-tessdata', 'tl-expected', 'traceroute', 'tree', 'tree-sitter', 'tslib', 'ttf-bitstream-vera', 'tur-tessdata', 'tv-fonts', 'typescript', 'ucpp', 'udpcast', 'uig-tessdata', 'ukr-tessdata', 'unibilium', 'unicode-character-database', 'unicode-cldr', 'unifdef', 'unrtf', 'unzip', 'urd-tessdata', 'utf8cpp', 'utf8proc', 'uthash', 'util-macros', 'uzb-tessdata', 'uzb_cyrl-tessdata', 'vale', 'valijson', 'vc-intrinsics', 'vde2', 'vie-tessdata', 'vlang', 'volk', 'vulkan-headers', 'vulkan-icd-loader', 'vulkan-utility-libraries', 'wasi-libc', 'wasi-libc++', 'wavegain', 'wavpack', 'websocketpp', 'web_page_replay_go', 'which', 'wireless-regdb', 'wireless_tools', 'wput', 'wqy-bitmapfont-pcf', 'wqy-bitmapfont-ttf', 'x264', 'xcursor-themes', 'xdelta', 'xdg-user-dirs', 'xdg-utils-cxx', 'xfsprogs', 'xfsprogs-attr', 'xmlto', 'xorg-docs', 'xrdp', 'xscope', 'xsimd', 'xvidcore', 'xxhash', 'xz', 'yajl', 'yaml-cpp', 'yarn', 'yasm', 'yid-tessdata', 'zfp', 'zimg', 'zip', 'zix', 'zlib', 'zug', 'zxcvbn-c']"
 +++
@@ -616,11 +616,11 @@ GNU C Library
 * /usr/lib32/libthread_db.so.1
 * /usr/lib32/libutil.so.1
 * /usr/lib32/locale/locale-archive
-* /usr/share/doc/glibc-2.39/COPYING
-* /usr/share/doc/glibc-2.39/COPYING.LIB
-* /usr/share/doc/glibc-2.39/INSTALL
-* /usr/share/doc/glibc-2.39/NEWS
-* /usr/share/doc/glibc-2.39/README
+* /usr/share/doc/glibc-2.40/COPYING
+* /usr/share/doc/glibc-2.40/COPYING.LIB
+* /usr/share/doc/glibc-2.40/INSTALL
+* /usr/share/doc/glibc-2.40/NEWS
+* /usr/share/doc/glibc-2.40/README
 * /usr/share/i18n/charmaps/ANSI_X3.110-1983.gz
 * /usr/share/i18n/charmaps/ANSI_X3.4-1968.gz
 * /usr/share/i18n/charmaps/ARMSCII-8.gz
@@ -1066,12 +1066,14 @@ GNU C Library
 * /usr/share/i18n/locales/li_NL
 * /usr/share/i18n/locales/ln_CD
 * /usr/share/i18n/locales/lo_LA
+* /usr/share/i18n/locales/ltg_LV
 * /usr/share/i18n/locales/lt_LT
 * /usr/share/i18n/locales/lv_LV
 * /usr/share/i18n/locales/lzh_TW
 * /usr/share/i18n/locales/mag_IN
 * /usr/share/i18n/locales/mai_IN
 * /usr/share/i18n/locales/mai_NP
+* /usr/share/i18n/locales/mdf_RU
 * /usr/share/i18n/locales/mfe_MU
 * /usr/share/i18n/locales/mg_MG
 * /usr/share/i18n/locales/mhr_RU
@@ -1129,6 +1131,7 @@ GNU C Library
 * /usr/share/i18n/locales/sah_RU
 * /usr/share/i18n/locales/sat_IN
 * /usr/share/i18n/locales/sa_IN
+* /usr/share/i18n/locales/scn_IT
 * /usr/share/i18n/locales/sc_IT
 * /usr/share/i18n/locales/sd_IN
 * /usr/share/i18n/locales/sd_IN@devanagari

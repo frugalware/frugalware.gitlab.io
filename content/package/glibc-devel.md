@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibc-devel 2.39-6"
-version = "2.39-6"
+title = "glibc-devel 2.40-1"
+version = "2.40-1"
 description = "Development files for glibc."
-date = "2024-05-29T12:55:49"
+date = "2024-07-29T09:11:23"
 aliases = "/packages/219907"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/libc/libc.html"
 arch = "x86_64"
-size = "3276216"
-usize = "20470109"
-sha1sum = "5afae370fddadc402337982692a4e97be355c6a3"
+size = "3295100"
+usize = "20566218"
+sha1sum = "1c1914eb72dcbc6dcfa777bdbb2441530343555e"
 depends = "[]"
 +++
 ### Description: 
@@ -511,7 +511,7 @@ Development files for glibc.
 * /usr/lib/libc_nonshared.a
 * /usr/lib/libdl.a
 * /usr/lib/libg.a
-* /usr/lib/libm-2.39.a
+* /usr/lib/libm-2.40.a
 * /usr/lib/libm.a
 * /usr/lib/libm.so
 * /usr/lib/libmcheck.a

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-tbb 2021.12.0-1"
-version = "2021.12.0-1"
+title = "intel-tbb 2021.13.0-1"
+version = "2021.13.0-1"
 description = "An award-winning C++ runtime library that abstracts the low-level threading details necessary for optimal multi-core performance."
-date = "2024-06-05T12:03:44"
+date = "2024-07-29T09:33:41"
 aliases = "/packages/136209"
 categories = ['devel-core']
 upstreamurl = "http://www.threadingbuildingblocks.org/"
 arch = "x86_64"
-size = "762892"
-usize = "3943295"
-sha1sum = "82597a22901e8c43ddbe6cfb06238183c2c9782c"
+size = "358428"
+usize = "1986110"
+sha1sum = "aa31c70bec06a4d155338d17eecbcbd9ae5bd474"
 depends = "['glibc>=2.34']"
 reverse_depends = "['easyeffects', 'embree', 'ispc', 'mold', 'opencascade', 'opencv', 'openshadinglanguage', 'openturns', 'openvdb', 'rkcommon', 'sysdig']"
 +++
@@ -168,13 +168,13 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/lib/libirml.so.1
 * /usr/lib/libtbb.so
 * /usr/lib/libtbb.so.12
-* /usr/lib/libtbb.so.12.12
+* /usr/lib/libtbb.so.12.13
 * /usr/lib/libtbbmalloc.so
 * /usr/lib/libtbbmalloc.so.2
-* /usr/lib/libtbbmalloc.so.2.12
+* /usr/lib/libtbbmalloc.so.2.13
 * /usr/lib/libtbbmalloc_proxy.so
 * /usr/lib/libtbbmalloc_proxy.so.2
-* /usr/lib/libtbbmalloc_proxy.so.2.12
+* /usr/lib/libtbbmalloc_proxy.so.2.13
 * /usr/lib/pkgconfig/tbb.pc
 * /usr/lib/python3.12/site-packages/TBB-0.2-py3.12-linux-x86_64.egg/EGG-INFO/dependency_links.txt
 * /usr/lib/python3.12/site-packages/TBB-0.2-py3.12-linux-x86_64.egg/EGG-INFO/native_libs.txt
@@ -197,15 +197,7 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/lib/python3.12/site-packages/TBB-0.2-py3.12-linux-x86_64.egg/tbb/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/TBB-0.2-py3.12-linux-x86_64.egg/tbb/__pycache__/__main__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/TBB-0.2-py3.12-linux-x86_64.egg/__pycache__/TBB.cpython-312.pyc
-* /usr/share/doc/intel-tbb-2021.12.0/ChangeLog
-* /usr/share/doc/intel-tbb-2021.12.0/COPYING
-* /usr/share/doc/intel-tbb-2021.12.0/COPYING.LIB
-* /usr/share/doc/intel-tbb-2021.12.0/COPYING.RUNTIME
-* /usr/share/doc/intel-tbb-2021.12.0/COPYING3
-* /usr/share/doc/intel-tbb-2021.12.0/COPYING3.LIB
-* /usr/share/doc/intel-tbb-2021.12.0/INSTALL.md
-* /usr/share/doc/intel-tbb-2021.12.0/NEWS
-* /usr/share/doc/intel-tbb-2021.12.0/README
-* /usr/share/doc/intel-tbb-2021.12.0/README.md
-* /usr/share/doc/intel-tbb-2021.12.0/RELEASE_NOTES.md
+* /usr/share/doc/intel-tbb-2021.13.0/INSTALL.md
+* /usr/share/doc/intel-tbb-2021.13.0/README.md
+* /usr/share/doc/intel-tbb-2021.13.0/RELEASE_NOTES.md
 * /usr/share/doc/TBB/README.md
