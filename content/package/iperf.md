@@ -1,30 +1,29 @@
 +++
 draft = false
-title = "iperf 2.1.9-1"
-version = "2.1.9-1"
+title = "iperf 3.17.1-1"
+version = "3.17.1-1"
 description = "Iperf is a tool to measure maximum TCP bandwidth"
-date = "2024-01-15T15:49:02"
+date = "2024-07-30T15:35:37"
 aliases = "/packages/15107"
 categories = ['network-extra']
-upstreamurl = "https://sourceforge.net/projects/iperf2"
+upstreamurl = "https://github.com/esnet/iperf"
 arch = "x86_64"
-size = "129624"
-usize = "321712"
-sha1sum = "a407611631e6e2b905cb5e290b5d7466be50c662"
+size = "93972"
+usize = "261209"
+sha1sum = "923b065fc32fa20b1676eac1d763b55948b2b868"
 depends = "['libstdc++>=7.3.0-7']"
 +++
 ### Description: 
 Iperf is a tool to measure maximum TCP bandwidth
 
 ### Files: 
-* /usr/bin/iperf
-* /usr/lib/systemd/system/iperf.service
-* /usr/share/doc/iperf-2.1.9/AUTHORS
-* /usr/share/doc/iperf-2.1.9/ChangeLog
-* /usr/share/doc/iperf-2.1.9/COPYING
-* /usr/share/doc/iperf-2.1.9/dast.gif
-* /usr/share/doc/iperf-2.1.9/index.html
-* /usr/share/doc/iperf-2.1.9/INSTALL
-* /usr/share/doc/iperf-2.1.9/README
-* /usr/share/doc/iperf-2.1.9/ui_license.html
-* /usr/share/man/man1/iperf.1.gz
+* /usr/bin/iperf3
+* /usr/include/iperf_api.h
+* /usr/lib/libiperf.so
+* /usr/lib/libiperf.so.0
+* /usr/lib/libiperf.so.0.0.0
+* /usr/share/doc/iperf-3.17.1/INSTALL
+* /usr/share/doc/iperf-3.17.1/LICENSE
+* /usr/share/doc/iperf-3.17.1/README.md
+* /usr/share/man/man1/iperf3.1.gz
+* /usr/share/man/man3/libiperf.3.gz

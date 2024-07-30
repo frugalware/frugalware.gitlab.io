@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fail2ban 1.0.2-5"
-version = "1.0.2-5"
+title = "fail2ban 1.1.0-1"
+version = "1.1.0-1"
 description = "Bans IP that make too many password failures"
-date = "2024-06-18T13:52:51"
+date = "2024-07-30T15:20:09"
 aliases = "/packages/119345"
 categories = ['network-extra']
 upstreamurl = "https://github.com/fail2ban/fail2ban"
 arch = "x86_64"
-size = "788876"
-usize = "3504331"
-sha1sum = "dd31a8d357482ce6b9aff6c4bf27e549c3252847"
+size = "821492"
+usize = "3631350"
+sha1sum = "c7f0896ea3cebb1e1033aff7e118572c5aadc812"
 depends = "['ipset', 'iptables', 'pyinotify', 'python3-py', 'python3-sqlite3', 'python3-systemd', 'whois']"
 +++
 ### Description: 
@@ -54,6 +54,7 @@ Bans IP that make too many password failures
 * /etc/fail2ban/action.d/mail-whois-lines.conf
 * /etc/fail2ban/action.d/mail-whois.conf
 * /etc/fail2ban/action.d/mail.conf
+* /etc/fail2ban/action.d/mikrotik.conf
 * /etc/fail2ban/action.d/mynetwatchman.conf
 * /etc/fail2ban/action.d/netscaler.conf
 * /etc/fail2ban/action.d/nftables-allports.conf
@@ -104,6 +105,7 @@ Bans IP that make too many password failures
 * /etc/fail2ban/filter.d/courier-auth.conf
 * /etc/fail2ban/filter.d/courier-smtp.conf
 * /etc/fail2ban/filter.d/cyrus-imap.conf
+* /etc/fail2ban/filter.d/dante.conf
 * /etc/fail2ban/filter.d/directadmin.conf
 * /etc/fail2ban/filter.d/domino-smtp.conf
 * /etc/fail2ban/filter.d/dovecot.conf
@@ -135,6 +137,8 @@ Bans IP that make too many password failures
 * /etc/fail2ban/filter.d/named-refused.conf
 * /etc/fail2ban/filter.d/nginx-bad-request.conf
 * /etc/fail2ban/filter.d/nginx-botsearch.conf
+* /etc/fail2ban/filter.d/nginx-error-common.conf
+* /etc/fail2ban/filter.d/nginx-forbidden.conf
 * /etc/fail2ban/filter.d/nginx-http-auth.conf
 * /etc/fail2ban/filter.d/nginx-limit-req.conf
 * /etc/fail2ban/filter.d/nsd.conf
@@ -152,6 +156,7 @@ Bans IP that make too many password failures
 * /etc/fail2ban/filter.d/qmail.conf
 * /etc/fail2ban/filter.d/recidive.conf
 * /etc/fail2ban/filter.d/roundcube-auth.conf
+* /etc/fail2ban/filter.d/routeros-auth.conf
 * /etc/fail2ban/filter.d/scanlogd.conf
 * /etc/fail2ban/filter.d/screensharingd.conf
 * /etc/fail2ban/filter.d/selinux-common.conf
@@ -190,10 +195,10 @@ Bans IP that make too many password failures
 * /usr/bin/fail2ban-regex
 * /usr/bin/fail2ban-server
 * /usr/bin/fail2ban-testcases
-* /usr/lib/python3.12/site-packages/fail2ban-1.0.2-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/fail2ban-1.0.2-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/fail2ban-1.0.2-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/fail2ban-1.0.2-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/fail2ban-1.1.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/fail2ban-1.1.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/fail2ban-1.1.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/fail2ban-1.1.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/fail2ban/client/actionreader.py
 * /usr/lib/python3.12/site-packages/fail2ban/client/beautifier.py
 * /usr/lib/python3.12/site-packages/fail2ban/client/configparserinc.py
@@ -224,6 +229,10 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/client/__pycache__/jailreader.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/client/__pycache__/jailsreader.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/client/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fail2ban/compat/asynchat.py
+* /usr/lib/python3.12/site-packages/fail2ban/compat/asyncore.py
+* /usr/lib/python3.12/site-packages/fail2ban/compat/__pycache__/asynchat.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/fail2ban/compat/__pycache__/asyncore.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/exceptions.py
 * /usr/lib/python3.12/site-packages/fail2ban/helpers.py
 * /usr/lib/python3.12/site-packages/fail2ban/protocol.py
@@ -237,7 +246,6 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/server/failmanager.py
 * /usr/lib/python3.12/site-packages/fail2ban/server/failregex.py
 * /usr/lib/python3.12/site-packages/fail2ban/server/filter.py
-* /usr/lib/python3.12/site-packages/fail2ban/server/filtergamin.py
 * /usr/lib/python3.12/site-packages/fail2ban/server/filterpoll.py
 * /usr/lib/python3.12/site-packages/fail2ban/server/filterpyinotify.py
 * /usr/lib/python3.12/site-packages/fail2ban/server/filtersystemd.py
@@ -263,7 +271,6 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/failmanager.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/failregex.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/filter.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/filtergamin.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/filterpoll.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/filterpyinotify.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/server/__pycache__/filtersystemd.cpython-312.pyc
@@ -324,7 +331,6 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/basic/file/.htaccess
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/basic/file/.htpasswd
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/digest.py
-* /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/digest.py.bak
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/digest/.htaccess
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/digest/.htpasswd
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/digest_anon/.htaccess
@@ -338,7 +344,7 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/config/apache-auth/__pycache__/digest.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/database_v1.db
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/database_v2.db
-* /usr/lib/python3.12/site-packages/fail2ban/tests/files/filter.d/substition.conf
+* /usr/lib/python3.12/site-packages/fail2ban/tests/files/filter.d/substitution.conf
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/filter.d/testcase-common.conf
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/filter.d/testcase01.conf
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/filter.d/testcase02.conf
@@ -366,6 +372,7 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/courier-auth
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/courier-smtp
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/cyrus-imap
+* /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/dante
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/directadmin
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/domino-smtp
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/dovecot
@@ -395,6 +402,7 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/named-refused
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/nginx-bad-request
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/nginx-botsearch
+* /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/nginx-forbidden
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/nginx-http-auth
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/nginx-limit-req
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/nsd
@@ -412,6 +420,7 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/qmail
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/recidive
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/roundcube-auth
+* /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/routeros-auth
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/scanlogd
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/screensharingd
 * /usr/lib/python3.12/site-packages/fail2ban/tests/files/logs/selinux-ssh
@@ -489,14 +498,14 @@ Bans IP that make too many password failures
 * /usr/lib/python3.12/site-packages/fail2ban/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/systemd/system/fail2ban.service
 * /usr/lib/tmpfiles.d/fail2ban.conf
-* /usr/share/doc/fail2ban-1.0.2/ChangeLog
-* /usr/share/doc/fail2ban-1.0.2/COPYING
-* /usr/share/doc/fail2ban-1.0.2/MANIFEST
-* /usr/share/doc/fail2ban-1.0.2/README.md
-* /usr/share/doc/fail2ban-1.0.2/README.Solaris
-* /usr/share/doc/fail2ban-1.0.2/RELEASE
-* /usr/share/doc/fail2ban-1.0.2/THANKS
-* /usr/share/doc/fail2ban-1.0.2/TODO
+* /usr/share/doc/fail2ban-1.1.0/ChangeLog
+* /usr/share/doc/fail2ban-1.1.0/COPYING
+* /usr/share/doc/fail2ban-1.1.0/MANIFEST
+* /usr/share/doc/fail2ban-1.1.0/README.md
+* /usr/share/doc/fail2ban-1.1.0/README.Solaris
+* /usr/share/doc/fail2ban-1.1.0/RELEASE
+* /usr/share/doc/fail2ban-1.1.0/THANKS
+* /usr/share/doc/fail2ban-1.1.0/TODO
 * /usr/share/doc/fail2ban/DEVELOP
 * /usr/share/doc/fail2ban/FILTERS
 * /usr/share/doc/fail2ban/README.md

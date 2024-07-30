@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ipset 7.19-1"
-version = "7.19-1"
+title = "ipset 7.22-1"
+version = "7.22-1"
 description = "An administration tool for IP sets."
-date = "2024-01-15T13:36:54"
+date = "2024-07-30T15:29:43"
 aliases = "/packages/219291"
 categories = ['network-extra']
 upstreamurl = "http://ipset.netfilter.org/index.html"
 arch = "x86_64"
-size = "107404"
-usize = "630708"
-sha1sum = "05441097806e98d198480597f7d1aa674f26ec0d"
+size = "112448"
+usize = "488410"
+sha1sum = "70d204745f4ffc7a7644724d93769413194e0a82"
 depends = "['iptables', 'libmnl']"
 reverse_depends = "['fail2ban']"
 +++
@@ -60,10 +60,11 @@ An administration tool for IP sets.
 * /usr/lib/libipset.so.13
 * /usr/lib/libipset.so.13.4.0
 * /usr/lib/pkgconfig/libipset.pc
-* /usr/share/doc/ipset-7.19/ChangeLog
-* /usr/share/doc/ipset-7.19/COPYING
-* /usr/share/doc/ipset-7.19/INSTALL
-* /usr/share/doc/ipset-7.19/README
+* /usr/share/doc/ipset-7.22/ChangeLog
+* /usr/share/doc/ipset-7.22/COPYING
+* /usr/share/doc/ipset-7.22/INSTALL
+* /usr/share/doc/ipset-7.22/README
+* /usr/share/doc/ipset-7.22/README.adoc
 * /usr/share/man/man3/libipset.3.gz
 * /usr/share/man/man8/ipset-translate.8.gz
 * /usr/share/man/man8/ipset.8.gz
