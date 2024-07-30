@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3224408"
 usize = "7590720"
 sha1sum = "b7810336498be029e889d042f3a66a337b9dcdd0"
-depends = "['glade', 'gtk+2>=2.20.0-2', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono>=2.8', 'mono']"
+depends = "['glade', 'gtk+2>=2.20.0-2', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono', 'mono>=2.8']"
 reverse_depends = "['notify-sharp']"
 +++
 ### Description: 
