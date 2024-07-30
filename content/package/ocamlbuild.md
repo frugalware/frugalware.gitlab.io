@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocamlbuild 0.14.3-1"
-version = "0.14.3-1"
+title = "ocamlbuild 0.15.0-1"
+version = "0.15.0-1"
 description = "Build tool, that has built-in rules for building OCaml library and programs"
-date = "2024-06-11T14:47:47"
+date = "2024-07-30T14:02:18"
 aliases = "/packages/219265"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml/ocamlbuild"
 arch = "x86_64"
-size = "1204756"
-usize = "9362814"
-sha1sum = "aeb68791cac0b91c3fe522a8b7e72412647a0b93"
+size = "1198176"
+usize = "9278201"
+sha1sum = "4fe2600d5cb421512e8b0c29197dd79dc329081e"
 depends = "['ocaml>=5.2.0']"
 +++
 ### Description: 
@@ -27,9 +27,6 @@ Build tool, that has built-in rules for building OCaml library and programs
 * /usr/lib/ocaml/ocamlbuild/ocamlbuildlib.a
 * /usr/lib/ocaml/ocamlbuild/ocamlbuildlib.cma
 * /usr/lib/ocaml/ocamlbuild/ocamlbuildlib.cmxa
-* /usr/lib/ocaml/ocamlbuild/ocamlbuild_executor.cmi
-* /usr/lib/ocaml/ocamlbuild/ocamlbuild_executor.cmx
-* /usr/lib/ocaml/ocamlbuild/ocamlbuild_executor.o
 * /usr/lib/ocaml/ocamlbuild/ocamlbuild_pack.cmi
 * /usr/lib/ocaml/ocamlbuild/ocamlbuild_pack.cmx
 * /usr/lib/ocaml/ocamlbuild/ocamlbuild_plugin.cmi
@@ -41,7 +38,7 @@ Build tool, that has built-in rules for building OCaml library and programs
 * /usr/lib/ocaml/ocamlbuild/signatures.cmi
 * /usr/lib/ocaml/ocamlbuild/signatures.cmti
 * /usr/lib/ocaml/ocamlbuild/signatures.mli
-* /usr/share/doc/ocamlbuild-0.14.3/LICENSE
-* /usr/share/doc/ocamlbuild-0.14.3/Readme.md
-* /usr/share/doc/ocamlbuild-0.14.3/VERSION
+* /usr/share/doc/ocamlbuild-0.15.0/LICENSE
+* /usr/share/doc/ocamlbuild-0.15.0/Readme.md
+* /usr/share/doc/ocamlbuild-0.15.0/VERSION
 * /usr/share/man/man1/ocamlbuild.1.gz
