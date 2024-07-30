@@ -12,6 +12,7 @@ size = "27940"
 usize = "84144"
 sha1sum = "75626835f7d43ba70921d9eeec0b765f96e840c4"
 depends = "['qt5-base']"
+reverse_depends = "['greetd-qtgreet']"
 +++
 ### Description: 
 Implementation of systemd/elogin1d for DFL

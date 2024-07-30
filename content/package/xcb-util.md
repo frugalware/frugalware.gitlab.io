@@ -12,7 +12,7 @@ size = "28112"
 usize = "98513"
 sha1sum = "a541b0f0a33185ccd64bc87a0df6438f8d2abc22"
 depends = "['libxau>=1.0.8-3', 'libxcb>=1.13', 'libxdmcp>=1.1.2-3', 'xcb-util-keysyms>=0.4.0-3', 'xcb-util-renderutil>=0.3.9-4']"
-reverse_depends = "['startup-notification', 'wlroots', 'xbacklight', 'xcb-util-image', 'xcb-util-xrm', 'xf86-video-intel']"
+reverse_depends = "['startup-notification', 'wlroots', 'wlroots0.17', 'xbacklight', 'xcb-util-image', 'xcb-util-xrm', 'xf86-video-intel']"
 +++
 ### Description: 
 Utility libraries for X C Binding

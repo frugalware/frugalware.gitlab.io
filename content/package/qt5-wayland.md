@@ -12,7 +12,7 @@ size = "1039548"
 usize = "6178613"
 sha1sum = "f55da251396a2628e6f4ce2b7c4b1778adeb71ac"
 depends = "['libdrm', 'libxcomposite', 'libxkbcommon', 'qt5-declarative>=5.15.6', 'wayland']"
-reverse_depends = "['dfl-wayqt', 'greetd-qtgreet', 'kguiaddons5', 'kwayland5']"
+reverse_depends = "['dfl-wayqt', 'kguiaddons5', 'kwayland5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtwayland

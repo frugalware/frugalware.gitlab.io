@@ -12,6 +12,7 @@ size = "129092"
 usize = "618386"
 sha1sum = "c41a9f6a6fa1ccdeb8900f62f6328ad0c94a6dbf"
 depends = "['qt6-wayland']"
+reverse_depends = "['greetd-qt6greet']"
 +++
 ### Description: 
 A Qt-based wrapper for various wayland protocols Qt6

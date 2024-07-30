@@ -12,6 +12,7 @@ size = "19104"
 usize = "122569"
 sha1sum = "969f4d3e70fd75890a6265171af806ed1f25bde1"
 depends = "['dfl-ipc-qt6']"
+reverse_depends = "['greetd-qt6greet']"
 +++
 ### Description: 
 A class that extends QApplications Qt6

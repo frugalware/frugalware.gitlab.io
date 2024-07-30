@@ -12,7 +12,7 @@ size = "257108"
 usize = "971522"
 sha1sum = "4ce2c422f8af0257bcfb73a2aaef895ad5b89885"
 depends = "['libevdev>=1.5.4-2', 'libudev>=242', 'libwacom>=0.29', 'mtdev>=1.1.5-4']"
-reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-gestures', 'qt5-base', 'qt6-base', 'terminology', 'virtualbox', 'weston', 'wlroots', 'xf86-input-libinput']"
+reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-gestures', 'qt5-base', 'qt6-base', 'terminology', 'virtualbox', 'weston', 'wlroots', 'wlroots0.17', 'xf86-input-libinput']"
 +++
 ### Description: 
 A library to handle input devices in Wayland compositors and to provide a generic X.Org input driver

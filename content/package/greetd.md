@@ -12,7 +12,7 @@ size = "333880"
 usize = "1179278"
 sha1sum = "0371271730509e947f36b73480d46a896e1e6b5e"
 depends = "['libcap-ng', 'pam', 'systemd']"
-reverse_depends = "['greetd-qtgreet']"
+reverse_depends = "['greetd-qt6greet', 'greetd-qtgreet']"
 +++
 ### Description: 
 Generic greeter daemon

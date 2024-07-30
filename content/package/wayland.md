@@ -12,7 +12,7 @@ size = "137056"
 usize = "860217"
 sha1sum = "8f81477a686fdf69e47b5eea92f2256b3b5d3a3e"
 depends = "['expat>=2.1.0-6', 'libffi>=3.4', 'libxml2']"
-reverse_depends = "['clightd', 'efl', 'efl', 'egl-wayland', 'enlightenment', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gtk-layer-shell', 'intel-media-sdk', 'kitty', 'libegl', 'libgbm', 'libva', 'libvpl', 'mangohud', 'mesa-libegl', 'qt5-wayland', 'qt6-wayland', 'terminology', 'wayland-protocols', 'wayland-utils', 'weston', 'wl-clipboard', 'wlroots', 'wpebackend-fdo', 'wrapland']"
+reverse_depends = "['clightd', 'efl', 'efl', 'egl-wayland', 'enlightenment', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gtk-layer-shell', 'intel-media-sdk', 'kitty', 'libegl', 'libgbm', 'libva', 'libvpl', 'mangohud', 'mesa-libegl', 'qt5-wayland', 'qt6-wayland', 'terminology', 'wayland-protocols', 'wayland-utils', 'weston', 'wl-clipboard', 'wlroots', 'wlroots0.17', 'wpebackend-fdo', 'wrapland']"
 +++
 ### Description: 
 Wayland is intended as a simpler replacement for Xorg.

@@ -12,7 +12,7 @@ size = "128272"
 usize = "523856"
 sha1sum = "8a2f42fa3d11c39dbf44fcc3e781f21e9e16938c"
 depends = "['glibc>=2.35']"
-reverse_depends = "['glfw', 'gst1-plugins-bad-vulkan', 'gtk+4', 'libplacebo', 'mangohud', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'mesademos', 'openxr', 'pipewire', 'vkd3d', 'vulkan-lunarg-tools', 'vulkan-tools', 'wine', 'wine-devel', 'wlroots']"
+reverse_depends = "['glfw', 'gst1-plugins-bad-vulkan', 'gtk+4', 'libplacebo', 'mangohud', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'mesademos', 'openxr', 'pipewire', 'vkd3d', 'vulkan-lunarg-tools', 'vulkan-tools', 'wine', 'wine-devel', 'wlroots', 'wlroots0.17']"
 +++
 ### Description: 
 Vulkan Installable Client Driver (ICD) Loader

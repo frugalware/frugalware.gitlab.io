@@ -12,7 +12,7 @@ size = "273084"
 usize = "797731"
 sha1sum = "92f5c475fb00e2564599b860ab2efd9b0bfe7d40"
 depends = "['libpng']"
-reverse_depends = "['cairo', 'easyrpg-player', 'libfprint', 'neatvnc', 'qemu', 'spice', 'spice-glib', 'wlroots', 'xf86-video-intel', 'xorg-server', 'xorg-server-fbdev', 'xorg-server-xephyr', 'xorg-server-xwayland']"
+reverse_depends = "['cairo', 'easyrpg-player', 'libfprint', 'neatvnc', 'qemu', 'spice', 'spice-glib', 'wlroots', 'wlroots0.17', 'xf86-video-intel', 'xorg-server', 'xorg-server-fbdev', 'xorg-server-xephyr', 'xorg-server-xwayland']"
 license = "GPL2"
 +++
 ### Description: 

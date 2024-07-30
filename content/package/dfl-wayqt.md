@@ -12,6 +12,7 @@ size = "102948"
 usize = "487912"
 sha1sum = "7643528059923ae917c3f3a742f67b0f679b7835"
 depends = "['qt5-base', 'qt5-wayland']"
+reverse_depends = "['greetd-qtgreet']"
 +++
 ### Description: 
 A Qt-based wrapper for various wayland protocols

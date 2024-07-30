@@ -12,7 +12,7 @@ size = "21336"
 usize = "68671"
 sha1sum = "be644c511210ff828c7e3c84eb1db5343de062d1"
 depends = "['libxcb>=1.12-2']"
-reverse_depends = "['wlroots', 'xcb-util', 'xorg-server-xephyr']"
+reverse_depends = "['wlroots', 'wlroots0.17', 'xcb-util', 'xorg-server-xephyr']"
 license = "GPL2"
 +++
 ### Description: 

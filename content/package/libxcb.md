@@ -12,7 +12,7 @@ size = "1023300"
 usize = "4458093"
 sha1sum = "46e57d8696dcab6f767200d4d77b5f48df3e5919"
 depends = "['libxau>=1.0.8-8', 'libxdmcp>=1.1.2-8']"
-reverse_depends = "['cairo', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'intel-media-sdk', 'libx11', 'libxkbcommon', 'mlt', 'nushell', 'qt5-base', 'redshift', 'sylpheed', 'terminology', 'vulkan-mesa-layers', 'vulkan-tools', 'whalebird', 'wlroots', 'xbacklight', 'xcb-util', 'xcb-util-image', 'xcb-util-keysyms', 'xcb-util-renderutil', 'xcb-util-wm', 'xlsatoms', 'xlsclients', 'xrdp', 'xwininfo']"
+reverse_depends = "['cairo', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'intel-media-sdk', 'libx11', 'libxkbcommon', 'mlt', 'nushell', 'qt5-base', 'redshift', 'sylpheed', 'terminology', 'vulkan-mesa-layers', 'vulkan-tools', 'whalebird', 'wlroots', 'wlroots0.17', 'xbacklight', 'xcb-util', 'xcb-util-image', 'xcb-util-keysyms', 'xcb-util-renderutil', 'xcb-util-wm', 'xlsatoms', 'xlsclients', 'xrdp', 'xwininfo']"
 license = "GPL2"
 +++
 ### Description: 

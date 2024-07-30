@@ -12,7 +12,7 @@ size = "329488"
 usize = "1193726"
 sha1sum = "c4fc2251e71ef026a76aa6b0f67a9dc00822edbc"
 depends = "['libdrm', 'libgbm', 'libglvnd', 'libinput', 'libxcb', 'libxkbcommon', 'pixman', 'seatd', 'vulkan-icd-loader', 'wayland', 'xcb-util', 'xcb-util-renderutil', 'xcb-util-wm']"
-reverse_depends = "['greetd-qtgreet']"
+reverse_depends = "['greetd-qt6greet']"
 +++
 ### Description: 
 Modular Wayland compositor library

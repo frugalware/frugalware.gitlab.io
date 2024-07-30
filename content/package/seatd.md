@@ -12,7 +12,7 @@ size = "34800"
 usize = "115785"
 sha1sum = "47763cdd2a0b5d6d34b8dcc3fea3c492eec13c46"
 depends = "['scdoc', 'systemd']"
-reverse_depends = "['weston', 'wlroots']"
+reverse_depends = "['weston', 'wlroots', 'wlroots0.17']"
 +++
 ### Description: 
 A minimal seat management daemon, and a universal seat management library

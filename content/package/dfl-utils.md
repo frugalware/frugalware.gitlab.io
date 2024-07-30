@@ -12,6 +12,7 @@ size = "20440"
 usize = "59610"
 sha1sum = "70bc7e8ba4b59fd838d22dc8e57e6df0af3145cd"
 depends = "['qt5-base']"
+reverse_depends = "['greetd-qtgreet']"
 +++
 ### Description: 
 Some utilities for DFL
