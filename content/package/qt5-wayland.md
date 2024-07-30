@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-wayland 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-wayland 5.15.14-2"
+version = "5.15.14-2"
 description = "The Qt5 toolkit, qtwayland"
-date = "2024-05-26T12:39:43"
+date = "2024-07-30T09:12:34"
 aliases = "/packages/217630"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1020832"
-usize = "6230158"
-sha1sum = "78c519c57c7d1b3e76d9acd23612ee78f7b4a2b3"
-depends = "['libdrm', 'libxcomposite', 'qt5-declarative>=5.15.6', 'wayland']"
+size = "1039548"
+usize = "6178613"
+sha1sum = "f55da251396a2628e6f4ce2b7c4b1778adeb71ac"
+depends = "['libdrm', 'libxcomposite', 'libxkbcommon', 'qt5-declarative>=5.15.6', 'wayland']"
 reverse_depends = "['greetd-qtgreet', 'kguiaddons5', 'kwayland5']"
 +++
 ### Description: 

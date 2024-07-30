@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-wayland 6.7.2-1"
-version = "6.7.2-1"
+title = "qt6-wayland 6.7.2-2"
+version = "6.7.2-2"
 description = "The Qt6 toolkit, qtwayland"
-date = "2024-06-19T15:05:22"
+date = "2024-07-30T09:05:51"
 aliases = "/packages/220788"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1062968"
+size = "1059024"
 usize = "7317518"
-sha1sum = "e2648730faf343ef8f36f0a29d32aeed49d9fb58"
-depends = "['libdrm', 'qt6-declarative', 'wayland']"
+sha1sum = "7d230938a38dbea6c43869f0bac0e943be18f826"
+depends = "['libdrm', 'libxkbcommon', 'qt6-declarative', 'wayland']"
 reverse_depends = "['kguiaddons', 'kwayland', 'kwin', 'kwindowsystem', 'ladybird', 'layer-shell-qt', 'plasma-wayland-session', 'telegram-desktop']"
 +++
 ### Description: 
