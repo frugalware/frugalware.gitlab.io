@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grpc 1.65.1-1"
-version = "1.65.1-1"
+title = "grpc 1.65.2-1"
+version = "1.65.2-1"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2024-07-17T18:44:58"
+date = "2024-07-30T20:37:03"
 aliases = "/packages/219876"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "4698888"
-usize = "20622144"
-sha1sum = "535a87039eedc607a5769e90e092e69c0b616a67"
+size = "4713968"
+usize = "20635680"
+sha1sum = "842ec44fd696e0fa989c481136111596d0d49c3b"
 depends = "['c-ares', 'icu4c>=75.1', 'openssl>=3.1.0', 'protobuf>=27.2', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
@@ -330,31 +330,31 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/libgpr.so.42.0.0
 * /usr/lib/libgrpc++.so
 * /usr/lib/libgrpc++.so.1.65
-* /usr/lib/libgrpc++.so.1.65.1
+* /usr/lib/libgrpc++.so.1.65.2
 * /usr/lib/libgrpc++_alts.so
 * /usr/lib/libgrpc++_alts.so.1.65
-* /usr/lib/libgrpc++_alts.so.1.65.1
+* /usr/lib/libgrpc++_alts.so.1.65.2
 * /usr/lib/libgrpc++_error_details.so
 * /usr/lib/libgrpc++_error_details.so.1.65
-* /usr/lib/libgrpc++_error_details.so.1.65.1
+* /usr/lib/libgrpc++_error_details.so.1.65.2
 * /usr/lib/libgrpc++_reflection.so
 * /usr/lib/libgrpc++_reflection.so.1.65
-* /usr/lib/libgrpc++_reflection.so.1.65.1
+* /usr/lib/libgrpc++_reflection.so.1.65.2
 * /usr/lib/libgrpc++_unsecure.so
 * /usr/lib/libgrpc++_unsecure.so.1.65
-* /usr/lib/libgrpc++_unsecure.so.1.65.1
+* /usr/lib/libgrpc++_unsecure.so.1.65.2
 * /usr/lib/libgrpc.so
 * /usr/lib/libgrpc.so.42
 * /usr/lib/libgrpc.so.42.0.0
 * /usr/lib/libgrpcpp_channelz.so
 * /usr/lib/libgrpcpp_channelz.so.1.65
-* /usr/lib/libgrpcpp_channelz.so.1.65.1
+* /usr/lib/libgrpcpp_channelz.so.1.65.2
 * /usr/lib/libgrpc_authorization_provider.so
 * /usr/lib/libgrpc_authorization_provider.so.1.65
-* /usr/lib/libgrpc_authorization_provider.so.1.65.1
+* /usr/lib/libgrpc_authorization_provider.so.1.65.2
 * /usr/lib/libgrpc_plugin_support.so
 * /usr/lib/libgrpc_plugin_support.so.1.65
-* /usr/lib/libgrpc_plugin_support.so.1.65.1
+* /usr/lib/libgrpc_plugin_support.so.1.65.2
 * /usr/lib/libgrpc_unsecure.so
 * /usr/lib/libgrpc_unsecure.so.42
 * /usr/lib/libgrpc_unsecure.so.42.0.0
@@ -382,7 +382,7 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/pkgconfig/grpc.pc
 * /usr/lib/pkgconfig/grpcpp_otel_plugin.pc
 * /usr/lib/pkgconfig/grpc_unsecure.pc
-* /usr/share/doc/grpc-1.65.1/AUTHORS
-* /usr/share/doc/grpc-1.65.1/LICENSE
-* /usr/share/doc/grpc-1.65.1/README.md
+* /usr/share/doc/grpc-1.65.2/AUTHORS
+* /usr/share/doc/grpc-1.65.2/LICENSE
+* /usr/share/doc/grpc-1.65.2/README.md
 * /usr/share/grpc/roots.pem
