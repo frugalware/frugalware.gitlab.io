@@ -12,7 +12,7 @@ size = "176320"
 usize = "733337"
 sha1sum = "42eed5b2a96877dea22e263a05ad0d1a5bf17bee"
 depends = "['qt5-x11extras>=5.15.14', 'xcb-util-keysyms>=0.4.0-3']"
-reverse_depends = "['kcrash5', 'kwayland-integration', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'rkward']"
+reverse_depends = "['kcrash5', 'kwayland-integration', 'libreoffice-gtk3-kde5', 'libreoffice-kde5']"
 +++
 ### Description: 
 KDE Access to window manager.

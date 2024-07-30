@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncat 7.94-2"
-version = "7.94-2"
+title = "ncat 7.95-1"
+version = "7.95-1"
 description = "Ncat is a feature-packed networking utility which reads and writes data across networks"
-date = "2023-10-12T11:37:37"
+date = "2024-07-30T15:04:00"
 aliases = "/packages/219262"
 categories = ['base']
 upstreamurl = "http://www.nmap.org"
 arch = "x86_64"
-size = "194940"
-usize = "457322"
-sha1sum = "3a0d6bde2c2abd1266310aeb564ca8e9e286c1f5"
+size = "195760"
+usize = "452297"
+sha1sum = "5367dae11cfe1d3c183486eb1e1320d376589c2f"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['nmap']"
 +++

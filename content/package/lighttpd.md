@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lighttpd 1.4.73-2"
-version = "1.4.73-2"
+title = "lighttpd 1.4.76-1"
+version = "1.4.76-1"
 description = "A webserver designed and optimized for high performance environments."
-date = "2024-02-01T14:49:25"
+date = "2024-07-30T15:01:44"
 aliases = "/packages/9439"
 categories = ['network-extra']
 upstreamurl = "http://www.lighttpd.net/"
 arch = "x86_64"
-size = "426256"
-usize = "1412534"
-sha1sum = "7323d10e65f9c09a2e7893d7be856aac639666a6"
+size = "434684"
+usize = "1308332"
+sha1sum = "da82d3b61aa722dcc9dd8e5c6ff579f5f06cb5d1"
 depends = "['bzip2', 'geoip', 'libldap>=2.5.4', 'lua>=5.4', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pam', 'pcre>=8.30', 'xfsprogs-attr']"
 license = "BSD"
 +++
@@ -68,12 +68,12 @@ A webserver designed and optimized for high performance environments.
 * /usr/lib/mod_webdav.so
 * /usr/lib/mod_wstunnel.so
 * /usr/lib/systemd/system/lighttpd.service
-* /usr/share/doc/lighttpd-1.4.73/AUTHORS
-* /usr/share/doc/lighttpd-1.4.73/COPYING
-* /usr/share/doc/lighttpd-1.4.73/INSTALL
-* /usr/share/doc/lighttpd-1.4.73/NEWS
-* /usr/share/doc/lighttpd-1.4.73/README
-* /usr/share/doc/lighttpd-1.4.73/README.FreeBSD
+* /usr/share/doc/lighttpd-1.4.76/AUTHORS
+* /usr/share/doc/lighttpd-1.4.76/COPYING
+* /usr/share/doc/lighttpd-1.4.76/INSTALL
+* /usr/share/doc/lighttpd-1.4.76/NEWS
+* /usr/share/doc/lighttpd-1.4.76/README
+* /usr/share/doc/lighttpd-1.4.76/README.FreeBSD
 * /usr/share/man/man8/lighttpd-angel.8.gz
 * /usr/share/man/man8/lighttpd.8.gz
 * /var/www/htdocs/frugalware.png

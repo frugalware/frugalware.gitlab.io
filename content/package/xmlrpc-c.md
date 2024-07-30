@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xmlrpc-c 1.54.06-2"
-version = "1.54.06-2"
+title = "xmlrpc-c 1.59.03-1"
+version = "1.59.03-1"
 description = "This library provides a modular implementation of XML-RPC for C and C++."
-date = "2023-03-16T04:13:04"
+date = "2024-07-30T15:07:25"
 aliases = "/packages/15116"
 categories = ['network-extra']
 upstreamurl = "http://xmlrpc-c.sourceforge.net/"
 arch = "x86_64"
-size = "335296"
-usize = "1466989"
-sha1sum = "b27792363f476c19a97f02cb4770f1377f3354f3"
+size = "342804"
+usize = "1330446"
+sha1sum = "153bea3a0474e2d426239606ad6d0b28b4865756"
 depends = "['curl>=7.19.0', 'libstdc++', 'libxml2>=2.7.8', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['rtorrent']"
 +++
@@ -71,62 +71,62 @@ This library provides a modular implementation of XML-RPC for C and C++.
 * /usr/include/xmlrpc_server.h
 * /usr/include/xmlrpc_server_w32httpsys.h
 * /usr/lib/libxmlrpc++.so
-* /usr/lib/libxmlrpc++.so.8
-* /usr/lib/libxmlrpc++.so.8.54
+* /usr/lib/libxmlrpc++.so.9
+* /usr/lib/libxmlrpc++.so.9.59
 * /usr/lib/libxmlrpc.so
 * /usr/lib/libxmlrpc.so.3
-* /usr/lib/libxmlrpc.so.3.54
+* /usr/lib/libxmlrpc.so.3.59
 * /usr/lib/libxmlrpc_abyss++.so
-* /usr/lib/libxmlrpc_abyss++.so.8
-* /usr/lib/libxmlrpc_abyss++.so.8.54
+* /usr/lib/libxmlrpc_abyss++.so.9
+* /usr/lib/libxmlrpc_abyss++.so.9.59
 * /usr/lib/libxmlrpc_abyss.so
 * /usr/lib/libxmlrpc_abyss.so.3
-* /usr/lib/libxmlrpc_abyss.so.3.54
+* /usr/lib/libxmlrpc_abyss.so.3.59
 * /usr/lib/libxmlrpc_client++.so
-* /usr/lib/libxmlrpc_client++.so.8
-* /usr/lib/libxmlrpc_client++.so.8.54
+* /usr/lib/libxmlrpc_client++.so.9
+* /usr/lib/libxmlrpc_client++.so.9.59
 * /usr/lib/libxmlrpc_client.so
 * /usr/lib/libxmlrpc_client.so.3
-* /usr/lib/libxmlrpc_client.so.3.54
+* /usr/lib/libxmlrpc_client.so.3.59
 * /usr/lib/libxmlrpc_cpp.so
-* /usr/lib/libxmlrpc_cpp.so.8
-* /usr/lib/libxmlrpc_cpp.so.8.54
+* /usr/lib/libxmlrpc_cpp.so.9
+* /usr/lib/libxmlrpc_cpp.so.9.59
 * /usr/lib/libxmlrpc_packetsocket.so
-* /usr/lib/libxmlrpc_packetsocket.so.8
-* /usr/lib/libxmlrpc_packetsocket.so.8.54
+* /usr/lib/libxmlrpc_packetsocket.so.9
+* /usr/lib/libxmlrpc_packetsocket.so.9.59
 * /usr/lib/libxmlrpc_server++.so
-* /usr/lib/libxmlrpc_server++.so.8
-* /usr/lib/libxmlrpc_server++.so.8.54
+* /usr/lib/libxmlrpc_server++.so.9
+* /usr/lib/libxmlrpc_server++.so.9.59
 * /usr/lib/libxmlrpc_server.so
 * /usr/lib/libxmlrpc_server.so.3
-* /usr/lib/libxmlrpc_server.so.3.54
+* /usr/lib/libxmlrpc_server.so.3.59
 * /usr/lib/libxmlrpc_server_abyss++.so
-* /usr/lib/libxmlrpc_server_abyss++.so.8
-* /usr/lib/libxmlrpc_server_abyss++.so.8.54
+* /usr/lib/libxmlrpc_server_abyss++.so.9
+* /usr/lib/libxmlrpc_server_abyss++.so.9.59
 * /usr/lib/libxmlrpc_server_abyss.so
 * /usr/lib/libxmlrpc_server_abyss.so.3
-* /usr/lib/libxmlrpc_server_abyss.so.3.54
+* /usr/lib/libxmlrpc_server_abyss.so.3.59
 * /usr/lib/libxmlrpc_server_cgi++.so
-* /usr/lib/libxmlrpc_server_cgi++.so.8
-* /usr/lib/libxmlrpc_server_cgi++.so.8.54
+* /usr/lib/libxmlrpc_server_cgi++.so.9
+* /usr/lib/libxmlrpc_server_cgi++.so.9.59
 * /usr/lib/libxmlrpc_server_cgi.so
 * /usr/lib/libxmlrpc_server_cgi.so.3
-* /usr/lib/libxmlrpc_server_cgi.so.3.54
+* /usr/lib/libxmlrpc_server_cgi.so.3.59
 * /usr/lib/libxmlrpc_server_pstream++.so
-* /usr/lib/libxmlrpc_server_pstream++.so.8
-* /usr/lib/libxmlrpc_server_pstream++.so.8.54
+* /usr/lib/libxmlrpc_server_pstream++.so.9
+* /usr/lib/libxmlrpc_server_pstream++.so.9.59
 * /usr/lib/libxmlrpc_util++.so
-* /usr/lib/libxmlrpc_util++.so.8
-* /usr/lib/libxmlrpc_util++.so.8.54
+* /usr/lib/libxmlrpc_util++.so.9
+* /usr/lib/libxmlrpc_util++.so.9.59
 * /usr/lib/libxmlrpc_util.so
 * /usr/lib/libxmlrpc_util.so.4
-* /usr/lib/libxmlrpc_util.so.4.54
+* /usr/lib/libxmlrpc_util.so.4.59
 * /usr/lib/libxmlrpc_xmlparse.so
 * /usr/lib/libxmlrpc_xmlparse.so.3
-* /usr/lib/libxmlrpc_xmlparse.so.3.54
+* /usr/lib/libxmlrpc_xmlparse.so.3.59
 * /usr/lib/libxmlrpc_xmltok.so
 * /usr/lib/libxmlrpc_xmltok.so.3
-* /usr/lib/libxmlrpc_xmltok.so.3.54
+* /usr/lib/libxmlrpc_xmltok.so.3.59
 * /usr/lib/pkgconfig/xmlrpc++.pc
 * /usr/lib/pkgconfig/xmlrpc.pc
 * /usr/lib/pkgconfig/xmlrpc_abyss++.pc
@@ -141,6 +141,6 @@ This library provides a modular implementation of XML-RPC for C and C++.
 * /usr/lib/pkgconfig/xmlrpc_server_pstream++.pc
 * /usr/lib/pkgconfig/xmlrpc_util++.pc
 * /usr/lib/pkgconfig/xmlrpc_util.pc
-* /usr/share/doc/xmlrpc-c-1.54.06/README
+* /usr/share/doc/xmlrpc-c-1.59.03/README
 * /usr/share/man/man1/xml-rpc-api2cpp.1.gz
 * /usr/share/man/man1/xml-rpc-api2txt.1.gz

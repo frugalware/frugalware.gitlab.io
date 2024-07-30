@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polychromatic 0.9.1-3"
-version = "0.9.1-3"
+title = "polychromatic 0.9.2-1"
+version = "0.9.2-1"
 description = "A graphical front end for managing Razer peripherals under GNU/Linux."
-date = "2024-06-21T12:07:56"
+date = "2024-07-30T14:36:23"
 aliases = "/packages/220392"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/polychromatic/polychromatic"
 arch = "x86_64"
-size = "717500"
-usize = "4508748"
-sha1sum = "498fb98547e877948fab0b1d9acf23fe2544ce2b"
+size = "716516"
+usize = "4513429"
+sha1sum = "9b69ffec4ea55c49d04a7e0b488cd40363f02b1f"
 depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqt6webengine', 'python3-colorama', 'python3-colour']"
 +++
 ### Description: 
@@ -73,9 +73,9 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/lib/python3.12/site-packages/polychromatic/__pycache__/procpid.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/polychromatic/__pycache__/__init__.cpython-312.pyc
 * /usr/share/applications/polychromatic.desktop
-* /usr/share/doc/polychromatic-0.9.1/CHANGELOG
-* /usr/share/doc/polychromatic-0.9.1/LICENSE
-* /usr/share/doc/polychromatic-0.9.1/README.md
+* /usr/share/doc/polychromatic-0.9.2/CHANGELOG
+* /usr/share/doc/polychromatic-0.9.2/LICENSE
+* /usr/share/doc/polychromatic-0.9.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/polychromatic.png
 * /usr/share/icons/hicolor/16x16/apps/polychromatic.png
 * /usr/share/icons/hicolor/256x256/apps/polychromatic.png

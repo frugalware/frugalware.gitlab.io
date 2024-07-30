@@ -12,7 +12,7 @@ size = "443668"
 usize = "2517319"
 sha1sum = "580d7fbffe04a4575a3c4556b551b16b0d56eed7"
 depends = "['docbook-xsl', 'karchive5>=5.116.0', 'libxslt']"
-reverse_depends = "['kio5', 'rkward']"
+reverse_depends = "['kio5']"
 +++
 ### Description: 
 Create documentation from DocBook.

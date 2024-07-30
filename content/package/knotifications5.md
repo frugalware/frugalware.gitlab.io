@@ -12,7 +12,7 @@ size = "131788"
 usize = "509885"
 sha1sum = "469f7541a496b61459f45dcd2589e640bcfc55db"
 depends = "['kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'libcanberra', 'libcanberra-alsa', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'phonon-qt5>=4.9.1-5', 'qt5-speech>=5.15.14']"
-reverse_depends = "['babe', 'krdc', 'kwallet5', 'rkward']"
+reverse_depends = "['babe', 'krdc', 'kwallet5']"
 +++
 ### Description: 
 KDE Desktop notifications.

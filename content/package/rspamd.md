@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rspamd 3.8.4-2"
-version = "3.8.4-2"
+title = "rspamd 3.9.1-1"
+version = "3.9.1-1"
 description = "Rapid spam filtering system."
-date = "2024-04-20T12:24:33"
+date = "2024-07-30T14:59:35"
 aliases = "/packages/219819"
 categories = ['network-extra']
 upstreamurl = "https://github.com/rspamd/rspamd"
 arch = "x86_64"
-size = "3788372"
-usize = "13419521"
-sha1sum = "39659638b86d78ad04392290f530d9888a58007c"
+size = "3809528"
+usize = "13609586"
+sha1sum = "3fd99deb728c4bcf8c1a425bcb46315141cb1caf"
 depends = "['glib2', 'hyperscan', 'icu4c>=75.1', 'libsodium>=1.0.19', 'luajit2']"
 +++
 ### Description: 
@@ -27,6 +27,7 @@ Rapid spam filtering system.
 * /etc/rspamd/lang_detection.inc
 * /etc/rspamd/logging.inc
 * /etc/rspamd/maps.d/dmarc_whitelist.inc
+* /etc/rspamd/maps.d/exe_clickbait.inc
 * /etc/rspamd/maps.d/maillist.inc
 * /etc/rspamd/maps.d/mid.inc
 * /etc/rspamd/maps.d/mime_types.inc
@@ -39,6 +40,7 @@ Rapid spam filtering system.
 * /etc/rspamd/modules.d/arc.conf
 * /etc/rspamd/modules.d/asn.conf
 * /etc/rspamd/modules.d/aws_s3.conf
+* /etc/rspamd/modules.d/bayes_expiry.conf
 * /etc/rspamd/modules.d/bimi.conf
 * /etc/rspamd/modules.d/chartable.conf
 * /etc/rspamd/modules.d/clickhouse.conf
@@ -53,6 +55,7 @@ Rapid spam filtering system.
 * /etc/rspamd/modules.d/force_actions.conf
 * /etc/rspamd/modules.d/forged_recipients.conf
 * /etc/rspamd/modules.d/fuzzy_check.conf
+* /etc/rspamd/modules.d/gpt.conf
 * /etc/rspamd/modules.d/greylist.conf
 * /etc/rspamd/modules.d/hfilter.conf
 * /etc/rspamd/modules.d/history_redis.conf
@@ -106,11 +109,11 @@ Rapid spam filtering system.
 * /etc/rspamd/worker-normal.inc
 * /etc/rspamd/worker-proxy.inc
 * /usr/bin/rspamadm
-* /usr/bin/rspamadm-3.8.4
+* /usr/bin/rspamadm-3.9.1
 * /usr/bin/rspamc
-* /usr/bin/rspamc-3.8.4
+* /usr/bin/rspamc-3.9.1
 * /usr/bin/rspamd
-* /usr/bin/rspamd-3.8.4
+* /usr/bin/rspamd-3.9.1
 * /usr/bin/rspamd_stats
 * /usr/lib/rspamd/librspamd-actrie.so
 * /usr/lib/rspamd/librspamd-ev.so
@@ -120,8 +123,8 @@ Rapid spam filtering system.
 * /usr/lib/systemd/system/rspamd.service
 * /usr/lib/sysusers.d/rspamd.conf
 * /usr/lib/tmpfiles.d/rspamd.conf
-* /usr/share/doc/rspamd-3.8.4/ChangeLog
-* /usr/share/doc/rspamd-3.8.4/README.md
+* /usr/share/doc/rspamd-3.9.1/ChangeLog
+* /usr/share/doc/rspamd-3.9.1/README.md
 * /usr/share/man/man1/rspamadm.1.gz
 * /usr/share/man/man1/rspamc.1.gz
 * /usr/share/man/man8/rspamd.8.gz
@@ -257,6 +260,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/redis_scripts/ratelimit_check.lua
 * /usr/share/rspamd/lualib/redis_scripts/ratelimit_cleanup_pending.lua
 * /usr/share/rspamd/lualib/redis_scripts/ratelimit_update.lua
+* /usr/share/rspamd/lualib/rspamadm/classifier_test.lua
 * /usr/share/rspamd/lualib/rspamadm/clickhouse.lua
 * /usr/share/rspamd/lualib/rspamadm/configgraph.lua
 * /usr/share/rspamd/lualib/rspamadm/confighelp.lua
@@ -298,6 +302,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/plugins/force_actions.lua
 * /usr/share/rspamd/plugins/forged_recipients.lua
 * /usr/share/rspamd/plugins/fuzzy_collect.lua
+* /usr/share/rspamd/plugins/gpt.lua
 * /usr/share/rspamd/plugins/greylist.lua
 * /usr/share/rspamd/plugins/hfilter.lua
 * /usr/share/rspamd/plugins/history_redis.lua
@@ -329,6 +334,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/plugins/trie.lua
 * /usr/share/rspamd/plugins/url_redirector.lua
 * /usr/share/rspamd/plugins/whitelist.lua
+* /usr/share/rspamd/rules/archives.lua
 * /usr/share/rspamd/rules/bitcoin.lua
 * /usr/share/rspamd/rules/bounce.lua
 * /usr/share/rspamd/rules/content.lua
@@ -370,6 +376,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/www/fonts/glyphicons-halflings-regular.woff2
 * /usr/share/rspamd/www/img/asc.png
 * /usr/share/rspamd/www/img/desc.png
+* /usr/share/rspamd/www/img/drop-area.svg
 * /usr/share/rspamd/www/img/rspamd_logo_navbar.png
 * /usr/share/rspamd/www/index.html
 * /usr/share/rspamd/www/js/app/common.js

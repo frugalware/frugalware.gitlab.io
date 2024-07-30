@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nmap 7.94-2"
-version = "7.94-2"
+title = "nmap 7.95-1"
+version = "7.95-1"
 description = "A network exploration tool and security scanner"
-date = "2023-10-12T11:37:37"
+date = "2024-07-30T15:04:00"
 aliases = "/packages/3263"
 categories = ['network-extra']
 upstreamurl = "http://www.nmap.org"
 arch = "x86_64"
-size = "5829080"
-usize = "26295627"
-sha1sum = "cbfab50acc5c0e9abb7317245da40bc9d06509c8"
+size = "5917644"
+usize = "26856374"
+sha1sum = "e7278864aa8a84adb016c9540651c99855a15083"
 depends = "['libpcap>=1.2.0', 'libssh2', 'ncat', 'openssl>=3.1.0']"
 reverse_depends = "['nmapsi4']"
 +++
@@ -23,12 +23,12 @@ A network exploration tool and security scanner
 * /usr/bin/uninstall_ndiff
 * /usr/lib/python3.12/site-packages/ndiff.py
 * /usr/lib/python3.12/site-packages/__pycache__/ndiff.cpython-312.pyc
-* /usr/share/doc/nmap-7.94/CHANGELOG
-* /usr/share/doc/nmap-7.94/HACKING
-* /usr/share/doc/nmap-7.94/INSTALL
-* /usr/share/doc/nmap-7.94/LICENSE
-* /usr/share/doc/nmap-7.94/README-WIN32
-* /usr/share/doc/nmap-7.94/README.md
+* /usr/share/doc/nmap-7.95/CHANGELOG
+* /usr/share/doc/nmap-7.95/HACKING
+* /usr/share/doc/nmap-7.95/INSTALL
+* /usr/share/doc/nmap-7.95/LICENSE
+* /usr/share/doc/nmap-7.95/README-WIN32
+* /usr/share/doc/nmap-7.95/README.md
 * /usr/share/man/de/man1/nmap.1.gz
 * /usr/share/man/es/man1/nmap.1.gz
 * /usr/share/man/fr/man1/nmap.1.gz
@@ -140,6 +140,7 @@ A network exploration tool and security scanner
 * /usr/share/nmap/nselib/httpspider.lua
 * /usr/share/nmap/nselib/iax2.lua
 * /usr/share/nmap/nselib/idna.lua
+* /usr/share/nmap/nselib/iec61850mms.lua
 * /usr/share/nmap/nselib/ike.lua
 * /usr/share/nmap/nselib/imap.lua
 * /usr/share/nmap/nselib/informix.lua
@@ -185,7 +186,6 @@ A network exploration tool and security scanner
 * /usr/share/nmap/nselib/ospf.lua
 * /usr/share/nmap/nselib/outlib.lua
 * /usr/share/nmap/nselib/packet.lua
-* /usr/share/nmap/nselib/pcre.luadoc
 * /usr/share/nmap/nselib/pgsql.lua
 * /usr/share/nmap/nselib/pop3.lua
 * /usr/share/nmap/nselib/pppoe.lua
@@ -388,6 +388,7 @@ A network exploration tool and security scanner
 * /usr/share/nmap/scripts/hadoop-namenode-info.nse
 * /usr/share/nmap/scripts/hadoop-secondary-namenode-info.nse
 * /usr/share/nmap/scripts/hadoop-tasktracker-info.nse
+* /usr/share/nmap/scripts/hartip-info.nse
 * /usr/share/nmap/scripts/hbase-master-info.nse
 * /usr/share/nmap/scripts/hbase-region-info.nse
 * /usr/share/nmap/scripts/hddtemp-info.nse
@@ -534,6 +535,7 @@ A network exploration tool and security scanner
 * /usr/share/nmap/scripts/iax2-version.nse
 * /usr/share/nmap/scripts/icap-info.nse
 * /usr/share/nmap/scripts/iec-identify.nse
+* /usr/share/nmap/scripts/iec61850-mms.nse
 * /usr/share/nmap/scripts/ike-version.nse
 * /usr/share/nmap/scripts/imap-brute.nse
 * /usr/share/nmap/scripts/imap-capabilities.nse
@@ -610,6 +612,7 @@ A network exploration tool and security scanner
 * /usr/share/nmap/scripts/ms-sql-xp-cmdshell.nse
 * /usr/share/nmap/scripts/msrpc-enum.nse
 * /usr/share/nmap/scripts/mtrace.nse
+* /usr/share/nmap/scripts/multicast-profinet-discovery.nse
 * /usr/share/nmap/scripts/murmur-version.nse
 * /usr/share/nmap/scripts/mysql-audit.nse
 * /usr/share/nmap/scripts/mysql-brute.nse
@@ -672,6 +675,7 @@ A network exploration tool and security scanner
 * /usr/share/nmap/scripts/pop3-ntlm-info.nse
 * /usr/share/nmap/scripts/port-states.nse
 * /usr/share/nmap/scripts/pptp-version.nse
+* /usr/share/nmap/scripts/profinet-cm-lookup.nse
 * /usr/share/nmap/scripts/puppet-naivesigning.nse
 * /usr/share/nmap/scripts/qconn-exec.nse
 * /usr/share/nmap/scripts/qscan.nse

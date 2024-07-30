@@ -12,7 +12,7 @@ size = "2640340"
 usize = "13558028"
 sha1sum = "d6a2e33d1a131eb5e1bfc39a88e903e15860ac9d"
 depends = "['editorconfig-core-c', 'kparts>=6.4.0', 'libgit2>=1.3.0', 'syntax-highlighting>=6.4.0']"
-reverse_depends = "['akregator', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kile', 'kmail-account-wizard', 'kpimtextedit', 'plasma-sdk', 'plasma-workspace']"
+reverse_depends = "['akregator', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kile', 'kmail-account-wizard', 'kpimtextedit', 'plasma-sdk', 'plasma-workspace', 'rkward']"
 +++
 ### Description: 
 Provides a powerful text editor component.

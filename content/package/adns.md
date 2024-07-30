@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "adns 1.6.0-2"
-version = "1.6.0-2"
+title = "adns 1.6.1-1"
+version = "1.6.1-1"
 description = "Advanced, easy to use, asynchronous-capable DNS client library and utilities"
-date = "2022-08-08T14:49:29"
+date = "2024-07-30T14:43:31"
 aliases = "/packages/39859"
 categories = ['network-extra']
 upstreamurl = "http://www.chiark.greenend.org.uk/~ian/adns/"
 arch = "x86_64"
-size = "95436"
-usize = "311942"
-sha1sum = "9c463f5dc88fff5f826a6058642cbfe0519fb8da"
+size = "649296"
+usize = "903145"
+sha1sum = "769dfb4348f6ce7bffbbcae16abdb1b7232a33cf"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -22,13 +22,14 @@ Advanced, easy to use, asynchronous-capable DNS client library and utilities
 * /usr/bin/adnslogres
 * /usr/bin/adnsresfilter
 * /usr/include/adns.h
+* /usr/lib/libadns.a
 * /usr/lib/libadns.so
 * /usr/lib/libadns.so.1
 * /usr/lib/libadns.so.1.6
-* /usr/share/doc/adns-1.6.0/COPYING
-* /usr/share/doc/adns-1.6.0/INSTALL
-* /usr/share/doc/adns-1.6.0/NEWS
-* /usr/share/doc/adns-1.6.0/README
-* /usr/share/doc/adns-1.6.0/README.html
-* /usr/share/doc/adns-1.6.0/RELEASE-CHECKLIST
-* /usr/share/doc/adns-1.6.0/TODO
+* /usr/share/doc/adns-1.6.1/COPYING
+* /usr/share/doc/adns-1.6.1/INSTALL
+* /usr/share/doc/adns-1.6.1/NEWS
+* /usr/share/doc/adns-1.6.1/README
+* /usr/share/doc/adns-1.6.1/README.html
+* /usr/share/doc/adns-1.6.1/RELEASE-CHECKLIST
+* /usr/share/doc/adns-1.6.1/TODO
