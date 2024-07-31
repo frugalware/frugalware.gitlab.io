@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.2.1-1"
-version = "1.2.1-1"
+title = "pipewire 1.2.2-1"
+version = "1.2.2-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2024-07-12T21:40:00"
+date = "2024-07-31T16:27:58"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3905560"
-usize = "37692267"
-sha1sum = "4d7e55e43ca04d7dad4ee6bd7cbcf464dc3accc0"
+size = "3973452"
+usize = "38585692"
+sha1sum = "b362d89e04e9537f1a24ab1f374852b87b9915f7"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -257,7 +257,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib/libpipewire-0.3.so
 * /usr/lib/libpipewire-0.3.so.0
-* /usr/lib/libpipewire-0.3.so.0.1201.0
+* /usr/lib/libpipewire-0.3.so.0.1202.0
 * /usr/lib/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib/pipewire-0.3/libpipewire-module-avb.so
@@ -401,11 +401,11 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/alsa-card-profile/mixer/profile-sets/texas-instruments-pcm2902.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/usb-gaming-headset.conf
 * /usr/share/alsa/alsa.conf.d/50-pipewire.conf
-* /usr/share/doc/pipewire-1.2.1/COPYING
-* /usr/share/doc/pipewire-1.2.1/INSTALL.md
-* /usr/share/doc/pipewire-1.2.1/LICENSE
-* /usr/share/doc/pipewire-1.2.1/NEWS
-* /usr/share/doc/pipewire-1.2.1/README.md
+* /usr/share/doc/pipewire-1.2.2/COPYING
+* /usr/share/doc/pipewire-1.2.2/INSTALL.md
+* /usr/share/doc/pipewire-1.2.2/LICENSE
+* /usr/share/doc/pipewire-1.2.2/NEWS
+* /usr/share/doc/pipewire-1.2.2/README.md
 * /usr/share/doc/pipewire/html/aac-types_8h.html
 * /usr/share/doc/pipewire/html/aac-types_8h_source.html
 * /usr/share/doc/pipewire/html/aac-utils_8h.html
@@ -473,6 +473,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/client-node_8h_source.html
 * /usr/share/doc/pipewire/html/client_8h.html
 * /usr/share/doc/pipewire/html/client_8h_source.html
+* /usr/share/doc/pipewire/html/clipboard.js
 * /usr/share/doc/pipewire/html/closed.png
 * /usr/share/doc/pipewire/html/color_8h.html
 * /usr/share/doc/pipewire/html/color_8h_source.html
@@ -483,6 +484,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/conf_8h_source.html
 * /usr/share/doc/pipewire/html/control_2type-info_8h.html
 * /usr/share/doc/pipewire/html/control_2type-info_8h_source.html
+* /usr/share/doc/pipewire/html/cookie.js
 * /usr/share/doc/pipewire/html/core_8h.html
 * /usr/share/doc/pipewire/html/core_8h_source.html
 * /usr/share/doc/pipewire/html/cpu_8h.html
@@ -540,6 +542,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/doxygen-awesome.css
 * /usr/share/doc/pipewire/html/doxygen.css
 * /usr/share/doc/pipewire/html/doxygen.svg
+* /usr/share/doc/pipewire/html/doxygen_crawl.html
 * /usr/share/doc/pipewire/html/dsd-utils_8h.html
 * /usr/share/doc/pipewire/html/dsd-utils_8h_source.html
 * /usr/share/doc/pipewire/html/dsd_8h.html
@@ -969,12 +972,12 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/meta_8h.html
 * /usr/share/doc/pipewire/html/meta_8h_source.html
 * /usr/share/doc/pipewire/html/midi-src_8c-example.html
+* /usr/share/doc/pipewire/html/minus.svg
+* /usr/share/doc/pipewire/html/minusd.svg
 * /usr/share/doc/pipewire/html/mjpg-utils_8h.html
 * /usr/share/doc/pipewire/html/mjpg-utils_8h_source.html
 * /usr/share/doc/pipewire/html/mjpg_8h.html
 * /usr/share/doc/pipewire/html/mjpg_8h_source.html
-* /usr/share/doc/pipewire/html/modules.html
-* /usr/share/doc/pipewire/html/modules.js
 * /usr/share/doc/pipewire/html/module_8h.html
 * /usr/share/doc/pipewire/html/module_8h_source.html
 * /usr/share/doc/pipewire/html/monitor_2event_8h.html
@@ -1210,6 +1213,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/plugin-loader_8h_source.html
 * /usr/share/doc/pipewire/html/plugin_8h.html
 * /usr/share/doc/pipewire/html/plugin_8h_source.html
+* /usr/share/doc/pipewire/html/plus.svg
+* /usr/share/doc/pipewire/html/plusd.svg
 * /usr/share/doc/pipewire/html/pod_2command_8h.html
 * /usr/share/doc/pipewire/html/pod_2command_8h_source.html
 * /usr/share/doc/pipewire/html/pod_2event_8h.html
@@ -1269,7 +1274,13 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/all_18.js
 * /usr/share/doc/pipewire/html/search/all_19.js
 * /usr/share/doc/pipewire/html/search/all_1a.js
+* /usr/share/doc/pipewire/html/search/all_1b.js
+* /usr/share/doc/pipewire/html/search/all_1c.js
+* /usr/share/doc/pipewire/html/search/all_1d.js
+* /usr/share/doc/pipewire/html/search/all_1e.js
+* /usr/share/doc/pipewire/html/search/all_1f.js
 * /usr/share/doc/pipewire/html/search/all_2.js
+* /usr/share/doc/pipewire/html/search/all_20.js
 * /usr/share/doc/pipewire/html/search/all_3.js
 * /usr/share/doc/pipewire/html/search/all_4.js
 * /usr/share/doc/pipewire/html/search/all_5.js
@@ -1326,6 +1337,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/groups_11.js
 * /usr/share/doc/pipewire/html/search/groups_12.js
 * /usr/share/doc/pipewire/html/search/groups_13.js
+* /usr/share/doc/pipewire/html/search/groups_14.js
 * /usr/share/doc/pipewire/html/search/groups_2.js
 * /usr/share/doc/pipewire/html/search/groups_3.js
 * /usr/share/doc/pipewire/html/search/groups_4.js
@@ -1350,6 +1362,13 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/pages_11.js
 * /usr/share/doc/pipewire/html/search/pages_12.js
 * /usr/share/doc/pipewire/html/search/pages_13.js
+* /usr/share/doc/pipewire/html/search/pages_14.js
+* /usr/share/doc/pipewire/html/search/pages_15.js
+* /usr/share/doc/pipewire/html/search/pages_16.js
+* /usr/share/doc/pipewire/html/search/pages_17.js
+* /usr/share/doc/pipewire/html/search/pages_18.js
+* /usr/share/doc/pipewire/html/search/pages_19.js
+* /usr/share/doc/pipewire/html/search/pages_1a.js
 * /usr/share/doc/pipewire/html/search/pages_2.js
 * /usr/share/doc/pipewire/html/search/pages_3.js
 * /usr/share/doc/pipewire/html/search/pages_4.js
@@ -2067,6 +2086,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/tag_8h_source.html
 * /usr/share/doc/pipewire/html/thread-loop_8h.html
 * /usr/share/doc/pipewire/html/thread-loop_8h_source.html
+* /usr/share/doc/pipewire/html/topics.html
+* /usr/share/doc/pipewire/html/topics.js
 * /usr/share/doc/pipewire/html/tutorial1_8c-example.html
 * /usr/share/doc/pipewire/html/tutorial2_8c-example.html
 * /usr/share/doc/pipewire/html/tutorial3_8c-example.html
