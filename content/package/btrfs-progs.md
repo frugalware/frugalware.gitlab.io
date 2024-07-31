@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "btrfs-progs 6.9.2-1"
-version = "6.9.2-1"
+title = "btrfs-progs 6.10-1"
+version = "6.10-1"
 description = "Utilities for managing btrfs filesystems."
-date = "2024-06-27T07:12:42"
+date = "2024-07-31T08:15:04"
 aliases = "/packages/219969"
 categories = ['base']
 upstreamurl = "https://btrfs.wiki.kernel.org"
 arch = "x86_64"
-size = "1247704"
-usize = "7252421"
-sha1sum = "587700b810826e522b542117fadadc74a7d6ca6f"
+size = "1260564"
+usize = "7331609"
+sha1sum = "43135305536dc3f5e42212a50d160fc0b57e19fa"
 depends = "['e2fsprogs>=1.43.8-2', 'lzo>=2.10-3', 'zstd>=1.3.3-2']"
 reverse_depends = "['docker', 'kernel-initrd', 'kernel-lts-initrd', 'udisks2']"
 +++
