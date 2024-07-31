@@ -50,11 +50,11 @@ Utilities for managing btrfs filesystems.
 * /usr/lib/pkgconfig/libbtrfsutil.pc
 * /usr/lib/udev/rules.d/64-btrfs-dm.rules
 * /usr/lib/udev/rules.d/64-btrfs-zoned.rules
-* /usr/share/doc/btrfs-progs-6.9.2/CHANGES
-* /usr/share/doc/btrfs-progs-6.9.2/COPYING
-* /usr/share/doc/btrfs-progs-6.9.2/INSTALL
-* /usr/share/doc/btrfs-progs-6.9.2/README.md
-* /usr/share/doc/btrfs-progs-6.9.2/VERSION
+* /usr/share/doc/btrfs-progs-6.10/CHANGES
+* /usr/share/doc/btrfs-progs-6.10/COPYING
+* /usr/share/doc/btrfs-progs-6.10/INSTALL
+* /usr/share/doc/btrfs-progs-6.10/README.md
+* /usr/share/doc/btrfs-progs-6.10/VERSION
 * /usr/share/man/man5/btrfs.5.gz
 * /usr/share/man/man8/btrfs-balance.8.gz
 * /usr/share/man/man8/btrfs-check.8.gz

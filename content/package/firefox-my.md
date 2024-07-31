@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-my 128.0.2-1"
-version = "128.0.2-1"
+title = "firefox-my 128.0.3-1"
+version = "128.0.3-1"
 description = "Burmese language support for Firefox"
-date = "2024-07-25T13:27:39"
+date = "2024-07-31T07:49:23"
 aliases = "/packages/219173"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "455128"
-usize = "518623"
-sha1sum = "c34438429f8307189d1570271ca0c7df067552d1"
-depends = "['firefox>=128.0.2']"
+size = "455284"
+usize = "518622"
+sha1sum = "b8d72a133a1c4a5f903f9a8fa232ebc94bf170f9"
+depends = "['firefox>=128.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

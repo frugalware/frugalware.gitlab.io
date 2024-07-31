@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ia 128.0.2-1"
-version = "128.0.2-1"
+title = "firefox-ia 128.0.3-1"
+version = "128.0.3-1"
 description = "Interlingua (International Auxiliary Language Association) language support for Firefox"
-date = "2024-07-25T13:27:39"
+date = "2024-07-31T07:49:23"
 aliases = "/packages/219617"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "557844"
-usize = "611220"
-sha1sum = "c6e07c0a76381043f3fe211813d05f9c1d46f730"
-depends = "['firefox>=128.0.2']"
+size = "557864"
+usize = "611216"
+sha1sum = "b1d872bc8d6ef69266541e2fc14bad3f9f1967b5"
+depends = "['firefox>=128.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

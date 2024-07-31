@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-te 128.0.2-1"
-version = "128.0.2-1"
+title = "firefox-te 128.0.3-1"
+version = "128.0.3-1"
 description = "Telugu language support for Firefox"
-date = "2024-07-25T13:27:39"
+date = "2024-07-31T07:49:23"
 aliases = "/packages/73654"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "501296"
-usize = "561040"
-sha1sum = "10141aed08a29422536dd29833e973d2a293fc4e"
-depends = "['firefox>=128.0.2']"
+size = "501180"
+usize = "561028"
+sha1sum = "80fe32a8a4cfecc7a08c1f7b01d3f5e9069be6d4"
+depends = "['firefox>=128.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

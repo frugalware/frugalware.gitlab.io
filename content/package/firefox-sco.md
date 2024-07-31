@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sco 128.0.2-1"
-version = "128.0.2-1"
+title = "firefox-sco 128.0.3-1"
+version = "128.0.3-1"
 description = "Scots language support for Firefox"
-date = "2024-07-25T13:27:39"
+date = "2024-07-31T07:49:23"
 aliases = "/packages/220443"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "449700"
-usize = "511273"
-sha1sum = "eb630f97ac1f801c3605a572c63a2b08dfccf407"
-depends = "['firefox>=128.0.2']"
+size = "450104"
+usize = "511285"
+sha1sum = "8a6dcc21a70c6e55bb7e1b0d871ca10a35d4ff07"
+depends = "['firefox>=128.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-az 128.0.2-1"
-version = "128.0.2-1"
+title = "firefox-az 128.0.3-1"
+version = "128.0.3-1"
 description = "Azerbaijani language support for Firefox"
-date = "2024-07-25T13:27:39"
+date = "2024-07-31T07:49:23"
 aliases = "/packages/201245"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "426896"
-usize = "490774"
-sha1sum = "ce0d2a9ad9b6e1baabd2d8d7d4be3cf962ea241a"
-depends = "['firefox>=128.0.2']"
+size = "427144"
+usize = "490772"
+sha1sum = "5b761b7e654f1d351cf850c972ec933dd5080d3b"
+depends = "['firefox>=128.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

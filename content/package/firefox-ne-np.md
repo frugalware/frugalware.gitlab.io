@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ne-np 128.0.2-1"
-version = "128.0.2-1"
+title = "firefox-ne-np 128.0.3-1"
+version = "128.0.3-1"
 description = "Nepali language support for Firefox"
-date = "2024-07-25T13:27:39"
+date = "2024-07-31T07:49:23"
 aliases = "/packages/219538"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "445408"
-usize = "510956"
-sha1sum = "dac16c20a6b0f83f11abea5a7b30d1e62a98d346"
-depends = "['firefox>=128.0.2']"
+size = "445472"
+usize = "510942"
+sha1sum = "88f0261481cef47e96d17c012b0f5cb51080a4d3"
+depends = "['firefox>=128.0.3']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
