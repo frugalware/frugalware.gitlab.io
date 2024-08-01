@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssp 14.1.0-4"
-version = "14.1.0-4"
+title = "libssp 14.2.0-1"
+version = "14.2.0-1"
 description = "SSP libraries from GCC"
-date = "2024-06-05T12:40:09"
+date = "2024-08-01T14:17:56"
 aliases = "/packages/16260"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "27576"
-usize = "99241"
-sha1sum = "13f7eee038e1ef8f1117df5d1199768022155f4f"
+size = "27628"
+usize = "99305"
+sha1sum = "c4b266d12cdfcdcb6dd980c141fffc63cdce2384"
 depends = "['glibc']"
 reverse_depends = "['avahi', 'avahi-compat', 'avahi-dnsconfd', 'efl']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['avahi', 'avahi-compat', 'avahi-dnsconfd', 'efl']"
 SSP libraries from GCC
 
 ### Files: 
-* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/ssp/ssp.h
-* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/ssp/stdio.h
-* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/ssp/string.h
-* /usr/lib/gcc/x86_64-frugalware-linux/14.1.0/include/ssp/unistd.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.2.0/include/ssp/ssp.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.2.0/include/ssp/stdio.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.2.0/include/ssp/string.h
+* /usr/lib/gcc/x86_64-frugalware-linux/14.2.0/include/ssp/unistd.h
 * /usr/lib/libssp.a
 * /usr/lib/libssp.so
 * /usr/lib/libssp.so.0

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgcc 14.1.0-4"
-version = "14.1.0-4"
+title = "libgcc 14.2.0-1"
+version = "14.2.0-1"
 description = "GCC shared support library"
-date = "2024-06-05T12:40:09"
+date = "2024-08-01T14:17:56"
 aliases = "/packages/8843"
 categories = ['base']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "164264"
-usize = "392672"
-sha1sum = "96aa96b7ec35394d22ff4cbfe628ef7082495681"
+size = "164892"
+usize = "396768"
+sha1sum = "04bdc24abb58a69c4a6af860d971364572bd40de"
 depends = "['glibc']"
 reverse_depends = "['bandwhich', 'bat', 'botan', 'cbindgen', 'efl', 'enlightenment', 'fd', 'flatbuffers', 'gn', 'gsoap', 'ion', 'lib32-libsystemd', 'libc++', 'libgc', 'libgfortran', 'libobjc', 'libstdc++', 'log4cpp', 'ninja', 'picard', 'polkit-qt5-1', 'polkit-qt6-1', 'procs', 'rav1e', 're2', 'rust-bindgen', 'terminology', 'texlive-lua', 'thin-provisioning-tools']"
 +++
