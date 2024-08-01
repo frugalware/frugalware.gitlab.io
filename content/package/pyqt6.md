@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6 6.7.0-2"
-version = "6.7.0-2"
+title = "pyqt6 6.7.1-1"
+version = "6.7.1-1"
 description = "PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit."
-date = "2024-05-27T13:45:34"
+date = "2024-08-01T10:01:32"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "3911260"
-usize = "28355774"
-sha1sum = "c7c92b09d6d5da25b48e5c6ee20d01b3cb509b64"
+size = "3992444"
+usize = "28517780"
+sha1sum = "15ef8b6601cd9278f580081d17b2709b9236dc34"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'pyqt6webengine', 'yin-yang']"
 +++
@@ -21,9 +21,9 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt6.abi3.so
-* /usr/lib/python3.12/site-packages/PyQt6-6.7.0.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQt6-6.7.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQt6-6.7.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/PyQt6-6.7.1.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQt6-6.7.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt6-6.7.1.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -938,8 +938,8 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/qt6/plugins/designer/libpyqt6.so
 * /usr/lib/qt6/plugins/PyQt6/libpyqt6qmlplugin.so
-* /usr/share/doc/pyqt6-6.7.0/ChangeLog
-* /usr/share/doc/pyqt6-6.7.0/LICENSE
-* /usr/share/doc/pyqt6-6.7.0/NEWS
-* /usr/share/doc/pyqt6-6.7.0/README.md
+* /usr/share/doc/pyqt6-6.7.1/ChangeLog
+* /usr/share/doc/pyqt6-6.7.1/LICENSE
+* /usr/share/doc/pyqt6-6.7.1/NEWS
+* /usr/share/doc/pyqt6-6.7.1/README.md
 * /usr/share/qt6/qsci/api/python/PyQt6.api

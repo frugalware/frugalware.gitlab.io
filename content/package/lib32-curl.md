@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-curl 8.9.0-1"
-version = "8.9.0-1"
+title = "lib32-curl 8.9.1-1"
+version = "8.9.1-1"
 description = "A command line tool for transferring data specified with URL syntax. ( 32bit )"
-date = "2024-07-24T15:04:06"
+date = "2024-08-01T11:36:51"
 aliases = "/packages/219008"
 categories = ['lib32-extra']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "500772"
-usize = "1292824"
-sha1sum = "378985e87ef5ba7354728bf8831a6f23be1b538d"
+size = "500932"
+usize = "1292685"
+sha1sum = "e8e4c25c3d2daf6339774b1f401c7c63c61def80"
 depends = "['lib32-brotli', 'lib32-libpsl', 'lib32-openssl', 'lib32-zlib', 'lib32-zstd']"
 reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-libcurl-gnutls', 'lib32-libmicrohttpd', 'lib32-networkmanager', 'steam-native']"
 +++
