@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt5 5.15.10-3"
-version = "5.15.10-3"
+title = "pyqt5 5.15.11-1"
+version = "5.15.11-1"
 description = "PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit."
-date = "2024-05-27T07:05:53"
+date = "2024-08-01T09:47:45"
 aliases = "/packages/201196"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "4339748"
-usize = "30998823"
-sha1sum = "b637fa0c9c80c740287a95b423d83952a76eb422"
+size = "4386712"
+usize = "30792510"
+sha1sum = "05742098816e609ae4298abdaf6c758eb9888fd2"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['git-cola', 'hplip', 'picard', 'pyqtwebengine']"
 license = "GPL"
@@ -23,9 +23,9 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/bin/pyrcc5
 * /usr/bin/pyuic5
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt5.abi3.so
-* /usr/lib/python3.12/site-packages/PyQt5-5.15.10.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQt5-5.15.10.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQt5-5.15.10.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/PyQt5-5.15.11.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQt5-5.15.11.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt5-5.15.11.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.12/site-packages/PyQt5/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -993,8 +993,8 @@ PyQt5 is a set of Python 3.x bindings for the Qt5 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt5/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/qt5/plugins/designer/libpyqt5.so
 * /usr/lib/qt5/plugins/PyQt5/libpyqt5qmlplugin.so
-* /usr/share/doc/pyqt5-5.15.10/ChangeLog
-* /usr/share/doc/pyqt5-5.15.10/LICENSE
-* /usr/share/doc/pyqt5-5.15.10/NEWS
-* /usr/share/doc/pyqt5-5.15.10/README
+* /usr/share/doc/pyqt5-5.15.11/ChangeLog
+* /usr/share/doc/pyqt5-5.15.11/LICENSE
+* /usr/share/doc/pyqt5-5.15.11/NEWS
+* /usr/share/doc/pyqt5-5.15.11/README.md
 * /usr/share/qt/qsci/api/python/PyQt5.api

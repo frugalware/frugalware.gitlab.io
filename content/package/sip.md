@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sip 6.8.3-1"
-version = "6.8.3-1"
+title = "sip 6.8.6-1"
+version = "6.8.6-1"
 description = "SIP bindings for C and C++ libraries"
-date = "2024-05-20T18:30:24"
+date = "2024-08-01T09:27:18"
 aliases = "/packages/220809"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/software/sip"
 arch = "x86_64"
-size = "663820"
-usize = "3890721"
-sha1sum = "d65ea490e649890b3b0a6ec9f7178e44ca71e802"
-depends = "['python3-packaging', 'python3-ply', 'python3-toml']"
+size = "568868"
+usize = "4307311"
+sha1sum = "623d2febf54f910924c224221a2ba8c5e87da73c"
+depends = "['python3-packaging', 'python3-setuptools']"
 +++
 ### Description: 
 SIP bindings for C and C++ libraries
@@ -23,12 +23,12 @@ SIP bindings for C and C++ libraries
 * /usr/bin/sip-module
 * /usr/bin/sip-sdist
 * /usr/bin/sip-wheel
-* /usr/lib/python3.12/site-packages/sip-6.8.3-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/sip-6.8.3-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/sip-6.8.3-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/sip-6.8.3-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/sip-6.8.3-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/sip-6.8.3-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/sip-6.8.6.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/sip-6.8.6.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/sip-6.8.6.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/sip-6.8.6.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/sip-6.8.6.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/sip-6.8.6.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/sipbuild/abstract_builder.py
 * /usr/lib/python3.12/site-packages/sipbuild/abstract_project.py
 * /usr/lib/python3.12/site-packages/sipbuild/api.py
@@ -39,10 +39,10 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/builder.py
 * /usr/lib/python3.12/site-packages/sipbuild/configurable.py
 * /usr/lib/python3.12/site-packages/sipbuild/distinfo/distinfo.py
-* /usr/lib/python3.12/site-packages/sipbuild/distinfo/main.py
 * /usr/lib/python3.12/site-packages/sipbuild/distinfo/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/distinfo/__pycache__/distinfo.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/distinfo/__pycache__/distinfo.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sipbuild/distinfo/__pycache__/main.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/distinfo/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/distinfo/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/distutils_builder.py
 * /usr/lib/python3.12/site-packages/sipbuild/exceptions.py
@@ -60,25 +60,41 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/value_list.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/variable.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/argument.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/argument.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/enum.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/enum.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/klass.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/klass.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/misc.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/misc.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/signature.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/signature.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/template.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/template.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/value_list.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/value_list.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/variable.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/variable.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/formatters/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/pyi.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/type_hints.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/xml.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/api.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/api.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/code.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/code.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/extracts.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/extracts.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/pyi.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/pyi.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/type_hints.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/type_hints.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/xml.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/xml.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/outputs/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/annotations.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/parser.py
@@ -86,49 +102,65 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/lex.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/yacc.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__pycache__/lex.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__pycache__/lex.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__pycache__/yacc.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__pycache__/yacc.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/ply/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/python_exceptions.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/rules.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/tokens.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/annotations.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/annotations.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/parser.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/parser.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/parser_manager.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/parser_manager.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/python_exceptions.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/python_exceptions.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/rules.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/rules.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/tokens.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/tokens.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/parser/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/python_slots.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/resolver/resolver.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/resolver/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/generator/resolver/__pycache__/resolver.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/resolver/__pycache__/resolver.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/resolver/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/resolver/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/scoped_name.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/specification.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/templates.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/utils.py
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/error_log.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/error_log.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/instantiations.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/instantiations.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/python_slots.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/python_slots.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/scoped_name.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/scoped_name.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/specification.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/specification.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/templates.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/templates.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/utils.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/utils.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/generator/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/installable.py
 * /usr/lib/python3.12/site-packages/sipbuild/module/abi_version.py
-* /usr/lib/python3.12/site-packages/sipbuild/module/main.py
 * /usr/lib/python3.12/site-packages/sipbuild/module/module.py
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/apiversions.c
-* /usr/lib/python3.12/site-packages/sipbuild/module/source/12/bool.cpp
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/descriptors.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/int_convertors.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/LICENSE
-* /usr/lib/python3.12/site-packages/sipbuild/module/source/12/LICENSE-GPL2
-* /usr/lib/python3.12/site-packages/sipbuild/module/source/12/LICENSE-GPL3
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/MANIFEST.in
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/objmap.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/pyproject.toml
@@ -146,8 +178,6 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/threads.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/12/voidptr.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/LICENSE
-* /usr/lib/python3.12/site-packages/sipbuild/module/source/13/LICENSE-GPL2
-* /usr/lib/python3.12/site-packages/sipbuild/module/source/13/LICENSE-GPL3
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/MANIFEST.in
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/pyproject.toml
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/README.in
@@ -158,7 +188,6 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip.rst.in
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_array.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_array.h
-* /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_bool.cpp
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_core.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_core.h
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_descriptors.c
@@ -169,9 +198,11 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_threads.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/source/13/sip_voidptr.c
 * /usr/lib/python3.12/site-packages/sipbuild/module/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/abi_version.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/abi_version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/main.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/module.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/module.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/module/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/project.py
 * /usr/lib/python3.12/site-packages/sipbuild/pyproject.py
@@ -179,37 +210,68 @@ SIP bindings for C and C++ libraries
 * /usr/lib/python3.12/site-packages/sipbuild/setuptools_builder.py
 * /usr/lib/python3.12/site-packages/sipbuild/toml.py
 * /usr/lib/python3.12/site-packages/sipbuild/tools/build.py
+* /usr/lib/python3.12/site-packages/sipbuild/tools/distinfo.py
 * /usr/lib/python3.12/site-packages/sipbuild/tools/install.py
+* /usr/lib/python3.12/site-packages/sipbuild/tools/module.py
 * /usr/lib/python3.12/site-packages/sipbuild/tools/sdist.py
 * /usr/lib/python3.12/site-packages/sipbuild/tools/wheel.py
 * /usr/lib/python3.12/site-packages/sipbuild/tools/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/build.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/build.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/distinfo.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/distinfo.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/install.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/install.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/module.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/module.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/sdist.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/sdist.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/wheel.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/wheel.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/tools/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/version.py
+* /usr/lib/python3.12/site-packages/sipbuild/_version.py
 * /usr/lib/python3.12/site-packages/sipbuild/__init__.py
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/abstract_builder.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/abstract_builder.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/abstract_project.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/abstract_project.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/api.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/api.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/argument_parser.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/argument_parser.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/bindings.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/bindings.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/bindings_configuration.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/bindings_configuration.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/buildable.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/buildable.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/builder.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/builder.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/configurable.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/configurable.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/distutils_builder.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/distutils_builder.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/exceptions.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/exceptions.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/installable.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/installable.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/project.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/project.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/pyproject.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/pyproject.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/py_versions.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/py_versions.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/setuptools_builder.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/setuptools_builder.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/toml.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/toml.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/version.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/_version.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/_version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/sipbuild/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/sipbuild/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/sip-6.8.3/ChangeLog
-* /usr/share/doc/sip-6.8.3/LICENSE
-* /usr/share/doc/sip-6.8.3/NEWS
-* /usr/share/doc/sip-6.8.3/README
+* /usr/share/doc/sip-6.8.6/LICENSE
+* /usr/share/doc/sip-6.8.6/README.md

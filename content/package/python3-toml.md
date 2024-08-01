@@ -12,7 +12,7 @@ size = "37116"
 usize = "124238"
 sha1sum = "ba2ea3ba0576bfdfd23536690b31b66e70028106"
 depends = "['python3>=3.12']"
-reverse_depends = "['gi-docgen', 'pyproject2setuppy', 'python3-setuptools-rust', 'sip']"
+reverse_depends = "['gi-docgen', 'pyproject2setuppy', 'python3-setuptools-rust']"
 +++
 ### Description: 
 Python Library for Tom's Obvious, Minimal Language
