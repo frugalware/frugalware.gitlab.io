@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-archive 3.0.21-3"
-version = "3.0.21-3"
+title = "vlc-archive 3.0.21-4"
+version = "3.0.21-4"
 description = "vlc archive support"
-date = "2024-06-27T09:59:30"
+date = "2024-08-02T09:17:20"
 aliases = "/packages/219592"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18976"
+size = "18996"
 usize = "16112"
-sha1sum = "222e6634c14551cd0366a1dacd3d1fa4073507df"
+sha1sum = "589cf53bad1779a0a214b9db2317678131d42bb7"
 depends = "['libarchive', 'libvlc>=3.0.21']"
 +++
 ### Description: 
