@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sentry-sdk 2.9.0-1"
-version = "2.9.0-1"
+title = "python3-sentry-sdk 2.12.0-1"
+version = "2.12.0-1"
 description = "The official Python SDK for Sentry.io"
-date = "2024-07-14T14:56:58"
+date = "2024-08-02T12:18:23"
 aliases = "/packages/221383"
 categories = ['devel']
 upstreamurl = "https://sentry.io/for/python"
 arch = "x86_64"
-size = "480960"
-usize = "2180301"
-sha1sum = "757558d18fe2b294480d88771d9cb3d940047ac1"
+size = "494396"
+usize = "2226978"
+sha1sum = "42b937799b698c7834df4e68dc0bb3b73f75588f"
 depends = "['certifi', 'python3-urllib3']"
 reverse_depends = "['drkonqi']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lincity-ng 2.10.2-1"
-version = "2.10.2-1"
+title = "lincity-ng 2.11.1-1"
+version = "2.11.1-1"
 description = "A City Simulation Game. It is a polished and improved version of the classic LinCity game."
-date = "2024-06-02T12:02:19"
+date = "2024-08-02T12:20:09"
 aliases = "/packages/38889"
 categories = ['games-extra']
 upstreamurl = "https://github.com/lincity-ng/lincity-ng"
 arch = "x86_64"
-size = "47734376"
-usize = "61839924"
-sha1sum = "644d091627afd03e7e219a1f22df48ec80934f7a"
+size = "47729792"
+usize = "61773404"
+sha1sum = "73ff4b3d6fc567aa1f48ee931a31a90630119f47"
 depends = "['libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
 license = "GPL"
 +++
@@ -20,14 +20,15 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 ### Files: 
 * /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
-* /usr/share/doc/lincity-ng-2.10.2/COPYING
-* /usr/share/doc/lincity-ng-2.10.2/COPYING-data.txt
-* /usr/share/doc/lincity-ng-2.10.2/COPYING-fonts.txt
-* /usr/share/doc/lincity-ng-2.10.2/README.md
-* /usr/share/doc/lincity-ng-2.10.2/RELNOTES
+* /usr/share/doc/lincity-ng-2.11.1/COPYING
+* /usr/share/doc/lincity-ng-2.11.1/COPYING-data.txt
+* /usr/share/doc/lincity-ng-2.11.1/COPYING-dll.txt
+* /usr/share/doc/lincity-ng-2.11.1/COPYING-fonts.txt
+* /usr/share/doc/lincity-ng-2.11.1/README.md
 * /usr/share/doc/lincity-ng/lincityconfig.xml
 * /usr/share/doc/lincity-ng/userconfig.xml
 * /usr/share/icons/hicolor/128x128/apps/lincity-ng.png
+* /usr/share/lincity-ng/CHANGELOG.md
 * /usr/share/lincity-ng/colour.pal
 * /usr/share/lincity-ng/COPYING
 * /usr/share/lincity-ng/COPYING-data.txt
@@ -120,8 +121,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/ca/index.xml
 * /usr/share/lincity-ng/help/ca/industryh.xml
 * /usr/share/lincity-ng/help/ca/industryl.xml
-* /usr/share/lincity-ng/help/ca/jobs.xml
 * /usr/share/lincity-ng/help/ca/keys.xml
+* /usr/share/lincity-ng/help/ca/labor.xml
 * /usr/share/lincity-ng/help/ca/market.xml
 * /usr/share/lincity-ng/help/ca/medium.xml
 * /usr/share/lincity-ng/help/ca/mill.xml
@@ -204,8 +205,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/de/index.xml
 * /usr/share/lincity-ng/help/de/industryh.xml
 * /usr/share/lincity-ng/help/de/industryl.xml
-* /usr/share/lincity-ng/help/de/jobs.xml
 * /usr/share/lincity-ng/help/de/keys.xml
+* /usr/share/lincity-ng/help/de/labor.xml
 * /usr/share/lincity-ng/help/de/market.xml
 * /usr/share/lincity-ng/help/de/medium.xml
 * /usr/share/lincity-ng/help/de/mill.xml
@@ -280,8 +281,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/el/index.xml
 * /usr/share/lincity-ng/help/el/industryh.xml
 * /usr/share/lincity-ng/help/el/industryl.xml
-* /usr/share/lincity-ng/help/el/jobs.xml
 * /usr/share/lincity-ng/help/el/keys.xml
+* /usr/share/lincity-ng/help/el/labor.xml
 * /usr/share/lincity-ng/help/el/market.xml
 * /usr/share/lincity-ng/help/el/medium.xml
 * /usr/share/lincity-ng/help/el/mill.xml
@@ -357,8 +358,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/en/index.xml
 * /usr/share/lincity-ng/help/en/industryh.xml
 * /usr/share/lincity-ng/help/en/industryl.xml
-* /usr/share/lincity-ng/help/en/jobs.xml
 * /usr/share/lincity-ng/help/en/keys.xml
+* /usr/share/lincity-ng/help/en/labor.xml
 * /usr/share/lincity-ng/help/en/market.xml
 * /usr/share/lincity-ng/help/en/medium.xml
 * /usr/share/lincity-ng/help/en/mill.xml
@@ -436,8 +437,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/es/industryh.xml
 * /usr/share/lincity-ng/help/es/industryl.xml
 * /usr/share/lincity-ng/help/es/industyh.xml
-* /usr/share/lincity-ng/help/es/jobs.xml
 * /usr/share/lincity-ng/help/es/keys.xml
+* /usr/share/lincity-ng/help/es/labor.xml
 * /usr/share/lincity-ng/help/es/market.xml
 * /usr/share/lincity-ng/help/es/medium.xml
 * /usr/share/lincity-ng/help/es/mill.xml
@@ -504,8 +505,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/fr/index.xml
 * /usr/share/lincity-ng/help/fr/industryh.xml
 * /usr/share/lincity-ng/help/fr/industryl.xml
-* /usr/share/lincity-ng/help/fr/jobs.xml
 * /usr/share/lincity-ng/help/fr/keys.xml
+* /usr/share/lincity-ng/help/fr/labor.xml
 * /usr/share/lincity-ng/help/fr/market.xml
 * /usr/share/lincity-ng/help/fr/medium.xml
 * /usr/share/lincity-ng/help/fr/mill.xml
@@ -582,8 +583,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/gd/index.xml
 * /usr/share/lincity-ng/help/gd/industryh.xml
 * /usr/share/lincity-ng/help/gd/industryl.xml
-* /usr/share/lincity-ng/help/gd/jobs.xml
 * /usr/share/lincity-ng/help/gd/keys.xml
+* /usr/share/lincity-ng/help/gd/labor.xml
 * /usr/share/lincity-ng/help/gd/market.xml
 * /usr/share/lincity-ng/help/gd/medium.xml
 * /usr/share/lincity-ng/help/gd/mill.xml
@@ -662,8 +663,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/gl/industryh.xml
 * /usr/share/lincity-ng/help/gl/industryl.xml
 * /usr/share/lincity-ng/help/gl/industyh.xml
-* /usr/share/lincity-ng/help/gl/jobs.xml
 * /usr/share/lincity-ng/help/gl/keys.xml
+* /usr/share/lincity-ng/help/gl/labor.xml
 * /usr/share/lincity-ng/help/gl/market.xml
 * /usr/share/lincity-ng/help/gl/medium.xml
 * /usr/share/lincity-ng/help/gl/mill.xml
@@ -738,8 +739,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/nl/index.xml
 * /usr/share/lincity-ng/help/nl/industryh.xml
 * /usr/share/lincity-ng/help/nl/industryl.xml
-* /usr/share/lincity-ng/help/nl/jobs.xml
 * /usr/share/lincity-ng/help/nl/keys.xml
+* /usr/share/lincity-ng/help/nl/labor.xml
 * /usr/share/lincity-ng/help/nl/market.xml
 * /usr/share/lincity-ng/help/nl/medium.xml
 * /usr/share/lincity-ng/help/nl/mill.xml
@@ -815,8 +816,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/pt_BR/index.xml
 * /usr/share/lincity-ng/help/pt_BR/industryh.xml
 * /usr/share/lincity-ng/help/pt_BR/industryl.xml
-* /usr/share/lincity-ng/help/pt_BR/jobs.xml
 * /usr/share/lincity-ng/help/pt_BR/keys.xml
+* /usr/share/lincity-ng/help/pt_BR/labor.xml
 * /usr/share/lincity-ng/help/pt_BR/market.xml
 * /usr/share/lincity-ng/help/pt_BR/medium.xml
 * /usr/share/lincity-ng/help/pt_BR/mill.xml
@@ -893,8 +894,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/ru/index.xml
 * /usr/share/lincity-ng/help/ru/industryh.xml
 * /usr/share/lincity-ng/help/ru/industryl.xml
-* /usr/share/lincity-ng/help/ru/jobs.xml
 * /usr/share/lincity-ng/help/ru/keys.xml
+* /usr/share/lincity-ng/help/ru/labor.xml
 * /usr/share/lincity-ng/help/ru/market.xml
 * /usr/share/lincity-ng/help/ru/medium.xml
 * /usr/share/lincity-ng/help/ru/mill.xml
@@ -946,6 +947,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/ru/tutorial-scenario.xml
 * /usr/share/lincity-ng/help/ru/tutorial.xml
 * /usr/share/lincity-ng/help/ru/university.xml
+* /usr/share/lincity-ng/help/ru/waste.xml
+* /usr/share/lincity-ng/help/ru/water.xml
 * /usr/share/lincity-ng/help/ru/waterwell.xml
 * /usr/share/lincity-ng/help/ru/windmill.xml
 * /usr/share/lincity-ng/help/sv/blacksmith.xml
@@ -970,8 +973,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/sv/index.xml
 * /usr/share/lincity-ng/help/sv/industryh.xml
 * /usr/share/lincity-ng/help/sv/industryl.xml
-* /usr/share/lincity-ng/help/sv/jobs.xml
 * /usr/share/lincity-ng/help/sv/keys.xml
+* /usr/share/lincity-ng/help/sv/labor.xml
 * /usr/share/lincity-ng/help/sv/market.xml
 * /usr/share/lincity-ng/help/sv/medium.xml
 * /usr/share/lincity-ng/help/sv/mill.xml
@@ -1046,8 +1049,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/tr/index.xml
 * /usr/share/lincity-ng/help/tr/industryh.xml
 * /usr/share/lincity-ng/help/tr/industryl.xml
-* /usr/share/lincity-ng/help/tr/jobs.xml
 * /usr/share/lincity-ng/help/tr/keys.xml
+* /usr/share/lincity-ng/help/tr/labor.xml
 * /usr/share/lincity-ng/help/tr/market.xml
 * /usr/share/lincity-ng/help/tr/medium.xml
 * /usr/share/lincity-ng/help/tr/mill.xml
@@ -1267,6 +1270,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox.png
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox.svg
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_checked.png
+* /usr/share/lincity-ng/images/gui/checkbox/checkbox_red.png
+* /usr/share/lincity-ng/images/gui/checkbox/checkbox_red_checked.png
 * /usr/share/lincity-ng/images/gui/dialogs/buttons.svg
 * /usr/share/lincity-ng/images/gui/dialogs/icons.svg
 * /usr/share/lincity-ng/images/gui/dialogs/info.png
@@ -1802,7 +1807,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/locale/gui/gd.po
 * /usr/share/lincity-ng/locale/gui/gl.po
 * /usr/share/lincity-ng/locale/gui/ja.po
-* /usr/share/lincity-ng/locale/gui/messages.pot
 * /usr/share/lincity-ng/locale/gui/nl.po
 * /usr/share/lincity-ng/locale/gui/pl.po
 * /usr/share/lincity-ng/locale/gui/pt_BR.po
@@ -1811,7 +1815,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/locale/gui/tr.po
 * /usr/share/lincity-ng/locale/gui/zh_CN.po
 * /usr/share/lincity-ng/locale/ja.po
-* /usr/share/lincity-ng/locale/messages.pot
 * /usr/share/lincity-ng/locale/nl.po
 * /usr/share/lincity-ng/locale/pl.po
 * /usr/share/lincity-ng/locale/pt_BR.po
@@ -1830,7 +1833,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/opening/good_times.scn
 * /usr/share/lincity-ng/opening/Rocket_98.scn
 * /usr/share/lincity-ng/README.md
-* /usr/share/lincity-ng/RELNOTES
 * /usr/share/lincity-ng/sounds/Blacksmith1.wav
 * /usr/share/lincity-ng/sounds/Blacksmith2.wav
 * /usr/share/lincity-ng/sounds/Blacksmith3.wav

@@ -12,7 +12,7 @@ size = "164892"
 usize = "396768"
 sha1sum = "04bdc24abb58a69c4a6af860d971364572bd40de"
 depends = "['glibc']"
-reverse_depends = "['bandwhich', 'bat', 'botan', 'cbindgen', 'efl', 'enlightenment', 'fd', 'flatbuffers', 'gn', 'gsoap', 'ion', 'lib32-libsystemd', 'libc++', 'libgc', 'libgfortran', 'libobjc', 'libstdc++', 'log4cpp', 'ninja', 'picard', 'polkit-qt5-1', 'polkit-qt6-1', 'procs', 'rav1e', 're2', 'rust-bindgen', 'terminology', 'texlive-lua', 'thin-provisioning-tools']"
+reverse_depends = "['bandwhich', 'bat', 'botan', 'cbindgen', 'comet', 'efl', 'enlightenment', 'fd', 'flatbuffers', 'gn', 'gsoap', 'ion', 'lib32-libsystemd', 'libc++', 'libgc', 'libgfortran', 'libobjc', 'libstdc++', 'log4cpp', 'ninja', 'picard', 'polkit-qt5-1', 'polkit-qt6-1', 'procs', 'rav1e', 're2', 'rust-bindgen', 'terminology', 'texlive-lua', 'thin-provisioning-tools']"
 +++
 ### Description: 
 GCC shared support library
