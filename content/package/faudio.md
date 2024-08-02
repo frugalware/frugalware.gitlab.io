@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "faudio 24.07-1"
-version = "24.07-1"
+title = "faudio 24.08-1"
+version = "24.08-1"
 description = "XAudio2 reimplementation"
-date = "2024-07-14T19:03:29"
+date = "2024-08-02T20:11:04"
 aliases = "/packages/220096"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/FNA-XNA/FAudio/"
 arch = "x86_64"
-size = "110632"
-usize = "345279"
-sha1sum = "779c807a4a6abe99b94880359685b14c34d69705"
+size = "110912"
+usize = "347487"
+sha1sum = "3b316ad8e1f6edc3a640ba8f0d4059acc071b518"
 depends = "['ffmpeg', 'sdl2']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
