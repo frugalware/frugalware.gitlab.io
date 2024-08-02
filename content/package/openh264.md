@@ -12,7 +12,7 @@ size = "605444"
 usize = "2208446"
 sha1sum = "86ff9bf621e07ec922c84d25b4e1d181aef647cf"
 depends = "['libstdc++']"
-reverse_depends = "['chromium-browser']"
+reverse_depends = "['chromium-browser', 'telegram-desktop']"
 +++
 ### Description: 
 H.264 encoder and decoder

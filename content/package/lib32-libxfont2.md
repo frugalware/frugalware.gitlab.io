@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxfont2 2.0.6-1"
-version = "2.0.6-1"
+title = "lib32-libxfont2 2.0.7-1"
+version = "2.0.7-1"
 description = "X font Library V2 ( 32bit )"
-date = "2022-08-28T13:04:37"
+date = "2024-08-02T11:47:09"
 aliases = "/packages/218920"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "108940"
-usize = "238501"
-sha1sum = "4700dc613fa64abcfcc421d2e2ab4c6d32fcc64f"
+size = "109912"
+usize = "235893"
+sha1sum = "9d5d3841d32d4070bae7fd103074b1c206846374"
 depends = "['lib32-freetype2>=2.9', 'lib32-libfontenc>=1.1.3-3']"
 reverse_depends = "['lib32-xorg-server']"
 +++
