@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "usbguard 1.1.3-2"
-version = "1.1.3-2"
+title = "usbguard 1.1.3-3"
+version = "1.1.3-3"
 description = "USBGuard is a software framework for implementing USB device authorization policies"
-date = "2024-06-27T09:39:21"
+date = "2024-08-02T08:56:51"
 aliases = "/packages/219227"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/dkopecek/usbguard"
 arch = "x86_64"
-size = "469716"
-usize = "1690059"
-sha1sum = "9ef2ae2002a55ef586cd1248b807d5282b63d030"
-depends = "['audit', 'dbus-glib', 'libaudit', 'libcap-ng', 'libqb>=2.0.0', 'libseccomp', 'libsodium>=1.0.19', 'polkit', 'protobuf>=27.2']"
+size = "469428"
+usize = "1692692"
+sha1sum = "89341feaad805593b4a6ef08e43f313d22b1bbb0"
+depends = "['audit', 'dbus-glib', 'libaudit', 'libcap-ng', 'libqb>=2.0.0', 'libseccomp', 'libsodium>=1.0.19', 'polkit', 'protobuf>=27.3']"
 reverse_depends = "['usbguard-notifier', 'usbguard-qt']"
 +++
 ### Description: 

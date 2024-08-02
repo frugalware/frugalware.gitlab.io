@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-grpc 6.7.2-2"
-version = "6.7.2-2"
+title = "qt6-grpc 6.7.2-3"
+version = "6.7.2-3"
 description = "The Qt6 toolkit, qtgrpc"
-date = "2024-06-27T09:25:49"
+date = "2024-08-02T08:51:04"
 aliases = "/packages/220947"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "545536"
-usize = "3342217"
-sha1sum = "c3346e8dff89066de18074b1afe1f149be68eb73"
-depends = "['grpc>=1.64', 'qt6-quick3d']"
+size = "546788"
+usize = "3352553"
+sha1sum = "5408989f5af88ab66ddd94c72ac01801a992c90e"
+depends = "['grpc>=1.65.3', 'qt6-quick3d']"
 +++
 ### Description: 
 The Qt6 toolkit, qtgrpc
