@@ -31,5 +31,5 @@ XAudio2 reimplementation ( 32bit )
 * /usr/lib32/cmake/FAudio/FAudioConfig.cmake
 * /usr/lib32/libFAudio.so
 * /usr/lib32/libFAudio.so.0
-* /usr/lib32/libFAudio.so.0.24.07
+* /usr/lib32/libFAudio.so.0.24.08
 * /usr/lib32/pkgconfig/FAudio.pc

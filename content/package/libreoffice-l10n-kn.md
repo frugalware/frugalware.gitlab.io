@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-kn 24.2.4.2-2"
-version = "24.2.4.2-2"
+title = "libreoffice-l10n-kn 24.2.5.2-2"
+version = "24.2.5.2-2"
 description = "Installs Kannada support in LibreOffice"
-date = "2024-07-07T21:08:42"
+date = "2024-08-02T17:26:42"
 aliases = "/packages/104076"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "389764"
+size = "389664"
 usize = "2611725"
-sha1sum = "6b67f4fe4eb11398185d8eaed040d6fa7d8eae96"
-depends = "['libreoffice>=24.2.4.2']"
+sha1sum = "7ec741095d89cdc0cde31820d2eee8ca00021cd0"
+depends = "['libreoffice>=24.2.5.2']"
 +++
 ### Description: 
 Installs Kannada support in LibreOffice

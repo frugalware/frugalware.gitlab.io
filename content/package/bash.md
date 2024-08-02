@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bash 5.2.21-3"
-version = "5.2.21-3"
+title = "bash 5.2.32-1"
+version = "5.2.32-1"
 description = "The GNU Bourne Again shell"
-date = "2024-05-27T09:26:49"
+date = "2024-08-02T19:39:06"
 aliases = "/packages/2347"
 categories = ['base']
 upstreamurl = "http://tiswww.case.edu/php/chet/bash/bashtop.html"
 arch = "x86_64"
-size = "1830632"
-usize = "9800012"
-sha1sum = "2d38914b3a70267fb807d306567fd0113e38f71c"
+size = "1840312"
+usize = "9593519"
+sha1sum = "e772bb0915e0ac6702c2ab2a2f5a36b838254f32"
 depends = "['glibc>=2.37', 'readline>=8.2']"
 reverse_depends = "['autoconf', 'autoconf213', 'automake', 'backupninja', 'bash-completion', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'dosfstools', 'dracut', 'findutils', 'flex', 'gradle', 'gzip', 'kbd', 'keychain', 'less', 'lesspipe', 'libtool', 'lxc', 'lynis', 'make', 'maxima', 'neofetch', 'nvm', 'openresolv', 'os-prober', 'pacman-tools', 'prettyping', 'pulse-autoconf', 'pyenv', 'rpcbind', 'screenfetch', 'scriptlet-core', 'steamtinkerlaunch', 'systemd-swap', 'tar', 'wgetpaste']"
 +++
@@ -124,21 +124,21 @@ The GNU Bourne Again shell
 * /usr/lib/bash/unlink
 * /usr/lib/bash/whoami
 * /usr/lib/pkgconfig/bash.pc
-* /usr/share/doc/bash-5.2.21/AUTHORS
-* /usr/share/doc/bash-5.2.21/bash.html
-* /usr/share/doc/bash-5.2.21/bashref.html
-* /usr/share/doc/bash-5.2.21/ChangeLog
-* /usr/share/doc/bash-5.2.21/CHANGES
-* /usr/share/doc/bash-5.2.21/COMPAT
-* /usr/share/doc/bash-5.2.21/COPYING
-* /usr/share/doc/bash-5.2.21/FAQ
-* /usr/share/doc/bash-5.2.21/INSTALL
-* /usr/share/doc/bash-5.2.21/INTRO
-* /usr/share/doc/bash-5.2.21/MANIFEST
-* /usr/share/doc/bash-5.2.21/NEWS
-* /usr/share/doc/bash-5.2.21/POSIX
-* /usr/share/doc/bash-5.2.21/RBASH
-* /usr/share/doc/bash-5.2.21/README
+* /usr/share/doc/bash-5.2.32/AUTHORS
+* /usr/share/doc/bash-5.2.32/bash.html
+* /usr/share/doc/bash-5.2.32/bashref.html
+* /usr/share/doc/bash-5.2.32/ChangeLog
+* /usr/share/doc/bash-5.2.32/CHANGES
+* /usr/share/doc/bash-5.2.32/COMPAT
+* /usr/share/doc/bash-5.2.32/COPYING
+* /usr/share/doc/bash-5.2.32/FAQ
+* /usr/share/doc/bash-5.2.32/INSTALL
+* /usr/share/doc/bash-5.2.32/INTRO
+* /usr/share/doc/bash-5.2.32/MANIFEST
+* /usr/share/doc/bash-5.2.32/NEWS
+* /usr/share/doc/bash-5.2.32/POSIX
+* /usr/share/doc/bash-5.2.32/RBASH
+* /usr/share/doc/bash-5.2.32/README
 * /usr/share/info/bash.info.gz
 * /usr/share/locale/af/LC_MESSAGES/bash.mo
 * /usr/share/locale/bg/LC_MESSAGES/bash.mo

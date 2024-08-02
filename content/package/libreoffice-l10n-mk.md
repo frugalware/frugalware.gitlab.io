@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-mk 24.2.4.2-2"
-version = "24.2.4.2-2"
+title = "libreoffice-l10n-mk 24.2.5.2-2"
+version = "24.2.5.2-2"
 description = "Installs Macedonian support in LibreOffice"
-date = "2024-07-07T21:08:42"
+date = "2024-08-02T17:26:42"
 aliases = "/packages/104085"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4198824"
-usize = "33167793"
-sha1sum = "951b0f7e49640ff43ab0c6254cf25b9ed1a9856d"
-depends = "['libreoffice>=24.2.4.2']"
+size = "4198204"
+usize = "33167837"
+sha1sum = "0c407331eda5afdfcb8ca2618b5cc476f9196c29"
+depends = "['libreoffice>=24.2.5.2']"
 +++
 ### Description: 
 Installs Macedonian support in LibreOffice

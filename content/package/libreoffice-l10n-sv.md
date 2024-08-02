@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-sv 24.2.4.2-2"
-version = "24.2.4.2-2"
+title = "libreoffice-l10n-sv 24.2.5.2-2"
+version = "24.2.5.2-2"
 description = "Installs Swedish support in LibreOffice"
-date = "2024-07-07T21:08:42"
+date = "2024-08-02T17:26:42"
 aliases = "/packages/104121"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4987808"
-usize = "34826704"
-sha1sum = "10596b4eedaf39b8d95d5dd86f65015de1afedda"
-depends = "['libreoffice>=24.2.4.2']"
+size = "4988760"
+usize = "34826665"
+sha1sum = "561ebd78dff4b7e07222f623bb84deb768dc8862"
+depends = "['libreoffice>=24.2.5.2']"
 +++
 ### Description: 
 Installs Swedish support in LibreOffice

@@ -31,7 +31,7 @@ XAudio2 reimplementation
 * /usr/lib/cmake/FAudio/FAudioConfig.cmake
 * /usr/lib/libFAudio.so
 * /usr/lib/libFAudio.so.0
-* /usr/lib/libFAudio.so.0.24.07
+* /usr/lib/libFAudio.so.0.24.08
 * /usr/lib/pkgconfig/FAudio.pc
-* /usr/share/doc/faudio-24.07/LICENSE
-* /usr/share/doc/faudio-24.07/README
+* /usr/share/doc/faudio-24.08/LICENSE
+* /usr/share/doc/faudio-24.08/README
