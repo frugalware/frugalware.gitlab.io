@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffmpeg 7.0.1-2"
-version = "7.0.1-2"
+title = "ffmpeg 7.0.2-1"
+version = "7.0.2-1"
 description = "FFMpeg is a complete and free Internet live audio and video broadcasting solution for Linux/Unix."
-date = "2024-06-09T17:48:24"
+date = "2024-08-03T14:26:45"
 aliases = "/packages/16224"
 categories = ['xmultimedia']
 upstreamurl = "http://ffmpeg.sourceforge.net/"
 arch = "x86_64"
-size = "9970760"
-usize = "39054537"
-sha1sum = "8e35cbd74b6caa37b4c66787f8eb20e4525b1220"
+size = "10003336"
+usize = "39303024"
+sha1sum = "018da2eb7e3ae9866d1e4df72e116cff2fbd8415"
 depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'aom', 'dav1d>=1.3.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.22', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libopenmpt', 'libpulse>=12.2-8', 'librist', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpl', 'libvpx>=1.14.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'libxv', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'srt', 'svt-av1>=2.0.0', 'v4l-utils>=1.8.1-3', 'x264>=20230712.ga8b68eb', 'x265>=3.6', 'xvidcore>=1.3.4-3', 'zimg', 'zlib>=1.2.12']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'aubio', 'chromaprint', 'faudio', 'ffmpegthumbnailer', 'ffmpegthumbs', 'firefox', 'freerdp', 'freerdp2', 'gegl', 'gst-libav', 'gtk-handbrake', 'guvcview', 'handbrake', 'k3b', 'kfilemetadata', 'kfilemetadata5', 'kpipewire', 'minidlna', 'mlt', 'mpd', 'mpv', 'obs-studio', 'openal', 'opencv', 'picard', 'qt5-webengine', 'qt6-multimedia', 'qt6-webengine', 'r2modman', 'scrcpy', 'sherlock265', 'streamlink', 'telegram-desktop', 'tox-core', 'ultrastardx', 'unpaper', 'vscode', 'vtk-ffmpeg', 'xine-lib', 'yt-dlp']"
 +++
@@ -194,48 +194,48 @@ FFMpeg is a complete and free Internet live audio and video broadcasting solutio
 * /usr/lib/pkgconfig/libpostproc.pc
 * /usr/lib/pkgconfig/libswresample.pc
 * /usr/lib/pkgconfig/libswscale.pc
-* /usr/share/doc/ffmpeg-7.0.1/bootstrap.min.css
-* /usr/share/doc/ffmpeg-7.0.1/Changelog
-* /usr/share/doc/ffmpeg-7.0.1/community.html
-* /usr/share/doc/ffmpeg-7.0.1/COPYING.GPLv2
-* /usr/share/doc/ffmpeg-7.0.1/COPYING.GPLv3
-* /usr/share/doc/ffmpeg-7.0.1/COPYING.LGPLv2.1
-* /usr/share/doc/ffmpeg-7.0.1/COPYING.LGPLv3
-* /usr/share/doc/ffmpeg-7.0.1/CREDITS
-* /usr/share/doc/ffmpeg-7.0.1/default.css
-* /usr/share/doc/ffmpeg-7.0.1/developer.html
-* /usr/share/doc/ffmpeg-7.0.1/faq.html
-* /usr/share/doc/ffmpeg-7.0.1/fate.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-all.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-bitstream-filters.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-codecs.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-devices.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-filters.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-formats.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-protocols.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-resampler.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-scaler.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg-utils.html
-* /usr/share/doc/ffmpeg-7.0.1/ffmpeg.html
-* /usr/share/doc/ffmpeg-7.0.1/ffplay-all.html
-* /usr/share/doc/ffmpeg-7.0.1/ffplay.html
-* /usr/share/doc/ffmpeg-7.0.1/ffprobe-all.html
-* /usr/share/doc/ffmpeg-7.0.1/ffprobe.html
-* /usr/share/doc/ffmpeg-7.0.1/general.html
-* /usr/share/doc/ffmpeg-7.0.1/git-howto.html
-* /usr/share/doc/ffmpeg-7.0.1/INSTALL.md
-* /usr/share/doc/ffmpeg-7.0.1/libavcodec.html
-* /usr/share/doc/ffmpeg-7.0.1/libavdevice.html
-* /usr/share/doc/ffmpeg-7.0.1/libavfilter.html
-* /usr/share/doc/ffmpeg-7.0.1/libavformat.html
-* /usr/share/doc/ffmpeg-7.0.1/libavutil.html
-* /usr/share/doc/ffmpeg-7.0.1/libswresample.html
-* /usr/share/doc/ffmpeg-7.0.1/libswscale.html
-* /usr/share/doc/ffmpeg-7.0.1/mailing-list-faq.html
-* /usr/share/doc/ffmpeg-7.0.1/nut.html
-* /usr/share/doc/ffmpeg-7.0.1/platform.html
-* /usr/share/doc/ffmpeg-7.0.1/README.md
-* /usr/share/doc/ffmpeg-7.0.1/RELEASE
-* /usr/share/doc/ffmpeg-7.0.1/RELEASE_NOTES
-* /usr/share/doc/ffmpeg-7.0.1/style.min.css
-* /usr/share/doc/ffmpeg-7.0.1/VERSION
+* /usr/share/doc/ffmpeg-7.0.2/bootstrap.min.css
+* /usr/share/doc/ffmpeg-7.0.2/Changelog
+* /usr/share/doc/ffmpeg-7.0.2/community.html
+* /usr/share/doc/ffmpeg-7.0.2/COPYING.GPLv2
+* /usr/share/doc/ffmpeg-7.0.2/COPYING.GPLv3
+* /usr/share/doc/ffmpeg-7.0.2/COPYING.LGPLv2.1
+* /usr/share/doc/ffmpeg-7.0.2/COPYING.LGPLv3
+* /usr/share/doc/ffmpeg-7.0.2/CREDITS
+* /usr/share/doc/ffmpeg-7.0.2/default.css
+* /usr/share/doc/ffmpeg-7.0.2/developer.html
+* /usr/share/doc/ffmpeg-7.0.2/faq.html
+* /usr/share/doc/ffmpeg-7.0.2/fate.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-all.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-bitstream-filters.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-codecs.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-devices.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-filters.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-formats.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-protocols.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-resampler.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-scaler.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-utils.html
+* /usr/share/doc/ffmpeg-7.0.2/ffmpeg.html
+* /usr/share/doc/ffmpeg-7.0.2/ffplay-all.html
+* /usr/share/doc/ffmpeg-7.0.2/ffplay.html
+* /usr/share/doc/ffmpeg-7.0.2/ffprobe-all.html
+* /usr/share/doc/ffmpeg-7.0.2/ffprobe.html
+* /usr/share/doc/ffmpeg-7.0.2/general.html
+* /usr/share/doc/ffmpeg-7.0.2/git-howto.html
+* /usr/share/doc/ffmpeg-7.0.2/INSTALL.md
+* /usr/share/doc/ffmpeg-7.0.2/libavcodec.html
+* /usr/share/doc/ffmpeg-7.0.2/libavdevice.html
+* /usr/share/doc/ffmpeg-7.0.2/libavfilter.html
+* /usr/share/doc/ffmpeg-7.0.2/libavformat.html
+* /usr/share/doc/ffmpeg-7.0.2/libavutil.html
+* /usr/share/doc/ffmpeg-7.0.2/libswresample.html
+* /usr/share/doc/ffmpeg-7.0.2/libswscale.html
+* /usr/share/doc/ffmpeg-7.0.2/mailing-list-faq.html
+* /usr/share/doc/ffmpeg-7.0.2/nut.html
+* /usr/share/doc/ffmpeg-7.0.2/platform.html
+* /usr/share/doc/ffmpeg-7.0.2/README.md
+* /usr/share/doc/ffmpeg-7.0.2/RELEASE
+* /usr/share/doc/ffmpeg-7.0.2/RELEASE_NOTES
+* /usr/share/doc/ffmpeg-7.0.2/style.min.css
+* /usr/share/doc/ffmpeg-7.0.2/VERSION
