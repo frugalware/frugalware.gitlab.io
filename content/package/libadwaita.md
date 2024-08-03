@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libadwaita 1.5.2-1"
-version = "1.5.2-1"
+title = "libadwaita 1.5.3-1"
+version = "1.5.3-1"
 description = "Building blocks for modern adaptive GNOME applications"
-date = "2024-07-14T20:24:45"
+date = "2024-08-03T15:38:28"
 aliases = "/packages/220893"
 categories = ['lib-extra']
 upstreamurl = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
 arch = "x86_64"
-size = "641228"
-usize = "4912434"
-sha1sum = "71547db02a2d7a871a2c8043b3b62a4d729cdcec"
+size = "641880"
+usize = "4922406"
+sha1sum = "ff4651523b253a14653169212e928e2e22c04b1e"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome']"
 +++
@@ -95,10 +95,10 @@ Building blocks for modern adaptive GNOME applications
 * /usr/lib/libadwaita-1.so.0
 * /usr/lib/pkgconfig/libadwaita-1.pc
 * /usr/share/applications/org.gnome.Adwaita1.Demo.desktop
-* /usr/share/doc/libadwaita-1.5.2/AUTHORS
-* /usr/share/doc/libadwaita-1.5.2/COPYING
-* /usr/share/doc/libadwaita-1.5.2/NEWS
-* /usr/share/doc/libadwaita-1.5.2/README.md
+* /usr/share/doc/libadwaita-1.5.3/AUTHORS
+* /usr/share/doc/libadwaita-1.5.3/COPYING
+* /usr/share/doc/libadwaita-1.5.3/NEWS
+* /usr/share/doc/libadwaita-1.5.3/README.md
 * /usr/share/gir-1.0/Adw-1.gir
 * /usr/share/icons/hicolor/scalable/apps/org.gnome.Adwaita1.Demo.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gnome.Adwaita1.Demo-symbolic.svg
@@ -132,6 +132,7 @@ Building blocks for modern adaptive GNOME applications
 * /usr/share/locale/ko/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/lt/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/lv/LC_MESSAGES/libadwaita.mo
+* /usr/share/locale/ml/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/nb/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/ne/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/nl/LC_MESSAGES/libadwaita.mo

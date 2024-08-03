@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simdjson 3.9.5-1"
-version = "3.9.5-1"
+title = "simdjson 3.10.0-1"
+version = "3.10.0-1"
 description = "A C++ library to see how fast we can parse JSON with complete validation."
-date = "2024-07-14T20:21:45"
+date = "2024-08-03T15:34:34"
 aliases = "/packages/221493"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/simdjson/simdjson"
 arch = "x86_64"
-size = "231784"
-usize = "5250569"
-sha1sum = "a3b2571367fb78d39238bf7466f071a46132f98e"
+size = "232552"
+usize = "5275117"
+sha1sum = "bb55e1e46f300c660f577f3124f51422ac12bf6d"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -23,10 +23,10 @@ A C++ library to see how fast we can parse JSON with complete validation.
 * /usr/lib/cmake/simdjson/simdjsonTargets-release.cmake
 * /usr/lib/cmake/simdjson/simdjsonTargets.cmake
 * /usr/lib/libsimdjson.so
-* /usr/lib/libsimdjson.so.22
-* /usr/lib/libsimdjson.so.22.0.0
+* /usr/lib/libsimdjson.so.23
+* /usr/lib/libsimdjson.so.23.0.0
 * /usr/lib/pkgconfig/simdjson.pc
-* /usr/share/doc/simdjson-3.9.5/AUTHORS
-* /usr/share/doc/simdjson-3.9.5/CONTRIBUTORS
-* /usr/share/doc/simdjson-3.9.5/LICENSE
-* /usr/share/doc/simdjson-3.9.5/README.md
+* /usr/share/doc/simdjson-3.10.0/AUTHORS
+* /usr/share/doc/simdjson-3.10.0/CONTRIBUTORS
+* /usr/share/doc/simdjson-3.10.0/LICENSE
+* /usr/share/doc/simdjson-3.10.0/README.md
