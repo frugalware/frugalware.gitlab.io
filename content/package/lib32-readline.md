@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-readline 8.2-6"
-version = "8.2-6"
+title = "lib32-readline 8.2.13-1"
+version = "8.2.13-1"
 description = "GNU readline library ( 32bit )"
-date = "2024-06-01T19:23:15"
+date = "2024-08-03T09:10:44"
 aliases = "/packages/217901"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/"
 arch = "x86_64"
-size = "150744"
-usize = "445682"
-sha1sum = "fa2aded2d17345ad2035939076518f1b8c329e30"
+size = "151948"
+usize = "441030"
+sha1sum = "8a1dfe75412bca1b21865ce1bc31edc1e0b117a3"
 depends = "['lib32-ncurses>=6.1-3']"
 reverse_depends = "['lib32-gdbm', 'lib32-networkmanager', 'lib32-pcre', 'lib32-pcre2', 'lib32-sqlite3']"
 +++
