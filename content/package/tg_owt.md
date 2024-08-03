@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tg_owt 20240802.ge9d103e-1"
-version = "20240802.ge9d103e-1"
+title = "tg_owt 20240802.ge9d103e-2"
+version = "20240802.ge9d103e-2"
 description = "WebRTC build for Telegram"
-date = "2024-08-02T10:27:02"
+date = "2024-08-03T17:34:57"
 aliases = "/packages/220205"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/desktop-app/tg_owt"
 arch = "x86_64"
-size = "99188008"
-usize = "160332827"
-sha1sum = "e5f2eaa28e60c49064f02476c2fd076c57df3524"
+size = "99147432"
+usize = "160288115"
+sha1sum = "5a3e0e0e81e0711b24ede6d432837b38755f19f1"
 depends = "['libdrm']"
 +++
 ### Description: 
