@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.91.1-1"
-version = "1.91.1-1"
+title = "vscode 1.92.0-1"
+version = "1.92.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-07-15T15:11:14"
+date = "2024-08-04T16:13:23"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "90944688"
-usize = "352244170"
-sha1sum = "9436fbb96065a65a60afa71eeaf4c24cbe96ccf5"
+size = "92358900"
+usize = "360613821"
+sha1sum = "13805dd17ba12fe3db84bb49b08ed9270da86c17"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.91.1/README.md
+* /usr/share/doc/vscode-1.92.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -370,6 +370,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/.eslintignore
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/extension.js
+* /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js
+* /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/icon.png
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/media/highlight.css
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/media/index.js
@@ -382,13 +384,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/package.nls.json
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/README.md
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/schemas/package.schema.json
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/server/build/pipeline.yml
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/server/CHANGELOG.md
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/server/dist/node/workerMain.js
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/server/dist/node/workerMain.js.LICENSE.txt
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/server/package.json
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/server/README.md
-* /usr/share/vscode/resources/app/extensions/markdown-language-features/types/previewMessaging.d.ts
 * /usr/share/vscode/resources/app/extensions/markdown-math/dist/extension.js
 * /usr/share/vscode/resources/app/extensions/markdown-math/icon.png
 * /usr/share/vscode/resources/app/extensions/markdown-math/notebook-out/fonts/KaTeX_AMS-Regular.woff2
@@ -418,6 +413,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/markdown-math/preview-styles/index.css
 * /usr/share/vscode/resources/app/extensions/markdown-math/README.md
 * /usr/share/vscode/resources/app/extensions/markdown-math/syntaxes/md-math-block.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/markdown-math/syntaxes/md-math-fence.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/markdown-math/syntaxes/md-math-inline.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/markdown-math/syntaxes/md-math.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/media-preview/dist/extension.js
@@ -448,6 +444,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/microsoft-authentication/package.nls.json
 * /usr/share/vscode/resources/app/extensions/microsoft-authentication/README.md
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug-companion/ci.yml
+* /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug-companion/eslint.config.mjs
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug-companion/LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug-companion/out/extension.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug-companion/package.json
@@ -844,9 +841,14 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/xml/syntaxes/xsl.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/xml/xml.language-configuration.json
 * /usr/share/vscode/resources/app/extensions/xml/xsl.language-configuration.json
+* /usr/share/vscode/resources/app/extensions/yaml/build/update-grammar.js
 * /usr/share/vscode/resources/app/extensions/yaml/language-configuration.json
 * /usr/share/vscode/resources/app/extensions/yaml/package.json
 * /usr/share/vscode/resources/app/extensions/yaml/package.nls.json
+* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.0.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.1.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.2.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.3.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml.tmLanguage.json
 * /usr/share/vscode/resources/app/LICENSE.txt
 * /usr/share/vscode/resources/app/node_modules.asar
@@ -867,20 +869,15 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules.asar.unpacked/vscode-oniguruma/release/onig.wasm
 * /usr/share/vscode/resources/app/node_modules.asar.unpacked/windows-foreground-love/build/Release/foreground_love.node
 * /usr/share/vscode/resources/app/node_modules.asar.unpacked/windows-foreground-love/build/Release/obj.target/foreground_love.node
-* /usr/share/vscode/resources/app/out/bootstrap-amd.js
 * /usr/share/vscode/resources/app/out/bootstrap-fork.js
-* /usr/share/vscode/resources/app/out/bootstrap-node.js
-* /usr/share/vscode/resources/app/out/bootstrap-window.js
-* /usr/share/vscode/resources/app/out/bootstrap.js
 * /usr/share/vscode/resources/app/out/cli.js
 * /usr/share/vscode/resources/app/out/main.js
-* /usr/share/vscode/resources/app/out/nls.metadata.json
+* /usr/share/vscode/resources/app/out/nls.keys.json
+* /usr/share/vscode/resources/app/out/nls.messages.json
 * /usr/share/vscode/resources/app/out/vs/base/browser/ui/codicons/codicon/codicon-modifiers.css
 * /usr/share/vscode/resources/app/out/vs/base/browser/ui/codicons/codicon/codicon.css
 * /usr/share/vscode/resources/app/out/vs/base/browser/ui/codicons/codicon/codicon.ttf
-* /usr/share/vscode/resources/app/out/vs/base/common/performance.js
 * /usr/share/vscode/resources/app/out/vs/base/common/worker/simpleWorker.js
-* /usr/share/vscode/resources/app/out/vs/base/common/worker/simpleWorker.nls.js
 * /usr/share/vscode/resources/app/out/vs/base/node/cpuUsage.sh
 * /usr/share/vscode/resources/app/out/vs/base/node/ps.sh
 * /usr/share/vscode/resources/app/out/vs/base/node/terminateProcess.sh
@@ -888,21 +885,15 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/base/parts/sandbox/electron-sandbox/preload.js
 * /usr/share/vscode/resources/app/out/vs/base/worker/workerMain.js
 * /usr/share/vscode/resources/app/out/vs/code/electron-main/main.js
-* /usr/share/vscode/resources/app/out/vs/code/electron-main/main.nls.js
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.html
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.js
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.css
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.js
-* /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js
 * /usr/share/vscode/resources/app/out/vs/code/node/cli.js
-* /usr/share/vscode/resources/app/out/vs/code/node/cli.nls.js
 * /usr/share/vscode/resources/app/out/vs/code/node/cliProcessMain.js
-* /usr/share/vscode/resources/app/out/vs/code/node/cliProcessMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js
-* /usr/share/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.nls.js
-* /usr/share/vscode/resources/app/out/vs/editor/common/services/editorSimpleWorker.nls.js
 * /usr/share/vscode/resources/app/out/vs/loader.js
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatRequestSent.mp3
@@ -928,15 +919,10 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStopped.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.js
-* /usr/share/vscode/resources/app/out/vs/platform/files/node/watcher/watcherMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/platform/profiling/electron-sandbox/profileAnalysisWorker.js
-* /usr/share/vscode/resources/app/out/vs/platform/profiling/electron-sandbox/profileAnalysisWorker.nls.js
 * /usr/share/vscode/resources/app/out/vs/platform/terminal/node/ptyHostMain.js
-* /usr/share/vscode/resources/app/out/vs/platform/terminal/node/ptyHostMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
-* /usr/share/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.nls.js
 * /usr/share/vscode/resources/app/out/vs/workbench/api/worker/extensionHostWorker.js
-* /usr/share/vscode/resources/app/out/vs/workbench/api/worker/extensionHostWorker.nls.js
 * /usr/share/vscode/resources/app/out/vs/workbench/browser/parts/editor/media/back-tb.png
 * /usr/share/vscode/resources/app/out/vs/workbench/browser/parts/editor/media/forward-tb.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/debug/browser/media/continue-tb.png
@@ -948,7 +934,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/debug/browser/media/stepover-tb.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/debug/browser/media/stop-tb.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js
-* /usr/share/vscode/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.nls.js
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/extensions/browser/media/theme-icon.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/externalTerminal/node/iTermHelper.scpt
@@ -957,11 +942,11 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.js
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.css
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.js
-* /usr/share/vscode/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.nls.js
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/notebook/common/services/notebookSimpleWorker.js
-* /usr/share/vscode/resources/app/out/vs/workbench/contrib/notebook/common/services/notebookSimpleWorker.nls.js
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/output/common/outputLinkComputer.js
+* /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/browser/media/CodeTabExpansion.psm1
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/browser/media/fish_xdg_data/fish/vendor_conf.d/shellIntegration.fish
+* /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/browser/media/GitTabExpansion.psm1
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-env.zsh
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-login.zsh
@@ -1003,7 +988,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.worker.js
 * /usr/share/vscode/resources/app/out/vs/workbench/workbench.desktop.main.css
 * /usr/share/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js
-* /usr/share/vscode/resources/app/out/vs/workbench/workbench.desktop.main.nls.js
 * /usr/share/vscode/resources/app/out/vscode-dts/vscode.d.ts
 * /usr/share/vscode/resources/app/package.json
 * /usr/share/vscode/resources/app/product.json

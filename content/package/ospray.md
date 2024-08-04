@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ospray 3.1.0-2"
-version = "3.1.0-2"
+title = "ospray 3.2.0-1"
+version = "3.2.0-1"
 description = "A Ray Tracing Based Rendering Engine for High-Fidelity Visualization"
-date = "2024-07-22T12:17:31"
+date = "2024-08-04T17:08:09"
 aliases = "/packages/220251"
 categories = ['xlib-extra']
 upstreamurl = "https://www.ospray.org/"
 arch = "x86_64"
-size = "4634196"
-usize = "18934580"
-sha1sum = "576df816a7774847b03b1a3a36c371bd3ade6e33"
+size = "4984736"
+usize = "19713952"
+sha1sum = "f79251071c886712d9ee4dd2fbc4ce419eddc77c"
 depends = "['benchmark>=1.8.5', 'glfw', 'ispc', 'libglu', 'openmpi', 'openvkl>=2.0.1', 'snappy']"
 +++
 ### Description: 
@@ -68,6 +68,7 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/ospray_testing/ospray_testing_export.h
 * /usr/include/ospray/ospray_util.h
 * /usr/include/ospray/SDK/api/Device.h
+* /usr/include/ospray/SDK/common/DeviceRT.h
 * /usr/include/ospray/SDK/common/ISPCMessages.h
 * /usr/include/ospray/SDK/common/Library.h
 * /usr/include/ospray/SDK/common/Managed.h
@@ -97,6 +98,10 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/common/Clipping.ih
 * /usr/include/ospray/SDK/modules/cpu/common/Data.h
 * /usr/include/ospray/SDK/modules/cpu/common/Data.ih
+* /usr/include/ospray/SDK/modules/cpu/common/DeviceRT.ih
+* /usr/include/ospray/SDK/modules/cpu/common/DeviceRTImpl.h
+* /usr/include/ospray/SDK/modules/cpu/common/DeviceRTImpl_ispc.h
+* /usr/include/ospray/SDK/modules/cpu/common/DeviceRTImpl_sycl.h
 * /usr/include/ospray/SDK/modules/cpu/common/DGEnum.h
 * /usr/include/ospray/SDK/modules/cpu/common/DifferentialGeometry.ih
 * /usr/include/ospray/SDK/modules/cpu/common/Embree.h
@@ -110,10 +115,10 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/common/Instance.ih
 * /usr/include/ospray/SDK/modules/cpu/common/InstanceShared.h
 * /usr/include/ospray/SDK/modules/cpu/common/Intersect.ih
-* /usr/include/ospray/SDK/modules/cpu/common/ISPCRTBuffers.h
 * /usr/include/ospray/SDK/modules/cpu/common/MotionTransform.h
 * /usr/include/ospray/SDK/modules/cpu/common/OSPCommon.ih
 * /usr/include/ospray/SDK/modules/cpu/common/Ray.ih
+* /usr/include/ospray/SDK/modules/cpu/common/RayCone.ih
 * /usr/include/ospray/SDK/modules/cpu/common/RayQueryContext.ih
 * /usr/include/ospray/SDK/modules/cpu/common/StructShared.h
 * /usr/include/ospray/SDK/modules/cpu/common/VolumeIntervals.ih
@@ -128,7 +133,6 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/fb/FrameBufferShared.h
 * /usr/include/ospray/SDK/modules/cpu/fb/FrameBufferView.ih
 * /usr/include/ospray/SDK/modules/cpu/fb/FrameOp.h
-* /usr/include/ospray/SDK/modules/cpu/fb/FrameOpKernelLaunch.ih
 * /usr/include/ospray/SDK/modules/cpu/fb/frame_ops/Blur.h
 * /usr/include/ospray/SDK/modules/cpu/fb/frame_ops/BlurShared.h
 * /usr/include/ospray/SDK/modules/cpu/fb/frame_ops/Blur_ispc.h
@@ -197,7 +201,6 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/ISPCDevice.h
 * /usr/include/ospray/SDK/modules/cpu/ISPCDeviceObject.h
 * /usr/include/ospray/SDK/modules/cpu/ISPCDevice_ispc.h
-* /usr/include/ospray/SDK/modules/cpu/ispc_tasksys.h
 * /usr/include/ospray/SDK/modules/cpu/lights/AmbientLight.h
 * /usr/include/ospray/SDK/modules/cpu/lights/AmbientLight.ih
 * /usr/include/ospray/SDK/modules/cpu/lights/AmbientLightShared.h
@@ -249,15 +252,11 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/math/Distribution2D.ih
 * /usr/include/ospray/SDK/modules/cpu/math/Distribution2DShared.h
 * /usr/include/ospray/SDK/modules/cpu/math/Distribution2D_ispc.h
-* /usr/include/ospray/SDK/modules/cpu/math/halton.h
 * /usr/include/ospray/SDK/modules/cpu/math/halton.ih
 * /usr/include/ospray/SDK/modules/cpu/math/interpolation.ih
-* /usr/include/ospray/SDK/modules/cpu/math/MathConstants.h
-* /usr/include/ospray/SDK/modules/cpu/math/MathConstantsShared.h
 * /usr/include/ospray/SDK/modules/cpu/math/random.ih
 * /usr/include/ospray/SDK/modules/cpu/math/sampling.h
 * /usr/include/ospray/SDK/modules/cpu/math/sampling.ih
-* /usr/include/ospray/SDK/modules/cpu/math/sobol.h
 * /usr/include/ospray/SDK/modules/cpu/math/sobol.ih
 * /usr/include/ospray/SDK/modules/cpu/math/spectrum.h
 * /usr/include/ospray/SDK/modules/cpu/math/spectrum.ih
@@ -271,7 +270,6 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/pf/PixelFilterDispatch_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/pf/PixelFilterShared.h
 * /usr/include/ospray/SDK/modules/cpu/render/ao/AORenderer.h
-* /usr/include/ospray/SDK/modules/cpu/render/ao/AORenderer.ih
 * /usr/include/ospray/SDK/modules/cpu/render/ao/AORendererShared.h
 * /usr/include/ospray/SDK/modules/cpu/render/ao/AORenderer_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/render/ao/surfaces.ih
@@ -316,7 +314,6 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/render/bsdfs/Transmission.ih
 * /usr/include/ospray/SDK/modules/cpu/render/bsdfs/Velvety.ih
 * /usr/include/ospray/SDK/modules/cpu/render/debug/DebugRenderer.h
-* /usr/include/ospray/SDK/modules/cpu/render/debug/DebugRenderer.ih
 * /usr/include/ospray/SDK/modules/cpu/render/debug/DebugRendererShared.h
 * /usr/include/ospray/SDK/modules/cpu/render/debug/DebugRenderer_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/render/LoadBalancer.h
@@ -407,8 +404,7 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/render/RendererData.h
 * /usr/include/ospray/SDK/modules/cpu/render/RendererShared.h
 * /usr/include/ospray/SDK/modules/cpu/render/Renderer_ispc.h
-* /usr/include/ospray/SDK/modules/cpu/render/RenderTask.h
-* /usr/include/ospray/SDK/modules/cpu/render/RenderTaskSycl.h
+* /usr/include/ospray/SDK/modules/cpu/render/RenderingFuture.h
 * /usr/include/ospray/SDK/modules/cpu/render/scivis/lightAlpha_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/render/scivis/SciVis.h
 * /usr/include/ospray/SDK/modules/cpu/render/scivis/SciVis.ih
@@ -426,17 +422,21 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/cpu/render/util.h
 * /usr/include/ospray/SDK/modules/cpu/render/util.ih
 * /usr/include/ospray/SDK/modules/cpu/render/util_ispc.h
+* /usr/include/ospray/SDK/modules/cpu/texture/MipMapCache.h
+* /usr/include/ospray/SDK/modules/cpu/texture/MipMapGeneration_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/texture/registration.h
 * /usr/include/ospray/SDK/modules/cpu/texture/Texture.h
 * /usr/include/ospray/SDK/modules/cpu/texture/Texture.ih
 * /usr/include/ospray/SDK/modules/cpu/texture/Texture2D.h
 * /usr/include/ospray/SDK/modules/cpu/texture/Texture2D.ih
 * /usr/include/ospray/SDK/modules/cpu/texture/Texture2DShared.h
+* /usr/include/ospray/SDK/modules/cpu/texture/Texture2DUtil.ih
 * /usr/include/ospray/SDK/modules/cpu/texture/Texture2D_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureDispatch.ih
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureDispatch_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureParam.ih
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureParamShared.h
+* /usr/include/ospray/SDK/modules/cpu/texture/TextureParam_ispc.h
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureShared.h
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureVolume.h
 * /usr/include/ospray/SDK/modules/cpu/texture/TextureVolume.ih
@@ -480,28 +480,28 @@ A Ray Tracing Based Rendering Engine for High-Fidelity Visualization
 * /usr/include/ospray/SDK/modules/mpi/render/WriteMultipleTileOperation.h
 * /usr/include/ospray/SDK/OSPConfig.h
 * /usr/include/ospray/version.h
-* /usr/lib/cmake/ospray-3.1.0/osprayConfig.cmake
-* /usr/lib/cmake/ospray-3.1.0/osprayConfigVersion.cmake
-* /usr/lib/cmake/ospray-3.1.0/osprayUse.cmake
-* /usr/lib/cmake/ospray-3.1.0/ospray_Exports-release.cmake
-* /usr/lib/cmake/ospray-3.1.0/ospray_Exports.cmake
-* /usr/lib/cmake/ospray-3.1.0/ospray_macros.cmake
+* /usr/lib/cmake/ospray-3.2.0/osprayConfig.cmake
+* /usr/lib/cmake/ospray-3.2.0/osprayConfigVersion.cmake
+* /usr/lib/cmake/ospray-3.2.0/osprayUse.cmake
+* /usr/lib/cmake/ospray-3.2.0/ospray_Exports-release.cmake
+* /usr/lib/cmake/ospray-3.2.0/ospray_Exports.cmake
+* /usr/lib/cmake/ospray-3.2.0/ospray_macros.cmake
 * /usr/lib/libospray.so
 * /usr/lib/libospray.so.3
-* /usr/lib/libospray.so.3.1.0
+* /usr/lib/libospray.so.3.2.0
 * /usr/lib/libospray_imgui.so.3
-* /usr/lib/libospray_imgui.so.3.1.0
+* /usr/lib/libospray_imgui.so.3.2.0
 * /usr/lib/libospray_module_cpu.so.3
-* /usr/lib/libospray_module_cpu.so.3.1.0
+* /usr/lib/libospray_module_cpu.so.3.2.0
 * /usr/lib/libospray_module_mpi_distributed_cpu.so.3
-* /usr/lib/libospray_module_mpi_distributed_cpu.so.3.1.0
+* /usr/lib/libospray_module_mpi_distributed_cpu.so.3.2.0
 * /usr/lib/libospray_module_mpi_offload.so.3
-* /usr/lib/libospray_module_mpi_offload.so.3.1.0
+* /usr/lib/libospray_module_mpi_offload.so.3.2.0
 * /usr/lib/libospray_mpi_common.so.3
-* /usr/lib/libospray_mpi_common.so.3.1.0
+* /usr/lib/libospray_mpi_common.so.3.2.0
 * /usr/lib/libospray_testing.so.3
-* /usr/lib/libospray_testing.so.3.1.0
-* /usr/share/doc/ospray-3.1.0/README.md
+* /usr/lib/libospray_testing.so.3.2.0
+* /usr/share/doc/ospray-3.2.0/README.md
 * /usr/share/doc/OSPRay/CHANGELOG.md
 * /usr/share/doc/OSPRay/LICENSE.txt
 * /usr/share/doc/OSPRay/README.md
