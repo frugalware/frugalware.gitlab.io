@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "evdi 1.14.5-8"
-version = "1.14.5-8"
+title = "evdi 1.14.5-9"
+version = "1.14.5-9"
 description = "Extensible Virtual Display Interface"
-date = "2024-07-28T16:09:51"
+date = "2024-08-04T11:44:04"
 aliases = "/packages/219800"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/DisplayLink/evdi"
 arch = "x86_64"
-size = "156988"
-usize = "503184"
-sha1sum = "7b43edded3a161c188f59f97b71cac334c7bc4fe"
-depends = "['kernel=6.10.2-1', 'libdrm', 'python3>=3.12']"
+size = "157396"
+usize = "507280"
+sha1sum = "f5120d8b055529183ea85347ec2de8040386d95a"
+depends = "['kernel=6.10.3-1', 'libdrm', 'python3>=3.12']"
 reverse_depends = "['displaylink']"
 +++
 ### Description: 
