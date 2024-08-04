@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "darktable 4.8.0-1"
-version = "4.8.0-1"
+title = "darktable 4.8.1-1"
+version = "4.8.1-1"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2024-07-22T13:44:49"
+date = "2024-08-04T17:12:35"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "6537272"
-usize = "31900694"
-sha1sum = "8cb602537fbef319bd8e1e5c1183cea86eaee3c9"
+size = "6553564"
+usize = "31988837"
+sha1sum = "1254b1f18a349415bdc7fa2aaa75fa7f50b53505"
 depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.2.6', 'gnuplot', 'graphicsmagick', 'icu4c>=75.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
 reverse_depends = "['gimp']"
 +++
@@ -405,10 +405,10 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/watermarks/simple-text-shadow.svg
 * /usr/share/darktable/watermarks/simple-text.svg
 * /usr/share/darktable/wb_presets.json
-* /usr/share/doc/darktable-4.8.0/AUTHORS
-* /usr/share/doc/darktable-4.8.0/LICENSE
-* /usr/share/doc/darktable-4.8.0/README.md
-* /usr/share/doc/darktable-4.8.0/RELEASE_NOTES.md
+* /usr/share/doc/darktable-4.8.1/AUTHORS
+* /usr/share/doc/darktable-4.8.1/LICENSE
+* /usr/share/doc/darktable-4.8.1/README.md
+* /usr/share/doc/darktable-4.8.1/RELEASE_NOTES.md
 * /usr/share/doc/darktable/AUTHORS
 * /usr/share/doc/darktable/LICENSE
 * /usr/share/doc/darktable/README.md
