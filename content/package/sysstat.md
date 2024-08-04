@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysstat 12.7.5-1"
-version = "12.7.5-1"
+title = "sysstat 12.7.6-1"
+version = "12.7.6-1"
 description = "A collection of performance monitoring tools for Linux"
-date = "2024-01-15T19:55:31"
+date = "2024-08-04T19:11:53"
 aliases = "/packages/218626"
 categories = ['base-extra']
 upstreamurl = "http://sebastien.godard.pagesperso-orange.fr/"
 arch = "x86_64"
-size = "426952"
-usize = "1682241"
-sha1sum = "749d48623754db78d18ceebc844e982f63361783"
+size = "364976"
+usize = "1116941"
+sha1sum = "0d4d8d39357a777cf9edc77bd64bc94b6f3704bc"
 depends = "['lmsensors>=3.5.0']"
 reverse_depends = "['lumina-desktop']"
 +++
@@ -38,50 +38,12 @@ A collection of performance monitoring tools for Linux
 * /usr/lib/systemd/system/sysstat-summary.service
 * /usr/lib/systemd/system/sysstat-summary.timer
 * /usr/lib/systemd/system/sysstat.service
-* /usr/share/doc/sysstat-12.7.5/CHANGES
-* /usr/share/doc/sysstat-12.7.5/COPYING
-* /usr/share/doc/sysstat-12.7.5/CREDITS
-* /usr/share/doc/sysstat-12.7.5/FAQ.md
-* /usr/share/doc/sysstat-12.7.5/INSTALL
-* /usr/share/doc/sysstat-12.7.5/README.md
-* /usr/share/locale/af/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/be/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/cs/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/da/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/de/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/eo/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/es/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/eu/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/fi/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/fr/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/fur/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/gl/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/hr/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/hu/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/id/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/it/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/ja/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/ka/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/ko/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/ky/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/lv/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/mt/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/nb/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/nl/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/nn/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/pl/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/pt/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/ro/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/ru/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/sk/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/sr/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/sv/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/tr/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/uk/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/vi/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/sysstat.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/sysstat.mo
+* /usr/share/doc/sysstat-12.7.6/CHANGES
+* /usr/share/doc/sysstat-12.7.6/COPYING
+* /usr/share/doc/sysstat-12.7.6/CREDITS
+* /usr/share/doc/sysstat-12.7.6/FAQ.md
+* /usr/share/doc/sysstat-12.7.6/INSTALL
+* /usr/share/doc/sysstat-12.7.6/README.md
 * /usr/share/man/man1/cifsiostat.1.xz.gz
 * /usr/share/man/man1/iostat.1.xz.gz
 * /usr/share/man/man1/mpstat.1.xz.gz

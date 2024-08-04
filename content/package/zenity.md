@@ -1,32 +1,30 @@
 +++
 draft = false
-title = "zenity 3.44.0-1"
-version = "3.44.0-1"
+title = "zenity 4.0.2-1"
+version = "4.0.2-1"
 description = "A rewrite of gdialog"
-date = "2023-03-13T09:08:23"
+date = "2024-08-04T18:44:47"
 aliases = "/packages/3429"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "3025660"
-usize = "11352516"
-sha1sum = "c49f5476dbcc58e9b2bbc4a6d2f40d5f19fde4b6"
-depends = "['gtk+3>=3.22.29', 'libnotify>=0.7.7-4', 'libxml2>=2.9.4-2']"
+size = "3011620"
+usize = "11117771"
+sha1sum = "9a26062f43bfb22016a22718547257b3c51c7514"
+depends = "['libadwaita']"
 reverse_depends = "['get_steam', 'zenity-doc']"
 +++
 ### Description: 
 A rewrite of gdialog
 
 ### Files: 
-* /usr/bin/gdialog
 * /usr/bin/zenity
-* /usr/share/doc/zenity-3.44.0/AUTHORS
-* /usr/share/doc/zenity-3.44.0/ChangeLog
-* /usr/share/doc/zenity-3.44.0/COPYING
-* /usr/share/doc/zenity-3.44.0/NEWS
-* /usr/share/doc/zenity-3.44.0/README.md
-* /usr/share/doc/zenity-3.44.0/THANKS
-* /usr/share/doc/zenity-3.44.0/TODO
+* /usr/share/applications/org.gnome.Zenity.desktop
+* /usr/share/doc/zenity-4.0.2/AUTHORS
+* /usr/share/doc/zenity-4.0.2/ChangeLog
+* /usr/share/doc/zenity-4.0.2/COPYING
+* /usr/share/doc/zenity-4.0.2/NEWS
+* /usr/share/doc/zenity-4.0.2/README.md
 * /usr/share/help/bg/zenity/calendar.page
 * /usr/share/help/bg/zenity/color-selection.page
 * /usr/share/help/bg/zenity/entry.page
@@ -855,6 +853,7 @@ A rewrite of gdialog
 * /usr/share/help/zh_CN/zenity/text.page
 * /usr/share/help/zh_CN/zenity/usage.page
 * /usr/share/help/zh_CN/zenity/warning.page
+* /usr/share/icons/hicolor/48x48/apps/zenity.png
 * /usr/share/locale/ab/LC_MESSAGES/zenity.mo
 * /usr/share/locale/af/LC_MESSAGES/zenity.mo
 * /usr/share/locale/am/LC_MESSAGES/zenity.mo
@@ -947,13 +946,3 @@ A rewrite of gdialog
 * /usr/share/locale/zh_HK/LC_MESSAGES/zenity.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/zenity.mo
 * /usr/share/man/man1/zenity.1.gz
-* /usr/share/zenity/zenity-calendar.png
-* /usr/share/zenity/zenity-entry.png
-* /usr/share/zenity/zenity-file.png
-* /usr/share/zenity/zenity-list.png
-* /usr/share/zenity/zenity-notification.png
-* /usr/share/zenity/zenity-progress.png
-* /usr/share/zenity/zenity-scale.png
-* /usr/share/zenity/zenity-text.png
-* /usr/share/zenity/zenity.png
-* /usr/share/zenity/zenity.ui

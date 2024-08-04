@@ -12,7 +12,7 @@ size = "641880"
 usize = "4922406"
 sha1sum = "ff4651523b253a14653169212e928e2e22c04b1e"
 depends = "['appstream>=1.0.0', 'gtk+4']"
-reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome']"
+reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome', 'zenity']"
 +++
 ### Description: 
 Building blocks for modern adaptive GNOME applications

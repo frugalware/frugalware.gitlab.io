@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcr-1 3.41.1-1"
-version = "3.41.1-1"
+title = "gcr-1 3.41.2-1"
+version = "3.41.2-1"
 description = "A library for bits of crypto UI"
-date = "2023-03-13T10:12:09"
+date = "2024-08-04T18:48:33"
 aliases = "/packages/220929"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2020112"
-usize = "14847120"
-sha1sum = "52f698f4a5166581ec1198410b7ff38576337832"
+size = "2063512"
+usize = "15003858"
+sha1sum = "15017de2abc04124d42822ecb83fe9ff2f00661a"
 depends = "['gtk+3>=3.22.29', 'libgcrypt>=1.7.3-2', 'libsecret', 'p11-kit>=0.23.2-4']"
 reverse_depends = "['gcr-1-doc', 'gnome-keyring', 'gvfs', 'nm-openconnect', 'seahorse']"
 +++
@@ -470,9 +470,9 @@ A library for bits of crypto UI
 * /usr/share/doc/gck-1/vfunc.Module.authenticate_slot.html
 * /usr/share/doc/gck-1/vfunc.ObjectCache.fill.html
 * /usr/share/doc/gck-1/vfunc.Session.discard_handle.html
-* /usr/share/doc/gcr-1-3.41.1/COPYING
-* /usr/share/doc/gcr-1-3.41.1/NEWS
-* /usr/share/doc/gcr-1-3.41.1/README.md
+* /usr/share/doc/gcr-1-3.41.2/COPYING
+* /usr/share/doc/gcr-1-3.41.2/NEWS
+* /usr/share/doc/gcr-1-3.41.2/README.md
 * /usr/share/doc/gcr-3/callback.FilterCollectionFunc.html
 * /usr/share/doc/gcr-3/class.CertificateChain.html
 * /usr/share/doc/gcr-3/class.CertificateRequest.html
@@ -1088,6 +1088,7 @@ A library for bits of crypto UI
 * /usr/share/icons/hicolor/48x48/apps/gcr-key.png
 * /usr/share/icons/hicolor/48x48/apps/gcr-password.png
 * /usr/share/icons/hicolor/48x48/apps/gcr-smart-card.png
+* /usr/share/locale/ab/LC_MESSAGES/gcr.mo
 * /usr/share/locale/af/LC_MESSAGES/gcr.mo
 * /usr/share/locale/ar/LC_MESSAGES/gcr.mo
 * /usr/share/locale/as/LC_MESSAGES/gcr.mo

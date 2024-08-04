@@ -12,7 +12,7 @@ size = "266360"
 usize = "1437908"
 sha1sum = "3d7900f7cd67f82c073a20abc57f898ecff3f3a1"
 depends = "['dbus', 'json-c', 'keyutils', 'openssl', 'python3>=3.12']"
-reverse_depends = "['libblockdev', 'nvme-cli']"
+reverse_depends = "['libblockdev', 'nvme-cli', 'sedutil']"
 +++
 ### Description: 
 C Library for NVM Express on Linux

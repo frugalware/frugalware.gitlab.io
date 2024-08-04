@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcr 4.1.0-1"
-version = "4.1.0-1"
+title = "gcr 4.3.0-1"
+version = "4.3.0-1"
 description = "A library for bits of crypto UI"
-date = "2023-03-14T14:02:15"
+date = "2024-08-04T18:17:54"
 aliases = "/packages/153001"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1700092"
-usize = "10575130"
-sha1sum = "8b6bea611ba7b734bba69f4a303bd8e98c7b7a02"
+size = "1570412"
+usize = "9716432"
+sha1sum = "a42d604e6c6596605856ada5dd243c8bf810ba6e"
 depends = "['gtk+4', 'libsecret']"
 reverse_depends = "['gcr-doc', 'gnome-keyring', 'libnma', 'pinentry-gnome']"
 +++
@@ -55,10 +55,10 @@ A library for bits of crypto UI
 * /usr/lib/girepository-1.0/Gcr-4.typelib
 * /usr/lib/libgck-2.so
 * /usr/lib/libgck-2.so.2
-* /usr/lib/libgck-2.so.2.1.0
+* /usr/lib/libgck-2.so.2.3.0
 * /usr/lib/libgcr-4.so
 * /usr/lib/libgcr-4.so.4
-* /usr/lib/libgcr-4.so.4.1.0
+* /usr/lib/libgcr-4.so.4.3.0
 * /usr/lib/pkgconfig/gck-2.pc
 * /usr/lib/pkgconfig/gcr-4.pc
 * /usr/share/doc/gck-2/callback.Allocator.html
@@ -423,9 +423,9 @@ A library for bits of crypto UI
 * /usr/share/doc/gck-2/vfunc.Module.authenticate_slot.html
 * /usr/share/doc/gck-2/vfunc.ObjectCache.fill.html
 * /usr/share/doc/gck-2/vfunc.Session.discard_handle.html
-* /usr/share/doc/gcr-4.1.0/COPYING
-* /usr/share/doc/gcr-4.1.0/NEWS
-* /usr/share/doc/gcr-4.1.0/README.md
+* /usr/share/doc/gcr-4.3.0/COPYING
+* /usr/share/doc/gcr-4.3.0/NEWS
+* /usr/share/doc/gcr-4.3.0/README.md
 * /usr/share/doc/gcr-4/class.CertificateChain.html
 * /usr/share/doc/gcr-4/class.CertificateField.html
 * /usr/share/doc/gcr-4/class.CertificateRequest.html
@@ -550,6 +550,7 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/method.Certificate.get_subject_name.html
 * /usr/share/doc/gcr-4/method.Certificate.get_subject_part.html
 * /usr/share/doc/gcr-4/method.Certificate.get_subject_raw.html
+* /usr/share/doc/gcr-4/method.Certificate.get_version.html
 * /usr/share/doc/gcr-4/method.Certificate.is_issuer.html
 * /usr/share/doc/gcr-4/method.Certificate.mixin_emit_notify.html
 * /usr/share/doc/gcr-4/method.CertificateChain.add.html
@@ -788,95 +789,6 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/vfunc.SystemPrompter.new_prompt.html
 * /usr/share/gir-1.0/Gck-2.gir
 * /usr/share/gir-1.0/Gcr-4.gir
-* /usr/share/locale/ab/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/af/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ar/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/as/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ast/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/az/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/be/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/be@latin/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/bg/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/bn/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/bs/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ca/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ckb/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/cs/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/cy/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/da/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/de/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/dz/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/el/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/en@shaw/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/en_CA/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/eo/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/es/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/et/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/eu/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/fa/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/fi/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/fr/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/fur/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ga/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/gl/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/gu/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/he/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/hi/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/hr/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/hu/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/id/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ie/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/is/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/it/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ja/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ka/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/kk/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/kn/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ko/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/lt/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/lv/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/mai/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/mg/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/mk/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ml/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/mn/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/mr/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ms/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/nb/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ne/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/nl/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/nn/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/oc/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/or/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/pa/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/pl/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/pt/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ro/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ru/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/rw/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/si/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/sk/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/sl/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/sq/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/sr/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/sv/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ta/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/te/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/tg/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/th/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/tr/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/ug/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/uk/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/vi/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/xh/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/gcr-4.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/gcr-4.mo
 * /usr/share/vala/vapi/gck-2.deps
 * /usr/share/vala/vapi/gck-2.vapi
 * /usr/share/vala/vapi/gcr-4.deps

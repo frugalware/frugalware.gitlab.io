@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gcr-doc 4.1.0-1"
-version = "4.1.0-1"
+title = "gcr-doc 4.3.0-1"
+version = "4.3.0-1"
 description = "gcr documention"
-date = "2023-03-14T14:02:15"
+date = "2024-08-04T18:17:54"
 aliases = "/packages/153002"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "3316"
-usize = "6"
-sha1sum = "d4facd938c00672cf0b58d8c1c5e1fcc30bc2943"
-depends = "['gcr>=4.1.0']"
+size = "3320"
+usize = "0"
+sha1sum = "1547e7df17d219f413eb16afbd8671b828be9196"
+depends = "['gcr>=4.3.0']"
 +++
 ### Description: 
 gcr documention

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnome-keyring 42.1-2"
-version = "42.1-2"
+title = "gnome-keyring 46.2-1"
+version = "46.2-1"
 description = "Password and keyring managing daemon for GNOME"
-date = "2024-01-06T14:52:33"
+date = "2024-08-04T18:38:55"
 aliases = "/packages/220428"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "944020"
-usize = "5038474"
-sha1sum = "e4315e436f936ab6f2a474a62b896301b287266e"
+size = "969508"
+usize = "5064543"
+sha1sum = "261a6d6ab8c80dfff8fe4af996dff01f437e2d97"
 depends = "['gcr>=4.0.0', 'gcr-1', 'openssh']"
 +++
 ### Description: 
@@ -32,16 +32,17 @@ Password and keyring managing daemon for GNOME
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.Secret.service
 * /usr/share/dbus-1/services/org.freedesktop.secrets.service
 * /usr/share/dbus-1/services/org.gnome.keyring.service
-* /usr/share/doc/gnome-keyring-42.1/AUTHORS
-* /usr/share/doc/gnome-keyring-42.1/ChangeLog
-* /usr/share/doc/gnome-keyring-42.1/COPYING
-* /usr/share/doc/gnome-keyring-42.1/COPYING.LIB
-* /usr/share/doc/gnome-keyring-42.1/HACKING
-* /usr/share/doc/gnome-keyring-42.1/INSTALL
-* /usr/share/doc/gnome-keyring-42.1/NEWS
-* /usr/share/doc/gnome-keyring-42.1/README
+* /usr/share/doc/gnome-keyring-46.2/AUTHORS
+* /usr/share/doc/gnome-keyring-46.2/ChangeLog
+* /usr/share/doc/gnome-keyring-46.2/COPYING
+* /usr/share/doc/gnome-keyring-46.2/COPYING.LIB
+* /usr/share/doc/gnome-keyring-46.2/HACKING
+* /usr/share/doc/gnome-keyring-46.2/INSTALL
+* /usr/share/doc/gnome-keyring-46.2/NEWS
+* /usr/share/doc/gnome-keyring-46.2/README
 * /usr/share/GConf/gsettings/org.gnome.crypto.cache.convert
 * /usr/share/glib-2.0/schemas/org.gnome.crypto.cache.gschema.xml
+* /usr/share/locale/ab/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/af/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/ar/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/as/LC_MESSAGES/gnome-keyring.mo
@@ -86,6 +87,7 @@ Password and keyring managing daemon for GNOME
 * /usr/share/locale/it/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/ja/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/ka/LC_MESSAGES/gnome-keyring.mo
+* /usr/share/locale/kab/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/kk/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/km/LC_MESSAGES/gnome-keyring.mo
 * /usr/share/locale/kn/LC_MESSAGES/gnome-keyring.mo
