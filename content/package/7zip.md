@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "7zip 17.05-1"
-version = "17.05-1"
+title = "7zip 17.05-2"
+version = "17.05-2"
 description = "7-Zip is a file archiver with high compression ratio."
-date = "2023-08-29T14:18:33"
+date = "2024-08-04T13:35:30"
 aliases = "/packages/4029"
 categories = ['apps-extra']
 upstreamurl = "http://www.7-zip.org/"
 arch = "x86_64"
-size = "2810032"
-usize = "11421674"
-sha1sum = "d0438093f00b3861265bfe7d4c05665c4ef57440"
+size = "2869192"
+usize = "11626434"
+sha1sum = "e86d20edf6bb959ff076be18d94aa1d00cc609a2"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['binwalk', 'element', 'julia']"
 +++

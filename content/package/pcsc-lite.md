@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pcsc-lite 2.2.3-1"
-version = "2.2.3-1"
+title = "pcsc-lite 2.3.0-1"
+version = "2.3.0-1"
 description = "PC/SC Architecture smartcard middleware library"
-date = "2024-05-27T06:30:26"
+date = "2024-08-04T13:24:53"
 aliases = "/packages/30772"
 categories = ['base']
 upstreamurl = "https://pcsclite.apdu.fr"
 arch = "x86_64"
-size = "119444"
-usize = "403435"
-sha1sum = "df5d298fd14bdd4b1a21c0b214eacfae3d4525b6"
+size = "121108"
+usize = "387339"
+sha1sum = "a8b0aaccdd96ac409d09bdbc2401b42ca4c77a05"
 depends = "['glibc>=2.34', 'libsystemd', 'libudev', 'polkit', 'python3']"
 reverse_depends = "['ccid', 'freerdp', 'freerdp2', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'perl-pcsc', 'qt6-connectivity', 'wine', 'wine-devel']"
 +++
@@ -35,14 +35,15 @@ PC/SC Architecture smartcard middleware library
 * /usr/lib/pkgconfig/libpcsclite.pc
 * /usr/lib/systemd/system/pcscd.service
 * /usr/lib/systemd/system/pcscd.socket
-* /usr/share/doc/pcsc-lite-2.2.3/AUTHORS
-* /usr/share/doc/pcsc-lite-2.2.3/ChangeLog
-* /usr/share/doc/pcsc-lite-2.2.3/COPYING
-* /usr/share/doc/pcsc-lite-2.2.3/NEWS
-* /usr/share/doc/pcsc-lite-2.2.3/README
-* /usr/share/doc/pcsc-lite-2.2.3/README.md
+* /usr/share/doc/pcsc-lite-2.3.0/AUTHORS
+* /usr/share/doc/pcsc-lite-2.3.0/ChangeLog
+* /usr/share/doc/pcsc-lite-2.3.0/COPYING
+* /usr/share/doc/pcsc-lite-2.3.0/NEWS
+* /usr/share/doc/pcsc-lite-2.3.0/README
+* /usr/share/doc/pcsc-lite-2.3.0/README.md
 * /usr/share/doc/pcsc-lite/setup_spy.sh
 * /usr/share/man/man1/pcsc-spy.1.gz
 * /usr/share/man/man5/reader.conf.5.gz
 * /usr/share/man/man8/pcscd.8.gz
+* /usr/share/metainfo/fr.apdu.pcsclite.metainfo.xml
 * /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy

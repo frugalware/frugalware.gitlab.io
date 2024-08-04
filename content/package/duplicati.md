@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.0.9.101-2"
-version = "2.0.9.101-2"
+title = "duplicati 2.0.9.102-2"
+version = "2.0.9.102-2"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-07-22T15:37:17"
+date = "2024-08-04T13:54:10"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "54996164"
-usize = "171063301"
-sha1sum = "0a24dbefe101ce308cba44d110d67a27dbfc2c2a"
+size = "56930568"
+usize = "180048877"
+sha1sum = "b23469128b46f184e8225e85e6eb0eb3c3921920"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -151,7 +151,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.WebserverCore.dll
 * /opt/duplicati/FluentFTP.dll
 * /opt/duplicati/HarfBuzzSharp.dll
-* /opt/duplicati/HttpServer.dll
 * /opt/duplicati/libclrgc.so
 * /opt/duplicati/libclrjit.so
 * /opt/duplicati/libcoreclr.so
@@ -190,13 +189,10 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/licenses/CoCoL/download.txt
 * /opt/duplicati/licenses/CoCoL/license.txt
 * /opt/duplicati/licenses/CoCoL/licensedata.json
-* /opt/duplicati/licenses/duplicat-url.txt
+* /opt/duplicati/licenses/duplicati-url.txt
 * /opt/duplicati/licenses/FluentFTP/Homepage.txt
 * /opt/duplicati/licenses/FluentFTP/License.txt
 * /opt/duplicati/licenses/FluentFTP/licensedata.json
-* /opt/duplicati/licenses/HttpServer/Homepage.txt
-* /opt/duplicati/licenses/HttpServer/license.txt
-* /opt/duplicati/licenses/HttpServer/licensedata.json
 * /opt/duplicati/licenses/jQuery/Homepage.txt
 * /opt/duplicati/licenses/jQuery/License.txt
 * /opt/duplicati/licenses/jQuery/licensedata.json
@@ -252,6 +248,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Microsoft.AspNetCore.Authentication.Cookies.dll
 * /opt/duplicati/Microsoft.AspNetCore.Authentication.Core.dll
 * /opt/duplicati/Microsoft.AspNetCore.Authentication.dll
+* /opt/duplicati/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 * /opt/duplicati/Microsoft.AspNetCore.Authentication.OAuth.dll
 * /opt/duplicati/Microsoft.AspNetCore.Authorization.dll
 * /opt/duplicati/Microsoft.AspNetCore.Authorization.Policy.dll
@@ -385,8 +382,15 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Microsoft.Extensions.Options.dll
 * /opt/duplicati/Microsoft.Extensions.Primitives.dll
 * /opt/duplicati/Microsoft.Extensions.WebEncoders.dll
+* /opt/duplicati/Microsoft.IdentityModel.Abstractions.dll
+* /opt/duplicati/Microsoft.IdentityModel.JsonWebTokens.dll
+* /opt/duplicati/Microsoft.IdentityModel.Logging.dll
+* /opt/duplicati/Microsoft.IdentityModel.Protocols.dll
+* /opt/duplicati/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+* /opt/duplicati/Microsoft.IdentityModel.Tokens.dll
 * /opt/duplicati/Microsoft.JSInterop.dll
 * /opt/duplicati/Microsoft.Net.Http.Headers.dll
+* /opt/duplicati/Microsoft.OpenApi.dll
 * /opt/duplicati/Microsoft.Rest.ClientRuntime.Azure.dll
 * /opt/duplicati/Microsoft.Rest.ClientRuntime.dll
 * /opt/duplicati/Microsoft.VisualBasic.Core.dll
@@ -397,7 +401,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Microsoft.WindowsAzure.Storage.dll
 * /opt/duplicati/MimeKit.dll
 * /opt/duplicati/Minio.dll
-* /opt/duplicati/Mono.Posix.dll
 * /opt/duplicati/Mono.Unix.dll
 * /opt/duplicati/mscorlib.dll
 * /opt/duplicati/netstandard.dll
@@ -412,6 +415,9 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/SharePointPnP.Client.dll
 * /opt/duplicati/SharpAESCrypt.dll
 * /opt/duplicati/SharpCompress.dll
+* /opt/duplicati/SixLabors.Fonts.dll
+* /opt/duplicati/SixLabors.ImageSharp.dll
+* /opt/duplicati/SixLabors.ImageSharp.Drawing.dll
 * /opt/duplicati/SkiaSharp.dll
 * /opt/duplicati/SQLite-net.dll
 * /opt/duplicati/SQLite.Interop.dll
@@ -423,6 +429,9 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/SQLitePCLRaw.provider.dynamic_cdecl.dll
 * /opt/duplicati/SshNet.Security.Cryptography.dll
 * /opt/duplicati/storj_uplink.so
+* /opt/duplicati/Swashbuckle.AspNetCore.Swagger.dll
+* /opt/duplicati/Swashbuckle.AspNetCore.SwaggerGen.dll
+* /opt/duplicati/Swashbuckle.AspNetCore.SwaggerUI.dll
 * /opt/duplicati/System.AppContext.dll
 * /opt/duplicati/System.Buffers.dll
 * /opt/duplicati/System.CodeDom.dll
@@ -465,6 +474,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/System.Globalization.Calendars.dll
 * /opt/duplicati/System.Globalization.dll
 * /opt/duplicati/System.Globalization.Extensions.dll
+* /opt/duplicati/System.IdentityModel.Tokens.Jwt.dll
 * /opt/duplicati/System.IO.Compression.Brotli.dll
 * /opt/duplicati/System.IO.Compression.dll
 * /opt/duplicati/System.IO.Compression.FileSystem.dll
@@ -604,7 +614,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/img/logo.png
 * /opt/duplicati/webroot/index.html
 * /opt/duplicati/webroot/login.html
-* /opt/duplicati/webroot/login/cryptojs.js
 * /opt/duplicati/webroot/login/jquery-2.0.3.min.js
 * /opt/duplicati/webroot/login/jquery-2.0.3.min.map
 * /opt/duplicati/webroot/login/login.css
@@ -966,7 +975,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/templates/backends/sharepoint.html
 * /opt/duplicati/webroot/ngax/templates/backends/sia.html
 * /opt/duplicati/webroot/ngax/templates/backends/storj.html
-* /opt/duplicati/webroot/ngax/templates/backends/tardigrade.html
 * /opt/duplicati/webroot/ngax/templates/backup-result/box.html
 * /opt/duplicati/webroot/ngax/templates/backup-result/entryline.html
 * /opt/duplicati/webroot/ngax/templates/backup-result/message-list.html
@@ -1014,6 +1022,11 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/oem/root/theme/oem.css
 * /opt/duplicati/webroot/oem/root/theme/oem.js
 * /opt/duplicati/webroot/package/ngax/package.js
+* /opt/duplicati/webroot/signin.html
+* /opt/duplicati/webroot/signin/jquery-2.0.3.min.js
+* /opt/duplicati/webroot/signin/jquery-2.0.3.min.map
+* /opt/duplicati/webroot/signin/signin.css
+* /opt/duplicati/webroot/signin/signin.js
 * /opt/duplicati/webroot/theme.html
 * /opt/duplicati/WindowsBase.dll
 * /opt/duplicati/ZstdSharp.dll
