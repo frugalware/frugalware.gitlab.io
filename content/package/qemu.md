@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qemu 9.0.0-1"
-version = "9.0.0-1"
+title = "qemu 9.0.2-1"
+version = "9.0.2-1"
 description = "QEMU is a FAST! processor emulator"
-date = "2024-04-25T12:45:42"
+date = "2024-08-04T20:35:18"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "124225832"
-usize = "738974661"
-sha1sum = "59df1d4b10db5ebda351670ea18145e0ac9ccb7a"
-depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'jemalloc', 'libaio', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3']"
+size = "127464136"
+usize = "742822655"
+sha1sum = "9e4a597e486b6742f20ec4ecd2715d50c9086a73"
+depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
 ### Description: 
@@ -123,12 +123,12 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-spice-core.so
 * /usr/lib/qemu/virtfs-proxy-helper
 * /usr/share/applications/qemu.desktop
-* /usr/share/doc/qemu-9.0.0/COPYING
-* /usr/share/doc/qemu-9.0.0/COPYING.LIB
-* /usr/share/doc/qemu-9.0.0/LICENSE
-* /usr/share/doc/qemu-9.0.0/README.Frugalware
-* /usr/share/doc/qemu-9.0.0/README.rst
-* /usr/share/doc/qemu-9.0.0/VERSION
+* /usr/share/doc/qemu-9.0.2/COPYING
+* /usr/share/doc/qemu-9.0.2/COPYING.LIB
+* /usr/share/doc/qemu-9.0.2/LICENSE
+* /usr/share/doc/qemu-9.0.2/README.Frugalware
+* /usr/share/doc/qemu-9.0.2/README.rst
+* /usr/share/doc/qemu-9.0.2/VERSION
 * /usr/share/doc/qemu/.buildinfo
 * /usr/share/doc/qemu/about/build-platforms.html
 * /usr/share/doc/qemu/about/deprecated.html
@@ -442,15 +442,6 @@ QEMU is a FAST! processor emulator
 * /usr/share/icons/hicolor/512x512/apps/qemu.png
 * /usr/share/icons/hicolor/64x64/apps/qemu.png
 * /usr/share/icons/hicolor/scalable/apps/qemu.svg
-* /usr/share/locale/bg/LC_MESSAGES/qemu.mo
-* /usr/share/locale/de_DE/LC_MESSAGES/qemu.mo
-* /usr/share/locale/fr_FR/LC_MESSAGES/qemu.mo
-* /usr/share/locale/hu/LC_MESSAGES/qemu.mo
-* /usr/share/locale/it/LC_MESSAGES/qemu.mo
-* /usr/share/locale/sv/LC_MESSAGES/qemu.mo
-* /usr/share/locale/tr/LC_MESSAGES/qemu.mo
-* /usr/share/locale/uk/LC_MESSAGES/qemu.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/qemu.mo
 * /usr/share/man/man1/qemu-img.1.gz
 * /usr/share/man/man1/qemu-storage-daemon.1.gz
 * /usr/share/man/man1/qemu.1.gz

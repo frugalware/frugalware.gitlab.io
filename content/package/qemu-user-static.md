@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qemu-user-static 9.0.0-1"
-version = "9.0.0-1"
+title = "qemu-user-static 9.0.2-1"
+version = "9.0.2-1"
 description = "Statically linked binaries of Qemu with user emulation"
-date = "2024-04-25T12:45:42"
+date = "2024-08-04T20:35:18"
 aliases = "/packages/220248"
 categories = ['apps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "15830744"
-usize = "141066960"
-sha1sum = "e04bb049a9674b0e58ea80494b21249e0870beb7"
+size = "19147020"
+usize = "144641704"
+sha1sum = "59bbc95159834b98801e619564bda209f466f3b0"
 depends = "['glibc']"
 +++
 ### Description: 
