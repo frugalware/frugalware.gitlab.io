@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "heroic-games-launcher 2.15.0-2"
-version = "2.15.0-2"
+title = "heroic-games-launcher 2.15.0-3"
+version = "2.15.0-3"
 description = "Native GOG, Epic Games and Amazon games launcher for Linux"
-date = "2024-08-05T17:07:34"
+date = "2024-08-05T19:44:32"
 aliases = "/packages/221432"
 categories = ['games-extra']
 upstreamurl = "https://heroicgameslauncher.com/"
 arch = "x86_64"
-size = "95201960"
-usize = "375660221"
-sha1sum = "00f5486f0a52655f6133edbf5682dc5366f45b01"
+size = "117481104"
+usize = "409109524"
+sha1sum = "e679930b62caa62af487adc1424b4b388d6d3d5f"
 depends = "['comet']"
 +++
 ### Description: 
@@ -88,6 +88,10 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/resources.pak
 * /opt/heroic/resources/app-update.yml
 * /opt/heroic/resources/app.asar
+* /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/comet
+* /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+* /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+* /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/vulkan-helper
 * /opt/heroic/resources/app.asar.unpacked/build/icon-dark.png
 * /opt/heroic/resources/app.asar.unpacked/build/icon-light.png
