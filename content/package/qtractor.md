@@ -20,10 +20,10 @@ Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework
 * /usr/bin/qtractor
 * /usr/lib/qtractor/qtractor_plugin_scan
 * /usr/share/applications/org.rncbc.qtractor.desktop
-* /usr/share/doc/qtractor-1.0.0/ChangeLog
-* /usr/share/doc/qtractor-1.0.0/LICENSE
-* /usr/share/doc/qtractor-1.0.0/README
-* /usr/share/doc/qtractor-1.0.0/README.VST2
+* /usr/share/doc/qtractor-1.1.1/ChangeLog
+* /usr/share/doc/qtractor-1.1.1/LICENSE
+* /usr/share/doc/qtractor-1.1.1/README
+* /usr/share/doc/qtractor-1.1.1/README.VST2
 * /usr/share/icons/hicolor/32x32/apps/org.rncbc.qtractor.png
 * /usr/share/icons/hicolor/32x32/mimetypes/org.rncbc.qtractor.application-x-qtractor-archive.png
 * /usr/share/icons/hicolor/32x32/mimetypes/org.rncbc.qtractor.application-x-qtractor-session.png

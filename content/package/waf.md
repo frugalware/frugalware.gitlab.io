@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "waf 2.1.1-1"
-version = "2.1.1-1"
+title = "waf 2.1.2-1"
+version = "2.1.2-1"
 description = "General-purpose build system modelled after Scons"
-date = "2024-05-25T13:10:46"
+date = "2024-08-05T08:35:27"
 aliases = "/packages/221477"
 categories = ['devel-extra']
 upstreamurl = "http://waf.io/"
 arch = "x86_64"
-size = "793876"
-usize = "5287901"
-sha1sum = "71541656b1150100e479044c46ae8e0c638e60c4"
+size = "796020"
+usize = "5267761"
+sha1sum = "e5601d5d339339ee681187dc03d17d709c74a1c0"
 depends = "['python3']"
 +++
 ### Description: 
@@ -60,6 +60,7 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/fast_partial.py
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/fc_bgxlf.py
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/fc_cray.py
+* /usr/lib/python3.12/site-packages/waf/waflib/extras/fc_flang.py
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/fc_fujitsu.py
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/fc_nag.py
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/fc_nec.py
@@ -203,6 +204,8 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_bgxlf.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_cray.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_cray.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_flang.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_flang.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_fujitsu.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_fujitsu.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/extras/__pycache__/fc_nag.cpython-312.opt-1.pyc
@@ -576,10 +579,7 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.12/site-packages/waf/waflib/__pycache__/Utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/waf/waflib/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/waf-2.1.1/AUTHORS
-* /usr/share/doc/waf-2.1.1/ChangeLog
-* /usr/share/doc/waf-2.1.1/COPYING
-* /usr/share/doc/waf-2.1.1/LICENSE
-* /usr/share/doc/waf-2.1.1/README.md
-* /usr/share/doc/waf-2.1.1/VERSION
+* /usr/share/doc/waf-2.1.2/ChangeLog
+* /usr/share/doc/waf-2.1.2/LICENSE
+* /usr/share/doc/waf-2.1.2/README.md
 * /usr/share/waf/wscript

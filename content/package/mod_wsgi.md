@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mod_wsgi 4.9.4-2"
-version = "4.9.4-2"
+title = "mod_wsgi 5.0.0-1"
+version = "5.0.0-1"
 description = "Python WSGI adapter module for Apache."
-date = "2023-10-05T17:08:59"
+date = "2024-08-05T09:03:28"
 aliases = "/packages/73408"
 categories = ['network-extra']
 upstreamurl = "http://www.modpython.org/"
 arch = "x86_64"
-size = "97828"
-usize = "294452"
-sha1sum = "2323baabfc8c0ac8b7993423acd0828e7317814e"
+size = "99004"
+usize = "289907"
+sha1sum = "d895d869e415f8d0bd9751191f4a7783bd8ed7ff"
 depends = "['apache>=2.4.35', 'python3>=3.12']"
 +++
 ### Description: 
@@ -19,6 +19,6 @@ Python WSGI adapter module for Apache.
 ### Files: 
 * /etc/httpd/conf/modules.d/mod_wsgi.conf
 * /usr/lib/apache/mod_wsgi.so
-* /usr/share/doc/mod_wsgi-4.9.4/LICENSE
-* /usr/share/doc/mod_wsgi-4.9.4/README-standalone.rst
-* /usr/share/doc/mod_wsgi-4.9.4/README.rst
+* /usr/share/doc/mod_wsgi-5.0.0/LICENSE
+* /usr/share/doc/mod_wsgi-5.0.0/README-standalone.rst
+* /usr/share/doc/mod_wsgi-5.0.0/README.rst

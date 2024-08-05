@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rdma-core 49.0-1"
-version = "49.0-1"
+title = "rdma-core 52.0-1"
+version = "52.0-1"
 description = "RDMA core userspace libraries and daemons"
-date = "2024-01-09T20:59:42"
+date = "2024-08-05T08:41:18"
 aliases = "/packages/220864"
 categories = ['network-extra']
 upstreamurl = "https://github.com/linux-rdma/rdma-core"
 arch = "x86_64"
-size = "1179232"
-usize = "3793558"
-sha1sum = "41377249b3de404cf494e6163a86317893a8d718"
+size = "1203856"
+usize = "3425332"
+sha1sum = "3a5a8f907dac7ec3b0c33a3c2b9dbf3b99921861"
 depends = "['ethtool', 'libnl', 'libsystemd', 'perl', 'python3']"
 reverse_depends = "['openucx']"
 +++
@@ -116,6 +116,7 @@ RDMA core userspace libraries and daemons
 * /usr/include/infiniband/acm_prov.h
 * /usr/include/infiniband/arch.h
 * /usr/include/infiniband/efadv.h
+* /usr/include/infiniband/hnsdv.h
 * /usr/include/infiniband/ib.h
 * /usr/include/infiniband/ibnetdisc.h
 * /usr/include/infiniband/ibnetdisc_osd.h
@@ -148,19 +149,22 @@ RDMA core userspace libraries and daemons
 * /usr/lib/ibacm/libibacmp.so
 * /usr/lib/libefa.so
 * /usr/lib/libefa.so.1
-* /usr/lib/libefa.so.1.2.49.0
+* /usr/lib/libefa.so.1.3.52.0
+* /usr/lib/libhns.so
+* /usr/lib/libhns.so.1
+* /usr/lib/libhns.so.1.0.52.0
 * /usr/lib/libibmad.so
 * /usr/lib/libibmad.so.5
-* /usr/lib/libibmad.so.5.3.49.0
+* /usr/lib/libibmad.so.5.3.52.0
 * /usr/lib/libibnetdisc.so
 * /usr/lib/libibnetdisc.so.5
-* /usr/lib/libibnetdisc.so.5.1.49.0
+* /usr/lib/libibnetdisc.so.5.1.52.0
 * /usr/lib/libibumad.so
 * /usr/lib/libibumad.so.3
-* /usr/lib/libibumad.so.3.2.49.0
+* /usr/lib/libibumad.so.3.2.52.0
 * /usr/lib/libibverbs.so
 * /usr/lib/libibverbs.so.1
-* /usr/lib/libibverbs.so.1.14.49.0
+* /usr/lib/libibverbs.so.1.14.52.0
 * /usr/lib/libibverbs/libbnxt_re-rdmav34.so
 * /usr/lib/libibverbs/libcxgb4-rdmav34.so
 * /usr/lib/libibverbs/libefa-rdmav34.so
@@ -180,19 +184,20 @@ RDMA core userspace libraries and daemons
 * /usr/lib/libibverbs/libvmw_pvrdma-rdmav34.so
 * /usr/lib/libmana.so
 * /usr/lib/libmana.so.1
-* /usr/lib/libmana.so.1.0.49.0
+* /usr/lib/libmana.so.1.0.52.0
 * /usr/lib/libmlx4.so
 * /usr/lib/libmlx4.so.1
-* /usr/lib/libmlx4.so.1.0.49.0
+* /usr/lib/libmlx4.so.1.0.52.0
 * /usr/lib/libmlx5.so
 * /usr/lib/libmlx5.so.1
-* /usr/lib/libmlx5.so.1.24.49.0
+* /usr/lib/libmlx5.so.1.24.52.0
 * /usr/lib/librdmacm.so
 * /usr/lib/librdmacm.so.1
-* /usr/lib/librdmacm.so.1.3.49.0
+* /usr/lib/librdmacm.so.1.3.52.0
 * /usr/lib/modprobe.d/libmlx4.conf
 * /usr/lib/perl5/site_perl/current/IBswcountlimits.pm
 * /usr/lib/pkgconfig/libefa.pc
+* /usr/lib/pkgconfig/libhns.pc
 * /usr/lib/pkgconfig/libibmad.pc
 * /usr/lib/pkgconfig/libibnetdisc.pc
 * /usr/lib/pkgconfig/libibumad.pc
@@ -224,11 +229,11 @@ RDMA core userspace libraries and daemons
 * /usr/lib/udev/rules.d/90-rdma-hw-modules.rules
 * /usr/lib/udev/rules.d/90-rdma-ulp-modules.rules
 * /usr/lib/udev/rules.d/90-rdma-umad.rules
-* /usr/share/doc/rdma-core-49.0/COPYING.BSD_FB
-* /usr/share/doc/rdma-core-49.0/COPYING.BSD_MIT
-* /usr/share/doc/rdma-core-49.0/COPYING.GPL2
-* /usr/share/doc/rdma-core-49.0/COPYING.md
-* /usr/share/doc/rdma-core-49.0/README.md
+* /usr/share/doc/rdma-core-52.0/COPYING.BSD_FB
+* /usr/share/doc/rdma-core-52.0/COPYING.BSD_MIT
+* /usr/share/doc/rdma-core-52.0/COPYING.GPL2
+* /usr/share/doc/rdma-core-52.0/COPYING.md
+* /usr/share/doc/rdma-core-52.0/README.md
 * /usr/share/doc/rdma-core/70-persistent-ipoib.rules
 * /usr/share/doc/rdma-core/ibacm.md
 * /usr/share/doc/rdma-core/ibsrpdm.md
@@ -265,6 +270,10 @@ RDMA core userspace libraries and daemons
 * /usr/share/man/man3/efadv_create_qp_ex.3.gz
 * /usr/share/man/man3/efadv_query_ah.3.gz
 * /usr/share/man/man3/efadv_query_device.3.gz
+* /usr/share/man/man3/efadv_query_mr.3.gz
+* /usr/share/man/man3/hnsdv_create_qp.3.gz
+* /usr/share/man/man3/hnsdv_is_supported.3.gz
+* /usr/share/man/man3/hnsdv_query_device.3.gz
 * /usr/share/man/man3/ibnd_debug.3.gz
 * /usr/share/man/man3/ibnd_destroy_fabric.3.gz
 * /usr/share/man/man3/ibnd_discover_fabric.3.gz
@@ -644,6 +653,7 @@ RDMA core userspace libraries and daemons
 * /usr/share/man/man5/srp_daemon.service.5.gz
 * /usr/share/man/man5/srp_daemon_port@.service.5.gz
 * /usr/share/man/man7/efadv.7.gz
+* /usr/share/man/man7/hnsdv.7.gz
 * /usr/share/man/man7/ibacm.7.gz
 * /usr/share/man/man7/ibacm_prov.7.gz
 * /usr/share/man/man7/manadv.7.gz

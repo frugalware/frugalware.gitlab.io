@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdeflate 1.20-2"
-version = "1.20-2"
+title = "libdeflate 1.21-1"
+version = "1.21-1"
 description = "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression"
-date = "2024-05-15T19:41:53"
+date = "2024-08-05T09:10:28"
 aliases = "/packages/221169"
 categories = ['lib']
 upstreamurl = "https://github.com/ebiggers/libdeflate"
 arch = "x86_64"
-size = "63716"
-usize = "215088"
-sha1sum = "4f37497047a2b1618ee1e40d139644092c26ab89"
+size = "64388"
+usize = "209458"
+sha1sum = "2b843fcc4d535719242c7bfb9b87dda8b4b7a52a"
 depends = "['zlib']"
 reverse_depends = "['gdal', 'openexr', 'transmission-cli']"
 +++
@@ -28,5 +28,5 @@ Heavily optimized library for DEFLATE/zlib/gzip compression and decompression
 * /usr/lib/libdeflate.so
 * /usr/lib/libdeflate.so.0
 * /usr/lib/pkgconfig/libdeflate.pc
-* /usr/share/doc/libdeflate-1.20/COPYING
-* /usr/share/doc/libdeflate-1.20/README.md
+* /usr/share/doc/libdeflate-1.21/COPYING
+* /usr/share/doc/libdeflate-1.21/README.md
