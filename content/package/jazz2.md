@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jazz2 2.6.0-1"
-version = "2.6.0-1"
+title = "jazz2 2.8.0-1"
+version = "2.8.0-1"
 description = "Native C++ reimplementation of Jazz Jackrabbit 2"
-date = "2024-04-07T21:03:42"
+date = "2024-08-05T09:25:05"
 aliases = "/packages/221245"
 categories = ['games-extra']
 upstreamurl = "https://deat.tk/jazz2/"
 arch = "x86_64"
-size = "1394076"
-usize = "4044210"
-sha1sum = "0272b3c4b3bda7781d066d7b3616b90e87a5861b"
+size = "1463176"
+usize = "4309658"
+sha1sum = "2fb85e971dc17da722b6de5e55ec7ad29d725c05"
 depends = "['glew', 'glfw', 'libopenmpt', 'openal', 'sdl2']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 ### Files: 
 * /usr/bin/jazz2
 * /usr/share/applications/jazz2.desktop
-* /usr/share/doc/jazz2-2.6.0/LICENSE
-* /usr/share/doc/jazz2-2.6.0/README.md
+* /usr/share/doc/jazz2-2.8.0/LICENSE
+* /usr/share/doc/jazz2-2.8.0/README.md
 * /usr/share/doc/Jazz\302\262 Resurrection/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/jazz2.png
 * /usr/share/icons/hicolor/16x16/apps/jazz2.png
@@ -57,6 +57,18 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/font_small.png
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/font_small.png.font
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_a.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_a.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_b.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_back.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_down.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_guide.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_left.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_misc1.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_right.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_start.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_up.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_x.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_y.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_b.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_back.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_down.aura
@@ -289,6 +301,8 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 * /usr/share/Jazz\302\262 Resurrection/Content/Metadata/Weapon/Toaster.res
 * /usr/share/Jazz\302\262 Resurrection/Content/Translations/cs.mo
 * /usr/share/Jazz\302\262 Resurrection/Content/Translations/cs.po
+* /usr/share/Jazz\302\262 Resurrection/Content/Translations/fr.mo
+* /usr/share/Jazz\302\262 Resurrection/Content/Translations/fr.po
 * /usr/share/Jazz\302\262 Resurrection/Content/Translations/it.mo
 * /usr/share/Jazz\302\262 Resurrection/Content/Translations/it.po
 * /usr/share/Jazz\302\262 Resurrection/Content/Translations/pl.mo
