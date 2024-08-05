@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "binutils 2.42-6"
-version = "2.42-6"
+title = "binutils 2.43-1"
+version = "2.43-1"
 description = "A set of programs to assemble and manipulate binary and object files"
-date = "2024-08-01T14:50:55"
+date = "2024-08-05T16:55:41"
 aliases = "/packages/2350"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "19630112"
-usize = "55501599"
-sha1sum = "c48d460fcfcdcc448fcccc1673792f76fac58081"
+size = "19822928"
+usize = "56817686"
+sha1sum = "7b1e0728b82bd224a5b688d8f2fbe7b6e0598119"
 depends = "['glibc>=2.40', 'libstdc++>=14.2', 'zstd']"
 reverse_depends = "['cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-13', 'gdb', 'ocaml', 'openucx', 'perf']"
 +++
@@ -53,7 +53,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/lib/gprofng/libgp-heap.so
 * /usr/lib/gprofng/libgp-iotrace.so
 * /usr/lib/gprofng/libgp-sync.so
-* /usr/lib/libbfd-2.42.so
+* /usr/lib/libbfd-2.43.so
 * /usr/lib/libctf-nobfd.a
 * /usr/lib/libctf-nobfd.so
 * /usr/lib/libctf-nobfd.so.0
@@ -67,18 +67,18 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/lib/libgprofng.so.0
 * /usr/lib/libgprofng.so.0.0.0
 * /usr/lib/libiberty.a
-* /usr/lib/libopcodes-2.42.so
+* /usr/lib/libopcodes-2.43.so
 * /usr/lib/libsframe.a
 * /usr/lib/libsframe.so
 * /usr/lib/libsframe.so.1
 * /usr/lib/libsframe.so.1.0.0
-* /usr/share/doc/binutils-2.42/ChangeLog
-* /usr/share/doc/binutils-2.42/COPYING
-* /usr/share/doc/binutils-2.42/COPYING.LIB
-* /usr/share/doc/binutils-2.42/COPYING3
-* /usr/share/doc/binutils-2.42/COPYING3.LIB
-* /usr/share/doc/binutils-2.42/README
-* /usr/share/doc/binutils-2.42/README-maintainer-mode
+* /usr/share/doc/binutils-2.43/ChangeLog
+* /usr/share/doc/binutils-2.43/COPYING
+* /usr/share/doc/binutils-2.43/COPYING.LIB
+* /usr/share/doc/binutils-2.43/COPYING3
+* /usr/share/doc/binutils-2.43/COPYING3.LIB
+* /usr/share/doc/binutils-2.43/README
+* /usr/share/doc/binutils-2.43/README-maintainer-mode
 * /usr/share/info/as.info.gz
 * /usr/share/info/bfd.info.gz
 * /usr/share/info/binutils.info.gz
@@ -159,6 +159,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/ro/LC_MESSAGES/bfd.mo
 * /usr/share/locale/ro/LC_MESSAGES/binutils.mo
+* /usr/share/locale/ro/LC_MESSAGES/gas.mo
 * /usr/share/locale/ro/LC_MESSAGES/gold.mo
 * /usr/share/locale/ro/LC_MESSAGES/gprof.mo
 * /usr/share/locale/ro/LC_MESSAGES/ld.mo
@@ -255,88 +256,124 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xbn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xd
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xdc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xdce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xdcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xde
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xder
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xdw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xdwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xdwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xr
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xs
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xsc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xsce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xscer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xse
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xser
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xsw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xswe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xswer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xu
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.x
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xbn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xd
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xdc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xdce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xdcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xde
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xder
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xdw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xdwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xdwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xr
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xs
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xsc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xsce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xscer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xse
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xser
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xsw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xswe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xswer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xu
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.x
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xbn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xd
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xdc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xdce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xdcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xde
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xder
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xdw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xdwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xdwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xr
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xs
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xsc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xsce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xscer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xse
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xser
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xsw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xswe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xswer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xu
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_iamcu.xwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.x
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xbn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xd
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xdc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xdce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xdcer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xde
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xder
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xdw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xdwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xdwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xr
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xs
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xsc
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xsce
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xscer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xse
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xser
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xsw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xswe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xswer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xu
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xwe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xwer
 * /usr/x86_64-frugalware-linux/lib/ldscripts/stamp

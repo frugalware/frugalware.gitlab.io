@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "binutils-devel 2.42-6"
-version = "2.42-6"
+title = "binutils-devel 2.43-1"
+version = "2.43-1"
 description = "Develompent files for binutils"
-date = "2024-08-01T14:50:55"
+date = "2024-08-05T16:55:41"
 aliases = "/packages/219898"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "6507780"
-usize = "10184716"
-sha1sum = "51e58e6cc785e2f4956256db36402460db2fba1e"
+size = "6569976"
+usize = "10259384"
+sha1sum = "3c9ef65fd1d2a3c9bd541b3b240e88656c685f92"
 depends = "[]"
 +++
 ### Description: 
