@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocm-device-libs 6.0.2-1"
-version = "6.0.2-1"
+title = "rocm-device-libs 6.2.0-2"
+version = "6.2.0-2"
 description = "ROCm Device Libraries"
-date = "2024-02-29T16:30:07"
+date = "2024-08-06T13:31:44"
 aliases = "/packages/221248"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/ROCm/rocm-device-libs"
+upstreamurl = "https://rocm.docs.amd.com/en/latest/reference/rocmcc.html"
 arch = "x86_64"
-size = "458596"
-usize = "3286060"
-sha1sum = "9f3b46aa897cd19bb44c642c250b47e1e1cd20da"
+size = "463896"
+usize = "3327905"
+sha1sum = "a7fb87285930c0b9f03f2e53276a0989a574821d"
 depends = "['glibc']"
 reverse_depends = "['comgr', 'hsa-rocr']"
 +++
@@ -44,6 +44,11 @@ ROCm Device Libraries
 * /opt/rocm/amdgcn/bitcode/oclc_isa_version_1101.bc
 * /opt/rocm/amdgcn/bitcode/oclc_isa_version_1102.bc
 * /opt/rocm/amdgcn/bitcode/oclc_isa_version_1103.bc
+* /opt/rocm/amdgcn/bitcode/oclc_isa_version_1150.bc
+* /opt/rocm/amdgcn/bitcode/oclc_isa_version_1151.bc
+* /opt/rocm/amdgcn/bitcode/oclc_isa_version_1152.bc
+* /opt/rocm/amdgcn/bitcode/oclc_isa_version_1200.bc
+* /opt/rocm/amdgcn/bitcode/oclc_isa_version_1201.bc
 * /opt/rocm/amdgcn/bitcode/oclc_isa_version_600.bc
 * /opt/rocm/amdgcn/bitcode/oclc_isa_version_601.bc
 * /opt/rocm/amdgcn/bitcode/oclc_isa_version_602.bc
@@ -76,5 +81,3 @@ ROCm Device Libraries
 * /opt/rocm/amdgcn/bitcode/ocml.bc
 * /opt/rocm/amdgcn/bitcode/opencl.bc
 * /opt/rocm/lib/cmake/AMDDeviceLibs/AMDDeviceLibsConfig.cmake
-* /opt/rocm/share/doc/ROCm-Device-Libs/LICENSE.TXT
-* /usr/share/doc/rocm-device-libs-6.0.2/README.md
