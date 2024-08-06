@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "foomatic-db 20200928.g28466ef-1"
-version = "20200928.g28466ef-1"
+title = "foomatic-db 20240504-1"
+version = "20240504-1"
 description = "The collected knowledge about printers, drivers, and driver options in XML files, used by foomatic-db-engine to generate PPD files."
-date = "2020-09-28T13:00:58"
+date = "2024-08-06T11:25:16"
 aliases = "/packages/168921"
 categories = ['apps-extra']
 upstreamurl = "http://www.linuxfoundation.org/collaborate/workgroups/openprinting/databasefoomatic"
 arch = "x86_64"
-size = "59757280"
-usize = "90993047"
-sha1sum = "10ecb0ddfc32d185d04167fec7df4c1a2094a31f"
+size = "65549292"
+usize = "98852891"
+sha1sum = "2d22fe82b27522d3e43dca632815aa87a6c4c96f"
 depends = "['libxml2', 'perl', 'xz']"
 reverse_depends = "['hplip-driver']"
 +++
@@ -19,9 +19,9 @@ The collected knowledge about printers, drivers, and driver options in XML files
 
 ### Files: 
 * /usr/share/cups/model/foomatic-db-ppds
-* /usr/share/doc/foomatic-db-20200928.g28466ef/ChangeLog
-* /usr/share/doc/foomatic-db-20200928.g28466ef/COPYING
-* /usr/share/doc/foomatic-db-20200928.g28466ef/README
+* /usr/share/doc/foomatic-db-20240504/ChangeLog
+* /usr/share/doc/foomatic-db-20240504/COPYING
+* /usr/share/doc/foomatic-db-20240504/README
 * /usr/share/foomatic/db/oldprinterids
 * /usr/share/foomatic/db/source/driver/ap3250.xml
 * /usr/share/foomatic/db/source/driver/appledmp.xml
@@ -739,6 +739,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Epson/eplp950c.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Epson/eplp960s.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Epson/eplp980c.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Epson/secc3900.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-C7521n_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-C7526dn_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-C7531dn_PDF.ppd.gz
@@ -786,25 +787,51 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-DSm_2660_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3020_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3021_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3025m_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3025_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3030m_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3030_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3035m_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3040m_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3045_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3050m_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3060m_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS3160_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS4020c_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS4025c_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS4030c_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS4045c_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GS4160c_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GWD2004_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GWD2006_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GWD3006_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GWD5100_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-GWD7140_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_3000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_3500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_350_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_4000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_430_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_5000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C2000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C2010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C2510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C3000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C300_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C3010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C3500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C3510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C400_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C4500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C4510_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C5510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C6000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_C6010_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IM_CW2200_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-IP_CW2200_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-MP1100_DSm7110_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-MP1350_DSm7135_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PDF/Gestetner-MP1600_DSm716_PDF.ppd.gz
@@ -1059,26 +1086,52 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS1227_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3020_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3021_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3025m_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3025_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3030m_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3030_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3035m_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3040m_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3045_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3050m_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3060m_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS3160_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS4020c_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS4025c_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS4030c_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS4045c_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GS4160c_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GWD2004_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GWD2006_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GWD3006_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GWD5100_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-GWD7140_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_2500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_2702_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_3000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_3500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_350_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_4000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_430_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_5000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C2000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C2010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C2500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C2510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C3000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C300_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C3010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C3500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C3510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C400_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C4500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C4510_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C5510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C6000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_C6010_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IM_CW2200_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-IP_CW2200_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-MP1100_DSm7110_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-MP1350_DSm7135_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PS/Gestetner-MP1600_DSm716_PS.ppd.gz
@@ -1305,6 +1358,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-DSm730_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-DSm735_735G_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-DSm745_745G_PXL.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-G3020c_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-MP1100_DSm7110_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-MP1350_DSm7135_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Gestetner/PXL/Gestetner-MP1600_DSm716_PXL.ppd.gz
@@ -2736,11 +2790,20 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Kyocera/pt/Kyocera_TASKalfa_300ci.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Kyocera/pt/Kyocera_TASKalfa_400ci.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Kyocera/pt/Kyocera_TASKalfa_500ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_3000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_3500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_350_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_4000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_430_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_5000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_550_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_600SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_600_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_7000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_9000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_C2000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_C2500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_C3000_PDF.ppd.gz
@@ -2754,6 +2817,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_C6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_C6500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_C8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IM_CW2200_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-IP_CW2200_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-LC155_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-LD124c_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PDF/Lanier-LD132c_PDF.ppd.gz
@@ -3014,11 +3079,20 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-5632_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-5635_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-5645_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_2500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_3000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_3500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_350_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_4000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_430_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_5000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_550_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_600SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_600_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_7000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_9000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_C2000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_C2500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_C3000_PS.ppd.gz
@@ -3032,6 +3106,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_C6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_C6500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_C8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IM_CW2200_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-IP_CW2200_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-LC155_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-LD0105_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Lanier/PS/Lanier-LD015_PS.ppd.gz
@@ -3704,25 +3780,45 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-DSm730_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-DSm735_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-DSm745_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_3000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_3500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_350_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_370_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_4000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_430_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_460_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_5000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_550_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_600SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_600_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_7000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_9000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C2000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C2010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C2510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C3000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C300_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C3010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C3500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C3510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C400SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C400_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C4500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C4510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C530FB_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C530F_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C5500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C5510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C6000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C6010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C6500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_C8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IM_CW2200_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-IP_CW2200_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-MP_1100_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-MP_1350_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PDF/NRG-MP_1600_PDF.ppd.gz
@@ -4008,26 +4104,46 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-DSm730_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-DSm735_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-DSm745_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_2500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_2702_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_3000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_3500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_350_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_370_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_4000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_430_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_460_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_5000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_550_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_600SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_600_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_7000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_9000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C2000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C2010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C2500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C2510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C3000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C300_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C3010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C3500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C3510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C400SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C400_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C4500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C4510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C530FB_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C530F_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C5500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C5510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C6000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C6010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C6500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_C8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IM_CW2200_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-IP_CW2200_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-MP_1100_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-MP_1350_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/NRG/PS/NRG-MP_1600_PS.ppd.gz
@@ -4524,6 +4640,11 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Oki/ok9400u1.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Oki/ok9500u1.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Oki/ok9600u1a.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Oki/OKB430_a.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Oki/OKB440_a.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Oki/OKC321_a110.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Oki/OKC331_a110.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Oki/OKC531_a110.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Oki/okop14u1.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PCL5/Ricoh-SP_2200L_PCL5.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PCL5/Ricoh-SP_2200SFL_PCL5.ppd.gz
@@ -4545,6 +4666,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PCL5/Ricoh-SP_377DNwX_PCL5.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PCL5/Ricoh-SP_377SFNwX_PCL5.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PCL5/Ricoh-SP_377SNwX_PCL5.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Generic_PDF_Printer.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-Aficio_3025_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-Aficio_3030_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-Aficio_3035_PDF.ppd.gz
@@ -4670,27 +4792,53 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-Aficio_SP_C830DN_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-Aficio_SP_C831DN_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-Aficio_SP_W2470_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_2509J_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_3000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_3009J_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_3500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_3509J_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_350_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_370_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_4000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_430_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_460FTL_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_460_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_5000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_550_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_600SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_600_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_7000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_9000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C2000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C2010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C2500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C2509J_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C2510_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C2519J_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C3000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C300_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C3010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C3500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C3509J_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C3510_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C3519J_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C400SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C400_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C4500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C4510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C530FB_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C530F_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C5500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C5510_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C6000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C6010_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C6500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_C8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IM_CW2200_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-IP_CW2200_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-MP_2001J_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-MP_2001_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-MP_2501_PDF.ppd.gz
@@ -4829,6 +4977,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-SP_C440DN_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-SP_C840DN_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PDF/Ricoh-SP_C842DN_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Generic_PS_Printer.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-Aficio_1022_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-Aficio_1027_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-Aficio_1032_PS.ppd.gz
@@ -5096,41 +5245,88 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-imagio_MP_C7501.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-imagio_Neo_452.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-imagio_Neo_453.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_2500_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_2500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_2509J_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_2702_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_3000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_3009J_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_3500_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_3500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_3509J_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_350_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_370F_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_370_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_4000_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_4000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_430F.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_430_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_460FTL_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_460F_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_460_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_5000_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_5000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_550_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_6000_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_600SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_600_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_7000_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_7000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_8000_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_9000T_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_9000_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_9000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2000_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2010_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2500_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2509J_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2510_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2510_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C2519J_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3000_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C300_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C300_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3010_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3500_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3509J_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3510_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3510_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C3519J_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C400SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C400_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C4500A_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C4500_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C4500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C4510A_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C4510_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C4510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C530FB_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C530F_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C5500A_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C5500_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C5500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C5510A_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C5510_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C5510_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C6000_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C6000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C6010_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C6010_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C6500_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C6500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C8000_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_C8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_CW1200_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_CW2200_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IM_CW2200_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IPSiO_SP_4210.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IPSiO_SP_4300.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IPSiO_SP_4310.ppd.gz
@@ -5172,6 +5368,9 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IPSiO_SP_C831.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IPSiO_SP_C831M.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IP_500SF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IP_C6020M_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IP_C6020_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-IP_CW2200_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-LASER_AP2600N_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-LASER_AP2600_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-LASER_AP2610N_PS.ppd.gz
@@ -5383,6 +5582,11 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6020_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6030M_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6030_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6500_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6510M_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6510_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6520M_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_6520_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_800_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_801_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_C300W_PS.ppd.gz
@@ -5390,6 +5594,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_C301W_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_C301_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_C600_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_C6010M_JPN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-P_C6010_JPN.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-SP_330DN_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-SP_330SFN_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PS/Ricoh-SP_330SN_PS.ppd.gz
@@ -5627,6 +5833,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-MP_C6503_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-MP_C8002_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-MP_C8003_PXL.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-M_C2000_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-Pro_1106EX_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-Pro_1107EX_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-Pro_1356EX_PXL.ppd.gz
@@ -5671,6 +5878,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_213w_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_2200L_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_2200SFL_PXL.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_2300L_PXL.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_2300SFL_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_320DN_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_320SFN_PXL.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Ricoh/PXL/Ricoh-SP_320SN_PXL.ppd.gz
@@ -5868,11 +6077,20 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-C_230_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-C_240SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-C_240_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_2500_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_3000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_3500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_350_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_4000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_430_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_5000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_550_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_600SR_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_600_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_7000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_9000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_C2000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_C2500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_C3000_PDF.ppd.gz
@@ -5886,6 +6104,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_C6000_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_C6500_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_C8000_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IM_CW2200_PDF.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-IP_CW2200_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-MLP145_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-MLP150DN_PDF.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PDF/Savin-MLP175n_PDF.ppd.gz
@@ -6172,11 +6392,20 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-C_240SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-C_240_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-FAX3799_3799nf_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_2500_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_3000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_3500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_350_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_4000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_430_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_5000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_550_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_600SR_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_600_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_7000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_9000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_C2000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_C2500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_C3000_PS.ppd.gz
@@ -6190,6 +6419,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_C6000_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_C6500_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_C8000_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IM_CW2200_PS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-IP_CW2200_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-MLP145_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-MLP150DN_PS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Savin/PS/Savin-MLP175n_PS.ppd.gz
@@ -6774,6 +7005,342 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/PPD/Toshiba/TOSHIBA_EST850_CUPS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Toshiba/Toshiba_GL1010_CUPS.ppd.gz
 * /usr/share/foomatic/db/source/PPD/Toshiba/Toshiba_GL1020_CUPS.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/English/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/French/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/German/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Italian/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Portuguese/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/EU/Spanish/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/English/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/French/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/German/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Italian/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Portuguese/TAPC4072DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA2506ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA300ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA301ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA3206ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA3262i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA350ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA356ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA4006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA400ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA4056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA4062i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA5006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA5056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA6006ci.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TA6056i.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAP-4531 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAP-4531i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAP-4536 MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAP-4536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAP-5536i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAP-6036i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC3062DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC3062i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC3066i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC3562DN.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC3562i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC3566i MFP.ppd.gz
+* /usr/share/foomatic/db/source/PPD/Utax/Global/Spanish/TAPC4072DN.ppd.gz
 * /usr/share/foomatic/db/source/printer/Alps-MD-1000.xml
 * /usr/share/foomatic/db/source/printer/Alps-MD-1300.xml
 * /usr/share/foomatic/db/source/printer/Alps-MD-1500.xml
@@ -6867,6 +7434,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Brother-HL-2040.xml
 * /usr/share/foomatic/db/source/printer/Brother-HL-2060.xml
 * /usr/share/foomatic/db/source/printer/Brother-HL-2070N.xml
+* /usr/share/foomatic/db/source/printer/Brother-HL-2130.xml
 * /usr/share/foomatic/db/source/printer/Brother-HL-2135.xml
 * /usr/share/foomatic/db/source/printer/Brother-HL-2140.xml
 * /usr/share/foomatic/db/source/printer/Brother-HL-2142.xml
@@ -7226,6 +7794,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Epson-ActionLaser_1100.xml
 * /usr/share/foomatic/db/source/printer/Epson-ActionLaser_II.xml
 * /usr/share/foomatic/db/source/printer/Epson-ActionPrinter_3250.xml
+* /usr/share/foomatic/db/source/printer/Epson-AcuLaser_C3900.xml
 * /usr/share/foomatic/db/source/printer/Epson-AcuLaser_CX17NF.xml
 * /usr/share/foomatic/db/source/printer/Epson-AcuLaser_M1400.xml
 * /usr/share/foomatic/db/source/printer/Epson-AL-2600.xml
@@ -8149,6 +8718,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Generic-PCL_6_PCL_XL_Printer.xml
 * /usr/share/foomatic/db/source/printer/Generic-PostScript_Level_1_Printer.xml
 * /usr/share/foomatic/db/source/printer/Generic-PostScript_Printer.xml
+* /usr/share/foomatic/db/source/printer/Generic-PS_Printer.xml
 * /usr/share/foomatic/db/source/printer/Generic-ZjStream_Printer.xml
 * /usr/share/foomatic/db/source/printer/Genicom-LN45.xml
 * /usr/share/foomatic/db/source/printer/Genicom-microLaser_12.xml
@@ -8245,29 +8815,56 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Gestetner-DSm_2650.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-DSm_2660.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-F9199_9199nf.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-G3020c.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS1227.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS3020.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS3021.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS3025.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS3025m.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS3030.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS3030m.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS3035m.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS3040m.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS3045.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS3050m.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS3060m.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GS3160.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS4020c.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS4025c.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS4030c.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS4045c.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-GS4160c.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GWD2004.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GWD2006.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GWD3006.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GWD5100.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-GWD7140.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_2500.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_2702.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_3000.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_350.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_3500.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_4000.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_430.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_5000.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_6000.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C2000.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C2010.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C2500.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C2510.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C300.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C3000.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C3010.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C3500.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C3510.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C400.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C4500.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C4510.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C5510.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-IM_C6000.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_C6010.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IM_CW2200.xml
+* /usr/share/foomatic/db/source/printer/Gestetner-IP_CW2200.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-MP1100_DSm7110.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-MP1350_DSm7135.xml
 * /usr/share/foomatic/db/source/printer/Gestetner-MP1600_DSm716.xml
@@ -9483,11 +10080,20 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Lanier-5632.xml
 * /usr/share/foomatic/db/source/printer/Lanier-5635.xml
 * /usr/share/foomatic/db/source/printer/Lanier-5645.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_2500.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_3000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_350.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_3500.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_4000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_430.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_5000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_550.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_600.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_6000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_600SR.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_7000.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_8000.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_9000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_C2000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_C2500.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_C300.xml
@@ -9501,6 +10107,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Lanier-IM_C6000.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_C6500.xml
 * /usr/share/foomatic/db/source/printer/Lanier-IM_C8000.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IM_CW2200.xml
+* /usr/share/foomatic/db/source/printer/Lanier-IP_CW2200.xml
 * /usr/share/foomatic/db/source/printer/Lanier-LC155.xml
 * /usr/share/foomatic/db/source/printer/Lanier-LD0105.xml
 * /usr/share/foomatic/db/source/printer/Lanier-LD015.xml
@@ -10418,26 +11026,46 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/NRG-DSm730.xml
 * /usr/share/foomatic/db/source/printer/NRG-DSm735.xml
 * /usr/share/foomatic/db/source/printer/NRG-DSm745.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_2500.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_2702.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_3000.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_350.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_3500.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_370.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_4000.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_430.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_460.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_5000.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_550.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_600.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_6000.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_600SR.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_7000.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_8000.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_9000.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C2000.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C2010.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C2500.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C2510.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C300.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C3000.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C3010.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C3500.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C3510.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C400.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C400SR.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C4500.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C4510.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C530F.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C530FB.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C5500.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C5510.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C6000.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_C6010.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C6500.xml
 * /usr/share/foomatic/db/source/printer/NRG-IM_C8000.xml
+* /usr/share/foomatic/db/source/printer/NRG-IM_CW2200.xml
+* /usr/share/foomatic/db/source/printer/NRG-IP_CW2200.xml
 * /usr/share/foomatic/db/source/printer/NRG-MP_1100.xml
 * /usr/share/foomatic/db/source/printer/NRG-MP_1350.xml
 * /usr/share/foomatic/db/source/printer/NRG-MP_1600.xml
@@ -11209,41 +11837,88 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Ricoh-imagio_MP_C7501.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-imagio_Neo_452.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-imagio_Neo_453.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_2500.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_2500_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_2509J.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_2702.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_3000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_3009J.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_350.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_3500.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_3500_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_3509J.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_370.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_370F_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_4000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_4000_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_430.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_430F.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_460.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_460FTL.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_460F_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_5000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_5000_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_550.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_600.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_6000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_6000_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_600SR.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_7000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_7000_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_8000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_8000_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_9000.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_9000T_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_9000_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C2000.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C2000_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C2010.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C2010_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C2500.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C2500_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C2509J.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C2510.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C2510_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C2519J.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C300.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C3000.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C3000_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C300_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C3010.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C3010_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C3500.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C3500_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C3509J.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C3510.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C3510_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C3519J.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C400.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C400SR.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C4500.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C4500A_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C4500_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C4510.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C4510A_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C4510_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C530F.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C530FB.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C5500.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C5500A_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C5500_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C5510.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C5510A_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C5510_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C6000.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C6000_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C6010.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_C6010_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C6500.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C6500_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C8000.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IM_C8000_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_CW1200_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_CW2200.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IM_CW2200_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IPSiO_SP_3400L.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IPSiO_SP_3410.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IPSiO_SP_3410SF.xml
@@ -11290,6 +11965,9 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Ricoh-IPSiO_SP_C831.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IPSiO_SP_C831M.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-IP_500SF.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IP_C6020M_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IP_C6020_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-IP_CW2200.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-LASER_AP2600.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-LASER_AP2600N.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-LASER_AP2610.xml
@@ -11413,6 +12091,7 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Ricoh-MP_W6700.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-MP_W7100.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-MP_W8140.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-M_C2000.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-M_C2001.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-M_C250FW.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-M_C250FWB.xml
@@ -11501,6 +12180,11 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Ricoh-P_6020_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_6030M_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_6030_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_6500_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_6510M_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_6510_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_6520M_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_6520_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_800.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_801.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_C300W.xml
@@ -11508,6 +12192,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Ricoh-P_C301SF.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_C301W.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-P_C600.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_C6010M_JPN.xml
+* /usr/share/foomatic/db/source/printer/Ricoh-P_C6010_JPN.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-RPDL_III_Laser_Printer.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-RPDL_II_Laser_Printer.xml
 * /usr/share/foomatic/db/source/printer/Ricoh-RPDL_IV_Laser_Printer.xml
@@ -11926,11 +12612,20 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Savin-C_240.xml
 * /usr/share/foomatic/db/source/printer/Savin-C_240SR.xml
 * /usr/share/foomatic/db/source/printer/Savin-FAX3799_3799nf.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_2500.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_3000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_350.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_3500.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_4000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_430.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_5000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_550.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_600.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_6000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_600SR.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_7000.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_8000.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_9000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_C2000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_C2500.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_C300.xml
@@ -11944,6 +12639,8 @@ The collected knowledge about printers, drivers, and driver options in XML files
 * /usr/share/foomatic/db/source/printer/Savin-IM_C6000.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_C6500.xml
 * /usr/share/foomatic/db/source/printer/Savin-IM_C8000.xml
+* /usr/share/foomatic/db/source/printer/Savin-IM_CW2200.xml
+* /usr/share/foomatic/db/source/printer/Savin-IP_CW2200.xml
 * /usr/share/foomatic/db/source/printer/Savin-MLP145.xml
 * /usr/share/foomatic/db/source/printer/Savin-MLP150DN.xml
 * /usr/share/foomatic/db/source/printer/Savin-MLP175n.xml
