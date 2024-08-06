@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libadwaita 1.5.3-1"
-version = "1.5.3-1"
+title = "libadwaita 1.5.3-2"
+version = "1.5.3-2"
 description = "Building blocks for modern adaptive GNOME applications"
-date = "2024-08-03T15:38:28"
+date = "2024-08-06T07:52:59"
 aliases = "/packages/220893"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
 arch = "x86_64"
-size = "641880"
+size = "641312"
 usize = "4922406"
-sha1sum = "ff4651523b253a14653169212e928e2e22c04b1e"
+sha1sum = "66b5c5f8888a9710e174f8efea8c4d1655e59839"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome', 'zenity']"
 +++
