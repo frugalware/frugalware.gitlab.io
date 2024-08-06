@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxcursor 1.2.2-2"
-version = "1.2.2-2"
+title = "lib32-libxcursor 1.2.2-3"
+version = "1.2.2-3"
 description = "X Cursor Library ( 32bit )"
-date = "2024-05-16T03:01:20"
+date = "2024-08-06T08:46:14"
 aliases = "/packages/217950"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "23744"
-usize = "59637"
-sha1sum = "5dba061488e410a53e97f9660b63ff02c0be274a"
+size = "23840"
+usize = "53785"
+sha1sum = "00a8e334ef13bb7be50a1f1ef1dea76cb7ec8103"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxfixes>=5.0.1-3', 'lib32-libxrender>=0.9.9-5']"
 reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++

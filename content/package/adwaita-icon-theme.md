@@ -12,7 +12,7 @@ size = "580044"
 usize = "11771308"
 sha1sum = "0c317669e097643a84732aeeb0a4564123faeeed"
 depends = "['gtk+4-update-icon-cache', 'gtk-update-icon-cache>=3.22.29', 'hicolor-icon-theme']"
-reverse_depends = "['gtk+2', 'gtk+3', 'gtk+4']"
+reverse_depends = "['default-cursors', 'gtk+2', 'gtk+3', 'gtk+4']"
 +++
 ### Description: 
 Default icon theme for GNOME

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openucx 1.17.0-1"
-version = "1.17.0-1"
+title = "openucx 1.17.0-2"
+version = "1.17.0-2"
 description = "Unified Communication X"
-date = "2024-07-20T18:23:22"
+date = "2024-08-06T09:04:57"
 aliases = "/packages/220865"
 categories = ['network-extra']
 upstreamurl = "http://www.openucx.org"
 arch = "x86_64"
-size = "1420148"
-usize = "4926519"
-sha1sum = "456612c09488465486ce5e335f76eb22d6878bcc"
-depends = "['binutils>=2.42', 'libgomp', 'numactl', 'rdma-core']"
+size = "1423056"
+usize = "4945127"
+sha1sum = "2847b6abbd1519f0bd90ad6b800771a10edf88b9"
+depends = "['binutils>=2.43', 'libgomp', 'numactl', 'rdma-core']"
 reverse_depends = "['cuda-tools']"
 +++
 ### Description: 
