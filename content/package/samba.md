@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "samba 4.20.3-1"
-version = "4.20.3-1"
+title = "samba 4.20.4-1"
+version = "4.20.4-1"
 description = "SMB file and print server."
-date = "2024-08-03T09:27:53"
+date = "2024-08-07T18:59:57"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "8077952"
-usize = "60067902"
-sha1sum = "aeb039399e1dcf9914ae232c0f0421355fccac4d"
-depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.20.3', 'talloc>=2.4.0', 'tdb>=1.4.6']"
+size = "8078544"
+usize = "60394506"
+sha1sum = "61eed2acbbfa85ae34774f926fa287edb9965616"
+depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.20.4', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
 ### Description: 
@@ -709,12 +709,12 @@ SMB file and print server.
 * /usr/lib/systemd/system/smb@.service
 * /usr/lib/systemd/system/winbindd.service
 * /usr/lib/tmpfiles.d/samba.conf
-* /usr/share/doc/samba-4.20.3/COPYING
-* /usr/share/doc/samba-4.20.3/README.cifs-utils
-* /usr/share/doc/samba-4.20.3/README.Coding.md
-* /usr/share/doc/samba-4.20.3/README.contributing
-* /usr/share/doc/samba-4.20.3/README.md
-* /usr/share/doc/samba-4.20.3/VERSION
+* /usr/share/doc/samba-4.20.4/COPYING
+* /usr/share/doc/samba-4.20.4/README.cifs-utils
+* /usr/share/doc/samba-4.20.4/README.Coding.md
+* /usr/share/doc/samba-4.20.4/README.contributing
+* /usr/share/doc/samba-4.20.4/README.md
+* /usr/share/doc/samba-4.20.4/VERSION
 * /usr/share/man/man1/dbwrap_tool.1.gz
 * /usr/share/man/man1/gentest.1.gz
 * /usr/share/man/man1/ldbadd.1.gz
