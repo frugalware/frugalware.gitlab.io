@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zfs 2.2.4-16"
-version = "2.2.4-16"
+title = "zfs 2.2.5-1"
+version = "2.2.5-1"
 description = "ZFS"
-date = "2024-08-06T10:13:21"
+date = "2024-08-07T06:50:47"
 aliases = "/packages/220123"
 categories = ['base-extra']
 upstreamurl = "http://zfsonlinux.org"
 arch = "x86_64"
-size = "43693112"
-usize = "59255982"
-sha1sum = "1be9272d999e83ecf51222f965c523c185fcb0da"
+size = "43701156"
+usize = "59256249"
+sha1sum = "8848496dbfc9069469e512b6d4945d02a1554e07"
 depends = "['kernel=6.10.3-2', 'libtirpc']"
 +++
 ### Description: 
@@ -2635,12 +2635,12 @@ ZFS
 * /usr/lib/zfs/zimport.sh
 * /usr/lib/zfs/zloop.sh
 * /usr/lib/zvol_id
-* /usr/share/doc/zfs-2.2.4/AUTHORS
-* /usr/share/doc/zfs-2.2.4/COPYRIGHT
-* /usr/share/doc/zfs-2.2.4/LICENSE
-* /usr/share/doc/zfs-2.2.4/NEWS
-* /usr/share/doc/zfs-2.2.4/README.md
-* /usr/share/doc/zfs-2.2.4/RELEASES.md
+* /usr/share/doc/zfs-2.2.5/AUTHORS
+* /usr/share/doc/zfs-2.2.5/COPYRIGHT
+* /usr/share/doc/zfs-2.2.5/LICENSE
+* /usr/share/doc/zfs-2.2.5/NEWS
+* /usr/share/doc/zfs-2.2.5/README.md
+* /usr/share/doc/zfs-2.2.5/RELEASES.md
 * /usr/share/initramfs-tools/conf-hooks.d/zfs
 * /usr/share/initramfs-tools/conf.d/zfs
 * /usr/share/initramfs-tools/hooks/zfs

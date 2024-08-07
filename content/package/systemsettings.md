@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "324968"
 usize = "1109021"
 sha1sum = "c83ae164dc257b6e4de7f9e888c4c152cac96a57"
-depends = "['kcmutils>=6.4.0', 'kdeclarative>=6.4.0', 'kirigami>=6.4.0', 'kitemmodels>=6.4.0', 'krunner>=6.4.0', 'plasma-activities>=6.1.3']"
+depends = "['kcmutils>=6.4.0', 'kdeclarative>=6.4.0', 'kirigami>=6.4.0', 'kitemmodels>=6.4.0', 'krunner>=6.4.0', 'plasma-activities>=6.1.4']"
 reverse_depends = "['flatpak-kcm', 'kinfocenter', 'plasma-firewall']"
 +++
 ### Description: 
