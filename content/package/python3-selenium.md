@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-selenium 4.23.1-1"
-version = "4.23.1-1"
+title = "python3-selenium 4.23.1-2"
+version = "4.23.1-2"
 description = "Python language bindings for Selenium WebDriver"
-date = "2024-08-05T09:44:41"
+date = "2024-08-07T13:44:23"
 aliases = "/packages/221149"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/selenium"
 arch = "x86_64"
-size = "2493748"
-usize = "21191068"
-sha1sum = "88413c7e72a37cebb3a1ae1988fe2164bffd1753"
-depends = "['certifi', 'python3-trio', 'python3-trio-websocket', 'python3-urllib3']"
+size = "2512764"
+usize = "21245177"
+sha1sum = "24b4636119acae47aec8369e2ed762ad2193f3f5"
+depends = "['certifi', 'python3-trio', 'python3-trio-websocket', 'python3-typing_extensions', 'python3-urllib3', 'python3-websocket_client']"
 +++
 ### Description: 
 Python language bindings for Selenium WebDriver
@@ -958,6 +958,8 @@ Python language bindings for Selenium WebDriver
 * /usr/lib/python3.12/site-packages/selenium/__pycache__/types.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/selenium/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/selenium/__pycache__/__init__.cpython-312.pyc
+* /usr/share/doc/python3-selenium-4.23.1/AUTHORS
 * /usr/share/doc/python3-selenium-4.23.1/CHANGES
 * /usr/share/doc/python3-selenium-4.23.1/LICENSE
+* /usr/share/doc/python3-selenium-4.23.1/README.md
 * /usr/share/doc/python3-selenium-4.23.1/README.rst
