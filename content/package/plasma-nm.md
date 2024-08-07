@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1335484"
 usize = "8822864"
 sha1sum = "d74b26cad2b098802e63a70502be8ef05861c45f"
-depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.4.0', 'networkmanager-qt>=6.4.0', 'plasma-workspace>=6.1.3', 'qca>=2.1.1-6', 'qcoro']"
+depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.4.0', 'networkmanager-qt>=6.4.0', 'plasma-workspace>=6.1.4', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.
@@ -36,7 +36,7 @@ Plasma applet written in QML for managing network connections.
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/plasmanm_internal.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/qmldir
 * /usr/share/applications/kcm_networkmanagement.desktop
-* /usr/share/doc/plasma-nm-6.1.3/README.md
+* /usr/share/doc/plasma-nm-6.1.4/README.md
 * /usr/share/kcm_networkmanagement/qml/AddConnectionDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConfigurationDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConnectionItem.qml

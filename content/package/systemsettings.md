@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "systemsettings 6.1.3-1"
-version = "6.1.3-1"
+title = "systemsettings 6.1.4-1"
+version = "6.1.4-1"
 description = "KDE system settings."
-date = "2024-07-17T11:46:08"
+date = "2024-08-07T07:20:15"
 aliases = "/packages/221390"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "324968"
-usize = "1109021"
-sha1sum = "c83ae164dc257b6e4de7f9e888c4c152cac96a57"
+size = "325392"
+usize = "1110776"
+sha1sum = "d49523ceaf1b0412b9563609a630393d78b1c97d"
 depends = "['kcmutils>=6.4.0', 'kdeclarative>=6.4.0', 'kirigami>=6.4.0', 'kitemmodels>=6.4.0', 'krunner>=6.4.0', 'plasma-activities>=6.1.4']"
 reverse_depends = "['flatpak-kcm', 'kinfocenter', 'plasma-firewall']"
 +++
