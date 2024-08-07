@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-desktop 6.1.3-1"
-version = "6.1.3-1"
+title = "plasma-desktop 6.1.4-1"
+version = "6.1.4-1"
 description = "KDE Plasma Desktop."
-date = "2024-07-17T12:51:58"
+date = "2024-08-07T08:19:46"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "16666708"
-usize = "32000143"
-sha1sum = "ff931fdf19f4e2f95e91b4e6b9d4c5f6d26204e2"
-depends = "['hack', 'kactivitymanagerd>=6.1.3', 'kauth>=6.4.0', 'kcmutils>=6.4.0', 'knewstuff>=6.4.0', 'knotifyconfig>=6.4.0', 'kpeople>=6.4.0', 'kpipewire', 'krunner>=6.4.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.1.3', 'plasma-workspace>=6.1.3', 'qqc2-desktop-style>=6.4.0', 'setxkbmap', 'xf86-input-libinput', 'xkeyboard-config']"
+size = "16669396"
+usize = "32036577"
+sha1sum = "bde63a829c773367934378a6dfc26ee9c38ae747"
+depends = "['hack', 'kactivitymanagerd>=6.1.4', 'kauth>=6.4.0', 'kcmutils>=6.4.0', 'knewstuff>=6.4.0', 'knotifyconfig>=6.4.0', 'kpeople>=6.4.0', 'kpipewire', 'krunner>=6.4.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.1.4', 'plasma-workspace>=6.1.4', 'qqc2-desktop-style>=6.4.0', 'setxkbmap', 'xf86-input-libinput', 'xkeyboard-config']"
 +++
 ### Description: 
 KDE Plasma Desktop.
@@ -798,8 +798,8 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/uk/plasma-desktop/application-launcher-settings.png
 * /usr/share/doc/HTML/uk/plasma-desktop/index.cache.bz2
 * /usr/share/doc/HTML/uk/plasma-desktop/index.docbook
-* /usr/share/doc/plasma-desktop-6.1.3/COPYING.DOC
-* /usr/share/doc/plasma-desktop-6.1.3/README.md
+* /usr/share/doc/plasma-desktop-6.1.4/COPYING.DOC
+* /usr/share/doc/plasma-desktop-6.1.4/README.md
 * /usr/share/icons/hicolor/128x128/devices/input-touchpad.png
 * /usr/share/icons/hicolor/16x16/devices/input-touchpad.png
 * /usr/share/icons/hicolor/22x22/devices/input-touchpad.png
@@ -2072,6 +2072,7 @@ KDE Plasma Desktop.
 * /usr/share/locale/id/LC_MESSAGES/kcm_workspace.mo
 * /usr/share/locale/id/LC_MESSAGES/knetattach.mo
 * /usr/share/locale/id/LC_MESSAGES/org.kde.plasma.emojier.mo
+* /usr/share/locale/id/LC_MESSAGES/plasma-desktop-sddm-theme.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmaactivitymanager.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.desktopcontainment.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.panel.mo
