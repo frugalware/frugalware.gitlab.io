@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.22.5-1"
-version = "1.22.5-1"
+title = "go 1.22.6-1"
+version = "1.22.6-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-07-13T12:34:25"
+date = "2024-08-07T19:56:54"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "143881660"
-usize = "312129512"
-sha1sum = "8a4ec1b6700a02905ae463c6843b00a186e9e275"
+size = "143880432"
+usize = "312156995"
+sha1sum = "caeec88b56e9f8aa916a5ec6eacd3677cc9f4e61"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -170,6 +170,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/bytes/buffer.go
 * /usr/lib/go/src/bytes/buffer_test.go
 * /usr/lib/go/src/bytes/bytes.go
+* /usr/lib/go/src/bytes/bytes_js_wasm_test.go
 * /usr/lib/go/src/bytes/bytes_test.go
 * /usr/lib/go/src/bytes/compare_test.go
 * /usr/lib/go/src/bytes/example_test.go
@@ -9554,9 +9555,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/transform.go
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/trie.go
 * /usr/lib/go/src/vendor/modules.txt
-* /usr/share/doc/go-1.22.5/LICENSE
-* /usr/share/doc/go-1.22.5/README.md
-* /usr/share/doc/go-1.22.5/VERSION
+* /usr/share/doc/go-1.22.6/LICENSE
+* /usr/share/doc/go-1.22.6/README.md
+* /usr/share/doc/go-1.22.6/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md

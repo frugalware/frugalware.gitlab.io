@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 1.9.22-1"
-version = "1.9.22-1"
+title = "fwupd 1.9.23-1"
+version = "1.9.23-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-07-29T19:10:24"
+date = "2024-08-07T19:17:49"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7339756"
-usize = "46689172"
-sha1sum = "72902c2b4e906c6833ed1cd1f68f1ba2c7e5acd3"
+size = "7320268"
+usize = "46704322"
+sha1sum = "cb248fe71d71b39b7c0794206b3fb9030277e9fd"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -49,11 +49,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.22/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-1.9.22/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-1.9.22/libfwupdengine.so
-* /usr/lib/fwupd-1.9.22/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.22/libfwupdutil.so
+* /usr/lib/fwupd-1.9.23/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-1.9.23/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-1.9.23/libfwupdengine.so
+* /usr/lib/fwupd-1.9.23/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.23/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -99,9 +99,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.22/COPYING
-* /usr/share/doc/fwupd-1.9.22/README.md
-* /usr/share/doc/fwupd-1.9.22/RELEASE
+* /usr/share/doc/fwupd-1.9.23/COPYING
+* /usr/share/doc/fwupd-1.9.23/README.md
+* /usr/share/doc/fwupd-1.9.23/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
