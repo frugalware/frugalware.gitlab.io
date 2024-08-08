@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-pl 128.0-1"
-version = "128.0-1"
+title = "thunderbird-pl 128.1.0-1"
+version = "128.1.0-1"
 description = "Polish language support for Thunderbird"
-date = "2024-07-24T08:41:10"
+date = "2024-08-08T11:49:00"
 aliases = "/packages/5199"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "691532"
-usize = "760703"
-sha1sum = "edb770ecd75fe2a1ed6546e4acd9f2a776436779"
-depends = "['thunderbird>=128.0']"
+size = "699708"
+usize = "760886"
+sha1sum = "add43790f313629e1e0e3e1f18b6e67e9f932f4f"
+depends = "['thunderbird>=128.1.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-gd 128.0-1"
-version = "128.0-1"
+title = "thunderbird-gd 128.1.0-1"
+version = "128.1.0-1"
 description = "Scottish Gaelic language support for Thunderbird"
-date = "2024-07-24T08:41:10"
+date = "2024-08-08T11:49:00"
 aliases = "/packages/103325"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "655156"
-usize = "727361"
-sha1sum = "7f3ae2e1efa33836616e1d46010c8bbd332b8faf"
-depends = "['thunderbird>=128.0']"
+size = "663316"
+usize = "727476"
+sha1sum = "e7c8f84b09a5fd69a933d54bb87d9ac9d919b781"
+depends = "['thunderbird>=128.1.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

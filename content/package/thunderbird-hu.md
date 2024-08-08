@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-hu 128.0-1"
-version = "128.0-1"
+title = "thunderbird-hu 128.1.0-1"
+version = "128.1.0-1"
 description = "Hungarian language support for Thunderbird"
-date = "2024-07-24T08:41:10"
+date = "2024-08-08T11:49:00"
 aliases = "/packages/4974"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "709788"
-usize = "778666"
-sha1sum = "8efe5ef931efd28c4e219f0790ac05af1e2f6ae2"
-depends = "['thunderbird>=128.0']"
+size = "718604"
+usize = "779499"
+sha1sum = "37ec55c7bc96eddaec0a6dc54a9c8dd328f2b71a"
+depends = "['thunderbird>=128.1.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

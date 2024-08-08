@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-da 128.0-1"
-version = "128.0-1"
+title = "thunderbird-da 128.1.0-1"
+version = "128.1.0-1"
 description = "Danish language support for Thunderbird"
-date = "2024-07-24T08:41:10"
+date = "2024-08-08T11:49:00"
 aliases = "/packages/74158"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "663044"
-usize = "732131"
-sha1sum = "8fccd4a3adca4168c7071b51c660dc738886203c"
-depends = "['thunderbird>=128.0']"
+size = "671168"
+usize = "732247"
+sha1sum = "e14a07dfba2be8868d7a3dab6fd46c544e21d8ae"
+depends = "['thunderbird>=128.1.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
