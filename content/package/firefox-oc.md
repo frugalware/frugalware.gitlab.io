@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-oc 128.0.3-1"
-version = "128.0.3-1"
+title = "firefox-oc 129.0-1"
+version = "129.0-1"
 description = "Occitan (post 1500) language support for Firefox"
-date = "2024-07-31T07:49:23"
+date = "2024-08-08T13:51:50"
 aliases = "/packages/219666"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "558724"
-usize = "612809"
-sha1sum = "0863be4e11bd95f4f30bc9c38f633f28dbaca5cd"
-depends = "['firefox>=128.0.3']"
+size = "561364"
+usize = "615152"
+sha1sum = "862b5983e56acd5c72c8a8afa2e787472706f1ca"
+depends = "['firefox>=129.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
