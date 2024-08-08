@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsoup3 3.4.4-3"
-version = "3.4.4-3"
+title = "libsoup3 3.5.2-1"
+version = "3.5.2-1"
 description = "An HTTP library implementation in C"
-date = "2024-04-19T20:59:10"
+date = "2024-08-08T08:56:05"
 aliases = "/packages/220901"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "407340"
-usize = "2143689"
-sha1sum = "f1883445de935db324b1a29f7fc3cb69e8f92afb"
+size = "359880"
+usize = "1877402"
+sha1sum = "653628bc1abbd270090afc9e57ac50f775ab50f1"
 depends = "['brotli', 'glib-networking', 'glib2', 'libpsl', 'libsysprof-capture', 'nghttp2', 'sqlite3']"
 reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'passim', 'remmina', 'seahorse']"
 +++
@@ -65,78 +65,10 @@ An HTTP library implementation in C
 * /usr/lib/libsoup-3.0.so.0
 * /usr/lib/libsoup-3.0.so.0.7.1
 * /usr/lib/pkgconfig/libsoup-3.0.pc
-* /usr/share/doc/libsoup3-3.4.4/AUTHORS
-* /usr/share/doc/libsoup3-3.4.4/COPYING
-* /usr/share/doc/libsoup3-3.4.4/HACKING
-* /usr/share/doc/libsoup3-3.4.4/NEWS
-* /usr/share/doc/libsoup3-3.4.4/README
-* /usr/share/doc/libsoup3-3.4.4/README.msvc
+* /usr/share/doc/libsoup3-3.5.2/AUTHORS
+* /usr/share/doc/libsoup3-3.5.2/COPYING
+* /usr/share/doc/libsoup3-3.5.2/HACKING
+* /usr/share/doc/libsoup3-3.5.2/NEWS
+* /usr/share/doc/libsoup3-3.5.2/README
+* /usr/share/doc/libsoup3-3.5.2/README.msvc
 * /usr/share/gir-1.0/Soup-3.0.gir
-* /usr/share/locale/ab/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/an/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/as/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/be/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/bg/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/bs/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ca/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/cs/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/da/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/de/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/el/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/eo/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/es/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/et/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/eu/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/fa/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/fi/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/fr/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/fur/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/gd/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/gl/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/gu/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/he/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/hi/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/hr/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/hu/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/id/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/it/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ja/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ka/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/kn/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ko/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/lt/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/lv/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ml/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/mr/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ms/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/nb/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ne/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/nl/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/oc/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/or/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/pa/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/pl/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/pt/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ro/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ru/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/sk/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/sl/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/sr/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/sv/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ta/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/te/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/tg/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/th/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/tr/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/ug/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/uk/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/vi/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/libsoup-3.0.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libsoup-3.0.mo
