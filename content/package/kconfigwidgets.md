@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "309396"
 usize = "1370015"
 sha1sum = "6c5bb4ac34261e1a4e726f3875f5e0f4c5e09fbb"
-depends = "['kcodecs>=6.4.0', 'kcolorscheme>=6.4.0', 'kcoreaddons>=6.4.0', 'kwidgetsaddons>=6.4.0']"
+depends = "['kcodecs>=6.5.0', 'kcolorscheme>=6.5.0', 'kcoreaddons>=6.5.0', 'kwidgetsaddons>=6.5.0']"
 reverse_depends = "['accessibility-inspector', 'audex', 'kaccounts-integration', 'kdeplasma-addons', 'kgamma', 'kgamma5', 'kiconthemes', 'kwin', 'libkmahjongg', 'libksysguard', 'libksysguard5', 'qqc2-desktop-style', 'skladnik', 'sweeper']"
 +++
 ### Description: 
@@ -54,9 +54,9 @@ Widgets for KConfig.
 * /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsTargets.cmake
 * /usr/lib/libKF6ConfigWidgets.so
 * /usr/lib/libKF6ConfigWidgets.so.6
-* /usr/lib/libKF6ConfigWidgets.so.6.4.0
+* /usr/lib/libKF6ConfigWidgets.so.6.5.0
 * /usr/lib/qt6/plugins/designer/kconfigwidgets6widgets.so
-* /usr/share/doc/kconfigwidgets-6.4.0/README.md
+* /usr/share/doc/kconfigwidgets-6.5.0/README.md
 * /usr/share/locale/af/kf6_entry.desktop
 * /usr/share/locale/af/LC_MESSAGES/kconfigwidgets6.mo
 * /usr/share/locale/ar/kf6_entry.desktop

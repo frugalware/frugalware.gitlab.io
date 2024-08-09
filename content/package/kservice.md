@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kservice 6.4.0-1"
-version = "6.4.0-1"
+title = "kservice 6.5.0-1"
+version = "6.5.0-1"
 description = "Plugin framework for desktop services."
-date = "2024-07-12T22:23:31"
+date = "2024-08-09T18:09:06"
 aliases = "/packages/218351"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "210280"
-usize = "654804"
-sha1sum = "399807417dd29a94506ae079e5c8f2dda54bc123"
-depends = "['kconfig>=6.4.0', 'kcrash>=6.4.0', 'kdbusaddons>=6.4.0', 'ki18n>=6.4.0']"
+size = "210048"
+usize = "658298"
+sha1sum = "95286ecf84a5139a48b181e8fd2e23a3339c8b31"
+depends = "['kconfig>=6.5.0', 'kcrash>=6.5.0', 'kdbusaddons>=6.5.0', 'ki18n>=6.5.0']"
 reverse_depends = "['kded', 'kdeplasma-addons', 'kdesu', 'kemoticons', 'kglobalaccel', 'knotifications', 'ktextwidgets', 'kwin']"
 +++
 ### Description: 
@@ -42,8 +42,8 @@ Plugin framework for desktop services.
 * /usr/lib/cmake/KF6Service/KF6ServiceTargets.cmake
 * /usr/lib/libKF6Service.so
 * /usr/lib/libKF6Service.so.6
-* /usr/lib/libKF6Service.so.6.4.0
-* /usr/share/doc/kservice-6.4.0/README.md
+* /usr/lib/libKF6Service.so.6.5.0
+* /usr/share/doc/kservice-6.5.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kservice6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kservice6.mo
 * /usr/share/locale/as/LC_MESSAGES/kservice6.mo

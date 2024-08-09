@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ki18n 6.4.0-1"
-version = "6.4.0-1"
+title = "ki18n 6.5.0-1"
+version = "6.5.0-1"
 description = "KDE Gettext-based UI text."
-date = "2024-07-12T22:21:41"
+date = "2024-08-09T18:06:48"
 aliases = "/packages/218315"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1512852"
-usize = "18134088"
-sha1sum = "bc97241b966825f242d1a897ea319bb0c9eac182"
+size = "1511856"
+usize = "18143192"
+sha1sum = "ed054ce9988fa8d52696bf89bec8b9e7ceb257a5"
 depends = "['gettext', 'iso-codes']"
 reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'akonadi-notes', 'alligator', 'audex', 'audiotube', 'breeze', 'dolphin', 'francis', 'incidenceeditor', 'isoimagewriter', 'kalm', 'kbackup', 'kcachegrind', 'kclock', 'kcolorchooser', 'kcolorscheme', 'kcontacts', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdesdk-kio', 'kdiff3', 'keysmith', 'kfilemetadata', 'khealthcertificate', 'kio-gdrive', 'kitinerary', 'kjournald', 'kjsembed', 'kldap', 'kmime', 'kmousetool', 'kongress', 'kontrast', 'kopeninghours', 'kosmindoormap', 'kpackage', 'kpipewire', 'kpmcore', 'kpty', 'kpublictransport', 'krecorder', 'krunner', 'ksanecore', 'kservice', 'kunitconversion', 'kweathercore', 'kwin', 'libkcompactdisc', 'mimetreeparser', 'plank-player', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'skladnik', 'sweeper', 'telly-skout', 'xwaylandvideobridge']"
 +++
@@ -22,6 +22,8 @@ KDE Gettext-based UI text.
 * /usr/include/KF6/KI18n/ki18n_version.h
 * /usr/include/KF6/KI18n/KLazyLocalizedString
 * /usr/include/KF6/KI18n/klazylocalizedstring.h
+* /usr/include/KF6/KI18n/KLocalization
+* /usr/include/KF6/KI18n/klocalization.h
 * /usr/include/KF6/KI18n/KLocalizedContext
 * /usr/include/KF6/KI18n/klocalizedcontext.h
 * /usr/include/KF6/KI18n/KLocalizedString
@@ -48,16 +50,16 @@ KDE Gettext-based UI text.
 * /usr/lib/cmake/KF6I18n/ts-pmap-compile.py
 * /usr/lib/libKF6I18n.so
 * /usr/lib/libKF6I18n.so.6
-* /usr/lib/libKF6I18n.so.6.4.0
+* /usr/lib/libKF6I18n.so.6.5.0
 * /usr/lib/libKF6I18nLocaleData.so
 * /usr/lib/libKF6I18nLocaleData.so.6
-* /usr/lib/libKF6I18nLocaleData.so.6.4.0
+* /usr/lib/libKF6I18nLocaleData.so.6.5.0
 * /usr/lib/qt6/plugins/kf6/ktranscript.so
 * /usr/lib/qt6/qml/org/kde/i18n/localeData/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/i18n/localeData/ki18nlocaledataqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/i18n/localeData/libki18nlocaledataqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/i18n/localeData/qmldir
-* /usr/share/doc/ki18n-6.4.0/README.md
+* /usr/share/doc/ki18n-6.5.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/ki18n6.mo
 * /usr/share/locale/ar/LC_MESSAGES/ki18n6.mo
 * /usr/share/locale/as/LC_MESSAGES/ki18n6.mo
