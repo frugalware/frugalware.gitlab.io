@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postgresql-libs-static 16.3-3"
-version = "16.3-3"
+title = "postgresql-libs-static 16.4-1"
+version = "16.4-1"
 description = "Static files for postgresql"
-date = "2024-06-17T13:20:11"
+date = "2024-08-09T11:49:07"
 aliases = "/packages/219936"
 categories = ['devel-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "2897836"
-usize = "4239926"
-sha1sum = "66d1caf729fd8d8a79f51a9ed4ca5d3c15741ad2"
+size = "2892184"
+usize = "4240366"
+sha1sum = "8a431a431919a85caf09477cbe2ccdcacd3d841c"
 depends = "[]"
 +++
 ### Description: 

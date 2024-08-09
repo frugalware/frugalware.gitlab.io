@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-extras 16.3-3"
-version = "16.3-3"
+title = "postgresql-extras 16.4-1"
+version = "16.4-1"
 description = "PostgreSQL extra tools"
-date = "2024-06-17T13:20:11"
+date = "2024-08-09T11:49:07"
 aliases = "/packages/14944"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "491152"
-usize = "2007637"
-sha1sum = "6c9790d853854fc6bd955276c124aa84aa095f23"
-depends = "['libpq>=16.3', 'libxml2>=2.9.4-3', 'openssl>=3.0.7']"
+size = "487924"
+usize = "2018541"
+sha1sum = "058aab4bf3aecdf00adf04fb91c75185bde253d7"
+depends = "['libpq>=16.4', 'libxml2>=2.9.4-3', 'openssl>=3.0.7']"
 +++
 ### Description: 
 PostgreSQL extra tools
@@ -80,10 +80,10 @@ PostgreSQL extra tools
 * /usr/lib/postgresql/tsm_system_time.so
 * /usr/lib/postgresql/unaccent.so
 * /usr/lib/postgresql/_int.so
-* /usr/share/doc/postgresql-16.3/extension/autoinc.example
-* /usr/share/doc/postgresql-16.3/extension/insert_username.example
-* /usr/share/doc/postgresql-16.3/extension/moddatetime.example
-* /usr/share/doc/postgresql-16.3/extension/refint.example
+* /usr/share/doc/postgresql-16.4/extension/autoinc.example
+* /usr/share/doc/postgresql-16.4/extension/insert_username.example
+* /usr/share/doc/postgresql-16.4/extension/moddatetime.example
+* /usr/share/doc/postgresql-16.4/extension/refint.example
 * /usr/share/pgsql/extension/adminpack--1.0--1.1.sql
 * /usr/share/pgsql/extension/adminpack--1.0.sql
 * /usr/share/pgsql/extension/adminpack--1.1--2.0.sql
