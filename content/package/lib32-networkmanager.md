@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-networkmanager 1.48.6-1"
-version = "1.48.6-1"
+title = "lib32-networkmanager 1.48.8-1"
+version = "1.48.8-1"
 description = "Network Management daemon ( 32bit )"
-date = "2024-07-26T08:57:03"
+date = "2024-08-09T19:37:14"
 aliases = "/packages/218960"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2593264"
-usize = "10396436"
-sha1sum = "e2b728a89bd1a20de3ff9adad389a6077cfee2fd"
+size = "2581820"
+usize = "10414394"
+sha1sum = "5bdb94a61526b204cf79e7b9222c0279532860ac"
 depends = "['lib32-curl', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-jansson', 'lib32-libgudev', 'lib32-libndp', 'lib32-libnl', 'lib32-libpsl', 'lib32-modemmanager', 'lib32-newt', 'lib32-nss', 'lib32-polkit', 'lib32-readline']"
 reverse_depends = "['steam-native']"
 +++
@@ -151,13 +151,13 @@ Network Management daemon ( 32bit )
 * /usr/lib32/libnm.so
 * /usr/lib32/libnm.so.0
 * /usr/lib32/libnm.so.0.1.0
-* /usr/lib32/NetworkManager/1.48.6/libnm-device-plugin-adsl.so
-* /usr/lib32/NetworkManager/1.48.6/libnm-device-plugin-bluetooth.so
-* /usr/lib32/NetworkManager/1.48.6/libnm-device-plugin-ovs.so
-* /usr/lib32/NetworkManager/1.48.6/libnm-device-plugin-wifi.so
-* /usr/lib32/NetworkManager/1.48.6/libnm-device-plugin-wwan.so
-* /usr/lib32/NetworkManager/1.48.6/libnm-ppp-plugin.so
-* /usr/lib32/NetworkManager/1.48.6/libnm-wwan.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-adsl.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-bluetooth.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-ovs.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-wifi.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-wwan.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-ppp-plugin.so
+* /usr/lib32/NetworkManager/1.48.8/libnm-wwan.so
 * /usr/lib32/networkmanager/nm-cloud-setup
 * /usr/lib32/networkmanager/nm-daemon-helper
 * /usr/lib32/networkmanager/nm-dhcp-helper
