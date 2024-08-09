@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "solid 6.4.0-1"
-version = "6.4.0-1"
+title = "solid 6.5.0-1"
+version = "6.5.0-1"
 description = "KDE Desktop hardware abstraction."
-date = "2024-07-12T22:42:00"
+date = "2024-08-09T18:36:39"
 aliases = "/packages/218411"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "383204"
-usize = "2011526"
-sha1sum = "164311872b8c93551c9138fdf3d664082dd7f244"
+size = "383468"
+usize = "2025838"
+sha1sum = "44676060b554470aa373a0d6ae8139ac6fe529c1"
 depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt6-declarative>=6.7.1', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
 reverse_depends = "['discover', 'dolphin', 'isoimagewriter', 'itinerary', 'kamoso', 'kinfocenter', 'kinfocenter5', 'kio', 'libkcompactdisc', 'plasma5support']"
 +++
@@ -61,9 +61,9 @@ KDE Desktop hardware abstraction.
 * /usr/lib/cmake/KF6Solid/KF6SolidTargets.cmake
 * /usr/lib/libKF6Solid.so
 * /usr/lib/libKF6Solid.so.6
-* /usr/lib/libKF6Solid.so.6.4.0
-* /usr/share/doc/solid-6.4.0/README.md
-* /usr/share/doc/solid-6.4.0/TODO
+* /usr/lib/libKF6Solid.so.6.5.0
+* /usr/share/doc/solid-6.5.0/README.md
+* /usr/share/doc/solid-6.5.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/solid6_qt.qm

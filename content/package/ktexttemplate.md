@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktexttemplate 6.4.0-1"
-version = "6.4.0-1"
+title = "ktexttemplate 6.5.0-1"
+version = "6.5.0-1"
 description = "Library to allow application developers to separate the structure of documents from the data they contain"
-date = "2024-07-13T11:11:28"
+date = "2024-08-09T19:11:05"
 aliases = "/packages/221404"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "304292"
-usize = "1177792"
-sha1sum = "195106b2da138f5e94bdc545386faf85c4fbd79e"
+size = "303908"
+usize = "1181862"
+sha1sum = "5baaac4fdc387039d73174c4ab6f900a0c62ea67"
 depends = "['qt6-declarative>=6.7.1']"
 reverse_depends = "['grantleetheme', 'khelpcenter', 'kpimtextedit']"
 +++
@@ -74,11 +74,11 @@ Library to allow application developers to separate the structure of documents f
 * /usr/lib/cmake/KF6TextTemplate/KF6TextTemplateTargets.cmake
 * /usr/lib/libKF6TextTemplate.so
 * /usr/lib/libKF6TextTemplate.so.6
-* /usr/lib/libKF6TextTemplate.so.6.4.0
+* /usr/lib/libKF6TextTemplate.so.6.5.0
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/ktexttemplate_defaultfilters.so
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/ktexttemplate_defaulttags.so
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/ktexttemplate_i18ntags.so
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/ktexttemplate_loadertags.so
-* /usr/share/doc/ktexttemplate-6.4.0/COPYING.LIB
-* /usr/share/doc/ktexttemplate-6.4.0/README.md
+* /usr/share/doc/ktexttemplate-6.5.0/COPYING.LIB
+* /usr/share/doc/ktexttemplate-6.5.0/README.md
 * /usr/share/qlogging-categories6/ktexttemplate.categories
