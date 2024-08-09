@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pipewire 1.2.2-1"
-version = "1.2.2-1"
+title = "lib32-pipewire 1.2.2-2"
+version = "1.2.2-2"
 description = "A project that aims to greatly improve handling of audio and video under Linux ( 32bit )"
-date = "2024-07-31T16:27:58"
+date = "2024-08-09T09:26:29"
 aliases = "/packages/220575"
 categories = ['lib32-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "1462528"
-usize = "6159726"
-sha1sum = "5b2f28b94175a3a8d08e745bd302a44442c6bd65"
+size = "1462228"
+usize = "6197074"
+sha1sum = "8065f8a39ad7cb2141f2283a9db18ab2a2987ca4"
 depends = "['lib32-glib2', 'lib32-libcap', 'lib32-libdrm', 'lib32-libgcrypt', 'lib32-libpulse', 'lib32-libsystemd', 'lib32-zstd']"
 +++
 ### Description: 

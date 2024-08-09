@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libpulse 17.0-4"
-version = "17.0-4"
+title = "lib32-libpulse 17.0-5"
+version = "17.0-5"
 description = "pulseaduio client library (32-bit)"
-date = "2024-06-17T14:33:04"
+date = "2024-08-09T09:22:52"
 aliases = "/packages/217944"
 categories = ['lib32-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "1125600"
-usize = "4941884"
-sha1sum = "faad0014b6025d3d955f7124f3c461599a6d8c2a"
+size = "1116732"
+usize = "4954088"
+sha1sum = "7a2db2781bc9ce03d926af21baee6174b2573ddd"
 depends = "['lib32-fftw>=3.3.4-4', 'lib32-libasyncns>=0.8-3', 'lib32-libdbus', 'lib32-libsndfile>=1.0.26-2', 'lib32-libtool>=2.4.6-4', 'lib32-libudev', 'lib32-libx11>=1.6.3-4', 'lib32-openssl', 'lib32-orc>=0.4.24-2', 'lib32-speexdsp>=1.2rc3-3', 'lib32-tdb>=1.3.10-2']"
 reverse_depends = "['lib32-libmikmod', 'lib32-pipewire', 'steam-native']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulseaudio-lirc 17.0-4"
-version = "17.0-4"
+title = "pulseaudio-lirc 17.0-5"
+version = "17.0-5"
 description = "lirc module for PulseAudio sound server"
-date = "2024-06-17T14:33:04"
+date = "2024-08-09T09:22:52"
 aliases = "/packages/219024"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "8796"
-usize = "11080"
-sha1sum = "60f128ca29400bcacfdbbff5b83e1649fec8ce93"
+size = "8828"
+usize = "11128"
+sha1sum = "73248142ecca95a3160a5b4d403463c2a652660e"
 depends = "['liblirc>=0.9.1-2', 'pulseaudio>=17.0']"
 +++
 ### Description: 

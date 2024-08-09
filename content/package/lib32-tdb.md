@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-tdb 1.4.11-1"
-version = "1.4.11-1"
+title = "lib32-tdb 1.4.12-1"
+version = "1.4.12-1"
 description = "A Trivial Database ( 32bit )"
-date = "2024-08-02T13:47:17"
+date = "2024-08-09T09:39:40"
 aliases = "/packages/217941"
 categories = ['lib32-extra']
 upstreamurl = "http://tdb.samba.org/"
 arch = "x86_64"
-size = "62792"
-usize = "188632"
-sha1sum = "7632b8459616b1db6ef21a809d761cdec3883fbe"
+size = "62604"
+usize = "188712"
+sha1sum = "74e8d18a65c6ecfcc5358cea80d3521f99fb7569"
 depends = "['glibc']"
 reverse_depends = "['lib32-libpulse']"
 +++
@@ -25,5 +25,5 @@ A Trivial Database ( 32bit )
 * /usr/i686-frugalware-linux/include/tdb.h
 * /usr/lib32/libtdb.so
 * /usr/lib32/libtdb.so.1
-* /usr/lib32/libtdb.so.1.4.11
+* /usr/lib32/libtdb.so.1.4.12
 * /usr/lib32/pkgconfig/tdb.pc

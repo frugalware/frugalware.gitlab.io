@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "suitesparse 7.7.0-3"
-version = "7.7.0-3"
+title = "suitesparse 7.8.0-1"
+version = "7.8.0-1"
 description = "A collection of sparse matrix libraries"
-date = "2024-05-14T10:05:57"
+date = "2024-08-09T09:55:54"
 aliases = "/packages/220120"
 categories = ['lib-extra']
 upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
-size = "19135636"
-usize = "147617418"
-sha1sum = "21dc9a1793e8655ab284f8d9c53a3b234c3e2a12"
+size = "16704888"
+usize = "120466233"
+sha1sum = "f8a419f3bde16649f0fb883d94ea89d1634cd4f7"
 depends = "['gmp', 'lapack', 'libgomp', 'mpfr']"
 reverse_depends = "['ceres-solver', 'coin-or-clp', 'gegl', 'julia']"
 +++
@@ -33,9 +33,7 @@ A collection of sparse matrix libraries
 * /usr/include/suitesparse/LAGraphX.h
 * /usr/include/suitesparse/ldl.h
 * /usr/include/suitesparse/Mongoose.hpp
-* /usr/include/suitesparse/ParU.hpp
-* /usr/include/suitesparse/ParU_C.h
-* /usr/include/suitesparse/ParU_definitions.h
+* /usr/include/suitesparse/ParU.h
 * /usr/include/suitesparse/RBio.h
 * /usr/include/suitesparse/SPEX.h
 * /usr/include/suitesparse/spex_python_connect.h
@@ -132,34 +130,34 @@ A collection of sparse matrix libraries
 * /usr/lib/cmake/UMFPACK/UMFPACKTargets.cmake
 * /usr/lib/libamd.so
 * /usr/lib/libamd.so.3
-* /usr/lib/libamd.so.3.3.2
+* /usr/lib/libamd.so.3.3.3
 * /usr/lib/libbtf.so
 * /usr/lib/libbtf.so.2
 * /usr/lib/libbtf.so.2.3.2
 * /usr/lib/libcamd.so
 * /usr/lib/libcamd.so.3
-* /usr/lib/libcamd.so.3.3.2
+* /usr/lib/libcamd.so.3.3.3
 * /usr/lib/libccolamd.so
 * /usr/lib/libccolamd.so.3
-* /usr/lib/libccolamd.so.3.3.3
+* /usr/lib/libccolamd.so.3.3.4
 * /usr/lib/libcholmod.so
 * /usr/lib/libcholmod.so.5
-* /usr/lib/libcholmod.so.5.2.1
+* /usr/lib/libcholmod.so.5.3.0
 * /usr/lib/libcolamd.so
 * /usr/lib/libcolamd.so.3
-* /usr/lib/libcolamd.so.3.3.3
+* /usr/lib/libcolamd.so.3.3.4
 * /usr/lib/libcxsparse.so
 * /usr/lib/libcxsparse.so.4
-* /usr/lib/libcxsparse.so.4.4.0
+* /usr/lib/libcxsparse.so.4.4.1
 * /usr/lib/libgraphblas.so
 * /usr/lib/libgraphblas.so.9
-* /usr/lib/libgraphblas.so.9.1.0
+* /usr/lib/libgraphblas.so.9.3.0
 * /usr/lib/libklu.so
 * /usr/lib/libklu.so.2
-* /usr/lib/libklu.so.2.3.3
+* /usr/lib/libklu.so.2.3.4
 * /usr/lib/libklu_cholmod.so
 * /usr/lib/libklu_cholmod.so.2
-* /usr/lib/libklu_cholmod.so.2.3.3
+* /usr/lib/libklu_cholmod.so.2.3.4
 * /usr/lib/liblagraph.so
 * /usr/lib/liblagraph.so.1
 * /usr/lib/liblagraph.so.1.1.3
@@ -171,27 +169,27 @@ A collection of sparse matrix libraries
 * /usr/lib/libldl.so.3.3.2
 * /usr/lib/libparu.so
 * /usr/lib/libparu.so.0
-* /usr/lib/libparu.so.0.1.3
+* /usr/lib/libparu.so.0.2.0
 * /usr/lib/librbio.so
 * /usr/lib/librbio.so.4
-* /usr/lib/librbio.so.4.3.2
+* /usr/lib/librbio.so.4.3.3
 * /usr/lib/libspex.so
 * /usr/lib/libspex.so.3
-* /usr/lib/libspex.so.3.1.0
+* /usr/lib/libspex.so.3.2.0
 * /usr/lib/libspexpython.so
 * /usr/lib/libspexpython.so.3
-* /usr/lib/libspexpython.so.3.1.0
+* /usr/lib/libspexpython.so.3.2.0
 * /usr/lib/libspqr.so
 * /usr/lib/libspqr.so.4
-* /usr/lib/libspqr.so.4.3.3
+* /usr/lib/libspqr.so.4.3.4
 * /usr/lib/libsuitesparseconfig.so
 * /usr/lib/libsuitesparseconfig.so.7
-* /usr/lib/libsuitesparseconfig.so.7.7.0
+* /usr/lib/libsuitesparseconfig.so.7.8.0
 * /usr/lib/libsuitesparse_mongoose.so
 * /usr/lib/libsuitesparse_mongoose.so.3
 * /usr/lib/libumfpack.so
 * /usr/lib/libumfpack.so.6
-* /usr/lib/libumfpack.so.6.3.3
+* /usr/lib/libumfpack.so.6.3.4
 * /usr/lib/pkgconfig/AMD.pc
 * /usr/lib/pkgconfig/BTF.pc
 * /usr/lib/pkgconfig/CAMD.pc
@@ -211,5 +209,5 @@ A collection of sparse matrix libraries
 * /usr/lib/pkgconfig/SuiteSparse_config.pc
 * /usr/lib/pkgconfig/SuiteSparse_Mongoose.pc
 * /usr/lib/pkgconfig/UMFPACK.pc
-* /usr/share/doc/suitesparse-7.7.0/ChangeLog
-* /usr/share/doc/suitesparse-7.7.0/README.md
+* /usr/share/doc/suitesparse-7.8.0/ChangeLog
+* /usr/share/doc/suitesparse-7.8.0/README.md
