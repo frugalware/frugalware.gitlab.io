@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "139256"
 usize = "449169"
 sha1sum = "8bac8b39dc49b2645d5c20b9fdefd606365e4df5"
-depends = "['gst1-plugins-bad>=1.24.6', 'gst1-plugins-base>=1.24.6', 'webrtc-audio-processing-1']"
+depends = "['gst1-plugins-bad>=1.24.6', 'gst1-plugins-base>=1.24.6']"
 reverse_depends = "['webkit-gtk3']"
 +++
 ### Description: 

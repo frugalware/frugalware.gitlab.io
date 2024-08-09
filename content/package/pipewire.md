@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3973452"
 usize = "38585692"
 sha1sum = "b362d89e04e9537f1a24ab1f374852b87b9915f7"
-depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing-1']"
+depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
 ### Description: 

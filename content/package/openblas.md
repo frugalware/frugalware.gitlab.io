@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openblas 0.3.27-1"
-version = "0.3.27-1"
+title = "openblas 0.3.28-1"
+version = "0.3.28-1"
 description = "An optimized BLAS library based on GotoBLAS2 1.13 BSD"
-date = "2024-05-29T12:24:04"
+date = "2024-08-09T09:08:20"
 aliases = "/packages/220531"
 categories = ['lib']
 upstreamurl = "https://www.openblas.net/"
 arch = "x86_64"
-size = "5509928"
-usize = "35768739"
-sha1sum = "8fa22c4b7cb028b5b12cc100bb029c3d2e16615f"
+size = "5603564"
+usize = "36114151"
+sha1sum = "8423b0d0aab2525bc716651f226baab8d8724e14"
 depends = "['libgfortran', 'libgomp']"
 reverse_depends = "['blender', 'digikam', 'gimp', 'gmic', 'julia', 'nomacs', 'opencv-python3', 'openimageio', 'performous', 'spectacle']"
 +++
@@ -47,8 +47,8 @@ An optimized BLAS library based on GotoBLAS2 1.13 BSD
 * /usr/lib/pkgconfig/lapack.pc
 * /usr/lib/pkgconfig/lapacke.pc
 * /usr/lib/pkgconfig/openblas.pc
-* /usr/share/doc/openblas-0.3.27/GotoBLAS_01Readme.txt
-* /usr/share/doc/openblas-0.3.27/GotoBLAS_03FAQ.txt
-* /usr/share/doc/openblas-0.3.27/GotoBLAS_04FAQ.txt
-* /usr/share/doc/openblas-0.3.27/LICENSE
-* /usr/share/doc/openblas-0.3.27/README.md
+* /usr/share/doc/openblas-0.3.28/GotoBLAS_01Readme.txt
+* /usr/share/doc/openblas-0.3.28/GotoBLAS_03FAQ.txt
+* /usr/share/doc/openblas-0.3.28/GotoBLAS_04FAQ.txt
+* /usr/share/doc/openblas-0.3.28/LICENSE
+* /usr/share/doc/openblas-0.3.28/README.md
