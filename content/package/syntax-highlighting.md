@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syntax-highlighting 6.4.0-1"
-version = "6.4.0-1"
+title = "syntax-highlighting 6.5.0-1"
+version = "6.5.0-1"
 description = "Syntax highlighting Engine for Structured Text and Code"
-date = "2024-07-12T22:08:30"
+date = "2024-08-09T16:23:54"
 aliases = "/packages/218944"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1711828"
-usize = "2531155"
-sha1sum = "9abc8836d67162bd8d79bc2b24302d56ea9486e9"
+size = "1711468"
+usize = "2538298"
+sha1sum = "653b46a3a2ab0a9f4341453107bd47b75dac1b6e"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'ktexteditor', 'neochat']"
 +++
@@ -47,12 +47,12 @@ Syntax highlighting Engine for Structured Text and Code
 * /usr/lib/cmake/KF6SyntaxHighlighting/KF6SyntaxHighlightingTargets.cmake
 * /usr/lib/libKF6SyntaxHighlighting.so
 * /usr/lib/libKF6SyntaxHighlighting.so.6
-* /usr/lib/libKF6SyntaxHighlighting.so.6.4.0
+* /usr/lib/libKF6SyntaxHighlighting.so.6.5.0
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/kquicksyntaxhighlightingplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/libkquicksyntaxhighlightingplugin.so
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/qmldir
-* /usr/share/doc/syntax-highlighting-6.4.0/README.md
+* /usr/share/doc/syntax-highlighting-6.5.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/syntaxhighlighting6_qt.qm
