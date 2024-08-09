@@ -60,7 +60,7 @@ KDE Access to window manager.
 * /usr/lib/cmake/KF6WindowSystem/KF6WindowSystemTargets.cmake
 * /usr/lib/libKF6WindowSystem.so
 * /usr/lib/libKF6WindowSystem.so.6
-* /usr/lib/libKF6WindowSystem.so.6.4.0
+* /usr/lib/libKF6WindowSystem.so.6.5.0
 * /usr/lib/pkgconfig/KF6WindowSystem.pc
 * /usr/lib/qt6/plugins/kf6/kwindowsystem/KF6WindowSystemKWaylandPlugin.so
 * /usr/lib/qt6/plugins/kf6/kwindowsystem/KF6WindowSystemX11Plugin.so
@@ -68,7 +68,7 @@ KDE Access to window manager.
 * /usr/lib/qt6/qml/org/kde/kwindowsystem/KWindowSystem.qmltypes
 * /usr/lib/qt6/qml/org/kde/kwindowsystem/libKWindowSystem.so
 * /usr/lib/qt6/qml/org/kde/kwindowsystem/qmldir
-* /usr/share/doc/kwindowsystem-6.4.0/README.md
+* /usr/share/doc/kwindowsystem-6.5.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kwindowsystem6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kwindowsystem6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kwindowsystem6_qt.qm

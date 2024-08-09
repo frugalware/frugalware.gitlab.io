@@ -34,6 +34,6 @@ Framework providing easy data-plotting functions.
 * /usr/lib/cmake/KF6Plotting/KF6PlottingTargets.cmake
 * /usr/lib/libKF6Plotting.so
 * /usr/lib/libKF6Plotting.so.6
-* /usr/lib/libKF6Plotting.so.6.4.0
+* /usr/lib/libKF6Plotting.so.6.5.0
 * /usr/lib/qt6/plugins/designer/kplotting6widgets.so
-* /usr/share/doc/kplotting-6.4.0/README.md
+* /usr/share/doc/kplotting-6.5.0/README.md

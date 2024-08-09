@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "karchive 6.4.0-1"
-version = "6.4.0-1"
+title = "karchive 6.5.0-1"
+version = "6.5.0-1"
 description = "Qt 5 addon providing access to numerous types of archives."
-date = "2024-07-12T21:52:56"
+date = "2024-08-09T16:04:34"
 aliases = "/packages/218274"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "151916"
-usize = "716423"
-sha1sum = "142fefe84b8b7807868949813834a2ba40051932"
+size = "151380"
+usize = "717873"
+sha1sum = "2abc4d10dad7a1aa3eada652196ab3c41f0e08b9"
 depends = "['qt6-base>=6.7.1']"
 reverse_depends = "['discover', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata', 'khealthcertificate', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'ksvg']"
 +++
@@ -50,10 +50,10 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/lib/cmake/KF6Archive/KF6ArchiveTargets.cmake
 * /usr/lib/libKF6Archive.so
 * /usr/lib/libKF6Archive.so.6
-* /usr/lib/libKF6Archive.so.6.4.0
-* /usr/share/doc/karchive-6.4.0/AUTHORS
-* /usr/share/doc/karchive-6.4.0/INSTALL
-* /usr/share/doc/karchive-6.4.0/README.md
+* /usr/lib/libKF6Archive.so.6.5.0
+* /usr/share/doc/karchive-6.5.0/AUTHORS
+* /usr/share/doc/karchive-6.5.0/INSTALL
+* /usr/share/doc/karchive-6.5.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/karchive6_qt.qm

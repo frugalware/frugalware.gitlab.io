@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.4.0-1"
-version = "6.4.0-1"
+title = "breeze-icons 6.5.0-1"
+version = "6.5.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2024-07-12T21:57:18"
+date = "2024-08-09T16:09:39"
 aliases = "/packages/218259"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7753520"
-usize = "56257109"
-sha1sum = "d596ff7a3bb837b8c5225a1401e697acc8acc3d6"
+size = "7806772"
+usize = "56394863"
+sha1sum = "6e581d0ef39c87411cbf19c72ed7fe0d01d4bd4e"
 depends = "[]"
 reverse_depends = "['kiconthemes']"
 +++
@@ -28,10 +28,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsTargets.cmake
 * /usr/lib/libKF6BreezeIcons.so
 * /usr/lib/libKF6BreezeIcons.so.6
-* /usr/lib/libKF6BreezeIcons.so.6.4.0
-* /usr/share/doc/breeze-icons-6.4.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.4.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.4.0/README.md
+* /usr/lib/libKF6BreezeIcons.so.6.5.0
+* /usr/share/doc/breeze-icons-6.5.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.5.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.5.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
@@ -2035,6 +2035,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/media-playback-start.svg
 * /usr/share/icons/breeze-dark/actions/16/media-playback-stop-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/media-playback-stop.svg
+* /usr/share/icons/breeze-dark/actions/16/media-playlist-append-next-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/16/media-playlist-append-next.svg
 * /usr/share/icons/breeze-dark/actions/16/media-playlist-append-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/media-playlist-append.svg
 * /usr/share/icons/breeze-dark/actions/16/media-playlist-play-symbolic.svg
@@ -5799,6 +5801,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/22/media-playback-start.svg
 * /usr/share/icons/breeze-dark/actions/22/media-playback-stop-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/media-playback-stop.svg
+* /usr/share/icons/breeze-dark/actions/22/media-playlist-append-next-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/22/media-playlist-append-next.svg
 * /usr/share/icons/breeze-dark/actions/22/media-playlist-append-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/22/media-playlist-append.svg
 * /usr/share/icons/breeze-dark/actions/22/media-playlist-no-shuffle-symbolic.svg
@@ -8155,6 +8159,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/24/media-playback-pause.svg
 * /usr/share/icons/breeze-dark/actions/24/media-playback-start.svg
 * /usr/share/icons/breeze-dark/actions/24/media-playback-stop.svg
+* /usr/share/icons/breeze-dark/actions/24/media-playlist-append-next.svg
 * /usr/share/icons/breeze-dark/actions/24/media-playlist-append.svg
 * /usr/share/icons/breeze-dark/actions/24/media-playlist-normal.svg
 * /usr/share/icons/breeze-dark/actions/24/media-playlist-play.svg
@@ -9764,6 +9769,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/codeblocks.svg
 * /usr/share/icons/breeze-dark/apps/48/com.anydesk.Anydesk.svg
 * /usr/share/icons/breeze-dark/apps/48/com.elsevier.MendeleyDesktop.svg
+* /usr/share/icons/breeze-dark/apps/48/com.github.git_cola.git-cola.svg
 * /usr/share/icons/breeze-dark/apps/48/com.github.ztefn.haguichi.svg
 * /usr/share/icons/breeze-dark/apps/48/com.rosegardenmusic.rosegarden.svg
 * /usr/share/icons/breeze-dark/apps/48/com.sublimemerge.App.svg
@@ -10026,6 +10032,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/org.kde.bomber.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.bovo.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.cantor.svg
+* /usr/share/icons/breeze-dark/apps/48/org.kde.CrowTranslate.svg.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.digikam.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.elisa.svg
 * /usr/share/icons/breeze-dark/apps/48/org.kde.falkon.svg
@@ -10239,7 +10246,41 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/64/umbrello.svg
 * /usr/share/icons/breeze-dark/apps/64/utilities-terminal.svg
 * /usr/share/icons/breeze-dark/categories/22/applications-all-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-all.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-development-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-development.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-education-language-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-education-language.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-education-mathematics-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-education-mathematics.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-education-science-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-education-science.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-engineering-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-engineering.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-games-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-games.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-graphics-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-graphics.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-internet-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-internet.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-multimedia-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-multimedia.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-office-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-office.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-science-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-science.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-utilities-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/22/applications-utilities.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-all-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-development-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-education-language-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-education-mathematics-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-education-science-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-games-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-graphics-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-office-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-science-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-utilities-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24@2x
 * /usr/share/icons/breeze-dark/categories/24@3x
 * /usr/share/icons/breeze-dark/categories/32/applications-all-symbolic.svg
@@ -14345,6 +14386,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/16/microphone-sensitivity-muted.svg
 * /usr/share/icons/breeze-dark/status/16/network-offline-symbolic.svg
 * /usr/share/icons/breeze-dark/status/16/non-starred-symbolic.svg
+* /usr/share/icons/breeze-dark/status/16/org.kde.CrowTranslate-tray-symbolic.svg
+* /usr/share/icons/breeze-dark/status/16/org.kde.CrowTranslate-tray.svg
 * /usr/share/icons/breeze-dark/status/16/pidgin-tray-available-symbolic.svg
 * /usr/share/icons/breeze-dark/status/16/pidgin-tray-available.svg
 * /usr/share/icons/breeze-dark/status/16/pidgin-tray-away-symbolic.svg
@@ -17668,6 +17711,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/media-playback-start.svg
 * /usr/share/icons/breeze/actions/16/media-playback-stop-symbolic.svg
 * /usr/share/icons/breeze/actions/16/media-playback-stop.svg
+* /usr/share/icons/breeze/actions/16/media-playlist-append-next-symbolic.svg
+* /usr/share/icons/breeze/actions/16/media-playlist-append-next.svg
 * /usr/share/icons/breeze/actions/16/media-playlist-append-symbolic.svg
 * /usr/share/icons/breeze/actions/16/media-playlist-append.svg
 * /usr/share/icons/breeze/actions/16/media-playlist-play-symbolic.svg
@@ -21432,6 +21477,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/22/media-playback-start.svg
 * /usr/share/icons/breeze/actions/22/media-playback-stop-symbolic.svg
 * /usr/share/icons/breeze/actions/22/media-playback-stop.svg
+* /usr/share/icons/breeze/actions/22/media-playlist-append-next-symbolic.svg
+* /usr/share/icons/breeze/actions/22/media-playlist-append-next.svg
 * /usr/share/icons/breeze/actions/22/media-playlist-append-symbolic.svg
 * /usr/share/icons/breeze/actions/22/media-playlist-append.svg
 * /usr/share/icons/breeze/actions/22/media-playlist-no-shuffle-symbolic.svg
@@ -23801,6 +23848,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/24/media-playback-pause.svg
 * /usr/share/icons/breeze/actions/24/media-playback-start.svg
 * /usr/share/icons/breeze/actions/24/media-playback-stop.svg
+* /usr/share/icons/breeze/actions/24/media-playlist-append-next.svg
 * /usr/share/icons/breeze/actions/24/media-playlist-append.svg
 * /usr/share/icons/breeze/actions/24/media-playlist-normal.svg
 * /usr/share/icons/breeze/actions/24/media-playlist-play.svg
@@ -25425,6 +25473,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/codeblocks.svg
 * /usr/share/icons/breeze/apps/48/com.anydesk.Anydesk.svg
 * /usr/share/icons/breeze/apps/48/com.elsevier.MendeleyDesktop.svg
+* /usr/share/icons/breeze/apps/48/com.github.git_cola.git-cola.svg
 * /usr/share/icons/breeze/apps/48/com.github.ztefn.haguichi.svg
 * /usr/share/icons/breeze/apps/48/com.rosegardenmusic.rosegarden.svg
 * /usr/share/icons/breeze/apps/48/com.sublimemerge.App.svg
@@ -25687,6 +25736,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/org.kde.bomber.svg
 * /usr/share/icons/breeze/apps/48/org.kde.bovo.svg
 * /usr/share/icons/breeze/apps/48/org.kde.cantor.svg
+* /usr/share/icons/breeze/apps/48/org.kde.CrowTranslate.svg.svg
 * /usr/share/icons/breeze/apps/48/org.kde.digikam.svg
 * /usr/share/icons/breeze/apps/48/org.kde.elisa.svg
 * /usr/share/icons/breeze/apps/48/org.kde.falkon.svg
@@ -25900,7 +25950,56 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/64/umbrello.svg
 * /usr/share/icons/breeze/apps/64/utilities-terminal.svg
 * /usr/share/icons/breeze/categories/22/applications-all-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-all.svg
+* /usr/share/icons/breeze/categories/22/applications-development-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-development.svg
+* /usr/share/icons/breeze/categories/22/applications-education-language-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-education-language.svg
+* /usr/share/icons/breeze/categories/22/applications-education-mathematics-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-education-mathematics.svg
+* /usr/share/icons/breeze/categories/22/applications-education-science-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-education-science.svg
+* /usr/share/icons/breeze/categories/22/applications-engineering-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-engineering.svg
+* /usr/share/icons/breeze/categories/22/applications-games-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-games.svg
+* /usr/share/icons/breeze/categories/22/applications-graphics-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-graphics.svg
+* /usr/share/icons/breeze/categories/22/applications-internet-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-internet.svg
+* /usr/share/icons/breeze/categories/22/applications-multimedia-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-multimedia.svg
+* /usr/share/icons/breeze/categories/22/applications-office-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-office.svg
+* /usr/share/icons/breeze/categories/22/applications-science-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-science.svg
+* /usr/share/icons/breeze/categories/22/applications-utilities-symbolic.svg
+* /usr/share/icons/breeze/categories/22/applications-utilities.svg
 * /usr/share/icons/breeze/categories/24/applications-all-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-all.svg
+* /usr/share/icons/breeze/categories/24/applications-development-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-development.svg
+* /usr/share/icons/breeze/categories/24/applications-education-language-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-education-language.svg
+* /usr/share/icons/breeze/categories/24/applications-education-mathematics-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-education-mathematics.svg
+* /usr/share/icons/breeze/categories/24/applications-education-science-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-education-science.svg
+* /usr/share/icons/breeze/categories/24/applications-engineering-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-engineering.svg
+* /usr/share/icons/breeze/categories/24/applications-games-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-games.svg
+* /usr/share/icons/breeze/categories/24/applications-graphics-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-graphics.svg
+* /usr/share/icons/breeze/categories/24/applications-internet.svg
+* /usr/share/icons/breeze/categories/24/applications-multimedia-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-multimedia.svg
+* /usr/share/icons/breeze/categories/24/applications-office-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-office.svg
+* /usr/share/icons/breeze/categories/24/applications-science-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-science.svg
+* /usr/share/icons/breeze/categories/24/applications-utilities-symbolic.svg
+* /usr/share/icons/breeze/categories/24/applications-utilities.svg
 * /usr/share/icons/breeze/categories/24@2x
 * /usr/share/icons/breeze/categories/24@3x
 * /usr/share/icons/breeze/categories/32/applications-all-symbolic.svg
@@ -30313,6 +30412,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/16/microphone-sensitivity-muted.svg
 * /usr/share/icons/breeze/status/16/network-offline-symbolic.svg
 * /usr/share/icons/breeze/status/16/non-starred-symbolic.svg
+* /usr/share/icons/breeze/status/16/org.kde.CrowTranslate-tray-symbolic.svg
+* /usr/share/icons/breeze/status/16/org.kde.CrowTranslate-tray.svg
 * /usr/share/icons/breeze/status/16/pidgin-tray-available-symbolic.svg
 * /usr/share/icons/breeze/status/16/pidgin-tray-available.svg
 * /usr/share/icons/breeze/status/16/pidgin-tray-away-symbolic.svg
