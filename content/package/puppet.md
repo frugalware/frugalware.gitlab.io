@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "puppet 8.7.0-1"
-version = "8.7.0-1"
+title = "puppet 8.8.1-1"
+version = "8.8.1-1"
 description = "Server automation framework and application"
-date = "2024-07-14T20:44:53"
+date = "2024-08-11T17:53:52"
 aliases = "/packages/218451"
 categories = ['apps-extra']
 upstreamurl = "http://puppetlabs.com/puppet/puppet-open-source"
 arch = "x86_64"
-size = "1133412"
-usize = "5882587"
-sha1sum = "f3e4971fe79f5611d751f16f94cd4586d4ee82ff"
+size = "1133768"
+usize = "5883474"
+sha1sum = "db1621a9e21e586b863f5f03a0c8182f9c321cf1"
 depends = "['facter', 'ruby-hiera']"
 license = "Apache"
 +++
@@ -439,6 +439,7 @@ Server automation framework and application
 * /usr/lib/ruby/site_ruby/3.3.0/puppet/node.rb
 * /usr/lib/ruby/site_ruby/3.3.0/puppet/node/environment.rb
 * /usr/lib/ruby/site_ruby/3.3.0/puppet/node/facts.rb
+* /usr/lib/ruby/site_ruby/3.3.0/puppet/node/server_facts.rb
 * /usr/lib/ruby/site_ruby/3.3.0/puppet/pal/catalog_compiler.rb
 * /usr/lib/ruby/site_ruby/3.3.0/puppet/pal/compiler.rb
 * /usr/lib/ruby/site_ruby/3.3.0/puppet/pal/function_signature.rb
@@ -1050,8 +1051,8 @@ Server automation framework and application
 * /usr/lib/ruby/site_ruby/3.3.0/puppet_x.rb
 * /usr/lib/systemd/system/puppet.service
 * /usr/lib/tmpfiles.d/puppet.conf
-* /usr/share/doc/puppet-8.7.0/LICENSE
-* /usr/share/doc/puppet-8.7.0/README.md
+* /usr/share/doc/puppet-8.8.1/LICENSE
+* /usr/share/doc/puppet-8.8.1/README.md
 * /usr/share/man/man5/puppet.conf.5.gz
 * /usr/share/man/man8/puppet-agent.8.gz
 * /usr/share/man/man8/puppet-apply.8.gz
