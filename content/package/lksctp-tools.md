@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lksctp-tools 1.0.19-2"
-version = "1.0.19-2"
+title = "lksctp-tools 1.0.20-1"
+version = "1.0.20-1"
 description = "Stream Control Transmission Protocol (SCTP) is a reliable, message-oriented, multihomed transport protocol."
-date = "2022-01-11T10:12:44"
+date = "2024-08-12T18:23:47"
 aliases = "/packages/217515"
 categories = ['network']
 upstreamurl = "https://github.com/sctp/lksctp-tools"
 arch = "x86_64"
-size = "107200"
-usize = "426024"
-sha1sum = "ca27e3ffe6cd9fcb9466fb8fbc788c11ce1bc253"
+size = "113228"
+usize = "386243"
+sha1sum = "ba4214a745e548b22f24f32b9cae0456e67c1671"
 depends = "['glibc>=2.34']"
 reverse_depends = "['openjre']"
 +++
@@ -31,13 +31,13 @@ Stream Control Transmission Protocol (SCTP) is a reliable, message-oriented, mul
 * /usr/lib/lksctp-tools/libwithsctp.so.1
 * /usr/lib/lksctp-tools/libwithsctp.so.1.0.19
 * /usr/lib/pkgconfig/libsctp.pc
-* /usr/share/doc/lksctp-tools-1.0.19/AUTHORS
-* /usr/share/doc/lksctp-tools-1.0.19/ChangeLog
-* /usr/share/doc/lksctp-tools-1.0.19/COPYING
-* /usr/share/doc/lksctp-tools-1.0.19/COPYING.lib
-* /usr/share/doc/lksctp-tools-1.0.19/INSTALL
-* /usr/share/doc/lksctp-tools-1.0.19/NEWS
-* /usr/share/doc/lksctp-tools-1.0.19/README
+* /usr/share/doc/lksctp-tools-1.0.20/AUTHORS
+* /usr/share/doc/lksctp-tools-1.0.20/ChangeLog
+* /usr/share/doc/lksctp-tools-1.0.20/COPYING
+* /usr/share/doc/lksctp-tools-1.0.20/COPYING.lib
+* /usr/share/doc/lksctp-tools-1.0.20/INSTALL
+* /usr/share/doc/lksctp-tools-1.0.20/NEWS
+* /usr/share/doc/lksctp-tools-1.0.20/README
 * /usr/share/lksctp-tools/checksctp.c
 * /usr/share/lksctp-tools/sctp_bind.c
 * /usr/share/lksctp-tools/sctp_darn.c
