@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cryptopp 8.9.0-1"
-version = "8.9.0-1"
+title = "cryptopp 8.9.0-2"
+version = "8.9.0-2"
 description = "C++ library for cryptography"
-date = "2023-11-06T14:33:52"
+date = "2024-08-13T12:06:53"
 aliases = "/packages/219486"
 categories = ['lib']
 upstreamurl = "https://www.cryptopp.com"
 arch = "x86_64"
-size = "17750512"
-usize = "70506783"
-sha1sum = "7ab1bb4ca079460b6e03964c2f8f73fec870e892"
+size = "1387792"
+usize = "6785621"
+sha1sum = "a05e3e9689cfeebb09ce0fa60e3b3c991712bed7"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['cryfs']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['cryfs']"
 C++ library for cryptography
 
 ### Files: 
-* /usr/bin/cryptest.exe
 * /usr/include/cryptopp/3way.h
 * /usr/include/cryptopp/adler32.h
 * /usr/include/cryptopp/adv_simd.h
@@ -215,157 +214,4 @@ C++ library for cryptography
 * /usr/lib/libcryptopp.so.8
 * /usr/lib/libcryptopp.so.8.9.0
 * /usr/lib/pkgconfig/libcrypto++.pc
-* /usr/share/cryptopp/TestData/3desval.dat
-* /usr/share/cryptopp/TestData/3wayval.dat
-* /usr/share/cryptopp/TestData/aria.dat
-* /usr/share/cryptopp/TestData/camellia.dat
-* /usr/share/cryptopp/TestData/cast128v.dat
-* /usr/share/cryptopp/TestData/cast256v.dat
-* /usr/share/cryptopp/TestData/descert.dat
-* /usr/share/cryptopp/TestData/dh1024.dat
-* /usr/share/cryptopp/TestData/dh2048.dat
-* /usr/share/cryptopp/TestData/dlie1024.dat
-* /usr/share/cryptopp/TestData/dlie2048.dat
-* /usr/share/cryptopp/TestData/dsa1024.dat
-* /usr/share/cryptopp/TestData/dsa1024b.dat
-* /usr/share/cryptopp/TestData/dsa512.dat
-* /usr/share/cryptopp/TestData/ecies_p160.dat
-* /usr/share/cryptopp/TestData/ecies_t163.dat
-* /usr/share/cryptopp/TestData/ed25519.dat
-* /usr/share/cryptopp/TestData/ed25519v0.dat
-* /usr/share/cryptopp/TestData/ed25519v1.dat
-* /usr/share/cryptopp/TestData/elgc1024.dat
-* /usr/share/cryptopp/TestData/esig1023.dat
-* /usr/share/cryptopp/TestData/esig1536.dat
-* /usr/share/cryptopp/TestData/esig2046.dat
-* /usr/share/cryptopp/TestData/fhmqv160.dat
-* /usr/share/cryptopp/TestData/fhmqv256.dat
-* /usr/share/cryptopp/TestData/fhmqv384.dat
-* /usr/share/cryptopp/TestData/fhmqv512.dat
-* /usr/share/cryptopp/TestData/gostval.dat
-* /usr/share/cryptopp/TestData/hmqv160.dat
-* /usr/share/cryptopp/TestData/hmqv256.dat
-* /usr/share/cryptopp/TestData/hmqv384.dat
-* /usr/share/cryptopp/TestData/hmqv512.dat
-* /usr/share/cryptopp/TestData/ideaval.dat
-* /usr/share/cryptopp/TestData/luc1024.dat
-* /usr/share/cryptopp/TestData/luc2048.dat
-* /usr/share/cryptopp/TestData/lucc1024.dat
-* /usr/share/cryptopp/TestData/lucc512.dat
-* /usr/share/cryptopp/TestData/lucd1024.dat
-* /usr/share/cryptopp/TestData/lucd512.dat
-* /usr/share/cryptopp/TestData/lucs1024.dat
-* /usr/share/cryptopp/TestData/lucs512.dat
-* /usr/share/cryptopp/TestData/marsval.dat
-* /usr/share/cryptopp/TestData/mqv1024.dat
-* /usr/share/cryptopp/TestData/mqv2048.dat
-* /usr/share/cryptopp/TestData/nr1024.dat
-* /usr/share/cryptopp/TestData/nr2048.dat
-* /usr/share/cryptopp/TestData/rabi1024.dat
-* /usr/share/cryptopp/TestData/rabi2048.dat
-* /usr/share/cryptopp/TestData/rc2val.dat
-* /usr/share/cryptopp/TestData/rc5val.dat
-* /usr/share/cryptopp/TestData/rc6val.dat
-* /usr/share/cryptopp/TestData/rijndael.dat
-* /usr/share/cryptopp/TestData/rsa1024.dat
-* /usr/share/cryptopp/TestData/rsa2048.dat
-* /usr/share/cryptopp/TestData/rsa2048a.dat
-* /usr/share/cryptopp/TestData/rsa400pb.dat
-* /usr/share/cryptopp/TestData/rsa400pv.dat
-* /usr/share/cryptopp/TestData/rsa512a.dat
-* /usr/share/cryptopp/TestData/rw1024.dat
-* /usr/share/cryptopp/TestData/rw2048.dat
-* /usr/share/cryptopp/TestData/saferval.dat
-* /usr/share/cryptopp/TestData/serpentv.dat
-* /usr/share/cryptopp/TestData/shacal2v.dat
-* /usr/share/cryptopp/TestData/sharkval.dat
-* /usr/share/cryptopp/TestData/skipjack.dat
-* /usr/share/cryptopp/TestData/squareva.dat
-* /usr/share/cryptopp/TestData/twofishv.dat
-* /usr/share/cryptopp/TestData/usage.dat
-* /usr/share/cryptopp/TestData/x25519.dat
-* /usr/share/cryptopp/TestData/x25519v0.dat
-* /usr/share/cryptopp/TestData/x25519v1.dat
-* /usr/share/cryptopp/TestData/xtrdh171.dat
-* /usr/share/cryptopp/TestData/xtrdh342.dat
-* /usr/share/cryptopp/TestVectors/aead.txt
-* /usr/share/cryptopp/TestVectors/aes.txt
-* /usr/share/cryptopp/TestVectors/all.txt
-* /usr/share/cryptopp/TestVectors/aria.txt
-* /usr/share/cryptopp/TestVectors/blake2.txt
-* /usr/share/cryptopp/TestVectors/blake2b.txt
-* /usr/share/cryptopp/TestVectors/blake2s.txt
-* /usr/share/cryptopp/TestVectors/camellia.txt
-* /usr/share/cryptopp/TestVectors/ccm.txt
-* /usr/share/cryptopp/TestVectors/chacha.txt
-* /usr/share/cryptopp/TestVectors/chacha20poly1305.txt
-* /usr/share/cryptopp/TestVectors/chacha_tls.txt
-* /usr/share/cryptopp/TestVectors/cham.txt
-* /usr/share/cryptopp/TestVectors/cmac.txt
-* /usr/share/cryptopp/TestVectors/dlies.txt
-* /usr/share/cryptopp/TestVectors/dsa.txt
-* /usr/share/cryptopp/TestVectors/dsa_1363.txt
-* /usr/share/cryptopp/TestVectors/dsa_rfc6979.txt
-* /usr/share/cryptopp/TestVectors/eax.txt
-* /usr/share/cryptopp/TestVectors/esign.txt
-* /usr/share/cryptopp/TestVectors/gcm.txt
-* /usr/share/cryptopp/TestVectors/hc128.txt
-* /usr/share/cryptopp/TestVectors/hc256.txt
-* /usr/share/cryptopp/TestVectors/hight.txt
-* /usr/share/cryptopp/TestVectors/hkdf.txt
-* /usr/share/cryptopp/TestVectors/hmac.txt
-* /usr/share/cryptopp/TestVectors/kalyna.txt
-* /usr/share/cryptopp/TestVectors/keccak.txt
-* /usr/share/cryptopp/TestVectors/lea.txt
-* /usr/share/cryptopp/TestVectors/lsh.txt
-* /usr/share/cryptopp/TestVectors/lsh256.txt
-* /usr/share/cryptopp/TestVectors/lsh512.txt
-* /usr/share/cryptopp/TestVectors/lsh512_256.txt
-* /usr/share/cryptopp/TestVectors/mars.txt
-* /usr/share/cryptopp/TestVectors/nr.txt
-* /usr/share/cryptopp/TestVectors/panama.txt
-* /usr/share/cryptopp/TestVectors/poly1305aes.txt
-* /usr/share/cryptopp/TestVectors/poly1305_tls.txt
-* /usr/share/cryptopp/TestVectors/rabbit.txt
-* /usr/share/cryptopp/TestVectors/Readme.txt
-* /usr/share/cryptopp/TestVectors/rsa_oaep.txt
-* /usr/share/cryptopp/TestVectors/rsa_pkcs1_1_5.txt
-* /usr/share/cryptopp/TestVectors/rsa_pss.txt
-* /usr/share/cryptopp/TestVectors/rw.txt
-* /usr/share/cryptopp/TestVectors/salsa.txt
-* /usr/share/cryptopp/TestVectors/seal.txt
-* /usr/share/cryptopp/TestVectors/seed.txt
-* /usr/share/cryptopp/TestVectors/sha.txt
-* /usr/share/cryptopp/TestVectors/sha1_160_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha1_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha2.txt
-* /usr/share/cryptopp/TestVectors/sha2_224_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha2_256_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha2_384_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha2_512_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha2_fips_180.txt
-* /usr/share/cryptopp/TestVectors/sha3.txt
-* /usr/share/cryptopp/TestVectors/sha3_224_fips_202.txt
-* /usr/share/cryptopp/TestVectors/sha3_256_fips_202.txt
-* /usr/share/cryptopp/TestVectors/sha3_384_fips_202.txt
-* /usr/share/cryptopp/TestVectors/sha3_512_fips_202.txt
-* /usr/share/cryptopp/TestVectors/sha3_fips_202.txt
-* /usr/share/cryptopp/TestVectors/shacal2.txt
-* /usr/share/cryptopp/TestVectors/shake.txt
-* /usr/share/cryptopp/TestVectors/simeck.txt
-* /usr/share/cryptopp/TestVectors/simon.txt
-* /usr/share/cryptopp/TestVectors/siphash.txt
-* /usr/share/cryptopp/TestVectors/skipjack.txt
-* /usr/share/cryptopp/TestVectors/sm3.txt
-* /usr/share/cryptopp/TestVectors/sm4.txt
-* /usr/share/cryptopp/TestVectors/sosemanuk.txt
-* /usr/share/cryptopp/TestVectors/speck.txt
-* /usr/share/cryptopp/TestVectors/tea.txt
-* /usr/share/cryptopp/TestVectors/threefish.txt
-* /usr/share/cryptopp/TestVectors/ttmac.txt
-* /usr/share/cryptopp/TestVectors/vmac.txt
-* /usr/share/cryptopp/TestVectors/wake.txt
-* /usr/share/cryptopp/TestVectors/whrlpool.txt
-* /usr/share/cryptopp/TestVectors/xchacha.txt
-* /usr/share/cryptopp/TestVectors/xts.txt
 * /usr/share/doc/cryptopp-8.9.0/Readme.txt

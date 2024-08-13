@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bc 1.07.1-5"
-version = "1.07.1-5"
+title = "bc 1.07.1-6"
+version = "1.07.1-6"
 description = "An arbitrary precision calculator language"
-date = "2021-10-07T11:37:44"
+date = "2024-08-13T11:42:00"
 aliases = "/packages/2348"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnu.org/software/bc/"
 arch = "x86_64"
-size = "122256"
-usize = "303019"
-sha1sum = "c107493eb8916c127b34413823eeec36dfcfcf41"
+size = "120432"
+usize = "278234"
+sha1sum = "7fc7d1da5dfd5116995712feff8bfcafc95e9cdf"
 depends = "['ncurses>=6.1-5', 'readline>=8.0-3']"
 reverse_depends = "['pulse-autoconf', 'steamtinkerlaunch']"
 +++
