@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 6.8.3-1"
-version = "6.8.3-1"
+title = "streamlink 6.9.0-1"
+version = "6.9.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-07-14T20:37:28"
+date = "2024-08-13T09:44:54"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "805360"
-usize = "3986312"
-sha1sum = "dd5cad87fc5ce84050cd0f9601027acb68432656"
+size = "808024"
+usize = "3997852"
+sha1sum = "5e0824dea506902c05b1959b8e4f55dcdc086efd"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -47,6 +47,10 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugin/api/validate/__pycache__/_validate.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugin/api/validate/__pycache__/_validators.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugin/api/validate/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugin/api/webbrowser/aws_waf.py
+* /usr/lib/python3.12/site-packages/streamlink/plugin/api/webbrowser/__init__.py
+* /usr/lib/python3.12/site-packages/streamlink/plugin/api/webbrowser/__pycache__/aws_waf.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/plugin/api/webbrowser/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugin/api/websocket.py
 * /usr/lib/python3.12/site-packages/streamlink/plugin/api/__init__.py
 * /usr/lib/python3.12/site-packages/streamlink/plugin/api/__pycache__/http_session.cpython-312.pyc
@@ -151,7 +155,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/pluto.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/pluzz.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/radiko.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/radionet.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/raiplay.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/reuters.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/rtpa.py
@@ -305,7 +308,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/pluto.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/pluzz.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/radiko.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/radionet.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/raiplay.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/reuters.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/rtpa.cpython-312.pyc
@@ -367,11 +369,13 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/py.typed
 * /usr/lib/python3.12/site-packages/streamlink/session/http.py
 * /usr/lib/python3.12/site-packages/streamlink/session/http.pyi
+* /usr/lib/python3.12/site-packages/streamlink/session/http_useragents.py
 * /usr/lib/python3.12/site-packages/streamlink/session/options.py
 * /usr/lib/python3.12/site-packages/streamlink/session/plugins.py
 * /usr/lib/python3.12/site-packages/streamlink/session/session.py
 * /usr/lib/python3.12/site-packages/streamlink/session/__init__.py
 * /usr/lib/python3.12/site-packages/streamlink/session/__pycache__/http.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/streamlink/session/__pycache__/http_useragents.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/session/__pycache__/options.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/session/__pycache__/plugins.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/session/__pycache__/session.cpython-312.pyc
@@ -550,6 +554,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/_parser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/streamlink-6.8.3/AUTHORS
-* /usr/share/doc/streamlink-6.8.3/LICENSE
-* /usr/share/doc/streamlink-6.8.3/README.md
+* /usr/share/doc/streamlink-6.9.0/AUTHORS
+* /usr/share/doc/streamlink-6.9.0/LICENSE
+* /usr/share/doc/streamlink-6.9.0/README.md
