@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pacman-tools 1.3.5-9"
-version = "1.3.5-9"
+title = "pacman-tools 1.3.5-10"
+version = "1.3.5-10"
 description = "Tools for developers for managing packages"
-date = "2024-06-17T14:14:07"
+date = "2024-08-13T18:21:22"
 aliases = "/packages/2424"
 categories = ['devel']
 upstreamurl = "https://ftp.frugalware.org/pub/other/pacman-tools"
 arch = "x86_64"
-size = "223880"
-usize = "571422"
-sha1sum = "55db40443f1eea5dbfac50ddbc6aeeb155ec66f7"
+size = "224316"
+usize = "571436"
+sha1sum = "d553b2903386be8df3c5cba88cb96c6d90d954fd"
 depends = "['bash', 'glib2>=2.16.4-2', 'openssl>=1.0.0', 'pacman-g2>=3.9.0-31', 'perl>=5.34', 'python3', 'shadow', 'wget']"
 +++
 ### Description: 
