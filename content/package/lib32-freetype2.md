@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-freetype2 2.13.2-2"
-version = "2.13.2-2"
+title = "lib32-freetype2 2.13.3-1"
+version = "2.13.3-1"
 description = "TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit )"
-date = "2024-05-16T00:58:27"
+date = "2024-08-13T07:37:33"
 aliases = "/packages/217753"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceforge.net/projects/freetype"
 arch = "x86_64"
-size = "506940"
-usize = "1707865"
-sha1sum = "cd5cd99e624b2a669f5e3fb9e44b0dd5d4f5008b"
+size = "507676"
+usize = "1703155"
+sha1sum = "a795a656b8db6b27cff881d0734b73551475690c"
 depends = "['lib32-brotli', 'lib32-bzip2>=1.0.6-16', 'lib32-libpng>=1.6.34-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-cairo', 'lib32-fontconfig', 'lib32-imlib2', 'lib32-libbluray', 'lib32-libxfont', 'lib32-libxfont2', 'lib32-libxft', 'wine', 'wine-devel']"
 +++
@@ -74,5 +74,5 @@ TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit
 * /usr/i686-frugalware-linux/include/freetype2/ft2build.h
 * /usr/lib32/libfreetype.so
 * /usr/lib32/libfreetype.so.6
-* /usr/lib32/libfreetype.so.6.20.1
+* /usr/lib32/libfreetype.so.6.20.2
 * /usr/lib32/pkgconfig/freetype2.pc
