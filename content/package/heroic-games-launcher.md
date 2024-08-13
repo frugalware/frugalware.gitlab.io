@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "heroic-games-launcher 2.15.0-3"
-version = "2.15.0-3"
+title = "heroic-games-launcher 2.15.1-1"
+version = "2.15.1-1"
 description = "Native GOG, Epic Games and Amazon games launcher for Linux"
-date = "2024-08-05T19:44:32"
+date = "2024-08-13T11:02:56"
 aliases = "/packages/221432"
 categories = ['games-extra']
 upstreamurl = "https://heroicgameslauncher.com/"
 arch = "x86_64"
-size = "117481104"
-usize = "409109524"
-sha1sum = "e679930b62caa62af487adc1424b4b388d6d3d5f"
+size = "121885904"
+usize = "408056177"
+sha1sum = "2b2359003ac2df146688f38a0bb12144c9fc04a7"
 depends = "['comet']"
 +++
 ### Description: 
@@ -93,6 +93,7 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/vulkan-helper
+* /opt/heroic/resources/app.asar.unpacked/build/bin/x64/win32/GalaxyCommunication.exe
 * /opt/heroic/resources/app.asar.unpacked/build/icon-dark.png
 * /opt/heroic/resources/app.asar.unpacked/build/icon-light.png
 * /opt/heroic/resources/app.asar.unpacked/build/icon.icns
@@ -116,6 +117,6 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/vk_swiftshader_icd.json
 * /usr/bin/heroic
 * /usr/share/applications/heroic-games-launcher.desktop
-* /usr/share/doc/heroic-games-launcher-2.15.0/COPYING
-* /usr/share/doc/heroic-games-launcher-2.15.0/README.md
+* /usr/share/doc/heroic-games-launcher-2.15.1/COPYING
+* /usr/share/doc/heroic-games-launcher-2.15.1/README.md
 * /usr/share/pixmaps/heroic.png
