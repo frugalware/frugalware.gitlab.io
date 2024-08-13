@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "unifdef 2.12-1"
-version = "2.12-1"
+title = "unifdef 2.12-2"
+version = "2.12-2"
 description = "Unifdef is useful for removing #ifdef'ed lines from a file."
-date = "2021-10-21T13:51:16"
+date = "2024-08-13T14:22:03"
 aliases = "/packages/10120"
 categories = ['apps-extra']
 upstreamurl = "http://dotat.at/prog/unifdef/"
 arch = "x86_64"
-size = "54384"
-usize = "270921"
-sha1sum = "7d0fde1c56740cf36b66dafe425e4afd72f7c5ec"
+size = "52744"
+usize = "259007"
+sha1sum = "98b95da6ea452ac07b7d7e6462e1471aff9e72af"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 

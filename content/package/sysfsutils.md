@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysfsutils 2.1.0-5"
-version = "2.1.0-5"
+title = "sysfsutils 2.1.0-6"
+version = "2.1.0-6"
 description = "System utilities based on sysfs"
-date = "2021-12-13T18:26:19"
+date = "2024-08-13T14:16:33"
 aliases = "/packages/219964"
 categories = ['base']
 upstreamurl = "http://linux-diag.sourceforge.net/Sysfsutils.html"
 arch = "x86_64"
-size = "41808"
-usize = "204517"
-sha1sum = "fb7a4f4a35a31bd0f31f8e9acd6c916af6fac461"
+size = "38996"
+usize = "144687"
+sha1sum = "f4131c46a73a7fa8b8c0c7927369d9501d1e583c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['rng-tools']"
 +++

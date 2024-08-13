@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tzdata 2024a-3"
-version = "2024a-3"
+title = "tzdata 2024a-4"
+version = "2024a-4"
 description = "Sources for time zone and daylight saving time data"
-date = "2024-05-29T12:34:36"
+date = "2024-08-13T14:19:57"
 aliases = "/packages/23547"
 categories = ['base']
 upstreamurl = "http://www.iana.org/time-zones"
 arch = "x86_64"
-size = "319840"
-usize = "1529272"
-sha1sum = "610ef64c6bd2bcd57b8ddfd4bc51481e37f48a50"
+size = "312172"
+usize = "1505232"
+sha1sum = "1572e7ac1d013a58f51c52eefb5cdf4ae4020729"
 depends = "[]"
 reverse_depends = "['glibc']"
 +++

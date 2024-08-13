@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "time 1.9-3"
-version = "1.9-3"
+title = "time 1.9-4"
+version = "1.9-4"
 description = "Time a simple command or give resource usage"
-date = "2021-10-06T13:35:36"
+date = "2024-08-13T14:17:46"
 aliases = "/packages/2451"
 categories = ['base']
 upstreamurl = "https://www.gnu.org/software/time/"
 arch = "x86_64"
-size = "43260"
-usize = "106552"
-sha1sum = "c66daef837ea39eec07b0a1db3109604a3e93297"
+size = "42500"
+usize = "93892"
+sha1sum = "396fece1f3f49c5d7b4fbf3dc0e32416c01187ad"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "valgrind 3.20.0-2"
-version = "3.20.0-2"
+title = "valgrind 3.23.0-1"
+version = "3.23.0-1"
 description = "Tools for debugging and profiling Linux programs."
-date = "2024-05-08T10:53:23"
+date = "2024-08-13T14:56:45"
 aliases = "/packages/10378"
 categories = ['devel-extra']
 upstreamurl = "http://valgrind.org/"
 arch = "x86_64"
-size = "65672064"
-usize = "184083508"
-sha1sum = "d06da95b87296688f87ef7f37a63738b251dee6f"
+size = "6906696"
+usize = "47761909"
+sha1sum = "3227f19374ec2b66ed1fa3ee1f42858337c6bbd2"
 depends = "['perl>=5.28.2']"
 +++
 ### Description: 
@@ -27,6 +27,7 @@ Tools for debugging and profiling Linux programs.
 * /usr/bin/valgrind-di-server
 * /usr/bin/valgrind-listener
 * /usr/bin/vgdb
+* /usr/include/valgrind/cachegrind.h
 * /usr/include/valgrind/callgrind.h
 * /usr/include/valgrind/config.h
 * /usr/include/valgrind/dhat.h
@@ -97,6 +98,7 @@ Tools for debugging and profiling Linux programs.
 * /usr/include/valgrind/vki/vki-amd64-freebsd.h
 * /usr/include/valgrind/vki/vki-amd64-linux.h
 * /usr/include/valgrind/vki/vki-arm-linux.h
+* /usr/include/valgrind/vki/vki-arm64-freebsd.h
 * /usr/include/valgrind/vki/vki-arm64-linux.h
 * /usr/include/valgrind/vki/vki-darwin.h
 * /usr/include/valgrind/vki/vki-freebsd.h
@@ -104,6 +106,7 @@ Tools for debugging and profiling Linux programs.
 * /usr/include/valgrind/vki/vki-linux-io_uring.h
 * /usr/include/valgrind/vki/vki-linux.h
 * /usr/include/valgrind/vki/vki-machine-types-amd64-freebsd.h
+* /usr/include/valgrind/vki/vki-machine-types-arm64-freebsd.h
 * /usr/include/valgrind/vki/vki-machine-types-x86-freebsd.h
 * /usr/include/valgrind/vki/vki-mips32-linux.h
 * /usr/include/valgrind/vki/vki-mips64-linux.h
@@ -155,11 +158,6 @@ Tools for debugging and profiling Linux programs.
 * /usr/include/valgrind/vki/vki-xen-xsm.h
 * /usr/include/valgrind/vki/vki-xen.h
 * /usr/lib/pkgconfig/valgrind.pc
-* /usr/lib/valgrind/libcoregrind-amd64-linux.a
-* /usr/lib/valgrind/libgcc-sup-amd64-linux.a
-* /usr/lib/valgrind/libreplacemalloc_toolpreload-amd64-linux.a
-* /usr/lib/valgrind/libvex-amd64-linux.a
-* /usr/lib/valgrind/libvexmultiarch-amd64-linux.a
 * /usr/lib/valgrind/valgrind/32bit-core-valgrind-s1.xml
 * /usr/lib/valgrind/valgrind/32bit-core-valgrind-s2.xml
 * /usr/lib/valgrind/valgrind/32bit-core.xml
@@ -280,29 +278,31 @@ Tools for debugging and profiling Linux programs.
 * /usr/lib/valgrind/valgrind/s390x-linux64.xml
 * /usr/lib/valgrind/valgrind/s390x-vx-linux-valgrind.xml
 * /usr/lib/valgrind/valgrind/s390x-vx-linux.xml
+* /usr/lib/valgrind/valgrind/valgrind-monitor-def.py
+* /usr/lib/valgrind/valgrind/valgrind-monitor.py
 * /usr/lib/valgrind/valgrind/vgpreload_core-amd64-linux.so
 * /usr/lib/valgrind/valgrind/vgpreload_dhat-amd64-linux.so
 * /usr/lib/valgrind/valgrind/vgpreload_drd-amd64-linux.so
 * /usr/lib/valgrind/valgrind/vgpreload_helgrind-amd64-linux.so
 * /usr/lib/valgrind/valgrind/vgpreload_massif-amd64-linux.so
 * /usr/lib/valgrind/valgrind/vgpreload_memcheck-amd64-linux.so
-* /usr/share/doc/valgrind-3.20.0/AUTHORS
-* /usr/share/doc/valgrind-3.20.0/COPYING
-* /usr/share/doc/valgrind-3.20.0/COPYING.DOCS
-* /usr/share/doc/valgrind-3.20.0/FAQ.txt
-* /usr/share/doc/valgrind-3.20.0/NEWS
-* /usr/share/doc/valgrind-3.20.0/README
-* /usr/share/doc/valgrind-3.20.0/README.aarch64
-* /usr/share/doc/valgrind-3.20.0/README.android
-* /usr/share/doc/valgrind-3.20.0/README.android_emulator
-* /usr/share/doc/valgrind-3.20.0/README.freebsd
-* /usr/share/doc/valgrind-3.20.0/README.mips
-* /usr/share/doc/valgrind-3.20.0/README.s390
-* /usr/share/doc/valgrind-3.20.0/README.solaris
-* /usr/share/doc/valgrind-3.20.0/README_DEVELOPERS
-* /usr/share/doc/valgrind-3.20.0/README_DEVELOPERS_processes
-* /usr/share/doc/valgrind-3.20.0/README_MISSING_SYSCALL_OR_IOCTL
-* /usr/share/doc/valgrind-3.20.0/README_PACKAGERS
+* /usr/share/doc/valgrind-3.23.0/AUTHORS
+* /usr/share/doc/valgrind-3.23.0/COPYING
+* /usr/share/doc/valgrind-3.23.0/COPYING.DOCS
+* /usr/share/doc/valgrind-3.23.0/FAQ.txt
+* /usr/share/doc/valgrind-3.23.0/NEWS
+* /usr/share/doc/valgrind-3.23.0/README
+* /usr/share/doc/valgrind-3.23.0/README.aarch64
+* /usr/share/doc/valgrind-3.23.0/README.android
+* /usr/share/doc/valgrind-3.23.0/README.android_emulator
+* /usr/share/doc/valgrind-3.23.0/README.freebsd
+* /usr/share/doc/valgrind-3.23.0/README.mips
+* /usr/share/doc/valgrind-3.23.0/README.s390
+* /usr/share/doc/valgrind-3.23.0/README.solaris
+* /usr/share/doc/valgrind-3.23.0/README_DEVELOPERS
+* /usr/share/doc/valgrind-3.23.0/README_DEVELOPERS_processes
+* /usr/share/doc/valgrind-3.23.0/README_MISSING_SYSCALL_OR_IOCTL
+* /usr/share/doc/valgrind-3.23.0/README_PACKAGERS
 * /usr/share/doc/valgrind/html/bbv-manual.html
 * /usr/share/doc/valgrind/html/cg-manual.html
 * /usr/share/doc/valgrind/html/cl-format.html
