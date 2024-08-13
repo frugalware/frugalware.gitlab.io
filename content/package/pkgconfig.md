@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pkgconfig 0.29.2-3"
-version = "0.29.2-3"
+title = "pkgconfig 0.29.2-4"
+version = "0.29.2-4"
 description = "A system for managing library compile/link flags"
-date = "2021-10-11T09:39:21"
+date = "2024-08-13T13:58:55"
 aliases = "/packages/2430"
 categories = ['devel']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/pkg-config"
 arch = "x86_64"
-size = "65796"
-usize = "196181"
-sha1sum = "01262b35a234399b98430820e2a1edba1149bae5"
+size = "65584"
+usize = "184281"
+sha1sum = "618ccb57242d1d1f4f765c1b34ec335a0091dc90"
 depends = "['glib2>=2.70']"
 reverse_depends = "['dracut']"
 +++

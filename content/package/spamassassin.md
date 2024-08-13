@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spamassassin 4.0.1-2"
-version = "4.0.1-2"
+title = "spamassassin 4.0.1-3"
+version = "4.0.1-3"
 description = "A mail filter to identify spam."
-date = "2024-06-11T13:54:33"
+date = "2024-08-13T14:10:24"
 aliases = "/packages/3839"
 categories = ['network-extra']
 upstreamurl = "https://spamassassin.apache.org"
 arch = "x86_64"
-size = "998676"
-usize = "3487201"
-sha1sum = "b75eff69b80c458d5c3eb42bce678e01797f9354"
+size = "995988"
+usize = "3472960"
+sha1sum = "9630cc379ba39eea56504ce815d71588d3569e0a"
 depends = "['curl', 'openssl', 'perl>=5.10.0-2', 'perl-dbi', 'perl-digest-sha1>=2.11-2', 'perl-encode-detect>=1.00-2', 'perl-html-parser>=3.56-2', 'perl-io-socket-inet6>=2.52', 'perl-io-socket-ssl', 'perl-io-socket-ssl', 'perl-ip-country', 'perl-libwww>=6.05', 'perl-mail-dkim', 'perl-mail-domainkeys', 'perl-mail-spf', 'perl-net-dns', 'perl-net-ident', 'perl-net-ssleay>=1.35', 'perl-netaddr-ip', 'perl-razor2-client-agent']"
 reverse_depends = "['amavisd-new']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libomxil-bellagio 0.9.3-8"
-version = "0.9.3-8"
+title = "libomxil-bellagio 0.9.3-9"
+version = "0.9.3-9"
 description = "An opensource implementation of the OpenMAX Integration Layer API"
-date = "2021-12-23T11:43:00"
+date = "2024-08-13T13:18:47"
 aliases = "/packages/217545"
 categories = ['lib']
 upstreamurl = "https://sourceforge.net/projects/omxil"
 arch = "x86_64"
-size = "130792"
-usize = "682084"
-sha1sum = "0ee943ff1dd32f896320e01c57b2f8aaa342bd79"
+size = "127048"
+usize = "648429"
+sha1sum = "cca3cd8c3f5d622cc2a0d6a5a1557513902b71de"
 depends = "['glibc>=2.34']"
 reverse_depends = "['mesa-opemax']"
 license = "LGPL"

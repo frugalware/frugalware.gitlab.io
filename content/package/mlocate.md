@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlocate 0.26-13"
-version = "0.26-13"
+title = "mlocate 0.26-14"
+version = "0.26-14"
 description = "mlocate (merging locate) is a locate/updatedb implementation."
-date = "2021-10-06T12:49:30"
+date = "2024-08-13T13:45:41"
 aliases = "/packages/30993"
 categories = ['base']
 upstreamurl = "https://pagure.io/mlocate"
 arch = "x86_64"
-size = "100652"
-usize = "439374"
-sha1sum = "88d90fde07fb6e8c0f625c6a50d6f7de684cb166"
+size = "99204"
+usize = "410847"
+sha1sum = "d7df035248202a91729813f9a817d4314bf39ac8"
 depends = "['glibc>=2.34', 'scriptlet-core']"
 license = "GPLv2"
 +++

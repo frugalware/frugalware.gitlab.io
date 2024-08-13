@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "open-isns 0.102-3"
-version = "0.102-3"
+title = "open-isns 0.102-4"
+version = "0.102-4"
 description = "iSNS server and client for Linux"
-date = "2024-01-15T08:27:26"
+date = "2024-08-13T13:54:55"
 aliases = "/packages/218987"
 categories = ['network-extra']
 upstreamurl = "https://github.com/open-iscsi/open-isns"
 arch = "x86_64"
-size = "149288"
-usize = "737265"
-sha1sum = "edeab4ded0480aa17d3cd5244bf068e0e95a2634"
+size = "146076"
+usize = "689918"
+sha1sum = "e1b9c1944b1dde0e0a1800d1ab57a387e641f20b"
 depends = "['openslp>=2.0.0-5', 'openssl>=3.1.0']"
 reverse_depends = "['iscsi']"
 +++
@@ -47,4 +47,3 @@ iSNS server and client for Linux
 * /usr/share/man/man8/isnsadm.8.gz
 * /usr/share/man/man8/isnsd.8.gz
 * /usr/share/man/man8/isnsdd.8.gz
-* /usr/share/man/man8/isnssetup.8.gz

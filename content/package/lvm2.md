@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lvm2 2.03.25-1"
-version = "2.03.25-1"
+title = "lvm2 2.03.25-2"
+version = "2.03.25-2"
 description = "Logical Volume Manager 2 utilities"
-date = "2024-07-12T21:31:31"
+date = "2024-08-13T13:33:08"
 aliases = "/packages/3220"
 categories = ['base']
 upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
-size = "1513436"
-usize = "4334263"
-sha1sum = "deccdb09d6e02f6e3035b933e9e05f3e2432ea2d"
+size = "1476644"
+usize = "3759110"
+sha1sum = "ad64b20b771c7e56800ddf20084a481d01a5bb7f"
 depends = "['libaio', 'libblkid>=2.31.1-3', 'libsystemd', 'libudev>=242', 'lvm2-libs', 'ncurses>=6.1', 'readline>=8.0', 'systemd-systemctl', 'thin-provisioning-tools>=1.0.2']"
 reverse_depends = "['docker', 'dracut', 'kernel-initrd', 'kernel-lts-initrd', 'libvirt', 'multipath-tools', 'parted', 'udisks2', 'virtualbox']"
 +++
