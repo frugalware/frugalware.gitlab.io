@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "expect 5.45.4-2"
-version = "5.45.4-2"
+title = "expect 5.45.4-3"
+version = "5.45.4-3"
 description = "Expect interpreter"
-date = "2021-12-19T12:27:21"
+date = "2024-08-13T12:32:39"
 aliases = "/packages/2990"
 categories = ['devel']
 upstreamurl = "http://expect.nist.gov/"
 arch = "x86_64"
-size = "288260"
-usize = "773405"
-sha1sum = "15ea4c9b99a5db8aa03e9f93167c7a6074c63528"
+size = "283096"
+usize = "731350"
+sha1sum = "5cca30f0454f22ae873d9c8968ff2d95d0a1d6d3"
 depends = "['glibc>=2.34', 'tcl>=8.6.6-3']"
 reverse_depends = "['courier-authlib']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.22.6-1"
-version = "1.22.6-1"
+title = "go 1.22.6-2"
+version = "1.22.6-2"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-08-07T19:56:54"
+date = "2024-08-13T12:49:52"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "143880432"
-usize = "312156995"
-sha1sum = "caeec88b56e9f8aa916a5ec6eacd3677cc9f4e61"
+size = "143049904"
+usize = "304572134"
+sha1sum = "48f2495d2a53ccc96253b56594d5eebb7c250deb"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++

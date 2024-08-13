@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liboil 0.3.17-8"
-version = "0.3.17-8"
+title = "liboil 0.3.17-9"
+version = "0.3.17-9"
 description = "Library of Optimized Inner Loops"
-date = "2021-12-26T12:27:53"
+date = "2024-08-13T13:10:19"
 aliases = "/packages/5480"
 categories = ['lib']
 upstreamurl = "http://liboil.freedesktop.org/"
 arch = "x86_64"
-size = "180428"
-usize = "1850910"
-sha1sum = "20c48159974de7339f98d4d094865c88b74cd7e4"
+size = "160232"
+usize = "1671727"
+sha1sum = "9ca400788adc77260276e3be1e931528b3780a3d"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 

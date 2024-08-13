@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dhcpcd 10.0.8-1"
-version = "10.0.8-1"
+title = "dhcpcd 10.0.8-2"
+version = "10.0.8-2"
 description = "A DHCP client daemon"
-date = "2024-05-25T11:42:06"
+date = "2024-08-13T12:26:10"
 aliases = "/packages/2363"
 categories = ['base']
 upstreamurl = "https://roy.marples.name/projects/dhcpcd/"
 arch = "x86_64"
-size = "210968"
-usize = "515518"
-sha1sum = "8f9d2c97e9d0667712d751faf90ac593c9904187"
-depends = "['glibc>=2.34', 'libudev>=242']"
+size = "204980"
+usize = "472518"
+sha1sum = "c471a8b182cd9cb5b7b585479dc074673a5c59aa"
+depends = "['glibc>=2.34', 'libudev>=242', 'openssl']"
 +++
 ### Description: 
 A DHCP client daemon

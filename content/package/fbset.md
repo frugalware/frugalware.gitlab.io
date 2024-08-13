@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fbset 2.1-12"
-version = "2.1-12"
+title = "fbset 2.1-13"
+version = "2.1-13"
 description = "Show and modify frame buffer device settings"
-date = "2021-10-06T10:06:04"
+date = "2024-08-13T12:33:49"
 aliases = "/packages/2372"
 categories = ['base']
 upstreamurl = "http://home.tvd.be/cr26864/Linux/fbdev/"
 arch = "x86_64"
-size = "25320"
-usize = "86384"
-sha1sum = "3d2f41bb3d0d5fe59d2d2cbe19eadae5ebe34588"
+size = "24444"
+usize = "74488"
+sha1sum = "c8ed0555757758506a7a322d1a1c182a54893576"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
