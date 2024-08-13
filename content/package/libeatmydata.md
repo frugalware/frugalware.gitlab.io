@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "libeatmydata 131-1"
-version = "131-1"
+title = "libeatmydata 131-3"
+version = "131-3"
 description = "Library and utilities designed to disable fsync and friends."
-date = "2024-08-12T12:23:55"
+date = "2024-08-13T08:41:52"
 aliases = "/packages/221566"
-categories = ['lib-extra']
+categories = ['base']
 upstreamurl = "https://github.com/stewartsmith/libeatmydata"
 arch = "x86_64"
-size = "17200"
+size = "16800"
 usize = "49818"
-sha1sum = "e4cce2589025f63c410474faa1d3ad4bcf51333b"
+sha1sum = "071f2f35491c815da53284b56b699abdc147e7ed"
 depends = "['glibc']"
+reverse_depends = "['pacman-g2']"
 +++
 ### Description: 
 Library and utilities designed to disable fsync and friends.
