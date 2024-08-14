@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ff 129.0-1"
-version = "129.0-1"
+title = "firefox-ff 129.0.1-1"
+version = "129.0.1-1"
 description = "Fulah language support for Firefox"
-date = "2024-08-08T13:51:50"
+date = "2024-08-14T08:01:48"
 aliases = "/packages/153741"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "414348"
-usize = "478241"
-sha1sum = "0576329f215fa32cc3b31bead46517e1d329421a"
-depends = "['firefox>=129.0']"
+size = "414616"
+usize = "478248"
+sha1sum = "85919bdde04bbac7ee275b6c3fe62b6130a88ba3"
+depends = "['firefox>=129.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

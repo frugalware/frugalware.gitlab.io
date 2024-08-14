@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "170400"
 usize = "475336"
 sha1sum = "fc744b0db99f526704b4c8b115985ceba28efacd"
-depends = "['glibc>=2.35', 'hwdata', 'kmod>=25-2', 'libudev>=242']"
+depends = "['glibc>=2.35', 'hwdata', 'libudev>=242']"
 reverse_depends = "['chromium-browser', 'cpupower', 'efibootmgr', 'hexchat', 'hsakmt-roct', 'hw-probe', 'inxi', 'kinfocenter', 'kinfocenter5', 'kvm', 'net-snmp', 'x86_energy_perf_policy']"
 +++
 ### Description: 

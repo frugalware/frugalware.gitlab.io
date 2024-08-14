@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "63184"
 usize = "218288"
 sha1sum = "af68e90c3065a68b13218c695c03fdef771b3869"
-depends = "['kmod', 'libdaxctl', 'libsystemd', 'libuuid']"
+depends = "['libdaxctl', 'libsystemd', 'libuuid']"
 reverse_depends = "['libblockdev', 'ndctl']"
 +++
 ### Description: 

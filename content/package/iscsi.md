@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "428564"
 usize = "1487862"
 sha1sum = "0e394df924636232cda8de41fed00cb1e0b32a37"
-depends = "['kmod', 'libsystemd', 'open-isns>=0.102']"
+depends = "['libsystemd', 'open-isns>=0.102']"
 reverse_depends = "['dracut-network', 'libvirt']"
 +++
 ### Description: 

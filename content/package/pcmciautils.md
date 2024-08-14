@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "27432"
 usize = "81949"
 sha1sum = "d4e2d56f36283cf8d52d8f6fa390a6c23b74b620"
-depends = "['kmod>=25-2']"
+depends = "[]"
 +++
 ### Description: 
 Contains the initialization tools necessary to allow the PCMCIA subsystem to behave as every other hotpluggable bus system.

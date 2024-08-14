@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "87436592"
 usize = "96410675"
 sha1sum = "8b9a268af1bd50a72d0294a68e00db6631c5d955"
-depends = "['kmod', 'sed']"
+depends = "['sed']"
 reverse_depends = "['kernel-lts-initrd']"
 +++
 ### Description: 

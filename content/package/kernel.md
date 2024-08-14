@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "136565872"
 usize = "148220968"
 sha1sum = "a86c403331e823de2b899c3497be9e9d0037576c"
-depends = "['kmod', 'sed']"
+depends = "['sed']"
 reverse_depends = "['acpi_call', 'ddcci-driver-linux', 'evdi', 'ieee80211', 'intel-ucode', 'ipw2200', 'ipw3945', 'kernel-initrd', 'nvidia', 'openrazer', 'r8168', 'rtl8821ce', 'shfs', 'submount', 'sysdig', 'tp-smapi', 'v4l2loopback', 'vhba-module', 'virtualbox', 'virtualbox-guest-additions', 'virtualbox-modules', 'zenpower', 'zfs']"
 +++
 ### Description: 

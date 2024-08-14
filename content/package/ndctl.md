@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "304576"
 usize = "756244"
 sha1sum = "c5e0b5199e299d4efe9ee5a3424862289fe254ed"
-depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=79', 'libndctl>=79', 'libtracefs', 'libudev>=242', 'libuuid>=2.40.2']"
+depends = "['json-c>=0.14', 'keyutils', 'libdaxctl>=79', 'libndctl>=79', 'libtracefs', 'libudev>=242', 'libuuid>=2.40.2']"
 +++
 ### Description: 
 Utility for managing the libnvdimm sub-system in the Linux kernel

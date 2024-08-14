@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "224956"
 usize = "865385"
 sha1sum = "ffd0987c5339a890a23802ca3c3898ddbcd7f180"
-depends = "['coreutils', 'dmidecode', 'file', 'gawk', 'grep', 'hddtemp', 'iproute2', 'kmod', 'lmsensors', 'pciutils', 'perl', 'sed', 'sudo', 'usbutils']"
+depends = "['coreutils', 'dmidecode', 'file', 'gawk', 'grep', 'hddtemp', 'iproute2', 'lmsensors', 'pciutils', 'perl', 'sed', 'sudo', 'usbutils']"
 reverse_depends = "['hw-probe']"
 +++
 ### Description: 

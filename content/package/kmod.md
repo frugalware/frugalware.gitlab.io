@@ -4,7 +4,7 @@ title = "kmod 33-1"
 version = "33-1"
 description = "Utilities for inserting and removing modules from the Linux kernel"
 date = "2024-08-14T07:37:41"
-aliases = "/packages/137173"
+aliases = "/packages/221568"
 categories = ['base']
 upstreamurl = "http://kernel.org"
 arch = "x86_64"
@@ -12,7 +12,6 @@ size = "138068"
 usize = "363178"
 sha1sum = "0285d85201c99a2cb20d199d6a332ed9b1407fe4"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd>=1.4.4']"
-reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'pciutils', 'pcmciautils', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
 ### Description: 
 Utilities for inserting and removing modules from the Linux kernel

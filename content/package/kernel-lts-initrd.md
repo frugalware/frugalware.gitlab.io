@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2608"
 usize = "0"
 sha1sum = "4e19e95cb2395062001944ef1f49a18e7d5432d8"
-depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dracut>=056', 'e2fsprogs>=1.46.5', 'frugalware>=2.1', 'gnupg2', 'intel-ucode>=20220809', 'kernel-lts=6.1.104-2', 'keyutils>=1.5.9-5', 'kmod>=30', 'less', 'linux-firmware>=20230404', 'lvm2>=2.03.16', 'mdadm>=4.0', 'scriptlet-core', 'systemd>=253.3', 'tar', 'terminus-font-console', 'xfsprogs>=6.0.0', 'xz']"
+depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dracut>=056', 'e2fsprogs>=1.46.5', 'frugalware>=2.1', 'gnupg2', 'intel-ucode>=20220809', 'kernel-lts=6.1.104-2', 'keyutils>=1.5.9-5', 'less', 'linux-firmware>=20230404', 'lvm2>=2.03.16', 'mdadm>=4.0', 'scriptlet-core', 'systemd>=253.3', 'tar', 'terminus-font-console', 'xfsprogs>=6.0.0', 'xz']"
 +++
 ### Description: 
 The initrd for the Frugalware Linux Kernel.

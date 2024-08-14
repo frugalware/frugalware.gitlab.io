@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-rm 129.0-1"
-version = "129.0-1"
+title = "firefox-rm 129.0.1-1"
+version = "129.0.1-1"
 description = "Romansh language support for Firefox"
-date = "2024-08-08T13:51:50"
+date = "2024-08-14T08:01:48"
 aliases = "/packages/73648"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "566764"
-usize = "620396"
-sha1sum = "0bad7467a99994a47c05915dd60de8589468bdfc"
-depends = "['firefox>=129.0']"
+size = "567500"
+usize = "620388"
+sha1sum = "e868977034d05d16625df7c2de4b9439a9c4af6f"
+depends = "['firefox>=129.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

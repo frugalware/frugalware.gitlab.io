@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sat 129.0-1"
-version = "129.0-1"
+title = "firefox-sat 129.0.1-1"
+version = "129.0.1-1"
 description = "Santali language support for Firefox"
-date = "2024-08-08T13:51:50"
+date = "2024-08-14T08:01:48"
 aliases = "/packages/221132"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "618844"
+size = "618780"
 usize = "673370"
-sha1sum = "8bf081a5881943f6ad29945755fa06aaaffcc148"
-depends = "['firefox>=129.0']"
+sha1sum = "3096f2f07d1c47e7a6724041e05d21f14b37b114"
+depends = "['firefox>=129.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

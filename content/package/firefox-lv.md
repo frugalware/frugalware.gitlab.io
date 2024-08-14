@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-lv 129.0-1"
-version = "129.0-1"
+title = "firefox-lv 129.0.1-1"
+version = "129.0.1-1"
 description = "Latvian language support for Firefox"
-date = "2024-08-08T13:51:50"
+date = "2024-08-14T08:01:48"
 aliases = "/packages/73639"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "520084"
-usize = "576570"
-sha1sum = "970fe36fe73055772a292bb75559b3243aefc474"
-depends = "['firefox>=129.0']"
+size = "520156"
+usize = "576564"
+sha1sum = "c939e8225079cd3cb4848f1d311d7844995d1011"
+depends = "['firefox>=129.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "193188"
 usize = "426436"
 sha1sum = "7b2ddf6875ea5d050794e02f4b71299345195505"
-depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=256.4']"
+depends = "['cryptsetup-luks', 'libidn2', 'libseccomp', 'libsystemd>=256.4']"
 +++
 ### Description: 
 Spawn a command or OS in a light-weight container.
