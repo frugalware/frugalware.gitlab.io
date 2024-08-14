@@ -12,7 +12,7 @@ size = "1329148"
 usize = "3629067"
 sha1sum = "a839b4659da00cb98b6e2b906cfa02593c3cc18d"
 depends = "['mpfr>=4.0.2-3', 'ncurses>=6.1', 'readline>=8.0-3']"
-reverse_depends = "['autoconf', 'autoconf213', 'backupninja', 'go', 'inxi', 'parted', 'prettyping', 'quilt', 'texinfo']"
+reverse_depends = "['autoconf', 'backupninja', 'go', 'inxi', 'parted', 'prettyping', 'quilt', 'texinfo']"
 +++
 ### Description: 
 Gnu version of awk

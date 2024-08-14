@@ -12,7 +12,7 @@ size = "30004"
 usize = "75349"
 sha1sum = "bb8131925e4b540bcf581fd37751e06bcbe7c52c"
 depends = "['sdl>=1.2.15-4']"
-reverse_depends = "['assaultcube', 'lincity-ng', 'manaplus', 'mlt-sdl', 'netpanzer', 'opencity', 'vlc-sdlimage']"
+reverse_depends = "['lincity-ng', 'manaplus', 'mlt-sdl', 'netpanzer', 'opencity', 'vlc-sdlimage']"
 +++
 ### Description: 
 Image loading library for Simple DirectMedia Layer 1.2
