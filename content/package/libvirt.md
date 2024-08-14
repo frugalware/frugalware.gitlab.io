@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt 10.4.0-1"
-version = "10.4.0-1"
+title = "libvirt 10.6.0-1"
+version = "10.6.0-1"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2024-06-26T13:48:10"
+date = "2024-08-14T14:09:08"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "5727112"
-usize = "29295022"
-sha1sum = "15e9caa00e65f8012500e34dd61bb32133c0877d"
+size = "5715344"
+usize = "29399762"
+sha1sum = "b5b09cc966cb7b2d83d2c46df30f89dc302ab2af"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3', 'qt-virt-manager']"
 +++
@@ -123,16 +123,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libnss_libvirt_guest.so.2
 * /usr/lib/libvirt-admin.so
 * /usr/lib/libvirt-admin.so.0
-* /usr/lib/libvirt-admin.so.0.10004.0
+* /usr/lib/libvirt-admin.so.0.10006.0
 * /usr/lib/libvirt-lxc.so
 * /usr/lib/libvirt-lxc.so.0
-* /usr/lib/libvirt-lxc.so.0.10004.0
+* /usr/lib/libvirt-lxc.so.0.10006.0
 * /usr/lib/libvirt-qemu.so
 * /usr/lib/libvirt-qemu.so.0
-* /usr/lib/libvirt-qemu.so.0.10004.0
+* /usr/lib/libvirt-qemu.so.0.10006.0
 * /usr/lib/libvirt.so
 * /usr/lib/libvirt.so.0
-* /usr/lib/libvirt.so.0.10004.0
+* /usr/lib/libvirt.so.0.10006.0
 * /usr/lib/libvirt/connection-driver/libvirt_driver_ch.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_interface.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so
@@ -265,9 +265,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/augeas/lenses/virtsecretd.aug
 * /usr/share/augeas/lenses/virtstoraged.aug
 * /usr/share/augeas/lenses/virtvboxd.aug
-* /usr/share/doc/libvirt-10.4.0/COPYING
-* /usr/share/doc/libvirt-10.4.0/COPYING.LESSER
-* /usr/share/doc/libvirt-10.4.0/README.rst
+* /usr/share/doc/libvirt-10.6.0/COPYING
+* /usr/share/doc/libvirt-10.6.0/COPYING.LESSER
+* /usr/share/doc/libvirt-10.6.0/README.rst
 * /usr/share/doc/libvirt/examples/c/admin/client_close.c
 * /usr/share/doc/libvirt/examples/c/admin/client_info.c
 * /usr/share/doc/libvirt/examples/c/admin/client_limits.c

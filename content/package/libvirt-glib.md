@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt-glib 4.0.0-2"
-version = "4.0.0-2"
+title = "libvirt-glib 5.0.0-1"
+version = "5.0.0-1"
 description = "GLib and GObject mapping"
-date = "2023-07-10T09:21:20"
+date = "2024-08-14T14:21:11"
 aliases = "/packages/153042"
 categories = ['xlib-extra']
 upstreamurl = "https://libvirt.org"
 arch = "x86_64"
-size = "239944"
-usize = "2305447"
-sha1sum = "08bcfe8fd55d6fce9a927450633c212c769d40ff"
+size = "234472"
+usize = "2270879"
+sha1sum = "0fbaf7ad20e4336fafd60f06ec08fb64f71dbd18"
 depends = "['curl', 'libvirt>=9.5.0']"
 reverse_depends = "['virt-manager']"
 +++
@@ -32,6 +32,7 @@ GLib and GObject mapping
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-address-pci.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-address-usb.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-address.h
+* /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-audio.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-capabilities-os.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-capabilities.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-channel.h
@@ -52,6 +53,7 @@ GLib and GObject mapping
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-disk-driver.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-disk.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-filesys.h
+* /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-graphics-dbus.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-graphics-desktop.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-graphics-rdp.h
 * /usr/include/libvirt-gconfig-1.0/libvirt-gconfig/libvirt-gconfig-domain-graphics-sdl.h
@@ -132,40 +134,24 @@ GLib and GObject mapping
 * /usr/lib/girepository-1.0/LibvirtGObject-1.0.typelib
 * /usr/lib/libvirt-gconfig-1.0.so
 * /usr/lib/libvirt-gconfig-1.0.so.0
-* /usr/lib/libvirt-gconfig-1.0.so.0.4000.0
+* /usr/lib/libvirt-gconfig-1.0.so.0.5000.0
 * /usr/lib/libvirt-glib-1.0.so
 * /usr/lib/libvirt-glib-1.0.so.0
-* /usr/lib/libvirt-glib-1.0.so.0.4000.0
+* /usr/lib/libvirt-glib-1.0.so.0.5000.0
 * /usr/lib/libvirt-gobject-1.0.so
 * /usr/lib/libvirt-gobject-1.0.so.0
-* /usr/lib/libvirt-gobject-1.0.so.0.4000.0
+* /usr/lib/libvirt-gobject-1.0.so.0.5000.0
 * /usr/lib/pkgconfig/libvirt-gconfig-1.0.pc
 * /usr/lib/pkgconfig/libvirt-glib-1.0.pc
 * /usr/lib/pkgconfig/libvirt-gobject-1.0.pc
-* /usr/share/doc/libvirt-glib-4.0.0/AUTHORS
-* /usr/share/doc/libvirt-glib-4.0.0/COPYING
-* /usr/share/doc/libvirt-glib-4.0.0/HACKING
-* /usr/share/doc/libvirt-glib-4.0.0/NEWS
-* /usr/share/doc/libvirt-glib-4.0.0/README
+* /usr/share/doc/libvirt-glib-5.0.0/AUTHORS
+* /usr/share/doc/libvirt-glib-5.0.0/COPYING
+* /usr/share/doc/libvirt-glib-5.0.0/HACKING
+* /usr/share/doc/libvirt-glib-5.0.0/NEWS
+* /usr/share/doc/libvirt-glib-5.0.0/README
 * /usr/share/gir-1.0/LibvirtGConfig-1.0.gir
 * /usr/share/gir-1.0/LibvirtGLib-1.0.gir
 * /usr/share/gir-1.0/LibvirtGObject-1.0.gir
-* /usr/share/locale/ca/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/cs/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/de/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/es/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/fi/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/fr/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/hi/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/id/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/it/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/ja/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/pl/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/ru/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/tr/LC_MESSAGES/libvirt-glib.mo
-* /usr/share/locale/uk/LC_MESSAGES/libvirt-glib.mo
 * /usr/share/vala/vapi/libvirt-gconfig-1.0.deps
 * /usr/share/vala/vapi/libvirt-gconfig-1.0.vapi
 * /usr/share/vala/vapi/libvirt-glib-1.0.deps

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd 256.4-1"
-version = "256.4-1"
+title = "systemd 256.4-2"
+version = "256.4-2"
 description = "A System and Service Manager"
-date = "2024-07-24T18:47:30"
+date = "2024-08-14T14:29:27"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4590556"
-usize = "20732254"
-sha1sum = "3081822eabf0b2773bec577fced01bdba757cac9"
-depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'libidn2', 'libseccomp', 'libsystemd>=256.4', 'libudev>=256.4', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=256.4', 'systemd-sysvinit']"
+size = "4584164"
+usize = "20745215"
+sha1sum = "b5d11c57e230215fbb452a58a3766c69859cee04"
+depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=256.4', 'libudev>=256.4', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=256.4', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
 ### Description: 
