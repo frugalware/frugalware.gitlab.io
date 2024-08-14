@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "23320"
 usize = "21920"
 sha1sum = "544f502473766f0a685a4a0e4cdbf319de64d755"
-depends = "['libvlc>=3.0.21', 'mpeg2dec']"
+depends = "['libvlc>=3.0.21']"
 +++
 ### Description: 
 vlc MPEG-1 and MPEG2 support

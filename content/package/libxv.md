@@ -12,7 +12,7 @@ size = "51700"
 usize = "117366"
 sha1sum = "684de9cbdee7a307d0f92364e5a454dfe98e91ce"
 depends = "['libx11>=1.6.5-2', 'libxau>=1.0.8-3', 'libxext>=1.3.3-3']"
-reverse_depends = "['ffmpeg', 'gst1-plugins-base', 'kdetv', 'libxvmc', 'mpeg2dec', 'mpv', 'xvinfo']"
+reverse_depends = "['ffmpeg', 'gst1-plugins-base', 'kdetv', 'libxvmc', 'mpv', 'xvinfo']"
 license = "GPL2"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "16668"
 usize = "31336"
 sha1sum = "a6234df50f321adcfab470e32154fe0b67854e63"
-depends = "['gst1-plugins-base>=1.24.6', 'gst1-plugins-ugly>=1.24.6', 'libffi>=3.2.1-2', 'mpeg2dec>=0.5.1-4']"
+depends = "['gst1-plugins-base>=1.24.6', 'gst1-plugins-ugly>=1.24.6', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer mpeg2dec plugin (Ugly).
