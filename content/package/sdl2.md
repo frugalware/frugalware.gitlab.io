@@ -12,7 +12,7 @@ size = "907752"
 usize = "4368041"
 sha1sum = "e437dfdfa07ae903ebb16599460bf760fb66764c"
 depends = "['glibc>=2.34']"
-reverse_depends = "['crawl', 'crawl-tiles', 'faudio', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'guvcview', 'jazz2', 'libcamera-tools', 'linuxconsole', 'love', 'mednafen', 'naev', 'openal', 'opendiablo2', 'openscenegraph', 'qemu', 'qt5-gamepad', 'scrcpy', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_net', 'sdl2_ttf', 'sherlock265', 'smpeg2', 'solarus', 'spring', 'stella', 'ultrastardx', 'v4l-utils', 'xonotic']"
+reverse_depends = "['crawl', 'crawl-tiles', 'faudio', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'guvcview', 'jazz2', 'libcamera-tools', 'linuxconsole', 'love', 'mednafen', 'naev', 'openal', 'opendiablo2', 'openscenegraph', 'openttd', 'qemu', 'qt5-gamepad', 'scrcpy', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_net', 'sdl2_ttf', 'sherlock265', 'smpeg2', 'solarus', 'spring', 'stella', 'ultrastardx', 'v4l-utils', 'xonotic']"
 +++
 ### Description: 
 Simple DirectMedia Layer library v2
