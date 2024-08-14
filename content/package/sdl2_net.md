@@ -12,7 +12,7 @@ size = "17184"
 usize = "64508"
 sha1sum = "3fba234fe3620a2aedc537eaafbaf48970e939f2"
 depends = "['sdl2']"
-reverse_depends = "['maxr', 'opendiablo2', 'scummvm']"
+reverse_depends = "['dosbox-x', 'maxr', 'opendiablo2', 'scummvm']"
 +++
 ### Description: 
 A small sample cross-platform networking library
