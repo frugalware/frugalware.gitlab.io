@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencl-rusticl 24.2.0-1"
-version = "24.2.0-1"
+title = "opencl-rusticl 24.2.0-2"
+version = "24.2.0-2"
 description = "Mesa OpenCL rusticl"
-date = "2024-08-15T14:16:20"
+date = "2024-08-15T15:28:59"
 aliases = "/packages/220861"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "8840032"
+size = "8839512"
 usize = "36753804"
-sha1sum = "f5a8cf407569775535cdeda077e2caaa8bf78045"
+sha1sum = "39bc993991acd5017c2f725f411c94d7690d7154"
 depends = "['libclc', 'spirv-llvm-translator']"
 +++
 ### Description: 
