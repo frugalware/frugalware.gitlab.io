@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups-filters 2.0.0-3"
-version = "2.0.0-3"
+title = "cups-filters 2.0.1-1"
+version = "2.0.1-1"
 description = "Backends, filters and other software from CUPS distribution."
-date = "2024-04-30T17:46:48"
+date = "2024-08-15T17:54:57"
 aliases = "/packages/168932"
 categories = ['xapps']
 upstreamurl = "https://github.com/OpenPrinting/cups-filters"
 arch = "x86_64"
-size = "188128"
-usize = "1223440"
-sha1sum = "d2fb730ba7bd1309e0746d94d71c9a98a23f2fe9"
+size = "189784"
+usize = "1008306"
+sha1sum = "a676ae3911684d126a0dfc246192a7a3799f552f"
 depends = "['libppd']"
 reverse_depends = "['cups', 'hplip-driver', 'print-manager']"
 +++
@@ -58,17 +58,17 @@ Backends, filters and other software from CUPS distribution.
 * /usr/share/cups/mime/cupsfilters-universal.convs
 * /usr/share/cups/mime/cupsfilters.convs
 * /usr/share/cups/mime/cupsfilters.types
-* /usr/share/doc/cups-filters-2.0.0/ABOUT-NLS
-* /usr/share/doc/cups-filters-2.0.0/AUTHORS
-* /usr/share/doc/cups-filters-2.0.0/CHANGES-1.x.md
-* /usr/share/doc/cups-filters-2.0.0/CHANGES.md
-* /usr/share/doc/cups-filters-2.0.0/CONTRIBUTING.md
-* /usr/share/doc/cups-filters-2.0.0/COPYING
-* /usr/share/doc/cups-filters-2.0.0/DEVELOPING.md
-* /usr/share/doc/cups-filters-2.0.0/INSTALL
-* /usr/share/doc/cups-filters-2.0.0/LICENSE
-* /usr/share/doc/cups-filters-2.0.0/NOTICE
-* /usr/share/doc/cups-filters-2.0.0/README.md
+* /usr/share/doc/cups-filters-2.0.1/ABOUT-NLS
+* /usr/share/doc/cups-filters-2.0.1/AUTHORS
+* /usr/share/doc/cups-filters-2.0.1/CHANGES-1.x.md
+* /usr/share/doc/cups-filters-2.0.1/CHANGES.md
+* /usr/share/doc/cups-filters-2.0.1/CONTRIBUTING.md
+* /usr/share/doc/cups-filters-2.0.1/COPYING
+* /usr/share/doc/cups-filters-2.0.1/DEVELOPING.md
+* /usr/share/doc/cups-filters-2.0.1/INSTALL
+* /usr/share/doc/cups-filters-2.0.1/LICENSE
+* /usr/share/doc/cups-filters-2.0.1/NOTICE
+* /usr/share/doc/cups-filters-2.0.1/README.md
 * /usr/share/man/man1/driverless.1.gz
 * /usr/share/man/man1/foomatic-rip.1.gz
 * /usr/share/ppd/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd
