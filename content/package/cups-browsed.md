@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups-browsed 2.0.0-1"
-version = "2.0.0-1"
+title = "cups-browsed 2.0.1-1"
+version = "2.0.1-1"
 description = "a helper daemon to browse the network for remote CUPS queues and IPP network printers"
-date = "2024-04-30T12:00:34"
+date = "2024-08-15T18:49:53"
 aliases = "/packages/221457"
 categories = ['network']
 upstreamurl = "https://github.com/OpenPrinting/cups-browsed"
 arch = "x86_64"
-size = "168228"
-usize = "594372"
-sha1sum = "41857e4ac1073fe22bcf2abef6b6dbfa12aa8a82"
+size = "169636"
+usize = "582709"
+sha1sum = "0fa4b43e32bdf657cc3b3ecc09b8560eafcba0ce"
 depends = "['avahi-glib', 'libppd']"
 reverse_depends = "['cups']"
 +++
@@ -30,16 +30,16 @@ a helper daemon to browse the network for remote CUPS queues and IPP network pri
 * /usr/lib/cups/backend/implicitclass
 * /usr/lib/systemd/system/cups-browsed.service
 * /usr/sbin/cups-browsed
-* /usr/share/doc/cups-browsed-2.0.0/ABOUT-NLS
-* /usr/share/doc/cups-browsed-2.0.0/AUTHORS
-* /usr/share/doc/cups-browsed-2.0.0/CHANGES-1.x.md
-* /usr/share/doc/cups-browsed-2.0.0/CHANGES.md
-* /usr/share/doc/cups-browsed-2.0.0/CONTRIBUTING.md
-* /usr/share/doc/cups-browsed-2.0.0/COPYING
-* /usr/share/doc/cups-browsed-2.0.0/DEVELOPING.md
-* /usr/share/doc/cups-browsed-2.0.0/INSTALL
-* /usr/share/doc/cups-browsed-2.0.0/LICENSE
-* /usr/share/doc/cups-browsed-2.0.0/NOTICE
-* /usr/share/doc/cups-browsed-2.0.0/README.md
+* /usr/share/doc/cups-browsed-2.0.1/ABOUT-NLS
+* /usr/share/doc/cups-browsed-2.0.1/AUTHORS
+* /usr/share/doc/cups-browsed-2.0.1/CHANGES-1.x.md
+* /usr/share/doc/cups-browsed-2.0.1/CHANGES.md
+* /usr/share/doc/cups-browsed-2.0.1/CONTRIBUTING.md
+* /usr/share/doc/cups-browsed-2.0.1/COPYING
+* /usr/share/doc/cups-browsed-2.0.1/DEVELOPING.md
+* /usr/share/doc/cups-browsed-2.0.1/INSTALL
+* /usr/share/doc/cups-browsed-2.0.1/LICENSE
+* /usr/share/doc/cups-browsed-2.0.1/NOTICE
+* /usr/share/doc/cups-browsed-2.0.1/README.md
 * /usr/share/man/man5/cups-browsed.conf.5.gz
 * /usr/share/man/man8/cups-browsed.8.gz
