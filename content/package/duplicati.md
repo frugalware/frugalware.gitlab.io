@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.0.9.102-2"
-version = "2.0.9.102-2"
+title = "duplicati 2.0.9.103-1"
+version = "2.0.9.103-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-08-04T13:54:10"
+date = "2024-08-16T09:41:48"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "56930568"
-usize = "180048877"
-sha1sum = "b23469128b46f184e8225e85e6eb0eb3c3921920"
+size = "56942396"
+usize = "180063893"
+sha1sum = "5695640cb65e176d829c34aa6de911f0d3b25d5e"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -232,6 +232,13 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/licenses/SSH.NET/licensedata.json
 * /opt/duplicati/licenses/SshNet.Security.Cryptography/Homepage.txt
 * /opt/duplicati/licenses/SshNet.Security.Cryptography/License.txt
+* /opt/duplicati/licenses/SshNet.Security.Cryptography/licensedata.json
+* /opt/duplicati/licenses/Tencentyun/download.txt
+* /opt/duplicati/licenses/Tencentyun/LICENSE.txt
+* /opt/duplicati/licenses/Tencentyun/licensedata.json
+* /opt/duplicati/licenses/uplink.NET/Homepage.txt
+* /opt/duplicati/licenses/uplink.NET/license.txt
+* /opt/duplicati/licenses/uplink.NET/licensedata.json
 * /opt/duplicati/licenses/WindowsAzure/download.txt
 * /opt/duplicati/licenses/WindowsAzure/license.txt
 * /opt/duplicati/licenses/WindowsAzure/licensedata.json
