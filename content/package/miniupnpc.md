@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "miniupnpc 2.1-2"
-version = "2.1-2"
+title = "miniupnpc 2.2.8-1"
+version = "2.2.8-1"
 description = "A small UPnP client library/tool to access Internet Gateway Devices"
-date = "2024-05-13T21:10:47"
+date = "2024-08-16T18:56:31"
 aliases = "/packages/136965"
 categories = ['network-extra']
 upstreamurl = "http://miniupnp.free.fr"
 arch = "x86_64"
-size = "251144"
-usize = "376680"
-sha1sum = "34bc42ba9481d539c95ceafd92117978ec357d61"
+size = "262664"
+usize = "391631"
+sha1sum = "934653ea817cbc08a290bc03f5fa319350a915bb"
 depends = "['glibc']"
 reverse_depends = "['dante', 'eiskaltdc', 'transmission-cli', 'warzone2100']"
 +++
@@ -19,6 +19,7 @@ A small UPnP client library/tool to access Internet Gateway Devices
 
 ### Files: 
 * /usr/bin/external-ip
+* /usr/bin/upnp-listdevices
 * /usr/bin/upnpc
 * /usr/include/miniupnpc/igd_desc_parse.h
 * /usr/include/miniupnpc/miniupnpc.h
@@ -32,10 +33,10 @@ A small UPnP client library/tool to access Internet Gateway Devices
 * /usr/include/miniupnpc/upnpreplyparse.h
 * /usr/lib/libminiupnpc.a
 * /usr/lib/libminiupnpc.so
-* /usr/lib/libminiupnpc.so.17
+* /usr/lib/libminiupnpc.so.18
 * /usr/lib/pkgconfig/miniupnpc.pc
-* /usr/share/doc/miniupnpc-2.1/LICENSE
-* /usr/share/doc/miniupnpc-2.1/README
-* /usr/share/doc/miniupnpc-2.1/VERSION
+* /usr/share/doc/miniupnpc-2.2.8/LICENSE
+* /usr/share/doc/miniupnpc-2.2.8/README
+* /usr/share/doc/miniupnpc-2.2.8/VERSION
 * /usr/share/man/man3/miniupnpc.3
 * /usr/share/man/man3/miniupnpc.3.gz

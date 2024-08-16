@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnutls 3.8.6-1"
-version = "3.8.6-1"
+title = "gnutls 3.8.7-1"
+version = "3.8.7-1"
 description = "A library which provides a secure layer over a reliable transport layer"
-date = "2024-07-13T19:44:09"
+date = "2024-08-16T18:21:23"
 aliases = "/packages/3065"
 categories = ['apps']
 upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
-size = "3315476"
-usize = "8065163"
-sha1sum = "a8d40661b669f9a5b6b881ec798675443e30bcd6"
+size = "3230468"
+usize = "7484531"
+sha1sum = "dd13cf105448e3e9e5bbd854d6ec065d5e61e45a"
 depends = "['brotli', 'libidn2>=1.35', 'libunistring>=1.1', 'nettle>=3.6', 'p11-kit>=0.23.2-10', 'zstd']"
 reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'ffmpeg4.4', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'net6', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
 +++
@@ -49,29 +49,29 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/lib/libgnutls-openssl.so.27.0.2
 * /usr/lib/libgnutls.so
 * /usr/lib/libgnutls.so.30
-* /usr/lib/libgnutls.so.30.40.0
+* /usr/lib/libgnutls.so.30.40.1
 * /usr/lib/libgnutlsxx.so
 * /usr/lib/libgnutlsxx.so.30
 * /usr/lib/libgnutlsxx.so.30.0.0
 * /usr/lib/pkgconfig/gnutls.pc
-* /usr/share/doc/gnutls-3.8.6/AUTHORS
-* /usr/share/doc/gnutls-3.8.6/ChangeLog
-* /usr/share/doc/gnutls-3.8.6/gnutls-client-server-use-case.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-crypto-layers.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-handshake-sequence.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-handshake-state.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-internals.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-layers.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-logo.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-modauth.png
-* /usr/share/doc/gnutls-3.8.6/gnutls-x509.png
-* /usr/share/doc/gnutls-3.8.6/INSTALL.md
-* /usr/share/doc/gnutls-3.8.6/LICENSE
-* /usr/share/doc/gnutls-3.8.6/NEWS
-* /usr/share/doc/gnutls-3.8.6/pkcs11-vision.png
-* /usr/share/doc/gnutls-3.8.6/README.md
-* /usr/share/doc/gnutls-3.8.6/RELEASES.md
-* /usr/share/doc/gnutls-3.8.6/THANKS
+* /usr/share/doc/gnutls-3.8.7/AUTHORS
+* /usr/share/doc/gnutls-3.8.7/ChangeLog
+* /usr/share/doc/gnutls-3.8.7/gnutls-client-server-use-case.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-crypto-layers.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-handshake-sequence.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-handshake-state.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-internals.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-layers.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-logo.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-modauth.png
+* /usr/share/doc/gnutls-3.8.7/gnutls-x509.png
+* /usr/share/doc/gnutls-3.8.7/INSTALL.md
+* /usr/share/doc/gnutls-3.8.7/LICENSE
+* /usr/share/doc/gnutls-3.8.7/NEWS
+* /usr/share/doc/gnutls-3.8.7/pkcs11-vision.png
+* /usr/share/doc/gnutls-3.8.7/README.md
+* /usr/share/doc/gnutls-3.8.7/RELEASES.md
+* /usr/share/doc/gnutls-3.8.7/THANKS
 * /usr/share/info/gnutls-client-server-use-case.png.gz
 * /usr/share/info/gnutls-crypto-layers.png.gz
 * /usr/share/info/gnutls-handshake-sequence.png.gz
@@ -90,24 +90,6 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/share/info/gnutls.info-7.gz
 * /usr/share/info/gnutls.info.gz
 * /usr/share/info/pkcs11-vision.png.gz
-* /usr/share/locale/cs/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/de/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/eo/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/es/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/fi/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/fr/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/it/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/ka/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/ms/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/nl/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/pl/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/ro/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/sr/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/sv/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/uk/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/vi/LC_MESSAGES/gnutls.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo
 * /usr/share/man/man1/certtool.1.gz
 * /usr/share/man/man1/gnutls-cli-debug.1.gz
 * /usr/share/man/man1/gnutls-cli.1.gz

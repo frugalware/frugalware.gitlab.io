@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fox 1.7.84-1"
-version = "1.7.84-1"
+title = "fox 1.7.85-1"
+version = "1.7.85-1"
 description = "FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively."
-date = "2024-07-22T11:48:25"
+date = "2024-08-16T18:39:55"
 aliases = "/packages/3598"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fox-toolkit.org/"
 arch = "x86_64"
-size = "4305104"
-usize = "11307873"
-sha1sum = "56403c785ef5adf6155f1d3d1f206d43eb7f8903"
+size = "4345620"
+usize = "11438023"
+sha1sum = "c74da499780726572d93df9c3961736679d575eb"
 depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff', 'libxcursor', 'libxft', 'libxi', 'libxrandr']"
 +++
 ### Description: 
@@ -115,6 +115,7 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXCP869Codec.h
 * /usr/include/fox-1.7/FXCP874Codec.h
 * /usr/include/fox-1.7/fxcpuid.h
+* /usr/include/fox-1.7/fxcrc.h
 * /usr/include/fox-1.7/FXCURCursor.h
 * /usr/include/fox-1.7/FXCursor.h
 * /usr/include/fox-1.7/FXDataTarget.h
@@ -260,6 +261,7 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXPath.h
 * /usr/include/fox-1.7/FXPCXIcon.h
 * /usr/include/fox-1.7/FXPCXImage.h
+* /usr/include/fox-1.7/FXPerformance.h
 * /usr/include/fox-1.7/FXPicker.h
 * /usr/include/fox-1.7/FXPipe.h
 * /usr/include/fox-1.7/FXPNGIcon.h
@@ -274,6 +276,8 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FXProgressDialog.h
 * /usr/include/fox-1.7/FXPtrList.h
 * /usr/include/fox-1.7/FXPtrQueue.h
+* /usr/include/fox-1.7/FXQOIFIcon.h
+* /usr/include/fox-1.7/FXQOIFImage.h
 * /usr/include/fox-1.7/FXQuatd.h
 * /usr/include/fox-1.7/FXQuatf.h
 * /usr/include/fox-1.7/FXRadioButton.h
@@ -391,15 +395,15 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/xincs.h
 * /usr/lib/libCHART-1.7.so
 * /usr/lib/libCHART-1.7.so.0
-* /usr/lib/libCHART-1.7.so.0.0.84
+* /usr/lib/libCHART-1.7.so.0.0.85
 * /usr/lib/libFOX-1.7.so
 * /usr/lib/libFOX-1.7.so.0
-* /usr/lib/libFOX-1.7.so.0.0.84
+* /usr/lib/libFOX-1.7.so.0.0.85
 * /usr/lib/pkgconfig/fox17.pc
-* /usr/share/doc/fox-1.7.84/AUTHORS
-* /usr/share/doc/fox-1.7.84/INSTALL
-* /usr/share/doc/fox-1.7.84/LICENSE
-* /usr/share/doc/fox-1.7.84/README
+* /usr/share/doc/fox-1.7.85/AUTHORS
+* /usr/share/doc/fox-1.7.85/INSTALL
+* /usr/share/doc/fox-1.7.85/LICENSE
+* /usr/share/doc/fox-1.7.85/README
 * /usr/share/doc/fox-1.7/html/adie.html
 * /usr/share/doc/fox-1.7/html/app.html
 * /usr/share/doc/fox-1.7/html/art/bigpenguin.png
