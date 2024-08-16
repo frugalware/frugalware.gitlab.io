@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-graphics-compiler 1.0.16510.2-2"
-version = "1.0.16510.2-2"
+title = "intel-graphics-compiler 1.0.17193.4-1"
+version = "1.0.17193.4-1"
 description = "Intel Graphics Compiler for OpenCL"
-date = "2024-05-02T13:49:35"
+date = "2024-08-16T13:04:55"
 aliases = "/packages/220084"
 categories = ['devel']
 upstreamurl = "https://github.com/intel/intel-graphics-compiler"
 arch = "x86_64"
-size = "66399712"
-usize = "243775656"
-sha1sum = "d8aea270598beda148f3f2d2bd47b158c24d06cd"
+size = "68393944"
+usize = "244101430"
+sha1sum = "70679ae4520d4a6fbdf1eb846b2846be5c75119c"
 depends = "['libxml2', 'spirv-tools']"
 reverse_depends = "['intel-compute-runtime']"
 +++
@@ -132,5 +132,5 @@ Intel Graphics Compiler for OpenCL
 * /usr/lib/libigdfcl.so.1.0.1
 * /usr/lib/libopencl-clang.so.14
 * /usr/lib/pkgconfig/igc-opencl.pc
-* /usr/share/doc/intel-graphics-compiler-1.0.16510.2/Readme.md
-* /usr/share/doc/intel-graphics-compiler-1.0.16510.2/README.md
+* /usr/share/doc/intel-graphics-compiler-1.0.17193.4/Readme.md
+* /usr/share/doc/intel-graphics-compiler-1.0.17193.4/README.md
