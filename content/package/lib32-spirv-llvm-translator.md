@@ -12,7 +12,7 @@ size = "755596"
 usize = "3563783"
 sha1sum = "fb11c33ee8d7fc6f61613a629f8e3ebff260331a"
 depends = "['lib32-libxml2', 'lib32-llvm-libs>=18.1.8', 'lib32-spirv-tools']"
-reverse_depends = "['lib32-opencl-clover', 'lib32-opencl-rusticl']"
+reverse_depends = "['lib32-opencl-clover']"
 +++
 ### Description: 
 Tool and a library for bi-directional translation between SPIR-V and LLVM IR ( 32bit )

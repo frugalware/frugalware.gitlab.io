@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd-nspawn 256.4-2"
-version = "256.4-2"
+title = "systemd-nspawn 256.5-1"
+version = "256.5-1"
 description = "Spawn a command or OS in a light-weight container."
-date = "2024-08-14T14:29:27"
+date = "2024-08-16T08:10:47"
 aliases = "/packages/219953"
 categories = ['base-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
 size = "192828"
-usize = "426884"
-sha1sum = "27f7023f23acc0d795bff5e34aad08b4b13a6fc7"
-depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=256.4']"
+usize = "427364"
+sha1sum = "b5bd74287f73e14fe01d509c2606d9a3e4391bca"
+depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=256.5']"
 +++
 ### Description: 
 Spawn a command or OS in a light-weight container.
