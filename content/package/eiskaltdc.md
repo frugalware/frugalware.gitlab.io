@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "eiskaltdc 2.4.2-7"
-version = "2.4.2-7"
+title = "eiskaltdc 2.4.2-8"
+version = "2.4.2-8"
 description = "EiskaltDC++ is a cross-platform program that uses the Direct Connect and ADC protocol"
-date = "2024-05-27T04:27:59"
+date = "2024-08-16T21:53:02"
 aliases = "/packages/103876"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/eiskaltdcpp/eiskaltdcpp"
 arch = "x86_64"
-size = "3053336"
-usize = "10897758"
-sha1sum = "8db1af3641421283805095eb2a4132f88201ae67"
-depends = "['aspell', 'libboost>=1.72.0', 'libidn>=1.35', 'lua>=5.4', 'miniupnpc', 'openssl>=3.1.0', 'qt5-multimedia>=5.15.10']"
+size = "3086896"
+usize = "10943830"
+sha1sum = "5c9140b9ed71926d22768baa8d708bd3c99d88c2"
+depends = "['aspell', 'libboost>=1.72.0', 'libidn>=1.35', 'lua>=5.4', 'openssl>=3.1.0', 'qt5-multimedia>=5.15.10']"
 +++
 ### Description: 
 EiskaltDC++ is a cross-platform program that uses the Direct Connect and ADC protocol
