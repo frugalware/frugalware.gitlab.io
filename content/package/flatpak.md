@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "flatpak 1.14.8-1"
-version = "1.14.8-1"
+title = "flatpak 1.14.10-1"
+version = "1.14.10-1"
 description = "Linux application sandboxing and distribution framework (formerly xdg-app)"
-date = "2024-06-27T12:39:18"
+date = "2024-08-16T08:53:53"
 aliases = "/packages/220841"
 categories = ['apps-extra']
 upstreamurl = "https://flatpak.org"
 arch = "x86_64"
-size = "1526260"
-usize = "7711059"
-sha1sum = "7536e7c40f7638166f5be1d01d65f0726208be29"
-depends = "['appstream>=1.0.0', 'bubblewrap', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'xdg-dbus-proxy']"
+size = "1521068"
+usize = "7725915"
+sha1sum = "79cb02fee31e59012318e7f17199677e7719ec17"
+depends = "['appstream>=1.0.0', 'bubblewrap>=0.10.0', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'xdg-dbus-proxy']"
 reverse_depends = "['discover', 'flatpak-kcm']"
 +++
 ### Description: 
@@ -45,7 +45,7 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/lib/girepository-1.0/Flatpak-1.0.typelib
 * /usr/lib/libflatpak.so
 * /usr/lib/libflatpak.so.0
-* /usr/lib/libflatpak.so.0.11408.0
+* /usr/lib/libflatpak.so.0.11410.0
 * /usr/lib/pkgconfig/flatpak.pc
 * /usr/lib/systemd/system-environment-generators/60-flatpak-system-only
 * /usr/lib/systemd/system/flatpak-system-helper.service
@@ -64,11 +64,11 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/dbus-1/services/org.freedesktop.portal.Flatpak.service
 * /usr/share/dbus-1/system-services/org.freedesktop.Flatpak.SystemHelper.service
 * /usr/share/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
-* /usr/share/doc/flatpak-1.14.8/COPYING
-* /usr/share/doc/flatpak-1.14.8/docbook.css
-* /usr/share/doc/flatpak-1.14.8/flatpak-docs.html
-* /usr/share/doc/flatpak-1.14.8/NEWS
-* /usr/share/doc/flatpak-1.14.8/README.md
+* /usr/share/doc/flatpak-1.14.10/COPYING
+* /usr/share/doc/flatpak-1.14.10/docbook.css
+* /usr/share/doc/flatpak-1.14.10/flatpak-docs.html
+* /usr/share/doc/flatpak-1.14.10/NEWS
+* /usr/share/doc/flatpak-1.14.10/README.md
 * /usr/share/fish/vendor_completions.d/flatpak.fish
 * /usr/share/fish/vendor_conf.d/flatpak.fish
 * /usr/share/flatpak/triggers/desktop-database.trigger

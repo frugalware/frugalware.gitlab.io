@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "catch2 3.6.0-1"
-version = "3.6.0-1"
+title = "catch2 3.7.0-1"
+version = "3.7.0-1"
 description = "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later"
-date = "2024-06-03T09:27:35"
+date = "2024-08-16T08:43:55"
 aliases = "/packages/219639"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/catchorg/catch2"
 arch = "x86_64"
-size = "6174756"
-usize = "10673484"
-sha1sum = "066e6ae1cd7913a177baf7623c71167d510484a9"
+size = "6209004"
+usize = "10730860"
+sha1sum = "1fdb6f7591f50e6585e0875af7c89c2b39ae4ead"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
@@ -43,6 +43,7 @@ A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - 
 * /usr/include/catch2/catch_approx.hpp
 * /usr/include/catch2/catch_assertion_info.hpp
 * /usr/include/catch2/catch_assertion_result.hpp
+* /usr/include/catch2/catch_case_sensitive.hpp
 * /usr/include/catch2/catch_config.hpp
 * /usr/include/catch2/catch_get_random_seed.hpp
 * /usr/include/catch2/catch_message.hpp
@@ -81,7 +82,6 @@ A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - 
 * /usr/include/catch2/interfaces/catch_interfaces_test_invoker.hpp
 * /usr/include/catch2/internal/catch_assertion_handler.hpp
 * /usr/include/catch2/internal/catch_case_insensitive_comparisons.hpp
-* /usr/include/catch2/internal/catch_case_sensitive.hpp
 * /usr/include/catch2/internal/catch_clara.hpp
 * /usr/include/catch2/internal/catch_commandline.hpp
 * /usr/include/catch2/internal/catch_compare_traits.hpp
@@ -209,7 +209,7 @@ A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - 
 * /usr/lib/pkgconfig/catch2.pc
 * /usr/share/Catch2/gdbinit
 * /usr/share/Catch2/lldbinit
-* /usr/share/doc/catch2-3.6.0/README.md
+* /usr/share/doc/catch2-3.7.0/README.md
 * /usr/share/doc/Catch2/assertions.md
 * /usr/share/doc/Catch2/benchmarks.md
 * /usr/share/doc/Catch2/ci-and-misc.md
