@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "muparser 2.3.3-1"
-version = "2.3.3-1"
+title = "muparser 2.3.4-1"
+version = "2.3.4-1"
 description = "A fast math parser library"
-date = "2022-02-15T20:32:41"
+date = "2024-08-16T19:26:25"
 aliases = "/packages/103039"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/beltoforion/muparser"
 arch = "x86_64"
-size = "151356"
-usize = "609244"
-sha1sum = "8afc7a5eedd189df5a02fc716b4047af5f72f45b"
+size = "155936"
+usize = "624005"
+sha1sum = "1bfa7fe0e41f9c7972f2722e8ea1099f4e4e437f"
 depends = "['libgomp>=11.2']"
 reverse_depends = "['librecad']"
 +++
@@ -37,8 +37,8 @@ A fast math parser library
 * /usr/lib/cmake/muparser/muparserConfigVersion.cmake
 * /usr/lib/libmuparser.so
 * /usr/lib/libmuparser.so.2
-* /usr/lib/libmuparser.so.2.3.3
+* /usr/lib/libmuparser.so.2.3.4
 * /usr/lib/pkgconfig/muparser.pc
-* /usr/share/doc/muparser-2.3.3/CHANGELOG
-* /usr/share/doc/muparser-2.3.3/LICENSE
-* /usr/share/doc/muparser-2.3.3/README.rst
+* /usr/share/doc/muparser-2.3.4/CHANGELOG
+* /usr/share/doc/muparser-2.3.4/LICENSE
+* /usr/share/doc/muparser-2.3.4/README.rst
