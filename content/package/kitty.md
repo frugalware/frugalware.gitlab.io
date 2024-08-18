@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitty 0.35.2-1"
-version = "0.35.2-1"
+title = "kitty 0.36.0-1"
+version = "0.36.0-1"
 description = "A modern, hackable, featureful, OpenGL-based terminal emulator"
-date = "2024-06-24T08:06:28"
+date = "2024-08-18T15:44:28"
 aliases = "/packages/220895"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "11461544"
-usize = "42533323"
-sha1sum = "fcbba2edd2c1c28f2b9ea5fcf1765bc689c75ee2"
+size = "13476616"
+usize = "47941423"
+sha1sum = "933c8e230aa45bd335d2f7a13fc814f613955a29"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.12', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
@@ -19,6 +19,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 ### Files: 
 * /usr/bin/kitten
 * /usr/bin/kitty
+* /usr/lib/kitty/fonts/SymbolsNerdFontMono-Regular.ttf
 * /usr/lib/kitty/kittens/ask/main.py
 * /usr/lib/kitty/kittens/ask/__init__.py
 * /usr/lib/kitty/kittens/ask/__pycache__/main.cpython-312.opt-1.pyc
@@ -35,6 +36,18 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kittens/broadcast/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kittens/broadcast/__pycache__/__init__.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kittens/broadcast/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/kitty/kittens/choose_fonts/backend.py
+* /usr/lib/kitty/kittens/choose_fonts/main.py
+* /usr/lib/kitty/kittens/choose_fonts/__init__.py
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/backend.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/backend.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/backend.cpython-312.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/main.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/main.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/main.cpython-312.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/__init__.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kittens/choose_fonts/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/kitty/kittens/clipboard/main.py
 * /usr/lib/kitty/kittens/clipboard/__init__.py
 * /usr/lib/kitty/kittens/clipboard/__pycache__/main.cpython-312.opt-1.pyc
@@ -75,6 +88,14 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kittens/icat/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kittens/icat/__pycache__/__init__.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kittens/icat/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/kitty/kittens/notify/main.py
+* /usr/lib/kitty/kittens/notify/__init__.py
+* /usr/lib/kitty/kittens/notify/__pycache__/main.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kittens/notify/__pycache__/main.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kittens/notify/__pycache__/main.cpython-312.pyc
+* /usr/lib/kitty/kittens/notify/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kittens/notify/__pycache__/__init__.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kittens/notify/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/kitty/kittens/pager/main.py
 * /usr/lib/kitty/kittens/pager/__init__.py
 * /usr/lib/kitty/kittens/pager/__pycache__/main.cpython-312.opt-1.pyc
@@ -261,7 +282,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/fast_data_types.so
 * /usr/lib/kitty/kitty/file_transmission.py
 * /usr/lib/kitty/kitty/fonts/box_drawing.py
+* /usr/lib/kitty/kitty/fonts/common.py
 * /usr/lib/kitty/kitty/fonts/core_text.py
+* /usr/lib/kitty/kitty/fonts/features.py
 * /usr/lib/kitty/kitty/fonts/fontconfig.py
 * /usr/lib/kitty/kitty/fonts/list.py
 * /usr/lib/kitty/kitty/fonts/render.py
@@ -269,9 +292,15 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/fonts/__pycache__/box_drawing.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/box_drawing.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/box_drawing.cpython-312.pyc
+* /usr/lib/kitty/kitty/fonts/__pycache__/common.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kitty/fonts/__pycache__/common.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kitty/fonts/__pycache__/common.cpython-312.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/core_text.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/core_text.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/core_text.cpython-312.pyc
+* /usr/lib/kitty/kitty/fonts/__pycache__/features.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kitty/fonts/__pycache__/features.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kitty/fonts/__pycache__/features.cpython-312.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/fontconfig.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/fontconfig.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/fonts/__pycache__/fontconfig.cpython-312.pyc
@@ -330,7 +359,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/main.py
 * /usr/lib/kitty/kitty/marks.py
 * /usr/lib/kitty/kitty/multiprocessing.py
-* /usr/lib/kitty/kitty/notify.py
+* /usr/lib/kitty/kitty/notifications.py
 * /usr/lib/kitty/kitty/open_actions.py
 * /usr/lib/kitty/kitty/options/definition.py
 * /usr/lib/kitty/kitty/options/parse.py
@@ -518,6 +547,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/rc/__pycache__/__init__.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/rc/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/kitty/kitty/remote_control.py
+* /usr/lib/kitty/kitty/render_cache.py
 * /usr/lib/kitty/kitty/rgb.py
 * /usr/lib/kitty/kitty/search_query_parser.py
 * /usr/lib/kitty/kitty/session.py
@@ -536,6 +566,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/utils.py
 * /usr/lib/kitty/kitty/window.py
 * /usr/lib/kitty/kitty/window_list.py
+* /usr/lib/kitty/kitty/xdg.py
 * /usr/lib/kitty/kitty/__init__.py
 * /usr/lib/kitty/kitty/__pycache__/actions.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/actions.cpython-312.opt-2.pyc
@@ -606,9 +637,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/__pycache__/multiprocessing.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/multiprocessing.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/multiprocessing.cpython-312.pyc
-* /usr/lib/kitty/kitty/__pycache__/notify.cpython-312.opt-1.pyc
-* /usr/lib/kitty/kitty/__pycache__/notify.cpython-312.opt-2.pyc
-* /usr/lib/kitty/kitty/__pycache__/notify.cpython-312.pyc
+* /usr/lib/kitty/kitty/__pycache__/notifications.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kitty/__pycache__/notifications.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kitty/__pycache__/notifications.cpython-312.pyc
 * /usr/lib/kitty/kitty/__pycache__/open_actions.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/open_actions.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/open_actions.cpython-312.pyc
@@ -618,6 +649,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/__pycache__/remote_control.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/remote_control.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/remote_control.cpython-312.pyc
+* /usr/lib/kitty/kitty/__pycache__/render_cache.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kitty/__pycache__/render_cache.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kitty/__pycache__/render_cache.cpython-312.pyc
 * /usr/lib/kitty/kitty/__pycache__/rgb.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/rgb.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/rgb.cpython-312.pyc
@@ -666,6 +700,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/__pycache__/window_list.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/window_list.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/window_list.cpython-312.pyc
+* /usr/lib/kitty/kitty/__pycache__/xdg.cpython-312.opt-1.pyc
+* /usr/lib/kitty/kitty/__pycache__/xdg.cpython-312.opt-2.pyc
+* /usr/lib/kitty/kitty/__pycache__/xdg.cpython-312.pyc
 * /usr/lib/kitty/kitty/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/__init__.cpython-312.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/__init__.cpython-312.pyc
@@ -694,9 +731,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/applications/kitty-open.desktop
 * /usr/share/applications/kitty.desktop
 * /usr/share/bash-completion/completions/kitty
-* /usr/share/doc/kitty-0.35.2/INSTALL.md
-* /usr/share/doc/kitty-0.35.2/LICENSE
-* /usr/share/doc/kitty-0.35.2/README.asciidoc
+* /usr/share/doc/kitty-0.36.0/INSTALL.md
+* /usr/share/doc/kitty-0.36.0/LICENSE
+* /usr/share/doc/kitty-0.36.0/README.asciidoc
 * /usr/share/doc/kitty/html/.buildinfo
 * /usr/share/doc/kitty/html/.nojekyll
 * /usr/share/doc/kitty/html/actions.html
@@ -710,6 +747,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/desktop-notifications.html
 * /usr/share/doc/kitty/html/faq.html
 * /usr/share/doc/kitty/html/file-transfer-protocol.html
+* /usr/share/doc/kitty/html/generated/color-names.html
 * /usr/share/doc/kitty/html/generated/launch.html
 * /usr/share/doc/kitty/html/generated/matching.html
 * /usr/share/doc/kitty/html/generated/rc.html
@@ -723,12 +761,15 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/invocation.html
 * /usr/share/doc/kitty/html/keyboard-protocol.html
 * /usr/share/doc/kitty/html/kittens/broadcast.html
+* /usr/share/doc/kitty/html/kittens/choose-fonts.html
 * /usr/share/doc/kitty/html/kittens/clipboard.html
 * /usr/share/doc/kitty/html/kittens/custom.html
+* /usr/share/doc/kitty/html/kittens/developing-builtin-kittens.html
 * /usr/share/doc/kitty/html/kittens/diff.html
 * /usr/share/doc/kitty/html/kittens/hints.html
 * /usr/share/doc/kitty/html/kittens/hyperlinked_grep.html
 * /usr/share/doc/kitty/html/kittens/icat.html
+* /usr/share/doc/kitty/html/kittens/notify.html
 * /usr/share/doc/kitty/html/kittens/panel.html
 * /usr/share/doc/kitty/html/kittens/query_terminal.html
 * /usr/share/doc/kitty/html/kittens/remote_file.html
@@ -762,6 +803,8 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_downloads/a489ebbb52d84eeb19a12b2fda7debda/diff.conf
 * /usr/share/doc/kitty/html/_downloads/f0a0de9ec8d9ff4456206db8e0814937/rowcolumn-diacritics.txt
 * /usr/share/doc/kitty/html/_images/diff.png
+* /usr/share/doc/kitty/html/_images/family-selection.png
+* /usr/share/doc/kitty/html/_images/font-fine-tune.png
 * /usr/share/doc/kitty/html/_images/hints_mode.png
 * /usr/share/doc/kitty/html/_images/panel.png
 * /usr/share/doc/kitty/html/_images/remote_file.png
@@ -769,33 +812,37 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_images/social_previews/summary_actions_1745a1bd.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_binary_478594b0.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_build_7ee1e14e.png
-* /usr/share/doc/kitty/html/_images/social_previews/summary_changelog_0413c894.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_changelog_67e69324.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_clipboard_673291d1.png
-* /usr/share/doc/kitty/html/_images/social_previews/summary_color-stack_587105f7.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_color-stack_b2e66ffc.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_conf_6d817f14.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_deccara_77e64daf.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_desktop-notifications_9e55697a.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_faq_6acfb156.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_file-transfer-protocol_67d60cd4.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_generated_color-names_d5b08547.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_generated_launch_2c8ae1a7.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_generated_matching_f5ed7c14.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_generated_rc_4121b4bb.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_generated_ssh-copy_26aa9e71.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_glossary_e93f6fff.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_graphics-protocol_96eb2627.png
-* /usr/share/doc/kitty/html/_images/social_previews/summary_index_cb55e922.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_index_dca07694.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_integrations_89a2636c.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_intro_vid_14889341.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_invocation_05c40da8.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_keyboard-protocol_37967379.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_broadcast_4dfe59be.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_choose-fonts_14869f23.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_clipboard_93006611.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_custom_264d6309.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_developing-builtin-kittens_70cf5f2d.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_diff_56ec1326.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_hints_cf0d0da9.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_hyperlinked_grep_bce050dc.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_icat_8f870112.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_intro_2aa247aa.png
+* /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_notify_4b21ed12.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_panel_acc427d1.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_query_terminal_bcf6bdb9.png
 * /usr/share/doc/kitty/html/_images/social_previews/summary_kittens_remote_file_c5782e6e.png
@@ -836,6 +883,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_sources/desktop-notifications.rst.txt
 * /usr/share/doc/kitty/html/_sources/faq.rst.txt
 * /usr/share/doc/kitty/html/_sources/file-transfer-protocol.rst.txt
+* /usr/share/doc/kitty/html/_sources/generated/color-names.rst.txt
 * /usr/share/doc/kitty/html/_sources/generated/launch.rst.txt
 * /usr/share/doc/kitty/html/_sources/generated/matching.rst.txt
 * /usr/share/doc/kitty/html/_sources/generated/rc.rst.txt
@@ -848,12 +896,15 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/doc/kitty/html/_sources/invocation.rst.txt
 * /usr/share/doc/kitty/html/_sources/keyboard-protocol.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/broadcast.rst.txt
+* /usr/share/doc/kitty/html/_sources/kittens/choose-fonts.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/clipboard.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/custom.rst.txt
+* /usr/share/doc/kitty/html/_sources/kittens/developing-builtin-kittens.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/diff.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/hints.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/hyperlinked_grep.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/icat.rst.txt
+* /usr/share/doc/kitty/html/_sources/kittens/notify.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/panel.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/query_terminal.rst.txt
 * /usr/share/doc/kitty/html/_sources/kittens/remote_file.rst.txt
@@ -958,6 +1009,8 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/man/man1/kitten-@.1.gz
 * /usr/share/man/man1/kitten-ask.1.gz
 * /usr/share/man/man1/kitten-broadcast.1.gz
+* /usr/share/man/man1/kitten-choose-fonts.1.gz
+* /usr/share/man/man1/kitten-choose_fonts.1.gz
 * /usr/share/man/man1/kitten-clipboard.1.gz
 * /usr/share/man/man1/kitten-diff.1.gz
 * /usr/share/man/man1/kitten-edit-in-kitty.1.gz
@@ -965,6 +1018,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/man/man1/kitten-hyperlinked-grep.1.gz
 * /usr/share/man/man1/kitten-icat.1.gz
 * /usr/share/man/man1/kitten-mouse-demo.1.gz
+* /usr/share/man/man1/kitten-notify.1.gz
 * /usr/share/man/man1/kitten-panel.1.gz
 * /usr/share/man/man1/kitten-query-terminal.1.gz
 * /usr/share/man/man1/kitten-remote-file.1.gz

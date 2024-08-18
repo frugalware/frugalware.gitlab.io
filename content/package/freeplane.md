@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeplane 1.11.14-1"
-version = "1.11.14-1"
+title = "freeplane 1.12.3-1"
+version = "1.12.3-1"
 description = "A free mind mapping software"
-date = "2024-06-10T08:26:47"
+date = "2024-08-18T16:08:01"
 aliases = "/packages/220344"
 categories = ['xapps-extra']
 upstreamurl = "https://www.freeplane.org/"
 arch = "x86_64"
-size = "61294868"
-usize = "74686409"
-sha1sum = "62c809e084290b27e9df8e5f4cf3853536ec5c5f"
+size = "62540948"
+usize = "76296440"
+sha1sum = "fa92caea38f65111359f47e2a532b79b9c8831eb"
 depends = "['openjre-x']"
 +++
 ### Description: 
@@ -21,17 +21,18 @@ A free mind mapping software
 * /usr/lib/freeplane/doc/api/allclasses-index.html
 * /usr/lib/freeplane/doc/api/allpackages-index.html
 * /usr/lib/freeplane/doc/api/constant-values.html
+* /usr/lib/freeplane/doc/api/copy.svg
 * /usr/lib/freeplane/doc/api/deprecated-list.html
 * /usr/lib/freeplane/doc/api/element-list
 * /usr/lib/freeplane/doc/api/help-doc.html
 * /usr/lib/freeplane/doc/api/index-all.html
 * /usr/lib/freeplane/doc/api/index.html
-* /usr/lib/freeplane/doc/api/jquery-ui.overrides.css
 * /usr/lib/freeplane/doc/api/legal/ADDITIONAL_LICENSE_INFO
 * /usr/lib/freeplane/doc/api/legal/ASSEMBLY_EXCEPTION
 * /usr/lib/freeplane/doc/api/legal/jquery.md
 * /usr/lib/freeplane/doc/api/legal/jqueryUI.md
 * /usr/lib/freeplane/doc/api/legal/LICENSE
+* /usr/lib/freeplane/doc/api/link.svg
 * /usr/lib/freeplane/doc/api/member-search-index.js
 * /usr/lib/freeplane/doc/api/module-search-index.js
 * /usr/lib/freeplane/doc/api/org/freeplane/api/AttributeCondition.html
@@ -102,6 +103,8 @@ A free mind mapping software
 * /usr/lib/freeplane/doc/api/org/freeplane/api/ReminderRO.html
 * /usr/lib/freeplane/doc/api/org/freeplane/api/Script.html
 * /usr/lib/freeplane/doc/api/org/freeplane/api/Side.html
+* /usr/lib/freeplane/doc/api/org/freeplane/api/Tags.html
+* /usr/lib/freeplane/doc/api/org/freeplane/api/TagsRO.html
 * /usr/lib/freeplane/doc/api/org/freeplane/api/TextWritingDirection.html
 * /usr/lib/freeplane/doc/api/org/freeplane/core/ui/components/package-summary.html
 * /usr/lib/freeplane/doc/api/org/freeplane/core/ui/components/package-tree.html
@@ -166,6 +169,8 @@ A free mind mapping software
 * /usr/lib/freeplane/doc/api/org/freeplane/plugin/script/proxy/Proxy.Properties.html
 * /usr/lib/freeplane/doc/api/org/freeplane/plugin/script/proxy/Proxy.Reminder.html
 * /usr/lib/freeplane/doc/api/org/freeplane/plugin/script/proxy/Proxy.ReminderRO.html
+* /usr/lib/freeplane/doc/api/org/freeplane/plugin/script/proxy/Proxy.Tags.html
+* /usr/lib/freeplane/doc/api/org/freeplane/plugin/script/proxy/Proxy.TagsRO.html
 * /usr/lib/freeplane/doc/api/org/freeplane/plugin/script/proxy/ScriptUtils.html
 * /usr/lib/freeplane/doc/api/overview-summary.html
 * /usr/lib/freeplane/doc/api/overview-tree.html
@@ -176,6 +181,8 @@ A free mind mapping software
 * /usr/lib/freeplane/doc/api/script-dir/jquery-ui.min.css
 * /usr/lib/freeplane/doc/api/script-dir/jquery-ui.min.js
 * /usr/lib/freeplane/doc/api/script.js
+* /usr/lib/freeplane/doc/api/search-page.js
+* /usr/lib/freeplane/doc/api/search.html
 * /usr/lib/freeplane/doc/api/search.js
 * /usr/lib/freeplane/doc/api/serialized-form.html
 * /usr/lib/freeplane/doc/api/stylesheet.css
@@ -258,110 +265,106 @@ A free mind mapping software
 * /usr/lib/freeplane/org.freeplane.core/lib/common-image-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/common-io-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/common-lang-3.10.1.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/commons-codec-1.16.0.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/commons-io-2.15.1.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/commons-codec-1.17.0.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/commons-io-2.16.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/commons-lang-2.6.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/data-url-2.0.1.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/flatlaf-3.2.5.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/flatlaf-3.4.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/freeplaneapi_viewer.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneeditor-1.11.14.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneosgi-1.11.14.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneeditor-1.12.3.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/freeplaneosgi-1.12.3.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/freeplaneviewer.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/freeplane_mac-1.11.14.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/freeplane_mac-1.12.3.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/idw-gpl-1.6.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/imageio-core-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/imageio-jpeg-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/imageio-metadata-3.10.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/jgoodies-common-1.8.1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/jgoodies-forms-1.9.0.jar
-* /usr/lib/freeplane/org.freeplane.core/lib/jortho-1.11.14.jar
+* /usr/lib/freeplane/org.freeplane.core/lib/jortho-1.12.3.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/kitfox-svg-salamander-1.1.1-p1.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/simplyhtml-0.19.9.jar
 * /usr/lib/freeplane/org.freeplane.core/lib/twemoji-12.1.4.jar
 * /usr/lib/freeplane/org.freeplane.core/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.bugreport/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.bugreport/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.bugreport/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/apfloat-1.10.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/archunit-1.2.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/freeplane-archunit-extension-0.0.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/gson-2.10.1.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/archunit-1.3.0.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/error_prone_annotations-2.27.0.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/freeplane-archunit-extension-0.0.2.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/gson-2.11.0.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/jgrapht-core-1.5.2.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/jheaps-0.14.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/plugin-1.11.14.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/slf4j-api-2.0.9.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/plugin-1.12.3.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/slf4j-api-2.0.12.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/lib/slf4j-nop-2.0.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.codeexplorer/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.formula/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.formula/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.formula/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/lib/syntaxpane-1.3.0.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.jsyntaxpane/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/jlatexmath-1.0.7.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/jlatexmath-font-cyrillic-1.0.7.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/jlatexmath-font-greek-1.0.7.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.latex/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/jsoup-1.16.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/markedj-1.0.18.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/jsoup-1.17.2.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/markedj-1.0.20.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.markdown/META-INF/MANIFEST.MF
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/jmapviewer-2.18.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/jmapviewer-2.19.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.openmaps/META-INF/MANIFEST.MF
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ant-1.10.14.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ant-antlr-1.10.14.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ant-junit-1.10.14.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ant-launcher-1.10.14.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-9.6.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-analysis-9.6.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-tree-9.6.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-util-9.6.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/checker-qual-3.37.0.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/error_prone_annotations-2.21.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/failureaccess-1.0.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-ant-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-cli-picocli-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-console-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-datetime-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-dateutil-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-docgenerator-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-groovydoc-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-groovysh-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-jmx-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-json-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-jsr223-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-macro-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-nio-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-servlet-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-sql-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-swing-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-templates-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-test-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-test-junit5-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-xml-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-yaml-4.0.17.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/guava-32.1.3-jre.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-9.7.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-analysis-9.7.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-tree-9.7.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/asm-util-9.7.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/byte-buddy-1.14.9.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-ant-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-cli-picocli-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-console-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-datetime-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-dateutil-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-docgenerator-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-groovydoc-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-groovysh-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-jmx-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-json-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-jsr223-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-macro-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-nio-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-servlet-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-sql-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-swing-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-templates-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-test-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-test-junit5-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-xml-4.0.21.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/groovy-yaml-4.0.21.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/hamcrest-core-1.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/ivy-2.5.2.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-annotations-2.16.0.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-core-2.16.0.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-databind-2.16.0.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-dataformat-yaml-2.16.0.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/javaparser-core-3.25.7.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-annotations-2.17.0.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-core-2.17.0.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-databind-2.17.0.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jackson-dataformat-yaml-2.17.0.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/javaparser-core-3.25.10.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jline-2.14.6.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/jsr305-3.0.2.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-4.13.2.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-jupiter-api-5.10.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-jupiter-engine-5.10.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-platform-commons-1.10.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-platform-engine-1.10.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-platform-launcher-1.10.1.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-jupiter-api-5.10.2.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-jupiter-engine-5.10.2.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-platform-commons-1.10.2.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-platform-engine-1.10.2.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/junit-platform-launcher-1.10.2.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/opentest4j-1.3.0.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/org.abego.treelayout.core-1.0.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/picocli-4.7.5.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/qdox-1.12.1.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/lib/snakeyaml-2.2.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.script/META-INF/MANIFEST.MF
@@ -391,7 +394,7 @@ A free mind mapping software
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/fop-core-2.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/fop-events-2.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/fop-util-2.9.jar
-* /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/plugin-1.11.14.jar
+* /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/plugin-1.12.3.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/xml-apis-ext-1.3.04.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/lib/xmlgraphics-commons-2.9.jar
 * /usr/lib/freeplane/plugins/org.freeplane.plugin.svg/META-INF/MANIFEST.MF
