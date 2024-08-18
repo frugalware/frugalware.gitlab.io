@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "binutils 2.43-1"
-version = "2.43-1"
+title = "binutils 2.43.1-1"
+version = "2.43.1-1"
 description = "A set of programs to assemble and manipulate binary and object files"
-date = "2024-08-05T16:55:41"
+date = "2024-08-18T18:17:04"
 aliases = "/packages/2350"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "19822928"
-usize = "56817686"
-sha1sum = "7b1e0728b82bd224a5b688d8f2fbe7b6e0598119"
+size = "19714512"
+usize = "56831877"
+sha1sum = "8a20c5099b65293df4284717e5fe2a383e6242e2"
 depends = "['glibc>=2.40', 'libstdc++>=14.2', 'zstd']"
 reverse_depends = "['bpf', 'cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-13', 'gdb', 'ocaml', 'openucx', 'perf']"
 +++
@@ -53,7 +53,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/lib/gprofng/libgp-heap.so
 * /usr/lib/gprofng/libgp-iotrace.so
 * /usr/lib/gprofng/libgp-sync.so
-* /usr/lib/libbfd-2.43.so
+* /usr/lib/libbfd-2.43.1.so
 * /usr/lib/libctf-nobfd.a
 * /usr/lib/libctf-nobfd.so
 * /usr/lib/libctf-nobfd.so.0
@@ -67,18 +67,18 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/lib/libgprofng.so.0
 * /usr/lib/libgprofng.so.0.0.0
 * /usr/lib/libiberty.a
-* /usr/lib/libopcodes-2.43.so
+* /usr/lib/libopcodes-2.43.1.so
 * /usr/lib/libsframe.a
 * /usr/lib/libsframe.so
 * /usr/lib/libsframe.so.1
 * /usr/lib/libsframe.so.1.0.0
-* /usr/share/doc/binutils-2.43/ChangeLog
-* /usr/share/doc/binutils-2.43/COPYING
-* /usr/share/doc/binutils-2.43/COPYING.LIB
-* /usr/share/doc/binutils-2.43/COPYING3
-* /usr/share/doc/binutils-2.43/COPYING3.LIB
-* /usr/share/doc/binutils-2.43/README
-* /usr/share/doc/binutils-2.43/README-maintainer-mode
+* /usr/share/doc/binutils-2.43.1/ChangeLog
+* /usr/share/doc/binutils-2.43.1/COPYING
+* /usr/share/doc/binutils-2.43.1/COPYING.LIB
+* /usr/share/doc/binutils-2.43.1/COPYING3
+* /usr/share/doc/binutils-2.43.1/COPYING3.LIB
+* /usr/share/doc/binutils-2.43.1/README
+* /usr/share/doc/binutils-2.43.1/README-maintainer-mode
 * /usr/share/info/as.info.gz
 * /usr/share/info/bfd.info.gz
 * /usr/share/info/binutils.info.gz

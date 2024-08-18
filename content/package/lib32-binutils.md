@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-binutils 2.43-1"
-version = "2.43-1"
+title = "lib32-binutils 2.43.1-1"
+version = "2.43.1-1"
 description = "A set of programs to assemble and manipulate binary and object files ( 32bit )"
-date = "2024-08-05T16:55:41"
+date = "2024-08-18T18:17:04"
 aliases = "/packages/221229"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "4736768"
-usize = "22023679"
-sha1sum = "fd87dee18ff9a18470768730f70766cb76d13f3e"
+size = "4731764"
+usize = "22025552"
+sha1sum = "6f3b972fdd0431ae963a56998a8642e1d9590b58"
 depends = "['lib32-zstd']"
 reverse_depends = "['lib32-cairo']"
 +++
@@ -200,7 +200,7 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/lib32/gprofng/libgp-heap.so
 * /usr/lib32/gprofng/libgp-iotrace.so
 * /usr/lib32/gprofng/libgp-sync.so
-* /usr/lib32/libbfd-2.43.so
+* /usr/lib32/libbfd-2.43.1.so
 * /usr/lib32/libbfd.so
 * /usr/lib32/libctf-nobfd.so
 * /usr/lib32/libctf-nobfd.so.0
@@ -211,7 +211,7 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/lib32/libgprofng.so
 * /usr/lib32/libgprofng.so.0
 * /usr/lib32/libgprofng.so.0.0.0
-* /usr/lib32/libopcodes-2.43.so
+* /usr/lib32/libopcodes-2.43.1.so
 * /usr/lib32/libopcodes.so
 * /usr/lib32/libsframe.so
 * /usr/lib32/libsframe.so.1
