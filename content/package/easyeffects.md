@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "easyeffects 7.1.7-2"
-version = "7.1.7-2"
+title = "easyeffects 7.1.8-1"
+version = "7.1.8-1"
 description = "Audio Effects for Pipewire Applications"
-date = "2024-07-14T16:00:29"
+date = "2024-08-18T08:01:20"
 aliases = "/packages/220894"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/wwmm/pulseeffects"
 arch = "x86_64"
-size = "1174912"
-usize = "8230283"
-sha1sum = "a10c9cf086240d497a25b79c8ac6f4e92b6580c6"
+size = "1176152"
+usize = "8354682"
+sha1sum = "13f8a6919a887599debb241e26046e2cdfceb8c7"
 depends = "['fmtlib>=11.0.1', 'gsl>=2.8', 'intel-tbb', 'ladspa_sdk', 'libadwaita', 'libbs2b', 'libebur128', 'libsigc++3', 'lsp-plugins', 'lzo', 'pipewire', 'rnnoise', 'rubberband', 'soundtouch', 'speexdsp', 'zita-convolver']"
 +++
 ### Description: 
@@ -20,8 +20,8 @@ Audio Effects for Pipewire Applications
 * /usr/bin/easyeffects
 * /usr/share/applications/com.github.wwmm.easyeffects.desktop
 * /usr/share/dbus-1/services/com.github.wwmm.easyeffects.service
-* /usr/share/doc/easyeffects-7.1.7/LICENSE
-* /usr/share/doc/easyeffects-7.1.7/README.md
+* /usr/share/doc/easyeffects-7.1.8/LICENSE
+* /usr/share/doc/easyeffects-7.1.8/README.md
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.autogain.gschema.xml
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.bassenhancer.gschema.xml
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.bassloudness.gschema.xml
@@ -115,8 +115,9 @@ Audio Effects for Pipewire Applications
 * /usr/share/locale/es_VE/LC_MESSAGES/easyeffects-news.mo
 * /usr/share/locale/es_VE/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/eu/LC_MESSAGES/easyeffects.mo
+* /usr/share/locale/fr/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/fr_FR/LC_MESSAGES/easyeffects-news.mo
-* /usr/share/locale/fr_FR/LC_MESSAGES/easyeffects.mo
+* /usr/share/locale/ga/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/gl/LC_MESSAGES/easyeffects-news.mo
 * /usr/share/locale/gl/LC_MESSAGES/easyeffects.mo
 * /usr/share/locale/hr/LC_MESSAGES/easyeffects-news.mo
