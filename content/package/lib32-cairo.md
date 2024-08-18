@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-cairo 1.18.0-5"
-version = "1.18.0-5"
+title = "lib32-cairo 1.18.0-6"
+version = "1.18.0-6"
 description = "A vector graphics library with cross-device output support ( 32bit )"
-date = "2024-08-06T09:01:58"
+date = "2024-08-18T19:09:58"
 aliases = "/packages/218971"
 categories = ['lib32-extra']
 upstreamurl = "https://cairographics.org"
 arch = "x86_64"
-size = "585348"
-usize = "1650680"
-sha1sum = "d152e6a03b7d39c3e8d92f033ae45429afd6e87b"
-depends = "['lib32-binutils>=2.43', 'lib32-fontconfig>=2.12.1-2', 'lib32-freetype2', 'lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.24', 'lib32-libx11', 'lib32-libxcb', 'lib32-libxext', 'lib32-libxrender>=0.9.9-5', 'lib32-lzo', 'lib32-pixman>=0.32.8-3']"
+size = "584224"
+usize = "1651192"
+sha1sum = "92f49c7a0175f26c5c90da5f10cd3417f602609c"
+depends = "['lib32-binutils>=2.43.1', 'lib32-fontconfig>=2.12.1-2', 'lib32-freetype2', 'lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.24', 'lib32-libx11', 'lib32-libxcb', 'lib32-libxext', 'lib32-libxrender>=0.9.9-5', 'lib32-lzo', 'lib32-pixman>=0.32.8-3']"
 reverse_depends = "['lib32-harfbuzz', 'lib32-pango', 'steam-native']"
 +++
 ### Description: 
