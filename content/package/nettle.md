@@ -12,7 +12,7 @@ size = "597140"
 usize = "1753888"
 sha1sum = "5193c72698fde279ffd6112cd2a808fb2b631f81"
 depends = "['gmp>=6.1.2-12']"
-reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad', 'libarchive', 'opendht', 'pacman-g2', 'qemu', 'rdfind', 'squid', 'supertuxkart', 'telepathy-salut', 'xorg-server-xwayland']"
+reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad', 'libarchive', 'opendht', 'pacman-g2', 'qemu', 'rdfind', 'sequoia-sq', 'sequoia-sqv', 'squid', 'supertuxkart', 'telepathy-salut', 'xorg-server-xwayland']"
 +++
 ### Description: 
 A low-level cryptographic library
