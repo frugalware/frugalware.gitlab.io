@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pacman-g2 3.9.4-55"
-version = "3.9.4-55"
+title = "pacman-g2 3.9.4-56"
+version = "3.9.4-56"
 description = "A .tar.xz based package manager library (libpacman) and client (pacman-g2) with dependency support."
-date = "2024-08-15T09:49:49"
+date = "2024-08-19T09:18:34"
 aliases = "/packages/14795"
 categories = ['base']
 upstreamurl = "https://ftp.frugalware.org/pub/other/pacman-g2/"
 arch = "x86_64"
-size = "3181776"
-usize = "8275045"
-sha1sum = "3ffc72c3deb1275afa1da5f7695f6964a21616ad"
+size = "3179036"
+usize = "8269853"
+sha1sum = "6e54cb451d959557c00c8ce08b6f06d6718fc399"
 depends = "['coreutils', 'diffutils', 'glibc>=2.36', 'grep>=2.5.3-4', 'libarchive>=3.3.2', 'libeatmydata', 'lz4>=r131-8', 'nettle>=3.5.1', 'openssl>=3.0.7', 'python3>=3.12', 'shadow', 'util-linux>=2.28.2-2', 'xz>=5.2.2-4', 'zstd']"
 reverse_depends = "['etckeeper', 'pacman-tools']"
 +++
@@ -48,10 +48,8 @@ A .tar.xz based package manager library (libpacman) and client (pacman-g2) with 
 * /usr/share/doc/pacman-g2-3.9.4/ChangeLog
 * /usr/share/doc/pacman-g2-3.9.4/COPYING
 * /usr/share/doc/pacman-g2-3.9.4/HACKING
-* /usr/share/doc/pacman-g2-3.9.4/LICENSE
 * /usr/share/doc/pacman-g2-3.9.4/NEWS
 * /usr/share/doc/pacman-g2-3.9.4/README
-* /usr/share/doc/pacman-g2-3.9.4/README.md
 * /usr/share/doc/pacman-g2-3.9.4/TODO
 * /usr/share/locale/da/LC_MESSAGES/libpacman.mo
 * /usr/share/locale/da/LC_MESSAGES/pacman-g2.mo
