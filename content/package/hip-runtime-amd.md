@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "hip-runtime-amd 6.0.2-1"
-version = "6.0.2-1"
+title = "hip-runtime-amd 6.2.0-1"
+version = "6.2.0-1"
 description = "Heterogeneous Interface for Portability ROCm"
-date = "2024-03-02T20:43:21"
+date = "2024-08-19T13:23:20"
 aliases = "/packages/221255"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/projects/HIP/en/latest/"
 arch = "x86_64"
-size = "9102804"
-usize = "28434775"
-sha1sum = "9703c71867b878d756368b782a4146ec30eb86dc"
-depends = "['comgr', 'libglvnd', 'rocm-core', 'rocminfo']"
+size = "9199748"
+usize = "27308522"
+sha1sum = "1ab9b82eb3f843c30873fed149e9d613ba1ea457"
+depends = "['comgr', 'libglvnd', 'rocm-core', 'rocminfo', 'rocprofiler-register']"
 reverse_depends = "['roctracer']"
 +++
 ### Description: 
@@ -19,19 +19,19 @@ Heterogeneous Interface for Portability ROCm
 
 ### Files: 
 * /opt/rocm/bin/hipcc
-* /opt/rocm/bin/hipcc.bat
 * /opt/rocm/bin/hipcc.bin
 * /opt/rocm/bin/hipcc.pl
 * /opt/rocm/bin/hipcc_cmake_linker_helper
 * /opt/rocm/bin/hipconfig
-* /opt/rocm/bin/hipconfig.bat
 * /opt/rocm/bin/hipconfig.bin
 * /opt/rocm/bin/hipconfig.pl
 * /opt/rocm/bin/hipdemangleatp
 * /opt/rocm/bin/hipvars.pm
 * /opt/rocm/bin/roc-obj
 * /opt/rocm/bin/roc-obj-extract
+* /opt/rocm/bin/roc-obj-extract.bat
 * /opt/rocm/bin/roc-obj-ls
+* /opt/rocm/bin/roc-obj-ls.bat
 * /opt/rocm/include/hip/amd_detail/amd_channel_descriptor.h
 * /opt/rocm/include/hip/amd_detail/amd_device_functions.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_atomic.h
@@ -41,6 +41,7 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/include/hip/amd_detail/amd_hip_complex.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_cooperative_groups.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_fp16.h
+* /opt/rocm/include/hip/amd_detail/amd_hip_fp8.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_gl_interop.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_math_constants.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_runtime.h
@@ -50,6 +51,7 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/include/hip/amd_detail/amd_math_functions.h
 * /opt/rocm/include/hip/amd_detail/amd_surface_functions.h
 * /opt/rocm/include/hip/amd_detail/amd_warp_functions.h
+* /opt/rocm/include/hip/amd_detail/amd_warp_sync_functions.h
 * /opt/rocm/include/hip/amd_detail/concepts.hpp
 * /opt/rocm/include/hip/amd_detail/device_library_decls.h
 * /opt/rocm/include/hip/amd_detail/functional_grid_launch.hpp
@@ -57,6 +59,8 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/include/hip/amd_detail/grid_launch.hpp
 * /opt/rocm/include/hip/amd_detail/grid_launch_GGL.hpp
 * /opt/rocm/include/hip/amd_detail/helpers.hpp
+* /opt/rocm/include/hip/amd_detail/hip_api_trace.hpp
+* /opt/rocm/include/hip/amd_detail/hip_assert.h
 * /opt/rocm/include/hip/amd_detail/hip_cooperative_groups_helper.h
 * /opt/rocm/include/hip/amd_detail/hip_fp16_gcc.h
 * /opt/rocm/include/hip/amd_detail/hip_fp16_math_fwd.h
@@ -83,6 +87,7 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/include/hip/hip_deprecated.h
 * /opt/rocm/include/hip/hip_ext.h
 * /opt/rocm/include/hip/hip_fp16.h
+* /opt/rocm/include/hip/hip_fp8.h
 * /opt/rocm/include/hip/hip_gl_interop.h
 * /opt/rocm/include/hip/hip_hcc.h
 * /opt/rocm/include/hip/hip_math_constants.h
@@ -117,16 +122,16 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/lib/cmake/hiprtc/hiprtc-targets.cmake
 * /opt/rocm/lib/libamdhip64.so
 * /opt/rocm/lib/libamdhip64.so.6
-* /opt/rocm/lib/libamdhip64.so.6.0.32831
+* /opt/rocm/lib/libamdhip64.so.6.2.41133
 * /opt/rocm/lib/libhiprtc-builtins.so
 * /opt/rocm/lib/libhiprtc-builtins.so.6
-* /opt/rocm/lib/libhiprtc-builtins.so.6.0.32831
+* /opt/rocm/lib/libhiprtc-builtins.so.6.2.41133
 * /opt/rocm/lib/libhiprtc.so
 * /opt/rocm/lib/libhiprtc.so.6
-* /opt/rocm/lib/libhiprtc.so.6.0.32831
+* /opt/rocm/lib/libhiprtc.so.6.2.41133
 * /opt/rocm/share/doc/hip-asan/LICENSE.txt
 * /opt/rocm/share/doc/hip/LICENSE.txt
 * /opt/rocm/share/hip/version
-* /usr/share/doc/hip-runtime-amd-6.0.2/README.md
-* /usr/share/doc/hip-runtime-amd-6.0.2/RELEASE.md
-* /usr/share/doc/hip-runtime-amd-6.0.2/VERSION
+* /usr/share/doc/hip-runtime-amd-6.2.0/README.md
+* /usr/share/doc/hip-runtime-amd-6.2.0/RELEASE.md
+* /usr/share/doc/hip-runtime-amd-6.2.0/VERSION
