@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sequoia-sq 0.37.0-1"
-version = "0.37.0-1"
+title = "sequoia-sq 0.37.0-2"
+version = "0.37.0-2"
 description = "Command-line frontends for Sequoia"
-date = "2024-08-19T11:47:52"
+date = "2024-08-19T12:24:05"
 aliases = "/packages/221585"
 categories = ['apps']
 upstreamurl = "https://sequoia-pgp.org/"
 arch = "x86_64"
-size = "4766172"
+size = "4765512"
 usize = "20001654"
-sha1sum = "d6ee3ccba41bca9b137cafc860bec041705e21cd"
+sha1sum = "0754d2825e4318cb92a28e6031826aeba0aae57b"
 depends = "['bzip2', 'nettle', 'openssl', 'sqlite3']"
 +++
 ### Description: 
