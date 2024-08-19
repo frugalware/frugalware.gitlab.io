@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "minetest 5.8.0-1"
-version = "5.8.0-1"
+title = "minetest 5.9.0-1"
+version = "5.9.0-1"
 description = "Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft."
-date = "2023-12-17T20:58:20"
+date = "2024-08-19T14:22:13"
 aliases = "/packages/200098"
 categories = ['games-extra']
 upstreamurl = "http://minetest.net/"
 arch = "x86_64"
-size = "7095064"
-usize = "22166679"
-sha1sum = "53fffa41d5c0d745344da6b73e9ac63ad155e476"
+size = "6802016"
+usize = "19447509"
+sha1sum = "8d104b8db1445688d99d7037de864fb8d5dcb322"
 depends = "['curl', 'libpq', 'luajit2', 'openal']"
 reverse_depends = "['minetest-game']"
 +++
@@ -20,8 +20,8 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 ### Files: 
 * /usr/bin/minetest
 * /usr/share/applications/net.minetest.minetest.desktop
-* /usr/share/doc/minetest-5.8.0/COPYING.LESSER
-* /usr/share/doc/minetest-5.8.0/README.md
+* /usr/share/doc/minetest-5.9.0/COPYING.LESSER
+* /usr/share/doc/minetest-5.9.0/README.md
 * /usr/share/doc/minetest/client_lua_api.md
 * /usr/share/doc/minetest/lua_api.md
 * /usr/share/doc/minetest/menu_lua_api.md
@@ -31,67 +31,9 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/doc/minetest/world_format.md
 * /usr/share/icons/hicolor/128x128/apps/minetest.png
 * /usr/share/icons/hicolor/scalable/apps/minetest.svg
-* /usr/share/locale/be/LC_MESSAGES/minetest.mo
-* /usr/share/locale/bg/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ca/LC_MESSAGES/minetest.mo
-* /usr/share/locale/cs/LC_MESSAGES/minetest.mo
-* /usr/share/locale/cy/LC_MESSAGES/minetest.mo
-* /usr/share/locale/da/LC_MESSAGES/minetest.mo
-* /usr/share/locale/de/LC_MESSAGES/minetest.mo
-* /usr/share/locale/el/LC_MESSAGES/minetest.mo
-* /usr/share/locale/eo/LC_MESSAGES/minetest.mo
-* /usr/share/locale/es/LC_MESSAGES/minetest.mo
-* /usr/share/locale/et/LC_MESSAGES/minetest.mo
-* /usr/share/locale/eu/LC_MESSAGES/minetest.mo
-* /usr/share/locale/fa/LC_MESSAGES/minetest.mo
-* /usr/share/locale/fi/LC_MESSAGES/minetest.mo
-* /usr/share/locale/fil/LC_MESSAGES/minetest.mo
-* /usr/share/locale/fr/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ga/LC_MESSAGES/minetest.mo
-* /usr/share/locale/gd/LC_MESSAGES/minetest.mo
-* /usr/share/locale/gl/LC_MESSAGES/minetest.mo
-* /usr/share/locale/hu/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ia/LC_MESSAGES/minetest.mo
-* /usr/share/locale/id/LC_MESSAGES/minetest.mo
-* /usr/share/locale/it/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ja/LC_MESSAGES/minetest.mo
-* /usr/share/locale/jbo/LC_MESSAGES/minetest.mo
-* /usr/share/locale/jv/LC_MESSAGES/minetest.mo
-* /usr/share/locale/kk/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ko/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ky/LC_MESSAGES/minetest.mo
-* /usr/share/locale/lt/LC_MESSAGES/minetest.mo
-* /usr/share/locale/lv/LC_MESSAGES/minetest.mo
-* /usr/share/locale/lzh/LC_MESSAGES/minetest.mo
-* /usr/share/locale/mi/LC_MESSAGES/minetest.mo
-* /usr/share/locale/mn/LC_MESSAGES/minetest.mo
-* /usr/share/locale/mr/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ms/LC_MESSAGES/minetest.mo
-* /usr/share/locale/nb/LC_MESSAGES/minetest.mo
-* /usr/share/locale/nl/LC_MESSAGES/minetest.mo
-* /usr/share/locale/nn/LC_MESSAGES/minetest.mo
-* /usr/share/locale/oc/LC_MESSAGES/minetest.mo
-* /usr/share/locale/pl/LC_MESSAGES/minetest.mo
-* /usr/share/locale/pt/LC_MESSAGES/minetest.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ro/LC_MESSAGES/minetest.mo
-* /usr/share/locale/ru/LC_MESSAGES/minetest.mo
-* /usr/share/locale/sk/LC_MESSAGES/minetest.mo
-* /usr/share/locale/sl/LC_MESSAGES/minetest.mo
-* /usr/share/locale/sr_Cyrl/LC_MESSAGES/minetest.mo
-* /usr/share/locale/sr_Latn/LC_MESSAGES/minetest.mo
-* /usr/share/locale/sv/LC_MESSAGES/minetest.mo
-* /usr/share/locale/sw/LC_MESSAGES/minetest.mo
-* /usr/share/locale/tr/LC_MESSAGES/minetest.mo
-* /usr/share/locale/tt/LC_MESSAGES/minetest.mo
-* /usr/share/locale/uk/LC_MESSAGES/minetest.mo
-* /usr/share/locale/vi/LC_MESSAGES/minetest.mo
-* /usr/share/locale/yue/LC_MESSAGES/minetest.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/minetest.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/minetest.mo
 * /usr/share/man/man6/minetest.6.gz
 * /usr/share/man/man6/minetestserver.6.gz
-* /usr/share/metainfo/net.minetest.minetest.appdata.xml
+* /usr/share/metainfo/net.minetest.minetest.metainfo.xml
 * /usr/share/minetest/builtin/async/game.lua
 * /usr/share/minetest/builtin/async/mainmenu.lua
 * /usr/share/minetest/builtin/client/chatcommands.lua
@@ -104,15 +46,20 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/builtin/common/filterlist.lua
 * /usr/share/minetest/builtin/common/information_formspecs.lua
 * /usr/share/minetest/builtin/common/item_s.lua
+* /usr/share/minetest/builtin/common/metatable.lua
 * /usr/share/minetest/builtin/common/misc_helpers.lua
 * /usr/share/minetest/builtin/common/mod_storage.lua
 * /usr/share/minetest/builtin/common/register.lua
 * /usr/share/minetest/builtin/common/serialize.lua
 * /usr/share/minetest/builtin/common/strict.lua
+* /usr/share/minetest/builtin/common/tests/after_spec.lua
 * /usr/share/minetest/builtin/common/tests/misc_helpers_spec.lua
 * /usr/share/minetest/builtin/common/tests/serialize_spec.lua
 * /usr/share/minetest/builtin/common/tests/vector_spec.lua
 * /usr/share/minetest/builtin/common/vector.lua
+* /usr/share/minetest/builtin/emerge/env.lua
+* /usr/share/minetest/builtin/emerge/init.lua
+* /usr/share/minetest/builtin/emerge/register.lua
 * /usr/share/minetest/builtin/fstk/buttonbar.lua
 * /usr/share/minetest/builtin/fstk/dialog.lua
 * /usr/share/minetest/builtin/fstk/tabview.lua
@@ -126,6 +73,7 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/builtin/game/falling.lua
 * /usr/share/minetest/builtin/game/features.lua
 * /usr/share/minetest/builtin/game/forceloading.lua
+* /usr/share/minetest/builtin/game/hud.lua
 * /usr/share/minetest/builtin/game/init.lua
 * /usr/share/minetest/builtin/game/item.lua
 * /usr/share/minetest/builtin/game/item_entity.lua
@@ -134,21 +82,28 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/builtin/game/misc_s.lua
 * /usr/share/minetest/builtin/game/privileges.lua
 * /usr/share/minetest/builtin/game/register.lua
-* /usr/share/minetest/builtin/game/statbars.lua
 * /usr/share/minetest/builtin/game/static_spawn.lua
+* /usr/share/minetest/builtin/game/tests/test_moveaction.lua
 * /usr/share/minetest/builtin/game/voxelarea.lua
 * /usr/share/minetest/builtin/init.lua
 * /usr/share/minetest/builtin/locale/template.txt
 * /usr/share/minetest/builtin/locale/__builtin.de.tr
+* /usr/share/minetest/builtin/locale/__builtin.eo.tr
+* /usr/share/minetest/builtin/locale/__builtin.fr.tr
 * /usr/share/minetest/builtin/locale/__builtin.id.tr
 * /usr/share/minetest/builtin/locale/__builtin.it.tr
 * /usr/share/minetest/builtin/locale/__builtin.ms.tr
+* /usr/share/minetest/builtin/locale/__builtin.pt_BR.tr
 * /usr/share/minetest/builtin/locale/__builtin.ru.tr
 * /usr/share/minetest/builtin/mainmenu/async_event.lua
 * /usr/share/minetest/builtin/mainmenu/common.lua
-* /usr/share/minetest/builtin/mainmenu/content/dlg_contentstore.lua
+* /usr/share/minetest/builtin/mainmenu/content/contentdb.lua
+* /usr/share/minetest/builtin/mainmenu/content/dlg_contentdb.lua
+* /usr/share/minetest/builtin/mainmenu/content/dlg_install.lua
+* /usr/share/minetest/builtin/mainmenu/content/dlg_overwrite.lua
 * /usr/share/minetest/builtin/mainmenu/content/init.lua
 * /usr/share/minetest/builtin/mainmenu/content/pkgmgr.lua
+* /usr/share/minetest/builtin/mainmenu/content/screenshots.lua
 * /usr/share/minetest/builtin/mainmenu/content/tests/pkgmgr_spec.lua
 * /usr/share/minetest/builtin/mainmenu/content/update_detector.lua
 * /usr/share/minetest/builtin/mainmenu/dlg_config_world.lua
@@ -161,7 +116,6 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/builtin/mainmenu/dlg_version_info.lua
 * /usr/share/minetest/builtin/mainmenu/game_theme.lua
 * /usr/share/minetest/builtin/mainmenu/init.lua
-* /usr/share/minetest/builtin/mainmenu/misc.lua
 * /usr/share/minetest/builtin/mainmenu/serverlistmgr.lua
 * /usr/share/minetest/builtin/mainmenu/settings/components.lua
 * /usr/share/minetest/builtin/mainmenu/settings/dlg_change_mapgen_flags.lua
@@ -191,12 +145,15 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/client/shaders/blur_h/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/blur_v/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/blur_v/opengl_vertex.glsl
+* /usr/share/minetest/client/shaders/cloud_shader/opengl_fragment.glsl
+* /usr/share/minetest/client/shaders/cloud_shader/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/default_shader/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/default_shader/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/extract_bloom/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/extract_bloom/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/fxaa/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/fxaa/opengl_vertex.glsl
+* /usr/share/minetest/client/shaders/Irrlicht
 * /usr/share/minetest/client/shaders/minimap_shader/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/minimap_shader/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/nodes_shader/opengl_fragment.glsl
@@ -217,6 +174,8 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/client/shaders/stars_shader/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/update_exposure/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/update_exposure/opengl_vertex.glsl
+* /usr/share/minetest/client/shaders/volumetric_light/opengl_fragment.glsl
+* /usr/share/minetest/client/shaders/volumetric_light/opengl_vertex.glsl
 * /usr/share/minetest/fonts/Arimo-Bold.ttf
 * /usr/share/minetest/fonts/Arimo-BoldItalic.ttf
 * /usr/share/minetest/fonts/Arimo-Italic.ttf

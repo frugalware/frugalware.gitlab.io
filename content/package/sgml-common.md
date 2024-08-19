@@ -12,7 +12,7 @@ size = "52752"
 usize = "252784"
 sha1sum = "861102265de57a8c095553cd622c68de747fb129"
 depends = "[]"
-reverse_depends = "['docbook-sgml-dtd', 'docbook-sgml-dtd-4.1', 'opensp']"
+reverse_depends = "['docbook-sgml-dtd', 'opensp']"
 +++
 ### Description: 
 Gathers very basic stuff necessary to work with SGML and XML.

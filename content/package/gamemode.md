@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gamemode 1.8.1-3"
-version = "1.8.1-3"
+title = "gamemode 1.8.2-1"
+version = "1.8.2-1"
 description = "A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS"
-date = "2024-07-02T13:13:42"
+date = "2024-08-19T14:01:49"
 aliases = "/packages/220069"
 categories = ['games-extra']
 upstreamurl = "https://github.com/FeralInteractive/gamemode"
 arch = "x86_64"
-size = "79064"
-usize = "270634"
-sha1sum = "9c06391da81548a97e7618ee130e8f02298e8855"
+size = "79304"
+usize = "272580"
+sha1sum = "346f5019d7ab59e42a543be549c110b238e640de"
 depends = "['inih>=r49', 'libsystemd', 'polkit']"
 +++
 ### Description: 
@@ -39,8 +39,8 @@ A daemon/lib combo for Linux that allows games to request a set of optimisations
 * /usr/lib/systemd/user/gamemoded.service
 * /usr/lib/sysusers.d/gamemode.conf
 * /usr/share/dbus-1/services/com.feralinteractive.GameMode.service
-* /usr/share/doc/gamemode-1.8.1/gamemode.ini
-* /usr/share/doc/gamemode-1.8.1/README.md
+* /usr/share/doc/gamemode-1.8.2/gamemode.ini
+* /usr/share/doc/gamemode-1.8.2/README.md
 * /usr/share/gamemode/gamemode.ini
 * /usr/share/man/man1/gamemode-simulate-game.1.gz
 * /usr/share/man/man1/gamemodelist.1.gz

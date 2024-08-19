@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gamemode 1.8.1-3"
-version = "1.8.1-3"
+title = "lib32-gamemode 1.8.2-1"
+version = "1.8.2-1"
 description = "A daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS ( 32bit )"
-date = "2024-07-02T13:13:42"
+date = "2024-08-19T14:01:49"
 aliases = "/packages/221530"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/FeralInteractive/gamemode"
 arch = "x86_64"
-size = "16468"
-usize = "50888"
-sha1sum = "3d6637a4ae72e46a25a91f295aa69ad5b2163952"
+size = "16528"
+usize = "51264"
+sha1sum = "ae8a3a2bc4a5fdb417ab77c8c667a6e6011c21bd"
 depends = "['lib32-inih>=r49', 'lib32-libsystemd', 'lib32-polkit']"
 +++
 ### Description: 
