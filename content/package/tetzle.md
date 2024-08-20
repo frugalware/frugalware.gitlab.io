@@ -19,11 +19,11 @@ A jigsaw puzzle with tetrominoes for pieces.
 ### Files: 
 * /usr/bin/tetzle
 * /usr/share/applications/tetzle.desktop
-* /usr/share/doc/tetzle-2.2.3/ChangeLog
-* /usr/share/doc/tetzle-2.2.3/COPYING
-* /usr/share/doc/tetzle-2.2.3/CREDITS
-* /usr/share/doc/tetzle-2.2.3/INSTALL
-* /usr/share/doc/tetzle-2.2.3/README
+* /usr/share/doc/tetzle-3.0.0/ChangeLog
+* /usr/share/doc/tetzle-3.0.0/COPYING
+* /usr/share/doc/tetzle-3.0.0/CREDITS
+* /usr/share/doc/tetzle-3.0.0/INSTALL
+* /usr/share/doc/tetzle-3.0.0/README
 * /usr/share/icons/hicolor/1024x1024/apps/tetzle.png
 * /usr/share/icons/hicolor/128x128/apps/tetzle.png
 * /usr/share/icons/hicolor/16x16/apps/tetzle.png

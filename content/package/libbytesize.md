@@ -26,8 +26,8 @@ A tiny library providing a C class for working with arbitrary big sizes in bytes
 * /usr/lib/pkgconfig/bytesize.pc
 * /usr/lib/python3.12/site-packages/bytesize/bytesize.py
 * /usr/lib/python3.12/site-packages/bytesize/__init__.py
-* /usr/share/doc/libbytesize-2.10/LICENSE
-* /usr/share/doc/libbytesize-2.10/README.md
+* /usr/share/doc/libbytesize-2.11/LICENSE
+* /usr/share/doc/libbytesize-2.11/README.md
 * /usr/share/locale/ast/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/be/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/libbytesize.mo
@@ -44,6 +44,7 @@ A tiny library providing a C class for working with arbitrary big sizes in bytes
 * /usr/share/locale/hu/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/id/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/it/LC_MESSAGES/libbytesize.mo
+* /usr/share/locale/ja/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/ka/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/kk/LC_MESSAGES/libbytesize.mo
 * /usr/share/locale/ko/LC_MESSAGES/libbytesize.mo

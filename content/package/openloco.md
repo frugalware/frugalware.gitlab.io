@@ -73,8 +73,8 @@ An open source re-implementation of Locomotion
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/pkgconfig/fmt.pc
 * /usr/share/applications/openloco.desktop
-* /usr/share/doc/openloco-24.07/LICENSE
-* /usr/share/doc/openloco-24.07/README.md
+* /usr/share/doc/openloco-24.08/LICENSE
+* /usr/share/doc/openloco-24.08/README.md
 * /usr/share/doc/openloco/CHANGELOG.md
 * /usr/share/doc/openloco/CONTRIBUTORS.md
 * /usr/share/doc/openloco/LICENSE
