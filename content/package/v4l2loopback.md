@@ -18,7 +18,7 @@ reverse_depends = "['obs-v4l2sink']"
 v4l2-loopback device
 
 ### Files: 
-* /usr/lib/modules/6.10.5-fw1/kernel/extra/v4l2loopback.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/extra/v4l2loopback.ko.zst
 * /usr/share/doc/v4l2loopback-0.13.2/AUTHORS
 * /usr/share/doc/v4l2loopback-0.13.2/ChangeLog
 * /usr/share/doc/v4l2loopback-0.13.2/COPYING

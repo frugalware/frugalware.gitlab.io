@@ -17,7 +17,7 @@ depends = "['kernel=6.10.5-1']"
 VHBA module provides a Virtual (SCSI) HBA, which is the link between userspace daemon and linux kernel.
 
 ### Files: 
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/scsi/vhba.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/scsi/vhba.ko.zst
 * /usr/lib/udev/rules.d/60-vhba.rules
 * /usr/share/doc/vhba-module-20240202/AUTHORS
 * /usr/share/doc/vhba-module-20240202/ChangeLog

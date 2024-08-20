@@ -358,8 +358,8 @@ ZFS
 * /usr/lib/libzpool.so.5
 * /usr/lib/libzpool.so.5.0.0
 * /usr/lib/modules-load.d/zfs.conf
-* /usr/lib/modules/6.10.5-fw1/extra/spl.ko.zst
-* /usr/lib/modules/6.10.5-fw1/extra/zfs.ko.zst
+* /usr/lib/modules/6.10.6-fw1/extra/spl.ko.zst
+* /usr/lib/modules/6.10.6-fw1/extra/zfs.ko.zst
 * /usr/lib/pam-configs/zfs_key
 * /usr/lib/pkgconfig/libzfs.pc
 * /usr/lib/pkgconfig/libzfsbootenv.pc
@@ -2746,9 +2746,9 @@ ZFS
 * /usr/share/man/man8/zpool_influxdb.8.gz
 * /usr/share/man/man8/zstream.8.gz
 * /usr/share/man/man8/zstreamdump.8.gz
-* /usr/src/zfs-2.2.5/6.10.5-fw1/Module.symvers
-* /usr/src/zfs-2.2.5/6.10.5-fw1/zfs.release
-* /usr/src/zfs-2.2.5/6.10.5-fw1/zfs_config.h
+* /usr/src/zfs-2.2.5/6.10.6-fw1/Module.symvers
+* /usr/src/zfs-2.2.5/6.10.6-fw1/zfs.release
+* /usr/src/zfs-2.2.5/6.10.6-fw1/zfs_config.h
 * /usr/src/zfs-2.2.5/include/cityhash.h
 * /usr/src/zfs-2.2.5/include/linux/blkdev_compat.h
 * /usr/src/zfs-2.2.5/include/linux/compiler_compat.h

@@ -19,10 +19,10 @@ An entirely open source driver and user-space daemon that allows you to manage y
 
 ### Files: 
 * /usr/bin/openrazer-daemon
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/hid/razeraccessory.ko
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/hid/razerkbd.ko
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/hid/razerkraken.ko
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/hid/razermouse.ko
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/hid/razeraccessory.ko
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/hid/razerkbd.ko
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/hid/razerkraken.ko
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/hid/razermouse.ko
 * /usr/lib/python3.12/site-packages/openrazer-3.8.0-py3.12.egg-info/dependency_links.txt
 * /usr/lib/python3.12/site-packages/openrazer-3.8.0-py3.12.egg-info/PKG-INFO
 * /usr/lib/python3.12/site-packages/openrazer-3.8.0-py3.12.egg-info/requires.txt

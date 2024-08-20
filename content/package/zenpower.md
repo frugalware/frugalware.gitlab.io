@@ -18,6 +18,6 @@ Linux kernel driver for reading sensors for AMD Zen family CPUs
 
 ### Files: 
 * /etc/modprobe.d/zenpower.conf
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/hwmon/zenpower/zenpower.ko
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/hwmon/zenpower/zenpower.ko
 * /usr/share/doc/zenpower-0.2.0/LICENSE
 * /usr/share/doc/zenpower-0.2.0/README.md

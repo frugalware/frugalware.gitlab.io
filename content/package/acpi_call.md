@@ -18,5 +18,5 @@ license = "GPL"
 kernel module that enables calls to ACPI methods through /proc/acpi/call
 
 ### Files: 
-* /usr/lib/modules/6.10.5-fw1/kernel/drivers/acpi/acpi_call.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/acpi/acpi_call.ko.zst
 * /usr/share/doc/acpi_call-1.1.0/README.md
