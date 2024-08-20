@@ -28,6 +28,6 @@ Scalable Video Technology AV1 encoder and decoder
 * /usr/include/svt-av1/EbSvtAv1Metadata.h
 * /usr/lib/libSvtAv1Enc.so
 * /usr/lib/libSvtAv1Enc.so.2
-* /usr/lib/libSvtAv1Enc.so.2.1.2
+* /usr/lib/libSvtAv1Enc.so.2.2.0
 * /usr/lib/pkgconfig/SvtAv1Enc.pc
-* /usr/share/doc/svt-av1-2.1.2/README.md
+* /usr/share/doc/svt-av1-2.2.0/README.md
