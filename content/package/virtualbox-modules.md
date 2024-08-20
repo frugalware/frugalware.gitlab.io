@@ -18,6 +18,6 @@ reverse_depends = "['virtualbox']"
 Kernel modules for VirtualBox
 
 ### Files: 
-* /usr/lib/modules/6.10.5-fw1/kernel/misc/vboxdrv.ko.zst
-* /usr/lib/modules/6.10.5-fw1/kernel/misc/vboxnetadp.ko.zst
-* /usr/lib/modules/6.10.5-fw1/kernel/misc/vboxnetflt.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/misc/vboxdrv.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/misc/vboxnetadp.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/misc/vboxnetflt.ko.zst

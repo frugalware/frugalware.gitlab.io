@@ -24,8 +24,8 @@ VirtualBox guest Additions
 * /usr/bin/VBoxControl
 * /usr/bin/VBoxDRMClient
 * /usr/bin/VBoxService
-* /usr/lib/modules/6.10.5-fw1/kernel/misc/vboxguest.ko.zst
-* /usr/lib/modules/6.10.5-fw1/kernel/misc/vboxsf.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/misc/vboxguest.ko.zst
+* /usr/lib/modules/6.10.6-fw1/kernel/misc/vboxsf.ko.zst
 * /usr/lib/security/pam_vbox.so
 * /usr/lib/systemd/system/multi-user.target.wants/vboxdrmclient.path
 * /usr/lib/systemd/system/multi-user.target.wants/vboxdrmclient.service
