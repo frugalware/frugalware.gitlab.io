@@ -48,8 +48,8 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/lib/udev/libinput-fuzz-to-zero
 * /usr/lib/udev/rules.d/80-libinput-device-groups.rules
 * /usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
-* /usr/share/doc/libinput-1.26.1/COPYING
-* /usr/share/doc/libinput-1.26.1/README.md
+* /usr/share/doc/libinput-1.26.2/COPYING
+* /usr/share/doc/libinput-1.26.2/README.md
 * /usr/share/libinput/10-generic-keyboard.quirks
 * /usr/share/libinput/10-generic-mouse.quirks
 * /usr/share/libinput/10-generic-trackball.quirks
@@ -90,6 +90,8 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/share/libinput/50-system-hp.quirks
 * /usr/share/libinput/50-system-huawei.quirks
 * /usr/share/libinput/50-system-lenovo.quirks
+* /usr/share/libinput/50-system-lg.quirks
+* /usr/share/libinput/50-system-minisforum.quirks
 * /usr/share/libinput/50-system-pine64.quirks
 * /usr/share/libinput/50-system-sony.quirks
 * /usr/share/libinput/50-system-starlabs.quirks
