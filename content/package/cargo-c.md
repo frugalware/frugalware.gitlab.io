@@ -19,5 +19,5 @@ A cargo subcommand to build and install C-ABI compatibile dynamic and static lib
 ### Files: 
 * /usr/bin/cargo-cbuild
 * /usr/bin/cargo-cinstall
-* /usr/share/doc/cargo-c-0.10.2/LICENSE
-* /usr/share/doc/cargo-c-0.10.2/README.md
+* /usr/share/doc/cargo-c-0.10.3/LICENSE
+* /usr/share/doc/cargo-c-0.10.3/README.md

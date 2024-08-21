@@ -29,5 +29,5 @@ Fast, disk space efficient package manager
 * /usr/lib/node_modules/pnpm/dist/templates/completion.zsh
 * /usr/lib/node_modules/pnpm/dist/worker.js
 * /usr/lib/node_modules/pnpm/package.json
-* /usr/share/doc/pnpm-9.7.0/LICENSE
-* /usr/share/doc/pnpm-9.7.0/README.md
+* /usr/share/doc/pnpm-9.7.1/LICENSE
+* /usr/share/doc/pnpm-9.7.1/README.md

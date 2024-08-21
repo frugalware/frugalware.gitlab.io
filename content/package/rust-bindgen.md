@@ -18,5 +18,5 @@ Automatically generates Rust FFI bindings to C (and some C++) libraries
 
 ### Files: 
 * /usr/bin/bindgen
-* /usr/share/doc/rust-bindgen-0.69.4/LICENSE
-* /usr/share/doc/rust-bindgen-0.69.4/README.md
+* /usr/share/doc/rust-bindgen-0.70.1/LICENSE
+* /usr/share/doc/rust-bindgen-0.70.1/README.md
