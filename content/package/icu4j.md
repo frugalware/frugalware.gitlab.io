@@ -17,5 +17,12 @@ depends = "[]"
 ICU4J is a set of Java libraries providing Unicode and Globalization support.
 
 ### Files: 
-* /usr/share/doc/icu4j-73.2/README.txt
-* /usr/share/java/icu4j.jar
+* /usr/share/java/icu4j-75.1-fulljavadoc.jar
+* /usr/share/java/icu4j-75.1-sources.jar
+* /usr/share/java/icu4j-75.1.jar
+* /usr/share/java/icu4j-charset-75.1-javadoc.jar
+* /usr/share/java/icu4j-charset-75.1-sources.jar
+* /usr/share/java/icu4j-charset-75.1.jar
+* /usr/share/java/icu4j-localespi-75.1-javadoc.jar
+* /usr/share/java/icu4j-localespi-75.1-sources.jar
+* /usr/share/java/icu4j-localespi-75.1.jar
