@@ -18,13 +18,13 @@ Filesystem events monitoring
 
 ### Files: 
 * /usr/bin/watchmedo
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/watchdog-4.0.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/watchdog-4.0.2-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/watchdog/events.py
 * /usr/lib/python3.12/site-packages/watchdog/observers/api.py
 * /usr/lib/python3.12/site-packages/watchdog/observers/fsevents.py
@@ -76,7 +76,7 @@ Filesystem events monitoring
 * /usr/lib/python3.12/site-packages/watchdog/__pycache__/version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/watchdog/__pycache__/watchmedo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/watchdog/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/watchdog-4.0.1/AUTHORS
-* /usr/share/doc/watchdog-4.0.1/COPYING
-* /usr/share/doc/watchdog-4.0.1/LICENSE
-* /usr/share/doc/watchdog-4.0.1/README.rst
+* /usr/share/doc/watchdog-4.0.2/AUTHORS
+* /usr/share/doc/watchdog-4.0.2/COPYING
+* /usr/share/doc/watchdog-4.0.2/LICENSE
+* /usr/share/doc/watchdog-4.0.2/README.rst

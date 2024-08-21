@@ -29,8 +29,8 @@ A DHCP client daemon
 * /usr/share/dhcpcd/hooks/15-timezone
 * /usr/share/dhcpcd/hooks/29-lookup-hostname
 * /usr/share/dhcpcd/hooks/50-yp.conf
-* /usr/share/doc/dhcpcd-10.0.8/LICENSE
-* /usr/share/doc/dhcpcd-10.0.8/README.md
+* /usr/share/doc/dhcpcd-10.0.9/LICENSE
+* /usr/share/doc/dhcpcd-10.0.9/README.md
 * /usr/share/man/man5/dhcpcd.conf.5.gz
 * /usr/share/man/man8/dhcpcd-run-hooks.8.gz
 * /usr/share/man/man8/dhcpcd.8.gz
