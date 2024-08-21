@@ -59,9 +59,9 @@ Mozilla Firefox web browser
 * /usr/lib/firefox/removed-files
 * /usr/lib/firefox/vaapitest
 * /usr/share/applications/firefox.desktop
-* /usr/share/doc/firefox-129.0.1/AUTHORS
-* /usr/share/doc/firefox-129.0.1/LICENSE
-* /usr/share/doc/firefox-129.0.1/README.txt
+* /usr/share/doc/firefox-129.0.2/AUTHORS
+* /usr/share/doc/firefox-129.0.2/LICENSE
+* /usr/share/doc/firefox-129.0.2/README.txt
 * /usr/share/icons/hicolor/16x16/apps/firefox.png
 * /usr/share/icons/hicolor/22x22/apps/firefox.png
 * /usr/share/icons/hicolor/24x24/apps/firefox.png
