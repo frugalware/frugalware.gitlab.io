@@ -24,5 +24,5 @@ A new type of shell
 * /usr/bin/nu_plugin_gstat
 * /usr/bin/nu_plugin_inc
 * /usr/bin/nu_plugin_query
-* /usr/share/doc/nushell-0.96.1/LICENSE
-* /usr/share/doc/nushell-0.96.1/README.md
+* /usr/share/doc/nushell-0.97.1/LICENSE
+* /usr/share/doc/nushell-0.97.1/README.md

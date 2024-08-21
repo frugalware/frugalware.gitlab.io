@@ -138,8 +138,8 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.20.0/LICENSE
-* /usr/share/doc/signal-desktop-7.20.0/README.md
+* /usr/share/doc/signal-desktop-7.20.1/LICENSE
+* /usr/share/doc/signal-desktop-7.20.1/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png

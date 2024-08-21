@@ -24,6 +24,6 @@ C Implementation of the BLAKE3 cryptographic hash function
 * /usr/lib/cmake/blake3/blake3-targets.cmake
 * /usr/lib/libblake3.so
 * /usr/lib/libblake3.so.0
-* /usr/lib/libblake3.so.1.5.3
+* /usr/lib/libblake3.so.1.5.4
 * /usr/lib/pkgconfig/libblake3.pc
-* /usr/share/doc/blake3-1.5.3/README.md
+* /usr/share/doc/blake3-1.5.4/README.md

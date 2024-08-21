@@ -51,12 +51,12 @@ COIN-OR Cut Generation Library
 * /usr/include/coin/CglZeroHalf.hpp
 * /usr/lib/libCgl.so
 * /usr/lib/libCgl.so.1
-* /usr/lib/libCgl.so.1.10.8
+* /usr/lib/libCgl.so.1.10.9
 * /usr/lib/pkgconfig/cgl.pc
 * /usr/share/coin/doc/Cgl/AUTHORS
 * /usr/share/coin/doc/Cgl/cgl_addlibs.txt
 * /usr/share/coin/doc/Cgl/LICENSE
-* /usr/share/doc/coin-or-cgl-0.60.8/AUTHORS
-* /usr/share/doc/coin-or-cgl-0.60.8/INSTALL
-* /usr/share/doc/coin-or-cgl-0.60.8/LICENSE
-* /usr/share/doc/coin-or-cgl-0.60.8/README.md
+* /usr/share/doc/coin-or-cgl-0.60.9/AUTHORS
+* /usr/share/doc/coin-or-cgl-0.60.9/INSTALL
+* /usr/share/doc/coin-or-cgl-0.60.9/LICENSE
+* /usr/share/doc/coin-or-cgl-0.60.9/README.md
