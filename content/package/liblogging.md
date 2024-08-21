@@ -25,9 +25,13 @@ Easy to use, portable, open source library for system logging
 * /usr/lib/liblogging-stdlog.so.0
 * /usr/lib/liblogging-stdlog.so.0.1.0
 * /usr/lib/pkgconfig/liblogging-stdlog.pc
-* /usr/share/doc/liblogging-1.0.6/ChangeLog
-* /usr/share/doc/liblogging-1.0.6/COPYING
-* /usr/share/doc/liblogging-1.0.6/INSTALL
-* /usr/share/doc/liblogging-1.0.6/README
+* /usr/share/doc/liblogging-1.0.7/AUTHORS
+* /usr/share/doc/liblogging-1.0.7/ChangeLog
+* /usr/share/doc/liblogging-1.0.7/COPYING
+* /usr/share/doc/liblogging-1.0.7/INSTALL
+* /usr/share/doc/liblogging-1.0.7/LICENSE
+* /usr/share/doc/liblogging-1.0.7/README
+* /usr/share/doc/liblogging-1.0.7/README.md
+* /usr/share/doc/liblogging-1.0.7/README.txt
 * /usr/share/man/man1/stdlogctl.1.gz
 * /usr/share/man/man3/stdlog.3.gz

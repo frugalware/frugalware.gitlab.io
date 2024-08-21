@@ -80,11 +80,11 @@ COIN-OR collection of utility classes
 * /usr/include/coin/Coin_C_defines.h
 * /usr/lib/libCoinUtils.so
 * /usr/lib/libCoinUtils.so.3
-* /usr/lib/libCoinUtils.so.3.11.11
+* /usr/lib/libCoinUtils.so.3.11.12
 * /usr/lib/pkgconfig/coinutils.pc
 * /usr/share/coin/doc/CoinUtils/AUTHORS
 * /usr/share/coin/doc/CoinUtils/coinutils_addlibs.txt
 * /usr/share/coin/doc/CoinUtils/LICENSE
-* /usr/share/doc/coin-or-coinutils-2.11.11/AUTHORS
-* /usr/share/doc/coin-or-coinutils-2.11.11/LICENSE
-* /usr/share/doc/coin-or-coinutils-2.11.11/README.md
+* /usr/share/doc/coin-or-coinutils-2.11.12/AUTHORS
+* /usr/share/doc/coin-or-coinutils-2.11.12/LICENSE
+* /usr/share/doc/coin-or-coinutils-2.11.12/README.md
