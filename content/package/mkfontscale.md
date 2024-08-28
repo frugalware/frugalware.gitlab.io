@@ -12,7 +12,7 @@ size = "42904"
 usize = "123053"
 sha1sum = "0a24baae8f81dcfadd20ef45b5fd1325b004e098"
 depends = "['freetype2>=2.9', 'libfontenc>=1.1.3-6']"
-reverse_depends = "['anonymous-pro-ttf', 'artwiz-fonts', 'crosextrafonts-caladea', 'crosextrafonts-carlito', 'dejavu-lgc-ttf', 'dejavu-ttf', 'encodings', 'firacode', 'font-cursor-misc', 'font-misc-misc', 'fontconfig', 'freefont-ttf', 'hack', 'inconsolata-otf', 'monaco_linux', 'nerd-fonts', 'noto-cjk', 'noto-emoji', 'noto-fonts', 'ohsnap', 'open-sans', 'otf-texgyre', 'sourcecodepro-fonts', 'terminus-font', 'terminus-font-ttf', 'terminusmod', 'termsyn', 'ttf-agave', 'ttf-emojione-color', 'ttf-fantasque-sans', 'ttf-linux-libertine', 'ttf-mintspirit', 'ttf-roboto', 'ttf-symbola', 'ttf-twemoji-color', 'ttf-ubuntu-font-family', 'ttf-zick-fonts', 'unifont', 'urw-fonts']"
+reverse_depends = "['anonymous-pro-ttf', 'artwiz-fonts', 'crosextrafonts-caladea', 'crosextrafonts-carlito', 'dejavu-lgc-ttf', 'dejavu-ttf', 'encodings', 'firacode', 'font-cursor-misc', 'font-misc-misc', 'fontconfig', 'freefont-ttf', 'hack', 'inconsolata-otf', 'monaco_linux', 'nerd-fonts', 'noto-cjk', 'noto-emoji', 'noto-fonts', 'ohsnap', 'open-sans', 'otf-texgyre', 'sourcecodepro-fonts', 'terminus-font', 'terminus-font-ttf', 'terminusmod', 'termsyn', 'ttf-agave', 'ttf-fantasque-sans', 'ttf-linux-libertine', 'ttf-mintspirit', 'ttf-roboto', 'ttf-symbola', 'ttf-twemoji-color', 'ttf-ubuntu-font-family', 'ttf-zick-fonts', 'unifont', 'urw-fonts']"
 license = "GPL2"
 +++
 ### Description: 
