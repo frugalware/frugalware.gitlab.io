@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmic 3.4.0-1"
-version = "3.4.0-1"
+title = "gmic 3.4.1-1"
+version = "3.4.1-1"
 description = "Image procession framework"
-date = "2024-06-18T08:23:31"
+date = "2024-08-28T20:17:07"
 aliases = "/packages/220087"
 categories = ['xapps-extra']
 upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "32537300"
-usize = "65235950"
-sha1sum = "dac7995778168e536361724e9a2cdea94ba1e7c2"
+size = "30627632"
+usize = "65494405"
+sha1sum = "74a2213d86b22ee3d4a7ee4d75a651da3ebf274d"
 depends = "['curl', 'gimp', 'openblas', 'opencv>=4.10.0', 'openexr>=3.2.0']"
 reverse_depends = "['darktable']"
 +++
@@ -26,17 +26,17 @@ Image procession framework
 * /usr/lib/gimp/2.0/plug-ins/gmic_gimp_qt
 * /usr/lib/libcgmic.so
 * /usr/lib/libcgmic.so.3
-* /usr/lib/libcgmic.so.340
+* /usr/lib/libcgmic.so.341
 * /usr/lib/libgmic.so
 * /usr/lib/libgmic.so.3
-* /usr/lib/libgmic.so.340
+* /usr/lib/libgmic.so.341
 * /usr/share/applications/gmic_qt.desktop
 * /usr/share/applications/zart.desktop
 * /usr/share/bash-completion/completions/gmic
-* /usr/share/doc/gmic-3.4.0/COPYING
-* /usr/share/doc/gmic-3.4.0/LICENSE
-* /usr/share/doc/gmic-3.4.0/README
-* /usr/share/doc/gmic-3.4.0/README.md
+* /usr/share/doc/gmic-3.4.1/COPYING
+* /usr/share/doc/gmic-3.4.1/LICENSE
+* /usr/share/doc/gmic-3.4.1/README
+* /usr/share/doc/gmic-3.4.1/README.md
 * /usr/share/gmic/gmic_cluts.gmz
 * /usr/share/gmic/gmic_denoise_cnn.gmz
 * /usr/share/gmic/gmic_fonts.gmz
