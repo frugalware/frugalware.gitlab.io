@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mosh 1.4.0-14"
-version = "1.4.0-14"
+title = "mosh 1.4.0-15"
+version = "1.4.0-15"
 description = "SSH replacement with roaming, supports intermittent connectivity"
-date = "2024-08-03T17:18:36"
+date = "2024-08-28T14:52:11"
 aliases = "/packages/217599"
 categories = ['apps-extra']
 upstreamurl = "https://mosh.org"
 arch = "x86_64"
-size = "203884"
-usize = "651065"
-sha1sum = "0d637bc16fc9def7fade192eddd9bdb5ca6670d9"
-depends = "['libstdc++', 'ncurses>=6.5', 'openssl>=3.1.0', 'perl>=5.22.0', 'protobuf>=27.3', 'zlib>=1.2.12']"
+size = "203748"
+usize = "655769"
+sha1sum = "ac25b403e873e3a1cf7aa0baaafed1fd90356b32"
+depends = "['libstdc++', 'ncurses>=6.5', 'openssl>=3.1.0', 'perl>=5.22.0', 'protobuf>=27.4', 'zlib>=1.2.12']"
 +++
 ### Description: 
 SSH replacement with roaming, supports intermittent connectivity

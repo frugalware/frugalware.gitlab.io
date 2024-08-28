@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "courier-imap 5.2.6-1"
-version = "5.2.6-1"
+title = "courier-imap 5.2.9-1"
+version = "5.2.9-1"
 description = "The Courier IMAP and POP3 server"
-date = "2024-01-14T16:11:29"
+date = "2024-08-28T14:26:45"
 aliases = "/packages/2952"
 categories = ['network-extra']
 upstreamurl = "http://www.courier-mta.org/imap/"
 arch = "x86_64"
-size = "322460"
-usize = "1048029"
-sha1sum = "bbf8028ed8e59846da47f37ec1a1d5f5c1271acc"
-depends = "['courier-authlib>=0.69.0', 'libidn>=1.35', 'openssl>=3.1.0']"
+size = "326772"
+usize = "1000603"
+sha1sum = "96c154e85d5364a68e7dee4e3a7c9bf00202d22c"
+depends = "['courier-authlib>=0.72.0', 'libidn>=1.35', 'openssl>=3.1.0']"
 +++
 ### Description: 
 The Courier IMAP and POP3 server
@@ -46,24 +46,24 @@ The Courier IMAP and POP3 server
 * /usr/lib/systemd/system/courier-imapd.service
 * /usr/lib/systemd/system/courier-pop3d-ssl.service
 * /usr/lib/systemd/system/courier-pop3d.service
-* /usr/share/doc/courier-imap-5.2.6/AUTHORS
-* /usr/share/doc/courier-imap-5.2.6/ChangeLog
-* /usr/share/doc/courier-imap-5.2.6/COPYING
-* /usr/share/doc/courier-imap-5.2.6/COPYING.GPL
-* /usr/share/doc/courier-imap-5.2.6/examples/imapd-ssl.dist
-* /usr/share/doc/courier-imap-5.2.6/examples/imapd.dist
-* /usr/share/doc/courier-imap-5.2.6/examples/pop3d-ssl.dist
-* /usr/share/doc/courier-imap-5.2.6/examples/pop3d.dist
-* /usr/share/doc/courier-imap-5.2.6/examples/quotawarnmsg.example
-* /usr/share/doc/courier-imap-5.2.6/examples/ssl/imapd.cnf
-* /usr/share/doc/courier-imap-5.2.6/examples/ssl/pop3d.cnf
-* /usr/share/doc/courier-imap-5.2.6/INSTALL
-* /usr/share/doc/courier-imap-5.2.6/INSTALL.html
-* /usr/share/doc/courier-imap-5.2.6/INSTALL.html.in
-* /usr/share/doc/courier-imap-5.2.6/NEWS
-* /usr/share/doc/courier-imap-5.2.6/README
-* /usr/share/doc/courier-imap-5.2.6/README.cygwin
-* /usr/share/doc/courier-imap-5.2.6/README.frugalware
+* /usr/share/doc/courier-imap-5.2.9/AUTHORS
+* /usr/share/doc/courier-imap-5.2.9/ChangeLog
+* /usr/share/doc/courier-imap-5.2.9/COPYING
+* /usr/share/doc/courier-imap-5.2.9/COPYING.GPL
+* /usr/share/doc/courier-imap-5.2.9/examples/imapd-ssl.dist
+* /usr/share/doc/courier-imap-5.2.9/examples/imapd.dist
+* /usr/share/doc/courier-imap-5.2.9/examples/pop3d-ssl.dist
+* /usr/share/doc/courier-imap-5.2.9/examples/pop3d.dist
+* /usr/share/doc/courier-imap-5.2.9/examples/quotawarnmsg.example
+* /usr/share/doc/courier-imap-5.2.9/examples/ssl/imapd.cnf
+* /usr/share/doc/courier-imap-5.2.9/examples/ssl/pop3d.cnf
+* /usr/share/doc/courier-imap-5.2.9/INSTALL
+* /usr/share/doc/courier-imap-5.2.9/INSTALL.html
+* /usr/share/doc/courier-imap-5.2.9/INSTALL.html.in
+* /usr/share/doc/courier-imap-5.2.9/NEWS
+* /usr/share/doc/courier-imap-5.2.9/README
+* /usr/share/doc/courier-imap-5.2.9/README.cygwin
+* /usr/share/doc/courier-imap-5.2.9/README.frugalware
 * /usr/share/man/man1/couriertcpd.1.gz
 * /usr/share/man/man1/maildiracl.1.gz
 * /usr/share/man/man1/maildirkw.1.gz
