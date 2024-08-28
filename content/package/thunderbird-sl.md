@@ -12,7 +12,7 @@ size = "681460"
 usize = "742773"
 sha1sum = "8fd56b1f6a0a23a39485ea5a8be8a8103918192d"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Slovenian language support for Thunderbird

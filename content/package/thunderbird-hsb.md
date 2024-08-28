@@ -12,7 +12,7 @@ size = "715780"
 usize = "778026"
 sha1sum = "503d97dabdb51557aaaa8c9e5ab20096e30ee322"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Upper Sorbian language support for Thunderbird

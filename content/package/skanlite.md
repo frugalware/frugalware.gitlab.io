@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skanlite 24.05.2-1"
-version = "24.05.2-1"
+title = "skanlite 24.08.0-1"
+version = "24.08.0-1"
 description = "Image Scanning Application for KDE"
-date = "2024-07-05T15:03:28"
+date = "2024-08-23T20:28:18"
 aliases = "/packages/103475"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2461368"
-usize = "3046733"
-sha1sum = "e9b8fb160f7a9973efe3e8288fd738cdf4110cb9"
-depends = "['kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'kxmlgui5>=5.116.0', 'libksane5>=24.05.2']"
+size = "2461400"
+usize = "3047775"
+sha1sum = "7aede177b28b72817bc720be78adacdcd64a325f"
+depends = "['kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'kxmlgui5>=5.116.0', 'libksane5>=24.08.0']"
 +++
 ### Description: 
 Image Scanning Application for KDE
@@ -90,7 +90,7 @@ Image Scanning Application for KDE
 * /usr/share/doc/HTML/uk/skanlite/settings.png
 * /usr/share/doc/HTML/uk/skanlite/zoom-in.png
 * /usr/share/doc/HTML/uk/skanlite/zoom-to-fit.png
-* /usr/share/icons/hicolor/48x48/apps/org.kde.skanlite.svg
+* /usr/share/icons/hicolor/scalable/apps/org.kde.skanlite.svg
 * /usr/share/locale/ar/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/az/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/be/LC_MESSAGES/skanlite.mo

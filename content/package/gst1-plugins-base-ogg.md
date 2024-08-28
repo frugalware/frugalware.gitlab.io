@@ -12,7 +12,7 @@ size = "97092"
 usize = "243040"
 sha1sum = "f25987d51713524031c98f231409404f73a0443f"
 depends = "['gst1-plugins-base>=1.24.6', 'gstreamer1>=1.24.6', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5']"
-reverse_depends = "['./kamoso', 'kamoso']"
+reverse_depends = "['kamoso']"
 +++
 ### Description: 
 GStreamer ogg plugin (Base).

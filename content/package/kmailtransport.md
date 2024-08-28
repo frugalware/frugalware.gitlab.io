@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kmailtransport 24.05.2-1"
-version = "24.05.2-1"
+title = "kmailtransport 24.08.0-1"
+version = "24.08.0-1"
 description = "Mail Transport Service"
-date = "2024-07-05T10:49:36"
+date = "2024-08-22T15:23:53"
 aliases = "/packages/218331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "257772"
-usize = "1260154"
-sha1sum = "ab67ea18ae2e493658cae6ff3da4b7f4c0c399f4"
-depends = "['akonadi-contacts>=24.05.2', 'kcmutils>=6.3.0', 'ksmtp>=24.05.2', 'libkgapi>=24.05.2', 'qtkeychain']"
-reverse_depends = "['./akonadi-calendar', './kalarm', './kmail-account-wizard', './libksieve', './messagelib', 'akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
+size = "248840"
+usize = "1226725"
+sha1sum = "00ec817677ab113863b1d1744bd141318442caef"
+depends = "['akonadi-contacts>=24.08.0', 'kcmutils>=6.5.0', 'ksmtp>=24.08.0', 'libkgapi>=24.08.0', 'qtkeychain']"
+reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
 Mail Transport Service
@@ -39,8 +39,6 @@ Mail Transport Service
 * /usr/include/KPim6/MailTransport/mailtransport/transportconfigwidget.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportJob
 * /usr/include/KPim6/MailTransport/mailtransport/transportjob.h
-* /usr/include/KPim6/MailTransport/MailTransport/TransportManagementWidget
-* /usr/include/KPim6/MailTransport/mailtransport/transportmanagementwidget.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportManagementWidgetNg
 * /usr/include/KPim6/MailTransport/mailtransport/transportmanagementwidgetng.h
 * /usr/include/KPim6/MailTransport/MailTransport/TransportManager
@@ -56,10 +54,10 @@ Mail Transport Service
 * /usr/lib/cmake/KPim6MailTransport/KPim6MailTransportTargets.cmake
 * /usr/lib/libKPim6MailTransport.so
 * /usr/lib/libKPim6MailTransport.so.6
-* /usr/lib/libKPim6MailTransport.so.6.1.2
+* /usr/lib/libKPim6MailTransport.so.6.2.0
 * /usr/lib/qt6/plugins/pim6/mailtransport/mailtransport_smtpplugin.so
 * /usr/share/config.kcfg/mailtransport.kcfg
-* /usr/share/doc/kmailtransport-24.05.2/TODO
+* /usr/share/doc/kmailtransport-24.08.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/be/LC_MESSAGES/libmailtransport6.mo

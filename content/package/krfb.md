@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./krfb 24.08.0-1"
+title = "krfb 24.08.0-1"
 version = "24.08.0-1"
 description = "KRfb is a RFB protocol server (VNC)."
 date = "2024-08-22T13:59:15"
-aliases = "/packages/222416"
+aliases = "/packages/74082"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,160 +12,161 @@ size = "1259924"
 usize = "2531289"
 sha1sum = "3b2efd8cf32213f464b157e53699f3806182de53"
 depends = "['kdnssd>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'kwallet>=6.5.0', 'kwayland>=6.1.4', 'kxmlgui>=6.5.0', 'libvncserver>=0.9.11', 'libxtst']"
+reverse_depends = "['krfb-pipewire']"
 +++
 ### Description: 
 KRfb is a RFB protocol server (VNC).
 
 ### Files: 
-* krfb /usr/bin/krfb
-* krfb /usr/bin/krfb-virtualmonitor
-* krfb /usr/lib/libkrfbprivate.so.5
-* krfb /usr/lib/libkrfbprivate.so.5.0
-* krfb /usr/lib/qt6/plugins/krfb/events/x11.so
-* krfb /usr/lib/qt6/plugins/krfb/events/xdp.so
-* krfb /usr/share/applications/org.kde.krfb.desktop
-* krfb /usr/share/applications/org.kde.krfb.virtualmonitor.desktop
-* krfb /usr/share/doc/HTML/ca/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/ca/krfb/index.docbook
-* krfb /usr/share/doc/HTML/de/krfb/configuration_network.png
-* krfb /usr/share/doc/HTML/de/krfb/configuration_security.png
-* krfb /usr/share/doc/HTML/de/krfb/connection.png
-* krfb /usr/share/doc/HTML/de/krfb/email_invitation.png
-* krfb /usr/share/doc/HTML/de/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/de/krfb/index.docbook
-* krfb /usr/share/doc/HTML/de/krfb/personal_invitation.png
-* krfb /usr/share/doc/HTML/de/krfb/screenshot.png
-* krfb /usr/share/doc/HTML/en/krfb/configuration_network.png
-* krfb /usr/share/doc/HTML/en/krfb/configuration_security.png
-* krfb /usr/share/doc/HTML/en/krfb/connection.png
-* krfb /usr/share/doc/HTML/en/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/en/krfb/index.docbook
-* krfb /usr/share/doc/HTML/en/krfb/screenshot.png
-* krfb /usr/share/doc/HTML/es/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/es/krfb/index.docbook
-* krfb /usr/share/doc/HTML/et/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/et/krfb/index.docbook
-* krfb /usr/share/doc/HTML/fr/krfb/configuration_network.png
-* krfb /usr/share/doc/HTML/fr/krfb/configuration_security.png
-* krfb /usr/share/doc/HTML/fr/krfb/connection.png
-* krfb /usr/share/doc/HTML/fr/krfb/email_invitation.png
-* krfb /usr/share/doc/HTML/fr/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/fr/krfb/index.docbook
-* krfb /usr/share/doc/HTML/fr/krfb/personal_invitation.png
-* krfb /usr/share/doc/HTML/fr/krfb/screenshot.png
-* krfb /usr/share/doc/HTML/it/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/it/krfb/index.docbook
-* krfb /usr/share/doc/HTML/nl/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/nl/krfb/index.docbook
-* krfb /usr/share/doc/HTML/pl/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/pl/krfb/index.docbook
-* krfb /usr/share/doc/HTML/pt/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/pt/krfb/index.docbook
-* krfb /usr/share/doc/HTML/pt_BR/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/pt_BR/krfb/index.docbook
-* krfb /usr/share/doc/HTML/ru/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/ru/krfb/index.docbook
-* krfb /usr/share/doc/HTML/sr/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/sr/krfb/index.docbook
-* krfb /usr/share/doc/HTML/sr@latin/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/sr@latin/krfb/index.docbook
-* krfb /usr/share/doc/HTML/sv/krfb/configuration_access.png
-* krfb /usr/share/doc/HTML/sv/krfb/configuration_network.png
-* krfb /usr/share/doc/HTML/sv/krfb/configuration_session.png
-* krfb /usr/share/doc/HTML/sv/krfb/connection.png
-* krfb /usr/share/doc/HTML/sv/krfb/email_invitation.png
-* krfb /usr/share/doc/HTML/sv/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/sv/krfb/index.docbook
-* krfb /usr/share/doc/HTML/sv/krfb/invitation_management.png
-* krfb /usr/share/doc/HTML/sv/krfb/personal_invitation.png
-* krfb /usr/share/doc/HTML/sv/krfb/screenshot.png
-* krfb /usr/share/doc/HTML/uk/krfb/index.cache.bz2
-* krfb /usr/share/doc/HTML/uk/krfb/index.docbook
-* krfb /usr/share/doc/krfb-24.08.0/AUTHORS
-* krfb /usr/share/doc/krfb-24.08.0/COPYING
-* krfb /usr/share/doc/krfb-24.08.0/COPYING.DOC
-* krfb /usr/share/doc/krfb-24.08.0/COPYING.LIB
-* krfb /usr/share/doc/krfb-24.08.0/README
-* krfb /usr/share/doc/krfb-24.08.0/TODO
-* krfb /usr/share/icons/hicolor/48x48/apps/krfb.png
-* krfb /usr/share/icons/hicolor/scalable/apps/krfb.svgz
-* krfb /usr/share/krfb/krfb.notifyrc
-* krfb /usr/share/locale/af/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ar/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ast/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/be/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/bg/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/br/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/bs/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ca/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ca@valencia/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/cs/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/cy/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/da/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/de/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/el/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/en_GB/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/eo/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/es/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/et/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/eu/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/fa/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/fi/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/fr/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ga/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/gl/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/he/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/hi/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/hne/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/hr/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/hsb/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/hu/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ia/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/id/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/is/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/it/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ja/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ka/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/kk/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/km/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ko/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/lt/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/lv/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/mai/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/mk/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ml/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/mr/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ms/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/nb/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/nds/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ne/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/nl/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/nn/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/oc/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/pa/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/pl/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/pt/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/pt_BR/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ro/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ru/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/se/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sk/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sl/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sq/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sr/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sr@ijekavian/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sr@latin/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/sv/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ta/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/tg/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/th/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/tr/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/ug/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/uk/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/vi/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/xh/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/zh_CN/LC_MESSAGES/krfb.mo
-* krfb /usr/share/locale/zh_TW/LC_MESSAGES/krfb.mo
-* krfb /usr/share/metainfo/org.kde.krfb.appdata.xml
-* krfb /usr/share/qlogging-categories6/krfb.categories
+* /usr/bin/krfb
+* /usr/bin/krfb-virtualmonitor
+* /usr/lib/libkrfbprivate.so.5
+* /usr/lib/libkrfbprivate.so.5.0
+* /usr/lib/qt6/plugins/krfb/events/x11.so
+* /usr/lib/qt6/plugins/krfb/events/xdp.so
+* /usr/share/applications/org.kde.krfb.desktop
+* /usr/share/applications/org.kde.krfb.virtualmonitor.desktop
+* /usr/share/doc/HTML/ca/krfb/index.cache.bz2
+* /usr/share/doc/HTML/ca/krfb/index.docbook
+* /usr/share/doc/HTML/de/krfb/configuration_network.png
+* /usr/share/doc/HTML/de/krfb/configuration_security.png
+* /usr/share/doc/HTML/de/krfb/connection.png
+* /usr/share/doc/HTML/de/krfb/email_invitation.png
+* /usr/share/doc/HTML/de/krfb/index.cache.bz2
+* /usr/share/doc/HTML/de/krfb/index.docbook
+* /usr/share/doc/HTML/de/krfb/personal_invitation.png
+* /usr/share/doc/HTML/de/krfb/screenshot.png
+* /usr/share/doc/HTML/en/krfb/configuration_network.png
+* /usr/share/doc/HTML/en/krfb/configuration_security.png
+* /usr/share/doc/HTML/en/krfb/connection.png
+* /usr/share/doc/HTML/en/krfb/index.cache.bz2
+* /usr/share/doc/HTML/en/krfb/index.docbook
+* /usr/share/doc/HTML/en/krfb/screenshot.png
+* /usr/share/doc/HTML/es/krfb/index.cache.bz2
+* /usr/share/doc/HTML/es/krfb/index.docbook
+* /usr/share/doc/HTML/et/krfb/index.cache.bz2
+* /usr/share/doc/HTML/et/krfb/index.docbook
+* /usr/share/doc/HTML/fr/krfb/configuration_network.png
+* /usr/share/doc/HTML/fr/krfb/configuration_security.png
+* /usr/share/doc/HTML/fr/krfb/connection.png
+* /usr/share/doc/HTML/fr/krfb/email_invitation.png
+* /usr/share/doc/HTML/fr/krfb/index.cache.bz2
+* /usr/share/doc/HTML/fr/krfb/index.docbook
+* /usr/share/doc/HTML/fr/krfb/personal_invitation.png
+* /usr/share/doc/HTML/fr/krfb/screenshot.png
+* /usr/share/doc/HTML/it/krfb/index.cache.bz2
+* /usr/share/doc/HTML/it/krfb/index.docbook
+* /usr/share/doc/HTML/nl/krfb/index.cache.bz2
+* /usr/share/doc/HTML/nl/krfb/index.docbook
+* /usr/share/doc/HTML/pl/krfb/index.cache.bz2
+* /usr/share/doc/HTML/pl/krfb/index.docbook
+* /usr/share/doc/HTML/pt/krfb/index.cache.bz2
+* /usr/share/doc/HTML/pt/krfb/index.docbook
+* /usr/share/doc/HTML/pt_BR/krfb/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/krfb/index.docbook
+* /usr/share/doc/HTML/ru/krfb/index.cache.bz2
+* /usr/share/doc/HTML/ru/krfb/index.docbook
+* /usr/share/doc/HTML/sr/krfb/index.cache.bz2
+* /usr/share/doc/HTML/sr/krfb/index.docbook
+* /usr/share/doc/HTML/sr@latin/krfb/index.cache.bz2
+* /usr/share/doc/HTML/sr@latin/krfb/index.docbook
+* /usr/share/doc/HTML/sv/krfb/configuration_access.png
+* /usr/share/doc/HTML/sv/krfb/configuration_network.png
+* /usr/share/doc/HTML/sv/krfb/configuration_session.png
+* /usr/share/doc/HTML/sv/krfb/connection.png
+* /usr/share/doc/HTML/sv/krfb/email_invitation.png
+* /usr/share/doc/HTML/sv/krfb/index.cache.bz2
+* /usr/share/doc/HTML/sv/krfb/index.docbook
+* /usr/share/doc/HTML/sv/krfb/invitation_management.png
+* /usr/share/doc/HTML/sv/krfb/personal_invitation.png
+* /usr/share/doc/HTML/sv/krfb/screenshot.png
+* /usr/share/doc/HTML/uk/krfb/index.cache.bz2
+* /usr/share/doc/HTML/uk/krfb/index.docbook
+* /usr/share/doc/krfb-24.08.0/AUTHORS
+* /usr/share/doc/krfb-24.08.0/COPYING
+* /usr/share/doc/krfb-24.08.0/COPYING.DOC
+* /usr/share/doc/krfb-24.08.0/COPYING.LIB
+* /usr/share/doc/krfb-24.08.0/README
+* /usr/share/doc/krfb-24.08.0/TODO
+* /usr/share/icons/hicolor/48x48/apps/krfb.png
+* /usr/share/icons/hicolor/scalable/apps/krfb.svgz
+* /usr/share/krfb/krfb.notifyrc
+* /usr/share/locale/af/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ar/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ast/LC_MESSAGES/krfb.mo
+* /usr/share/locale/be/LC_MESSAGES/krfb.mo
+* /usr/share/locale/bg/LC_MESSAGES/krfb.mo
+* /usr/share/locale/br/LC_MESSAGES/krfb.mo
+* /usr/share/locale/bs/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ca/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/krfb.mo
+* /usr/share/locale/cs/LC_MESSAGES/krfb.mo
+* /usr/share/locale/cy/LC_MESSAGES/krfb.mo
+* /usr/share/locale/da/LC_MESSAGES/krfb.mo
+* /usr/share/locale/de/LC_MESSAGES/krfb.mo
+* /usr/share/locale/el/LC_MESSAGES/krfb.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/krfb.mo
+* /usr/share/locale/eo/LC_MESSAGES/krfb.mo
+* /usr/share/locale/es/LC_MESSAGES/krfb.mo
+* /usr/share/locale/et/LC_MESSAGES/krfb.mo
+* /usr/share/locale/eu/LC_MESSAGES/krfb.mo
+* /usr/share/locale/fa/LC_MESSAGES/krfb.mo
+* /usr/share/locale/fi/LC_MESSAGES/krfb.mo
+* /usr/share/locale/fr/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ga/LC_MESSAGES/krfb.mo
+* /usr/share/locale/gl/LC_MESSAGES/krfb.mo
+* /usr/share/locale/he/LC_MESSAGES/krfb.mo
+* /usr/share/locale/hi/LC_MESSAGES/krfb.mo
+* /usr/share/locale/hne/LC_MESSAGES/krfb.mo
+* /usr/share/locale/hr/LC_MESSAGES/krfb.mo
+* /usr/share/locale/hsb/LC_MESSAGES/krfb.mo
+* /usr/share/locale/hu/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ia/LC_MESSAGES/krfb.mo
+* /usr/share/locale/id/LC_MESSAGES/krfb.mo
+* /usr/share/locale/is/LC_MESSAGES/krfb.mo
+* /usr/share/locale/it/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ja/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ka/LC_MESSAGES/krfb.mo
+* /usr/share/locale/kk/LC_MESSAGES/krfb.mo
+* /usr/share/locale/km/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ko/LC_MESSAGES/krfb.mo
+* /usr/share/locale/lt/LC_MESSAGES/krfb.mo
+* /usr/share/locale/lv/LC_MESSAGES/krfb.mo
+* /usr/share/locale/mai/LC_MESSAGES/krfb.mo
+* /usr/share/locale/mk/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ml/LC_MESSAGES/krfb.mo
+* /usr/share/locale/mr/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ms/LC_MESSAGES/krfb.mo
+* /usr/share/locale/nb/LC_MESSAGES/krfb.mo
+* /usr/share/locale/nds/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ne/LC_MESSAGES/krfb.mo
+* /usr/share/locale/nl/LC_MESSAGES/krfb.mo
+* /usr/share/locale/nn/LC_MESSAGES/krfb.mo
+* /usr/share/locale/oc/LC_MESSAGES/krfb.mo
+* /usr/share/locale/pa/LC_MESSAGES/krfb.mo
+* /usr/share/locale/pl/LC_MESSAGES/krfb.mo
+* /usr/share/locale/pt/LC_MESSAGES/krfb.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ro/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ru/LC_MESSAGES/krfb.mo
+* /usr/share/locale/se/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sk/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sl/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sq/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sr/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/krfb.mo
+* /usr/share/locale/sv/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ta/LC_MESSAGES/krfb.mo
+* /usr/share/locale/tg/LC_MESSAGES/krfb.mo
+* /usr/share/locale/th/LC_MESSAGES/krfb.mo
+* /usr/share/locale/tr/LC_MESSAGES/krfb.mo
+* /usr/share/locale/ug/LC_MESSAGES/krfb.mo
+* /usr/share/locale/uk/LC_MESSAGES/krfb.mo
+* /usr/share/locale/vi/LC_MESSAGES/krfb.mo
+* /usr/share/locale/xh/LC_MESSAGES/krfb.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/krfb.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/krfb.mo
+* /usr/share/metainfo/org.kde.krfb.appdata.xml
+* /usr/share/qlogging-categories6/krfb.categories

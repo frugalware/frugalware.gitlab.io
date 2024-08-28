@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-gdrive 24.05.2-1"
-version = "24.05.2-1"
+title = "kio-gdrive 24.08.0-1"
+version = "24.08.0-1"
 description = "KIO Slave to access Google Drive"
-date = "2024-07-05T11:39:16"
+date = "2024-08-22T17:00:27"
 aliases = "/packages/219163"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137120"
-usize = "430621"
-sha1sum = "901ae75fae42acf4bf91da2714ee3423c1130d06"
-depends = "['dolphin>=24.05.2', 'ki18n>=6.3.0', 'kio>=6.3.0', 'libkgapi>=24.05.2', 'qtkeychain']"
+size = "135700"
+usize = "429725"
+sha1sum = "f272131d7950e1f40430714dbdf4cd0d91cdd9aa"
+depends = "['dolphin>=24.08.0', 'ki18n>=6.5.0', 'kio>=6.5.0', 'libkgapi>=24.08.0', 'qtkeychain']"
 license = "GPL"
 +++
 ### Description: 
@@ -39,8 +39,6 @@ KIO Slave to access Google Drive
 * /usr/share/doc/HTML/pt_BR/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/ru/kioslave5/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/ru/kioslave5/gdrive/index.docbook
-* /usr/share/doc/HTML/sl/kioslave5/gdrive/index.cache.bz2
-* /usr/share/doc/HTML/sl/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/sr/kioslave5/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/sr/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioslave5/gdrive/index.cache.bz2
@@ -51,11 +49,11 @@ KIO Slave to access Google Drive
 * /usr/share/doc/HTML/tr/kioslave5/gdrive/index.docbook
 * /usr/share/doc/HTML/uk/kioslave5/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioslave5/gdrive/index.docbook
-* /usr/share/doc/kio-gdrive-24.05.2/COPYING
-* /usr/share/doc/kio-gdrive-24.05.2/COPYING.GPL3
-* /usr/share/doc/kio-gdrive-24.05.2/HACKING
-* /usr/share/doc/kio-gdrive-24.05.2/README.md
-* /usr/share/doc/kio-gdrive-24.05.2/README.packagers
+* /usr/share/doc/kio-gdrive-24.08.0/COPYING
+* /usr/share/doc/kio-gdrive-24.08.0/COPYING.GPL3
+* /usr/share/doc/kio-gdrive-24.08.0/HACKING
+* /usr/share/doc/kio-gdrive-24.08.0/README.md
+* /usr/share/doc/kio-gdrive-24.08.0/README.packagers
 * /usr/share/locale/ar/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/az/LC_MESSAGES/kio5_gdrive.mo
 * /usr/share/locale/be/LC_MESSAGES/kio5_gdrive.mo

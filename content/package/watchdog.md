@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./watchdog 5.0.0-1"
+title = "watchdog 5.0.0-1"
 version = "5.0.0-1"
 description = "Filesystem events monitoring"
 date = "2024-08-27T13:23:27"
-aliases = "/packages/222409"
+aliases = "/packages/200719"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/watchdog"
 arch = "x86_64"
@@ -17,66 +17,66 @@ depends = "['python3>=3.10']"
 Filesystem events monitoring
 
 ### Files: 
-* watchdog /usr/bin/watchmedo
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/dependency_links.txt
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/entry_points.txt
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/not-zip-safe
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/PKG-INFO
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/requires.txt
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/SOURCES.txt
-* watchdog /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/top_level.txt
-* watchdog /usr/lib/python3.12/site-packages/watchdog/events.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/api.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/fsevents.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/fsevents2.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/inotify.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/inotify_buffer.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/inotify_c.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/kqueue.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/polling.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/read_directory_changes.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/winapi.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__init__.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/api.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/fsevents.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/fsevents2.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/inotify.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/inotify_buffer.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/inotify_c.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/kqueue.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/polling.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/read_directory_changes.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/winapi.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/__init__.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/py.typed
-* watchdog /usr/lib/python3.12/site-packages/watchdog/tricks/__init__.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/tricks/__pycache__/__init__.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/bricks.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/delayed_queue.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/dirsnapshot.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/echo.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/event_debouncer.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/patterns.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/platform.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/process_watcher.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__init__.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/bricks.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/delayed_queue.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/dirsnapshot.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/echo.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/event_debouncer.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/patterns.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/platform.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/process_watcher.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/__init__.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/version.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/watchmedo.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/__init__.py
-* watchdog /usr/lib/python3.12/site-packages/watchdog/__pycache__/events.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/__pycache__/version.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/__pycache__/watchmedo.cpython-312.pyc
-* watchdog /usr/lib/python3.12/site-packages/watchdog/__pycache__/__init__.cpython-312.pyc
-* watchdog /usr/share/doc/watchdog-5.0.0/AUTHORS
-* watchdog /usr/share/doc/watchdog-5.0.0/COPYING
-* watchdog /usr/share/doc/watchdog-5.0.0/LICENSE
-* watchdog /usr/share/doc/watchdog-5.0.0/README.rst
+* /usr/bin/watchmedo
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/watchdog-5.0.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/watchdog/events.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/api.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/fsevents.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/fsevents2.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/inotify.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/inotify_buffer.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/inotify_c.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/kqueue.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/polling.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/read_directory_changes.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/winapi.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/__init__.py
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/api.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/fsevents.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/fsevents2.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/inotify.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/inotify_buffer.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/inotify_c.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/kqueue.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/polling.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/read_directory_changes.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/winapi.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/observers/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/py.typed
+* /usr/lib/python3.12/site-packages/watchdog/tricks/__init__.py
+* /usr/lib/python3.12/site-packages/watchdog/tricks/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/bricks.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/delayed_queue.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/dirsnapshot.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/echo.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/event_debouncer.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/patterns.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/platform.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/process_watcher.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/__init__.py
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/bricks.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/delayed_queue.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/dirsnapshot.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/echo.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/event_debouncer.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/patterns.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/platform.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/process_watcher.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/utils/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/version.py
+* /usr/lib/python3.12/site-packages/watchdog/watchmedo.py
+* /usr/lib/python3.12/site-packages/watchdog/__init__.py
+* /usr/lib/python3.12/site-packages/watchdog/__pycache__/events.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/__pycache__/version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/__pycache__/watchmedo.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/watchdog/__pycache__/__init__.cpython-312.pyc
+* /usr/share/doc/watchdog-5.0.0/AUTHORS
+* /usr/share/doc/watchdog-5.0.0/COPYING
+* /usr/share/doc/watchdog-5.0.0/LICENSE
+* /usr/share/doc/watchdog-5.0.0/README.rst

@@ -12,7 +12,7 @@ size = "10716"
 usize = "43801"
 sha1sum = "1624caac9e7bf5371d0ec1813fba1a7d39eaf9ba"
 depends = "['python3']"
-reverse_depends = "['./python3-pytest', 'python3-pytest']"
+reverse_depends = "['python3-pytest']"
 +++
 ### Description: 
 brain-dead simple config-ini parsing

@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./kweathercore 24.08.0-1"
+title = "kweathercore 24.08.0-1"
 version = "24.08.0-1"
 description = "Audio recorder for Plasma Mobile and other platforms"
 date = "2024-08-23T12:30:22"
-aliases = "/packages/222284"
+aliases = "/packages/220987"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,91 +12,92 @@ size = "81672"
 usize = "376238"
 sha1sum = "6f2f52e6817efcaa234745a3419bbcf7a07c5e47"
 depends = "['kholidays', 'ki18n', 'qt6-location']"
+reverse_depends = "['kweather']"
 +++
 ### Description: 
 Audio recorder for Plasma Mobile and other platforms
 
 ### Files: 
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/CAPAlertInfo
-* kweathercore /usr/include/KWeatherCore/kweathercore/capalertinfo.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/CAPAlertMessage
-* kweathercore /usr/include/KWeatherCore/kweathercore/capalertmessage.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/CAPArea
-* kweathercore /usr/include/KWeatherCore/kweathercore/caparea.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/CAPNamedValue
-* kweathercore /usr/include/KWeatherCore/kweathercore/capnamedvalue.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/CAPParser
-* kweathercore /usr/include/KWeatherCore/kweathercore/capparser.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/CAPReference
-* kweathercore /usr/include/KWeatherCore/kweathercore/capreference.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/DailyWeatherForecast
-* kweathercore /usr/include/KWeatherCore/kweathercore/dailyweatherforecast.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/GeoTimezone
-* kweathercore /usr/include/KWeatherCore/kweathercore/geotimezone.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/HourlyWeatherForecast
-* kweathercore /usr/include/KWeatherCore/kweathercore/hourlyweatherforecast.h
-* kweathercore /usr/include/KWeatherCore/kweathercore/kweathercore_export.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/LocationQuery
-* kweathercore /usr/include/KWeatherCore/kweathercore/locationquery.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/LocationQueryReply
-* kweathercore /usr/include/KWeatherCore/kweathercore/locationqueryreply.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/LocationQueryResult
-* kweathercore /usr/include/KWeatherCore/kweathercore/locationqueryresult.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/PendingWeatherForecast
-* kweathercore /usr/include/KWeatherCore/kweathercore/pendingweatherforecast.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/Reply
-* kweathercore /usr/include/KWeatherCore/kweathercore/reply.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/WeatherForecast
-* kweathercore /usr/include/KWeatherCore/kweathercore/weatherforecast.h
-* kweathercore /usr/include/KWeatherCore/KWeatherCore/WeatherForecastSource
-* kweathercore /usr/include/KWeatherCore/kweathercore/weatherforecastsource.h
-* kweathercore /usr/include/kweathercore_version.h
-* kweathercore /usr/lib/cmake/KWeatherCore/KWeatherCoreConfig.cmake
-* kweathercore /usr/lib/cmake/KWeatherCore/KWeatherCoreConfigVersion.cmake
-* kweathercore /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets-release.cmake
-* kweathercore /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets.cmake
-* kweathercore /usr/lib/libKWeatherCore.so
-* kweathercore /usr/lib/libKWeatherCore.so.24.8.0
-* kweathercore /usr/lib/libKWeatherCore.so.6
-* kweathercore /usr/lib/qt6/mkspecs/modules/qt_KWeatherCore.pri
-* kweathercore /usr/share/doc/kweathercore-24.08.0/README.md
-* kweathercore /usr/share/locale/ar/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ast/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/az/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/bg/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ca/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ca@valencia/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/cs/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/de/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/el/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/en_GB/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/eo/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/es/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/eu/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/fi/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/fr/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/gl/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/he/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/hi/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/hu/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ia/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/is/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/it/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ja/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ka/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ko/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/lt/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/nl/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/nn/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/pa/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/pl/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/pt/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/pt_BR/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/ru/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/sk/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/sl/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/sv/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/tr/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/uk/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/zh_CN/LC_MESSAGES/kweathercore6.mo
-* kweathercore /usr/share/locale/zh_TW/LC_MESSAGES/kweathercore6.mo
+* /usr/include/KWeatherCore/KWeatherCore/CAPAlertInfo
+* /usr/include/KWeatherCore/kweathercore/capalertinfo.h
+* /usr/include/KWeatherCore/KWeatherCore/CAPAlertMessage
+* /usr/include/KWeatherCore/kweathercore/capalertmessage.h
+* /usr/include/KWeatherCore/KWeatherCore/CAPArea
+* /usr/include/KWeatherCore/kweathercore/caparea.h
+* /usr/include/KWeatherCore/KWeatherCore/CAPNamedValue
+* /usr/include/KWeatherCore/kweathercore/capnamedvalue.h
+* /usr/include/KWeatherCore/KWeatherCore/CAPParser
+* /usr/include/KWeatherCore/kweathercore/capparser.h
+* /usr/include/KWeatherCore/KWeatherCore/CAPReference
+* /usr/include/KWeatherCore/kweathercore/capreference.h
+* /usr/include/KWeatherCore/KWeatherCore/DailyWeatherForecast
+* /usr/include/KWeatherCore/kweathercore/dailyweatherforecast.h
+* /usr/include/KWeatherCore/KWeatherCore/GeoTimezone
+* /usr/include/KWeatherCore/kweathercore/geotimezone.h
+* /usr/include/KWeatherCore/KWeatherCore/HourlyWeatherForecast
+* /usr/include/KWeatherCore/kweathercore/hourlyweatherforecast.h
+* /usr/include/KWeatherCore/kweathercore/kweathercore_export.h
+* /usr/include/KWeatherCore/KWeatherCore/LocationQuery
+* /usr/include/KWeatherCore/kweathercore/locationquery.h
+* /usr/include/KWeatherCore/KWeatherCore/LocationQueryReply
+* /usr/include/KWeatherCore/kweathercore/locationqueryreply.h
+* /usr/include/KWeatherCore/KWeatherCore/LocationQueryResult
+* /usr/include/KWeatherCore/kweathercore/locationqueryresult.h
+* /usr/include/KWeatherCore/KWeatherCore/PendingWeatherForecast
+* /usr/include/KWeatherCore/kweathercore/pendingweatherforecast.h
+* /usr/include/KWeatherCore/KWeatherCore/Reply
+* /usr/include/KWeatherCore/kweathercore/reply.h
+* /usr/include/KWeatherCore/KWeatherCore/WeatherForecast
+* /usr/include/KWeatherCore/kweathercore/weatherforecast.h
+* /usr/include/KWeatherCore/KWeatherCore/WeatherForecastSource
+* /usr/include/KWeatherCore/kweathercore/weatherforecastsource.h
+* /usr/include/kweathercore_version.h
+* /usr/lib/cmake/KWeatherCore/KWeatherCoreConfig.cmake
+* /usr/lib/cmake/KWeatherCore/KWeatherCoreConfigVersion.cmake
+* /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets-release.cmake
+* /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets.cmake
+* /usr/lib/libKWeatherCore.so
+* /usr/lib/libKWeatherCore.so.24.8.0
+* /usr/lib/libKWeatherCore.so.6
+* /usr/lib/qt6/mkspecs/modules/qt_KWeatherCore.pri
+* /usr/share/doc/kweathercore-24.08.0/README.md
+* /usr/share/locale/ar/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ast/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/az/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/bg/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ca/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/cs/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/de/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/el/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/eo/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/es/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/eu/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/fi/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/fr/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/gl/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/he/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/hi/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/hu/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ia/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/is/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/it/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ja/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ka/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ko/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/lt/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/nl/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/nn/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/pa/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/pl/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/pt/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/ru/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/sk/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/sl/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/sv/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/tr/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/uk/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kweathercore6.mo

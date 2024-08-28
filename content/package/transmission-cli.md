@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./transmission-cli 4.0.6-2"
+title = "transmission-cli 4.0.6-2"
 version = "4.0.6-2"
 description = "A free, lightweight BitTorrent Client. (CLI based)"
 date = "2024-08-23T12:54:24"
-aliases = "/packages/222406"
+aliases = "/packages/222505"
 categories = ['apps-extra']
 upstreamurl = "https://transmissionbt.com"
 arch = "x86_64"
@@ -17,96 +17,96 @@ depends = "['curl>=7.26.0', 'libb64', 'libdeflate', 'libevent>=2.1.11', 'miniupn
 A free, lightweight BitTorrent Client. (CLI based)
 
 ### Files: 
-* transmission-cli /usr/bin/transmission-cli
-* transmission-cli /usr/bin/transmission-create
-* transmission-cli /usr/bin/transmission-daemon
-* transmission-cli /usr/bin/transmission-edit
-* transmission-cli /usr/bin/transmission-remote
-* transmission-cli /usr/bin/transmission-show
-* transmission-cli /usr/share/doc/transmission-cli-4.0.6/AUTHORS
-* transmission-cli /usr/share/doc/transmission-cli-4.0.6/COPYING
-* transmission-cli /usr/share/doc/transmission-cli-4.0.6/README.md
-* transmission-cli /usr/share/doc/transmission/AUTHORS
-* transmission-cli /usr/share/doc/transmission/COPYING
-* transmission-cli /usr/share/doc/transmission/news/news-2.42-and-older.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.50.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.51.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.52.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.60.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.61.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.70.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.71.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.72.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.73.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.74.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.75.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.76.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.77.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.80.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.81.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.82.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.83.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.84.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.90.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.91.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.92.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.93.md
-* transmission-cli /usr/share/doc/transmission/news/news-2.94.md
-* transmission-cli /usr/share/doc/transmission/news/news-3.00.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.0-beta-1.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.0-beta-2.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.0-beta-3.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.0.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.1.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.2.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.3.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.4.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.5.md
-* transmission-cli /usr/share/doc/transmission/news/news-4.0.6.md
-* transmission-cli /usr/share/doc/transmission/README.md
-* transmission-cli /usr/share/doc/transmission/rpc-spec.md
-* transmission-cli /usr/share/doc/transmission/send-email-when-torrent-done.sh
-* transmission-cli /usr/share/man/man1/transmission-cli.1.gz
-* transmission-cli /usr/share/man/man1/transmission-create.1.gz
-* transmission-cli /usr/share/man/man1/transmission-daemon.1.gz
-* transmission-cli /usr/share/man/man1/transmission-edit.1.gz
-* transmission-cli /usr/share/man/man1/transmission-remote.1.gz
-* transmission-cli /usr/share/man/man1/transmission-show.1.gz
-* transmission-cli /usr/share/metainfo/transmission-gtk.metainfo.xml
-* transmission-cli /usr/share/transmission/public_html/images/favicon.ico
-* transmission-cli /usr/share/transmission/public_html/images/favicon.png
-* transmission-cli /usr/share/transmission/public_html/images/webclip-icon.png
-* transmission-cli /usr/share/transmission/public_html/index.html
-* transmission-cli /usr/share/transmission/public_html/transmission-app.css
-* transmission-cli /usr/share/transmission/public_html/transmission-app.js
-* transmission-cli /usr/share/transmission/public_html/transmission-app.js.LEGAL.txt
-* transmission-cli /usr/share/transmission/translations/transmission_af.qm
-* transmission-cli /usr/share/transmission/translations/transmission_ca.qm
-* transmission-cli /usr/share/transmission/translations/transmission_da.qm
-* transmission-cli /usr/share/transmission/translations/transmission_de.qm
-* transmission-cli /usr/share/transmission/translations/transmission_el.qm
-* transmission-cli /usr/share/transmission/translations/transmission_en.qm
-* transmission-cli /usr/share/transmission/translations/transmission_es.qm
-* transmission-cli /usr/share/transmission/translations/transmission_eu.qm
-* transmission-cli /usr/share/transmission/translations/transmission_fi.qm
-* transmission-cli /usr/share/transmission/translations/transmission_fr.qm
-* transmission-cli /usr/share/transmission/translations/transmission_hu.qm
-* transmission-cli /usr/share/transmission/translations/transmission_id.qm
-* transmission-cli /usr/share/transmission/translations/transmission_it_IT.qm
-* transmission-cli /usr/share/transmission/translations/transmission_ja.qm
-* transmission-cli /usr/share/transmission/translations/transmission_ka.qm
-* transmission-cli /usr/share/transmission/translations/transmission_kk.qm
-* transmission-cli /usr/share/transmission/translations/transmission_ko.qm
-* transmission-cli /usr/share/transmission/translations/transmission_lt.qm
-* transmission-cli /usr/share/transmission/translations/transmission_nb.qm
-* transmission-cli /usr/share/transmission/translations/transmission_nl.qm
-* transmission-cli /usr/share/transmission/translations/transmission_pl.qm
-* transmission-cli /usr/share/transmission/translations/transmission_pt.qm
-* transmission-cli /usr/share/transmission/translations/transmission_pt_BR.qm
-* transmission-cli /usr/share/transmission/translations/transmission_pt_PT.qm
-* transmission-cli /usr/share/transmission/translations/transmission_ru.qm
-* transmission-cli /usr/share/transmission/translations/transmission_sl.qm
-* transmission-cli /usr/share/transmission/translations/transmission_sv.qm
-* transmission-cli /usr/share/transmission/translations/transmission_tr.qm
-* transmission-cli /usr/share/transmission/translations/transmission_uk.qm
-* transmission-cli /usr/share/transmission/translations/transmission_zh_CN.qm
+* /usr/bin/transmission-cli
+* /usr/bin/transmission-create
+* /usr/bin/transmission-daemon
+* /usr/bin/transmission-edit
+* /usr/bin/transmission-remote
+* /usr/bin/transmission-show
+* /usr/share/doc/transmission-cli-4.0.6/AUTHORS
+* /usr/share/doc/transmission-cli-4.0.6/COPYING
+* /usr/share/doc/transmission-cli-4.0.6/README.md
+* /usr/share/doc/transmission/AUTHORS
+* /usr/share/doc/transmission/COPYING
+* /usr/share/doc/transmission/news/news-2.42-and-older.md
+* /usr/share/doc/transmission/news/news-2.50.md
+* /usr/share/doc/transmission/news/news-2.51.md
+* /usr/share/doc/transmission/news/news-2.52.md
+* /usr/share/doc/transmission/news/news-2.60.md
+* /usr/share/doc/transmission/news/news-2.61.md
+* /usr/share/doc/transmission/news/news-2.70.md
+* /usr/share/doc/transmission/news/news-2.71.md
+* /usr/share/doc/transmission/news/news-2.72.md
+* /usr/share/doc/transmission/news/news-2.73.md
+* /usr/share/doc/transmission/news/news-2.74.md
+* /usr/share/doc/transmission/news/news-2.75.md
+* /usr/share/doc/transmission/news/news-2.76.md
+* /usr/share/doc/transmission/news/news-2.77.md
+* /usr/share/doc/transmission/news/news-2.80.md
+* /usr/share/doc/transmission/news/news-2.81.md
+* /usr/share/doc/transmission/news/news-2.82.md
+* /usr/share/doc/transmission/news/news-2.83.md
+* /usr/share/doc/transmission/news/news-2.84.md
+* /usr/share/doc/transmission/news/news-2.90.md
+* /usr/share/doc/transmission/news/news-2.91.md
+* /usr/share/doc/transmission/news/news-2.92.md
+* /usr/share/doc/transmission/news/news-2.93.md
+* /usr/share/doc/transmission/news/news-2.94.md
+* /usr/share/doc/transmission/news/news-3.00.md
+* /usr/share/doc/transmission/news/news-4.0.0-beta-1.md
+* /usr/share/doc/transmission/news/news-4.0.0-beta-2.md
+* /usr/share/doc/transmission/news/news-4.0.0-beta-3.md
+* /usr/share/doc/transmission/news/news-4.0.0.md
+* /usr/share/doc/transmission/news/news-4.0.1.md
+* /usr/share/doc/transmission/news/news-4.0.2.md
+* /usr/share/doc/transmission/news/news-4.0.3.md
+* /usr/share/doc/transmission/news/news-4.0.4.md
+* /usr/share/doc/transmission/news/news-4.0.5.md
+* /usr/share/doc/transmission/news/news-4.0.6.md
+* /usr/share/doc/transmission/README.md
+* /usr/share/doc/transmission/rpc-spec.md
+* /usr/share/doc/transmission/send-email-when-torrent-done.sh
+* /usr/share/man/man1/transmission-cli.1.gz
+* /usr/share/man/man1/transmission-create.1.gz
+* /usr/share/man/man1/transmission-daemon.1.gz
+* /usr/share/man/man1/transmission-edit.1.gz
+* /usr/share/man/man1/transmission-remote.1.gz
+* /usr/share/man/man1/transmission-show.1.gz
+* /usr/share/metainfo/transmission-gtk.metainfo.xml
+* /usr/share/transmission/public_html/images/favicon.ico
+* /usr/share/transmission/public_html/images/favicon.png
+* /usr/share/transmission/public_html/images/webclip-icon.png
+* /usr/share/transmission/public_html/index.html
+* /usr/share/transmission/public_html/transmission-app.css
+* /usr/share/transmission/public_html/transmission-app.js
+* /usr/share/transmission/public_html/transmission-app.js.LEGAL.txt
+* /usr/share/transmission/translations/transmission_af.qm
+* /usr/share/transmission/translations/transmission_ca.qm
+* /usr/share/transmission/translations/transmission_da.qm
+* /usr/share/transmission/translations/transmission_de.qm
+* /usr/share/transmission/translations/transmission_el.qm
+* /usr/share/transmission/translations/transmission_en.qm
+* /usr/share/transmission/translations/transmission_es.qm
+* /usr/share/transmission/translations/transmission_eu.qm
+* /usr/share/transmission/translations/transmission_fi.qm
+* /usr/share/transmission/translations/transmission_fr.qm
+* /usr/share/transmission/translations/transmission_hu.qm
+* /usr/share/transmission/translations/transmission_id.qm
+* /usr/share/transmission/translations/transmission_it_IT.qm
+* /usr/share/transmission/translations/transmission_ja.qm
+* /usr/share/transmission/translations/transmission_ka.qm
+* /usr/share/transmission/translations/transmission_kk.qm
+* /usr/share/transmission/translations/transmission_ko.qm
+* /usr/share/transmission/translations/transmission_lt.qm
+* /usr/share/transmission/translations/transmission_nb.qm
+* /usr/share/transmission/translations/transmission_nl.qm
+* /usr/share/transmission/translations/transmission_pl.qm
+* /usr/share/transmission/translations/transmission_pt.qm
+* /usr/share/transmission/translations/transmission_pt_BR.qm
+* /usr/share/transmission/translations/transmission_pt_PT.qm
+* /usr/share/transmission/translations/transmission_ru.qm
+* /usr/share/transmission/translations/transmission_sl.qm
+* /usr/share/transmission/translations/transmission_sv.qm
+* /usr/share/transmission/translations/transmission_tr.qm
+* /usr/share/transmission/translations/transmission_uk.qm
+* /usr/share/transmission/translations/transmission_zh_CN.qm

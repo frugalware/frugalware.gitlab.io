@@ -12,7 +12,7 @@ size = "189372"
 usize = "619668"
 sha1sum = "d4fefa7191829aec07a455fe380b5cf07a6b540b"
 depends = "['gperf', 'perl-path-tiny', 'perl-template-toolkit', 'python3-pysol_cards', 'python3-random2', 'python3-six', 'rinutils']"
-reverse_depends = "['./kpat', 'kpat']"
+reverse_depends = "['kpat']"
 +++
 ### Description: 
 A program that automatically solves layouts of Freecell and similar variants of Card Solitaire

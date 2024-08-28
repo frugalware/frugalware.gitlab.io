@@ -12,7 +12,7 @@ size = "218988"
 usize = "1047782"
 sha1sum = "4ed0ed998e72e6ebc84a16e29ff139276851375c"
 depends = "['kdeclarative5>=5.116.0']"
-reverse_depends = "['./ktouch', 'k3b', 'kdevelop', 'kio-extras-kf5', 'krdc', 'ktouch', 'libkcddb5', 'okteta']"
+reverse_depends = "['kio-extras-kf5', 'ktouch', 'libkcddb5', 'okteta']"
 +++
 ### Description: 
 Utilities for interacting with KCModules.

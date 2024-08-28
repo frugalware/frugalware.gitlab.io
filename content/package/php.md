@@ -12,7 +12,7 @@ size = "7938920"
 usize = "45125161"
 sha1sum = "abdd88adbdb7ee62062533eedf0cdf13adf54df2"
 depends = "['curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3', 'zlib>=1.2.12']"
-reverse_depends = "['./kdev-php', 'adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
+reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++
 ### Description: 
 A widely-used general-purpose scripting language

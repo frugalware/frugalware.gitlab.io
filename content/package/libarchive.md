@@ -12,7 +12,7 @@ size = "728176"
 usize = "2779801"
 sha1sum = "ccd9d39a8805040ea3522b0b777368a3523362de"
 depends = "['bzip2>=1.0.6-16', 'expat>=2.2.6-2', 'lzo>=1.9.2', 'nettle>=3.5.1', 'openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
-reverse_depends = "['./ark', './fwupd', './pacman-g2', 'ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'fwupd', 'gvfs', 'libappimage', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
+reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'fwupd', 'gvfs', 'libappimage', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
 +++
 ### Description: 
 Library to create and read several different archive formats

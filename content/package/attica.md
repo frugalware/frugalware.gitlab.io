@@ -12,7 +12,7 @@ size = "186404"
 usize = "892411"
 sha1sum = "81813542e9e8fa3aa54c1768477bfa1edc17ed3c"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['./okular', 'kxmlgui', 'okular']"
+reverse_depends = "['kxmlgui', 'okular']"
 +++
 ### Description: 
 Qt library to access Open Collaboration Services

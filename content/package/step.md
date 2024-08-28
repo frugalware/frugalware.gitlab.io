@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./step 24.08.0-1"
+title = "step 24.08.0-1"
 version = "24.08.0-1"
 description = "Interactive Physics Simulator."
 date = "2024-08-23T20:25:54"
-aliases = "/packages/222413"
+aliases = "/packages/152841"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,1697 +17,1697 @@ depends = "['gsl>=2.8', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstu
 Interactive Physics Simulator.
 
 ### Files: 
-* step /usr/bin/step
-* step /usr/share/applications/org.kde.step.desktop
-* step /usr/share/config.kcfg/step.kcfg
-* step /usr/share/doc/HTML/ca/step/examples.docbook
-* step /usr/share/doc/HTML/ca/step/index.cache.bz2
-* step /usr/share/doc/HTML/ca/step/index.docbook
-* step /usr/share/doc/HTML/ca/step/tutorials.docbook
-* step /usr/share/doc/HTML/de/step/examples.docbook
-* step /usr/share/doc/HTML/de/step/index.cache.bz2
-* step /usr/share/doc/HTML/de/step/index.docbook
-* step /usr/share/doc/HTML/de/step/mainwindow.png
-* step /usr/share/doc/HTML/de/step/tutorials.docbook
-* step /usr/share/doc/HTML/en/step/circular-motor.png
-* step /usr/share/doc/HTML/en/step/disk-properties.png
-* step /usr/share/doc/HTML/en/step/examples.docbook
-* step /usr/share/doc/HTML/en/step/index.cache.bz2
-* step /usr/share/doc/HTML/en/step/index.docbook
-* step /usr/share/doc/HTML/en/step/mainwindow.png
-* step /usr/share/doc/HTML/en/step/media-playback-start.png
-* step /usr/share/doc/HTML/en/step/step_object_CircularMotor.png
-* step /usr/share/doc/HTML/en/step/step_object_Particle.png
-* step /usr/share/doc/HTML/en/step/step_object_Stick.png
-* step /usr/share/doc/HTML/en/step/tutorial1.png
-* step /usr/share/doc/HTML/en/step/tutorial2.png
-* step /usr/share/doc/HTML/en/step/tutorial3.png
-* step /usr/share/doc/HTML/en/step/tutorial4.png
-* step /usr/share/doc/HTML/en/step/tutorial5.png
-* step /usr/share/doc/HTML/en/step/tutorials.docbook
-* step /usr/share/doc/HTML/es/step/examples.docbook
-* step /usr/share/doc/HTML/es/step/index.cache.bz2
-* step /usr/share/doc/HTML/es/step/index.docbook
-* step /usr/share/doc/HTML/es/step/tutorials.docbook
-* step /usr/share/doc/HTML/et/step/examples.docbook
-* step /usr/share/doc/HTML/et/step/index.cache.bz2
-* step /usr/share/doc/HTML/et/step/index.docbook
-* step /usr/share/doc/HTML/et/step/tutorials.docbook
-* step /usr/share/doc/HTML/fr/step/examples.docbook
-* step /usr/share/doc/HTML/fr/step/index.cache.bz2
-* step /usr/share/doc/HTML/fr/step/index.docbook
-* step /usr/share/doc/HTML/fr/step/tutorials.docbook
-* step /usr/share/doc/HTML/it/step/examples.docbook
-* step /usr/share/doc/HTML/it/step/index.cache.bz2
-* step /usr/share/doc/HTML/it/step/index.docbook
-* step /usr/share/doc/HTML/it/step/tutorials.docbook
-* step /usr/share/doc/HTML/nl/step/examples.docbook
-* step /usr/share/doc/HTML/nl/step/index.cache.bz2
-* step /usr/share/doc/HTML/nl/step/index.docbook
-* step /usr/share/doc/HTML/nl/step/tutorials.docbook
-* step /usr/share/doc/HTML/pt_BR/step/examples.docbook
-* step /usr/share/doc/HTML/pt_BR/step/index.cache.bz2
-* step /usr/share/doc/HTML/pt_BR/step/index.docbook
-* step /usr/share/doc/HTML/pt_BR/step/tutorials.docbook
-* step /usr/share/doc/HTML/ru/step/examples.docbook
-* step /usr/share/doc/HTML/ru/step/index.cache.bz2
-* step /usr/share/doc/HTML/ru/step/index.docbook
-* step /usr/share/doc/HTML/ru/step/tutorials.docbook
-* step /usr/share/doc/HTML/sv/step/examples.docbook
-* step /usr/share/doc/HTML/sv/step/index.cache.bz2
-* step /usr/share/doc/HTML/sv/step/index.docbook
-* step /usr/share/doc/HTML/sv/step/tutorials.docbook
-* step /usr/share/doc/HTML/uk/step/examples.docbook
-* step /usr/share/doc/HTML/uk/step/index.cache.bz2
-* step /usr/share/doc/HTML/uk/step/index.docbook
-* step /usr/share/doc/HTML/uk/step/mainwindow.png
-* step /usr/share/doc/HTML/uk/step/tutorials.docbook
-* step /usr/share/doc/step-24.08.0/AUTHORS
-* step /usr/share/doc/step-24.08.0/ChangeLog
-* step /usr/share/doc/step-24.08.0/INSTALL
-* step /usr/share/doc/step-24.08.0/README
-* step /usr/share/doc/step-24.08.0/TODO
-* step /usr/share/icons/hicolor/128x128/apps/step.png
-* step /usr/share/icons/hicolor/16x16/apps/step.png
-* step /usr/share/icons/hicolor/22x22/actions/pointer.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Anchor.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Box.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_ChargedParticle.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_CircularMotor.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Controller.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_CoulombForce.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Disk.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Gas.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_GasParticle.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Graph.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_GravitationForce.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_LinearMotor.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Meter.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Note.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Particle.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Pin.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Polygon.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Rope.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_SoftBody.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Spring.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Stick.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_Tracer.png
-* step /usr/share/icons/hicolor/22x22/actions/step_object_WeightForce.png
-* step /usr/share/icons/hicolor/22x22/apps/step.png
-* step /usr/share/icons/hicolor/32x32/apps/step.png
-* step /usr/share/icons/hicolor/48x48/apps/step.png
-* step /usr/share/icons/hicolor/64x64/apps/step.png
-* step /usr/share/knsrcfiles/step.knsrc
-* step /usr/share/locale/ar/LC_MESSAGES/step.mo
-* step /usr/share/locale/ar/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/be/LC_MESSAGES/step.mo
-* step /usr/share/locale/be/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/bg/LC_MESSAGES/step.mo
-* step /usr/share/locale/bg/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/bg/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/bg/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/bs/LC_MESSAGES/step.mo
-* step /usr/share/locale/bs/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ca/LC_MESSAGES/step.mo
-* step /usr/share/locale/ca/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ca/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ca/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ca@valencia/LC_MESSAGES/step.mo
-* step /usr/share/locale/ca@valencia/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ca@valencia/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ca@valencia/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/cs/LC_MESSAGES/step.mo
-* step /usr/share/locale/cs/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/cs/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/cs/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/da/LC_MESSAGES/step.mo
-* step /usr/share/locale/da/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/da/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/da/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/de/LC_MESSAGES/step.mo
-* step /usr/share/locale/de/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/de/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/de/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/el/LC_MESSAGES/step.mo
-* step /usr/share/locale/el/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/el/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/el/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/en_GB/LC_MESSAGES/step.mo
-* step /usr/share/locale/en_GB/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/en_GB/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/en_GB/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/eo/LC_MESSAGES/step.mo
-* step /usr/share/locale/eo/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/eo/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/eo/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/es/LC_MESSAGES/step.mo
-* step /usr/share/locale/es/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/es/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/es/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/et/LC_MESSAGES/step.mo
-* step /usr/share/locale/et/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/et/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/et/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/eu/LC_MESSAGES/step.mo
-* step /usr/share/locale/eu/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/eu/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/eu/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/fi/LC_MESSAGES/step.mo
-* step /usr/share/locale/fi/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/fi/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/fi/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/fr/LC_MESSAGES/step.mo
-* step /usr/share/locale/fr/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/fr/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/fr/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ga/LC_MESSAGES/step.mo
-* step /usr/share/locale/ga/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/gl/LC_MESSAGES/step.mo
-* step /usr/share/locale/gl/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/gl/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/gl/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/gu/LC_MESSAGES/step.mo
-* step /usr/share/locale/gu/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/hr/LC_MESSAGES/step.mo
-* step /usr/share/locale/hr/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/hu/LC_MESSAGES/step.mo
-* step /usr/share/locale/hu/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ia/LC_MESSAGES/step.mo
-* step /usr/share/locale/ia/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ia/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ia/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/it/LC_MESSAGES/step.mo
-* step /usr/share/locale/it/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/it/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/it/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ja/LC_MESSAGES/step.mo
-* step /usr/share/locale/ja/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ja/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ja/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ka/LC_MESSAGES/step.mo
-* step /usr/share/locale/ka/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ka/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ka/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/kk/LC_MESSAGES/step.mo
-* step /usr/share/locale/kk/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/km/LC_MESSAGES/step.mo
-* step /usr/share/locale/km/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ko/LC_MESSAGES/step.mo
-* step /usr/share/locale/ko/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/lt/LC_MESSAGES/step.mo
-* step /usr/share/locale/lt/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/lt/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/lt/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/lv/LC_MESSAGES/step.mo
-* step /usr/share/locale/lv/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/mai/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ml/LC_MESSAGES/step.mo
-* step /usr/share/locale/ml/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ml/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ml/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/mr/LC_MESSAGES/step.mo
-* step /usr/share/locale/mr/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/nb/LC_MESSAGES/step.mo
-* step /usr/share/locale/nb/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/nds/LC_MESSAGES/step.mo
-* step /usr/share/locale/nds/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/nl/LC_MESSAGES/step.mo
-* step /usr/share/locale/nl/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/nl/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/nl/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/nn/LC_MESSAGES/step.mo
-* step /usr/share/locale/nn/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/nn/LC_SCRIPTS/step/step.js
-* step /usr/share/locale/oc/LC_MESSAGES/step.mo
-* step /usr/share/locale/oc/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/pa/LC_MESSAGES/step.mo
-* step /usr/share/locale/pa/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/pl/LC_MESSAGES/step.mo
-* step /usr/share/locale/pl/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/pl/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/pl/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/pt/LC_MESSAGES/step.mo
-* step /usr/share/locale/pt/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/pt/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/pt/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/pt_BR/LC_MESSAGES/step.mo
-* step /usr/share/locale/pt_BR/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/pt_BR/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/pt_BR/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ro/LC_MESSAGES/step.mo
-* step /usr/share/locale/ro/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ru/LC_MESSAGES/step.mo
-* step /usr/share/locale/ru/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/ru/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/ru/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/si/LC_MESSAGES/step.mo
-* step /usr/share/locale/si/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/sk/LC_MESSAGES/step.mo
-* step /usr/share/locale/sk/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/sk/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/sk/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/sl/LC_MESSAGES/step.mo
-* step /usr/share/locale/sl/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/sl/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/sl/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/sq/LC_MESSAGES/step.mo
-* step /usr/share/locale/sq/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/sv/LC_MESSAGES/step.mo
-* step /usr/share/locale/sv/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/sv/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/sv/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/th/LC_MESSAGES/step.mo
-* step /usr/share/locale/th/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/tr/LC_MESSAGES/step.mo
-* step /usr/share/locale/tr/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/tr/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/tr/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/ug/LC_MESSAGES/step.mo
-* step /usr/share/locale/ug/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/uk/LC_MESSAGES/step.mo
-* step /usr/share/locale/uk/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/uk/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/uk/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/zh_CN/LC_MESSAGES/step.mo
-* step /usr/share/locale/zh_CN/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/zh_CN/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/zh_CN/LC_MESSAGES/step_qt.qm
-* step /usr/share/locale/zh_TW/LC_MESSAGES/step.mo
-* step /usr/share/locale/zh_TW/LC_MESSAGES/step_example_files.mo
-* step /usr/share/locale/zh_TW/LC_MESSAGES/step_objinfo_files.mo
-* step /usr/share/locale/zh_TW/LC_MESSAGES/step_qt.qm
-* step /usr/share/metainfo/org.kde.step.appdata.xml
-* step /usr/share/mime/packages/org.kde.step.xml
-* step /usr/share/step/examples/bg/brownian.step
-* step /usr/share/step/examples/bg/doublependulum.step
-* step /usr/share/step/examples/bg/eightpendula.step
-* step /usr/share/step/examples/bg/first.step
-* step /usr/share/step/examples/bg/fourpendula.step
-* step /usr/share/step/examples/bg/gas.step
-* step /usr/share/step/examples/bg/graph.step
-* step /usr/share/step/examples/bg/liquid.step
-* step /usr/share/step/examples/bg/lissajous.step
-* step /usr/share/step/examples/bg/motor.step
-* step /usr/share/step/examples/bg/motor1.step
-* step /usr/share/step/examples/bg/note.step
-* step /usr/share/step/examples/bg/resonance.step
-* step /usr/share/step/examples/bg/softbody.step
-* step /usr/share/step/examples/bg/solar.step
-* step /usr/share/step/examples/bg/springs.step
-* step /usr/share/step/examples/bg/wave.step
-* step /usr/share/step/examples/brownian.step
-* step /usr/share/step/examples/ca/brownian.step
-* step /usr/share/step/examples/ca/doublependulum.step
-* step /usr/share/step/examples/ca/eightpendula.step
-* step /usr/share/step/examples/ca/first.step
-* step /usr/share/step/examples/ca/fourpendula.step
-* step /usr/share/step/examples/ca/gas.step
-* step /usr/share/step/examples/ca/graph.step
-* step /usr/share/step/examples/ca/liquid.step
-* step /usr/share/step/examples/ca/lissajous.step
-* step /usr/share/step/examples/ca/motor.step
-* step /usr/share/step/examples/ca/motor1.step
-* step /usr/share/step/examples/ca/note.step
-* step /usr/share/step/examples/ca/resonance.step
-* step /usr/share/step/examples/ca/softbody.step
-* step /usr/share/step/examples/ca/solar.step
-* step /usr/share/step/examples/ca/springs.step
-* step /usr/share/step/examples/ca/wave.step
-* step /usr/share/step/examples/ca@valencia/brownian.step
-* step /usr/share/step/examples/ca@valencia/doublependulum.step
-* step /usr/share/step/examples/ca@valencia/eightpendula.step
-* step /usr/share/step/examples/ca@valencia/first.step
-* step /usr/share/step/examples/ca@valencia/fourpendula.step
-* step /usr/share/step/examples/ca@valencia/gas.step
-* step /usr/share/step/examples/ca@valencia/graph.step
-* step /usr/share/step/examples/ca@valencia/liquid.step
-* step /usr/share/step/examples/ca@valencia/lissajous.step
-* step /usr/share/step/examples/ca@valencia/motor.step
-* step /usr/share/step/examples/ca@valencia/motor1.step
-* step /usr/share/step/examples/ca@valencia/note.step
-* step /usr/share/step/examples/ca@valencia/resonance.step
-* step /usr/share/step/examples/ca@valencia/softbody.step
-* step /usr/share/step/examples/ca@valencia/solar.step
-* step /usr/share/step/examples/ca@valencia/springs.step
-* step /usr/share/step/examples/ca@valencia/wave.step
-* step /usr/share/step/examples/cs/brownian.step
-* step /usr/share/step/examples/cs/doublependulum.step
-* step /usr/share/step/examples/cs/eightpendula.step
-* step /usr/share/step/examples/cs/first.step
-* step /usr/share/step/examples/cs/fourpendula.step
-* step /usr/share/step/examples/cs/gas.step
-* step /usr/share/step/examples/cs/graph.step
-* step /usr/share/step/examples/cs/liquid.step
-* step /usr/share/step/examples/cs/lissajous.step
-* step /usr/share/step/examples/cs/motor.step
-* step /usr/share/step/examples/cs/motor1.step
-* step /usr/share/step/examples/cs/note.step
-* step /usr/share/step/examples/cs/resonance.step
-* step /usr/share/step/examples/cs/softbody.step
-* step /usr/share/step/examples/cs/solar.step
-* step /usr/share/step/examples/cs/springs.step
-* step /usr/share/step/examples/cs/wave.step
-* step /usr/share/step/examples/da/brownian.step
-* step /usr/share/step/examples/da/doublependulum.step
-* step /usr/share/step/examples/da/eightpendula.step
-* step /usr/share/step/examples/da/first.step
-* step /usr/share/step/examples/da/fourpendula.step
-* step /usr/share/step/examples/da/gas.step
-* step /usr/share/step/examples/da/graph.step
-* step /usr/share/step/examples/da/liquid.step
-* step /usr/share/step/examples/da/lissajous.step
-* step /usr/share/step/examples/da/motor.step
-* step /usr/share/step/examples/da/motor1.step
-* step /usr/share/step/examples/da/note.step
-* step /usr/share/step/examples/da/resonance.step
-* step /usr/share/step/examples/da/softbody.step
-* step /usr/share/step/examples/da/solar.step
-* step /usr/share/step/examples/da/springs.step
-* step /usr/share/step/examples/da/wave.step
-* step /usr/share/step/examples/de/brownian.step
-* step /usr/share/step/examples/de/doublependulum.step
-* step /usr/share/step/examples/de/eightpendula.step
-* step /usr/share/step/examples/de/first.step
-* step /usr/share/step/examples/de/fourpendula.step
-* step /usr/share/step/examples/de/gas.step
-* step /usr/share/step/examples/de/graph.step
-* step /usr/share/step/examples/de/liquid.step
-* step /usr/share/step/examples/de/lissajous.step
-* step /usr/share/step/examples/de/motor.step
-* step /usr/share/step/examples/de/motor1.step
-* step /usr/share/step/examples/de/note.step
-* step /usr/share/step/examples/de/resonance.step
-* step /usr/share/step/examples/de/softbody.step
-* step /usr/share/step/examples/de/solar.step
-* step /usr/share/step/examples/de/springs.step
-* step /usr/share/step/examples/de/wave.step
-* step /usr/share/step/examples/doublependulum.step
-* step /usr/share/step/examples/eightpendula.step
-* step /usr/share/step/examples/el/brownian.step
-* step /usr/share/step/examples/el/doublependulum.step
-* step /usr/share/step/examples/el/eightpendula.step
-* step /usr/share/step/examples/el/first.step
-* step /usr/share/step/examples/el/fourpendula.step
-* step /usr/share/step/examples/el/gas.step
-* step /usr/share/step/examples/el/graph.step
-* step /usr/share/step/examples/el/liquid.step
-* step /usr/share/step/examples/el/lissajous.step
-* step /usr/share/step/examples/el/motor.step
-* step /usr/share/step/examples/el/motor1.step
-* step /usr/share/step/examples/el/note.step
-* step /usr/share/step/examples/el/resonance.step
-* step /usr/share/step/examples/el/softbody.step
-* step /usr/share/step/examples/el/solar.step
-* step /usr/share/step/examples/el/springs.step
-* step /usr/share/step/examples/el/wave.step
-* step /usr/share/step/examples/en_GB/brownian.step
-* step /usr/share/step/examples/en_GB/doublependulum.step
-* step /usr/share/step/examples/en_GB/eightpendula.step
-* step /usr/share/step/examples/en_GB/first.step
-* step /usr/share/step/examples/en_GB/fourpendula.step
-* step /usr/share/step/examples/en_GB/gas.step
-* step /usr/share/step/examples/en_GB/graph.step
-* step /usr/share/step/examples/en_GB/liquid.step
-* step /usr/share/step/examples/en_GB/lissajous.step
-* step /usr/share/step/examples/en_GB/motor.step
-* step /usr/share/step/examples/en_GB/motor1.step
-* step /usr/share/step/examples/en_GB/note.step
-* step /usr/share/step/examples/en_GB/resonance.step
-* step /usr/share/step/examples/en_GB/softbody.step
-* step /usr/share/step/examples/en_GB/solar.step
-* step /usr/share/step/examples/en_GB/springs.step
-* step /usr/share/step/examples/en_GB/wave.step
-* step /usr/share/step/examples/eo/brownian.step
-* step /usr/share/step/examples/eo/doublependulum.step
-* step /usr/share/step/examples/eo/eightpendula.step
-* step /usr/share/step/examples/eo/first.step
-* step /usr/share/step/examples/eo/fourpendula.step
-* step /usr/share/step/examples/eo/gas.step
-* step /usr/share/step/examples/eo/graph.step
-* step /usr/share/step/examples/eo/liquid.step
-* step /usr/share/step/examples/eo/lissajous.step
-* step /usr/share/step/examples/eo/motor.step
-* step /usr/share/step/examples/eo/motor1.step
-* step /usr/share/step/examples/eo/note.step
-* step /usr/share/step/examples/eo/resonance.step
-* step /usr/share/step/examples/eo/softbody.step
-* step /usr/share/step/examples/eo/solar.step
-* step /usr/share/step/examples/eo/springs.step
-* step /usr/share/step/examples/eo/wave.step
-* step /usr/share/step/examples/es/brownian.step
-* step /usr/share/step/examples/es/doublependulum.step
-* step /usr/share/step/examples/es/eightpendula.step
-* step /usr/share/step/examples/es/first.step
-* step /usr/share/step/examples/es/fourpendula.step
-* step /usr/share/step/examples/es/gas.step
-* step /usr/share/step/examples/es/graph.step
-* step /usr/share/step/examples/es/liquid.step
-* step /usr/share/step/examples/es/lissajous.step
-* step /usr/share/step/examples/es/motor.step
-* step /usr/share/step/examples/es/motor1.step
-* step /usr/share/step/examples/es/note.step
-* step /usr/share/step/examples/es/resonance.step
-* step /usr/share/step/examples/es/softbody.step
-* step /usr/share/step/examples/es/solar.step
-* step /usr/share/step/examples/es/springs.step
-* step /usr/share/step/examples/es/wave.step
-* step /usr/share/step/examples/et/brownian.step
-* step /usr/share/step/examples/et/doublependulum.step
-* step /usr/share/step/examples/et/eightpendula.step
-* step /usr/share/step/examples/et/first.step
-* step /usr/share/step/examples/et/fourpendula.step
-* step /usr/share/step/examples/et/gas.step
-* step /usr/share/step/examples/et/graph.step
-* step /usr/share/step/examples/et/liquid.step
-* step /usr/share/step/examples/et/lissajous.step
-* step /usr/share/step/examples/et/motor.step
-* step /usr/share/step/examples/et/motor1.step
-* step /usr/share/step/examples/et/note.step
-* step /usr/share/step/examples/et/resonance.step
-* step /usr/share/step/examples/et/softbody.step
-* step /usr/share/step/examples/et/solar.step
-* step /usr/share/step/examples/et/springs.step
-* step /usr/share/step/examples/et/wave.step
-* step /usr/share/step/examples/eu/brownian.step
-* step /usr/share/step/examples/eu/doublependulum.step
-* step /usr/share/step/examples/eu/eightpendula.step
-* step /usr/share/step/examples/eu/first.step
-* step /usr/share/step/examples/eu/fourpendula.step
-* step /usr/share/step/examples/eu/gas.step
-* step /usr/share/step/examples/eu/graph.step
-* step /usr/share/step/examples/eu/liquid.step
-* step /usr/share/step/examples/eu/lissajous.step
-* step /usr/share/step/examples/eu/motor.step
-* step /usr/share/step/examples/eu/motor1.step
-* step /usr/share/step/examples/eu/note.step
-* step /usr/share/step/examples/eu/resonance.step
-* step /usr/share/step/examples/eu/softbody.step
-* step /usr/share/step/examples/eu/solar.step
-* step /usr/share/step/examples/eu/springs.step
-* step /usr/share/step/examples/eu/wave.step
-* step /usr/share/step/examples/fi/brownian.step
-* step /usr/share/step/examples/fi/doublependulum.step
-* step /usr/share/step/examples/fi/eightpendula.step
-* step /usr/share/step/examples/fi/first.step
-* step /usr/share/step/examples/fi/fourpendula.step
-* step /usr/share/step/examples/fi/gas.step
-* step /usr/share/step/examples/fi/graph.step
-* step /usr/share/step/examples/fi/liquid.step
-* step /usr/share/step/examples/fi/lissajous.step
-* step /usr/share/step/examples/fi/motor.step
-* step /usr/share/step/examples/fi/motor1.step
-* step /usr/share/step/examples/fi/note.step
-* step /usr/share/step/examples/fi/resonance.step
-* step /usr/share/step/examples/fi/softbody.step
-* step /usr/share/step/examples/fi/solar.step
-* step /usr/share/step/examples/fi/springs.step
-* step /usr/share/step/examples/fi/wave.step
-* step /usr/share/step/examples/first.step
-* step /usr/share/step/examples/fourpendula.step
-* step /usr/share/step/examples/fr/brownian.step
-* step /usr/share/step/examples/fr/doublependulum.step
-* step /usr/share/step/examples/fr/eightpendula.step
-* step /usr/share/step/examples/fr/first.step
-* step /usr/share/step/examples/fr/fourpendula.step
-* step /usr/share/step/examples/fr/gas.step
-* step /usr/share/step/examples/fr/graph.step
-* step /usr/share/step/examples/fr/liquid.step
-* step /usr/share/step/examples/fr/lissajous.step
-* step /usr/share/step/examples/fr/motor.step
-* step /usr/share/step/examples/fr/motor1.step
-* step /usr/share/step/examples/fr/note.step
-* step /usr/share/step/examples/fr/resonance.step
-* step /usr/share/step/examples/fr/softbody.step
-* step /usr/share/step/examples/fr/solar.step
-* step /usr/share/step/examples/fr/springs.step
-* step /usr/share/step/examples/fr/wave.step
-* step /usr/share/step/examples/gas.step
-* step /usr/share/step/examples/gl/brownian.step
-* step /usr/share/step/examples/gl/doublependulum.step
-* step /usr/share/step/examples/gl/eightpendula.step
-* step /usr/share/step/examples/gl/first.step
-* step /usr/share/step/examples/gl/fourpendula.step
-* step /usr/share/step/examples/gl/gas.step
-* step /usr/share/step/examples/gl/graph.step
-* step /usr/share/step/examples/gl/liquid.step
-* step /usr/share/step/examples/gl/lissajous.step
-* step /usr/share/step/examples/gl/motor.step
-* step /usr/share/step/examples/gl/motor1.step
-* step /usr/share/step/examples/gl/note.step
-* step /usr/share/step/examples/gl/resonance.step
-* step /usr/share/step/examples/gl/softbody.step
-* step /usr/share/step/examples/gl/solar.step
-* step /usr/share/step/examples/gl/springs.step
-* step /usr/share/step/examples/gl/wave.step
-* step /usr/share/step/examples/graph.step
-* step /usr/share/step/examples/ia/brownian.step
-* step /usr/share/step/examples/ia/doublependulum.step
-* step /usr/share/step/examples/ia/eightpendula.step
-* step /usr/share/step/examples/ia/first.step
-* step /usr/share/step/examples/ia/fourpendula.step
-* step /usr/share/step/examples/ia/gas.step
-* step /usr/share/step/examples/ia/graph.step
-* step /usr/share/step/examples/ia/liquid.step
-* step /usr/share/step/examples/ia/lissajous.step
-* step /usr/share/step/examples/ia/motor.step
-* step /usr/share/step/examples/ia/motor1.step
-* step /usr/share/step/examples/ia/note.step
-* step /usr/share/step/examples/ia/resonance.step
-* step /usr/share/step/examples/ia/softbody.step
-* step /usr/share/step/examples/ia/solar.step
-* step /usr/share/step/examples/ia/springs.step
-* step /usr/share/step/examples/ia/wave.step
-* step /usr/share/step/examples/it/brownian.step
-* step /usr/share/step/examples/it/doublependulum.step
-* step /usr/share/step/examples/it/eightpendula.step
-* step /usr/share/step/examples/it/first.step
-* step /usr/share/step/examples/it/fourpendula.step
-* step /usr/share/step/examples/it/gas.step
-* step /usr/share/step/examples/it/graph.step
-* step /usr/share/step/examples/it/liquid.step
-* step /usr/share/step/examples/it/lissajous.step
-* step /usr/share/step/examples/it/motor.step
-* step /usr/share/step/examples/it/motor1.step
-* step /usr/share/step/examples/it/note.step
-* step /usr/share/step/examples/it/resonance.step
-* step /usr/share/step/examples/it/softbody.step
-* step /usr/share/step/examples/it/solar.step
-* step /usr/share/step/examples/it/springs.step
-* step /usr/share/step/examples/it/wave.step
-* step /usr/share/step/examples/ja/brownian.step
-* step /usr/share/step/examples/ja/doublependulum.step
-* step /usr/share/step/examples/ja/eightpendula.step
-* step /usr/share/step/examples/ja/first.step
-* step /usr/share/step/examples/ja/fourpendula.step
-* step /usr/share/step/examples/ja/gas.step
-* step /usr/share/step/examples/ja/graph.step
-* step /usr/share/step/examples/ja/liquid.step
-* step /usr/share/step/examples/ja/lissajous.step
-* step /usr/share/step/examples/ja/motor.step
-* step /usr/share/step/examples/ja/motor1.step
-* step /usr/share/step/examples/ja/note.step
-* step /usr/share/step/examples/ja/resonance.step
-* step /usr/share/step/examples/ja/softbody.step
-* step /usr/share/step/examples/ja/solar.step
-* step /usr/share/step/examples/ja/springs.step
-* step /usr/share/step/examples/ja/wave.step
-* step /usr/share/step/examples/ka/brownian.step
-* step /usr/share/step/examples/ka/doublependulum.step
-* step /usr/share/step/examples/ka/eightpendula.step
-* step /usr/share/step/examples/ka/first.step
-* step /usr/share/step/examples/ka/fourpendula.step
-* step /usr/share/step/examples/ka/gas.step
-* step /usr/share/step/examples/ka/graph.step
-* step /usr/share/step/examples/ka/liquid.step
-* step /usr/share/step/examples/ka/lissajous.step
-* step /usr/share/step/examples/ka/motor.step
-* step /usr/share/step/examples/ka/motor1.step
-* step /usr/share/step/examples/ka/note.step
-* step /usr/share/step/examples/ka/resonance.step
-* step /usr/share/step/examples/ka/softbody.step
-* step /usr/share/step/examples/ka/solar.step
-* step /usr/share/step/examples/ka/springs.step
-* step /usr/share/step/examples/ka/wave.step
-* step /usr/share/step/examples/liquid.step
-* step /usr/share/step/examples/lissajous.step
-* step /usr/share/step/examples/lt/brownian.step
-* step /usr/share/step/examples/lt/doublependulum.step
-* step /usr/share/step/examples/lt/eightpendula.step
-* step /usr/share/step/examples/lt/first.step
-* step /usr/share/step/examples/lt/fourpendula.step
-* step /usr/share/step/examples/lt/gas.step
-* step /usr/share/step/examples/lt/graph.step
-* step /usr/share/step/examples/lt/liquid.step
-* step /usr/share/step/examples/lt/lissajous.step
-* step /usr/share/step/examples/lt/motor.step
-* step /usr/share/step/examples/lt/motor1.step
-* step /usr/share/step/examples/lt/note.step
-* step /usr/share/step/examples/lt/resonance.step
-* step /usr/share/step/examples/lt/softbody.step
-* step /usr/share/step/examples/lt/solar.step
-* step /usr/share/step/examples/lt/springs.step
-* step /usr/share/step/examples/lt/wave.step
-* step /usr/share/step/examples/ml/brownian.step
-* step /usr/share/step/examples/ml/doublependulum.step
-* step /usr/share/step/examples/ml/eightpendula.step
-* step /usr/share/step/examples/ml/first.step
-* step /usr/share/step/examples/ml/fourpendula.step
-* step /usr/share/step/examples/ml/gas.step
-* step /usr/share/step/examples/ml/graph.step
-* step /usr/share/step/examples/ml/liquid.step
-* step /usr/share/step/examples/ml/lissajous.step
-* step /usr/share/step/examples/ml/motor.step
-* step /usr/share/step/examples/ml/motor1.step
-* step /usr/share/step/examples/ml/note.step
-* step /usr/share/step/examples/ml/resonance.step
-* step /usr/share/step/examples/ml/softbody.step
-* step /usr/share/step/examples/ml/solar.step
-* step /usr/share/step/examples/ml/springs.step
-* step /usr/share/step/examples/ml/wave.step
-* step /usr/share/step/examples/motor.step
-* step /usr/share/step/examples/motor1.step
-* step /usr/share/step/examples/nl/brownian.step
-* step /usr/share/step/examples/nl/doublependulum.step
-* step /usr/share/step/examples/nl/eightpendula.step
-* step /usr/share/step/examples/nl/first.step
-* step /usr/share/step/examples/nl/fourpendula.step
-* step /usr/share/step/examples/nl/gas.step
-* step /usr/share/step/examples/nl/graph.step
-* step /usr/share/step/examples/nl/liquid.step
-* step /usr/share/step/examples/nl/lissajous.step
-* step /usr/share/step/examples/nl/motor.step
-* step /usr/share/step/examples/nl/motor1.step
-* step /usr/share/step/examples/nl/note.step
-* step /usr/share/step/examples/nl/resonance.step
-* step /usr/share/step/examples/nl/softbody.step
-* step /usr/share/step/examples/nl/solar.step
-* step /usr/share/step/examples/nl/springs.step
-* step /usr/share/step/examples/nl/wave.step
-* step /usr/share/step/examples/note.step
-* step /usr/share/step/examples/pl/brownian.step
-* step /usr/share/step/examples/pl/doublependulum.step
-* step /usr/share/step/examples/pl/eightpendula.step
-* step /usr/share/step/examples/pl/first.step
-* step /usr/share/step/examples/pl/fourpendula.step
-* step /usr/share/step/examples/pl/gas.step
-* step /usr/share/step/examples/pl/graph.step
-* step /usr/share/step/examples/pl/liquid.step
-* step /usr/share/step/examples/pl/lissajous.step
-* step /usr/share/step/examples/pl/motor.step
-* step /usr/share/step/examples/pl/motor1.step
-* step /usr/share/step/examples/pl/note.step
-* step /usr/share/step/examples/pl/resonance.step
-* step /usr/share/step/examples/pl/softbody.step
-* step /usr/share/step/examples/pl/solar.step
-* step /usr/share/step/examples/pl/springs.step
-* step /usr/share/step/examples/pl/wave.step
-* step /usr/share/step/examples/pt/brownian.step
-* step /usr/share/step/examples/pt/doublependulum.step
-* step /usr/share/step/examples/pt/eightpendula.step
-* step /usr/share/step/examples/pt/first.step
-* step /usr/share/step/examples/pt/fourpendula.step
-* step /usr/share/step/examples/pt/gas.step
-* step /usr/share/step/examples/pt/graph.step
-* step /usr/share/step/examples/pt/liquid.step
-* step /usr/share/step/examples/pt/lissajous.step
-* step /usr/share/step/examples/pt/motor.step
-* step /usr/share/step/examples/pt/motor1.step
-* step /usr/share/step/examples/pt/note.step
-* step /usr/share/step/examples/pt/resonance.step
-* step /usr/share/step/examples/pt/softbody.step
-* step /usr/share/step/examples/pt/solar.step
-* step /usr/share/step/examples/pt/springs.step
-* step /usr/share/step/examples/pt/wave.step
-* step /usr/share/step/examples/pt_BR/brownian.step
-* step /usr/share/step/examples/pt_BR/doublependulum.step
-* step /usr/share/step/examples/pt_BR/eightpendula.step
-* step /usr/share/step/examples/pt_BR/first.step
-* step /usr/share/step/examples/pt_BR/fourpendula.step
-* step /usr/share/step/examples/pt_BR/gas.step
-* step /usr/share/step/examples/pt_BR/graph.step
-* step /usr/share/step/examples/pt_BR/liquid.step
-* step /usr/share/step/examples/pt_BR/lissajous.step
-* step /usr/share/step/examples/pt_BR/motor.step
-* step /usr/share/step/examples/pt_BR/motor1.step
-* step /usr/share/step/examples/pt_BR/note.step
-* step /usr/share/step/examples/pt_BR/resonance.step
-* step /usr/share/step/examples/pt_BR/softbody.step
-* step /usr/share/step/examples/pt_BR/solar.step
-* step /usr/share/step/examples/pt_BR/springs.step
-* step /usr/share/step/examples/pt_BR/wave.step
-* step /usr/share/step/examples/resonance.step
-* step /usr/share/step/examples/ru/brownian.step
-* step /usr/share/step/examples/ru/doublependulum.step
-* step /usr/share/step/examples/ru/eightpendula.step
-* step /usr/share/step/examples/ru/first.step
-* step /usr/share/step/examples/ru/fourpendula.step
-* step /usr/share/step/examples/ru/gas.step
-* step /usr/share/step/examples/ru/graph.step
-* step /usr/share/step/examples/ru/liquid.step
-* step /usr/share/step/examples/ru/lissajous.step
-* step /usr/share/step/examples/ru/motor.step
-* step /usr/share/step/examples/ru/motor1.step
-* step /usr/share/step/examples/ru/note.step
-* step /usr/share/step/examples/ru/resonance.step
-* step /usr/share/step/examples/ru/softbody.step
-* step /usr/share/step/examples/ru/solar.step
-* step /usr/share/step/examples/ru/springs.step
-* step /usr/share/step/examples/ru/wave.step
-* step /usr/share/step/examples/sk/brownian.step
-* step /usr/share/step/examples/sk/doublependulum.step
-* step /usr/share/step/examples/sk/eightpendula.step
-* step /usr/share/step/examples/sk/first.step
-* step /usr/share/step/examples/sk/fourpendula.step
-* step /usr/share/step/examples/sk/gas.step
-* step /usr/share/step/examples/sk/graph.step
-* step /usr/share/step/examples/sk/liquid.step
-* step /usr/share/step/examples/sk/lissajous.step
-* step /usr/share/step/examples/sk/motor.step
-* step /usr/share/step/examples/sk/motor1.step
-* step /usr/share/step/examples/sk/note.step
-* step /usr/share/step/examples/sk/resonance.step
-* step /usr/share/step/examples/sk/softbody.step
-* step /usr/share/step/examples/sk/solar.step
-* step /usr/share/step/examples/sk/springs.step
-* step /usr/share/step/examples/sk/wave.step
-* step /usr/share/step/examples/sl/brownian.step
-* step /usr/share/step/examples/sl/doublependulum.step
-* step /usr/share/step/examples/sl/eightpendula.step
-* step /usr/share/step/examples/sl/first.step
-* step /usr/share/step/examples/sl/fourpendula.step
-* step /usr/share/step/examples/sl/gas.step
-* step /usr/share/step/examples/sl/graph.step
-* step /usr/share/step/examples/sl/liquid.step
-* step /usr/share/step/examples/sl/lissajous.step
-* step /usr/share/step/examples/sl/motor.step
-* step /usr/share/step/examples/sl/motor1.step
-* step /usr/share/step/examples/sl/note.step
-* step /usr/share/step/examples/sl/resonance.step
-* step /usr/share/step/examples/sl/softbody.step
-* step /usr/share/step/examples/sl/solar.step
-* step /usr/share/step/examples/sl/springs.step
-* step /usr/share/step/examples/sl/wave.step
-* step /usr/share/step/examples/softbody.step
-* step /usr/share/step/examples/solar.step
-* step /usr/share/step/examples/springs.step
-* step /usr/share/step/examples/sv/brownian.step
-* step /usr/share/step/examples/sv/doublependulum.step
-* step /usr/share/step/examples/sv/eightpendula.step
-* step /usr/share/step/examples/sv/first.step
-* step /usr/share/step/examples/sv/fourpendula.step
-* step /usr/share/step/examples/sv/gas.step
-* step /usr/share/step/examples/sv/graph.step
-* step /usr/share/step/examples/sv/liquid.step
-* step /usr/share/step/examples/sv/lissajous.step
-* step /usr/share/step/examples/sv/motor.step
-* step /usr/share/step/examples/sv/motor1.step
-* step /usr/share/step/examples/sv/note.step
-* step /usr/share/step/examples/sv/resonance.step
-* step /usr/share/step/examples/sv/softbody.step
-* step /usr/share/step/examples/sv/solar.step
-* step /usr/share/step/examples/sv/springs.step
-* step /usr/share/step/examples/sv/wave.step
-* step /usr/share/step/examples/tr/brownian.step
-* step /usr/share/step/examples/tr/doublependulum.step
-* step /usr/share/step/examples/tr/eightpendula.step
-* step /usr/share/step/examples/tr/first.step
-* step /usr/share/step/examples/tr/fourpendula.step
-* step /usr/share/step/examples/tr/gas.step
-* step /usr/share/step/examples/tr/graph.step
-* step /usr/share/step/examples/tr/liquid.step
-* step /usr/share/step/examples/tr/lissajous.step
-* step /usr/share/step/examples/tr/motor.step
-* step /usr/share/step/examples/tr/motor1.step
-* step /usr/share/step/examples/tr/note.step
-* step /usr/share/step/examples/tr/resonance.step
-* step /usr/share/step/examples/tr/softbody.step
-* step /usr/share/step/examples/tr/solar.step
-* step /usr/share/step/examples/tr/springs.step
-* step /usr/share/step/examples/tr/wave.step
-* step /usr/share/step/examples/uk/brownian.step
-* step /usr/share/step/examples/uk/doublependulum.step
-* step /usr/share/step/examples/uk/eightpendula.step
-* step /usr/share/step/examples/uk/first.step
-* step /usr/share/step/examples/uk/fourpendula.step
-* step /usr/share/step/examples/uk/gas.step
-* step /usr/share/step/examples/uk/graph.step
-* step /usr/share/step/examples/uk/liquid.step
-* step /usr/share/step/examples/uk/lissajous.step
-* step /usr/share/step/examples/uk/motor.step
-* step /usr/share/step/examples/uk/motor1.step
-* step /usr/share/step/examples/uk/note.step
-* step /usr/share/step/examples/uk/resonance.step
-* step /usr/share/step/examples/uk/softbody.step
-* step /usr/share/step/examples/uk/solar.step
-* step /usr/share/step/examples/uk/springs.step
-* step /usr/share/step/examples/uk/wave.step
-* step /usr/share/step/examples/wave.step
-* step /usr/share/step/examples/zh_CN/brownian.step
-* step /usr/share/step/examples/zh_CN/doublependulum.step
-* step /usr/share/step/examples/zh_CN/eightpendula.step
-* step /usr/share/step/examples/zh_CN/first.step
-* step /usr/share/step/examples/zh_CN/fourpendula.step
-* step /usr/share/step/examples/zh_CN/gas.step
-* step /usr/share/step/examples/zh_CN/graph.step
-* step /usr/share/step/examples/zh_CN/liquid.step
-* step /usr/share/step/examples/zh_CN/lissajous.step
-* step /usr/share/step/examples/zh_CN/motor.step
-* step /usr/share/step/examples/zh_CN/motor1.step
-* step /usr/share/step/examples/zh_CN/note.step
-* step /usr/share/step/examples/zh_CN/resonance.step
-* step /usr/share/step/examples/zh_CN/softbody.step
-* step /usr/share/step/examples/zh_CN/solar.step
-* step /usr/share/step/examples/zh_CN/springs.step
-* step /usr/share/step/examples/zh_CN/wave.step
-* step /usr/share/step/examples/zh_TW/brownian.step
-* step /usr/share/step/examples/zh_TW/doublependulum.step
-* step /usr/share/step/examples/zh_TW/eightpendula.step
-* step /usr/share/step/examples/zh_TW/first.step
-* step /usr/share/step/examples/zh_TW/fourpendula.step
-* step /usr/share/step/examples/zh_TW/gas.step
-* step /usr/share/step/examples/zh_TW/graph.step
-* step /usr/share/step/examples/zh_TW/liquid.step
-* step /usr/share/step/examples/zh_TW/lissajous.step
-* step /usr/share/step/examples/zh_TW/motor.step
-* step /usr/share/step/examples/zh_TW/motor1.step
-* step /usr/share/step/examples/zh_TW/note.step
-* step /usr/share/step/examples/zh_TW/resonance.step
-* step /usr/share/step/examples/zh_TW/softbody.step
-* step /usr/share/step/examples/zh_TW/solar.step
-* step /usr/share/step/examples/zh_TW/springs.step
-* step /usr/share/step/examples/zh_TW/wave.step
-* step /usr/share/step/objinfo/anchor.html
-* step /usr/share/step/objinfo/box.html
-* step /usr/share/step/objinfo/chargedparticle.html
-* step /usr/share/step/objinfo/coulombforce.html
-* step /usr/share/step/objinfo/disk.html
-* step /usr/share/step/objinfo/gas.html
-* step /usr/share/step/objinfo/gasljforce.html
-* step /usr/share/step/objinfo/gasparticle.html
-* step /usr/share/step/objinfo/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/bg/anchor.html
-* step /usr/share/step/objinfo/l10n/bg/box.html
-* step /usr/share/step/objinfo/l10n/bg/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/bg/coulombforce.html
-* step /usr/share/step/objinfo/l10n/bg/disk.html
-* step /usr/share/step/objinfo/l10n/bg/gas.html
-* step /usr/share/step/objinfo/l10n/bg/gasljforce.html
-* step /usr/share/step/objinfo/l10n/bg/gasparticle.html
-* step /usr/share/step/objinfo/l10n/bg/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/bg/linearmotor.html
-* step /usr/share/step/objinfo/l10n/bg/meter.html
-* step /usr/share/step/objinfo/l10n/bg/note.html
-* step /usr/share/step/objinfo/l10n/bg/particle.html
-* step /usr/share/step/objinfo/l10n/bg/pin.html
-* step /usr/share/step/objinfo/l10n/bg/polygon.html
-* step /usr/share/step/objinfo/l10n/bg/softbody.html
-* step /usr/share/step/objinfo/l10n/bg/spring.html
-* step /usr/share/step/objinfo/l10n/bg/weightforce.html
-* step /usr/share/step/objinfo/l10n/bg/world.html
-* step /usr/share/step/objinfo/l10n/ca/anchor.html
-* step /usr/share/step/objinfo/l10n/ca/box.html
-* step /usr/share/step/objinfo/l10n/ca/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ca/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ca/disk.html
-* step /usr/share/step/objinfo/l10n/ca/gas.html
-* step /usr/share/step/objinfo/l10n/ca/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ca/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ca/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ca/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ca/meter.html
-* step /usr/share/step/objinfo/l10n/ca/note.html
-* step /usr/share/step/objinfo/l10n/ca/particle.html
-* step /usr/share/step/objinfo/l10n/ca/pin.html
-* step /usr/share/step/objinfo/l10n/ca/polygon.html
-* step /usr/share/step/objinfo/l10n/ca/softbody.html
-* step /usr/share/step/objinfo/l10n/ca/spring.html
-* step /usr/share/step/objinfo/l10n/ca/weightforce.html
-* step /usr/share/step/objinfo/l10n/ca/world.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/anchor.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/box.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/disk.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/gas.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/meter.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/note.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/particle.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/pin.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/polygon.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/softbody.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/spring.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/weightforce.html
-* step /usr/share/step/objinfo/l10n/ca@valencia/world.html
-* step /usr/share/step/objinfo/l10n/cs/anchor.html
-* step /usr/share/step/objinfo/l10n/cs/box.html
-* step /usr/share/step/objinfo/l10n/cs/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/cs/coulombforce.html
-* step /usr/share/step/objinfo/l10n/cs/disk.html
-* step /usr/share/step/objinfo/l10n/cs/gas.html
-* step /usr/share/step/objinfo/l10n/cs/gasljforce.html
-* step /usr/share/step/objinfo/l10n/cs/gasparticle.html
-* step /usr/share/step/objinfo/l10n/cs/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/cs/linearmotor.html
-* step /usr/share/step/objinfo/l10n/cs/meter.html
-* step /usr/share/step/objinfo/l10n/cs/note.html
-* step /usr/share/step/objinfo/l10n/cs/particle.html
-* step /usr/share/step/objinfo/l10n/cs/pin.html
-* step /usr/share/step/objinfo/l10n/cs/polygon.html
-* step /usr/share/step/objinfo/l10n/cs/softbody.html
-* step /usr/share/step/objinfo/l10n/cs/spring.html
-* step /usr/share/step/objinfo/l10n/cs/weightforce.html
-* step /usr/share/step/objinfo/l10n/cs/world.html
-* step /usr/share/step/objinfo/l10n/da/anchor.html
-* step /usr/share/step/objinfo/l10n/da/box.html
-* step /usr/share/step/objinfo/l10n/da/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/da/coulombforce.html
-* step /usr/share/step/objinfo/l10n/da/disk.html
-* step /usr/share/step/objinfo/l10n/da/gas.html
-* step /usr/share/step/objinfo/l10n/da/gasljforce.html
-* step /usr/share/step/objinfo/l10n/da/gasparticle.html
-* step /usr/share/step/objinfo/l10n/da/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/da/linearmotor.html
-* step /usr/share/step/objinfo/l10n/da/meter.html
-* step /usr/share/step/objinfo/l10n/da/note.html
-* step /usr/share/step/objinfo/l10n/da/particle.html
-* step /usr/share/step/objinfo/l10n/da/pin.html
-* step /usr/share/step/objinfo/l10n/da/polygon.html
-* step /usr/share/step/objinfo/l10n/da/softbody.html
-* step /usr/share/step/objinfo/l10n/da/spring.html
-* step /usr/share/step/objinfo/l10n/da/weightforce.html
-* step /usr/share/step/objinfo/l10n/da/world.html
-* step /usr/share/step/objinfo/l10n/de/anchor.html
-* step /usr/share/step/objinfo/l10n/de/box.html
-* step /usr/share/step/objinfo/l10n/de/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/de/coulombforce.html
-* step /usr/share/step/objinfo/l10n/de/disk.html
-* step /usr/share/step/objinfo/l10n/de/gas.html
-* step /usr/share/step/objinfo/l10n/de/gasljforce.html
-* step /usr/share/step/objinfo/l10n/de/gasparticle.html
-* step /usr/share/step/objinfo/l10n/de/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/de/linearmotor.html
-* step /usr/share/step/objinfo/l10n/de/meter.html
-* step /usr/share/step/objinfo/l10n/de/note.html
-* step /usr/share/step/objinfo/l10n/de/particle.html
-* step /usr/share/step/objinfo/l10n/de/pin.html
-* step /usr/share/step/objinfo/l10n/de/polygon.html
-* step /usr/share/step/objinfo/l10n/de/softbody.html
-* step /usr/share/step/objinfo/l10n/de/spring.html
-* step /usr/share/step/objinfo/l10n/de/weightforce.html
-* step /usr/share/step/objinfo/l10n/de/world.html
-* step /usr/share/step/objinfo/l10n/el/anchor.html
-* step /usr/share/step/objinfo/l10n/el/box.html
-* step /usr/share/step/objinfo/l10n/el/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/el/coulombforce.html
-* step /usr/share/step/objinfo/l10n/el/disk.html
-* step /usr/share/step/objinfo/l10n/el/gas.html
-* step /usr/share/step/objinfo/l10n/el/gasljforce.html
-* step /usr/share/step/objinfo/l10n/el/gasparticle.html
-* step /usr/share/step/objinfo/l10n/el/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/el/linearmotor.html
-* step /usr/share/step/objinfo/l10n/el/meter.html
-* step /usr/share/step/objinfo/l10n/el/note.html
-* step /usr/share/step/objinfo/l10n/el/particle.html
-* step /usr/share/step/objinfo/l10n/el/pin.html
-* step /usr/share/step/objinfo/l10n/el/polygon.html
-* step /usr/share/step/objinfo/l10n/el/softbody.html
-* step /usr/share/step/objinfo/l10n/el/spring.html
-* step /usr/share/step/objinfo/l10n/el/weightforce.html
-* step /usr/share/step/objinfo/l10n/el/world.html
-* step /usr/share/step/objinfo/l10n/en_GB/anchor.html
-* step /usr/share/step/objinfo/l10n/en_GB/box.html
-* step /usr/share/step/objinfo/l10n/en_GB/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/en_GB/coulombforce.html
-* step /usr/share/step/objinfo/l10n/en_GB/disk.html
-* step /usr/share/step/objinfo/l10n/en_GB/gas.html
-* step /usr/share/step/objinfo/l10n/en_GB/gasljforce.html
-* step /usr/share/step/objinfo/l10n/en_GB/gasparticle.html
-* step /usr/share/step/objinfo/l10n/en_GB/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/en_GB/linearmotor.html
-* step /usr/share/step/objinfo/l10n/en_GB/meter.html
-* step /usr/share/step/objinfo/l10n/en_GB/note.html
-* step /usr/share/step/objinfo/l10n/en_GB/particle.html
-* step /usr/share/step/objinfo/l10n/en_GB/pin.html
-* step /usr/share/step/objinfo/l10n/en_GB/polygon.html
-* step /usr/share/step/objinfo/l10n/en_GB/softbody.html
-* step /usr/share/step/objinfo/l10n/en_GB/spring.html
-* step /usr/share/step/objinfo/l10n/en_GB/weightforce.html
-* step /usr/share/step/objinfo/l10n/en_GB/world.html
-* step /usr/share/step/objinfo/l10n/eo/anchor.html
-* step /usr/share/step/objinfo/l10n/eo/box.html
-* step /usr/share/step/objinfo/l10n/eo/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/eo/coulombforce.html
-* step /usr/share/step/objinfo/l10n/eo/disk.html
-* step /usr/share/step/objinfo/l10n/eo/gas.html
-* step /usr/share/step/objinfo/l10n/eo/gasljforce.html
-* step /usr/share/step/objinfo/l10n/eo/gasparticle.html
-* step /usr/share/step/objinfo/l10n/eo/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/eo/linearmotor.html
-* step /usr/share/step/objinfo/l10n/eo/meter.html
-* step /usr/share/step/objinfo/l10n/eo/note.html
-* step /usr/share/step/objinfo/l10n/eo/particle.html
-* step /usr/share/step/objinfo/l10n/eo/pin.html
-* step /usr/share/step/objinfo/l10n/eo/polygon.html
-* step /usr/share/step/objinfo/l10n/eo/softbody.html
-* step /usr/share/step/objinfo/l10n/eo/spring.html
-* step /usr/share/step/objinfo/l10n/eo/weightforce.html
-* step /usr/share/step/objinfo/l10n/eo/world.html
-* step /usr/share/step/objinfo/l10n/es/anchor.html
-* step /usr/share/step/objinfo/l10n/es/box.html
-* step /usr/share/step/objinfo/l10n/es/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/es/coulombforce.html
-* step /usr/share/step/objinfo/l10n/es/disk.html
-* step /usr/share/step/objinfo/l10n/es/gas.html
-* step /usr/share/step/objinfo/l10n/es/gasljforce.html
-* step /usr/share/step/objinfo/l10n/es/gasparticle.html
-* step /usr/share/step/objinfo/l10n/es/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/es/linearmotor.html
-* step /usr/share/step/objinfo/l10n/es/meter.html
-* step /usr/share/step/objinfo/l10n/es/note.html
-* step /usr/share/step/objinfo/l10n/es/particle.html
-* step /usr/share/step/objinfo/l10n/es/pin.html
-* step /usr/share/step/objinfo/l10n/es/polygon.html
-* step /usr/share/step/objinfo/l10n/es/softbody.html
-* step /usr/share/step/objinfo/l10n/es/spring.html
-* step /usr/share/step/objinfo/l10n/es/weightforce.html
-* step /usr/share/step/objinfo/l10n/es/world.html
-* step /usr/share/step/objinfo/l10n/et/anchor.html
-* step /usr/share/step/objinfo/l10n/et/box.html
-* step /usr/share/step/objinfo/l10n/et/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/et/coulombforce.html
-* step /usr/share/step/objinfo/l10n/et/disk.html
-* step /usr/share/step/objinfo/l10n/et/gas.html
-* step /usr/share/step/objinfo/l10n/et/gasljforce.html
-* step /usr/share/step/objinfo/l10n/et/gasparticle.html
-* step /usr/share/step/objinfo/l10n/et/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/et/linearmotor.html
-* step /usr/share/step/objinfo/l10n/et/meter.html
-* step /usr/share/step/objinfo/l10n/et/note.html
-* step /usr/share/step/objinfo/l10n/et/particle.html
-* step /usr/share/step/objinfo/l10n/et/pin.html
-* step /usr/share/step/objinfo/l10n/et/polygon.html
-* step /usr/share/step/objinfo/l10n/et/softbody.html
-* step /usr/share/step/objinfo/l10n/et/spring.html
-* step /usr/share/step/objinfo/l10n/et/weightforce.html
-* step /usr/share/step/objinfo/l10n/et/world.html
-* step /usr/share/step/objinfo/l10n/eu/anchor.html
-* step /usr/share/step/objinfo/l10n/eu/box.html
-* step /usr/share/step/objinfo/l10n/eu/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/eu/coulombforce.html
-* step /usr/share/step/objinfo/l10n/eu/disk.html
-* step /usr/share/step/objinfo/l10n/eu/gas.html
-* step /usr/share/step/objinfo/l10n/eu/gasljforce.html
-* step /usr/share/step/objinfo/l10n/eu/gasparticle.html
-* step /usr/share/step/objinfo/l10n/eu/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/eu/linearmotor.html
-* step /usr/share/step/objinfo/l10n/eu/meter.html
-* step /usr/share/step/objinfo/l10n/eu/note.html
-* step /usr/share/step/objinfo/l10n/eu/particle.html
-* step /usr/share/step/objinfo/l10n/eu/pin.html
-* step /usr/share/step/objinfo/l10n/eu/polygon.html
-* step /usr/share/step/objinfo/l10n/eu/softbody.html
-* step /usr/share/step/objinfo/l10n/eu/spring.html
-* step /usr/share/step/objinfo/l10n/eu/weightforce.html
-* step /usr/share/step/objinfo/l10n/eu/world.html
-* step /usr/share/step/objinfo/l10n/fi/anchor.html
-* step /usr/share/step/objinfo/l10n/fi/box.html
-* step /usr/share/step/objinfo/l10n/fi/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/fi/coulombforce.html
-* step /usr/share/step/objinfo/l10n/fi/disk.html
-* step /usr/share/step/objinfo/l10n/fi/gas.html
-* step /usr/share/step/objinfo/l10n/fi/gasljforce.html
-* step /usr/share/step/objinfo/l10n/fi/gasparticle.html
-* step /usr/share/step/objinfo/l10n/fi/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/fi/linearmotor.html
-* step /usr/share/step/objinfo/l10n/fi/meter.html
-* step /usr/share/step/objinfo/l10n/fi/note.html
-* step /usr/share/step/objinfo/l10n/fi/particle.html
-* step /usr/share/step/objinfo/l10n/fi/pin.html
-* step /usr/share/step/objinfo/l10n/fi/polygon.html
-* step /usr/share/step/objinfo/l10n/fi/softbody.html
-* step /usr/share/step/objinfo/l10n/fi/spring.html
-* step /usr/share/step/objinfo/l10n/fi/weightforce.html
-* step /usr/share/step/objinfo/l10n/fi/world.html
-* step /usr/share/step/objinfo/l10n/fr/anchor.html
-* step /usr/share/step/objinfo/l10n/fr/box.html
-* step /usr/share/step/objinfo/l10n/fr/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/fr/coulombforce.html
-* step /usr/share/step/objinfo/l10n/fr/disk.html
-* step /usr/share/step/objinfo/l10n/fr/gas.html
-* step /usr/share/step/objinfo/l10n/fr/gasljforce.html
-* step /usr/share/step/objinfo/l10n/fr/gasparticle.html
-* step /usr/share/step/objinfo/l10n/fr/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/fr/linearmotor.html
-* step /usr/share/step/objinfo/l10n/fr/meter.html
-* step /usr/share/step/objinfo/l10n/fr/note.html
-* step /usr/share/step/objinfo/l10n/fr/particle.html
-* step /usr/share/step/objinfo/l10n/fr/pin.html
-* step /usr/share/step/objinfo/l10n/fr/polygon.html
-* step /usr/share/step/objinfo/l10n/fr/softbody.html
-* step /usr/share/step/objinfo/l10n/fr/spring.html
-* step /usr/share/step/objinfo/l10n/fr/weightforce.html
-* step /usr/share/step/objinfo/l10n/fr/world.html
-* step /usr/share/step/objinfo/l10n/gl/anchor.html
-* step /usr/share/step/objinfo/l10n/gl/box.html
-* step /usr/share/step/objinfo/l10n/gl/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/gl/coulombforce.html
-* step /usr/share/step/objinfo/l10n/gl/disk.html
-* step /usr/share/step/objinfo/l10n/gl/gas.html
-* step /usr/share/step/objinfo/l10n/gl/gasljforce.html
-* step /usr/share/step/objinfo/l10n/gl/gasparticle.html
-* step /usr/share/step/objinfo/l10n/gl/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/gl/linearmotor.html
-* step /usr/share/step/objinfo/l10n/gl/meter.html
-* step /usr/share/step/objinfo/l10n/gl/note.html
-* step /usr/share/step/objinfo/l10n/gl/particle.html
-* step /usr/share/step/objinfo/l10n/gl/pin.html
-* step /usr/share/step/objinfo/l10n/gl/polygon.html
-* step /usr/share/step/objinfo/l10n/gl/softbody.html
-* step /usr/share/step/objinfo/l10n/gl/spring.html
-* step /usr/share/step/objinfo/l10n/gl/weightforce.html
-* step /usr/share/step/objinfo/l10n/gl/world.html
-* step /usr/share/step/objinfo/l10n/ia/anchor.html
-* step /usr/share/step/objinfo/l10n/ia/box.html
-* step /usr/share/step/objinfo/l10n/ia/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ia/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ia/disk.html
-* step /usr/share/step/objinfo/l10n/ia/gas.html
-* step /usr/share/step/objinfo/l10n/ia/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ia/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ia/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ia/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ia/meter.html
-* step /usr/share/step/objinfo/l10n/ia/note.html
-* step /usr/share/step/objinfo/l10n/ia/particle.html
-* step /usr/share/step/objinfo/l10n/ia/pin.html
-* step /usr/share/step/objinfo/l10n/ia/polygon.html
-* step /usr/share/step/objinfo/l10n/ia/softbody.html
-* step /usr/share/step/objinfo/l10n/ia/spring.html
-* step /usr/share/step/objinfo/l10n/ia/weightforce.html
-* step /usr/share/step/objinfo/l10n/ia/world.html
-* step /usr/share/step/objinfo/l10n/it/anchor.html
-* step /usr/share/step/objinfo/l10n/it/box.html
-* step /usr/share/step/objinfo/l10n/it/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/it/coulombforce.html
-* step /usr/share/step/objinfo/l10n/it/disk.html
-* step /usr/share/step/objinfo/l10n/it/gas.html
-* step /usr/share/step/objinfo/l10n/it/gasljforce.html
-* step /usr/share/step/objinfo/l10n/it/gasparticle.html
-* step /usr/share/step/objinfo/l10n/it/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/it/linearmotor.html
-* step /usr/share/step/objinfo/l10n/it/meter.html
-* step /usr/share/step/objinfo/l10n/it/note.html
-* step /usr/share/step/objinfo/l10n/it/particle.html
-* step /usr/share/step/objinfo/l10n/it/pin.html
-* step /usr/share/step/objinfo/l10n/it/polygon.html
-* step /usr/share/step/objinfo/l10n/it/softbody.html
-* step /usr/share/step/objinfo/l10n/it/spring.html
-* step /usr/share/step/objinfo/l10n/it/weightforce.html
-* step /usr/share/step/objinfo/l10n/it/world.html
-* step /usr/share/step/objinfo/l10n/ja/anchor.html
-* step /usr/share/step/objinfo/l10n/ja/box.html
-* step /usr/share/step/objinfo/l10n/ja/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ja/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ja/disk.html
-* step /usr/share/step/objinfo/l10n/ja/gas.html
-* step /usr/share/step/objinfo/l10n/ja/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ja/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ja/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ja/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ja/meter.html
-* step /usr/share/step/objinfo/l10n/ja/note.html
-* step /usr/share/step/objinfo/l10n/ja/particle.html
-* step /usr/share/step/objinfo/l10n/ja/pin.html
-* step /usr/share/step/objinfo/l10n/ja/polygon.html
-* step /usr/share/step/objinfo/l10n/ja/softbody.html
-* step /usr/share/step/objinfo/l10n/ja/spring.html
-* step /usr/share/step/objinfo/l10n/ja/weightforce.html
-* step /usr/share/step/objinfo/l10n/ja/world.html
-* step /usr/share/step/objinfo/l10n/ka/anchor.html
-* step /usr/share/step/objinfo/l10n/ka/box.html
-* step /usr/share/step/objinfo/l10n/ka/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ka/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ka/disk.html
-* step /usr/share/step/objinfo/l10n/ka/gas.html
-* step /usr/share/step/objinfo/l10n/ka/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ka/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ka/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ka/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ka/meter.html
-* step /usr/share/step/objinfo/l10n/ka/note.html
-* step /usr/share/step/objinfo/l10n/ka/particle.html
-* step /usr/share/step/objinfo/l10n/ka/pin.html
-* step /usr/share/step/objinfo/l10n/ka/polygon.html
-* step /usr/share/step/objinfo/l10n/ka/softbody.html
-* step /usr/share/step/objinfo/l10n/ka/spring.html
-* step /usr/share/step/objinfo/l10n/ka/weightforce.html
-* step /usr/share/step/objinfo/l10n/ka/world.html
-* step /usr/share/step/objinfo/l10n/ko/anchor.html
-* step /usr/share/step/objinfo/l10n/ko/box.html
-* step /usr/share/step/objinfo/l10n/ko/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ko/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ko/disk.html
-* step /usr/share/step/objinfo/l10n/ko/gas.html
-* step /usr/share/step/objinfo/l10n/ko/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ko/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ko/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ko/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ko/meter.html
-* step /usr/share/step/objinfo/l10n/ko/note.html
-* step /usr/share/step/objinfo/l10n/ko/particle.html
-* step /usr/share/step/objinfo/l10n/ko/pin.html
-* step /usr/share/step/objinfo/l10n/ko/polygon.html
-* step /usr/share/step/objinfo/l10n/ko/softbody.html
-* step /usr/share/step/objinfo/l10n/ko/spring.html
-* step /usr/share/step/objinfo/l10n/ko/weightforce.html
-* step /usr/share/step/objinfo/l10n/ko/world.html
-* step /usr/share/step/objinfo/l10n/lt/anchor.html
-* step /usr/share/step/objinfo/l10n/lt/box.html
-* step /usr/share/step/objinfo/l10n/lt/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/lt/coulombforce.html
-* step /usr/share/step/objinfo/l10n/lt/disk.html
-* step /usr/share/step/objinfo/l10n/lt/gas.html
-* step /usr/share/step/objinfo/l10n/lt/gasljforce.html
-* step /usr/share/step/objinfo/l10n/lt/gasparticle.html
-* step /usr/share/step/objinfo/l10n/lt/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/lt/linearmotor.html
-* step /usr/share/step/objinfo/l10n/lt/meter.html
-* step /usr/share/step/objinfo/l10n/lt/note.html
-* step /usr/share/step/objinfo/l10n/lt/particle.html
-* step /usr/share/step/objinfo/l10n/lt/pin.html
-* step /usr/share/step/objinfo/l10n/lt/polygon.html
-* step /usr/share/step/objinfo/l10n/lt/softbody.html
-* step /usr/share/step/objinfo/l10n/lt/spring.html
-* step /usr/share/step/objinfo/l10n/lt/weightforce.html
-* step /usr/share/step/objinfo/l10n/lt/world.html
-* step /usr/share/step/objinfo/l10n/ml/anchor.html
-* step /usr/share/step/objinfo/l10n/ml/box.html
-* step /usr/share/step/objinfo/l10n/ml/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ml/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ml/disk.html
-* step /usr/share/step/objinfo/l10n/ml/gas.html
-* step /usr/share/step/objinfo/l10n/ml/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ml/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ml/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ml/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ml/meter.html
-* step /usr/share/step/objinfo/l10n/ml/note.html
-* step /usr/share/step/objinfo/l10n/ml/particle.html
-* step /usr/share/step/objinfo/l10n/ml/pin.html
-* step /usr/share/step/objinfo/l10n/ml/polygon.html
-* step /usr/share/step/objinfo/l10n/ml/softbody.html
-* step /usr/share/step/objinfo/l10n/ml/spring.html
-* step /usr/share/step/objinfo/l10n/ml/weightforce.html
-* step /usr/share/step/objinfo/l10n/ml/world.html
-* step /usr/share/step/objinfo/l10n/nl/anchor.html
-* step /usr/share/step/objinfo/l10n/nl/box.html
-* step /usr/share/step/objinfo/l10n/nl/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/nl/coulombforce.html
-* step /usr/share/step/objinfo/l10n/nl/disk.html
-* step /usr/share/step/objinfo/l10n/nl/gas.html
-* step /usr/share/step/objinfo/l10n/nl/gasljforce.html
-* step /usr/share/step/objinfo/l10n/nl/gasparticle.html
-* step /usr/share/step/objinfo/l10n/nl/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/nl/linearmotor.html
-* step /usr/share/step/objinfo/l10n/nl/meter.html
-* step /usr/share/step/objinfo/l10n/nl/note.html
-* step /usr/share/step/objinfo/l10n/nl/particle.html
-* step /usr/share/step/objinfo/l10n/nl/pin.html
-* step /usr/share/step/objinfo/l10n/nl/polygon.html
-* step /usr/share/step/objinfo/l10n/nl/softbody.html
-* step /usr/share/step/objinfo/l10n/nl/spring.html
-* step /usr/share/step/objinfo/l10n/nl/weightforce.html
-* step /usr/share/step/objinfo/l10n/nl/world.html
-* step /usr/share/step/objinfo/l10n/pl/anchor.html
-* step /usr/share/step/objinfo/l10n/pl/box.html
-* step /usr/share/step/objinfo/l10n/pl/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/pl/coulombforce.html
-* step /usr/share/step/objinfo/l10n/pl/disk.html
-* step /usr/share/step/objinfo/l10n/pl/gas.html
-* step /usr/share/step/objinfo/l10n/pl/gasljforce.html
-* step /usr/share/step/objinfo/l10n/pl/gasparticle.html
-* step /usr/share/step/objinfo/l10n/pl/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/pl/linearmotor.html
-* step /usr/share/step/objinfo/l10n/pl/meter.html
-* step /usr/share/step/objinfo/l10n/pl/note.html
-* step /usr/share/step/objinfo/l10n/pl/particle.html
-* step /usr/share/step/objinfo/l10n/pl/pin.html
-* step /usr/share/step/objinfo/l10n/pl/polygon.html
-* step /usr/share/step/objinfo/l10n/pl/softbody.html
-* step /usr/share/step/objinfo/l10n/pl/spring.html
-* step /usr/share/step/objinfo/l10n/pl/weightforce.html
-* step /usr/share/step/objinfo/l10n/pl/world.html
-* step /usr/share/step/objinfo/l10n/pt/anchor.html
-* step /usr/share/step/objinfo/l10n/pt/box.html
-* step /usr/share/step/objinfo/l10n/pt/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/pt/coulombforce.html
-* step /usr/share/step/objinfo/l10n/pt/disk.html
-* step /usr/share/step/objinfo/l10n/pt/gas.html
-* step /usr/share/step/objinfo/l10n/pt/gasljforce.html
-* step /usr/share/step/objinfo/l10n/pt/gasparticle.html
-* step /usr/share/step/objinfo/l10n/pt/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/pt/linearmotor.html
-* step /usr/share/step/objinfo/l10n/pt/meter.html
-* step /usr/share/step/objinfo/l10n/pt/note.html
-* step /usr/share/step/objinfo/l10n/pt/particle.html
-* step /usr/share/step/objinfo/l10n/pt/pin.html
-* step /usr/share/step/objinfo/l10n/pt/polygon.html
-* step /usr/share/step/objinfo/l10n/pt/softbody.html
-* step /usr/share/step/objinfo/l10n/pt/spring.html
-* step /usr/share/step/objinfo/l10n/pt/weightforce.html
-* step /usr/share/step/objinfo/l10n/pt/world.html
-* step /usr/share/step/objinfo/l10n/pt_BR/anchor.html
-* step /usr/share/step/objinfo/l10n/pt_BR/box.html
-* step /usr/share/step/objinfo/l10n/pt_BR/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/pt_BR/coulombforce.html
-* step /usr/share/step/objinfo/l10n/pt_BR/disk.html
-* step /usr/share/step/objinfo/l10n/pt_BR/gas.html
-* step /usr/share/step/objinfo/l10n/pt_BR/gasljforce.html
-* step /usr/share/step/objinfo/l10n/pt_BR/gasparticle.html
-* step /usr/share/step/objinfo/l10n/pt_BR/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/pt_BR/linearmotor.html
-* step /usr/share/step/objinfo/l10n/pt_BR/meter.html
-* step /usr/share/step/objinfo/l10n/pt_BR/note.html
-* step /usr/share/step/objinfo/l10n/pt_BR/particle.html
-* step /usr/share/step/objinfo/l10n/pt_BR/pin.html
-* step /usr/share/step/objinfo/l10n/pt_BR/polygon.html
-* step /usr/share/step/objinfo/l10n/pt_BR/softbody.html
-* step /usr/share/step/objinfo/l10n/pt_BR/spring.html
-* step /usr/share/step/objinfo/l10n/pt_BR/weightforce.html
-* step /usr/share/step/objinfo/l10n/pt_BR/world.html
-* step /usr/share/step/objinfo/l10n/ru/anchor.html
-* step /usr/share/step/objinfo/l10n/ru/box.html
-* step /usr/share/step/objinfo/l10n/ru/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/ru/coulombforce.html
-* step /usr/share/step/objinfo/l10n/ru/disk.html
-* step /usr/share/step/objinfo/l10n/ru/gas.html
-* step /usr/share/step/objinfo/l10n/ru/gasljforce.html
-* step /usr/share/step/objinfo/l10n/ru/gasparticle.html
-* step /usr/share/step/objinfo/l10n/ru/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/ru/linearmotor.html
-* step /usr/share/step/objinfo/l10n/ru/meter.html
-* step /usr/share/step/objinfo/l10n/ru/note.html
-* step /usr/share/step/objinfo/l10n/ru/particle.html
-* step /usr/share/step/objinfo/l10n/ru/pin.html
-* step /usr/share/step/objinfo/l10n/ru/polygon.html
-* step /usr/share/step/objinfo/l10n/ru/softbody.html
-* step /usr/share/step/objinfo/l10n/ru/spring.html
-* step /usr/share/step/objinfo/l10n/ru/weightforce.html
-* step /usr/share/step/objinfo/l10n/ru/world.html
-* step /usr/share/step/objinfo/l10n/sk/anchor.html
-* step /usr/share/step/objinfo/l10n/sk/box.html
-* step /usr/share/step/objinfo/l10n/sk/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/sk/coulombforce.html
-* step /usr/share/step/objinfo/l10n/sk/disk.html
-* step /usr/share/step/objinfo/l10n/sk/gas.html
-* step /usr/share/step/objinfo/l10n/sk/gasljforce.html
-* step /usr/share/step/objinfo/l10n/sk/gasparticle.html
-* step /usr/share/step/objinfo/l10n/sk/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/sk/linearmotor.html
-* step /usr/share/step/objinfo/l10n/sk/meter.html
-* step /usr/share/step/objinfo/l10n/sk/note.html
-* step /usr/share/step/objinfo/l10n/sk/particle.html
-* step /usr/share/step/objinfo/l10n/sk/pin.html
-* step /usr/share/step/objinfo/l10n/sk/polygon.html
-* step /usr/share/step/objinfo/l10n/sk/softbody.html
-* step /usr/share/step/objinfo/l10n/sk/spring.html
-* step /usr/share/step/objinfo/l10n/sk/weightforce.html
-* step /usr/share/step/objinfo/l10n/sk/world.html
-* step /usr/share/step/objinfo/l10n/sl/anchor.html
-* step /usr/share/step/objinfo/l10n/sl/box.html
-* step /usr/share/step/objinfo/l10n/sl/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/sl/coulombforce.html
-* step /usr/share/step/objinfo/l10n/sl/disk.html
-* step /usr/share/step/objinfo/l10n/sl/gas.html
-* step /usr/share/step/objinfo/l10n/sl/gasljforce.html
-* step /usr/share/step/objinfo/l10n/sl/gasparticle.html
-* step /usr/share/step/objinfo/l10n/sl/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/sl/linearmotor.html
-* step /usr/share/step/objinfo/l10n/sl/meter.html
-* step /usr/share/step/objinfo/l10n/sl/note.html
-* step /usr/share/step/objinfo/l10n/sl/particle.html
-* step /usr/share/step/objinfo/l10n/sl/pin.html
-* step /usr/share/step/objinfo/l10n/sl/polygon.html
-* step /usr/share/step/objinfo/l10n/sl/softbody.html
-* step /usr/share/step/objinfo/l10n/sl/spring.html
-* step /usr/share/step/objinfo/l10n/sl/weightforce.html
-* step /usr/share/step/objinfo/l10n/sl/world.html
-* step /usr/share/step/objinfo/l10n/sv/anchor.html
-* step /usr/share/step/objinfo/l10n/sv/box.html
-* step /usr/share/step/objinfo/l10n/sv/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/sv/coulombforce.html
-* step /usr/share/step/objinfo/l10n/sv/disk.html
-* step /usr/share/step/objinfo/l10n/sv/gas.html
-* step /usr/share/step/objinfo/l10n/sv/gasljforce.html
-* step /usr/share/step/objinfo/l10n/sv/gasparticle.html
-* step /usr/share/step/objinfo/l10n/sv/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/sv/linearmotor.html
-* step /usr/share/step/objinfo/l10n/sv/meter.html
-* step /usr/share/step/objinfo/l10n/sv/note.html
-* step /usr/share/step/objinfo/l10n/sv/particle.html
-* step /usr/share/step/objinfo/l10n/sv/pin.html
-* step /usr/share/step/objinfo/l10n/sv/polygon.html
-* step /usr/share/step/objinfo/l10n/sv/softbody.html
-* step /usr/share/step/objinfo/l10n/sv/spring.html
-* step /usr/share/step/objinfo/l10n/sv/weightforce.html
-* step /usr/share/step/objinfo/l10n/sv/world.html
-* step /usr/share/step/objinfo/l10n/tr/anchor.html
-* step /usr/share/step/objinfo/l10n/tr/box.html
-* step /usr/share/step/objinfo/l10n/tr/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/tr/coulombforce.html
-* step /usr/share/step/objinfo/l10n/tr/disk.html
-* step /usr/share/step/objinfo/l10n/tr/gas.html
-* step /usr/share/step/objinfo/l10n/tr/gasljforce.html
-* step /usr/share/step/objinfo/l10n/tr/gasparticle.html
-* step /usr/share/step/objinfo/l10n/tr/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/tr/linearmotor.html
-* step /usr/share/step/objinfo/l10n/tr/meter.html
-* step /usr/share/step/objinfo/l10n/tr/note.html
-* step /usr/share/step/objinfo/l10n/tr/particle.html
-* step /usr/share/step/objinfo/l10n/tr/pin.html
-* step /usr/share/step/objinfo/l10n/tr/polygon.html
-* step /usr/share/step/objinfo/l10n/tr/softbody.html
-* step /usr/share/step/objinfo/l10n/tr/spring.html
-* step /usr/share/step/objinfo/l10n/tr/weightforce.html
-* step /usr/share/step/objinfo/l10n/tr/world.html
-* step /usr/share/step/objinfo/l10n/uk/anchor.html
-* step /usr/share/step/objinfo/l10n/uk/box.html
-* step /usr/share/step/objinfo/l10n/uk/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/uk/coulombforce.html
-* step /usr/share/step/objinfo/l10n/uk/disk.html
-* step /usr/share/step/objinfo/l10n/uk/gas.html
-* step /usr/share/step/objinfo/l10n/uk/gasljforce.html
-* step /usr/share/step/objinfo/l10n/uk/gasparticle.html
-* step /usr/share/step/objinfo/l10n/uk/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/uk/linearmotor.html
-* step /usr/share/step/objinfo/l10n/uk/meter.html
-* step /usr/share/step/objinfo/l10n/uk/note.html
-* step /usr/share/step/objinfo/l10n/uk/particle.html
-* step /usr/share/step/objinfo/l10n/uk/pin.html
-* step /usr/share/step/objinfo/l10n/uk/polygon.html
-* step /usr/share/step/objinfo/l10n/uk/softbody.html
-* step /usr/share/step/objinfo/l10n/uk/spring.html
-* step /usr/share/step/objinfo/l10n/uk/weightforce.html
-* step /usr/share/step/objinfo/l10n/uk/world.html
-* step /usr/share/step/objinfo/l10n/zh_CN/anchor.html
-* step /usr/share/step/objinfo/l10n/zh_CN/box.html
-* step /usr/share/step/objinfo/l10n/zh_CN/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/zh_CN/coulombforce.html
-* step /usr/share/step/objinfo/l10n/zh_CN/disk.html
-* step /usr/share/step/objinfo/l10n/zh_CN/gas.html
-* step /usr/share/step/objinfo/l10n/zh_CN/gasljforce.html
-* step /usr/share/step/objinfo/l10n/zh_CN/gasparticle.html
-* step /usr/share/step/objinfo/l10n/zh_CN/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/zh_CN/linearmotor.html
-* step /usr/share/step/objinfo/l10n/zh_CN/meter.html
-* step /usr/share/step/objinfo/l10n/zh_CN/note.html
-* step /usr/share/step/objinfo/l10n/zh_CN/particle.html
-* step /usr/share/step/objinfo/l10n/zh_CN/pin.html
-* step /usr/share/step/objinfo/l10n/zh_CN/polygon.html
-* step /usr/share/step/objinfo/l10n/zh_CN/softbody.html
-* step /usr/share/step/objinfo/l10n/zh_CN/spring.html
-* step /usr/share/step/objinfo/l10n/zh_CN/weightforce.html
-* step /usr/share/step/objinfo/l10n/zh_CN/world.html
-* step /usr/share/step/objinfo/l10n/zh_TW/anchor.html
-* step /usr/share/step/objinfo/l10n/zh_TW/box.html
-* step /usr/share/step/objinfo/l10n/zh_TW/chargedparticle.html
-* step /usr/share/step/objinfo/l10n/zh_TW/coulombforce.html
-* step /usr/share/step/objinfo/l10n/zh_TW/disk.html
-* step /usr/share/step/objinfo/l10n/zh_TW/gas.html
-* step /usr/share/step/objinfo/l10n/zh_TW/gasljforce.html
-* step /usr/share/step/objinfo/l10n/zh_TW/gasparticle.html
-* step /usr/share/step/objinfo/l10n/zh_TW/gravitationforce.html
-* step /usr/share/step/objinfo/l10n/zh_TW/linearmotor.html
-* step /usr/share/step/objinfo/l10n/zh_TW/meter.html
-* step /usr/share/step/objinfo/l10n/zh_TW/note.html
-* step /usr/share/step/objinfo/l10n/zh_TW/particle.html
-* step /usr/share/step/objinfo/l10n/zh_TW/pin.html
-* step /usr/share/step/objinfo/l10n/zh_TW/polygon.html
-* step /usr/share/step/objinfo/l10n/zh_TW/softbody.html
-* step /usr/share/step/objinfo/l10n/zh_TW/spring.html
-* step /usr/share/step/objinfo/l10n/zh_TW/weightforce.html
-* step /usr/share/step/objinfo/l10n/zh_TW/world.html
-* step /usr/share/step/objinfo/linearmotor.html
-* step /usr/share/step/objinfo/meter.html
-* step /usr/share/step/objinfo/note.html
-* step /usr/share/step/objinfo/particle.html
-* step /usr/share/step/objinfo/pin.html
-* step /usr/share/step/objinfo/polygon.html
-* step /usr/share/step/objinfo/softbody.html
-* step /usr/share/step/objinfo/spring.html
-* step /usr/share/step/objinfo/weightforce.html
-* step /usr/share/step/objinfo/world.html
-* step /usr/share/step/tutorials/bg/tutorial1.step
-* step /usr/share/step/tutorials/bg/tutorial2.step
-* step /usr/share/step/tutorials/bg/tutorial3.step
-* step /usr/share/step/tutorials/bg/tutorial4.step
-* step /usr/share/step/tutorials/bg/tutorial5.step
-* step /usr/share/step/tutorials/ca/tutorial1.step
-* step /usr/share/step/tutorials/ca/tutorial2.step
-* step /usr/share/step/tutorials/ca/tutorial3.step
-* step /usr/share/step/tutorials/ca/tutorial4.step
-* step /usr/share/step/tutorials/ca/tutorial5.step
-* step /usr/share/step/tutorials/ca@valencia/tutorial1.step
-* step /usr/share/step/tutorials/ca@valencia/tutorial2.step
-* step /usr/share/step/tutorials/ca@valencia/tutorial3.step
-* step /usr/share/step/tutorials/ca@valencia/tutorial4.step
-* step /usr/share/step/tutorials/ca@valencia/tutorial5.step
-* step /usr/share/step/tutorials/cs/tutorial1.step
-* step /usr/share/step/tutorials/cs/tutorial2.step
-* step /usr/share/step/tutorials/cs/tutorial3.step
-* step /usr/share/step/tutorials/cs/tutorial4.step
-* step /usr/share/step/tutorials/cs/tutorial5.step
-* step /usr/share/step/tutorials/da/tutorial1.step
-* step /usr/share/step/tutorials/da/tutorial2.step
-* step /usr/share/step/tutorials/da/tutorial3.step
-* step /usr/share/step/tutorials/da/tutorial4.step
-* step /usr/share/step/tutorials/da/tutorial5.step
-* step /usr/share/step/tutorials/de/tutorial1.step
-* step /usr/share/step/tutorials/de/tutorial2.step
-* step /usr/share/step/tutorials/de/tutorial3.step
-* step /usr/share/step/tutorials/de/tutorial4.step
-* step /usr/share/step/tutorials/de/tutorial5.step
-* step /usr/share/step/tutorials/el/tutorial1.step
-* step /usr/share/step/tutorials/el/tutorial2.step
-* step /usr/share/step/tutorials/el/tutorial3.step
-* step /usr/share/step/tutorials/el/tutorial4.step
-* step /usr/share/step/tutorials/el/tutorial5.step
-* step /usr/share/step/tutorials/en_GB/tutorial1.step
-* step /usr/share/step/tutorials/en_GB/tutorial2.step
-* step /usr/share/step/tutorials/en_GB/tutorial3.step
-* step /usr/share/step/tutorials/en_GB/tutorial4.step
-* step /usr/share/step/tutorials/en_GB/tutorial5.step
-* step /usr/share/step/tutorials/eo/tutorial1.step
-* step /usr/share/step/tutorials/eo/tutorial2.step
-* step /usr/share/step/tutorials/eo/tutorial3.step
-* step /usr/share/step/tutorials/eo/tutorial4.step
-* step /usr/share/step/tutorials/eo/tutorial5.step
-* step /usr/share/step/tutorials/es/tutorial1.step
-* step /usr/share/step/tutorials/es/tutorial2.step
-* step /usr/share/step/tutorials/es/tutorial3.step
-* step /usr/share/step/tutorials/es/tutorial4.step
-* step /usr/share/step/tutorials/es/tutorial5.step
-* step /usr/share/step/tutorials/et/tutorial1.step
-* step /usr/share/step/tutorials/et/tutorial2.step
-* step /usr/share/step/tutorials/et/tutorial3.step
-* step /usr/share/step/tutorials/et/tutorial4.step
-* step /usr/share/step/tutorials/et/tutorial5.step
-* step /usr/share/step/tutorials/eu/tutorial1.step
-* step /usr/share/step/tutorials/eu/tutorial2.step
-* step /usr/share/step/tutorials/eu/tutorial3.step
-* step /usr/share/step/tutorials/eu/tutorial4.step
-* step /usr/share/step/tutorials/eu/tutorial5.step
-* step /usr/share/step/tutorials/fi/tutorial1.step
-* step /usr/share/step/tutorials/fi/tutorial2.step
-* step /usr/share/step/tutorials/fi/tutorial3.step
-* step /usr/share/step/tutorials/fi/tutorial4.step
-* step /usr/share/step/tutorials/fi/tutorial5.step
-* step /usr/share/step/tutorials/fr/tutorial1.step
-* step /usr/share/step/tutorials/fr/tutorial2.step
-* step /usr/share/step/tutorials/fr/tutorial3.step
-* step /usr/share/step/tutorials/fr/tutorial4.step
-* step /usr/share/step/tutorials/fr/tutorial5.step
-* step /usr/share/step/tutorials/gl/tutorial1.step
-* step /usr/share/step/tutorials/gl/tutorial2.step
-* step /usr/share/step/tutorials/gl/tutorial3.step
-* step /usr/share/step/tutorials/gl/tutorial4.step
-* step /usr/share/step/tutorials/gl/tutorial5.step
-* step /usr/share/step/tutorials/ia/tutorial1.step
-* step /usr/share/step/tutorials/ia/tutorial2.step
-* step /usr/share/step/tutorials/ia/tutorial3.step
-* step /usr/share/step/tutorials/ia/tutorial4.step
-* step /usr/share/step/tutorials/ia/tutorial5.step
-* step /usr/share/step/tutorials/it/tutorial1.step
-* step /usr/share/step/tutorials/it/tutorial2.step
-* step /usr/share/step/tutorials/it/tutorial3.step
-* step /usr/share/step/tutorials/it/tutorial4.step
-* step /usr/share/step/tutorials/it/tutorial5.step
-* step /usr/share/step/tutorials/ja/tutorial1.step
-* step /usr/share/step/tutorials/ja/tutorial2.step
-* step /usr/share/step/tutorials/ja/tutorial3.step
-* step /usr/share/step/tutorials/ja/tutorial4.step
-* step /usr/share/step/tutorials/ja/tutorial5.step
-* step /usr/share/step/tutorials/ka/tutorial1.step
-* step /usr/share/step/tutorials/ka/tutorial2.step
-* step /usr/share/step/tutorials/ka/tutorial3.step
-* step /usr/share/step/tutorials/ka/tutorial4.step
-* step /usr/share/step/tutorials/ka/tutorial5.step
-* step /usr/share/step/tutorials/lt/tutorial1.step
-* step /usr/share/step/tutorials/lt/tutorial2.step
-* step /usr/share/step/tutorials/lt/tutorial3.step
-* step /usr/share/step/tutorials/lt/tutorial4.step
-* step /usr/share/step/tutorials/lt/tutorial5.step
-* step /usr/share/step/tutorials/ml/tutorial1.step
-* step /usr/share/step/tutorials/ml/tutorial2.step
-* step /usr/share/step/tutorials/ml/tutorial3.step
-* step /usr/share/step/tutorials/ml/tutorial4.step
-* step /usr/share/step/tutorials/ml/tutorial5.step
-* step /usr/share/step/tutorials/nl/tutorial1.step
-* step /usr/share/step/tutorials/nl/tutorial2.step
-* step /usr/share/step/tutorials/nl/tutorial3.step
-* step /usr/share/step/tutorials/nl/tutorial4.step
-* step /usr/share/step/tutorials/nl/tutorial5.step
-* step /usr/share/step/tutorials/pl/tutorial1.step
-* step /usr/share/step/tutorials/pl/tutorial2.step
-* step /usr/share/step/tutorials/pl/tutorial3.step
-* step /usr/share/step/tutorials/pl/tutorial4.step
-* step /usr/share/step/tutorials/pl/tutorial5.step
-* step /usr/share/step/tutorials/pt/tutorial1.step
-* step /usr/share/step/tutorials/pt/tutorial2.step
-* step /usr/share/step/tutorials/pt/tutorial3.step
-* step /usr/share/step/tutorials/pt/tutorial4.step
-* step /usr/share/step/tutorials/pt/tutorial5.step
-* step /usr/share/step/tutorials/pt_BR/tutorial1.step
-* step /usr/share/step/tutorials/pt_BR/tutorial2.step
-* step /usr/share/step/tutorials/pt_BR/tutorial3.step
-* step /usr/share/step/tutorials/pt_BR/tutorial4.step
-* step /usr/share/step/tutorials/pt_BR/tutorial5.step
-* step /usr/share/step/tutorials/ru/tutorial1.step
-* step /usr/share/step/tutorials/ru/tutorial2.step
-* step /usr/share/step/tutorials/ru/tutorial3.step
-* step /usr/share/step/tutorials/ru/tutorial4.step
-* step /usr/share/step/tutorials/ru/tutorial5.step
-* step /usr/share/step/tutorials/sk/tutorial1.step
-* step /usr/share/step/tutorials/sk/tutorial2.step
-* step /usr/share/step/tutorials/sk/tutorial3.step
-* step /usr/share/step/tutorials/sk/tutorial4.step
-* step /usr/share/step/tutorials/sk/tutorial5.step
-* step /usr/share/step/tutorials/sl/tutorial1.step
-* step /usr/share/step/tutorials/sl/tutorial2.step
-* step /usr/share/step/tutorials/sl/tutorial3.step
-* step /usr/share/step/tutorials/sl/tutorial4.step
-* step /usr/share/step/tutorials/sl/tutorial5.step
-* step /usr/share/step/tutorials/sv/tutorial1.step
-* step /usr/share/step/tutorials/sv/tutorial2.step
-* step /usr/share/step/tutorials/sv/tutorial3.step
-* step /usr/share/step/tutorials/sv/tutorial4.step
-* step /usr/share/step/tutorials/sv/tutorial5.step
-* step /usr/share/step/tutorials/tr/tutorial1.step
-* step /usr/share/step/tutorials/tr/tutorial2.step
-* step /usr/share/step/tutorials/tr/tutorial3.step
-* step /usr/share/step/tutorials/tr/tutorial4.step
-* step /usr/share/step/tutorials/tr/tutorial5.step
-* step /usr/share/step/tutorials/tutorial1.step
-* step /usr/share/step/tutorials/tutorial2.step
-* step /usr/share/step/tutorials/tutorial3.step
-* step /usr/share/step/tutorials/tutorial4.step
-* step /usr/share/step/tutorials/tutorial5.step
-* step /usr/share/step/tutorials/uk/tutorial1.step
-* step /usr/share/step/tutorials/uk/tutorial2.step
-* step /usr/share/step/tutorials/uk/tutorial3.step
-* step /usr/share/step/tutorials/uk/tutorial4.step
-* step /usr/share/step/tutorials/uk/tutorial5.step
-* step /usr/share/step/tutorials/zh_CN/tutorial1.step
-* step /usr/share/step/tutorials/zh_CN/tutorial2.step
-* step /usr/share/step/tutorials/zh_CN/tutorial3.step
-* step /usr/share/step/tutorials/zh_CN/tutorial4.step
-* step /usr/share/step/tutorials/zh_CN/tutorial5.step
-* step /usr/share/step/tutorials/zh_TW/tutorial1.step
-* step /usr/share/step/tutorials/zh_TW/tutorial2.step
-* step /usr/share/step/tutorials/zh_TW/tutorial3.step
-* step /usr/share/step/tutorials/zh_TW/tutorial4.step
-* step /usr/share/step/tutorials/zh_TW/tutorial5.step
+* /usr/bin/step
+* /usr/share/applications/org.kde.step.desktop
+* /usr/share/config.kcfg/step.kcfg
+* /usr/share/doc/HTML/ca/step/examples.docbook
+* /usr/share/doc/HTML/ca/step/index.cache.bz2
+* /usr/share/doc/HTML/ca/step/index.docbook
+* /usr/share/doc/HTML/ca/step/tutorials.docbook
+* /usr/share/doc/HTML/de/step/examples.docbook
+* /usr/share/doc/HTML/de/step/index.cache.bz2
+* /usr/share/doc/HTML/de/step/index.docbook
+* /usr/share/doc/HTML/de/step/mainwindow.png
+* /usr/share/doc/HTML/de/step/tutorials.docbook
+* /usr/share/doc/HTML/en/step/circular-motor.png
+* /usr/share/doc/HTML/en/step/disk-properties.png
+* /usr/share/doc/HTML/en/step/examples.docbook
+* /usr/share/doc/HTML/en/step/index.cache.bz2
+* /usr/share/doc/HTML/en/step/index.docbook
+* /usr/share/doc/HTML/en/step/mainwindow.png
+* /usr/share/doc/HTML/en/step/media-playback-start.png
+* /usr/share/doc/HTML/en/step/step_object_CircularMotor.png
+* /usr/share/doc/HTML/en/step/step_object_Particle.png
+* /usr/share/doc/HTML/en/step/step_object_Stick.png
+* /usr/share/doc/HTML/en/step/tutorial1.png
+* /usr/share/doc/HTML/en/step/tutorial2.png
+* /usr/share/doc/HTML/en/step/tutorial3.png
+* /usr/share/doc/HTML/en/step/tutorial4.png
+* /usr/share/doc/HTML/en/step/tutorial5.png
+* /usr/share/doc/HTML/en/step/tutorials.docbook
+* /usr/share/doc/HTML/es/step/examples.docbook
+* /usr/share/doc/HTML/es/step/index.cache.bz2
+* /usr/share/doc/HTML/es/step/index.docbook
+* /usr/share/doc/HTML/es/step/tutorials.docbook
+* /usr/share/doc/HTML/et/step/examples.docbook
+* /usr/share/doc/HTML/et/step/index.cache.bz2
+* /usr/share/doc/HTML/et/step/index.docbook
+* /usr/share/doc/HTML/et/step/tutorials.docbook
+* /usr/share/doc/HTML/fr/step/examples.docbook
+* /usr/share/doc/HTML/fr/step/index.cache.bz2
+* /usr/share/doc/HTML/fr/step/index.docbook
+* /usr/share/doc/HTML/fr/step/tutorials.docbook
+* /usr/share/doc/HTML/it/step/examples.docbook
+* /usr/share/doc/HTML/it/step/index.cache.bz2
+* /usr/share/doc/HTML/it/step/index.docbook
+* /usr/share/doc/HTML/it/step/tutorials.docbook
+* /usr/share/doc/HTML/nl/step/examples.docbook
+* /usr/share/doc/HTML/nl/step/index.cache.bz2
+* /usr/share/doc/HTML/nl/step/index.docbook
+* /usr/share/doc/HTML/nl/step/tutorials.docbook
+* /usr/share/doc/HTML/pt_BR/step/examples.docbook
+* /usr/share/doc/HTML/pt_BR/step/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/step/index.docbook
+* /usr/share/doc/HTML/pt_BR/step/tutorials.docbook
+* /usr/share/doc/HTML/ru/step/examples.docbook
+* /usr/share/doc/HTML/ru/step/index.cache.bz2
+* /usr/share/doc/HTML/ru/step/index.docbook
+* /usr/share/doc/HTML/ru/step/tutorials.docbook
+* /usr/share/doc/HTML/sv/step/examples.docbook
+* /usr/share/doc/HTML/sv/step/index.cache.bz2
+* /usr/share/doc/HTML/sv/step/index.docbook
+* /usr/share/doc/HTML/sv/step/tutorials.docbook
+* /usr/share/doc/HTML/uk/step/examples.docbook
+* /usr/share/doc/HTML/uk/step/index.cache.bz2
+* /usr/share/doc/HTML/uk/step/index.docbook
+* /usr/share/doc/HTML/uk/step/mainwindow.png
+* /usr/share/doc/HTML/uk/step/tutorials.docbook
+* /usr/share/doc/step-24.08.0/AUTHORS
+* /usr/share/doc/step-24.08.0/ChangeLog
+* /usr/share/doc/step-24.08.0/INSTALL
+* /usr/share/doc/step-24.08.0/README
+* /usr/share/doc/step-24.08.0/TODO
+* /usr/share/icons/hicolor/128x128/apps/step.png
+* /usr/share/icons/hicolor/16x16/apps/step.png
+* /usr/share/icons/hicolor/22x22/actions/pointer.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Anchor.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Box.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_ChargedParticle.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_CircularMotor.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Controller.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_CoulombForce.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Disk.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Gas.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_GasParticle.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Graph.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_GravitationForce.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_LinearMotor.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Meter.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Note.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Particle.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Pin.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Polygon.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Rope.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_SoftBody.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Spring.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Stick.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_Tracer.png
+* /usr/share/icons/hicolor/22x22/actions/step_object_WeightForce.png
+* /usr/share/icons/hicolor/22x22/apps/step.png
+* /usr/share/icons/hicolor/32x32/apps/step.png
+* /usr/share/icons/hicolor/48x48/apps/step.png
+* /usr/share/icons/hicolor/64x64/apps/step.png
+* /usr/share/knsrcfiles/step.knsrc
+* /usr/share/locale/ar/LC_MESSAGES/step.mo
+* /usr/share/locale/ar/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/be/LC_MESSAGES/step.mo
+* /usr/share/locale/be/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/bg/LC_MESSAGES/step.mo
+* /usr/share/locale/bg/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/bg/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/bg/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/bs/LC_MESSAGES/step.mo
+* /usr/share/locale/bs/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ca/LC_MESSAGES/step.mo
+* /usr/share/locale/ca/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ca/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ca/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ca@valencia/LC_MESSAGES/step.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/cs/LC_MESSAGES/step.mo
+* /usr/share/locale/cs/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/cs/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/cs/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/da/LC_MESSAGES/step.mo
+* /usr/share/locale/da/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/da/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/da/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/de/LC_MESSAGES/step.mo
+* /usr/share/locale/de/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/de/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/de/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/el/LC_MESSAGES/step.mo
+* /usr/share/locale/el/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/el/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/el/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/en_GB/LC_MESSAGES/step.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/eo/LC_MESSAGES/step.mo
+* /usr/share/locale/eo/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/eo/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/eo/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/es/LC_MESSAGES/step.mo
+* /usr/share/locale/es/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/es/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/es/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/et/LC_MESSAGES/step.mo
+* /usr/share/locale/et/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/et/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/et/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/eu/LC_MESSAGES/step.mo
+* /usr/share/locale/eu/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/eu/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/eu/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/fi/LC_MESSAGES/step.mo
+* /usr/share/locale/fi/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/fi/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/fi/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/fr/LC_MESSAGES/step.mo
+* /usr/share/locale/fr/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/fr/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/fr/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ga/LC_MESSAGES/step.mo
+* /usr/share/locale/ga/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/gl/LC_MESSAGES/step.mo
+* /usr/share/locale/gl/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/gl/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/gl/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/gu/LC_MESSAGES/step.mo
+* /usr/share/locale/gu/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/hr/LC_MESSAGES/step.mo
+* /usr/share/locale/hr/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/hu/LC_MESSAGES/step.mo
+* /usr/share/locale/hu/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ia/LC_MESSAGES/step.mo
+* /usr/share/locale/ia/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ia/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ia/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/it/LC_MESSAGES/step.mo
+* /usr/share/locale/it/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/it/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/it/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ja/LC_MESSAGES/step.mo
+* /usr/share/locale/ja/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ja/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ja/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ka/LC_MESSAGES/step.mo
+* /usr/share/locale/ka/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ka/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ka/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/kk/LC_MESSAGES/step.mo
+* /usr/share/locale/kk/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/km/LC_MESSAGES/step.mo
+* /usr/share/locale/km/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ko/LC_MESSAGES/step.mo
+* /usr/share/locale/ko/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/lt/LC_MESSAGES/step.mo
+* /usr/share/locale/lt/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/lt/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/lt/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/lv/LC_MESSAGES/step.mo
+* /usr/share/locale/lv/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/mai/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ml/LC_MESSAGES/step.mo
+* /usr/share/locale/ml/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ml/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ml/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/mr/LC_MESSAGES/step.mo
+* /usr/share/locale/mr/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/nb/LC_MESSAGES/step.mo
+* /usr/share/locale/nb/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/nds/LC_MESSAGES/step.mo
+* /usr/share/locale/nds/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/nl/LC_MESSAGES/step.mo
+* /usr/share/locale/nl/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/nl/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/nl/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/nn/LC_MESSAGES/step.mo
+* /usr/share/locale/nn/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/nn/LC_SCRIPTS/step/step.js
+* /usr/share/locale/oc/LC_MESSAGES/step.mo
+* /usr/share/locale/oc/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/pa/LC_MESSAGES/step.mo
+* /usr/share/locale/pa/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/pl/LC_MESSAGES/step.mo
+* /usr/share/locale/pl/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/pl/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/pl/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/pt/LC_MESSAGES/step.mo
+* /usr/share/locale/pt/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/pt/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/pt/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/pt_BR/LC_MESSAGES/step.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ro/LC_MESSAGES/step.mo
+* /usr/share/locale/ro/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ru/LC_MESSAGES/step.mo
+* /usr/share/locale/ru/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/ru/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/ru/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/si/LC_MESSAGES/step.mo
+* /usr/share/locale/si/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/sk/LC_MESSAGES/step.mo
+* /usr/share/locale/sk/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/sk/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/sk/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/sl/LC_MESSAGES/step.mo
+* /usr/share/locale/sl/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/sl/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/sl/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/sq/LC_MESSAGES/step.mo
+* /usr/share/locale/sq/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/sv/LC_MESSAGES/step.mo
+* /usr/share/locale/sv/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/sv/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/sv/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/th/LC_MESSAGES/step.mo
+* /usr/share/locale/th/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/tr/LC_MESSAGES/step.mo
+* /usr/share/locale/tr/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/tr/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/tr/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/ug/LC_MESSAGES/step.mo
+* /usr/share/locale/ug/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/uk/LC_MESSAGES/step.mo
+* /usr/share/locale/uk/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/uk/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/uk/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/zh_CN/LC_MESSAGES/step.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/step_qt.qm
+* /usr/share/locale/zh_TW/LC_MESSAGES/step.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/step_example_files.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/step_objinfo_files.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/step_qt.qm
+* /usr/share/metainfo/org.kde.step.appdata.xml
+* /usr/share/mime/packages/org.kde.step.xml
+* /usr/share/step/examples/bg/brownian.step
+* /usr/share/step/examples/bg/doublependulum.step
+* /usr/share/step/examples/bg/eightpendula.step
+* /usr/share/step/examples/bg/first.step
+* /usr/share/step/examples/bg/fourpendula.step
+* /usr/share/step/examples/bg/gas.step
+* /usr/share/step/examples/bg/graph.step
+* /usr/share/step/examples/bg/liquid.step
+* /usr/share/step/examples/bg/lissajous.step
+* /usr/share/step/examples/bg/motor.step
+* /usr/share/step/examples/bg/motor1.step
+* /usr/share/step/examples/bg/note.step
+* /usr/share/step/examples/bg/resonance.step
+* /usr/share/step/examples/bg/softbody.step
+* /usr/share/step/examples/bg/solar.step
+* /usr/share/step/examples/bg/springs.step
+* /usr/share/step/examples/bg/wave.step
+* /usr/share/step/examples/brownian.step
+* /usr/share/step/examples/ca/brownian.step
+* /usr/share/step/examples/ca/doublependulum.step
+* /usr/share/step/examples/ca/eightpendula.step
+* /usr/share/step/examples/ca/first.step
+* /usr/share/step/examples/ca/fourpendula.step
+* /usr/share/step/examples/ca/gas.step
+* /usr/share/step/examples/ca/graph.step
+* /usr/share/step/examples/ca/liquid.step
+* /usr/share/step/examples/ca/lissajous.step
+* /usr/share/step/examples/ca/motor.step
+* /usr/share/step/examples/ca/motor1.step
+* /usr/share/step/examples/ca/note.step
+* /usr/share/step/examples/ca/resonance.step
+* /usr/share/step/examples/ca/softbody.step
+* /usr/share/step/examples/ca/solar.step
+* /usr/share/step/examples/ca/springs.step
+* /usr/share/step/examples/ca/wave.step
+* /usr/share/step/examples/ca@valencia/brownian.step
+* /usr/share/step/examples/ca@valencia/doublependulum.step
+* /usr/share/step/examples/ca@valencia/eightpendula.step
+* /usr/share/step/examples/ca@valencia/first.step
+* /usr/share/step/examples/ca@valencia/fourpendula.step
+* /usr/share/step/examples/ca@valencia/gas.step
+* /usr/share/step/examples/ca@valencia/graph.step
+* /usr/share/step/examples/ca@valencia/liquid.step
+* /usr/share/step/examples/ca@valencia/lissajous.step
+* /usr/share/step/examples/ca@valencia/motor.step
+* /usr/share/step/examples/ca@valencia/motor1.step
+* /usr/share/step/examples/ca@valencia/note.step
+* /usr/share/step/examples/ca@valencia/resonance.step
+* /usr/share/step/examples/ca@valencia/softbody.step
+* /usr/share/step/examples/ca@valencia/solar.step
+* /usr/share/step/examples/ca@valencia/springs.step
+* /usr/share/step/examples/ca@valencia/wave.step
+* /usr/share/step/examples/cs/brownian.step
+* /usr/share/step/examples/cs/doublependulum.step
+* /usr/share/step/examples/cs/eightpendula.step
+* /usr/share/step/examples/cs/first.step
+* /usr/share/step/examples/cs/fourpendula.step
+* /usr/share/step/examples/cs/gas.step
+* /usr/share/step/examples/cs/graph.step
+* /usr/share/step/examples/cs/liquid.step
+* /usr/share/step/examples/cs/lissajous.step
+* /usr/share/step/examples/cs/motor.step
+* /usr/share/step/examples/cs/motor1.step
+* /usr/share/step/examples/cs/note.step
+* /usr/share/step/examples/cs/resonance.step
+* /usr/share/step/examples/cs/softbody.step
+* /usr/share/step/examples/cs/solar.step
+* /usr/share/step/examples/cs/springs.step
+* /usr/share/step/examples/cs/wave.step
+* /usr/share/step/examples/da/brownian.step
+* /usr/share/step/examples/da/doublependulum.step
+* /usr/share/step/examples/da/eightpendula.step
+* /usr/share/step/examples/da/first.step
+* /usr/share/step/examples/da/fourpendula.step
+* /usr/share/step/examples/da/gas.step
+* /usr/share/step/examples/da/graph.step
+* /usr/share/step/examples/da/liquid.step
+* /usr/share/step/examples/da/lissajous.step
+* /usr/share/step/examples/da/motor.step
+* /usr/share/step/examples/da/motor1.step
+* /usr/share/step/examples/da/note.step
+* /usr/share/step/examples/da/resonance.step
+* /usr/share/step/examples/da/softbody.step
+* /usr/share/step/examples/da/solar.step
+* /usr/share/step/examples/da/springs.step
+* /usr/share/step/examples/da/wave.step
+* /usr/share/step/examples/de/brownian.step
+* /usr/share/step/examples/de/doublependulum.step
+* /usr/share/step/examples/de/eightpendula.step
+* /usr/share/step/examples/de/first.step
+* /usr/share/step/examples/de/fourpendula.step
+* /usr/share/step/examples/de/gas.step
+* /usr/share/step/examples/de/graph.step
+* /usr/share/step/examples/de/liquid.step
+* /usr/share/step/examples/de/lissajous.step
+* /usr/share/step/examples/de/motor.step
+* /usr/share/step/examples/de/motor1.step
+* /usr/share/step/examples/de/note.step
+* /usr/share/step/examples/de/resonance.step
+* /usr/share/step/examples/de/softbody.step
+* /usr/share/step/examples/de/solar.step
+* /usr/share/step/examples/de/springs.step
+* /usr/share/step/examples/de/wave.step
+* /usr/share/step/examples/doublependulum.step
+* /usr/share/step/examples/eightpendula.step
+* /usr/share/step/examples/el/brownian.step
+* /usr/share/step/examples/el/doublependulum.step
+* /usr/share/step/examples/el/eightpendula.step
+* /usr/share/step/examples/el/first.step
+* /usr/share/step/examples/el/fourpendula.step
+* /usr/share/step/examples/el/gas.step
+* /usr/share/step/examples/el/graph.step
+* /usr/share/step/examples/el/liquid.step
+* /usr/share/step/examples/el/lissajous.step
+* /usr/share/step/examples/el/motor.step
+* /usr/share/step/examples/el/motor1.step
+* /usr/share/step/examples/el/note.step
+* /usr/share/step/examples/el/resonance.step
+* /usr/share/step/examples/el/softbody.step
+* /usr/share/step/examples/el/solar.step
+* /usr/share/step/examples/el/springs.step
+* /usr/share/step/examples/el/wave.step
+* /usr/share/step/examples/en_GB/brownian.step
+* /usr/share/step/examples/en_GB/doublependulum.step
+* /usr/share/step/examples/en_GB/eightpendula.step
+* /usr/share/step/examples/en_GB/first.step
+* /usr/share/step/examples/en_GB/fourpendula.step
+* /usr/share/step/examples/en_GB/gas.step
+* /usr/share/step/examples/en_GB/graph.step
+* /usr/share/step/examples/en_GB/liquid.step
+* /usr/share/step/examples/en_GB/lissajous.step
+* /usr/share/step/examples/en_GB/motor.step
+* /usr/share/step/examples/en_GB/motor1.step
+* /usr/share/step/examples/en_GB/note.step
+* /usr/share/step/examples/en_GB/resonance.step
+* /usr/share/step/examples/en_GB/softbody.step
+* /usr/share/step/examples/en_GB/solar.step
+* /usr/share/step/examples/en_GB/springs.step
+* /usr/share/step/examples/en_GB/wave.step
+* /usr/share/step/examples/eo/brownian.step
+* /usr/share/step/examples/eo/doublependulum.step
+* /usr/share/step/examples/eo/eightpendula.step
+* /usr/share/step/examples/eo/first.step
+* /usr/share/step/examples/eo/fourpendula.step
+* /usr/share/step/examples/eo/gas.step
+* /usr/share/step/examples/eo/graph.step
+* /usr/share/step/examples/eo/liquid.step
+* /usr/share/step/examples/eo/lissajous.step
+* /usr/share/step/examples/eo/motor.step
+* /usr/share/step/examples/eo/motor1.step
+* /usr/share/step/examples/eo/note.step
+* /usr/share/step/examples/eo/resonance.step
+* /usr/share/step/examples/eo/softbody.step
+* /usr/share/step/examples/eo/solar.step
+* /usr/share/step/examples/eo/springs.step
+* /usr/share/step/examples/eo/wave.step
+* /usr/share/step/examples/es/brownian.step
+* /usr/share/step/examples/es/doublependulum.step
+* /usr/share/step/examples/es/eightpendula.step
+* /usr/share/step/examples/es/first.step
+* /usr/share/step/examples/es/fourpendula.step
+* /usr/share/step/examples/es/gas.step
+* /usr/share/step/examples/es/graph.step
+* /usr/share/step/examples/es/liquid.step
+* /usr/share/step/examples/es/lissajous.step
+* /usr/share/step/examples/es/motor.step
+* /usr/share/step/examples/es/motor1.step
+* /usr/share/step/examples/es/note.step
+* /usr/share/step/examples/es/resonance.step
+* /usr/share/step/examples/es/softbody.step
+* /usr/share/step/examples/es/solar.step
+* /usr/share/step/examples/es/springs.step
+* /usr/share/step/examples/es/wave.step
+* /usr/share/step/examples/et/brownian.step
+* /usr/share/step/examples/et/doublependulum.step
+* /usr/share/step/examples/et/eightpendula.step
+* /usr/share/step/examples/et/first.step
+* /usr/share/step/examples/et/fourpendula.step
+* /usr/share/step/examples/et/gas.step
+* /usr/share/step/examples/et/graph.step
+* /usr/share/step/examples/et/liquid.step
+* /usr/share/step/examples/et/lissajous.step
+* /usr/share/step/examples/et/motor.step
+* /usr/share/step/examples/et/motor1.step
+* /usr/share/step/examples/et/note.step
+* /usr/share/step/examples/et/resonance.step
+* /usr/share/step/examples/et/softbody.step
+* /usr/share/step/examples/et/solar.step
+* /usr/share/step/examples/et/springs.step
+* /usr/share/step/examples/et/wave.step
+* /usr/share/step/examples/eu/brownian.step
+* /usr/share/step/examples/eu/doublependulum.step
+* /usr/share/step/examples/eu/eightpendula.step
+* /usr/share/step/examples/eu/first.step
+* /usr/share/step/examples/eu/fourpendula.step
+* /usr/share/step/examples/eu/gas.step
+* /usr/share/step/examples/eu/graph.step
+* /usr/share/step/examples/eu/liquid.step
+* /usr/share/step/examples/eu/lissajous.step
+* /usr/share/step/examples/eu/motor.step
+* /usr/share/step/examples/eu/motor1.step
+* /usr/share/step/examples/eu/note.step
+* /usr/share/step/examples/eu/resonance.step
+* /usr/share/step/examples/eu/softbody.step
+* /usr/share/step/examples/eu/solar.step
+* /usr/share/step/examples/eu/springs.step
+* /usr/share/step/examples/eu/wave.step
+* /usr/share/step/examples/fi/brownian.step
+* /usr/share/step/examples/fi/doublependulum.step
+* /usr/share/step/examples/fi/eightpendula.step
+* /usr/share/step/examples/fi/first.step
+* /usr/share/step/examples/fi/fourpendula.step
+* /usr/share/step/examples/fi/gas.step
+* /usr/share/step/examples/fi/graph.step
+* /usr/share/step/examples/fi/liquid.step
+* /usr/share/step/examples/fi/lissajous.step
+* /usr/share/step/examples/fi/motor.step
+* /usr/share/step/examples/fi/motor1.step
+* /usr/share/step/examples/fi/note.step
+* /usr/share/step/examples/fi/resonance.step
+* /usr/share/step/examples/fi/softbody.step
+* /usr/share/step/examples/fi/solar.step
+* /usr/share/step/examples/fi/springs.step
+* /usr/share/step/examples/fi/wave.step
+* /usr/share/step/examples/first.step
+* /usr/share/step/examples/fourpendula.step
+* /usr/share/step/examples/fr/brownian.step
+* /usr/share/step/examples/fr/doublependulum.step
+* /usr/share/step/examples/fr/eightpendula.step
+* /usr/share/step/examples/fr/first.step
+* /usr/share/step/examples/fr/fourpendula.step
+* /usr/share/step/examples/fr/gas.step
+* /usr/share/step/examples/fr/graph.step
+* /usr/share/step/examples/fr/liquid.step
+* /usr/share/step/examples/fr/lissajous.step
+* /usr/share/step/examples/fr/motor.step
+* /usr/share/step/examples/fr/motor1.step
+* /usr/share/step/examples/fr/note.step
+* /usr/share/step/examples/fr/resonance.step
+* /usr/share/step/examples/fr/softbody.step
+* /usr/share/step/examples/fr/solar.step
+* /usr/share/step/examples/fr/springs.step
+* /usr/share/step/examples/fr/wave.step
+* /usr/share/step/examples/gas.step
+* /usr/share/step/examples/gl/brownian.step
+* /usr/share/step/examples/gl/doublependulum.step
+* /usr/share/step/examples/gl/eightpendula.step
+* /usr/share/step/examples/gl/first.step
+* /usr/share/step/examples/gl/fourpendula.step
+* /usr/share/step/examples/gl/gas.step
+* /usr/share/step/examples/gl/graph.step
+* /usr/share/step/examples/gl/liquid.step
+* /usr/share/step/examples/gl/lissajous.step
+* /usr/share/step/examples/gl/motor.step
+* /usr/share/step/examples/gl/motor1.step
+* /usr/share/step/examples/gl/note.step
+* /usr/share/step/examples/gl/resonance.step
+* /usr/share/step/examples/gl/softbody.step
+* /usr/share/step/examples/gl/solar.step
+* /usr/share/step/examples/gl/springs.step
+* /usr/share/step/examples/gl/wave.step
+* /usr/share/step/examples/graph.step
+* /usr/share/step/examples/ia/brownian.step
+* /usr/share/step/examples/ia/doublependulum.step
+* /usr/share/step/examples/ia/eightpendula.step
+* /usr/share/step/examples/ia/first.step
+* /usr/share/step/examples/ia/fourpendula.step
+* /usr/share/step/examples/ia/gas.step
+* /usr/share/step/examples/ia/graph.step
+* /usr/share/step/examples/ia/liquid.step
+* /usr/share/step/examples/ia/lissajous.step
+* /usr/share/step/examples/ia/motor.step
+* /usr/share/step/examples/ia/motor1.step
+* /usr/share/step/examples/ia/note.step
+* /usr/share/step/examples/ia/resonance.step
+* /usr/share/step/examples/ia/softbody.step
+* /usr/share/step/examples/ia/solar.step
+* /usr/share/step/examples/ia/springs.step
+* /usr/share/step/examples/ia/wave.step
+* /usr/share/step/examples/it/brownian.step
+* /usr/share/step/examples/it/doublependulum.step
+* /usr/share/step/examples/it/eightpendula.step
+* /usr/share/step/examples/it/first.step
+* /usr/share/step/examples/it/fourpendula.step
+* /usr/share/step/examples/it/gas.step
+* /usr/share/step/examples/it/graph.step
+* /usr/share/step/examples/it/liquid.step
+* /usr/share/step/examples/it/lissajous.step
+* /usr/share/step/examples/it/motor.step
+* /usr/share/step/examples/it/motor1.step
+* /usr/share/step/examples/it/note.step
+* /usr/share/step/examples/it/resonance.step
+* /usr/share/step/examples/it/softbody.step
+* /usr/share/step/examples/it/solar.step
+* /usr/share/step/examples/it/springs.step
+* /usr/share/step/examples/it/wave.step
+* /usr/share/step/examples/ja/brownian.step
+* /usr/share/step/examples/ja/doublependulum.step
+* /usr/share/step/examples/ja/eightpendula.step
+* /usr/share/step/examples/ja/first.step
+* /usr/share/step/examples/ja/fourpendula.step
+* /usr/share/step/examples/ja/gas.step
+* /usr/share/step/examples/ja/graph.step
+* /usr/share/step/examples/ja/liquid.step
+* /usr/share/step/examples/ja/lissajous.step
+* /usr/share/step/examples/ja/motor.step
+* /usr/share/step/examples/ja/motor1.step
+* /usr/share/step/examples/ja/note.step
+* /usr/share/step/examples/ja/resonance.step
+* /usr/share/step/examples/ja/softbody.step
+* /usr/share/step/examples/ja/solar.step
+* /usr/share/step/examples/ja/springs.step
+* /usr/share/step/examples/ja/wave.step
+* /usr/share/step/examples/ka/brownian.step
+* /usr/share/step/examples/ka/doublependulum.step
+* /usr/share/step/examples/ka/eightpendula.step
+* /usr/share/step/examples/ka/first.step
+* /usr/share/step/examples/ka/fourpendula.step
+* /usr/share/step/examples/ka/gas.step
+* /usr/share/step/examples/ka/graph.step
+* /usr/share/step/examples/ka/liquid.step
+* /usr/share/step/examples/ka/lissajous.step
+* /usr/share/step/examples/ka/motor.step
+* /usr/share/step/examples/ka/motor1.step
+* /usr/share/step/examples/ka/note.step
+* /usr/share/step/examples/ka/resonance.step
+* /usr/share/step/examples/ka/softbody.step
+* /usr/share/step/examples/ka/solar.step
+* /usr/share/step/examples/ka/springs.step
+* /usr/share/step/examples/ka/wave.step
+* /usr/share/step/examples/liquid.step
+* /usr/share/step/examples/lissajous.step
+* /usr/share/step/examples/lt/brownian.step
+* /usr/share/step/examples/lt/doublependulum.step
+* /usr/share/step/examples/lt/eightpendula.step
+* /usr/share/step/examples/lt/first.step
+* /usr/share/step/examples/lt/fourpendula.step
+* /usr/share/step/examples/lt/gas.step
+* /usr/share/step/examples/lt/graph.step
+* /usr/share/step/examples/lt/liquid.step
+* /usr/share/step/examples/lt/lissajous.step
+* /usr/share/step/examples/lt/motor.step
+* /usr/share/step/examples/lt/motor1.step
+* /usr/share/step/examples/lt/note.step
+* /usr/share/step/examples/lt/resonance.step
+* /usr/share/step/examples/lt/softbody.step
+* /usr/share/step/examples/lt/solar.step
+* /usr/share/step/examples/lt/springs.step
+* /usr/share/step/examples/lt/wave.step
+* /usr/share/step/examples/ml/brownian.step
+* /usr/share/step/examples/ml/doublependulum.step
+* /usr/share/step/examples/ml/eightpendula.step
+* /usr/share/step/examples/ml/first.step
+* /usr/share/step/examples/ml/fourpendula.step
+* /usr/share/step/examples/ml/gas.step
+* /usr/share/step/examples/ml/graph.step
+* /usr/share/step/examples/ml/liquid.step
+* /usr/share/step/examples/ml/lissajous.step
+* /usr/share/step/examples/ml/motor.step
+* /usr/share/step/examples/ml/motor1.step
+* /usr/share/step/examples/ml/note.step
+* /usr/share/step/examples/ml/resonance.step
+* /usr/share/step/examples/ml/softbody.step
+* /usr/share/step/examples/ml/solar.step
+* /usr/share/step/examples/ml/springs.step
+* /usr/share/step/examples/ml/wave.step
+* /usr/share/step/examples/motor.step
+* /usr/share/step/examples/motor1.step
+* /usr/share/step/examples/nl/brownian.step
+* /usr/share/step/examples/nl/doublependulum.step
+* /usr/share/step/examples/nl/eightpendula.step
+* /usr/share/step/examples/nl/first.step
+* /usr/share/step/examples/nl/fourpendula.step
+* /usr/share/step/examples/nl/gas.step
+* /usr/share/step/examples/nl/graph.step
+* /usr/share/step/examples/nl/liquid.step
+* /usr/share/step/examples/nl/lissajous.step
+* /usr/share/step/examples/nl/motor.step
+* /usr/share/step/examples/nl/motor1.step
+* /usr/share/step/examples/nl/note.step
+* /usr/share/step/examples/nl/resonance.step
+* /usr/share/step/examples/nl/softbody.step
+* /usr/share/step/examples/nl/solar.step
+* /usr/share/step/examples/nl/springs.step
+* /usr/share/step/examples/nl/wave.step
+* /usr/share/step/examples/note.step
+* /usr/share/step/examples/pl/brownian.step
+* /usr/share/step/examples/pl/doublependulum.step
+* /usr/share/step/examples/pl/eightpendula.step
+* /usr/share/step/examples/pl/first.step
+* /usr/share/step/examples/pl/fourpendula.step
+* /usr/share/step/examples/pl/gas.step
+* /usr/share/step/examples/pl/graph.step
+* /usr/share/step/examples/pl/liquid.step
+* /usr/share/step/examples/pl/lissajous.step
+* /usr/share/step/examples/pl/motor.step
+* /usr/share/step/examples/pl/motor1.step
+* /usr/share/step/examples/pl/note.step
+* /usr/share/step/examples/pl/resonance.step
+* /usr/share/step/examples/pl/softbody.step
+* /usr/share/step/examples/pl/solar.step
+* /usr/share/step/examples/pl/springs.step
+* /usr/share/step/examples/pl/wave.step
+* /usr/share/step/examples/pt/brownian.step
+* /usr/share/step/examples/pt/doublependulum.step
+* /usr/share/step/examples/pt/eightpendula.step
+* /usr/share/step/examples/pt/first.step
+* /usr/share/step/examples/pt/fourpendula.step
+* /usr/share/step/examples/pt/gas.step
+* /usr/share/step/examples/pt/graph.step
+* /usr/share/step/examples/pt/liquid.step
+* /usr/share/step/examples/pt/lissajous.step
+* /usr/share/step/examples/pt/motor.step
+* /usr/share/step/examples/pt/motor1.step
+* /usr/share/step/examples/pt/note.step
+* /usr/share/step/examples/pt/resonance.step
+* /usr/share/step/examples/pt/softbody.step
+* /usr/share/step/examples/pt/solar.step
+* /usr/share/step/examples/pt/springs.step
+* /usr/share/step/examples/pt/wave.step
+* /usr/share/step/examples/pt_BR/brownian.step
+* /usr/share/step/examples/pt_BR/doublependulum.step
+* /usr/share/step/examples/pt_BR/eightpendula.step
+* /usr/share/step/examples/pt_BR/first.step
+* /usr/share/step/examples/pt_BR/fourpendula.step
+* /usr/share/step/examples/pt_BR/gas.step
+* /usr/share/step/examples/pt_BR/graph.step
+* /usr/share/step/examples/pt_BR/liquid.step
+* /usr/share/step/examples/pt_BR/lissajous.step
+* /usr/share/step/examples/pt_BR/motor.step
+* /usr/share/step/examples/pt_BR/motor1.step
+* /usr/share/step/examples/pt_BR/note.step
+* /usr/share/step/examples/pt_BR/resonance.step
+* /usr/share/step/examples/pt_BR/softbody.step
+* /usr/share/step/examples/pt_BR/solar.step
+* /usr/share/step/examples/pt_BR/springs.step
+* /usr/share/step/examples/pt_BR/wave.step
+* /usr/share/step/examples/resonance.step
+* /usr/share/step/examples/ru/brownian.step
+* /usr/share/step/examples/ru/doublependulum.step
+* /usr/share/step/examples/ru/eightpendula.step
+* /usr/share/step/examples/ru/first.step
+* /usr/share/step/examples/ru/fourpendula.step
+* /usr/share/step/examples/ru/gas.step
+* /usr/share/step/examples/ru/graph.step
+* /usr/share/step/examples/ru/liquid.step
+* /usr/share/step/examples/ru/lissajous.step
+* /usr/share/step/examples/ru/motor.step
+* /usr/share/step/examples/ru/motor1.step
+* /usr/share/step/examples/ru/note.step
+* /usr/share/step/examples/ru/resonance.step
+* /usr/share/step/examples/ru/softbody.step
+* /usr/share/step/examples/ru/solar.step
+* /usr/share/step/examples/ru/springs.step
+* /usr/share/step/examples/ru/wave.step
+* /usr/share/step/examples/sk/brownian.step
+* /usr/share/step/examples/sk/doublependulum.step
+* /usr/share/step/examples/sk/eightpendula.step
+* /usr/share/step/examples/sk/first.step
+* /usr/share/step/examples/sk/fourpendula.step
+* /usr/share/step/examples/sk/gas.step
+* /usr/share/step/examples/sk/graph.step
+* /usr/share/step/examples/sk/liquid.step
+* /usr/share/step/examples/sk/lissajous.step
+* /usr/share/step/examples/sk/motor.step
+* /usr/share/step/examples/sk/motor1.step
+* /usr/share/step/examples/sk/note.step
+* /usr/share/step/examples/sk/resonance.step
+* /usr/share/step/examples/sk/softbody.step
+* /usr/share/step/examples/sk/solar.step
+* /usr/share/step/examples/sk/springs.step
+* /usr/share/step/examples/sk/wave.step
+* /usr/share/step/examples/sl/brownian.step
+* /usr/share/step/examples/sl/doublependulum.step
+* /usr/share/step/examples/sl/eightpendula.step
+* /usr/share/step/examples/sl/first.step
+* /usr/share/step/examples/sl/fourpendula.step
+* /usr/share/step/examples/sl/gas.step
+* /usr/share/step/examples/sl/graph.step
+* /usr/share/step/examples/sl/liquid.step
+* /usr/share/step/examples/sl/lissajous.step
+* /usr/share/step/examples/sl/motor.step
+* /usr/share/step/examples/sl/motor1.step
+* /usr/share/step/examples/sl/note.step
+* /usr/share/step/examples/sl/resonance.step
+* /usr/share/step/examples/sl/softbody.step
+* /usr/share/step/examples/sl/solar.step
+* /usr/share/step/examples/sl/springs.step
+* /usr/share/step/examples/sl/wave.step
+* /usr/share/step/examples/softbody.step
+* /usr/share/step/examples/solar.step
+* /usr/share/step/examples/springs.step
+* /usr/share/step/examples/sv/brownian.step
+* /usr/share/step/examples/sv/doublependulum.step
+* /usr/share/step/examples/sv/eightpendula.step
+* /usr/share/step/examples/sv/first.step
+* /usr/share/step/examples/sv/fourpendula.step
+* /usr/share/step/examples/sv/gas.step
+* /usr/share/step/examples/sv/graph.step
+* /usr/share/step/examples/sv/liquid.step
+* /usr/share/step/examples/sv/lissajous.step
+* /usr/share/step/examples/sv/motor.step
+* /usr/share/step/examples/sv/motor1.step
+* /usr/share/step/examples/sv/note.step
+* /usr/share/step/examples/sv/resonance.step
+* /usr/share/step/examples/sv/softbody.step
+* /usr/share/step/examples/sv/solar.step
+* /usr/share/step/examples/sv/springs.step
+* /usr/share/step/examples/sv/wave.step
+* /usr/share/step/examples/tr/brownian.step
+* /usr/share/step/examples/tr/doublependulum.step
+* /usr/share/step/examples/tr/eightpendula.step
+* /usr/share/step/examples/tr/first.step
+* /usr/share/step/examples/tr/fourpendula.step
+* /usr/share/step/examples/tr/gas.step
+* /usr/share/step/examples/tr/graph.step
+* /usr/share/step/examples/tr/liquid.step
+* /usr/share/step/examples/tr/lissajous.step
+* /usr/share/step/examples/tr/motor.step
+* /usr/share/step/examples/tr/motor1.step
+* /usr/share/step/examples/tr/note.step
+* /usr/share/step/examples/tr/resonance.step
+* /usr/share/step/examples/tr/softbody.step
+* /usr/share/step/examples/tr/solar.step
+* /usr/share/step/examples/tr/springs.step
+* /usr/share/step/examples/tr/wave.step
+* /usr/share/step/examples/uk/brownian.step
+* /usr/share/step/examples/uk/doublependulum.step
+* /usr/share/step/examples/uk/eightpendula.step
+* /usr/share/step/examples/uk/first.step
+* /usr/share/step/examples/uk/fourpendula.step
+* /usr/share/step/examples/uk/gas.step
+* /usr/share/step/examples/uk/graph.step
+* /usr/share/step/examples/uk/liquid.step
+* /usr/share/step/examples/uk/lissajous.step
+* /usr/share/step/examples/uk/motor.step
+* /usr/share/step/examples/uk/motor1.step
+* /usr/share/step/examples/uk/note.step
+* /usr/share/step/examples/uk/resonance.step
+* /usr/share/step/examples/uk/softbody.step
+* /usr/share/step/examples/uk/solar.step
+* /usr/share/step/examples/uk/springs.step
+* /usr/share/step/examples/uk/wave.step
+* /usr/share/step/examples/wave.step
+* /usr/share/step/examples/zh_CN/brownian.step
+* /usr/share/step/examples/zh_CN/doublependulum.step
+* /usr/share/step/examples/zh_CN/eightpendula.step
+* /usr/share/step/examples/zh_CN/first.step
+* /usr/share/step/examples/zh_CN/fourpendula.step
+* /usr/share/step/examples/zh_CN/gas.step
+* /usr/share/step/examples/zh_CN/graph.step
+* /usr/share/step/examples/zh_CN/liquid.step
+* /usr/share/step/examples/zh_CN/lissajous.step
+* /usr/share/step/examples/zh_CN/motor.step
+* /usr/share/step/examples/zh_CN/motor1.step
+* /usr/share/step/examples/zh_CN/note.step
+* /usr/share/step/examples/zh_CN/resonance.step
+* /usr/share/step/examples/zh_CN/softbody.step
+* /usr/share/step/examples/zh_CN/solar.step
+* /usr/share/step/examples/zh_CN/springs.step
+* /usr/share/step/examples/zh_CN/wave.step
+* /usr/share/step/examples/zh_TW/brownian.step
+* /usr/share/step/examples/zh_TW/doublependulum.step
+* /usr/share/step/examples/zh_TW/eightpendula.step
+* /usr/share/step/examples/zh_TW/first.step
+* /usr/share/step/examples/zh_TW/fourpendula.step
+* /usr/share/step/examples/zh_TW/gas.step
+* /usr/share/step/examples/zh_TW/graph.step
+* /usr/share/step/examples/zh_TW/liquid.step
+* /usr/share/step/examples/zh_TW/lissajous.step
+* /usr/share/step/examples/zh_TW/motor.step
+* /usr/share/step/examples/zh_TW/motor1.step
+* /usr/share/step/examples/zh_TW/note.step
+* /usr/share/step/examples/zh_TW/resonance.step
+* /usr/share/step/examples/zh_TW/softbody.step
+* /usr/share/step/examples/zh_TW/solar.step
+* /usr/share/step/examples/zh_TW/springs.step
+* /usr/share/step/examples/zh_TW/wave.step
+* /usr/share/step/objinfo/anchor.html
+* /usr/share/step/objinfo/box.html
+* /usr/share/step/objinfo/chargedparticle.html
+* /usr/share/step/objinfo/coulombforce.html
+* /usr/share/step/objinfo/disk.html
+* /usr/share/step/objinfo/gas.html
+* /usr/share/step/objinfo/gasljforce.html
+* /usr/share/step/objinfo/gasparticle.html
+* /usr/share/step/objinfo/gravitationforce.html
+* /usr/share/step/objinfo/l10n/bg/anchor.html
+* /usr/share/step/objinfo/l10n/bg/box.html
+* /usr/share/step/objinfo/l10n/bg/chargedparticle.html
+* /usr/share/step/objinfo/l10n/bg/coulombforce.html
+* /usr/share/step/objinfo/l10n/bg/disk.html
+* /usr/share/step/objinfo/l10n/bg/gas.html
+* /usr/share/step/objinfo/l10n/bg/gasljforce.html
+* /usr/share/step/objinfo/l10n/bg/gasparticle.html
+* /usr/share/step/objinfo/l10n/bg/gravitationforce.html
+* /usr/share/step/objinfo/l10n/bg/linearmotor.html
+* /usr/share/step/objinfo/l10n/bg/meter.html
+* /usr/share/step/objinfo/l10n/bg/note.html
+* /usr/share/step/objinfo/l10n/bg/particle.html
+* /usr/share/step/objinfo/l10n/bg/pin.html
+* /usr/share/step/objinfo/l10n/bg/polygon.html
+* /usr/share/step/objinfo/l10n/bg/softbody.html
+* /usr/share/step/objinfo/l10n/bg/spring.html
+* /usr/share/step/objinfo/l10n/bg/weightforce.html
+* /usr/share/step/objinfo/l10n/bg/world.html
+* /usr/share/step/objinfo/l10n/ca/anchor.html
+* /usr/share/step/objinfo/l10n/ca/box.html
+* /usr/share/step/objinfo/l10n/ca/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ca/coulombforce.html
+* /usr/share/step/objinfo/l10n/ca/disk.html
+* /usr/share/step/objinfo/l10n/ca/gas.html
+* /usr/share/step/objinfo/l10n/ca/gasljforce.html
+* /usr/share/step/objinfo/l10n/ca/gasparticle.html
+* /usr/share/step/objinfo/l10n/ca/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ca/linearmotor.html
+* /usr/share/step/objinfo/l10n/ca/meter.html
+* /usr/share/step/objinfo/l10n/ca/note.html
+* /usr/share/step/objinfo/l10n/ca/particle.html
+* /usr/share/step/objinfo/l10n/ca/pin.html
+* /usr/share/step/objinfo/l10n/ca/polygon.html
+* /usr/share/step/objinfo/l10n/ca/softbody.html
+* /usr/share/step/objinfo/l10n/ca/spring.html
+* /usr/share/step/objinfo/l10n/ca/weightforce.html
+* /usr/share/step/objinfo/l10n/ca/world.html
+* /usr/share/step/objinfo/l10n/ca@valencia/anchor.html
+* /usr/share/step/objinfo/l10n/ca@valencia/box.html
+* /usr/share/step/objinfo/l10n/ca@valencia/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ca@valencia/coulombforce.html
+* /usr/share/step/objinfo/l10n/ca@valencia/disk.html
+* /usr/share/step/objinfo/l10n/ca@valencia/gas.html
+* /usr/share/step/objinfo/l10n/ca@valencia/gasljforce.html
+* /usr/share/step/objinfo/l10n/ca@valencia/gasparticle.html
+* /usr/share/step/objinfo/l10n/ca@valencia/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ca@valencia/linearmotor.html
+* /usr/share/step/objinfo/l10n/ca@valencia/meter.html
+* /usr/share/step/objinfo/l10n/ca@valencia/note.html
+* /usr/share/step/objinfo/l10n/ca@valencia/particle.html
+* /usr/share/step/objinfo/l10n/ca@valencia/pin.html
+* /usr/share/step/objinfo/l10n/ca@valencia/polygon.html
+* /usr/share/step/objinfo/l10n/ca@valencia/softbody.html
+* /usr/share/step/objinfo/l10n/ca@valencia/spring.html
+* /usr/share/step/objinfo/l10n/ca@valencia/weightforce.html
+* /usr/share/step/objinfo/l10n/ca@valencia/world.html
+* /usr/share/step/objinfo/l10n/cs/anchor.html
+* /usr/share/step/objinfo/l10n/cs/box.html
+* /usr/share/step/objinfo/l10n/cs/chargedparticle.html
+* /usr/share/step/objinfo/l10n/cs/coulombforce.html
+* /usr/share/step/objinfo/l10n/cs/disk.html
+* /usr/share/step/objinfo/l10n/cs/gas.html
+* /usr/share/step/objinfo/l10n/cs/gasljforce.html
+* /usr/share/step/objinfo/l10n/cs/gasparticle.html
+* /usr/share/step/objinfo/l10n/cs/gravitationforce.html
+* /usr/share/step/objinfo/l10n/cs/linearmotor.html
+* /usr/share/step/objinfo/l10n/cs/meter.html
+* /usr/share/step/objinfo/l10n/cs/note.html
+* /usr/share/step/objinfo/l10n/cs/particle.html
+* /usr/share/step/objinfo/l10n/cs/pin.html
+* /usr/share/step/objinfo/l10n/cs/polygon.html
+* /usr/share/step/objinfo/l10n/cs/softbody.html
+* /usr/share/step/objinfo/l10n/cs/spring.html
+* /usr/share/step/objinfo/l10n/cs/weightforce.html
+* /usr/share/step/objinfo/l10n/cs/world.html
+* /usr/share/step/objinfo/l10n/da/anchor.html
+* /usr/share/step/objinfo/l10n/da/box.html
+* /usr/share/step/objinfo/l10n/da/chargedparticle.html
+* /usr/share/step/objinfo/l10n/da/coulombforce.html
+* /usr/share/step/objinfo/l10n/da/disk.html
+* /usr/share/step/objinfo/l10n/da/gas.html
+* /usr/share/step/objinfo/l10n/da/gasljforce.html
+* /usr/share/step/objinfo/l10n/da/gasparticle.html
+* /usr/share/step/objinfo/l10n/da/gravitationforce.html
+* /usr/share/step/objinfo/l10n/da/linearmotor.html
+* /usr/share/step/objinfo/l10n/da/meter.html
+* /usr/share/step/objinfo/l10n/da/note.html
+* /usr/share/step/objinfo/l10n/da/particle.html
+* /usr/share/step/objinfo/l10n/da/pin.html
+* /usr/share/step/objinfo/l10n/da/polygon.html
+* /usr/share/step/objinfo/l10n/da/softbody.html
+* /usr/share/step/objinfo/l10n/da/spring.html
+* /usr/share/step/objinfo/l10n/da/weightforce.html
+* /usr/share/step/objinfo/l10n/da/world.html
+* /usr/share/step/objinfo/l10n/de/anchor.html
+* /usr/share/step/objinfo/l10n/de/box.html
+* /usr/share/step/objinfo/l10n/de/chargedparticle.html
+* /usr/share/step/objinfo/l10n/de/coulombforce.html
+* /usr/share/step/objinfo/l10n/de/disk.html
+* /usr/share/step/objinfo/l10n/de/gas.html
+* /usr/share/step/objinfo/l10n/de/gasljforce.html
+* /usr/share/step/objinfo/l10n/de/gasparticle.html
+* /usr/share/step/objinfo/l10n/de/gravitationforce.html
+* /usr/share/step/objinfo/l10n/de/linearmotor.html
+* /usr/share/step/objinfo/l10n/de/meter.html
+* /usr/share/step/objinfo/l10n/de/note.html
+* /usr/share/step/objinfo/l10n/de/particle.html
+* /usr/share/step/objinfo/l10n/de/pin.html
+* /usr/share/step/objinfo/l10n/de/polygon.html
+* /usr/share/step/objinfo/l10n/de/softbody.html
+* /usr/share/step/objinfo/l10n/de/spring.html
+* /usr/share/step/objinfo/l10n/de/weightforce.html
+* /usr/share/step/objinfo/l10n/de/world.html
+* /usr/share/step/objinfo/l10n/el/anchor.html
+* /usr/share/step/objinfo/l10n/el/box.html
+* /usr/share/step/objinfo/l10n/el/chargedparticle.html
+* /usr/share/step/objinfo/l10n/el/coulombforce.html
+* /usr/share/step/objinfo/l10n/el/disk.html
+* /usr/share/step/objinfo/l10n/el/gas.html
+* /usr/share/step/objinfo/l10n/el/gasljforce.html
+* /usr/share/step/objinfo/l10n/el/gasparticle.html
+* /usr/share/step/objinfo/l10n/el/gravitationforce.html
+* /usr/share/step/objinfo/l10n/el/linearmotor.html
+* /usr/share/step/objinfo/l10n/el/meter.html
+* /usr/share/step/objinfo/l10n/el/note.html
+* /usr/share/step/objinfo/l10n/el/particle.html
+* /usr/share/step/objinfo/l10n/el/pin.html
+* /usr/share/step/objinfo/l10n/el/polygon.html
+* /usr/share/step/objinfo/l10n/el/softbody.html
+* /usr/share/step/objinfo/l10n/el/spring.html
+* /usr/share/step/objinfo/l10n/el/weightforce.html
+* /usr/share/step/objinfo/l10n/el/world.html
+* /usr/share/step/objinfo/l10n/en_GB/anchor.html
+* /usr/share/step/objinfo/l10n/en_GB/box.html
+* /usr/share/step/objinfo/l10n/en_GB/chargedparticle.html
+* /usr/share/step/objinfo/l10n/en_GB/coulombforce.html
+* /usr/share/step/objinfo/l10n/en_GB/disk.html
+* /usr/share/step/objinfo/l10n/en_GB/gas.html
+* /usr/share/step/objinfo/l10n/en_GB/gasljforce.html
+* /usr/share/step/objinfo/l10n/en_GB/gasparticle.html
+* /usr/share/step/objinfo/l10n/en_GB/gravitationforce.html
+* /usr/share/step/objinfo/l10n/en_GB/linearmotor.html
+* /usr/share/step/objinfo/l10n/en_GB/meter.html
+* /usr/share/step/objinfo/l10n/en_GB/note.html
+* /usr/share/step/objinfo/l10n/en_GB/particle.html
+* /usr/share/step/objinfo/l10n/en_GB/pin.html
+* /usr/share/step/objinfo/l10n/en_GB/polygon.html
+* /usr/share/step/objinfo/l10n/en_GB/softbody.html
+* /usr/share/step/objinfo/l10n/en_GB/spring.html
+* /usr/share/step/objinfo/l10n/en_GB/weightforce.html
+* /usr/share/step/objinfo/l10n/en_GB/world.html
+* /usr/share/step/objinfo/l10n/eo/anchor.html
+* /usr/share/step/objinfo/l10n/eo/box.html
+* /usr/share/step/objinfo/l10n/eo/chargedparticle.html
+* /usr/share/step/objinfo/l10n/eo/coulombforce.html
+* /usr/share/step/objinfo/l10n/eo/disk.html
+* /usr/share/step/objinfo/l10n/eo/gas.html
+* /usr/share/step/objinfo/l10n/eo/gasljforce.html
+* /usr/share/step/objinfo/l10n/eo/gasparticle.html
+* /usr/share/step/objinfo/l10n/eo/gravitationforce.html
+* /usr/share/step/objinfo/l10n/eo/linearmotor.html
+* /usr/share/step/objinfo/l10n/eo/meter.html
+* /usr/share/step/objinfo/l10n/eo/note.html
+* /usr/share/step/objinfo/l10n/eo/particle.html
+* /usr/share/step/objinfo/l10n/eo/pin.html
+* /usr/share/step/objinfo/l10n/eo/polygon.html
+* /usr/share/step/objinfo/l10n/eo/softbody.html
+* /usr/share/step/objinfo/l10n/eo/spring.html
+* /usr/share/step/objinfo/l10n/eo/weightforce.html
+* /usr/share/step/objinfo/l10n/eo/world.html
+* /usr/share/step/objinfo/l10n/es/anchor.html
+* /usr/share/step/objinfo/l10n/es/box.html
+* /usr/share/step/objinfo/l10n/es/chargedparticle.html
+* /usr/share/step/objinfo/l10n/es/coulombforce.html
+* /usr/share/step/objinfo/l10n/es/disk.html
+* /usr/share/step/objinfo/l10n/es/gas.html
+* /usr/share/step/objinfo/l10n/es/gasljforce.html
+* /usr/share/step/objinfo/l10n/es/gasparticle.html
+* /usr/share/step/objinfo/l10n/es/gravitationforce.html
+* /usr/share/step/objinfo/l10n/es/linearmotor.html
+* /usr/share/step/objinfo/l10n/es/meter.html
+* /usr/share/step/objinfo/l10n/es/note.html
+* /usr/share/step/objinfo/l10n/es/particle.html
+* /usr/share/step/objinfo/l10n/es/pin.html
+* /usr/share/step/objinfo/l10n/es/polygon.html
+* /usr/share/step/objinfo/l10n/es/softbody.html
+* /usr/share/step/objinfo/l10n/es/spring.html
+* /usr/share/step/objinfo/l10n/es/weightforce.html
+* /usr/share/step/objinfo/l10n/es/world.html
+* /usr/share/step/objinfo/l10n/et/anchor.html
+* /usr/share/step/objinfo/l10n/et/box.html
+* /usr/share/step/objinfo/l10n/et/chargedparticle.html
+* /usr/share/step/objinfo/l10n/et/coulombforce.html
+* /usr/share/step/objinfo/l10n/et/disk.html
+* /usr/share/step/objinfo/l10n/et/gas.html
+* /usr/share/step/objinfo/l10n/et/gasljforce.html
+* /usr/share/step/objinfo/l10n/et/gasparticle.html
+* /usr/share/step/objinfo/l10n/et/gravitationforce.html
+* /usr/share/step/objinfo/l10n/et/linearmotor.html
+* /usr/share/step/objinfo/l10n/et/meter.html
+* /usr/share/step/objinfo/l10n/et/note.html
+* /usr/share/step/objinfo/l10n/et/particle.html
+* /usr/share/step/objinfo/l10n/et/pin.html
+* /usr/share/step/objinfo/l10n/et/polygon.html
+* /usr/share/step/objinfo/l10n/et/softbody.html
+* /usr/share/step/objinfo/l10n/et/spring.html
+* /usr/share/step/objinfo/l10n/et/weightforce.html
+* /usr/share/step/objinfo/l10n/et/world.html
+* /usr/share/step/objinfo/l10n/eu/anchor.html
+* /usr/share/step/objinfo/l10n/eu/box.html
+* /usr/share/step/objinfo/l10n/eu/chargedparticle.html
+* /usr/share/step/objinfo/l10n/eu/coulombforce.html
+* /usr/share/step/objinfo/l10n/eu/disk.html
+* /usr/share/step/objinfo/l10n/eu/gas.html
+* /usr/share/step/objinfo/l10n/eu/gasljforce.html
+* /usr/share/step/objinfo/l10n/eu/gasparticle.html
+* /usr/share/step/objinfo/l10n/eu/gravitationforce.html
+* /usr/share/step/objinfo/l10n/eu/linearmotor.html
+* /usr/share/step/objinfo/l10n/eu/meter.html
+* /usr/share/step/objinfo/l10n/eu/note.html
+* /usr/share/step/objinfo/l10n/eu/particle.html
+* /usr/share/step/objinfo/l10n/eu/pin.html
+* /usr/share/step/objinfo/l10n/eu/polygon.html
+* /usr/share/step/objinfo/l10n/eu/softbody.html
+* /usr/share/step/objinfo/l10n/eu/spring.html
+* /usr/share/step/objinfo/l10n/eu/weightforce.html
+* /usr/share/step/objinfo/l10n/eu/world.html
+* /usr/share/step/objinfo/l10n/fi/anchor.html
+* /usr/share/step/objinfo/l10n/fi/box.html
+* /usr/share/step/objinfo/l10n/fi/chargedparticle.html
+* /usr/share/step/objinfo/l10n/fi/coulombforce.html
+* /usr/share/step/objinfo/l10n/fi/disk.html
+* /usr/share/step/objinfo/l10n/fi/gas.html
+* /usr/share/step/objinfo/l10n/fi/gasljforce.html
+* /usr/share/step/objinfo/l10n/fi/gasparticle.html
+* /usr/share/step/objinfo/l10n/fi/gravitationforce.html
+* /usr/share/step/objinfo/l10n/fi/linearmotor.html
+* /usr/share/step/objinfo/l10n/fi/meter.html
+* /usr/share/step/objinfo/l10n/fi/note.html
+* /usr/share/step/objinfo/l10n/fi/particle.html
+* /usr/share/step/objinfo/l10n/fi/pin.html
+* /usr/share/step/objinfo/l10n/fi/polygon.html
+* /usr/share/step/objinfo/l10n/fi/softbody.html
+* /usr/share/step/objinfo/l10n/fi/spring.html
+* /usr/share/step/objinfo/l10n/fi/weightforce.html
+* /usr/share/step/objinfo/l10n/fi/world.html
+* /usr/share/step/objinfo/l10n/fr/anchor.html
+* /usr/share/step/objinfo/l10n/fr/box.html
+* /usr/share/step/objinfo/l10n/fr/chargedparticle.html
+* /usr/share/step/objinfo/l10n/fr/coulombforce.html
+* /usr/share/step/objinfo/l10n/fr/disk.html
+* /usr/share/step/objinfo/l10n/fr/gas.html
+* /usr/share/step/objinfo/l10n/fr/gasljforce.html
+* /usr/share/step/objinfo/l10n/fr/gasparticle.html
+* /usr/share/step/objinfo/l10n/fr/gravitationforce.html
+* /usr/share/step/objinfo/l10n/fr/linearmotor.html
+* /usr/share/step/objinfo/l10n/fr/meter.html
+* /usr/share/step/objinfo/l10n/fr/note.html
+* /usr/share/step/objinfo/l10n/fr/particle.html
+* /usr/share/step/objinfo/l10n/fr/pin.html
+* /usr/share/step/objinfo/l10n/fr/polygon.html
+* /usr/share/step/objinfo/l10n/fr/softbody.html
+* /usr/share/step/objinfo/l10n/fr/spring.html
+* /usr/share/step/objinfo/l10n/fr/weightforce.html
+* /usr/share/step/objinfo/l10n/fr/world.html
+* /usr/share/step/objinfo/l10n/gl/anchor.html
+* /usr/share/step/objinfo/l10n/gl/box.html
+* /usr/share/step/objinfo/l10n/gl/chargedparticle.html
+* /usr/share/step/objinfo/l10n/gl/coulombforce.html
+* /usr/share/step/objinfo/l10n/gl/disk.html
+* /usr/share/step/objinfo/l10n/gl/gas.html
+* /usr/share/step/objinfo/l10n/gl/gasljforce.html
+* /usr/share/step/objinfo/l10n/gl/gasparticle.html
+* /usr/share/step/objinfo/l10n/gl/gravitationforce.html
+* /usr/share/step/objinfo/l10n/gl/linearmotor.html
+* /usr/share/step/objinfo/l10n/gl/meter.html
+* /usr/share/step/objinfo/l10n/gl/note.html
+* /usr/share/step/objinfo/l10n/gl/particle.html
+* /usr/share/step/objinfo/l10n/gl/pin.html
+* /usr/share/step/objinfo/l10n/gl/polygon.html
+* /usr/share/step/objinfo/l10n/gl/softbody.html
+* /usr/share/step/objinfo/l10n/gl/spring.html
+* /usr/share/step/objinfo/l10n/gl/weightforce.html
+* /usr/share/step/objinfo/l10n/gl/world.html
+* /usr/share/step/objinfo/l10n/ia/anchor.html
+* /usr/share/step/objinfo/l10n/ia/box.html
+* /usr/share/step/objinfo/l10n/ia/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ia/coulombforce.html
+* /usr/share/step/objinfo/l10n/ia/disk.html
+* /usr/share/step/objinfo/l10n/ia/gas.html
+* /usr/share/step/objinfo/l10n/ia/gasljforce.html
+* /usr/share/step/objinfo/l10n/ia/gasparticle.html
+* /usr/share/step/objinfo/l10n/ia/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ia/linearmotor.html
+* /usr/share/step/objinfo/l10n/ia/meter.html
+* /usr/share/step/objinfo/l10n/ia/note.html
+* /usr/share/step/objinfo/l10n/ia/particle.html
+* /usr/share/step/objinfo/l10n/ia/pin.html
+* /usr/share/step/objinfo/l10n/ia/polygon.html
+* /usr/share/step/objinfo/l10n/ia/softbody.html
+* /usr/share/step/objinfo/l10n/ia/spring.html
+* /usr/share/step/objinfo/l10n/ia/weightforce.html
+* /usr/share/step/objinfo/l10n/ia/world.html
+* /usr/share/step/objinfo/l10n/it/anchor.html
+* /usr/share/step/objinfo/l10n/it/box.html
+* /usr/share/step/objinfo/l10n/it/chargedparticle.html
+* /usr/share/step/objinfo/l10n/it/coulombforce.html
+* /usr/share/step/objinfo/l10n/it/disk.html
+* /usr/share/step/objinfo/l10n/it/gas.html
+* /usr/share/step/objinfo/l10n/it/gasljforce.html
+* /usr/share/step/objinfo/l10n/it/gasparticle.html
+* /usr/share/step/objinfo/l10n/it/gravitationforce.html
+* /usr/share/step/objinfo/l10n/it/linearmotor.html
+* /usr/share/step/objinfo/l10n/it/meter.html
+* /usr/share/step/objinfo/l10n/it/note.html
+* /usr/share/step/objinfo/l10n/it/particle.html
+* /usr/share/step/objinfo/l10n/it/pin.html
+* /usr/share/step/objinfo/l10n/it/polygon.html
+* /usr/share/step/objinfo/l10n/it/softbody.html
+* /usr/share/step/objinfo/l10n/it/spring.html
+* /usr/share/step/objinfo/l10n/it/weightforce.html
+* /usr/share/step/objinfo/l10n/it/world.html
+* /usr/share/step/objinfo/l10n/ja/anchor.html
+* /usr/share/step/objinfo/l10n/ja/box.html
+* /usr/share/step/objinfo/l10n/ja/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ja/coulombforce.html
+* /usr/share/step/objinfo/l10n/ja/disk.html
+* /usr/share/step/objinfo/l10n/ja/gas.html
+* /usr/share/step/objinfo/l10n/ja/gasljforce.html
+* /usr/share/step/objinfo/l10n/ja/gasparticle.html
+* /usr/share/step/objinfo/l10n/ja/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ja/linearmotor.html
+* /usr/share/step/objinfo/l10n/ja/meter.html
+* /usr/share/step/objinfo/l10n/ja/note.html
+* /usr/share/step/objinfo/l10n/ja/particle.html
+* /usr/share/step/objinfo/l10n/ja/pin.html
+* /usr/share/step/objinfo/l10n/ja/polygon.html
+* /usr/share/step/objinfo/l10n/ja/softbody.html
+* /usr/share/step/objinfo/l10n/ja/spring.html
+* /usr/share/step/objinfo/l10n/ja/weightforce.html
+* /usr/share/step/objinfo/l10n/ja/world.html
+* /usr/share/step/objinfo/l10n/ka/anchor.html
+* /usr/share/step/objinfo/l10n/ka/box.html
+* /usr/share/step/objinfo/l10n/ka/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ka/coulombforce.html
+* /usr/share/step/objinfo/l10n/ka/disk.html
+* /usr/share/step/objinfo/l10n/ka/gas.html
+* /usr/share/step/objinfo/l10n/ka/gasljforce.html
+* /usr/share/step/objinfo/l10n/ka/gasparticle.html
+* /usr/share/step/objinfo/l10n/ka/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ka/linearmotor.html
+* /usr/share/step/objinfo/l10n/ka/meter.html
+* /usr/share/step/objinfo/l10n/ka/note.html
+* /usr/share/step/objinfo/l10n/ka/particle.html
+* /usr/share/step/objinfo/l10n/ka/pin.html
+* /usr/share/step/objinfo/l10n/ka/polygon.html
+* /usr/share/step/objinfo/l10n/ka/softbody.html
+* /usr/share/step/objinfo/l10n/ka/spring.html
+* /usr/share/step/objinfo/l10n/ka/weightforce.html
+* /usr/share/step/objinfo/l10n/ka/world.html
+* /usr/share/step/objinfo/l10n/ko/anchor.html
+* /usr/share/step/objinfo/l10n/ko/box.html
+* /usr/share/step/objinfo/l10n/ko/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ko/coulombforce.html
+* /usr/share/step/objinfo/l10n/ko/disk.html
+* /usr/share/step/objinfo/l10n/ko/gas.html
+* /usr/share/step/objinfo/l10n/ko/gasljforce.html
+* /usr/share/step/objinfo/l10n/ko/gasparticle.html
+* /usr/share/step/objinfo/l10n/ko/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ko/linearmotor.html
+* /usr/share/step/objinfo/l10n/ko/meter.html
+* /usr/share/step/objinfo/l10n/ko/note.html
+* /usr/share/step/objinfo/l10n/ko/particle.html
+* /usr/share/step/objinfo/l10n/ko/pin.html
+* /usr/share/step/objinfo/l10n/ko/polygon.html
+* /usr/share/step/objinfo/l10n/ko/softbody.html
+* /usr/share/step/objinfo/l10n/ko/spring.html
+* /usr/share/step/objinfo/l10n/ko/weightforce.html
+* /usr/share/step/objinfo/l10n/ko/world.html
+* /usr/share/step/objinfo/l10n/lt/anchor.html
+* /usr/share/step/objinfo/l10n/lt/box.html
+* /usr/share/step/objinfo/l10n/lt/chargedparticle.html
+* /usr/share/step/objinfo/l10n/lt/coulombforce.html
+* /usr/share/step/objinfo/l10n/lt/disk.html
+* /usr/share/step/objinfo/l10n/lt/gas.html
+* /usr/share/step/objinfo/l10n/lt/gasljforce.html
+* /usr/share/step/objinfo/l10n/lt/gasparticle.html
+* /usr/share/step/objinfo/l10n/lt/gravitationforce.html
+* /usr/share/step/objinfo/l10n/lt/linearmotor.html
+* /usr/share/step/objinfo/l10n/lt/meter.html
+* /usr/share/step/objinfo/l10n/lt/note.html
+* /usr/share/step/objinfo/l10n/lt/particle.html
+* /usr/share/step/objinfo/l10n/lt/pin.html
+* /usr/share/step/objinfo/l10n/lt/polygon.html
+* /usr/share/step/objinfo/l10n/lt/softbody.html
+* /usr/share/step/objinfo/l10n/lt/spring.html
+* /usr/share/step/objinfo/l10n/lt/weightforce.html
+* /usr/share/step/objinfo/l10n/lt/world.html
+* /usr/share/step/objinfo/l10n/ml/anchor.html
+* /usr/share/step/objinfo/l10n/ml/box.html
+* /usr/share/step/objinfo/l10n/ml/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ml/coulombforce.html
+* /usr/share/step/objinfo/l10n/ml/disk.html
+* /usr/share/step/objinfo/l10n/ml/gas.html
+* /usr/share/step/objinfo/l10n/ml/gasljforce.html
+* /usr/share/step/objinfo/l10n/ml/gasparticle.html
+* /usr/share/step/objinfo/l10n/ml/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ml/linearmotor.html
+* /usr/share/step/objinfo/l10n/ml/meter.html
+* /usr/share/step/objinfo/l10n/ml/note.html
+* /usr/share/step/objinfo/l10n/ml/particle.html
+* /usr/share/step/objinfo/l10n/ml/pin.html
+* /usr/share/step/objinfo/l10n/ml/polygon.html
+* /usr/share/step/objinfo/l10n/ml/softbody.html
+* /usr/share/step/objinfo/l10n/ml/spring.html
+* /usr/share/step/objinfo/l10n/ml/weightforce.html
+* /usr/share/step/objinfo/l10n/ml/world.html
+* /usr/share/step/objinfo/l10n/nl/anchor.html
+* /usr/share/step/objinfo/l10n/nl/box.html
+* /usr/share/step/objinfo/l10n/nl/chargedparticle.html
+* /usr/share/step/objinfo/l10n/nl/coulombforce.html
+* /usr/share/step/objinfo/l10n/nl/disk.html
+* /usr/share/step/objinfo/l10n/nl/gas.html
+* /usr/share/step/objinfo/l10n/nl/gasljforce.html
+* /usr/share/step/objinfo/l10n/nl/gasparticle.html
+* /usr/share/step/objinfo/l10n/nl/gravitationforce.html
+* /usr/share/step/objinfo/l10n/nl/linearmotor.html
+* /usr/share/step/objinfo/l10n/nl/meter.html
+* /usr/share/step/objinfo/l10n/nl/note.html
+* /usr/share/step/objinfo/l10n/nl/particle.html
+* /usr/share/step/objinfo/l10n/nl/pin.html
+* /usr/share/step/objinfo/l10n/nl/polygon.html
+* /usr/share/step/objinfo/l10n/nl/softbody.html
+* /usr/share/step/objinfo/l10n/nl/spring.html
+* /usr/share/step/objinfo/l10n/nl/weightforce.html
+* /usr/share/step/objinfo/l10n/nl/world.html
+* /usr/share/step/objinfo/l10n/pl/anchor.html
+* /usr/share/step/objinfo/l10n/pl/box.html
+* /usr/share/step/objinfo/l10n/pl/chargedparticle.html
+* /usr/share/step/objinfo/l10n/pl/coulombforce.html
+* /usr/share/step/objinfo/l10n/pl/disk.html
+* /usr/share/step/objinfo/l10n/pl/gas.html
+* /usr/share/step/objinfo/l10n/pl/gasljforce.html
+* /usr/share/step/objinfo/l10n/pl/gasparticle.html
+* /usr/share/step/objinfo/l10n/pl/gravitationforce.html
+* /usr/share/step/objinfo/l10n/pl/linearmotor.html
+* /usr/share/step/objinfo/l10n/pl/meter.html
+* /usr/share/step/objinfo/l10n/pl/note.html
+* /usr/share/step/objinfo/l10n/pl/particle.html
+* /usr/share/step/objinfo/l10n/pl/pin.html
+* /usr/share/step/objinfo/l10n/pl/polygon.html
+* /usr/share/step/objinfo/l10n/pl/softbody.html
+* /usr/share/step/objinfo/l10n/pl/spring.html
+* /usr/share/step/objinfo/l10n/pl/weightforce.html
+* /usr/share/step/objinfo/l10n/pl/world.html
+* /usr/share/step/objinfo/l10n/pt/anchor.html
+* /usr/share/step/objinfo/l10n/pt/box.html
+* /usr/share/step/objinfo/l10n/pt/chargedparticle.html
+* /usr/share/step/objinfo/l10n/pt/coulombforce.html
+* /usr/share/step/objinfo/l10n/pt/disk.html
+* /usr/share/step/objinfo/l10n/pt/gas.html
+* /usr/share/step/objinfo/l10n/pt/gasljforce.html
+* /usr/share/step/objinfo/l10n/pt/gasparticle.html
+* /usr/share/step/objinfo/l10n/pt/gravitationforce.html
+* /usr/share/step/objinfo/l10n/pt/linearmotor.html
+* /usr/share/step/objinfo/l10n/pt/meter.html
+* /usr/share/step/objinfo/l10n/pt/note.html
+* /usr/share/step/objinfo/l10n/pt/particle.html
+* /usr/share/step/objinfo/l10n/pt/pin.html
+* /usr/share/step/objinfo/l10n/pt/polygon.html
+* /usr/share/step/objinfo/l10n/pt/softbody.html
+* /usr/share/step/objinfo/l10n/pt/spring.html
+* /usr/share/step/objinfo/l10n/pt/weightforce.html
+* /usr/share/step/objinfo/l10n/pt/world.html
+* /usr/share/step/objinfo/l10n/pt_BR/anchor.html
+* /usr/share/step/objinfo/l10n/pt_BR/box.html
+* /usr/share/step/objinfo/l10n/pt_BR/chargedparticle.html
+* /usr/share/step/objinfo/l10n/pt_BR/coulombforce.html
+* /usr/share/step/objinfo/l10n/pt_BR/disk.html
+* /usr/share/step/objinfo/l10n/pt_BR/gas.html
+* /usr/share/step/objinfo/l10n/pt_BR/gasljforce.html
+* /usr/share/step/objinfo/l10n/pt_BR/gasparticle.html
+* /usr/share/step/objinfo/l10n/pt_BR/gravitationforce.html
+* /usr/share/step/objinfo/l10n/pt_BR/linearmotor.html
+* /usr/share/step/objinfo/l10n/pt_BR/meter.html
+* /usr/share/step/objinfo/l10n/pt_BR/note.html
+* /usr/share/step/objinfo/l10n/pt_BR/particle.html
+* /usr/share/step/objinfo/l10n/pt_BR/pin.html
+* /usr/share/step/objinfo/l10n/pt_BR/polygon.html
+* /usr/share/step/objinfo/l10n/pt_BR/softbody.html
+* /usr/share/step/objinfo/l10n/pt_BR/spring.html
+* /usr/share/step/objinfo/l10n/pt_BR/weightforce.html
+* /usr/share/step/objinfo/l10n/pt_BR/world.html
+* /usr/share/step/objinfo/l10n/ru/anchor.html
+* /usr/share/step/objinfo/l10n/ru/box.html
+* /usr/share/step/objinfo/l10n/ru/chargedparticle.html
+* /usr/share/step/objinfo/l10n/ru/coulombforce.html
+* /usr/share/step/objinfo/l10n/ru/disk.html
+* /usr/share/step/objinfo/l10n/ru/gas.html
+* /usr/share/step/objinfo/l10n/ru/gasljforce.html
+* /usr/share/step/objinfo/l10n/ru/gasparticle.html
+* /usr/share/step/objinfo/l10n/ru/gravitationforce.html
+* /usr/share/step/objinfo/l10n/ru/linearmotor.html
+* /usr/share/step/objinfo/l10n/ru/meter.html
+* /usr/share/step/objinfo/l10n/ru/note.html
+* /usr/share/step/objinfo/l10n/ru/particle.html
+* /usr/share/step/objinfo/l10n/ru/pin.html
+* /usr/share/step/objinfo/l10n/ru/polygon.html
+* /usr/share/step/objinfo/l10n/ru/softbody.html
+* /usr/share/step/objinfo/l10n/ru/spring.html
+* /usr/share/step/objinfo/l10n/ru/weightforce.html
+* /usr/share/step/objinfo/l10n/ru/world.html
+* /usr/share/step/objinfo/l10n/sk/anchor.html
+* /usr/share/step/objinfo/l10n/sk/box.html
+* /usr/share/step/objinfo/l10n/sk/chargedparticle.html
+* /usr/share/step/objinfo/l10n/sk/coulombforce.html
+* /usr/share/step/objinfo/l10n/sk/disk.html
+* /usr/share/step/objinfo/l10n/sk/gas.html
+* /usr/share/step/objinfo/l10n/sk/gasljforce.html
+* /usr/share/step/objinfo/l10n/sk/gasparticle.html
+* /usr/share/step/objinfo/l10n/sk/gravitationforce.html
+* /usr/share/step/objinfo/l10n/sk/linearmotor.html
+* /usr/share/step/objinfo/l10n/sk/meter.html
+* /usr/share/step/objinfo/l10n/sk/note.html
+* /usr/share/step/objinfo/l10n/sk/particle.html
+* /usr/share/step/objinfo/l10n/sk/pin.html
+* /usr/share/step/objinfo/l10n/sk/polygon.html
+* /usr/share/step/objinfo/l10n/sk/softbody.html
+* /usr/share/step/objinfo/l10n/sk/spring.html
+* /usr/share/step/objinfo/l10n/sk/weightforce.html
+* /usr/share/step/objinfo/l10n/sk/world.html
+* /usr/share/step/objinfo/l10n/sl/anchor.html
+* /usr/share/step/objinfo/l10n/sl/box.html
+* /usr/share/step/objinfo/l10n/sl/chargedparticle.html
+* /usr/share/step/objinfo/l10n/sl/coulombforce.html
+* /usr/share/step/objinfo/l10n/sl/disk.html
+* /usr/share/step/objinfo/l10n/sl/gas.html
+* /usr/share/step/objinfo/l10n/sl/gasljforce.html
+* /usr/share/step/objinfo/l10n/sl/gasparticle.html
+* /usr/share/step/objinfo/l10n/sl/gravitationforce.html
+* /usr/share/step/objinfo/l10n/sl/linearmotor.html
+* /usr/share/step/objinfo/l10n/sl/meter.html
+* /usr/share/step/objinfo/l10n/sl/note.html
+* /usr/share/step/objinfo/l10n/sl/particle.html
+* /usr/share/step/objinfo/l10n/sl/pin.html
+* /usr/share/step/objinfo/l10n/sl/polygon.html
+* /usr/share/step/objinfo/l10n/sl/softbody.html
+* /usr/share/step/objinfo/l10n/sl/spring.html
+* /usr/share/step/objinfo/l10n/sl/weightforce.html
+* /usr/share/step/objinfo/l10n/sl/world.html
+* /usr/share/step/objinfo/l10n/sv/anchor.html
+* /usr/share/step/objinfo/l10n/sv/box.html
+* /usr/share/step/objinfo/l10n/sv/chargedparticle.html
+* /usr/share/step/objinfo/l10n/sv/coulombforce.html
+* /usr/share/step/objinfo/l10n/sv/disk.html
+* /usr/share/step/objinfo/l10n/sv/gas.html
+* /usr/share/step/objinfo/l10n/sv/gasljforce.html
+* /usr/share/step/objinfo/l10n/sv/gasparticle.html
+* /usr/share/step/objinfo/l10n/sv/gravitationforce.html
+* /usr/share/step/objinfo/l10n/sv/linearmotor.html
+* /usr/share/step/objinfo/l10n/sv/meter.html
+* /usr/share/step/objinfo/l10n/sv/note.html
+* /usr/share/step/objinfo/l10n/sv/particle.html
+* /usr/share/step/objinfo/l10n/sv/pin.html
+* /usr/share/step/objinfo/l10n/sv/polygon.html
+* /usr/share/step/objinfo/l10n/sv/softbody.html
+* /usr/share/step/objinfo/l10n/sv/spring.html
+* /usr/share/step/objinfo/l10n/sv/weightforce.html
+* /usr/share/step/objinfo/l10n/sv/world.html
+* /usr/share/step/objinfo/l10n/tr/anchor.html
+* /usr/share/step/objinfo/l10n/tr/box.html
+* /usr/share/step/objinfo/l10n/tr/chargedparticle.html
+* /usr/share/step/objinfo/l10n/tr/coulombforce.html
+* /usr/share/step/objinfo/l10n/tr/disk.html
+* /usr/share/step/objinfo/l10n/tr/gas.html
+* /usr/share/step/objinfo/l10n/tr/gasljforce.html
+* /usr/share/step/objinfo/l10n/tr/gasparticle.html
+* /usr/share/step/objinfo/l10n/tr/gravitationforce.html
+* /usr/share/step/objinfo/l10n/tr/linearmotor.html
+* /usr/share/step/objinfo/l10n/tr/meter.html
+* /usr/share/step/objinfo/l10n/tr/note.html
+* /usr/share/step/objinfo/l10n/tr/particle.html
+* /usr/share/step/objinfo/l10n/tr/pin.html
+* /usr/share/step/objinfo/l10n/tr/polygon.html
+* /usr/share/step/objinfo/l10n/tr/softbody.html
+* /usr/share/step/objinfo/l10n/tr/spring.html
+* /usr/share/step/objinfo/l10n/tr/weightforce.html
+* /usr/share/step/objinfo/l10n/tr/world.html
+* /usr/share/step/objinfo/l10n/uk/anchor.html
+* /usr/share/step/objinfo/l10n/uk/box.html
+* /usr/share/step/objinfo/l10n/uk/chargedparticle.html
+* /usr/share/step/objinfo/l10n/uk/coulombforce.html
+* /usr/share/step/objinfo/l10n/uk/disk.html
+* /usr/share/step/objinfo/l10n/uk/gas.html
+* /usr/share/step/objinfo/l10n/uk/gasljforce.html
+* /usr/share/step/objinfo/l10n/uk/gasparticle.html
+* /usr/share/step/objinfo/l10n/uk/gravitationforce.html
+* /usr/share/step/objinfo/l10n/uk/linearmotor.html
+* /usr/share/step/objinfo/l10n/uk/meter.html
+* /usr/share/step/objinfo/l10n/uk/note.html
+* /usr/share/step/objinfo/l10n/uk/particle.html
+* /usr/share/step/objinfo/l10n/uk/pin.html
+* /usr/share/step/objinfo/l10n/uk/polygon.html
+* /usr/share/step/objinfo/l10n/uk/softbody.html
+* /usr/share/step/objinfo/l10n/uk/spring.html
+* /usr/share/step/objinfo/l10n/uk/weightforce.html
+* /usr/share/step/objinfo/l10n/uk/world.html
+* /usr/share/step/objinfo/l10n/zh_CN/anchor.html
+* /usr/share/step/objinfo/l10n/zh_CN/box.html
+* /usr/share/step/objinfo/l10n/zh_CN/chargedparticle.html
+* /usr/share/step/objinfo/l10n/zh_CN/coulombforce.html
+* /usr/share/step/objinfo/l10n/zh_CN/disk.html
+* /usr/share/step/objinfo/l10n/zh_CN/gas.html
+* /usr/share/step/objinfo/l10n/zh_CN/gasljforce.html
+* /usr/share/step/objinfo/l10n/zh_CN/gasparticle.html
+* /usr/share/step/objinfo/l10n/zh_CN/gravitationforce.html
+* /usr/share/step/objinfo/l10n/zh_CN/linearmotor.html
+* /usr/share/step/objinfo/l10n/zh_CN/meter.html
+* /usr/share/step/objinfo/l10n/zh_CN/note.html
+* /usr/share/step/objinfo/l10n/zh_CN/particle.html
+* /usr/share/step/objinfo/l10n/zh_CN/pin.html
+* /usr/share/step/objinfo/l10n/zh_CN/polygon.html
+* /usr/share/step/objinfo/l10n/zh_CN/softbody.html
+* /usr/share/step/objinfo/l10n/zh_CN/spring.html
+* /usr/share/step/objinfo/l10n/zh_CN/weightforce.html
+* /usr/share/step/objinfo/l10n/zh_CN/world.html
+* /usr/share/step/objinfo/l10n/zh_TW/anchor.html
+* /usr/share/step/objinfo/l10n/zh_TW/box.html
+* /usr/share/step/objinfo/l10n/zh_TW/chargedparticle.html
+* /usr/share/step/objinfo/l10n/zh_TW/coulombforce.html
+* /usr/share/step/objinfo/l10n/zh_TW/disk.html
+* /usr/share/step/objinfo/l10n/zh_TW/gas.html
+* /usr/share/step/objinfo/l10n/zh_TW/gasljforce.html
+* /usr/share/step/objinfo/l10n/zh_TW/gasparticle.html
+* /usr/share/step/objinfo/l10n/zh_TW/gravitationforce.html
+* /usr/share/step/objinfo/l10n/zh_TW/linearmotor.html
+* /usr/share/step/objinfo/l10n/zh_TW/meter.html
+* /usr/share/step/objinfo/l10n/zh_TW/note.html
+* /usr/share/step/objinfo/l10n/zh_TW/particle.html
+* /usr/share/step/objinfo/l10n/zh_TW/pin.html
+* /usr/share/step/objinfo/l10n/zh_TW/polygon.html
+* /usr/share/step/objinfo/l10n/zh_TW/softbody.html
+* /usr/share/step/objinfo/l10n/zh_TW/spring.html
+* /usr/share/step/objinfo/l10n/zh_TW/weightforce.html
+* /usr/share/step/objinfo/l10n/zh_TW/world.html
+* /usr/share/step/objinfo/linearmotor.html
+* /usr/share/step/objinfo/meter.html
+* /usr/share/step/objinfo/note.html
+* /usr/share/step/objinfo/particle.html
+* /usr/share/step/objinfo/pin.html
+* /usr/share/step/objinfo/polygon.html
+* /usr/share/step/objinfo/softbody.html
+* /usr/share/step/objinfo/spring.html
+* /usr/share/step/objinfo/weightforce.html
+* /usr/share/step/objinfo/world.html
+* /usr/share/step/tutorials/bg/tutorial1.step
+* /usr/share/step/tutorials/bg/tutorial2.step
+* /usr/share/step/tutorials/bg/tutorial3.step
+* /usr/share/step/tutorials/bg/tutorial4.step
+* /usr/share/step/tutorials/bg/tutorial5.step
+* /usr/share/step/tutorials/ca/tutorial1.step
+* /usr/share/step/tutorials/ca/tutorial2.step
+* /usr/share/step/tutorials/ca/tutorial3.step
+* /usr/share/step/tutorials/ca/tutorial4.step
+* /usr/share/step/tutorials/ca/tutorial5.step
+* /usr/share/step/tutorials/ca@valencia/tutorial1.step
+* /usr/share/step/tutorials/ca@valencia/tutorial2.step
+* /usr/share/step/tutorials/ca@valencia/tutorial3.step
+* /usr/share/step/tutorials/ca@valencia/tutorial4.step
+* /usr/share/step/tutorials/ca@valencia/tutorial5.step
+* /usr/share/step/tutorials/cs/tutorial1.step
+* /usr/share/step/tutorials/cs/tutorial2.step
+* /usr/share/step/tutorials/cs/tutorial3.step
+* /usr/share/step/tutorials/cs/tutorial4.step
+* /usr/share/step/tutorials/cs/tutorial5.step
+* /usr/share/step/tutorials/da/tutorial1.step
+* /usr/share/step/tutorials/da/tutorial2.step
+* /usr/share/step/tutorials/da/tutorial3.step
+* /usr/share/step/tutorials/da/tutorial4.step
+* /usr/share/step/tutorials/da/tutorial5.step
+* /usr/share/step/tutorials/de/tutorial1.step
+* /usr/share/step/tutorials/de/tutorial2.step
+* /usr/share/step/tutorials/de/tutorial3.step
+* /usr/share/step/tutorials/de/tutorial4.step
+* /usr/share/step/tutorials/de/tutorial5.step
+* /usr/share/step/tutorials/el/tutorial1.step
+* /usr/share/step/tutorials/el/tutorial2.step
+* /usr/share/step/tutorials/el/tutorial3.step
+* /usr/share/step/tutorials/el/tutorial4.step
+* /usr/share/step/tutorials/el/tutorial5.step
+* /usr/share/step/tutorials/en_GB/tutorial1.step
+* /usr/share/step/tutorials/en_GB/tutorial2.step
+* /usr/share/step/tutorials/en_GB/tutorial3.step
+* /usr/share/step/tutorials/en_GB/tutorial4.step
+* /usr/share/step/tutorials/en_GB/tutorial5.step
+* /usr/share/step/tutorials/eo/tutorial1.step
+* /usr/share/step/tutorials/eo/tutorial2.step
+* /usr/share/step/tutorials/eo/tutorial3.step
+* /usr/share/step/tutorials/eo/tutorial4.step
+* /usr/share/step/tutorials/eo/tutorial5.step
+* /usr/share/step/tutorials/es/tutorial1.step
+* /usr/share/step/tutorials/es/tutorial2.step
+* /usr/share/step/tutorials/es/tutorial3.step
+* /usr/share/step/tutorials/es/tutorial4.step
+* /usr/share/step/tutorials/es/tutorial5.step
+* /usr/share/step/tutorials/et/tutorial1.step
+* /usr/share/step/tutorials/et/tutorial2.step
+* /usr/share/step/tutorials/et/tutorial3.step
+* /usr/share/step/tutorials/et/tutorial4.step
+* /usr/share/step/tutorials/et/tutorial5.step
+* /usr/share/step/tutorials/eu/tutorial1.step
+* /usr/share/step/tutorials/eu/tutorial2.step
+* /usr/share/step/tutorials/eu/tutorial3.step
+* /usr/share/step/tutorials/eu/tutorial4.step
+* /usr/share/step/tutorials/eu/tutorial5.step
+* /usr/share/step/tutorials/fi/tutorial1.step
+* /usr/share/step/tutorials/fi/tutorial2.step
+* /usr/share/step/tutorials/fi/tutorial3.step
+* /usr/share/step/tutorials/fi/tutorial4.step
+* /usr/share/step/tutorials/fi/tutorial5.step
+* /usr/share/step/tutorials/fr/tutorial1.step
+* /usr/share/step/tutorials/fr/tutorial2.step
+* /usr/share/step/tutorials/fr/tutorial3.step
+* /usr/share/step/tutorials/fr/tutorial4.step
+* /usr/share/step/tutorials/fr/tutorial5.step
+* /usr/share/step/tutorials/gl/tutorial1.step
+* /usr/share/step/tutorials/gl/tutorial2.step
+* /usr/share/step/tutorials/gl/tutorial3.step
+* /usr/share/step/tutorials/gl/tutorial4.step
+* /usr/share/step/tutorials/gl/tutorial5.step
+* /usr/share/step/tutorials/ia/tutorial1.step
+* /usr/share/step/tutorials/ia/tutorial2.step
+* /usr/share/step/tutorials/ia/tutorial3.step
+* /usr/share/step/tutorials/ia/tutorial4.step
+* /usr/share/step/tutorials/ia/tutorial5.step
+* /usr/share/step/tutorials/it/tutorial1.step
+* /usr/share/step/tutorials/it/tutorial2.step
+* /usr/share/step/tutorials/it/tutorial3.step
+* /usr/share/step/tutorials/it/tutorial4.step
+* /usr/share/step/tutorials/it/tutorial5.step
+* /usr/share/step/tutorials/ja/tutorial1.step
+* /usr/share/step/tutorials/ja/tutorial2.step
+* /usr/share/step/tutorials/ja/tutorial3.step
+* /usr/share/step/tutorials/ja/tutorial4.step
+* /usr/share/step/tutorials/ja/tutorial5.step
+* /usr/share/step/tutorials/ka/tutorial1.step
+* /usr/share/step/tutorials/ka/tutorial2.step
+* /usr/share/step/tutorials/ka/tutorial3.step
+* /usr/share/step/tutorials/ka/tutorial4.step
+* /usr/share/step/tutorials/ka/tutorial5.step
+* /usr/share/step/tutorials/lt/tutorial1.step
+* /usr/share/step/tutorials/lt/tutorial2.step
+* /usr/share/step/tutorials/lt/tutorial3.step
+* /usr/share/step/tutorials/lt/tutorial4.step
+* /usr/share/step/tutorials/lt/tutorial5.step
+* /usr/share/step/tutorials/ml/tutorial1.step
+* /usr/share/step/tutorials/ml/tutorial2.step
+* /usr/share/step/tutorials/ml/tutorial3.step
+* /usr/share/step/tutorials/ml/tutorial4.step
+* /usr/share/step/tutorials/ml/tutorial5.step
+* /usr/share/step/tutorials/nl/tutorial1.step
+* /usr/share/step/tutorials/nl/tutorial2.step
+* /usr/share/step/tutorials/nl/tutorial3.step
+* /usr/share/step/tutorials/nl/tutorial4.step
+* /usr/share/step/tutorials/nl/tutorial5.step
+* /usr/share/step/tutorials/pl/tutorial1.step
+* /usr/share/step/tutorials/pl/tutorial2.step
+* /usr/share/step/tutorials/pl/tutorial3.step
+* /usr/share/step/tutorials/pl/tutorial4.step
+* /usr/share/step/tutorials/pl/tutorial5.step
+* /usr/share/step/tutorials/pt/tutorial1.step
+* /usr/share/step/tutorials/pt/tutorial2.step
+* /usr/share/step/tutorials/pt/tutorial3.step
+* /usr/share/step/tutorials/pt/tutorial4.step
+* /usr/share/step/tutorials/pt/tutorial5.step
+* /usr/share/step/tutorials/pt_BR/tutorial1.step
+* /usr/share/step/tutorials/pt_BR/tutorial2.step
+* /usr/share/step/tutorials/pt_BR/tutorial3.step
+* /usr/share/step/tutorials/pt_BR/tutorial4.step
+* /usr/share/step/tutorials/pt_BR/tutorial5.step
+* /usr/share/step/tutorials/ru/tutorial1.step
+* /usr/share/step/tutorials/ru/tutorial2.step
+* /usr/share/step/tutorials/ru/tutorial3.step
+* /usr/share/step/tutorials/ru/tutorial4.step
+* /usr/share/step/tutorials/ru/tutorial5.step
+* /usr/share/step/tutorials/sk/tutorial1.step
+* /usr/share/step/tutorials/sk/tutorial2.step
+* /usr/share/step/tutorials/sk/tutorial3.step
+* /usr/share/step/tutorials/sk/tutorial4.step
+* /usr/share/step/tutorials/sk/tutorial5.step
+* /usr/share/step/tutorials/sl/tutorial1.step
+* /usr/share/step/tutorials/sl/tutorial2.step
+* /usr/share/step/tutorials/sl/tutorial3.step
+* /usr/share/step/tutorials/sl/tutorial4.step
+* /usr/share/step/tutorials/sl/tutorial5.step
+* /usr/share/step/tutorials/sv/tutorial1.step
+* /usr/share/step/tutorials/sv/tutorial2.step
+* /usr/share/step/tutorials/sv/tutorial3.step
+* /usr/share/step/tutorials/sv/tutorial4.step
+* /usr/share/step/tutorials/sv/tutorial5.step
+* /usr/share/step/tutorials/tr/tutorial1.step
+* /usr/share/step/tutorials/tr/tutorial2.step
+* /usr/share/step/tutorials/tr/tutorial3.step
+* /usr/share/step/tutorials/tr/tutorial4.step
+* /usr/share/step/tutorials/tr/tutorial5.step
+* /usr/share/step/tutorials/tutorial1.step
+* /usr/share/step/tutorials/tutorial2.step
+* /usr/share/step/tutorials/tutorial3.step
+* /usr/share/step/tutorials/tutorial4.step
+* /usr/share/step/tutorials/tutorial5.step
+* /usr/share/step/tutorials/uk/tutorial1.step
+* /usr/share/step/tutorials/uk/tutorial2.step
+* /usr/share/step/tutorials/uk/tutorial3.step
+* /usr/share/step/tutorials/uk/tutorial4.step
+* /usr/share/step/tutorials/uk/tutorial5.step
+* /usr/share/step/tutorials/zh_CN/tutorial1.step
+* /usr/share/step/tutorials/zh_CN/tutorial2.step
+* /usr/share/step/tutorials/zh_CN/tutorial3.step
+* /usr/share/step/tutorials/zh_CN/tutorial4.step
+* /usr/share/step/tutorials/zh_CN/tutorial5.step
+* /usr/share/step/tutorials/zh_TW/tutorial1.step
+* /usr/share/step/tutorials/zh_TW/tutorial2.step
+* /usr/share/step/tutorials/zh_TW/tutorial3.step
+* /usr/share/step/tutorials/zh_TW/tutorial4.step
+* /usr/share/step/tutorials/zh_TW/tutorial5.step

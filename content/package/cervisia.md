@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./cervisia 24.08.0-1"
+title = "cervisia 24.08.0-1"
 version = "24.08.0-1"
 description = "CVS Frontend"
 date = "2024-08-24T09:58:51"
-aliases = "/packages/222484"
+aliases = "/packages/219319"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,274 +17,274 @@ depends = "['kdesu5>=5.116.0', 'kinit5>=5.116.0', 'kparts5>=5.116.0']"
 CVS Frontend
 
 ### Files: 
-* cervisia /usr/bin/cervisia
-* cervisia /usr/bin/cvsaskpass
-* cervisia /usr/bin/cvsservice5
-* cervisia /usr/lib/libkdeinit5_cervisia.so
-* cervisia /usr/lib/libkdeinit5_cvsaskpass.so
-* cervisia /usr/lib/libkdeinit5_cvsservice.so
-* cervisia /usr/lib/qt5/plugins/cervisiapart5.so
-* cervisia /usr/share/applications/org.kde.cervisia.desktop
-* cervisia /usr/share/config.kcfg/cervisiapart.kcfg
-* cervisia /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsjob.xml
-* cervisia /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
-* cervisia /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
-* cervisia /usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
-* cervisia /usr/share/doc/cervisia-24.08.0/AUTHORS
-* cervisia /usr/share/doc/cervisia-24.08.0/ChangeLog
-* cervisia /usr/share/doc/cervisia-24.08.0/COPYING
-* cervisia /usr/share/doc/cervisia-24.08.0/COPYING.DOC
-* cervisia /usr/share/doc/cervisia-24.08.0/COPYING.LIB
-* cervisia /usr/share/doc/cervisia-24.08.0/HACKING
-* cervisia /usr/share/doc/cervisia-24.08.0/INSTALL
-* cervisia /usr/share/doc/cervisia-24.08.0/NEWS
-* cervisia /usr/share/doc/cervisia-24.08.0/README
-* cervisia /usr/share/doc/cervisia-24.08.0/TODO
-* cervisia /usr/share/doc/HTML/ca/cervisia/checkout.png
-* cervisia /usr/share/doc/HTML/ca/cervisia/import.png
-* cervisia /usr/share/doc/HTML/ca/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/ca/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/ca/cervisia/popup.png
-* cervisia /usr/share/doc/HTML/ca/cervisia/repositories.png
-* cervisia /usr/share/doc/HTML/de/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/de/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/en/cervisia/annotate.png
-* cervisia /usr/share/doc/HTML/en/cervisia/checkout.png
-* cervisia /usr/share/doc/HTML/en/cervisia/commit.png
-* cervisia /usr/share/doc/HTML/en/cervisia/diff.png
-* cervisia /usr/share/doc/HTML/en/cervisia/history.png
-* cervisia /usr/share/doc/HTML/en/cervisia/import.png
-* cervisia /usr/share/doc/HTML/en/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/en/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/en/cervisia/logtree.png
-* cervisia /usr/share/doc/HTML/en/cervisia/mainview.png
-* cervisia /usr/share/doc/HTML/en/cervisia/patch.png
-* cervisia /usr/share/doc/HTML/en/cervisia/popup.png
-* cervisia /usr/share/doc/HTML/en/cervisia/repositories.png
-* cervisia /usr/share/doc/HTML/en/cervisia/resolve.png
-* cervisia /usr/share/doc/HTML/en/cervisia/updatetag.png
-* cervisia /usr/share/doc/HTML/es/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/es/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/et/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/et/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/fr/cervisia/annotate.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/checkout.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/commit.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/diff.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/history.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/import.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/fr/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/fr/cervisia/logtree.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/mainview.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/patch.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/popup.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/repositories.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/resolve.png
-* cervisia /usr/share/doc/HTML/fr/cervisia/updatetag.png
-* cervisia /usr/share/doc/HTML/gl/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/gl/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/it/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/it/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/nl/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/nl/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/pt/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/pt/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/pt_BR/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/pt_BR/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/ru/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/ru/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/sv/cervisia/annotate.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/checkout.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/commit.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/diff.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/history.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/import.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/sv/cervisia/index.docbook
-* cervisia /usr/share/doc/HTML/sv/cervisia/logtree.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/mainview.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/patch.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/popup.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/repositories.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/resolve.png
-* cervisia /usr/share/doc/HTML/sv/cervisia/updatetag.png
-* cervisia /usr/share/doc/HTML/uk/cervisia/index.cache.bz2
-* cervisia /usr/share/doc/HTML/uk/cervisia/index.docbook
-* cervisia /usr/share/icons/hicolor/16x16/actions/vcs-add-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/16x16/actions/vcs-commit-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/16x16/actions/vcs-diff-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/16x16/actions/vcs-remove-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/16x16/actions/vcs-status-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/16x16/actions/vcs-update-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/16x16/apps/cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/actions/vcs-add-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/actions/vcs-commit-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/actions/vcs-diff-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/actions/vcs-remove-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/actions/vcs-status-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/actions/vcs-update-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/22x22/apps/cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/actions/vcs-add-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/actions/vcs-commit-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/actions/vcs-diff-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/actions/vcs-remove-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/actions/vcs-status-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/actions/vcs-update-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/32x32/apps/cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/actions/vcs-add-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/actions/vcs-commit-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/actions/vcs-diff-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/actions/vcs-remove-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/actions/vcs-status-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/actions/vcs-update-cvs-cervisia.png
-* cervisia /usr/share/icons/hicolor/48x48/apps/cervisia.png
-* cervisia /usr/share/icons/hicolor/scalable/actions/vcs-add-cvs-cervisia.svgz
-* cervisia /usr/share/icons/hicolor/scalable/actions/vcs-commit-cvs-cervisia.svgz
-* cervisia /usr/share/icons/hicolor/scalable/actions/vcs-diff-cvs-cervisia.svgz
-* cervisia /usr/share/icons/hicolor/scalable/actions/vcs-remove-cvs-cervisia.svgz
-* cervisia /usr/share/icons/hicolor/scalable/actions/vcs-status-cvs-cervisia.svgz
-* cervisia /usr/share/icons/hicolor/scalable/actions/vcs-update-cvs-cervisia.svgz
-* cervisia /usr/share/icons/hicolor/scalable/apps/cervisia.svg
-* cervisia /usr/share/knotifications5/cervisia.notifyrc
-* cervisia /usr/share/kservices5/org.kde.cervisiapart5.desktop
-* cervisia /usr/share/kservices5/org.kde.cvsservice5.desktop
-* cervisia /usr/share/kxmlgui5/cervisia/cervisiashellui.rc
-* cervisia /usr/share/kxmlgui5/cervisiapart/cervisiaui.rc
-* cervisia /usr/share/locale/af/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ar/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ar/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/be/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/be/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/bg/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/bg/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/br/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/br/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/bs/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/bs/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ca/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ca/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ca@valencia/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ca@valencia/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/cs/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/cs/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/cy/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/cy/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/da/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/da/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/de/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/de/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/el/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/el/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/en_GB/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/en_GB/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/eo/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/eo/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/es/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/es/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/et/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/et/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/eu/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/eu/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/fa/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/fa/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/fi/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/fi/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/fr/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/fr/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ga/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ga/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/gl/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/gl/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/he/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/hi/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/hi/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/hne/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/hne/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/hr/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/hr/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/hu/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/hu/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/is/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/it/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/it/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ja/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ja/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ka/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ka/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/kk/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/kk/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/km/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/km/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ko/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ko/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/lt/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/lt/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/lv/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/lv/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/mai/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/mk/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/mr/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/mr/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ms/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ms/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/nb/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/nb/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/nds/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/nds/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ne/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ne/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/nl/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/nl/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/nn/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/nn/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/oc/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/oc/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/pa/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/pa/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/pl/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/pl/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/pt/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/pt/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/pt_BR/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/pt_BR/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ro/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ro/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ru/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ru/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/se/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/se/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/sk/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/sk/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/sl/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/sl/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/sq/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/sq/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/sv/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/sv/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ta/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ta/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/tg/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/tg/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/tr/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/tr/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/ug/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/ug/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/uk/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/uk/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/xh/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/zh_CN/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/zh_CN/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/locale/zh_TW/LC_MESSAGES/cervisia.mo
-* cervisia /usr/share/locale/zh_TW/LC_MESSAGES/cvsservice.mo
-* cervisia /usr/share/man/ca/man1/cervisia.1.gz
-* cervisia /usr/share/man/de/man1/cervisia.1.gz
-* cervisia /usr/share/man/es/man1/cervisia.1.gz
-* cervisia /usr/share/man/it/man1/cervisia.1.gz
-* cervisia /usr/share/man/man1/cervisia.1.gz
-* cervisia /usr/share/man/nl/man1/cervisia.1.gz
-* cervisia /usr/share/man/pt/man1/cervisia.1.gz
-* cervisia /usr/share/man/pt_BR/man1/cervisia.1.gz
-* cervisia /usr/share/man/sv/man1/cervisia.1.gz
-* cervisia /usr/share/man/uk/man1/cervisia.1.gz
-* cervisia /usr/share/metainfo/org.kde.cervisia.appdata.xml
+* /usr/bin/cervisia
+* /usr/bin/cvsaskpass
+* /usr/bin/cvsservice5
+* /usr/lib/libkdeinit5_cervisia.so
+* /usr/lib/libkdeinit5_cvsaskpass.so
+* /usr/lib/libkdeinit5_cvsservice.so
+* /usr/lib/qt5/plugins/cervisiapart5.so
+* /usr/share/applications/org.kde.cervisia.desktop
+* /usr/share/config.kcfg/cervisiapart.kcfg
+* /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsjob.xml
+* /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
+* /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
+* /usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
+* /usr/share/doc/cervisia-24.08.0/AUTHORS
+* /usr/share/doc/cervisia-24.08.0/ChangeLog
+* /usr/share/doc/cervisia-24.08.0/COPYING
+* /usr/share/doc/cervisia-24.08.0/COPYING.DOC
+* /usr/share/doc/cervisia-24.08.0/COPYING.LIB
+* /usr/share/doc/cervisia-24.08.0/HACKING
+* /usr/share/doc/cervisia-24.08.0/INSTALL
+* /usr/share/doc/cervisia-24.08.0/NEWS
+* /usr/share/doc/cervisia-24.08.0/README
+* /usr/share/doc/cervisia-24.08.0/TODO
+* /usr/share/doc/HTML/ca/cervisia/checkout.png
+* /usr/share/doc/HTML/ca/cervisia/import.png
+* /usr/share/doc/HTML/ca/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/ca/cervisia/index.docbook
+* /usr/share/doc/HTML/ca/cervisia/popup.png
+* /usr/share/doc/HTML/ca/cervisia/repositories.png
+* /usr/share/doc/HTML/de/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/de/cervisia/index.docbook
+* /usr/share/doc/HTML/en/cervisia/annotate.png
+* /usr/share/doc/HTML/en/cervisia/checkout.png
+* /usr/share/doc/HTML/en/cervisia/commit.png
+* /usr/share/doc/HTML/en/cervisia/diff.png
+* /usr/share/doc/HTML/en/cervisia/history.png
+* /usr/share/doc/HTML/en/cervisia/import.png
+* /usr/share/doc/HTML/en/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/en/cervisia/index.docbook
+* /usr/share/doc/HTML/en/cervisia/logtree.png
+* /usr/share/doc/HTML/en/cervisia/mainview.png
+* /usr/share/doc/HTML/en/cervisia/patch.png
+* /usr/share/doc/HTML/en/cervisia/popup.png
+* /usr/share/doc/HTML/en/cervisia/repositories.png
+* /usr/share/doc/HTML/en/cervisia/resolve.png
+* /usr/share/doc/HTML/en/cervisia/updatetag.png
+* /usr/share/doc/HTML/es/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/es/cervisia/index.docbook
+* /usr/share/doc/HTML/et/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/et/cervisia/index.docbook
+* /usr/share/doc/HTML/fr/cervisia/annotate.png
+* /usr/share/doc/HTML/fr/cervisia/checkout.png
+* /usr/share/doc/HTML/fr/cervisia/commit.png
+* /usr/share/doc/HTML/fr/cervisia/diff.png
+* /usr/share/doc/HTML/fr/cervisia/history.png
+* /usr/share/doc/HTML/fr/cervisia/import.png
+* /usr/share/doc/HTML/fr/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/fr/cervisia/index.docbook
+* /usr/share/doc/HTML/fr/cervisia/logtree.png
+* /usr/share/doc/HTML/fr/cervisia/mainview.png
+* /usr/share/doc/HTML/fr/cervisia/patch.png
+* /usr/share/doc/HTML/fr/cervisia/popup.png
+* /usr/share/doc/HTML/fr/cervisia/repositories.png
+* /usr/share/doc/HTML/fr/cervisia/resolve.png
+* /usr/share/doc/HTML/fr/cervisia/updatetag.png
+* /usr/share/doc/HTML/gl/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/gl/cervisia/index.docbook
+* /usr/share/doc/HTML/it/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/it/cervisia/index.docbook
+* /usr/share/doc/HTML/nl/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/nl/cervisia/index.docbook
+* /usr/share/doc/HTML/pt/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/pt/cervisia/index.docbook
+* /usr/share/doc/HTML/pt_BR/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/cervisia/index.docbook
+* /usr/share/doc/HTML/ru/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/ru/cervisia/index.docbook
+* /usr/share/doc/HTML/sv/cervisia/annotate.png
+* /usr/share/doc/HTML/sv/cervisia/checkout.png
+* /usr/share/doc/HTML/sv/cervisia/commit.png
+* /usr/share/doc/HTML/sv/cervisia/diff.png
+* /usr/share/doc/HTML/sv/cervisia/history.png
+* /usr/share/doc/HTML/sv/cervisia/import.png
+* /usr/share/doc/HTML/sv/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/sv/cervisia/index.docbook
+* /usr/share/doc/HTML/sv/cervisia/logtree.png
+* /usr/share/doc/HTML/sv/cervisia/mainview.png
+* /usr/share/doc/HTML/sv/cervisia/patch.png
+* /usr/share/doc/HTML/sv/cervisia/popup.png
+* /usr/share/doc/HTML/sv/cervisia/repositories.png
+* /usr/share/doc/HTML/sv/cervisia/resolve.png
+* /usr/share/doc/HTML/sv/cervisia/updatetag.png
+* /usr/share/doc/HTML/uk/cervisia/index.cache.bz2
+* /usr/share/doc/HTML/uk/cervisia/index.docbook
+* /usr/share/icons/hicolor/16x16/actions/vcs-add-cvs-cervisia.png
+* /usr/share/icons/hicolor/16x16/actions/vcs-commit-cvs-cervisia.png
+* /usr/share/icons/hicolor/16x16/actions/vcs-diff-cvs-cervisia.png
+* /usr/share/icons/hicolor/16x16/actions/vcs-remove-cvs-cervisia.png
+* /usr/share/icons/hicolor/16x16/actions/vcs-status-cvs-cervisia.png
+* /usr/share/icons/hicolor/16x16/actions/vcs-update-cvs-cervisia.png
+* /usr/share/icons/hicolor/16x16/apps/cervisia.png
+* /usr/share/icons/hicolor/22x22/actions/vcs-add-cvs-cervisia.png
+* /usr/share/icons/hicolor/22x22/actions/vcs-commit-cvs-cervisia.png
+* /usr/share/icons/hicolor/22x22/actions/vcs-diff-cvs-cervisia.png
+* /usr/share/icons/hicolor/22x22/actions/vcs-remove-cvs-cervisia.png
+* /usr/share/icons/hicolor/22x22/actions/vcs-status-cvs-cervisia.png
+* /usr/share/icons/hicolor/22x22/actions/vcs-update-cvs-cervisia.png
+* /usr/share/icons/hicolor/22x22/apps/cervisia.png
+* /usr/share/icons/hicolor/32x32/actions/vcs-add-cvs-cervisia.png
+* /usr/share/icons/hicolor/32x32/actions/vcs-commit-cvs-cervisia.png
+* /usr/share/icons/hicolor/32x32/actions/vcs-diff-cvs-cervisia.png
+* /usr/share/icons/hicolor/32x32/actions/vcs-remove-cvs-cervisia.png
+* /usr/share/icons/hicolor/32x32/actions/vcs-status-cvs-cervisia.png
+* /usr/share/icons/hicolor/32x32/actions/vcs-update-cvs-cervisia.png
+* /usr/share/icons/hicolor/32x32/apps/cervisia.png
+* /usr/share/icons/hicolor/48x48/actions/vcs-add-cvs-cervisia.png
+* /usr/share/icons/hicolor/48x48/actions/vcs-commit-cvs-cervisia.png
+* /usr/share/icons/hicolor/48x48/actions/vcs-diff-cvs-cervisia.png
+* /usr/share/icons/hicolor/48x48/actions/vcs-remove-cvs-cervisia.png
+* /usr/share/icons/hicolor/48x48/actions/vcs-status-cvs-cervisia.png
+* /usr/share/icons/hicolor/48x48/actions/vcs-update-cvs-cervisia.png
+* /usr/share/icons/hicolor/48x48/apps/cervisia.png
+* /usr/share/icons/hicolor/scalable/actions/vcs-add-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/actions/vcs-commit-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/actions/vcs-diff-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/actions/vcs-remove-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/actions/vcs-status-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/actions/vcs-update-cvs-cervisia.svgz
+* /usr/share/icons/hicolor/scalable/apps/cervisia.svg
+* /usr/share/knotifications5/cervisia.notifyrc
+* /usr/share/kservices5/org.kde.cervisiapart5.desktop
+* /usr/share/kservices5/org.kde.cvsservice5.desktop
+* /usr/share/kxmlgui5/cervisia/cervisiashellui.rc
+* /usr/share/kxmlgui5/cervisiapart/cervisiaui.rc
+* /usr/share/locale/af/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ar/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ar/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/be/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/be/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/bg/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/bg/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/br/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/br/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/bs/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/bs/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ca/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ca/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/cs/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/cs/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/cy/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/cy/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/da/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/da/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/de/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/de/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/el/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/el/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/eo/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/eo/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/es/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/es/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/et/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/et/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/eu/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/eu/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/fa/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/fa/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/fi/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/fi/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/fr/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/fr/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ga/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ga/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/gl/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/gl/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/he/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/hi/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/hi/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/hne/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/hne/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/hr/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/hr/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/hu/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/hu/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/is/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/it/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/it/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ja/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ja/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ka/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ka/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/kk/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/kk/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/km/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/km/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ko/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ko/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/lt/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/lt/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/lv/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/lv/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/mai/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/mk/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/mr/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/mr/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ms/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ms/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/nb/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/nb/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/nds/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/nds/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ne/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ne/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/nl/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/nl/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/nn/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/nn/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/oc/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/oc/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/pa/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/pa/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/pl/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/pl/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/pt/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/pt/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ro/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ro/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ru/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ru/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/se/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/se/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/sk/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/sk/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/sl/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/sl/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/sq/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/sq/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/sv/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/sv/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ta/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ta/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/tg/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/tg/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/tr/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/tr/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/ug/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/ug/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/uk/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/uk/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/xh/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/cvsservice.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/cervisia.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/cvsservice.mo
+* /usr/share/man/ca/man1/cervisia.1.gz
+* /usr/share/man/de/man1/cervisia.1.gz
+* /usr/share/man/es/man1/cervisia.1.gz
+* /usr/share/man/it/man1/cervisia.1.gz
+* /usr/share/man/man1/cervisia.1.gz
+* /usr/share/man/nl/man1/cervisia.1.gz
+* /usr/share/man/pt/man1/cervisia.1.gz
+* /usr/share/man/pt_BR/man1/cervisia.1.gz
+* /usr/share/man/sv/man1/cervisia.1.gz
+* /usr/share/man/uk/man1/cervisia.1.gz
+* /usr/share/metainfo/org.kde.cervisia.appdata.xml

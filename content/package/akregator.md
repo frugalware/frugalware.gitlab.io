@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akregator 24.05.2-1"
-version = "24.05.2-1"
+title = "akregator 24.08.0-1"
+version = "24.08.0-1"
 description = "Feed Reader"
-date = "2024-07-05T11:04:41"
+date = "2024-08-22T15:37:27"
 aliases = "/packages/218925"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2357996"
-usize = "6401949"
-sha1sum = "cc43c7d9d0d14c82cdf741ae5eeac9c9e4683ec2"
-depends = "['knotifyconfig>=6.3.0', 'kontactinterface>=24.05.2', 'kstatusnotifieritem>=6.3.0', 'ktexteditor>=6.3.0', 'messagelib>=24.05.2', 'syndication>=6.3.0']"
+size = "2343764"
+usize = "6305846"
+sha1sum = "5cf61c8f6b20655c48ec663b966da78560bb116e"
+depends = "['knotifyconfig>=6.5.0', 'kontactinterface>=24.08.0', 'kstatusnotifieritem>=6.5.0', 'ktexteditor>=6.5.0', 'messagelib>=24.08.0', 'syndication>=6.5.0']"
 +++
 ### Description: 
 Feed Reader
@@ -20,9 +20,9 @@ Feed Reader
 * /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
 * /usr/lib/libakregatorinterfaces.so.6
-* /usr/lib/libakregatorinterfaces.so.6.1.2
+* /usr/lib/libakregatorinterfaces.so.6.2.0
 * /usr/lib/libakregatorprivate.so.6
-* /usr/lib/libakregatorprivate.so.6.1.2
+* /usr/lib/libakregatorprivate.so.6.2.0
 * /usr/lib/qt6/plugins/akregatorpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_advanced.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_appearance.so
@@ -32,15 +32,11 @@ Feed Reader
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_plugins.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_security.so
 * /usr/lib/qt6/plugins/pim6/kontact/kontact_akregatorplugin.so
-* /usr/share/akregator/grantleetheme/5.2/combinedview.html
-* /usr/share/akregator/grantleetheme/5.2/defaultnormalvisitfeed.html
-* /usr/share/akregator/grantleetheme/5.2/defaultnormalvisitfolder.html
-* /usr/share/akregator/grantleetheme/5.2/normalview.html
 * /usr/share/applications/org.kde.akregator.desktop
 * /usr/share/config.kcfg/akregator.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
-* /usr/share/doc/akregator-24.05.2/AUTHORS
-* /usr/share/doc/akregator-24.05.2/README
+* /usr/share/doc/akregator-24.08.0/AUTHORS
+* /usr/share/doc/akregator-24.08.0/README
 * /usr/share/doc/HTML/ca/akregator/add-feed.png
 * /usr/share/doc/HTML/ca/akregator/add-feed2.png
 * /usr/share/doc/HTML/ca/akregator/add-folder.png

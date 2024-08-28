@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./sweethome3d 7.5-1"
+title = "sweethome3d 7.5-1"
 version = "7.5-1"
 description = "An interior design application"
 date = "2024-08-23T18:40:42"
-aliases = "/packages/222414"
+aliases = "/packages/60359"
 categories = ['xapps-extra']
 upstreamurl = "http://www.sweethome3d.eu/"
 arch = "x86_64"
@@ -17,8 +17,8 @@ depends = "['openjre']"
 An interior design application
 
 ### Files: 
-* sweethome3d /usr/bin/sweethome3d
-* sweethome3d /usr/share/applications/sweethome3d.desktop
-* sweethome3d /usr/share/pixmaps/sweethome3d.png
-* sweethome3d /usr/share/sweethome3d/SweetHome3D-7.5.jar
-* sweethome3d /usr/share/sweethome3d/sweethome3d.png
+* /usr/bin/sweethome3d
+* /usr/share/applications/sweethome3d.desktop
+* /usr/share/pixmaps/sweethome3d.png
+* /usr/share/sweethome3d/SweetHome3D-7.5.jar
+* /usr/share/sweethome3d/sweethome3d.png

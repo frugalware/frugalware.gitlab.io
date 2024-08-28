@@ -12,7 +12,7 @@ size = "633532"
 usize = "3264873"
 sha1sum = "4b683e44cf81fb5115c696f905be4039211adaf2"
 depends = "['ncurses>=6.5', 'vulkan-icd-loader']"
-reverse_depends = "['./wine-devel', 'wine', 'wine-devel']"
+reverse_depends = "['wine', 'wine-devel']"
 +++
 ### Description: 
 Direct3D 12 to Vulkan translation library

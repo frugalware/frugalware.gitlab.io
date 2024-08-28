@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpmcore 24.05.2-1"
-version = "24.05.2-1"
+title = "kpmcore 24.08.0-1"
+version = "24.08.0-1"
 description = "Library for managing partitions"
-date = "2024-07-05T11:36:54"
+date = "2024-08-22T16:58:28"
 aliases = "/packages/218345"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "667120"
-usize = "4244482"
-sha1sum = "acb43403805bef20872295bd64cdea0d89b2a0dc"
-depends = "['kauth>=6.3.0', 'ki18n>=>=6.3.0', 'kwidgetsaddons>=6.3.0', 'qca', 'qca-ossl', 'qt6-svg>=6.7.1', 'util-linux']"
+size = "673000"
+usize = "4320482"
+sha1sum = "186282517fb42a294d7fc6a402234d9c868a3428"
+depends = "['kauth>=6.5.0', 'ki18n>=>=6.5.0', 'kwidgetsaddons>=6.5.0', 'qca', 'qca-ossl', 'qt6-svg>=6.7.1', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
 ### Description: 
@@ -106,13 +106,13 @@ Library for managing partitions
 * /usr/lib/kpmcore/kpmcore_externalcommand
 * /usr/lib/libkpmcore.so
 * /usr/lib/libkpmcore.so.12
-* /usr/lib/libkpmcore.so.24.05.2
+* /usr/lib/libkpmcore.so.24.08.0
 * /usr/lib/qt6/plugins/kpmcore/pmdummybackendplugin.so
 * /usr/lib/qt6/plugins/kpmcore/pmsfdiskbackendplugin.so
 * /usr/share/dbus-1/system-services/org.kde.kpmcore.helperinterface.service
 * /usr/share/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
-* /usr/share/doc/kpmcore-24.05.2/INSTALL.md
-* /usr/share/doc/kpmcore-24.05.2/README.md
+* /usr/share/doc/kpmcore-24.08.0/INSTALL.md
+* /usr/share/doc/kpmcore-24.08.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpmcore._policy_.mo
@@ -148,6 +148,8 @@ Library for managing partitions
 * /usr/share/locale/ga/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/gl/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/gl/LC_MESSAGES/kpmcore._policy_.mo
+* /usr/share/locale/he/LC_MESSAGES/kpmcore.mo
+* /usr/share/locale/he/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/hr/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpmcore._policy_.mo

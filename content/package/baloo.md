@@ -12,7 +12,7 @@ size = "474236"
 usize = "2353182"
 sha1sum = "843d9fe6481eecd0467fcb718746138ba816840c"
 depends = "['kfilemetadata>=6.5.0', 'kidletime>=6.5.0', 'kio>=6.5.0', 'lmdb>=0.9.18-3']"
-reverse_depends = "['./gwenview', 'arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
+reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
 +++
 ### Description: 
 A framework for searching and managing metadata.

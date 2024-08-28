@@ -12,7 +12,7 @@ size = "195600"
 usize = "1031256"
 sha1sum = "ce63836deae0e0d93b42b604c608995d85c260e5"
 depends = "['python3>=3.11']"
-reverse_depends = "['./python3-cryptography', 'python3-cryptography']"
+reverse_depends = "['python3-cryptography']"
 +++
 ### Description: 
 Python ASN.1 library with a focus on performance and a pythonic API.

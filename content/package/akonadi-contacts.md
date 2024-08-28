@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./akonadi-contacts 24.08.0-1"
+title = "akonadi-contacts 24.08.0-1"
 version = "24.08.0-1"
 description = "Libraries and daemons to implement Contact Management in Akonadi."
 date = "2024-08-22T15:16:30"
-aliases = "/packages/222292"
+aliases = "/packages/218737"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,221 +12,222 @@ size = "522644"
 usize = "2646966"
 sha1sum = "736c298eecb3c379ff7e6b949cb4f66a6143bc88"
 depends = "['akonadi>=24.08.0', 'akonadi-mime>=24.08.0', 'grantleetheme>=24.08.0', 'kcalendarcore>=6.5.0', 'kcodecs>=6.5.0', 'kcompletion>=6.5.0', 'kcontacts>=6.5.0', 'kio>=6.5.0', 'kmime>=24.08.0', 'libkleo>=24.08.0', 'prison>=6.5.0', 'qt6-webengine>=6.7.1']"
+reverse_depends = "['akonadi-search', 'digikam', 'kgpg', 'kmailtransport', 'libkdepim']"
 +++
 ### Description: 
 Libraries and daemons to implement Contact Management in Akonadi.
 
 ### Files: 
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi-contact_core_version.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/AbstractContactFormatter
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/abstractcontactformatter.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/AbstractContactGroupFormatter
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/abstractcontactgroupformatter.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/akonadi-contact-core_export.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactGrantleeWrapper
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactgrantleewrapper.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactGroupExpandJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactgroupexpandjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactGroupSearchJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactgroupsearchjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactParts
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactparts.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactSearchJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactsearchjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactsFilterProxyModel
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactsfilterproxymodel.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactsTreeModel
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/contactstreemodel.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/EmailAddressSelection
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/emailaddressselection.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/EmailAddressSelectionModel
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/emailaddressselectionmodel.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/GrantleeContactFormatter
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/grantleecontactformatter.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/GrantleeContactGroupFormatter
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/grantleecontactgroupformatter.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/GrantleePrint
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/grantleeprint.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/StandardContactFormatter
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/standardcontactformatter.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/Akonadi/StandardContactGroupFormatter
-* akonadi-contacts /usr/include/KPim6/AkonadiContactCore/akonadi/standardcontactgroupformatter.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi-contacts-widgets_version.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AbstractEmailAddressSelectionDialog
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/abstractemailaddressselectiondialog.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AddContactJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/addcontactjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AddEmailAddressJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/addemailaddressjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AddEmailDisplayJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/addemaildisplayjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/akonadi-contact-widgets_export.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactEditor
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contacteditor.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactEditorDialog
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contacteditordialog.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactEditorPagePlugin
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contacteditorpageplugin.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactGroupEditor
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactgroupeditor.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactGroupEditorDialog
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactgroupeditordialog.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactGroupViewer
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactgroupviewer.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactViewer
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactviewer.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactViewerDialog
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactviewerdialog.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/EmailAddressRequester
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/emailaddressrequester.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/EmailAddressSelectionDialog
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/emailaddressselectiondialog.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/EmailAddressSelectionWidget
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/emailaddressselectionwidget.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/GrantleeContactViewer
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/grantleecontactviewer.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/OpenEmailAddressJob
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/openemailaddressjob.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/RecipientsEditorManager
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/recipientseditormanager.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/RecipientsPickerWidget
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/recipientspickerwidget.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/SelectAddressBookDialog
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/selectaddressbookdialog.h
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/Akonadi/StandardContactActionManager
-* akonadi-contacts /usr/include/KPim6/AkonadiContactWidgets/akonadi/standardcontactactionmanager.h
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreConfig.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreConfigVersion.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreTargets-release.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreTargets.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsConfig.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsConfigVersion.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsTargets-release.cmake
-* akonadi-contacts /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsTargets.cmake
-* akonadi-contacts /usr/lib/libKPim6AkonadiContactCore.so
-* akonadi-contacts /usr/lib/libKPim6AkonadiContactCore.so.6
-* akonadi-contacts /usr/lib/libKPim6AkonadiContactCore.so.6.2.0
-* akonadi-contacts /usr/lib/libKPim6AkonadiContactWidgets.so
-* akonadi-contacts /usr/lib/libKPim6AkonadiContactWidgets.so.6
-* akonadi-contacts /usr/lib/libKPim6AkonadiContactWidgets.so.6.2.0
-* akonadi-contacts /usr/lib/qt6/plugins/akonadi_serializer_addressee.so
-* akonadi-contacts /usr/lib/qt6/plugins/akonadi_serializer_contactgroup.so
-* akonadi-contacts /usr/share/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
-* akonadi-contacts /usr/share/akonadi/plugins/serializer/akonadi_serializer_contactgroup.desktop
-* akonadi-contacts /usr/share/doc/akonadi-contacts-24.08.0/README.md
-* akonadi-contacts /usr/share/doc/akonadi-contacts-24.08.0/README.md.license
-* akonadi-contacts /usr/share/kf6/akonadi/contact/data/zone.tab
-* akonadi-contacts /usr/share/kf6/akonadi/contact/pics/world.jpg
-* akonadi-contacts /usr/share/locale/ar/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ar/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ast/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ast/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/az/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/az/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/bg/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/bg/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/bs/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/bs/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ca/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ca/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ca@valencia/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ca@valencia/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/cs/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/cs/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/da/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/da/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/de/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/de/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/el/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/el/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/en_GB/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/en_GB/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/eo/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/eo/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/es/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/es/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/et/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/et/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/eu/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/eu/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/fi/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/fi/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/fr/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/fr/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ga/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ga/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/gl/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/gl/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/he/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/he/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/hr/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/hu/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/hu/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ia/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ia/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/it/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/it/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ja/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ja/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ka/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ka/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/kk/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/kk/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/km/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/km/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ko/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ko/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/lt/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/lt/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/lv/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/lv/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/mai/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/mr/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/mr/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/nb/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/nb/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/nds/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/nds/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/nl/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/nl/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/nn/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/pa/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/pa/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/pl/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/pl/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/pt/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/pt/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/pt_BR/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/pt_BR/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ro/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ro/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ru/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ru/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sk/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sk/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sl/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sl/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sr/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sr/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sr@latin/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sr@latin/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/sv/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/sv/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ta/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ta/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/tr/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/tr/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/ug/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/ug/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/uk/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/uk/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/zh_CN/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/zh_CN/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/locale/zh_TW/LC_MESSAGES/akonadicontact6-serializer.mo
-* akonadi-contacts /usr/share/locale/zh_TW/LC_MESSAGES/akonadicontact6.mo
-* akonadi-contacts /usr/share/qlogging-categories6/akonadi-contacts.categories
-* akonadi-contacts /usr/share/qlogging-categories6/akonadi-contacts.renamecategories
+* /usr/include/KPim6/AkonadiContactCore/akonadi-contact_core_version.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/AbstractContactFormatter
+* /usr/include/KPim6/AkonadiContactCore/akonadi/abstractcontactformatter.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/AbstractContactGroupFormatter
+* /usr/include/KPim6/AkonadiContactCore/akonadi/abstractcontactgroupformatter.h
+* /usr/include/KPim6/AkonadiContactCore/akonadi/akonadi-contact-core_export.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactGrantleeWrapper
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactgrantleewrapper.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactGroupExpandJob
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactgroupexpandjob.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactGroupSearchJob
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactgroupsearchjob.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactParts
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactparts.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactSearchJob
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactsearchjob.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactsFilterProxyModel
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactsfilterproxymodel.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/ContactsTreeModel
+* /usr/include/KPim6/AkonadiContactCore/akonadi/contactstreemodel.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/EmailAddressSelection
+* /usr/include/KPim6/AkonadiContactCore/akonadi/emailaddressselection.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/EmailAddressSelectionModel
+* /usr/include/KPim6/AkonadiContactCore/akonadi/emailaddressselectionmodel.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/GrantleeContactFormatter
+* /usr/include/KPim6/AkonadiContactCore/akonadi/grantleecontactformatter.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/GrantleeContactGroupFormatter
+* /usr/include/KPim6/AkonadiContactCore/akonadi/grantleecontactgroupformatter.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/GrantleePrint
+* /usr/include/KPim6/AkonadiContactCore/akonadi/grantleeprint.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/StandardContactFormatter
+* /usr/include/KPim6/AkonadiContactCore/akonadi/standardcontactformatter.h
+* /usr/include/KPim6/AkonadiContactCore/Akonadi/StandardContactGroupFormatter
+* /usr/include/KPim6/AkonadiContactCore/akonadi/standardcontactgroupformatter.h
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi-contacts-widgets_version.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AbstractEmailAddressSelectionDialog
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/abstractemailaddressselectiondialog.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AddContactJob
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/addcontactjob.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AddEmailAddressJob
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/addemailaddressjob.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/AddEmailDisplayJob
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/addemaildisplayjob.h
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/akonadi-contact-widgets_export.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactEditor
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contacteditor.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactEditorDialog
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contacteditordialog.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactEditorPagePlugin
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contacteditorpageplugin.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactGroupEditor
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactgroupeditor.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactGroupEditorDialog
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactgroupeditordialog.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactGroupViewer
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactgroupviewer.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactViewer
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactviewer.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/ContactViewerDialog
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/contactviewerdialog.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/EmailAddressRequester
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/emailaddressrequester.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/EmailAddressSelectionDialog
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/emailaddressselectiondialog.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/EmailAddressSelectionWidget
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/emailaddressselectionwidget.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/GrantleeContactViewer
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/grantleecontactviewer.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/OpenEmailAddressJob
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/openemailaddressjob.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/RecipientsEditorManager
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/recipientseditormanager.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/RecipientsPickerWidget
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/recipientspickerwidget.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/SelectAddressBookDialog
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/selectaddressbookdialog.h
+* /usr/include/KPim6/AkonadiContactWidgets/Akonadi/StandardContactActionManager
+* /usr/include/KPim6/AkonadiContactWidgets/akonadi/standardcontactactionmanager.h
+* /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreConfig.cmake
+* /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreConfigVersion.cmake
+* /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreTargets-release.cmake
+* /usr/lib/cmake/KPim6AkonadiContactCore/KPim6AkonadiContactCoreTargets.cmake
+* /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsConfig.cmake
+* /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsConfigVersion.cmake
+* /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsTargets-release.cmake
+* /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsTargets.cmake
+* /usr/lib/libKPim6AkonadiContactCore.so
+* /usr/lib/libKPim6AkonadiContactCore.so.6
+* /usr/lib/libKPim6AkonadiContactCore.so.6.2.0
+* /usr/lib/libKPim6AkonadiContactWidgets.so
+* /usr/lib/libKPim6AkonadiContactWidgets.so.6
+* /usr/lib/libKPim6AkonadiContactWidgets.so.6.2.0
+* /usr/lib/qt6/plugins/akonadi_serializer_addressee.so
+* /usr/lib/qt6/plugins/akonadi_serializer_contactgroup.so
+* /usr/share/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
+* /usr/share/akonadi/plugins/serializer/akonadi_serializer_contactgroup.desktop
+* /usr/share/doc/akonadi-contacts-24.08.0/README.md
+* /usr/share/doc/akonadi-contacts-24.08.0/README.md.license
+* /usr/share/kf6/akonadi/contact/data/zone.tab
+* /usr/share/kf6/akonadi/contact/pics/world.jpg
+* /usr/share/locale/ar/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ar/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ast/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/az/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/az/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/bg/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/bg/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/bs/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/bs/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ca/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ca/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/cs/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/cs/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/da/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/da/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/de/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/de/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/el/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/el/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/eo/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/eo/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/es/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/es/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/et/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/et/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/eu/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/eu/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/fi/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/fi/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/fr/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/fr/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ga/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ga/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/gl/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/gl/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/hr/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/hu/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/hu/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ia/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ia/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/it/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/it/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ja/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ja/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ka/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ka/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/kk/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/kk/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/km/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/km/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ko/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ko/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/lt/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/lt/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/lv/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/mai/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/mr/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/mr/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/nb/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/nb/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/nds/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/nds/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/nl/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/nl/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/nn/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/pa/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/pa/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/pl/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/pl/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/pt/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/pt/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ro/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ro/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ru/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ru/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sk/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sk/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sl/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sl/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sr/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sr/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sv/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sv/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/tr/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/tr/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/ug/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/ug/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/uk/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/uk/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/qlogging-categories6/akonadi-contacts.categories
+* /usr/share/qlogging-categories6/akonadi-contacts.renamecategories

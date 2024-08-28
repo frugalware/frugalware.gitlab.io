@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./xclipboard 1.1.5-1"
+title = "xclipboard 1.1.5-1"
 version = "1.1.5-1"
 description = "X.Org xclipboard application"
 date = "2024-08-27T08:37:03"
-aliases = "/packages/222345"
+aliases = "/packages/4851"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
@@ -18,12 +18,12 @@ license = "GPL2"
 X.Org xclipboard application
 
 ### Files: 
-* xclipboard /usr/bin/xclipboard
-* xclipboard /usr/bin/xcutsel
-* xclipboard /usr/share/doc/xclipboard-1.1.5/ChangeLog
-* xclipboard /usr/share/doc/xclipboard-1.1.5/COPYING
-* xclipboard /usr/share/doc/xclipboard-1.1.5/INSTALL
-* xclipboard /usr/share/doc/xclipboard-1.1.5/README.md
-* xclipboard /usr/share/man/man1/xclipboard.1.gz
-* xclipboard /usr/share/man/man1/xcutsel.1.gz
-* xclipboard /usr/share/X11/app-defaults/XClipboard
+* /usr/bin/xclipboard
+* /usr/bin/xcutsel
+* /usr/share/doc/xclipboard-1.1.5/ChangeLog
+* /usr/share/doc/xclipboard-1.1.5/COPYING
+* /usr/share/doc/xclipboard-1.1.5/INSTALL
+* /usr/share/doc/xclipboard-1.1.5/README.md
+* /usr/share/man/man1/xclipboard.1.gz
+* /usr/share/man/man1/xcutsel.1.gz
+* /usr/share/X11/app-defaults/XClipboard

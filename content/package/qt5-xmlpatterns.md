@@ -12,7 +12,7 @@ size = "1098332"
 usize = "5856327"
 sha1sum = "bff52e7e0ab753f483004bf50371312c03755c88"
 depends = "['qt5-base>=5.15.14', 'qt5-quickcontrols>=${pkgver}', 'qt5-quickcontrols2>=${pkgver}-2']"
-reverse_depends = "['./artikulate', './kig', 'artikulate', 'kdav5', 'kig', 'otter-browser', 'qownnotes', 'rocs', 'shiboken2', 'skrooge', 'syntax-highlighting5']"
+reverse_depends = "['artikulate', 'kdav5', 'kig', 'otter-browser', 'qownnotes', 'rocs', 'shiboken2', 'skrooge', 'syntax-highlighting5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtxmlpatterns

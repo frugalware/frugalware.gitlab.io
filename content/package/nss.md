@@ -12,7 +12,7 @@ size = "1834860"
 usize = "6176065"
 sha1sum = "4384c6ce26b5335f12ffc10ff08d4f186139cce7"
 depends = "['glibc>=2.35', 'libstdc++>=11.3', 'nspr>=4.34', 'sqlite3>=3.14.2-2', 'zlib>=1.2.12']"
-reverse_depends = "['./thunderbird', 'apr-util', 'cef', 'chromium-browser', 'discord', 'firefox', 'libblockdev', 'libfprint', 'liboauth', 'libpurple', 'libreswan', 'networkmanager', 'nvu', 'openjre', 'pesign', 'poppler', 'qca', 'qca-nss', 'qca-qt5', 'qemu', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'slack-desktop', 'teams', 'thunderbird', 'volume_key', 'whalebird', 'xmlsec1']"
+reverse_depends = "['apr-util', 'cef', 'chromium-browser', 'discord', 'firefox', 'libblockdev', 'libfprint', 'liboauth', 'libpurple', 'libreswan', 'networkmanager', 'nvu', 'openjre', 'pesign', 'poppler', 'qca', 'qca-nss', 'qca-qt5', 'qemu', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'slack-desktop', 'teams', 'thunderbird', 'volume_key', 'whalebird', 'xmlsec1']"
 license = "GPL"
 +++
 ### Description: 

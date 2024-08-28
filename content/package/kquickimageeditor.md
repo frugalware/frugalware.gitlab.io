@@ -12,7 +12,7 @@ size = "76004"
 usize = "354542"
 sha1sum = "f5292e1f4fa7cc1f5de05648d366ca74b17933b5"
 depends = "['qt6-declarative']"
-reverse_depends = "['./neochat', 'koko', 'neochat', 'skanpage']"
+reverse_depends = "['koko', 'neochat', 'skanpage']"
 +++
 ### Description: 
 QML image editing components

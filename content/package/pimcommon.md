@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./pimcommon 24.08.0-1"
+title = "pimcommon 24.08.0-1"
 version = "24.08.0-1"
 description = "KdePim common files"
 date = "2024-08-22T15:20:19"
-aliases = "/packages/222363"
+aliases = "/packages/218468"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,180 +12,181 @@ size = "429696"
 usize = "1974944"
 sha1sum = "a2dc7d7c897a19a5a9bd6042d4b994745dd6e830"
 depends = "['kimap>=24.08.0', 'knewstuff>=6.5.0', 'kpimtextedit>=24.08.0', 'ktextaddons>=1.3.1', 'libkdepim>=24.08.0', 'purpose>=6.5.0']"
+reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'knotes', 'libgravatar', 'libksieve', 'mailimporter']"
 +++
 ### Description: 
 KdePim common files
 
 ### Files: 
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/AbstractGenericPlugin
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/abstractgenericplugin.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/AbstractGenericPluginInterface
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/abstractgenericplugininterface.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/BroadcastStatus
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/broadcaststatus.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/ConfigureImmutableWidgetUtils
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/configureimmutablewidgetutils.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/ConfigurePluginDialog
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/configureplugindialog.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/ConfigurePluginsListWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/configurepluginslistwidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/ConfigurePluginsWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/configurepluginswidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/CustomLogWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/customlogwidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/CustomToolsPlugin
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/customtoolsplugin.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/CustomToolsPluginManager
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/customtoolspluginmanager.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/CustomToolsViewInterface
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/customtoolsviewinterface.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/CustomToolsWidgetng
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/customtoolswidgetng.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/CustomTreeView
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/customtreeview.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/GenericPlugin
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/genericplugin.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/GenericPluginManager
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/genericpluginmanager.h
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/imapresourcesettings.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/KActionMenuChangeCase
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/kactionmenuchangecase.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/LineEditWithAutoCorrection
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/lineeditwithautocorrection.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/LineEditWithCompleterNg
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/lineeditwithcompleterng.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateVersionUtils
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/needupdateversionutils.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateVersionWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/needupdateversionwidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/NetworkManager
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/networkmanager.h
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/pimcommon_export.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/PimUtil
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/pimutil.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/PluginUtil
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/pluginutil.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/PurposeMenuMessageWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/purposemenumessagewidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/PurposeMenuWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/purposemenuwidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/RenameFileDialog
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/renamefiledialog.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/ShareServiceUrlManager
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/shareserviceurlmanager.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/SimpleStringListEditor
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/simplestringlisteditor.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/SpellCheckLineEdit
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/spellchecklineedit.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/TemplateListWidget
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/templatelistwidget.h
-* pimcommon /usr/include/KPim6/PimCommon/PimCommon/TemplateManager
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon/templatemanager.h
-* pimcommon /usr/include/KPim6/PimCommon/pimcommon_version.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/AddresseeLineEdit
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/addresseelineedit.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CheckedCollectionWidget
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/checkedcollectionwidget.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CollectionAclPage
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/collectionaclpage.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CollectionTypeUtil
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/collectiontypeutil.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CompletionConfigureDialog
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/completionconfiguredialog.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CompletionOrderEditor
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/completionordereditor.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ContentTypeWidget
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/contenttypewidget.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CreateResource
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/createresource.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/GenericPluginInterface
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/genericplugininterface.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ImapAclAttribute
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/imapaclattribute.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ImapResourceCapabilitiesManager
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/imapresourcecapabilitiesmanager.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/IncidencesForWidget
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/incidencesforwidget.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/LdapSearchDialog
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/ldapsearchdialog.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/MailUtil
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/mailutil.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ManageServerSideSubscriptionJob
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/manageserversidesubscriptionjob.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/pimcommonakonadi_export.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/PluginInterface
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/plugininterface.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ProgressManagerAkonadi
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/progressmanagerakonadi.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/RecentAddresses
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/recentaddresses.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/SelectMultiCollectionDialog
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/selectmulticollectiondialog.h
-* pimcommon /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi_version.h
-* pimcommon /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonConfig.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonConfigVersion.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonTargets-release.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonTargets.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiConfig.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiConfigVersion.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets-release.cmake
-* pimcommon /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets.cmake
-* pimcommon /usr/lib/libKPim6PimCommon.so
-* pimcommon /usr/lib/libKPim6PimCommon.so.6
-* pimcommon /usr/lib/libKPim6PimCommon.so.6.2.0
-* pimcommon /usr/lib/libKPim6PimCommonAkonadi.so
-* pimcommon /usr/lib/libKPim6PimCommonAkonadi.so.6
-* pimcommon /usr/lib/libKPim6PimCommonAkonadi.so.6.2.0
-* pimcommon /usr/lib/qt6/plugins/designer/pimcommon6akonadiwidgets.so
-* pimcommon /usr/lib/qt6/plugins/designer/pimcommon6widgets.so
-* pimcommon /usr/share/locale/ar/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ast/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/bs/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ca/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ca@valencia/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/cs/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/da/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/de/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/el/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/en_GB/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/eo/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/es/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/et/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/eu/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/fi/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/fr/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ga/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/gl/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/he/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/hu/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ia/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/it/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ja/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ka/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/kk/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ko/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/lt/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/mr/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/nb/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/nds/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/nl/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/pl/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/pt/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/pt_BR/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ro/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ru/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sk/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sl/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sr/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sr@ijekavian/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sr@latin/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/sv/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ta/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/tr/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/ug/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/uk/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/zh_CN/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/locale/zh_TW/LC_MESSAGES/libpimcommon6.mo
-* pimcommon /usr/share/qlogging-categories6/pimcommon.categories
-* pimcommon /usr/share/qlogging-categories6/pimcommon.renamecategories
+* /usr/include/KPim6/PimCommon/PimCommon/AbstractGenericPlugin
+* /usr/include/KPim6/PimCommon/pimcommon/abstractgenericplugin.h
+* /usr/include/KPim6/PimCommon/PimCommon/AbstractGenericPluginInterface
+* /usr/include/KPim6/PimCommon/pimcommon/abstractgenericplugininterface.h
+* /usr/include/KPim6/PimCommon/PimCommon/BroadcastStatus
+* /usr/include/KPim6/PimCommon/pimcommon/broadcaststatus.h
+* /usr/include/KPim6/PimCommon/PimCommon/ConfigureImmutableWidgetUtils
+* /usr/include/KPim6/PimCommon/pimcommon/configureimmutablewidgetutils.h
+* /usr/include/KPim6/PimCommon/PimCommon/ConfigurePluginDialog
+* /usr/include/KPim6/PimCommon/pimcommon/configureplugindialog.h
+* /usr/include/KPim6/PimCommon/PimCommon/ConfigurePluginsListWidget
+* /usr/include/KPim6/PimCommon/pimcommon/configurepluginslistwidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/ConfigurePluginsWidget
+* /usr/include/KPim6/PimCommon/pimcommon/configurepluginswidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/CustomLogWidget
+* /usr/include/KPim6/PimCommon/pimcommon/customlogwidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/CustomToolsPlugin
+* /usr/include/KPim6/PimCommon/pimcommon/customtoolsplugin.h
+* /usr/include/KPim6/PimCommon/PimCommon/CustomToolsPluginManager
+* /usr/include/KPim6/PimCommon/pimcommon/customtoolspluginmanager.h
+* /usr/include/KPim6/PimCommon/PimCommon/CustomToolsViewInterface
+* /usr/include/KPim6/PimCommon/pimcommon/customtoolsviewinterface.h
+* /usr/include/KPim6/PimCommon/PimCommon/CustomToolsWidgetng
+* /usr/include/KPim6/PimCommon/pimcommon/customtoolswidgetng.h
+* /usr/include/KPim6/PimCommon/PimCommon/CustomTreeView
+* /usr/include/KPim6/PimCommon/pimcommon/customtreeview.h
+* /usr/include/KPim6/PimCommon/PimCommon/GenericPlugin
+* /usr/include/KPim6/PimCommon/pimcommon/genericplugin.h
+* /usr/include/KPim6/PimCommon/PimCommon/GenericPluginManager
+* /usr/include/KPim6/PimCommon/pimcommon/genericpluginmanager.h
+* /usr/include/KPim6/PimCommon/pimcommon/imapresourcesettings.h
+* /usr/include/KPim6/PimCommon/PimCommon/KActionMenuChangeCase
+* /usr/include/KPim6/PimCommon/pimcommon/kactionmenuchangecase.h
+* /usr/include/KPim6/PimCommon/PimCommon/LineEditWithAutoCorrection
+* /usr/include/KPim6/PimCommon/pimcommon/lineeditwithautocorrection.h
+* /usr/include/KPim6/PimCommon/PimCommon/LineEditWithCompleterNg
+* /usr/include/KPim6/PimCommon/pimcommon/lineeditwithcompleterng.h
+* /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateVersionUtils
+* /usr/include/KPim6/PimCommon/pimcommon/needupdateversionutils.h
+* /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateVersionWidget
+* /usr/include/KPim6/PimCommon/pimcommon/needupdateversionwidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/NetworkManager
+* /usr/include/KPim6/PimCommon/pimcommon/networkmanager.h
+* /usr/include/KPim6/PimCommon/pimcommon/pimcommon_export.h
+* /usr/include/KPim6/PimCommon/PimCommon/PimUtil
+* /usr/include/KPim6/PimCommon/pimcommon/pimutil.h
+* /usr/include/KPim6/PimCommon/PimCommon/PluginUtil
+* /usr/include/KPim6/PimCommon/pimcommon/pluginutil.h
+* /usr/include/KPim6/PimCommon/PimCommon/PurposeMenuMessageWidget
+* /usr/include/KPim6/PimCommon/pimcommon/purposemenumessagewidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/PurposeMenuWidget
+* /usr/include/KPim6/PimCommon/pimcommon/purposemenuwidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/RenameFileDialog
+* /usr/include/KPim6/PimCommon/pimcommon/renamefiledialog.h
+* /usr/include/KPim6/PimCommon/PimCommon/ShareServiceUrlManager
+* /usr/include/KPim6/PimCommon/pimcommon/shareserviceurlmanager.h
+* /usr/include/KPim6/PimCommon/PimCommon/SimpleStringListEditor
+* /usr/include/KPim6/PimCommon/pimcommon/simplestringlisteditor.h
+* /usr/include/KPim6/PimCommon/PimCommon/SpellCheckLineEdit
+* /usr/include/KPim6/PimCommon/pimcommon/spellchecklineedit.h
+* /usr/include/KPim6/PimCommon/PimCommon/TemplateListWidget
+* /usr/include/KPim6/PimCommon/pimcommon/templatelistwidget.h
+* /usr/include/KPim6/PimCommon/PimCommon/TemplateManager
+* /usr/include/KPim6/PimCommon/pimcommon/templatemanager.h
+* /usr/include/KPim6/PimCommon/pimcommon_version.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/AddresseeLineEdit
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/addresseelineedit.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CheckedCollectionWidget
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/checkedcollectionwidget.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CollectionAclPage
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/collectionaclpage.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CollectionTypeUtil
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/collectiontypeutil.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CompletionConfigureDialog
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/completionconfiguredialog.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CompletionOrderEditor
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/completionordereditor.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ContentTypeWidget
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/contenttypewidget.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CreateResource
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/createresource.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/GenericPluginInterface
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/genericplugininterface.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ImapAclAttribute
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/imapaclattribute.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ImapResourceCapabilitiesManager
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/imapresourcecapabilitiesmanager.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/IncidencesForWidget
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/incidencesforwidget.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/LdapSearchDialog
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/ldapsearchdialog.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/MailUtil
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/mailutil.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ManageServerSideSubscriptionJob
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/manageserversidesubscriptionjob.h
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/pimcommonakonadi_export.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/PluginInterface
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/plugininterface.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ProgressManagerAkonadi
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/progressmanagerakonadi.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/RecentAddresses
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/recentaddresses.h
+* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/SelectMultiCollectionDialog
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/selectmulticollectiondialog.h
+* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi_version.h
+* /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonConfig.cmake
+* /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonConfigVersion.cmake
+* /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonTargets-release.cmake
+* /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonTargets.cmake
+* /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiConfig.cmake
+* /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiConfigVersion.cmake
+* /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets-release.cmake
+* /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets.cmake
+* /usr/lib/libKPim6PimCommon.so
+* /usr/lib/libKPim6PimCommon.so.6
+* /usr/lib/libKPim6PimCommon.so.6.2.0
+* /usr/lib/libKPim6PimCommonAkonadi.so
+* /usr/lib/libKPim6PimCommonAkonadi.so.6
+* /usr/lib/libKPim6PimCommonAkonadi.so.6.2.0
+* /usr/lib/qt6/plugins/designer/pimcommon6akonadiwidgets.so
+* /usr/lib/qt6/plugins/designer/pimcommon6widgets.so
+* /usr/share/locale/ar/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/bs/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ca/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/cs/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/da/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/de/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/el/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/eo/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/es/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/et/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/eu/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/fi/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/fr/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ga/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/gl/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/he/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/hu/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ia/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/it/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ja/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ka/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/kk/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ko/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/lt/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/mr/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/nb/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/nds/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/nl/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/pl/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/pt/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ro/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ru/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sk/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sl/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sr/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sv/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/tr/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/ug/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/uk/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/qlogging-categories6/pimcommon.categories
+* /usr/share/qlogging-categories6/pimcommon.renamecategories

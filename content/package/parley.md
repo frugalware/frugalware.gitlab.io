@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./parley 24.08.0-1"
+title = "parley 24.08.0-1"
 version = "24.08.0-1"
 description = "Vocabulary Trainer."
 date = "2024-08-22T14:56:11"
-aliases = "/packages/222219"
+aliases = "/packages/152839"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,335 +17,335 @@ depends = "['kcmutils>=6.5.0', 'knewstuff>=6.5.0', 'libkeduvocdocument>=24.08.0'
 Vocabulary Trainer.
 
 ### Files: 
-* parley /usr/bin/parley
-* parley /usr/share/applications/org.kde.parley.desktop
-* parley /usr/share/config.kcfg/documentsettings.kcfg
-* parley /usr/share/config.kcfg/languagesettings.kcfg
-* parley /usr/share/config.kcfg/parley.kcfg
-* parley /usr/share/doc/HTML/ca/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/ca/parley/index.docbook
-* parley /usr/share/doc/HTML/de/parley/Configure_blocking.png
-* parley /usr/share/doc/HTML/de/parley/Configure_practice.png
-* parley /usr/share/doc/HTML/de/parley/Configure_practice_conjugation.png
-* parley /usr/share/doc/HTML/de/parley/Folder_with_sound_and_pictures.png
-* parley /usr/share/doc/HTML/de/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/de/parley/index.docbook
-* parley /usr/share/doc/HTML/de/parley/Parley_articles_and_gender_0-9-4_001.png
-* parley /usr/share/doc/HTML/de/parley/Parley_articles_and_gender_0-9-4_002.png
-* parley /usr/share/doc/HTML/de/parley/Parley_articles_and_gender_0-9-4_003.png
-* parley /usr/share/doc/HTML/de/parley/Parley_comparison_eng-deu_0-9-4_002.png
-* parley /usr/share/doc/HTML/de/parley/Parley_comparison_eng-deu_0-9-4_003.png
-* parley /usr/share/doc/HTML/de/parley/Parley_configure_advanced.png
-* parley /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_001.png
-* parley /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_002.png
-* parley /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_003.png
-* parley /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_004.png
-* parley /usr/share/doc/HTML/de/parley/Parley_configure_thresholds.png
-* parley /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names1.png
-* parley /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names10.png
-* parley /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names4.png
-* parley /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names5.png
-* parley /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names7.png
-* parley /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names8.png
-* parley /usr/share/doc/HTML/de/parley/Parley_document_properties.png
-* parley /usr/share/doc/HTML/de/parley/Parley_edit_comparison_form_1.png
-* parley /usr/share/doc/HTML/de/parley/Parley_edit_comparison_form_2.png
-* parley /usr/share/doc/HTML/de/parley/Parley_edit_comparison_form_3.png
-* parley /usr/share/doc/HTML/de/parley/Parley_edit_conjugation_1.png
-* parley /usr/share/doc/HTML/de/parley/Parley_edit_conjugation_2.png
-* parley /usr/share/doc/HTML/de/parley/Parley_edit_main.png
-* parley /usr/share/doc/HTML/de/parley/Parley_file_select_dialog_0-9-4.png
-* parley /usr/share/doc/HTML/de/parley/Parley_get_new_stuff_0-9-4_001.png
-* parley /usr/share/doc/HTML/de/parley/Parley_initial_screen_0-9-4.png
-* parley /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_001.png
-* parley /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_002.png
-* parley /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_003.png
-* parley /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_004.png
-* parley /usr/share/doc/HTML/de/parley/Parley_multiple_choice_0-9-4_001.png
-* parley /usr/share/doc/HTML/de/parley/Parley_multiple_choice_0-9-4_002.png
-* parley /usr/share/doc/HTML/de/parley/Parley_multiple_choice_0-9-4_003.png
-* parley /usr/share/doc/HTML/de/parley/Parley_new_document_lang_articles.png
-* parley /usr/share/doc/HTML/de/parley/Parley_new_document_lang_general.png
-* parley /usr/share/doc/HTML/de/parley/Parley_new_document_lang_personalpronouns.png
-* parley /usr/share/doc/HTML/de/parley/Parley_new_document_lang_tenses.png
-* parley /usr/share/doc/HTML/de/parley/Parley_new_lesson1.png
-* parley /usr/share/doc/HTML/de/parley/Parley_new_lesson2.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_bees.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_conjugation.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_fluffy.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_grey_flash.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_grey_flash_solution.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_grey_written.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_grey_written_right.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_grey_written_wrong.png
-* parley /usr/share/doc/HTML/de/parley/Parley_practice_summary.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_001.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_002.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_003.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_004.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_005.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_006.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_007.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_008.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_009.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_010.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_011.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_012.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_013.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_014.png
-* parley /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_015.png
-* parley /usr/share/doc/HTML/de/parley/Parley_welcome_screen.png
-* parley /usr/share/doc/HTML/en/parley/adding-images.png
-* parley /usr/share/doc/HTML/en/parley/adding-sound.png
-* parley /usr/share/doc/HTML/en/parley/articles_and_gender.png
-* parley /usr/share/doc/HTML/en/parley/articles_and_gender_right.png
-* parley /usr/share/doc/HTML/en/parley/articles_and_gender_wrong.png
-* parley /usr/share/doc/HTML/en/parley/comparison.png
-* parley /usr/share/doc/HTML/en/parley/comparison_form.png
-* parley /usr/share/doc/HTML/en/parley/comparison_form_edit.png
-* parley /usr/share/doc/HTML/en/parley/comparison_right.png
-* parley /usr/share/doc/HTML/en/parley/configure_blocking.png
-* parley /usr/share/doc/HTML/en/parley/configure_general.png
-* parley /usr/share/doc/HTML/en/parley/configure_generalconfig.png
-* parley /usr/share/doc/HTML/en/parley/configure_practice.png
-* parley /usr/share/doc/HTML/en/parley/Configure_practice_conjugation.png
-* parley /usr/share/doc/HTML/en/parley/configure_specific.png
-* parley /usr/share/doc/HTML/en/parley/configure_theme.png
-* parley /usr/share/doc/HTML/en/parley/configure_thresholds.png
-* parley /usr/share/doc/HTML/en/parley/configure_view.png
-* parley /usr/share/doc/HTML/en/parley/conjugation.png
-* parley /usr/share/doc/HTML/en/parley/conjugation_edit.png
-* parley /usr/share/doc/HTML/en/parley/dashboard.png
-* parley /usr/share/doc/HTML/en/parley/document-export.png
-* parley /usr/share/doc/HTML/en/parley/document_properties.png
-* parley /usr/share/doc/HTML/en/parley/edit_main.png
-* parley /usr/share/doc/HTML/en/parley/file_select_dialog.png
-* parley /usr/share/doc/HTML/en/parley/folder-black.png
-* parley /usr/share/doc/HTML/en/parley/Folder_with_sound_and_pictures.png
-* parley /usr/share/doc/HTML/en/parley/general_document_properties.png
-* parley /usr/share/doc/HTML/en/parley/get_new_stuff.png
-* parley /usr/share/doc/HTML/en/parley/icon-delete.png
-* parley /usr/share/doc/HTML/en/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/en/parley/index.docbook
-* parley /usr/share/doc/HTML/en/parley/initial_screen.png
-* parley /usr/share/doc/HTML/en/parley/lang_articles.png
-* parley /usr/share/doc/HTML/en/parley/lang_general.png
-* parley /usr/share/doc/HTML/en/parley/lang_personal_pronouns.png
-* parley /usr/share/doc/HTML/en/parley/lang_tenses.png
-* parley /usr/share/doc/HTML/en/parley/list-add-card.png
-* parley /usr/share/doc/HTML/en/parley/list-add.png
-* parley /usr/share/doc/HTML/en/parley/mixed_letters_hint.png
-* parley /usr/share/doc/HTML/en/parley/mixed_letters_right.png
-* parley /usr/share/doc/HTML/en/parley/mixed_letters_solution.png
-* parley /usr/share/doc/HTML/en/parley/mixed_letters_wrong.png
-* parley /usr/share/doc/HTML/en/parley/multiple_choice-right.png
-* parley /usr/share/doc/HTML/en/parley/multiple_choice-wrong.png
-* parley /usr/share/doc/HTML/en/parley/multiple_choice.png
-* parley /usr/share/doc/HTML/en/parley/new_empty_collection.png
-* parley /usr/share/doc/HTML/en/parley/new_lesson2.png
-* parley /usr/share/doc/HTML/en/parley/ocument-export.png
-* parley /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names1.png
-* parley /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names10.png
-* parley /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names4.png
-* parley /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names5.png
-* parley /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names7.png
-* parley /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names8.png
-* parley /usr/share/doc/HTML/en/parley/Parley_practice_conjugation.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_004.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_005.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_006.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_007.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_008.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_009.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_010.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_011.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_012.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_013.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_014.png
-* parley /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_015.png
-* parley /usr/share/doc/HTML/en/parley/practice-setup.png
-* parley /usr/share/doc/HTML/en/parley/practice-start.png
-* parley /usr/share/doc/HTML/en/parley/practice_bees.png
-* parley /usr/share/doc/HTML/en/parley/practice_flash_solution.png
-* parley /usr/share/doc/HTML/en/parley/practice_grey.png
-* parley /usr/share/doc/HTML/en/parley/practice_summary.png
-* parley /usr/share/doc/HTML/en/parley/practice_written.png
-* parley /usr/share/doc/HTML/en/parley/practice_written_right.png
-* parley /usr/share/doc/HTML/en/parley/practice_written_wrong.png
-* parley /usr/share/doc/HTML/en/parley/save_new_collection.png
-* parley /usr/share/doc/HTML/en/parley/vocabulary_columns.png
-* parley /usr/share/doc/HTML/es/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/es/parley/index.docbook
-* parley /usr/share/doc/HTML/it/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/it/parley/index.docbook
-* parley /usr/share/doc/HTML/nl/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/nl/parley/index.docbook
-* parley /usr/share/doc/HTML/pt/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/pt/parley/index.docbook
-* parley /usr/share/doc/HTML/pt_BR/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/pt_BR/parley/index.docbook
-* parley /usr/share/doc/HTML/ru/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/ru/parley/index.docbook
-* parley /usr/share/doc/HTML/sv/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/sv/parley/index.docbook
-* parley /usr/share/doc/HTML/uk/parley/index.cache.bz2
-* parley /usr/share/doc/HTML/uk/parley/index.docbook
-* parley /usr/share/doc/parley-24.08.0/AUTHORS
-* parley /usr/share/doc/parley-24.08.0/README.md
-* parley /usr/share/doc/parley-24.08.0/TODO
-* parley /usr/share/icons/hicolor/128x128/apps/parley.png
-* parley /usr/share/icons/hicolor/16x16/apps/parley.png
-* parley /usr/share/icons/hicolor/32x32/apps/parley.png
-* parley /usr/share/icons/hicolor/48x48/apps/parley.png
-* parley /usr/share/icons/hicolor/64x64/apps/parley.png
-* parley /usr/share/icons/hicolor/scalable/apps/parley-parley.svgz
-* parley /usr/share/icons/hicolor/scalable/apps/parley-simple.svgz
-* parley /usr/share/icons/hicolor/scalable/apps/parley.svgz
-* parley /usr/share/icons/oxygen/16x16/actions/cards-block.png
-* parley /usr/share/icons/oxygen/16x16/actions/edit-entry.png
-* parley /usr/share/icons/oxygen/16x16/actions/edit-table-row.png
-* parley /usr/share/icons/oxygen/16x16/actions/lesson-add.png
-* parley /usr/share/icons/oxygen/16x16/actions/lesson-remove.png
-* parley /usr/share/icons/oxygen/16x16/actions/list-add-card.png
-* parley /usr/share/icons/oxygen/16x16/actions/list-remove-card.png
-* parley /usr/share/icons/oxygen/16x16/actions/multiple-choice.png
-* parley /usr/share/icons/oxygen/16x16/actions/practice-setup.png
-* parley /usr/share/icons/oxygen/16x16/actions/practice-start.png
-* parley /usr/share/icons/oxygen/16x16/actions/practice-stop.png
-* parley /usr/share/icons/oxygen/16x16/actions/remove-duplicates.png
-* parley /usr/share/icons/oxygen/16x16/actions/set-language.png
-* parley /usr/share/icons/oxygen/16x16/actions/specific-setup.png
-* parley /usr/share/icons/oxygen/22x22/actions/cards-block.png
-* parley /usr/share/icons/oxygen/22x22/actions/edit-entry.png
-* parley /usr/share/icons/oxygen/22x22/actions/edit-table-row.png
-* parley /usr/share/icons/oxygen/22x22/actions/lesson-add.png
-* parley /usr/share/icons/oxygen/22x22/actions/lesson-remove.png
-* parley /usr/share/icons/oxygen/22x22/actions/list-add-card.png
-* parley /usr/share/icons/oxygen/22x22/actions/list-remove-card.png
-* parley /usr/share/icons/oxygen/22x22/actions/multiple-choice.png
-* parley /usr/share/icons/oxygen/22x22/actions/practice-setup.png
-* parley /usr/share/icons/oxygen/22x22/actions/practice-start.png
-* parley /usr/share/icons/oxygen/22x22/actions/practice-stop.png
-* parley /usr/share/icons/oxygen/22x22/actions/remove-duplicates.png
-* parley /usr/share/icons/oxygen/22x22/actions/set-language.png
-* parley /usr/share/icons/oxygen/22x22/actions/specific-setup.png
-* parley /usr/share/icons/oxygen/32x32/actions/cards-block.png
-* parley /usr/share/icons/oxygen/32x32/actions/edit-entry.png
-* parley /usr/share/icons/oxygen/32x32/actions/edit-table-row.png
-* parley /usr/share/icons/oxygen/32x32/actions/lesson-add.png
-* parley /usr/share/icons/oxygen/32x32/actions/lesson-remove.png
-* parley /usr/share/icons/oxygen/32x32/actions/list-add-card.png
-* parley /usr/share/icons/oxygen/32x32/actions/list-remove-card.png
-* parley /usr/share/icons/oxygen/32x32/actions/multiple-choice.png
-* parley /usr/share/icons/oxygen/32x32/actions/practice-setup.png
-* parley /usr/share/icons/oxygen/32x32/actions/practice-start.png
-* parley /usr/share/icons/oxygen/32x32/actions/practice-stop.png
-* parley /usr/share/icons/oxygen/32x32/actions/remove-duplicates.png
-* parley /usr/share/icons/oxygen/32x32/actions/set-language.png
-* parley /usr/share/icons/oxygen/32x32/actions/specific-setup.png
-* parley /usr/share/icons/oxygen/48x48/actions/cards-block.png
-* parley /usr/share/icons/oxygen/48x48/actions/edit-entry.png
-* parley /usr/share/icons/oxygen/48x48/actions/edit-table-row.png
-* parley /usr/share/icons/oxygen/48x48/actions/lesson-add.png
-* parley /usr/share/icons/oxygen/48x48/actions/lesson-remove.png
-* parley /usr/share/icons/oxygen/48x48/actions/list-add-card.png
-* parley /usr/share/icons/oxygen/48x48/actions/list-remove-card.png
-* parley /usr/share/icons/oxygen/48x48/actions/multiple-choice.png
-* parley /usr/share/icons/oxygen/48x48/actions/practice-setup.png
-* parley /usr/share/icons/oxygen/48x48/actions/practice-start.png
-* parley /usr/share/icons/oxygen/48x48/actions/practice-stop.png
-* parley /usr/share/icons/oxygen/48x48/actions/remove-duplicates.png
-* parley /usr/share/icons/oxygen/48x48/actions/set-language.png
-* parley /usr/share/icons/oxygen/48x48/actions/specific-setup.png
-* parley /usr/share/icons/oxygen/scalable/actions/cards-block.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/edit-entry.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/edit-table-row.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/lesson-add.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/lesson-remove.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/list-add-card.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/list-remove-card.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/practice-setup.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/practice-start.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/remove-duplicates.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/set-language.svgz
-* parley /usr/share/icons/oxygen/scalable/actions/specific-setup.svgz
-* parley /usr/share/knsrcfiles/parley-themes.knsrc
-* parley /usr/share/knsrcfiles/parley.knsrc
-* parley /usr/share/locale/af/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ar/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ast/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/be/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/bg/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/bn/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/br/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/bs/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ca/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ca@valencia/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/cs/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/cy/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/da/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/de/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/el/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/en_GB/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/eo/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/es/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/et/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/eu/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/fa/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/fi/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/fr/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ga/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/gl/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/he/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/hi/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/hne/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/hr/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/hu/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ia/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/is/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/it/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ja/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ka/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/kk/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/km/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/lt/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/lv/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/mk/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ml/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/mr/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ms/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/nb/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/nds/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ne/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/nl/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/nn/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/oc/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/pa/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/pl/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/pt/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/pt_BR/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ro/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ru/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/se/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/si/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/sk/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/sl/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/sq/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/sv/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ta/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/tg/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/tr/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/ug/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/uk/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/xh/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/zh_CN/LC_MESSAGES/parley.mo
-* parley /usr/share/locale/zh_TW/LC_MESSAGES/parley.mo
-* parley /usr/share/metainfo/org.kde.parley.appdata.xml
-* parley /usr/share/parley/themes/bees_theme.desktop
-* parley /usr/share/parley/themes/bees_theme.svgz
-* parley /usr/share/parley/themes/bees_theme_preview.jpg
-* parley /usr/share/parley/themes/theme_reference.desktop
-* parley /usr/share/parley/themes/theme_reference.svgz
-* parley /usr/share/parley/themes/theme_reference_preview.jpg
-* parley /usr/share/parley/xslt/flashcards.xsl
-* parley /usr/share/parley/xslt/table.xsl
+* /usr/bin/parley
+* /usr/share/applications/org.kde.parley.desktop
+* /usr/share/config.kcfg/documentsettings.kcfg
+* /usr/share/config.kcfg/languagesettings.kcfg
+* /usr/share/config.kcfg/parley.kcfg
+* /usr/share/doc/HTML/ca/parley/index.cache.bz2
+* /usr/share/doc/HTML/ca/parley/index.docbook
+* /usr/share/doc/HTML/de/parley/Configure_blocking.png
+* /usr/share/doc/HTML/de/parley/Configure_practice.png
+* /usr/share/doc/HTML/de/parley/Configure_practice_conjugation.png
+* /usr/share/doc/HTML/de/parley/Folder_with_sound_and_pictures.png
+* /usr/share/doc/HTML/de/parley/index.cache.bz2
+* /usr/share/doc/HTML/de/parley/index.docbook
+* /usr/share/doc/HTML/de/parley/Parley_articles_and_gender_0-9-4_001.png
+* /usr/share/doc/HTML/de/parley/Parley_articles_and_gender_0-9-4_002.png
+* /usr/share/doc/HTML/de/parley/Parley_articles_and_gender_0-9-4_003.png
+* /usr/share/doc/HTML/de/parley/Parley_comparison_eng-deu_0-9-4_002.png
+* /usr/share/doc/HTML/de/parley/Parley_comparison_eng-deu_0-9-4_003.png
+* /usr/share/doc/HTML/de/parley/Parley_configure_advanced.png
+* /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_001.png
+* /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_002.png
+* /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_003.png
+* /usr/share/doc/HTML/de/parley/Parley_configure_parley_0-9-4_004.png
+* /usr/share/doc/HTML/de/parley/Parley_configure_thresholds.png
+* /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names1.png
+* /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names10.png
+* /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names4.png
+* /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names5.png
+* /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names7.png
+* /usr/share/doc/HTML/de/parley/Parley_create_new_exercise_collective_names8.png
+* /usr/share/doc/HTML/de/parley/Parley_document_properties.png
+* /usr/share/doc/HTML/de/parley/Parley_edit_comparison_form_1.png
+* /usr/share/doc/HTML/de/parley/Parley_edit_comparison_form_2.png
+* /usr/share/doc/HTML/de/parley/Parley_edit_comparison_form_3.png
+* /usr/share/doc/HTML/de/parley/Parley_edit_conjugation_1.png
+* /usr/share/doc/HTML/de/parley/Parley_edit_conjugation_2.png
+* /usr/share/doc/HTML/de/parley/Parley_edit_main.png
+* /usr/share/doc/HTML/de/parley/Parley_file_select_dialog_0-9-4.png
+* /usr/share/doc/HTML/de/parley/Parley_get_new_stuff_0-9-4_001.png
+* /usr/share/doc/HTML/de/parley/Parley_initial_screen_0-9-4.png
+* /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_001.png
+* /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_002.png
+* /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_003.png
+* /usr/share/doc/HTML/de/parley/Parley_mixed_letters_0-9-4_004.png
+* /usr/share/doc/HTML/de/parley/Parley_multiple_choice_0-9-4_001.png
+* /usr/share/doc/HTML/de/parley/Parley_multiple_choice_0-9-4_002.png
+* /usr/share/doc/HTML/de/parley/Parley_multiple_choice_0-9-4_003.png
+* /usr/share/doc/HTML/de/parley/Parley_new_document_lang_articles.png
+* /usr/share/doc/HTML/de/parley/Parley_new_document_lang_general.png
+* /usr/share/doc/HTML/de/parley/Parley_new_document_lang_personalpronouns.png
+* /usr/share/doc/HTML/de/parley/Parley_new_document_lang_tenses.png
+* /usr/share/doc/HTML/de/parley/Parley_new_lesson1.png
+* /usr/share/doc/HTML/de/parley/Parley_new_lesson2.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_bees.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_conjugation.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_fluffy.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_grey_flash.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_grey_flash_solution.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_grey_written.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_grey_written_right.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_grey_written_wrong.png
+* /usr/share/doc/HTML/de/parley/Parley_practice_summary.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_001.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_002.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_003.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_004.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_005.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_006.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_007.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_008.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_009.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_010.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_011.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_012.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_013.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_014.png
+* /usr/share/doc/HTML/de/parley/Parley_trainer_eng-deu_0-9-4_015.png
+* /usr/share/doc/HTML/de/parley/Parley_welcome_screen.png
+* /usr/share/doc/HTML/en/parley/adding-images.png
+* /usr/share/doc/HTML/en/parley/adding-sound.png
+* /usr/share/doc/HTML/en/parley/articles_and_gender.png
+* /usr/share/doc/HTML/en/parley/articles_and_gender_right.png
+* /usr/share/doc/HTML/en/parley/articles_and_gender_wrong.png
+* /usr/share/doc/HTML/en/parley/comparison.png
+* /usr/share/doc/HTML/en/parley/comparison_form.png
+* /usr/share/doc/HTML/en/parley/comparison_form_edit.png
+* /usr/share/doc/HTML/en/parley/comparison_right.png
+* /usr/share/doc/HTML/en/parley/configure_blocking.png
+* /usr/share/doc/HTML/en/parley/configure_general.png
+* /usr/share/doc/HTML/en/parley/configure_generalconfig.png
+* /usr/share/doc/HTML/en/parley/configure_practice.png
+* /usr/share/doc/HTML/en/parley/Configure_practice_conjugation.png
+* /usr/share/doc/HTML/en/parley/configure_specific.png
+* /usr/share/doc/HTML/en/parley/configure_theme.png
+* /usr/share/doc/HTML/en/parley/configure_thresholds.png
+* /usr/share/doc/HTML/en/parley/configure_view.png
+* /usr/share/doc/HTML/en/parley/conjugation.png
+* /usr/share/doc/HTML/en/parley/conjugation_edit.png
+* /usr/share/doc/HTML/en/parley/dashboard.png
+* /usr/share/doc/HTML/en/parley/document-export.png
+* /usr/share/doc/HTML/en/parley/document_properties.png
+* /usr/share/doc/HTML/en/parley/edit_main.png
+* /usr/share/doc/HTML/en/parley/file_select_dialog.png
+* /usr/share/doc/HTML/en/parley/folder-black.png
+* /usr/share/doc/HTML/en/parley/Folder_with_sound_and_pictures.png
+* /usr/share/doc/HTML/en/parley/general_document_properties.png
+* /usr/share/doc/HTML/en/parley/get_new_stuff.png
+* /usr/share/doc/HTML/en/parley/icon-delete.png
+* /usr/share/doc/HTML/en/parley/index.cache.bz2
+* /usr/share/doc/HTML/en/parley/index.docbook
+* /usr/share/doc/HTML/en/parley/initial_screen.png
+* /usr/share/doc/HTML/en/parley/lang_articles.png
+* /usr/share/doc/HTML/en/parley/lang_general.png
+* /usr/share/doc/HTML/en/parley/lang_personal_pronouns.png
+* /usr/share/doc/HTML/en/parley/lang_tenses.png
+* /usr/share/doc/HTML/en/parley/list-add-card.png
+* /usr/share/doc/HTML/en/parley/list-add.png
+* /usr/share/doc/HTML/en/parley/mixed_letters_hint.png
+* /usr/share/doc/HTML/en/parley/mixed_letters_right.png
+* /usr/share/doc/HTML/en/parley/mixed_letters_solution.png
+* /usr/share/doc/HTML/en/parley/mixed_letters_wrong.png
+* /usr/share/doc/HTML/en/parley/multiple_choice-right.png
+* /usr/share/doc/HTML/en/parley/multiple_choice-wrong.png
+* /usr/share/doc/HTML/en/parley/multiple_choice.png
+* /usr/share/doc/HTML/en/parley/new_empty_collection.png
+* /usr/share/doc/HTML/en/parley/new_lesson2.png
+* /usr/share/doc/HTML/en/parley/ocument-export.png
+* /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names1.png
+* /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names10.png
+* /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names4.png
+* /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names5.png
+* /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names7.png
+* /usr/share/doc/HTML/en/parley/Parley_create_new_exercise_collective_names8.png
+* /usr/share/doc/HTML/en/parley/Parley_practice_conjugation.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_004.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_005.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_006.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_007.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_008.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_009.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_010.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_011.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_012.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_013.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_014.png
+* /usr/share/doc/HTML/en/parley/Parley_trainer_eng-deu_0-9-4_015.png
+* /usr/share/doc/HTML/en/parley/practice-setup.png
+* /usr/share/doc/HTML/en/parley/practice-start.png
+* /usr/share/doc/HTML/en/parley/practice_bees.png
+* /usr/share/doc/HTML/en/parley/practice_flash_solution.png
+* /usr/share/doc/HTML/en/parley/practice_grey.png
+* /usr/share/doc/HTML/en/parley/practice_summary.png
+* /usr/share/doc/HTML/en/parley/practice_written.png
+* /usr/share/doc/HTML/en/parley/practice_written_right.png
+* /usr/share/doc/HTML/en/parley/practice_written_wrong.png
+* /usr/share/doc/HTML/en/parley/save_new_collection.png
+* /usr/share/doc/HTML/en/parley/vocabulary_columns.png
+* /usr/share/doc/HTML/es/parley/index.cache.bz2
+* /usr/share/doc/HTML/es/parley/index.docbook
+* /usr/share/doc/HTML/it/parley/index.cache.bz2
+* /usr/share/doc/HTML/it/parley/index.docbook
+* /usr/share/doc/HTML/nl/parley/index.cache.bz2
+* /usr/share/doc/HTML/nl/parley/index.docbook
+* /usr/share/doc/HTML/pt/parley/index.cache.bz2
+* /usr/share/doc/HTML/pt/parley/index.docbook
+* /usr/share/doc/HTML/pt_BR/parley/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/parley/index.docbook
+* /usr/share/doc/HTML/ru/parley/index.cache.bz2
+* /usr/share/doc/HTML/ru/parley/index.docbook
+* /usr/share/doc/HTML/sv/parley/index.cache.bz2
+* /usr/share/doc/HTML/sv/parley/index.docbook
+* /usr/share/doc/HTML/uk/parley/index.cache.bz2
+* /usr/share/doc/HTML/uk/parley/index.docbook
+* /usr/share/doc/parley-24.08.0/AUTHORS
+* /usr/share/doc/parley-24.08.0/README.md
+* /usr/share/doc/parley-24.08.0/TODO
+* /usr/share/icons/hicolor/128x128/apps/parley.png
+* /usr/share/icons/hicolor/16x16/apps/parley.png
+* /usr/share/icons/hicolor/32x32/apps/parley.png
+* /usr/share/icons/hicolor/48x48/apps/parley.png
+* /usr/share/icons/hicolor/64x64/apps/parley.png
+* /usr/share/icons/hicolor/scalable/apps/parley-parley.svgz
+* /usr/share/icons/hicolor/scalable/apps/parley-simple.svgz
+* /usr/share/icons/hicolor/scalable/apps/parley.svgz
+* /usr/share/icons/oxygen/16x16/actions/cards-block.png
+* /usr/share/icons/oxygen/16x16/actions/edit-entry.png
+* /usr/share/icons/oxygen/16x16/actions/edit-table-row.png
+* /usr/share/icons/oxygen/16x16/actions/lesson-add.png
+* /usr/share/icons/oxygen/16x16/actions/lesson-remove.png
+* /usr/share/icons/oxygen/16x16/actions/list-add-card.png
+* /usr/share/icons/oxygen/16x16/actions/list-remove-card.png
+* /usr/share/icons/oxygen/16x16/actions/multiple-choice.png
+* /usr/share/icons/oxygen/16x16/actions/practice-setup.png
+* /usr/share/icons/oxygen/16x16/actions/practice-start.png
+* /usr/share/icons/oxygen/16x16/actions/practice-stop.png
+* /usr/share/icons/oxygen/16x16/actions/remove-duplicates.png
+* /usr/share/icons/oxygen/16x16/actions/set-language.png
+* /usr/share/icons/oxygen/16x16/actions/specific-setup.png
+* /usr/share/icons/oxygen/22x22/actions/cards-block.png
+* /usr/share/icons/oxygen/22x22/actions/edit-entry.png
+* /usr/share/icons/oxygen/22x22/actions/edit-table-row.png
+* /usr/share/icons/oxygen/22x22/actions/lesson-add.png
+* /usr/share/icons/oxygen/22x22/actions/lesson-remove.png
+* /usr/share/icons/oxygen/22x22/actions/list-add-card.png
+* /usr/share/icons/oxygen/22x22/actions/list-remove-card.png
+* /usr/share/icons/oxygen/22x22/actions/multiple-choice.png
+* /usr/share/icons/oxygen/22x22/actions/practice-setup.png
+* /usr/share/icons/oxygen/22x22/actions/practice-start.png
+* /usr/share/icons/oxygen/22x22/actions/practice-stop.png
+* /usr/share/icons/oxygen/22x22/actions/remove-duplicates.png
+* /usr/share/icons/oxygen/22x22/actions/set-language.png
+* /usr/share/icons/oxygen/22x22/actions/specific-setup.png
+* /usr/share/icons/oxygen/32x32/actions/cards-block.png
+* /usr/share/icons/oxygen/32x32/actions/edit-entry.png
+* /usr/share/icons/oxygen/32x32/actions/edit-table-row.png
+* /usr/share/icons/oxygen/32x32/actions/lesson-add.png
+* /usr/share/icons/oxygen/32x32/actions/lesson-remove.png
+* /usr/share/icons/oxygen/32x32/actions/list-add-card.png
+* /usr/share/icons/oxygen/32x32/actions/list-remove-card.png
+* /usr/share/icons/oxygen/32x32/actions/multiple-choice.png
+* /usr/share/icons/oxygen/32x32/actions/practice-setup.png
+* /usr/share/icons/oxygen/32x32/actions/practice-start.png
+* /usr/share/icons/oxygen/32x32/actions/practice-stop.png
+* /usr/share/icons/oxygen/32x32/actions/remove-duplicates.png
+* /usr/share/icons/oxygen/32x32/actions/set-language.png
+* /usr/share/icons/oxygen/32x32/actions/specific-setup.png
+* /usr/share/icons/oxygen/48x48/actions/cards-block.png
+* /usr/share/icons/oxygen/48x48/actions/edit-entry.png
+* /usr/share/icons/oxygen/48x48/actions/edit-table-row.png
+* /usr/share/icons/oxygen/48x48/actions/lesson-add.png
+* /usr/share/icons/oxygen/48x48/actions/lesson-remove.png
+* /usr/share/icons/oxygen/48x48/actions/list-add-card.png
+* /usr/share/icons/oxygen/48x48/actions/list-remove-card.png
+* /usr/share/icons/oxygen/48x48/actions/multiple-choice.png
+* /usr/share/icons/oxygen/48x48/actions/practice-setup.png
+* /usr/share/icons/oxygen/48x48/actions/practice-start.png
+* /usr/share/icons/oxygen/48x48/actions/practice-stop.png
+* /usr/share/icons/oxygen/48x48/actions/remove-duplicates.png
+* /usr/share/icons/oxygen/48x48/actions/set-language.png
+* /usr/share/icons/oxygen/48x48/actions/specific-setup.png
+* /usr/share/icons/oxygen/scalable/actions/cards-block.svgz
+* /usr/share/icons/oxygen/scalable/actions/edit-entry.svgz
+* /usr/share/icons/oxygen/scalable/actions/edit-table-row.svgz
+* /usr/share/icons/oxygen/scalable/actions/lesson-add.svgz
+* /usr/share/icons/oxygen/scalable/actions/lesson-remove.svgz
+* /usr/share/icons/oxygen/scalable/actions/list-add-card.svgz
+* /usr/share/icons/oxygen/scalable/actions/list-remove-card.svgz
+* /usr/share/icons/oxygen/scalable/actions/practice-setup.svgz
+* /usr/share/icons/oxygen/scalable/actions/practice-start.svgz
+* /usr/share/icons/oxygen/scalable/actions/remove-duplicates.svgz
+* /usr/share/icons/oxygen/scalable/actions/set-language.svgz
+* /usr/share/icons/oxygen/scalable/actions/specific-setup.svgz
+* /usr/share/knsrcfiles/parley-themes.knsrc
+* /usr/share/knsrcfiles/parley.knsrc
+* /usr/share/locale/af/LC_MESSAGES/parley.mo
+* /usr/share/locale/ar/LC_MESSAGES/parley.mo
+* /usr/share/locale/ast/LC_MESSAGES/parley.mo
+* /usr/share/locale/be/LC_MESSAGES/parley.mo
+* /usr/share/locale/bg/LC_MESSAGES/parley.mo
+* /usr/share/locale/bn/LC_MESSAGES/parley.mo
+* /usr/share/locale/br/LC_MESSAGES/parley.mo
+* /usr/share/locale/bs/LC_MESSAGES/parley.mo
+* /usr/share/locale/ca/LC_MESSAGES/parley.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/parley.mo
+* /usr/share/locale/cs/LC_MESSAGES/parley.mo
+* /usr/share/locale/cy/LC_MESSAGES/parley.mo
+* /usr/share/locale/da/LC_MESSAGES/parley.mo
+* /usr/share/locale/de/LC_MESSAGES/parley.mo
+* /usr/share/locale/el/LC_MESSAGES/parley.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/parley.mo
+* /usr/share/locale/eo/LC_MESSAGES/parley.mo
+* /usr/share/locale/es/LC_MESSAGES/parley.mo
+* /usr/share/locale/et/LC_MESSAGES/parley.mo
+* /usr/share/locale/eu/LC_MESSAGES/parley.mo
+* /usr/share/locale/fa/LC_MESSAGES/parley.mo
+* /usr/share/locale/fi/LC_MESSAGES/parley.mo
+* /usr/share/locale/fr/LC_MESSAGES/parley.mo
+* /usr/share/locale/ga/LC_MESSAGES/parley.mo
+* /usr/share/locale/gl/LC_MESSAGES/parley.mo
+* /usr/share/locale/he/LC_MESSAGES/parley.mo
+* /usr/share/locale/hi/LC_MESSAGES/parley.mo
+* /usr/share/locale/hne/LC_MESSAGES/parley.mo
+* /usr/share/locale/hr/LC_MESSAGES/parley.mo
+* /usr/share/locale/hu/LC_MESSAGES/parley.mo
+* /usr/share/locale/ia/LC_MESSAGES/parley.mo
+* /usr/share/locale/is/LC_MESSAGES/parley.mo
+* /usr/share/locale/it/LC_MESSAGES/parley.mo
+* /usr/share/locale/ja/LC_MESSAGES/parley.mo
+* /usr/share/locale/ka/LC_MESSAGES/parley.mo
+* /usr/share/locale/kk/LC_MESSAGES/parley.mo
+* /usr/share/locale/km/LC_MESSAGES/parley.mo
+* /usr/share/locale/lt/LC_MESSAGES/parley.mo
+* /usr/share/locale/lv/LC_MESSAGES/parley.mo
+* /usr/share/locale/mk/LC_MESSAGES/parley.mo
+* /usr/share/locale/ml/LC_MESSAGES/parley.mo
+* /usr/share/locale/mr/LC_MESSAGES/parley.mo
+* /usr/share/locale/ms/LC_MESSAGES/parley.mo
+* /usr/share/locale/nb/LC_MESSAGES/parley.mo
+* /usr/share/locale/nds/LC_MESSAGES/parley.mo
+* /usr/share/locale/ne/LC_MESSAGES/parley.mo
+* /usr/share/locale/nl/LC_MESSAGES/parley.mo
+* /usr/share/locale/nn/LC_MESSAGES/parley.mo
+* /usr/share/locale/oc/LC_MESSAGES/parley.mo
+* /usr/share/locale/pa/LC_MESSAGES/parley.mo
+* /usr/share/locale/pl/LC_MESSAGES/parley.mo
+* /usr/share/locale/pt/LC_MESSAGES/parley.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/parley.mo
+* /usr/share/locale/ro/LC_MESSAGES/parley.mo
+* /usr/share/locale/ru/LC_MESSAGES/parley.mo
+* /usr/share/locale/se/LC_MESSAGES/parley.mo
+* /usr/share/locale/si/LC_MESSAGES/parley.mo
+* /usr/share/locale/sk/LC_MESSAGES/parley.mo
+* /usr/share/locale/sl/LC_MESSAGES/parley.mo
+* /usr/share/locale/sq/LC_MESSAGES/parley.mo
+* /usr/share/locale/sv/LC_MESSAGES/parley.mo
+* /usr/share/locale/ta/LC_MESSAGES/parley.mo
+* /usr/share/locale/tg/LC_MESSAGES/parley.mo
+* /usr/share/locale/tr/LC_MESSAGES/parley.mo
+* /usr/share/locale/ug/LC_MESSAGES/parley.mo
+* /usr/share/locale/uk/LC_MESSAGES/parley.mo
+* /usr/share/locale/xh/LC_MESSAGES/parley.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/parley.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/parley.mo
+* /usr/share/metainfo/org.kde.parley.appdata.xml
+* /usr/share/parley/themes/bees_theme.desktop
+* /usr/share/parley/themes/bees_theme.svgz
+* /usr/share/parley/themes/bees_theme_preview.jpg
+* /usr/share/parley/themes/theme_reference.desktop
+* /usr/share/parley/themes/theme_reference.svgz
+* /usr/share/parley/themes/theme_reference_preview.jpg
+* /usr/share/parley/xslt/flashcards.xsl
+* /usr/share/parley/xslt/table.xsl

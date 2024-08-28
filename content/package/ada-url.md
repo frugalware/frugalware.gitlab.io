@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ada-url 2.9.0-1"
-version = "2.9.0-1"
+title = "ada-url 2.9.1-1"
+version = "2.9.1-1"
 description = "WHATWG-compliant and fast URL parser written in modern C++"
-date = "2024-08-02T10:16:12"
+date = "2024-08-26T12:38:05"
 aliases = "/packages/221561"
 categories = ['lib-extra']
 upstreamurl = "https://ada-url.com"
 arch = "x86_64"
-size = "1745360"
-usize = "2823631"
-sha1sum = "45ff8daf5c37e00c38eefbc883f051ae601a67ee"
+size = "1746856"
+usize = "2825217"
+sha1sum = "2b0ec9bdb9518c739e87a11378db36a7a01bbeeb"
 depends = "['libstdc++']"
 +++
 ### Description: 
@@ -58,4 +58,4 @@ WHATWG-compliant and fast URL parser written in modern C++
 * /usr/lib/cmake/cxxopts/cxxopts-targets.cmake
 * /usr/lib/libada.a
 * /usr/lib/pkgconfig/cxxopts.pc
-* /usr/share/doc/ada-url-2.9.0/README.md
+* /usr/share/doc/ada-url-2.9.1/README.md

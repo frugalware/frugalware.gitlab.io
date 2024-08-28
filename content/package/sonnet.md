@@ -12,7 +12,7 @@ size = "318232"
 usize = "1466575"
 sha1sum = "68c9ed7c9d5a9e6429311bc154e19decad38e858"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['./kpimtextedit', 'ghostwriter', 'kpimtextedit', 'ktextwidgets']"
+reverse_depends = "['kpimtextedit', 'ktextwidgets']"
 +++
 ### Description: 
 Spelling framework for Qt, plugin-based.

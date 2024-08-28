@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdc 24.05.2-1"
-version = "24.05.2-1"
+title = "krdc 24.08.0-1"
+version = "24.08.0-1"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2024-07-05T14:45:27"
+date = "2024-08-23T12:15:27"
 aliases = "/packages/74081"
-categories = ['kde5']
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1628984"
-usize = "3501945"
-sha1sum = "18058fa2440cc7ee166dd8860531e6cd714de797"
-depends = "['freerdp2', 'kactivities5>=5.116.0', 'kbookmarks5>=5.116.0', 'kcmutils5>=5.116.0', 'kdnssd5>=5.116.0', 'knotifications5>=5.116.0', 'knotifyconfig5>=5.116.0', 'knotifyconfig5>=5.116.0', 'kwallet5>=5.116.0', 'libssh', 'libvncserver']"
+size = "1644280"
+usize = "3595700"
+sha1sum = "591a153ae292fcd2f17f680424071873f80b7045"
+depends = "['freerdp2', 'kcmutils>=6.5.0', 'kdnssd>=6.5.0', 'knotifyconfig>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'libvncserver', 'plasma-activities>=6.1.4']"
 reverse_depends = "['qt-virt-manager']"
 +++
 ### Description: 
@@ -24,13 +24,13 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/include/krdc/remoteviewfactory.h
 * /usr/include/krdccore_export.h
 * /usr/lib/libkrdccore.so
-* /usr/lib/libkrdccore.so.24.05.2
+* /usr/lib/libkrdccore.so.24.08.0
 * /usr/lib/libkrdccore.so.5
-* /usr/lib/qt5/plugins/krdc/kcms/libkcm_krdc_rdpplugin.so
-* /usr/lib/qt5/plugins/krdc/kcms/libkcm_krdc_vncplugin.so
-* /usr/lib/qt5/plugins/krdc/krdc_rdpplugin.so
-* /usr/lib/qt5/plugins/krdc/krdc_testplugin.so
-* /usr/lib/qt5/plugins/krdc/krdc_vncplugin.so
+* /usr/lib/qt6/plugins/krdc/kcms/libkcm_krdc_rdpplugin.so
+* /usr/lib/qt6/plugins/krdc/kcms/libkcm_krdc_vncplugin.so
+* /usr/lib/qt6/plugins/krdc/krdc_rdpplugin.so
+* /usr/lib/qt6/plugins/krdc/krdc_testplugin.so
+* /usr/lib/qt6/plugins/krdc/krdc_vncplugin.so
 * /usr/share/applications/org.kde.krdc.desktop
 * /usr/share/config.kcfg/krdc.kcfg
 * /usr/share/doc/HTML/ca/krdc/index.cache.bz2
@@ -98,8 +98,6 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/share/doc/HTML/pt_BR/krdc/index.docbook
 * /usr/share/doc/HTML/ru/krdc/index.cache.bz2
 * /usr/share/doc/HTML/ru/krdc/index.docbook
-* /usr/share/doc/HTML/sl/krdc/index.cache.bz2
-* /usr/share/doc/HTML/sl/krdc/index.docbook
 * /usr/share/doc/HTML/sr/krdc/index.cache.bz2
 * /usr/share/doc/HTML/sr/krdc/index.docbook
 * /usr/share/doc/HTML/sr@latin/krdc/index.cache.bz2
@@ -184,4 +182,4 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/share/locale/zh_HK/LC_MESSAGES/krdc.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/krdc.mo
 * /usr/share/metainfo/org.kde.krdc.appdata.xml
-* /usr/share/qlogging-categories5/krdc.categories
+* /usr/share/qlogging-categories6/krdc.categories

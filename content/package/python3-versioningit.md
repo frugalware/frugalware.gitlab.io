@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-versioningit 3.1.1-1"
-version = "3.1.1-1"
+title = "python3-versioningit 3.1.2-1"
+version = "3.1.2-1"
 description = "Pathlib-compatible object wrapper for zip files"
-date = "2024-06-25T13:04:38"
+date = "2024-08-26T11:51:23"
 aliases = "/packages/220916"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/versioningit"
 arch = "x86_64"
-size = "63548"
-usize = "382949"
-sha1sum = "772f83c6409fe23409eb29aff4f83aa93097f046"
+size = "64124"
+usize = "383273"
+sha1sum = "8cba51bbbad88b82320c9d6ec0e7a4eab0870ebb"
 depends = "['python3-packaging', 'python3-tomli']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ Pathlib-compatible object wrapper for zip files
 
 ### Files: 
 * /usr/bin/versioningit
-* /usr/lib/python3.12/site-packages/versioningit-3.1.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/versioningit-3.1.1.dist-info/licenses/LICENSE
-* /usr/lib/python3.12/site-packages/versioningit-3.1.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/versioningit-3.1.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/versioningit-3.1.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/versioningit-3.1.2.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/versioningit-3.1.2.dist-info/licenses/LICENSE
+* /usr/lib/python3.12/site-packages/versioningit-3.1.2.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/versioningit-3.1.2.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/versioningit-3.1.2.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/versioningit/basics.py
 * /usr/lib/python3.12/site-packages/versioningit/cmdclass.py
 * /usr/lib/python3.12/site-packages/versioningit/config.py
@@ -75,5 +75,5 @@ Pathlib-compatible object wrapper for zip files
 * /usr/lib/python3.12/site-packages/versioningit/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/versioningit/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/versioningit/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-versioningit-3.1.1/LICENSE
-* /usr/share/doc/python3-versioningit-3.1.1/README.rst
+* /usr/share/doc/python3-versioningit-3.1.2/LICENSE
+* /usr/share/doc/python3-versioningit-3.1.2/README.rst

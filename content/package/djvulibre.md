@@ -12,7 +12,7 @@ size = "962860"
 usize = "3148269"
 sha1sum = "69cfe4c66ef8e254f047bda4e19bfd220766ecdd"
 depends = "['libjpeg-turbo', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6-2', 'xdg-utils']"
-reverse_depends = "['./imagemagick', './okular', 'imagemagick', 'okular']"
+reverse_depends = "['imagemagick', 'okular']"
 +++
 ### Description: 
 DjVu is a web-centric format for distributing documents and images.

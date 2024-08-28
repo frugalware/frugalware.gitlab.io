@@ -12,7 +12,7 @@ size = "722400"
 usize = "787478"
 sha1sum = "7257825cb977ddbd78ec8397f00e992f90744f9d"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Chinese Traditional language support for Thunderbird

@@ -12,7 +12,7 @@ size = "45437252"
 usize = "72520759"
 sha1sum = "f0101a04cad114ceae2c4c7f2b00bfa53877802b"
 depends = "['curl', 'icu4c>=75.1', 'lapack>=3.6.0-2', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'pango>=1.38.1-2', 'readline>=8.0', 'tk>=8.6.4']"
-reverse_depends = "['./cantor', 'cantor', 'rkward']"
+reverse_depends = "['cantor', 'rkward']"
 +++
 ### Description: 
 R is a language and environment for statistical computing and graphics.

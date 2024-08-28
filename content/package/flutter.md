@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flutter 3.22.3-1"
-version = "3.22.3-1"
+title = "flutter 3.24.1-1"
+version = "3.24.1-1"
 description = "A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android."
-date = "2024-07-22T09:22:32"
+date = "2024-08-27T13:19:08"
 aliases = "/packages/220938"
 categories = ['devel-extra']
 upstreamurl = "https://flutter.dev"
 arch = "x86_64"
-size = "753264004"
-usize = "1781260493"
-sha1sum = "1c8f28d861969a6c33accd581c93982b86823142"
+size = "694293092"
+usize = "1662456039"
+sha1sum = "b706044b8a85a8d2085ec3746b2fc84377d9eac6"
 depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
 ### Description: 
@@ -42,33 +42,31 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.git/info/refs
 * /opt/flutter/.git/logs/HEAD
 * /opt/flutter/.git/logs/refs/heads/stable
+* /opt/flutter/.git/logs/refs/remotes/origin/beta
+* /opt/flutter/.git/logs/refs/remotes/origin/dds_4.2.5+1
+* /opt/flutter/.git/logs/refs/remotes/origin/dds_launcher_take2
 * /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.24-candidate.0
-* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.24-candidate.1
-* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.25-candidate.0
 * /opt/flutter/.git/logs/refs/remotes/origin/HEAD
 * /opt/flutter/.git/logs/refs/remotes/origin/main
 * /opt/flutter/.git/logs/refs/remotes/origin/master
-* /opt/flutter/.git/logs/refs/remotes/origin/reidbaker-postmortem-android-14-platform-views-background
-* /opt/flutter/.git/logs/refs/remotes/origin/repo-merge-experiment
 * /opt/flutter/.git/objects/info/commit-graph
 * /opt/flutter/.git/objects/info/packs
-* /opt/flutter/.git/objects/pack/pack-c244992f8e2bfa7e2a39a582ff4c0eb70d2cd081.idx
-* /opt/flutter/.git/objects/pack/pack-c244992f8e2bfa7e2a39a582ff4c0eb70d2cd081.pack
-* /opt/flutter/.git/objects/pack/pack-c244992f8e2bfa7e2a39a582ff4c0eb70d2cd081.rev
-* /opt/flutter/.git/objects/pack/pack-d36b4b04e3f68a1538fd2031e86b82d94bf0428e.idx
-* /opt/flutter/.git/objects/pack/pack-d36b4b04e3f68a1538fd2031e86b82d94bf0428e.pack
-* /opt/flutter/.git/objects/pack/pack-d36b4b04e3f68a1538fd2031e86b82d94bf0428e.rev
+* /opt/flutter/.git/objects/pack/pack-0b1cc1057a2528bbcd9ae8ee40a0cd5093dd16e1.idx
+* /opt/flutter/.git/objects/pack/pack-0b1cc1057a2528bbcd9ae8ee40a0cd5093dd16e1.pack
+* /opt/flutter/.git/objects/pack/pack-0b1cc1057a2528bbcd9ae8ee40a0cd5093dd16e1.rev
+* /opt/flutter/.git/objects/pack/pack-9794cb15246c38355944e0a8a0c81fa71db8a6c8.idx
+* /opt/flutter/.git/objects/pack/pack-9794cb15246c38355944e0a8a0c81fa71db8a6c8.pack
+* /opt/flutter/.git/objects/pack/pack-9794cb15246c38355944e0a8a0c81fa71db8a6c8.rev
 * /opt/flutter/.git/ORIG_HEAD
 * /opt/flutter/.git/packed-refs
+* /opt/flutter/.git/refs/remotes/origin/beta
+* /opt/flutter/.git/refs/remotes/origin/dds_4.2.5+1
+* /opt/flutter/.git/refs/remotes/origin/dds_launcher_take2
 * /opt/flutter/.git/refs/remotes/origin/flutter-3.24-candidate.0
-* /opt/flutter/.git/refs/remotes/origin/flutter-3.24-candidate.1
-* /opt/flutter/.git/refs/remotes/origin/flutter-3.25-candidate.0
 * /opt/flutter/.git/refs/remotes/origin/HEAD
 * /opt/flutter/.git/refs/remotes/origin/main
 * /opt/flutter/.git/refs/remotes/origin/master
-* /opt/flutter/.git/refs/remotes/origin/reidbaker-postmortem-android-14-platform-views-background
-* /opt/flutter/.git/refs/remotes/origin/repo-merge-experiment
-* /opt/flutter/.git/refs/tags/3.25.0-0.0.pre
+* /opt/flutter/.git/refs/tags/3.25.0-0.1.pre
 * /opt/flutter/.gitattributes
 * /opt/flutter/.github/dependabot.yml
 * /opt/flutter/.github/ISSUE_TEMPLATE/10_feature.yml
@@ -281,7 +279,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.pub-preload-cache/video_player_avfoundation-2.6.1.tar.gz
 * /opt/flutter/.pub-preload-cache/video_player_platform_interface-6.2.2.tar.gz
 * /opt/flutter/.pub-preload-cache/video_player_web-2.3.1.tar.gz
-* /opt/flutter/.pub-preload-cache/vm_service-14.2.4.tar.gz
+* /opt/flutter/.pub-preload-cache/vm_service-14.2.5.tar.gz
 * /opt/flutter/.pub-preload-cache/vm_service_interface-1.1.0.tar.gz
 * /opt/flutter/.pub-preload-cache/vm_snapshot_analysis-0.7.6.tar.gz
 * /opt/flutter/.pub-preload-cache/watcher-1.1.0.tar.gz
@@ -10858,6 +10856,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/TESTOWNERS
 * /opt/flutter/version
 * /usr/bin/flutter
-* /usr/share/doc/flutter-3.24.0/AUTHORS
-* /usr/share/doc/flutter-3.24.0/LICENSE
-* /usr/share/doc/flutter-3.24.0/README.md
+* /usr/share/doc/flutter-3.24.1/AUTHORS
+* /usr/share/doc/flutter-3.24.1/LICENSE
+* /usr/share/doc/flutter-3.24.1/README.md

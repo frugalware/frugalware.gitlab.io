@@ -12,7 +12,7 @@ size = "113192"
 usize = "351985"
 sha1sum = "bf3aa7be09c9f06f6dd8d8dbc1966b069901a30c"
 depends = "['lib32-sdl2']"
-reverse_depends = "['./wine-devel', 'wine', 'wine-devel']"
+reverse_depends = "['wine', 'wine-devel']"
 +++
 ### Description: 
 XAudio2 reimplementation ( 32bit )

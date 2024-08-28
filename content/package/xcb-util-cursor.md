@@ -12,7 +12,7 @@ size = "21572"
 usize = "66046"
 sha1sum = "6d21f6cd3a7fe9d6ba447167bf1ed02e0aa5d457"
 depends = "['xcb-util-image>=0.4.0-3']"
-reverse_depends = "['./spectacle', 'i3', 'qt6-base', 'spectacle']"
+reverse_depends = "['i3', 'qt6-base', 'spectacle']"
 +++
 ### Description: 
 cursor libraries for X C Binding

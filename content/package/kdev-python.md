@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./kdev-python 24.08.0-1"
+title = "kdev-python 24.08.0-1"
 version = "24.08.0-1"
 description = "Python Language Plugin for KDevelop"
 date = "2024-08-23T10:18:59"
-aliases = "/packages/222470"
+aliases = "/packages/220976"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,196 +17,196 @@ depends = "['kdevelop', 'python3>=3.12']"
 Python Language Plugin for KDevelop
 
 ### Files: 
-* kdev-python /usr/lib/libkdevpythoncompletion.so
-* kdev-python /usr/lib/libkdevpythonduchain.so
-* kdev-python /usr/lib/libkdevpythonparser.so
-* kdev-python /usr/lib/qt6/plugins/kdevplatform/60/kdevpdb.so
-* kdev-python /usr/lib/qt6/plugins/kdevplatform/60/kdevpythonlanguagesupport.so
-* kdev-python /usr/share/doc/kdev-python-24.08.0/INSTALL
-* kdev-python /usr/share/doc/kdev-python-24.08.0/README
-* kdev-python /usr/share/doc/kdev-python-24.08.0/README.packagers
-* kdev-python /usr/share/kdevappwizard/templates/django_project.tar.bz2
-* kdev-python /usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2
-* kdev-python /usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2
-* kdev-python /usr/share/kdevpythonsupport/codestyle.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/matplotlib/artist.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/matplotlib/backend_bases.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/matplotlib/figure.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/matplotlib/pyplot.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/matplotlib/_pylab_helpers.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/re.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/string.py
-* kdev-python /usr/share/kdevpythonsupport/correction_files/testCorrectionFiles/example.py
-* kdev-python /usr/share/kdevpythonsupport/debugger/kdevpdb.py
-* kdev-python /usr/share/kdevpythonsupport/debugger/__kdevpython_debugger_utils.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/array.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/audioop.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/binascii.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/builtindocumentation.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/bz2.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/cmath.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/COPYING
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/cPickle.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/crypt.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/cStringIO.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/dbm.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/errno.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/exceptions.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/fcntl.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/future_builtins.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/gc.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/gdbm.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/grp.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/imp.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/io.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/itertools.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/linuxaudiodev.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/marshal.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/math.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/mmap.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/nis.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/numpy.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/operator.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/ossaudiodev.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/parser.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/posix.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/pwd.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/pyexpat.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/akonadi.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/dnssd.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kdecore.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kdeui.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/khtml.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kio.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/knewstuff.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kparts.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kterminal.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/ktexteditor.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kutils.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/nepomuk.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/parse_xml.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/phonon.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/plasma.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/polkitqt.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/solid.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyKDE4/soprano.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/phonon.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/Qt.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtAssistant.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtCore.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDBus.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDeclarative.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDesigner.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtGui.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtHelp.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtMultimedia.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtNetwork.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtOpenGL.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtScript.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtScriptTools.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtSql.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtSvg.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtTest.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtWebKit.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtXml.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtXmlPatterns.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QAxContainer.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/Qt.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtBluetooth.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtCore.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtDBus.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtDesigner.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtGui.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtHelp.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtLocation.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMacExtras.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMultimedia.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMultimediaWidgets.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtNetwork.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtNfc.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtOpenGL.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtPositioning.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtPrintSupport.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQml.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQuick.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQuickWidgets.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSensors.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSerialPort.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSql.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSvg.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtTest.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebChannel.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebEngineWidgets.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebKit.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebKitWidgets.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebSockets.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWidgets.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWinExtras.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtX11Extras.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtXml.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtXmlPatterns.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/readline.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/resource.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/select.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/signal.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/spwd.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/strop.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/sys.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/syslog.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/termios.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/thread.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/time.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/unicodedata.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/zipimport.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/zlib.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/_collections.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/_sre.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/__builtin_constants__.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/__builtin_types__.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/__builtin__.py
-* kdev-python /usr/share/kdevpythonsupport/documentation_files/__future__.py
-* kdev-python /usr/share/kdevpythonsupport/scripts/introspect.py
-* kdev-python /usr/share/locale/bs/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ca/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ca@valencia/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/cs/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/da/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/de/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/en_GB/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/eo/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/es/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/et/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/eu/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/fi/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/fr/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ga/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/gl/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/he/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/hu/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/it/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ja/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ka/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/kk/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ko/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/lt/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/mai/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/mr/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/nds/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/nl/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/nn/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/pl/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/pt/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/pt_BR/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ro/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ru/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/sk/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/sl/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/sv/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/th/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/tr/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/ug/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/uk/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/zh_CN/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/locale/zh_TW/LC_MESSAGES/kdevpython.mo
-* kdev-python /usr/share/metainfo/org.kde.kdev-python.metainfo.xml
-* kdev-python /usr/share/qlogging-categories6/kdevpythonsupport.categories
+* /usr/lib/libkdevpythoncompletion.so
+* /usr/lib/libkdevpythonduchain.so
+* /usr/lib/libkdevpythonparser.so
+* /usr/lib/qt6/plugins/kdevplatform/60/kdevpdb.so
+* /usr/lib/qt6/plugins/kdevplatform/60/kdevpythonlanguagesupport.so
+* /usr/share/doc/kdev-python-24.08.0/INSTALL
+* /usr/share/doc/kdev-python-24.08.0/README
+* /usr/share/doc/kdev-python-24.08.0/README.packagers
+* /usr/share/kdevappwizard/templates/django_project.tar.bz2
+* /usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2
+* /usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2
+* /usr/share/kdevpythonsupport/codestyle.py
+* /usr/share/kdevpythonsupport/correction_files/matplotlib/artist.py
+* /usr/share/kdevpythonsupport/correction_files/matplotlib/backend_bases.py
+* /usr/share/kdevpythonsupport/correction_files/matplotlib/figure.py
+* /usr/share/kdevpythonsupport/correction_files/matplotlib/pyplot.py
+* /usr/share/kdevpythonsupport/correction_files/matplotlib/_pylab_helpers.py
+* /usr/share/kdevpythonsupport/correction_files/re.py
+* /usr/share/kdevpythonsupport/correction_files/string.py
+* /usr/share/kdevpythonsupport/correction_files/testCorrectionFiles/example.py
+* /usr/share/kdevpythonsupport/debugger/kdevpdb.py
+* /usr/share/kdevpythonsupport/debugger/__kdevpython_debugger_utils.py
+* /usr/share/kdevpythonsupport/documentation_files/array.py
+* /usr/share/kdevpythonsupport/documentation_files/audioop.py
+* /usr/share/kdevpythonsupport/documentation_files/binascii.py
+* /usr/share/kdevpythonsupport/documentation_files/builtindocumentation.py
+* /usr/share/kdevpythonsupport/documentation_files/bz2.py
+* /usr/share/kdevpythonsupport/documentation_files/cmath.py
+* /usr/share/kdevpythonsupport/documentation_files/COPYING
+* /usr/share/kdevpythonsupport/documentation_files/cPickle.py
+* /usr/share/kdevpythonsupport/documentation_files/crypt.py
+* /usr/share/kdevpythonsupport/documentation_files/cStringIO.py
+* /usr/share/kdevpythonsupport/documentation_files/dbm.py
+* /usr/share/kdevpythonsupport/documentation_files/errno.py
+* /usr/share/kdevpythonsupport/documentation_files/exceptions.py
+* /usr/share/kdevpythonsupport/documentation_files/fcntl.py
+* /usr/share/kdevpythonsupport/documentation_files/future_builtins.py
+* /usr/share/kdevpythonsupport/documentation_files/gc.py
+* /usr/share/kdevpythonsupport/documentation_files/gdbm.py
+* /usr/share/kdevpythonsupport/documentation_files/grp.py
+* /usr/share/kdevpythonsupport/documentation_files/imp.py
+* /usr/share/kdevpythonsupport/documentation_files/io.py
+* /usr/share/kdevpythonsupport/documentation_files/itertools.py
+* /usr/share/kdevpythonsupport/documentation_files/linuxaudiodev.py
+* /usr/share/kdevpythonsupport/documentation_files/marshal.py
+* /usr/share/kdevpythonsupport/documentation_files/math.py
+* /usr/share/kdevpythonsupport/documentation_files/mmap.py
+* /usr/share/kdevpythonsupport/documentation_files/nis.py
+* /usr/share/kdevpythonsupport/documentation_files/numpy.py
+* /usr/share/kdevpythonsupport/documentation_files/operator.py
+* /usr/share/kdevpythonsupport/documentation_files/ossaudiodev.py
+* /usr/share/kdevpythonsupport/documentation_files/parser.py
+* /usr/share/kdevpythonsupport/documentation_files/posix.py
+* /usr/share/kdevpythonsupport/documentation_files/pwd.py
+* /usr/share/kdevpythonsupport/documentation_files/pyexpat.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/akonadi.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/dnssd.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kdecore.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kdeui.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/khtml.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kio.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/knewstuff.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kparts.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kterminal.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/ktexteditor.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/kutils.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/nepomuk.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/parse_xml.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/phonon.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/plasma.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/polkitqt.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/solid.py
+* /usr/share/kdevpythonsupport/documentation_files/PyKDE4/soprano.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/phonon.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/Qt.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtAssistant.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtCore.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDBus.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDeclarative.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDesigner.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtGui.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtHelp.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtMultimedia.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtNetwork.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtOpenGL.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtScript.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtScriptTools.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtSql.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtSvg.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtTest.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtWebKit.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtXml.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt4/QtXmlPatterns.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QAxContainer.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/Qt.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtBluetooth.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtCore.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtDBus.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtDesigner.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtGui.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtHelp.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtLocation.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMacExtras.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMultimedia.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMultimediaWidgets.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtNetwork.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtNfc.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtOpenGL.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtPositioning.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtPrintSupport.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQml.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQuick.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQuickWidgets.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSensors.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSerialPort.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSql.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSvg.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtTest.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebChannel.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebEngineWidgets.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebKit.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebKitWidgets.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebSockets.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWidgets.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWinExtras.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtX11Extras.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtXml.py
+* /usr/share/kdevpythonsupport/documentation_files/PyQt5/QtXmlPatterns.py
+* /usr/share/kdevpythonsupport/documentation_files/readline.py
+* /usr/share/kdevpythonsupport/documentation_files/resource.py
+* /usr/share/kdevpythonsupport/documentation_files/select.py
+* /usr/share/kdevpythonsupport/documentation_files/signal.py
+* /usr/share/kdevpythonsupport/documentation_files/spwd.py
+* /usr/share/kdevpythonsupport/documentation_files/strop.py
+* /usr/share/kdevpythonsupport/documentation_files/sys.py
+* /usr/share/kdevpythonsupport/documentation_files/syslog.py
+* /usr/share/kdevpythonsupport/documentation_files/termios.py
+* /usr/share/kdevpythonsupport/documentation_files/thread.py
+* /usr/share/kdevpythonsupport/documentation_files/time.py
+* /usr/share/kdevpythonsupport/documentation_files/unicodedata.py
+* /usr/share/kdevpythonsupport/documentation_files/zipimport.py
+* /usr/share/kdevpythonsupport/documentation_files/zlib.py
+* /usr/share/kdevpythonsupport/documentation_files/_collections.py
+* /usr/share/kdevpythonsupport/documentation_files/_sre.py
+* /usr/share/kdevpythonsupport/documentation_files/__builtin_constants__.py
+* /usr/share/kdevpythonsupport/documentation_files/__builtin_types__.py
+* /usr/share/kdevpythonsupport/documentation_files/__builtin__.py
+* /usr/share/kdevpythonsupport/documentation_files/__future__.py
+* /usr/share/kdevpythonsupport/scripts/introspect.py
+* /usr/share/locale/bs/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ca/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/cs/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/da/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/de/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/eo/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/es/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/et/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/fi/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/fr/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ga/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/gl/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/he/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/hu/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/it/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ja/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ka/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/kk/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ko/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/lt/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/mai/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/mr/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/nds/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/nl/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/nn/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/pl/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/pt/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ro/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ru/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/sk/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/sl/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/sv/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/th/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/tr/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/ug/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/uk/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kdevpython.mo
+* /usr/share/metainfo/org.kde.kdev-python.metainfo.xml
+* /usr/share/qlogging-categories6/kdevpythonsupport.categories

@@ -12,7 +12,7 @@ size = "66740"
 usize = "248519"
 sha1sum = "f6f2f471fe45bb2eecb597bb80ecb5551fdc8135"
 depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.14']"
-reverse_depends = "['kio-extras-kf5', 'krdc', 'smb4k']"
+reverse_depends = "['kio-extras-kf5', 'smb4k']"
 +++
 ### Description: 
 Zeroconf Support for KDE.

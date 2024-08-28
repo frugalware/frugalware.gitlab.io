@@ -12,7 +12,7 @@ size = "886424"
 usize = "3714902"
 sha1sum = "a3e94e3f8813c85c7d986d3120ce9043b8ef9203"
 depends = "['glibc>=2.29-6', 'libcap>=2.25-3', 'xfsprogs-acl>=2.2.52-4', 'xfsprogs-attr>=2.4.47-4']"
-reverse_depends = "['./k3b', 'k3b', 'libguestfs', 'wimlib']"
+reverse_depends = "['k3b', 'libguestfs', 'wimlib']"
 +++
 ### Description: 
 Tools for recording CDs

@@ -12,7 +12,7 @@ size = "22288"
 usize = "71869"
 sha1sum = "696092a4dbaec33f0ae57a057c068cfb5af86ffd"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.1.5-4', 'lib32-libxrender>=0.9.10']"
-reverse_depends = "['./wine-devel', 'lib32-gtk+2-libs', 'wine', 'wine-devel']"
+reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
 ### Description: 
 X RandR Library ( 32bit )

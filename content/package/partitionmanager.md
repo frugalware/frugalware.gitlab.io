@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "partitionmanager 24.05.2-1"
-version = "24.05.2-1"
+title = "partitionmanager 24.08.0-1"
+version = "24.08.0-1"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2024-07-05T12:37:37"
+date = "2024-08-22T21:22:51"
 aliases = "/packages/118282"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2390720"
-usize = "6678905"
-sha1sum = "1441928d77d7b12c6a1edfc2c34119fc8720cb86"
-depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.3.0', 'kio>=6.3.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
+size = "2394504"
+usize = "6713419"
+sha1sum = "09c08b18be62445d7eb5627ba30c41c71c3f811b"
+depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.5.0', 'kio>=6.5.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 
 A Kf5 utility that allows you to manage disks, partitions, and file systems.
@@ -229,8 +229,8 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/uk/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/usermanual.docbook
-* /usr/share/doc/partitionmanager-24.05.2/INSTALL.md
-* /usr/share/doc/partitionmanager-24.05.2/README.md
+* /usr/share/doc/partitionmanager-24.08.0/INSTALL.md
+* /usr/share/doc/partitionmanager-24.08.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/partitionmanager.svg
 * /usr/share/locale/ar/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ast/LC_MESSAGES/partitionmanager.mo
@@ -252,6 +252,7 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/locale/fr/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ga/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/gl/LC_MESSAGES/partitionmanager.mo
+* /usr/share/locale/he/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/hr/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/hu/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ia/LC_MESSAGES/partitionmanager.mo

@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./clamav 1.4.0-1"
+title = "clamav 1.4.0-1"
 version = "1.4.0-1"
 description = "Clam AntiVirus is a GPL anti-virus toolkit for UNIX"
 date = "2024-08-21T12:46:37"
-aliases = "/packages/222356"
+aliases = "/packages/2948"
 categories = ['apps-extra']
 upstreamurl = "https://www.clamav.net"
 arch = "x86_64"
@@ -12,193 +12,194 @@ size = "8360476"
 usize = "43211253"
 sha1sum = "d1fe081131b579c6328d239b94202947b7e98b35"
 depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2', 'ncurses>=6.5', 'openssl>=3.1.0', 'pcre2', 'shadow']"
+reverse_depends = "['klamav']"
 +++
 ### Description: 
 Clam AntiVirus is a GPL anti-virus toolkit for UNIX
 
 ### Files: 
-* clamav /etc/clamav/clamd.conf
-* clamav /etc/clamav/freshclam.conf
-* clamav /usr/bin/clamav-config
-* clamav /usr/bin/clambc
-* clamav /usr/bin/clamconf
-* clamav /usr/bin/clamd
-* clamav /usr/bin/clamdscan
-* clamav /usr/bin/clamdtop
-* clamav /usr/bin/clamonacc
-* clamav /usr/bin/clamscan
-* clamav /usr/bin/clamsubmit
-* clamav /usr/bin/freshclam
-* clamav /usr/bin/sigtool
-* clamav /usr/include/clamav-types.h
-* clamav /usr/include/clamav-version.h
-* clamav /usr/include/clamav.h
-* clamav /usr/include/libfreshclam.h
-* clamav /usr/lib/libclamav.so
-* clamav /usr/lib/libclamav.so.12
-* clamav /usr/lib/libclamav.so.12.0.3
-* clamav /usr/lib/libclamunrar.so
-* clamav /usr/lib/libclamunrar.so.12
-* clamav /usr/lib/libclamunrar.so.12.0.3
-* clamav /usr/lib/libclamunrar_iface.so
-* clamav /usr/lib/libclamunrar_iface.so.12
-* clamav /usr/lib/libclamunrar_iface.so.12.0.3
-* clamav /usr/lib/libfreshclam.so
-* clamav /usr/lib/libfreshclam.so.3
-* clamav /usr/lib/libfreshclam.so.3.0.2
-* clamav /usr/lib/pkgconfig/libclamav.pc
-* clamav /usr/lib/systemd/system/clamav-clamonacc.service
-* clamav /usr/lib/systemd/system/clamav-daemon.service
-* clamav /usr/lib/systemd/system/clamav-daemon.socket
-* clamav /usr/lib/systemd/system/clamav-freshclam-once.service
-* clamav /usr/lib/systemd/system/clamav-freshclam-once.timer
-* clamav /usr/lib/systemd/system/clamav-freshclam.service
-* clamav /usr/lib/sysusers.d/clamav.conf
-* clamav /usr/lib/tmpfiles.d/clamav.conf
-* clamav /usr/share/doc/clamav-1.4.0/COPYING.txt
-* clamav /usr/share/doc/clamav-1.4.0/INSTALL-cross-linux-arm64.md
-* clamav /usr/share/doc/clamav-1.4.0/INSTALL-cross-windows-arm64.md
-* clamav /usr/share/doc/clamav-1.4.0/INSTALL.md
-* clamav /usr/share/doc/clamav-1.4.0/README.Docker.md
-* clamav /usr/share/doc/clamav-1.4.0/README.md
-* clamav /usr/share/doc/ClamAV/html/404.html
-* clamav /usr/share/doc/ClamAV/html/ace.js
-* clamav /usr/share/doc/ClamAV/html/appendix/Appendix.html
-* clamav /usr/share/doc/ClamAV/html/appendix/Authenticode.html
-* clamav /usr/share/doc/ClamAV/html/appendix/CvdPrivateMirror.html
-* clamav /usr/share/doc/ClamAV/html/appendix/FileTypes.html
-* clamav /usr/share/doc/ClamAV/html/appendix/FunctionalityLevels.html
-* clamav /usr/share/doc/ClamAV/html/appendix/Terminology.html
-* clamav /usr/share/doc/ClamAV/html/ayu-highlight.css
-* clamav /usr/share/doc/ClamAV/html/book.js
-* clamav /usr/share/doc/ClamAV/html/clipboard.min.js
-* clamav /usr/share/doc/ClamAV/html/community_resources/CommunityResources.html
-* clamav /usr/share/doc/ClamAV/html/community_resources/CompileClamAV_AmazonLinux2.txt
-* clamav /usr/share/doc/ClamAV/html/css/chrome.css
-* clamav /usr/share/doc/ClamAV/html/css/general.css
-* clamav /usr/share/doc/ClamAV/html/css/print.css
-* clamav /usr/share/doc/ClamAV/html/css/variables.css
-* clamav /usr/share/doc/ClamAV/html/editor.js
-* clamav /usr/share/doc/ClamAV/html/elasticlunr.min.js
-* clamav /usr/share/doc/ClamAV/html/faq/faq-cvd.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-eol.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-freshclam.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-ignore.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-malware-fp-reports.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-misc.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-ml.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-pua.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-rust.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-safebrowsing.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-scan-alerts.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-troubleshoot.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-uninstall.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-upgrade.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-whichversion.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq-win32.html
-* clamav /usr/share/doc/ClamAV/html/faq/faq.html
-* clamav /usr/share/doc/ClamAV/html/favicon.png
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/css/font-awesome.css
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.eot
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.svg
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.ttf
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.woff
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.woff2
-* clamav /usr/share/doc/ClamAV/html/FontAwesome/fonts/FontAwesome.ttf
-* clamav /usr/share/doc/ClamAV/html/fonts/fonts.css
-* clamav /usr/share/doc/ClamAV/html/fonts/OPEN-SANS-LICENSE.txt
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-300.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-300italic.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-600.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-600italic.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-700.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-700italic.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-800.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-800italic.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-italic.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-regular.woff2
-* clamav /usr/share/doc/ClamAV/html/fonts/SOURCE-CODE-PRO-LICENSE.txt
-* clamav /usr/share/doc/ClamAV/html/fonts/source-code-pro-v11-all-charsets-500.woff2
-* clamav /usr/share/doc/ClamAV/html/googled62299e9391332c4.html
-* clamav /usr/share/doc/ClamAV/html/highlight.css
-* clamav /usr/share/doc/ClamAV/html/highlight.js
-* clamav /usr/share/doc/ClamAV/html/images/change-fork-name.png
-* clamav /usr/share/doc/ClamAV/html/images/cisco.png
-* clamav /usr/share/doc/ClamAV/html/images/clamav-git-workflow.png
-* clamav /usr/share/doc/ClamAV/html/images/clone-your-fork.png
-* clamav /usr/share/doc/ClamAV/html/images/create-a-fork.png
-* clamav /usr/share/doc/ClamAV/html/images/demon.png
-* clamav /usr/share/doc/ClamAV/html/images/flamegraph.svg
-* clamav /usr/share/doc/ClamAV/html/images/fork-is-behind.png
-* clamav /usr/share/doc/ClamAV/html/images/logo.png
-* clamav /usr/share/doc/ClamAV/html/index.html
-* clamav /usr/share/doc/ClamAV/html/Introduction.html
-* clamav /usr/share/doc/ClamAV/html/manual/cisco-talos.gpg
-* clamav /usr/share/doc/ClamAV/html/manual/Development.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/build-installer-packages.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/clamav-git-work-flow.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/code-coverage.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/Contribute.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/development-builds.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/fuzzing-sanitizers.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/github-pr-basics.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/libclamav.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/performance-profiling.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/personal-forks.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/testing-pull-requests.html
-* clamav /usr/share/doc/ClamAV/html/manual/Development/tips-and-tricks.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Add-clamav-user.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Community-projects.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Docker.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Installing-from-source-Unix-old.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Installing-from-source-Unix.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Installing-from-source-Windows.html
-* clamav /usr/share/doc/ClamAV/html/manual/Installing/Packages.html
-* clamav /usr/share/doc/ClamAV/html/manual/OnAccess.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/AllowLists.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/AuthenticodeRules.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/BodySignatureFormat.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/BytecodeSignatures.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/ContainerMetadata.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/DatabaseInfo.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/DynamicConfig.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/EncryptedArchives.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/ExtendedSignatures.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/FileTypeMagic.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/HashSignatures.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/LogicalSignatures.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/PhishSigs.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/SignatureNames.html
-* clamav /usr/share/doc/ClamAV/html/manual/Signatures/YaraRules.html
-* clamav /usr/share/doc/ClamAV/html/manual/Usage.html
-* clamav /usr/share/doc/ClamAV/html/manual/Usage/Configuration.html
-* clamav /usr/share/doc/ClamAV/html/manual/Usage/ReportABug.html
-* clamav /usr/share/doc/ClamAV/html/manual/Usage/Scanning.html
-* clamav /usr/share/doc/ClamAV/html/manual/Usage/Services.html
-* clamav /usr/share/doc/ClamAV/html/manual/Usage/SignatureManagement.html
-* clamav /usr/share/doc/ClamAV/html/mark.min.js
-* clamav /usr/share/doc/ClamAV/html/mode-rust.js
-* clamav /usr/share/doc/ClamAV/html/print.html
-* clamav /usr/share/doc/ClamAV/html/searcher.js
-* clamav /usr/share/doc/ClamAV/html/searchindex.js
-* clamav /usr/share/doc/ClamAV/html/searchindex.json
-* clamav /usr/share/doc/ClamAV/html/sitemap.xml
-* clamav /usr/share/doc/ClamAV/html/theme-dawn.js
-* clamav /usr/share/doc/ClamAV/html/theme-tomorrow_night.js
-* clamav /usr/share/doc/ClamAV/html/tomorrow-night.css
-* clamav /usr/share/man/man1/clambc.1.gz
-* clamav /usr/share/man/man1/clamconf.1.gz
-* clamav /usr/share/man/man1/clamdscan.1.gz
-* clamav /usr/share/man/man1/clamdtop.1.gz
-* clamav /usr/share/man/man1/clamscan.1.gz
-* clamav /usr/share/man/man1/clamsubmit.1.gz
-* clamav /usr/share/man/man1/freshclam.1.gz
-* clamav /usr/share/man/man1/sigtool.1.gz
-* clamav /usr/share/man/man5/clamav-milter.conf.5.gz
-* clamav /usr/share/man/man5/clamd.conf.5.gz
-* clamav /usr/share/man/man5/freshclam.conf.5.gz
-* clamav /usr/share/man/man8/clamav-milter.8.gz
-* clamav /usr/share/man/man8/clamd.8.gz
-* clamav /usr/share/man/man8/clamonacc.8.gz
+* /etc/clamav/clamd.conf
+* /etc/clamav/freshclam.conf
+* /usr/bin/clamav-config
+* /usr/bin/clambc
+* /usr/bin/clamconf
+* /usr/bin/clamd
+* /usr/bin/clamdscan
+* /usr/bin/clamdtop
+* /usr/bin/clamonacc
+* /usr/bin/clamscan
+* /usr/bin/clamsubmit
+* /usr/bin/freshclam
+* /usr/bin/sigtool
+* /usr/include/clamav-types.h
+* /usr/include/clamav-version.h
+* /usr/include/clamav.h
+* /usr/include/libfreshclam.h
+* /usr/lib/libclamav.so
+* /usr/lib/libclamav.so.12
+* /usr/lib/libclamav.so.12.0.3
+* /usr/lib/libclamunrar.so
+* /usr/lib/libclamunrar.so.12
+* /usr/lib/libclamunrar.so.12.0.3
+* /usr/lib/libclamunrar_iface.so
+* /usr/lib/libclamunrar_iface.so.12
+* /usr/lib/libclamunrar_iface.so.12.0.3
+* /usr/lib/libfreshclam.so
+* /usr/lib/libfreshclam.so.3
+* /usr/lib/libfreshclam.so.3.0.2
+* /usr/lib/pkgconfig/libclamav.pc
+* /usr/lib/systemd/system/clamav-clamonacc.service
+* /usr/lib/systemd/system/clamav-daemon.service
+* /usr/lib/systemd/system/clamav-daemon.socket
+* /usr/lib/systemd/system/clamav-freshclam-once.service
+* /usr/lib/systemd/system/clamav-freshclam-once.timer
+* /usr/lib/systemd/system/clamav-freshclam.service
+* /usr/lib/sysusers.d/clamav.conf
+* /usr/lib/tmpfiles.d/clamav.conf
+* /usr/share/doc/clamav-1.4.0/COPYING.txt
+* /usr/share/doc/clamav-1.4.0/INSTALL-cross-linux-arm64.md
+* /usr/share/doc/clamav-1.4.0/INSTALL-cross-windows-arm64.md
+* /usr/share/doc/clamav-1.4.0/INSTALL.md
+* /usr/share/doc/clamav-1.4.0/README.Docker.md
+* /usr/share/doc/clamav-1.4.0/README.md
+* /usr/share/doc/ClamAV/html/404.html
+* /usr/share/doc/ClamAV/html/ace.js
+* /usr/share/doc/ClamAV/html/appendix/Appendix.html
+* /usr/share/doc/ClamAV/html/appendix/Authenticode.html
+* /usr/share/doc/ClamAV/html/appendix/CvdPrivateMirror.html
+* /usr/share/doc/ClamAV/html/appendix/FileTypes.html
+* /usr/share/doc/ClamAV/html/appendix/FunctionalityLevels.html
+* /usr/share/doc/ClamAV/html/appendix/Terminology.html
+* /usr/share/doc/ClamAV/html/ayu-highlight.css
+* /usr/share/doc/ClamAV/html/book.js
+* /usr/share/doc/ClamAV/html/clipboard.min.js
+* /usr/share/doc/ClamAV/html/community_resources/CommunityResources.html
+* /usr/share/doc/ClamAV/html/community_resources/CompileClamAV_AmazonLinux2.txt
+* /usr/share/doc/ClamAV/html/css/chrome.css
+* /usr/share/doc/ClamAV/html/css/general.css
+* /usr/share/doc/ClamAV/html/css/print.css
+* /usr/share/doc/ClamAV/html/css/variables.css
+* /usr/share/doc/ClamAV/html/editor.js
+* /usr/share/doc/ClamAV/html/elasticlunr.min.js
+* /usr/share/doc/ClamAV/html/faq/faq-cvd.html
+* /usr/share/doc/ClamAV/html/faq/faq-eol.html
+* /usr/share/doc/ClamAV/html/faq/faq-freshclam.html
+* /usr/share/doc/ClamAV/html/faq/faq-ignore.html
+* /usr/share/doc/ClamAV/html/faq/faq-malware-fp-reports.html
+* /usr/share/doc/ClamAV/html/faq/faq-misc.html
+* /usr/share/doc/ClamAV/html/faq/faq-ml.html
+* /usr/share/doc/ClamAV/html/faq/faq-pua.html
+* /usr/share/doc/ClamAV/html/faq/faq-rust.html
+* /usr/share/doc/ClamAV/html/faq/faq-safebrowsing.html
+* /usr/share/doc/ClamAV/html/faq/faq-scan-alerts.html
+* /usr/share/doc/ClamAV/html/faq/faq-troubleshoot.html
+* /usr/share/doc/ClamAV/html/faq/faq-uninstall.html
+* /usr/share/doc/ClamAV/html/faq/faq-upgrade.html
+* /usr/share/doc/ClamAV/html/faq/faq-whichversion.html
+* /usr/share/doc/ClamAV/html/faq/faq-win32.html
+* /usr/share/doc/ClamAV/html/faq/faq.html
+* /usr/share/doc/ClamAV/html/favicon.png
+* /usr/share/doc/ClamAV/html/FontAwesome/css/font-awesome.css
+* /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.eot
+* /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.svg
+* /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.ttf
+* /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.woff
+* /usr/share/doc/ClamAV/html/FontAwesome/fonts/fontawesome-webfont.woff2
+* /usr/share/doc/ClamAV/html/FontAwesome/fonts/FontAwesome.ttf
+* /usr/share/doc/ClamAV/html/fonts/fonts.css
+* /usr/share/doc/ClamAV/html/fonts/OPEN-SANS-LICENSE.txt
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-300.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-300italic.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-600.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-600italic.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-700.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-700italic.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-800.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-800italic.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-italic.woff2
+* /usr/share/doc/ClamAV/html/fonts/open-sans-v17-all-charsets-regular.woff2
+* /usr/share/doc/ClamAV/html/fonts/SOURCE-CODE-PRO-LICENSE.txt
+* /usr/share/doc/ClamAV/html/fonts/source-code-pro-v11-all-charsets-500.woff2
+* /usr/share/doc/ClamAV/html/googled62299e9391332c4.html
+* /usr/share/doc/ClamAV/html/highlight.css
+* /usr/share/doc/ClamAV/html/highlight.js
+* /usr/share/doc/ClamAV/html/images/change-fork-name.png
+* /usr/share/doc/ClamAV/html/images/cisco.png
+* /usr/share/doc/ClamAV/html/images/clamav-git-workflow.png
+* /usr/share/doc/ClamAV/html/images/clone-your-fork.png
+* /usr/share/doc/ClamAV/html/images/create-a-fork.png
+* /usr/share/doc/ClamAV/html/images/demon.png
+* /usr/share/doc/ClamAV/html/images/flamegraph.svg
+* /usr/share/doc/ClamAV/html/images/fork-is-behind.png
+* /usr/share/doc/ClamAV/html/images/logo.png
+* /usr/share/doc/ClamAV/html/index.html
+* /usr/share/doc/ClamAV/html/Introduction.html
+* /usr/share/doc/ClamAV/html/manual/cisco-talos.gpg
+* /usr/share/doc/ClamAV/html/manual/Development.html
+* /usr/share/doc/ClamAV/html/manual/Development/build-installer-packages.html
+* /usr/share/doc/ClamAV/html/manual/Development/clamav-git-work-flow.html
+* /usr/share/doc/ClamAV/html/manual/Development/code-coverage.html
+* /usr/share/doc/ClamAV/html/manual/Development/Contribute.html
+* /usr/share/doc/ClamAV/html/manual/Development/development-builds.html
+* /usr/share/doc/ClamAV/html/manual/Development/fuzzing-sanitizers.html
+* /usr/share/doc/ClamAV/html/manual/Development/github-pr-basics.html
+* /usr/share/doc/ClamAV/html/manual/Development/libclamav.html
+* /usr/share/doc/ClamAV/html/manual/Development/performance-profiling.html
+* /usr/share/doc/ClamAV/html/manual/Development/personal-forks.html
+* /usr/share/doc/ClamAV/html/manual/Development/testing-pull-requests.html
+* /usr/share/doc/ClamAV/html/manual/Development/tips-and-tricks.html
+* /usr/share/doc/ClamAV/html/manual/Installing.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Add-clamav-user.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Community-projects.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Docker.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Installing-from-source-Unix-old.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Installing-from-source-Unix.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Installing-from-source-Windows.html
+* /usr/share/doc/ClamAV/html/manual/Installing/Packages.html
+* /usr/share/doc/ClamAV/html/manual/OnAccess.html
+* /usr/share/doc/ClamAV/html/manual/Signatures.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/AllowLists.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/AuthenticodeRules.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/BodySignatureFormat.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/BytecodeSignatures.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/ContainerMetadata.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/DatabaseInfo.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/DynamicConfig.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/EncryptedArchives.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/ExtendedSignatures.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/FileTypeMagic.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/HashSignatures.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/LogicalSignatures.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/PhishSigs.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/SignatureNames.html
+* /usr/share/doc/ClamAV/html/manual/Signatures/YaraRules.html
+* /usr/share/doc/ClamAV/html/manual/Usage.html
+* /usr/share/doc/ClamAV/html/manual/Usage/Configuration.html
+* /usr/share/doc/ClamAV/html/manual/Usage/ReportABug.html
+* /usr/share/doc/ClamAV/html/manual/Usage/Scanning.html
+* /usr/share/doc/ClamAV/html/manual/Usage/Services.html
+* /usr/share/doc/ClamAV/html/manual/Usage/SignatureManagement.html
+* /usr/share/doc/ClamAV/html/mark.min.js
+* /usr/share/doc/ClamAV/html/mode-rust.js
+* /usr/share/doc/ClamAV/html/print.html
+* /usr/share/doc/ClamAV/html/searcher.js
+* /usr/share/doc/ClamAV/html/searchindex.js
+* /usr/share/doc/ClamAV/html/searchindex.json
+* /usr/share/doc/ClamAV/html/sitemap.xml
+* /usr/share/doc/ClamAV/html/theme-dawn.js
+* /usr/share/doc/ClamAV/html/theme-tomorrow_night.js
+* /usr/share/doc/ClamAV/html/tomorrow-night.css
+* /usr/share/man/man1/clambc.1.gz
+* /usr/share/man/man1/clamconf.1.gz
+* /usr/share/man/man1/clamdscan.1.gz
+* /usr/share/man/man1/clamdtop.1.gz
+* /usr/share/man/man1/clamscan.1.gz
+* /usr/share/man/man1/clamsubmit.1.gz
+* /usr/share/man/man1/freshclam.1.gz
+* /usr/share/man/man1/sigtool.1.gz
+* /usr/share/man/man5/clamav-milter.conf.5.gz
+* /usr/share/man/man5/clamd.conf.5.gz
+* /usr/share/man/man5/freshclam.conf.5.gz
+* /usr/share/man/man8/clamav-milter.8.gz
+* /usr/share/man/man8/clamd.8.gz
+* /usr/share/man/man8/clamonacc.8.gz

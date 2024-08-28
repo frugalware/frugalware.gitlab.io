@@ -12,7 +12,7 @@ size = "1711468"
 usize = "2538298"
 sha1sum = "653b46a3a2ab0a9f4341453107bd47b75dac1b6e"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['./kpimtextedit', './neochat', 'drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'ktexteditor', 'neochat']"
+reverse_depends = "['drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'ktexteditor', 'neochat']"
 +++
 ### Description: 
 Syntax highlighting Engine for Structured Text and Code

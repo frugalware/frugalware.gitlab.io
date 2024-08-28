@@ -12,7 +12,7 @@ size = "80092"
 usize = "298641"
 sha1sum = "2aafd6e2ff77874c7a2a5aa30185c6aba7756917"
 depends = "['pygobject3-devel', 'python3>=3.12']"
-reverse_depends = "['./blueproximity', './openrazer', 'claws-mail-plugin-python', 'discover-overlay', 'input-remapper', 'openrazer', 'pygobject3-cairo', 'redshift-gtk', 'switcheroo-control', 'telepathy-haze', 'udiskie']"
+reverse_depends = "['blueproximity', 'claws-mail-plugin-python', 'discover-overlay', 'input-remapper', 'openrazer', 'pygobject3-cairo', 'redshift-gtk', 'switcheroo-control', 'telepathy-haze', 'udiskie']"
 +++
 ### Description: 
 Python bindings for GObject

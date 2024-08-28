@@ -12,7 +12,7 @@ size = "390240"
 usize = "1846103"
 sha1sum = "e1722ec7ddc5a868f2d2e48f2c115cfb7ce79f0f"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35']"
-reverse_depends = "['./pacman-g2', 'autoconf', 'pacman-g2', 'quilt', 'rcs']"
+reverse_depends = "['autoconf', 'pacman-g2', 'quilt', 'rcs']"
 +++
 ### Description: 
 Utility programs used for creating patch files

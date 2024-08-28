@@ -12,7 +12,7 @@ size = "138068"
 usize = "363178"
 sha1sum = "0285d85201c99a2cb20d199d6a332ed9b1407fe4"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd>=1.4.4']"
-reverse_depends = "['./kernel', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
+reverse_depends = "['kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
 ### Description: 
 Utilities for inserting and removing modules from the Linux kernel

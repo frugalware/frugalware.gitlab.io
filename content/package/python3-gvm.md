@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-gvm 24.6.0-1"
-version = "24.6.0-1"
+title = "python3-gvm 24.7.0-1"
+version = "24.7.0-1"
 description = "OpenVAS Python3 bindings"
-date = "2024-06-26T14:46:22"
+date = "2024-08-26T11:54:20"
 aliases = "/packages/219867"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "159724"
-usize = "1680169"
-sha1sum = "2f79c20be6bd5541e76bb1f086cd15332fa4fcd9"
+size = "159764"
+usize = "1680054"
+sha1sum = "e17c9111d9d89bc2bc9ad27b2a164031181b715b"
 depends = "['python3>=3.11']"
 reverse_depends = "['openvas-cli']"
 +++
@@ -238,9 +238,9 @@ OpenVAS Python3 bindings
 * /usr/lib/python3.12/site-packages/gvm/__pycache__/__version__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/gvm/__pycache__/__version__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gvm/__version__.py
-* /usr/lib/python3.12/site-packages/python_gvm-24.6.0.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/python_gvm-24.6.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/python_gvm-24.6.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/python_gvm-24.6.0.dist-info/WHEEL
-* /usr/share/doc/python3-gvm-24.6.0/LICENSE
-* /usr/share/doc/python3-gvm-24.6.0/README.md
+* /usr/lib/python3.12/site-packages/python_gvm-24.7.0.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/python_gvm-24.7.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/python_gvm-24.7.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/python_gvm-24.7.0.dist-info/WHEEL
+* /usr/share/doc/python3-gvm-24.7.0/LICENSE
+* /usr/share/doc/python3-gvm-24.7.0/README.md

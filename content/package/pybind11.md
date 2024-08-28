@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "pybind11 2.11.1-1"
-version = "2.11.1-1"
+title = "pybind11 2.13.5-1"
+version = "2.13.5-1"
 description = "A lightweight header-only library that exposes C++ types in Python and vice versa"
-date = "2023-10-06T08:01:52"
+date = "2024-08-26T09:52:53"
 aliases = "/packages/220212"
 categories = ['devel-extra']
 upstreamurl = "https://pybind11.readthedocs.org/"
 arch = "x86_64"
-size = "174048"
-usize = "1691957"
-sha1sum = "e70eb8ed27b32babf2ba12b2996b2032fc0e6b03"
+size = "182252"
+usize = "1778521"
+sha1sum = "1e9e428d89a68620cec2aba94b4647a2b93a95c2"
 depends = "['python3>=3.12']"
-reverse_depends = "['./python3-scipy', 'audiotube', 'dlib', 'opencolorio', 'openimageio', 'python3-scipy']"
+reverse_depends = "['audiotube', 'dlib', 'opencolorio', 'openimageio', 'python3-scipy']"
 +++
 ### Description: 
 A lightweight header-only library that exposes C++ types in Python and vice versa
@@ -32,6 +32,7 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/include/pybind11/detail/internals.h
 * /usr/include/pybind11/detail/typeid.h
 * /usr/include/pybind11/detail/type_caster_base.h
+* /usr/include/pybind11/detail/value_and_holder.h
 * /usr/include/pybind11/eigen.h
 * /usr/include/pybind11/eigen/common.h
 * /usr/include/pybind11/eigen/matrix.h
@@ -40,6 +41,7 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/include/pybind11/eval.h
 * /usr/include/pybind11/functional.h
 * /usr/include/pybind11/gil.h
+* /usr/include/pybind11/gil_safe_call_once.h
 * /usr/include/pybind11/iostream.h
 * /usr/include/pybind11/numpy.h
 * /usr/include/pybind11/operators.h
@@ -50,14 +52,15 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/include/pybind11/stl/filesystem.h
 * /usr/include/pybind11/stl_bind.h
 * /usr/include/pybind11/type_caster_pyobject_ptr.h
+* /usr/include/pybind11/typing.h
 * /usr/lib/pkgconfig/pybind11.pc
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.11.1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/pybind11/commands.py
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/attr.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/buffer_info.h
@@ -72,6 +75,7 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/internals.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/typeid.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/type_caster_base.h
+* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/value_and_holder.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen/common.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen/matrix.h
@@ -80,6 +84,7 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eval.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/functional.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil.h
+* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil_safe_call_once.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/iostream.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/numpy.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/operators.h
@@ -90,12 +95,14 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl/filesystem.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl_bind.h
 * /usr/lib/python3.12/site-packages/pybind11/include/pybind11/type_caster_pyobject_ptr.h
+* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/typing.h
 * /usr/lib/python3.12/site-packages/pybind11/py.typed
 * /usr/lib/python3.12/site-packages/pybind11/setup_helpers.py
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake
+* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11GuessPythonExtSuffix.cmake
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake
 * /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake
@@ -112,8 +119,9 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/share/cmake/pybind11/pybind11Common.cmake
 * /usr/share/cmake/pybind11/pybind11Config.cmake
 * /usr/share/cmake/pybind11/pybind11ConfigVersion.cmake
+* /usr/share/cmake/pybind11/pybind11GuessPythonExtSuffix.cmake
 * /usr/share/cmake/pybind11/pybind11NewTools.cmake
 * /usr/share/cmake/pybind11/pybind11Targets.cmake
 * /usr/share/cmake/pybind11/pybind11Tools.cmake
-* /usr/share/doc/pybind11-2.11.1/LICENSE
-* /usr/share/doc/pybind11-2.11.1/README.rst
+* /usr/share/doc/pybind11-2.13.5/LICENSE
+* /usr/share/doc/pybind11-2.13.5/README.rst

@@ -12,7 +12,7 @@ size = "89376"
 usize = "280757"
 sha1sum = "78ed7823d97ee370aea38decacc5a87642d5eb00"
 depends = "['glibc>=2.35']"
-reverse_depends = "['./gnome-desktop', 'flatpak', 'gnome-desktop', 'kscreenlocker', 'qemu', 'runc', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'tor', 'usbguard', 'webkit-gtk3']"
+reverse_depends = "['flatpak', 'gnome-desktop', 'kscreenlocker', 'qemu', 'runc', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'tor', 'usbguard', 'webkit-gtk3']"
 +++
 ### Description: 
 Enhanced seccomp library

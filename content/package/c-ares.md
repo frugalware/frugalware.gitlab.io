@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "c-ares 1.33.0-1"
-version = "1.33.0-1"
+title = "c-ares 1.33.1-1"
+version = "1.33.1-1"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-08-03T09:16:06"
+date = "2024-08-23T18:06:06"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "199260"
-usize = "474683"
-sha1sum = "8cbc57b42cb4e30f4913bb187e99a4d6f7368fcc"
+size = "199596"
+usize = "476467"
+sha1sum = "4524769be264061fd38da08253d15fa614ca1316"
 depends = "['glibc>=2.3.4']"
-reverse_depends = "['./grpc', 'aria2', 'curl', 'grpc', 'nodejs', 'nodejs20', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
+reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs20', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
 ### Description: 
 C library that performs DNS requests and name resolves asynchronously.
@@ -32,13 +32,13 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/lib/cmake/c-ares/c-ares-targets.cmake
 * /usr/lib/libcares.so
 * /usr/lib/libcares.so.2
-* /usr/lib/libcares.so.2.18.0
+* /usr/lib/libcares.so.2.18.1
 * /usr/lib/pkgconfig/libcares.pc
-* /usr/share/doc/c-ares-1.33.0/AUTHORS
-* /usr/share/doc/c-ares-1.33.0/INSTALL.md
-* /usr/share/doc/c-ares-1.33.0/README.md
-* /usr/share/doc/c-ares-1.33.0/README.msvc
-* /usr/share/doc/c-ares-1.33.0/RELEASE-NOTES.md
+* /usr/share/doc/c-ares-1.33.1/AUTHORS
+* /usr/share/doc/c-ares-1.33.1/INSTALL.md
+* /usr/share/doc/c-ares-1.33.1/README.md
+* /usr/share/doc/c-ares-1.33.1/README.msvc
+* /usr/share/doc/c-ares-1.33.1/RELEASE-NOTES.md
 * /usr/share/man/man1/adig.1.gz
 * /usr/share/man/man1/ahost.1.gz
 * /usr/share/man/man3/ares_cancel.3.gz

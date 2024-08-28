@@ -12,7 +12,7 @@ size = "681640"
 usize = "742829"
 sha1sum = "3fbca03d299e1e2073e2f12f82faa43c0912fdfd"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Icelandic language support for Thunderbird

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rust-bindgen 0.69.4-1"
-version = "0.69.4-1"
+title = "rust-bindgen 0.70.1-1"
+version = "0.70.1-1"
 description = "Automatically generates Rust FFI bindings to C (and some C++) libraries"
-date = "2024-06-10T11:11:55"
+date = "2024-08-21T14:15:50"
 aliases = "/packages/220819"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/rust-lang/rust-bindgen"
 arch = "x86_64"
-size = "1683300"
-usize = "6552762"
-sha1sum = "e0670f545195882bfad4ef241878eecd3eb450d2"
+size = "1676292"
+usize = "6446298"
+sha1sum = "0980a5241f0c18c80988deb7e8e5d0c841af5048"
 depends = "['libgcc>=12.2']"
 +++
 ### Description: 

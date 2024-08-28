@@ -12,7 +12,7 @@ size = "23748"
 usize = "69030"
 sha1sum = "c1f66c8c620d8fe2d0e1266066c32eaf9fb8a39f"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
-reverse_depends = "['./wine-devel', 'argyllcms', 'box2d', 'conky', 'dmenu', 'dunst', 'dzen', 'efl', 'enlightenment', 'feh', 'fltk', 'freerdp', 'freerdp2', 'geogram', 'gtk+2-libs', 'gtk+4', 'ksubeditor', 'ksubtile', 'mpv', 'obs-studio', 'opendiablo2', 'openjre-x', 'spice-vdagent', 'terminology', 'virtualbox', 'vlc-skins', 'wine', 'wine-devel', 'xf86-input-wacom', 'xf86-video-intel', 'xine-lib', 'xinput', 'xterm']"
+reverse_depends = "['argyllcms', 'box2d', 'conky', 'dmenu', 'dunst', 'dzen', 'efl', 'enlightenment', 'feh', 'fltk', 'freerdp', 'freerdp2', 'geogram', 'gtk+2-libs', 'gtk+4', 'ksubeditor', 'ksubtile', 'mpv', 'obs-studio', 'opendiablo2', 'openjre-x', 'spice-vdagent', 'terminology', 'virtualbox', 'vlc-skins', 'wine', 'wine-devel', 'xf86-input-wacom', 'xf86-video-intel', 'xine-lib', 'xinput', 'xterm']"
 license = "GPL2"
 +++
 ### Description: 

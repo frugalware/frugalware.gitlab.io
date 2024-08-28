@@ -12,7 +12,7 @@ size = "37856"
 usize = "142462"
 sha1sum = "6f06fdf3a0ed5f03acbd4c7a3cb45f70901c4e1c"
 depends = "['python3>=3.12']"
-reverse_depends = "['./python3-pytest', 'python3-hatchling', 'python3-pytest']"
+reverse_depends = "['python3-hatchling', 'python3-pytest']"
 +++
 ### Description: 
 Plugin and hook calling mechanisms for python

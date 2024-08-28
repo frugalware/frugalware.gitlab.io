@@ -12,7 +12,7 @@ size = "53128"
 usize = "248503"
 sha1sum = "02ba39694dce0e773d9e21ed6a49b94c5a976e49"
 depends = "['python3']"
-reverse_depends = "['./python3-beniget', './python3-scipy', 'python3-beniget']"
+reverse_depends = "['python3-beniget', 'python3-pythran', 'python3-scipy']"
 +++
 ### Description: 
 AST that abstracts the underlying Python version

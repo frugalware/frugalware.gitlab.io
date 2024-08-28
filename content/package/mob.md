@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mob 5.0.1-1"
-version = "5.0.1-1"
+title = "mob 5.1.0-1"
+version = "5.1.0-1"
 description = "Tool for smooth git handover."
-date = "2024-07-14T20:43:21"
+date = "2024-08-26T12:40:21"
 aliases = "/packages/221031"
 categories = ['apps-extra']
 upstreamurl = "https://mob.sh"
 arch = "x86_64"
-size = "1916216"
-usize = "5602228"
-sha1sum = "d40b7dec0f56b774471fcf585b23d6c1b5612633"
+size = "2025308"
+usize = "5996084"
+sha1sum = "ce08dc1ef1b6c35e51c7c0e0e939374bf88b6136"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -18,5 +18,5 @@ Tool for smooth git handover.
 
 ### Files: 
 * /usr/bin/mob
-* /usr/share/doc/mob-5.0.1/LICENSE
-* /usr/share/doc/mob-5.0.1/README.md
+* /usr/share/doc/mob-5.1.0/LICENSE
+* /usr/share/doc/mob-5.1.0/README.md

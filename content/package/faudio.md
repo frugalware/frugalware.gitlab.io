@@ -12,7 +12,7 @@ size = "110912"
 usize = "347487"
 sha1sum = "3b316ad8e1f6edc3a640ba8f0d4059acc071b518"
 depends = "['ffmpeg', 'sdl2']"
-reverse_depends = "['./wine-devel', 'wine', 'wine-devel']"
+reverse_depends = "['wine', 'wine-devel']"
 +++
 ### Description: 
 XAudio2 reimplementation

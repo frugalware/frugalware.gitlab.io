@@ -12,7 +12,7 @@ size = "167896"
 usize = "1120710"
 sha1sum = "5c85e0513971f02e721621720dc3c2fd85b83de7"
 depends = "['iio-sensor-proxy', 'qt6-connectivity', 'qt6-declarative', 'qt6-svg']"
-reverse_depends = "['./kdeconnect-kde', 'kdeconnect-kde', 'kscreen', 'kwin', 'qt6-remoteobjects']"
+reverse_depends = "['kdeconnect-kde', 'kscreen', 'kwin', 'qt6-remoteobjects']"
 +++
 ### Description: 
 The Qt6 toolkit, qtsensors

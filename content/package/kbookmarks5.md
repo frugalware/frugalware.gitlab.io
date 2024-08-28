@@ -12,7 +12,7 @@ size = "138868"
 usize = "688181"
 sha1sum = "76d53d517772c3b8612895e7633f62b7a0c784ca"
 depends = "['kxmlgui5>=5.116.0']"
-reverse_depends = "['kio5', 'krdc']"
+reverse_depends = "['kio5']"
 +++
 ### Description: 
 Framework that let you access and manipulate bookmarks stored using XBEL format.

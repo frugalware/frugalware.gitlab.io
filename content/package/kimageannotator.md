@@ -12,7 +12,7 @@ size = "382776"
 usize = "1804101"
 sha1sum = "ea90d23ed23eefdee9caf2e3236b10989c52e99e"
 depends = "['kcolorpicker', 'qt6-svg>=5.15.6']"
-reverse_depends = "['./gwenview', 'gwenview']"
+reverse_depends = "['gwenview']"
 +++
 ### Description: 
 Tool for annotating images

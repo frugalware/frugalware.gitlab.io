@@ -12,7 +12,7 @@ size = "77860"
 usize = "281431"
 sha1sum = "8c1ad25ee35248e404da64633e351f1a495c5b69"
 depends = "['avahi>=0.6.31-9', 'qt6-base>=6.7.1']"
-reverse_depends = "['./kio-zeroconf', './krfb', './libkdegames', 'kio-extras', 'kio-zeroconf', 'knotes', 'krfb', 'libkdegames']"
+reverse_depends = "['kio-extras', 'kio-zeroconf', 'knotes', 'krdc', 'krfb', 'libkdegames']"
 +++
 ### Description: 
 Zeroconf Support for KDE.

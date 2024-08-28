@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libkleo 24.05.2-1"
-version = "24.05.2-1"
+title = "libkleo 24.08.0-1"
+version = "24.08.0-1"
 description = "This lib provides crypto for mails."
-date = "2024-07-05T09:27:19"
+date = "2024-08-22T14:13:50"
 aliases = "/packages/218474"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "801884"
-usize = "3953484"
-sha1sum = "6c58632c5002baecbda7c1df5b9ce194d1e089be"
-depends = "['kitemmodels>=6.3.0', 'kpimtextedit>=24.05.2', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
-reverse_depends = "['./akonadi-contacts', './kleopatra', './kmail-account-wizard', './mimetreeparser', 'akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
+size = "801480"
+usize = "3955485"
+sha1sum = "3b6459a24519f0cbd96061b6247812f290a36d80"
+depends = "['kitemmodels>=6.5.0', 'kpimtextedit>=24.08.0', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
+reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++
 ### Description: 
 This lib provides crypto for mails.
@@ -160,6 +160,8 @@ This lib provides crypto for mails.
 * /usr/include/KPim6/Libkleo/libkleo/uniquelock.h
 * /usr/include/KPim6/Libkleo/Libkleo/UserIDListModel
 * /usr/include/KPim6/Libkleo/libkleo/useridlistmodel.h
+* /usr/include/KPim6/Libkleo/Libkleo/UserIDListProxyModel
+* /usr/include/KPim6/Libkleo/libkleo/useridlistproxymodel.h
 * /usr/include/KPim6/Libkleo/Libkleo/UserIDProxyModel
 * /usr/include/KPim6/Libkleo/libkleo/useridproxymodel.h
 * /usr/include/KPim6/Libkleo/Libkleo/UserIDSelectionCombo
@@ -171,7 +173,7 @@ This lib provides crypto for mails.
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoTargets.cmake
 * /usr/lib/libKPim6Libkleo.so
 * /usr/lib/libKPim6Libkleo.so.6
-* /usr/lib/libKPim6Libkleo.so.6.1.2
+* /usr/lib/libKPim6Libkleo.so.6.2.0
 * /usr/share/libkleopatra/pics/chiasmus_chi.png
 * /usr/share/libkleopatra/pics/hi16-app-gpg.png
 * /usr/share/libkleopatra/pics/hi16-app-gpgsm.png

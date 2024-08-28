@@ -12,7 +12,7 @@ size = "1548720"
 usize = "24145698"
 sha1sum = "329be6b8e300ee731613caf86240e370b61d9e8e"
 depends = "['glibc']"
-reverse_depends = "['calibre', 'ghostwriter']"
+reverse_depends = "['calibre']"
 +++
 ### Description: 
 An open source JavaScript display engine for mathematics that works in all modern browsers

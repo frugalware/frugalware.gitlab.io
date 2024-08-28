@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./libkeduvocdocument 24.08.0-1"
+title = "libkeduvocdocument 24.08.0-1"
 version = "24.08.0-1"
 description = "Common libraries for KDE Edu release-service"
 date = "2024-08-22T14:51:46"
-aliases = "/packages/222410"
+aliases = "/packages/218369"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,123 +12,124 @@ size = "164548"
 usize = "777116"
 sha1sum = "40e1e604645ac289dd2b74b9fa8d2a636d066d5d"
 depends = "['kio>=6.5.0']"
+reverse_depends = "['kanagram', 'khangman', 'kwordquiz', 'parley']"
 +++
 ### Description: 
 Common libraries for KDE Edu release-service
 
 ### Files: 
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocArticle
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocarticle.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocConjugation
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocconjugation.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocContainer
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvoccontainer.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocDeclension
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocdeclension.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocDocument
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocdocument.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocdocument_export.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocdocument_version.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocExpression
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocexpression.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocIdentifier
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocidentifier.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocKVTML2Writer
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvockvtml2writer.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocLeitnerBox
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocleitnerbox.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocLesson
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvoclesson.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocMultipleChoice
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocmultiplechoice.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocPersonalPronoun
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocpersonalpronoun.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocText
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvoctext.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocTranslation
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvoctranslation.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocWordFlags
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocwordflags.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/KEduVocWordtype
-* libkeduvocdocument /usr/include/libkeduvocdocument/keduvocwordtype.h
-* libkeduvocdocument /usr/include/libkeduvocdocument/SharedKVTMLFiles
-* libkeduvocdocument /usr/include/libkeduvocdocument/sharedkvtmlfiles.h
-* libkeduvocdocument /usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentConfig.cmake
-* libkeduvocdocument /usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentTargets-release.cmake
-* libkeduvocdocument /usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentTargets.cmake
-* libkeduvocdocument /usr/lib/libKEduVocDocument.so
-* libkeduvocdocument /usr/lib/libKEduVocDocument.so.5
-* libkeduvocdocument /usr/lib/libKEduVocDocument.so.5.1.0
-* libkeduvocdocument /usr/share/doc/libkeduvocdocument-24.08.0/AUTHORS
-* libkeduvocdocument /usr/share/doc/libkeduvocdocument-24.08.0/COPYING-CMAKE-SCRIPTS
-* libkeduvocdocument /usr/share/doc/libkeduvocdocument-24.08.0/README
-* libkeduvocdocument /usr/share/locale/ar/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ast/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/az/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/be/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/bg/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/br/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/bs/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ca/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ca@valencia/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/cs/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/cy/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/da/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/de/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/el/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/en_GB/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/eo/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/es/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/et/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/eu/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/fa/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/fi/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/fr/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ga/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/gl/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/he/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/hi/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/hne/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/hr/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/hu/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ia/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/is/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/it/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ja/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ka/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/kk/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/km/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ko/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/lt/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/lv/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/mai/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/mk/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ml/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/mr/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ms/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/nb/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/nds/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ne/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/nl/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/nn/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/oc/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/pa/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/pl/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/pt/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/pt_BR/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ro/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ru/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/se/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/si/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/sk/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/sl/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/sq/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/sv/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/tg/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/th/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/tr/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/ug/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/uk/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/vi/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/zh_CN/LC_MESSAGES/libkeduvocdocument.mo
-* libkeduvocdocument /usr/share/locale/zh_TW/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/include/libkeduvocdocument/KEduVocArticle
+* /usr/include/libkeduvocdocument/keduvocarticle.h
+* /usr/include/libkeduvocdocument/KEduVocConjugation
+* /usr/include/libkeduvocdocument/keduvocconjugation.h
+* /usr/include/libkeduvocdocument/KEduVocContainer
+* /usr/include/libkeduvocdocument/keduvoccontainer.h
+* /usr/include/libkeduvocdocument/KEduVocDeclension
+* /usr/include/libkeduvocdocument/keduvocdeclension.h
+* /usr/include/libkeduvocdocument/KEduVocDocument
+* /usr/include/libkeduvocdocument/keduvocdocument.h
+* /usr/include/libkeduvocdocument/keduvocdocument_export.h
+* /usr/include/libkeduvocdocument/keduvocdocument_version.h
+* /usr/include/libkeduvocdocument/KEduVocExpression
+* /usr/include/libkeduvocdocument/keduvocexpression.h
+* /usr/include/libkeduvocdocument/KEduVocIdentifier
+* /usr/include/libkeduvocdocument/keduvocidentifier.h
+* /usr/include/libkeduvocdocument/KEduVocKVTML2Writer
+* /usr/include/libkeduvocdocument/keduvockvtml2writer.h
+* /usr/include/libkeduvocdocument/KEduVocLeitnerBox
+* /usr/include/libkeduvocdocument/keduvocleitnerbox.h
+* /usr/include/libkeduvocdocument/KEduVocLesson
+* /usr/include/libkeduvocdocument/keduvoclesson.h
+* /usr/include/libkeduvocdocument/KEduVocMultipleChoice
+* /usr/include/libkeduvocdocument/keduvocmultiplechoice.h
+* /usr/include/libkeduvocdocument/KEduVocPersonalPronoun
+* /usr/include/libkeduvocdocument/keduvocpersonalpronoun.h
+* /usr/include/libkeduvocdocument/KEduVocText
+* /usr/include/libkeduvocdocument/keduvoctext.h
+* /usr/include/libkeduvocdocument/KEduVocTranslation
+* /usr/include/libkeduvocdocument/keduvoctranslation.h
+* /usr/include/libkeduvocdocument/KEduVocWordFlags
+* /usr/include/libkeduvocdocument/keduvocwordflags.h
+* /usr/include/libkeduvocdocument/KEduVocWordtype
+* /usr/include/libkeduvocdocument/keduvocwordtype.h
+* /usr/include/libkeduvocdocument/SharedKVTMLFiles
+* /usr/include/libkeduvocdocument/sharedkvtmlfiles.h
+* /usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentConfig.cmake
+* /usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentTargets-release.cmake
+* /usr/lib/cmake/libkeduvocdocument/LibKEduVocDocumentTargets.cmake
+* /usr/lib/libKEduVocDocument.so
+* /usr/lib/libKEduVocDocument.so.5
+* /usr/lib/libKEduVocDocument.so.5.1.0
+* /usr/share/doc/libkeduvocdocument-24.08.0/AUTHORS
+* /usr/share/doc/libkeduvocdocument-24.08.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/libkeduvocdocument-24.08.0/README
+* /usr/share/locale/ar/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ast/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/az/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/be/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/bg/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/br/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/bs/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ca/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/cs/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/cy/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/da/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/de/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/el/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/eo/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/es/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/et/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/eu/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/fa/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/fi/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/fr/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ga/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/gl/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/he/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/hne/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/hr/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/hu/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ia/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/is/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/it/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ja/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ka/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/kk/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/km/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ko/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/lt/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/lv/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/mai/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/mk/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ml/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/mr/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ms/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/nb/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/nds/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ne/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/nl/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/nn/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/oc/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/pa/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/pl/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/pt/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ro/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ru/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/se/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/si/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/sk/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/sl/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/sq/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/sv/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/tg/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/th/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/tr/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/ug/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/uk/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/vi/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libkeduvocdocument.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libkeduvocdocument.mo

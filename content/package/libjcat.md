@@ -12,7 +12,7 @@ size = "105404"
 usize = "488524"
 sha1sum = "c232ff3fbddac0a4748c1c90411e7e1f112e0122"
 depends = "['gnutls', 'gpgme', 'json-glib']"
-reverse_depends = "['./fwupd', 'fwupd']"
+reverse_depends = "['fwupd']"
 +++
 ### Description: 
 Library for reading and writing Jcat files

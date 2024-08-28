@@ -12,7 +12,7 @@ size = "679220"
 usize = "745369"
 sha1sum = "bb29597ebddeaa1770a94a539cd407512ac26c5c"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Swedish language support for Thunderbird

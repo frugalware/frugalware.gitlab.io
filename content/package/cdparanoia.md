@@ -12,7 +12,7 @@ size = "82108"
 usize = "242419"
 sha1sum = "df1406815f7df3546efcfc2ca468714f7b494733"
 depends = "['glibc>=2.34']"
-reverse_depends = "['./audiocd-kio', 'audiocd-kio', 'gst1-plugins-base-cdparanoia', 'mencoder', 'mplayer', 'mpv']"
+reverse_depends = "['audiocd-kio', 'gst1-plugins-base-cdparanoia', 'mencoder', 'mplayer', 'mpv']"
 +++
 ### Description: 
 A CD ripping application

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgeography 24.05.2-1"
-version = "24.05.2-1"
+title = "kgeography 24.08.0-1"
+version = "24.08.0-1"
 description = "Geography Trainer."
-date = "2024-07-05T08:58:50"
+date = "2024-08-22T13:52:32"
 aliases = "/packages/152828"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11227516"
-usize = "32293257"
-sha1sum = "bf63be913fb817d0022c45160422c784dd75987b"
-depends = "['kxmlgui>=6.3.0', 'qt6-svg>=6.7.1']"
+size = "11209488"
+usize = "32322597"
+sha1sum = "b6d9ccbc4db6c129d34f983bff1141c999339bf8"
+depends = "['kxmlgui>=6.5.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 Geography Trainer.
@@ -139,11 +139,11 @@ Geography Trainer.
 * /usr/share/doc/HTML/uk/kgeography/index.docbook
 * /usr/share/doc/HTML/uk/kgeography/kgeography.png
 * /usr/share/doc/HTML/uk/kgeography/zoom.png
-* /usr/share/doc/kgeography-24.05.2/AUTHORS
-* /usr/share/doc/kgeography-24.05.2/COPYING
-* /usr/share/doc/kgeography-24.05.2/COPYING.DOC
-* /usr/share/doc/kgeography-24.05.2/README
-* /usr/share/doc/kgeography-24.05.2/TODO
+* /usr/share/doc/kgeography-24.08.0/AUTHORS
+* /usr/share/doc/kgeography-24.08.0/COPYING
+* /usr/share/doc/kgeography-24.08.0/COPYING.DOC
+* /usr/share/doc/kgeography-24.08.0/README
+* /usr/share/doc/kgeography-24.08.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgeography.png
 * /usr/share/icons/hicolor/16x16/apps/kgeography.png
 * /usr/share/icons/hicolor/22x22/apps/kgeography.png
@@ -1188,6 +1188,7 @@ Geography Trainer.
 * /usr/share/kgeography/zimbabwe_districts.png
 * /usr/share/locale/ar/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/ast/LC_MESSAGES/kgeography.mo
+* /usr/share/locale/az/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/be/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/bg/LC_MESSAGES/kgeography.mo
 * /usr/share/locale/br/LC_MESSAGES/kgeography.mo

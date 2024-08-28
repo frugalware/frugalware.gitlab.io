@@ -12,7 +12,7 @@ size = "5442300"
 usize = "36246824"
 sha1sum = "c5f8592d00969d962d4fd97e724db8503b93b8e3"
 depends = "['libgfortran']"
-reverse_depends = "['./cantor', 'cantor', 'opencv-python3']"
+reverse_depends = "['cantor', 'opencv-python3']"
 +++
 ### Description: 
 An optimized BLAS library based on GotoBLAS2 1.13 BSD 64-bit

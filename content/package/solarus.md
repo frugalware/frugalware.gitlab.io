@@ -12,7 +12,7 @@ size = "1322744"
 usize = "5744561"
 sha1sum = "b84c7f99dd82944a63d4b48190a2b195f7f24c22"
 depends = "['glm', 'libmodplug', 'libogg', 'libvorbis', 'luajit2', 'openal', 'physfs', 'qt5-base>=5.15.10', 'sdl2', 'sdl2_image', 'sdl2_ttf']"
-reverse_depends = "['./solarus-zsxd', 'solarus-zsdx', 'solarus-zsxd']"
+reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 +++
 ### Description: 
 Solarus is an open-source Zelda-like game engine written in C++.

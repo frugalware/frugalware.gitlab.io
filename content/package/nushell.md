@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nushell 0.96.1-1"
-version = "0.96.1-1"
+title = "nushell 0.97.1-1"
+version = "0.97.1-1"
 description = "A new type of shell"
-date = "2024-08-03T16:38:32"
+date = "2024-08-21T08:34:31"
 aliases = "/packages/220917"
 categories = ['apps-extra']
 upstreamurl = "https://www.nushell.sh"
 arch = "x86_64"
-size = "14413592"
-usize = "68941761"
-sha1sum = "02c35d078502f62bdff15e377a5eb149e489d9fc"
+size = "12647396"
+usize = "58550001"
+sha1sum = "d2c500cc03d12317ed7f98d89eb597194ecc23fc"
 depends = "['bzip2', 'curl', 'libx11', 'libxcb', 'openssl>=3.1.0']"
 +++
 ### Description: 

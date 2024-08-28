@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "solarus-zsdx 1.12.0-1"
-version = "1.12.0-1"
+title = "solarus-zsdx 1.12.3-1"
+version = "1.12.3-1"
 description = "Zelda: Mystery of Solarus DX (or ZSDX for short): the real game"
-date = "2018-12-23T10:22:58"
+date = "2024-08-26T14:49:42"
 aliases = "/packages/136915"
 categories = ['games-extra']
-upstreamurl = "http://www.zelda-solarus.com"
+upstreamurl = "https://www.solarus-games.org/en"
 arch = "x86_64"
-size = "21262068"
-usize = "21940994"
-sha1sum = "d573eb1520db85b208ae5114d47dc2461ac80321"
+size = "20522572"
+usize = "21024540"
+sha1sum = "b68ec089d7034a454ff5dc6ed636b59a1f5f17bd"
 depends = "['solarus', 'zip']"
 +++
 ### Description: 

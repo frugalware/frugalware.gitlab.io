@@ -12,7 +12,7 @@ size = "59192244"
 usize = "275464152"
 sha1sum = "ca4de1210f4be1bd6c16b548afb5b19d86e5ced8"
 depends = "['curl', 'libffi', 'libxml2', 'llvm-libs>=18.1.8', 'zlib>=1.2.12']"
-reverse_depends = "['./python3-maturin', 'corrosion', 'lib32-rust', 'python3-maturin', 'python3-setuptools-rust', 'rust-wasm']"
+reverse_depends = "['corrosion', 'lib32-rust', 'python3-maturin', 'python3-setuptools-rust', 'rust-wasm']"
 +++
 ### Description: 
 Programming language focused on safety, speed and concurrency

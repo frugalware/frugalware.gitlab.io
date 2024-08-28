@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./thunderbird-i18n 128.1.1-1"
+title = "thunderbird-i18n 128.1.1-1"
 version = "128.1.1-1"
 description = "Language support for Thunderbird"
 date = "2024-08-23T15:19:51"
-aliases = "/packages/222423"
+aliases = "/packages/73528"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"

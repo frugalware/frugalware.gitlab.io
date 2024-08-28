@@ -12,7 +12,7 @@ size = "297240"
 usize = "1214699"
 sha1sum = "52f10286e888d1f5e70019bd42e08beadb48addb"
 depends = "['qt5-script>=5.15.10']"
-reverse_depends = "['kdevelop', 'khelpcenter5', 'rocs', 'skrooge']"
+reverse_depends = "['khelpcenter5', 'rocs', 'skrooge']"
 +++
 ### Description: 
 Grantlee Templates and Grantlee TextDocument.

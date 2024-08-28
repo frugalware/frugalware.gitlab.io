@@ -12,7 +12,7 @@ size = "288448"
 usize = "1385161"
 sha1sum = "271e5c13d91cda4285ff83dd0fe56d12cfbe3fff"
 depends = "['kcodecs>=6.5.0', 'kconfig>=6.5.0', 'kcoreaddons>=6.5.0', 'ki18n>=6.5.0']"
-reverse_depends = "['./akonadi-contacts', './kitinerary', './libkgapi', 'akonadi-contacts', 'itinerary', 'kitinerary', 'kpeople', 'kpeoplevcard', 'ktnef', 'libkgapi']"
+reverse_depends = "['akonadi-contacts', 'kitinerary', 'kpeople', 'kpeoplevcard', 'ktnef', 'libkgapi']"
 +++
 ### Description: 
 Address book API for KDE

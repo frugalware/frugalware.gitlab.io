@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwalletmanager 24.05.2-1"
-version = "24.05.2-1"
+title = "kwalletmanager 24.08.0-1"
+version = "24.08.0-1"
 description = "Passwords managing tool."
-date = "2024-07-05T09:13:50"
+date = "2024-08-22T14:03:36"
 aliases = "/packages/200641"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1188928"
-usize = "2874610"
-sha1sum = "d1762e78a1ae6d90936209891c98e8953ff3bb4d"
-depends = "['kstatusnotifieritem>=6.3.0']"
+size = "1189312"
+usize = "2876125"
+sha1sum = "e4352a5b0ede62fde1670ded2f01931d12752522"
+depends = "['kstatusnotifieritem>=6.5.0']"
 +++
 ### Description: 
 Passwords managing tool.
@@ -21,72 +21,72 @@ Passwords managing tool.
 * /usr/lib/kauth/kf6/kauth/kcm_kwallet_helper5
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kwallet5.so
 * /usr/share/applications/kwalletmanager5-kwalletd.desktop
-* /usr/share/applications/org.kde.kwalletmanager5.desktop
+* /usr/share/applications/org.kde.kwalletmanager.desktop
 * /usr/share/dbus-1/services/org.kde.kwalletmanager5.service
 * /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet5.service
 * /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmkwallet5.conf
-* /usr/share/doc/HTML/ca/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/ca/kwallet5/index.docbook
-* /usr/share/doc/HTML/de/kwallet5/edit1.png
-* /usr/share/doc/HTML/de/kwallet5/edit2.png
-* /usr/share/doc/HTML/de/kwallet5/first-open-request.png
-* /usr/share/doc/HTML/de/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/de/kwallet5/index.docbook
-* /usr/share/doc/HTML/de/kwallet5/kwalletmanager.png
-* /usr/share/doc/HTML/de/kwallet5/openwallet-request.png
-* /usr/share/doc/HTML/de/kwallet5/save-login-information.png
-* /usr/share/doc/HTML/en/kwallet5/application-request-to-open-wallet.png
-* /usr/share/doc/HTML/en/kwallet5/error-nokey.png
-* /usr/share/doc/HTML/en/kwallet5/first-open-request.png
-* /usr/share/doc/HTML/en/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/en/kwallet5/index.docbook
-* /usr/share/doc/HTML/en/kwallet5/key-selection.png
-* /usr/share/doc/HTML/en/kwallet5/kwallet-access-control.png
-* /usr/share/doc/HTML/en/kwallet5/kwallet-applications.png
-* /usr/share/doc/HTML/en/kwallet5/kwallet-edit.png
-* /usr/share/doc/HTML/en/kwallet5/kwalletmanager.png
-* /usr/share/doc/HTML/en/kwallet5/openwallet-request.png
-* /usr/share/doc/HTML/en/kwallet5/save-login-information.png
-* /usr/share/doc/HTML/en/kwallet5/wallet-encryption-selection.png
-* /usr/share/doc/HTML/es/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/es/kwallet5/index.docbook
-* /usr/share/doc/HTML/fr/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/fr/kwallet5/index.docbook
-* /usr/share/doc/HTML/it/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/it/kwallet5/index.docbook
-* /usr/share/doc/HTML/nl/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/nl/kwallet5/index.docbook
-* /usr/share/doc/HTML/pt/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/pt/kwallet5/index.docbook
-* /usr/share/doc/HTML/pt_BR/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kwallet5/index.docbook
-* /usr/share/doc/HTML/ru/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/ru/kwallet5/index.docbook
-* /usr/share/doc/HTML/sr/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/sr/kwallet5/index.docbook
-* /usr/share/doc/HTML/sr@latin/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kwallet5/index.docbook
-* /usr/share/doc/HTML/sv/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/sv/kwallet5/index.docbook
-* /usr/share/doc/HTML/tr/kwallet5/application-request-to-open-wallet.png
-* /usr/share/doc/HTML/tr/kwallet5/error-nokey.png
-* /usr/share/doc/HTML/tr/kwallet5/first-open-request.png
-* /usr/share/doc/HTML/tr/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/tr/kwallet5/index.docbook
-* /usr/share/doc/HTML/tr/kwallet5/key-selection.png
-* /usr/share/doc/HTML/tr/kwallet5/kwallet-access-control.png
-* /usr/share/doc/HTML/tr/kwallet5/kwallet-applications.png
-* /usr/share/doc/HTML/tr/kwallet5/kwallet-edit.png
-* /usr/share/doc/HTML/tr/kwallet5/kwalletmanager.png
-* /usr/share/doc/HTML/tr/kwallet5/openwallet-request.png
-* /usr/share/doc/HTML/tr/kwallet5/save-login-information.png
-* /usr/share/doc/HTML/tr/kwallet5/wallet-encryption-selection.png
-* /usr/share/doc/HTML/uk/kwallet5/index.cache.bz2
-* /usr/share/doc/HTML/uk/kwallet5/index.docbook
-* /usr/share/doc/HTML/uk/kwallet5/kwalletmanager.png
-* /usr/share/doc/HTML/uk/kwallet5/openwallet-request.png
-* /usr/share/doc/HTML/uk/kwallet5/save-login-information.png
-* /usr/share/doc/kwalletmanager-24.05.2/TODO
+* /usr/share/doc/HTML/ca/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/ca/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/de/kwalletmanager/edit1.png
+* /usr/share/doc/HTML/de/kwalletmanager/edit2.png
+* /usr/share/doc/HTML/de/kwalletmanager/first-open-request.png
+* /usr/share/doc/HTML/de/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/de/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/de/kwalletmanager/kwalletmanager.png
+* /usr/share/doc/HTML/de/kwalletmanager/openwallet-request.png
+* /usr/share/doc/HTML/de/kwalletmanager/save-login-information.png
+* /usr/share/doc/HTML/en/kwalletmanager/application-request-to-open-wallet.png
+* /usr/share/doc/HTML/en/kwalletmanager/error-nokey.png
+* /usr/share/doc/HTML/en/kwalletmanager/first-open-request.png
+* /usr/share/doc/HTML/en/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/en/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/en/kwalletmanager/key-selection.png
+* /usr/share/doc/HTML/en/kwalletmanager/kwallet-access-control.png
+* /usr/share/doc/HTML/en/kwalletmanager/kwallet-applications.png
+* /usr/share/doc/HTML/en/kwalletmanager/kwallet-edit.png
+* /usr/share/doc/HTML/en/kwalletmanager/kwalletmanager.png
+* /usr/share/doc/HTML/en/kwalletmanager/openwallet-request.png
+* /usr/share/doc/HTML/en/kwalletmanager/save-login-information.png
+* /usr/share/doc/HTML/en/kwalletmanager/wallet-encryption-selection.png
+* /usr/share/doc/HTML/es/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/es/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/fr/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/fr/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/it/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/it/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/nl/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/nl/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/pt/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/pt/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/pt_BR/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/ru/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/ru/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/sr/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/sr/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/sr@latin/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/sr@latin/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/sv/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/sv/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/tr/kwalletmanager/application-request-to-open-wallet.png
+* /usr/share/doc/HTML/tr/kwalletmanager/error-nokey.png
+* /usr/share/doc/HTML/tr/kwalletmanager/first-open-request.png
+* /usr/share/doc/HTML/tr/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/tr/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/tr/kwalletmanager/key-selection.png
+* /usr/share/doc/HTML/tr/kwalletmanager/kwallet-access-control.png
+* /usr/share/doc/HTML/tr/kwalletmanager/kwallet-applications.png
+* /usr/share/doc/HTML/tr/kwalletmanager/kwallet-edit.png
+* /usr/share/doc/HTML/tr/kwalletmanager/kwalletmanager.png
+* /usr/share/doc/HTML/tr/kwalletmanager/openwallet-request.png
+* /usr/share/doc/HTML/tr/kwalletmanager/save-login-information.png
+* /usr/share/doc/HTML/tr/kwalletmanager/wallet-encryption-selection.png
+* /usr/share/doc/HTML/uk/kwalletmanager/index.cache.bz2
+* /usr/share/doc/HTML/uk/kwalletmanager/index.docbook
+* /usr/share/doc/HTML/uk/kwalletmanager/kwalletmanager.png
+* /usr/share/doc/HTML/uk/kwalletmanager/openwallet-request.png
+* /usr/share/doc/HTML/uk/kwalletmanager/save-login-information.png
+* /usr/share/doc/kwalletmanager-24.08.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
 * /usr/share/icons/hicolor/16x16/apps/kwalletmanager.png

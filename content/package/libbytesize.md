@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libbytesize 2.10-1"
-version = "2.10-1"
+title = "libbytesize 2.11-1"
+version = "2.11-1"
 description = "A tiny library providing a C class for working with arbitrary big sizes in bytes"
-date = "2024-01-29T12:35:15"
+date = "2024-08-20T20:08:14"
 aliases = "/packages/219657"
 categories = ['lib']
 upstreamurl = "https://github.com/storaged-project/libbytesize"
 arch = "x86_64"
-size = "29432"
-usize = "121014"
-sha1sum = "7c662282510bbe10cca4afd4da2e50824389d7ad"
+size = "29728"
+usize = "115618"
+sha1sum = "ac30dc12f739506ad7d365c8bad025b2f2f2a64f"
 depends = "['python3>=3.12']"
 reverse_depends = "['libblockdev']"
 +++

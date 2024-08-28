@@ -12,7 +12,7 @@ size = "1697492"
 usize = "7289560"
 sha1sum = "ddc99ccf76e4087d5d3f9ef3f25e4e62d7c92d88"
 depends = "['c-ares', 'python3>=3.10', 'python3-greenlet']"
-reverse_depends = "['./python3-gunicorn', 'python3-gunicorn']"
+reverse_depends = "['python3-gunicorn']"
 +++
 ### Description: 
 Network library that uses greenlet and libev for easy and scalable concurrency

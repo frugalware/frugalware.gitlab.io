@@ -12,7 +12,7 @@ size = "242092"
 usize = "1082726"
 sha1sum = "405c9dbae0208c15f853ac43f1180d617d4faf11"
 depends = "['glibc>=2.34']"
-reverse_depends = "['./gst1-plugins-good', 'efl', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libpulse', 'libvips', 'spice']"
+reverse_depends = "['efl', 'gst1-plugins-base', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libpulse', 'libvips', 'spice']"
 +++
 ### Description: 
 The Oil Runtime Compiler

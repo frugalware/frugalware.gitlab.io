@@ -12,7 +12,7 @@ size = "190608"
 usize = "747271"
 sha1sum = "286415b7a577d16b740cb88d1144d88ec698b48b"
 depends = "['glibc>=2.34']"
-reverse_depends = "['./thunderbird', 'discord', 'firefox', 'nss', 'thunderbird', 'whalebird']"
+reverse_depends = "['discord', 'firefox', 'nss', 'thunderbird', 'whalebird']"
 license = "GPL"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "127952"
 usize = "551511"
 sha1sum = "b57c08a99f1576cfb36cf4cc291ec3b62a3a88fc"
 depends = "[]"
-reverse_depends = "['./wine-devel', 'lib32-mangohud', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-vkd3d', 'wine', 'wine-devel']"
+reverse_depends = "['lib32-mangohud', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-vkd3d', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Vulkan Installable Client Driver (ICD) Loader ( 32bit )

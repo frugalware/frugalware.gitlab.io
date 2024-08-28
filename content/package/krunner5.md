@@ -12,7 +12,7 @@ size = "150056"
 usize = "448378"
 sha1sum = "30fd8120efc5400b9ebef5216fe1ba21166cef7c"
 depends = "['plasma-framework5>=5.116.0', 'threadweaver5>=5.116.0']"
-reverse_depends = "['kdevelop', 'libmarble', 'skrooge']"
+reverse_depends = "['libmarble', 'skrooge']"
 +++
 ### Description: 
 Framework for providing different actions given a string query.

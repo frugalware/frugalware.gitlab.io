@@ -12,7 +12,7 @@ size = "1250604"
 usize = "7316772"
 sha1sum = "e7ba1b6476f8e8c9625287c4b4251f6b105d7662"
 depends = "['e2fsprogs>=1.43.8-2', 'lzo>=2.10-3', 'zstd>=1.3.3-2']"
-reverse_depends = "['./docker', 'docker', 'kernel-initrd', 'kernel-lts-initrd', 'udisks2']"
+reverse_depends = "['docker', 'kernel-initrd', 'kernel-lts-initrd', 'udisks2']"
 +++
 ### Description: 
 Utilities for managing btrfs filesystems.

@@ -12,7 +12,7 @@ size = "11519460"
 usize = "24137714"
 sha1sum = "862cf981843eab6d2fef12cb97dff26c0f7ce41a"
 depends = "['gpgme>=1.23.2', 'qt6-base']"
-reverse_depends = "['./isoimagewriter', './kget', 'kget', 'libkleo']"
+reverse_depends = "['isoimagewriter', 'kget', 'libkleo']"
 +++
 ### Description: 
 Qt6 bindings for gpgme

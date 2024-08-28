@@ -12,7 +12,7 @@ size = "182052"
 usize = "598703"
 sha1sum = "b87d9429a8e17b9671eb77b4257584f076596296"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['./keysmith', 'adios2', 'dovecot', 'gnunet', 'keysmith', 'ostree', 'pdns-recursor', 'remmina', 'rspamd', 'tox-core', 'usbguard', 'warzone2100', 'zeromq']"
+reverse_depends = "['adios2', 'dovecot', 'gnunet', 'keysmith', 'ostree', 'pdns-recursor', 'remmina', 'rspamd', 'tox-core', 'usbguard', 'warzone2100', 'zeromq']"
 +++
 ### Description: 
 Sodium is a portable, cross-compilable, installable, packageable fork of NaCl

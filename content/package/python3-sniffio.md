@@ -12,7 +12,7 @@ size = "11344"
 usize = "40772"
 sha1sum = "5eb90f87af3c31af79f22d2287f129bcb1c2a370"
 depends = "['python3']"
-reverse_depends = "['./python3-trio', 'python3-trio']"
+reverse_depends = "['python3-trio']"
 +++
 ### Description: 
 Sniff out which async library your code is running under

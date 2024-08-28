@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenlive 24.05.2-1"
-version = "24.05.2-1"
+title = "kdenlive 24.08.0-1"
+version = "24.08.0-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2024-07-05T12:51:13"
+date = "2024-08-23T07:56:11"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "13713800"
-usize = "72455516"
-sha1sum = "f2776960757fe09db28c2b59630fe9b0acc8daab"
-depends = "['kfilemetadata>=6.3.0', 'knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kplotting>=6.3.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.3.0', 'qt6-declarative>=6.7.1', 'qt6-networkauth>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
+size = "13773000"
+usize = "72986528"
+sha1sum = "971f50b95c798799325b41114104269e7c44134b"
+depends = "['kfilemetadata>=6.5.0', 'knewstuff>=6.5.0', 'knotifyconfig>=6.5.0', 'kplotting>=6.5.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.5.0', 'qt6-declarative>=6.7.1', 'qt6-networkauth>=6.7.1', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-24.05.2/AUTHORS
-* /usr/share/doc/kdenlive-24.05.2/COPYING
-* /usr/share/doc/kdenlive-24.05.2/README.md
-* /usr/share/doc/kdenlive-24.05.2/README.md.license
+* /usr/share/doc/kdenlive-24.08.0/AUTHORS
+* /usr/share/doc/kdenlive-24.08.0/COPYING
+* /usr/share/doc/kdenlive-24.08.0/README.md
+* /usr/share/doc/kdenlive-24.08.0/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt
@@ -131,7 +131,6 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/Kdenlive/LICENSES/GPL-2.0-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/GPL-3.0-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/GPL-3.0-or-later.txt
-* /usr/share/doc/Kdenlive/LICENSES/LGPL-2.1-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/LGPL-3.0-only.txt
 * /usr/share/doc/Kdenlive/LICENSES/LGPL-3.0-or-later.txt
 * /usr/share/doc/Kdenlive/LICENSES/LicenseRef-KDE-Accepted-GPL.txt
@@ -140,24 +139,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/Kdenlive/README.md
 * /usr/share/icons/hicolor/128x128/apps/kdenlive.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kdenlivetitle.png
-* /usr/share/icons/hicolor/16x16/actions/add-subtitle.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-add.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-disable.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-duplicate.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-next.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-previous.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-record.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe-remove.svg
-* /usr/share/icons/hicolor/16x16/actions/keyframe.svg
 * /usr/share/icons/hicolor/16x16/apps/kdenlive.png
-* /usr/share/icons/hicolor/22x22/actions/keyframe-add.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe-disable.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe-duplicate.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe-next.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe-previous.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe-record.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe-remove.svg
-* /usr/share/icons/hicolor/22x22/actions/keyframe.svg
 * /usr/share/icons/hicolor/22x22/apps/kdenlive.png
 * /usr/share/icons/hicolor/256x256/apps/kdenlive.png
 * /usr/share/icons/hicolor/32x32/apps/kdenlive.png
@@ -165,7 +147,6 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/icons/hicolor/48x48/apps/kdenlive.png
 * /usr/share/icons/hicolor/64x64/apps/kdenlive.png
 * /usr/share/icons/hicolor/64x64/mimetypes/application-x-kdenlivetitle.png
-* /usr/share/icons/hicolor/scalable/actions/add-subtitle.svg
 * /usr/share/icons/hicolor/scalable/apps/kdenlive.svgz
 * /usr/share/icons/hicolor/scalable/mimetypes/application-x-kdenlive.svgz
 * /usr/share/icons/hicolor/scalable/mimetypes/application-x-kdenlivetitle.svgz
@@ -571,6 +552,9 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/scripts/checkgpu.py
 * /usr/share/kdenlive/scripts/checkpackages.py
 * /usr/share/kdenlive/scripts/otiointerface.py
+* /usr/share/kdenlive/scripts/requirements-seamless.txt
+* /usr/share/kdenlive/scripts/requirements-whisper-windows.txt
+* /usr/share/kdenlive/scripts/requirements-whisper.txt
 * /usr/share/kdenlive/scripts/speech.py
 * /usr/share/kdenlive/scripts/speechtotext.py
 * /usr/share/kdenlive/scripts/whispertosrt.py
@@ -670,6 +654,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/locale/ka/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/ko/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/lt/LC_MESSAGES/kdenlive.mo
+* /usr/share/locale/lv/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/mr/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/nb/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/nds/LC_MESSAGES/kdenlive.mo
@@ -682,6 +667,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/locale/sk/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/sv/LC_MESSAGES/kdenlive.mo
+* /usr/share/locale/tok/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/tr/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/ug/LC_MESSAGES/kdenlive.mo
 * /usr/share/locale/uk/LC_MESSAGES/kdenlive.mo

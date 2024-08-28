@@ -12,7 +12,7 @@ size = "151480"
 usize = "304994"
 sha1sum = "36116969bf8ac308f1802b3ff5ea8a72242c0903"
 depends = "['python3>=3.12']"
-reverse_depends = "['./python3-sentry-sdk', 'python3-selenium', 'python3-sentry-sdk']"
+reverse_depends = "['python3-selenium', 'python3-sentry-sdk']"
 +++
 ### Description: 
 Python package for providing Mozilla's CA Bundle

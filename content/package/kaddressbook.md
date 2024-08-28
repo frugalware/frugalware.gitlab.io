@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./kaddressbook 24.08.0-1"
+title = "kaddressbook 24.08.0-1"
 version = "24.08.0-1"
 description = "Contact Manager"
 date = "2024-08-22T15:38:45"
-aliases = "/packages/222403"
+aliases = "/packages/218928"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,355 +12,356 @@ size = "3372516"
 usize = "6399994"
 sha1sum = "15783a6bd18a5740a90f5b257566d7acf302b118"
 depends = "['kontactinterface>=24.08.0', 'mailcommon>=24.08.0']"
+reverse_depends = "['kdepim-addons']"
 +++
 ### Description: 
 Contact Manager
 
 ### Files: 
-* kaddressbook /usr/bin/kaddressbook
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactFields
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactfields.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactList
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactlist.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionDialog
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactselectiondialog.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionWidget
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactselectionwidget.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ExportSelectionWidget
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/exportselectionwidget.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ImportExportEngine
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/importexportengine.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/kaddressbook_importexport_export.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/Plugin
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/plugin.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/PluginInterface
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/plugininterface.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/PluginManager
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/pluginmanager.h
-* kaddressbook /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport_version.h
-* kaddressbook /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportConfig.cmake
-* kaddressbook /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportConfigVersion.cmake
-* kaddressbook /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets-release.cmake
-* kaddressbook /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets.cmake
-* kaddressbook /usr/lib/libkaddressbookprivate.so.6
-* kaddressbook /usr/lib/libkaddressbookprivate.so.6.2.0
-* kaddressbook /usr/lib/libKPim6AddressbookImportExport.so
-* kaddressbook /usr/lib/libKPim6AddressbookImportExport.so.6
-* kaddressbook /usr/lib/libKPim6AddressbookImportExport.so.6.2.0
-* kaddressbook /usr/lib/qt6/plugins/kaddressbookpart.so
-* kaddressbook /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_plugins.so
-* kaddressbook /usr/lib/qt6/plugins/pim6/kontact/kontact_kaddressbookplugin.so
-* kaddressbook /usr/share/applications/kaddressbook-importer.desktop
-* kaddressbook /usr/share/applications/kaddressbook-view.desktop
-* kaddressbook /usr/share/applications/org.kde.kaddressbook.desktop
-* kaddressbook /usr/share/doc/HTML/ca/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/ca/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/ca/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/de/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/de/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/de/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/address-book-new.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook00.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook10.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook100.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook101.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook102.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook103.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook104.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook110.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook111.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook112.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook113.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook114.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook120.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook121.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook122.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook123.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook130.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook131.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook132.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook133.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook134.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook135.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook20.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook30.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook31.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook32.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook33.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook34.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook35.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook40.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook50.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook51.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook52.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook53.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook54.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook55.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook60.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook61.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook70.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook71.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook72.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook73.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook74.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook75.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook76.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook77.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook80.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook81.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook82.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook83.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook84.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook85.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook86.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook87.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook90.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook91.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook92.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook93.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook94.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/addressbook95.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/application-exit.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/application-x-ms-shortcut.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/change-icon.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/change-language.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/configure.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/document-edit.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/document-open.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/document-preview-archive.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/document-print.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/document-properties.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/document-revert.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/draw-circle.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/draw-rectangle.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/edit-clear.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/edit-copy.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/edit-cut.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/edit-delete.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/edit-paste.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/edit-undo.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/folder-new.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/go-down.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/go-jump.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/go-next.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/go-previous.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/help-about.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/input-keyboard.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/kaddressbook.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/KDE_logo.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/list-add.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/list-remove.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/mail-message-new.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/show-menu.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/system-help.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/tools-report-bug.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/user-group-new.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/view-calendar-birthday.png
-* kaddressbook /usr/share/doc/HTML/en/kaddressbook/view-refresh.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook00.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook10.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook20.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook30.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook31.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook32.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook33.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook34.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook35.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook40.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook50.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook51.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook52.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook53.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook54.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook55.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook60.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook61.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook71.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook72.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook73.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook74.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook75.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook76.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook77.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook80.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook81.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook82.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook83.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook84.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook85.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook86.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook87.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook92.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook93.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook94.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/addressbook95.png
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/it/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/nl/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/nl/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/nl/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/ru/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/ru/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/ru/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/sv/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/sv/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/sv/kaddressbook/index.docbook
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook00.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook10.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook100.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook101.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook112.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook113.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook120.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook121.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook122.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook123.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook130.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook20.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook30.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook31.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook32.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook33.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook34.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook35.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook40.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook50.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook51.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook52.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook53.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook54.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook55.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook60.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook61.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook70.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook71.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook72.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook73.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook74.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook75.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook76.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook77.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook80.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook81.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook82.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook83.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook84.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook85.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook86.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook87.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook91.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook92.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook93.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook94.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/addressbook95.png
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/docbook-reference.docbook
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/index.cache.bz2
-* kaddressbook /usr/share/doc/HTML/uk/kaddressbook/index.docbook
-* kaddressbook /usr/share/icons/hicolor/128x128/apps/kaddressbook.png
-* kaddressbook /usr/share/icons/hicolor/16x16/apps/kaddressbook.png
-* kaddressbook /usr/share/icons/hicolor/22x22/apps/kaddressbook.png
-* kaddressbook /usr/share/icons/hicolor/32x32/apps/kaddressbook.png
-* kaddressbook /usr/share/icons/hicolor/48x48/apps/kaddressbook.png
-* kaddressbook /usr/share/icons/hicolor/64x64/apps/kaddressbook.png
-* kaddressbook /usr/share/icons/hicolor/scalable/apps/kaddressbook.svg
-* kaddressbook /usr/share/kaddressbook/printing/compact-style.png
-* kaddressbook /usr/share/kaddressbook/printing/detailed-style.png
-* kaddressbook /usr/share/kaddressbook/printing/mike-style.png
-* kaddressbook /usr/share/kaddressbook/printing/ringbinder-style.png
-* kaddressbook /usr/share/kaddressbook/printing/themes/big-theme-example/theme.desktop
-* kaddressbook /usr/share/kaddressbook/printing/themes/big-theme-example/theme.html
-* kaddressbook /usr/share/kaddressbook/printing/themes/default/theme.desktop
-* kaddressbook /usr/share/kaddressbook/printing/themes/default/theme.html
-* kaddressbook /usr/share/kaddressbook/printing/themes/full/theme.desktop
-* kaddressbook /usr/share/kaddressbook/printing/themes/full/theme.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contact.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contactgroup.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contactgroup_additionalfieldrow.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contactgroup_embedded.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contactgroup_memberrow.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contact_embedded.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/contact_row.html
-* kaddressbook /usr/share/kaddressbook/viewertemplates/default/theme.desktop
-* kaddressbook /usr/share/locale/af/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ar/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ast/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/az/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/be/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/bg/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/bn/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/br/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/bs/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ca/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ca@valencia/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/cs/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/cy/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/da/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/de/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/el/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/en_GB/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/eo/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/es/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/et/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/eu/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/fa/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/fi/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/fr/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/fy/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ga/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/gl/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/he/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/hr/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/hu/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ia/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/is/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/it/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ja/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ka/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/kk/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/km/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ko/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/lt/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/lv/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/mai/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/mk/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/mr/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ms/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/nb/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/nds/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ne/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/nl/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/nn/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/pa/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/pl/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/pt/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/pt_BR/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ro/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ru/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/se/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sk/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sl/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sq/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sr/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sr@ijekavian/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sr@latin/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/sv/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ta/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/tg/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/th/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/tr/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/ug/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/uk/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/uz/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/uz@cyrillic/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/vi/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/xh/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/zh_CN/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/locale/zh_TW/LC_MESSAGES/kaddressbook.mo
-* kaddressbook /usr/share/metainfo/org.kde.kaddressbook.appdata.xml
-* kaddressbook /usr/share/qlogging-categories6/kaddressbook.categories
-* kaddressbook /usr/share/qlogging-categories6/kaddressbook.renamecategories
+* /usr/bin/kaddressbook
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactFields
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactfields.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactList
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactlist.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionDialog
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactselectiondialog.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ContactSelectionWidget
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/contactselectionwidget.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ExportSelectionWidget
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/exportselectionwidget.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/ImportExportEngine
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/importexportengine.h
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/kaddressbook_importexport_export.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/Plugin
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/plugin.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/PluginInterface
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/plugininterface.h
+* /usr/include/KPim6/KAddressBookImportExport/KAddressBookImportExport/PluginManager
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport/pluginmanager.h
+* /usr/include/KPim6/KAddressBookImportExport/kaddressbookimportexport_version.h
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportConfig.cmake
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportConfigVersion.cmake
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets-release.cmake
+* /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets.cmake
+* /usr/lib/libkaddressbookprivate.so.6
+* /usr/lib/libkaddressbookprivate.so.6.2.0
+* /usr/lib/libKPim6AddressbookImportExport.so
+* /usr/lib/libKPim6AddressbookImportExport.so.6
+* /usr/lib/libKPim6AddressbookImportExport.so.6.2.0
+* /usr/lib/qt6/plugins/kaddressbookpart.so
+* /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_plugins.so
+* /usr/lib/qt6/plugins/pim6/kontact/kontact_kaddressbookplugin.so
+* /usr/share/applications/kaddressbook-importer.desktop
+* /usr/share/applications/kaddressbook-view.desktop
+* /usr/share/applications/org.kde.kaddressbook.desktop
+* /usr/share/doc/HTML/ca/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/ca/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/ca/kaddressbook/index.docbook
+* /usr/share/doc/HTML/de/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/de/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/de/kaddressbook/index.docbook
+* /usr/share/doc/HTML/en/kaddressbook/address-book-new.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook00.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook10.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook100.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook101.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook102.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook103.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook104.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook110.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook111.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook112.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook113.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook114.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook120.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook121.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook122.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook123.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook130.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook131.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook132.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook133.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook134.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook135.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook20.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook30.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook31.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook32.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook33.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook34.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook35.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook40.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook50.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook51.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook52.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook53.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook54.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook55.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook60.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook61.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook70.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook71.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook72.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook73.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook74.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook75.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook76.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook77.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook80.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook81.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook82.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook83.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook84.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook85.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook86.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook87.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook90.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook91.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook92.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook93.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook94.png
+* /usr/share/doc/HTML/en/kaddressbook/addressbook95.png
+* /usr/share/doc/HTML/en/kaddressbook/application-exit.png
+* /usr/share/doc/HTML/en/kaddressbook/application-x-ms-shortcut.png
+* /usr/share/doc/HTML/en/kaddressbook/change-icon.png
+* /usr/share/doc/HTML/en/kaddressbook/change-language.png
+* /usr/share/doc/HTML/en/kaddressbook/configure.png
+* /usr/share/doc/HTML/en/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/en/kaddressbook/document-edit.png
+* /usr/share/doc/HTML/en/kaddressbook/document-open.png
+* /usr/share/doc/HTML/en/kaddressbook/document-preview-archive.png
+* /usr/share/doc/HTML/en/kaddressbook/document-print.png
+* /usr/share/doc/HTML/en/kaddressbook/document-properties.png
+* /usr/share/doc/HTML/en/kaddressbook/document-revert.png
+* /usr/share/doc/HTML/en/kaddressbook/draw-circle.png
+* /usr/share/doc/HTML/en/kaddressbook/draw-rectangle.png
+* /usr/share/doc/HTML/en/kaddressbook/edit-clear.png
+* /usr/share/doc/HTML/en/kaddressbook/edit-copy.png
+* /usr/share/doc/HTML/en/kaddressbook/edit-cut.png
+* /usr/share/doc/HTML/en/kaddressbook/edit-delete.png
+* /usr/share/doc/HTML/en/kaddressbook/edit-paste.png
+* /usr/share/doc/HTML/en/kaddressbook/edit-undo.png
+* /usr/share/doc/HTML/en/kaddressbook/folder-new.png
+* /usr/share/doc/HTML/en/kaddressbook/go-down.png
+* /usr/share/doc/HTML/en/kaddressbook/go-jump.png
+* /usr/share/doc/HTML/en/kaddressbook/go-next.png
+* /usr/share/doc/HTML/en/kaddressbook/go-previous.png
+* /usr/share/doc/HTML/en/kaddressbook/help-about.png
+* /usr/share/doc/HTML/en/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/en/kaddressbook/index.docbook
+* /usr/share/doc/HTML/en/kaddressbook/input-keyboard.png
+* /usr/share/doc/HTML/en/kaddressbook/kaddressbook.png
+* /usr/share/doc/HTML/en/kaddressbook/KDE_logo.png
+* /usr/share/doc/HTML/en/kaddressbook/list-add.png
+* /usr/share/doc/HTML/en/kaddressbook/list-remove.png
+* /usr/share/doc/HTML/en/kaddressbook/mail-message-new.png
+* /usr/share/doc/HTML/en/kaddressbook/show-menu.png
+* /usr/share/doc/HTML/en/kaddressbook/system-help.png
+* /usr/share/doc/HTML/en/kaddressbook/tools-report-bug.png
+* /usr/share/doc/HTML/en/kaddressbook/user-group-new.png
+* /usr/share/doc/HTML/en/kaddressbook/view-calendar-birthday.png
+* /usr/share/doc/HTML/en/kaddressbook/view-refresh.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook00.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook10.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook20.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook30.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook31.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook32.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook33.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook34.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook35.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook40.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook50.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook51.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook52.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook53.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook54.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook55.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook60.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook61.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook71.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook72.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook73.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook74.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook75.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook76.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook77.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook80.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook81.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook82.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook83.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook84.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook85.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook86.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook87.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook92.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook93.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook94.png
+* /usr/share/doc/HTML/it/kaddressbook/addressbook95.png
+* /usr/share/doc/HTML/it/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/it/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/it/kaddressbook/index.docbook
+* /usr/share/doc/HTML/nl/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/nl/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/nl/kaddressbook/index.docbook
+* /usr/share/doc/HTML/ru/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/ru/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/ru/kaddressbook/index.docbook
+* /usr/share/doc/HTML/sv/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/sv/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/sv/kaddressbook/index.docbook
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook00.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook10.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook100.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook101.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook112.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook113.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook120.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook121.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook122.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook123.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook130.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook20.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook30.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook31.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook32.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook33.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook34.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook35.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook40.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook50.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook51.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook52.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook53.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook54.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook55.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook60.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook61.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook70.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook71.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook72.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook73.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook74.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook75.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook76.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook77.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook80.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook81.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook82.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook83.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook84.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook85.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook86.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook87.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook91.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook92.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook93.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook94.png
+* /usr/share/doc/HTML/uk/kaddressbook/addressbook95.png
+* /usr/share/doc/HTML/uk/kaddressbook/docbook-reference.docbook
+* /usr/share/doc/HTML/uk/kaddressbook/index.cache.bz2
+* /usr/share/doc/HTML/uk/kaddressbook/index.docbook
+* /usr/share/icons/hicolor/128x128/apps/kaddressbook.png
+* /usr/share/icons/hicolor/16x16/apps/kaddressbook.png
+* /usr/share/icons/hicolor/22x22/apps/kaddressbook.png
+* /usr/share/icons/hicolor/32x32/apps/kaddressbook.png
+* /usr/share/icons/hicolor/48x48/apps/kaddressbook.png
+* /usr/share/icons/hicolor/64x64/apps/kaddressbook.png
+* /usr/share/icons/hicolor/scalable/apps/kaddressbook.svg
+* /usr/share/kaddressbook/printing/compact-style.png
+* /usr/share/kaddressbook/printing/detailed-style.png
+* /usr/share/kaddressbook/printing/mike-style.png
+* /usr/share/kaddressbook/printing/ringbinder-style.png
+* /usr/share/kaddressbook/printing/themes/big-theme-example/theme.desktop
+* /usr/share/kaddressbook/printing/themes/big-theme-example/theme.html
+* /usr/share/kaddressbook/printing/themes/default/theme.desktop
+* /usr/share/kaddressbook/printing/themes/default/theme.html
+* /usr/share/kaddressbook/printing/themes/full/theme.desktop
+* /usr/share/kaddressbook/printing/themes/full/theme.html
+* /usr/share/kaddressbook/viewertemplates/default/contact.html
+* /usr/share/kaddressbook/viewertemplates/default/contactgroup.html
+* /usr/share/kaddressbook/viewertemplates/default/contactgroup_additionalfieldrow.html
+* /usr/share/kaddressbook/viewertemplates/default/contactgroup_embedded.html
+* /usr/share/kaddressbook/viewertemplates/default/contactgroup_memberrow.html
+* /usr/share/kaddressbook/viewertemplates/default/contact_embedded.html
+* /usr/share/kaddressbook/viewertemplates/default/contact_row.html
+* /usr/share/kaddressbook/viewertemplates/default/theme.desktop
+* /usr/share/locale/af/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ar/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ast/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/az/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/be/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/bg/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/bn/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/br/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/bs/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ca/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/cs/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/cy/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/da/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/de/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/el/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/eo/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/es/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/et/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/eu/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/fa/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/fi/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/fr/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/fy/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ga/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/gl/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/he/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/hr/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/hu/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ia/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/is/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/it/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ja/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ka/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/kk/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/km/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ko/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/lt/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/lv/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/mai/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/mk/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/mr/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ms/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/nb/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/nds/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ne/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/nl/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/nn/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/pa/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/pl/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/pt/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ro/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ru/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/se/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sk/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sl/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sq/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sr/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sv/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ta/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/tg/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/th/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/tr/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/ug/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/uk/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/uz/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/vi/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/xh/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kaddressbook.mo
+* /usr/share/metainfo/org.kde.kaddressbook.appdata.xml
+* /usr/share/qlogging-categories6/kaddressbook.categories
+* /usr/share/qlogging-categories6/kaddressbook.renamecategories

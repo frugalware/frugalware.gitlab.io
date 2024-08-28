@@ -12,7 +12,7 @@ size = "532664"
 usize = "614867"
 sha1sum = "1545f836841ade793c450d942a140977f1a42b4f"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Irish language support for Thunderbird

@@ -12,7 +12,7 @@ size = "150604"
 usize = "1058148"
 sha1sum = "aba7e4ae5561c8398c22dfbafc95d8b2faf0f45c"
 depends = "['python3>=3.12']"
-reverse_depends = "['./python3-pillow', 'python3-babel', 'python3-pillow']"
+reverse_depends = "['python3-babel', 'python3-pillow']"
 +++
 ### Description: 
 World Timezone Definitions for Python

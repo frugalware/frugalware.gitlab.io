@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./okular 24.08.0-1"
+title = "okular 24.08.0-1"
 version = "24.08.0-1"
 description = "KDE universal document viewer."
 date = "2024-08-22T17:48:22"
-aliases = "/packages/222291"
+aliases = "/packages/218510"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,1408 +12,1409 @@ size = "6872272"
 usize = "19494701"
 sha1sum = "30d9c6aa24ab62f4a9e03609363dbab30183165d"
 depends = "['attica>=6.5.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.08.0', 'kirigami>=6.5.0', 'kparts>=6.5.0', 'kpty>=6.5.0', 'libkexiv2>=24.08.0', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.1.4', 'poppler-qt6>=0.60.1-2', 'purpose>=6.5.0', 'qca', 'qt6-speech>=6.7.1', 'qt6-svg>=6.7.1', 'threadweaver>=6.5.0']"
+reverse_depends = "['kile']"
 +++
 ### Description: 
 KDE universal document viewer.
 
 ### Files: 
-* okular /usr/bin/okular
-* okular /usr/include/okular/core/action.h
-* okular /usr/include/okular/core/annotations.h
-* okular /usr/include/okular/core/area.h
-* okular /usr/include/okular/core/document.h
-* okular /usr/include/okular/core/fileprinter.h
-* okular /usr/include/okular/core/fontinfo.h
-* okular /usr/include/okular/core/form.h
-* okular /usr/include/okular/core/generator.h
-* okular /usr/include/okular/core/global.h
-* okular /usr/include/okular/core/observer.h
-* okular /usr/include/okular/core/okularcore_export.h
-* okular /usr/include/okular/core/page.h
-* okular /usr/include/okular/core/pagesize.h
-* okular /usr/include/okular/core/pagetransition.h
-* okular /usr/include/okular/core/printoptionswidget.h
-* okular /usr/include/okular/core/settings_core.h
-* okular /usr/include/okular/core/signatureutils.h
-* okular /usr/include/okular/core/sound.h
-* okular /usr/include/okular/core/sourcereference.h
-* okular /usr/include/okular/core/textdocumentgenerator.h
-* okular /usr/include/okular/core/textdocumentsettings.h
-* okular /usr/include/okular/core/textpage.h
-* okular /usr/include/okular/core/tile.h
-* okular /usr/include/okular/core/utils.h
-* okular /usr/include/okular/core/version.h
-* okular /usr/include/okular/interfaces/configinterface.h
-* okular /usr/include/okular/interfaces/guiinterface.h
-* okular /usr/include/okular/interfaces/printinterface.h
-* okular /usr/include/okular/interfaces/saveinterface.h
-* okular /usr/include/okular/interfaces/viewerinterface.h
-* okular /usr/lib/cmake/Okular6/Okular6Config.cmake
-* okular /usr/lib/cmake/Okular6/Okular6ConfigVersion.cmake
-* okular /usr/lib/cmake/Okular6/Okular6Targets-release.cmake
-* okular /usr/lib/cmake/Okular6/Okular6Targets.cmake
-* okular /usr/lib/libOkular6Core.so
-* okular /usr/lib/libOkular6Core.so.2
-* okular /usr/lib/libOkular6Core.so.2.0.0
-* okular /usr/lib/qt6/plugins/kf6/parts/okularpart.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_comicbook.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_djvu.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_dvi.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_epub.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_fax.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_fb.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_ghostview.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_kimgio.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_md.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_mobi.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_poppler.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_tiff.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_txt.so
-* okular /usr/lib/qt6/plugins/okular_generators/okularGenerator_xps.so
-* okular /usr/share/applications/okularApplication_comicbook.desktop
-* okular /usr/share/applications/okularApplication_djvu.desktop
-* okular /usr/share/applications/okularApplication_dvi.desktop
-* okular /usr/share/applications/okularApplication_epub.desktop
-* okular /usr/share/applications/okularApplication_fax.desktop
-* okular /usr/share/applications/okularApplication_fb.desktop
-* okular /usr/share/applications/okularApplication_ghostview.desktop
-* okular /usr/share/applications/okularApplication_kimgio.desktop
-* okular /usr/share/applications/okularApplication_md.desktop
-* okular /usr/share/applications/okularApplication_mobi.desktop
-* okular /usr/share/applications/okularApplication_pdf.desktop
-* okular /usr/share/applications/okularApplication_tiff.desktop
-* okular /usr/share/applications/okularApplication_txt.desktop
-* okular /usr/share/applications/okularApplication_xps.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_comicbook.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_djvu.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_dvi.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_epub.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_fax.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_fb.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_ghostview.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_kimgio.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_md.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_mobi.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_pdf.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_tiff.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_txt.desktop
-* okular /usr/share/applications/org.kde.mobile.okular_xps.desktop
-* okular /usr/share/applications/org.kde.okular.desktop
-* okular /usr/share/config.kcfg/gssettings.kcfg
-* okular /usr/share/config.kcfg/okular.kcfg
-* okular /usr/share/config.kcfg/okular_core.kcfg
-* okular /usr/share/config.kcfg/pdfsettings.kcfg
-* okular /usr/share/doc/HTML/ca/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/ca/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/ca/okular/configure-backends.png
-* okular /usr/share/doc/HTML/ca/okular/configure-editor.png
-* okular /usr/share/doc/HTML/ca/okular/configure.png
-* okular /usr/share/doc/HTML/ca/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/ca/okular/index.docbook
-* okular /usr/share/doc/HTML/ca/okular/mainwindow.png
-* okular /usr/share/doc/HTML/ca/okular/presentation.png
-* okular /usr/share/doc/HTML/de/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/de/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/de/okular/configure-editor.png
-* okular /usr/share/doc/HTML/de/okular/configure.png
-* okular /usr/share/doc/HTML/de/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/de/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/de/okular/index.docbook
-* okular /usr/share/doc/HTML/de/okular/mainwindow.png
-* okular /usr/share/doc/HTML/en/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/en/okular/annotations.png
-* okular /usr/share/doc/HTML/en/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/en/okular/bookmarks.png
-* okular /usr/share/doc/HTML/en/okular/config-pdf-digital-signatures.png
-* okular /usr/share/doc/HTML/en/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/en/okular/configure-backends.png
-* okular /usr/share/doc/HTML/en/okular/configure-editor.png
-* okular /usr/share/doc/HTML/en/okular/configure.png
-* okular /usr/share/doc/HTML/en/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/en/okular/enhance-lowcontrast.png
-* okular /usr/share/doc/HTML/en/okular/enhance-shape.png
-* okular /usr/share/doc/HTML/en/okular/enhance-solid.png
-* okular /usr/share/doc/HTML/en/okular/enhance-thinline.png
-* okular /usr/share/doc/HTML/en/okular/forms-bar.png
-* okular /usr/share/doc/HTML/en/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/en/okular/index.docbook
-* okular /usr/share/doc/HTML/en/okular/mainwindow.png
-* okular /usr/share/doc/HTML/en/okular/presentation.png
-* okular /usr/share/doc/HTML/en/okular/signatures-bar.png
-* okular /usr/share/doc/HTML/en/okular/signatures-panel.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-arrow.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-ellipse.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-freehand.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-highlight.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-line.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-polyline.png
-* okular /usr/share/doc/HTML/en/okular/tool-draw-rectangle.png
-* okular /usr/share/doc/HTML/en/okular/tool-edit-comment.png
-* okular /usr/share/doc/HTML/en/okular/tool-edit-line-width.png
-* okular /usr/share/doc/HTML/en/okular/tool-edit-opacity.png
-* okular /usr/share/doc/HTML/en/okular/tool-favorite.png
-* okular /usr/share/doc/HTML/en/okular/tool-fill-color.png
-* okular /usr/share/doc/HTML/en/okular/tool-font-face.png
-* okular /usr/share/doc/HTML/en/okular/tool-format-text-color.png
-* okular /usr/share/doc/HTML/en/okular/tool-format-text-strikethrough.png
-* okular /usr/share/doc/HTML/en/okular/tool-format-text-underline-squiggle.png
-* okular /usr/share/doc/HTML/en/okular/tool-format-text-underline.png
-* okular /usr/share/doc/HTML/en/okular/tool-note.png
-* okular /usr/share/doc/HTML/en/okular/tool-pin.png
-* okular /usr/share/doc/HTML/en/okular/tool-settings-configure.png
-* okular /usr/share/doc/HTML/en/okular/tool-tag.png
-* okular /usr/share/doc/HTML/en/okular/tool-tool-text.png
-* okular /usr/share/doc/HTML/en/okular/tool-window-pin.png
-* okular /usr/share/doc/HTML/es/okular/configure.png
-* okular /usr/share/doc/HTML/es/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/es/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/es/okular/index.docbook
-* okular /usr/share/doc/HTML/fr/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/fr/okular/annotations.png
-* okular /usr/share/doc/HTML/fr/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/fr/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/fr/okular/configure-backends.png
-* okular /usr/share/doc/HTML/fr/okular/configure-editor.png
-* okular /usr/share/doc/HTML/fr/okular/configure.png
-* okular /usr/share/doc/HTML/fr/okular/forms-bar.png
-* okular /usr/share/doc/HTML/fr/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/fr/okular/index.docbook
-* okular /usr/share/doc/HTML/fr/okular/mainwindow.png
-* okular /usr/share/doc/HTML/fr/okular/presentation.png
-* okular /usr/share/doc/HTML/gl/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/gl/okular/index.docbook
-* okular /usr/share/doc/HTML/it/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/it/okular/annotations.png
-* okular /usr/share/doc/HTML/it/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/it/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/it/okular/configure-backends.png
-* okular /usr/share/doc/HTML/it/okular/configure-editor.png
-* okular /usr/share/doc/HTML/it/okular/configure.png
-* okular /usr/share/doc/HTML/it/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/it/okular/forms-bar.png
-* okular /usr/share/doc/HTML/it/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/it/okular/index.docbook
-* okular /usr/share/doc/HTML/it/okular/mainwindow.png
-* okular /usr/share/doc/HTML/it/okular/presentation.png
-* okular /usr/share/doc/HTML/it/okular/signatures-bar.png
-* okular /usr/share/doc/HTML/it/okular/signatures-panel.png
-* okular /usr/share/doc/HTML/ja/okular/configure.png
-* okular /usr/share/doc/HTML/ja/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/ja/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/ja/okular/index.docbook
-* okular /usr/share/doc/HTML/nl/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/nl/okular/index.docbook
-* okular /usr/share/doc/HTML/pl/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/pl/okular/annotations.png
-* okular /usr/share/doc/HTML/pl/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/pl/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/pl/okular/configure-backends.png
-* okular /usr/share/doc/HTML/pl/okular/configure-editor.png
-* okular /usr/share/doc/HTML/pl/okular/configure.png
-* okular /usr/share/doc/HTML/pl/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/pl/okular/forms-bar.png
-* okular /usr/share/doc/HTML/pl/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/pl/okular/index.docbook
-* okular /usr/share/doc/HTML/pl/okular/mainwindow.png
-* okular /usr/share/doc/HTML/pl/okular/presentation.png
-* okular /usr/share/doc/HTML/pl/okular/rating.png
-* okular /usr/share/doc/HTML/pl/okular/tool-ellipse-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-highlighter-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-ink-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-line-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-note-inline-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-note-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-polygon-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-stamp-okular.png
-* okular /usr/share/doc/HTML/pl/okular/tool-underline-okular.png
-* okular /usr/share/doc/HTML/pt/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/pt/okular/index.docbook
-* okular /usr/share/doc/HTML/pt_BR/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/pt_BR/okular/annotations.png
-* okular /usr/share/doc/HTML/pt_BR/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/pt_BR/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/pt_BR/okular/configure-backends.png
-* okular /usr/share/doc/HTML/pt_BR/okular/configure-editor.png
-* okular /usr/share/doc/HTML/pt_BR/okular/configure.png
-* okular /usr/share/doc/HTML/pt_BR/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/pt_BR/okular/forms-bar.png
-* okular /usr/share/doc/HTML/pt_BR/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/pt_BR/okular/index.docbook
-* okular /usr/share/doc/HTML/pt_BR/okular/mainwindow.png
-* okular /usr/share/doc/HTML/pt_BR/okular/presentation.png
-* okular /usr/share/doc/HTML/pt_BR/okular/signatures-bar.png
-* okular /usr/share/doc/HTML/pt_BR/okular/signatures-panel.png
-* okular /usr/share/doc/HTML/ru/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/ru/okular/annotations.png
-* okular /usr/share/doc/HTML/ru/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/ru/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/ru/okular/configure-backends.png
-* okular /usr/share/doc/HTML/ru/okular/configure-editor.png
-* okular /usr/share/doc/HTML/ru/okular/configure.png
-* okular /usr/share/doc/HTML/ru/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/ru/okular/enhance-lowcontrast.png
-* okular /usr/share/doc/HTML/ru/okular/enhance-shape.png
-* okular /usr/share/doc/HTML/ru/okular/enhance-solid.png
-* okular /usr/share/doc/HTML/ru/okular/enhance-thinline.png
-* okular /usr/share/doc/HTML/ru/okular/forms-bar.png
-* okular /usr/share/doc/HTML/ru/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/ru/okular/index.docbook
-* okular /usr/share/doc/HTML/ru/okular/mainwindow.png
-* okular /usr/share/doc/HTML/ru/okular/presentation.png
-* okular /usr/share/doc/HTML/ru/okular/rating.png
-* okular /usr/share/doc/HTML/ru/okular/tool-ellipse-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-highlighter-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-ink-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-line-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-note-inline-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-note-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-polygon-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-stamp-okular.png
-* okular /usr/share/doc/HTML/ru/okular/tool-underline-okular.png
-* okular /usr/share/doc/HTML/sv/okular/configure.png
-* okular /usr/share/doc/HTML/sv/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/sv/okular/index.docbook
-* okular /usr/share/doc/HTML/tr/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/tr/okular/index.docbook
-* okular /usr/share/doc/HTML/uk/okular/annotation-properties.png
-* okular /usr/share/doc/HTML/uk/okular/annotations.png
-* okular /usr/share/doc/HTML/uk/okular/bookmark-management.png
-* okular /usr/share/doc/HTML/uk/okular/configure-annotations.png
-* okular /usr/share/doc/HTML/uk/okular/configure-backends.png
-* okular /usr/share/doc/HTML/uk/okular/configure-editor.png
-* okular /usr/share/doc/HTML/uk/okular/configure.png
-* okular /usr/share/doc/HTML/uk/okular/embedded-files-bar.png
-* okular /usr/share/doc/HTML/uk/okular/forms-bar.png
-* okular /usr/share/doc/HTML/uk/okular/index.cache.bz2
-* okular /usr/share/doc/HTML/uk/okular/index.docbook
-* okular /usr/share/doc/HTML/uk/okular/mainwindow.png
-* okular /usr/share/doc/HTML/uk/okular/signatures-bar.png
-* okular /usr/share/doc/HTML/uk/okular/signatures-panel.png
-* okular /usr/share/doc/okular-24.08.0/README.clang-format
-* okular /usr/share/doc/okular-24.08.0/README.internals.png
-* okular /usr/share/doc/okular-24.08.0/README.md
-* okular /usr/share/doc/okular-24.08.0/TODO
-* okular /usr/share/icons/hicolor/128x128/apps/okular.png
-* okular /usr/share/icons/hicolor/16x16/apps/okular.png
-* okular /usr/share/icons/hicolor/22x22/apps/okular.png
-* okular /usr/share/icons/hicolor/32x32/apps/okular.png
-* okular /usr/share/icons/hicolor/48x48/apps/okular.png
-* okular /usr/share/icons/hicolor/64x64/apps/okular.png
-* okular /usr/share/kconf_update/okular.upd
-* okular /usr/share/locale/ar/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ar/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ast/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/az/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/az/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/be/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/be/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/bg/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/br/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/bs/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ca/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ca@valencia/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/cs/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/cy/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/da/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/da/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/de/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/de/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/el/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/el/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/en_GB/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/eo/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/es/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/es/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/et/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/et/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/eu/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/fa/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/fi/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/fr/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/fy/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ga/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/gl/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/he/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/he/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/hi/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/hne/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/hr/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/hsb/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/hu/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ia/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/id/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ie/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/is/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/is/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/it/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/it/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ja/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ka/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/kk/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/km/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ko/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ku/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/lt/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/lv/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/mk/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ml/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/mr/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ms/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/nb/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/nds/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ne/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/nl/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/nn/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/oc/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/pa/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/pl/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/pt/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/pt_BR/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ro/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ru/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/se/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/si/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sk/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sl/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sq/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sr/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sr@latin/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/sv/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ta/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/tg/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/th/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/tr/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/ug/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/uk/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/vi/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/wa/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/xh/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/zh_CN/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/locale/zh_HK/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_comicbook.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_djvu.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_dvi.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_epub.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_fax.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_fictionbook.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_ghostview.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_kimgio.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_markdown.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_mobi.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_poppler.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_tiff.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_txt.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/okular_xps.mo
-* okular /usr/share/locale/zh_TW/LC_MESSAGES/org.kde.active.documentviewer.mo
-* okular /usr/share/man/ca/man1/okular.1.gz
-* okular /usr/share/man/de/man1/okular.1.gz
-* okular /usr/share/man/es/man1/okular.1.gz
-* okular /usr/share/man/et/man1/okular.1.gz
-* okular /usr/share/man/fr/man1/okular.1.gz
-* okular /usr/share/man/it/man1/okular.1.gz
-* okular /usr/share/man/man1/okular.1.gz
-* okular /usr/share/man/nl/man1/okular.1.gz
-* okular /usr/share/man/pt/man1/okular.1.gz
-* okular /usr/share/man/pt_BR/man1/okular.1.gz
-* okular /usr/share/man/ru/man1/okular.1.gz
-* okular /usr/share/man/sv/man1/okular.1.gz
-* okular /usr/share/man/tr/man1/okular.1.gz
-* okular /usr/share/man/uk/man1/okular.1.gz
-* okular /usr/share/metainfo/org.kde.okular-comicbook.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-dvi.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-epub.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-fax.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-fb.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-md.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-tiff.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-txt.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular-xps.metainfo.xml
-* okular /usr/share/metainfo/org.kde.okular.appdata.xml
-* okular /usr/share/okular/drawingtools.xml
-* okular /usr/share/okular/icons/hicolor/16x16/apps/okular-fb2.png
-* okular /usr/share/okular/icons/hicolor/16x16/apps/okular-gv.png
-* okular /usr/share/okular/icons/hicolor/32x32/apps/okular-fb2.png
-* okular /usr/share/okular/icons/hicolor/32x32/apps/okular-gv.png
-* okular /usr/share/okular/icons/hicolor/48x48/apps/okular-fb2.png
-* okular /usr/share/okular/pics/checkmark.png
-* okular /usr/share/okular/pics/circle.png
-* okular /usr/share/okular/pics/comment.png
-* okular /usr/share/okular/pics/cross.png
-* okular /usr/share/okular/pics/help.png
-* okular /usr/share/okular/pics/insert.png
-* okular /usr/share/okular/pics/key.png
-* okular /usr/share/okular/pics/newparagraph.png
-* okular /usr/share/okular/pics/note.png
-* okular /usr/share/okular/pics/okular-epub-movie.png
-* okular /usr/share/okular/pics/okular-epub-sound-icon.png
-* okular /usr/share/okular/pics/paperclip.png
-* okular /usr/share/okular/pics/paragraph.png
-* okular /usr/share/okular/pics/pushpin.png
-* okular /usr/share/okular/pics/rightarrow.png
-* okular /usr/share/okular/pics/rightpointer.png
-* okular /usr/share/okular/pics/stamps.svg
-* okular /usr/share/okular/pics/star.png
-* okular /usr/share/okular/pics/tool-base-okular.png
-* okular /usr/share/okular/pics/tool-base-okular@2x.png
-* okular /usr/share/okular/pics/tool-highlighter-okular-colorizable.png
-* okular /usr/share/okular/pics/tool-highlighter-okular-colorizable@2x.png
-* okular /usr/share/okular/pics/tool-ink-okular-colorizable.png
-* okular /usr/share/okular/pics/tool-ink-okular-colorizable@2x.png
-* okular /usr/share/okular/pics/tool-note-inline-okular-colorizable.png
-* okular /usr/share/okular/pics/tool-note-inline-okular-colorizable@2x.png
-* okular /usr/share/okular/pics/tool-note-inline.png
-* okular /usr/share/okular/pics/tool-note-okular-colorizable.png
-* okular /usr/share/okular/pics/tool-note-okular-colorizable@2x.png
-* okular /usr/share/okular/pics/tool-note.png
-* okular /usr/share/okular/pics/tool-typewriter-okular-colorizable.png
-* okular /usr/share/okular/pics/tool-typewriter-okular-colorizable@2x.png
-* okular /usr/share/okular/pics/uparrow.png
-* okular /usr/share/okular/pics/upleftarrow.png
-* okular /usr/share/okular/tools.xml
-* okular /usr/share/okular/toolsQuick.xml
-* okular /usr/share/qlogging-categories6/okular.categories
+* /usr/bin/okular
+* /usr/include/okular/core/action.h
+* /usr/include/okular/core/annotations.h
+* /usr/include/okular/core/area.h
+* /usr/include/okular/core/document.h
+* /usr/include/okular/core/fileprinter.h
+* /usr/include/okular/core/fontinfo.h
+* /usr/include/okular/core/form.h
+* /usr/include/okular/core/generator.h
+* /usr/include/okular/core/global.h
+* /usr/include/okular/core/observer.h
+* /usr/include/okular/core/okularcore_export.h
+* /usr/include/okular/core/page.h
+* /usr/include/okular/core/pagesize.h
+* /usr/include/okular/core/pagetransition.h
+* /usr/include/okular/core/printoptionswidget.h
+* /usr/include/okular/core/settings_core.h
+* /usr/include/okular/core/signatureutils.h
+* /usr/include/okular/core/sound.h
+* /usr/include/okular/core/sourcereference.h
+* /usr/include/okular/core/textdocumentgenerator.h
+* /usr/include/okular/core/textdocumentsettings.h
+* /usr/include/okular/core/textpage.h
+* /usr/include/okular/core/tile.h
+* /usr/include/okular/core/utils.h
+* /usr/include/okular/core/version.h
+* /usr/include/okular/interfaces/configinterface.h
+* /usr/include/okular/interfaces/guiinterface.h
+* /usr/include/okular/interfaces/printinterface.h
+* /usr/include/okular/interfaces/saveinterface.h
+* /usr/include/okular/interfaces/viewerinterface.h
+* /usr/lib/cmake/Okular6/Okular6Config.cmake
+* /usr/lib/cmake/Okular6/Okular6ConfigVersion.cmake
+* /usr/lib/cmake/Okular6/Okular6Targets-release.cmake
+* /usr/lib/cmake/Okular6/Okular6Targets.cmake
+* /usr/lib/libOkular6Core.so
+* /usr/lib/libOkular6Core.so.2
+* /usr/lib/libOkular6Core.so.2.0.0
+* /usr/lib/qt6/plugins/kf6/parts/okularpart.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_comicbook.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_djvu.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_dvi.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_epub.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_fax.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_fb.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_ghostview.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_kimgio.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_md.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_mobi.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_poppler.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_tiff.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_txt.so
+* /usr/lib/qt6/plugins/okular_generators/okularGenerator_xps.so
+* /usr/share/applications/okularApplication_comicbook.desktop
+* /usr/share/applications/okularApplication_djvu.desktop
+* /usr/share/applications/okularApplication_dvi.desktop
+* /usr/share/applications/okularApplication_epub.desktop
+* /usr/share/applications/okularApplication_fax.desktop
+* /usr/share/applications/okularApplication_fb.desktop
+* /usr/share/applications/okularApplication_ghostview.desktop
+* /usr/share/applications/okularApplication_kimgio.desktop
+* /usr/share/applications/okularApplication_md.desktop
+* /usr/share/applications/okularApplication_mobi.desktop
+* /usr/share/applications/okularApplication_pdf.desktop
+* /usr/share/applications/okularApplication_tiff.desktop
+* /usr/share/applications/okularApplication_txt.desktop
+* /usr/share/applications/okularApplication_xps.desktop
+* /usr/share/applications/org.kde.mobile.okular_comicbook.desktop
+* /usr/share/applications/org.kde.mobile.okular_djvu.desktop
+* /usr/share/applications/org.kde.mobile.okular_dvi.desktop
+* /usr/share/applications/org.kde.mobile.okular_epub.desktop
+* /usr/share/applications/org.kde.mobile.okular_fax.desktop
+* /usr/share/applications/org.kde.mobile.okular_fb.desktop
+* /usr/share/applications/org.kde.mobile.okular_ghostview.desktop
+* /usr/share/applications/org.kde.mobile.okular_kimgio.desktop
+* /usr/share/applications/org.kde.mobile.okular_md.desktop
+* /usr/share/applications/org.kde.mobile.okular_mobi.desktop
+* /usr/share/applications/org.kde.mobile.okular_pdf.desktop
+* /usr/share/applications/org.kde.mobile.okular_tiff.desktop
+* /usr/share/applications/org.kde.mobile.okular_txt.desktop
+* /usr/share/applications/org.kde.mobile.okular_xps.desktop
+* /usr/share/applications/org.kde.okular.desktop
+* /usr/share/config.kcfg/gssettings.kcfg
+* /usr/share/config.kcfg/okular.kcfg
+* /usr/share/config.kcfg/okular_core.kcfg
+* /usr/share/config.kcfg/pdfsettings.kcfg
+* /usr/share/doc/HTML/ca/okular/bookmark-management.png
+* /usr/share/doc/HTML/ca/okular/configure-annotations.png
+* /usr/share/doc/HTML/ca/okular/configure-backends.png
+* /usr/share/doc/HTML/ca/okular/configure-editor.png
+* /usr/share/doc/HTML/ca/okular/configure.png
+* /usr/share/doc/HTML/ca/okular/index.cache.bz2
+* /usr/share/doc/HTML/ca/okular/index.docbook
+* /usr/share/doc/HTML/ca/okular/mainwindow.png
+* /usr/share/doc/HTML/ca/okular/presentation.png
+* /usr/share/doc/HTML/de/okular/annotation-properties.png
+* /usr/share/doc/HTML/de/okular/configure-annotations.png
+* /usr/share/doc/HTML/de/okular/configure-editor.png
+* /usr/share/doc/HTML/de/okular/configure.png
+* /usr/share/doc/HTML/de/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/de/okular/index.cache.bz2
+* /usr/share/doc/HTML/de/okular/index.docbook
+* /usr/share/doc/HTML/de/okular/mainwindow.png
+* /usr/share/doc/HTML/en/okular/annotation-properties.png
+* /usr/share/doc/HTML/en/okular/annotations.png
+* /usr/share/doc/HTML/en/okular/bookmark-management.png
+* /usr/share/doc/HTML/en/okular/bookmarks.png
+* /usr/share/doc/HTML/en/okular/config-pdf-digital-signatures.png
+* /usr/share/doc/HTML/en/okular/configure-annotations.png
+* /usr/share/doc/HTML/en/okular/configure-backends.png
+* /usr/share/doc/HTML/en/okular/configure-editor.png
+* /usr/share/doc/HTML/en/okular/configure.png
+* /usr/share/doc/HTML/en/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/en/okular/enhance-lowcontrast.png
+* /usr/share/doc/HTML/en/okular/enhance-shape.png
+* /usr/share/doc/HTML/en/okular/enhance-solid.png
+* /usr/share/doc/HTML/en/okular/enhance-thinline.png
+* /usr/share/doc/HTML/en/okular/forms-bar.png
+* /usr/share/doc/HTML/en/okular/index.cache.bz2
+* /usr/share/doc/HTML/en/okular/index.docbook
+* /usr/share/doc/HTML/en/okular/mainwindow.png
+* /usr/share/doc/HTML/en/okular/presentation.png
+* /usr/share/doc/HTML/en/okular/signatures-bar.png
+* /usr/share/doc/HTML/en/okular/signatures-panel.png
+* /usr/share/doc/HTML/en/okular/tool-draw-arrow.png
+* /usr/share/doc/HTML/en/okular/tool-draw-ellipse.png
+* /usr/share/doc/HTML/en/okular/tool-draw-freehand.png
+* /usr/share/doc/HTML/en/okular/tool-draw-highlight.png
+* /usr/share/doc/HTML/en/okular/tool-draw-line.png
+* /usr/share/doc/HTML/en/okular/tool-draw-polyline.png
+* /usr/share/doc/HTML/en/okular/tool-draw-rectangle.png
+* /usr/share/doc/HTML/en/okular/tool-edit-comment.png
+* /usr/share/doc/HTML/en/okular/tool-edit-line-width.png
+* /usr/share/doc/HTML/en/okular/tool-edit-opacity.png
+* /usr/share/doc/HTML/en/okular/tool-favorite.png
+* /usr/share/doc/HTML/en/okular/tool-fill-color.png
+* /usr/share/doc/HTML/en/okular/tool-font-face.png
+* /usr/share/doc/HTML/en/okular/tool-format-text-color.png
+* /usr/share/doc/HTML/en/okular/tool-format-text-strikethrough.png
+* /usr/share/doc/HTML/en/okular/tool-format-text-underline-squiggle.png
+* /usr/share/doc/HTML/en/okular/tool-format-text-underline.png
+* /usr/share/doc/HTML/en/okular/tool-note.png
+* /usr/share/doc/HTML/en/okular/tool-pin.png
+* /usr/share/doc/HTML/en/okular/tool-settings-configure.png
+* /usr/share/doc/HTML/en/okular/tool-tag.png
+* /usr/share/doc/HTML/en/okular/tool-tool-text.png
+* /usr/share/doc/HTML/en/okular/tool-window-pin.png
+* /usr/share/doc/HTML/es/okular/configure.png
+* /usr/share/doc/HTML/es/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/es/okular/index.cache.bz2
+* /usr/share/doc/HTML/es/okular/index.docbook
+* /usr/share/doc/HTML/fr/okular/annotation-properties.png
+* /usr/share/doc/HTML/fr/okular/annotations.png
+* /usr/share/doc/HTML/fr/okular/bookmark-management.png
+* /usr/share/doc/HTML/fr/okular/configure-annotations.png
+* /usr/share/doc/HTML/fr/okular/configure-backends.png
+* /usr/share/doc/HTML/fr/okular/configure-editor.png
+* /usr/share/doc/HTML/fr/okular/configure.png
+* /usr/share/doc/HTML/fr/okular/forms-bar.png
+* /usr/share/doc/HTML/fr/okular/index.cache.bz2
+* /usr/share/doc/HTML/fr/okular/index.docbook
+* /usr/share/doc/HTML/fr/okular/mainwindow.png
+* /usr/share/doc/HTML/fr/okular/presentation.png
+* /usr/share/doc/HTML/gl/okular/index.cache.bz2
+* /usr/share/doc/HTML/gl/okular/index.docbook
+* /usr/share/doc/HTML/it/okular/annotation-properties.png
+* /usr/share/doc/HTML/it/okular/annotations.png
+* /usr/share/doc/HTML/it/okular/bookmark-management.png
+* /usr/share/doc/HTML/it/okular/configure-annotations.png
+* /usr/share/doc/HTML/it/okular/configure-backends.png
+* /usr/share/doc/HTML/it/okular/configure-editor.png
+* /usr/share/doc/HTML/it/okular/configure.png
+* /usr/share/doc/HTML/it/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/it/okular/forms-bar.png
+* /usr/share/doc/HTML/it/okular/index.cache.bz2
+* /usr/share/doc/HTML/it/okular/index.docbook
+* /usr/share/doc/HTML/it/okular/mainwindow.png
+* /usr/share/doc/HTML/it/okular/presentation.png
+* /usr/share/doc/HTML/it/okular/signatures-bar.png
+* /usr/share/doc/HTML/it/okular/signatures-panel.png
+* /usr/share/doc/HTML/ja/okular/configure.png
+* /usr/share/doc/HTML/ja/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/ja/okular/index.cache.bz2
+* /usr/share/doc/HTML/ja/okular/index.docbook
+* /usr/share/doc/HTML/nl/okular/index.cache.bz2
+* /usr/share/doc/HTML/nl/okular/index.docbook
+* /usr/share/doc/HTML/pl/okular/annotation-properties.png
+* /usr/share/doc/HTML/pl/okular/annotations.png
+* /usr/share/doc/HTML/pl/okular/bookmark-management.png
+* /usr/share/doc/HTML/pl/okular/configure-annotations.png
+* /usr/share/doc/HTML/pl/okular/configure-backends.png
+* /usr/share/doc/HTML/pl/okular/configure-editor.png
+* /usr/share/doc/HTML/pl/okular/configure.png
+* /usr/share/doc/HTML/pl/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/pl/okular/forms-bar.png
+* /usr/share/doc/HTML/pl/okular/index.cache.bz2
+* /usr/share/doc/HTML/pl/okular/index.docbook
+* /usr/share/doc/HTML/pl/okular/mainwindow.png
+* /usr/share/doc/HTML/pl/okular/presentation.png
+* /usr/share/doc/HTML/pl/okular/rating.png
+* /usr/share/doc/HTML/pl/okular/tool-ellipse-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-highlighter-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-ink-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-line-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-note-inline-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-note-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-polygon-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-stamp-okular.png
+* /usr/share/doc/HTML/pl/okular/tool-underline-okular.png
+* /usr/share/doc/HTML/pt/okular/index.cache.bz2
+* /usr/share/doc/HTML/pt/okular/index.docbook
+* /usr/share/doc/HTML/pt_BR/okular/annotation-properties.png
+* /usr/share/doc/HTML/pt_BR/okular/annotations.png
+* /usr/share/doc/HTML/pt_BR/okular/bookmark-management.png
+* /usr/share/doc/HTML/pt_BR/okular/configure-annotations.png
+* /usr/share/doc/HTML/pt_BR/okular/configure-backends.png
+* /usr/share/doc/HTML/pt_BR/okular/configure-editor.png
+* /usr/share/doc/HTML/pt_BR/okular/configure.png
+* /usr/share/doc/HTML/pt_BR/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/pt_BR/okular/forms-bar.png
+* /usr/share/doc/HTML/pt_BR/okular/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/okular/index.docbook
+* /usr/share/doc/HTML/pt_BR/okular/mainwindow.png
+* /usr/share/doc/HTML/pt_BR/okular/presentation.png
+* /usr/share/doc/HTML/pt_BR/okular/signatures-bar.png
+* /usr/share/doc/HTML/pt_BR/okular/signatures-panel.png
+* /usr/share/doc/HTML/ru/okular/annotation-properties.png
+* /usr/share/doc/HTML/ru/okular/annotations.png
+* /usr/share/doc/HTML/ru/okular/bookmark-management.png
+* /usr/share/doc/HTML/ru/okular/configure-annotations.png
+* /usr/share/doc/HTML/ru/okular/configure-backends.png
+* /usr/share/doc/HTML/ru/okular/configure-editor.png
+* /usr/share/doc/HTML/ru/okular/configure.png
+* /usr/share/doc/HTML/ru/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/ru/okular/enhance-lowcontrast.png
+* /usr/share/doc/HTML/ru/okular/enhance-shape.png
+* /usr/share/doc/HTML/ru/okular/enhance-solid.png
+* /usr/share/doc/HTML/ru/okular/enhance-thinline.png
+* /usr/share/doc/HTML/ru/okular/forms-bar.png
+* /usr/share/doc/HTML/ru/okular/index.cache.bz2
+* /usr/share/doc/HTML/ru/okular/index.docbook
+* /usr/share/doc/HTML/ru/okular/mainwindow.png
+* /usr/share/doc/HTML/ru/okular/presentation.png
+* /usr/share/doc/HTML/ru/okular/rating.png
+* /usr/share/doc/HTML/ru/okular/tool-ellipse-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-highlighter-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-ink-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-line-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-note-inline-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-note-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-polygon-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-stamp-okular.png
+* /usr/share/doc/HTML/ru/okular/tool-underline-okular.png
+* /usr/share/doc/HTML/sv/okular/configure.png
+* /usr/share/doc/HTML/sv/okular/index.cache.bz2
+* /usr/share/doc/HTML/sv/okular/index.docbook
+* /usr/share/doc/HTML/tr/okular/index.cache.bz2
+* /usr/share/doc/HTML/tr/okular/index.docbook
+* /usr/share/doc/HTML/uk/okular/annotation-properties.png
+* /usr/share/doc/HTML/uk/okular/annotations.png
+* /usr/share/doc/HTML/uk/okular/bookmark-management.png
+* /usr/share/doc/HTML/uk/okular/configure-annotations.png
+* /usr/share/doc/HTML/uk/okular/configure-backends.png
+* /usr/share/doc/HTML/uk/okular/configure-editor.png
+* /usr/share/doc/HTML/uk/okular/configure.png
+* /usr/share/doc/HTML/uk/okular/embedded-files-bar.png
+* /usr/share/doc/HTML/uk/okular/forms-bar.png
+* /usr/share/doc/HTML/uk/okular/index.cache.bz2
+* /usr/share/doc/HTML/uk/okular/index.docbook
+* /usr/share/doc/HTML/uk/okular/mainwindow.png
+* /usr/share/doc/HTML/uk/okular/signatures-bar.png
+* /usr/share/doc/HTML/uk/okular/signatures-panel.png
+* /usr/share/doc/okular-24.08.0/README.clang-format
+* /usr/share/doc/okular-24.08.0/README.internals.png
+* /usr/share/doc/okular-24.08.0/README.md
+* /usr/share/doc/okular-24.08.0/TODO
+* /usr/share/icons/hicolor/128x128/apps/okular.png
+* /usr/share/icons/hicolor/16x16/apps/okular.png
+* /usr/share/icons/hicolor/22x22/apps/okular.png
+* /usr/share/icons/hicolor/32x32/apps/okular.png
+* /usr/share/icons/hicolor/48x48/apps/okular.png
+* /usr/share/icons/hicolor/64x64/apps/okular.png
+* /usr/share/kconf_update/okular.upd
+* /usr/share/locale/ar/LC_MESSAGES/okular.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ar/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ar/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ast/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ast/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/az/LC_MESSAGES/okular.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/az/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/az/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/be/LC_MESSAGES/okular.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/be/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/be/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/bg/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/bg/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/br/LC_MESSAGES/okular.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/bs/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/bs/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ca/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ca/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/cs/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/cs/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/cy/LC_MESSAGES/okular.mo
+* /usr/share/locale/da/LC_MESSAGES/okular.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/da/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/da/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/de/LC_MESSAGES/okular.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/de/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/de/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/el/LC_MESSAGES/okular.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/el/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/el/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/eo/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/eo/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/es/LC_MESSAGES/okular.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/es/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/es/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/et/LC_MESSAGES/okular.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/et/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/et/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/eu/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/eu/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/fa/LC_MESSAGES/okular.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/fi/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/fi/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/fr/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/fr/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/fy/LC_MESSAGES/okular.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ga/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ga/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/gl/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/gl/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/he/LC_MESSAGES/okular.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/he/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/he/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/hi/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/hi/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/hne/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/hr/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/hsb/LC_MESSAGES/okular.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/hu/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/hu/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ia/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ia/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/id/LC_MESSAGES/okular.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ie/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/is/LC_MESSAGES/okular.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/is/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/is/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/it/LC_MESSAGES/okular.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/it/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/it/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ja/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ja/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ka/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ka/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/kk/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/kk/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/km/LC_MESSAGES/okular.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/km/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ko/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ko/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ku/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/lt/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/lt/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/lv/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/lv/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/mk/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ml/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ml/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/mr/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/mr/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ms/LC_MESSAGES/okular.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/nb/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/nb/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/nds/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/nds/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ne/LC_MESSAGES/okular.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/nl/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/nl/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/nn/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/nn/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/oc/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/pa/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/pa/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/pl/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/pl/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/pt/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/pt/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ro/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ro/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ru/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ru/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/se/LC_MESSAGES/okular.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/se/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/si/LC_MESSAGES/okular.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/si/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sk/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sk/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sl/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sl/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sq/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sr/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sv/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sv/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ta/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ta/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/tg/LC_MESSAGES/okular.mo
+* /usr/share/locale/th/LC_MESSAGES/okular.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/th/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/tr/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/tr/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/ug/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/ug/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/uk/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/uk/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/vi/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/vi/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/wa/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/xh/LC_MESSAGES/okular.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/okular.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/man/ca/man1/okular.1.gz
+* /usr/share/man/de/man1/okular.1.gz
+* /usr/share/man/es/man1/okular.1.gz
+* /usr/share/man/et/man1/okular.1.gz
+* /usr/share/man/fr/man1/okular.1.gz
+* /usr/share/man/it/man1/okular.1.gz
+* /usr/share/man/man1/okular.1.gz
+* /usr/share/man/nl/man1/okular.1.gz
+* /usr/share/man/pt/man1/okular.1.gz
+* /usr/share/man/pt_BR/man1/okular.1.gz
+* /usr/share/man/ru/man1/okular.1.gz
+* /usr/share/man/sv/man1/okular.1.gz
+* /usr/share/man/tr/man1/okular.1.gz
+* /usr/share/man/uk/man1/okular.1.gz
+* /usr/share/metainfo/org.kde.okular-comicbook.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-dvi.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-epub.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-fax.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-fb.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-md.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-tiff.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-txt.metainfo.xml
+* /usr/share/metainfo/org.kde.okular-xps.metainfo.xml
+* /usr/share/metainfo/org.kde.okular.appdata.xml
+* /usr/share/okular/drawingtools.xml
+* /usr/share/okular/icons/hicolor/16x16/apps/okular-fb2.png
+* /usr/share/okular/icons/hicolor/16x16/apps/okular-gv.png
+* /usr/share/okular/icons/hicolor/32x32/apps/okular-fb2.png
+* /usr/share/okular/icons/hicolor/32x32/apps/okular-gv.png
+* /usr/share/okular/icons/hicolor/48x48/apps/okular-fb2.png
+* /usr/share/okular/pics/checkmark.png
+* /usr/share/okular/pics/circle.png
+* /usr/share/okular/pics/comment.png
+* /usr/share/okular/pics/cross.png
+* /usr/share/okular/pics/help.png
+* /usr/share/okular/pics/insert.png
+* /usr/share/okular/pics/key.png
+* /usr/share/okular/pics/newparagraph.png
+* /usr/share/okular/pics/note.png
+* /usr/share/okular/pics/okular-epub-movie.png
+* /usr/share/okular/pics/okular-epub-sound-icon.png
+* /usr/share/okular/pics/paperclip.png
+* /usr/share/okular/pics/paragraph.png
+* /usr/share/okular/pics/pushpin.png
+* /usr/share/okular/pics/rightarrow.png
+* /usr/share/okular/pics/rightpointer.png
+* /usr/share/okular/pics/stamps.svg
+* /usr/share/okular/pics/star.png
+* /usr/share/okular/pics/tool-base-okular.png
+* /usr/share/okular/pics/tool-base-okular@2x.png
+* /usr/share/okular/pics/tool-highlighter-okular-colorizable.png
+* /usr/share/okular/pics/tool-highlighter-okular-colorizable@2x.png
+* /usr/share/okular/pics/tool-ink-okular-colorizable.png
+* /usr/share/okular/pics/tool-ink-okular-colorizable@2x.png
+* /usr/share/okular/pics/tool-note-inline-okular-colorizable.png
+* /usr/share/okular/pics/tool-note-inline-okular-colorizable@2x.png
+* /usr/share/okular/pics/tool-note-inline.png
+* /usr/share/okular/pics/tool-note-okular-colorizable.png
+* /usr/share/okular/pics/tool-note-okular-colorizable@2x.png
+* /usr/share/okular/pics/tool-note.png
+* /usr/share/okular/pics/tool-typewriter-okular-colorizable.png
+* /usr/share/okular/pics/tool-typewriter-okular-colorizable@2x.png
+* /usr/share/okular/pics/uparrow.png
+* /usr/share/okular/pics/upleftarrow.png
+* /usr/share/okular/tools.xml
+* /usr/share/okular/toolsQuick.xml
+* /usr/share/qlogging-categories6/okular.categories

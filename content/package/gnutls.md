@@ -12,7 +12,7 @@ size = "3230468"
 usize = "7484531"
 sha1sum = "dd13cf105448e3e9e5bbd854d6ec065d5e61e45a"
 depends = "['brotli', 'libidn2>=1.35', 'libunistring>=1.1', 'nettle>=3.6', 'p11-kit>=0.23.2-10', 'zstd']"
-reverse_depends = "['./opendht', 'aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'ffmpeg4.4', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'net6', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
+reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'ffmpeg4.4', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'net6', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
 +++
 ### Description: 
 A library which provides a secure layer over a reliable transport layer

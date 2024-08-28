@@ -12,7 +12,7 @@ size = "326468"
 usize = "2273106"
 sha1sum = "01a75ae6a905eb354a02635c3a4c6a4a721bec27"
 depends = "['glibc>=2.34']"
-reverse_depends = "['./konqueror', 'konqueror']"
+reverse_depends = "['konqueror']"
 +++
 ### Description: 
 Tidy the layout and correct errors in HTML, XHTML and XML documents

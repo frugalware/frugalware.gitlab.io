@@ -12,7 +12,7 @@ size = "35992"
 usize = "219397"
 sha1sum = "f58ecbee2e880ef9060c4a5b8c8efaa58ba2d444"
 depends = "[]"
-reverse_depends = "['./okular', 'okular']"
+reverse_depends = "['okular']"
 +++
 ### Description: 
 A library for dealing with Microsoft ITSS/CHM format files.

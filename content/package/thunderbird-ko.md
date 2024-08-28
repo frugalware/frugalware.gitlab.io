@@ -12,7 +12,7 @@ size = "690636"
 usize = "753028"
 sha1sum = "00247c7a06763a41fdfd638ea4de5aee295532fb"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Korean language support for Thunderbird

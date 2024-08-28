@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "python3-setuptools 72.0.0-1"
-version = "72.0.0-1"
+title = "python3-setuptools 73.0.1-1"
+version = "73.0.1-1"
 description = "Tool to build and install python packages"
-date = "2024-07-29T09:43:00"
+date = "2024-08-26T11:32:46"
 aliases = "/packages/219856"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/setuptools"
 arch = "x86_64"
-size = "2492196"
-usize = "11365742"
-sha1sum = "33445848e1afa1f8a0be482d1ce5daaecb9cfd88"
+size = "2496168"
+usize = "11377366"
+sha1sum = "146f438a89960504af214e735d1ab526fcb8a84b"
 depends = "['python3>=3.12', 'python3-appdirs', 'python3-packaging', 'python3-six']"
-reverse_depends = "['./python3-setuptools_scm', './python3-sphinx', 'glad', 'meson', 'nodejs', 'nodejs20', 'py3status', 'python3-pbr', 'python3-setuptools-git', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-sphinx', 'scikit-build', 'sip']"
+reverse_depends = "['glad', 'meson', 'nodejs', 'nodejs20', 'py3status', 'python3-pbr', 'python3-setuptools-git', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-sphinx', 'scikit-build', 'sip']"
 +++
 ### Description: 
 Tool to build and install python packages
@@ -47,12 +47,12 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/pkg_resources/tests/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/pkg_resources/__init__.py
 * /usr/lib/python3.12/site-packages/pkg_resources/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/setuptools-72.0.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/setuptools-72.0.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/setuptools-72.0.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/setuptools-72.0.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/setuptools-72.0.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/setuptools-72.0.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/setuptools-73.0.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/setuptools-73.0.1-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/setuptools-73.0.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/setuptools-73.0.1-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/setuptools-73.0.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/setuptools-73.0.1-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/setuptools/archive_util.py
 * /usr/lib/python3.12/site-packages/setuptools/build_meta.py
 * /usr/lib/python3.12/site-packages/setuptools/cli-32.exe
@@ -82,6 +82,7 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/setuptools/command/saveopts.py
 * /usr/lib/python3.12/site-packages/setuptools/command/sdist.py
 * /usr/lib/python3.12/site-packages/setuptools/command/setopt.py
+* /usr/lib/python3.12/site-packages/setuptools/command/test.py
 * /usr/lib/python3.12/site-packages/setuptools/command/upload.py
 * /usr/lib/python3.12/site-packages/setuptools/command/upload_docs.py
 * /usr/lib/python3.12/site-packages/setuptools/command/_requirestxt.py
@@ -108,6 +109,7 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/saveopts.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/sdist.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/setopt.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/test.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/upload.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/upload_docs.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/command/__pycache__/_requirestxt.cpython-312.pyc
@@ -120,15 +122,19 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/setuptools/compat/__pycache__/py311.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/compat/__pycache__/py39.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/compat/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/setuptools/config/distutils.schema.json
 * /usr/lib/python3.12/site-packages/setuptools/config/expand.py
+* /usr/lib/python3.12/site-packages/setuptools/config/NOTICE
 * /usr/lib/python3.12/site-packages/setuptools/config/pyprojecttoml.py
 * /usr/lib/python3.12/site-packages/setuptools/config/setupcfg.py
+* /usr/lib/python3.12/site-packages/setuptools/config/setuptools.schema.json
 * /usr/lib/python3.12/site-packages/setuptools/config/_apply_pyprojecttoml.py
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/error_reporting.py
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/extra_validations.py
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_validations.py
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/formats.py
+* /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/NOTICE
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/__init__.py
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/__pycache__/error_reporting.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/config/_validate_pyproject/__pycache__/extra_validations.cpython-312.pyc
@@ -487,6 +493,9 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/setuptools/_distutils/_macos_compat.py
 * /usr/lib/python3.12/site-packages/setuptools/_distutils/_modified.py
 * /usr/lib/python3.12/site-packages/setuptools/_distutils/_msvccompiler.py
+* /usr/lib/python3.12/site-packages/setuptools/_distutils/_vendor/packaging-24.0.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/setuptools/_distutils/_vendor/packaging-24.0.dist-info/LICENSE.APACHE
+* /usr/lib/python3.12/site-packages/setuptools/_distutils/_vendor/packaging-24.0.dist-info/LICENSE.BSD
 * /usr/lib/python3.12/site-packages/setuptools/_distutils/_vendor/packaging/markers.py
 * /usr/lib/python3.12/site-packages/setuptools/_distutils/_vendor/packaging/metadata.py
 * /usr/lib/python3.12/site-packages/setuptools/_distutils/_vendor/packaging/py.typed
@@ -784,14 +793,6 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/setuptools/_vendor/more_itertools/__pycache__/more.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/_vendor/more_itertools/__pycache__/recipes.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/_vendor/more_itertools/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set-4.1.0.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set-4.1.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set-4.1.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set-4.1.0.dist-info/REQUESTED
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set-4.1.0.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set/py.typed
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set/__init__.py
-* /usr/lib/python3.12/site-packages/setuptools/_vendor/ordered_set/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/setuptools/_vendor/packaging-24.1.dist-info/INSTALLER
 * /usr/lib/python3.12/site-packages/setuptools/_vendor/packaging-24.1.dist-info/LICENSE
 * /usr/lib/python3.12/site-packages/setuptools/_vendor/packaging-24.1.dist-info/LICENSE.APACHE
@@ -1022,5 +1023,5 @@ Tool to build and install python packages
 * /usr/lib/python3.12/site-packages/_distutils_hack/__init__.py
 * /usr/lib/python3.12/site-packages/_distutils_hack/__pycache__/override.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/_distutils_hack/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-setuptools-72.0.0/LICENSE
-* /usr/share/doc/python3-setuptools-72.0.0/README.rst
+* /usr/share/doc/python3-setuptools-73.0.1/LICENSE
+* /usr/share/doc/python3-setuptools-73.0.1/README.rst

@@ -12,7 +12,7 @@ size = "8508"
 usize = "14953"
 sha1sum = "690d40f2ceffe3e6fc8985a5009c67364f2cfd9a"
 depends = "['python3>=3.12']"
-reverse_depends = "['./python3-sphinx', 'python3-sphinx']"
+reverse_depends = "['python3-sphinx']"
 +++
 ### Description: 
 Sphinx extension which renders display math in HTML via JavaScript

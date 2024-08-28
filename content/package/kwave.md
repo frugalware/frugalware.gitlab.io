@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwave 24.05.2-1"
-version = "24.05.2-1"
+title = "kwave 24.08.0-1"
+version = "24.08.0-1"
 description = "Kwave is a sound editor for KDE"
-date = "2024-07-05T14:49:39"
+date = "2024-08-23T20:23:13"
 aliases = "/packages/218945"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5293532"
-usize = "14207919"
-sha1sum = "527669a0261d7a8661802964cfd5049e836fe746"
+size = "5290084"
+usize = "14243159"
+sha1sum = "e5e2f22cf33842b49886c8e0f64974e8d180db3f"
 depends = "['audiofile', 'flac>=1.4.0', 'id3lib', 'kio5>=5.116.0', 'libmad', 'libsamplerate', 'opus', 'qt5-multimedia']"
 +++
 ### Description: 
@@ -19,9 +19,9 @@ Kwave is a sound editor for KDE
 ### Files: 
 * /usr/bin/kwave
 * /usr/lib/libkwave.so.24
-* /usr/lib/libkwave.so.24.05.2
+* /usr/lib/libkwave.so.24.08.0
 * /usr/lib/libkwavegui.so.24
-* /usr/lib/libkwavegui.so.24.05.2
+* /usr/lib/libkwavegui.so.24.08.0
 * /usr/lib/qt5/plugins/kwave/kwaveplugin_about.so
 * /usr/lib/qt5/plugins/kwave/kwaveplugin_amplifyfree.so
 * /usr/lib/qt5/plugins/kwave/kwaveplugin_band_pass.so
@@ -237,10 +237,10 @@ Kwave is a sound editor for KDE
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-sonagram-window.png
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-stringenter.png
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-volume.png
-* /usr/share/doc/kwave-24.05.2/AUTHORS
-* /usr/share/doc/kwave-24.05.2/CHANGES
-* /usr/share/doc/kwave-24.05.2/README
-* /usr/share/doc/kwave-24.05.2/TODO
+* /usr/share/doc/kwave-24.08.0/AUTHORS
+* /usr/share/doc/kwave-24.08.0/CHANGES
+* /usr/share/doc/kwave-24.08.0/README
+* /usr/share/doc/kwave-24.08.0/TODO
 * /usr/share/icons/hicolor/scalable/actions/kwave_player_end.svgz
 * /usr/share/icons/hicolor/scalable/actions/kwave_player_fwd.svgz
 * /usr/share/icons/hicolor/scalable/actions/kwave_player_loop.svgz

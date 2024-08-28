@@ -12,7 +12,7 @@ size = "630316"
 usize = "3165852"
 sha1sum = "c89fd7302d8f7827c1d6fc7bb9c56003596c4817"
 depends = "['attica>=6.5.0', 'kglobalaccel>=6.5.0', 'ktextwidgets>=6.5.0', 'qt6-svg>=6.7.1']"
-reverse_depends = "['./accessibility-inspector', './audex', './ghostwriter', './kbruch', './kcachegrind', './kcharselect', './kmousetool', './krfb', './kruler', './skladnik', './svgpart', 'accessibility-inspector', 'akonadi-mime', 'audex', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcalc', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'ktextaddons', 'kvirc', 'kwin', 'skladnik', 'svgpart', 'wacomtablet']"
+reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'audex', 'ghostwriter', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcalc', 'kcharselect', 'kcolorchooser', 'kdesignerplugin', 'kgeography', 'kmousetool', 'krfb', 'kruler', 'ktextaddons', 'kvirc', 'kwin', 'skladnik', 'svgpart', 'wacomtablet']"
 +++
 ### Description: 
 Framework for managing menu and toolbar actions.

@@ -12,7 +12,7 @@ size = "190028"
 usize = "1075352"
 sha1sum = "f3b0e46e378b7e57326dad7592c9fcded27d30b0"
 depends = "['libstdc++>=9.1.0-3', 'python3>=3.9.6']"
-reverse_depends = "['./fwupd', 'fwupd']"
+reverse_depends = "['fwupd']"
 license = "OSL"
 +++
 ### Description: 

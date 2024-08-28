@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kdepim-runtime 24.05.2-1"
-version = "24.05.2-1"
+title = "kdepim-runtime 24.08.0-1"
+version = "24.08.0-1"
 description = "KDE PIM Runtime"
-date = "2024-07-05T11:18:19"
+date = "2024-08-22T16:27:33"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2696616"
-usize = "14912725"
-sha1sum = "5250e181fbb79ba4e0af17449a355d23991d7d42"
-depends = "['akonadi-calendar>=24.05.2', 'akonadi-notes>=24.05.2', 'kalarm>=24.05.2', 'kdav>=6.3.0', 'kimap>=24.05.2', 'kmbox>=24.05.2', 'knotifyconfig>=6.3.0', 'libkgapi>=24.05.2', 'pimcommon>=24.05.2', 'qca', 'qt6-networkauth>=6.7.1', 'syndication>=6.3.0']"
-reverse_depends = "['./kmail', './korganizer', './zanshin', 'kmail', 'korganizer', 'zanshin']"
+size = "2646680"
+usize = "14795351"
+sha1sum = "acc95f88b6ad564706deda435d56976820fffdef"
+depends = "['akonadi-calendar>=24.08.0', 'akonadi-notes>=24.08.0', 'kalarm>=24.08.0', 'kdav>=6.5.0', 'kimap>=24.08.0', 'kmbox>=24.08.0', 'knotifyconfig>=6.5.0', 'libkgapi>=24.08.0', 'pimcommon>=24.08.0', 'qca', 'qt6-networkauth>=6.7.1', 'syndication>=6.5.0']"
+reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 
 KDE PIM Runtime
@@ -37,22 +37,21 @@ KDE PIM Runtime
 * /usr/bin/akonadi_notes_resource
 * /usr/bin/akonadi_openxchange_resource
 * /usr/bin/akonadi_pop3_resource
-* /usr/bin/akonadi_tomboynotes_resource
 * /usr/bin/akonadi_vcarddir_resource
 * /usr/bin/akonadi_vcard_resource
 * /usr/bin/gidmigrator
 * /usr/lib/libakonadi-filestore.so.6
-* /usr/lib/libakonadi-filestore.so.6.1.2
+* /usr/lib/libakonadi-filestore.so.6.2.0
 * /usr/lib/libakonadi-singlefileresource.so.6
-* /usr/lib/libakonadi-singlefileresource.so.6.1.2
+* /usr/lib/libakonadi-singlefileresource.so.6.2.0
 * /usr/lib/libfolderarchivesettings.so.6
-* /usr/lib/libfolderarchivesettings.so.6.1.2
+* /usr/lib/libfolderarchivesettings.so.6.2.0
 * /usr/lib/libkmindexreader.so.6
-* /usr/lib/libkmindexreader.so.6.1.2
+* /usr/lib/libkmindexreader.so.6.2.0
 * /usr/lib/libmaildir.so.6
-* /usr/lib/libmaildir.so.6.1.2
+* /usr/lib/libmaildir.so.6.2.0
 * /usr/lib/libnewmailnotifier.so.6
-* /usr/lib/libnewmailnotifier.so.6.1.2
+* /usr/lib/libnewmailnotifier.so.6.2.0
 * /usr/lib/qt6/plugins/kf6/kio/akonadi.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/akonotesconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/birthdaysconfig.so
@@ -68,7 +67,6 @@ KDE PIM Runtime
 * /usr/lib/qt6/plugins/pim6/akonadi/config/notesconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/openxchangeconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/pop3config.so
-* /usr/lib/qt6/plugins/pim6/akonadi/config/tomboynotesconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/vcardconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/vcarddirconfig.so
 * /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kcm_ldap.so
@@ -92,7 +90,6 @@ KDE PIM Runtime
 * /usr/share/akonadi/agents/notesresource.desktop
 * /usr/share/akonadi/agents/openxchangeresource.desktop
 * /usr/share/akonadi/agents/pop3resource.desktop
-* /usr/share/akonadi/agents/tomboynotesresource.desktop
 * /usr/share/akonadi/agents/vcarddirresource.desktop
 * /usr/share/akonadi/agents/vcardresource.desktop
 * /usr/share/akonadi/davgroupware-providers/citadel.desktop
@@ -123,7 +120,7 @@ KDE PIM Runtime
 * /usr/share/applications/org.kde.akonadi_vcard_resource.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.MixedMaildir.Settings.xml
-* /usr/share/doc/kdepim-runtime-24.05.2/README.md
+* /usr/share/doc/kdepim-runtime-24.08.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/128x128/apps/ox.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi-ews.png
@@ -140,6 +137,7 @@ KDE PIM Runtime
 * /usr/share/icons/hicolor/96x96/apps/akonadi-ews.png
 * /usr/share/knotifications6/akonadi_ews_resource.notifyrc
 * /usr/share/knotifications6/akonadi_google_resource.notifyrc
+* /usr/share/knotifications6/akonadi_imap_resource.notifyrc
 * /usr/share/knotifications6/akonadi_maildispatcher_agent.notifyrc
 * /usr/share/knotifications6/akonadi_newmailnotifier_agent.notifyrc
 * /usr/share/knotifications6/akonadi_pop3_resource.notifyrc
@@ -605,6 +603,30 @@ KDE PIM Runtime
 * /usr/share/locale/gl/LC_MESSAGES/gid-migrator.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio_akonadi.mo
 * /usr/share/locale/gl/LC_MESSAGES/libfolderarchivesettings.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi-filestore.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_birthdays_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_contacts_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_davgroupware_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_etesync_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_ews_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_google_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_icaldir_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_ical_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_maildir_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_maildispatcher_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_mbox_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_migration_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_mixedmaildir_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_newmailnotifier_agent.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_openxchange_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_pop3_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_singlefile_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_tomboynotes_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_vcarddir_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/akonadi_vcard_resource.mo
+* /usr/share/locale/he/LC_MESSAGES/gid-migrator.mo
+* /usr/share/locale/he/LC_MESSAGES/kio_akonadi.mo
+* /usr/share/locale/he/LC_MESSAGES/libfolderarchivesettings.mo
 * /usr/share/locale/hr/LC_MESSAGES/akonadi_birthdays_resource.mo
 * /usr/share/locale/hr/LC_MESSAGES/akonadi_contacts_resource.mo
 * /usr/share/locale/hr/LC_MESSAGES/akonadi_pop3_resource.mo

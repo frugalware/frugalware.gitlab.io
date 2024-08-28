@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./taglib 2.0.2-1"
+title = "taglib 2.0.2-1"
 version = "2.0.2-1"
 description = "A library for reading and editing the meta-data of several popular audio formats."
 date = "2024-08-25T16:42:52"
-aliases = "/packages/222378"
+aliases = "/packages/3349"
 categories = ['multimedia']
 upstreamurl = "http://taglib.github.io/"
 arch = "x86_64"
@@ -12,139 +12,140 @@ size = "422736"
 usize = "2025985"
 sha1sum = "ca5f8cb52a59fd401d63a883378c478c460fda12"
 depends = "['libstdc++>=11.3', 'zlib>=1.2.12']"
+reverse_depends = "['babe', 'ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', 'kasts', 'kfilemetadata', 'kfilemetadata5', 'kio-extras', 'kio-extras-kf5', 'krename', 'kzenexplorer', 'ncmpcpp', 'qmmp', 'vlc-taglib', 'xcfa']"
 +++
 ### Description: 
 A library for reading and editing the meta-data of several popular audio formats.
 
 ### Files: 
-* taglib /usr/bin/taglib-config
-* taglib /usr/include/taglib/aifffile.h
-* taglib /usr/include/taglib/aiffproperties.h
-* taglib /usr/include/taglib/apefile.h
-* taglib /usr/include/taglib/apefooter.h
-* taglib /usr/include/taglib/apeitem.h
-* taglib /usr/include/taglib/apeproperties.h
-* taglib /usr/include/taglib/apetag.h
-* taglib /usr/include/taglib/asfattribute.h
-* taglib /usr/include/taglib/asffile.h
-* taglib /usr/include/taglib/asfpicture.h
-* taglib /usr/include/taglib/asfproperties.h
-* taglib /usr/include/taglib/asftag.h
-* taglib /usr/include/taglib/attachedpictureframe.h
-* taglib /usr/include/taglib/audioproperties.h
-* taglib /usr/include/taglib/chapterframe.h
-* taglib /usr/include/taglib/commentsframe.h
-* taglib /usr/include/taglib/dsdiffdiintag.h
-* taglib /usr/include/taglib/dsdifffile.h
-* taglib /usr/include/taglib/dsdiffproperties.h
-* taglib /usr/include/taglib/dsffile.h
-* taglib /usr/include/taglib/dsfproperties.h
-* taglib /usr/include/taglib/eventtimingcodesframe.h
-* taglib /usr/include/taglib/fileref.h
-* taglib /usr/include/taglib/flacfile.h
-* taglib /usr/include/taglib/flacmetadatablock.h
-* taglib /usr/include/taglib/flacpicture.h
-* taglib /usr/include/taglib/flacproperties.h
-* taglib /usr/include/taglib/generalencapsulatedobjectframe.h
-* taglib /usr/include/taglib/id3v1genres.h
-* taglib /usr/include/taglib/id3v1tag.h
-* taglib /usr/include/taglib/id3v2.h
-* taglib /usr/include/taglib/id3v2extendedheader.h
-* taglib /usr/include/taglib/id3v2footer.h
-* taglib /usr/include/taglib/id3v2frame.h
-* taglib /usr/include/taglib/id3v2framefactory.h
-* taglib /usr/include/taglib/id3v2header.h
-* taglib /usr/include/taglib/id3v2synchdata.h
-* taglib /usr/include/taglib/id3v2tag.h
-* taglib /usr/include/taglib/infotag.h
-* taglib /usr/include/taglib/itfile.h
-* taglib /usr/include/taglib/itproperties.h
-* taglib /usr/include/taglib/modfile.h
-* taglib /usr/include/taglib/modfilebase.h
-* taglib /usr/include/taglib/modproperties.h
-* taglib /usr/include/taglib/modtag.h
-* taglib /usr/include/taglib/mp4atom.h
-* taglib /usr/include/taglib/mp4coverart.h
-* taglib /usr/include/taglib/mp4file.h
-* taglib /usr/include/taglib/mp4item.h
-* taglib /usr/include/taglib/mp4itemfactory.h
-* taglib /usr/include/taglib/mp4properties.h
-* taglib /usr/include/taglib/mp4tag.h
-* taglib /usr/include/taglib/mpcfile.h
-* taglib /usr/include/taglib/mpcproperties.h
-* taglib /usr/include/taglib/mpegfile.h
-* taglib /usr/include/taglib/mpegheader.h
-* taglib /usr/include/taglib/mpegproperties.h
-* taglib /usr/include/taglib/oggfile.h
-* taglib /usr/include/taglib/oggflacfile.h
-* taglib /usr/include/taglib/oggpage.h
-* taglib /usr/include/taglib/oggpageheader.h
-* taglib /usr/include/taglib/opusfile.h
-* taglib /usr/include/taglib/opusproperties.h
-* taglib /usr/include/taglib/ownershipframe.h
-* taglib /usr/include/taglib/podcastframe.h
-* taglib /usr/include/taglib/popularimeterframe.h
-* taglib /usr/include/taglib/privateframe.h
-* taglib /usr/include/taglib/relativevolumeframe.h
-* taglib /usr/include/taglib/rifffile.h
-* taglib /usr/include/taglib/s3mfile.h
-* taglib /usr/include/taglib/s3mproperties.h
-* taglib /usr/include/taglib/speexfile.h
-* taglib /usr/include/taglib/speexproperties.h
-* taglib /usr/include/taglib/synchronizedlyricsframe.h
-* taglib /usr/include/taglib/tableofcontentsframe.h
-* taglib /usr/include/taglib/tag.h
-* taglib /usr/include/taglib/taglib.h
-* taglib /usr/include/taglib/taglib_export.h
-* taglib /usr/include/taglib/tag_c.h
-* taglib /usr/include/taglib/tbytevector.h
-* taglib /usr/include/taglib/tbytevectorlist.h
-* taglib /usr/include/taglib/tbytevectorstream.h
-* taglib /usr/include/taglib/tdebuglistener.h
-* taglib /usr/include/taglib/textidentificationframe.h
-* taglib /usr/include/taglib/tfile.h
-* taglib /usr/include/taglib/tfilestream.h
-* taglib /usr/include/taglib/tiostream.h
-* taglib /usr/include/taglib/tlist.h
-* taglib /usr/include/taglib/tlist.tcc
-* taglib /usr/include/taglib/tmap.h
-* taglib /usr/include/taglib/tmap.tcc
-* taglib /usr/include/taglib/tpicturetype.h
-* taglib /usr/include/taglib/tpropertymap.h
-* taglib /usr/include/taglib/trueaudiofile.h
-* taglib /usr/include/taglib/trueaudioproperties.h
-* taglib /usr/include/taglib/tstring.h
-* taglib /usr/include/taglib/tstringlist.h
-* taglib /usr/include/taglib/tvariant.h
-* taglib /usr/include/taglib/tversionnumber.h
-* taglib /usr/include/taglib/uniquefileidentifierframe.h
-* taglib /usr/include/taglib/unknownframe.h
-* taglib /usr/include/taglib/unsynchronizedlyricsframe.h
-* taglib /usr/include/taglib/urllinkframe.h
-* taglib /usr/include/taglib/vorbisfile.h
-* taglib /usr/include/taglib/vorbisproperties.h
-* taglib /usr/include/taglib/wavfile.h
-* taglib /usr/include/taglib/wavpackfile.h
-* taglib /usr/include/taglib/wavpackproperties.h
-* taglib /usr/include/taglib/wavproperties.h
-* taglib /usr/include/taglib/xingheader.h
-* taglib /usr/include/taglib/xiphcomment.h
-* taglib /usr/include/taglib/xmfile.h
-* taglib /usr/include/taglib/xmproperties.h
-* taglib /usr/lib/cmake/taglib/taglib-config-version.cmake
-* taglib /usr/lib/cmake/taglib/taglib-config.cmake
-* taglib /usr/lib/cmake/taglib/taglib-targets-release.cmake
-* taglib /usr/lib/cmake/taglib/taglib-targets.cmake
-* taglib /usr/lib/libtag.so
-* taglib /usr/lib/libtag.so.2
-* taglib /usr/lib/libtag.so.2.0.2
-* taglib /usr/lib/libtag_c.so
-* taglib /usr/lib/libtag_c.so.2
-* taglib /usr/lib/libtag_c.so.2.0.2
-* taglib /usr/lib/pkgconfig/taglib.pc
-* taglib /usr/lib/pkgconfig/taglib_c.pc
-* taglib /usr/share/doc/taglib-2.0.2/AUTHORS
-* taglib /usr/share/doc/taglib-2.0.2/COPYING.LGPL
-* taglib /usr/share/doc/taglib-2.0.2/COPYING.MPL
-* taglib /usr/share/doc/taglib-2.0.2/INSTALL.md
-* taglib /usr/share/doc/taglib-2.0.2/README.md
+* /usr/bin/taglib-config
+* /usr/include/taglib/aifffile.h
+* /usr/include/taglib/aiffproperties.h
+* /usr/include/taglib/apefile.h
+* /usr/include/taglib/apefooter.h
+* /usr/include/taglib/apeitem.h
+* /usr/include/taglib/apeproperties.h
+* /usr/include/taglib/apetag.h
+* /usr/include/taglib/asfattribute.h
+* /usr/include/taglib/asffile.h
+* /usr/include/taglib/asfpicture.h
+* /usr/include/taglib/asfproperties.h
+* /usr/include/taglib/asftag.h
+* /usr/include/taglib/attachedpictureframe.h
+* /usr/include/taglib/audioproperties.h
+* /usr/include/taglib/chapterframe.h
+* /usr/include/taglib/commentsframe.h
+* /usr/include/taglib/dsdiffdiintag.h
+* /usr/include/taglib/dsdifffile.h
+* /usr/include/taglib/dsdiffproperties.h
+* /usr/include/taglib/dsffile.h
+* /usr/include/taglib/dsfproperties.h
+* /usr/include/taglib/eventtimingcodesframe.h
+* /usr/include/taglib/fileref.h
+* /usr/include/taglib/flacfile.h
+* /usr/include/taglib/flacmetadatablock.h
+* /usr/include/taglib/flacpicture.h
+* /usr/include/taglib/flacproperties.h
+* /usr/include/taglib/generalencapsulatedobjectframe.h
+* /usr/include/taglib/id3v1genres.h
+* /usr/include/taglib/id3v1tag.h
+* /usr/include/taglib/id3v2.h
+* /usr/include/taglib/id3v2extendedheader.h
+* /usr/include/taglib/id3v2footer.h
+* /usr/include/taglib/id3v2frame.h
+* /usr/include/taglib/id3v2framefactory.h
+* /usr/include/taglib/id3v2header.h
+* /usr/include/taglib/id3v2synchdata.h
+* /usr/include/taglib/id3v2tag.h
+* /usr/include/taglib/infotag.h
+* /usr/include/taglib/itfile.h
+* /usr/include/taglib/itproperties.h
+* /usr/include/taglib/modfile.h
+* /usr/include/taglib/modfilebase.h
+* /usr/include/taglib/modproperties.h
+* /usr/include/taglib/modtag.h
+* /usr/include/taglib/mp4atom.h
+* /usr/include/taglib/mp4coverart.h
+* /usr/include/taglib/mp4file.h
+* /usr/include/taglib/mp4item.h
+* /usr/include/taglib/mp4itemfactory.h
+* /usr/include/taglib/mp4properties.h
+* /usr/include/taglib/mp4tag.h
+* /usr/include/taglib/mpcfile.h
+* /usr/include/taglib/mpcproperties.h
+* /usr/include/taglib/mpegfile.h
+* /usr/include/taglib/mpegheader.h
+* /usr/include/taglib/mpegproperties.h
+* /usr/include/taglib/oggfile.h
+* /usr/include/taglib/oggflacfile.h
+* /usr/include/taglib/oggpage.h
+* /usr/include/taglib/oggpageheader.h
+* /usr/include/taglib/opusfile.h
+* /usr/include/taglib/opusproperties.h
+* /usr/include/taglib/ownershipframe.h
+* /usr/include/taglib/podcastframe.h
+* /usr/include/taglib/popularimeterframe.h
+* /usr/include/taglib/privateframe.h
+* /usr/include/taglib/relativevolumeframe.h
+* /usr/include/taglib/rifffile.h
+* /usr/include/taglib/s3mfile.h
+* /usr/include/taglib/s3mproperties.h
+* /usr/include/taglib/speexfile.h
+* /usr/include/taglib/speexproperties.h
+* /usr/include/taglib/synchronizedlyricsframe.h
+* /usr/include/taglib/tableofcontentsframe.h
+* /usr/include/taglib/tag.h
+* /usr/include/taglib/taglib.h
+* /usr/include/taglib/taglib_export.h
+* /usr/include/taglib/tag_c.h
+* /usr/include/taglib/tbytevector.h
+* /usr/include/taglib/tbytevectorlist.h
+* /usr/include/taglib/tbytevectorstream.h
+* /usr/include/taglib/tdebuglistener.h
+* /usr/include/taglib/textidentificationframe.h
+* /usr/include/taglib/tfile.h
+* /usr/include/taglib/tfilestream.h
+* /usr/include/taglib/tiostream.h
+* /usr/include/taglib/tlist.h
+* /usr/include/taglib/tlist.tcc
+* /usr/include/taglib/tmap.h
+* /usr/include/taglib/tmap.tcc
+* /usr/include/taglib/tpicturetype.h
+* /usr/include/taglib/tpropertymap.h
+* /usr/include/taglib/trueaudiofile.h
+* /usr/include/taglib/trueaudioproperties.h
+* /usr/include/taglib/tstring.h
+* /usr/include/taglib/tstringlist.h
+* /usr/include/taglib/tvariant.h
+* /usr/include/taglib/tversionnumber.h
+* /usr/include/taglib/uniquefileidentifierframe.h
+* /usr/include/taglib/unknownframe.h
+* /usr/include/taglib/unsynchronizedlyricsframe.h
+* /usr/include/taglib/urllinkframe.h
+* /usr/include/taglib/vorbisfile.h
+* /usr/include/taglib/vorbisproperties.h
+* /usr/include/taglib/wavfile.h
+* /usr/include/taglib/wavpackfile.h
+* /usr/include/taglib/wavpackproperties.h
+* /usr/include/taglib/wavproperties.h
+* /usr/include/taglib/xingheader.h
+* /usr/include/taglib/xiphcomment.h
+* /usr/include/taglib/xmfile.h
+* /usr/include/taglib/xmproperties.h
+* /usr/lib/cmake/taglib/taglib-config-version.cmake
+* /usr/lib/cmake/taglib/taglib-config.cmake
+* /usr/lib/cmake/taglib/taglib-targets-release.cmake
+* /usr/lib/cmake/taglib/taglib-targets.cmake
+* /usr/lib/libtag.so
+* /usr/lib/libtag.so.2
+* /usr/lib/libtag.so.2.0.2
+* /usr/lib/libtag_c.so
+* /usr/lib/libtag_c.so.2
+* /usr/lib/libtag_c.so.2.0.2
+* /usr/lib/pkgconfig/taglib.pc
+* /usr/lib/pkgconfig/taglib_c.pc
+* /usr/share/doc/taglib-2.0.2/AUTHORS
+* /usr/share/doc/taglib-2.0.2/COPYING.LGPL
+* /usr/share/doc/taglib-2.0.2/COPYING.MPL
+* /usr/share/doc/taglib-2.0.2/INSTALL.md
+* /usr/share/doc/taglib-2.0.2/README.md

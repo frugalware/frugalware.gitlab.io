@@ -12,7 +12,7 @@ size = "1446388"
 usize = "5791463"
 sha1sum = "1f593b9cb4852afb04641cef3b67a11d5484dc91"
 depends = "['cfitsio>=4.2.0', 'fftw', 'imagemagick>=7.1.1', 'libexif', 'libgsf', 'libheif', 'librsvg', 'libwebp', 'libxml2', 'openexr', 'orc', 'pango', 'poppler-glib']"
-reverse_depends = "['./signal-desktop', 'signal-desktop']"
+reverse_depends = "['signal-desktop']"
 +++
 ### Description: 
 A fast image processing library with low memory needs

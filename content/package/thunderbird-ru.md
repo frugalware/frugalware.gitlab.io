@@ -12,7 +12,7 @@ size = "810456"
 usize = "869727"
 sha1sum = "f03346bca8edff767c4887cd403673d7cab345c4"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Russian language support for Thunderbird

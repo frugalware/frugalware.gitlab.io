@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./kolourpaint 24.08.0-1"
+title = "kolourpaint 24.08.0-1"
 version = "24.08.0-1"
 description = "KDE Paint Program."
 date = "2024-08-22T17:14:18"
-aliases = "/packages/222494"
+aliases = "/packages/88169"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,428 +17,428 @@ depends = "['kio>=6.5.0', 'libksane>=24.08.0']"
 KDE Paint Program.
 
 ### Files: 
-* kolourpaint /usr/bin/kolourpaint
-* kolourpaint /usr/lib/libkolourpaint_lgpl.so
-* kolourpaint /usr/lib/libkolourpaint_lgpl.so.5
-* kolourpaint /usr/share/applications/org.kde.kolourpaint.desktop
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/ca/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_flip.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/de/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/brush_shapes.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/color_box.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/eraser_shapes.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/fcc_std_text.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/fcc_trans_text.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/fill_color_similarity.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/fill_style.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/lines_30_45_deg.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/lines_30_deg.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/lines_45_deg.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/line_width.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/rotate_image_30.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/rotate_selection_30.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/screenshot_acquiring.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/selections_opaque_transparent.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/spraycan_patterns.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/text_zoom_grid.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_brush.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_color_picker.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_color_washer.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_curve.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_ellipse.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_elliptical_selection.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_eraser.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_flood_fill.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_free_form_selection.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_line.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_pen.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_polygon.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_polyline.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_polystar.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_rectangle.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_rectangles.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_rect_selection.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_rounded_rectangle.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_selections.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_spraycan.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_text.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/tool_zoom.png
-* kolourpaint /usr/share/doc/HTML/en/kolourpaint/view_thumbnails.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/brush_shapes.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/color_box.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/eraser_shapes.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/fcc_std_text.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/fcc_trans_text.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/fill_color_similarity.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/fill_style.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/lines_30_45_deg.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/lines_30_deg.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/lines_45_deg.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/line_width.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/rotate_image_30.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/rotate_selection_30.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/selections_opaque_transparent.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/spraycan_patterns.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/text_zoom_grid.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_brush.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_color_picker.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_color_washer.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_curve.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_ellipse.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_elliptical_selection.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_eraser.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_flood_fill.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_free_form_selection.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_line.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_pen.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_polygon.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_polyline.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_polystar.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_rectangle.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_rectangles.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_rect_selection.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_rounded_rectangle.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_selections.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_spraycan.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/tool_text.png
-* kolourpaint /usr/share/doc/HTML/es/kolourpaint/view_thumbnails.png
-* kolourpaint /usr/share/doc/HTML/et/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/et/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/fr/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/fr/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/gl/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/gl/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/it/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/it/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/nl/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/nl/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/nl/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/fullscreen_mode.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_flip.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/pl/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/pt/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/pt/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/brush_shapes.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/color_box.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/eraser_shapes.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/fcc_std_text.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/fcc_trans_text.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/fill_color_similarity.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/fill_style.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/lines_30_45_deg.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/lines_30_deg.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/lines_45_deg.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/line_width.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/rotate_image_30.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/rotate_selection_30.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/screenshot_acquiring.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/selections_opaque_transparent.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/spraycan_patterns.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/text_zoom_grid.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_brush.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_color_picker.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_color_washer.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_curve.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_ellipse.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_elliptical_selection.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_eraser.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_flood_fill.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_free_form_selection.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_line.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_pen.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_polygon.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_polyline.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_polystar.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rectangle.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rectangles.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rect_selection.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rounded_rectangle.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_selections.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_spraycan.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/tool_text.png
-* kolourpaint /usr/share/doc/HTML/pt_BR/kolourpaint/view_thumbnails.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/screenshot_acquiring.png
-* kolourpaint /usr/share/doc/HTML/ru/kolourpaint/view_thumbnails.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_flip.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/sv/kolourpaint/view_thumbnails.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_balance.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_emboss.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_flatten.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_invert.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_reduce_colors.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_resize_scale.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_rotate.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_skew.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/image_soften_sharpen.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/index.cache.bz2
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/index.docbook
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/KolourPaint.png
-* kolourpaint /usr/share/doc/HTML/uk/kolourpaint/screenshot_acquiring.png
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/AUTHORS
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/BUGS
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/ChangeLog
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/COPYING
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/COPYING.DOC
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/COPYING.LIB
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/NEWS
-* kolourpaint /usr/share/doc/kolourpaint-24.08.0/README.md
-* kolourpaint /usr/share/icons/hicolor/128x128/apps/kolourpaint.png
-* kolourpaint /usr/share/icons/hicolor/16x16/apps/kolourpaint.png
-* kolourpaint /usr/share/icons/hicolor/22x22/apps/kolourpaint.png
-* kolourpaint /usr/share/icons/hicolor/32x32/apps/kolourpaint.png
-* kolourpaint /usr/share/icons/hicolor/48x48/apps/kolourpaint.png
-* kolourpaint /usr/share/icons/hicolor/scalable/apps/kolourpaint.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_brush.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_color_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_color_picker.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_curve.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_ellipse.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_elliptical_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_flood_fill.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_free_form_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_line.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_pen.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_polygon.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_polyline.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_rect_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_rounded_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_spraycan.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_text.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_brush.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_color_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_color_picker.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_curve.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_ellipse.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_elliptical_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_flood_fill.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_free_form_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_line.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_pen.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_polygon.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_polyline.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_rect_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_rounded_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_spraycan.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_text.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_brush.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_color_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_color_picker.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_curve.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_ellipse.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_elliptical_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_flood_fill.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_free_form_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_line.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_pen.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_polygon.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_polyline.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_rect_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_rounded_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_spraycan.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_text.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_brush.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_color_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_color_picker.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_curve.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_ellipse.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_elliptical_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_eraser.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_flood_fill.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_free_form_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_line.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_pen.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_polygon.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_polyline.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_rect_selection.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_rounded_rectangle.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_spraycan.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_text.png
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_brush.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_color_eraser.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_color_picker.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_curve.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_ellipse.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_elliptical_selection.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_eraser.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_flood_fill.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_free_form_selection.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_line.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_pen.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_polygon.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_polyline.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rectangle.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rect_selection.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rounded_rectangle.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_spraycan.svgz
-* kolourpaint /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_text.svgz
-* kolourpaint /usr/share/locale/ar/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/be/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/bg/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/br/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/bs/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ca/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ca@valencia/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/cs/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/cy/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/da/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/de/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/el/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/en_GB/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/eo/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/es/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/et/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/eu/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/fa/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/fi/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/fr/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/fy/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ga/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/gl/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/he/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/hi/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/hne/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/hr/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/hu/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ia/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/id/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/is/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/it/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ja/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ka/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/kk/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/km/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ko/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/lt/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/lv/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/mk/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ml/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/mr/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ms/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/nb/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/nds/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ne/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/nl/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/nn/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/oc/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/pa/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/pl/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/pt/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/pt_BR/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ro/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ru/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/se/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/si/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/sk/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/sl/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/sq/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/sv/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ta/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/tg/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/th/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/tok/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/tr/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/ug/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/uk/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/uz/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/uz@cyrillic/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/zh_CN/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/zh_HK/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/locale/zh_TW/LC_MESSAGES/kolourpaint.mo
-* kolourpaint /usr/share/metainfo/org.kde.kolourpaint.appdata.xml
+* /usr/bin/kolourpaint
+* /usr/lib/libkolourpaint_lgpl.so
+* /usr/lib/libkolourpaint_lgpl.so.5
+* /usr/share/applications/org.kde.kolourpaint.desktop
+* /usr/share/doc/HTML/ca/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/ca/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/ca/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/ca/kolourpaint/index.docbook
+* /usr/share/doc/HTML/ca/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/de/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/de/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/de/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/de/kolourpaint/image_flip.png
+* /usr/share/doc/HTML/de/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/de/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/de/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/de/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/de/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/de/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/de/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/de/kolourpaint/index.docbook
+* /usr/share/doc/HTML/de/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/en/kolourpaint/brush_shapes.png
+* /usr/share/doc/HTML/en/kolourpaint/color_box.png
+* /usr/share/doc/HTML/en/kolourpaint/eraser_shapes.png
+* /usr/share/doc/HTML/en/kolourpaint/fcc_std_text.png
+* /usr/share/doc/HTML/en/kolourpaint/fcc_trans_text.png
+* /usr/share/doc/HTML/en/kolourpaint/fill_color_similarity.png
+* /usr/share/doc/HTML/en/kolourpaint/fill_style.png
+* /usr/share/doc/HTML/en/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/en/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/en/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/en/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/en/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/en/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/en/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/en/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/en/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/en/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/en/kolourpaint/index.docbook
+* /usr/share/doc/HTML/en/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/en/kolourpaint/lines_30_45_deg.png
+* /usr/share/doc/HTML/en/kolourpaint/lines_30_deg.png
+* /usr/share/doc/HTML/en/kolourpaint/lines_45_deg.png
+* /usr/share/doc/HTML/en/kolourpaint/line_width.png
+* /usr/share/doc/HTML/en/kolourpaint/rotate_image_30.png
+* /usr/share/doc/HTML/en/kolourpaint/rotate_selection_30.png
+* /usr/share/doc/HTML/en/kolourpaint/screenshot_acquiring.png
+* /usr/share/doc/HTML/en/kolourpaint/selections_opaque_transparent.png
+* /usr/share/doc/HTML/en/kolourpaint/spraycan_patterns.png
+* /usr/share/doc/HTML/en/kolourpaint/text_zoom_grid.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_brush.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_color_picker.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_color_washer.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_curve.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_ellipse.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_elliptical_selection.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_eraser.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_flood_fill.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_free_form_selection.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_line.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_pen.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_polygon.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_polyline.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_polystar.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_rectangle.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_rectangles.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_rect_selection.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_rounded_rectangle.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_selections.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_spraycan.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_text.png
+* /usr/share/doc/HTML/en/kolourpaint/tool_zoom.png
+* /usr/share/doc/HTML/en/kolourpaint/view_thumbnails.png
+* /usr/share/doc/HTML/es/kolourpaint/brush_shapes.png
+* /usr/share/doc/HTML/es/kolourpaint/color_box.png
+* /usr/share/doc/HTML/es/kolourpaint/eraser_shapes.png
+* /usr/share/doc/HTML/es/kolourpaint/fcc_std_text.png
+* /usr/share/doc/HTML/es/kolourpaint/fcc_trans_text.png
+* /usr/share/doc/HTML/es/kolourpaint/fill_color_similarity.png
+* /usr/share/doc/HTML/es/kolourpaint/fill_style.png
+* /usr/share/doc/HTML/es/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/es/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/es/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/es/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/es/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/es/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/es/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/es/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/es/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/es/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/es/kolourpaint/index.docbook
+* /usr/share/doc/HTML/es/kolourpaint/lines_30_45_deg.png
+* /usr/share/doc/HTML/es/kolourpaint/lines_30_deg.png
+* /usr/share/doc/HTML/es/kolourpaint/lines_45_deg.png
+* /usr/share/doc/HTML/es/kolourpaint/line_width.png
+* /usr/share/doc/HTML/es/kolourpaint/rotate_image_30.png
+* /usr/share/doc/HTML/es/kolourpaint/rotate_selection_30.png
+* /usr/share/doc/HTML/es/kolourpaint/selections_opaque_transparent.png
+* /usr/share/doc/HTML/es/kolourpaint/spraycan_patterns.png
+* /usr/share/doc/HTML/es/kolourpaint/text_zoom_grid.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_brush.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_color_picker.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_color_washer.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_curve.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_ellipse.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_elliptical_selection.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_eraser.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_flood_fill.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_free_form_selection.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_line.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_pen.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_polygon.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_polyline.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_polystar.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_rectangle.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_rectangles.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_rect_selection.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_rounded_rectangle.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_selections.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_spraycan.png
+* /usr/share/doc/HTML/es/kolourpaint/tool_text.png
+* /usr/share/doc/HTML/es/kolourpaint/view_thumbnails.png
+* /usr/share/doc/HTML/et/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/et/kolourpaint/index.docbook
+* /usr/share/doc/HTML/fr/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/fr/kolourpaint/index.docbook
+* /usr/share/doc/HTML/gl/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/gl/kolourpaint/index.docbook
+* /usr/share/doc/HTML/it/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/it/kolourpaint/index.docbook
+* /usr/share/doc/HTML/nl/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/nl/kolourpaint/index.docbook
+* /usr/share/doc/HTML/nl/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/pl/kolourpaint/fullscreen_mode.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_flip.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/pl/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/pl/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/pl/kolourpaint/index.docbook
+* /usr/share/doc/HTML/pt/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/pt/kolourpaint/index.docbook
+* /usr/share/doc/HTML/pt_BR/kolourpaint/brush_shapes.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/color_box.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/eraser_shapes.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/fcc_std_text.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/fcc_trans_text.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/fill_color_similarity.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/fill_style.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kolourpaint/index.docbook
+* /usr/share/doc/HTML/pt_BR/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/lines_30_45_deg.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/lines_30_deg.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/lines_45_deg.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/line_width.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/rotate_image_30.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/rotate_selection_30.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/screenshot_acquiring.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/selections_opaque_transparent.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/spraycan_patterns.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/text_zoom_grid.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_brush.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_color_picker.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_color_washer.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_curve.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_ellipse.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_elliptical_selection.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_eraser.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_flood_fill.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_free_form_selection.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_line.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_pen.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_polygon.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_polyline.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_polystar.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rectangle.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rectangles.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rect_selection.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_rounded_rectangle.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_selections.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_spraycan.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/tool_text.png
+* /usr/share/doc/HTML/pt_BR/kolourpaint/view_thumbnails.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/ru/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/ru/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/ru/kolourpaint/index.docbook
+* /usr/share/doc/HTML/ru/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/ru/kolourpaint/screenshot_acquiring.png
+* /usr/share/doc/HTML/ru/kolourpaint/view_thumbnails.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_flip.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/sv/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/sv/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/sv/kolourpaint/index.docbook
+* /usr/share/doc/HTML/sv/kolourpaint/view_thumbnails.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_balance.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_emboss.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_flatten.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_invert.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_reduce_colors.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_resize_scale.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_rotate.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_skew.png
+* /usr/share/doc/HTML/uk/kolourpaint/image_soften_sharpen.png
+* /usr/share/doc/HTML/uk/kolourpaint/index.cache.bz2
+* /usr/share/doc/HTML/uk/kolourpaint/index.docbook
+* /usr/share/doc/HTML/uk/kolourpaint/KolourPaint.png
+* /usr/share/doc/HTML/uk/kolourpaint/screenshot_acquiring.png
+* /usr/share/doc/kolourpaint-24.08.0/AUTHORS
+* /usr/share/doc/kolourpaint-24.08.0/BUGS
+* /usr/share/doc/kolourpaint-24.08.0/ChangeLog
+* /usr/share/doc/kolourpaint-24.08.0/COPYING
+* /usr/share/doc/kolourpaint-24.08.0/COPYING.DOC
+* /usr/share/doc/kolourpaint-24.08.0/COPYING.LIB
+* /usr/share/doc/kolourpaint-24.08.0/NEWS
+* /usr/share/doc/kolourpaint-24.08.0/README.md
+* /usr/share/icons/hicolor/128x128/apps/kolourpaint.png
+* /usr/share/icons/hicolor/16x16/apps/kolourpaint.png
+* /usr/share/icons/hicolor/22x22/apps/kolourpaint.png
+* /usr/share/icons/hicolor/32x32/apps/kolourpaint.png
+* /usr/share/icons/hicolor/48x48/apps/kolourpaint.png
+* /usr/share/icons/hicolor/scalable/apps/kolourpaint.svgz
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_brush.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_color_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_color_picker.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_curve.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_ellipse.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_elliptical_selection.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_flood_fill.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_free_form_selection.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_line.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_pen.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_polygon.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_polyline.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_rect_selection.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_rounded_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_spraycan.png
+* /usr/share/kolourpaint/icons/hicolor/16x16/actions/tool_text.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_brush.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_color_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_color_picker.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_curve.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_ellipse.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_elliptical_selection.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_flood_fill.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_free_form_selection.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_line.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_pen.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_polygon.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_polyline.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_rect_selection.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_rounded_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_spraycan.png
+* /usr/share/kolourpaint/icons/hicolor/22x22/actions/tool_text.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_brush.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_color_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_color_picker.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_curve.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_ellipse.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_elliptical_selection.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_flood_fill.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_free_form_selection.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_line.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_pen.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_polygon.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_polyline.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_rect_selection.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_rounded_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_spraycan.png
+* /usr/share/kolourpaint/icons/hicolor/32x32/actions/tool_text.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_brush.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_color_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_color_picker.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_curve.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_ellipse.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_elliptical_selection.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_eraser.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_flood_fill.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_free_form_selection.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_line.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_pen.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_polygon.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_polyline.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_rect_selection.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_rounded_rectangle.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_spraycan.png
+* /usr/share/kolourpaint/icons/hicolor/48x48/actions/tool_text.png
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_brush.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_color_eraser.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_color_picker.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_curve.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_ellipse.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_elliptical_selection.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_eraser.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_flood_fill.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_free_form_selection.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_line.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_pen.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_polygon.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_polyline.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rectangle.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rect_selection.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_rounded_rectangle.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_spraycan.svgz
+* /usr/share/kolourpaint/icons/hicolor/scalable/actions/tool_text.svgz
+* /usr/share/locale/ar/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/be/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/bg/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/br/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/bs/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ca/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/cs/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/cy/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/da/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/de/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/el/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/eo/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/es/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/et/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/eu/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/fa/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/fi/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/fr/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/fy/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ga/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/gl/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/he/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/hi/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/hne/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/hr/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/hu/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ia/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/id/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/is/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/it/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ja/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ka/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/kk/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/km/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ko/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/lt/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/lv/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/mk/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ml/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/mr/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ms/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/nb/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/nds/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ne/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/nl/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/nn/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/oc/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/pa/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/pl/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/pt/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ro/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ru/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/se/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/si/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/sk/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/sl/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/sq/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/sv/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ta/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/tg/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/th/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/tok/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/tr/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/ug/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/uk/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/uz/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kolourpaint.mo
+* /usr/share/metainfo/org.kde.kolourpaint.appdata.xml

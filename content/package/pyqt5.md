@@ -12,7 +12,7 @@ size = "4386712"
 usize = "30792510"
 sha1sum = "05742098816e609ae4298abdaf6c758eb9888fd2"
 depends = "['qt5-base>=5.15.10']"
-reverse_depends = "['./picard', 'git-cola', 'hplip', 'picard', 'pyqtwebengine']"
+reverse_depends = "['git-cola', 'hplip', 'picard', 'pyqtwebengine']"
 license = "GPL"
 +++
 ### Description: 

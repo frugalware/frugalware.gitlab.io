@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-pythran 0.16.1-1"
-version = "0.16.1-1"
+title = "python3-pythran 0.16.1-3"
+version = "0.16.1-3"
 description = "Ahead of Time compiler for numeric kernels"
-date = "2024-06-26T12:57:17"
+date = "2024-08-26T11:25:14"
 aliases = "/packages/220487"
 categories = ['devel-extra']
 upstreamurl = "https://pythran.readthedocs.io/"
 arch = "x86_64"
-size = "849860"
-usize = "6083628"
-sha1sum = "ada92dc67e485eb944c95d6ba404d773b33dd9a5"
-depends = "['boost', 'python3-beniget', 'python3-networkx', 'python3-numpy', 'python3-ply', 'python3-six']"
+size = "850132"
+usize = "6079975"
+sha1sum = "084c69e215b24d90cd601552288c826b89d54c80"
+depends = "['boost', 'python3-beniget', 'python3-gast', 'python3-networkx', 'python3-numpy', 'python3-ply', 'python3-six']"
 +++
 ### Description: 
 Ahead of Time compiler for numeric kernels

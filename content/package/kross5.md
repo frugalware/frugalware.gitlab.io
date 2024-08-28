@@ -12,7 +12,7 @@ size = "374428"
 usize = "1937877"
 sha1sum = "e61c444b590e09c41d199add545d56648d736f64"
 depends = "['kparts5>=5.116.0']"
-reverse_depends = "['kross-interpreters', 'lokalize']"
+reverse_depends = "['kross-interpreters']"
 +++
 ### Description: 
 Embedding of scripting into applications.

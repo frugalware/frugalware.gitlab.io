@@ -12,7 +12,7 @@ size = "461288"
 usize = "2187730"
 sha1sum = "7f2dd736970f7ced738478a4fee6e942b9ea84e7"
 depends = "['libgomp', 'qt5-declarative>=5.15.14', 'qt5-graphicaleffects>=5.15.14', 'qt5-quickcontrols2>=5.15.14', 'qt5-svg>=5.15.14']"
-reverse_depends = "['kirigami-gallery', 'knewstuff5', 'plasma-framework5', 'purpose5', 'qqc2-desktop-style5']"
+reverse_depends = "['knewstuff5', 'plasma-framework5', 'purpose5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
 UI framework for mobile and convergent applications written in Qt.

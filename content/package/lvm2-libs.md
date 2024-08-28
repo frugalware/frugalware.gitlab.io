@@ -12,7 +12,7 @@ size = "1194696"
 usize = "3661403"
 sha1sum = "36120296ed1e6aa3c0498faade441404eda89632"
 depends = "['libblkid>=2.31.1-3', 'libgudev>=230-7']"
-reverse_depends = "['./lvm2', './nfs-utils', 'cryptsetup-luks', 'dmraid', 'lvm2', 'nfs-utils']"
+reverse_depends = "['cryptsetup-luks', 'dmraid', 'lvm2', 'nfs-utils']"
 +++
 ### Description: 
 Libraries from lvm2

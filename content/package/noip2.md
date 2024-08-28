@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./noip2 3.1.1-1"
+title = "noip2 3.1.1-1"
 version = "3.1.1-1"
 description = "A client program to auto-update dynamic DNS on www.no-ip.com"
 date = "2024-08-27T15:24:16"
-aliases = "/packages/222453"
+aliases = "/packages/9444"
 categories = ['network-extra']
 upstreamurl = "https://www.noip.com"
 arch = "x86_64"
@@ -17,8 +17,8 @@ depends = "['glibc']"
 A client program to auto-update dynamic DNS on www.no-ip.com
 
 ### Files: 
-* noip2 /usr/bin/noip-duc
-* noip2 /usr/lib/systemd/system/noip2.service
-* noip2 /usr/share/doc/noip2-3.1.1/INSTALL.md
-* noip2 /usr/share/doc/noip2-3.1.1/LICENSE
-* noip2 /usr/share/doc/noip2-3.1.1/README.md
+* /usr/bin/noip-duc
+* /usr/lib/systemd/system/noip2.service
+* /usr/share/doc/noip2-3.1.1/INSTALL.md
+* /usr/share/doc/noip2-3.1.1/LICENSE
+* /usr/share/doc/noip2-3.1.1/README.md

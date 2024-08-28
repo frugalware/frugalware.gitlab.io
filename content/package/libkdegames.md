@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./libkdegames 24.08.0-1"
+title = "libkdegames 24.08.0-1"
 version = "24.08.0-1"
 description = "Library for KDE games."
 date = "2024-08-22T14:23:00"
-aliases = "/packages/222255"
+aliases = "/packages/184209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -12,214 +12,215 @@ size = "9173600"
 usize = "10661044"
 sha1sum = "1d2055f94d608e929ad09e2c1c8337266ec7cd81"
 depends = "['kdeclarative>=6.5.0', 'kdnssd>=6.5.0', 'knewstuff>=6.5.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.7.1']"
+reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi', 'skladnik']"
 +++
 ### Description: 
 Library for KDE games.
 
 ### Files: 
-* libkdegames /usr/include/KDEGames6/kdegames_export.h
-* libkdegames /usr/include/KDEGames6/kdegames_version.h
-* libkdegames /usr/include/KDEGames6/KGameAudioScene
-* libkdegames /usr/include/KDEGames6/kgameaudioscene.h
-* libkdegames /usr/include/KDEGames6/KGameClock
-* libkdegames /usr/include/KDEGames6/kgameclock.h
-* libkdegames /usr/include/KDEGames6/KGameDifficulty
-* libkdegames /usr/include/KDEGames6/kgamedifficulty.h
-* libkdegames /usr/include/KDEGames6/KGameDifficultyLevel
-* libkdegames /usr/include/KDEGames6/KGameGraphicsViewRenderer
-* libkdegames /usr/include/KDEGames6/kgamegraphicsviewrenderer.h
-* libkdegames /usr/include/KDEGames6/KGameHighscore
-* libkdegames /usr/include/KDEGames6/kgamehighscore.h
-* libkdegames /usr/include/KDEGames6/KGameHighScoreDialog
-* libkdegames /usr/include/KDEGames6/kgamehighscoredialog.h
-* libkdegames /usr/include/KDEGames6/KGamePopupItem
-* libkdegames /usr/include/KDEGames6/kgamepopupitem.h
-* libkdegames /usr/include/KDEGames6/KGameRenderedGraphicsObject
-* libkdegames /usr/include/KDEGames6/kgamerenderedgraphicsobject.h
-* libkdegames /usr/include/KDEGames6/KGameRenderedItem
-* libkdegames /usr/include/KDEGames6/kgamerendereditem.h
-* libkdegames /usr/include/KDEGames6/KGameRenderer
-* libkdegames /usr/include/KDEGames6/kgamerenderer.h
-* libkdegames /usr/include/KDEGames6/KGameRendererClient
-* libkdegames /usr/include/KDEGames6/kgamerendererclient.h
-* libkdegames /usr/include/KDEGames6/KGameSound
-* libkdegames /usr/include/KDEGames6/kgamesound.h
-* libkdegames /usr/include/KDEGames6/KGameStandardAction
-* libkdegames /usr/include/KDEGames6/kgamestandardaction.h
-* libkdegames /usr/include/KDEGames6/KGameTheme
-* libkdegames /usr/include/KDEGames6/kgametheme.h
-* libkdegames /usr/include/KDEGames6/KGameThemeProvider
-* libkdegames /usr/include/KDEGames6/kgamethemeprovider.h
-* libkdegames /usr/include/KDEGames6/KGameThemeSelector
-* libkdegames /usr/include/KDEGames6/kgamethemeselector.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kchatbase.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kchatbaseitemdelegate.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kchatbasemodel.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kdegamesprivate_export.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgame.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamechat.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameerror.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameio.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamemessage.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamenetwork.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameproperty.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamepropertyhandler.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamesequence.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameversion.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kmessageclient.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kmessageio.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kmessageserver.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgame/kplayer.h
-* libkdegames /usr/include/KDEGames6/libkdegamesprivate/kgamesvgdocument.h
-* libkdegames /usr/include/KDEGames6/libkdegames_capabilities.h
-* libkdegames /usr/lib/cmake/KDEGames6/KDEGames6Config.cmake
-* libkdegames /usr/lib/cmake/KDEGames6/KDEGames6ConfigVersion.cmake
-* libkdegames /usr/lib/cmake/KDEGames6/KDEGames6Targets-release.cmake
-* libkdegames /usr/lib/cmake/KDEGames6/KDEGames6Targets.cmake
-* libkdegames /usr/lib/libKDEGames6.so
-* libkdegames /usr/lib/libKDEGames6.so.6
-* libkdegames /usr/lib/libKDEGames6.so.6.0.240800
-* libkdegames /usr/lib/libKDEGames6Private.so
-* libkdegames /usr/lib/libKDEGames6Private.so.6
-* libkdegames /usr/lib/libKDEGames6Private.so.6.0.240800
-* libkdegames /usr/lib/qt6/qml/org/kde/games/core/corebindingsplugin.qmltypes
-* libkdegames /usr/lib/qt6/qml/org/kde/games/core/kde-qmlmodule.version
-* libkdegames /usr/lib/qt6/qml/org/kde/games/core/KGameItem.qml
-* libkdegames /usr/lib/qt6/qml/org/kde/games/core/libcorebindingsplugin.so
-* libkdegames /usr/lib/qt6/qml/org/kde/games/core/qmldir
-* libkdegames /usr/share/carddecks/svg-ancient-egyptians/11.png
-* libkdegames /usr/share/carddecks/svg-ancient-egyptians/Ancient_Egyptians.svgz
-* libkdegames /usr/share/carddecks/svg-ancient-egyptians/index.desktop
-* libkdegames /usr/share/carddecks/svg-dondorf/11.png
-* libkdegames /usr/share/carddecks/svg-dondorf/dondorf.svgz
-* libkdegames /usr/share/carddecks/svg-dondorf/index.desktop
-* libkdegames /usr/share/carddecks/svg-future/11.png
-* libkdegames /usr/share/carddecks/svg-future/future.svgz
-* libkdegames /usr/share/carddecks/svg-future/index.desktop
-* libkdegames /usr/share/carddecks/svg-gm-paris/11.png
-* libkdegames /usr/share/carddecks/svg-gm-paris/index.desktop
-* libkdegames /usr/share/carddecks/svg-gm-paris/paris.svgz
-* libkdegames /usr/share/carddecks/svg-jolly-royal/11.png
-* libkdegames /usr/share/carddecks/svg-jolly-royal/index.desktop
-* libkdegames /usr/share/carddecks/svg-jolly-royal/jolly-royal.svgz
-* libkdegames /usr/share/carddecks/svg-konqi-modern/11.png
-* libkdegames /usr/share/carddecks/svg-konqi-modern/index.desktop
-* libkdegames /usr/share/carddecks/svg-konqi-modern/konqi.svgz
-* libkdegames /usr/share/carddecks/svg-nicu-ornamental/11.png
-* libkdegames /usr/share/carddecks/svg-nicu-ornamental/AUTHORS
-* libkdegames /usr/share/carddecks/svg-nicu-ornamental/COPYING
-* libkdegames /usr/share/carddecks/svg-nicu-ornamental/index.desktop
-* libkdegames /usr/share/carddecks/svg-nicu-ornamental/ornamental.svgz
-* libkdegames /usr/share/carddecks/svg-nicu-white/11.png
-* libkdegames /usr/share/carddecks/svg-nicu-white/AUTHORS
-* libkdegames /usr/share/carddecks/svg-nicu-white/COPYING
-* libkdegames /usr/share/carddecks/svg-nicu-white/index.desktop
-* libkdegames /usr/share/carddecks/svg-nicu-white/white.svgz
-* libkdegames /usr/share/carddecks/svg-oxygen-air/11.png
-* libkdegames /usr/share/carddecks/svg-oxygen-air/index.desktop
-* libkdegames /usr/share/carddecks/svg-oxygen-air/oxygen-air.svgz
-* libkdegames /usr/share/carddecks/svg-oxygen-white/11.png
-* libkdegames /usr/share/carddecks/svg-oxygen-white/index.desktop
-* libkdegames /usr/share/carddecks/svg-oxygen-white/oxygen-white.svgz
-* libkdegames /usr/share/carddecks/svg-oxygen/11.png
-* libkdegames /usr/share/carddecks/svg-oxygen/index.desktop
-* libkdegames /usr/share/carddecks/svg-oxygen/oxygen.svgz
-* libkdegames /usr/share/carddecks/svg-penguins/11.png
-* libkdegames /usr/share/carddecks/svg-penguins/COPYRIGHT
-* libkdegames /usr/share/carddecks/svg-penguins/index.desktop
-* libkdegames /usr/share/carddecks/svg-penguins/penguins.svgz
-* libkdegames /usr/share/carddecks/svg-standard/11.png
-* libkdegames /usr/share/carddecks/svg-standard/index.desktop
-* libkdegames /usr/share/carddecks/svg-standard/standard.svgz
-* libkdegames /usr/share/carddecks/svg-tigullio-international/index.desktop
-* libkdegames /usr/share/carddecks/svg-tigullio-international/queen-of-hearts.png
-* libkdegames /usr/share/carddecks/svg-tigullio-international/tigullio-international.svgz
-* libkdegames /usr/share/carddecks/svg-xskat-french/11.png
-* libkdegames /usr/share/carddecks/svg-xskat-french/COPYRIGHT
-* libkdegames /usr/share/carddecks/svg-xskat-french/french.svgz
-* libkdegames /usr/share/carddecks/svg-xskat-french/index.desktop
-* libkdegames /usr/share/carddecks/svg-xskat-german/11.png
-* libkdegames /usr/share/carddecks/svg-xskat-german/COPYRIGHT
-* libkdegames /usr/share/carddecks/svg-xskat-german/german.svgz
-* libkdegames /usr/share/carddecks/svg-xskat-german/index.desktop
-* libkdegames /usr/share/doc/libkdegames-24.08.0/README
-* libkdegames /usr/share/doc/libkdegames-24.08.0/TODO
-* libkdegames /usr/share/locale/af/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ar/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ast/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/be/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/bg/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/bn/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/br/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/bs/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ca/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ca@valencia/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/cs/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/cy/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/da/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/de/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/el/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/en_GB/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/eo/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/es/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/et/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/eu/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/fa/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/fi/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/fr/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ga/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/gl/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/he/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/hi/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/hne/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/hr/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/hu/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ia/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/id/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/is/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/it/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ja/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ka/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/kk/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/km/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ko/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ku/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/lt/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/lv/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/mai/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/mk/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ml/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/mr/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/nb/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/nds/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ne/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/nl/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/nn/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/oc/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/pa/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/pl/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/pt/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/pt_BR/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ro/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ru/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/se/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sk/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sl/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sq/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sr/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sr@latin/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/sv/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ta/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/te/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/tg/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/th/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/tr/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/ug/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/uk/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/wa/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/xh/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/zh_CN/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/locale/zh_TW/LC_MESSAGES/libkdegames6.mo
-* libkdegames /usr/share/qlogging-categories6/libkdegames.categories
+* /usr/include/KDEGames6/kdegames_export.h
+* /usr/include/KDEGames6/kdegames_version.h
+* /usr/include/KDEGames6/KGameAudioScene
+* /usr/include/KDEGames6/kgameaudioscene.h
+* /usr/include/KDEGames6/KGameClock
+* /usr/include/KDEGames6/kgameclock.h
+* /usr/include/KDEGames6/KGameDifficulty
+* /usr/include/KDEGames6/kgamedifficulty.h
+* /usr/include/KDEGames6/KGameDifficultyLevel
+* /usr/include/KDEGames6/KGameGraphicsViewRenderer
+* /usr/include/KDEGames6/kgamegraphicsviewrenderer.h
+* /usr/include/KDEGames6/KGameHighscore
+* /usr/include/KDEGames6/kgamehighscore.h
+* /usr/include/KDEGames6/KGameHighScoreDialog
+* /usr/include/KDEGames6/kgamehighscoredialog.h
+* /usr/include/KDEGames6/KGamePopupItem
+* /usr/include/KDEGames6/kgamepopupitem.h
+* /usr/include/KDEGames6/KGameRenderedGraphicsObject
+* /usr/include/KDEGames6/kgamerenderedgraphicsobject.h
+* /usr/include/KDEGames6/KGameRenderedItem
+* /usr/include/KDEGames6/kgamerendereditem.h
+* /usr/include/KDEGames6/KGameRenderer
+* /usr/include/KDEGames6/kgamerenderer.h
+* /usr/include/KDEGames6/KGameRendererClient
+* /usr/include/KDEGames6/kgamerendererclient.h
+* /usr/include/KDEGames6/KGameSound
+* /usr/include/KDEGames6/kgamesound.h
+* /usr/include/KDEGames6/KGameStandardAction
+* /usr/include/KDEGames6/kgamestandardaction.h
+* /usr/include/KDEGames6/KGameTheme
+* /usr/include/KDEGames6/kgametheme.h
+* /usr/include/KDEGames6/KGameThemeProvider
+* /usr/include/KDEGames6/kgamethemeprovider.h
+* /usr/include/KDEGames6/KGameThemeSelector
+* /usr/include/KDEGames6/kgamethemeselector.h
+* /usr/include/KDEGames6/libkdegamesprivate/kchatbase.h
+* /usr/include/KDEGames6/libkdegamesprivate/kchatbaseitemdelegate.h
+* /usr/include/KDEGames6/libkdegamesprivate/kchatbasemodel.h
+* /usr/include/KDEGames6/libkdegamesprivate/kdegamesprivate_export.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgame.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamechat.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameerror.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameio.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamemessage.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamenetwork.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameproperty.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamepropertyhandler.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgamesequence.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kgameversion.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kmessageclient.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kmessageio.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kmessageserver.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgame/kplayer.h
+* /usr/include/KDEGames6/libkdegamesprivate/kgamesvgdocument.h
+* /usr/include/KDEGames6/libkdegames_capabilities.h
+* /usr/lib/cmake/KDEGames6/KDEGames6Config.cmake
+* /usr/lib/cmake/KDEGames6/KDEGames6ConfigVersion.cmake
+* /usr/lib/cmake/KDEGames6/KDEGames6Targets-release.cmake
+* /usr/lib/cmake/KDEGames6/KDEGames6Targets.cmake
+* /usr/lib/libKDEGames6.so
+* /usr/lib/libKDEGames6.so.6
+* /usr/lib/libKDEGames6.so.6.0.240800
+* /usr/lib/libKDEGames6Private.so
+* /usr/lib/libKDEGames6Private.so.6
+* /usr/lib/libKDEGames6Private.so.6.0.240800
+* /usr/lib/qt6/qml/org/kde/games/core/corebindingsplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/games/core/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/games/core/KGameItem.qml
+* /usr/lib/qt6/qml/org/kde/games/core/libcorebindingsplugin.so
+* /usr/lib/qt6/qml/org/kde/games/core/qmldir
+* /usr/share/carddecks/svg-ancient-egyptians/11.png
+* /usr/share/carddecks/svg-ancient-egyptians/Ancient_Egyptians.svgz
+* /usr/share/carddecks/svg-ancient-egyptians/index.desktop
+* /usr/share/carddecks/svg-dondorf/11.png
+* /usr/share/carddecks/svg-dondorf/dondorf.svgz
+* /usr/share/carddecks/svg-dondorf/index.desktop
+* /usr/share/carddecks/svg-future/11.png
+* /usr/share/carddecks/svg-future/future.svgz
+* /usr/share/carddecks/svg-future/index.desktop
+* /usr/share/carddecks/svg-gm-paris/11.png
+* /usr/share/carddecks/svg-gm-paris/index.desktop
+* /usr/share/carddecks/svg-gm-paris/paris.svgz
+* /usr/share/carddecks/svg-jolly-royal/11.png
+* /usr/share/carddecks/svg-jolly-royal/index.desktop
+* /usr/share/carddecks/svg-jolly-royal/jolly-royal.svgz
+* /usr/share/carddecks/svg-konqi-modern/11.png
+* /usr/share/carddecks/svg-konqi-modern/index.desktop
+* /usr/share/carddecks/svg-konqi-modern/konqi.svgz
+* /usr/share/carddecks/svg-nicu-ornamental/11.png
+* /usr/share/carddecks/svg-nicu-ornamental/AUTHORS
+* /usr/share/carddecks/svg-nicu-ornamental/COPYING
+* /usr/share/carddecks/svg-nicu-ornamental/index.desktop
+* /usr/share/carddecks/svg-nicu-ornamental/ornamental.svgz
+* /usr/share/carddecks/svg-nicu-white/11.png
+* /usr/share/carddecks/svg-nicu-white/AUTHORS
+* /usr/share/carddecks/svg-nicu-white/COPYING
+* /usr/share/carddecks/svg-nicu-white/index.desktop
+* /usr/share/carddecks/svg-nicu-white/white.svgz
+* /usr/share/carddecks/svg-oxygen-air/11.png
+* /usr/share/carddecks/svg-oxygen-air/index.desktop
+* /usr/share/carddecks/svg-oxygen-air/oxygen-air.svgz
+* /usr/share/carddecks/svg-oxygen-white/11.png
+* /usr/share/carddecks/svg-oxygen-white/index.desktop
+* /usr/share/carddecks/svg-oxygen-white/oxygen-white.svgz
+* /usr/share/carddecks/svg-oxygen/11.png
+* /usr/share/carddecks/svg-oxygen/index.desktop
+* /usr/share/carddecks/svg-oxygen/oxygen.svgz
+* /usr/share/carddecks/svg-penguins/11.png
+* /usr/share/carddecks/svg-penguins/COPYRIGHT
+* /usr/share/carddecks/svg-penguins/index.desktop
+* /usr/share/carddecks/svg-penguins/penguins.svgz
+* /usr/share/carddecks/svg-standard/11.png
+* /usr/share/carddecks/svg-standard/index.desktop
+* /usr/share/carddecks/svg-standard/standard.svgz
+* /usr/share/carddecks/svg-tigullio-international/index.desktop
+* /usr/share/carddecks/svg-tigullio-international/queen-of-hearts.png
+* /usr/share/carddecks/svg-tigullio-international/tigullio-international.svgz
+* /usr/share/carddecks/svg-xskat-french/11.png
+* /usr/share/carddecks/svg-xskat-french/COPYRIGHT
+* /usr/share/carddecks/svg-xskat-french/french.svgz
+* /usr/share/carddecks/svg-xskat-french/index.desktop
+* /usr/share/carddecks/svg-xskat-german/11.png
+* /usr/share/carddecks/svg-xskat-german/COPYRIGHT
+* /usr/share/carddecks/svg-xskat-german/german.svgz
+* /usr/share/carddecks/svg-xskat-german/index.desktop
+* /usr/share/doc/libkdegames-24.08.0/README
+* /usr/share/doc/libkdegames-24.08.0/TODO
+* /usr/share/locale/af/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ar/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ast/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/be/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/bg/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/bn/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/br/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/bs/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ca/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/cs/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/cy/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/da/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/de/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/el/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/eo/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/es/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/et/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/eu/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/fa/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/fi/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/fr/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ga/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/gl/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/he/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/hne/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/hr/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/hu/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ia/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/id/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/is/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/it/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ja/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ka/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/kk/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/km/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ko/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ku/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/lt/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/mai/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/mk/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ml/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/mr/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/nb/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/nds/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ne/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/nl/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/nn/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/oc/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/pa/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/pl/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/pt/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ro/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ru/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/se/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sk/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sl/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sq/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sr/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sv/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ta/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/te/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/tg/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/th/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/tr/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/ug/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/uk/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/wa/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/xh/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libkdegames6.mo
+* /usr/share/qlogging-categories6/libkdegames.categories

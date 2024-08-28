@@ -12,7 +12,7 @@ size = "262252"
 usize = "972746"
 sha1sum = "077ded302f200c09da00b036a23d69e4804b3f82"
 depends = "['glibc>=2.35']"
-reverse_depends = "['./kernel', 'docbook-xml', 'docbook-xsl', 'inxi', 'kbd', 'kernel', 'kernel-lts', 'pulse-autoconf', 'scriptlet-core', 'texinfo', 'ufw']"
+reverse_depends = "['docbook-xml', 'docbook-xsl', 'inxi', 'kbd', 'kernel', 'kernel-lts', 'pulse-autoconf', 'scriptlet-core', 'texinfo', 'ufw']"
 +++
 ### Description: 
 GNU version of sed, a stream editor

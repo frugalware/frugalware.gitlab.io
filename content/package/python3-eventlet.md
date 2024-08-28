@@ -12,7 +12,7 @@ size = "160300"
 usize = "623913"
 sha1sum = "f690fd5e1b53d7a3a8986354266c4d047dbec3fd"
 depends = "['python3>=3.10', 'python3-dnspython', 'python3-greenlet', 'python3-httplib2', 'python3-monotonic', 'python3-openssl', 'python3-pyzmq']"
-reverse_depends = "['./python3-gunicorn', 'python3-gunicorn']"
+reverse_depends = "['python3-gunicorn']"
 +++
 ### Description: 
 Highly concurrent networking library

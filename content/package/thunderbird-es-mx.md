@@ -12,7 +12,7 @@ size = "667780"
 usize = "734908"
 sha1sum = "5b31e789642823a0e0f9ce08b333c2f4cf125110"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Mexican Spanish language support for Thunderbird

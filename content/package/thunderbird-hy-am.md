@@ -12,7 +12,7 @@ size = "672148"
 usize = "742165"
 sha1sum = "43993cd07f78440c0a2f2a61ef99c708d84dbd8e"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Armenian language support for Thunderbird

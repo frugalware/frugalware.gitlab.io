@@ -12,7 +12,7 @@ size = "1806824"
 usize = "6241869"
 sha1sum = "582ae492d18a07dd734a73bb2c1b050575ea890d"
 depends = "['libstdc++']"
-reverse_depends = "['./thunderbird', 'ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird']"
+reverse_depends = "['ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird']"
 +++
 ### Description: 
 Alliance for Open Media video codec

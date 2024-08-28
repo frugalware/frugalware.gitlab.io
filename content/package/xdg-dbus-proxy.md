@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-dbus-proxy 0.1.5-1"
-version = "0.1.5-1"
+title = "xdg-dbus-proxy 0.1.6-1"
+version = "0.1.6-1"
 description = "A D-Bus proxy."
-date = "2023-09-07T12:12:19"
+date = "2024-08-23T18:13:28"
 aliases = "/packages/219967"
 categories = ['apps']
 upstreamurl = "https://github.com/flatpak/xdg-dbus-proxy"
 arch = "x86_64"
-size = "27188"
-usize = "78905"
-sha1sum = "9f4cc7e0e2d01e0daabadf691211ac6084369a4b"
+size = "27996"
+usize = "76794"
+sha1sum = "adf438dd5f8b20fdd29c0f99142748279c2f05d9"
 depends = "['glib2']"
 reverse_depends = "['flatpak', 'webkit-gtk3']"
 +++
@@ -19,6 +19,6 @@ A D-Bus proxy.
 
 ### Files: 
 * /usr/bin/xdg-dbus-proxy
-* /usr/share/doc/xdg-dbus-proxy-0.1.5/COPYING
-* /usr/share/doc/xdg-dbus-proxy-0.1.5/NEWS
-* /usr/share/doc/xdg-dbus-proxy-0.1.5/README.md
+* /usr/share/doc/xdg-dbus-proxy-0.1.6/COPYING
+* /usr/share/doc/xdg-dbus-proxy-0.1.6/NEWS
+* /usr/share/doc/xdg-dbus-proxy-0.1.6/README.md

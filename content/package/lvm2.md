@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./lvm2 2.03.26-1"
+title = "lvm2 2.03.26-1"
 version = "2.03.26-1"
 description = "Logical Volume Manager 2 utilities"
 date = "2024-08-23T18:04:06"
-aliases = "/packages/222264"
+aliases = "/packages/3220"
 categories = ['base']
 upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
@@ -12,166 +12,167 @@ size = "1479732"
 usize = "3766288"
 sha1sum = "4571ad00cbe3490c9e82cfd8c92d048676083819"
 depends = "['libaio', 'libblkid>=2.31.1-3', 'libsystemd', 'libudev>=242', 'lvm2-libs', 'ncurses>=6.1', 'readline>=8.0', 'systemd-systemctl', 'thin-provisioning-tools>=1.0.2']"
+reverse_depends = "['docker', 'dracut', 'kernel-initrd', 'kernel-lts-initrd', 'libvirt', 'multipath-tools', 'parted', 'udisks2', 'virtualbox']"
 +++
 ### Description: 
 Logical Volume Manager 2 utilities
 
 ### Files: 
-* lvm2 /etc/dracut.conf.d/11-lvm2.conf
-* lvm2 /etc/lvm/cache/.cache
-* lvm2 /etc/lvm/lvm.conf
-* lvm2 /etc/lvm/lvmlocal.conf
-* lvm2 /etc/lvm/profile/cache-mq.profile
-* lvm2 /etc/lvm/profile/cache-smq.profile
-* lvm2 /etc/lvm/profile/command_profile_template.profile
-* lvm2 /etc/lvm/profile/lvmdbusd.profile
-* lvm2 /etc/lvm/profile/metadata_profile_template.profile
-* lvm2 /etc/lvm/profile/thin-generic.profile
-* lvm2 /etc/lvm/profile/thin-performance.profile
-* lvm2 /etc/lvm/profile/vdo-small.profile
-* lvm2 /usr/bin/blkdeactivate
-* lvm2 /usr/bin/dmeventd
-* lvm2 /usr/bin/dmfilemapd
-* lvm2 /usr/bin/dmsetup
-* lvm2 /usr/bin/dmstats
-* lvm2 /usr/bin/fsadm
-* lvm2 /usr/bin/lvchange
-* lvm2 /usr/bin/lvconvert
-* lvm2 /usr/bin/lvcreate
-* lvm2 /usr/bin/lvdisplay
-* lvm2 /usr/bin/lvextend
-* lvm2 /usr/bin/lvm
-* lvm2 /usr/bin/lvmconfig
-* lvm2 /usr/bin/lvmdevices
-* lvm2 /usr/bin/lvmdiskscan
-* lvm2 /usr/bin/lvmdump
-* lvm2 /usr/bin/lvmpolld
-* lvm2 /usr/bin/lvmsadc
-* lvm2 /usr/bin/lvmsar
-* lvm2 /usr/bin/lvm_import_vdo
-* lvm2 /usr/bin/lvreduce
-* lvm2 /usr/bin/lvremove
-* lvm2 /usr/bin/lvrename
-* lvm2 /usr/bin/lvresize
-* lvm2 /usr/bin/lvs
-* lvm2 /usr/bin/lvscan
-* lvm2 /usr/bin/pvchange
-* lvm2 /usr/bin/pvck
-* lvm2 /usr/bin/pvcreate
-* lvm2 /usr/bin/pvdisplay
-* lvm2 /usr/bin/pvmove
-* lvm2 /usr/bin/pvremove
-* lvm2 /usr/bin/pvresize
-* lvm2 /usr/bin/pvs
-* lvm2 /usr/bin/pvscan
-* lvm2 /usr/bin/vgcfgbackup
-* lvm2 /usr/bin/vgcfgrestore
-* lvm2 /usr/bin/vgchange
-* lvm2 /usr/bin/vgck
-* lvm2 /usr/bin/vgconvert
-* lvm2 /usr/bin/vgcreate
-* lvm2 /usr/bin/vgdisplay
-* lvm2 /usr/bin/vgexport
-* lvm2 /usr/bin/vgextend
-* lvm2 /usr/bin/vgimport
-* lvm2 /usr/bin/vgimportclone
-* lvm2 /usr/bin/vgimportdevices
-* lvm2 /usr/bin/vgmerge
-* lvm2 /usr/bin/vgmknodes
-* lvm2 /usr/bin/vgreduce
-* lvm2 /usr/bin/vgremove
-* lvm2 /usr/bin/vgrename
-* lvm2 /usr/bin/vgs
-* lvm2 /usr/bin/vgscan
-* lvm2 /usr/bin/vgsplit
-* lvm2 /usr/lib/device-mapper/libdevmapper-event-lvm2vdo.so
-* lvm2 /usr/lib/libdevmapper-event-lvm2vdo.so
-* lvm2 /usr/lib/lvresize_fs_helper
-* lvm2 /usr/lib/systemd/system/blk-availability.service
-* lvm2 /usr/lib/systemd/system/dm-event.service
-* lvm2 /usr/lib/systemd/system/dm-event.socket
-* lvm2 /usr/lib/systemd/system/lvm-devices-import.path
-* lvm2 /usr/lib/systemd/system/lvm-devices-import.service
-* lvm2 /usr/lib/systemd/system/lvm2-lvmpolld.service
-* lvm2 /usr/lib/systemd/system/lvm2-lvmpolld.socket
-* lvm2 /usr/lib/systemd/system/lvm2-monitor.service
-* lvm2 /usr/lib/tmpfiles.d/lvm2.conf
-* lvm2 /usr/lib/udev/rules.d/10-dm.rules
-* lvm2 /usr/lib/udev/rules.d/11-dm-lvm.rules
-* lvm2 /usr/lib/udev/rules.d/13-dm-disk.rules
-* lvm2 /usr/lib/udev/rules.d/69-dm-lvm.rules
-* lvm2 /usr/lib/udev/rules.d/95-dm-notify.rules
-* lvm2 /usr/share/doc/lvm2-2.03.26/COPYING
-* lvm2 /usr/share/doc/lvm2-2.03.26/COPYING.BSD
-* lvm2 /usr/share/doc/lvm2-2.03.26/COPYING.LIB
-* lvm2 /usr/share/doc/lvm2-2.03.26/INSTALL
-* lvm2 /usr/share/doc/lvm2-2.03.26/README
-* lvm2 /usr/share/doc/lvm2-2.03.26/README.Frugalware
-* lvm2 /usr/share/doc/lvm2-2.03.26/VERSION
-* lvm2 /usr/share/man/man5/lvm.conf.5.gz
-* lvm2 /usr/share/man/man7/lvmautoactivation.7.gz
-* lvm2 /usr/share/man/man7/lvmcache.7.gz
-* lvm2 /usr/share/man/man7/lvmraid.7.gz
-* lvm2 /usr/share/man/man7/lvmreport.7.gz
-* lvm2 /usr/share/man/man7/lvmsystemid.7.gz
-* lvm2 /usr/share/man/man7/lvmthin.7.gz
-* lvm2 /usr/share/man/man7/lvmvdo.7.gz
-* lvm2 /usr/share/man/man8/blkdeactivate.8.gz
-* lvm2 /usr/share/man/man8/dmeventd.8.gz
-* lvm2 /usr/share/man/man8/dmfilemapd.8.gz
-* lvm2 /usr/share/man/man8/dmsetup.8.gz
-* lvm2 /usr/share/man/man8/dmstats.8.gz
-* lvm2 /usr/share/man/man8/fsadm.8.gz
-* lvm2 /usr/share/man/man8/lvchange.8.gz
-* lvm2 /usr/share/man/man8/lvconvert.8.gz
-* lvm2 /usr/share/man/man8/lvcreate.8.gz
-* lvm2 /usr/share/man/man8/lvdisplay.8.gz
-* lvm2 /usr/share/man/man8/lvextend.8.gz
-* lvm2 /usr/share/man/man8/lvm-config.8.gz
-* lvm2 /usr/share/man/man8/lvm-dumpconfig.8.gz
-* lvm2 /usr/share/man/man8/lvm-fullreport.8.gz
-* lvm2 /usr/share/man/man8/lvm-lvpoll.8.gz
-* lvm2 /usr/share/man/man8/lvm.8.gz
-* lvm2 /usr/share/man/man8/lvmconfig.8.gz
-* lvm2 /usr/share/man/man8/lvmdevices.8.gz
-* lvm2 /usr/share/man/man8/lvmdiskscan.8.gz
-* lvm2 /usr/share/man/man8/lvmdump.8.gz
-* lvm2 /usr/share/man/man8/lvmpolld.8.gz
-* lvm2 /usr/share/man/man8/lvmsadc.8.gz
-* lvm2 /usr/share/man/man8/lvmsar.8.gz
-* lvm2 /usr/share/man/man8/lvm_import_vdo.8.gz
-* lvm2 /usr/share/man/man8/lvreduce.8.gz
-* lvm2 /usr/share/man/man8/lvremove.8.gz
-* lvm2 /usr/share/man/man8/lvrename.8.gz
-* lvm2 /usr/share/man/man8/lvresize.8.gz
-* lvm2 /usr/share/man/man8/lvs.8.gz
-* lvm2 /usr/share/man/man8/lvscan.8.gz
-* lvm2 /usr/share/man/man8/pvchange.8.gz
-* lvm2 /usr/share/man/man8/pvck.8.gz
-* lvm2 /usr/share/man/man8/pvcreate.8.gz
-* lvm2 /usr/share/man/man8/pvdisplay.8.gz
-* lvm2 /usr/share/man/man8/pvmove.8.gz
-* lvm2 /usr/share/man/man8/pvremove.8.gz
-* lvm2 /usr/share/man/man8/pvresize.8.gz
-* lvm2 /usr/share/man/man8/pvs.8.gz
-* lvm2 /usr/share/man/man8/pvscan.8.gz
-* lvm2 /usr/share/man/man8/vgcfgbackup.8.gz
-* lvm2 /usr/share/man/man8/vgcfgrestore.8.gz
-* lvm2 /usr/share/man/man8/vgchange.8.gz
-* lvm2 /usr/share/man/man8/vgck.8.gz
-* lvm2 /usr/share/man/man8/vgconvert.8.gz
-* lvm2 /usr/share/man/man8/vgcreate.8.gz
-* lvm2 /usr/share/man/man8/vgdisplay.8.gz
-* lvm2 /usr/share/man/man8/vgexport.8.gz
-* lvm2 /usr/share/man/man8/vgextend.8.gz
-* lvm2 /usr/share/man/man8/vgimport.8.gz
-* lvm2 /usr/share/man/man8/vgimportclone.8.gz
-* lvm2 /usr/share/man/man8/vgimportdevices.8.gz
-* lvm2 /usr/share/man/man8/vgmerge.8.gz
-* lvm2 /usr/share/man/man8/vgmknodes.8.gz
-* lvm2 /usr/share/man/man8/vgreduce.8.gz
-* lvm2 /usr/share/man/man8/vgremove.8.gz
-* lvm2 /usr/share/man/man8/vgrename.8.gz
-* lvm2 /usr/share/man/man8/vgs.8.gz
-* lvm2 /usr/share/man/man8/vgscan.8.gz
-* lvm2 /usr/share/man/man8/vgsplit.8.gz
+* /etc/dracut.conf.d/11-lvm2.conf
+* /etc/lvm/cache/.cache
+* /etc/lvm/lvm.conf
+* /etc/lvm/lvmlocal.conf
+* /etc/lvm/profile/cache-mq.profile
+* /etc/lvm/profile/cache-smq.profile
+* /etc/lvm/profile/command_profile_template.profile
+* /etc/lvm/profile/lvmdbusd.profile
+* /etc/lvm/profile/metadata_profile_template.profile
+* /etc/lvm/profile/thin-generic.profile
+* /etc/lvm/profile/thin-performance.profile
+* /etc/lvm/profile/vdo-small.profile
+* /usr/bin/blkdeactivate
+* /usr/bin/dmeventd
+* /usr/bin/dmfilemapd
+* /usr/bin/dmsetup
+* /usr/bin/dmstats
+* /usr/bin/fsadm
+* /usr/bin/lvchange
+* /usr/bin/lvconvert
+* /usr/bin/lvcreate
+* /usr/bin/lvdisplay
+* /usr/bin/lvextend
+* /usr/bin/lvm
+* /usr/bin/lvmconfig
+* /usr/bin/lvmdevices
+* /usr/bin/lvmdiskscan
+* /usr/bin/lvmdump
+* /usr/bin/lvmpolld
+* /usr/bin/lvmsadc
+* /usr/bin/lvmsar
+* /usr/bin/lvm_import_vdo
+* /usr/bin/lvreduce
+* /usr/bin/lvremove
+* /usr/bin/lvrename
+* /usr/bin/lvresize
+* /usr/bin/lvs
+* /usr/bin/lvscan
+* /usr/bin/pvchange
+* /usr/bin/pvck
+* /usr/bin/pvcreate
+* /usr/bin/pvdisplay
+* /usr/bin/pvmove
+* /usr/bin/pvremove
+* /usr/bin/pvresize
+* /usr/bin/pvs
+* /usr/bin/pvscan
+* /usr/bin/vgcfgbackup
+* /usr/bin/vgcfgrestore
+* /usr/bin/vgchange
+* /usr/bin/vgck
+* /usr/bin/vgconvert
+* /usr/bin/vgcreate
+* /usr/bin/vgdisplay
+* /usr/bin/vgexport
+* /usr/bin/vgextend
+* /usr/bin/vgimport
+* /usr/bin/vgimportclone
+* /usr/bin/vgimportdevices
+* /usr/bin/vgmerge
+* /usr/bin/vgmknodes
+* /usr/bin/vgreduce
+* /usr/bin/vgremove
+* /usr/bin/vgrename
+* /usr/bin/vgs
+* /usr/bin/vgscan
+* /usr/bin/vgsplit
+* /usr/lib/device-mapper/libdevmapper-event-lvm2vdo.so
+* /usr/lib/libdevmapper-event-lvm2vdo.so
+* /usr/lib/lvresize_fs_helper
+* /usr/lib/systemd/system/blk-availability.service
+* /usr/lib/systemd/system/dm-event.service
+* /usr/lib/systemd/system/dm-event.socket
+* /usr/lib/systemd/system/lvm-devices-import.path
+* /usr/lib/systemd/system/lvm-devices-import.service
+* /usr/lib/systemd/system/lvm2-lvmpolld.service
+* /usr/lib/systemd/system/lvm2-lvmpolld.socket
+* /usr/lib/systemd/system/lvm2-monitor.service
+* /usr/lib/tmpfiles.d/lvm2.conf
+* /usr/lib/udev/rules.d/10-dm.rules
+* /usr/lib/udev/rules.d/11-dm-lvm.rules
+* /usr/lib/udev/rules.d/13-dm-disk.rules
+* /usr/lib/udev/rules.d/69-dm-lvm.rules
+* /usr/lib/udev/rules.d/95-dm-notify.rules
+* /usr/share/doc/lvm2-2.03.26/COPYING
+* /usr/share/doc/lvm2-2.03.26/COPYING.BSD
+* /usr/share/doc/lvm2-2.03.26/COPYING.LIB
+* /usr/share/doc/lvm2-2.03.26/INSTALL
+* /usr/share/doc/lvm2-2.03.26/README
+* /usr/share/doc/lvm2-2.03.26/README.Frugalware
+* /usr/share/doc/lvm2-2.03.26/VERSION
+* /usr/share/man/man5/lvm.conf.5.gz
+* /usr/share/man/man7/lvmautoactivation.7.gz
+* /usr/share/man/man7/lvmcache.7.gz
+* /usr/share/man/man7/lvmraid.7.gz
+* /usr/share/man/man7/lvmreport.7.gz
+* /usr/share/man/man7/lvmsystemid.7.gz
+* /usr/share/man/man7/lvmthin.7.gz
+* /usr/share/man/man7/lvmvdo.7.gz
+* /usr/share/man/man8/blkdeactivate.8.gz
+* /usr/share/man/man8/dmeventd.8.gz
+* /usr/share/man/man8/dmfilemapd.8.gz
+* /usr/share/man/man8/dmsetup.8.gz
+* /usr/share/man/man8/dmstats.8.gz
+* /usr/share/man/man8/fsadm.8.gz
+* /usr/share/man/man8/lvchange.8.gz
+* /usr/share/man/man8/lvconvert.8.gz
+* /usr/share/man/man8/lvcreate.8.gz
+* /usr/share/man/man8/lvdisplay.8.gz
+* /usr/share/man/man8/lvextend.8.gz
+* /usr/share/man/man8/lvm-config.8.gz
+* /usr/share/man/man8/lvm-dumpconfig.8.gz
+* /usr/share/man/man8/lvm-fullreport.8.gz
+* /usr/share/man/man8/lvm-lvpoll.8.gz
+* /usr/share/man/man8/lvm.8.gz
+* /usr/share/man/man8/lvmconfig.8.gz
+* /usr/share/man/man8/lvmdevices.8.gz
+* /usr/share/man/man8/lvmdiskscan.8.gz
+* /usr/share/man/man8/lvmdump.8.gz
+* /usr/share/man/man8/lvmpolld.8.gz
+* /usr/share/man/man8/lvmsadc.8.gz
+* /usr/share/man/man8/lvmsar.8.gz
+* /usr/share/man/man8/lvm_import_vdo.8.gz
+* /usr/share/man/man8/lvreduce.8.gz
+* /usr/share/man/man8/lvremove.8.gz
+* /usr/share/man/man8/lvrename.8.gz
+* /usr/share/man/man8/lvresize.8.gz
+* /usr/share/man/man8/lvs.8.gz
+* /usr/share/man/man8/lvscan.8.gz
+* /usr/share/man/man8/pvchange.8.gz
+* /usr/share/man/man8/pvck.8.gz
+* /usr/share/man/man8/pvcreate.8.gz
+* /usr/share/man/man8/pvdisplay.8.gz
+* /usr/share/man/man8/pvmove.8.gz
+* /usr/share/man/man8/pvremove.8.gz
+* /usr/share/man/man8/pvresize.8.gz
+* /usr/share/man/man8/pvs.8.gz
+* /usr/share/man/man8/pvscan.8.gz
+* /usr/share/man/man8/vgcfgbackup.8.gz
+* /usr/share/man/man8/vgcfgrestore.8.gz
+* /usr/share/man/man8/vgchange.8.gz
+* /usr/share/man/man8/vgck.8.gz
+* /usr/share/man/man8/vgconvert.8.gz
+* /usr/share/man/man8/vgcreate.8.gz
+* /usr/share/man/man8/vgdisplay.8.gz
+* /usr/share/man/man8/vgexport.8.gz
+* /usr/share/man/man8/vgextend.8.gz
+* /usr/share/man/man8/vgimport.8.gz
+* /usr/share/man/man8/vgimportclone.8.gz
+* /usr/share/man/man8/vgimportdevices.8.gz
+* /usr/share/man/man8/vgmerge.8.gz
+* /usr/share/man/man8/vgmknodes.8.gz
+* /usr/share/man/man8/vgreduce.8.gz
+* /usr/share/man/man8/vgremove.8.gz
+* /usr/share/man/man8/vgrename.8.gz
+* /usr/share/man/man8/vgs.8.gz
+* /usr/share/man/man8/vgscan.8.gz
+* /usr/share/man/man8/vgsplit.8.gz

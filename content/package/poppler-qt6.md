@@ -12,7 +12,7 @@ size = "190460"
 usize = "680977"
 sha1sum = "5076e9aaf0c89ce856bb72e9ab09f2315e998a02"
 depends = "['poppler', 'qt6-base>=6.6.3']"
-reverse_depends = "['./kdepim-addons', './okular', 'kdepim-addons', 'kfilemetadata', 'kile', 'okular']"
+reverse_depends = "['kdepim-addons', 'kfilemetadata', 'kile', 'okular']"
 +++
 ### Description: 
 Poppler QT6 bindings

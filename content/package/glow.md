@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./glow 2.0.0-1"
+title = "glow 2.0.0-1"
 version = "2.0.0-1"
 description = "Markdown renderer for the CLI"
 date = "2024-08-24T10:02:14"
-aliases = "/packages/222325"
+aliases = "/packages/220246"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/charmbracelet/glow"
 arch = "x86_64"
@@ -17,6 +17,6 @@ depends = "['glibc']"
 Markdown renderer for the CLI
 
 ### Files: 
-* glow /usr/bin/glow
-* glow /usr/share/doc/glow-2.0.0/LICENSE
-* glow /usr/share/doc/glow-2.0.0/README.md
+* /usr/bin/glow
+* /usr/share/doc/glow-2.0.0/LICENSE
+* /usr/share/doc/glow-2.0.0/README.md

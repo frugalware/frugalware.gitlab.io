@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liblogging 1.0.6-6"
-version = "1.0.6-6"
+title = "liblogging 1.0.7-1"
+version = "1.0.7-1"
 description = "Easy to use, portable, open source library for system logging"
-date = "2022-02-08T17:51:53"
+date = "2024-08-21T06:39:50"
 aliases = "/packages/217466"
 categories = ['lib-extra']
 upstreamurl = "http://www.liblogging.org/"
 arch = "x86_64"
-size = "25720"
-usize = "69609"
-sha1sum = "5691973a4c0a2559dbddc22bc50fe0e1b6bca953"
+size = "28340"
+usize = "64988"
+sha1sum = "21d72f93d0e4e8299aa76f0b47552cabbd4312f8"
 depends = "['glibc>=2.26.9000-3', 'libsystemd>=231-22']"
 reverse_depends = "['rsyslog']"
 license = "GPL"

@@ -12,7 +12,7 @@ size = "604512"
 usize = "681221"
 sha1sum = "b0c0dd63d251749902ab65ced6306a5de5d9a1a5"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Panjabi language support for Thunderbird

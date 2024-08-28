@@ -12,7 +12,7 @@ size = "72732"
 usize = "239887"
 sha1sum = "ad8cbf510fce68f35a5fdbbe0a08d050ca6b377e"
 depends = "['qt5-declarative>=5.15.14']"
-reverse_depends = "['ghostwriter', 'qt5-webengine']"
+reverse_depends = "['qt5-webengine']"
 +++
 ### Description: 
 The Qt5 toolkit, qtwebchannel

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-fonttools 4.53.0-1"
-version = "4.53.0-1"
+title = "python3-fonttools 4.53.1-1"
+version = "4.53.1-1"
 description = "Library to manipulate font files from Python"
-date = "2024-06-25T12:37:20"
+date = "2024-08-26T09:22:13"
 aliases = "/packages/220028"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/fonttools"
 arch = "x86_64"
-size = "1933460"
-usize = "9065945"
-sha1sum = "094fdf680307eb8fe138be07ad6e8b92f1f72e5e"
+size = "1904044"
+usize = "9054665"
+sha1sum = "e6b6aa1d970d4bac11fb16b270ef25ff8fcccfe1"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Library to manipulate font files from Python
 * /usr/bin/pyftmerge
 * /usr/bin/pyftsubset
 * /usr/bin/ttx
-* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/fonttools-4.53.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.1-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.1-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.1-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/fonttools-4.53.1-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.1-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/fonttools-4.53.1-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/fontTools/afmLib.py
 * /usr/lib/python3.12/site-packages/fontTools/agl.py
 * /usr/lib/python3.12/site-packages/fontTools/cffLib/CFF2ToCFF.py
@@ -645,6 +645,6 @@ Library to manipulate font files from Python
 * /usr/lib/python3.12/site-packages/fontTools/__pycache__/unicode.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/fontTools/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/python3-fonttools-4.53.0/LICENSE
-* /usr/share/doc/python3-fonttools-4.53.0/README.rst
+* /usr/share/doc/python3-fonttools-4.53.1/LICENSE
+* /usr/share/doc/python3-fonttools-4.53.1/README.rst
 * /usr/share/man/man1/ttx.1.gz

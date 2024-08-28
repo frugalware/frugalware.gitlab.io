@@ -12,7 +12,7 @@ size = "478840"
 usize = "1258496"
 sha1sum = "2a5936df857e30c1b66e06781b1922a11dc2869c"
 depends = "['lib32-libsndfile', 'lib32-sdl2', 'openal=1.23.1']"
-reverse_depends = "['./openloco', 'get_steam', 'openloco']"
+reverse_depends = "['get_steam', 'openloco']"
 +++
 ### Description: 
 A cross-platform 3D audio API appropriate for use with gaming applications. (32-bit)

@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./python3-maturin 1.7.1-1"
+title = "python3-maturin 1.7.1-1"
 version = "1.7.1-1"
 description = "Build and publish crates with pyo3, rust-cpython and cffi bindings"
 date = "2024-08-26T09:34:57"
-aliases = "/packages/222365"
+aliases = "/packages/221055"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/maturin"
 arch = "x86_64"
@@ -17,15 +17,15 @@ depends = "['rust']"
 Build and publish crates with pyo3, rust-cpython and cffi bindings
 
 ### Files: 
-* python3-maturin /usr/bin/maturin
-* python3-maturin /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/METADATA
-* python3-maturin /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/RECORD
-* python3-maturin /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/top_level.txt
-* python3-maturin /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/WHEEL
-* python3-maturin /usr/lib/python3.12/site-packages/maturin/__init__.py
-* python3-maturin /usr/lib/python3.12/site-packages/maturin/__main__.py
-* python3-maturin /usr/lib/python3.12/site-packages/maturin/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-maturin /usr/lib/python3.12/site-packages/maturin/__pycache__/__init__.cpython-312.pyc
-* python3-maturin /usr/lib/python3.12/site-packages/maturin/__pycache__/__main__.cpython-312.opt-1.pyc
-* python3-maturin /usr/lib/python3.12/site-packages/maturin/__pycache__/__main__.cpython-312.pyc
-* python3-maturin /usr/share/doc/python3-maturin-1.7.1/README.md
+* /usr/bin/maturin
+* /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/maturin-1.7.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/maturin/__init__.py
+* /usr/lib/python3.12/site-packages/maturin/__main__.py
+* /usr/lib/python3.12/site-packages/maturin/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/maturin/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/maturin/__pycache__/__main__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/maturin/__pycache__/__main__.cpython-312.pyc
+* /usr/share/doc/python3-maturin-1.7.1/README.md

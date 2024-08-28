@@ -12,7 +12,7 @@ size = "76800"
 usize = "215056"
 sha1sum = "e0148e928f29bd226bc30553ea63aec4186660ee"
 depends = "['glibc>=2.34']"
-reverse_depends = "['./k3b', 'cdrdao', 'kwave', 'libmp3splt', 'mencoder', 'mixxx', 'mlt', 'mpd', 'mplayer', 'mpv', 'normalize', 'pymad', 'qmmp', 'qtractor', 'scummvm', 'sox', 'stepmania', 'vlc-mad', 'xine-lib']"
+reverse_depends = "['cdrdao', 'k3b', 'kwave', 'libmp3splt', 'mencoder', 'mixxx', 'mlt', 'mpd', 'mplayer', 'mpv', 'normalize', 'pymad', 'qmmp', 'qtractor', 'scummvm', 'sox', 'stepmania', 'vlc-mad', 'xine-lib']"
 +++
 ### Description: 
 A high-quality MPEG audio decoder

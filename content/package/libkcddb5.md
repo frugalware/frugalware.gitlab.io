@@ -12,7 +12,6 @@ size = "86988"
 usize = "298968"
 sha1sum = "eb3a9ef524c08b3cb28b2bf53d866e2648d9eaf2"
 depends = "['kcmutils5>=$_F_kf5_full', 'kio5>=$_F_kf5_full', 'libmusicbrainz>=5.1.0-3']"
-reverse_depends = "['k3b']"
 +++
 ### Description: 
 A library for retrieving and sending cddb information. KF5

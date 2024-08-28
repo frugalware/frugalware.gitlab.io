@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-astroid 3.2.2-1"
-version = "3.2.2-1"
+title = "python3-astroid 3.3.2-1"
+version = "3.3.2-1"
 description = "Python Abstract Syntax Tree New Generation."
-date = "2024-06-25T12:35:10"
+date = "2024-08-26T09:10:24"
 aliases = "/packages/219613"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/astroid"
 arch = "x86_64"
-size = "462012"
-usize = "3423685"
-sha1sum = "c6f66c56157496b65ff66b34b5bf7e564e0cb95e"
+size = "461832"
+usize = "3404140"
+sha1sum = "d886920ed634502e48a49c7e15f1b4f559aedd72"
 depends = "['python3-lazy-object-proxy', 'python3-six', 'python3-wrapt']"
 reverse_depends = "['lutris', 'pylint']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['lutris', 'pylint']"
 Python Abstract Syntax Tree New Generation.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/astroid-3.2.2.dist-info/CONTRIBUTORS.txt
-* /usr/lib/python3.12/site-packages/astroid-3.2.2.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/astroid-3.2.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/astroid-3.2.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/astroid-3.2.2.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/astroid-3.2.2.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/astroid-3.3.2.dist-info/CONTRIBUTORS.txt
+* /usr/lib/python3.12/site-packages/astroid-3.3.2.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/astroid-3.3.2.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/astroid-3.3.2.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/astroid-3.3.2.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/astroid-3.3.2.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/astroid/arguments.py
 * /usr/lib/python3.12/site-packages/astroid/astroid_manager.py
 * /usr/lib/python3.12/site-packages/astroid/bases.py
@@ -38,7 +38,6 @@ Python Abstract Syntax Tree New Generation.
 * /usr/lib/python3.12/site-packages/astroid/brain/brain_dataclasses.py
 * /usr/lib/python3.12/site-packages/astroid/brain/brain_datetime.py
 * /usr/lib/python3.12/site-packages/astroid/brain/brain_dateutil.py
-* /usr/lib/python3.12/site-packages/astroid/brain/brain_fstrings.py
 * /usr/lib/python3.12/site-packages/astroid/brain/brain_functools.py
 * /usr/lib/python3.12/site-packages/astroid/brain/brain_gi.py
 * /usr/lib/python3.12/site-packages/astroid/brain/brain_hashlib.py
@@ -103,8 +102,6 @@ Python Abstract Syntax Tree New Generation.
 * /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_datetime.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_dateutil.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_dateutil.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_fstrings.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_fstrings.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_functools.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_functools.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/astroid/brain/__pycache__/brain_gi.cpython-312.opt-1.pyc
@@ -315,5 +312,5 @@ Python Abstract Syntax Tree New Generation.
 * /usr/lib/python3.12/site-packages/astroid/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/astroid/__pycache__/__pkginfo__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/astroid/__pycache__/__pkginfo__.cpython-312.pyc
-* /usr/share/doc/python3-astroid-3.2.2/LICENSE
-* /usr/share/doc/python3-astroid-3.2.2/README.rst
+* /usr/share/doc/python3-astroid-3.3.2/LICENSE
+* /usr/share/doc/python3-astroid-3.3.2/README.rst

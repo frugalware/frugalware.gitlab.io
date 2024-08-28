@@ -12,7 +12,7 @@ size = "703212"
 usize = "2039731"
 sha1sum = "50a4ae7c2939fddaa811256e44bb9b64d94d2be6"
 depends = "['binutils>=2.43.1', 'fontconfig>=2.12.1-2', 'freetype2', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libpng>=1.6.24', 'libx11', 'libxcb', 'libxext', 'libxrender>=0.9.9-5', 'lzo', 'pixman>=0.32.8-3']"
-reverse_depends = "['./gst1-plugins-good', 'cairomm', 'castor', 'firefox', 'granite', 'gst1-plugins-good', 'harfbuzz-cairo', 'i3lock', 'intel-gpu-tools', 'libgdiplus', 'lsp-plugins', 'openscenegraph', 'openslide', 'pango', 'pdf2svg', 'poppler', 'poppler-glib', 'poppler-pdftools', 'pygobject3-cairo', 'python3-pycairo', 'scribus', 'whalebird']"
+reverse_depends = "['cairomm', 'castor', 'firefox', 'granite', 'gst1-plugins-good', 'harfbuzz-cairo', 'i3lock', 'intel-gpu-tools', 'libgdiplus', 'lsp-plugins', 'openscenegraph', 'openslide', 'pango', 'pdf2svg', 'poppler', 'poppler-glib', 'poppler-pdftools', 'pygobject3-cairo', 'python3-pycairo', 'scribus', 'whalebird']"
 +++
 ### Description: 
 A vector graphics library with cross-device output support

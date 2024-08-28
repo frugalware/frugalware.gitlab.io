@@ -12,7 +12,7 @@ size = "122148"
 usize = "487308"
 sha1sum = "03269f742acce4fb75cece2ed38e419805063086"
 depends = "['qt5-base>=5.15.14']"
-reverse_depends = "['kdelibs4support5', 'kdevelop', 'kirigami-gallery']"
+reverse_depends = "['kdelibs4support5']"
 +++
 ### Description: 
 Set of item models extending the Qt model-view framework.

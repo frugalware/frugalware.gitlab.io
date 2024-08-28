@@ -12,7 +12,7 @@ size = "2901772"
 usize = "17409741"
 sha1sum = "f8aa1e4de6f0ac74a3f858018ab86cc0ce5ab367"
 depends = "['bash>=4.4.12-3', 'glibc>=2.35', 'gmp>=6.1.2-6', 'libcap>=2.25-8', 'xfsprogs-acl>=2.2.52-7', 'xfsprogs-attr>=2.4.47-8']"
-reverse_depends = "['./pacman-g2', 'e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
+reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
 +++
 ### Description: 
 These are the GNU core utilities, the basic command line programs

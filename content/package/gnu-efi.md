@@ -12,7 +12,7 @@ size = "414652"
 usize = "3701600"
 sha1sum = "221e0f31784f7a5ebdf2b953ad897932999b4054"
 depends = "[]"
-reverse_depends = "['./fwupd', 'fwupd']"
+reverse_depends = "['fwupd']"
 +++
 ### Description: 
 EFI Development Environment for x86_64.

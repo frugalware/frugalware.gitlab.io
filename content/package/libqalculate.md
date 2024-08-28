@@ -12,7 +12,7 @@ size = "2681320"
 usize = "15956943"
 sha1sum = "13ed16b6abee94f21294d19b9f766fcc93e232e3"
 depends = "['cln>=1.3.4-3', 'curl', 'glib2>=2.49.7-2', 'icu4c>=75.1', 'libstdc++>=9.1.0-3', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'readline>=8.0']"
-reverse_depends = "['./cantor', './kalk', './step', 'cantor', 'kalk', 'plasma-workspace', 'step']"
+reverse_depends = "['cantor', 'kalk', 'plasma-workspace', 'step']"
 +++
 ### Description: 
 A multi-purpose desktop calculator library

@@ -1,30 +1,30 @@
 +++
 draft = false
-title = "python3-cffi 1.17.0rc1-1"
-version = "1.17.0rc1-1"
+title = "python3-cffi 1.17.0-1"
+version = "1.17.0-1"
 description = "cryptography expose cryptographic recipes and primitives in a python module"
-date = "2024-06-26T14:34:42"
+date = "2024-08-26T09:16:56"
 aliases = "/packages/219786"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cffi"
 arch = "x86_64"
-size = "258188"
-usize = "984588"
-sha1sum = "9d8d694a6866ee3360ff02aac025987904d3fef1"
+size = "257848"
+usize = "984453"
+sha1sum = "75105dcce55ce8d2598105e76170b20f1093adb6"
 depends = "['libffi>=3.4', 'python3>=3.12', 'python3-pycparser>=2.16']"
-reverse_depends = "['./python3-cryptography', 'lutris', 'python3-bcrypt', 'python3-cryptography', 'python3-xattr']"
+reverse_depends = "['lutris', 'python3-bcrypt', 'python3-cryptography', 'python3-xattr']"
 +++
 ### Description: 
 cryptography expose cryptographic recipes and primitives in a python module
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/cffi-1.17.0rc1-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/cffi-1.17.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/cffi/api.py
 * /usr/lib/python3.12/site-packages/cffi/backend_ctypes.py
 * /usr/lib/python3.12/site-packages/cffi/cffi_opcode.py
@@ -66,6 +66,6 @@ cryptography expose cryptographic recipes and primitives in a python module
 * /usr/lib/python3.12/site-packages/cffi/__pycache__/_shimmed_dist_utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cffi/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/_cffi_backend.cpython-312-x86_64-linux-gnu.so
-* /usr/share/doc/python3-cffi-1.17.0rc1/AUTHORS
-* /usr/share/doc/python3-cffi-1.17.0rc1/LICENSE
-* /usr/share/doc/python3-cffi-1.17.0rc1/README.md
+* /usr/share/doc/python3-cffi-1.17.0/AUTHORS
+* /usr/share/doc/python3-cffi-1.17.0/LICENSE
+* /usr/share/doc/python3-cffi-1.17.0/README.md

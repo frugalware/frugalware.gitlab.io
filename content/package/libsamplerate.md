@@ -12,7 +12,7 @@ size = "987276"
 usize = "1643486"
 sha1sum = "abff49a18385618154bae43be17461d37d603ef7"
 depends = "['fftw>=3.3.5-2', 'glibc>=2.34', 'libsndfile>=1.0.27-2']"
-reverse_depends = "['./k3b', 'alsa-plugin-samplerate', 'alsa-utils', 'blender', 'dssi', 'gtk-handbrake', 'jack2', 'k3b', 'kwave', 'liblastfm', 'mlt', 'mpd', 'pocketsphinx', 'rubberband', 'vlc-samplerate', 'zam-plugins']"
+reverse_depends = "['alsa-plugin-samplerate', 'alsa-utils', 'blender', 'dssi', 'gtk-handbrake', 'jack2', 'k3b', 'kwave', 'liblastfm', 'mlt', 'mpd', 'pocketsphinx', 'rubberband', 'vlc-samplerate', 'zam-plugins']"
 +++
 ### Description: 
 Secret Rabbit Code

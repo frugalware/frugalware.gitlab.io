@@ -12,7 +12,7 @@ size = "21240"
 usize = "60536"
 sha1sum = "b64a411ead2aa714f9b06fbc0d2baafdcc0ad3da"
 depends = "['kcoreaddons>=6.5.0', 'kwindowsystem>=6.5.0']"
-reverse_depends = "['./accessibility-inspector', './audex', './dolphin', './isoimagewriter', './kalm', './skladnik', './telly-skout', 'accessibility-inspector', 'audex', 'audiotube', 'dolphin', 'isoimagewriter', 'kalm', 'kglobalacceld', 'kservice', 'kwin', 'polkit-kde-agent-1', 'skladnik', 'sweeper', 'telly-skout']"
+reverse_depends = "['accessibility-inspector', 'audex', 'audiotube', 'dolphin', 'isoimagewriter', 'kalm', 'kglobalacceld', 'kservice', 'kwin', 'polkit-kde-agent-1', 'skladnik', 'sweeper', 'telly-skout']"
 +++
 ### Description: 
 Gracefull handling of application crashes.

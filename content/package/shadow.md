@@ -12,7 +12,7 @@ size = "674896"
 usize = "4011515"
 sha1sum = "1e6ca49c576faca616c787f4d61ce91ccf6c5b0d"
 depends = "['libsystemd', 'libxcrypt']"
-reverse_depends = "['./clamav', './pacman-g2', 'avahi', 'clamav', 'distcc', 'libusbmuxd', 'pacman-g2', 'pacman-tools', 'parted', 'redis', 'scriptlet-core', 'systemd', 'texinfo', 'tpm2-tss', 'xdotool']"
+reverse_depends = "['avahi', 'clamav', 'distcc', 'libusbmuxd', 'pacman-g2', 'pacman-tools', 'parted', 'redis', 'scriptlet-core', 'systemd', 'texinfo', 'tpm2-tss', 'xdotool']"
 +++
 ### Description: 
 Shadow password file utilities

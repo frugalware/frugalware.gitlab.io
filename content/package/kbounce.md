@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./kbounce 24.08.0-1"
+title = "kbounce 24.08.0-1"
 version = "24.08.0-1"
 description = "A single player arcade game with the elements of puzzle."
 date = "2024-08-22T14:31:25"
-aliases = "/packages/222389"
+aliases = "/packages/184177"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,161 +17,161 @@ depends = "['libkdegames>=24.08.0', 'qt6-svg>=6.7.1']"
 A single player arcade game with the elements of puzzle.
 
 ### Files: 
-* kbounce /usr/bin/kbounce
-* kbounce /usr/share/applications/org.kde.kbounce.desktop
-* kbounce /usr/share/doc/HTML/ca/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/ca/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/ca/kbounce/kbounce_corridor1.png
-* kbounce /usr/share/doc/HTML/ca/kbounce/kbounce_corridor2.png
-* kbounce /usr/share/doc/HTML/de/kbounce/button-new.png
-* kbounce /usr/share/doc/HTML/de/kbounce/button-pause.png
-* kbounce /usr/share/doc/HTML/de/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/de/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/de/kbounce/kbounce_corridor1.png
-* kbounce /usr/share/doc/HTML/de/kbounce/kbounce_corridor2.png
-* kbounce /usr/share/doc/HTML/de/kbounce/menu-game.png
-* kbounce /usr/share/doc/HTML/de/kbounce/menu-help.png
-* kbounce /usr/share/doc/HTML/de/kbounce/menu-settings.png
-* kbounce /usr/share/doc/HTML/de/kbounce/toolbar.png
-* kbounce /usr/share/doc/HTML/en/kbounce/document-new.png
-* kbounce /usr/share/doc/HTML/en/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/en/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/en/kbounce/kbounce_corridor1.png
-* kbounce /usr/share/doc/HTML/en/kbounce/kbounce_corridor2.png
-* kbounce /usr/share/doc/HTML/en/kbounce/media-playback-pause.png
-* kbounce /usr/share/doc/HTML/es/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/es/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/et/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/et/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/fr/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/fr/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/fr/kbounce/jezball_corridor1.png
-* kbounce /usr/share/doc/HTML/fr/kbounce/jezball_corridor2.png
-* kbounce /usr/share/doc/HTML/fr/kbounce/jezball_newWall.png
-* kbounce /usr/share/doc/HTML/it/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/it/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/nl/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/nl/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/pt/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/pt/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/pt_BR/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/pt_BR/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor1.png
-* kbounce /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor2.png
-* kbounce /usr/share/doc/HTML/sv/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/sv/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/tr/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/tr/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/uk/kbounce/index.cache.bz2
-* kbounce /usr/share/doc/HTML/uk/kbounce/index.docbook
-* kbounce /usr/share/doc/HTML/uk/kbounce/kbounce_corridor1.png
-* kbounce /usr/share/doc/HTML/uk/kbounce/kbounce_corridor2.png
-* kbounce /usr/share/icons/hicolor/128x128/apps/kbounce.png
-* kbounce /usr/share/icons/hicolor/16x16/apps/kbounce.png
-* kbounce /usr/share/icons/hicolor/22x22/apps/kbounce.png
-* kbounce /usr/share/icons/hicolor/32x32/apps/kbounce.png
-* kbounce /usr/share/icons/hicolor/48x48/apps/kbounce.png
-* kbounce /usr/share/icons/hicolor/64x64/apps/kbounce.png
-* kbounce /usr/share/kbounce/sounds/death.wav
-* kbounce /usr/share/kbounce/sounds/reflect.wav
-* kbounce /usr/share/kbounce/sounds/seconds.wav
-* kbounce /usr/share/kbounce/sounds/timeout.wav
-* kbounce /usr/share/kbounce/sounds/wallend.wav
-* kbounce /usr/share/kbounce/sounds/wallstart.wav
-* kbounce /usr/share/kbounce/themes/default.desktop
-* kbounce /usr/share/kbounce/themes/egyptian_bounce.png
-* kbounce /usr/share/kbounce/themes/egyptian_bounce.svgz
-* kbounce /usr/share/kbounce/themes/geometry.desktop
-* kbounce /usr/share/kbounce/themes/geometry.png
-* kbounce /usr/share/kbounce/themes/kbounce.svgz
-* kbounce /usr/share/kbounce/themes/oxygen.desktop
-* kbounce /usr/share/kbounce/themes/oxygen.png
-* kbounce /usr/share/kbounce/themes/oxygen.svgz
-* kbounce /usr/share/kbounce/themes/roads.desktop
-* kbounce /usr/share/kbounce/themes/roads.svgz
-* kbounce /usr/share/kbounce/themes/roads_preview.png
-* kbounce /usr/share/kbounce/themes/thebeach_preview.png
-* kbounce /usr/share/kbounce/themes/the_beach.desktop
-* kbounce /usr/share/kbounce/themes/the_beach.svgz
-* kbounce /usr/share/locale/af/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ar/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ast/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/be/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/bg/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/bn/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/br/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/bs/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ca/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ca@valencia/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/cs/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/csb/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/cy/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/da/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/de/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/el/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/en_GB/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/eo/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/es/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/et/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/eu/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/fa/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/fi/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/fr/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ga/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/gl/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/he/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/hi/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/hne/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/hr/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/hu/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ia/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/id/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/is/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/it/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ja/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ka/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/kk/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/km/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ko/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/lt/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/lv/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/mai/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/mk/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ml/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/mr/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ms/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/nb/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/nds/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ne/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/nl/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/nn/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/oc/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/pa/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/pl/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/pt/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/pt_BR/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ro/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ru/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/se/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sk/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sl/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sq/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sr/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sr@ijekavian/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sr@latin/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/sv/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ta/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/te/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/tg/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/th/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/tr/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/ug/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/uk/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/vi/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/xh/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/zh_CN/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/locale/zh_TW/LC_MESSAGES/kbounce.mo
-* kbounce /usr/share/metainfo/org.kde.kbounce.appdata.xml
-* kbounce /usr/share/qlogging-categories6/kbounce.categories
-* kbounce /usr/share/qlogging-categories6/kbounce.renamecategories
+* /usr/bin/kbounce
+* /usr/share/applications/org.kde.kbounce.desktop
+* /usr/share/doc/HTML/ca/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/ca/kbounce/index.docbook
+* /usr/share/doc/HTML/ca/kbounce/kbounce_corridor1.png
+* /usr/share/doc/HTML/ca/kbounce/kbounce_corridor2.png
+* /usr/share/doc/HTML/de/kbounce/button-new.png
+* /usr/share/doc/HTML/de/kbounce/button-pause.png
+* /usr/share/doc/HTML/de/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/de/kbounce/index.docbook
+* /usr/share/doc/HTML/de/kbounce/kbounce_corridor1.png
+* /usr/share/doc/HTML/de/kbounce/kbounce_corridor2.png
+* /usr/share/doc/HTML/de/kbounce/menu-game.png
+* /usr/share/doc/HTML/de/kbounce/menu-help.png
+* /usr/share/doc/HTML/de/kbounce/menu-settings.png
+* /usr/share/doc/HTML/de/kbounce/toolbar.png
+* /usr/share/doc/HTML/en/kbounce/document-new.png
+* /usr/share/doc/HTML/en/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/en/kbounce/index.docbook
+* /usr/share/doc/HTML/en/kbounce/kbounce_corridor1.png
+* /usr/share/doc/HTML/en/kbounce/kbounce_corridor2.png
+* /usr/share/doc/HTML/en/kbounce/media-playback-pause.png
+* /usr/share/doc/HTML/es/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/es/kbounce/index.docbook
+* /usr/share/doc/HTML/et/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/et/kbounce/index.docbook
+* /usr/share/doc/HTML/fr/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/fr/kbounce/index.docbook
+* /usr/share/doc/HTML/fr/kbounce/jezball_corridor1.png
+* /usr/share/doc/HTML/fr/kbounce/jezball_corridor2.png
+* /usr/share/doc/HTML/fr/kbounce/jezball_newWall.png
+* /usr/share/doc/HTML/it/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/it/kbounce/index.docbook
+* /usr/share/doc/HTML/nl/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/nl/kbounce/index.docbook
+* /usr/share/doc/HTML/pt/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/pt/kbounce/index.docbook
+* /usr/share/doc/HTML/pt_BR/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kbounce/index.docbook
+* /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor1.png
+* /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor2.png
+* /usr/share/doc/HTML/sv/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/sv/kbounce/index.docbook
+* /usr/share/doc/HTML/tr/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/tr/kbounce/index.docbook
+* /usr/share/doc/HTML/uk/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/uk/kbounce/index.docbook
+* /usr/share/doc/HTML/uk/kbounce/kbounce_corridor1.png
+* /usr/share/doc/HTML/uk/kbounce/kbounce_corridor2.png
+* /usr/share/icons/hicolor/128x128/apps/kbounce.png
+* /usr/share/icons/hicolor/16x16/apps/kbounce.png
+* /usr/share/icons/hicolor/22x22/apps/kbounce.png
+* /usr/share/icons/hicolor/32x32/apps/kbounce.png
+* /usr/share/icons/hicolor/48x48/apps/kbounce.png
+* /usr/share/icons/hicolor/64x64/apps/kbounce.png
+* /usr/share/kbounce/sounds/death.wav
+* /usr/share/kbounce/sounds/reflect.wav
+* /usr/share/kbounce/sounds/seconds.wav
+* /usr/share/kbounce/sounds/timeout.wav
+* /usr/share/kbounce/sounds/wallend.wav
+* /usr/share/kbounce/sounds/wallstart.wav
+* /usr/share/kbounce/themes/default.desktop
+* /usr/share/kbounce/themes/egyptian_bounce.png
+* /usr/share/kbounce/themes/egyptian_bounce.svgz
+* /usr/share/kbounce/themes/geometry.desktop
+* /usr/share/kbounce/themes/geometry.png
+* /usr/share/kbounce/themes/kbounce.svgz
+* /usr/share/kbounce/themes/oxygen.desktop
+* /usr/share/kbounce/themes/oxygen.png
+* /usr/share/kbounce/themes/oxygen.svgz
+* /usr/share/kbounce/themes/roads.desktop
+* /usr/share/kbounce/themes/roads.svgz
+* /usr/share/kbounce/themes/roads_preview.png
+* /usr/share/kbounce/themes/thebeach_preview.png
+* /usr/share/kbounce/themes/the_beach.desktop
+* /usr/share/kbounce/themes/the_beach.svgz
+* /usr/share/locale/af/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ar/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ast/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/be/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/bg/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/bn/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/br/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/bs/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ca/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/cs/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/csb/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/cy/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/da/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/de/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/el/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/eo/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/es/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/et/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/eu/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/fa/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/fi/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/fr/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ga/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/gl/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/he/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/hi/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/hne/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/hr/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/hu/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ia/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/id/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/is/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/it/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ja/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ka/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/kk/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/km/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ko/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/lt/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/lv/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/mai/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/mk/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ml/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/mr/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ms/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/nb/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/nds/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ne/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/nl/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/nn/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/oc/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/pa/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/pl/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/pt/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ro/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ru/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/se/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sk/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sl/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sq/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sr/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sv/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ta/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/te/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/tg/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/th/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/tr/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/ug/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/uk/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/vi/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/xh/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kbounce.mo
+* /usr/share/metainfo/org.kde.kbounce.appdata.xml
+* /usr/share/qlogging-categories6/kbounce.categories
+* /usr/share/qlogging-categories6/kbounce.renamecategories

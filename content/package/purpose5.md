@@ -12,7 +12,7 @@ size = "271624"
 usize = "1605154"
 sha1sum = "884b92ae576d07d19d795c70473442f56d0a0570"
 depends = "['kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kdeclarative5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'kirigami25>=5.116.0']"
-reverse_depends = "['./kamoso', 'kamoso']"
+reverse_depends = "['kamoso']"
 +++
 ### Description: 
 Offers the possibility to create integrate services and actions on any application.

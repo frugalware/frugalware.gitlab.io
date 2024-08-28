@@ -12,7 +12,7 @@ size = "450504"
 usize = "530022"
 sha1sum = "d0e22243033d04b4b0d239d5e6f64a845f613c2f"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Afrikaans language support for Thunderbird

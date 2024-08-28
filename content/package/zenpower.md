@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./zenpower 0.2.0-111"
+title = "zenpower 0.2.0-111"
 version = "0.2.0-111"
 description = "Linux kernel driver for reading sensors for AMD Zen family CPUs"
 date = "2024-08-20T13:39:48"
-aliases = "/packages/222456"
+aliases = "/packages/220457"
 categories = ['apps-extra']
 upstreamurl = "https://git.exozy.me/a/zenpower3"
 arch = "x86_64"
@@ -17,7 +17,7 @@ depends = "['kernel=6.10.6-1']"
 Linux kernel driver for reading sensors for AMD Zen family CPUs
 
 ### Files: 
-* zenpower /etc/modprobe.d/zenpower.conf
-* zenpower /usr/lib/modules/6.10.6-fw1/kernel/drivers/hwmon/zenpower/zenpower.ko
-* zenpower /usr/share/doc/zenpower-0.2.0/LICENSE
-* zenpower /usr/share/doc/zenpower-0.2.0/README.md
+* /etc/modprobe.d/zenpower.conf
+* /usr/lib/modules/6.10.6-fw1/kernel/drivers/hwmon/zenpower/zenpower.ko
+* /usr/share/doc/zenpower-0.2.0/LICENSE
+* /usr/share/doc/zenpower-0.2.0/README.md

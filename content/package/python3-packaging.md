@@ -12,7 +12,7 @@ size = "93692"
 usize = "520930"
 sha1sum = "0ea7a4301be0dffd7ea607082a61b72f4ba2286b"
 depends = "['python3>=3.12']"
-reverse_depends = "['./python3-pytest', './python3-wheel', 'input-remapper', 'python3-build', 'python3-hatchling', 'python3-poetry', 'python3-poetry-core', 'python3-pyproject-metadata', 'python3-pytest', 'python3-setuptools', 'python3-versioningit', 'python3-wheel', 'scikit-build-core', 'sip']"
+reverse_depends = "['input-remapper', 'python3-build', 'python3-hatchling', 'python3-poetry', 'python3-poetry-core', 'python3-pyproject-metadata', 'python3-pytest', 'python3-setuptools', 'python3-versioningit', 'python3-wheel', 'scikit-build-core', 'sip']"
 +++
 ### Description: 
 Core utilities for Python packages

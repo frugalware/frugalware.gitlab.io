@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcc 0.30.0-1"
-version = "0.30.0-1"
+title = "bcc 0.31.0-1"
+version = "0.31.0-1"
 description = "BPF Compiler Collection"
-date = "2024-07-20T16:24:54"
+date = "2024-08-21T14:22:40"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "1412688"
-usize = "5657890"
-sha1sum = "fd1a79d1da8cf31ac8d1ca39be078fb231c238c4"
+size = "1417592"
+usize = "5698062"
+sha1sum = "173647feec95d5ee81629ebb29cd27c454a41871"
 depends = "['clang-libs>=18.1.8', 'elfutils', 'python3>=3.11']"
 +++
 ### Description: 

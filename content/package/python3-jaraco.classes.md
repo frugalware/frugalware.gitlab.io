@@ -12,7 +12,7 @@ size = "9996"
 usize = "46216"
 sha1sum = "d3c92bbdcefb7ed3a445622e3628bd5665387358"
 depends = "['python3-more-itertools']"
-reverse_depends = "['./python3-keyring', 'python3-keyring']"
+reverse_depends = "['python3-keyring']"
 +++
 ### Description: 
 Module for classes manipulation

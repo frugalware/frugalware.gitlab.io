@@ -12,7 +12,7 @@ size = "869152"
 usize = "4837555"
 sha1sum = "a067c643eedf023f377b06fb2ea26c1c51db9dd0"
 depends = "['libproxy>=0.4.13-2', 'qt6-base']"
-reverse_depends = "['./signon-kwallet-extension', 'accounts-qml-module', 'libsignon-glib', 'signon-kwallet-extension', 'signon-plugin-oauth2']"
+reverse_depends = "['accounts-qml-module', 'libsignon-glib', 'signon-kwallet-extension', 'signon-plugin-oauth2']"
 +++
 ### Description: 
 Framework to provide credential storage and authentication service.

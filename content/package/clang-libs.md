@@ -12,7 +12,7 @@ size = "24406948"
 usize = "101482134"
 sha1sum = "ef22f9235646533f648e88706f0ef30ae09991f4"
 depends = "['libffi>=3.4', 'libxml2', 'llvm-libs>=18.1.8']"
-reverse_depends = "['bcc', 'clang', 'clang-python', 'ispc', 'kdevelop', 'openshadinglanguage', 'qt5-tools', 'qt6-tools', 'shiboken2', 'shiboken6']"
+reverse_depends = "['bcc', 'clang', 'clang-python', 'ispc', 'openshadinglanguage', 'qt5-tools', 'qt6-tools', 'shiboken2', 'shiboken6']"
 +++
 ### Description: 
 C/C++ language family frontend for LLVM Libs

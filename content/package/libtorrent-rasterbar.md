@@ -12,7 +12,7 @@ size = "1860792"
 usize = "6914995"
 sha1sum = "afa5f063acdff1045bd421fde7f5a83291ae40f9"
 depends = "['geoip>=1.4.8-2', 'openssl>=3.1.0']"
-reverse_depends = "['./qbittorrent', 'libtorrent-rasterbar-python', 'qbittorrent']"
+reverse_depends = "['libtorrent-rasterbar-python', 'qbittorrent']"
 +++
 ### Description: 
 LibTorrent Rasterbar is a BitTorrent library written in C++

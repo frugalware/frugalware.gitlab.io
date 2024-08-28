@@ -12,7 +12,7 @@ size = "1261000"
 usize = "3305505"
 sha1sum = "52737d221e5c9ffd45729a3800c7e7ca64291315"
 depends = "['qt6-wayland>=6.7.1']"
-reverse_depends = "['./kdeconnect-kde', './krfb', './yakuake', 'kdeconnect-kde', 'kinfocenter', 'kinfocenter5', 'kpipewire', 'krfb', 'kwin', 'libkscreen', 'libkscreen5', 'pinentry-qt6', 'plasma-framework', 'plasma-integration', 'plasma-nano', 'xdg-desktop-portal-kde', 'yakuake']"
+reverse_depends = "['kdeconnect-kde', 'kinfocenter', 'kinfocenter5', 'kpipewire', 'krfb', 'kwin', 'libkscreen', 'libkscreen5', 'pinentry-qt6', 'plasma-framework', 'plasma-integration', 'plasma-nano', 'xdg-desktop-portal-kde', 'yakuake']"
 +++
 ### Description: 
 KDE Wayland

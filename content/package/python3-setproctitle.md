@@ -12,7 +12,7 @@ size = "12448"
 usize = "38841"
 sha1sum = "310d8298aeea952da246b5e54bf46acca1483470"
 depends = "['python3>=3.11']"
-reverse_depends = "['./openrazer', 'openrazer']"
+reverse_depends = "['openrazer']"
 +++
 ### Description: 
 Allows a python process to change its process title

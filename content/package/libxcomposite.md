@@ -12,7 +12,7 @@ size = "25752"
 usize = "68263"
 sha1sum = "8956360c097dd4f42f248da212a28bd68ef69bc2"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxfixes>=5.0.2-2']"
-reverse_depends = "['./wine-devel', 'cef', 'efl', 'enlightenment', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'kompose', 'obs-studio', 'openjre-x', 'qt5-wayland', 'qt5-webengine', 'qt6-webengine', 'terminology', 'virtualbox', 'virtualbox-guest-additions', 'whalebird', 'wine', 'wine-devel']"
+reverse_depends = "['cef', 'efl', 'enlightenment', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'kompose', 'obs-studio', 'openjre-x', 'qt5-wayland', 'qt5-webengine', 'qt6-webengine', 'terminology', 'virtualbox', 'virtualbox-guest-additions', 'whalebird', 'wine', 'wine-devel']"
 license = "GPL2"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "10114276"
 usize = "55313766"
 sha1sum = "7d65c2a6502f695c7080e96b5482ec1bca98a6c8"
 depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.21', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10']"
-reverse_depends = "['./kalarm', './kasts', 'elisa', 'kaffeine', 'kasts', 'obs-studio']"
+reverse_depends = "['elisa', 'kaffeine', 'kalarm', 'kasts', 'obs-studio']"
 +++
 ### Description: 
 The cross-platform media player and streaming server.

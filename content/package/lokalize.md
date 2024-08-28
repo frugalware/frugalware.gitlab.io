@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lokalize 24.05.2-1"
-version = "24.05.2-1"
+title = "lokalize 24.08.0-1"
+version = "24.08.0-1"
 description = "Computer-Aided Translation System."
-date = "2024-07-05T14:51:04"
+date = "2024-08-23T12:20:39"
 aliases = "/packages/118455"
-categories = ['kde5']
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2307156"
-usize = "7763364"
-sha1sum = "2e85b3723b12b3477ba08ac83eb71e81b84933f6"
-depends = "['hunspell>=1.7.0', 'kross5>=5.116.0']"
+size = "2271072"
+usize = "7813802"
+sha1sum = "92adca7205d66bcc51757ed9f8f55f884c257e98"
+depends = "['hunspell>=1.7.0', 'kio>=6.5.0']"
 +++
 ### Description: 
 Computer-Aided Translation System.
@@ -36,14 +36,6 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/en/lokalize/tmview.png
 * /usr/share/doc/HTML/es/lokalize/index.cache.bz2
 * /usr/share/doc/HTML/es/lokalize/index.docbook
-* /usr/share/doc/HTML/et/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/et/lokalize/index.docbook
-* /usr/share/doc/HTML/fr/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/fr/lokalize/index.docbook
-* /usr/share/doc/HTML/hu/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/hu/lokalize/index.docbook
-* /usr/share/doc/HTML/id/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/id/lokalize/index.docbook
 * /usr/share/doc/HTML/it/lokalize/configure_shortcuts.png
 * /usr/share/doc/HTML/it/lokalize/configure_toolbar.png
 * /usr/share/doc/HTML/it/lokalize/default_editor_lokalize.png
@@ -56,12 +48,6 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/it/lokalize/tmview.png
 * /usr/share/doc/HTML/nl/lokalize/index.cache.bz2
 * /usr/share/doc/HTML/nl/lokalize/index.docbook
-* /usr/share/doc/HTML/pt/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/pt/lokalize/index.docbook
-* /usr/share/doc/HTML/pt_BR/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/lokalize/index.docbook
-* /usr/share/doc/HTML/ru/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/ru/lokalize/index.docbook
 * /usr/share/doc/HTML/sr/lokalize/glossary.png
 * /usr/share/doc/HTML/sr/lokalize/index.cache.bz2
 * /usr/share/doc/HTML/sr/lokalize/index.docbook
@@ -70,8 +56,6 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/sr/lokalize/tmview.png
 * /usr/share/doc/HTML/sr@latin/lokalize/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/lokalize/index.docbook
-* /usr/share/doc/HTML/sv/lokalize/index.cache.bz2
-* /usr/share/doc/HTML/sv/lokalize/index.docbook
 * /usr/share/doc/HTML/uk/lokalize/configure_shortcuts.png
 * /usr/share/doc/HTML/uk/lokalize/configure_toolbar.png
 * /usr/share/doc/HTML/uk/lokalize/default_editor_lokalize.png
@@ -82,13 +66,13 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/uk/lokalize/project_overview.png
 * /usr/share/doc/HTML/uk/lokalize/sync.png
 * /usr/share/doc/HTML/uk/lokalize/tmview.png
-* /usr/share/doc/lokalize-24.05.2/README.md
-* /usr/share/doc/lokalize-24.05.2/TODO
+* /usr/share/doc/lokalize-24.08.0/README.md
+* /usr/share/doc/lokalize-24.08.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/lokalize.png
 * /usr/share/icons/hicolor/32x32/apps/lokalize.png
 * /usr/share/icons/hicolor/64x64/apps/lokalize.png
 * /usr/share/icons/hicolor/scalable/apps/lokalize.svgz
-* /usr/share/knotifications5/lokalize.notifyrc
+* /usr/share/knotifications6/lokalize.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/az/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/be/LC_MESSAGES/lokalize.mo
@@ -281,4 +265,4 @@ Computer-Aided Translation System.
 * /usr/share/lokalize/scripts/odf/xliff2odf.rc
 * /usr/share/lokalize/scripts/odf/xliffmerge.py
 * /usr/share/metainfo/org.kde.lokalize.appdata.xml
-* /usr/share/qlogging-categories5/lokalize.categories
+* /usr/share/qlogging-categories6/lokalize.categories

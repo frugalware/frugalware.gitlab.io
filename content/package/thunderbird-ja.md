@@ -12,7 +12,7 @@ size = "759500"
 usize = "818059"
 sha1sum = "441a91565698765f5e56974c35113f90802a60bb"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Japanese language support for Thunderbird

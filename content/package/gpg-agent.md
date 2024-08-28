@@ -12,7 +12,7 @@ size = "207992"
 usize = "561240"
 sha1sum = "fc00b6e3f2d704501cc78bfe20b94e7270d9e959"
 depends = "['libassuan>=3.0.1', 'libgcrypt>=1.7.3-2', 'libgpg-error>=1.24', 'libksba>=1.3.3-3', 'ncurses>=6.0-18', 'npth>=1.2-6', 'readline>=8.0']"
-reverse_depends = "['./kgpg', 'kgpg']"
+reverse_depends = "['kgpg']"
 +++
 ### Description: 
 gpg-agent is made for handling gpg-keys

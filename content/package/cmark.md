@@ -12,7 +12,7 @@ size = "87400"
 usize = "219178"
 sha1sum = "53481c2c68e21d1db30fc8fca3edb05db827c1a3"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['./neochat', 'ghostwriter', 'mkvtoolnix-gui', 'neochat']"
+reverse_depends = "['mkvtoolnix-gui', 'neochat']"
 +++
 ### Description: 
 CommonMark parsing and rendering library and program in C

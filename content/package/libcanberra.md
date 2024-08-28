@@ -12,7 +12,7 @@ size = "43432"
 usize = "155405"
 sha1sum = "5dca0d03498c6f97296231b838ec6bc6dcc4ef18"
 depends = "['libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis>=1.3.5-5', 'tdb>=1.3.10-2']"
-reverse_depends = "['./kitty', './kmix', 'hexchat', 'kitty', 'kmix', 'knotifications', 'knotifications5', 'libcanberra-alsa', 'libcanberra-gst', 'libcanberra-gtk', 'libcanberra-gtk2', 'libcanberra-pulseaudio', 'pipewire', 'plasma-desktop', 'plasma-pa']"
+reverse_depends = "['hexchat', 'kitty', 'kmix', 'knotifications', 'knotifications5', 'libcanberra-alsa', 'libcanberra-gst', 'libcanberra-gtk', 'libcanberra-gtk2', 'libcanberra-pulseaudio', 'pipewire', 'plasma-desktop', 'plasma-pa']"
 +++
 ### Description: 
 libcanberra is an implementation of the XDG Sound Theme and Name Specifications.

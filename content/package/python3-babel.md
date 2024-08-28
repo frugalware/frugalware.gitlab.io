@@ -12,7 +12,7 @@ size = "6758688"
 usize = "35637821"
 sha1sum = "a8ff720987df98ccbe7dbdb411dd6fef2637992d"
 depends = "['python3>=3.12', 'python3-pytz']"
-reverse_depends = "['./python3-sphinx', 'python3-sphinx']"
+reverse_depends = "['python3-sphinx']"
 +++
 ### Description: 
 A collection of tools for internationalizing Python applications

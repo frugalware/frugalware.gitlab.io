@@ -12,7 +12,7 @@ size = "10708"
 usize = "34287"
 sha1sum = "4545f8578bcf2af033daa9701c5377e8caaf1fdd"
 depends = "[]"
-reverse_depends = "['./openrazer', 'openrazer']"
+reverse_depends = "['openrazer']"
 +++
 ### Description: 
 Python interface to DBus notifications

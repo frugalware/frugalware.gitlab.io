@@ -12,7 +12,7 @@ size = "63980"
 usize = "232705"
 sha1sum = "9632a5caac6c8f612faadaeb1fe25cb0be3f95f9"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['./accessibility-inspector', './dolphin', './francis', './kdebugsettings', './keysmith', './kmousetool', './skladnik', './tokodon', 'accessibility-inspector', 'akonadi-mime', 'calamares-frugalware', 'dolphin', 'francis', 'kaccounts-integration', 'kdebugsettings', 'keysmith', 'kglobalacceld', 'kmousetool', 'kongress', 'kservice', 'kwin', 'plasma-browser-integration', 'plasmatube', 'polkit-kde-agent-1', 'skladnik', 'tokodon', 'wacomtablet']"
+reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'calamares-frugalware', 'dolphin', 'francis', 'kaccounts-integration', 'kdebugsettings', 'keysmith', 'kglobalacceld', 'kmousetool', 'kongress', 'kservice', 'kwin', 'plasma-browser-integration', 'plasmatube', 'polkit-kde-agent-1', 'skladnik', 'tokodon', 'wacomtablet']"
 +++
 ### Description: 
 Convenience classes for QtDBus.

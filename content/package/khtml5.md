@@ -12,7 +12,7 @@ size = "2313424"
 usize = "10647726"
 sha1sum = "fe2dc1e105db82d36c65f680cb07fba0cfd117c1"
 depends = "['kjs5>=5.116.0', 'kparts5>=5.116.0', 'libgif>=5.1.4-2']"
-reverse_depends = "['./step', 'kimagemapeditor', 'step']"
+reverse_depends = "['step']"
 +++
 ### Description: 
 HTML rendering engine.

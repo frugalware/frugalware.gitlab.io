@@ -12,7 +12,7 @@ size = "198872"
 usize = "1240931"
 sha1sum = "5415f801155aa0220abb9fa7ee033c235475cfbd"
 depends = "['python3-pysocks']"
-reverse_depends = "['./python3-sentry-sdk', 'lutris', 'python3-cachecontrol', 'python3-dulwich', 'python3-poetry', 'python3-requests', 'python3-selenium', 'python3-sentry-sdk']"
+reverse_depends = "['lutris', 'python3-cachecontrol', 'python3-dulwich', 'python3-poetry', 'python3-requests', 'python3-selenium', 'python3-sentry-sdk']"
 +++
 ### Description: 
 HTTP library with thread-safe connection pooling and file post support

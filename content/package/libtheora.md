@@ -12,7 +12,7 @@ size = "295352"
 usize = "1775824"
 sha1sum = "6c34035151dc5cb3bbb4c94fb9cd0af8b8e612e6"
 depends = "['libogg>=1.3.2-5']"
-reverse_depends = "['./picard', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-base-theora', 'gtk-handbrake', 'icecast', 'libshout', 'love', 'mencoder', 'mplayer', 'picard', 'scummvm', 'ufoai', 'vlc-theora']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-base-theora', 'gtk-handbrake', 'icecast', 'libshout', 'love', 'mencoder', 'mplayer', 'picard', 'scummvm', 'ufoai', 'vlc-theora']"
 +++
 ### Description: 
 An open video codec developed by the Xiph.org.

@@ -12,7 +12,7 @@ size = "57188"
 usize = "210810"
 sha1sum = "7b98b9ce2023cc59a682c9ff06ee22d02f2d5296"
 depends = "['libgs>=10.0.0']"
-reverse_depends = "['./cantor', './okular', 'cantor', 'efl', 'okular']"
+reverse_depends = "['cantor', 'efl', 'okular']"
 +++
 ### Description: 
 libspectre is a small library for rendering Postscript documents

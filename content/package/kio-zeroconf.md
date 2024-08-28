@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./kio-zeroconf 24.08.0-1"
+title = "kio-zeroconf 24.08.0-1"
 version = "24.08.0-1"
 description = "DNS Service Discovery for KDE."
 date = "2024-08-22T13:31:32"
-aliases = "/packages/222350"
+aliases = "/packages/220584"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,82 +17,82 @@ depends = "['kdnssd>=6.5.0', 'kio>=6.5.0']"
 DNS Service Discovery for KDE.
 
 ### Files: 
-* kio-zeroconf /usr/lib/qt6/plugins/kf6/kded/dnssdwatcher.so
-* kio-zeroconf /usr/lib/qt6/plugins/kf6/kio/zeroconf.so
-* kio-zeroconf /usr/share/dbus-1/interfaces/org.kde.kdnssd.xml
-* kio-zeroconf /usr/share/locale/ar/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/be/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/bg/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/bn/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/br/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/bs/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ca/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ca@valencia/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/cs/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/cy/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/da/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/de/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/el/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/en_GB/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/eo/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/es/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/et/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/eu/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/fa/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/fi/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/fr/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ga/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/gl/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/he/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/hi/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/hne/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/hr/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/hsb/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/hu/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ia/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/id/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/is/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/it/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ja/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ka/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/kk/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/km/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ko/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/lt/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/lv/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/mk/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ml/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/mr/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ms/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/nb/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/nds/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ne/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/nl/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/nn/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/oc/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/pa/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/pl/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/pt/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/pt_BR/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ro/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ru/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/se/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sk/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sl/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sq/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sr/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sr@latin/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/sv/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ta/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/th/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/tr/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/ug/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/uk/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/vi/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/zh_CN/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/zh_HK/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/locale/zh_TW/LC_MESSAGES/kio5_zeroconf.mo
-* kio-zeroconf /usr/share/metainfo/org.kde.kio_zeroconf.metainfo.xml
-* kio-zeroconf /usr/share/remoteview/zeroconf.desktop
+* /usr/lib/qt6/plugins/kf6/kded/dnssdwatcher.so
+* /usr/lib/qt6/plugins/kf6/kio/zeroconf.so
+* /usr/share/dbus-1/interfaces/org.kde.kdnssd.xml
+* /usr/share/locale/ar/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/be/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/bg/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/bn/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/br/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/bs/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ca/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/cs/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/cy/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/da/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/de/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/el/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/eo/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/es/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/et/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/eu/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/fa/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/fi/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/fr/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ga/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/gl/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/he/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/hne/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/hr/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/hsb/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/hu/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ia/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/id/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/is/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/it/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ja/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ka/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/kk/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/km/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ko/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/lt/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/mk/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ml/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/mr/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ms/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/nb/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/nds/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ne/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/nl/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/nn/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/oc/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/pa/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/pl/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/pt/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ro/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ru/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/se/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sk/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sl/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sq/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sr/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/sv/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ta/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/th/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/tr/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/ug/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/uk/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/vi/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kio5_zeroconf.mo
+* /usr/share/metainfo/org.kde.kio_zeroconf.metainfo.xml
+* /usr/share/remoteview/zeroconf.desktop

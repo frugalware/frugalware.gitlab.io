@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./nginx 1.27.1-1"
+title = "nginx 1.27.1-1"
 version = "1.27.1-1"
 description = "[engine x] is a HTTP server and mail proxy server."
 date = "2024-08-26T15:12:27"
-aliases = "/packages/222327"
+aliases = "/packages/21864"
 categories = ['network-extra']
 upstreamurl = "http://nginx.org"
 arch = "x86_64"
@@ -18,37 +18,37 @@ license = "BSD"
 [engine x] is a HTTP server and mail proxy server.
 
 ### Files: 
-* nginx /etc/logrotate.d/nginx
-* nginx /etc/nginx/conf/fastcgi.conf
-* nginx /etc/nginx/conf/fastcgi.conf.default
-* nginx /etc/nginx/conf/fastcgi_params
-* nginx /etc/nginx/conf/fastcgi_params.default
-* nginx /etc/nginx/conf/koi-utf
-* nginx /etc/nginx/conf/koi-win
-* nginx /etc/nginx/conf/mime.types
-* nginx /etc/nginx/conf/mime.types.default
-* nginx /etc/nginx/conf/nginx.conf
-* nginx /etc/nginx/conf/nginx.conf.default
-* nginx /etc/nginx/conf/scgi_params
-* nginx /etc/nginx/conf/scgi_params.default
-* nginx /etc/nginx/conf/uwsgi_params
-* nginx /etc/nginx/conf/uwsgi_params.default
-* nginx /etc/nginx/conf/win-utf
-* nginx /etc/nginx/html
-* nginx /etc/nginx/modules/ngx_http_geoip_module.so
-* nginx /etc/nginx/modules/ngx_http_image_filter_module.so
-* nginx /etc/nginx/modules/ngx_http_perl_module.so
-* nginx /etc/nginx/modules/ngx_http_xslt_filter_module.so
-* nginx /etc/nginx/modules/ngx_mail_module.so
-* nginx /etc/nginx/modules/ngx_stream_geoip_module.so
-* nginx /etc/nginx/modules/ngx_stream_module.so
-* nginx /usr/bin/nginx
-* nginx /usr/lib/perl5/5.40/site_perl/auto/nginx/nginx.so
-* nginx /usr/lib/perl5/5.40/site_perl/nginx.pm
-* nginx /usr/lib/systemd/system/nginx.service
-* nginx /usr/share/doc/nginx-1.27.1/CHANGES
-* nginx /usr/share/doc/nginx-1.27.1/LICENSE
-* nginx /usr/share/doc/nginx-1.27.1/README
-* nginx /usr/share/man/man3/nginx.3perl.gz
-* nginx /var/www/nginx/50x.html
-* nginx /var/www/nginx/index.html
+* /etc/logrotate.d/nginx
+* /etc/nginx/conf/fastcgi.conf
+* /etc/nginx/conf/fastcgi.conf.default
+* /etc/nginx/conf/fastcgi_params
+* /etc/nginx/conf/fastcgi_params.default
+* /etc/nginx/conf/koi-utf
+* /etc/nginx/conf/koi-win
+* /etc/nginx/conf/mime.types
+* /etc/nginx/conf/mime.types.default
+* /etc/nginx/conf/nginx.conf
+* /etc/nginx/conf/nginx.conf.default
+* /etc/nginx/conf/scgi_params
+* /etc/nginx/conf/scgi_params.default
+* /etc/nginx/conf/uwsgi_params
+* /etc/nginx/conf/uwsgi_params.default
+* /etc/nginx/conf/win-utf
+* /etc/nginx/html
+* /etc/nginx/modules/ngx_http_geoip_module.so
+* /etc/nginx/modules/ngx_http_image_filter_module.so
+* /etc/nginx/modules/ngx_http_perl_module.so
+* /etc/nginx/modules/ngx_http_xslt_filter_module.so
+* /etc/nginx/modules/ngx_mail_module.so
+* /etc/nginx/modules/ngx_stream_geoip_module.so
+* /etc/nginx/modules/ngx_stream_module.so
+* /usr/bin/nginx
+* /usr/lib/perl5/5.40/site_perl/auto/nginx/nginx.so
+* /usr/lib/perl5/5.40/site_perl/nginx.pm
+* /usr/lib/systemd/system/nginx.service
+* /usr/share/doc/nginx-1.27.1/CHANGES
+* /usr/share/doc/nginx-1.27.1/LICENSE
+* /usr/share/doc/nginx-1.27.1/README
+* /usr/share/man/man3/nginx.3perl.gz
+* /var/www/nginx/50x.html
+* /var/www/nginx/index.html

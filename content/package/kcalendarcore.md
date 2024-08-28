@@ -12,7 +12,7 @@ size = "339008"
 usize = "1303724"
 sha1sum = "69b04520eaa35583f082b9ec27c03c51aa8d0def"
 depends = "['libical>=3.0.3']"
-reverse_depends = "['./akonadi-contacts', './kcalutils', './kitinerary', './libkgapi', './mimetreeparser', 'akonadi-contacts', 'calindori', 'kcalutils', 'kitinerary', 'kongress', 'libkgapi', 'mimetreeparser']"
+reverse_depends = "['akonadi-contacts', 'calindori', 'kcalutils', 'kitinerary', 'kongress', 'libkgapi', 'mimetreeparser']"
 +++
 ### Description: 
 The KDE calendar access library

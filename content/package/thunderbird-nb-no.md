@@ -12,7 +12,7 @@ size = "634444"
 usize = "702089"
 sha1sum = "4d02a1ee40096964f641870da6cbaa28aea44336"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Norwegian Bokmål language support for Thunderbird

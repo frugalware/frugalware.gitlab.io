@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libdrm 2.4.122-1"
-version = "2.4.122-1"
+title = "libdrm 2.4.123-1"
+version = "2.4.123-1"
 description = "X.Org Userspace interface to kernel DRM services"
-date = "2024-06-26T19:32:48"
+date = "2024-08-27T08:39:22"
 aliases = "/packages/4776"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
-size = "320000"
-usize = "1209229"
-sha1sum = "e20966f642efe708af71adf1b25d26b843c9c74d"
+size = "318992"
+usize = "1213283"
+sha1sum = "225ea6df13ef19fbbc1f6eeb8b678c4925545f06"
 depends = "['libpciaccess>=0.13.4-4']"
-reverse_depends = "['./evdi', 'chromium-browser', 'clightd', 'criu', 'ddcutil', 'efl', 'enlightenment', 'evdi', 'guarddog', 'hsakmt-roct', 'intel-compute-runtime', 'intel-gpu-tools', 'intel-media-sdk', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libgl', 'libosmesa', 'libva', 'libva-mesa-driver', 'libvpl', 'libxatracker', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'radeon-profile', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'wlroots0.17', 'xf86-video-intel']"
+reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'efl', 'enlightenment', 'evdi', 'guarddog', 'hsakmt-roct', 'intel-compute-runtime', 'intel-gpu-tools', 'intel-media-sdk', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libgl', 'libosmesa', 'libva', 'libva-mesa-driver', 'libvpl', 'libxatracker', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'radeon-profile', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'wlroots0.17', 'xf86-video-intel']"
 +++
 ### Description: 
 X.Org Userspace interface to kernel DRM services
@@ -69,23 +69,23 @@ X.Org Userspace interface to kernel DRM services
 * /usr/include/xf86drmMode.h
 * /usr/lib/libdrm.so
 * /usr/lib/libdrm.so.2
-* /usr/lib/libdrm.so.2.4.0
+* /usr/lib/libdrm.so.2.123.0
 * /usr/lib/libdrm_amdgpu.so
 * /usr/lib/libdrm_amdgpu.so.1
-* /usr/lib/libdrm_amdgpu.so.1.0.0
+* /usr/lib/libdrm_amdgpu.so.1.123.0
 * /usr/lib/libdrm_intel.so
 * /usr/lib/libdrm_intel.so.1
-* /usr/lib/libdrm_intel.so.1.0.0
+* /usr/lib/libdrm_intel.so.1.123.0
 * /usr/lib/libdrm_nouveau.so
 * /usr/lib/libdrm_nouveau.so.2
-* /usr/lib/libdrm_nouveau.so.2.0.0
+* /usr/lib/libdrm_nouveau.so.2.123.0
 * /usr/lib/libdrm_radeon.so
 * /usr/lib/libdrm_radeon.so.1
-* /usr/lib/libdrm_radeon.so.1.0.1
+* /usr/lib/libdrm_radeon.so.1.123.0
 * /usr/lib/pkgconfig/libdrm.pc
 * /usr/lib/pkgconfig/libdrm_amdgpu.pc
 * /usr/lib/pkgconfig/libdrm_intel.pc
 * /usr/lib/pkgconfig/libdrm_nouveau.pc
 * /usr/lib/pkgconfig/libdrm_radeon.pc
-* /usr/share/doc/libdrm-2.4.122/README.rst
+* /usr/share/doc/libdrm-2.4.123/README.rst
 * /usr/share/libdrm/amdgpu.ids

@@ -12,7 +12,7 @@ size = "42480"
 usize = "142504"
 sha1sum = "d55dd3b0931f8ac04891ae2742b6a57e811d7bc9"
 depends = "['kconfig>=6.5.0', 'kguiaddons>=6.5.0', 'ki18n>=6.5.0']"
-reverse_depends = "['./audex', 'audex', 'breeze', 'kconfigwidgets', 'ksvg']"
+reverse_depends = "['audex', 'breeze', 'kconfigwidgets', 'ksvg']"
 +++
 ### Description: 
 Classes to read and interact with color schemes

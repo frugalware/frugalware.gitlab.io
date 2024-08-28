@@ -12,7 +12,7 @@ size = "151380"
 usize = "717873"
 sha1sum = "2abc4d10dad7a1aa3eada652196ab3c41f0e08b9"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['./isoimagewriter', './kcachegrind', './khealthcertificate', './kpkpass', 'discover', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata', 'khealthcertificate', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'ksvg']"
+reverse_depends = "['discover', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kdoctools', 'kemoticons', 'kfilemetadata', 'khealthcertificate', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'ksvg']"
 +++
 ### Description: 
 Qt 5 addon providing access to numerous types of archives.

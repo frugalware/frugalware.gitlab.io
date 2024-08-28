@@ -12,7 +12,7 @@ size = "694736"
 usize = "755927"
 sha1sum = "eda2ace81be7079da02ea6ebec53c19c563baadf"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
+reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
 Turkish language support for Thunderbird

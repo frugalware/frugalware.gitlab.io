@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-lark-parser 1.1.9-1"
-version = "1.1.9-1"
+title = "python3-lark-parser 1.2.2-1"
+version = "1.2.2-1"
 description = "A modern parsing library"
-date = "2024-06-25T15:06:15"
+date = "2024-08-26T09:31:04"
 aliases = "/packages/221113"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/lark"
 arch = "x86_64"
-size = "240912"
-usize = "1303114"
-sha1sum = "62b9f91712dee41a07acf3e36ea21f2db4f4dbde"
+size = "238860"
+usize = "1293458"
+sha1sum = "c67b94ec6728fe51916114cc9ee881a8e233d8bd"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-poetry-core']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['python3-poetry-core']"
 A modern parsing library
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/lark-1.1.9.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/lark-1.1.9.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/lark-1.1.9.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/lark-1.1.9.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/lark-1.1.9.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/lark-1.1.9.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/lark-1.2.2.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/lark-1.2.2.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/lark-1.2.2.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/lark-1.2.2.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/lark-1.2.2.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/lark-1.2.2.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/lark/ast_utils.py
 * /usr/lib/python3.12/site-packages/lark/common.py
 * /usr/lib/python3.12/site-packages/lark/exceptions.py
@@ -134,5 +134,5 @@ A modern parsing library
 * /usr/lib/python3.12/site-packages/lark/__pyinstaller/__pycache__/hook-lark.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/lark/__pyinstaller/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-lark-parser-1.1.9/LICENSE
-* /usr/share/doc/python3-lark-parser-1.1.9/README.md
+* /usr/share/doc/python3-lark-parser-1.2.2/LICENSE
+* /usr/share/doc/python3-lark-parser-1.2.2/README.md

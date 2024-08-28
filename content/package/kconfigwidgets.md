@@ -12,7 +12,7 @@ size = "308420"
 usize = "1372083"
 sha1sum = "025f72c2e2266a721dff45d4edc455cc5d4cd884"
 depends = "['kcodecs>=6.5.0', 'kcolorscheme>=6.5.0', 'kcoreaddons>=6.5.0', 'kwidgetsaddons>=6.5.0']"
-reverse_depends = "['./accessibility-inspector', './audex', './skladnik', 'accessibility-inspector', 'audex', 'kaccounts-integration', 'kdeplasma-addons', 'kgamma', 'kgamma5', 'kiconthemes', 'kwin', 'libkmahjongg', 'libksysguard', 'libksysguard5', 'qqc2-desktop-style', 'skladnik', 'sweeper']"
+reverse_depends = "['accessibility-inspector', 'audex', 'kaccounts-integration', 'kdeplasma-addons', 'kgamma', 'kgamma5', 'kiconthemes', 'kwin', 'libkmahjongg', 'libksysguard', 'libksysguard5', 'qqc2-desktop-style', 'skladnik', 'sweeper']"
 +++
 ### Description: 
 Widgets for KConfig.

@@ -12,7 +12,7 @@ size = "21184"
 usize = "72061"
 sha1sum = "3029210d724676e3e788fe6dc007d27853426cd3"
 depends = "['qt6-base-sql-common>=6.6.2']"
-reverse_depends = "['./angelfish', './kontrast', 'angelfish', 'audiotube', 'kontrast']"
+reverse_depends = "['angelfish', 'audiotube', 'kontrast']"
 +++
 ### Description: 
 Non-blocking Qt database framework

@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./bind 9.21.0-1"
+title = "bind 9.21.0-1"
 version = "9.21.0-1"
 description = "DNS server and utilities"
 date = "2024-08-23T18:12:13"
-aliases = "/packages/222477"
+aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
@@ -17,315 +17,315 @@ depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2',
 DNS server and utilities
 
 ### Files: 
-* bind /etc/logrotate.d/bind
-* bind /etc/named.conf
-* bind /usr/bin/arpaname
-* bind /usr/bin/ddns-confgen
-* bind /usr/bin/delv
-* bind /usr/bin/dig
-* bind /usr/bin/dnssec-cds
-* bind /usr/bin/dnssec-dsfromkey
-* bind /usr/bin/dnssec-importkey
-* bind /usr/bin/dnssec-keyfromlabel
-* bind /usr/bin/dnssec-keygen
-* bind /usr/bin/dnssec-ksr
-* bind /usr/bin/dnssec-revoke
-* bind /usr/bin/dnssec-settime
-* bind /usr/bin/dnssec-signzone
-* bind /usr/bin/dnssec-verify
-* bind /usr/bin/host
-* bind /usr/bin/mdig
-* bind /usr/bin/named
-* bind /usr/bin/named-checkconf
-* bind /usr/bin/named-checkzone
-* bind /usr/bin/named-compilezone
-* bind /usr/bin/named-journalprint
-* bind /usr/bin/named-rrchecker
-* bind /usr/bin/nsec3hash
-* bind /usr/bin/nslookup
-* bind /usr/bin/nsupdate
-* bind /usr/bin/rndc
-* bind /usr/bin/rndc-confgen
-* bind /usr/bin/tsig-keygen
-* bind /usr/include/dns/acl.h
-* bind /usr/include/dns/adb.h
-* bind /usr/include/dns/badcache.h
-* bind /usr/include/dns/bit.h
-* bind /usr/include/dns/byaddr.h
-* bind /usr/include/dns/cache.h
-* bind /usr/include/dns/callbacks.h
-* bind /usr/include/dns/catz.h
-* bind /usr/include/dns/cert.h
-* bind /usr/include/dns/client.h
-* bind /usr/include/dns/clientinfo.h
-* bind /usr/include/dns/compress.h
-* bind /usr/include/dns/db.h
-* bind /usr/include/dns/dbiterator.h
-* bind /usr/include/dns/diff.h
-* bind /usr/include/dns/dispatch.h
-* bind /usr/include/dns/dlz.h
-* bind /usr/include/dns/dlz_dlopen.h
-* bind /usr/include/dns/dns64.h
-* bind /usr/include/dns/dnsrps.h
-* bind /usr/include/dns/dnssec.h
-* bind /usr/include/dns/dnstap.h
-* bind /usr/include/dns/ds.h
-* bind /usr/include/dns/dsdigest.h
-* bind /usr/include/dns/dyndb.h
-* bind /usr/include/dns/ecs.h
-* bind /usr/include/dns/edns.h
-* bind /usr/include/dns/enumclass.h
-* bind /usr/include/dns/enumtype.h
-* bind /usr/include/dns/fixedname.h
-* bind /usr/include/dns/forward.h
-* bind /usr/include/dns/geoip.h
-* bind /usr/include/dns/ipkeylist.h
-* bind /usr/include/dns/iptable.h
-* bind /usr/include/dns/journal.h
-* bind /usr/include/dns/kasp.h
-* bind /usr/include/dns/keydata.h
-* bind /usr/include/dns/keyflags.h
-* bind /usr/include/dns/keymgr.h
-* bind /usr/include/dns/keystore.h
-* bind /usr/include/dns/keytable.h
-* bind /usr/include/dns/keyvalues.h
-* bind /usr/include/dns/librpz.h
-* bind /usr/include/dns/log.h
-* bind /usr/include/dns/master.h
-* bind /usr/include/dns/masterdump.h
-* bind /usr/include/dns/message.h
-* bind /usr/include/dns/name.h
-* bind /usr/include/dns/nametree.h
-* bind /usr/include/dns/ncache.h
-* bind /usr/include/dns/nsec.h
-* bind /usr/include/dns/nsec3.h
-* bind /usr/include/dns/nta.h
-* bind /usr/include/dns/opcode.h
-* bind /usr/include/dns/order.h
-* bind /usr/include/dns/peer.h
-* bind /usr/include/dns/private.h
-* bind /usr/include/dns/qp.h
-* bind /usr/include/dns/rbt.h
-* bind /usr/include/dns/rcode.h
-* bind /usr/include/dns/rdata.h
-* bind /usr/include/dns/rdataclass.h
-* bind /usr/include/dns/rdatalist.h
-* bind /usr/include/dns/rdataset.h
-* bind /usr/include/dns/rdatasetiter.h
-* bind /usr/include/dns/rdataslab.h
-* bind /usr/include/dns/rdatastruct.h
-* bind /usr/include/dns/rdatatype.h
-* bind /usr/include/dns/remote.h
-* bind /usr/include/dns/request.h
-* bind /usr/include/dns/resolver.h
-* bind /usr/include/dns/result.h
-* bind /usr/include/dns/rootns.h
-* bind /usr/include/dns/rpz.h
-* bind /usr/include/dns/rriterator.h
-* bind /usr/include/dns/rrl.h
-* bind /usr/include/dns/sdlz.h
-* bind /usr/include/dns/secalg.h
-* bind /usr/include/dns/secproto.h
-* bind /usr/include/dns/soa.h
-* bind /usr/include/dns/ssu.h
-* bind /usr/include/dns/stats.h
-* bind /usr/include/dns/time.h
-* bind /usr/include/dns/tkey.h
-* bind /usr/include/dns/trace.h
-* bind /usr/include/dns/transport.h
-* bind /usr/include/dns/tsig.h
-* bind /usr/include/dns/ttl.h
-* bind /usr/include/dns/types.h
-* bind /usr/include/dns/update.h
-* bind /usr/include/dns/validator.h
-* bind /usr/include/dns/view.h
-* bind /usr/include/dns/xfrin.h
-* bind /usr/include/dns/zone.h
-* bind /usr/include/dns/zonekey.h
-* bind /usr/include/dns/zoneverify.h
-* bind /usr/include/dns/zt.h
-* bind /usr/include/dst/dst.h
-* bind /usr/include/dst/gssapi.h
-* bind /usr/include/irs/resconf.h
-* bind /usr/include/isc/ascii.h
-* bind /usr/include/isc/assertions.h
-* bind /usr/include/isc/async.h
-* bind /usr/include/isc/atomic.h
-* bind /usr/include/isc/attributes.h
-* bind /usr/include/isc/backtrace.h
-* bind /usr/include/isc/barrier.h
-* bind /usr/include/isc/base32.h
-* bind /usr/include/isc/base64.h
-* bind /usr/include/isc/buffer.h
-* bind /usr/include/isc/commandline.h
-* bind /usr/include/isc/condition.h
-* bind /usr/include/isc/counter.h
-* bind /usr/include/isc/dir.h
-* bind /usr/include/isc/dnsstream.h
-* bind /usr/include/isc/endian.h
-* bind /usr/include/isc/entropy.h
-* bind /usr/include/isc/errno.h
-* bind /usr/include/isc/error.h
-* bind /usr/include/isc/file.h
-* bind /usr/include/isc/fips.h
-* bind /usr/include/isc/formatcheck.h
-* bind /usr/include/isc/fuzz.h
-* bind /usr/include/isc/getaddresses.h
-* bind /usr/include/isc/hash.h
-* bind /usr/include/isc/hashmap.h
-* bind /usr/include/isc/heap.h
-* bind /usr/include/isc/hex.h
-* bind /usr/include/isc/histo.h
-* bind /usr/include/isc/hmac.h
-* bind /usr/include/isc/ht.h
-* bind /usr/include/isc/httpd.h
-* bind /usr/include/isc/interfaceiter.h
-* bind /usr/include/isc/iterated_hash.h
-* bind /usr/include/isc/job.h
-* bind /usr/include/isc/lang.h
-* bind /usr/include/isc/lex.h
-* bind /usr/include/isc/list.h
-* bind /usr/include/isc/log.h
-* bind /usr/include/isc/loop.h
-* bind /usr/include/isc/magic.h
-* bind /usr/include/isc/managers.h
-* bind /usr/include/isc/md.h
-* bind /usr/include/isc/mem.h
-* bind /usr/include/isc/meminfo.h
-* bind /usr/include/isc/mutex.h
-* bind /usr/include/isc/mutexblock.h
-* bind /usr/include/isc/net.h
-* bind /usr/include/isc/netaddr.h
-* bind /usr/include/isc/netmgr.h
-* bind /usr/include/isc/netscope.h
-* bind /usr/include/isc/nonce.h
-* bind /usr/include/isc/once.h
-* bind /usr/include/isc/os.h
-* bind /usr/include/isc/overflow.h
-* bind /usr/include/isc/parseint.h
-* bind /usr/include/isc/pause.h
-* bind /usr/include/isc/portset.h
-* bind /usr/include/isc/proxy2.h
-* bind /usr/include/isc/queue.h
-* bind /usr/include/isc/quota.h
-* bind /usr/include/isc/radix.h
-* bind /usr/include/isc/random.h
-* bind /usr/include/isc/ratelimiter.h
-* bind /usr/include/isc/refcount.h
-* bind /usr/include/isc/regex.h
-* bind /usr/include/isc/region.h
-* bind /usr/include/isc/result.h
-* bind /usr/include/isc/rwlock.h
-* bind /usr/include/isc/safe.h
-* bind /usr/include/isc/serial.h
-* bind /usr/include/isc/signal.h
-* bind /usr/include/isc/siphash.h
-* bind /usr/include/isc/sockaddr.h
-* bind /usr/include/isc/spinlock.h
-* bind /usr/include/isc/stats.h
-* bind /usr/include/isc/stdio.h
-* bind /usr/include/isc/stdtime.h
-* bind /usr/include/isc/strerr.h
-* bind /usr/include/isc/string.h
-* bind /usr/include/isc/symtab.h
-* bind /usr/include/isc/syslog.h
-* bind /usr/include/isc/thread.h
-* bind /usr/include/isc/tid.h
-* bind /usr/include/isc/time.h
-* bind /usr/include/isc/timer.h
-* bind /usr/include/isc/tls.h
-* bind /usr/include/isc/tm.h
-* bind /usr/include/isc/types.h
-* bind /usr/include/isc/urcu.h
-* bind /usr/include/isc/url.h
-* bind /usr/include/isc/utf8.h
-* bind /usr/include/isc/util.h
-* bind /usr/include/isc/uv.h
-* bind /usr/include/isc/work.h
-* bind /usr/include/isc/xml.h
-* bind /usr/include/isccc/alist.h
-* bind /usr/include/isccc/base64.h
-* bind /usr/include/isccc/cc.h
-* bind /usr/include/isccc/ccmsg.h
-* bind /usr/include/isccc/sexpr.h
-* bind /usr/include/isccc/symtab.h
-* bind /usr/include/isccc/symtype.h
-* bind /usr/include/isccc/types.h
-* bind /usr/include/isccc/util.h
-* bind /usr/include/isccfg/aclconf.h
-* bind /usr/include/isccfg/cfg.h
-* bind /usr/include/isccfg/check.h
-* bind /usr/include/isccfg/duration.h
-* bind /usr/include/isccfg/grammar.h
-* bind /usr/include/isccfg/kaspconf.h
-* bind /usr/include/isccfg/log.h
-* bind /usr/include/isccfg/namedconf.h
-* bind /usr/include/ns/client.h
-* bind /usr/include/ns/hooks.h
-* bind /usr/include/ns/interfacemgr.h
-* bind /usr/include/ns/listenlist.h
-* bind /usr/include/ns/log.h
-* bind /usr/include/ns/notify.h
-* bind /usr/include/ns/query.h
-* bind /usr/include/ns/server.h
-* bind /usr/include/ns/sortlist.h
-* bind /usr/include/ns/stats.h
-* bind /usr/include/ns/types.h
-* bind /usr/include/ns/update.h
-* bind /usr/include/ns/xfrout.h
-* bind /usr/lib/bind/filter-a.so
-* bind /usr/lib/bind/filter-aaaa.so
-* bind /usr/lib/libdns-9.21.0.so
-* bind /usr/lib/libdns.so
-* bind /usr/lib/libisc-9.21.0.so
-* bind /usr/lib/libisc.so
-* bind /usr/lib/libisccc-9.21.0.so
-* bind /usr/lib/libisccc.so
-* bind /usr/lib/libisccfg-9.21.0.so
-* bind /usr/lib/libisccfg.so
-* bind /usr/lib/libns-9.21.0.so
-* bind /usr/lib/libns.so
-* bind /usr/lib/systemd/system/bind.service
-* bind /usr/share/doc/bind-9.21.0/AUTHORS
-* bind /usr/share/doc/bind-9.21.0/ChangeLog
-* bind /usr/share/doc/bind-9.21.0/CHANGES
-* bind /usr/share/doc/bind-9.21.0/COPYING
-* bind /usr/share/doc/bind-9.21.0/COPYRIGHT
-* bind /usr/share/doc/bind-9.21.0/LICENSE
-* bind /usr/share/doc/bind-9.21.0/NEWS
-* bind /usr/share/doc/bind-9.21.0/README.md
-* bind /usr/share/man/man1/arpaname.1.gz
-* bind /usr/share/man/man1/delv.1.gz
-* bind /usr/share/man/man1/dig.1.gz
-* bind /usr/share/man/man1/dnssec-cds.1.gz
-* bind /usr/share/man/man1/dnssec-dsfromkey.1.gz
-* bind /usr/share/man/man1/dnssec-importkey.1.gz
-* bind /usr/share/man/man1/dnssec-keyfromlabel.1.gz
-* bind /usr/share/man/man1/dnssec-keygen.1.gz
-* bind /usr/share/man/man1/dnssec-ksr.1.gz
-* bind /usr/share/man/man1/dnssec-revoke.1.gz
-* bind /usr/share/man/man1/dnssec-settime.1.gz
-* bind /usr/share/man/man1/dnssec-signzone.1.gz
-* bind /usr/share/man/man1/dnssec-verify.1.gz
-* bind /usr/share/man/man1/host.1.gz
-* bind /usr/share/man/man1/mdig.1.gz
-* bind /usr/share/man/man1/named-checkconf.1.gz
-* bind /usr/share/man/man1/named-checkzone.1.gz
-* bind /usr/share/man/man1/named-compilezone.1.gz
-* bind /usr/share/man/man1/named-journalprint.1.gz
-* bind /usr/share/man/man1/named-rrchecker.1.gz
-* bind /usr/share/man/man1/nsec3hash.1.gz
-* bind /usr/share/man/man1/nslookup.1.gz
-* bind /usr/share/man/man1/nsupdate.1.gz
-* bind /usr/share/man/man5/named.conf.5.gz
-* bind /usr/share/man/man5/rndc.conf.5.gz
-* bind /usr/share/man/man8/ddns-confgen.8.gz
-* bind /usr/share/man/man8/filter-a.8.gz
-* bind /usr/share/man/man8/filter-aaaa.8.gz
-* bind /usr/share/man/man8/named.8.gz
-* bind /usr/share/man/man8/rndc-confgen.8.gz
-* bind /usr/share/man/man8/rndc.8.gz
-* bind /usr/share/man/man8/tsig-keygen.8.gz
-* bind /var/named/caching-example/localhost.zone
-* bind /var/named/caching-example/named.local
-* bind /var/named/caching-example/named.root
+* /etc/logrotate.d/bind
+* /etc/named.conf
+* /usr/bin/arpaname
+* /usr/bin/ddns-confgen
+* /usr/bin/delv
+* /usr/bin/dig
+* /usr/bin/dnssec-cds
+* /usr/bin/dnssec-dsfromkey
+* /usr/bin/dnssec-importkey
+* /usr/bin/dnssec-keyfromlabel
+* /usr/bin/dnssec-keygen
+* /usr/bin/dnssec-ksr
+* /usr/bin/dnssec-revoke
+* /usr/bin/dnssec-settime
+* /usr/bin/dnssec-signzone
+* /usr/bin/dnssec-verify
+* /usr/bin/host
+* /usr/bin/mdig
+* /usr/bin/named
+* /usr/bin/named-checkconf
+* /usr/bin/named-checkzone
+* /usr/bin/named-compilezone
+* /usr/bin/named-journalprint
+* /usr/bin/named-rrchecker
+* /usr/bin/nsec3hash
+* /usr/bin/nslookup
+* /usr/bin/nsupdate
+* /usr/bin/rndc
+* /usr/bin/rndc-confgen
+* /usr/bin/tsig-keygen
+* /usr/include/dns/acl.h
+* /usr/include/dns/adb.h
+* /usr/include/dns/badcache.h
+* /usr/include/dns/bit.h
+* /usr/include/dns/byaddr.h
+* /usr/include/dns/cache.h
+* /usr/include/dns/callbacks.h
+* /usr/include/dns/catz.h
+* /usr/include/dns/cert.h
+* /usr/include/dns/client.h
+* /usr/include/dns/clientinfo.h
+* /usr/include/dns/compress.h
+* /usr/include/dns/db.h
+* /usr/include/dns/dbiterator.h
+* /usr/include/dns/diff.h
+* /usr/include/dns/dispatch.h
+* /usr/include/dns/dlz.h
+* /usr/include/dns/dlz_dlopen.h
+* /usr/include/dns/dns64.h
+* /usr/include/dns/dnsrps.h
+* /usr/include/dns/dnssec.h
+* /usr/include/dns/dnstap.h
+* /usr/include/dns/ds.h
+* /usr/include/dns/dsdigest.h
+* /usr/include/dns/dyndb.h
+* /usr/include/dns/ecs.h
+* /usr/include/dns/edns.h
+* /usr/include/dns/enumclass.h
+* /usr/include/dns/enumtype.h
+* /usr/include/dns/fixedname.h
+* /usr/include/dns/forward.h
+* /usr/include/dns/geoip.h
+* /usr/include/dns/ipkeylist.h
+* /usr/include/dns/iptable.h
+* /usr/include/dns/journal.h
+* /usr/include/dns/kasp.h
+* /usr/include/dns/keydata.h
+* /usr/include/dns/keyflags.h
+* /usr/include/dns/keymgr.h
+* /usr/include/dns/keystore.h
+* /usr/include/dns/keytable.h
+* /usr/include/dns/keyvalues.h
+* /usr/include/dns/librpz.h
+* /usr/include/dns/log.h
+* /usr/include/dns/master.h
+* /usr/include/dns/masterdump.h
+* /usr/include/dns/message.h
+* /usr/include/dns/name.h
+* /usr/include/dns/nametree.h
+* /usr/include/dns/ncache.h
+* /usr/include/dns/nsec.h
+* /usr/include/dns/nsec3.h
+* /usr/include/dns/nta.h
+* /usr/include/dns/opcode.h
+* /usr/include/dns/order.h
+* /usr/include/dns/peer.h
+* /usr/include/dns/private.h
+* /usr/include/dns/qp.h
+* /usr/include/dns/rbt.h
+* /usr/include/dns/rcode.h
+* /usr/include/dns/rdata.h
+* /usr/include/dns/rdataclass.h
+* /usr/include/dns/rdatalist.h
+* /usr/include/dns/rdataset.h
+* /usr/include/dns/rdatasetiter.h
+* /usr/include/dns/rdataslab.h
+* /usr/include/dns/rdatastruct.h
+* /usr/include/dns/rdatatype.h
+* /usr/include/dns/remote.h
+* /usr/include/dns/request.h
+* /usr/include/dns/resolver.h
+* /usr/include/dns/result.h
+* /usr/include/dns/rootns.h
+* /usr/include/dns/rpz.h
+* /usr/include/dns/rriterator.h
+* /usr/include/dns/rrl.h
+* /usr/include/dns/sdlz.h
+* /usr/include/dns/secalg.h
+* /usr/include/dns/secproto.h
+* /usr/include/dns/soa.h
+* /usr/include/dns/ssu.h
+* /usr/include/dns/stats.h
+* /usr/include/dns/time.h
+* /usr/include/dns/tkey.h
+* /usr/include/dns/trace.h
+* /usr/include/dns/transport.h
+* /usr/include/dns/tsig.h
+* /usr/include/dns/ttl.h
+* /usr/include/dns/types.h
+* /usr/include/dns/update.h
+* /usr/include/dns/validator.h
+* /usr/include/dns/view.h
+* /usr/include/dns/xfrin.h
+* /usr/include/dns/zone.h
+* /usr/include/dns/zonekey.h
+* /usr/include/dns/zoneverify.h
+* /usr/include/dns/zt.h
+* /usr/include/dst/dst.h
+* /usr/include/dst/gssapi.h
+* /usr/include/irs/resconf.h
+* /usr/include/isc/ascii.h
+* /usr/include/isc/assertions.h
+* /usr/include/isc/async.h
+* /usr/include/isc/atomic.h
+* /usr/include/isc/attributes.h
+* /usr/include/isc/backtrace.h
+* /usr/include/isc/barrier.h
+* /usr/include/isc/base32.h
+* /usr/include/isc/base64.h
+* /usr/include/isc/buffer.h
+* /usr/include/isc/commandline.h
+* /usr/include/isc/condition.h
+* /usr/include/isc/counter.h
+* /usr/include/isc/dir.h
+* /usr/include/isc/dnsstream.h
+* /usr/include/isc/endian.h
+* /usr/include/isc/entropy.h
+* /usr/include/isc/errno.h
+* /usr/include/isc/error.h
+* /usr/include/isc/file.h
+* /usr/include/isc/fips.h
+* /usr/include/isc/formatcheck.h
+* /usr/include/isc/fuzz.h
+* /usr/include/isc/getaddresses.h
+* /usr/include/isc/hash.h
+* /usr/include/isc/hashmap.h
+* /usr/include/isc/heap.h
+* /usr/include/isc/hex.h
+* /usr/include/isc/histo.h
+* /usr/include/isc/hmac.h
+* /usr/include/isc/ht.h
+* /usr/include/isc/httpd.h
+* /usr/include/isc/interfaceiter.h
+* /usr/include/isc/iterated_hash.h
+* /usr/include/isc/job.h
+* /usr/include/isc/lang.h
+* /usr/include/isc/lex.h
+* /usr/include/isc/list.h
+* /usr/include/isc/log.h
+* /usr/include/isc/loop.h
+* /usr/include/isc/magic.h
+* /usr/include/isc/managers.h
+* /usr/include/isc/md.h
+* /usr/include/isc/mem.h
+* /usr/include/isc/meminfo.h
+* /usr/include/isc/mutex.h
+* /usr/include/isc/mutexblock.h
+* /usr/include/isc/net.h
+* /usr/include/isc/netaddr.h
+* /usr/include/isc/netmgr.h
+* /usr/include/isc/netscope.h
+* /usr/include/isc/nonce.h
+* /usr/include/isc/once.h
+* /usr/include/isc/os.h
+* /usr/include/isc/overflow.h
+* /usr/include/isc/parseint.h
+* /usr/include/isc/pause.h
+* /usr/include/isc/portset.h
+* /usr/include/isc/proxy2.h
+* /usr/include/isc/queue.h
+* /usr/include/isc/quota.h
+* /usr/include/isc/radix.h
+* /usr/include/isc/random.h
+* /usr/include/isc/ratelimiter.h
+* /usr/include/isc/refcount.h
+* /usr/include/isc/regex.h
+* /usr/include/isc/region.h
+* /usr/include/isc/result.h
+* /usr/include/isc/rwlock.h
+* /usr/include/isc/safe.h
+* /usr/include/isc/serial.h
+* /usr/include/isc/signal.h
+* /usr/include/isc/siphash.h
+* /usr/include/isc/sockaddr.h
+* /usr/include/isc/spinlock.h
+* /usr/include/isc/stats.h
+* /usr/include/isc/stdio.h
+* /usr/include/isc/stdtime.h
+* /usr/include/isc/strerr.h
+* /usr/include/isc/string.h
+* /usr/include/isc/symtab.h
+* /usr/include/isc/syslog.h
+* /usr/include/isc/thread.h
+* /usr/include/isc/tid.h
+* /usr/include/isc/time.h
+* /usr/include/isc/timer.h
+* /usr/include/isc/tls.h
+* /usr/include/isc/tm.h
+* /usr/include/isc/types.h
+* /usr/include/isc/urcu.h
+* /usr/include/isc/url.h
+* /usr/include/isc/utf8.h
+* /usr/include/isc/util.h
+* /usr/include/isc/uv.h
+* /usr/include/isc/work.h
+* /usr/include/isc/xml.h
+* /usr/include/isccc/alist.h
+* /usr/include/isccc/base64.h
+* /usr/include/isccc/cc.h
+* /usr/include/isccc/ccmsg.h
+* /usr/include/isccc/sexpr.h
+* /usr/include/isccc/symtab.h
+* /usr/include/isccc/symtype.h
+* /usr/include/isccc/types.h
+* /usr/include/isccc/util.h
+* /usr/include/isccfg/aclconf.h
+* /usr/include/isccfg/cfg.h
+* /usr/include/isccfg/check.h
+* /usr/include/isccfg/duration.h
+* /usr/include/isccfg/grammar.h
+* /usr/include/isccfg/kaspconf.h
+* /usr/include/isccfg/log.h
+* /usr/include/isccfg/namedconf.h
+* /usr/include/ns/client.h
+* /usr/include/ns/hooks.h
+* /usr/include/ns/interfacemgr.h
+* /usr/include/ns/listenlist.h
+* /usr/include/ns/log.h
+* /usr/include/ns/notify.h
+* /usr/include/ns/query.h
+* /usr/include/ns/server.h
+* /usr/include/ns/sortlist.h
+* /usr/include/ns/stats.h
+* /usr/include/ns/types.h
+* /usr/include/ns/update.h
+* /usr/include/ns/xfrout.h
+* /usr/lib/bind/filter-a.so
+* /usr/lib/bind/filter-aaaa.so
+* /usr/lib/libdns-9.21.0.so
+* /usr/lib/libdns.so
+* /usr/lib/libisc-9.21.0.so
+* /usr/lib/libisc.so
+* /usr/lib/libisccc-9.21.0.so
+* /usr/lib/libisccc.so
+* /usr/lib/libisccfg-9.21.0.so
+* /usr/lib/libisccfg.so
+* /usr/lib/libns-9.21.0.so
+* /usr/lib/libns.so
+* /usr/lib/systemd/system/bind.service
+* /usr/share/doc/bind-9.21.0/AUTHORS
+* /usr/share/doc/bind-9.21.0/ChangeLog
+* /usr/share/doc/bind-9.21.0/CHANGES
+* /usr/share/doc/bind-9.21.0/COPYING
+* /usr/share/doc/bind-9.21.0/COPYRIGHT
+* /usr/share/doc/bind-9.21.0/LICENSE
+* /usr/share/doc/bind-9.21.0/NEWS
+* /usr/share/doc/bind-9.21.0/README.md
+* /usr/share/man/man1/arpaname.1.gz
+* /usr/share/man/man1/delv.1.gz
+* /usr/share/man/man1/dig.1.gz
+* /usr/share/man/man1/dnssec-cds.1.gz
+* /usr/share/man/man1/dnssec-dsfromkey.1.gz
+* /usr/share/man/man1/dnssec-importkey.1.gz
+* /usr/share/man/man1/dnssec-keyfromlabel.1.gz
+* /usr/share/man/man1/dnssec-keygen.1.gz
+* /usr/share/man/man1/dnssec-ksr.1.gz
+* /usr/share/man/man1/dnssec-revoke.1.gz
+* /usr/share/man/man1/dnssec-settime.1.gz
+* /usr/share/man/man1/dnssec-signzone.1.gz
+* /usr/share/man/man1/dnssec-verify.1.gz
+* /usr/share/man/man1/host.1.gz
+* /usr/share/man/man1/mdig.1.gz
+* /usr/share/man/man1/named-checkconf.1.gz
+* /usr/share/man/man1/named-checkzone.1.gz
+* /usr/share/man/man1/named-compilezone.1.gz
+* /usr/share/man/man1/named-journalprint.1.gz
+* /usr/share/man/man1/named-rrchecker.1.gz
+* /usr/share/man/man1/nsec3hash.1.gz
+* /usr/share/man/man1/nslookup.1.gz
+* /usr/share/man/man1/nsupdate.1.gz
+* /usr/share/man/man5/named.conf.5.gz
+* /usr/share/man/man5/rndc.conf.5.gz
+* /usr/share/man/man8/ddns-confgen.8.gz
+* /usr/share/man/man8/filter-a.8.gz
+* /usr/share/man/man8/filter-aaaa.8.gz
+* /usr/share/man/man8/named.8.gz
+* /usr/share/man/man8/rndc-confgen.8.gz
+* /usr/share/man/man8/rndc.8.gz
+* /usr/share/man/man8/tsig-keygen.8.gz
+* /var/named/caching-example/localhost.zone
+* /var/named/caching-example/named.local
+* /var/named/caching-example/named.root

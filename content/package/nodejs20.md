@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs20 20.16.0-1"
-version = "20.16.0-1"
+title = "nodejs20 20.17.0-1"
+version = "20.17.0-1"
 description = "Evented I/O for V8 javascript (LTS release: Iron)"
-date = "2024-07-24T19:17:09"
+date = "2024-08-23T19:04:34"
 aliases = "/packages/221497"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "11986748"
-usize = "52927116"
-sha1sum = "4b916d13c3defa9abbcfbdd65f98be15a20d1b3d"
+size = "12030396"
+usize = "52881002"
+sha1sum = "c44115e237e5cc9bc3a2cc82677962c170bd80ad"
 depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++
@@ -718,6 +718,7 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/@npmcli/node-gyp/package.json
 * /usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/normalize.js
+* /usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/update-dependencies.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/update-scripts.js
 * /usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/update-workspaces.js
@@ -1098,23 +1099,21 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/fastest-levenshtein/mod.js
 * /usr/lib/node_modules/npm/node_modules/fastest-levenshtein/package.json
 * /usr/lib/node_modules/npm/node_modules/fastest-levenshtein/test.js
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/cjs/all-signals.js
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/cjs/index.js
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/cjs/package.json
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/cjs/watchdog.js
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/mjs/all-signals.js
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/mjs/index.js
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/mjs/package.json
-* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/mjs/watchdog.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/commonjs/all-signals.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/commonjs/index.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/commonjs/package.json
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/commonjs/proxy-signals.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/commonjs/watchdog.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/esm/all-signals.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/esm/index.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/esm/package.json
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/esm/proxy-signals.js
+* /usr/lib/node_modules/npm/node_modules/foreground-child/dist/esm/watchdog.js
 * /usr/lib/node_modules/npm/node_modules/foreground-child/LICENSE
 * /usr/lib/node_modules/npm/node_modules/foreground-child/package.json
 * /usr/lib/node_modules/npm/node_modules/fs-minipass/lib/index.js
 * /usr/lib/node_modules/npm/node_modules/fs-minipass/LICENSE
 * /usr/lib/node_modules/npm/node_modules/fs-minipass/package.json
-* /usr/lib/node_modules/npm/node_modules/function-bind/implementation.js
-* /usr/lib/node_modules/npm/node_modules/function-bind/index.js
-* /usr/lib/node_modules/npm/node_modules/function-bind/LICENSE
-* /usr/lib/node_modules/npm/node_modules/function-bind/package.json
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.d.ts
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.d.ts.map
 * /usr/lib/node_modules/npm/node_modules/glob/dist/commonjs/glob.js
@@ -1186,10 +1185,6 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/graceful-fs/LICENSE
 * /usr/lib/node_modules/npm/node_modules/graceful-fs/package.json
 * /usr/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js
-* /usr/lib/node_modules/npm/node_modules/hasown/index.js
-* /usr/lib/node_modules/npm/node_modules/hasown/LICENSE
-* /usr/lib/node_modules/npm/node_modules/hasown/package.json
-* /usr/lib/node_modules/npm/node_modules/hasown/tsconfig.json
 * /usr/lib/node_modules/npm/node_modules/hosted-git-info/lib/from-url.js
 * /usr/lib/node_modules/npm/node_modules/hosted-git-info/lib/hosts.js
 * /usr/lib/node_modules/npm/node_modules/hosted-git-info/lib/index.js
@@ -1261,10 +1256,6 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/ip-regex/package.json
 * /usr/lib/node_modules/npm/node_modules/is-cidr/dist/index.js
 * /usr/lib/node_modules/npm/node_modules/is-cidr/package.json
-* /usr/lib/node_modules/npm/node_modules/is-core-module/core.json
-* /usr/lib/node_modules/npm/node_modules/is-core-module/index.js
-* /usr/lib/node_modules/npm/node_modules/is-core-module/LICENSE
-* /usr/lib/node_modules/npm/node_modules/is-core-module/package.json
 * /usr/lib/node_modules/npm/node_modules/is-fullwidth-code-point/index.js
 * /usr/lib/node_modules/npm/node_modules/is-fullwidth-code-point/license
 * /usr/lib/node_modules/npm/node_modules/is-fullwidth-code-point/package.json
@@ -1431,12 +1422,6 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/minipass-flush/node_modules/minipass/LICENSE
 * /usr/lib/node_modules/npm/node_modules/minipass-flush/node_modules/minipass/package.json
 * /usr/lib/node_modules/npm/node_modules/minipass-flush/package.json
-* /usr/lib/node_modules/npm/node_modules/minipass-json-stream/index.js
-* /usr/lib/node_modules/npm/node_modules/minipass-json-stream/LICENSE
-* /usr/lib/node_modules/npm/node_modules/minipass-json-stream/node_modules/minipass/index.js
-* /usr/lib/node_modules/npm/node_modules/minipass-json-stream/node_modules/minipass/LICENSE
-* /usr/lib/node_modules/npm/node_modules/minipass-json-stream/node_modules/minipass/package.json
-* /usr/lib/node_modules/npm/node_modules/minipass-json-stream/package.json
 * /usr/lib/node_modules/npm/node_modules/minipass-pipeline/index.js
 * /usr/lib/node_modules/npm/node_modules/minipass-pipeline/LICENSE
 * /usr/lib/node_modules/npm/node_modules/minipass-pipeline/node_modules/minipass/index.js
@@ -1637,6 +1622,7 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/default-opts.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/errors.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/index.js
+* /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/json-stream.js
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/LICENSE.md
 * /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/package.json
 * /usr/lib/node_modules/npm/node_modules/npm-user-validate/lib/index.js
@@ -1645,6 +1631,12 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/node_modules/p-map/index.js
 * /usr/lib/node_modules/npm/node_modules/p-map/license
 * /usr/lib/node_modules/npm/node_modules/p-map/package.json
+* /usr/lib/node_modules/npm/node_modules/package-json-from-dist/dist/commonjs/index.js
+* /usr/lib/node_modules/npm/node_modules/package-json-from-dist/dist/commonjs/package.json
+* /usr/lib/node_modules/npm/node_modules/package-json-from-dist/dist/esm/index.js
+* /usr/lib/node_modules/npm/node_modules/package-json-from-dist/dist/esm/package.json
+* /usr/lib/node_modules/npm/node_modules/package-json-from-dist/LICENSE.md
+* /usr/lib/node_modules/npm/node_modules/package-json-from-dist/package.json
 * /usr/lib/node_modules/npm/node_modules/pacote/bin/index.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/dir.js
 * /usr/lib/node_modules/npm/node_modules/pacote/lib/fetcher.js
@@ -2086,6 +2078,6 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs20-20.16.0/LICENSE
-* /usr/share/doc/nodejs20-20.16.0/README.md
+* /usr/share/doc/nodejs20-20.17.0/LICENSE
+* /usr/share/doc/nodejs20-20.17.0/README.md
 * /usr/share/man/man1/node.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmmp 2.1.8-2"
-version = "2.1.8-2"
+title = "qmmp 2.1.9-1"
+version = "2.1.9-1"
 description = "A music player written in Qt that supports Winamp skins."
-date = "2024-06-21T14:44:17"
+date = "2024-08-27T14:51:31"
 aliases = "/packages/119458"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://qmmp.ylsoftware.com"
 arch = "x86_64"
-size = "2278212"
-usize = "10857078"
-sha1sum = "9e8a677b7842beae4eef948c750f1091f32e4b83"
+size = "2173876"
+usize = "10504682"
+sha1sum = "8f33adeb65dca4cbce1940913d22296f0857af1a"
 depends = "['curl', 'libarchive', 'libbs2b', 'libcdio-paranoia', 'libmad', 'libmms', 'libmpg123', 'qt6-multimedia', 'taglib>=2.0', 'wavpack']"
 +++
 ### Description: 
@@ -76,10 +76,10 @@ A music player written in Qt that supports Winamp skins.
 * /usr/include/qmmpui/uiloader.h
 * /usr/lib/libqmmp.so
 * /usr/lib/libqmmp.so.2
-* /usr/lib/libqmmp.so.2.1.8
+* /usr/lib/libqmmp.so.2.1.9
 * /usr/lib/libqmmpui.so
 * /usr/lib/libqmmpui.so.2
-* /usr/lib/libqmmpui.so.2.1.8
+* /usr/lib/libqmmpui.so.2.1.9
 * /usr/lib/pkgconfig/qmmp.pc
 * /usr/lib/pkgconfig/qmmpui.pc
 * /usr/lib/qmmp-2.1/CommandLineOptions/libincdecvolumeoption.so
@@ -91,7 +91,6 @@ A music player written in Qt that supports Winamp skins.
 * /usr/lib/qmmp-2.1/Effect/libfilewriter.so
 * /usr/lib/qmmp-2.1/Effect/libladspa.so
 * /usr/lib/qmmp-2.1/Effect/libmonotostereo.so
-* /usr/lib/qmmp-2.1/Effect/libsoxr.so
 * /usr/lib/qmmp-2.1/Effect/libstereo.so
 * /usr/lib/qmmp-2.1/Engines/libmplayer.so
 * /usr/lib/qmmp-2.1/FileDialogs/libqmmpfiledialog.so
@@ -116,11 +115,9 @@ A music player written in Qt that supports Winamp skins.
 * /usr/lib/qmmp-2.1/General/libstreambrowser.so
 * /usr/lib/qmmp-2.1/General/libtrackchange.so
 * /usr/lib/qmmp-2.1/General/libudisks.so
-* /usr/lib/qmmp-2.1/Input/libaac.so
 * /usr/lib/qmmp-2.1/Input/libarchive.so
 * /usr/lib/qmmp-2.1/Input/libcdaudio.so
 * /usr/lib/qmmp-2.1/Input/libcue.so
-* /usr/lib/qmmp-2.1/Input/libffmpeg.so
 * /usr/lib/qmmp-2.1/Input/libflac.so
 * /usr/lib/qmmp-2.1/Input/libmpeg.so
 * /usr/lib/qmmp-2.1/Input/libsndfile.so
@@ -129,7 +126,6 @@ A music player written in Qt that supports Winamp skins.
 * /usr/lib/qmmp-2.1/Output/libalsa.so
 * /usr/lib/qmmp-2.1/Output/libnull.so
 * /usr/lib/qmmp-2.1/Output/libpipewire.so
-* /usr/lib/qmmp-2.1/Output/libpulseaudio.so
 * /usr/lib/qmmp-2.1/Output/libqtmultimedia.so
 * /usr/lib/qmmp-2.1/PlayListFormats/libm3uplaylistformat.so
 * /usr/lib/qmmp-2.1/PlayListFormats/libplsplaylistformat.so
@@ -142,15 +138,13 @@ A music player written in Qt that supports Winamp skins.
 * /usr/share/applications/qmmp-dir.desktop
 * /usr/share/applications/qmmp-enqueue.desktop
 * /usr/share/applications/qmmp.desktop
-* /usr/share/doc/qmmp-2.1.8/AUTHORS
-* /usr/share/doc/qmmp-2.1.8/ChangeLog
-* /usr/share/doc/qmmp-2.1.8/COPYING
-* /usr/share/doc/qmmp-2.1.8/COPYING.CC-by-sa_V4
-* /usr/share/doc/qmmp-2.1.8/LICENSE
-* /usr/share/doc/qmmp-2.1.8/README
-* /usr/share/doc/qmmp-2.1.8/README.md
-* /usr/share/doc/qmmp-2.1.8/README.RUS
-* /usr/share/doc/qmmp-2.1.8/README.UKR
+* /usr/share/doc/qmmp-2.1.9/AUTHORS
+* /usr/share/doc/qmmp-2.1.9/ChangeLog
+* /usr/share/doc/qmmp-2.1.9/COPYING
+* /usr/share/doc/qmmp-2.1.9/COPYING.CC-by-sa_V4
+* /usr/share/doc/qmmp-2.1.9/README
+* /usr/share/doc/qmmp-2.1.9/README.RUS
+* /usr/share/doc/qmmp-2.1.9/README.UKR
 * /usr/share/icons/hicolor/128x128/apps/qmmp.png
 * /usr/share/icons/hicolor/16x16/apps/qmmp.png
 * /usr/share/icons/hicolor/256x256/apps/qmmp.png

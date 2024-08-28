@@ -12,7 +12,7 @@ size = "90356"
 usize = "390934"
 sha1sum = "bc92c5c8de13a5efc7d3b3b4ea063e4f0e701abb"
 depends = "['glibc>=2.34']"
-reverse_depends = "['./python3-xxhash', 'python3-xxhash', 'rsync', 'telegram-desktop']"
+reverse_depends = "['python3-xxhash', 'rsync', 'telegram-desktop']"
 +++
 ### Description: 
 Extremely fast non-cryptographic hash algorithm

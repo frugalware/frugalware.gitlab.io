@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./python3-pyzmq 26.2.0-1"
+title = "python3-pyzmq 26.2.0-1"
 version = "26.2.0-1"
 description = "Python3 bindings for zeromq, written in Cython"
 date = "2024-08-26T09:42:20"
-aliases = "/packages/222399"
+aliases = "/packages/219794"
 categories = ['devel-extra']
 upstreamurl = "http://www.zeromq.org/bindings:python"
 arch = "x86_64"
@@ -12,234 +12,235 @@ size = "312184"
 usize = "1684134"
 sha1sum = "1f7b5a415151871a0c65893f2e8bcf5e4ce1e285"
 depends = "['python3>=3.11', 'zeromq>=3.2.2']"
+reverse_depends = "['python3-eventlet']"
 +++
 ### Description: 
 Python3 bindings for zeromq, written in Cython
 
 ### Files: 
-* python3-pyzmq /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.md
-* python3-pyzmq /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/METADATA
-* python3-pyzmq /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/RECORD
-* python3-pyzmq /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/WHEEL
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/asyncio.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/asyncio.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/base.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/certs.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/ioloop.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/thread.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/asyncio.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/asyncio.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/base.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/base.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/certs.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/certs.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/ioloop.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/ioloop.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/thread.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/thread.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/context.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/devices.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/error.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/message.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/README.md
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/socket.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/utils.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/_cdefs.h
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/_cffi_src.c
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/_poll.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/context.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/context.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/devices.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/devices.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/error.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/error.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/message.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/message.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/socket.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/socket.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/utils.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/utils.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/_poll.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/_poll.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/constant_enums.pxi
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/libzmq.pxd
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/_externs.pxd
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/_zmq.cpython-312-x86_64-linux-gnu.so
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/_zmq.pxd
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/_zmq.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/__init__.pxd
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/_zmq.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/_zmq.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/select.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/__init__.pyi
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/select.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/select.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/constants.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/decorators.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/basedevice.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/monitoredqueue.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/monitoredqueuedevice.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/proxydevice.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/proxysteerabledevice.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/basedevice.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/basedevice.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueue.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueue.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueuedevice.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueuedevice.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxydevice.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxydevice.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxysteerabledevice.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxysteerabledevice.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/error.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/future.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/ioloop.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/_deprecated.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/future.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/future.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/ioloop.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/ioloop.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/zmqstream.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/zmqstream.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/_deprecated.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/_deprecated.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/core.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/device.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/ioloop.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/zmqstream.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/ioloop.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/ioloop.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/zmqstream.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/zmqstream.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/poll.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/core.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/core.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/device.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/device.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/poll.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/poll.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/green/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/handlers.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__main__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__pycache__/handlers.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__pycache__/handlers.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__main__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__main__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/py.typed
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/forward.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/tunnel.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/forward.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/forward.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/tunnel.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/tunnel.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/attrsettr.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/context.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/frame.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/poll.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/socket.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/stopwatch.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/tracker.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/version.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__init__.pyi
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/attrsettr.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/attrsettr.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/context.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/context.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/frame.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/frame.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/poll.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/poll.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/socket.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/socket.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/stopwatch.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/stopwatch.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/tracker.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/tracker.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/version.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/version.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/tests/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/tests/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/tests/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/buffers.pxd
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/garbage.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/getpid_compat.h
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/interop.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/ipcmaxlen.h
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/jsonapi.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/monitor.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/mutex.h
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/pyversion_compat.h
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/strtypes.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/win32.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/z85.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/zmq_compat.h
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/garbage.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/garbage.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/interop.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/interop.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/jsonapi.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/jsonapi.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/monitor.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/monitor.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/strtypes.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/strtypes.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/win32.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/win32.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/z85.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/z85.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/_future.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/_typing.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__init__.pxd
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__init__.py
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__init__.pyi
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/asyncio.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/asyncio.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/constants.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/constants.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/decorators.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/decorators.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/error.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/error.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/_future.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/_future.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/_typing.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/_typing.cpython-312.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/__init__.cpython-312.opt-1.pyc
-* python3-pyzmq /usr/lib/python3.12/site-packages/zmq/__pycache__/__init__.cpython-312.pyc
-* python3-pyzmq /usr/share/doc/python3-pyzmq-26.2.0/README.md
+* /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/licenses/LICENSE.md
+* /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/pyzmq-26.2.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/zmq/asyncio.py
+* /usr/lib/python3.12/site-packages/zmq/auth/asyncio.py
+* /usr/lib/python3.12/site-packages/zmq/auth/base.py
+* /usr/lib/python3.12/site-packages/zmq/auth/certs.py
+* /usr/lib/python3.12/site-packages/zmq/auth/ioloop.py
+* /usr/lib/python3.12/site-packages/zmq/auth/thread.py
+* /usr/lib/python3.12/site-packages/zmq/auth/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/asyncio.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/asyncio.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/base.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/base.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/certs.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/certs.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/ioloop.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/ioloop.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/thread.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/thread.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/auth/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/context.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/devices.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/error.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/message.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/README.md
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/socket.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/utils.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/_cdefs.h
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/_cffi_src.c
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/_poll.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/context.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/context.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/devices.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/devices.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/error.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/error.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/message.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/message.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/socket.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/socket.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/utils.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/utils.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/_poll.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/_poll.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/constant_enums.pxi
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/libzmq.pxd
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/_externs.pxd
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/_zmq.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/_zmq.pxd
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/_zmq.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/__init__.pxd
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/_zmq.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/_zmq.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/cython/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/select.py
+* /usr/lib/python3.12/site-packages/zmq/backend/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/backend/__init__.pyi
+* /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/select.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/select.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/backend/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/constants.py
+* /usr/lib/python3.12/site-packages/zmq/decorators.py
+* /usr/lib/python3.12/site-packages/zmq/devices/basedevice.py
+* /usr/lib/python3.12/site-packages/zmq/devices/monitoredqueue.py
+* /usr/lib/python3.12/site-packages/zmq/devices/monitoredqueuedevice.py
+* /usr/lib/python3.12/site-packages/zmq/devices/proxydevice.py
+* /usr/lib/python3.12/site-packages/zmq/devices/proxysteerabledevice.py
+* /usr/lib/python3.12/site-packages/zmq/devices/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/basedevice.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/basedevice.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueue.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueue.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueuedevice.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/monitoredqueuedevice.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxydevice.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxydevice.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxysteerabledevice.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/proxysteerabledevice.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/devices/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/error.py
+* /usr/lib/python3.12/site-packages/zmq/eventloop/future.py
+* /usr/lib/python3.12/site-packages/zmq/eventloop/ioloop.py
+* /usr/lib/python3.12/site-packages/zmq/eventloop/zmqstream.py
+* /usr/lib/python3.12/site-packages/zmq/eventloop/_deprecated.py
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/future.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/future.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/ioloop.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/ioloop.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/zmqstream.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/zmqstream.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/_deprecated.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/_deprecated.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/eventloop/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/core.py
+* /usr/lib/python3.12/site-packages/zmq/green/device.py
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/ioloop.py
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/zmqstream.py
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/ioloop.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/ioloop.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/zmqstream.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/zmqstream.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/poll.py
+* /usr/lib/python3.12/site-packages/zmq/green/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/core.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/core.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/device.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/device.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/poll.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/poll.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/green/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/log/handlers.py
+* /usr/lib/python3.12/site-packages/zmq/log/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/log/__main__.py
+* /usr/lib/python3.12/site-packages/zmq/log/__pycache__/handlers.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/log/__pycache__/handlers.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__main__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/log/__pycache__/__main__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/py.typed
+* /usr/lib/python3.12/site-packages/zmq/ssh/forward.py
+* /usr/lib/python3.12/site-packages/zmq/ssh/tunnel.py
+* /usr/lib/python3.12/site-packages/zmq/ssh/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/forward.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/forward.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/tunnel.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/tunnel.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/ssh/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/attrsettr.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/context.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/frame.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/poll.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/socket.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/stopwatch.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/tracker.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/version.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/sugar/__init__.pyi
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/attrsettr.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/attrsettr.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/context.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/context.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/frame.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/frame.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/poll.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/poll.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/socket.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/socket.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/stopwatch.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/stopwatch.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/tracker.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/tracker.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/version.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/version.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/sugar/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/tests/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/tests/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/tests/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/buffers.pxd
+* /usr/lib/python3.12/site-packages/zmq/utils/garbage.py
+* /usr/lib/python3.12/site-packages/zmq/utils/getpid_compat.h
+* /usr/lib/python3.12/site-packages/zmq/utils/interop.py
+* /usr/lib/python3.12/site-packages/zmq/utils/ipcmaxlen.h
+* /usr/lib/python3.12/site-packages/zmq/utils/jsonapi.py
+* /usr/lib/python3.12/site-packages/zmq/utils/monitor.py
+* /usr/lib/python3.12/site-packages/zmq/utils/mutex.h
+* /usr/lib/python3.12/site-packages/zmq/utils/pyversion_compat.h
+* /usr/lib/python3.12/site-packages/zmq/utils/strtypes.py
+* /usr/lib/python3.12/site-packages/zmq/utils/win32.py
+* /usr/lib/python3.12/site-packages/zmq/utils/z85.py
+* /usr/lib/python3.12/site-packages/zmq/utils/zmq_compat.h
+* /usr/lib/python3.12/site-packages/zmq/utils/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/garbage.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/garbage.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/interop.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/interop.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/jsonapi.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/jsonapi.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/monitor.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/monitor.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/strtypes.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/strtypes.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/win32.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/win32.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/z85.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/z85.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/utils/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/_future.py
+* /usr/lib/python3.12/site-packages/zmq/_typing.py
+* /usr/lib/python3.12/site-packages/zmq/__init__.pxd
+* /usr/lib/python3.12/site-packages/zmq/__init__.py
+* /usr/lib/python3.12/site-packages/zmq/__init__.pyi
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/asyncio.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/asyncio.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/constants.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/constants.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/decorators.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/decorators.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/error.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/error.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/_future.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/_future.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/_typing.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/_typing.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/zmq/__pycache__/__init__.cpython-312.pyc
+* /usr/share/doc/python3-pyzmq-26.2.0/README.md

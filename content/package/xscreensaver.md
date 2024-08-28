@@ -12,7 +12,7 @@ size = "324256"
 usize = "963798"
 sha1sum = "e4d86fd2962df1fcffc5a562d1915f907d5e183f"
 depends = "['gdk-pixbuf-xlib', 'glade', 'gtk+2', 'libxmu', 'libxt', 'xscreensaver-data']"
-reverse_depends = "['./blueproximity', 'lumina-desktop']"
+reverse_depends = "['blueproximity', 'lumina-desktop']"
 +++
 ### Description: 
 A screen saver and locker for the X Window System.

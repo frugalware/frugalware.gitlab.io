@@ -12,7 +12,7 @@ size = "54356"
 usize = "287060"
 sha1sum = "df41ca99e11867365b5d8d45d2c8d4fb40b2e505"
 depends = "['jasper', 'libmng', 'libwebp', 'qt6-base']"
-reverse_depends = "['./gwenview', 'gwenview', 'telegram-desktop']"
+reverse_depends = "['gwenview', 'telegram-desktop']"
 +++
 ### Description: 
 The Qt6 toolkit, qtimageformats

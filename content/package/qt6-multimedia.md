@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "qt6-multimedia 6.7.2-1"
-version = "6.7.2-1"
+title = "qt6-multimedia 6.7.2-2"
+version = "6.7.2-2"
 description = "The Qt6 toolkit, qtmultimedia"
-date = "2024-06-19T17:06:14"
+date = "2024-08-25T15:32:46"
 aliases = "/packages/220802"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "938532"
-usize = "3947696"
-sha1sum = "537853192d6b638973ee60189639a06b2cc7c424"
-depends = "['ffmpeg>=7.0', 'gst1-plugins-base', 'libxrandr', 'qt6-quick3d']"
-reverse_depends = "['./kdeconnect-kde', './konversation', './krecorder', './parley', 'audiotube', 'elisa', 'kclock', 'kdeconnect-kde', 'kfilemetadata', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'ladybird', 'libquotient', 'mkvtoolnix-gui', 'parley', 'prison', 'qmmp', 'qt6-charts', 'qt6-speech']"
+size = "663156"
+usize = "2894018"
+sha1sum = "71f263d840948738b75f71fa4f92c1114fe6103d"
+depends = "['gst1-plugins-base', 'libxrandr', 'qt6-quick3d']"
+reverse_depends = "['audiotube', 'elisa', 'kclock', 'kdeconnect-kde', 'kfilemetadata', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'ladybird', 'libquotient', 'mkvtoolnix-gui', 'parley', 'prison', 'qmmp', 'qt6-charts', 'qt6-speech']"
 +++
 ### Description: 
 The Qt6 toolkit, qtmultimedia
@@ -165,38 +165,6 @@ The Qt6 toolkit, qtmultimedia
 * /usr/include/qt6/QtMultimediaWidgets/qtmultimediawidgetsversion.h
 * /usr/include/qt6/QtMultimediaWidgets/QVideoWidget
 * /usr/include/qt6/QtMultimediaWidgets/qvideowidget.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qglist_helper_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstappsource_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstpipeline_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreameraudiodecoder_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreameraudiodevice_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreameraudioinput_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreameraudiooutput_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamerbufferprobe_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamercamera_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamerformatinfo_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamerimagecapture_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamerintegration_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamermediacapture_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamermediaencoder_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamermediaplayer_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamermessage_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamermetadata_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamervideodevices_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamervideooutput_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamervideooverlay_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstreamervideosink_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstsubtitlesink_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstutils_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstvideobuffer_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgstvideorenderersink_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgst_debug_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgst_handle_types_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/6.7.2/QtQGstreamerMediaPlugin/private/qgst_p.h
-* /usr/include/qt6/QtQGstreamerMediaPlugin/QtQGstreamerMediaPlugin
-* /usr/include/qt6/QtQGstreamerMediaPlugin/QtQGstreamerMediaPluginDepends
-* /usr/include/qt6/QtQGstreamerMediaPlugin/QtQGstreamerMediaPluginVersion
-* /usr/include/qt6/QtQGstreamerMediaPlugin/qtqgstreamermediapluginversion.h
 * /usr/include/qt6/QtQuick3DSpatialAudio/6.7.2/QtQuick3DSpatialAudio/private/qquick3dambientsound_p.h
 * /usr/include/qt6/QtQuick3DSpatialAudio/6.7.2/QtQuick3DSpatialAudio/private/qquick3daudioengine_p.h
 * /usr/include/qt6/QtQuick3DSpatialAudio/6.7.2/QtQuick3DSpatialAudio/private/qquick3daudiolistener_p.h
@@ -257,18 +225,6 @@ The Qt6 toolkit, qtmultimedia
 * /usr/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-release.cmake
 * /usr/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake
 * /usr/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessTargets.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfigVersion.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfigVersionImpl.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-release.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginAdditionalTargetInfo.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginConfig.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginConfigVersion.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginConfigVersionImpl.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginTargets-release.cmake
-* /usr/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginTargets.cmake
 * /usr/lib/cmake/Qt6MultimediaQuickPrivate/Qt6MultimediaQuickPrivateAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6MultimediaQuickPrivate/Qt6MultimediaQuickPrivateConfig.cmake
 * /usr/lib/cmake/Qt6MultimediaQuickPrivate/Qt6MultimediaQuickPrivateConfigVersion.cmake
@@ -285,14 +241,6 @@ The Qt6 toolkit, qtmultimedia
 * /usr/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets-release.cmake
 * /usr/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsTargets.cmake
 * /usr/lib/cmake/Qt6MultimediaWidgets/Qt6MultimediaWidgetsVersionlessTargets.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateAdditionalTargetInfo.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateConfig.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateConfigVersion.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateConfigVersionImpl.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateDependencies.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateTargets-release.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateTargets.cmake
-* /usr/lib/cmake/Qt6QGstreamerMediaPluginPrivate/Qt6QGstreamerMediaPluginPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioConfig.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioConfigVersion.cmake
@@ -348,7 +296,6 @@ The Qt6 toolkit, qtmultimedia
 * /usr/lib/qt6/metatypes/qt6multimediaquickprivate_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6multimediawidgets_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6multimedia_release_metatypes.json
-* /usr/lib/qt6/metatypes/qt6qgstreamermediapluginprivate_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6quick3dspatialaudioprivate_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6spatialaudio_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_multimedia.pri
@@ -356,18 +303,14 @@ The Qt6 toolkit, qtmultimedia
 * /usr/lib/qt6/mkspecs/modules/qt_lib_multimediawidgets.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_multimediawidgets_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_multimedia_private.pri
-* /usr/lib/qt6/mkspecs/modules/qt_lib_qgstreamermediaplugin_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_spatialaudio.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_spatialaudio_private.pri
 * /usr/lib/qt6/modules/Multimedia.json
 * /usr/lib/qt6/modules/MultimediaQuickPrivate.json
 * /usr/lib/qt6/modules/MultimediaWidgets.json
-* /usr/lib/qt6/modules/QGstreamerMediaPluginPrivate.json
 * /usr/lib/qt6/modules/Quick3DSpatialAudioPrivate.json
 * /usr/lib/qt6/modules/SpatialAudio.json
-* /usr/lib/qt6/plugins/multimedia/libffmpegmediaplugin.so
-* /usr/lib/qt6/plugins/multimedia/libgstreamermediaplugin.so
 * /usr/lib/qt6/qml/QtMultimedia/libquickmultimediaplugin.so
 * /usr/lib/qt6/qml/QtMultimedia/plugins.qmltypes
 * /usr/lib/qt6/qml/QtMultimedia/qmldir

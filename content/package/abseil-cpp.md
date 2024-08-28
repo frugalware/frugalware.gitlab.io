@@ -12,7 +12,7 @@ size = "1071992"
 usize = "5559443"
 sha1sum = "c8c59a0b3afb4860009d292b8d1c17cd873a7869"
 depends = "['libstdc++']"
-reverse_depends = "['./protobuf', 'protobuf', 're2', 'telegram-desktop', 'webrtc-audio-processing']"
+reverse_depends = "['protobuf', 're2', 'telegram-desktop', 'webrtc-audio-processing']"
 +++
 ### Description: 
 Abseil Common Libraries (C++)

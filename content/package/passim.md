@@ -12,7 +12,7 @@ size = "157172"
 usize = "385261"
 sha1sum = "69281e4486b52f7cc9c01f30ea148aafdd19831e"
 depends = "['libsoup3']"
-reverse_depends = "['./fwupd', 'fwupd']"
+reverse_depends = "['fwupd']"
 +++
 ### Description: 
 A local caching server

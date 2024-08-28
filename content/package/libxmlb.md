@@ -12,7 +12,7 @@ size = "211128"
 usize = "1535939"
 sha1sum = "27a6a52a0db7eb82af7987fc0147139af376c0cf"
 depends = "['glib2>=2.60.3']"
-reverse_depends = "['./fwupd', 'appstream', 'fwupd']"
+reverse_depends = "['appstream', 'fwupd']"
 +++
 ### Description: 
 A library to help create and query binary XML blobs

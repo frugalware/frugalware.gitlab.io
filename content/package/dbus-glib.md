@@ -12,7 +12,7 @@ size = "146664"
 usize = "885450"
 sha1sum = "d775a1337d3d2e8075e404292b45c2015a7e73ae"
 depends = "['dbus>=1.12.14-2', 'glib2>=2.60.0', 'libffi>=3.2.1-2']"
-reverse_depends = "['./libgnome-keyring', './thunderbird', './upower', 'anyremote', 'claws-mail', 'dbus-python', 'firefox', 'freetuxtv', 'gconf', 'hexchat', 'libappindicator', 'libgnome-keyring', 'libpurple', 'networkmanager', 'notification-daemon', 'oxygen-gtk', 'sylpheed', 'telepathy-glib', 'telepathy-idle', 'telepathy-logger', 'telepathy-qt5', 'thunderbird', 'upower', 'usbguard']"
+reverse_depends = "['anyremote', 'claws-mail', 'dbus-python', 'firefox', 'freetuxtv', 'gconf', 'hexchat', 'libappindicator', 'libgnome-keyring', 'libpurple', 'networkmanager', 'notification-daemon', 'oxygen-gtk', 'sylpheed', 'telepathy-glib', 'telepathy-idle', 'telepathy-logger', 'telepathy-qt5', 'thunderbird', 'upower', 'usbguard']"
 +++
 ### Description: 
 Glib bindings for DBUS

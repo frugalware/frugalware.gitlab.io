@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "./k3b 24.08.0-1"
+title = "k3b 24.08.0-1"
 version = "24.08.0-1"
 description = "The CD Kreator"
 date = "2024-08-23T09:36:31"
-aliases = "/packages/222279"
+aliases = "/packages/218657"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
@@ -17,655 +17,655 @@ depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'kfile
 The CD Kreator
 
 ### Files: 
-* k3b /usr/bin/k3b
-* k3b /usr/include/k3bactivepipe.h
-* k3b /usr/include/k3baudiocdtrackdrag.h
-* k3b /usr/include/k3baudiocdtrackreader.h
-* k3b /usr/include/k3baudiocdtracksource.h
-* k3b /usr/include/k3baudiocuefilewritingjob.h
-* k3b /usr/include/k3baudiodatasource.h
-* k3b /usr/include/k3baudiodatasourceiterator.h
-* k3b /usr/include/k3baudiodecoder.h
-* k3b /usr/include/k3baudiodoc.h
-* k3b /usr/include/k3baudiodocreader.h
-* k3b /usr/include/k3baudioencoder.h
-* k3b /usr/include/k3baudiofile.h
-* k3b /usr/include/k3baudiofileanalyzerjob.h
-* k3b /usr/include/k3baudiofilereader.h
-* k3b /usr/include/k3baudiojob.h
-* k3b /usr/include/k3baudiotrack.h
-* k3b /usr/include/k3baudiotrackreader.h
-* k3b /usr/include/k3baudiozerodata.h
-* k3b /usr/include/k3baudiozerodatareader.h
-* k3b /usr/include/k3bbinimagewritingjob.h
-* k3b /usr/include/k3bblankingjob.h
-* k3b /usr/include/k3bbootitem.h
-* k3b /usr/include/k3bbusywidget.h
-* k3b /usr/include/k3bcdcopyjob.h
-* k3b /usr/include/k3bcddb.h
-* k3b /usr/include/k3bcdparanoialib.h
-* k3b /usr/include/k3bcdrdaowriter.h
-* k3b /usr/include/k3bcdrecordwriter.h
-* k3b /usr/include/k3bcdrskinwriter.h
-* k3b /usr/include/k3bcdtext.h
-* k3b /usr/include/k3bcdtextvalidator.h
-* k3b /usr/include/k3bchecksumpipe.h
-* k3b /usr/include/k3bclonejob.h
-* k3b /usr/include/k3bcore.h
-* k3b /usr/include/k3bcuefileparser.h
-* k3b /usr/include/k3bdatadoc.h
-* k3b /usr/include/k3bdataitem.h
-* k3b /usr/include/k3bdatajob.h
-* k3b /usr/include/k3bdefaultexternalprograms.h
-* k3b /usr/include/k3bdevice.h
-* k3b /usr/include/k3bdevicecombobox.h
-* k3b /usr/include/k3bdeviceglobals.h
-* k3b /usr/include/k3bdevicehandler.h
-* k3b /usr/include/k3bdevicemanager.h
-* k3b /usr/include/k3bdeviceselectiondialog.h
-* k3b /usr/include/k3bdevicetypes.h
-* k3b /usr/include/k3bdevice_export.h
-* k3b /usr/include/k3bdiritem.h
-* k3b /usr/include/k3bdirsizejob.h
-* k3b /usr/include/k3bdiskinfo.h
-* k3b /usr/include/k3bdoc.h
-* k3b /usr/include/k3bdvdcopyjob.h
-* k3b /usr/include/k3bdvdformattingjob.h
-* k3b /usr/include/k3bexceptions.h
-* k3b /usr/include/k3bexternalbinmanager.h
-* k3b /usr/include/k3bfileitem.h
-* k3b /usr/include/k3bfilesplitter.h
-* k3b /usr/include/k3bfilesysteminfo.h
-* k3b /usr/include/k3bglobals.h
-* k3b /usr/include/k3bglobalsettings.h
-* k3b /usr/include/k3bgrowisofswriter.h
-* k3b /usr/include/k3bimagefilereader.h
-* k3b /usr/include/k3binffilewriter.h
-* k3b /usr/include/k3bintmapcombobox.h
-* k3b /usr/include/k3bintvalidator.h
-* k3b /usr/include/k3biso9660.h
-* k3b /usr/include/k3biso9660backend.h
-* k3b /usr/include/k3biso9660imagewritingjob.h
-* k3b /usr/include/k3bisooptions.h
-* k3b /usr/include/k3bjob.h
-* k3b /usr/include/k3bjobhandler.h
-* k3b /usr/include/k3bmd5job.h
-* k3b /usr/include/k3bmediacache.h
-* k3b /usr/include/k3bmedium.h
-* k3b /usr/include/k3bmetawriter.h
-* k3b /usr/include/k3bmixeddoc.h
-* k3b /usr/include/k3bmixedjob.h
-* k3b /usr/include/k3bmovixdoc.h
-* k3b /usr/include/k3bmovixfileitem.h
-* k3b /usr/include/k3bmovixjob.h
-* k3b /usr/include/k3bmsf.h
-* k3b /usr/include/k3bmsfedit.h
-* k3b /usr/include/k3bmultichoicedialog.h
-* k3b /usr/include/k3bplugin.h
-* k3b /usr/include/k3bpluginconfigwidget.h
-* k3b /usr/include/k3bpluginmanager.h
-* k3b /usr/include/k3bprocess.h
-* k3b /usr/include/k3bprojectplugin.h
-* k3b /usr/include/k3brawaudiodatareader.h
-* k3b /usr/include/k3brawaudiodatasource.h
-* k3b /usr/include/k3bsignalwaiter.h
-* k3b /usr/include/k3bsimplejobhandler.h
-* k3b /usr/include/k3bstdguiitems.h
-* k3b /usr/include/k3bthreadjob.h
-* k3b /usr/include/k3bthreadwidget.h
-* k3b /usr/include/k3bthroughputestimator.h
-* k3b /usr/include/k3btoc.h
-* k3b /usr/include/k3btocfilewriter.h
-* k3b /usr/include/k3btrack.h
-* k3b /usr/include/k3bvalidators.h
-* k3b /usr/include/k3bvcddoc.h
-* k3b /usr/include/k3bvcdjob.h
-* k3b /usr/include/k3bvcdoptions.h
-* k3b /usr/include/k3bverificationjob.h
-* k3b /usr/include/k3bversion.h
-* k3b /usr/include/k3bvideodvd.h
-* k3b /usr/include/k3bvideodvdaudiostream.h
-* k3b /usr/include/k3bvideodvddoc.h
-* k3b /usr/include/k3bvideodvdjob.h
-* k3b /usr/include/k3bvideodvdptt.h
-* k3b /usr/include/k3bvideodvdsubpicturestream.h
-* k3b /usr/include/k3bvideodvdtime.h
-* k3b /usr/include/k3bvideodvdtitle.h
-* k3b /usr/include/k3bvideodvdtitledetectclippingjob.h
-* k3b /usr/include/k3bvideodvdtitletranscodingjob.h
-* k3b /usr/include/k3bvideodvdvideostream.h
-* k3b /usr/include/k3bwavefilewriter.h
-* k3b /usr/include/k3b_export.h
-* k3b /usr/lib/kauth/kf6/kauth/k3bhelper
-* k3b /usr/lib/libk3bdevice.so
-* k3b /usr/lib/libk3bdevice.so.8
-* k3b /usr/lib/libk3bdevice.so.8.0.0
-* k3b /usr/lib/libk3blib.so
-* k3b /usr/lib/libk3blib.so.8
-* k3b /usr/lib/libk3blib.so.8.0.0
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3baudiometainforenamerplugin.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3baudioprojectcddbplugin.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bexternalencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bffmpegdecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bflacdecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3blameencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3blibsndfiledecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bmaddecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bmpcdecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3boggvorbisdecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3boggvorbisencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bsoxencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/k3bwavedecoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3bexternalencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3blameencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3boggvorbisencoder.so
-* k3b /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3bsoxencoder.so
-* k3b /usr/lib/qt6/plugins/kf6/kio/videodvd.so
-* k3b /usr/share/applications/org.kde.k3b.desktop
-* k3b /usr/share/dbus-1/system-services/org.kde.k3b.service
-* k3b /usr/share/dbus-1/system.d/org.kde.k3b.conf
-* k3b /usr/share/doc/HTML/ca/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/ca/k3b/index.docbook
-* k3b /usr/share/doc/HTML/ca/k3b/K3bAdvancedSettings.png
-* k3b /usr/share/doc/HTML/ca/k3b/K3bDiskChoice.png
-* k3b /usr/share/doc/HTML/ca/k3b/K3bsetup.png
-* k3b /usr/share/doc/HTML/ca/k3b/K3bSetVerify.png
-* k3b /usr/share/doc/HTML/de/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/de/k3b/index.docbook
-* k3b /usr/share/doc/HTML/en/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/en/k3b/index.docbook
-* k3b /usr/share/doc/HTML/en/k3b/K3bAddButton.png
-* k3b /usr/share/doc/HTML/en/k3b/K3bAdvancedSettings.png
-* k3b /usr/share/doc/HTML/en/k3b/K3bDiskChoice.png
-* k3b /usr/share/doc/HTML/en/k3b/K3bMoreActions.png
-* k3b /usr/share/doc/HTML/en/k3b/K3bsetup.png
-* k3b /usr/share/doc/HTML/en/k3b/K3bSetVerify.png
-* k3b /usr/share/doc/HTML/es/k3b/burndialog_audio.png
-* k3b /usr/share/doc/HTML/es/k3b/burndialog_progress.png
-* k3b /usr/share/doc/HTML/es/k3b/cdcloning_dialog.png
-* k3b /usr/share/doc/HTML/es/k3b/cdcloning_reading.png
-* k3b /usr/share/doc/HTML/es/k3b/cdcopy_done.png
-* k3b /usr/share/doc/HTML/es/k3b/cdcopy_reading.png
-* k3b /usr/share/doc/HTML/es/k3b/cdcopy_settings.png
-* k3b /usr/share/doc/HTML/es/k3b/cdcopy_writing.png
-* k3b /usr/share/doc/HTML/es/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/es/k3b/index.docbook
-* k3b /usr/share/doc/HTML/es/k3b/select_audiofiles.png
-* k3b /usr/share/doc/HTML/es/k3b/select_project.png
-* k3b /usr/share/doc/HTML/fr/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/fr/k3b/index.docbook
-* k3b /usr/share/doc/HTML/fr/k3b/K3bAddButton.png
-* k3b /usr/share/doc/HTML/fr/k3b/K3bAdvancedSettings.png
-* k3b /usr/share/doc/HTML/fr/k3b/K3bDiskChoice.png
-* k3b /usr/share/doc/HTML/fr/k3b/K3bMoreActions.png
-* k3b /usr/share/doc/HTML/fr/k3b/K3bsetup.png
-* k3b /usr/share/doc/HTML/it/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/it/k3b/index.docbook
-* k3b /usr/share/doc/HTML/it/k3b/K3bAddButton.png
-* k3b /usr/share/doc/HTML/it/k3b/K3bAdvancedSettings.png
-* k3b /usr/share/doc/HTML/it/k3b/K3bDiskChoice.png
-* k3b /usr/share/doc/HTML/it/k3b/K3bMoreActions.png
-* k3b /usr/share/doc/HTML/it/k3b/K3bsetup.png
-* k3b /usr/share/doc/HTML/it/k3b/K3bSetVerify.png
-* k3b /usr/share/doc/HTML/nl/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/nl/k3b/index.docbook
-* k3b /usr/share/doc/HTML/pt/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/pt/k3b/index.docbook
-* k3b /usr/share/doc/HTML/pt_BR/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/pt_BR/k3b/index.docbook
-* k3b /usr/share/doc/HTML/ru/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/ru/k3b/index.docbook
-* k3b /usr/share/doc/HTML/sv/k3b/burndialog_audio.png
-* k3b /usr/share/doc/HTML/sv/k3b/burndialog_progress.png
-* k3b /usr/share/doc/HTML/sv/k3b/cdcopy_done.png
-* k3b /usr/share/doc/HTML/sv/k3b/cdcopy_reading.png
-* k3b /usr/share/doc/HTML/sv/k3b/cdcopy_settings.png
-* k3b /usr/share/doc/HTML/sv/k3b/cdcopy_writing.png
-* k3b /usr/share/doc/HTML/sv/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/sv/k3b/index.docbook
-* k3b /usr/share/doc/HTML/sv/k3b/select_audiofiles.png
-* k3b /usr/share/doc/HTML/sv/k3b/select_project.png
-* k3b /usr/share/doc/HTML/uk/k3b/index.cache.bz2
-* k3b /usr/share/doc/HTML/uk/k3b/index.docbook
-* k3b /usr/share/doc/HTML/uk/k3b/K3bAddButton.png
-* k3b /usr/share/doc/HTML/uk/k3b/K3bAdvancedSettings.png
-* k3b /usr/share/doc/HTML/uk/k3b/K3bDiskChoice.png
-* k3b /usr/share/doc/HTML/uk/k3b/K3bMoreActions.png
-* k3b /usr/share/doc/HTML/uk/k3b/K3bsetup.png
-* k3b /usr/share/doc/HTML/uk/k3b/K3bSetVerify.png
-* k3b /usr/share/doc/k3b-24.08.0/ChangeLog
-* k3b /usr/share/doc/k3b-24.08.0/FAQ.txt
-* k3b /usr/share/doc/k3b-24.08.0/INSTALL.txt
-* k3b /usr/share/doc/k3b-24.08.0/README.txt
-* k3b /usr/share/icons/hicolor/128x128/apps/k3b.png
-* k3b /usr/share/icons/hicolor/128x128/mimetypes/application-x-k3b.png
-* k3b /usr/share/icons/hicolor/16x16/apps/k3b.png
-* k3b /usr/share/icons/hicolor/22x22/apps/k3b.png
-* k3b /usr/share/icons/hicolor/32x32/apps/k3b.png
-* k3b /usr/share/icons/hicolor/32x32/mimetypes/application-x-k3b.png
-* k3b /usr/share/icons/hicolor/48x48/apps/k3b.png
-* k3b /usr/share/icons/hicolor/48x48/mimetypes/application-x-k3b.png
-* k3b /usr/share/icons/hicolor/64x64/apps/k3b.png
-* k3b /usr/share/icons/hicolor/64x64/mimetypes/application-x-k3b.png
-* k3b /usr/share/icons/hicolor/scalable/apps/k3b.svgz
-* k3b /usr/share/icons/hicolor/scalable/mimetypes/application-x-k3b.svgz
-* k3b /usr/share/k3b/cdi/cdi_imag.rtf
-* k3b /usr/share/k3b/cdi/cdi_text.fnt
-* k3b /usr/share/k3b/cdi/cdi_vcd.app
-* k3b /usr/share/k3b/cdi/cdi_vcd.cfg
-* k3b /usr/share/k3b/cdi/icdia.htm
-* k3b /usr/share/k3b/cdi/vcd_on_cdi_41.pdf
-* k3b /usr/share/k3b/extra/k3bphotosvcd.mpg
-* k3b /usr/share/k3b/extra/k3bphotovcd.mpg
-* k3b /usr/share/k3b/icons/hicolor/128x128/actions/tools-rip-audio-cd.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/actions/tools-rip-video-cd.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/actions/tools-rip-video-dvd.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-audio.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-cd-video.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-dvd-video.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-mixed-cd.png
-* k3b /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-video.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/actions/musicbrainz.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/actions/tools-rip-audio-cd.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/actions/tools-rip-video-cd.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/actions/tools-rip-video-dvd.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-audio.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-cd-video.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-data.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-mixed-cd.png
-* k3b /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-video.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/actions/tools-rip-audio-cd.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/actions/tools-rip-video-cd.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/actions/tools-rip-video-dvd.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-audio.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-cd-video.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-data.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-mixed-cd.png
-* k3b /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-video.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/actions/tools-rip-audio-cd.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/actions/tools-rip-video-cd.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/actions/tools-rip-video-dvd.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-audio.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-cd-video.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-data.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-dvd-video.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-mixed-cd.png
-* k3b /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-video.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/actions/tools-rip-audio-cd.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/actions/tools-rip-video-cd.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/actions/tools-rip-video-dvd.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-audio.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-cd-video.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-data.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-dvd-video.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-mixed-cd.png
-* k3b /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-video.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/actions/musicbrainz.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/actions/tools-rip-audio-cd.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/actions/tools-rip-video-cd.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/actions/tools-rip-video-dvd.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-audio.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-cd-video.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-dvd-video.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-mixed-cd.png
-* k3b /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-video.png
-* k3b /usr/share/k3b/icons/hicolor/scalable/actions/tools-rip-audio-cd.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/actions/tools-rip-video-cd.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/actions/tools-rip-video-dvd.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-audio.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-cd-video.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-data.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-dvd-video.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-mixed-cd.svgz
-* k3b /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-video.svgz
-* k3b /usr/share/k3b/pics/73lab/dialog_left.png
-* k3b /usr/share/k3b/pics/73lab/dialog_right.png
-* k3b /usr/share/k3b/pics/73lab/k3b.theme
-* k3b /usr/share/k3b/pics/73lab/media_audio.png
-* k3b /usr/share/k3b/pics/73lab/media_data.png
-* k3b /usr/share/k3b/pics/73lab/media_empty.png
-* k3b /usr/share/k3b/pics/73lab/media_left.png
-* k3b /usr/share/k3b/pics/73lab/media_mixed.png
-* k3b /usr/share/k3b/pics/73lab/media_none.png
-* k3b /usr/share/k3b/pics/73lab/media_video.png
-* k3b /usr/share/k3b/pics/73lab/probing.png
-* k3b /usr/share/k3b/pics/73lab/progress_fail.png
-* k3b /usr/share/k3b/pics/73lab/progress_right.png
-* k3b /usr/share/k3b/pics/73lab/progress_success.png
-* k3b /usr/share/k3b/pics/73lab/progress_working.png
-* k3b /usr/share/k3b/pics/73lab/project_left.png
-* k3b /usr/share/k3b/pics/73lab/project_right.png
-* k3b /usr/share/k3b/pics/73lab/splash.png
-* k3b /usr/share/k3b/pics/73lab/welcome_bg.png
-* k3b /usr/share/k3b/pics/crystal/dialog_left.png
-* k3b /usr/share/k3b/pics/crystal/dialog_right.png
-* k3b /usr/share/k3b/pics/crystal/k3b.theme
-* k3b /usr/share/k3b/pics/crystal/media_audio.png
-* k3b /usr/share/k3b/pics/crystal/media_data.png
-* k3b /usr/share/k3b/pics/crystal/media_empty.png
-* k3b /usr/share/k3b/pics/crystal/media_left.png
-* k3b /usr/share/k3b/pics/crystal/media_mixed.png
-* k3b /usr/share/k3b/pics/crystal/media_none.png
-* k3b /usr/share/k3b/pics/crystal/media_video.png
-* k3b /usr/share/k3b/pics/crystal/probing.png
-* k3b /usr/share/k3b/pics/crystal/progress_fail.png
-* k3b /usr/share/k3b/pics/crystal/progress_right.png
-* k3b /usr/share/k3b/pics/crystal/progress_success.png
-* k3b /usr/share/k3b/pics/crystal/progress_working.png
-* k3b /usr/share/k3b/pics/crystal/project_left.png
-* k3b /usr/share/k3b/pics/crystal/project_right.png
-* k3b /usr/share/k3b/pics/crystal/splash.png
-* k3b /usr/share/k3b/pics/crystal/welcome_bg.png
-* k3b /usr/share/k3b/pics/quant/dialog_left.png
-* k3b /usr/share/k3b/pics/quant/dialog_right.png
-* k3b /usr/share/k3b/pics/quant/k3b.theme
-* k3b /usr/share/k3b/pics/quant/media_audio.png
-* k3b /usr/share/k3b/pics/quant/media_data.png
-* k3b /usr/share/k3b/pics/quant/media_empty.png
-* k3b /usr/share/k3b/pics/quant/media_left.png
-* k3b /usr/share/k3b/pics/quant/media_mixed.png
-* k3b /usr/share/k3b/pics/quant/media_none.png
-* k3b /usr/share/k3b/pics/quant/media_video.png
-* k3b /usr/share/k3b/pics/quant/progress_fail.png
-* k3b /usr/share/k3b/pics/quant/progress_right.png
-* k3b /usr/share/k3b/pics/quant/progress_success.png
-* k3b /usr/share/k3b/pics/quant/progress_working.png
-* k3b /usr/share/k3b/pics/quant/project_left.png
-* k3b /usr/share/k3b/pics/quant/project_right.png
-* k3b /usr/share/k3b/pics/quant/splash.png
-* k3b /usr/share/k3b/pics/quant/welcome_bg.png
-* k3b /usr/share/k3b/pics/RobsTheme/dialog_left.png
-* k3b /usr/share/k3b/pics/RobsTheme/dialog_right.png
-* k3b /usr/share/k3b/pics/RobsTheme/k3b.theme
-* k3b /usr/share/k3b/pics/RobsTheme/media_audio.png
-* k3b /usr/share/k3b/pics/RobsTheme/media_data.png
-* k3b /usr/share/k3b/pics/RobsTheme/media_empty.png
-* k3b /usr/share/k3b/pics/RobsTheme/media_left.png
-* k3b /usr/share/k3b/pics/RobsTheme/media_mixed.png
-* k3b /usr/share/k3b/pics/RobsTheme/media_none.png
-* k3b /usr/share/k3b/pics/RobsTheme/media_video.png
-* k3b /usr/share/k3b/pics/RobsTheme/progress_fail.png
-* k3b /usr/share/k3b/pics/RobsTheme/progress_right.png
-* k3b /usr/share/k3b/pics/RobsTheme/progress_success.png
-* k3b /usr/share/k3b/pics/RobsTheme/progress_working.png
-* k3b /usr/share/k3b/pics/RobsTheme/project_left.png
-* k3b /usr/share/k3b/pics/RobsTheme/project_right.png
-* k3b /usr/share/k3b/pics/RobsTheme/splash.png
-* k3b /usr/share/k3b/pics/RobsTheme/welcome_bg.png
-* k3b /usr/share/kio/servicemenus/k3b_create_audio_cd.desktop
-* k3b /usr/share/kio/servicemenus/k3b_create_data_project.desktop
-* k3b /usr/share/kio/servicemenus/k3b_create_video_cd.desktop
-* k3b /usr/share/kio/servicemenus/k3b_write_bin_image.desktop
-* k3b /usr/share/kio/servicemenus/k3b_write_iso_image.desktop
-* k3b /usr/share/knotifications6/k3b.notifyrc
-* k3b /usr/share/knsrcfiles/k3btheme.knsrc
-* k3b /usr/share/konqsidebartng/virtual_folders/services/videodvd.desktop
-* k3b /usr/share/locale/ar/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ar/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ar/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/be/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/be/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/be/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/be/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/bg/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/bg/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/bg/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/bg/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/bs/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/bs/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/bs/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/bs/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ca/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ca/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ca/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ca/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ca@valencia/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ca@valencia/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ca@valencia/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ca@valencia/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/cs/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/cs/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/cs/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/cs/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/csb/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/da/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/da/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/da/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/da/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/de/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/de/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/de/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/de/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/el/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/el/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/el/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/el/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/en_GB/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/en_GB/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/en_GB/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/en_GB/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/eo/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/eo/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/eo/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/eo/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/es/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/es/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/es/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/es/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/et/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/et/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/et/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/et/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/eu/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/eu/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/eu/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/eu/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/fa/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/fi/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/fi/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/fi/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/fi/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/fr/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/fr/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/fr/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/fr/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ga/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ga/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ga/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ga/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/gl/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/gl/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/gl/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/gl/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/he/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/he/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/he/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/he/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/hi/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/hi/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/hi/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/hi/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/hne/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/hne/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/hne/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/hne/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/hr/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/hr/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/hr/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/hr/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/hu/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/hu/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/hu/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/hu/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ia/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ia/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ia/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ia/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/id/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/id/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/id/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/id/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/is/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/is/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/is/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/is/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/it/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/it/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/it/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/it/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ja/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ja/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ja/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ja/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ka/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ka/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ka/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ka/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/kk/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/kk/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/kk/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/kk/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/km/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/km/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/km/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/km/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ko/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ko/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ko/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ko/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ku/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ku/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/lt/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/lt/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/lt/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/lt/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/lv/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/lv/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/lv/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/lv/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/mai/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/mai/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/mai/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/mai/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ml/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/mr/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/mr/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/mr/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/mr/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ms/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ms/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ms/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ms/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/nb/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/nb/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/nb/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/nb/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/nds/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/nds/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/nds/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/nds/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/nl/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/nl/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/nl/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/nl/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/nn/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/nn/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/nn/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/nn/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/oc/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/oc/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/oc/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/oc/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/pa/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/pa/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/pa/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/pa/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/pl/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/pl/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/pl/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/pl/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/pt/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/pt/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/pt/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/pt/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/pt_BR/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/pt_BR/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/pt_BR/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/pt_BR/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ro/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ro/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ro/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ro/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ru/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ru/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ru/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ru/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/se/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/se/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/se/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sk/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sk/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sk/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sk/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sl/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sl/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sl/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sl/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sq/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sq/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sq/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sq/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sr/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sr/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sr/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sr/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sr@ijekavian/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sr@ijekavian/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sr@ijekavian/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sr@latin/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sr@latin/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sr@latin/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sr@latin/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/sv/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/sv/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/sv/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/sv/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/th/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/th/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/th/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/th/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/tr/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/tr/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/tr/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/tr/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/ug/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/ug/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/ug/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/ug/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/uk/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/uk/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/uk/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/uk/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/wa/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/zh_CN/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/zh_CN/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/zh_CN/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/zh_CN/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/locale/zh_TW/LC_MESSAGES/k3b.mo
-* k3b /usr/share/locale/zh_TW/LC_MESSAGES/kio_videodvd.mo
-* k3b /usr/share/locale/zh_TW/LC_MESSAGES/libk3b.mo
-* k3b /usr/share/locale/zh_TW/LC_MESSAGES/libk3bdevice.mo
-* k3b /usr/share/metainfo/org.kde.k3b.appdata.xml
-* k3b /usr/share/mime/packages/x-k3b.xml
-* k3b /usr/share/polkit-1/actions/org.kde.k3b.policy
-* k3b /usr/share/qlogging-categories6/k3b.categories
-* k3b /usr/share/solid/actions/k3b_audiocd_rip.desktop
-* k3b /usr/share/solid/actions/k3b_copy_disc.desktop
-* k3b /usr/share/solid/actions/k3b_create_audio_cd_from_blank_medium.desktop
-* k3b /usr/share/solid/actions/k3b_create_data_project_from_blank_medium.desktop
-* k3b /usr/share/solid/actions/k3b_videodvd_rip.desktop
+* /usr/bin/k3b
+* /usr/include/k3bactivepipe.h
+* /usr/include/k3baudiocdtrackdrag.h
+* /usr/include/k3baudiocdtrackreader.h
+* /usr/include/k3baudiocdtracksource.h
+* /usr/include/k3baudiocuefilewritingjob.h
+* /usr/include/k3baudiodatasource.h
+* /usr/include/k3baudiodatasourceiterator.h
+* /usr/include/k3baudiodecoder.h
+* /usr/include/k3baudiodoc.h
+* /usr/include/k3baudiodocreader.h
+* /usr/include/k3baudioencoder.h
+* /usr/include/k3baudiofile.h
+* /usr/include/k3baudiofileanalyzerjob.h
+* /usr/include/k3baudiofilereader.h
+* /usr/include/k3baudiojob.h
+* /usr/include/k3baudiotrack.h
+* /usr/include/k3baudiotrackreader.h
+* /usr/include/k3baudiozerodata.h
+* /usr/include/k3baudiozerodatareader.h
+* /usr/include/k3bbinimagewritingjob.h
+* /usr/include/k3bblankingjob.h
+* /usr/include/k3bbootitem.h
+* /usr/include/k3bbusywidget.h
+* /usr/include/k3bcdcopyjob.h
+* /usr/include/k3bcddb.h
+* /usr/include/k3bcdparanoialib.h
+* /usr/include/k3bcdrdaowriter.h
+* /usr/include/k3bcdrecordwriter.h
+* /usr/include/k3bcdrskinwriter.h
+* /usr/include/k3bcdtext.h
+* /usr/include/k3bcdtextvalidator.h
+* /usr/include/k3bchecksumpipe.h
+* /usr/include/k3bclonejob.h
+* /usr/include/k3bcore.h
+* /usr/include/k3bcuefileparser.h
+* /usr/include/k3bdatadoc.h
+* /usr/include/k3bdataitem.h
+* /usr/include/k3bdatajob.h
+* /usr/include/k3bdefaultexternalprograms.h
+* /usr/include/k3bdevice.h
+* /usr/include/k3bdevicecombobox.h
+* /usr/include/k3bdeviceglobals.h
+* /usr/include/k3bdevicehandler.h
+* /usr/include/k3bdevicemanager.h
+* /usr/include/k3bdeviceselectiondialog.h
+* /usr/include/k3bdevicetypes.h
+* /usr/include/k3bdevice_export.h
+* /usr/include/k3bdiritem.h
+* /usr/include/k3bdirsizejob.h
+* /usr/include/k3bdiskinfo.h
+* /usr/include/k3bdoc.h
+* /usr/include/k3bdvdcopyjob.h
+* /usr/include/k3bdvdformattingjob.h
+* /usr/include/k3bexceptions.h
+* /usr/include/k3bexternalbinmanager.h
+* /usr/include/k3bfileitem.h
+* /usr/include/k3bfilesplitter.h
+* /usr/include/k3bfilesysteminfo.h
+* /usr/include/k3bglobals.h
+* /usr/include/k3bglobalsettings.h
+* /usr/include/k3bgrowisofswriter.h
+* /usr/include/k3bimagefilereader.h
+* /usr/include/k3binffilewriter.h
+* /usr/include/k3bintmapcombobox.h
+* /usr/include/k3bintvalidator.h
+* /usr/include/k3biso9660.h
+* /usr/include/k3biso9660backend.h
+* /usr/include/k3biso9660imagewritingjob.h
+* /usr/include/k3bisooptions.h
+* /usr/include/k3bjob.h
+* /usr/include/k3bjobhandler.h
+* /usr/include/k3bmd5job.h
+* /usr/include/k3bmediacache.h
+* /usr/include/k3bmedium.h
+* /usr/include/k3bmetawriter.h
+* /usr/include/k3bmixeddoc.h
+* /usr/include/k3bmixedjob.h
+* /usr/include/k3bmovixdoc.h
+* /usr/include/k3bmovixfileitem.h
+* /usr/include/k3bmovixjob.h
+* /usr/include/k3bmsf.h
+* /usr/include/k3bmsfedit.h
+* /usr/include/k3bmultichoicedialog.h
+* /usr/include/k3bplugin.h
+* /usr/include/k3bpluginconfigwidget.h
+* /usr/include/k3bpluginmanager.h
+* /usr/include/k3bprocess.h
+* /usr/include/k3bprojectplugin.h
+* /usr/include/k3brawaudiodatareader.h
+* /usr/include/k3brawaudiodatasource.h
+* /usr/include/k3bsignalwaiter.h
+* /usr/include/k3bsimplejobhandler.h
+* /usr/include/k3bstdguiitems.h
+* /usr/include/k3bthreadjob.h
+* /usr/include/k3bthreadwidget.h
+* /usr/include/k3bthroughputestimator.h
+* /usr/include/k3btoc.h
+* /usr/include/k3btocfilewriter.h
+* /usr/include/k3btrack.h
+* /usr/include/k3bvalidators.h
+* /usr/include/k3bvcddoc.h
+* /usr/include/k3bvcdjob.h
+* /usr/include/k3bvcdoptions.h
+* /usr/include/k3bverificationjob.h
+* /usr/include/k3bversion.h
+* /usr/include/k3bvideodvd.h
+* /usr/include/k3bvideodvdaudiostream.h
+* /usr/include/k3bvideodvddoc.h
+* /usr/include/k3bvideodvdjob.h
+* /usr/include/k3bvideodvdptt.h
+* /usr/include/k3bvideodvdsubpicturestream.h
+* /usr/include/k3bvideodvdtime.h
+* /usr/include/k3bvideodvdtitle.h
+* /usr/include/k3bvideodvdtitledetectclippingjob.h
+* /usr/include/k3bvideodvdtitletranscodingjob.h
+* /usr/include/k3bvideodvdvideostream.h
+* /usr/include/k3bwavefilewriter.h
+* /usr/include/k3b_export.h
+* /usr/lib/kauth/kf6/kauth/k3bhelper
+* /usr/lib/libk3bdevice.so
+* /usr/lib/libk3bdevice.so.8
+* /usr/lib/libk3bdevice.so.8.0.0
+* /usr/lib/libk3blib.so
+* /usr/lib/libk3blib.so.8
+* /usr/lib/libk3blib.so.8.0.0
+* /usr/lib/qt6/plugins/k3b_plugins/k3baudiometainforenamerplugin.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3baudioprojectcddbplugin.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bexternalencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bffmpegdecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bflacdecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3blameencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3blibsndfiledecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bmaddecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bmpcdecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3boggvorbisdecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3boggvorbisencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bsoxencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/k3bwavedecoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3bexternalencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3blameencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3boggvorbisencoder.so
+* /usr/lib/qt6/plugins/k3b_plugins/kcms/kcm_k3bsoxencoder.so
+* /usr/lib/qt6/plugins/kf6/kio/videodvd.so
+* /usr/share/applications/org.kde.k3b.desktop
+* /usr/share/dbus-1/system-services/org.kde.k3b.service
+* /usr/share/dbus-1/system.d/org.kde.k3b.conf
+* /usr/share/doc/HTML/ca/k3b/index.cache.bz2
+* /usr/share/doc/HTML/ca/k3b/index.docbook
+* /usr/share/doc/HTML/ca/k3b/K3bAdvancedSettings.png
+* /usr/share/doc/HTML/ca/k3b/K3bDiskChoice.png
+* /usr/share/doc/HTML/ca/k3b/K3bsetup.png
+* /usr/share/doc/HTML/ca/k3b/K3bSetVerify.png
+* /usr/share/doc/HTML/de/k3b/index.cache.bz2
+* /usr/share/doc/HTML/de/k3b/index.docbook
+* /usr/share/doc/HTML/en/k3b/index.cache.bz2
+* /usr/share/doc/HTML/en/k3b/index.docbook
+* /usr/share/doc/HTML/en/k3b/K3bAddButton.png
+* /usr/share/doc/HTML/en/k3b/K3bAdvancedSettings.png
+* /usr/share/doc/HTML/en/k3b/K3bDiskChoice.png
+* /usr/share/doc/HTML/en/k3b/K3bMoreActions.png
+* /usr/share/doc/HTML/en/k3b/K3bsetup.png
+* /usr/share/doc/HTML/en/k3b/K3bSetVerify.png
+* /usr/share/doc/HTML/es/k3b/burndialog_audio.png
+* /usr/share/doc/HTML/es/k3b/burndialog_progress.png
+* /usr/share/doc/HTML/es/k3b/cdcloning_dialog.png
+* /usr/share/doc/HTML/es/k3b/cdcloning_reading.png
+* /usr/share/doc/HTML/es/k3b/cdcopy_done.png
+* /usr/share/doc/HTML/es/k3b/cdcopy_reading.png
+* /usr/share/doc/HTML/es/k3b/cdcopy_settings.png
+* /usr/share/doc/HTML/es/k3b/cdcopy_writing.png
+* /usr/share/doc/HTML/es/k3b/index.cache.bz2
+* /usr/share/doc/HTML/es/k3b/index.docbook
+* /usr/share/doc/HTML/es/k3b/select_audiofiles.png
+* /usr/share/doc/HTML/es/k3b/select_project.png
+* /usr/share/doc/HTML/fr/k3b/index.cache.bz2
+* /usr/share/doc/HTML/fr/k3b/index.docbook
+* /usr/share/doc/HTML/fr/k3b/K3bAddButton.png
+* /usr/share/doc/HTML/fr/k3b/K3bAdvancedSettings.png
+* /usr/share/doc/HTML/fr/k3b/K3bDiskChoice.png
+* /usr/share/doc/HTML/fr/k3b/K3bMoreActions.png
+* /usr/share/doc/HTML/fr/k3b/K3bsetup.png
+* /usr/share/doc/HTML/it/k3b/index.cache.bz2
+* /usr/share/doc/HTML/it/k3b/index.docbook
+* /usr/share/doc/HTML/it/k3b/K3bAddButton.png
+* /usr/share/doc/HTML/it/k3b/K3bAdvancedSettings.png
+* /usr/share/doc/HTML/it/k3b/K3bDiskChoice.png
+* /usr/share/doc/HTML/it/k3b/K3bMoreActions.png
+* /usr/share/doc/HTML/it/k3b/K3bsetup.png
+* /usr/share/doc/HTML/it/k3b/K3bSetVerify.png
+* /usr/share/doc/HTML/nl/k3b/index.cache.bz2
+* /usr/share/doc/HTML/nl/k3b/index.docbook
+* /usr/share/doc/HTML/pt/k3b/index.cache.bz2
+* /usr/share/doc/HTML/pt/k3b/index.docbook
+* /usr/share/doc/HTML/pt_BR/k3b/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/k3b/index.docbook
+* /usr/share/doc/HTML/ru/k3b/index.cache.bz2
+* /usr/share/doc/HTML/ru/k3b/index.docbook
+* /usr/share/doc/HTML/sv/k3b/burndialog_audio.png
+* /usr/share/doc/HTML/sv/k3b/burndialog_progress.png
+* /usr/share/doc/HTML/sv/k3b/cdcopy_done.png
+* /usr/share/doc/HTML/sv/k3b/cdcopy_reading.png
+* /usr/share/doc/HTML/sv/k3b/cdcopy_settings.png
+* /usr/share/doc/HTML/sv/k3b/cdcopy_writing.png
+* /usr/share/doc/HTML/sv/k3b/index.cache.bz2
+* /usr/share/doc/HTML/sv/k3b/index.docbook
+* /usr/share/doc/HTML/sv/k3b/select_audiofiles.png
+* /usr/share/doc/HTML/sv/k3b/select_project.png
+* /usr/share/doc/HTML/uk/k3b/index.cache.bz2
+* /usr/share/doc/HTML/uk/k3b/index.docbook
+* /usr/share/doc/HTML/uk/k3b/K3bAddButton.png
+* /usr/share/doc/HTML/uk/k3b/K3bAdvancedSettings.png
+* /usr/share/doc/HTML/uk/k3b/K3bDiskChoice.png
+* /usr/share/doc/HTML/uk/k3b/K3bMoreActions.png
+* /usr/share/doc/HTML/uk/k3b/K3bsetup.png
+* /usr/share/doc/HTML/uk/k3b/K3bSetVerify.png
+* /usr/share/doc/k3b-24.08.0/ChangeLog
+* /usr/share/doc/k3b-24.08.0/FAQ.txt
+* /usr/share/doc/k3b-24.08.0/INSTALL.txt
+* /usr/share/doc/k3b-24.08.0/README.txt
+* /usr/share/icons/hicolor/128x128/apps/k3b.png
+* /usr/share/icons/hicolor/128x128/mimetypes/application-x-k3b.png
+* /usr/share/icons/hicolor/16x16/apps/k3b.png
+* /usr/share/icons/hicolor/22x22/apps/k3b.png
+* /usr/share/icons/hicolor/32x32/apps/k3b.png
+* /usr/share/icons/hicolor/32x32/mimetypes/application-x-k3b.png
+* /usr/share/icons/hicolor/48x48/apps/k3b.png
+* /usr/share/icons/hicolor/48x48/mimetypes/application-x-k3b.png
+* /usr/share/icons/hicolor/64x64/apps/k3b.png
+* /usr/share/icons/hicolor/64x64/mimetypes/application-x-k3b.png
+* /usr/share/icons/hicolor/scalable/apps/k3b.svgz
+* /usr/share/icons/hicolor/scalable/mimetypes/application-x-k3b.svgz
+* /usr/share/k3b/cdi/cdi_imag.rtf
+* /usr/share/k3b/cdi/cdi_text.fnt
+* /usr/share/k3b/cdi/cdi_vcd.app
+* /usr/share/k3b/cdi/cdi_vcd.cfg
+* /usr/share/k3b/cdi/icdia.htm
+* /usr/share/k3b/cdi/vcd_on_cdi_41.pdf
+* /usr/share/k3b/extra/k3bphotosvcd.mpg
+* /usr/share/k3b/extra/k3bphotovcd.mpg
+* /usr/share/k3b/icons/hicolor/128x128/actions/tools-rip-audio-cd.png
+* /usr/share/k3b/icons/hicolor/128x128/actions/tools-rip-video-cd.png
+* /usr/share/k3b/icons/hicolor/128x128/actions/tools-rip-video-dvd.png
+* /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-audio.png
+* /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-cd-video.png
+* /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-dvd-video.png
+* /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-mixed-cd.png
+* /usr/share/k3b/icons/hicolor/128x128/devices/media-optical-video.png
+* /usr/share/k3b/icons/hicolor/16x16/actions/musicbrainz.png
+* /usr/share/k3b/icons/hicolor/16x16/actions/tools-rip-audio-cd.png
+* /usr/share/k3b/icons/hicolor/16x16/actions/tools-rip-video-cd.png
+* /usr/share/k3b/icons/hicolor/16x16/actions/tools-rip-video-dvd.png
+* /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-audio.png
+* /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-cd-video.png
+* /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-data.png
+* /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-mixed-cd.png
+* /usr/share/k3b/icons/hicolor/16x16/devices/media-optical-video.png
+* /usr/share/k3b/icons/hicolor/22x22/actions/tools-rip-audio-cd.png
+* /usr/share/k3b/icons/hicolor/22x22/actions/tools-rip-video-cd.png
+* /usr/share/k3b/icons/hicolor/22x22/actions/tools-rip-video-dvd.png
+* /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-audio.png
+* /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-cd-video.png
+* /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-data.png
+* /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-mixed-cd.png
+* /usr/share/k3b/icons/hicolor/22x22/devices/media-optical-video.png
+* /usr/share/k3b/icons/hicolor/32x32/actions/tools-rip-audio-cd.png
+* /usr/share/k3b/icons/hicolor/32x32/actions/tools-rip-video-cd.png
+* /usr/share/k3b/icons/hicolor/32x32/actions/tools-rip-video-dvd.png
+* /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-audio.png
+* /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-cd-video.png
+* /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-data.png
+* /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-dvd-video.png
+* /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-mixed-cd.png
+* /usr/share/k3b/icons/hicolor/32x32/devices/media-optical-video.png
+* /usr/share/k3b/icons/hicolor/48x48/actions/tools-rip-audio-cd.png
+* /usr/share/k3b/icons/hicolor/48x48/actions/tools-rip-video-cd.png
+* /usr/share/k3b/icons/hicolor/48x48/actions/tools-rip-video-dvd.png
+* /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-audio.png
+* /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-cd-video.png
+* /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-data.png
+* /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-dvd-video.png
+* /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-mixed-cd.png
+* /usr/share/k3b/icons/hicolor/48x48/devices/media-optical-video.png
+* /usr/share/k3b/icons/hicolor/64x64/actions/musicbrainz.png
+* /usr/share/k3b/icons/hicolor/64x64/actions/tools-rip-audio-cd.png
+* /usr/share/k3b/icons/hicolor/64x64/actions/tools-rip-video-cd.png
+* /usr/share/k3b/icons/hicolor/64x64/actions/tools-rip-video-dvd.png
+* /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-audio.png
+* /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-cd-video.png
+* /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-dvd-video.png
+* /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-mixed-cd.png
+* /usr/share/k3b/icons/hicolor/64x64/devices/media-optical-video.png
+* /usr/share/k3b/icons/hicolor/scalable/actions/tools-rip-audio-cd.svgz
+* /usr/share/k3b/icons/hicolor/scalable/actions/tools-rip-video-cd.svgz
+* /usr/share/k3b/icons/hicolor/scalable/actions/tools-rip-video-dvd.svgz
+* /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-audio.svgz
+* /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-cd-video.svgz
+* /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-data.svgz
+* /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-dvd-video.svgz
+* /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-mixed-cd.svgz
+* /usr/share/k3b/icons/hicolor/scalable/devices/media-optical-video.svgz
+* /usr/share/k3b/pics/73lab/dialog_left.png
+* /usr/share/k3b/pics/73lab/dialog_right.png
+* /usr/share/k3b/pics/73lab/k3b.theme
+* /usr/share/k3b/pics/73lab/media_audio.png
+* /usr/share/k3b/pics/73lab/media_data.png
+* /usr/share/k3b/pics/73lab/media_empty.png
+* /usr/share/k3b/pics/73lab/media_left.png
+* /usr/share/k3b/pics/73lab/media_mixed.png
+* /usr/share/k3b/pics/73lab/media_none.png
+* /usr/share/k3b/pics/73lab/media_video.png
+* /usr/share/k3b/pics/73lab/probing.png
+* /usr/share/k3b/pics/73lab/progress_fail.png
+* /usr/share/k3b/pics/73lab/progress_right.png
+* /usr/share/k3b/pics/73lab/progress_success.png
+* /usr/share/k3b/pics/73lab/progress_working.png
+* /usr/share/k3b/pics/73lab/project_left.png
+* /usr/share/k3b/pics/73lab/project_right.png
+* /usr/share/k3b/pics/73lab/splash.png
+* /usr/share/k3b/pics/73lab/welcome_bg.png
+* /usr/share/k3b/pics/crystal/dialog_left.png
+* /usr/share/k3b/pics/crystal/dialog_right.png
+* /usr/share/k3b/pics/crystal/k3b.theme
+* /usr/share/k3b/pics/crystal/media_audio.png
+* /usr/share/k3b/pics/crystal/media_data.png
+* /usr/share/k3b/pics/crystal/media_empty.png
+* /usr/share/k3b/pics/crystal/media_left.png
+* /usr/share/k3b/pics/crystal/media_mixed.png
+* /usr/share/k3b/pics/crystal/media_none.png
+* /usr/share/k3b/pics/crystal/media_video.png
+* /usr/share/k3b/pics/crystal/probing.png
+* /usr/share/k3b/pics/crystal/progress_fail.png
+* /usr/share/k3b/pics/crystal/progress_right.png
+* /usr/share/k3b/pics/crystal/progress_success.png
+* /usr/share/k3b/pics/crystal/progress_working.png
+* /usr/share/k3b/pics/crystal/project_left.png
+* /usr/share/k3b/pics/crystal/project_right.png
+* /usr/share/k3b/pics/crystal/splash.png
+* /usr/share/k3b/pics/crystal/welcome_bg.png
+* /usr/share/k3b/pics/quant/dialog_left.png
+* /usr/share/k3b/pics/quant/dialog_right.png
+* /usr/share/k3b/pics/quant/k3b.theme
+* /usr/share/k3b/pics/quant/media_audio.png
+* /usr/share/k3b/pics/quant/media_data.png
+* /usr/share/k3b/pics/quant/media_empty.png
+* /usr/share/k3b/pics/quant/media_left.png
+* /usr/share/k3b/pics/quant/media_mixed.png
+* /usr/share/k3b/pics/quant/media_none.png
+* /usr/share/k3b/pics/quant/media_video.png
+* /usr/share/k3b/pics/quant/progress_fail.png
+* /usr/share/k3b/pics/quant/progress_right.png
+* /usr/share/k3b/pics/quant/progress_success.png
+* /usr/share/k3b/pics/quant/progress_working.png
+* /usr/share/k3b/pics/quant/project_left.png
+* /usr/share/k3b/pics/quant/project_right.png
+* /usr/share/k3b/pics/quant/splash.png
+* /usr/share/k3b/pics/quant/welcome_bg.png
+* /usr/share/k3b/pics/RobsTheme/dialog_left.png
+* /usr/share/k3b/pics/RobsTheme/dialog_right.png
+* /usr/share/k3b/pics/RobsTheme/k3b.theme
+* /usr/share/k3b/pics/RobsTheme/media_audio.png
+* /usr/share/k3b/pics/RobsTheme/media_data.png
+* /usr/share/k3b/pics/RobsTheme/media_empty.png
+* /usr/share/k3b/pics/RobsTheme/media_left.png
+* /usr/share/k3b/pics/RobsTheme/media_mixed.png
+* /usr/share/k3b/pics/RobsTheme/media_none.png
+* /usr/share/k3b/pics/RobsTheme/media_video.png
+* /usr/share/k3b/pics/RobsTheme/progress_fail.png
+* /usr/share/k3b/pics/RobsTheme/progress_right.png
+* /usr/share/k3b/pics/RobsTheme/progress_success.png
+* /usr/share/k3b/pics/RobsTheme/progress_working.png
+* /usr/share/k3b/pics/RobsTheme/project_left.png
+* /usr/share/k3b/pics/RobsTheme/project_right.png
+* /usr/share/k3b/pics/RobsTheme/splash.png
+* /usr/share/k3b/pics/RobsTheme/welcome_bg.png
+* /usr/share/kio/servicemenus/k3b_create_audio_cd.desktop
+* /usr/share/kio/servicemenus/k3b_create_data_project.desktop
+* /usr/share/kio/servicemenus/k3b_create_video_cd.desktop
+* /usr/share/kio/servicemenus/k3b_write_bin_image.desktop
+* /usr/share/kio/servicemenus/k3b_write_iso_image.desktop
+* /usr/share/knotifications6/k3b.notifyrc
+* /usr/share/knsrcfiles/k3btheme.knsrc
+* /usr/share/konqsidebartng/virtual_folders/services/videodvd.desktop
+* /usr/share/locale/ar/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ar/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ar/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/be/LC_MESSAGES/k3b.mo
+* /usr/share/locale/be/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/be/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/be/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/bg/LC_MESSAGES/k3b.mo
+* /usr/share/locale/bg/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/bg/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/bg/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/bs/LC_MESSAGES/k3b.mo
+* /usr/share/locale/bs/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/bs/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/bs/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ca/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ca/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ca/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ca/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/cs/LC_MESSAGES/k3b.mo
+* /usr/share/locale/cs/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/cs/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/cs/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/csb/LC_MESSAGES/k3b.mo
+* /usr/share/locale/da/LC_MESSAGES/k3b.mo
+* /usr/share/locale/da/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/da/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/da/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/de/LC_MESSAGES/k3b.mo
+* /usr/share/locale/de/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/de/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/de/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/el/LC_MESSAGES/k3b.mo
+* /usr/share/locale/el/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/el/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/el/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/k3b.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/eo/LC_MESSAGES/k3b.mo
+* /usr/share/locale/eo/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/eo/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/eo/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/es/LC_MESSAGES/k3b.mo
+* /usr/share/locale/es/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/es/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/es/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/et/LC_MESSAGES/k3b.mo
+* /usr/share/locale/et/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/et/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/et/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/eu/LC_MESSAGES/k3b.mo
+* /usr/share/locale/eu/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/eu/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/eu/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/fa/LC_MESSAGES/k3b.mo
+* /usr/share/locale/fi/LC_MESSAGES/k3b.mo
+* /usr/share/locale/fi/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/fi/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/fi/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/fr/LC_MESSAGES/k3b.mo
+* /usr/share/locale/fr/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/fr/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/fr/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ga/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ga/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ga/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ga/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/gl/LC_MESSAGES/k3b.mo
+* /usr/share/locale/gl/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/gl/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/gl/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/he/LC_MESSAGES/k3b.mo
+* /usr/share/locale/he/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/he/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/he/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/hi/LC_MESSAGES/k3b.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/hi/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/hi/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/hne/LC_MESSAGES/k3b.mo
+* /usr/share/locale/hne/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/hne/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/hne/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/hr/LC_MESSAGES/k3b.mo
+* /usr/share/locale/hr/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/hr/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/hr/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/hu/LC_MESSAGES/k3b.mo
+* /usr/share/locale/hu/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/hu/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/hu/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ia/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ia/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ia/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ia/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/id/LC_MESSAGES/k3b.mo
+* /usr/share/locale/id/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/id/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/id/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/is/LC_MESSAGES/k3b.mo
+* /usr/share/locale/is/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/is/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/is/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/it/LC_MESSAGES/k3b.mo
+* /usr/share/locale/it/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/it/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/it/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ja/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ja/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ja/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ja/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ka/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ka/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ka/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ka/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/kk/LC_MESSAGES/k3b.mo
+* /usr/share/locale/kk/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/kk/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/kk/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/km/LC_MESSAGES/k3b.mo
+* /usr/share/locale/km/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/km/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/km/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ko/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ko/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ko/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ko/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ku/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ku/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/lt/LC_MESSAGES/k3b.mo
+* /usr/share/locale/lt/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/lt/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/lt/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/lv/LC_MESSAGES/k3b.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/lv/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/lv/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/mai/LC_MESSAGES/k3b.mo
+* /usr/share/locale/mai/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/mai/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/mai/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ml/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/mr/LC_MESSAGES/k3b.mo
+* /usr/share/locale/mr/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/mr/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/mr/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ms/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ms/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ms/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ms/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/nb/LC_MESSAGES/k3b.mo
+* /usr/share/locale/nb/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/nb/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/nb/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/nds/LC_MESSAGES/k3b.mo
+* /usr/share/locale/nds/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/nds/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/nds/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/nl/LC_MESSAGES/k3b.mo
+* /usr/share/locale/nl/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/nl/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/nl/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/nn/LC_MESSAGES/k3b.mo
+* /usr/share/locale/nn/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/nn/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/nn/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/oc/LC_MESSAGES/k3b.mo
+* /usr/share/locale/oc/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/oc/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/oc/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/pa/LC_MESSAGES/k3b.mo
+* /usr/share/locale/pa/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/pa/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/pa/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/pl/LC_MESSAGES/k3b.mo
+* /usr/share/locale/pl/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/pl/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/pl/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/pt/LC_MESSAGES/k3b.mo
+* /usr/share/locale/pt/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/pt/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/pt/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/k3b.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ro/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ro/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ro/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ro/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ru/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ru/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ru/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ru/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/se/LC_MESSAGES/k3b.mo
+* /usr/share/locale/se/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/se/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sk/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sk/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sk/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sk/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sl/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sl/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sl/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sl/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sq/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sq/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sq/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sq/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sr/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sr/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sr/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sr/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/sv/LC_MESSAGES/k3b.mo
+* /usr/share/locale/sv/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/sv/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/sv/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/th/LC_MESSAGES/k3b.mo
+* /usr/share/locale/th/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/th/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/th/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/tr/LC_MESSAGES/k3b.mo
+* /usr/share/locale/tr/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/tr/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/tr/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/ug/LC_MESSAGES/k3b.mo
+* /usr/share/locale/ug/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/ug/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/ug/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/uk/LC_MESSAGES/k3b.mo
+* /usr/share/locale/uk/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/uk/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/uk/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/wa/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/k3b.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/k3b.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kio_videodvd.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libk3b.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libk3bdevice.mo
+* /usr/share/metainfo/org.kde.k3b.appdata.xml
+* /usr/share/mime/packages/x-k3b.xml
+* /usr/share/polkit-1/actions/org.kde.k3b.policy
+* /usr/share/qlogging-categories6/k3b.categories
+* /usr/share/solid/actions/k3b_audiocd_rip.desktop
+* /usr/share/solid/actions/k3b_copy_disc.desktop
+* /usr/share/solid/actions/k3b_create_audio_cd_from_blank_medium.desktop
+* /usr/share/solid/actions/k3b_create_data_project_from_blank_medium.desktop
+* /usr/share/solid/actions/k3b_videodvd_rip.desktop

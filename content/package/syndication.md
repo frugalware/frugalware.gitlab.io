@@ -12,7 +12,7 @@ size = "196428"
 usize = "719533"
 sha1sum = "dd833cafa0130107cf872d431d8cf4a1a5630485"
 depends = "['kio>=6.5.0']"
-reverse_depends = "['./alligator', './kasts', 'akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewstuff', 'ktorrent']"
+reverse_depends = "['akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewstuff', 'ktorrent']"
 +++
 ### Description: 
 KParts Kontact interface.
