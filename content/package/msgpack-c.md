@@ -12,7 +12,6 @@ size = "156100"
 usize = "296673"
 sha1sum = "2bb8d6093764b8ac8c15e076d4eedf54efaad380"
 depends = "['glibc>=2.34']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 An efficient object serialization library

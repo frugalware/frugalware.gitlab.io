@@ -12,7 +12,6 @@ size = "55448"
 usize = "213725"
 sha1sum = "40d20c6894df459dfd911a892f4240f008680228"
 depends = "['libuv', 'luajit2']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 Bare libuv bindings for lua

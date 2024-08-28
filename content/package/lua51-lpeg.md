@@ -12,7 +12,6 @@ size = "21864"
 usize = "59242"
 sha1sum = "5e82c3f859a4fe0b7a8122cfdf6ca2683ba3d1a9"
 depends = "['lua51']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 A new pattern-matching library for Lua, based on Parsing Expression Grammars.

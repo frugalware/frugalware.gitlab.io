@@ -12,7 +12,6 @@ size = "45272"
 usize = "142903"
 sha1sum = "4d785a44e4c20881ae35cede1493c6f5edacf1ef"
 depends = "['glib2>=2.60.3']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 A terminal emulator library for VT100 and rxvt.

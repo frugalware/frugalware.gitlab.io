@@ -12,7 +12,6 @@ size = "43784"
 usize = "79445"
 sha1sum = "358ff45f20c8ea482b07ad5f7fbbac9975011eb5"
 depends = "['ncurses']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 Library for easy processing of keyboard entry from terminal-based programs

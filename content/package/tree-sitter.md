@@ -12,7 +12,6 @@ size = "95900"
 usize = "228718"
 sha1sum = "9a082ed8c3aa030f02c7c5a1f2b6908cc6c7efb2"
 depends = "['glibc>=2.34']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 Rust bindings to the Tree-sitter parsing library

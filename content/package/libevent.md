@@ -12,7 +12,7 @@ size = "297152"
 usize = "1309607"
 sha1sum = "e4c5a030e0f2ea0f953b1b0473a3a4885f91513a"
 depends = "['openssl>=3.1.0']"
-reverse_depends = "['avahi', 'faifa', 'firefox', 'libreswan', 'memcached', 'nfs-utils', 'openpmix', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'seafile', 'thunderbird', 'tmux', 'tor', 'transmission-cli', 'unbound']"
+reverse_depends = "['avahi', 'faifa', 'firefox', 'libreswan', 'memcached', 'nfs-utils', 'openpmix', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'seafile', 'thunderbird', 'tmux', 'tor', 'unbound']"
 +++
 ### Description: 
 Provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached

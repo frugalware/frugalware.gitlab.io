@@ -12,7 +12,6 @@ size = "106528"
 usize = "226225"
 sha1sum = "8905e4439221bf06259fc4cb56b9cae448761410"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['neovim']"
 +++
 ### Description: 
 A terminfo parsing library

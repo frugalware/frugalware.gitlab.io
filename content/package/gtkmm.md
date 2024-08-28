@@ -12,7 +12,7 @@ size = "1610296"
 usize = "11298546"
 sha1sum = "488ec77bed6c24e3ce817a90e461354e2c7064f8"
 depends = "['atkmm>=2.24.2-7', 'cairomm>=1.12.0-4', 'glibmm>=2.68.1', 'gtk+4', 'libstdc++>=11.2', 'libxrandr', 'pangomm>=2.40.1-5']"
-reverse_depends = "['pavucontrol', 'transmission-gtk']"
+reverse_depends = "['pavucontrol']"
 +++
 ### Description: 
 C++ interface for GTK+4
