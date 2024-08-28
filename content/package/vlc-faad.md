@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-faad 3.0.21-5"
-version = "3.0.21-5"
+title = "vlc-faad 3.0.21-6"
+version = "3.0.21-6"
 description = "vlc fadd support"
-date = "2024-08-03T20:25:04"
+date = "2024-08-28T15:27:14"
 aliases = "/packages/219585"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "19880"
-usize = "16152"
-sha1sum = "0b91e1316b4e3ff4b49c232889994b2da8d6b3c6"
+size = "19944"
+usize = "16216"
+sha1sum = "32ad05b854a79fbb6eaabb9bad9edec53eaeabde"
 depends = "['faad2', 'libvlc>=3.0.21']"
 +++
 ### Description: 

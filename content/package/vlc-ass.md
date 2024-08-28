@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-ass 3.0.21-5"
-version = "3.0.21-5"
+title = "vlc-ass 3.0.21-6"
+version = "3.0.21-6"
 description = "vlc SSA/ASS support"
-date = "2024-08-03T20:25:04"
+date = "2024-08-28T15:27:14"
 aliases = "/packages/219581"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "20344"
-usize = "18088"
-sha1sum = "b3935300b9c524d7e00d658cd0865d7e759fe1d9"
+size = "20416"
+usize = "18280"
+sha1sum = "513b5720fb7aa2b42bf5c909f0b36b4b07007fd9"
 depends = "['libass', 'libvlc>=3.0.21']"
 +++
 ### Description: 

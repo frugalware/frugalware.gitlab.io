@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-nfs 3.0.21-5"
-version = "3.0.21-5"
+title = "vlc-nfs 3.0.21-6"
+version = "3.0.21-6"
 description = "vlc NFS support"
-date = "2024-08-03T20:25:04"
+date = "2024-08-28T15:27:14"
 aliases = "/packages/219580"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "20492"
-usize = "19888"
-sha1sum = "f04963e0cc168f03018b77fc8018823e303aec8f"
+size = "20556"
+usize = "20016"
+sha1sum = "14a8817534f4f2b67a603c1c9b139fe0005304b3"
 depends = "['libnfs>=4.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 

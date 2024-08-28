@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-libdvdnav 3.0.21-5"
-version = "3.0.21-5"
+title = "vlc-libdvdnav 3.0.21-6"
+version = "3.0.21-6"
 description = "vlc plugin for libdvdnav"
-date = "2024-08-03T20:25:04"
+date = "2024-08-28T15:27:14"
 aliases = "/packages/135929"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "32784"
-usize = "51568"
-sha1sum = "7bb396fd725ae2c356a4a3167eb6afaa9cc74c87"
+size = "32796"
+usize = "51696"
+sha1sum = "1a16fe5fed5f56a009191775e821dac52d4e2229"
 depends = "['libdvdnav>=6.1.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 

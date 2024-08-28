@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-lua 3.0.21-5"
-version = "3.0.21-5"
+title = "vlc-lua 3.0.21-6"
+version = "3.0.21-6"
 description = "vlc Lua support"
-date = "2024-08-03T20:25:04"
+date = "2024-08-28T15:27:14"
 aliases = "/packages/219574"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "151456"
-usize = "403737"
-sha1sum = "52cb9c68748dd605ff98f0295e67a7b3c2b74068"
+size = "151188"
+usize = "403865"
+sha1sum = "c121402f76eeb70cf9325c513dc9b4fbd25e7f89"
 depends = "['libvlc>=3.0.21', 'lua>=5.4']"
 +++
 ### Description: 
