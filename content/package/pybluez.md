@@ -12,6 +12,7 @@ size = "88916"
 usize = "345885"
 sha1sum = "c81769e58a0862e836ea59f129cb61ebff7a6361"
 depends = "['bluez', 'python3']"
+reverse_depends = "['./blueproximity']"
 +++
 ### Description: 
 Python wrapper for bluez-libs

@@ -12,7 +12,7 @@ size = "212544"
 usize = "745644"
 sha1sum = "6fbd72b10a0484e1c9ec390a2bb2508918a45068"
 depends = "['lib32-libjpeg-turbo', 'lib32-libtiff>=4.0.6-2', 'lib32-zlib>=1.2.12']"
-reverse_depends = "['get_steam', 'lib32-openjpeg', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'get_steam', 'lib32-openjpeg', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Lightweight color management development library/engine ( 32bit )

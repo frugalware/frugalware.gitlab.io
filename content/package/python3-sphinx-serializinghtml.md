@@ -1,143 +1,140 @@
 +++
 draft = false
-title = "python3-sphinx-serializinghtml 1.1.10-1"
-version = "1.1.10-1"
+title = "./python3-sphinx-serializinghtml 2.0.0-1"
+version = "2.0.0-1"
 description = "Sphinx extension which outputs 'serialized' HTML files (json and pickle)"
-date = "2024-06-25T13:17:02"
-aliases = "/packages/220110"
+date = "2024-08-26T11:49:17"
+aliases = "/packages/222369"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/sphinxcontrib-serializinghtml"
 arch = "x86_64"
-size = "24080"
-usize = "146264"
-sha1sum = "5c7f942121eefc39d595dde30f949e76b66227f8"
+size = "23272"
+usize = "144813"
+sha1sum = "b498f9cd2c07e0b0829d4670a31902ae88e1f5a1"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-sphinx']"
 +++
 ### Description: 
 Sphinx extension which outputs 'serialized' HTML files (json and pickle)
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/jsonimpl.py
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/.tx/config
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sphinxcontrib.serializinghtml.pot
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.po
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__init__.py
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/jsonimpl.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/jsonimpl.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-1.1.10.dist-info/WHEEL
-* /usr/share/doc/python3-sphinx-serializinghtml-1.1.10/CHANGES
-* /usr/share/doc/python3-sphinx-serializinghtml-1.1.10/LICENSE
-* /usr/share/doc/python3-sphinx-serializinghtml-1.1.10/README.rst
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/jsonimpl.py
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/.tx/config
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ar/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bg/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/bn/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ca/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cak/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cs/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/cy/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/da/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/de/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/el/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eo/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/es/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/et/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/eu/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fa/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fi/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/fr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/he/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hi_IN/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/hu/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/id/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/it/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ja/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ko/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lt/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/lv/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/mk/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nb_NO/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ne/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/nl/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pl/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_BR/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/pt_PT/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ro/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ru/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/si/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sk/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sl/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sphinxcontrib.serializinghtml.pot
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sq/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr@latin/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sr_RS/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/sv/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ta/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/te/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/tr/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/uk_UA/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/ur/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/vi/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_CN/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.mo
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/locales/zh_TW/LC_MESSAGES/sphinxcontrib.serializinghtml.po
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/py.typed
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__init__.py
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/jsonimpl.cpython-312.opt-1.pyc
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/jsonimpl.cpython-312.pyc
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib/serializinghtml/__pycache__/__init__.cpython-312.pyc
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-2.0.0.dist-info/METADATA
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-2.0.0.dist-info/RECORD
+* python3-sphinx-serializinghtml /usr/lib/python3.12/site-packages/sphinxcontrib_serializinghtml-2.0.0.dist-info/WHEEL
+* python3-sphinx-serializinghtml /usr/share/doc/python3-sphinx-serializinghtml-2.0.0/README.rst

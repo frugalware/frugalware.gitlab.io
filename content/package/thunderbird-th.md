@@ -12,7 +12,7 @@ size = "749548"
 usize = "810985"
 sha1sum = "78e9bf4e2f68652a47319e1e64fbeb606c4e842f"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Thai language support for Thunderbird

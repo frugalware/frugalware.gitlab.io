@@ -12,7 +12,7 @@ size = "685132"
 usize = "746019"
 sha1sum = "c2da16a71012255fa317ae274d31b1bc9027d64c"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Romansh language support for Thunderbird

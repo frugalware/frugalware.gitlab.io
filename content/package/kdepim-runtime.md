@@ -12,7 +12,7 @@ size = "2696616"
 usize = "14912725"
 sha1sum = "5250e181fbb79ba4e0af17449a355d23991d7d42"
 depends = "['akonadi-calendar>=24.05.2', 'akonadi-notes>=24.05.2', 'kalarm>=24.05.2', 'kdav>=6.3.0', 'kimap>=24.05.2', 'kmbox>=24.05.2', 'knotifyconfig>=6.3.0', 'libkgapi>=24.05.2', 'pimcommon>=24.05.2', 'qca', 'qt6-networkauth>=6.7.1', 'syndication>=6.3.0']"
-reverse_depends = "['kmail', 'korganizer', 'zanshin']"
+reverse_depends = "['./kmail', './korganizer', './zanshin', 'kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 
 KDE PIM Runtime

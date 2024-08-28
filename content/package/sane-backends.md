@@ -12,7 +12,7 @@ size = "4073148"
 usize = "20407003"
 sha1sum = "0993fbb57707b263df53943a34931e2ca267e55d"
 depends = "['avahi', 'curl', 'libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=3.2.1-2', 'libusb1>=1.0.20-5', 'poppler-glib', 'v4l-utils']"
-reverse_depends = "['hplip', 'ksanecore', 'ksanecore5', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
+reverse_depends = "['./ksanecore', './python3-pillow', './wine-devel', 'hplip', 'ksanecore', 'ksanecore5', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
 +++
 ### Description: 
 Scanner Access Now Easy

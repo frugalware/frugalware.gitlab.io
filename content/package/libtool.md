@@ -12,7 +12,7 @@ size = "701676"
 usize = "3638054"
 sha1sum = "8315fe107dc83ba4c98ef2b431b85dc45aa6b89d"
 depends = "['bash>=3.2_039-3', 'glibc>=2.34']"
-reverse_depends = "['clamav', 'courier-authlib', 'guile', 'imagemagick', 'libcanberra', 'libextractor', 'libgphoto2', 'libmp3splt', 'libmpg123', 'libpulse', 'librdf', 'openldap', 'pulseaudio', 'scim', 'squid', 'unixodbc']"
+reverse_depends = "['./clamav', './imagemagick', 'clamav', 'courier-authlib', 'guile', 'imagemagick', 'libcanberra', 'libextractor', 'libgphoto2', 'libmp3splt', 'libmpg123', 'libpulse', 'librdf', 'openldap', 'pulseaudio', 'scim', 'squid', 'unixodbc']"
 +++
 ### Description: 
 A generic library support script

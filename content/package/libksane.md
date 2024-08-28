@@ -12,7 +12,7 @@ size = "150076"
 usize = "699962"
 sha1sum = "87ef097a8764dd75c72249bec4b4e92fc795e3bd"
 depends = "['ksanecore>=24.05.2', 'ktextwidgets>=6.3.0', 'kwallet>=6.3.0']"
-reverse_depends = "['digikam', 'kolourpaint']"
+reverse_depends = "['./kolourpaint', 'digikam', 'kolourpaint']"
 +++
 ### Description: 
 KDE SANE interface library.

@@ -12,7 +12,7 @@ size = "27576"
 usize = "48136"
 sha1sum = "e6098803087eb42af35528459f117867c8a7c6cb"
 depends = "['gst1-plugins-base>=1.24.6', 'gst1-plugins-good>=1.24.6', 'libffi>=3.2.1-2', 'libjpeg-turbo']"
-reverse_depends = "['kamoso']"
+reverse_depends = "['./kamoso', 'kamoso']"
 +++
 ### Description: 
 GStreamer jpeg plugin (Good).

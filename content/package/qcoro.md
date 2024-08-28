@@ -12,7 +12,7 @@ size = "2651816"
 usize = "5036948"
 sha1sum = "b139c2420db1aa9303b9ab580e54acbb31d37e39"
 depends = "['qt6-declarative', 'qt6-websockets']"
-reverse_depends = "['angelfish', 'audiotube', 'discover', 'kaccounts-integration', 'kdenetwork-filesharing', 'kio-extras', 'kio-extras-kf5', 'kontrast', 'plasma-nm', 'plasma-workspace']"
+reverse_depends = "['./angelfish', './kdenetwork-filesharing', './kontrast', 'angelfish', 'audiotube', 'discover', 'kaccounts-integration', 'kdenetwork-filesharing', 'kio-extras', 'kio-extras-kf5', 'kontrast', 'plasma-nm', 'plasma-workspace']"
 +++
 ### Description: 
 C++ Coroutines for Qt

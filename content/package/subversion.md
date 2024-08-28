@@ -12,7 +12,7 @@ size = "2537204"
 usize = "8963740"
 sha1sum = "9f2ef2e57a4790ba3ed102e33857ed87f508a330"
 depends = "['file>=5.25-3', 'serf>=1.3.9-4', 'utf8proc']"
-reverse_depends = "['mod_svn', 'subversion-bindings', 'subversion-svnserve']"
+reverse_depends = "['./kdevelop', 'mod_svn', 'subversion-bindings', 'subversion-svnserve']"
 +++
 ### Description: 
 A version control system that is a compelling replacement for CVS.

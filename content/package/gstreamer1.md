@@ -1,200 +1,199 @@
 +++
 draft = false
-title = "gstreamer1 1.24.6-1"
-version = "1.24.6-1"
+title = "./gstreamer1 1.24.7-1"
+version = "1.24.7-1"
 description = "Open Source Multimedia Framework"
-date = "2024-07-30T16:34:31"
-aliases = "/packages/168881"
+date = "2024-08-22T13:00:36"
+aliases = "/packages/222476"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1639060"
-usize = "9855051"
-sha1sum = "72e46de5b618c058c6dbab1cbe50c0bbee0db0c0"
+size = "1636036"
+usize = "9867275"
+sha1sum = "81dbbdd303c5822ec030bc7f5a29e3d813b7fe5e"
 depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2']"
-reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libcanberra-gst', 'nice', 'spice', 'spice-gtk', 'uget', 'vokoscreenng']"
 +++
 ### Description: 
 Open Source Multimedia Framework
 
 ### Files: 
-* /etc/profile.d/gstreamer1.sh
-* /usr/bin/gst-inspect-1.0
-* /usr/bin/gst-launch-1.0
-* /usr/bin/gst-stats-1.0
-* /usr/bin/gst-tester-1.0
-* /usr/bin/gst-typefind-1.0
-* /usr/include/gstreamer-1.0/gst/base/base-prelude.h
-* /usr/include/gstreamer-1.0/gst/base/base.h
-* /usr/include/gstreamer-1.0/gst/base/gstadapter.h
-* /usr/include/gstreamer-1.0/gst/base/gstaggregator.h
-* /usr/include/gstreamer-1.0/gst/base/gstbaseparse.h
-* /usr/include/gstreamer-1.0/gst/base/gstbasesink.h
-* /usr/include/gstreamer-1.0/gst/base/gstbasesrc.h
-* /usr/include/gstreamer-1.0/gst/base/gstbasetransform.h
-* /usr/include/gstreamer-1.0/gst/base/gstbitreader.h
-* /usr/include/gstreamer-1.0/gst/base/gstbitwriter.h
-* /usr/include/gstreamer-1.0/gst/base/gstbytereader.h
-* /usr/include/gstreamer-1.0/gst/base/gstbytewriter.h
-* /usr/include/gstreamer-1.0/gst/base/gstcollectpads.h
-* /usr/include/gstreamer-1.0/gst/base/gstdataqueue.h
-* /usr/include/gstreamer-1.0/gst/base/gstflowcombiner.h
-* /usr/include/gstreamer-1.0/gst/base/gstpushsrc.h
-* /usr/include/gstreamer-1.0/gst/base/gstqueuearray.h
-* /usr/include/gstreamer-1.0/gst/base/gsttypefindhelper.h
-* /usr/include/gstreamer-1.0/gst/check/check-prelude.h
-* /usr/include/gstreamer-1.0/gst/check/check.h
-* /usr/include/gstreamer-1.0/gst/check/gstbufferstraw.h
-* /usr/include/gstreamer-1.0/gst/check/gstcheck.h
-* /usr/include/gstreamer-1.0/gst/check/gstconsistencychecker.h
-* /usr/include/gstreamer-1.0/gst/check/gstharness.h
-* /usr/include/gstreamer-1.0/gst/check/gsttestclock.h
-* /usr/include/gstreamer-1.0/gst/check/internal-check.h
-* /usr/include/gstreamer-1.0/gst/controller/controller-enumtypes.h
-* /usr/include/gstreamer-1.0/gst/controller/controller-prelude.h
-* /usr/include/gstreamer-1.0/gst/controller/controller.h
-* /usr/include/gstreamer-1.0/gst/controller/gstargbcontrolbinding.h
-* /usr/include/gstreamer-1.0/gst/controller/gstdirectcontrolbinding.h
-* /usr/include/gstreamer-1.0/gst/controller/gstinterpolationcontrolsource.h
-* /usr/include/gstreamer-1.0/gst/controller/gstlfocontrolsource.h
-* /usr/include/gstreamer-1.0/gst/controller/gstproxycontrolbinding.h
-* /usr/include/gstreamer-1.0/gst/controller/gsttimedvaluecontrolsource.h
-* /usr/include/gstreamer-1.0/gst/controller/gsttriggercontrolsource.h
-* /usr/include/gstreamer-1.0/gst/glib-compat.h
-* /usr/include/gstreamer-1.0/gst/gst.h
-* /usr/include/gstreamer-1.0/gst/gstallocator.h
-* /usr/include/gstreamer-1.0/gst/gstatomicqueue.h
-* /usr/include/gstreamer-1.0/gst/gstbin.h
-* /usr/include/gstreamer-1.0/gst/gstbuffer.h
-* /usr/include/gstreamer-1.0/gst/gstbufferlist.h
-* /usr/include/gstreamer-1.0/gst/gstbufferpool.h
-* /usr/include/gstreamer-1.0/gst/gstbus.h
-* /usr/include/gstreamer-1.0/gst/gstbytearrayinterface.h
-* /usr/include/gstreamer-1.0/gst/gstcaps.h
-* /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h
-* /usr/include/gstreamer-1.0/gst/gstchildproxy.h
-* /usr/include/gstreamer-1.0/gst/gstclock.h
-* /usr/include/gstreamer-1.0/gst/gstcompat.h
-* /usr/include/gstreamer-1.0/gst/gstconfig.h
-* /usr/include/gstreamer-1.0/gst/gstcontext.h
-* /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h
-* /usr/include/gstreamer-1.0/gst/gstcontrolsource.h
-* /usr/include/gstreamer-1.0/gst/gstdatetime.h
-* /usr/include/gstreamer-1.0/gst/gstdebugutils.h
-* /usr/include/gstreamer-1.0/gst/gstdevice.h
-* /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h
-* /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h
-* /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h
-* /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h
-* /usr/include/gstreamer-1.0/gst/gstelement.h
-* /usr/include/gstreamer-1.0/gst/gstelementfactory.h
-* /usr/include/gstreamer-1.0/gst/gstelementmetadata.h
-* /usr/include/gstreamer-1.0/gst/gstenumtypes.h
-* /usr/include/gstreamer-1.0/gst/gsterror.h
-* /usr/include/gstreamer-1.0/gst/gstevent.h
-* /usr/include/gstreamer-1.0/gst/gstformat.h
-* /usr/include/gstreamer-1.0/gst/gstghostpad.h
-* /usr/include/gstreamer-1.0/gst/gstinfo.h
-* /usr/include/gstreamer-1.0/gst/gstiterator.h
-* /usr/include/gstreamer-1.0/gst/gstmacros.h
-* /usr/include/gstreamer-1.0/gst/gstmemory.h
-* /usr/include/gstreamer-1.0/gst/gstmessage.h
-* /usr/include/gstreamer-1.0/gst/gstmeta.h
-* /usr/include/gstreamer-1.0/gst/gstminiobject.h
-* /usr/include/gstreamer-1.0/gst/gstobject.h
-* /usr/include/gstreamer-1.0/gst/gstpad.h
-* /usr/include/gstreamer-1.0/gst/gstpadtemplate.h
-* /usr/include/gstreamer-1.0/gst/gstparamspecs.h
-* /usr/include/gstreamer-1.0/gst/gstparse.h
-* /usr/include/gstreamer-1.0/gst/gstpipeline.h
-* /usr/include/gstreamer-1.0/gst/gstplugin.h
-* /usr/include/gstreamer-1.0/gst/gstpluginfeature.h
-* /usr/include/gstreamer-1.0/gst/gstpoll.h
-* /usr/include/gstreamer-1.0/gst/gstpreset.h
-* /usr/include/gstreamer-1.0/gst/gstpromise.h
-* /usr/include/gstreamer-1.0/gst/gstprotection.h
-* /usr/include/gstreamer-1.0/gst/gstquery.h
-* /usr/include/gstreamer-1.0/gst/gstregistry.h
-* /usr/include/gstreamer-1.0/gst/gstsample.h
-* /usr/include/gstreamer-1.0/gst/gstsegment.h
-* /usr/include/gstreamer-1.0/gst/gststreamcollection.h
-* /usr/include/gstreamer-1.0/gst/gststreams.h
-* /usr/include/gstreamer-1.0/gst/gststructure.h
-* /usr/include/gstreamer-1.0/gst/gstsystemclock.h
-* /usr/include/gstreamer-1.0/gst/gsttaglist.h
-* /usr/include/gstreamer-1.0/gst/gsttagsetter.h
-* /usr/include/gstreamer-1.0/gst/gsttask.h
-* /usr/include/gstreamer-1.0/gst/gsttaskpool.h
-* /usr/include/gstreamer-1.0/gst/gsttoc.h
-* /usr/include/gstreamer-1.0/gst/gsttocsetter.h
-* /usr/include/gstreamer-1.0/gst/gsttracer.h
-* /usr/include/gstreamer-1.0/gst/gsttracerfactory.h
-* /usr/include/gstreamer-1.0/gst/gsttracerrecord.h
-* /usr/include/gstreamer-1.0/gst/gsttypefind.h
-* /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h
-* /usr/include/gstreamer-1.0/gst/gsturi.h
-* /usr/include/gstreamer-1.0/gst/gstutils.h
-* /usr/include/gstreamer-1.0/gst/gstvalue.h
-* /usr/include/gstreamer-1.0/gst/gstversion.h
-* /usr/include/gstreamer-1.0/gst/math-compat.h
-* /usr/include/gstreamer-1.0/gst/net/gstnet.h
-* /usr/include/gstreamer-1.0/gst/net/gstnetaddressmeta.h
-* /usr/include/gstreamer-1.0/gst/net/gstnetclientclock.h
-* /usr/include/gstreamer-1.0/gst/net/gstnetcontrolmessagemeta.h
-* /usr/include/gstreamer-1.0/gst/net/gstnettimepacket.h
-* /usr/include/gstreamer-1.0/gst/net/gstnettimeprovider.h
-* /usr/include/gstreamer-1.0/gst/net/gstnetutils.h
-* /usr/include/gstreamer-1.0/gst/net/gstptpclock.h
-* /usr/include/gstreamer-1.0/gst/net/net-prelude.h
-* /usr/include/gstreamer-1.0/gst/net/net.h
-* /usr/lib/girepository-1.0/Gst-1.0.typelib
-* /usr/lib/girepository-1.0/GstBase-1.0.typelib
-* /usr/lib/girepository-1.0/GstCheck-1.0.typelib
-* /usr/lib/girepository-1.0/GstController-1.0.typelib
-* /usr/lib/girepository-1.0/GstNet-1.0.typelib
-* /usr/lib/gstreamer-1.0/libgstcoreelements.so
-* /usr/lib/gstreamer-1.0/libgstcoretracers.so
-* /usr/lib/gstreamer1/gstreamer-1.0/gst-completion-helper
-* /usr/lib/gstreamer1/gstreamer-1.0/gst-hotdoc-plugins-scanner
-* /usr/lib/gstreamer1/gstreamer-1.0/gst-plugin-scanner
-* /usr/lib/gstreamer1/gstreamer-1.0/gst-plugins-doc-cache-generator
-* /usr/lib/libgstbase-1.0.so
-* /usr/lib/libgstbase-1.0.so.0
-* /usr/lib/libgstbase-1.0.so.0.2406.0
-* /usr/lib/libgstcheck-1.0.so
-* /usr/lib/libgstcheck-1.0.so.0
-* /usr/lib/libgstcheck-1.0.so.0.2406.0
-* /usr/lib/libgstcontroller-1.0.so
-* /usr/lib/libgstcontroller-1.0.so.0
-* /usr/lib/libgstcontroller-1.0.so.0.2406.0
-* /usr/lib/libgstnet-1.0.so
-* /usr/lib/libgstnet-1.0.so.0
-* /usr/lib/libgstnet-1.0.so.0.2406.0
-* /usr/lib/libgstreamer-1.0.so
-* /usr/lib/libgstreamer-1.0.so.0
-* /usr/lib/libgstreamer-1.0.so.0.2406.0
-* /usr/lib/pkgconfig/gstreamer-1.0.pc
-* /usr/lib/pkgconfig/gstreamer-base-1.0.pc
-* /usr/lib/pkgconfig/gstreamer-check-1.0.pc
-* /usr/lib/pkgconfig/gstreamer-controller-1.0.pc
-* /usr/lib/pkgconfig/gstreamer-net-1.0.pc
-* /usr/share/aclocal/gst-element-check-1.0.m4
-* /usr/share/doc/gstreamer1-1.24.6/AUTHORS
-* /usr/share/doc/gstreamer1-1.24.6/ChangeLog
-* /usr/share/doc/gstreamer1-1.24.6/COPYING
-* /usr/share/doc/gstreamer1-1.24.6/NEWS
-* /usr/share/doc/gstreamer1-1.24.6/README.md
-* /usr/share/doc/gstreamer1-1.24.6/README.static-linking
-* /usr/share/doc/gstreamer1-1.24.6/RELEASE
-* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2406.0-gdb.py
-* /usr/share/gir-1.0/Gst-1.0.gir
-* /usr/share/gir-1.0/GstBase-1.0.gir
-* /usr/share/gir-1.0/GstCheck-1.0.gir
-* /usr/share/gir-1.0/GstController-1.0.gir
-* /usr/share/gir-1.0/GstNet-1.0.gir
-* /usr/share/gstreamer-1.0/gdb/glib_gobject_helper.py
-* /usr/share/gstreamer-1.0/gdb/gst_gdb.py
-* /usr/share/man/man1/gst-inspect-1.0.1.gz
-* /usr/share/man/man1/gst-launch-1.0.1.gz
-* /usr/share/man/man1/gst-stats-1.0.1.gz
-* /usr/share/man/man1/gst-typefind-1.0.1.gz
+* gstreamer1 /etc/profile.d/gstreamer1.sh
+* gstreamer1 /usr/bin/gst-inspect-1.0
+* gstreamer1 /usr/bin/gst-launch-1.0
+* gstreamer1 /usr/bin/gst-stats-1.0
+* gstreamer1 /usr/bin/gst-tester-1.0
+* gstreamer1 /usr/bin/gst-typefind-1.0
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/base-prelude.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/base.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstadapter.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstaggregator.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbaseparse.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbasesink.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbasesrc.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbasetransform.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbitreader.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbitwriter.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbytereader.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstbytewriter.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstcollectpads.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstdataqueue.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstflowcombiner.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstpushsrc.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gstqueuearray.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/base/gsttypefindhelper.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/check-prelude.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/check.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/gstbufferstraw.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/gstcheck.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/gstconsistencychecker.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/gstharness.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/gsttestclock.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/check/internal-check.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/controller-enumtypes.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/controller-prelude.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/controller.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gstargbcontrolbinding.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gstdirectcontrolbinding.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gstinterpolationcontrolsource.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gstlfocontrolsource.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gstproxycontrolbinding.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gsttimedvaluecontrolsource.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/controller/gsttriggercontrolsource.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/glib-compat.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gst.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstallocator.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstatomicqueue.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstbin.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstbuffer.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstbufferlist.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstbufferpool.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstbus.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstbytearrayinterface.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstcaps.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstcapsfeatures.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstchildproxy.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstclock.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstcompat.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstconfig.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstcontext.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstcontrolbinding.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstcontrolsource.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdatetime.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdebugutils.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdevice.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdevicemonitor.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdeviceprovider.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstelement.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstelementfactory.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstelementmetadata.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstenumtypes.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsterror.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstevent.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstformat.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstghostpad.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstinfo.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstiterator.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstmacros.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstmemory.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstmessage.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstmeta.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstminiobject.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstobject.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpad.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpadtemplate.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstparamspecs.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstparse.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpipeline.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstplugin.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpluginfeature.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpoll.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpreset.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstpromise.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstprotection.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstquery.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstregistry.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstsample.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstsegment.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gststreamcollection.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gststreams.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gststructure.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstsystemclock.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttaglist.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttagsetter.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttask.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttaskpool.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttoc.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttocsetter.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttracer.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttracerfactory.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttracerrecord.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttypefind.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsttypefindfactory.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gsturi.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstutils.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstvalue.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/gstversion.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/math-compat.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnet.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnetaddressmeta.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnetclientclock.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnetcontrolmessagemeta.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnettimepacket.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnettimeprovider.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstnetutils.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/gstptpclock.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/net-prelude.h
+* gstreamer1 /usr/include/gstreamer-1.0/gst/net/net.h
+* gstreamer1 /usr/lib/girepository-1.0/Gst-1.0.typelib
+* gstreamer1 /usr/lib/girepository-1.0/GstBase-1.0.typelib
+* gstreamer1 /usr/lib/girepository-1.0/GstCheck-1.0.typelib
+* gstreamer1 /usr/lib/girepository-1.0/GstController-1.0.typelib
+* gstreamer1 /usr/lib/girepository-1.0/GstNet-1.0.typelib
+* gstreamer1 /usr/lib/gstreamer-1.0/libgstcoreelements.so
+* gstreamer1 /usr/lib/gstreamer-1.0/libgstcoretracers.so
+* gstreamer1 /usr/lib/gstreamer1/gstreamer-1.0/gst-completion-helper
+* gstreamer1 /usr/lib/gstreamer1/gstreamer-1.0/gst-hotdoc-plugins-scanner
+* gstreamer1 /usr/lib/gstreamer1/gstreamer-1.0/gst-plugin-scanner
+* gstreamer1 /usr/lib/gstreamer1/gstreamer-1.0/gst-plugins-doc-cache-generator
+* gstreamer1 /usr/lib/libgstbase-1.0.so
+* gstreamer1 /usr/lib/libgstbase-1.0.so.0
+* gstreamer1 /usr/lib/libgstbase-1.0.so.0.2407.0
+* gstreamer1 /usr/lib/libgstcheck-1.0.so
+* gstreamer1 /usr/lib/libgstcheck-1.0.so.0
+* gstreamer1 /usr/lib/libgstcheck-1.0.so.0.2407.0
+* gstreamer1 /usr/lib/libgstcontroller-1.0.so
+* gstreamer1 /usr/lib/libgstcontroller-1.0.so.0
+* gstreamer1 /usr/lib/libgstcontroller-1.0.so.0.2407.0
+* gstreamer1 /usr/lib/libgstnet-1.0.so
+* gstreamer1 /usr/lib/libgstnet-1.0.so.0
+* gstreamer1 /usr/lib/libgstnet-1.0.so.0.2407.0
+* gstreamer1 /usr/lib/libgstreamer-1.0.so
+* gstreamer1 /usr/lib/libgstreamer-1.0.so.0
+* gstreamer1 /usr/lib/libgstreamer-1.0.so.0.2407.0
+* gstreamer1 /usr/lib/pkgconfig/gstreamer-1.0.pc
+* gstreamer1 /usr/lib/pkgconfig/gstreamer-base-1.0.pc
+* gstreamer1 /usr/lib/pkgconfig/gstreamer-check-1.0.pc
+* gstreamer1 /usr/lib/pkgconfig/gstreamer-controller-1.0.pc
+* gstreamer1 /usr/lib/pkgconfig/gstreamer-net-1.0.pc
+* gstreamer1 /usr/share/aclocal/gst-element-check-1.0.m4
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/AUTHORS
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/ChangeLog
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/COPYING
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/NEWS
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/README.md
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/README.static-linking
+* gstreamer1 /usr/share/doc/gstreamer1-1.24.7/RELEASE
+* gstreamer1 /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2407.0-gdb.py
+* gstreamer1 /usr/share/gir-1.0/Gst-1.0.gir
+* gstreamer1 /usr/share/gir-1.0/GstBase-1.0.gir
+* gstreamer1 /usr/share/gir-1.0/GstCheck-1.0.gir
+* gstreamer1 /usr/share/gir-1.0/GstController-1.0.gir
+* gstreamer1 /usr/share/gir-1.0/GstNet-1.0.gir
+* gstreamer1 /usr/share/gstreamer-1.0/gdb/glib_gobject_helper.py
+* gstreamer1 /usr/share/gstreamer-1.0/gdb/gst_gdb.py
+* gstreamer1 /usr/share/man/man1/gst-inspect-1.0.1.gz
+* gstreamer1 /usr/share/man/man1/gst-launch-1.0.1.gz
+* gstreamer1 /usr/share/man/man1/gst-stats-1.0.1.gz
+* gstreamer1 /usr/share/man/man1/gst-typefind-1.0.1.gz

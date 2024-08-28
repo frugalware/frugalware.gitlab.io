@@ -12,7 +12,7 @@ size = "23544"
 usize = "108674"
 sha1sum = "ec7eaefe8a7ed716a265a5e8f10b629ca27023e6"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-build', 'python3-flit_core', 'python3-hatchling', 'python3-pep517', 'python3-pyproject-hooks', 'python3-setuptools_scm', 'python3-versioningit']"
+reverse_depends = "['./python3-setuptools_scm', 'python3-build', 'python3-flit_core', 'python3-hatchling', 'python3-pep517', 'python3-pyproject-hooks', 'python3-setuptools_scm', 'python3-versioningit']"
 +++
 ### Description: 
 A lil' TOML parser

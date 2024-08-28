@@ -12,7 +12,7 @@ size = "3040224"
 usize = "13522603"
 sha1sum = "3ab08aa9fc25fb7c6f06016a7bb080ed79e6e722"
 depends = "['kaccounts-integration>=24.05.2', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kitemviews>=6.3.0', 'libxslt', 'qt6-base>=6.7.1', 'shared-mime-info']"
-reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
+reverse_depends = "['./akonadi-contacts', './akonadi-notes', './libgravatar', './libksieve', 'akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++
 ### Description: 
 PIM layer, which provides an asynchronous API to access all kind of PIM data

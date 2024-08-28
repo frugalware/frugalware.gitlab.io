@@ -12,7 +12,7 @@ size = "86528"
 usize = "234296"
 sha1sum = "9eacabf7e38ba01182481a5f3d02307e5788c69b"
 depends = "['glibc>=2.35', 'xfsprogs-attr>=2.2.53-2']"
-reverse_depends = "['android-tools', 'cdrtools', 'chrony', 'coreutils', 'gstreamer1', 'hwloc', 'i3status', 'inetutils', 'iputils', 'libsystemd', 'libu2f-host', 'pure-ftpd', 'systemd-pull', 'systemd-sysvinit', 'thin-provisioning-tools', 'uwsgi', 'virtualbox', 'zsh']"
+reverse_depends = "['./gstreamer1', 'android-tools', 'cdrtools', 'chrony', 'coreutils', 'gstreamer1', 'hwloc', 'i3status', 'inetutils', 'iputils', 'libsystemd', 'libu2f-host', 'pure-ftpd', 'systemd-pull', 'systemd-sysvinit', 'thin-provisioning-tools', 'uwsgi', 'virtualbox', 'zsh']"
 +++
 ### Description: 
 POSIX 1003.1e capabilities

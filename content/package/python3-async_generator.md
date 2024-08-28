@@ -12,7 +12,7 @@ size = "49992"
 usize = "236491"
 sha1sum = "c2b1acef9b60af7a5b58c0a146b9a5399c6f1957"
 depends = "['python3']"
-reverse_depends = "['python3-trio']"
+reverse_depends = "['./python3-trio', 'python3-trio']"
 +++
 ### Description: 
 Making it easy to write async iterators

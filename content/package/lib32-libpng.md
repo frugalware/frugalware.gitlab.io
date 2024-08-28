@@ -12,7 +12,7 @@ size = "172372"
 usize = "507104"
 sha1sum = "b1c122d1aed46ad35e21ed822f6c6ae1e78d7a1a"
 depends = "['lib32-zlib>=1.2.12']"
-reverse_depends = "['lib32-cairo', 'lib32-freetype2', 'lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-pango', 'lib32-pixman', 'openloco']"
+reverse_depends = "['./openloco', 'lib32-cairo', 'lib32-freetype2', 'lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-pango', 'lib32-pixman', 'openloco']"
 +++
 ### Description: 
 A collection of routines used to create PNG format graphics files ( 32bit )

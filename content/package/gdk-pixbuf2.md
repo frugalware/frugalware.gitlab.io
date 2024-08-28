@@ -12,7 +12,7 @@ size = "153868"
 usize = "789393"
 sha1sum = "10be92530d19adc7bfe16e03d1e1d41d3023139c"
 depends = "['glib2>=2.60.0', 'jasper>=2.0.10', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6-2', 'libx11>=1.6.3-4', 'shared-mime-info>=1.9-3']"
-reverse_depends = "['castor', 'flatpak', 'gail', 'gdk-pixbuf-xlib', 'get_steam', 'granite', 'gst1-plugins-good-gdkpixbuf', 'gtans', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'libgsf', 'libheif-gdk-pixbuf', 'libnotify', 'libopenraw-gnome', 'librsvg', 'openslide', 'openssh-askpass', 'spice', 'thunderbird', 'whalebird', 'xscreensaver-data']"
+reverse_depends = "['./thunderbird', 'castor', 'flatpak', 'gail', 'gdk-pixbuf-xlib', 'get_steam', 'granite', 'gst1-plugins-good-gdkpixbuf', 'gtans', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'libgsf', 'libheif-gdk-pixbuf', 'libnotify', 'libopenraw-gnome', 'librsvg', 'openslide', 'openssh-askpass', 'spice', 'thunderbird', 'whalebird', 'xscreensaver-data']"
 +++
 ### Description: 
 An image loading library

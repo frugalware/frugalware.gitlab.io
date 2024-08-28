@@ -12,7 +12,7 @@ size = "24448"
 usize = "61831"
 sha1sum = "4a250b8cea415fe42581b550e77d7051848833aa"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['docker', 'dracut-network', 'libvirt']"
+reverse_depends = "['./docker', 'docker', 'dracut-network', 'libvirt']"
 +++
 ### Description: 
 Linux Ethernet bridging

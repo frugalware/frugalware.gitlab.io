@@ -12,7 +12,7 @@ size = "507676"
 usize = "1703155"
 sha1sum = "a795a656b8db6b27cff881d0734b73551475690c"
 depends = "['lib32-brotli', 'lib32-bzip2>=1.0.6-16', 'lib32-libpng>=1.6.34-2', 'lib32-zlib>=1.2.12']"
-reverse_depends = "['lib32-cairo', 'lib32-fontconfig', 'lib32-imlib2', 'lib32-libbluray', 'lib32-libxfont', 'lib32-libxfont2', 'lib32-libxft', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'lib32-cairo', 'lib32-fontconfig', 'lib32-imlib2', 'lib32-libbluray', 'lib32-libxfont', 'lib32-libxfont2', 'lib32-libxft', 'wine', 'wine-devel']"
 +++
 ### Description: 
 TrueType font rendering library - 2.0 series (with bytecode interpreter) ( 32bit )

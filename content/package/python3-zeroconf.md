@@ -1,172 +1,161 @@
 +++
 draft = false
-title = "python3-zeroconf 0.132.2-1"
-version = "0.132.2-1"
+title = "./python3-zeroconf 0.133.0-1"
+version = "0.133.0-1"
 description = "A pure python implementation of multicast DNS service discovery"
-date = "2024-06-10T07:52:02"
-aliases = "/packages/220272"
+date = "2024-08-27T08:58:22"
+aliases = "/packages/222225"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/jstasiak/python-zeroconf"
 arch = "x86_64"
-size = "1065500"
-usize = "5768733"
-sha1sum = "4b71eb37f8e0072871d04dc37b460ab23b2ad356"
+size = "1027720"
+usize = "5618716"
+sha1sum = "69d49e49afe86afefed9ff02d54aa15536388bda"
 depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
 ### Description: 
 A pure python implementation of multicast DNS service discovery
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/zeroconf-0.132.2.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/zeroconf/asyncio.py
-* /usr/lib/python3.12/site-packages/zeroconf/const.py
-* /usr/lib/python3.12/site-packages/zeroconf/py.typed
-* /usr/lib/python3.12/site-packages/zeroconf/_cache.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_cache.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_cache.py
-* /usr/lib/python3.12/site-packages/zeroconf/_core.py
-* /usr/lib/python3.12/site-packages/zeroconf/_dns.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_dns.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_dns.py
-* /usr/lib/python3.12/site-packages/zeroconf/_engine.py
-* /usr/lib/python3.12/site-packages/zeroconf/_exceptions.py
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/answers.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/answers.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/answers.py
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/multicast_outgoing_queue.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/multicast_outgoing_queue.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/multicast_outgoing_queue.py
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/query_handler.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/query_handler.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/query_handler.py
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/record_manager.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/record_manager.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/record_manager.py
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__init__.py
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/answers.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/answers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/multicast_outgoing_queue.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/multicast_outgoing_queue.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/query_handler.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/query_handler.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/record_manager.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/record_manager.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_history.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_history.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_history.py
-* /usr/lib/python3.12/site-packages/zeroconf/_listener.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_listener.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_listener.py
-* /usr/lib/python3.12/site-packages/zeroconf/_logger.py
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/incoming.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/incoming.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/incoming.py
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/outgoing.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/outgoing.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/outgoing.py
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__init__.py
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/incoming.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/incoming.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/outgoing.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/outgoing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_record_update.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_record_update.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_record_update.py
-* /usr/lib/python3.12/site-packages/zeroconf/_services/browser.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_services/browser.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_services/browser.py
-* /usr/lib/python3.12/site-packages/zeroconf/_services/info.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_services/info.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_services/info.py
-* /usr/lib/python3.12/site-packages/zeroconf/_services/registry.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_services/registry.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_services/registry.py
-* /usr/lib/python3.12/site-packages/zeroconf/_services/types.py
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__init__.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__init__.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__init__.py
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/browser.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/browser.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/info.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/info.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/registry.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/registry.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/types.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/types.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_transport.py
-* /usr/lib/python3.12/site-packages/zeroconf/_updates.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_updates.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_updates.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/asyncio.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/ipaddress.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/ipaddress.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/ipaddress.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/name.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/net.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/time.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/time.pxd
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/time.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__init__.py
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/asyncio.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/asyncio.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/ipaddress.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/ipaddress.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/name.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/name.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/net.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/net.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/time.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/time.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__init__.py
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/asyncio.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/asyncio.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/const.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/const.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_cache.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_cache.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_core.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_core.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_dns.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_dns.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_engine.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_engine.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_exceptions.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_exceptions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_history.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_history.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_listener.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_listener.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_logger.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_logger.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_record_update.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_record_update.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_transport.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_transport.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_updates.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_updates.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-zeroconf-0.132.2/Changelog
-* /usr/share/doc/python3-zeroconf-0.132.2/COPYING
-* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.GPLv2
-* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.GPLv3
-* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.LGPLv2.1
-* /usr/share/doc/python3-zeroconf-0.132.2/COPYING.LGPLv3
-* /usr/share/doc/python3-zeroconf-0.132.2/CREDITS
-* /usr/share/doc/python3-zeroconf-0.132.2/INSTALL.md
-* /usr/share/doc/python3-zeroconf-0.132.2/README.md
-* /usr/share/doc/python3-zeroconf-0.132.2/README.rst
-* /usr/share/doc/python3-zeroconf-0.132.2/RELEASE
-* /usr/share/doc/python3-zeroconf-0.132.2/RELEASE_NOTES
-* /usr/share/doc/python3-zeroconf-0.132.2/VERSION
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/COPYING
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/METADATA
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/RECORD
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/WHEEL
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/asyncio.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/const.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/py.typed
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_cache.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_cache.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_cache.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_core.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_dns.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_dns.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_dns.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_engine.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_exceptions.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/answers.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/answers.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/answers.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/multicast_outgoing_queue.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/multicast_outgoing_queue.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/multicast_outgoing_queue.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/query_handler.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/query_handler.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/query_handler.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/record_manager.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/record_manager.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/record_manager.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__init__.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/answers.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/answers.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/multicast_outgoing_queue.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/multicast_outgoing_queue.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/query_handler.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/query_handler.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/record_manager.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/record_manager.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_handlers/__pycache__/__init__.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_history.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_history.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_history.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_listener.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_listener.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_listener.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_logger.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/incoming.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/incoming.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/incoming.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/outgoing.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/outgoing.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/outgoing.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__init__.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/incoming.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/incoming.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/outgoing.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/outgoing.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_protocol/__pycache__/__init__.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_record_update.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_record_update.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_record_update.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/browser.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/browser.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/browser.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/info.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/info.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/info.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/registry.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/registry.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/registry.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/types.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__init__.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__init__.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__init__.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/browser.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/browser.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/info.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/info.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/registry.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/registry.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/types.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/types.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_services/__pycache__/__init__.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_transport.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_updates.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_updates.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_updates.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/asyncio.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/ipaddress.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/ipaddress.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/ipaddress.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/name.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/net.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/time.cpython-312-x86_64-linux-gnu.so
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/time.pxd
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/time.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__init__.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/asyncio.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/asyncio.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/ipaddress.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/ipaddress.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/name.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/name.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/net.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/net.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/time.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/time.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/_utils/__pycache__/__init__.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__init__.py
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/asyncio.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/asyncio.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/const.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/const.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_cache.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_cache.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_core.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_core.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_dns.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_dns.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_engine.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_engine.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_exceptions.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_exceptions.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_history.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_history.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_listener.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_listener.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_logger.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_logger.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_record_update.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_record_update.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_transport.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_transport.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_updates.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_updates.cpython-312.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-zeroconf /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.pyc
+* python3-zeroconf /usr/share/doc/python3-zeroconf-0.133.0/COPYING
+* python3-zeroconf /usr/share/doc/python3-zeroconf-0.133.0/README.rst

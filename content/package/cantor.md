@@ -1,256 +1,255 @@
 +++
 draft = false
-title = "cantor 24.05.2-1"
-version = "24.05.2-1"
+title = "./cantor 24.08.0-1"
+version = "24.08.0-1"
 description = "KDE Frontend to Mathematical Software."
-date = "2024-07-05T15:10:42"
-aliases = "/packages/152823"
+date = "2024-08-23T20:38:34"
+aliases = "/packages/222253"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2247664"
-usize = "8357756"
-sha1sum = "5e747a44b498c03a87132a367e29dc4c1768832e"
-depends = "['analitza>=24.05.2', 'julia>=1.0.2', 'knewstuff5>=5.116.0', 'kpty>=5.116.0', 'ktexteditor5>=5.116.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.14', 'r']"
-reverse_depends = "['labplot']"
+size = "2248076"
+usize = "8408889"
+sha1sum = "93b456738ec2274f53492a78d28c607bb1a80455"
+depends = "['analitza>=24.08.0', 'julia>=1.0.2', 'knewstuff5>=5.116.0', 'kpty>=5.116.0', 'ktexteditor5>=5.116.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5', 'python3>=3.12', 'qt5-webengine>=5.15.14', 'r']"
 +++
 ### Description: 
 KDE Frontend to Mathematical Software.
 
 ### Files: 
-* /usr/bin/cantor
-* /usr/bin/cantor_juliaserver
-* /usr/bin/cantor_pythonserver
-* /usr/bin/cantor_rserver
-* /usr/bin/cantor_scripteditor
-* /usr/include/cantor/animationresult.h
-* /usr/include/cantor/backend.h
-* /usr/include/cantor/cantorlibs_version.h
-* /usr/include/cantor/cantor_export.h
-* /usr/include/cantor/cantor_macros.h
-* /usr/include/cantor/completionobject.h
-* /usr/include/cantor/defaulthighlighter.h
-* /usr/include/cantor/defaultvariablemodel.h
-* /usr/include/cantor/epsresult.h
-* /usr/include/cantor/expression.h
-* /usr/include/cantor/extension.h
-* /usr/include/cantor/graphicpackage.h
-* /usr/include/cantor/helpresult.h
-* /usr/include/cantor/htmlresult.h
-* /usr/include/cantor/imageresult.h
-* /usr/include/cantor/jupyterutils.h
-* /usr/include/cantor/latexresult.h
-* /usr/include/cantor/mimeresult.h
-* /usr/include/cantor/panelplugin.h
-* /usr/include/cantor/panelpluginhandler.h
-* /usr/include/cantor/renderer.h
-* /usr/include/cantor/result.h
-* /usr/include/cantor/session.h
-* /usr/include/cantor/syntaxhelpobject.h
-* /usr/include/cantor/textresult.h
-* /usr/include/cantor/worksheetaccess.h
-* /usr/lib/cantor_pythonbackend.so
-* /usr/lib/cmake/Cantor/CantorConfig.cmake
-* /usr/lib/cmake/Cantor/CantorConfigVersion.cmake
-* /usr/lib/cmake/Cantor/CantorTargets-release.cmake
-* /usr/lib/cmake/Cantor/CantorTargets.cmake
-* /usr/lib/libcantorlibs.so
-* /usr/lib/libcantorlibs.so.24.05.2
-* /usr/lib/libcantorlibs.so.28
-* /usr/lib/libcantor_config.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_advancedplotassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_creatematrixassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_differentiateassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_eigenvaluesassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_eigenvectorsassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_importpackageassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_integrateassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_invertmatrixassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_plot2dassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_plot3dassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_qalculateplotassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_runscriptassistant.so
-* /usr/lib/qt5/plugins/cantor/assistants/cantor_solveassistant.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_juliabackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_luabackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_maximabackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_octavebackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_pythonbackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_qalculatebackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_rbackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_sagebackend.so
-* /usr/lib/qt5/plugins/cantor/backends/cantor_scilabbackend.so
-* /usr/lib/qt5/plugins/cantor/panels/cantor_documentationpanelplugin.so
-* /usr/lib/qt5/plugins/cantor/panels/cantor_filebrowserpanelplugin.so
-* /usr/lib/qt5/plugins/cantor/panels/cantor_helppanelplugin.so
-* /usr/lib/qt5/plugins/cantor/panels/cantor_tocpanelplugin.so
-* /usr/lib/qt5/plugins/cantor/panels/cantor_variablemanagerplugin.so
-* /usr/lib/qt5/plugins/kf5/parts/cantorpart.so
-* /usr/share/applications/org.kde.cantor.desktop
-* /usr/share/cantor/julia/graphic_packages.xml
-* /usr/share/cantor/juliabackend/scripts/variables_cleaner.jl
-* /usr/share/cantor/juliabackend/scripts/variables_loader.jl
-* /usr/share/cantor/juliabackend/scripts/variables_saver.jl
-* /usr/share/cantor/latex/preview.sty
-* /usr/share/cantor/maximabackend/cantor-initmaxima.lisp
-* /usr/share/cantor/octave/graphic_packages.xml
-* /usr/share/cantor/octavebackend/cantor_eigenvectors.m
-* /usr/share/cantor/octavebackend/cantor_plot2d.m
-* /usr/share/cantor/octavebackend/cantor_plot3d.m
-* /usr/share/cantor/python/graphic_packages.xml
-* /usr/share/cantor/xslt/latex.xsl
-* /usr/share/config.kcfg/cantor.kcfg
-* /usr/share/config.kcfg/cantor_libs.kcfg
-* /usr/share/config.kcfg/juliabackend.kcfg
-* /usr/share/config.kcfg/luabackend.kcfg
-* /usr/share/config.kcfg/maximabackend.kcfg
-* /usr/share/config.kcfg/octavebackend.kcfg.in
-* /usr/share/config.kcfg/pythonbackend.kcfg
-* /usr/share/config.kcfg/qalculatebackend.kcfg
-* /usr/share/config.kcfg/rserver.kcfg
-* /usr/share/config.kcfg/sagebackend.kcfg
-* /usr/share/config.kcfg/scilabbackend.kcfg
-* /usr/share/doc/cantor-24.05.2/README.md
-* /usr/share/doc/HTML/ca/cantor/create-dlg.png
-* /usr/share/doc/HTML/ca/cantor/differentiate-dlg.png
-* /usr/share/doc/HTML/ca/cantor/import-dlg.png
-* /usr/share/doc/HTML/ca/cantor/index.cache.bz2
-* /usr/share/doc/HTML/ca/cantor/index.docbook
-* /usr/share/doc/HTML/ca/cantor/integrate-dlg.png
-* /usr/share/doc/HTML/ca/cantor/matrix-dlg.png
-* /usr/share/doc/HTML/ca/cantor/plot-dlg1.png
-* /usr/share/doc/HTML/ca/cantor/plot-dlg2.png
-* /usr/share/doc/HTML/ca/cantor/plot2d-dlg.png
-* /usr/share/doc/HTML/ca/cantor/plot3d-dlg.png
-* /usr/share/doc/HTML/ca/cantor/screenshot.png
-* /usr/share/doc/HTML/ca/cantor/solve-equations-dlg.png
-* /usr/share/doc/HTML/de/cantor/index.cache.bz2
-* /usr/share/doc/HTML/de/cantor/index.docbook
-* /usr/share/doc/HTML/en/cantor/create-dlg.png
-* /usr/share/doc/HTML/en/cantor/differentiate-dlg.png
-* /usr/share/doc/HTML/en/cantor/import-dlg.png
-* /usr/share/doc/HTML/en/cantor/index.cache.bz2
-* /usr/share/doc/HTML/en/cantor/index.docbook
-* /usr/share/doc/HTML/en/cantor/integrate-dlg.png
-* /usr/share/doc/HTML/en/cantor/latex_formula.png
-* /usr/share/doc/HTML/en/cantor/matrix-dlg.png
-* /usr/share/doc/HTML/en/cantor/plot-dlg1.png
-* /usr/share/doc/HTML/en/cantor/plot-dlg2.png
-* /usr/share/doc/HTML/en/cantor/plot2d-dlg.png
-* /usr/share/doc/HTML/en/cantor/plot3d-dlg.png
-* /usr/share/doc/HTML/en/cantor/screenshot.png
-* /usr/share/doc/HTML/en/cantor/solve-equations-dlg.png
-* /usr/share/doc/HTML/es/cantor/index.cache.bz2
-* /usr/share/doc/HTML/es/cantor/index.docbook
-* /usr/share/doc/HTML/es/cantor/screenshot.png
-* /usr/share/doc/HTML/et/cantor/index.cache.bz2
-* /usr/share/doc/HTML/et/cantor/index.docbook
-* /usr/share/doc/HTML/fr/cantor/index.cache.bz2
-* /usr/share/doc/HTML/fr/cantor/index.docbook
-* /usr/share/doc/HTML/fr/cantor/screenshot.png
-* /usr/share/doc/HTML/gl/cantor/index.cache.bz2
-* /usr/share/doc/HTML/gl/cantor/index.docbook
-* /usr/share/doc/HTML/it/cantor/index.cache.bz2
-* /usr/share/doc/HTML/it/cantor/index.docbook
-* /usr/share/doc/HTML/nl/cantor/index.cache.bz2
-* /usr/share/doc/HTML/nl/cantor/index.docbook
-* /usr/share/doc/HTML/pt/cantor/index.cache.bz2
-* /usr/share/doc/HTML/pt/cantor/index.docbook
-* /usr/share/doc/HTML/pt_BR/cantor/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/cantor/index.docbook
-* /usr/share/doc/HTML/pt_BR/cantor/screenshot.png
-* /usr/share/doc/HTML/ru/cantor/index.cache.bz2
-* /usr/share/doc/HTML/ru/cantor/index.docbook
-* /usr/share/doc/HTML/sv/cantor/index.cache.bz2
-* /usr/share/doc/HTML/sv/cantor/index.docbook
-* /usr/share/doc/HTML/uk/cantor/create-dlg.png
-* /usr/share/doc/HTML/uk/cantor/differentiate-dlg.png
-* /usr/share/doc/HTML/uk/cantor/import-dlg.png
-* /usr/share/doc/HTML/uk/cantor/index.cache.bz2
-* /usr/share/doc/HTML/uk/cantor/index.docbook
-* /usr/share/doc/HTML/uk/cantor/integrate-dlg.png
-* /usr/share/doc/HTML/uk/cantor/matrix-dlg.png
-* /usr/share/doc/HTML/uk/cantor/plot-dlg1.png
-* /usr/share/doc/HTML/uk/cantor/plot-dlg2.png
-* /usr/share/doc/HTML/uk/cantor/plot2d-dlg.png
-* /usr/share/doc/HTML/uk/cantor/plot3d-dlg.png
-* /usr/share/doc/HTML/uk/cantor/screenshot.png
-* /usr/share/doc/HTML/uk/cantor/solve-equations-dlg.png
-* /usr/share/icons/hicolor/128x128/apps/cantor.png
-* /usr/share/icons/hicolor/16x16/apps/cantor.png
-* /usr/share/icons/hicolor/22x22/apps/cantor.png
-* /usr/share/icons/hicolor/32x32/apps/cantor.png
-* /usr/share/icons/hicolor/48x48/apps/cantor.png
-* /usr/share/icons/hicolor/48x48/apps/juliabackend.png
-* /usr/share/icons/hicolor/48x48/apps/kalgebrabackend.png
-* /usr/share/icons/hicolor/48x48/apps/luabackend.png
-* /usr/share/icons/hicolor/48x48/apps/maximabackend.png
-* /usr/share/icons/hicolor/48x48/apps/octavebackend.png
-* /usr/share/icons/hicolor/48x48/apps/pythonbackend.png
-* /usr/share/icons/hicolor/48x48/apps/qalculatebackend.png
-* /usr/share/icons/hicolor/48x48/apps/rbackend.png
-* /usr/share/icons/hicolor/48x48/apps/sagebackend.png
-* /usr/share/icons/hicolor/48x48/apps/scilabbackend.png
-* /usr/share/icons/hicolor/64x64/apps/cantor.png
-* /usr/share/knsrcfiles/cantor-documentation.knsrc
-* /usr/share/knsrcfiles/cantor.knsrc
-* /usr/share/knsrcfiles/cantor_lua.knsrc
-* /usr/share/knsrcfiles/cantor_maxima.knsrc
-* /usr/share/knsrcfiles/cantor_octave.knsrc
-* /usr/share/knsrcfiles/cantor_python.knsrc
-* /usr/share/knsrcfiles/cantor_qalculate.knsrc
-* /usr/share/knsrcfiles/cantor_r.knsrc
-* /usr/share/knsrcfiles/cantor_sage.knsrc
-* /usr/share/knsrcfiles/cantor_scilab.knsrc
-* /usr/share/locale/ar/LC_MESSAGES/cantor.mo
-* /usr/share/locale/bg/LC_MESSAGES/cantor.mo
-* /usr/share/locale/bs/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ca/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/cantor.mo
-* /usr/share/locale/cs/LC_MESSAGES/cantor.mo
-* /usr/share/locale/da/LC_MESSAGES/cantor.mo
-* /usr/share/locale/de/LC_MESSAGES/cantor.mo
-* /usr/share/locale/el/LC_MESSAGES/cantor.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/cantor.mo
-* /usr/share/locale/eo/LC_MESSAGES/cantor.mo
-* /usr/share/locale/es/LC_MESSAGES/cantor.mo
-* /usr/share/locale/et/LC_MESSAGES/cantor.mo
-* /usr/share/locale/eu/LC_MESSAGES/cantor.mo
-* /usr/share/locale/fi/LC_MESSAGES/cantor.mo
-* /usr/share/locale/fr/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ga/LC_MESSAGES/cantor.mo
-* /usr/share/locale/gl/LC_MESSAGES/cantor.mo
-* /usr/share/locale/hr/LC_MESSAGES/cantor.mo
-* /usr/share/locale/hu/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ia/LC_MESSAGES/cantor.mo
-* /usr/share/locale/it/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ja/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ka/LC_MESSAGES/cantor.mo
-* /usr/share/locale/kk/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ko/LC_MESSAGES/cantor.mo
-* /usr/share/locale/lt/LC_MESSAGES/cantor.mo
-* /usr/share/locale/lv/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ml/LC_MESSAGES/cantor.mo
-* /usr/share/locale/mr/LC_MESSAGES/cantor.mo
-* /usr/share/locale/nb/LC_MESSAGES/cantor.mo
-* /usr/share/locale/nds/LC_MESSAGES/cantor.mo
-* /usr/share/locale/nl/LC_MESSAGES/cantor.mo
-* /usr/share/locale/nn/LC_MESSAGES/cantor.mo
-* /usr/share/locale/pa/LC_MESSAGES/cantor.mo
-* /usr/share/locale/pl/LC_MESSAGES/cantor.mo
-* /usr/share/locale/pt/LC_MESSAGES/cantor.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ro/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ru/LC_MESSAGES/cantor.mo
-* /usr/share/locale/sk/LC_MESSAGES/cantor.mo
-* /usr/share/locale/sl/LC_MESSAGES/cantor.mo
-* /usr/share/locale/sv/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ta/LC_MESSAGES/cantor.mo
-* /usr/share/locale/th/LC_MESSAGES/cantor.mo
-* /usr/share/locale/tr/LC_MESSAGES/cantor.mo
-* /usr/share/locale/ug/LC_MESSAGES/cantor.mo
-* /usr/share/locale/uk/LC_MESSAGES/cantor.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/cantor.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/cantor.mo
-* /usr/share/metainfo/org.kde.cantor.appdata.xml
-* /usr/share/mime/packages/cantor.xml
+* cantor /usr/bin/cantor
+* cantor /usr/bin/cantor_juliaserver
+* cantor /usr/bin/cantor_pythonserver
+* cantor /usr/bin/cantor_rserver
+* cantor /usr/bin/cantor_scripteditor
+* cantor /usr/include/cantor/animationresult.h
+* cantor /usr/include/cantor/backend.h
+* cantor /usr/include/cantor/cantorlibs_version.h
+* cantor /usr/include/cantor/cantor_export.h
+* cantor /usr/include/cantor/cantor_macros.h
+* cantor /usr/include/cantor/completionobject.h
+* cantor /usr/include/cantor/defaulthighlighter.h
+* cantor /usr/include/cantor/defaultvariablemodel.h
+* cantor /usr/include/cantor/epsresult.h
+* cantor /usr/include/cantor/expression.h
+* cantor /usr/include/cantor/extension.h
+* cantor /usr/include/cantor/graphicpackage.h
+* cantor /usr/include/cantor/helpresult.h
+* cantor /usr/include/cantor/htmlresult.h
+* cantor /usr/include/cantor/imageresult.h
+* cantor /usr/include/cantor/jupyterutils.h
+* cantor /usr/include/cantor/latexresult.h
+* cantor /usr/include/cantor/mimeresult.h
+* cantor /usr/include/cantor/panelplugin.h
+* cantor /usr/include/cantor/panelpluginhandler.h
+* cantor /usr/include/cantor/renderer.h
+* cantor /usr/include/cantor/result.h
+* cantor /usr/include/cantor/session.h
+* cantor /usr/include/cantor/syntaxhelpobject.h
+* cantor /usr/include/cantor/textresult.h
+* cantor /usr/include/cantor/worksheetaccess.h
+* cantor /usr/lib/cantor_pythonbackend.so
+* cantor /usr/lib/cmake/Cantor/CantorConfig.cmake
+* cantor /usr/lib/cmake/Cantor/CantorConfigVersion.cmake
+* cantor /usr/lib/cmake/Cantor/CantorTargets-release.cmake
+* cantor /usr/lib/cmake/Cantor/CantorTargets.cmake
+* cantor /usr/lib/libcantorlibs.so
+* cantor /usr/lib/libcantorlibs.so.24.08.0
+* cantor /usr/lib/libcantorlibs.so.28
+* cantor /usr/lib/libcantor_config.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_advancedplotassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_creatematrixassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_differentiateassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_eigenvaluesassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_eigenvectorsassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_importpackageassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_integrateassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_invertmatrixassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_plot2dassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_plot3dassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_qalculateplotassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_runscriptassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/assistants/cantor_solveassistant.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_juliabackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_luabackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_maximabackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_octavebackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_pythonbackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_qalculatebackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_rbackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_sagebackend.so
+* cantor /usr/lib/qt5/plugins/cantor/backends/cantor_scilabbackend.so
+* cantor /usr/lib/qt5/plugins/cantor/panels/cantor_documentationpanelplugin.so
+* cantor /usr/lib/qt5/plugins/cantor/panels/cantor_filebrowserpanelplugin.so
+* cantor /usr/lib/qt5/plugins/cantor/panels/cantor_helppanelplugin.so
+* cantor /usr/lib/qt5/plugins/cantor/panels/cantor_tocpanelplugin.so
+* cantor /usr/lib/qt5/plugins/cantor/panels/cantor_variablemanagerplugin.so
+* cantor /usr/lib/qt5/plugins/kf5/parts/cantorpart.so
+* cantor /usr/share/applications/org.kde.cantor.desktop
+* cantor /usr/share/cantor/julia/graphic_packages.xml
+* cantor /usr/share/cantor/juliabackend/scripts/variables_cleaner.jl
+* cantor /usr/share/cantor/juliabackend/scripts/variables_loader.jl
+* cantor /usr/share/cantor/juliabackend/scripts/variables_saver.jl
+* cantor /usr/share/cantor/latex/preview.sty
+* cantor /usr/share/cantor/maximabackend/cantor-initmaxima.lisp
+* cantor /usr/share/cantor/octave/graphic_packages.xml
+* cantor /usr/share/cantor/octavebackend/cantor_eigenvectors.m
+* cantor /usr/share/cantor/octavebackend/cantor_plot2d.m
+* cantor /usr/share/cantor/octavebackend/cantor_plot3d.m
+* cantor /usr/share/cantor/python/graphic_packages.xml
+* cantor /usr/share/cantor/xslt/latex.xsl
+* cantor /usr/share/config.kcfg/cantor.kcfg
+* cantor /usr/share/config.kcfg/cantor_libs.kcfg
+* cantor /usr/share/config.kcfg/juliabackend.kcfg
+* cantor /usr/share/config.kcfg/luabackend.kcfg
+* cantor /usr/share/config.kcfg/maximabackend.kcfg
+* cantor /usr/share/config.kcfg/octavebackend.kcfg.in
+* cantor /usr/share/config.kcfg/pythonbackend.kcfg
+* cantor /usr/share/config.kcfg/qalculatebackend.kcfg
+* cantor /usr/share/config.kcfg/rserver.kcfg
+* cantor /usr/share/config.kcfg/sagebackend.kcfg
+* cantor /usr/share/config.kcfg/scilabbackend.kcfg
+* cantor /usr/share/doc/cantor-24.08.0/README.md
+* cantor /usr/share/doc/HTML/ca/cantor/create-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/differentiate-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/import-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/ca/cantor/index.docbook
+* cantor /usr/share/doc/HTML/ca/cantor/integrate-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/matrix-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/plot-dlg1.png
+* cantor /usr/share/doc/HTML/ca/cantor/plot-dlg2.png
+* cantor /usr/share/doc/HTML/ca/cantor/plot2d-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/plot3d-dlg.png
+* cantor /usr/share/doc/HTML/ca/cantor/screenshot.png
+* cantor /usr/share/doc/HTML/ca/cantor/solve-equations-dlg.png
+* cantor /usr/share/doc/HTML/de/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/de/cantor/index.docbook
+* cantor /usr/share/doc/HTML/en/cantor/create-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/differentiate-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/import-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/en/cantor/index.docbook
+* cantor /usr/share/doc/HTML/en/cantor/integrate-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/latex_formula.png
+* cantor /usr/share/doc/HTML/en/cantor/matrix-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/plot-dlg1.png
+* cantor /usr/share/doc/HTML/en/cantor/plot-dlg2.png
+* cantor /usr/share/doc/HTML/en/cantor/plot2d-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/plot3d-dlg.png
+* cantor /usr/share/doc/HTML/en/cantor/screenshot.png
+* cantor /usr/share/doc/HTML/en/cantor/solve-equations-dlg.png
+* cantor /usr/share/doc/HTML/es/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/es/cantor/index.docbook
+* cantor /usr/share/doc/HTML/es/cantor/screenshot.png
+* cantor /usr/share/doc/HTML/et/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/et/cantor/index.docbook
+* cantor /usr/share/doc/HTML/fr/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/fr/cantor/index.docbook
+* cantor /usr/share/doc/HTML/fr/cantor/screenshot.png
+* cantor /usr/share/doc/HTML/gl/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/gl/cantor/index.docbook
+* cantor /usr/share/doc/HTML/it/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/it/cantor/index.docbook
+* cantor /usr/share/doc/HTML/nl/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/nl/cantor/index.docbook
+* cantor /usr/share/doc/HTML/pt/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/pt/cantor/index.docbook
+* cantor /usr/share/doc/HTML/pt_BR/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/pt_BR/cantor/index.docbook
+* cantor /usr/share/doc/HTML/pt_BR/cantor/screenshot.png
+* cantor /usr/share/doc/HTML/ru/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/ru/cantor/index.docbook
+* cantor /usr/share/doc/HTML/sv/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/sv/cantor/index.docbook
+* cantor /usr/share/doc/HTML/uk/cantor/create-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/differentiate-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/import-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/index.cache.bz2
+* cantor /usr/share/doc/HTML/uk/cantor/index.docbook
+* cantor /usr/share/doc/HTML/uk/cantor/integrate-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/matrix-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/plot-dlg1.png
+* cantor /usr/share/doc/HTML/uk/cantor/plot-dlg2.png
+* cantor /usr/share/doc/HTML/uk/cantor/plot2d-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/plot3d-dlg.png
+* cantor /usr/share/doc/HTML/uk/cantor/screenshot.png
+* cantor /usr/share/doc/HTML/uk/cantor/solve-equations-dlg.png
+* cantor /usr/share/icons/hicolor/128x128/apps/cantor.png
+* cantor /usr/share/icons/hicolor/16x16/apps/cantor.png
+* cantor /usr/share/icons/hicolor/22x22/apps/cantor.png
+* cantor /usr/share/icons/hicolor/32x32/apps/cantor.png
+* cantor /usr/share/icons/hicolor/48x48/apps/cantor.png
+* cantor /usr/share/icons/hicolor/48x48/apps/juliabackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/kalgebrabackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/luabackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/maximabackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/octavebackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/pythonbackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/qalculatebackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/rbackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/sagebackend.png
+* cantor /usr/share/icons/hicolor/48x48/apps/scilabbackend.png
+* cantor /usr/share/icons/hicolor/64x64/apps/cantor.png
+* cantor /usr/share/knsrcfiles/cantor-documentation.knsrc
+* cantor /usr/share/knsrcfiles/cantor.knsrc
+* cantor /usr/share/knsrcfiles/cantor_lua.knsrc
+* cantor /usr/share/knsrcfiles/cantor_maxima.knsrc
+* cantor /usr/share/knsrcfiles/cantor_octave.knsrc
+* cantor /usr/share/knsrcfiles/cantor_python.knsrc
+* cantor /usr/share/knsrcfiles/cantor_qalculate.knsrc
+* cantor /usr/share/knsrcfiles/cantor_r.knsrc
+* cantor /usr/share/knsrcfiles/cantor_sage.knsrc
+* cantor /usr/share/knsrcfiles/cantor_scilab.knsrc
+* cantor /usr/share/locale/ar/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/bg/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/bs/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ca/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ca@valencia/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/cs/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/da/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/de/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/el/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/en_GB/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/eo/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/es/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/et/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/eu/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/fi/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/fr/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ga/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/gl/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/hr/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/hu/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ia/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/it/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ja/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ka/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/kk/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ko/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/lt/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/lv/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ml/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/mr/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/nb/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/nds/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/nl/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/nn/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/pa/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/pl/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/pt/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/pt_BR/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ro/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ru/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/sk/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/sl/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/sv/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ta/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/th/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/tr/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/ug/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/uk/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/zh_CN/LC_MESSAGES/cantor.mo
+* cantor /usr/share/locale/zh_TW/LC_MESSAGES/cantor.mo
+* cantor /usr/share/metainfo/org.kde.cantor.appdata.xml
+* cantor /usr/share/mime/packages/cantor.xml

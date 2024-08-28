@@ -12,7 +12,7 @@ size = "241936"
 usize = "699244"
 sha1sum = "d6f38c51e5e1463605685db28d454ecf41622688"
 depends = "['ladspa_sdk', 'libpulse', 'libsndfile', 'ncurses>=6.1-2', 'readline>=8.0']"
-reverse_depends = "['calf', 'dosbox-x', 'minuet', 'mpd', 'scummvm', 'vlc-fluidsynth']"
+reverse_depends = "['./minuet', 'calf', 'dosbox-x', 'minuet', 'mpd', 'scummvm', 'vlc-fluidsynth']"
 +++
 ### Description: 
 A real-time software synthesizer based on the SoundFont 2 specifications.

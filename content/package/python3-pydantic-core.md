@@ -12,7 +12,7 @@ size = "1498340"
 usize = "5407026"
 sha1sum = "43238f9f4ae4782d6ce1fbc9b6941b3e1b9557ea"
 depends = "['python3-typing_extensions']"
-reverse_depends = "['python3-pydantic']"
+reverse_depends = "['./python3-pydantic', 'python3-pydantic']"
 +++
 ### Description: 
 Core validation logic for pydantic written in rust

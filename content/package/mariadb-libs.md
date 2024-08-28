@@ -12,7 +12,7 @@ size = "6335524"
 usize = "30228665"
 sha1sum = "2723795355d6d5da9f20d1e1677117b690022025"
 depends = "['bzip2', 'libaio', 'liburing', 'lz4', 'lzo', 'openssl>=3.0.7', 'xz', 'zlib']"
-reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
+reverse_depends = "['./mariadb', 'courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
 +++
 ### Description: 
 Mariadb library.

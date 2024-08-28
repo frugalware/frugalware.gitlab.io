@@ -1,181 +1,181 @@
 +++
 draft = false
-title = "gwenview 24.05.2-1"
-version = "24.05.2-1"
+title = "./gwenview 24.08.0-1"
+version = "24.08.0-1"
 description = "KDE Image Viewer."
-date = "2024-07-05T10:23:34"
-aliases = "/packages/74209"
+date = "2024-08-22T15:01:27"
+aliases = "/packages/222499"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6744560"
-usize = "11696125"
-sha1sum = "75ce21dfa1bad0152098e4b869fd64fa689ad288"
-depends = "['baloo>=6.3.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.3.0', 'libkdcraw>=24.05.2', 'libtiff', 'plasma-activities>=6.1.2', 'purpose>=6.3.0', 'qt6-imageformats>=6.7.1']"
+size = "6741124"
+usize = "11721901"
+sha1sum = "9e55c72ff15b4db8a8394c7815b237dd7928b570"
+depends = "['baloo>=6.5.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.5.0', 'libkdcraw>=24.08.0', 'libtiff', 'plasma-activities>=6.1.4', 'purpose>=6.5.0', 'qt6-imageformats>=6.7.1']"
 +++
 ### Description: 
 KDE Image Viewer.
 
 ### Files: 
-* /usr/bin/gwenview
-* /usr/bin/gwenview_importer
-* /usr/lib/libgwenviewlib.so.4.97.0
-* /usr/lib/libgwenviewlib.so.5
-* /usr/lib/qt6/plugins/kf6/kfileitemaction/slideshowfileitemaction.so
-* /usr/lib/qt6/plugins/kf6/parts/gvpart.so
-* /usr/share/applications/org.kde.gwenview.desktop
-* /usr/share/applications/org.kde.gwenview_importer.desktop
-* /usr/share/doc/gwenview-24.05.2/COPYING
-* /usr/share/doc/gwenview-24.05.2/COPYING.DOC
-* /usr/share/doc/gwenview-24.05.2/NEWS
-* /usr/share/doc/gwenview-24.05.2/README.md
-* /usr/share/doc/HTML/ca/gwenview/browse_mode.png
-* /usr/share/doc/HTML/ca/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/ca/gwenview/index.docbook
-* /usr/share/doc/HTML/ca/gwenview/modified-bar.png
-* /usr/share/doc/HTML/ca/gwenview/start-page.png
-* /usr/share/doc/HTML/ca/gwenview/view_mode.png
-* /usr/share/doc/HTML/de/gwenview/browse_mode.png
-* /usr/share/doc/HTML/de/gwenview/fullscreen_mode.png
-* /usr/share/doc/HTML/de/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/de/gwenview/index.docbook
-* /usr/share/doc/HTML/de/gwenview/view_mode.png
-* /usr/share/doc/HTML/en/gwenview/browse_mode.png
-* /usr/share/doc/HTML/en/gwenview/fullscreen-browse.png
-* /usr/share/doc/HTML/en/gwenview/fullscreen-view.png
-* /usr/share/doc/HTML/en/gwenview/importer-picking-root-folder.png
-* /usr/share/doc/HTML/en/gwenview/importer.png
-* /usr/share/doc/HTML/en/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/en/gwenview/index.docbook
-* /usr/share/doc/HTML/en/gwenview/modified-bar.png
-* /usr/share/doc/HTML/en/gwenview/start-page.png
-* /usr/share/doc/HTML/en/gwenview/view_mode.png
-* /usr/share/doc/HTML/es/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/es/gwenview/index.docbook
-* /usr/share/doc/HTML/id/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/id/gwenview/index.docbook
-* /usr/share/doc/HTML/it/gwenview/browse_mode.png
-* /usr/share/doc/HTML/it/gwenview/fullscreen-browse.png
-* /usr/share/doc/HTML/it/gwenview/fullscreen-view.png
-* /usr/share/doc/HTML/it/gwenview/importer-picking-root-folder.png
-* /usr/share/doc/HTML/it/gwenview/importer.png
-* /usr/share/doc/HTML/it/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/it/gwenview/index.docbook
-* /usr/share/doc/HTML/it/gwenview/modified-bar.png
-* /usr/share/doc/HTML/it/gwenview/start-page.png
-* /usr/share/doc/HTML/it/gwenview/view_mode.png
-* /usr/share/doc/HTML/nl/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/nl/gwenview/index.docbook
-* /usr/share/doc/HTML/pt/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/pt/gwenview/index.docbook
-* /usr/share/doc/HTML/pt_BR/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/gwenview/index.docbook
-* /usr/share/doc/HTML/ru/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/ru/gwenview/index.docbook
-* /usr/share/doc/HTML/sr/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/sr/gwenview/index.docbook
-* /usr/share/doc/HTML/sr@latin/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/gwenview/index.docbook
-* /usr/share/doc/HTML/sv/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/sv/gwenview/index.docbook
-* /usr/share/doc/HTML/tr/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/tr/gwenview/index.docbook
-* /usr/share/doc/HTML/uk/gwenview/browse_mode.png
-* /usr/share/doc/HTML/uk/gwenview/fullscreen-browse.png
-* /usr/share/doc/HTML/uk/gwenview/fullscreen-view.png
-* /usr/share/doc/HTML/uk/gwenview/importer-picking-root-folder.png
-* /usr/share/doc/HTML/uk/gwenview/importer.png
-* /usr/share/doc/HTML/uk/gwenview/index.cache.bz2
-* /usr/share/doc/HTML/uk/gwenview/index.docbook
-* /usr/share/doc/HTML/uk/gwenview/modified-bar.png
-* /usr/share/doc/HTML/uk/gwenview/start-page.png
-* /usr/share/doc/HTML/uk/gwenview/view_mode.png
-* /usr/share/gwenview/color-schemes/fullscreen.colors
-* /usr/share/gwenview/cursors/zoom.png
-* /usr/share/gwenview/images/background.png
-* /usr/share/icons/hicolor/128x128/actions/document-share.png
-* /usr/share/icons/hicolor/128x128/apps/gwenview.png
-* /usr/share/icons/hicolor/16x16/actions/document-share.png
-* /usr/share/icons/hicolor/16x16/apps/gwenview.png
-* /usr/share/icons/hicolor/22x22/actions/document-share.png
-* /usr/share/icons/hicolor/22x22/apps/gwenview.png
-* /usr/share/icons/hicolor/32x32/actions/document-share.png
-* /usr/share/icons/hicolor/32x32/apps/gwenview.png
-* /usr/share/icons/hicolor/48x48/actions/document-share.png
-* /usr/share/icons/hicolor/48x48/apps/gwenview.png
-* /usr/share/icons/hicolor/64x64/actions/document-share.png
-* /usr/share/icons/hicolor/64x64/apps/gwenview.png
-* /usr/share/locale/ar/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ast/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/az/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/be/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/bg/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/bn/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/bs/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ca/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/cs/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/da/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/de/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/el/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/eo/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/es/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/et/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/eu/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/fi/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/fr/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ga/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/gl/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/he/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/hi/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/hne/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/hr/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/hsb/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/hu/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ia/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/id/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ie/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/is/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/it/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ja/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ka/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/kk/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/km/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ko/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ku/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/lt/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/lv/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ml/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/mr/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/nb/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/nds/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/nl/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/nn/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/oc/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/pa/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/pl/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/pt/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ro/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ru/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sk/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sl/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sq/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sr/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/sv/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ta/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/th/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/tr/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/ug/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/uk/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/wa/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/gwenview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/gwenview.mo
-* /usr/share/metainfo/org.kde.gwenview.appdata.xml
-* /usr/share/qlogging-categories6/gwenview.categories
-* /usr/share/solid/actions/gwenview_importer.desktop
-* /usr/share/solid/actions/gwenview_importer_camera.desktop
+* gwenview /usr/bin/gwenview
+* gwenview /usr/bin/gwenview_importer
+* gwenview /usr/lib/libgwenviewlib.so.4.97.0
+* gwenview /usr/lib/libgwenviewlib.so.5
+* gwenview /usr/lib/qt6/plugins/kf6/kfileitemaction/slideshowfileitemaction.so
+* gwenview /usr/lib/qt6/plugins/kf6/parts/gvpart.so
+* gwenview /usr/share/applications/org.kde.gwenview.desktop
+* gwenview /usr/share/applications/org.kde.gwenview_importer.desktop
+* gwenview /usr/share/doc/gwenview-24.08.0/COPYING
+* gwenview /usr/share/doc/gwenview-24.08.0/COPYING.DOC
+* gwenview /usr/share/doc/gwenview-24.08.0/NEWS
+* gwenview /usr/share/doc/gwenview-24.08.0/README.md
+* gwenview /usr/share/doc/HTML/ca/gwenview/browse_mode.png
+* gwenview /usr/share/doc/HTML/ca/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/ca/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/ca/gwenview/modified-bar.png
+* gwenview /usr/share/doc/HTML/ca/gwenview/start-page.png
+* gwenview /usr/share/doc/HTML/ca/gwenview/view_mode.png
+* gwenview /usr/share/doc/HTML/de/gwenview/browse_mode.png
+* gwenview /usr/share/doc/HTML/de/gwenview/fullscreen_mode.png
+* gwenview /usr/share/doc/HTML/de/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/de/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/de/gwenview/view_mode.png
+* gwenview /usr/share/doc/HTML/en/gwenview/browse_mode.png
+* gwenview /usr/share/doc/HTML/en/gwenview/fullscreen-browse.png
+* gwenview /usr/share/doc/HTML/en/gwenview/fullscreen-view.png
+* gwenview /usr/share/doc/HTML/en/gwenview/importer-picking-root-folder.png
+* gwenview /usr/share/doc/HTML/en/gwenview/importer.png
+* gwenview /usr/share/doc/HTML/en/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/en/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/en/gwenview/modified-bar.png
+* gwenview /usr/share/doc/HTML/en/gwenview/start-page.png
+* gwenview /usr/share/doc/HTML/en/gwenview/view_mode.png
+* gwenview /usr/share/doc/HTML/es/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/es/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/id/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/id/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/it/gwenview/browse_mode.png
+* gwenview /usr/share/doc/HTML/it/gwenview/fullscreen-browse.png
+* gwenview /usr/share/doc/HTML/it/gwenview/fullscreen-view.png
+* gwenview /usr/share/doc/HTML/it/gwenview/importer-picking-root-folder.png
+* gwenview /usr/share/doc/HTML/it/gwenview/importer.png
+* gwenview /usr/share/doc/HTML/it/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/it/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/it/gwenview/modified-bar.png
+* gwenview /usr/share/doc/HTML/it/gwenview/start-page.png
+* gwenview /usr/share/doc/HTML/it/gwenview/view_mode.png
+* gwenview /usr/share/doc/HTML/nl/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/nl/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/pt/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/pt/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/pt_BR/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/pt_BR/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/ru/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/ru/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/sr/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/sr/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/sr@latin/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/sr@latin/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/sv/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/sv/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/tr/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/tr/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/uk/gwenview/browse_mode.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/fullscreen-browse.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/fullscreen-view.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/importer-picking-root-folder.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/importer.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/index.cache.bz2
+* gwenview /usr/share/doc/HTML/uk/gwenview/index.docbook
+* gwenview /usr/share/doc/HTML/uk/gwenview/modified-bar.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/start-page.png
+* gwenview /usr/share/doc/HTML/uk/gwenview/view_mode.png
+* gwenview /usr/share/gwenview/color-schemes/fullscreen.colors
+* gwenview /usr/share/gwenview/cursors/zoom.png
+* gwenview /usr/share/gwenview/images/background.png
+* gwenview /usr/share/icons/hicolor/128x128/actions/document-share.png
+* gwenview /usr/share/icons/hicolor/128x128/apps/gwenview.png
+* gwenview /usr/share/icons/hicolor/16x16/actions/document-share.png
+* gwenview /usr/share/icons/hicolor/16x16/apps/gwenview.png
+* gwenview /usr/share/icons/hicolor/22x22/actions/document-share.png
+* gwenview /usr/share/icons/hicolor/22x22/apps/gwenview.png
+* gwenview /usr/share/icons/hicolor/32x32/actions/document-share.png
+* gwenview /usr/share/icons/hicolor/32x32/apps/gwenview.png
+* gwenview /usr/share/icons/hicolor/48x48/actions/document-share.png
+* gwenview /usr/share/icons/hicolor/48x48/apps/gwenview.png
+* gwenview /usr/share/icons/hicolor/64x64/actions/document-share.png
+* gwenview /usr/share/icons/hicolor/64x64/apps/gwenview.png
+* gwenview /usr/share/locale/ar/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ast/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/az/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/be/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/bg/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/bn/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/bs/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ca/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ca@valencia/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/cs/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/da/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/de/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/el/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/en_GB/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/eo/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/es/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/et/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/eu/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/fi/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/fr/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ga/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/gl/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/he/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/hi/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/hne/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/hr/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/hsb/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/hu/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ia/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/id/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ie/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/is/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/it/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ja/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ka/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/kk/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/km/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ko/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ku/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/lt/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/lv/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ml/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/mr/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/nb/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/nds/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/nl/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/nn/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/oc/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/pa/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/pl/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/pt/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/pt_BR/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ro/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ru/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sk/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sl/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sq/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sr/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sr@ijekavian/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sr@latin/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/sv/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ta/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/th/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/tr/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/ug/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/uk/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/wa/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/zh_CN/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/locale/zh_TW/LC_MESSAGES/gwenview.mo
+* gwenview /usr/share/metainfo/org.kde.gwenview.appdata.xml
+* gwenview /usr/share/qlogging-categories6/gwenview.categories
+* gwenview /usr/share/solid/actions/gwenview_importer.desktop
+* gwenview /usr/share/solid/actions/gwenview_importer_camera.desktop

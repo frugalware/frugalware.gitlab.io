@@ -12,7 +12,7 @@ size = "28424"
 usize = "71263"
 sha1sum = "6dde4a03f272c8672ca260a79315e7ed980210d4"
 depends = "['libx11>=1.6.7-2', 'libxext>=1.3.4-2']"
-reverse_depends = "['beforelight', 'cef', 'chromium-browser', 'discord', 'dunst', 'efl', 'enlightenment', 'kaffeine', 'kidletime', 'kidletime5', 'kvirc', 'mpv', 'pidgin', 'qt5-webengine', 'r2modman', 'retroshare', 'signal-desktop', 'sim', 'slack-desktop', 'teams', 'terminology', 'tk', 'xf86-video-intel', 'xine-ui']"
+reverse_depends = "['./signal-desktop', 'beforelight', 'cef', 'chromium-browser', 'discord', 'dunst', 'efl', 'enlightenment', 'kaffeine', 'kidletime', 'kidletime5', 'kvirc', 'mpv', 'pidgin', 'qt5-webengine', 'r2modman', 'retroshare', 'signal-desktop', 'sim', 'slack-desktop', 'teams', 'terminology', 'tk', 'xf86-video-intel', 'xine-ui']"
 license = "GPL2"
 +++
 ### Description: 

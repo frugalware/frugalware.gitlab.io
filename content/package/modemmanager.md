@@ -12,7 +12,7 @@ size = "1494784"
 usize = "11479755"
 sha1sum = "fbf4619eb43cbf6d4d3226f7514400234b83a99a"
 depends = "['elfutils>=0.167-2', 'libgudev>=231-2', 'libqmi', 'libsystemd>=242', 'polkit', 'ppp>=2.5.0']"
-reverse_depends = "['fwupd', 'geoclue2', 'modemmanager-qt', 'modemmanager-qt5', 'networkmanager', 'ofono']"
+reverse_depends = "['./fwupd', 'fwupd', 'geoclue2', 'modemmanager-qt', 'modemmanager-qt5', 'networkmanager', 'ofono']"
 +++
 ### Description: 
 Mobile broadband modem management service

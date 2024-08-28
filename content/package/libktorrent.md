@@ -12,7 +12,7 @@ size = "736116"
 usize = "2810567"
 sha1sum = "d2280589c5321dd10400426f14b3d3e020703066"
 depends = "['kio>=6.3.0', 'pcre2', 'qca']"
-reverse_depends = "['kget', 'ktorrent']"
+reverse_depends = "['./kget', 'kget', 'ktorrent']"
 +++
 ### Description: 
 A BitTorrent library for KDE applications.

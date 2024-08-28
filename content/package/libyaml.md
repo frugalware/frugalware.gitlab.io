@@ -12,7 +12,7 @@ size = "54768"
 usize = "183479"
 sha1sum = "6d7b8c4869c5f492e8ee430064e279e4f97201d6"
 depends = "['glibc>=2.34']"
-reverse_depends = "['appstream', 'appstream-glib', 'dtc', 'haskell-libyaml', 'libblockdev', 'libcamera', 'libcamera-tools', 'pyyaml3', 'ruby']"
+reverse_depends = "['./dtc', 'appstream', 'appstream-glib', 'dtc', 'haskell-libyaml', 'libblockdev', 'libcamera', 'libcamera-tools', 'pyyaml3', 'ruby']"
 +++
 ### Description: 
 LibYAML is a YAML 1.1 parser and emitter written in C.

@@ -12,7 +12,7 @@ size = "38104"
 usize = "133306"
 sha1sum = "13055dde9b466c10902f753b59fab16bb2ceb91d"
 depends = "['lib32-libx11>=1.6.8', 'lib32-libxext>=1.3.3-3', 'lib32-libxfixes>=5.0.3']"
-reverse_depends = "['lib32-gtk+2-libs', 'lib32-libxtst', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'lib32-gtk+2-libs', 'lib32-libxtst', 'wine', 'wine-devel']"
 +++
 ### Description: 
 X inputextension library ( 32bit )

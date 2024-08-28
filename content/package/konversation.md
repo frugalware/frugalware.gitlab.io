@@ -1,308 +1,308 @@
 +++
 draft = false
-title = "konversation 24.05.2-1"
-version = "24.05.2-1"
+title = "./konversation 24.08.0-1"
+version = "24.08.0-1"
 description = "IRC clinet for KDE5"
-date = "2024-07-05T12:40:35"
-aliases = "/packages/218844"
+date = "2024-08-22T21:27:20"
+aliases = "/packages/222227"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4812084"
-usize = "16430967"
-sha1sum = "c9b3f45e425bf51ce600de934381e3088f7864b3"
-depends = "['kidletime>=6.3.0', 'knewstuff>=6.3.0', 'knotifyconfig>=6.3.0', 'kparts>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.1']"
+size = "4818492"
+usize = "16553964"
+sha1sum = "45e27f5e600dfa82900dd0316259c90b94661b17"
+depends = "['kidletime>=6.5.0', 'knewstuff>=6.5.0', 'knotifyconfig>=6.5.0', 'kparts>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.1']"
 +++
 ### Description: 
 IRC clinet for KDE5
 
 ### Files: 
-* /usr/bin/konversation
-* /usr/share/applications/org.kde.konversation.desktop
-* /usr/share/dbus-1/services/org.kde.konversation.service
-* /usr/share/doc/HTML/ca/konversation/index.cache.bz2
-* /usr/share/doc/HTML/ca/konversation/index.docbook
-* /usr/share/doc/HTML/en/konversation/addchannel.png
-* /usr/share/doc/HTML/en/konversation/addnetwork_co.png
-* /usr/share/doc/HTML/en/konversation/addserver_co.png
-* /usr/share/doc/HTML/en/konversation/bold-text.png
-* /usr/share/doc/HTML/en/konversation/channellist_screen_co.png
-* /usr/share/doc/HTML/en/konversation/channel_screen_tour_co.png
-* /usr/share/doc/HTML/en/konversation/checkidentities.png
-* /usr/share/doc/HTML/en/konversation/colorchooser_screen.png
-* /usr/share/doc/HTML/en/konversation/dccstatus_screen_co.png
-* /usr/share/doc/HTML/en/konversation/first_channel_co.png
-* /usr/share/doc/HTML/en/konversation/first_serverlist_co.png
-* /usr/share/doc/HTML/en/konversation/format-text-color.png
-* /usr/share/doc/HTML/en/konversation/highlighting_screen_co.png
-* /usr/share/doc/HTML/en/konversation/identities_adv_co.png
-* /usr/share/doc/HTML/en/konversation/identities_away_co.png
-* /usr/share/doc/HTML/en/konversation/identities_gen_co.png
-* /usr/share/doc/HTML/en/konversation/index.cache.bz2
-* /usr/share/doc/HTML/en/konversation/index.docbook
-* /usr/share/doc/HTML/en/konversation/irc_admin.png
-* /usr/share/doc/HTML/en/konversation/irc_away.png
-* /usr/share/doc/HTML/en/konversation/irc_halfop.png
-* /usr/share/doc/HTML/en/konversation/irc_normal.png
-* /usr/share/doc/HTML/en/konversation/irc_op.png
-* /usr/share/doc/HTML/en/konversation/irc_owner.png
-* /usr/share/doc/HTML/en/konversation/irc_voice.png
-* /usr/share/doc/HTML/en/konversation/italic-text.png
-* /usr/share/doc/HTML/en/konversation/led_blue_on.png
-* /usr/share/doc/HTML/en/konversation/led_green_on.png
-* /usr/share/doc/HTML/en/konversation/led_red_on.png
-* /usr/share/doc/HTML/en/konversation/led_yellow_on.png
-* /usr/share/doc/HTML/en/konversation/logviewer_co.png
-* /usr/share/doc/HTML/en/konversation/monospace-text.png
-* /usr/share/doc/HTML/en/konversation/nicksonline_co.png
-* /usr/share/doc/HTML/en/konversation/nickthemes_screen_co.png
-* /usr/share/doc/HTML/en/konversation/notification_screen_co.png
-* /usr/share/doc/HTML/en/konversation/notifylist_screen_co.png
-* /usr/share/doc/HTML/en/konversation/osd_demo.png
-* /usr/share/doc/HTML/en/konversation/osd_screen_co.png
-* /usr/share/doc/HTML/en/konversation/quickbuttons_screen.png
-* /usr/share/doc/HTML/en/konversation/quickconnect_screen.png
-* /usr/share/doc/HTML/en/konversation/serverlist_co.png
-* /usr/share/doc/HTML/en/konversation/struck-out-text.png
-* /usr/share/doc/HTML/en/konversation/underline-text.png
-* /usr/share/doc/HTML/en/konversation/urlcatcher_screen_co.png
-* /usr/share/doc/HTML/en/konversation/webbrowser_screen_co.png
-* /usr/share/doc/HTML/es/konversation/index.cache.bz2
-* /usr/share/doc/HTML/es/konversation/index.docbook
-* /usr/share/doc/HTML/fr/konversation/index.cache.bz2
-* /usr/share/doc/HTML/fr/konversation/index.docbook
-* /usr/share/doc/HTML/it/konversation/addchannel.png
-* /usr/share/doc/HTML/it/konversation/addnetwork_co.png
-* /usr/share/doc/HTML/it/konversation/addserver_co.png
-* /usr/share/doc/HTML/it/konversation/channellist_screen_co.png
-* /usr/share/doc/HTML/it/konversation/channel_screen_tour_co.png
-* /usr/share/doc/HTML/it/konversation/checkidentities.png
-* /usr/share/doc/HTML/it/konversation/colorchooser_screen.png
-* /usr/share/doc/HTML/it/konversation/dccstatus_screen_co.png
-* /usr/share/doc/HTML/it/konversation/first_channel_co.png
-* /usr/share/doc/HTML/it/konversation/first_serverlist_co.png
-* /usr/share/doc/HTML/it/konversation/highlighting_screen_co.png
-* /usr/share/doc/HTML/it/konversation/identities_adv_co.png
-* /usr/share/doc/HTML/it/konversation/identities_away_co.png
-* /usr/share/doc/HTML/it/konversation/identities_gen_co.png
-* /usr/share/doc/HTML/it/konversation/index.cache.bz2
-* /usr/share/doc/HTML/it/konversation/index.docbook
-* /usr/share/doc/HTML/it/konversation/logviewer_co.png
-* /usr/share/doc/HTML/it/konversation/nicksonline_co.png
-* /usr/share/doc/HTML/it/konversation/nickthemes_screen_co.png
-* /usr/share/doc/HTML/it/konversation/notification_screen_co.png
-* /usr/share/doc/HTML/it/konversation/notifylist_screen_co.png
-* /usr/share/doc/HTML/it/konversation/osd_demo.png
-* /usr/share/doc/HTML/it/konversation/osd_screen_co.png
-* /usr/share/doc/HTML/it/konversation/quickbuttons_screen.png
-* /usr/share/doc/HTML/it/konversation/quickconnect_screen.png
-* /usr/share/doc/HTML/it/konversation/serverlist_co.png
-* /usr/share/doc/HTML/it/konversation/urlcatcher_screen_co.png
-* /usr/share/doc/HTML/it/konversation/webbrowser_screen_co.png
-* /usr/share/doc/HTML/nl/konversation/index.cache.bz2
-* /usr/share/doc/HTML/nl/konversation/index.docbook
-* /usr/share/doc/HTML/sv/konversation/addchannel.png
-* /usr/share/doc/HTML/sv/konversation/addnetwork_co.png
-* /usr/share/doc/HTML/sv/konversation/addserver_co.png
-* /usr/share/doc/HTML/sv/konversation/channellist_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/channel_screen_tour_co.png
-* /usr/share/doc/HTML/sv/konversation/checkidentities.png
-* /usr/share/doc/HTML/sv/konversation/colorchooser_screen.png
-* /usr/share/doc/HTML/sv/konversation/dccstatus_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/first_channel_co.png
-* /usr/share/doc/HTML/sv/konversation/first_serverlist_co.png
-* /usr/share/doc/HTML/sv/konversation/highlighting_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/identities_adv_co.png
-* /usr/share/doc/HTML/sv/konversation/identities_away_co.png
-* /usr/share/doc/HTML/sv/konversation/identities_gen_co.png
-* /usr/share/doc/HTML/sv/konversation/index.cache.bz2
-* /usr/share/doc/HTML/sv/konversation/index.docbook
-* /usr/share/doc/HTML/sv/konversation/kimproxy_create_screen2.png
-* /usr/share/doc/HTML/sv/konversation/kimproxy_create_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/logviewer_co.png
-* /usr/share/doc/HTML/sv/konversation/nicksonline_co.png
-* /usr/share/doc/HTML/sv/konversation/nickthemes_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/notification_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/notifylist_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/osd_demo.png
-* /usr/share/doc/HTML/sv/konversation/osd_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/quickbuttons_screen.png
-* /usr/share/doc/HTML/sv/konversation/quickconnect_screen.png
-* /usr/share/doc/HTML/sv/konversation/serverlist_co.png
-* /usr/share/doc/HTML/sv/konversation/urlcatcher_screen_co.png
-* /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
-* /usr/share/doc/HTML/uk/konversation/index.cache.bz2
-* /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-24.05.2/AUTHORS
-* /usr/share/doc/konversation-24.05.2/ChangeLog
-* /usr/share/doc/konversation-24.05.2/INSTALL
-* /usr/share/doc/konversation-24.05.2/NEWS
-* /usr/share/doc/konversation-24.05.2/README
-* /usr/share/icons/hicolor/128x128/actions/konv_message.png
-* /usr/share/icons/hicolor/128x128/apps/konversation.png
-* /usr/share/icons/hicolor/16x16/actions/konv_message.png
-* /usr/share/icons/hicolor/16x16/apps/konversation.png
-* /usr/share/icons/hicolor/22x22/actions/konv_message.png
-* /usr/share/icons/hicolor/22x22/apps/konversation.png
-* /usr/share/icons/hicolor/32x32/actions/konv_message.png
-* /usr/share/icons/hicolor/32x32/apps/konversation.png
-* /usr/share/icons/hicolor/48x48/actions/konv_message.png
-* /usr/share/icons/hicolor/48x48/apps/konversation.png
-* /usr/share/icons/hicolor/64x64/actions/konv_message.png
-* /usr/share/icons/hicolor/64x64/apps/konversation.png
-* /usr/share/knotifications6/konversation.notifyrc
-* /usr/share/knsrcfiles/konversation_nicklist_theme.knsrc
-* /usr/share/konversation/scripting_support/python/konversation/dbus.py
-* /usr/share/konversation/scripting_support/python/konversation/i18n.py
-* /usr/share/konversation/scripting_support/python/konversation/__init__.py
-* /usr/share/konversation/scripts/bug
-* /usr/share/konversation/scripts/cmd
-* /usr/share/konversation/scripts/fortune
-* /usr/share/konversation/scripts/fortunes.dat
-* /usr/share/konversation/scripts/gauge
-* /usr/share/konversation/scripts/media
-* /usr/share/konversation/scripts/sayclip
-* /usr/share/konversation/scripts/sysinfo
-* /usr/share/konversation/scripts/tinyurl
-* /usr/share/konversation/scripts/uptime
-* /usr/share/konversation/themes/alternative/index.desktop
-* /usr/share/konversation/themes/alternative/irc_admin.png
-* /usr/share/konversation/themes/alternative/irc_away.png
-* /usr/share/konversation/themes/alternative/irc_halfop.png
-* /usr/share/konversation/themes/alternative/irc_normal.png
-* /usr/share/konversation/themes/alternative/irc_op.png
-* /usr/share/konversation/themes/alternative/irc_owner.png
-* /usr/share/konversation/themes/alternative/irc_voice.png
-* /usr/share/konversation/themes/christmas/index.desktop
-* /usr/share/konversation/themes/christmas/irc_admin.png
-* /usr/share/konversation/themes/christmas/irc_away.png
-* /usr/share/konversation/themes/christmas/irc_halfop.png
-* /usr/share/konversation/themes/christmas/irc_normal.png
-* /usr/share/konversation/themes/christmas/irc_op.png
-* /usr/share/konversation/themes/christmas/irc_owner.png
-* /usr/share/konversation/themes/christmas/irc_voice.png
-* /usr/share/konversation/themes/classic/index.desktop
-* /usr/share/konversation/themes/classic/irc_admin.png
-* /usr/share/konversation/themes/classic/irc_away.png
-* /usr/share/konversation/themes/classic/irc_halfop.png
-* /usr/share/konversation/themes/classic/irc_normal.png
-* /usr/share/konversation/themes/classic/irc_op.png
-* /usr/share/konversation/themes/classic/irc_owner.png
-* /usr/share/konversation/themes/classic/irc_voice.png
-* /usr/share/konversation/themes/default-dark/index.desktop
-* /usr/share/konversation/themes/default-dark/irc_admin.svg
-* /usr/share/konversation/themes/default-dark/irc_away.svg
-* /usr/share/konversation/themes/default-dark/irc_away_stacked.svg
-* /usr/share/konversation/themes/default-dark/irc_halfop.svg
-* /usr/share/konversation/themes/default-dark/irc_normal.svg
-* /usr/share/konversation/themes/default-dark/irc_op.svg
-* /usr/share/konversation/themes/default-dark/irc_owner.svg
-* /usr/share/konversation/themes/default-dark/irc_voice.svg
-* /usr/share/konversation/themes/default/index.desktop
-* /usr/share/konversation/themes/default/irc_admin.svg
-* /usr/share/konversation/themes/default/irc_away.svg
-* /usr/share/konversation/themes/default/irc_away_stacked.svg
-* /usr/share/konversation/themes/default/irc_halfop.svg
-* /usr/share/konversation/themes/default/irc_normal.svg
-* /usr/share/konversation/themes/default/irc_op.svg
-* /usr/share/konversation/themes/default/irc_owner.svg
-* /usr/share/konversation/themes/default/irc_voice.svg
-* /usr/share/konversation/themes/oxygen/index.desktop
-* /usr/share/konversation/themes/oxygen/irc_admin.png
-* /usr/share/konversation/themes/oxygen/irc_away.png
-* /usr/share/konversation/themes/oxygen/irc_halfop.png
-* /usr/share/konversation/themes/oxygen/irc_normal.png
-* /usr/share/konversation/themes/oxygen/irc_op.png
-* /usr/share/konversation/themes/oxygen/irc_owner.png
-* /usr/share/konversation/themes/oxygen/irc_voice.png
-* /usr/share/konversation/themes/simplistic/index.desktop
-* /usr/share/konversation/themes/simplistic/irc_admin.png
-* /usr/share/konversation/themes/simplistic/irc_away.png
-* /usr/share/konversation/themes/simplistic/irc_halfop.png
-* /usr/share/konversation/themes/simplistic/irc_normal.png
-* /usr/share/konversation/themes/simplistic/irc_op.png
-* /usr/share/konversation/themes/simplistic/irc_owner.png
-* /usr/share/konversation/themes/simplistic/irc_voice.png
-* /usr/share/konversation/themes/smiling/index.desktop
-* /usr/share/konversation/themes/smiling/irc_admin.png
-* /usr/share/konversation/themes/smiling/irc_away.png
-* /usr/share/konversation/themes/smiling/irc_halfop.png
-* /usr/share/konversation/themes/smiling/irc_normal.png
-* /usr/share/konversation/themes/smiling/irc_op.png
-* /usr/share/konversation/themes/smiling/irc_owner.png
-* /usr/share/konversation/themes/smiling/irc_voice.png
-* /usr/share/konversation/themes/square/index.desktop
-* /usr/share/konversation/themes/square/irc_admin.png
-* /usr/share/konversation/themes/square/irc_away.png
-* /usr/share/konversation/themes/square/irc_halfop.png
-* /usr/share/konversation/themes/square/irc_normal.png
-* /usr/share/konversation/themes/square/irc_op.png
-* /usr/share/konversation/themes/square/irc_owner.png
-* /usr/share/konversation/themes/square/irc_voice.png
-* /usr/share/locale/ar/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ast/LC_MESSAGES/konversation.mo
-* /usr/share/locale/bg/LC_MESSAGES/konversation.mo
-* /usr/share/locale/br/LC_MESSAGES/konversation.mo
-* /usr/share/locale/bs/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ca/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/konversation.mo
-* /usr/share/locale/cs/LC_MESSAGES/konversation.mo
-* /usr/share/locale/cy/LC_MESSAGES/konversation.mo
-* /usr/share/locale/da/LC_MESSAGES/konversation.mo
-* /usr/share/locale/de/LC_MESSAGES/konversation.mo
-* /usr/share/locale/el/LC_MESSAGES/konversation.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/konversation.mo
-* /usr/share/locale/eo/LC_MESSAGES/konversation.mo
-* /usr/share/locale/es/LC_MESSAGES/konversation.mo
-* /usr/share/locale/et/LC_MESSAGES/konversation.mo
-* /usr/share/locale/eu/LC_MESSAGES/konversation.mo
-* /usr/share/locale/fi/LC_MESSAGES/konversation.mo
-* /usr/share/locale/fr/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ga/LC_MESSAGES/konversation.mo
-* /usr/share/locale/gl/LC_MESSAGES/konversation.mo
-* /usr/share/locale/he/LC_MESSAGES/konversation.mo
-* /usr/share/locale/hi/LC_MESSAGES/konversation.mo
-* /usr/share/locale/hr/LC_MESSAGES/konversation.mo
-* /usr/share/locale/hu/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ia/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ie/LC_MESSAGES/konversation.mo
-* /usr/share/locale/is/LC_MESSAGES/konversation.mo
-* /usr/share/locale/it/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ja/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ka/LC_MESSAGES/konversation.mo
-* /usr/share/locale/kk/LC_MESSAGES/konversation.mo
-* /usr/share/locale/km/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ko/LC_MESSAGES/konversation.mo
-* /usr/share/locale/lt/LC_MESSAGES/konversation.mo
-* /usr/share/locale/lv/LC_MESSAGES/konversation.mo
-* /usr/share/locale/mr/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ms/LC_MESSAGES/konversation.mo
-* /usr/share/locale/mt/LC_MESSAGES/konversation.mo
-* /usr/share/locale/nb/LC_MESSAGES/konversation.mo
-* /usr/share/locale/nds/LC_MESSAGES/konversation.mo
-* /usr/share/locale/nl/LC_MESSAGES/konversation.mo
-* /usr/share/locale/nn/LC_MESSAGES/konversation.mo
-* /usr/share/locale/pa/LC_MESSAGES/konversation.mo
-* /usr/share/locale/pl/LC_MESSAGES/konversation.mo
-* /usr/share/locale/pt/LC_MESSAGES/konversation.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ro/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ru/LC_MESSAGES/konversation.mo
-* /usr/share/locale/rw/LC_MESSAGES/konversation.mo
-* /usr/share/locale/si/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sk/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sl/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sq/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sr/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/konversation.mo
-* /usr/share/locale/sv/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ta/LC_MESSAGES/konversation.mo
-* /usr/share/locale/tr/LC_MESSAGES/konversation.mo
-* /usr/share/locale/ug/LC_MESSAGES/konversation.mo
-* /usr/share/locale/uk/LC_MESSAGES/konversation.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/konversation.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/konversation.mo
-* /usr/share/metainfo/org.kde.konversation.appdata.xml
-* /usr/share/qlogging-categories6/konversation.categories
+* konversation /usr/bin/konversation
+* konversation /usr/share/applications/org.kde.konversation.desktop
+* konversation /usr/share/dbus-1/services/org.kde.konversation.service
+* konversation /usr/share/doc/HTML/ca/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/ca/konversation/index.docbook
+* konversation /usr/share/doc/HTML/en/konversation/addchannel.png
+* konversation /usr/share/doc/HTML/en/konversation/addnetwork_co.png
+* konversation /usr/share/doc/HTML/en/konversation/addserver_co.png
+* konversation /usr/share/doc/HTML/en/konversation/bold-text.png
+* konversation /usr/share/doc/HTML/en/konversation/channellist_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/channel_screen_tour_co.png
+* konversation /usr/share/doc/HTML/en/konversation/checkidentities.png
+* konversation /usr/share/doc/HTML/en/konversation/colorchooser_screen.png
+* konversation /usr/share/doc/HTML/en/konversation/dccstatus_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/first_channel_co.png
+* konversation /usr/share/doc/HTML/en/konversation/first_serverlist_co.png
+* konversation /usr/share/doc/HTML/en/konversation/format-text-color.png
+* konversation /usr/share/doc/HTML/en/konversation/highlighting_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/identities_adv_co.png
+* konversation /usr/share/doc/HTML/en/konversation/identities_away_co.png
+* konversation /usr/share/doc/HTML/en/konversation/identities_gen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/en/konversation/index.docbook
+* konversation /usr/share/doc/HTML/en/konversation/irc_admin.png
+* konversation /usr/share/doc/HTML/en/konversation/irc_away.png
+* konversation /usr/share/doc/HTML/en/konversation/irc_halfop.png
+* konversation /usr/share/doc/HTML/en/konversation/irc_normal.png
+* konversation /usr/share/doc/HTML/en/konversation/irc_op.png
+* konversation /usr/share/doc/HTML/en/konversation/irc_owner.png
+* konversation /usr/share/doc/HTML/en/konversation/irc_voice.png
+* konversation /usr/share/doc/HTML/en/konversation/italic-text.png
+* konversation /usr/share/doc/HTML/en/konversation/led_blue_on.png
+* konversation /usr/share/doc/HTML/en/konversation/led_green_on.png
+* konversation /usr/share/doc/HTML/en/konversation/led_red_on.png
+* konversation /usr/share/doc/HTML/en/konversation/led_yellow_on.png
+* konversation /usr/share/doc/HTML/en/konversation/logviewer_co.png
+* konversation /usr/share/doc/HTML/en/konversation/monospace-text.png
+* konversation /usr/share/doc/HTML/en/konversation/nicksonline_co.png
+* konversation /usr/share/doc/HTML/en/konversation/nickthemes_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/notification_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/notifylist_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/osd_demo.png
+* konversation /usr/share/doc/HTML/en/konversation/osd_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/quickbuttons_screen.png
+* konversation /usr/share/doc/HTML/en/konversation/quickconnect_screen.png
+* konversation /usr/share/doc/HTML/en/konversation/serverlist_co.png
+* konversation /usr/share/doc/HTML/en/konversation/struck-out-text.png
+* konversation /usr/share/doc/HTML/en/konversation/underline-text.png
+* konversation /usr/share/doc/HTML/en/konversation/urlcatcher_screen_co.png
+* konversation /usr/share/doc/HTML/en/konversation/webbrowser_screen_co.png
+* konversation /usr/share/doc/HTML/es/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/es/konversation/index.docbook
+* konversation /usr/share/doc/HTML/fr/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/fr/konversation/index.docbook
+* konversation /usr/share/doc/HTML/it/konversation/addchannel.png
+* konversation /usr/share/doc/HTML/it/konversation/addnetwork_co.png
+* konversation /usr/share/doc/HTML/it/konversation/addserver_co.png
+* konversation /usr/share/doc/HTML/it/konversation/channellist_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/channel_screen_tour_co.png
+* konversation /usr/share/doc/HTML/it/konversation/checkidentities.png
+* konversation /usr/share/doc/HTML/it/konversation/colorchooser_screen.png
+* konversation /usr/share/doc/HTML/it/konversation/dccstatus_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/first_channel_co.png
+* konversation /usr/share/doc/HTML/it/konversation/first_serverlist_co.png
+* konversation /usr/share/doc/HTML/it/konversation/highlighting_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/identities_adv_co.png
+* konversation /usr/share/doc/HTML/it/konversation/identities_away_co.png
+* konversation /usr/share/doc/HTML/it/konversation/identities_gen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/it/konversation/index.docbook
+* konversation /usr/share/doc/HTML/it/konversation/logviewer_co.png
+* konversation /usr/share/doc/HTML/it/konversation/nicksonline_co.png
+* konversation /usr/share/doc/HTML/it/konversation/nickthemes_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/notification_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/notifylist_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/osd_demo.png
+* konversation /usr/share/doc/HTML/it/konversation/osd_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/quickbuttons_screen.png
+* konversation /usr/share/doc/HTML/it/konversation/quickconnect_screen.png
+* konversation /usr/share/doc/HTML/it/konversation/serverlist_co.png
+* konversation /usr/share/doc/HTML/it/konversation/urlcatcher_screen_co.png
+* konversation /usr/share/doc/HTML/it/konversation/webbrowser_screen_co.png
+* konversation /usr/share/doc/HTML/nl/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/nl/konversation/index.docbook
+* konversation /usr/share/doc/HTML/sv/konversation/addchannel.png
+* konversation /usr/share/doc/HTML/sv/konversation/addnetwork_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/addserver_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/channellist_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/channel_screen_tour_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/checkidentities.png
+* konversation /usr/share/doc/HTML/sv/konversation/colorchooser_screen.png
+* konversation /usr/share/doc/HTML/sv/konversation/dccstatus_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/first_channel_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/first_serverlist_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/highlighting_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/identities_adv_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/identities_away_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/identities_gen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/sv/konversation/index.docbook
+* konversation /usr/share/doc/HTML/sv/konversation/kimproxy_create_screen2.png
+* konversation /usr/share/doc/HTML/sv/konversation/kimproxy_create_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/logviewer_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/nicksonline_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/nickthemes_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/notification_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/notifylist_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/osd_demo.png
+* konversation /usr/share/doc/HTML/sv/konversation/osd_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/quickbuttons_screen.png
+* konversation /usr/share/doc/HTML/sv/konversation/quickconnect_screen.png
+* konversation /usr/share/doc/HTML/sv/konversation/serverlist_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/urlcatcher_screen_co.png
+* konversation /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
+* konversation /usr/share/doc/HTML/uk/konversation/index.cache.bz2
+* konversation /usr/share/doc/HTML/uk/konversation/index.docbook
+* konversation /usr/share/doc/konversation-24.08.0/AUTHORS
+* konversation /usr/share/doc/konversation-24.08.0/ChangeLog
+* konversation /usr/share/doc/konversation-24.08.0/INSTALL
+* konversation /usr/share/doc/konversation-24.08.0/NEWS
+* konversation /usr/share/doc/konversation-24.08.0/README
+* konversation /usr/share/icons/hicolor/128x128/actions/konv_message.png
+* konversation /usr/share/icons/hicolor/128x128/apps/konversation.png
+* konversation /usr/share/icons/hicolor/16x16/actions/konv_message.png
+* konversation /usr/share/icons/hicolor/16x16/apps/konversation.png
+* konversation /usr/share/icons/hicolor/22x22/actions/konv_message.png
+* konversation /usr/share/icons/hicolor/22x22/apps/konversation.png
+* konversation /usr/share/icons/hicolor/32x32/actions/konv_message.png
+* konversation /usr/share/icons/hicolor/32x32/apps/konversation.png
+* konversation /usr/share/icons/hicolor/48x48/actions/konv_message.png
+* konversation /usr/share/icons/hicolor/48x48/apps/konversation.png
+* konversation /usr/share/icons/hicolor/64x64/actions/konv_message.png
+* konversation /usr/share/icons/hicolor/64x64/apps/konversation.png
+* konversation /usr/share/knotifications6/konversation.notifyrc
+* konversation /usr/share/knsrcfiles/konversation_nicklist_theme.knsrc
+* konversation /usr/share/konversation/scripting_support/python/konversation/dbus.py
+* konversation /usr/share/konversation/scripting_support/python/konversation/i18n.py
+* konversation /usr/share/konversation/scripting_support/python/konversation/__init__.py
+* konversation /usr/share/konversation/scripts/bug
+* konversation /usr/share/konversation/scripts/cmd
+* konversation /usr/share/konversation/scripts/fortune
+* konversation /usr/share/konversation/scripts/fortunes.dat
+* konversation /usr/share/konversation/scripts/gauge
+* konversation /usr/share/konversation/scripts/media
+* konversation /usr/share/konversation/scripts/sayclip
+* konversation /usr/share/konversation/scripts/sysinfo
+* konversation /usr/share/konversation/scripts/tinyurl
+* konversation /usr/share/konversation/scripts/uptime
+* konversation /usr/share/konversation/themes/alternative/index.desktop
+* konversation /usr/share/konversation/themes/alternative/irc_admin.png
+* konversation /usr/share/konversation/themes/alternative/irc_away.png
+* konversation /usr/share/konversation/themes/alternative/irc_halfop.png
+* konversation /usr/share/konversation/themes/alternative/irc_normal.png
+* konversation /usr/share/konversation/themes/alternative/irc_op.png
+* konversation /usr/share/konversation/themes/alternative/irc_owner.png
+* konversation /usr/share/konversation/themes/alternative/irc_voice.png
+* konversation /usr/share/konversation/themes/christmas/index.desktop
+* konversation /usr/share/konversation/themes/christmas/irc_admin.png
+* konversation /usr/share/konversation/themes/christmas/irc_away.png
+* konversation /usr/share/konversation/themes/christmas/irc_halfop.png
+* konversation /usr/share/konversation/themes/christmas/irc_normal.png
+* konversation /usr/share/konversation/themes/christmas/irc_op.png
+* konversation /usr/share/konversation/themes/christmas/irc_owner.png
+* konversation /usr/share/konversation/themes/christmas/irc_voice.png
+* konversation /usr/share/konversation/themes/classic/index.desktop
+* konversation /usr/share/konversation/themes/classic/irc_admin.png
+* konversation /usr/share/konversation/themes/classic/irc_away.png
+* konversation /usr/share/konversation/themes/classic/irc_halfop.png
+* konversation /usr/share/konversation/themes/classic/irc_normal.png
+* konversation /usr/share/konversation/themes/classic/irc_op.png
+* konversation /usr/share/konversation/themes/classic/irc_owner.png
+* konversation /usr/share/konversation/themes/classic/irc_voice.png
+* konversation /usr/share/konversation/themes/default-dark/index.desktop
+* konversation /usr/share/konversation/themes/default-dark/irc_admin.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_away.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_away_stacked.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_halfop.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_normal.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_op.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_owner.svg
+* konversation /usr/share/konversation/themes/default-dark/irc_voice.svg
+* konversation /usr/share/konversation/themes/default/index.desktop
+* konversation /usr/share/konversation/themes/default/irc_admin.svg
+* konversation /usr/share/konversation/themes/default/irc_away.svg
+* konversation /usr/share/konversation/themes/default/irc_away_stacked.svg
+* konversation /usr/share/konversation/themes/default/irc_halfop.svg
+* konversation /usr/share/konversation/themes/default/irc_normal.svg
+* konversation /usr/share/konversation/themes/default/irc_op.svg
+* konversation /usr/share/konversation/themes/default/irc_owner.svg
+* konversation /usr/share/konversation/themes/default/irc_voice.svg
+* konversation /usr/share/konversation/themes/oxygen/index.desktop
+* konversation /usr/share/konversation/themes/oxygen/irc_admin.png
+* konversation /usr/share/konversation/themes/oxygen/irc_away.png
+* konversation /usr/share/konversation/themes/oxygen/irc_halfop.png
+* konversation /usr/share/konversation/themes/oxygen/irc_normal.png
+* konversation /usr/share/konversation/themes/oxygen/irc_op.png
+* konversation /usr/share/konversation/themes/oxygen/irc_owner.png
+* konversation /usr/share/konversation/themes/oxygen/irc_voice.png
+* konversation /usr/share/konversation/themes/simplistic/index.desktop
+* konversation /usr/share/konversation/themes/simplistic/irc_admin.png
+* konversation /usr/share/konversation/themes/simplistic/irc_away.png
+* konversation /usr/share/konversation/themes/simplistic/irc_halfop.png
+* konversation /usr/share/konversation/themes/simplistic/irc_normal.png
+* konversation /usr/share/konversation/themes/simplistic/irc_op.png
+* konversation /usr/share/konversation/themes/simplistic/irc_owner.png
+* konversation /usr/share/konversation/themes/simplistic/irc_voice.png
+* konversation /usr/share/konversation/themes/smiling/index.desktop
+* konversation /usr/share/konversation/themes/smiling/irc_admin.png
+* konversation /usr/share/konversation/themes/smiling/irc_away.png
+* konversation /usr/share/konversation/themes/smiling/irc_halfop.png
+* konversation /usr/share/konversation/themes/smiling/irc_normal.png
+* konversation /usr/share/konversation/themes/smiling/irc_op.png
+* konversation /usr/share/konversation/themes/smiling/irc_owner.png
+* konversation /usr/share/konversation/themes/smiling/irc_voice.png
+* konversation /usr/share/konversation/themes/square/index.desktop
+* konversation /usr/share/konversation/themes/square/irc_admin.png
+* konversation /usr/share/konversation/themes/square/irc_away.png
+* konversation /usr/share/konversation/themes/square/irc_halfop.png
+* konversation /usr/share/konversation/themes/square/irc_normal.png
+* konversation /usr/share/konversation/themes/square/irc_op.png
+* konversation /usr/share/konversation/themes/square/irc_owner.png
+* konversation /usr/share/konversation/themes/square/irc_voice.png
+* konversation /usr/share/locale/ar/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ast/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/bg/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/br/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/bs/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ca/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ca@valencia/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/cs/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/cy/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/da/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/de/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/el/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/en_GB/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/eo/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/es/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/et/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/eu/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/fi/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/fr/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ga/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/gl/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/he/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/hi/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/hr/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/hu/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ia/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ie/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/is/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/it/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ja/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ka/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/kk/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/km/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ko/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/lt/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/lv/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/mr/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ms/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/mt/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/nb/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/nds/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/nl/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/nn/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/pa/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/pl/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/pt/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/pt_BR/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ro/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ru/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/rw/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/si/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sk/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sl/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sq/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sr/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sr@ijekavian/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sr@latin/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/sv/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ta/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/tr/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/ug/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/uk/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/zh_CN/LC_MESSAGES/konversation.mo
+* konversation /usr/share/locale/zh_TW/LC_MESSAGES/konversation.mo
+* konversation /usr/share/metainfo/org.kde.konversation.appdata.xml
+* konversation /usr/share/qlogging-categories6/konversation.categories

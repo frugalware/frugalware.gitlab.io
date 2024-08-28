@@ -1,389 +1,396 @@
 +++
 draft = false
-title = "grpc 1.65.5-1"
-version = "1.65.5-1"
+title = "./grpc 1.66.1-1"
+version = "1.66.1-1"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2024-08-18T07:27:09"
-aliases = "/packages/219876"
+date = "2024-08-27T08:48:58"
+aliases = "/packages/222354"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "5034468"
-usize = "20752927"
-sha1sum = "fe0dad6af89fa01d92b79b6d1fec1715c2f8494c"
+size = "4728464"
+usize = "21319846"
+sha1sum = "ecf9549229a5b35193ca8c239c614863cab723d8"
 depends = "['c-ares', 'icu4c>=75.1', 'openssl>=3.1.0', 'protobuf>=27.3', 're2']"
-reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
 ### Description: 
 High performance, open source, general RPC framework that puts mobile and HTTP/2 first.
 
 ### Files: 
-* /usr/bin/grpc_cpp_plugin
-* /usr/bin/grpc_node_plugin
-* /usr/bin/grpc_php_plugin
-* /usr/bin/grpc_python_plugin
-* /usr/bin/grpc_ruby_plugin
-* /usr/include/grpc++/alarm.h
-* /usr/include/grpc++/channel.h
-* /usr/include/grpc++/client_context.h
-* /usr/include/grpc++/completion_queue.h
-* /usr/include/grpc++/create_channel.h
-* /usr/include/grpc++/create_channel_posix.h
-* /usr/include/grpc++/ext/health_check_service_server_builder_option.h
-* /usr/include/grpc++/ext/proto_server_reflection_plugin.h
-* /usr/include/grpc++/generic/async_generic_service.h
-* /usr/include/grpc++/generic/generic_stub.h
-* /usr/include/grpc++/grpc++.h
-* /usr/include/grpc++/health_check_service_interface.h
-* /usr/include/grpc++/impl/call.h
-* /usr/include/grpc++/impl/channel_argument_option.h
-* /usr/include/grpc++/impl/client_unary_call.h
-* /usr/include/grpc++/impl/codegen/async_stream.h
-* /usr/include/grpc++/impl/codegen/async_unary_call.h
-* /usr/include/grpc++/impl/codegen/byte_buffer.h
-* /usr/include/grpc++/impl/codegen/call.h
-* /usr/include/grpc++/impl/codegen/call_hook.h
-* /usr/include/grpc++/impl/codegen/channel_interface.h
-* /usr/include/grpc++/impl/codegen/client_context.h
-* /usr/include/grpc++/impl/codegen/client_unary_call.h
-* /usr/include/grpc++/impl/codegen/completion_queue.h
-* /usr/include/grpc++/impl/codegen/completion_queue_tag.h
-* /usr/include/grpc++/impl/codegen/config.h
-* /usr/include/grpc++/impl/codegen/config_protobuf.h
-* /usr/include/grpc++/impl/codegen/create_auth_context.h
-* /usr/include/grpc++/impl/codegen/metadata_map.h
-* /usr/include/grpc++/impl/codegen/method_handler_impl.h
-* /usr/include/grpc++/impl/codegen/proto_utils.h
-* /usr/include/grpc++/impl/codegen/rpc_method.h
-* /usr/include/grpc++/impl/codegen/rpc_service_method.h
-* /usr/include/grpc++/impl/codegen/security/auth_context.h
-* /usr/include/grpc++/impl/codegen/serialization_traits.h
-* /usr/include/grpc++/impl/codegen/server_context.h
-* /usr/include/grpc++/impl/codegen/server_interface.h
-* /usr/include/grpc++/impl/codegen/service_type.h
-* /usr/include/grpc++/impl/codegen/slice.h
-* /usr/include/grpc++/impl/codegen/status.h
-* /usr/include/grpc++/impl/codegen/status_code_enum.h
-* /usr/include/grpc++/impl/codegen/string_ref.h
-* /usr/include/grpc++/impl/codegen/stub_options.h
-* /usr/include/grpc++/impl/codegen/sync_stream.h
-* /usr/include/grpc++/impl/codegen/time.h
-* /usr/include/grpc++/impl/grpc_library.h
-* /usr/include/grpc++/impl/method_handler_impl.h
-* /usr/include/grpc++/impl/rpc_method.h
-* /usr/include/grpc++/impl/rpc_service_method.h
-* /usr/include/grpc++/impl/serialization_traits.h
-* /usr/include/grpc++/impl/server_builder_option.h
-* /usr/include/grpc++/impl/server_builder_plugin.h
-* /usr/include/grpc++/impl/server_initializer.h
-* /usr/include/grpc++/impl/service_type.h
-* /usr/include/grpc++/resource_quota.h
-* /usr/include/grpc++/security/auth_context.h
-* /usr/include/grpc++/security/auth_metadata_processor.h
-* /usr/include/grpc++/security/credentials.h
-* /usr/include/grpc++/security/server_credentials.h
-* /usr/include/grpc++/server.h
-* /usr/include/grpc++/server_builder.h
-* /usr/include/grpc++/server_context.h
-* /usr/include/grpc++/server_posix.h
-* /usr/include/grpc++/support/async_stream.h
-* /usr/include/grpc++/support/async_unary_call.h
-* /usr/include/grpc++/support/byte_buffer.h
-* /usr/include/grpc++/support/channel_arguments.h
-* /usr/include/grpc++/support/config.h
-* /usr/include/grpc++/support/error_details.h
-* /usr/include/grpc++/support/slice.h
-* /usr/include/grpc++/support/status.h
-* /usr/include/grpc++/support/status_code_enum.h
-* /usr/include/grpc++/support/string_ref.h
-* /usr/include/grpc++/support/stub_options.h
-* /usr/include/grpc++/support/sync_stream.h
-* /usr/include/grpc++/support/time.h
-* /usr/include/grpc/byte_buffer.h
-* /usr/include/grpc/byte_buffer_reader.h
-* /usr/include/grpc/census.h
-* /usr/include/grpc/compression.h
-* /usr/include/grpc/credentials.h
-* /usr/include/grpc/event_engine/endpoint_config.h
-* /usr/include/grpc/event_engine/event_engine.h
-* /usr/include/grpc/event_engine/extensible.h
-* /usr/include/grpc/event_engine/internal/memory_allocator_impl.h
-* /usr/include/grpc/event_engine/internal/slice_cast.h
-* /usr/include/grpc/event_engine/memory_allocator.h
-* /usr/include/grpc/event_engine/memory_request.h
-* /usr/include/grpc/event_engine/port.h
-* /usr/include/grpc/event_engine/slice.h
-* /usr/include/grpc/event_engine/slice_buffer.h
-* /usr/include/grpc/fork.h
-* /usr/include/grpc/grpc.h
-* /usr/include/grpc/grpc_audit_logging.h
-* /usr/include/grpc/grpc_crl_provider.h
-* /usr/include/grpc/grpc_posix.h
-* /usr/include/grpc/grpc_security.h
-* /usr/include/grpc/grpc_security_constants.h
-* /usr/include/grpc/impl/call.h
-* /usr/include/grpc/impl/channel_arg_names.h
-* /usr/include/grpc/impl/codegen/atm.h
-* /usr/include/grpc/impl/codegen/atm_gcc_atomic.h
-* /usr/include/grpc/impl/codegen/atm_gcc_sync.h
-* /usr/include/grpc/impl/codegen/atm_windows.h
-* /usr/include/grpc/impl/codegen/byte_buffer.h
-* /usr/include/grpc/impl/codegen/byte_buffer_reader.h
-* /usr/include/grpc/impl/codegen/compression_types.h
-* /usr/include/grpc/impl/codegen/connectivity_state.h
-* /usr/include/grpc/impl/codegen/fork.h
-* /usr/include/grpc/impl/codegen/gpr_types.h
-* /usr/include/grpc/impl/codegen/grpc_types.h
-* /usr/include/grpc/impl/codegen/log.h
-* /usr/include/grpc/impl/codegen/port_platform.h
-* /usr/include/grpc/impl/codegen/propagation_bits.h
-* /usr/include/grpc/impl/codegen/slice.h
-* /usr/include/grpc/impl/codegen/status.h
-* /usr/include/grpc/impl/codegen/sync.h
-* /usr/include/grpc/impl/codegen/sync_abseil.h
-* /usr/include/grpc/impl/codegen/sync_custom.h
-* /usr/include/grpc/impl/codegen/sync_generic.h
-* /usr/include/grpc/impl/codegen/sync_posix.h
-* /usr/include/grpc/impl/codegen/sync_windows.h
-* /usr/include/grpc/impl/compression_types.h
-* /usr/include/grpc/impl/connectivity_state.h
-* /usr/include/grpc/impl/grpc_types.h
-* /usr/include/grpc/impl/propagation_bits.h
-* /usr/include/grpc/impl/slice_type.h
-* /usr/include/grpc/load_reporting.h
-* /usr/include/grpc/passive_listener.h
-* /usr/include/grpc/slice.h
-* /usr/include/grpc/slice_buffer.h
-* /usr/include/grpc/status.h
-* /usr/include/grpc/support/alloc.h
-* /usr/include/grpc/support/atm.h
-* /usr/include/grpc/support/atm_gcc_atomic.h
-* /usr/include/grpc/support/atm_gcc_sync.h
-* /usr/include/grpc/support/atm_windows.h
-* /usr/include/grpc/support/cpu.h
-* /usr/include/grpc/support/json.h
-* /usr/include/grpc/support/log.h
-* /usr/include/grpc/support/log_windows.h
-* /usr/include/grpc/support/metrics.h
-* /usr/include/grpc/support/port_platform.h
-* /usr/include/grpc/support/string_util.h
-* /usr/include/grpc/support/sync.h
-* /usr/include/grpc/support/sync_abseil.h
-* /usr/include/grpc/support/sync_custom.h
-* /usr/include/grpc/support/sync_generic.h
-* /usr/include/grpc/support/sync_posix.h
-* /usr/include/grpc/support/sync_windows.h
-* /usr/include/grpc/support/thd_id.h
-* /usr/include/grpc/support/time.h
-* /usr/include/grpc/support/workaround_list.h
-* /usr/include/grpcpp/alarm.h
-* /usr/include/grpcpp/channel.h
-* /usr/include/grpcpp/client_context.h
-* /usr/include/grpcpp/completion_queue.h
-* /usr/include/grpcpp/create_channel.h
-* /usr/include/grpcpp/create_channel_binder.h
-* /usr/include/grpcpp/create_channel_posix.h
-* /usr/include/grpcpp/ext/call_metric_recorder.h
-* /usr/include/grpcpp/ext/channelz_service_plugin.h
-* /usr/include/grpcpp/ext/health_check_service_server_builder_option.h
-* /usr/include/grpcpp/ext/proto_server_reflection_plugin.h
-* /usr/include/grpcpp/ext/server_metric_recorder.h
-* /usr/include/grpcpp/generic/async_generic_service.h
-* /usr/include/grpcpp/generic/generic_stub.h
-* /usr/include/grpcpp/grpcpp.h
-* /usr/include/grpcpp/health_check_service_interface.h
-* /usr/include/grpcpp/impl/call.h
-* /usr/include/grpcpp/impl/call_hook.h
-* /usr/include/grpcpp/impl/call_op_set.h
-* /usr/include/grpcpp/impl/call_op_set_interface.h
-* /usr/include/grpcpp/impl/channel_argument_option.h
-* /usr/include/grpcpp/impl/channel_interface.h
-* /usr/include/grpcpp/impl/client_unary_call.h
-* /usr/include/grpcpp/impl/codegen/async_generic_service.h
-* /usr/include/grpcpp/impl/codegen/async_stream.h
-* /usr/include/grpcpp/impl/codegen/async_unary_call.h
-* /usr/include/grpcpp/impl/codegen/byte_buffer.h
-* /usr/include/grpcpp/impl/codegen/call.h
-* /usr/include/grpcpp/impl/codegen/callback_common.h
-* /usr/include/grpcpp/impl/codegen/call_hook.h
-* /usr/include/grpcpp/impl/codegen/call_op_set.h
-* /usr/include/grpcpp/impl/codegen/call_op_set_interface.h
-* /usr/include/grpcpp/impl/codegen/channel_interface.h
-* /usr/include/grpcpp/impl/codegen/client_callback.h
-* /usr/include/grpcpp/impl/codegen/client_context.h
-* /usr/include/grpcpp/impl/codegen/client_interceptor.h
-* /usr/include/grpcpp/impl/codegen/client_unary_call.h
-* /usr/include/grpcpp/impl/codegen/completion_queue.h
-* /usr/include/grpcpp/impl/codegen/completion_queue_tag.h
-* /usr/include/grpcpp/impl/codegen/config.h
-* /usr/include/grpcpp/impl/codegen/config_protobuf.h
-* /usr/include/grpcpp/impl/codegen/create_auth_context.h
-* /usr/include/grpcpp/impl/codegen/delegating_channel.h
-* /usr/include/grpcpp/impl/codegen/intercepted_channel.h
-* /usr/include/grpcpp/impl/codegen/interceptor.h
-* /usr/include/grpcpp/impl/codegen/interceptor_common.h
-* /usr/include/grpcpp/impl/codegen/message_allocator.h
-* /usr/include/grpcpp/impl/codegen/metadata_map.h
-* /usr/include/grpcpp/impl/codegen/method_handler.h
-* /usr/include/grpcpp/impl/codegen/method_handler_impl.h
-* /usr/include/grpcpp/impl/codegen/proto_buffer_reader.h
-* /usr/include/grpcpp/impl/codegen/proto_buffer_writer.h
-* /usr/include/grpcpp/impl/codegen/proto_utils.h
-* /usr/include/grpcpp/impl/codegen/rpc_method.h
-* /usr/include/grpcpp/impl/codegen/rpc_service_method.h
-* /usr/include/grpcpp/impl/codegen/security/auth_context.h
-* /usr/include/grpcpp/impl/codegen/serialization_traits.h
-* /usr/include/grpcpp/impl/codegen/server_callback.h
-* /usr/include/grpcpp/impl/codegen/server_callback_handlers.h
-* /usr/include/grpcpp/impl/codegen/server_context.h
-* /usr/include/grpcpp/impl/codegen/server_interceptor.h
-* /usr/include/grpcpp/impl/codegen/server_interface.h
-* /usr/include/grpcpp/impl/codegen/service_type.h
-* /usr/include/grpcpp/impl/codegen/slice.h
-* /usr/include/grpcpp/impl/codegen/status.h
-* /usr/include/grpcpp/impl/codegen/status_code_enum.h
-* /usr/include/grpcpp/impl/codegen/string_ref.h
-* /usr/include/grpcpp/impl/codegen/stub_options.h
-* /usr/include/grpcpp/impl/codegen/sync.h
-* /usr/include/grpcpp/impl/codegen/sync_stream.h
-* /usr/include/grpcpp/impl/codegen/time.h
-* /usr/include/grpcpp/impl/completion_queue_tag.h
-* /usr/include/grpcpp/impl/create_auth_context.h
-* /usr/include/grpcpp/impl/delegating_channel.h
-* /usr/include/grpcpp/impl/grpc_library.h
-* /usr/include/grpcpp/impl/intercepted_channel.h
-* /usr/include/grpcpp/impl/interceptor_common.h
-* /usr/include/grpcpp/impl/metadata_map.h
-* /usr/include/grpcpp/impl/method_handler_impl.h
-* /usr/include/grpcpp/impl/proto_utils.h
-* /usr/include/grpcpp/impl/rpc_method.h
-* /usr/include/grpcpp/impl/rpc_service_method.h
-* /usr/include/grpcpp/impl/serialization_traits.h
-* /usr/include/grpcpp/impl/server_builder_option.h
-* /usr/include/grpcpp/impl/server_builder_plugin.h
-* /usr/include/grpcpp/impl/server_callback_handlers.h
-* /usr/include/grpcpp/impl/server_initializer.h
-* /usr/include/grpcpp/impl/service_type.h
-* /usr/include/grpcpp/impl/status.h
-* /usr/include/grpcpp/impl/sync.h
-* /usr/include/grpcpp/passive_listener.h
-* /usr/include/grpcpp/resource_quota.h
-* /usr/include/grpcpp/security/alts_context.h
-* /usr/include/grpcpp/security/alts_util.h
-* /usr/include/grpcpp/security/audit_logging.h
-* /usr/include/grpcpp/security/authorization_policy_provider.h
-* /usr/include/grpcpp/security/auth_context.h
-* /usr/include/grpcpp/security/auth_metadata_processor.h
-* /usr/include/grpcpp/security/binder_credentials.h
-* /usr/include/grpcpp/security/binder_security_policy.h
-* /usr/include/grpcpp/security/credentials.h
-* /usr/include/grpcpp/security/server_credentials.h
-* /usr/include/grpcpp/security/tls_certificate_provider.h
-* /usr/include/grpcpp/security/tls_certificate_verifier.h
-* /usr/include/grpcpp/security/tls_credentials_options.h
-* /usr/include/grpcpp/security/tls_crl_provider.h
-* /usr/include/grpcpp/server.h
-* /usr/include/grpcpp/server_builder.h
-* /usr/include/grpcpp/server_context.h
-* /usr/include/grpcpp/server_interface.h
-* /usr/include/grpcpp/server_posix.h
-* /usr/include/grpcpp/support/async_stream.h
-* /usr/include/grpcpp/support/async_unary_call.h
-* /usr/include/grpcpp/support/byte_buffer.h
-* /usr/include/grpcpp/support/callback_common.h
-* /usr/include/grpcpp/support/channel_arguments.h
-* /usr/include/grpcpp/support/client_callback.h
-* /usr/include/grpcpp/support/client_interceptor.h
-* /usr/include/grpcpp/support/config.h
-* /usr/include/grpcpp/support/error_details.h
-* /usr/include/grpcpp/support/interceptor.h
-* /usr/include/grpcpp/support/message_allocator.h
-* /usr/include/grpcpp/support/method_handler.h
-* /usr/include/grpcpp/support/proto_buffer_reader.h
-* /usr/include/grpcpp/support/proto_buffer_writer.h
-* /usr/include/grpcpp/support/server_callback.h
-* /usr/include/grpcpp/support/server_interceptor.h
-* /usr/include/grpcpp/support/slice.h
-* /usr/include/grpcpp/support/status.h
-* /usr/include/grpcpp/support/status_code_enum.h
-* /usr/include/grpcpp/support/string_ref.h
-* /usr/include/grpcpp/support/stub_options.h
-* /usr/include/grpcpp/support/sync_stream.h
-* /usr/include/grpcpp/support/time.h
-* /usr/include/grpcpp/support/validate_service_config.h
-* /usr/include/grpcpp/version_info.h
-* /usr/include/grpcpp/xds_server_builder.h
-* /usr/lib/cmake/grpc/gRPCConfig.cmake
-* /usr/lib/cmake/grpc/gRPCConfigVersion.cmake
-* /usr/lib/cmake/grpc/gRPCPluginTargets-release.cmake
-* /usr/lib/cmake/grpc/gRPCPluginTargets.cmake
-* /usr/lib/cmake/grpc/gRPCTargets-release.cmake
-* /usr/lib/cmake/grpc/gRPCTargets.cmake
-* /usr/lib/cmake/grpc/modules/Findc-ares.cmake
-* /usr/lib/cmake/grpc/modules/Findre2.cmake
-* /usr/lib/cmake/grpc/modules/Findsystemd.cmake
-* /usr/lib/libaddress_sorting.so
-* /usr/lib/libaddress_sorting.so.42
-* /usr/lib/libaddress_sorting.so.42.0.0
-* /usr/lib/libgpr.so
-* /usr/lib/libgpr.so.42
-* /usr/lib/libgpr.so.42.0.0
-* /usr/lib/libgrpc++.so
-* /usr/lib/libgrpc++.so.1.65
-* /usr/lib/libgrpc++.so.1.65.5
-* /usr/lib/libgrpc++_alts.so
-* /usr/lib/libgrpc++_alts.so.1.65
-* /usr/lib/libgrpc++_alts.so.1.65.5
-* /usr/lib/libgrpc++_error_details.so
-* /usr/lib/libgrpc++_error_details.so.1.65
-* /usr/lib/libgrpc++_error_details.so.1.65.5
-* /usr/lib/libgrpc++_reflection.so
-* /usr/lib/libgrpc++_reflection.so.1.65
-* /usr/lib/libgrpc++_reflection.so.1.65.5
-* /usr/lib/libgrpc++_unsecure.so
-* /usr/lib/libgrpc++_unsecure.so.1.65
-* /usr/lib/libgrpc++_unsecure.so.1.65.5
-* /usr/lib/libgrpc.so
-* /usr/lib/libgrpc.so.42
-* /usr/lib/libgrpc.so.42.0.0
-* /usr/lib/libgrpcpp_channelz.so
-* /usr/lib/libgrpcpp_channelz.so.1.65
-* /usr/lib/libgrpcpp_channelz.so.1.65.5
-* /usr/lib/libgrpc_authorization_provider.so
-* /usr/lib/libgrpc_authorization_provider.so.1.65
-* /usr/lib/libgrpc_authorization_provider.so.1.65.5
-* /usr/lib/libgrpc_plugin_support.so
-* /usr/lib/libgrpc_plugin_support.so.1.65
-* /usr/lib/libgrpc_plugin_support.so.1.65.5
-* /usr/lib/libgrpc_unsecure.so
-* /usr/lib/libgrpc_unsecure.so.42
-* /usr/lib/libgrpc_unsecure.so.42.0.0
-* /usr/lib/libupb_base_lib.so
-* /usr/lib/libupb_base_lib.so.42
-* /usr/lib/libupb_base_lib.so.42.0.0
-* /usr/lib/libupb_json_lib.so
-* /usr/lib/libupb_json_lib.so.42
-* /usr/lib/libupb_json_lib.so.42.0.0
-* /usr/lib/libupb_mem_lib.so
-* /usr/lib/libupb_mem_lib.so.42
-* /usr/lib/libupb_mem_lib.so.42.0.0
-* /usr/lib/libupb_message_lib.so
-* /usr/lib/libupb_message_lib.so.42
-* /usr/lib/libupb_message_lib.so.42.0.0
-* /usr/lib/libupb_textformat_lib.so
-* /usr/lib/libupb_textformat_lib.so.42
-* /usr/lib/libupb_textformat_lib.so.42.0.0
-* /usr/lib/libutf8_range_lib.so
-* /usr/lib/libutf8_range_lib.so.42
-* /usr/lib/libutf8_range_lib.so.42.0.0
-* /usr/lib/pkgconfig/gpr.pc
-* /usr/lib/pkgconfig/grpc++.pc
-* /usr/lib/pkgconfig/grpc++_unsecure.pc
-* /usr/lib/pkgconfig/grpc.pc
-* /usr/lib/pkgconfig/grpcpp_otel_plugin.pc
-* /usr/lib/pkgconfig/grpc_unsecure.pc
-* /usr/share/doc/grpc-1.65.5/AUTHORS
-* /usr/share/doc/grpc-1.65.5/COPYING
-* /usr/share/doc/grpc-1.65.5/LICENSE
-* /usr/share/doc/grpc-1.65.5/README.md
-* /usr/share/grpc/roots.pem
+* grpc /usr/bin/grpc_cpp_plugin
+* grpc /usr/bin/grpc_node_plugin
+* grpc /usr/bin/grpc_php_plugin
+* grpc /usr/bin/grpc_python_plugin
+* grpc /usr/bin/grpc_ruby_plugin
+* grpc /usr/include/grpc++/alarm.h
+* grpc /usr/include/grpc++/channel.h
+* grpc /usr/include/grpc++/client_context.h
+* grpc /usr/include/grpc++/completion_queue.h
+* grpc /usr/include/grpc++/create_channel.h
+* grpc /usr/include/grpc++/create_channel_posix.h
+* grpc /usr/include/grpc++/ext/health_check_service_server_builder_option.h
+* grpc /usr/include/grpc++/ext/proto_server_reflection_plugin.h
+* grpc /usr/include/grpc++/generic/async_generic_service.h
+* grpc /usr/include/grpc++/generic/generic_stub.h
+* grpc /usr/include/grpc++/grpc++.h
+* grpc /usr/include/grpc++/health_check_service_interface.h
+* grpc /usr/include/grpc++/impl/call.h
+* grpc /usr/include/grpc++/impl/channel_argument_option.h
+* grpc /usr/include/grpc++/impl/client_unary_call.h
+* grpc /usr/include/grpc++/impl/codegen/async_stream.h
+* grpc /usr/include/grpc++/impl/codegen/async_unary_call.h
+* grpc /usr/include/grpc++/impl/codegen/byte_buffer.h
+* grpc /usr/include/grpc++/impl/codegen/call.h
+* grpc /usr/include/grpc++/impl/codegen/call_hook.h
+* grpc /usr/include/grpc++/impl/codegen/channel_interface.h
+* grpc /usr/include/grpc++/impl/codegen/client_context.h
+* grpc /usr/include/grpc++/impl/codegen/client_unary_call.h
+* grpc /usr/include/grpc++/impl/codegen/completion_queue.h
+* grpc /usr/include/grpc++/impl/codegen/completion_queue_tag.h
+* grpc /usr/include/grpc++/impl/codegen/config.h
+* grpc /usr/include/grpc++/impl/codegen/config_protobuf.h
+* grpc /usr/include/grpc++/impl/codegen/create_auth_context.h
+* grpc /usr/include/grpc++/impl/codegen/metadata_map.h
+* grpc /usr/include/grpc++/impl/codegen/method_handler_impl.h
+* grpc /usr/include/grpc++/impl/codegen/proto_utils.h
+* grpc /usr/include/grpc++/impl/codegen/rpc_method.h
+* grpc /usr/include/grpc++/impl/codegen/rpc_service_method.h
+* grpc /usr/include/grpc++/impl/codegen/security/auth_context.h
+* grpc /usr/include/grpc++/impl/codegen/serialization_traits.h
+* grpc /usr/include/grpc++/impl/codegen/server_context.h
+* grpc /usr/include/grpc++/impl/codegen/server_interface.h
+* grpc /usr/include/grpc++/impl/codegen/service_type.h
+* grpc /usr/include/grpc++/impl/codegen/slice.h
+* grpc /usr/include/grpc++/impl/codegen/status.h
+* grpc /usr/include/grpc++/impl/codegen/status_code_enum.h
+* grpc /usr/include/grpc++/impl/codegen/string_ref.h
+* grpc /usr/include/grpc++/impl/codegen/stub_options.h
+* grpc /usr/include/grpc++/impl/codegen/sync_stream.h
+* grpc /usr/include/grpc++/impl/codegen/time.h
+* grpc /usr/include/grpc++/impl/grpc_library.h
+* grpc /usr/include/grpc++/impl/method_handler_impl.h
+* grpc /usr/include/grpc++/impl/rpc_method.h
+* grpc /usr/include/grpc++/impl/rpc_service_method.h
+* grpc /usr/include/grpc++/impl/serialization_traits.h
+* grpc /usr/include/grpc++/impl/server_builder_option.h
+* grpc /usr/include/grpc++/impl/server_builder_plugin.h
+* grpc /usr/include/grpc++/impl/server_initializer.h
+* grpc /usr/include/grpc++/impl/service_type.h
+* grpc /usr/include/grpc++/resource_quota.h
+* grpc /usr/include/grpc++/security/auth_context.h
+* grpc /usr/include/grpc++/security/auth_metadata_processor.h
+* grpc /usr/include/grpc++/security/credentials.h
+* grpc /usr/include/grpc++/security/server_credentials.h
+* grpc /usr/include/grpc++/server.h
+* grpc /usr/include/grpc++/server_builder.h
+* grpc /usr/include/grpc++/server_context.h
+* grpc /usr/include/grpc++/server_posix.h
+* grpc /usr/include/grpc++/support/async_stream.h
+* grpc /usr/include/grpc++/support/async_unary_call.h
+* grpc /usr/include/grpc++/support/byte_buffer.h
+* grpc /usr/include/grpc++/support/channel_arguments.h
+* grpc /usr/include/grpc++/support/config.h
+* grpc /usr/include/grpc++/support/error_details.h
+* grpc /usr/include/grpc++/support/slice.h
+* grpc /usr/include/grpc++/support/status.h
+* grpc /usr/include/grpc++/support/status_code_enum.h
+* grpc /usr/include/grpc++/support/string_ref.h
+* grpc /usr/include/grpc++/support/stub_options.h
+* grpc /usr/include/grpc++/support/sync_stream.h
+* grpc /usr/include/grpc++/support/time.h
+* grpc /usr/include/grpc/byte_buffer.h
+* grpc /usr/include/grpc/byte_buffer_reader.h
+* grpc /usr/include/grpc/census.h
+* grpc /usr/include/grpc/compression.h
+* grpc /usr/include/grpc/credentials.h
+* grpc /usr/include/grpc/event_engine/endpoint_config.h
+* grpc /usr/include/grpc/event_engine/event_engine.h
+* grpc /usr/include/grpc/event_engine/extensible.h
+* grpc /usr/include/grpc/event_engine/internal/memory_allocator_impl.h
+* grpc /usr/include/grpc/event_engine/internal/slice_cast.h
+* grpc /usr/include/grpc/event_engine/memory_allocator.h
+* grpc /usr/include/grpc/event_engine/memory_request.h
+* grpc /usr/include/grpc/event_engine/port.h
+* grpc /usr/include/grpc/event_engine/slice.h
+* grpc /usr/include/grpc/event_engine/slice_buffer.h
+* grpc /usr/include/grpc/fork.h
+* grpc /usr/include/grpc/grpc.h
+* grpc /usr/include/grpc/grpc_audit_logging.h
+* grpc /usr/include/grpc/grpc_crl_provider.h
+* grpc /usr/include/grpc/grpc_posix.h
+* grpc /usr/include/grpc/grpc_security.h
+* grpc /usr/include/grpc/grpc_security_constants.h
+* grpc /usr/include/grpc/impl/call.h
+* grpc /usr/include/grpc/impl/channel_arg_names.h
+* grpc /usr/include/grpc/impl/codegen/atm.h
+* grpc /usr/include/grpc/impl/codegen/atm_gcc_atomic.h
+* grpc /usr/include/grpc/impl/codegen/atm_gcc_sync.h
+* grpc /usr/include/grpc/impl/codegen/atm_windows.h
+* grpc /usr/include/grpc/impl/codegen/byte_buffer.h
+* grpc /usr/include/grpc/impl/codegen/byte_buffer_reader.h
+* grpc /usr/include/grpc/impl/codegen/compression_types.h
+* grpc /usr/include/grpc/impl/codegen/connectivity_state.h
+* grpc /usr/include/grpc/impl/codegen/fork.h
+* grpc /usr/include/grpc/impl/codegen/gpr_types.h
+* grpc /usr/include/grpc/impl/codegen/grpc_types.h
+* grpc /usr/include/grpc/impl/codegen/log.h
+* grpc /usr/include/grpc/impl/codegen/port_platform.h
+* grpc /usr/include/grpc/impl/codegen/propagation_bits.h
+* grpc /usr/include/grpc/impl/codegen/slice.h
+* grpc /usr/include/grpc/impl/codegen/status.h
+* grpc /usr/include/grpc/impl/codegen/sync.h
+* grpc /usr/include/grpc/impl/codegen/sync_abseil.h
+* grpc /usr/include/grpc/impl/codegen/sync_custom.h
+* grpc /usr/include/grpc/impl/codegen/sync_generic.h
+* grpc /usr/include/grpc/impl/codegen/sync_posix.h
+* grpc /usr/include/grpc/impl/codegen/sync_windows.h
+* grpc /usr/include/grpc/impl/compression_types.h
+* grpc /usr/include/grpc/impl/connectivity_state.h
+* grpc /usr/include/grpc/impl/grpc_types.h
+* grpc /usr/include/grpc/impl/propagation_bits.h
+* grpc /usr/include/grpc/impl/slice_type.h
+* grpc /usr/include/grpc/load_reporting.h
+* grpc /usr/include/grpc/passive_listener.h
+* grpc /usr/include/grpc/slice.h
+* grpc /usr/include/grpc/slice_buffer.h
+* grpc /usr/include/grpc/status.h
+* grpc /usr/include/grpc/support/alloc.h
+* grpc /usr/include/grpc/support/atm.h
+* grpc /usr/include/grpc/support/atm_gcc_atomic.h
+* grpc /usr/include/grpc/support/atm_gcc_sync.h
+* grpc /usr/include/grpc/support/atm_windows.h
+* grpc /usr/include/grpc/support/cpu.h
+* grpc /usr/include/grpc/support/json.h
+* grpc /usr/include/grpc/support/log.h
+* grpc /usr/include/grpc/support/log_windows.h
+* grpc /usr/include/grpc/support/metrics.h
+* grpc /usr/include/grpc/support/port_platform.h
+* grpc /usr/include/grpc/support/string_util.h
+* grpc /usr/include/grpc/support/sync.h
+* grpc /usr/include/grpc/support/sync_abseil.h
+* grpc /usr/include/grpc/support/sync_custom.h
+* grpc /usr/include/grpc/support/sync_generic.h
+* grpc /usr/include/grpc/support/sync_posix.h
+* grpc /usr/include/grpc/support/sync_windows.h
+* grpc /usr/include/grpc/support/thd_id.h
+* grpc /usr/include/grpc/support/time.h
+* grpc /usr/include/grpc/support/workaround_list.h
+* grpc /usr/include/grpcpp/alarm.h
+* grpc /usr/include/grpcpp/channel.h
+* grpc /usr/include/grpcpp/client_context.h
+* grpc /usr/include/grpcpp/completion_queue.h
+* grpc /usr/include/grpcpp/create_channel.h
+* grpc /usr/include/grpcpp/create_channel_binder.h
+* grpc /usr/include/grpcpp/create_channel_posix.h
+* grpc /usr/include/grpcpp/ext/call_metric_recorder.h
+* grpc /usr/include/grpcpp/ext/channelz_service_plugin.h
+* grpc /usr/include/grpcpp/ext/health_check_service_server_builder_option.h
+* grpc /usr/include/grpcpp/ext/proto_server_reflection_plugin.h
+* grpc /usr/include/grpcpp/ext/server_metric_recorder.h
+* grpc /usr/include/grpcpp/generic/async_generic_service.h
+* grpc /usr/include/grpcpp/generic/callback_generic_service.h
+* grpc /usr/include/grpcpp/generic/generic_stub.h
+* grpc /usr/include/grpcpp/generic/generic_stub_callback.h
+* grpc /usr/include/grpcpp/grpcpp.h
+* grpc /usr/include/grpcpp/health_check_service_interface.h
+* grpc /usr/include/grpcpp/impl/call.h
+* grpc /usr/include/grpcpp/impl/call_hook.h
+* grpc /usr/include/grpcpp/impl/call_op_set.h
+* grpc /usr/include/grpcpp/impl/call_op_set_interface.h
+* grpc /usr/include/grpcpp/impl/channel_argument_option.h
+* grpc /usr/include/grpcpp/impl/channel_interface.h
+* grpc /usr/include/grpcpp/impl/client_unary_call.h
+* grpc /usr/include/grpcpp/impl/codegen/async_generic_service.h
+* grpc /usr/include/grpcpp/impl/codegen/async_stream.h
+* grpc /usr/include/grpcpp/impl/codegen/async_unary_call.h
+* grpc /usr/include/grpcpp/impl/codegen/byte_buffer.h
+* grpc /usr/include/grpcpp/impl/codegen/call.h
+* grpc /usr/include/grpcpp/impl/codegen/callback_common.h
+* grpc /usr/include/grpcpp/impl/codegen/call_hook.h
+* grpc /usr/include/grpcpp/impl/codegen/call_op_set.h
+* grpc /usr/include/grpcpp/impl/codegen/call_op_set_interface.h
+* grpc /usr/include/grpcpp/impl/codegen/channel_interface.h
+* grpc /usr/include/grpcpp/impl/codegen/client_callback.h
+* grpc /usr/include/grpcpp/impl/codegen/client_context.h
+* grpc /usr/include/grpcpp/impl/codegen/client_interceptor.h
+* grpc /usr/include/grpcpp/impl/codegen/client_unary_call.h
+* grpc /usr/include/grpcpp/impl/codegen/completion_queue.h
+* grpc /usr/include/grpcpp/impl/codegen/completion_queue_tag.h
+* grpc /usr/include/grpcpp/impl/codegen/config.h
+* grpc /usr/include/grpcpp/impl/codegen/config_protobuf.h
+* grpc /usr/include/grpcpp/impl/codegen/create_auth_context.h
+* grpc /usr/include/grpcpp/impl/codegen/delegating_channel.h
+* grpc /usr/include/grpcpp/impl/codegen/intercepted_channel.h
+* grpc /usr/include/grpcpp/impl/codegen/interceptor.h
+* grpc /usr/include/grpcpp/impl/codegen/interceptor_common.h
+* grpc /usr/include/grpcpp/impl/codegen/message_allocator.h
+* grpc /usr/include/grpcpp/impl/codegen/metadata_map.h
+* grpc /usr/include/grpcpp/impl/codegen/method_handler.h
+* grpc /usr/include/grpcpp/impl/codegen/method_handler_impl.h
+* grpc /usr/include/grpcpp/impl/codegen/proto_buffer_reader.h
+* grpc /usr/include/grpcpp/impl/codegen/proto_buffer_writer.h
+* grpc /usr/include/grpcpp/impl/codegen/proto_utils.h
+* grpc /usr/include/grpcpp/impl/codegen/rpc_method.h
+* grpc /usr/include/grpcpp/impl/codegen/rpc_service_method.h
+* grpc /usr/include/grpcpp/impl/codegen/security/auth_context.h
+* grpc /usr/include/grpcpp/impl/codegen/serialization_traits.h
+* grpc /usr/include/grpcpp/impl/codegen/server_callback.h
+* grpc /usr/include/grpcpp/impl/codegen/server_callback_handlers.h
+* grpc /usr/include/grpcpp/impl/codegen/server_context.h
+* grpc /usr/include/grpcpp/impl/codegen/server_interceptor.h
+* grpc /usr/include/grpcpp/impl/codegen/server_interface.h
+* grpc /usr/include/grpcpp/impl/codegen/service_type.h
+* grpc /usr/include/grpcpp/impl/codegen/slice.h
+* grpc /usr/include/grpcpp/impl/codegen/status.h
+* grpc /usr/include/grpcpp/impl/codegen/status_code_enum.h
+* grpc /usr/include/grpcpp/impl/codegen/string_ref.h
+* grpc /usr/include/grpcpp/impl/codegen/stub_options.h
+* grpc /usr/include/grpcpp/impl/codegen/sync.h
+* grpc /usr/include/grpcpp/impl/codegen/sync_stream.h
+* grpc /usr/include/grpcpp/impl/codegen/time.h
+* grpc /usr/include/grpcpp/impl/completion_queue_tag.h
+* grpc /usr/include/grpcpp/impl/create_auth_context.h
+* grpc /usr/include/grpcpp/impl/delegating_channel.h
+* grpc /usr/include/grpcpp/impl/generic_stub_internal.h
+* grpc /usr/include/grpcpp/impl/grpc_library.h
+* grpc /usr/include/grpcpp/impl/intercepted_channel.h
+* grpc /usr/include/grpcpp/impl/interceptor_common.h
+* grpc /usr/include/grpcpp/impl/metadata_map.h
+* grpc /usr/include/grpcpp/impl/method_handler_impl.h
+* grpc /usr/include/grpcpp/impl/proto_utils.h
+* grpc /usr/include/grpcpp/impl/rpc_method.h
+* grpc /usr/include/grpcpp/impl/rpc_service_method.h
+* grpc /usr/include/grpcpp/impl/serialization_traits.h
+* grpc /usr/include/grpcpp/impl/server_builder_option.h
+* grpc /usr/include/grpcpp/impl/server_builder_plugin.h
+* grpc /usr/include/grpcpp/impl/server_callback_handlers.h
+* grpc /usr/include/grpcpp/impl/server_initializer.h
+* grpc /usr/include/grpcpp/impl/service_type.h
+* grpc /usr/include/grpcpp/impl/status.h
+* grpc /usr/include/grpcpp/impl/sync.h
+* grpc /usr/include/grpcpp/passive_listener.h
+* grpc /usr/include/grpcpp/resource_quota.h
+* grpc /usr/include/grpcpp/security/alts_context.h
+* grpc /usr/include/grpcpp/security/alts_util.h
+* grpc /usr/include/grpcpp/security/audit_logging.h
+* grpc /usr/include/grpcpp/security/authorization_policy_provider.h
+* grpc /usr/include/grpcpp/security/auth_context.h
+* grpc /usr/include/grpcpp/security/auth_metadata_processor.h
+* grpc /usr/include/grpcpp/security/binder_credentials.h
+* grpc /usr/include/grpcpp/security/binder_security_policy.h
+* grpc /usr/include/grpcpp/security/credentials.h
+* grpc /usr/include/grpcpp/security/server_credentials.h
+* grpc /usr/include/grpcpp/security/tls_certificate_provider.h
+* grpc /usr/include/grpcpp/security/tls_certificate_verifier.h
+* grpc /usr/include/grpcpp/security/tls_credentials_options.h
+* grpc /usr/include/grpcpp/security/tls_crl_provider.h
+* grpc /usr/include/grpcpp/server.h
+* grpc /usr/include/grpcpp/server_builder.h
+* grpc /usr/include/grpcpp/server_context.h
+* grpc /usr/include/grpcpp/server_interface.h
+* grpc /usr/include/grpcpp/server_posix.h
+* grpc /usr/include/grpcpp/support/async_stream.h
+* grpc /usr/include/grpcpp/support/async_unary_call.h
+* grpc /usr/include/grpcpp/support/byte_buffer.h
+* grpc /usr/include/grpcpp/support/callback_common.h
+* grpc /usr/include/grpcpp/support/channel_arguments.h
+* grpc /usr/include/grpcpp/support/client_callback.h
+* grpc /usr/include/grpcpp/support/client_interceptor.h
+* grpc /usr/include/grpcpp/support/config.h
+* grpc /usr/include/grpcpp/support/error_details.h
+* grpc /usr/include/grpcpp/support/interceptor.h
+* grpc /usr/include/grpcpp/support/message_allocator.h
+* grpc /usr/include/grpcpp/support/method_handler.h
+* grpc /usr/include/grpcpp/support/proto_buffer_reader.h
+* grpc /usr/include/grpcpp/support/proto_buffer_writer.h
+* grpc /usr/include/grpcpp/support/server_callback.h
+* grpc /usr/include/grpcpp/support/server_interceptor.h
+* grpc /usr/include/grpcpp/support/slice.h
+* grpc /usr/include/grpcpp/support/status.h
+* grpc /usr/include/grpcpp/support/status_code_enum.h
+* grpc /usr/include/grpcpp/support/string_ref.h
+* grpc /usr/include/grpcpp/support/stub_options.h
+* grpc /usr/include/grpcpp/support/sync_stream.h
+* grpc /usr/include/grpcpp/support/time.h
+* grpc /usr/include/grpcpp/support/validate_service_config.h
+* grpc /usr/include/grpcpp/version_info.h
+* grpc /usr/include/grpcpp/xds_server_builder.h
+* grpc /usr/lib/cmake/grpc/gRPCConfig.cmake
+* grpc /usr/lib/cmake/grpc/gRPCConfigVersion.cmake
+* grpc /usr/lib/cmake/grpc/gRPCPluginTargets-release.cmake
+* grpc /usr/lib/cmake/grpc/gRPCPluginTargets.cmake
+* grpc /usr/lib/cmake/grpc/gRPCTargets-release.cmake
+* grpc /usr/lib/cmake/grpc/gRPCTargets.cmake
+* grpc /usr/lib/cmake/grpc/modules/Findc-ares.cmake
+* grpc /usr/lib/cmake/grpc/modules/Findre2.cmake
+* grpc /usr/lib/cmake/grpc/modules/Findsystemd.cmake
+* grpc /usr/lib/libaddress_sorting.so
+* grpc /usr/lib/libaddress_sorting.so.43
+* grpc /usr/lib/libaddress_sorting.so.43.0.0
+* grpc /usr/lib/libgpr.so
+* grpc /usr/lib/libgpr.so.43
+* grpc /usr/lib/libgpr.so.43.0.0
+* grpc /usr/lib/libgrpc++.so
+* grpc /usr/lib/libgrpc++.so.1.66
+* grpc /usr/lib/libgrpc++.so.1.66.1
+* grpc /usr/lib/libgrpc++_alts.so
+* grpc /usr/lib/libgrpc++_alts.so.1.66
+* grpc /usr/lib/libgrpc++_alts.so.1.66.1
+* grpc /usr/lib/libgrpc++_error_details.so
+* grpc /usr/lib/libgrpc++_error_details.so.1.66
+* grpc /usr/lib/libgrpc++_error_details.so.1.66.1
+* grpc /usr/lib/libgrpc++_reflection.so
+* grpc /usr/lib/libgrpc++_reflection.so.1.66
+* grpc /usr/lib/libgrpc++_reflection.so.1.66.1
+* grpc /usr/lib/libgrpc++_unsecure.so
+* grpc /usr/lib/libgrpc++_unsecure.so.1.66
+* grpc /usr/lib/libgrpc++_unsecure.so.1.66.1
+* grpc /usr/lib/libgrpc.so
+* grpc /usr/lib/libgrpc.so.43
+* grpc /usr/lib/libgrpc.so.43.0.0
+* grpc /usr/lib/libgrpcpp_channelz.so
+* grpc /usr/lib/libgrpcpp_channelz.so.1.66
+* grpc /usr/lib/libgrpcpp_channelz.so.1.66.1
+* grpc /usr/lib/libgrpc_authorization_provider.so
+* grpc /usr/lib/libgrpc_authorization_provider.so.1.66
+* grpc /usr/lib/libgrpc_authorization_provider.so.1.66.1
+* grpc /usr/lib/libgrpc_plugin_support.so
+* grpc /usr/lib/libgrpc_plugin_support.so.1.66
+* grpc /usr/lib/libgrpc_plugin_support.so.1.66.1
+* grpc /usr/lib/libgrpc_unsecure.so
+* grpc /usr/lib/libgrpc_unsecure.so.43
+* grpc /usr/lib/libgrpc_unsecure.so.43.0.0
+* grpc /usr/lib/libupb_base_lib.so
+* grpc /usr/lib/libupb_base_lib.so.43
+* grpc /usr/lib/libupb_base_lib.so.43.0.0
+* grpc /usr/lib/libupb_json_lib.so
+* grpc /usr/lib/libupb_json_lib.so.43
+* grpc /usr/lib/libupb_json_lib.so.43.0.0
+* grpc /usr/lib/libupb_mem_lib.so
+* grpc /usr/lib/libupb_mem_lib.so.43
+* grpc /usr/lib/libupb_mem_lib.so.43.0.0
+* grpc /usr/lib/libupb_message_lib.so
+* grpc /usr/lib/libupb_message_lib.so.43
+* grpc /usr/lib/libupb_message_lib.so.43.0.0
+* grpc /usr/lib/libupb_mini_descriptor_lib.so
+* grpc /usr/lib/libupb_mini_descriptor_lib.so.43
+* grpc /usr/lib/libupb_mini_descriptor_lib.so.43.0.0
+* grpc /usr/lib/libupb_textformat_lib.so
+* grpc /usr/lib/libupb_textformat_lib.so.43
+* grpc /usr/lib/libupb_textformat_lib.so.43.0.0
+* grpc /usr/lib/libupb_wire_lib.so
+* grpc /usr/lib/libupb_wire_lib.so.43
+* grpc /usr/lib/libupb_wire_lib.so.43.0.0
+* grpc /usr/lib/libutf8_range_lib.so
+* grpc /usr/lib/libutf8_range_lib.so.43
+* grpc /usr/lib/libutf8_range_lib.so.43.0.0
+* grpc /usr/lib/pkgconfig/gpr.pc
+* grpc /usr/lib/pkgconfig/grpc++.pc
+* grpc /usr/lib/pkgconfig/grpc++_unsecure.pc
+* grpc /usr/lib/pkgconfig/grpc.pc
+* grpc /usr/lib/pkgconfig/grpcpp_otel_plugin.pc
+* grpc /usr/lib/pkgconfig/grpc_unsecure.pc
+* grpc /usr/share/doc/grpc-1.66.1/AUTHORS
+* grpc /usr/share/doc/grpc-1.66.1/LICENSE
+* grpc /usr/share/doc/grpc-1.66.1/README.md
+* grpc /usr/share/grpc/roots.pem

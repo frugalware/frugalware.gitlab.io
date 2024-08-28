@@ -12,7 +12,7 @@ size = "8700"
 usize = "24399"
 sha1sum = "b02d1c5989cafd8ba2bd3ac4a1a1b7cb838d1059"
 depends = "['python3-attrs']"
-reverse_depends = "['python3-trio']"
+reverse_depends = "['./python3-trio', 'python3-trio']"
 +++
 ### Description: 
 Capture the outcome of Python function calls

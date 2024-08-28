@@ -1,168 +1,168 @@
 +++
 draft = false
-title = "kspaceduel 24.05.2-1"
-version = "24.05.2-1"
+title = "./kspaceduel 24.08.0-1"
+version = "24.08.0-1"
 description = "KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun"
-date = "2024-07-05T12:14:33"
-aliases = "/packages/219340"
+date = "2024-08-22T17:38:15"
+aliases = "/packages/222336"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "662260"
-usize = "1774641"
-sha1sum = "b7134a686eee31cbf2dc899bfdbd418e0d1f6cb6"
-depends = "['libkdegames>=24.05.2']"
+size = "656616"
+usize = "1731151"
+sha1sum = "c2fd9bd1970694620d7332468f98f1fe01f0f167"
+depends = "['libkdegames>=24.08.0']"
 +++
 ### Description: 
 KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun
 
 ### Files: 
-* /usr/bin/kspaceduel
-* /usr/share/applications/org.kde.kspaceduel.desktop
-* /usr/share/config.kcfg/kspaceduel.kcfg
-* /usr/share/doc/HTML/ca/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/ca/kspaceduel/index.docbook
-* /usr/share/doc/HTML/ca/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/de/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/de/kspaceduel/index.docbook
-* /usr/share/doc/HTML/de/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/en/kspaceduel/bullet.png
-* /usr/share/doc/HTML/en/kspaceduel/energy.png
-* /usr/share/doc/HTML/en/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/en/kspaceduel/index.docbook
-* /usr/share/doc/HTML/en/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/en/kspaceduel/mine.png
-* /usr/share/doc/HTML/en/kspaceduel/shield.png
-* /usr/share/doc/HTML/es/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/es/kspaceduel/index.docbook
-* /usr/share/doc/HTML/et/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/et/kspaceduel/index.docbook
-* /usr/share/doc/HTML/fr/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/fr/kspaceduel/index.docbook
-* /usr/share/doc/HTML/fr/kspaceduel/kspaceduel1.png
-* /usr/share/doc/HTML/fr/kspaceduel/kspaceduel2.png
-* /usr/share/doc/HTML/fr/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/it/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/it/kspaceduel/index.docbook
-* /usr/share/doc/HTML/nl/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/nl/kspaceduel/index.docbook
-* /usr/share/doc/HTML/nl/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/pt/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/pt/kspaceduel/index.docbook
-* /usr/share/doc/HTML/pt_BR/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kspaceduel/index.docbook
-* /usr/share/doc/HTML/pt_BR/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/ru/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/ru/kspaceduel/index.docbook
-* /usr/share/doc/HTML/sv/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/sv/kspaceduel/index.docbook
-* /usr/share/doc/HTML/sv/kspaceduel/kspaceduel3.png
-* /usr/share/doc/HTML/uk/kspaceduel/index.cache.bz2
-* /usr/share/doc/HTML/uk/kspaceduel/index.docbook
-* /usr/share/doc/HTML/uk/kspaceduel/kspaceduel3.png
-* /usr/share/doc/kspaceduel-24.05.2/AUTHORS
-* /usr/share/doc/kspaceduel-24.05.2/ChangeLog
-* /usr/share/doc/kspaceduel-24.05.2/README
-* /usr/share/doc/kspaceduel-24.05.2/README.PACKAGERS
-* /usr/share/doc/kspaceduel-24.05.2/TODO
-* /usr/share/icons/hicolor/128x128/apps/kspaceduel.png
-* /usr/share/icons/hicolor/16x16/apps/kspaceduel.png
-* /usr/share/icons/hicolor/22x22/apps/kspaceduel.png
-* /usr/share/icons/hicolor/32x32/apps/kspaceduel.png
-* /usr/share/icons/hicolor/48x48/apps/kspaceduel.png
-* /usr/share/icons/hicolor/64x64/apps/kspaceduel.png
-* /usr/share/kspaceduel/icons/hicolor/16x16/actions/spnewgame.png
-* /usr/share/kspaceduel/icons/hicolor/16x16/actions/spnewround.png
-* /usr/share/kspaceduel/icons/hicolor/16x16/actions/sppausegame.png
-* /usr/share/kspaceduel/icons/hicolor/22x22/actions/spnewgame.png
-* /usr/share/kspaceduel/icons/hicolor/22x22/actions/spnewround.png
-* /usr/share/kspaceduel/icons/hicolor/22x22/actions/sppausegame.png
-* /usr/share/kspaceduel/icons/hicolor/32x32/actions/spnewgame.png
-* /usr/share/kspaceduel/icons/hicolor/32x32/actions/spnewround.png
-* /usr/share/kspaceduel/icons/hicolor/32x32/actions/sppausegame.png
-* /usr/share/kspaceduel/sprites/backgr.png
-* /usr/share/kspaceduel/sprites/default_theme.svgz
-* /usr/share/kspaceduel/sprites/playerinfo/energy.png
-* /usr/share/kspaceduel/sprites/playerinfo/mine.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship10.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship11.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship12.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship13.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship20.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship21.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship22.png
-* /usr/share/kspaceduel/sprites/playerinfo/ship23.png
-* /usr/share/kspaceduel/sprites/playerinfo/win.png
-* /usr/share/locale/af/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ar/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ast/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/be/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/bg/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/br/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/bs/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ca/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/cs/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/cy/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/da/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/de/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/el/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/eo/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/es/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/et/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/eu/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/fa/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/fi/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/fr/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ga/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/gl/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/he/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/hi/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/hne/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/hr/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/hu/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ia/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/is/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/it/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ja/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ka/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/kk/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/km/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ko/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/lt/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/lv/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/mai/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/mk/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ml/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/mr/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/nb/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/nds/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ne/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/nl/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/nn/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/oc/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/pa/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/pl/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/pt/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ro/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ru/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/se/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sk/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sl/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sq/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sr/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/sv/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ta/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/tg/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/tr/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/ug/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/uk/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/xh/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kspaceduel.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kspaceduel.mo
-* /usr/share/metainfo/org.kde.kspaceduel.appdata.xml
+* kspaceduel /usr/bin/kspaceduel
+* kspaceduel /usr/share/applications/org.kde.kspaceduel.desktop
+* kspaceduel /usr/share/config.kcfg/kspaceduel.kcfg
+* kspaceduel /usr/share/doc/HTML/ca/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/ca/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/ca/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/de/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/de/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/de/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/bullet.png
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/energy.png
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/mine.png
+* kspaceduel /usr/share/doc/HTML/en/kspaceduel/shield.png
+* kspaceduel /usr/share/doc/HTML/es/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/es/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/et/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/et/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/fr/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/fr/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/fr/kspaceduel/kspaceduel1.png
+* kspaceduel /usr/share/doc/HTML/fr/kspaceduel/kspaceduel2.png
+* kspaceduel /usr/share/doc/HTML/fr/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/it/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/it/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/nl/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/nl/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/nl/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/pt/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/pt/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/pt_BR/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/pt_BR/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/pt_BR/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/ru/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/ru/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/sv/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/sv/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/sv/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/HTML/uk/kspaceduel/index.cache.bz2
+* kspaceduel /usr/share/doc/HTML/uk/kspaceduel/index.docbook
+* kspaceduel /usr/share/doc/HTML/uk/kspaceduel/kspaceduel3.png
+* kspaceduel /usr/share/doc/kspaceduel-24.08.0/AUTHORS
+* kspaceduel /usr/share/doc/kspaceduel-24.08.0/ChangeLog
+* kspaceduel /usr/share/doc/kspaceduel-24.08.0/README
+* kspaceduel /usr/share/doc/kspaceduel-24.08.0/README.PACKAGERS
+* kspaceduel /usr/share/doc/kspaceduel-24.08.0/TODO
+* kspaceduel /usr/share/icons/hicolor/128x128/apps/kspaceduel.png
+* kspaceduel /usr/share/icons/hicolor/16x16/apps/kspaceduel.png
+* kspaceduel /usr/share/icons/hicolor/22x22/apps/kspaceduel.png
+* kspaceduel /usr/share/icons/hicolor/32x32/apps/kspaceduel.png
+* kspaceduel /usr/share/icons/hicolor/48x48/apps/kspaceduel.png
+* kspaceduel /usr/share/icons/hicolor/64x64/apps/kspaceduel.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/16x16/actions/spnewgame.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/16x16/actions/spnewround.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/16x16/actions/sppausegame.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/22x22/actions/spnewgame.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/22x22/actions/spnewround.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/22x22/actions/sppausegame.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/32x32/actions/spnewgame.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/32x32/actions/spnewround.png
+* kspaceduel /usr/share/kspaceduel/icons/hicolor/32x32/actions/sppausegame.png
+* kspaceduel /usr/share/kspaceduel/sprites/backgr.png
+* kspaceduel /usr/share/kspaceduel/sprites/default_theme.svgz
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/energy.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/mine.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship10.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship11.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship12.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship13.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship20.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship21.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship22.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/ship23.png
+* kspaceduel /usr/share/kspaceduel/sprites/playerinfo/win.png
+* kspaceduel /usr/share/locale/af/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ar/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ast/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/be/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/bg/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/br/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/bs/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ca/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ca@valencia/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/cs/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/cy/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/da/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/de/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/el/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/en_GB/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/eo/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/es/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/et/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/eu/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/fa/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/fi/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/fr/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ga/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/gl/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/he/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/hi/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/hne/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/hr/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/hu/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ia/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/is/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/it/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ja/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ka/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/kk/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/km/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ko/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/lt/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/lv/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/mai/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/mk/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ml/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/mr/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/nb/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/nds/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ne/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/nl/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/nn/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/oc/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/pa/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/pl/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/pt/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/pt_BR/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ro/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ru/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/se/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sk/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sl/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sq/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sr/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sr@ijekavian/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sr@latin/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/sv/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ta/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/tg/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/tr/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/ug/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/uk/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/xh/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/zh_CN/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/locale/zh_TW/LC_MESSAGES/kspaceduel.mo
+* kspaceduel /usr/share/metainfo/org.kde.kspaceduel.appdata.xml

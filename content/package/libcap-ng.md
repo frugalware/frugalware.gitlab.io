@@ -12,7 +12,7 @@ size = "58520"
 usize = "173430"
 sha1sum = "6d942c949f3f085879b58ba51cdee163716f3f41"
 depends = "['glibc>=2.35']"
-reverse_depends = "['audit', 'greetd', 'libreswan', 'openvswitch', 'smartmontools', 'usbguard', 'util-linux']"
+reverse_depends = "['./openvswitch', 'audit', 'greetd', 'libreswan', 'openvswitch', 'smartmontools', 'usbguard', 'util-linux']"
 license = "LGPL2.1"
 +++
 ### Description: 

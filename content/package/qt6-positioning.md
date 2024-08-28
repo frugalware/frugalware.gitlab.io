@@ -12,7 +12,7 @@ size = "334888"
 usize = "1687293"
 sha1sum = "691ffc422dbdd4993d8f369fec1d35a88cd046dc"
 depends = "['qt6-declarative', 'qt6-serialport']"
-reverse_depends = "['itinerary', 'qt6-location', 'qt6-webengine', 'yin-yang']"
+reverse_depends = "['./itinerary', 'itinerary', 'qt6-location', 'qt6-webengine', 'yin-yang']"
 +++
 ### Description: 
 The Qt6 toolkit, qtpositioning

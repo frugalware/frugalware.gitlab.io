@@ -12,7 +12,7 @@ size = "654964"
 usize = "721389"
 sha1sum = "abb5713845ef978b2d78d9dc5d0082fd3150c2e8"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Norwegian Nynorsk language support for Thunderbird

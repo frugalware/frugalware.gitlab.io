@@ -12,7 +12,7 @@ size = "196784"
 usize = "697353"
 sha1sum = "eb616b7aa3b57d54317a3b2d2ee92bf1b8423afa"
 depends = "['libx11>=1.6.8', 'libxext>=1.3.3-3', 'libxfixes>=5.0.3']"
-reverse_depends = "['blender', 'box2d', 'efl', 'enlightenment', 'flightgear', 'fox', 'freeglut', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'guarddog', 'kasablanca', 'kat', 'kitty', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'kzenexplorer', 'libxtst', 'maxemumtvguide', 'mlt-qt', 'mupdf', 'opendiablo2', 'qscintilla2', 'qt5-base', 'qt6-base', 'terminology', 'whalebird', 'wine', 'wine-devel', 'xeyes', 'xf86-input-synaptics', 'xf86-input-wacom', 'xinput', 'xsetmode', 'xsetpointer']"
+reverse_depends = "['./kitty', './wine-devel', 'blender', 'box2d', 'efl', 'enlightenment', 'flightgear', 'fox', 'freeglut', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'guarddog', 'kasablanca', 'kat', 'kitty', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'kzenexplorer', 'libxtst', 'maxemumtvguide', 'mlt-qt', 'mupdf', 'opendiablo2', 'qscintilla2', 'qt5-base', 'qt6-base', 'terminology', 'whalebird', 'wine', 'wine-devel', 'xeyes', 'xf86-input-synaptics', 'xf86-input-wacom', 'xinput', 'xsetmode', 'xsetpointer']"
 license = "GPL2"
 +++
 ### Description: 

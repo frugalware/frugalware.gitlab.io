@@ -1,88 +1,88 @@
 +++
 draft = false
-title = "openloco 24.07-1"
-version = "24.07-1"
+title = "./openloco 24.08-1"
+version = "24.08-1"
 description = "An open source re-implementation of Locomotion"
-date = "2024-07-24T13:50:10"
-aliases = "/packages/220332"
+date = "2024-08-20T19:10:06"
+aliases = "/packages/222463"
 categories = ['games-extra']
 upstreamurl = "https://github.com/openloco/openloco"
 arch = "x86_64"
-size = "2036200"
-usize = "23747223"
-sha1sum = "659c3d0db0346b6a5d2c9c77f78ab098559c016d"
+size = "2042312"
+usize = "23776768"
+sha1sum = "fa755ddae5eaa96f7f648cb65f56cb61f977c5d5"
 depends = "['lib32-libpng', 'lib32-openal', 'lib32-sdl2_mixer', 'lib32-yaml-cpp', 'libstdc++']"
 +++
 ### Description: 
 An open source re-implementation of Locomotion
 
 ### Files: 
-* /usr/bin/data/language/de-DE.yml
-* /usr/bin/data/language/en-GB.yml
-* /usr/bin/data/language/en-US.yml
-* /usr/bin/data/language/es-ES.yml
-* /usr/bin/data/language/fr-FR.yml
-* /usr/bin/data/language/it-IT.yml
-* /usr/bin/data/language/ja-JP.yml
-* /usr/bin/data/language/ko-KR.yml
-* /usr/bin/data/language/nl-NL.yml
-* /usr/bin/data/language/pl-PL.yml
-* /usr/bin/data/language/pt-BR.yml
-* /usr/bin/data/language/ru-RU.yml
-* /usr/bin/data/language/sk-SK.yml
-* /usr/bin/data/language/zh-CN.yml
-* /usr/bin/OpenLoco
-* /usr/include/fmt/args.h
-* /usr/include/fmt/chrono.h
-* /usr/include/fmt/color.h
-* /usr/include/fmt/compile.h
-* /usr/include/fmt/core.h
-* /usr/include/fmt/format-inl.h
-* /usr/include/fmt/format.h
-* /usr/include/fmt/os.h
-* /usr/include/fmt/ostream.h
-* /usr/include/fmt/printf.h
-* /usr/include/fmt/ranges.h
-* /usr/include/fmt/std.h
-* /usr/include/fmt/xchar.h
-* /usr/include/sfl/compact_vector.hpp
-* /usr/include/sfl/private.hpp
-* /usr/include/sfl/segmented_devector.hpp
-* /usr/include/sfl/segmented_vector.hpp
-* /usr/include/sfl/small_flat_map.hpp
-* /usr/include/sfl/small_flat_multimap.hpp
-* /usr/include/sfl/small_flat_multiset.hpp
-* /usr/include/sfl/small_flat_set.hpp
-* /usr/include/sfl/small_unordered_flat_map.hpp
-* /usr/include/sfl/small_unordered_flat_multimap.hpp
-* /usr/include/sfl/small_unordered_flat_multiset.hpp
-* /usr/include/sfl/small_unordered_flat_set.hpp
-* /usr/include/sfl/small_vector.hpp
-* /usr/include/sfl/static_flat_map.hpp
-* /usr/include/sfl/static_flat_multimap.hpp
-* /usr/include/sfl/static_flat_multiset.hpp
-* /usr/include/sfl/static_flat_set.hpp
-* /usr/include/sfl/static_unordered_flat_map.hpp
-* /usr/include/sfl/static_unordered_flat_multimap.hpp
-* /usr/include/sfl/static_unordered_flat_multiset.hpp
-* /usr/include/sfl/static_unordered_flat_set.hpp
-* /usr/include/sfl/static_vector.hpp
-* /usr/lib/cmake/fmt/fmt-config-version.cmake
-* /usr/lib/cmake/fmt/fmt-config.cmake
-* /usr/lib/cmake/fmt/fmt-targets-release.cmake
-* /usr/lib/cmake/fmt/fmt-targets.cmake
-* /usr/lib/pkgconfig/fmt.pc
-* /usr/share/applications/openloco.desktop
-* /usr/share/doc/openloco-24.08/LICENSE
-* /usr/share/doc/openloco-24.08/README.md
-* /usr/share/doc/openloco/CHANGELOG.md
-* /usr/share/doc/openloco/CONTRIBUTORS.md
-* /usr/share/doc/openloco/LICENSE
-* /usr/share/doc/openloco/README.md
-* /usr/share/icons/hicolor/128x128/apps/openloco.png
-* /usr/share/icons/hicolor/16x16/apps/openloco.png
-* /usr/share/icons/hicolor/256x256/apps/openloco.png
-* /usr/share/icons/hicolor/32x32/apps/openloco.png
-* /usr/share/icons/hicolor/512x512/apps/openloco.png
-* /usr/share/icons/hicolor/64x64/apps/openloco.png
-* /usr/share/icons/hicolor/scalable/apps/openloco.svg
+* openloco /usr/bin/data/language/de-DE.yml
+* openloco /usr/bin/data/language/en-GB.yml
+* openloco /usr/bin/data/language/en-US.yml
+* openloco /usr/bin/data/language/es-ES.yml
+* openloco /usr/bin/data/language/fr-FR.yml
+* openloco /usr/bin/data/language/it-IT.yml
+* openloco /usr/bin/data/language/ja-JP.yml
+* openloco /usr/bin/data/language/ko-KR.yml
+* openloco /usr/bin/data/language/nl-NL.yml
+* openloco /usr/bin/data/language/pl-PL.yml
+* openloco /usr/bin/data/language/pt-BR.yml
+* openloco /usr/bin/data/language/ru-RU.yml
+* openloco /usr/bin/data/language/sk-SK.yml
+* openloco /usr/bin/data/language/zh-CN.yml
+* openloco /usr/bin/OpenLoco
+* openloco /usr/include/fmt/args.h
+* openloco /usr/include/fmt/chrono.h
+* openloco /usr/include/fmt/color.h
+* openloco /usr/include/fmt/compile.h
+* openloco /usr/include/fmt/core.h
+* openloco /usr/include/fmt/format-inl.h
+* openloco /usr/include/fmt/format.h
+* openloco /usr/include/fmt/os.h
+* openloco /usr/include/fmt/ostream.h
+* openloco /usr/include/fmt/printf.h
+* openloco /usr/include/fmt/ranges.h
+* openloco /usr/include/fmt/std.h
+* openloco /usr/include/fmt/xchar.h
+* openloco /usr/include/sfl/compact_vector.hpp
+* openloco /usr/include/sfl/private.hpp
+* openloco /usr/include/sfl/segmented_devector.hpp
+* openloco /usr/include/sfl/segmented_vector.hpp
+* openloco /usr/include/sfl/small_flat_map.hpp
+* openloco /usr/include/sfl/small_flat_multimap.hpp
+* openloco /usr/include/sfl/small_flat_multiset.hpp
+* openloco /usr/include/sfl/small_flat_set.hpp
+* openloco /usr/include/sfl/small_unordered_flat_map.hpp
+* openloco /usr/include/sfl/small_unordered_flat_multimap.hpp
+* openloco /usr/include/sfl/small_unordered_flat_multiset.hpp
+* openloco /usr/include/sfl/small_unordered_flat_set.hpp
+* openloco /usr/include/sfl/small_vector.hpp
+* openloco /usr/include/sfl/static_flat_map.hpp
+* openloco /usr/include/sfl/static_flat_multimap.hpp
+* openloco /usr/include/sfl/static_flat_multiset.hpp
+* openloco /usr/include/sfl/static_flat_set.hpp
+* openloco /usr/include/sfl/static_unordered_flat_map.hpp
+* openloco /usr/include/sfl/static_unordered_flat_multimap.hpp
+* openloco /usr/include/sfl/static_unordered_flat_multiset.hpp
+* openloco /usr/include/sfl/static_unordered_flat_set.hpp
+* openloco /usr/include/sfl/static_vector.hpp
+* openloco /usr/lib/cmake/fmt/fmt-config-version.cmake
+* openloco /usr/lib/cmake/fmt/fmt-config.cmake
+* openloco /usr/lib/cmake/fmt/fmt-targets-release.cmake
+* openloco /usr/lib/cmake/fmt/fmt-targets.cmake
+* openloco /usr/lib/pkgconfig/fmt.pc
+* openloco /usr/share/applications/openloco.desktop
+* openloco /usr/share/doc/openloco-24.08/LICENSE
+* openloco /usr/share/doc/openloco-24.08/README.md
+* openloco /usr/share/doc/openloco/CHANGELOG.md
+* openloco /usr/share/doc/openloco/CONTRIBUTORS.md
+* openloco /usr/share/doc/openloco/LICENSE
+* openloco /usr/share/doc/openloco/README.md
+* openloco /usr/share/icons/hicolor/128x128/apps/openloco.png
+* openloco /usr/share/icons/hicolor/16x16/apps/openloco.png
+* openloco /usr/share/icons/hicolor/256x256/apps/openloco.png
+* openloco /usr/share/icons/hicolor/32x32/apps/openloco.png
+* openloco /usr/share/icons/hicolor/512x512/apps/openloco.png
+* openloco /usr/share/icons/hicolor/64x64/apps/openloco.png
+* openloco /usr/share/icons/hicolor/scalable/apps/openloco.svg

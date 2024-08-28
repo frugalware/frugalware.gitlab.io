@@ -12,7 +12,7 @@ size = "213324"
 usize = "711575"
 sha1sum = "3e2ef4c686084fbbaa709a727c313e8105f174ac"
 depends = "['libjpeg-turbo', 'libtiff>=4.0.6-2', 'zlib>=1.2.12']"
-reverse_depends = "['babl', 'colord', 'dcraw', 'enblend-enfuse', 'firefox', 'ghostscript', 'imagemagick', 'kitty', 'libcdr', 'libfreehand', 'libmng', 'libplacebo', 'libraw', 'nufraw', 'opencolorio', 'openjpeg', 'openjre', 'poppler-pdftools', 'qt5-webengine', 'weston', 'wine', 'wine-devel']"
+reverse_depends = "['./imagemagick', './kitty', './wine-devel', 'babl', 'colord', 'dcraw', 'enblend-enfuse', 'firefox', 'ghostscript', 'imagemagick', 'kitty', 'libcdr', 'libfreehand', 'libmng', 'libplacebo', 'libraw', 'nufraw', 'opencolorio', 'openjpeg', 'openjre', 'poppler-pdftools', 'qt5-webengine', 'weston', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Lightweight color management development library/engine

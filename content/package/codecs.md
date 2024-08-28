@@ -1,245 +1,245 @@
 +++
 draft = false
-title = "codecs 20110131-5"
-version = "20110131-5"
+title = "./codecs 20110131-6"
+version = "20110131-6"
 description = "Binary codecs, for Linux x86"
-date = "2022-01-27T14:53:34"
-aliases = "/packages/60543"
+date = "2024-08-28T09:58:37"
+aliases = "/packages/222464"
 categories = ['multimedia']
 upstreamurl = "http://www.mplayerhq.hu/MPlayer/releases/codecs/"
 arch = "x86_64"
-size = "17550384"
-usize = "67166834"
-sha1sum = "87c390e10c4affb077f59ce65989e40f261eaa9b"
-depends = "['libstdc++>=7.3.0-7']"
+size = "18828332"
+usize = "67158510"
+sha1sum = "09ce51d4fb0807a38b10e9bf5fdf55f41623832c"
+depends = "['libstdc++>=14.2']"
 +++
 ### Description: 
 Binary codecs, for Linux x86
 
 ### Files: 
-* /usr/lib/win32/14_43260.dll
-* /usr/lib/win32/28_83260.dll
-* /usr/lib/win32/3ivx Delta 3.5.qtx
-* /usr/lib/win32/3ivx.dll
-* /usr/lib/win32/3ivxDSVideoDecoder.ax
-* /usr/lib/win32/ACDV.dll
-* /usr/lib/win32/acelpdec.ax
-* /usr/lib/win32/ACTLComponent.qtx
-* /usr/lib/win32/ADV601.dll
-* /usr/lib/win32/alf2cd.acm
-* /usr/lib/win32/Amv2Codec.dll
-* /usr/lib/win32/aoxdxipl.ax
-* /usr/lib/win32/AppleProResDecoder.qtx
-* /usr/lib/win32/aslcodec_dshow.dll
-* /usr/lib/win32/aslcodec_vfw.dll
-* /usr/lib/win32/asusasv2.dll
-* /usr/lib/win32/asusasvd.dll
-* /usr/lib/win32/ativcr1.dll
-* /usr/lib/win32/ativcr2.dll
-* /usr/lib/win32/atrac3.acm
-* /usr/lib/win32/atrc.so.6.0
-* /usr/lib/win32/atrc3260.dll
-* /usr/lib/win32/AvidAVdnCodec.qtx
-* /usr/lib/win32/AvidAVICodec.dll
-* /usr/lib/win32/AvidQTAVUICodec.qtx
-* /usr/lib/win32/avimszh.dll
-* /usr/lib/win32/avizlib.dll
-* /usr/lib/win32/BeHereiVideo.qtx
-* /usr/lib/win32/blox.dll
-* /usr/lib/win32/BMDCodecLib.dll
-* /usr/lib/win32/BTVVC32.DRV
-* /usr/lib/win32/bw10.dll
-* /usr/lib/win32/camfc.dll
-* /usr/lib/win32/cinevfw.dll
-* /usr/lib/win32/CineWave.qtx
-* /usr/lib/win32/cllccodc.dll
-* /usr/lib/win32/CLRVIDDC.DLL
-* /usr/lib/win32/clrviddd.dll
-* /usr/lib/win32/cook.so
-* /usr/lib/win32/cook.so.6.0
-* /usr/lib/win32/cook3260.dll
-* /usr/lib/win32/cseHQa.dll
-* /usr/lib/win32/csellc.dll
-* /usr/lib/win32/CSEUvec.dll
-* /usr/lib/win32/ctadp32.acm
-* /usr/lib/win32/CtWbJpg.DLL
-* /usr/lib/win32/CUVCcodc.dll
-* /usr/lib/win32/decvdo.dll
-* /usr/lib/win32/DECVW_32.DLL
-* /usr/lib/win32/divx.dll
-* /usr/lib/win32/divxa32.acm
-* /usr/lib/win32/divxc32.dll
-* /usr/lib/win32/divx_c32.ax
-* /usr/lib/win32/drv2.so.6.0
-* /usr/lib/win32/drv23260.dll
-* /usr/lib/win32/drv3.so.6.0
-* /usr/lib/win32/drv33260.dll
-* /usr/lib/win32/drv4.so.6.0
-* /usr/lib/win32/drv43260.dll
-* /usr/lib/win32/drvc.so
-* /usr/lib/win32/DVACM.acm
-* /usr/lib/win32/fmcodec.DLL
-* /usr/lib/win32/frapsvid.dll
-* /usr/lib/win32/frwd.dll
-* /usr/lib/win32/frwt.dll
-* /usr/lib/win32/frwu.dll
-* /usr/lib/win32/G2M.dll
-* /usr/lib/win32/GeoCodec.dll
-* /usr/lib/win32/GXAMP4.dll
-* /usr/lib/win32/huffyuv.dll
-* /usr/lib/win32/i263_32.drv
-* /usr/lib/win32/iac25_32.ax
-* /usr/lib/win32/iccvid.dll
-* /usr/lib/win32/icmw_32.dll
-* /usr/lib/win32/imaadp32.acm
-* /usr/lib/win32/imc32.acm
-* /usr/lib/win32/ir32_32.dll
-* /usr/lib/win32/ir41_32.dll
-* /usr/lib/win32/ir50_32.dll
-* /usr/lib/win32/ivvideo.dll
-* /usr/lib/win32/jp2avi.dll
-* /usr/lib/win32/kdvyuv8.dll
-* /usr/lib/win32/KGV1-VFW.dll
-* /usr/lib/win32/l3codeca.acm
-* /usr/lib/win32/lagarith.dll
-* /usr/lib/win32/LCMW2.dll
-* /usr/lib/win32/LCodcCMP.dll
-* /usr/lib/win32/LCODCCMW2E.dll
-* /usr/lib/win32/lhacm.acm
-* /usr/lib/win32/lhacm2.acm
-* /usr/lib/win32/libguide40.dll
-* /usr/lib/win32/lsvxdec.dll
-* /usr/lib/win32/m3jp2k32.dll
-* /usr/lib/win32/m3jpeg32.dll
-* /usr/lib/win32/m3jpegdec.ax
-* /usr/lib/win32/mcdvd_32.dll
-* /usr/lib/win32/mcmjpg32.dll
-* /usr/lib/win32/md5sum
-* /usr/lib/win32/mi-sc4.acm
-* /usr/lib/win32/Microsoft.Expression.Encoder.EEScreen.Codec.dll
-* /usr/lib/win32/MLZCodec.dll
-* /usr/lib/win32/mpg4c32.dll
-* /usr/lib/win32/mpg4ds32.ax
-* /usr/lib/win32/msadp32.acm
-* /usr/lib/win32/msgsm32.acm
-* /usr/lib/win32/msh261.drv
-* /usr/lib/win32/msms001.vwp
-* /usr/lib/win32/msnaudio.acm
-* /usr/lib/win32/msscds32.ax
-* /usr/lib/win32/msvcr100.dll
-* /usr/lib/win32/msvidc32.dll
-* /usr/lib/win32/MV3.dll
-* /usr/lib/win32/MVCodec.dll
-* /usr/lib/win32/mvoiced.vwp
-* /usr/lib/win32/mwsc.dll
-* /usr/lib/win32/MyFlashZip0.ax
-* /usr/lib/win32/Nsgsm32.acm
-* /usr/lib/win32/nsrt2432.acm
-* /usr/lib/win32/Nstsp32.acm
-* /usr/lib/win32/nsvideo.dll
-* /usr/lib/win32/NuB2.dll
-* /usr/lib/win32/nuvision.ax
-* /usr/lib/win32/On2_VP3.qtx
-* /usr/lib/win32/pclepim1.dll
-* /usr/lib/win32/pncrt.dll
-* /usr/lib/win32/psiv.dll
-* /usr/lib/win32/pvljpg20.dll
-* /usr/lib/win32/pvmjpg21.dll
-* /usr/lib/win32/pvwv220.dll
-* /usr/lib/win32/qdv.dll
-* /usr/lib/win32/qpeg32.dll
-* /usr/lib/win32/qtmlClient.dll
-* /usr/lib/win32/QuickTime.qts
-* /usr/lib/win32/QuickTimeEssentials.qtx
-* /usr/lib/win32/QuickTimeInternetExtras.qtx
-* /usr/lib/win32/README
-* /usr/lib/win32/rricm.dll
-* /usr/lib/win32/rt32dcmp.dll
-* /usr/lib/win32/scdec.dll
-* /usr/lib/win32/scg726.acm
-* /usr/lib/win32/SCLS.DLL
-* /usr/lib/win32/scrvid.dll
-* /usr/lib/win32/Sif1Dec.ax
-* /usr/lib/win32/Sif1_vfw.dll
-* /usr/lib/win32/sipr.so.6.0
-* /usr/lib/win32/sipr3260.dll
-* /usr/lib/win32/sirenacm.dll
-* /usr/lib/win32/slif.dll
-* /usr/lib/win32/smcelp32.acm
-* /usr/lib/win32/smv2vfw.dll
-* /usr/lib/win32/SN4Codec.dll
-* /usr/lib/win32/sp4x_32.dll
-* /usr/lib/win32/sp5x_32.dll
-* /usr/lib/win32/sp6x_32.dll
-* /usr/lib/win32/tm20dec.ax
-* /usr/lib/win32/tm2x.dll
-* /usr/lib/win32/tr2032.dll
-* /usr/lib/win32/TRICDC32.DRV
-* /usr/lib/win32/tsccvid.dll
-* /usr/lib/win32/tsd32.dll
-* /usr/lib/win32/tssoft32.acm
-* /usr/lib/win32/tvqdec.dll
-* /usr/lib/win32/ubv263d+.ax
-* /usr/lib/win32/ubvmp4d.dll
-* /usr/lib/win32/ultimo.dll
-* /usr/lib/win32/vcmimm4.dll
-* /usr/lib/win32/vdo32_30.drv
-* /usr/lib/win32/VDODEC32.dll
-* /usr/lib/win32/vdowave.acm
-* /usr/lib/win32/vdowave.drv
-* /usr/lib/win32/VFCodec.dll
-* /usr/lib/win32/vgpix32d.dll
-* /usr/lib/win32/vid_3ivX.xa
-* /usr/lib/win32/vid_cvid.xa
-* /usr/lib/win32/vid_cyuv.xa
-* /usr/lib/win32/vid_h261.xa
-* /usr/lib/win32/vid_h263.xa
-* /usr/lib/win32/vid_iv32.xa
-* /usr/lib/win32/vid_iv41.xa
-* /usr/lib/win32/vid_iv50.xa
-* /usr/lib/win32/ViVD2.dll
-* /usr/lib/win32/vivog723.acm
-* /usr/lib/win32/vmnc.dll
-* /usr/lib/win32/vorbis.acm
-* /usr/lib/win32/voxmsdec.ax
-* /usr/lib/win32/vp31vfw.dll
-* /usr/lib/win32/vp4vfw.dll
-* /usr/lib/win32/vp5vfw.dll
-* /usr/lib/win32/vp6vfw.dll
-* /usr/lib/win32/vp7vfw.dll
-* /usr/lib/win32/vssh264.dll
-* /usr/lib/win32/vssh264core.dll
-* /usr/lib/win32/vssh264dec.dll
-* /usr/lib/win32/vsshdsd.dll
-* /usr/lib/win32/vsslight.dll
-* /usr/lib/win32/vsswlt.dll
-* /usr/lib/win32/VTZ32.DLL
-* /usr/lib/win32/WavCWAIP.dll
-* /usr/lib/win32/wavelet.dll
-* /usr/lib/win32/WavLor.dll
-* /usr/lib/win32/WCMV.dll
-* /usr/lib/win32/wma9dmod.dll
-* /usr/lib/win32/wmadmod.dll
-* /usr/lib/win32/wmavds32.ax
-* /usr/lib/win32/wms10dmod.dll
-* /usr/lib/win32/wmsdmod.dll
-* /usr/lib/win32/wmspdmod.dll
-* /usr/lib/win32/wmv8ds32.ax
-* /usr/lib/win32/wmv9dmod.dll
-* /usr/lib/win32/wmvadvd.dll
-* /usr/lib/win32/wmvdmod.dll
-* /usr/lib/win32/wmvds32.ax
-* /usr/lib/win32/wnvplay1.dll
-* /usr/lib/win32/wnvwinx.dll
-* /usr/lib/win32/wtvc.DLL
-* /usr/lib/win32/wv32vfw.dll
-* /usr/lib/win32/wvc1dmod.dll
-* /usr/lib/win32/xanlib.dll
-* /usr/lib/win32/xfcodec.dll
-* /usr/lib/win32/ylc.vcm
-* /usr/lib/win32/Zlib.dll
-* /usr/lib/win32/zlib1.dll
-* /usr/lib/win32/zmbv.dll
-* /usr/lib/win32/ZyGoAudioS.qtx
-* /usr/lib/win32/ZyGoVideo.qtx
-* /usr/share/doc/codecs-20110131/README
+* codecs /usr/lib/win32/14_43260.dll
+* codecs /usr/lib/win32/28_83260.dll
+* codecs /usr/lib/win32/3ivx Delta 3.5.qtx
+* codecs /usr/lib/win32/3ivx.dll
+* codecs /usr/lib/win32/3ivxDSVideoDecoder.ax
+* codecs /usr/lib/win32/ACDV.dll
+* codecs /usr/lib/win32/acelpdec.ax
+* codecs /usr/lib/win32/ACTLComponent.qtx
+* codecs /usr/lib/win32/ADV601.dll
+* codecs /usr/lib/win32/alf2cd.acm
+* codecs /usr/lib/win32/Amv2Codec.dll
+* codecs /usr/lib/win32/aoxdxipl.ax
+* codecs /usr/lib/win32/AppleProResDecoder.qtx
+* codecs /usr/lib/win32/aslcodec_dshow.dll
+* codecs /usr/lib/win32/aslcodec_vfw.dll
+* codecs /usr/lib/win32/asusasv2.dll
+* codecs /usr/lib/win32/asusasvd.dll
+* codecs /usr/lib/win32/ativcr1.dll
+* codecs /usr/lib/win32/ativcr2.dll
+* codecs /usr/lib/win32/atrac3.acm
+* codecs /usr/lib/win32/atrc.so.6.0
+* codecs /usr/lib/win32/atrc3260.dll
+* codecs /usr/lib/win32/AvidAVdnCodec.qtx
+* codecs /usr/lib/win32/AvidAVICodec.dll
+* codecs /usr/lib/win32/AvidQTAVUICodec.qtx
+* codecs /usr/lib/win32/avimszh.dll
+* codecs /usr/lib/win32/avizlib.dll
+* codecs /usr/lib/win32/BeHereiVideo.qtx
+* codecs /usr/lib/win32/blox.dll
+* codecs /usr/lib/win32/BMDCodecLib.dll
+* codecs /usr/lib/win32/BTVVC32.DRV
+* codecs /usr/lib/win32/bw10.dll
+* codecs /usr/lib/win32/camfc.dll
+* codecs /usr/lib/win32/cinevfw.dll
+* codecs /usr/lib/win32/CineWave.qtx
+* codecs /usr/lib/win32/cllccodc.dll
+* codecs /usr/lib/win32/CLRVIDDC.DLL
+* codecs /usr/lib/win32/clrviddd.dll
+* codecs /usr/lib/win32/cook.so
+* codecs /usr/lib/win32/cook.so.6.0
+* codecs /usr/lib/win32/cook3260.dll
+* codecs /usr/lib/win32/cseHQa.dll
+* codecs /usr/lib/win32/csellc.dll
+* codecs /usr/lib/win32/CSEUvec.dll
+* codecs /usr/lib/win32/ctadp32.acm
+* codecs /usr/lib/win32/CtWbJpg.DLL
+* codecs /usr/lib/win32/CUVCcodc.dll
+* codecs /usr/lib/win32/decvdo.dll
+* codecs /usr/lib/win32/DECVW_32.DLL
+* codecs /usr/lib/win32/divx.dll
+* codecs /usr/lib/win32/divxa32.acm
+* codecs /usr/lib/win32/divxc32.dll
+* codecs /usr/lib/win32/divx_c32.ax
+* codecs /usr/lib/win32/drv2.so.6.0
+* codecs /usr/lib/win32/drv23260.dll
+* codecs /usr/lib/win32/drv3.so.6.0
+* codecs /usr/lib/win32/drv33260.dll
+* codecs /usr/lib/win32/drv4.so.6.0
+* codecs /usr/lib/win32/drv43260.dll
+* codecs /usr/lib/win32/drvc.so
+* codecs /usr/lib/win32/DVACM.acm
+* codecs /usr/lib/win32/fmcodec.DLL
+* codecs /usr/lib/win32/frapsvid.dll
+* codecs /usr/lib/win32/frwd.dll
+* codecs /usr/lib/win32/frwt.dll
+* codecs /usr/lib/win32/frwu.dll
+* codecs /usr/lib/win32/G2M.dll
+* codecs /usr/lib/win32/GeoCodec.dll
+* codecs /usr/lib/win32/GXAMP4.dll
+* codecs /usr/lib/win32/huffyuv.dll
+* codecs /usr/lib/win32/i263_32.drv
+* codecs /usr/lib/win32/iac25_32.ax
+* codecs /usr/lib/win32/iccvid.dll
+* codecs /usr/lib/win32/icmw_32.dll
+* codecs /usr/lib/win32/imaadp32.acm
+* codecs /usr/lib/win32/imc32.acm
+* codecs /usr/lib/win32/ir32_32.dll
+* codecs /usr/lib/win32/ir41_32.dll
+* codecs /usr/lib/win32/ir50_32.dll
+* codecs /usr/lib/win32/ivvideo.dll
+* codecs /usr/lib/win32/jp2avi.dll
+* codecs /usr/lib/win32/kdvyuv8.dll
+* codecs /usr/lib/win32/KGV1-VFW.dll
+* codecs /usr/lib/win32/l3codeca.acm
+* codecs /usr/lib/win32/lagarith.dll
+* codecs /usr/lib/win32/LCMW2.dll
+* codecs /usr/lib/win32/LCodcCMP.dll
+* codecs /usr/lib/win32/LCODCCMW2E.dll
+* codecs /usr/lib/win32/lhacm.acm
+* codecs /usr/lib/win32/lhacm2.acm
+* codecs /usr/lib/win32/libguide40.dll
+* codecs /usr/lib/win32/lsvxdec.dll
+* codecs /usr/lib/win32/m3jp2k32.dll
+* codecs /usr/lib/win32/m3jpeg32.dll
+* codecs /usr/lib/win32/m3jpegdec.ax
+* codecs /usr/lib/win32/mcdvd_32.dll
+* codecs /usr/lib/win32/mcmjpg32.dll
+* codecs /usr/lib/win32/md5sum
+* codecs /usr/lib/win32/mi-sc4.acm
+* codecs /usr/lib/win32/Microsoft.Expression.Encoder.EEScreen.Codec.dll
+* codecs /usr/lib/win32/MLZCodec.dll
+* codecs /usr/lib/win32/mpg4c32.dll
+* codecs /usr/lib/win32/mpg4ds32.ax
+* codecs /usr/lib/win32/msadp32.acm
+* codecs /usr/lib/win32/msgsm32.acm
+* codecs /usr/lib/win32/msh261.drv
+* codecs /usr/lib/win32/msms001.vwp
+* codecs /usr/lib/win32/msnaudio.acm
+* codecs /usr/lib/win32/msscds32.ax
+* codecs /usr/lib/win32/msvcr100.dll
+* codecs /usr/lib/win32/msvidc32.dll
+* codecs /usr/lib/win32/MV3.dll
+* codecs /usr/lib/win32/MVCodec.dll
+* codecs /usr/lib/win32/mvoiced.vwp
+* codecs /usr/lib/win32/mwsc.dll
+* codecs /usr/lib/win32/MyFlashZip0.ax
+* codecs /usr/lib/win32/Nsgsm32.acm
+* codecs /usr/lib/win32/nsrt2432.acm
+* codecs /usr/lib/win32/Nstsp32.acm
+* codecs /usr/lib/win32/nsvideo.dll
+* codecs /usr/lib/win32/NuB2.dll
+* codecs /usr/lib/win32/nuvision.ax
+* codecs /usr/lib/win32/On2_VP3.qtx
+* codecs /usr/lib/win32/pclepim1.dll
+* codecs /usr/lib/win32/pncrt.dll
+* codecs /usr/lib/win32/psiv.dll
+* codecs /usr/lib/win32/pvljpg20.dll
+* codecs /usr/lib/win32/pvmjpg21.dll
+* codecs /usr/lib/win32/pvwv220.dll
+* codecs /usr/lib/win32/qdv.dll
+* codecs /usr/lib/win32/qpeg32.dll
+* codecs /usr/lib/win32/qtmlClient.dll
+* codecs /usr/lib/win32/QuickTime.qts
+* codecs /usr/lib/win32/QuickTimeEssentials.qtx
+* codecs /usr/lib/win32/QuickTimeInternetExtras.qtx
+* codecs /usr/lib/win32/README
+* codecs /usr/lib/win32/rricm.dll
+* codecs /usr/lib/win32/rt32dcmp.dll
+* codecs /usr/lib/win32/scdec.dll
+* codecs /usr/lib/win32/scg726.acm
+* codecs /usr/lib/win32/SCLS.DLL
+* codecs /usr/lib/win32/scrvid.dll
+* codecs /usr/lib/win32/Sif1Dec.ax
+* codecs /usr/lib/win32/Sif1_vfw.dll
+* codecs /usr/lib/win32/sipr.so.6.0
+* codecs /usr/lib/win32/sipr3260.dll
+* codecs /usr/lib/win32/sirenacm.dll
+* codecs /usr/lib/win32/slif.dll
+* codecs /usr/lib/win32/smcelp32.acm
+* codecs /usr/lib/win32/smv2vfw.dll
+* codecs /usr/lib/win32/SN4Codec.dll
+* codecs /usr/lib/win32/sp4x_32.dll
+* codecs /usr/lib/win32/sp5x_32.dll
+* codecs /usr/lib/win32/sp6x_32.dll
+* codecs /usr/lib/win32/tm20dec.ax
+* codecs /usr/lib/win32/tm2x.dll
+* codecs /usr/lib/win32/tr2032.dll
+* codecs /usr/lib/win32/TRICDC32.DRV
+* codecs /usr/lib/win32/tsccvid.dll
+* codecs /usr/lib/win32/tsd32.dll
+* codecs /usr/lib/win32/tssoft32.acm
+* codecs /usr/lib/win32/tvqdec.dll
+* codecs /usr/lib/win32/ubv263d+.ax
+* codecs /usr/lib/win32/ubvmp4d.dll
+* codecs /usr/lib/win32/ultimo.dll
+* codecs /usr/lib/win32/vcmimm4.dll
+* codecs /usr/lib/win32/vdo32_30.drv
+* codecs /usr/lib/win32/VDODEC32.dll
+* codecs /usr/lib/win32/vdowave.acm
+* codecs /usr/lib/win32/vdowave.drv
+* codecs /usr/lib/win32/VFCodec.dll
+* codecs /usr/lib/win32/vgpix32d.dll
+* codecs /usr/lib/win32/vid_3ivX.xa
+* codecs /usr/lib/win32/vid_cvid.xa
+* codecs /usr/lib/win32/vid_cyuv.xa
+* codecs /usr/lib/win32/vid_h261.xa
+* codecs /usr/lib/win32/vid_h263.xa
+* codecs /usr/lib/win32/vid_iv32.xa
+* codecs /usr/lib/win32/vid_iv41.xa
+* codecs /usr/lib/win32/vid_iv50.xa
+* codecs /usr/lib/win32/ViVD2.dll
+* codecs /usr/lib/win32/vivog723.acm
+* codecs /usr/lib/win32/vmnc.dll
+* codecs /usr/lib/win32/vorbis.acm
+* codecs /usr/lib/win32/voxmsdec.ax
+* codecs /usr/lib/win32/vp31vfw.dll
+* codecs /usr/lib/win32/vp4vfw.dll
+* codecs /usr/lib/win32/vp5vfw.dll
+* codecs /usr/lib/win32/vp6vfw.dll
+* codecs /usr/lib/win32/vp7vfw.dll
+* codecs /usr/lib/win32/vssh264.dll
+* codecs /usr/lib/win32/vssh264core.dll
+* codecs /usr/lib/win32/vssh264dec.dll
+* codecs /usr/lib/win32/vsshdsd.dll
+* codecs /usr/lib/win32/vsslight.dll
+* codecs /usr/lib/win32/vsswlt.dll
+* codecs /usr/lib/win32/VTZ32.DLL
+* codecs /usr/lib/win32/WavCWAIP.dll
+* codecs /usr/lib/win32/wavelet.dll
+* codecs /usr/lib/win32/WavLor.dll
+* codecs /usr/lib/win32/WCMV.dll
+* codecs /usr/lib/win32/wma9dmod.dll
+* codecs /usr/lib/win32/wmadmod.dll
+* codecs /usr/lib/win32/wmavds32.ax
+* codecs /usr/lib/win32/wms10dmod.dll
+* codecs /usr/lib/win32/wmsdmod.dll
+* codecs /usr/lib/win32/wmspdmod.dll
+* codecs /usr/lib/win32/wmv8ds32.ax
+* codecs /usr/lib/win32/wmv9dmod.dll
+* codecs /usr/lib/win32/wmvadvd.dll
+* codecs /usr/lib/win32/wmvdmod.dll
+* codecs /usr/lib/win32/wmvds32.ax
+* codecs /usr/lib/win32/wnvplay1.dll
+* codecs /usr/lib/win32/wnvwinx.dll
+* codecs /usr/lib/win32/wtvc.DLL
+* codecs /usr/lib/win32/wv32vfw.dll
+* codecs /usr/lib/win32/wvc1dmod.dll
+* codecs /usr/lib/win32/xanlib.dll
+* codecs /usr/lib/win32/xfcodec.dll
+* codecs /usr/lib/win32/ylc.vcm
+* codecs /usr/lib/win32/Zlib.dll
+* codecs /usr/lib/win32/zlib1.dll
+* codecs /usr/lib/win32/zmbv.dll
+* codecs /usr/lib/win32/ZyGoAudioS.qtx
+* codecs /usr/lib/win32/ZyGoVideo.qtx
+* codecs /usr/share/doc/codecs-20110131/README

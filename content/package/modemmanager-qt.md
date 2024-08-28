@@ -12,7 +12,7 @@ size = "190500"
 usize = "861042"
 sha1sum = "6b5decedd31285a2def56b9b9406df7021327a63"
 depends = "['modemmanager>=1.6.2', 'qt6-base>=6.7.1']"
-reverse_depends = "['kdeconnect-kde', 'plasma-nm', 'plasma-settings']"
+reverse_depends = "['./kdeconnect-kde', 'kdeconnect-kde', 'plasma-nm', 'plasma-settings']"
 +++
 ### Description: 
 Qt-only wrapper for ModemManager DBus API.

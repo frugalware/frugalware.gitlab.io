@@ -12,7 +12,7 @@ size = "319708"
 usize = "2164246"
 sha1sum = "01cce39b51e63c20ac66d791a5c2a99c890f6b0d"
 depends = "['libftdi']"
-reverse_depends = "['fwupd']"
+reverse_depends = "['./fwupd', 'fwupd']"
 +++
 ### Description: 
 A simple daemon to allow session software to update firmware

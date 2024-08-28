@@ -1,261 +1,262 @@
 +++
 draft = false
-title = "python3-cryptography 42.0.8-1"
-version = "42.0.8-1"
+title = "./python3-cryptography 43.0.0-1"
+version = "43.0.0-1"
 description = "Cryptography expose cryptographic recipes and primitives in a python module"
-date = "2024-06-26T14:33:04"
-aliases = "/packages/219789"
+date = "2024-08-26T09:18:54"
+aliases = "/packages/222385"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cryptography"
 arch = "x86_64"
-size = "931868"
-usize = "4591198"
-sha1sum = "bc8a2b455e0b7fbb4d137ab9d50a58e047a99854"
+size = "1018212"
+usize = "4815320"
+sha1sum = "3a6868287b0448bc3e6f805c479631fac67f7a27"
 depends = "['openssl>=3.1.0', 'python3>=3.11', 'python3-asn1crypto', 'python3-cffi', 'python3-idna', 'python3-six']"
-reverse_depends = "['lutris', 'paramiko', 'python3-openssl', 'python3-secretstorage']"
 +++
 ### Description: 
 Cryptography expose cryptographic recipes and primitives in a python module
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/LICENSE.APACHE
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/LICENSE.BSD
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/cryptography-42.0.8.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/cryptography/exceptions.py
-* /usr/lib/python3.12/site-packages/cryptography/fernet.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/aead.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/backend.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/ciphers.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/decode_asn1.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/aead.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/aead.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/backend.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/backend.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/ciphers.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/ciphers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/decode_asn1.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/decode_asn1.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/binding.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/_conditional.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/binding.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/binding.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/_conditional.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/_conditional.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/asn1.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/exceptions.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/ocsp.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/aead.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/cmac.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dh.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dsa.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ec.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed25519.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed448.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hashes.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hmac.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/kdf.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/keys.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/poly1305.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/rsa.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x25519.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x448.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/__init__.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/pkcs7.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/x509.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/_openssl.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/__init__.pyi
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dh.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dsa.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ec.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed25519.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed448.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/padding.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/rsa.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/types.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/utils.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x25519.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x448.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dh.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dh.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dsa.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dsa.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ec.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ec.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed25519.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed25519.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed448.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed448.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/padding.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/padding.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/rsa.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/rsa.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/types.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/types.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/utils.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x25519.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x25519.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x448.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x448.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/aead.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/algorithms.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/base.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/modes.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/aead.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/aead.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/algorithms.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/algorithms.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/base.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/base.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/modes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/modes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/cmac.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/constant_time.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/hashes.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/hmac.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/concatkdf.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/hkdf.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/kbkdf.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/scrypt.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/x963kdf.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/concatkdf.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/concatkdf.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/hkdf.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/hkdf.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/kbkdf.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/kbkdf.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/pbkdf2.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/pbkdf2.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/scrypt.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/scrypt.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/x963kdf.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/x963kdf.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/keywrap.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/padding.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/poly1305.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/base.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs12.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs7.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/ssh.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/hotp.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/totp.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/hotp.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/hotp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/totp.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/totp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/_asymmetric.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/_cipheralgorithm.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/_serialization.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/cmac.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/cmac.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/constant_time.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/constant_time.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hashes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hashes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hmac.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hmac.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/keywrap.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/keywrap.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/padding.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/padding.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/poly1305.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/poly1305.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_asymmetric.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_asymmetric.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_cipheralgorithm.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_cipheralgorithm.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_serialization.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_serialization.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/_oid.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/_oid.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/_oid.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/py.typed
-* /usr/lib/python3.12/site-packages/cryptography/utils.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/base.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/certificate_transparency.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/extensions.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/general_name.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/name.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/ocsp.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/oid.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/verification.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/base.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/base.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/certificate_transparency.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/certificate_transparency.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/extensions.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/extensions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/general_name.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/general_name.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/name.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/name.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/ocsp.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/ocsp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/oid.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/oid.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/verification.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/verification.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__about__.py
-* /usr/lib/python3.12/site-packages/cryptography/__init__.py
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/exceptions.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/exceptions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/fernet.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/fernet.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/utils.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/__about__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/__about__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-cryptography-42.0.8/LICENSE
-* /usr/share/doc/python3-cryptography-42.0.8/README.rst
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography-43.0.0.dist-info/license_files/LICENSE
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography-43.0.0.dist-info/license_files/LICENSE.APACHE
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography-43.0.0.dist-info/license_files/LICENSE.BSD
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography-43.0.0.dist-info/METADATA
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography-43.0.0.dist-info/RECORD
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography-43.0.0.dist-info/WHEEL
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/exceptions.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/fernet.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/backend.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/backend.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/backend.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/binding.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/_conditional.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/binding.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/binding.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/_conditional.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/_conditional.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/asn1.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/exceptions.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/ocsp.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/aead.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ciphers.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/cmac.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dh.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dsa.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ec.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed25519.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed448.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hashes.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hmac.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/kdf.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/keys.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/poly1305.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/rsa.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x25519.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x448.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/__init__.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/pkcs12.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/pkcs7.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/test_support.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/x509.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/_openssl.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/__init__.pyi
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/algorithms.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__/algorithms.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__/algorithms.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/decrepit/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dh.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dsa.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ec.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed25519.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed448.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/padding.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/rsa.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/types.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/utils.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x25519.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x448.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dh.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dh.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dsa.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dsa.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ec.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ec.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed25519.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed25519.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed448.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed448.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/padding.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/padding.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/rsa.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/rsa.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/types.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/types.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/utils.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/utils.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x25519.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x25519.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x448.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x448.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/aead.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/algorithms.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/base.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/modes.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/aead.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/aead.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/algorithms.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/algorithms.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/base.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/base.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/modes.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/modes.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/cmac.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/constant_time.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/hashes.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/hmac.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/concatkdf.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/hkdf.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/kbkdf.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/scrypt.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/x963kdf.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/concatkdf.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/concatkdf.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/hkdf.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/hkdf.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/kbkdf.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/kbkdf.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/pbkdf2.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/pbkdf2.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/scrypt.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/scrypt.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/x963kdf.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/x963kdf.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/keywrap.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/padding.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/poly1305.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/base.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs12.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs7.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/ssh.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/hotp.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/totp.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/hotp.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/hotp.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/totp.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/totp.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/_asymmetric.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/_cipheralgorithm.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/_serialization.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/cmac.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/cmac.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/constant_time.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/constant_time.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hashes.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hashes.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hmac.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hmac.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/keywrap.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/keywrap.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/padding.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/padding.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/poly1305.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/poly1305.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_asymmetric.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_asymmetric.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_cipheralgorithm.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_cipheralgorithm.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_serialization.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_serialization.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/_oid.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/_oid.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/_oid.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/hazmat/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/py.typed
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/utils.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/base.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/certificate_transparency.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/extensions.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/general_name.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/name.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/ocsp.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/oid.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/verification.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/base.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/base.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/certificate_transparency.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/certificate_transparency.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/extensions.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/extensions.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/general_name.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/general_name.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/name.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/name.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/ocsp.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/ocsp.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/oid.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/oid.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/verification.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/verification.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/x509/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__about__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__init__.py
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/exceptions.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/exceptions.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/fernet.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/fernet.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/utils.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/utils.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/__about__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/__about__.cpython-312.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-cryptography /usr/lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.pyc
+* python3-cryptography /usr/share/doc/python3-cryptography-43.0.0/LICENSE
+* python3-cryptography /usr/share/doc/python3-cryptography-43.0.0/README.rst

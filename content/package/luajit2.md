@@ -12,7 +12,7 @@ size = "371168"
 usize = "1427215"
 sha1sum = "ac307de63133b1a7cd6890c9c8c3b69572e7ed90"
 depends = "['lua>=5.4']"
-reverse_depends = "['cantor', 'cgit', 'efl', 'enlightenment', 'libluv', 'love', 'minetest', 'mpv', 'naev', 'obs-studio', 'pdns-recursor', 'rspamd', 'solarus', 'sysdig', 'terminology']"
+reverse_depends = "['./cantor', 'cantor', 'cgit', 'efl', 'enlightenment', 'libluv', 'love', 'minetest', 'mpv', 'naev', 'obs-studio', 'pdns-recursor', 'rspamd', 'solarus', 'sysdig', 'terminology']"
 +++
 ### Description: 
 A Just-In-Time Compiler for Lua

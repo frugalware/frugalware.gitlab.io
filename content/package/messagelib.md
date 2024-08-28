@@ -1,1072 +1,1072 @@
 +++
 draft = false
-title = "messagelib 24.05.2-1"
-version = "24.05.2-1"
+title = "./messagelib 24.08.0-1"
+version = "24.08.0-1"
 description = "KdePim message library."
-date = "2024-07-05T10:52:25"
-aliases = "/packages/218480"
+date = "2024-08-22T15:27:09"
+aliases = "/packages/222294"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6631220"
-usize = "18737152"
-sha1sum = "ca9fd721ae41e85bcdf4a2b53e54583ec4fb6b7f"
-depends = "['akonadi-notes>=24.05.2', 'kidentitymanagement>=24.05.2', 'kmailtransport>=24.05.2', 'ktextaddons>=1.3.1', 'libgravatar>=24.05.2', 'qca']"
-reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
+size = "2647492"
+usize = "14525856"
+sha1sum = "3d38e3362252985392ab9066de3a2e73147992d9"
+depends = "['akonadi-notes>=24.08.0', 'kidentitymanagement>=24.08.0', 'kmailtransport>=24.08.0', 'ktextaddons>=1.3.1', 'libgravatar>=24.08.0', 'qca']"
 +++
 ### Description: 
 KdePim message library.
 
 ### Files: 
-* /usr/include/KPim6/MessageComposer/MessageComposer/AbstractEncryptJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/abstractencryptjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AkonadiSender
-* /usr/include/KPim6/MessageComposer/messagecomposer/akonadisender.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AliasesExpandJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/aliasesexpandjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentClipBoardJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/attachmentclipboardjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentControllerBase
-* /usr/include/KPim6/MessageComposer/messagecomposer/attachmentcontrollerbase.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentFromPublicKeyJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/attachmentfrompublickeyjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/attachmentjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentModel
-* /usr/include/KPim6/MessageComposer/messagecomposer/attachmentmodel.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentVcardFromAddressBookJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/attachmentvcardfromaddressbookjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AutocryptHeadersJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/autocryptheadersjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/AutocryptKeyResolverCore
-* /usr/include/KPim6/MessageComposer/messagecomposer/autocryptkeyresolvercore.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/Composer
-* /usr/include/KPim6/MessageComposer/messagecomposer/composer.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ComposerAttachmentInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/composerattachmentinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ComposerLineEdit
-* /usr/include/KPim6/MessageComposer/messagecomposer/composerlineedit.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ComposerViewBase
-* /usr/include/KPim6/MessageComposer/messagecomposer/composerviewbase.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ComposerViewInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/composerviewinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ContactPreference
-* /usr/include/KPim6/MessageComposer/messagecomposer/contactpreference.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ContentJobBase
-* /usr/include/KPim6/MessageComposer/messagecomposer/contentjobbase.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ConvertSnippetVariableMenu
-* /usr/include/KPim6/MessageComposer/messagecomposer/convertsnippetvariablemenu.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ConvertSnippetVariablesJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/convertsnippetvariablesjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ConvertSnippetVariablesUtil
-* /usr/include/KPim6/MessageComposer/messagecomposer/convertsnippetvariablesutil.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/DraftStatus
-* /usr/include/KPim6/MessageComposer/messagecomposer/draftstatus.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/EditorWatcher
-* /usr/include/KPim6/MessageComposer/messagecomposer/editorwatcher.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/EncryptJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/encryptjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/FollowupReminder
-* /usr/include/KPim6/MessageComposer/messagecomposer/followupreminder.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/FollowupReminderCreateJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/followupremindercreatejob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/FollowUpReminderSelectDateDialog
-* /usr/include/KPim6/MessageComposer/messagecomposer/followupreminderselectdatedialog.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/GlobalPart
-* /usr/include/KPim6/MessageComposer/messagecomposer/globalpart.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ImageScalingWidget
-* /usr/include/KPim6/MessageComposer/messagecomposer/imagescalingwidget.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/InfoPart
-* /usr/include/KPim6/MessageComposer/messagecomposer/infopart.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/InsertTextFileJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/inserttextfilejob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ItipJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/itipjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ItipPart
-* /usr/include/KPim6/MessageComposer/messagecomposer/itippart.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/JobBase
-* /usr/include/KPim6/MessageComposer/messagecomposer/jobbase.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/KeyResolver
-* /usr/include/KPim6/MessageComposer/messagecomposer/keyresolver.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/Kleo_Util
-* /usr/include/KPim6/MessageComposer/messagecomposer/kleo_util.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MainTextJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/maintextjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MDNAdviceDialog
-* /usr/include/KPim6/MessageComposer/messagecomposer/mdnadvicedialog.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MDNAdviceHelper
-* /usr/include/KPim6/MessageComposer/messagecomposer/mdnadvicehelper.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MDNWarningWidgetJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/mdnwarningwidgetjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MessageComposerSettings
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposersettings.h
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposersettings_base.h
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposer_debug.h
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposer_export.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MessageFactoryNG
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagefactoryng.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MessageHelper
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagehelper.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MessagePart
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagepart.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MessageSender
-* /usr/include/KPim6/MessageComposer/messagecomposer/messagesender.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/MultipartJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/multipartjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginActionType
-* /usr/include/KPim6/MessageComposer/messagecomposer/pluginactiontype.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginComposerInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugincomposerinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditor
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditor.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorBase
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorbase.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSend
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesend.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSendInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesendinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSendManager
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesendmanager.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSendParams
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesendparams.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConfigureBaseWidget
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconfigurebasewidget.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConverterBeforeConvertingData
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverterbeforeconvertingdata.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConverterInitialData
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverterinitialdata.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConvertText
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverttext.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConvertTextInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverttextinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConvertTextManager
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverttextmanager.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorGrammarCustomToolsViewInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorgrammarcustomtoolsviewinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorGrammarManager
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorgrammarmanager.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInit
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinit.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInitInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinitinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInitManager
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinitmanager.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInterface
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinterface.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorManager
-* /usr/include/KPim6/MessageComposer/messagecomposer/plugineditormanager.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/ProtectedHeadersJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/protectedheadersjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/Recipient
-* /usr/include/KPim6/MessageComposer/messagecomposer/recipient.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/RecipientLine
-* /usr/include/KPim6/MessageComposer/messagecomposer/recipientline.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/RecipientsEditor
-* /usr/include/KPim6/MessageComposer/messagecomposer/recipientseditor.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/RichTextComposerNg
-* /usr/include/KPim6/MessageComposer/messagecomposer/richtextcomposerng.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/RichTextComposerSignatures
-* /usr/include/KPim6/MessageComposer/messagecomposer/richtextcomposersignatures.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SaveContactPreferenceJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/savecontactpreferencejob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterCreateJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/sendlatercreatejob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterDialog
-* /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterdialog.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterInfo
-* /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterinfo.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterRemoveJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterremovejob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterUtil
-* /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterutil.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SignatureController
-* /usr/include/KPim6/MessageComposer/messagecomposer/signaturecontroller.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SignEncryptJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/signencryptjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SignJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/signjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SinglepartJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/singlepartjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/SkeletonMessageJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/skeletonmessagejob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/StatusBarLabelToggledState
-* /usr/include/KPim6/MessageComposer/messagecomposer/statusbarlabeltoggledstate.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/TextPart
-* /usr/include/KPim6/MessageComposer/messagecomposer/textpart.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/TransparentJob
-* /usr/include/KPim6/MessageComposer/messagecomposer/transparentjob.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/Util
-* /usr/include/KPim6/MessageComposer/messagecomposer/util.h
-* /usr/include/KPim6/MessageComposer/messagecomposer_version.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentCompressJob
-* /usr/include/KPim6/MessageCore/messagecore/attachmentcompressjob.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentFromUrlBaseJob
-* /usr/include/KPim6/MessageCore/messagecore/attachmentfromurlbasejob.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentFromUrlUtils
-* /usr/include/KPim6/MessageCore/messagecore/attachmentfromurlutils.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentLoadJob
-* /usr/include/KPim6/MessageCore/messagecore/attachmentloadjob.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentPart
-* /usr/include/KPim6/MessageCore/messagecore/attachmentpart.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentPropertiesDialog
-* /usr/include/KPim6/MessageCore/messagecore/attachmentpropertiesdialog.h
-* /usr/include/KPim6/MessageCore/MessageCore/AttachmentUpdateJob
-* /usr/include/KPim6/MessageCore/messagecore/attachmentupdatejob.h
-* /usr/include/KPim6/MessageCore/MessageCore/AutocryptRecipient
-* /usr/include/KPim6/MessageCore/messagecore/autocryptrecipient.h
-* /usr/include/KPim6/MessageCore/MessageCore/AutocryptStorage
-* /usr/include/KPim6/MessageCore/messagecore/autocryptstorage.h
-* /usr/include/KPim6/MessageCore/MessageCore/AutocryptUtils
-* /usr/include/KPim6/MessageCore/messagecore/autocryptutils.h
-* /usr/include/KPim6/MessageCore/MessageCore/ColorUtil
-* /usr/include/KPim6/MessageCore/messagecore/colorutil.h
-* /usr/include/KPim6/MessageCore/messagecore/globalsettings_messagecore.h
-* /usr/include/KPim6/MessageCore/MessageCore/ImageCollector
-* /usr/include/KPim6/MessageCore/messagecore/imagecollector.h
-* /usr/include/KPim6/MessageCore/MessageCore/MailingList
-* /usr/include/KPim6/MessageCore/messagecore/mailinglist.h
-* /usr/include/KPim6/MessageCore/MessageCore/MessageCoreSettings
-* /usr/include/KPim6/MessageCore/messagecore/messagecoresettings.h
-* /usr/include/KPim6/MessageCore/messagecore/messagecore_export.h
-* /usr/include/KPim6/MessageCore/MessageCore/NodeHelper
-* /usr/include/KPim6/MessageCore/messagecore/nodehelper.h
-* /usr/include/KPim6/MessageCore/MessageCore/StringUtil
-* /usr/include/KPim6/MessageCore/messagecore/stringutil.h
-* /usr/include/KPim6/MessageCore/MessageCore/Util
-* /usr/include/KPim6/MessageCore/messagecore/util.h
-* /usr/include/KPim6/MessageCore/messagecore_version.h
-* /usr/include/KPim6/MessageList/MessageList/AggregationComboBox
-* /usr/include/KPim6/MessageList/messagelist/aggregationcombobox.h
-* /usr/include/KPim6/MessageList/MessageList/AggregationConfigButton
-* /usr/include/KPim6/MessageList/messagelist/aggregationconfigbutton.h
-* /usr/include/KPim6/MessageList/MessageList/Enums
-* /usr/include/KPim6/MessageList/messagelist/enums.h
-* /usr/include/KPim6/MessageList/messagelist/messagelistsettings.h
-* /usr/include/KPim6/MessageList/MessageList/MessageListUtil
-* /usr/include/KPim6/MessageList/messagelist/messagelistutil.h
-* /usr/include/KPim6/MessageList/messagelist/messagelist_export.h
-* /usr/include/KPim6/MessageList/MessageList/Pane
-* /usr/include/KPim6/MessageList/messagelist/pane.h
-* /usr/include/KPim6/MessageList/MessageList/QuickSearchLine
-* /usr/include/KPim6/MessageList/messagelist/quicksearchline.h
-* /usr/include/KPim6/MessageList/MessageList/StorageModel
-* /usr/include/KPim6/MessageList/messagelist/storagemodel.h
-* /usr/include/KPim6/MessageList/MessageList/StorageModelBase
-* /usr/include/KPim6/MessageList/messagelist/storagemodelbase.h
-* /usr/include/KPim6/MessageList/MessageList/ThemeComboBox
-* /usr/include/KPim6/MessageList/messagelist/themecombobox.h
-* /usr/include/KPim6/MessageList/MessageList/ThemeConfigButton
-* /usr/include/KPim6/MessageList/messagelist/themeconfigbutton.h
-* /usr/include/KPim6/MessageList/MessageList/View
-* /usr/include/KPim6/MessageList/messagelist/view.h
-* /usr/include/KPim6/MessageList/MessageList/WidgetBase
-* /usr/include/KPim6/MessageList/messagelist/widgetbase.h
-* /usr/include/KPim6/MessageList/messagelist_version.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/AttachmentStrategy
-* /usr/include/KPim6/MessageViewer/messageviewer/attachmentstrategy.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/BodyPartURLHandler
-* /usr/include/KPim6/MessageViewer/messageviewer/bodyparturlhandler.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/BufferedHtmlWriter
-* /usr/include/KPim6/MessageViewer/messageviewer/bufferedhtmlwriter.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ConfigureWidget
-* /usr/include/KPim6/MessageViewer/messageviewer/configurewidget.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/CSSHelper
-* /usr/include/KPim6/MessageViewer/messageviewer/csshelper.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/CSSHelperBase
-* /usr/include/KPim6/MessageViewer/messageviewer/csshelperbase.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMCheckPolicy
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimcheckpolicy.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMCheckSignatureJob
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimchecksignaturejob.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMHeaderParser
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimheaderparser.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMInfo
-* /usr/include/KPim6/MessageViewer/messageviewer/dkiminfo.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMKeyRecord
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimkeyrecord.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManager
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerAuthenticationServer
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerauthenticationserver.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerKey
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerkey.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerKeyDialog
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerkeydialog.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerKeyWidget
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerkeywidget.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerRules
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerrules.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManageRulesDialog
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerulesdialog.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManageRulesWidget
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimmanageruleswidget.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMRule
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimrule.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMViewerMenu
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimviewermenu.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/DKIMWidgetInfo
-* /usr/include/KPim6/MessageViewer/messageviewer/dkimwidgetinfo.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/FileHtmlWriter
-* /usr/include/KPim6/MessageViewer/messageviewer/filehtmlwriter.h
-* /usr/include/KPim6/MessageViewer/messageviewer/globalsettings_messageviewer.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/GrantleeHeaderStyle
-* /usr/include/KPim6/MessageViewer/messageviewer/grantleeheaderstyle.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/GrantleeHeaderTestStyle
-* /usr/include/KPim6/MessageViewer/messageviewer/grantleeheaderteststyle.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStrategy
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstrategy.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyle
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstyle.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyleInterface
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstyleinterface.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyleMenuManager
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstylemenumanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStylePlugin
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstyleplugin.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStylePluginManager
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstylepluginmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyle_Util
-* /usr/include/KPim6/MessageViewer/messageviewer/headerstyle_util.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HtmlBlock
-* /usr/include/KPim6/MessageViewer/messageviewer/htmlblock.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/HtmlWriter
-* /usr/include/KPim6/MessageViewer/messageviewer/htmlwriter.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/IconNameCache
-* /usr/include/KPim6/MessageViewer/messageviewer/iconnamecache.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/InvitationSettings
-* /usr/include/KPim6/MessageViewer/messageviewer/invitationsettings.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/KXFace
-* /usr/include/KPim6/MessageViewer/messageviewer/kxface.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MailWebEnginePage
-* /usr/include/KPim6/MessageViewer/messageviewer/mailwebenginepage.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MailWebEngineView
-* /usr/include/KPim6/MessageViewer/messageviewer/mailwebengineview.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MarkMessageReadHandler
-* /usr/include/KPim6/MessageViewer/messageviewer/markmessagereadhandler.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MDNWarningWidget
-* /usr/include/KPim6/MessageViewer/messageviewer/mdnwarningwidget.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessagePartRendererBase
-* /usr/include/KPim6/MessageViewer/messageviewer/messagepartrendererbase.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessagePartRendererManager
-* /usr/include/KPim6/MessageViewer/messageviewer/messagepartrenderermanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessagePartRenderPlugin
-* /usr/include/KPim6/MessageViewer/messageviewer/messagepartrenderplugin.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingInterface
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletinginterface.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingParameters
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingparameters.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingPlugin
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingplugin.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingPluginManager
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingpluginmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingPluginWidget
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingpluginwidget.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerConfigureSettingsPlugin
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewerconfiguresettingsplugin.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerConfigureSettingsPluginManager
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewerconfiguresettingspluginmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerConfigureSettingsPluginWidget
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewerconfiguresettingspluginwidget.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerSettings
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewersettings.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerUtil
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewerutil.h
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewer_debug.h
-* /usr/include/KPim6/MessageViewer/messageviewer/messageviewer_export.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/MimeType
-* /usr/include/KPim6/MessageViewer/messageviewer/mimetype.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ObjectTreeEmptySource
-* /usr/include/KPim6/MessageViewer/messageviewer/objecttreeemptysource.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/OpenUrlWithManager
-* /usr/include/KPim6/MessageViewer/messageviewer/openurlwithmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/OpenWithUrlInfo
-* /usr/include/KPim6/MessageViewer/messageviewer/openwithurlinfo.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/PlainHeaderStyle
-* /usr/include/KPim6/MessageViewer/messageviewer/plainheaderstyle.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/PrintingSettings
-* /usr/include/KPim6/MessageViewer/messageviewer/printingsettings.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/PrintMessage
-* /usr/include/KPim6/MessageViewer/messageviewer/printmessage.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/RemoteContentConfigureDialog
-* /usr/include/KPim6/MessageViewer/messageviewer/remotecontentconfiguredialog.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/RemoteContentMenu
-* /usr/include/KPim6/MessageViewer/messageviewer/remotecontentmenu.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/RichHeaderStrategy
-* /usr/include/KPim6/MessageViewer/messageviewer/richheaderstrategy.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ScamCheckShortUrl
-* /usr/include/KPim6/MessageViewer/messageviewer/scamcheckshorturl.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ScamCheckShortUrlManager
-* /usr/include/KPim6/MessageViewer/messageviewer/scamcheckshorturlmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ScamDetectionInfo
-* /usr/include/KPim6/MessageViewer/messageviewer/scamdetectioninfo.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ScamDetectionWhiteListSettingsManager
-* /usr/include/KPim6/MessageViewer/messageviewer/scamdetectionwhitelistsettingsmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ScamExpandUrlJob
-* /usr/include/KPim6/MessageViewer/messageviewer/scamexpandurljob.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/SpamHeaderAnalyzer
-* /usr/include/KPim6/MessageViewer/messageviewer/spamheaderanalyzer.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/Stl_Util
-* /usr/include/KPim6/MessageViewer/messageviewer/stl_util.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/URLHandler
-* /usr/include/KPim6/MessageViewer/messageviewer/urlhandler.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/Viewer
-* /usr/include/KPim6/MessageViewer/messageviewer/viewer.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPlugin
-* /usr/include/KPim6/MessageViewer/messageviewer/viewerplugin.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPluginInterface
-* /usr/include/KPim6/MessageViewer/messageviewer/viewerplugininterface.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPluginManager
-* /usr/include/KPim6/MessageViewer/messageviewer/viewerpluginmanager.h
-* /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPluginToolManager
-* /usr/include/KPim6/MessageViewer/messageviewer/viewerplugintoolmanager.h
-* /usr/include/KPim6/MessageViewer/messageviewer_version.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/AttachmentTemporaryFilesDirs
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/attachmenttemporaryfilesdirs.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/BodyPart
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/bodypart.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/BodyPartFormatter
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/bodypartformatter.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/BodyPartFormatterFactory
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/bodypartformatterfactory.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/Enums
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/enums.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/MessagePart
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/messagepart.h
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/mimetreeparser_export.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/NodeHelper
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/nodehelper.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/ObjectTreeParser
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/objecttreeparser.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/ObjectTreeSource
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/objecttreesource.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/PartMetaData
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/partmetadata.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/PartNodeBodyPart
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/partnodebodypart.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/SimpleObjectTreeSource
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/simpleobjecttreesource.h
-* /usr/include/KPim6/MimeTreeParser/MimeTreeParser/Util
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser/util.h
-* /usr/include/KPim6/MimeTreeParser/mimetreeparser_version.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/CustomTemplates
-* /usr/include/KPim6/TemplateParser/templateparser/customtemplates.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/CustomTemplatesMenu
-* /usr/include/KPim6/TemplateParser/templateparser/customtemplatesmenu.h
-* /usr/include/KPim6/TemplateParser/templateparser/customtemplates_kfg.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/DefaultTemplates
-* /usr/include/KPim6/TemplateParser/templateparser/defaulttemplates.h
-* /usr/include/KPim6/TemplateParser/templateparser/globalsettings_templateparser.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplateConvertCommandJob
-* /usr/include/KPim6/TemplateParser/templateparser/templateconvertcommandjob.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplateParserEmailAddressRequesterBase
-* /usr/include/KPim6/TemplateParser/templateparser/templateparseremailaddressrequesterbase.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplateParserExtractHtmlInfoResult
-* /usr/include/KPim6/TemplateParser/templateparser/templateparserextracthtmlinforesult.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplateParserJob
-* /usr/include/KPim6/TemplateParser/templateparser/templateparserjob.h
-* /usr/include/KPim6/TemplateParser/templateparser/templateparser_export.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesCommandMenu
-* /usr/include/KPim6/TemplateParser/templateparser/templatescommandmenu.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesConfiguration
-* /usr/include/KPim6/TemplateParser/templateparser/templatesconfiguration.h
-* /usr/include/KPim6/TemplateParser/templateparser/templatesconfiguration_kfg.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesInsertCommandAction
-* /usr/include/KPim6/TemplateParser/templateparser/templatesinsertcommandaction.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesInsertCommandPushButton
-* /usr/include/KPim6/TemplateParser/templateparser/templatesinsertcommandpushbutton.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesTextEdit
-* /usr/include/KPim6/TemplateParser/templateparser/templatestextedit.h
-* /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesUtil
-* /usr/include/KPim6/TemplateParser/templateparser/templatesutil.h
-* /usr/include/KPim6/TemplateParser/templateparser/ui_templatesconfiguration_base.h
-* /usr/include/KPim6/TemplateParser/templateparser_version.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/BlockExternalResourcesUrlInterceptor
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/blockexternalresourcesurlinterceptor.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/BlockTrackingUrlInterceptor
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/blocktrackingurlinterceptor.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CheckPhishingUrlCache
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/checkphishingurlcache.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CheckPhishingUrlJob
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/checkphishingurljob.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CheckPhishingUrlUtil
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/checkphishingurlutil.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CreatePhishingUrlDataBaseJob
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/createphishingurldatabasejob.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/DeveloperToolDialog
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/developertooldialog.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/FindBarBase
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/findbarbase.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/FindBarWebEngineView
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/findbarwebengineview.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/HashCacheManager
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/hashcachemanager.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/InterceptorManager
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/interceptormanager.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/LoadExternalReferencesUrlInterceptor
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/loadexternalreferencesurlinterceptor.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/LocalDataBaseManager
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/localdatabasemanager.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkPluginUrlInterceptor
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/networkpluginurlinterceptor.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkPluginUrlInterceptorConfigureWidget
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/networkpluginurlinterceptorconfigurewidget.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkPluginUrlInterceptorInterface
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/networkpluginurlinterceptorinterface.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkUrlInterceptor
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/networkurlinterceptor.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkUrlInterceptorPluginManager
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/networkurlinterceptorpluginmanager.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/SearchFullHashJob
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/searchfullhashjob.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/SubmittedFormWarningWidget
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/submittedformwarningwidget.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/TrackingWarningWidget
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/trackingwarningwidget.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/UpdateDataBaseInfo
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/updatedatabaseinfo.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineAccessKey
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineaccesskey.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineExportPdfPageJob
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineexportpdfpagejob.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineManageScript
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webenginemanagescript.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEnginePage
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webenginepage.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineScript
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webenginescript.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineView
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineview.h
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineviewer_export.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebHitTest
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webhittest.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebHitTestResult
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/webhittestresult.h
-* /usr/include/KPim6/WebEngineViewer/WebEngineViewer/ZoomActionMenu
-* /usr/include/KPim6/WebEngineViewer/webengineviewer/zoomactionmenu.h
-* /usr/include/KPim6/WebEngineViewer/webengineviewer_version.h
-* /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerConfig.cmake
-* /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerConfigVersion.cmake
-* /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerTargets-release.cmake
-* /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerTargets.cmake
-* /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreConfig.cmake
-* /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreConfigVersion.cmake
-* /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreTargets-release.cmake
-* /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreTargets.cmake
-* /usr/lib/cmake/KPim6MessageList/KPim6MessageListConfig.cmake
-* /usr/lib/cmake/KPim6MessageList/KPim6MessageListConfigVersion.cmake
-* /usr/lib/cmake/KPim6MessageList/KPim6MessageListTargets-release.cmake
-* /usr/lib/cmake/KPim6MessageList/KPim6MessageListTargets.cmake
-* /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerConfig.cmake
-* /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerConfigVersion.cmake
-* /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerTargets-release.cmake
-* /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerTargets.cmake
-* /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserConfig.cmake
-* /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserConfigVersion.cmake
-* /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserTargets-release.cmake
-* /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserTargets.cmake
-* /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserConfig.cmake
-* /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserConfigVersion.cmake
-* /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserTargets-release.cmake
-* /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserTargets.cmake
-* /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerConfig.cmake
-* /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerConfigVersion.cmake
-* /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets-release.cmake
-* /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
-* /usr/lib/libKPim6MessageComposer.so
-* /usr/lib/libKPim6MessageComposer.so.6
-* /usr/lib/libKPim6MessageComposer.so.6.1.2
-* /usr/lib/libKPim6MessageCore.so
-* /usr/lib/libKPim6MessageCore.so.6
-* /usr/lib/libKPim6MessageCore.so.6.1.2
-* /usr/lib/libKPim6MessageList.so
-* /usr/lib/libKPim6MessageList.so.6
-* /usr/lib/libKPim6MessageList.so.6.1.2
-* /usr/lib/libKPim6MessageViewer.so
-* /usr/lib/libKPim6MessageViewer.so.6
-* /usr/lib/libKPim6MessageViewer.so.6.1.2
-* /usr/lib/libKPim6MimeTreeParser.so
-* /usr/lib/libKPim6MimeTreeParser.so.6
-* /usr/lib/libKPim6MimeTreeParser.so.6.1.2
-* /usr/lib/libKPim6TemplateParser.so
-* /usr/lib/libKPim6TemplateParser.so.6
-* /usr/lib/libKPim6TemplateParser.so.6.1.2
-* /usr/lib/libKPim6WebEngineViewer.so
-* /usr/lib/libKPim6WebEngineViewer.so.6
-* /usr/lib/libKPim6WebEngineViewer.so.6.1.2
-* /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
-* /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
-* /usr/share/config.kcfg/customtemplates_kfg.kcfg
-* /usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
-* /usr/share/knotifications6/messageviewer.notifyrc
-* /usr/share/knsrcfiles/messageviewer_header_themes.knsrc
-* /usr/share/libmessageviewer/pics/enterprise_bottom.png
-* /usr/share/libmessageviewer/pics/enterprise_bottom_left.png
-* /usr/share/libmessageviewer/pics/enterprise_bottom_right.png
-* /usr/share/libmessageviewer/pics/enterprise_icon.png
-* /usr/share/libmessageviewer/pics/enterprise_left.png
-* /usr/share/libmessageviewer/pics/enterprise_right.png
-* /usr/share/libmessageviewer/pics/enterprise_sbar.png
-* /usr/share/libmessageviewer/pics/enterprise_sp_right.png
-* /usr/share/libmessageviewer/pics/enterprise_sw.png
-* /usr/share/libmessageviewer/pics/enterprise_s_left.png
-* /usr/share/libmessageviewer/pics/enterprise_s_right.png
-* /usr/share/libmessageviewer/pics/enterprise_top.png
-* /usr/share/libmessageviewer/pics/enterprise_top_left.png
-* /usr/share/libmessageviewer/pics/enterprise_top_right.png
-* /usr/share/libmessageviewer/pics/enterprise_w.png
-* /usr/share/libmessageviewer/pics/quicklistClosed.png
-* /usr/share/libmessageviewer/pics/quicklistOpened.png
-* /usr/share/libmessageviewer/pics/quotecollapse.png
-* /usr/share/libmessageviewer/pics/quoteexpand.png
-* /usr/share/locale/af/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/af/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/af/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ar/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/be/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/be/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/be/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/bg/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/bn/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/bn/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/bn/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/br/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/br/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/br/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/cy/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/cy/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/cy/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/da/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/da/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/da/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/da/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/da/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/da/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/da/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/de/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/de/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/de/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/de/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/de/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/de/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/de/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/el/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/el/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/el/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/el/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/el/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/el/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/es/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/es/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/es/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/es/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/es/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/es/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/es/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/et/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/et/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/et/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/et/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/et/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/et/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/et/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/fa/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/fa/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/fa/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/fy/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/fy/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/fy/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/he/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/he/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/he/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/he/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/he/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/he/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/he/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/hi/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/hi/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/hi/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/hr/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/hr/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/hr/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/hsb/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/hsb/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/hsb/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/hsb/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/is/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/is/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/is/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/it/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/it/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/it/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/it/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/it/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/it/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/it/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/km/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/km/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/km/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/km/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/km/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/mai/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/mai/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/mai/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/mai/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/mk/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/mk/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/mk/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ms/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ms/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ms/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ne/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ne/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ne/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/nn/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/nn/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/nn/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/nn/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/nn/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/se/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/se/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/se/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/tg/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/tg/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/tg/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/th/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/th/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/th/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/th/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/uz/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/uz/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/uz/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/wa/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/wa/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/wa/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/wa/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/xh/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/xh/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/xh/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libmessagecomposer6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libmessagecore6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libmessagelist6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libmessageviewer6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libmimetreeparser6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libtemplateparser6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libwebengineviewer6.mo
-* /usr/share/messagelist/pics/mail-horizontal-space.png
-* /usr/share/messagelist/pics/mail-vertical-separator-line.png
-* /usr/share/messageviewer/about/default/background.png
-* /usr/share/messageviewer/about/default/main.css
-* /usr/share/messageviewer/about/default/main.html
-* /usr/share/messageviewer/about/default/splash.theme
-* /usr/share/messageviewer/about/default/status.html
-* /usr/share/messageviewer/defaultthemes/5.2/header.html
-* /usr/share/messageviewer/defaultthemes/5.2/kmail_default.desktop
-* /usr/share/messageviewer/defaultthemes/5.2/photo.png
-* /usr/share/messageviewer/defaultthemes/5.2/photo.svg
-* /usr/share/messageviewer/defaultthemes/5.2/style.css
-* /usr/share/messageviewer/longurlServices.json
-* /usr/share/org.kde.syntax-highlighting/syntax/kmail-template.xml
-* /usr/share/qlogging-categories6/messagelib.categories
-* /usr/share/qlogging-categories6/messagelib.renamecategories
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AbstractEncryptJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/abstractencryptjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AkonadiSender
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/akonadisender.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AliasesExpandJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/aliasesexpandjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentClipBoardJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/attachmentclipboardjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentControllerBase
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/attachmentcontrollerbase.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentFromPublicKeyJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/attachmentfrompublickeyjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/attachmentjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentModel
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/attachmentmodel.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AttachmentVcardFromAddressBookJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/attachmentvcardfromaddressbookjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AutocryptHeadersJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/autocryptheadersjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/AutocryptKeyResolverCore
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/autocryptkeyresolvercore.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/Composer
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/composer.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ComposerAttachmentInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/composerattachmentinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ComposerLineEdit
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/composerlineedit.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ComposerViewBase
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/composerviewbase.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ComposerViewInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/composerviewinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ContactPreference
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/contactpreference.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ContentJobBase
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/contentjobbase.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ConvertSnippetVariableMenu
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/convertsnippetvariablemenu.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ConvertSnippetVariablesJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/convertsnippetvariablesjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ConvertSnippetVariablesUtil
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/convertsnippetvariablesutil.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/DraftStatus
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/draftstatus.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/EditorWatcher
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/editorwatcher.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/EncryptJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/encryptjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/FollowupReminder
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/followupreminder.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/FollowupReminderCreateJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/followupremindercreatejob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/FollowUpReminderSelectDateDialog
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/followupreminderselectdatedialog.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/GlobalPart
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/globalpart.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ImageScalingWidget
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/imagescalingwidget.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/InfoPart
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/infopart.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/InsertTextFileJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/inserttextfilejob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ItipJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/itipjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ItipPart
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/itippart.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/JobBase
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/jobbase.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/KeyResolver
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/keyresolver.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/Kleo_Util
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/kleo_util.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MainTextJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/maintextjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MDNAdviceDialog
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/mdnadvicedialog.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MDNAdviceHelper
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/mdnadvicehelper.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MDNWarningWidgetJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/mdnwarningwidgetjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MessageComposerSettings
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposersettings.h
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposersettings_base.h
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposer_debug.h
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagecomposer_export.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MessageFactoryNG
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagefactoryng.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MessageHelper
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagehelper.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MessagePart
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagepart.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MessageSender
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/messagesender.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/MultipartJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/multipartjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginActionType
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/pluginactiontype.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginComposerInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugincomposerinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditor
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditor.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorBase
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorbase.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSend
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesend.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSendInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesendinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSendManager
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesendmanager.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorCheckBeforeSendParams
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorcheckbeforesendparams.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConfigureBaseWidget
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconfigurebasewidget.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConverterBeforeConvertingData
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverterbeforeconvertingdata.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConverterInitialData
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverterinitialdata.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConvertText
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverttext.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConvertTextInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverttextinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorConvertTextManager
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorconverttextmanager.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorGrammarCustomToolsViewInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorgrammarcustomtoolsviewinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorGrammarManager
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorgrammarmanager.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInit
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinit.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInitInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinitinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInitManager
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinitmanager.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorInterface
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditorinterface.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/PluginEditorManager
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/plugineditormanager.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/ProtectedHeadersJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/protectedheadersjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/Recipient
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/recipient.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/RecipientLine
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/recipientline.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/RecipientsEditor
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/recipientseditor.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/RichTextComposerNg
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/richtextcomposerng.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/RichTextComposerSignatures
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/richtextcomposersignatures.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SaveContactPreferenceJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/savecontactpreferencejob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterCreateJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/sendlatercreatejob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterDialog
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterdialog.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterInfo
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterinfo.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterRemoveJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterremovejob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SendLaterUtil
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/sendlaterutil.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SignatureController
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/signaturecontroller.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SignEncryptJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/signencryptjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SignJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/signjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SinglepartJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/singlepartjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/SkeletonMessageJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/skeletonmessagejob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/StatusBarLabelToggledState
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/statusbarlabeltoggledstate.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/TextPart
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/textpart.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/TransparentJob
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/transparentjob.h
+* messagelib /usr/include/KPim6/MessageComposer/MessageComposer/Util
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer/util.h
+* messagelib /usr/include/KPim6/MessageComposer/messagecomposer_version.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentCompressJob
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentcompressjob.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentFromUrlBaseJob
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentfromurlbasejob.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentFromUrlUtils
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentfromurlutils.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentLoadJob
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentloadjob.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentPart
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentpart.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentPropertiesDialog
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentpropertiesdialog.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AttachmentUpdateJob
+* messagelib /usr/include/KPim6/MessageCore/messagecore/attachmentupdatejob.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AutocryptRecipient
+* messagelib /usr/include/KPim6/MessageCore/messagecore/autocryptrecipient.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AutocryptStorage
+* messagelib /usr/include/KPim6/MessageCore/messagecore/autocryptstorage.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/AutocryptUtils
+* messagelib /usr/include/KPim6/MessageCore/messagecore/autocryptutils.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/ColorUtil
+* messagelib /usr/include/KPim6/MessageCore/messagecore/colorutil.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/DateFormatter
+* messagelib /usr/include/KPim6/MessageCore/messagecore/dateformatter.h
+* messagelib /usr/include/KPim6/MessageCore/messagecore/globalsettings_messagecore.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/ImageCollector
+* messagelib /usr/include/KPim6/MessageCore/messagecore/imagecollector.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/MailingList
+* messagelib /usr/include/KPim6/MessageCore/messagecore/mailinglist.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/MessageCoreSettings
+* messagelib /usr/include/KPim6/MessageCore/messagecore/messagecoresettings.h
+* messagelib /usr/include/KPim6/MessageCore/messagecore/messagecore_export.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/StringUtil
+* messagelib /usr/include/KPim6/MessageCore/messagecore/stringutil.h
+* messagelib /usr/include/KPim6/MessageCore/MessageCore/Util
+* messagelib /usr/include/KPim6/MessageCore/messagecore/util.h
+* messagelib /usr/include/KPim6/MessageCore/messagecore_version.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/AggregationComboBox
+* messagelib /usr/include/KPim6/MessageList/messagelist/aggregationcombobox.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/AggregationConfigButton
+* messagelib /usr/include/KPim6/MessageList/messagelist/aggregationconfigbutton.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/Enums
+* messagelib /usr/include/KPim6/MessageList/messagelist/enums.h
+* messagelib /usr/include/KPim6/MessageList/messagelist/messagelistsettings.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/MessageListUtil
+* messagelib /usr/include/KPim6/MessageList/messagelist/messagelistutil.h
+* messagelib /usr/include/KPim6/MessageList/messagelist/messagelist_export.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/Pane
+* messagelib /usr/include/KPim6/MessageList/messagelist/pane.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/QuickSearchLine
+* messagelib /usr/include/KPim6/MessageList/messagelist/quicksearchline.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/SearchMessageByButtons
+* messagelib /usr/include/KPim6/MessageList/messagelist/searchmessagebybuttons.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/StorageModel
+* messagelib /usr/include/KPim6/MessageList/messagelist/storagemodel.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/StorageModelBase
+* messagelib /usr/include/KPim6/MessageList/messagelist/storagemodelbase.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/ThemeComboBox
+* messagelib /usr/include/KPim6/MessageList/messagelist/themecombobox.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/ThemeConfigButton
+* messagelib /usr/include/KPim6/MessageList/messagelist/themeconfigbutton.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/View
+* messagelib /usr/include/KPim6/MessageList/messagelist/view.h
+* messagelib /usr/include/KPim6/MessageList/MessageList/WidgetBase
+* messagelib /usr/include/KPim6/MessageList/messagelist/widgetbase.h
+* messagelib /usr/include/KPim6/MessageList/messagelist_version.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/AttachmentStrategy
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/attachmentstrategy.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/BodyPartURLHandler
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/bodyparturlhandler.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/BufferedHtmlWriter
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/bufferedhtmlwriter.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ConfigureWidget
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/configurewidget.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/CSSHelper
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/csshelper.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/CSSHelperBase
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/csshelperbase.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMCheckPolicy
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimcheckpolicy.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMCheckSignatureJob
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimchecksignaturejob.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMHeaderParser
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimheaderparser.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMInfo
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkiminfo.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMKeyRecord
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimkeyrecord.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerAuthenticationServer
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerauthenticationserver.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerKey
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerkey.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerKeyDialog
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerkeydialog.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerKeyWidget
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerkeywidget.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManagerRules
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerrules.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManageRulesDialog
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanagerulesdialog.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMManageRulesWidget
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimmanageruleswidget.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMRule
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimrule.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMViewerMenu
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimviewermenu.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/DKIMWidgetInfo
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/dkimwidgetinfo.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/FileHtmlWriter
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/filehtmlwriter.h
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/globalsettings_messageviewer.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/GrantleeHeaderStyle
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/grantleeheaderstyle.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/GrantleeHeaderTestStyle
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/grantleeheaderteststyle.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStrategy
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstrategy.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyle
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstyle.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyleInterface
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstyleinterface.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyleMenuManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstylemenumanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStylePlugin
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstyleplugin.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStylePluginManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstylepluginmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HeaderStyle_Util
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/headerstyle_util.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HtmlBlock
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/htmlblock.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/HtmlWriter
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/htmlwriter.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/IconNameCache
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/iconnamecache.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/InvitationSettings
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/invitationsettings.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/KXFace
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/kxface.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MailWebEnginePage
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/mailwebenginepage.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MailWebEngineView
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/mailwebengineview.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MarkMessageReadHandler
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/markmessagereadhandler.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MDNWarningWidget
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/mdnwarningwidget.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessagePartRendererBase
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messagepartrendererbase.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessagePartRendererManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messagepartrenderermanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessagePartRenderPlugin
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messagepartrenderplugin.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingInterface
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletinginterface.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingParameters
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingparameters.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingPlugin
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingplugin.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingPluginManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingpluginmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerCheckBeforeDeletingPluginWidget
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewercheckbeforedeletingpluginwidget.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerConfigureSettingsPlugin
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewerconfiguresettingsplugin.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerConfigureSettingsPluginManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewerconfiguresettingspluginmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerConfigureSettingsPluginWidget
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewerconfiguresettingspluginwidget.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerSettings
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewersettings.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MessageViewerUtil
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewerutil.h
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewer_debug.h
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/messageviewer_export.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/MimeType
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/mimetype.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ObjectTreeEmptySource
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/objecttreeemptysource.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/OpenUrlWithManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/openurlwithmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/OpenWithUrlInfo
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/openwithurlinfo.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/PlainHeaderStyle
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/plainheaderstyle.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/PrintingSettings
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/printingsettings.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/PrintMessage
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/printmessage.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/RemoteContentConfigureDialog
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/remotecontentconfiguredialog.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/RemoteContentMenu
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/remotecontentmenu.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/RichHeaderStrategy
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/richheaderstrategy.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ScamCheckShortUrl
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/scamcheckshorturl.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ScamCheckShortUrlManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/scamcheckshorturlmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ScamDetectionInfo
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/scamdetectioninfo.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ScamDetectionWhiteListSettingsManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/scamdetectionwhitelistsettingsmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ScamExpandUrlJob
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/scamexpandurljob.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/SpamHeaderAnalyzer
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/spamheaderanalyzer.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/Stl_Util
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/stl_util.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/URLHandler
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/urlhandler.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/Viewer
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/viewer.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPlugin
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/viewerplugin.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPluginInterface
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/viewerplugininterface.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPluginManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/viewerpluginmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/MessageViewer/ViewerPluginToolManager
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer/viewerplugintoolmanager.h
+* messagelib /usr/include/KPim6/MessageViewer/messageviewer_version.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/AttachmentTemporaryFilesDirs
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/attachmenttemporaryfilesdirs.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/BodyPart
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/bodypart.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/BodyPartFormatter
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/bodypartformatter.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/BodyPartFormatterFactory
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/bodypartformatterfactory.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/Enums
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/enums.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/MessagePart
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/messagepart.h
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/mimetreeparser_export.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/NodeHelper
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/nodehelper.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/ObjectTreeParser
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/objecttreeparser.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/ObjectTreeSource
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/objecttreesource.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/PartMetaData
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/partmetadata.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/PartNodeBodyPart
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/partnodebodypart.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/SimpleObjectTreeSource
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/simpleobjecttreesource.h
+* messagelib /usr/include/KPim6/MimeTreeParser/MimeTreeParser/Util
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser/util.h
+* messagelib /usr/include/KPim6/MimeTreeParser/mimetreeparser_version.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/CustomTemplates
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/customtemplates.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/CustomTemplatesMenu
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/customtemplatesmenu.h
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/customtemplates_kfg.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/DefaultTemplates
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/defaulttemplates.h
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/globalsettings_templateparser.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplateConvertCommandJob
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templateconvertcommandjob.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplateParserEmailAddressRequesterBase
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templateparseremailaddressrequesterbase.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplateParserExtractHtmlInfoResult
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templateparserextracthtmlinforesult.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplateParserJob
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templateparserjob.h
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templateparser_export.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesCommandMenu
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatescommandmenu.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesConfiguration
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatesconfiguration.h
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatesconfiguration_kfg.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesInsertCommandAction
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatesinsertcommandaction.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesInsertCommandPushButton
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatesinsertcommandpushbutton.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesTextEdit
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatestextedit.h
+* messagelib /usr/include/KPim6/TemplateParser/TemplateParser/TemplatesUtil
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/templatesutil.h
+* messagelib /usr/include/KPim6/TemplateParser/templateparser/ui_templatesconfiguration_base.h
+* messagelib /usr/include/KPim6/TemplateParser/templateparser_version.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/BlockExternalResourcesUrlInterceptor
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/blockexternalresourcesurlinterceptor.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/BlockTrackingUrlInterceptor
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/blocktrackingurlinterceptor.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CheckPhishingUrlCache
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/checkphishingurlcache.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CheckPhishingUrlJob
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/checkphishingurljob.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CheckPhishingUrlUtil
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/checkphishingurlutil.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/CreatePhishingUrlDataBaseJob
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/createphishingurldatabasejob.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/DeveloperToolDialog
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/developertooldialog.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/FindBarBase
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/findbarbase.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/FindBarWebEngineView
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/findbarwebengineview.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/HashCacheManager
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/hashcachemanager.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/InterceptorManager
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/interceptormanager.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/LoadExternalReferencesUrlInterceptor
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/loadexternalreferencesurlinterceptor.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/LocalDataBaseManager
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/localdatabasemanager.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkPluginUrlInterceptor
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/networkpluginurlinterceptor.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkPluginUrlInterceptorConfigureWidget
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/networkpluginurlinterceptorconfigurewidget.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkPluginUrlInterceptorInterface
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/networkpluginurlinterceptorinterface.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkUrlInterceptor
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/networkurlinterceptor.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/NetworkUrlInterceptorPluginManager
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/networkurlinterceptorpluginmanager.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/SearchFullHashJob
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/searchfullhashjob.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/SubmittedFormWarningWidget
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/submittedformwarningwidget.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/TrackingWarningWidget
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/trackingwarningwidget.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/UpdateDataBaseInfo
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/updatedatabaseinfo.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineAccessKey
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineaccesskey.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineExportPdfPageJob
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineexportpdfpagejob.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineManageScript
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webenginemanagescript.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEnginePage
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webenginepage.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineScript
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webenginescript.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebEngineView
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineview.h
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webengineviewer_export.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebHitTest
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webhittest.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/WebHitTestResult
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/webhittestresult.h
+* messagelib /usr/include/KPim6/WebEngineViewer/WebEngineViewer/ZoomActionMenu
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer/zoomactionmenu.h
+* messagelib /usr/include/KPim6/WebEngineViewer/webengineviewer_version.h
+* messagelib /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerConfig.cmake
+* messagelib /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6MessageComposer/KPim6MessageComposerTargets.cmake
+* messagelib /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreConfig.cmake
+* messagelib /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6MessageCore/KPim6MessageCoreTargets.cmake
+* messagelib /usr/lib/cmake/KPim6MessageList/KPim6MessageListConfig.cmake
+* messagelib /usr/lib/cmake/KPim6MessageList/KPim6MessageListConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6MessageList/KPim6MessageListTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6MessageList/KPim6MessageListTargets.cmake
+* messagelib /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerConfig.cmake
+* messagelib /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6MessageViewer/KPim6MessageViewerTargets.cmake
+* messagelib /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserConfig.cmake
+* messagelib /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6MimeTreeParser/KPim6MimeTreeParserTargets.cmake
+* messagelib /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserConfig.cmake
+* messagelib /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6TemplateParser/KPim6TemplateParserTargets.cmake
+* messagelib /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerConfig.cmake
+* messagelib /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerConfigVersion.cmake
+* messagelib /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets-release.cmake
+* messagelib /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
+* messagelib /usr/lib/libKPim6MessageComposer.so
+* messagelib /usr/lib/libKPim6MessageComposer.so.6
+* messagelib /usr/lib/libKPim6MessageComposer.so.6.2.0
+* messagelib /usr/lib/libKPim6MessageCore.so
+* messagelib /usr/lib/libKPim6MessageCore.so.6
+* messagelib /usr/lib/libKPim6MessageCore.so.6.2.0
+* messagelib /usr/lib/libKPim6MessageList.so
+* messagelib /usr/lib/libKPim6MessageList.so.6
+* messagelib /usr/lib/libKPim6MessageList.so.6.2.0
+* messagelib /usr/lib/libKPim6MessageViewer.so
+* messagelib /usr/lib/libKPim6MessageViewer.so.6
+* messagelib /usr/lib/libKPim6MessageViewer.so.6.2.0
+* messagelib /usr/lib/libKPim6MimeTreeParser.so
+* messagelib /usr/lib/libKPim6MimeTreeParser.so.6
+* messagelib /usr/lib/libKPim6MimeTreeParser.so.6.2.0
+* messagelib /usr/lib/libKPim6TemplateParser.so
+* messagelib /usr/lib/libKPim6TemplateParser.so.6
+* messagelib /usr/lib/libKPim6TemplateParser.so.6.2.0
+* messagelib /usr/lib/libKPim6WebEngineViewer.so
+* messagelib /usr/lib/libKPim6WebEngineViewer.so.6
+* messagelib /usr/lib/libKPim6WebEngineViewer.so.6.2.0
+* messagelib /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
+* messagelib /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
+* messagelib /usr/share/config.kcfg/customtemplates_kfg.kcfg
+* messagelib /usr/share/config.kcfg/templatesconfiguration_kfg.kcfg
+* messagelib /usr/share/knotifications6/messageviewer.notifyrc
+* messagelib /usr/share/knsrcfiles/messageviewer_header_themes.knsrc
+* messagelib /usr/share/libmessageviewer/pics/enterprise_bottom.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_bottom_left.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_bottom_right.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_icon.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_left.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_right.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_sbar.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_sp_right.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_sw.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_s_left.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_s_right.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_top.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_top_left.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_top_right.png
+* messagelib /usr/share/libmessageviewer/pics/enterprise_w.png
+* messagelib /usr/share/libmessageviewer/pics/quicklistClosed.png
+* messagelib /usr/share/libmessageviewer/pics/quicklistOpened.png
+* messagelib /usr/share/libmessageviewer/pics/quotecollapse.png
+* messagelib /usr/share/libmessageviewer/pics/quoteexpand.png
+* messagelib /usr/share/locale/af/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/af/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/af/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ar/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ast/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/be/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/be/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/be/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/bg/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/bn/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/bn/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/bn/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/br/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/br/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/br/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/bs/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/bs/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/bs/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/bs/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/bs/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/bs/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ca/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ca@valencia/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/cs/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/cy/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/cy/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/cy/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/da/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/de/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/el/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/el/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/el/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/el/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/el/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/el/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/en_GB/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/eo/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/es/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/et/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/eu/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/fa/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/fa/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/fa/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/fi/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/fr/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/fy/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/fy/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/fy/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ga/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ga/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ga/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ga/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ga/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ga/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/gl/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/he/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/hi/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/hi/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/hi/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/hr/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/hr/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/hr/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/hsb/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/hsb/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/hsb/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/hsb/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/hu/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ia/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/is/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/is/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/is/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/it/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ja/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ka/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/kk/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/kk/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/kk/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/kk/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/kk/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/kk/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/km/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/km/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/km/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/km/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/km/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ko/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/lt/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/lv/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/mai/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/mai/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/mai/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/mai/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/mk/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/mk/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/mk/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/mr/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/mr/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/mr/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/mr/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/mr/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/mr/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ms/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ms/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ms/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/nb/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/nb/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/nb/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/nb/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/nb/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/nb/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/nds/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/nds/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/nds/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/nds/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/nds/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/nds/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ne/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ne/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ne/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/nl/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/nn/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/nn/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/nn/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/nn/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/nn/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/pa/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/pa/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/pa/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/pa/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/pa/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/pa/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/pl/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/pt/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/pt_BR/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ro/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ro/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ro/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ro/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ro/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ro/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ru/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/se/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/se/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/se/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sk/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sl/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sr/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sr@ijekavian/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sr@latin/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/sv/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/ta/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/tg/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/tg/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/tg/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/th/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/th/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/th/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/th/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/tr/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/ug/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/ug/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/ug/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/ug/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/ug/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/ug/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/uk/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/uz/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/uz/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/uz/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/uz@cyrillic/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/uz@cyrillic/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/uz@cyrillic/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/wa/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/wa/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/wa/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/wa/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/xh/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/xh/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/xh/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/zh_CN/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libmessagecomposer6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libmessagecore6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libmessagelist6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libmessageviewer6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libmimetreeparser6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libtemplateparser6.mo
+* messagelib /usr/share/locale/zh_TW/LC_MESSAGES/libwebengineviewer6.mo
+* messagelib /usr/share/messagelist/pics/mail-horizontal-space.png
+* messagelib /usr/share/messagelist/pics/mail-vertical-separator-line.png
+* messagelib /usr/share/messageviewer/about/default/main.css
+* messagelib /usr/share/messageviewer/about/default/main.html
+* messagelib /usr/share/messageviewer/about/default/splash.theme
+* messagelib /usr/share/messageviewer/about/default/status.html
+* messagelib /usr/share/messageviewer/defaultthemes/5.2/header.html
+* messagelib /usr/share/messageviewer/defaultthemes/5.2/kmail_default.desktop
+* messagelib /usr/share/messageviewer/defaultthemes/5.2/photo.png
+* messagelib /usr/share/messageviewer/defaultthemes/5.2/photo.svg
+* messagelib /usr/share/messageviewer/defaultthemes/5.2/style.css
+* messagelib /usr/share/messageviewer/longurlServices.json
+* messagelib /usr/share/org.kde.syntax-highlighting/syntax/kmail-template.xml
+* messagelib /usr/share/qlogging-categories6/messagelib.categories
+* messagelib /usr/share/qlogging-categories6/messagelib.renamecategories

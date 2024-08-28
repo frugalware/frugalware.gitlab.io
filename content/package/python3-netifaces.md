@@ -12,7 +12,7 @@ size = "11460"
 usize = "40757"
 sha1sum = "9a490815059e85a4686cbc63ab96d55b761ff41f"
 depends = "['python3>=3.11']"
-reverse_depends = "['python3-zeroconf']"
+reverse_depends = "['./python3-zeroconf', 'python3-zeroconf']"
 +++
 ### Description: 
 Portable module to access network interface information in Python3.

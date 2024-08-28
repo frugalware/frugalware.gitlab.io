@@ -12,7 +12,7 @@ size = "627420"
 usize = "2036744"
 sha1sum = "dea46d1ffac8cc5355e9481dc83cd227c7ad0983"
 depends = "['lib32-icu4c', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12']"
-reverse_depends = "['get_steam', 'lib32-at-spi2-core', 'lib32-clang', 'lib32-clang-libs', 'lib32-gconf', 'lib32-libbluray', 'lib32-libcroco', 'lib32-libxkbcommon', 'lib32-shared-mime-info', 'lib32-spirv-llvm-translator', 'lib32-wayland', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'get_steam', 'lib32-at-spi2-core', 'lib32-clang', 'lib32-clang-libs', 'lib32-gconf', 'lib32-libbluray', 'lib32-libcroco', 'lib32-libxkbcommon', 'lib32-shared-mime-info', 'lib32-spirv-llvm-translator', 'lib32-wayland', 'wine', 'wine-devel']"
 +++
 ### Description: 
 XML parsing library ( 32bit )

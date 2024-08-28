@@ -12,7 +12,7 @@ size = "684644"
 usize = "750667"
 sha1sum = "ed3f6d4e14148a135fcda5b9241500dc63c1c0ab"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Western Frisian language support for Thunderbird

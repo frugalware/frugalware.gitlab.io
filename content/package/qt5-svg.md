@@ -12,7 +12,7 @@ size = "146784"
 usize = "523163"
 sha1sum = "da2b708dfcc74740cae6ef1bda39c1991df420b8"
 depends = "['qt5-base>=5.15.6']"
-reverse_depends = "['firetools', 'flightgear', 'gnuplot', 'k3b', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami2', 'kirigami25', 'kjsembed', 'kjsembed5', 'krita', 'krusader', 'kuserfeedback5', 'kxmlgui5', 'libkipi', 'libkomparediff2', 'librecad', 'lyx', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'nitroshare', 'nomacs', 'otter-browser', 'q4wine', 'qbittorrent', 'qownnotes', 'qt-virt-manager', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'qtractor', 'quassel', 'rolisteam', 'sigil', 'skrooge', 'sqlitestudio', 'texstudio', 'tiled', 'vlc', 'vulkan-lunarg-tools', 'wireshark-qt']"
+reverse_depends = "['./kig', './minuet', './qbittorrent', 'firetools', 'flightgear', 'gnuplot', 'k3b', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami2', 'kirigami25', 'kjsembed', 'kjsembed5', 'krita', 'krusader', 'kuserfeedback5', 'kxmlgui5', 'libkipi', 'libkomparediff2', 'librecad', 'lyx', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'nitroshare', 'nomacs', 'otter-browser', 'q4wine', 'qbittorrent', 'qownnotes', 'qt-virt-manager', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'qtractor', 'quassel', 'rolisteam', 'sigil', 'skrooge', 'sqlitestudio', 'texstudio', 'tiled', 'vlc', 'vulkan-lunarg-tools', 'wireshark-qt']"
 +++
 ### Description: 
 The Qt5 toolkit, qtsvg

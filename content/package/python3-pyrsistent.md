@@ -12,7 +12,7 @@ size = "101512"
 usize = "479369"
 sha1sum = "7326c8457ff667315d02e143276d66679af2b40a"
 depends = "['python3>=3.11']"
-reverse_depends = "['python3-jsonschema']"
+reverse_depends = "['./python3-jsonschema', 'python3-jsonschema']"
 +++
 ### Description: 
 Persistent/Functional/Immutable data structures

@@ -12,7 +12,7 @@ size = "90876"
 usize = "271848"
 sha1sum = "3fcafa988f601bd98b8dc28ebb145568e2378721"
 depends = "['protobuf>=27.3']"
-reverse_depends = "['criu', 'fwupd']"
+reverse_depends = "['./fwupd', 'criu', 'fwupd']"
 +++
 ### Description: 
 C bindings for Google's Protocol Buffers

@@ -1,136 +1,136 @@
 +++
 draft = false
-title = "kblackbox 24.05.2-1"
-version = "24.05.2-1"
+title = "./kblackbox 24.08.0-1"
+version = "24.08.0-1"
 description = "A game of hide and seek played on a grid of boxes."
-date = "2024-07-05T09:45:20"
-aliases = "/packages/184175"
+date = "2024-08-22T14:29:26"
+aliases = "/packages/222455"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "620004"
-usize = "1950803"
-sha1sum = "43fe5762acf1c11c0751ee457bd207eb62096c08"
-depends = "['libkdegames>=24.05.2', 'qt6-svg>=6.7.1']"
+size = "613748"
+usize = "1901294"
+sha1sum = "23f9983a6e3ef99a5d843112842141839ad6d5e0"
+depends = "['libkdegames>=24.08.0', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 A game of hide and seek played on a grid of boxes.
 
 ### Files: 
-* /usr/bin/kblackbox
-* /usr/share/applications/org.kde.kblackbox.desktop
-* /usr/share/doc/HTML/ca/kblackbox/gameboard.png
-* /usr/share/doc/HTML/ca/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/ca/kblackbox/index.docbook
-* /usr/share/doc/HTML/de/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/de/kblackbox/index.docbook
-* /usr/share/doc/HTML/en/kblackbox/gameboard.png
-* /usr/share/doc/HTML/en/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/en/kblackbox/index.docbook
-* /usr/share/doc/HTML/es/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/es/kblackbox/index.docbook
-* /usr/share/doc/HTML/et/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/et/kblackbox/index.docbook
-* /usr/share/doc/HTML/fr/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/fr/kblackbox/index.docbook
-* /usr/share/doc/HTML/it/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/it/kblackbox/index.docbook
-* /usr/share/doc/HTML/nl/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/nl/kblackbox/index.docbook
-* /usr/share/doc/HTML/pt/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/pt/kblackbox/index.docbook
-* /usr/share/doc/HTML/pt_BR/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kblackbox/index.docbook
-* /usr/share/doc/HTML/sv/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/sv/kblackbox/index.docbook
-* /usr/share/doc/HTML/uk/kblackbox/gameboard.png
-* /usr/share/doc/HTML/uk/kblackbox/index.cache.bz2
-* /usr/share/doc/HTML/uk/kblackbox/index.docbook
-* /usr/share/doc/kblackbox-24.05.2/CHANGES
-* /usr/share/doc/kblackbox-24.05.2/README
-* /usr/share/icons/hicolor/128x128/apps/kblackbox.png
-* /usr/share/icons/hicolor/16x16/apps/kblackbox.png
-* /usr/share/icons/hicolor/22x22/apps/kblackbox.png
-* /usr/share/icons/hicolor/32x32/apps/kblackbox.png
-* /usr/share/icons/hicolor/48x48/apps/kblackbox.png
-* /usr/share/icons/hicolor/64x64/apps/kblackbox.png
-* /usr/share/kblackbox/themes/default.svgz
-* /usr/share/locale/af/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ar/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ast/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/be/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/bg/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/bn/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/br/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/bs/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ca/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/cs/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/cy/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/da/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/de/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/el/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/eo/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/es/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/et/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/eu/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/fa/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/fi/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/fr/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ga/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/gl/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/he/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/hi/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/hne/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/hr/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/hu/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ia/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/id/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/is/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/it/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ja/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ka/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/kk/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/km/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ko/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/lt/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/lv/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/mai/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/mk/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ml/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/mr/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ms/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/nb/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/nds/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ne/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/nl/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/nn/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/oc/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/pa/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/pl/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/pt/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ro/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ru/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/se/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sk/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sl/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sq/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sr/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/sv/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ta/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/te/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/tg/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/th/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/tr/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/ug/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/uk/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/vi/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/xh/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kblackbox.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kblackbox.mo
-* /usr/share/metainfo/org.kde.kblackbox.appdata.xml
+* kblackbox /usr/bin/kblackbox
+* kblackbox /usr/share/applications/org.kde.kblackbox.desktop
+* kblackbox /usr/share/doc/HTML/ca/kblackbox/gameboard.png
+* kblackbox /usr/share/doc/HTML/ca/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/ca/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/de/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/de/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/en/kblackbox/gameboard.png
+* kblackbox /usr/share/doc/HTML/en/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/en/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/es/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/es/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/et/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/et/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/fr/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/fr/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/it/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/it/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/nl/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/nl/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/pt/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/pt/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/pt_BR/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/pt_BR/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/sv/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/sv/kblackbox/index.docbook
+* kblackbox /usr/share/doc/HTML/uk/kblackbox/gameboard.png
+* kblackbox /usr/share/doc/HTML/uk/kblackbox/index.cache.bz2
+* kblackbox /usr/share/doc/HTML/uk/kblackbox/index.docbook
+* kblackbox /usr/share/doc/kblackbox-24.08.0/CHANGES
+* kblackbox /usr/share/doc/kblackbox-24.08.0/README
+* kblackbox /usr/share/icons/hicolor/128x128/apps/kblackbox.png
+* kblackbox /usr/share/icons/hicolor/16x16/apps/kblackbox.png
+* kblackbox /usr/share/icons/hicolor/22x22/apps/kblackbox.png
+* kblackbox /usr/share/icons/hicolor/32x32/apps/kblackbox.png
+* kblackbox /usr/share/icons/hicolor/48x48/apps/kblackbox.png
+* kblackbox /usr/share/icons/hicolor/64x64/apps/kblackbox.png
+* kblackbox /usr/share/kblackbox/themes/default.svgz
+* kblackbox /usr/share/locale/af/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ar/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ast/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/be/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/bg/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/bn/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/br/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/bs/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ca/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ca@valencia/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/cs/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/cy/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/da/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/de/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/el/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/en_GB/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/eo/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/es/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/et/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/eu/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/fa/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/fi/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/fr/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ga/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/gl/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/he/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/hi/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/hne/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/hr/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/hu/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ia/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/id/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/is/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/it/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ja/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ka/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/kk/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/km/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ko/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/lt/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/lv/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/mai/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/mk/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ml/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/mr/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ms/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/nb/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/nds/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ne/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/nl/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/nn/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/oc/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/pa/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/pl/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/pt/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/pt_BR/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ro/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ru/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/se/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sk/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sl/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sq/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sr/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sr@ijekavian/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sr@latin/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/sv/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ta/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/te/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/tg/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/th/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/tr/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/ug/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/uk/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/vi/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/xh/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/zh_CN/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/locale/zh_TW/LC_MESSAGES/kblackbox.mo
+* kblackbox /usr/share/metainfo/org.kde.kblackbox.appdata.xml

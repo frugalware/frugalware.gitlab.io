@@ -12,7 +12,7 @@ size = "685660"
 usize = "2231285"
 sha1sum = "6f105f67f12fba106471647e9167e5f449db5e35"
 depends = "['glibc>=2.37']"
-reverse_depends = "['aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'squashfs', 'squashfuse', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
+reverse_depends = "['./pacman-g2', 'aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'squashfs', 'squashfuse', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++
 ### Description: 
 XZ Utils is free general-purpose data compression software with high compression ratio.

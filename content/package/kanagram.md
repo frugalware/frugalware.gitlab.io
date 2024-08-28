@@ -1,218 +1,218 @@
 +++
 draft = false
-title = "kanagram 24.05.2-1"
-version = "24.05.2-1"
+title = "./kanagram 24.08.0-1"
+version = "24.08.0-1"
 description = "Letter Order Game."
-date = "2024-07-05T10:13:52"
-aliases = "/packages/152826"
+date = "2024-08-22T14:53:36"
+aliases = "/packages/222462"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7029256"
-usize = "8124234"
-sha1sum = "6dbebb8baf3f0b5f4f6eb8c895e1cbd77444722f"
-depends = "['kdeclarative>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.2', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
+size = "7029584"
+usize = "8125251"
+sha1sum = "305120625720b452ea86c48ddc0bb547ee47c049"
+depends = "['kdeclarative>=6.5.0', 'knewstuff>=6.5.0', 'libkeduvocdocument>=24.08.0', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 Letter Order Game.
 
 ### Files: 
-* /usr/bin/kanagram
-* /usr/share/applications/org.kde.kanagram.desktop
-* /usr/share/config.kcfg/kanagram.kcfg
-* /usr/share/doc/HTML/ca/kanagram/general-settings.png
-* /usr/share/doc/HTML/ca/kanagram/helpstates.png
-* /usr/share/doc/HTML/ca/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/ca/kanagram/index.docbook
-* /usr/share/doc/HTML/ca/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/ca/kanagram/kanagram.png
-* /usr/share/doc/HTML/ca/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/ca/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/ca/kanagram/vocab-settings.png
-* /usr/share/doc/HTML/de/kanagram/general-settings.png
-* /usr/share/doc/HTML/de/kanagram/helpstates.png
-* /usr/share/doc/HTML/de/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/de/kanagram/index.docbook
-* /usr/share/doc/HTML/de/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/de/kanagram/kanagram.png
-* /usr/share/doc/HTML/de/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/de/kanagram/newstuff-settings.png
-* /usr/share/doc/HTML/de/kanagram/shortcuts-settings.png
-* /usr/share/doc/HTML/de/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/de/kanagram/vocab-settings.png
-* /usr/share/doc/HTML/en/kanagram/general-settings.png
-* /usr/share/doc/HTML/en/kanagram/helpstates.png
-* /usr/share/doc/HTML/en/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/en/kanagram/index.docbook
-* /usr/share/doc/HTML/en/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/en/kanagram/kanagram.png
-* /usr/share/doc/HTML/en/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/en/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/en/kanagram/vocab-settings.png
-* /usr/share/doc/HTML/es/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/es/kanagram/index.docbook
-* /usr/share/doc/HTML/et/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/et/kanagram/index.docbook
-* /usr/share/doc/HTML/fr/kanagram/answer-highlight.png
-* /usr/share/doc/HTML/fr/kanagram/general-settings.png
-* /usr/share/doc/HTML/fr/kanagram/helpstates.png
-* /usr/share/doc/HTML/fr/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/fr/kanagram/index.docbook
-* /usr/share/doc/HTML/fr/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/fr/kanagram/kanagram.png
-* /usr/share/doc/HTML/fr/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/fr/kanagram/newstuff-settings.png
-* /usr/share/doc/HTML/fr/kanagram/shortcuts-settings.png
-* /usr/share/doc/HTML/fr/kanagram/standard-fonts.png
-* /usr/share/doc/HTML/fr/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/fr/kanagram/vocab-settings.png
-* /usr/share/doc/HTML/it/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/it/kanagram/index.docbook
-* /usr/share/doc/HTML/nl/kanagram/answer-highlight.png
-* /usr/share/doc/HTML/nl/kanagram/general-settings.png
-* /usr/share/doc/HTML/nl/kanagram/helpstates.png
-* /usr/share/doc/HTML/nl/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/nl/kanagram/index.docbook
-* /usr/share/doc/HTML/nl/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/nl/kanagram/kanagram.png
-* /usr/share/doc/HTML/nl/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/nl/kanagram/newstuff-settings.png
-* /usr/share/doc/HTML/nl/kanagram/shortcuts-settings.png
-* /usr/share/doc/HTML/nl/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/nl/kanagram/vocab-settings.png
-* /usr/share/doc/HTML/pt/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/pt/kanagram/index.docbook
-* /usr/share/doc/HTML/pt_BR/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kanagram/index.docbook
-* /usr/share/doc/HTML/ru/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/ru/kanagram/index.docbook
-* /usr/share/doc/HTML/sv/kanagram/answer-highlight.png
-* /usr/share/doc/HTML/sv/kanagram/general-settings.png
-* /usr/share/doc/HTML/sv/kanagram/helpstates.png
-* /usr/share/doc/HTML/sv/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/sv/kanagram/index.docbook
-* /usr/share/doc/HTML/sv/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/sv/kanagram/kanagram.png
-* /usr/share/doc/HTML/sv/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/sv/kanagram/newstuff-settings.png
-* /usr/share/doc/HTML/sv/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/sv/kanagram/vocab-settings.png
-* /usr/share/doc/HTML/uk/kanagram/general-settings.png
-* /usr/share/doc/HTML/uk/kanagram/helpstates.png
-* /usr/share/doc/HTML/uk/kanagram/index.cache.bz2
-* /usr/share/doc/HTML/uk/kanagram/index.docbook
-* /usr/share/doc/HTML/uk/kanagram/kanagram-hint.png
-* /usr/share/doc/HTML/uk/kanagram/kanagram.png
-* /usr/share/doc/HTML/uk/kanagram/newstuff-dialog.png
-* /usr/share/doc/HTML/uk/kanagram/vocab-editor.png
-* /usr/share/doc/HTML/uk/kanagram/vocab-settings.png
-* /usr/share/doc/kanagram-24.05.2/ChangeLog
-* /usr/share/doc/kanagram-24.05.2/COPYING
-* /usr/share/doc/kanagram-24.05.2/COPYING.DOC
-* /usr/share/doc/kanagram-24.05.2/TODO
-* /usr/share/icons/hicolor/128x128/apps/kanagram.png
-* /usr/share/icons/hicolor/16x16/apps/kanagram.png
-* /usr/share/icons/hicolor/24x24/apps/kanagram.png
-* /usr/share/icons/hicolor/32x32/apps/kanagram.png
-* /usr/share/icons/hicolor/48x48/apps/kanagram.png
-* /usr/share/icons/hicolor/64x64/apps/kanagram.png
-* /usr/share/icons/hicolor/80x80/apps/kanagram-harmattan.png
-* /usr/share/icons/hicolor/scalable/apps/kanagram.svgz
-* /usr/share/kanagram/ui/Blackboard.qml
-* /usr/share/kanagram/ui/icons/1player.png
-* /usr/share/kanagram/ui/icons/2player.png
-* /usr/share/kanagram/ui/icons/about-kanagram.png
-* /usr/share/kanagram/ui/icons/about-kde.png
-* /usr/share/kanagram/ui/icons/arrow-light.svgz
-* /usr/share/kanagram/ui/icons/close.png
-* /usr/share/kanagram/ui/icons/hint.png
-* /usr/share/kanagram/ui/icons/kanagram-handbook.png
-* /usr/share/kanagram/ui/icons/left-arrow.png
-* /usr/share/kanagram/ui/icons/on-off-light.svgz
-* /usr/share/kanagram/ui/icons/question-light.svgz
-* /usr/share/kanagram/ui/icons/reveal.png
-* /usr/share/kanagram/ui/icons/right-arrow.png
-* /usr/share/kanagram/ui/icons/spanner-light.svgz
-* /usr/share/kanagram/ui/icons/timer.png
-* /usr/share/kanagram/ui/icons/wikipedia.png
-* /usr/share/kanagram/ui/images/background.jpg
-* /usr/share/kanagram/ui/images/chalkboard.png
-* /usr/share/kanagram/ui/images/header.png
-* /usr/share/kanagram/ui/LetterButton.qml
-* /usr/share/kanagram/ui/main.qml
-* /usr/share/kanagram/ui/sounds/chalk.ogg
-* /usr/share/kanagram/ui/sounds/chalk.wav
-* /usr/share/kanagram/ui/sounds/right.ogg
-* /usr/share/kanagram/ui/sounds/right.wav
-* /usr/share/kanagram/ui/sounds/wrong.ogg
-* /usr/share/kanagram/ui/sounds/wrong.wav
-* /usr/share/knsrcfiles/kanagram.knsrc
-* /usr/share/locale/ar/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ast/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/be/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/bg/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/bn/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/br/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/bs/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ca/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/cs/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/cy/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/da/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/de/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/el/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/eo/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/es/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/et/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/eu/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/fa/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/fi/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/fr/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ga/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/gl/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/gu/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/he/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/hi/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/hne/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/hr/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/hu/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ia/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/id/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/it/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ja/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ka/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/kk/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/km/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ko/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/lt/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/lv/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/mk/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ml/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/mr/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ms/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/nb/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/nds/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ne/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/nl/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/nn/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/oc/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/pa/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/pl/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/pt/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ro/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ru/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/se/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/si/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/sk/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/sl/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/sq/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/sv/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/tg/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/tr/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/ug/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/uk/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kanagram.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kanagram.mo
-* /usr/share/metainfo/org.kde.kanagram.appdata.xml
+* kanagram /usr/bin/kanagram
+* kanagram /usr/share/applications/org.kde.kanagram.desktop
+* kanagram /usr/share/config.kcfg/kanagram.kcfg
+* kanagram /usr/share/doc/HTML/ca/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/ca/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/ca/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/ca/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/ca/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/ca/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/ca/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/ca/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/ca/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/HTML/de/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/de/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/de/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/de/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/de/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/de/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/de/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/de/kanagram/newstuff-settings.png
+* kanagram /usr/share/doc/HTML/de/kanagram/shortcuts-settings.png
+* kanagram /usr/share/doc/HTML/de/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/de/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/HTML/en/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/en/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/en/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/en/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/en/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/en/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/en/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/en/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/en/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/HTML/es/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/es/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/et/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/et/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/fr/kanagram/answer-highlight.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/fr/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/fr/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/newstuff-settings.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/shortcuts-settings.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/standard-fonts.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/fr/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/HTML/it/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/it/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/nl/kanagram/answer-highlight.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/nl/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/nl/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/newstuff-settings.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/shortcuts-settings.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/nl/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/HTML/pt/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/pt/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/pt_BR/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/pt_BR/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/ru/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/ru/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/sv/kanagram/answer-highlight.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/sv/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/sv/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/newstuff-settings.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/sv/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/general-settings.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/helpstates.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/index.cache.bz2
+* kanagram /usr/share/doc/HTML/uk/kanagram/index.docbook
+* kanagram /usr/share/doc/HTML/uk/kanagram/kanagram-hint.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/kanagram.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/newstuff-dialog.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/vocab-editor.png
+* kanagram /usr/share/doc/HTML/uk/kanagram/vocab-settings.png
+* kanagram /usr/share/doc/kanagram-24.08.0/ChangeLog
+* kanagram /usr/share/doc/kanagram-24.08.0/COPYING
+* kanagram /usr/share/doc/kanagram-24.08.0/COPYING.DOC
+* kanagram /usr/share/doc/kanagram-24.08.0/TODO
+* kanagram /usr/share/icons/hicolor/128x128/apps/kanagram.png
+* kanagram /usr/share/icons/hicolor/16x16/apps/kanagram.png
+* kanagram /usr/share/icons/hicolor/24x24/apps/kanagram.png
+* kanagram /usr/share/icons/hicolor/32x32/apps/kanagram.png
+* kanagram /usr/share/icons/hicolor/48x48/apps/kanagram.png
+* kanagram /usr/share/icons/hicolor/64x64/apps/kanagram.png
+* kanagram /usr/share/icons/hicolor/80x80/apps/kanagram-harmattan.png
+* kanagram /usr/share/icons/hicolor/scalable/apps/kanagram.svgz
+* kanagram /usr/share/kanagram/ui/Blackboard.qml
+* kanagram /usr/share/kanagram/ui/icons/1player.png
+* kanagram /usr/share/kanagram/ui/icons/2player.png
+* kanagram /usr/share/kanagram/ui/icons/about-kanagram.png
+* kanagram /usr/share/kanagram/ui/icons/about-kde.png
+* kanagram /usr/share/kanagram/ui/icons/arrow-light.svgz
+* kanagram /usr/share/kanagram/ui/icons/close.png
+* kanagram /usr/share/kanagram/ui/icons/hint.png
+* kanagram /usr/share/kanagram/ui/icons/kanagram-handbook.png
+* kanagram /usr/share/kanagram/ui/icons/left-arrow.png
+* kanagram /usr/share/kanagram/ui/icons/on-off-light.svgz
+* kanagram /usr/share/kanagram/ui/icons/question-light.svgz
+* kanagram /usr/share/kanagram/ui/icons/reveal.png
+* kanagram /usr/share/kanagram/ui/icons/right-arrow.png
+* kanagram /usr/share/kanagram/ui/icons/spanner-light.svgz
+* kanagram /usr/share/kanagram/ui/icons/timer.png
+* kanagram /usr/share/kanagram/ui/icons/wikipedia.png
+* kanagram /usr/share/kanagram/ui/images/background.jpg
+* kanagram /usr/share/kanagram/ui/images/chalkboard.png
+* kanagram /usr/share/kanagram/ui/images/header.png
+* kanagram /usr/share/kanagram/ui/LetterButton.qml
+* kanagram /usr/share/kanagram/ui/main.qml
+* kanagram /usr/share/kanagram/ui/sounds/chalk.ogg
+* kanagram /usr/share/kanagram/ui/sounds/chalk.wav
+* kanagram /usr/share/kanagram/ui/sounds/right.ogg
+* kanagram /usr/share/kanagram/ui/sounds/right.wav
+* kanagram /usr/share/kanagram/ui/sounds/wrong.ogg
+* kanagram /usr/share/kanagram/ui/sounds/wrong.wav
+* kanagram /usr/share/knsrcfiles/kanagram.knsrc
+* kanagram /usr/share/locale/ar/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ast/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/be/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/bg/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/bn/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/br/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/bs/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ca/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ca@valencia/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/cs/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/cy/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/da/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/de/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/el/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/en_GB/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/eo/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/es/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/et/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/eu/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/fa/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/fi/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/fr/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ga/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/gl/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/gu/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/he/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/hi/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/hne/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/hr/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/hu/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ia/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/id/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/it/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ja/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ka/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/kk/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/km/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ko/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/lt/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/lv/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/mk/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ml/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/mr/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ms/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/nb/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/nds/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ne/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/nl/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/nn/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/oc/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/pa/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/pl/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/pt/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/pt_BR/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ro/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ru/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/se/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/si/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/sk/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/sl/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/sq/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/sv/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/tg/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/tr/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/ug/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/uk/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/zh_CN/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/locale/zh_TW/LC_MESSAGES/kanagram.mo
+* kanagram /usr/share/metainfo/org.kde.kanagram.appdata.xml

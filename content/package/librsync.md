@@ -12,7 +12,7 @@ size = "44924"
 usize = "130310"
 sha1sum = "e7aee5f3b01f79381da715d353019a4394a1d163"
 depends = "['bzip2', 'popt', 'zlib>=1.2.12']"
-reverse_depends = "['duplicity', 'kitty']"
+reverse_depends = "['./kitty', 'duplicity', 'kitty']"
 +++
 ### Description: 
 A free software library that implements the rsync remote-delta algorithm.

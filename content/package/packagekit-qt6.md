@@ -12,7 +12,7 @@ size = "116064"
 usize = "469334"
 sha1sum = "1a5c016ed395d2c838d9e2261fcb890f08e8bb45"
 depends = "['qt6-base']"
-reverse_depends = "['discover', 'frameworkintegration', 'kdenetwork-filesharing', 'plasma-desktop']"
+reverse_depends = "['./kdenetwork-filesharing', 'discover', 'frameworkintegration', 'kdenetwork-filesharing', 'plasma-desktop']"
 +++
 ### Description: 
 A system designed to make installation and updates of packages easier

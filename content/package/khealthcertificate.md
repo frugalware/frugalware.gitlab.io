@@ -1,44 +1,44 @@
 +++
 draft = false
-title = "khealthcertificate 24.05.2-1"
-version = "24.05.2-1"
+title = "./khealthcertificate 24.08.0-1"
+version = "24.08.0-1"
 description = "Handling of digital vaccination, test and recovery certificates"
-date = "2024-07-05T13:29:59"
-aliases = "/packages/221412"
+date = "2024-08-23T08:32:14"
+aliases = "/packages/222451"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "535448"
-usize = "1579866"
-sha1sum = "55d808a2f60caeb60cbb4904ff0378556f1e48a0"
+size = "535420"
+usize = "1580704"
+sha1sum = "7e88d64637c4ebdb21288d59cb231459dc2aa264"
 depends = "['karchive>=', 'kcodecs>=', 'ki18n>=']"
 +++
 ### Description: 
 Handling of digital vaccination, test and recovery certificates
 
 ### Files: 
-* /usr/include/KHealthCertificate/KHealthCertificate
-* /usr/include/KHealthCertificate/khealthcertificate.h
-* /usr/include/KHealthCertificate/KHealthCertificateParser
-* /usr/include/KHealthCertificate/khealthcertificateparser.h
-* /usr/include/KHealthCertificate/khealthcertificatetypes.h
-* /usr/include/KHealthCertificate/khealthcertificate_export.h
-* /usr/include/KHealthCertificate/khealthcertificate_version.h
-* /usr/include/KHealthCertificate/KRecoveryCertificate
-* /usr/include/KHealthCertificate/krecoverycertificate.h
-* /usr/include/KHealthCertificate/KTestCertificate
-* /usr/include/KHealthCertificate/ktestcertificate.h
-* /usr/include/KHealthCertificate/KVaccinationCertificate
-* /usr/include/KHealthCertificate/kvaccinationcertificate.h
-* /usr/lib/cmake/KHealthCertificate/KHealthCertificateConfig.cmake
-* /usr/lib/cmake/KHealthCertificate/KHealthCertificateConfigVersion.cmake
-* /usr/lib/cmake/KHealthCertificate/KHealthCertificateTargets-release.cmake
-* /usr/lib/cmake/KHealthCertificate/KHealthCertificateTargets.cmake
-* /usr/lib/libKHealthCertificate.so
-* /usr/lib/libKHealthCertificate.so.1
-* /usr/lib/libKHealthCertificate.so.24.05.2
-* /usr/lib/qt6/qml/org/kde/khealthcertificate/libkhealthcertificateqmlplugin.so
-* /usr/lib/qt6/qml/org/kde/khealthcertificate/qmldir
-* /usr/share/doc/khealthcertificate-24.05.2/README.md
-* /usr/share/doc/khealthcertificate-24.05.2/README.md.license
-* /usr/share/qlogging-categories6/org_kde_khealthcertificate.categories
+* khealthcertificate /usr/include/KHealthCertificate/KHealthCertificate
+* khealthcertificate /usr/include/KHealthCertificate/khealthcertificate.h
+* khealthcertificate /usr/include/KHealthCertificate/KHealthCertificateParser
+* khealthcertificate /usr/include/KHealthCertificate/khealthcertificateparser.h
+* khealthcertificate /usr/include/KHealthCertificate/khealthcertificatetypes.h
+* khealthcertificate /usr/include/KHealthCertificate/khealthcertificate_export.h
+* khealthcertificate /usr/include/KHealthCertificate/khealthcertificate_version.h
+* khealthcertificate /usr/include/KHealthCertificate/KRecoveryCertificate
+* khealthcertificate /usr/include/KHealthCertificate/krecoverycertificate.h
+* khealthcertificate /usr/include/KHealthCertificate/KTestCertificate
+* khealthcertificate /usr/include/KHealthCertificate/ktestcertificate.h
+* khealthcertificate /usr/include/KHealthCertificate/KVaccinationCertificate
+* khealthcertificate /usr/include/KHealthCertificate/kvaccinationcertificate.h
+* khealthcertificate /usr/lib/cmake/KHealthCertificate/KHealthCertificateConfig.cmake
+* khealthcertificate /usr/lib/cmake/KHealthCertificate/KHealthCertificateConfigVersion.cmake
+* khealthcertificate /usr/lib/cmake/KHealthCertificate/KHealthCertificateTargets-release.cmake
+* khealthcertificate /usr/lib/cmake/KHealthCertificate/KHealthCertificateTargets.cmake
+* khealthcertificate /usr/lib/libKHealthCertificate.so
+* khealthcertificate /usr/lib/libKHealthCertificate.so.1
+* khealthcertificate /usr/lib/libKHealthCertificate.so.24.08.0
+* khealthcertificate /usr/lib/qt6/qml/org/kde/khealthcertificate/libkhealthcertificateqmlplugin.so
+* khealthcertificate /usr/lib/qt6/qml/org/kde/khealthcertificate/qmldir
+* khealthcertificate /usr/share/doc/khealthcertificate-24.08.0/README.md
+* khealthcertificate /usr/share/doc/khealthcertificate-24.08.0/README.md.license
+* khealthcertificate /usr/share/qlogging-categories6/org_kde_khealthcertificate.categories

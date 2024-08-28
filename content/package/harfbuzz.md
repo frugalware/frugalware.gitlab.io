@@ -12,7 +12,7 @@ size = "1244096"
 usize = "7549709"
 sha1sum = "42cb64d1428af0d9a5f19758050db9f0a8be194d"
 depends = "['freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
-reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'ogre', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
+reverse_depends = "['./kitty', 'chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'ogre', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++
 ### Description: 
 Is an implementation of the OpenType Layout engine.

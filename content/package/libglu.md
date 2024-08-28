@@ -12,7 +12,7 @@ size = "144816"
 usize = "375676"
 sha1sum = "3ee92abf22673ad98a422064339e6c56d3556c5c"
 depends = "['libglvnd', 'libstdc++>=11.2']"
-reverse_depends = "['allegro', 'crawl', 'crawl-tiles', 'flightgear', 'flutter', 'fox', 'geogram', 'glew', 'kalgebra', 'kinfocenter', 'kinfocenter5', 'ksudoku', 'kubrick', 'libvdpau-va-gl', 'manaplus', 'mesademos', 'motiontestsuite', 'mupdf', 'octave', 'ogre', 'opencity', 'ospray', 'qemu', 'stepmania', 'swt', 'ufoai', 'v4l-utils', 'virtualbox', 'wine', 'wine-devel', 'wxwidgets', 'xine-lib', 'xscreensaver-data']"
+reverse_depends = "['./kalgebra', './kubrick', './wine-devel', 'allegro', 'crawl', 'crawl-tiles', 'flightgear', 'flutter', 'fox', 'geogram', 'glew', 'kalgebra', 'kinfocenter', 'kinfocenter5', 'ksudoku', 'kubrick', 'libvdpau-va-gl', 'manaplus', 'mesademos', 'motiontestsuite', 'mupdf', 'octave', 'ogre', 'opencity', 'ospray', 'qemu', 'stepmania', 'swt', 'ufoai', 'v4l-utils', 'virtualbox', 'wine', 'wine-devel', 'wxwidgets', 'xine-lib', 'xscreensaver-data']"
 +++
 ### Description: 
 Mesa OpenGL Utility Library.

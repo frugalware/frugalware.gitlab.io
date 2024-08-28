@@ -12,7 +12,7 @@ size = "109412"
 usize = "516385"
 sha1sum = "570af91617faa66c2337a7499570a76dca87c6e4"
 depends = "['kxmlgui>=6.5.0']"
-reverse_depends = "['dolphin', 'kcharselect', 'kio']"
+reverse_depends = "['./dolphin', './kcharselect', 'dolphin', 'kcharselect', 'kio']"
 +++
 ### Description: 
 Framework that let you access and manipulate bookmarks stored using XBEL format.

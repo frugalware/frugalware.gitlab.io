@@ -12,7 +12,7 @@ size = "2307716"
 usize = "9947881"
 sha1sum = "00fb2419c6128a8fa387559a52eca1723d5556da"
 depends = "['libcroco', 'libtextstyle', 'libunistring>=1.1', 'ncurses>=6.1-5']"
-reverse_depends = "['clisp', 'kdesdk-thumbnailers', 'ki18n', 'ki18n5', 'poxml', 'quilt', 'wine', 'wine-devel']"
+reverse_depends = "['./kdesdk-thumbnailers', './wine-devel', 'clisp', 'kdesdk-thumbnailers', 'ki18n', 'ki18n5', 'poxml', 'quilt', 'wine', 'wine-devel']"
 +++
 ### Description: 
 GNU internationalization library

@@ -12,7 +12,7 @@ size = "80052"
 usize = "891704"
 sha1sum = "f7cb3583de3445ee3aea2ce8cb2f26a5a4d753ee"
 depends = "['python3>=3.12']"
-reverse_depends = "['lutris', 'python3-cryptography', 'python3-dulwich', 'python3-requests', 'python3-trio']"
+reverse_depends = "['./python3-cryptography', './python3-trio', 'lutris', 'python3-cryptography', 'python3-dulwich', 'python3-requests', 'python3-trio']"
 +++
 ### Description: 
 Internationalized Domain Names in Applications (IDNA)

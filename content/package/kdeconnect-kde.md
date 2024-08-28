@@ -1,929 +1,936 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.05.2-1"
-version = "24.05.2-1"
+title = "./kdeconnect-kde 24.08.0-1"
+version = "24.08.0-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2024-07-05T12:33:12"
-aliases = "/packages/220147"
+date = "2024-08-22T17:54:28"
+aliases = "/packages/222276"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5449948"
-usize = "14157461"
-sha1sum = "e78fbde957724aaa7b9233110d61cf1a0a8ca171"
-depends = "['kcmutils>=6.3.0', 'kio>=6.3.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'kwayland>=6.1.2', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.3.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.3.0', 'qt6-multimedia>=6.7.1', 'qt6-sensors>=6.7.1']"
+size = "5460524"
+usize = "14308226"
+sha1sum = "e0076e3d383ffc16afe60b8d966628ab2294923c"
+depends = "['kcmutils>=6.5.0', 'kio>=6.5.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'kwayland>=6.1.4', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.5.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.5.0', 'qt6-multimedia>=6.7.1', 'qt6-sensors>=6.7.1']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone
 
 ### Files: 
-* /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
-* /usr/bin/kdeconnect-app
-* /usr/bin/kdeconnect-cli
-* /usr/bin/kdeconnect-handler
-* /usr/bin/kdeconnect-indicator
-* /usr/bin/kdeconnect-settings
-* /usr/bin/kdeconnect-sms
-* /usr/bin/kdeconnectd
-* /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.05.2
-* /usr/lib/libkdeconnectinterfaces.a
-* /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.05.2
-* /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
-* /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
-* /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
-* /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_runcommand_config.so
-* /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_sendnotifications_config.so
-* /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_share_config.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_battery.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_bigscreen.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_clipboard.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_connectivity_report.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_contacts.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_findmyphone.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_findthisdevice.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_lockdevice.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mmtelephony.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mousepad.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mpriscontrol.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mprisremote.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_notifications.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_pausemusic.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_ping.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_presenter.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotecommands.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotecontrol.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotekeyboard.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotesystemvolume.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_runcommand.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_screensaver_inhibit.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_sendnotifications.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_sftp.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_share.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_sms.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_systemvolume.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_telephony.so
-* /usr/lib/qt6/plugins/kdeconnect/kdeconnect_virtualmonitor.so
-* /usr/lib/qt6/plugins/kf6/kfileitemaction/kdeconnectfileitemaction.so
-* /usr/lib/qt6/plugins/kf6/kio/kdeconnect.so
-* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdeconnect.so
-* /usr/lib/qt6/qml/org/kde/kdeconnect/DBusProperty.qml
-* /usr/lib/qt6/qml/org/kde/kdeconnect/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/kdeconnect/kdeconnectdeclarativeplugin.qmltypes
-* /usr/lib/qt6/qml/org/kde/kdeconnect/libkdeconnectdeclarativeplugin.so
-* /usr/lib/qt6/qml/org/kde/kdeconnect/PluginChecker.qml
-* /usr/lib/qt6/qml/org/kde/kdeconnect/qmldir
-* /usr/lib/qt6/qml/org/kde/kdeconnect/RemoteKeyboard.qml
-* /usr/share/applications/kcm_kdeconnect.desktop
-* /usr/share/applications/org.kde.kdeconnect-settings.desktop
-* /usr/share/applications/org.kde.kdeconnect.app.desktop
-* /usr/share/applications/org.kde.kdeconnect.daemon.desktop
-* /usr/share/applications/org.kde.kdeconnect.handler.desktop
-* /usr/share/applications/org.kde.kdeconnect.nonplasma.desktop
-* /usr/share/applications/org.kde.kdeconnect.sms.desktop
-* /usr/share/contractor/kdeconnect.contract
-* /usr/share/dbus-1/services/org.kde.kdeconnect.service
-* /usr/share/deepin/dde-file-manager/oem-menuextensions/kdeconnect-dde.desktop
-* /usr/share/doc/HTML/ca/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/ca/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/de/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/de/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/en/kdeconnect/index.cache.bz2
-* /usr/share/doc/HTML/en/kdeconnect/index.docbook
-* /usr/share/doc/HTML/es/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/es/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/id/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/id/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/it/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/it/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/nl/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/nl/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/pt/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/pt/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/pt_BR/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/ru/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/ru/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/sv/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/sv/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/tr/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/tr/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/uk/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
-* /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
-* /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.05.2/README.md
-* /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
-* /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
-* /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
-* /usr/share/icons/hicolor/16x16/status/smartphoneconnected.svg
-* /usr/share/icons/hicolor/16x16/status/smartphonedisconnected.svg
-* /usr/share/icons/hicolor/16x16/status/smartphonetrusted.svg
-* /usr/share/icons/hicolor/16x16/status/tabletconnected.svg
-* /usr/share/icons/hicolor/16x16/status/tabletdisconnected.svg
-* /usr/share/icons/hicolor/16x16/status/tablettrusted.svg
-* /usr/share/icons/hicolor/16x16/status/tvconnected.svg
-* /usr/share/icons/hicolor/16x16/status/tvdisconnected.svg
-* /usr/share/icons/hicolor/16x16/status/tvtrusted.svg
-* /usr/share/icons/hicolor/22x22/status/laptopconnected.svg
-* /usr/share/icons/hicolor/22x22/status/laptopdisconnected.svg
-* /usr/share/icons/hicolor/22x22/status/laptoptrusted.svg
-* /usr/share/icons/hicolor/22x22/status/smartphoneconnected.svg
-* /usr/share/icons/hicolor/22x22/status/smartphonedisconnected.svg
-* /usr/share/icons/hicolor/22x22/status/smartphonetrusted.svg
-* /usr/share/icons/hicolor/22x22/status/tabletconnected.svg
-* /usr/share/icons/hicolor/22x22/status/tabletdisconnected.svg
-* /usr/share/icons/hicolor/22x22/status/tablettrusted.svg
-* /usr/share/icons/hicolor/22x22/status/tvconnected.svg
-* /usr/share/icons/hicolor/22x22/status/tvdisconnected.svg
-* /usr/share/icons/hicolor/22x22/status/tvtrusted.svg
-* /usr/share/icons/hicolor/32x32/status/laptopconnected.svg
-* /usr/share/icons/hicolor/32x32/status/laptopdisconnected.svg
-* /usr/share/icons/hicolor/32x32/status/laptoptrusted.svg
-* /usr/share/icons/hicolor/32x32/status/smartphoneconnected.svg
-* /usr/share/icons/hicolor/32x32/status/smartphonedisconnected.svg
-* /usr/share/icons/hicolor/32x32/status/smartphonetrusted.svg
-* /usr/share/icons/hicolor/32x32/status/tabletconnected.svg
-* /usr/share/icons/hicolor/32x32/status/tabletdisconnected.svg
-* /usr/share/icons/hicolor/32x32/status/tablettrusted.svg
-* /usr/share/icons/hicolor/32x32/status/tvconnected.svg
-* /usr/share/icons/hicolor/32x32/status/tvdisconnected.svg
-* /usr/share/icons/hicolor/32x32/status/tvtrusted.svg
-* /usr/share/icons/hicolor/scalable/apps/kdeconnect.svg
-* /usr/share/icons/hicolor/scalable/apps/kdeconnectindicator.svg
-* /usr/share/icons/hicolor/scalable/apps/kdeconnectindicatordark.svg
-* /usr/share/kdeconnect/kdeconnect_clipboard_config.qml
-* /usr/share/kdeconnect/kdeconnect_findthisdevice_config.qml
-* /usr/share/kdeconnect/kdeconnect_pausemusic_config.qml
-* /usr/share/kdeconnect/kdeconnect_runcommand_config.qml
-* /usr/share/kdeconnect/kdeconnect_sendnotifications_config.qml
-* /usr/share/kdeconnect/kdeconnect_share_config.qml
-* /usr/share/knotifications6/kdeconnect.notifyrc
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ast/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/az/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/da/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/de/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/el/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/es/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/et/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/he/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ia/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/id/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ie/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ie/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/is/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/it/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ml/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sr/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-app.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-cli.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-core.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-fileitemaction.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-indicator.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-interfaces.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-kcm.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-kded.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-kio.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-nautilus-extension.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-plugins.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-settings.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-sms.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-urlhandler.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
-* /usr/share/metainfo/org.kde.kdeconnect.appdata.xml
-* /usr/share/metainfo/org.kde.kdeconnect.metainfo.xml
-* /usr/share/nautilus-python/extensions/kdeconnect-share.py
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Battery.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Clipboard.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/CompactRepresentation.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Connectivity.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/DeviceDelegate.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/FindMyPhone.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/FullRepresentation.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/RemoteCommands.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Sftp.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Share.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/SMS.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/VirtualMonitor.qml
-* /usr/share/plasma/plasmoids/org.kde.kdeconnect/metadata.json
-* /usr/share/qlogging-categories6/kdeconnect-kde.categories
-* /usr/share/Thunar/sendto/kdeconnect-thunar.desktop
-* /usr/share/zsh/site-functions/_kdeconnect
+* kdeconnect-kde /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
+* kdeconnect-kde /usr/bin/kdeconnect-app
+* kdeconnect-kde /usr/bin/kdeconnect-cli
+* kdeconnect-kde /usr/bin/kdeconnect-handler
+* kdeconnect-kde /usr/bin/kdeconnect-indicator
+* kdeconnect-kde /usr/bin/kdeconnect-settings
+* kdeconnect-kde /usr/bin/kdeconnect-sms
+* kdeconnect-kde /usr/bin/kdeconnectd
+* kdeconnect-kde /usr/lib/libkdeconnectcore.so.24
+* kdeconnect-kde /usr/lib/libkdeconnectcore.so.24.08.0
+* kdeconnect-kde /usr/lib/libkdeconnectinterfaces.a
+* kdeconnect-kde /usr/lib/libkdeconnectpluginkcm.so.24
+* kdeconnect-kde /usr/lib/libkdeconnectpluginkcm.so.24.08.0
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_runcommand_config.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_sendnotifications_config.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_share_config.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_battery.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_bigscreen.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_clipboard.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_connectivity_report.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_contacts.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_findmyphone.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_findthisdevice.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_lockdevice.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mmtelephony.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mousepad.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mpriscontrol.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_mprisremote.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_notifications.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_pausemusic.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_ping.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_presenter.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotecommands.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotecontrol.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotekeyboard.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_remotesystemvolume.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_runcommand.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_screensaver_inhibit.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_sendnotifications.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_sftp.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_share.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_sms.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_systemvolume.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_telephony.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kdeconnect/kdeconnect_virtualmonitor.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kf6/kfileitemaction/kdeconnectfileitemaction.so
+* kdeconnect-kde /usr/lib/qt6/plugins/kf6/kio/kdeconnect.so
+* kdeconnect-kde /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdeconnect.so
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/DBusProperty.qml
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/kde-qmlmodule.version
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/kdeconnectdeclarativeplugin.qmltypes
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/libkdeconnectdeclarativeplugin.so
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/PluginChecker.qml
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/qmldir
+* kdeconnect-kde /usr/lib/qt6/qml/org/kde/kdeconnect/RemoteKeyboard.qml
+* kdeconnect-kde /usr/share/applications/kcm_kdeconnect.desktop
+* kdeconnect-kde /usr/share/applications/org.kde.kdeconnect-settings.desktop
+* kdeconnect-kde /usr/share/applications/org.kde.kdeconnect.app.desktop
+* kdeconnect-kde /usr/share/applications/org.kde.kdeconnect.daemon.desktop
+* kdeconnect-kde /usr/share/applications/org.kde.kdeconnect.handler.desktop
+* kdeconnect-kde /usr/share/applications/org.kde.kdeconnect.nonplasma.desktop
+* kdeconnect-kde /usr/share/applications/org.kde.kdeconnect.sms.desktop
+* kdeconnect-kde /usr/share/contractor/kdeconnect.contract
+* kdeconnect-kde /usr/share/dbus-1/services/org.kde.kdeconnect.service
+* kdeconnect-kde /usr/share/deepin/dde-file-manager/oem-menuextensions/kdeconnect-dde.desktop
+* kdeconnect-kde /usr/share/doc/HTML/ca/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/ca/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/de/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/de/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/en/kdeconnect/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/en/kdeconnect/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/es/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/es/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/id/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/id/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/it/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/it/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/nl/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/nl/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/pt/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/pt/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/pt_BR/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/pt_BR/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/ru/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/ru/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/sv/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/sv/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/tr/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/tr/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/uk/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
+* kdeconnect-kde /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
+* kdeconnect-kde /usr/share/doc/kdeconnect-kde-24.08.0/README.md
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/smartphoneconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/smartphonedisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/smartphonetrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/tabletconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/tabletdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/tablettrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/tvconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/tvdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/16x16/status/tvtrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/laptopconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/laptopdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/laptoptrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/smartphoneconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/smartphonedisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/smartphonetrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/tabletconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/tabletdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/tablettrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/tvconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/tvdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/22x22/status/tvtrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/laptopconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/laptopdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/laptoptrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/smartphoneconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/smartphonedisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/smartphonetrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/tabletconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/tabletdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/tablettrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/tvconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/tvdisconnected.svg
+* kdeconnect-kde /usr/share/icons/hicolor/32x32/status/tvtrusted.svg
+* kdeconnect-kde /usr/share/icons/hicolor/scalable/apps/kdeconnect.svg
+* kdeconnect-kde /usr/share/icons/hicolor/scalable/apps/kdeconnectindicator.svg
+* kdeconnect-kde /usr/share/icons/hicolor/scalable/apps/kdeconnectindicatordark.svg
+* kdeconnect-kde /usr/share/kdeconnect/kdeconnect_clipboard_config.qml
+* kdeconnect-kde /usr/share/kdeconnect/kdeconnect_findthisdevice_config.qml
+* kdeconnect-kde /usr/share/kdeconnect/kdeconnect_pausemusic_config.qml
+* kdeconnect-kde /usr/share/kdeconnect/kdeconnect_runcommand_config.qml
+* kdeconnect-kde /usr/share/kdeconnect/kdeconnect_sendnotifications_config.qml
+* kdeconnect-kde /usr/share/kdeconnect/kdeconnect_share_config.qml
+* kdeconnect-kde /usr/share/knotifications6/kdeconnect.notifyrc
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/hi/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ie/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-app.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-cli.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-core.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-fileitemaction.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-indicator.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-interfaces.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-kcm.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-kded.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-kio.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-nautilus-extension.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-plugins.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-settings.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-sms.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/kdeconnect-urlhandler.mo
+* kdeconnect-kde /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* kdeconnect-kde /usr/share/metainfo/org.kde.kdeconnect.appdata.xml
+* kdeconnect-kde /usr/share/metainfo/org.kde.kdeconnect.metainfo.xml
+* kdeconnect-kde /usr/share/nautilus-python/extensions/kdeconnect-share.py
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Battery.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Clipboard.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/CompactRepresentation.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Connectivity.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/DeviceDelegate.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/FindMyPhone.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/FullRepresentation.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/main.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/RemoteCommands.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Sftp.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/Share.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/SMS.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/contents/ui/VirtualMonitor.qml
+* kdeconnect-kde /usr/share/plasma/plasmoids/org.kde.kdeconnect/metadata.json
+* kdeconnect-kde /usr/share/qlogging-categories6/kdeconnect-kde.categories
+* kdeconnect-kde /usr/share/Thunar/sendto/kdeconnect-thunar.desktop
+* kdeconnect-kde /usr/share/zsh/site-functions/_kdeconnect

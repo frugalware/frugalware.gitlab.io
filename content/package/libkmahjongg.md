@@ -12,7 +12,7 @@ size = "2158280"
 usize = "2317536"
 sha1sum = "3f7d40f322257d4517897a731a08fe3101a88b02"
 depends = "['kcompletion>=6.3.0', 'kconfigwidgets>=6.3.0', 'qt6-svg>=6.7.1']"
-reverse_depends = "['kajongg', 'kmahjongg', 'kshisen']"
+reverse_depends = "['./kajongg', './kmahjongg', './kshisen', 'kajongg', 'kmahjongg', 'kshisen']"
 +++
 ### Description: 
 Library for KDE mahjongg games.

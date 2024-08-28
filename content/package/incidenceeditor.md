@@ -12,7 +12,7 @@ size = "557144"
 usize = "2911774"
 sha1sum = "428d70a6b49704682d7492632ee57ec69d863eba"
 depends = "['akonadi>=24.05.2', 'eventviews>=24.05.2', 'ki18n>=6.3.0']"
-reverse_depends = "['kdepim-addons', 'korganizer']"
+reverse_depends = "['./kdepim-addons', './korganizer', 'kdepim-addons', 'korganizer']"
 +++
 ### Description: 
 This lib provides incidence editor

@@ -12,7 +12,7 @@ size = "84372"
 usize = "390584"
 sha1sum = "43099615f9bfa00fbeb8d1b62b29389b40e11540"
 depends = "['glibc>=2.37']"
-reverse_depends = "['blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'easyeffects', 'fsarchiver', 'libarchive', 'lrzip', 'lzop', 'mariadb', 'mariadb-libs', 'mtd-utils', 'openttd', 'openvpn', 'qemu', 'squashfs', 'sysprof', 'vtun']"
+reverse_depends = "['./dd-rescue', './mariadb', 'blender', 'btrfs-progs', 'cairo', 'dd-rescue', 'distcc', 'easyeffects', 'fsarchiver', 'libarchive', 'lrzip', 'lzop', 'mariadb', 'mariadb-libs', 'mtd-utils', 'openttd', 'openvpn', 'qemu', 'squashfs', 'sysprof', 'vtun']"
 +++
 ### Description: 
 A real-time data compression library

@@ -12,7 +12,7 @@ size = "1954960"
 usize = "6205943"
 sha1sum = "3798210713389eec764c4d34e48f46a13ca1b559"
 depends = "['libx11>=1.6.5-3', 'libxft>=2.3.2-6', 'libxml2>=2.9.7-3', 'libxscrnsaver>=1.2.2-6', 'tcl>=8.6.14', 'zlib>=1.2.12']"
-reverse_depends = "['fetchmailconf', 'git-gui', 'gitk', 'maxima', 'mercurial-hgk', 'opencascade', 'python3-pillow', 'python3-tk', 'r', 'weechat']"
+reverse_depends = "['./python3-pillow', 'fetchmailconf', 'git-gui', 'gitk', 'maxima', 'mercurial-hgk', 'opencascade', 'python3-pillow', 'python3-tk', 'r', 'weechat']"
 +++
 ### Description: 
 A windowing toolkit for use with tcl

@@ -12,7 +12,7 @@ size = "234868"
 usize = "706171"
 sha1sum = "271b076f2e851e1f190f69d03d85ddb418ac4cc9"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.34']"
-reverse_depends = "['libreoffice', 'poedit', 'sim', 'solarus-zsdx', 'solarus-zsxd']"
+reverse_depends = "['./solarus-zsxd', 'libreoffice', 'poedit', 'sim', 'solarus-zsdx', 'solarus-zsxd']"
 +++
 ### Description: 
 Info-ZIP's zip utility

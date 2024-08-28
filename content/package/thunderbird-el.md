@@ -12,7 +12,7 @@ size = "827564"
 usize = "886608"
 sha1sum = "71044415f54c340bf839fb974b37a047c9b08ffa"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Modern Greek (1453-) language support for Thunderbird

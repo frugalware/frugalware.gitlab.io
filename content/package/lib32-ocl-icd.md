@@ -12,7 +12,7 @@ size = "33396"
 usize = "219711"
 sha1sum = "7a43ff96bb7e8c5fc2c1cba7215e50e0bbe433ee"
 depends = "[]"
-reverse_depends = "['wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'wine', 'wine-devel']"
 +++
 ### Description: 
 OpenCL ICD Bindings ( 32bit )

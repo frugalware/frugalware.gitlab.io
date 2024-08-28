@@ -12,7 +12,7 @@ size = "92904"
 usize = "390674"
 sha1sum = "6fd75848057f38f26e38ef2274db86f808f46671"
 depends = "['akonadi>=24.05.2', 'akonadi-contacts>=24.05.2', 'akonadi-search>=24.05.2', 'kldap>=24.05.2']"
-reverse_depends = "['kmail-account-wizard', 'mailimporter', 'pimcommon']"
+reverse_depends = "['./kmail-account-wizard', './pimcommon', 'kmail-account-wizard', 'mailimporter', 'pimcommon']"
 +++
 ### Description: 
 KDEPim library.

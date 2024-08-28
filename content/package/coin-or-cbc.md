@@ -1,115 +1,114 @@
 +++
 draft = false
-title = "coin-or-cbc 2.10.11-2"
-version = "2.10.11-2"
+title = "./coin-or-cbc 2.10.12-1"
+version = "2.10.12-1"
 description = "COIN-OR branch-and-cut mixed integer programming solver"
-date = "2024-05-14T13:02:37"
-aliases = "/packages/221471"
+date = "2024-08-21T08:27:52"
+aliases = "/packages/222293"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/coin-or/Cbc"
 arch = "x86_64"
-size = "867424"
-usize = "3065827"
-sha1sum = "bd7108449bfe68d1c1ab7c41cc8642f7824a1edc"
+size = "863280"
+usize = "3045859"
+sha1sum = "af057c027a70138757b3e9b9ece3fa944b10672e"
 depends = "['coin-or-asl', 'coin-or-cgl', 'coin-or-clp', 'coin-or-coinutils', 'coin-or-osi']"
-reverse_depends = "['coin-or-lemon']"
 +++
 ### Description: 
 COIN-OR branch-and-cut mixed integer programming solver
 
 ### Files: 
-* /usr/bin/cbc
-* /usr/include/coin/CbcBranchActual.hpp
-* /usr/include/coin/CbcBranchAllDifferent.hpp
-* /usr/include/coin/CbcBranchBase.hpp
-* /usr/include/coin/CbcBranchCut.hpp
-* /usr/include/coin/CbcBranchDecision.hpp
-* /usr/include/coin/CbcBranchDefaultDecision.hpp
-* /usr/include/coin/CbcBranchDynamic.hpp
-* /usr/include/coin/CbcBranchingObject.hpp
-* /usr/include/coin/CbcBranchLotsize.hpp
-* /usr/include/coin/CbcBranchToFixLots.hpp
-* /usr/include/coin/CbcClique.hpp
-* /usr/include/coin/CbcCompare.hpp
-* /usr/include/coin/CbcCompareActual.hpp
-* /usr/include/coin/CbcCompareBase.hpp
-* /usr/include/coin/CbcCompareDefault.hpp
-* /usr/include/coin/CbcCompareDepth.hpp
-* /usr/include/coin/CbcCompareEstimate.hpp
-* /usr/include/coin/CbcCompareObjective.hpp
-* /usr/include/coin/CbcConfig.h
-* /usr/include/coin/CbcConsequence.hpp
-* /usr/include/coin/CbcCountRowCut.hpp
-* /usr/include/coin/CbcCutGenerator.hpp
-* /usr/include/coin/CbcCutModifier.hpp
-* /usr/include/coin/CbcCutSubsetModifier.hpp
-* /usr/include/coin/CbcDummyBranchingObject.hpp
-* /usr/include/coin/CbcEventHandler.hpp
-* /usr/include/coin/CbcFathom.hpp
-* /usr/include/coin/CbcFathomDynamicProgramming.hpp
-* /usr/include/coin/CbcFeasibilityBase.hpp
-* /usr/include/coin/CbcFixVariable.hpp
-* /usr/include/coin/CbcFollowOn.hpp
-* /usr/include/coin/CbcFullNodeInfo.hpp
-* /usr/include/coin/CbcGeneral.hpp
-* /usr/include/coin/CbcGeneralDepth.hpp
-* /usr/include/coin/CbcHeuristic.hpp
-* /usr/include/coin/CbcHeuristicDINS.hpp
-* /usr/include/coin/CbcHeuristicDive.hpp
-* /usr/include/coin/CbcHeuristicDiveCoefficient.hpp
-* /usr/include/coin/CbcHeuristicDiveFractional.hpp
-* /usr/include/coin/CbcHeuristicDiveGuided.hpp
-* /usr/include/coin/CbcHeuristicDiveLineSearch.hpp
-* /usr/include/coin/CbcHeuristicDivePseudoCost.hpp
-* /usr/include/coin/CbcHeuristicDiveVectorLength.hpp
-* /usr/include/coin/CbcHeuristicDW.hpp
-* /usr/include/coin/CbcHeuristicFPump.hpp
-* /usr/include/coin/CbcHeuristicGreedy.hpp
-* /usr/include/coin/CbcHeuristicLocal.hpp
-* /usr/include/coin/CbcHeuristicPivotAndFix.hpp
-* /usr/include/coin/CbcHeuristicRandRound.hpp
-* /usr/include/coin/CbcHeuristicRENS.hpp
-* /usr/include/coin/CbcHeuristicRINS.hpp
-* /usr/include/coin/CbcHeuristicVND.hpp
-* /usr/include/coin/CbcLinked.hpp
-* /usr/include/coin/CbcMessage.hpp
-* /usr/include/coin/CbcMipStartIO.hpp
-* /usr/include/coin/CbcModel.hpp
-* /usr/include/coin/CbcNode.hpp
-* /usr/include/coin/CbcNodeInfo.hpp
-* /usr/include/coin/CbcNWay.hpp
-* /usr/include/coin/CbcObject.hpp
-* /usr/include/coin/CbcObjectUpdateData.hpp
-* /usr/include/coin/CbcParam.hpp
-* /usr/include/coin/CbcPartialNodeInfo.hpp
-* /usr/include/coin/CbcSimpleInteger.hpp
-* /usr/include/coin/CbcSimpleIntegerDynamicPseudoCost.hpp
-* /usr/include/coin/CbcSimpleIntegerPseudoCost.hpp
-* /usr/include/coin/CbcSolver.hpp
-* /usr/include/coin/CbcSOS.hpp
-* /usr/include/coin/CbcStrategy.hpp
-* /usr/include/coin/CbcSubProblem.hpp
-* /usr/include/coin/CbcTree.hpp
-* /usr/include/coin/CbcTreeLocal.hpp
-* /usr/include/coin/Cbc_C_Interface.h
-* /usr/include/coin/ClpAmplObjective.hpp
-* /usr/include/coin/ClpConstraintAmpl.hpp
-* /usr/include/coin/OsiCbcSolverInterface.hpp
-* /usr/lib/libCbc.so
-* /usr/lib/libCbc.so.3
-* /usr/lib/libCbc.so.3.10.12
-* /usr/lib/libCbcSolver.so
-* /usr/lib/libCbcSolver.so.3
-* /usr/lib/libCbcSolver.so.3.10.12
-* /usr/lib/libOsiCbc.so
-* /usr/lib/libOsiCbc.so.3
-* /usr/lib/libOsiCbc.so.3.10.12
-* /usr/lib/pkgconfig/cbc.pc
-* /usr/lib/pkgconfig/osi-cbc.pc
-* /usr/share/coin/doc/Cbc/AUTHORS
-* /usr/share/coin/doc/Cbc/cbc_addlibs.txt
-* /usr/share/coin/doc/Cbc/LICENSE
-* /usr/share/doc/coin-or-cbc-2.10.12/AUTHORS
-* /usr/share/doc/coin-or-cbc-2.10.12/INSTALL
-* /usr/share/doc/coin-or-cbc-2.10.12/LICENSE
-* /usr/share/doc/coin-or-cbc-2.10.12/README.md
+* coin-or-cbc /usr/bin/cbc
+* coin-or-cbc /usr/include/coin/CbcBranchActual.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchAllDifferent.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchBase.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchCut.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchDecision.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchDefaultDecision.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchDynamic.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchingObject.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchLotsize.hpp
+* coin-or-cbc /usr/include/coin/CbcBranchToFixLots.hpp
+* coin-or-cbc /usr/include/coin/CbcClique.hpp
+* coin-or-cbc /usr/include/coin/CbcCompare.hpp
+* coin-or-cbc /usr/include/coin/CbcCompareActual.hpp
+* coin-or-cbc /usr/include/coin/CbcCompareBase.hpp
+* coin-or-cbc /usr/include/coin/CbcCompareDefault.hpp
+* coin-or-cbc /usr/include/coin/CbcCompareDepth.hpp
+* coin-or-cbc /usr/include/coin/CbcCompareEstimate.hpp
+* coin-or-cbc /usr/include/coin/CbcCompareObjective.hpp
+* coin-or-cbc /usr/include/coin/CbcConfig.h
+* coin-or-cbc /usr/include/coin/CbcConsequence.hpp
+* coin-or-cbc /usr/include/coin/CbcCountRowCut.hpp
+* coin-or-cbc /usr/include/coin/CbcCutGenerator.hpp
+* coin-or-cbc /usr/include/coin/CbcCutModifier.hpp
+* coin-or-cbc /usr/include/coin/CbcCutSubsetModifier.hpp
+* coin-or-cbc /usr/include/coin/CbcDummyBranchingObject.hpp
+* coin-or-cbc /usr/include/coin/CbcEventHandler.hpp
+* coin-or-cbc /usr/include/coin/CbcFathom.hpp
+* coin-or-cbc /usr/include/coin/CbcFathomDynamicProgramming.hpp
+* coin-or-cbc /usr/include/coin/CbcFeasibilityBase.hpp
+* coin-or-cbc /usr/include/coin/CbcFixVariable.hpp
+* coin-or-cbc /usr/include/coin/CbcFollowOn.hpp
+* coin-or-cbc /usr/include/coin/CbcFullNodeInfo.hpp
+* coin-or-cbc /usr/include/coin/CbcGeneral.hpp
+* coin-or-cbc /usr/include/coin/CbcGeneralDepth.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristic.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDINS.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDive.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDiveCoefficient.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDiveFractional.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDiveGuided.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDiveLineSearch.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDivePseudoCost.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDiveVectorLength.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicDW.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicFPump.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicGreedy.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicLocal.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicPivotAndFix.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicRandRound.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicRENS.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicRINS.hpp
+* coin-or-cbc /usr/include/coin/CbcHeuristicVND.hpp
+* coin-or-cbc /usr/include/coin/CbcLinked.hpp
+* coin-or-cbc /usr/include/coin/CbcMessage.hpp
+* coin-or-cbc /usr/include/coin/CbcMipStartIO.hpp
+* coin-or-cbc /usr/include/coin/CbcModel.hpp
+* coin-or-cbc /usr/include/coin/CbcNode.hpp
+* coin-or-cbc /usr/include/coin/CbcNodeInfo.hpp
+* coin-or-cbc /usr/include/coin/CbcNWay.hpp
+* coin-or-cbc /usr/include/coin/CbcObject.hpp
+* coin-or-cbc /usr/include/coin/CbcObjectUpdateData.hpp
+* coin-or-cbc /usr/include/coin/CbcParam.hpp
+* coin-or-cbc /usr/include/coin/CbcPartialNodeInfo.hpp
+* coin-or-cbc /usr/include/coin/CbcSimpleInteger.hpp
+* coin-or-cbc /usr/include/coin/CbcSimpleIntegerDynamicPseudoCost.hpp
+* coin-or-cbc /usr/include/coin/CbcSimpleIntegerPseudoCost.hpp
+* coin-or-cbc /usr/include/coin/CbcSolver.hpp
+* coin-or-cbc /usr/include/coin/CbcSOS.hpp
+* coin-or-cbc /usr/include/coin/CbcStrategy.hpp
+* coin-or-cbc /usr/include/coin/CbcSubProblem.hpp
+* coin-or-cbc /usr/include/coin/CbcTree.hpp
+* coin-or-cbc /usr/include/coin/CbcTreeLocal.hpp
+* coin-or-cbc /usr/include/coin/Cbc_C_Interface.h
+* coin-or-cbc /usr/include/coin/ClpAmplObjective.hpp
+* coin-or-cbc /usr/include/coin/ClpConstraintAmpl.hpp
+* coin-or-cbc /usr/include/coin/OsiCbcSolverInterface.hpp
+* coin-or-cbc /usr/lib/libCbc.so
+* coin-or-cbc /usr/lib/libCbc.so.3
+* coin-or-cbc /usr/lib/libCbc.so.3.10.12
+* coin-or-cbc /usr/lib/libCbcSolver.so
+* coin-or-cbc /usr/lib/libCbcSolver.so.3
+* coin-or-cbc /usr/lib/libCbcSolver.so.3.10.12
+* coin-or-cbc /usr/lib/libOsiCbc.so
+* coin-or-cbc /usr/lib/libOsiCbc.so.3
+* coin-or-cbc /usr/lib/libOsiCbc.so.3.10.12
+* coin-or-cbc /usr/lib/pkgconfig/cbc.pc
+* coin-or-cbc /usr/lib/pkgconfig/osi-cbc.pc
+* coin-or-cbc /usr/share/coin/doc/Cbc/AUTHORS
+* coin-or-cbc /usr/share/coin/doc/Cbc/cbc_addlibs.txt
+* coin-or-cbc /usr/share/coin/doc/Cbc/LICENSE
+* coin-or-cbc /usr/share/doc/coin-or-cbc-2.10.12/AUTHORS
+* coin-or-cbc /usr/share/doc/coin-or-cbc-2.10.12/INSTALL
+* coin-or-cbc /usr/share/doc/coin-or-cbc-2.10.12/LICENSE
+* coin-or-cbc /usr/share/doc/coin-or-cbc-2.10.12/README.md

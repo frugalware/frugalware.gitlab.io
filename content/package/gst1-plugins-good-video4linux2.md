@@ -12,7 +12,7 @@ size = "136724"
 usize = "353248"
 sha1sum = "f5e8d272da0993d04cc548823d605c4399e990c8"
 depends = "['gst1-plugins-base>=1.24.6', 'gst1-plugins-good>=1.24.6', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libjpeg-turbo', 'v4l-utils>=1.9.2-4']"
-reverse_depends = "['kamoso']"
+reverse_depends = "['./kamoso', 'kamoso']"
 +++
 ### Description: 
 GStreamer video4linux2 plugin (Good).

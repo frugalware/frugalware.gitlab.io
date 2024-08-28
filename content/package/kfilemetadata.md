@@ -12,7 +12,7 @@ size = "219992"
 usize = "1203845"
 sha1sum = "104cb01ddd38e632d7aa918b8a47ae12afb43578"
 depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive>=6.5.0', 'kcoreaddons>=6.5.0', 'kdegraphics-mobipocket', 'ki18n>=6.5.0', 'libappimage', 'poppler-qt6>=0.62.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
-reverse_depends = "['ark', 'baloo', 'digikam', 'dolphin', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
+reverse_depends = "['./ark', './dolphin', './itinerary', './k3b', 'ark', 'baloo', 'digikam', 'dolphin', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++
 ### Description: 
 A library for extracting file metadata.

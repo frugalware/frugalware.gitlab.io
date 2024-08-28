@@ -12,7 +12,7 @@ size = "3529384"
 usize = "12089297"
 sha1sum = "223223d169c913ec2f989e9bb9abff10d3d730d3"
 depends = "['devil>=1.8.0', 'freeglut', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'librsvg', 'libxaw', 'libxpm', 'perl>=5.22.1', 'python3>=3.12']"
-reverse_depends = "['libmediainfo', 'vala']"
+reverse_depends = "['./kgraphviewer', 'libmediainfo', 'vala']"
 +++
 ### Description: 
 Open Source Graph Visualization Software

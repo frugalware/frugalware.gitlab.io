@@ -1,60 +1,58 @@
 +++
 draft = false
-title = "libmatroska 1.6.3-1"
-version = "1.6.3-1"
+title = "./libmatroska 1.7.1-1"
+version = "1.7.1-1"
 description = "libmatroska is a C++ libary to parse Matroska files (.mkv and .mka)."
-date = "2022-02-02T15:19:03"
-aliases = "/packages/9385"
+date = "2024-08-27T14:56:26"
+aliases = "/packages/222224"
 categories = ['multimedia-extra']
 upstreamurl = "http://dl.matroska.org/downloads/libmatroska/"
 arch = "x86_64"
-size = "125120"
-usize = "812883"
-sha1sum = "c5f7cf9e37f7b3270d3c4357295292d0e3bb0732"
+size = "121408"
+usize = "781164"
+sha1sum = "703390dd2745d2bcc7d3c928f566db5eb8cf9096"
 depends = "['libebml>=1.4.2']"
-reverse_depends = "['mkvtoolnix', 'vlc-mkv']"
 +++
 ### Description: 
 libmatroska is a C++ libary to parse Matroska files (.mkv and .mka).
 
 ### Files: 
-* /usr/include/matroska/c/libmatroska.h
-* /usr/include/matroska/c/libmatroska_t.h
-* /usr/include/matroska/FileKax.h
-* /usr/include/matroska/KaxAttached.h
-* /usr/include/matroska/KaxAttachments.h
-* /usr/include/matroska/KaxBlock.h
-* /usr/include/matroska/KaxBlockData.h
-* /usr/include/matroska/KaxChapters.h
-* /usr/include/matroska/KaxCluster.h
-* /usr/include/matroska/KaxClusterData.h
-* /usr/include/matroska/KaxConfig.h
-* /usr/include/matroska/KaxContentEncoding.h
-* /usr/include/matroska/KaxContexts.h
-* /usr/include/matroska/KaxCues.h
-* /usr/include/matroska/KaxCuesData.h
-* /usr/include/matroska/KaxDefines.h
-* /usr/include/matroska/KaxInfo.h
-* /usr/include/matroska/KaxInfoData.h
-* /usr/include/matroska/KaxSeekHead.h
-* /usr/include/matroska/KaxSegment.h
-* /usr/include/matroska/KaxSemantic.h
-* /usr/include/matroska/KaxTag.h
-* /usr/include/matroska/KaxTags.h
-* /usr/include/matroska/KaxTrackAudio.h
-* /usr/include/matroska/KaxTrackEntryData.h
-* /usr/include/matroska/KaxTracks.h
-* /usr/include/matroska/KaxTrackVideo.h
-* /usr/include/matroska/KaxTypes.h
-* /usr/include/matroska/KaxVersion.h
-* /usr/include/matroska/matroska_export.h
-* /usr/lib/cmake/Matroska/MatroskaConfig.cmake
-* /usr/lib/cmake/Matroska/MatroskaConfigVersion.cmake
-* /usr/lib/cmake/Matroska/MatroskaTargets-release.cmake
-* /usr/lib/cmake/Matroska/MatroskaTargets.cmake
-* /usr/lib/libmatroska.so
-* /usr/lib/libmatroska.so.7
-* /usr/lib/libmatroska.so.7.0.0
-* /usr/lib/pkgconfig/libmatroska.pc
-* /usr/share/doc/libmatroska-1.6.3/ChangeLog
-* /usr/share/doc/libmatroska-1.6.3/README.md
+* libmatroska /usr/include/matroska/c/libmatroska.h
+* libmatroska /usr/include/matroska/c/libmatroska_t.h
+* libmatroska /usr/include/matroska/FileKax.h
+* libmatroska /usr/include/matroska/KaxAttached.h
+* libmatroska /usr/include/matroska/KaxAttachments.h
+* libmatroska /usr/include/matroska/KaxBlock.h
+* libmatroska /usr/include/matroska/KaxBlockData.h
+* libmatroska /usr/include/matroska/KaxChapters.h
+* libmatroska /usr/include/matroska/KaxCluster.h
+* libmatroska /usr/include/matroska/KaxClusterData.h
+* libmatroska /usr/include/matroska/KaxConfig.h
+* libmatroska /usr/include/matroska/KaxContentEncoding.h
+* libmatroska /usr/include/matroska/KaxContexts.h
+* libmatroska /usr/include/matroska/KaxCues.h
+* libmatroska /usr/include/matroska/KaxCuesData.h
+* libmatroska /usr/include/matroska/KaxDefines.h
+* libmatroska /usr/include/matroska/KaxInfo.h
+* libmatroska /usr/include/matroska/KaxInfoData.h
+* libmatroska /usr/include/matroska/KaxSeekHead.h
+* libmatroska /usr/include/matroska/KaxSegment.h
+* libmatroska /usr/include/matroska/KaxSemantic.h
+* libmatroska /usr/include/matroska/KaxTag.h
+* libmatroska /usr/include/matroska/KaxTags.h
+* libmatroska /usr/include/matroska/KaxTrackAudio.h
+* libmatroska /usr/include/matroska/KaxTrackEntryData.h
+* libmatroska /usr/include/matroska/KaxTracks.h
+* libmatroska /usr/include/matroska/KaxTrackVideo.h
+* libmatroska /usr/include/matroska/KaxTypes.h
+* libmatroska /usr/include/matroska/KaxVersion.h
+* libmatroska /usr/include/matroska/matroska_export.h
+* libmatroska /usr/lib/cmake/Matroska/MatroskaConfig.cmake
+* libmatroska /usr/lib/cmake/Matroska/MatroskaConfigVersion.cmake
+* libmatroska /usr/lib/cmake/Matroska/MatroskaTargets-release.cmake
+* libmatroska /usr/lib/cmake/Matroska/MatroskaTargets.cmake
+* libmatroska /usr/lib/libmatroska.so
+* libmatroska /usr/lib/libmatroska.so.7
+* libmatroska /usr/lib/libmatroska.so.7.0.0
+* libmatroska /usr/lib/pkgconfig/libmatroska.pc
+* libmatroska /usr/share/doc/libmatroska-1.7.1/README.md

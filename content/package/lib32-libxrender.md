@@ -12,7 +12,7 @@ size = "24524"
 usize = "84681"
 sha1sum = "61d46f9a0fa743208ea2d0bf21f40e9942ff6bf6"
 depends = "['lib32-libx11>=1.6.7-2']"
-reverse_depends = "['lib32-cairo', 'lib32-libxcursor', 'lib32-libxft', 'lib32-libxrandr', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'lib32-cairo', 'lib32-libxcursor', 'lib32-libxft', 'lib32-libxrandr', 'wine', 'wine-devel']"
 +++
 ### Description: 
 X Render Library ( 32bit )

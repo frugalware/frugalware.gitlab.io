@@ -1,28 +1,28 @@
 +++
 draft = false
-title = "icu4j 73.2-1"
-version = "73.2-1"
+title = "./icu4j 75.1-1"
+version = "75.1-1"
 description = "ICU4J is a set of Java libraries providing Unicode and Globalization support."
-date = "2023-06-19T06:57:50"
-aliases = "/packages/38955"
+date = "2024-08-21T14:57:27"
+aliases = "/packages/222234"
 categories = ['devel-extra']
 upstreamurl = "http://www.icu-project.org/"
 arch = "x86_64"
-size = "13550532"
-usize = "14597505"
-sha1sum = "c25b7e93e09fdd9142ac3c5fcd2871154e3a5ad6"
+size = "22238900"
+usize = "24042625"
+sha1sum = "b3a86945918da1b9eecbba3f34bf2b0e71319059"
 depends = "[]"
 +++
 ### Description: 
 ICU4J is a set of Java libraries providing Unicode and Globalization support.
 
 ### Files: 
-* /usr/share/java/icu4j-75.1-fulljavadoc.jar
-* /usr/share/java/icu4j-75.1-sources.jar
-* /usr/share/java/icu4j-75.1.jar
-* /usr/share/java/icu4j-charset-75.1-javadoc.jar
-* /usr/share/java/icu4j-charset-75.1-sources.jar
-* /usr/share/java/icu4j-charset-75.1.jar
-* /usr/share/java/icu4j-localespi-75.1-javadoc.jar
-* /usr/share/java/icu4j-localespi-75.1-sources.jar
-* /usr/share/java/icu4j-localespi-75.1.jar
+* icu4j /usr/share/java/icu4j-75.1-fulljavadoc.jar
+* icu4j /usr/share/java/icu4j-75.1-sources.jar
+* icu4j /usr/share/java/icu4j-75.1.jar
+* icu4j /usr/share/java/icu4j-charset-75.1-javadoc.jar
+* icu4j /usr/share/java/icu4j-charset-75.1-sources.jar
+* icu4j /usr/share/java/icu4j-charset-75.1.jar
+* icu4j /usr/share/java/icu4j-localespi-75.1-javadoc.jar
+* icu4j /usr/share/java/icu4j-localespi-75.1-sources.jar
+* icu4j /usr/share/java/icu4j-localespi-75.1.jar

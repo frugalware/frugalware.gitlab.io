@@ -1,146 +1,147 @@
 +++
 draft = false
-title = "picmi 24.05.2-1"
-version = "24.05.2-1"
+title = "./picmi 24.08.0-1"
+version = "24.08.0-1"
 description = "A nonogram logic game for KDE."
-date = "2024-07-05T10:12:38"
-aliases = "/packages/184207"
+date = "2024-08-22T14:52:41"
+aliases = "/packages/222268"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1303928"
-usize = "1957238"
-sha1sum = "3bee24e6a6e384e42b631cf06e1beb7e784e6e34"
-depends = "['knotifyconfig>=6.3.0', 'libkdegames>=24.05.2']"
+size = "1301712"
+usize = "1942456"
+sha1sum = "625c11b6b67c55a4dd95e8d6626cb0dd247f3850"
+depends = "['knotifyconfig>=6.5.0', 'libkdegames>=24.08.0']"
 +++
 ### Description: 
 A nonogram logic game for KDE.
 
 ### Files: 
-* /usr/bin/picmi
-* /usr/share/applications/org.kde.picmi.desktop
-* /usr/share/doc/HTML/ca/picmi/gameboard.png
-* /usr/share/doc/HTML/ca/picmi/index.cache.bz2
-* /usr/share/doc/HTML/ca/picmi/index.docbook
-* /usr/share/doc/HTML/de/picmi/index.cache.bz2
-* /usr/share/doc/HTML/de/picmi/index.docbook
-* /usr/share/doc/HTML/en/picmi/gameboard.png
-* /usr/share/doc/HTML/en/picmi/index.cache.bz2
-* /usr/share/doc/HTML/en/picmi/index.docbook
-* /usr/share/doc/HTML/es/picmi/index.cache.bz2
-* /usr/share/doc/HTML/es/picmi/index.docbook
-* /usr/share/doc/HTML/et/picmi/index.cache.bz2
-* /usr/share/doc/HTML/et/picmi/index.docbook
-* /usr/share/doc/HTML/fr/picmi/index.cache.bz2
-* /usr/share/doc/HTML/fr/picmi/index.docbook
-* /usr/share/doc/HTML/it/picmi/index.cache.bz2
-* /usr/share/doc/HTML/it/picmi/index.docbook
-* /usr/share/doc/HTML/nl/picmi/index.cache.bz2
-* /usr/share/doc/HTML/nl/picmi/index.docbook
-* /usr/share/doc/HTML/pt/picmi/index.cache.bz2
-* /usr/share/doc/HTML/pt/picmi/index.docbook
-* /usr/share/doc/HTML/pt_BR/picmi/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/picmi/index.docbook
-* /usr/share/doc/HTML/sv/picmi/index.cache.bz2
-* /usr/share/doc/HTML/sv/picmi/index.docbook
-* /usr/share/doc/HTML/uk/picmi/gameboard.png
-* /usr/share/doc/HTML/uk/picmi/index.cache.bz2
-* /usr/share/doc/HTML/uk/picmi/index.docbook
-* /usr/share/doc/picmi-24.05.2/AUTHORS
-* /usr/share/doc/picmi-24.05.2/INSTALL
-* /usr/share/doc/picmi-24.05.2/README
-* /usr/share/doc/picmi-24.05.2/TODO
-* /usr/share/icons/hicolor/128x128/apps/picmi.png
-* /usr/share/icons/hicolor/16x16/apps/picmi.png
-* /usr/share/icons/hicolor/22x22/apps/picmi.png
-* /usr/share/icons/hicolor/256x256/apps/picmi.png
-* /usr/share/icons/hicolor/32x32/apps/picmi.png
-* /usr/share/icons/hicolor/48x48/apps/picmi.png
-* /usr/share/icons/hicolor/64x64/apps/picmi.png
-* /usr/share/locale/ast/LC_MESSAGES/picmi.mo
-* /usr/share/locale/bs/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ca/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/picmi.mo
-* /usr/share/locale/cs/LC_MESSAGES/picmi.mo
-* /usr/share/locale/da/LC_MESSAGES/picmi.mo
-* /usr/share/locale/de/LC_MESSAGES/picmi.mo
-* /usr/share/locale/el/LC_MESSAGES/picmi.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/picmi.mo
-* /usr/share/locale/eo/LC_MESSAGES/picmi.mo
-* /usr/share/locale/es/LC_MESSAGES/picmi.mo
-* /usr/share/locale/et/LC_MESSAGES/picmi.mo
-* /usr/share/locale/eu/LC_MESSAGES/picmi.mo
-* /usr/share/locale/fi/LC_MESSAGES/picmi.mo
-* /usr/share/locale/fr/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ga/LC_MESSAGES/picmi.mo
-* /usr/share/locale/gl/LC_MESSAGES/picmi.mo
-* /usr/share/locale/he/LC_MESSAGES/picmi.mo
-* /usr/share/locale/hu/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ia/LC_MESSAGES/picmi.mo
-* /usr/share/locale/it/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ja/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ka/LC_MESSAGES/picmi.mo
-* /usr/share/locale/kk/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ko/LC_MESSAGES/picmi.mo
-* /usr/share/locale/lt/LC_MESSAGES/picmi.mo
-* /usr/share/locale/lv/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ml/LC_MESSAGES/picmi.mo
-* /usr/share/locale/mr/LC_MESSAGES/picmi.mo
-* /usr/share/locale/nb/LC_MESSAGES/picmi.mo
-* /usr/share/locale/nds/LC_MESSAGES/picmi.mo
-* /usr/share/locale/nl/LC_MESSAGES/picmi.mo
-* /usr/share/locale/nn/LC_MESSAGES/picmi.mo
-* /usr/share/locale/pl/LC_MESSAGES/picmi.mo
-* /usr/share/locale/pt/LC_MESSAGES/picmi.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ro/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ru/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sk/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sl/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sr/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/picmi.mo
-* /usr/share/locale/sv/LC_MESSAGES/picmi.mo
-* /usr/share/locale/tr/LC_MESSAGES/picmi.mo
-* /usr/share/locale/ug/LC_MESSAGES/picmi.mo
-* /usr/share/locale/uk/LC_MESSAGES/picmi.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/picmi.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/picmi.mo
-* /usr/share/metainfo/org.kde.picmi.appdata.xml
-* /usr/share/picmi/levels/default.xml
-* /usr/share/picmi/levels/default/antique_phone.xpm
-* /usr/share/picmi/levels/default/baby_chick.xpm
-* /usr/share/picmi/levels/default/baby_panda.xpm
-* /usr/share/picmi/levels/default/basketball.xpm
-* /usr/share/picmi/levels/default/bass_clef.xpm
-* /usr/share/picmi/levels/default/bike.xpm
-* /usr/share/picmi/levels/default/bird.xpm
-* /usr/share/picmi/levels/default/calculator.xpm
-* /usr/share/picmi/levels/default/camera.xpm
-* /usr/share/picmi/levels/default/carlthecat.xpm
-* /usr/share/picmi/levels/default/clarathecat.xpm
-* /usr/share/picmi/levels/default/clausthecat.xpm
-* /usr/share/picmi/levels/default/clef.xpm
-* /usr/share/picmi/levels/default/clown.xpm
-* /usr/share/picmi/levels/default/crocodile.xpm
-* /usr/share/picmi/levels/default/elephant.xpm
-* /usr/share/picmi/levels/default/halloween.xpm
-* /usr/share/picmi/levels/default/hourglass.xpm
-* /usr/share/picmi/levels/default/house.xpm
-* /usr/share/picmi/levels/default/mobile_phone.xpm
-* /usr/share/picmi/levels/default/panda.xpm
-* /usr/share/picmi/levels/default/phone.xpm
-* /usr/share/picmi/levels/default/picmi.xpm
-* /usr/share/picmi/levels/default/pirate_dog.xpm
-* /usr/share/picmi/levels/default/pirate_ship.xpm
-* /usr/share/picmi/levels/default/policeman.xpm
-* /usr/share/picmi/levels/default/robot.xpm
-* /usr/share/picmi/levels/default/santa_claus.xpm
-* /usr/share/picmi/levels/default/shopping_cart.xpm
-* /usr/share/picmi/levels/default/soccer.xpm
-* /usr/share/picmi/levels/default/zebra.xpm
-* /usr/share/picmi/themes/picmi.desktop
-* /usr/share/picmi/themes/picmi.png
-* /usr/share/picmi/themes/picmi.svgz
-* /usr/share/qlogging-categories6/picmi.categories
+* picmi /usr/bin/picmi
+* picmi /usr/share/applications/org.kde.picmi.desktop
+* picmi /usr/share/doc/HTML/ca/picmi/gameboard.png
+* picmi /usr/share/doc/HTML/ca/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/ca/picmi/index.docbook
+* picmi /usr/share/doc/HTML/de/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/de/picmi/index.docbook
+* picmi /usr/share/doc/HTML/en/picmi/gameboard.png
+* picmi /usr/share/doc/HTML/en/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/en/picmi/index.docbook
+* picmi /usr/share/doc/HTML/es/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/es/picmi/index.docbook
+* picmi /usr/share/doc/HTML/et/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/et/picmi/index.docbook
+* picmi /usr/share/doc/HTML/fr/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/fr/picmi/index.docbook
+* picmi /usr/share/doc/HTML/it/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/it/picmi/index.docbook
+* picmi /usr/share/doc/HTML/nl/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/nl/picmi/index.docbook
+* picmi /usr/share/doc/HTML/pt/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/pt/picmi/index.docbook
+* picmi /usr/share/doc/HTML/pt_BR/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/pt_BR/picmi/index.docbook
+* picmi /usr/share/doc/HTML/sv/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/sv/picmi/index.docbook
+* picmi /usr/share/doc/HTML/uk/picmi/gameboard.png
+* picmi /usr/share/doc/HTML/uk/picmi/index.cache.bz2
+* picmi /usr/share/doc/HTML/uk/picmi/index.docbook
+* picmi /usr/share/doc/picmi-24.08.0/AUTHORS
+* picmi /usr/share/doc/picmi-24.08.0/INSTALL
+* picmi /usr/share/doc/picmi-24.08.0/README
+* picmi /usr/share/doc/picmi-24.08.0/TODO
+* picmi /usr/share/icons/hicolor/128x128/apps/picmi.png
+* picmi /usr/share/icons/hicolor/16x16/apps/picmi.png
+* picmi /usr/share/icons/hicolor/22x22/apps/picmi.png
+* picmi /usr/share/icons/hicolor/256x256/apps/picmi.png
+* picmi /usr/share/icons/hicolor/32x32/apps/picmi.png
+* picmi /usr/share/icons/hicolor/48x48/apps/picmi.png
+* picmi /usr/share/icons/hicolor/64x64/apps/picmi.png
+* picmi /usr/share/locale/ast/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/bs/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ca/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ca@valencia/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/cs/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/da/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/de/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/el/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/en_GB/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/eo/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/es/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/et/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/eu/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/fi/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/fr/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ga/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/gl/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/he/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/hu/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ia/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/it/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ja/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ka/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/kk/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ko/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/lt/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/lv/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ml/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/mr/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/nb/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/nds/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/nl/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/nn/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/pl/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/pt/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/pt_BR/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ro/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ru/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sk/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sl/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sr/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sr@ijekavian/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sr@latin/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/sv/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/tr/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/ug/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/uk/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/zh_CN/LC_MESSAGES/picmi.mo
+* picmi /usr/share/locale/zh_TW/LC_MESSAGES/picmi.mo
+* picmi /usr/share/metainfo/org.kde.picmi.appdata.xml
+* picmi /usr/share/picmi/levels/default.xml
+* picmi /usr/share/picmi/levels/default/antique_phone.xpm
+* picmi /usr/share/picmi/levels/default/baby_chick.xpm
+* picmi /usr/share/picmi/levels/default/baby_panda.xpm
+* picmi /usr/share/picmi/levels/default/basketball.xpm
+* picmi /usr/share/picmi/levels/default/bass_clef.xpm
+* picmi /usr/share/picmi/levels/default/bike.xpm
+* picmi /usr/share/picmi/levels/default/bird.xpm
+* picmi /usr/share/picmi/levels/default/calculator.xpm
+* picmi /usr/share/picmi/levels/default/camera.xpm
+* picmi /usr/share/picmi/levels/default/carlthecat.xpm
+* picmi /usr/share/picmi/levels/default/clarathecat.xpm
+* picmi /usr/share/picmi/levels/default/clausthecat.xpm
+* picmi /usr/share/picmi/levels/default/clef.xpm
+* picmi /usr/share/picmi/levels/default/clown.xpm
+* picmi /usr/share/picmi/levels/default/crocodile.xpm
+* picmi /usr/share/picmi/levels/default/elephant.xpm
+* picmi /usr/share/picmi/levels/default/halloween.xpm
+* picmi /usr/share/picmi/levels/default/hourglass.xpm
+* picmi /usr/share/picmi/levels/default/house.xpm
+* picmi /usr/share/picmi/levels/default/mobile_phone.xpm
+* picmi /usr/share/picmi/levels/default/panda.xpm
+* picmi /usr/share/picmi/levels/default/phone.xpm
+* picmi /usr/share/picmi/levels/default/picmi.xpm
+* picmi /usr/share/picmi/levels/default/pirate_dog.xpm
+* picmi /usr/share/picmi/levels/default/pirate_ship.xpm
+* picmi /usr/share/picmi/levels/default/policeman.xpm
+* picmi /usr/share/picmi/levels/default/robot.xpm
+* picmi /usr/share/picmi/levels/default/santa_claus.xpm
+* picmi /usr/share/picmi/levels/default/shopping_cart.xpm
+* picmi /usr/share/picmi/levels/default/soccer.xpm
+* picmi /usr/share/picmi/levels/default/zebra.xpm
+* picmi /usr/share/picmi/themes/picmi.desktop
+* picmi /usr/share/picmi/themes/picmi.png
+* picmi /usr/share/picmi/themes/picmi.svgz
+* picmi /usr/share/qlogging-categories6/picmi.categories
+* picmi /usr/share/qlogging-categories6/picmi.renamecategories

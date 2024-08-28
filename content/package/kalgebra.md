@@ -1,186 +1,186 @@
 +++
 draft = false
-title = "kalgebra 24.05.2-1"
-version = "24.05.2-1"
+title = "./kalgebra 24.08.0-1"
+version = "24.08.0-1"
 description = "2D and 3D Graph Calculator."
-date = "2024-07-05T08:40:55"
-aliases = "/packages/152824"
+date = "2024-08-22T13:39:05"
+aliases = "/packages/222458"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1037644"
-usize = "2170666"
-sha1sum = "6cf15d9622a8e758a7ba22fb17b016663a64454d"
-depends = "['analitza>=24.05.2', 'kio>=6.3.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.1', 'readline>=8.0']"
+size = "1037956"
+usize = "2172239"
+sha1sum = "eb60d8ffa69edebca6ccaa1d9cd409436ae1179e"
+depends = "['analitza>=24.08.0', 'kio>=6.5.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.1', 'readline>=8.0']"
 +++
 ### Description: 
 2D and 3D Graph Calculator.
 
 ### Files: 
-* /usr/bin/calgebra
-* /usr/bin/kalgebra
-* /usr/share/applications/org.kde.kalgebra.desktop
-* /usr/share/doc/HTML/ca/kalgebra/commands.docbook
-* /usr/share/doc/HTML/ca/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/ca/kalgebra/index.docbook
-* /usr/share/doc/HTML/ca/kalgebra/kalgebra-2dgraph-window.png
-* /usr/share/doc/HTML/ca/kalgebra/kalgebra-3dgraph-window.png
-* /usr/share/doc/HTML/ca/kalgebra/kalgebra-dictionary-window.png
-* /usr/share/doc/HTML/ca/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/HTML/de/kalgebra/commands.docbook
-* /usr/share/doc/HTML/de/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/de/kalgebra/index.docbook
-* /usr/share/doc/HTML/de/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/HTML/en/kalgebra/commands.docbook
-* /usr/share/doc/HTML/en/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/en/kalgebra/index.docbook
-* /usr/share/doc/HTML/en/kalgebra/kalgebra-2dgraph-window.png
-* /usr/share/doc/HTML/en/kalgebra/kalgebra-3dgraph-window.png
-* /usr/share/doc/HTML/en/kalgebra/kalgebra-console-window.png
-* /usr/share/doc/HTML/en/kalgebra/kalgebra-dictionary-window.png
-* /usr/share/doc/HTML/en/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/HTML/en/kalgebra/view-fullscreen.png
-* /usr/share/doc/HTML/es/kalgebra/commands.docbook
-* /usr/share/doc/HTML/es/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/es/kalgebra/index.docbook
-* /usr/share/doc/HTML/es/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/HTML/et/kalgebra/commands.docbook
-* /usr/share/doc/HTML/et/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/et/kalgebra/index.docbook
-* /usr/share/doc/HTML/it/kalgebra/commands.docbook
-* /usr/share/doc/HTML/it/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/it/kalgebra/index.docbook
-* /usr/share/doc/HTML/nl/kalgebra/commands.docbook
-* /usr/share/doc/HTML/nl/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/nl/kalgebra/index.docbook
-* /usr/share/doc/HTML/pt/kalgebra/commands.docbook
-* /usr/share/doc/HTML/pt/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/pt/kalgebra/index.docbook
-* /usr/share/doc/HTML/pt_BR/kalgebra/commands.docbook
-* /usr/share/doc/HTML/pt_BR/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kalgebra/index.docbook
-* /usr/share/doc/HTML/pt_BR/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/HTML/ru/kalgebra/commands.docbook
-* /usr/share/doc/HTML/ru/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/ru/kalgebra/index.docbook
-* /usr/share/doc/HTML/ru/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/HTML/sv/kalgebra/commands.docbook
-* /usr/share/doc/HTML/sv/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/sv/kalgebra/index.docbook
-* /usr/share/doc/HTML/uk/kalgebra/commands.docbook
-* /usr/share/doc/HTML/uk/kalgebra/index.cache.bz2
-* /usr/share/doc/HTML/uk/kalgebra/index.docbook
-* /usr/share/doc/HTML/uk/kalgebra/kalgebra-2dgraph-window.png
-* /usr/share/doc/HTML/uk/kalgebra/kalgebra-3dgraph-window.png
-* /usr/share/doc/HTML/uk/kalgebra/kalgebra-console-window.png
-* /usr/share/doc/HTML/uk/kalgebra/kalgebra-dictionary-window.png
-* /usr/share/doc/HTML/uk/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/kalgebra-24.05.2/COPYING
-* /usr/share/doc/kalgebra-24.05.2/COPYING.DOC
-* /usr/share/doc/kalgebra-24.05.2/COPYING.LIB
-* /usr/share/doc/kalgebra-24.05.2/TODO
-* /usr/share/icons/hicolor/64x64/apps/kalgebra.png
-* /usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
-* /usr/share/katepart5/syntax/kalgebra.xml
-* /usr/share/locale/ar/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ar/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ast/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ast/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/be/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/bg/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/bg/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/bs/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ca/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ca/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/cs/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/cs/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/csb/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/da/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/de/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/de/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/el/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/el/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/eo/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/eo/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/es/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/es/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/et/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/et/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/eu/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/eu/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/fa/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/fi/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/fi/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/fr/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/fr/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ga/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/gl/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/gl/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/he/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/he/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/hi/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/hne/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/hr/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/hu/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/hu/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ia/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ia/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/it/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/it/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ja/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ja/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ka/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ka/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/kk/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/km/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ko/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ko/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/lt/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/lt/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/lv/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/mai/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ml/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ml/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/mr/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/nb/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/nds/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/nl/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/nl/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/nn/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/nn/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/oc/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/pa/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/pa/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/pl/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/pl/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/pt/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/pt/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ro/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ru/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/ru/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/se/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/si/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/sk/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/sk/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/sl/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/sl/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/sv/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/sv/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/te/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/tg/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/tr/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/tr/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/ug/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/uk/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/uk/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kalgebra.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kalgebramobile.mo
-* /usr/share/metainfo/org.kde.kalgebra.appdata.xml
+* kalgebra /usr/bin/calgebra
+* kalgebra /usr/bin/kalgebra
+* kalgebra /usr/share/applications/org.kde.kalgebra.desktop
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/kalgebra-2dgraph-window.png
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/kalgebra-3dgraph-window.png
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/kalgebra-dictionary-window.png
+* kalgebra /usr/share/doc/HTML/ca/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/HTML/de/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/de/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/de/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/de/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/HTML/en/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/en/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/en/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/en/kalgebra/kalgebra-2dgraph-window.png
+* kalgebra /usr/share/doc/HTML/en/kalgebra/kalgebra-3dgraph-window.png
+* kalgebra /usr/share/doc/HTML/en/kalgebra/kalgebra-console-window.png
+* kalgebra /usr/share/doc/HTML/en/kalgebra/kalgebra-dictionary-window.png
+* kalgebra /usr/share/doc/HTML/en/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/HTML/en/kalgebra/view-fullscreen.png
+* kalgebra /usr/share/doc/HTML/es/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/es/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/es/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/es/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/HTML/et/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/et/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/et/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/it/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/it/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/it/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/nl/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/nl/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/nl/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/pt/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/pt/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/pt/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/pt_BR/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/pt_BR/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/pt_BR/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/pt_BR/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/HTML/ru/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/ru/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/ru/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/ru/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/HTML/sv/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/sv/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/sv/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/commands.docbook
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/index.cache.bz2
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/index.docbook
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/kalgebra-2dgraph-window.png
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/kalgebra-3dgraph-window.png
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/kalgebra-console-window.png
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/kalgebra-dictionary-window.png
+* kalgebra /usr/share/doc/HTML/uk/kalgebra/kalgebra-main-window.png
+* kalgebra /usr/share/doc/kalgebra-24.08.0/COPYING
+* kalgebra /usr/share/doc/kalgebra-24.08.0/COPYING.DOC
+* kalgebra /usr/share/doc/kalgebra-24.08.0/COPYING.LIB
+* kalgebra /usr/share/doc/kalgebra-24.08.0/TODO
+* kalgebra /usr/share/icons/hicolor/64x64/apps/kalgebra.png
+* kalgebra /usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
+* kalgebra /usr/share/katepart5/syntax/kalgebra.xml
+* kalgebra /usr/share/locale/ar/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ar/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ast/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ast/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/be/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/bg/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/bg/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/bs/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ca/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ca/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ca@valencia/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ca@valencia/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/cs/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/cs/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/csb/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/da/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/de/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/de/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/el/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/el/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/en_GB/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/en_GB/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/eo/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/eo/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/es/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/es/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/et/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/et/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/eu/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/eu/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/fa/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/fi/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/fi/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/fr/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/fr/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ga/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/gl/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/gl/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/he/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/he/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/hi/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/hne/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/hr/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/hu/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/hu/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ia/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ia/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/it/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/it/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ja/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ja/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ka/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ka/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/kk/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/km/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ko/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ko/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/lt/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/lt/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/lv/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/mai/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ml/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ml/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/mr/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/nb/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/nds/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/nl/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/nl/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/nn/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/nn/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/oc/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/pa/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/pa/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/pl/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/pl/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/pt/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/pt/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/pt_BR/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/pt_BR/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ro/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ru/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/ru/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/se/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/si/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/sk/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/sk/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/sl/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/sl/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/sv/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/sv/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/te/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/tg/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/tr/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/tr/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/ug/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/uk/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/uk/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/zh_CN/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/zh_CN/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/locale/zh_TW/LC_MESSAGES/kalgebra.mo
+* kalgebra /usr/share/locale/zh_TW/LC_MESSAGES/kalgebramobile.mo
+* kalgebra /usr/share/metainfo/org.kde.kalgebra.appdata.xml

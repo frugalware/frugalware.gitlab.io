@@ -12,7 +12,7 @@ size = "801884"
 usize = "3953484"
 sha1sum = "6c58632c5002baecbda7c1df5b9ce194d1e089be"
 depends = "['kitemmodels>=6.3.0', 'kpimtextedit>=24.05.2', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
-reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
+reverse_depends = "['./akonadi-contacts', './kleopatra', './kmail-account-wizard', './mimetreeparser', 'akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++
 ### Description: 
 This lib provides crypto for mails.

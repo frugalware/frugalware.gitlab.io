@@ -1,233 +1,235 @@
 +++
 draft = false
-title = "akonadi-calendar 24.05.2-1"
-version = "24.05.2-1"
+title = "./akonadi-calendar 24.08.0-1"
+version = "24.08.0-1"
 description = "Akonadi calendar integration"
-date = "2024-07-05T10:54:09"
-aliases = "/packages/218249"
+date = "2024-08-22T15:28:35"
+aliases = "/packages/222298"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "698432"
-usize = "3622096"
-sha1sum = "54a897a5a4ae5e64abeebea96303652f583d57a9"
-depends = "['kcalutils>=24.05.2', 'kmailtransport>=24.05.2', 'messagelib>=24.05.2']"
-reverse_depends = "['calendarsupport', 'kdepim-runtime']"
+size = "701712"
+usize = "3656208"
+sha1sum = "51a622f3e140d908bb9713d13273cfcaae9cfcc5"
+depends = "['kcalutils>=24.08.0', 'kmailtransport>=24.08.0', 'messagelib>=24.08.0']"
 +++
 ### Description: 
 Akonadi calendar integration
 
 ### Files: 
-* /etc/xdg/autostart/org.kde.kalendarac.desktop
-* /usr/bin/kalendarac
-* /usr/include/KPim6/AkonadiCalendar/akonadi-calendar_version.h
-* /usr/include/KPim6/AkonadiCalendar/akonadi/akonadi-calendar_export.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/BlockAlarmsAttribute
-* /usr/include/KPim6/AkonadiCalendar/akonadi/blockalarmsattribute.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarBase
-* /usr/include/KPim6/AkonadiCalendar/akonadi/calendarbase.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarClipboard
-* /usr/include/KPim6/AkonadiCalendar/akonadi/calendarclipboard.h
-* /usr/include/KPim6/AkonadiCalendar/akonadi/calendarsettings.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarUtils
-* /usr/include/KPim6/AkonadiCalendar/akonadi/calendarutils.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalFilterPartStatusProxyModel
-* /usr/include/KPim6/AkonadiCalendar/akonadi/calfilterpartstatusproxymodel.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/CalFilterProxyModel
-* /usr/include/KPim6/AkonadiCalendar/akonadi/calfilterproxymodel.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/CollectionCalendar
-* /usr/include/KPim6/AkonadiCalendar/akonadi/collectioncalendar.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/ETMCalendar
-* /usr/include/KPim6/AkonadiCalendar/akonadi/etmcalendar.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/FetchJobCalendar
-* /usr/include/KPim6/AkonadiCalendar/akonadi/fetchjobcalendar.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/FreeBusyManager
-* /usr/include/KPim6/AkonadiCalendar/akonadi/freebusymanager.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/FreeBusyProviderBase
-* /usr/include/KPim6/AkonadiCalendar/akonadi/freebusyproviderbase.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/History
-* /usr/include/KPim6/AkonadiCalendar/akonadi/history.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/ICalImporter
-* /usr/include/KPim6/AkonadiCalendar/akonadi/icalimporter.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/IncidenceChanger
-* /usr/include/KPim6/AkonadiCalendar/akonadi/incidencechanger.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/IncidenceTreeModel
-* /usr/include/KPim6/AkonadiCalendar/akonadi/incidencetreemodel.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/ITIPHandler
-* /usr/include/KPim6/AkonadiCalendar/akonadi/itiphandler.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/PublishDialog
-* /usr/include/KPim6/AkonadiCalendar/akonadi/publishdialog.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/SearchCollectionHelper
-* /usr/include/KPim6/AkonadiCalendar/akonadi/searchcollectionhelper.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/StandardCalendarActionManager
-* /usr/include/KPim6/AkonadiCalendar/akonadi/standardcalendaractionmanager.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/TodoModel
-* /usr/include/KPim6/AkonadiCalendar/akonadi/todomodel.h
-* /usr/include/KPim6/AkonadiCalendar/Akonadi/TodoPurger
-* /usr/include/KPim6/AkonadiCalendar/akonadi/todopurger.h
-* /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarConfig.cmake
-* /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarConfigVersion.cmake
-* /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarTargets-release.cmake
-* /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarTargets.cmake
-* /usr/lib/libKPim6AkonadiCalendar.so
-* /usr/lib/libKPim6AkonadiCalendar.so.6
-* /usr/lib/libKPim6AkonadiCalendar.so.6.1.2
-* /usr/lib/qt6/plugins/akonadi_serializer_kcalcore.so
-* /usr/lib/qt6/plugins/kf6/org.kde.kcalendarcore.calendars/libakonadicalendarplugin.so
-* /usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
-* /usr/share/dbus-1/services/org.kde.kalendarac.service
-* /usr/share/doc/akonadi-calendar-24.05.2/README.md
-* /usr/share/doc/akonadi-calendar-24.05.2/README.md.license
-* /usr/share/doc/akonadi-calendar-24.05.2/TODO
-* /usr/share/knotifications6/kalendarac.notifyrc
-* /usr/share/locale/ar/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ar/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ar/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ast/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ast/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ast/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/az/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/az/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/az/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/bg/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/bg/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/bg/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/bs/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ca/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ca/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ca/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/cs/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/cs/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/cs/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/da/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/da/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/de/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/de/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/de/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/el/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/el/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/el/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/eo/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/eo/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/eo/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/es/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/es/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/es/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/et/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/et/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/eu/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/eu/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/eu/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/fi/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/fi/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/fi/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/fr/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/fr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/fr/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ga/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/gl/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/gl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/gl/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/hu/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/hu/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/hu/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ia/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ia/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ia/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/id/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/id/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/id/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/is/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/is/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/it/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/it/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/it/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ja/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ja/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ja/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ka/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ka/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ka/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/kk/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/km/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/km/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ko/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ko/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ko/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/lt/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/lt/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/lt/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/lv/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/lv/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/lv/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/mai/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/mr/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/nb/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/nds/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/nl/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/nl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/nl/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/pl/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/pl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/pl/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/pt/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/pt/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/pt/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ro/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ru/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ru/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ru/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sk/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/sk/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sk/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sl/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/sl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sl/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sr/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/sv/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/sv/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/sv/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ta/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/ta/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ta/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/tr/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/tr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/tr/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/ug/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/uk/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/uk/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/uk/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kalendarac.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libakonadi-calendar6-serializer.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libakonadi-calendar6.mo
-* /usr/share/qlogging-categories6/akonadi-calendar.categories
-* /usr/share/qlogging-categories6/akonadi-calendar.renamecategories
-* /usr/share/qlogging-categories6/org_kde_kalendarac.categories
+* akonadi-calendar /etc/xdg/autostart/org.kde.kalendarac.desktop
+* akonadi-calendar /usr/bin/kalendarac
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi-calendar_version.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/akonadi-calendar_export.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/BlockAlarmsAttribute
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/blockalarmsattribute.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarBase
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/calendarbase.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarClipboard
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/calendarclipboard.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/calendarsettings.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/CalendarUtils
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/calendarutils.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/CalFilterPartStatusProxyModel
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/calfilterpartstatusproxymodel.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/CalFilterProxyModel
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/calfilterproxymodel.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/CollectionCalendar
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/collectioncalendar.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/ETMCalendar
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/etmcalendar.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/FetchJobCalendar
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/fetchjobcalendar.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/FreeBusyManager
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/freebusymanager.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/FreeBusyProviderBase
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/freebusyproviderbase.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/History
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/history.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/ICalImporter
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/icalimporter.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/IncidenceChanger
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/incidencechanger.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/IncidenceTreeModel
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/incidencetreemodel.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/ITIPHandler
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/itiphandler.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/PublishDialog
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/publishdialog.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/SearchCollectionHelper
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/searchcollectionhelper.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/StandardCalendarActionManager
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/standardcalendaractionmanager.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/TodoModel
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/todomodel.h
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/Akonadi/TodoPurger
+* akonadi-calendar /usr/include/KPim6/AkonadiCalendar/akonadi/todopurger.h
+* akonadi-calendar /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarConfig.cmake
+* akonadi-calendar /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarConfigVersion.cmake
+* akonadi-calendar /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarTargets-release.cmake
+* akonadi-calendar /usr/lib/cmake/KPim6AkonadiCalendar/KPim6AkonadiCalendarTargets.cmake
+* akonadi-calendar /usr/lib/libKPim6AkonadiCalendar.so
+* akonadi-calendar /usr/lib/libKPim6AkonadiCalendar.so.6
+* akonadi-calendar /usr/lib/libKPim6AkonadiCalendar.so.6.2.0
+* akonadi-calendar /usr/lib/qt6/plugins/akonadi_serializer_kcalcore.so
+* akonadi-calendar /usr/lib/qt6/plugins/kf6/org.kde.kcalendarcore.calendars/libakonadicalendarplugin.so
+* akonadi-calendar /usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
+* akonadi-calendar /usr/share/dbus-1/services/org.kde.kalendarac.service
+* akonadi-calendar /usr/share/doc/akonadi-calendar-24.08.0/README.md
+* akonadi-calendar /usr/share/doc/akonadi-calendar-24.08.0/README.md.license
+* akonadi-calendar /usr/share/doc/akonadi-calendar-24.08.0/TODO
+* akonadi-calendar /usr/share/knotifications6/kalendarac.notifyrc
+* akonadi-calendar /usr/share/locale/ar/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ar/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ar/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ast/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ast/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ast/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/az/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/az/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/az/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/bg/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/bg/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/bg/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/bs/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/bs/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ca/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ca/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ca/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ca@valencia/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ca@valencia/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ca@valencia/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/cs/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/cs/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/cs/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/da/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/da/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/de/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/de/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/de/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/el/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/el/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/el/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/en_GB/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/en_GB/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/en_GB/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/eo/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/eo/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/eo/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/es/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/es/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/es/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/et/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/et/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/eu/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/eu/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/eu/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/fi/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/fi/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/fi/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/fr/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/fr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/fr/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ga/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ga/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/gl/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/gl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/gl/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/he/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/he/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/he/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/hu/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/hu/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/hu/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ia/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ia/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ia/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/id/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/id/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/id/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/is/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/is/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/it/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/it/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/it/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ja/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ja/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ja/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ka/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ka/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ka/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/kk/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/kk/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/km/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/km/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ko/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ko/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ko/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/lt/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/lt/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/lt/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/lv/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/lv/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/lv/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/mai/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/mr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/mr/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/nb/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/nb/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/nds/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/nds/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/nl/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/nl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/nl/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/pa/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/pl/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/pl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/pl/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/pt/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/pt/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/pt/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/pt_BR/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/pt_BR/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/pt_BR/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ro/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ro/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ru/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ru/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ru/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sk/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/sk/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sk/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sl/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/sl/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sl/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sr/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sr@ijekavian/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sr@ijekavian/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sr@latin/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sr@latin/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/sv/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/sv/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/sv/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ta/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/ta/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ta/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/tr/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/tr/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/tr/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/ug/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/ug/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/uk/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/uk/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/uk/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/zh_CN/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/zh_CN/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/zh_CN/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/locale/zh_TW/LC_MESSAGES/kalendarac.mo
+* akonadi-calendar /usr/share/locale/zh_TW/LC_MESSAGES/libakonadi-calendar6-serializer.mo
+* akonadi-calendar /usr/share/locale/zh_TW/LC_MESSAGES/libakonadi-calendar6.mo
+* akonadi-calendar /usr/share/qlogging-categories6/akonadi-calendar.categories
+* akonadi-calendar /usr/share/qlogging-categories6/akonadi-calendar.renamecategories
+* akonadi-calendar /usr/share/qlogging-categories6/org_kde_kalendarac.categories

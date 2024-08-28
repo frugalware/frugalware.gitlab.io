@@ -12,7 +12,7 @@ size = "9176"
 usize = "25361"
 sha1sum = "82b8ea03f9d03274c0192fcd592a6464aaeed1d2"
 depends = "['python3>=3.11']"
-reverse_depends = "['openrazer']"
+reverse_depends = "['./openrazer', 'openrazer']"
 +++
 ### Description: 
 Library to enable your code run as a daemon process on Unix-like systems

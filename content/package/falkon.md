@@ -1,878 +1,925 @@
 +++
 draft = false
-title = "falkon 24.05.2-1"
-version = "24.05.2-1"
+title = "./falkon 24.08.0-1"
+version = "24.08.0-1"
 description = "Web browser written in Qt."
-date = "2024-07-05T11:41:48"
-aliases = "/packages/219685"
+date = "2024-08-22T17:03:11"
+aliases = "/packages/222493"
 categories = ['kde6']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "2233696"
-usize = "11442599"
-sha1sum = "02397e1121d558417dd1548468fa2de0dc860f77"
+size = "2287660"
+usize = "11773286"
+sha1sum = "576c817cff37b4b6992adcc81f448edd9211fbdc"
 depends = "['openssl>=3.1.0', 'qt6-base>=5.15.0>=', 'qt6-webchannel>=', 'qt6-webengine>=']"
-reverse_depends = "['falkon-kde', 'falkon-python-plugins']"
 +++
 ### Description: 
 Web browser written in Qt.
 
 ### Files: 
-* /usr/bin/falkon
-* /usr/lib/libFalkonPrivate.so.24.05.2
-* /usr/lib/libFalkonPrivate.so.3
-* /usr/share/applications/org.kde.falkon.desktop
-* /usr/share/bash-completion/completions/falkon
-* /usr/share/doc/falkon-24.05.2/CHANGELOG
-* /usr/share/doc/falkon-24.05.2/COPYING
-* /usr/share/doc/falkon-24.05.2/README.md
-* /usr/share/falkon/themes/chrome/images/gotoaddress.png
-* /usr/share/falkon/themes/chrome/images/key.png
-* /usr/share/falkon/themes/chrome/images/library-bg.png
-* /usr/share/falkon/themes/chrome/images/lineedit-bg.png
-* /usr/share/falkon/themes/chrome/images/navigation-addtab.png
-* /usr/share/falkon/themes/chrome/images/navigation-back.png
-* /usr/share/falkon/themes/chrome/images/navigation-downloads.png
-* /usr/share/falkon/themes/chrome/images/navigation-dropdown.png
-* /usr/share/falkon/themes/chrome/images/navigation-exit-fullscreen.png
-* /usr/share/falkon/themes/chrome/images/navigation-forward.png
-* /usr/share/falkon/themes/chrome/images/navigation-home.png
-* /usr/share/falkon/themes/chrome/images/navigation-reload.png
-* /usr/share/falkon/themes/chrome/images/navigation-stop.png
-* /usr/share/falkon/themes/chrome/images/navigation-supermenu.png
-* /usr/share/falkon/themes/chrome/images/navigation-tools-rtl.png
-* /usr/share/falkon/themes/chrome/images/navigation-tools.png
-* /usr/share/falkon/themes/chrome/images/search-icon.png
-* /usr/share/falkon/themes/chrome/images/searchbar-provider-bg.png
-* /usr/share/falkon/themes/chrome/images/semi-transp.png
-* /usr/share/falkon/themes/chrome/images/siteicon-bg.png
-* /usr/share/falkon/themes/chrome/images/siteicon-secure-bg.png
-* /usr/share/falkon/themes/chrome/images/star-a.png
-* /usr/share/falkon/themes/chrome/images/star.png
-* /usr/share/falkon/themes/chrome/images/tab-left-arrow.png
-* /usr/share/falkon/themes/chrome/images/tab-right-arrow.png
-* /usr/share/falkon/themes/chrome/images/tabbar-addtab.png
-* /usr/share/falkon/themes/chrome/images/tabs-bg.png
-* /usr/share/falkon/themes/chrome/images/tabs-closed-button.png
-* /usr/share/falkon/themes/chrome/images/tabs-list-button.png
-* /usr/share/falkon/themes/chrome/images/toolbar-bg.png
-* /usr/share/falkon/themes/chrome/images/toolbutton-a.png
-* /usr/share/falkon/themes/chrome/images/toolbutton-h.png
-* /usr/share/falkon/themes/chrome/images/toolbutton.png
-* /usr/share/falkon/themes/chrome/license.txt
-* /usr/share/falkon/themes/chrome/linux.css
-* /usr/share/falkon/themes/chrome/main.css
-* /usr/share/falkon/themes/chrome/metadata.desktop
-* /usr/share/falkon/themes/chrome/rtl.css
-* /usr/share/falkon/themes/chrome/theme.png
-* /usr/share/falkon/themes/chrome/windows.css
-* /usr/share/falkon/themes/linux/images/arrow-down.svg
-* /usr/share/falkon/themes/linux/images/exit-fullscreen.svg
-* /usr/share/falkon/themes/linux/images/goto.svg
-* /usr/share/falkon/themes/linux/images/library-bg.png
-* /usr/share/falkon/themes/linux/images/menu.svg
-* /usr/share/falkon/themes/linux/images/semi-transp.png
-* /usr/share/falkon/themes/linux/images/star-a.svg
-* /usr/share/falkon/themes/linux/images/star.svg
-* /usr/share/falkon/themes/linux/images/tab-left-arrow.svg
-* /usr/share/falkon/themes/linux/images/tab-right-arrow.svg
-* /usr/share/falkon/themes/linux/images/tools-rtl.svg
-* /usr/share/falkon/themes/linux/images/tools.svg
-* /usr/share/falkon/themes/linux/images/transp.png
-* /usr/share/falkon/themes/linux/images/user.svg
-* /usr/share/falkon/themes/linux/main.css
-* /usr/share/falkon/themes/linux/metadata.desktop
-* /usr/share/falkon/themes/linux/rtl.css
-* /usr/share/falkon/themes/linux/theme.png
-* /usr/share/falkon/themes/mac/images/gotoaddress.png
-* /usr/share/falkon/themes/mac/images/key.png
-* /usr/share/falkon/themes/mac/images/library-bg.png
-* /usr/share/falkon/themes/mac/images/lineedit-bg.png
-* /usr/share/falkon/themes/mac/images/navigation-addtab.png
-* /usr/share/falkon/themes/mac/images/navigation-back.png
-* /usr/share/falkon/themes/mac/images/navigation-downloads.png
-* /usr/share/falkon/themes/mac/images/navigation-dropdown.png
-* /usr/share/falkon/themes/mac/images/navigation-exit-fullscreen.png
-* /usr/share/falkon/themes/mac/images/navigation-forward.png
-* /usr/share/falkon/themes/mac/images/navigation-home.png
-* /usr/share/falkon/themes/mac/images/navigation-reload.png
-* /usr/share/falkon/themes/mac/images/navigation-stop.png
-* /usr/share/falkon/themes/mac/images/navigation-supermenu.png
-* /usr/share/falkon/themes/mac/images/navigation-tools-rtl.png
-* /usr/share/falkon/themes/mac/images/navigation-tools.png
-* /usr/share/falkon/themes/mac/images/search-icon.png
-* /usr/share/falkon/themes/mac/images/searchbar-provider-bg.png
-* /usr/share/falkon/themes/mac/images/semi-transp.png
-* /usr/share/falkon/themes/mac/images/siteicon-bg.png
-* /usr/share/falkon/themes/mac/images/siteicon-secure-bg.png
-* /usr/share/falkon/themes/mac/images/splitter.png
-* /usr/share/falkon/themes/mac/images/star-a.png
-* /usr/share/falkon/themes/mac/images/star.png
-* /usr/share/falkon/themes/mac/images/tab-left-arrow.png
-* /usr/share/falkon/themes/mac/images/tab-right-arrow.png
-* /usr/share/falkon/themes/mac/images/tabbar-addtab.png
-* /usr/share/falkon/themes/mac/images/tabs-bg.png
-* /usr/share/falkon/themes/mac/images/tabs-closed-button-rtl.png
-* /usr/share/falkon/themes/mac/images/tabs-closed-button.png
-* /usr/share/falkon/themes/mac/images/tabs-list-button.png
-* /usr/share/falkon/themes/mac/images/tabs-list-button_rtl.png
-* /usr/share/falkon/themes/mac/images/toolbar-bg.png
-* /usr/share/falkon/themes/mac/images/toolbutton-a.png
-* /usr/share/falkon/themes/mac/images/toolbutton-h.png
-* /usr/share/falkon/themes/mac/images/toolbutton.png
-* /usr/share/falkon/themes/mac/images/transp.png
-* /usr/share/falkon/themes/mac/license.txt
-* /usr/share/falkon/themes/mac/linux.css
-* /usr/share/falkon/themes/mac/main.css
-* /usr/share/falkon/themes/mac/metadata.desktop
-* /usr/share/falkon/themes/mac/rtl.css
-* /usr/share/falkon/themes/mac/theme.png
-* /usr/share/falkon/themes/mac/windows.css
-* /usr/share/falkon/themes/windows/images/exit-fullscreen.svg
-* /usr/share/falkon/themes/windows/images/goto.svg
-* /usr/share/falkon/themes/windows/images/library-bg.png
-* /usr/share/falkon/themes/windows/images/menu.svg
-* /usr/share/falkon/themes/windows/images/semi-transp.png
-* /usr/share/falkon/themes/windows/images/star-a.svg
-* /usr/share/falkon/themes/windows/images/star.svg
-* /usr/share/falkon/themes/windows/images/tab-close-a.svg
-* /usr/share/falkon/themes/windows/images/tab-close-h.svg
-* /usr/share/falkon/themes/windows/images/tab-close.svg
-* /usr/share/falkon/themes/windows/images/tab-left-arrow.svg
-* /usr/share/falkon/themes/windows/images/tab-right-arrow.svg
-* /usr/share/falkon/themes/windows/images/tools-rtl.svg
-* /usr/share/falkon/themes/windows/images/tools.svg
-* /usr/share/falkon/themes/windows/images/transp.png
-* /usr/share/falkon/themes/windows/images/user.svg
-* /usr/share/falkon/themes/windows/main.css
-* /usr/share/falkon/themes/windows/metadata.desktop
-* /usr/share/falkon/themes/windows/rtl.css
-* /usr/share/falkon/themes/windows/theme.png
-* /usr/share/icons/hicolor/128x128/apps/falkon.png
-* /usr/share/icons/hicolor/16x16/apps/falkon.png
-* /usr/share/icons/hicolor/256x256/apps/falkon.png
-* /usr/share/icons/hicolor/32x32/apps/falkon.png
-* /usr/share/icons/hicolor/48x48/apps/falkon.png
-* /usr/share/icons/hicolor/64x64/apps/falkon.png
-* /usr/share/icons/hicolor/scalable/apps/falkon.svg
-* /usr/share/locale/ar/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ar/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ar/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ar/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ar/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ar/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ast/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ast/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ast/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ast/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/az/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/az/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/az/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/az/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/az/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/bg/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/bg/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/bg/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/bg/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/bg/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ca/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ca/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ca/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ca/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/cs/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/cs/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/cs/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/cs/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/da/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/da/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/da/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/da/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/de/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/de/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/de/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/de/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/el/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/el/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/el/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/el/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/en/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/eo/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/eo/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/eo/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/eo/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/es/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/es/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/es/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/es/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/et/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/et/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/et/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/et/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/eu/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/eu/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/eu/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/eu/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/fa/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/fi/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/fi/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/fi/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/fi/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/fr/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/fr/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/fr/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/fr/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/gl/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/gl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/gl/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/gl/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/hu/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/hu/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/hu/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/hu/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ia/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ia/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ia/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ia/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/id/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/id/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/id/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/id/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/id/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/is/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/is/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/is/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/is/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/is/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/it/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/it/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/it/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/it/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ja/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ja/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ja/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ja/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ka/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ka/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ka/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ka/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ko/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ko/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ko/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ko/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/lt/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/lt/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/lt/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/lt/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/nl/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/nl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/nl/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/nl/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/nn/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/nn/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/nn/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/nn/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/pa/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/pl/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/pl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/pl/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/pl/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/pt/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/pt/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/pt/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/pt/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/ru/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/ru/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/ru/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/ru/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/sk/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/sk/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/sk/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/sk/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/sl/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/sl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/sl/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/sl/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/sv/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/sv/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/sv/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/sv/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/ta/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/tr/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/tr/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/tr/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/tr/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/uk/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/uk/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/uk/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/uk/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/zh_HK/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_autoscroll_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_greasemonkey_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_hellopython.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_helloqml.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_middleclickloader.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_mousegestures_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_pim_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_runaction.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_statusbaricons_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_tabmanager_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_testplugin_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/falkon_verticaltabs_qt.qm
-* /usr/share/metainfo/org.kde.falkon.appdata.xml
+* falkon /usr/bin/falkon
+* falkon /usr/lib/libFalkonPrivate.so.24.08.0
+* falkon /usr/lib/libFalkonPrivate.so.3
+* falkon /usr/share/applications/org.kde.falkon.desktop
+* falkon /usr/share/bash-completion/completions/falkon
+* falkon /usr/share/doc/falkon-24.08.0/CHANGELOG
+* falkon /usr/share/doc/falkon-24.08.0/COPYING
+* falkon /usr/share/doc/falkon-24.08.0/README.md
+* falkon /usr/share/falkon/themes/chrome/images/gotoaddress.png
+* falkon /usr/share/falkon/themes/chrome/images/key.png
+* falkon /usr/share/falkon/themes/chrome/images/library-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/lineedit-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-addtab.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-back.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-downloads.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-dropdown.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-exit-fullscreen.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-forward.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-home.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-reload.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-stop.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-supermenu.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-tools-rtl.png
+* falkon /usr/share/falkon/themes/chrome/images/navigation-tools.png
+* falkon /usr/share/falkon/themes/chrome/images/search-icon.png
+* falkon /usr/share/falkon/themes/chrome/images/searchbar-provider-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/semi-transp.png
+* falkon /usr/share/falkon/themes/chrome/images/siteicon-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/siteicon-secure-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/star-a.png
+* falkon /usr/share/falkon/themes/chrome/images/star.png
+* falkon /usr/share/falkon/themes/chrome/images/tab-left-arrow.png
+* falkon /usr/share/falkon/themes/chrome/images/tab-right-arrow.png
+* falkon /usr/share/falkon/themes/chrome/images/tabbar-addtab.png
+* falkon /usr/share/falkon/themes/chrome/images/tabs-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/tabs-closed-button.png
+* falkon /usr/share/falkon/themes/chrome/images/tabs-list-button.png
+* falkon /usr/share/falkon/themes/chrome/images/toolbar-bg.png
+* falkon /usr/share/falkon/themes/chrome/images/toolbutton-a.png
+* falkon /usr/share/falkon/themes/chrome/images/toolbutton-h.png
+* falkon /usr/share/falkon/themes/chrome/images/toolbutton.png
+* falkon /usr/share/falkon/themes/chrome/license.txt
+* falkon /usr/share/falkon/themes/chrome/linux.css
+* falkon /usr/share/falkon/themes/chrome/main.css
+* falkon /usr/share/falkon/themes/chrome/metadata.desktop
+* falkon /usr/share/falkon/themes/chrome/rtl.css
+* falkon /usr/share/falkon/themes/chrome/theme.png
+* falkon /usr/share/falkon/themes/chrome/windows.css
+* falkon /usr/share/falkon/themes/linux/images/arrow-down.svg
+* falkon /usr/share/falkon/themes/linux/images/exit-fullscreen.svg
+* falkon /usr/share/falkon/themes/linux/images/goto.svg
+* falkon /usr/share/falkon/themes/linux/images/library-bg.png
+* falkon /usr/share/falkon/themes/linux/images/menu.svg
+* falkon /usr/share/falkon/themes/linux/images/semi-transp.png
+* falkon /usr/share/falkon/themes/linux/images/star-a.svg
+* falkon /usr/share/falkon/themes/linux/images/star.svg
+* falkon /usr/share/falkon/themes/linux/images/tab-left-arrow.svg
+* falkon /usr/share/falkon/themes/linux/images/tab-right-arrow.svg
+* falkon /usr/share/falkon/themes/linux/images/tools-rtl.svg
+* falkon /usr/share/falkon/themes/linux/images/tools.svg
+* falkon /usr/share/falkon/themes/linux/images/transp.png
+* falkon /usr/share/falkon/themes/linux/images/user.svg
+* falkon /usr/share/falkon/themes/linux/main.css
+* falkon /usr/share/falkon/themes/linux/metadata.desktop
+* falkon /usr/share/falkon/themes/linux/rtl.css
+* falkon /usr/share/falkon/themes/linux/theme.png
+* falkon /usr/share/falkon/themes/mac/images/gotoaddress.png
+* falkon /usr/share/falkon/themes/mac/images/key.png
+* falkon /usr/share/falkon/themes/mac/images/library-bg.png
+* falkon /usr/share/falkon/themes/mac/images/lineedit-bg.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-addtab.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-back.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-downloads.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-dropdown.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-exit-fullscreen.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-forward.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-home.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-reload.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-stop.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-supermenu.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-tools-rtl.png
+* falkon /usr/share/falkon/themes/mac/images/navigation-tools.png
+* falkon /usr/share/falkon/themes/mac/images/search-icon.png
+* falkon /usr/share/falkon/themes/mac/images/searchbar-provider-bg.png
+* falkon /usr/share/falkon/themes/mac/images/semi-transp.png
+* falkon /usr/share/falkon/themes/mac/images/siteicon-bg.png
+* falkon /usr/share/falkon/themes/mac/images/siteicon-secure-bg.png
+* falkon /usr/share/falkon/themes/mac/images/splitter.png
+* falkon /usr/share/falkon/themes/mac/images/star-a.png
+* falkon /usr/share/falkon/themes/mac/images/star.png
+* falkon /usr/share/falkon/themes/mac/images/tab-left-arrow.png
+* falkon /usr/share/falkon/themes/mac/images/tab-right-arrow.png
+* falkon /usr/share/falkon/themes/mac/images/tabbar-addtab.png
+* falkon /usr/share/falkon/themes/mac/images/tabs-bg.png
+* falkon /usr/share/falkon/themes/mac/images/tabs-closed-button-rtl.png
+* falkon /usr/share/falkon/themes/mac/images/tabs-closed-button.png
+* falkon /usr/share/falkon/themes/mac/images/tabs-list-button.png
+* falkon /usr/share/falkon/themes/mac/images/tabs-list-button_rtl.png
+* falkon /usr/share/falkon/themes/mac/images/toolbar-bg.png
+* falkon /usr/share/falkon/themes/mac/images/toolbutton-a.png
+* falkon /usr/share/falkon/themes/mac/images/toolbutton-h.png
+* falkon /usr/share/falkon/themes/mac/images/toolbutton.png
+* falkon /usr/share/falkon/themes/mac/images/transp.png
+* falkon /usr/share/falkon/themes/mac/license.txt
+* falkon /usr/share/falkon/themes/mac/linux.css
+* falkon /usr/share/falkon/themes/mac/main.css
+* falkon /usr/share/falkon/themes/mac/metadata.desktop
+* falkon /usr/share/falkon/themes/mac/rtl.css
+* falkon /usr/share/falkon/themes/mac/theme.png
+* falkon /usr/share/falkon/themes/mac/windows.css
+* falkon /usr/share/falkon/themes/windows/images/exit-fullscreen.svg
+* falkon /usr/share/falkon/themes/windows/images/goto.svg
+* falkon /usr/share/falkon/themes/windows/images/library-bg.png
+* falkon /usr/share/falkon/themes/windows/images/menu.svg
+* falkon /usr/share/falkon/themes/windows/images/semi-transp.png
+* falkon /usr/share/falkon/themes/windows/images/star-a.svg
+* falkon /usr/share/falkon/themes/windows/images/star.svg
+* falkon /usr/share/falkon/themes/windows/images/tab-close-a.svg
+* falkon /usr/share/falkon/themes/windows/images/tab-close-h.svg
+* falkon /usr/share/falkon/themes/windows/images/tab-close.svg
+* falkon /usr/share/falkon/themes/windows/images/tab-left-arrow.svg
+* falkon /usr/share/falkon/themes/windows/images/tab-right-arrow.svg
+* falkon /usr/share/falkon/themes/windows/images/tools-rtl.svg
+* falkon /usr/share/falkon/themes/windows/images/tools.svg
+* falkon /usr/share/falkon/themes/windows/images/transp.png
+* falkon /usr/share/falkon/themes/windows/images/user.svg
+* falkon /usr/share/falkon/themes/windows/main.css
+* falkon /usr/share/falkon/themes/windows/metadata.desktop
+* falkon /usr/share/falkon/themes/windows/rtl.css
+* falkon /usr/share/falkon/themes/windows/theme.png
+* falkon /usr/share/icons/hicolor/128x128/apps/falkon.png
+* falkon /usr/share/icons/hicolor/16x16/apps/falkon.png
+* falkon /usr/share/icons/hicolor/256x256/apps/falkon.png
+* falkon /usr/share/icons/hicolor/32x32/apps/falkon.png
+* falkon /usr/share/icons/hicolor/48x48/apps/falkon.png
+* falkon /usr/share/icons/hicolor/64x64/apps/falkon.png
+* falkon /usr/share/icons/hicolor/scalable/apps/falkon.svg
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ar/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ast/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/az/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/bg/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ca/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ca@valencia/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/cs/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/da/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/de/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/el/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/en/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/en_GB/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/eo/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/es/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/et/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/eu/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/fa/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/fi/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/fr/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/gl/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/he/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/hu/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ia/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/id/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/is/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/it/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ja/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ka/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ko/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/lt/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/lv/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/nb/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/nl/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/nn/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/pa/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/pl/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/pt/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/pt_BR/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/ru/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sk/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sl/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sr/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sr@ijekavian/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sr@latin/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/sv/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/ta/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/tr/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/uk/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/zh_CN/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/zh_HK/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_autoscroll_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_hellopython.mo
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_helloqml.mo
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_middleclickloader.mo
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_mousegestures_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_pim_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_runaction.mo
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_tabmanager_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_testplugin_qt.qm
+* falkon /usr/share/locale/zh_TW/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* falkon /usr/share/metainfo/org.kde.falkon.appdata.xml

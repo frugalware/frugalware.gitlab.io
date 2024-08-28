@@ -12,7 +12,7 @@ size = "16408"
 usize = "46620"
 sha1sum = "dda2ee4e488b6b1ff8c3a9b6661802d0b772f8d2"
 depends = "['glibc>=2.34']"
-reverse_depends = "['exiv2', 'gamemode', 'xfsprogs']"
+reverse_depends = "['./xfsprogs', 'exiv2', 'gamemode', 'xfsprogs']"
 +++
 ### Description: 
 Simple .INI file parser in C, good for embedded systems

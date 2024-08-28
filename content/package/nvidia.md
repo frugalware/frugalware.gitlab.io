@@ -1,154 +1,153 @@
 +++
 draft = false
-title = "nvidia 560.31.02-3"
-version = "560.31.02-3"
+title = "./nvidia 560.35.03-1"
+version = "560.35.03-1"
 description = "3D accelerated display driver for Nvidia cards"
-date = "2024-08-15T09:12:19"
-aliases = "/packages/3749"
+date = "2024-08-23T12:38:38"
+aliases = "/packages/222254"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "112161860"
-usize = "336549234"
-sha1sum = "86f8c8fbe4658467181deb6ef2a547b3a3bf5e5f"
-depends = "['kernel=6.10.5-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=560.31.02']"
-reverse_depends = "['cuda', 'lib32-nvidia']"
+size = "112012844"
+usize = "336795774"
+sha1sum = "aa44fb0def8707848eace4dc213bc0775378e342"
+depends = "['kernel=6.10.6-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=560.35.03']"
 +++
 ### Description: 
 3D accelerated display driver for Nvidia cards
 
 ### Files: 
-* /etc/modprobe.d/nvidia.conf
-* /etc/OpenCL/vendors/nvidia.icd
-* /etc/X11/xorg.conf.d/15-nvidia.conf
-* /usr/bin/nvidia-bug-report.sh
-* /usr/bin/nvidia-smi
-* /usr/lib/libcuda.so
-* /usr/lib/libcuda.so.1
-* /usr/lib/libcuda.so.560.31.02
-* /usr/lib/libEGL_nvidia.so
-* /usr/lib/libEGL_nvidia.so.0
-* /usr/lib/libEGL_nvidia.so.560.31.02
-* /usr/lib/libGLESv1_CM_nvidia.so
-* /usr/lib/libGLESv1_CM_nvidia.so.1
-* /usr/lib/libGLESv1_CM_nvidia.so.560.31.02
-* /usr/lib/libGLESv2_nvidia.so
-* /usr/lib/libGLESv2_nvidia.so.2
-* /usr/lib/libGLESv2_nvidia.so.560.31.02
-* /usr/lib/libGLX_nvidia.so
-* /usr/lib/libGLX_nvidia.so.0
-* /usr/lib/libGLX_nvidia.so.560.31.02
-* /usr/lib/libnvcuvid.so
-* /usr/lib/libnvcuvid.so.1
-* /usr/lib/libnvcuvid.so.560.31.02
-* /usr/lib/libnvidia-cfg.so
-* /usr/lib/libnvidia-cfg.so.1
-* /usr/lib/libnvidia-cfg.so.560.31.02
-* /usr/lib/libnvidia-egl-wayland.so
-* /usr/lib/libnvidia-egl-wayland.so.1
-* /usr/lib/libnvidia-egl-wayland.so.1.1.13
-* /usr/lib/libnvidia-eglcore.so
-* /usr/lib/libnvidia-eglcore.so.560.31.02
-* /usr/lib/libnvidia-encode.so
-* /usr/lib/libnvidia-encode.so.1
-* /usr/lib/libnvidia-encode.so.560.31.02
-* /usr/lib/libnvidia-fbc.so
-* /usr/lib/libnvidia-fbc.so.1
-* /usr/lib/libnvidia-fbc.so.560.31.02
-* /usr/lib/libnvidia-glcore.so
-* /usr/lib/libnvidia-glcore.so.560.31.02
-* /usr/lib/libnvidia-glsi.so
-* /usr/lib/libnvidia-glsi.so.560.31.02
-* /usr/lib/libnvidia-glvkspirv.so.560.31.02
-* /usr/lib/libnvidia-gpucomp.so.560.31.02
-* /usr/lib/libnvidia-gtk2.so.560.31.02
-* /usr/lib/libnvidia-gtk3.so.560.31.02
-* /usr/lib/libnvidia-ml.so
-* /usr/lib/libnvidia-ml.so.1
-* /usr/lib/libnvidia-ml.so.560.31.02
-* /usr/lib/libnvidia-opencl.so.560.31.02
-* /usr/lib/libnvidia-ptxjitcompiler.so
-* /usr/lib/libnvidia-ptxjitcompiler.so.1
-* /usr/lib/libnvidia-ptxjitcompiler.so.560.31.02
-* /usr/lib/libnvidia-tls.so
-* /usr/lib/libnvidia-tls.so.560.31.02
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-drm.ko.zst
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia.ko.zst
-* /usr/lib/vdpau/libvdpau_nvidia.so
-* /usr/lib/vdpau/libvdpau_nvidia.so.1
-* /usr/lib/vdpau/libvdpau_nvidia.so.1.0
-* /usr/lib/vdpau/libvdpau_nvidia.so.560.31.02
-* /usr/lib/xorg/modules/drivers/nvidia_drv.so
-* /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so
-* /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so.560.31.02
-* /usr/share/doc/nvidia-560.31.02/html/acknowledgements.html
-* /usr/share/doc/nvidia-560.31.02/html/addressingcapabilities.html
-* /usr/share/doc/nvidia-560.31.02/html/addtlresources.html
-* /usr/share/doc/nvidia-560.31.02/html/appendices.html
-* /usr/share/doc/nvidia-560.31.02/html/audiosupport.html
-* /usr/share/doc/nvidia-560.31.02/html/commonproblems.html
-* /usr/share/doc/nvidia-560.31.02/html/configlaptop.html
-* /usr/share/doc/nvidia-560.31.02/html/configmultxscreens.html
-* /usr/share/doc/nvidia-560.31.02/html/configtwinview.html
-* /usr/share/doc/nvidia-560.31.02/html/depth30.html
-* /usr/share/doc/nvidia-560.31.02/html/displaydevicenames.html
-* /usr/share/doc/nvidia-560.31.02/html/dma_issues.html
-* /usr/share/doc/nvidia-560.31.02/html/dpi.html
-* /usr/share/doc/nvidia-560.31.02/html/dynamicboost.html
-* /usr/share/doc/nvidia-560.31.02/html/dynamicpowermanagement.html
-* /usr/share/doc/nvidia-560.31.02/html/editxconfig.html
-* /usr/share/doc/nvidia-560.31.02/html/egpu.html
-* /usr/share/doc/nvidia-560.31.02/html/faq.html
-* /usr/share/doc/nvidia-560.31.02/html/flippingubb.html
-* /usr/share/doc/nvidia-560.31.02/html/framelock.html
-* /usr/share/doc/nvidia-560.31.02/html/gbm.html
-* /usr/share/doc/nvidia-560.31.02/html/glxsupport.html
-* /usr/share/doc/nvidia-560.31.02/html/gpunames.html
-* /usr/share/doc/nvidia-560.31.02/html/gsp.html
-* /usr/share/doc/nvidia-560.31.02/html/i2c.html
-* /usr/share/doc/nvidia-560.31.02/html/index.html
-* /usr/share/doc/nvidia-560.31.02/html/installationandconfiguration.html
-* /usr/share/doc/nvidia-560.31.02/html/installdriver.html
-* /usr/share/doc/nvidia-560.31.02/html/installedcomponents.html
-* /usr/share/doc/nvidia-560.31.02/html/introduction.html
-* /usr/share/doc/nvidia-560.31.02/html/kernel_open.html
-* /usr/share/doc/nvidia-560.31.02/html/kms.html
-* /usr/share/doc/nvidia-560.31.02/html/knownissues.html
-* /usr/share/doc/nvidia-560.31.02/html/minimumrequirements.html
-* /usr/share/doc/nvidia-560.31.02/html/newusertips.html
-* /usr/share/doc/nvidia-560.31.02/html/ngx.html
-* /usr/share/doc/nvidia-560.31.02/html/nvidia-debugdump.html
-* /usr/share/doc/nvidia-560.31.02/html/nvidia-ml.html
-* /usr/share/doc/nvidia-560.31.02/html/nvidia-peermem.html
-* /usr/share/doc/nvidia-560.31.02/html/nvidia-persistenced.html
-* /usr/share/doc/nvidia-560.31.02/html/nvidia-smi.html
-* /usr/share/doc/nvidia-560.31.02/html/nvidiasettings.html
-* /usr/share/doc/nvidia-560.31.02/html/openglenvvariables.html
-* /usr/share/doc/nvidia-560.31.02/html/optimus.html
-* /usr/share/doc/nvidia-560.31.02/html/powermanagement.html
-* /usr/share/doc/nvidia-560.31.02/html/primerenderoffload.html
-* /usr/share/doc/nvidia-560.31.02/html/procinterface.html
-* /usr/share/doc/nvidia-560.31.02/html/profiles.html
-* /usr/share/doc/nvidia-560.31.02/html/programmingmodes.html
-* /usr/share/doc/nvidia-560.31.02/html/randr14.html
-* /usr/share/doc/nvidia-560.31.02/html/retpoline.html
-* /usr/share/doc/nvidia-560.31.02/html/selectdriver.html
-* /usr/share/doc/nvidia-560.31.02/html/sli.html
-* /usr/share/doc/nvidia-560.31.02/html/supportedchips.html
-* /usr/share/doc/nvidia-560.31.02/html/vdpausupport.html
-* /usr/share/doc/nvidia-560.31.02/html/wayland-issues.html
-* /usr/share/doc/nvidia-560.31.02/html/xcompositeextension.html
-* /usr/share/doc/nvidia-560.31.02/html/xconfigoptions.html
-* /usr/share/doc/nvidia-560.31.02/html/xineramaglx.html
-* /usr/share/doc/nvidia-560.31.02/html/xrandrextension.html
-* /usr/share/doc/nvidia-560.31.02/html/xwayland.html
-* /usr/share/doc/nvidia-560.31.02/LICENSE
-* /usr/share/doc/nvidia-560.31.02/README.txt
-* /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json
-* /usr/share/glvnd/egl_vendor.d/10_nvidia.json
-* /usr/share/man/man1/nvidia-smi.1.gz
-* /usr/share/nvidia/nvidia-application-profiles-560.31.02-key-documentation
-* /usr/share/nvidia/nvidia-application-profiles-560.31.02-rc
-* /usr/share/vulkan/icd.d/nvidia_icd.json
+* nvidia /etc/modprobe.d/nvidia.conf
+* nvidia /etc/OpenCL/vendors/nvidia.icd
+* nvidia /etc/X11/xorg.conf.d/15-nvidia.conf
+* nvidia /usr/bin/nvidia-bug-report.sh
+* nvidia /usr/bin/nvidia-smi
+* nvidia /usr/lib/libcuda.so
+* nvidia /usr/lib/libcuda.so.1
+* nvidia /usr/lib/libcuda.so.560.35.03
+* nvidia /usr/lib/libEGL_nvidia.so
+* nvidia /usr/lib/libEGL_nvidia.so.0
+* nvidia /usr/lib/libEGL_nvidia.so.560.35.03
+* nvidia /usr/lib/libGLESv1_CM_nvidia.so
+* nvidia /usr/lib/libGLESv1_CM_nvidia.so.1
+* nvidia /usr/lib/libGLESv1_CM_nvidia.so.560.35.03
+* nvidia /usr/lib/libGLESv2_nvidia.so
+* nvidia /usr/lib/libGLESv2_nvidia.so.2
+* nvidia /usr/lib/libGLESv2_nvidia.so.560.35.03
+* nvidia /usr/lib/libGLX_nvidia.so
+* nvidia /usr/lib/libGLX_nvidia.so.0
+* nvidia /usr/lib/libGLX_nvidia.so.560.35.03
+* nvidia /usr/lib/libnvcuvid.so
+* nvidia /usr/lib/libnvcuvid.so.1
+* nvidia /usr/lib/libnvcuvid.so.560.35.03
+* nvidia /usr/lib/libnvidia-cfg.so
+* nvidia /usr/lib/libnvidia-cfg.so.1
+* nvidia /usr/lib/libnvidia-cfg.so.560.35.03
+* nvidia /usr/lib/libnvidia-egl-wayland.so
+* nvidia /usr/lib/libnvidia-egl-wayland.so.1
+* nvidia /usr/lib/libnvidia-egl-wayland.so.1.1.13
+* nvidia /usr/lib/libnvidia-eglcore.so
+* nvidia /usr/lib/libnvidia-eglcore.so.560.35.03
+* nvidia /usr/lib/libnvidia-encode.so
+* nvidia /usr/lib/libnvidia-encode.so.1
+* nvidia /usr/lib/libnvidia-encode.so.560.35.03
+* nvidia /usr/lib/libnvidia-fbc.so
+* nvidia /usr/lib/libnvidia-fbc.so.1
+* nvidia /usr/lib/libnvidia-fbc.so.560.35.03
+* nvidia /usr/lib/libnvidia-glcore.so
+* nvidia /usr/lib/libnvidia-glcore.so.560.35.03
+* nvidia /usr/lib/libnvidia-glsi.so
+* nvidia /usr/lib/libnvidia-glsi.so.560.35.03
+* nvidia /usr/lib/libnvidia-glvkspirv.so.560.35.03
+* nvidia /usr/lib/libnvidia-gpucomp.so.560.35.03
+* nvidia /usr/lib/libnvidia-gtk2.so.560.35.03
+* nvidia /usr/lib/libnvidia-gtk3.so.560.35.03
+* nvidia /usr/lib/libnvidia-ml.so
+* nvidia /usr/lib/libnvidia-ml.so.1
+* nvidia /usr/lib/libnvidia-ml.so.560.35.03
+* nvidia /usr/lib/libnvidia-opencl.so.560.35.03
+* nvidia /usr/lib/libnvidia-ptxjitcompiler.so
+* nvidia /usr/lib/libnvidia-ptxjitcompiler.so.1
+* nvidia /usr/lib/libnvidia-ptxjitcompiler.so.560.35.03
+* nvidia /usr/lib/libnvidia-tls.so
+* nvidia /usr/lib/libnvidia-tls.so.560.35.03
+* nvidia /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-drm.ko.zst
+* nvidia /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
+* nvidia /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
+* nvidia /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia.ko.zst
+* nvidia /usr/lib/vdpau/libvdpau_nvidia.so
+* nvidia /usr/lib/vdpau/libvdpau_nvidia.so.1
+* nvidia /usr/lib/vdpau/libvdpau_nvidia.so.1.0
+* nvidia /usr/lib/vdpau/libvdpau_nvidia.so.560.35.03
+* nvidia /usr/lib/xorg/modules/drivers/nvidia_drv.so
+* nvidia /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so
+* nvidia /usr/lib/xorg/modules/nvidia/extensions/libglxserver_nvidia.so.560.35.03
+* nvidia /usr/share/doc/nvidia-560.35.03/html/acknowledgements.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/addressingcapabilities.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/addtlresources.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/appendices.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/audiosupport.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/commonproblems.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/configlaptop.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/configmultxscreens.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/configtwinview.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/depth30.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/displaydevicenames.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/dma_issues.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/dpi.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/dynamicboost.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/dynamicpowermanagement.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/editxconfig.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/egpu.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/faq.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/flippingubb.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/framelock.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/gbm.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/glxsupport.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/gpunames.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/gsp.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/i2c.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/index.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/installationandconfiguration.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/installdriver.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/installedcomponents.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/introduction.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/kernel_open.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/kms.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/knownissues.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/minimumrequirements.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/newusertips.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/ngx.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/nvidia-debugdump.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/nvidia-ml.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/nvidia-peermem.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/nvidia-persistenced.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/nvidia-smi.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/nvidiasettings.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/openglenvvariables.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/optimus.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/powermanagement.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/primerenderoffload.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/procinterface.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/profiles.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/programmingmodes.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/randr14.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/retpoline.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/selectdriver.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/sli.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/supportedchips.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/vdpausupport.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/wayland-issues.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/xcompositeextension.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/xconfigoptions.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/xineramaglx.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/xrandrextension.html
+* nvidia /usr/share/doc/nvidia-560.35.03/html/xwayland.html
+* nvidia /usr/share/doc/nvidia-560.35.03/LICENSE
+* nvidia /usr/share/doc/nvidia-560.35.03/README.txt
+* nvidia /usr/share/egl/egl_external_platform.d/10_nvidia_wayland.json
+* nvidia /usr/share/glvnd/egl_vendor.d/10_nvidia.json
+* nvidia /usr/share/man/man1/nvidia-smi.1.gz
+* nvidia /usr/share/nvidia/nvidia-application-profiles-560.35.03-key-documentation
+* nvidia /usr/share/nvidia/nvidia-application-profiles-560.35.03-rc
+* nvidia /usr/share/vulkan/icd.d/nvidia_icd.json

@@ -12,7 +12,7 @@ size = "4160716"
 usize = "17871256"
 sha1sum = "9a56e6a75e0b8fc578af3ea4280ed8c9aa7a16bd"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libglapi', 'libx11>=1.6.3-4', 'llvm-libs>=18.1.8', 'zstd']"
-reverse_depends = "['mesademos', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'mesademos', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Mesa Off-screen Rendering

@@ -12,7 +12,7 @@ size = "239884"
 usize = "1724930"
 sha1sum = "0b3505d32468877f96138b3cb3430487c39ab40b"
 depends = "['libkdepim>=24.05.2', 'pimcommon>=24.05.2']"
-reverse_depends = "['mailcommon']"
+reverse_depends = "['./mailcommon', 'mailcommon']"
 +++
 ### Description: 
 Mail importer library.

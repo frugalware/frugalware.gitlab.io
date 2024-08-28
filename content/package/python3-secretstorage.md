@@ -12,7 +12,7 @@ size = "22164"
 usize = "79483"
 sha1sum = "b588453806f1f0c08160ab3a47c67358d8869d79"
 depends = "['python3-cryptography', 'python3-jeepney']"
-reverse_depends = "['python3-keyring']"
+reverse_depends = "['./python3-keyring', 'python3-keyring']"
 +++
 ### Description: 
 Securely store passwords and other private data using the SecretService DBus API

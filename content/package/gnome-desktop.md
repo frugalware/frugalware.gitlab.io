@@ -1,276 +1,276 @@
 +++
 draft = false
-title = "gnome-desktop 44.0-1"
-version = "44.0-1"
+title = "./gnome-desktop 44.1-1"
+version = "44.1-1"
 description = "The GNOME Desktop"
-date = "2024-06-11T14:35:11"
-aliases = "/packages/220201"
+date = "2024-08-23T12:59:44"
+aliases = "/packages/222288"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "618980"
-usize = "3903140"
-sha1sum = "a22257c21b409c30ccaca1a1c1f5c661f265555f"
-depends = "['gsettings-desktop-schemas>=3.28.0', 'gtk+3>=3.24.0', 'iso-codes>=3.70-2', 'libseccomp', 'libxkbfile>=1.0.9-3', 'xkeyboard-config>=2.18-2']"
-reverse_depends = "['gnome-desktop-doc', 'lutris', 'xdg-desktop-portal-gnome']"
+size = "618464"
+usize = "3920064"
+sha1sum = "514ece6383c5928be1ba7feadecd06d8611f4218"
+depends = "['gsettings-desktop-schemas>=3.28.0', 'gtk+4', 'iso-codes>=3.70-2', 'libseccomp', 'libxkbfile>=1.0.9-3', 'xkeyboard-config>=2.18-2']"
 +++
 ### Description: 
 The GNOME Desktop
 
 ### Files: 
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-crossfade.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-slide-show.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-thumbnail.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-version.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-idle-monitor.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-languages.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-pnp-ids.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr-config.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-systemd.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-wall-clock.h
-* /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-xkb-info.h
-* /usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg-slide-show.h
-* /usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg.h
-* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-config.h
-* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-output-info.h
-* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-screen.h
-* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-types.h
-* /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-thumbnail.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-version.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-idle-monitor.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-languages.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-pnp-ids.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-systemd.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-wall-clock.h
-* /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-xkb-info.h
-* /usr/lib/girepository-1.0/GnomeBG-4.0.typelib
-* /usr/lib/girepository-1.0/GnomeDesktop-3.0.typelib
-* /usr/lib/girepository-1.0/GnomeDesktop-4.0.typelib
-* /usr/lib/girepository-1.0/GnomeRR-4.0.typelib
-* /usr/lib/gnome-desktop/gnome-desktop-debug/gnome-rr-debug
-* /usr/lib/gnome-desktop/gnome-desktop-debug/test-desktop-thumbnail
-* /usr/lib/gnome-desktop/gnome-desktop-debug/test-idle-monitor
-* /usr/lib/gnome-desktop/gnome-desktop-debug/test-languages
-* /usr/lib/gnome-desktop/gnome-desktop-debug/test-pnp-ids
-* /usr/lib/gnome-desktop/gnome-desktop-debug/test-wall-clock
-* /usr/lib/gnome-desktop/gnome-desktop-debug/test-xkb-info
-* /usr/lib/libgnome-bg-4.so
-* /usr/lib/libgnome-bg-4.so.2
-* /usr/lib/libgnome-bg-4.so.2.1.0
-* /usr/lib/libgnome-desktop-3.so
-* /usr/lib/libgnome-desktop-3.so.20
-* /usr/lib/libgnome-desktop-3.so.20.0.0
-* /usr/lib/libgnome-desktop-4.so
-* /usr/lib/libgnome-desktop-4.so.2
-* /usr/lib/libgnome-desktop-4.so.2.1.0
-* /usr/lib/libgnome-rr-4.so
-* /usr/lib/libgnome-rr-4.so.2
-* /usr/lib/libgnome-rr-4.so.2.1.0
-* /usr/lib/pkgconfig/gnome-bg-4.pc
-* /usr/lib/pkgconfig/gnome-desktop-3.0.pc
-* /usr/lib/pkgconfig/gnome-desktop-4.pc
-* /usr/lib/pkgconfig/gnome-rr-4.pc
-* /usr/share/doc/gnome-desktop-44.0/AUTHORS
-* /usr/share/doc/gnome-desktop-44.0/COPYING
-* /usr/share/doc/gnome-desktop-44.0/COPYING-DOCS
-* /usr/share/doc/gnome-desktop-44.0/COPYING.LIB
-* /usr/share/doc/gnome-desktop-44.0/NEWS
-* /usr/share/doc/gnome-desktop-44.0/README.md
-* /usr/share/gir-1.0/GnomeBG-4.0.gir
-* /usr/share/gir-1.0/GnomeDesktop-3.0.gir
-* /usr/share/gir-1.0/GnomeDesktop-4.0.gir
-* /usr/share/gir-1.0/GnomeRR-4.0.gir
-* /usr/share/help/ar/fdl/index.docbook
-* /usr/share/help/ar/gpl/index.docbook
-* /usr/share/help/ar/lgpl/index.docbook
-* /usr/share/help/C/fdl/index.docbook
-* /usr/share/help/C/gpl/index.docbook
-* /usr/share/help/C/lgpl/index.docbook
-* /usr/share/help/ca/fdl/index.docbook
-* /usr/share/help/ca/gpl/index.docbook
-* /usr/share/help/ca/lgpl/index.docbook
-* /usr/share/help/cs/fdl/index.docbook
-* /usr/share/help/cs/gpl/index.docbook
-* /usr/share/help/cs/lgpl/index.docbook
-* /usr/share/help/de/fdl/index.docbook
-* /usr/share/help/de/gpl/index.docbook
-* /usr/share/help/de/lgpl/index.docbook
-* /usr/share/help/el/fdl/index.docbook
-* /usr/share/help/el/gpl/index.docbook
-* /usr/share/help/el/lgpl/index.docbook
-* /usr/share/help/es/fdl/index.docbook
-* /usr/share/help/es/gpl/index.docbook
-* /usr/share/help/es/lgpl/index.docbook
-* /usr/share/help/eu/fdl/index.docbook
-* /usr/share/help/eu/gpl/index.docbook
-* /usr/share/help/eu/lgpl/index.docbook
-* /usr/share/help/fi/gpl/index.docbook
-* /usr/share/help/fi/lgpl/index.docbook
-* /usr/share/help/fr/fdl/index.docbook
-* /usr/share/help/fr/gpl/index.docbook
-* /usr/share/help/fr/lgpl/index.docbook
-* /usr/share/help/gl/fdl/index.docbook
-* /usr/share/help/gl/gpl/index.docbook
-* /usr/share/help/gl/lgpl/index.docbook
-* /usr/share/help/hr/fdl/index.docbook
-* /usr/share/help/hr/gpl/index.docbook
-* /usr/share/help/hr/lgpl/index.docbook
-* /usr/share/help/hu/fdl/index.docbook
-* /usr/share/help/hu/gpl/index.docbook
-* /usr/share/help/hu/lgpl/index.docbook
-* /usr/share/help/ko/fdl/index.docbook
-* /usr/share/help/ko/gpl/index.docbook
-* /usr/share/help/ko/lgpl/index.docbook
-* /usr/share/help/nds/gpl/index.docbook
-* /usr/share/help/oc/fdl/index.docbook
-* /usr/share/help/oc/gpl/index.docbook
-* /usr/share/help/oc/lgpl/index.docbook
-* /usr/share/help/pa/gpl/index.docbook
-* /usr/share/help/pa/lgpl/index.docbook
-* /usr/share/help/pt_BR/fdl/index.docbook
-* /usr/share/help/pt_BR/gpl/index.docbook
-* /usr/share/help/pt_BR/lgpl/index.docbook
-* /usr/share/help/sl/fdl/index.docbook
-* /usr/share/help/sl/gpl/index.docbook
-* /usr/share/help/sl/lgpl/index.docbook
-* /usr/share/help/sr/fdl/index.docbook
-* /usr/share/help/sr/gpl/index.docbook
-* /usr/share/help/sr@latin/gpl/index.docbook
-* /usr/share/help/sv/fdl/index.docbook
-* /usr/share/help/sv/gpl/index.docbook
-* /usr/share/help/sv/lgpl/index.docbook
-* /usr/share/help/tr/fdl/index.docbook
-* /usr/share/help/tr/gpl/index.docbook
-* /usr/share/help/tr/lgpl/index.docbook
-* /usr/share/help/uk/fdl/index.docbook
-* /usr/share/help/uk/gpl/index.docbook
-* /usr/share/help/uk/lgpl/index.docbook
-* /usr/share/help/vi/fdl/index.docbook
-* /usr/share/help/vi/gpl/index.docbook
-* /usr/share/help/vi/lgpl/index.docbook
-* /usr/share/help/zh_CN/fdl/index.docbook
-* /usr/share/help/zh_CN/gpl/index.docbook
-* /usr/share/help/zh_CN/lgpl/index.docbook
-* /usr/share/locale/ab/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/af/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/am/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/an/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ar/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/as/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ast/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/az/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/be/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/be@latin/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/bg/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/bn/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/br/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/bs/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ca/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ckb/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/crh/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/cs/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/csb/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/cy/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/da/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/de/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/dz/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/el/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/en/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/en@shaw/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/en_CA/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/eo/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/es/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/et/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/eu/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/fa/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/fi/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/fr/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/fur/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/fy/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ga/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/gd/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/gl/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/gu/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ha/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/he/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/hi/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/hr/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/hu/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/hy/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/id/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ig/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/is/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/it/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ja/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ka/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/kab/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/kg/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/kk/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/km/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/kn/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ko/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ku/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ky/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/li/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/lo/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/lt/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/lv/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mai/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mg/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mi/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mjw/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mk/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ml/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mn/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/mr/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ms/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/nb/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/nds/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ne/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/nl/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/nn/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/nso/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/oc/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/or/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/pa/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/pl/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ps/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/pt/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ro/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ru/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/rw/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sat/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/si/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sk/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sl/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sq/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sr/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/sv/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ta/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/te/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/tg/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/th/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/tk/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/tr/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ug/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/uk/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/ur/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/uz/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/vi/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/wa/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/xh/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/yi/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/yo/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/gnome-desktop-3.0.mo
-* /usr/share/locale/zu/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-crossfade.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-slide-show.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-thumbnail.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-version.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-idle-monitor.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-languages.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-pnp-ids.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr-config.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-systemd.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-wall-clock.h
+* gnome-desktop /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-xkb-info.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg-slide-show.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-config.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-output-info.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-screen.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-types.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-thumbnail.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-version.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-idle-monitor.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-languages.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-pnp-ids.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-systemd.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-wall-clock.h
+* gnome-desktop /usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-xkb-info.h
+* gnome-desktop /usr/lib/girepository-1.0/GnomeBG-4.0.typelib
+* gnome-desktop /usr/lib/girepository-1.0/GnomeDesktop-3.0.typelib
+* gnome-desktop /usr/lib/girepository-1.0/GnomeDesktop-4.0.typelib
+* gnome-desktop /usr/lib/girepository-1.0/GnomeRR-4.0.typelib
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/gnome-rr-debug
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/test-desktop-thumbnail
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/test-idle-monitor
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/test-languages
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/test-pnp-ids
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/test-wall-clock
+* gnome-desktop /usr/lib/gnome-desktop/gnome-desktop-debug/test-xkb-info
+* gnome-desktop /usr/lib/libgnome-bg-4.so
+* gnome-desktop /usr/lib/libgnome-bg-4.so.2
+* gnome-desktop /usr/lib/libgnome-bg-4.so.2.1.1
+* gnome-desktop /usr/lib/libgnome-desktop-3.so
+* gnome-desktop /usr/lib/libgnome-desktop-3.so.20
+* gnome-desktop /usr/lib/libgnome-desktop-3.so.20.0.0
+* gnome-desktop /usr/lib/libgnome-desktop-4.so
+* gnome-desktop /usr/lib/libgnome-desktop-4.so.2
+* gnome-desktop /usr/lib/libgnome-desktop-4.so.2.1.1
+* gnome-desktop /usr/lib/libgnome-rr-4.so
+* gnome-desktop /usr/lib/libgnome-rr-4.so.2
+* gnome-desktop /usr/lib/libgnome-rr-4.so.2.1.1
+* gnome-desktop /usr/lib/pkgconfig/gnome-bg-4.pc
+* gnome-desktop /usr/lib/pkgconfig/gnome-desktop-3.0.pc
+* gnome-desktop /usr/lib/pkgconfig/gnome-desktop-4.pc
+* gnome-desktop /usr/lib/pkgconfig/gnome-rr-4.pc
+* gnome-desktop /usr/share/doc/gnome-desktop-44.1/AUTHORS
+* gnome-desktop /usr/share/doc/gnome-desktop-44.1/COPYING
+* gnome-desktop /usr/share/doc/gnome-desktop-44.1/COPYING-DOCS
+* gnome-desktop /usr/share/doc/gnome-desktop-44.1/COPYING.LIB
+* gnome-desktop /usr/share/doc/gnome-desktop-44.1/NEWS
+* gnome-desktop /usr/share/doc/gnome-desktop-44.1/README.md
+* gnome-desktop /usr/share/gir-1.0/GnomeBG-4.0.gir
+* gnome-desktop /usr/share/gir-1.0/GnomeDesktop-3.0.gir
+* gnome-desktop /usr/share/gir-1.0/GnomeDesktop-4.0.gir
+* gnome-desktop /usr/share/gir-1.0/GnomeRR-4.0.gir
+* gnome-desktop /usr/share/help/ar/fdl/index.docbook
+* gnome-desktop /usr/share/help/ar/gpl/index.docbook
+* gnome-desktop /usr/share/help/ar/lgpl/index.docbook
+* gnome-desktop /usr/share/help/C/fdl/index.docbook
+* gnome-desktop /usr/share/help/C/gpl/index.docbook
+* gnome-desktop /usr/share/help/C/lgpl/index.docbook
+* gnome-desktop /usr/share/help/ca/fdl/index.docbook
+* gnome-desktop /usr/share/help/ca/gpl/index.docbook
+* gnome-desktop /usr/share/help/ca/lgpl/index.docbook
+* gnome-desktop /usr/share/help/cs/fdl/index.docbook
+* gnome-desktop /usr/share/help/cs/gpl/index.docbook
+* gnome-desktop /usr/share/help/cs/lgpl/index.docbook
+* gnome-desktop /usr/share/help/de/fdl/index.docbook
+* gnome-desktop /usr/share/help/de/gpl/index.docbook
+* gnome-desktop /usr/share/help/de/lgpl/index.docbook
+* gnome-desktop /usr/share/help/el/fdl/index.docbook
+* gnome-desktop /usr/share/help/el/gpl/index.docbook
+* gnome-desktop /usr/share/help/el/lgpl/index.docbook
+* gnome-desktop /usr/share/help/es/fdl/index.docbook
+* gnome-desktop /usr/share/help/es/gpl/index.docbook
+* gnome-desktop /usr/share/help/es/lgpl/index.docbook
+* gnome-desktop /usr/share/help/eu/fdl/index.docbook
+* gnome-desktop /usr/share/help/eu/gpl/index.docbook
+* gnome-desktop /usr/share/help/eu/lgpl/index.docbook
+* gnome-desktop /usr/share/help/fi/gpl/index.docbook
+* gnome-desktop /usr/share/help/fi/lgpl/index.docbook
+* gnome-desktop /usr/share/help/fr/fdl/index.docbook
+* gnome-desktop /usr/share/help/fr/gpl/index.docbook
+* gnome-desktop /usr/share/help/fr/lgpl/index.docbook
+* gnome-desktop /usr/share/help/gl/fdl/index.docbook
+* gnome-desktop /usr/share/help/gl/gpl/index.docbook
+* gnome-desktop /usr/share/help/gl/lgpl/index.docbook
+* gnome-desktop /usr/share/help/hr/fdl/index.docbook
+* gnome-desktop /usr/share/help/hr/gpl/index.docbook
+* gnome-desktop /usr/share/help/hr/lgpl/index.docbook
+* gnome-desktop /usr/share/help/hu/fdl/index.docbook
+* gnome-desktop /usr/share/help/hu/gpl/index.docbook
+* gnome-desktop /usr/share/help/hu/lgpl/index.docbook
+* gnome-desktop /usr/share/help/ko/fdl/index.docbook
+* gnome-desktop /usr/share/help/ko/gpl/index.docbook
+* gnome-desktop /usr/share/help/ko/lgpl/index.docbook
+* gnome-desktop /usr/share/help/nds/gpl/index.docbook
+* gnome-desktop /usr/share/help/oc/fdl/index.docbook
+* gnome-desktop /usr/share/help/oc/gpl/index.docbook
+* gnome-desktop /usr/share/help/oc/lgpl/index.docbook
+* gnome-desktop /usr/share/help/pa/gpl/index.docbook
+* gnome-desktop /usr/share/help/pa/lgpl/index.docbook
+* gnome-desktop /usr/share/help/pt_BR/fdl/index.docbook
+* gnome-desktop /usr/share/help/pt_BR/gpl/index.docbook
+* gnome-desktop /usr/share/help/pt_BR/lgpl/index.docbook
+* gnome-desktop /usr/share/help/sl/fdl/index.docbook
+* gnome-desktop /usr/share/help/sl/gpl/index.docbook
+* gnome-desktop /usr/share/help/sl/lgpl/index.docbook
+* gnome-desktop /usr/share/help/sr/fdl/index.docbook
+* gnome-desktop /usr/share/help/sr/gpl/index.docbook
+* gnome-desktop /usr/share/help/sr@latin/gpl/index.docbook
+* gnome-desktop /usr/share/help/sv/fdl/index.docbook
+* gnome-desktop /usr/share/help/sv/gpl/index.docbook
+* gnome-desktop /usr/share/help/sv/lgpl/index.docbook
+* gnome-desktop /usr/share/help/tr/fdl/index.docbook
+* gnome-desktop /usr/share/help/tr/gpl/index.docbook
+* gnome-desktop /usr/share/help/tr/lgpl/index.docbook
+* gnome-desktop /usr/share/help/uk/fdl/index.docbook
+* gnome-desktop /usr/share/help/uk/gpl/index.docbook
+* gnome-desktop /usr/share/help/uk/lgpl/index.docbook
+* gnome-desktop /usr/share/help/vi/fdl/index.docbook
+* gnome-desktop /usr/share/help/vi/gpl/index.docbook
+* gnome-desktop /usr/share/help/vi/lgpl/index.docbook
+* gnome-desktop /usr/share/help/zh_CN/fdl/index.docbook
+* gnome-desktop /usr/share/help/zh_CN/gpl/index.docbook
+* gnome-desktop /usr/share/help/zh_CN/lgpl/index.docbook
+* gnome-desktop /usr/share/locale/ab/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/af/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/am/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/an/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ar/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/as/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ast/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/az/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/be/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/be@latin/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/bg/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/bn/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/bn_IN/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/br/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/bs/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ca/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ckb/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/crh/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/cs/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/csb/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/cy/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/da/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/de/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/dz/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/el/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/en/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/en@shaw/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/en_CA/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/en_GB/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/eo/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/es/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/et/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/eu/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/fa/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/fi/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/fr/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/fur/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/fy/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ga/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/gd/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/gl/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/gu/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ha/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/he/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/hi/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/hr/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/hu/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/hy/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/id/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ig/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/is/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/it/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ja/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ka/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/kab/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/kg/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/kk/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/km/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/kn/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ko/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ku/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ky/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/li/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/lo/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/lt/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/lv/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mai/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mg/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mi/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mjw/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mk/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ml/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mn/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/mr/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ms/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/my/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/nb/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/nds/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ne/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/nl/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/nn/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/nso/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/oc/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/or/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/pa/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/pl/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ps/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/pt/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/pt_BR/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ro/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ru/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/rw/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sat/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/si/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sk/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sl/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sq/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sr/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sr@latin/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/sv/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ta/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/te/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/tg/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/th/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/tk/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/tr/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ug/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/uk/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/ur/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/uz/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/uz@cyrillic/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/vi/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/wa/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/xh/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/yi/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/yo/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/zh_CN/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/zh_HK/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/zh_TW/LC_MESSAGES/gnome-desktop-3.0.mo
+* gnome-desktop /usr/share/locale/zu/LC_MESSAGES/gnome-desktop-3.0.mo

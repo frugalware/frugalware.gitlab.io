@@ -1,213 +1,212 @@
 +++
 draft = false
-title = "kimap 24.05.2-1"
-version = "24.05.2-1"
+title = "./kimap 24.08.0-1"
+version = "24.08.0-1"
 description = "C++ API for IMAP support."
-date = "2024-07-05T09:17:40"
-aliases = "/packages/218320"
+date = "2024-08-22T14:06:17"
+aliases = "/packages/222362"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "251244"
-usize = "985311"
-sha1sum = "be12a88892dffd50e535385c7ed2d5bce62c920d"
-depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.3.0', 'kmime>=24.05.2']"
-reverse_depends = "['kdepim-runtime', 'pimcommon']"
+size = "251028"
+usize = "989116"
+sha1sum = "ca21374d4abb082f4fb8a28155a8844fa9d67b13"
+depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.5.0', 'kmime>=24.08.0']"
 +++
 ### Description: 
 C++ API for IMAP support.
 
 ### Files: 
-* /usr/include/KPim6/KIMAP/kimap/Acl
-* /usr/include/KPim6/KIMAP/KIMAP/Acl
-* /usr/include/KPim6/KIMAP/kimap/acl.h
-* /usr/include/KPim6/KIMAP/kimap/AclJobBase
-* /usr/include/KPim6/KIMAP/KIMAP/AclJobBase
-* /usr/include/KPim6/KIMAP/kimap/acljobbase.h
-* /usr/include/KPim6/KIMAP/kimap/AppendJob
-* /usr/include/KPim6/KIMAP/KIMAP/AppendJob
-* /usr/include/KPim6/KIMAP/kimap/appendjob.h
-* /usr/include/KPim6/KIMAP/kimap/CapabilitiesJob
-* /usr/include/KPim6/KIMAP/KIMAP/CapabilitiesJob
-* /usr/include/KPim6/KIMAP/kimap/capabilitiesjob.h
-* /usr/include/KPim6/KIMAP/kimap/CloseJob
-* /usr/include/KPim6/KIMAP/KIMAP/CloseJob
-* /usr/include/KPim6/KIMAP/kimap/closejob.h
-* /usr/include/KPim6/KIMAP/kimap/CopyJob
-* /usr/include/KPim6/KIMAP/KIMAP/CopyJob
-* /usr/include/KPim6/KIMAP/kimap/copyjob.h
-* /usr/include/KPim6/KIMAP/kimap/CreateJob
-* /usr/include/KPim6/KIMAP/KIMAP/CreateJob
-* /usr/include/KPim6/KIMAP/kimap/createjob.h
-* /usr/include/KPim6/KIMAP/kimap/DeleteAclJob
-* /usr/include/KPim6/KIMAP/KIMAP/DeleteAclJob
-* /usr/include/KPim6/KIMAP/kimap/deleteacljob.h
-* /usr/include/KPim6/KIMAP/kimap/DeleteJob
-* /usr/include/KPim6/KIMAP/KIMAP/DeleteJob
-* /usr/include/KPim6/KIMAP/kimap/deletejob.h
-* /usr/include/KPim6/KIMAP/kimap/EnableJob
-* /usr/include/KPim6/KIMAP/KIMAP/EnableJob
-* /usr/include/KPim6/KIMAP/kimap/enablejob.h
-* /usr/include/KPim6/KIMAP/kimap/ExpungeJob
-* /usr/include/KPim6/KIMAP/KIMAP/ExpungeJob
-* /usr/include/KPim6/KIMAP/kimap/expungejob.h
-* /usr/include/KPim6/KIMAP/kimap/FetchJob
-* /usr/include/KPim6/KIMAP/KIMAP/FetchJob
-* /usr/include/KPim6/KIMAP/kimap/fetchjob.h
-* /usr/include/KPim6/KIMAP/kimap/GetAclJob
-* /usr/include/KPim6/KIMAP/KIMAP/GetAclJob
-* /usr/include/KPim6/KIMAP/kimap/getacljob.h
-* /usr/include/KPim6/KIMAP/kimap/GetMetaDataJob
-* /usr/include/KPim6/KIMAP/KIMAP/GetMetaDataJob
-* /usr/include/KPim6/KIMAP/kimap/getmetadatajob.h
-* /usr/include/KPim6/KIMAP/kimap/GetQuotaJob
-* /usr/include/KPim6/KIMAP/KIMAP/GetQuotaJob
-* /usr/include/KPim6/KIMAP/kimap/getquotajob.h
-* /usr/include/KPim6/KIMAP/kimap/GetQuotaRootJob
-* /usr/include/KPim6/KIMAP/KIMAP/GetQuotaRootJob
-* /usr/include/KPim6/KIMAP/kimap/getquotarootjob.h
-* /usr/include/KPim6/KIMAP/kimap/IdJob
-* /usr/include/KPim6/KIMAP/KIMAP/IdJob
-* /usr/include/KPim6/KIMAP/kimap/idjob.h
-* /usr/include/KPim6/KIMAP/kimap/IdleJob
-* /usr/include/KPim6/KIMAP/KIMAP/IdleJob
-* /usr/include/KPim6/KIMAP/kimap/idlejob.h
-* /usr/include/KPim6/KIMAP/kimap/ImapSet
-* /usr/include/KPim6/KIMAP/KIMAP/ImapSet
-* /usr/include/KPim6/KIMAP/kimap/imapset.h
-* /usr/include/KPim6/KIMAP/kimap/Job
-* /usr/include/KPim6/KIMAP/KIMAP/Job
-* /usr/include/KPim6/KIMAP/kimap/job.h
-* /usr/include/KPim6/KIMAP/kimap/kimap_export.h
-* /usr/include/KPim6/KIMAP/kimap/ListJob
-* /usr/include/KPim6/KIMAP/KIMAP/ListJob
-* /usr/include/KPim6/KIMAP/kimap/listjob.h
-* /usr/include/KPim6/KIMAP/kimap/ListRightsJob
-* /usr/include/KPim6/KIMAP/KIMAP/ListRightsJob
-* /usr/include/KPim6/KIMAP/kimap/listrightsjob.h
-* /usr/include/KPim6/KIMAP/kimap/LoginJob
-* /usr/include/KPim6/KIMAP/KIMAP/LoginJob
-* /usr/include/KPim6/KIMAP/kimap/loginjob.h
-* /usr/include/KPim6/KIMAP/kimap/LogoutJob
-* /usr/include/KPim6/KIMAP/KIMAP/LogoutJob
-* /usr/include/KPim6/KIMAP/kimap/logoutjob.h
-* /usr/include/KPim6/KIMAP/kimap/MetaDataJobBase
-* /usr/include/KPim6/KIMAP/KIMAP/MetaDataJobBase
-* /usr/include/KPim6/KIMAP/kimap/metadatajobbase.h
-* /usr/include/KPim6/KIMAP/kimap/MoveJob
-* /usr/include/KPim6/KIMAP/KIMAP/MoveJob
-* /usr/include/KPim6/KIMAP/kimap/movejob.h
-* /usr/include/KPim6/KIMAP/kimap/MyRightsJob
-* /usr/include/KPim6/KIMAP/KIMAP/MyRightsJob
-* /usr/include/KPim6/KIMAP/kimap/myrightsjob.h
-* /usr/include/KPim6/KIMAP/kimap/NamespaceJob
-* /usr/include/KPim6/KIMAP/KIMAP/NamespaceJob
-* /usr/include/KPim6/KIMAP/kimap/namespacejob.h
-* /usr/include/KPim6/KIMAP/kimap/QuotaJobBase
-* /usr/include/KPim6/KIMAP/KIMAP/QuotaJobBase
-* /usr/include/KPim6/KIMAP/kimap/quotajobbase.h
-* /usr/include/KPim6/KIMAP/kimap/RenameJob
-* /usr/include/KPim6/KIMAP/KIMAP/RenameJob
-* /usr/include/KPim6/KIMAP/kimap/renamejob.h
-* /usr/include/KPim6/KIMAP/kimap/RFCCodecs
-* /usr/include/KPim6/KIMAP/KIMAP/RFCCodecs
-* /usr/include/KPim6/KIMAP/kimap/rfccodecs.h
-* /usr/include/KPim6/KIMAP/kimap/SearchJob
-* /usr/include/KPim6/KIMAP/KIMAP/SearchJob
-* /usr/include/KPim6/KIMAP/kimap/searchjob.h
-* /usr/include/KPim6/KIMAP/kimap/SelectJob
-* /usr/include/KPim6/KIMAP/KIMAP/SelectJob
-* /usr/include/KPim6/KIMAP/kimap/selectjob.h
-* /usr/include/KPim6/KIMAP/kimap/Session
-* /usr/include/KPim6/KIMAP/KIMAP/Session
-* /usr/include/KPim6/KIMAP/kimap/session.h
-* /usr/include/KPim6/KIMAP/kimap/SessionUiProxy
-* /usr/include/KPim6/KIMAP/KIMAP/SessionUiProxy
-* /usr/include/KPim6/KIMAP/kimap/sessionuiproxy.h
-* /usr/include/KPim6/KIMAP/kimap/SetAclJob
-* /usr/include/KPim6/KIMAP/KIMAP/SetAclJob
-* /usr/include/KPim6/KIMAP/kimap/setacljob.h
-* /usr/include/KPim6/KIMAP/kimap/SetMetaDataJob
-* /usr/include/KPim6/KIMAP/KIMAP/SetMetaDataJob
-* /usr/include/KPim6/KIMAP/kimap/setmetadatajob.h
-* /usr/include/KPim6/KIMAP/kimap/SetQuotaJob
-* /usr/include/KPim6/KIMAP/KIMAP/SetQuotaJob
-* /usr/include/KPim6/KIMAP/kimap/setquotajob.h
-* /usr/include/KPim6/KIMAP/kimap/StatusJob
-* /usr/include/KPim6/KIMAP/KIMAP/StatusJob
-* /usr/include/KPim6/KIMAP/kimap/statusjob.h
-* /usr/include/KPim6/KIMAP/kimap/StoreJob
-* /usr/include/KPim6/KIMAP/KIMAP/StoreJob
-* /usr/include/KPim6/KIMAP/kimap/storejob.h
-* /usr/include/KPim6/KIMAP/kimap/SubscribeJob
-* /usr/include/KPim6/KIMAP/KIMAP/SubscribeJob
-* /usr/include/KPim6/KIMAP/kimap/subscribejob.h
-* /usr/include/KPim6/KIMAP/kimap/UnsubscribeJob
-* /usr/include/KPim6/KIMAP/KIMAP/UnsubscribeJob
-* /usr/include/KPim6/KIMAP/kimap/unsubscribejob.h
-* /usr/include/KPim6/KIMAP/kimap_version.h
-* /usr/lib/cmake/KPim6IMAP/KPim6IMAPConfig.cmake
-* /usr/lib/cmake/KPim6IMAP/KPim6IMAPConfigVersion.cmake
-* /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets-release.cmake
-* /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets.cmake
-* /usr/lib/libKPim6IMAP.so
-* /usr/lib/libKPim6IMAP.so.6
-* /usr/lib/libKPim6IMAP.so.6.1.2
-* /usr/share/doc/kimap-24.05.2/README.md
-* /usr/share/doc/kimap-24.05.2/README.md.license
-* /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ast/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/bs/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ca/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/cs/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/da/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/de/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/el/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/eo/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/es/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/et/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/eu/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/fi/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/fr/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ga/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/gl/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/he/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/hu/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ia/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/it/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ja/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ka/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/kk/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/km/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ko/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/lt/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/lv/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/mr/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/nb/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/nds/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/nl/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/nn/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/pa/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/pl/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/pt/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ro/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ru/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sk/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sl/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sq/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sr/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/sv/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ta/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/tr/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/ug/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/uk/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libkimap6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libkimap6.mo
-* /usr/share/qlogging-categories6/kimap.categories
-* /usr/share/qlogging-categories6/kimap.renamecategories
+* kimap /usr/include/KPim6/KIMAP/KIMAP/Acl
+* kimap /usr/include/KPim6/KIMAP/kimap/Acl
+* kimap /usr/include/KPim6/KIMAP/kimap/acl.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/AclJobBase
+* kimap /usr/include/KPim6/KIMAP/kimap/AclJobBase
+* kimap /usr/include/KPim6/KIMAP/kimap/acljobbase.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/AppendJob
+* kimap /usr/include/KPim6/KIMAP/kimap/AppendJob
+* kimap /usr/include/KPim6/KIMAP/kimap/appendjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/CapabilitiesJob
+* kimap /usr/include/KPim6/KIMAP/kimap/CapabilitiesJob
+* kimap /usr/include/KPim6/KIMAP/kimap/capabilitiesjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/CloseJob
+* kimap /usr/include/KPim6/KIMAP/kimap/CloseJob
+* kimap /usr/include/KPim6/KIMAP/kimap/closejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/CopyJob
+* kimap /usr/include/KPim6/KIMAP/kimap/CopyJob
+* kimap /usr/include/KPim6/KIMAP/kimap/copyjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/CreateJob
+* kimap /usr/include/KPim6/KIMAP/kimap/CreateJob
+* kimap /usr/include/KPim6/KIMAP/kimap/createjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/DeleteAclJob
+* kimap /usr/include/KPim6/KIMAP/kimap/DeleteAclJob
+* kimap /usr/include/KPim6/KIMAP/kimap/deleteacljob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/DeleteJob
+* kimap /usr/include/KPim6/KIMAP/kimap/DeleteJob
+* kimap /usr/include/KPim6/KIMAP/kimap/deletejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/EnableJob
+* kimap /usr/include/KPim6/KIMAP/kimap/EnableJob
+* kimap /usr/include/KPim6/KIMAP/kimap/enablejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/ExpungeJob
+* kimap /usr/include/KPim6/KIMAP/kimap/ExpungeJob
+* kimap /usr/include/KPim6/KIMAP/kimap/expungejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/FetchJob
+* kimap /usr/include/KPim6/KIMAP/kimap/FetchJob
+* kimap /usr/include/KPim6/KIMAP/kimap/fetchjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/GetAclJob
+* kimap /usr/include/KPim6/KIMAP/kimap/GetAclJob
+* kimap /usr/include/KPim6/KIMAP/kimap/getacljob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/GetMetaDataJob
+* kimap /usr/include/KPim6/KIMAP/kimap/GetMetaDataJob
+* kimap /usr/include/KPim6/KIMAP/kimap/getmetadatajob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/GetQuotaJob
+* kimap /usr/include/KPim6/KIMAP/kimap/GetQuotaJob
+* kimap /usr/include/KPim6/KIMAP/kimap/getquotajob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/GetQuotaRootJob
+* kimap /usr/include/KPim6/KIMAP/kimap/GetQuotaRootJob
+* kimap /usr/include/KPim6/KIMAP/kimap/getquotarootjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/IdJob
+* kimap /usr/include/KPim6/KIMAP/kimap/IdJob
+* kimap /usr/include/KPim6/KIMAP/kimap/idjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/IdleJob
+* kimap /usr/include/KPim6/KIMAP/kimap/IdleJob
+* kimap /usr/include/KPim6/KIMAP/kimap/idlejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/ImapSet
+* kimap /usr/include/KPim6/KIMAP/kimap/ImapSet
+* kimap /usr/include/KPim6/KIMAP/kimap/imapset.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/Job
+* kimap /usr/include/KPim6/KIMAP/kimap/Job
+* kimap /usr/include/KPim6/KIMAP/kimap/job.h
+* kimap /usr/include/KPim6/KIMAP/kimap/kimap_export.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/ListJob
+* kimap /usr/include/KPim6/KIMAP/kimap/ListJob
+* kimap /usr/include/KPim6/KIMAP/kimap/listjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/ListRightsJob
+* kimap /usr/include/KPim6/KIMAP/kimap/ListRightsJob
+* kimap /usr/include/KPim6/KIMAP/kimap/listrightsjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/LoginJob
+* kimap /usr/include/KPim6/KIMAP/kimap/LoginJob
+* kimap /usr/include/KPim6/KIMAP/kimap/loginjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/LogoutJob
+* kimap /usr/include/KPim6/KIMAP/kimap/LogoutJob
+* kimap /usr/include/KPim6/KIMAP/kimap/logoutjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/MetaDataJobBase
+* kimap /usr/include/KPim6/KIMAP/kimap/MetaDataJobBase
+* kimap /usr/include/KPim6/KIMAP/kimap/metadatajobbase.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/MoveJob
+* kimap /usr/include/KPim6/KIMAP/kimap/MoveJob
+* kimap /usr/include/KPim6/KIMAP/kimap/movejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/MyRightsJob
+* kimap /usr/include/KPim6/KIMAP/kimap/MyRightsJob
+* kimap /usr/include/KPim6/KIMAP/kimap/myrightsjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/NamespaceJob
+* kimap /usr/include/KPim6/KIMAP/kimap/NamespaceJob
+* kimap /usr/include/KPim6/KIMAP/kimap/namespacejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/QuotaJobBase
+* kimap /usr/include/KPim6/KIMAP/kimap/QuotaJobBase
+* kimap /usr/include/KPim6/KIMAP/kimap/quotajobbase.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/RenameJob
+* kimap /usr/include/KPim6/KIMAP/kimap/RenameJob
+* kimap /usr/include/KPim6/KIMAP/kimap/renamejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/RFCCodecs
+* kimap /usr/include/KPim6/KIMAP/kimap/RFCCodecs
+* kimap /usr/include/KPim6/KIMAP/kimap/rfccodecs.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SearchJob
+* kimap /usr/include/KPim6/KIMAP/kimap/SearchJob
+* kimap /usr/include/KPim6/KIMAP/kimap/searchjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SelectJob
+* kimap /usr/include/KPim6/KIMAP/kimap/SelectJob
+* kimap /usr/include/KPim6/KIMAP/kimap/selectjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/Session
+* kimap /usr/include/KPim6/KIMAP/kimap/Session
+* kimap /usr/include/KPim6/KIMAP/kimap/session.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SessionUiProxy
+* kimap /usr/include/KPim6/KIMAP/kimap/SessionUiProxy
+* kimap /usr/include/KPim6/KIMAP/kimap/sessionuiproxy.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SetAclJob
+* kimap /usr/include/KPim6/KIMAP/kimap/SetAclJob
+* kimap /usr/include/KPim6/KIMAP/kimap/setacljob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SetMetaDataJob
+* kimap /usr/include/KPim6/KIMAP/kimap/SetMetaDataJob
+* kimap /usr/include/KPim6/KIMAP/kimap/setmetadatajob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SetQuotaJob
+* kimap /usr/include/KPim6/KIMAP/kimap/SetQuotaJob
+* kimap /usr/include/KPim6/KIMAP/kimap/setquotajob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/StatusJob
+* kimap /usr/include/KPim6/KIMAP/kimap/StatusJob
+* kimap /usr/include/KPim6/KIMAP/kimap/statusjob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/StoreJob
+* kimap /usr/include/KPim6/KIMAP/kimap/StoreJob
+* kimap /usr/include/KPim6/KIMAP/kimap/storejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/SubscribeJob
+* kimap /usr/include/KPim6/KIMAP/kimap/SubscribeJob
+* kimap /usr/include/KPim6/KIMAP/kimap/subscribejob.h
+* kimap /usr/include/KPim6/KIMAP/KIMAP/UnsubscribeJob
+* kimap /usr/include/KPim6/KIMAP/kimap/UnsubscribeJob
+* kimap /usr/include/KPim6/KIMAP/kimap/unsubscribejob.h
+* kimap /usr/include/KPim6/KIMAP/kimap_version.h
+* kimap /usr/lib/cmake/KPim6IMAP/KPim6IMAPConfig.cmake
+* kimap /usr/lib/cmake/KPim6IMAP/KPim6IMAPConfigVersion.cmake
+* kimap /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets-release.cmake
+* kimap /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets.cmake
+* kimap /usr/lib/libKPim6IMAP.so
+* kimap /usr/lib/libKPim6IMAP.so.6
+* kimap /usr/lib/libKPim6IMAP.so.6.2.0
+* kimap /usr/share/doc/kimap-24.08.0/README.md
+* kimap /usr/share/doc/kimap-24.08.0/README.md.license
+* kimap /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ast/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/bs/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ca/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ca@valencia/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/cs/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/da/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/de/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/el/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/en_GB/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/eo/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/es/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/et/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/eu/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/fi/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/fr/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ga/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/gl/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/he/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/hu/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ia/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/it/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ja/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ka/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/kk/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/km/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ko/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/lt/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/lv/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/mr/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/nb/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/nds/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/nl/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/nn/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/pa/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/pl/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/pt/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/pt_BR/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ro/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ru/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sk/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sl/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sq/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sr/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sr@latin/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/sv/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ta/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/tr/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/ug/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/uk/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/zh_CN/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/locale/zh_TW/LC_MESSAGES/libkimap6.mo
+* kimap /usr/share/qlogging-categories6/kimap.categories
+* kimap /usr/share/qlogging-categories6/kimap.renamecategories

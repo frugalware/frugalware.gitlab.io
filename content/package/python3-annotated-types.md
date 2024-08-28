@@ -12,7 +12,7 @@ size = "19516"
 usize = "115353"
 sha1sum = "116660180816223b37a8d528a95ca58104603f3b"
 depends = "['python3']"
-reverse_depends = "['python3-pydantic']"
+reverse_depends = "['./python3-pydantic', 'python3-pydantic']"
 +++
 ### Description: 
 Reusable constraint types to use with typing.Annotated

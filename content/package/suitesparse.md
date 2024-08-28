@@ -12,7 +12,7 @@ size = "16709968"
 usize = "120467572"
 sha1sum = "7258e396c28de2e18ac44d85092dc68b96d2b1fe"
 depends = "['gmp', 'lapack', 'libgomp', 'mpfr']"
-reverse_depends = "['ceres-solver', 'coin-or-clp', 'gegl', 'julia']"
+reverse_depends = "['./coin-or-clp', 'ceres-solver', 'coin-or-clp', 'gegl', 'julia']"
 +++
 ### Description: 
 A collection of sparse matrix libraries

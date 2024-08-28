@@ -12,7 +12,7 @@ size = "2869332"
 usize = "10032036"
 sha1sum = "bc9560503502fa9d83850d029acc35207607ae3f"
 depends = "['libseccomp']"
-reverse_depends = "['containerd', 'docker']"
+reverse_depends = "['./containerd', './docker', 'containerd', 'docker']"
 +++
 ### Description: 
 CLI tool for spawning and running containers according to the OCI specification.

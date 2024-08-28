@@ -12,7 +12,7 @@ size = "432716"
 usize = "2817175"
 sha1sum = "f1b9b587c60df8bc4aa1a1abdd471d00144ceb31"
 depends = "['lcms2>=2.8-2', 'libjpeg-turbo']"
-reverse_depends = "['efl', 'freeimage', 'gegl', 'imagemagick', 'kimageformats', 'kimageformats5', 'kstars', 'libkdcraw', 'nomacs', 'openimageio']"
+reverse_depends = "['./imagemagick', './libkdcraw', 'efl', 'freeimage', 'gegl', 'imagemagick', 'kimageformats', 'kimageformats5', 'kstars', 'libkdcraw', 'nomacs', 'openimageio']"
 +++
 ### Description: 
 A library for reading RAW files obtained from digital photo cameras.

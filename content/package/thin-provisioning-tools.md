@@ -12,7 +12,7 @@ size = "989912"
 usize = "3232166"
 sha1sum = "1a500d5983befddf5dcfc7a92aae9ed8263b89c3"
 depends = "['libcap', 'libgcc', 'libudev']"
-reverse_depends = "['lvm2']"
+reverse_depends = "['./lvm2', 'lvm2']"
 +++
 ### Description: 
 Suite of tools for manipulating the metadata of the dm-thin device-mapper target

@@ -12,7 +12,7 @@ size = "1173300"
 usize = "4065417"
 sha1sum = "0d03489c91473b539695d001d9360cd96575776c"
 depends = "['glibc>=2.34']"
-reverse_depends = "['aacplusenc', 'blender', 'calf', 'imagemagick', 'insight-toolkit', 'julia', 'labplot', 'libkeyfinder', 'libpulse', 'libsamplerate', 'libvips', 'ncmpcpp', 'octave', 'zita-convolver']"
+reverse_depends = "['./imagemagick', 'aacplusenc', 'blender', 'calf', 'imagemagick', 'insight-toolkit', 'julia', 'labplot', 'libkeyfinder', 'libpulse', 'libsamplerate', 'libvips', 'ncmpcpp', 'octave', 'zita-convolver']"
 license = "GPL-2"
 +++
 ### Description: 

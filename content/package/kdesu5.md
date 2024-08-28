@@ -12,7 +12,7 @@ size = "66092"
 usize = "253738"
 sha1sum = "02739d8c0a0e9e1817d42124fae7236c84917322"
 depends = "['kpty5>=5.116.0', 'kservice5>=5.116.0']"
-reverse_depends = "['cervisia']"
+reverse_depends = "['./cervisia', 'cervisia']"
 +++
 ### Description: 
 User interface for running shell commands with root privileges.

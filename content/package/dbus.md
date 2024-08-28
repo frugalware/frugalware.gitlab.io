@@ -12,7 +12,7 @@ size = "513880"
 usize = "1675382"
 sha1sum = "6cc43ac0d4dfce801bdb6c084e52bb381a5b767b"
 depends = "['expat>=2.1.0-5', 'libsystemd>=242', 'scriptlet-core']"
-reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
+reverse_depends = "['./kitty', 'at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
 +++
 ### Description: 
 A message bus system

@@ -12,7 +12,7 @@ size = "1106756"
 usize = "4163379"
 sha1sum = "1ba15f7b62769507864a15ffe7bb65f93833f8bb"
 depends = "['bzip2>=1.0.6-18', 'ncurses>=6.1', 'readline>=8.0-3', 'zlib>=1.2.12']"
-reverse_depends = "['android-tools', 'babe', 'clamav', 'cmst', 'fish', 'git', 'grep', 'juk', 'julia', 'kimagemapeditor', 'kmouth', 'ksmtp', 'kup', 'libgit2', 'libktorrent', 'lumina-desktop', 'pavucontrol-qt', 'qt5-networkauth', 'ripgrep', 'sdlmame', 'systemd', 'util-linux', 'vlc', 'vulkan-lunarg-tools', 'wget', 'wget2']"
+reverse_depends = "['./clamav', './ksmtp', 'android-tools', 'babe', 'clamav', 'cmst', 'fish', 'git', 'grep', 'juk', 'julia', 'kimagemapeditor', 'kmouth', 'ksmtp', 'kup', 'libgit2', 'libktorrent', 'lumina-desktop', 'pavucontrol-qt', 'qt5-networkauth', 'ripgrep', 'sdlmame', 'systemd', 'util-linux', 'vlc', 'vulkan-lunarg-tools', 'wget', 'wget2']"
 +++
 ### Description: 
 Perl-compatible regular expression library (version 2).

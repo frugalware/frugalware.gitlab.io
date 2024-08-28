@@ -12,7 +12,7 @@ size = "28300"
 usize = "96021"
 sha1sum = "64a6fb29399628a0e4b235a860498b6b46aebcc9"
 depends = "['glibc>=2.34']"
-reverse_depends = "['k3b', 'vlc-musepack', 'xine-lib']"
+reverse_depends = "['./k3b', 'k3b', 'vlc-musepack', 'xine-lib']"
 +++
 ### Description: 
 Musepack decoding library.

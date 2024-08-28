@@ -1,216 +1,215 @@
 +++
 draft = false
-title = "kitinerary 24.05.2-3"
-version = "24.05.2-3"
+title = "./kitinerary 24.08.0-1"
+version = "24.08.0-1"
 description = "Data model and extraction system for travel reservation information"
-date = "2024-08-02T14:32:30"
-aliases = "/packages/219723"
+date = "2024-08-22T17:44:07"
+aliases = "/packages/222314"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1419664"
-usize = "4078870"
-sha1sum = "c8f415ffe2f3e111a0a784904fc5de5a6e8b40d9"
-depends = "['kcalendarcore>=6.4.0', 'kcontacts>=6.4.0', 'ki18n>=6.4.0', 'kmime>=6.4.0', 'kpkpass>=24.05.2', 'poppler>=24.08.0', 'zxing-cpp']"
-reverse_depends = "['itinerary', 'kdepim-addons']"
+size = "1421076"
+usize = "4090851"
+sha1sum = "6b95abd6ab91fd88c84a60cdc4c1fdff07a8fa85"
+depends = "['kcalendarcore>=6.5.0', 'kcontacts>=6.5.0', 'ki18n>=6.5.0', 'kmime>=6.5.0', 'kpkpass>=24.08.0', 'poppler>=24.08.0', 'zxing-cpp']"
 +++
 ### Description: 
 Data model and extraction system for travel reservation information
 
 ### Files: 
-* /usr/include/KPim6/KItinerary/AbstractExtractor
-* /usr/include/KPim6/kitinerary/abstractextractor.h
-* /usr/include/KPim6/KItinerary/Action
-* /usr/include/KPim6/kitinerary/action.h
-* /usr/include/KPim6/KItinerary/AlphaId
-* /usr/include/KPim6/kitinerary/alphaid.h
-* /usr/include/KPim6/KItinerary/BarcodeDecoder
-* /usr/include/KPim6/kitinerary/barcodedecoder.h
-* /usr/include/KPim6/KItinerary/BERElement
-* /usr/include/KPim6/kitinerary/berelement.h
-* /usr/include/KPim6/KItinerary/BoatTrip
-* /usr/include/KPim6/kitinerary/boattrip.h
-* /usr/include/KPim6/KItinerary/Brand
-* /usr/include/KPim6/kitinerary/brand.h
-* /usr/include/KPim6/KItinerary/BusTrip
-* /usr/include/KPim6/kitinerary/bustrip.h
-* /usr/include/KPim6/KItinerary/CalendarHandler
-* /usr/include/KPim6/kitinerary/calendarhandler.h
-* /usr/include/KPim6/KItinerary/CountryDb
-* /usr/include/KPim6/kitinerary/countrydb.h
-* /usr/include/KPim6/KItinerary/CreativeWork
-* /usr/include/KPim6/kitinerary/creativework.h
-* /usr/include/KPim6/KItinerary/Datatypes
-* /usr/include/KPim6/kitinerary/datatypes.h
-* /usr/include/KPim6/kitinerary/datatypes_impl.h
-* /usr/include/KPim6/KItinerary/DocumentUtil
-* /usr/include/KPim6/kitinerary/documentutil.h
-* /usr/include/KPim6/KItinerary/ELBTicket
-* /usr/include/KPim6/kitinerary/elbticket.h
-* /usr/include/KPim6/KItinerary/Event
-* /usr/include/KPim6/kitinerary/event.h
-* /usr/include/KPim6/KItinerary/ExtractorCapabilities
-* /usr/include/KPim6/kitinerary/extractorcapabilities.h
-* /usr/include/KPim6/KItinerary/ExtractorDocumentNode
-* /usr/include/KPim6/kitinerary/extractordocumentnode.h
-* /usr/include/KPim6/KItinerary/ExtractorDocumentNodeFactory
-* /usr/include/KPim6/kitinerary/extractordocumentnodefactory.h
-* /usr/include/KPim6/KItinerary/ExtractorDocumentProcessor
-* /usr/include/KPim6/kitinerary/extractordocumentprocessor.h
-* /usr/include/KPim6/KItinerary/ExtractorEngine
-* /usr/include/KPim6/kitinerary/extractorengine.h
-* /usr/include/KPim6/KItinerary/ExtractorFilter
-* /usr/include/KPim6/kitinerary/extractorfilter.h
-* /usr/include/KPim6/KItinerary/ExtractorPostprocessor
-* /usr/include/KPim6/kitinerary/extractorpostprocessor.h
-* /usr/include/KPim6/KItinerary/ExtractorRepository
-* /usr/include/KPim6/kitinerary/extractorrepository.h
-* /usr/include/KPim6/KItinerary/ExtractorResult
-* /usr/include/KPim6/kitinerary/extractorresult.h
-* /usr/include/KPim6/KItinerary/ExtractorValidator
-* /usr/include/KPim6/kitinerary/extractorvalidator.h
-* /usr/include/KPim6/KItinerary/File
-* /usr/include/KPim6/kitinerary/file.h
-* /usr/include/KPim6/KItinerary/Flight
-* /usr/include/KPim6/kitinerary/flight.h
-* /usr/include/KPim6/KItinerary/HtmlDocument
-* /usr/include/KPim6/kitinerary/htmldocument.h
-* /usr/include/KPim6/KItinerary/HttpResponse
-* /usr/include/KPim6/kitinerary/httpresponse.h
-* /usr/include/KPim6/KItinerary/IataBcbp
-* /usr/include/KPim6/kitinerary/iatabcbp.h
-* /usr/include/KPim6/KItinerary/IataBcbpSections
-* /usr/include/KPim6/kitinerary/iatabcbpsections.h
-* /usr/include/KPim6/kitinerary/internal/instance_counter.h
-* /usr/include/KPim6/kitinerary/internal/parameter_type.h
-* /usr/include/KPim6/kitinerary/internal/strict_equal.h
-* /usr/include/KPim6/kitinerary/internal/strict_less.h
-* /usr/include/KPim6/KItinerary/JsonLdDocument
-* /usr/include/KPim6/kitinerary/jsonlddocument.h
-* /usr/include/KPim6/kitinerary/kitinerary_export.h
-* /usr/include/KPim6/KItinerary/KnowledgeDb
-* /usr/include/KPim6/kitinerary/knowledgedb.h
-* /usr/include/KPim6/KItinerary/LocationUtil
-* /usr/include/KPim6/kitinerary/locationutil.h
-* /usr/include/KPim6/KItinerary/MergeUtil
-* /usr/include/KPim6/kitinerary/mergeutil.h
-* /usr/include/KPim6/KItinerary/Organization
-* /usr/include/KPim6/kitinerary/organization.h
-* /usr/include/KPim6/KItinerary/PdfDocument
-* /usr/include/KPim6/kitinerary/pdfdocument.h
-* /usr/include/KPim6/KItinerary/PdfImage
-* /usr/include/KPim6/kitinerary/pdfimage.h
-* /usr/include/KPim6/KItinerary/PdfLink
-* /usr/include/KPim6/kitinerary/pdflink.h
-* /usr/include/KPim6/KItinerary/Person
-* /usr/include/KPim6/kitinerary/person.h
-* /usr/include/KPim6/KItinerary/Place
-* /usr/include/KPim6/kitinerary/place.h
-* /usr/include/KPim6/KItinerary/PriceUtil
-* /usr/include/KPim6/kitinerary/priceutil.h
-* /usr/include/KPim6/KItinerary/ProgramMembership
-* /usr/include/KPim6/kitinerary/programmembership.h
-* /usr/include/KPim6/KItinerary/Rct2Ticket
-* /usr/include/KPim6/kitinerary/rct2ticket.h
-* /usr/include/KPim6/KItinerary/RentalCar
-* /usr/include/KPim6/kitinerary/rentalcar.h
-* /usr/include/KPim6/KItinerary/Reservation
-* /usr/include/KPim6/kitinerary/reservation.h
-* /usr/include/KPim6/KItinerary/ScriptExtractor
-* /usr/include/KPim6/kitinerary/scriptextractor.h
-* /usr/include/KPim6/KItinerary/SortUtil
-* /usr/include/KPim6/kitinerary/sortutil.h
-* /usr/include/KPim6/KItinerary/SSBTicketBase
-* /usr/include/KPim6/kitinerary/ssbticketbase.h
-* /usr/include/KPim6/KItinerary/SSBv1Ticket
-* /usr/include/KPim6/kitinerary/ssbv1ticket.h
-* /usr/include/KPim6/KItinerary/SSBv2Ticket
-* /usr/include/KPim6/kitinerary/ssbv2ticket.h
-* /usr/include/KPim6/KItinerary/SSBv3Ticket
-* /usr/include/KPim6/kitinerary/ssbv3ticket.h
-* /usr/include/KPim6/KItinerary/Taxi
-* /usr/include/KPim6/kitinerary/taxi.h
-* /usr/include/KPim6/KItinerary/Ticket
-* /usr/include/KPim6/kitinerary/ticket.h
-* /usr/include/KPim6/KItinerary/Token
-* /usr/include/KPim6/kitinerary/token.h
-* /usr/include/KPim6/KItinerary/TrainTrip
-* /usr/include/KPim6/kitinerary/traintrip.h
-* /usr/include/KPim6/KItinerary/Uic9183Block
-* /usr/include/KPim6/kitinerary/uic9183block.h
-* /usr/include/KPim6/KItinerary/Uic9183Head
-* /usr/include/KPim6/kitinerary/uic9183head.h
-* /usr/include/KPim6/KItinerary/Uic9183Header
-* /usr/include/KPim6/kitinerary/uic9183header.h
-* /usr/include/KPim6/KItinerary/Uic9183Parser
-* /usr/include/KPim6/kitinerary/uic9183parser.h
-* /usr/include/KPim6/KItinerary/Uic9183TicketLayout
-* /usr/include/KPim6/kitinerary/uic9183ticketlayout.h
-* /usr/include/KPim6/KItinerary/Uic9183Utils
-* /usr/include/KPim6/kitinerary/uic9183utils.h
-* /usr/include/KPim6/KItinerary/VdvBasicTypes
-* /usr/include/KPim6/kitinerary/vdvbasictypes.h
-* /usr/include/KPim6/KItinerary/VdvTicket
-* /usr/include/KPim6/kitinerary/vdvticket.h
-* /usr/include/KPim6/KItinerary/VdvTicketContent
-* /usr/include/KPim6/kitinerary/vdvticketcontent.h
-* /usr/include/KPim6/KItinerary/VdvTicketParser
-* /usr/include/KPim6/kitinerary/vdvticketparser.h
-* /usr/include/KPim6/KItinerary/Vendor0080Block
-* /usr/include/KPim6/kitinerary/vendor0080block.h
-* /usr/include/KPim6/KItinerary/Vendor0080VUBlockData
-* /usr/include/KPim6/kitinerary/vendor0080vublockdata.h
-* /usr/include/KPim6/KItinerary/Vendor1154Block
-* /usr/include/KPim6/kitinerary/vendor1154block.h
-* /usr/include/KPim6/KItinerary/Visit
-* /usr/include/KPim6/kitinerary/visit.h
-* /usr/include/KPim6/kitinerary_version.h
-* /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryConfig.cmake
-* /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryConfigVersion.cmake
-* /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryTargets-release.cmake
-* /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryTargets.cmake
-* /usr/lib/kitinerary/kf6/kitinerary-extractor
-* /usr/lib/libKPim6Itinerary.so
-* /usr/lib/libKPim6Itinerary.so.6
-* /usr/lib/libKPim6Itinerary.so.6.1.2
-* /usr/share/doc/kitinerary-24.05.2/README.md
-* /usr/share/doc/kitinerary-24.05.2/README.md.license
-* /usr/share/locale/ar/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ast/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ca/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/cs/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/da/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/de/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/eo/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/es/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/et/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/eu/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/fi/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/fr/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/gl/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/he/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ia/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/it/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ja/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ka/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ko/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/lt/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/lv/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/nl/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/nn/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/pl/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/pt/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ru/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/sk/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/sl/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/sv/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/ta/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/tr/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/uk/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kitinerary6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kitinerary6.mo
-* /usr/share/mime/packages/application-vnd-kde-itinerary.xml
-* /usr/share/qlogging-categories6/org_kde_kitinerary.categories
+* kitinerary /usr/include/KPim6/KItinerary/AbstractExtractor
+* kitinerary /usr/include/KPim6/kitinerary/abstractextractor.h
+* kitinerary /usr/include/KPim6/KItinerary/Action
+* kitinerary /usr/include/KPim6/kitinerary/action.h
+* kitinerary /usr/include/KPim6/KItinerary/AlphaId
+* kitinerary /usr/include/KPim6/kitinerary/alphaid.h
+* kitinerary /usr/include/KPim6/KItinerary/BarcodeDecoder
+* kitinerary /usr/include/KPim6/kitinerary/barcodedecoder.h
+* kitinerary /usr/include/KPim6/KItinerary/BERElement
+* kitinerary /usr/include/KPim6/kitinerary/berelement.h
+* kitinerary /usr/include/KPim6/KItinerary/BoatTrip
+* kitinerary /usr/include/KPim6/kitinerary/boattrip.h
+* kitinerary /usr/include/KPim6/KItinerary/Brand
+* kitinerary /usr/include/KPim6/kitinerary/brand.h
+* kitinerary /usr/include/KPim6/KItinerary/BusTrip
+* kitinerary /usr/include/KPim6/kitinerary/bustrip.h
+* kitinerary /usr/include/KPim6/KItinerary/CalendarHandler
+* kitinerary /usr/include/KPim6/kitinerary/calendarhandler.h
+* kitinerary /usr/include/KPim6/KItinerary/CountryDb
+* kitinerary /usr/include/KPim6/kitinerary/countrydb.h
+* kitinerary /usr/include/KPim6/KItinerary/CreativeWork
+* kitinerary /usr/include/KPim6/kitinerary/creativework.h
+* kitinerary /usr/include/KPim6/KItinerary/Datatypes
+* kitinerary /usr/include/KPim6/kitinerary/datatypes.h
+* kitinerary /usr/include/KPim6/kitinerary/datatypes_impl.h
+* kitinerary /usr/include/KPim6/KItinerary/DocumentUtil
+* kitinerary /usr/include/KPim6/kitinerary/documentutil.h
+* kitinerary /usr/include/KPim6/KItinerary/ELBTicket
+* kitinerary /usr/include/KPim6/kitinerary/elbticket.h
+* kitinerary /usr/include/KPim6/KItinerary/Event
+* kitinerary /usr/include/KPim6/kitinerary/event.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorCapabilities
+* kitinerary /usr/include/KPim6/kitinerary/extractorcapabilities.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorDocumentNode
+* kitinerary /usr/include/KPim6/kitinerary/extractordocumentnode.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorDocumentNodeFactory
+* kitinerary /usr/include/KPim6/kitinerary/extractordocumentnodefactory.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorDocumentProcessor
+* kitinerary /usr/include/KPim6/kitinerary/extractordocumentprocessor.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorEngine
+* kitinerary /usr/include/KPim6/kitinerary/extractorengine.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorFilter
+* kitinerary /usr/include/KPim6/kitinerary/extractorfilter.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorPostprocessor
+* kitinerary /usr/include/KPim6/kitinerary/extractorpostprocessor.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorRepository
+* kitinerary /usr/include/KPim6/kitinerary/extractorrepository.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorResult
+* kitinerary /usr/include/KPim6/kitinerary/extractorresult.h
+* kitinerary /usr/include/KPim6/KItinerary/ExtractorValidator
+* kitinerary /usr/include/KPim6/kitinerary/extractorvalidator.h
+* kitinerary /usr/include/KPim6/KItinerary/File
+* kitinerary /usr/include/KPim6/kitinerary/file.h
+* kitinerary /usr/include/KPim6/KItinerary/Flight
+* kitinerary /usr/include/KPim6/kitinerary/flight.h
+* kitinerary /usr/include/KPim6/KItinerary/HtmlDocument
+* kitinerary /usr/include/KPim6/kitinerary/htmldocument.h
+* kitinerary /usr/include/KPim6/KItinerary/HttpResponse
+* kitinerary /usr/include/KPim6/kitinerary/httpresponse.h
+* kitinerary /usr/include/KPim6/KItinerary/IataBcbp
+* kitinerary /usr/include/KPim6/kitinerary/iatabcbp.h
+* kitinerary /usr/include/KPim6/KItinerary/IataBcbpSections
+* kitinerary /usr/include/KPim6/kitinerary/iatabcbpsections.h
+* kitinerary /usr/include/KPim6/kitinerary/internal/instance_counter.h
+* kitinerary /usr/include/KPim6/kitinerary/internal/parameter_type.h
+* kitinerary /usr/include/KPim6/kitinerary/internal/strict_equal.h
+* kitinerary /usr/include/KPim6/kitinerary/internal/strict_less.h
+* kitinerary /usr/include/KPim6/KItinerary/JsonLdDocument
+* kitinerary /usr/include/KPim6/kitinerary/jsonlddocument.h
+* kitinerary /usr/include/KPim6/kitinerary/kitinerary_export.h
+* kitinerary /usr/include/KPim6/KItinerary/KnowledgeDb
+* kitinerary /usr/include/KPim6/kitinerary/knowledgedb.h
+* kitinerary /usr/include/KPim6/KItinerary/LocationUtil
+* kitinerary /usr/include/KPim6/kitinerary/locationutil.h
+* kitinerary /usr/include/KPim6/KItinerary/MergeUtil
+* kitinerary /usr/include/KPim6/kitinerary/mergeutil.h
+* kitinerary /usr/include/KPim6/KItinerary/Organization
+* kitinerary /usr/include/KPim6/kitinerary/organization.h
+* kitinerary /usr/include/KPim6/KItinerary/PdfDocument
+* kitinerary /usr/include/KPim6/kitinerary/pdfdocument.h
+* kitinerary /usr/include/KPim6/KItinerary/PdfImage
+* kitinerary /usr/include/KPim6/kitinerary/pdfimage.h
+* kitinerary /usr/include/KPim6/KItinerary/PdfLink
+* kitinerary /usr/include/KPim6/kitinerary/pdflink.h
+* kitinerary /usr/include/KPim6/KItinerary/Person
+* kitinerary /usr/include/KPim6/kitinerary/person.h
+* kitinerary /usr/include/KPim6/KItinerary/Place
+* kitinerary /usr/include/KPim6/kitinerary/place.h
+* kitinerary /usr/include/KPim6/KItinerary/PriceUtil
+* kitinerary /usr/include/KPim6/kitinerary/priceutil.h
+* kitinerary /usr/include/KPim6/KItinerary/ProgramMembership
+* kitinerary /usr/include/KPim6/kitinerary/programmembership.h
+* kitinerary /usr/include/KPim6/KItinerary/Rct2Ticket
+* kitinerary /usr/include/KPim6/kitinerary/rct2ticket.h
+* kitinerary /usr/include/KPim6/KItinerary/RentalCar
+* kitinerary /usr/include/KPim6/kitinerary/rentalcar.h
+* kitinerary /usr/include/KPim6/KItinerary/Reservation
+* kitinerary /usr/include/KPim6/kitinerary/reservation.h
+* kitinerary /usr/include/KPim6/KItinerary/ScriptExtractor
+* kitinerary /usr/include/KPim6/kitinerary/scriptextractor.h
+* kitinerary /usr/include/KPim6/KItinerary/SortUtil
+* kitinerary /usr/include/KPim6/kitinerary/sortutil.h
+* kitinerary /usr/include/KPim6/KItinerary/SSBTicketBase
+* kitinerary /usr/include/KPim6/kitinerary/ssbticketbase.h
+* kitinerary /usr/include/KPim6/KItinerary/SSBv1Ticket
+* kitinerary /usr/include/KPim6/kitinerary/ssbv1ticket.h
+* kitinerary /usr/include/KPim6/KItinerary/SSBv2Ticket
+* kitinerary /usr/include/KPim6/kitinerary/ssbv2ticket.h
+* kitinerary /usr/include/KPim6/KItinerary/SSBv3Ticket
+* kitinerary /usr/include/KPim6/kitinerary/ssbv3ticket.h
+* kitinerary /usr/include/KPim6/KItinerary/Taxi
+* kitinerary /usr/include/KPim6/kitinerary/taxi.h
+* kitinerary /usr/include/KPim6/KItinerary/Ticket
+* kitinerary /usr/include/KPim6/kitinerary/ticket.h
+* kitinerary /usr/include/KPim6/KItinerary/Token
+* kitinerary /usr/include/KPim6/kitinerary/token.h
+* kitinerary /usr/include/KPim6/KItinerary/TrainTrip
+* kitinerary /usr/include/KPim6/kitinerary/traintrip.h
+* kitinerary /usr/include/KPim6/KItinerary/Uic9183Block
+* kitinerary /usr/include/KPim6/kitinerary/uic9183block.h
+* kitinerary /usr/include/KPim6/KItinerary/Uic9183Head
+* kitinerary /usr/include/KPim6/kitinerary/uic9183head.h
+* kitinerary /usr/include/KPim6/KItinerary/Uic9183Header
+* kitinerary /usr/include/KPim6/kitinerary/uic9183header.h
+* kitinerary /usr/include/KPim6/KItinerary/Uic9183Parser
+* kitinerary /usr/include/KPim6/kitinerary/uic9183parser.h
+* kitinerary /usr/include/KPim6/KItinerary/Uic9183TicketLayout
+* kitinerary /usr/include/KPim6/kitinerary/uic9183ticketlayout.h
+* kitinerary /usr/include/KPim6/KItinerary/Uic9183Utils
+* kitinerary /usr/include/KPim6/kitinerary/uic9183utils.h
+* kitinerary /usr/include/KPim6/KItinerary/VdvBasicTypes
+* kitinerary /usr/include/KPim6/kitinerary/vdvbasictypes.h
+* kitinerary /usr/include/KPim6/KItinerary/VdvTicket
+* kitinerary /usr/include/KPim6/kitinerary/vdvticket.h
+* kitinerary /usr/include/KPim6/KItinerary/VdvTicketContent
+* kitinerary /usr/include/KPim6/kitinerary/vdvticketcontent.h
+* kitinerary /usr/include/KPim6/KItinerary/VdvTicketParser
+* kitinerary /usr/include/KPim6/kitinerary/vdvticketparser.h
+* kitinerary /usr/include/KPim6/KItinerary/Vendor0080Block
+* kitinerary /usr/include/KPim6/kitinerary/vendor0080block.h
+* kitinerary /usr/include/KPim6/KItinerary/Vendor0080VUBlockData
+* kitinerary /usr/include/KPim6/kitinerary/vendor0080vublockdata.h
+* kitinerary /usr/include/KPim6/KItinerary/Vendor1154Block
+* kitinerary /usr/include/KPim6/kitinerary/vendor1154block.h
+* kitinerary /usr/include/KPim6/KItinerary/Visit
+* kitinerary /usr/include/KPim6/kitinerary/visit.h
+* kitinerary /usr/include/KPim6/kitinerary_version.h
+* kitinerary /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryConfig.cmake
+* kitinerary /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryConfigVersion.cmake
+* kitinerary /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryTargets-release.cmake
+* kitinerary /usr/lib/cmake/KPim6Itinerary/KPim6ItineraryTargets.cmake
+* kitinerary /usr/lib/kitinerary/kf6/kitinerary-extractor
+* kitinerary /usr/lib/libKPim6Itinerary.so
+* kitinerary /usr/lib/libKPim6Itinerary.so.6
+* kitinerary /usr/lib/libKPim6Itinerary.so.6.2.0
+* kitinerary /usr/share/doc/kitinerary-24.08.0/README.md
+* kitinerary /usr/share/doc/kitinerary-24.08.0/README.md.license
+* kitinerary /usr/share/locale/ar/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ast/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ca/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ca@valencia/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/cs/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/da/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/de/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/en_GB/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/eo/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/es/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/et/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/eu/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/fi/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/fr/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/gl/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/he/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ia/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/it/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ja/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ka/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ko/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/lt/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/lv/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/nl/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/nn/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/pl/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/pt/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/pt_BR/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ru/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/sk/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/sl/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/sv/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/ta/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/tr/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/uk/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/zh_CN/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/locale/zh_TW/LC_MESSAGES/kitinerary6.mo
+* kitinerary /usr/share/mime/packages/application-vnd-kde-itinerary.xml
+* kitinerary /usr/share/qlogging-categories6/org_kde_kitinerary.categories

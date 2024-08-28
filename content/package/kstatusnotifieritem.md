@@ -12,7 +12,7 @@ size = "107272"
 usize = "374441"
 sha1sum = "3d67f7caa3b4bb4ab988b7564b9a588f280bb33f"
 depends = "['kwindowsystem>=6.5.0']"
-reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmousetool', 'knotes', 'konversation', 'krdp', 'krfb', 'kruler', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
+reverse_depends = "['./kalarm', './kdeconnect-kde', './kdf', './kget', './kgpg', './kleopatra', './kmail', './kmousetool', './konversation', './krfb', './kruler', './ktimer', './neochat', './spectacle', './yakuake', 'akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmousetool', 'knotes', 'konversation', 'krdp', 'krfb', 'kruler', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++
 ### Description: 
 Status Notifier Items

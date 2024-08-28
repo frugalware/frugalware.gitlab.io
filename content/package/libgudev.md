@@ -12,7 +12,7 @@ size = "33084"
 usize = "205644"
 sha1sum = "b356d935de8d0a25d339364ff4a5af7fc6e4c302"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1-2', 'libudev>=242']"
-reverse_depends = "['colord', 'fprintd', 'gammu', 'gst1-plugins-bad', 'gst1-plugins-good-video4linux2', 'iio-sensor-proxy', 'libmanette', 'libwacom', 'lvm2-libs', 'modemmanager', 'switcheroo-control', 'udisks2', 'umockdev', 'upower', 'webkit-gtk3']"
+reverse_depends = "['./upower', 'colord', 'fprintd', 'gammu', 'gst1-plugins-bad', 'gst1-plugins-good-video4linux2', 'iio-sensor-proxy', 'libmanette', 'libwacom', 'lvm2-libs', 'modemmanager', 'switcheroo-control', 'udisks2', 'umockdev', 'upower', 'webkit-gtk3']"
 license = "LGPL2.1"
 +++
 ### Description: 

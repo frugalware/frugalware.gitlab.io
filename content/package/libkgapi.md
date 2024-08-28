@@ -1,468 +1,467 @@
 +++
 draft = false
-title = "libkgapi 24.05.2-1"
-version = "24.05.2-1"
+title = "./libkgapi 24.08.0-1"
+version = "24.08.0-1"
 description = "A KDE-based library for accessing various Google services via their public API."
-date = "2024-07-05T10:29:31"
-aliases = "/packages/168642"
+date = "2024-08-22T15:06:46"
+aliases = "/packages/222367"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "553100"
-usize = "3184104"
-sha1sum = "63ac66b6d6e13130eb961e3d7c2dc553c3a4a368"
-depends = "['cyrus-sasl', 'kcalendarcore>=6.3.0', 'kcontacts>=6.3.0', 'kio>=6.3.0', 'kwallet>=6.3.0', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
-reverse_depends = "['kdepim-runtime', 'kio-gdrive', 'kmailtransport']"
+size = "550908"
+usize = "3197348"
+sha1sum = "eba699e6367917f1dcca2a9ef9803feb31b82787"
+depends = "['cyrus-sasl', 'kcalendarcore>=6.5.0', 'kcontacts>=6.5.0', 'kio>=6.5.0', 'kwallet>=6.5.0', 'qt6-svg>=6.7.1', 'qt6-webengine>=6.7.1']"
 +++
 ### Description: 
 A KDE-based library for accessing various Google services via their public API.
 
 ### Files: 
-* /usr/include/KPim6/KGAPI/KGAPI/Account
-* /usr/include/KPim6/KGAPI/kgapi/account.h
-* /usr/include/KPim6/KGAPI/KGAPI/AccountInfo
-* /usr/include/KPim6/KGAPI/kgapi/accountinfo.h
-* /usr/include/KPim6/KGAPI/KGAPI/AccountInfoFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/accountinfofetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/AccountManager
-* /usr/include/KPim6/KGAPI/kgapi/accountmanager.h
-* /usr/include/KPim6/KGAPI/KGAPI/AuthJob
-* /usr/include/KPim6/KGAPI/kgapi/authjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/Blog
-* /usr/include/KPim6/KGAPI/kgapi/blogger/blog.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/BlogFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/blogfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/Comment
-* /usr/include/KPim6/KGAPI/kgapi/blogger/comment.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentApproveJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/commentapprovejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentDeleteContentJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/commentdeletecontentjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/commentdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/commentfetchjob.h
-* /usr/include/KPim6/KGAPI/kgapi/blogger/kgapiblogger_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/Page
-* /usr/include/KPim6/KGAPI/kgapi/blogger/page.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/pagecreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/pagedeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/pagefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/pagemodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/Post
-* /usr/include/KPim6/KGAPI/kgapi/blogger/post.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/postcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/postdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/postfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/postmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostPublishJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/postpublishjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostSearchJob
-* /usr/include/KPim6/KGAPI/kgapi/blogger/postsearchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/Calendar
-* /usr/include/KPim6/KGAPI/kgapi/calendar/calendar.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/calendarcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/calendardeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/calendarfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/calendarmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/Enums
-* /usr/include/KPim6/KGAPI/kgapi/calendar/enums.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/Event
-* /usr/include/KPim6/KGAPI/kgapi/calendar/event.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/eventcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/eventdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/eventfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/eventmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventMoveJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/eventmovejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/FreeBusyQueryJob
-* /usr/include/KPim6/KGAPI/kgapi/calendar/freebusyqueryjob.h
-* /usr/include/KPim6/KGAPI/kgapi/calendar/kgapicalendar_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/Calendar/Reminder
-* /usr/include/KPim6/KGAPI/kgapi/calendar/reminder.h
-* /usr/include/KPim6/KGAPI/KGAPI/CreateJob
-* /usr/include/KPim6/KGAPI/kgapi/createjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/DeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/deletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/About
-* /usr/include/KPim6/KGAPI/kgapi/drive/about.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/AboutFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/aboutfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/App
-* /usr/include/KPim6/KGAPI/kgapi/drive/app.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/AppFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/appfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/Change
-* /usr/include/KPim6/KGAPI/kgapi/drive/change.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ChangeFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/changefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReference
-* /usr/include/KPim6/KGAPI/kgapi/drive/childreference.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReferenceCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/childreferencecreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReferenceDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/childreferencedeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReferenceFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/childreferencefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/Drives
-* /usr/include/KPim6/KGAPI/kgapi/drive/drives.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/drivescreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/drivesdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/drivesfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesHideJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/driveshidejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/drivesmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesSearchQuery
-* /usr/include/KPim6/KGAPI/kgapi/drive/drivessearchquery.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/File
-* /usr/include/KPim6/KGAPI/kgapi/drive/file.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractDataJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractdatajob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractResumableJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractresumablejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractUploadJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractuploadjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileCopyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filecopyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filecreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filedeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileFetchContentJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filefetchcontentjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filemodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileResumableCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileresumablecreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileResumableModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileresumablemodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileSearchQuery
-* /usr/include/KPim6/KGAPI/kgapi/drive/filesearchquery.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileTouchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filetouchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileTrashJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/filetrashjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/FileUntrashJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/fileuntrashjob.h
-* /usr/include/KPim6/KGAPI/kgapi/drive/kgapidrive_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReference
-* /usr/include/KPim6/KGAPI/kgapi/drive/parentreference.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReferenceCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/parentreferencecreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReferenceDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/parentreferencedeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReferenceFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/parentreferencefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/Permission
-* /usr/include/KPim6/KGAPI/kgapi/drive/permission.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/permissioncreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/permissiondeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/permissionfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/permissionmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/Revision
-* /usr/include/KPim6/KGAPI/kgapi/drive/revision.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/RevisionDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/revisiondeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/RevisionFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/revisionfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/RevisionModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/revisionmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/SearchQuery
-* /usr/include/KPim6/KGAPI/kgapi/drive/searchquery.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/Teamdrive
-* /usr/include/KPim6/KGAPI/kgapi/drive/teamdrive.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivecreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivedeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivemodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveSearchQuery
-* /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivesearchquery.h
-* /usr/include/KPim6/KGAPI/KGAPI/Drive/User
-* /usr/include/KPim6/KGAPI/kgapi/drive/user.h
-* /usr/include/KPim6/KGAPI/KGAPI/FetchJob
-* /usr/include/KPim6/KGAPI/kgapi/fetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Job
-* /usr/include/KPim6/KGAPI/kgapi/job.h
-* /usr/include/KPim6/KGAPI/kgapi/kgapicore_export.h
-* /usr/include/KPim6/KGAPI/kgapi/latitude/kgapilatitude_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/Latitude/Latitude
-* /usr/include/KPim6/KGAPI/kgapi/latitude/latitude.h
-* /usr/include/KPim6/KGAPI/KGAPI/Latitude/Location
-* /usr/include/KPim6/KGAPI/kgapi/latitude/location.h
-* /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/latitude/locationcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/latitude/locationdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationFetchHistoryJob
-* /usr/include/KPim6/KGAPI/kgapi/latitude/locationfetchhistoryjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/latitude/locationfetchjob.h
-* /usr/include/KPim6/KGAPI/kgapi/maps/kgapimaps_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapMarker
-* /usr/include/KPim6/KGAPI/kgapi/maps/staticmapmarker.h
-* /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapPath
-* /usr/include/KPim6/KGAPI/kgapi/maps/staticmappath.h
-* /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapTileFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/maps/staticmaptilefetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapUrl
-* /usr/include/KPim6/KGAPI/kgapi/maps/staticmapurl.h
-* /usr/include/KPim6/KGAPI/KGAPI/ModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/modifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Object
-* /usr/include/KPim6/KGAPI/kgapi/object.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Address
-* /usr/include/KPim6/KGAPI/kgapi/people/address.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/AgeRangeType
-* /usr/include/KPim6/KGAPI/kgapi/people/agerangetype.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Biography
-* /usr/include/KPim6/KGAPI/kgapi/people/biography.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Birthday
-* /usr/include/KPim6/KGAPI/kgapi/people/birthday.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/BraggingRights
-* /usr/include/KPim6/KGAPI/kgapi/people/braggingrights.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/CalendarUrl
-* /usr/include/KPim6/KGAPI/kgapi/people/calendarurl.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ClientData
-* /usr/include/KPim6/KGAPI/kgapi/people/clientdata.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroup
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroup.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroupcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroupdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroupfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupMembership
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroupmembership.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupMetadata
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroupmetadata.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/people/contactgroupmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/CoverPhoto
-* /usr/include/KPim6/KGAPI/kgapi/people/coverphoto.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/DomainMembership
-* /usr/include/KPim6/KGAPI/kgapi/people/domainmembership.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/EmailAddress
-* /usr/include/KPim6/KGAPI/kgapi/people/emailaddress.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Event
-* /usr/include/KPim6/KGAPI/kgapi/people/event.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ExternalId
-* /usr/include/KPim6/KGAPI/kgapi/people/externalid.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/FieldMetadata
-* /usr/include/KPim6/KGAPI/kgapi/people/fieldmetadata.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/FileAs
-* /usr/include/KPim6/KGAPI/kgapi/people/fileas.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Gender
-* /usr/include/KPim6/KGAPI/kgapi/people/gender.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/GroupClientData
-* /usr/include/KPim6/KGAPI/kgapi/people/groupclientdata.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/IMClient
-* /usr/include/KPim6/KGAPI/kgapi/people/imclient.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Interest
-* /usr/include/KPim6/KGAPI/kgapi/people/interest.h
-* /usr/include/KPim6/KGAPI/kgapi/people/kgapipeople_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Location
-* /usr/include/KPim6/KGAPI/kgapi/people/location.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Membership
-* /usr/include/KPim6/KGAPI/kgapi/people/membership.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/MiscKeyword
-* /usr/include/KPim6/KGAPI/kgapi/people/misckeyword.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Name
-* /usr/include/KPim6/KGAPI/kgapi/people/name.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Nickname
-* /usr/include/KPim6/KGAPI/kgapi/people/nickname.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Occupation
-* /usr/include/KPim6/KGAPI/kgapi/people/occupation.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Organization
-* /usr/include/KPim6/KGAPI/kgapi/people/organization.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Person
-* /usr/include/KPim6/KGAPI/kgapi/people/person.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/people/personcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/people/persondeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/people/personfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonLocale
-* /usr/include/KPim6/KGAPI/kgapi/people/personlocale.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonMetadata
-* /usr/include/KPim6/KGAPI/kgapi/people/personmetadata.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/people/personmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonPhotoDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/people/personphotodeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PersonPhotoUpdateJob
-* /usr/include/KPim6/KGAPI/kgapi/people/personphotoupdatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/PhoneNumber
-* /usr/include/KPim6/KGAPI/kgapi/people/phonenumber.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Photo
-* /usr/include/KPim6/KGAPI/kgapi/people/photo.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/ProfileMetadata
-* /usr/include/KPim6/KGAPI/kgapi/people/profilemetadata.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Relation
-* /usr/include/KPim6/KGAPI/kgapi/people/relation.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/RelationshipInterest
-* /usr/include/KPim6/KGAPI/kgapi/people/relationshipinterest.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/RelationshipStatus
-* /usr/include/KPim6/KGAPI/kgapi/people/relationshipstatus.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Residence
-* /usr/include/KPim6/KGAPI/kgapi/people/residence.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/SIPAddress
-* /usr/include/KPim6/KGAPI/kgapi/people/sipaddress.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Skill
-* /usr/include/KPim6/KGAPI/kgapi/people/skill.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Source
-* /usr/include/KPim6/KGAPI/kgapi/people/source.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Tagline
-* /usr/include/KPim6/KGAPI/kgapi/people/tagline.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/Url
-* /usr/include/KPim6/KGAPI/kgapi/people/url.h
-* /usr/include/KPim6/KGAPI/KGAPI/People/UserDefined
-* /usr/include/KPim6/KGAPI/kgapi/people/userdefined.h
-* /usr/include/KPim6/KGAPI/kgapi/tasks/kgapitasks_export.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/Task
-* /usr/include/KPim6/KGAPI/kgapi/tasks/task.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/taskcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/taskdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/taskfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskList
-* /usr/include/KPim6/KGAPI/kgapi/tasks/tasklist.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListCreateJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistcreatejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListDeleteJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistdeletejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListFetchJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistfetchjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskModifyJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/taskmodifyjob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskMoveJob
-* /usr/include/KPim6/KGAPI/kgapi/tasks/taskmovejob.h
-* /usr/include/KPim6/KGAPI/KGAPI/Types
-* /usr/include/KPim6/KGAPI/kgapi/types.h
-* /usr/include/KPim6/KGAPI/KGAPI/Utils
-* /usr/include/KPim6/KGAPI/kgapi/utils.h
-* /usr/include/KPim6/KGAPI/kgapi_version.h
-* /usr/lib/cmake/KPim6GAPI/KPim6GAPIConfig.cmake
-* /usr/lib/cmake/KPim6GAPI/KPim6GAPIConfigVersion.cmake
-* /usr/lib/cmake/KPim6GAPI/KPim6GAPITargets-release.cmake
-* /usr/lib/cmake/KPim6GAPI/KPim6GAPITargets.cmake
-* /usr/lib/libKPim6GAPIBlogger.so
-* /usr/lib/libKPim6GAPIBlogger.so.6
-* /usr/lib/libKPim6GAPIBlogger.so.6.1.2
-* /usr/lib/libKPim6GAPICalendar.so
-* /usr/lib/libKPim6GAPICalendar.so.6
-* /usr/lib/libKPim6GAPICalendar.so.6.1.2
-* /usr/lib/libKPim6GAPICore.so
-* /usr/lib/libKPim6GAPICore.so.6
-* /usr/lib/libKPim6GAPICore.so.6.1.2
-* /usr/lib/libKPim6GAPIDrive.so
-* /usr/lib/libKPim6GAPIDrive.so.6
-* /usr/lib/libKPim6GAPIDrive.so.6.1.2
-* /usr/lib/libKPim6GAPILatitude.so
-* /usr/lib/libKPim6GAPILatitude.so.6
-* /usr/lib/libKPim6GAPILatitude.so.6.1.2
-* /usr/lib/libKPim6GAPIMaps.so
-* /usr/lib/libKPim6GAPIMaps.so.6
-* /usr/lib/libKPim6GAPIMaps.so.6.1.2
-* /usr/lib/libKPim6GAPIPeople.so
-* /usr/lib/libKPim6GAPIPeople.so.6
-* /usr/lib/libKPim6GAPIPeople.so.6.1.2
-* /usr/lib/libKPim6GAPITasks.so
-* /usr/lib/libKPim6GAPITasks.so.6
-* /usr/lib/libKPim6GAPITasks.so.6.1.2
-* /usr/lib/sasl2/libkdexoauth2.so
-* /usr/lib/sasl2/libkdexoauth2.so.3
-* /usr/lib/sasl2/libkdexoauth2.so.3.0.0
-* /usr/share/doc/libkgapi-24.05.2/AUTHORS
-* /usr/share/doc/libkgapi-24.05.2/README.md
-* /usr/share/doc/libkgapi-24.05.2/README.md.license
-* /usr/share/locale/ar/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ast/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/bs/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ca/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/cs/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/da/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/de/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/el/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/en_GB/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/eo/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/es/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/et/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/eu/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/fi/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/fr/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ga/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/gl/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/he/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/hu/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ia/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/it/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ja/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ka/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/kk/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/km/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ko/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/lt/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/lv/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/mr/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/nb/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/nds/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/nl/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/nn/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/pl/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/pt/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/pt_BR/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ro/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ru/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sk/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sl/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sr/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sr@latin/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/sv/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ta/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/tr/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/ug/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/uk/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/zh_CN/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/locale/zh_TW/LC_MESSAGES/libkgapi6_qt.qm
-* /usr/share/qlogging-categories6/libkgapi.categories
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Account
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/account.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/AccountInfo
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/accountinfo.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/AccountInfoFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/accountinfofetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/AccountManager
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/accountmanager.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/AuthJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/authjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/Blog
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/blog.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/BlogFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/blogfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/Comment
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/comment.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentApproveJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/commentapprovejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentDeleteContentJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/commentdeletecontentjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/commentdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/CommentFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/commentfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/kgapiblogger_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/Page
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/page.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/pagecreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/pagedeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/pagefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PageModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/pagemodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/Post
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/post.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/postcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/postdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/postfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/postmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostPublishJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/postpublishjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Blogger/PostSearchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/blogger/postsearchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/Calendar
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/calendar.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/calendarcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/calendardeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/calendarfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/CalendarModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/calendarmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/Enums
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/enums.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/Event
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/event.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/eventcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/eventdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/eventfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/eventmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/EventMoveJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/eventmovejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/FreeBusyQueryJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/freebusyqueryjob.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/kgapicalendar_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Calendar/Reminder
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/calendar/reminder.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/CreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/createjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/DeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/deletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/About
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/about.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/AboutFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/aboutfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/App
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/app.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/AppFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/appfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/Change
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/change.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ChangeFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/changefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReference
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/childreference.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReferenceCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/childreferencecreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReferenceDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/childreferencedeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ChildReferenceFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/childreferencefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/Drives
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/drives.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/drivescreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/drivesdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/drivesfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesHideJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/driveshidejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/drivesmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/DrivesSearchQuery
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/drivessearchquery.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/File
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/file.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractDataJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractdatajob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractResumableJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractresumablejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileAbstractUploadJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileabstractuploadjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileCopyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filecopyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filecreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filedeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileFetchContentJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filefetchcontentjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filemodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileResumableCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileresumablecreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileResumableModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileresumablemodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileSearchQuery
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filesearchquery.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileTouchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filetouchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileTrashJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/filetrashjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/FileUntrashJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/fileuntrashjob.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/kgapidrive_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReference
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/parentreference.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReferenceCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/parentreferencecreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReferenceDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/parentreferencedeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/ParentReferenceFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/parentreferencefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/Permission
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/permission.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/permissioncreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/permissiondeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/permissionfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/PermissionModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/permissionmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/Revision
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/revision.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/RevisionDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/revisiondeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/RevisionFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/revisionfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/RevisionModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/revisionmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/SearchQuery
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/searchquery.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/Teamdrive
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/teamdrive.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivecreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivedeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivemodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/TeamdriveSearchQuery
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/teamdrivesearchquery.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Drive/User
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/drive/user.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/FetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/fetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Job
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/job.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/kgapicore_export.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/kgapilatitude_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Latitude/Latitude
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/latitude.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Latitude/Location
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/location.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/locationcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/locationdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationFetchHistoryJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/locationfetchhistoryjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Latitude/LocationFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/latitude/locationfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/maps/kgapimaps_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapMarker
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/maps/staticmapmarker.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapPath
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/maps/staticmappath.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapTileFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/maps/staticmaptilefetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Maps/StaticMapUrl
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/maps/staticmapurl.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/ModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/modifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Object
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/object.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Address
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/address.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/AgeRangeType
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/agerangetype.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Biography
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/biography.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Birthday
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/birthday.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/BraggingRights
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/braggingrights.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/CalendarUrl
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/calendarurl.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ClientData
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/clientdata.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroup
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroup.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroupcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroupdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroupfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupMembership
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroupmembership.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupMetadata
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroupmetadata.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ContactGroupModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/contactgroupmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/CoverPhoto
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/coverphoto.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/DomainMembership
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/domainmembership.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/EmailAddress
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/emailaddress.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Event
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/event.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ExternalId
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/externalid.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/FieldMetadata
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/fieldmetadata.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/FileAs
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/fileas.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Gender
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/gender.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/GroupClientData
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/groupclientdata.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/IMClient
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/imclient.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Interest
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/interest.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/kgapipeople_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Location
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/location.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Membership
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/membership.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/MiscKeyword
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/misckeyword.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Name
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/name.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Nickname
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/nickname.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Occupation
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/occupation.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Organization
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/organization.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Person
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/person.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/persondeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonLocale
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personlocale.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonMetadata
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personmetadata.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonPhotoDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personphotodeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PersonPhotoUpdateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/personphotoupdatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/PhoneNumber
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/phonenumber.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Photo
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/photo.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/ProfileMetadata
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/profilemetadata.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Relation
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/relation.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/RelationshipInterest
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/relationshipinterest.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/RelationshipStatus
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/relationshipstatus.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Residence
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/residence.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/SIPAddress
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/sipaddress.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Skill
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/skill.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Source
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/source.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Tagline
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/tagline.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/Url
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/url.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/People/UserDefined
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/people/userdefined.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/kgapitasks_export.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/Task
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/task.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/taskcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/taskdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/taskfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskList
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/tasklist.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListCreateJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistcreatejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListDeleteJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistdeletejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListFetchJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistfetchjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskListModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/tasklistmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskModifyJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/taskmodifyjob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Tasks/TaskMoveJob
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/tasks/taskmovejob.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Types
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/types.h
+* libkgapi /usr/include/KPim6/KGAPI/KGAPI/Utils
+* libkgapi /usr/include/KPim6/KGAPI/kgapi/utils.h
+* libkgapi /usr/include/KPim6/KGAPI/kgapi_version.h
+* libkgapi /usr/lib/cmake/KPim6GAPI/KPim6GAPIConfig.cmake
+* libkgapi /usr/lib/cmake/KPim6GAPI/KPim6GAPIConfigVersion.cmake
+* libkgapi /usr/lib/cmake/KPim6GAPI/KPim6GAPITargets-release.cmake
+* libkgapi /usr/lib/cmake/KPim6GAPI/KPim6GAPITargets.cmake
+* libkgapi /usr/lib/libKPim6GAPIBlogger.so
+* libkgapi /usr/lib/libKPim6GAPIBlogger.so.6
+* libkgapi /usr/lib/libKPim6GAPIBlogger.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPICalendar.so
+* libkgapi /usr/lib/libKPim6GAPICalendar.so.6
+* libkgapi /usr/lib/libKPim6GAPICalendar.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPICore.so
+* libkgapi /usr/lib/libKPim6GAPICore.so.6
+* libkgapi /usr/lib/libKPim6GAPICore.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPIDrive.so
+* libkgapi /usr/lib/libKPim6GAPIDrive.so.6
+* libkgapi /usr/lib/libKPim6GAPIDrive.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPILatitude.so
+* libkgapi /usr/lib/libKPim6GAPILatitude.so.6
+* libkgapi /usr/lib/libKPim6GAPILatitude.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPIMaps.so
+* libkgapi /usr/lib/libKPim6GAPIMaps.so.6
+* libkgapi /usr/lib/libKPim6GAPIMaps.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPIPeople.so
+* libkgapi /usr/lib/libKPim6GAPIPeople.so.6
+* libkgapi /usr/lib/libKPim6GAPIPeople.so.6.2.0
+* libkgapi /usr/lib/libKPim6GAPITasks.so
+* libkgapi /usr/lib/libKPim6GAPITasks.so.6
+* libkgapi /usr/lib/libKPim6GAPITasks.so.6.2.0
+* libkgapi /usr/lib/sasl2/libkdexoauth2.so
+* libkgapi /usr/lib/sasl2/libkdexoauth2.so.3
+* libkgapi /usr/lib/sasl2/libkdexoauth2.so.3.0.0
+* libkgapi /usr/share/doc/libkgapi-24.08.0/AUTHORS
+* libkgapi /usr/share/doc/libkgapi-24.08.0/README.md
+* libkgapi /usr/share/doc/libkgapi-24.08.0/README.md.license
+* libkgapi /usr/share/locale/ar/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ast/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/bs/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ca/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ca@valencia/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/cs/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/da/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/de/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/el/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/en_GB/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/eo/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/es/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/et/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/eu/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/fi/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/fr/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ga/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/gl/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/he/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/hu/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ia/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/it/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ja/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ka/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/kk/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/km/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ko/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/lt/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/lv/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/mr/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/nb/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/nds/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/nl/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/nn/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/pl/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/pt/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/pt_BR/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ro/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ru/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sk/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sl/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sr/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sr@latin/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/sv/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ta/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/tr/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/ug/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/uk/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/zh_CN/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/locale/zh_TW/LC_MESSAGES/libkgapi6_qt.qm
+* libkgapi /usr/share/qlogging-categories6/libkgapi.categories

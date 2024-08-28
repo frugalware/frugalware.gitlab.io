@@ -12,7 +12,7 @@ size = "130332"
 usize = "326674"
 sha1sum = "7516b4889665b3d0950b69844b265e77fe17a344"
 depends = "['glibc>=2.36', 'libuuid>=2.40.2']"
-reverse_depends = "['cryptsetup-luks', 'e2fsprogs', 'efl', 'enlightenment', 'gfs2-utils', 'glib2', 'lvm2', 'lvm2-libs', 'terminology', 'util-linux', 'volume_key']"
+reverse_depends = "['./lvm2', 'cryptsetup-luks', 'e2fsprogs', 'efl', 'enlightenment', 'gfs2-utils', 'glib2', 'lvm2', 'lvm2-libs', 'terminology', 'util-linux', 'volume_key']"
 +++
 ### Description: 
 Block device id library

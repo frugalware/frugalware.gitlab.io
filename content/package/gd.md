@@ -12,7 +12,7 @@ size = "150932"
 usize = "705173"
 sha1sum = "906caf1f270365084ab192538e9154efecdc4017"
 depends = "['fontconfig', 'libavif', 'libheif', 'libwebp', 'libxpm']"
-reverse_depends = "['glibc-memusagestat', 'gnuplot', 'graphviz', 'libgphoto2', 'm17n-lib', 'nginx', 'texlive']"
+reverse_depends = "['./nginx', 'glibc-memusagestat', 'gnuplot', 'graphviz', 'libgphoto2', 'm17n-lib', 'nginx', 'texlive']"
 +++
 ### Description: 
 an ansi C library to generate fancy images from programs

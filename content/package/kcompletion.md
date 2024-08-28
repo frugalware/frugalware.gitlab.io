@@ -12,7 +12,7 @@ size = "113884"
 usize = "415110"
 sha1sum = "aa2519a6b5f2c656e123e34ab609a13f308e00b6"
 depends = "['kcodecs>=6.5.0', 'kconfig>=6.5.0', 'kwidgetsaddons>=6.5.0']"
-reverse_depends = "['akonadi-contacts', 'audex', 'dolphin', 'kdebugsettings', 'kldap', 'ktextwidgets', 'libkmahjongg']"
+reverse_depends = "['./akonadi-contacts', './audex', './dolphin', './kdebugsettings', './kldap', 'akonadi-contacts', 'audex', 'dolphin', 'kdebugsettings', 'kldap', 'ktextwidgets', 'libkmahjongg']"
 +++
 ### Description: 
 Provides widgets with advanced completion support.

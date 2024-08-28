@@ -12,7 +12,7 @@ size = "124052"
 usize = "673945"
 sha1sum = "c7079bb356a9b64819ef5cd30c65a21195bcf813"
 depends = "['kcalutils>=24.05.2', 'kcontacts>=6.3.0']"
-reverse_depends = "['kdepim-addons', 'kmail']"
+reverse_depends = "['./kdepim-addons', './kmail', 'kdepim-addons', 'kmail']"
 +++
 ### Description: 
 Desc: C++ API for the handling of TNEF data.

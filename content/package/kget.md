@@ -1,300 +1,300 @@
 +++
 draft = false
-title = "kget 24.05.2-1"
-version = "24.05.2-1"
+title = "./kget 24.08.0-1"
+version = "24.08.0-1"
 description = "A free download manager for KDE."
-date = "2024-07-05T11:57:38"
-aliases = "/packages/219524"
+date = "2024-08-22T17:23:57"
+aliases = "/packages/222313"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5282512"
-usize = "11357363"
-sha1sum = "ebb60e19d9d8b9b871947f463f6e7fd3c2358644"
-depends = "['kcmutils>=6.3.0', 'knotifyconfig>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.2']"
+size = "5280068"
+usize = "11418742"
+sha1sum = "e0a5e801f5d42ec62492126cb4452be8e59b5624"
+depends = "['kcmutils>=6.5.0', 'knotifyconfig>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.4']"
 +++
 ### Description: 
 A free download manager for KDE.
 
 ### Files: 
-* /usr/bin/kget
-* /usr/lib/libkgetcore.so
-* /usr/lib/libkgetcore.so.6
-* /usr/lib/libkgetcore.so.6.0.0
-* /usr/lib/qt6/plugins/kget/kget_bittorrent.so
-* /usr/lib/qt6/plugins/kget/kget_checksumsearchfactory.so
-* /usr/lib/qt6/plugins/kget/kget_kio.so
-* /usr/lib/qt6/plugins/kget/kget_metalinkfactory.so
-* /usr/lib/qt6/plugins/kget/kget_mirrorsearchfactory.so
-* /usr/lib/qt6/plugins/kget/kget_mmsfactory.so
-* /usr/lib/qt6/plugins/kget/kget_multisegkiofactory.so
-* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_bittorrentfactory.so
-* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_checksumsearchfactory.so
-* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_metalinkfactory.so
-* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_mirrorsearchfactory.so
-* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_mmsfactory.so
-* /usr/lib/qt6/plugins/kget_kcms/kcm_kget_multisegkiofactory.so
-* /usr/share/applications/org.kde.kget.desktop
-* /usr/share/config.kcfg/kget.kcfg
-* /usr/share/config.kcfg/kget_checksumsearchfactory.kcfg
-* /usr/share/config.kcfg/kget_mirrorsearchfactory.kcfg
-* /usr/share/config.kcfg/kget_mmsfactory.kcfg
-* /usr/share/config.kcfg/kget_multisegkiofactory.kcfg
-* /usr/share/dbus-1/services/org.kde.kget.service
-* /usr/share/doc/HTML/ca/kget/index.cache.bz2
-* /usr/share/doc/HTML/ca/kget/index.docbook
-* /usr/share/doc/HTML/cs/kget/index.cache.bz2
-* /usr/share/doc/HTML/cs/kget/index.docbook
-* /usr/share/doc/HTML/de/kget/index.cache.bz2
-* /usr/share/doc/HTML/de/kget/index.docbook
-* /usr/share/doc/HTML/de/kget/kget_Advanced.png
-* /usr/share/doc/HTML/de/kget/kget_Appearance.png
-* /usr/share/doc/HTML/de/kget/kget_drop_target.png
-* /usr/share/doc/HTML/de/kget/kget_groups.png
-* /usr/share/doc/HTML/de/kget/kget_Network.png
-* /usr/share/doc/HTML/de/kget/kget_plugins.png
-* /usr/share/doc/HTML/de/kget/kget_verification.png
-* /usr/share/doc/HTML/de/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/en/kget/file.png
-* /usr/share/doc/HTML/en/kget/import_link.png
-* /usr/share/doc/HTML/en/kget/index.cache.bz2
-* /usr/share/doc/HTML/en/kget/index.docbook
-* /usr/share/doc/HTML/en/kget/kget_Advanced.png
-* /usr/share/doc/HTML/en/kget/kget_Appearance.png
-* /usr/share/doc/HTML/en/kget/kget_drop_target.png
-* /usr/share/doc/HTML/en/kget/kget_group.png
-* /usr/share/doc/HTML/en/kget/kget_groups.png
-* /usr/share/doc/HTML/en/kget/kget_Network.png
-* /usr/share/doc/HTML/en/kget/kget_plugins.png
-* /usr/share/doc/HTML/en/kget/kget_transfer_hostory.png
-* /usr/share/doc/HTML/en/kget/kget_verification.png
-* /usr/share/doc/HTML/en/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/en/kget/metalink0.png
-* /usr/share/doc/HTML/en/kget/metalink1.png
-* /usr/share/doc/HTML/en/kget/metalink2.png
-* /usr/share/doc/HTML/en/kget/metalink3.png
-* /usr/share/doc/HTML/en/kget/pluginsettings.png
-* /usr/share/doc/HTML/es/kget/file.png
-* /usr/share/doc/HTML/es/kget/import_link.png
-* /usr/share/doc/HTML/es/kget/index.cache.bz2
-* /usr/share/doc/HTML/es/kget/index.docbook
-* /usr/share/doc/HTML/es/kget/kget_Advanced.png
-* /usr/share/doc/HTML/es/kget/kget_Appearance.png
-* /usr/share/doc/HTML/es/kget/kget_drop_target.png
-* /usr/share/doc/HTML/es/kget/kget_group.png
-* /usr/share/doc/HTML/es/kget/kget_groups.png
-* /usr/share/doc/HTML/es/kget/kget_Network.png
-* /usr/share/doc/HTML/es/kget/kget_plugins.png
-* /usr/share/doc/HTML/es/kget/kget_transfer_hostory.png
-* /usr/share/doc/HTML/es/kget/kget_verification.png
-* /usr/share/doc/HTML/es/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/es/kget/metalink0.png
-* /usr/share/doc/HTML/es/kget/metalink1.png
-* /usr/share/doc/HTML/es/kget/metalink2.png
-* /usr/share/doc/HTML/es/kget/metalink3.png
-* /usr/share/doc/HTML/et/kget/index.cache.bz2
-* /usr/share/doc/HTML/et/kget/index.docbook
-* /usr/share/doc/HTML/fr/kget/index.cache.bz2
-* /usr/share/doc/HTML/fr/kget/index.docbook
-* /usr/share/doc/HTML/fr/kget/kget1.png
-* /usr/share/doc/HTML/fr/kget/kget2.png
-* /usr/share/doc/HTML/fr/kget/kget3.png
-* /usr/share/doc/HTML/fr/kget/kget4.png
-* /usr/share/doc/HTML/fr/kget/kget5.png
-* /usr/share/doc/HTML/id/kget/index.cache.bz2
-* /usr/share/doc/HTML/id/kget/index.docbook
-* /usr/share/doc/HTML/it/kget/file.png
-* /usr/share/doc/HTML/it/kget/import_link.png
-* /usr/share/doc/HTML/it/kget/index.cache.bz2
-* /usr/share/doc/HTML/it/kget/index.docbook
-* /usr/share/doc/HTML/it/kget/kget_Advanced.png
-* /usr/share/doc/HTML/it/kget/kget_Appearance.png
-* /usr/share/doc/HTML/it/kget/kget_drop_target.png
-* /usr/share/doc/HTML/it/kget/kget_group.png
-* /usr/share/doc/HTML/it/kget/kget_groups.png
-* /usr/share/doc/HTML/it/kget/kget_Network.png
-* /usr/share/doc/HTML/it/kget/kget_plugins.png
-* /usr/share/doc/HTML/it/kget/kget_transfer_hostory.png
-* /usr/share/doc/HTML/it/kget/kget_verification.png
-* /usr/share/doc/HTML/it/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/it/kget/metalink0.png
-* /usr/share/doc/HTML/it/kget/metalink1.png
-* /usr/share/doc/HTML/it/kget/metalink2.png
-* /usr/share/doc/HTML/it/kget/metalink3.png
-* /usr/share/doc/HTML/nl/kget/index.cache.bz2
-* /usr/share/doc/HTML/nl/kget/index.docbook
-* /usr/share/doc/HTML/pl/kget/index.cache.bz2
-* /usr/share/doc/HTML/pl/kget/index.docbook
-* /usr/share/doc/HTML/pl/kget/kget1.png
-* /usr/share/doc/HTML/pl/kget/kget2.png
-* /usr/share/doc/HTML/pl/kget/kget3.png
-* /usr/share/doc/HTML/pl/kget/kget4.png
-* /usr/share/doc/HTML/pl/kget/kget5.png
-* /usr/share/doc/HTML/pt/kget/index.cache.bz2
-* /usr/share/doc/HTML/pt/kget/index.docbook
-* /usr/share/doc/HTML/pt_BR/kget/file.png
-* /usr/share/doc/HTML/pt_BR/kget/import_link.png
-* /usr/share/doc/HTML/pt_BR/kget/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kget/index.docbook
-* /usr/share/doc/HTML/pt_BR/kget/kget_Advanced.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_Appearance.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_drop_target.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_group.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_groups.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_Network.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_plugins.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_transfer_hostory.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_verification.png
-* /usr/share/doc/HTML/pt_BR/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/pt_BR/kget/metalink0.png
-* /usr/share/doc/HTML/pt_BR/kget/metalink1.png
-* /usr/share/doc/HTML/pt_BR/kget/metalink2.png
-* /usr/share/doc/HTML/pt_BR/kget/metalink3.png
-* /usr/share/doc/HTML/ru/kget/file.png
-* /usr/share/doc/HTML/ru/kget/import_link.png
-* /usr/share/doc/HTML/ru/kget/index.cache.bz2
-* /usr/share/doc/HTML/ru/kget/index.docbook
-* /usr/share/doc/HTML/ru/kget/kget_Advanced.png
-* /usr/share/doc/HTML/ru/kget/kget_Appearance.png
-* /usr/share/doc/HTML/ru/kget/kget_drop_target.png
-* /usr/share/doc/HTML/ru/kget/kget_group.png
-* /usr/share/doc/HTML/ru/kget/kget_groups.png
-* /usr/share/doc/HTML/ru/kget/kget_Network.png
-* /usr/share/doc/HTML/ru/kget/kget_plugins.png
-* /usr/share/doc/HTML/ru/kget/kget_transfer_hostory.png
-* /usr/share/doc/HTML/ru/kget/kget_verification.png
-* /usr/share/doc/HTML/ru/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/ru/kget/metalink0.png
-* /usr/share/doc/HTML/ru/kget/metalink1.png
-* /usr/share/doc/HTML/ru/kget/metalink2.png
-* /usr/share/doc/HTML/ru/kget/metalink3.png
-* /usr/share/doc/HTML/sr/kget/index.cache.bz2
-* /usr/share/doc/HTML/sr/kget/index.docbook
-* /usr/share/doc/HTML/sr@latin/kget/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kget/index.docbook
-* /usr/share/doc/HTML/sv/kget/index.cache.bz2
-* /usr/share/doc/HTML/sv/kget/index.docbook
-* /usr/share/doc/HTML/sv/kget/kget1.png
-* /usr/share/doc/HTML/sv/kget/kget2.png
-* /usr/share/doc/HTML/sv/kget/kget3.png
-* /usr/share/doc/HTML/sv/kget/kget4.png
-* /usr/share/doc/HTML/sv/kget/kget5.png
-* /usr/share/doc/HTML/uk/kget/file.png
-* /usr/share/doc/HTML/uk/kget/import_link.png
-* /usr/share/doc/HTML/uk/kget/index.cache.bz2
-* /usr/share/doc/HTML/uk/kget/index.docbook
-* /usr/share/doc/HTML/uk/kget/kget_Advanced.png
-* /usr/share/doc/HTML/uk/kget/kget_Appearance.png
-* /usr/share/doc/HTML/uk/kget/kget_drop_target.png
-* /usr/share/doc/HTML/uk/kget/kget_group.png
-* /usr/share/doc/HTML/uk/kget/kget_groups.png
-* /usr/share/doc/HTML/uk/kget/kget_Network.png
-* /usr/share/doc/HTML/uk/kget/kget_plugins.png
-* /usr/share/doc/HTML/uk/kget/kget_transfer_hostory.png
-* /usr/share/doc/HTML/uk/kget/kget_verification.png
-* /usr/share/doc/HTML/uk/kget/kget_Web_Interface.png
-* /usr/share/doc/HTML/uk/kget/metalink0.png
-* /usr/share/doc/HTML/uk/kget/metalink1.png
-* /usr/share/doc/HTML/uk/kget/metalink2.png
-* /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-24.05.2/AUTHORS
-* /usr/share/doc/kget-24.05.2/Changelog
-* /usr/share/doc/kget-24.05.2/COPYING
-* /usr/share/doc/kget-24.05.2/COPYING.DOC
-* /usr/share/doc/kget-24.05.2/COPYING.LIB
-* /usr/share/doc/kget-24.05.2/HACKING
-* /usr/share/doc/kget-24.05.2/README
-* /usr/share/doc/kget-24.05.2/TODO
-* /usr/share/icons/hicolor/128x128/apps/kget.png
-* /usr/share/icons/hicolor/16x16/apps/kget.png
-* /usr/share/icons/hicolor/22x22/apps/kget.png
-* /usr/share/icons/hicolor/32x32/apps/kget.png
-* /usr/share/icons/hicolor/48x48/apps/kget.png
-* /usr/share/icons/hicolor/64x64/apps/kget.png
-* /usr/share/kget/pics/kget_splash.png
-* /usr/share/kio/servicemenus/kget_download.desktop
-* /usr/share/kio/servicemenus/kget_plugin.desktop
-* /usr/share/knotifications6/kget.notifyrc
-* /usr/share/locale/af/LC_MESSAGES/kget.mo
-* /usr/share/locale/ar/LC_MESSAGES/kget.mo
-* /usr/share/locale/ast/LC_MESSAGES/kget.mo
-* /usr/share/locale/be/LC_MESSAGES/kget.mo
-* /usr/share/locale/bg/LC_MESSAGES/kget.mo
-* /usr/share/locale/br/LC_MESSAGES/kget.mo
-* /usr/share/locale/bs/LC_MESSAGES/kget.mo
-* /usr/share/locale/ca/LC_MESSAGES/kget.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kget.mo
-* /usr/share/locale/cs/LC_MESSAGES/kget.mo
-* /usr/share/locale/cy/LC_MESSAGES/kget.mo
-* /usr/share/locale/da/LC_MESSAGES/kget.mo
-* /usr/share/locale/de/LC_MESSAGES/kget.mo
-* /usr/share/locale/el/LC_MESSAGES/kget.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kget.mo
-* /usr/share/locale/eo/LC_MESSAGES/kget.mo
-* /usr/share/locale/es/LC_MESSAGES/kget.mo
-* /usr/share/locale/et/LC_MESSAGES/kget.mo
-* /usr/share/locale/eu/LC_MESSAGES/kget.mo
-* /usr/share/locale/fa/LC_MESSAGES/kget.mo
-* /usr/share/locale/fi/LC_MESSAGES/kget.mo
-* /usr/share/locale/fr/LC_MESSAGES/kget.mo
-* /usr/share/locale/ga/LC_MESSAGES/kget.mo
-* /usr/share/locale/gl/LC_MESSAGES/kget.mo
-* /usr/share/locale/he/LC_MESSAGES/kget.mo
-* /usr/share/locale/hi/LC_MESSAGES/kget.mo
-* /usr/share/locale/hne/LC_MESSAGES/kget.mo
-* /usr/share/locale/hr/LC_MESSAGES/kget.mo
-* /usr/share/locale/hsb/LC_MESSAGES/kget.mo
-* /usr/share/locale/hu/LC_MESSAGES/kget.mo
-* /usr/share/locale/ia/LC_MESSAGES/kget.mo
-* /usr/share/locale/id/LC_MESSAGES/kget.mo
-* /usr/share/locale/is/LC_MESSAGES/kget.mo
-* /usr/share/locale/it/LC_MESSAGES/kget.mo
-* /usr/share/locale/ja/LC_MESSAGES/kget.mo
-* /usr/share/locale/ka/LC_MESSAGES/kget.mo
-* /usr/share/locale/kk/LC_MESSAGES/kget.mo
-* /usr/share/locale/km/LC_MESSAGES/kget.mo
-* /usr/share/locale/ko/LC_MESSAGES/kget.mo
-* /usr/share/locale/lt/LC_MESSAGES/kget.mo
-* /usr/share/locale/lv/LC_MESSAGES/kget.mo
-* /usr/share/locale/mai/LC_MESSAGES/kget.mo
-* /usr/share/locale/mk/LC_MESSAGES/kget.mo
-* /usr/share/locale/mr/LC_MESSAGES/kget.mo
-* /usr/share/locale/ms/LC_MESSAGES/kget.mo
-* /usr/share/locale/nb/LC_MESSAGES/kget.mo
-* /usr/share/locale/nds/LC_MESSAGES/kget.mo
-* /usr/share/locale/ne/LC_MESSAGES/kget.mo
-* /usr/share/locale/nl/LC_MESSAGES/kget.mo
-* /usr/share/locale/nn/LC_MESSAGES/kget.mo
-* /usr/share/locale/oc/LC_MESSAGES/kget.mo
-* /usr/share/locale/pa/LC_MESSAGES/kget.mo
-* /usr/share/locale/pl/LC_MESSAGES/kget.mo
-* /usr/share/locale/pt/LC_MESSAGES/kget.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kget.mo
-* /usr/share/locale/ro/LC_MESSAGES/kget.mo
-* /usr/share/locale/ru/LC_MESSAGES/kget.mo
-* /usr/share/locale/se/LC_MESSAGES/kget.mo
-* /usr/share/locale/si/LC_MESSAGES/kget.mo
-* /usr/share/locale/sk/LC_MESSAGES/kget.mo
-* /usr/share/locale/sl/LC_MESSAGES/kget.mo
-* /usr/share/locale/sq/LC_MESSAGES/kget.mo
-* /usr/share/locale/sr/LC_MESSAGES/kget.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kget.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kget.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kget.mo
-* /usr/share/locale/sv/LC_MESSAGES/kget.mo
-* /usr/share/locale/ta/LC_MESSAGES/kget.mo
-* /usr/share/locale/tg/LC_MESSAGES/kget.mo
-* /usr/share/locale/th/LC_MESSAGES/kget.mo
-* /usr/share/locale/tr/LC_MESSAGES/kget.mo
-* /usr/share/locale/ug/LC_MESSAGES/kget.mo
-* /usr/share/locale/uk/LC_MESSAGES/kget.mo
-* /usr/share/locale/uz/LC_MESSAGES/kget.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kget.mo
-* /usr/share/locale/vi/LC_MESSAGES/kget.mo
-* /usr/share/locale/wa/LC_MESSAGES/kget.mo
-* /usr/share/locale/xh/LC_MESSAGES/kget.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kget.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/kget.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kget.mo
-* /usr/share/metainfo/org.kde.kget.appdata.xml
-* /usr/share/qlogging-categories6/kget.categories
+* kget /usr/bin/kget
+* kget /usr/lib/libkgetcore.so
+* kget /usr/lib/libkgetcore.so.6
+* kget /usr/lib/libkgetcore.so.6.0.0
+* kget /usr/lib/qt6/plugins/kget/kget_bittorrent.so
+* kget /usr/lib/qt6/plugins/kget/kget_checksumsearchfactory.so
+* kget /usr/lib/qt6/plugins/kget/kget_kio.so
+* kget /usr/lib/qt6/plugins/kget/kget_metalinkfactory.so
+* kget /usr/lib/qt6/plugins/kget/kget_mirrorsearchfactory.so
+* kget /usr/lib/qt6/plugins/kget/kget_mmsfactory.so
+* kget /usr/lib/qt6/plugins/kget/kget_multisegkiofactory.so
+* kget /usr/lib/qt6/plugins/kget_kcms/kcm_kget_bittorrentfactory.so
+* kget /usr/lib/qt6/plugins/kget_kcms/kcm_kget_checksumsearchfactory.so
+* kget /usr/lib/qt6/plugins/kget_kcms/kcm_kget_metalinkfactory.so
+* kget /usr/lib/qt6/plugins/kget_kcms/kcm_kget_mirrorsearchfactory.so
+* kget /usr/lib/qt6/plugins/kget_kcms/kcm_kget_mmsfactory.so
+* kget /usr/lib/qt6/plugins/kget_kcms/kcm_kget_multisegkiofactory.so
+* kget /usr/share/applications/org.kde.kget.desktop
+* kget /usr/share/config.kcfg/kget.kcfg
+* kget /usr/share/config.kcfg/kget_checksumsearchfactory.kcfg
+* kget /usr/share/config.kcfg/kget_mirrorsearchfactory.kcfg
+* kget /usr/share/config.kcfg/kget_mmsfactory.kcfg
+* kget /usr/share/config.kcfg/kget_multisegkiofactory.kcfg
+* kget /usr/share/dbus-1/services/org.kde.kget.service
+* kget /usr/share/doc/HTML/ca/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/ca/kget/index.docbook
+* kget /usr/share/doc/HTML/cs/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/cs/kget/index.docbook
+* kget /usr/share/doc/HTML/de/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/de/kget/index.docbook
+* kget /usr/share/doc/HTML/de/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/de/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/de/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/de/kget/kget_groups.png
+* kget /usr/share/doc/HTML/de/kget/kget_Network.png
+* kget /usr/share/doc/HTML/de/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/de/kget/kget_verification.png
+* kget /usr/share/doc/HTML/de/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/en/kget/file.png
+* kget /usr/share/doc/HTML/en/kget/import_link.png
+* kget /usr/share/doc/HTML/en/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/en/kget/index.docbook
+* kget /usr/share/doc/HTML/en/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/en/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/en/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/en/kget/kget_group.png
+* kget /usr/share/doc/HTML/en/kget/kget_groups.png
+* kget /usr/share/doc/HTML/en/kget/kget_Network.png
+* kget /usr/share/doc/HTML/en/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/en/kget/kget_transfer_hostory.png
+* kget /usr/share/doc/HTML/en/kget/kget_verification.png
+* kget /usr/share/doc/HTML/en/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/en/kget/metalink0.png
+* kget /usr/share/doc/HTML/en/kget/metalink1.png
+* kget /usr/share/doc/HTML/en/kget/metalink2.png
+* kget /usr/share/doc/HTML/en/kget/metalink3.png
+* kget /usr/share/doc/HTML/en/kget/pluginsettings.png
+* kget /usr/share/doc/HTML/es/kget/file.png
+* kget /usr/share/doc/HTML/es/kget/import_link.png
+* kget /usr/share/doc/HTML/es/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/es/kget/index.docbook
+* kget /usr/share/doc/HTML/es/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/es/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/es/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/es/kget/kget_group.png
+* kget /usr/share/doc/HTML/es/kget/kget_groups.png
+* kget /usr/share/doc/HTML/es/kget/kget_Network.png
+* kget /usr/share/doc/HTML/es/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/es/kget/kget_transfer_hostory.png
+* kget /usr/share/doc/HTML/es/kget/kget_verification.png
+* kget /usr/share/doc/HTML/es/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/es/kget/metalink0.png
+* kget /usr/share/doc/HTML/es/kget/metalink1.png
+* kget /usr/share/doc/HTML/es/kget/metalink2.png
+* kget /usr/share/doc/HTML/es/kget/metalink3.png
+* kget /usr/share/doc/HTML/et/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/et/kget/index.docbook
+* kget /usr/share/doc/HTML/fr/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/fr/kget/index.docbook
+* kget /usr/share/doc/HTML/fr/kget/kget1.png
+* kget /usr/share/doc/HTML/fr/kget/kget2.png
+* kget /usr/share/doc/HTML/fr/kget/kget3.png
+* kget /usr/share/doc/HTML/fr/kget/kget4.png
+* kget /usr/share/doc/HTML/fr/kget/kget5.png
+* kget /usr/share/doc/HTML/id/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/id/kget/index.docbook
+* kget /usr/share/doc/HTML/it/kget/file.png
+* kget /usr/share/doc/HTML/it/kget/import_link.png
+* kget /usr/share/doc/HTML/it/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/it/kget/index.docbook
+* kget /usr/share/doc/HTML/it/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/it/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/it/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/it/kget/kget_group.png
+* kget /usr/share/doc/HTML/it/kget/kget_groups.png
+* kget /usr/share/doc/HTML/it/kget/kget_Network.png
+* kget /usr/share/doc/HTML/it/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/it/kget/kget_transfer_hostory.png
+* kget /usr/share/doc/HTML/it/kget/kget_verification.png
+* kget /usr/share/doc/HTML/it/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/it/kget/metalink0.png
+* kget /usr/share/doc/HTML/it/kget/metalink1.png
+* kget /usr/share/doc/HTML/it/kget/metalink2.png
+* kget /usr/share/doc/HTML/it/kget/metalink3.png
+* kget /usr/share/doc/HTML/nl/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/nl/kget/index.docbook
+* kget /usr/share/doc/HTML/pl/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/pl/kget/index.docbook
+* kget /usr/share/doc/HTML/pl/kget/kget1.png
+* kget /usr/share/doc/HTML/pl/kget/kget2.png
+* kget /usr/share/doc/HTML/pl/kget/kget3.png
+* kget /usr/share/doc/HTML/pl/kget/kget4.png
+* kget /usr/share/doc/HTML/pl/kget/kget5.png
+* kget /usr/share/doc/HTML/pt/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/pt/kget/index.docbook
+* kget /usr/share/doc/HTML/pt_BR/kget/file.png
+* kget /usr/share/doc/HTML/pt_BR/kget/import_link.png
+* kget /usr/share/doc/HTML/pt_BR/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/pt_BR/kget/index.docbook
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_group.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_groups.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_Network.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_transfer_hostory.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_verification.png
+* kget /usr/share/doc/HTML/pt_BR/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/pt_BR/kget/metalink0.png
+* kget /usr/share/doc/HTML/pt_BR/kget/metalink1.png
+* kget /usr/share/doc/HTML/pt_BR/kget/metalink2.png
+* kget /usr/share/doc/HTML/pt_BR/kget/metalink3.png
+* kget /usr/share/doc/HTML/ru/kget/file.png
+* kget /usr/share/doc/HTML/ru/kget/import_link.png
+* kget /usr/share/doc/HTML/ru/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/ru/kget/index.docbook
+* kget /usr/share/doc/HTML/ru/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/ru/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/ru/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/ru/kget/kget_group.png
+* kget /usr/share/doc/HTML/ru/kget/kget_groups.png
+* kget /usr/share/doc/HTML/ru/kget/kget_Network.png
+* kget /usr/share/doc/HTML/ru/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/ru/kget/kget_transfer_hostory.png
+* kget /usr/share/doc/HTML/ru/kget/kget_verification.png
+* kget /usr/share/doc/HTML/ru/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/ru/kget/metalink0.png
+* kget /usr/share/doc/HTML/ru/kget/metalink1.png
+* kget /usr/share/doc/HTML/ru/kget/metalink2.png
+* kget /usr/share/doc/HTML/ru/kget/metalink3.png
+* kget /usr/share/doc/HTML/sr/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/sr/kget/index.docbook
+* kget /usr/share/doc/HTML/sr@latin/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/sr@latin/kget/index.docbook
+* kget /usr/share/doc/HTML/sv/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/sv/kget/index.docbook
+* kget /usr/share/doc/HTML/sv/kget/kget1.png
+* kget /usr/share/doc/HTML/sv/kget/kget2.png
+* kget /usr/share/doc/HTML/sv/kget/kget3.png
+* kget /usr/share/doc/HTML/sv/kget/kget4.png
+* kget /usr/share/doc/HTML/sv/kget/kget5.png
+* kget /usr/share/doc/HTML/uk/kget/file.png
+* kget /usr/share/doc/HTML/uk/kget/import_link.png
+* kget /usr/share/doc/HTML/uk/kget/index.cache.bz2
+* kget /usr/share/doc/HTML/uk/kget/index.docbook
+* kget /usr/share/doc/HTML/uk/kget/kget_Advanced.png
+* kget /usr/share/doc/HTML/uk/kget/kget_Appearance.png
+* kget /usr/share/doc/HTML/uk/kget/kget_drop_target.png
+* kget /usr/share/doc/HTML/uk/kget/kget_group.png
+* kget /usr/share/doc/HTML/uk/kget/kget_groups.png
+* kget /usr/share/doc/HTML/uk/kget/kget_Network.png
+* kget /usr/share/doc/HTML/uk/kget/kget_plugins.png
+* kget /usr/share/doc/HTML/uk/kget/kget_transfer_hostory.png
+* kget /usr/share/doc/HTML/uk/kget/kget_verification.png
+* kget /usr/share/doc/HTML/uk/kget/kget_Web_Interface.png
+* kget /usr/share/doc/HTML/uk/kget/metalink0.png
+* kget /usr/share/doc/HTML/uk/kget/metalink1.png
+* kget /usr/share/doc/HTML/uk/kget/metalink2.png
+* kget /usr/share/doc/HTML/uk/kget/metalink3.png
+* kget /usr/share/doc/kget-24.08.0/AUTHORS
+* kget /usr/share/doc/kget-24.08.0/Changelog
+* kget /usr/share/doc/kget-24.08.0/COPYING
+* kget /usr/share/doc/kget-24.08.0/COPYING.DOC
+* kget /usr/share/doc/kget-24.08.0/COPYING.LIB
+* kget /usr/share/doc/kget-24.08.0/HACKING
+* kget /usr/share/doc/kget-24.08.0/README
+* kget /usr/share/doc/kget-24.08.0/TODO
+* kget /usr/share/icons/hicolor/128x128/apps/kget.png
+* kget /usr/share/icons/hicolor/16x16/apps/kget.png
+* kget /usr/share/icons/hicolor/22x22/apps/kget.png
+* kget /usr/share/icons/hicolor/32x32/apps/kget.png
+* kget /usr/share/icons/hicolor/48x48/apps/kget.png
+* kget /usr/share/icons/hicolor/64x64/apps/kget.png
+* kget /usr/share/kget/pics/kget_splash.png
+* kget /usr/share/kio/servicemenus/kget_download.desktop
+* kget /usr/share/kio/servicemenus/kget_plugin.desktop
+* kget /usr/share/knotifications6/kget.notifyrc
+* kget /usr/share/locale/af/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ar/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ast/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/be/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/bg/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/br/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/bs/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ca/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ca@valencia/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/cs/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/cy/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/da/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/de/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/el/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/en_GB/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/eo/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/es/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/et/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/eu/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/fa/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/fi/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/fr/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ga/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/gl/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/he/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/hi/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/hne/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/hr/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/hsb/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/hu/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ia/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/id/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/is/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/it/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ja/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ka/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/kk/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/km/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ko/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/lt/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/lv/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/mai/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/mk/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/mr/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ms/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/nb/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/nds/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ne/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/nl/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/nn/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/oc/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/pa/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/pl/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/pt/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/pt_BR/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ro/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ru/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/se/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/si/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sk/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sl/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sq/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sr/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sr@ijekavian/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sr@latin/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/sv/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ta/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/tg/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/th/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/tr/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/ug/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/uk/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/uz/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/uz@cyrillic/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/vi/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/wa/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/xh/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/zh_CN/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/zh_HK/LC_MESSAGES/kget.mo
+* kget /usr/share/locale/zh_TW/LC_MESSAGES/kget.mo
+* kget /usr/share/metainfo/org.kde.kget.appdata.xml
+* kget /usr/share/qlogging-categories6/kget.categories

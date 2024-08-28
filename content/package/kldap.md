@@ -1,253 +1,260 @@
 +++
 draft = false
-title = "kldap 24.05.2-1"
-version = "24.05.2-1"
+title = "./kldap 24.08.0-1"
+version = "24.08.0-1"
 description = "Desc: C++ API for LDAP access."
-date = "2024-07-05T09:19:57"
-aliases = "/packages/218330"
+date = "2024-08-22T14:07:57"
+aliases = "/packages/222231"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "217160"
-usize = "879221"
-sha1sum = "3b89f372d3606a9e9ad22b2d40d41c724332b47e"
-depends = "['kcompletion>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kmbox>=24.05.2', 'libldap>=2.5.4', 'qtkeychain']"
-reverse_depends = "['libkdepim']"
+size = "225548"
+usize = "922428"
+sha1sum = "7a121521b6c68485bf84ad68cd5dc9299da17de4"
+depends = "['kcompletion>=6.5.0', 'ki18n>=6.5.0', 'kio>=6.5.0', 'kmbox>=24.08.0', 'libldap>=2.5.4', 'qtkeychain']"
 +++
 ### Description: 
 Desc: C++ API for LDAP access.
 
 ### Files: 
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/Ber
-* /usr/include/KPim6/KLDAPCore/kldapcore/ber.h
-* /usr/include/KPim6/KLDAPCore/kldapcore/kldap_core_export.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapConnection
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapconnection.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapControl
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapcontrol.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapDefs
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapdefs.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapDN
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapdn.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapObject
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapobject.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapOperation
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapoperation.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapSearch
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapsearch.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapServer
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapserver.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapUrl
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldapurl.h
-* /usr/include/KPim6/KLDAPCore/KLDAPCore/Ldif
-* /usr/include/KPim6/KLDAPCore/kldapcore/ldif.h
-* /usr/include/KPim6/KLDAPCore/kldap_core_version.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/AddHostDialog
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/addhostdialog.h
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/kldapwidgets_export.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapClient
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapclient.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapClientSearch
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapclientsearch.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapClientSearchConfig
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapclientsearchconfig.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapClientSearchConfigReadConfigJob
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapclientsearchconfigreadconfigjob.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapClientSearchConfigWriteConfigJob
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapclientsearchconfigwriteconfigjob.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapConfigureWidget
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapconfigurewidget.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapConfigWidget
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapconfigwidget.h
-* /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapSearchClientReadConfigServerJob
-* /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapsearchclientreadconfigserverjob.h
-* /usr/include/KPim6/KLDAPWidgets/kldap_widgets_version.h
-* /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreConfig.cmake
-* /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreConfigVersion.cmake
-* /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreTargets-release.cmake
-* /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreTargets.cmake
-* /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsConfig.cmake
-* /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsConfigVersion.cmake
-* /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets-release.cmake
-* /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
-* /usr/lib/libKPim6LdapCore.so
-* /usr/lib/libKPim6LdapCore.so.6
-* /usr/lib/libKPim6LdapCore.so.6.1.2
-* /usr/lib/libKPim6LdapWidgets.so
-* /usr/lib/libKPim6LdapWidgets.so.6
-* /usr/lib/libKPim6LdapWidgets.so.6.1.2
-* /usr/lib/qt6/plugins/kf6/kio/ldap.so
-* /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/de/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/de/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/en/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/en/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/es/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/es/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/et/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/et/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/fr/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/fr/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/gl/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/gl/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/it/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/it/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/ko/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/ko/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/nl/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/nl/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/pt/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/pt/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/pt_BR/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/ru/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/ru/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/sr/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/sr/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/sr@latin/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/sv/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/sv/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/tr/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
-* /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
-* /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
-* /usr/share/doc/kldap-24.05.2/README.md
-* /usr/share/doc/kldap-24.05.2/README.md.license
-* /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ast/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ast/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/be/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/be/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/bg/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/bg/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/bn/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/br/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/bs/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/bs/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ca/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ca/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/cs/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/cs/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/csb/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/cy/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/da/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/da/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/de/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/de/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/el/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/el/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/eo/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/eo/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/es/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/es/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/et/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/et/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/eu/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/eu/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/fa/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/fi/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/fi/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/fr/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/fr/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/fy/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ga/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ga/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/gl/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/gl/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/he/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/he/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/hi/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/hi/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/hne/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/hne/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/hu/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/hu/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ia/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ia/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/is/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/it/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/it/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ja/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ja/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ka/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ka/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/kk/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/kk/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/km/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/km/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/kn/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ko/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ko/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/lt/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/lt/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/lv/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/lv/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/mk/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/mr/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/mr/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ms/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/nb/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/nb/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/nds/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/nds/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ne/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/nl/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/nl/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/nn/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/nn/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/pa/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/pa/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/pl/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/pl/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/pt/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/pt/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ro/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ro/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ru/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ru/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/se/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/se/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sk/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sk/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sl/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sl/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sq/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sr/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sr/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/sv/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/sv/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ta/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ta/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/th/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/th/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/tr/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/tr/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/ug/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/ug/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/uk/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/uk/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/uz/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/vi/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libkldap6.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kio_ldap.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libkldap6.mo
-* /usr/share/qlogging-categories6/kldap.categories
-* /usr/share/qlogging-categories6/kldap.renamecategories
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/Ber
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ber.h
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/kldap_core_export.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapActivitiesAbstract
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapactivitiesabstract.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapClient
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapclient.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapClientSearch
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapclientsearch.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapClientSearchConfig
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapclientsearchconfig.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapClientSearchConfigReadConfigJob
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapclientsearchconfigreadconfigjob.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapClientSearchConfigWriteConfigJob
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapclientsearchconfigwriteconfigjob.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapConnection
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapconnection.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapControl
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapcontrol.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapDefs
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapdefs.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapDN
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapdn.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapModel
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapmodel.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapObject
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapobject.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapOperation
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapoperation.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapSearch
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapsearch.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapSearchClientReadConfigServerJob
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapsearchclientreadconfigserverjob.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapServer
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapserver.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapSortProxyModel
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapsortproxymodel.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/LdapUrl
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldapurl.h
+* kldap /usr/include/KPim6/KLDAPCore/KLDAPCore/Ldif
+* kldap /usr/include/KPim6/KLDAPCore/kldapcore/ldif.h
+* kldap /usr/include/KPim6/KLDAPCore/kldap_core_version.h
+* kldap /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/AddHostDialog
+* kldap /usr/include/KPim6/KLDAPWidgets/kldapwidgets/addhostdialog.h
+* kldap /usr/include/KPim6/KLDAPWidgets/kldapwidgets/kldapwidgets_export.h
+* kldap /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapConfigureWidget
+* kldap /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapconfigurewidget.h
+* kldap /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapConfigureWidgetNg
+* kldap /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapconfigurewidgetng.h
+* kldap /usr/include/KPim6/KLDAPWidgets/KLDAPWidgets/LdapConfigWidget
+* kldap /usr/include/KPim6/KLDAPWidgets/kldapwidgets/ldapconfigwidget.h
+* kldap /usr/include/KPim6/KLDAPWidgets/kldap_widgets_version.h
+* kldap /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreConfig.cmake
+* kldap /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreConfigVersion.cmake
+* kldap /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreTargets-release.cmake
+* kldap /usr/lib/cmake/KPim6LdapCore/KPim6LdapCoreTargets.cmake
+* kldap /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsConfig.cmake
+* kldap /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsConfigVersion.cmake
+* kldap /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets-release.cmake
+* kldap /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
+* kldap /usr/lib/libKPim6LdapCore.so
+* kldap /usr/lib/libKPim6LdapCore.so.6
+* kldap /usr/lib/libKPim6LdapCore.so.6.2.0
+* kldap /usr/lib/libKPim6LdapWidgets.so
+* kldap /usr/lib/libKPim6LdapWidgets.so.6
+* kldap /usr/lib/libKPim6LdapWidgets.so.6.2.0
+* kldap /usr/lib/qt6/plugins/kf6/kio/ldap.so
+* kldap /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/de/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/de/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/en/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/en/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/es/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/es/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/et/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/et/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/fr/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/fr/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/gl/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/gl/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/it/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/it/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/ko/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/ko/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/nl/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/nl/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/pt/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/pt/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/pt_BR/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/pt_BR/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/ru/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/ru/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/sr/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/sr/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/sr@latin/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/sr@latin/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/sv/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/sv/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/tr/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
+* kldap /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
+* kldap /usr/share/doc/kldap-24.08.0/README.md
+* kldap /usr/share/doc/kldap-24.08.0/README.md.license
+* kldap /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ast/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ast/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/be/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/be/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/bg/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/bg/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/bn/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/br/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/bs/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/bs/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ca/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ca/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ca@valencia/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ca@valencia/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/cs/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/cs/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/csb/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/cy/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/da/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/da/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/de/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/de/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/el/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/el/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/en_GB/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/en_GB/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/eo/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/eo/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/es/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/es/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/et/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/et/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/eu/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/eu/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/fa/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/fi/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/fi/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/fr/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/fr/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/fy/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ga/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ga/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/gl/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/gl/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/he/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/he/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/hi/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/hi/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/hne/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/hne/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/hu/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/hu/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ia/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ia/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/is/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/it/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/it/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ja/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ja/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ka/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ka/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/kk/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/kk/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/km/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/km/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/kn/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ko/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ko/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/lt/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/lt/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/lv/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/lv/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/mk/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/mr/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/mr/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ms/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/nb/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/nb/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/nds/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/nds/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ne/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/nl/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/nl/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/nn/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/nn/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/pa/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/pa/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/pl/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/pl/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/pt/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/pt/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/pt_BR/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/pt_BR/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ro/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ro/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ru/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ru/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/se/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/se/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sk/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sk/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sl/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sl/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sq/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sr/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sr/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sr@latin/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sr@latin/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/sv/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/sv/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ta/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ta/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/th/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/th/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/tr/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/tr/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/ug/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/ug/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/uk/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/uk/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/uz/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/vi/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/zh_CN/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/zh_CN/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/locale/zh_TW/LC_MESSAGES/kio_ldap.mo
+* kldap /usr/share/locale/zh_TW/LC_MESSAGES/libkldap6.mo
+* kldap /usr/share/qlogging-categories6/kldap.categories
+* kldap /usr/share/qlogging-categories6/kldap.renamecategories

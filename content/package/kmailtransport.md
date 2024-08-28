@@ -12,7 +12,7 @@ size = "257772"
 usize = "1260154"
 sha1sum = "ab67ea18ae2e493658cae6ff3da4b7f4c0c399f4"
 depends = "['akonadi-contacts>=24.05.2', 'kcmutils>=6.3.0', 'ksmtp>=24.05.2', 'libkgapi>=24.05.2', 'qtkeychain']"
-reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
+reverse_depends = "['./akonadi-calendar', './kalarm', './kmail-account-wizard', './libksieve', './messagelib', 'akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
 Mail Transport Service

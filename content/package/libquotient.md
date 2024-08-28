@@ -12,7 +12,7 @@ size = "787636"
 usize = "3211733"
 sha1sum = "4ef8f4320b642970d50b04fce724a1863a0959d3"
 depends = "['olm', 'qt6-multimedia', 'qtkeychain']"
-reverse_depends = "['neochat']"
+reverse_depends = "['./itinerary', './neochat', 'neochat']"
 +++
 ### Description: 
 A Qt library to write cross-platform clients for Matrix

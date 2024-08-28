@@ -12,7 +12,7 @@ size = "121108"
 usize = "387339"
 sha1sum = "a8b0aaccdd96ac409d09bdbc2401b42ca4c77a05"
 depends = "['glibc>=2.34', 'libsystemd', 'libudev', 'polkit', 'python3']"
-reverse_depends = "['ccid', 'freerdp', 'freerdp2', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'perl-pcsc', 'qt6-connectivity', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'ccid', 'freerdp', 'freerdp2', 'keepassxc', 'libykneomgr', 'openjre', 'opensc', 'perl-pcsc', 'qt6-connectivity', 'wine', 'wine-devel']"
 +++
 ### Description: 
 PC/SC Architecture smartcard middleware library

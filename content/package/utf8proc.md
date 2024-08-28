@@ -1,28 +1,27 @@
 +++
 draft = false
-title = "utf8proc 2.8.0-2"
-version = "2.8.0-2"
+title = "./utf8proc 2.9.0-1"
+version = "2.9.0-1"
 description = "A clean C library for processing UTF-8 Unicode data."
-date = "2024-05-12T20:24:17"
-aliases = "/packages/219627"
+date = "2024-08-26T15:33:32"
+aliases = "/packages/222256"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/JuliaLang/utf8proc"
 arch = "x86_64"
-size = "446972"
-usize = "873181"
-sha1sum = "4a7ebd3ae081841cca56ffa52af27a2a160f8174"
+size = "443800"
+usize = "874737"
+sha1sum = "494a2d9198c020b722441c338a95b9f90c6fd6d7"
 depends = "['glibc>=2.34']"
-reverse_depends = "['julia', 'qtermwidget', 'sdlmame', 'subversion']"
 +++
 ### Description: 
 A clean C library for processing UTF-8 Unicode data.
 
 ### Files: 
-* /usr/include/utf8proc.h
-* /usr/lib/libutf8proc.a
-* /usr/lib/libutf8proc.so
-* /usr/lib/libutf8proc.so.2
-* /usr/lib/libutf8proc.so.2.6.0
-* /usr/lib/pkgconfig/libutf8proc.pc
-* /usr/share/doc/utf8proc-2.8.0/MANIFEST
-* /usr/share/doc/utf8proc-2.8.0/README.md
+* utf8proc /usr/include/utf8proc.h
+* utf8proc /usr/lib/libutf8proc.a
+* utf8proc /usr/lib/libutf8proc.so
+* utf8proc /usr/lib/libutf8proc.so.3
+* utf8proc /usr/lib/libutf8proc.so.3.0.0
+* utf8proc /usr/lib/pkgconfig/libutf8proc.pc
+* utf8proc /usr/share/doc/utf8proc-2.9.0/MANIFEST
+* utf8proc /usr/share/doc/utf8proc-2.9.0/README.md

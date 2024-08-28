@@ -12,7 +12,7 @@ size = "130388"
 usize = "703389"
 sha1sum = "9cb61aff4a206cd01f671efcf78a319cdab1b45c"
 depends = "['dbus-glib>=0.110', 'dbus-python-devel', 'libffi>=3.2.1-2', 'python3>=3.12']"
-reverse_depends = "['python-efl', 'python3-dbusmock']"
+reverse_depends = "['./python3-dbusmock', 'python-efl', 'python3-dbusmock']"
 +++
 ### Description: 
 Python bindings for D-BUS

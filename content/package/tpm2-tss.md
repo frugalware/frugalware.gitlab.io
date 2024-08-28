@@ -12,7 +12,7 @@ size = "773872"
 usize = "3101031"
 sha1sum = "b9ad7730e7c3eb6498403b2cc232328988a65f8d"
 depends = "['curl', 'json-c>=0.14', 'openssl>=3.1.0', 'shadow']"
-reverse_depends = "['fwupd']"
+reverse_depends = "['./fwupd', 'fwupd']"
 +++
 ### Description: 
 Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)

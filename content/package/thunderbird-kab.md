@@ -12,7 +12,7 @@ size = "668264"
 usize = "731531"
 sha1sum = "d87e68901bed897eaccd02a6ffb71b57741acd92"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Kabyle language support for Thunderbird

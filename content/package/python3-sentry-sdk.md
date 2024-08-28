@@ -1,308 +1,307 @@
 +++
 draft = false
-title = "python3-sentry-sdk 2.12.0-1"
-version = "2.12.0-1"
+title = "./python3-sentry-sdk 2.13.0-1"
+version = "2.13.0-1"
 description = "The official Python SDK for Sentry.io"
-date = "2024-08-02T12:18:23"
-aliases = "/packages/221383"
+date = "2024-08-20T19:41:39"
+aliases = "/packages/222236"
 categories = ['devel']
 upstreamurl = "https://sentry.io/for/python"
 arch = "x86_64"
-size = "494396"
-usize = "2226978"
-sha1sum = "42b937799b698c7834df4e68dc0bb3b73f75588f"
+size = "483980"
+usize = "2224905"
+sha1sum = "d6590aade0815fef60ec20a786a6e8cc8b839581"
 depends = "['certifi', 'python3-urllib3']"
-reverse_depends = "['drkonqi']"
 +++
 ### Description: 
 The official Python SDK for Sentry.io
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/sentry_sdk/ai/monitoring.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/ai/utils.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/ai/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/ai/__pycache__/monitoring.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/ai/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/ai/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/api.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/attachments.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/client.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/consts.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/api.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/consts.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/decorator.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/api.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/consts.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/decorator.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/django.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/sqlalchemy.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__pycache__/django.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__pycache__/sqlalchemy.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/db/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/debug.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/envelope.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/hub.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/aiohttp.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/anthropic.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/argv.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/ariadne.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/arq.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/asgi.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/asyncio.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/asyncpg.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/atexit.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/aws_lambda.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/beam.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/boto3.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/bottle.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/beat.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/utils.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__pycache__/beat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/chalice.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/clickhouse_driver.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/cloud_resource_context.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/cohere.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/dedupe.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/asgi.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/caching.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/middleware.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/signals_handlers.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/templates.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/transactions.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/views.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/asgi.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/caching.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/middleware.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/signals_handlers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/templates.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/transactions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/views.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/dramatiq.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/excepthook.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/executing.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/falcon.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/fastapi.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/flask.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/gcp.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/gnu_backtrace.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/gql.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/graphene.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/client.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/server.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__pycache__/server.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/client.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/consts.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/server.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/consts.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/server.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/httpx.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/huey.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/huggingface_hub.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/langchain.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/litestar.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/logging.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/loguru.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/modules.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/openai.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/consts.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/integration.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/propagator.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/span_processor.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/consts.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/integration.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/propagator.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/span_processor.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/pure_eval.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/pymongo.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/pyramid.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/quart.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/ray.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/consts.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/caches.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/queries.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__pycache__/caches.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__pycache__/queries.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/rb.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/redis.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/redis_cluster.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/redis_py_cluster_legacy.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/utils.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/_async_common.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/_sync_common.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/consts.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/rb.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/redis.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/redis_cluster.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/redis_py_cluster_legacy.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/_async_common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/_sync_common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/rq.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/sanic.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/serverless.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/socket.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/spark_driver.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/spark_worker.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__pycache__/spark_driver.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__pycache__/spark_worker.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/sqlalchemy.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/starlette.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/starlite.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/stdlib.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/strawberry.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/threading.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/tornado.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/trytond.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/wsgi.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/_asgi_common.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/_wsgi_common.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/aiohttp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/anthropic.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/argv.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/ariadne.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/arq.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/asgi.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/asyncio.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/asyncpg.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/atexit.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/aws_lambda.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/beam.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/boto3.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/bottle.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/chalice.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/clickhouse_driver.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/cloud_resource_context.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/cohere.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/dedupe.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/dramatiq.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/excepthook.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/executing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/falcon.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/fastapi.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/flask.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/gcp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/gnu_backtrace.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/gql.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/graphene.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/httpx.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/huey.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/huggingface_hub.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/langchain.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/litestar.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/logging.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/loguru.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/modules.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/openai.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pure_eval.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pymongo.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pyramid.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/quart.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/ray.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/rq.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/sanic.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/serverless.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/socket.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/sqlalchemy.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/starlette.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/starlite.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/stdlib.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/strawberry.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/threading.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/tornado.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/trytond.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/wsgi.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/_asgi_common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/_wsgi_common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/metrics.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/monitor.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/continuous_profiler.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/transaction_profiler.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/utils.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/continuous_profiler.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/transaction_profiler.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/py.typed
-* /usr/lib/python3.12/site-packages/sentry_sdk/scope.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/scrubber.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/serializer.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/session.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/sessions.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/spotlight.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/tracing.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/tracing_utils.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/transport.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/types.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/utils.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/worker.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/_compat.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/_init_implementation.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/_lru_cache.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/_queue.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/_types.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/_werkzeug.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/__init__.py
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/api.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/attachments.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/consts.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/debug.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/envelope.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/hub.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/metrics.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/monitor.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/scope.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/scrubber.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/serializer.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/session.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/sessions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/spotlight.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/tracing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/tracing_utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/transport.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/types.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/worker.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_compat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_init_implementation.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_lru_cache.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_queue.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_types.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_werkzeug.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-sentry-sdk-2.13.0/LICENSE
-* /usr/share/doc/python3-sentry-sdk-2.13.0/README.md
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/dependency_links.txt
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/entry_points.txt
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/not-zip-safe
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/PKG-INFO
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/requires.txt
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/SOURCES.txt
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk-2.13.0-py3.12.egg-info/top_level.txt
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/ai/monitoring.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/ai/utils.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/ai/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/ai/__pycache__/monitoring.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/ai/__pycache__/utils.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/ai/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/api.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/attachments.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/client.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/consts.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/api.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/consts.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/decorator.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/api.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/consts.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/decorator.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/crons/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/django.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/sqlalchemy.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__pycache__/django.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__pycache__/sqlalchemy.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/explain_plan/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/db/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/debug.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/envelope.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/hub.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/aiohttp.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/anthropic.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/argv.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/ariadne.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/arq.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/asgi.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/asyncio.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/asyncpg.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/atexit.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/aws_lambda.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/beam.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/boto3.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/bottle.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/beat.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/utils.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__pycache__/beat.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__pycache__/utils.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/celery/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/chalice.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/clickhouse_driver.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/cloud_resource_context.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/cohere.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/dedupe.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/asgi.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/caching.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/middleware.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/signals_handlers.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/templates.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/transactions.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/views.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/asgi.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/caching.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/middleware.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/signals_handlers.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/templates.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/transactions.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/views.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/django/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/dramatiq.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/excepthook.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/executing.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/falcon.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/fastapi.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/flask.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/gcp.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/gnu_backtrace.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/gql.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/graphene.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/client.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/server.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__pycache__/client.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__pycache__/server.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/aio/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/client.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/consts.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/server.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/client.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/consts.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/server.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/grpc/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/httpx.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/huey.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/huggingface_hub.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/langchain.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/litestar.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/logging.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/loguru.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/modules.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/openai.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/consts.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/integration.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/propagator.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/span_processor.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/consts.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/integration.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/propagator.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/span_processor.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/opentelemetry/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/pure_eval.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/pymongo.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/pyramid.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/quart.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/ray.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/consts.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/caches.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/queries.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__pycache__/caches.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__pycache__/queries.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/modules/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/rb.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/redis.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/redis_cluster.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/redis_py_cluster_legacy.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/utils.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/_async_common.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/_sync_common.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/consts.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/rb.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/redis.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/redis_cluster.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/redis_py_cluster_legacy.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/utils.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/_async_common.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/_sync_common.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/redis/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/rq.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/sanic.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/serverless.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/socket.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/spark_driver.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/spark_worker.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__pycache__/spark_driver.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__pycache__/spark_worker.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/spark/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/sqlalchemy.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/starlette.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/starlite.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/stdlib.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/strawberry.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/threading.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/tornado.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/trytond.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/wsgi.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/_asgi_common.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/_wsgi_common.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/aiohttp.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/anthropic.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/argv.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/ariadne.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/arq.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/asgi.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/asyncio.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/asyncpg.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/atexit.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/aws_lambda.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/beam.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/boto3.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/bottle.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/chalice.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/clickhouse_driver.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/cloud_resource_context.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/cohere.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/dedupe.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/dramatiq.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/excepthook.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/executing.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/falcon.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/fastapi.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/flask.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/gcp.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/gnu_backtrace.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/gql.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/graphene.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/httpx.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/huey.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/huggingface_hub.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/langchain.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/litestar.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/logging.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/loguru.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/modules.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/openai.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pure_eval.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pymongo.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/pyramid.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/quart.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/ray.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/rq.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/sanic.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/serverless.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/socket.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/sqlalchemy.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/starlette.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/starlite.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/stdlib.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/strawberry.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/threading.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/tornado.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/trytond.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/wsgi.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/_asgi_common.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/_wsgi_common.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/integrations/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/metrics.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/monitor.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/continuous_profiler.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/transaction_profiler.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/utils.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/continuous_profiler.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/transaction_profiler.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/utils.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/profiler/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/py.typed
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/scope.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/scrubber.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/serializer.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/session.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/sessions.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/spotlight.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/tracing.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/tracing_utils.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/transport.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/types.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/utils.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/worker.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/_compat.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/_init_implementation.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/_lru_cache.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/_queue.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/_types.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/_werkzeug.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__init__.py
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/api.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/attachments.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/client.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/consts.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/debug.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/envelope.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/hub.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/metrics.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/monitor.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/scope.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/scrubber.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/serializer.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/session.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/sessions.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/spotlight.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/tracing.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/tracing_utils.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/transport.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/types.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/utils.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/worker.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_compat.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_init_implementation.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_lru_cache.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_queue.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_types.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/_werkzeug.cpython-312.pyc
+* python3-sentry-sdk /usr/lib/python3.12/site-packages/sentry_sdk/__pycache__/__init__.cpython-312.pyc
+* python3-sentry-sdk /usr/share/doc/python3-sentry-sdk-2.13.0/LICENSE
+* python3-sentry-sdk /usr/share/doc/python3-sentry-sdk-2.13.0/README.md

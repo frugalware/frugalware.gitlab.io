@@ -12,7 +12,7 @@ size = "587404"
 usize = "2528169"
 sha1sum = "995ccf26dbced22f4dc1fc43f67ec7e716090591"
 depends = "['qt6-svg>=6.6.2']"
-reverse_depends = "['eventviews']"
+reverse_depends = "['./eventviews', './massif-visualizer', 'eventviews']"
 +++
 ### Description: 
 Libraries for creating business diagrams

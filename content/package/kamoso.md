@@ -1,133 +1,131 @@
 +++
 draft = false
-title = "kamoso 24.05.2-1"
-version = "24.05.2-1"
+title = "./kamoso 24.08.0-1"
+version = "24.08.0-1"
 description = "Kamoso is an application to take pictures and videos out of your webcam."
-date = "2024-07-05T15:15:18"
-aliases = "/packages/219631"
+date = "2024-08-23T20:41:00"
+aliases = "/packages/222296"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "277836"
-usize = "696922"
-sha1sum = "fccc350f77df276e34c3ec52baa8e2d76d3e3c39"
+size = "273384"
+usize = "688307"
+sha1sum = "e555af1e5226489950c45db3e14fb631314786af"
 depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'kconfig5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'phonon-qt6', 'purpose5>=5.116.0', 'solid']"
 +++
 ### Description: 
 Kamoso is an application to take pictures and videos out of your webcam.
 
 ### Files: 
-* /usr/bin/kamoso
-* /usr/lib/gstreamer-1.0/gstkamosoqt5videosink.so
-* /usr/share/applications/org.kde.kamoso.desktop
-* /usr/share/doc/HTML/ca/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/ca/kamoso/index.docbook
-* /usr/share/doc/HTML/de/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/de/kamoso/index.docbook
-* /usr/share/doc/HTML/en/kamoso/folder-images.png
-* /usr/share/doc/HTML/en/kamoso/gallery-actions.png
-* /usr/share/doc/HTML/en/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/en/kamoso/index.docbook
-* /usr/share/doc/HTML/en/kamoso/kamoso-settings.png
-* /usr/share/doc/HTML/en/kamoso/mainwindow.png
-* /usr/share/doc/HTML/en/kamoso/preferences-other.png
-* /usr/share/doc/HTML/en/kamoso/sc-actions-burst.png
-* /usr/share/doc/HTML/en/kamoso/sc-actions-record.png
-* /usr/share/doc/HTML/en/kamoso/sc-actions-shoot.png
-* /usr/share/doc/HTML/en/kamoso/start-stop.png
-* /usr/share/doc/HTML/es/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/es/kamoso/index.docbook
-* /usr/share/doc/HTML/fr/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/fr/kamoso/index.docbook
-* /usr/share/doc/HTML/id/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/id/kamoso/index.docbook
-* /usr/share/doc/HTML/it/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/it/kamoso/index.docbook
-* /usr/share/doc/HTML/nl/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/nl/kamoso/index.docbook
-* /usr/share/doc/HTML/pt/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/pt/kamoso/index.docbook
-* /usr/share/doc/HTML/pt_BR/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kamoso/index.docbook
-* /usr/share/doc/HTML/ru/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/ru/kamoso/index.docbook
-* /usr/share/doc/HTML/sl/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/sl/kamoso/index.docbook
-* /usr/share/doc/HTML/sv/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/sv/kamoso/index.docbook
-* /usr/share/doc/HTML/tr/kamoso/folder-images.png
-* /usr/share/doc/HTML/tr/kamoso/gallery-actions.png
-* /usr/share/doc/HTML/tr/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/tr/kamoso/index.docbook
-* /usr/share/doc/HTML/tr/kamoso/kamoso-settings.png
-* /usr/share/doc/HTML/tr/kamoso/mainwindow.png
-* /usr/share/doc/HTML/tr/kamoso/preferences-other.png
-* /usr/share/doc/HTML/tr/kamoso/sc-actions-burst.png
-* /usr/share/doc/HTML/tr/kamoso/sc-actions-record.png
-* /usr/share/doc/HTML/tr/kamoso/sc-actions-shoot.png
-* /usr/share/doc/HTML/tr/kamoso/start-stop.png
-* /usr/share/doc/HTML/uk/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/uk/kamoso/index.docbook
-* /usr/share/doc/HTML/zh_CN/kamoso/index.cache.bz2
-* /usr/share/doc/HTML/zh_CN/kamoso/index.docbook
-* /usr/share/doc/kamoso-24.05.2/AUTHORS
-* /usr/share/icons/hicolor/128x128/apps/kamoso.png
-* /usr/share/icons/hicolor/16x16/apps/kamoso.png
-* /usr/share/icons/hicolor/22x22/apps/kamoso.png
-* /usr/share/icons/hicolor/32x32/apps/kamoso.png
-* /usr/share/icons/hicolor/48x48/apps/kamoso.png
-* /usr/share/icons/hicolor/64x64/apps/kamoso.png
-* /usr/share/icons/hicolor/scalable/actions/burst.svgz
-* /usr/share/icons/hicolor/scalable/apps/kamoso.svg
-* /usr/share/knotifications5/kamoso.notifyrc
-* /usr/share/locale/ar/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/bg/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/bs/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ca/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/cs/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/da/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/de/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/el/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/eo/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/es/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/et/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/eu/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/fi/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/fr/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ga/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/gl/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/hu/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ia/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/id/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ie/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/is/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/it/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ja/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ka/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/kk/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ko/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/lt/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/lv/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/mai/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/mr/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/nb/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/nds/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/nl/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/nn/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/pa/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/pl/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/pt/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ro/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ru/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/sk/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/sl/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/sv/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/tr/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/ug/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/uk/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kamoso.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kamoso.mo
-* /usr/share/metainfo/org.kde.kamoso.appdata.xml
+* kamoso /usr/bin/kamoso
+* kamoso /usr/lib/gstreamer-1.0/gstkamosoqt5videosink.so
+* kamoso /usr/share/applications/org.kde.kamoso.desktop
+* kamoso /usr/share/doc/HTML/ca/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/ca/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/de/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/de/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/en/kamoso/folder-images.png
+* kamoso /usr/share/doc/HTML/en/kamoso/gallery-actions.png
+* kamoso /usr/share/doc/HTML/en/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/en/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/en/kamoso/kamoso-settings.png
+* kamoso /usr/share/doc/HTML/en/kamoso/mainwindow.png
+* kamoso /usr/share/doc/HTML/en/kamoso/preferences-other.png
+* kamoso /usr/share/doc/HTML/en/kamoso/sc-actions-burst.png
+* kamoso /usr/share/doc/HTML/en/kamoso/sc-actions-record.png
+* kamoso /usr/share/doc/HTML/en/kamoso/sc-actions-shoot.png
+* kamoso /usr/share/doc/HTML/en/kamoso/start-stop.png
+* kamoso /usr/share/doc/HTML/es/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/es/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/fr/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/fr/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/id/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/id/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/it/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/it/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/nl/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/nl/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/pt/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/pt/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/pt_BR/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/pt_BR/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/ru/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/ru/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/sv/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/sv/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/tr/kamoso/folder-images.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/gallery-actions.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/tr/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/tr/kamoso/kamoso-settings.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/mainwindow.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/preferences-other.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/sc-actions-burst.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/sc-actions-record.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/sc-actions-shoot.png
+* kamoso /usr/share/doc/HTML/tr/kamoso/start-stop.png
+* kamoso /usr/share/doc/HTML/uk/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/uk/kamoso/index.docbook
+* kamoso /usr/share/doc/HTML/zh_CN/kamoso/index.cache.bz2
+* kamoso /usr/share/doc/HTML/zh_CN/kamoso/index.docbook
+* kamoso /usr/share/doc/kamoso-24.08.0/AUTHORS
+* kamoso /usr/share/icons/hicolor/128x128/apps/kamoso.png
+* kamoso /usr/share/icons/hicolor/16x16/apps/kamoso.png
+* kamoso /usr/share/icons/hicolor/22x22/apps/kamoso.png
+* kamoso /usr/share/icons/hicolor/32x32/apps/kamoso.png
+* kamoso /usr/share/icons/hicolor/48x48/apps/kamoso.png
+* kamoso /usr/share/icons/hicolor/64x64/apps/kamoso.png
+* kamoso /usr/share/icons/hicolor/scalable/actions/burst.svgz
+* kamoso /usr/share/icons/hicolor/scalable/apps/kamoso.svg
+* kamoso /usr/share/knotifications5/kamoso.notifyrc
+* kamoso /usr/share/locale/ar/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/bg/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/bs/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ca/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ca@valencia/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/cs/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/da/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/de/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/el/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/en_GB/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/eo/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/es/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/et/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/eu/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/fi/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/fr/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ga/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/gl/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/hu/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ia/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/id/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ie/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/is/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/it/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ja/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ka/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/kk/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ko/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/lt/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/lv/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/mai/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/mr/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/nb/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/nds/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/nl/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/nn/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/pa/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/pl/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/pt/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/pt_BR/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ro/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ru/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/sk/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/sl/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/sv/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/tr/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/ug/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/uk/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/zh_CN/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/locale/zh_TW/LC_MESSAGES/kamoso.mo
+* kamoso /usr/share/metainfo/org.kde.kamoso.appdata.xml

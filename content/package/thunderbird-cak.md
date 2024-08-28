@@ -12,7 +12,7 @@ size = "604168"
 usize = "671376"
 sha1sum = "54ed66b3701c0fd1a86e07d4ea6a0cc91750f3e5"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Kaqchikel language support for Thunderbird

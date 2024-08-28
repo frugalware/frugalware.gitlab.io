@@ -12,7 +12,7 @@ size = "385192"
 usize = "1775761"
 sha1sum = "0de667105d191890749bcf18a4be86696fda40f1"
 depends = "['networkmanager>=1.6.2', 'qt6-base>=6.7.1']"
-reverse_depends = "['itinerary', 'kasts', 'kpublictransport', 'ksysguard5', 'ksystemstats', 'plasma-nm', 'plasma-settings', 'plasma-vault', 'plasma-workspace']"
+reverse_depends = "['./kasts', './kpublictransport', 'itinerary', 'kasts', 'kpublictransport', 'ksysguard5', 'ksystemstats', 'plasma-nm', 'plasma-settings', 'plasma-vault', 'plasma-workspace']"
 +++
 ### Description: 
 Qt wrapper for NetworkManager API.

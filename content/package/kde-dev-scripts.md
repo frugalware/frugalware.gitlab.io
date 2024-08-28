@@ -1,310 +1,295 @@
 +++
 draft = false
-title = "kde-dev-scripts 24.05.2-1"
-version = "24.05.2-1"
+title = "./kde-dev-scripts 24.08.0-1"
+version = "24.08.0-1"
 description = "Scripts and setting files useful during development of KDE software"
-date = "2024-07-20T20:47:36"
-aliases = "/packages/219329"
+date = "2024-08-25T16:25:26"
+aliases = "/packages/222375"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "324744"
-usize = "552417"
-sha1sum = "1dc6080ee44ec2043dc5c1ad8dfd4e60c1685f8b"
+size = "309108"
+usize = "536681"
+sha1sum = "0e4d9ea8172eeb7b434c5415fea27e27aeb5ffa5"
 depends = "['glibc']"
 +++
 ### Description: 
 Scripts and setting files useful during development of KDE software
 
 ### Files: 
-* /usr/bin/adddebug
-* /usr/bin/addmocincludes
-* /usr/bin/build-progress.sh
-* /usr/bin/c++-copy-class-and-file
-* /usr/bin/c++-rename-class-and-file
-* /usr/bin/cheatmake
-* /usr/bin/clean-forward-declaration.sh
-* /usr/bin/clean-includes.sh
-* /usr/bin/colorsvn
-* /usr/bin/create_cvsignore
-* /usr/bin/create_makefile
-* /usr/bin/create_makefiles
-* /usr/bin/create_svnignore
-* /usr/bin/cvs-clean
-* /usr/bin/cvsaddcurrentdir
-* /usr/bin/cvsbackport
-* /usr/bin/cvsblame
-* /usr/bin/cvscheck
-* /usr/bin/cvsforwardport
-* /usr/bin/cvslastchange
-* /usr/bin/cvslastlog
-* /usr/bin/cvsrevertlast
-* /usr/bin/cvsversion
-* /usr/bin/cxxmetric
-* /usr/bin/draw_lib_dependencies
-* /usr/bin/extend_dmalloc
-* /usr/bin/extractattr
-* /usr/bin/extractrc
-* /usr/bin/findmissingcrystal
-* /usr/bin/fix-include.sh
-* /usr/bin/fixkdeincludes
-* /usr/bin/fixuifiles
-* /usr/bin/grantlee_strings_extractor.py
-* /usr/bin/includemocs
-* /usr/bin/kde-systemsettings-tree.py
-* /usr/bin/kdedoc
-* /usr/bin/kdekillall
-* /usr/bin/kdelnk2desktop.py
-* /usr/bin/kdemangen.pl
-* /usr/bin/kde_generate_export_header
-* /usr/bin/krazy-licensecheck
-* /usr/bin/makeobj
-* /usr/bin/noncvslist
-* /usr/bin/nonsvnlist
-* /usr/bin/optimizegraphics
-* /usr/bin/package_crystalsvg
-* /usr/bin/png2mng.pl
-* /usr/bin/port_new_gitlab_ci_template.sh
-* /usr/bin/pruneemptydirs
-* /usr/bin/reviewboard-am
-* /usr/bin/svn-clean
-* /usr/bin/svnbackport
-* /usr/bin/svnchangesince
-* /usr/bin/svnforwardport
-* /usr/bin/svngettags
-* /usr/bin/svnintegrate
-* /usr/bin/svnlastchange
-* /usr/bin/svnlastlog
-* /usr/bin/svnrevertlast
-* /usr/bin/svnversions
-* /usr/bin/uncrustify-kf5
-* /usr/bin/wcgrep
-* /usr/bin/zonetab2pot.py
-* /usr/share/doc/kde-dev-scripts-24.05.2/COPYING
-* /usr/share/doc/kde-dev-scripts-24.05.2/COPYING.DOC
-* /usr/share/doc/kde-dev-scripts-24.05.2/README
-* /usr/share/man/ca/man1/adddebug.1.gz
-* /usr/share/man/ca/man1/cheatmake.1.gz
-* /usr/share/man/ca/man1/create_cvsignore.1.gz
-* /usr/share/man/ca/man1/create_makefile.1.gz
-* /usr/share/man/ca/man1/create_makefiles.1.gz
-* /usr/share/man/ca/man1/cvscheck.1.gz
-* /usr/share/man/ca/man1/cvslastchange.1.gz
-* /usr/share/man/ca/man1/cvslastlog.1.gz
-* /usr/share/man/ca/man1/cvsrevertlast.1.gz
-* /usr/share/man/ca/man1/cxxmetric.1.gz
-* /usr/share/man/ca/man1/extend_dmalloc.1.gz
-* /usr/share/man/ca/man1/extractrc.1.gz
-* /usr/share/man/ca/man1/fixincludes.1.gz
-* /usr/share/man/ca/man1/pruneemptydirs.1.gz
-* /usr/share/man/ca/man1/zonetab2pot.py.1.gz
-* /usr/share/man/da/man1/adddebug.1.gz
-* /usr/share/man/da/man1/cheatmake.1.gz
-* /usr/share/man/da/man1/create_cvsignore.1.gz
-* /usr/share/man/da/man1/create_makefiles.1.gz
-* /usr/share/man/da/man1/cvscheck.1.gz
-* /usr/share/man/da/man1/cvslastchange.1.gz
-* /usr/share/man/da/man1/cvslastlog.1.gz
-* /usr/share/man/da/man1/cvsrevertlast.1.gz
-* /usr/share/man/da/man1/cxxmetric.1.gz
-* /usr/share/man/da/man1/extend_dmalloc.1.gz
-* /usr/share/man/da/man1/extractrc.1.gz
-* /usr/share/man/da/man1/fixincludes.1.gz
-* /usr/share/man/da/man1/pruneemptydirs.1.gz
-* /usr/share/man/da/man1/zonetab2pot.py.1.gz
-* /usr/share/man/de/man1/adddebug.1.gz
-* /usr/share/man/de/man1/cheatmake.1.gz
-* /usr/share/man/de/man1/create_cvsignore.1.gz
-* /usr/share/man/de/man1/create_makefile.1.gz
-* /usr/share/man/de/man1/create_makefiles.1.gz
-* /usr/share/man/de/man1/cvscheck.1.gz
-* /usr/share/man/de/man1/cvslastchange.1.gz
-* /usr/share/man/de/man1/cvslastlog.1.gz
-* /usr/share/man/de/man1/cvsrevertlast.1.gz
-* /usr/share/man/de/man1/cxxmetric.1.gz
-* /usr/share/man/de/man1/extend_dmalloc.1.gz
-* /usr/share/man/de/man1/extractrc.1.gz
-* /usr/share/man/de/man1/fixincludes.1.gz
-* /usr/share/man/de/man1/pruneemptydirs.1.gz
-* /usr/share/man/de/man1/zonetab2pot.py.1.gz
-* /usr/share/man/es/man1/adddebug.1.gz
-* /usr/share/man/es/man1/cheatmake.1.gz
-* /usr/share/man/es/man1/create_cvsignore.1.gz
-* /usr/share/man/es/man1/create_makefile.1.gz
-* /usr/share/man/es/man1/create_makefiles.1.gz
-* /usr/share/man/es/man1/cvscheck.1.gz
-* /usr/share/man/es/man1/cvslastchange.1.gz
-* /usr/share/man/es/man1/cvslastlog.1.gz
-* /usr/share/man/es/man1/cvsrevertlast.1.gz
-* /usr/share/man/es/man1/cxxmetric.1.gz
-* /usr/share/man/es/man1/extend_dmalloc.1.gz
-* /usr/share/man/es/man1/extractrc.1.gz
-* /usr/share/man/es/man1/fixincludes.1.gz
-* /usr/share/man/es/man1/pruneemptydirs.1.gz
-* /usr/share/man/es/man1/zonetab2pot.py.1.gz
-* /usr/share/man/fr/man1/adddebug.1.gz
-* /usr/share/man/fr/man1/cheatmake.1.gz
-* /usr/share/man/fr/man1/create_cvsignore.1.gz
-* /usr/share/man/fr/man1/create_makefile.1.gz
-* /usr/share/man/fr/man1/create_makefiles.1.gz
-* /usr/share/man/fr/man1/cvscheck.1.gz
-* /usr/share/man/fr/man1/cvslastchange.1.gz
-* /usr/share/man/fr/man1/cvslastlog.1.gz
-* /usr/share/man/fr/man1/cvsrevertlast.1.gz
-* /usr/share/man/fr/man1/cxxmetric.1.gz
-* /usr/share/man/fr/man1/extend_dmalloc.1.gz
-* /usr/share/man/fr/man1/extractrc.1.gz
-* /usr/share/man/fr/man1/fixincludes.1.gz
-* /usr/share/man/fr/man1/pruneemptydirs.1.gz
-* /usr/share/man/fr/man1/zonetab2pot.py.1.gz
-* /usr/share/man/gl/man1/adddebug.1.gz
-* /usr/share/man/gl/man1/cheatmake.1.gz
-* /usr/share/man/gl/man1/create_cvsignore.1.gz
-* /usr/share/man/gl/man1/create_makefiles.1.gz
-* /usr/share/man/gl/man1/cvscheck.1.gz
-* /usr/share/man/gl/man1/cvslastchange.1.gz
-* /usr/share/man/gl/man1/cvslastlog.1.gz
-* /usr/share/man/gl/man1/cvsrevertlast.1.gz
-* /usr/share/man/gl/man1/cxxmetric.1.gz
-* /usr/share/man/gl/man1/extend_dmalloc.1.gz
-* /usr/share/man/gl/man1/extractrc.1.gz
-* /usr/share/man/gl/man1/fixincludes.1.gz
-* /usr/share/man/gl/man1/pruneemptydirs.1.gz
-* /usr/share/man/gl/man1/zonetab2pot.py.1.gz
-* /usr/share/man/it/man1/adddebug.1.gz
-* /usr/share/man/it/man1/cheatmake.1.gz
-* /usr/share/man/it/man1/create_cvsignore.1.gz
-* /usr/share/man/it/man1/create_makefile.1.gz
-* /usr/share/man/it/man1/create_makefiles.1.gz
-* /usr/share/man/it/man1/cvscheck.1.gz
-* /usr/share/man/it/man1/cvslastchange.1.gz
-* /usr/share/man/it/man1/cvslastlog.1.gz
-* /usr/share/man/it/man1/cvsrevertlast.1.gz
-* /usr/share/man/it/man1/cxxmetric.1.gz
-* /usr/share/man/it/man1/extend_dmalloc.1.gz
-* /usr/share/man/it/man1/extractrc.1.gz
-* /usr/share/man/it/man1/fixincludes.1.gz
-* /usr/share/man/it/man1/pruneemptydirs.1.gz
-* /usr/share/man/it/man1/zonetab2pot.py.1.gz
-* /usr/share/man/man1/adddebug.1.gz
-* /usr/share/man/man1/cheatmake.1.gz
-* /usr/share/man/man1/create_cvsignore.1.gz
-* /usr/share/man/man1/create_makefile.1.gz
-* /usr/share/man/man1/create_makefiles.1.gz
-* /usr/share/man/man1/cvscheck.1.gz
-* /usr/share/man/man1/cvslastchange.1.gz
-* /usr/share/man/man1/cvslastlog.1.gz
-* /usr/share/man/man1/cvsrevertlast.1.gz
-* /usr/share/man/man1/cxxmetric.1.gz
-* /usr/share/man/man1/extend_dmalloc.1.gz
-* /usr/share/man/man1/extractrc.1.gz
-* /usr/share/man/man1/fixincludes.1.gz
-* /usr/share/man/man1/pruneemptydirs.1.gz
-* /usr/share/man/man1/zonetab2pot.py.1.gz
-* /usr/share/man/nl/man1/adddebug.1.gz
-* /usr/share/man/nl/man1/cheatmake.1.gz
-* /usr/share/man/nl/man1/create_cvsignore.1.gz
-* /usr/share/man/nl/man1/create_makefile.1.gz
-* /usr/share/man/nl/man1/create_makefiles.1.gz
-* /usr/share/man/nl/man1/cvscheck.1.gz
-* /usr/share/man/nl/man1/cvslastchange.1.gz
-* /usr/share/man/nl/man1/cvslastlog.1.gz
-* /usr/share/man/nl/man1/cvsrevertlast.1.gz
-* /usr/share/man/nl/man1/cxxmetric.1.gz
-* /usr/share/man/nl/man1/extend_dmalloc.1.gz
-* /usr/share/man/nl/man1/extractrc.1.gz
-* /usr/share/man/nl/man1/fixincludes.1.gz
-* /usr/share/man/nl/man1/pruneemptydirs.1.gz
-* /usr/share/man/nl/man1/zonetab2pot.py.1.gz
-* /usr/share/man/pt/man1/adddebug.1.gz
-* /usr/share/man/pt/man1/cheatmake.1.gz
-* /usr/share/man/pt/man1/create_cvsignore.1.gz
-* /usr/share/man/pt/man1/create_makefile.1.gz
-* /usr/share/man/pt/man1/create_makefiles.1.gz
-* /usr/share/man/pt/man1/cvscheck.1.gz
-* /usr/share/man/pt/man1/cvslastchange.1.gz
-* /usr/share/man/pt/man1/cvslastlog.1.gz
-* /usr/share/man/pt/man1/cvsrevertlast.1.gz
-* /usr/share/man/pt/man1/cxxmetric.1.gz
-* /usr/share/man/pt/man1/extend_dmalloc.1.gz
-* /usr/share/man/pt/man1/extractrc.1.gz
-* /usr/share/man/pt/man1/fixincludes.1.gz
-* /usr/share/man/pt/man1/pruneemptydirs.1.gz
-* /usr/share/man/pt/man1/zonetab2pot.py.1.gz
-* /usr/share/man/pt_BR/man1/adddebug.1.gz
-* /usr/share/man/pt_BR/man1/cheatmake.1.gz
-* /usr/share/man/pt_BR/man1/create_cvsignore.1.gz
-* /usr/share/man/pt_BR/man1/create_makefile.1.gz
-* /usr/share/man/pt_BR/man1/create_makefiles.1.gz
-* /usr/share/man/pt_BR/man1/cvscheck.1.gz
-* /usr/share/man/pt_BR/man1/cvslastchange.1.gz
-* /usr/share/man/pt_BR/man1/cvslastlog.1.gz
-* /usr/share/man/pt_BR/man1/cvsrevertlast.1.gz
-* /usr/share/man/pt_BR/man1/cxxmetric.1.gz
-* /usr/share/man/pt_BR/man1/extend_dmalloc.1.gz
-* /usr/share/man/pt_BR/man1/extractrc.1.gz
-* /usr/share/man/pt_BR/man1/fixincludes.1.gz
-* /usr/share/man/pt_BR/man1/pruneemptydirs.1.gz
-* /usr/share/man/pt_BR/man1/zonetab2pot.py.1.gz
-* /usr/share/man/ru/man1/adddebug.1.gz
-* /usr/share/man/ru/man1/cheatmake.1.gz
-* /usr/share/man/ru/man1/create_cvsignore.1.gz
-* /usr/share/man/ru/man1/create_makefile.1.gz
-* /usr/share/man/ru/man1/create_makefiles.1.gz
-* /usr/share/man/ru/man1/cvscheck.1.gz
-* /usr/share/man/ru/man1/cvslastchange.1.gz
-* /usr/share/man/ru/man1/cvslastlog.1.gz
-* /usr/share/man/ru/man1/cvsrevertlast.1.gz
-* /usr/share/man/ru/man1/cxxmetric.1.gz
-* /usr/share/man/ru/man1/extend_dmalloc.1.gz
-* /usr/share/man/ru/man1/extractrc.1.gz
-* /usr/share/man/ru/man1/fixincludes.1.gz
-* /usr/share/man/ru/man1/pruneemptydirs.1.gz
-* /usr/share/man/ru/man1/zonetab2pot.py.1.gz
-* /usr/share/man/sl/man1/adddebug.1.gz
-* /usr/share/man/sl/man1/cheatmake.1.gz
-* /usr/share/man/sl/man1/create_cvsignore.1.gz
-* /usr/share/man/sl/man1/create_makefile.1.gz
-* /usr/share/man/sl/man1/create_makefiles.1.gz
-* /usr/share/man/sl/man1/cvscheck.1.gz
-* /usr/share/man/sl/man1/cvslastchange.1.gz
-* /usr/share/man/sl/man1/cvslastlog.1.gz
-* /usr/share/man/sl/man1/cvsrevertlast.1.gz
-* /usr/share/man/sl/man1/cxxmetric.1.gz
-* /usr/share/man/sl/man1/extend_dmalloc.1.gz
-* /usr/share/man/sl/man1/extractrc.1.gz
-* /usr/share/man/sl/man1/fixincludes.1.gz
-* /usr/share/man/sl/man1/pruneemptydirs.1.gz
-* /usr/share/man/sl/man1/zonetab2pot.py.1.gz
-* /usr/share/man/sv/man1/adddebug.1.gz
-* /usr/share/man/sv/man1/cheatmake.1.gz
-* /usr/share/man/sv/man1/create_cvsignore.1.gz
-* /usr/share/man/sv/man1/create_makefile.1.gz
-* /usr/share/man/sv/man1/create_makefiles.1.gz
-* /usr/share/man/sv/man1/cvscheck.1.gz
-* /usr/share/man/sv/man1/cvslastchange.1.gz
-* /usr/share/man/sv/man1/cvslastlog.1.gz
-* /usr/share/man/sv/man1/cvsrevertlast.1.gz
-* /usr/share/man/sv/man1/cxxmetric.1.gz
-* /usr/share/man/sv/man1/extend_dmalloc.1.gz
-* /usr/share/man/sv/man1/extractrc.1.gz
-* /usr/share/man/sv/man1/fixincludes.1.gz
-* /usr/share/man/sv/man1/pruneemptydirs.1.gz
-* /usr/share/man/sv/man1/zonetab2pot.py.1.gz
-* /usr/share/man/uk/man1/adddebug.1.gz
-* /usr/share/man/uk/man1/cheatmake.1.gz
-* /usr/share/man/uk/man1/create_cvsignore.1.gz
-* /usr/share/man/uk/man1/create_makefile.1.gz
-* /usr/share/man/uk/man1/create_makefiles.1.gz
-* /usr/share/man/uk/man1/cvscheck.1.gz
-* /usr/share/man/uk/man1/cvslastchange.1.gz
-* /usr/share/man/uk/man1/cvslastlog.1.gz
-* /usr/share/man/uk/man1/cvsrevertlast.1.gz
-* /usr/share/man/uk/man1/cxxmetric.1.gz
-* /usr/share/man/uk/man1/extend_dmalloc.1.gz
-* /usr/share/man/uk/man1/extractrc.1.gz
-* /usr/share/man/uk/man1/fixincludes.1.gz
-* /usr/share/man/uk/man1/pruneemptydirs.1.gz
-* /usr/share/man/uk/man1/zonetab2pot.py.1.gz
-* /usr/share/uncrustify/uncrustify-kf5.cfg
-* /usr/share/uncrustify/uncrustify-qt.cfg
+* kde-dev-scripts /usr/bin/adddebug
+* kde-dev-scripts /usr/bin/addmocincludes
+* kde-dev-scripts /usr/bin/build-progress.sh
+* kde-dev-scripts /usr/bin/c++-copy-class-and-file
+* kde-dev-scripts /usr/bin/c++-rename-class-and-file
+* kde-dev-scripts /usr/bin/cheatmake
+* kde-dev-scripts /usr/bin/clean-forward-declaration.sh
+* kde-dev-scripts /usr/bin/clean-includes.sh
+* kde-dev-scripts /usr/bin/colorsvn
+* kde-dev-scripts /usr/bin/create_cvsignore
+* kde-dev-scripts /usr/bin/create_makefile
+* kde-dev-scripts /usr/bin/create_makefiles
+* kde-dev-scripts /usr/bin/create_svnignore
+* kde-dev-scripts /usr/bin/cvs-clean
+* kde-dev-scripts /usr/bin/cvsaddcurrentdir
+* kde-dev-scripts /usr/bin/cvsbackport
+* kde-dev-scripts /usr/bin/cvsblame
+* kde-dev-scripts /usr/bin/cvscheck
+* kde-dev-scripts /usr/bin/cvsforwardport
+* kde-dev-scripts /usr/bin/cvslastchange
+* kde-dev-scripts /usr/bin/cvslastlog
+* kde-dev-scripts /usr/bin/cvsrevertlast
+* kde-dev-scripts /usr/bin/cvsversion
+* kde-dev-scripts /usr/bin/cxxmetric
+* kde-dev-scripts /usr/bin/draw_lib_dependencies
+* kde-dev-scripts /usr/bin/extend_dmalloc
+* kde-dev-scripts /usr/bin/extractattr
+* kde-dev-scripts /usr/bin/extractrc
+* kde-dev-scripts /usr/bin/findmissingcrystal
+* kde-dev-scripts /usr/bin/fix-include.sh
+* kde-dev-scripts /usr/bin/fixkdeincludes
+* kde-dev-scripts /usr/bin/fixuifiles
+* kde-dev-scripts /usr/bin/grantlee_strings_extractor.py
+* kde-dev-scripts /usr/bin/includemocs
+* kde-dev-scripts /usr/bin/kde-systemsettings-tree.py
+* kde-dev-scripts /usr/bin/kdedoc
+* kde-dev-scripts /usr/bin/kdekillall
+* kde-dev-scripts /usr/bin/kdelnk2desktop.py
+* kde-dev-scripts /usr/bin/kdemangen.pl
+* kde-dev-scripts /usr/bin/kde_generate_export_header
+* kde-dev-scripts /usr/bin/krazy-licensecheck
+* kde-dev-scripts /usr/bin/makeobj
+* kde-dev-scripts /usr/bin/noncvslist
+* kde-dev-scripts /usr/bin/nonsvnlist
+* kde-dev-scripts /usr/bin/optimizegraphics
+* kde-dev-scripts /usr/bin/package_crystalsvg
+* kde-dev-scripts /usr/bin/png2mng.pl
+* kde-dev-scripts /usr/bin/port_new_gitlab_ci_template.sh
+* kde-dev-scripts /usr/bin/pruneemptydirs
+* kde-dev-scripts /usr/bin/reviewboard-am
+* kde-dev-scripts /usr/bin/svn-clean
+* kde-dev-scripts /usr/bin/svnbackport
+* kde-dev-scripts /usr/bin/svnchangesince
+* kde-dev-scripts /usr/bin/svnforwardport
+* kde-dev-scripts /usr/bin/svngettags
+* kde-dev-scripts /usr/bin/svnintegrate
+* kde-dev-scripts /usr/bin/svnlastchange
+* kde-dev-scripts /usr/bin/svnlastlog
+* kde-dev-scripts /usr/bin/svnrevertlast
+* kde-dev-scripts /usr/bin/svnversions
+* kde-dev-scripts /usr/bin/uncrustify-kf5
+* kde-dev-scripts /usr/bin/wcgrep
+* kde-dev-scripts /usr/bin/zonetab2pot.py
+* kde-dev-scripts /usr/share/doc/kde-dev-scripts-24.08.0/COPYING
+* kde-dev-scripts /usr/share/doc/kde-dev-scripts-24.08.0/COPYING.DOC
+* kde-dev-scripts /usr/share/doc/kde-dev-scripts-24.08.0/README
+* kde-dev-scripts /usr/share/man/ca/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/ca/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/da/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/de/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/es/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/fr/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/gl/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/it/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/nl/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/pt/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/pt_BR/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/ru/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/sv/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/adddebug.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/cheatmake.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/create_cvsignore.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/create_makefile.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/create_makefiles.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/cvscheck.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/cvslastchange.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/cvslastlog.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/cvsrevertlast.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/cxxmetric.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/extend_dmalloc.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/extractrc.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/fixincludes.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/pruneemptydirs.1.gz
+* kde-dev-scripts /usr/share/man/uk/man1/zonetab2pot.py.1.gz
+* kde-dev-scripts /usr/share/uncrustify/uncrustify-kf5.cfg
+* kde-dev-scripts /usr/share/uncrustify/uncrustify-qt.cfg

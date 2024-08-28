@@ -1,22 +1,22 @@
 +++
 draft = false
-title = "glow 1.5.1-1"
-version = "1.5.1-1"
+title = "./glow 2.0.0-1"
+version = "2.0.0-1"
 description = "Markdown renderer for the CLI"
-date = "2023-09-08T13:16:30"
-aliases = "/packages/220246"
+date = "2024-08-24T10:02:14"
+aliases = "/packages/222325"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/charmbracelet/glow"
 arch = "x86_64"
-size = "4975176"
-usize = "19982492"
-sha1sum = "4bd51b4bcd9115c787f4f2a9a9ebc451b29db2a9"
+size = "4508808"
+usize = "16727656"
+sha1sum = "c89402091fae3b20e0606352a9f5db309a38024b"
 depends = "['glibc']"
 +++
 ### Description: 
 Markdown renderer for the CLI
 
 ### Files: 
-* /usr/bin/glow
-* /usr/share/doc/glow-1.5.1/LICENSE
-* /usr/share/doc/glow-1.5.1/README.md
+* glow /usr/bin/glow
+* glow /usr/share/doc/glow-2.0.0/LICENSE
+* glow /usr/share/doc/glow-2.0.0/README.md

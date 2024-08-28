@@ -12,7 +12,7 @@ size = "45116"
 usize = "251585"
 sha1sum = "28a40f2305b74c91711c881533aae38494ef9907"
 depends = "['python3-zipp']"
-reverse_depends = "['python3-cx-freeze', 'python3-keyring', 'python3-markdown']"
+reverse_depends = "['./python3-keyring', 'python3-cx-freeze', 'python3-keyring', 'python3-markdown']"
 +++
 ### Description: 
 Read metadata from Python packages

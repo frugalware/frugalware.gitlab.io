@@ -12,7 +12,7 @@ size = "268908"
 usize = "1825196"
 sha1sum = "ce1930b45bd2ecbbc8bdf3e7c9b774617f5836fb"
 depends = "['python3>=3.12', 'python3-markupsafe']"
-reverse_depends = "['gi-docgen', 'glad', 'python3-myst-parser', 'python3-sphinx']"
+reverse_depends = "['./python3-myst-parser', './python3-sphinx', 'gi-docgen', 'glad', 'python3-myst-parser', 'python3-sphinx']"
 +++
 ### Description: 
 A simple pythonic template language written in Python

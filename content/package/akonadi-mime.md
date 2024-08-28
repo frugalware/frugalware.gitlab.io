@@ -12,7 +12,7 @@ size = "224092"
 usize = "1171862"
 sha1sum = "5fa166e601d168b25e32b49497a26d3165f87bd1"
 depends = "['akonadi>=24.05.2', 'kconfig>=6.3.0', 'kdbusaddons>=6.3.0', 'ki18n>=6.3.0', 'kio>=6.3.0', 'kitemmodels>=6.3.0', 'kmime>=24.05.2', 'kxmlgui>=6.3.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
-reverse_depends = "['akonadi-contacts']"
+reverse_depends = "['./akonadi-contacts', 'akonadi-contacts']"
 +++
 ### Description: 
 Libraries and daemons to implement searching in Akonad

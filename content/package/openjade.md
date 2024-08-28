@@ -12,7 +12,7 @@ size = "706128"
 usize = "3650264"
 sha1sum = "edd5b3798e8b5c7f15f6034de56188124a44257a"
 depends = "['libstdc++>=11.2', 'opensp>=1.5.2-4']"
-reverse_depends = "['docbook-utils', 'gtk-doc']"
+reverse_depends = "['./gtk-doc', 'docbook-utils', 'gtk-doc']"
 +++
 ### Description: 
 James' DSSSL Engine

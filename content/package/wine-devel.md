@@ -1,5041 +1,5044 @@
 +++
 draft = false
-title = "wine-devel 9.15-1"
-version = "9.15-1"
+title = "./wine-devel 9.16-1"
+version = "9.16-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-08-11T18:29:55"
-aliases = "/packages/136362"
+date = "2024-08-26T13:00:38"
+aliases = "/packages/222251"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "80676536"
-usize = "648224971"
-sha1sum = "c3cce87b9947fb96d88b1efedef7275edb671693"
+size = "71578556"
+usize = "571837534"
+sha1sum = "7fadbab89f4561ce14723ff0524cbd9f716d8c8d"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
 +++
 ### Description: 
 An Open Source implementation of the Windows API on top of X and Unix. (Development)
 
 ### Files: 
-* /etc/binfmt.d/wine.conf
-* /usr/bin/function_grep.pl
-* /usr/bin/msidb
-* /usr/bin/msiexec
-* /usr/bin/notepad
-* /usr/bin/regedit
-* /usr/bin/regsvr32
-* /usr/bin/widl
-* /usr/bin/wine
-* /usr/bin/wine-preloader
-* /usr/bin/wine64
-* /usr/bin/wine64-preloader
-* /usr/bin/wineboot
-* /usr/bin/winebuild
-* /usr/bin/winecfg
-* /usr/bin/wineconsole
-* /usr/bin/winecpp
-* /usr/bin/winedbg
-* /usr/bin/winedump
-* /usr/bin/winefile
-* /usr/bin/wineg++
-* /usr/bin/winegcc
-* /usr/bin/winemaker
-* /usr/bin/winemine
-* /usr/bin/winepath
-* /usr/bin/wineserver
-* /usr/bin/wmc
-* /usr/bin/wrc
-* /usr/i686-frugalware-linux/bin/wine
-* /usr/i686-frugalware-linux/bin/wine-preloader
-* /usr/include/wine/debug.h
-* /usr/include/wine/exception.h
-* /usr/include/wine/iaccessible2.h
-* /usr/include/wine/iaccessible2.idl
-* /usr/include/wine/itss.h
-* /usr/include/wine/itss.idl
-* /usr/include/wine/mfinternal.h
-* /usr/include/wine/mfinternal.idl
-* /usr/include/wine/msvcrt/assert.h
-* /usr/include/wine/msvcrt/complex.h
-* /usr/include/wine/msvcrt/conio.h
-* /usr/include/wine/msvcrt/corecrt.h
-* /usr/include/wine/msvcrt/corecrt_io.h
-* /usr/include/wine/msvcrt/corecrt_malloc.h
-* /usr/include/wine/msvcrt/corecrt_startup.h
-* /usr/include/wine/msvcrt/corecrt_stdio_config.h
-* /usr/include/wine/msvcrt/corecrt_wctype.h
-* /usr/include/wine/msvcrt/corecrt_wdirect.h
-* /usr/include/wine/msvcrt/corecrt_wio.h
-* /usr/include/wine/msvcrt/corecrt_wprocess.h
-* /usr/include/wine/msvcrt/corecrt_wstdio.h
-* /usr/include/wine/msvcrt/corecrt_wstdlib.h
-* /usr/include/wine/msvcrt/corecrt_wstring.h
-* /usr/include/wine/msvcrt/corecrt_wtime.h
-* /usr/include/wine/msvcrt/crtdbg.h
-* /usr/include/wine/msvcrt/crtdefs.h
-* /usr/include/wine/msvcrt/ctype.h
-* /usr/include/wine/msvcrt/direct.h
-* /usr/include/wine/msvcrt/dirent.h
-* /usr/include/wine/msvcrt/dos.h
-* /usr/include/wine/msvcrt/eh.h
-* /usr/include/wine/msvcrt/errno.h
-* /usr/include/wine/msvcrt/fcntl.h
-* /usr/include/wine/msvcrt/fenv.h
-* /usr/include/wine/msvcrt/float.h
-* /usr/include/wine/msvcrt/fpieee.h
-* /usr/include/wine/msvcrt/intrin.h
-* /usr/include/wine/msvcrt/inttypes.h
-* /usr/include/wine/msvcrt/io.h
-* /usr/include/wine/msvcrt/limits.h
-* /usr/include/wine/msvcrt/locale.h
-* /usr/include/wine/msvcrt/malloc.h
-* /usr/include/wine/msvcrt/math.h
-* /usr/include/wine/msvcrt/mbctype.h
-* /usr/include/wine/msvcrt/mbstring.h
-* /usr/include/wine/msvcrt/memory.h
-* /usr/include/wine/msvcrt/process.h
-* /usr/include/wine/msvcrt/search.h
-* /usr/include/wine/msvcrt/setjmp.h
-* /usr/include/wine/msvcrt/share.h
-* /usr/include/wine/msvcrt/signal.h
-* /usr/include/wine/msvcrt/stdarg.h
-* /usr/include/wine/msvcrt/stdbool.h
-* /usr/include/wine/msvcrt/stddef.h
-* /usr/include/wine/msvcrt/stdint.h
-* /usr/include/wine/msvcrt/stdio.h
-* /usr/include/wine/msvcrt/stdlib.h
-* /usr/include/wine/msvcrt/string.h
-* /usr/include/wine/msvcrt/sys/locking.h
-* /usr/include/wine/msvcrt/sys/stat.h
-* /usr/include/wine/msvcrt/sys/timeb.h
-* /usr/include/wine/msvcrt/sys/types.h
-* /usr/include/wine/msvcrt/sys/unistd.h
-* /usr/include/wine/msvcrt/sys/utime.h
-* /usr/include/wine/msvcrt/time.h
-* /usr/include/wine/msvcrt/uchar.h
-* /usr/include/wine/msvcrt/unistd.h
-* /usr/include/wine/msvcrt/vadefs.h
-* /usr/include/wine/msvcrt/wchar.h
-* /usr/include/wine/msvcrt/wctype.h
-* /usr/include/wine/svcctl.h
-* /usr/include/wine/svcctl.idl
-* /usr/include/wine/windows/accctrl.h
-* /usr/include/wine/windows/access.idl
-* /usr/include/wine/windows/aclapi.h
-* /usr/include/wine/windows/aclui.h
-* /usr/include/wine/windows/activation.h
-* /usr/include/wine/windows/activation.idl
-* /usr/include/wine/windows/activaut.h
-* /usr/include/wine/windows/activaut.idl
-* /usr/include/wine/windows/activdbg.h
-* /usr/include/wine/windows/activdbg.idl
-* /usr/include/wine/windows/activeds.h
-* /usr/include/wine/windows/activscp.h
-* /usr/include/wine/windows/activscp.idl
-* /usr/include/wine/windows/adserr.h
-* /usr/include/wine/windows/adshlp.h
-* /usr/include/wine/windows/advpub.h
-* /usr/include/wine/windows/af_irda.h
-* /usr/include/wine/windows/amaudio.h
-* /usr/include/wine/windows/amsi.h
-* /usr/include/wine/windows/amsi.idl
-* /usr/include/wine/windows/amstream.h
-* /usr/include/wine/windows/amstream.idl
-* /usr/include/wine/windows/amva.h
-* /usr/include/wine/windows/amvideo.h
-* /usr/include/wine/windows/amvideo.idl
-* /usr/include/wine/windows/appcompatapi.h
-* /usr/include/wine/windows/appmgmt.h
-* /usr/include/wine/windows/appmodel.h
-* /usr/include/wine/windows/appnotify.h
-* /usr/include/wine/windows/asferr.h
-* /usr/include/wine/windows/asptlb.h
-* /usr/include/wine/windows/asptlb.idl
-* /usr/include/wine/windows/asyncinfo.h
-* /usr/include/wine/windows/asyncinfo.idl
-* /usr/include/wine/windows/asynot.idl
-* /usr/include/wine/windows/asysta.idl
-* /usr/include/wine/windows/atlbase.h
-* /usr/include/wine/windows/atlcom.h
-* /usr/include/wine/windows/atldef.h
-* /usr/include/wine/windows/atliface.h
-* /usr/include/wine/windows/atliface.idl
-* /usr/include/wine/windows/atlthunk.h
-* /usr/include/wine/windows/atlwin.h
-* /usr/include/wine/windows/audevcod.h
-* /usr/include/wine/windows/audioclient.h
-* /usr/include/wine/windows/audioclient.idl
-* /usr/include/wine/windows/audiopolicy.h
-* /usr/include/wine/windows/audiopolicy.idl
-* /usr/include/wine/windows/audiosessiontypes.h
-* /usr/include/wine/windows/austream.h
-* /usr/include/wine/windows/austream.idl
-* /usr/include/wine/windows/authz.h
-* /usr/include/wine/windows/aviriff.h
-* /usr/include/wine/windows/avrt.h
-* /usr/include/wine/windows/axcore.idl
-* /usr/include/wine/windows/axextend.idl
-* /usr/include/wine/windows/axextendenums.h
-* /usr/include/wine/windows/basetsd.h
-* /usr/include/wine/windows/basetyps.h
-* /usr/include/wine/windows/bcrypt.h
-* /usr/include/wine/windows/bdaiface.h
-* /usr/include/wine/windows/bdaiface.idl
-* /usr/include/wine/windows/bdaiface_enums.h
-* /usr/include/wine/windows/bdatypes.h
-* /usr/include/wine/windows/binres.idl
-* /usr/include/wine/windows/bits.h
-* /usr/include/wine/windows/bits.idl
-* /usr/include/wine/windows/bits1_5.h
-* /usr/include/wine/windows/bits1_5.idl
-* /usr/include/wine/windows/bits2_0.h
-* /usr/include/wine/windows/bits2_0.idl
-* /usr/include/wine/windows/bits2_5.h
-* /usr/include/wine/windows/bits2_5.idl
-* /usr/include/wine/windows/bits3_0.h
-* /usr/include/wine/windows/bits3_0.idl
-* /usr/include/wine/windows/bits5_0.h
-* /usr/include/wine/windows/bits5_0.idl
-* /usr/include/wine/windows/bitsmsg.h
-* /usr/include/wine/windows/bluetoothapis.h
-* /usr/include/wine/windows/bthsdpdef.h
-* /usr/include/wine/windows/cderr.h
-* /usr/include/wine/windows/cdosys.h
-* /usr/include/wine/windows/cdosys.idl
-* /usr/include/wine/windows/cfg.h
-* /usr/include/wine/windows/cfgmgr32.h
-* /usr/include/wine/windows/cguid.h
-* /usr/include/wine/windows/chprst.idl
-* /usr/include/wine/windows/cierror.h
-* /usr/include/wine/windows/clusapi.h
-* /usr/include/wine/windows/cmdbas.idl
-* /usr/include/wine/windows/cmdpre.idl
-* /usr/include/wine/windows/cmdprp.idl
-* /usr/include/wine/windows/cmdstrm.idl
-* /usr/include/wine/windows/cmdtxt.idl
-* /usr/include/wine/windows/cmdwpr.idl
-* /usr/include/wine/windows/cmnquery.h
-* /usr/include/wine/windows/cmnquery.idl
-* /usr/include/wine/windows/codecapi.h
-* /usr/include/wine/windows/colinf.idl
-* /usr/include/wine/windows/colordlg.h
-* /usr/include/wine/windows/colrst.idl
-* /usr/include/wine/windows/combaseapi.h
-* /usr/include/wine/windows/comcat.h
-* /usr/include/wine/windows/comcat.idl
-* /usr/include/wine/windows/commctrl.h
-* /usr/include/wine/windows/commctrl.rh
-* /usr/include/wine/windows/commdlg.h
-* /usr/include/wine/windows/commoncontrols.h
-* /usr/include/wine/windows/commoncontrols.idl
-* /usr/include/wine/windows/compobj.h
-* /usr/include/wine/windows/comsvcs.h
-* /usr/include/wine/windows/comsvcs.idl
-* /usr/include/wine/windows/concurrencysal.h
-* /usr/include/wine/windows/consoleapi.h
-* /usr/include/wine/windows/control.h
-* /usr/include/wine/windows/control.idl
-* /usr/include/wine/windows/cor.h
-* /usr/include/wine/windows/cor.idl
-* /usr/include/wine/windows/cordebug.h
-* /usr/include/wine/windows/cordebug.idl
-* /usr/include/wine/windows/corerror.h
-* /usr/include/wine/windows/corhdr.h
-* /usr/include/wine/windows/corsym.h
-* /usr/include/wine/windows/corsym.idl
-* /usr/include/wine/windows/cpl.h
-* /usr/include/wine/windows/crtrow.idl
-* /usr/include/wine/windows/cryptdlg.h
-* /usr/include/wine/windows/cryptuiapi.h
-* /usr/include/wine/windows/ctfutb.h
-* /usr/include/wine/windows/ctfutb.idl
-* /usr/include/wine/windows/ctxtcall.h
-* /usr/include/wine/windows/ctxtcall.idl
-* /usr/include/wine/windows/custcntl.h
-* /usr/include/wine/windows/cvconst.h
-* /usr/include/wine/windows/cvttyp.idl
-* /usr/include/wine/windows/d2d1.h
-* /usr/include/wine/windows/d2d1.idl
-* /usr/include/wine/windows/d2d1effectauthor.h
-* /usr/include/wine/windows/d2d1effectauthor.idl
-* /usr/include/wine/windows/d2d1effects.h
-* /usr/include/wine/windows/d2d1effects.idl
-* /usr/include/wine/windows/d2d1effects_1.h
-* /usr/include/wine/windows/d2d1effects_1.idl
-* /usr/include/wine/windows/d2d1effects_2.h
-* /usr/include/wine/windows/d2d1effects_2.idl
-* /usr/include/wine/windows/d2d1_1.h
-* /usr/include/wine/windows/d2d1_1.idl
-* /usr/include/wine/windows/d2d1_2.h
-* /usr/include/wine/windows/d2d1_2.idl
-* /usr/include/wine/windows/d2d1_3.h
-* /usr/include/wine/windows/d2d1_3.idl
-* /usr/include/wine/windows/d2dbasetypes.h
-* /usr/include/wine/windows/d2derr.h
-* /usr/include/wine/windows/d3d.h
-* /usr/include/wine/windows/d3d10.h
-* /usr/include/wine/windows/d3d10.idl
-* /usr/include/wine/windows/d3d10effect.h
-* /usr/include/wine/windows/d3d10effect.idl
-* /usr/include/wine/windows/d3d10misc.h
-* /usr/include/wine/windows/d3d10sdklayers.h
-* /usr/include/wine/windows/d3d10sdklayers.idl
-* /usr/include/wine/windows/d3d10shader.h
-* /usr/include/wine/windows/d3d10shader.idl
-* /usr/include/wine/windows/d3d10_1.h
-* /usr/include/wine/windows/d3d10_1.idl
-* /usr/include/wine/windows/d3d10_1shader.h
-* /usr/include/wine/windows/d3d11.h
-* /usr/include/wine/windows/d3d11.idl
-* /usr/include/wine/windows/d3d11on12.h
-* /usr/include/wine/windows/d3d11on12.idl
-* /usr/include/wine/windows/d3d11sdklayers.h
-* /usr/include/wine/windows/d3d11sdklayers.idl
-* /usr/include/wine/windows/d3d11shader.h
-* /usr/include/wine/windows/d3d11_1.h
-* /usr/include/wine/windows/d3d11_1.idl
-* /usr/include/wine/windows/d3d11_2.h
-* /usr/include/wine/windows/d3d11_2.idl
-* /usr/include/wine/windows/d3d11_3.h
-* /usr/include/wine/windows/d3d11_3.idl
-* /usr/include/wine/windows/d3d11_4.h
-* /usr/include/wine/windows/d3d11_4.idl
-* /usr/include/wine/windows/d3d12.h
-* /usr/include/wine/windows/d3d12.idl
-* /usr/include/wine/windows/d3d12sdklayers.h
-* /usr/include/wine/windows/d3d12sdklayers.idl
-* /usr/include/wine/windows/d3d12shader.h
-* /usr/include/wine/windows/d3d12shader.idl
-* /usr/include/wine/windows/d3d12video.h
-* /usr/include/wine/windows/d3d12video.idl
-* /usr/include/wine/windows/d3d8.h
-* /usr/include/wine/windows/d3d8caps.h
-* /usr/include/wine/windows/d3d8types.h
-* /usr/include/wine/windows/d3d9.h
-* /usr/include/wine/windows/d3d9caps.h
-* /usr/include/wine/windows/d3d9types.h
-* /usr/include/wine/windows/d3dcaps.h
-* /usr/include/wine/windows/d3dcommon.h
-* /usr/include/wine/windows/d3dcommon.idl
-* /usr/include/wine/windows/d3dcompiler.h
-* /usr/include/wine/windows/d3dhal.h
-* /usr/include/wine/windows/d3dkmdt.h
-* /usr/include/wine/windows/d3drm.h
-* /usr/include/wine/windows/d3drmdef.h
-* /usr/include/wine/windows/d3drmobj.h
-* /usr/include/wine/windows/d3drmwin.h
-* /usr/include/wine/windows/d3dtypes.h
-* /usr/include/wine/windows/d3dukmdt.h
-* /usr/include/wine/windows/d3dvec.inl
-* /usr/include/wine/windows/d3dx10.h
-* /usr/include/wine/windows/d3dx10async.h
-* /usr/include/wine/windows/d3dx10core.h
-* /usr/include/wine/windows/d3dx10math.h
-* /usr/include/wine/windows/d3dx10mesh.h
-* /usr/include/wine/windows/d3dx10tex.h
-* /usr/include/wine/windows/d3dx11.h
-* /usr/include/wine/windows/d3dx11async.h
-* /usr/include/wine/windows/d3dx11core.h
-* /usr/include/wine/windows/d3dx11core.idl
-* /usr/include/wine/windows/d3dx11tex.h
-* /usr/include/wine/windows/d3dx9.h
-* /usr/include/wine/windows/d3dx9anim.h
-* /usr/include/wine/windows/d3dx9core.h
-* /usr/include/wine/windows/d3dx9effect.h
-* /usr/include/wine/windows/d3dx9math.h
-* /usr/include/wine/windows/d3dx9math.inl
-* /usr/include/wine/windows/d3dx9mesh.h
-* /usr/include/wine/windows/d3dx9shader.h
-* /usr/include/wine/windows/d3dx9shape.h
-* /usr/include/wine/windows/d3dx9tex.h
-* /usr/include/wine/windows/d3dx9xof.h
-* /usr/include/wine/windows/davclnt.h
-* /usr/include/wine/windows/dbccmd.idl
-* /usr/include/wine/windows/dbcses.idl
-* /usr/include/wine/windows/dbdsad.idl
-* /usr/include/wine/windows/dbgeng.h
-* /usr/include/wine/windows/dbghelp.h
-* /usr/include/wine/windows/dbinit.idl
-* /usr/include/wine/windows/dbprop.idl
-* /usr/include/wine/windows/dbs.idl
-* /usr/include/wine/windows/dbt.h
-* /usr/include/wine/windows/dciddi.h
-* /usr/include/wine/windows/dciman.h
-* /usr/include/wine/windows/dcommon.h
-* /usr/include/wine/windows/dcommon.idl
-* /usr/include/wine/windows/dcomp.h
-* /usr/include/wine/windows/dcomp.idl
-* /usr/include/wine/windows/dcompanimation.h
-* /usr/include/wine/windows/dcompanimation.idl
-* /usr/include/wine/windows/dcomptypes.h
-* /usr/include/wine/windows/dcomptypes.idl
-* /usr/include/wine/windows/dde.h
-* /usr/include/wine/windows/dde.rh
-* /usr/include/wine/windows/ddeml.h
-* /usr/include/wine/windows/ddk/compstui.h
-* /usr/include/wine/windows/ddk/csq.h
-* /usr/include/wine/windows/ddk/d3dkmthk.h
-* /usr/include/wine/windows/ddk/fltkernel.h
-* /usr/include/wine/windows/ddk/hidclass.h
-* /usr/include/wine/windows/ddk/hidpddi.h
-* /usr/include/wine/windows/ddk/hidpi.h
-* /usr/include/wine/windows/ddk/hidport.h
-* /usr/include/wine/windows/ddk/hidsdi.h
-* /usr/include/wine/windows/ddk/hidtypes.h
-* /usr/include/wine/windows/ddk/mountmgr.h
-* /usr/include/wine/windows/ddk/ndis.h
-* /usr/include/wine/windows/ddk/ntddcdvd.h
-* /usr/include/wine/windows/ddk/ntddk.h
-* /usr/include/wine/windows/ddk/ntddser.h
-* /usr/include/wine/windows/ddk/ntddtape.h
-* /usr/include/wine/windows/ddk/ntifs.h
-* /usr/include/wine/windows/ddk/usb.h
-* /usr/include/wine/windows/ddk/usb100.h
-* /usr/include/wine/windows/ddk/usb200.h
-* /usr/include/wine/windows/ddk/usbdlib.h
-* /usr/include/wine/windows/ddk/usbioctl.h
-* /usr/include/wine/windows/ddk/usbiodef.h
-* /usr/include/wine/windows/ddk/wdm.h
-* /usr/include/wine/windows/ddk/winddi.h
-* /usr/include/wine/windows/ddk/winddiui.h
-* /usr/include/wine/windows/ddk/winsplp.h
-* /usr/include/wine/windows/ddk/wsk.h
-* /usr/include/wine/windows/ddraw.h
-* /usr/include/wine/windows/ddrawgdi.h
-* /usr/include/wine/windows/ddrawi.h
-* /usr/include/wine/windows/ddstream.h
-* /usr/include/wine/windows/ddstream.idl
-* /usr/include/wine/windows/delayloadhandler.h
-* /usr/include/wine/windows/devenum.idl
-* /usr/include/wine/windows/devguid.h
-* /usr/include/wine/windows/devicetopology.h
-* /usr/include/wine/windows/devicetopology.idl
-* /usr/include/wine/windows/devpkey.h
-* /usr/include/wine/windows/devpropdef.h
-* /usr/include/wine/windows/dhcpcsdk.h
-* /usr/include/wine/windows/dhtmldid.h
-* /usr/include/wine/windows/dhtmled.h
-* /usr/include/wine/windows/dhtmled.idl
-* /usr/include/wine/windows/difxapi.h
-* /usr/include/wine/windows/digitalv.h
-* /usr/include/wine/windows/dimm.h
-* /usr/include/wine/windows/dimm.idl
-* /usr/include/wine/windows/dinput.h
-* /usr/include/wine/windows/dinputd.h
-* /usr/include/wine/windows/directmanipulation.h
-* /usr/include/wine/windows/directmanipulation.idl
-* /usr/include/wine/windows/dispatcherqueue.h
-* /usr/include/wine/windows/dispatcherqueue.idl
-* /usr/include/wine/windows/dispdib.h
-* /usr/include/wine/windows/dispex.h
-* /usr/include/wine/windows/dispex.idl
-* /usr/include/wine/windows/dlgs.h
-* /usr/include/wine/windows/dls1.h
-* /usr/include/wine/windows/dls2.h
-* /usr/include/wine/windows/dmdls.h
-* /usr/include/wine/windows/dmerror.h
-* /usr/include/wine/windows/dmksctrl.h
-* /usr/include/wine/windows/dmo.h
-* /usr/include/wine/windows/dmodshow.h
-* /usr/include/wine/windows/dmodshow.idl
-* /usr/include/wine/windows/dmoreg.h
-* /usr/include/wine/windows/dmort.h
-* /usr/include/wine/windows/dmplugin.h
-* /usr/include/wine/windows/dmusbuff.h
-* /usr/include/wine/windows/dmusicc.h
-* /usr/include/wine/windows/dmusicf.h
-* /usr/include/wine/windows/dmusici.h
-* /usr/include/wine/windows/dmusics.h
-* /usr/include/wine/windows/docobj.h
-* /usr/include/wine/windows/docobj.idl
-* /usr/include/wine/windows/docobjectservice.h
-* /usr/include/wine/windows/docobjectservice.idl
-* /usr/include/wine/windows/documenttarget.h
-* /usr/include/wine/windows/documenttarget.idl
-* /usr/include/wine/windows/downloadmgr.h
-* /usr/include/wine/windows/downloadmgr.idl
-* /usr/include/wine/windows/dpaddr.h
-* /usr/include/wine/windows/dpfilter.h
-* /usr/include/wine/windows/dplay.h
-* /usr/include/wine/windows/dplay8.h
-* /usr/include/wine/windows/dplobby.h
-* /usr/include/wine/windows/dplobby8.h
-* /usr/include/wine/windows/dpnathlp.h
-* /usr/include/wine/windows/driverspecs.h
-* /usr/include/wine/windows/drmexternals.h
-* /usr/include/wine/windows/drmexternals.idl
-* /usr/include/wine/windows/dsclient.h
-* /usr/include/wine/windows/dsconf.h
-* /usr/include/wine/windows/dsgetdc.h
-* /usr/include/wine/windows/dshow.h
-* /usr/include/wine/windows/dsound.h
-* /usr/include/wine/windows/dsrole.h
-* /usr/include/wine/windows/dvdif.h
-* /usr/include/wine/windows/dvdif.idl
-* /usr/include/wine/windows/dvdmedia.h
-* /usr/include/wine/windows/dvoice.h
-* /usr/include/wine/windows/dwmapi.h
-* /usr/include/wine/windows/dwrite.h
-* /usr/include/wine/windows/dwrite.idl
-* /usr/include/wine/windows/dwrite_1.h
-* /usr/include/wine/windows/dwrite_1.idl
-* /usr/include/wine/windows/dwrite_2.h
-* /usr/include/wine/windows/dwrite_2.idl
-* /usr/include/wine/windows/dwrite_3.h
-* /usr/include/wine/windows/dwrite_3.idl
-* /usr/include/wine/windows/dxcore.h
-* /usr/include/wine/windows/dxcore_interface.h
-* /usr/include/wine/windows/dxdiag.h
-* /usr/include/wine/windows/dxerr8.h
-* /usr/include/wine/windows/dxerr9.h
-* /usr/include/wine/windows/dxfile.h
-* /usr/include/wine/windows/dxgi.h
-* /usr/include/wine/windows/dxgi.idl
-* /usr/include/wine/windows/dxgi1_2.h
-* /usr/include/wine/windows/dxgi1_2.idl
-* /usr/include/wine/windows/dxgi1_3.h
-* /usr/include/wine/windows/dxgi1_3.idl
-* /usr/include/wine/windows/dxgi1_4.h
-* /usr/include/wine/windows/dxgi1_4.idl
-* /usr/include/wine/windows/dxgi1_5.h
-* /usr/include/wine/windows/dxgi1_5.idl
-* /usr/include/wine/windows/dxgi1_6.h
-* /usr/include/wine/windows/dxgi1_6.idl
-* /usr/include/wine/windows/dxgicommon.h
-* /usr/include/wine/windows/dxgicommon.idl
-* /usr/include/wine/windows/dxgidebug.h
-* /usr/include/wine/windows/dxgidebug.idl
-* /usr/include/wine/windows/dxgiformat.h
-* /usr/include/wine/windows/dxgiformat.idl
-* /usr/include/wine/windows/dxgitype.h
-* /usr/include/wine/windows/dxgitype.idl
-* /usr/include/wine/windows/dxva.h
-* /usr/include/wine/windows/dxva2api.h
-* /usr/include/wine/windows/dxva2api.idl
-* /usr/include/wine/windows/dyngraph.idl
-* /usr/include/wine/windows/endpointvolume.h
-* /usr/include/wine/windows/endpointvolume.idl
-* /usr/include/wine/windows/errorrep.h
-* /usr/include/wine/windows/errors.h
-* /usr/include/wine/windows/errrec.idl
-* /usr/include/wine/windows/evcode.h
-* /usr/include/wine/windows/eventtoken.h
-* /usr/include/wine/windows/eventtoken.idl
-* /usr/include/wine/windows/evntprov.h
-* /usr/include/wine/windows/evntrace.h
-* /usr/include/wine/windows/evr.h
-* /usr/include/wine/windows/evr.idl
-* /usr/include/wine/windows/evr9.h
-* /usr/include/wine/windows/evr9.idl
-* /usr/include/wine/windows/excpt.h
-* /usr/include/wine/windows/exdisp.h
-* /usr/include/wine/windows/exdisp.idl
-* /usr/include/wine/windows/exdispid.h
-* /usr/include/wine/windows/exposeenums2managed.h
-* /usr/include/wine/windows/fci.h
-* /usr/include/wine/windows/fdi.h
-* /usr/include/wine/windows/featurestagingapi.h
-* /usr/include/wine/windows/fileapi.h
-* /usr/include/wine/windows/filter.h
-* /usr/include/wine/windows/filter.idl
-* /usr/include/wine/windows/fltdefs.h
-* /usr/include/wine/windows/fontsub.h
-* /usr/include/wine/windows/fusion.h
-* /usr/include/wine/windows/fusion.idl
-* /usr/include/wine/windows/gameux.h
-* /usr/include/wine/windows/gameux.idl
-* /usr/include/wine/windows/gamingtcui.h
-* /usr/include/wine/windows/gdiplus.h
-* /usr/include/wine/windows/gdipluscolor.h
-* /usr/include/wine/windows/gdipluscolormatrix.h
-* /usr/include/wine/windows/gdipluseffects.h
-* /usr/include/wine/windows/gdiplusenums.h
-* /usr/include/wine/windows/gdiplusflat.h
-* /usr/include/wine/windows/gdiplusgpstubs.h
-* /usr/include/wine/windows/gdiplusimaging.h
-* /usr/include/wine/windows/gdiplusinit.h
-* /usr/include/wine/windows/gdiplusmem.h
-* /usr/include/wine/windows/gdiplusmetaheader.h
-* /usr/include/wine/windows/gdipluspixelformats.h
-* /usr/include/wine/windows/gdiplustypes.h
-* /usr/include/wine/windows/getdts.idl
-* /usr/include/wine/windows/guiddef.h
-* /usr/include/wine/windows/hidusage.h
-* /usr/include/wine/windows/highlevelmonitorconfigurationapi.h
-* /usr/include/wine/windows/hlguids.h
-* /usr/include/wine/windows/hlink.h
-* /usr/include/wine/windows/hlink.idl
-* /usr/include/wine/windows/holographicspaceinterop.h
-* /usr/include/wine/windows/holographicspaceinterop.idl
-* /usr/include/wine/windows/hrtfapoapi.h
-* /usr/include/wine/windows/hrtfapoapi.idl
-* /usr/include/wine/windows/hstring.h
-* /usr/include/wine/windows/hstring.idl
-* /usr/include/wine/windows/htiface.h
-* /usr/include/wine/windows/htiface.idl
-* /usr/include/wine/windows/htiframe.h
-* /usr/include/wine/windows/htiframe.idl
-* /usr/include/wine/windows/htmlhelp.h
-* /usr/include/wine/windows/http.h
-* /usr/include/wine/windows/httprequest.h
-* /usr/include/wine/windows/httprequest.idl
-* /usr/include/wine/windows/httprequestid.h
-* /usr/include/wine/windows/iads.h
-* /usr/include/wine/windows/iads.idl
-* /usr/include/wine/windows/icftypes.h
-* /usr/include/wine/windows/icftypes.idl
-* /usr/include/wine/windows/icm.h
-* /usr/include/wine/windows/icmpapi.h
-* /usr/include/wine/windows/icodecapi.h
-* /usr/include/wine/windows/icodecapi.idl
-* /usr/include/wine/windows/idispids.h
-* /usr/include/wine/windows/ieautomation.h
-* /usr/include/wine/windows/ieautomation.idl
-* /usr/include/wine/windows/iextag.h
-* /usr/include/wine/windows/iextag.idl
-* /usr/include/wine/windows/ifdef.h
-* /usr/include/wine/windows/ifmib.h
-* /usr/include/wine/windows/iimgctx.h
-* /usr/include/wine/windows/iimgctx.idl
-* /usr/include/wine/windows/imagehlp.h
-* /usr/include/wine/windows/ime.h
-* /usr/include/wine/windows/imm.h
-* /usr/include/wine/windows/immdev.h
-* /usr/include/wine/windows/imnact.h
-* /usr/include/wine/windows/imnact.idl
-* /usr/include/wine/windows/imnxport.h
-* /usr/include/wine/windows/imnxport.idl
-* /usr/include/wine/windows/in6addr.h
-* /usr/include/wine/windows/inaddr.h
-* /usr/include/wine/windows/indexsrv.h
-* /usr/include/wine/windows/indexsrv.idl
-* /usr/include/wine/windows/initguid.h
-* /usr/include/wine/windows/inputpaneinterop.h
-* /usr/include/wine/windows/inputpaneinterop.idl
-* /usr/include/wine/windows/inputscope.h
-* /usr/include/wine/windows/inputscope.idl
-* /usr/include/wine/windows/inseng.h
-* /usr/include/wine/windows/inseng.idl
-* /usr/include/wine/windows/inspectable.h
-* /usr/include/wine/windows/inspectable.idl
-* /usr/include/wine/windows/interactioncontext.h
-* /usr/include/wine/windows/intshcut.h
-* /usr/include/wine/windows/ioringapi.h
-* /usr/include/wine/windows/ip2string.h
-* /usr/include/wine/windows/ipexport.h
-* /usr/include/wine/windows/iphlpapi.h
-* /usr/include/wine/windows/ipifcons.h
-* /usr/include/wine/windows/ipmib.h
-* /usr/include/wine/windows/iprtrmib.h
-* /usr/include/wine/windows/iptypes.h
-* /usr/include/wine/windows/isguids.h
-* /usr/include/wine/windows/ivectorchangedeventargs.h
-* /usr/include/wine/windows/ivectorchangedeventargs.idl
-* /usr/include/wine/windows/i_cryptasn1tls.h
-* /usr/include/wine/windows/kbd.h
-* /usr/include/wine/windows/knownfolders.h
-* /usr/include/wine/windows/ks.h
-* /usr/include/wine/windows/ksguid.h
-* /usr/include/wine/windows/ksmedia.h
-* /usr/include/wine/windows/ksuuids.h
-* /usr/include/wine/windows/libloaderapi.h
-* /usr/include/wine/windows/lm.h
-* /usr/include/wine/windows/lmaccess.h
-* /usr/include/wine/windows/lmapibuf.h
-* /usr/include/wine/windows/lmat.h
-* /usr/include/wine/windows/lmbrowsr.h
-* /usr/include/wine/windows/lmcons.h
-* /usr/include/wine/windows/lmerr.h
-* /usr/include/wine/windows/lmjoin.h
-* /usr/include/wine/windows/lmmsg.h
-* /usr/include/wine/windows/lmremutl.h
-* /usr/include/wine/windows/lmserver.h
-* /usr/include/wine/windows/lmshare.h
-* /usr/include/wine/windows/lmstats.h
-* /usr/include/wine/windows/lmuse.h
-* /usr/include/wine/windows/lmuseflg.h
-* /usr/include/wine/windows/lmwksta.h
-* /usr/include/wine/windows/loadperf.h
-* /usr/include/wine/windows/lowlevelmonitorconfigurationapi.h
-* /usr/include/wine/windows/lzexpand.h
-* /usr/include/wine/windows/mapi.h
-* /usr/include/wine/windows/mapicode.h
-* /usr/include/wine/windows/mapidefs.h
-* /usr/include/wine/windows/mapiform.h
-* /usr/include/wine/windows/mapiguid.h
-* /usr/include/wine/windows/mapitags.h
-* /usr/include/wine/windows/mapiutil.h
-* /usr/include/wine/windows/mapival.h
-* /usr/include/wine/windows/mapix.h
-* /usr/include/wine/windows/mciavi.h
-* /usr/include/wine/windows/mcx.h
-* /usr/include/wine/windows/mediaerr.h
-* /usr/include/wine/windows/mediaobj.h
-* /usr/include/wine/windows/mediaobj.idl
-* /usr/include/wine/windows/medparam.h
-* /usr/include/wine/windows/medparam.idl
-* /usr/include/wine/windows/memoryapi.h
-* /usr/include/wine/windows/metahost.h
-* /usr/include/wine/windows/metahost.idl
-* /usr/include/wine/windows/mfapi.h
-* /usr/include/wine/windows/mfd3d12.h
-* /usr/include/wine/windows/mfd3d12.idl
-* /usr/include/wine/windows/mferror.h
-* /usr/include/wine/windows/mfidl.h
-* /usr/include/wine/windows/mfidl.idl
-* /usr/include/wine/windows/mfmediaengine.h
-* /usr/include/wine/windows/mfmediaengine.idl
-* /usr/include/wine/windows/mfobjects.h
-* /usr/include/wine/windows/mfobjects.idl
-* /usr/include/wine/windows/mfplay.h
-* /usr/include/wine/windows/mfplay.idl
-* /usr/include/wine/windows/mfreadwrite.h
-* /usr/include/wine/windows/mfreadwrite.idl
-* /usr/include/wine/windows/mftransform.h
-* /usr/include/wine/windows/mftransform.idl
-* /usr/include/wine/windows/mgmtapi.h
-* /usr/include/wine/windows/midles.h
-* /usr/include/wine/windows/mimeinfo.h
-* /usr/include/wine/windows/mimeinfo.idl
-* /usr/include/wine/windows/mimeole.h
-* /usr/include/wine/windows/mimeole.idl
-* /usr/include/wine/windows/minidumpapiset.h
-* /usr/include/wine/windows/minmax.h
-* /usr/include/wine/windows/minschannel.h
-* /usr/include/wine/windows/mlang.h
-* /usr/include/wine/windows/mlang.idl
-* /usr/include/wine/windows/mmc.h
-* /usr/include/wine/windows/mmc.idl
-* /usr/include/wine/windows/mmddk.h
-* /usr/include/wine/windows/mmdeviceapi.h
-* /usr/include/wine/windows/mmdeviceapi.idl
-* /usr/include/wine/windows/mmreg.h
-* /usr/include/wine/windows/mmstream.h
-* /usr/include/wine/windows/mmstream.idl
-* /usr/include/wine/windows/mmsystem.h
-* /usr/include/wine/windows/mpegtype.h
-* /usr/include/wine/windows/mpegtype.idl
-* /usr/include/wine/windows/mprapi.h
-* /usr/include/wine/windows/mprerror.h
-* /usr/include/wine/windows/msacm.h
-* /usr/include/wine/windows/msacmdlg.h
-* /usr/include/wine/windows/msacmdrv.h
-* /usr/include/wine/windows/msado15_backcompat.h
-* /usr/include/wine/windows/msado15_backcompat.idl
-* /usr/include/wine/windows/msasn1.h
-* /usr/include/wine/windows/mscat.h
-* /usr/include/wine/windows/mscoree.h
-* /usr/include/wine/windows/mscoree.idl
-* /usr/include/wine/windows/msctf.h
-* /usr/include/wine/windows/msctf.idl
-* /usr/include/wine/windows/msdadc.h
-* /usr/include/wine/windows/msdadc.idl
-* /usr/include/wine/windows/msdaguid.h
-* /usr/include/wine/windows/msdasc.h
-* /usr/include/wine/windows/msdasc.idl
-* /usr/include/wine/windows/msdasql.h
-* /usr/include/wine/windows/msdelta.h
-* /usr/include/wine/windows/mshtmcid.h
-* /usr/include/wine/windows/mshtmdid.h
-* /usr/include/wine/windows/mshtmhst.h
-* /usr/include/wine/windows/mshtmhst.idl
-* /usr/include/wine/windows/mshtml.h
-* /usr/include/wine/windows/mshtml.idl
-* /usr/include/wine/windows/msi.h
-* /usr/include/wine/windows/msidefs.h
-* /usr/include/wine/windows/msident.h
-* /usr/include/wine/windows/msident.idl
-* /usr/include/wine/windows/msinkaut.h
-* /usr/include/wine/windows/msinkaut.idl
-* /usr/include/wine/windows/msiquery.h
-* /usr/include/wine/windows/msopc.h
-* /usr/include/wine/windows/msopc.idl
-* /usr/include/wine/windows/mssip.h
-* /usr/include/wine/windows/msstkppg.h
-* /usr/include/wine/windows/mstask.h
-* /usr/include/wine/windows/mstask.idl
-* /usr/include/wine/windows/mstcpip.h
-* /usr/include/wine/windows/mswsock.h
-* /usr/include/wine/windows/msxml.h
-* /usr/include/wine/windows/msxml.idl
-* /usr/include/wine/windows/msxml2.h
-* /usr/include/wine/windows/msxml2.idl
-* /usr/include/wine/windows/msxml2did.h
-* /usr/include/wine/windows/msxml6.h
-* /usr/include/wine/windows/msxml6.idl
-* /usr/include/wine/windows/msxml6did.h
-* /usr/include/wine/windows/msxmldid.h
-* /usr/include/wine/windows/mtxdm.h
-* /usr/include/wine/windows/mulres.idl
-* /usr/include/wine/windows/multimon.h
-* /usr/include/wine/windows/namespaceapi.h
-* /usr/include/wine/windows/natupnp.h
-* /usr/include/wine/windows/natupnp.idl
-* /usr/include/wine/windows/nb30.h
-* /usr/include/wine/windows/ncrypt.h
-* /usr/include/wine/windows/ndrtypes.h
-* /usr/include/wine/windows/netcfgx.h
-* /usr/include/wine/windows/netcfgx.idl
-* /usr/include/wine/windows/netcon.h
-* /usr/include/wine/windows/netcon.idl
-* /usr/include/wine/windows/netevent.h
-* /usr/include/wine/windows/netfw.h
-* /usr/include/wine/windows/netfw.idl
-* /usr/include/wine/windows/netioapi.h
-* /usr/include/wine/windows/netiodef.h
-* /usr/include/wine/windows/netlistmgr.h
-* /usr/include/wine/windows/netlistmgr.idl
-* /usr/include/wine/windows/newdev.h
-* /usr/include/wine/windows/nldef.h
-* /usr/include/wine/windows/npapi.h
-* /usr/include/wine/windows/nserror.h
-* /usr/include/wine/windows/nspapi.h
-* /usr/include/wine/windows/ntddcdrm.h
-* /usr/include/wine/windows/ntddkbd.h
-* /usr/include/wine/windows/ntddmou.h
-* /usr/include/wine/windows/ntddndis.h
-* /usr/include/wine/windows/ntddscsi.h
-* /usr/include/wine/windows/ntddstor.h
-* /usr/include/wine/windows/ntddvdeo.h
-* /usr/include/wine/windows/ntdef.h
-* /usr/include/wine/windows/ntdsapi.h
-* /usr/include/wine/windows/ntgdi.h
-* /usr/include/wine/windows/ntioring_x.h
-* /usr/include/wine/windows/ntlsa.h
-* /usr/include/wine/windows/ntquery.h
-* /usr/include/wine/windows/ntsecapi.h
-* /usr/include/wine/windows/ntsecpkg.h
-* /usr/include/wine/windows/ntstatus.h
-* /usr/include/wine/windows/ntuser.h
-* /usr/include/wine/windows/oaidl.h
-* /usr/include/wine/windows/oaidl.idl
-* /usr/include/wine/windows/objbase.h
-* /usr/include/wine/windows/objectarray.h
-* /usr/include/wine/windows/objectarray.idl
-* /usr/include/wine/windows/objidl.h
-* /usr/include/wine/windows/objidl.idl
-* /usr/include/wine/windows/objidlbase.h
-* /usr/include/wine/windows/objidlbase.idl
-* /usr/include/wine/windows/objsafe.h
-* /usr/include/wine/windows/objsafe.idl
-* /usr/include/wine/windows/objsel.h
-* /usr/include/wine/windows/ocidl.h
-* /usr/include/wine/windows/ocidl.idl
-* /usr/include/wine/windows/ocmm.h
-* /usr/include/wine/windows/ocmm.idl
-* /usr/include/wine/windows/odbcinst.h
-* /usr/include/wine/windows/ole2.h
-* /usr/include/wine/windows/ole2ver.h
-* /usr/include/wine/windows/oleacc.h
-* /usr/include/wine/windows/oleacc.idl
-* /usr/include/wine/windows/oleauto.h
-* /usr/include/wine/windows/olectl.h
-* /usr/include/wine/windows/oledb.h
-* /usr/include/wine/windows/oledb.idl
-* /usr/include/wine/windows/oledberr.h
-* /usr/include/wine/windows/oledlg.h
-* /usr/include/wine/windows/oleidl.h
-* /usr/include/wine/windows/oleidl.idl
-* /usr/include/wine/windows/opcbase.idl
-* /usr/include/wine/windows/opcobjectmodel.idl
-* /usr/include/wine/windows/opcparturi.idl
-* /usr/include/wine/windows/opnrst.idl
-* /usr/include/wine/windows/optary.h
-* /usr/include/wine/windows/optary.idl
-* /usr/include/wine/windows/patchapi.h
-* /usr/include/wine/windows/pathcch.h
-* /usr/include/wine/windows/pdh.h
-* /usr/include/wine/windows/pdhmsg.h
-* /usr/include/wine/windows/perflib.h
-* /usr/include/wine/windows/perhist.h
-* /usr/include/wine/windows/perhist.idl
-* /usr/include/wine/windows/physicalmonitorenumerationapi.h
-* /usr/include/wine/windows/pktdef.h
-* /usr/include/wine/windows/poppack.h
-* /usr/include/wine/windows/powrprof.h
-* /usr/include/wine/windows/prntvpt.h
-* /usr/include/wine/windows/processthreadsapi.h
-* /usr/include/wine/windows/profinfo.h
-* /usr/include/wine/windows/proofofpossessioncookieinfo.h
-* /usr/include/wine/windows/proofofpossessioncookieinfo.idl
-* /usr/include/wine/windows/propidl.h
-* /usr/include/wine/windows/propidl.idl
-* /usr/include/wine/windows/propkey.h
-* /usr/include/wine/windows/propkeydef.h
-* /usr/include/wine/windows/propsys.h
-* /usr/include/wine/windows/propsys.idl
-* /usr/include/wine/windows/propvarutil.h
-* /usr/include/wine/windows/prsht.h
-* /usr/include/wine/windows/psapi.h
-* /usr/include/wine/windows/pshpack1.h
-* /usr/include/wine/windows/pshpack2.h
-* /usr/include/wine/windows/pshpack4.h
-* /usr/include/wine/windows/pshpack8.h
-* /usr/include/wine/windows/pstore.h
-* /usr/include/wine/windows/pstore.idl
-* /usr/include/wine/windows/qedit.h
-* /usr/include/wine/windows/qedit.idl
-* /usr/include/wine/windows/qos2.h
-* /usr/include/wine/windows/ras.h
-* /usr/include/wine/windows/rasdlg.h
-* /usr/include/wine/windows/raserror.h
-* /usr/include/wine/windows/realtimeapiset.h
-* /usr/include/wine/windows/reason.h
-* /usr/include/wine/windows/regstr.h
-* /usr/include/wine/windows/relogger.h
-* /usr/include/wine/windows/relogger.idl
-* /usr/include/wine/windows/restartmanager.h
-* /usr/include/wine/windows/restrictederrorinfo.h
-* /usr/include/wine/windows/restrictederrorinfo.idl
-* /usr/include/wine/windows/richedit.h
-* /usr/include/wine/windows/richole.h
-* /usr/include/wine/windows/richole.idl
-* /usr/include/wine/windows/rmxfguid.h
-* /usr/include/wine/windows/rmxftmpl.h
-* /usr/include/wine/windows/rmxftmpl.x
-* /usr/include/wine/windows/roapi.h
-* /usr/include/wine/windows/roerrorapi.h
-* /usr/include/wine/windows/rometadata.h
-* /usr/include/wine/windows/rometadataresolution.h
-* /usr/include/wine/windows/roparameterizediid.h
-* /usr/include/wine/windows/roparameterizediid.idl
-* /usr/include/wine/windows/row.idl
-* /usr/include/wine/windows/rowchg.idl
-* /usr/include/wine/windows/rowpos.idl
-* /usr/include/wine/windows/rowpsc.idl
-* /usr/include/wine/windows/rpc.h
-* /usr/include/wine/windows/rpcasync.h
-* /usr/include/wine/windows/rpcdce.h
-* /usr/include/wine/windows/rpcdcep.h
-* /usr/include/wine/windows/rpcndr.h
-* /usr/include/wine/windows/rpcnterr.h
-* /usr/include/wine/windows/rpcproxy.h
-* /usr/include/wine/windows/rpcsal.h
-* /usr/include/wine/windows/rstbas.idl
-* /usr/include/wine/windows/rstchg.idl
-* /usr/include/wine/windows/rstinf.idl
-* /usr/include/wine/windows/rstloc.idl
-* /usr/include/wine/windows/rstnot.idl
-* /usr/include/wine/windows/rstupd.idl
-* /usr/include/wine/windows/rtlsupportapi.h
-* /usr/include/wine/windows/rtutils.h
-* /usr/include/wine/windows/rtworkq.h
-* /usr/include/wine/windows/rtworkq.idl
-* /usr/include/wine/windows/sal.h
-* /usr/include/wine/windows/sapi.h
-* /usr/include/wine/windows/sapi.idl
-* /usr/include/wine/windows/sapiaut.idl
-* /usr/include/wine/windows/sapiddk.h
-* /usr/include/wine/windows/sapiddk.idl
-* /usr/include/wine/windows/scarderr.h
-* /usr/include/wine/windows/schannel.h
-* /usr/include/wine/windows/schemadef.h
-* /usr/include/wine/windows/schnlsp.h
-* /usr/include/wine/windows/sddl.h
-* /usr/include/wine/windows/sdkddkver.h
-* /usr/include/wine/windows/secext.h
-* /usr/include/wine/windows/security.h
-* /usr/include/wine/windows/sensapi.h
-* /usr/include/wine/windows/sensevts.h
-* /usr/include/wine/windows/sensevts.idl
-* /usr/include/wine/windows/servprov.h
-* /usr/include/wine/windows/servprov.idl
-* /usr/include/wine/windows/sesprp.idl
-* /usr/include/wine/windows/setupapi.h
-* /usr/include/wine/windows/sfc.h
-* /usr/include/wine/windows/shcore.h
-* /usr/include/wine/windows/shdeprecated.h
-* /usr/include/wine/windows/shdeprecated.idl
-* /usr/include/wine/windows/shdispid.h
-* /usr/include/wine/windows/shellapi.h
-* /usr/include/wine/windows/shellscalingapi.h
-* /usr/include/wine/windows/shimgdata.h
-* /usr/include/wine/windows/shimgdata.idl
-* /usr/include/wine/windows/shldisp.h
-* /usr/include/wine/windows/shldisp.idl
-* /usr/include/wine/windows/shlguid.h
-* /usr/include/wine/windows/shlobj.h
-* /usr/include/wine/windows/shlwapi.h
-* /usr/include/wine/windows/shobjidl.h
-* /usr/include/wine/windows/shobjidl.idl
-* /usr/include/wine/windows/shobjidl_core.h
-* /usr/include/wine/windows/shobjidl_core.idl
-* /usr/include/wine/windows/shtypes.h
-* /usr/include/wine/windows/shtypes.idl
-* /usr/include/wine/windows/sipbase.h
-* /usr/include/wine/windows/slerror.h
-* /usr/include/wine/windows/slpublic.h
-* /usr/include/wine/windows/snmp.h
-* /usr/include/wine/windows/socketapi.h
-* /usr/include/wine/windows/softpub.h
-* /usr/include/wine/windows/spatialaudioclient.h
-* /usr/include/wine/windows/spatialaudioclient.idl
-* /usr/include/wine/windows/specstrings.h
-* /usr/include/wine/windows/specstrings_strict.h
-* /usr/include/wine/windows/sperror.h
-* /usr/include/wine/windows/sql.h
-* /usr/include/wine/windows/sqlext.h
-* /usr/include/wine/windows/sqltypes.h
-* /usr/include/wine/windows/sqlucode.h
-* /usr/include/wine/windows/srcrst.idl
-* /usr/include/wine/windows/srrestoreptapi.h
-* /usr/include/wine/windows/sspi.h
-* /usr/include/wine/windows/stgprop.h
-* /usr/include/wine/windows/sti.h
-* /usr/include/wine/windows/storage.h
-* /usr/include/wine/windows/strmif.h
-* /usr/include/wine/windows/strmif.idl
-* /usr/include/wine/windows/strongname.h
-* /usr/include/wine/windows/strsafe.h
-* /usr/include/wine/windows/structuredquerycondition.h
-* /usr/include/wine/windows/structuredquerycondition.idl
-* /usr/include/wine/windows/svrapi.h
-* /usr/include/wine/windows/synchapi.h
-* /usr/include/wine/windows/systemmediatransportcontrolsinterop.h
-* /usr/include/wine/windows/systemmediatransportcontrolsinterop.idl
-* /usr/include/wine/windows/t2embapi.h
-* /usr/include/wine/windows/tapi.h
-* /usr/include/wine/windows/taskschd.h
-* /usr/include/wine/windows/taskschd.idl
-* /usr/include/wine/windows/tbs.h
-* /usr/include/wine/windows/tchar.h
-* /usr/include/wine/windows/tcpestats.h
-* /usr/include/wine/windows/tcpmib.h
-* /usr/include/wine/windows/textserv.h
-* /usr/include/wine/windows/textstor.h
-* /usr/include/wine/windows/textstor.idl
-* /usr/include/wine/windows/threadpoolapiset.h
-* /usr/include/wine/windows/thumbcache.h
-* /usr/include/wine/windows/thumbcache.idl
-* /usr/include/wine/windows/timezoneapi.h
-* /usr/include/wine/windows/tlhelp32.h
-* /usr/include/wine/windows/tlogstg.h
-* /usr/include/wine/windows/tlogstg.idl
-* /usr/include/wine/windows/tmschema.h
-* /usr/include/wine/windows/tom.h
-* /usr/include/wine/windows/tom.idl
-* /usr/include/wine/windows/tpcshrd.h
-* /usr/include/wine/windows/traffic.h
-* /usr/include/wine/windows/transact.h
-* /usr/include/wine/windows/transact.idl
-* /usr/include/wine/windows/trnjoi.idl
-* /usr/include/wine/windows/trnlcl.idl
-* /usr/include/wine/windows/trnobj.idl
-* /usr/include/wine/windows/twain.h
-* /usr/include/wine/windows/txcoord.h
-* /usr/include/wine/windows/txcoord.idl
-* /usr/include/wine/windows/txdtc.h
-* /usr/include/wine/windows/txdtc.idl
-* /usr/include/wine/windows/udpmib.h
-* /usr/include/wine/windows/uianimation.h
-* /usr/include/wine/windows/uianimation.idl
-* /usr/include/wine/windows/uiautomation.h
-* /usr/include/wine/windows/uiautomationclient.h
-* /usr/include/wine/windows/uiautomationclient.idl
-* /usr/include/wine/windows/uiautomationcore.h
-* /usr/include/wine/windows/uiautomationcore.idl
-* /usr/include/wine/windows/uiautomationcoreapi.h
-* /usr/include/wine/windows/uiribbon.h
-* /usr/include/wine/windows/uiribbon.idl
-* /usr/include/wine/windows/uiviewsettingsinterop.h
-* /usr/include/wine/windows/uiviewsettingsinterop.idl
-* /usr/include/wine/windows/unexposeenums2managed.h
-* /usr/include/wine/windows/unknwn.h
-* /usr/include/wine/windows/unknwn.idl
-* /usr/include/wine/windows/urlhist.h
-* /usr/include/wine/windows/urlhist.idl
-* /usr/include/wine/windows/urlmon.h
-* /usr/include/wine/windows/urlmon.idl
-* /usr/include/wine/windows/userenv.h
-* /usr/include/wine/windows/usp10.h
-* /usr/include/wine/windows/uuids.h
-* /usr/include/wine/windows/uxtheme.h
-* /usr/include/wine/windows/vdmdbg.h
-* /usr/include/wine/windows/ver.h
-* /usr/include/wine/windows/verrsrc.h
-* /usr/include/wine/windows/vfw.h
-* /usr/include/wine/windows/vfwmsgs.h
-* /usr/include/wine/windows/videoacc.h
-* /usr/include/wine/windows/videoacc.idl
-* /usr/include/wine/windows/virtdisk.h
-* /usr/include/wine/windows/vmr9.h
-* /usr/include/wine/windows/vmr9.idl
-* /usr/include/wine/windows/vmrender.idl
-* /usr/include/wine/windows/vsbackup.h
-* /usr/include/wine/windows/vsbackup.idl
-* /usr/include/wine/windows/vss.h
-* /usr/include/wine/windows/vss.idl
-* /usr/include/wine/windows/vsstyle.h
-* /usr/include/wine/windows/vssym32.h
-* /usr/include/wine/windows/vswriter.h
-* /usr/include/wine/windows/vswriter.idl
-* /usr/include/wine/windows/wbemcli.h
-* /usr/include/wine/windows/wbemcli.idl
-* /usr/include/wine/windows/wbemdisp.h
-* /usr/include/wine/windows/wbemdisp.idl
-* /usr/include/wine/windows/wbemprov.h
-* /usr/include/wine/windows/wbemprov.idl
-* /usr/include/wine/windows/wct.h
-* /usr/include/wine/windows/wdbgexts.h
-* /usr/include/wine/windows/weakreference.h
-* /usr/include/wine/windows/weakreference.idl
-* /usr/include/wine/windows/webservices.h
-* /usr/include/wine/windows/werapi.h
-* /usr/include/wine/windows/wfext.h
-* /usr/include/wine/windows/wia.h
-* /usr/include/wine/windows/wiadef.h
-* /usr/include/wine/windows/wia_lh.h
-* /usr/include/wine/windows/wia_lh.idl
-* /usr/include/wine/windows/wia_xp.h
-* /usr/include/wine/windows/wia_xp.idl
-* /usr/include/wine/windows/wimgapi.h
-* /usr/include/wine/windows/winapifamily.h
-* /usr/include/wine/windows/winbase.h
-* /usr/include/wine/windows/winber.h
-* /usr/include/wine/windows/wincodec.h
-* /usr/include/wine/windows/wincodec.idl
-* /usr/include/wine/windows/wincodecsdk.h
-* /usr/include/wine/windows/wincodecsdk.idl
-* /usr/include/wine/windows/wincon.h
-* /usr/include/wine/windows/wincontypes.h
-* /usr/include/wine/windows/wincred.h
-* /usr/include/wine/windows/wincrypt.h
-* /usr/include/wine/windows/windef.h
-* /usr/include/wine/windows/windns.h
-* /usr/include/wine/windows/windot11.h
-* /usr/include/wine/windows/windows.applicationmodel.activation.h
-* /usr/include/wine/windows/windows.applicationmodel.activation.idl
-* /usr/include/wine/windows/windows.applicationmodel.background.h
-* /usr/include/wine/windows/windows.applicationmodel.background.idl
-* /usr/include/wine/windows/windows.applicationmodel.core.h
-* /usr/include/wine/windows/windows.applicationmodel.core.idl
-* /usr/include/wine/windows/windows.applicationmodel.h
-* /usr/include/wine/windows/windows.applicationmodel.idl
-* /usr/include/wine/windows/windows.data.json.h
-* /usr/include/wine/windows/windows.data.json.idl
-* /usr/include/wine/windows/windows.devices.bluetooth.h
-* /usr/include/wine/windows/windows.devices.bluetooth.idl
-* /usr/include/wine/windows/windows.devices.enumeration.h
-* /usr/include/wine/windows/windows.devices.enumeration.idl
-* /usr/include/wine/windows/windows.devices.geolocation.h
-* /usr/include/wine/windows/windows.devices.geolocation.idl
-* /usr/include/wine/windows/windows.devices.haptics.h
-* /usr/include/wine/windows/windows.devices.haptics.idl
-* /usr/include/wine/windows/windows.devices.input.h
-* /usr/include/wine/windows/windows.devices.input.idl
-* /usr/include/wine/windows/windows.devices.power.h
-* /usr/include/wine/windows/windows.devices.power.idl
-* /usr/include/wine/windows/windows.devices.radios.h
-* /usr/include/wine/windows/windows.devices.radios.idl
-* /usr/include/wine/windows/windows.devices.usb.h
-* /usr/include/wine/windows/windows.devices.usb.idl
-* /usr/include/wine/windows/windows.foundation.collections.h
-* /usr/include/wine/windows/windows.foundation.collections.idl
-* /usr/include/wine/windows/windows.foundation.h
-* /usr/include/wine/windows/windows.foundation.idl
-* /usr/include/wine/windows/windows.foundation.metadata.h
-* /usr/include/wine/windows/windows.foundation.metadata.idl
-* /usr/include/wine/windows/windows.foundation.numerics.h
-* /usr/include/wine/windows/windows.foundation.numerics.idl
-* /usr/include/wine/windows/windows.gaming.input.custom.h
-* /usr/include/wine/windows/windows.gaming.input.custom.idl
-* /usr/include/wine/windows/windows.gaming.input.forcefeedback.h
-* /usr/include/wine/windows/windows.gaming.input.forcefeedback.idl
-* /usr/include/wine/windows/windows.gaming.input.h
-* /usr/include/wine/windows/windows.gaming.input.idl
-* /usr/include/wine/windows/windows.gaming.ui.h
-* /usr/include/wine/windows/windows.gaming.ui.idl
-* /usr/include/wine/windows/windows.globalization.h
-* /usr/include/wine/windows/windows.globalization.idl
-* /usr/include/wine/windows/windows.graphics.capture.h
-* /usr/include/wine/windows/windows.graphics.capture.idl
-* /usr/include/wine/windows/windows.graphics.capture.interop.h
-* /usr/include/wine/windows/windows.graphics.capture.interop.idl
-* /usr/include/wine/windows/windows.graphics.directx.direct3d11.h
-* /usr/include/wine/windows/windows.graphics.directx.direct3d11.idl
-* /usr/include/wine/windows/windows.graphics.directx.h
-* /usr/include/wine/windows/windows.graphics.directx.idl
-* /usr/include/wine/windows/windows.graphics.effects.h
-* /usr/include/wine/windows/windows.graphics.effects.idl
-* /usr/include/wine/windows/windows.graphics.h
-* /usr/include/wine/windows/windows.graphics.holographic.h
-* /usr/include/wine/windows/windows.graphics.holographic.idl
-* /usr/include/wine/windows/windows.graphics.idl
-* /usr/include/wine/windows/windows.graphics.imaging.h
-* /usr/include/wine/windows/windows.graphics.imaging.idl
-* /usr/include/wine/windows/windows.h
-* /usr/include/wine/windows/windows.management.deployment.h
-* /usr/include/wine/windows/windows.management.deployment.idl
-* /usr/include/wine/windows/windows.media.capture.h
-* /usr/include/wine/windows/windows.media.capture.idl
-* /usr/include/wine/windows/windows.media.closedcaptioning.h
-* /usr/include/wine/windows/windows.media.closedcaptioning.idl
-* /usr/include/wine/windows/windows.media.devices.h
-* /usr/include/wine/windows/windows.media.devices.idl
-* /usr/include/wine/windows/windows.media.effects.h
-* /usr/include/wine/windows/windows.media.effects.idl
-* /usr/include/wine/windows/windows.media.faceanalysis.h
-* /usr/include/wine/windows/windows.media.faceanalysis.idl
-* /usr/include/wine/windows/windows.media.h
-* /usr/include/wine/windows/windows.media.idl
-* /usr/include/wine/windows/windows.media.render.h
-* /usr/include/wine/windows/windows.media.render.idl
-* /usr/include/wine/windows/windows.media.speechrecognition.h
-* /usr/include/wine/windows/windows.media.speechrecognition.idl
-* /usr/include/wine/windows/windows.media.speechsynthesis.h
-* /usr/include/wine/windows/windows.media.speechsynthesis.idl
-* /usr/include/wine/windows/windows.networking.connectivity.h
-* /usr/include/wine/windows/windows.networking.connectivity.idl
-* /usr/include/wine/windows/windows.networking.h
-* /usr/include/wine/windows/windows.networking.idl
-* /usr/include/wine/windows/windows.perception.spatial.h
-* /usr/include/wine/windows/windows.perception.spatial.idl
-* /usr/include/wine/windows/windows.perception.spatial.surfaces.h
-* /usr/include/wine/windows/windows.perception.spatial.surfaces.idl
-* /usr/include/wine/windows/windows.security.authentication.onlineid.h
-* /usr/include/wine/windows/windows.security.authentication.onlineid.idl
-* /usr/include/wine/windows/windows.security.credentials.h
-* /usr/include/wine/windows/windows.security.credentials.idl
-* /usr/include/wine/windows/windows.security.credentials.ui.h
-* /usr/include/wine/windows/windows.security.credentials.ui.idl
-* /usr/include/wine/windows/windows.security.cryptography.h
-* /usr/include/wine/windows/windows.security.cryptography.idl
-* /usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.h
-* /usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.idl
-* /usr/include/wine/windows/windows.security.isolation.h
-* /usr/include/wine/windows/windows.security.isolation.idl
-* /usr/include/wine/windows/windows.storage.fileproperties.h
-* /usr/include/wine/windows/windows.storage.fileproperties.idl
-* /usr/include/wine/windows/windows.storage.h
-* /usr/include/wine/windows/windows.storage.idl
-* /usr/include/wine/windows/windows.storage.search.h
-* /usr/include/wine/windows/windows.storage.search.idl
-* /usr/include/wine/windows/windows.storage.streams.h
-* /usr/include/wine/windows/windows.storage.streams.idl
-* /usr/include/wine/windows/windows.system.h
-* /usr/include/wine/windows/windows.system.idl
-* /usr/include/wine/windows/windows.system.power.h
-* /usr/include/wine/windows/windows.system.power.idl
-* /usr/include/wine/windows/windows.system.profile.h
-* /usr/include/wine/windows/windows.system.profile.idl
-* /usr/include/wine/windows/windows.system.profile.systemmanufacturers.h
-* /usr/include/wine/windows/windows.system.profile.systemmanufacturers.idl
-* /usr/include/wine/windows/windows.system.threading.h
-* /usr/include/wine/windows/windows.system.threading.idl
-* /usr/include/wine/windows/windows.system.userprofile.h
-* /usr/include/wine/windows/windows.system.userprofile.idl
-* /usr/include/wine/windows/windows.ui.composition.h
-* /usr/include/wine/windows/windows.ui.composition.idl
-* /usr/include/wine/windows/windows.ui.composition.interop.h
-* /usr/include/wine/windows/windows.ui.composition.interop.idl
-* /usr/include/wine/windows/windows.ui.core.h
-* /usr/include/wine/windows/windows.ui.core.idl
-* /usr/include/wine/windows/windows.ui.h
-* /usr/include/wine/windows/windows.ui.idl
-* /usr/include/wine/windows/windows.ui.input.h
-* /usr/include/wine/windows/windows.ui.input.idl
-* /usr/include/wine/windows/windows.ui.viewmanagement.h
-* /usr/include/wine/windows/windows.ui.viewmanagement.idl
-* /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.h
-* /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.idl
-* /usr/include/wine/windows/windowscontracts.h
-* /usr/include/wine/windows/windowscontracts.idl
-* /usr/include/wine/windows/windowsx.h
-* /usr/include/wine/windows/winerror.h
-* /usr/include/wine/windows/winevt.h
-* /usr/include/wine/windows/wingdi.h
-* /usr/include/wine/windows/winhttp.h
-* /usr/include/wine/windows/wininet.h
-* /usr/include/wine/windows/winineti.h
-* /usr/include/wine/windows/winioctl.h
-* /usr/include/wine/windows/winldap.h
-* /usr/include/wine/windows/winnetwk.h
-* /usr/include/wine/windows/winnls.h
-* /usr/include/wine/windows/winnls32.h
-* /usr/include/wine/windows/winnt.h
-* /usr/include/wine/windows/winnt.rh
-* /usr/include/wine/windows/winperf.h
-* /usr/include/wine/windows/winppi.h
-* /usr/include/wine/windows/winreg.h
-* /usr/include/wine/windows/winresrc.h
-* /usr/include/wine/windows/winsafer.h
-* /usr/include/wine/windows/winscard.h
-* /usr/include/wine/windows/winsmcrd.h
-* /usr/include/wine/windows/winsnmp.h
-* /usr/include/wine/windows/winsock.h
-* /usr/include/wine/windows/winsock2.h
-* /usr/include/wine/windows/winspool.h
-* /usr/include/wine/windows/winstring.h
-* /usr/include/wine/windows/winsvc.h
-* /usr/include/wine/windows/winsxs.h
-* /usr/include/wine/windows/winsxs.idl
-* /usr/include/wine/windows/wintab.h
-* /usr/include/wine/windows/wintabx.h
-* /usr/include/wine/windows/winternl.h
-* /usr/include/wine/windows/wintrust.h
-* /usr/include/wine/windows/winusb.h
-* /usr/include/wine/windows/winuser.h
-* /usr/include/wine/windows/winuser.rh
-* /usr/include/wine/windows/winver.h
-* /usr/include/wine/windows/wlanapi.h
-* /usr/include/wine/windows/wldp.h
-* /usr/include/wine/windows/wmcodecdsp.h
-* /usr/include/wine/windows/wmcodecdsp.idl
-* /usr/include/wine/windows/wmdrmsdk.h
-* /usr/include/wine/windows/wmdrmsdk.idl
-* /usr/include/wine/windows/wmistr.h
-* /usr/include/wine/windows/wmium.h
-* /usr/include/wine/windows/wmiutils.h
-* /usr/include/wine/windows/wmiutils.idl
-* /usr/include/wine/windows/wmp.h
-* /usr/include/wine/windows/wmp.idl
-* /usr/include/wine/windows/wmpids.h
-* /usr/include/wine/windows/wmprealestate.h
-* /usr/include/wine/windows/wmprealestate.idl
-* /usr/include/wine/windows/wmpservices.h
-* /usr/include/wine/windows/wmpservices.idl
-* /usr/include/wine/windows/wmsbuffer.h
-* /usr/include/wine/windows/wmsbuffer.idl
-* /usr/include/wine/windows/wmsdk.h
-* /usr/include/wine/windows/wmsdkidl.h
-* /usr/include/wine/windows/wmsdkidl.idl
-* /usr/include/wine/windows/wmsecure.h
-* /usr/include/wine/windows/wmsecure.idl
-* /usr/include/wine/windows/wnaspi32.h
-* /usr/include/wine/windows/wofapi.h
-* /usr/include/wine/windows/wownt16.h
-* /usr/include/wine/windows/wownt32.h
-* /usr/include/wine/windows/wpcapi.h
-* /usr/include/wine/windows/wpcapi.idl
-* /usr/include/wine/windows/ws2def.h
-* /usr/include/wine/windows/ws2ipdef.h
-* /usr/include/wine/windows/ws2spi.h
-* /usr/include/wine/windows/ws2tcpip.h
-* /usr/include/wine/windows/wsdapi.h
-* /usr/include/wine/windows/wsdbase.h
-* /usr/include/wine/windows/wsdbase.idl
-* /usr/include/wine/windows/wsddisco.h
-* /usr/include/wine/windows/wsddisco.idl
-* /usr/include/wine/windows/wsdtypes.h
-* /usr/include/wine/windows/wsdutil.h
-* /usr/include/wine/windows/wsdxml.h
-* /usr/include/wine/windows/wsdxml.idl
-* /usr/include/wine/windows/wsdxmldom.h
-* /usr/include/wine/windows/wshisotp.h
-* /usr/include/wine/windows/wsipx.h
-* /usr/include/wine/windows/wsnwlink.h
-* /usr/include/wine/windows/wspiapi.h
-* /usr/include/wine/windows/wtsapi32.h
-* /usr/include/wine/windows/wtypes.h
-* /usr/include/wine/windows/wtypes.idl
-* /usr/include/wine/windows/wuapi.h
-* /usr/include/wine/windows/wuapi.idl
-* /usr/include/wine/windows/x3daudio.h
-* /usr/include/wine/windows/xact.h
-* /usr/include/wine/windows/xact2wb.h
-* /usr/include/wine/windows/xact3.h
-* /usr/include/wine/windows/xact3wb.h
-* /usr/include/wine/windows/xamlom.h
-* /usr/include/wine/windows/xamlom.idl
-* /usr/include/wine/windows/xapo.h
-* /usr/include/wine/windows/xapo.idl
-* /usr/include/wine/windows/xapofx.h
-* /usr/include/wine/windows/xaudio2.h
-* /usr/include/wine/windows/xaudio2.idl
-* /usr/include/wine/windows/xaudio2fx.h
-* /usr/include/wine/windows/xaudio2fx.idl
-* /usr/include/wine/windows/xcmc.h
-* /usr/include/wine/windows/xinput.h
-* /usr/include/wine/windows/xmldom.h
-* /usr/include/wine/windows/xmldom.idl
-* /usr/include/wine/windows/xmldomdid.h
-* /usr/include/wine/windows/xmldso.idl
-* /usr/include/wine/windows/xmldsodid.h
-* /usr/include/wine/windows/xmllite.h
-* /usr/include/wine/windows/xmllite.idl
-* /usr/include/wine/windows/xpsobjectmodel.h
-* /usr/include/wine/windows/xpsobjectmodel.idl
-* /usr/include/wine/windows/xpsobjectmodel_1.h
-* /usr/include/wine/windows/xpsobjectmodel_1.idl
-* /usr/include/wine/windows/zmouse.h
-* /usr/lib/wine/x86_64-unix/acledit.dll.so
-* /usr/lib/wine/x86_64-unix/aclui.dll.so
-* /usr/lib/wine/x86_64-unix/activeds.dll.so
-* /usr/lib/wine/x86_64-unix/actxprxy.dll.so
-* /usr/lib/wine/x86_64-unix/adsldp.dll.so
-* /usr/lib/wine/x86_64-unix/adsldpc.dll.so
-* /usr/lib/wine/x86_64-unix/advapi32.dll.so
-* /usr/lib/wine/x86_64-unix/advpack.dll.so
-* /usr/lib/wine/x86_64-unix/amsi.dll.so
-* /usr/lib/wine/x86_64-unix/amstream.dll.so
-* /usr/lib/wine/x86_64-unix/apphelp.dll.so
-* /usr/lib/wine/x86_64-unix/appwiz.cpl.so
-* /usr/lib/wine/x86_64-unix/appxdeploymentclient.dll.so
-* /usr/lib/wine/x86_64-unix/arp.exe.so
-* /usr/lib/wine/x86_64-unix/aspnet_regiis.exe.so
-* /usr/lib/wine/x86_64-unix/atl.dll.so
-* /usr/lib/wine/x86_64-unix/atl100.dll.so
-* /usr/lib/wine/x86_64-unix/atl110.dll.so
-* /usr/lib/wine/x86_64-unix/atl80.dll.so
-* /usr/lib/wine/x86_64-unix/atl90.dll.so
-* /usr/lib/wine/x86_64-unix/atlthunk.dll.so
-* /usr/lib/wine/x86_64-unix/atmlib.dll.so
-* /usr/lib/wine/x86_64-unix/attrib.exe.so
-* /usr/lib/wine/x86_64-unix/authz.dll.so
-* /usr/lib/wine/x86_64-unix/avicap32.dll.so
-* /usr/lib/wine/x86_64-unix/avicap32.so
-* /usr/lib/wine/x86_64-unix/avifil32.dll.so
-* /usr/lib/wine/x86_64-unix/avrt.dll.so
-* /usr/lib/wine/x86_64-unix/bcp47langs.dll.so
-* /usr/lib/wine/x86_64-unix/bcrypt.dll.so
-* /usr/lib/wine/x86_64-unix/bcrypt.so
-* /usr/lib/wine/x86_64-unix/bcryptprimitives.dll.so
-* /usr/lib/wine/x86_64-unix/bluetoothapis.dll.so
-* /usr/lib/wine/x86_64-unix/browseui.dll.so
-* /usr/lib/wine/x86_64-unix/bthprops.cpl.so
-* /usr/lib/wine/x86_64-unix/cabarc.exe.so
-* /usr/lib/wine/x86_64-unix/cabinet.dll.so
-* /usr/lib/wine/x86_64-unix/cacls.exe.so
-* /usr/lib/wine/x86_64-unix/cards.dll.so
-* /usr/lib/wine/x86_64-unix/cdosys.dll.so
-* /usr/lib/wine/x86_64-unix/certutil.exe.so
-* /usr/lib/wine/x86_64-unix/cfgmgr32.dll.so
-* /usr/lib/wine/x86_64-unix/chcp.com.so
-* /usr/lib/wine/x86_64-unix/clock.exe.so
-* /usr/lib/wine/x86_64-unix/clusapi.dll.so
-* /usr/lib/wine/x86_64-unix/cmd.exe.so
-* /usr/lib/wine/x86_64-unix/cng.sys.so
-* /usr/lib/wine/x86_64-unix/combase.dll.so
-* /usr/lib/wine/x86_64-unix/comcat.dll.so
-* /usr/lib/wine/x86_64-unix/comctl32.dll.so
-* /usr/lib/wine/x86_64-unix/comdlg32.dll.so
-* /usr/lib/wine/x86_64-unix/coml2.dll.so
-* /usr/lib/wine/x86_64-unix/compstui.dll.so
-* /usr/lib/wine/x86_64-unix/comsvcs.dll.so
-* /usr/lib/wine/x86_64-unix/concrt140.dll.so
-* /usr/lib/wine/x86_64-unix/conhost.exe.so
-* /usr/lib/wine/x86_64-unix/connect.dll.so
-* /usr/lib/wine/x86_64-unix/control.exe.so
-* /usr/lib/wine/x86_64-unix/coremessaging.dll.so
-* /usr/lib/wine/x86_64-unix/credui.dll.so
-* /usr/lib/wine/x86_64-unix/crtdll.dll.so
-* /usr/lib/wine/x86_64-unix/crypt32.dll.so
-* /usr/lib/wine/x86_64-unix/crypt32.so
-* /usr/lib/wine/x86_64-unix/cryptdlg.dll.so
-* /usr/lib/wine/x86_64-unix/cryptdll.dll.so
-* /usr/lib/wine/x86_64-unix/cryptext.dll.so
-* /usr/lib/wine/x86_64-unix/cryptnet.dll.so
-* /usr/lib/wine/x86_64-unix/cryptowinrt.dll.so
-* /usr/lib/wine/x86_64-unix/cryptsp.dll.so
-* /usr/lib/wine/x86_64-unix/cryptui.dll.so
-* /usr/lib/wine/x86_64-unix/cscript.exe.so
-* /usr/lib/wine/x86_64-unix/ctapi32.dll.so
-* /usr/lib/wine/x86_64-unix/ctapi32.so
-* /usr/lib/wine/x86_64-unix/ctl3d32.dll.so
-* /usr/lib/wine/x86_64-unix/d2d1.dll.so
-* /usr/lib/wine/x86_64-unix/d3d10.dll.so
-* /usr/lib/wine/x86_64-unix/d3d10core.dll.so
-* /usr/lib/wine/x86_64-unix/d3d10_1.dll.so
-* /usr/lib/wine/x86_64-unix/d3d11.dll.so
-* /usr/lib/wine/x86_64-unix/d3d12.dll.so
-* /usr/lib/wine/x86_64-unix/d3d12core.dll.so
-* /usr/lib/wine/x86_64-unix/d3d8.dll.so
-* /usr/lib/wine/x86_64-unix/d3d8thk.dll.so
-* /usr/lib/wine/x86_64-unix/d3d9.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_33.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_34.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_35.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_36.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_37.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_38.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_39.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_40.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_41.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_42.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_43.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_46.dll.so
-* /usr/lib/wine/x86_64-unix/d3dcompiler_47.dll.so
-* /usr/lib/wine/x86_64-unix/d3dim.dll.so
-* /usr/lib/wine/x86_64-unix/d3dim700.dll.so
-* /usr/lib/wine/x86_64-unix/d3drm.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_33.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_34.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_35.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_36.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_37.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_38.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_39.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_40.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_41.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_42.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx10_43.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx11_42.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx11_43.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_24.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_25.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_26.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_27.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_28.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_29.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_30.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_31.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_32.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_33.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_34.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_35.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_36.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_37.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_38.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_39.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_40.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_41.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_42.dll.so
-* /usr/lib/wine/x86_64-unix/d3dx9_43.dll.so
-* /usr/lib/wine/x86_64-unix/d3dxof.dll.so
-* /usr/lib/wine/x86_64-unix/davclnt.dll.so
-* /usr/lib/wine/x86_64-unix/dbgeng.dll.so
-* /usr/lib/wine/x86_64-unix/dbghelp.dll.so
-* /usr/lib/wine/x86_64-unix/dciman32.dll.so
-* /usr/lib/wine/x86_64-unix/dcomp.dll.so
-* /usr/lib/wine/x86_64-unix/ddraw.dll.so
-* /usr/lib/wine/x86_64-unix/ddrawex.dll.so
-* /usr/lib/wine/x86_64-unix/devenum.dll.so
-* /usr/lib/wine/x86_64-unix/dhcpcsvc.dll.so
-* /usr/lib/wine/x86_64-unix/dhcpcsvc6.dll.so
-* /usr/lib/wine/x86_64-unix/dhtmled.ocx.so
-* /usr/lib/wine/x86_64-unix/diasymreader.dll.so
-* /usr/lib/wine/x86_64-unix/difxapi.dll.so
-* /usr/lib/wine/x86_64-unix/dinput.dll.so
-* /usr/lib/wine/x86_64-unix/dinput8.dll.so
-* /usr/lib/wine/x86_64-unix/directmanipulation.dll.so
-* /usr/lib/wine/x86_64-unix/dism.exe.so
-* /usr/lib/wine/x86_64-unix/dispex.dll.so
-* /usr/lib/wine/x86_64-unix/dllhost.exe.so
-* /usr/lib/wine/x86_64-unix/dmband.dll.so
-* /usr/lib/wine/x86_64-unix/dmcompos.dll.so
-* /usr/lib/wine/x86_64-unix/dmime.dll.so
-* /usr/lib/wine/x86_64-unix/dmloader.dll.so
-* /usr/lib/wine/x86_64-unix/dmscript.dll.so
-* /usr/lib/wine/x86_64-unix/dmstyle.dll.so
-* /usr/lib/wine/x86_64-unix/dmsynth.dll.so
-* /usr/lib/wine/x86_64-unix/dmusic.dll.so
-* /usr/lib/wine/x86_64-unix/dmusic32.dll.so
-* /usr/lib/wine/x86_64-unix/dnsapi.dll.so
-* /usr/lib/wine/x86_64-unix/dnsapi.so
-* /usr/lib/wine/x86_64-unix/dplay.dll.so
-* /usr/lib/wine/x86_64-unix/dplaysvr.exe.so
-* /usr/lib/wine/x86_64-unix/dplayx.dll.so
-* /usr/lib/wine/x86_64-unix/dpnaddr.dll.so
-* /usr/lib/wine/x86_64-unix/dpnet.dll.so
-* /usr/lib/wine/x86_64-unix/dpnhpast.dll.so
-* /usr/lib/wine/x86_64-unix/dpnhupnp.dll.so
-* /usr/lib/wine/x86_64-unix/dpnlobby.dll.so
-* /usr/lib/wine/x86_64-unix/dpnsvr.exe.so
-* /usr/lib/wine/x86_64-unix/dpvoice.dll.so
-* /usr/lib/wine/x86_64-unix/dpvsetup.exe.so
-* /usr/lib/wine/x86_64-unix/dpwsockx.dll.so
-* /usr/lib/wine/x86_64-unix/drmclien.dll.so
-* /usr/lib/wine/x86_64-unix/dsdmo.dll.so
-* /usr/lib/wine/x86_64-unix/dsound.dll.so
-* /usr/lib/wine/x86_64-unix/dsquery.dll.so
-* /usr/lib/wine/x86_64-unix/dssenh.dll.so
-* /usr/lib/wine/x86_64-unix/dsuiext.dll.so
-* /usr/lib/wine/x86_64-unix/dswave.dll.so
-* /usr/lib/wine/x86_64-unix/dwmapi.dll.so
-* /usr/lib/wine/x86_64-unix/dwrite.dll.so
-* /usr/lib/wine/x86_64-unix/dwrite.so
-* /usr/lib/wine/x86_64-unix/dx8vb.dll.so
-* /usr/lib/wine/x86_64-unix/dxcore.dll.so
-* /usr/lib/wine/x86_64-unix/dxdiag.exe.so
-* /usr/lib/wine/x86_64-unix/dxdiagn.dll.so
-* /usr/lib/wine/x86_64-unix/dxgi.dll.so
-* /usr/lib/wine/x86_64-unix/dxtrans.dll.so
-* /usr/lib/wine/x86_64-unix/dxva2.dll.so
-* /usr/lib/wine/x86_64-unix/eject.exe.so
-* /usr/lib/wine/x86_64-unix/esent.dll.so
-* /usr/lib/wine/x86_64-unix/evr.dll.so
-* /usr/lib/wine/x86_64-unix/expand.exe.so
-* /usr/lib/wine/x86_64-unix/explorer.exe.so
-* /usr/lib/wine/x86_64-unix/explorerframe.dll.so
-* /usr/lib/wine/x86_64-unix/extrac32.exe.so
-* /usr/lib/wine/x86_64-unix/faultrep.dll.so
-* /usr/lib/wine/x86_64-unix/fc.exe.so
-* /usr/lib/wine/x86_64-unix/feclient.dll.so
-* /usr/lib/wine/x86_64-unix/find.exe.so
-* /usr/lib/wine/x86_64-unix/findstr.exe.so
-* /usr/lib/wine/x86_64-unix/fltlib.dll.so
-* /usr/lib/wine/x86_64-unix/fltmgr.sys.so
-* /usr/lib/wine/x86_64-unix/fntcache.dll.so
-* /usr/lib/wine/x86_64-unix/fontsub.dll.so
-* /usr/lib/wine/x86_64-unix/fsutil.exe.so
-* /usr/lib/wine/x86_64-unix/fusion.dll.so
-* /usr/lib/wine/x86_64-unix/fwpuclnt.dll.so
-* /usr/lib/wine/x86_64-unix/gameux.dll.so
-* /usr/lib/wine/x86_64-unix/gamingtcui.dll.so
-* /usr/lib/wine/x86_64-unix/gdi32.dll.so
-* /usr/lib/wine/x86_64-unix/gdiplus.dll.so
-* /usr/lib/wine/x86_64-unix/geolocation.dll.so
-* /usr/lib/wine/x86_64-unix/glu32.dll.so
-* /usr/lib/wine/x86_64-unix/gphoto2.ds.so
-* /usr/lib/wine/x86_64-unix/gphoto2.so
-* /usr/lib/wine/x86_64-unix/gpkcsp.dll.so
-* /usr/lib/wine/x86_64-unix/graphicscapture.dll.so
-* /usr/lib/wine/x86_64-unix/hal.dll.so
-* /usr/lib/wine/x86_64-unix/hh.exe.so
-* /usr/lib/wine/x86_64-unix/hhctrl.ocx.so
-* /usr/lib/wine/x86_64-unix/hid.dll.so
-* /usr/lib/wine/x86_64-unix/hidclass.sys.so
-* /usr/lib/wine/x86_64-unix/hidparse.sys.so
-* /usr/lib/wine/x86_64-unix/hlink.dll.so
-* /usr/lib/wine/x86_64-unix/hnetcfg.dll.so
-* /usr/lib/wine/x86_64-unix/hostname.exe.so
-* /usr/lib/wine/x86_64-unix/hrtfapo.dll.so
-* /usr/lib/wine/x86_64-unix/http.sys.so
-* /usr/lib/wine/x86_64-unix/httpapi.dll.so
-* /usr/lib/wine/x86_64-unix/hvsimanagementapi.dll.so
-* /usr/lib/wine/x86_64-unix/ia2comproxy.dll.so
-* /usr/lib/wine/x86_64-unix/icacls.exe.so
-* /usr/lib/wine/x86_64-unix/iccvid.dll.so
-* /usr/lib/wine/x86_64-unix/icinfo.exe.so
-* /usr/lib/wine/x86_64-unix/ieframe.dll.so
-* /usr/lib/wine/x86_64-unix/ieproxy.dll.so
-* /usr/lib/wine/x86_64-unix/iexplore.exe.so
-* /usr/lib/wine/x86_64-unix/imaadp32.acm.so
-* /usr/lib/wine/x86_64-unix/imagehlp.dll.so
-* /usr/lib/wine/x86_64-unix/imm32.dll.so
-* /usr/lib/wine/x86_64-unix/inetcomm.dll.so
-* /usr/lib/wine/x86_64-unix/inetcpl.cpl.so
-* /usr/lib/wine/x86_64-unix/inetmib1.dll.so
-* /usr/lib/wine/x86_64-unix/infosoft.dll.so
-* /usr/lib/wine/x86_64-unix/initpki.dll.so
-* /usr/lib/wine/x86_64-unix/inkobj.dll.so
-* /usr/lib/wine/x86_64-unix/inseng.dll.so
-* /usr/lib/wine/x86_64-unix/ipconfig.exe.so
-* /usr/lib/wine/x86_64-unix/iphlpapi.dll.so
-* /usr/lib/wine/x86_64-unix/iprop.dll.so
-* /usr/lib/wine/x86_64-unix/ir50_32.dll.so
-* /usr/lib/wine/x86_64-unix/irprops.cpl.so
-* /usr/lib/wine/x86_64-unix/itircl.dll.so
-* /usr/lib/wine/x86_64-unix/itss.dll.so
-* /usr/lib/wine/x86_64-unix/joy.cpl.so
-* /usr/lib/wine/x86_64-unix/jscript.dll.so
-* /usr/lib/wine/x86_64-unix/jsproxy.dll.so
-* /usr/lib/wine/x86_64-unix/kerberos.dll.so
-* /usr/lib/wine/x86_64-unix/kerberos.so
-* /usr/lib/wine/x86_64-unix/kernel32.dll.so
-* /usr/lib/wine/x86_64-unix/kernelbase.dll.so
-* /usr/lib/wine/x86_64-unix/klist.exe.so
-* /usr/lib/wine/x86_64-unix/ksecdd.sys.so
-* /usr/lib/wine/x86_64-unix/ksproxy.ax.so
-* /usr/lib/wine/x86_64-unix/ksuser.dll.so
-* /usr/lib/wine/x86_64-unix/ktmw32.dll.so
-* /usr/lib/wine/x86_64-unix/l3codeca.acm.so
-* /usr/lib/wine/x86_64-unix/libaclui.a
-* /usr/lib/wine/x86_64-unix/libactiveds.a
-* /usr/lib/wine/x86_64-unix/libadsiid.a
-* /usr/lib/wine/x86_64-unix/libadvapi32.a
-* /usr/lib/wine/x86_64-unix/libadvpack.a
-* /usr/lib/wine/x86_64-unix/libatl.a
-* /usr/lib/wine/x86_64-unix/libatl100.a
-* /usr/lib/wine/x86_64-unix/libatl110.a
-* /usr/lib/wine/x86_64-unix/libatl80.a
-* /usr/lib/wine/x86_64-unix/libatlthunk.a
-* /usr/lib/wine/x86_64-unix/libavicap32.a
-* /usr/lib/wine/x86_64-unix/libavifil32.a
-* /usr/lib/wine/x86_64-unix/libavrt.a
-* /usr/lib/wine/x86_64-unix/libbcp47langs.a
-* /usr/lib/wine/x86_64-unix/libbcrypt.a
-* /usr/lib/wine/x86_64-unix/libbluetoothapis.a
-* /usr/lib/wine/x86_64-unix/libcabinet.a
-* /usr/lib/wine/x86_64-unix/libcards.a
-* /usr/lib/wine/x86_64-unix/libcfgmgr32.a
-* /usr/lib/wine/x86_64-unix/libclusapi.a
-* /usr/lib/wine/x86_64-unix/libcombase.a
-* /usr/lib/wine/x86_64-unix/libcomctl32.a
-* /usr/lib/wine/x86_64-unix/libcomdlg32.a
-* /usr/lib/wine/x86_64-unix/libcoml2.a
-* /usr/lib/wine/x86_64-unix/libcompstui.a
-* /usr/lib/wine/x86_64-unix/libcomsvcs.a
-* /usr/lib/wine/x86_64-unix/libcredui.a
-* /usr/lib/wine/x86_64-unix/libcrypt32.a
-* /usr/lib/wine/x86_64-unix/libcryptdll.a
-* /usr/lib/wine/x86_64-unix/libcryptnet.a
-* /usr/lib/wine/x86_64-unix/libcryptui.a
-* /usr/lib/wine/x86_64-unix/libd2d1.a
-* /usr/lib/wine/x86_64-unix/libd3d10.a
-* /usr/lib/wine/x86_64-unix/libd3d10core.a
-* /usr/lib/wine/x86_64-unix/libd3d10_1.a
-* /usr/lib/wine/x86_64-unix/libd3d11.a
-* /usr/lib/wine/x86_64-unix/libd3d12.a
-* /usr/lib/wine/x86_64-unix/libd3d8.a
-* /usr/lib/wine/x86_64-unix/libd3d9.a
-* /usr/lib/wine/x86_64-unix/libd3dcompiler.a
-* /usr/lib/wine/x86_64-unix/libd3dcompiler_39.a
-* /usr/lib/wine/x86_64-unix/libd3dcompiler_43.a
-* /usr/lib/wine/x86_64-unix/libd3dcompiler_46.a
-* /usr/lib/wine/x86_64-unix/libd3drm.a
-* /usr/lib/wine/x86_64-unix/libd3dx10.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_34.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_35.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_36.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_37.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_38.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_39.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_40.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_41.a
-* /usr/lib/wine/x86_64-unix/libd3dx10_42.a
-* /usr/lib/wine/x86_64-unix/libd3dx11.a
-* /usr/lib/wine/x86_64-unix/libd3dx11_42.a
-* /usr/lib/wine/x86_64-unix/libd3dx9.a
-* /usr/lib/wine/x86_64-unix/libd3dxof.a
-* /usr/lib/wine/x86_64-unix/libdbgeng.a
-* /usr/lib/wine/x86_64-unix/libdbghelp.a
-* /usr/lib/wine/x86_64-unix/libdciman32.a
-* /usr/lib/wine/x86_64-unix/libddraw.a
-* /usr/lib/wine/x86_64-unix/libdhcpcsvc.a
-* /usr/lib/wine/x86_64-unix/libdinput.a
-* /usr/lib/wine/x86_64-unix/libdinput8.a
-* /usr/lib/wine/x86_64-unix/libdmoguids.a
-* /usr/lib/wine/x86_64-unix/libdnsapi.a
-* /usr/lib/wine/x86_64-unix/libdplayx.a
-* /usr/lib/wine/x86_64-unix/libdpnet.a
-* /usr/lib/wine/x86_64-unix/libdsound.a
-* /usr/lib/wine/x86_64-unix/libdwmapi.a
-* /usr/lib/wine/x86_64-unix/libdwrite.a
-* /usr/lib/wine/x86_64-unix/libdxerr8.a
-* /usr/lib/wine/x86_64-unix/libdxerr9.a
-* /usr/lib/wine/x86_64-unix/libdxgi.a
-* /usr/lib/wine/x86_64-unix/libdxguid.a
-* /usr/lib/wine/x86_64-unix/libdxva2.a
-* /usr/lib/wine/x86_64-unix/libevr.a
-* /usr/lib/wine/x86_64-unix/libfaultrep.a
-* /usr/lib/wine/x86_64-unix/libfltmgr.a
-* /usr/lib/wine/x86_64-unix/libgdi32.a
-* /usr/lib/wine/x86_64-unix/libgdiplus.a
-* /usr/lib/wine/x86_64-unix/libglu32.a
-* /usr/lib/wine/x86_64-unix/libhal.a
-* /usr/lib/wine/x86_64-unix/libhid.a
-* /usr/lib/wine/x86_64-unix/libhidclass.a
-* /usr/lib/wine/x86_64-unix/libhidparse.a
-* /usr/lib/wine/x86_64-unix/libhlink.a
-* /usr/lib/wine/x86_64-unix/libhtmlhelp.a
-* /usr/lib/wine/x86_64-unix/libhttpapi.a
-* /usr/lib/wine/x86_64-unix/libieframe.a
-* /usr/lib/wine/x86_64-unix/libimagehlp.a
-* /usr/lib/wine/x86_64-unix/libimm32.a
-* /usr/lib/wine/x86_64-unix/libinetcomm.a
-* /usr/lib/wine/x86_64-unix/libiphlpapi.a
-* /usr/lib/wine/x86_64-unix/libjsproxy.a
-* /usr/lib/wine/x86_64-unix/libkernel32.a
-* /usr/lib/wine/x86_64-unix/libkernelbase.a
-* /usr/lib/wine/x86_64-unix/libloadperf.a
-* /usr/lib/wine/x86_64-unix/liblz32.a
-* /usr/lib/wine/x86_64-unix/libmapi32.a
-* /usr/lib/wine/x86_64-unix/libmf.a
-* /usr/lib/wine/x86_64-unix/libmfplat.a
-* /usr/lib/wine/x86_64-unix/libmfplay.a
-* /usr/lib/wine/x86_64-unix/libmfreadwrite.a
-* /usr/lib/wine/x86_64-unix/libmfsrcsnk.a
-* /usr/lib/wine/x86_64-unix/libmfuuid.a
-* /usr/lib/wine/x86_64-unix/libmlang.a
-* /usr/lib/wine/x86_64-unix/libmpr.a
-* /usr/lib/wine/x86_64-unix/libmprapi.a
-* /usr/lib/wine/x86_64-unix/libmsacm32.a
-* /usr/lib/wine/x86_64-unix/libmsasn1.a
-* /usr/lib/wine/x86_64-unix/libmscms.a
-* /usr/lib/wine/x86_64-unix/libmsdmo.a
-* /usr/lib/wine/x86_64-unix/libmshtml.a
-* /usr/lib/wine/x86_64-unix/libmsi.a
-* /usr/lib/wine/x86_64-unix/libmsimg32.a
-* /usr/lib/wine/x86_64-unix/libmspatcha.a
-* /usr/lib/wine/x86_64-unix/libmsvcp140.a
-* /usr/lib/wine/x86_64-unix/libmsvcr100.a
-* /usr/lib/wine/x86_64-unix/libmsvcr110.a
-* /usr/lib/wine/x86_64-unix/libmsvcr120.a
-* /usr/lib/wine/x86_64-unix/libmsvcr70.a
-* /usr/lib/wine/x86_64-unix/libmsvcr71.a
-* /usr/lib/wine/x86_64-unix/libmsvcr80.a
-* /usr/lib/wine/x86_64-unix/libmsvcr90.a
-* /usr/lib/wine/x86_64-unix/libmsvcrt.a
-* /usr/lib/wine/x86_64-unix/libmsvcrtd.a
-* /usr/lib/wine/x86_64-unix/libmsvfw32.a
-* /usr/lib/wine/x86_64-unix/libmswsock.a
-* /usr/lib/wine/x86_64-unix/libncrypt.a
-* /usr/lib/wine/x86_64-unix/libnddeapi.a
-* /usr/lib/wine/x86_64-unix/libnetapi32.a
-* /usr/lib/wine/x86_64-unix/libnetio.a
-* /usr/lib/wine/x86_64-unix/libnewdev.a
-* /usr/lib/wine/x86_64-unix/libninput.a
-* /usr/lib/wine/x86_64-unix/libnormaliz.a
-* /usr/lib/wine/x86_64-unix/libnsi.a
-* /usr/lib/wine/x86_64-unix/libntdll.a
-* /usr/lib/wine/x86_64-unix/libntdsapi.a
-* /usr/lib/wine/x86_64-unix/libntoskrnl.a
-* /usr/lib/wine/x86_64-unix/libodbccp32.a
-* /usr/lib/wine/x86_64-unix/libole32.a
-* /usr/lib/wine/x86_64-unix/liboleacc.a
-* /usr/lib/wine/x86_64-unix/liboleaut32.a
-* /usr/lib/wine/x86_64-unix/libolecli32.a
-* /usr/lib/wine/x86_64-unix/liboledlg.a
-* /usr/lib/wine/x86_64-unix/libolepro32.a
-* /usr/lib/wine/x86_64-unix/libolesvr32.a
-* /usr/lib/wine/x86_64-unix/libopengl32.a
-* /usr/lib/wine/x86_64-unix/libpdh.a
-* /usr/lib/wine/x86_64-unix/libpowrprof.a
-* /usr/lib/wine/x86_64-unix/libprntvpt.a
-* /usr/lib/wine/x86_64-unix/libprofapi.a
-* /usr/lib/wine/x86_64-unix/libpropsys.a
-* /usr/lib/wine/x86_64-unix/libpsapi.a
-* /usr/lib/wine/x86_64-unix/libquartz.a
-* /usr/lib/wine/x86_64-unix/libqwave.a
-* /usr/lib/wine/x86_64-unix/librasapi32.a
-* /usr/lib/wine/x86_64-unix/librasdlg.a
-* /usr/lib/wine/x86_64-unix/libresutils.a
-* /usr/lib/wine/x86_64-unix/libriched20.a
-* /usr/lib/wine/x86_64-unix/librometadata.a
-* /usr/lib/wine/x86_64-unix/librpcrt4.a
-* /usr/lib/wine/x86_64-unix/librsaenh.a
-* /usr/lib/wine/x86_64-unix/librtutils.a
-* /usr/lib/wine/x86_64-unix/librtworkq.a
-* /usr/lib/wine/x86_64-unix/libscrrun.a
-* /usr/lib/wine/x86_64-unix/libsechost.a
-* /usr/lib/wine/x86_64-unix/libsecur32.a
-* /usr/lib/wine/x86_64-unix/libsensapi.a
-* /usr/lib/wine/x86_64-unix/libsetupapi.a
-* /usr/lib/wine/x86_64-unix/libsfc.a
-* /usr/lib/wine/x86_64-unix/libsfc_os.a
-* /usr/lib/wine/x86_64-unix/libshcore.a
-* /usr/lib/wine/x86_64-unix/libshdocvw.a
-* /usr/lib/wine/x86_64-unix/libshell32.a
-* /usr/lib/wine/x86_64-unix/libshfolder.a
-* /usr/lib/wine/x86_64-unix/libshlwapi.a
-* /usr/lib/wine/x86_64-unix/libslc.a
-* /usr/lib/wine/x86_64-unix/libsnmpapi.a
-* /usr/lib/wine/x86_64-unix/libspoolss.a
-* /usr/lib/wine/x86_64-unix/libsti.a
-* /usr/lib/wine/x86_64-unix/libstrmbase.a
-* /usr/lib/wine/x86_64-unix/libstrmiids.a
-* /usr/lib/wine/x86_64-unix/libsxs.a
-* /usr/lib/wine/x86_64-unix/libt2embed.a
-* /usr/lib/wine/x86_64-unix/libtapi32.a
-* /usr/lib/wine/x86_64-unix/libucrtbase.a
-* /usr/lib/wine/x86_64-unix/libuiautomationcore.a
-* /usr/lib/wine/x86_64-unix/libunicows.a
-* /usr/lib/wine/x86_64-unix/liburl.a
-* /usr/lib/wine/x86_64-unix/liburlmon.a
-* /usr/lib/wine/x86_64-unix/libusbd.a
-* /usr/lib/wine/x86_64-unix/libuser32.a
-* /usr/lib/wine/x86_64-unix/libuserenv.a
-* /usr/lib/wine/x86_64-unix/libusp10.a
-* /usr/lib/wine/x86_64-unix/libuuid.a
-* /usr/lib/wine/x86_64-unix/libuxtheme.a
-* /usr/lib/wine/x86_64-unix/libvcruntime140.a
-* /usr/lib/wine/x86_64-unix/libvdmdbg.a
-* /usr/lib/wine/x86_64-unix/libversion.a
-* /usr/lib/wine/x86_64-unix/libvulkan-1.a
-* /usr/lib/wine/x86_64-unix/libwbemuuid.a
-* /usr/lib/wine/x86_64-unix/libwebservices.a
-* /usr/lib/wine/x86_64-unix/libwer.a
-* /usr/lib/wine/x86_64-unix/libwevtapi.a
-* /usr/lib/wine/x86_64-unix/libwin32u.a
-* /usr/lib/wine/x86_64-unix/libwindowscodecs.a
-* /usr/lib/wine/x86_64-unix/libwindowscodecsext.a
-* /usr/lib/wine/x86_64-unix/libwinecrt0.a
-* /usr/lib/wine/x86_64-unix/libwined3d.a
-* /usr/lib/wine/x86_64-unix/libwinegstreamer.a
-* /usr/lib/wine/x86_64-unix/libwinevulkan.a
-* /usr/lib/wine/x86_64-unix/libwing32.a
-* /usr/lib/wine/x86_64-unix/libwinhttp.a
-* /usr/lib/wine/x86_64-unix/libwininet.a
-* /usr/lib/wine/x86_64-unix/libwinmm.a
-* /usr/lib/wine/x86_64-unix/libwinnls32.a
-* /usr/lib/wine/x86_64-unix/libwinscard.a
-* /usr/lib/wine/x86_64-unix/libwinspool.a
-* /usr/lib/wine/x86_64-unix/libwintab32.a
-* /usr/lib/wine/x86_64-unix/libwintrust.a
-* /usr/lib/wine/x86_64-unix/libwlanapi.a
-* /usr/lib/wine/x86_64-unix/libwldap32.a
-* /usr/lib/wine/x86_64-unix/libwmcodecdspuuid.a
-* /usr/lib/wine/x86_64-unix/libwmvcore.a
-* /usr/lib/wine/x86_64-unix/libwnaspi32.a
-* /usr/lib/wine/x86_64-unix/libws2_32.a
-* /usr/lib/wine/x86_64-unix/libwsdapi.a
-* /usr/lib/wine/x86_64-unix/libwsnmp32.a
-* /usr/lib/wine/x86_64-unix/libwsock32.a
-* /usr/lib/wine/x86_64-unix/libwtsapi32.a
-* /usr/lib/wine/x86_64-unix/libxaudio2_8.a
-* /usr/lib/wine/x86_64-unix/libxinput.a
-* /usr/lib/wine/x86_64-unix/libxmllite.a
-* /usr/lib/wine/x86_64-unix/loadperf.dll.so
-* /usr/lib/wine/x86_64-unix/localspl.dll.so
-* /usr/lib/wine/x86_64-unix/localspl.so
-* /usr/lib/wine/x86_64-unix/localui.dll.so
-* /usr/lib/wine/x86_64-unix/lodctr.exe.so
-* /usr/lib/wine/x86_64-unix/magnification.dll.so
-* /usr/lib/wine/x86_64-unix/mapi32.dll.so
-* /usr/lib/wine/x86_64-unix/mapistub.dll.so
-* /usr/lib/wine/x86_64-unix/mciavi32.dll.so
-* /usr/lib/wine/x86_64-unix/mcicda.dll.so
-* /usr/lib/wine/x86_64-unix/mciqtz32.dll.so
-* /usr/lib/wine/x86_64-unix/mciseq.dll.so
-* /usr/lib/wine/x86_64-unix/mciwave.dll.so
-* /usr/lib/wine/x86_64-unix/mf.dll.so
-* /usr/lib/wine/x86_64-unix/mf3216.dll.so
-* /usr/lib/wine/x86_64-unix/mfmediaengine.dll.so
-* /usr/lib/wine/x86_64-unix/mfplat.dll.so
-* /usr/lib/wine/x86_64-unix/mfplay.dll.so
-* /usr/lib/wine/x86_64-unix/mfreadwrite.dll.so
-* /usr/lib/wine/x86_64-unix/mfsrcsnk.dll.so
-* /usr/lib/wine/x86_64-unix/mgmtapi.dll.so
-* /usr/lib/wine/x86_64-unix/midimap.dll.so
-* /usr/lib/wine/x86_64-unix/mlang.dll.so
-* /usr/lib/wine/x86_64-unix/mmcndmgr.dll.so
-* /usr/lib/wine/x86_64-unix/mmdevapi.dll.so
-* /usr/lib/wine/x86_64-unix/mofcomp.exe.so
-* /usr/lib/wine/x86_64-unix/mouhid.sys.so
-* /usr/lib/wine/x86_64-unix/mountmgr.so
-* /usr/lib/wine/x86_64-unix/mountmgr.sys.so
-* /usr/lib/wine/x86_64-unix/mp3dmod.dll.so
-* /usr/lib/wine/x86_64-unix/mpr.dll.so
-* /usr/lib/wine/x86_64-unix/mprapi.dll.so
-* /usr/lib/wine/x86_64-unix/msacm32.dll.so
-* /usr/lib/wine/x86_64-unix/msacm32.drv.so
-* /usr/lib/wine/x86_64-unix/msado15.dll.so
-* /usr/lib/wine/x86_64-unix/msadp32.acm.so
-* /usr/lib/wine/x86_64-unix/msasn1.dll.so
-* /usr/lib/wine/x86_64-unix/msauddecmft.dll.so
-* /usr/lib/wine/x86_64-unix/mscat32.dll.so
-* /usr/lib/wine/x86_64-unix/mscms.dll.so
-* /usr/lib/wine/x86_64-unix/mscoree.dll.so
-* /usr/lib/wine/x86_64-unix/mscorwks.dll.so
-* /usr/lib/wine/x86_64-unix/msctf.dll.so
-* /usr/lib/wine/x86_64-unix/msctfmonitor.dll.so
-* /usr/lib/wine/x86_64-unix/msctfp.dll.so
-* /usr/lib/wine/x86_64-unix/msdaps.dll.so
-* /usr/lib/wine/x86_64-unix/msdasql.dll.so
-* /usr/lib/wine/x86_64-unix/msdelta.dll.so
-* /usr/lib/wine/x86_64-unix/msdmo.dll.so
-* /usr/lib/wine/x86_64-unix/msdrm.dll.so
-* /usr/lib/wine/x86_64-unix/msftedit.dll.so
-* /usr/lib/wine/x86_64-unix/msg711.acm.so
-* /usr/lib/wine/x86_64-unix/msgsm32.acm.so
-* /usr/lib/wine/x86_64-unix/mshta.exe.so
-* /usr/lib/wine/x86_64-unix/mshtml.dll.so
-* /usr/lib/wine/x86_64-unix/msi.dll.so
-* /usr/lib/wine/x86_64-unix/msidb.exe.so
-* /usr/lib/wine/x86_64-unix/msident.dll.so
-* /usr/lib/wine/x86_64-unix/msiexec.exe.so
-* /usr/lib/wine/x86_64-unix/msimg32.dll.so
-* /usr/lib/wine/x86_64-unix/msimtf.dll.so
-* /usr/lib/wine/x86_64-unix/msinfo32.exe.so
-* /usr/lib/wine/x86_64-unix/msisip.dll.so
-* /usr/lib/wine/x86_64-unix/msisys.ocx.so
-* /usr/lib/wine/x86_64-unix/msls31.dll.so
-* /usr/lib/wine/x86_64-unix/msmpeg2vdec.dll.so
-* /usr/lib/wine/x86_64-unix/msnet32.dll.so
-* /usr/lib/wine/x86_64-unix/mspatcha.dll.so
-* /usr/lib/wine/x86_64-unix/msports.dll.so
-* /usr/lib/wine/x86_64-unix/msrle32.dll.so
-* /usr/lib/wine/x86_64-unix/msscript.ocx.so
-* /usr/lib/wine/x86_64-unix/mssign32.dll.so
-* /usr/lib/wine/x86_64-unix/mssip32.dll.so
-* /usr/lib/wine/x86_64-unix/mstask.dll.so
-* /usr/lib/wine/x86_64-unix/msttsengine.dll.so
-* /usr/lib/wine/x86_64-unix/msv1_0.dll.so
-* /usr/lib/wine/x86_64-unix/msv1_0.so
-* /usr/lib/wine/x86_64-unix/msvcirt.dll.so
-* /usr/lib/wine/x86_64-unix/msvcm80.dll.so
-* /usr/lib/wine/x86_64-unix/msvcm90.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp100.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp110.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp120.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp120_app.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp140.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp140_1.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp140_2.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp140_atomic_wait.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp140_codecvt_ids.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp60.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp70.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp71.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp80.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp90.dll.so
-* /usr/lib/wine/x86_64-unix/msvcp_win.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr100.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr110.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr120.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr120_app.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr70.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr71.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr80.dll.so
-* /usr/lib/wine/x86_64-unix/msvcr90.dll.so
-* /usr/lib/wine/x86_64-unix/msvcrt.dll.so
-* /usr/lib/wine/x86_64-unix/msvcrt20.dll.so
-* /usr/lib/wine/x86_64-unix/msvcrt40.dll.so
-* /usr/lib/wine/x86_64-unix/msvcrtd.dll.so
-* /usr/lib/wine/x86_64-unix/msvfw32.dll.so
-* /usr/lib/wine/x86_64-unix/msvidc32.dll.so
-* /usr/lib/wine/x86_64-unix/mswsock.dll.so
-* /usr/lib/wine/x86_64-unix/msxml.dll.so
-* /usr/lib/wine/x86_64-unix/msxml2.dll.so
-* /usr/lib/wine/x86_64-unix/msxml3.dll.so
-* /usr/lib/wine/x86_64-unix/msxml4.dll.so
-* /usr/lib/wine/x86_64-unix/msxml6.dll.so
-* /usr/lib/wine/x86_64-unix/mtxdm.dll.so
-* /usr/lib/wine/x86_64-unix/ncrypt.dll.so
-* /usr/lib/wine/x86_64-unix/nddeapi.dll.so
-* /usr/lib/wine/x86_64-unix/ndis.sys.so
-* /usr/lib/wine/x86_64-unix/net.exe.so
-* /usr/lib/wine/x86_64-unix/netapi32.dll.so
-* /usr/lib/wine/x86_64-unix/netapi32.so
-* /usr/lib/wine/x86_64-unix/netcfgx.dll.so
-* /usr/lib/wine/x86_64-unix/netio.sys.so
-* /usr/lib/wine/x86_64-unix/netprofm.dll.so
-* /usr/lib/wine/x86_64-unix/netsh.exe.so
-* /usr/lib/wine/x86_64-unix/netstat.exe.so
-* /usr/lib/wine/x86_64-unix/netutils.dll.so
-* /usr/lib/wine/x86_64-unix/newdev.dll.so
-* /usr/lib/wine/x86_64-unix/ngen.exe.so
-* /usr/lib/wine/x86_64-unix/ninput.dll.so
-* /usr/lib/wine/x86_64-unix/notepad.exe.so
-* /usr/lib/wine/x86_64-unix/npmshtml.dll.so
-* /usr/lib/wine/x86_64-unix/npptools.dll.so
-* /usr/lib/wine/x86_64-unix/nsi.dll.so
-* /usr/lib/wine/x86_64-unix/nsiproxy.so
-* /usr/lib/wine/x86_64-unix/nsiproxy.sys.so
-* /usr/lib/wine/x86_64-unix/ntdll.dll.so
-* /usr/lib/wine/x86_64-unix/ntdll.so
-* /usr/lib/wine/x86_64-unix/ntdsapi.dll.so
-* /usr/lib/wine/x86_64-unix/ntoskrnl.exe.so
-* /usr/lib/wine/x86_64-unix/ntprint.dll.so
-* /usr/lib/wine/x86_64-unix/objsel.dll.so
-* /usr/lib/wine/x86_64-unix/odbcbcp.dll.so
-* /usr/lib/wine/x86_64-unix/odbccp32.dll.so
-* /usr/lib/wine/x86_64-unix/odbccu32.dll.so
-* /usr/lib/wine/x86_64-unix/ole32.dll.so
-* /usr/lib/wine/x86_64-unix/oleacc.dll.so
-* /usr/lib/wine/x86_64-unix/oleaut32.dll.so
-* /usr/lib/wine/x86_64-unix/olecli32.dll.so
-* /usr/lib/wine/x86_64-unix/oledb32.dll.so
-* /usr/lib/wine/x86_64-unix/oledlg.dll.so
-* /usr/lib/wine/x86_64-unix/olepro32.dll.so
-* /usr/lib/wine/x86_64-unix/olesvr32.dll.so
-* /usr/lib/wine/x86_64-unix/olethk32.dll.so
-* /usr/lib/wine/x86_64-unix/oleview.exe.so
-* /usr/lib/wine/x86_64-unix/opcservices.dll.so
-* /usr/lib/wine/x86_64-unix/opencl.dll.so
-* /usr/lib/wine/x86_64-unix/opencl.so
-* /usr/lib/wine/x86_64-unix/opengl32.dll.so
-* /usr/lib/wine/x86_64-unix/opengl32.so
-* /usr/lib/wine/x86_64-unix/packager.dll.so
-* /usr/lib/wine/x86_64-unix/pdh.dll.so
-* /usr/lib/wine/x86_64-unix/photometadatahandler.dll.so
-* /usr/lib/wine/x86_64-unix/pidgen.dll.so
-* /usr/lib/wine/x86_64-unix/ping.exe.so
-* /usr/lib/wine/x86_64-unix/plugplay.exe.so
-* /usr/lib/wine/x86_64-unix/pnputil.exe.so
-* /usr/lib/wine/x86_64-unix/powershell.exe.so
-* /usr/lib/wine/x86_64-unix/powrprof.dll.so
-* /usr/lib/wine/x86_64-unix/presentationfontcache.exe.so
-* /usr/lib/wine/x86_64-unix/printui.dll.so
-* /usr/lib/wine/x86_64-unix/prntvpt.dll.so
-* /usr/lib/wine/x86_64-unix/profapi.dll.so
-* /usr/lib/wine/x86_64-unix/progman.exe.so
-* /usr/lib/wine/x86_64-unix/propsys.dll.so
-* /usr/lib/wine/x86_64-unix/psapi.dll.so
-* /usr/lib/wine/x86_64-unix/pstorec.dll.so
-* /usr/lib/wine/x86_64-unix/pwrshplugin.dll.so
-* /usr/lib/wine/x86_64-unix/qasf.dll.so
-* /usr/lib/wine/x86_64-unix/qcap.dll.so
-* /usr/lib/wine/x86_64-unix/qcap.so
-* /usr/lib/wine/x86_64-unix/qdvd.dll.so
-* /usr/lib/wine/x86_64-unix/qedit.dll.so
-* /usr/lib/wine/x86_64-unix/qmgr.dll.so
-* /usr/lib/wine/x86_64-unix/qmgrprxy.dll.so
-* /usr/lib/wine/x86_64-unix/quartz.dll.so
-* /usr/lib/wine/x86_64-unix/query.dll.so
-* /usr/lib/wine/x86_64-unix/qwave.dll.so
-* /usr/lib/wine/x86_64-unix/rasapi32.dll.so
-* /usr/lib/wine/x86_64-unix/rasdlg.dll.so
-* /usr/lib/wine/x86_64-unix/reg.exe.so
-* /usr/lib/wine/x86_64-unix/regapi.dll.so
-* /usr/lib/wine/x86_64-unix/regasm.exe.so
-* /usr/lib/wine/x86_64-unix/regedit.exe.so
-* /usr/lib/wine/x86_64-unix/regini.exe.so
-* /usr/lib/wine/x86_64-unix/regsvcs.exe.so
-* /usr/lib/wine/x86_64-unix/regsvr32.exe.so
-* /usr/lib/wine/x86_64-unix/resutils.dll.so
-* /usr/lib/wine/x86_64-unix/riched20.dll.so
-* /usr/lib/wine/x86_64-unix/riched32.dll.so
-* /usr/lib/wine/x86_64-unix/robocopy.exe.so
-* /usr/lib/wine/x86_64-unix/rometadata.dll.so
-* /usr/lib/wine/x86_64-unix/rpcrt4.dll.so
-* /usr/lib/wine/x86_64-unix/rpcss.exe.so
-* /usr/lib/wine/x86_64-unix/rsabase.dll.so
-* /usr/lib/wine/x86_64-unix/rsaenh.dll.so
-* /usr/lib/wine/x86_64-unix/rstrtmgr.dll.so
-* /usr/lib/wine/x86_64-unix/rtutils.dll.so
-* /usr/lib/wine/x86_64-unix/rtworkq.dll.so
-* /usr/lib/wine/x86_64-unix/rundll32.exe.so
-* /usr/lib/wine/x86_64-unix/samlib.dll.so
-* /usr/lib/wine/x86_64-unix/sane.ds.so
-* /usr/lib/wine/x86_64-unix/sane.so
-* /usr/lib/wine/x86_64-unix/sapi.dll.so
-* /usr/lib/wine/x86_64-unix/sas.dll.so
-* /usr/lib/wine/x86_64-unix/sc.exe.so
-* /usr/lib/wine/x86_64-unix/scarddlg.dll.so
-* /usr/lib/wine/x86_64-unix/scardsvr.dll.so
-* /usr/lib/wine/x86_64-unix/sccbase.dll.so
-* /usr/lib/wine/x86_64-unix/schannel.dll.so
-* /usr/lib/wine/x86_64-unix/schedsvc.dll.so
-* /usr/lib/wine/x86_64-unix/schtasks.exe.so
-* /usr/lib/wine/x86_64-unix/scrobj.dll.so
-* /usr/lib/wine/x86_64-unix/scrrun.dll.so
-* /usr/lib/wine/x86_64-unix/scsiport.sys.so
-* /usr/lib/wine/x86_64-unix/sdbinst.exe.so
-* /usr/lib/wine/x86_64-unix/secedit.exe.so
-* /usr/lib/wine/x86_64-unix/sechost.dll.so
-* /usr/lib/wine/x86_64-unix/secur32.dll.so
-* /usr/lib/wine/x86_64-unix/secur32.so
-* /usr/lib/wine/x86_64-unix/sensapi.dll.so
-* /usr/lib/wine/x86_64-unix/serialui.dll.so
-* /usr/lib/wine/x86_64-unix/servicemodelreg.exe.so
-* /usr/lib/wine/x86_64-unix/services.exe.so
-* /usr/lib/wine/x86_64-unix/setupapi.dll.so
-* /usr/lib/wine/x86_64-unix/setx.exe.so
-* /usr/lib/wine/x86_64-unix/sfc_os.dll.so
-* /usr/lib/wine/x86_64-unix/shcore.dll.so
-* /usr/lib/wine/x86_64-unix/shdocvw.dll.so
-* /usr/lib/wine/x86_64-unix/shell32.dll.so
-* /usr/lib/wine/x86_64-unix/shfolder.dll.so
-* /usr/lib/wine/x86_64-unix/shlwapi.dll.so
-* /usr/lib/wine/x86_64-unix/shutdown.exe.so
-* /usr/lib/wine/x86_64-unix/slbcsp.dll.so
-* /usr/lib/wine/x86_64-unix/slc.dll.so
-* /usr/lib/wine/x86_64-unix/snmpapi.dll.so
-* /usr/lib/wine/x86_64-unix/softpub.dll.so
-* /usr/lib/wine/x86_64-unix/spoolss.dll.so
-* /usr/lib/wine/x86_64-unix/spoolsv.exe.so
-* /usr/lib/wine/x86_64-unix/sppc.dll.so
-* /usr/lib/wine/x86_64-unix/srclient.dll.so
-* /usr/lib/wine/x86_64-unix/srvcli.dll.so
-* /usr/lib/wine/x86_64-unix/srvsvc.dll.so
-* /usr/lib/wine/x86_64-unix/sspicli.dll.so
-* /usr/lib/wine/x86_64-unix/start.exe.so
-* /usr/lib/wine/x86_64-unix/sti.dll.so
-* /usr/lib/wine/x86_64-unix/strmdll.dll.so
-* /usr/lib/wine/x86_64-unix/subst.exe.so
-* /usr/lib/wine/x86_64-unix/svchost.exe.so
-* /usr/lib/wine/x86_64-unix/svrapi.dll.so
-* /usr/lib/wine/x86_64-unix/sxs.dll.so
-* /usr/lib/wine/x86_64-unix/systeminfo.exe.so
-* /usr/lib/wine/x86_64-unix/t2embed.dll.so
-* /usr/lib/wine/x86_64-unix/tapi32.dll.so
-* /usr/lib/wine/x86_64-unix/taskkill.exe.so
-* /usr/lib/wine/x86_64-unix/tasklist.exe.so
-* /usr/lib/wine/x86_64-unix/taskmgr.exe.so
-* /usr/lib/wine/x86_64-unix/taskschd.dll.so
-* /usr/lib/wine/x86_64-unix/tbs.dll.so
-* /usr/lib/wine/x86_64-unix/tdh.dll.so
-* /usr/lib/wine/x86_64-unix/tdi.sys.so
-* /usr/lib/wine/x86_64-unix/termsv.exe.so
-* /usr/lib/wine/x86_64-unix/threadpoolwinrt.dll.so
-* /usr/lib/wine/x86_64-unix/traffic.dll.so
-* /usr/lib/wine/x86_64-unix/twain_32.dll.so
-* /usr/lib/wine/x86_64-unix/twinapi.appcore.dll.so
-* /usr/lib/wine/x86_64-unix/ucrtbase.dll.so
-* /usr/lib/wine/x86_64-unix/uianimation.dll.so
-* /usr/lib/wine/x86_64-unix/uiautomationcore.dll.so
-* /usr/lib/wine/x86_64-unix/uiribbon.dll.so
-* /usr/lib/wine/x86_64-unix/unicows.dll.so
-* /usr/lib/wine/x86_64-unix/uninstaller.exe.so
-* /usr/lib/wine/x86_64-unix/unlodctr.exe.so
-* /usr/lib/wine/x86_64-unix/updspapi.dll.so
-* /usr/lib/wine/x86_64-unix/url.dll.so
-* /usr/lib/wine/x86_64-unix/urlmon.dll.so
-* /usr/lib/wine/x86_64-unix/usbd.sys.so
-* /usr/lib/wine/x86_64-unix/user32.dll.so
-* /usr/lib/wine/x86_64-unix/userenv.dll.so
-* /usr/lib/wine/x86_64-unix/utildll.dll.so
-* /usr/lib/wine/x86_64-unix/uxtheme.dll.so
-* /usr/lib/wine/x86_64-unix/vbscript.dll.so
-* /usr/lib/wine/x86_64-unix/vcomp.dll.so
-* /usr/lib/wine/x86_64-unix/vcomp100.dll.so
-* /usr/lib/wine/x86_64-unix/vcomp110.dll.so
-* /usr/lib/wine/x86_64-unix/vcomp120.dll.so
-* /usr/lib/wine/x86_64-unix/vcomp140.dll.so
-* /usr/lib/wine/x86_64-unix/vcomp90.dll.so
-* /usr/lib/wine/x86_64-unix/vcruntime140.dll.so
-* /usr/lib/wine/x86_64-unix/vcruntime140_1.dll.so
-* /usr/lib/wine/x86_64-unix/vdmdbg.dll.so
-* /usr/lib/wine/x86_64-unix/version.dll.so
-* /usr/lib/wine/x86_64-unix/vga.dll.so
-* /usr/lib/wine/x86_64-unix/view.exe.so
-* /usr/lib/wine/x86_64-unix/virtdisk.dll.so
-* /usr/lib/wine/x86_64-unix/vssapi.dll.so
-* /usr/lib/wine/x86_64-unix/vulkan-1.dll.so
-* /usr/lib/wine/x86_64-unix/wbemdisp.dll.so
-* /usr/lib/wine/x86_64-unix/wbemprox.dll.so
-* /usr/lib/wine/x86_64-unix/wdscore.dll.so
-* /usr/lib/wine/x86_64-unix/webservices.dll.so
-* /usr/lib/wine/x86_64-unix/websocket.dll.so
-* /usr/lib/wine/x86_64-unix/wer.dll.so
-* /usr/lib/wine/x86_64-unix/wevtapi.dll.so
-* /usr/lib/wine/x86_64-unix/wevtsvc.dll.so
-* /usr/lib/wine/x86_64-unix/wevtutil.exe.so
-* /usr/lib/wine/x86_64-unix/where.exe.so
-* /usr/lib/wine/x86_64-unix/whoami.exe.so
-* /usr/lib/wine/x86_64-unix/wiaservc.dll.so
-* /usr/lib/wine/x86_64-unix/wimgapi.dll.so
-* /usr/lib/wine/x86_64-unix/win32u.dll.so
-* /usr/lib/wine/x86_64-unix/win32u.so
-* /usr/lib/wine/x86_64-unix/windows.applicationmodel.dll.so
-* /usr/lib/wine/x86_64-unix/windows.devices.bluetooth.dll.so
-* /usr/lib/wine/x86_64-unix/windows.devices.enumeration.dll.so
-* /usr/lib/wine/x86_64-unix/windows.devices.usb.dll.so
-* /usr/lib/wine/x86_64-unix/windows.gaming.input.dll.so
-* /usr/lib/wine/x86_64-unix/windows.gaming.ui.gamebar.dll.so
-* /usr/lib/wine/x86_64-unix/windows.globalization.dll.so
-* /usr/lib/wine/x86_64-unix/windows.media.devices.dll.so
-* /usr/lib/wine/x86_64-unix/windows.media.dll.so
-* /usr/lib/wine/x86_64-unix/windows.media.mediacontrol.dll.so
-* /usr/lib/wine/x86_64-unix/windows.media.speech.dll.so
-* /usr/lib/wine/x86_64-unix/windows.networking.dll.so
-* /usr/lib/wine/x86_64-unix/windows.networking.hostname.dll.so
-* /usr/lib/wine/x86_64-unix/windows.perception.stub.dll.so
-* /usr/lib/wine/x86_64-unix/windows.security.authentication.onlineid.dll.so
-* /usr/lib/wine/x86_64-unix/windows.security.credentials.ui.userconsentverifier.dll.so
-* /usr/lib/wine/x86_64-unix/windows.storage.applicationdata.dll.so
-* /usr/lib/wine/x86_64-unix/windows.system.profile.systemmanufacturers.dll.so
-* /usr/lib/wine/x86_64-unix/windows.ui.dll.so
-* /usr/lib/wine/x86_64-unix/windows.web.dll.so
-* /usr/lib/wine/x86_64-unix/windowscodecs.dll.so
-* /usr/lib/wine/x86_64-unix/windowscodecsext.dll.so
-* /usr/lib/wine/x86_64-unix/winealsa.drv.so
-* /usr/lib/wine/x86_64-unix/winealsa.so
-* /usr/lib/wine/x86_64-unix/wineboot.exe.so
-* /usr/lib/wine/x86_64-unix/winebrowser.exe.so
-* /usr/lib/wine/x86_64-unix/winebus.so
-* /usr/lib/wine/x86_64-unix/winebus.sys.so
-* /usr/lib/wine/x86_64-unix/winecfg.exe.so
-* /usr/lib/wine/x86_64-unix/wineconsole.exe.so
-* /usr/lib/wine/x86_64-unix/wined3d.dll.so
-* /usr/lib/wine/x86_64-unix/winedbg.exe.so
-* /usr/lib/wine/x86_64-unix/winedevice.exe.so
-* /usr/lib/wine/x86_64-unix/winefile.exe.so
-* /usr/lib/wine/x86_64-unix/winegstreamer.dll.so
-* /usr/lib/wine/x86_64-unix/winegstreamer.so
-* /usr/lib/wine/x86_64-unix/winehid.sys.so
-* /usr/lib/wine/x86_64-unix/winemapi.dll.so
-* /usr/lib/wine/x86_64-unix/winemenubuilder.exe.so
-* /usr/lib/wine/x86_64-unix/winemine.exe.so
-* /usr/lib/wine/x86_64-unix/winemsibuilder.exe.so
-* /usr/lib/wine/x86_64-unix/winepath.exe.so
-* /usr/lib/wine/x86_64-unix/wineps.drv.so
-* /usr/lib/wine/x86_64-unix/wineps.so
-* /usr/lib/wine/x86_64-unix/winepulse.drv.so
-* /usr/lib/wine/x86_64-unix/winepulse.so
-* /usr/lib/wine/x86_64-unix/wineusb.so
-* /usr/lib/wine/x86_64-unix/wineusb.sys.so
-* /usr/lib/wine/x86_64-unix/winevulkan.dll.so
-* /usr/lib/wine/x86_64-unix/winevulkan.so
-* /usr/lib/wine/x86_64-unix/winewayland.drv.so
-* /usr/lib/wine/x86_64-unix/winewayland.so
-* /usr/lib/wine/x86_64-unix/winex11.drv.so
-* /usr/lib/wine/x86_64-unix/winex11.so
-* /usr/lib/wine/x86_64-unix/winexinput.sys.so
-* /usr/lib/wine/x86_64-unix/wing32.dll.so
-* /usr/lib/wine/x86_64-unix/winhlp32.exe.so
-* /usr/lib/wine/x86_64-unix/winhttp.dll.so
-* /usr/lib/wine/x86_64-unix/wininet.dll.so
-* /usr/lib/wine/x86_64-unix/winmgmt.exe.so
-* /usr/lib/wine/x86_64-unix/winmm.dll.so
-* /usr/lib/wine/x86_64-unix/winnls32.dll.so
-* /usr/lib/wine/x86_64-unix/winprint.dll.so
-* /usr/lib/wine/x86_64-unix/winscard.dll.so
-* /usr/lib/wine/x86_64-unix/winscard.so
-* /usr/lib/wine/x86_64-unix/winspool.drv.so
-* /usr/lib/wine/x86_64-unix/winspool.so
-* /usr/lib/wine/x86_64-unix/winsta.dll.so
-* /usr/lib/wine/x86_64-unix/wintab32.dll.so
-* /usr/lib/wine/x86_64-unix/wintrust.dll.so
-* /usr/lib/wine/x86_64-unix/wintypes.dll.so
-* /usr/lib/wine/x86_64-unix/winusb.dll.so
-* /usr/lib/wine/x86_64-unix/winver.exe.so
-* /usr/lib/wine/x86_64-unix/wlanapi.dll.so
-* /usr/lib/wine/x86_64-unix/wlanui.dll.so
-* /usr/lib/wine/x86_64-unix/wldap32.dll.so
-* /usr/lib/wine/x86_64-unix/wldp.dll.so
-* /usr/lib/wine/x86_64-unix/wmasf.dll.so
-* /usr/lib/wine/x86_64-unix/wmic.exe.so
-* /usr/lib/wine/x86_64-unix/wmiutils.dll.so
-* /usr/lib/wine/x86_64-unix/wmp.dll.so
-* /usr/lib/wine/x86_64-unix/wmphoto.dll.so
-* /usr/lib/wine/x86_64-unix/wmplayer.exe.so
-* /usr/lib/wine/x86_64-unix/wmvcore.dll.so
-* /usr/lib/wine/x86_64-unix/wnaspi32.dll.so
-* /usr/lib/wine/x86_64-unix/wofutil.dll.so
-* /usr/lib/wine/x86_64-unix/wordpad.exe.so
-* /usr/lib/wine/x86_64-unix/wpc.dll.so
-* /usr/lib/wine/x86_64-unix/wpcap.dll.so
-* /usr/lib/wine/x86_64-unix/wpcap.so
-* /usr/lib/wine/x86_64-unix/write.exe.so
-* /usr/lib/wine/x86_64-unix/ws2_32.dll.so
-* /usr/lib/wine/x86_64-unix/ws2_32.so
-* /usr/lib/wine/x86_64-unix/wscript.exe.so
-* /usr/lib/wine/x86_64-unix/wsdapi.dll.so
-* /usr/lib/wine/x86_64-unix/wshom.ocx.so
-* /usr/lib/wine/x86_64-unix/wsnmp32.dll.so
-* /usr/lib/wine/x86_64-unix/wsock32.dll.so
-* /usr/lib/wine/x86_64-unix/wtsapi32.dll.so
-* /usr/lib/wine/x86_64-unix/wuapi.dll.so
-* /usr/lib/wine/x86_64-unix/wuaueng.dll.so
-* /usr/lib/wine/x86_64-unix/wuauserv.exe.so
-* /usr/lib/wine/x86_64-unix/wusa.exe.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_0.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_1.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_2.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_3.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_4.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_5.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_6.dll.so
-* /usr/lib/wine/x86_64-unix/x3daudio1_7.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine2_0.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine2_4.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine2_7.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine2_9.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_0.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_1.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_2.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_3.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_4.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_5.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_6.dll.so
-* /usr/lib/wine/x86_64-unix/xactengine3_7.dll.so
-* /usr/lib/wine/x86_64-unix/xapofx1_1.dll.so
-* /usr/lib/wine/x86_64-unix/xapofx1_2.dll.so
-* /usr/lib/wine/x86_64-unix/xapofx1_3.dll.so
-* /usr/lib/wine/x86_64-unix/xapofx1_4.dll.so
-* /usr/lib/wine/x86_64-unix/xapofx1_5.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_0.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_1.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_2.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_3.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_4.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_5.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_6.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_7.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_8.dll.so
-* /usr/lib/wine/x86_64-unix/xaudio2_9.dll.so
-* /usr/lib/wine/x86_64-unix/xcopy.exe.so
-* /usr/lib/wine/x86_64-unix/xinput1_1.dll.so
-* /usr/lib/wine/x86_64-unix/xinput1_2.dll.so
-* /usr/lib/wine/x86_64-unix/xinput1_3.dll.so
-* /usr/lib/wine/x86_64-unix/xinput1_4.dll.so
-* /usr/lib/wine/x86_64-unix/xinput9_1_0.dll.so
-* /usr/lib/wine/x86_64-unix/xinputuap.dll.so
-* /usr/lib/wine/x86_64-unix/xmllite.dll.so
-* /usr/lib/wine/x86_64-unix/xolehlp.dll.so
-* /usr/lib/wine/x86_64-unix/xpsprint.dll.so
-* /usr/lib/wine/x86_64-unix/xpssvcs.dll.so
-* /usr/lib/wine/x86_64-windows/acledit.dll
-* /usr/lib/wine/x86_64-windows/aclui.dll
-* /usr/lib/wine/x86_64-windows/activeds.dll
-* /usr/lib/wine/x86_64-windows/activeds.tlb
-* /usr/lib/wine/x86_64-windows/actxprxy.dll
-* /usr/lib/wine/x86_64-windows/adsldp.dll
-* /usr/lib/wine/x86_64-windows/adsldpc.dll
-* /usr/lib/wine/x86_64-windows/advapi32.dll
-* /usr/lib/wine/x86_64-windows/advpack.dll
-* /usr/lib/wine/x86_64-windows/amsi.dll
-* /usr/lib/wine/x86_64-windows/amstream.dll
-* /usr/lib/wine/x86_64-windows/apisetschema.dll
-* /usr/lib/wine/x86_64-windows/apphelp.dll
-* /usr/lib/wine/x86_64-windows/appwiz.cpl
-* /usr/lib/wine/x86_64-windows/appxdeploymentclient.dll
-* /usr/lib/wine/x86_64-windows/arp.exe
-* /usr/lib/wine/x86_64-windows/aspnet_regiis.exe
-* /usr/lib/wine/x86_64-windows/atl.dll
-* /usr/lib/wine/x86_64-windows/atl100.dll
-* /usr/lib/wine/x86_64-windows/atl110.dll
-* /usr/lib/wine/x86_64-windows/atl80.dll
-* /usr/lib/wine/x86_64-windows/atl90.dll
-* /usr/lib/wine/x86_64-windows/atlthunk.dll
-* /usr/lib/wine/x86_64-windows/atmlib.dll
-* /usr/lib/wine/x86_64-windows/attrib.exe
-* /usr/lib/wine/x86_64-windows/authz.dll
-* /usr/lib/wine/x86_64-windows/avicap32.dll
-* /usr/lib/wine/x86_64-windows/avifil32.dll
-* /usr/lib/wine/x86_64-windows/avrt.dll
-* /usr/lib/wine/x86_64-windows/bcp47langs.dll
-* /usr/lib/wine/x86_64-windows/bcrypt.dll
-* /usr/lib/wine/x86_64-windows/bcryptprimitives.dll
-* /usr/lib/wine/x86_64-windows/bluetoothapis.dll
-* /usr/lib/wine/x86_64-windows/browseui.dll
-* /usr/lib/wine/x86_64-windows/bthprops.cpl
-* /usr/lib/wine/x86_64-windows/cabarc.exe
-* /usr/lib/wine/x86_64-windows/cabinet.dll
-* /usr/lib/wine/x86_64-windows/cacls.exe
-* /usr/lib/wine/x86_64-windows/cards.dll
-* /usr/lib/wine/x86_64-windows/cdosys.dll
-* /usr/lib/wine/x86_64-windows/certutil.exe
-* /usr/lib/wine/x86_64-windows/cfgmgr32.dll
-* /usr/lib/wine/x86_64-windows/chcp.com
-* /usr/lib/wine/x86_64-windows/clock.exe
-* /usr/lib/wine/x86_64-windows/clusapi.dll
-* /usr/lib/wine/x86_64-windows/cmd.exe
-* /usr/lib/wine/x86_64-windows/cng.sys
-* /usr/lib/wine/x86_64-windows/combase.dll
-* /usr/lib/wine/x86_64-windows/comcat.dll
-* /usr/lib/wine/x86_64-windows/comctl32.dll
-* /usr/lib/wine/x86_64-windows/comdlg32.dll
-* /usr/lib/wine/x86_64-windows/coml2.dll
-* /usr/lib/wine/x86_64-windows/compstui.dll
-* /usr/lib/wine/x86_64-windows/comsvcs.dll
-* /usr/lib/wine/x86_64-windows/concrt140.dll
-* /usr/lib/wine/x86_64-windows/conhost.exe
-* /usr/lib/wine/x86_64-windows/connect.dll
-* /usr/lib/wine/x86_64-windows/control.exe
-* /usr/lib/wine/x86_64-windows/coremessaging.dll
-* /usr/lib/wine/x86_64-windows/credui.dll
-* /usr/lib/wine/x86_64-windows/crtdll.dll
-* /usr/lib/wine/x86_64-windows/crypt32.dll
-* /usr/lib/wine/x86_64-windows/cryptdlg.dll
-* /usr/lib/wine/x86_64-windows/cryptdll.dll
-* /usr/lib/wine/x86_64-windows/cryptext.dll
-* /usr/lib/wine/x86_64-windows/cryptnet.dll
-* /usr/lib/wine/x86_64-windows/cryptowinrt.dll
-* /usr/lib/wine/x86_64-windows/cryptsp.dll
-* /usr/lib/wine/x86_64-windows/cryptui.dll
-* /usr/lib/wine/x86_64-windows/cscript.exe
-* /usr/lib/wine/x86_64-windows/ctapi32.dll
-* /usr/lib/wine/x86_64-windows/ctl3d32.dll
-* /usr/lib/wine/x86_64-windows/d2d1.dll
-* /usr/lib/wine/x86_64-windows/d3d10.dll
-* /usr/lib/wine/x86_64-windows/d3d10core.dll
-* /usr/lib/wine/x86_64-windows/d3d10_1.dll
-* /usr/lib/wine/x86_64-windows/d3d11.dll
-* /usr/lib/wine/x86_64-windows/d3d12.dll
-* /usr/lib/wine/x86_64-windows/d3d12core.dll
-* /usr/lib/wine/x86_64-windows/d3d8.dll
-* /usr/lib/wine/x86_64-windows/d3d8thk.dll
-* /usr/lib/wine/x86_64-windows/d3d9.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_33.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_34.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_35.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_36.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_37.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_38.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_39.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_40.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_41.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_42.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_43.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_46.dll
-* /usr/lib/wine/x86_64-windows/d3dcompiler_47.dll
-* /usr/lib/wine/x86_64-windows/d3dim.dll
-* /usr/lib/wine/x86_64-windows/d3dim700.dll
-* /usr/lib/wine/x86_64-windows/d3drm.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_33.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_34.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_35.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_36.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_37.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_38.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_39.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_40.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_41.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_42.dll
-* /usr/lib/wine/x86_64-windows/d3dx10_43.dll
-* /usr/lib/wine/x86_64-windows/d3dx11_42.dll
-* /usr/lib/wine/x86_64-windows/d3dx11_43.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_24.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_25.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_26.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_27.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_28.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_29.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_30.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_31.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_32.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_33.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_34.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_35.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_36.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_37.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_38.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_39.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_40.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_41.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_42.dll
-* /usr/lib/wine/x86_64-windows/d3dx9_43.dll
-* /usr/lib/wine/x86_64-windows/d3dxof.dll
-* /usr/lib/wine/x86_64-windows/davclnt.dll
-* /usr/lib/wine/x86_64-windows/dbgeng.dll
-* /usr/lib/wine/x86_64-windows/dbghelp.dll
-* /usr/lib/wine/x86_64-windows/dciman32.dll
-* /usr/lib/wine/x86_64-windows/dcomp.dll
-* /usr/lib/wine/x86_64-windows/ddraw.dll
-* /usr/lib/wine/x86_64-windows/ddrawex.dll
-* /usr/lib/wine/x86_64-windows/devenum.dll
-* /usr/lib/wine/x86_64-windows/dhcpcsvc.dll
-* /usr/lib/wine/x86_64-windows/dhcpcsvc6.dll
-* /usr/lib/wine/x86_64-windows/dhtmled.ocx
-* /usr/lib/wine/x86_64-windows/diasymreader.dll
-* /usr/lib/wine/x86_64-windows/difxapi.dll
-* /usr/lib/wine/x86_64-windows/dinput.dll
-* /usr/lib/wine/x86_64-windows/dinput8.dll
-* /usr/lib/wine/x86_64-windows/directmanipulation.dll
-* /usr/lib/wine/x86_64-windows/dism.exe
-* /usr/lib/wine/x86_64-windows/dispex.dll
-* /usr/lib/wine/x86_64-windows/dllhost.exe
-* /usr/lib/wine/x86_64-windows/dmband.dll
-* /usr/lib/wine/x86_64-windows/dmcompos.dll
-* /usr/lib/wine/x86_64-windows/dmime.dll
-* /usr/lib/wine/x86_64-windows/dmloader.dll
-* /usr/lib/wine/x86_64-windows/dmscript.dll
-* /usr/lib/wine/x86_64-windows/dmstyle.dll
-* /usr/lib/wine/x86_64-windows/dmsynth.dll
-* /usr/lib/wine/x86_64-windows/dmusic.dll
-* /usr/lib/wine/x86_64-windows/dmusic32.dll
-* /usr/lib/wine/x86_64-windows/dnsapi.dll
-* /usr/lib/wine/x86_64-windows/dplay.dll
-* /usr/lib/wine/x86_64-windows/dplaysvr.exe
-* /usr/lib/wine/x86_64-windows/dplayx.dll
-* /usr/lib/wine/x86_64-windows/dpnaddr.dll
-* /usr/lib/wine/x86_64-windows/dpnet.dll
-* /usr/lib/wine/x86_64-windows/dpnhpast.dll
-* /usr/lib/wine/x86_64-windows/dpnhupnp.dll
-* /usr/lib/wine/x86_64-windows/dpnlobby.dll
-* /usr/lib/wine/x86_64-windows/dpnsvr.exe
-* /usr/lib/wine/x86_64-windows/dpvoice.dll
-* /usr/lib/wine/x86_64-windows/dpvsetup.exe
-* /usr/lib/wine/x86_64-windows/dpwsockx.dll
-* /usr/lib/wine/x86_64-windows/drmclien.dll
-* /usr/lib/wine/x86_64-windows/dsdmo.dll
-* /usr/lib/wine/x86_64-windows/dsound.dll
-* /usr/lib/wine/x86_64-windows/dsquery.dll
-* /usr/lib/wine/x86_64-windows/dssenh.dll
-* /usr/lib/wine/x86_64-windows/dsuiext.dll
-* /usr/lib/wine/x86_64-windows/dswave.dll
-* /usr/lib/wine/x86_64-windows/dwmapi.dll
-* /usr/lib/wine/x86_64-windows/dwrite.dll
-* /usr/lib/wine/x86_64-windows/dx8vb.dll
-* /usr/lib/wine/x86_64-windows/dxcore.dll
-* /usr/lib/wine/x86_64-windows/dxdiag.exe
-* /usr/lib/wine/x86_64-windows/dxdiagn.dll
-* /usr/lib/wine/x86_64-windows/dxgi.dll
-* /usr/lib/wine/x86_64-windows/dxtrans.dll
-* /usr/lib/wine/x86_64-windows/dxva2.dll
-* /usr/lib/wine/x86_64-windows/eject.exe
-* /usr/lib/wine/x86_64-windows/esent.dll
-* /usr/lib/wine/x86_64-windows/evr.dll
-* /usr/lib/wine/x86_64-windows/expand.exe
-* /usr/lib/wine/x86_64-windows/explorer.exe
-* /usr/lib/wine/x86_64-windows/explorerframe.dll
-* /usr/lib/wine/x86_64-windows/extrac32.exe
-* /usr/lib/wine/x86_64-windows/faultrep.dll
-* /usr/lib/wine/x86_64-windows/fc.exe
-* /usr/lib/wine/x86_64-windows/feclient.dll
-* /usr/lib/wine/x86_64-windows/find.exe
-* /usr/lib/wine/x86_64-windows/findstr.exe
-* /usr/lib/wine/x86_64-windows/fltlib.dll
-* /usr/lib/wine/x86_64-windows/fltmgr.sys
-* /usr/lib/wine/x86_64-windows/fntcache.dll
-* /usr/lib/wine/x86_64-windows/fontsub.dll
-* /usr/lib/wine/x86_64-windows/fsutil.exe
-* /usr/lib/wine/x86_64-windows/fusion.dll
-* /usr/lib/wine/x86_64-windows/fwpuclnt.dll
-* /usr/lib/wine/x86_64-windows/gameux.dll
-* /usr/lib/wine/x86_64-windows/gamingtcui.dll
-* /usr/lib/wine/x86_64-windows/gdi32.dll
-* /usr/lib/wine/x86_64-windows/gdiplus.dll
-* /usr/lib/wine/x86_64-windows/geolocation.dll
-* /usr/lib/wine/x86_64-windows/glu32.dll
-* /usr/lib/wine/x86_64-windows/gphoto2.ds
-* /usr/lib/wine/x86_64-windows/gpkcsp.dll
-* /usr/lib/wine/x86_64-windows/graphicscapture.dll
-* /usr/lib/wine/x86_64-windows/hal.dll
-* /usr/lib/wine/x86_64-windows/hh.exe
-* /usr/lib/wine/x86_64-windows/hhctrl.ocx
-* /usr/lib/wine/x86_64-windows/hid.dll
-* /usr/lib/wine/x86_64-windows/hidclass.sys
-* /usr/lib/wine/x86_64-windows/hidparse.sys
-* /usr/lib/wine/x86_64-windows/hlink.dll
-* /usr/lib/wine/x86_64-windows/hnetcfg.dll
-* /usr/lib/wine/x86_64-windows/hostname.exe
-* /usr/lib/wine/x86_64-windows/hrtfapo.dll
-* /usr/lib/wine/x86_64-windows/http.sys
-* /usr/lib/wine/x86_64-windows/httpapi.dll
-* /usr/lib/wine/x86_64-windows/hvsimanagementapi.dll
-* /usr/lib/wine/x86_64-windows/ia2comproxy.dll
-* /usr/lib/wine/x86_64-windows/icacls.exe
-* /usr/lib/wine/x86_64-windows/iccvid.dll
-* /usr/lib/wine/x86_64-windows/icinfo.exe
-* /usr/lib/wine/x86_64-windows/icmp.dll
-* /usr/lib/wine/x86_64-windows/ieframe.dll
-* /usr/lib/wine/x86_64-windows/ieproxy.dll
-* /usr/lib/wine/x86_64-windows/iexplore.exe
-* /usr/lib/wine/x86_64-windows/imaadp32.acm
-* /usr/lib/wine/x86_64-windows/imagehlp.dll
-* /usr/lib/wine/x86_64-windows/imm32.dll
-* /usr/lib/wine/x86_64-windows/inetcomm.dll
-* /usr/lib/wine/x86_64-windows/inetcpl.cpl
-* /usr/lib/wine/x86_64-windows/inetmib1.dll
-* /usr/lib/wine/x86_64-windows/infosoft.dll
-* /usr/lib/wine/x86_64-windows/initpki.dll
-* /usr/lib/wine/x86_64-windows/inkobj.dll
-* /usr/lib/wine/x86_64-windows/inseng.dll
-* /usr/lib/wine/x86_64-windows/ipconfig.exe
-* /usr/lib/wine/x86_64-windows/iphlpapi.dll
-* /usr/lib/wine/x86_64-windows/iprop.dll
-* /usr/lib/wine/x86_64-windows/ir50_32.dll
-* /usr/lib/wine/x86_64-windows/irprops.cpl
-* /usr/lib/wine/x86_64-windows/itircl.dll
-* /usr/lib/wine/x86_64-windows/itss.dll
-* /usr/lib/wine/x86_64-windows/joy.cpl
-* /usr/lib/wine/x86_64-windows/jscript.dll
-* /usr/lib/wine/x86_64-windows/jsproxy.dll
-* /usr/lib/wine/x86_64-windows/kerberos.dll
-* /usr/lib/wine/x86_64-windows/kernel32.dll
-* /usr/lib/wine/x86_64-windows/kernelbase.dll
-* /usr/lib/wine/x86_64-windows/klist.exe
-* /usr/lib/wine/x86_64-windows/ksecdd.sys
-* /usr/lib/wine/x86_64-windows/ksproxy.ax
-* /usr/lib/wine/x86_64-windows/ksuser.dll
-* /usr/lib/wine/x86_64-windows/ktmw32.dll
-* /usr/lib/wine/x86_64-windows/l3codeca.acm
-* /usr/lib/wine/x86_64-windows/light.msstyles
-* /usr/lib/wine/x86_64-windows/loadperf.dll
-* /usr/lib/wine/x86_64-windows/localspl.dll
-* /usr/lib/wine/x86_64-windows/localui.dll
-* /usr/lib/wine/x86_64-windows/lodctr.exe
-* /usr/lib/wine/x86_64-windows/lz32.dll
-* /usr/lib/wine/x86_64-windows/magnification.dll
-* /usr/lib/wine/x86_64-windows/mapi32.dll
-* /usr/lib/wine/x86_64-windows/mapistub.dll
-* /usr/lib/wine/x86_64-windows/mciavi32.dll
-* /usr/lib/wine/x86_64-windows/mcicda.dll
-* /usr/lib/wine/x86_64-windows/mciqtz32.dll
-* /usr/lib/wine/x86_64-windows/mciseq.dll
-* /usr/lib/wine/x86_64-windows/mciwave.dll
-* /usr/lib/wine/x86_64-windows/mf.dll
-* /usr/lib/wine/x86_64-windows/mf3216.dll
-* /usr/lib/wine/x86_64-windows/mferror.dll
-* /usr/lib/wine/x86_64-windows/mfmediaengine.dll
-* /usr/lib/wine/x86_64-windows/mfplat.dll
-* /usr/lib/wine/x86_64-windows/mfplay.dll
-* /usr/lib/wine/x86_64-windows/mfreadwrite.dll
-* /usr/lib/wine/x86_64-windows/mfsrcsnk.dll
-* /usr/lib/wine/x86_64-windows/mgmtapi.dll
-* /usr/lib/wine/x86_64-windows/midimap.dll
-* /usr/lib/wine/x86_64-windows/mlang.dll
-* /usr/lib/wine/x86_64-windows/mmcndmgr.dll
-* /usr/lib/wine/x86_64-windows/mmdevapi.dll
-* /usr/lib/wine/x86_64-windows/mofcomp.exe
-* /usr/lib/wine/x86_64-windows/mouhid.sys
-* /usr/lib/wine/x86_64-windows/mountmgr.sys
-* /usr/lib/wine/x86_64-windows/mp3dmod.dll
-* /usr/lib/wine/x86_64-windows/mpr.dll
-* /usr/lib/wine/x86_64-windows/mprapi.dll
-* /usr/lib/wine/x86_64-windows/msacm32.dll
-* /usr/lib/wine/x86_64-windows/msacm32.drv
-* /usr/lib/wine/x86_64-windows/msado15.dll
-* /usr/lib/wine/x86_64-windows/msadp32.acm
-* /usr/lib/wine/x86_64-windows/msasn1.dll
-* /usr/lib/wine/x86_64-windows/msauddecmft.dll
-* /usr/lib/wine/x86_64-windows/mscat32.dll
-* /usr/lib/wine/x86_64-windows/mscms.dll
-* /usr/lib/wine/x86_64-windows/mscoree.dll
-* /usr/lib/wine/x86_64-windows/mscorwks.dll
-* /usr/lib/wine/x86_64-windows/msctf.dll
-* /usr/lib/wine/x86_64-windows/msctfmonitor.dll
-* /usr/lib/wine/x86_64-windows/msctfp.dll
-* /usr/lib/wine/x86_64-windows/msdaps.dll
-* /usr/lib/wine/x86_64-windows/msdasql.dll
-* /usr/lib/wine/x86_64-windows/msdelta.dll
-* /usr/lib/wine/x86_64-windows/msdmo.dll
-* /usr/lib/wine/x86_64-windows/msdrm.dll
-* /usr/lib/wine/x86_64-windows/msftedit.dll
-* /usr/lib/wine/x86_64-windows/msg711.acm
-* /usr/lib/wine/x86_64-windows/msgsm32.acm
-* /usr/lib/wine/x86_64-windows/mshta.exe
-* /usr/lib/wine/x86_64-windows/mshtml.dll
-* /usr/lib/wine/x86_64-windows/mshtml.tlb
-* /usr/lib/wine/x86_64-windows/msi.dll
-* /usr/lib/wine/x86_64-windows/msidb.exe
-* /usr/lib/wine/x86_64-windows/msident.dll
-* /usr/lib/wine/x86_64-windows/msiexec.exe
-* /usr/lib/wine/x86_64-windows/msimg32.dll
-* /usr/lib/wine/x86_64-windows/msimsg.dll
-* /usr/lib/wine/x86_64-windows/msimtf.dll
-* /usr/lib/wine/x86_64-windows/msinfo32.exe
-* /usr/lib/wine/x86_64-windows/msisip.dll
-* /usr/lib/wine/x86_64-windows/msisys.ocx
-* /usr/lib/wine/x86_64-windows/msls31.dll
-* /usr/lib/wine/x86_64-windows/msmpeg2vdec.dll
-* /usr/lib/wine/x86_64-windows/msnet32.dll
-* /usr/lib/wine/x86_64-windows/mspatcha.dll
-* /usr/lib/wine/x86_64-windows/msports.dll
-* /usr/lib/wine/x86_64-windows/msrle32.dll
-* /usr/lib/wine/x86_64-windows/msscript.ocx
-* /usr/lib/wine/x86_64-windows/mssign32.dll
-* /usr/lib/wine/x86_64-windows/mssip32.dll
-* /usr/lib/wine/x86_64-windows/mstask.dll
-* /usr/lib/wine/x86_64-windows/msttsengine.dll
-* /usr/lib/wine/x86_64-windows/msv1_0.dll
-* /usr/lib/wine/x86_64-windows/msvcirt.dll
-* /usr/lib/wine/x86_64-windows/msvcm80.dll
-* /usr/lib/wine/x86_64-windows/msvcm90.dll
-* /usr/lib/wine/x86_64-windows/msvcp100.dll
-* /usr/lib/wine/x86_64-windows/msvcp110.dll
-* /usr/lib/wine/x86_64-windows/msvcp120.dll
-* /usr/lib/wine/x86_64-windows/msvcp120_app.dll
-* /usr/lib/wine/x86_64-windows/msvcp140.dll
-* /usr/lib/wine/x86_64-windows/msvcp140_1.dll
-* /usr/lib/wine/x86_64-windows/msvcp140_2.dll
-* /usr/lib/wine/x86_64-windows/msvcp140_atomic_wait.dll
-* /usr/lib/wine/x86_64-windows/msvcp140_codecvt_ids.dll
-* /usr/lib/wine/x86_64-windows/msvcp60.dll
-* /usr/lib/wine/x86_64-windows/msvcp70.dll
-* /usr/lib/wine/x86_64-windows/msvcp71.dll
-* /usr/lib/wine/x86_64-windows/msvcp80.dll
-* /usr/lib/wine/x86_64-windows/msvcp90.dll
-* /usr/lib/wine/x86_64-windows/msvcp_win.dll
-* /usr/lib/wine/x86_64-windows/msvcr100.dll
-* /usr/lib/wine/x86_64-windows/msvcr110.dll
-* /usr/lib/wine/x86_64-windows/msvcr120.dll
-* /usr/lib/wine/x86_64-windows/msvcr120_app.dll
-* /usr/lib/wine/x86_64-windows/msvcr70.dll
-* /usr/lib/wine/x86_64-windows/msvcr71.dll
-* /usr/lib/wine/x86_64-windows/msvcr80.dll
-* /usr/lib/wine/x86_64-windows/msvcr90.dll
-* /usr/lib/wine/x86_64-windows/msvcrt.dll
-* /usr/lib/wine/x86_64-windows/msvcrt20.dll
-* /usr/lib/wine/x86_64-windows/msvcrt40.dll
-* /usr/lib/wine/x86_64-windows/msvcrtd.dll
-* /usr/lib/wine/x86_64-windows/msvfw32.dll
-* /usr/lib/wine/x86_64-windows/msvidc32.dll
-* /usr/lib/wine/x86_64-windows/mswsock.dll
-* /usr/lib/wine/x86_64-windows/msxml.dll
-* /usr/lib/wine/x86_64-windows/msxml2.dll
-* /usr/lib/wine/x86_64-windows/msxml3.dll
-* /usr/lib/wine/x86_64-windows/msxml4.dll
-* /usr/lib/wine/x86_64-windows/msxml6.dll
-* /usr/lib/wine/x86_64-windows/mtxdm.dll
-* /usr/lib/wine/x86_64-windows/ncrypt.dll
-* /usr/lib/wine/x86_64-windows/nddeapi.dll
-* /usr/lib/wine/x86_64-windows/ndis.sys
-* /usr/lib/wine/x86_64-windows/net.exe
-* /usr/lib/wine/x86_64-windows/netapi32.dll
-* /usr/lib/wine/x86_64-windows/netcfgx.dll
-* /usr/lib/wine/x86_64-windows/netio.sys
-* /usr/lib/wine/x86_64-windows/netprofm.dll
-* /usr/lib/wine/x86_64-windows/netsh.exe
-* /usr/lib/wine/x86_64-windows/netstat.exe
-* /usr/lib/wine/x86_64-windows/netutils.dll
-* /usr/lib/wine/x86_64-windows/newdev.dll
-* /usr/lib/wine/x86_64-windows/ngen.exe
-* /usr/lib/wine/x86_64-windows/ninput.dll
-* /usr/lib/wine/x86_64-windows/normaliz.dll
-* /usr/lib/wine/x86_64-windows/notepad.exe
-* /usr/lib/wine/x86_64-windows/npmshtml.dll
-* /usr/lib/wine/x86_64-windows/npptools.dll
-* /usr/lib/wine/x86_64-windows/nsi.dll
-* /usr/lib/wine/x86_64-windows/nsiproxy.sys
-* /usr/lib/wine/x86_64-windows/ntdll.dll
-* /usr/lib/wine/x86_64-windows/ntdsapi.dll
-* /usr/lib/wine/x86_64-windows/ntoskrnl.exe
-* /usr/lib/wine/x86_64-windows/ntprint.dll
-* /usr/lib/wine/x86_64-windows/objsel.dll
-* /usr/lib/wine/x86_64-windows/odbcbcp.dll
-* /usr/lib/wine/x86_64-windows/odbccp32.dll
-* /usr/lib/wine/x86_64-windows/odbccu32.dll
-* /usr/lib/wine/x86_64-windows/ole32.dll
-* /usr/lib/wine/x86_64-windows/oleacc.dll
-* /usr/lib/wine/x86_64-windows/oleaut32.dll
-* /usr/lib/wine/x86_64-windows/olecli32.dll
-* /usr/lib/wine/x86_64-windows/oledb32.dll
-* /usr/lib/wine/x86_64-windows/oledlg.dll
-* /usr/lib/wine/x86_64-windows/olepro32.dll
-* /usr/lib/wine/x86_64-windows/olesvr32.dll
-* /usr/lib/wine/x86_64-windows/olethk32.dll
-* /usr/lib/wine/x86_64-windows/oleview.exe
-* /usr/lib/wine/x86_64-windows/opcservices.dll
-* /usr/lib/wine/x86_64-windows/opencl.dll
-* /usr/lib/wine/x86_64-windows/opengl32.dll
-* /usr/lib/wine/x86_64-windows/packager.dll
-* /usr/lib/wine/x86_64-windows/pdh.dll
-* /usr/lib/wine/x86_64-windows/photometadatahandler.dll
-* /usr/lib/wine/x86_64-windows/pidgen.dll
-* /usr/lib/wine/x86_64-windows/ping.exe
-* /usr/lib/wine/x86_64-windows/plugplay.exe
-* /usr/lib/wine/x86_64-windows/pnputil.exe
-* /usr/lib/wine/x86_64-windows/powershell.exe
-* /usr/lib/wine/x86_64-windows/powrprof.dll
-* /usr/lib/wine/x86_64-windows/presentationfontcache.exe
-* /usr/lib/wine/x86_64-windows/printui.dll
-* /usr/lib/wine/x86_64-windows/prntvpt.dll
-* /usr/lib/wine/x86_64-windows/profapi.dll
-* /usr/lib/wine/x86_64-windows/progman.exe
-* /usr/lib/wine/x86_64-windows/propsys.dll
-* /usr/lib/wine/x86_64-windows/psapi.dll
-* /usr/lib/wine/x86_64-windows/pstorec.dll
-* /usr/lib/wine/x86_64-windows/pwrshplugin.dll
-* /usr/lib/wine/x86_64-windows/qasf.dll
-* /usr/lib/wine/x86_64-windows/qcap.dll
-* /usr/lib/wine/x86_64-windows/qdvd.dll
-* /usr/lib/wine/x86_64-windows/qedit.dll
-* /usr/lib/wine/x86_64-windows/qmgr.dll
-* /usr/lib/wine/x86_64-windows/qmgrprxy.dll
-* /usr/lib/wine/x86_64-windows/quartz.dll
-* /usr/lib/wine/x86_64-windows/query.dll
-* /usr/lib/wine/x86_64-windows/qwave.dll
-* /usr/lib/wine/x86_64-windows/rasapi32.dll
-* /usr/lib/wine/x86_64-windows/rasdlg.dll
-* /usr/lib/wine/x86_64-windows/reg.exe
-* /usr/lib/wine/x86_64-windows/regapi.dll
-* /usr/lib/wine/x86_64-windows/regasm.exe
-* /usr/lib/wine/x86_64-windows/regedit.exe
-* /usr/lib/wine/x86_64-windows/regini.exe
-* /usr/lib/wine/x86_64-windows/regsvcs.exe
-* /usr/lib/wine/x86_64-windows/regsvr32.exe
-* /usr/lib/wine/x86_64-windows/resutils.dll
-* /usr/lib/wine/x86_64-windows/riched20.dll
-* /usr/lib/wine/x86_64-windows/riched32.dll
-* /usr/lib/wine/x86_64-windows/robocopy.exe
-* /usr/lib/wine/x86_64-windows/rometadata.dll
-* /usr/lib/wine/x86_64-windows/rpcrt4.dll
-* /usr/lib/wine/x86_64-windows/rpcss.exe
-* /usr/lib/wine/x86_64-windows/rsabase.dll
-* /usr/lib/wine/x86_64-windows/rsaenh.dll
-* /usr/lib/wine/x86_64-windows/rstrtmgr.dll
-* /usr/lib/wine/x86_64-windows/rtutils.dll
-* /usr/lib/wine/x86_64-windows/rtworkq.dll
-* /usr/lib/wine/x86_64-windows/rundll32.exe
-* /usr/lib/wine/x86_64-windows/samlib.dll
-* /usr/lib/wine/x86_64-windows/sane.ds
-* /usr/lib/wine/x86_64-windows/sapi.dll
-* /usr/lib/wine/x86_64-windows/sas.dll
-* /usr/lib/wine/x86_64-windows/sc.exe
-* /usr/lib/wine/x86_64-windows/scarddlg.dll
-* /usr/lib/wine/x86_64-windows/scardsvr.dll
-* /usr/lib/wine/x86_64-windows/sccbase.dll
-* /usr/lib/wine/x86_64-windows/schannel.dll
-* /usr/lib/wine/x86_64-windows/schedsvc.dll
-* /usr/lib/wine/x86_64-windows/schtasks.exe
-* /usr/lib/wine/x86_64-windows/scrobj.dll
-* /usr/lib/wine/x86_64-windows/scrrun.dll
-* /usr/lib/wine/x86_64-windows/scsiport.sys
-* /usr/lib/wine/x86_64-windows/sdbinst.exe
-* /usr/lib/wine/x86_64-windows/secedit.exe
-* /usr/lib/wine/x86_64-windows/sechost.dll
-* /usr/lib/wine/x86_64-windows/secur32.dll
-* /usr/lib/wine/x86_64-windows/security.dll
-* /usr/lib/wine/x86_64-windows/sensapi.dll
-* /usr/lib/wine/x86_64-windows/serialui.dll
-* /usr/lib/wine/x86_64-windows/servicemodelreg.exe
-* /usr/lib/wine/x86_64-windows/services.exe
-* /usr/lib/wine/x86_64-windows/setupapi.dll
-* /usr/lib/wine/x86_64-windows/setx.exe
-* /usr/lib/wine/x86_64-windows/sfc.dll
-* /usr/lib/wine/x86_64-windows/sfc_os.dll
-* /usr/lib/wine/x86_64-windows/shcore.dll
-* /usr/lib/wine/x86_64-windows/shdoclc.dll
-* /usr/lib/wine/x86_64-windows/shdocvw.dll
-* /usr/lib/wine/x86_64-windows/shell32.dll
-* /usr/lib/wine/x86_64-windows/shfolder.dll
-* /usr/lib/wine/x86_64-windows/shlwapi.dll
-* /usr/lib/wine/x86_64-windows/shutdown.exe
-* /usr/lib/wine/x86_64-windows/slbcsp.dll
-* /usr/lib/wine/x86_64-windows/slc.dll
-* /usr/lib/wine/x86_64-windows/snmpapi.dll
-* /usr/lib/wine/x86_64-windows/softpub.dll
-* /usr/lib/wine/x86_64-windows/spoolss.dll
-* /usr/lib/wine/x86_64-windows/spoolsv.exe
-* /usr/lib/wine/x86_64-windows/sppc.dll
-* /usr/lib/wine/x86_64-windows/srclient.dll
-* /usr/lib/wine/x86_64-windows/srvcli.dll
-* /usr/lib/wine/x86_64-windows/srvsvc.dll
-* /usr/lib/wine/x86_64-windows/sspicli.dll
-* /usr/lib/wine/x86_64-windows/start.exe
-* /usr/lib/wine/x86_64-windows/stdole2.tlb
-* /usr/lib/wine/x86_64-windows/stdole32.tlb
-* /usr/lib/wine/x86_64-windows/sti.dll
-* /usr/lib/wine/x86_64-windows/strmdll.dll
-* /usr/lib/wine/x86_64-windows/subst.exe
-* /usr/lib/wine/x86_64-windows/svchost.exe
-* /usr/lib/wine/x86_64-windows/svrapi.dll
-* /usr/lib/wine/x86_64-windows/sxs.dll
-* /usr/lib/wine/x86_64-windows/systeminfo.exe
-* /usr/lib/wine/x86_64-windows/t2embed.dll
-* /usr/lib/wine/x86_64-windows/tapi32.dll
-* /usr/lib/wine/x86_64-windows/taskkill.exe
-* /usr/lib/wine/x86_64-windows/tasklist.exe
-* /usr/lib/wine/x86_64-windows/taskmgr.exe
-* /usr/lib/wine/x86_64-windows/taskschd.dll
-* /usr/lib/wine/x86_64-windows/tbs.dll
-* /usr/lib/wine/x86_64-windows/tdh.dll
-* /usr/lib/wine/x86_64-windows/tdi.sys
-* /usr/lib/wine/x86_64-windows/termsv.exe
-* /usr/lib/wine/x86_64-windows/threadpoolwinrt.dll
-* /usr/lib/wine/x86_64-windows/traffic.dll
-* /usr/lib/wine/x86_64-windows/twain_32.dll
-* /usr/lib/wine/x86_64-windows/twinapi.appcore.dll
-* /usr/lib/wine/x86_64-windows/tzres.dll
-* /usr/lib/wine/x86_64-windows/ucrtbase.dll
-* /usr/lib/wine/x86_64-windows/uianimation.dll
-* /usr/lib/wine/x86_64-windows/uiautomationcore.dll
-* /usr/lib/wine/x86_64-windows/uiribbon.dll
-* /usr/lib/wine/x86_64-windows/unicows.dll
-* /usr/lib/wine/x86_64-windows/uninstaller.exe
-* /usr/lib/wine/x86_64-windows/unlodctr.exe
-* /usr/lib/wine/x86_64-windows/updspapi.dll
-* /usr/lib/wine/x86_64-windows/url.dll
-* /usr/lib/wine/x86_64-windows/urlmon.dll
-* /usr/lib/wine/x86_64-windows/usbd.sys
-* /usr/lib/wine/x86_64-windows/user32.dll
-* /usr/lib/wine/x86_64-windows/userenv.dll
-* /usr/lib/wine/x86_64-windows/usp10.dll
-* /usr/lib/wine/x86_64-windows/utildll.dll
-* /usr/lib/wine/x86_64-windows/uxtheme.dll
-* /usr/lib/wine/x86_64-windows/vbscript.dll
-* /usr/lib/wine/x86_64-windows/vcomp.dll
-* /usr/lib/wine/x86_64-windows/vcomp100.dll
-* /usr/lib/wine/x86_64-windows/vcomp110.dll
-* /usr/lib/wine/x86_64-windows/vcomp120.dll
-* /usr/lib/wine/x86_64-windows/vcomp140.dll
-* /usr/lib/wine/x86_64-windows/vcomp90.dll
-* /usr/lib/wine/x86_64-windows/vcruntime140.dll
-* /usr/lib/wine/x86_64-windows/vcruntime140_1.dll
-* /usr/lib/wine/x86_64-windows/vdmdbg.dll
-* /usr/lib/wine/x86_64-windows/version.dll
-* /usr/lib/wine/x86_64-windows/vga.dll
-* /usr/lib/wine/x86_64-windows/view.exe
-* /usr/lib/wine/x86_64-windows/virtdisk.dll
-* /usr/lib/wine/x86_64-windows/vssapi.dll
-* /usr/lib/wine/x86_64-windows/vulkan-1.dll
-* /usr/lib/wine/x86_64-windows/wbemdisp.dll
-* /usr/lib/wine/x86_64-windows/wbemprox.dll
-* /usr/lib/wine/x86_64-windows/wdscore.dll
-* /usr/lib/wine/x86_64-windows/webservices.dll
-* /usr/lib/wine/x86_64-windows/websocket.dll
-* /usr/lib/wine/x86_64-windows/wer.dll
-* /usr/lib/wine/x86_64-windows/wevtapi.dll
-* /usr/lib/wine/x86_64-windows/wevtsvc.dll
-* /usr/lib/wine/x86_64-windows/wevtutil.exe
-* /usr/lib/wine/x86_64-windows/where.exe
-* /usr/lib/wine/x86_64-windows/whoami.exe
-* /usr/lib/wine/x86_64-windows/wiaservc.dll
-* /usr/lib/wine/x86_64-windows/wimgapi.dll
-* /usr/lib/wine/x86_64-windows/win32u.dll
-* /usr/lib/wine/x86_64-windows/windows.applicationmodel.dll
-* /usr/lib/wine/x86_64-windows/windows.devices.bluetooth.dll
-* /usr/lib/wine/x86_64-windows/windows.devices.enumeration.dll
-* /usr/lib/wine/x86_64-windows/windows.devices.usb.dll
-* /usr/lib/wine/x86_64-windows/windows.gaming.input.dll
-* /usr/lib/wine/x86_64-windows/windows.gaming.ui.gamebar.dll
-* /usr/lib/wine/x86_64-windows/windows.globalization.dll
-* /usr/lib/wine/x86_64-windows/windows.media.devices.dll
-* /usr/lib/wine/x86_64-windows/windows.media.dll
-* /usr/lib/wine/x86_64-windows/windows.media.mediacontrol.dll
-* /usr/lib/wine/x86_64-windows/windows.media.speech.dll
-* /usr/lib/wine/x86_64-windows/windows.networking.dll
-* /usr/lib/wine/x86_64-windows/windows.networking.hostname.dll
-* /usr/lib/wine/x86_64-windows/windows.perception.stub.dll
-* /usr/lib/wine/x86_64-windows/windows.security.authentication.onlineid.dll
-* /usr/lib/wine/x86_64-windows/windows.security.credentials.ui.userconsentverifier.dll
-* /usr/lib/wine/x86_64-windows/windows.storage.applicationdata.dll
-* /usr/lib/wine/x86_64-windows/windows.system.profile.systemmanufacturers.dll
-* /usr/lib/wine/x86_64-windows/windows.ui.dll
-* /usr/lib/wine/x86_64-windows/windows.web.dll
-* /usr/lib/wine/x86_64-windows/windowscodecs.dll
-* /usr/lib/wine/x86_64-windows/windowscodecsext.dll
-* /usr/lib/wine/x86_64-windows/winealsa.drv
-* /usr/lib/wine/x86_64-windows/wineboot.exe
-* /usr/lib/wine/x86_64-windows/winebrowser.exe
-* /usr/lib/wine/x86_64-windows/winebus.sys
-* /usr/lib/wine/x86_64-windows/winecfg.exe
-* /usr/lib/wine/x86_64-windows/wineconsole.exe
-* /usr/lib/wine/x86_64-windows/wined3d.dll
-* /usr/lib/wine/x86_64-windows/winedbg.exe
-* /usr/lib/wine/x86_64-windows/winedevice.exe
-* /usr/lib/wine/x86_64-windows/winefile.exe
-* /usr/lib/wine/x86_64-windows/winegstreamer.dll
-* /usr/lib/wine/x86_64-windows/winehid.sys
-* /usr/lib/wine/x86_64-windows/winemapi.dll
-* /usr/lib/wine/x86_64-windows/winemenubuilder.exe
-* /usr/lib/wine/x86_64-windows/winemine.exe
-* /usr/lib/wine/x86_64-windows/winemsibuilder.exe
-* /usr/lib/wine/x86_64-windows/winepath.exe
-* /usr/lib/wine/x86_64-windows/wineps.drv
-* /usr/lib/wine/x86_64-windows/winepulse.drv
-* /usr/lib/wine/x86_64-windows/wineusb.sys
-* /usr/lib/wine/x86_64-windows/winevulkan.dll
-* /usr/lib/wine/x86_64-windows/winewayland.drv
-* /usr/lib/wine/x86_64-windows/winex11.drv
-* /usr/lib/wine/x86_64-windows/winexinput.sys
-* /usr/lib/wine/x86_64-windows/wing32.dll
-* /usr/lib/wine/x86_64-windows/winhlp32.exe
-* /usr/lib/wine/x86_64-windows/winhttp.dll
-* /usr/lib/wine/x86_64-windows/wininet.dll
-* /usr/lib/wine/x86_64-windows/winmgmt.exe
-* /usr/lib/wine/x86_64-windows/winmm.dll
-* /usr/lib/wine/x86_64-windows/winnls32.dll
-* /usr/lib/wine/x86_64-windows/winprint.dll
-* /usr/lib/wine/x86_64-windows/winscard.dll
-* /usr/lib/wine/x86_64-windows/winspool.drv
-* /usr/lib/wine/x86_64-windows/winsta.dll
-* /usr/lib/wine/x86_64-windows/wintab32.dll
-* /usr/lib/wine/x86_64-windows/wintrust.dll
-* /usr/lib/wine/x86_64-windows/wintypes.dll
-* /usr/lib/wine/x86_64-windows/winusb.dll
-* /usr/lib/wine/x86_64-windows/winver.exe
-* /usr/lib/wine/x86_64-windows/wlanapi.dll
-* /usr/lib/wine/x86_64-windows/wlanui.dll
-* /usr/lib/wine/x86_64-windows/wldap32.dll
-* /usr/lib/wine/x86_64-windows/wldp.dll
-* /usr/lib/wine/x86_64-windows/wmasf.dll
-* /usr/lib/wine/x86_64-windows/wmi.dll
-* /usr/lib/wine/x86_64-windows/wmic.exe
-* /usr/lib/wine/x86_64-windows/wmiutils.dll
-* /usr/lib/wine/x86_64-windows/wmp.dll
-* /usr/lib/wine/x86_64-windows/wmphoto.dll
-* /usr/lib/wine/x86_64-windows/wmplayer.exe
-* /usr/lib/wine/x86_64-windows/wmvcore.dll
-* /usr/lib/wine/x86_64-windows/wnaspi32.dll
-* /usr/lib/wine/x86_64-windows/wofutil.dll
-* /usr/lib/wine/x86_64-windows/wordpad.exe
-* /usr/lib/wine/x86_64-windows/wpc.dll
-* /usr/lib/wine/x86_64-windows/wpcap.dll
-* /usr/lib/wine/x86_64-windows/write.exe
-* /usr/lib/wine/x86_64-windows/ws2_32.dll
-* /usr/lib/wine/x86_64-windows/wscript.exe
-* /usr/lib/wine/x86_64-windows/wsdapi.dll
-* /usr/lib/wine/x86_64-windows/wshom.ocx
-* /usr/lib/wine/x86_64-windows/wsnmp32.dll
-* /usr/lib/wine/x86_64-windows/wsock32.dll
-* /usr/lib/wine/x86_64-windows/wtsapi32.dll
-* /usr/lib/wine/x86_64-windows/wuapi.dll
-* /usr/lib/wine/x86_64-windows/wuaueng.dll
-* /usr/lib/wine/x86_64-windows/wuauserv.exe
-* /usr/lib/wine/x86_64-windows/wusa.exe
-* /usr/lib/wine/x86_64-windows/x3daudio1_0.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_1.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_2.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_3.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_4.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_5.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_6.dll
-* /usr/lib/wine/x86_64-windows/x3daudio1_7.dll
-* /usr/lib/wine/x86_64-windows/xactengine2_0.dll
-* /usr/lib/wine/x86_64-windows/xactengine2_4.dll
-* /usr/lib/wine/x86_64-windows/xactengine2_7.dll
-* /usr/lib/wine/x86_64-windows/xactengine2_9.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_0.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_1.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_2.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_3.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_4.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_5.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_6.dll
-* /usr/lib/wine/x86_64-windows/xactengine3_7.dll
-* /usr/lib/wine/x86_64-windows/xapofx1_1.dll
-* /usr/lib/wine/x86_64-windows/xapofx1_2.dll
-* /usr/lib/wine/x86_64-windows/xapofx1_3.dll
-* /usr/lib/wine/x86_64-windows/xapofx1_4.dll
-* /usr/lib/wine/x86_64-windows/xapofx1_5.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_0.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_1.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_2.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_3.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_4.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_5.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_6.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_7.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_8.dll
-* /usr/lib/wine/x86_64-windows/xaudio2_9.dll
-* /usr/lib/wine/x86_64-windows/xcopy.exe
-* /usr/lib/wine/x86_64-windows/xinput1_1.dll
-* /usr/lib/wine/x86_64-windows/xinput1_2.dll
-* /usr/lib/wine/x86_64-windows/xinput1_3.dll
-* /usr/lib/wine/x86_64-windows/xinput1_4.dll
-* /usr/lib/wine/x86_64-windows/xinput9_1_0.dll
-* /usr/lib/wine/x86_64-windows/xinputuap.dll
-* /usr/lib/wine/x86_64-windows/xmllite.dll
-* /usr/lib/wine/x86_64-windows/xolehlp.dll
-* /usr/lib/wine/x86_64-windows/xpsprint.dll
-* /usr/lib/wine/x86_64-windows/xpssvcs.dll
-* /usr/lib32/wine/i386-unix/acledit.dll.so
-* /usr/lib32/wine/i386-unix/aclui.dll.so
-* /usr/lib32/wine/i386-unix/activeds.dll.so
-* /usr/lib32/wine/i386-unix/actxprxy.dll.so
-* /usr/lib32/wine/i386-unix/adsldp.dll.so
-* /usr/lib32/wine/i386-unix/adsldpc.dll.so
-* /usr/lib32/wine/i386-unix/advapi32.dll.so
-* /usr/lib32/wine/i386-unix/advpack.dll.so
-* /usr/lib32/wine/i386-unix/amsi.dll.so
-* /usr/lib32/wine/i386-unix/amstream.dll.so
-* /usr/lib32/wine/i386-unix/apphelp.dll.so
-* /usr/lib32/wine/i386-unix/appwiz.cpl.so
-* /usr/lib32/wine/i386-unix/appxdeploymentclient.dll.so
-* /usr/lib32/wine/i386-unix/arp.exe.so
-* /usr/lib32/wine/i386-unix/aspnet_regiis.exe.so
-* /usr/lib32/wine/i386-unix/atl.dll.so
-* /usr/lib32/wine/i386-unix/atl100.dll.so
-* /usr/lib32/wine/i386-unix/atl110.dll.so
-* /usr/lib32/wine/i386-unix/atl80.dll.so
-* /usr/lib32/wine/i386-unix/atl90.dll.so
-* /usr/lib32/wine/i386-unix/atlthunk.dll.so
-* /usr/lib32/wine/i386-unix/atmlib.dll.so
-* /usr/lib32/wine/i386-unix/attrib.exe.so
-* /usr/lib32/wine/i386-unix/authz.dll.so
-* /usr/lib32/wine/i386-unix/avicap32.dll.so
-* /usr/lib32/wine/i386-unix/avicap32.so
-* /usr/lib32/wine/i386-unix/avifil32.dll.so
-* /usr/lib32/wine/i386-unix/avifile.dll16.so
-* /usr/lib32/wine/i386-unix/avrt.dll.so
-* /usr/lib32/wine/i386-unix/bcp47langs.dll.so
-* /usr/lib32/wine/i386-unix/bcrypt.dll.so
-* /usr/lib32/wine/i386-unix/bcrypt.so
-* /usr/lib32/wine/i386-unix/bcryptprimitives.dll.so
-* /usr/lib32/wine/i386-unix/bluetoothapis.dll.so
-* /usr/lib32/wine/i386-unix/browseui.dll.so
-* /usr/lib32/wine/i386-unix/bthprops.cpl.so
-* /usr/lib32/wine/i386-unix/cabarc.exe.so
-* /usr/lib32/wine/i386-unix/cabinet.dll.so
-* /usr/lib32/wine/i386-unix/cacls.exe.so
-* /usr/lib32/wine/i386-unix/cards.dll.so
-* /usr/lib32/wine/i386-unix/cdosys.dll.so
-* /usr/lib32/wine/i386-unix/certutil.exe.so
-* /usr/lib32/wine/i386-unix/cfgmgr32.dll.so
-* /usr/lib32/wine/i386-unix/chcp.com.so
-* /usr/lib32/wine/i386-unix/clock.exe.so
-* /usr/lib32/wine/i386-unix/clusapi.dll.so
-* /usr/lib32/wine/i386-unix/cmd.exe.so
-* /usr/lib32/wine/i386-unix/cng.sys.so
-* /usr/lib32/wine/i386-unix/combase.dll.so
-* /usr/lib32/wine/i386-unix/comcat.dll.so
-* /usr/lib32/wine/i386-unix/comctl32.dll.so
-* /usr/lib32/wine/i386-unix/comdlg32.dll.so
-* /usr/lib32/wine/i386-unix/coml2.dll.so
-* /usr/lib32/wine/i386-unix/comm.drv16.so
-* /usr/lib32/wine/i386-unix/commdlg.dll16.so
-* /usr/lib32/wine/i386-unix/compobj.dll16.so
-* /usr/lib32/wine/i386-unix/compstui.dll.so
-* /usr/lib32/wine/i386-unix/comsvcs.dll.so
-* /usr/lib32/wine/i386-unix/concrt140.dll.so
-* /usr/lib32/wine/i386-unix/conhost.exe.so
-* /usr/lib32/wine/i386-unix/connect.dll.so
-* /usr/lib32/wine/i386-unix/control.exe.so
-* /usr/lib32/wine/i386-unix/coremessaging.dll.so
-* /usr/lib32/wine/i386-unix/credui.dll.so
-* /usr/lib32/wine/i386-unix/crtdll.dll.so
-* /usr/lib32/wine/i386-unix/crypt32.dll.so
-* /usr/lib32/wine/i386-unix/crypt32.so
-* /usr/lib32/wine/i386-unix/cryptdlg.dll.so
-* /usr/lib32/wine/i386-unix/cryptdll.dll.so
-* /usr/lib32/wine/i386-unix/cryptext.dll.so
-* /usr/lib32/wine/i386-unix/cryptnet.dll.so
-* /usr/lib32/wine/i386-unix/cryptowinrt.dll.so
-* /usr/lib32/wine/i386-unix/cryptsp.dll.so
-* /usr/lib32/wine/i386-unix/cryptui.dll.so
-* /usr/lib32/wine/i386-unix/cscript.exe.so
-* /usr/lib32/wine/i386-unix/ctapi32.dll.so
-* /usr/lib32/wine/i386-unix/ctapi32.so
-* /usr/lib32/wine/i386-unix/ctl3d.dll16.so
-* /usr/lib32/wine/i386-unix/ctl3d32.dll.so
-* /usr/lib32/wine/i386-unix/ctl3dv2.dll16.so
-* /usr/lib32/wine/i386-unix/d2d1.dll.so
-* /usr/lib32/wine/i386-unix/d3d10.dll.so
-* /usr/lib32/wine/i386-unix/d3d10core.dll.so
-* /usr/lib32/wine/i386-unix/d3d10_1.dll.so
-* /usr/lib32/wine/i386-unix/d3d11.dll.so
-* /usr/lib32/wine/i386-unix/d3d12.dll.so
-* /usr/lib32/wine/i386-unix/d3d12core.dll.so
-* /usr/lib32/wine/i386-unix/d3d8.dll.so
-* /usr/lib32/wine/i386-unix/d3d8thk.dll.so
-* /usr/lib32/wine/i386-unix/d3d9.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_33.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_34.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_35.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_36.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_37.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_38.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_39.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_40.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_41.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_42.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_43.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_46.dll.so
-* /usr/lib32/wine/i386-unix/d3dcompiler_47.dll.so
-* /usr/lib32/wine/i386-unix/d3dim.dll.so
-* /usr/lib32/wine/i386-unix/d3dim700.dll.so
-* /usr/lib32/wine/i386-unix/d3drm.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_33.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_34.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_35.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_36.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_37.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_38.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_39.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_40.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_41.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_42.dll.so
-* /usr/lib32/wine/i386-unix/d3dx10_43.dll.so
-* /usr/lib32/wine/i386-unix/d3dx11_42.dll.so
-* /usr/lib32/wine/i386-unix/d3dx11_43.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_24.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_25.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_26.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_27.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_28.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_29.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_30.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_31.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_32.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_33.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_34.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_35.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_36.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_37.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_38.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_39.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_40.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_41.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_42.dll.so
-* /usr/lib32/wine/i386-unix/d3dx9_43.dll.so
-* /usr/lib32/wine/i386-unix/d3dxof.dll.so
-* /usr/lib32/wine/i386-unix/davclnt.dll.so
-* /usr/lib32/wine/i386-unix/dbgeng.dll.so
-* /usr/lib32/wine/i386-unix/dbghelp.dll.so
-* /usr/lib32/wine/i386-unix/dciman32.dll.so
-* /usr/lib32/wine/i386-unix/dcomp.dll.so
-* /usr/lib32/wine/i386-unix/ddeml.dll16.so
-* /usr/lib32/wine/i386-unix/ddraw.dll.so
-* /usr/lib32/wine/i386-unix/ddrawex.dll.so
-* /usr/lib32/wine/i386-unix/devenum.dll.so
-* /usr/lib32/wine/i386-unix/dhcpcsvc.dll.so
-* /usr/lib32/wine/i386-unix/dhcpcsvc6.dll.so
-* /usr/lib32/wine/i386-unix/dhtmled.ocx.so
-* /usr/lib32/wine/i386-unix/diasymreader.dll.so
-* /usr/lib32/wine/i386-unix/difxapi.dll.so
-* /usr/lib32/wine/i386-unix/dinput.dll.so
-* /usr/lib32/wine/i386-unix/dinput8.dll.so
-* /usr/lib32/wine/i386-unix/directmanipulation.dll.so
-* /usr/lib32/wine/i386-unix/dism.exe.so
-* /usr/lib32/wine/i386-unix/dispdib.dll16.so
-* /usr/lib32/wine/i386-unix/dispex.dll.so
-* /usr/lib32/wine/i386-unix/display.drv16.so
-* /usr/lib32/wine/i386-unix/dllhost.exe.so
-* /usr/lib32/wine/i386-unix/dmband.dll.so
-* /usr/lib32/wine/i386-unix/dmcompos.dll.so
-* /usr/lib32/wine/i386-unix/dmime.dll.so
-* /usr/lib32/wine/i386-unix/dmloader.dll.so
-* /usr/lib32/wine/i386-unix/dmscript.dll.so
-* /usr/lib32/wine/i386-unix/dmstyle.dll.so
-* /usr/lib32/wine/i386-unix/dmsynth.dll.so
-* /usr/lib32/wine/i386-unix/dmusic.dll.so
-* /usr/lib32/wine/i386-unix/dmusic32.dll.so
-* /usr/lib32/wine/i386-unix/dnsapi.dll.so
-* /usr/lib32/wine/i386-unix/dnsapi.so
-* /usr/lib32/wine/i386-unix/dplay.dll.so
-* /usr/lib32/wine/i386-unix/dplaysvr.exe.so
-* /usr/lib32/wine/i386-unix/dplayx.dll.so
-* /usr/lib32/wine/i386-unix/dpnaddr.dll.so
-* /usr/lib32/wine/i386-unix/dpnet.dll.so
-* /usr/lib32/wine/i386-unix/dpnhpast.dll.so
-* /usr/lib32/wine/i386-unix/dpnhupnp.dll.so
-* /usr/lib32/wine/i386-unix/dpnlobby.dll.so
-* /usr/lib32/wine/i386-unix/dpnsvr.exe.so
-* /usr/lib32/wine/i386-unix/dpvoice.dll.so
-* /usr/lib32/wine/i386-unix/dpvsetup.exe.so
-* /usr/lib32/wine/i386-unix/dpwsockx.dll.so
-* /usr/lib32/wine/i386-unix/drmclien.dll.so
-* /usr/lib32/wine/i386-unix/dsdmo.dll.so
-* /usr/lib32/wine/i386-unix/dsound.dll.so
-* /usr/lib32/wine/i386-unix/dsquery.dll.so
-* /usr/lib32/wine/i386-unix/dssenh.dll.so
-* /usr/lib32/wine/i386-unix/dsuiext.dll.so
-* /usr/lib32/wine/i386-unix/dswave.dll.so
-* /usr/lib32/wine/i386-unix/dwmapi.dll.so
-* /usr/lib32/wine/i386-unix/dwrite.dll.so
-* /usr/lib32/wine/i386-unix/dwrite.so
-* /usr/lib32/wine/i386-unix/dx8vb.dll.so
-* /usr/lib32/wine/i386-unix/dxcore.dll.so
-* /usr/lib32/wine/i386-unix/dxdiag.exe.so
-* /usr/lib32/wine/i386-unix/dxdiagn.dll.so
-* /usr/lib32/wine/i386-unix/dxgi.dll.so
-* /usr/lib32/wine/i386-unix/dxtrans.dll.so
-* /usr/lib32/wine/i386-unix/dxva2.dll.so
-* /usr/lib32/wine/i386-unix/eject.exe.so
-* /usr/lib32/wine/i386-unix/esent.dll.so
-* /usr/lib32/wine/i386-unix/evr.dll.so
-* /usr/lib32/wine/i386-unix/expand.exe.so
-* /usr/lib32/wine/i386-unix/explorer.exe.so
-* /usr/lib32/wine/i386-unix/explorerframe.dll.so
-* /usr/lib32/wine/i386-unix/extrac32.exe.so
-* /usr/lib32/wine/i386-unix/faultrep.dll.so
-* /usr/lib32/wine/i386-unix/fc.exe.so
-* /usr/lib32/wine/i386-unix/feclient.dll.so
-* /usr/lib32/wine/i386-unix/find.exe.so
-* /usr/lib32/wine/i386-unix/findstr.exe.so
-* /usr/lib32/wine/i386-unix/fltlib.dll.so
-* /usr/lib32/wine/i386-unix/fltmgr.sys.so
-* /usr/lib32/wine/i386-unix/fntcache.dll.so
-* /usr/lib32/wine/i386-unix/fontsub.dll.so
-* /usr/lib32/wine/i386-unix/fsutil.exe.so
-* /usr/lib32/wine/i386-unix/fusion.dll.so
-* /usr/lib32/wine/i386-unix/fwpuclnt.dll.so
-* /usr/lib32/wine/i386-unix/gameux.dll.so
-* /usr/lib32/wine/i386-unix/gamingtcui.dll.so
-* /usr/lib32/wine/i386-unix/gdi.exe16.so
-* /usr/lib32/wine/i386-unix/gdi32.dll.so
-* /usr/lib32/wine/i386-unix/gdiplus.dll.so
-* /usr/lib32/wine/i386-unix/geolocation.dll.so
-* /usr/lib32/wine/i386-unix/glu32.dll.so
-* /usr/lib32/wine/i386-unix/gpkcsp.dll.so
-* /usr/lib32/wine/i386-unix/graphicscapture.dll.so
-* /usr/lib32/wine/i386-unix/hal.dll.so
-* /usr/lib32/wine/i386-unix/hh.exe.so
-* /usr/lib32/wine/i386-unix/hhctrl.ocx.so
-* /usr/lib32/wine/i386-unix/hid.dll.so
-* /usr/lib32/wine/i386-unix/hidclass.sys.so
-* /usr/lib32/wine/i386-unix/hidparse.sys.so
-* /usr/lib32/wine/i386-unix/hlink.dll.so
-* /usr/lib32/wine/i386-unix/hnetcfg.dll.so
-* /usr/lib32/wine/i386-unix/hostname.exe.so
-* /usr/lib32/wine/i386-unix/hrtfapo.dll.so
-* /usr/lib32/wine/i386-unix/http.sys.so
-* /usr/lib32/wine/i386-unix/httpapi.dll.so
-* /usr/lib32/wine/i386-unix/hvsimanagementapi.dll.so
-* /usr/lib32/wine/i386-unix/ia2comproxy.dll.so
-* /usr/lib32/wine/i386-unix/icacls.exe.so
-* /usr/lib32/wine/i386-unix/iccvid.dll.so
-* /usr/lib32/wine/i386-unix/icinfo.exe.so
-* /usr/lib32/wine/i386-unix/ieframe.dll.so
-* /usr/lib32/wine/i386-unix/ieproxy.dll.so
-* /usr/lib32/wine/i386-unix/iexplore.exe.so
-* /usr/lib32/wine/i386-unix/ifsmgr.vxd.so
-* /usr/lib32/wine/i386-unix/imaadp32.acm.so
-* /usr/lib32/wine/i386-unix/imagehlp.dll.so
-* /usr/lib32/wine/i386-unix/imm.dll16.so
-* /usr/lib32/wine/i386-unix/imm32.dll.so
-* /usr/lib32/wine/i386-unix/inetcomm.dll.so
-* /usr/lib32/wine/i386-unix/inetcpl.cpl.so
-* /usr/lib32/wine/i386-unix/inetmib1.dll.so
-* /usr/lib32/wine/i386-unix/infosoft.dll.so
-* /usr/lib32/wine/i386-unix/initpki.dll.so
-* /usr/lib32/wine/i386-unix/inkobj.dll.so
-* /usr/lib32/wine/i386-unix/inseng.dll.so
-* /usr/lib32/wine/i386-unix/ipconfig.exe.so
-* /usr/lib32/wine/i386-unix/iphlpapi.dll.so
-* /usr/lib32/wine/i386-unix/iprop.dll.so
-* /usr/lib32/wine/i386-unix/ir50_32.dll.so
-* /usr/lib32/wine/i386-unix/irprops.cpl.so
-* /usr/lib32/wine/i386-unix/itircl.dll.so
-* /usr/lib32/wine/i386-unix/itss.dll.so
-* /usr/lib32/wine/i386-unix/joy.cpl.so
-* /usr/lib32/wine/i386-unix/jscript.dll.so
-* /usr/lib32/wine/i386-unix/jsproxy.dll.so
-* /usr/lib32/wine/i386-unix/kerberos.dll.so
-* /usr/lib32/wine/i386-unix/kerberos.so
-* /usr/lib32/wine/i386-unix/kernel32.dll.so
-* /usr/lib32/wine/i386-unix/kernelbase.dll.so
-* /usr/lib32/wine/i386-unix/keyboard.drv16.so
-* /usr/lib32/wine/i386-unix/klist.exe.so
-* /usr/lib32/wine/i386-unix/krnl386.exe16.so
-* /usr/lib32/wine/i386-unix/ksecdd.sys.so
-* /usr/lib32/wine/i386-unix/ksproxy.ax.so
-* /usr/lib32/wine/i386-unix/ksuser.dll.so
-* /usr/lib32/wine/i386-unix/ktmw32.dll.so
-* /usr/lib32/wine/i386-unix/l3codeca.acm.so
-* /usr/lib32/wine/i386-unix/libaclui.a
-* /usr/lib32/wine/i386-unix/libactiveds.a
-* /usr/lib32/wine/i386-unix/libadsiid.a
-* /usr/lib32/wine/i386-unix/libadvapi32.a
-* /usr/lib32/wine/i386-unix/libadvpack.a
-* /usr/lib32/wine/i386-unix/libatl.a
-* /usr/lib32/wine/i386-unix/libatl100.a
-* /usr/lib32/wine/i386-unix/libatl110.a
-* /usr/lib32/wine/i386-unix/libatl80.a
-* /usr/lib32/wine/i386-unix/libatlthunk.a
-* /usr/lib32/wine/i386-unix/libavicap32.a
-* /usr/lib32/wine/i386-unix/libavifil32.a
-* /usr/lib32/wine/i386-unix/libavrt.a
-* /usr/lib32/wine/i386-unix/libbcp47langs.a
-* /usr/lib32/wine/i386-unix/libbcrypt.a
-* /usr/lib32/wine/i386-unix/libbluetoothapis.a
-* /usr/lib32/wine/i386-unix/libcabinet.a
-* /usr/lib32/wine/i386-unix/libcards.a
-* /usr/lib32/wine/i386-unix/libcfgmgr32.a
-* /usr/lib32/wine/i386-unix/libclusapi.a
-* /usr/lib32/wine/i386-unix/libcombase.a
-* /usr/lib32/wine/i386-unix/libcomctl32.a
-* /usr/lib32/wine/i386-unix/libcomdlg32.a
-* /usr/lib32/wine/i386-unix/libcoml2.a
-* /usr/lib32/wine/i386-unix/libcompstui.a
-* /usr/lib32/wine/i386-unix/libcomsvcs.a
-* /usr/lib32/wine/i386-unix/libcredui.a
-* /usr/lib32/wine/i386-unix/libcrypt32.a
-* /usr/lib32/wine/i386-unix/libcryptdll.a
-* /usr/lib32/wine/i386-unix/libcryptnet.a
-* /usr/lib32/wine/i386-unix/libcryptui.a
-* /usr/lib32/wine/i386-unix/libd2d1.a
-* /usr/lib32/wine/i386-unix/libd3d10.a
-* /usr/lib32/wine/i386-unix/libd3d10core.a
-* /usr/lib32/wine/i386-unix/libd3d10_1.a
-* /usr/lib32/wine/i386-unix/libd3d11.a
-* /usr/lib32/wine/i386-unix/libd3d12.a
-* /usr/lib32/wine/i386-unix/libd3d8.a
-* /usr/lib32/wine/i386-unix/libd3d9.a
-* /usr/lib32/wine/i386-unix/libd3dcompiler.a
-* /usr/lib32/wine/i386-unix/libd3dcompiler_39.a
-* /usr/lib32/wine/i386-unix/libd3dcompiler_43.a
-* /usr/lib32/wine/i386-unix/libd3dcompiler_46.a
-* /usr/lib32/wine/i386-unix/libd3drm.a
-* /usr/lib32/wine/i386-unix/libd3dx10.a
-* /usr/lib32/wine/i386-unix/libd3dx10_34.a
-* /usr/lib32/wine/i386-unix/libd3dx10_35.a
-* /usr/lib32/wine/i386-unix/libd3dx10_36.a
-* /usr/lib32/wine/i386-unix/libd3dx10_37.a
-* /usr/lib32/wine/i386-unix/libd3dx10_38.a
-* /usr/lib32/wine/i386-unix/libd3dx10_39.a
-* /usr/lib32/wine/i386-unix/libd3dx10_40.a
-* /usr/lib32/wine/i386-unix/libd3dx10_41.a
-* /usr/lib32/wine/i386-unix/libd3dx10_42.a
-* /usr/lib32/wine/i386-unix/libd3dx11.a
-* /usr/lib32/wine/i386-unix/libd3dx11_42.a
-* /usr/lib32/wine/i386-unix/libd3dx9.a
-* /usr/lib32/wine/i386-unix/libd3dxof.a
-* /usr/lib32/wine/i386-unix/libdbgeng.a
-* /usr/lib32/wine/i386-unix/libdbghelp.a
-* /usr/lib32/wine/i386-unix/libdciman32.a
-* /usr/lib32/wine/i386-unix/libddraw.a
-* /usr/lib32/wine/i386-unix/libdhcpcsvc.a
-* /usr/lib32/wine/i386-unix/libdinput.a
-* /usr/lib32/wine/i386-unix/libdinput8.a
-* /usr/lib32/wine/i386-unix/libdmoguids.a
-* /usr/lib32/wine/i386-unix/libdnsapi.a
-* /usr/lib32/wine/i386-unix/libdplayx.a
-* /usr/lib32/wine/i386-unix/libdpnet.a
-* /usr/lib32/wine/i386-unix/libdsound.a
-* /usr/lib32/wine/i386-unix/libdwmapi.a
-* /usr/lib32/wine/i386-unix/libdwrite.a
-* /usr/lib32/wine/i386-unix/libdxerr8.a
-* /usr/lib32/wine/i386-unix/libdxerr9.a
-* /usr/lib32/wine/i386-unix/libdxgi.a
-* /usr/lib32/wine/i386-unix/libdxguid.a
-* /usr/lib32/wine/i386-unix/libdxva2.a
-* /usr/lib32/wine/i386-unix/libevr.a
-* /usr/lib32/wine/i386-unix/libfaultrep.a
-* /usr/lib32/wine/i386-unix/libfltmgr.a
-* /usr/lib32/wine/i386-unix/libgdi32.a
-* /usr/lib32/wine/i386-unix/libgdiplus.a
-* /usr/lib32/wine/i386-unix/libglu32.a
-* /usr/lib32/wine/i386-unix/libhal.a
-* /usr/lib32/wine/i386-unix/libhid.a
-* /usr/lib32/wine/i386-unix/libhidclass.a
-* /usr/lib32/wine/i386-unix/libhidparse.a
-* /usr/lib32/wine/i386-unix/libhlink.a
-* /usr/lib32/wine/i386-unix/libhtmlhelp.a
-* /usr/lib32/wine/i386-unix/libhttpapi.a
-* /usr/lib32/wine/i386-unix/libieframe.a
-* /usr/lib32/wine/i386-unix/libimagehlp.a
-* /usr/lib32/wine/i386-unix/libimm32.a
-* /usr/lib32/wine/i386-unix/libinetcomm.a
-* /usr/lib32/wine/i386-unix/libiphlpapi.a
-* /usr/lib32/wine/i386-unix/libjsproxy.a
-* /usr/lib32/wine/i386-unix/libkernel.a
-* /usr/lib32/wine/i386-unix/libkernel32.a
-* /usr/lib32/wine/i386-unix/libkernelbase.a
-* /usr/lib32/wine/i386-unix/libloadperf.a
-* /usr/lib32/wine/i386-unix/liblz32.a
-* /usr/lib32/wine/i386-unix/libmapi32.a
-* /usr/lib32/wine/i386-unix/libmf.a
-* /usr/lib32/wine/i386-unix/libmfplat.a
-* /usr/lib32/wine/i386-unix/libmfplay.a
-* /usr/lib32/wine/i386-unix/libmfreadwrite.a
-* /usr/lib32/wine/i386-unix/libmfsrcsnk.a
-* /usr/lib32/wine/i386-unix/libmfuuid.a
-* /usr/lib32/wine/i386-unix/libmlang.a
-* /usr/lib32/wine/i386-unix/libmpr.a
-* /usr/lib32/wine/i386-unix/libmprapi.a
-* /usr/lib32/wine/i386-unix/libmsacm32.a
-* /usr/lib32/wine/i386-unix/libmsasn1.a
-* /usr/lib32/wine/i386-unix/libmscms.a
-* /usr/lib32/wine/i386-unix/libmsdmo.a
-* /usr/lib32/wine/i386-unix/libmshtml.a
-* /usr/lib32/wine/i386-unix/libmsi.a
-* /usr/lib32/wine/i386-unix/libmsimg32.a
-* /usr/lib32/wine/i386-unix/libmspatcha.a
-* /usr/lib32/wine/i386-unix/libmsvcp140.a
-* /usr/lib32/wine/i386-unix/libmsvcr100.a
-* /usr/lib32/wine/i386-unix/libmsvcr110.a
-* /usr/lib32/wine/i386-unix/libmsvcr120.a
-* /usr/lib32/wine/i386-unix/libmsvcr70.a
-* /usr/lib32/wine/i386-unix/libmsvcr71.a
-* /usr/lib32/wine/i386-unix/libmsvcr80.a
-* /usr/lib32/wine/i386-unix/libmsvcr90.a
-* /usr/lib32/wine/i386-unix/libmsvcrt.a
-* /usr/lib32/wine/i386-unix/libmsvcrtd.a
-* /usr/lib32/wine/i386-unix/libmsvfw32.a
-* /usr/lib32/wine/i386-unix/libmswsock.a
-* /usr/lib32/wine/i386-unix/libncrypt.a
-* /usr/lib32/wine/i386-unix/libnddeapi.a
-* /usr/lib32/wine/i386-unix/libnetapi32.a
-* /usr/lib32/wine/i386-unix/libnetio.a
-* /usr/lib32/wine/i386-unix/libnewdev.a
-* /usr/lib32/wine/i386-unix/libninput.a
-* /usr/lib32/wine/i386-unix/libnormaliz.a
-* /usr/lib32/wine/i386-unix/libnsi.a
-* /usr/lib32/wine/i386-unix/libntdll.a
-* /usr/lib32/wine/i386-unix/libntdsapi.a
-* /usr/lib32/wine/i386-unix/libntoskrnl.a
-* /usr/lib32/wine/i386-unix/libodbccp32.a
-* /usr/lib32/wine/i386-unix/libole32.a
-* /usr/lib32/wine/i386-unix/liboleacc.a
-* /usr/lib32/wine/i386-unix/liboleaut32.a
-* /usr/lib32/wine/i386-unix/libolecli32.a
-* /usr/lib32/wine/i386-unix/liboledlg.a
-* /usr/lib32/wine/i386-unix/libolepro32.a
-* /usr/lib32/wine/i386-unix/libolesvr32.a
-* /usr/lib32/wine/i386-unix/libopengl32.a
-* /usr/lib32/wine/i386-unix/libpdh.a
-* /usr/lib32/wine/i386-unix/libpowrprof.a
-* /usr/lib32/wine/i386-unix/libprntvpt.a
-* /usr/lib32/wine/i386-unix/libprofapi.a
-* /usr/lib32/wine/i386-unix/libpropsys.a
-* /usr/lib32/wine/i386-unix/libpsapi.a
-* /usr/lib32/wine/i386-unix/libquartz.a
-* /usr/lib32/wine/i386-unix/libqwave.a
-* /usr/lib32/wine/i386-unix/librasapi32.a
-* /usr/lib32/wine/i386-unix/librasdlg.a
-* /usr/lib32/wine/i386-unix/libresutils.a
-* /usr/lib32/wine/i386-unix/libriched20.a
-* /usr/lib32/wine/i386-unix/librometadata.a
-* /usr/lib32/wine/i386-unix/librpcrt4.a
-* /usr/lib32/wine/i386-unix/librsaenh.a
-* /usr/lib32/wine/i386-unix/librtutils.a
-* /usr/lib32/wine/i386-unix/librtworkq.a
-* /usr/lib32/wine/i386-unix/libscrrun.a
-* /usr/lib32/wine/i386-unix/libsechost.a
-* /usr/lib32/wine/i386-unix/libsecur32.a
-* /usr/lib32/wine/i386-unix/libsensapi.a
-* /usr/lib32/wine/i386-unix/libsetupapi.a
-* /usr/lib32/wine/i386-unix/libsfc.a
-* /usr/lib32/wine/i386-unix/libsfc_os.a
-* /usr/lib32/wine/i386-unix/libshcore.a
-* /usr/lib32/wine/i386-unix/libshdocvw.a
-* /usr/lib32/wine/i386-unix/libshell32.a
-* /usr/lib32/wine/i386-unix/libshfolder.a
-* /usr/lib32/wine/i386-unix/libshlwapi.a
-* /usr/lib32/wine/i386-unix/libslc.a
-* /usr/lib32/wine/i386-unix/libsnmpapi.a
-* /usr/lib32/wine/i386-unix/libspoolss.a
-* /usr/lib32/wine/i386-unix/libsti.a
-* /usr/lib32/wine/i386-unix/libstrmbase.a
-* /usr/lib32/wine/i386-unix/libstrmiids.a
-* /usr/lib32/wine/i386-unix/libsxs.a
-* /usr/lib32/wine/i386-unix/libt2embed.a
-* /usr/lib32/wine/i386-unix/libtapi32.a
-* /usr/lib32/wine/i386-unix/libucrtbase.a
-* /usr/lib32/wine/i386-unix/libuiautomationcore.a
-* /usr/lib32/wine/i386-unix/libunicows.a
-* /usr/lib32/wine/i386-unix/liburl.a
-* /usr/lib32/wine/i386-unix/liburlmon.a
-* /usr/lib32/wine/i386-unix/libusbd.a
-* /usr/lib32/wine/i386-unix/libuser32.a
-* /usr/lib32/wine/i386-unix/libuserenv.a
-* /usr/lib32/wine/i386-unix/libusp10.a
-* /usr/lib32/wine/i386-unix/libuuid.a
-* /usr/lib32/wine/i386-unix/libuxtheme.a
-* /usr/lib32/wine/i386-unix/libvcruntime140.a
-* /usr/lib32/wine/i386-unix/libvdmdbg.a
-* /usr/lib32/wine/i386-unix/libversion.a
-* /usr/lib32/wine/i386-unix/libvulkan-1.a
-* /usr/lib32/wine/i386-unix/libwbemuuid.a
-* /usr/lib32/wine/i386-unix/libwebservices.a
-* /usr/lib32/wine/i386-unix/libwer.a
-* /usr/lib32/wine/i386-unix/libwevtapi.a
-* /usr/lib32/wine/i386-unix/libwin32u.a
-* /usr/lib32/wine/i386-unix/libwindowscodecs.a
-* /usr/lib32/wine/i386-unix/libwindowscodecsext.a
-* /usr/lib32/wine/i386-unix/libwinecrt0.a
-* /usr/lib32/wine/i386-unix/libwined3d.a
-* /usr/lib32/wine/i386-unix/libwinevulkan.a
-* /usr/lib32/wine/i386-unix/libwing32.a
-* /usr/lib32/wine/i386-unix/libwinhttp.a
-* /usr/lib32/wine/i386-unix/libwininet.a
-* /usr/lib32/wine/i386-unix/libwinmm.a
-* /usr/lib32/wine/i386-unix/libwinnls32.a
-* /usr/lib32/wine/i386-unix/libwinspool.a
-* /usr/lib32/wine/i386-unix/libwintab32.a
-* /usr/lib32/wine/i386-unix/libwintrust.a
-* /usr/lib32/wine/i386-unix/libwlanapi.a
-* /usr/lib32/wine/i386-unix/libwldap32.a
-* /usr/lib32/wine/i386-unix/libwmcodecdspuuid.a
-* /usr/lib32/wine/i386-unix/libwmvcore.a
-* /usr/lib32/wine/i386-unix/libwnaspi32.a
-* /usr/lib32/wine/i386-unix/libwow32.a
-* /usr/lib32/wine/i386-unix/libws2_32.a
-* /usr/lib32/wine/i386-unix/libwsdapi.a
-* /usr/lib32/wine/i386-unix/libwsnmp32.a
-* /usr/lib32/wine/i386-unix/libwsock32.a
-* /usr/lib32/wine/i386-unix/libwtsapi32.a
-* /usr/lib32/wine/i386-unix/libxaudio2_8.a
-* /usr/lib32/wine/i386-unix/libxinput.a
-* /usr/lib32/wine/i386-unix/libxmllite.a
-* /usr/lib32/wine/i386-unix/loadperf.dll.so
-* /usr/lib32/wine/i386-unix/localspl.dll.so
-* /usr/lib32/wine/i386-unix/localspl.so
-* /usr/lib32/wine/i386-unix/localui.dll.so
-* /usr/lib32/wine/i386-unix/lodctr.exe.so
-* /usr/lib32/wine/i386-unix/lzexpand.dll16.so
-* /usr/lib32/wine/i386-unix/magnification.dll.so
-* /usr/lib32/wine/i386-unix/mapi32.dll.so
-* /usr/lib32/wine/i386-unix/mapistub.dll.so
-* /usr/lib32/wine/i386-unix/mciavi32.dll.so
-* /usr/lib32/wine/i386-unix/mcicda.dll.so
-* /usr/lib32/wine/i386-unix/mciqtz32.dll.so
-* /usr/lib32/wine/i386-unix/mciseq.dll.so
-* /usr/lib32/wine/i386-unix/mciwave.dll.so
-* /usr/lib32/wine/i386-unix/mf.dll.so
-* /usr/lib32/wine/i386-unix/mf3216.dll.so
-* /usr/lib32/wine/i386-unix/mfmediaengine.dll.so
-* /usr/lib32/wine/i386-unix/mfplat.dll.so
-* /usr/lib32/wine/i386-unix/mfplay.dll.so
-* /usr/lib32/wine/i386-unix/mfreadwrite.dll.so
-* /usr/lib32/wine/i386-unix/mfsrcsnk.dll.so
-* /usr/lib32/wine/i386-unix/mgmtapi.dll.so
-* /usr/lib32/wine/i386-unix/midimap.dll.so
-* /usr/lib32/wine/i386-unix/mlang.dll.so
-* /usr/lib32/wine/i386-unix/mmcndmgr.dll.so
-* /usr/lib32/wine/i386-unix/mmdevapi.dll.so
-* /usr/lib32/wine/i386-unix/mmdevldr.vxd.so
-* /usr/lib32/wine/i386-unix/mmsystem.dll16.so
-* /usr/lib32/wine/i386-unix/mofcomp.exe.so
-* /usr/lib32/wine/i386-unix/monodebg.vxd.so
-* /usr/lib32/wine/i386-unix/mouhid.sys.so
-* /usr/lib32/wine/i386-unix/mountmgr.so
-* /usr/lib32/wine/i386-unix/mountmgr.sys.so
-* /usr/lib32/wine/i386-unix/mouse.drv16.so
-* /usr/lib32/wine/i386-unix/mp3dmod.dll.so
-* /usr/lib32/wine/i386-unix/mpr.dll.so
-* /usr/lib32/wine/i386-unix/mprapi.dll.so
-* /usr/lib32/wine/i386-unix/msacm.dll16.so
-* /usr/lib32/wine/i386-unix/msacm32.dll.so
-* /usr/lib32/wine/i386-unix/msacm32.drv.so
-* /usr/lib32/wine/i386-unix/msado15.dll.so
-* /usr/lib32/wine/i386-unix/msadp32.acm.so
-* /usr/lib32/wine/i386-unix/msasn1.dll.so
-* /usr/lib32/wine/i386-unix/msauddecmft.dll.so
-* /usr/lib32/wine/i386-unix/mscat32.dll.so
-* /usr/lib32/wine/i386-unix/mscms.dll.so
-* /usr/lib32/wine/i386-unix/mscoree.dll.so
-* /usr/lib32/wine/i386-unix/mscorwks.dll.so
-* /usr/lib32/wine/i386-unix/msctf.dll.so
-* /usr/lib32/wine/i386-unix/msctfmonitor.dll.so
-* /usr/lib32/wine/i386-unix/msctfp.dll.so
-* /usr/lib32/wine/i386-unix/msdaps.dll.so
-* /usr/lib32/wine/i386-unix/msdasql.dll.so
-* /usr/lib32/wine/i386-unix/msdelta.dll.so
-* /usr/lib32/wine/i386-unix/msdmo.dll.so
-* /usr/lib32/wine/i386-unix/msdrm.dll.so
-* /usr/lib32/wine/i386-unix/msftedit.dll.so
-* /usr/lib32/wine/i386-unix/msg711.acm.so
-* /usr/lib32/wine/i386-unix/msgsm32.acm.so
-* /usr/lib32/wine/i386-unix/mshta.exe.so
-* /usr/lib32/wine/i386-unix/mshtml.dll.so
-* /usr/lib32/wine/i386-unix/msi.dll.so
-* /usr/lib32/wine/i386-unix/msidb.exe.so
-* /usr/lib32/wine/i386-unix/msident.dll.so
-* /usr/lib32/wine/i386-unix/msiexec.exe.so
-* /usr/lib32/wine/i386-unix/msimg32.dll.so
-* /usr/lib32/wine/i386-unix/msimtf.dll.so
-* /usr/lib32/wine/i386-unix/msinfo32.exe.so
-* /usr/lib32/wine/i386-unix/msisip.dll.so
-* /usr/lib32/wine/i386-unix/msisys.ocx.so
-* /usr/lib32/wine/i386-unix/msls31.dll.so
-* /usr/lib32/wine/i386-unix/msmpeg2vdec.dll.so
-* /usr/lib32/wine/i386-unix/msnet32.dll.so
-* /usr/lib32/wine/i386-unix/mspatcha.dll.so
-* /usr/lib32/wine/i386-unix/msports.dll.so
-* /usr/lib32/wine/i386-unix/msrle32.dll.so
-* /usr/lib32/wine/i386-unix/msscript.ocx.so
-* /usr/lib32/wine/i386-unix/mssign32.dll.so
-* /usr/lib32/wine/i386-unix/mssip32.dll.so
-* /usr/lib32/wine/i386-unix/mstask.dll.so
-* /usr/lib32/wine/i386-unix/msttsengine.dll.so
-* /usr/lib32/wine/i386-unix/msv1_0.dll.so
-* /usr/lib32/wine/i386-unix/msv1_0.so
-* /usr/lib32/wine/i386-unix/msvcirt.dll.so
-* /usr/lib32/wine/i386-unix/msvcm80.dll.so
-* /usr/lib32/wine/i386-unix/msvcm90.dll.so
-* /usr/lib32/wine/i386-unix/msvcp100.dll.so
-* /usr/lib32/wine/i386-unix/msvcp110.dll.so
-* /usr/lib32/wine/i386-unix/msvcp120.dll.so
-* /usr/lib32/wine/i386-unix/msvcp120_app.dll.so
-* /usr/lib32/wine/i386-unix/msvcp140.dll.so
-* /usr/lib32/wine/i386-unix/msvcp140_1.dll.so
-* /usr/lib32/wine/i386-unix/msvcp140_2.dll.so
-* /usr/lib32/wine/i386-unix/msvcp140_atomic_wait.dll.so
-* /usr/lib32/wine/i386-unix/msvcp140_codecvt_ids.dll.so
-* /usr/lib32/wine/i386-unix/msvcp60.dll.so
-* /usr/lib32/wine/i386-unix/msvcp70.dll.so
-* /usr/lib32/wine/i386-unix/msvcp71.dll.so
-* /usr/lib32/wine/i386-unix/msvcp80.dll.so
-* /usr/lib32/wine/i386-unix/msvcp90.dll.so
-* /usr/lib32/wine/i386-unix/msvcp_win.dll.so
-* /usr/lib32/wine/i386-unix/msvcr100.dll.so
-* /usr/lib32/wine/i386-unix/msvcr110.dll.so
-* /usr/lib32/wine/i386-unix/msvcr120.dll.so
-* /usr/lib32/wine/i386-unix/msvcr120_app.dll.so
-* /usr/lib32/wine/i386-unix/msvcr70.dll.so
-* /usr/lib32/wine/i386-unix/msvcr71.dll.so
-* /usr/lib32/wine/i386-unix/msvcr80.dll.so
-* /usr/lib32/wine/i386-unix/msvcr90.dll.so
-* /usr/lib32/wine/i386-unix/msvcrt.dll.so
-* /usr/lib32/wine/i386-unix/msvcrt20.dll.so
-* /usr/lib32/wine/i386-unix/msvcrt40.dll.so
-* /usr/lib32/wine/i386-unix/msvcrtd.dll.so
-* /usr/lib32/wine/i386-unix/msvfw32.dll.so
-* /usr/lib32/wine/i386-unix/msvidc32.dll.so
-* /usr/lib32/wine/i386-unix/msvideo.dll16.so
-* /usr/lib32/wine/i386-unix/mswsock.dll.so
-* /usr/lib32/wine/i386-unix/msxml.dll.so
-* /usr/lib32/wine/i386-unix/msxml2.dll.so
-* /usr/lib32/wine/i386-unix/msxml3.dll.so
-* /usr/lib32/wine/i386-unix/msxml4.dll.so
-* /usr/lib32/wine/i386-unix/msxml6.dll.so
-* /usr/lib32/wine/i386-unix/mtxdm.dll.so
-* /usr/lib32/wine/i386-unix/ncrypt.dll.so
-* /usr/lib32/wine/i386-unix/nddeapi.dll.so
-* /usr/lib32/wine/i386-unix/ndis.sys.so
-* /usr/lib32/wine/i386-unix/net.exe.so
-* /usr/lib32/wine/i386-unix/netapi32.dll.so
-* /usr/lib32/wine/i386-unix/netapi32.so
-* /usr/lib32/wine/i386-unix/netcfgx.dll.so
-* /usr/lib32/wine/i386-unix/netio.sys.so
-* /usr/lib32/wine/i386-unix/netprofm.dll.so
-* /usr/lib32/wine/i386-unix/netsh.exe.so
-* /usr/lib32/wine/i386-unix/netstat.exe.so
-* /usr/lib32/wine/i386-unix/netutils.dll.so
-* /usr/lib32/wine/i386-unix/newdev.dll.so
-* /usr/lib32/wine/i386-unix/ngen.exe.so
-* /usr/lib32/wine/i386-unix/ninput.dll.so
-* /usr/lib32/wine/i386-unix/notepad.exe.so
-* /usr/lib32/wine/i386-unix/npmshtml.dll.so
-* /usr/lib32/wine/i386-unix/npptools.dll.so
-* /usr/lib32/wine/i386-unix/nsi.dll.so
-* /usr/lib32/wine/i386-unix/nsiproxy.so
-* /usr/lib32/wine/i386-unix/nsiproxy.sys.so
-* /usr/lib32/wine/i386-unix/ntdll.dll.so
-* /usr/lib32/wine/i386-unix/ntdll.so
-* /usr/lib32/wine/i386-unix/ntdsapi.dll.so
-* /usr/lib32/wine/i386-unix/ntoskrnl.exe.so
-* /usr/lib32/wine/i386-unix/ntprint.dll.so
-* /usr/lib32/wine/i386-unix/objsel.dll.so
-* /usr/lib32/wine/i386-unix/odbcbcp.dll.so
-* /usr/lib32/wine/i386-unix/odbccp32.dll.so
-* /usr/lib32/wine/i386-unix/odbccu32.dll.so
-* /usr/lib32/wine/i386-unix/ole2.dll16.so
-* /usr/lib32/wine/i386-unix/ole2conv.dll16.so
-* /usr/lib32/wine/i386-unix/ole2disp.dll16.so
-* /usr/lib32/wine/i386-unix/ole2nls.dll16.so
-* /usr/lib32/wine/i386-unix/ole2prox.dll16.so
-* /usr/lib32/wine/i386-unix/ole2thk.dll16.so
-* /usr/lib32/wine/i386-unix/ole32.dll.so
-* /usr/lib32/wine/i386-unix/oleacc.dll.so
-* /usr/lib32/wine/i386-unix/oleaut32.dll.so
-* /usr/lib32/wine/i386-unix/olecli.dll16.so
-* /usr/lib32/wine/i386-unix/olecli32.dll.so
-* /usr/lib32/wine/i386-unix/oledb32.dll.so
-* /usr/lib32/wine/i386-unix/oledlg.dll.so
-* /usr/lib32/wine/i386-unix/olepro32.dll.so
-* /usr/lib32/wine/i386-unix/olesvr.dll16.so
-* /usr/lib32/wine/i386-unix/olesvr32.dll.so
-* /usr/lib32/wine/i386-unix/olethk32.dll.so
-* /usr/lib32/wine/i386-unix/oleview.exe.so
-* /usr/lib32/wine/i386-unix/opcservices.dll.so
-* /usr/lib32/wine/i386-unix/opencl.dll.so
-* /usr/lib32/wine/i386-unix/opencl.so
-* /usr/lib32/wine/i386-unix/opengl32.dll.so
-* /usr/lib32/wine/i386-unix/opengl32.so
-* /usr/lib32/wine/i386-unix/packager.dll.so
-* /usr/lib32/wine/i386-unix/pdh.dll.so
-* /usr/lib32/wine/i386-unix/photometadatahandler.dll.so
-* /usr/lib32/wine/i386-unix/pidgen.dll.so
-* /usr/lib32/wine/i386-unix/ping.exe.so
-* /usr/lib32/wine/i386-unix/plugplay.exe.so
-* /usr/lib32/wine/i386-unix/pnputil.exe.so
-* /usr/lib32/wine/i386-unix/powershell.exe.so
-* /usr/lib32/wine/i386-unix/powrprof.dll.so
-* /usr/lib32/wine/i386-unix/presentationfontcache.exe.so
-* /usr/lib32/wine/i386-unix/printui.dll.so
-* /usr/lib32/wine/i386-unix/prntvpt.dll.so
-* /usr/lib32/wine/i386-unix/profapi.dll.so
-* /usr/lib32/wine/i386-unix/progman.exe.so
-* /usr/lib32/wine/i386-unix/propsys.dll.so
-* /usr/lib32/wine/i386-unix/psapi.dll.so
-* /usr/lib32/wine/i386-unix/pstorec.dll.so
-* /usr/lib32/wine/i386-unix/pwrshplugin.dll.so
-* /usr/lib32/wine/i386-unix/qasf.dll.so
-* /usr/lib32/wine/i386-unix/qcap.dll.so
-* /usr/lib32/wine/i386-unix/qcap.so
-* /usr/lib32/wine/i386-unix/qdvd.dll.so
-* /usr/lib32/wine/i386-unix/qedit.dll.so
-* /usr/lib32/wine/i386-unix/qmgr.dll.so
-* /usr/lib32/wine/i386-unix/qmgrprxy.dll.so
-* /usr/lib32/wine/i386-unix/quartz.dll.so
-* /usr/lib32/wine/i386-unix/query.dll.so
-* /usr/lib32/wine/i386-unix/qwave.dll.so
-* /usr/lib32/wine/i386-unix/rasapi16.dll16.so
-* /usr/lib32/wine/i386-unix/rasapi32.dll.so
-* /usr/lib32/wine/i386-unix/rasdlg.dll.so
-* /usr/lib32/wine/i386-unix/reg.exe.so
-* /usr/lib32/wine/i386-unix/regapi.dll.so
-* /usr/lib32/wine/i386-unix/regasm.exe.so
-* /usr/lib32/wine/i386-unix/regedit.exe.so
-* /usr/lib32/wine/i386-unix/regini.exe.so
-* /usr/lib32/wine/i386-unix/regsvcs.exe.so
-* /usr/lib32/wine/i386-unix/regsvr32.exe.so
-* /usr/lib32/wine/i386-unix/resutils.dll.so
-* /usr/lib32/wine/i386-unix/riched20.dll.so
-* /usr/lib32/wine/i386-unix/riched32.dll.so
-* /usr/lib32/wine/i386-unix/robocopy.exe.so
-* /usr/lib32/wine/i386-unix/rometadata.dll.so
-* /usr/lib32/wine/i386-unix/rpcrt4.dll.so
-* /usr/lib32/wine/i386-unix/rpcss.exe.so
-* /usr/lib32/wine/i386-unix/rsabase.dll.so
-* /usr/lib32/wine/i386-unix/rsaenh.dll.so
-* /usr/lib32/wine/i386-unix/rstrtmgr.dll.so
-* /usr/lib32/wine/i386-unix/rtutils.dll.so
-* /usr/lib32/wine/i386-unix/rtworkq.dll.so
-* /usr/lib32/wine/i386-unix/rundll.exe16.so
-* /usr/lib32/wine/i386-unix/rundll32.exe.so
-* /usr/lib32/wine/i386-unix/samlib.dll.so
-* /usr/lib32/wine/i386-unix/sapi.dll.so
-* /usr/lib32/wine/i386-unix/sas.dll.so
-* /usr/lib32/wine/i386-unix/sc.exe.so
-* /usr/lib32/wine/i386-unix/scarddlg.dll.so
-* /usr/lib32/wine/i386-unix/scardsvr.dll.so
-* /usr/lib32/wine/i386-unix/sccbase.dll.so
-* /usr/lib32/wine/i386-unix/schannel.dll.so
-* /usr/lib32/wine/i386-unix/schedsvc.dll.so
-* /usr/lib32/wine/i386-unix/schtasks.exe.so
-* /usr/lib32/wine/i386-unix/scrobj.dll.so
-* /usr/lib32/wine/i386-unix/scrrun.dll.so
-* /usr/lib32/wine/i386-unix/scsiport.sys.so
-* /usr/lib32/wine/i386-unix/sdbinst.exe.so
-* /usr/lib32/wine/i386-unix/secedit.exe.so
-* /usr/lib32/wine/i386-unix/sechost.dll.so
-* /usr/lib32/wine/i386-unix/secur32.dll.so
-* /usr/lib32/wine/i386-unix/secur32.so
-* /usr/lib32/wine/i386-unix/sensapi.dll.so
-* /usr/lib32/wine/i386-unix/serialui.dll.so
-* /usr/lib32/wine/i386-unix/servicemodelreg.exe.so
-* /usr/lib32/wine/i386-unix/services.exe.so
-* /usr/lib32/wine/i386-unix/setupapi.dll.so
-* /usr/lib32/wine/i386-unix/setupx.dll16.so
-* /usr/lib32/wine/i386-unix/setx.exe.so
-* /usr/lib32/wine/i386-unix/sfc_os.dll.so
-* /usr/lib32/wine/i386-unix/shcore.dll.so
-* /usr/lib32/wine/i386-unix/shdocvw.dll.so
-* /usr/lib32/wine/i386-unix/shell.dll16.so
-* /usr/lib32/wine/i386-unix/shell32.dll.so
-* /usr/lib32/wine/i386-unix/shfolder.dll.so
-* /usr/lib32/wine/i386-unix/shlwapi.dll.so
-* /usr/lib32/wine/i386-unix/shutdown.exe.so
-* /usr/lib32/wine/i386-unix/slbcsp.dll.so
-* /usr/lib32/wine/i386-unix/slc.dll.so
-* /usr/lib32/wine/i386-unix/snmpapi.dll.so
-* /usr/lib32/wine/i386-unix/softpub.dll.so
-* /usr/lib32/wine/i386-unix/sound.drv16.so
-* /usr/lib32/wine/i386-unix/spoolss.dll.so
-* /usr/lib32/wine/i386-unix/spoolsv.exe.so
-* /usr/lib32/wine/i386-unix/sppc.dll.so
-* /usr/lib32/wine/i386-unix/srclient.dll.so
-* /usr/lib32/wine/i386-unix/srvcli.dll.so
-* /usr/lib32/wine/i386-unix/srvsvc.dll.so
-* /usr/lib32/wine/i386-unix/sspicli.dll.so
-* /usr/lib32/wine/i386-unix/start.exe.so
-* /usr/lib32/wine/i386-unix/sti.dll.so
-* /usr/lib32/wine/i386-unix/storage.dll16.so
-* /usr/lib32/wine/i386-unix/stress.dll16.so
-* /usr/lib32/wine/i386-unix/strmdll.dll.so
-* /usr/lib32/wine/i386-unix/subst.exe.so
-* /usr/lib32/wine/i386-unix/svchost.exe.so
-* /usr/lib32/wine/i386-unix/svrapi.dll.so
-* /usr/lib32/wine/i386-unix/sxs.dll.so
-* /usr/lib32/wine/i386-unix/system.drv16.so
-* /usr/lib32/wine/i386-unix/systeminfo.exe.so
-* /usr/lib32/wine/i386-unix/t2embed.dll.so
-* /usr/lib32/wine/i386-unix/tapi32.dll.so
-* /usr/lib32/wine/i386-unix/taskkill.exe.so
-* /usr/lib32/wine/i386-unix/tasklist.exe.so
-* /usr/lib32/wine/i386-unix/taskmgr.exe.so
-* /usr/lib32/wine/i386-unix/taskschd.dll.so
-* /usr/lib32/wine/i386-unix/tbs.dll.so
-* /usr/lib32/wine/i386-unix/tdh.dll.so
-* /usr/lib32/wine/i386-unix/tdi.sys.so
-* /usr/lib32/wine/i386-unix/termsv.exe.so
-* /usr/lib32/wine/i386-unix/threadpoolwinrt.dll.so
-* /usr/lib32/wine/i386-unix/toolhelp.dll16.so
-* /usr/lib32/wine/i386-unix/traffic.dll.so
-* /usr/lib32/wine/i386-unix/twain.dll16.so
-* /usr/lib32/wine/i386-unix/twain_32.dll.so
-* /usr/lib32/wine/i386-unix/twinapi.appcore.dll.so
-* /usr/lib32/wine/i386-unix/typelib.dll16.so
-* /usr/lib32/wine/i386-unix/ucrtbase.dll.so
-* /usr/lib32/wine/i386-unix/uianimation.dll.so
-* /usr/lib32/wine/i386-unix/uiautomationcore.dll.so
-* /usr/lib32/wine/i386-unix/uiribbon.dll.so
-* /usr/lib32/wine/i386-unix/unicows.dll.so
-* /usr/lib32/wine/i386-unix/uninstaller.exe.so
-* /usr/lib32/wine/i386-unix/unlodctr.exe.so
-* /usr/lib32/wine/i386-unix/updspapi.dll.so
-* /usr/lib32/wine/i386-unix/url.dll.so
-* /usr/lib32/wine/i386-unix/urlmon.dll.so
-* /usr/lib32/wine/i386-unix/usbd.sys.so
-* /usr/lib32/wine/i386-unix/user.exe16.so
-* /usr/lib32/wine/i386-unix/user32.dll.so
-* /usr/lib32/wine/i386-unix/userenv.dll.so
-* /usr/lib32/wine/i386-unix/utildll.dll.so
-* /usr/lib32/wine/i386-unix/uxtheme.dll.so
-* /usr/lib32/wine/i386-unix/vbscript.dll.so
-* /usr/lib32/wine/i386-unix/vcomp.dll.so
-* /usr/lib32/wine/i386-unix/vcomp100.dll.so
-* /usr/lib32/wine/i386-unix/vcomp110.dll.so
-* /usr/lib32/wine/i386-unix/vcomp120.dll.so
-* /usr/lib32/wine/i386-unix/vcomp140.dll.so
-* /usr/lib32/wine/i386-unix/vcomp90.dll.so
-* /usr/lib32/wine/i386-unix/vcruntime140.dll.so
-* /usr/lib32/wine/i386-unix/vdhcp.vxd.so
-* /usr/lib32/wine/i386-unix/vdmdbg.dll.so
-* /usr/lib32/wine/i386-unix/ver.dll16.so
-* /usr/lib32/wine/i386-unix/version.dll.so
-* /usr/lib32/wine/i386-unix/vga.dll.so
-* /usr/lib32/wine/i386-unix/view.exe.so
-* /usr/lib32/wine/i386-unix/virtdisk.dll.so
-* /usr/lib32/wine/i386-unix/vmm.vxd.so
-* /usr/lib32/wine/i386-unix/vnbt.vxd.so
-* /usr/lib32/wine/i386-unix/vnetbios.vxd.so
-* /usr/lib32/wine/i386-unix/vssapi.dll.so
-* /usr/lib32/wine/i386-unix/vtdapi.vxd.so
-* /usr/lib32/wine/i386-unix/vulkan-1.dll.so
-* /usr/lib32/wine/i386-unix/vwin32.vxd.so
-* /usr/lib32/wine/i386-unix/w32skrnl.dll.so
-* /usr/lib32/wine/i386-unix/w32sys.dll16.so
-* /usr/lib32/wine/i386-unix/wbemdisp.dll.so
-* /usr/lib32/wine/i386-unix/wbemprox.dll.so
-* /usr/lib32/wine/i386-unix/wdscore.dll.so
-* /usr/lib32/wine/i386-unix/webservices.dll.so
-* /usr/lib32/wine/i386-unix/websocket.dll.so
-* /usr/lib32/wine/i386-unix/wer.dll.so
-* /usr/lib32/wine/i386-unix/wevtapi.dll.so
-* /usr/lib32/wine/i386-unix/wevtsvc.dll.so
-* /usr/lib32/wine/i386-unix/wevtutil.exe.so
-* /usr/lib32/wine/i386-unix/where.exe.so
-* /usr/lib32/wine/i386-unix/whoami.exe.so
-* /usr/lib32/wine/i386-unix/wiaservc.dll.so
-* /usr/lib32/wine/i386-unix/wimgapi.dll.so
-* /usr/lib32/wine/i386-unix/win32s16.dll16.so
-* /usr/lib32/wine/i386-unix/win32u.dll.so
-* /usr/lib32/wine/i386-unix/win32u.so
-* /usr/lib32/wine/i386-unix/win87em.dll16.so
-* /usr/lib32/wine/i386-unix/winaspi.dll16.so
-* /usr/lib32/wine/i386-unix/windebug.dll16.so
-* /usr/lib32/wine/i386-unix/windows.applicationmodel.dll.so
-* /usr/lib32/wine/i386-unix/windows.devices.bluetooth.dll.so
-* /usr/lib32/wine/i386-unix/windows.devices.enumeration.dll.so
-* /usr/lib32/wine/i386-unix/windows.devices.usb.dll.so
-* /usr/lib32/wine/i386-unix/windows.gaming.input.dll.so
-* /usr/lib32/wine/i386-unix/windows.gaming.ui.gamebar.dll.so
-* /usr/lib32/wine/i386-unix/windows.globalization.dll.so
-* /usr/lib32/wine/i386-unix/windows.media.devices.dll.so
-* /usr/lib32/wine/i386-unix/windows.media.dll.so
-* /usr/lib32/wine/i386-unix/windows.media.mediacontrol.dll.so
-* /usr/lib32/wine/i386-unix/windows.media.speech.dll.so
-* /usr/lib32/wine/i386-unix/windows.networking.dll.so
-* /usr/lib32/wine/i386-unix/windows.networking.hostname.dll.so
-* /usr/lib32/wine/i386-unix/windows.perception.stub.dll.so
-* /usr/lib32/wine/i386-unix/windows.security.authentication.onlineid.dll.so
-* /usr/lib32/wine/i386-unix/windows.security.credentials.ui.userconsentverifier.dll.so
-* /usr/lib32/wine/i386-unix/windows.storage.applicationdata.dll.so
-* /usr/lib32/wine/i386-unix/windows.system.profile.systemmanufacturers.dll.so
-* /usr/lib32/wine/i386-unix/windows.ui.dll.so
-* /usr/lib32/wine/i386-unix/windows.web.dll.so
-* /usr/lib32/wine/i386-unix/windowscodecs.dll.so
-* /usr/lib32/wine/i386-unix/windowscodecsext.dll.so
-* /usr/lib32/wine/i386-unix/wineboot.exe.so
-* /usr/lib32/wine/i386-unix/winebrowser.exe.so
-* /usr/lib32/wine/i386-unix/winebus.so
-* /usr/lib32/wine/i386-unix/winebus.sys.so
-* /usr/lib32/wine/i386-unix/winecfg.exe.so
-* /usr/lib32/wine/i386-unix/wineconsole.exe.so
-* /usr/lib32/wine/i386-unix/wined3d.dll.so
-* /usr/lib32/wine/i386-unix/winedbg.exe.so
-* /usr/lib32/wine/i386-unix/winedevice.exe.so
-* /usr/lib32/wine/i386-unix/winefile.exe.so
-* /usr/lib32/wine/i386-unix/winehid.sys.so
-* /usr/lib32/wine/i386-unix/winemapi.dll.so
-* /usr/lib32/wine/i386-unix/winemenubuilder.exe.so
-* /usr/lib32/wine/i386-unix/winemine.exe.so
-* /usr/lib32/wine/i386-unix/winemsibuilder.exe.so
-* /usr/lib32/wine/i386-unix/winepath.exe.so
-* /usr/lib32/wine/i386-unix/wineps.drv.so
-* /usr/lib32/wine/i386-unix/wineps.so
-* /usr/lib32/wine/i386-unix/wineps16.drv16.so
-* /usr/lib32/wine/i386-unix/winevdm.exe.so
-* /usr/lib32/wine/i386-unix/winevulkan.dll.so
-* /usr/lib32/wine/i386-unix/winevulkan.so
-* /usr/lib32/wine/i386-unix/winex11.drv.so
-* /usr/lib32/wine/i386-unix/winex11.so
-* /usr/lib32/wine/i386-unix/winexinput.sys.so
-* /usr/lib32/wine/i386-unix/wing.dll16.so
-* /usr/lib32/wine/i386-unix/wing32.dll.so
-* /usr/lib32/wine/i386-unix/winhelp.exe16.so
-* /usr/lib32/wine/i386-unix/winhlp32.exe.so
-* /usr/lib32/wine/i386-unix/winhttp.dll.so
-* /usr/lib32/wine/i386-unix/wininet.dll.so
-* /usr/lib32/wine/i386-unix/winmgmt.exe.so
-* /usr/lib32/wine/i386-unix/winmm.dll.so
-* /usr/lib32/wine/i386-unix/winnls.dll16.so
-* /usr/lib32/wine/i386-unix/winnls32.dll.so
-* /usr/lib32/wine/i386-unix/winoldap.mod16.so
-* /usr/lib32/wine/i386-unix/winprint.dll.so
-* /usr/lib32/wine/i386-unix/winsock.dll16.so
-* /usr/lib32/wine/i386-unix/winspool.drv.so
-* /usr/lib32/wine/i386-unix/winspool.so
-* /usr/lib32/wine/i386-unix/winsta.dll.so
-* /usr/lib32/wine/i386-unix/wintab.dll16.so
-* /usr/lib32/wine/i386-unix/wintab32.dll.so
-* /usr/lib32/wine/i386-unix/wintrust.dll.so
-* /usr/lib32/wine/i386-unix/wintypes.dll.so
-* /usr/lib32/wine/i386-unix/winusb.dll.so
-* /usr/lib32/wine/i386-unix/winver.exe.so
-* /usr/lib32/wine/i386-unix/wlanapi.dll.so
-* /usr/lib32/wine/i386-unix/wlanui.dll.so
-* /usr/lib32/wine/i386-unix/wldap32.dll.so
-* /usr/lib32/wine/i386-unix/wldp.dll.so
-* /usr/lib32/wine/i386-unix/wmasf.dll.so
-* /usr/lib32/wine/i386-unix/wmic.exe.so
-* /usr/lib32/wine/i386-unix/wmiutils.dll.so
-* /usr/lib32/wine/i386-unix/wmp.dll.so
-* /usr/lib32/wine/i386-unix/wmphoto.dll.so
-* /usr/lib32/wine/i386-unix/wmplayer.exe.so
-* /usr/lib32/wine/i386-unix/wmvcore.dll.so
-* /usr/lib32/wine/i386-unix/wnaspi32.dll.so
-* /usr/lib32/wine/i386-unix/wofutil.dll.so
-* /usr/lib32/wine/i386-unix/wordpad.exe.so
-* /usr/lib32/wine/i386-unix/wow32.dll.so
-* /usr/lib32/wine/i386-unix/wpc.dll.so
-* /usr/lib32/wine/i386-unix/write.exe.so
-* /usr/lib32/wine/i386-unix/ws2_32.dll.so
-* /usr/lib32/wine/i386-unix/ws2_32.so
-* /usr/lib32/wine/i386-unix/wscript.exe.so
-* /usr/lib32/wine/i386-unix/wsdapi.dll.so
-* /usr/lib32/wine/i386-unix/wshom.ocx.so
-* /usr/lib32/wine/i386-unix/wsnmp32.dll.so
-* /usr/lib32/wine/i386-unix/wsock32.dll.so
-* /usr/lib32/wine/i386-unix/wtsapi32.dll.so
-* /usr/lib32/wine/i386-unix/wuapi.dll.so
-* /usr/lib32/wine/i386-unix/wuaueng.dll.so
-* /usr/lib32/wine/i386-unix/wuauserv.exe.so
-* /usr/lib32/wine/i386-unix/wusa.exe.so
-* /usr/lib32/wine/i386-unix/x3daudio1_0.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_1.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_2.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_3.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_4.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_5.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_6.dll.so
-* /usr/lib32/wine/i386-unix/x3daudio1_7.dll.so
-* /usr/lib32/wine/i386-unix/xactengine2_0.dll.so
-* /usr/lib32/wine/i386-unix/xactengine2_4.dll.so
-* /usr/lib32/wine/i386-unix/xactengine2_7.dll.so
-* /usr/lib32/wine/i386-unix/xactengine2_9.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_0.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_1.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_2.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_3.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_4.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_5.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_6.dll.so
-* /usr/lib32/wine/i386-unix/xactengine3_7.dll.so
-* /usr/lib32/wine/i386-unix/xapofx1_1.dll.so
-* /usr/lib32/wine/i386-unix/xapofx1_2.dll.so
-* /usr/lib32/wine/i386-unix/xapofx1_3.dll.so
-* /usr/lib32/wine/i386-unix/xapofx1_4.dll.so
-* /usr/lib32/wine/i386-unix/xapofx1_5.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_0.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_1.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_2.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_3.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_4.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_5.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_6.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_7.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_8.dll.so
-* /usr/lib32/wine/i386-unix/xaudio2_9.dll.so
-* /usr/lib32/wine/i386-unix/xcopy.exe.so
-* /usr/lib32/wine/i386-unix/xinput1_1.dll.so
-* /usr/lib32/wine/i386-unix/xinput1_2.dll.so
-* /usr/lib32/wine/i386-unix/xinput1_3.dll.so
-* /usr/lib32/wine/i386-unix/xinput1_4.dll.so
-* /usr/lib32/wine/i386-unix/xinput9_1_0.dll.so
-* /usr/lib32/wine/i386-unix/xinputuap.dll.so
-* /usr/lib32/wine/i386-unix/xmllite.dll.so
-* /usr/lib32/wine/i386-unix/xolehlp.dll.so
-* /usr/lib32/wine/i386-unix/xpsprint.dll.so
-* /usr/lib32/wine/i386-unix/xpssvcs.dll.so
-* /usr/lib32/wine/i386-windows/acledit.dll
-* /usr/lib32/wine/i386-windows/aclui.dll
-* /usr/lib32/wine/i386-windows/activeds.dll
-* /usr/lib32/wine/i386-windows/activeds.tlb
-* /usr/lib32/wine/i386-windows/actxprxy.dll
-* /usr/lib32/wine/i386-windows/adsldp.dll
-* /usr/lib32/wine/i386-windows/adsldpc.dll
-* /usr/lib32/wine/i386-windows/advapi32.dll
-* /usr/lib32/wine/i386-windows/advpack.dll
-* /usr/lib32/wine/i386-windows/amsi.dll
-* /usr/lib32/wine/i386-windows/amstream.dll
-* /usr/lib32/wine/i386-windows/apisetschema.dll
-* /usr/lib32/wine/i386-windows/apphelp.dll
-* /usr/lib32/wine/i386-windows/appwiz.cpl
-* /usr/lib32/wine/i386-windows/appxdeploymentclient.dll
-* /usr/lib32/wine/i386-windows/arp.exe
-* /usr/lib32/wine/i386-windows/aspnet_regiis.exe
-* /usr/lib32/wine/i386-windows/atl.dll
-* /usr/lib32/wine/i386-windows/atl100.dll
-* /usr/lib32/wine/i386-windows/atl110.dll
-* /usr/lib32/wine/i386-windows/atl80.dll
-* /usr/lib32/wine/i386-windows/atl90.dll
-* /usr/lib32/wine/i386-windows/atlthunk.dll
-* /usr/lib32/wine/i386-windows/atmlib.dll
-* /usr/lib32/wine/i386-windows/attrib.exe
-* /usr/lib32/wine/i386-windows/authz.dll
-* /usr/lib32/wine/i386-windows/avicap32.dll
-* /usr/lib32/wine/i386-windows/avifil32.dll
-* /usr/lib32/wine/i386-windows/avifile.dll16
-* /usr/lib32/wine/i386-windows/avrt.dll
-* /usr/lib32/wine/i386-windows/bcp47langs.dll
-* /usr/lib32/wine/i386-windows/bcrypt.dll
-* /usr/lib32/wine/i386-windows/bcryptprimitives.dll
-* /usr/lib32/wine/i386-windows/bluetoothapis.dll
-* /usr/lib32/wine/i386-windows/browseui.dll
-* /usr/lib32/wine/i386-windows/bthprops.cpl
-* /usr/lib32/wine/i386-windows/cabarc.exe
-* /usr/lib32/wine/i386-windows/cabinet.dll
-* /usr/lib32/wine/i386-windows/cacls.exe
-* /usr/lib32/wine/i386-windows/cards.dll
-* /usr/lib32/wine/i386-windows/cdosys.dll
-* /usr/lib32/wine/i386-windows/certutil.exe
-* /usr/lib32/wine/i386-windows/cfgmgr32.dll
-* /usr/lib32/wine/i386-windows/chcp.com
-* /usr/lib32/wine/i386-windows/clock.exe
-* /usr/lib32/wine/i386-windows/clusapi.dll
-* /usr/lib32/wine/i386-windows/cmd.exe
-* /usr/lib32/wine/i386-windows/cng.sys
-* /usr/lib32/wine/i386-windows/combase.dll
-* /usr/lib32/wine/i386-windows/comcat.dll
-* /usr/lib32/wine/i386-windows/comctl32.dll
-* /usr/lib32/wine/i386-windows/comdlg32.dll
-* /usr/lib32/wine/i386-windows/coml2.dll
-* /usr/lib32/wine/i386-windows/comm.drv16
-* /usr/lib32/wine/i386-windows/commdlg.dll16
-* /usr/lib32/wine/i386-windows/compobj.dll16
-* /usr/lib32/wine/i386-windows/compstui.dll
-* /usr/lib32/wine/i386-windows/comsvcs.dll
-* /usr/lib32/wine/i386-windows/concrt140.dll
-* /usr/lib32/wine/i386-windows/conhost.exe
-* /usr/lib32/wine/i386-windows/connect.dll
-* /usr/lib32/wine/i386-windows/control.exe
-* /usr/lib32/wine/i386-windows/coremessaging.dll
-* /usr/lib32/wine/i386-windows/credui.dll
-* /usr/lib32/wine/i386-windows/crtdll.dll
-* /usr/lib32/wine/i386-windows/crypt32.dll
-* /usr/lib32/wine/i386-windows/cryptdlg.dll
-* /usr/lib32/wine/i386-windows/cryptdll.dll
-* /usr/lib32/wine/i386-windows/cryptext.dll
-* /usr/lib32/wine/i386-windows/cryptnet.dll
-* /usr/lib32/wine/i386-windows/cryptowinrt.dll
-* /usr/lib32/wine/i386-windows/cryptsp.dll
-* /usr/lib32/wine/i386-windows/cryptui.dll
-* /usr/lib32/wine/i386-windows/cscript.exe
-* /usr/lib32/wine/i386-windows/ctapi32.dll
-* /usr/lib32/wine/i386-windows/ctl3d.dll16
-* /usr/lib32/wine/i386-windows/ctl3d32.dll
-* /usr/lib32/wine/i386-windows/ctl3dv2.dll16
-* /usr/lib32/wine/i386-windows/d2d1.dll
-* /usr/lib32/wine/i386-windows/d3d10.dll
-* /usr/lib32/wine/i386-windows/d3d10core.dll
-* /usr/lib32/wine/i386-windows/d3d10_1.dll
-* /usr/lib32/wine/i386-windows/d3d11.dll
-* /usr/lib32/wine/i386-windows/d3d12.dll
-* /usr/lib32/wine/i386-windows/d3d12core.dll
-* /usr/lib32/wine/i386-windows/d3d8.dll
-* /usr/lib32/wine/i386-windows/d3d8thk.dll
-* /usr/lib32/wine/i386-windows/d3d9.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_33.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_34.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_35.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_36.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_37.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_38.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_39.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_40.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_41.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_42.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_43.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_46.dll
-* /usr/lib32/wine/i386-windows/d3dcompiler_47.dll
-* /usr/lib32/wine/i386-windows/d3dim.dll
-* /usr/lib32/wine/i386-windows/d3dim700.dll
-* /usr/lib32/wine/i386-windows/d3drm.dll
-* /usr/lib32/wine/i386-windows/d3dx10_33.dll
-* /usr/lib32/wine/i386-windows/d3dx10_34.dll
-* /usr/lib32/wine/i386-windows/d3dx10_35.dll
-* /usr/lib32/wine/i386-windows/d3dx10_36.dll
-* /usr/lib32/wine/i386-windows/d3dx10_37.dll
-* /usr/lib32/wine/i386-windows/d3dx10_38.dll
-* /usr/lib32/wine/i386-windows/d3dx10_39.dll
-* /usr/lib32/wine/i386-windows/d3dx10_40.dll
-* /usr/lib32/wine/i386-windows/d3dx10_41.dll
-* /usr/lib32/wine/i386-windows/d3dx10_42.dll
-* /usr/lib32/wine/i386-windows/d3dx10_43.dll
-* /usr/lib32/wine/i386-windows/d3dx11_42.dll
-* /usr/lib32/wine/i386-windows/d3dx11_43.dll
-* /usr/lib32/wine/i386-windows/d3dx9_24.dll
-* /usr/lib32/wine/i386-windows/d3dx9_25.dll
-* /usr/lib32/wine/i386-windows/d3dx9_26.dll
-* /usr/lib32/wine/i386-windows/d3dx9_27.dll
-* /usr/lib32/wine/i386-windows/d3dx9_28.dll
-* /usr/lib32/wine/i386-windows/d3dx9_29.dll
-* /usr/lib32/wine/i386-windows/d3dx9_30.dll
-* /usr/lib32/wine/i386-windows/d3dx9_31.dll
-* /usr/lib32/wine/i386-windows/d3dx9_32.dll
-* /usr/lib32/wine/i386-windows/d3dx9_33.dll
-* /usr/lib32/wine/i386-windows/d3dx9_34.dll
-* /usr/lib32/wine/i386-windows/d3dx9_35.dll
-* /usr/lib32/wine/i386-windows/d3dx9_36.dll
-* /usr/lib32/wine/i386-windows/d3dx9_37.dll
-* /usr/lib32/wine/i386-windows/d3dx9_38.dll
-* /usr/lib32/wine/i386-windows/d3dx9_39.dll
-* /usr/lib32/wine/i386-windows/d3dx9_40.dll
-* /usr/lib32/wine/i386-windows/d3dx9_41.dll
-* /usr/lib32/wine/i386-windows/d3dx9_42.dll
-* /usr/lib32/wine/i386-windows/d3dx9_43.dll
-* /usr/lib32/wine/i386-windows/d3dxof.dll
-* /usr/lib32/wine/i386-windows/davclnt.dll
-* /usr/lib32/wine/i386-windows/dbgeng.dll
-* /usr/lib32/wine/i386-windows/dbghelp.dll
-* /usr/lib32/wine/i386-windows/dciman32.dll
-* /usr/lib32/wine/i386-windows/dcomp.dll
-* /usr/lib32/wine/i386-windows/ddeml.dll16
-* /usr/lib32/wine/i386-windows/ddraw.dll
-* /usr/lib32/wine/i386-windows/ddrawex.dll
-* /usr/lib32/wine/i386-windows/devenum.dll
-* /usr/lib32/wine/i386-windows/dhcpcsvc.dll
-* /usr/lib32/wine/i386-windows/dhcpcsvc6.dll
-* /usr/lib32/wine/i386-windows/dhtmled.ocx
-* /usr/lib32/wine/i386-windows/diasymreader.dll
-* /usr/lib32/wine/i386-windows/difxapi.dll
-* /usr/lib32/wine/i386-windows/dinput.dll
-* /usr/lib32/wine/i386-windows/dinput8.dll
-* /usr/lib32/wine/i386-windows/directmanipulation.dll
-* /usr/lib32/wine/i386-windows/dism.exe
-* /usr/lib32/wine/i386-windows/dispdib.dll16
-* /usr/lib32/wine/i386-windows/dispex.dll
-* /usr/lib32/wine/i386-windows/display.drv16
-* /usr/lib32/wine/i386-windows/dllhost.exe
-* /usr/lib32/wine/i386-windows/dmband.dll
-* /usr/lib32/wine/i386-windows/dmcompos.dll
-* /usr/lib32/wine/i386-windows/dmime.dll
-* /usr/lib32/wine/i386-windows/dmloader.dll
-* /usr/lib32/wine/i386-windows/dmscript.dll
-* /usr/lib32/wine/i386-windows/dmstyle.dll
-* /usr/lib32/wine/i386-windows/dmsynth.dll
-* /usr/lib32/wine/i386-windows/dmusic.dll
-* /usr/lib32/wine/i386-windows/dmusic32.dll
-* /usr/lib32/wine/i386-windows/dnsapi.dll
-* /usr/lib32/wine/i386-windows/dplay.dll
-* /usr/lib32/wine/i386-windows/dplaysvr.exe
-* /usr/lib32/wine/i386-windows/dplayx.dll
-* /usr/lib32/wine/i386-windows/dpnaddr.dll
-* /usr/lib32/wine/i386-windows/dpnet.dll
-* /usr/lib32/wine/i386-windows/dpnhpast.dll
-* /usr/lib32/wine/i386-windows/dpnhupnp.dll
-* /usr/lib32/wine/i386-windows/dpnlobby.dll
-* /usr/lib32/wine/i386-windows/dpnsvr.exe
-* /usr/lib32/wine/i386-windows/dpvoice.dll
-* /usr/lib32/wine/i386-windows/dpvsetup.exe
-* /usr/lib32/wine/i386-windows/dpwsockx.dll
-* /usr/lib32/wine/i386-windows/drmclien.dll
-* /usr/lib32/wine/i386-windows/dsdmo.dll
-* /usr/lib32/wine/i386-windows/dsound.dll
-* /usr/lib32/wine/i386-windows/dsquery.dll
-* /usr/lib32/wine/i386-windows/dssenh.dll
-* /usr/lib32/wine/i386-windows/dsuiext.dll
-* /usr/lib32/wine/i386-windows/dswave.dll
-* /usr/lib32/wine/i386-windows/dwmapi.dll
-* /usr/lib32/wine/i386-windows/dwrite.dll
-* /usr/lib32/wine/i386-windows/dx8vb.dll
-* /usr/lib32/wine/i386-windows/dxcore.dll
-* /usr/lib32/wine/i386-windows/dxdiag.exe
-* /usr/lib32/wine/i386-windows/dxdiagn.dll
-* /usr/lib32/wine/i386-windows/dxgi.dll
-* /usr/lib32/wine/i386-windows/dxtrans.dll
-* /usr/lib32/wine/i386-windows/dxva2.dll
-* /usr/lib32/wine/i386-windows/eject.exe
-* /usr/lib32/wine/i386-windows/esent.dll
-* /usr/lib32/wine/i386-windows/evr.dll
-* /usr/lib32/wine/i386-windows/expand.exe
-* /usr/lib32/wine/i386-windows/explorer.exe
-* /usr/lib32/wine/i386-windows/explorerframe.dll
-* /usr/lib32/wine/i386-windows/extrac32.exe
-* /usr/lib32/wine/i386-windows/faultrep.dll
-* /usr/lib32/wine/i386-windows/fc.exe
-* /usr/lib32/wine/i386-windows/feclient.dll
-* /usr/lib32/wine/i386-windows/find.exe
-* /usr/lib32/wine/i386-windows/findstr.exe
-* /usr/lib32/wine/i386-windows/fltlib.dll
-* /usr/lib32/wine/i386-windows/fltmgr.sys
-* /usr/lib32/wine/i386-windows/fntcache.dll
-* /usr/lib32/wine/i386-windows/fontsub.dll
-* /usr/lib32/wine/i386-windows/fsutil.exe
-* /usr/lib32/wine/i386-windows/fusion.dll
-* /usr/lib32/wine/i386-windows/fwpuclnt.dll
-* /usr/lib32/wine/i386-windows/gameux.dll
-* /usr/lib32/wine/i386-windows/gamingtcui.dll
-* /usr/lib32/wine/i386-windows/gdi.exe16
-* /usr/lib32/wine/i386-windows/gdi32.dll
-* /usr/lib32/wine/i386-windows/gdiplus.dll
-* /usr/lib32/wine/i386-windows/geolocation.dll
-* /usr/lib32/wine/i386-windows/glu32.dll
-* /usr/lib32/wine/i386-windows/gpkcsp.dll
-* /usr/lib32/wine/i386-windows/graphicscapture.dll
-* /usr/lib32/wine/i386-windows/hal.dll
-* /usr/lib32/wine/i386-windows/hh.exe
-* /usr/lib32/wine/i386-windows/hhctrl.ocx
-* /usr/lib32/wine/i386-windows/hid.dll
-* /usr/lib32/wine/i386-windows/hidclass.sys
-* /usr/lib32/wine/i386-windows/hidparse.sys
-* /usr/lib32/wine/i386-windows/hlink.dll
-* /usr/lib32/wine/i386-windows/hnetcfg.dll
-* /usr/lib32/wine/i386-windows/hostname.exe
-* /usr/lib32/wine/i386-windows/hrtfapo.dll
-* /usr/lib32/wine/i386-windows/http.sys
-* /usr/lib32/wine/i386-windows/httpapi.dll
-* /usr/lib32/wine/i386-windows/hvsimanagementapi.dll
-* /usr/lib32/wine/i386-windows/ia2comproxy.dll
-* /usr/lib32/wine/i386-windows/icacls.exe
-* /usr/lib32/wine/i386-windows/iccvid.dll
-* /usr/lib32/wine/i386-windows/icinfo.exe
-* /usr/lib32/wine/i386-windows/icmp.dll
-* /usr/lib32/wine/i386-windows/ieframe.dll
-* /usr/lib32/wine/i386-windows/ieproxy.dll
-* /usr/lib32/wine/i386-windows/iexplore.exe
-* /usr/lib32/wine/i386-windows/ifsmgr.vxd
-* /usr/lib32/wine/i386-windows/imaadp32.acm
-* /usr/lib32/wine/i386-windows/imagehlp.dll
-* /usr/lib32/wine/i386-windows/imm.dll16
-* /usr/lib32/wine/i386-windows/imm32.dll
-* /usr/lib32/wine/i386-windows/inetcomm.dll
-* /usr/lib32/wine/i386-windows/inetcpl.cpl
-* /usr/lib32/wine/i386-windows/inetmib1.dll
-* /usr/lib32/wine/i386-windows/infosoft.dll
-* /usr/lib32/wine/i386-windows/initpki.dll
-* /usr/lib32/wine/i386-windows/inkobj.dll
-* /usr/lib32/wine/i386-windows/inseng.dll
-* /usr/lib32/wine/i386-windows/ipconfig.exe
-* /usr/lib32/wine/i386-windows/iphlpapi.dll
-* /usr/lib32/wine/i386-windows/iprop.dll
-* /usr/lib32/wine/i386-windows/ir50_32.dll
-* /usr/lib32/wine/i386-windows/irprops.cpl
-* /usr/lib32/wine/i386-windows/itircl.dll
-* /usr/lib32/wine/i386-windows/itss.dll
-* /usr/lib32/wine/i386-windows/joy.cpl
-* /usr/lib32/wine/i386-windows/jscript.dll
-* /usr/lib32/wine/i386-windows/jsproxy.dll
-* /usr/lib32/wine/i386-windows/kerberos.dll
-* /usr/lib32/wine/i386-windows/kernel32.dll
-* /usr/lib32/wine/i386-windows/kernelbase.dll
-* /usr/lib32/wine/i386-windows/keyboard.drv16
-* /usr/lib32/wine/i386-windows/klist.exe
-* /usr/lib32/wine/i386-windows/krnl386.exe16
-* /usr/lib32/wine/i386-windows/ksecdd.sys
-* /usr/lib32/wine/i386-windows/ksproxy.ax
-* /usr/lib32/wine/i386-windows/ksuser.dll
-* /usr/lib32/wine/i386-windows/ktmw32.dll
-* /usr/lib32/wine/i386-windows/l3codeca.acm
-* /usr/lib32/wine/i386-windows/light.msstyles
-* /usr/lib32/wine/i386-windows/loadperf.dll
-* /usr/lib32/wine/i386-windows/localspl.dll
-* /usr/lib32/wine/i386-windows/localui.dll
-* /usr/lib32/wine/i386-windows/lodctr.exe
-* /usr/lib32/wine/i386-windows/lz32.dll
-* /usr/lib32/wine/i386-windows/lzexpand.dll16
-* /usr/lib32/wine/i386-windows/magnification.dll
-* /usr/lib32/wine/i386-windows/mapi32.dll
-* /usr/lib32/wine/i386-windows/mapistub.dll
-* /usr/lib32/wine/i386-windows/mciavi32.dll
-* /usr/lib32/wine/i386-windows/mcicda.dll
-* /usr/lib32/wine/i386-windows/mciqtz32.dll
-* /usr/lib32/wine/i386-windows/mciseq.dll
-* /usr/lib32/wine/i386-windows/mciwave.dll
-* /usr/lib32/wine/i386-windows/mf.dll
-* /usr/lib32/wine/i386-windows/mf3216.dll
-* /usr/lib32/wine/i386-windows/mferror.dll
-* /usr/lib32/wine/i386-windows/mfmediaengine.dll
-* /usr/lib32/wine/i386-windows/mfplat.dll
-* /usr/lib32/wine/i386-windows/mfplay.dll
-* /usr/lib32/wine/i386-windows/mfreadwrite.dll
-* /usr/lib32/wine/i386-windows/mfsrcsnk.dll
-* /usr/lib32/wine/i386-windows/mgmtapi.dll
-* /usr/lib32/wine/i386-windows/midimap.dll
-* /usr/lib32/wine/i386-windows/mlang.dll
-* /usr/lib32/wine/i386-windows/mmcndmgr.dll
-* /usr/lib32/wine/i386-windows/mmdevapi.dll
-* /usr/lib32/wine/i386-windows/mmdevldr.vxd
-* /usr/lib32/wine/i386-windows/mmsystem.dll16
-* /usr/lib32/wine/i386-windows/mofcomp.exe
-* /usr/lib32/wine/i386-windows/monodebg.vxd
-* /usr/lib32/wine/i386-windows/mouhid.sys
-* /usr/lib32/wine/i386-windows/mountmgr.sys
-* /usr/lib32/wine/i386-windows/mouse.drv16
-* /usr/lib32/wine/i386-windows/mp3dmod.dll
-* /usr/lib32/wine/i386-windows/mpr.dll
-* /usr/lib32/wine/i386-windows/mprapi.dll
-* /usr/lib32/wine/i386-windows/msacm.dll16
-* /usr/lib32/wine/i386-windows/msacm32.dll
-* /usr/lib32/wine/i386-windows/msacm32.drv
-* /usr/lib32/wine/i386-windows/msado15.dll
-* /usr/lib32/wine/i386-windows/msadp32.acm
-* /usr/lib32/wine/i386-windows/msasn1.dll
-* /usr/lib32/wine/i386-windows/msauddecmft.dll
-* /usr/lib32/wine/i386-windows/mscat32.dll
-* /usr/lib32/wine/i386-windows/mscms.dll
-* /usr/lib32/wine/i386-windows/mscoree.dll
-* /usr/lib32/wine/i386-windows/mscorwks.dll
-* /usr/lib32/wine/i386-windows/msctf.dll
-* /usr/lib32/wine/i386-windows/msctfmonitor.dll
-* /usr/lib32/wine/i386-windows/msctfp.dll
-* /usr/lib32/wine/i386-windows/msdaps.dll
-* /usr/lib32/wine/i386-windows/msdasql.dll
-* /usr/lib32/wine/i386-windows/msdelta.dll
-* /usr/lib32/wine/i386-windows/msdmo.dll
-* /usr/lib32/wine/i386-windows/msdrm.dll
-* /usr/lib32/wine/i386-windows/msftedit.dll
-* /usr/lib32/wine/i386-windows/msg711.acm
-* /usr/lib32/wine/i386-windows/msgsm32.acm
-* /usr/lib32/wine/i386-windows/mshta.exe
-* /usr/lib32/wine/i386-windows/mshtml.dll
-* /usr/lib32/wine/i386-windows/mshtml.tlb
-* /usr/lib32/wine/i386-windows/msi.dll
-* /usr/lib32/wine/i386-windows/msidb.exe
-* /usr/lib32/wine/i386-windows/msident.dll
-* /usr/lib32/wine/i386-windows/msiexec.exe
-* /usr/lib32/wine/i386-windows/msimg32.dll
-* /usr/lib32/wine/i386-windows/msimsg.dll
-* /usr/lib32/wine/i386-windows/msimtf.dll
-* /usr/lib32/wine/i386-windows/msinfo32.exe
-* /usr/lib32/wine/i386-windows/msisip.dll
-* /usr/lib32/wine/i386-windows/msisys.ocx
-* /usr/lib32/wine/i386-windows/msls31.dll
-* /usr/lib32/wine/i386-windows/msmpeg2vdec.dll
-* /usr/lib32/wine/i386-windows/msnet32.dll
-* /usr/lib32/wine/i386-windows/mspatcha.dll
-* /usr/lib32/wine/i386-windows/msports.dll
-* /usr/lib32/wine/i386-windows/msrle32.dll
-* /usr/lib32/wine/i386-windows/msscript.ocx
-* /usr/lib32/wine/i386-windows/mssign32.dll
-* /usr/lib32/wine/i386-windows/mssip32.dll
-* /usr/lib32/wine/i386-windows/mstask.dll
-* /usr/lib32/wine/i386-windows/msttsengine.dll
-* /usr/lib32/wine/i386-windows/msv1_0.dll
-* /usr/lib32/wine/i386-windows/msvcirt.dll
-* /usr/lib32/wine/i386-windows/msvcm80.dll
-* /usr/lib32/wine/i386-windows/msvcm90.dll
-* /usr/lib32/wine/i386-windows/msvcp100.dll
-* /usr/lib32/wine/i386-windows/msvcp110.dll
-* /usr/lib32/wine/i386-windows/msvcp120.dll
-* /usr/lib32/wine/i386-windows/msvcp120_app.dll
-* /usr/lib32/wine/i386-windows/msvcp140.dll
-* /usr/lib32/wine/i386-windows/msvcp140_1.dll
-* /usr/lib32/wine/i386-windows/msvcp140_2.dll
-* /usr/lib32/wine/i386-windows/msvcp140_atomic_wait.dll
-* /usr/lib32/wine/i386-windows/msvcp140_codecvt_ids.dll
-* /usr/lib32/wine/i386-windows/msvcp60.dll
-* /usr/lib32/wine/i386-windows/msvcp70.dll
-* /usr/lib32/wine/i386-windows/msvcp71.dll
-* /usr/lib32/wine/i386-windows/msvcp80.dll
-* /usr/lib32/wine/i386-windows/msvcp90.dll
-* /usr/lib32/wine/i386-windows/msvcp_win.dll
-* /usr/lib32/wine/i386-windows/msvcr100.dll
-* /usr/lib32/wine/i386-windows/msvcr110.dll
-* /usr/lib32/wine/i386-windows/msvcr120.dll
-* /usr/lib32/wine/i386-windows/msvcr120_app.dll
-* /usr/lib32/wine/i386-windows/msvcr70.dll
-* /usr/lib32/wine/i386-windows/msvcr71.dll
-* /usr/lib32/wine/i386-windows/msvcr80.dll
-* /usr/lib32/wine/i386-windows/msvcr90.dll
-* /usr/lib32/wine/i386-windows/msvcrt.dll
-* /usr/lib32/wine/i386-windows/msvcrt20.dll
-* /usr/lib32/wine/i386-windows/msvcrt40.dll
-* /usr/lib32/wine/i386-windows/msvcrtd.dll
-* /usr/lib32/wine/i386-windows/msvfw32.dll
-* /usr/lib32/wine/i386-windows/msvidc32.dll
-* /usr/lib32/wine/i386-windows/msvideo.dll16
-* /usr/lib32/wine/i386-windows/mswsock.dll
-* /usr/lib32/wine/i386-windows/msxml.dll
-* /usr/lib32/wine/i386-windows/msxml2.dll
-* /usr/lib32/wine/i386-windows/msxml3.dll
-* /usr/lib32/wine/i386-windows/msxml4.dll
-* /usr/lib32/wine/i386-windows/msxml6.dll
-* /usr/lib32/wine/i386-windows/mtxdm.dll
-* /usr/lib32/wine/i386-windows/ncrypt.dll
-* /usr/lib32/wine/i386-windows/nddeapi.dll
-* /usr/lib32/wine/i386-windows/ndis.sys
-* /usr/lib32/wine/i386-windows/net.exe
-* /usr/lib32/wine/i386-windows/netapi32.dll
-* /usr/lib32/wine/i386-windows/netcfgx.dll
-* /usr/lib32/wine/i386-windows/netio.sys
-* /usr/lib32/wine/i386-windows/netprofm.dll
-* /usr/lib32/wine/i386-windows/netsh.exe
-* /usr/lib32/wine/i386-windows/netstat.exe
-* /usr/lib32/wine/i386-windows/netutils.dll
-* /usr/lib32/wine/i386-windows/newdev.dll
-* /usr/lib32/wine/i386-windows/ngen.exe
-* /usr/lib32/wine/i386-windows/ninput.dll
-* /usr/lib32/wine/i386-windows/normaliz.dll
-* /usr/lib32/wine/i386-windows/notepad.exe
-* /usr/lib32/wine/i386-windows/npmshtml.dll
-* /usr/lib32/wine/i386-windows/npptools.dll
-* /usr/lib32/wine/i386-windows/nsi.dll
-* /usr/lib32/wine/i386-windows/nsiproxy.sys
-* /usr/lib32/wine/i386-windows/ntdll.dll
-* /usr/lib32/wine/i386-windows/ntdsapi.dll
-* /usr/lib32/wine/i386-windows/ntoskrnl.exe
-* /usr/lib32/wine/i386-windows/ntprint.dll
-* /usr/lib32/wine/i386-windows/objsel.dll
-* /usr/lib32/wine/i386-windows/odbcbcp.dll
-* /usr/lib32/wine/i386-windows/odbccp32.dll
-* /usr/lib32/wine/i386-windows/odbccu32.dll
-* /usr/lib32/wine/i386-windows/ole2.dll16
-* /usr/lib32/wine/i386-windows/ole2conv.dll16
-* /usr/lib32/wine/i386-windows/ole2disp.dll16
-* /usr/lib32/wine/i386-windows/ole2nls.dll16
-* /usr/lib32/wine/i386-windows/ole2prox.dll16
-* /usr/lib32/wine/i386-windows/ole2thk.dll16
-* /usr/lib32/wine/i386-windows/ole32.dll
-* /usr/lib32/wine/i386-windows/oleacc.dll
-* /usr/lib32/wine/i386-windows/oleaut32.dll
-* /usr/lib32/wine/i386-windows/olecli.dll16
-* /usr/lib32/wine/i386-windows/olecli32.dll
-* /usr/lib32/wine/i386-windows/oledb32.dll
-* /usr/lib32/wine/i386-windows/oledlg.dll
-* /usr/lib32/wine/i386-windows/olepro32.dll
-* /usr/lib32/wine/i386-windows/olesvr.dll16
-* /usr/lib32/wine/i386-windows/olesvr32.dll
-* /usr/lib32/wine/i386-windows/olethk32.dll
-* /usr/lib32/wine/i386-windows/oleview.exe
-* /usr/lib32/wine/i386-windows/opcservices.dll
-* /usr/lib32/wine/i386-windows/opencl.dll
-* /usr/lib32/wine/i386-windows/opengl32.dll
-* /usr/lib32/wine/i386-windows/packager.dll
-* /usr/lib32/wine/i386-windows/pdh.dll
-* /usr/lib32/wine/i386-windows/photometadatahandler.dll
-* /usr/lib32/wine/i386-windows/pidgen.dll
-* /usr/lib32/wine/i386-windows/ping.exe
-* /usr/lib32/wine/i386-windows/plugplay.exe
-* /usr/lib32/wine/i386-windows/pnputil.exe
-* /usr/lib32/wine/i386-windows/powershell.exe
-* /usr/lib32/wine/i386-windows/powrprof.dll
-* /usr/lib32/wine/i386-windows/presentationfontcache.exe
-* /usr/lib32/wine/i386-windows/printui.dll
-* /usr/lib32/wine/i386-windows/prntvpt.dll
-* /usr/lib32/wine/i386-windows/profapi.dll
-* /usr/lib32/wine/i386-windows/progman.exe
-* /usr/lib32/wine/i386-windows/propsys.dll
-* /usr/lib32/wine/i386-windows/psapi.dll
-* /usr/lib32/wine/i386-windows/pstorec.dll
-* /usr/lib32/wine/i386-windows/pwrshplugin.dll
-* /usr/lib32/wine/i386-windows/qasf.dll
-* /usr/lib32/wine/i386-windows/qcap.dll
-* /usr/lib32/wine/i386-windows/qdvd.dll
-* /usr/lib32/wine/i386-windows/qedit.dll
-* /usr/lib32/wine/i386-windows/qmgr.dll
-* /usr/lib32/wine/i386-windows/qmgrprxy.dll
-* /usr/lib32/wine/i386-windows/quartz.dll
-* /usr/lib32/wine/i386-windows/query.dll
-* /usr/lib32/wine/i386-windows/qwave.dll
-* /usr/lib32/wine/i386-windows/rasapi16.dll16
-* /usr/lib32/wine/i386-windows/rasapi32.dll
-* /usr/lib32/wine/i386-windows/rasdlg.dll
-* /usr/lib32/wine/i386-windows/reg.exe
-* /usr/lib32/wine/i386-windows/regapi.dll
-* /usr/lib32/wine/i386-windows/regasm.exe
-* /usr/lib32/wine/i386-windows/regedit.exe
-* /usr/lib32/wine/i386-windows/regini.exe
-* /usr/lib32/wine/i386-windows/regsvcs.exe
-* /usr/lib32/wine/i386-windows/regsvr32.exe
-* /usr/lib32/wine/i386-windows/resutils.dll
-* /usr/lib32/wine/i386-windows/riched20.dll
-* /usr/lib32/wine/i386-windows/riched32.dll
-* /usr/lib32/wine/i386-windows/robocopy.exe
-* /usr/lib32/wine/i386-windows/rometadata.dll
-* /usr/lib32/wine/i386-windows/rpcrt4.dll
-* /usr/lib32/wine/i386-windows/rpcss.exe
-* /usr/lib32/wine/i386-windows/rsabase.dll
-* /usr/lib32/wine/i386-windows/rsaenh.dll
-* /usr/lib32/wine/i386-windows/rstrtmgr.dll
-* /usr/lib32/wine/i386-windows/rtutils.dll
-* /usr/lib32/wine/i386-windows/rtworkq.dll
-* /usr/lib32/wine/i386-windows/rundll.exe16
-* /usr/lib32/wine/i386-windows/rundll32.exe
-* /usr/lib32/wine/i386-windows/samlib.dll
-* /usr/lib32/wine/i386-windows/sapi.dll
-* /usr/lib32/wine/i386-windows/sas.dll
-* /usr/lib32/wine/i386-windows/sc.exe
-* /usr/lib32/wine/i386-windows/scarddlg.dll
-* /usr/lib32/wine/i386-windows/scardsvr.dll
-* /usr/lib32/wine/i386-windows/sccbase.dll
-* /usr/lib32/wine/i386-windows/schannel.dll
-* /usr/lib32/wine/i386-windows/schedsvc.dll
-* /usr/lib32/wine/i386-windows/schtasks.exe
-* /usr/lib32/wine/i386-windows/scrobj.dll
-* /usr/lib32/wine/i386-windows/scrrun.dll
-* /usr/lib32/wine/i386-windows/scsiport.sys
-* /usr/lib32/wine/i386-windows/sdbinst.exe
-* /usr/lib32/wine/i386-windows/secedit.exe
-* /usr/lib32/wine/i386-windows/sechost.dll
-* /usr/lib32/wine/i386-windows/secur32.dll
-* /usr/lib32/wine/i386-windows/security.dll
-* /usr/lib32/wine/i386-windows/sensapi.dll
-* /usr/lib32/wine/i386-windows/serialui.dll
-* /usr/lib32/wine/i386-windows/servicemodelreg.exe
-* /usr/lib32/wine/i386-windows/services.exe
-* /usr/lib32/wine/i386-windows/setupapi.dll
-* /usr/lib32/wine/i386-windows/setupx.dll16
-* /usr/lib32/wine/i386-windows/setx.exe
-* /usr/lib32/wine/i386-windows/sfc.dll
-* /usr/lib32/wine/i386-windows/sfc_os.dll
-* /usr/lib32/wine/i386-windows/shcore.dll
-* /usr/lib32/wine/i386-windows/shdoclc.dll
-* /usr/lib32/wine/i386-windows/shdocvw.dll
-* /usr/lib32/wine/i386-windows/shell.dll16
-* /usr/lib32/wine/i386-windows/shell32.dll
-* /usr/lib32/wine/i386-windows/shfolder.dll
-* /usr/lib32/wine/i386-windows/shlwapi.dll
-* /usr/lib32/wine/i386-windows/shutdown.exe
-* /usr/lib32/wine/i386-windows/slbcsp.dll
-* /usr/lib32/wine/i386-windows/slc.dll
-* /usr/lib32/wine/i386-windows/snmpapi.dll
-* /usr/lib32/wine/i386-windows/softpub.dll
-* /usr/lib32/wine/i386-windows/sound.drv16
-* /usr/lib32/wine/i386-windows/spoolss.dll
-* /usr/lib32/wine/i386-windows/spoolsv.exe
-* /usr/lib32/wine/i386-windows/sppc.dll
-* /usr/lib32/wine/i386-windows/srclient.dll
-* /usr/lib32/wine/i386-windows/srvcli.dll
-* /usr/lib32/wine/i386-windows/srvsvc.dll
-* /usr/lib32/wine/i386-windows/sspicli.dll
-* /usr/lib32/wine/i386-windows/start.exe
-* /usr/lib32/wine/i386-windows/stdole2.tlb
-* /usr/lib32/wine/i386-windows/stdole32.tlb
-* /usr/lib32/wine/i386-windows/sti.dll
-* /usr/lib32/wine/i386-windows/storage.dll16
-* /usr/lib32/wine/i386-windows/stress.dll16
-* /usr/lib32/wine/i386-windows/strmdll.dll
-* /usr/lib32/wine/i386-windows/subst.exe
-* /usr/lib32/wine/i386-windows/svchost.exe
-* /usr/lib32/wine/i386-windows/svrapi.dll
-* /usr/lib32/wine/i386-windows/sxs.dll
-* /usr/lib32/wine/i386-windows/system.drv16
-* /usr/lib32/wine/i386-windows/systeminfo.exe
-* /usr/lib32/wine/i386-windows/t2embed.dll
-* /usr/lib32/wine/i386-windows/tapi32.dll
-* /usr/lib32/wine/i386-windows/taskkill.exe
-* /usr/lib32/wine/i386-windows/tasklist.exe
-* /usr/lib32/wine/i386-windows/taskmgr.exe
-* /usr/lib32/wine/i386-windows/taskschd.dll
-* /usr/lib32/wine/i386-windows/tbs.dll
-* /usr/lib32/wine/i386-windows/tdh.dll
-* /usr/lib32/wine/i386-windows/tdi.sys
-* /usr/lib32/wine/i386-windows/termsv.exe
-* /usr/lib32/wine/i386-windows/threadpoolwinrt.dll
-* /usr/lib32/wine/i386-windows/toolhelp.dll16
-* /usr/lib32/wine/i386-windows/traffic.dll
-* /usr/lib32/wine/i386-windows/twain.dll16
-* /usr/lib32/wine/i386-windows/twain_32.dll
-* /usr/lib32/wine/i386-windows/twinapi.appcore.dll
-* /usr/lib32/wine/i386-windows/typelib.dll16
-* /usr/lib32/wine/i386-windows/tzres.dll
-* /usr/lib32/wine/i386-windows/ucrtbase.dll
-* /usr/lib32/wine/i386-windows/uianimation.dll
-* /usr/lib32/wine/i386-windows/uiautomationcore.dll
-* /usr/lib32/wine/i386-windows/uiribbon.dll
-* /usr/lib32/wine/i386-windows/unicows.dll
-* /usr/lib32/wine/i386-windows/uninstaller.exe
-* /usr/lib32/wine/i386-windows/unlodctr.exe
-* /usr/lib32/wine/i386-windows/updspapi.dll
-* /usr/lib32/wine/i386-windows/url.dll
-* /usr/lib32/wine/i386-windows/urlmon.dll
-* /usr/lib32/wine/i386-windows/usbd.sys
-* /usr/lib32/wine/i386-windows/user.exe16
-* /usr/lib32/wine/i386-windows/user32.dll
-* /usr/lib32/wine/i386-windows/userenv.dll
-* /usr/lib32/wine/i386-windows/usp10.dll
-* /usr/lib32/wine/i386-windows/utildll.dll
-* /usr/lib32/wine/i386-windows/uxtheme.dll
-* /usr/lib32/wine/i386-windows/vbscript.dll
-* /usr/lib32/wine/i386-windows/vcomp.dll
-* /usr/lib32/wine/i386-windows/vcomp100.dll
-* /usr/lib32/wine/i386-windows/vcomp110.dll
-* /usr/lib32/wine/i386-windows/vcomp120.dll
-* /usr/lib32/wine/i386-windows/vcomp140.dll
-* /usr/lib32/wine/i386-windows/vcomp90.dll
-* /usr/lib32/wine/i386-windows/vcruntime140.dll
-* /usr/lib32/wine/i386-windows/vdhcp.vxd
-* /usr/lib32/wine/i386-windows/vdmdbg.dll
-* /usr/lib32/wine/i386-windows/ver.dll16
-* /usr/lib32/wine/i386-windows/version.dll
-* /usr/lib32/wine/i386-windows/vga.dll
-* /usr/lib32/wine/i386-windows/view.exe
-* /usr/lib32/wine/i386-windows/virtdisk.dll
-* /usr/lib32/wine/i386-windows/vmm.vxd
-* /usr/lib32/wine/i386-windows/vnbt.vxd
-* /usr/lib32/wine/i386-windows/vnetbios.vxd
-* /usr/lib32/wine/i386-windows/vssapi.dll
-* /usr/lib32/wine/i386-windows/vtdapi.vxd
-* /usr/lib32/wine/i386-windows/vulkan-1.dll
-* /usr/lib32/wine/i386-windows/vwin32.vxd
-* /usr/lib32/wine/i386-windows/w32skrnl.dll
-* /usr/lib32/wine/i386-windows/w32sys.dll16
-* /usr/lib32/wine/i386-windows/wbemdisp.dll
-* /usr/lib32/wine/i386-windows/wbemprox.dll
-* /usr/lib32/wine/i386-windows/wdscore.dll
-* /usr/lib32/wine/i386-windows/webservices.dll
-* /usr/lib32/wine/i386-windows/websocket.dll
-* /usr/lib32/wine/i386-windows/wer.dll
-* /usr/lib32/wine/i386-windows/wevtapi.dll
-* /usr/lib32/wine/i386-windows/wevtsvc.dll
-* /usr/lib32/wine/i386-windows/wevtutil.exe
-* /usr/lib32/wine/i386-windows/where.exe
-* /usr/lib32/wine/i386-windows/whoami.exe
-* /usr/lib32/wine/i386-windows/wiaservc.dll
-* /usr/lib32/wine/i386-windows/wimgapi.dll
-* /usr/lib32/wine/i386-windows/win32s16.dll16
-* /usr/lib32/wine/i386-windows/win32u.dll
-* /usr/lib32/wine/i386-windows/win87em.dll16
-* /usr/lib32/wine/i386-windows/winaspi.dll16
-* /usr/lib32/wine/i386-windows/windebug.dll16
-* /usr/lib32/wine/i386-windows/windows.applicationmodel.dll
-* /usr/lib32/wine/i386-windows/windows.devices.bluetooth.dll
-* /usr/lib32/wine/i386-windows/windows.devices.enumeration.dll
-* /usr/lib32/wine/i386-windows/windows.devices.usb.dll
-* /usr/lib32/wine/i386-windows/windows.gaming.input.dll
-* /usr/lib32/wine/i386-windows/windows.gaming.ui.gamebar.dll
-* /usr/lib32/wine/i386-windows/windows.globalization.dll
-* /usr/lib32/wine/i386-windows/windows.media.devices.dll
-* /usr/lib32/wine/i386-windows/windows.media.dll
-* /usr/lib32/wine/i386-windows/windows.media.mediacontrol.dll
-* /usr/lib32/wine/i386-windows/windows.media.speech.dll
-* /usr/lib32/wine/i386-windows/windows.networking.dll
-* /usr/lib32/wine/i386-windows/windows.networking.hostname.dll
-* /usr/lib32/wine/i386-windows/windows.perception.stub.dll
-* /usr/lib32/wine/i386-windows/windows.security.authentication.onlineid.dll
-* /usr/lib32/wine/i386-windows/windows.security.credentials.ui.userconsentverifier.dll
-* /usr/lib32/wine/i386-windows/windows.storage.applicationdata.dll
-* /usr/lib32/wine/i386-windows/windows.system.profile.systemmanufacturers.dll
-* /usr/lib32/wine/i386-windows/windows.ui.dll
-* /usr/lib32/wine/i386-windows/windows.web.dll
-* /usr/lib32/wine/i386-windows/windowscodecs.dll
-* /usr/lib32/wine/i386-windows/windowscodecsext.dll
-* /usr/lib32/wine/i386-windows/wineboot.exe
-* /usr/lib32/wine/i386-windows/winebrowser.exe
-* /usr/lib32/wine/i386-windows/winebus.sys
-* /usr/lib32/wine/i386-windows/winecfg.exe
-* /usr/lib32/wine/i386-windows/wineconsole.exe
-* /usr/lib32/wine/i386-windows/wined3d.dll
-* /usr/lib32/wine/i386-windows/winedbg.exe
-* /usr/lib32/wine/i386-windows/winedevice.exe
-* /usr/lib32/wine/i386-windows/winefile.exe
-* /usr/lib32/wine/i386-windows/winehid.sys
-* /usr/lib32/wine/i386-windows/winemapi.dll
-* /usr/lib32/wine/i386-windows/winemenubuilder.exe
-* /usr/lib32/wine/i386-windows/winemine.exe
-* /usr/lib32/wine/i386-windows/winemsibuilder.exe
-* /usr/lib32/wine/i386-windows/winepath.exe
-* /usr/lib32/wine/i386-windows/wineps.drv
-* /usr/lib32/wine/i386-windows/wineps16.drv16
-* /usr/lib32/wine/i386-windows/winevdm.exe
-* /usr/lib32/wine/i386-windows/winevulkan.dll
-* /usr/lib32/wine/i386-windows/winex11.drv
-* /usr/lib32/wine/i386-windows/winexinput.sys
-* /usr/lib32/wine/i386-windows/wing.dll16
-* /usr/lib32/wine/i386-windows/wing32.dll
-* /usr/lib32/wine/i386-windows/winhelp.exe16
-* /usr/lib32/wine/i386-windows/winhlp32.exe
-* /usr/lib32/wine/i386-windows/winhttp.dll
-* /usr/lib32/wine/i386-windows/wininet.dll
-* /usr/lib32/wine/i386-windows/winmgmt.exe
-* /usr/lib32/wine/i386-windows/winmm.dll
-* /usr/lib32/wine/i386-windows/winnls.dll16
-* /usr/lib32/wine/i386-windows/winnls32.dll
-* /usr/lib32/wine/i386-windows/winoldap.mod16
-* /usr/lib32/wine/i386-windows/winprint.dll
-* /usr/lib32/wine/i386-windows/winsock.dll16
-* /usr/lib32/wine/i386-windows/winspool.drv
-* /usr/lib32/wine/i386-windows/winsta.dll
-* /usr/lib32/wine/i386-windows/wintab.dll16
-* /usr/lib32/wine/i386-windows/wintab32.dll
-* /usr/lib32/wine/i386-windows/wintrust.dll
-* /usr/lib32/wine/i386-windows/wintypes.dll
-* /usr/lib32/wine/i386-windows/winusb.dll
-* /usr/lib32/wine/i386-windows/winver.exe
-* /usr/lib32/wine/i386-windows/wlanapi.dll
-* /usr/lib32/wine/i386-windows/wlanui.dll
-* /usr/lib32/wine/i386-windows/wldap32.dll
-* /usr/lib32/wine/i386-windows/wldp.dll
-* /usr/lib32/wine/i386-windows/wmasf.dll
-* /usr/lib32/wine/i386-windows/wmi.dll
-* /usr/lib32/wine/i386-windows/wmic.exe
-* /usr/lib32/wine/i386-windows/wmiutils.dll
-* /usr/lib32/wine/i386-windows/wmp.dll
-* /usr/lib32/wine/i386-windows/wmphoto.dll
-* /usr/lib32/wine/i386-windows/wmplayer.exe
-* /usr/lib32/wine/i386-windows/wmvcore.dll
-* /usr/lib32/wine/i386-windows/wnaspi32.dll
-* /usr/lib32/wine/i386-windows/wofutil.dll
-* /usr/lib32/wine/i386-windows/wordpad.exe
-* /usr/lib32/wine/i386-windows/wow32.dll
-* /usr/lib32/wine/i386-windows/wpc.dll
-* /usr/lib32/wine/i386-windows/write.exe
-* /usr/lib32/wine/i386-windows/ws2_32.dll
-* /usr/lib32/wine/i386-windows/wscript.exe
-* /usr/lib32/wine/i386-windows/wsdapi.dll
-* /usr/lib32/wine/i386-windows/wshom.ocx
-* /usr/lib32/wine/i386-windows/wsnmp32.dll
-* /usr/lib32/wine/i386-windows/wsock32.dll
-* /usr/lib32/wine/i386-windows/wtsapi32.dll
-* /usr/lib32/wine/i386-windows/wuapi.dll
-* /usr/lib32/wine/i386-windows/wuaueng.dll
-* /usr/lib32/wine/i386-windows/wuauserv.exe
-* /usr/lib32/wine/i386-windows/wusa.exe
-* /usr/lib32/wine/i386-windows/x3daudio1_0.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_1.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_2.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_3.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_4.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_5.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_6.dll
-* /usr/lib32/wine/i386-windows/x3daudio1_7.dll
-* /usr/lib32/wine/i386-windows/xactengine2_0.dll
-* /usr/lib32/wine/i386-windows/xactengine2_4.dll
-* /usr/lib32/wine/i386-windows/xactengine2_7.dll
-* /usr/lib32/wine/i386-windows/xactengine2_9.dll
-* /usr/lib32/wine/i386-windows/xactengine3_0.dll
-* /usr/lib32/wine/i386-windows/xactengine3_1.dll
-* /usr/lib32/wine/i386-windows/xactengine3_2.dll
-* /usr/lib32/wine/i386-windows/xactengine3_3.dll
-* /usr/lib32/wine/i386-windows/xactengine3_4.dll
-* /usr/lib32/wine/i386-windows/xactengine3_5.dll
-* /usr/lib32/wine/i386-windows/xactengine3_6.dll
-* /usr/lib32/wine/i386-windows/xactengine3_7.dll
-* /usr/lib32/wine/i386-windows/xapofx1_1.dll
-* /usr/lib32/wine/i386-windows/xapofx1_2.dll
-* /usr/lib32/wine/i386-windows/xapofx1_3.dll
-* /usr/lib32/wine/i386-windows/xapofx1_4.dll
-* /usr/lib32/wine/i386-windows/xapofx1_5.dll
-* /usr/lib32/wine/i386-windows/xaudio2_0.dll
-* /usr/lib32/wine/i386-windows/xaudio2_1.dll
-* /usr/lib32/wine/i386-windows/xaudio2_2.dll
-* /usr/lib32/wine/i386-windows/xaudio2_3.dll
-* /usr/lib32/wine/i386-windows/xaudio2_4.dll
-* /usr/lib32/wine/i386-windows/xaudio2_5.dll
-* /usr/lib32/wine/i386-windows/xaudio2_6.dll
-* /usr/lib32/wine/i386-windows/xaudio2_7.dll
-* /usr/lib32/wine/i386-windows/xaudio2_8.dll
-* /usr/lib32/wine/i386-windows/xaudio2_9.dll
-* /usr/lib32/wine/i386-windows/xcopy.exe
-* /usr/lib32/wine/i386-windows/xinput1_1.dll
-* /usr/lib32/wine/i386-windows/xinput1_2.dll
-* /usr/lib32/wine/i386-windows/xinput1_3.dll
-* /usr/lib32/wine/i386-windows/xinput1_4.dll
-* /usr/lib32/wine/i386-windows/xinput9_1_0.dll
-* /usr/lib32/wine/i386-windows/xinputuap.dll
-* /usr/lib32/wine/i386-windows/xmllite.dll
-* /usr/lib32/wine/i386-windows/xolehlp.dll
-* /usr/lib32/wine/i386-windows/xpsprint.dll
-* /usr/lib32/wine/i386-windows/xpssvcs.dll
-* /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.15/AUTHORS
-* /usr/share/doc/wine-devel-9.15/COPYING.LIB
-* /usr/share/doc/wine-devel-9.15/LICENSE
-* /usr/share/doc/wine-devel-9.15/README.md
-* /usr/share/doc/wine-devel-9.15/VERSION
-* /usr/share/man/de.UTF-8/man1/wine.1.gz
-* /usr/share/man/de.UTF-8/man1/winemaker.1.gz
-* /usr/share/man/de.UTF-8/man1/wineserver.1.gz
-* /usr/share/man/fr.UTF-8/man1/wine.1.gz
-* /usr/share/man/fr.UTF-8/man1/winemaker.1.gz
-* /usr/share/man/fr.UTF-8/man1/wineserver.1.gz
-* /usr/share/man/man1/msiexec.1.gz
-* /usr/share/man/man1/notepad.1.gz
-* /usr/share/man/man1/regedit.1.gz
-* /usr/share/man/man1/regsvr32.1.gz
-* /usr/share/man/man1/widl.1.gz
-* /usr/share/man/man1/wine.1.gz
-* /usr/share/man/man1/wineboot.1.gz
-* /usr/share/man/man1/winebuild.1.gz
-* /usr/share/man/man1/winecfg.1.gz
-* /usr/share/man/man1/wineconsole.1.gz
-* /usr/share/man/man1/winecpp.1.gz
-* /usr/share/man/man1/winedbg.1.gz
-* /usr/share/man/man1/winedump.1.gz
-* /usr/share/man/man1/winefile.1.gz
-* /usr/share/man/man1/wineg++.1.gz
-* /usr/share/man/man1/winegcc.1.gz
-* /usr/share/man/man1/winemaker.1.gz
-* /usr/share/man/man1/winemine.1.gz
-* /usr/share/man/man1/winepath.1.gz
-* /usr/share/man/man1/wineserver.1.gz
-* /usr/share/man/man1/wmc.1.gz
-* /usr/share/man/man1/wrc.1.gz
-* /usr/share/man/pl.UTF-8/man1/wine.1.gz
-* /usr/share/wine/fonts/coue1255.fon
-* /usr/share/wine/fonts/coue1256.fon
-* /usr/share/wine/fonts/coue1257.fon
-* /usr/share/wine/fonts/coure.fon
-* /usr/share/wine/fonts/couree.fon
-* /usr/share/wine/fonts/coureg.fon
-* /usr/share/wine/fonts/courer.fon
-* /usr/share/wine/fonts/couret.fon
-* /usr/share/wine/fonts/cvgasys.fon
-* /usr/share/wine/fonts/hvgasys.fon
-* /usr/share/wine/fonts/jsmalle.fon
-* /usr/share/wine/fonts/jvgafix.fon
-* /usr/share/wine/fonts/jvgasys.fon
-* /usr/share/wine/fonts/marlett.ttf
-* /usr/share/wine/fonts/smae1255.fon
-* /usr/share/wine/fonts/smae1256.fon
-* /usr/share/wine/fonts/smae1257.fon
-* /usr/share/wine/fonts/smalle.fon
-* /usr/share/wine/fonts/smallee.fon
-* /usr/share/wine/fonts/smalleg.fon
-* /usr/share/wine/fonts/smaller.fon
-* /usr/share/wine/fonts/smallet.fon
-* /usr/share/wine/fonts/ssee1255.fon
-* /usr/share/wine/fonts/ssee1256.fon
-* /usr/share/wine/fonts/ssee1257.fon
-* /usr/share/wine/fonts/ssee874.fon
-* /usr/share/wine/fonts/ssef1255.fon
-* /usr/share/wine/fonts/ssef1256.fon
-* /usr/share/wine/fonts/ssef1257.fon
-* /usr/share/wine/fonts/ssef874.fon
-* /usr/share/wine/fonts/sserife.fon
-* /usr/share/wine/fonts/sserifee.fon
-* /usr/share/wine/fonts/sserifeg.fon
-* /usr/share/wine/fonts/sserifer.fon
-* /usr/share/wine/fonts/sserifet.fon
-* /usr/share/wine/fonts/sseriff.fon
-* /usr/share/wine/fonts/sseriffe.fon
-* /usr/share/wine/fonts/sseriffg.fon
-* /usr/share/wine/fonts/sseriffr.fon
-* /usr/share/wine/fonts/sserifft.fon
-* /usr/share/wine/fonts/svgasys.fon
-* /usr/share/wine/fonts/symbol.ttf
-* /usr/share/wine/fonts/tahoma.ttf
-* /usr/share/wine/fonts/tahomabd.ttf
-* /usr/share/wine/fonts/vgafix.fon
-* /usr/share/wine/fonts/vgas1255.fon
-* /usr/share/wine/fonts/vgas1256.fon
-* /usr/share/wine/fonts/vgas1257.fon
-* /usr/share/wine/fonts/vgas874.fon
-* /usr/share/wine/fonts/vgasys.fon
-* /usr/share/wine/fonts/vgasyse.fon
-* /usr/share/wine/fonts/vgasysg.fon
-* /usr/share/wine/fonts/vgasysr.fon
-* /usr/share/wine/fonts/vgasyst.fon
-* /usr/share/wine/fonts/webdings.ttf
-* /usr/share/wine/fonts/wingding.ttf
-* /usr/share/wine/nls/c_037.nls
-* /usr/share/wine/nls/c_10000.nls
-* /usr/share/wine/nls/c_10001.nls
-* /usr/share/wine/nls/c_10002.nls
-* /usr/share/wine/nls/c_10003.nls
-* /usr/share/wine/nls/c_10004.nls
-* /usr/share/wine/nls/c_10005.nls
-* /usr/share/wine/nls/c_10006.nls
-* /usr/share/wine/nls/c_10007.nls
-* /usr/share/wine/nls/c_10008.nls
-* /usr/share/wine/nls/c_10010.nls
-* /usr/share/wine/nls/c_10017.nls
-* /usr/share/wine/nls/c_10021.nls
-* /usr/share/wine/nls/c_10029.nls
-* /usr/share/wine/nls/c_10079.nls
-* /usr/share/wine/nls/c_10081.nls
-* /usr/share/wine/nls/c_10082.nls
-* /usr/share/wine/nls/c_1026.nls
-* /usr/share/wine/nls/c_1250.nls
-* /usr/share/wine/nls/c_1251.nls
-* /usr/share/wine/nls/c_1252.nls
-* /usr/share/wine/nls/c_1253.nls
-* /usr/share/wine/nls/c_1254.nls
-* /usr/share/wine/nls/c_1255.nls
-* /usr/share/wine/nls/c_1256.nls
-* /usr/share/wine/nls/c_1257.nls
-* /usr/share/wine/nls/c_1258.nls
-* /usr/share/wine/nls/c_1361.nls
-* /usr/share/wine/nls/c_20127.nls
-* /usr/share/wine/nls/c_20866.nls
-* /usr/share/wine/nls/c_20932.nls
-* /usr/share/wine/nls/c_20949.nls
-* /usr/share/wine/nls/c_21866.nls
-* /usr/share/wine/nls/c_28591.nls
-* /usr/share/wine/nls/c_28592.nls
-* /usr/share/wine/nls/c_28593.nls
-* /usr/share/wine/nls/c_28594.nls
-* /usr/share/wine/nls/c_28595.nls
-* /usr/share/wine/nls/c_28596.nls
-* /usr/share/wine/nls/c_28597.nls
-* /usr/share/wine/nls/c_28598.nls
-* /usr/share/wine/nls/c_28599.nls
-* /usr/share/wine/nls/c_28603.nls
-* /usr/share/wine/nls/c_28605.nls
-* /usr/share/wine/nls/c_437.nls
-* /usr/share/wine/nls/c_500.nls
-* /usr/share/wine/nls/c_708.nls
-* /usr/share/wine/nls/c_720.nls
-* /usr/share/wine/nls/c_737.nls
-* /usr/share/wine/nls/c_775.nls
-* /usr/share/wine/nls/c_850.nls
-* /usr/share/wine/nls/c_852.nls
-* /usr/share/wine/nls/c_855.nls
-* /usr/share/wine/nls/c_857.nls
-* /usr/share/wine/nls/c_860.nls
-* /usr/share/wine/nls/c_861.nls
-* /usr/share/wine/nls/c_862.nls
-* /usr/share/wine/nls/c_863.nls
-* /usr/share/wine/nls/c_864.nls
-* /usr/share/wine/nls/c_865.nls
-* /usr/share/wine/nls/c_866.nls
-* /usr/share/wine/nls/c_869.nls
-* /usr/share/wine/nls/c_874.nls
-* /usr/share/wine/nls/c_875.nls
-* /usr/share/wine/nls/c_932.nls
-* /usr/share/wine/nls/c_936.nls
-* /usr/share/wine/nls/c_949.nls
-* /usr/share/wine/nls/c_950.nls
-* /usr/share/wine/nls/locale.nls
-* /usr/share/wine/nls/l_intl.nls
-* /usr/share/wine/nls/normidna.nls
-* /usr/share/wine/nls/normnfc.nls
-* /usr/share/wine/nls/normnfd.nls
-* /usr/share/wine/nls/normnfkc.nls
-* /usr/share/wine/nls/normnfkd.nls
-* /usr/share/wine/nls/sortdefault.nls
-* /usr/share/wine/wine.inf
+* wine-devel /etc/binfmt.d/wine.conf
+* wine-devel /usr/bin/function_grep.pl
+* wine-devel /usr/bin/msidb
+* wine-devel /usr/bin/msiexec
+* wine-devel /usr/bin/notepad
+* wine-devel /usr/bin/regedit
+* wine-devel /usr/bin/regsvr32
+* wine-devel /usr/bin/widl
+* wine-devel /usr/bin/wine
+* wine-devel /usr/bin/wine-preloader
+* wine-devel /usr/bin/wine64
+* wine-devel /usr/bin/wine64-preloader
+* wine-devel /usr/bin/wineboot
+* wine-devel /usr/bin/winebuild
+* wine-devel /usr/bin/winecfg
+* wine-devel /usr/bin/wineconsole
+* wine-devel /usr/bin/winecpp
+* wine-devel /usr/bin/winedbg
+* wine-devel /usr/bin/winedump
+* wine-devel /usr/bin/winefile
+* wine-devel /usr/bin/wineg++
+* wine-devel /usr/bin/winegcc
+* wine-devel /usr/bin/winemaker
+* wine-devel /usr/bin/winemine
+* wine-devel /usr/bin/winepath
+* wine-devel /usr/bin/wineserver
+* wine-devel /usr/bin/wmc
+* wine-devel /usr/bin/wrc
+* wine-devel /usr/i686-frugalware-linux/bin/wine
+* wine-devel /usr/i686-frugalware-linux/bin/wine-preloader
+* wine-devel /usr/include/wine/debug.h
+* wine-devel /usr/include/wine/exception.h
+* wine-devel /usr/include/wine/iaccessible2.h
+* wine-devel /usr/include/wine/iaccessible2.idl
+* wine-devel /usr/include/wine/itss.h
+* wine-devel /usr/include/wine/itss.idl
+* wine-devel /usr/include/wine/mfinternal.h
+* wine-devel /usr/include/wine/mfinternal.idl
+* wine-devel /usr/include/wine/msvcrt/assert.h
+* wine-devel /usr/include/wine/msvcrt/complex.h
+* wine-devel /usr/include/wine/msvcrt/conio.h
+* wine-devel /usr/include/wine/msvcrt/corecrt.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_io.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_malloc.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_startup.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_stdio_config.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wctype.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wdirect.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wio.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wprocess.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wstdio.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wstdlib.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wstring.h
+* wine-devel /usr/include/wine/msvcrt/corecrt_wtime.h
+* wine-devel /usr/include/wine/msvcrt/crtdbg.h
+* wine-devel /usr/include/wine/msvcrt/crtdefs.h
+* wine-devel /usr/include/wine/msvcrt/ctype.h
+* wine-devel /usr/include/wine/msvcrt/direct.h
+* wine-devel /usr/include/wine/msvcrt/dirent.h
+* wine-devel /usr/include/wine/msvcrt/dos.h
+* wine-devel /usr/include/wine/msvcrt/eh.h
+* wine-devel /usr/include/wine/msvcrt/errno.h
+* wine-devel /usr/include/wine/msvcrt/fcntl.h
+* wine-devel /usr/include/wine/msvcrt/fenv.h
+* wine-devel /usr/include/wine/msvcrt/float.h
+* wine-devel /usr/include/wine/msvcrt/fpieee.h
+* wine-devel /usr/include/wine/msvcrt/intrin.h
+* wine-devel /usr/include/wine/msvcrt/inttypes.h
+* wine-devel /usr/include/wine/msvcrt/io.h
+* wine-devel /usr/include/wine/msvcrt/limits.h
+* wine-devel /usr/include/wine/msvcrt/locale.h
+* wine-devel /usr/include/wine/msvcrt/malloc.h
+* wine-devel /usr/include/wine/msvcrt/math.h
+* wine-devel /usr/include/wine/msvcrt/mbctype.h
+* wine-devel /usr/include/wine/msvcrt/mbstring.h
+* wine-devel /usr/include/wine/msvcrt/memory.h
+* wine-devel /usr/include/wine/msvcrt/process.h
+* wine-devel /usr/include/wine/msvcrt/search.h
+* wine-devel /usr/include/wine/msvcrt/setjmp.h
+* wine-devel /usr/include/wine/msvcrt/share.h
+* wine-devel /usr/include/wine/msvcrt/signal.h
+* wine-devel /usr/include/wine/msvcrt/stdarg.h
+* wine-devel /usr/include/wine/msvcrt/stdbool.h
+* wine-devel /usr/include/wine/msvcrt/stddef.h
+* wine-devel /usr/include/wine/msvcrt/stdint.h
+* wine-devel /usr/include/wine/msvcrt/stdio.h
+* wine-devel /usr/include/wine/msvcrt/stdlib.h
+* wine-devel /usr/include/wine/msvcrt/string.h
+* wine-devel /usr/include/wine/msvcrt/sys/locking.h
+* wine-devel /usr/include/wine/msvcrt/sys/stat.h
+* wine-devel /usr/include/wine/msvcrt/sys/timeb.h
+* wine-devel /usr/include/wine/msvcrt/sys/types.h
+* wine-devel /usr/include/wine/msvcrt/sys/unistd.h
+* wine-devel /usr/include/wine/msvcrt/sys/utime.h
+* wine-devel /usr/include/wine/msvcrt/time.h
+* wine-devel /usr/include/wine/msvcrt/uchar.h
+* wine-devel /usr/include/wine/msvcrt/unistd.h
+* wine-devel /usr/include/wine/msvcrt/vadefs.h
+* wine-devel /usr/include/wine/msvcrt/wchar.h
+* wine-devel /usr/include/wine/msvcrt/wctype.h
+* wine-devel /usr/include/wine/svcctl.h
+* wine-devel /usr/include/wine/svcctl.idl
+* wine-devel /usr/include/wine/windows/accctrl.h
+* wine-devel /usr/include/wine/windows/access.idl
+* wine-devel /usr/include/wine/windows/aclapi.h
+* wine-devel /usr/include/wine/windows/aclui.h
+* wine-devel /usr/include/wine/windows/activation.h
+* wine-devel /usr/include/wine/windows/activation.idl
+* wine-devel /usr/include/wine/windows/activaut.h
+* wine-devel /usr/include/wine/windows/activaut.idl
+* wine-devel /usr/include/wine/windows/activdbg.h
+* wine-devel /usr/include/wine/windows/activdbg.idl
+* wine-devel /usr/include/wine/windows/activeds.h
+* wine-devel /usr/include/wine/windows/activscp.h
+* wine-devel /usr/include/wine/windows/activscp.idl
+* wine-devel /usr/include/wine/windows/adserr.h
+* wine-devel /usr/include/wine/windows/adshlp.h
+* wine-devel /usr/include/wine/windows/advpub.h
+* wine-devel /usr/include/wine/windows/af_irda.h
+* wine-devel /usr/include/wine/windows/amaudio.h
+* wine-devel /usr/include/wine/windows/amsi.h
+* wine-devel /usr/include/wine/windows/amsi.idl
+* wine-devel /usr/include/wine/windows/amstream.h
+* wine-devel /usr/include/wine/windows/amstream.idl
+* wine-devel /usr/include/wine/windows/amva.h
+* wine-devel /usr/include/wine/windows/amvideo.h
+* wine-devel /usr/include/wine/windows/amvideo.idl
+* wine-devel /usr/include/wine/windows/appcompatapi.h
+* wine-devel /usr/include/wine/windows/appmgmt.h
+* wine-devel /usr/include/wine/windows/appmodel.h
+* wine-devel /usr/include/wine/windows/appnotify.h
+* wine-devel /usr/include/wine/windows/asferr.h
+* wine-devel /usr/include/wine/windows/asptlb.h
+* wine-devel /usr/include/wine/windows/asptlb.idl
+* wine-devel /usr/include/wine/windows/asyncinfo.h
+* wine-devel /usr/include/wine/windows/asyncinfo.idl
+* wine-devel /usr/include/wine/windows/asynot.idl
+* wine-devel /usr/include/wine/windows/asysta.idl
+* wine-devel /usr/include/wine/windows/atlbase.h
+* wine-devel /usr/include/wine/windows/atlcom.h
+* wine-devel /usr/include/wine/windows/atldef.h
+* wine-devel /usr/include/wine/windows/atliface.h
+* wine-devel /usr/include/wine/windows/atliface.idl
+* wine-devel /usr/include/wine/windows/atlthunk.h
+* wine-devel /usr/include/wine/windows/atlwin.h
+* wine-devel /usr/include/wine/windows/audevcod.h
+* wine-devel /usr/include/wine/windows/audioclient.h
+* wine-devel /usr/include/wine/windows/audioclient.idl
+* wine-devel /usr/include/wine/windows/audiopolicy.h
+* wine-devel /usr/include/wine/windows/audiopolicy.idl
+* wine-devel /usr/include/wine/windows/audiosessiontypes.h
+* wine-devel /usr/include/wine/windows/austream.h
+* wine-devel /usr/include/wine/windows/austream.idl
+* wine-devel /usr/include/wine/windows/authz.h
+* wine-devel /usr/include/wine/windows/aviriff.h
+* wine-devel /usr/include/wine/windows/avrt.h
+* wine-devel /usr/include/wine/windows/axcore.idl
+* wine-devel /usr/include/wine/windows/axextend.idl
+* wine-devel /usr/include/wine/windows/axextendenums.h
+* wine-devel /usr/include/wine/windows/basetsd.h
+* wine-devel /usr/include/wine/windows/basetyps.h
+* wine-devel /usr/include/wine/windows/bcrypt.h
+* wine-devel /usr/include/wine/windows/bdaiface.h
+* wine-devel /usr/include/wine/windows/bdaiface.idl
+* wine-devel /usr/include/wine/windows/bdaiface_enums.h
+* wine-devel /usr/include/wine/windows/bdatypes.h
+* wine-devel /usr/include/wine/windows/binres.idl
+* wine-devel /usr/include/wine/windows/bits.h
+* wine-devel /usr/include/wine/windows/bits.idl
+* wine-devel /usr/include/wine/windows/bits1_5.h
+* wine-devel /usr/include/wine/windows/bits1_5.idl
+* wine-devel /usr/include/wine/windows/bits2_0.h
+* wine-devel /usr/include/wine/windows/bits2_0.idl
+* wine-devel /usr/include/wine/windows/bits2_5.h
+* wine-devel /usr/include/wine/windows/bits2_5.idl
+* wine-devel /usr/include/wine/windows/bits3_0.h
+* wine-devel /usr/include/wine/windows/bits3_0.idl
+* wine-devel /usr/include/wine/windows/bits5_0.h
+* wine-devel /usr/include/wine/windows/bits5_0.idl
+* wine-devel /usr/include/wine/windows/bitsmsg.h
+* wine-devel /usr/include/wine/windows/bluetoothapis.h
+* wine-devel /usr/include/wine/windows/bthsdpdef.h
+* wine-devel /usr/include/wine/windows/cderr.h
+* wine-devel /usr/include/wine/windows/cdosys.h
+* wine-devel /usr/include/wine/windows/cdosys.idl
+* wine-devel /usr/include/wine/windows/cfg.h
+* wine-devel /usr/include/wine/windows/cfgmgr32.h
+* wine-devel /usr/include/wine/windows/cguid.h
+* wine-devel /usr/include/wine/windows/chprst.idl
+* wine-devel /usr/include/wine/windows/cierror.h
+* wine-devel /usr/include/wine/windows/clusapi.h
+* wine-devel /usr/include/wine/windows/cmdbas.idl
+* wine-devel /usr/include/wine/windows/cmdpre.idl
+* wine-devel /usr/include/wine/windows/cmdprp.idl
+* wine-devel /usr/include/wine/windows/cmdstrm.idl
+* wine-devel /usr/include/wine/windows/cmdtxt.idl
+* wine-devel /usr/include/wine/windows/cmdwpr.idl
+* wine-devel /usr/include/wine/windows/cmnquery.h
+* wine-devel /usr/include/wine/windows/cmnquery.idl
+* wine-devel /usr/include/wine/windows/codecapi.h
+* wine-devel /usr/include/wine/windows/colinf.idl
+* wine-devel /usr/include/wine/windows/colordlg.h
+* wine-devel /usr/include/wine/windows/colrst.idl
+* wine-devel /usr/include/wine/windows/combaseapi.h
+* wine-devel /usr/include/wine/windows/comcat.h
+* wine-devel /usr/include/wine/windows/comcat.idl
+* wine-devel /usr/include/wine/windows/commctrl.h
+* wine-devel /usr/include/wine/windows/commctrl.rh
+* wine-devel /usr/include/wine/windows/commdlg.h
+* wine-devel /usr/include/wine/windows/commoncontrols.h
+* wine-devel /usr/include/wine/windows/commoncontrols.idl
+* wine-devel /usr/include/wine/windows/compobj.h
+* wine-devel /usr/include/wine/windows/comsvcs.h
+* wine-devel /usr/include/wine/windows/comsvcs.idl
+* wine-devel /usr/include/wine/windows/concurrencysal.h
+* wine-devel /usr/include/wine/windows/consoleapi.h
+* wine-devel /usr/include/wine/windows/control.h
+* wine-devel /usr/include/wine/windows/control.idl
+* wine-devel /usr/include/wine/windows/cor.h
+* wine-devel /usr/include/wine/windows/cor.idl
+* wine-devel /usr/include/wine/windows/cordebug.h
+* wine-devel /usr/include/wine/windows/cordebug.idl
+* wine-devel /usr/include/wine/windows/corerror.h
+* wine-devel /usr/include/wine/windows/corhdr.h
+* wine-devel /usr/include/wine/windows/corsym.h
+* wine-devel /usr/include/wine/windows/corsym.idl
+* wine-devel /usr/include/wine/windows/cpl.h
+* wine-devel /usr/include/wine/windows/crtrow.idl
+* wine-devel /usr/include/wine/windows/cryptdlg.h
+* wine-devel /usr/include/wine/windows/cryptuiapi.h
+* wine-devel /usr/include/wine/windows/ctfutb.h
+* wine-devel /usr/include/wine/windows/ctfutb.idl
+* wine-devel /usr/include/wine/windows/ctxtcall.h
+* wine-devel /usr/include/wine/windows/ctxtcall.idl
+* wine-devel /usr/include/wine/windows/custcntl.h
+* wine-devel /usr/include/wine/windows/cvconst.h
+* wine-devel /usr/include/wine/windows/cvttyp.idl
+* wine-devel /usr/include/wine/windows/d2d1.h
+* wine-devel /usr/include/wine/windows/d2d1.idl
+* wine-devel /usr/include/wine/windows/d2d1effectauthor.h
+* wine-devel /usr/include/wine/windows/d2d1effectauthor.idl
+* wine-devel /usr/include/wine/windows/d2d1effects.h
+* wine-devel /usr/include/wine/windows/d2d1effects.idl
+* wine-devel /usr/include/wine/windows/d2d1effects_1.h
+* wine-devel /usr/include/wine/windows/d2d1effects_1.idl
+* wine-devel /usr/include/wine/windows/d2d1effects_2.h
+* wine-devel /usr/include/wine/windows/d2d1effects_2.idl
+* wine-devel /usr/include/wine/windows/d2d1_1.h
+* wine-devel /usr/include/wine/windows/d2d1_1.idl
+* wine-devel /usr/include/wine/windows/d2d1_2.h
+* wine-devel /usr/include/wine/windows/d2d1_2.idl
+* wine-devel /usr/include/wine/windows/d2d1_3.h
+* wine-devel /usr/include/wine/windows/d2d1_3.idl
+* wine-devel /usr/include/wine/windows/d2dbasetypes.h
+* wine-devel /usr/include/wine/windows/d2derr.h
+* wine-devel /usr/include/wine/windows/d3d.h
+* wine-devel /usr/include/wine/windows/d3d10.h
+* wine-devel /usr/include/wine/windows/d3d10.idl
+* wine-devel /usr/include/wine/windows/d3d10effect.h
+* wine-devel /usr/include/wine/windows/d3d10effect.idl
+* wine-devel /usr/include/wine/windows/d3d10misc.h
+* wine-devel /usr/include/wine/windows/d3d10sdklayers.h
+* wine-devel /usr/include/wine/windows/d3d10sdklayers.idl
+* wine-devel /usr/include/wine/windows/d3d10shader.h
+* wine-devel /usr/include/wine/windows/d3d10shader.idl
+* wine-devel /usr/include/wine/windows/d3d10_1.h
+* wine-devel /usr/include/wine/windows/d3d10_1.idl
+* wine-devel /usr/include/wine/windows/d3d10_1shader.h
+* wine-devel /usr/include/wine/windows/d3d11.h
+* wine-devel /usr/include/wine/windows/d3d11.idl
+* wine-devel /usr/include/wine/windows/d3d11on12.h
+* wine-devel /usr/include/wine/windows/d3d11on12.idl
+* wine-devel /usr/include/wine/windows/d3d11sdklayers.h
+* wine-devel /usr/include/wine/windows/d3d11sdklayers.idl
+* wine-devel /usr/include/wine/windows/d3d11shader.h
+* wine-devel /usr/include/wine/windows/d3d11_1.h
+* wine-devel /usr/include/wine/windows/d3d11_1.idl
+* wine-devel /usr/include/wine/windows/d3d11_2.h
+* wine-devel /usr/include/wine/windows/d3d11_2.idl
+* wine-devel /usr/include/wine/windows/d3d11_3.h
+* wine-devel /usr/include/wine/windows/d3d11_3.idl
+* wine-devel /usr/include/wine/windows/d3d11_4.h
+* wine-devel /usr/include/wine/windows/d3d11_4.idl
+* wine-devel /usr/include/wine/windows/d3d12.h
+* wine-devel /usr/include/wine/windows/d3d12.idl
+* wine-devel /usr/include/wine/windows/d3d12sdklayers.h
+* wine-devel /usr/include/wine/windows/d3d12sdklayers.idl
+* wine-devel /usr/include/wine/windows/d3d12shader.h
+* wine-devel /usr/include/wine/windows/d3d12shader.idl
+* wine-devel /usr/include/wine/windows/d3d12video.h
+* wine-devel /usr/include/wine/windows/d3d12video.idl
+* wine-devel /usr/include/wine/windows/d3d8.h
+* wine-devel /usr/include/wine/windows/d3d8caps.h
+* wine-devel /usr/include/wine/windows/d3d8types.h
+* wine-devel /usr/include/wine/windows/d3d9.h
+* wine-devel /usr/include/wine/windows/d3d9caps.h
+* wine-devel /usr/include/wine/windows/d3d9types.h
+* wine-devel /usr/include/wine/windows/d3dcaps.h
+* wine-devel /usr/include/wine/windows/d3dcommon.h
+* wine-devel /usr/include/wine/windows/d3dcommon.idl
+* wine-devel /usr/include/wine/windows/d3dcompiler.h
+* wine-devel /usr/include/wine/windows/d3dhal.h
+* wine-devel /usr/include/wine/windows/d3dkmdt.h
+* wine-devel /usr/include/wine/windows/d3drm.h
+* wine-devel /usr/include/wine/windows/d3drmdef.h
+* wine-devel /usr/include/wine/windows/d3drmobj.h
+* wine-devel /usr/include/wine/windows/d3drmwin.h
+* wine-devel /usr/include/wine/windows/d3dtypes.h
+* wine-devel /usr/include/wine/windows/d3dukmdt.h
+* wine-devel /usr/include/wine/windows/d3dvec.inl
+* wine-devel /usr/include/wine/windows/d3dx10.h
+* wine-devel /usr/include/wine/windows/d3dx10async.h
+* wine-devel /usr/include/wine/windows/d3dx10core.h
+* wine-devel /usr/include/wine/windows/d3dx10math.h
+* wine-devel /usr/include/wine/windows/d3dx10mesh.h
+* wine-devel /usr/include/wine/windows/d3dx10tex.h
+* wine-devel /usr/include/wine/windows/d3dx11.h
+* wine-devel /usr/include/wine/windows/d3dx11async.h
+* wine-devel /usr/include/wine/windows/d3dx11core.h
+* wine-devel /usr/include/wine/windows/d3dx11core.idl
+* wine-devel /usr/include/wine/windows/d3dx11tex.h
+* wine-devel /usr/include/wine/windows/d3dx9.h
+* wine-devel /usr/include/wine/windows/d3dx9anim.h
+* wine-devel /usr/include/wine/windows/d3dx9core.h
+* wine-devel /usr/include/wine/windows/d3dx9effect.h
+* wine-devel /usr/include/wine/windows/d3dx9math.h
+* wine-devel /usr/include/wine/windows/d3dx9math.inl
+* wine-devel /usr/include/wine/windows/d3dx9mesh.h
+* wine-devel /usr/include/wine/windows/d3dx9shader.h
+* wine-devel /usr/include/wine/windows/d3dx9shape.h
+* wine-devel /usr/include/wine/windows/d3dx9tex.h
+* wine-devel /usr/include/wine/windows/d3dx9xof.h
+* wine-devel /usr/include/wine/windows/davclnt.h
+* wine-devel /usr/include/wine/windows/dbccmd.idl
+* wine-devel /usr/include/wine/windows/dbcses.idl
+* wine-devel /usr/include/wine/windows/dbdsad.idl
+* wine-devel /usr/include/wine/windows/dbgeng.h
+* wine-devel /usr/include/wine/windows/dbghelp.h
+* wine-devel /usr/include/wine/windows/dbinit.idl
+* wine-devel /usr/include/wine/windows/dbprop.idl
+* wine-devel /usr/include/wine/windows/dbs.idl
+* wine-devel /usr/include/wine/windows/dbt.h
+* wine-devel /usr/include/wine/windows/dciddi.h
+* wine-devel /usr/include/wine/windows/dciman.h
+* wine-devel /usr/include/wine/windows/dcommon.h
+* wine-devel /usr/include/wine/windows/dcommon.idl
+* wine-devel /usr/include/wine/windows/dcomp.h
+* wine-devel /usr/include/wine/windows/dcomp.idl
+* wine-devel /usr/include/wine/windows/dcompanimation.h
+* wine-devel /usr/include/wine/windows/dcompanimation.idl
+* wine-devel /usr/include/wine/windows/dcomptypes.h
+* wine-devel /usr/include/wine/windows/dcomptypes.idl
+* wine-devel /usr/include/wine/windows/dde.h
+* wine-devel /usr/include/wine/windows/dde.rh
+* wine-devel /usr/include/wine/windows/ddeml.h
+* wine-devel /usr/include/wine/windows/ddk/compstui.h
+* wine-devel /usr/include/wine/windows/ddk/csq.h
+* wine-devel /usr/include/wine/windows/ddk/d3dkmthk.h
+* wine-devel /usr/include/wine/windows/ddk/fltkernel.h
+* wine-devel /usr/include/wine/windows/ddk/hidclass.h
+* wine-devel /usr/include/wine/windows/ddk/hidpddi.h
+* wine-devel /usr/include/wine/windows/ddk/hidpi.h
+* wine-devel /usr/include/wine/windows/ddk/hidport.h
+* wine-devel /usr/include/wine/windows/ddk/hidsdi.h
+* wine-devel /usr/include/wine/windows/ddk/hidtypes.h
+* wine-devel /usr/include/wine/windows/ddk/mountmgr.h
+* wine-devel /usr/include/wine/windows/ddk/ndis.h
+* wine-devel /usr/include/wine/windows/ddk/ntddcdvd.h
+* wine-devel /usr/include/wine/windows/ddk/ntddk.h
+* wine-devel /usr/include/wine/windows/ddk/ntddser.h
+* wine-devel /usr/include/wine/windows/ddk/ntddtape.h
+* wine-devel /usr/include/wine/windows/ddk/ntifs.h
+* wine-devel /usr/include/wine/windows/ddk/usb.h
+* wine-devel /usr/include/wine/windows/ddk/usb100.h
+* wine-devel /usr/include/wine/windows/ddk/usb200.h
+* wine-devel /usr/include/wine/windows/ddk/usbdlib.h
+* wine-devel /usr/include/wine/windows/ddk/usbioctl.h
+* wine-devel /usr/include/wine/windows/ddk/usbiodef.h
+* wine-devel /usr/include/wine/windows/ddk/wdm.h
+* wine-devel /usr/include/wine/windows/ddk/winddi.h
+* wine-devel /usr/include/wine/windows/ddk/winddiui.h
+* wine-devel /usr/include/wine/windows/ddk/winsplp.h
+* wine-devel /usr/include/wine/windows/ddk/wsk.h
+* wine-devel /usr/include/wine/windows/ddraw.h
+* wine-devel /usr/include/wine/windows/ddrawgdi.h
+* wine-devel /usr/include/wine/windows/ddrawi.h
+* wine-devel /usr/include/wine/windows/ddstream.h
+* wine-devel /usr/include/wine/windows/ddstream.idl
+* wine-devel /usr/include/wine/windows/delayloadhandler.h
+* wine-devel /usr/include/wine/windows/devenum.idl
+* wine-devel /usr/include/wine/windows/devguid.h
+* wine-devel /usr/include/wine/windows/devicetopology.h
+* wine-devel /usr/include/wine/windows/devicetopology.idl
+* wine-devel /usr/include/wine/windows/devpkey.h
+* wine-devel /usr/include/wine/windows/devpropdef.h
+* wine-devel /usr/include/wine/windows/dhcpcsdk.h
+* wine-devel /usr/include/wine/windows/dhtmldid.h
+* wine-devel /usr/include/wine/windows/dhtmled.h
+* wine-devel /usr/include/wine/windows/dhtmled.idl
+* wine-devel /usr/include/wine/windows/difxapi.h
+* wine-devel /usr/include/wine/windows/digitalv.h
+* wine-devel /usr/include/wine/windows/dimm.h
+* wine-devel /usr/include/wine/windows/dimm.idl
+* wine-devel /usr/include/wine/windows/dinput.h
+* wine-devel /usr/include/wine/windows/dinputd.h
+* wine-devel /usr/include/wine/windows/directmanipulation.h
+* wine-devel /usr/include/wine/windows/directmanipulation.idl
+* wine-devel /usr/include/wine/windows/dispatcherqueue.h
+* wine-devel /usr/include/wine/windows/dispatcherqueue.idl
+* wine-devel /usr/include/wine/windows/dispdib.h
+* wine-devel /usr/include/wine/windows/dispex.h
+* wine-devel /usr/include/wine/windows/dispex.idl
+* wine-devel /usr/include/wine/windows/dlgs.h
+* wine-devel /usr/include/wine/windows/dls1.h
+* wine-devel /usr/include/wine/windows/dls2.h
+* wine-devel /usr/include/wine/windows/dmdls.h
+* wine-devel /usr/include/wine/windows/dmerror.h
+* wine-devel /usr/include/wine/windows/dmksctrl.h
+* wine-devel /usr/include/wine/windows/dmo.h
+* wine-devel /usr/include/wine/windows/dmodshow.h
+* wine-devel /usr/include/wine/windows/dmodshow.idl
+* wine-devel /usr/include/wine/windows/dmoreg.h
+* wine-devel /usr/include/wine/windows/dmort.h
+* wine-devel /usr/include/wine/windows/dmplugin.h
+* wine-devel /usr/include/wine/windows/dmusbuff.h
+* wine-devel /usr/include/wine/windows/dmusicc.h
+* wine-devel /usr/include/wine/windows/dmusicf.h
+* wine-devel /usr/include/wine/windows/dmusici.h
+* wine-devel /usr/include/wine/windows/dmusics.h
+* wine-devel /usr/include/wine/windows/docobj.h
+* wine-devel /usr/include/wine/windows/docobj.idl
+* wine-devel /usr/include/wine/windows/docobjectservice.h
+* wine-devel /usr/include/wine/windows/docobjectservice.idl
+* wine-devel /usr/include/wine/windows/documenttarget.h
+* wine-devel /usr/include/wine/windows/documenttarget.idl
+* wine-devel /usr/include/wine/windows/downloadmgr.h
+* wine-devel /usr/include/wine/windows/downloadmgr.idl
+* wine-devel /usr/include/wine/windows/dpaddr.h
+* wine-devel /usr/include/wine/windows/dpfilter.h
+* wine-devel /usr/include/wine/windows/dplay.h
+* wine-devel /usr/include/wine/windows/dplay8.h
+* wine-devel /usr/include/wine/windows/dplobby.h
+* wine-devel /usr/include/wine/windows/dplobby8.h
+* wine-devel /usr/include/wine/windows/dpnathlp.h
+* wine-devel /usr/include/wine/windows/driverspecs.h
+* wine-devel /usr/include/wine/windows/drmexternals.h
+* wine-devel /usr/include/wine/windows/drmexternals.idl
+* wine-devel /usr/include/wine/windows/dsclient.h
+* wine-devel /usr/include/wine/windows/dsconf.h
+* wine-devel /usr/include/wine/windows/dsgetdc.h
+* wine-devel /usr/include/wine/windows/dshow.h
+* wine-devel /usr/include/wine/windows/dsound.h
+* wine-devel /usr/include/wine/windows/dsrole.h
+* wine-devel /usr/include/wine/windows/dvdif.h
+* wine-devel /usr/include/wine/windows/dvdif.idl
+* wine-devel /usr/include/wine/windows/dvdmedia.h
+* wine-devel /usr/include/wine/windows/dvoice.h
+* wine-devel /usr/include/wine/windows/dwmapi.h
+* wine-devel /usr/include/wine/windows/dwrite.h
+* wine-devel /usr/include/wine/windows/dwrite.idl
+* wine-devel /usr/include/wine/windows/dwrite_1.h
+* wine-devel /usr/include/wine/windows/dwrite_1.idl
+* wine-devel /usr/include/wine/windows/dwrite_2.h
+* wine-devel /usr/include/wine/windows/dwrite_2.idl
+* wine-devel /usr/include/wine/windows/dwrite_3.h
+* wine-devel /usr/include/wine/windows/dwrite_3.idl
+* wine-devel /usr/include/wine/windows/dxcore.h
+* wine-devel /usr/include/wine/windows/dxcore_interface.h
+* wine-devel /usr/include/wine/windows/dxdiag.h
+* wine-devel /usr/include/wine/windows/dxerr8.h
+* wine-devel /usr/include/wine/windows/dxerr9.h
+* wine-devel /usr/include/wine/windows/dxfile.h
+* wine-devel /usr/include/wine/windows/dxgi.h
+* wine-devel /usr/include/wine/windows/dxgi.idl
+* wine-devel /usr/include/wine/windows/dxgi1_2.h
+* wine-devel /usr/include/wine/windows/dxgi1_2.idl
+* wine-devel /usr/include/wine/windows/dxgi1_3.h
+* wine-devel /usr/include/wine/windows/dxgi1_3.idl
+* wine-devel /usr/include/wine/windows/dxgi1_4.h
+* wine-devel /usr/include/wine/windows/dxgi1_4.idl
+* wine-devel /usr/include/wine/windows/dxgi1_5.h
+* wine-devel /usr/include/wine/windows/dxgi1_5.idl
+* wine-devel /usr/include/wine/windows/dxgi1_6.h
+* wine-devel /usr/include/wine/windows/dxgi1_6.idl
+* wine-devel /usr/include/wine/windows/dxgicommon.h
+* wine-devel /usr/include/wine/windows/dxgicommon.idl
+* wine-devel /usr/include/wine/windows/dxgidebug.h
+* wine-devel /usr/include/wine/windows/dxgidebug.idl
+* wine-devel /usr/include/wine/windows/dxgiformat.h
+* wine-devel /usr/include/wine/windows/dxgiformat.idl
+* wine-devel /usr/include/wine/windows/dxgitype.h
+* wine-devel /usr/include/wine/windows/dxgitype.idl
+* wine-devel /usr/include/wine/windows/dxva.h
+* wine-devel /usr/include/wine/windows/dxva2api.h
+* wine-devel /usr/include/wine/windows/dxva2api.idl
+* wine-devel /usr/include/wine/windows/dyngraph.idl
+* wine-devel /usr/include/wine/windows/endpointvolume.h
+* wine-devel /usr/include/wine/windows/endpointvolume.idl
+* wine-devel /usr/include/wine/windows/errorrep.h
+* wine-devel /usr/include/wine/windows/errors.h
+* wine-devel /usr/include/wine/windows/errrec.idl
+* wine-devel /usr/include/wine/windows/evcode.h
+* wine-devel /usr/include/wine/windows/eventtoken.h
+* wine-devel /usr/include/wine/windows/eventtoken.idl
+* wine-devel /usr/include/wine/windows/evntprov.h
+* wine-devel /usr/include/wine/windows/evntrace.h
+* wine-devel /usr/include/wine/windows/evr.h
+* wine-devel /usr/include/wine/windows/evr.idl
+* wine-devel /usr/include/wine/windows/evr9.h
+* wine-devel /usr/include/wine/windows/evr9.idl
+* wine-devel /usr/include/wine/windows/excpt.h
+* wine-devel /usr/include/wine/windows/exdisp.h
+* wine-devel /usr/include/wine/windows/exdisp.idl
+* wine-devel /usr/include/wine/windows/exdispid.h
+* wine-devel /usr/include/wine/windows/exposeenums2managed.h
+* wine-devel /usr/include/wine/windows/fci.h
+* wine-devel /usr/include/wine/windows/fdi.h
+* wine-devel /usr/include/wine/windows/featurestagingapi.h
+* wine-devel /usr/include/wine/windows/fileapi.h
+* wine-devel /usr/include/wine/windows/filter.h
+* wine-devel /usr/include/wine/windows/filter.idl
+* wine-devel /usr/include/wine/windows/fltdefs.h
+* wine-devel /usr/include/wine/windows/fontsub.h
+* wine-devel /usr/include/wine/windows/fusion.h
+* wine-devel /usr/include/wine/windows/fusion.idl
+* wine-devel /usr/include/wine/windows/gameux.h
+* wine-devel /usr/include/wine/windows/gameux.idl
+* wine-devel /usr/include/wine/windows/gamingtcui.h
+* wine-devel /usr/include/wine/windows/gdiplus.h
+* wine-devel /usr/include/wine/windows/gdipluscolor.h
+* wine-devel /usr/include/wine/windows/gdipluscolormatrix.h
+* wine-devel /usr/include/wine/windows/gdipluseffects.h
+* wine-devel /usr/include/wine/windows/gdiplusenums.h
+* wine-devel /usr/include/wine/windows/gdiplusflat.h
+* wine-devel /usr/include/wine/windows/gdiplusgpstubs.h
+* wine-devel /usr/include/wine/windows/gdiplusimaging.h
+* wine-devel /usr/include/wine/windows/gdiplusinit.h
+* wine-devel /usr/include/wine/windows/gdiplusmem.h
+* wine-devel /usr/include/wine/windows/gdiplusmetaheader.h
+* wine-devel /usr/include/wine/windows/gdipluspixelformats.h
+* wine-devel /usr/include/wine/windows/gdiplustypes.h
+* wine-devel /usr/include/wine/windows/getdts.idl
+* wine-devel /usr/include/wine/windows/guiddef.h
+* wine-devel /usr/include/wine/windows/hidusage.h
+* wine-devel /usr/include/wine/windows/highlevelmonitorconfigurationapi.h
+* wine-devel /usr/include/wine/windows/hlguids.h
+* wine-devel /usr/include/wine/windows/hlink.h
+* wine-devel /usr/include/wine/windows/hlink.idl
+* wine-devel /usr/include/wine/windows/holographicspaceinterop.h
+* wine-devel /usr/include/wine/windows/holographicspaceinterop.idl
+* wine-devel /usr/include/wine/windows/hrtfapoapi.h
+* wine-devel /usr/include/wine/windows/hrtfapoapi.idl
+* wine-devel /usr/include/wine/windows/hstring.h
+* wine-devel /usr/include/wine/windows/hstring.idl
+* wine-devel /usr/include/wine/windows/htiface.h
+* wine-devel /usr/include/wine/windows/htiface.idl
+* wine-devel /usr/include/wine/windows/htiframe.h
+* wine-devel /usr/include/wine/windows/htiframe.idl
+* wine-devel /usr/include/wine/windows/htmlhelp.h
+* wine-devel /usr/include/wine/windows/http.h
+* wine-devel /usr/include/wine/windows/httprequest.h
+* wine-devel /usr/include/wine/windows/httprequest.idl
+* wine-devel /usr/include/wine/windows/httprequestid.h
+* wine-devel /usr/include/wine/windows/iads.h
+* wine-devel /usr/include/wine/windows/iads.idl
+* wine-devel /usr/include/wine/windows/icftypes.h
+* wine-devel /usr/include/wine/windows/icftypes.idl
+* wine-devel /usr/include/wine/windows/icm.h
+* wine-devel /usr/include/wine/windows/icmpapi.h
+* wine-devel /usr/include/wine/windows/icodecapi.h
+* wine-devel /usr/include/wine/windows/icodecapi.idl
+* wine-devel /usr/include/wine/windows/idispids.h
+* wine-devel /usr/include/wine/windows/ieautomation.h
+* wine-devel /usr/include/wine/windows/ieautomation.idl
+* wine-devel /usr/include/wine/windows/iextag.h
+* wine-devel /usr/include/wine/windows/iextag.idl
+* wine-devel /usr/include/wine/windows/ifdef.h
+* wine-devel /usr/include/wine/windows/ifmib.h
+* wine-devel /usr/include/wine/windows/iimgctx.h
+* wine-devel /usr/include/wine/windows/iimgctx.idl
+* wine-devel /usr/include/wine/windows/imagehlp.h
+* wine-devel /usr/include/wine/windows/ime.h
+* wine-devel /usr/include/wine/windows/imm.h
+* wine-devel /usr/include/wine/windows/immdev.h
+* wine-devel /usr/include/wine/windows/imnact.h
+* wine-devel /usr/include/wine/windows/imnact.idl
+* wine-devel /usr/include/wine/windows/imnxport.h
+* wine-devel /usr/include/wine/windows/imnxport.idl
+* wine-devel /usr/include/wine/windows/in6addr.h
+* wine-devel /usr/include/wine/windows/inaddr.h
+* wine-devel /usr/include/wine/windows/indexsrv.h
+* wine-devel /usr/include/wine/windows/indexsrv.idl
+* wine-devel /usr/include/wine/windows/initguid.h
+* wine-devel /usr/include/wine/windows/inputpaneinterop.h
+* wine-devel /usr/include/wine/windows/inputpaneinterop.idl
+* wine-devel /usr/include/wine/windows/inputscope.h
+* wine-devel /usr/include/wine/windows/inputscope.idl
+* wine-devel /usr/include/wine/windows/inseng.h
+* wine-devel /usr/include/wine/windows/inseng.idl
+* wine-devel /usr/include/wine/windows/inspectable.h
+* wine-devel /usr/include/wine/windows/inspectable.idl
+* wine-devel /usr/include/wine/windows/interactioncontext.h
+* wine-devel /usr/include/wine/windows/intshcut.h
+* wine-devel /usr/include/wine/windows/ioringapi.h
+* wine-devel /usr/include/wine/windows/ip2string.h
+* wine-devel /usr/include/wine/windows/ipexport.h
+* wine-devel /usr/include/wine/windows/iphlpapi.h
+* wine-devel /usr/include/wine/windows/ipifcons.h
+* wine-devel /usr/include/wine/windows/ipmib.h
+* wine-devel /usr/include/wine/windows/iprtrmib.h
+* wine-devel /usr/include/wine/windows/iptypes.h
+* wine-devel /usr/include/wine/windows/isguids.h
+* wine-devel /usr/include/wine/windows/ivectorchangedeventargs.h
+* wine-devel /usr/include/wine/windows/ivectorchangedeventargs.idl
+* wine-devel /usr/include/wine/windows/i_cryptasn1tls.h
+* wine-devel /usr/include/wine/windows/kbd.h
+* wine-devel /usr/include/wine/windows/knownfolders.h
+* wine-devel /usr/include/wine/windows/ks.h
+* wine-devel /usr/include/wine/windows/ksguid.h
+* wine-devel /usr/include/wine/windows/ksmedia.h
+* wine-devel /usr/include/wine/windows/ksuuids.h
+* wine-devel /usr/include/wine/windows/libloaderapi.h
+* wine-devel /usr/include/wine/windows/lm.h
+* wine-devel /usr/include/wine/windows/lmaccess.h
+* wine-devel /usr/include/wine/windows/lmapibuf.h
+* wine-devel /usr/include/wine/windows/lmat.h
+* wine-devel /usr/include/wine/windows/lmbrowsr.h
+* wine-devel /usr/include/wine/windows/lmcons.h
+* wine-devel /usr/include/wine/windows/lmerr.h
+* wine-devel /usr/include/wine/windows/lmjoin.h
+* wine-devel /usr/include/wine/windows/lmmsg.h
+* wine-devel /usr/include/wine/windows/lmremutl.h
+* wine-devel /usr/include/wine/windows/lmserver.h
+* wine-devel /usr/include/wine/windows/lmshare.h
+* wine-devel /usr/include/wine/windows/lmstats.h
+* wine-devel /usr/include/wine/windows/lmuse.h
+* wine-devel /usr/include/wine/windows/lmuseflg.h
+* wine-devel /usr/include/wine/windows/lmwksta.h
+* wine-devel /usr/include/wine/windows/loadperf.h
+* wine-devel /usr/include/wine/windows/lowlevelmonitorconfigurationapi.h
+* wine-devel /usr/include/wine/windows/lzexpand.h
+* wine-devel /usr/include/wine/windows/mapi.h
+* wine-devel /usr/include/wine/windows/mapicode.h
+* wine-devel /usr/include/wine/windows/mapidefs.h
+* wine-devel /usr/include/wine/windows/mapiform.h
+* wine-devel /usr/include/wine/windows/mapiguid.h
+* wine-devel /usr/include/wine/windows/mapitags.h
+* wine-devel /usr/include/wine/windows/mapiutil.h
+* wine-devel /usr/include/wine/windows/mapival.h
+* wine-devel /usr/include/wine/windows/mapix.h
+* wine-devel /usr/include/wine/windows/mciavi.h
+* wine-devel /usr/include/wine/windows/mcx.h
+* wine-devel /usr/include/wine/windows/mediaerr.h
+* wine-devel /usr/include/wine/windows/mediaobj.h
+* wine-devel /usr/include/wine/windows/mediaobj.idl
+* wine-devel /usr/include/wine/windows/medparam.h
+* wine-devel /usr/include/wine/windows/medparam.idl
+* wine-devel /usr/include/wine/windows/memoryapi.h
+* wine-devel /usr/include/wine/windows/metahost.h
+* wine-devel /usr/include/wine/windows/metahost.idl
+* wine-devel /usr/include/wine/windows/mfapi.h
+* wine-devel /usr/include/wine/windows/mfd3d12.h
+* wine-devel /usr/include/wine/windows/mfd3d12.idl
+* wine-devel /usr/include/wine/windows/mferror.h
+* wine-devel /usr/include/wine/windows/mfidl.h
+* wine-devel /usr/include/wine/windows/mfidl.idl
+* wine-devel /usr/include/wine/windows/mfmediaengine.h
+* wine-devel /usr/include/wine/windows/mfmediaengine.idl
+* wine-devel /usr/include/wine/windows/mfobjects.h
+* wine-devel /usr/include/wine/windows/mfobjects.idl
+* wine-devel /usr/include/wine/windows/mfplay.h
+* wine-devel /usr/include/wine/windows/mfplay.idl
+* wine-devel /usr/include/wine/windows/mfreadwrite.h
+* wine-devel /usr/include/wine/windows/mfreadwrite.idl
+* wine-devel /usr/include/wine/windows/mftransform.h
+* wine-devel /usr/include/wine/windows/mftransform.idl
+* wine-devel /usr/include/wine/windows/mgmtapi.h
+* wine-devel /usr/include/wine/windows/midles.h
+* wine-devel /usr/include/wine/windows/mimeinfo.h
+* wine-devel /usr/include/wine/windows/mimeinfo.idl
+* wine-devel /usr/include/wine/windows/mimeole.h
+* wine-devel /usr/include/wine/windows/mimeole.idl
+* wine-devel /usr/include/wine/windows/minidumpapiset.h
+* wine-devel /usr/include/wine/windows/minmax.h
+* wine-devel /usr/include/wine/windows/minschannel.h
+* wine-devel /usr/include/wine/windows/mlang.h
+* wine-devel /usr/include/wine/windows/mlang.idl
+* wine-devel /usr/include/wine/windows/mmc.h
+* wine-devel /usr/include/wine/windows/mmc.idl
+* wine-devel /usr/include/wine/windows/mmddk.h
+* wine-devel /usr/include/wine/windows/mmdeviceapi.h
+* wine-devel /usr/include/wine/windows/mmdeviceapi.idl
+* wine-devel /usr/include/wine/windows/mmreg.h
+* wine-devel /usr/include/wine/windows/mmstream.h
+* wine-devel /usr/include/wine/windows/mmstream.idl
+* wine-devel /usr/include/wine/windows/mmsystem.h
+* wine-devel /usr/include/wine/windows/mpegtype.h
+* wine-devel /usr/include/wine/windows/mpegtype.idl
+* wine-devel /usr/include/wine/windows/mprapi.h
+* wine-devel /usr/include/wine/windows/mprerror.h
+* wine-devel /usr/include/wine/windows/msacm.h
+* wine-devel /usr/include/wine/windows/msacmdlg.h
+* wine-devel /usr/include/wine/windows/msacmdrv.h
+* wine-devel /usr/include/wine/windows/msado15_backcompat.h
+* wine-devel /usr/include/wine/windows/msado15_backcompat.idl
+* wine-devel /usr/include/wine/windows/msasn1.h
+* wine-devel /usr/include/wine/windows/mscat.h
+* wine-devel /usr/include/wine/windows/mscoree.h
+* wine-devel /usr/include/wine/windows/mscoree.idl
+* wine-devel /usr/include/wine/windows/msctf.h
+* wine-devel /usr/include/wine/windows/msctf.idl
+* wine-devel /usr/include/wine/windows/msdadc.h
+* wine-devel /usr/include/wine/windows/msdadc.idl
+* wine-devel /usr/include/wine/windows/msdaguid.h
+* wine-devel /usr/include/wine/windows/msdasc.h
+* wine-devel /usr/include/wine/windows/msdasc.idl
+* wine-devel /usr/include/wine/windows/msdasql.h
+* wine-devel /usr/include/wine/windows/msdelta.h
+* wine-devel /usr/include/wine/windows/mshtmcid.h
+* wine-devel /usr/include/wine/windows/mshtmdid.h
+* wine-devel /usr/include/wine/windows/mshtmhst.h
+* wine-devel /usr/include/wine/windows/mshtmhst.idl
+* wine-devel /usr/include/wine/windows/mshtml.h
+* wine-devel /usr/include/wine/windows/mshtml.idl
+* wine-devel /usr/include/wine/windows/msi.h
+* wine-devel /usr/include/wine/windows/msidefs.h
+* wine-devel /usr/include/wine/windows/msident.h
+* wine-devel /usr/include/wine/windows/msident.idl
+* wine-devel /usr/include/wine/windows/msinkaut.h
+* wine-devel /usr/include/wine/windows/msinkaut.idl
+* wine-devel /usr/include/wine/windows/msiquery.h
+* wine-devel /usr/include/wine/windows/msopc.h
+* wine-devel /usr/include/wine/windows/msopc.idl
+* wine-devel /usr/include/wine/windows/mssip.h
+* wine-devel /usr/include/wine/windows/msstkppg.h
+* wine-devel /usr/include/wine/windows/mstask.h
+* wine-devel /usr/include/wine/windows/mstask.idl
+* wine-devel /usr/include/wine/windows/mstcpip.h
+* wine-devel /usr/include/wine/windows/mswsock.h
+* wine-devel /usr/include/wine/windows/msxml.h
+* wine-devel /usr/include/wine/windows/msxml.idl
+* wine-devel /usr/include/wine/windows/msxml2.h
+* wine-devel /usr/include/wine/windows/msxml2.idl
+* wine-devel /usr/include/wine/windows/msxml2did.h
+* wine-devel /usr/include/wine/windows/msxml6.h
+* wine-devel /usr/include/wine/windows/msxml6.idl
+* wine-devel /usr/include/wine/windows/msxml6did.h
+* wine-devel /usr/include/wine/windows/msxmldid.h
+* wine-devel /usr/include/wine/windows/mtxdm.h
+* wine-devel /usr/include/wine/windows/mulres.idl
+* wine-devel /usr/include/wine/windows/multimon.h
+* wine-devel /usr/include/wine/windows/namespaceapi.h
+* wine-devel /usr/include/wine/windows/natupnp.h
+* wine-devel /usr/include/wine/windows/natupnp.idl
+* wine-devel /usr/include/wine/windows/nb30.h
+* wine-devel /usr/include/wine/windows/ncrypt.h
+* wine-devel /usr/include/wine/windows/ndrtypes.h
+* wine-devel /usr/include/wine/windows/netcfgx.h
+* wine-devel /usr/include/wine/windows/netcfgx.idl
+* wine-devel /usr/include/wine/windows/netcon.h
+* wine-devel /usr/include/wine/windows/netcon.idl
+* wine-devel /usr/include/wine/windows/netevent.h
+* wine-devel /usr/include/wine/windows/netfw.h
+* wine-devel /usr/include/wine/windows/netfw.idl
+* wine-devel /usr/include/wine/windows/netioapi.h
+* wine-devel /usr/include/wine/windows/netiodef.h
+* wine-devel /usr/include/wine/windows/netlistmgr.h
+* wine-devel /usr/include/wine/windows/netlistmgr.idl
+* wine-devel /usr/include/wine/windows/newdev.h
+* wine-devel /usr/include/wine/windows/nldef.h
+* wine-devel /usr/include/wine/windows/npapi.h
+* wine-devel /usr/include/wine/windows/nserror.h
+* wine-devel /usr/include/wine/windows/nspapi.h
+* wine-devel /usr/include/wine/windows/ntddcdrm.h
+* wine-devel /usr/include/wine/windows/ntddkbd.h
+* wine-devel /usr/include/wine/windows/ntddmou.h
+* wine-devel /usr/include/wine/windows/ntddndis.h
+* wine-devel /usr/include/wine/windows/ntddscsi.h
+* wine-devel /usr/include/wine/windows/ntddstor.h
+* wine-devel /usr/include/wine/windows/ntddvdeo.h
+* wine-devel /usr/include/wine/windows/ntdef.h
+* wine-devel /usr/include/wine/windows/ntdsapi.h
+* wine-devel /usr/include/wine/windows/ntgdi.h
+* wine-devel /usr/include/wine/windows/ntioring_x.h
+* wine-devel /usr/include/wine/windows/ntlsa.h
+* wine-devel /usr/include/wine/windows/ntquery.h
+* wine-devel /usr/include/wine/windows/ntsecapi.h
+* wine-devel /usr/include/wine/windows/ntsecpkg.h
+* wine-devel /usr/include/wine/windows/ntstatus.h
+* wine-devel /usr/include/wine/windows/ntuser.h
+* wine-devel /usr/include/wine/windows/oaidl.h
+* wine-devel /usr/include/wine/windows/oaidl.idl
+* wine-devel /usr/include/wine/windows/objbase.h
+* wine-devel /usr/include/wine/windows/objectarray.h
+* wine-devel /usr/include/wine/windows/objectarray.idl
+* wine-devel /usr/include/wine/windows/objidl.h
+* wine-devel /usr/include/wine/windows/objidl.idl
+* wine-devel /usr/include/wine/windows/objidlbase.h
+* wine-devel /usr/include/wine/windows/objidlbase.idl
+* wine-devel /usr/include/wine/windows/objsafe.h
+* wine-devel /usr/include/wine/windows/objsafe.idl
+* wine-devel /usr/include/wine/windows/objsel.h
+* wine-devel /usr/include/wine/windows/ocidl.h
+* wine-devel /usr/include/wine/windows/ocidl.idl
+* wine-devel /usr/include/wine/windows/ocmm.h
+* wine-devel /usr/include/wine/windows/ocmm.idl
+* wine-devel /usr/include/wine/windows/odbcinst.h
+* wine-devel /usr/include/wine/windows/ole2.h
+* wine-devel /usr/include/wine/windows/ole2ver.h
+* wine-devel /usr/include/wine/windows/oleacc.h
+* wine-devel /usr/include/wine/windows/oleacc.idl
+* wine-devel /usr/include/wine/windows/oleauto.h
+* wine-devel /usr/include/wine/windows/olectl.h
+* wine-devel /usr/include/wine/windows/oledb.h
+* wine-devel /usr/include/wine/windows/oledb.idl
+* wine-devel /usr/include/wine/windows/oledberr.h
+* wine-devel /usr/include/wine/windows/oledlg.h
+* wine-devel /usr/include/wine/windows/oleidl.h
+* wine-devel /usr/include/wine/windows/oleidl.idl
+* wine-devel /usr/include/wine/windows/opcbase.idl
+* wine-devel /usr/include/wine/windows/opcobjectmodel.idl
+* wine-devel /usr/include/wine/windows/opcparturi.idl
+* wine-devel /usr/include/wine/windows/opnrst.idl
+* wine-devel /usr/include/wine/windows/optary.h
+* wine-devel /usr/include/wine/windows/optary.idl
+* wine-devel /usr/include/wine/windows/patchapi.h
+* wine-devel /usr/include/wine/windows/pathcch.h
+* wine-devel /usr/include/wine/windows/pdh.h
+* wine-devel /usr/include/wine/windows/pdhmsg.h
+* wine-devel /usr/include/wine/windows/perflib.h
+* wine-devel /usr/include/wine/windows/perhist.h
+* wine-devel /usr/include/wine/windows/perhist.idl
+* wine-devel /usr/include/wine/windows/physicalmonitorenumerationapi.h
+* wine-devel /usr/include/wine/windows/pktdef.h
+* wine-devel /usr/include/wine/windows/poppack.h
+* wine-devel /usr/include/wine/windows/powrprof.h
+* wine-devel /usr/include/wine/windows/prntvpt.h
+* wine-devel /usr/include/wine/windows/processthreadsapi.h
+* wine-devel /usr/include/wine/windows/profinfo.h
+* wine-devel /usr/include/wine/windows/proofofpossessioncookieinfo.h
+* wine-devel /usr/include/wine/windows/proofofpossessioncookieinfo.idl
+* wine-devel /usr/include/wine/windows/propidl.h
+* wine-devel /usr/include/wine/windows/propidl.idl
+* wine-devel /usr/include/wine/windows/propkey.h
+* wine-devel /usr/include/wine/windows/propkeydef.h
+* wine-devel /usr/include/wine/windows/propsys.h
+* wine-devel /usr/include/wine/windows/propsys.idl
+* wine-devel /usr/include/wine/windows/propvarutil.h
+* wine-devel /usr/include/wine/windows/prsht.h
+* wine-devel /usr/include/wine/windows/psapi.h
+* wine-devel /usr/include/wine/windows/pshpack1.h
+* wine-devel /usr/include/wine/windows/pshpack2.h
+* wine-devel /usr/include/wine/windows/pshpack4.h
+* wine-devel /usr/include/wine/windows/pshpack8.h
+* wine-devel /usr/include/wine/windows/pstore.h
+* wine-devel /usr/include/wine/windows/pstore.idl
+* wine-devel /usr/include/wine/windows/qedit.h
+* wine-devel /usr/include/wine/windows/qedit.idl
+* wine-devel /usr/include/wine/windows/qos2.h
+* wine-devel /usr/include/wine/windows/ras.h
+* wine-devel /usr/include/wine/windows/rasdlg.h
+* wine-devel /usr/include/wine/windows/raserror.h
+* wine-devel /usr/include/wine/windows/realtimeapiset.h
+* wine-devel /usr/include/wine/windows/reason.h
+* wine-devel /usr/include/wine/windows/regstr.h
+* wine-devel /usr/include/wine/windows/relogger.h
+* wine-devel /usr/include/wine/windows/relogger.idl
+* wine-devel /usr/include/wine/windows/restartmanager.h
+* wine-devel /usr/include/wine/windows/restrictederrorinfo.h
+* wine-devel /usr/include/wine/windows/restrictederrorinfo.idl
+* wine-devel /usr/include/wine/windows/richedit.h
+* wine-devel /usr/include/wine/windows/richole.h
+* wine-devel /usr/include/wine/windows/richole.idl
+* wine-devel /usr/include/wine/windows/rmxfguid.h
+* wine-devel /usr/include/wine/windows/rmxftmpl.h
+* wine-devel /usr/include/wine/windows/rmxftmpl.x
+* wine-devel /usr/include/wine/windows/roapi.h
+* wine-devel /usr/include/wine/windows/roerrorapi.h
+* wine-devel /usr/include/wine/windows/rometadata.h
+* wine-devel /usr/include/wine/windows/rometadataresolution.h
+* wine-devel /usr/include/wine/windows/roparameterizediid.h
+* wine-devel /usr/include/wine/windows/roparameterizediid.idl
+* wine-devel /usr/include/wine/windows/row.idl
+* wine-devel /usr/include/wine/windows/rowchg.idl
+* wine-devel /usr/include/wine/windows/rowpos.idl
+* wine-devel /usr/include/wine/windows/rowpsc.idl
+* wine-devel /usr/include/wine/windows/rpc.h
+* wine-devel /usr/include/wine/windows/rpcasync.h
+* wine-devel /usr/include/wine/windows/rpcdce.h
+* wine-devel /usr/include/wine/windows/rpcdcep.h
+* wine-devel /usr/include/wine/windows/rpcndr.h
+* wine-devel /usr/include/wine/windows/rpcnterr.h
+* wine-devel /usr/include/wine/windows/rpcproxy.h
+* wine-devel /usr/include/wine/windows/rpcsal.h
+* wine-devel /usr/include/wine/windows/rstbas.idl
+* wine-devel /usr/include/wine/windows/rstchg.idl
+* wine-devel /usr/include/wine/windows/rstinf.idl
+* wine-devel /usr/include/wine/windows/rstloc.idl
+* wine-devel /usr/include/wine/windows/rstnot.idl
+* wine-devel /usr/include/wine/windows/rstupd.idl
+* wine-devel /usr/include/wine/windows/rtlsupportapi.h
+* wine-devel /usr/include/wine/windows/rtutils.h
+* wine-devel /usr/include/wine/windows/rtworkq.h
+* wine-devel /usr/include/wine/windows/rtworkq.idl
+* wine-devel /usr/include/wine/windows/sal.h
+* wine-devel /usr/include/wine/windows/sapi.h
+* wine-devel /usr/include/wine/windows/sapi.idl
+* wine-devel /usr/include/wine/windows/sapiaut.idl
+* wine-devel /usr/include/wine/windows/sapiddk.h
+* wine-devel /usr/include/wine/windows/sapiddk.idl
+* wine-devel /usr/include/wine/windows/scarderr.h
+* wine-devel /usr/include/wine/windows/schannel.h
+* wine-devel /usr/include/wine/windows/schemadef.h
+* wine-devel /usr/include/wine/windows/schnlsp.h
+* wine-devel /usr/include/wine/windows/sddl.h
+* wine-devel /usr/include/wine/windows/sdkddkver.h
+* wine-devel /usr/include/wine/windows/secext.h
+* wine-devel /usr/include/wine/windows/security.h
+* wine-devel /usr/include/wine/windows/sensapi.h
+* wine-devel /usr/include/wine/windows/sensevts.h
+* wine-devel /usr/include/wine/windows/sensevts.idl
+* wine-devel /usr/include/wine/windows/servprov.h
+* wine-devel /usr/include/wine/windows/servprov.idl
+* wine-devel /usr/include/wine/windows/sesprp.idl
+* wine-devel /usr/include/wine/windows/setupapi.h
+* wine-devel /usr/include/wine/windows/sfc.h
+* wine-devel /usr/include/wine/windows/shcore.h
+* wine-devel /usr/include/wine/windows/shdeprecated.h
+* wine-devel /usr/include/wine/windows/shdeprecated.idl
+* wine-devel /usr/include/wine/windows/shdispid.h
+* wine-devel /usr/include/wine/windows/shellapi.h
+* wine-devel /usr/include/wine/windows/shellscalingapi.h
+* wine-devel /usr/include/wine/windows/sherrors.h
+* wine-devel /usr/include/wine/windows/shimgdata.h
+* wine-devel /usr/include/wine/windows/shimgdata.idl
+* wine-devel /usr/include/wine/windows/shldisp.h
+* wine-devel /usr/include/wine/windows/shldisp.idl
+* wine-devel /usr/include/wine/windows/shlguid.h
+* wine-devel /usr/include/wine/windows/shlobj.h
+* wine-devel /usr/include/wine/windows/shlwapi.h
+* wine-devel /usr/include/wine/windows/shobjidl.h
+* wine-devel /usr/include/wine/windows/shobjidl.idl
+* wine-devel /usr/include/wine/windows/shobjidl_core.h
+* wine-devel /usr/include/wine/windows/shobjidl_core.idl
+* wine-devel /usr/include/wine/windows/shtypes.h
+* wine-devel /usr/include/wine/windows/shtypes.idl
+* wine-devel /usr/include/wine/windows/sipbase.h
+* wine-devel /usr/include/wine/windows/slerror.h
+* wine-devel /usr/include/wine/windows/slpublic.h
+* wine-devel /usr/include/wine/windows/snmp.h
+* wine-devel /usr/include/wine/windows/socketapi.h
+* wine-devel /usr/include/wine/windows/softpub.h
+* wine-devel /usr/include/wine/windows/spatialaudioclient.h
+* wine-devel /usr/include/wine/windows/spatialaudioclient.idl
+* wine-devel /usr/include/wine/windows/specstrings.h
+* wine-devel /usr/include/wine/windows/specstrings_strict.h
+* wine-devel /usr/include/wine/windows/sperror.h
+* wine-devel /usr/include/wine/windows/sql.h
+* wine-devel /usr/include/wine/windows/sqlext.h
+* wine-devel /usr/include/wine/windows/sqltypes.h
+* wine-devel /usr/include/wine/windows/sqlucode.h
+* wine-devel /usr/include/wine/windows/srcrst.idl
+* wine-devel /usr/include/wine/windows/srrestoreptapi.h
+* wine-devel /usr/include/wine/windows/sspi.h
+* wine-devel /usr/include/wine/windows/stgprop.h
+* wine-devel /usr/include/wine/windows/sti.h
+* wine-devel /usr/include/wine/windows/storage.h
+* wine-devel /usr/include/wine/windows/strmif.h
+* wine-devel /usr/include/wine/windows/strmif.idl
+* wine-devel /usr/include/wine/windows/strongname.h
+* wine-devel /usr/include/wine/windows/strsafe.h
+* wine-devel /usr/include/wine/windows/structuredquerycondition.h
+* wine-devel /usr/include/wine/windows/structuredquerycondition.idl
+* wine-devel /usr/include/wine/windows/svrapi.h
+* wine-devel /usr/include/wine/windows/synchapi.h
+* wine-devel /usr/include/wine/windows/systemmediatransportcontrolsinterop.h
+* wine-devel /usr/include/wine/windows/systemmediatransportcontrolsinterop.idl
+* wine-devel /usr/include/wine/windows/t2embapi.h
+* wine-devel /usr/include/wine/windows/tapi.h
+* wine-devel /usr/include/wine/windows/taskschd.h
+* wine-devel /usr/include/wine/windows/taskschd.idl
+* wine-devel /usr/include/wine/windows/tbs.h
+* wine-devel /usr/include/wine/windows/tchar.h
+* wine-devel /usr/include/wine/windows/tcpestats.h
+* wine-devel /usr/include/wine/windows/tcpmib.h
+* wine-devel /usr/include/wine/windows/textserv.h
+* wine-devel /usr/include/wine/windows/textstor.h
+* wine-devel /usr/include/wine/windows/textstor.idl
+* wine-devel /usr/include/wine/windows/threadpoolapiset.h
+* wine-devel /usr/include/wine/windows/thumbcache.h
+* wine-devel /usr/include/wine/windows/thumbcache.idl
+* wine-devel /usr/include/wine/windows/timezoneapi.h
+* wine-devel /usr/include/wine/windows/tlhelp32.h
+* wine-devel /usr/include/wine/windows/tlogstg.h
+* wine-devel /usr/include/wine/windows/tlogstg.idl
+* wine-devel /usr/include/wine/windows/tmschema.h
+* wine-devel /usr/include/wine/windows/tom.h
+* wine-devel /usr/include/wine/windows/tom.idl
+* wine-devel /usr/include/wine/windows/tpcshrd.h
+* wine-devel /usr/include/wine/windows/traffic.h
+* wine-devel /usr/include/wine/windows/transact.h
+* wine-devel /usr/include/wine/windows/transact.idl
+* wine-devel /usr/include/wine/windows/trnjoi.idl
+* wine-devel /usr/include/wine/windows/trnlcl.idl
+* wine-devel /usr/include/wine/windows/trnobj.idl
+* wine-devel /usr/include/wine/windows/twain.h
+* wine-devel /usr/include/wine/windows/txcoord.h
+* wine-devel /usr/include/wine/windows/txcoord.idl
+* wine-devel /usr/include/wine/windows/txdtc.h
+* wine-devel /usr/include/wine/windows/txdtc.idl
+* wine-devel /usr/include/wine/windows/udpmib.h
+* wine-devel /usr/include/wine/windows/uianimation.h
+* wine-devel /usr/include/wine/windows/uianimation.idl
+* wine-devel /usr/include/wine/windows/uiautomation.h
+* wine-devel /usr/include/wine/windows/uiautomationclient.h
+* wine-devel /usr/include/wine/windows/uiautomationclient.idl
+* wine-devel /usr/include/wine/windows/uiautomationcore.h
+* wine-devel /usr/include/wine/windows/uiautomationcore.idl
+* wine-devel /usr/include/wine/windows/uiautomationcoreapi.h
+* wine-devel /usr/include/wine/windows/uiribbon.h
+* wine-devel /usr/include/wine/windows/uiribbon.idl
+* wine-devel /usr/include/wine/windows/uiviewsettingsinterop.h
+* wine-devel /usr/include/wine/windows/uiviewsettingsinterop.idl
+* wine-devel /usr/include/wine/windows/unexposeenums2managed.h
+* wine-devel /usr/include/wine/windows/unknwn.h
+* wine-devel /usr/include/wine/windows/unknwn.idl
+* wine-devel /usr/include/wine/windows/urlhist.h
+* wine-devel /usr/include/wine/windows/urlhist.idl
+* wine-devel /usr/include/wine/windows/urlmon.h
+* wine-devel /usr/include/wine/windows/urlmon.idl
+* wine-devel /usr/include/wine/windows/userenv.h
+* wine-devel /usr/include/wine/windows/usp10.h
+* wine-devel /usr/include/wine/windows/uuids.h
+* wine-devel /usr/include/wine/windows/uxtheme.h
+* wine-devel /usr/include/wine/windows/vdmdbg.h
+* wine-devel /usr/include/wine/windows/ver.h
+* wine-devel /usr/include/wine/windows/verrsrc.h
+* wine-devel /usr/include/wine/windows/vfw.h
+* wine-devel /usr/include/wine/windows/vfwmsgs.h
+* wine-devel /usr/include/wine/windows/videoacc.h
+* wine-devel /usr/include/wine/windows/videoacc.idl
+* wine-devel /usr/include/wine/windows/virtdisk.h
+* wine-devel /usr/include/wine/windows/vmr9.h
+* wine-devel /usr/include/wine/windows/vmr9.idl
+* wine-devel /usr/include/wine/windows/vmrender.idl
+* wine-devel /usr/include/wine/windows/vsbackup.h
+* wine-devel /usr/include/wine/windows/vsbackup.idl
+* wine-devel /usr/include/wine/windows/vss.h
+* wine-devel /usr/include/wine/windows/vss.idl
+* wine-devel /usr/include/wine/windows/vsstyle.h
+* wine-devel /usr/include/wine/windows/vssym32.h
+* wine-devel /usr/include/wine/windows/vswriter.h
+* wine-devel /usr/include/wine/windows/vswriter.idl
+* wine-devel /usr/include/wine/windows/wbemcli.h
+* wine-devel /usr/include/wine/windows/wbemcli.idl
+* wine-devel /usr/include/wine/windows/wbemdisp.h
+* wine-devel /usr/include/wine/windows/wbemdisp.idl
+* wine-devel /usr/include/wine/windows/wbemprov.h
+* wine-devel /usr/include/wine/windows/wbemprov.idl
+* wine-devel /usr/include/wine/windows/wct.h
+* wine-devel /usr/include/wine/windows/wdbgexts.h
+* wine-devel /usr/include/wine/windows/weakreference.h
+* wine-devel /usr/include/wine/windows/weakreference.idl
+* wine-devel /usr/include/wine/windows/webservices.h
+* wine-devel /usr/include/wine/windows/werapi.h
+* wine-devel /usr/include/wine/windows/wfext.h
+* wine-devel /usr/include/wine/windows/wia.h
+* wine-devel /usr/include/wine/windows/wiadef.h
+* wine-devel /usr/include/wine/windows/wia_lh.h
+* wine-devel /usr/include/wine/windows/wia_lh.idl
+* wine-devel /usr/include/wine/windows/wia_xp.h
+* wine-devel /usr/include/wine/windows/wia_xp.idl
+* wine-devel /usr/include/wine/windows/wimgapi.h
+* wine-devel /usr/include/wine/windows/winapifamily.h
+* wine-devel /usr/include/wine/windows/winbase.h
+* wine-devel /usr/include/wine/windows/winber.h
+* wine-devel /usr/include/wine/windows/wincodec.h
+* wine-devel /usr/include/wine/windows/wincodec.idl
+* wine-devel /usr/include/wine/windows/wincodecsdk.h
+* wine-devel /usr/include/wine/windows/wincodecsdk.idl
+* wine-devel /usr/include/wine/windows/wincon.h
+* wine-devel /usr/include/wine/windows/wincontypes.h
+* wine-devel /usr/include/wine/windows/wincred.h
+* wine-devel /usr/include/wine/windows/wincrypt.h
+* wine-devel /usr/include/wine/windows/windef.h
+* wine-devel /usr/include/wine/windows/windns.h
+* wine-devel /usr/include/wine/windows/windot11.h
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.activation.h
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.activation.idl
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.background.h
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.background.idl
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.core.h
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.core.idl
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.h
+* wine-devel /usr/include/wine/windows/windows.applicationmodel.idl
+* wine-devel /usr/include/wine/windows/windows.data.json.h
+* wine-devel /usr/include/wine/windows/windows.data.json.idl
+* wine-devel /usr/include/wine/windows/windows.devices.bluetooth.h
+* wine-devel /usr/include/wine/windows/windows.devices.bluetooth.idl
+* wine-devel /usr/include/wine/windows/windows.devices.enumeration.h
+* wine-devel /usr/include/wine/windows/windows.devices.enumeration.idl
+* wine-devel /usr/include/wine/windows/windows.devices.geolocation.h
+* wine-devel /usr/include/wine/windows/windows.devices.geolocation.idl
+* wine-devel /usr/include/wine/windows/windows.devices.haptics.h
+* wine-devel /usr/include/wine/windows/windows.devices.haptics.idl
+* wine-devel /usr/include/wine/windows/windows.devices.input.h
+* wine-devel /usr/include/wine/windows/windows.devices.input.idl
+* wine-devel /usr/include/wine/windows/windows.devices.power.h
+* wine-devel /usr/include/wine/windows/windows.devices.power.idl
+* wine-devel /usr/include/wine/windows/windows.devices.radios.h
+* wine-devel /usr/include/wine/windows/windows.devices.radios.idl
+* wine-devel /usr/include/wine/windows/windows.devices.usb.h
+* wine-devel /usr/include/wine/windows/windows.devices.usb.idl
+* wine-devel /usr/include/wine/windows/windows.foundation.collections.h
+* wine-devel /usr/include/wine/windows/windows.foundation.collections.idl
+* wine-devel /usr/include/wine/windows/windows.foundation.h
+* wine-devel /usr/include/wine/windows/windows.foundation.idl
+* wine-devel /usr/include/wine/windows/windows.foundation.metadata.h
+* wine-devel /usr/include/wine/windows/windows.foundation.metadata.idl
+* wine-devel /usr/include/wine/windows/windows.foundation.numerics.h
+* wine-devel /usr/include/wine/windows/windows.foundation.numerics.idl
+* wine-devel /usr/include/wine/windows/windows.gaming.input.custom.h
+* wine-devel /usr/include/wine/windows/windows.gaming.input.custom.idl
+* wine-devel /usr/include/wine/windows/windows.gaming.input.forcefeedback.h
+* wine-devel /usr/include/wine/windows/windows.gaming.input.forcefeedback.idl
+* wine-devel /usr/include/wine/windows/windows.gaming.input.h
+* wine-devel /usr/include/wine/windows/windows.gaming.input.idl
+* wine-devel /usr/include/wine/windows/windows.gaming.ui.h
+* wine-devel /usr/include/wine/windows/windows.gaming.ui.idl
+* wine-devel /usr/include/wine/windows/windows.globalization.h
+* wine-devel /usr/include/wine/windows/windows.globalization.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.capture.h
+* wine-devel /usr/include/wine/windows/windows.graphics.capture.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.capture.interop.h
+* wine-devel /usr/include/wine/windows/windows.graphics.capture.interop.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.directx.direct3d11.h
+* wine-devel /usr/include/wine/windows/windows.graphics.directx.direct3d11.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.directx.h
+* wine-devel /usr/include/wine/windows/windows.graphics.directx.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.effects.h
+* wine-devel /usr/include/wine/windows/windows.graphics.effects.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.h
+* wine-devel /usr/include/wine/windows/windows.graphics.holographic.h
+* wine-devel /usr/include/wine/windows/windows.graphics.holographic.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.idl
+* wine-devel /usr/include/wine/windows/windows.graphics.imaging.h
+* wine-devel /usr/include/wine/windows/windows.graphics.imaging.idl
+* wine-devel /usr/include/wine/windows/windows.h
+* wine-devel /usr/include/wine/windows/windows.management.deployment.h
+* wine-devel /usr/include/wine/windows/windows.management.deployment.idl
+* wine-devel /usr/include/wine/windows/windows.media.capture.h
+* wine-devel /usr/include/wine/windows/windows.media.capture.idl
+* wine-devel /usr/include/wine/windows/windows.media.closedcaptioning.h
+* wine-devel /usr/include/wine/windows/windows.media.closedcaptioning.idl
+* wine-devel /usr/include/wine/windows/windows.media.devices.h
+* wine-devel /usr/include/wine/windows/windows.media.devices.idl
+* wine-devel /usr/include/wine/windows/windows.media.effects.h
+* wine-devel /usr/include/wine/windows/windows.media.effects.idl
+* wine-devel /usr/include/wine/windows/windows.media.faceanalysis.h
+* wine-devel /usr/include/wine/windows/windows.media.faceanalysis.idl
+* wine-devel /usr/include/wine/windows/windows.media.h
+* wine-devel /usr/include/wine/windows/windows.media.idl
+* wine-devel /usr/include/wine/windows/windows.media.render.h
+* wine-devel /usr/include/wine/windows/windows.media.render.idl
+* wine-devel /usr/include/wine/windows/windows.media.speechrecognition.h
+* wine-devel /usr/include/wine/windows/windows.media.speechrecognition.idl
+* wine-devel /usr/include/wine/windows/windows.media.speechsynthesis.h
+* wine-devel /usr/include/wine/windows/windows.media.speechsynthesis.idl
+* wine-devel /usr/include/wine/windows/windows.networking.connectivity.h
+* wine-devel /usr/include/wine/windows/windows.networking.connectivity.idl
+* wine-devel /usr/include/wine/windows/windows.networking.h
+* wine-devel /usr/include/wine/windows/windows.networking.idl
+* wine-devel /usr/include/wine/windows/windows.perception.spatial.h
+* wine-devel /usr/include/wine/windows/windows.perception.spatial.idl
+* wine-devel /usr/include/wine/windows/windows.perception.spatial.surfaces.h
+* wine-devel /usr/include/wine/windows/windows.perception.spatial.surfaces.idl
+* wine-devel /usr/include/wine/windows/windows.security.authentication.onlineid.h
+* wine-devel /usr/include/wine/windows/windows.security.authentication.onlineid.idl
+* wine-devel /usr/include/wine/windows/windows.security.credentials.h
+* wine-devel /usr/include/wine/windows/windows.security.credentials.idl
+* wine-devel /usr/include/wine/windows/windows.security.credentials.ui.h
+* wine-devel /usr/include/wine/windows/windows.security.credentials.ui.idl
+* wine-devel /usr/include/wine/windows/windows.security.cryptography.h
+* wine-devel /usr/include/wine/windows/windows.security.cryptography.idl
+* wine-devel /usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.h
+* wine-devel /usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.idl
+* wine-devel /usr/include/wine/windows/windows.security.isolation.h
+* wine-devel /usr/include/wine/windows/windows.security.isolation.idl
+* wine-devel /usr/include/wine/windows/windows.storage.fileproperties.h
+* wine-devel /usr/include/wine/windows/windows.storage.fileproperties.idl
+* wine-devel /usr/include/wine/windows/windows.storage.h
+* wine-devel /usr/include/wine/windows/windows.storage.idl
+* wine-devel /usr/include/wine/windows/windows.storage.search.h
+* wine-devel /usr/include/wine/windows/windows.storage.search.idl
+* wine-devel /usr/include/wine/windows/windows.storage.streams.h
+* wine-devel /usr/include/wine/windows/windows.storage.streams.idl
+* wine-devel /usr/include/wine/windows/windows.system.h
+* wine-devel /usr/include/wine/windows/windows.system.idl
+* wine-devel /usr/include/wine/windows/windows.system.power.h
+* wine-devel /usr/include/wine/windows/windows.system.power.idl
+* wine-devel /usr/include/wine/windows/windows.system.profile.h
+* wine-devel /usr/include/wine/windows/windows.system.profile.idl
+* wine-devel /usr/include/wine/windows/windows.system.profile.systemmanufacturers.h
+* wine-devel /usr/include/wine/windows/windows.system.profile.systemmanufacturers.idl
+* wine-devel /usr/include/wine/windows/windows.system.threading.h
+* wine-devel /usr/include/wine/windows/windows.system.threading.idl
+* wine-devel /usr/include/wine/windows/windows.system.userprofile.h
+* wine-devel /usr/include/wine/windows/windows.system.userprofile.idl
+* wine-devel /usr/include/wine/windows/windows.ui.composition.h
+* wine-devel /usr/include/wine/windows/windows.ui.composition.idl
+* wine-devel /usr/include/wine/windows/windows.ui.composition.interop.h
+* wine-devel /usr/include/wine/windows/windows.ui.composition.interop.idl
+* wine-devel /usr/include/wine/windows/windows.ui.core.h
+* wine-devel /usr/include/wine/windows/windows.ui.core.idl
+* wine-devel /usr/include/wine/windows/windows.ui.h
+* wine-devel /usr/include/wine/windows/windows.ui.idl
+* wine-devel /usr/include/wine/windows/windows.ui.input.h
+* wine-devel /usr/include/wine/windows/windows.ui.input.idl
+* wine-devel /usr/include/wine/windows/windows.ui.viewmanagement.h
+* wine-devel /usr/include/wine/windows/windows.ui.viewmanagement.idl
+* wine-devel /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.h
+* wine-devel /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.idl
+* wine-devel /usr/include/wine/windows/windowscontracts.h
+* wine-devel /usr/include/wine/windows/windowscontracts.idl
+* wine-devel /usr/include/wine/windows/windowsx.h
+* wine-devel /usr/include/wine/windows/winerror.h
+* wine-devel /usr/include/wine/windows/winevt.h
+* wine-devel /usr/include/wine/windows/wingdi.h
+* wine-devel /usr/include/wine/windows/winhttp.h
+* wine-devel /usr/include/wine/windows/wininet.h
+* wine-devel /usr/include/wine/windows/winineti.h
+* wine-devel /usr/include/wine/windows/winioctl.h
+* wine-devel /usr/include/wine/windows/winldap.h
+* wine-devel /usr/include/wine/windows/winnetwk.h
+* wine-devel /usr/include/wine/windows/winnls.h
+* wine-devel /usr/include/wine/windows/winnls32.h
+* wine-devel /usr/include/wine/windows/winnt.h
+* wine-devel /usr/include/wine/windows/winnt.rh
+* wine-devel /usr/include/wine/windows/winperf.h
+* wine-devel /usr/include/wine/windows/winppi.h
+* wine-devel /usr/include/wine/windows/winreg.h
+* wine-devel /usr/include/wine/windows/winresrc.h
+* wine-devel /usr/include/wine/windows/winsafer.h
+* wine-devel /usr/include/wine/windows/winscard.h
+* wine-devel /usr/include/wine/windows/winsmcrd.h
+* wine-devel /usr/include/wine/windows/winsnmp.h
+* wine-devel /usr/include/wine/windows/winsock.h
+* wine-devel /usr/include/wine/windows/winsock2.h
+* wine-devel /usr/include/wine/windows/winspool.h
+* wine-devel /usr/include/wine/windows/winstring.h
+* wine-devel /usr/include/wine/windows/winsvc.h
+* wine-devel /usr/include/wine/windows/winsxs.h
+* wine-devel /usr/include/wine/windows/winsxs.idl
+* wine-devel /usr/include/wine/windows/wintab.h
+* wine-devel /usr/include/wine/windows/wintabx.h
+* wine-devel /usr/include/wine/windows/winternl.h
+* wine-devel /usr/include/wine/windows/wintrust.h
+* wine-devel /usr/include/wine/windows/winusb.h
+* wine-devel /usr/include/wine/windows/winuser.h
+* wine-devel /usr/include/wine/windows/winuser.rh
+* wine-devel /usr/include/wine/windows/winver.h
+* wine-devel /usr/include/wine/windows/wlanapi.h
+* wine-devel /usr/include/wine/windows/wldp.h
+* wine-devel /usr/include/wine/windows/wmcodecdsp.h
+* wine-devel /usr/include/wine/windows/wmcodecdsp.idl
+* wine-devel /usr/include/wine/windows/wmdrmsdk.h
+* wine-devel /usr/include/wine/windows/wmdrmsdk.idl
+* wine-devel /usr/include/wine/windows/wmistr.h
+* wine-devel /usr/include/wine/windows/wmium.h
+* wine-devel /usr/include/wine/windows/wmiutils.h
+* wine-devel /usr/include/wine/windows/wmiutils.idl
+* wine-devel /usr/include/wine/windows/wmp.h
+* wine-devel /usr/include/wine/windows/wmp.idl
+* wine-devel /usr/include/wine/windows/wmpids.h
+* wine-devel /usr/include/wine/windows/wmprealestate.h
+* wine-devel /usr/include/wine/windows/wmprealestate.idl
+* wine-devel /usr/include/wine/windows/wmpservices.h
+* wine-devel /usr/include/wine/windows/wmpservices.idl
+* wine-devel /usr/include/wine/windows/wmsbuffer.h
+* wine-devel /usr/include/wine/windows/wmsbuffer.idl
+* wine-devel /usr/include/wine/windows/wmsdk.h
+* wine-devel /usr/include/wine/windows/wmsdkidl.h
+* wine-devel /usr/include/wine/windows/wmsdkidl.idl
+* wine-devel /usr/include/wine/windows/wmsecure.h
+* wine-devel /usr/include/wine/windows/wmsecure.idl
+* wine-devel /usr/include/wine/windows/wnaspi32.h
+* wine-devel /usr/include/wine/windows/wofapi.h
+* wine-devel /usr/include/wine/windows/wownt16.h
+* wine-devel /usr/include/wine/windows/wownt32.h
+* wine-devel /usr/include/wine/windows/wpcapi.h
+* wine-devel /usr/include/wine/windows/wpcapi.idl
+* wine-devel /usr/include/wine/windows/ws2def.h
+* wine-devel /usr/include/wine/windows/ws2ipdef.h
+* wine-devel /usr/include/wine/windows/ws2spi.h
+* wine-devel /usr/include/wine/windows/ws2tcpip.h
+* wine-devel /usr/include/wine/windows/wsdapi.h
+* wine-devel /usr/include/wine/windows/wsdbase.h
+* wine-devel /usr/include/wine/windows/wsdbase.idl
+* wine-devel /usr/include/wine/windows/wsddisco.h
+* wine-devel /usr/include/wine/windows/wsddisco.idl
+* wine-devel /usr/include/wine/windows/wsdtypes.h
+* wine-devel /usr/include/wine/windows/wsdutil.h
+* wine-devel /usr/include/wine/windows/wsdxml.h
+* wine-devel /usr/include/wine/windows/wsdxml.idl
+* wine-devel /usr/include/wine/windows/wsdxmldom.h
+* wine-devel /usr/include/wine/windows/wshisotp.h
+* wine-devel /usr/include/wine/windows/wsipx.h
+* wine-devel /usr/include/wine/windows/wsnwlink.h
+* wine-devel /usr/include/wine/windows/wspiapi.h
+* wine-devel /usr/include/wine/windows/wtsapi32.h
+* wine-devel /usr/include/wine/windows/wtypes.h
+* wine-devel /usr/include/wine/windows/wtypes.idl
+* wine-devel /usr/include/wine/windows/wuapi.h
+* wine-devel /usr/include/wine/windows/wuapi.idl
+* wine-devel /usr/include/wine/windows/x3daudio.h
+* wine-devel /usr/include/wine/windows/xact.h
+* wine-devel /usr/include/wine/windows/xact2wb.h
+* wine-devel /usr/include/wine/windows/xact3.h
+* wine-devel /usr/include/wine/windows/xact3wb.h
+* wine-devel /usr/include/wine/windows/xamlom.h
+* wine-devel /usr/include/wine/windows/xamlom.idl
+* wine-devel /usr/include/wine/windows/xapo.h
+* wine-devel /usr/include/wine/windows/xapo.idl
+* wine-devel /usr/include/wine/windows/xapofx.h
+* wine-devel /usr/include/wine/windows/xaudio2.h
+* wine-devel /usr/include/wine/windows/xaudio2.idl
+* wine-devel /usr/include/wine/windows/xaudio2fx.h
+* wine-devel /usr/include/wine/windows/xaudio2fx.idl
+* wine-devel /usr/include/wine/windows/xcmc.h
+* wine-devel /usr/include/wine/windows/xinput.h
+* wine-devel /usr/include/wine/windows/xmldom.h
+* wine-devel /usr/include/wine/windows/xmldom.idl
+* wine-devel /usr/include/wine/windows/xmldomdid.h
+* wine-devel /usr/include/wine/windows/xmldso.idl
+* wine-devel /usr/include/wine/windows/xmldsodid.h
+* wine-devel /usr/include/wine/windows/xmllite.h
+* wine-devel /usr/include/wine/windows/xmllite.idl
+* wine-devel /usr/include/wine/windows/xpsobjectmodel.h
+* wine-devel /usr/include/wine/windows/xpsobjectmodel.idl
+* wine-devel /usr/include/wine/windows/xpsobjectmodel_1.h
+* wine-devel /usr/include/wine/windows/xpsobjectmodel_1.idl
+* wine-devel /usr/include/wine/windows/zmouse.h
+* wine-devel /usr/lib/wine/x86_64-unix/acledit.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/aclui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/activeds.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/actxprxy.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/adsldp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/adsldpc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/advapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/advpack.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/amsi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/amstream.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/apphelp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/appwiz.cpl.so
+* wine-devel /usr/lib/wine/x86_64-unix/appxdeploymentclient.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/arp.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/aspnet_regiis.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/atl.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/atl100.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/atl110.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/atl80.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/atl90.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/atlthunk.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/atmlib.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/attrib.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/authz.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/avicap32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/avicap32.so
+* wine-devel /usr/lib/wine/x86_64-unix/avifil32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/avrt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/bcp47langs.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/bcrypt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/bcrypt.so
+* wine-devel /usr/lib/wine/x86_64-unix/bcryptprimitives.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/bluetoothapis.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/browseui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/bthprops.cpl.so
+* wine-devel /usr/lib/wine/x86_64-unix/cabarc.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/cabinet.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cacls.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/cards.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cdosys.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/certutil.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/cfgmgr32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/chcp.com.so
+* wine-devel /usr/lib/wine/x86_64-unix/clock.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/clusapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cmd.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/cng.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/combase.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/comcat.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/comctl32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/comdlg32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/coml2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/compstui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/comsvcs.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/concrt140.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/conhost.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/connect.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/control.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/coremessaging.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/credui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/crtdll.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/crypt32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/crypt32.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptdlg.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptdll.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptext.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptnet.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptowinrt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptsp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cryptui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/cscript.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/ctapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ctapi32.so
+* wine-devel /usr/lib/wine/x86_64-unix/ctl3d32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d2d1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d10.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d10core.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d10_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d11.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d12.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d12core.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d8.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d8thk.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3d9.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_33.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_34.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_35.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_36.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_37.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_38.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_39.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_40.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_41.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_42.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_43.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_46.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dcompiler_47.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dim.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dim700.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3drm.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_33.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_34.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_35.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_36.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_37.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_38.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_39.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_40.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_41.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_42.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx10_43.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx11_42.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx11_43.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_24.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_25.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_26.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_27.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_28.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_29.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_30.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_31.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_33.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_34.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_35.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_36.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_37.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_38.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_39.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_40.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_41.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_42.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dx9_43.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/d3dxof.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/davclnt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dbgeng.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dbghelp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dciman32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dcomp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ddraw.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ddrawex.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/devenum.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dhcpcsvc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dhcpcsvc6.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dhtmled.ocx.so
+* wine-devel /usr/lib/wine/x86_64-unix/diasymreader.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/difxapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dinput.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dinput8.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/directmanipulation.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dism.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/dispex.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dllhost.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmband.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmcompos.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmime.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmloader.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmscript.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmstyle.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmsynth.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmusic.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dmusic32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dnsapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dnsapi.so
+* wine-devel /usr/lib/wine/x86_64-unix/dplay.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dplaysvr.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/dplayx.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpnaddr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpnet.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpnhpast.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpnhupnp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpnlobby.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpnsvr.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpvoice.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpvsetup.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/dpwsockx.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/drmclien.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dsdmo.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dsound.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dsquery.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dssenh.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dsuiext.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dswave.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dwmapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dwrite.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dwrite.so
+* wine-devel /usr/lib/wine/x86_64-unix/dx8vb.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dxcore.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dxdiag.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/dxdiagn.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dxgi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dxtrans.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/dxva2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/eject.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/esent.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/evr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/expand.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/explorer.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/explorerframe.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/extrac32.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/faultrep.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/fc.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/feclient.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/find.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/findstr.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/fltlib.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/fltmgr.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/fntcache.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/fontsub.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/fsutil.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/fusion.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/fwpuclnt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/gameux.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/gamingtcui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/gdi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/gdiplus.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/geolocation.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/glu32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/gphoto2.ds.so
+* wine-devel /usr/lib/wine/x86_64-unix/gphoto2.so
+* wine-devel /usr/lib/wine/x86_64-unix/gpkcsp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/graphicscapture.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/hal.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/hh.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/hhctrl.ocx.so
+* wine-devel /usr/lib/wine/x86_64-unix/hid.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/hidclass.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/hidparse.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/hlink.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/hnetcfg.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/hostname.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/hrtfapo.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/http.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/httpapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/hvsimanagementapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ia2comproxy.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/icacls.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/iccvid.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/icinfo.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/ieframe.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ieproxy.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/iexplore.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/imaadp32.acm.so
+* wine-devel /usr/lib/wine/x86_64-unix/imagehlp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/imm32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/inetcomm.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/inetcpl.cpl.so
+* wine-devel /usr/lib/wine/x86_64-unix/inetmib1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/infosoft.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/initpki.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/inkobj.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/inseng.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ipconfig.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/iphlpapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/iprop.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ir50_32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/irprops.cpl.so
+* wine-devel /usr/lib/wine/x86_64-unix/itircl.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/itss.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/joy.cpl.so
+* wine-devel /usr/lib/wine/x86_64-unix/jscript.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/jsproxy.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/kerberos.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/kerberos.so
+* wine-devel /usr/lib/wine/x86_64-unix/kernel32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/kernelbase.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/klist.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/ksecdd.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/ksproxy.ax.so
+* wine-devel /usr/lib/wine/x86_64-unix/ksuser.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ktmw32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/l3codeca.acm.so
+* wine-devel /usr/lib/wine/x86_64-unix/libaclui.a
+* wine-devel /usr/lib/wine/x86_64-unix/libactiveds.a
+* wine-devel /usr/lib/wine/x86_64-unix/libadsiid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libadvapi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libadvpack.a
+* wine-devel /usr/lib/wine/x86_64-unix/libatl.a
+* wine-devel /usr/lib/wine/x86_64-unix/libatl100.a
+* wine-devel /usr/lib/wine/x86_64-unix/libatl110.a
+* wine-devel /usr/lib/wine/x86_64-unix/libatl80.a
+* wine-devel /usr/lib/wine/x86_64-unix/libatlthunk.a
+* wine-devel /usr/lib/wine/x86_64-unix/libavicap32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libavifil32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libavrt.a
+* wine-devel /usr/lib/wine/x86_64-unix/libbcp47langs.a
+* wine-devel /usr/lib/wine/x86_64-unix/libbcrypt.a
+* wine-devel /usr/lib/wine/x86_64-unix/libbluetoothapis.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcabinet.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcards.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcfgmgr32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libclusapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcombase.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcomctl32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcomdlg32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcoml2.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcompstui.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcomsvcs.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcredui.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcrypt32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcryptdll.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcryptnet.a
+* wine-devel /usr/lib/wine/x86_64-unix/libcryptui.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd2d1.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d10.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d10core.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d10_1.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d11.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d12.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d8.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3d9.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dcompiler.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dcompiler_39.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dcompiler_43.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dcompiler_46.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3drm.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_34.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_35.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_36.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_37.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_38.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_39.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_40.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_41.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx10_42.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx11.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx11_42.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dx9.a
+* wine-devel /usr/lib/wine/x86_64-unix/libd3dxof.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdbgeng.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdbghelp.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdciman32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libddraw.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdhcpcsvc.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdinput.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdinput8.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdmoguids.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdnsapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdplayx.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdpnet.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdsound.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdwmapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdwrite.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdxerr8.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdxerr9.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdxgi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdxguid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libdxva2.a
+* wine-devel /usr/lib/wine/x86_64-unix/libevr.a
+* wine-devel /usr/lib/wine/x86_64-unix/libfaultrep.a
+* wine-devel /usr/lib/wine/x86_64-unix/libfltmgr.a
+* wine-devel /usr/lib/wine/x86_64-unix/libgdi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libgdiplus.a
+* wine-devel /usr/lib/wine/x86_64-unix/libglu32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhal.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhidclass.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhidparse.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhlink.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhtmlhelp.a
+* wine-devel /usr/lib/wine/x86_64-unix/libhttpapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libieframe.a
+* wine-devel /usr/lib/wine/x86_64-unix/libimagehlp.a
+* wine-devel /usr/lib/wine/x86_64-unix/libimm32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libinetcomm.a
+* wine-devel /usr/lib/wine/x86_64-unix/libiphlpapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libjsproxy.a
+* wine-devel /usr/lib/wine/x86_64-unix/libkernel32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libkernelbase.a
+* wine-devel /usr/lib/wine/x86_64-unix/libloadperf.a
+* wine-devel /usr/lib/wine/x86_64-unix/liblz32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmapi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmf.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmfplat.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmfplay.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmfreadwrite.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmfsrcsnk.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmfuuid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmlang.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmpr.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmprapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsacm32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsasn1.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmscms.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsdmo.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmshtml.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsimg32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmspatcha.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcp140.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr100.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr110.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr120.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr70.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr71.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr80.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcr90.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcrt.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvcrtd.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmsvfw32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libmswsock.a
+* wine-devel /usr/lib/wine/x86_64-unix/libncrypt.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnddeapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnetapi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnetio.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnetutils.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnewdev.a
+* wine-devel /usr/lib/wine/x86_64-unix/libninput.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnormaliz.a
+* wine-devel /usr/lib/wine/x86_64-unix/libnsi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libntdll.a
+* wine-devel /usr/lib/wine/x86_64-unix/libntdsapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libntoskrnl.a
+* wine-devel /usr/lib/wine/x86_64-unix/libodbccp32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libole32.a
+* wine-devel /usr/lib/wine/x86_64-unix/liboleacc.a
+* wine-devel /usr/lib/wine/x86_64-unix/liboleaut32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libolecli32.a
+* wine-devel /usr/lib/wine/x86_64-unix/liboledlg.a
+* wine-devel /usr/lib/wine/x86_64-unix/libolepro32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libolesvr32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libopengl32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libpdh.a
+* wine-devel /usr/lib/wine/x86_64-unix/libpowrprof.a
+* wine-devel /usr/lib/wine/x86_64-unix/libprntvpt.a
+* wine-devel /usr/lib/wine/x86_64-unix/libprofapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libpropsys.a
+* wine-devel /usr/lib/wine/x86_64-unix/libpsapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libquartz.a
+* wine-devel /usr/lib/wine/x86_64-unix/libqwave.a
+* wine-devel /usr/lib/wine/x86_64-unix/librasapi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/librasdlg.a
+* wine-devel /usr/lib/wine/x86_64-unix/libresutils.a
+* wine-devel /usr/lib/wine/x86_64-unix/libriched20.a
+* wine-devel /usr/lib/wine/x86_64-unix/librometadata.a
+* wine-devel /usr/lib/wine/x86_64-unix/librpcrt4.a
+* wine-devel /usr/lib/wine/x86_64-unix/librsaenh.a
+* wine-devel /usr/lib/wine/x86_64-unix/librtutils.a
+* wine-devel /usr/lib/wine/x86_64-unix/librtworkq.a
+* wine-devel /usr/lib/wine/x86_64-unix/libscrrun.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsechost.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsecur32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsensapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsetupapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsfc.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsfc_os.a
+* wine-devel /usr/lib/wine/x86_64-unix/libshcore.a
+* wine-devel /usr/lib/wine/x86_64-unix/libshdocvw.a
+* wine-devel /usr/lib/wine/x86_64-unix/libshell32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libshfolder.a
+* wine-devel /usr/lib/wine/x86_64-unix/libshlwapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libslc.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsnmpapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libspoolss.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsti.a
+* wine-devel /usr/lib/wine/x86_64-unix/libstrmbase.a
+* wine-devel /usr/lib/wine/x86_64-unix/libstrmiids.a
+* wine-devel /usr/lib/wine/x86_64-unix/libsxs.a
+* wine-devel /usr/lib/wine/x86_64-unix/libt2embed.a
+* wine-devel /usr/lib/wine/x86_64-unix/libtapi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libucrtbase.a
+* wine-devel /usr/lib/wine/x86_64-unix/libuiautomationcore.a
+* wine-devel /usr/lib/wine/x86_64-unix/libunicows.a
+* wine-devel /usr/lib/wine/x86_64-unix/liburl.a
+* wine-devel /usr/lib/wine/x86_64-unix/liburlmon.a
+* wine-devel /usr/lib/wine/x86_64-unix/libusbd.a
+* wine-devel /usr/lib/wine/x86_64-unix/libuser32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libuserenv.a
+* wine-devel /usr/lib/wine/x86_64-unix/libusp10.a
+* wine-devel /usr/lib/wine/x86_64-unix/libuuid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libuxtheme.a
+* wine-devel /usr/lib/wine/x86_64-unix/libvcruntime140.a
+* wine-devel /usr/lib/wine/x86_64-unix/libvdmdbg.a
+* wine-devel /usr/lib/wine/x86_64-unix/libversion.a
+* wine-devel /usr/lib/wine/x86_64-unix/libvulkan-1.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwbemuuid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwebservices.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwer.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwevtapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwin32u.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwindowscodecs.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwindowscodecsext.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinecrt0.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwined3d.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinegstreamer.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinevulkan.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwing32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinhttp.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwininet.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinmm.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinnls32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinscard.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwinspool.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwintab32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwintrust.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwlanapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwldap32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwmcodecdspuuid.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwmvcore.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwnaspi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libws2_32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwsdapi.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwsnmp32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwsock32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libwtsapi32.a
+* wine-devel /usr/lib/wine/x86_64-unix/libxaudio2_8.a
+* wine-devel /usr/lib/wine/x86_64-unix/libxinput.a
+* wine-devel /usr/lib/wine/x86_64-unix/libxmllite.a
+* wine-devel /usr/lib/wine/x86_64-unix/loadperf.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/localspl.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/localspl.so
+* wine-devel /usr/lib/wine/x86_64-unix/localui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/lodctr.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/magnification.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mapistub.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mciavi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mcicda.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mciqtz32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mciseq.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mciwave.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mf.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mf3216.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mfmediaengine.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mfplat.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mfplay.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mfreadwrite.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mfsrcsnk.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mgmtapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/midimap.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mlang.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mmcndmgr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mmdevapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mofcomp.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/mouhid.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/mountmgr.so
+* wine-devel /usr/lib/wine/x86_64-unix/mountmgr.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/mp3dmod.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mpr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mprapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msacm32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msacm32.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/msado15.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msadp32.acm.so
+* wine-devel /usr/lib/wine/x86_64-unix/msasn1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msauddecmft.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mscat32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mscms.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mscoree.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mscorwks.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msctf.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msctfmonitor.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msctfp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msdaps.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msdasql.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msdelta.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msdmo.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msdrm.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msftedit.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msg711.acm.so
+* wine-devel /usr/lib/wine/x86_64-unix/msgsm32.acm.so
+* wine-devel /usr/lib/wine/x86_64-unix/mshta.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/mshtml.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msidb.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/msident.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msiexec.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/msimg32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msimtf.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msinfo32.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/msisip.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msisys.ocx.so
+* wine-devel /usr/lib/wine/x86_64-unix/msls31.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msmpeg2vdec.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msnet32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mspatcha.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msports.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msrle32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msscript.ocx.so
+* wine-devel /usr/lib/wine/x86_64-unix/mssign32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mssip32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mstask.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msttsengine.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msv1_0.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msv1_0.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcirt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcm80.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcm90.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp100.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp110.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp120.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp120_app.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp140.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp140_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp140_2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp140_atomic_wait.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp140_codecvt_ids.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp60.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp70.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp71.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp80.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp90.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcp_win.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr100.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr110.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr120.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr120_app.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr70.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr71.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr80.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcr90.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcrt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcrt20.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcrt40.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvcrtd.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvfw32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msvidc32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mswsock.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msxml.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msxml2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msxml3.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msxml4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/msxml6.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/mtxdm.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ncrypt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/nddeapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ndis.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/net.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/netapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/netapi32.so
+* wine-devel /usr/lib/wine/x86_64-unix/netcfgx.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/netio.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/netprofm.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/netsh.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/netstat.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/netutils.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/newdev.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ngen.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/ninput.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/notepad.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/npmshtml.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/npptools.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/nsi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/nsiproxy.so
+* wine-devel /usr/lib/wine/x86_64-unix/nsiproxy.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/ntdll.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ntdll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ntdsapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ntoskrnl.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/ntprint.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/objsel.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/odbcbcp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/odbccp32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/odbccu32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ole32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/oleacc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/oleaut32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/olecli32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/oledb32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/oledlg.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/olepro32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/olesvr32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/olethk32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/oleview.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/opcservices.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/opencl.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/opencl.so
+* wine-devel /usr/lib/wine/x86_64-unix/opengl32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/opengl32.so
+* wine-devel /usr/lib/wine/x86_64-unix/packager.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/pdh.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/photometadatahandler.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/pidgen.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ping.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/plugplay.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/pnputil.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/powershell.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/powrprof.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/presentationfontcache.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/printui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/prntvpt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/profapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/progman.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/propsys.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/psapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/pstorec.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/pwrshplugin.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qasf.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qcap.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qcap.so
+* wine-devel /usr/lib/wine/x86_64-unix/qdvd.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qedit.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qmgr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qmgrprxy.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/quartz.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/query.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/qwave.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rasapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rasdlg.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/reg.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/regapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/regasm.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/regedit.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/regini.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/regsvcs.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/regsvr32.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/resutils.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/riched20.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/riched32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/robocopy.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/rometadata.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rpcrt4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rpcss.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/rsabase.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rsaenh.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rstrtmgr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rtutils.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rtworkq.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/rundll32.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/samlib.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/sane.ds.so
+* wine-devel /usr/lib/wine/x86_64-unix/sane.so
+* wine-devel /usr/lib/wine/x86_64-unix/sapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/sas.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/sc.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/scarddlg.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/scardsvr.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/sccbase.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/schannel.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/schedsvc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/schtasks.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/scrobj.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/scrrun.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/scsiport.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/sdbinst.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/secedit.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/sechost.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/secur32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/secur32.so
+* wine-devel /usr/lib/wine/x86_64-unix/sensapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/serialui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/servicemodelreg.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/services.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/setupapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/setx.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/sfc_os.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/shcore.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/shdocvw.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/shell32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/shfolder.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/shlwapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/shutdown.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/slbcsp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/slc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/snmpapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/softpub.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/spoolss.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/spoolsv.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/sppc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/srclient.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/srvcli.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/srvsvc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/sspicli.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/start.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/sti.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/strmdll.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/subst.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/svchost.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/svrapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/sxs.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/systeminfo.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/t2embed.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/tapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/taskkill.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/tasklist.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/taskmgr.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/taskschd.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/tbs.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/tdh.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/tdi.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/termsv.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/threadpoolwinrt.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/traffic.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/twain_32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/twinapi.appcore.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ucrtbase.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/uianimation.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/uiautomationcore.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/uiribbon.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/unicows.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/uninstaller.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/unlodctr.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/updspapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/url.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/urlmon.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/usbd.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/user32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/userenv.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/utildll.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/uxtheme.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vbscript.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcomp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcomp100.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcomp110.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcomp120.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcomp140.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcomp90.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcruntime140.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vcruntime140_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vdmdbg.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/version.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vga.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/view.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/virtdisk.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vssapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/vulkan-1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wbemdisp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wbemprox.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wdscore.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/webservices.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/websocket.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wer.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wevtapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wevtsvc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wevtutil.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/where.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/whoami.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wiaservc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wimgapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/win32u.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/win32u.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.applicationmodel.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.devices.bluetooth.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.devices.enumeration.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.devices.usb.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.gaming.input.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.gaming.ui.gamebar.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.globalization.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.media.devices.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.media.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.media.mediacontrol.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.media.speech.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.networking.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.networking.hostname.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.perception.stub.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.security.authentication.onlineid.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.security.credentials.ui.userconsentverifier.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.storage.applicationdata.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.system.profile.systemmanufacturers.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.ui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windows.web.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windowscodecs.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/windowscodecsext.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winealsa.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/winealsa.so
+* wine-devel /usr/lib/wine/x86_64-unix/wineboot.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winebrowser.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winebus.so
+* wine-devel /usr/lib/wine/x86_64-unix/winebus.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/winecfg.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wineconsole.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wined3d.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winedbg.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winedevice.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winefile.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winegstreamer.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winegstreamer.so
+* wine-devel /usr/lib/wine/x86_64-unix/winehid.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/winemapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winemenubuilder.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winemine.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winemsibuilder.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winepath.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wineps.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/wineps.so
+* wine-devel /usr/lib/wine/x86_64-unix/winepulse.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/winepulse.so
+* wine-devel /usr/lib/wine/x86_64-unix/wineusb.so
+* wine-devel /usr/lib/wine/x86_64-unix/wineusb.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/winevulkan.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winevulkan.so
+* wine-devel /usr/lib/wine/x86_64-unix/winewayland.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/winewayland.so
+* wine-devel /usr/lib/wine/x86_64-unix/winex11.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/winex11.so
+* wine-devel /usr/lib/wine/x86_64-unix/winexinput.sys.so
+* wine-devel /usr/lib/wine/x86_64-unix/wing32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winhlp32.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winhttp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wininet.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winmgmt.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/winmm.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winnls32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winprint.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winscard.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winscard.so
+* wine-devel /usr/lib/wine/x86_64-unix/winspool.drv.so
+* wine-devel /usr/lib/wine/x86_64-unix/winspool.so
+* wine-devel /usr/lib/wine/x86_64-unix/winsta.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wintab32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wintrust.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wintypes.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winusb.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/winver.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wlanapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wlanui.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wldap32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wldp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmasf.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmic.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmiutils.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmphoto.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmplayer.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wmvcore.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wnaspi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wofutil.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wordpad.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wpc.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wpcap.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wpcap.so
+* wine-devel /usr/lib/wine/x86_64-unix/write.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/ws2_32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/ws2_32.so
+* wine-devel /usr/lib/wine/x86_64-unix/wscript.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wsdapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wshom.ocx.so
+* wine-devel /usr/lib/wine/x86_64-unix/wsnmp32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wsock32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wtsapi32.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wuapi.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wuaueng.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/wuauserv.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/wusa.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_0.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_3.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_5.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_6.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/x3daudio1_7.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine2_0.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine2_4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine2_7.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine2_9.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_0.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_3.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_5.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_6.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xactengine3_7.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xapofx1_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xapofx1_2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xapofx1_3.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xapofx1_4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xapofx1_5.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_0.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_3.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_5.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_6.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_7.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_8.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xaudio2_9.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xcopy.exe.so
+* wine-devel /usr/lib/wine/x86_64-unix/xinput1_1.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xinput1_2.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xinput1_3.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xinput1_4.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xinput9_1_0.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xinputuap.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xmllite.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xolehlp.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xpsprint.dll.so
+* wine-devel /usr/lib/wine/x86_64-unix/xpssvcs.dll.so
+* wine-devel /usr/lib/wine/x86_64-windows/acledit.dll
+* wine-devel /usr/lib/wine/x86_64-windows/aclui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/activeds.dll
+* wine-devel /usr/lib/wine/x86_64-windows/activeds.tlb
+* wine-devel /usr/lib/wine/x86_64-windows/actxprxy.dll
+* wine-devel /usr/lib/wine/x86_64-windows/adsldp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/adsldpc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/advapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/advpack.dll
+* wine-devel /usr/lib/wine/x86_64-windows/amsi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/amstream.dll
+* wine-devel /usr/lib/wine/x86_64-windows/apisetschema.dll
+* wine-devel /usr/lib/wine/x86_64-windows/apphelp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/appwiz.cpl
+* wine-devel /usr/lib/wine/x86_64-windows/appxdeploymentclient.dll
+* wine-devel /usr/lib/wine/x86_64-windows/arp.exe
+* wine-devel /usr/lib/wine/x86_64-windows/aspnet_regiis.exe
+* wine-devel /usr/lib/wine/x86_64-windows/atl.dll
+* wine-devel /usr/lib/wine/x86_64-windows/atl100.dll
+* wine-devel /usr/lib/wine/x86_64-windows/atl110.dll
+* wine-devel /usr/lib/wine/x86_64-windows/atl80.dll
+* wine-devel /usr/lib/wine/x86_64-windows/atl90.dll
+* wine-devel /usr/lib/wine/x86_64-windows/atlthunk.dll
+* wine-devel /usr/lib/wine/x86_64-windows/atmlib.dll
+* wine-devel /usr/lib/wine/x86_64-windows/attrib.exe
+* wine-devel /usr/lib/wine/x86_64-windows/authz.dll
+* wine-devel /usr/lib/wine/x86_64-windows/avicap32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/avifil32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/avrt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/bcp47langs.dll
+* wine-devel /usr/lib/wine/x86_64-windows/bcrypt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/bcryptprimitives.dll
+* wine-devel /usr/lib/wine/x86_64-windows/bluetoothapis.dll
+* wine-devel /usr/lib/wine/x86_64-windows/browseui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/bthprops.cpl
+* wine-devel /usr/lib/wine/x86_64-windows/cabarc.exe
+* wine-devel /usr/lib/wine/x86_64-windows/cabinet.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cacls.exe
+* wine-devel /usr/lib/wine/x86_64-windows/cards.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cdosys.dll
+* wine-devel /usr/lib/wine/x86_64-windows/certutil.exe
+* wine-devel /usr/lib/wine/x86_64-windows/cfgmgr32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/chcp.com
+* wine-devel /usr/lib/wine/x86_64-windows/clock.exe
+* wine-devel /usr/lib/wine/x86_64-windows/clusapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cmd.exe
+* wine-devel /usr/lib/wine/x86_64-windows/cng.sys
+* wine-devel /usr/lib/wine/x86_64-windows/combase.dll
+* wine-devel /usr/lib/wine/x86_64-windows/comcat.dll
+* wine-devel /usr/lib/wine/x86_64-windows/comctl32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/comdlg32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/coml2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/compstui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/comsvcs.dll
+* wine-devel /usr/lib/wine/x86_64-windows/concrt140.dll
+* wine-devel /usr/lib/wine/x86_64-windows/conhost.exe
+* wine-devel /usr/lib/wine/x86_64-windows/connect.dll
+* wine-devel /usr/lib/wine/x86_64-windows/control.exe
+* wine-devel /usr/lib/wine/x86_64-windows/coremessaging.dll
+* wine-devel /usr/lib/wine/x86_64-windows/credui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/crtdll.dll
+* wine-devel /usr/lib/wine/x86_64-windows/crypt32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptdlg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptdll.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptext.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptnet.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptowinrt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptsp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cryptui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/cscript.exe
+* wine-devel /usr/lib/wine/x86_64-windows/ctapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ctl3d32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d2d1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d10.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d10core.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d10_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d11.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d12.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d12core.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d8.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d8thk.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3d9.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_33.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_34.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_35.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_36.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_37.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_38.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_39.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_40.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_41.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_42.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_43.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_46.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dcompiler_47.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dim.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dim700.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3drm.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_33.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_34.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_35.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_36.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_37.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_38.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_39.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_40.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_41.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_42.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx10_43.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx11_42.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx11_43.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_24.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_25.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_26.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_27.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_28.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_29.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_30.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_31.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_33.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_34.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_35.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_36.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_37.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_38.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_39.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_40.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_41.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_42.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dx9_43.dll
+* wine-devel /usr/lib/wine/x86_64-windows/d3dxof.dll
+* wine-devel /usr/lib/wine/x86_64-windows/davclnt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dbgeng.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dbghelp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dciman32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dcomp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ddraw.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ddrawex.dll
+* wine-devel /usr/lib/wine/x86_64-windows/devenum.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dhcpcsvc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dhcpcsvc6.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dhtmled.ocx
+* wine-devel /usr/lib/wine/x86_64-windows/diasymreader.dll
+* wine-devel /usr/lib/wine/x86_64-windows/difxapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dinput.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dinput8.dll
+* wine-devel /usr/lib/wine/x86_64-windows/directmanipulation.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dism.exe
+* wine-devel /usr/lib/wine/x86_64-windows/dispex.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dllhost.exe
+* wine-devel /usr/lib/wine/x86_64-windows/dmband.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmcompos.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmime.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmloader.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmscript.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmstyle.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmsynth.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmusic.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dmusic32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dnsapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dplay.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dplaysvr.exe
+* wine-devel /usr/lib/wine/x86_64-windows/dplayx.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpnaddr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpnet.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpnhpast.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpnhupnp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpnlobby.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpnsvr.exe
+* wine-devel /usr/lib/wine/x86_64-windows/dpvoice.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dpvsetup.exe
+* wine-devel /usr/lib/wine/x86_64-windows/dpwsockx.dll
+* wine-devel /usr/lib/wine/x86_64-windows/drmclien.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dsdmo.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dsound.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dsquery.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dssenh.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dsuiext.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dswave.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dwmapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dwrite.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dx8vb.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dxcore.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dxdiag.exe
+* wine-devel /usr/lib/wine/x86_64-windows/dxdiagn.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dxgi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dxtrans.dll
+* wine-devel /usr/lib/wine/x86_64-windows/dxva2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/eject.exe
+* wine-devel /usr/lib/wine/x86_64-windows/esent.dll
+* wine-devel /usr/lib/wine/x86_64-windows/evr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/expand.exe
+* wine-devel /usr/lib/wine/x86_64-windows/explorer.exe
+* wine-devel /usr/lib/wine/x86_64-windows/explorerframe.dll
+* wine-devel /usr/lib/wine/x86_64-windows/extrac32.exe
+* wine-devel /usr/lib/wine/x86_64-windows/faultrep.dll
+* wine-devel /usr/lib/wine/x86_64-windows/fc.exe
+* wine-devel /usr/lib/wine/x86_64-windows/feclient.dll
+* wine-devel /usr/lib/wine/x86_64-windows/find.exe
+* wine-devel /usr/lib/wine/x86_64-windows/findstr.exe
+* wine-devel /usr/lib/wine/x86_64-windows/fltlib.dll
+* wine-devel /usr/lib/wine/x86_64-windows/fltmgr.sys
+* wine-devel /usr/lib/wine/x86_64-windows/fntcache.dll
+* wine-devel /usr/lib/wine/x86_64-windows/fontsub.dll
+* wine-devel /usr/lib/wine/x86_64-windows/fsutil.exe
+* wine-devel /usr/lib/wine/x86_64-windows/fusion.dll
+* wine-devel /usr/lib/wine/x86_64-windows/fwpuclnt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/gameux.dll
+* wine-devel /usr/lib/wine/x86_64-windows/gamingtcui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/gdi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/gdiplus.dll
+* wine-devel /usr/lib/wine/x86_64-windows/geolocation.dll
+* wine-devel /usr/lib/wine/x86_64-windows/glu32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/gphoto2.ds
+* wine-devel /usr/lib/wine/x86_64-windows/gpkcsp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/graphicscapture.dll
+* wine-devel /usr/lib/wine/x86_64-windows/hal.dll
+* wine-devel /usr/lib/wine/x86_64-windows/hh.exe
+* wine-devel /usr/lib/wine/x86_64-windows/hhctrl.ocx
+* wine-devel /usr/lib/wine/x86_64-windows/hid.dll
+* wine-devel /usr/lib/wine/x86_64-windows/hidclass.sys
+* wine-devel /usr/lib/wine/x86_64-windows/hidparse.sys
+* wine-devel /usr/lib/wine/x86_64-windows/hlink.dll
+* wine-devel /usr/lib/wine/x86_64-windows/hnetcfg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/hostname.exe
+* wine-devel /usr/lib/wine/x86_64-windows/hrtfapo.dll
+* wine-devel /usr/lib/wine/x86_64-windows/http.sys
+* wine-devel /usr/lib/wine/x86_64-windows/httpapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/hvsimanagementapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ia2comproxy.dll
+* wine-devel /usr/lib/wine/x86_64-windows/icacls.exe
+* wine-devel /usr/lib/wine/x86_64-windows/iccvid.dll
+* wine-devel /usr/lib/wine/x86_64-windows/icinfo.exe
+* wine-devel /usr/lib/wine/x86_64-windows/icmp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ieframe.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ieproxy.dll
+* wine-devel /usr/lib/wine/x86_64-windows/iexplore.exe
+* wine-devel /usr/lib/wine/x86_64-windows/imaadp32.acm
+* wine-devel /usr/lib/wine/x86_64-windows/imagehlp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/imm32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/inetcomm.dll
+* wine-devel /usr/lib/wine/x86_64-windows/inetcpl.cpl
+* wine-devel /usr/lib/wine/x86_64-windows/inetmib1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/infosoft.dll
+* wine-devel /usr/lib/wine/x86_64-windows/initpki.dll
+* wine-devel /usr/lib/wine/x86_64-windows/inkobj.dll
+* wine-devel /usr/lib/wine/x86_64-windows/inseng.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ipconfig.exe
+* wine-devel /usr/lib/wine/x86_64-windows/iphlpapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/iprop.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ir50_32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/irprops.cpl
+* wine-devel /usr/lib/wine/x86_64-windows/itircl.dll
+* wine-devel /usr/lib/wine/x86_64-windows/itss.dll
+* wine-devel /usr/lib/wine/x86_64-windows/joy.cpl
+* wine-devel /usr/lib/wine/x86_64-windows/jscript.dll
+* wine-devel /usr/lib/wine/x86_64-windows/jsproxy.dll
+* wine-devel /usr/lib/wine/x86_64-windows/kerberos.dll
+* wine-devel /usr/lib/wine/x86_64-windows/kernel32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/kernelbase.dll
+* wine-devel /usr/lib/wine/x86_64-windows/klist.exe
+* wine-devel /usr/lib/wine/x86_64-windows/ksecdd.sys
+* wine-devel /usr/lib/wine/x86_64-windows/ksproxy.ax
+* wine-devel /usr/lib/wine/x86_64-windows/ksuser.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ktmw32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/l3codeca.acm
+* wine-devel /usr/lib/wine/x86_64-windows/light.msstyles
+* wine-devel /usr/lib/wine/x86_64-windows/loadperf.dll
+* wine-devel /usr/lib/wine/x86_64-windows/localspl.dll
+* wine-devel /usr/lib/wine/x86_64-windows/localui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/lodctr.exe
+* wine-devel /usr/lib/wine/x86_64-windows/lz32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/magnification.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mapistub.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mciavi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mcicda.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mciqtz32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mciseq.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mciwave.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mf.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mf3216.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mferror.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mfmediaengine.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mfplat.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mfplay.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mfreadwrite.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mfsrcsnk.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mgmtapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/midimap.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mlang.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mmcndmgr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mmdevapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mofcomp.exe
+* wine-devel /usr/lib/wine/x86_64-windows/mouhid.sys
+* wine-devel /usr/lib/wine/x86_64-windows/mountmgr.sys
+* wine-devel /usr/lib/wine/x86_64-windows/mp3dmod.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mpr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mprapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msacm32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msacm32.drv
+* wine-devel /usr/lib/wine/x86_64-windows/msado15.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msadp32.acm
+* wine-devel /usr/lib/wine/x86_64-windows/msasn1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msauddecmft.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mscat32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mscms.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mscoree.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mscorwks.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msctf.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msctfmonitor.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msctfp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msdaps.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msdasql.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msdelta.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msdmo.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msdrm.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msftedit.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msg711.acm
+* wine-devel /usr/lib/wine/x86_64-windows/msgsm32.acm
+* wine-devel /usr/lib/wine/x86_64-windows/mshta.exe
+* wine-devel /usr/lib/wine/x86_64-windows/mshtml.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mshtml.tlb
+* wine-devel /usr/lib/wine/x86_64-windows/msi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msidb.exe
+* wine-devel /usr/lib/wine/x86_64-windows/msident.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msiexec.exe
+* wine-devel /usr/lib/wine/x86_64-windows/msimg32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msimsg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msimtf.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msinfo32.exe
+* wine-devel /usr/lib/wine/x86_64-windows/msisip.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msisys.ocx
+* wine-devel /usr/lib/wine/x86_64-windows/msls31.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msmpeg2vdec.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msnet32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mspatcha.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msports.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msrle32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msscript.ocx
+* wine-devel /usr/lib/wine/x86_64-windows/mssign32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mssip32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mstask.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msttsengine.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msv1_0.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcirt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcm80.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcm90.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp100.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp110.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp120.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp120_app.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp140.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp140_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp140_2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp140_atomic_wait.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp140_codecvt_ids.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp60.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp70.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp71.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp80.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp90.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcp_win.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr100.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr110.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr120.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr120_app.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr70.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr71.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr80.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcr90.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcrt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcrt20.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcrt40.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvcrtd.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvfw32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msvidc32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mswsock.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msxml.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msxml2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msxml3.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msxml4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/msxml6.dll
+* wine-devel /usr/lib/wine/x86_64-windows/mtxdm.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ncrypt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/nddeapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ndis.sys
+* wine-devel /usr/lib/wine/x86_64-windows/net.exe
+* wine-devel /usr/lib/wine/x86_64-windows/netapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/netcfgx.dll
+* wine-devel /usr/lib/wine/x86_64-windows/netio.sys
+* wine-devel /usr/lib/wine/x86_64-windows/netprofm.dll
+* wine-devel /usr/lib/wine/x86_64-windows/netsh.exe
+* wine-devel /usr/lib/wine/x86_64-windows/netstat.exe
+* wine-devel /usr/lib/wine/x86_64-windows/netutils.dll
+* wine-devel /usr/lib/wine/x86_64-windows/newdev.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ngen.exe
+* wine-devel /usr/lib/wine/x86_64-windows/ninput.dll
+* wine-devel /usr/lib/wine/x86_64-windows/normaliz.dll
+* wine-devel /usr/lib/wine/x86_64-windows/notepad.exe
+* wine-devel /usr/lib/wine/x86_64-windows/npmshtml.dll
+* wine-devel /usr/lib/wine/x86_64-windows/npptools.dll
+* wine-devel /usr/lib/wine/x86_64-windows/nsi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/nsiproxy.sys
+* wine-devel /usr/lib/wine/x86_64-windows/ntdll.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ntdsapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ntoskrnl.exe
+* wine-devel /usr/lib/wine/x86_64-windows/ntprint.dll
+* wine-devel /usr/lib/wine/x86_64-windows/objsel.dll
+* wine-devel /usr/lib/wine/x86_64-windows/odbcbcp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/odbccp32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/odbccu32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ole32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/oleacc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/oleaut32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/olecli32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/oledb32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/oledlg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/olepro32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/olesvr32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/olethk32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/oleview.exe
+* wine-devel /usr/lib/wine/x86_64-windows/opcservices.dll
+* wine-devel /usr/lib/wine/x86_64-windows/opencl.dll
+* wine-devel /usr/lib/wine/x86_64-windows/opengl32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/packager.dll
+* wine-devel /usr/lib/wine/x86_64-windows/pdh.dll
+* wine-devel /usr/lib/wine/x86_64-windows/photometadatahandler.dll
+* wine-devel /usr/lib/wine/x86_64-windows/pidgen.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ping.exe
+* wine-devel /usr/lib/wine/x86_64-windows/plugplay.exe
+* wine-devel /usr/lib/wine/x86_64-windows/pnputil.exe
+* wine-devel /usr/lib/wine/x86_64-windows/powershell.exe
+* wine-devel /usr/lib/wine/x86_64-windows/powrprof.dll
+* wine-devel /usr/lib/wine/x86_64-windows/presentationfontcache.exe
+* wine-devel /usr/lib/wine/x86_64-windows/printui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/prntvpt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/profapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/progman.exe
+* wine-devel /usr/lib/wine/x86_64-windows/propsys.dll
+* wine-devel /usr/lib/wine/x86_64-windows/psapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/pstorec.dll
+* wine-devel /usr/lib/wine/x86_64-windows/pwrshplugin.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qasf.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qcap.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qdvd.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qedit.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qmgr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qmgrprxy.dll
+* wine-devel /usr/lib/wine/x86_64-windows/quartz.dll
+* wine-devel /usr/lib/wine/x86_64-windows/query.dll
+* wine-devel /usr/lib/wine/x86_64-windows/qwave.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rasapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rasdlg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/reg.exe
+* wine-devel /usr/lib/wine/x86_64-windows/regapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/regasm.exe
+* wine-devel /usr/lib/wine/x86_64-windows/regedit.exe
+* wine-devel /usr/lib/wine/x86_64-windows/regini.exe
+* wine-devel /usr/lib/wine/x86_64-windows/regsvcs.exe
+* wine-devel /usr/lib/wine/x86_64-windows/regsvr32.exe
+* wine-devel /usr/lib/wine/x86_64-windows/resutils.dll
+* wine-devel /usr/lib/wine/x86_64-windows/riched20.dll
+* wine-devel /usr/lib/wine/x86_64-windows/riched32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/robocopy.exe
+* wine-devel /usr/lib/wine/x86_64-windows/rometadata.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rpcrt4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rpcss.exe
+* wine-devel /usr/lib/wine/x86_64-windows/rsabase.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rsaenh.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rstrtmgr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rtutils.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rtworkq.dll
+* wine-devel /usr/lib/wine/x86_64-windows/rundll32.exe
+* wine-devel /usr/lib/wine/x86_64-windows/samlib.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sane.ds
+* wine-devel /usr/lib/wine/x86_64-windows/sapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sas.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sc.exe
+* wine-devel /usr/lib/wine/x86_64-windows/scarddlg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/scardsvr.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sccbase.dll
+* wine-devel /usr/lib/wine/x86_64-windows/schannel.dll
+* wine-devel /usr/lib/wine/x86_64-windows/schedsvc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/schtasks.exe
+* wine-devel /usr/lib/wine/x86_64-windows/scrobj.dll
+* wine-devel /usr/lib/wine/x86_64-windows/scrrun.dll
+* wine-devel /usr/lib/wine/x86_64-windows/scsiport.sys
+* wine-devel /usr/lib/wine/x86_64-windows/sdbinst.exe
+* wine-devel /usr/lib/wine/x86_64-windows/secedit.exe
+* wine-devel /usr/lib/wine/x86_64-windows/sechost.dll
+* wine-devel /usr/lib/wine/x86_64-windows/secur32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/security.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sensapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/serialui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/servicemodelreg.exe
+* wine-devel /usr/lib/wine/x86_64-windows/services.exe
+* wine-devel /usr/lib/wine/x86_64-windows/setupapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/setx.exe
+* wine-devel /usr/lib/wine/x86_64-windows/sfc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sfc_os.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shcore.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shdoclc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shdocvw.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shell32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shfolder.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shlwapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/shutdown.exe
+* wine-devel /usr/lib/wine/x86_64-windows/slbcsp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/slc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/snmpapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/softpub.dll
+* wine-devel /usr/lib/wine/x86_64-windows/spoolss.dll
+* wine-devel /usr/lib/wine/x86_64-windows/spoolsv.exe
+* wine-devel /usr/lib/wine/x86_64-windows/sppc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/srclient.dll
+* wine-devel /usr/lib/wine/x86_64-windows/srvcli.dll
+* wine-devel /usr/lib/wine/x86_64-windows/srvsvc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sspicli.dll
+* wine-devel /usr/lib/wine/x86_64-windows/start.exe
+* wine-devel /usr/lib/wine/x86_64-windows/stdole2.tlb
+* wine-devel /usr/lib/wine/x86_64-windows/stdole32.tlb
+* wine-devel /usr/lib/wine/x86_64-windows/sti.dll
+* wine-devel /usr/lib/wine/x86_64-windows/strmdll.dll
+* wine-devel /usr/lib/wine/x86_64-windows/subst.exe
+* wine-devel /usr/lib/wine/x86_64-windows/svchost.exe
+* wine-devel /usr/lib/wine/x86_64-windows/svrapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/sxs.dll
+* wine-devel /usr/lib/wine/x86_64-windows/systeminfo.exe
+* wine-devel /usr/lib/wine/x86_64-windows/t2embed.dll
+* wine-devel /usr/lib/wine/x86_64-windows/tapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/taskkill.exe
+* wine-devel /usr/lib/wine/x86_64-windows/tasklist.exe
+* wine-devel /usr/lib/wine/x86_64-windows/taskmgr.exe
+* wine-devel /usr/lib/wine/x86_64-windows/taskschd.dll
+* wine-devel /usr/lib/wine/x86_64-windows/tbs.dll
+* wine-devel /usr/lib/wine/x86_64-windows/tdh.dll
+* wine-devel /usr/lib/wine/x86_64-windows/tdi.sys
+* wine-devel /usr/lib/wine/x86_64-windows/termsv.exe
+* wine-devel /usr/lib/wine/x86_64-windows/threadpoolwinrt.dll
+* wine-devel /usr/lib/wine/x86_64-windows/traffic.dll
+* wine-devel /usr/lib/wine/x86_64-windows/twain_32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/twinapi.appcore.dll
+* wine-devel /usr/lib/wine/x86_64-windows/tzres.dll
+* wine-devel /usr/lib/wine/x86_64-windows/ucrtbase.dll
+* wine-devel /usr/lib/wine/x86_64-windows/uianimation.dll
+* wine-devel /usr/lib/wine/x86_64-windows/uiautomationcore.dll
+* wine-devel /usr/lib/wine/x86_64-windows/uiribbon.dll
+* wine-devel /usr/lib/wine/x86_64-windows/unicows.dll
+* wine-devel /usr/lib/wine/x86_64-windows/uninstaller.exe
+* wine-devel /usr/lib/wine/x86_64-windows/unlodctr.exe
+* wine-devel /usr/lib/wine/x86_64-windows/updspapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/url.dll
+* wine-devel /usr/lib/wine/x86_64-windows/urlmon.dll
+* wine-devel /usr/lib/wine/x86_64-windows/usbd.sys
+* wine-devel /usr/lib/wine/x86_64-windows/user32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/userenv.dll
+* wine-devel /usr/lib/wine/x86_64-windows/usp10.dll
+* wine-devel /usr/lib/wine/x86_64-windows/utildll.dll
+* wine-devel /usr/lib/wine/x86_64-windows/uxtheme.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vbscript.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcomp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcomp100.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcomp110.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcomp120.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcomp140.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcomp90.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcruntime140.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vcruntime140_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vdmdbg.dll
+* wine-devel /usr/lib/wine/x86_64-windows/version.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vga.dll
+* wine-devel /usr/lib/wine/x86_64-windows/view.exe
+* wine-devel /usr/lib/wine/x86_64-windows/virtdisk.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vssapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/vulkan-1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wbemdisp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wbemprox.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wdscore.dll
+* wine-devel /usr/lib/wine/x86_64-windows/webservices.dll
+* wine-devel /usr/lib/wine/x86_64-windows/websocket.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wer.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wevtapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wevtsvc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wevtutil.exe
+* wine-devel /usr/lib/wine/x86_64-windows/where.exe
+* wine-devel /usr/lib/wine/x86_64-windows/whoami.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wiaservc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wimgapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/win32u.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.applicationmodel.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.devices.bluetooth.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.devices.enumeration.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.devices.usb.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.gaming.input.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.gaming.ui.gamebar.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.globalization.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.media.devices.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.media.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.media.mediacontrol.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.media.speech.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.networking.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.networking.hostname.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.perception.stub.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.security.authentication.onlineid.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.security.credentials.ui.userconsentverifier.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.storage.applicationdata.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.system.profile.systemmanufacturers.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.ui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windows.web.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windowscodecs.dll
+* wine-devel /usr/lib/wine/x86_64-windows/windowscodecsext.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winealsa.drv
+* wine-devel /usr/lib/wine/x86_64-windows/wineboot.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winebrowser.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winebus.sys
+* wine-devel /usr/lib/wine/x86_64-windows/winecfg.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wineconsole.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wined3d.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winedbg.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winedevice.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winefile.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winegstreamer.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winehid.sys
+* wine-devel /usr/lib/wine/x86_64-windows/winemapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winemenubuilder.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winemine.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winemsibuilder.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winepath.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wineps.drv
+* wine-devel /usr/lib/wine/x86_64-windows/winepulse.drv
+* wine-devel /usr/lib/wine/x86_64-windows/wineusb.sys
+* wine-devel /usr/lib/wine/x86_64-windows/winevulkan.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winewayland.drv
+* wine-devel /usr/lib/wine/x86_64-windows/winex11.drv
+* wine-devel /usr/lib/wine/x86_64-windows/winexinput.sys
+* wine-devel /usr/lib/wine/x86_64-windows/wing32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winhlp32.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winhttp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wininet.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winmgmt.exe
+* wine-devel /usr/lib/wine/x86_64-windows/winmm.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winnls32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winprint.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winscard.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winspool.drv
+* wine-devel /usr/lib/wine/x86_64-windows/winsta.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wintab32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wintrust.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wintypes.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winusb.dll
+* wine-devel /usr/lib/wine/x86_64-windows/winver.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wlanapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wlanui.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wldap32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wldp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wmasf.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wmi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wmic.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wmiutils.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wmp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wmphoto.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wmplayer.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wmvcore.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wnaspi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wofutil.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wordpad.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wpc.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wpcap.dll
+* wine-devel /usr/lib/wine/x86_64-windows/write.exe
+* wine-devel /usr/lib/wine/x86_64-windows/ws2_32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wscript.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wsdapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wshom.ocx
+* wine-devel /usr/lib/wine/x86_64-windows/wsnmp32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wsock32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wtsapi32.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wuapi.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wuaueng.dll
+* wine-devel /usr/lib/wine/x86_64-windows/wuauserv.exe
+* wine-devel /usr/lib/wine/x86_64-windows/wusa.exe
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_0.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_3.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_5.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_6.dll
+* wine-devel /usr/lib/wine/x86_64-windows/x3daudio1_7.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine2_0.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine2_4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine2_7.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine2_9.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_0.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_3.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_5.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_6.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xactengine3_7.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xapofx1_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xapofx1_2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xapofx1_3.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xapofx1_4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xapofx1_5.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_0.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_3.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_5.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_6.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_7.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_8.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xaudio2_9.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xcopy.exe
+* wine-devel /usr/lib/wine/x86_64-windows/xinput1_1.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xinput1_2.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xinput1_3.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xinput1_4.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xinput9_1_0.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xinputuap.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xmllite.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xolehlp.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xpsprint.dll
+* wine-devel /usr/lib/wine/x86_64-windows/xpssvcs.dll
+* wine-devel /usr/lib32/wine/i386-unix/acledit.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/aclui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/activeds.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/actxprxy.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/adsldp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/adsldpc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/advapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/advpack.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/amsi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/amstream.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/apphelp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/appwiz.cpl.so
+* wine-devel /usr/lib32/wine/i386-unix/appxdeploymentclient.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/arp.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/aspnet_regiis.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/atl.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/atl100.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/atl110.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/atl80.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/atl90.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/atlthunk.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/atmlib.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/attrib.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/authz.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/avicap32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/avicap32.so
+* wine-devel /usr/lib32/wine/i386-unix/avifil32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/avifile.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/avrt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/bcp47langs.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/bcrypt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/bcrypt.so
+* wine-devel /usr/lib32/wine/i386-unix/bcryptprimitives.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/bluetoothapis.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/browseui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/bthprops.cpl.so
+* wine-devel /usr/lib32/wine/i386-unix/cabarc.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/cabinet.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cacls.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/cards.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cdosys.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/certutil.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/cfgmgr32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/chcp.com.so
+* wine-devel /usr/lib32/wine/i386-unix/clock.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/clusapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cmd.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/cng.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/combase.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/comcat.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/comctl32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/comdlg32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/coml2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/comm.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/commdlg.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/compobj.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/compstui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/comsvcs.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/concrt140.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/conhost.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/connect.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/control.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/coremessaging.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/credui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/crtdll.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/crypt32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/crypt32.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptdlg.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptdll.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptext.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptnet.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptowinrt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptsp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cryptui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/cscript.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/ctapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ctapi32.so
+* wine-devel /usr/lib32/wine/i386-unix/ctl3d.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ctl3d32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ctl3dv2.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/d2d1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d10.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d10core.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d10_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d11.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d12.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d12core.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d8.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d8thk.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3d9.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_33.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_34.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_35.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_36.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_37.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_38.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_39.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_40.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_41.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_42.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_43.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_46.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dcompiler_47.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dim.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dim700.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3drm.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_33.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_34.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_35.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_36.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_37.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_38.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_39.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_40.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_41.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_42.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx10_43.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx11_42.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx11_43.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_24.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_25.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_26.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_27.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_28.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_29.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_30.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_31.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_33.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_34.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_35.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_36.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_37.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_38.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_39.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_40.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_41.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_42.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dx9_43.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/d3dxof.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/davclnt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dbgeng.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dbghelp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dciman32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dcomp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ddeml.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ddraw.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ddrawex.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/devenum.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dhcpcsvc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dhcpcsvc6.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dhtmled.ocx.so
+* wine-devel /usr/lib32/wine/i386-unix/diasymreader.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/difxapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dinput.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dinput8.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/directmanipulation.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dism.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/dispdib.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/dispex.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/display.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/dllhost.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/dmband.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmcompos.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmime.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmloader.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmscript.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmstyle.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmsynth.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmusic.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dmusic32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dnsapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dnsapi.so
+* wine-devel /usr/lib32/wine/i386-unix/dplay.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dplaysvr.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/dplayx.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpnaddr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpnet.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpnhpast.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpnhupnp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpnlobby.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpnsvr.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/dpvoice.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dpvsetup.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/dpwsockx.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/drmclien.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dsdmo.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dsound.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dsquery.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dssenh.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dsuiext.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dswave.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dwmapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dwrite.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dwrite.so
+* wine-devel /usr/lib32/wine/i386-unix/dx8vb.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dxcore.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dxdiag.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/dxdiagn.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dxgi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dxtrans.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/dxva2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/eject.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/esent.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/evr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/expand.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/explorer.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/explorerframe.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/extrac32.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/faultrep.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/fc.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/feclient.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/find.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/findstr.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/fltlib.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/fltmgr.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/fntcache.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/fontsub.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/fsutil.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/fusion.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/fwpuclnt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/gameux.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/gamingtcui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/gdi.exe16.so
+* wine-devel /usr/lib32/wine/i386-unix/gdi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/gdiplus.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/geolocation.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/glu32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/gpkcsp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/graphicscapture.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/hal.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/hh.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/hhctrl.ocx.so
+* wine-devel /usr/lib32/wine/i386-unix/hid.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/hidclass.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/hidparse.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/hlink.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/hnetcfg.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/hostname.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/hrtfapo.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/http.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/httpapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/hvsimanagementapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ia2comproxy.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/icacls.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/iccvid.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/icinfo.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/ieframe.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ieproxy.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/iexplore.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/ifsmgr.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/imaadp32.acm.so
+* wine-devel /usr/lib32/wine/i386-unix/imagehlp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/imm.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/imm32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/inetcomm.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/inetcpl.cpl.so
+* wine-devel /usr/lib32/wine/i386-unix/inetmib1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/infosoft.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/initpki.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/inkobj.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/inseng.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ipconfig.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/iphlpapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/iprop.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ir50_32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/irprops.cpl.so
+* wine-devel /usr/lib32/wine/i386-unix/itircl.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/itss.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/joy.cpl.so
+* wine-devel /usr/lib32/wine/i386-unix/jscript.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/jsproxy.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/kerberos.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/kerberos.so
+* wine-devel /usr/lib32/wine/i386-unix/kernel32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/kernelbase.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/keyboard.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/klist.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/krnl386.exe16.so
+* wine-devel /usr/lib32/wine/i386-unix/ksecdd.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/ksproxy.ax.so
+* wine-devel /usr/lib32/wine/i386-unix/ksuser.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ktmw32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/l3codeca.acm.so
+* wine-devel /usr/lib32/wine/i386-unix/libaclui.a
+* wine-devel /usr/lib32/wine/i386-unix/libactiveds.a
+* wine-devel /usr/lib32/wine/i386-unix/libadsiid.a
+* wine-devel /usr/lib32/wine/i386-unix/libadvapi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libadvpack.a
+* wine-devel /usr/lib32/wine/i386-unix/libatl.a
+* wine-devel /usr/lib32/wine/i386-unix/libatl100.a
+* wine-devel /usr/lib32/wine/i386-unix/libatl110.a
+* wine-devel /usr/lib32/wine/i386-unix/libatl80.a
+* wine-devel /usr/lib32/wine/i386-unix/libatlthunk.a
+* wine-devel /usr/lib32/wine/i386-unix/libavicap32.a
+* wine-devel /usr/lib32/wine/i386-unix/libavifil32.a
+* wine-devel /usr/lib32/wine/i386-unix/libavrt.a
+* wine-devel /usr/lib32/wine/i386-unix/libbcp47langs.a
+* wine-devel /usr/lib32/wine/i386-unix/libbcrypt.a
+* wine-devel /usr/lib32/wine/i386-unix/libbluetoothapis.a
+* wine-devel /usr/lib32/wine/i386-unix/libcabinet.a
+* wine-devel /usr/lib32/wine/i386-unix/libcards.a
+* wine-devel /usr/lib32/wine/i386-unix/libcfgmgr32.a
+* wine-devel /usr/lib32/wine/i386-unix/libclusapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libcombase.a
+* wine-devel /usr/lib32/wine/i386-unix/libcomctl32.a
+* wine-devel /usr/lib32/wine/i386-unix/libcomdlg32.a
+* wine-devel /usr/lib32/wine/i386-unix/libcoml2.a
+* wine-devel /usr/lib32/wine/i386-unix/libcompstui.a
+* wine-devel /usr/lib32/wine/i386-unix/libcomsvcs.a
+* wine-devel /usr/lib32/wine/i386-unix/libcredui.a
+* wine-devel /usr/lib32/wine/i386-unix/libcrypt32.a
+* wine-devel /usr/lib32/wine/i386-unix/libcryptdll.a
+* wine-devel /usr/lib32/wine/i386-unix/libcryptnet.a
+* wine-devel /usr/lib32/wine/i386-unix/libcryptui.a
+* wine-devel /usr/lib32/wine/i386-unix/libd2d1.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d10.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d10core.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d10_1.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d11.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d12.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d8.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3d9.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dcompiler.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dcompiler_39.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dcompiler_43.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dcompiler_46.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3drm.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_34.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_35.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_36.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_37.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_38.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_39.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_40.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_41.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx10_42.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx11.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx11_42.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dx9.a
+* wine-devel /usr/lib32/wine/i386-unix/libd3dxof.a
+* wine-devel /usr/lib32/wine/i386-unix/libdbgeng.a
+* wine-devel /usr/lib32/wine/i386-unix/libdbghelp.a
+* wine-devel /usr/lib32/wine/i386-unix/libdciman32.a
+* wine-devel /usr/lib32/wine/i386-unix/libddraw.a
+* wine-devel /usr/lib32/wine/i386-unix/libdhcpcsvc.a
+* wine-devel /usr/lib32/wine/i386-unix/libdinput.a
+* wine-devel /usr/lib32/wine/i386-unix/libdinput8.a
+* wine-devel /usr/lib32/wine/i386-unix/libdmoguids.a
+* wine-devel /usr/lib32/wine/i386-unix/libdnsapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libdplayx.a
+* wine-devel /usr/lib32/wine/i386-unix/libdpnet.a
+* wine-devel /usr/lib32/wine/i386-unix/libdsound.a
+* wine-devel /usr/lib32/wine/i386-unix/libdwmapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libdwrite.a
+* wine-devel /usr/lib32/wine/i386-unix/libdxerr8.a
+* wine-devel /usr/lib32/wine/i386-unix/libdxerr9.a
+* wine-devel /usr/lib32/wine/i386-unix/libdxgi.a
+* wine-devel /usr/lib32/wine/i386-unix/libdxguid.a
+* wine-devel /usr/lib32/wine/i386-unix/libdxva2.a
+* wine-devel /usr/lib32/wine/i386-unix/libevr.a
+* wine-devel /usr/lib32/wine/i386-unix/libfaultrep.a
+* wine-devel /usr/lib32/wine/i386-unix/libfltmgr.a
+* wine-devel /usr/lib32/wine/i386-unix/libgdi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libgdiplus.a
+* wine-devel /usr/lib32/wine/i386-unix/libglu32.a
+* wine-devel /usr/lib32/wine/i386-unix/libhal.a
+* wine-devel /usr/lib32/wine/i386-unix/libhid.a
+* wine-devel /usr/lib32/wine/i386-unix/libhidclass.a
+* wine-devel /usr/lib32/wine/i386-unix/libhidparse.a
+* wine-devel /usr/lib32/wine/i386-unix/libhlink.a
+* wine-devel /usr/lib32/wine/i386-unix/libhtmlhelp.a
+* wine-devel /usr/lib32/wine/i386-unix/libhttpapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libieframe.a
+* wine-devel /usr/lib32/wine/i386-unix/libimagehlp.a
+* wine-devel /usr/lib32/wine/i386-unix/libimm32.a
+* wine-devel /usr/lib32/wine/i386-unix/libinetcomm.a
+* wine-devel /usr/lib32/wine/i386-unix/libiphlpapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libjsproxy.a
+* wine-devel /usr/lib32/wine/i386-unix/libkernel.a
+* wine-devel /usr/lib32/wine/i386-unix/libkernel32.a
+* wine-devel /usr/lib32/wine/i386-unix/libkernelbase.a
+* wine-devel /usr/lib32/wine/i386-unix/libloadperf.a
+* wine-devel /usr/lib32/wine/i386-unix/liblz32.a
+* wine-devel /usr/lib32/wine/i386-unix/libmapi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libmf.a
+* wine-devel /usr/lib32/wine/i386-unix/libmfplat.a
+* wine-devel /usr/lib32/wine/i386-unix/libmfplay.a
+* wine-devel /usr/lib32/wine/i386-unix/libmfreadwrite.a
+* wine-devel /usr/lib32/wine/i386-unix/libmfsrcsnk.a
+* wine-devel /usr/lib32/wine/i386-unix/libmfuuid.a
+* wine-devel /usr/lib32/wine/i386-unix/libmlang.a
+* wine-devel /usr/lib32/wine/i386-unix/libmpr.a
+* wine-devel /usr/lib32/wine/i386-unix/libmprapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsacm32.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsasn1.a
+* wine-devel /usr/lib32/wine/i386-unix/libmscms.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsdmo.a
+* wine-devel /usr/lib32/wine/i386-unix/libmshtml.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsi.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsimg32.a
+* wine-devel /usr/lib32/wine/i386-unix/libmspatcha.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcp140.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr100.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr110.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr120.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr70.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr71.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr80.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcr90.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcrt.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvcrtd.a
+* wine-devel /usr/lib32/wine/i386-unix/libmsvfw32.a
+* wine-devel /usr/lib32/wine/i386-unix/libmswsock.a
+* wine-devel /usr/lib32/wine/i386-unix/libncrypt.a
+* wine-devel /usr/lib32/wine/i386-unix/libnddeapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libnetapi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libnetio.a
+* wine-devel /usr/lib32/wine/i386-unix/libnetutils.a
+* wine-devel /usr/lib32/wine/i386-unix/libnewdev.a
+* wine-devel /usr/lib32/wine/i386-unix/libninput.a
+* wine-devel /usr/lib32/wine/i386-unix/libnormaliz.a
+* wine-devel /usr/lib32/wine/i386-unix/libnsi.a
+* wine-devel /usr/lib32/wine/i386-unix/libntdll.a
+* wine-devel /usr/lib32/wine/i386-unix/libntdsapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libntoskrnl.a
+* wine-devel /usr/lib32/wine/i386-unix/libodbccp32.a
+* wine-devel /usr/lib32/wine/i386-unix/libole32.a
+* wine-devel /usr/lib32/wine/i386-unix/liboleacc.a
+* wine-devel /usr/lib32/wine/i386-unix/liboleaut32.a
+* wine-devel /usr/lib32/wine/i386-unix/libolecli32.a
+* wine-devel /usr/lib32/wine/i386-unix/liboledlg.a
+* wine-devel /usr/lib32/wine/i386-unix/libolepro32.a
+* wine-devel /usr/lib32/wine/i386-unix/libolesvr32.a
+* wine-devel /usr/lib32/wine/i386-unix/libopengl32.a
+* wine-devel /usr/lib32/wine/i386-unix/libpdh.a
+* wine-devel /usr/lib32/wine/i386-unix/libpowrprof.a
+* wine-devel /usr/lib32/wine/i386-unix/libprntvpt.a
+* wine-devel /usr/lib32/wine/i386-unix/libprofapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libpropsys.a
+* wine-devel /usr/lib32/wine/i386-unix/libpsapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libquartz.a
+* wine-devel /usr/lib32/wine/i386-unix/libqwave.a
+* wine-devel /usr/lib32/wine/i386-unix/librasapi32.a
+* wine-devel /usr/lib32/wine/i386-unix/librasdlg.a
+* wine-devel /usr/lib32/wine/i386-unix/libresutils.a
+* wine-devel /usr/lib32/wine/i386-unix/libriched20.a
+* wine-devel /usr/lib32/wine/i386-unix/librometadata.a
+* wine-devel /usr/lib32/wine/i386-unix/librpcrt4.a
+* wine-devel /usr/lib32/wine/i386-unix/librsaenh.a
+* wine-devel /usr/lib32/wine/i386-unix/librtutils.a
+* wine-devel /usr/lib32/wine/i386-unix/librtworkq.a
+* wine-devel /usr/lib32/wine/i386-unix/libscrrun.a
+* wine-devel /usr/lib32/wine/i386-unix/libsechost.a
+* wine-devel /usr/lib32/wine/i386-unix/libsecur32.a
+* wine-devel /usr/lib32/wine/i386-unix/libsensapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libsetupapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libsfc.a
+* wine-devel /usr/lib32/wine/i386-unix/libsfc_os.a
+* wine-devel /usr/lib32/wine/i386-unix/libshcore.a
+* wine-devel /usr/lib32/wine/i386-unix/libshdocvw.a
+* wine-devel /usr/lib32/wine/i386-unix/libshell32.a
+* wine-devel /usr/lib32/wine/i386-unix/libshfolder.a
+* wine-devel /usr/lib32/wine/i386-unix/libshlwapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libslc.a
+* wine-devel /usr/lib32/wine/i386-unix/libsnmpapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libspoolss.a
+* wine-devel /usr/lib32/wine/i386-unix/libsti.a
+* wine-devel /usr/lib32/wine/i386-unix/libstrmbase.a
+* wine-devel /usr/lib32/wine/i386-unix/libstrmiids.a
+* wine-devel /usr/lib32/wine/i386-unix/libsxs.a
+* wine-devel /usr/lib32/wine/i386-unix/libt2embed.a
+* wine-devel /usr/lib32/wine/i386-unix/libtapi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libucrtbase.a
+* wine-devel /usr/lib32/wine/i386-unix/libuiautomationcore.a
+* wine-devel /usr/lib32/wine/i386-unix/libunicows.a
+* wine-devel /usr/lib32/wine/i386-unix/liburl.a
+* wine-devel /usr/lib32/wine/i386-unix/liburlmon.a
+* wine-devel /usr/lib32/wine/i386-unix/libusbd.a
+* wine-devel /usr/lib32/wine/i386-unix/libuser32.a
+* wine-devel /usr/lib32/wine/i386-unix/libuserenv.a
+* wine-devel /usr/lib32/wine/i386-unix/libusp10.a
+* wine-devel /usr/lib32/wine/i386-unix/libuuid.a
+* wine-devel /usr/lib32/wine/i386-unix/libuxtheme.a
+* wine-devel /usr/lib32/wine/i386-unix/libvcruntime140.a
+* wine-devel /usr/lib32/wine/i386-unix/libvdmdbg.a
+* wine-devel /usr/lib32/wine/i386-unix/libversion.a
+* wine-devel /usr/lib32/wine/i386-unix/libvulkan-1.a
+* wine-devel /usr/lib32/wine/i386-unix/libwbemuuid.a
+* wine-devel /usr/lib32/wine/i386-unix/libwebservices.a
+* wine-devel /usr/lib32/wine/i386-unix/libwer.a
+* wine-devel /usr/lib32/wine/i386-unix/libwevtapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libwin32u.a
+* wine-devel /usr/lib32/wine/i386-unix/libwindowscodecs.a
+* wine-devel /usr/lib32/wine/i386-unix/libwindowscodecsext.a
+* wine-devel /usr/lib32/wine/i386-unix/libwinecrt0.a
+* wine-devel /usr/lib32/wine/i386-unix/libwined3d.a
+* wine-devel /usr/lib32/wine/i386-unix/libwinevulkan.a
+* wine-devel /usr/lib32/wine/i386-unix/libwing32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwinhttp.a
+* wine-devel /usr/lib32/wine/i386-unix/libwininet.a
+* wine-devel /usr/lib32/wine/i386-unix/libwinmm.a
+* wine-devel /usr/lib32/wine/i386-unix/libwinnls32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwinspool.a
+* wine-devel /usr/lib32/wine/i386-unix/libwintab32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwintrust.a
+* wine-devel /usr/lib32/wine/i386-unix/libwlanapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libwldap32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwmcodecdspuuid.a
+* wine-devel /usr/lib32/wine/i386-unix/libwmvcore.a
+* wine-devel /usr/lib32/wine/i386-unix/libwnaspi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwow32.a
+* wine-devel /usr/lib32/wine/i386-unix/libws2_32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwsdapi.a
+* wine-devel /usr/lib32/wine/i386-unix/libwsnmp32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwsock32.a
+* wine-devel /usr/lib32/wine/i386-unix/libwtsapi32.a
+* wine-devel /usr/lib32/wine/i386-unix/libxaudio2_8.a
+* wine-devel /usr/lib32/wine/i386-unix/libxinput.a
+* wine-devel /usr/lib32/wine/i386-unix/libxmllite.a
+* wine-devel /usr/lib32/wine/i386-unix/loadperf.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/localspl.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/localspl.so
+* wine-devel /usr/lib32/wine/i386-unix/localui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/lodctr.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/lzexpand.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/magnification.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mapistub.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mciavi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mcicda.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mciqtz32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mciseq.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mciwave.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mf.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mf3216.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mfmediaengine.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mfplat.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mfplay.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mfreadwrite.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mfsrcsnk.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mgmtapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/midimap.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mlang.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mmcndmgr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mmdevapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mmdevldr.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/mmsystem.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/mofcomp.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/monodebg.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/mouhid.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/mountmgr.so
+* wine-devel /usr/lib32/wine/i386-unix/mountmgr.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/mouse.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/mp3dmod.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mpr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mprapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msacm.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/msacm32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msacm32.drv.so
+* wine-devel /usr/lib32/wine/i386-unix/msado15.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msadp32.acm.so
+* wine-devel /usr/lib32/wine/i386-unix/msasn1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msauddecmft.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mscat32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mscms.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mscoree.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mscorwks.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msctf.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msctfmonitor.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msctfp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msdaps.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msdasql.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msdelta.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msdmo.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msdrm.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msftedit.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msg711.acm.so
+* wine-devel /usr/lib32/wine/i386-unix/msgsm32.acm.so
+* wine-devel /usr/lib32/wine/i386-unix/mshta.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/mshtml.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msidb.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/msident.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msiexec.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/msimg32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msimtf.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msinfo32.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/msisip.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msisys.ocx.so
+* wine-devel /usr/lib32/wine/i386-unix/msls31.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msmpeg2vdec.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msnet32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mspatcha.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msports.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msrle32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msscript.ocx.so
+* wine-devel /usr/lib32/wine/i386-unix/mssign32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mssip32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mstask.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msttsengine.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msv1_0.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msv1_0.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcirt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcm80.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcm90.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp100.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp110.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp120.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp120_app.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp140.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp140_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp140_2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp140_atomic_wait.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp140_codecvt_ids.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp60.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp70.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp71.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp80.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp90.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcp_win.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr100.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr110.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr120.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr120_app.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr70.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr71.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr80.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcr90.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcrt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcrt20.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcrt40.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvcrtd.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvfw32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvidc32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msvideo.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/mswsock.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msxml.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msxml2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msxml3.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msxml4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/msxml6.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/mtxdm.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ncrypt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/nddeapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ndis.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/net.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/netapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/netapi32.so
+* wine-devel /usr/lib32/wine/i386-unix/netcfgx.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/netio.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/netprofm.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/netsh.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/netstat.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/netutils.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/newdev.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ngen.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/ninput.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/notepad.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/npmshtml.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/npptools.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/nsi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/nsiproxy.so
+* wine-devel /usr/lib32/wine/i386-unix/nsiproxy.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/ntdll.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ntdll.so
+* wine-devel /usr/lib32/wine/i386-unix/ntdsapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ntoskrnl.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/ntprint.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/objsel.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/odbcbcp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/odbccp32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/odbccu32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ole2.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ole2conv.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ole2disp.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ole2nls.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ole2prox.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ole2thk.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ole32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/oleacc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/oleaut32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/olecli.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/olecli32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/oledb32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/oledlg.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/olepro32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/olesvr.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/olesvr32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/olethk32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/oleview.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/opcservices.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/opencl.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/opencl.so
+* wine-devel /usr/lib32/wine/i386-unix/opengl32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/opengl32.so
+* wine-devel /usr/lib32/wine/i386-unix/packager.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/pdh.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/photometadatahandler.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/pidgen.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ping.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/plugplay.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/pnputil.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/powershell.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/powrprof.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/presentationfontcache.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/printui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/prntvpt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/profapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/progman.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/propsys.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/psapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/pstorec.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/pwrshplugin.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qasf.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qcap.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qcap.so
+* wine-devel /usr/lib32/wine/i386-unix/qdvd.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qedit.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qmgr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qmgrprxy.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/quartz.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/query.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/qwave.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rasapi16.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/rasapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rasdlg.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/reg.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/regapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/regasm.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/regedit.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/regini.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/regsvcs.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/regsvr32.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/resutils.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/riched20.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/riched32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/robocopy.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/rometadata.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rpcrt4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rpcss.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/rsabase.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rsaenh.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rstrtmgr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rtutils.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rtworkq.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/rundll.exe16.so
+* wine-devel /usr/lib32/wine/i386-unix/rundll32.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/samlib.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sas.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sc.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/scarddlg.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/scardsvr.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sccbase.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/schannel.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/schedsvc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/schtasks.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/scrobj.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/scrrun.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/scsiport.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/sdbinst.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/secedit.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/sechost.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/secur32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/secur32.so
+* wine-devel /usr/lib32/wine/i386-unix/sensapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/serialui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/servicemodelreg.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/services.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/setupapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/setupx.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/setx.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/sfc_os.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/shcore.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/shdocvw.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/shell.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/shell32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/shfolder.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/shlwapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/shutdown.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/slbcsp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/slc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/snmpapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/softpub.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sound.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/spoolss.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/spoolsv.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/sppc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/srclient.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/srvcli.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/srvsvc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sspicli.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/start.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/sti.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/storage.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/stress.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/strmdll.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/subst.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/svchost.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/svrapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/sxs.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/system.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/systeminfo.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/t2embed.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/tapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/taskkill.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/tasklist.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/taskmgr.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/taskschd.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/tbs.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/tdh.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/tdi.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/termsv.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/threadpoolwinrt.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/toolhelp.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/traffic.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/twain.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/twain_32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/twinapi.appcore.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/typelib.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/ucrtbase.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/uianimation.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/uiautomationcore.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/uiribbon.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/unicows.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/uninstaller.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/unlodctr.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/updspapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/url.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/urlmon.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/usbd.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/user.exe16.so
+* wine-devel /usr/lib32/wine/i386-unix/user32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/userenv.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/utildll.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/uxtheme.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vbscript.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcomp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcomp100.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcomp110.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcomp120.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcomp140.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcomp90.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vcruntime140.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vdhcp.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/vdmdbg.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ver.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/version.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vga.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/view.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/virtdisk.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vmm.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/vnbt.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/vnetbios.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/vssapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vtdapi.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/vulkan-1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/vwin32.vxd.so
+* wine-devel /usr/lib32/wine/i386-unix/w32skrnl.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/w32sys.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/wbemdisp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wbemprox.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wdscore.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/webservices.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/websocket.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wer.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wevtapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wevtsvc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wevtutil.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/where.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/whoami.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wiaservc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wimgapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/win32s16.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/win32u.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/win32u.so
+* wine-devel /usr/lib32/wine/i386-unix/win87em.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/winaspi.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/windebug.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.applicationmodel.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.devices.bluetooth.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.devices.enumeration.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.devices.usb.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.gaming.input.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.gaming.ui.gamebar.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.globalization.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.media.devices.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.media.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.media.mediacontrol.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.media.speech.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.networking.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.networking.hostname.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.perception.stub.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.security.authentication.onlineid.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.security.credentials.ui.userconsentverifier.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.storage.applicationdata.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.system.profile.systemmanufacturers.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.ui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windows.web.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windowscodecs.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/windowscodecsext.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wineboot.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winebrowser.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winebus.so
+* wine-devel /usr/lib32/wine/i386-unix/winebus.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/winecfg.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wineconsole.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wined3d.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winedbg.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winedevice.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winefile.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winehid.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/winemapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winemenubuilder.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winemine.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winemsibuilder.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winepath.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wineps.drv.so
+* wine-devel /usr/lib32/wine/i386-unix/wineps.so
+* wine-devel /usr/lib32/wine/i386-unix/wineps16.drv16.so
+* wine-devel /usr/lib32/wine/i386-unix/winevdm.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winevulkan.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winevulkan.so
+* wine-devel /usr/lib32/wine/i386-unix/winex11.drv.so
+* wine-devel /usr/lib32/wine/i386-unix/winex11.so
+* wine-devel /usr/lib32/wine/i386-unix/winexinput.sys.so
+* wine-devel /usr/lib32/wine/i386-unix/wing.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/wing32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winhelp.exe16.so
+* wine-devel /usr/lib32/wine/i386-unix/winhlp32.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winhttp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wininet.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winmgmt.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/winmm.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winnls.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/winnls32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winoldap.mod16.so
+* wine-devel /usr/lib32/wine/i386-unix/winprint.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winsock.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/winspool.drv.so
+* wine-devel /usr/lib32/wine/i386-unix/winspool.so
+* wine-devel /usr/lib32/wine/i386-unix/winsta.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wintab.dll16.so
+* wine-devel /usr/lib32/wine/i386-unix/wintab32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wintrust.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wintypes.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winusb.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/winver.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wlanapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wlanui.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wldap32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wldp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wmasf.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wmic.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wmiutils.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wmp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wmphoto.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wmplayer.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wmvcore.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wnaspi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wofutil.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wordpad.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wow32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wpc.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/write.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/ws2_32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/ws2_32.so
+* wine-devel /usr/lib32/wine/i386-unix/wscript.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wsdapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wshom.ocx.so
+* wine-devel /usr/lib32/wine/i386-unix/wsnmp32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wsock32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wtsapi32.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wuapi.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wuaueng.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/wuauserv.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/wusa.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_0.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_3.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_5.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_6.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/x3daudio1_7.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine2_0.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine2_4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine2_7.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine2_9.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_0.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_3.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_5.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_6.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xactengine3_7.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xapofx1_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xapofx1_2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xapofx1_3.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xapofx1_4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xapofx1_5.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_0.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_3.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_5.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_6.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_7.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_8.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xaudio2_9.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xcopy.exe.so
+* wine-devel /usr/lib32/wine/i386-unix/xinput1_1.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xinput1_2.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xinput1_3.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xinput1_4.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xinput9_1_0.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xinputuap.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xmllite.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xolehlp.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xpsprint.dll.so
+* wine-devel /usr/lib32/wine/i386-unix/xpssvcs.dll.so
+* wine-devel /usr/lib32/wine/i386-windows/acledit.dll
+* wine-devel /usr/lib32/wine/i386-windows/aclui.dll
+* wine-devel /usr/lib32/wine/i386-windows/activeds.dll
+* wine-devel /usr/lib32/wine/i386-windows/activeds.tlb
+* wine-devel /usr/lib32/wine/i386-windows/actxprxy.dll
+* wine-devel /usr/lib32/wine/i386-windows/adsldp.dll
+* wine-devel /usr/lib32/wine/i386-windows/adsldpc.dll
+* wine-devel /usr/lib32/wine/i386-windows/advapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/advpack.dll
+* wine-devel /usr/lib32/wine/i386-windows/amsi.dll
+* wine-devel /usr/lib32/wine/i386-windows/amstream.dll
+* wine-devel /usr/lib32/wine/i386-windows/apisetschema.dll
+* wine-devel /usr/lib32/wine/i386-windows/apphelp.dll
+* wine-devel /usr/lib32/wine/i386-windows/appwiz.cpl
+* wine-devel /usr/lib32/wine/i386-windows/appxdeploymentclient.dll
+* wine-devel /usr/lib32/wine/i386-windows/arp.exe
+* wine-devel /usr/lib32/wine/i386-windows/aspnet_regiis.exe
+* wine-devel /usr/lib32/wine/i386-windows/atl.dll
+* wine-devel /usr/lib32/wine/i386-windows/atl100.dll
+* wine-devel /usr/lib32/wine/i386-windows/atl110.dll
+* wine-devel /usr/lib32/wine/i386-windows/atl80.dll
+* wine-devel /usr/lib32/wine/i386-windows/atl90.dll
+* wine-devel /usr/lib32/wine/i386-windows/atlthunk.dll
+* wine-devel /usr/lib32/wine/i386-windows/atmlib.dll
+* wine-devel /usr/lib32/wine/i386-windows/attrib.exe
+* wine-devel /usr/lib32/wine/i386-windows/authz.dll
+* wine-devel /usr/lib32/wine/i386-windows/avicap32.dll
+* wine-devel /usr/lib32/wine/i386-windows/avifil32.dll
+* wine-devel /usr/lib32/wine/i386-windows/avifile.dll16
+* wine-devel /usr/lib32/wine/i386-windows/avrt.dll
+* wine-devel /usr/lib32/wine/i386-windows/bcp47langs.dll
+* wine-devel /usr/lib32/wine/i386-windows/bcrypt.dll
+* wine-devel /usr/lib32/wine/i386-windows/bcryptprimitives.dll
+* wine-devel /usr/lib32/wine/i386-windows/bluetoothapis.dll
+* wine-devel /usr/lib32/wine/i386-windows/browseui.dll
+* wine-devel /usr/lib32/wine/i386-windows/bthprops.cpl
+* wine-devel /usr/lib32/wine/i386-windows/cabarc.exe
+* wine-devel /usr/lib32/wine/i386-windows/cabinet.dll
+* wine-devel /usr/lib32/wine/i386-windows/cacls.exe
+* wine-devel /usr/lib32/wine/i386-windows/cards.dll
+* wine-devel /usr/lib32/wine/i386-windows/cdosys.dll
+* wine-devel /usr/lib32/wine/i386-windows/certutil.exe
+* wine-devel /usr/lib32/wine/i386-windows/cfgmgr32.dll
+* wine-devel /usr/lib32/wine/i386-windows/chcp.com
+* wine-devel /usr/lib32/wine/i386-windows/clock.exe
+* wine-devel /usr/lib32/wine/i386-windows/clusapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/cmd.exe
+* wine-devel /usr/lib32/wine/i386-windows/cng.sys
+* wine-devel /usr/lib32/wine/i386-windows/combase.dll
+* wine-devel /usr/lib32/wine/i386-windows/comcat.dll
+* wine-devel /usr/lib32/wine/i386-windows/comctl32.dll
+* wine-devel /usr/lib32/wine/i386-windows/comdlg32.dll
+* wine-devel /usr/lib32/wine/i386-windows/coml2.dll
+* wine-devel /usr/lib32/wine/i386-windows/comm.drv16
+* wine-devel /usr/lib32/wine/i386-windows/commdlg.dll16
+* wine-devel /usr/lib32/wine/i386-windows/compobj.dll16
+* wine-devel /usr/lib32/wine/i386-windows/compstui.dll
+* wine-devel /usr/lib32/wine/i386-windows/comsvcs.dll
+* wine-devel /usr/lib32/wine/i386-windows/concrt140.dll
+* wine-devel /usr/lib32/wine/i386-windows/conhost.exe
+* wine-devel /usr/lib32/wine/i386-windows/connect.dll
+* wine-devel /usr/lib32/wine/i386-windows/control.exe
+* wine-devel /usr/lib32/wine/i386-windows/coremessaging.dll
+* wine-devel /usr/lib32/wine/i386-windows/credui.dll
+* wine-devel /usr/lib32/wine/i386-windows/crtdll.dll
+* wine-devel /usr/lib32/wine/i386-windows/crypt32.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptdlg.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptdll.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptext.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptnet.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptowinrt.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptsp.dll
+* wine-devel /usr/lib32/wine/i386-windows/cryptui.dll
+* wine-devel /usr/lib32/wine/i386-windows/cscript.exe
+* wine-devel /usr/lib32/wine/i386-windows/ctapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/ctl3d.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ctl3d32.dll
+* wine-devel /usr/lib32/wine/i386-windows/ctl3dv2.dll16
+* wine-devel /usr/lib32/wine/i386-windows/d2d1.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d10.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d10core.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d10_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d11.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d12.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d12core.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d8.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d8thk.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3d9.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_33.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_34.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_35.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_36.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_37.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_38.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_39.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_40.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_41.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_42.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_43.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_46.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dcompiler_47.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dim.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dim700.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3drm.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_33.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_34.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_35.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_36.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_37.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_38.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_39.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_40.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_41.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_42.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx10_43.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx11_42.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx11_43.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_24.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_25.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_26.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_27.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_28.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_29.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_30.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_31.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_32.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_33.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_34.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_35.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_36.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_37.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_38.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_39.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_40.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_41.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_42.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dx9_43.dll
+* wine-devel /usr/lib32/wine/i386-windows/d3dxof.dll
+* wine-devel /usr/lib32/wine/i386-windows/davclnt.dll
+* wine-devel /usr/lib32/wine/i386-windows/dbgeng.dll
+* wine-devel /usr/lib32/wine/i386-windows/dbghelp.dll
+* wine-devel /usr/lib32/wine/i386-windows/dciman32.dll
+* wine-devel /usr/lib32/wine/i386-windows/dcomp.dll
+* wine-devel /usr/lib32/wine/i386-windows/ddeml.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ddraw.dll
+* wine-devel /usr/lib32/wine/i386-windows/ddrawex.dll
+* wine-devel /usr/lib32/wine/i386-windows/devenum.dll
+* wine-devel /usr/lib32/wine/i386-windows/dhcpcsvc.dll
+* wine-devel /usr/lib32/wine/i386-windows/dhcpcsvc6.dll
+* wine-devel /usr/lib32/wine/i386-windows/dhtmled.ocx
+* wine-devel /usr/lib32/wine/i386-windows/diasymreader.dll
+* wine-devel /usr/lib32/wine/i386-windows/difxapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/dinput.dll
+* wine-devel /usr/lib32/wine/i386-windows/dinput8.dll
+* wine-devel /usr/lib32/wine/i386-windows/directmanipulation.dll
+* wine-devel /usr/lib32/wine/i386-windows/dism.exe
+* wine-devel /usr/lib32/wine/i386-windows/dispdib.dll16
+* wine-devel /usr/lib32/wine/i386-windows/dispex.dll
+* wine-devel /usr/lib32/wine/i386-windows/display.drv16
+* wine-devel /usr/lib32/wine/i386-windows/dllhost.exe
+* wine-devel /usr/lib32/wine/i386-windows/dmband.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmcompos.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmime.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmloader.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmscript.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmstyle.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmsynth.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmusic.dll
+* wine-devel /usr/lib32/wine/i386-windows/dmusic32.dll
+* wine-devel /usr/lib32/wine/i386-windows/dnsapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/dplay.dll
+* wine-devel /usr/lib32/wine/i386-windows/dplaysvr.exe
+* wine-devel /usr/lib32/wine/i386-windows/dplayx.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpnaddr.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpnet.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpnhpast.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpnhupnp.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpnlobby.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpnsvr.exe
+* wine-devel /usr/lib32/wine/i386-windows/dpvoice.dll
+* wine-devel /usr/lib32/wine/i386-windows/dpvsetup.exe
+* wine-devel /usr/lib32/wine/i386-windows/dpwsockx.dll
+* wine-devel /usr/lib32/wine/i386-windows/drmclien.dll
+* wine-devel /usr/lib32/wine/i386-windows/dsdmo.dll
+* wine-devel /usr/lib32/wine/i386-windows/dsound.dll
+* wine-devel /usr/lib32/wine/i386-windows/dsquery.dll
+* wine-devel /usr/lib32/wine/i386-windows/dssenh.dll
+* wine-devel /usr/lib32/wine/i386-windows/dsuiext.dll
+* wine-devel /usr/lib32/wine/i386-windows/dswave.dll
+* wine-devel /usr/lib32/wine/i386-windows/dwmapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/dwrite.dll
+* wine-devel /usr/lib32/wine/i386-windows/dx8vb.dll
+* wine-devel /usr/lib32/wine/i386-windows/dxcore.dll
+* wine-devel /usr/lib32/wine/i386-windows/dxdiag.exe
+* wine-devel /usr/lib32/wine/i386-windows/dxdiagn.dll
+* wine-devel /usr/lib32/wine/i386-windows/dxgi.dll
+* wine-devel /usr/lib32/wine/i386-windows/dxtrans.dll
+* wine-devel /usr/lib32/wine/i386-windows/dxva2.dll
+* wine-devel /usr/lib32/wine/i386-windows/eject.exe
+* wine-devel /usr/lib32/wine/i386-windows/esent.dll
+* wine-devel /usr/lib32/wine/i386-windows/evr.dll
+* wine-devel /usr/lib32/wine/i386-windows/expand.exe
+* wine-devel /usr/lib32/wine/i386-windows/explorer.exe
+* wine-devel /usr/lib32/wine/i386-windows/explorerframe.dll
+* wine-devel /usr/lib32/wine/i386-windows/extrac32.exe
+* wine-devel /usr/lib32/wine/i386-windows/faultrep.dll
+* wine-devel /usr/lib32/wine/i386-windows/fc.exe
+* wine-devel /usr/lib32/wine/i386-windows/feclient.dll
+* wine-devel /usr/lib32/wine/i386-windows/find.exe
+* wine-devel /usr/lib32/wine/i386-windows/findstr.exe
+* wine-devel /usr/lib32/wine/i386-windows/fltlib.dll
+* wine-devel /usr/lib32/wine/i386-windows/fltmgr.sys
+* wine-devel /usr/lib32/wine/i386-windows/fntcache.dll
+* wine-devel /usr/lib32/wine/i386-windows/fontsub.dll
+* wine-devel /usr/lib32/wine/i386-windows/fsutil.exe
+* wine-devel /usr/lib32/wine/i386-windows/fusion.dll
+* wine-devel /usr/lib32/wine/i386-windows/fwpuclnt.dll
+* wine-devel /usr/lib32/wine/i386-windows/gameux.dll
+* wine-devel /usr/lib32/wine/i386-windows/gamingtcui.dll
+* wine-devel /usr/lib32/wine/i386-windows/gdi.exe16
+* wine-devel /usr/lib32/wine/i386-windows/gdi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/gdiplus.dll
+* wine-devel /usr/lib32/wine/i386-windows/geolocation.dll
+* wine-devel /usr/lib32/wine/i386-windows/glu32.dll
+* wine-devel /usr/lib32/wine/i386-windows/gpkcsp.dll
+* wine-devel /usr/lib32/wine/i386-windows/graphicscapture.dll
+* wine-devel /usr/lib32/wine/i386-windows/hal.dll
+* wine-devel /usr/lib32/wine/i386-windows/hh.exe
+* wine-devel /usr/lib32/wine/i386-windows/hhctrl.ocx
+* wine-devel /usr/lib32/wine/i386-windows/hid.dll
+* wine-devel /usr/lib32/wine/i386-windows/hidclass.sys
+* wine-devel /usr/lib32/wine/i386-windows/hidparse.sys
+* wine-devel /usr/lib32/wine/i386-windows/hlink.dll
+* wine-devel /usr/lib32/wine/i386-windows/hnetcfg.dll
+* wine-devel /usr/lib32/wine/i386-windows/hostname.exe
+* wine-devel /usr/lib32/wine/i386-windows/hrtfapo.dll
+* wine-devel /usr/lib32/wine/i386-windows/http.sys
+* wine-devel /usr/lib32/wine/i386-windows/httpapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/hvsimanagementapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/ia2comproxy.dll
+* wine-devel /usr/lib32/wine/i386-windows/icacls.exe
+* wine-devel /usr/lib32/wine/i386-windows/iccvid.dll
+* wine-devel /usr/lib32/wine/i386-windows/icinfo.exe
+* wine-devel /usr/lib32/wine/i386-windows/icmp.dll
+* wine-devel /usr/lib32/wine/i386-windows/ieframe.dll
+* wine-devel /usr/lib32/wine/i386-windows/ieproxy.dll
+* wine-devel /usr/lib32/wine/i386-windows/iexplore.exe
+* wine-devel /usr/lib32/wine/i386-windows/ifsmgr.vxd
+* wine-devel /usr/lib32/wine/i386-windows/imaadp32.acm
+* wine-devel /usr/lib32/wine/i386-windows/imagehlp.dll
+* wine-devel /usr/lib32/wine/i386-windows/imm.dll16
+* wine-devel /usr/lib32/wine/i386-windows/imm32.dll
+* wine-devel /usr/lib32/wine/i386-windows/inetcomm.dll
+* wine-devel /usr/lib32/wine/i386-windows/inetcpl.cpl
+* wine-devel /usr/lib32/wine/i386-windows/inetmib1.dll
+* wine-devel /usr/lib32/wine/i386-windows/infosoft.dll
+* wine-devel /usr/lib32/wine/i386-windows/initpki.dll
+* wine-devel /usr/lib32/wine/i386-windows/inkobj.dll
+* wine-devel /usr/lib32/wine/i386-windows/inseng.dll
+* wine-devel /usr/lib32/wine/i386-windows/ipconfig.exe
+* wine-devel /usr/lib32/wine/i386-windows/iphlpapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/iprop.dll
+* wine-devel /usr/lib32/wine/i386-windows/ir50_32.dll
+* wine-devel /usr/lib32/wine/i386-windows/irprops.cpl
+* wine-devel /usr/lib32/wine/i386-windows/itircl.dll
+* wine-devel /usr/lib32/wine/i386-windows/itss.dll
+* wine-devel /usr/lib32/wine/i386-windows/joy.cpl
+* wine-devel /usr/lib32/wine/i386-windows/jscript.dll
+* wine-devel /usr/lib32/wine/i386-windows/jsproxy.dll
+* wine-devel /usr/lib32/wine/i386-windows/kerberos.dll
+* wine-devel /usr/lib32/wine/i386-windows/kernel32.dll
+* wine-devel /usr/lib32/wine/i386-windows/kernelbase.dll
+* wine-devel /usr/lib32/wine/i386-windows/keyboard.drv16
+* wine-devel /usr/lib32/wine/i386-windows/klist.exe
+* wine-devel /usr/lib32/wine/i386-windows/krnl386.exe16
+* wine-devel /usr/lib32/wine/i386-windows/ksecdd.sys
+* wine-devel /usr/lib32/wine/i386-windows/ksproxy.ax
+* wine-devel /usr/lib32/wine/i386-windows/ksuser.dll
+* wine-devel /usr/lib32/wine/i386-windows/ktmw32.dll
+* wine-devel /usr/lib32/wine/i386-windows/l3codeca.acm
+* wine-devel /usr/lib32/wine/i386-windows/light.msstyles
+* wine-devel /usr/lib32/wine/i386-windows/loadperf.dll
+* wine-devel /usr/lib32/wine/i386-windows/localspl.dll
+* wine-devel /usr/lib32/wine/i386-windows/localui.dll
+* wine-devel /usr/lib32/wine/i386-windows/lodctr.exe
+* wine-devel /usr/lib32/wine/i386-windows/lz32.dll
+* wine-devel /usr/lib32/wine/i386-windows/lzexpand.dll16
+* wine-devel /usr/lib32/wine/i386-windows/magnification.dll
+* wine-devel /usr/lib32/wine/i386-windows/mapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mapistub.dll
+* wine-devel /usr/lib32/wine/i386-windows/mciavi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mcicda.dll
+* wine-devel /usr/lib32/wine/i386-windows/mciqtz32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mciseq.dll
+* wine-devel /usr/lib32/wine/i386-windows/mciwave.dll
+* wine-devel /usr/lib32/wine/i386-windows/mf.dll
+* wine-devel /usr/lib32/wine/i386-windows/mf3216.dll
+* wine-devel /usr/lib32/wine/i386-windows/mferror.dll
+* wine-devel /usr/lib32/wine/i386-windows/mfmediaengine.dll
+* wine-devel /usr/lib32/wine/i386-windows/mfplat.dll
+* wine-devel /usr/lib32/wine/i386-windows/mfplay.dll
+* wine-devel /usr/lib32/wine/i386-windows/mfreadwrite.dll
+* wine-devel /usr/lib32/wine/i386-windows/mfsrcsnk.dll
+* wine-devel /usr/lib32/wine/i386-windows/mgmtapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/midimap.dll
+* wine-devel /usr/lib32/wine/i386-windows/mlang.dll
+* wine-devel /usr/lib32/wine/i386-windows/mmcndmgr.dll
+* wine-devel /usr/lib32/wine/i386-windows/mmdevapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/mmdevldr.vxd
+* wine-devel /usr/lib32/wine/i386-windows/mmsystem.dll16
+* wine-devel /usr/lib32/wine/i386-windows/mofcomp.exe
+* wine-devel /usr/lib32/wine/i386-windows/monodebg.vxd
+* wine-devel /usr/lib32/wine/i386-windows/mouhid.sys
+* wine-devel /usr/lib32/wine/i386-windows/mountmgr.sys
+* wine-devel /usr/lib32/wine/i386-windows/mouse.drv16
+* wine-devel /usr/lib32/wine/i386-windows/mp3dmod.dll
+* wine-devel /usr/lib32/wine/i386-windows/mpr.dll
+* wine-devel /usr/lib32/wine/i386-windows/mprapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/msacm.dll16
+* wine-devel /usr/lib32/wine/i386-windows/msacm32.dll
+* wine-devel /usr/lib32/wine/i386-windows/msacm32.drv
+* wine-devel /usr/lib32/wine/i386-windows/msado15.dll
+* wine-devel /usr/lib32/wine/i386-windows/msadp32.acm
+* wine-devel /usr/lib32/wine/i386-windows/msasn1.dll
+* wine-devel /usr/lib32/wine/i386-windows/msauddecmft.dll
+* wine-devel /usr/lib32/wine/i386-windows/mscat32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mscms.dll
+* wine-devel /usr/lib32/wine/i386-windows/mscoree.dll
+* wine-devel /usr/lib32/wine/i386-windows/mscorwks.dll
+* wine-devel /usr/lib32/wine/i386-windows/msctf.dll
+* wine-devel /usr/lib32/wine/i386-windows/msctfmonitor.dll
+* wine-devel /usr/lib32/wine/i386-windows/msctfp.dll
+* wine-devel /usr/lib32/wine/i386-windows/msdaps.dll
+* wine-devel /usr/lib32/wine/i386-windows/msdasql.dll
+* wine-devel /usr/lib32/wine/i386-windows/msdelta.dll
+* wine-devel /usr/lib32/wine/i386-windows/msdmo.dll
+* wine-devel /usr/lib32/wine/i386-windows/msdrm.dll
+* wine-devel /usr/lib32/wine/i386-windows/msftedit.dll
+* wine-devel /usr/lib32/wine/i386-windows/msg711.acm
+* wine-devel /usr/lib32/wine/i386-windows/msgsm32.acm
+* wine-devel /usr/lib32/wine/i386-windows/mshta.exe
+* wine-devel /usr/lib32/wine/i386-windows/mshtml.dll
+* wine-devel /usr/lib32/wine/i386-windows/mshtml.tlb
+* wine-devel /usr/lib32/wine/i386-windows/msi.dll
+* wine-devel /usr/lib32/wine/i386-windows/msidb.exe
+* wine-devel /usr/lib32/wine/i386-windows/msident.dll
+* wine-devel /usr/lib32/wine/i386-windows/msiexec.exe
+* wine-devel /usr/lib32/wine/i386-windows/msimg32.dll
+* wine-devel /usr/lib32/wine/i386-windows/msimsg.dll
+* wine-devel /usr/lib32/wine/i386-windows/msimtf.dll
+* wine-devel /usr/lib32/wine/i386-windows/msinfo32.exe
+* wine-devel /usr/lib32/wine/i386-windows/msisip.dll
+* wine-devel /usr/lib32/wine/i386-windows/msisys.ocx
+* wine-devel /usr/lib32/wine/i386-windows/msls31.dll
+* wine-devel /usr/lib32/wine/i386-windows/msmpeg2vdec.dll
+* wine-devel /usr/lib32/wine/i386-windows/msnet32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mspatcha.dll
+* wine-devel /usr/lib32/wine/i386-windows/msports.dll
+* wine-devel /usr/lib32/wine/i386-windows/msrle32.dll
+* wine-devel /usr/lib32/wine/i386-windows/msscript.ocx
+* wine-devel /usr/lib32/wine/i386-windows/mssign32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mssip32.dll
+* wine-devel /usr/lib32/wine/i386-windows/mstask.dll
+* wine-devel /usr/lib32/wine/i386-windows/msttsengine.dll
+* wine-devel /usr/lib32/wine/i386-windows/msv1_0.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcirt.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcm80.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcm90.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp100.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp110.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp120.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp120_app.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp140.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp140_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp140_2.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp140_atomic_wait.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp140_codecvt_ids.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp60.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp70.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp71.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp80.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp90.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcp_win.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr100.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr110.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr120.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr120_app.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr70.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr71.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr80.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcr90.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcrt.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcrt20.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcrt40.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvcrtd.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvfw32.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvidc32.dll
+* wine-devel /usr/lib32/wine/i386-windows/msvideo.dll16
+* wine-devel /usr/lib32/wine/i386-windows/mswsock.dll
+* wine-devel /usr/lib32/wine/i386-windows/msxml.dll
+* wine-devel /usr/lib32/wine/i386-windows/msxml2.dll
+* wine-devel /usr/lib32/wine/i386-windows/msxml3.dll
+* wine-devel /usr/lib32/wine/i386-windows/msxml4.dll
+* wine-devel /usr/lib32/wine/i386-windows/msxml6.dll
+* wine-devel /usr/lib32/wine/i386-windows/mtxdm.dll
+* wine-devel /usr/lib32/wine/i386-windows/ncrypt.dll
+* wine-devel /usr/lib32/wine/i386-windows/nddeapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/ndis.sys
+* wine-devel /usr/lib32/wine/i386-windows/net.exe
+* wine-devel /usr/lib32/wine/i386-windows/netapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/netcfgx.dll
+* wine-devel /usr/lib32/wine/i386-windows/netio.sys
+* wine-devel /usr/lib32/wine/i386-windows/netprofm.dll
+* wine-devel /usr/lib32/wine/i386-windows/netsh.exe
+* wine-devel /usr/lib32/wine/i386-windows/netstat.exe
+* wine-devel /usr/lib32/wine/i386-windows/netutils.dll
+* wine-devel /usr/lib32/wine/i386-windows/newdev.dll
+* wine-devel /usr/lib32/wine/i386-windows/ngen.exe
+* wine-devel /usr/lib32/wine/i386-windows/ninput.dll
+* wine-devel /usr/lib32/wine/i386-windows/normaliz.dll
+* wine-devel /usr/lib32/wine/i386-windows/notepad.exe
+* wine-devel /usr/lib32/wine/i386-windows/npmshtml.dll
+* wine-devel /usr/lib32/wine/i386-windows/npptools.dll
+* wine-devel /usr/lib32/wine/i386-windows/nsi.dll
+* wine-devel /usr/lib32/wine/i386-windows/nsiproxy.sys
+* wine-devel /usr/lib32/wine/i386-windows/ntdll.dll
+* wine-devel /usr/lib32/wine/i386-windows/ntdsapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/ntoskrnl.exe
+* wine-devel /usr/lib32/wine/i386-windows/ntprint.dll
+* wine-devel /usr/lib32/wine/i386-windows/objsel.dll
+* wine-devel /usr/lib32/wine/i386-windows/odbcbcp.dll
+* wine-devel /usr/lib32/wine/i386-windows/odbccp32.dll
+* wine-devel /usr/lib32/wine/i386-windows/odbccu32.dll
+* wine-devel /usr/lib32/wine/i386-windows/ole2.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ole2conv.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ole2disp.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ole2nls.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ole2prox.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ole2thk.dll16
+* wine-devel /usr/lib32/wine/i386-windows/ole32.dll
+* wine-devel /usr/lib32/wine/i386-windows/oleacc.dll
+* wine-devel /usr/lib32/wine/i386-windows/oleaut32.dll
+* wine-devel /usr/lib32/wine/i386-windows/olecli.dll16
+* wine-devel /usr/lib32/wine/i386-windows/olecli32.dll
+* wine-devel /usr/lib32/wine/i386-windows/oledb32.dll
+* wine-devel /usr/lib32/wine/i386-windows/oledlg.dll
+* wine-devel /usr/lib32/wine/i386-windows/olepro32.dll
+* wine-devel /usr/lib32/wine/i386-windows/olesvr.dll16
+* wine-devel /usr/lib32/wine/i386-windows/olesvr32.dll
+* wine-devel /usr/lib32/wine/i386-windows/olethk32.dll
+* wine-devel /usr/lib32/wine/i386-windows/oleview.exe
+* wine-devel /usr/lib32/wine/i386-windows/opcservices.dll
+* wine-devel /usr/lib32/wine/i386-windows/opencl.dll
+* wine-devel /usr/lib32/wine/i386-windows/opengl32.dll
+* wine-devel /usr/lib32/wine/i386-windows/packager.dll
+* wine-devel /usr/lib32/wine/i386-windows/pdh.dll
+* wine-devel /usr/lib32/wine/i386-windows/photometadatahandler.dll
+* wine-devel /usr/lib32/wine/i386-windows/pidgen.dll
+* wine-devel /usr/lib32/wine/i386-windows/ping.exe
+* wine-devel /usr/lib32/wine/i386-windows/plugplay.exe
+* wine-devel /usr/lib32/wine/i386-windows/pnputil.exe
+* wine-devel /usr/lib32/wine/i386-windows/powershell.exe
+* wine-devel /usr/lib32/wine/i386-windows/powrprof.dll
+* wine-devel /usr/lib32/wine/i386-windows/presentationfontcache.exe
+* wine-devel /usr/lib32/wine/i386-windows/printui.dll
+* wine-devel /usr/lib32/wine/i386-windows/prntvpt.dll
+* wine-devel /usr/lib32/wine/i386-windows/profapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/progman.exe
+* wine-devel /usr/lib32/wine/i386-windows/propsys.dll
+* wine-devel /usr/lib32/wine/i386-windows/psapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/pstorec.dll
+* wine-devel /usr/lib32/wine/i386-windows/pwrshplugin.dll
+* wine-devel /usr/lib32/wine/i386-windows/qasf.dll
+* wine-devel /usr/lib32/wine/i386-windows/qcap.dll
+* wine-devel /usr/lib32/wine/i386-windows/qdvd.dll
+* wine-devel /usr/lib32/wine/i386-windows/qedit.dll
+* wine-devel /usr/lib32/wine/i386-windows/qmgr.dll
+* wine-devel /usr/lib32/wine/i386-windows/qmgrprxy.dll
+* wine-devel /usr/lib32/wine/i386-windows/quartz.dll
+* wine-devel /usr/lib32/wine/i386-windows/query.dll
+* wine-devel /usr/lib32/wine/i386-windows/qwave.dll
+* wine-devel /usr/lib32/wine/i386-windows/rasapi16.dll16
+* wine-devel /usr/lib32/wine/i386-windows/rasapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/rasdlg.dll
+* wine-devel /usr/lib32/wine/i386-windows/reg.exe
+* wine-devel /usr/lib32/wine/i386-windows/regapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/regasm.exe
+* wine-devel /usr/lib32/wine/i386-windows/regedit.exe
+* wine-devel /usr/lib32/wine/i386-windows/regini.exe
+* wine-devel /usr/lib32/wine/i386-windows/regsvcs.exe
+* wine-devel /usr/lib32/wine/i386-windows/regsvr32.exe
+* wine-devel /usr/lib32/wine/i386-windows/resutils.dll
+* wine-devel /usr/lib32/wine/i386-windows/riched20.dll
+* wine-devel /usr/lib32/wine/i386-windows/riched32.dll
+* wine-devel /usr/lib32/wine/i386-windows/robocopy.exe
+* wine-devel /usr/lib32/wine/i386-windows/rometadata.dll
+* wine-devel /usr/lib32/wine/i386-windows/rpcrt4.dll
+* wine-devel /usr/lib32/wine/i386-windows/rpcss.exe
+* wine-devel /usr/lib32/wine/i386-windows/rsabase.dll
+* wine-devel /usr/lib32/wine/i386-windows/rsaenh.dll
+* wine-devel /usr/lib32/wine/i386-windows/rstrtmgr.dll
+* wine-devel /usr/lib32/wine/i386-windows/rtutils.dll
+* wine-devel /usr/lib32/wine/i386-windows/rtworkq.dll
+* wine-devel /usr/lib32/wine/i386-windows/rundll.exe16
+* wine-devel /usr/lib32/wine/i386-windows/rundll32.exe
+* wine-devel /usr/lib32/wine/i386-windows/samlib.dll
+* wine-devel /usr/lib32/wine/i386-windows/sapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/sas.dll
+* wine-devel /usr/lib32/wine/i386-windows/sc.exe
+* wine-devel /usr/lib32/wine/i386-windows/scarddlg.dll
+* wine-devel /usr/lib32/wine/i386-windows/scardsvr.dll
+* wine-devel /usr/lib32/wine/i386-windows/sccbase.dll
+* wine-devel /usr/lib32/wine/i386-windows/schannel.dll
+* wine-devel /usr/lib32/wine/i386-windows/schedsvc.dll
+* wine-devel /usr/lib32/wine/i386-windows/schtasks.exe
+* wine-devel /usr/lib32/wine/i386-windows/scrobj.dll
+* wine-devel /usr/lib32/wine/i386-windows/scrrun.dll
+* wine-devel /usr/lib32/wine/i386-windows/scsiport.sys
+* wine-devel /usr/lib32/wine/i386-windows/sdbinst.exe
+* wine-devel /usr/lib32/wine/i386-windows/secedit.exe
+* wine-devel /usr/lib32/wine/i386-windows/sechost.dll
+* wine-devel /usr/lib32/wine/i386-windows/secur32.dll
+* wine-devel /usr/lib32/wine/i386-windows/security.dll
+* wine-devel /usr/lib32/wine/i386-windows/sensapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/serialui.dll
+* wine-devel /usr/lib32/wine/i386-windows/servicemodelreg.exe
+* wine-devel /usr/lib32/wine/i386-windows/services.exe
+* wine-devel /usr/lib32/wine/i386-windows/setupapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/setupx.dll16
+* wine-devel /usr/lib32/wine/i386-windows/setx.exe
+* wine-devel /usr/lib32/wine/i386-windows/sfc.dll
+* wine-devel /usr/lib32/wine/i386-windows/sfc_os.dll
+* wine-devel /usr/lib32/wine/i386-windows/shcore.dll
+* wine-devel /usr/lib32/wine/i386-windows/shdoclc.dll
+* wine-devel /usr/lib32/wine/i386-windows/shdocvw.dll
+* wine-devel /usr/lib32/wine/i386-windows/shell.dll16
+* wine-devel /usr/lib32/wine/i386-windows/shell32.dll
+* wine-devel /usr/lib32/wine/i386-windows/shfolder.dll
+* wine-devel /usr/lib32/wine/i386-windows/shlwapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/shutdown.exe
+* wine-devel /usr/lib32/wine/i386-windows/slbcsp.dll
+* wine-devel /usr/lib32/wine/i386-windows/slc.dll
+* wine-devel /usr/lib32/wine/i386-windows/snmpapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/softpub.dll
+* wine-devel /usr/lib32/wine/i386-windows/sound.drv16
+* wine-devel /usr/lib32/wine/i386-windows/spoolss.dll
+* wine-devel /usr/lib32/wine/i386-windows/spoolsv.exe
+* wine-devel /usr/lib32/wine/i386-windows/sppc.dll
+* wine-devel /usr/lib32/wine/i386-windows/srclient.dll
+* wine-devel /usr/lib32/wine/i386-windows/srvcli.dll
+* wine-devel /usr/lib32/wine/i386-windows/srvsvc.dll
+* wine-devel /usr/lib32/wine/i386-windows/sspicli.dll
+* wine-devel /usr/lib32/wine/i386-windows/start.exe
+* wine-devel /usr/lib32/wine/i386-windows/stdole2.tlb
+* wine-devel /usr/lib32/wine/i386-windows/stdole32.tlb
+* wine-devel /usr/lib32/wine/i386-windows/sti.dll
+* wine-devel /usr/lib32/wine/i386-windows/storage.dll16
+* wine-devel /usr/lib32/wine/i386-windows/stress.dll16
+* wine-devel /usr/lib32/wine/i386-windows/strmdll.dll
+* wine-devel /usr/lib32/wine/i386-windows/subst.exe
+* wine-devel /usr/lib32/wine/i386-windows/svchost.exe
+* wine-devel /usr/lib32/wine/i386-windows/svrapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/sxs.dll
+* wine-devel /usr/lib32/wine/i386-windows/system.drv16
+* wine-devel /usr/lib32/wine/i386-windows/systeminfo.exe
+* wine-devel /usr/lib32/wine/i386-windows/t2embed.dll
+* wine-devel /usr/lib32/wine/i386-windows/tapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/taskkill.exe
+* wine-devel /usr/lib32/wine/i386-windows/tasklist.exe
+* wine-devel /usr/lib32/wine/i386-windows/taskmgr.exe
+* wine-devel /usr/lib32/wine/i386-windows/taskschd.dll
+* wine-devel /usr/lib32/wine/i386-windows/tbs.dll
+* wine-devel /usr/lib32/wine/i386-windows/tdh.dll
+* wine-devel /usr/lib32/wine/i386-windows/tdi.sys
+* wine-devel /usr/lib32/wine/i386-windows/termsv.exe
+* wine-devel /usr/lib32/wine/i386-windows/threadpoolwinrt.dll
+* wine-devel /usr/lib32/wine/i386-windows/toolhelp.dll16
+* wine-devel /usr/lib32/wine/i386-windows/traffic.dll
+* wine-devel /usr/lib32/wine/i386-windows/twain.dll16
+* wine-devel /usr/lib32/wine/i386-windows/twain_32.dll
+* wine-devel /usr/lib32/wine/i386-windows/twinapi.appcore.dll
+* wine-devel /usr/lib32/wine/i386-windows/typelib.dll16
+* wine-devel /usr/lib32/wine/i386-windows/tzres.dll
+* wine-devel /usr/lib32/wine/i386-windows/ucrtbase.dll
+* wine-devel /usr/lib32/wine/i386-windows/uianimation.dll
+* wine-devel /usr/lib32/wine/i386-windows/uiautomationcore.dll
+* wine-devel /usr/lib32/wine/i386-windows/uiribbon.dll
+* wine-devel /usr/lib32/wine/i386-windows/unicows.dll
+* wine-devel /usr/lib32/wine/i386-windows/uninstaller.exe
+* wine-devel /usr/lib32/wine/i386-windows/unlodctr.exe
+* wine-devel /usr/lib32/wine/i386-windows/updspapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/url.dll
+* wine-devel /usr/lib32/wine/i386-windows/urlmon.dll
+* wine-devel /usr/lib32/wine/i386-windows/usbd.sys
+* wine-devel /usr/lib32/wine/i386-windows/user.exe16
+* wine-devel /usr/lib32/wine/i386-windows/user32.dll
+* wine-devel /usr/lib32/wine/i386-windows/userenv.dll
+* wine-devel /usr/lib32/wine/i386-windows/usp10.dll
+* wine-devel /usr/lib32/wine/i386-windows/utildll.dll
+* wine-devel /usr/lib32/wine/i386-windows/uxtheme.dll
+* wine-devel /usr/lib32/wine/i386-windows/vbscript.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcomp.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcomp100.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcomp110.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcomp120.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcomp140.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcomp90.dll
+* wine-devel /usr/lib32/wine/i386-windows/vcruntime140.dll
+* wine-devel /usr/lib32/wine/i386-windows/vdhcp.vxd
+* wine-devel /usr/lib32/wine/i386-windows/vdmdbg.dll
+* wine-devel /usr/lib32/wine/i386-windows/ver.dll16
+* wine-devel /usr/lib32/wine/i386-windows/version.dll
+* wine-devel /usr/lib32/wine/i386-windows/vga.dll
+* wine-devel /usr/lib32/wine/i386-windows/view.exe
+* wine-devel /usr/lib32/wine/i386-windows/virtdisk.dll
+* wine-devel /usr/lib32/wine/i386-windows/vmm.vxd
+* wine-devel /usr/lib32/wine/i386-windows/vnbt.vxd
+* wine-devel /usr/lib32/wine/i386-windows/vnetbios.vxd
+* wine-devel /usr/lib32/wine/i386-windows/vssapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/vtdapi.vxd
+* wine-devel /usr/lib32/wine/i386-windows/vulkan-1.dll
+* wine-devel /usr/lib32/wine/i386-windows/vwin32.vxd
+* wine-devel /usr/lib32/wine/i386-windows/w32skrnl.dll
+* wine-devel /usr/lib32/wine/i386-windows/w32sys.dll16
+* wine-devel /usr/lib32/wine/i386-windows/wbemdisp.dll
+* wine-devel /usr/lib32/wine/i386-windows/wbemprox.dll
+* wine-devel /usr/lib32/wine/i386-windows/wdscore.dll
+* wine-devel /usr/lib32/wine/i386-windows/webservices.dll
+* wine-devel /usr/lib32/wine/i386-windows/websocket.dll
+* wine-devel /usr/lib32/wine/i386-windows/wer.dll
+* wine-devel /usr/lib32/wine/i386-windows/wevtapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/wevtsvc.dll
+* wine-devel /usr/lib32/wine/i386-windows/wevtutil.exe
+* wine-devel /usr/lib32/wine/i386-windows/where.exe
+* wine-devel /usr/lib32/wine/i386-windows/whoami.exe
+* wine-devel /usr/lib32/wine/i386-windows/wiaservc.dll
+* wine-devel /usr/lib32/wine/i386-windows/wimgapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/win32s16.dll16
+* wine-devel /usr/lib32/wine/i386-windows/win32u.dll
+* wine-devel /usr/lib32/wine/i386-windows/win87em.dll16
+* wine-devel /usr/lib32/wine/i386-windows/winaspi.dll16
+* wine-devel /usr/lib32/wine/i386-windows/windebug.dll16
+* wine-devel /usr/lib32/wine/i386-windows/windows.applicationmodel.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.devices.bluetooth.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.devices.enumeration.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.devices.usb.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.gaming.input.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.gaming.ui.gamebar.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.globalization.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.media.devices.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.media.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.media.mediacontrol.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.media.speech.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.networking.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.networking.hostname.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.perception.stub.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.security.authentication.onlineid.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.security.credentials.ui.userconsentverifier.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.storage.applicationdata.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.system.profile.systemmanufacturers.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.ui.dll
+* wine-devel /usr/lib32/wine/i386-windows/windows.web.dll
+* wine-devel /usr/lib32/wine/i386-windows/windowscodecs.dll
+* wine-devel /usr/lib32/wine/i386-windows/windowscodecsext.dll
+* wine-devel /usr/lib32/wine/i386-windows/wineboot.exe
+* wine-devel /usr/lib32/wine/i386-windows/winebrowser.exe
+* wine-devel /usr/lib32/wine/i386-windows/winebus.sys
+* wine-devel /usr/lib32/wine/i386-windows/winecfg.exe
+* wine-devel /usr/lib32/wine/i386-windows/wineconsole.exe
+* wine-devel /usr/lib32/wine/i386-windows/wined3d.dll
+* wine-devel /usr/lib32/wine/i386-windows/winedbg.exe
+* wine-devel /usr/lib32/wine/i386-windows/winedevice.exe
+* wine-devel /usr/lib32/wine/i386-windows/winefile.exe
+* wine-devel /usr/lib32/wine/i386-windows/winehid.sys
+* wine-devel /usr/lib32/wine/i386-windows/winemapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/winemenubuilder.exe
+* wine-devel /usr/lib32/wine/i386-windows/winemine.exe
+* wine-devel /usr/lib32/wine/i386-windows/winemsibuilder.exe
+* wine-devel /usr/lib32/wine/i386-windows/winepath.exe
+* wine-devel /usr/lib32/wine/i386-windows/wineps.drv
+* wine-devel /usr/lib32/wine/i386-windows/wineps16.drv16
+* wine-devel /usr/lib32/wine/i386-windows/winevdm.exe
+* wine-devel /usr/lib32/wine/i386-windows/winevulkan.dll
+* wine-devel /usr/lib32/wine/i386-windows/winex11.drv
+* wine-devel /usr/lib32/wine/i386-windows/winexinput.sys
+* wine-devel /usr/lib32/wine/i386-windows/wing.dll16
+* wine-devel /usr/lib32/wine/i386-windows/wing32.dll
+* wine-devel /usr/lib32/wine/i386-windows/winhelp.exe16
+* wine-devel /usr/lib32/wine/i386-windows/winhlp32.exe
+* wine-devel /usr/lib32/wine/i386-windows/winhttp.dll
+* wine-devel /usr/lib32/wine/i386-windows/wininet.dll
+* wine-devel /usr/lib32/wine/i386-windows/winmgmt.exe
+* wine-devel /usr/lib32/wine/i386-windows/winmm.dll
+* wine-devel /usr/lib32/wine/i386-windows/winnls.dll16
+* wine-devel /usr/lib32/wine/i386-windows/winnls32.dll
+* wine-devel /usr/lib32/wine/i386-windows/winoldap.mod16
+* wine-devel /usr/lib32/wine/i386-windows/winprint.dll
+* wine-devel /usr/lib32/wine/i386-windows/winsock.dll16
+* wine-devel /usr/lib32/wine/i386-windows/winspool.drv
+* wine-devel /usr/lib32/wine/i386-windows/winsta.dll
+* wine-devel /usr/lib32/wine/i386-windows/wintab.dll16
+* wine-devel /usr/lib32/wine/i386-windows/wintab32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wintrust.dll
+* wine-devel /usr/lib32/wine/i386-windows/wintypes.dll
+* wine-devel /usr/lib32/wine/i386-windows/winusb.dll
+* wine-devel /usr/lib32/wine/i386-windows/winver.exe
+* wine-devel /usr/lib32/wine/i386-windows/wlanapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/wlanui.dll
+* wine-devel /usr/lib32/wine/i386-windows/wldap32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wldp.dll
+* wine-devel /usr/lib32/wine/i386-windows/wmasf.dll
+* wine-devel /usr/lib32/wine/i386-windows/wmi.dll
+* wine-devel /usr/lib32/wine/i386-windows/wmic.exe
+* wine-devel /usr/lib32/wine/i386-windows/wmiutils.dll
+* wine-devel /usr/lib32/wine/i386-windows/wmp.dll
+* wine-devel /usr/lib32/wine/i386-windows/wmphoto.dll
+* wine-devel /usr/lib32/wine/i386-windows/wmplayer.exe
+* wine-devel /usr/lib32/wine/i386-windows/wmvcore.dll
+* wine-devel /usr/lib32/wine/i386-windows/wnaspi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wofutil.dll
+* wine-devel /usr/lib32/wine/i386-windows/wordpad.exe
+* wine-devel /usr/lib32/wine/i386-windows/wow32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wpc.dll
+* wine-devel /usr/lib32/wine/i386-windows/write.exe
+* wine-devel /usr/lib32/wine/i386-windows/ws2_32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wscript.exe
+* wine-devel /usr/lib32/wine/i386-windows/wsdapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/wshom.ocx
+* wine-devel /usr/lib32/wine/i386-windows/wsnmp32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wsock32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wtsapi32.dll
+* wine-devel /usr/lib32/wine/i386-windows/wuapi.dll
+* wine-devel /usr/lib32/wine/i386-windows/wuaueng.dll
+* wine-devel /usr/lib32/wine/i386-windows/wuauserv.exe
+* wine-devel /usr/lib32/wine/i386-windows/wusa.exe
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_0.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_2.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_3.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_4.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_5.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_6.dll
+* wine-devel /usr/lib32/wine/i386-windows/x3daudio1_7.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine2_0.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine2_4.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine2_7.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine2_9.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_0.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_2.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_3.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_4.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_5.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_6.dll
+* wine-devel /usr/lib32/wine/i386-windows/xactengine3_7.dll
+* wine-devel /usr/lib32/wine/i386-windows/xapofx1_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/xapofx1_2.dll
+* wine-devel /usr/lib32/wine/i386-windows/xapofx1_3.dll
+* wine-devel /usr/lib32/wine/i386-windows/xapofx1_4.dll
+* wine-devel /usr/lib32/wine/i386-windows/xapofx1_5.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_0.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_2.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_3.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_4.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_5.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_6.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_7.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_8.dll
+* wine-devel /usr/lib32/wine/i386-windows/xaudio2_9.dll
+* wine-devel /usr/lib32/wine/i386-windows/xcopy.exe
+* wine-devel /usr/lib32/wine/i386-windows/xinput1_1.dll
+* wine-devel /usr/lib32/wine/i386-windows/xinput1_2.dll
+* wine-devel /usr/lib32/wine/i386-windows/xinput1_3.dll
+* wine-devel /usr/lib32/wine/i386-windows/xinput1_4.dll
+* wine-devel /usr/lib32/wine/i386-windows/xinput9_1_0.dll
+* wine-devel /usr/lib32/wine/i386-windows/xinputuap.dll
+* wine-devel /usr/lib32/wine/i386-windows/xmllite.dll
+* wine-devel /usr/lib32/wine/i386-windows/xolehlp.dll
+* wine-devel /usr/lib32/wine/i386-windows/xpsprint.dll
+* wine-devel /usr/lib32/wine/i386-windows/xpssvcs.dll
+* wine-devel /usr/share/applications/wine.desktop
+* wine-devel /usr/share/doc/wine-devel-9.16/AUTHORS
+* wine-devel /usr/share/doc/wine-devel-9.16/COPYING.LIB
+* wine-devel /usr/share/doc/wine-devel-9.16/LICENSE
+* wine-devel /usr/share/doc/wine-devel-9.16/README.md
+* wine-devel /usr/share/doc/wine-devel-9.16/VERSION
+* wine-devel /usr/share/man/de.UTF-8/man1/wine.1.gz
+* wine-devel /usr/share/man/de.UTF-8/man1/winemaker.1.gz
+* wine-devel /usr/share/man/de.UTF-8/man1/wineserver.1.gz
+* wine-devel /usr/share/man/fr.UTF-8/man1/wine.1.gz
+* wine-devel /usr/share/man/fr.UTF-8/man1/winemaker.1.gz
+* wine-devel /usr/share/man/fr.UTF-8/man1/wineserver.1.gz
+* wine-devel /usr/share/man/man1/msiexec.1.gz
+* wine-devel /usr/share/man/man1/notepad.1.gz
+* wine-devel /usr/share/man/man1/regedit.1.gz
+* wine-devel /usr/share/man/man1/regsvr32.1.gz
+* wine-devel /usr/share/man/man1/widl.1.gz
+* wine-devel /usr/share/man/man1/wine.1.gz
+* wine-devel /usr/share/man/man1/wineboot.1.gz
+* wine-devel /usr/share/man/man1/winebuild.1.gz
+* wine-devel /usr/share/man/man1/winecfg.1.gz
+* wine-devel /usr/share/man/man1/wineconsole.1.gz
+* wine-devel /usr/share/man/man1/winecpp.1.gz
+* wine-devel /usr/share/man/man1/winedbg.1.gz
+* wine-devel /usr/share/man/man1/winedump.1.gz
+* wine-devel /usr/share/man/man1/winefile.1.gz
+* wine-devel /usr/share/man/man1/wineg++.1.gz
+* wine-devel /usr/share/man/man1/winegcc.1.gz
+* wine-devel /usr/share/man/man1/winemaker.1.gz
+* wine-devel /usr/share/man/man1/winemine.1.gz
+* wine-devel /usr/share/man/man1/winepath.1.gz
+* wine-devel /usr/share/man/man1/wineserver.1.gz
+* wine-devel /usr/share/man/man1/wmc.1.gz
+* wine-devel /usr/share/man/man1/wrc.1.gz
+* wine-devel /usr/share/man/pl.UTF-8/man1/wine.1.gz
+* wine-devel /usr/share/wine/fonts/coue1255.fon
+* wine-devel /usr/share/wine/fonts/coue1256.fon
+* wine-devel /usr/share/wine/fonts/coue1257.fon
+* wine-devel /usr/share/wine/fonts/coure.fon
+* wine-devel /usr/share/wine/fonts/couree.fon
+* wine-devel /usr/share/wine/fonts/coureg.fon
+* wine-devel /usr/share/wine/fonts/courer.fon
+* wine-devel /usr/share/wine/fonts/couret.fon
+* wine-devel /usr/share/wine/fonts/cvgasys.fon
+* wine-devel /usr/share/wine/fonts/hvgasys.fon
+* wine-devel /usr/share/wine/fonts/jsmalle.fon
+* wine-devel /usr/share/wine/fonts/jvgafix.fon
+* wine-devel /usr/share/wine/fonts/jvgasys.fon
+* wine-devel /usr/share/wine/fonts/marlett.ttf
+* wine-devel /usr/share/wine/fonts/smae1255.fon
+* wine-devel /usr/share/wine/fonts/smae1256.fon
+* wine-devel /usr/share/wine/fonts/smae1257.fon
+* wine-devel /usr/share/wine/fonts/smalle.fon
+* wine-devel /usr/share/wine/fonts/smallee.fon
+* wine-devel /usr/share/wine/fonts/smalleg.fon
+* wine-devel /usr/share/wine/fonts/smaller.fon
+* wine-devel /usr/share/wine/fonts/smallet.fon
+* wine-devel /usr/share/wine/fonts/ssee1255.fon
+* wine-devel /usr/share/wine/fonts/ssee1256.fon
+* wine-devel /usr/share/wine/fonts/ssee1257.fon
+* wine-devel /usr/share/wine/fonts/ssee874.fon
+* wine-devel /usr/share/wine/fonts/ssef1255.fon
+* wine-devel /usr/share/wine/fonts/ssef1256.fon
+* wine-devel /usr/share/wine/fonts/ssef1257.fon
+* wine-devel /usr/share/wine/fonts/ssef874.fon
+* wine-devel /usr/share/wine/fonts/sserife.fon
+* wine-devel /usr/share/wine/fonts/sserifee.fon
+* wine-devel /usr/share/wine/fonts/sserifeg.fon
+* wine-devel /usr/share/wine/fonts/sserifer.fon
+* wine-devel /usr/share/wine/fonts/sserifet.fon
+* wine-devel /usr/share/wine/fonts/sseriff.fon
+* wine-devel /usr/share/wine/fonts/sseriffe.fon
+* wine-devel /usr/share/wine/fonts/sseriffg.fon
+* wine-devel /usr/share/wine/fonts/sseriffr.fon
+* wine-devel /usr/share/wine/fonts/sserifft.fon
+* wine-devel /usr/share/wine/fonts/svgasys.fon
+* wine-devel /usr/share/wine/fonts/symbol.ttf
+* wine-devel /usr/share/wine/fonts/tahoma.ttf
+* wine-devel /usr/share/wine/fonts/tahomabd.ttf
+* wine-devel /usr/share/wine/fonts/vgafix.fon
+* wine-devel /usr/share/wine/fonts/vgas1255.fon
+* wine-devel /usr/share/wine/fonts/vgas1256.fon
+* wine-devel /usr/share/wine/fonts/vgas1257.fon
+* wine-devel /usr/share/wine/fonts/vgas874.fon
+* wine-devel /usr/share/wine/fonts/vgasys.fon
+* wine-devel /usr/share/wine/fonts/vgasyse.fon
+* wine-devel /usr/share/wine/fonts/vgasysg.fon
+* wine-devel /usr/share/wine/fonts/vgasysr.fon
+* wine-devel /usr/share/wine/fonts/vgasyst.fon
+* wine-devel /usr/share/wine/fonts/webdings.ttf
+* wine-devel /usr/share/wine/fonts/wingding.ttf
+* wine-devel /usr/share/wine/nls/c_037.nls
+* wine-devel /usr/share/wine/nls/c_10000.nls
+* wine-devel /usr/share/wine/nls/c_10001.nls
+* wine-devel /usr/share/wine/nls/c_10002.nls
+* wine-devel /usr/share/wine/nls/c_10003.nls
+* wine-devel /usr/share/wine/nls/c_10004.nls
+* wine-devel /usr/share/wine/nls/c_10005.nls
+* wine-devel /usr/share/wine/nls/c_10006.nls
+* wine-devel /usr/share/wine/nls/c_10007.nls
+* wine-devel /usr/share/wine/nls/c_10008.nls
+* wine-devel /usr/share/wine/nls/c_10010.nls
+* wine-devel /usr/share/wine/nls/c_10017.nls
+* wine-devel /usr/share/wine/nls/c_10021.nls
+* wine-devel /usr/share/wine/nls/c_10029.nls
+* wine-devel /usr/share/wine/nls/c_10079.nls
+* wine-devel /usr/share/wine/nls/c_10081.nls
+* wine-devel /usr/share/wine/nls/c_10082.nls
+* wine-devel /usr/share/wine/nls/c_1026.nls
+* wine-devel /usr/share/wine/nls/c_1250.nls
+* wine-devel /usr/share/wine/nls/c_1251.nls
+* wine-devel /usr/share/wine/nls/c_1252.nls
+* wine-devel /usr/share/wine/nls/c_1253.nls
+* wine-devel /usr/share/wine/nls/c_1254.nls
+* wine-devel /usr/share/wine/nls/c_1255.nls
+* wine-devel /usr/share/wine/nls/c_1256.nls
+* wine-devel /usr/share/wine/nls/c_1257.nls
+* wine-devel /usr/share/wine/nls/c_1258.nls
+* wine-devel /usr/share/wine/nls/c_1361.nls
+* wine-devel /usr/share/wine/nls/c_20127.nls
+* wine-devel /usr/share/wine/nls/c_20866.nls
+* wine-devel /usr/share/wine/nls/c_20932.nls
+* wine-devel /usr/share/wine/nls/c_20949.nls
+* wine-devel /usr/share/wine/nls/c_21866.nls
+* wine-devel /usr/share/wine/nls/c_28591.nls
+* wine-devel /usr/share/wine/nls/c_28592.nls
+* wine-devel /usr/share/wine/nls/c_28593.nls
+* wine-devel /usr/share/wine/nls/c_28594.nls
+* wine-devel /usr/share/wine/nls/c_28595.nls
+* wine-devel /usr/share/wine/nls/c_28596.nls
+* wine-devel /usr/share/wine/nls/c_28597.nls
+* wine-devel /usr/share/wine/nls/c_28598.nls
+* wine-devel /usr/share/wine/nls/c_28599.nls
+* wine-devel /usr/share/wine/nls/c_28603.nls
+* wine-devel /usr/share/wine/nls/c_28605.nls
+* wine-devel /usr/share/wine/nls/c_437.nls
+* wine-devel /usr/share/wine/nls/c_500.nls
+* wine-devel /usr/share/wine/nls/c_708.nls
+* wine-devel /usr/share/wine/nls/c_720.nls
+* wine-devel /usr/share/wine/nls/c_737.nls
+* wine-devel /usr/share/wine/nls/c_775.nls
+* wine-devel /usr/share/wine/nls/c_850.nls
+* wine-devel /usr/share/wine/nls/c_852.nls
+* wine-devel /usr/share/wine/nls/c_855.nls
+* wine-devel /usr/share/wine/nls/c_857.nls
+* wine-devel /usr/share/wine/nls/c_860.nls
+* wine-devel /usr/share/wine/nls/c_861.nls
+* wine-devel /usr/share/wine/nls/c_862.nls
+* wine-devel /usr/share/wine/nls/c_863.nls
+* wine-devel /usr/share/wine/nls/c_864.nls
+* wine-devel /usr/share/wine/nls/c_865.nls
+* wine-devel /usr/share/wine/nls/c_866.nls
+* wine-devel /usr/share/wine/nls/c_869.nls
+* wine-devel /usr/share/wine/nls/c_874.nls
+* wine-devel /usr/share/wine/nls/c_875.nls
+* wine-devel /usr/share/wine/nls/c_932.nls
+* wine-devel /usr/share/wine/nls/c_936.nls
+* wine-devel /usr/share/wine/nls/c_949.nls
+* wine-devel /usr/share/wine/nls/c_950.nls
+* wine-devel /usr/share/wine/nls/locale.nls
+* wine-devel /usr/share/wine/nls/l_intl.nls
+* wine-devel /usr/share/wine/nls/normidna.nls
+* wine-devel /usr/share/wine/nls/normnfc.nls
+* wine-devel /usr/share/wine/nls/normnfd.nls
+* wine-devel /usr/share/wine/nls/normnfkc.nls
+* wine-devel /usr/share/wine/nls/normnfkd.nls
+* wine-devel /usr/share/wine/nls/sortdefault.nls
+* wine-devel /usr/share/wine/wine.inf

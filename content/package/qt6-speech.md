@@ -12,7 +12,7 @@ size = "89528"
 usize = "410343"
 sha1sum = "21afb2347a3a8e265fc8f804cecdee4aa9c84ec7"
 depends = "['qt6-declarative', 'qt6-multimedia', 'speech-dispatcher']"
-reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets', 'okular']"
+reverse_depends = "['./konqueror', './kpimtextedit', './okular', 'kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets', 'okular']"
 +++
 ### Description: 
 The Qt6 toolkit, qtspeech

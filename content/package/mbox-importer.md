@@ -12,7 +12,7 @@ size = "29032"
 usize = "124597"
 sha1sum = "22ad8e05f4ceef4136a5378a6ab66f8abf6dc5e7"
 depends = "['mailcommon>=24.05.2']"
-reverse_depends = "['kmail']"
+reverse_depends = "['./kmail', 'kmail']"
 +++
 ### Description: 
 Wizard to assist with importing MBox email archives into Akonadi

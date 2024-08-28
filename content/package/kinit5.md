@@ -12,7 +12,7 @@ size = "114836"
 usize = "507142"
 sha1sum = "355039d8f6bb7e5f7d1dae4cc0801a14ee5347e6"
 depends = "['kio5>=5.116.0']"
-reverse_depends = "['cervisia', 'kded5']"
+reverse_depends = "['./cervisia', 'cervisia', 'kded5']"
 +++
 ### Description: 
 KInit.

@@ -12,7 +12,7 @@ size = "385992"
 usize = "1408321"
 sha1sum = "05464a2a8ef450267464c6665a59f1dd4054dce6"
 depends = "['glibc', 'libev', 'libuv', 'openssl>=3.1.0', 'zlib']"
-reverse_depends = "['seafile']"
+reverse_depends = "['./seafile', 'seafile']"
 +++
 ### Description: 
 C library for websocket clients and servers

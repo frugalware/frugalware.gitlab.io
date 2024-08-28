@@ -12,7 +12,7 @@ size = "631920"
 usize = "698228"
 sha1sum = "f83da67cef9e8a7cb86b39a48092e30b987b0f2b"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Hebrew language support for Thunderbird

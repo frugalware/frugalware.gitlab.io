@@ -12,7 +12,7 @@ size = "376100"
 usize = "1894463"
 sha1sum = "45646e595702480707c1e3ef7d9c69f6c84c3525"
 depends = "['libuuid>=2.40.2', 'libxmu>=1.1.2-3', 'libxpm>=3.5.11-3']"
-reverse_depends = "['bitmap', 'editres', 'graphviz', 'libotf', 'libreoffice', 'listres', 'm17n-lib', 'ngspice', 'ogre', 't1lib', 'viewres', 'xbiff', 'xcalc', 'xclipboard', 'xclock', 'xconsole', 'xditview', 'xdm', 'xedit', 'xfd', 'xfontsel', 'xgc', 'xkbutils', 'xload', 'xlogo', 'xmag', 'xman', 'xmessage', 'xmh', 'xmore', 'xsm', 'xterm', 'xvidtune']"
+reverse_depends = "['./xclipboard', 'bitmap', 'editres', 'graphviz', 'libotf', 'libreoffice', 'listres', 'm17n-lib', 'ngspice', 'ogre', 't1lib', 'viewres', 'xbiff', 'xcalc', 'xclipboard', 'xclock', 'xconsole', 'xditview', 'xdm', 'xedit', 'xfd', 'xfontsel', 'xgc', 'xkbutils', 'xload', 'xlogo', 'xmag', 'xman', 'xmessage', 'xmh', 'xmore', 'xsm', 'xterm', 'xvidtune']"
 license = "GPL2"
 +++
 ### Description: 

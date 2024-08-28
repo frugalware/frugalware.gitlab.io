@@ -12,7 +12,7 @@ size = "75420"
 usize = "414718"
 sha1sum = "f8db626d410934f5325d9c4830409406825d450a"
 depends = "['python3-markdown-it-py']"
-reverse_depends = "['python3-myst-parser']"
+reverse_depends = "['./python3-myst-parser', 'python3-myst-parser']"
 +++
 ### Description: 
 Collection of core plugins for markdown-it-py

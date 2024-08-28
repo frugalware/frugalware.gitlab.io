@@ -1,246 +1,246 @@
 +++
 draft = false
-title = "python3-pytest 8.2.2-1"
-version = "8.2.2-1"
+title = "./python3-pytest 8.3.2-1"
+version = "8.3.2-1"
 description = "Simple powerful testing with Python"
-date = "2024-06-25T13:15:54"
-aliases = "/packages/221194"
+date = "2024-08-26T09:41:45"
+aliases = "/packages/222405"
 categories = ['devel-extra']
 upstreamurl = "https://pytest.org/"
 arch = "x86_64"
-size = "658904"
-usize = "4114972"
-sha1sum = "e55163478599d50454f8890c3ba55408f363b303"
+size = "649160"
+usize = "4096207"
+sha1sum = "933aba8990000a3f8eb46113988404aac6ab5e97"
 depends = "['python3-iniconfig', 'python3-packaging', 'python3-pluggy']"
 +++
 ### Description: 
 Simple powerful testing with Python
 
 ### Files: 
-* /usr/bin/py.test
-* /usr/bin/pytest
-* /usr/lib/python3.12/site-packages/py.py
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/AUTHORS
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/pytest-8.2.2.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/pytest/py.typed
-* /usr/lib/python3.12/site-packages/pytest/__init__.py
-* /usr/lib/python3.12/site-packages/pytest/__main__.py
-* /usr/lib/python3.12/site-packages/pytest/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/pytest/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pytest/__pycache__/__main__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/pytest/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/rewrite.py
-* /usr/lib/python3.12/site-packages/_pytest/assertion/truncate.py
-* /usr/lib/python3.12/site-packages/_pytest/assertion/util.py
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/truncate.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/truncate.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/util.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/util.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/cacheprovider.py
-* /usr/lib/python3.12/site-packages/_pytest/capture.py
-* /usr/lib/python3.12/site-packages/_pytest/compat.py
-* /usr/lib/python3.12/site-packages/_pytest/config/argparsing.py
-* /usr/lib/python3.12/site-packages/_pytest/config/compat.py
-* /usr/lib/python3.12/site-packages/_pytest/config/exceptions.py
-* /usr/lib/python3.12/site-packages/_pytest/config/findpaths.py
-* /usr/lib/python3.12/site-packages/_pytest/config/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/argparsing.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/argparsing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/compat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/exceptions.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/exceptions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/findpaths.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/findpaths.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/debugging.py
-* /usr/lib/python3.12/site-packages/_pytest/deprecated.py
-* /usr/lib/python3.12/site-packages/_pytest/doctest.py
-* /usr/lib/python3.12/site-packages/_pytest/faulthandler.py
-* /usr/lib/python3.12/site-packages/_pytest/fixtures.py
-* /usr/lib/python3.12/site-packages/_pytest/freeze_support.py
-* /usr/lib/python3.12/site-packages/_pytest/helpconfig.py
-* /usr/lib/python3.12/site-packages/_pytest/hookspec.py
-* /usr/lib/python3.12/site-packages/_pytest/junitxml.py
-* /usr/lib/python3.12/site-packages/_pytest/legacypath.py
-* /usr/lib/python3.12/site-packages/_pytest/logging.py
-* /usr/lib/python3.12/site-packages/_pytest/main.py
-* /usr/lib/python3.12/site-packages/_pytest/mark/expression.py
-* /usr/lib/python3.12/site-packages/_pytest/mark/structures.py
-* /usr/lib/python3.12/site-packages/_pytest/mark/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/expression.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/expression.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/structures.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/structures.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/monkeypatch.py
-* /usr/lib/python3.12/site-packages/_pytest/nodes.py
-* /usr/lib/python3.12/site-packages/_pytest/outcomes.py
-* /usr/lib/python3.12/site-packages/_pytest/pastebin.py
-* /usr/lib/python3.12/site-packages/_pytest/pathlib.py
-* /usr/lib/python3.12/site-packages/_pytest/py.typed
-* /usr/lib/python3.12/site-packages/_pytest/pytester.py
-* /usr/lib/python3.12/site-packages/_pytest/pytester_assertions.py
-* /usr/lib/python3.12/site-packages/_pytest/python.py
-* /usr/lib/python3.12/site-packages/_pytest/python_api.py
-* /usr/lib/python3.12/site-packages/_pytest/python_path.py
-* /usr/lib/python3.12/site-packages/_pytest/recwarn.py
-* /usr/lib/python3.12/site-packages/_pytest/reports.py
-* /usr/lib/python3.12/site-packages/_pytest/runner.py
-* /usr/lib/python3.12/site-packages/_pytest/scope.py
-* /usr/lib/python3.12/site-packages/_pytest/setuponly.py
-* /usr/lib/python3.12/site-packages/_pytest/setupplan.py
-* /usr/lib/python3.12/site-packages/_pytest/skipping.py
-* /usr/lib/python3.12/site-packages/_pytest/stash.py
-* /usr/lib/python3.12/site-packages/_pytest/stepwise.py
-* /usr/lib/python3.12/site-packages/_pytest/terminal.py
-* /usr/lib/python3.12/site-packages/_pytest/threadexception.py
-* /usr/lib/python3.12/site-packages/_pytest/timing.py
-* /usr/lib/python3.12/site-packages/_pytest/tmpdir.py
-* /usr/lib/python3.12/site-packages/_pytest/unittest.py
-* /usr/lib/python3.12/site-packages/_pytest/unraisableexception.py
-* /usr/lib/python3.12/site-packages/_pytest/warnings.py
-* /usr/lib/python3.12/site-packages/_pytest/warning_types.py
-* /usr/lib/python3.12/site-packages/_pytest/_argcomplete.py
-* /usr/lib/python3.12/site-packages/_pytest/_code/code.py
-* /usr/lib/python3.12/site-packages/_pytest/_code/source.py
-* /usr/lib/python3.12/site-packages/_pytest/_code/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/code.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/code.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/source.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/source.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/pprint.py
-* /usr/lib/python3.12/site-packages/_pytest/_io/saferepr.py
-* /usr/lib/python3.12/site-packages/_pytest/_io/terminalwriter.py
-* /usr/lib/python3.12/site-packages/_pytest/_io/wcwidth.py
-* /usr/lib/python3.12/site-packages/_pytest/_io/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/pprint.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/pprint.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/saferepr.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/saferepr.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_py/error.py
-* /usr/lib/python3.12/site-packages/_pytest/_py/path.py
-* /usr/lib/python3.12/site-packages/_pytest/_py/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/error.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/error.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/path.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/path.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/_version.py
-* /usr/lib/python3.12/site-packages/_pytest/__init__.py
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/cacheprovider.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/cacheprovider.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/capture.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/capture.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/compat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/compat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/debugging.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/debugging.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/deprecated.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/deprecated.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/doctest.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/doctest.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/faulthandler.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/faulthandler.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/fixtures.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/fixtures.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/freeze_support.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/freeze_support.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/helpconfig.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/helpconfig.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/hookspec.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/hookspec.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/junitxml.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/junitxml.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/legacypath.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/legacypath.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/logging.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/logging.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/main.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/main.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/monkeypatch.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/monkeypatch.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/nodes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/nodes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/outcomes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/outcomes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pastebin.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pastebin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pathlib.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pathlib.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester_assertions.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester_assertions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/python.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/python.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_api.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_api.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_path.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_path.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/recwarn.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/recwarn.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/reports.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/reports.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/runner.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/runner.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/scope.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/scope.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/setuponly.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/setuponly.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/setupplan.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/setupplan.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/skipping.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/skipping.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/stash.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/stash.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/stepwise.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/stepwise.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/terminal.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/terminal.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/threadexception.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/threadexception.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/timing.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/timing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/tmpdir.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/tmpdir.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/unittest.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/unittest.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/unraisableexception.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/unraisableexception.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/warnings.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/warnings.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/warning_types.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/warning_types.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/_argcomplete.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/_argcomplete.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/_version.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/_version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/_pytest/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/__pycache__/py.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/__pycache__/py.cpython-312.pyc
-* /usr/share/doc/python3-pytest-8.2.2/AUTHORS
-* /usr/share/doc/python3-pytest-8.2.2/LICENSE
-* /usr/share/doc/python3-pytest-8.2.2/README.rst
+* python3-pytest /usr/bin/py.test
+* python3-pytest /usr/bin/pytest
+* python3-pytest /usr/lib/python3.12/site-packages/py.py
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/AUTHORS
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/entry_points.txt
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/LICENSE
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/METADATA
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/RECORD
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/top_level.txt
+* python3-pytest /usr/lib/python3.12/site-packages/pytest-8.3.2.dist-info/WHEEL
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/py.typed
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/__main__.py
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/__pycache__/__main__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/pytest/__pycache__/__main__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/rewrite.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/truncate.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/util.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/truncate.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/truncate.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/util.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/util.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/assertion/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/cacheprovider.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/capture.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/compat.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/argparsing.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/compat.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/exceptions.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/findpaths.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/argparsing.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/argparsing.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/compat.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/compat.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/exceptions.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/exceptions.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/findpaths.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/findpaths.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/config/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/debugging.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/deprecated.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/doctest.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/faulthandler.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/fixtures.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/freeze_support.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/helpconfig.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/hookspec.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/junitxml.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/legacypath.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/logging.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/main.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/expression.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/structures.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/expression.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/expression.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/structures.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/structures.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/mark/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/monkeypatch.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/nodes.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/outcomes.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/pastebin.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/pathlib.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/py.typed
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/pytester.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/pytester_assertions.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/python.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/python_api.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/python_path.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/recwarn.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/reports.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/runner.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/scope.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/setuponly.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/setupplan.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/skipping.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/stash.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/stepwise.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/terminal.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/threadexception.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/timing.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/tmpdir.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/unittest.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/unraisableexception.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/warnings.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/warning_types.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_argcomplete.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/code.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/source.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/code.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/code.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/source.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/source.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_code/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/pprint.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/saferepr.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/terminalwriter.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/wcwidth.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/pprint.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/pprint.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/saferepr.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/saferepr.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_io/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/error.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/path.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/error.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/error.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/path.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/path.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_py/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/_version.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__init__.py
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/cacheprovider.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/cacheprovider.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/capture.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/capture.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/compat.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/compat.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/debugging.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/debugging.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/deprecated.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/deprecated.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/doctest.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/doctest.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/faulthandler.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/faulthandler.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/fixtures.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/fixtures.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/freeze_support.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/freeze_support.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/helpconfig.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/helpconfig.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/hookspec.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/hookspec.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/junitxml.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/junitxml.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/legacypath.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/legacypath.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/logging.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/logging.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/main.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/main.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/monkeypatch.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/monkeypatch.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/nodes.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/nodes.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/outcomes.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/outcomes.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pastebin.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pastebin.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pathlib.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pathlib.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester_assertions.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/pytester_assertions.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/python.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/python.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_api.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_api.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_path.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/python_path.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/recwarn.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/recwarn.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/reports.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/reports.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/runner.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/runner.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/scope.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/scope.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/setuponly.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/setuponly.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/setupplan.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/setupplan.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/skipping.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/skipping.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/stash.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/stash.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/stepwise.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/stepwise.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/terminal.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/terminal.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/threadexception.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/threadexception.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/timing.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/timing.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/tmpdir.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/tmpdir.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/unittest.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/unittest.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/unraisableexception.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/unraisableexception.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/warnings.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/warnings.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/warning_types.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/warning_types.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/_argcomplete.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/_argcomplete.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/_version.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/_version.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/_pytest/__pycache__/__init__.cpython-312.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/__pycache__/py.cpython-312.opt-1.pyc
+* python3-pytest /usr/lib/python3.12/site-packages/__pycache__/py.cpython-312.pyc
+* python3-pytest /usr/share/doc/python3-pytest-8.3.2/AUTHORS
+* python3-pytest /usr/share/doc/python3-pytest-8.3.2/LICENSE
+* python3-pytest /usr/share/doc/python3-pytest-8.3.2/README.rst

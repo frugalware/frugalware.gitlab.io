@@ -12,7 +12,7 @@ size = "1185928"
 usize = "8490735"
 sha1sum = "9102ed62839e022672ab98b34f65af3d062c0398"
 depends = "['glibc']"
-reverse_depends = "['pnpm']"
+reverse_depends = "['./pnpm', 'pnpm']"
 +++
 ### Description: 
 Node.js native addon build tool

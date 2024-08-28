@@ -12,7 +12,7 @@ size = "103940"
 usize = "383741"
 sha1sum = "3858a396582bedc09ea905e96c698f0f9d51cd73"
 depends = "['kholidays', 'ki18n', 'qt6-declarative']"
-reverse_depends = "['kosmindoormap']"
+reverse_depends = "['./kosmindoormap', 'kosmindoormap']"
 +++
 ### Description: 
 Library for parsing and evaluating OSM opening hours expressions

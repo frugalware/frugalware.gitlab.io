@@ -12,7 +12,7 @@ size = "7432"
 usize = "17640"
 sha1sum = "12b5cbd531b7a908f976a6b669abcae59e44c1ea"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3', 'lib32-libxfixes>=5.0.2-2']"
-reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'lib32-gtk+2-libs', 'wine', 'wine-devel']"
 +++
 ### Description: 
 X.Org XComposite library ( 32bit )

@@ -12,7 +12,7 @@ size = "348400"
 usize = "1496904"
 sha1sum = "c045c68a39a61ef8166bfdee149b39b868e2ab19"
 depends = "['python3>=3.12']"
-reverse_depends = "['picard', 'yt-dlp']"
+reverse_depends = "['./picard', './yt-dlp', 'picard', 'yt-dlp']"
 +++
 ### Description: 
 Mutagen is an audio metadata tag reader and writer.

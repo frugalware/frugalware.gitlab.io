@@ -12,7 +12,7 @@ size = "21660"
 usize = "69979"
 sha1sum = "d9088aef575d7ec6a4bf1e3e8904ae882222c859"
 depends = "['libxtst']"
-reverse_depends = "['kdeconnect-kde']"
+reverse_depends = "['./kdeconnect-kde', 'kdeconnect-kde']"
 +++
 ### Description: 
 Library for simulating key press events under X11

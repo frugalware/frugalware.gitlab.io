@@ -12,7 +12,7 @@ size = "165384"
 usize = "464756"
 sha1sum = "3bcbb29e0a0d4535b1ed1b01d94e8f55b5e7210d"
 depends = "['lib32-libtool', 'lib32-openssl>=3.0.7']"
-reverse_depends = "['wine', 'wine-devel']"
+reverse_depends = "['./wine-devel', 'wine', 'wine-devel']"
 +++
 ### Description: 
 OpenLDAP library ( 32bit )

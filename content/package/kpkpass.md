@@ -1,42 +1,41 @@
 +++
 draft = false
-title = "kpkpass 24.05.2-1"
-version = "24.05.2-1"
+title = "./kpkpass 24.08.0-1"
+version = "24.08.0-1"
 description = "Apple Wallet Pass reader"
-date = "2024-07-05T12:05:25"
-aliases = "/packages/219724"
+date = "2024-08-22T17:30:33"
+aliases = "/packages/222485"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "45984"
-usize = "162260"
-sha1sum = "1317456ab18e3bcb7e3ee6295a5b22e5421ca2a6"
-depends = "['karchive>=6.3.0', 'shared-mime-info']"
-reverse_depends = "['itinerary', 'kitinerary']"
+size = "45864"
+usize = "162938"
+sha1sum = "589be7a15eadebd9e9952b42ffe61260d0620392"
+depends = "['karchive>=6.5.0', 'shared-mime-info']"
 +++
 ### Description: 
 Apple Wallet Pass reader
 
 ### Files: 
-* /usr/include/KPim6/KPkPass/Barcode
-* /usr/include/KPim6/KPkPass/barcode.h
-* /usr/include/KPim6/KPkPass/BoardingPass
-* /usr/include/KPim6/KPkPass/boardingpass.h
-* /usr/include/KPim6/KPkPass/Field
-* /usr/include/KPim6/KPkPass/field.h
-* /usr/include/KPim6/KPkPass/kpkpass_export.h
-* /usr/include/KPim6/KPkPass/kpkpass_version.h
-* /usr/include/KPim6/KPkPass/Location
-* /usr/include/KPim6/KPkPass/location.h
-* /usr/include/KPim6/KPkPass/Pass
-* /usr/include/KPim6/KPkPass/pass.h
-* /usr/lib/cmake/KPim6PkPass/KPim6PkPassConfig.cmake
-* /usr/lib/cmake/KPim6PkPass/KPim6PkPassConfigVersion.cmake
-* /usr/lib/cmake/KPim6PkPass/KPim6PkPassTargets-release.cmake
-* /usr/lib/cmake/KPim6PkPass/KPim6PkPassTargets.cmake
-* /usr/lib/libKPim6PkPass.so
-* /usr/lib/libKPim6PkPass.so.6
-* /usr/lib/libKPim6PkPass.so.6.1.2
-* /usr/share/doc/kpkpass-24.05.2/README.md
-* /usr/share/doc/kpkpass-24.05.2/README.md.license
-* /usr/share/qlogging-categories6/org_kde_kpkpass.categories
+* kpkpass /usr/include/KPim6/KPkPass/Barcode
+* kpkpass /usr/include/KPim6/KPkPass/barcode.h
+* kpkpass /usr/include/KPim6/KPkPass/BoardingPass
+* kpkpass /usr/include/KPim6/KPkPass/boardingpass.h
+* kpkpass /usr/include/KPim6/KPkPass/Field
+* kpkpass /usr/include/KPim6/KPkPass/field.h
+* kpkpass /usr/include/KPim6/KPkPass/kpkpass_export.h
+* kpkpass /usr/include/KPim6/KPkPass/kpkpass_version.h
+* kpkpass /usr/include/KPim6/KPkPass/Location
+* kpkpass /usr/include/KPim6/KPkPass/location.h
+* kpkpass /usr/include/KPim6/KPkPass/Pass
+* kpkpass /usr/include/KPim6/KPkPass/pass.h
+* kpkpass /usr/lib/cmake/KPim6PkPass/KPim6PkPassConfig.cmake
+* kpkpass /usr/lib/cmake/KPim6PkPass/KPim6PkPassConfigVersion.cmake
+* kpkpass /usr/lib/cmake/KPim6PkPass/KPim6PkPassTargets-release.cmake
+* kpkpass /usr/lib/cmake/KPim6PkPass/KPim6PkPassTargets.cmake
+* kpkpass /usr/lib/libKPim6PkPass.so
+* kpkpass /usr/lib/libKPim6PkPass.so.6
+* kpkpass /usr/lib/libKPim6PkPass.so.6.2.0
+* kpkpass /usr/share/doc/kpkpass-24.08.0/README.md
+* kpkpass /usr/share/doc/kpkpass-24.08.0/README.md.license
+* kpkpass /usr/share/qlogging-categories6/org_kde_kpkpass.categories

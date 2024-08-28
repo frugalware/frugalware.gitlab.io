@@ -12,7 +12,7 @@ size = "917432"
 usize = "2604390"
 sha1sum = "5c1127a795eeeda398e01036e561a670897af8b5"
 depends = "['ncurses>=6.1-2']"
-reverse_depends = "['intel-gpu-tools', 'opentrack', 'parallel', 'profile-sync-daemon', 'steamtinkerlaunch']"
+reverse_depends = "['./parallel', 'intel-gpu-tools', 'opentrack', 'parallel', 'profile-sync-daemon', 'steamtinkerlaunch']"
 +++
 ### Description: 
 utilities for displaying process information

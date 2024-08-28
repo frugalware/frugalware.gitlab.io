@@ -1,3331 +1,3299 @@
 +++
 draft = false
-title = "kdevelop 24.05.2-2"
-version = "24.05.2-2"
+title = "./kdevelop 24.08.0-1"
+version = "24.08.0-1"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-07-12T20:58:50"
-aliases = "/packages/10830"
-categories = ['kde5-extra']
+date = "2024-08-23T10:13:57"
+aliases = "/packages/222323"
+categories = ['kde6-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "9919364"
-usize = "35512267"
-sha1sum = "aefe04d34e73fd8596445799fd46f85a700aea29"
-depends = "['clang-libs>=18.1.8', 'grantlee', 'kcmutils5>=5.116.0', 'kitemmodels5>=5.116.0', 'knewstuff5>=5.116.0', 'knotifyconfig5>=5.116.0', 'krunner5>=5.116.0', 'ktexteditor5>=5.116.0', 'libboost>=1.72.0', 'libkomparediff2', 'qt5-tools>=5.15.14', 'qt5-webengine>=5.15.14']"
-reverse_depends = "['kdev-php', 'kdev-python']"
+size = "10440012"
+usize = "37921678"
+sha1sum = "789a780fce73520976919b48e2c0ffa5f175c4a5"
+depends = "['kcmutils>=6.5.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.5.0', 'krunner>=6.5.0', 'ktexteditor>=6.5.0', 'ktexttemplate>=6.5.0', 'libkomparediff2', 'libksysguard>=6.1.4', 'libplasma>=6.1.4', 'qt6-tools>=6.7.1', 'subversion']"
 +++
 ### Description: 
 The KDevelop integrated C/C++ application development environment
 
 ### Files: 
-* /usr/bin/kdevelop
-* /usr/bin/kdevelop!
-* /usr/bin/kdevplatform_shell_environment.sh
-* /usr/bin/kdev_dbus_socket_transformer
-* /usr/bin/kdev_format_source
-* /usr/bin/kdev_includepathsconverter
-* /usr/include/kdevelop/custom-definesandincludes/idefinesandincludesmanager.h
-* /usr/include/kdevelop/kdevelop_version.h
-* /usr/include/kdevelop/makebuilder/imakebuilder.h
-* /usr/include/kdevplatform/config-kdevplatform.h
-* /usr/include/kdevplatform/debugger/breakpoint/breakpoint.h
-* /usr/include/kdevplatform/debugger/breakpoint/breakpointdetails.h
-* /usr/include/kdevplatform/debugger/breakpoint/breakpointmodel.h
-* /usr/include/kdevplatform/debugger/breakpoint/breakpointwidget.h
-* /usr/include/kdevplatform/debugger/debuggerexport.h
-* /usr/include/kdevplatform/debugger/framestack/framestackmodel.h
-* /usr/include/kdevplatform/debugger/interfaces/ibreakpointcontroller.h
-* /usr/include/kdevplatform/debugger/interfaces/idebugsession.h
-* /usr/include/kdevplatform/debugger/interfaces/iframestackmodel.h
-* /usr/include/kdevplatform/debugger/interfaces/ivariablecontroller.h
-* /usr/include/kdevplatform/debugger/util/pathmappings.h
-* /usr/include/kdevplatform/debugger/util/treeitem.h
-* /usr/include/kdevplatform/debugger/util/treemodel.h
-* /usr/include/kdevplatform/debugger/util/treeview.h
-* /usr/include/kdevplatform/debugger/variable/variablecollection.h
-* /usr/include/kdevplatform/documentation/documentationexport.h
-* /usr/include/kdevplatform/documentation/documentationfindwidget.h
-* /usr/include/kdevplatform/documentation/standarddocumentationview.h
-* /usr/include/kdevplatform/execute/iexecuteplugin.h
-* /usr/include/kdevplatform/executescript/iexecutescriptplugin.h
-* /usr/include/kdevplatform/interfaces/configpage.h
-* /usr/include/kdevplatform/interfaces/context.h
-* /usr/include/kdevplatform/interfaces/contextmenuextension.h
-* /usr/include/kdevplatform/interfaces/iassistant.h
-* /usr/include/kdevplatform/interfaces/ibuddydocumentfinder.h
-* /usr/include/kdevplatform/interfaces/icompletionsettings.h
-* /usr/include/kdevplatform/interfaces/icore.h
-* /usr/include/kdevplatform/interfaces/idebugcontroller.h
-* /usr/include/kdevplatform/interfaces/idocument.h
-* /usr/include/kdevplatform/interfaces/idocumentation.h
-* /usr/include/kdevplatform/interfaces/idocumentationcontroller.h
-* /usr/include/kdevplatform/interfaces/idocumentationprovider.h
-* /usr/include/kdevplatform/interfaces/idocumentationproviderprovider.h
-* /usr/include/kdevplatform/interfaces/idocumentcontroller.h
-* /usr/include/kdevplatform/interfaces/ilanguagecheck.h
-* /usr/include/kdevplatform/interfaces/ilanguagecheckprovider.h
-* /usr/include/kdevplatform/interfaces/ilanguagecontroller.h
-* /usr/include/kdevplatform/interfaces/ilaunchconfiguration.h
-* /usr/include/kdevplatform/interfaces/ilauncher.h
-* /usr/include/kdevplatform/interfaces/ilaunchmode.h
-* /usr/include/kdevplatform/interfaces/interfacesexport.h
-* /usr/include/kdevplatform/interfaces/ipartcontroller.h
-* /usr/include/kdevplatform/interfaces/iplugin.h
-* /usr/include/kdevplatform/interfaces/iplugincontroller.h
-* /usr/include/kdevplatform/interfaces/ipluginversion.h
-* /usr/include/kdevplatform/interfaces/iproblem.h
-* /usr/include/kdevplatform/interfaces/iproject.h
-* /usr/include/kdevplatform/interfaces/iprojectcontroller.h
-* /usr/include/kdevplatform/interfaces/iprojectprovider.h
-* /usr/include/kdevplatform/interfaces/iruncontroller.h
-* /usr/include/kdevplatform/interfaces/iruntime.h
-* /usr/include/kdevplatform/interfaces/iruntimecontroller.h
-* /usr/include/kdevplatform/interfaces/iselectioncontroller.h
-* /usr/include/kdevplatform/interfaces/isession.h
-* /usr/include/kdevplatform/interfaces/isessionlock.h
-* /usr/include/kdevplatform/interfaces/isourceformatter.h
-* /usr/include/kdevplatform/interfaces/isourceformattercontroller.h
-* /usr/include/kdevplatform/interfaces/istatus.h
-* /usr/include/kdevplatform/interfaces/itemplateprovider.h
-* /usr/include/kdevplatform/interfaces/itestcontroller.h
-* /usr/include/kdevplatform/interfaces/itestsuite.h
-* /usr/include/kdevplatform/interfaces/itoolviewactionlistener.h
-* /usr/include/kdevplatform/interfaces/iuicontroller.h
-* /usr/include/kdevplatform/interfaces/launchconfigurationpage.h
-* /usr/include/kdevplatform/interfaces/launchconfigurationtype.h
-* /usr/include/kdevplatform/kdevplatform_version.h
-* /usr/include/kdevplatform/language/assistant/renameaction.h
-* /usr/include/kdevplatform/language/assistant/renameassistant.h
-* /usr/include/kdevplatform/language/assistant/staticassistant.h
-* /usr/include/kdevplatform/language/assistant/staticassistantsmanager.h
-* /usr/include/kdevplatform/language/backgroundparser/backgroundparser.h
-* /usr/include/kdevplatform/language/backgroundparser/documentchangetracker.h
-* /usr/include/kdevplatform/language/backgroundparser/parsejob.h
-* /usr/include/kdevplatform/language/backgroundparser/parseprojectjob.h
-* /usr/include/kdevplatform/language/backgroundparser/urlparselock.h
-* /usr/include/kdevplatform/language/checks/controlflowgraph.h
-* /usr/include/kdevplatform/language/checks/controlflownode.h
-* /usr/include/kdevplatform/language/checks/dataaccess.h
-* /usr/include/kdevplatform/language/checks/dataaccessrepository.h
-* /usr/include/kdevplatform/language/classmodel/allclassesfolder.h
-* /usr/include/kdevplatform/language/classmodel/classmodel.h
-* /usr/include/kdevplatform/language/classmodel/classmodelnode.h
-* /usr/include/kdevplatform/language/classmodel/classmodelnodescontroller.h
-* /usr/include/kdevplatform/language/classmodel/documentclassesfolder.h
-* /usr/include/kdevplatform/language/classmodel/projectfolder.h
-* /usr/include/kdevplatform/language/codecompletion/abstractincludefilecompletionitem.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletion.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletioncontext.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletionhelper.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletionitem.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletionitemgrouper.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletionmodel.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletiontesthelper.h
-* /usr/include/kdevplatform/language/codecompletion/codecompletionworker.h
-* /usr/include/kdevplatform/language/codecompletion/normaldeclarationcompletionitem.h
-* /usr/include/kdevplatform/language/codegen/applychangeswidget.h
-* /usr/include/kdevplatform/language/codegen/astchangeset.h
-* /usr/include/kdevplatform/language/codegen/basicrefactoring.h
-* /usr/include/kdevplatform/language/codegen/codedescription.h
-* /usr/include/kdevplatform/language/codegen/coderepresentation.h
-* /usr/include/kdevplatform/language/codegen/documentchangeset.h
-* /usr/include/kdevplatform/language/codegen/duchainchangeset.h
-* /usr/include/kdevplatform/language/codegen/sourcefiletemplate.h
-* /usr/include/kdevplatform/language/codegen/templateclassgenerator.h
-* /usr/include/kdevplatform/language/codegen/templateengine.h
-* /usr/include/kdevplatform/language/codegen/templatepreviewicon.h
-* /usr/include/kdevplatform/language/codegen/templaterenderer.h
-* /usr/include/kdevplatform/language/codegen/templatesmodel.h
-* /usr/include/kdevplatform/language/codegen/utilities.h
-* /usr/include/kdevplatform/language/duchain/abstractfunctiondeclaration.h
-* /usr/include/kdevplatform/language/duchain/aliasdeclaration.h
-* /usr/include/kdevplatform/language/duchain/appendedlist.h
-* /usr/include/kdevplatform/language/duchain/builders/abstractcontextbuilder.h
-* /usr/include/kdevplatform/language/duchain/builders/abstractdeclarationbuilder.h
-* /usr/include/kdevplatform/language/duchain/builders/abstracttypebuilder.h
-* /usr/include/kdevplatform/language/duchain/builders/abstractusebuilder.h
-* /usr/include/kdevplatform/language/duchain/builders/dynamiclanguageexpressionvisitor.h
-* /usr/include/kdevplatform/language/duchain/classdeclaration.h
-* /usr/include/kdevplatform/language/duchain/classfunctiondeclaration.h
-* /usr/include/kdevplatform/language/duchain/classmemberdeclaration.h
-* /usr/include/kdevplatform/language/duchain/classmemberdeclarationdata.h
-* /usr/include/kdevplatform/language/duchain/codemodel.h
-* /usr/include/kdevplatform/language/duchain/declaration.h
-* /usr/include/kdevplatform/language/duchain/declarationdata.h
-* /usr/include/kdevplatform/language/duchain/declarationid.h
-* /usr/include/kdevplatform/language/duchain/definitions.h
-* /usr/include/kdevplatform/language/duchain/duchain.h
-* /usr/include/kdevplatform/language/duchain/duchainbase.h
-* /usr/include/kdevplatform/language/duchain/duchaindumper.h
-* /usr/include/kdevplatform/language/duchain/duchainlock.h
-* /usr/include/kdevplatform/language/duchain/duchainpointer.h
-* /usr/include/kdevplatform/language/duchain/duchainregister.h
-* /usr/include/kdevplatform/language/duchain/duchainutils.h
-* /usr/include/kdevplatform/language/duchain/ducontext.h
-* /usr/include/kdevplatform/language/duchain/ducontextdata.h
-* /usr/include/kdevplatform/language/duchain/dumpdotgraph.h
-* /usr/include/kdevplatform/language/duchain/forwarddeclaration.h
-* /usr/include/kdevplatform/language/duchain/functiondeclaration.h
-* /usr/include/kdevplatform/language/duchain/functiondefinition.h
-* /usr/include/kdevplatform/language/duchain/identifier.h
-* /usr/include/kdevplatform/language/duchain/indexeddeclaration.h
-* /usr/include/kdevplatform/language/duchain/indexedducontext.h
-* /usr/include/kdevplatform/language/duchain/indexedtopducontext.h
-* /usr/include/kdevplatform/language/duchain/instantiationinformation.h
-* /usr/include/kdevplatform/language/duchain/localindexeddeclaration.h
-* /usr/include/kdevplatform/language/duchain/localindexedducontext.h
-* /usr/include/kdevplatform/language/duchain/namespacealiasdeclaration.h
-* /usr/include/kdevplatform/language/duchain/navigation/abstractdeclarationnavigationcontext.h
-* /usr/include/kdevplatform/language/duchain/navigation/abstractincludenavigationcontext.h
-* /usr/include/kdevplatform/language/duchain/navigation/abstractnavigationcontext.h
-* /usr/include/kdevplatform/language/duchain/navigation/abstractnavigationwidget.h
-* /usr/include/kdevplatform/language/duchain/navigation/navigationaction.h
-* /usr/include/kdevplatform/language/duchain/navigation/usescollector.h
-* /usr/include/kdevplatform/language/duchain/navigation/usesnavigationcontext.h
-* /usr/include/kdevplatform/language/duchain/navigation/useswidget.h
-* /usr/include/kdevplatform/language/duchain/parsingenvironment.h
-* /usr/include/kdevplatform/language/duchain/persistentsymboltable.h
-* /usr/include/kdevplatform/language/duchain/problem.h
-* /usr/include/kdevplatform/language/duchain/specializationstore.h
-* /usr/include/kdevplatform/language/duchain/stringhelpers.h
-* /usr/include/kdevplatform/language/duchain/topducontext.h
-* /usr/include/kdevplatform/language/duchain/topducontextdata.h
-* /usr/include/kdevplatform/language/duchain/topducontextutils.h
-* /usr/include/kdevplatform/language/duchain/types/abstracttype.h
-* /usr/include/kdevplatform/language/duchain/types/alltypes.h
-* /usr/include/kdevplatform/language/duchain/types/arraytype.h
-* /usr/include/kdevplatform/language/duchain/types/constantintegraltype.h
-* /usr/include/kdevplatform/language/duchain/types/containertypes.h
-* /usr/include/kdevplatform/language/duchain/types/delayedtype.h
-* /usr/include/kdevplatform/language/duchain/types/enumerationtype.h
-* /usr/include/kdevplatform/language/duchain/types/enumeratortype.h
-* /usr/include/kdevplatform/language/duchain/types/functiontype.h
-* /usr/include/kdevplatform/language/duchain/types/identifiedtype.h
-* /usr/include/kdevplatform/language/duchain/types/indexedtype.h
-* /usr/include/kdevplatform/language/duchain/types/integraltype.h
-* /usr/include/kdevplatform/language/duchain/types/pointertype.h
-* /usr/include/kdevplatform/language/duchain/types/referencetype.h
-* /usr/include/kdevplatform/language/duchain/types/structuretype.h
-* /usr/include/kdevplatform/language/duchain/types/typealiastype.h
-* /usr/include/kdevplatform/language/duchain/types/typepointer.h
-* /usr/include/kdevplatform/language/duchain/types/typeregister.h
-* /usr/include/kdevplatform/language/duchain/types/typerepository.h
-* /usr/include/kdevplatform/language/duchain/types/typesystem.h
-* /usr/include/kdevplatform/language/duchain/types/typesystemdata.h
-* /usr/include/kdevplatform/language/duchain/types/typeutils.h
-* /usr/include/kdevplatform/language/duchain/types/unsuretype.h
-* /usr/include/kdevplatform/language/duchain/use.h
-* /usr/include/kdevplatform/language/editor/cursorinrevision.h
-* /usr/include/kdevplatform/language/editor/documentcursor.h
-* /usr/include/kdevplatform/language/editor/documentrange.h
-* /usr/include/kdevplatform/language/editor/modificationrevision.h
-* /usr/include/kdevplatform/language/editor/modificationrevisionset.h
-* /usr/include/kdevplatform/language/editor/persistentmovingrange.h
-* /usr/include/kdevplatform/language/editor/rangeinrevision.h
-* /usr/include/kdevplatform/language/highlighting/codehighlighting.h
-* /usr/include/kdevplatform/language/highlighting/colorcache.h
-* /usr/include/kdevplatform/language/highlighting/configurablecolors.h
-* /usr/include/kdevplatform/language/interfaces/abbreviations.h
-* /usr/include/kdevplatform/language/interfaces/codecontext.h
-* /usr/include/kdevplatform/language/interfaces/editorcontext.h
-* /usr/include/kdevplatform/language/interfaces/iastcontainer.h
-* /usr/include/kdevplatform/language/interfaces/icodehighlighting.h
-* /usr/include/kdevplatform/language/interfaces/icontextbrowser.h
-* /usr/include/kdevplatform/language/interfaces/icreateclasshelper.h
-* /usr/include/kdevplatform/language/interfaces/ilanguagesupport.h
-* /usr/include/kdevplatform/language/interfaces/iquickopen.h
-* /usr/include/kdevplatform/language/interfaces/quickopendataprovider.h
-* /usr/include/kdevplatform/language/interfaces/quickopenfilter.h
-* /usr/include/kdevplatform/language/languageexport.h
-* /usr/include/kdevplatform/language/util/basicsetrepository.h
-* /usr/include/kdevplatform/language/util/debuglanguageparserhelper.h
-* /usr/include/kdevplatform/language/util/includeitem.h
-* /usr/include/kdevplatform/language/util/kdevhash.h
-* /usr/include/kdevplatform/language/util/navigationtooltip.h
-* /usr/include/kdevplatform/language/util/setrepository.h
-* /usr/include/kdevplatform/openwith/iopenwith.h
-* /usr/include/kdevplatform/outputview/filtereditem.h
-* /usr/include/kdevplatform/outputview/ifilterstrategy.h
-* /usr/include/kdevplatform/outputview/ioutputview.h
-* /usr/include/kdevplatform/outputview/ioutputviewmodel.h
-* /usr/include/kdevplatform/outputview/outputdelegate.h
-* /usr/include/kdevplatform/outputview/outputexecutejob.h
-* /usr/include/kdevplatform/outputview/outputfilteringstrategies.h
-* /usr/include/kdevplatform/outputview/outputjob.h
-* /usr/include/kdevplatform/outputview/outputmodel.h
-* /usr/include/kdevplatform/outputview/outputviewexport.h
-* /usr/include/kdevplatform/project/abstractfilemanagerplugin.h
-* /usr/include/kdevplatform/project/builderjob.h
-* /usr/include/kdevplatform/project/helper.h
-* /usr/include/kdevplatform/project/importprojectjob.h
-* /usr/include/kdevplatform/project/interfaces/ibuildsystemmanager.h
-* /usr/include/kdevplatform/project/interfaces/iprojectbuilder.h
-* /usr/include/kdevplatform/project/interfaces/iprojectfilemanager.h
-* /usr/include/kdevplatform/project/interfaces/iprojectfilter.h
-* /usr/include/kdevplatform/project/interfaces/iprojectfilterprovider.h
-* /usr/include/kdevplatform/project/projectbuildsetmodel.h
-* /usr/include/kdevplatform/project/projectchangesmodel.h
-* /usr/include/kdevplatform/project/projectconfigpage.h
-* /usr/include/kdevplatform/project/projectconfigskeleton.h
-* /usr/include/kdevplatform/project/projectexport.h
-* /usr/include/kdevplatform/project/projectfiltermanager.h
-* /usr/include/kdevplatform/project/projectitemlineedit.h
-* /usr/include/kdevplatform/project/projectmodel.h
-* /usr/include/kdevplatform/project/projectutils.h
-* /usr/include/kdevplatform/project/widgets/dependencieswidget.h
-* /usr/include/kdevplatform/serialization/abstractitemrepository.h
-* /usr/include/kdevplatform/serialization/indexedstring.h
-* /usr/include/kdevplatform/serialization/indexedstringview.h
-* /usr/include/kdevplatform/serialization/itemrepository.h
-* /usr/include/kdevplatform/serialization/itemrepositoryexampleitem.h
-* /usr/include/kdevplatform/serialization/itemrepositoryreferencecounting.h
-* /usr/include/kdevplatform/serialization/itemrepositoryregistry.h
-* /usr/include/kdevplatform/serialization/referencecounting.h
-* /usr/include/kdevplatform/serialization/repositorymanager.h
-* /usr/include/kdevplatform/serialization/serializationexport.h
-* /usr/include/kdevplatform/shell/colorschemechooser.h
-* /usr/include/kdevplatform/shell/core.h
-* /usr/include/kdevplatform/shell/documentcontroller.h
-* /usr/include/kdevplatform/shell/environmentconfigurebutton.h
-* /usr/include/kdevplatform/shell/filteredproblemstore.h
-* /usr/include/kdevplatform/shell/languagecontroller.h
-* /usr/include/kdevplatform/shell/launchconfiguration.h
-* /usr/include/kdevplatform/shell/mainwindow.h
-* /usr/include/kdevplatform/shell/partcontroller.h
-* /usr/include/kdevplatform/shell/partdocument.h
-* /usr/include/kdevplatform/shell/plugincontroller.h
-* /usr/include/kdevplatform/shell/problem.h
-* /usr/include/kdevplatform/shell/problemconstants.h
-* /usr/include/kdevplatform/shell/problemmodel.h
-* /usr/include/kdevplatform/shell/problemmodelset.h
-* /usr/include/kdevplatform/shell/problemstore.h
-* /usr/include/kdevplatform/shell/project.h
-* /usr/include/kdevplatform/shell/projectcontroller.h
-* /usr/include/kdevplatform/shell/runcontroller.h
-* /usr/include/kdevplatform/shell/selectioncontroller.h
-* /usr/include/kdevplatform/shell/session.h
-* /usr/include/kdevplatform/shell/sessioncontroller.h
-* /usr/include/kdevplatform/shell/sessionlock.h
-* /usr/include/kdevplatform/shell/shellexport.h
-* /usr/include/kdevplatform/shell/shellextension.h
-* /usr/include/kdevplatform/shell/sourceformatterconfig.h
-* /usr/include/kdevplatform/shell/sourceformattercontroller.h
-* /usr/include/kdevplatform/shell/sourceformatterselectionedit.h
-* /usr/include/kdevplatform/shell/textdocument.h
-* /usr/include/kdevplatform/shell/uicontroller.h
-* /usr/include/kdevplatform/sublime/area.h
-* /usr/include/kdevplatform/sublime/areaindex.h
-* /usr/include/kdevplatform/sublime/areawalkers.h
-* /usr/include/kdevplatform/sublime/container.h
-* /usr/include/kdevplatform/sublime/controller.h
-* /usr/include/kdevplatform/sublime/document.h
-* /usr/include/kdevplatform/sublime/mainwindow.h
-* /usr/include/kdevplatform/sublime/mainwindowoperator.h
-* /usr/include/kdevplatform/sublime/message.h
-* /usr/include/kdevplatform/sublime/sublimedefs.h
-* /usr/include/kdevplatform/sublime/sublimeexport.h
-* /usr/include/kdevplatform/sublime/tooldocument.h
-* /usr/include/kdevplatform/sublime/urldocument.h
-* /usr/include/kdevplatform/sublime/view.h
-* /usr/include/kdevplatform/sublime/viewbarcontainer.h
-* /usr/include/kdevplatform/util/activetooltip.h
-* /usr/include/kdevplatform/util/algorithm.h
-* /usr/include/kdevplatform/util/autoorientedsplitter.h
-* /usr/include/kdevplatform/util/commandexecutor.h
-* /usr/include/kdevplatform/util/convenientfreelist.h
-* /usr/include/kdevplatform/util/embeddedfreetree.h
-* /usr/include/kdevplatform/util/environmentprofilelist.h
-* /usr/include/kdevplatform/util/environmentselectionwidget.h
-* /usr/include/kdevplatform/util/executecompositejob.h
-* /usr/include/kdevplatform/util/filesystemhelpers.h
-* /usr/include/kdevplatform/util/focusedtreeview.h
-* /usr/include/kdevplatform/util/foregroundlock.h
-* /usr/include/kdevplatform/util/formattinghelpers.h
-* /usr/include/kdevplatform/util/jobstatus.h
-* /usr/include/kdevplatform/util/kdevcoreaddons/kcompoundjob.h
-* /usr/include/kdevplatform/util/kdevcoreaddons/ksequentialcompoundjob.h
-* /usr/include/kdevplatform/util/kdevcoreaddons/ksimplesequentialcompoundjob.h
-* /usr/include/kdevplatform/util/kdevstringhandler.h
-* /usr/include/kdevplatform/util/kdevvarlengtharray.h
-* /usr/include/kdevplatform/util/ksharedobject.h
-* /usr/include/kdevplatform/util/multilevellistview.h
-* /usr/include/kdevplatform/util/objectlist.h
-* /usr/include/kdevplatform/util/owningrawpointercontainer.h
-* /usr/include/kdevplatform/util/path.h
-* /usr/include/kdevplatform/util/placeholderitemproxymodel.h
-* /usr/include/kdevplatform/util/processlinemaker.h
-* /usr/include/kdevplatform/util/projecttestjob.h
-* /usr/include/kdevplatform/util/pushvalue.h
-* /usr/include/kdevplatform/util/stack.h
-* /usr/include/kdevplatform/util/texteditorhelpers.h
-* /usr/include/kdevplatform/util/utilexport.h
-* /usr/include/kdevplatform/util/widgetcolorizer.h
-* /usr/include/kdevplatform/util/wildcardhelpers.h
-* /usr/include/kdevplatform/util/zoomcontroller.h
-* /usr/include/kdevplatform/vcs/dvcs/dvcsevent.h
-* /usr/include/kdevplatform/vcs/dvcs/dvcsjob.h
-* /usr/include/kdevplatform/vcs/dvcs/dvcsplugin.h
-* /usr/include/kdevplatform/vcs/dvcs/ui/dvcsimportmetadatawidget.h
-* /usr/include/kdevplatform/vcs/interfaces/ibasicversioncontrol.h
-* /usr/include/kdevplatform/vcs/interfaces/ibranchingversioncontrol.h
-* /usr/include/kdevplatform/vcs/interfaces/ibrowsableversioncontrol.h
-* /usr/include/kdevplatform/vcs/interfaces/icentralizedversioncontrol.h
-* /usr/include/kdevplatform/vcs/interfaces/idistributedversioncontrol.h
-* /usr/include/kdevplatform/vcs/interfaces/ipatchdocument.h
-* /usr/include/kdevplatform/vcs/interfaces/ipatchsource.h
-* /usr/include/kdevplatform/vcs/interfaces/irepositoryversioncontrol.h
-* /usr/include/kdevplatform/vcs/models/brancheslistmodel.h
-* /usr/include/kdevplatform/vcs/models/vcsannotationmodel.h
-* /usr/include/kdevplatform/vcs/models/vcseventmodel.h
-* /usr/include/kdevplatform/vcs/models/vcsfilechangesmodel.h
-* /usr/include/kdevplatform/vcs/models/vcsitemeventmodel.h
-* /usr/include/kdevplatform/vcs/vcsannotation.h
-* /usr/include/kdevplatform/vcs/vcsdiff.h
-* /usr/include/kdevplatform/vcs/vcsevent.h
-* /usr/include/kdevplatform/vcs/vcsexport.h
-* /usr/include/kdevplatform/vcs/vcsjob.h
-* /usr/include/kdevplatform/vcs/vcslocation.h
-* /usr/include/kdevplatform/vcs/vcspluginhelper.h
-* /usr/include/kdevplatform/vcs/vcsrevision.h
-* /usr/include/kdevplatform/vcs/vcsstatusinfo.h
-* /usr/include/kdevplatform/vcs/widgets/standardvcslocationwidget.h
-* /usr/include/kdevplatform/vcs/widgets/vcscommitdialog.h
-* /usr/include/kdevplatform/vcs/widgets/vcsdiffwidget.h
-* /usr/include/kdevplatform/vcs/widgets/vcseventwidget.h
-* /usr/include/kdevplatform/vcs/widgets/vcsimportmetadatawidget.h
-* /usr/include/kdevplatform/vcs/widgets/vcslocationwidget.h
-* /usr/lib/cmake/KDevelop/KDevelopConfig.cmake
-* /usr/lib/cmake/KDevelop/KDevelopConfigVersion.cmake
-* /usr/lib/cmake/KDevelop/KDevelopTargets.cmake
-* /usr/lib/cmake/KDevPlatform/KDevPlatformConfig.cmake
-* /usr/lib/cmake/KDevPlatform/KDevPlatformConfigVersion.cmake
-* /usr/lib/cmake/KDevPlatform/KDevPlatformMacros.cmake
-* /usr/lib/cmake/KDevPlatform/KDevPlatformTargets-release.cmake
-* /usr/lib/cmake/KDevPlatform/KDevPlatformTargets.cmake
-* /usr/lib/libKDevClangPrivate.so.514
-* /usr/lib/libKDevCMakeCommon.so.514
-* /usr/lib/libKDevCompileAnalyzerCommon.so.514
-* /usr/lib/libKDevelopSessionsWatch.so
-* /usr/lib/libKDevPlatformDebugger.so
-* /usr/lib/libKDevPlatformDebugger.so.5.14.240502
-* /usr/lib/libKDevPlatformDebugger.so.514
-* /usr/lib/libKDevPlatformDocumentation.so
-* /usr/lib/libKDevPlatformDocumentation.so.5.14.240502
-* /usr/lib/libKDevPlatformDocumentation.so.514
-* /usr/lib/libKDevPlatformInterfaces.so
-* /usr/lib/libKDevPlatformInterfaces.so.5.14.240502
-* /usr/lib/libKDevPlatformInterfaces.so.514
-* /usr/lib/libKDevPlatformLanguage.so
-* /usr/lib/libKDevPlatformLanguage.so.5.14.240502
-* /usr/lib/libKDevPlatformLanguage.so.514
-* /usr/lib/libKDevPlatformOutputView.so
-* /usr/lib/libKDevPlatformOutputView.so.5.14.240502
-* /usr/lib/libKDevPlatformOutputView.so.514
-* /usr/lib/libKDevPlatformProject.so
-* /usr/lib/libKDevPlatformProject.so.5.14.240502
-* /usr/lib/libKDevPlatformProject.so.514
-* /usr/lib/libKDevPlatformSerialization.so
-* /usr/lib/libKDevPlatformSerialization.so.5.14.240502
-* /usr/lib/libKDevPlatformSerialization.so.514
-* /usr/lib/libKDevPlatformShell.so
-* /usr/lib/libKDevPlatformShell.so.5.14.240502
-* /usr/lib/libKDevPlatformShell.so.514
-* /usr/lib/libKDevPlatformSublime.so
-* /usr/lib/libKDevPlatformSublime.so.5.14.240502
-* /usr/lib/libKDevPlatformSublime.so.514
-* /usr/lib/libKDevPlatformUtil.so
-* /usr/lib/libKDevPlatformUtil.so.5.14.240502
-* /usr/lib/libKDevPlatformUtil.so.514
-* /usr/lib/libKDevPlatformVcs.so
-* /usr/lib/libKDevPlatformVcs.so.5.14.240502
-* /usr/lib/libKDevPlatformVcs.so.514
-* /usr/lib/qt5/plugins/grantlee/5.3/kdev_filters.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevandroid.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevappwizard.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevastyle.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevbazaar.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevclangsupport.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevclangtidy.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevclassbrowser.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevclazy.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcmakebuilder.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcmakedocumentation.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcmakemanager.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcodeutils.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcontextbrowser.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcppcheck.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcraft.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcustombuildsystem.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcustommakemanager.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevcustomscript.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevdefinesandincludesmanager.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevdocker.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevdocumentswitcher.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevdocumentview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevexecute.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevexecuteplasmoid.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevexecutescript.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevexternalscript.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevfilemanager.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevfiletemplates.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevflatpak.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevgdb.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevgenericmanager.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevghprovider.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevgit.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevgrepview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevheaptrack.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevkonsoleview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevlldb.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevmakebuilder.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevmanpage.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevmesonmanager.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevninja.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevopenwith.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevoutlineview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevpatchreview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevperforce.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevproblemreporter.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevprojectfilter.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevprojectmanagerview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevqmljslanguagesupport.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevqthelp.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevquickopen.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevscratchpad.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevsourceformatter.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevstandardoutputview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevswitchtobuddy.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevtestview.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevvcschangesviewplugin.so
-* /usr/lib/qt5/plugins/kdevplatform/514/kdevwelcomepage.so
-* /usr/lib/qt5/plugins/kf5/krunner/krunner_kdevelopsessions.so
-* /usr/share/applications/org.kde.kdevelop.desktop
-* /usr/share/applications/org.kde.kdevelop_bzr.desktop
-* /usr/share/applications/org.kde.kdevelop_git.desktop
-* /usr/share/applications/org.kde.kdevelop_kdev4.desktop
-* /usr/share/applications/org.kde.kdevelop_ps.desktop
-* /usr/share/doc/HTML/ca/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/ca/kdevelop/index.docbook
-* /usr/share/doc/HTML/ca/kdevelop/kdevelop4_sessionsprojectsworkingsets.png
-* /usr/share/doc/HTML/en/kdevelop/Icon-folder.png
-* /usr/share/doc/HTML/en/kdevelop/Icon-list-add.png
-* /usr/share/doc/HTML/en/kdevelop/Icon-list-remove.png
-* /usr/share/doc/HTML/en/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/en/kdevelop/index.docbook
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-10.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-11.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-12.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-13.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-14.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-15.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-16.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-17.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-18.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-19.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-1a.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-2.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-20.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-23.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-24.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-25.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-26.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-3.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-30.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-31.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-32.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-33.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-34.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-35.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-36.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-37.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-38.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-39.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-4.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-40.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-41.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-42.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-43.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-5.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-6.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-7.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-8.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-9.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-project-dialog.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-template-inheritance.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-template-manager.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-template-members.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-template-result.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop-template-selection.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop4_noworkingset.png
-* /usr/share/doc/HTML/en/kdevelop/kdevelop4_sessionsprojectsworkingsets.png
-* /usr/share/doc/HTML/es/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/es/kdevelop/index.docbook
-* /usr/share/doc/HTML/it/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/it/kdevelop/index.docbook
-* /usr/share/doc/HTML/nl/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/nl/kdevelop/index.docbook
-* /usr/share/doc/HTML/pt/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/pt/kdevelop/index.docbook
-* /usr/share/doc/HTML/pt_BR/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kdevelop/index.docbook
-* /usr/share/doc/HTML/ru/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/ru/kdevelop/index.docbook
-* /usr/share/doc/HTML/sv/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/sv/kdevelop/index.docbook
-* /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
-* /usr/share/doc/HTML/uk/kdevelop/index.docbook
-* /usr/share/doc/kdevelop-24.05.2/AUTHORS
-* /usr/share/doc/kdevelop-24.05.2/COPYING.DOC
-* /usr/share/doc/kdevelop-24.05.2/INSTALL
-* /usr/share/doc/kdevelop-24.05.2/README.md
-* /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
-* /usr/share/icons/hicolor/128x128/apps/bazaar.png
-* /usr/share/icons/hicolor/128x128/apps/clazy.png
-* /usr/share/icons/hicolor/128x128/apps/cmake.png
-* /usr/share/icons/hicolor/128x128/apps/cppcheck.png
-* /usr/share/icons/hicolor/128x128/apps/kdevelop.png
-* /usr/share/icons/hicolor/16x16/actions/breakpoint.png
-* /usr/share/icons/hicolor/16x16/apps/cmake.png
-* /usr/share/icons/hicolor/16x16/apps/github-forked.png
-* /usr/share/icons/hicolor/16x16/apps/github-private.png
-* /usr/share/icons/hicolor/16x16/apps/github-repo.png
-* /usr/share/icons/hicolor/16x16/apps/kdevelop.png
-* /usr/share/icons/hicolor/16x16/apps/kdevgh.png
-* /usr/share/icons/hicolor/22x22/actions/breakpoint.png
-* /usr/share/icons/hicolor/256x256/apps/kdevelop.png
-* /usr/share/icons/hicolor/32x32/actions/breakpoint.png
-* /usr/share/icons/hicolor/32x32/apps/cmake.png
-* /usr/share/icons/hicolor/32x32/apps/kdevelop.png
-* /usr/share/icons/hicolor/32x32/apps/kdevgh.png
-* /usr/share/icons/hicolor/48x48/apps/kdevelop.png
-* /usr/share/icons/hicolor/512x512/apps/kdevelop.png
-* /usr/share/icons/hicolor/64x64/apps/cmake.png
-* /usr/share/icons/hicolor/64x64/apps/kdevelop.png
-* /usr/share/icons/hicolor/scalable/actions/breakpoint.svg
-* /usr/share/icons/hicolor/scalable/apps/git.svg
-* /usr/share/icons/hicolor/scalable/apps/kdevelop.svg
-* /usr/share/icons/hicolor/scalable/apps/qtlogo.svg
-* /usr/share/kdevappwizard/templates/cmake_kdevplugin.tar.bz2
-* /usr/share/kdevappwizard/templates/cmake_plainc.tar.bz2
-* /usr/share/kdevappwizard/templates/cmake_plaincpp.tar.bz2
-* /usr/share/kdevappwizard/templates/cmake_qt5-qml2.tar.bz2
-* /usr/share/kdevappwizard/templates/cmake_qt5guiapp.tar.bz2
-* /usr/share/kdevappwizard/templates/empty.tar.bz2
-* /usr/share/kdevappwizard/templates/file_template_template.tar.bz2
-* /usr/share/kdevappwizard/templates/meson_plainc.tar.bz2
-* /usr/share/kdevappwizard/templates/meson_plaincpp.tar.bz2
-* /usr/share/kdevappwizard/templates/qmake_qt5guiapp.tar.bz2
-* /usr/share/kdevappwizard/templates/qt5-qml2.tar.bz2
-* /usr/share/kdevclangsupport/gccCompatibility/additional_floating_types.h
-* /usr/share/kdevclangsupport/wrappedQtHeaders/QtCore/qobjectdefs.h
-* /usr/share/kdevcodegen/licenses/Apache v2
-* /usr/share/kdevcodegen/licenses/Boost
-* /usr/share/kdevcodegen/licenses/BSD
-* /usr/share/kdevcodegen/licenses/GPL v2
-* /usr/share/kdevcodegen/licenses/GPL v2+ (KDE)
-* /usr/share/kdevcodegen/licenses/GPL v3
-* /usr/share/kdevcodegen/licenses/LGPL v2
-* /usr/share/kdevcodegen/licenses/LGPL v2+ (KDE)
-* /usr/share/kdevcodegen/licenses/LGPL v3
-* /usr/share/kdevcodegen/licenses/MIT X11
-* /usr/share/kdevcodegen/licenses/Mozilla v1.1
-* /usr/share/kdevcodegen/templates/arguments_names.txt
-* /usr/share/kdevcodegen/templates/arguments_types_names.txt
-* /usr/share/kdevcodegen/templates/class_declaration_apidox_cpp.txt
-* /usr/share/kdevcodegen/templates/class_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/class_method_declaration_apidox_cpp.txt
-* /usr/share/kdevcodegen/templates/class_method_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_getter_declaration_apidox_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_getter_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_getter_definition_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_setter_declaration_apidox_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_setter_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_setter_definition_cpp.txt
-* /usr/share/kdevcodegen/templates/class_property_signal_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/class_qproperty_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/cpp_header.h
-* /usr/share/kdevcodegen/templates/cpp_header_onlyfunctions.h
-* /usr/share/kdevcodegen/templates/cpp_implementation.cpp
-* /usr/share/kdevcodegen/templates/cpp_qobject_header.h
-* /usr/share/kdevcodegen/templates/cpp_qobject_implementation.cpp
-* /usr/share/kdevcodegen/templates/cpp_qobject_pimpl_header.h
-* /usr/share/kdevcodegen/templates/cpp_qobject_pimpl_implementation.cpp
-* /usr/share/kdevcodegen/templates/cpp_qobject_pimpl_p_header.h
-* /usr/share/kdevcodegen/templates/include_guard_cpp.txt
-* /usr/share/kdevcodegen/templates/license_header_cpp.txt
-* /usr/share/kdevcodegen/templates/method_declaration_cpp.txt
-* /usr/share/kdevcodegen/templates/method_definition_cpp.txt
-* /usr/share/kdevcodegen/templates/namespace_close_cpp.txt
-* /usr/share/kdevcodegen/templates/namespace_open_cpp.txt
-* /usr/share/kdevcodegen/templates/namespace_use_cpp.txt
-* /usr/share/kdevcodeutils/templates/doxygen_cpp.txt
-* /usr/share/kdevcodeutils/templates/phpdoc_php.txt
-* /usr/share/kdevcodeutils/templates/rest_python.txt
-* /usr/share/kdevelop/icons/hicolor/16x16/actions/classnew.png
-* /usr/share/kdevelop/icons/hicolor/16x16/actions/dirsync.png
-* /usr/share/kdevelop/icons/hicolor/16x16/actions/methodnew.png
-* /usr/share/kdevelop/icons/hicolor/16x16/actions/variablenew.png
-* /usr/share/kdevelop/icons/hicolor/22x22/actions/classnew.png
-* /usr/share/kdevelop/icons/hicolor/32x32/actions/classnew.png
-* /usr/share/kdevelop/kdevflatpak/replicate.sh
-* /usr/share/kdevelop/pics/code-class.png
-* /usr/share/kdevelop/pics/code-function.png
-* /usr/share/kdevelop/pics/CTchildren.png
-* /usr/share/kdevelop/pics/CTclients.png
-* /usr/share/kdevelop/pics/CTdisconnected_parents.png
-* /usr/share/kdevelop/pics/CTparents.png
-* /usr/share/kdevelop/pics/CTsuppliers.png
-* /usr/share/kdevelop/pics/CTvirtuals.png
-* /usr/share/kdevelop/pics/CVclass.png
-* /usr/share/kdevelop/pics/CVglobal_meth.png
-* /usr/share/kdevelop/pics/CVglobal_var.png
-* /usr/share/kdevelop/pics/CVnamespace.png
-* /usr/share/kdevelop/pics/CVpackage_meth.png
-* /usr/share/kdevelop/pics/CVpackage_var.png
-* /usr/share/kdevelop/pics/CVprivate_meth.png
-* /usr/share/kdevelop/pics/CVprivate_signal.png
-* /usr/share/kdevelop/pics/CVprivate_slot.png
-* /usr/share/kdevelop/pics/CVprivate_var.png
-* /usr/share/kdevelop/pics/CVprotected_meth.png
-* /usr/share/kdevelop/pics/CVprotected_signal.png
-* /usr/share/kdevelop/pics/CVprotected_slot.png
-* /usr/share/kdevelop/pics/CVprotected_var.png
-* /usr/share/kdevelop/pics/CVpublic_meth.png
-* /usr/share/kdevelop/pics/CVpublic_signal.png
-* /usr/share/kdevelop/pics/CVpublic_slot.png
-* /usr/share/kdevelop/pics/CVpublic_var.png
-* /usr/share/kdevelop/pics/CVstruct.png
-* /usr/share/kdevelop/pics/CVtypedef.png
-* /usr/share/kdevelop/pics/enum.png
-* /usr/share/kdevelop/pics/field.png
-* /usr/share/kdevelop/pics/namespace.png
-* /usr/share/kdevelop/pics/private_class.png
-* /usr/share/kdevelop/pics/private_enum.png
-* /usr/share/kdevelop/pics/private_field.png
-* /usr/share/kdevelop/pics/private_function.png
-* /usr/share/kdevelop/pics/private_struct.png
-* /usr/share/kdevelop/pics/private_union.png
-* /usr/share/kdevelop/pics/protected_class.png
-* /usr/share/kdevelop/pics/protected_enum.png
-* /usr/share/kdevelop/pics/protected_field.png
-* /usr/share/kdevelop/pics/protected_function.png
-* /usr/share/kdevelop/pics/protected_struct.png
-* /usr/share/kdevelop/pics/protected_union.png
-* /usr/share/kdevelop/pics/signal.png
-* /usr/share/kdevelop/pics/slot.png
-* /usr/share/kdevelop/pics/struct.png
-* /usr/share/kdevelop/pics/typedef.png
-* /usr/share/kdevelop/pics/union.png
-* /usr/share/kdevelop/shortcuts/QtCreator
-* /usr/share/kdevfiletemplates/templates/cmake_module.tar.bz2
-* /usr/share/kdevfiletemplates/templates/cpp_basic.tar.bz2
-* /usr/share/kdevfiletemplates/templates/cpp_cpputest.tar.bz2
-* /usr/share/kdevfiletemplates/templates/cpp_gtest.tar.bz2
-* /usr/share/kdevfiletemplates/templates/cpp_qtestlib.tar.bz2
-* /usr/share/kdevfiletemplates/templates/cpp_qtestlib_kdevelop.tar.bz2
-* /usr/share/kdevfiletemplates/templates/c_gobject.tar.bz2
-* /usr/share/kdevfiletemplates/templates/c_gobject_private.tar.bz2
-* /usr/share/kdevfiletemplates/templates/c_gobject_properties.tar.bz2
-* /usr/share/kdevfiletemplates/templates/dockerfile-template.tar.bz2
-* /usr/share/kdevfiletemplates/templates/flatpak-template.tar.bz2
-* /usr/share/kdevfiletemplates/templates/php_phpunit.tar.bz2
-* /usr/share/kdevfiletemplates/templates/private_pointer.tar.bz2
-* /usr/share/kdevfiletemplates/templates/python_basic.tar.bz2
-* /usr/share/kdevfiletemplates/templates/python_pyunit.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qabstractitemmodel.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qabstractitemmodel_pimpl.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qdialog.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qdialog_pimpl.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qobject.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qobject_pimpl.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qt_interface.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qt_shared.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qt_widget.tar.bz2
-* /usr/share/kdevfiletemplates/templates/qwidget_pimpl.tar.bz2
-* /usr/share/kdevgdb/printers/gdbinit
-* /usr/share/kdevgdb/printers/helper.py
-* /usr/share/kdevgdb/printers/kde.py
-* /usr/share/kdevgdb/printers/qt.py
-* /usr/share/kdevlldb/formatters/all.py
-* /usr/share/kdevlldb/formatters/helpers.py
-* /usr/share/kdevlldb/formatters/kde.py
-* /usr/share/kdevlldb/formatters/qt.py
-* /usr/share/kdevmanpage/manpagedocumentation.css
-* /usr/share/kdevplatform/shellutils/.zshrc
-* /usr/share/kdevqmljssupport/nodejsmodules/buffer.js
-* /usr/share/kdevqmljssupport/nodejsmodules/child_process.js
-* /usr/share/kdevqmljssupport/nodejsmodules/common.js
-* /usr/share/kdevqmljssupport/nodejsmodules/console.js
-* /usr/share/kdevqmljssupport/nodejsmodules/crypto.js
-* /usr/share/kdevqmljssupport/nodejsmodules/dgram.js
-* /usr/share/kdevqmljssupport/nodejsmodules/dns.js
-* /usr/share/kdevqmljssupport/nodejsmodules/domain.js
-* /usr/share/kdevqmljssupport/nodejsmodules/event.js
-* /usr/share/kdevqmljssupport/nodejsmodules/fs.js
-* /usr/share/kdevqmljssupport/nodejsmodules/http.js
-* /usr/share/kdevqmljssupport/nodejsmodules/https.js
-* /usr/share/kdevqmljssupport/nodejsmodules/net.js
-* /usr/share/kdevqmljssupport/nodejsmodules/os.js
-* /usr/share/kdevqmljssupport/nodejsmodules/path.js
-* /usr/share/kdevqmljssupport/nodejsmodules/punycode.js
-* /usr/share/kdevqmljssupport/nodejsmodules/querystring.js
-* /usr/share/kdevqmljssupport/nodejsmodules/readline.js
-* /usr/share/kdevqmljssupport/nodejsmodules/stream.js
-* /usr/share/kdevqmljssupport/nodejsmodules/string_decoder.js
-* /usr/share/kdevqmljssupport/nodejsmodules/tls.js
-* /usr/share/kdevqmljssupport/nodejsmodules/tty.js
-* /usr/share/kdevqmljssupport/nodejsmodules/url.js
-* /usr/share/kdevqmljssupport/nodejsmodules/util.js
-* /usr/share/kdevqmljssupport/nodejsmodules/vm.js
-* /usr/share/kdevqmljssupport/nodejsmodules/zlib.js
-* /usr/share/kdevqmljssupport/nodejsmodules/__builtin_dom.js
-* /usr/share/kdevqmljssupport/nodejsmodules/__builtin_ecmascript.js
-* /usr/share/kdevqmljssupport/nodejsmodules/__builtin_qml.qml
-* /usr/share/kdevqmljssupport/propertywidgets/ColorPicker.qml
-* /usr/share/kdevqmljssupport/propertywidgets/Duration.qml
-* /usr/share/kdevqmljssupport/propertywidgets/FontFamily.qml
-* /usr/share/kdevqmljssupport/propertywidgets/FontSize.qml
-* /usr/share/kdevqmljssupport/propertywidgets/Height.qml
-* /usr/share/kdevqmljssupport/propertywidgets/Opacity.qml
-* /usr/share/kdevqmljssupport/propertywidgets/PropertyWidget.qml
-* /usr/share/kdevqmljssupport/propertywidgets/README
-* /usr/share/kdevqmljssupport/propertywidgets/Spacing.qml
-* /usr/share/kdevqmljssupport/propertywidgets/Width.qml
-* /usr/share/knotifications5/kdevelop.notifyrc
-* /usr/share/knsrcfiles/kdevappwizard.knsrc
-* /usr/share/knsrcfiles/kdevelop-qthelp.knsrc
-* /usr/share/knsrcfiles/kdevfiletemplates.knsrc
-* /usr/share/kservices5/plasma-applet-kdevelopsessions.desktop
-* /usr/share/kservicetypes5/kdevelopplugin.desktop
-* /usr/share/locale/af/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ar/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/az/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/az/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/az/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/az/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/az/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/az/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/be/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/bg/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/bg/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/bg/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/br/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/bs/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/bs/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/bs/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ca/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/ca/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ca/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/cs/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/cs/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/cs/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/cy/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/da/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/da/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/da/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/de/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/de/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/de/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/el/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/el/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/el/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/eo/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/eo/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/es/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/es/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/es/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/et/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/et/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/et/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/eu/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/eu/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/eu/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/fa/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/fi/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/fi/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/fi/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/fr/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/fr/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/fr/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ga/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ga/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ga/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/gl/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/gl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/gl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/hi/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/hne/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/hr/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/hu/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/hu/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/hu/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/is/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/it/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/it/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/it/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ja/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/ja/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ja/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ka/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/ka/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ka/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/kk/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/kk/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/kk/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/km/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ko/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/ko/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ko/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ku/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/lt/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/lt/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/lt/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/lv/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/mai/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/mai/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/mai/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/mai/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/mr/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/mr/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/mr/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ms/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/nb/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/nb/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/nb/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/nds/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/nds/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/nds/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ne/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/nl/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/nl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/nl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/nn/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/nn/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/nn/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/oc/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/pa/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/pl/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/pl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/pl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/pt/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/pt/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/pt/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ro/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ru/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/ru/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ru/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/se/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/sk/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/sk/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/sk/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/sl/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/sl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/sl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/sv/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/sv/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/sv/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ta/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/tg/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/th/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/th/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/th/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/th/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/tr/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/tr/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/tr/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/ug/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/ug/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/ug/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/uk/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/uk/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/uk/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/vi/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/vi/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/xh/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevandroid.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevappwizard.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevastyle.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevbazaar.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevclang.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevclangtidy.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevclassbrowser.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevclazy.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcmake.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcmakebuilder.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcodeutils.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcompileanalyzercommon.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcontextbrowser.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcppcheck.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustombuildsystem.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustomdefinesandincludes.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustommake.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustomscript.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevdebuggercommon.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevdocker.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevdocumentswitcher.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevdocumentview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevelop.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevexecute.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevexecuteplasmoid.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevexecutescript.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevexternalscript.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevfilemanager.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevfiletemplates.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevflatpak.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevgdb.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevghprovider.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevgit.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevgrepview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevheaptrack.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevkonsole.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevlldb.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevmakebuilder.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevmanpage.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevmesonmanager.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevninja.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevokteta.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevopenwith.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevoutlineview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevpatchreview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevperforce.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevplatform.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevproblemreporter.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevprojectfilter.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevprojectmanagerview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevqmakebuilder.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevqmakemanager.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevqmljs.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevqthelp.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevquickopen.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevscratchpad.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevsourceformatter.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevstandardoutputview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevsubversion.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevswitchtobuddy.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevtestview.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevvcsprojectintegration.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kdevwelcomepage.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
-* /usr/share/metainfo/org.kde.kdevelop.appdata.xml
-* /usr/share/mime/packages/kdevclang.xml
-* /usr/share/mime/packages/kdevelop.xml
-* /usr/share/mime/packages/kdevgit.xml
-* /usr/share/plasma/plasmoids/kdevelopsessions/contents/ui/kdevelopsessions.qml
-* /usr/share/plasma/plasmoids/kdevelopsessions/metadata.desktop
-* /usr/share/qlogging-categories5/kdevelop.categories
-* /usr/share/qlogging-categories5/kdevplatform.categories
-* /usr/share/qt5/qml/org/kde/kdevplatform/libkdevelopdashboarddeclarativeplugin.so
-* /usr/share/qt5/qml/org/kde/kdevplatform/qmldir
-* /usr/share/qt5/qml/org/kde/plasma/private/kdevelopsessions/libkdevelopsessionsplugin.so
-* /usr/share/qt5/qml/org/kde/plasma/private/kdevelopsessions/qmldir
+* kdevelop /usr/bin/kdevelop
+* kdevelop /usr/bin/kdevelop!
+* kdevelop /usr/bin/kdevplatform_shell_environment.sh
+* kdevelop /usr/bin/kdev_dbus_socket_transformer
+* kdevelop /usr/bin/kdev_format_source
+* kdevelop /usr/bin/kdev_includepathsconverter
+* kdevelop /usr/include/kdevelop/custom-definesandincludes/idefinesandincludesmanager.h
+* kdevelop /usr/include/kdevelop/kdevelop_version.h
+* kdevelop /usr/include/kdevelop/makebuilder/imakebuilder.h
+* kdevelop /usr/include/kdevelop/qmake/iqmakebuilder.h
+* kdevelop /usr/include/kdevplatform/config-kdevplatform.h
+* kdevelop /usr/include/kdevplatform/debugger/breakpoint/breakpoint.h
+* kdevelop /usr/include/kdevplatform/debugger/breakpoint/breakpointdetails.h
+* kdevelop /usr/include/kdevplatform/debugger/breakpoint/breakpointmodel.h
+* kdevelop /usr/include/kdevplatform/debugger/breakpoint/breakpointwidget.h
+* kdevelop /usr/include/kdevplatform/debugger/debuggerexport.h
+* kdevelop /usr/include/kdevplatform/debugger/framestack/framestackmodel.h
+* kdevelop /usr/include/kdevplatform/debugger/interfaces/ibreakpointcontroller.h
+* kdevelop /usr/include/kdevplatform/debugger/interfaces/idebugsession.h
+* kdevelop /usr/include/kdevplatform/debugger/interfaces/iframestackmodel.h
+* kdevelop /usr/include/kdevplatform/debugger/interfaces/ivariablecontroller.h
+* kdevelop /usr/include/kdevplatform/debugger/util/pathmappings.h
+* kdevelop /usr/include/kdevplatform/debugger/util/treeitem.h
+* kdevelop /usr/include/kdevplatform/debugger/util/treemodel.h
+* kdevelop /usr/include/kdevplatform/debugger/util/treeview.h
+* kdevelop /usr/include/kdevplatform/debugger/variable/variablecollection.h
+* kdevelop /usr/include/kdevplatform/documentation/documentationexport.h
+* kdevelop /usr/include/kdevplatform/documentation/documentationfindwidget.h
+* kdevelop /usr/include/kdevplatform/documentation/standarddocumentationview.h
+* kdevelop /usr/include/kdevplatform/execute/iexecuteplugin.h
+* kdevelop /usr/include/kdevplatform/executescript/iexecutescriptplugin.h
+* kdevelop /usr/include/kdevplatform/interfaces/configpage.h
+* kdevelop /usr/include/kdevplatform/interfaces/context.h
+* kdevelop /usr/include/kdevplatform/interfaces/contextmenuextension.h
+* kdevelop /usr/include/kdevplatform/interfaces/iassistant.h
+* kdevelop /usr/include/kdevplatform/interfaces/ibuddydocumentfinder.h
+* kdevelop /usr/include/kdevplatform/interfaces/icompletionsettings.h
+* kdevelop /usr/include/kdevplatform/interfaces/icore.h
+* kdevelop /usr/include/kdevplatform/interfaces/idebugcontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/idocument.h
+* kdevelop /usr/include/kdevplatform/interfaces/idocumentation.h
+* kdevelop /usr/include/kdevplatform/interfaces/idocumentationcontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/idocumentationprovider.h
+* kdevelop /usr/include/kdevplatform/interfaces/idocumentationproviderprovider.h
+* kdevelop /usr/include/kdevplatform/interfaces/idocumentcontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/ilanguagecheck.h
+* kdevelop /usr/include/kdevplatform/interfaces/ilanguagecheckprovider.h
+* kdevelop /usr/include/kdevplatform/interfaces/ilanguagecontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/ilaunchconfiguration.h
+* kdevelop /usr/include/kdevplatform/interfaces/ilauncher.h
+* kdevelop /usr/include/kdevplatform/interfaces/ilaunchmode.h
+* kdevelop /usr/include/kdevplatform/interfaces/interfacesexport.h
+* kdevelop /usr/include/kdevplatform/interfaces/ipartcontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/iplugin.h
+* kdevelop /usr/include/kdevplatform/interfaces/iplugincontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/ipluginversion.h
+* kdevelop /usr/include/kdevplatform/interfaces/iproblem.h
+* kdevelop /usr/include/kdevplatform/interfaces/iproject.h
+* kdevelop /usr/include/kdevplatform/interfaces/iprojectcontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/iprojectprovider.h
+* kdevelop /usr/include/kdevplatform/interfaces/iruncontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/iruntime.h
+* kdevelop /usr/include/kdevplatform/interfaces/iruntimecontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/iselectioncontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/isession.h
+* kdevelop /usr/include/kdevplatform/interfaces/isessionlock.h
+* kdevelop /usr/include/kdevplatform/interfaces/isourceformatter.h
+* kdevelop /usr/include/kdevplatform/interfaces/isourceformattercontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/istatus.h
+* kdevelop /usr/include/kdevplatform/interfaces/itemplateprovider.h
+* kdevelop /usr/include/kdevplatform/interfaces/itestcontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/itestsuite.h
+* kdevelop /usr/include/kdevplatform/interfaces/itoolviewactionlistener.h
+* kdevelop /usr/include/kdevplatform/interfaces/iuicontroller.h
+* kdevelop /usr/include/kdevplatform/interfaces/launchconfigurationpage.h
+* kdevelop /usr/include/kdevplatform/interfaces/launchconfigurationtype.h
+* kdevelop /usr/include/kdevplatform/kdevplatform_version.h
+* kdevelop /usr/include/kdevplatform/language/assistant/renameaction.h
+* kdevelop /usr/include/kdevplatform/language/assistant/renameassistant.h
+* kdevelop /usr/include/kdevplatform/language/assistant/staticassistant.h
+* kdevelop /usr/include/kdevplatform/language/assistant/staticassistantsmanager.h
+* kdevelop /usr/include/kdevplatform/language/backgroundparser/backgroundparser.h
+* kdevelop /usr/include/kdevplatform/language/backgroundparser/documentchangetracker.h
+* kdevelop /usr/include/kdevplatform/language/backgroundparser/parsejob.h
+* kdevelop /usr/include/kdevplatform/language/backgroundparser/parseprojectjob.h
+* kdevelop /usr/include/kdevplatform/language/backgroundparser/urlparselock.h
+* kdevelop /usr/include/kdevplatform/language/checks/controlflowgraph.h
+* kdevelop /usr/include/kdevplatform/language/checks/controlflownode.h
+* kdevelop /usr/include/kdevplatform/language/checks/dataaccess.h
+* kdevelop /usr/include/kdevplatform/language/checks/dataaccessrepository.h
+* kdevelop /usr/include/kdevplatform/language/classmodel/allclassesfolder.h
+* kdevelop /usr/include/kdevplatform/language/classmodel/classmodel.h
+* kdevelop /usr/include/kdevplatform/language/classmodel/classmodelnode.h
+* kdevelop /usr/include/kdevplatform/language/classmodel/classmodelnodescontroller.h
+* kdevelop /usr/include/kdevplatform/language/classmodel/documentclassesfolder.h
+* kdevelop /usr/include/kdevplatform/language/classmodel/projectfolder.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/abstractincludefilecompletionitem.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletion.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletioncontext.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletionhelper.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletionitem.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletionitemgrouper.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletionmodel.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletiontesthelper.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/codecompletionworker.h
+* kdevelop /usr/include/kdevplatform/language/codecompletion/normaldeclarationcompletionitem.h
+* kdevelop /usr/include/kdevplatform/language/codegen/astchangeset.h
+* kdevelop /usr/include/kdevplatform/language/codegen/basicrefactoring.h
+* kdevelop /usr/include/kdevplatform/language/codegen/codedescription.h
+* kdevelop /usr/include/kdevplatform/language/codegen/coderepresentation.h
+* kdevelop /usr/include/kdevplatform/language/codegen/documentchangeset.h
+* kdevelop /usr/include/kdevplatform/language/codegen/duchainchangeset.h
+* kdevelop /usr/include/kdevplatform/language/codegen/sourcefiletemplate.h
+* kdevelop /usr/include/kdevplatform/language/codegen/templateclassgenerator.h
+* kdevelop /usr/include/kdevplatform/language/codegen/templateengine.h
+* kdevelop /usr/include/kdevplatform/language/codegen/templatepreviewicon.h
+* kdevelop /usr/include/kdevplatform/language/codegen/templaterenderer.h
+* kdevelop /usr/include/kdevplatform/language/codegen/templatesmodel.h
+* kdevelop /usr/include/kdevplatform/language/codegen/utilities.h
+* kdevelop /usr/include/kdevplatform/language/duchain/abstractfunctiondeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/aliasdeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/appendedlist.h
+* kdevelop /usr/include/kdevplatform/language/duchain/builders/abstractcontextbuilder.h
+* kdevelop /usr/include/kdevplatform/language/duchain/builders/abstractdeclarationbuilder.h
+* kdevelop /usr/include/kdevplatform/language/duchain/builders/abstracttypebuilder.h
+* kdevelop /usr/include/kdevplatform/language/duchain/builders/abstractusebuilder.h
+* kdevelop /usr/include/kdevplatform/language/duchain/builders/dynamiclanguageexpressionvisitor.h
+* kdevelop /usr/include/kdevplatform/language/duchain/classdeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/classfunctiondeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/classmemberdeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/classmemberdeclarationdata.h
+* kdevelop /usr/include/kdevplatform/language/duchain/codemodel.h
+* kdevelop /usr/include/kdevplatform/language/duchain/declaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/declarationdata.h
+* kdevelop /usr/include/kdevplatform/language/duchain/declarationid.h
+* kdevelop /usr/include/kdevplatform/language/duchain/definitions.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchain.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchainbase.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchaindumper.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchainlock.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchainpointer.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchainregister.h
+* kdevelop /usr/include/kdevplatform/language/duchain/duchainutils.h
+* kdevelop /usr/include/kdevplatform/language/duchain/ducontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/ducontextdata.h
+* kdevelop /usr/include/kdevplatform/language/duchain/dumpdotgraph.h
+* kdevelop /usr/include/kdevplatform/language/duchain/forwarddeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/functiondeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/functiondefinition.h
+* kdevelop /usr/include/kdevplatform/language/duchain/identifier.h
+* kdevelop /usr/include/kdevplatform/language/duchain/indexeddeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/indexedducontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/indexedtopducontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/instantiationinformation.h
+* kdevelop /usr/include/kdevplatform/language/duchain/localindexeddeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/localindexedducontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/namespacealiasdeclaration.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/abstractdeclarationnavigationcontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/abstractincludenavigationcontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/abstractnavigationcontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/abstractnavigationwidget.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/navigationaction.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/usescollector.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/usesnavigationcontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/navigation/useswidget.h
+* kdevelop /usr/include/kdevplatform/language/duchain/parsingenvironment.h
+* kdevelop /usr/include/kdevplatform/language/duchain/persistentsymboltable.h
+* kdevelop /usr/include/kdevplatform/language/duchain/problem.h
+* kdevelop /usr/include/kdevplatform/language/duchain/specializationstore.h
+* kdevelop /usr/include/kdevplatform/language/duchain/stringhelpers.h
+* kdevelop /usr/include/kdevplatform/language/duchain/topducontext.h
+* kdevelop /usr/include/kdevplatform/language/duchain/topducontextdata.h
+* kdevelop /usr/include/kdevplatform/language/duchain/topducontextutils.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/abstracttype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/alltypes.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/arraytype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/constantintegraltype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/containertypes.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/delayedtype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/enumerationtype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/enumeratortype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/functiontype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/identifiedtype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/indexedtype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/integraltype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/pointertype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/referencetype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/structuretype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typealiastype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typepointer.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typeregister.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typerepository.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typesystem.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typesystemdata.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/typeutils.h
+* kdevelop /usr/include/kdevplatform/language/duchain/types/unsuretype.h
+* kdevelop /usr/include/kdevplatform/language/duchain/use.h
+* kdevelop /usr/include/kdevplatform/language/editor/cursorinrevision.h
+* kdevelop /usr/include/kdevplatform/language/editor/documentcursor.h
+* kdevelop /usr/include/kdevplatform/language/editor/documentrange.h
+* kdevelop /usr/include/kdevplatform/language/editor/modificationrevision.h
+* kdevelop /usr/include/kdevplatform/language/editor/modificationrevisionset.h
+* kdevelop /usr/include/kdevplatform/language/editor/persistentmovingrange.h
+* kdevelop /usr/include/kdevplatform/language/editor/rangeinrevision.h
+* kdevelop /usr/include/kdevplatform/language/highlighting/codehighlighting.h
+* kdevelop /usr/include/kdevplatform/language/highlighting/colorcache.h
+* kdevelop /usr/include/kdevplatform/language/highlighting/configurablecolors.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/abbreviations.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/codecontext.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/editorcontext.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/iastcontainer.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/icodehighlighting.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/icontextbrowser.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/icreateclasshelper.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/ilanguagesupport.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/iquickopen.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/quickopendataprovider.h
+* kdevelop /usr/include/kdevplatform/language/interfaces/quickopenfilter.h
+* kdevelop /usr/include/kdevplatform/language/languageexport.h
+* kdevelop /usr/include/kdevplatform/language/util/basicsetrepository.h
+* kdevelop /usr/include/kdevplatform/language/util/debuglanguageparserhelper.h
+* kdevelop /usr/include/kdevplatform/language/util/includeitem.h
+* kdevelop /usr/include/kdevplatform/language/util/kdevhash.h
+* kdevelop /usr/include/kdevplatform/language/util/navigationtooltip.h
+* kdevelop /usr/include/kdevplatform/language/util/setrepository.h
+* kdevelop /usr/include/kdevplatform/openwith/iopenwith.h
+* kdevelop /usr/include/kdevplatform/outputview/filtereditem.h
+* kdevelop /usr/include/kdevplatform/outputview/ifilterstrategy.h
+* kdevelop /usr/include/kdevplatform/outputview/ioutputview.h
+* kdevelop /usr/include/kdevplatform/outputview/ioutputviewmodel.h
+* kdevelop /usr/include/kdevplatform/outputview/outputdelegate.h
+* kdevelop /usr/include/kdevplatform/outputview/outputexecutejob.h
+* kdevelop /usr/include/kdevplatform/outputview/outputfilteringstrategies.h
+* kdevelop /usr/include/kdevplatform/outputview/outputjob.h
+* kdevelop /usr/include/kdevplatform/outputview/outputmodel.h
+* kdevelop /usr/include/kdevplatform/outputview/outputviewexport.h
+* kdevelop /usr/include/kdevplatform/project/abstractfilemanagerplugin.h
+* kdevelop /usr/include/kdevplatform/project/builderjob.h
+* kdevelop /usr/include/kdevplatform/project/helper.h
+* kdevelop /usr/include/kdevplatform/project/importprojectjob.h
+* kdevelop /usr/include/kdevplatform/project/interfaces/ibuildsystemmanager.h
+* kdevelop /usr/include/kdevplatform/project/interfaces/iprojectbuilder.h
+* kdevelop /usr/include/kdevplatform/project/interfaces/iprojectfilemanager.h
+* kdevelop /usr/include/kdevplatform/project/interfaces/iprojectfilter.h
+* kdevelop /usr/include/kdevplatform/project/interfaces/iprojectfilterprovider.h
+* kdevelop /usr/include/kdevplatform/project/projectbuildsetmodel.h
+* kdevelop /usr/include/kdevplatform/project/projectchangesmodel.h
+* kdevelop /usr/include/kdevplatform/project/projectconfigpage.h
+* kdevelop /usr/include/kdevplatform/project/projectconfigskeleton.h
+* kdevelop /usr/include/kdevplatform/project/projectexport.h
+* kdevelop /usr/include/kdevplatform/project/projectfiltermanager.h
+* kdevelop /usr/include/kdevplatform/project/projectitemlineedit.h
+* kdevelop /usr/include/kdevplatform/project/projectmodel.h
+* kdevelop /usr/include/kdevplatform/project/projectutils.h
+* kdevelop /usr/include/kdevplatform/project/widgets/dependencieswidget.h
+* kdevelop /usr/include/kdevplatform/serialization/abstractitemrepository.h
+* kdevelop /usr/include/kdevplatform/serialization/indexedstring.h
+* kdevelop /usr/include/kdevplatform/serialization/indexedstringview.h
+* kdevelop /usr/include/kdevplatform/serialization/itemrepository.h
+* kdevelop /usr/include/kdevplatform/serialization/itemrepositoryexampleitem.h
+* kdevelop /usr/include/kdevplatform/serialization/itemrepositoryreferencecounting.h
+* kdevelop /usr/include/kdevplatform/serialization/itemrepositoryregistry.h
+* kdevelop /usr/include/kdevplatform/serialization/referencecounting.h
+* kdevelop /usr/include/kdevplatform/serialization/repositorymanager.h
+* kdevelop /usr/include/kdevplatform/serialization/serializationexport.h
+* kdevelop /usr/include/kdevplatform/shell/core.h
+* kdevelop /usr/include/kdevplatform/shell/documentcontroller.h
+* kdevelop /usr/include/kdevplatform/shell/environmentconfigurebutton.h
+* kdevelop /usr/include/kdevplatform/shell/filteredproblemstore.h
+* kdevelop /usr/include/kdevplatform/shell/languagecontroller.h
+* kdevelop /usr/include/kdevplatform/shell/launchconfiguration.h
+* kdevelop /usr/include/kdevplatform/shell/mainwindow.h
+* kdevelop /usr/include/kdevplatform/shell/partcontroller.h
+* kdevelop /usr/include/kdevplatform/shell/partdocument.h
+* kdevelop /usr/include/kdevplatform/shell/plugincontroller.h
+* kdevelop /usr/include/kdevplatform/shell/problem.h
+* kdevelop /usr/include/kdevplatform/shell/problemconstants.h
+* kdevelop /usr/include/kdevplatform/shell/problemmodel.h
+* kdevelop /usr/include/kdevplatform/shell/problemmodelset.h
+* kdevelop /usr/include/kdevplatform/shell/problemstore.h
+* kdevelop /usr/include/kdevplatform/shell/project.h
+* kdevelop /usr/include/kdevplatform/shell/projectcontroller.h
+* kdevelop /usr/include/kdevplatform/shell/runcontroller.h
+* kdevelop /usr/include/kdevplatform/shell/selectioncontroller.h
+* kdevelop /usr/include/kdevplatform/shell/session.h
+* kdevelop /usr/include/kdevplatform/shell/sessioncontroller.h
+* kdevelop /usr/include/kdevplatform/shell/sessionlock.h
+* kdevelop /usr/include/kdevplatform/shell/shellexport.h
+* kdevelop /usr/include/kdevplatform/shell/shellextension.h
+* kdevelop /usr/include/kdevplatform/shell/sourceformatterconfig.h
+* kdevelop /usr/include/kdevplatform/shell/sourceformattercontroller.h
+* kdevelop /usr/include/kdevplatform/shell/sourceformatterselectionedit.h
+* kdevelop /usr/include/kdevplatform/shell/textdocument.h
+* kdevelop /usr/include/kdevplatform/shell/uicontroller.h
+* kdevelop /usr/include/kdevplatform/sublime/area.h
+* kdevelop /usr/include/kdevplatform/sublime/areaindex.h
+* kdevelop /usr/include/kdevplatform/sublime/areawalkers.h
+* kdevelop /usr/include/kdevplatform/sublime/container.h
+* kdevelop /usr/include/kdevplatform/sublime/controller.h
+* kdevelop /usr/include/kdevplatform/sublime/document.h
+* kdevelop /usr/include/kdevplatform/sublime/mainwindow.h
+* kdevelop /usr/include/kdevplatform/sublime/mainwindowoperator.h
+* kdevelop /usr/include/kdevplatform/sublime/message.h
+* kdevelop /usr/include/kdevplatform/sublime/sublimedefs.h
+* kdevelop /usr/include/kdevplatform/sublime/sublimeexport.h
+* kdevelop /usr/include/kdevplatform/sublime/tooldocument.h
+* kdevelop /usr/include/kdevplatform/sublime/urldocument.h
+* kdevelop /usr/include/kdevplatform/sublime/view.h
+* kdevelop /usr/include/kdevplatform/sublime/viewbarcontainer.h
+* kdevelop /usr/include/kdevplatform/util/activetooltip.h
+* kdevelop /usr/include/kdevplatform/util/algorithm.h
+* kdevelop /usr/include/kdevplatform/util/autoorientedsplitter.h
+* kdevelop /usr/include/kdevplatform/util/commandexecutor.h
+* kdevelop /usr/include/kdevplatform/util/convenientfreelist.h
+* kdevelop /usr/include/kdevplatform/util/embeddedfreetree.h
+* kdevelop /usr/include/kdevplatform/util/environmentprofilelist.h
+* kdevelop /usr/include/kdevplatform/util/environmentselectionwidget.h
+* kdevelop /usr/include/kdevplatform/util/executecompositejob.h
+* kdevelop /usr/include/kdevplatform/util/filesystemhelpers.h
+* kdevelop /usr/include/kdevplatform/util/focusedtreeview.h
+* kdevelop /usr/include/kdevplatform/util/foregroundlock.h
+* kdevelop /usr/include/kdevplatform/util/formattinghelpers.h
+* kdevelop /usr/include/kdevplatform/util/jobstatus.h
+* kdevelop /usr/include/kdevplatform/util/kdevcoreaddons/kcompoundjob.h
+* kdevelop /usr/include/kdevplatform/util/kdevcoreaddons/ksequentialcompoundjob.h
+* kdevelop /usr/include/kdevplatform/util/kdevcoreaddons/ksimplesequentialcompoundjob.h
+* kdevelop /usr/include/kdevplatform/util/kdevstringhandler.h
+* kdevelop /usr/include/kdevplatform/util/kdevvarlengtharray.h
+* kdevelop /usr/include/kdevplatform/util/ksharedobject.h
+* kdevelop /usr/include/kdevplatform/util/multilevellistview.h
+* kdevelop /usr/include/kdevplatform/util/namespacedoperatorbitwiseorworkaroundqtbug.h
+* kdevelop /usr/include/kdevplatform/util/objectlist.h
+* kdevelop /usr/include/kdevplatform/util/owningrawpointercontainer.h
+* kdevelop /usr/include/kdevplatform/util/path.h
+* kdevelop /usr/include/kdevplatform/util/placeholderitemproxymodel.h
+* kdevelop /usr/include/kdevplatform/util/processlinemaker.h
+* kdevelop /usr/include/kdevplatform/util/projecttestjob.h
+* kdevelop /usr/include/kdevplatform/util/pushvalue.h
+* kdevelop /usr/include/kdevplatform/util/stack.h
+* kdevelop /usr/include/kdevplatform/util/stringviewhelpers.h
+* kdevelop /usr/include/kdevplatform/util/texteditorhelpers.h
+* kdevelop /usr/include/kdevplatform/util/utilexport.h
+* kdevelop /usr/include/kdevplatform/util/widgetcolorizer.h
+* kdevelop /usr/include/kdevplatform/util/wildcardhelpers.h
+* kdevelop /usr/include/kdevplatform/util/zoomcontroller.h
+* kdevelop /usr/include/kdevplatform/vcs/dvcs/dvcsevent.h
+* kdevelop /usr/include/kdevplatform/vcs/dvcs/dvcsjob.h
+* kdevelop /usr/include/kdevplatform/vcs/dvcs/dvcsplugin.h
+* kdevelop /usr/include/kdevplatform/vcs/dvcs/ui/dvcsimportmetadatawidget.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/ibasicversioncontrol.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/ibranchingversioncontrol.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/ibrowsableversioncontrol.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/icentralizedversioncontrol.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/idistributedversioncontrol.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/ipatchdocument.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/ipatchsource.h
+* kdevelop /usr/include/kdevplatform/vcs/interfaces/irepositoryversioncontrol.h
+* kdevelop /usr/include/kdevplatform/vcs/models/brancheslistmodel.h
+* kdevelop /usr/include/kdevplatform/vcs/models/vcsannotationmodel.h
+* kdevelop /usr/include/kdevplatform/vcs/models/vcseventmodel.h
+* kdevelop /usr/include/kdevplatform/vcs/models/vcsfilechangesmodel.h
+* kdevelop /usr/include/kdevplatform/vcs/models/vcsitemeventmodel.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsannotation.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsdiff.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsevent.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsexport.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsjob.h
+* kdevelop /usr/include/kdevplatform/vcs/vcslocation.h
+* kdevelop /usr/include/kdevplatform/vcs/vcspluginhelper.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsrevision.h
+* kdevelop /usr/include/kdevplatform/vcs/vcsstatusinfo.h
+* kdevelop /usr/include/kdevplatform/vcs/widgets/standardvcslocationwidget.h
+* kdevelop /usr/include/kdevplatform/vcs/widgets/vcscommitdialog.h
+* kdevelop /usr/include/kdevplatform/vcs/widgets/vcsdiffwidget.h
+* kdevelop /usr/include/kdevplatform/vcs/widgets/vcseventwidget.h
+* kdevelop /usr/include/kdevplatform/vcs/widgets/vcsimportmetadatawidget.h
+* kdevelop /usr/include/kdevplatform/vcs/widgets/vcslocationwidget.h
+* kdevelop /usr/lib/cmake/KDevelop/KDevelopConfig.cmake
+* kdevelop /usr/lib/cmake/KDevelop/KDevelopConfigVersion.cmake
+* kdevelop /usr/lib/cmake/KDevelop/KDevelopTargets.cmake
+* kdevelop /usr/lib/cmake/KDevPlatform/KDevPlatformConfig.cmake
+* kdevelop /usr/lib/cmake/KDevPlatform/KDevPlatformConfigVersion.cmake
+* kdevelop /usr/lib/cmake/KDevPlatform/KDevPlatformMacros.cmake
+* kdevelop /usr/lib/cmake/KDevPlatform/KDevPlatformTargets-release.cmake
+* kdevelop /usr/lib/cmake/KDevPlatform/KDevPlatformTargets.cmake
+* kdevelop /usr/lib/libKDevClangPrivate.so.60
+* kdevelop /usr/lib/libKDevCMakeCommon.so.60
+* kdevelop /usr/lib/libKDevCompileAnalyzerCommon.so.60
+* kdevelop /usr/lib/libKDevelopSessionsWatch.so
+* kdevelop /usr/lib/libKDevPlatformDebugger.so
+* kdevelop /usr/lib/libKDevPlatformDebugger.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformDebugger.so.60
+* kdevelop /usr/lib/libKDevPlatformDocumentation.so
+* kdevelop /usr/lib/libKDevPlatformDocumentation.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformDocumentation.so.60
+* kdevelop /usr/lib/libKDevPlatformInterfaces.so
+* kdevelop /usr/lib/libKDevPlatformInterfaces.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformInterfaces.so.60
+* kdevelop /usr/lib/libKDevPlatformLanguage.so
+* kdevelop /usr/lib/libKDevPlatformLanguage.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformLanguage.so.60
+* kdevelop /usr/lib/libKDevPlatformOutputView.so
+* kdevelop /usr/lib/libKDevPlatformOutputView.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformOutputView.so.60
+* kdevelop /usr/lib/libKDevPlatformProject.so
+* kdevelop /usr/lib/libKDevPlatformProject.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformProject.so.60
+* kdevelop /usr/lib/libKDevPlatformSerialization.so
+* kdevelop /usr/lib/libKDevPlatformSerialization.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformSerialization.so.60
+* kdevelop /usr/lib/libKDevPlatformShell.so
+* kdevelop /usr/lib/libKDevPlatformShell.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformShell.so.60
+* kdevelop /usr/lib/libKDevPlatformSublime.so
+* kdevelop /usr/lib/libKDevPlatformSublime.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformSublime.so.60
+* kdevelop /usr/lib/libKDevPlatformUtil.so
+* kdevelop /usr/lib/libKDevPlatformUtil.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformUtil.so.60
+* kdevelop /usr/lib/libKDevPlatformVcs.so
+* kdevelop /usr/lib/libKDevPlatformVcs.so.6.0.240800
+* kdevelop /usr/lib/libKDevPlatformVcs.so.60
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevandroid.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevappwizard.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevastyle.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevbazaar.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevclangsupport.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevclangtidy.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevclassbrowser.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevclazy.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevCMakeBuilder.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevCMakeDocumentation.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevCMakeManager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevcodeutils.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevcontextbrowser.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevcppcheck.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevcraft.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevCustomBuildSystem.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevCustomMakeManager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevcustomscript.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevDefinesAndIncludesManager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevdocker.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevdocumentswitcher.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevdocumentview.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevexecute.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevexecuteplasmoid.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevexecutescript.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevexternalscript.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevfilemanager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevfiletemplates.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevflatpak.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevgdb.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevGenericManager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevghprovider.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevgit.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevgrepview.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevheaptrack.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevkonsoleview.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevlldb.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevMakeBuilder.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevManPage.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevMesonManager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevNinjaBuilder.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevopenwith.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevOutlineView.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevpatchreview.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevperforce.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevproblemreporter.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevProjectFilter.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevProjectManagerView.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevQMakeBuilder.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevQMakeManager.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevqthelp.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevquickopen.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevsourceformatter.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevStandardOutputView.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevsubversion.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevswitchtobuddy.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevtestview.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/kdevvcschangesviewplugin.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/KDevWelcomePage.so
+* kdevelop /usr/lib/qt6/plugins/kdevplatform/60/scratchpad.so
+* kdevelop /usr/lib/qt6/plugins/kf6/krunner/kdevelopsessions.so
+* kdevelop /usr/lib/qt6/plugins/kf6/ktexttemplate/kdev_filters.so
+* kdevelop /usr/lib/qt6/qml/org/kde/plasma/private/kdevelopsessions/libkdevelopsessionsplugin.so
+* kdevelop /usr/lib/qt6/qml/org/kde/plasma/private/kdevelopsessions/qmldir
+* kdevelop /usr/share/applications/org.kde.kdevelop.desktop
+* kdevelop /usr/share/applications/org.kde.kdevelop_bzr.desktop
+* kdevelop /usr/share/applications/org.kde.kdevelop_git.desktop
+* kdevelop /usr/share/applications/org.kde.kdevelop_kdev4.desktop
+* kdevelop /usr/share/applications/org.kde.kdevelop_ps.desktop
+* kdevelop /usr/share/applications/org.kde.kdevelop_svn.desktop
+* kdevelop /usr/share/doc/HTML/ca/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/ca/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/ca/kdevelop/kdevelop4_sessionsprojectsworkingsets.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/Icon-folder.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/Icon-list-add.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/Icon-list-remove.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/en/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-10.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-11.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-12.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-13.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-14.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-15.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-16.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-17.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-18.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-19.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-1a.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-2.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-20.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-23.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-24.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-25.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-26.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-3.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-30.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-31.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-32.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-33.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-34.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-35.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-36.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-37.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-38.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-39.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-4.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-40.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-41.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-42.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-43.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-5.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-6.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-7.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-8.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-9.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-project-dialog.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-template-inheritance.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-template-manager.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-template-members.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-template-result.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop-template-selection.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop4_noworkingset.png
+* kdevelop /usr/share/doc/HTML/en/kdevelop/kdevelop4_sessionsprojectsworkingsets.png
+* kdevelop /usr/share/doc/HTML/es/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/es/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/it/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/it/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/nl/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/nl/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/pt/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/pt/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/pt_BR/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/pt_BR/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/ru/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/ru/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/sv/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/sv/kdevelop/index.docbook
+* kdevelop /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
+* kdevelop /usr/share/doc/HTML/uk/kdevelop/index.docbook
+* kdevelop /usr/share/doc/kdevelop-24.08.0/AUTHORS
+* kdevelop /usr/share/doc/kdevelop-24.08.0/COPYING.DOC
+* kdevelop /usr/share/doc/kdevelop-24.08.0/INSTALL
+* kdevelop /usr/share/doc/kdevelop-24.08.0/README.md
+* kdevelop /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/128x128/apps/bazaar.png
+* kdevelop /usr/share/icons/hicolor/128x128/apps/clazy.png
+* kdevelop /usr/share/icons/hicolor/128x128/apps/cmake.png
+* kdevelop /usr/share/icons/hicolor/128x128/apps/cppcheck.png
+* kdevelop /usr/share/icons/hicolor/128x128/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/16x16/actions/breakpoint.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/cmake.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/github-forked.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/github-private.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/github-repo.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/kdevgh.png
+* kdevelop /usr/share/icons/hicolor/16x16/apps/subversion.png
+* kdevelop /usr/share/icons/hicolor/22x22/actions/breakpoint.png
+* kdevelop /usr/share/icons/hicolor/256x256/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/32x32/actions/breakpoint.png
+* kdevelop /usr/share/icons/hicolor/32x32/apps/cmake.png
+* kdevelop /usr/share/icons/hicolor/32x32/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/32x32/apps/kdevgh.png
+* kdevelop /usr/share/icons/hicolor/32x32/apps/subversion.png
+* kdevelop /usr/share/icons/hicolor/48x48/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/512x512/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/64x64/apps/cmake.png
+* kdevelop /usr/share/icons/hicolor/64x64/apps/kdevelop.png
+* kdevelop /usr/share/icons/hicolor/64x64/apps/subversion.png
+* kdevelop /usr/share/icons/hicolor/scalable/actions/breakpoint.svg
+* kdevelop /usr/share/icons/hicolor/scalable/apps/git.svg
+* kdevelop /usr/share/icons/hicolor/scalable/apps/kdevelop.svg
+* kdevelop /usr/share/icons/hicolor/scalable/apps/qtlogo.svg
+* kdevelop /usr/share/icons/hicolor/scalable/apps/subversion.svg
+* kdevelop /usr/share/kdevappwizard/templates/cmake_kdevplugin.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/cmake_plainc.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/cmake_plaincpp.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/cmake_qt5-qml2.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/cmake_qt5guiapp.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/cmake_qt6quick_app.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/cmake_qt6widgetsapp.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/empty.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/file_template_template.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/meson_plainc.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/meson_plaincpp.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/qmake_qt5guiapp.tar.bz2
+* kdevelop /usr/share/kdevappwizard/templates/qt5-qml2.tar.bz2
+* kdevelop /usr/share/kdevclangsupport/gccCompatibility/additional_floating_types.h
+* kdevelop /usr/share/kdevclangsupport/wrappedQtHeaders/QtCore/qobjectdefs.h
+* kdevelop /usr/share/kdevcodegen/licenses/Apache v2
+* kdevelop /usr/share/kdevcodegen/licenses/Boost
+* kdevelop /usr/share/kdevcodegen/licenses/BSD
+* kdevelop /usr/share/kdevcodegen/licenses/GPL v2
+* kdevelop /usr/share/kdevcodegen/licenses/GPL v2+ (KDE)
+* kdevelop /usr/share/kdevcodegen/licenses/GPL v3
+* kdevelop /usr/share/kdevcodegen/licenses/LGPL v2
+* kdevelop /usr/share/kdevcodegen/licenses/LGPL v2+ (KDE)
+* kdevelop /usr/share/kdevcodegen/licenses/LGPL v3
+* kdevelop /usr/share/kdevcodegen/licenses/MIT X11
+* kdevelop /usr/share/kdevcodegen/licenses/Mozilla v1.1
+* kdevelop /usr/share/kdevcodegen/templates/arguments_names.txt
+* kdevelop /usr/share/kdevcodegen/templates/arguments_types_names.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_declaration_apidox_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_method_declaration_apidox_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_method_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_getter_declaration_apidox_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_getter_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_getter_definition_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_setter_declaration_apidox_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_setter_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_setter_definition_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_property_signal_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/class_qproperty_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/cpp_header.h
+* kdevelop /usr/share/kdevcodegen/templates/cpp_header_onlyfunctions.h
+* kdevelop /usr/share/kdevcodegen/templates/cpp_implementation.cpp
+* kdevelop /usr/share/kdevcodegen/templates/cpp_qobject_header.h
+* kdevelop /usr/share/kdevcodegen/templates/cpp_qobject_implementation.cpp
+* kdevelop /usr/share/kdevcodegen/templates/cpp_qobject_pimpl_header.h
+* kdevelop /usr/share/kdevcodegen/templates/cpp_qobject_pimpl_implementation.cpp
+* kdevelop /usr/share/kdevcodegen/templates/cpp_qobject_pimpl_p_header.h
+* kdevelop /usr/share/kdevcodegen/templates/include_guard_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/license_header_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/method_declaration_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/method_definition_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/namespace_close_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/namespace_open_cpp.txt
+* kdevelop /usr/share/kdevcodegen/templates/namespace_use_cpp.txt
+* kdevelop /usr/share/kdevcodeutils/templates/doxygen_cpp.txt
+* kdevelop /usr/share/kdevcodeutils/templates/phpdoc_php.txt
+* kdevelop /usr/share/kdevcodeutils/templates/rest_python.txt
+* kdevelop /usr/share/kdevelop/icons/hicolor/16x16/actions/classnew.png
+* kdevelop /usr/share/kdevelop/icons/hicolor/16x16/actions/dirsync.png
+* kdevelop /usr/share/kdevelop/icons/hicolor/16x16/actions/methodnew.png
+* kdevelop /usr/share/kdevelop/icons/hicolor/16x16/actions/variablenew.png
+* kdevelop /usr/share/kdevelop/icons/hicolor/22x22/actions/classnew.png
+* kdevelop /usr/share/kdevelop/icons/hicolor/32x32/actions/classnew.png
+* kdevelop /usr/share/kdevelop/kdevflatpak/replicate.sh
+* kdevelop /usr/share/kdevelop/pics/code-class.png
+* kdevelop /usr/share/kdevelop/pics/code-function.png
+* kdevelop /usr/share/kdevelop/pics/CTchildren.png
+* kdevelop /usr/share/kdevelop/pics/CTclients.png
+* kdevelop /usr/share/kdevelop/pics/CTdisconnected_parents.png
+* kdevelop /usr/share/kdevelop/pics/CTparents.png
+* kdevelop /usr/share/kdevelop/pics/CTsuppliers.png
+* kdevelop /usr/share/kdevelop/pics/CTvirtuals.png
+* kdevelop /usr/share/kdevelop/pics/CVclass.png
+* kdevelop /usr/share/kdevelop/pics/CVglobal_meth.png
+* kdevelop /usr/share/kdevelop/pics/CVglobal_var.png
+* kdevelop /usr/share/kdevelop/pics/CVnamespace.png
+* kdevelop /usr/share/kdevelop/pics/CVpackage_meth.png
+* kdevelop /usr/share/kdevelop/pics/CVpackage_var.png
+* kdevelop /usr/share/kdevelop/pics/CVprivate_meth.png
+* kdevelop /usr/share/kdevelop/pics/CVprivate_signal.png
+* kdevelop /usr/share/kdevelop/pics/CVprivate_slot.png
+* kdevelop /usr/share/kdevelop/pics/CVprivate_var.png
+* kdevelop /usr/share/kdevelop/pics/CVprotected_meth.png
+* kdevelop /usr/share/kdevelop/pics/CVprotected_signal.png
+* kdevelop /usr/share/kdevelop/pics/CVprotected_slot.png
+* kdevelop /usr/share/kdevelop/pics/CVprotected_var.png
+* kdevelop /usr/share/kdevelop/pics/CVpublic_meth.png
+* kdevelop /usr/share/kdevelop/pics/CVpublic_signal.png
+* kdevelop /usr/share/kdevelop/pics/CVpublic_slot.png
+* kdevelop /usr/share/kdevelop/pics/CVpublic_var.png
+* kdevelop /usr/share/kdevelop/pics/CVstruct.png
+* kdevelop /usr/share/kdevelop/pics/CVtypedef.png
+* kdevelop /usr/share/kdevelop/pics/enum.png
+* kdevelop /usr/share/kdevelop/pics/field.png
+* kdevelop /usr/share/kdevelop/pics/namespace.png
+* kdevelop /usr/share/kdevelop/pics/private_class.png
+* kdevelop /usr/share/kdevelop/pics/private_enum.png
+* kdevelop /usr/share/kdevelop/pics/private_field.png
+* kdevelop /usr/share/kdevelop/pics/private_function.png
+* kdevelop /usr/share/kdevelop/pics/private_struct.png
+* kdevelop /usr/share/kdevelop/pics/private_union.png
+* kdevelop /usr/share/kdevelop/pics/protected_class.png
+* kdevelop /usr/share/kdevelop/pics/protected_enum.png
+* kdevelop /usr/share/kdevelop/pics/protected_field.png
+* kdevelop /usr/share/kdevelop/pics/protected_function.png
+* kdevelop /usr/share/kdevelop/pics/protected_struct.png
+* kdevelop /usr/share/kdevelop/pics/protected_union.png
+* kdevelop /usr/share/kdevelop/pics/signal.png
+* kdevelop /usr/share/kdevelop/pics/slot.png
+* kdevelop /usr/share/kdevelop/pics/struct.png
+* kdevelop /usr/share/kdevelop/pics/typedef.png
+* kdevelop /usr/share/kdevelop/pics/union.png
+* kdevelop /usr/share/kdevelop/shortcuts/QtCreator
+* kdevelop /usr/share/kdevfiletemplates/templates/cmake_module.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/cpp_basic.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/cpp_cpputest.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/cpp_gtest.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/cpp_qtestlib.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/cpp_qtestlib_kdevelop.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/c_gobject.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/c_gobject_private.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/c_gobject_properties.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/dockerfile-template.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/flatpak-template.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/php_phpunit.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/private_pointer.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/python_basic.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/python_pyunit.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qabstractitemmodel.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qabstractitemmodel_pimpl.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qdialog.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qdialog_pimpl.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qobject.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qobject_pimpl.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qt_interface.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qt_qrc_file.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qt_shared.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qt_widget.tar.bz2
+* kdevelop /usr/share/kdevfiletemplates/templates/qwidget_pimpl.tar.bz2
+* kdevelop /usr/share/kdevgdb/printers/gdbinit
+* kdevelop /usr/share/kdevgdb/printers/helper.py
+* kdevelop /usr/share/kdevgdb/printers/kde.py
+* kdevelop /usr/share/kdevgdb/printers/qt.py
+* kdevelop /usr/share/kdevlldb/formatters/all.py
+* kdevelop /usr/share/kdevlldb/formatters/helpers.py
+* kdevelop /usr/share/kdevlldb/formatters/kde.py
+* kdevelop /usr/share/kdevlldb/formatters/qt.py
+* kdevelop /usr/share/kdevmanpage/manpagedocumentation.css
+* kdevelop /usr/share/kdevplatform/shellutils/.zshrc
+* kdevelop /usr/share/knotifications6/kdevelop.notifyrc
+* kdevelop /usr/share/knsrcfiles/kdevappwizard.knsrc
+* kdevelop /usr/share/knsrcfiles/kdevelop-qthelp.knsrc
+* kdevelop /usr/share/knsrcfiles/kdevfiletemplates.knsrc
+* kdevelop /usr/share/locale/af/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ar/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/az/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/az/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/az/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/az/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/az/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/az/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/be/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/bg/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/br/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/bs/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ca/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/cs/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/cy/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/da/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/de/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/el/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/en_GB/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/eo/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/es/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/et/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/eu/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/fa/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/fi/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/fr/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ga/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/gl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/hi/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/hne/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/hr/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/hu/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/is/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/it/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ja/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ka/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/kk/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/km/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ko/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ku/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/lt/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/lv/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/mai/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/mai/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/mai/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/mai/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/mr/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ms/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/nb/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/nds/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ne/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/nl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/nn/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/oc/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/pa/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/pl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/pt/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ro/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ru/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/se/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/sk/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/sl/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/sv/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ta/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ta/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/tg/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/tg/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/th/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/th/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/th/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/th/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/tr/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/ug/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/uk/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/vi/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/vi/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/xh/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevandroid.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevappwizard.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevastyle.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevbazaar.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevclang.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevclangtidy.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevclassbrowser.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevclazy.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcmake.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcmakebuilder.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcodeutils.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcompileanalyzercommon.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcontextbrowser.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcppcheck.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustombuildsystem.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustomdefinesandincludes.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustommake.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevcustomscript.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevdebuggercommon.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevdocker.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevdocumentswitcher.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevdocumentview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevelop.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevexecute.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevexecuteplasmoid.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevexecutescript.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevexternalscript.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevfilemanager.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevfiletemplates.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevflatpak.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevgdb.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevghprovider.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevgit.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevgrepview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevheaptrack.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevkonsole.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevlldb.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevmakebuilder.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevmanpage.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevmesonmanager.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevninja.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevokteta.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevopenwith.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevoutlineview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevpatchreview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevperforce.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevplatform.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevproblemreporter.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevprojectfilter.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevprojectmanagerview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevqmakebuilder.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevqmakemanager.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevqmljs.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevqthelp.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevquickopen.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevscratchpad.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevsourceformatter.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevstandardoutputview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevsubversion.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevswitchtobuddy.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevtestview.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevvcsprojectintegration.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/kdevwelcomepage.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
+* kdevelop /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
+* kdevelop /usr/share/metainfo/org.kde.kdevelop.appdata.xml
+* kdevelop /usr/share/metainfo/org.kde.kdevelopsessions.appdata.xml
+* kdevelop /usr/share/mime/packages/kdevclang.xml
+* kdevelop /usr/share/mime/packages/kdevelop.xml
+* kdevelop /usr/share/mime/packages/kdevgit.xml
+* kdevelop /usr/share/plasma/plasmoids/org.kde.kdevelopsessions/contents/ui/main.qml
+* kdevelop /usr/share/plasma/plasmoids/org.kde.kdevelopsessions/metadata.json
+* kdevelop /usr/share/qlogging-categories6/kdevelop.categories
+* kdevelop /usr/share/qlogging-categories6/kdevplatform.categories

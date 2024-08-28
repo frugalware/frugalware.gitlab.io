@@ -12,7 +12,7 @@ size = "15348"
 usize = "49066"
 sha1sum = "84efc594ad1f5ed856c8cd0381ee28257840cfb3"
 depends = "['python3>=3.11']"
-reverse_depends = "['python3-zeroconf']"
+reverse_depends = "['./python3-zeroconf', 'python3-zeroconf']"
 +++
 ### Description: 
 Enumerates all IP addresses on all network adapters of the system

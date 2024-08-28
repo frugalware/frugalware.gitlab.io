@@ -12,7 +12,7 @@ size = "663316"
 usize = "727476"
 sha1sum = "e7c8f84b09a5fd69a933d54bb87d9ac9d919b781"
 depends = "['thunderbird>=128.1.0']"
-reverse_depends = "['thunderbird-i18n']"
+reverse_depends = "['./thunderbird-i18n', 'thunderbird-i18n']"
 +++
 ### Description: 
 Scottish Gaelic language support for Thunderbird

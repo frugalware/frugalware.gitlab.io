@@ -12,7 +12,7 @@ size = "77484"
 usize = "209600"
 sha1sum = "668979e317e00398e0091e2904867876416e19e1"
 depends = "['glibc>=2.34']"
-reverse_depends = "['kdepim-addons', 'labplot', 'okular']"
+reverse_depends = "['./kdepim-addons', './okular', 'kdepim-addons', 'labplot', 'okular']"
 +++
 ### Description: 
 A Markdown implementation written in C

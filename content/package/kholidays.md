@@ -12,7 +12,7 @@ size = "257224"
 usize = "936244"
 sha1sum = "affdc3410316b3ed7d71caa3f81cf0b56080b19a"
 depends = "['qt6-base>=6.7.1']"
-reverse_depends = "['calendarsupport', 'itinerary', 'kalarm', 'kopeninghours', 'kweathercore', 'plasma-workspace']"
+reverse_depends = "['./kalarm', './kweathercore', 'calendarsupport', 'itinerary', 'kalarm', 'kopeninghours', 'kweathercore', 'plasma-workspace']"
 +++
 ### Description: 
 C++ library for calendar holidays.

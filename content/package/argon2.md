@@ -12,7 +12,7 @@ size = "31180"
 usize = "109099"
 sha1sum = "e2daff8012e84b31f65e83a1d255740daf727068"
 depends = "['glibc>=2.35']"
-reverse_depends = "['cryptsetup-luks', 'keepassxc', 'opendht']"
+reverse_depends = "['./opendht', 'cryptsetup-luks', 'keepassxc', 'opendht']"
 license = "custom:CC0"
 +++
 ### Description: 

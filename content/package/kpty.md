@@ -12,7 +12,7 @@ size = "43100"
 usize = "157990"
 sha1sum = "4278d11d8391f4a38a35cd0195f5dbb72ddb6c69"
 depends = "['kcoreaddons>=6.5.0', 'ki18n>=6.5.0', 'libutempter']"
-reverse_depends = "['ark', 'cantor', 'kdesu', 'kio-extras', 'konsole', 'kwrited', 'kwrited5', 'okular', 'qmlkonsole']"
+reverse_depends = "['./ark', './cantor', './konsole', './okular', 'ark', 'cantor', 'kdesu', 'kio-extras', 'konsole', 'kwrited', 'kwrited5', 'okular', 'qmlkonsole']"
 +++
 ### Description: 
 Interfacing with pseudo terminal devices.

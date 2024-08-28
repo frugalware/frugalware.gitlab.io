@@ -12,7 +12,7 @@ size = "258188"
 usize = "984588"
 sha1sum = "9d8d694a6866ee3360ff02aac025987904d3fef1"
 depends = "['libffi>=3.4', 'python3>=3.12', 'python3-pycparser>=2.16']"
-reverse_depends = "['lutris', 'python3-bcrypt', 'python3-cryptography', 'python3-xattr']"
+reverse_depends = "['./python3-cryptography', 'lutris', 'python3-bcrypt', 'python3-cryptography', 'python3-xattr']"
 +++
 ### Description: 
 cryptography expose cryptographic recipes and primitives in a python module

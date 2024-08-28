@@ -1,240 +1,240 @@
 +++
 draft = false
-title = "khangman 24.05.2-1"
-version = "24.05.2-1"
+title = "./khangman 24.08.0-1"
+version = "24.08.0-1"
 description = "KDE hangman game."
-date = "2024-07-05T10:15:07"
-aliases = "/packages/152829"
+date = "2024-08-22T14:54:48"
+aliases = "/packages/222235"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6215480"
-usize = "9528479"
-sha1sum = "f8d41efff9b83f8254879c28fb79ccaf789c11c4"
-depends = "['kdeclarative>=6.3.0', 'knewstuff>=6.3.0', 'libkeduvocdocument>=24.05.2', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
+size = "6207308"
+usize = "9529739"
+sha1sum = "6decb7350c74210fb024f06b66288c84feb7d692"
+depends = "['kdeclarative>=6.5.0', 'knewstuff>=6.5.0', 'libkeduvocdocument>=24.08.0', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
 +++
 ### Description: 
 KDE hangman game.
 
 ### Files: 
-* /usr/bin/khangman
-* /usr/share/applications/org.kde.khangman.desktop
-* /usr/share/config.kcfg/khangman.kcfg
-* /usr/share/doc/HTML/ca/khangman/index.cache.bz2
-* /usr/share/doc/HTML/ca/khangman/index.docbook
-* /usr/share/doc/HTML/de/khangman/getnewstuff.png
-* /usr/share/doc/HTML/de/khangman/index.cache.bz2
-* /usr/share/doc/HTML/de/khangman/index.docbook
-* /usr/share/doc/HTML/de/khangman/khangman-desert.png
-* /usr/share/doc/HTML/de/khangman/khangman-main.png
-* /usr/share/doc/HTML/de/khangman/settings-general.png
-* /usr/share/doc/HTML/de/khangman/settings-languages.png
-* /usr/share/doc/HTML/de/khangman/settings-timers.png
-* /usr/share/doc/HTML/en/khangman/about-kde.png
-* /usr/share/doc/HTML/en/khangman/application-exit.png
-* /usr/share/doc/HTML/en/khangman/dialog-information.png
-* /usr/share/doc/HTML/en/khangman/document-new.png
-* /usr/share/doc/HTML/en/khangman/games-hint.png
-* /usr/share/doc/HTML/en/khangman/get-hot-new-stuff.png
-* /usr/share/doc/HTML/en/khangman/getnewstuff.png
-* /usr/share/doc/HTML/en/khangman/go-next.png
-* /usr/share/doc/HTML/en/khangman/handbook.png
-* /usr/share/doc/HTML/en/khangman/help-hint.png
-* /usr/share/doc/HTML/en/khangman/index.cache.bz2
-* /usr/share/doc/HTML/en/khangman/index.docbook
-* /usr/share/doc/HTML/en/khangman/khangman-desert.png
-* /usr/share/doc/HTML/en/khangman/khangman-main.png
-* /usr/share/doc/HTML/en/khangman/pause.png
-* /usr/share/doc/HTML/en/khangman/play.png
-* /usr/share/doc/HTML/en/khangman/quit.png
-* /usr/share/doc/HTML/en/khangman/settings-general.png
-* /usr/share/doc/HTML/en/khangman/settings-languages.png
-* /usr/share/doc/HTML/en/khangman/settings-timers.png
-* /usr/share/doc/HTML/en/khangman/settings.png
-* /usr/share/doc/HTML/en/khangman/settings_icon.png
-* /usr/share/doc/HTML/en/khangman/statusbar.png
-* /usr/share/doc/HTML/en/khangman/toolbar.png
-* /usr/share/doc/HTML/es/khangman/getnewstuff.png
-* /usr/share/doc/HTML/es/khangman/index.cache.bz2
-* /usr/share/doc/HTML/es/khangman/index.docbook
-* /usr/share/doc/HTML/es/khangman/khangman-desert.png
-* /usr/share/doc/HTML/es/khangman/khangman-main.png
-* /usr/share/doc/HTML/es/khangman/settings-general.png
-* /usr/share/doc/HTML/es/khangman/settings-languages.png
-* /usr/share/doc/HTML/es/khangman/settings-timers.png
-* /usr/share/doc/HTML/et/khangman/index.cache.bz2
-* /usr/share/doc/HTML/et/khangman/index.docbook
-* /usr/share/doc/HTML/id/khangman/index.cache.bz2
-* /usr/share/doc/HTML/id/khangman/index.docbook
-* /usr/share/doc/HTML/it/khangman/getnewstuff.png
-* /usr/share/doc/HTML/it/khangman/index.cache.bz2
-* /usr/share/doc/HTML/it/khangman/index.docbook
-* /usr/share/doc/HTML/it/khangman/khangman-desert.png
-* /usr/share/doc/HTML/it/khangman/khangman-main.png
-* /usr/share/doc/HTML/it/khangman/settings.png
-* /usr/share/doc/HTML/nl/khangman/index.cache.bz2
-* /usr/share/doc/HTML/nl/khangman/index.docbook
-* /usr/share/doc/HTML/pt/khangman/index.cache.bz2
-* /usr/share/doc/HTML/pt/khangman/index.docbook
-* /usr/share/doc/HTML/pt_BR/khangman/getnewstuff.png
-* /usr/share/doc/HTML/pt_BR/khangman/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/khangman/index.docbook
-* /usr/share/doc/HTML/pt_BR/khangman/khangman-desert.png
-* /usr/share/doc/HTML/pt_BR/khangman/khangman-main.png
-* /usr/share/doc/HTML/pt_BR/khangman/settings-general.png
-* /usr/share/doc/HTML/pt_BR/khangman/settings-languages.png
-* /usr/share/doc/HTML/pt_BR/khangman/settings-timers.png
-* /usr/share/doc/HTML/ru/khangman/getnewstuff.png
-* /usr/share/doc/HTML/ru/khangman/index.cache.bz2
-* /usr/share/doc/HTML/ru/khangman/index.docbook
-* /usr/share/doc/HTML/ru/khangman/khangman-desert.png
-* /usr/share/doc/HTML/ru/khangman/khangman-main.png
-* /usr/share/doc/HTML/ru/khangman/settings.png
-* /usr/share/doc/HTML/sv/khangman/getnewstuff.png
-* /usr/share/doc/HTML/sv/khangman/index.cache.bz2
-* /usr/share/doc/HTML/sv/khangman/index.docbook
-* /usr/share/doc/HTML/uk/khangman/getnewstuff.png
-* /usr/share/doc/HTML/uk/khangman/index.cache.bz2
-* /usr/share/doc/HTML/uk/khangman/index.docbook
-* /usr/share/doc/HTML/uk/khangman/khangman-desert.png
-* /usr/share/doc/HTML/uk/khangman/khangman-main.png
-* /usr/share/doc/HTML/uk/khangman/settings-general.png
-* /usr/share/doc/HTML/uk/khangman/settings-languages.png
-* /usr/share/doc/HTML/uk/khangman/settings-timers.png
-* /usr/share/doc/HTML/uk/khangman/settings.png
-* /usr/share/doc/khangman-24.05.2/AUTHORS
-* /usr/share/doc/khangman-24.05.2/ChangeLog
-* /usr/share/doc/khangman-24.05.2/COPYING
-* /usr/share/doc/khangman-24.05.2/COPYING.DOC
-* /usr/share/doc/khangman-24.05.2/INSTALL
-* /usr/share/doc/khangman-24.05.2/README
-* /usr/share/doc/khangman-24.05.2/README.developer
-* /usr/share/doc/khangman-24.05.2/README.languages
-* /usr/share/doc/khangman-24.05.2/README_packagers
-* /usr/share/doc/khangman-24.05.2/TODO
-* /usr/share/icons/hicolor/128x128/apps/khangman.png
-* /usr/share/icons/hicolor/16x16/apps/khangman.png
-* /usr/share/icons/hicolor/22x22/apps/khangman.png
-* /usr/share/icons/hicolor/32x32/apps/khangman.png
-* /usr/share/icons/hicolor/48x48/apps/khangman.png
-* /usr/share/icons/hicolor/64x64/apps/khangman.png
-* /usr/share/icons/hicolor/scalable/apps/khangman.svgz
-* /usr/share/khangman/ca.txt
-* /usr/share/khangman/cs.txt
-* /usr/share/khangman/da.txt
-* /usr/share/khangman/de.txt
-* /usr/share/khangman/eo.txt
-* /usr/share/khangman/es.txt
-* /usr/share/khangman/et.txt
-* /usr/share/khangman/fi.txt
-* /usr/share/khangman/fonts/Domestic_Manners.ttf
-* /usr/share/khangman/fonts/Dustismo_Roman.ttf
-* /usr/share/khangman/fr.txt
-* /usr/share/khangman/ga.txt
-* /usr/share/khangman/gl.txt
-* /usr/share/khangman/hu.txt
-* /usr/share/khangman/nb.txt
-* /usr/share/khangman/nds.txt
-* /usr/share/khangman/nn.txt
-* /usr/share/khangman/pl.txt
-* /usr/share/khangman/pt.txt
-* /usr/share/khangman/pt_BR.txt
-* /usr/share/khangman/sk.txt
-* /usr/share/khangman/sl.txt
-* /usr/share/khangman/sr@ijekavianlatin.txt
-* /usr/share/khangman/sr@latin.txt
-* /usr/share/khangman/sv.txt
-* /usr/share/khangman/tg.txt
-* /usr/share/khangman/themes/khangman_bees.svg
-* /usr/share/khangman/themes/khangman_desert.svg
-* /usr/share/khangman/themes/khangman_notes.png
-* /usr/share/khangman/themes/khangman_sea.svg
-* /usr/share/khangman/themes/khangman_winter.svg
-* /usr/share/khangman/themes/standardthemes.xml
-* /usr/share/khangman/tr.txt
-* /usr/share/knsrcfiles/khangman.knsrc
-* /usr/share/locale/af/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ar/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ast/LC_MESSAGES/khangman.mo
-* /usr/share/locale/be/LC_MESSAGES/khangman.mo
-* /usr/share/locale/bg/LC_MESSAGES/khangman.mo
-* /usr/share/locale/bn/LC_MESSAGES/khangman.mo
-* /usr/share/locale/br/LC_MESSAGES/khangman.mo
-* /usr/share/locale/bs/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ca/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/khangman.mo
-* /usr/share/locale/cs/LC_MESSAGES/khangman.mo
-* /usr/share/locale/cy/LC_MESSAGES/khangman.mo
-* /usr/share/locale/da/LC_MESSAGES/khangman.mo
-* /usr/share/locale/de/LC_MESSAGES/khangman.mo
-* /usr/share/locale/el/LC_MESSAGES/khangman.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/khangman.mo
-* /usr/share/locale/eo/LC_MESSAGES/khangman.mo
-* /usr/share/locale/es/LC_MESSAGES/khangman.mo
-* /usr/share/locale/et/LC_MESSAGES/khangman.mo
-* /usr/share/locale/eu/LC_MESSAGES/khangman.mo
-* /usr/share/locale/fa/LC_MESSAGES/khangman.mo
-* /usr/share/locale/fi/LC_MESSAGES/khangman.mo
-* /usr/share/locale/fr/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ga/LC_MESSAGES/khangman.mo
-* /usr/share/locale/gl/LC_MESSAGES/khangman.mo
-* /usr/share/locale/gu/LC_MESSAGES/khangman.mo
-* /usr/share/locale/he/LC_MESSAGES/khangman.mo
-* /usr/share/locale/hi/LC_MESSAGES/khangman.mo
-* /usr/share/locale/hne/LC_MESSAGES/khangman.mo
-* /usr/share/locale/hr/LC_MESSAGES/khangman.mo
-* /usr/share/locale/hu/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ia/LC_MESSAGES/khangman.mo
-* /usr/share/locale/is/LC_MESSAGES/khangman.mo
-* /usr/share/locale/it/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ja/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ka/LC_MESSAGES/khangman.mo
-* /usr/share/locale/kk/LC_MESSAGES/khangman.mo
-* /usr/share/locale/km/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ko/LC_MESSAGES/khangman.mo
-* /usr/share/locale/lt/LC_MESSAGES/khangman.mo
-* /usr/share/locale/lv/LC_MESSAGES/khangman.mo
-* /usr/share/locale/mk/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ml/LC_MESSAGES/khangman.mo
-* /usr/share/locale/mr/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ms/LC_MESSAGES/khangman.mo
-* /usr/share/locale/nb/LC_MESSAGES/khangman.mo
-* /usr/share/locale/nds/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ne/LC_MESSAGES/khangman.mo
-* /usr/share/locale/nl/LC_MESSAGES/khangman.mo
-* /usr/share/locale/nn/LC_MESSAGES/khangman.mo
-* /usr/share/locale/oc/LC_MESSAGES/khangman.mo
-* /usr/share/locale/pa/LC_MESSAGES/khangman.mo
-* /usr/share/locale/pl/LC_MESSAGES/khangman.mo
-* /usr/share/locale/pt/LC_MESSAGES/khangman.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ro/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ru/LC_MESSAGES/khangman.mo
-* /usr/share/locale/se/LC_MESSAGES/khangman.mo
-* /usr/share/locale/si/LC_MESSAGES/khangman.mo
-* /usr/share/locale/sk/LC_MESSAGES/khangman.mo
-* /usr/share/locale/sl/LC_MESSAGES/khangman.mo
-* /usr/share/locale/sq/LC_MESSAGES/khangman.mo
-* /usr/share/locale/sv/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ta/LC_MESSAGES/khangman.mo
-* /usr/share/locale/tg/LC_MESSAGES/khangman.mo
-* /usr/share/locale/tr/LC_MESSAGES/khangman.mo
-* /usr/share/locale/ug/LC_MESSAGES/khangman.mo
-* /usr/share/locale/uk/LC_MESSAGES/khangman.mo
-* /usr/share/locale/xh/LC_MESSAGES/khangman.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/khangman.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/khangman.mo
-* /usr/share/man/ca/man6/khangman.6.gz
-* /usr/share/man/de/man6/khangman.6.gz
-* /usr/share/man/es/man6/khangman.6.gz
-* /usr/share/man/et/man6/khangman.6.gz
-* /usr/share/man/fr/man6/khangman.6.gz
-* /usr/share/man/it/man6/khangman.6.gz
-* /usr/share/man/man6/khangman.6.gz
-* /usr/share/man/nl/man6/khangman.6.gz
-* /usr/share/man/pt/man6/khangman.6.gz
-* /usr/share/man/pt_BR/man6/khangman.6.gz
-* /usr/share/man/ru/man6/khangman.6.gz
-* /usr/share/man/sv/man6/khangman.6.gz
-* /usr/share/man/uk/man6/khangman.6.gz
-* /usr/share/metainfo/org.kde.khangman.appdata.xml
+* khangman /usr/bin/khangman
+* khangman /usr/share/applications/org.kde.khangman.desktop
+* khangman /usr/share/config.kcfg/khangman.kcfg
+* khangman /usr/share/doc/HTML/ca/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/ca/khangman/index.docbook
+* khangman /usr/share/doc/HTML/de/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/de/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/de/khangman/index.docbook
+* khangman /usr/share/doc/HTML/de/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/de/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/de/khangman/settings-general.png
+* khangman /usr/share/doc/HTML/de/khangman/settings-languages.png
+* khangman /usr/share/doc/HTML/de/khangman/settings-timers.png
+* khangman /usr/share/doc/HTML/en/khangman/about-kde.png
+* khangman /usr/share/doc/HTML/en/khangman/application-exit.png
+* khangman /usr/share/doc/HTML/en/khangman/dialog-information.png
+* khangman /usr/share/doc/HTML/en/khangman/document-new.png
+* khangman /usr/share/doc/HTML/en/khangman/games-hint.png
+* khangman /usr/share/doc/HTML/en/khangman/get-hot-new-stuff.png
+* khangman /usr/share/doc/HTML/en/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/en/khangman/go-next.png
+* khangman /usr/share/doc/HTML/en/khangman/handbook.png
+* khangman /usr/share/doc/HTML/en/khangman/help-hint.png
+* khangman /usr/share/doc/HTML/en/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/en/khangman/index.docbook
+* khangman /usr/share/doc/HTML/en/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/en/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/en/khangman/pause.png
+* khangman /usr/share/doc/HTML/en/khangman/play.png
+* khangman /usr/share/doc/HTML/en/khangman/quit.png
+* khangman /usr/share/doc/HTML/en/khangman/settings-general.png
+* khangman /usr/share/doc/HTML/en/khangman/settings-languages.png
+* khangman /usr/share/doc/HTML/en/khangman/settings-timers.png
+* khangman /usr/share/doc/HTML/en/khangman/settings.png
+* khangman /usr/share/doc/HTML/en/khangman/settings_icon.png
+* khangman /usr/share/doc/HTML/en/khangman/statusbar.png
+* khangman /usr/share/doc/HTML/en/khangman/toolbar.png
+* khangman /usr/share/doc/HTML/es/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/es/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/es/khangman/index.docbook
+* khangman /usr/share/doc/HTML/es/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/es/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/es/khangman/settings-general.png
+* khangman /usr/share/doc/HTML/es/khangman/settings-languages.png
+* khangman /usr/share/doc/HTML/es/khangman/settings-timers.png
+* khangman /usr/share/doc/HTML/et/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/et/khangman/index.docbook
+* khangman /usr/share/doc/HTML/id/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/id/khangman/index.docbook
+* khangman /usr/share/doc/HTML/it/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/it/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/it/khangman/index.docbook
+* khangman /usr/share/doc/HTML/it/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/it/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/it/khangman/settings.png
+* khangman /usr/share/doc/HTML/nl/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/nl/khangman/index.docbook
+* khangman /usr/share/doc/HTML/pt/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/pt/khangman/index.docbook
+* khangman /usr/share/doc/HTML/pt_BR/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/pt_BR/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/pt_BR/khangman/index.docbook
+* khangman /usr/share/doc/HTML/pt_BR/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/pt_BR/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/pt_BR/khangman/settings-general.png
+* khangman /usr/share/doc/HTML/pt_BR/khangman/settings-languages.png
+* khangman /usr/share/doc/HTML/pt_BR/khangman/settings-timers.png
+* khangman /usr/share/doc/HTML/ru/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/ru/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/ru/khangman/index.docbook
+* khangman /usr/share/doc/HTML/ru/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/ru/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/ru/khangman/settings.png
+* khangman /usr/share/doc/HTML/sv/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/sv/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/sv/khangman/index.docbook
+* khangman /usr/share/doc/HTML/uk/khangman/getnewstuff.png
+* khangman /usr/share/doc/HTML/uk/khangman/index.cache.bz2
+* khangman /usr/share/doc/HTML/uk/khangman/index.docbook
+* khangman /usr/share/doc/HTML/uk/khangman/khangman-desert.png
+* khangman /usr/share/doc/HTML/uk/khangman/khangman-main.png
+* khangman /usr/share/doc/HTML/uk/khangman/settings-general.png
+* khangman /usr/share/doc/HTML/uk/khangman/settings-languages.png
+* khangman /usr/share/doc/HTML/uk/khangman/settings-timers.png
+* khangman /usr/share/doc/HTML/uk/khangman/settings.png
+* khangman /usr/share/doc/khangman-24.08.0/AUTHORS
+* khangman /usr/share/doc/khangman-24.08.0/ChangeLog
+* khangman /usr/share/doc/khangman-24.08.0/COPYING
+* khangman /usr/share/doc/khangman-24.08.0/COPYING.DOC
+* khangman /usr/share/doc/khangman-24.08.0/INSTALL
+* khangman /usr/share/doc/khangman-24.08.0/README
+* khangman /usr/share/doc/khangman-24.08.0/README.developer
+* khangman /usr/share/doc/khangman-24.08.0/README.languages
+* khangman /usr/share/doc/khangman-24.08.0/README_packagers
+* khangman /usr/share/doc/khangman-24.08.0/TODO
+* khangman /usr/share/icons/hicolor/128x128/apps/khangman.png
+* khangman /usr/share/icons/hicolor/16x16/apps/khangman.png
+* khangman /usr/share/icons/hicolor/22x22/apps/khangman.png
+* khangman /usr/share/icons/hicolor/32x32/apps/khangman.png
+* khangman /usr/share/icons/hicolor/48x48/apps/khangman.png
+* khangman /usr/share/icons/hicolor/64x64/apps/khangman.png
+* khangman /usr/share/icons/hicolor/scalable/apps/khangman.svgz
+* khangman /usr/share/khangman/ca.txt
+* khangman /usr/share/khangman/cs.txt
+* khangman /usr/share/khangman/da.txt
+* khangman /usr/share/khangman/de.txt
+* khangman /usr/share/khangman/eo.txt
+* khangman /usr/share/khangman/es.txt
+* khangman /usr/share/khangman/et.txt
+* khangman /usr/share/khangman/fi.txt
+* khangman /usr/share/khangman/fonts/Domestic_Manners.ttf
+* khangman /usr/share/khangman/fonts/Dustismo_Roman.ttf
+* khangman /usr/share/khangman/fr.txt
+* khangman /usr/share/khangman/ga.txt
+* khangman /usr/share/khangman/gl.txt
+* khangman /usr/share/khangman/hu.txt
+* khangman /usr/share/khangman/nb.txt
+* khangman /usr/share/khangman/nds.txt
+* khangman /usr/share/khangman/nn.txt
+* khangman /usr/share/khangman/pl.txt
+* khangman /usr/share/khangman/pt.txt
+* khangman /usr/share/khangman/pt_BR.txt
+* khangman /usr/share/khangman/sk.txt
+* khangman /usr/share/khangman/sl.txt
+* khangman /usr/share/khangman/sr@ijekavianlatin.txt
+* khangman /usr/share/khangman/sr@latin.txt
+* khangman /usr/share/khangman/sv.txt
+* khangman /usr/share/khangman/tg.txt
+* khangman /usr/share/khangman/themes/khangman_bees.svg
+* khangman /usr/share/khangman/themes/khangman_desert.svg
+* khangman /usr/share/khangman/themes/khangman_notes.png
+* khangman /usr/share/khangman/themes/khangman_sea.svg
+* khangman /usr/share/khangman/themes/khangman_winter.svg
+* khangman /usr/share/khangman/themes/standardthemes.xml
+* khangman /usr/share/khangman/tr.txt
+* khangman /usr/share/knsrcfiles/khangman.knsrc
+* khangman /usr/share/locale/af/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ar/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ast/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/be/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/bg/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/bn/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/br/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/bs/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ca/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ca@valencia/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/cs/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/cy/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/da/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/de/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/el/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/en_GB/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/eo/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/es/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/et/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/eu/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/fa/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/fi/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/fr/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ga/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/gl/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/gu/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/he/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/hi/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/hne/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/hr/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/hu/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ia/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/is/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/it/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ja/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ka/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/kk/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/km/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ko/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/lt/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/lv/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/mk/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ml/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/mr/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ms/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/nb/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/nds/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ne/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/nl/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/nn/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/oc/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/pa/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/pl/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/pt/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/pt_BR/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ro/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ru/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/se/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/si/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/sk/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/sl/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/sq/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/sv/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ta/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/tg/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/tr/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/ug/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/uk/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/xh/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/zh_CN/LC_MESSAGES/khangman.mo
+* khangman /usr/share/locale/zh_TW/LC_MESSAGES/khangman.mo
+* khangman /usr/share/man/ca/man6/khangman.6.gz
+* khangman /usr/share/man/de/man6/khangman.6.gz
+* khangman /usr/share/man/es/man6/khangman.6.gz
+* khangman /usr/share/man/et/man6/khangman.6.gz
+* khangman /usr/share/man/fr/man6/khangman.6.gz
+* khangman /usr/share/man/it/man6/khangman.6.gz
+* khangman /usr/share/man/man6/khangman.6.gz
+* khangman /usr/share/man/nl/man6/khangman.6.gz
+* khangman /usr/share/man/pt/man6/khangman.6.gz
+* khangman /usr/share/man/pt_BR/man6/khangman.6.gz
+* khangman /usr/share/man/ru/man6/khangman.6.gz
+* khangman /usr/share/man/sv/man6/khangman.6.gz
+* khangman /usr/share/man/uk/man6/khangman.6.gz
+* khangman /usr/share/metainfo/org.kde.khangman.appdata.xml

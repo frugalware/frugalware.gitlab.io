@@ -12,7 +12,7 @@ size = "174048"
 usize = "1691957"
 sha1sum = "e70eb8ed27b32babf2ba12b2996b2032fc0e6b03"
 depends = "['python3>=3.12']"
-reverse_depends = "['audiotube', 'dlib', 'opencolorio', 'openimageio', 'python3-scipy']"
+reverse_depends = "['./python3-scipy', 'audiotube', 'dlib', 'opencolorio', 'openimageio', 'python3-scipy']"
 +++
 ### Description: 
 A lightweight header-only library that exposes C++ types in Python and vice versa

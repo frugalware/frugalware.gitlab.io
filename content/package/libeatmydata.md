@@ -12,7 +12,7 @@ size = "16800"
 usize = "49818"
 sha1sum = "071f2f35491c815da53284b56b699abdc147e7ed"
 depends = "['glibc']"
-reverse_depends = "['pacman-g2']"
+reverse_depends = "['./pacman-g2', 'pacman-g2']"
 +++
 ### Description: 
 Library and utilities designed to disable fsync and friends.

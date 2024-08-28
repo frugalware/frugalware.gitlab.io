@@ -12,7 +12,7 @@ size = "34116"
 usize = "96417"
 sha1sum = "231072ea044a57847767f0eb5edbba3ee5f0b805"
 depends = "['glibc>=2.34']"
-reverse_depends = "['fwupd']"
+reverse_depends = "['./fwupd', 'fwupd']"
 +++
 ### Description: 
 EFI Application used by uefi-capsule plugin in fwupd

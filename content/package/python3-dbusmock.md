@@ -1,97 +1,100 @@
 +++
 draft = false
-title = "python3-dbusmock 0.31.1-1"
-version = "0.31.1-1"
+title = "./python3-dbusmock 0.32.1-1"
+version = "0.32.1-1"
 description = "python-dbusmock: mock D-Bus objects for tests"
-date = "2024-06-26T12:10:19"
-aliases = "/packages/219601"
+date = "2024-08-26T09:21:13"
+aliases = "/packages/222366"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/python-dbusmock"
 arch = "x86_64"
-size = "114584"
-usize = "756250"
-sha1sum = "906c61982580eb14ce594d93e60aa977da67d01a"
+size = "120852"
+usize = "800875"
+sha1sum = "5451387d369b499794ded77c2eaa3ef29498de10"
 depends = "['dbus-python']"
 +++
 ### Description: 
 python-dbusmock: mock D-Bus objects for tests
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/dbusmock/mockobject.py
-* /usr/lib/python3.12/site-packages/dbusmock/pytest_fixtures.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/bluez5-obex.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/bluez5.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/gnome_screensaver.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/iio-sensors-proxy.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/logind.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/low_memory_monitor.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/networkmanager.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/notification_daemon.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/ofono.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/polkitd.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/power_profiles_daemon.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/SKELETON
-* /usr/lib/python3.12/site-packages/dbusmock/templates/systemd.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/timedated.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/upower.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/upower_power_profiles_daemon.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/urfkill.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__init__.py
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5-obex.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5-obex.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/gnome_screensaver.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/gnome_screensaver.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/iio-sensors-proxy.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/iio-sensors-proxy.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/logind.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/logind.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/low_memory_monitor.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/low_memory_monitor.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/networkmanager.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/networkmanager.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/notification_daemon.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/notification_daemon.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/ofono.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/ofono.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/polkitd.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/polkitd.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/power_profiles_daemon.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/power_profiles_daemon.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/systemd.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/systemd.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/timedated.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/timedated.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower_power_profiles_daemon.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower_power_profiles_daemon.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/urfkill.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/urfkill.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/testcase.py
-* /usr/lib/python3.12/site-packages/dbusmock/_version.py
-* /usr/lib/python3.12/site-packages/dbusmock/__init__.py
-* /usr/lib/python3.12/site-packages/dbusmock/__main__.py
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/mockobject.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/mockobject.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/pytest_fixtures.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/pytest_fixtures.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/testcase.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/testcase.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/_version.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/_version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__main__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/python_dbusmock-0.31.1.dist-info/WHEEL
-* /usr/share/doc/python3-dbusmock-0.31.1/COPYING
-* /usr/share/doc/python3-dbusmock-0.31.1/NEWS
-* /usr/share/doc/python3-dbusmock-0.31.1/README.md
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/mockobject.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/pytest_fixtures.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/bluez5-obex.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/bluez5.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/gnome_screensaver.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/iio-sensors-proxy.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/logind.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/low_memory_monitor.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/modemmanager.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/networkmanager.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/notification_daemon.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/ofono.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/polkitd.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/power_profiles_daemon.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/SKELETON
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/systemd.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/timedated.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/upower.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/upower_power_profiles_daemon.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/urfkill.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__init__.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5-obex.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5-obex.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/bluez5.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/gnome_screensaver.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/gnome_screensaver.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/iio-sensors-proxy.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/iio-sensors-proxy.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/logind.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/logind.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/low_memory_monitor.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/low_memory_monitor.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/modemmanager.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/modemmanager.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/networkmanager.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/networkmanager.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/notification_daemon.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/notification_daemon.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/ofono.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/ofono.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/polkitd.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/polkitd.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/power_profiles_daemon.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/power_profiles_daemon.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/systemd.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/systemd.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/timedated.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/timedated.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower_power_profiles_daemon.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/upower_power_profiles_daemon.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/urfkill.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/urfkill.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/templates/__pycache__/__init__.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/testcase.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/_version.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__init__.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__main__.py
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/mockobject.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/mockobject.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/pytest_fixtures.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/pytest_fixtures.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/testcase.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/testcase.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/_version.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/_version.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__init__.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__init__.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__main__.cpython-312.opt-1.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/dbusmock/__pycache__/__main__.cpython-312.pyc
+* python3-dbusmock /usr/lib/python3.12/site-packages/python_dbusmock-0.32.1.dist-info/COPYING
+* python3-dbusmock /usr/lib/python3.12/site-packages/python_dbusmock-0.32.1.dist-info/METADATA
+* python3-dbusmock /usr/lib/python3.12/site-packages/python_dbusmock-0.32.1.dist-info/RECORD
+* python3-dbusmock /usr/lib/python3.12/site-packages/python_dbusmock-0.32.1.dist-info/top_level.txt
+* python3-dbusmock /usr/lib/python3.12/site-packages/python_dbusmock-0.32.1.dist-info/WHEEL
+* python3-dbusmock /usr/share/doc/python3-dbusmock-0.32.1/COPYING
+* python3-dbusmock /usr/share/doc/python3-dbusmock-0.32.1/NEWS
+* python3-dbusmock /usr/share/doc/python3-dbusmock-0.32.1/README.md

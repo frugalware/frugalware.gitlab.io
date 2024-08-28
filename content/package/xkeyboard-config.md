@@ -12,7 +12,7 @@ size = "343160"
 usize = "3269165"
 sha1sum = "2fc0669213eee2c23cdd3fdd08ef8b67f2c09fef"
 depends = "['xkbcomp>=1.3.1-2']"
-reverse_depends = "['ckbcomp', 'gnome-desktop', 'plasma-desktop', 'qemu']"
+reverse_depends = "['./gnome-desktop', 'ckbcomp', 'gnome-desktop', 'plasma-desktop', 'qemu']"
 +++
 ### Description: 
 X.org XML-based XKB configuration registry

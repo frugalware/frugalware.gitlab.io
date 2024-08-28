@@ -1,234 +1,233 @@
 +++
 draft = false
-title = "python3-pillow 10.3.0-1"
-version = "10.3.0-1"
+title = "./python3-pillow 10.4.0-1"
+version = "10.4.0-1"
 description = "Python Imaging Library (PIL) fork"
-date = "2024-06-26T13:14:50"
-aliases = "/packages/219182"
+date = "2024-08-26T12:04:43"
+aliases = "/packages/222343"
 categories = ['xlib-extra']
 upstreamurl = "http://pypi.python.org/pypi/pillow"
 arch = "x86_64"
-size = "764284"
-usize = "2958826"
-sha1sum = "63c9a01ddf3b2e2f96deb137c4a5289dc318d7af"
+size = "780348"
+usize = "3041464"
+sha1sum = "3a7f6c68440a5d5b18ae7cffa40b433fbea93d55"
 depends = "['libtiff', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
-reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'python3-nml']"
 +++
 ### Description: 
 Python Imaging Library (PIL) fork
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/PIL/BdfFontFile.py
-* /usr/lib/python3.12/site-packages/PIL/BlpImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/BmpImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/BufrStubImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/ContainerIO.py
-* /usr/lib/python3.12/site-packages/PIL/CurImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/DcxImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/DdsImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/EpsImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/ExifTags.py
-* /usr/lib/python3.12/site-packages/PIL/features.py
-* /usr/lib/python3.12/site-packages/PIL/FitsImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/FliImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/FontFile.py
-* /usr/lib/python3.12/site-packages/PIL/FpxImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/FtexImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/GbrImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/GdImageFile.py
-* /usr/lib/python3.12/site-packages/PIL/GifImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/GimpGradientFile.py
-* /usr/lib/python3.12/site-packages/PIL/GimpPaletteFile.py
-* /usr/lib/python3.12/site-packages/PIL/GribStubImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/Hdf5StubImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/IcnsImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/IcoImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/Image.py
-* /usr/lib/python3.12/site-packages/PIL/ImageChops.py
-* /usr/lib/python3.12/site-packages/PIL/ImageCms.py
-* /usr/lib/python3.12/site-packages/PIL/ImageColor.py
-* /usr/lib/python3.12/site-packages/PIL/ImageDraw.py
-* /usr/lib/python3.12/site-packages/PIL/ImageDraw2.py
-* /usr/lib/python3.12/site-packages/PIL/ImageEnhance.py
-* /usr/lib/python3.12/site-packages/PIL/ImageFile.py
-* /usr/lib/python3.12/site-packages/PIL/ImageFilter.py
-* /usr/lib/python3.12/site-packages/PIL/ImageFont.py
-* /usr/lib/python3.12/site-packages/PIL/ImageGrab.py
-* /usr/lib/python3.12/site-packages/PIL/ImageMath.py
-* /usr/lib/python3.12/site-packages/PIL/ImageMode.py
-* /usr/lib/python3.12/site-packages/PIL/ImageMorph.py
-* /usr/lib/python3.12/site-packages/PIL/ImageOps.py
-* /usr/lib/python3.12/site-packages/PIL/ImagePalette.py
-* /usr/lib/python3.12/site-packages/PIL/ImagePath.py
-* /usr/lib/python3.12/site-packages/PIL/ImageQt.py
-* /usr/lib/python3.12/site-packages/PIL/ImageSequence.py
-* /usr/lib/python3.12/site-packages/PIL/ImageShow.py
-* /usr/lib/python3.12/site-packages/PIL/ImageStat.py
-* /usr/lib/python3.12/site-packages/PIL/ImageTk.py
-* /usr/lib/python3.12/site-packages/PIL/ImageTransform.py
-* /usr/lib/python3.12/site-packages/PIL/ImageWin.py
-* /usr/lib/python3.12/site-packages/PIL/ImImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/ImtImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/IptcImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/Jpeg2KImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/JpegImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/JpegPresets.py
-* /usr/lib/python3.12/site-packages/PIL/McIdasImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/MicImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/MpegImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/MpoImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/MspImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PaletteFile.py
-* /usr/lib/python3.12/site-packages/PIL/PalmImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PcdImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PcfFontFile.py
-* /usr/lib/python3.12/site-packages/PIL/PcxImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PdfImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PdfParser.py
-* /usr/lib/python3.12/site-packages/PIL/PixarImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PngImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PpmImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PsdImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/PSDraw.py
-* /usr/lib/python3.12/site-packages/PIL/py.typed
-* /usr/lib/python3.12/site-packages/PIL/PyAccess.py
-* /usr/lib/python3.12/site-packages/PIL/QoiImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/report.py
-* /usr/lib/python3.12/site-packages/PIL/SgiImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/SpiderImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/SunImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/TarIO.py
-* /usr/lib/python3.12/site-packages/PIL/TgaImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/TiffImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/TiffTags.py
-* /usr/lib/python3.12/site-packages/PIL/WalImageFile.py
-* /usr/lib/python3.12/site-packages/PIL/WebPImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/WmfImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/XbmImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/XpmImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/XVThumbImagePlugin.py
-* /usr/lib/python3.12/site-packages/PIL/_binary.py
-* /usr/lib/python3.12/site-packages/PIL/_deprecate.py
-* /usr/lib/python3.12/site-packages/PIL/_imaging.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_imaging.pyi
-* /usr/lib/python3.12/site-packages/PIL/_imagingcms.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_imagingcms.pyi
-* /usr/lib/python3.12/site-packages/PIL/_imagingft.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_imagingft.pyi
-* /usr/lib/python3.12/site-packages/PIL/_imagingmath.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_imagingmath.pyi
-* /usr/lib/python3.12/site-packages/PIL/_imagingmorph.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_imagingmorph.pyi
-* /usr/lib/python3.12/site-packages/PIL/_imagingtk.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_tkinter_finder.py
-* /usr/lib/python3.12/site-packages/PIL/_typing.py
-* /usr/lib/python3.12/site-packages/PIL/_util.py
-* /usr/lib/python3.12/site-packages/PIL/_version.py
-* /usr/lib/python3.12/site-packages/PIL/_webp.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/PIL/_webp.pyi
-* /usr/lib/python3.12/site-packages/PIL/__init__.py
-* /usr/lib/python3.12/site-packages/PIL/__main__.py
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/BdfFontFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/BlpImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/BmpImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/BufrStubImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ContainerIO.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/CurImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/DcxImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/DdsImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/EpsImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ExifTags.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/features.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/FitsImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/FliImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/FontFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/FpxImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/FtexImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/GbrImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/GdImageFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/GifImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/GimpGradientFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/GimpPaletteFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/GribStubImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/Hdf5StubImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/IcnsImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/IcoImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/Image.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageChops.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageCms.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageColor.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageDraw.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageDraw2.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageEnhance.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageFilter.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageFont.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageGrab.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageMath.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageMode.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageMorph.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageOps.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImagePalette.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImagePath.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageQt.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageSequence.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageShow.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageStat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageTk.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageTransform.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageWin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/ImtImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/IptcImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/Jpeg2KImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/JpegImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/JpegPresets.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/McIdasImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/MicImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/MpegImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/MpoImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/MspImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PaletteFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PalmImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PcdImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PcfFontFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PcxImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PdfImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PdfParser.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PixarImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PngImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PpmImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PsdImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PSDraw.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/PyAccess.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/QoiImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/report.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/SgiImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/SpiderImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/SunImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/TarIO.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/TgaImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/TiffImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/TiffTags.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/WalImageFile.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/WebPImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/WmfImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/XbmImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/XpmImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/XVThumbImagePlugin.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/_binary.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/_deprecate.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/_tkinter_finder.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/_typing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/_util.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/_version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/PIL/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pillow-10.3.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pillow-10.3.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pillow-10.3.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/pillow-10.3.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pillow-10.3.0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/pillow-10.3.0-py3.12.egg-info/zip-safe
-* /usr/share/doc/python3-pillow-10.3.0/LICENSE
-* /usr/share/doc/python3-pillow-10.3.0/README.md
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/BdfFontFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/BlpImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/BmpImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/BufrStubImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ContainerIO.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/CurImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/DcxImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/DdsImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/EpsImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ExifTags.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/features.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/FitsImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/FliImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/FontFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/FpxImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/FtexImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/GbrImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/GdImageFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/GifImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/GimpGradientFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/GimpPaletteFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/GribStubImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/Hdf5StubImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/IcnsImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/IcoImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/Image.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageChops.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageCms.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageColor.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageDraw.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageDraw2.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageEnhance.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageFilter.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageFont.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageGrab.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageMath.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageMode.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageMorph.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageOps.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImagePalette.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImagePath.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageQt.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageSequence.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageShow.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageStat.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageTk.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageTransform.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImageWin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/ImtImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/IptcImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/Jpeg2KImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/JpegImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/JpegPresets.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/McIdasImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/MicImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/MpegImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/MpoImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/MspImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PaletteFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PalmImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PcdImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PcfFontFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PcxImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PdfImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PdfParser.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PixarImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PngImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PpmImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PsdImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PSDraw.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/py.typed
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/PyAccess.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/QoiImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/report.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/SgiImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/SpiderImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/SunImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/TarIO.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/TgaImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/TiffImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/TiffTags.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/WalImageFile.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/WebPImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/WmfImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/XbmImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/XpmImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/XVThumbImagePlugin.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_binary.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_deprecate.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imaging.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imaging.pyi
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingcms.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingcms.pyi
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingft.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingft.pyi
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingmath.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingmath.pyi
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingmorph.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingmorph.pyi
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_imagingtk.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_tkinter_finder.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_typing.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_util.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_version.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_webp.cpython-312-x86_64-linux-gnu.so
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/_webp.pyi
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__init__.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__main__.py
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/BdfFontFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/BlpImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/BmpImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/BufrStubImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ContainerIO.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/CurImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/DcxImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/DdsImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/EpsImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ExifTags.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/features.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/FitsImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/FliImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/FontFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/FpxImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/FtexImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/GbrImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/GdImageFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/GifImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/GimpGradientFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/GimpPaletteFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/GribStubImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/Hdf5StubImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/IcnsImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/IcoImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/Image.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageChops.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageCms.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageColor.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageDraw.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageDraw2.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageEnhance.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageFilter.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageFont.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageGrab.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageMath.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageMode.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageMorph.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageOps.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImagePalette.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImagePath.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageQt.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageSequence.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageShow.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageStat.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageTk.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageTransform.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImageWin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/ImtImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/IptcImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/Jpeg2KImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/JpegImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/JpegPresets.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/McIdasImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/MicImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/MpegImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/MpoImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/MspImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PaletteFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PalmImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PcdImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PcfFontFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PcxImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PdfImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PdfParser.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PixarImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PngImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PpmImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PsdImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PSDraw.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/PyAccess.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/QoiImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/report.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/SgiImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/SpiderImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/SunImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/TarIO.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/TgaImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/TiffImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/TiffTags.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/WalImageFile.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/WebPImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/WmfImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/XbmImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/XpmImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/XVThumbImagePlugin.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/_binary.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/_deprecate.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/_tkinter_finder.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/_typing.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/_util.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/_version.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/__init__.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/PIL/__pycache__/__main__.cpython-312.pyc
+* python3-pillow /usr/lib/python3.12/site-packages/pillow-10.4.0-py3.12.egg-info/dependency_links.txt
+* python3-pillow /usr/lib/python3.12/site-packages/pillow-10.4.0-py3.12.egg-info/PKG-INFO
+* python3-pillow /usr/lib/python3.12/site-packages/pillow-10.4.0-py3.12.egg-info/requires.txt
+* python3-pillow /usr/lib/python3.12/site-packages/pillow-10.4.0-py3.12.egg-info/SOURCES.txt
+* python3-pillow /usr/lib/python3.12/site-packages/pillow-10.4.0-py3.12.egg-info/top_level.txt
+* python3-pillow /usr/lib/python3.12/site-packages/pillow-10.4.0-py3.12.egg-info/zip-safe
+* python3-pillow /usr/share/doc/python3-pillow-10.4.0/LICENSE
+* python3-pillow /usr/share/doc/python3-pillow-10.4.0/README.md

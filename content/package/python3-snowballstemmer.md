@@ -12,7 +12,7 @@ size = "203180"
 usize = "1782158"
 sha1sum = "14ec7a691e90800dd891ba9599859630a43ecb08"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-sphinx']"
+reverse_depends = "['./python3-sphinx', 'python3-sphinx']"
 +++
 ### Description: 
 Python stemming library

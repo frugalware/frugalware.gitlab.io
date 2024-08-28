@@ -12,7 +12,7 @@ size = "18808"
 usize = "59440"
 sha1sum = "2483ef26070f828ac7624d5f4879d32918208f2c"
 depends = "['kcoreaddons5>=5.116.0', 'kwindowsystem5>=5.116.0']"
-reverse_depends = "['krename', 'krita', 'kservice5', 'minuet']"
+reverse_depends = "['./minuet', 'krename', 'krita', 'kservice5', 'minuet']"
 +++
 ### Description: 
 Gracefull handling of application crashes.

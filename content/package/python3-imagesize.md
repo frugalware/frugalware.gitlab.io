@@ -12,7 +12,7 @@ size = "12800"
 usize = "34443"
 sha1sum = "79ca6a1317ab125aa2aed81ce521096d92b1b4bd"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-sphinx']"
+reverse_depends = "['./python3-sphinx', 'python3-sphinx']"
 +++
 ### Description: 
 Getting image size from png/jpeg/jpeg2000/gif file

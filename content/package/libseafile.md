@@ -12,7 +12,7 @@ size = "21608"
 usize = "103362"
 sha1sum = "9370bdaf73780642526a1b28ec71a586e9b61f00"
 depends = "['glib2', 'libsearpc']"
-reverse_depends = "['seafile', 'seafile-client']"
+reverse_depends = "['./seafile', 'seafile', 'seafile-client']"
 +++
 ### Description: 
 Seafile shared lib

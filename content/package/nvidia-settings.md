@@ -12,7 +12,7 @@ size = "246584"
 usize = "664336"
 sha1sum = "876d8a764fabff282433d4519935cba35730d4a7"
 depends = "['libxxf86vm>=1.1.4-2']"
-reverse_depends = "['nvidia']"
+reverse_depends = "['./nvidia', 'nvidia']"
 +++
 ### Description: 
 nVidia settings configuration tool.

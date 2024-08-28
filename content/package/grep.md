@@ -12,7 +12,7 @@ size = "385676"
 usize = "1562816"
 sha1sum = "b8892ece5fc31d3230828d1d0f1fbcd52648a745"
 depends = "['pcre2']"
-reverse_depends = "['dracut', 'inxi', 'keychain', 'pacman-g2', 'pulse-autoconf', 'redis', 'scriptlet-core', 'texinfo']"
+reverse_depends = "['./pacman-g2', 'dracut', 'inxi', 'keychain', 'pacman-g2', 'pulse-autoconf', 'redis', 'scriptlet-core', 'texinfo']"
 +++
 ### Description: 
 Print lines matching a pattern

@@ -12,7 +12,7 @@ size = "39092"
 usize = "182211"
 sha1sum = "177f0efe47fcd9cb9e02f7939db3903f9e6881d9"
 depends = "['libpng', 'libxtst']"
-reverse_depends = "['openrazer']"
+reverse_depends = "['./openrazer', 'openrazer']"
 +++
 ### Description: 
 Controls X from the command line

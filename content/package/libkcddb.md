@@ -1,223 +1,226 @@
 +++
 draft = false
-title = "libkcddb 24.05.2-1"
-version = "24.05.2-1"
+title = "./libkcddb 24.08.0-3"
+version = "24.08.0-3"
 description = "A library for retrieving and sending cddb information."
-date = "2024-07-05T11:44:45"
-aliases = "/packages/74490"
+date = "2024-08-23T09:35:08"
+aliases = "/packages/222448"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "513500"
-usize = "1510344"
-sha1sum = "982b714133255ac21763e9fc07dbede30bae0ab5"
-depends = "['kcmutils>=6.3.0', 'kio>=6.3.0', 'libmusicbrainz>=5.1.0-3']"
-reverse_depends = "['audex', 'audiocd-kio']"
+size = "533716"
+usize = "1571421"
+sha1sum = "662c5cafa288426a4dc63d14ea5aac82c36dd2d7"
+depends = "['kcmutils>=6.5.0', 'kio>=6.5.0', 'libmusicbrainz>=5.1.0-3']"
 +++
 ### Description: 
 A library for retrieving and sending cddb information.
 
 ### Files: 
-* /usr/include/KCddb6/KCDDB/Categories
-* /usr/include/KCddb6/kcddb/categories.h
-* /usr/include/KCddb6/KCDDB/CDInfo
-* /usr/include/KCddb6/kcddb/cdinfo.h
-* /usr/include/KCddb6/KCDDB/Client
-* /usr/include/KCddb6/kcddb/client.h
-* /usr/include/KCddb6/KCDDB/Config
-* /usr/include/KCddb6/kcddb/config.h
-* /usr/include/KCddb6/kcddb/configbase.h
-* /usr/include/KCddb6/KCDDB/Genres
-* /usr/include/KCddb6/kcddb/genres.h
-* /usr/include/KCddb6/KCDDB/KCDDB
-* /usr/include/KCddb6/kcddb/kcddb.h
-* /usr/include/KCddb6/kcddb/kcddb_export.h
-* /usr/include/KCddb6/kcddb_version.h
-* /usr/lib/cmake/KCddb6/KCddb6Config.cmake
-* /usr/lib/cmake/KCddb6/KCddb6ConfigVersion.cmake
-* /usr/lib/cmake/KCddb6/KCddb6Targets-release.cmake
-* /usr/lib/cmake/KCddb6/KCddb6Targets.cmake
-* /usr/lib/libKCddb6.so
-* /usr/lib/libKCddb6.so.5
-* /usr/lib/libKCddb6.so.5.1.0
-* /usr/lib/qt6/mkspecs/modules/qt_KCddb.pri
-* /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cddb.so
-* /usr/share/applications/kcm_cddb.desktop
-* /usr/share/config.kcfg/libkcddb5.kcfg
-* /usr/share/doc/HTML/ca/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/ca/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/kscd14.png
-* /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/kscd16.png
-* /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/kscd13.png
-* /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/kscd14.png
-* /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/kscd16.png
-* /usr/share/doc/HTML/es/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/es/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/fr/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/fr/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/it/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/it/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/nl/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/nl/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/pt/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/pt/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/kscd14.png
-* /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/kscd16.png
-* /usr/share/doc/HTML/ru/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/ru/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/sr/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/sr/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/sr@latin/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/sv/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/sv/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.cache.bz2
-* /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/libkcddb-24.05.2/TODO
-* /usr/share/locale/ar/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ar/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/be/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/be/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/bg/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/bg/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/br/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/br/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/bs/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/bs/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ca/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ca/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/cs/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/cs/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/cy/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/cy/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/da/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/da/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/de/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/de/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/el/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/el/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/eo/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/eo/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/es/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/es/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/et/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/et/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/eu/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/eu/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/fa/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/fa/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/fi/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/fi/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/fr/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/fr/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ga/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ga/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/gl/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/gl/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/he/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/he/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/hi/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/hi/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/hne/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/hne/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/hr/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/hr/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/hu/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/hu/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ia/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ia/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/is/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/is/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/it/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/it/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ja/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ja/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ka/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ka/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/kk/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/kk/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/km/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/km/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ko/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ko/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/lt/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/lt/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/lv/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/lv/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/mk/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/mk/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/mr/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/mr/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ms/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ms/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/nb/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/nb/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/nds/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/nds/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ne/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ne/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/nl/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/nl/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/nn/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/nn/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/oc/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/oc/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/pa/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/pa/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/pl/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/pl/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/pt/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/pt/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ro/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ro/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ru/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ru/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/se/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/se/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sk/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sk/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sl/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sl/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sq/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sq/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sr/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sr/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/sv/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/sv/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ta/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ta/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/tg/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/tg/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/th/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/th/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/tr/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/tr/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/ug/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/ug/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/uk/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/uk/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/xh/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libkcddb.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kcmcddb.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libkcddb.mo
-* /usr/share/qlogging-categories6/libkcddb.categories
+* libkcddb /usr/include/KCddb6/KCDDB/Categories
+* libkcddb /usr/include/KCddb6/kcddb/categories.h
+* libkcddb /usr/include/KCddb6/KCDDB/CDInfo
+* libkcddb /usr/include/KCddb6/kcddb/cdinfo.h
+* libkcddb /usr/include/KCddb6/KCDDB/Client
+* libkcddb /usr/include/KCddb6/kcddb/client.h
+* libkcddb /usr/include/KCddb6/KCDDB/Config
+* libkcddb /usr/include/KCddb6/kcddb/config.h
+* libkcddb /usr/include/KCddb6/kcddb/configbase.h
+* libkcddb /usr/include/KCddb6/KCDDB/Genres
+* libkcddb /usr/include/KCddb6/kcddb/genres.h
+* libkcddb /usr/include/KCddb6/KCDDB/KCDDB
+* libkcddb /usr/include/KCddb6/kcddb/kcddb.h
+* libkcddb /usr/include/KCddb6/kcddb/kcddb_export.h
+* libkcddb /usr/include/KCddb6/kcddb_version.h
+* libkcddb /usr/lib/cmake/KCddb6/KCddb6Config.cmake
+* libkcddb /usr/lib/cmake/KCddb6/KCddb6ConfigVersion.cmake
+* libkcddb /usr/lib/cmake/KCddb6/KCddb6Targets-release.cmake
+* libkcddb /usr/lib/cmake/KCddb6/KCddb6Targets.cmake
+* libkcddb /usr/lib/libKCddb6.so
+* libkcddb /usr/lib/libKCddb6.so.5
+* libkcddb /usr/lib/libKCddb6.so.5.1.0
+* libkcddb /usr/lib/qt6/mkspecs/modules/qt_KCddb.pri
+* libkcddb /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_cddb.so
+* libkcddb /usr/share/applications/kcm_cddb.desktop
+* libkcddb /usr/share/config.kcfg/libkcddb5.kcfg
+* libkcddb /usr/share/doc/HTML/ca/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/ca/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/kscd14.png
+* libkcddb /usr/share/doc/HTML/de/kcontrol/cddbretrieval5/kscd16.png
+* libkcddb /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/kscd13.png
+* libkcddb /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/kscd14.png
+* libkcddb /usr/share/doc/HTML/en/kcontrol/cddbretrieval5/kscd16.png
+* libkcddb /usr/share/doc/HTML/es/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/es/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/fr/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/fr/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/it/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/it/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/nl/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/nl/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/pt/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/pt/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/kscd14.png
+* libkcddb /usr/share/doc/HTML/pt_BR/kcontrol/cddbretrieval5/kscd16.png
+* libkcddb /usr/share/doc/HTML/ru/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/ru/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/sr/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/sr/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/sr@latin/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/sr@latin/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/sv/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/sv/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.cache.bz2
+* libkcddb /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.docbook
+* libkcddb /usr/share/doc/libkcddb-24.08.0/ChangeLog
+* libkcddb /usr/share/doc/libkcddb-24.08.0/FAQ.txt
+* libkcddb /usr/share/doc/libkcddb-24.08.0/INSTALL.txt
+* libkcddb /usr/share/doc/libkcddb-24.08.0/README.txt
+* libkcddb /usr/share/doc/libkcddb-24.08.0/TODO
+* libkcddb /usr/share/locale/ar/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ar/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/be/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/be/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/bg/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/bg/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/br/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/br/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/bs/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/bs/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ca/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ca/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ca@valencia/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ca@valencia/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/cs/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/cs/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/cy/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/cy/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/da/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/da/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/de/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/de/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/el/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/el/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/en_GB/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/en_GB/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/eo/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/eo/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/es/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/es/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/et/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/et/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/eu/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/eu/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/fa/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/fa/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/fi/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/fi/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/fr/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/fr/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ga/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ga/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/gl/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/gl/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/he/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/he/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/hi/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/hi/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/hne/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/hne/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/hr/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/hr/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/hu/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/hu/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ia/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ia/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/is/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/is/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/it/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/it/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ja/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ja/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ka/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ka/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/kk/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/kk/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/km/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/km/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ko/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ko/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/lt/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/lt/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/lv/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/lv/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/mk/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/mk/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/mr/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/mr/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ms/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ms/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/nb/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/nb/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/nds/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/nds/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ne/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ne/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/nl/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/nl/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/nn/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/nn/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/oc/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/oc/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/pa/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/pa/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/pl/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/pl/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/pt/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/pt/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/pt_BR/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/pt_BR/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ro/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ro/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ru/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ru/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/se/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/se/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sk/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sk/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sl/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sl/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sq/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sq/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sr/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sr/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sr@ijekavian/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sr@latin/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sr@latin/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/sv/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/sv/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ta/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ta/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/tg/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/tg/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/th/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/th/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/tr/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/tr/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/ug/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/ug/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/uk/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/uk/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/xh/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/zh_CN/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/zh_CN/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/locale/zh_HK/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/zh_TW/LC_MESSAGES/kcmcddb.mo
+* libkcddb /usr/share/locale/zh_TW/LC_MESSAGES/libkcddb.mo
+* libkcddb /usr/share/qlogging-categories6/libkcddb.categories

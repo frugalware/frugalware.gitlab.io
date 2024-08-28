@@ -12,7 +12,7 @@ size = "41080"
 usize = "98220"
 sha1sum = "85f1fcf224aaa9ad0df6f594be935d074d8ba97e"
 depends = "['bash', 'libtirpc>=1.1.4']"
-reverse_depends = "['hplip', 'nfs-utils']"
+reverse_depends = "['./nfs-utils', 'hplip', 'nfs-utils']"
 +++
 ### Description: 
 A server that converts RPC program numbers into universal addresses.

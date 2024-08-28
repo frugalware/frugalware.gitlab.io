@@ -12,7 +12,7 @@ size = "52368"
 usize = "132489"
 sha1sum = "23f1df6466c854a8797942fdaffa0192f21d0970"
 depends = "['default-cursors', 'libx11>=1.6.5-2', 'libxfixes>=5.0.1-3', 'libxrender>=0.9.9-5']"
-reverse_depends = "['allegro', 'box2d', 'cef', 'efl', 'enlightenment', 'fox', 'fox-1.2', 'freerdp', 'freerdp2', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'irrlicht', 'ksubeditor', 'ksubtile', 'opendiablo2', 'plasma-integration', 'qt5-base', 'qt6-webengine', 'sfml', 'spring', 'terminology', 'virtualbox', 'weston', 'whalebird', 'wine', 'wine-devel', 'xcursorgen', 'xf86-video-intel', 'xsetroot']"
+reverse_depends = "['./wine-devel', 'allegro', 'box2d', 'cef', 'efl', 'enlightenment', 'fox', 'fox-1.2', 'freerdp', 'freerdp2', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'irrlicht', 'ksubeditor', 'ksubtile', 'opendiablo2', 'plasma-integration', 'qt5-base', 'qt6-webengine', 'sfml', 'spring', 'terminology', 'virtualbox', 'weston', 'whalebird', 'wine', 'wine-devel', 'xcursorgen', 'xf86-video-intel', 'xsetroot']"
 license = "GPL2"
 +++
 ### Description: 

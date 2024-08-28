@@ -12,7 +12,7 @@ size = "584752"
 usize = "4836819"
 sha1sum = "4d0096a82129c679e202c8b6d2ccaec56674260a"
 depends = "['glib2>=2.56.0', 'libxml2>=2.9.4-3']"
-reverse_depends = "['akonadi', 'akonadi-mime', 'frugalpkg', 'gdk-pixbuf2', 'gtk+2', 'gtk+3', 'gtk+4', 'kcoreaddons', 'kcoreaddons5', 'kpkpass', 'love', 'qt6-base']"
+reverse_depends = "['./kpkpass', 'akonadi', 'akonadi-mime', 'frugalpkg', 'gdk-pixbuf2', 'gtk+2', 'gtk+3', 'gtk+4', 'kcoreaddons', 'kcoreaddons5', 'kpkpass', 'love', 'qt6-base']"
 +++
 ### Description: 
 Freedesktop.org Shared MIME Info

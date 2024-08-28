@@ -12,7 +12,7 @@ size = "587684"
 usize = "2787848"
 sha1sum = "aaac10c2ea1a802faa24d756cdb52edfcc3eecc6"
 depends = "['kio>=6.5.0', 'kirigami>=6.5.0', 'kpackage>=6.5.0', 'syndication>=6.5.0']"
-reverse_depends = "['blinken', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'ksysguard5', 'kturtle', 'kwin', 'libkdegames', 'libksysguard', 'libksysguard5', 'pairs', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'spectacle', 'yakuake']"
+reverse_depends = "['./blinken', './dolphin', './grantleetheme', './k3b', './kanagram', './kate', './khangman', './kmail-account-wizard', './konsole', './konversation', './kturtle', './libkdegames', './parley', './pimcommon', './spectacle', './yakuake', 'blinken', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'ksysguard5', 'kturtle', 'kwin', 'libkdegames', 'libksysguard', 'libksysguard5', 'pairs', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'spectacle', 'yakuake']"
 +++
 ### Description: 
 Framework for downloading and sharing additional application data.

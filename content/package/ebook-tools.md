@@ -12,7 +12,7 @@ size = "23884"
 usize = "80505"
 sha1sum = "565f1fceedacbe8a6a397985412acb9ed4c8fa75"
 depends = "['libxml2>=2.9.4-3', 'libzip>=1.2.0']"
-reverse_depends = "['kfilemetadata', 'kfilemetadata5', 'okular']"
+reverse_depends = "['./okular', 'kfilemetadata', 'kfilemetadata5', 'okular']"
 +++
 ### Description: 
 Tools for accessing and converting various ebook file formats

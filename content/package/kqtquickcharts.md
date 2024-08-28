@@ -12,7 +12,7 @@ size = "69504"
 usize = "334594"
 sha1sum = "329211c71573d6979b2523a5582ce8060f0c98ef"
 depends = "['qt5-declarative']"
-reverse_depends = "['ktouch']"
+reverse_depends = "['./ktouch', 'ktouch']"
 +++
 ### Description: 
 A QtQuick plugin to render beautiful and interactive charts.

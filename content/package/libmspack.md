@@ -12,7 +12,7 @@ size = "78440"
 usize = "254599"
 sha1sum = "30c947677f7239157aa1d93f026feeb6554c650f"
 depends = "['glibc']"
-reverse_depends = "['clamav', 'wxwidgets']"
+reverse_depends = "['./clamav', 'clamav', 'wxwidgets']"
 +++
 ### Description: 
 A library for Microsoft compression formats

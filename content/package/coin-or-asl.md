@@ -12,7 +12,7 @@ size = "262060"
 usize = "677540"
 sha1sum = "4b0831e0a19156eaa14d2f94a8a2773f4608aa2c"
 depends = "['glibc']"
-reverse_depends = "['coin-or-cbc', 'coin-or-clp']"
+reverse_depends = "['./coin-or-cbc', './coin-or-clp', 'coin-or-cbc', 'coin-or-clp']"
 +++
 ### Description: 
 COIN-OR autotools harness to build AMPL Solver Library

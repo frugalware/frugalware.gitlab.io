@@ -1,37 +1,24 @@
 +++
 draft = false
-title = "noip2 2.1.9-6"
-version = "2.1.9-6"
+title = "./noip2 3.1.1-1"
+version = "3.1.1-1"
 description = "A client program to auto-update dynamic DNS on www.no-ip.com"
-date = "2024-01-15T10:44:30"
-aliases = "/packages/9444"
+date = "2024-08-27T15:24:16"
+aliases = "/packages/222453"
 categories = ['network-extra']
-upstreamurl = "http://www.noip.com/"
+upstreamurl = "https://www.noip.com"
 arch = "x86_64"
-size = "54856"
-usize = "163985"
-sha1sum = "32c505449281d87c63b897272115767a4625020c"
+size = "1174108"
+usize = "2923814"
+sha1sum = "5715c12f06763ce7f270776da639e43db5db18c2"
 depends = "['glibc']"
 +++
 ### Description: 
 A client program to auto-update dynamic DNS on www.no-ip.com
 
 ### Files: 
-* /usr/bin/noip2
-* /usr/lib/systemd/system/noip2.service
-* /usr/share/doc/noip2-2.1.9/._COPYING
-* /usr/share/doc/noip2-2.1.9/._README.FIRST
-* /usr/share/doc/noip2-2.1.9/._README.FIRST-SWE
-* /usr/share/doc/noip2-2.1.9/._README.FIRST.FRANCAIS
-* /usr/share/doc/noip2-2.1.9/._README.FIRST.ITALIANO
-* /usr/share/doc/noip2-2.1.9/._README.FIRST.JAPANESE
-* /usr/share/doc/noip2-2.1.9/._README.FIRST.pt_BR
-* /usr/share/doc/noip2-2.1.9/._README.FIRST_PT
-* /usr/share/doc/noip2-2.1.9/COPYING
-* /usr/share/doc/noip2-2.1.9/README.FIRST
-* /usr/share/doc/noip2-2.1.9/README.FIRST-SWE
-* /usr/share/doc/noip2-2.1.9/README.FIRST.FRANCAIS
-* /usr/share/doc/noip2-2.1.9/README.FIRST.ITALIANO
-* /usr/share/doc/noip2-2.1.9/README.FIRST.JAPANESE
-* /usr/share/doc/noip2-2.1.9/README.FIRST.pt_BR
-* /usr/share/doc/noip2-2.1.9/README.FIRST_PT
+* noip2 /usr/bin/noip-duc
+* noip2 /usr/lib/systemd/system/noip2.service
+* noip2 /usr/share/doc/noip2-3.1.1/INSTALL.md
+* noip2 /usr/share/doc/noip2-3.1.1/LICENSE
+* noip2 /usr/share/doc/noip2-3.1.1/README.md

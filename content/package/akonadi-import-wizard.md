@@ -12,7 +12,7 @@ size = "679996"
 usize = "1854750"
 sha1sum = "f44e12eb79faf127bd565deef89f1902d29a1909"
 depends = "['mailcommon>=24.05.2']"
-reverse_depends = "['kdepim-addons', 'kmail']"
+reverse_depends = "['./kdepim-addons', './kmail', 'kdepim-addons', 'kmail']"
 +++
 ### Description: 
 KMail import wizard application.

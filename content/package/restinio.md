@@ -12,7 +12,7 @@ size = "185888"
 usize = "1173736"
 sha1sum = "560bcfbd6ae63d1362a136ad59a12652b6f0178c"
 depends = "['glibc']"
-reverse_depends = "['opendht']"
+reverse_depends = "['./opendht', 'opendht']"
 +++
 ### Description: 
 Header-only C++14 library that gives you an embedded HTTP/Websocket server

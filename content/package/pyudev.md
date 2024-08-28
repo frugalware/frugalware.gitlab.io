@@ -12,7 +12,7 @@ size = "70188"
 usize = "366269"
 sha1sum = "e331fe41403dbaa5be13f0b9d541ac90212ba593"
 depends = "['python3>=3.10', 'systemd>=188']"
-reverse_depends = "['openrazer']"
+reverse_depends = "['./openrazer', 'openrazer']"
 +++
 ### Description: 
 Python binding to libudev.

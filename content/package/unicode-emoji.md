@@ -1,22 +1,22 @@
 +++
 draft = false
-title = "unicode-emoji 15.1-1"
-version = "15.1-1"
+title = "./unicode-emoji 16.0-1"
+version = "16.0-1"
 description = "Unicode Emoji Data Files"
-date = "2023-09-07T13:48:06"
-aliases = "/packages/220578"
+date = "2024-08-27T14:12:21"
+aliases = "/packages/222450"
 categories = ['lib']
 upstreamurl = "https://www.unicode.org"
 arch = "x86_64"
-size = "67952"
-usize = "1082562"
-sha1sum = "98ed9ea63ba2cdb10ee9d744edcecb9d41ce31b7"
+size = "68084"
+usize = "1084440"
+sha1sum = "53ec321b804bfd0f186b19879334ea16b69bddd2"
 depends = "['unicode-character-database']"
 +++
 ### Description: 
 Unicode Emoji Data Files
 
 ### Files: 
-* /usr/share/unicode/emoji/emoji-sequences.txt
-* /usr/share/unicode/emoji/emoji-test.txt
-* /usr/share/unicode/emoji/emoji-zwj-sequences.txt
+* unicode-emoji /usr/share/unicode/emoji/emoji-sequences.txt
+* unicode-emoji /usr/share/unicode/emoji/emoji-test.txt
+* unicode-emoji /usr/share/unicode/emoji/emoji-zwj-sequences.txt

@@ -1,195 +1,196 @@
 +++
 draft = false
-title = "kpat 24.05.2-1"
-version = "24.05.2-1"
+title = "./kpat 24.08.0-1"
+version = "24.08.0-1"
 description = "Offers a selection of solitaire card games."
-date = "2024-07-05T12:22:54"
-aliases = "/packages/184195"
+date = "2024-08-22T17:45:16"
+aliases = "/packages/222265"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3904612"
-usize = "5732170"
-sha1sum = "c64be183562d5846ea326d89b9b22cfbcdd74f82"
-depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.3.0', 'libkdegames>=24.05.2']"
+size = "3893092"
+usize = "5693813"
+sha1sum = "a41d70e29d47864f0bf938a139ef0d87c35d048f"
+depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.5.0', 'libkdegames>=24.08.0']"
 +++
 ### Description: 
 Offers a selection of solitaire card games.
 
 ### Files: 
-* /usr/bin/kpat
-* /usr/lib/libkcardgame.so
-* /usr/share/applications/org.kde.kpat.desktop
-* /usr/share/config.kcfg/kpat.kcfg
-* /usr/share/doc/HTML/ca/kpat/index.cache.bz2
-* /usr/share/doc/HTML/ca/kpat/index.docbook
-* /usr/share/doc/HTML/cs/kpat/index.cache.bz2
-* /usr/share/doc/HTML/cs/kpat/index.docbook
-* /usr/share/doc/HTML/de/kpat/index.cache.bz2
-* /usr/share/doc/HTML/de/kpat/index.docbook
-* /usr/share/doc/HTML/en/kpat/clubs.png
-* /usr/share/doc/HTML/en/kpat/diamonds.png
-* /usr/share/doc/HTML/en/kpat/hearts.png
-* /usr/share/doc/HTML/en/kpat/index.cache.bz2
-* /usr/share/doc/HTML/en/kpat/index.docbook
-* /usr/share/doc/HTML/en/kpat/playfield.png
-* /usr/share/doc/HTML/en/kpat/spades.png
-* /usr/share/doc/HTML/es/kpat/index.cache.bz2
-* /usr/share/doc/HTML/es/kpat/index.docbook
-* /usr/share/doc/HTML/et/kpat/index.cache.bz2
-* /usr/share/doc/HTML/et/kpat/index.docbook
-* /usr/share/doc/HTML/fr/kpat/clubs.png
-* /usr/share/doc/HTML/fr/kpat/diamonds.png
-* /usr/share/doc/HTML/fr/kpat/hearts.png
-* /usr/share/doc/HTML/fr/kpat/index.cache.bz2
-* /usr/share/doc/HTML/fr/kpat/index.docbook
-* /usr/share/doc/HTML/fr/kpat/playfield.png
-* /usr/share/doc/HTML/fr/kpat/spades.png
-* /usr/share/doc/HTML/it/kpat/index.cache.bz2
-* /usr/share/doc/HTML/it/kpat/index.docbook
-* /usr/share/doc/HTML/nl/kpat/index.cache.bz2
-* /usr/share/doc/HTML/nl/kpat/index.docbook
-* /usr/share/doc/HTML/pl/kpat/index.cache.bz2
-* /usr/share/doc/HTML/pl/kpat/index.docbook
-* /usr/share/doc/HTML/pt/kpat/index.cache.bz2
-* /usr/share/doc/HTML/pt/kpat/index.docbook
-* /usr/share/doc/HTML/pt_BR/kpat/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kpat/index.docbook
-* /usr/share/doc/HTML/ru/kpat/index.cache.bz2
-* /usr/share/doc/HTML/ru/kpat/index.docbook
-* /usr/share/doc/HTML/sv/kpat/index.cache.bz2
-* /usr/share/doc/HTML/sv/kpat/index.docbook
-* /usr/share/doc/HTML/uk/kpat/index.cache.bz2
-* /usr/share/doc/HTML/uk/kpat/index.docbook
-* /usr/share/doc/kpat-24.05.2/COPYING
-* /usr/share/doc/kpat-24.05.2/COPYING.DOC
-* /usr/share/icons/hicolor/128x128/apps/kpat.png
-* /usr/share/icons/hicolor/16x16/apps/kpat.png
-* /usr/share/icons/hicolor/22x22/apps/kpat.png
-* /usr/share/icons/hicolor/24x24/apps/kpat.png
-* /usr/share/icons/hicolor/256x256/apps/kpat.png
-* /usr/share/icons/hicolor/32x32/apps/kpat.png
-* /usr/share/icons/hicolor/48x48/apps/kpat.png
-* /usr/share/icons/hicolor/64x64/apps/kpat.png
-* /usr/share/knsrcfiles/kcardtheme.knsrc
-* /usr/share/knsrcfiles/kpat.knsrc
-* /usr/share/kpat/previews/1.png
-* /usr/share/kpat/previews/10.png
-* /usr/share/kpat/previews/11.png
-* /usr/share/kpat/previews/12.png
-* /usr/share/kpat/previews/17.png
-* /usr/share/kpat/previews/18.png
-* /usr/share/kpat/previews/19.png
-* /usr/share/kpat/previews/2.png
-* /usr/share/kpat/previews/3.png
-* /usr/share/kpat/previews/4.png
-* /usr/share/kpat/previews/5.png
-* /usr/share/kpat/previews/7.png
-* /usr/share/kpat/previews/8.png
-* /usr/share/kpat/previews/9.png
-* /usr/share/kpat/sounds/card-down.ogg
-* /usr/share/kpat/sounds/card-pickup.ogg
-* /usr/share/kpat/themes/ancientegypt.desktop
-* /usr/share/kpat/themes/ancientegypt.png
-* /usr/share/kpat/themes/ancientegypt.svgz
-* /usr/share/kpat/themes/cleangreen.desktop
-* /usr/share/kpat/themes/cleangreen.png
-* /usr/share/kpat/themes/cleangreen.svgz
-* /usr/share/kpat/themes/greenblaze.desktop
-* /usr/share/kpat/themes/greenblaze.png
-* /usr/share/kpat/themes/greenblaze.svgz
-* /usr/share/kpat/themes/royalhearts.desktop
-* /usr/share/kpat/themes/royalhearts.png
-* /usr/share/kpat/themes/royalhearts.svgz
-* /usr/share/locale/af/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ar/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ast/LC_MESSAGES/kpat.mo
-* /usr/share/locale/be/LC_MESSAGES/kpat.mo
-* /usr/share/locale/bg/LC_MESSAGES/kpat.mo
-* /usr/share/locale/br/LC_MESSAGES/kpat.mo
-* /usr/share/locale/bs/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ca/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kpat.mo
-* /usr/share/locale/cs/LC_MESSAGES/kpat.mo
-* /usr/share/locale/csb/LC_MESSAGES/kpat.mo
-* /usr/share/locale/cy/LC_MESSAGES/kpat.mo
-* /usr/share/locale/da/LC_MESSAGES/kpat.mo
-* /usr/share/locale/de/LC_MESSAGES/kpat.mo
-* /usr/share/locale/el/LC_MESSAGES/kpat.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kpat.mo
-* /usr/share/locale/eo/LC_MESSAGES/kpat.mo
-* /usr/share/locale/es/LC_MESSAGES/kpat.mo
-* /usr/share/locale/et/LC_MESSAGES/kpat.mo
-* /usr/share/locale/eu/LC_MESSAGES/kpat.mo
-* /usr/share/locale/fa/LC_MESSAGES/kpat.mo
-* /usr/share/locale/fi/LC_MESSAGES/kpat.mo
-* /usr/share/locale/fr/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ga/LC_MESSAGES/kpat.mo
-* /usr/share/locale/gl/LC_MESSAGES/kpat.mo
-* /usr/share/locale/he/LC_MESSAGES/kpat.mo
-* /usr/share/locale/hi/LC_MESSAGES/kpat.mo
-* /usr/share/locale/hne/LC_MESSAGES/kpat.mo
-* /usr/share/locale/hr/LC_MESSAGES/kpat.mo
-* /usr/share/locale/hu/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ia/LC_MESSAGES/kpat.mo
-* /usr/share/locale/id/LC_MESSAGES/kpat.mo
-* /usr/share/locale/is/LC_MESSAGES/kpat.mo
-* /usr/share/locale/it/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ja/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ka/LC_MESSAGES/kpat.mo
-* /usr/share/locale/kk/LC_MESSAGES/kpat.mo
-* /usr/share/locale/km/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ko/LC_MESSAGES/kpat.mo
-* /usr/share/locale/lt/LC_MESSAGES/kpat.mo
-* /usr/share/locale/lv/LC_MESSAGES/kpat.mo
-* /usr/share/locale/mai/LC_MESSAGES/kpat.mo
-* /usr/share/locale/mk/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ml/LC_MESSAGES/kpat.mo
-* /usr/share/locale/mr/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ms/LC_MESSAGES/kpat.mo
-* /usr/share/locale/nb/LC_MESSAGES/kpat.mo
-* /usr/share/locale/nds/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ne/LC_MESSAGES/kpat.mo
-* /usr/share/locale/nl/LC_MESSAGES/kpat.mo
-* /usr/share/locale/nn/LC_MESSAGES/kpat.mo
-* /usr/share/locale/oc/LC_MESSAGES/kpat.mo
-* /usr/share/locale/pa/LC_MESSAGES/kpat.mo
-* /usr/share/locale/pl/LC_MESSAGES/kpat.mo
-* /usr/share/locale/pt/LC_MESSAGES/kpat.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ro/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ru/LC_MESSAGES/kpat.mo
-* /usr/share/locale/se/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sk/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sl/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sq/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sr/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kpat.mo
-* /usr/share/locale/sv/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ta/LC_MESSAGES/kpat.mo
-* /usr/share/locale/tg/LC_MESSAGES/kpat.mo
-* /usr/share/locale/th/LC_MESSAGES/kpat.mo
-* /usr/share/locale/tr/LC_MESSAGES/kpat.mo
-* /usr/share/locale/ug/LC_MESSAGES/kpat.mo
-* /usr/share/locale/uk/LC_MESSAGES/kpat.mo
-* /usr/share/locale/wa/LC_MESSAGES/kpat.mo
-* /usr/share/locale/xh/LC_MESSAGES/kpat.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kpat.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kpat.mo
-* /usr/share/man/ca/man6/kpat.6.gz
-* /usr/share/man/de/man6/kpat.6.gz
-* /usr/share/man/es/man6/kpat.6.gz
-* /usr/share/man/et/man6/kpat.6.gz
-* /usr/share/man/it/man6/kpat.6.gz
-* /usr/share/man/man6/kpat.6.gz
-* /usr/share/man/nl/man6/kpat.6.gz
-* /usr/share/man/pt/man6/kpat.6.gz
-* /usr/share/man/pt_BR/man6/kpat.6.gz
-* /usr/share/man/ru/man6/kpat.6.gz
-* /usr/share/man/sv/man6/kpat.6.gz
-* /usr/share/man/uk/man6/kpat.6.gz
-* /usr/share/metainfo/org.kde.kpat.appdata.xml
-* /usr/share/mime/packages/kpatience.xml
-* /usr/share/qlogging-categories6/kpat.categories
+* kpat /usr/bin/kpat
+* kpat /usr/lib/libkcardgame.so
+* kpat /usr/share/applications/org.kde.kpat.desktop
+* kpat /usr/share/config.kcfg/kpat.kcfg
+* kpat /usr/share/doc/HTML/ca/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/ca/kpat/index.docbook
+* kpat /usr/share/doc/HTML/cs/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/cs/kpat/index.docbook
+* kpat /usr/share/doc/HTML/de/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/de/kpat/index.docbook
+* kpat /usr/share/doc/HTML/en/kpat/clubs.png
+* kpat /usr/share/doc/HTML/en/kpat/diamonds.png
+* kpat /usr/share/doc/HTML/en/kpat/hearts.png
+* kpat /usr/share/doc/HTML/en/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/en/kpat/index.docbook
+* kpat /usr/share/doc/HTML/en/kpat/playfield.png
+* kpat /usr/share/doc/HTML/en/kpat/spades.png
+* kpat /usr/share/doc/HTML/es/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/es/kpat/index.docbook
+* kpat /usr/share/doc/HTML/et/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/et/kpat/index.docbook
+* kpat /usr/share/doc/HTML/fr/kpat/clubs.png
+* kpat /usr/share/doc/HTML/fr/kpat/diamonds.png
+* kpat /usr/share/doc/HTML/fr/kpat/hearts.png
+* kpat /usr/share/doc/HTML/fr/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/fr/kpat/index.docbook
+* kpat /usr/share/doc/HTML/fr/kpat/playfield.png
+* kpat /usr/share/doc/HTML/fr/kpat/spades.png
+* kpat /usr/share/doc/HTML/it/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/it/kpat/index.docbook
+* kpat /usr/share/doc/HTML/nl/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/nl/kpat/index.docbook
+* kpat /usr/share/doc/HTML/pl/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/pl/kpat/index.docbook
+* kpat /usr/share/doc/HTML/pt/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/pt/kpat/index.docbook
+* kpat /usr/share/doc/HTML/pt_BR/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/pt_BR/kpat/index.docbook
+* kpat /usr/share/doc/HTML/ru/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/ru/kpat/index.docbook
+* kpat /usr/share/doc/HTML/sv/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/sv/kpat/index.docbook
+* kpat /usr/share/doc/HTML/uk/kpat/index.cache.bz2
+* kpat /usr/share/doc/HTML/uk/kpat/index.docbook
+* kpat /usr/share/doc/kpat-24.08.0/COPYING
+* kpat /usr/share/doc/kpat-24.08.0/COPYING.DOC
+* kpat /usr/share/icons/hicolor/128x128/apps/kpat.png
+* kpat /usr/share/icons/hicolor/16x16/apps/kpat.png
+* kpat /usr/share/icons/hicolor/22x22/apps/kpat.png
+* kpat /usr/share/icons/hicolor/24x24/apps/kpat.png
+* kpat /usr/share/icons/hicolor/256x256/apps/kpat.png
+* kpat /usr/share/icons/hicolor/32x32/apps/kpat.png
+* kpat /usr/share/icons/hicolor/48x48/apps/kpat.png
+* kpat /usr/share/icons/hicolor/64x64/apps/kpat.png
+* kpat /usr/share/knsrcfiles/kcardtheme.knsrc
+* kpat /usr/share/knsrcfiles/kpat.knsrc
+* kpat /usr/share/kpat/previews/1.png
+* kpat /usr/share/kpat/previews/10.png
+* kpat /usr/share/kpat/previews/11.png
+* kpat /usr/share/kpat/previews/12.png
+* kpat /usr/share/kpat/previews/17.png
+* kpat /usr/share/kpat/previews/18.png
+* kpat /usr/share/kpat/previews/19.png
+* kpat /usr/share/kpat/previews/2.png
+* kpat /usr/share/kpat/previews/3.png
+* kpat /usr/share/kpat/previews/4.png
+* kpat /usr/share/kpat/previews/5.png
+* kpat /usr/share/kpat/previews/7.png
+* kpat /usr/share/kpat/previews/8.png
+* kpat /usr/share/kpat/previews/9.png
+* kpat /usr/share/kpat/sounds/card-down.ogg
+* kpat /usr/share/kpat/sounds/card-pickup.ogg
+* kpat /usr/share/kpat/themes/ancientegypt.desktop
+* kpat /usr/share/kpat/themes/ancientegypt.png
+* kpat /usr/share/kpat/themes/ancientegypt.svgz
+* kpat /usr/share/kpat/themes/cleangreen.desktop
+* kpat /usr/share/kpat/themes/cleangreen.png
+* kpat /usr/share/kpat/themes/cleangreen.svgz
+* kpat /usr/share/kpat/themes/greenblaze.desktop
+* kpat /usr/share/kpat/themes/greenblaze.png
+* kpat /usr/share/kpat/themes/greenblaze.svgz
+* kpat /usr/share/kpat/themes/royalhearts.desktop
+* kpat /usr/share/kpat/themes/royalhearts.png
+* kpat /usr/share/kpat/themes/royalhearts.svgz
+* kpat /usr/share/locale/af/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ar/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ast/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/be/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/bg/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/br/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/bs/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ca/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ca@valencia/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/cs/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/csb/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/cy/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/da/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/de/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/el/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/en_GB/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/eo/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/es/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/et/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/eu/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/fa/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/fi/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/fr/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ga/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/gl/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/he/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/hi/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/hne/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/hr/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/hu/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ia/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/id/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/is/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/it/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ja/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ka/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/kk/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/km/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ko/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/lt/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/lv/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/mai/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/mk/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ml/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/mr/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ms/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/nb/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/nds/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ne/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/nl/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/nn/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/oc/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/pa/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/pl/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/pt/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/pt_BR/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ro/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ru/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/se/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sk/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sl/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sq/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sr/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sr@ijekavian/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sr@latin/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/sv/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ta/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/tg/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/th/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/tr/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/ug/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/uk/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/wa/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/xh/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/zh_CN/LC_MESSAGES/kpat.mo
+* kpat /usr/share/locale/zh_TW/LC_MESSAGES/kpat.mo
+* kpat /usr/share/man/ca/man6/kpat.6.gz
+* kpat /usr/share/man/de/man6/kpat.6.gz
+* kpat /usr/share/man/es/man6/kpat.6.gz
+* kpat /usr/share/man/et/man6/kpat.6.gz
+* kpat /usr/share/man/it/man6/kpat.6.gz
+* kpat /usr/share/man/man6/kpat.6.gz
+* kpat /usr/share/man/nl/man6/kpat.6.gz
+* kpat /usr/share/man/pt/man6/kpat.6.gz
+* kpat /usr/share/man/pt_BR/man6/kpat.6.gz
+* kpat /usr/share/man/ru/man6/kpat.6.gz
+* kpat /usr/share/man/sv/man6/kpat.6.gz
+* kpat /usr/share/man/uk/man6/kpat.6.gz
+* kpat /usr/share/metainfo/org.kde.kpat.appdata.xml
+* kpat /usr/share/mime/packages/kpatience.xml
+* kpat /usr/share/qlogging-categories6/kpat.categories
+* kpat /usr/share/qlogging-categories6/kpat.renamecategories

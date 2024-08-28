@@ -12,7 +12,7 @@ size = "74156"
 usize = "257669"
 sha1sum = "d6dc4f207e039de09c656b97b934b64d9a716cd9"
 depends = "['kcoreaddons>=$_F_kf6_full', 'ki18n>=$_F_kf6_full', 'phonon-qt6', 'solid>=$_F_kf6_full']"
-reverse_depends = "['audiocd-kio']"
+reverse_depends = "['./audiocd-kio', 'audiocd-kio']"
 +++
 ### Description: 
 A library for interfacing with CDs.

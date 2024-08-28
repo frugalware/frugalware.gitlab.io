@@ -12,7 +12,7 @@ size = "126040"
 usize = "477078"
 sha1sum = "7e78b0c7e9d174e18ea5e538b06ef6f83a768f0f"
 depends = "['baloo>=6.3.0']"
-reverse_depends = "['dolphin']"
+reverse_depends = "['./dolphin', 'dolphin']"
 +++
 ### Description: 
 Widgets for Baloo

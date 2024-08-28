@@ -12,7 +12,7 @@ size = "63560"
 usize = "220496"
 sha1sum = "d7ac776cba7a630a940fe9db4e22fefd3fbacb35"
 depends = "['kpty>=6.5.0', 'kservice>=6.5.0']"
-reverse_depends = "['kde-cli-tools', 'konqueror']"
+reverse_depends = "['./konqueror', 'kde-cli-tools', 'konqueror']"
 +++
 ### Description: 
 User interface for running shell commands with root privileges.

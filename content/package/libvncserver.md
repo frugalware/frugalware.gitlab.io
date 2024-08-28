@@ -12,7 +12,7 @@ size = "319488"
 usize = "1225108"
 sha1sum = "fb82a4e5dbb6c972d8c57dc76dfe51a93131ec66"
 depends = "['gnutls>=3.4.14-2', 'libffi>=3.2.1-2', 'libgcrypt>=1.7.3-2', 'libidn>=1.32-5', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsystemd>=242']"
-reverse_depends = "['krdc', 'krfb', 'qt-virt-manager', 'remmina-vnc', 'virtualbox', 'vlc-vnc', 'x11vnc']"
+reverse_depends = "['./krfb', 'krdc', 'krfb', 'qt-virt-manager', 'remmina-vnc', 'virtualbox', 'vlc-vnc', 'x11vnc']"
 +++
 ### Description: 
 Library to create custom VNC servers

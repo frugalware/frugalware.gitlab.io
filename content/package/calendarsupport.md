@@ -12,7 +12,7 @@ size = "582728"
 usize = "3666767"
 sha1sum = "6a7f0a3576f3f2595fa94cd343c80fa782dc6631"
 depends = "['akonadi>=24.05.2', 'akonadi-calendar>=24.05.2', 'akonadi-notes>=24.05.2', 'kholidays>=6.3.0', 'pimcommon>=24.05.2']"
-reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
+reverse_depends = "['./akonadi-calendar-tools', './akonadiconsole', './eventviews', './pim-data-exporter', 'akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
 +++
 ### Description: 
 This lib provides calendar support

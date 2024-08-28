@@ -1,243 +1,243 @@
 +++
 draft = false
-title = "kleopatra 24.05.2-1"
-version = "24.05.2-1"
+title = "./kleopatra 24.08.0-1"
+version = "24.08.0-1"
 description = "Certificate manager and GUI for OpenPGP and CMS cryptography."
-date = "2024-07-05T09:32:19"
-aliases = "/packages/219334"
+date = "2024-08-22T14:18:23"
+aliases = "/packages/222328"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3440104"
-usize = "16345361"
-sha1sum = "eecf670e846a28b628196a08fea79a80c07d53f0"
-depends = "['kcmutils>=6.3.0', 'kitemmodels>=6.3.0', 'kmime>=6.3.0', 'kstatusnotifieritem>=6.3.0', 'libkleo>=24.05.2', 'mimetreeparser>=24.05.2']"
+size = "3485576"
+usize = "16622518"
+sha1sum = "d3b1db859b73dedcaad190698971a1cddc63d7ac"
+depends = "['kcmutils>=6.5.0', 'kitemmodels>=6.5.0', 'kmime>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'libkleo>=24.08.0', 'mimetreeparser>=24.08.0']"
 +++
 ### Description: 
 Certificate manager and GUI for OpenPGP and CMS cryptography.
 
 ### Files: 
-* /usr/bin/kleopatra
-* /usr/bin/kwatchgnupg
-* /usr/lib/libkleopatraclientcore.so.1
-* /usr/lib/libkleopatraclientcore.so.1.3.0
-* /usr/lib/libkleopatraclientgui.so.1
-* /usr/lib/libkleopatraclientgui.so.1.3.0
-* /usr/lib/qt6/plugins/pim6/kcms/kleopatra/kleopatra_config_gnupgsystem.so
-* /usr/share/applications/kleopatra_import.desktop
-* /usr/share/applications/org.kde.kleopatra.desktop
-* /usr/share/applications/org.kde.kwatchgnupg.desktop
-* /usr/share/doc/HTML/ca/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/ca/kleopatra/index.docbook
-* /usr/share/doc/HTML/ca/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/ca/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/de/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/de/kleopatra/index.docbook
-* /usr/share/doc/HTML/de/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/de/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/en/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/en/kleopatra/index.docbook
-* /usr/share/doc/HTML/en/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/en/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/es/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/es/kleopatra/index.docbook
-* /usr/share/doc/HTML/es/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/es/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/et/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/et/kleopatra/index.docbook
-* /usr/share/doc/HTML/et/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/et/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/fr/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/fr/kleopatra/index.docbook
-* /usr/share/doc/HTML/fr/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/fr/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/it/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/it/kleopatra/index.docbook
-* /usr/share/doc/HTML/it/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/it/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/nl/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/nl/kleopatra/index.docbook
-* /usr/share/doc/HTML/nl/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/nl/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/pt/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/pt/kleopatra/index.docbook
-* /usr/share/doc/HTML/pt/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/pt/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/pt_BR/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kleopatra/index.docbook
-* /usr/share/doc/HTML/pt_BR/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/ru/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/ru/kleopatra/index.docbook
-* /usr/share/doc/HTML/ru/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/ru/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/sv/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/sv/kleopatra/index.docbook
-* /usr/share/doc/HTML/sv/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/sv/kwatchgnupg/index.docbook
-* /usr/share/doc/HTML/uk/kleopatra/index.cache.bz2
-* /usr/share/doc/HTML/uk/kleopatra/index.docbook
-* /usr/share/doc/HTML/uk/kwatchgnupg/index.cache.bz2
-* /usr/share/doc/HTML/uk/kwatchgnupg/index.docbook
-* /usr/share/doc/kleopatra-24.05.2/README.packagers
-* /usr/share/icons/hicolor/128x128/apps/kleopatra.png
-* /usr/share/icons/hicolor/16x16/apps/kleopatra.png
-* /usr/share/icons/hicolor/22x22/apps/kleopatra.png
-* /usr/share/icons/hicolor/22x22/apps/kwatchgnupg.png
-* /usr/share/icons/hicolor/256x256/apps/kleopatra.png
-* /usr/share/icons/hicolor/32x32/apps/kleopatra.png
-* /usr/share/icons/hicolor/48x48/apps/kleopatra.png
-* /usr/share/icons/hicolor/64x64/apps/kleopatra.png
-* /usr/share/kio/servicemenus/kleopatra_decryptverifyfiles.desktop
-* /usr/share/kio/servicemenus/kleopatra_decryptverifyfolders.desktop
-* /usr/share/kio/servicemenus/kleopatra_signencryptfiles.desktop
-* /usr/share/kio/servicemenus/kleopatra_signencryptfolders.desktop
-* /usr/share/kleopatra/pics/kleopatra_splashscreen.png
-* /usr/share/kleopatra/pics/kleopatra_splashscreen.svgz
-* /usr/share/kleopatra/pics/kleopatra_wizard.png
-* /usr/share/kleopatra/pics/kleopatra_wizard.svgz
-* /usr/share/kwatchgnupg/pics/kwatchgnupg.png
-* /usr/share/kwatchgnupg/pics/kwatchgnupg2.png
-* /usr/share/locale/af/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ar/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ar/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ast/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ast/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/be/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/be/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/bg/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/bg/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/br/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/br/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/bs/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/bs/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ca/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ca/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/cs/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/cs/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/cy/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/cy/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/da/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/da/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/de/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/de/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/el/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/el/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/eo/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/eo/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/es/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/es/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/et/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/et/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/eu/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/eu/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/fa/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/fa/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/fi/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/fi/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/fr/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/fr/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/fy/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/fy/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ga/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ga/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/gl/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/gl/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/he/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/he/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/hi/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/hi/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/hne/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/hne/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/hr/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/hu/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/hu/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ia/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ia/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/is/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/is/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/it/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/it/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ja/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ja/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ka/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ka/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/kk/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/kk/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/km/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/km/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ko/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ko/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/lt/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/lt/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/lv/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/lv/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/mk/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/mk/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/mr/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/mr/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ms/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ms/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/nb/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/nb/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/nds/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/nds/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ne/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ne/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/nl/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/nl/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/nn/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/nn/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/pa/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/pa/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/pl/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/pl/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/pt/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/pt/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ro/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ro/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ru/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ru/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/se/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/se/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sk/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/sk/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sl/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/sl/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sq/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/sq/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sr/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/sv/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/sv/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ta/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ta/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/tg/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/tg/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/th/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/tr/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/tr/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/ug/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/ug/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/uk/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/uk/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/uz/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/xh/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kleopatra.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kwatchgnupg.mo
-* /usr/share/metainfo/org.kde.kleopatra.appdata.xml
-* /usr/share/mime/packages/application-vnd-kde-kleopatra.xml
-* /usr/share/mime/packages/kleopatra-mime.xml
-* /usr/share/qlogging-categories6/kleopatra.categories
-* /usr/share/qlogging-categories6/kleopatra.renamecategories
+* kleopatra /usr/bin/kleopatra
+* kleopatra /usr/bin/kwatchgnupg
+* kleopatra /usr/lib/libkleopatraclientcore.so.1
+* kleopatra /usr/lib/libkleopatraclientcore.so.1.3.0
+* kleopatra /usr/lib/libkleopatraclientgui.so.1
+* kleopatra /usr/lib/libkleopatraclientgui.so.1.3.0
+* kleopatra /usr/lib/qt6/plugins/pim6/kcms/kleopatra/kleopatra_config_gnupgsystem.so
+* kleopatra /usr/share/applications/kleopatra_import.desktop
+* kleopatra /usr/share/applications/org.kde.kleopatra.desktop
+* kleopatra /usr/share/applications/org.kde.kwatchgnupg.desktop
+* kleopatra /usr/share/doc/HTML/ca/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/ca/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/ca/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/ca/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/de/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/de/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/de/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/de/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/en/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/en/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/en/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/en/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/es/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/es/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/es/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/es/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/et/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/et/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/et/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/et/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/fr/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/fr/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/fr/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/fr/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/it/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/it/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/it/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/it/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/nl/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/nl/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/nl/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/nl/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/pt/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/pt/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/pt/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/pt/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/pt_BR/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/pt_BR/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/pt_BR/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/pt_BR/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/ru/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/ru/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/ru/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/ru/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/sv/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/sv/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/sv/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/sv/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/HTML/uk/kleopatra/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/uk/kleopatra/index.docbook
+* kleopatra /usr/share/doc/HTML/uk/kwatchgnupg/index.cache.bz2
+* kleopatra /usr/share/doc/HTML/uk/kwatchgnupg/index.docbook
+* kleopatra /usr/share/doc/kleopatra-24.08.0/README.packagers
+* kleopatra /usr/share/icons/hicolor/128x128/apps/kleopatra.png
+* kleopatra /usr/share/icons/hicolor/16x16/apps/kleopatra.png
+* kleopatra /usr/share/icons/hicolor/22x22/apps/kleopatra.png
+* kleopatra /usr/share/icons/hicolor/22x22/apps/kwatchgnupg.png
+* kleopatra /usr/share/icons/hicolor/256x256/apps/kleopatra.png
+* kleopatra /usr/share/icons/hicolor/32x32/apps/kleopatra.png
+* kleopatra /usr/share/icons/hicolor/48x48/apps/kleopatra.png
+* kleopatra /usr/share/icons/hicolor/64x64/apps/kleopatra.png
+* kleopatra /usr/share/kio/servicemenus/kleopatra_decryptverifyfiles.desktop
+* kleopatra /usr/share/kio/servicemenus/kleopatra_decryptverifyfolders.desktop
+* kleopatra /usr/share/kio/servicemenus/kleopatra_signencryptfiles.desktop
+* kleopatra /usr/share/kio/servicemenus/kleopatra_signencryptfolders.desktop
+* kleopatra /usr/share/kleopatra/pics/kleopatra_splashscreen.png
+* kleopatra /usr/share/kleopatra/pics/kleopatra_splashscreen.svgz
+* kleopatra /usr/share/kleopatra/pics/kleopatra_wizard.png
+* kleopatra /usr/share/kleopatra/pics/kleopatra_wizard.svgz
+* kleopatra /usr/share/kwatchgnupg/pics/kwatchgnupg.png
+* kleopatra /usr/share/kwatchgnupg/pics/kwatchgnupg2.png
+* kleopatra /usr/share/locale/af/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ar/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ar/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ast/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ast/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/be/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/be/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/bg/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/bg/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/br/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/br/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/bs/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/bs/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ca/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ca/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ca@valencia/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ca@valencia/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/cs/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/cs/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/cy/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/cy/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/da/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/da/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/de/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/de/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/el/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/el/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/en_GB/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/en_GB/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/eo/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/eo/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/es/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/es/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/et/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/et/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/eu/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/eu/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/fa/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/fa/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/fi/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/fi/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/fr/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/fr/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/fy/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/fy/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ga/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ga/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/gl/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/gl/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/he/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/he/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/hi/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/hi/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/hne/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/hne/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/hr/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/hu/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/hu/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ia/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ia/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/is/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/is/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/it/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/it/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ja/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ja/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ka/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ka/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/kk/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/kk/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/km/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/km/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ko/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ko/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/lt/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/lt/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/lv/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/lv/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/mk/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/mk/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/mr/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/mr/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ms/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ms/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/nb/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/nb/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/nds/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/nds/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ne/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ne/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/nl/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/nl/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/nn/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/nn/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/pa/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/pa/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/pl/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/pl/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/pt/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/pt/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/pt_BR/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/pt_BR/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ro/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ro/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ru/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ru/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/se/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/se/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sk/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/sk/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sl/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/sl/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sq/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/sq/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sr/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sr@ijekavian/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sr@latin/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/sv/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/sv/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ta/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ta/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/tg/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/tg/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/th/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/tr/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/tr/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/ug/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/ug/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/uk/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/uk/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/uz/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/uz@cyrillic/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/xh/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/zh_CN/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/zh_CN/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/locale/zh_TW/LC_MESSAGES/kleopatra.mo
+* kleopatra /usr/share/locale/zh_TW/LC_MESSAGES/kwatchgnupg.mo
+* kleopatra /usr/share/metainfo/org.kde.kleopatra.appdata.xml
+* kleopatra /usr/share/mime/packages/application-vnd-kde-kleopatra.xml
+* kleopatra /usr/share/mime/packages/kleopatra-mime.xml
+* kleopatra /usr/share/qlogging-categories6/kleopatra.categories
+* kleopatra /usr/share/qlogging-categories6/kleopatra.renamecategories

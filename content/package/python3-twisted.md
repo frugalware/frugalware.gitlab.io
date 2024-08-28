@@ -12,7 +12,7 @@ size = "5298596"
 usize = "30188201"
 sha1sum = "a5122d590f2e2eee6756299274aa6ce189ed7f7b"
 depends = "['python3-attrs', 'python3-constantly', 'python3-incremental', 'python3-typing_extensions', 'python3-zopeinterface']"
-reverse_depends = "['kajongg']"
+reverse_depends = "['./kajongg', 'kajongg']"
 +++
 ### Description: 
 An event-driven networking framework written in Python.

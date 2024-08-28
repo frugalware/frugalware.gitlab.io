@@ -12,7 +12,7 @@ size = "1840312"
 usize = "9593519"
 sha1sum = "e772bb0915e0ac6702c2ab2a2f5a36b838254f32"
 depends = "['glibc>=2.37', 'readline>=8.2']"
-reverse_depends = "['autoconf', 'automake', 'backupninja', 'bash-completion', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'dosfstools', 'dracut', 'findutils', 'flex', 'gradle', 'gzip', 'kbd', 'keychain', 'less', 'lesspipe', 'libtool', 'lxc', 'lynis', 'make', 'maxima', 'neofetch', 'nvm', 'openresolv', 'os-prober', 'pacman-tools', 'prettyping', 'pulse-autoconf', 'pyenv', 'rpcbind', 'screenfetch', 'scriptlet-core', 'steamtinkerlaunch', 'systemd-swap', 'tar', 'wgetpaste']"
+reverse_depends = "['./pyenv', 'autoconf', 'automake', 'backupninja', 'bash-completion', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'dosfstools', 'dracut', 'findutils', 'flex', 'gradle', 'gzip', 'kbd', 'keychain', 'less', 'lesspipe', 'libtool', 'lxc', 'lynis', 'make', 'maxima', 'neofetch', 'nvm', 'openresolv', 'os-prober', 'pacman-tools', 'prettyping', 'pulse-autoconf', 'pyenv', 'rpcbind', 'screenfetch', 'scriptlet-core', 'steamtinkerlaunch', 'systemd-swap', 'tar', 'wgetpaste']"
 +++
 ### Description: 
 The GNU Bourne Again shell
