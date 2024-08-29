@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf 27.4-1"
-version = "27.4-1"
+title = "protobuf 28.0-1"
+version = "28.0-1"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2024-08-28T08:43:22"
+date = "2024-08-29T13:38:40"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "2428724"
-usize = "11669294"
-sha1sum = "0ac36428f988bbcca272a4821527e4b4a1a88612"
+size = "2455532"
+usize = "11868788"
+sha1sum = "c0f303a67ca3de27727d031adb39c051269cce3f"
 depends = "['abseil-cpp>=20240722.0', 'libstdc++>=11.3', 'zlib>=1.2.12']"
 reverse_depends = "['android-tools', 'grpc', 'libmarble', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
@@ -19,13 +19,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 
 ### Files: 
 * /usr/bin/protoc
-* /usr/bin/protoc-27.4.0
+* /usr/bin/protoc-28.0.0
 * /usr/bin/protoc-gen-upb
-* /usr/bin/protoc-gen-upb-27.4.0
+* /usr/bin/protoc-gen-upb-28.0.0
 * /usr/bin/protoc-gen-upbdefs
-* /usr/bin/protoc-gen-upbdefs-27.4.0
+* /usr/bin/protoc-gen-upbdefs-28.0.0
 * /usr/bin/protoc-gen-upb_minitable
-* /usr/bin/protoc-gen-upb_minitable-27.4.0
+* /usr/bin/protoc-gen-upb_minitable-28.0.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
 * /usr/include/google/protobuf/any.proto
@@ -147,8 +147,8 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/ruby/ruby_generator.h
 * /usr/include/google/protobuf/compiler/rust/accessors/accessors.h
 * /usr/include/google/protobuf/compiler/rust/accessors/accessor_case.h
+* /usr/include/google/protobuf/compiler/rust/accessors/default_value.h
 * /usr/include/google/protobuf/compiler/rust/accessors/generator.h
-* /usr/include/google/protobuf/compiler/rust/accessors/helpers.h
 * /usr/include/google/protobuf/compiler/rust/context.h
 * /usr/include/google/protobuf/compiler/rust/crate_mapping.h
 * /usr/include/google/protobuf/compiler/rust/enum.h
@@ -309,6 +309,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/upb/message/internal/array.h
 * /usr/include/upb/message/internal/compare_unknown.h
 * /usr/include/upb/message/internal/extension.h
+* /usr/include/upb/message/internal/iterator.h
 * /usr/include/upb/message/internal/map.h
 * /usr/include/upb/message/internal/map_entry.h
 * /usr/include/upb/message/internal/map_sorter.h
@@ -317,6 +318,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/upb/message/internal/types.h
 * /usr/include/upb/message/map.h
 * /usr/include/upb/message/map_gencode_util.h
+* /usr/include/upb/message/merge.h
 * /usr/include/upb/message/message.h
 * /usr/include/upb/message/tagged_ptr.h
 * /usr/include/upb/message/value.h
@@ -380,6 +382,8 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/upb/reflection/oneof_def.h
 * /usr/include/upb/reflection/service_def.h
 * /usr/include/upb/text/encode.h
+* /usr/include/upb/text/internal/encode.h
+* /usr/include/upb/text/options.h
 * /usr/include/upb/util/def_to_proto.h
 * /usr/include/upb/util/required_fields.h
 * /usr/include/upb/wire/decode.h
@@ -402,13 +406,15 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 * /usr/lib/cmake/utf8_range/utf8_range-targets.cmake
 * /usr/lib/libprotobuf-lite.so
-* /usr/lib/libprotobuf-lite.so.27.4.0
+* /usr/lib/libprotobuf-lite.so.28.0.0
 * /usr/lib/libprotobuf.so
-* /usr/lib/libprotobuf.so.27.4.0
+* /usr/lib/libprotobuf.so.28.0.0
 * /usr/lib/libprotoc.so
-* /usr/lib/libprotoc.so.27.4.0
+* /usr/lib/libprotoc.so.28.0.0
+* /usr/lib/libutf8_range.so
+* /usr/lib/libutf8_validity.so
 * /usr/lib/pkgconfig/protobuf-lite.pc
 * /usr/lib/pkgconfig/protobuf.pc
 * /usr/lib/pkgconfig/utf8_range.pc
-* /usr/share/doc/protobuf-27.4/LICENSE
-* /usr/share/doc/protobuf-27.4/README.md
+* /usr/share/doc/protobuf-28.0/LICENSE
+* /usr/share/doc/protobuf-28.0/README.md

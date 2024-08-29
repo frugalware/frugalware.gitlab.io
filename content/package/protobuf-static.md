@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf-static 27.3-2"
-version = "27.3-2"
+title = "protobuf-static 28.0-1"
+version = "28.0-1"
 description = "Static files for protobuf"
-date = "2024-08-03T17:07:52"
+date = "2024-08-29T13:38:40"
 aliases = "/packages/221080"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "1609980"
-usize = "2181198"
-sha1sum = "5f7ef13ef3eaab082eaafe762c2ca56f4f85e6ea"
+size = "1635160"
+usize = "2216364"
+sha1sum = "dc1a9aa49b13a60dca28793759cfaf4833e04fe0"
 depends = "[]"
 +++
 ### Description: 
@@ -18,5 +18,3 @@ Static files for protobuf
 
 ### Files: 
 * /usr/lib/libupb.a
-* /usr/lib/libutf8_range.a
-* /usr/lib/libutf8_validity.a
