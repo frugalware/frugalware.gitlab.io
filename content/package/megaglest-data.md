@@ -1,12 +1,12 @@
 +++
 draft = false
-title = "megaglest-data 3.9.0-1"
-version = "3.9.0-1"
+title = "megaglest-data 3.13.0-1"
+version = "3.13.0-1"
 description = "Fork of Glest, a 3D real-time strategy game in a fantastic world."
-date = "2017-08-20T15:05:22"
+date = "2024-08-29T11:57:30"
 aliases = "/packages/221393"
 categories = ['games-extra']
-upstreamurl = "https://sourceforge.net/projects/megaglest"
+upstreamurl = "https://github.com/megaglest/megaglest-data"
 arch = "x86_64"
 size = "0"
 usize = "0"
