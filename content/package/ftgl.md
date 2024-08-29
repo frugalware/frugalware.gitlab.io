@@ -12,6 +12,7 @@ size = "117372"
 usize = "551905"
 sha1sum = "eb3cc43c2b68b2116a3de5220d4b163aa491cdd9"
 depends = "['freetype2', 'libglu']"
+reverse_depends = "['megaglest']"
 +++
 ### Description: 
 Library to render text in OpenGL using FreeType

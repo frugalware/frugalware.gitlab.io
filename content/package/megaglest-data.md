@@ -12,6 +12,7 @@ size = "0"
 usize = "0"
 sha1sum = ""
 depends = "[]"
+reverse_depends = "['megaglest']"
 +++
 ### Description: 
 Fork of Glest, a 3D real-time strategy game in a fantastic world.

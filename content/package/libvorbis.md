@@ -12,7 +12,7 @@ size = "288456"
 usize = "1510091"
 sha1sum = "1bae6b051c5d1d31330ada6f86061dc9ab79c042"
 depends = "['glibc>=2.34', 'libogg>=1.3.2-8']"
-reverse_depends = "['alienarena', 'allegro', 'assaultcube', 'cdrdao', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'gst1-plugins-base-vorbis', 'icecast', 'ices', 'libcanberra', 'libextractor', 'libmp3splt', 'libpulse', 'libshout', 'libsndfile', 'love', 'minidlna', 'mkvtoolnix', 'mlt', 'naev', 'scummvm-tools', 'sdl2_mixer', 'sdl_mixer', 'solarus', 'stepmania', 'supertux', 'supertuxkart', 'terminology', 'vlc-vorbis', 'vorbis-tools', 'vorbisgain', 'xonotic']"
+reverse_depends = "['alienarena', 'allegro', 'assaultcube', 'cdrdao', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'gst1-plugins-base-vorbis', 'icecast', 'ices', 'libcanberra', 'libextractor', 'libmp3splt', 'libpulse', 'libshout', 'libsndfile', 'love', 'megaglest', 'minidlna', 'mkvtoolnix', 'mlt', 'naev', 'scummvm-tools', 'sdl2_mixer', 'sdl_mixer', 'solarus', 'stepmania', 'supertux', 'supertuxkart', 'terminology', 'vlc-vorbis', 'vorbis-tools', 'vorbisgain', 'xonotic']"
 +++
 ### Description: 
 Vorbis codec library

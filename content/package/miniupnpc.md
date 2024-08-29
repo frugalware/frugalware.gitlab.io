@@ -12,7 +12,7 @@ size = "262664"
 usize = "391631"
 sha1sum = "934653ea817cbc08a290bc03f5fa319350a915bb"
 depends = "['glibc']"
-reverse_depends = "['transmission-cli', 'warzone2100']"
+reverse_depends = "['megaglest', 'transmission-cli', 'warzone2100']"
 +++
 ### Description: 
 A small UPnP client library/tool to access Internet Gateway Devices
