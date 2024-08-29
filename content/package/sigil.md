@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sigil 2.0.1-4"
-version = "2.0.1-4"
+title = "sigil 2.3.0-1"
+version = "2.3.0-1"
 description = "A WYSISYG ebook editor."
-date = "2024-05-27T05:26:38"
+date = "2024-08-29T17:48:21"
 aliases = "/packages/135763"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/user-none/Sigil"
+upstreamurl = "https://github.com/Sigil-Ebook/Sigil"
 arch = "x86_64"
-size = "7026148"
-usize = "33749425"
-sha1sum = "6531dc67591112a1f44eabd53f8436b8ad7f7dc9"
-depends = "['hunspell', 'python3>=3.12', 'python3-lxml', 'qt5-svg>=5.15.10', 'qt5-webengine>=5.15.10']"
+size = "6670016"
+usize = "31549142"
+sha1sum = "52210e846aaf706efebba4eda5d17f93ac906f72"
+depends = "['hunspell', 'python3>=3.12', 'python3-lxml', 'qt6-svg', 'qt6-webengine']"
 +++
 ### Description: 
 A WYSISYG ebook editor.
@@ -22,8 +22,8 @@ A WYSISYG ebook editor.
 * /usr/lib/sigil/libsigilgumbo.so
 * /usr/lib/sigil/sigil
 * /usr/share/applications/sigil.desktop
-* /usr/share/doc/sigil-2.0.1/COPYING.txt
-* /usr/share/doc/sigil-2.0.1/README.md
+* /usr/share/doc/sigil-2.3.0/COPYING.txt
+* /usr/share/doc/sigil-2.3.0/README.md
 * /usr/share/pixmaps/sigil.png
 * /usr/share/sigil/examples/clip_entries.ini
 * /usr/share/sigil/examples/search_entries.ini
@@ -48,6 +48,7 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/hunspell_dictionaries/hyph_es.dic
 * /usr/share/sigil/hunspell_dictionaries/hyph_fr.dic
 * /usr/share/sigil/hunspell_dictionaries/license.txt
+* /usr/share/sigil/hunspell_dictionaries/License_es.md
 * /usr/share/sigil/hunspell_dictionaries/README.txt
 * /usr/share/sigil/hunspell_dictionaries/README_de_DE_frami.txt
 * /usr/share/sigil/hunspell_dictionaries/README_en_GB.txt
@@ -58,7 +59,7 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/hunspell_dictionaries/README_hyph_de.txt
 * /usr/share/sigil/hunspell_dictionaries/README_hyph_en_GB.txt
 * /usr/share/sigil/hunspell_dictionaries/README_hyph_en_US.txt
-* /usr/share/sigil/hunspell_dictionaries/README_hyph_es_ANY.txt
+* /usr/share/sigil/hunspell_dictionaries/README_hyph_es.txt
 * /usr/share/sigil/hunspell_dictionaries/README_hyph_fr.txt
 * /usr/share/sigil/iconthemes/fluent.rcc
 * /usr/share/sigil/iconthemes/main.rcc
@@ -97,6 +98,7 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/polyfills/custom-mathjax.min.js
 * /usr/share/sigil/python3lib/cssreformatter.py
 * /usr/share/sigil/python3lib/diffstat.py
+* /usr/share/sigil/python3lib/fix_opf_ids.py
 * /usr/share/sigil/python3lib/gencheck.py
 * /usr/share/sigil/python3lib/metadata_utils.py
 * /usr/share/sigil/python3lib/metaproc2.py
@@ -105,24 +107,215 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/python3lib/ncxgenerator.py
 * /usr/share/sigil/python3lib/opf2data.py
 * /usr/share/sigil/python3lib/opf3data.py
+* /usr/share/sigil/python3lib/opf_id_parser.py
 * /usr/share/sigil/python3lib/opf_newparser.py
 * /usr/share/sigil/python3lib/repomanager.py
 * /usr/share/sigil/python3lib/sanitycheck.py
 * /usr/share/sigil/python3lib/sdifflibparser.py
+* /usr/share/sigil/python3lib/unidecode/LICENSE
+* /usr/share/sigil/python3lib/unidecode/py.typed
+* /usr/share/sigil/python3lib/unidecode/README.rst
+* /usr/share/sigil/python3lib/unidecode/util.py
+* /usr/share/sigil/python3lib/unidecode/x000.py
+* /usr/share/sigil/python3lib/unidecode/x001.py
+* /usr/share/sigil/python3lib/unidecode/x002.py
+* /usr/share/sigil/python3lib/unidecode/x003.py
+* /usr/share/sigil/python3lib/unidecode/x004.py
+* /usr/share/sigil/python3lib/unidecode/x005.py
+* /usr/share/sigil/python3lib/unidecode/x006.py
+* /usr/share/sigil/python3lib/unidecode/x007.py
+* /usr/share/sigil/python3lib/unidecode/x009.py
+* /usr/share/sigil/python3lib/unidecode/x00a.py
+* /usr/share/sigil/python3lib/unidecode/x00b.py
+* /usr/share/sigil/python3lib/unidecode/x00c.py
+* /usr/share/sigil/python3lib/unidecode/x00d.py
+* /usr/share/sigil/python3lib/unidecode/x00e.py
+* /usr/share/sigil/python3lib/unidecode/x00f.py
+* /usr/share/sigil/python3lib/unidecode/x010.py
+* /usr/share/sigil/python3lib/unidecode/x011.py
+* /usr/share/sigil/python3lib/unidecode/x012.py
+* /usr/share/sigil/python3lib/unidecode/x013.py
+* /usr/share/sigil/python3lib/unidecode/x014.py
+* /usr/share/sigil/python3lib/unidecode/x015.py
+* /usr/share/sigil/python3lib/unidecode/x016.py
+* /usr/share/sigil/python3lib/unidecode/x017.py
+* /usr/share/sigil/python3lib/unidecode/x018.py
+* /usr/share/sigil/python3lib/unidecode/x01d.py
+* /usr/share/sigil/python3lib/unidecode/x01e.py
+* /usr/share/sigil/python3lib/unidecode/x01f.py
+* /usr/share/sigil/python3lib/unidecode/x020.py
+* /usr/share/sigil/python3lib/unidecode/x021.py
+* /usr/share/sigil/python3lib/unidecode/x022.py
+* /usr/share/sigil/python3lib/unidecode/x023.py
+* /usr/share/sigil/python3lib/unidecode/x024.py
+* /usr/share/sigil/python3lib/unidecode/x025.py
+* /usr/share/sigil/python3lib/unidecode/x026.py
+* /usr/share/sigil/python3lib/unidecode/x027.py
+* /usr/share/sigil/python3lib/unidecode/x028.py
+* /usr/share/sigil/python3lib/unidecode/x029.py
+* /usr/share/sigil/python3lib/unidecode/x02a.py
+* /usr/share/sigil/python3lib/unidecode/x02c.py
+* /usr/share/sigil/python3lib/unidecode/x02e.py
+* /usr/share/sigil/python3lib/unidecode/x02f.py
+* /usr/share/sigil/python3lib/unidecode/x030.py
+* /usr/share/sigil/python3lib/unidecode/x031.py
+* /usr/share/sigil/python3lib/unidecode/x032.py
+* /usr/share/sigil/python3lib/unidecode/x033.py
+* /usr/share/sigil/python3lib/unidecode/x04d.py
+* /usr/share/sigil/python3lib/unidecode/x04e.py
+* /usr/share/sigil/python3lib/unidecode/x04f.py
+* /usr/share/sigil/python3lib/unidecode/x050.py
+* /usr/share/sigil/python3lib/unidecode/x051.py
+* /usr/share/sigil/python3lib/unidecode/x052.py
+* /usr/share/sigil/python3lib/unidecode/x053.py
+* /usr/share/sigil/python3lib/unidecode/x054.py
+* /usr/share/sigil/python3lib/unidecode/x055.py
+* /usr/share/sigil/python3lib/unidecode/x056.py
+* /usr/share/sigil/python3lib/unidecode/x057.py
+* /usr/share/sigil/python3lib/unidecode/x058.py
+* /usr/share/sigil/python3lib/unidecode/x059.py
+* /usr/share/sigil/python3lib/unidecode/x05a.py
+* /usr/share/sigil/python3lib/unidecode/x05b.py
+* /usr/share/sigil/python3lib/unidecode/x05c.py
+* /usr/share/sigil/python3lib/unidecode/x05d.py
+* /usr/share/sigil/python3lib/unidecode/x05e.py
+* /usr/share/sigil/python3lib/unidecode/x05f.py
+* /usr/share/sigil/python3lib/unidecode/x060.py
+* /usr/share/sigil/python3lib/unidecode/x061.py
+* /usr/share/sigil/python3lib/unidecode/x062.py
+* /usr/share/sigil/python3lib/unidecode/x063.py
+* /usr/share/sigil/python3lib/unidecode/x064.py
+* /usr/share/sigil/python3lib/unidecode/x065.py
+* /usr/share/sigil/python3lib/unidecode/x066.py
+* /usr/share/sigil/python3lib/unidecode/x067.py
+* /usr/share/sigil/python3lib/unidecode/x068.py
+* /usr/share/sigil/python3lib/unidecode/x069.py
+* /usr/share/sigil/python3lib/unidecode/x06a.py
+* /usr/share/sigil/python3lib/unidecode/x06b.py
+* /usr/share/sigil/python3lib/unidecode/x06c.py
+* /usr/share/sigil/python3lib/unidecode/x06d.py
+* /usr/share/sigil/python3lib/unidecode/x06e.py
+* /usr/share/sigil/python3lib/unidecode/x06f.py
+* /usr/share/sigil/python3lib/unidecode/x070.py
+* /usr/share/sigil/python3lib/unidecode/x071.py
+* /usr/share/sigil/python3lib/unidecode/x072.py
+* /usr/share/sigil/python3lib/unidecode/x073.py
+* /usr/share/sigil/python3lib/unidecode/x074.py
+* /usr/share/sigil/python3lib/unidecode/x075.py
+* /usr/share/sigil/python3lib/unidecode/x076.py
+* /usr/share/sigil/python3lib/unidecode/x077.py
+* /usr/share/sigil/python3lib/unidecode/x078.py
+* /usr/share/sigil/python3lib/unidecode/x079.py
+* /usr/share/sigil/python3lib/unidecode/x07a.py
+* /usr/share/sigil/python3lib/unidecode/x07b.py
+* /usr/share/sigil/python3lib/unidecode/x07c.py
+* /usr/share/sigil/python3lib/unidecode/x07d.py
+* /usr/share/sigil/python3lib/unidecode/x07e.py
+* /usr/share/sigil/python3lib/unidecode/x07f.py
+* /usr/share/sigil/python3lib/unidecode/x080.py
+* /usr/share/sigil/python3lib/unidecode/x081.py
+* /usr/share/sigil/python3lib/unidecode/x082.py
+* /usr/share/sigil/python3lib/unidecode/x083.py
+* /usr/share/sigil/python3lib/unidecode/x084.py
+* /usr/share/sigil/python3lib/unidecode/x085.py
+* /usr/share/sigil/python3lib/unidecode/x086.py
+* /usr/share/sigil/python3lib/unidecode/x087.py
+* /usr/share/sigil/python3lib/unidecode/x088.py
+* /usr/share/sigil/python3lib/unidecode/x089.py
+* /usr/share/sigil/python3lib/unidecode/x08a.py
+* /usr/share/sigil/python3lib/unidecode/x08b.py
+* /usr/share/sigil/python3lib/unidecode/x08c.py
+* /usr/share/sigil/python3lib/unidecode/x08d.py
+* /usr/share/sigil/python3lib/unidecode/x08e.py
+* /usr/share/sigil/python3lib/unidecode/x08f.py
+* /usr/share/sigil/python3lib/unidecode/x090.py
+* /usr/share/sigil/python3lib/unidecode/x091.py
+* /usr/share/sigil/python3lib/unidecode/x092.py
+* /usr/share/sigil/python3lib/unidecode/x093.py
+* /usr/share/sigil/python3lib/unidecode/x094.py
+* /usr/share/sigil/python3lib/unidecode/x095.py
+* /usr/share/sigil/python3lib/unidecode/x096.py
+* /usr/share/sigil/python3lib/unidecode/x097.py
+* /usr/share/sigil/python3lib/unidecode/x098.py
+* /usr/share/sigil/python3lib/unidecode/x099.py
+* /usr/share/sigil/python3lib/unidecode/x09a.py
+* /usr/share/sigil/python3lib/unidecode/x09b.py
+* /usr/share/sigil/python3lib/unidecode/x09c.py
+* /usr/share/sigil/python3lib/unidecode/x09d.py
+* /usr/share/sigil/python3lib/unidecode/x09e.py
+* /usr/share/sigil/python3lib/unidecode/x09f.py
+* /usr/share/sigil/python3lib/unidecode/x0a0.py
+* /usr/share/sigil/python3lib/unidecode/x0a1.py
+* /usr/share/sigil/python3lib/unidecode/x0a2.py
+* /usr/share/sigil/python3lib/unidecode/x0a3.py
+* /usr/share/sigil/python3lib/unidecode/x0a4.py
+* /usr/share/sigil/python3lib/unidecode/x0ac.py
+* /usr/share/sigil/python3lib/unidecode/x0ad.py
+* /usr/share/sigil/python3lib/unidecode/x0ae.py
+* /usr/share/sigil/python3lib/unidecode/x0af.py
+* /usr/share/sigil/python3lib/unidecode/x0b0.py
+* /usr/share/sigil/python3lib/unidecode/x0b1.py
+* /usr/share/sigil/python3lib/unidecode/x0b2.py
+* /usr/share/sigil/python3lib/unidecode/x0b3.py
+* /usr/share/sigil/python3lib/unidecode/x0b4.py
+* /usr/share/sigil/python3lib/unidecode/x0b5.py
+* /usr/share/sigil/python3lib/unidecode/x0b6.py
+* /usr/share/sigil/python3lib/unidecode/x0b7.py
+* /usr/share/sigil/python3lib/unidecode/x0b8.py
+* /usr/share/sigil/python3lib/unidecode/x0b9.py
+* /usr/share/sigil/python3lib/unidecode/x0ba.py
+* /usr/share/sigil/python3lib/unidecode/x0bb.py
+* /usr/share/sigil/python3lib/unidecode/x0bc.py
+* /usr/share/sigil/python3lib/unidecode/x0bd.py
+* /usr/share/sigil/python3lib/unidecode/x0be.py
+* /usr/share/sigil/python3lib/unidecode/x0bf.py
+* /usr/share/sigil/python3lib/unidecode/x0c0.py
+* /usr/share/sigil/python3lib/unidecode/x0c1.py
+* /usr/share/sigil/python3lib/unidecode/x0c2.py
+* /usr/share/sigil/python3lib/unidecode/x0c3.py
+* /usr/share/sigil/python3lib/unidecode/x0c4.py
+* /usr/share/sigil/python3lib/unidecode/x0c5.py
+* /usr/share/sigil/python3lib/unidecode/x0c6.py
+* /usr/share/sigil/python3lib/unidecode/x0c7.py
+* /usr/share/sigil/python3lib/unidecode/x0c8.py
+* /usr/share/sigil/python3lib/unidecode/x0c9.py
+* /usr/share/sigil/python3lib/unidecode/x0ca.py
+* /usr/share/sigil/python3lib/unidecode/x0cb.py
+* /usr/share/sigil/python3lib/unidecode/x0cc.py
+* /usr/share/sigil/python3lib/unidecode/x0cd.py
+* /usr/share/sigil/python3lib/unidecode/x0ce.py
+* /usr/share/sigil/python3lib/unidecode/x0cf.py
+* /usr/share/sigil/python3lib/unidecode/x0d0.py
+* /usr/share/sigil/python3lib/unidecode/x0d1.py
+* /usr/share/sigil/python3lib/unidecode/x0d2.py
+* /usr/share/sigil/python3lib/unidecode/x0d3.py
+* /usr/share/sigil/python3lib/unidecode/x0d4.py
+* /usr/share/sigil/python3lib/unidecode/x0d5.py
+* /usr/share/sigil/python3lib/unidecode/x0d6.py
+* /usr/share/sigil/python3lib/unidecode/x0d7.py
+* /usr/share/sigil/python3lib/unidecode/x0f9.py
+* /usr/share/sigil/python3lib/unidecode/x0fa.py
+* /usr/share/sigil/python3lib/unidecode/x0fb.py
+* /usr/share/sigil/python3lib/unidecode/x0fc.py
+* /usr/share/sigil/python3lib/unidecode/x0fd.py
+* /usr/share/sigil/python3lib/unidecode/x0fe.py
+* /usr/share/sigil/python3lib/unidecode/x0ff.py
+* /usr/share/sigil/python3lib/unidecode/x1d4.py
+* /usr/share/sigil/python3lib/unidecode/x1d5.py
+* /usr/share/sigil/python3lib/unidecode/x1d6.py
+* /usr/share/sigil/python3lib/unidecode/x1d7.py
+* /usr/share/sigil/python3lib/unidecode/x1f1.py
+* /usr/share/sigil/python3lib/unidecode/x1f6.py
+* /usr/share/sigil/python3lib/unidecode/__init__.py
+* /usr/share/sigil/python3lib/unidecode/__main__.py
 * /usr/share/sigil/python3lib/updatechecker.py
 * /usr/share/sigil/python3lib/xmlprocessor.py
 * /usr/share/sigil/python3lib/xmlsanitycheck.py
-* /usr/share/sigil/translations/sigil_az.qm
-* /usr/share/sigil/translations/sigil_ca.qm
-* /usr/share/sigil/translations/sigil_cs.qm
-* /usr/share/sigil/translations/sigil_da_DK.qm
 * /usr/share/sigil/translations/sigil_de.qm
 * /usr/share/sigil/translations/sigil_en.qm
 * /usr/share/sigil/translations/sigil_es.qm
 * /usr/share/sigil/translations/sigil_fi.qm
 * /usr/share/sigil/translations/sigil_fr.qm
-* /usr/share/sigil/translations/sigil_gl.qm
-* /usr/share/sigil/translations/sigil_hu_HU.qm
 * /usr/share/sigil/translations/sigil_it.qm
 * /usr/share/sigil/translations/sigil_ja.qm
 * /usr/share/sigil/translations/sigil_ko.qm
@@ -131,8 +324,6 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/translations/sigil_pt_BR.qm
 * /usr/share/sigil/translations/sigil_ru.qm
 * /usr/share/sigil/translations/sigil_sr.qm
-* /usr/share/sigil/translations/sigil_sv.qm
-* /usr/share/sigil/translations/sigil_th.qm
 * /usr/share/sigil/translations/sigil_tr.qm
 * /usr/share/sigil/translations/sigil_uk.qm
 * /usr/share/sigil/translations/sigil_zh_CN.qm

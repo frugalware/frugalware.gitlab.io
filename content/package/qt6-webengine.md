@@ -12,7 +12,7 @@ size = "82441320"
 usize = "250567184"
 sha1sum = "d08f2e9151fac91b35637b932e3d796470db506d"
 depends = "['ffmpeg>=7.0', 'icu4c>=75.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libvpx', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
-reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'skanpage']"
+reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'sigil', 'skanpage']"
 +++
 ### Description: 
 The Qt6 toolkit, qtwebengine
