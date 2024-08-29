@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-bluray 3.0.21-6"
-version = "3.0.21-6"
+title = "vlc-bluray 3.0.21-7"
+version = "3.0.21-7"
 description = "vlc Bluray support"
-date = "2024-08-28T15:27:14"
+date = "2024-08-29T14:26:07"
 aliases = "/packages/219594"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "40964"
+size = "40888"
 usize = "70424"
-sha1sum = "1668ec8737526afec7f37ec0f2e0cec1dfc17dbc"
+sha1sum = "0777964b0a8e935c6016ce693dc1394f77f30ba7"
 depends = "['libbluray', 'libvlc>=3.0.21']"
 +++
 ### Description: 

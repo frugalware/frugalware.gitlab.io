@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-upnp 3.0.21-6"
-version = "3.0.21-6"
+title = "vlc-upnp 3.0.21-7"
+version = "3.0.21-7"
 description = "vlc plugin for upnp"
-date = "2024-08-28T15:27:14"
+date = "2024-08-29T14:26:07"
 aliases = "/packages/135934"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "35816"
+size = "35868"
 usize = "58136"
-sha1sum = "1ef28b80ed9f32d76c401141fe071022d95063b6"
+sha1sum = "4f369e8186547cf95522ef446e8e81420404b838"
 depends = "['libupnp>=1.14.10', 'libvlc>=3.0.21']"
 +++
 ### Description: 

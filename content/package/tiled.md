@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tiled 1.10.2-4"
-version = "1.10.2-4"
+title = "tiled 1.11.0-1"
+version = "1.11.0-1"
 description = "Tiled is a general purpose tile map editor."
-date = "2024-05-27T05:48:03"
+date = "2024-08-29T14:47:25"
 aliases = "/packages/217393"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/bjorn/tiled"
+upstreamurl = "https://github.com/mapeditor/tiled"
 arch = "x86_64"
-size = "3443328"
-usize = "17132806"
-sha1sum = "1d0c32075af5eb7fbc2493c54a42252ed838414c"
+size = "3460068"
+usize = "17226404"
+sha1sum = "913a1753d9bdf046c96c7e8b0a3a62b88a20f06e"
 depends = "['python3>=3.12', 'qt5-declarative>=5.15.10', 'qt5-quickcontrols2>=5.15.10', 'qt5-svg>=5.15.10', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -57,7 +57,8 @@ Tiled is a general purpose tile map editor.
 * /usr/include/tiled/moc_tilelayer.cpp
 * /usr/include/tiled/moc_tilesetformat.cpp
 * /usr/include/tiled/moc_tilesetmanager.cpp
-* /usr/include/tiled/moc_worldmanager.cpp
+* /usr/include/tiled/moc_tmxmapformat.cpp
+* /usr/include/tiled/moc_world.cpp
 * /usr/include/tiled/object.h
 * /usr/include/tiled/objectgroup.h
 * /usr/include/tiled/objecttemplate.h
@@ -79,9 +80,10 @@ Tiled is a general purpose tile map editor.
 * /usr/include/tiled/tileset.h
 * /usr/include/tiled/tilesetformat.h
 * /usr/include/tiled/tilesetmanager.h
+* /usr/include/tiled/tmxmapformat.h
 * /usr/include/tiled/varianttomapconverter.h
 * /usr/include/tiled/wangset.h
-* /usr/include/tiled/worldmanager.h
+* /usr/include/tiled/world.h
 * /usr/lib/libtiled.so
 * /usr/lib/libtilededitor.so
 * /usr/lib/tiled/plugins/libcsv.so
@@ -101,9 +103,9 @@ Tiled is a general purpose tile map editor.
 * /usr/lib/tiled/plugins/libtscn.so
 * /usr/lib/tiled/plugins/libyy.so
 * /usr/share/applications/org.mapeditor.Tiled.desktop
-* /usr/share/doc/tiled-1.10.2/AUTHORS
-* /usr/share/doc/tiled-1.10.2/COPYING
-* /usr/share/doc/tiled-1.10.2/README.md
+* /usr/share/doc/tiled-1.11.0/AUTHORS
+* /usr/share/doc/tiled-1.11.0/COPYING
+* /usr/share/doc/tiled-1.11.0/README.md
 * /usr/share/icons/hicolor/16x16/apps/tiled.png
 * /usr/share/icons/hicolor/16x16/mimetypes/application-x-tiled.png
 * /usr/share/icons/hicolor/32x32/apps/tiled.png

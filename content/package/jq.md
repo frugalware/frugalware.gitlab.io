@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jq 1.7-2"
-version = "1.7-2"
+title = "jq 1.7.1-1"
+version = "1.7.1-1"
 description = "Command-line JSON processor."
-date = "2024-05-16T01:30:31"
+date = "2024-08-29T14:41:52"
 aliases = "/packages/219620"
 categories = ['chroot-core']
-upstreamurl = "https://github.com/stedolan/jq"
+upstreamurl = "https://github.com/jqlang/jq"
 arch = "x86_64"
-size = "188296"
-usize = "474468"
-sha1sum = "f7253a41cd7c365818a92ba647cfa521f4286d49"
+size = "189544"
+usize = "468107"
+sha1sum = "56a282d2c75beafbed80deebd36d6658e1572c49"
 depends = "['oniguruma>=6.9.8']"
 reverse_depends = "['sysdig']"
 +++
@@ -25,9 +25,9 @@ Command-line JSON processor.
 * /usr/lib/libjq.so.1
 * /usr/lib/libjq.so.1.0.4
 * /usr/lib/pkgconfig/libjq.pc
-* /usr/share/doc/jq-1.7/AUTHORS
-* /usr/share/doc/jq-1.7/ChangeLog
-* /usr/share/doc/jq-1.7/COPYING
-* /usr/share/doc/jq-1.7/NEWS.md
-* /usr/share/doc/jq-1.7/README.md
+* /usr/share/doc/jq-1.7.1/AUTHORS
+* /usr/share/doc/jq-1.7.1/ChangeLog
+* /usr/share/doc/jq-1.7.1/COPYING
+* /usr/share/doc/jq-1.7.1/NEWS.md
+* /usr/share/doc/jq-1.7.1/README.md
 * /usr/share/man/man1/jq.1.gz

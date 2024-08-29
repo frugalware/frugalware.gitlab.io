@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-dts-ca 3.0.21-6"
-version = "3.0.21-6"
+title = "vlc-dts-ca 3.0.21-7"
+version = "3.0.21-7"
 description = "vlc DTS Coharent Audio"
-date = "2024-08-28T15:27:14"
+date = "2024-08-29T14:26:07"
 aliases = "/packages/219572"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "16988"
+size = "17004"
 usize = "10000"
-sha1sum = "7855942e24b9f862fac7e80a8491306a7e001b08"
+sha1sum = "b14e42756a498c578ab30b7d6f974789220278af"
 depends = "['libdca', 'librsvg>=2.26.3', 'libvlc>=3.0.21']"
 +++
 ### Description: 
