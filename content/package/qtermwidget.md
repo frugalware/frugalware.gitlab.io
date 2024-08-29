@@ -12,7 +12,7 @@ size = "207344"
 usize = "767919"
 sha1sum = "d87cc6e4b43dc2b29bfeba820d5b0ce80477507c"
 depends = "['qt6-base', 'utf8proc>=2.9.0']"
-reverse_depends = "['qt-virt-manager', 'qterminal']"
+reverse_depends = "['qterminal']"
 +++
 ### Description: 
 A terminal emulator widget for Qt5

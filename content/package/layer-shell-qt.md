@@ -12,7 +12,7 @@ size = "34300"
 usize = "124811"
 sha1sum = "9f0f87d09ddacd94945d246d047e3fc997d4d9dc"
 depends = "['qt6-wayland>=6.7.1']"
-reverse_depends = "['kscreen', 'kscreenlocker']"
+reverse_depends = "['kscreen', 'kscreenlocker', 'qterminal']"
 +++
 ### Description: 
 Qt component to allow applications to make use of the Wayland wl-layer-shell protocol

@@ -1,30 +1,30 @@
 +++
 draft = false
-title = "qterminal 1.3.0-4"
-version = "1.3.0-4"
-description = "The lightweight Qt5 terminal emulator"
-date = "2024-05-27T05:18:03"
+title = "qterminal 2.0.1-1"
+version = "2.0.1-1"
+description = "The lightweight Qt6 terminal emulator"
+date = "2024-08-29T10:44:36"
 aliases = "/packages/218429"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "239804"
-usize = "1182182"
-sha1sum = "5488113af83995ceacab4390735f9484492f815d"
-depends = "['qt5-x11extras>=5.15.10', 'qtermwidget>=1.3.0']"
+size = "270060"
+usize = "1306262"
+sha1sum = "96a89ffe570035de089101ec22cf0d6528bd1941"
+depends = "['layer-shell-qt', 'qtermwidget>=2.0.1']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
-The lightweight Qt5 terminal emulator
+The lightweight Qt6 terminal emulator
 
 ### Files: 
 * /usr/bin/qterminal
 * /usr/share/applications/qterminal-drop.desktop
 * /usr/share/applications/qterminal.desktop
-* /usr/share/doc/qterminal-1.3.0/AUTHORS
-* /usr/share/doc/qterminal-1.3.0/CHANGELOG
-* /usr/share/doc/qterminal-1.3.0/LICENSE
-* /usr/share/doc/qterminal-1.3.0/README.md
+* /usr/share/doc/qterminal-2.0.1/AUTHORS
+* /usr/share/doc/qterminal-2.0.1/CHANGELOG
+* /usr/share/doc/qterminal-2.0.1/LICENSE
+* /usr/share/doc/qterminal-2.0.1/README.md
 * /usr/share/icons/hicolor/64x64/apps/qterminal.png
 * /usr/share/metainfo/qterminal.metainfo.xml
 * /usr/share/qterminal/qterminal_bookmarks_example.xml
@@ -54,10 +54,12 @@ The lightweight Qt5 terminal emulator
 * /usr/share/qterminal/translations/qterminal_ja.qm
 * /usr/share/qterminal/translations/qterminal_kk.qm
 * /usr/share/qterminal/translations/qterminal_ko_KR.qm
+* /usr/share/qterminal/translations/qterminal_lg.qm
 * /usr/share/qterminal/translations/qterminal_lt.qm
 * /usr/share/qterminal/translations/qterminal_nb_NO.qm
 * /usr/share/qterminal/translations/qterminal_nl.qm
 * /usr/share/qterminal/translations/qterminal_oc.qm
+* /usr/share/qterminal/translations/qterminal_pa.qm
 * /usr/share/qterminal/translations/qterminal_pl.qm
 * /usr/share/qterminal/translations/qterminal_pt.qm
 * /usr/share/qterminal/translations/qterminal_pt_BR.qm

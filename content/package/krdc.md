@@ -12,7 +12,6 @@ size = "1644280"
 usize = "3595700"
 sha1sum = "591a153ae292fcd2f17f680424071873f80b7045"
 depends = "['freerdp2', 'kcmutils>=6.5.0', 'kdnssd>=6.5.0', 'knotifyconfig>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'libvncserver', 'plasma-activities>=6.1.4']"
-reverse_depends = "['qt-virt-manager']"
 +++
 ### Description: 
 KRDC is a Remote Desktop Client for KDE.

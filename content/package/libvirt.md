@@ -12,7 +12,7 @@ size = "5715344"
 usize = "29399762"
 sha1sum = "b5b09cc966cb7b2d83d2c46df30f89dc302ab2af"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
-reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3', 'qt-virt-manager']"
+reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3']"
 +++
 ### Description: 
 libvirt is a library providing access to information from various virtualization tools

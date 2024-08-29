@@ -12,7 +12,7 @@ size = "19052"
 usize = "96267"
 sha1sum = "1b1ea2f7b4e42346e0f04e14e593d0b72e89d8fd"
 depends = "[]"
-reverse_depends = "['qemu', 'qt-virt-manager', 'xf86-video-qxl']"
+reverse_depends = "['qemu', 'xf86-video-qxl']"
 +++
 ### Description: 
 Simple Protocol for Independent Computing Environments
