@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.10.5-1"
-version = "6.10.5-1"
+title = "kernel-headers 6.10.7-1"
+version = "6.10.7-1"
 description = "Linux kernel include files"
-date = "2024-08-15T08:18:23"
+date = "2024-08-30T10:53:52"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1218400"
-usize = "5743912"
-sha1sum = "0845cc9cb49cc0143932897c53c52f1bbe713950"
+size = "1218284"
+usize = "5743732"
+sha1sum = "4a936056567a6a3fab4cdaed59a913aa452b50c3"
 depends = "[]"
 +++
 ### Description: 
@@ -488,16 +488,16 @@ Linux kernel include files
 * /usr/include/linux/netfilter/xt_connbytes.h
 * /usr/include/linux/netfilter/xt_connlabel.h
 * /usr/include/linux/netfilter/xt_connlimit.h
-* /usr/include/linux/netfilter/xt_connmark.h
 * /usr/include/linux/netfilter/xt_CONNMARK.h
+* /usr/include/linux/netfilter/xt_connmark.h
 * /usr/include/linux/netfilter/xt_CONNSECMARK.h
 * /usr/include/linux/netfilter/xt_conntrack.h
 * /usr/include/linux/netfilter/xt_cpu.h
 * /usr/include/linux/netfilter/xt_CT.h
 * /usr/include/linux/netfilter/xt_dccp.h
 * /usr/include/linux/netfilter/xt_devgroup.h
-* /usr/include/linux/netfilter/xt_dscp.h
 * /usr/include/linux/netfilter/xt_DSCP.h
+* /usr/include/linux/netfilter/xt_dscp.h
 * /usr/include/linux/netfilter/xt_ecn.h
 * /usr/include/linux/netfilter/xt_esp.h
 * /usr/include/linux/netfilter/xt_hashlimit.h
@@ -513,8 +513,8 @@ Linux kernel include files
 * /usr/include/linux/netfilter/xt_limit.h
 * /usr/include/linux/netfilter/xt_LOG.h
 * /usr/include/linux/netfilter/xt_mac.h
-* /usr/include/linux/netfilter/xt_mark.h
 * /usr/include/linux/netfilter/xt_MARK.h
+* /usr/include/linux/netfilter/xt_mark.h
 * /usr/include/linux/netfilter/xt_multiport.h
 * /usr/include/linux/netfilter/xt_nfacct.h
 * /usr/include/linux/netfilter/xt_NFLOG.h
@@ -525,8 +525,8 @@ Linux kernel include files
 * /usr/include/linux/netfilter/xt_pkttype.h
 * /usr/include/linux/netfilter/xt_policy.h
 * /usr/include/linux/netfilter/xt_quota.h
-* /usr/include/linux/netfilter/xt_rateest.h
 * /usr/include/linux/netfilter/xt_RATEEST.h
+* /usr/include/linux/netfilter/xt_rateest.h
 * /usr/include/linux/netfilter/xt_realm.h
 * /usr/include/linux/netfilter/xt_recent.h
 * /usr/include/linux/netfilter/xt_rpfilter.h
@@ -538,8 +538,8 @@ Linux kernel include files
 * /usr/include/linux/netfilter/xt_statistic.h
 * /usr/include/linux/netfilter/xt_string.h
 * /usr/include/linux/netfilter/xt_SYNPROXY.h
-* /usr/include/linux/netfilter/xt_tcpmss.h
 * /usr/include/linux/netfilter/xt_TCPMSS.h
+* /usr/include/linux/netfilter/xt_tcpmss.h
 * /usr/include/linux/netfilter/xt_TCPOPTSTRIP.h
 * /usr/include/linux/netfilter/xt_tcpudp.h
 * /usr/include/linux/netfilter/xt_TEE.h
@@ -571,18 +571,18 @@ Linux kernel include files
 * /usr/include/linux/netfilter_ipv4.h
 * /usr/include/linux/netfilter_ipv4/ipt_ah.h
 * /usr/include/linux/netfilter_ipv4/ipt_CLUSTERIP.h
-* /usr/include/linux/netfilter_ipv4/ipt_ecn.h
 * /usr/include/linux/netfilter_ipv4/ipt_ECN.h
+* /usr/include/linux/netfilter_ipv4/ipt_ecn.h
 * /usr/include/linux/netfilter_ipv4/ipt_LOG.h
 * /usr/include/linux/netfilter_ipv4/ipt_REJECT.h
-* /usr/include/linux/netfilter_ipv4/ipt_ttl.h
 * /usr/include/linux/netfilter_ipv4/ipt_TTL.h
+* /usr/include/linux/netfilter_ipv4/ipt_ttl.h
 * /usr/include/linux/netfilter_ipv4/ip_tables.h
 * /usr/include/linux/netfilter_ipv6.h
 * /usr/include/linux/netfilter_ipv6/ip6t_ah.h
 * /usr/include/linux/netfilter_ipv6/ip6t_frag.h
-* /usr/include/linux/netfilter_ipv6/ip6t_hl.h
 * /usr/include/linux/netfilter_ipv6/ip6t_HL.h
+* /usr/include/linux/netfilter_ipv6/ip6t_hl.h
 * /usr/include/linux/netfilter_ipv6/ip6t_ipv6header.h
 * /usr/include/linux/netfilter_ipv6/ip6t_LOG.h
 * /usr/include/linux/netfilter_ipv6/ip6t_mh.h
