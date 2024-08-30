@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nvidia 560.35.03-1"
-version = "560.35.03-1"
+title = "nvidia 560.35.03-2"
+version = "560.35.03-2"
 description = "3D accelerated display driver for Nvidia cards"
-date = "2024-08-23T12:38:38"
+date = "2024-08-30T22:41:33"
 aliases = "/packages/3749"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "112012844"
-usize = "336795774"
-sha1sum = "aa44fb0def8707848eace4dc213bc0775378e342"
-depends = "['kernel=6.10.6-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=560.35.03']"
+size = "111774604"
+usize = "336896036"
+sha1sum = "92369760d3459e3a8c9c3f147ccec09ffc09f807"
+depends = "['kernel=6.10.7-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=560.35.03']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
 ### Description: 
@@ -72,10 +72,10 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/lib/libnvidia-ptxjitcompiler.so.560.35.03
 * /usr/lib/libnvidia-tls.so
 * /usr/lib/libnvidia-tls.so.560.35.03
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-drm.ko.zst
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
-* /usr/lib/modules/6.10.6-fw1/kernel/drivers/video/nvidia.ko.zst
+* /usr/lib/modules/6.10.7-fw1/kernel/drivers/video/nvidia-drm.ko.zst
+* /usr/lib/modules/6.10.7-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
+* /usr/lib/modules/6.10.7-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
+* /usr/lib/modules/6.10.7-fw1/kernel/drivers/video/nvidia.ko.zst
 * /usr/lib/vdpau/libvdpau_nvidia.so
 * /usr/lib/vdpau/libvdpau_nvidia.so.1
 * /usr/lib/vdpau/libvdpau_nvidia.so.1.0
