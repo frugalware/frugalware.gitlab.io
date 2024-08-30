@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pacman-g2 3.9.4-58"
-version = "3.9.4-58"
+title = "pacman-g2 3.9.4-59"
+version = "3.9.4-59"
 description = "A .tar.xz based package manager library (libpacman) and client (pacman-g2) with dependency support."
-date = "2024-08-26T14:38:25"
+date = "2024-08-30T09:55:06"
 aliases = "/packages/14795"
 categories = ['base']
 upstreamurl = "https://ftp.frugalware.org/pub/other/pacman-g2/"
 arch = "x86_64"
-size = "3180212"
-usize = "8269467"
-sha1sum = "6f34c2cf13ecc86ba1db701f1d84a5bd078a2d97"
+size = "3179820"
+usize = "8270257"
+sha1sum = "6aa49de2877c27e762eb4293047b9259c995d700"
 depends = "['coreutils', 'diffutils', 'glibc>=2.36', 'grep>=2.5.3-4', 'libarchive>=3.3.2', 'libeatmydata', 'lz4>=r131-8', 'nettle>=3.5.1', 'openssl>=3.0.7', 'python3>=3.12', 'shadow', 'util-linux>=2.28.2-2', 'xz>=5.2.2-4', 'zstd']"
 reverse_depends = "['etckeeper', 'pacman-tools']"
 +++
