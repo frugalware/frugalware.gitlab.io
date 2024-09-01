@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "megaglest 3.13.0-1"
-version = "3.13.0-1"
+title = "megaglest 3.13.0-2"
+version = "3.13.0-2"
 description = "Fork of Glest, a 3D real-time strategy game in a fantastic world."
-date = "2024-08-29T12:59:21"
+date = "2024-09-01T10:00:40"
 aliases = "/packages/222511"
 categories = ['games-extra']
 upstreamurl = "https://github.com/MegaGlest/megaglest-source"
 arch = "x86_64"
-size = "3367848"
+size = "3370444"
 usize = "12690704"
-sha1sum = "233716937b7c162329f5b5b1a242226b60999cc7"
-depends = "['curl', 'ftgl', 'glew>=1.13', 'libgl', 'libircclient', 'libvlc', 'libvorbis', 'lua', 'megaglest-data=3.9.0', 'miniupnpc>=1.9', 'openal', 'sdl', 'xerces-c>=3.1.1']"
+sha1sum = "8f44e97f9ecf4a39e0676ec928d67e07e1340243"
+depends = "['curl', 'ftgl', 'glew>=1.13', 'libgl', 'libircclient', 'libvlc', 'libvorbis', 'lua', 'megaglest-data>=$pkgver', 'miniupnpc>=1.9', 'openal', 'sdl', 'xerces-c>=3.1.1']"
 +++
 ### Description: 
 Fork of Glest, a 3D real-time strategy game in a fantastic world.
