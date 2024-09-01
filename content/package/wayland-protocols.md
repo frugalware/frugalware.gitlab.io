@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland-protocols 1.36-1"
-version = "1.36-1"
+title = "wayland-protocols 1.37-1"
+version = "1.37-1"
 description = "Wayland protocols that adds functionality not available in the core protocol."
-date = "2024-04-26T17:33:02"
+date = "2024-09-01T11:22:53"
 aliases = "/packages/218049"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "86384"
-usize = "665824"
-sha1sum = "5c310387eaa15081c905b86555d4f1044c3f7439"
+size = "90800"
+usize = "698602"
+sha1sum = "d688bd39f227ad92c79d12c58c312044596bf1f3"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4']"
 +++
@@ -19,8 +19,8 @@ Wayland protocols that adds functionality not available in the core protocol.
 
 ### Files: 
 * /usr/lib/pkgconfig/wayland-protocols.pc
-* /usr/share/doc/wayland-protocols-1.36/COPYING
-* /usr/share/doc/wayland-protocols-1.36/README.md
+* /usr/share/doc/wayland-protocols-1.37/COPYING
+* /usr/share/doc/wayland-protocols-1.37/README.md
 * /usr/share/wayland-protocols/stable/linux-dmabuf/linux-dmabuf-v1.xml
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
 * /usr/share/wayland-protocols/stable/tablet/tablet-v2.xml
@@ -32,6 +32,8 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/staging/drm-lease/drm-lease-v1.xml
 * /usr/share/wayland-protocols/staging/ext-foreign-toplevel-list/ext-foreign-toplevel-list-v1.xml
 * /usr/share/wayland-protocols/staging/ext-idle-notify/ext-idle-notify-v1.xml
+* /usr/share/wayland-protocols/staging/ext-image-capture-source/ext-image-capture-source-v1.xml
+* /usr/share/wayland-protocols/staging/ext-image-copy-capture/ext-image-copy-capture-v1.xml
 * /usr/share/wayland-protocols/staging/ext-session-lock/ext-session-lock-v1.xml
 * /usr/share/wayland-protocols/staging/ext-transient-seat/ext-transient-seat-v1.xml
 * /usr/share/wayland-protocols/staging/fractional-scale/fractional-scale-v1.xml
@@ -42,6 +44,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/staging/xdg-activation/xdg-activation-v1.xml
 * /usr/share/wayland-protocols/staging/xdg-dialog/xdg-dialog-v1.xml
 * /usr/share/wayland-protocols/staging/xdg-toplevel-drag/xdg-toplevel-drag-v1.xml
+* /usr/share/wayland-protocols/staging/xdg-toplevel-icon/xdg-toplevel-icon-v1.xml
 * /usr/share/wayland-protocols/staging/xwayland-shell/xwayland-shell-v1.xml
 * /usr/share/wayland-protocols/unstable/fullscreen-shell/fullscreen-shell-unstable-v1.xml
 * /usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml

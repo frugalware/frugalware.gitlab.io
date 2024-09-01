@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-db 2.12.1-1"
-version = "2.12.1-1"
+title = "man-db 2.13.0-1"
+version = "2.13.0-1"
 description = "A utility for reading man pages"
-date = "2024-04-06T10:11:45"
+date = "2024-09-01T11:16:10"
 aliases = "/packages/118506"
 categories = ['base']
 upstreamurl = "http://www.nongnu.org/man-db/"
 arch = "x86_64"
-size = "506348"
-usize = "2220391"
-sha1sum = "d917cd9e4d2b13548aeeb24016a63389b0b4815b"
+size = "518508"
+usize = "2192340"
+sha1sum = "61cfcc55655158d7a4606023f6bb29b5ad726da6"
 depends = "['gdbm>=1.15', 'groff>=1.22.3-4', 'less>=481-4', 'libpipeline>=1.4.1-5', 'zlib>=1.2.12']"
 reverse_depends = "['man2html']"
 +++
@@ -33,9 +33,9 @@ A utility for reading man pages
 * /usr/bin/manpath
 * /usr/bin/whatis
 * /usr/lib/man-db/globbing
-* /usr/lib/man-db/libman-2.12.1.so
+* /usr/lib/man-db/libman-2.13.0.so
 * /usr/lib/man-db/libman.so
-* /usr/lib/man-db/libmandb-2.12.1.so
+* /usr/lib/man-db/libmandb-2.13.0.so
 * /usr/lib/man-db/libmandb.so
 * /usr/lib/man-db/manconv
 * /usr/lib/man-db/zsoelim
@@ -43,13 +43,13 @@ A utility for reading man pages
 * /usr/lib/systemd/system/man-db.timer
 * /usr/lib/sysusers.d/man-db.conf
 * /usr/lib/tmpfiles.d/man-db.conf
-* /usr/share/doc/man-db-2.12.1/ChangeLog
-* /usr/share/doc/man-db-2.12.1/COPYING
-* /usr/share/doc/man-db-2.12.1/FAQ
-* /usr/share/doc/man-db-2.12.1/man-db-manual.ps
-* /usr/share/doc/man-db-2.12.1/man-db-manual.txt
-* /usr/share/doc/man-db-2.12.1/README.Frugalware
-* /usr/share/doc/man-db-2.12.1/README.md
+* /usr/share/doc/man-db-2.13.0/ChangeLog
+* /usr/share/doc/man-db-2.13.0/COPYING
+* /usr/share/doc/man-db-2.13.0/FAQ
+* /usr/share/doc/man-db-2.13.0/man-db-manual.ps
+* /usr/share/doc/man-db-2.13.0/man-db-manual.txt
+* /usr/share/doc/man-db-2.13.0/README.Frugalware
+* /usr/share/doc/man-db-2.13.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/man-db-gnulib.mo
 * /usr/share/locale/ast/LC_MESSAGES/man-db.mo
 * /usr/share/locale/be/LC_MESSAGES/man-db-gnulib.mo
@@ -109,6 +109,7 @@ A utility for reading man pages
 * /usr/share/locale/tr/LC_MESSAGES/man-db-gnulib.mo
 * /usr/share/locale/tr/LC_MESSAGES/man-db.mo
 * /usr/share/locale/uk/LC_MESSAGES/man-db-gnulib.mo
+* /usr/share/locale/uk/LC_MESSAGES/man-db.mo
 * /usr/share/locale/vi/LC_MESSAGES/man-db-gnulib.mo
 * /usr/share/locale/vi/LC_MESSAGES/man-db.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/man-db-gnulib.mo

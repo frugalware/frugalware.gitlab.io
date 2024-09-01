@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpcap 1.10.4-2"
-version = "1.10.4-2"
+title = "libpcap 1.10.5-1"
+version = "1.10.5-1"
 description = "Library for tcpdump"
-date = "2023-09-05T10:16:58"
+date = "2024-09-01T11:19:23"
 aliases = "/packages/3191"
 categories = ['base']
 upstreamurl = "http://www.tcpdump.org"
 arch = "x86_64"
-size = "279836"
-usize = "689683"
-sha1sum = "7ace63165c33ac2a7e56ce911b697b6a40ad707b"
+size = "291472"
+usize = "710837"
+sha1sum = "2923166ce2ae135239382d5e72dd06f50009ba06"
 depends = "['dbus', 'libusb1']"
 reverse_depends = "['arpwatch', 'dosbox-x', 'ethereal', 'faifa', 'hyperscan', 'knock', 'ksysguard5', 'ldns', 'nethogs', 'nmap', 'openvas-libraries', 'ppp', 'tcpdump', 'tcpreplay', 'umockdev', 'vde2', 'wavemon', 'wine', 'wine-devel', 'wireshark']"
 +++
@@ -39,15 +39,15 @@ Library for tcpdump
 * /usr/include/pcap/vlan.h
 * /usr/lib/libpcap.so
 * /usr/lib/libpcap.so.1
-* /usr/lib/libpcap.so.1.10.4
+* /usr/lib/libpcap.so.1.10.5
 * /usr/lib/pkgconfig/libpcap.pc
-* /usr/share/doc/libpcap-1.10.4/CHANGES
-* /usr/share/doc/libpcap-1.10.4/CREDITS
-* /usr/share/doc/libpcap-1.10.4/INSTALL.md
-* /usr/share/doc/libpcap-1.10.4/LICENSE
-* /usr/share/doc/libpcap-1.10.4/README.md
-* /usr/share/doc/libpcap-1.10.4/TODO
-* /usr/share/doc/libpcap-1.10.4/VERSION
+* /usr/share/doc/libpcap-1.10.5/CHANGES
+* /usr/share/doc/libpcap-1.10.5/CREDITS
+* /usr/share/doc/libpcap-1.10.5/INSTALL.md
+* /usr/share/doc/libpcap-1.10.5/LICENSE
+* /usr/share/doc/libpcap-1.10.5/README.md
+* /usr/share/doc/libpcap-1.10.5/TODO
+* /usr/share/doc/libpcap-1.10.5/VERSION
 * /usr/share/man/man1/pcap-config.1.gz
 * /usr/share/man/man3/pcap.3pcap.gz
 * /usr/share/man/man3/pcap_activate.3pcap.gz
