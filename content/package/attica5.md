@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "attica5 5.116.0-2"
-version = "5.116.0-2"
+title = "attica5 5.116.0-3"
+version = "5.116.0-3"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-05-26T16:23:04"
+date = "2024-09-01T17:10:31"
 aliases = "/packages/221280"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "154188"
-usize = "763251"
-sha1sum = "6cd9fde655f12384bd9664af7c2df1ba7b5b9918"
-depends = "['qt5-base>=5.15.14']"
+size = "157216"
+usize = "769545"
+sha1sum = "34ed6ecb2ecaa22200c72f12ca7ed932c10ddf86"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['kxmlgui5']"
 +++
 ### Description: 

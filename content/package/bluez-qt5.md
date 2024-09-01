@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bluez-qt5 5.116.0-2"
-version = "5.116.0-2"
+title = "bluez-qt5 5.116.0-3"
+version = "5.116.0-3"
 description = "A Qt wrapper for bluez"
-date = "2024-05-26T16:07:34"
+date = "2024-09-01T17:11:23"
 aliases = "/packages/221283"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "222756"
-usize = "1021666"
-sha1sum = "4bed22ad511f96b0986d20a77c560f396d1efddd"
-depends = "['qt5-declarative>=5.15.14']"
+size = "224656"
+usize = "1035680"
+sha1sum = "57de384fe83c3985fa2f5adad0fbe9768dc71e81"
+depends = "['qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 A Qt wrapper for bluez
