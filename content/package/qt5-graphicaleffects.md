@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-graphicaleffects 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-graphicaleffects 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qtgraphicaleffects"
-date = "2024-05-26T12:55:49"
+date = "2024-09-01T14:39:07"
 aliases = "/packages/217616"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "71976"
-usize = "581078"
-sha1sum = "5aa75b7b79acd1626f3f604bc623510389e41eb5"
-depends = "['qt5-declarative>=5.15.14']"
+size = "73044"
+usize = "581838"
+sha1sum = "a3918b285cf56721c5c788dad04a8c122ffa7cee"
+depends = "['qt5-declarative>=5.15.15']"
 reverse_depends = "['kirigami2', 'kirigami25', 'meshroom', 'plank-player']"
 +++
 ### Description: 

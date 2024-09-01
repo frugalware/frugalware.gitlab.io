@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-svg 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-svg 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qtsvg"
-date = "2024-05-26T12:04:53"
+date = "2024-09-01T14:27:03"
 aliases = "/packages/217635"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "146784"
-usize = "523163"
-sha1sum = "da2b708dfcc74740cae6ef1bda39c1991df420b8"
+size = "147480"
+usize = "513227"
+sha1sum = "dfe4e0ababb9c3d880443932f1c71e31c88b82d0"
 depends = "['qt5-base>=5.15.6']"
 reverse_depends = "['firetools', 'flightgear', 'gnuplot', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami2', 'kirigami25', 'kjsembed', 'kjsembed5', 'krita', 'krusader', 'kuserfeedback5', 'kxmlgui5', 'libkipi', 'librecad', 'lyx', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'nitroshare', 'nomacs', 'otter-browser', 'q4wine', 'qbittorrent', 'qownnotes', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'qtractor', 'quassel', 'rolisteam', 'skrooge', 'sqlitestudio', 'texstudio', 'tiled', 'vlc', 'vulkan-lunarg-tools', 'wireshark-qt']"
 +++
@@ -18,14 +18,14 @@ reverse_depends = "['firetools', 'flightgear', 'gnuplot', 'keepassxc', 'kiconthe
 The Qt5 toolkit, qtsvg
 
 ### Files: 
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvgfont_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvggraphics_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvghandler_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvgnode_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvgstructure_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvgstyle_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qsvgtinydocument_p.h
-* /usr/include/qt5/QtSvg/5.15.14/QtSvg/private/qtsvgglobal_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvgfont_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvggraphics_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvghandler_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvgnode_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvgstructure_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvgstyle_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qsvgtinydocument_p.h
+* /usr/include/qt5/QtSvg/5.15.15/QtSvg/private/qtsvgglobal_p.h
 * /usr/include/qt5/QtSvg/QGraphicsSvgItem
 * /usr/include/qt5/QtSvg/qgraphicssvgitem.h
 * /usr/include/qt5/QtSvg/QSvgGenerator
@@ -47,7 +47,7 @@ The Qt5 toolkit, qtsvg
 * /usr/lib/libQt5Svg.so
 * /usr/lib/libQt5Svg.so.5
 * /usr/lib/libQt5Svg.so.5.15
-* /usr/lib/libQt5Svg.so.5.15.14
+* /usr/lib/libQt5Svg.so.5.15.15
 * /usr/lib/pkgconfig/Qt5Svg.pc
 * /usr/lib/qt5/plugins/iconengines/libqsvgicon.so
 * /usr/lib/qt5/plugins/imageformats/libqsvg.so

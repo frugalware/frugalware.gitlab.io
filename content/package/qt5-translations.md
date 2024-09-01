@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-translations 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-translations 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qttranslations"
-date = "2024-05-26T13:09:36"
+date = "2024-09-01T14:49:24"
 aliases = "/packages/218651"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1828892"
+size = "1871516"
 usize = "15421930"
-sha1sum = "96ec57fc7f444f0a2507d7757e1513c81286830c"
-depends = "['qt5-declarative>=5.15.14']"
+sha1sum = "98564f12848f4b706b41134f2e7df61733f5e551"
+depends = "['qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 The Qt5 toolkit, qttranslations

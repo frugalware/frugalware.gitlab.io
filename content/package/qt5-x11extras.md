@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-x11extras 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-x11extras 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qtx11extras"
-date = "2024-05-26T12:47:57"
+date = "2024-09-01T14:33:33"
 aliases = "/packages/217634"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "14304"
-usize = "41893"
-sha1sum = "12474b5a47c0b7ffb08db97801901050a40b2497"
-depends = "['qt5-base>=5.15.14']"
+size = "14252"
+usize = "35573"
+sha1sum = "0b3e83bf328fdae82fdfbcc5726fe8c2948b9eef"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['kconfigwidgets5', 'kdbusaddons5', 'keepassxc', 'kguiaddons5', 'kidletime5', 'kjobwidgets5', 'kwindowsystem5', 'kxmlgui5', 'libkipi', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'pinentry-qt5', 'qownnotes', 'qqc2-desktop-style5', 'qtractor', 'retroshare', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
 +++
 ### Description: 
@@ -31,7 +31,7 @@ The Qt5 toolkit, qtx11extras
 * /usr/lib/libQt5X11Extras.so
 * /usr/lib/libQt5X11Extras.so.5
 * /usr/lib/libQt5X11Extras.so.5.15
-* /usr/lib/libQt5X11Extras.so.5.15.14
+* /usr/lib/libQt5X11Extras.so.5.15.15
 * /usr/lib/pkgconfig/Qt5X11Extras.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_x11extras.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_x11extras_private.pri

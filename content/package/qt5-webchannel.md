@@ -1,28 +1,28 @@
 +++
 draft = false
-title = "qt5-webchannel 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-webchannel 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qtwebchannel"
-date = "2024-05-26T13:07:53"
+date = "2024-09-01T14:47:59"
 aliases = "/packages/217631"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "72732"
-usize = "239887"
-sha1sum = "ad8cbf510fce68f35a5fdbbe0a08d050ca6b377e"
-depends = "['qt5-declarative>=5.15.14']"
+size = "73264"
+usize = "236004"
+sha1sum = "a1760f6064efb264255832d8618185df2adb628f"
+depends = "['qt5-declarative>=5.15.15']"
 reverse_depends = "['qt5-webengine']"
 +++
 ### Description: 
 The Qt5 toolkit, qtwebchannel
 
 ### Files: 
-* /usr/include/qt5/QtWebChannel/5.15.14/QtWebChannel/private/qmetaobjectpublisher_p.h
-* /usr/include/qt5/QtWebChannel/5.15.14/QtWebChannel/private/qqmlwebchannelattached_p.h
-* /usr/include/qt5/QtWebChannel/5.15.14/QtWebChannel/private/qwebchannel_p.h
-* /usr/include/qt5/QtWebChannel/5.15.14/QtWebChannel/private/signalhandler_p.h
-* /usr/include/qt5/QtWebChannel/5.15.14/QtWebChannel/private/variantargument_p.h
+* /usr/include/qt5/QtWebChannel/5.15.15/QtWebChannel/private/qmetaobjectpublisher_p.h
+* /usr/include/qt5/QtWebChannel/5.15.15/QtWebChannel/private/qqmlwebchannelattached_p.h
+* /usr/include/qt5/QtWebChannel/5.15.15/QtWebChannel/private/qwebchannel_p.h
+* /usr/include/qt5/QtWebChannel/5.15.15/QtWebChannel/private/signalhandler_p.h
+* /usr/include/qt5/QtWebChannel/5.15.15/QtWebChannel/private/variantargument_p.h
 * /usr/include/qt5/QtWebChannel/QQmlWebChannel
 * /usr/include/qt5/QtWebChannel/qqmlwebchannel.h
 * /usr/include/qt5/QtWebChannel/QtWebChannel
@@ -40,7 +40,7 @@ The Qt5 toolkit, qtwebchannel
 * /usr/lib/libQt5WebChannel.so
 * /usr/lib/libQt5WebChannel.so.5
 * /usr/lib/libQt5WebChannel.so.5.15
-* /usr/lib/libQt5WebChannel.so.5.15.14
+* /usr/lib/libQt5WebChannel.so.5.15.15
 * /usr/lib/pkgconfig/Qt5WebChannel.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_webchannel.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_webchannel_private.pri

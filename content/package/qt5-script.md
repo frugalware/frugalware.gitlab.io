@@ -1,48 +1,48 @@
 +++
 draft = false
-title = "qt5-script 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-script 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qtscript"
-date = "2024-05-26T13:02:07"
+date = "2024-09-01T14:43:29"
 aliases = "/packages/217665"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1103012"
-usize = "4434998"
-sha1sum = "e900e2468e99c16a68658a898a5f6869e2a5d1d7"
-depends = "['qt5-base>=5.15.14']"
+size = "1113856"
+usize = "4511142"
+sha1sum = "c149b55678a87de58a94c92c905696d3185e7b86"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['grantlee', 'ki18n5', 'mixxx', 'otter-browser', 'qbs', 'smplayer', 'sqlitestudio', 'stellarium', 'texmaker', 'texstudio', 'texworks']"
 +++
 ### Description: 
 The Qt5 toolkit, qtscript
 
 ### Files: 
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptable_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptactivationobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptastfwd_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptastvisitor_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptast_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptclassobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptcontext_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptdeclarativeclass_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptdeclarativeobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptengineagent_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptengine_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptfunction_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptglobalobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptgrammar_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptlexer_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptparser_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptprogram_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptqobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptstaticscopeobject_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptstring_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptsyntaxchecker_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptvalue_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qscriptvariant_p.h
-* /usr/include/qt5/QtScript/5.15.14/QtScript/private/qtscript-config_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptable_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptactivationobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptastfwd_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptastvisitor_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptast_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptclassobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptcontext_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptdeclarativeclass_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptdeclarativeobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptengineagent_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptengine_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptfunction_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptglobalobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptgrammar_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptlexer_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptparser_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptprogram_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptqobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptstaticscopeobject_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptstring_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptsyntaxchecker_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptvalue_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qscriptvariant_p.h
+* /usr/include/qt5/QtScript/5.15.15/QtScript/private/qtscript-config_p.h
 * /usr/include/qt5/QtScript/QScriptable
 * /usr/include/qt5/QtScript/qscriptable.h
 * /usr/include/qt5/QtScript/QScriptClass
@@ -78,90 +78,90 @@ The Qt5 toolkit, qtscript
 * /usr/include/qt5/QtScript/qtscriptglobal.h
 * /usr/include/qt5/QtScript/QtScriptVersion
 * /usr/include/qt5/QtScript/qtscriptversion.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptbreakpointdata_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptbreakpointsmodel_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptbreakpointswidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptbreakpointswidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptbreakpointswidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptcompletionproviderinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptcompletiontaskinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptcompletiontaskinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptcompletiontask_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggeragent_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggeragent_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerbackend_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerbackend_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodefinderwidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodefinderwidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodefinderwidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodeviewinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodeviewinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodeview_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodewidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodewidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercodewidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercommandexecutor_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercommandschedulerfrontend_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercommandschedulerinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercommandschedulerjob_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercommandschedulerjob_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggercommand_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolecommandgroupdata_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolecommandjob_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolecommandjob_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolecommandmanager_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolecommand_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolecommand_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsoleglobalobject_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolehistorianinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolewidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolewidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsolewidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerconsole_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggereventhandlerinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerevent_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerfrontend_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerfrontend_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerjobschedulerinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerjob_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerjob_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerlocalsmodel_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerlocalswidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerlocalswidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerlocalswidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerobjectsnapshotdelta_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerresponsehandlerinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerresponse_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerscriptedconsolecommand_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerscriptsmodel_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerscriptswidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerscriptswidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerscriptswidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerstackmodel_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerstackwidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerstackwidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerstackwidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerstandardwidgetfactory_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggervalueproperty_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggervalue_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebuggerwidgetfactoryinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebugger_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebugoutputwidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebugoutputwidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptdebugoutputwidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptedit_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptenginedebuggerfrontend_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscripterrorlogwidgetinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscripterrorlogwidgetinterface_p_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscripterrorlogwidget_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptmessagehandlerinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptobjectsnapshot_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptscriptdata_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptstdmessagehandler_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptsyntaxhighlighter_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscripttooltipproviderinterface_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptvalueproperty_p.h
-* /usr/include/qt5/QtScriptTools/5.15.14/QtScriptTools/private/qscriptxmlparser_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptbreakpointdata_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptbreakpointsmodel_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptbreakpointswidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptbreakpointswidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptbreakpointswidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptcompletionproviderinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptcompletiontaskinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptcompletiontaskinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptcompletiontask_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggeragent_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggeragent_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerbackend_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerbackend_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodefinderwidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodefinderwidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodefinderwidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodeviewinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodeviewinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodeview_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodewidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodewidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercodewidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercommandexecutor_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercommandschedulerfrontend_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercommandschedulerinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercommandschedulerjob_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercommandschedulerjob_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggercommand_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolecommandgroupdata_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolecommandjob_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolecommandjob_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolecommandmanager_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolecommand_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolecommand_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsoleglobalobject_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolehistorianinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolewidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolewidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsolewidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerconsole_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggereventhandlerinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerevent_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerfrontend_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerfrontend_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerjobschedulerinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerjob_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerjob_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerlocalsmodel_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerlocalswidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerlocalswidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerlocalswidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerobjectsnapshotdelta_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerresponsehandlerinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerresponse_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerscriptedconsolecommand_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerscriptsmodel_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerscriptswidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerscriptswidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerscriptswidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerstackmodel_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerstackwidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerstackwidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerstackwidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerstandardwidgetfactory_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggervalueproperty_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggervalue_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebuggerwidgetfactoryinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebugger_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebugoutputwidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebugoutputwidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptdebugoutputwidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptedit_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptenginedebuggerfrontend_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscripterrorlogwidgetinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscripterrorlogwidgetinterface_p_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscripterrorlogwidget_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptmessagehandlerinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptobjectsnapshot_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptscriptdata_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptstdmessagehandler_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptsyntaxhighlighter_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscripttooltipproviderinterface_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptvalueproperty_p.h
+* /usr/include/qt5/QtScriptTools/5.15.15/QtScriptTools/private/qscriptxmlparser_p.h
 * /usr/include/qt5/QtScriptTools/QScriptEngineDebugger
 * /usr/include/qt5/QtScriptTools/qscriptenginedebugger.h
 * /usr/include/qt5/QtScriptTools/QtScriptTools
@@ -176,12 +176,12 @@ The Qt5 toolkit, qtscript
 * /usr/lib/libQt5Script.so
 * /usr/lib/libQt5Script.so.5
 * /usr/lib/libQt5Script.so.5.15
-* /usr/lib/libQt5Script.so.5.15.14
+* /usr/lib/libQt5Script.so.5.15.15
 * /usr/lib/libQt5ScriptTools.prl
 * /usr/lib/libQt5ScriptTools.so
 * /usr/lib/libQt5ScriptTools.so.5
 * /usr/lib/libQt5ScriptTools.so.5.15
-* /usr/lib/libQt5ScriptTools.so.5.15.14
+* /usr/lib/libQt5ScriptTools.so.5.15.15
 * /usr/lib/pkgconfig/Qt5Script.pc
 * /usr/lib/pkgconfig/Qt5ScriptTools.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_script.pri

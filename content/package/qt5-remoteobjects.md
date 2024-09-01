@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-remoteobjects 5.15.14-1"
-version = "5.15.14-1"
+title = "qt5-remoteobjects 5.15.15-1"
+version = "5.15.15-1"
 description = "The Qt5 toolkit, qtremoteobjects"
-date = "2024-05-26T13:00:45"
+date = "2024-09-01T14:42:13"
 aliases = "/packages/219180"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "363920"
-usize = "1342034"
-sha1sum = "b3b9aa93d7903f67a86b1af68596c20f6d159dc0"
-depends = "['qt5-declarative>=5.15.14']"
+size = "365628"
+usize = "1341762"
+sha1sum = "2e179b05dd1c50fd0b5f359772062e4137021ebd"
+depends = "['qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 The Qt5 toolkit, qtremoteobjects
@@ -19,22 +19,22 @@ The Qt5 toolkit, qtremoteobjects
 ### Files: 
 * /usr/bin/repc
 * /usr/bin/repc-qt5
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnectionfactories_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnection_local_backend_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnection_qnx_backend_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnection_qnx_global_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnection_qnx_qiodevices_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnection_qnx_server_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qconnection_tcpip_backend_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectabstractitemmodeladapter_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectabstractitemmodelreplica_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectnode_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectpacket_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectpendingcall_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectregistrysource_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectreplica_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectsourceio_p.h
-* /usr/include/qt5/QtRemoteObjects/5.15.14/QtRemoteObjects/private/qremoteobjectsource_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnectionfactories_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnection_local_backend_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnection_qnx_backend_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnection_qnx_global_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnection_qnx_qiodevices_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnection_qnx_server_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qconnection_tcpip_backend_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectabstractitemmodeladapter_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectabstractitemmodelreplica_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectnode_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectpacket_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectpendingcall_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectregistrysource_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectreplica_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectsourceio_p.h
+* /usr/include/qt5/QtRemoteObjects/5.15.15/QtRemoteObjects/private/qremoteobjectsource_p.h
 * /usr/include/qt5/QtRemoteObjects/QAbstractItemModelReplica
 * /usr/include/qt5/QtRemoteObjects/qconnection_qnx_qiodevices.h
 * /usr/include/qt5/QtRemoteObjects/qconnection_qnx_server.h
@@ -88,7 +88,7 @@ The Qt5 toolkit, qtremoteobjects
 * /usr/lib/libQt5RemoteObjects.so
 * /usr/lib/libQt5RemoteObjects.so.5
 * /usr/lib/libQt5RemoteObjects.so.5.15
-* /usr/lib/libQt5RemoteObjects.so.5.15.14
+* /usr/lib/libQt5RemoteObjects.so.5.15.15
 * /usr/lib/libQt5RepParser.prl
 * /usr/lib/pkgconfig/Qt5RemoteObjects.pc
 * /usr/lib/pkgconfig/Qt5RepParser.pc
