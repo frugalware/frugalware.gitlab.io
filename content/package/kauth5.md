@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kauth5 5.116.0-2"
-version = "5.116.0-2"
+title = "kauth5 5.116.0-3"
+version = "5.116.0-3"
 description = "Framework which lets applications perform actions as a privileged user."
-date = "2024-05-26T16:31:35"
+date = "2024-09-01T19:19:24"
 aliases = "/packages/221288"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "95552"
-usize = "435861"
-sha1sum = "fdf64175eb3a3d5b58569369961d39baa5b8249e"
+size = "95540"
+usize = "406633"
+sha1sum = "8472e804b22e99f538e4c72d286aa51e08ecdd71"
 depends = "['kcoreaddons5>=5.116.0', 'polkit-qt5-1>=0.112.0-11']"
 reverse_depends = "['kconfigwidgets5', 'smb4k']"
 +++
