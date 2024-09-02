@@ -12,7 +12,7 @@ size = "111496"
 usize = "450024"
 sha1sum = "8b3ae99c40f6b6a58faa93f5912a0e27bfc21702"
 depends = "['kio5>=5.116.0']"
-reverse_depends = "['kactivities-stats', 'kactivities-stats5', 'plasma-framework', 'plasma-framework5']"
+reverse_depends = "['kactivities-stats5', 'plasma-framework', 'plasma-framework5']"
 +++
 ### Description: 
 The KActivity Manager Daemon.

@@ -12,7 +12,7 @@ size = "4118856"
 usize = "22477777"
 sha1sum = "e787c5b8f5b31a5845ce659f93711b22f5fdf8dc"
 depends = "['ca-certificates', 'curl', 'dbus-glib>=0.108-2', 'ethtool', 'iproute2>=4.7.0-2', 'iptables', 'jansson', 'libarchive>=3.0.3-2', 'libgcrypt>=1.7.3-2', 'libndp>=1.5-4', 'libnl>=3.2.9-2', 'libselinux', 'mobile-broadband-provider-info', 'modemmanager>=1.6.0-2', 'newt>=0.52.19-2', 'nss>=3.21-2', 'openresolv', 'polkit>=0.113-9', 'ppp>=2.4.7-3', 'readline>=8.0', 'wireless_tools>=29-5', 'wpa_supplicant>=2.5-4']"
-reverse_depends = "['claws-mail', 'kdelibs4support', 'kdelibs4support5', 'libnma', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'networkmanager-qt5', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
+reverse_depends = "['claws-mail', 'kdelibs4support5', 'libnma', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'networkmanager-qt5', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
 +++
 ### Description: 
 Network Management daemon

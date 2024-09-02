@@ -12,7 +12,7 @@ size = "53124"
 usize = "120306"
 sha1sum = "9851a3f4c86ec6f71252d8bb53ee481eaeaf7f91"
 depends = "['kservice>=6.5.0']"
-reverse_depends = "['bluedevil5', 'kdelibs4support', 'kio']"
+reverse_depends = "['bluedevil5', 'kio']"
 +++
 ### Description: 
 Central daemon of KDE workspaces.

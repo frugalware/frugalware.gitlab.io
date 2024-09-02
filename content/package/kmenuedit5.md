@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1083192"
 usize = "2050267"
 sha1sum = "5be5eea69fcef7af01e78a26725aeaf222e46194"
-depends = "['kdelibs4support>=5.115.0']"
+depends = "[]"
 +++
 ### Description: 
 KDE menu editor.

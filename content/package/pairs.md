@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3111196"
 usize = "4415430"
 sha1sum = "18abfd0dc8f6a8621e9e0619c49834cfc641c6f1"
-depends = "['kdelibs4support>=5.71.0', 'knewstuff>=5.71.0']"
+depends = "['knewstuff>=5.71.0']"
 +++
 ### Description: 
 A memory and pairs game.

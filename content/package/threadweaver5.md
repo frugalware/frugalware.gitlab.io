@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "threadweaver5 5.116.0-2"
-version = "5.116.0-2"
+title = "threadweaver5 5.116.0-3"
+version = "5.116.0-3"
 description = "KDE Helper for multithreaded programming."
-date = "2024-05-26T16:16:01"
+date = "2024-09-02T12:18:07"
 aliases = "/packages/221391"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72592"
-usize = "283103"
-sha1sum = "70d82d36b02d3aa2fa06a256a279038d0e25f0be"
-depends = "['qt5-base>=5.15.14']"
+size = "72884"
+usize = "280949"
+sha1sum = "800566d5490ad00fc6d3c1f34810629718fbebd4"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['krunner5']"
 +++
 ### Description: 

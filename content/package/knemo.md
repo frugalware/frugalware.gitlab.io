@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "515248"
 usize = "1207586"
 sha1sum = "e0900bb3e1837102b6064b293adf9e29fd2e4d2d"
-depends = "['kcmutils>=5.101.0', 'kdelibs4support>=5.101.0', 'knotifyconfig>=5.101.0', 'ksysguard5', 'plasma-framework>=5.101.0', 'wireless_tools']"
+depends = "['kcmutils>=5.101.0', 'knotifyconfig>=5.101.0', 'ksysguard5', 'plasma-framework>=5.101.0', 'wireless_tools']"
 +++
 ### Description: 
 KNemo is a KDE Network Monitor.
