@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lumina-desktop 1.6.2-7"
-version = "1.6.2-7"
+title = "lumina-desktop 1.6.2-8"
+version = "1.6.2-8"
 description = "Lumina Desktop Environment."
-date = "2024-05-26T22:25:36"
+date = "2024-09-02T19:59:42"
 aliases = "/packages/219457"
 categories = ['lumina']
 upstreamurl = "https://www.trueos.org/"
 arch = "x86_64"
-size = "8817924"
-usize = "15289622"
-sha1sum = "2a73e592d07ef54182fac7824f4f95a270752fe5"
-depends = "['acpi', 'alsa-utils', 'dbus', 'dejavu-ttf', 'fluxbox', 'noto-fonts', 'oxygen', 'oxygen-icons', 'pavucontrol-qt', 'pcre2', 'qt5-multimedia>=5.15.10', 'qt5-x11extras>=5.15.10', 'qterminal', 'sddm', 'sysstat', 'xbacklight', 'xdg-user-dirs', 'xdg-utils', 'xorg-server', 'xscreensaver']"
+size = "8819412"
+usize = "15184342"
+sha1sum = "e34a2fff4325b03010d7dbe3d6f767e97a4cfa43"
+depends = "['acpi', 'alsa-utils', 'dbus', 'dejavu-ttf', 'fluxbox', 'noto-fonts', 'oxygen', 'oxygen-icons', 'pavucontrol-qt', 'pcre2', 'qt5-multimedia>=5.15.15', 'qt5-x11extras>=5.15.15', 'qterminal', 'sddm', 'sysstat', 'xbacklight', 'xdg-user-dirs', 'xdg-utils', 'xorg-server', 'xscreensaver']"
 +++
 ### Description: 
 Lumina Desktop Environment.

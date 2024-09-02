@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "librecad 2.2.0.1-4"
-version = "2.2.0.1-4"
+title = "librecad 2.2.0.2-1"
+version = "2.2.0.2-1"
 description = "Free Open Source personal CAD application."
-date = "2024-05-27T04:38:06"
+date = "2024-09-02T19:54:38"
 aliases = "/packages/137081"
 categories = ['xapps-extra']
 upstreamurl = "http://librecad.org"
 arch = "x86_64"
-size = "9251804"
-usize = "83518693"
-sha1sum = "3970ce9579f0373a03ffac2eb6a310c8b59e4937"
-depends = "['muparser>=2.2.5-2', 'qt5-svg>=5.15.10', 'qt5-tools>=5.15.10']"
+size = "8912768"
+usize = "83067889"
+sha1sum = "b00e26aebc42ac28f11708af68695298d9bf4c30"
+depends = "['muparser>=2.2.5-2', 'qt5-svg>=5.15.15', 'qt5-tools>=5.15.15']"
 +++
 ### Description: 
 Free Open Source personal CAD application.
@@ -20,8 +20,8 @@ Free Open Source personal CAD application.
 * /usr/bin/librecad
 * /usr/bin/ttf2lff
 * /usr/share/applications/librecad.desktop
-* /usr/share/doc/librecad-2.2.0.1/LICENSE
-* /usr/share/doc/librecad-2.2.0.1/README.md
+* /usr/share/doc/librecad-2.2.0.2/LICENSE
+* /usr/share/doc/librecad-2.2.0.2/README.md
 * /usr/share/librecad/fonts/amiri-regular.lff
 * /usr/share/librecad/fonts/azomix.lff
 * /usr/share/librecad/fonts/azomix_i.lff
@@ -46,8 +46,8 @@ Free Open Source personal CAD application.
 * /usr/share/librecad/fonts/kst32b.lff
 * /usr/share/librecad/fonts/lc_opengost-ar.lff
 * /usr/share/librecad/fonts/lc_opengost-br.lff
-* /usr/share/librecad/fonts/OpenGostTypeA-Regular.lff
-* /usr/share/librecad/fonts/OpenGostTypeB-Regular.lff
+* /usr/share/librecad/fonts/opengosttypea-regular.lff
+* /usr/share/librecad/fonts/opengosttypeb-regular.lff
 * /usr/share/librecad/fonts/romanc.lff
 * /usr/share/librecad/fonts/romancs.lff
 * /usr/share/librecad/fonts/romand.lff
