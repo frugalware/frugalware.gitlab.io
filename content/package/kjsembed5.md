@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjsembed5 5.116.0-2"
-version = "5.116.0-2"
+title = "kjsembed5 5.116.0-3"
+version = "5.116.0-3"
 description = "Binding Javascript object to QObjects."
-date = "2024-05-26T16:48:33"
+date = "2024-09-02T09:02:18"
 aliases = "/packages/221334"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "382480"
-usize = "1724757"
-sha1sum = "e90ab6958bcc0af7f150fa76b2e12909b53b5ece"
-depends = "['ki18n5>=5.116.0', 'kjs5>=5.116.0', 'qt5-svg>=5.15.14']"
+size = "383620"
+usize = "1721003"
+sha1sum = "1a812ed7605a897658eff68a077a436765475edd"
+depends = "['ki18n5>=5.116.0', 'kjs5>=5.116.0', 'qt5-svg>=5.15.15']"
 +++
 ### Description: 
 Binding Javascript object to QObjects.

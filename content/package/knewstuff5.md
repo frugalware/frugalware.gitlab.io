@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knewstuff5 5.116.0-2"
-version = "5.116.0-2"
+title = "knewstuff5 5.116.0-3"
+version = "5.116.0-3"
 description = "Framework for downloading and sharing additional application data."
-date = "2024-05-26T17:10:26"
+date = "2024-09-02T09:07:31"
 aliases = "/packages/221337"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "821424"
-usize = "4303499"
-sha1sum = "84d463dc5d7a6ed2bab805150191a3e27d5ce510"
+size = "823288"
+usize = "4296367"
+sha1sum = "f8a8b34103cea51cd95a2f97a97fd551e12f8d22"
 depends = "['kio5>=5.116.0', 'kirigami25>=5.116.0', 'kpackage5>=5.116.0', 'syndication5>=5.116.0']"
 reverse_depends = "['artikulate', 'cantor', 'frameworkintegration5', 'kalzium', 'kstars', 'ktouch', 'libmarble', 'okteta', 'skrooge', 'step']"
 +++
@@ -29,100 +29,100 @@ Framework for downloading and sharing additional application data.
 * /usr/include/KF5/KNewStuff3/knewstuffquick_version.h
 * /usr/include/KF5/KNewStuff3/knewstuff_version.h
 * /usr/include/KF5/KNewStuff3/KNS3/Button
-* /usr/include/KF5/KNewStuff3/kns3/button.h
 * /usr/include/KF5/KNewStuff3/KNS3/button.h
+* /usr/include/KF5/KNewStuff3/kns3/button.h
 * /usr/include/KF5/KNewStuff3/KNS3/DownloadDialog
-* /usr/include/KF5/KNewStuff3/kns3/downloaddialog.h
 * /usr/include/KF5/KNewStuff3/KNS3/downloaddialog.h
+* /usr/include/KF5/KNewStuff3/kns3/downloaddialog.h
 * /usr/include/KF5/KNewStuff3/KNS3/DownloadManager
-* /usr/include/KF5/KNewStuff3/kns3/downloadmanager.h
 * /usr/include/KF5/KNewStuff3/KNS3/downloadmanager.h
+* /usr/include/KF5/KNewStuff3/kns3/downloadmanager.h
 * /usr/include/KF5/KNewStuff3/KNS3/DownloadWidget
-* /usr/include/KF5/KNewStuff3/kns3/downloadwidget.h
 * /usr/include/KF5/KNewStuff3/KNS3/downloadwidget.h
+* /usr/include/KF5/KNewStuff3/kns3/downloadwidget.h
 * /usr/include/KF5/KNewStuff3/KNS3/Entry
-* /usr/include/KF5/KNewStuff3/kns3/entry.h
 * /usr/include/KF5/KNewStuff3/KNS3/entry.h
+* /usr/include/KF5/KNewStuff3/kns3/entry.h
 * /usr/include/KF5/KNewStuff3/KNS3/KMoreTools
-* /usr/include/KF5/KNewStuff3/kns3/kmoretools.h
 * /usr/include/KF5/KNewStuff3/KNS3/kmoretools.h
+* /usr/include/KF5/KNewStuff3/kns3/kmoretools.h
 * /usr/include/KF5/KNewStuff3/KNS3/KMoreToolsMenuFactory
-* /usr/include/KF5/KNewStuff3/kns3/kmoretoolsmenufactory.h
 * /usr/include/KF5/KNewStuff3/KNS3/kmoretoolsmenufactory.h
+* /usr/include/KF5/KNewStuff3/kns3/kmoretoolsmenufactory.h
 * /usr/include/KF5/KNewStuff3/KNS3/KMoreToolsPresets
-* /usr/include/KF5/KNewStuff3/kns3/kmoretoolspresets.h
 * /usr/include/KF5/KNewStuff3/KNS3/kmoretoolspresets.h
-* /usr/include/KF5/KNewStuff3/kns3/knewstuffaction.h
+* /usr/include/KF5/KNewStuff3/kns3/kmoretoolspresets.h
 * /usr/include/KF5/KNewStuff3/KNS3/knewstuffaction.h
-* /usr/include/KF5/KNewStuff3/kns3/knewstuff_export.h
+* /usr/include/KF5/KNewStuff3/kns3/knewstuffaction.h
 * /usr/include/KF5/KNewStuff3/KNS3/knewstuff_export.h
+* /usr/include/KF5/KNewStuff3/kns3/knewstuff_export.h
 * /usr/include/KF5/KNewStuff3/KNS3/QtQuickDialogWrapper
-* /usr/include/KF5/KNewStuff3/kns3/qtquickdialogwrapper.h
 * /usr/include/KF5/KNewStuff3/KNS3/qtquickdialogwrapper.h
+* /usr/include/KF5/KNewStuff3/kns3/qtquickdialogwrapper.h
 * /usr/include/KF5/KNewStuff3/KNS3/UploadDialog
-* /usr/include/KF5/KNewStuff3/kns3/uploaddialog.h
 * /usr/include/KF5/KNewStuff3/KNS3/uploaddialog.h
+* /usr/include/KF5/KNewStuff3/kns3/uploaddialog.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Author
-* /usr/include/KF5/KNewStuff3/knscore/author.h
 * /usr/include/KF5/KNewStuff3/KNSCore/author.h
+* /usr/include/KF5/KNewStuff3/knscore/author.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Cache
-* /usr/include/KF5/KNewStuff3/knscore/cache.h
 * /usr/include/KF5/KNewStuff3/KNSCore/cache.h
+* /usr/include/KF5/KNewStuff3/knscore/cache.h
 * /usr/include/KF5/KNewStuff3/KNSCore/DownloadManager
-* /usr/include/KF5/KNewStuff3/knscore/downloadmanager.h
 * /usr/include/KF5/KNewStuff3/KNSCore/downloadmanager.h
+* /usr/include/KF5/KNewStuff3/knscore/downloadmanager.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Engine
-* /usr/include/KF5/KNewStuff3/knscore/engine.h
 * /usr/include/KF5/KNewStuff3/KNSCore/engine.h
+* /usr/include/KF5/KNewStuff3/knscore/engine.h
 * /usr/include/KF5/KNewStuff3/KNSCore/EntryInternal
-* /usr/include/KF5/KNewStuff3/knscore/entryinternal.h
 * /usr/include/KF5/KNewStuff3/KNSCore/entryinternal.h
+* /usr/include/KF5/KNewStuff3/knscore/entryinternal.h
 * /usr/include/KF5/KNewStuff3/KNSCore/EntryWrapper
-* /usr/include/KF5/KNewStuff3/knscore/entrywrapper.h
 * /usr/include/KF5/KNewStuff3/KNSCore/entrywrapper.h
+* /usr/include/KF5/KNewStuff3/knscore/entrywrapper.h
 * /usr/include/KF5/KNewStuff3/KNSCore/ErrorCode
-* /usr/include/KF5/KNewStuff3/knscore/errorcode.h
 * /usr/include/KF5/KNewStuff3/KNSCore/errorcode.h
+* /usr/include/KF5/KNewStuff3/knscore/errorcode.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Installation
-* /usr/include/KF5/KNewStuff3/knscore/installation.h
 * /usr/include/KF5/KNewStuff3/KNSCore/installation.h
+* /usr/include/KF5/KNewStuff3/knscore/installation.h
 * /usr/include/KF5/KNewStuff3/KNSCore/ItemsModel
-* /usr/include/KF5/KNewStuff3/knscore/itemsmodel.h
 * /usr/include/KF5/KNewStuff3/KNSCore/itemsmodel.h
-* /usr/include/KF5/KNewStuff3/knscore/knewstuffcore_export.h
+* /usr/include/KF5/KNewStuff3/knscore/itemsmodel.h
 * /usr/include/KF5/KNewStuff3/KNSCore/knewstuffcore_export.h
+* /usr/include/KF5/KNewStuff3/knscore/knewstuffcore_export.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Provider
-* /usr/include/KF5/KNewStuff3/knscore/provider.h
 * /usr/include/KF5/KNewStuff3/KNSCore/provider.h
+* /usr/include/KF5/KNewStuff3/knscore/provider.h
 * /usr/include/KF5/KNewStuff3/KNSCore/ProvidersModel
-* /usr/include/KF5/KNewStuff3/knscore/providersmodel.h
 * /usr/include/KF5/KNewStuff3/KNSCore/providersmodel.h
+* /usr/include/KF5/KNewStuff3/knscore/providersmodel.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Question
-* /usr/include/KF5/KNewStuff3/knscore/question.h
 * /usr/include/KF5/KNewStuff3/KNSCore/question.h
+* /usr/include/KF5/KNewStuff3/knscore/question.h
 * /usr/include/KF5/KNewStuff3/KNSCore/QuestionListener
-* /usr/include/KF5/KNewStuff3/knscore/questionlistener.h
 * /usr/include/KF5/KNewStuff3/KNSCore/questionlistener.h
+* /usr/include/KF5/KNewStuff3/knscore/questionlistener.h
 * /usr/include/KF5/KNewStuff3/KNSCore/QuestionManager
-* /usr/include/KF5/KNewStuff3/knscore/questionmanager.h
 * /usr/include/KF5/KNewStuff3/KNSCore/questionmanager.h
+* /usr/include/KF5/KNewStuff3/knscore/questionmanager.h
 * /usr/include/KF5/KNewStuff3/KNSCore/Security
-* /usr/include/KF5/KNewStuff3/knscore/security.h
 * /usr/include/KF5/KNewStuff3/KNSCore/security.h
+* /usr/include/KF5/KNewStuff3/knscore/security.h
 * /usr/include/KF5/KNewStuff3/KNSCore/TagsFilterChecker
-* /usr/include/KF5/KNewStuff3/knscore/tagsfilterchecker.h
 * /usr/include/KF5/KNewStuff3/KNSCore/tagsfilterchecker.h
+* /usr/include/KF5/KNewStuff3/knscore/tagsfilterchecker.h
 * /usr/include/KF5/KNewStuff3/KNSCore/XmlLoader
-* /usr/include/KF5/KNewStuff3/knscore/xmlloader.h
 * /usr/include/KF5/KNewStuff3/KNSCore/xmlloader.h
+* /usr/include/KF5/KNewStuff3/knscore/xmlloader.h
 * /usr/include/KF5/KNewStuff3/KNSWidgets/Action
-* /usr/include/KF5/KNewStuff3/knswidgets/action.h
 * /usr/include/KF5/KNewStuff3/KNSWidgets/action.h
+* /usr/include/KF5/KNewStuff3/knswidgets/action.h
 * /usr/include/KF5/KNewStuff3/KNSWidgets/Button
-* /usr/include/KF5/KNewStuff3/knswidgets/button.h
 * /usr/include/KF5/KNewStuff3/KNSWidgets/button.h
-* /usr/include/KF5/KNewStuff3/knswidgets/knewstuffwidgets_export.h
+* /usr/include/KF5/KNewStuff3/knswidgets/button.h
 * /usr/include/KF5/KNewStuff3/KNSWidgets/knewstuffwidgets_export.h
+* /usr/include/KF5/KNewStuff3/knswidgets/knewstuffwidgets_export.h
 * /usr/lib/cmake/KF5NewStuff/KF5NewStuffConfig.cmake
 * /usr/lib/cmake/KF5NewStuff/KF5NewStuffConfigVersion.cmake
 * /usr/lib/cmake/KF5NewStuff/KF5NewStuffTargets-release.cmake

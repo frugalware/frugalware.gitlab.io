@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kholidays5 5.116.0-2"
-version = "5.116.0-2"
+title = "kholidays5 5.116.0-3"
+version = "5.116.0-3"
 description = "C++ library for calendar holidays."
-date = "2024-05-26T16:21:34"
+date = "2024-09-02T08:20:35"
 aliases = "/packages/221318"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "246164"
-usize = "949187"
-sha1sum = "fcb5b5b723d6e10a214b120b04f0da9a9ed29e60"
-depends = "['qt5-base>=5.15.14']"
+size = "247664"
+usize = "943577"
+sha1sum = "fe1c1db11c504e27b8c5c1eec05f7cc7a0e37372"
+depends = "['qt5-base>=5.15.15']"
 +++
 ### Description: 
 C++ library for calendar holidays.

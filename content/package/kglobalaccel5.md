@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kglobalaccel5 5.116.0-2"
-version = "5.116.0-2"
+title = "kglobalaccel5 5.116.0-3"
+version = "5.116.0-3"
 description = "Global desktop keyboard shortcuts."
-date = "2024-05-26T16:51:35"
+date = "2024-09-02T08:17:07"
 aliases = "/packages/221314"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "106076"
-usize = "422818"
-sha1sum = "c87fab90864a6a424e4b223b4dbaab173c63cd1c"
+size = "105848"
+usize = "416230"
+sha1sum = "9df7a2824ccc624a9349bcf5b24eada46ef20076"
 depends = "['kservice5>=5.116.0']"
 reverse_depends = "['kxmlgui5']"
 +++

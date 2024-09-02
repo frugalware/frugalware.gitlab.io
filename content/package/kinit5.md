@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kinit5 5.116.0-2"
-version = "5.116.0-2"
+title = "kinit5 5.116.0-3"
+version = "5.116.0-3"
 description = "KInit."
-date = "2024-05-26T17:06:09"
+date = "2024-09-02T08:37:35"
 aliases = "/packages/221325"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "114836"
-usize = "507142"
-sha1sum = "355039d8f6bb7e5f7d1dae4cc0801a14ee5347e6"
+size = "114488"
+usize = "443142"
+sha1sum = "a0de233841554b65e602dee36c72c45a4cdd35d6"
 depends = "['kio5>=5.116.0']"
 reverse_depends = "['cervisia', 'kded5']"
 +++

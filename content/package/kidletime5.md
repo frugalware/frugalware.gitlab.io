@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kidletime5 5.116.0-2"
-version = "5.116.0-2"
+title = "kidletime5 5.116.0-3"
+version = "5.116.0-3"
 description = "Reporting of idle time of user and system."
-date = "2024-05-26T16:08:33"
+date = "2024-09-02T08:34:06"
 aliases = "/packages/221322"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "38068"
-usize = "178904"
-sha1sum = "b6bbbd10611947359e552f333266e93d1d192f46"
-depends = "['libxscrnsaver', 'qt5-x11extras>=5.15.14']"
+size = "37588"
+usize = "146534"
+sha1sum = "ba1747517661250fb1fa2c743e355f78157b832f"
+depends = "['libxscrnsaver', 'qt5-x11extras>=5.15.15']"
 reverse_depends = "['baloo5', 'kwayland-integration', 'rsibreak']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kfilemetadata5 5.116.0-3"
-version = "5.116.0-3"
+title = "kfilemetadata5 5.116.0-4"
+version = "5.116.0-4"
 description = "A library for extracting file metadata."
-date = "2024-06-05T13:44:05"
+date = "2024-09-02T08:15:38"
 aliases = "/packages/218307"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "190664"
-usize = "1076140"
-sha1sum = "45c1d8ebacde72bd9b5b6e9e01fbeb68b8a47615"
+size = "190060"
+usize = "1080482"
+sha1sum = "3b5e88d4262baa3944b308c325bf708b8147f520"
 depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive5>=5.116.0', 'kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'libappimage', 'poppler-qt5>=0.62.0', 'qt5-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['baloo5']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjobwidgets5 5.116.0-2"
-version = "5.116.0-2"
+title = "kjobwidgets5 5.116.0-3"
+version = "5.116.0-3"
 description = "Widgets for showing progress of asynchronous jobs."
-date = "2024-05-26T16:34:39"
+date = "2024-09-02T08:58:40"
 aliases = "/packages/221332"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "90232"
-usize = "436396"
-sha1sum = "54ee951c7c231f90e7f8afa9ee160d8a29122f0b"
-depends = "['kcoreaddons5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-x11extras>=5.15.14']"
+size = "90332"
+usize = "433442"
+sha1sum = "66087baaaff5d2304d052555ed187061f22885bc"
+depends = "['kcoreaddons5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-x11extras>=5.15.15']"
 reverse_depends = "['kio5', 'krename']"
 +++
 ### Description: 
