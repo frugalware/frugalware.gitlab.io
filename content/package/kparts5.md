@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kparts5 5.116.0-2"
-version = "5.116.0-2"
+title = "kparts5 5.116.0-3"
+version = "5.116.0-3"
 description = "Plugin framework for user interface components."
-date = "2024-05-26T17:13:45"
+date = "2024-09-02T09:35:49"
 aliases = "/packages/221341"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "233832"
-usize = "892500"
-sha1sum = "a30db2a4712fdc799b4df18a490f0f83e0645e1d"
+size = "234700"
+usize = "889980"
+sha1sum = "afcfc951fc623054c5e042b77a3dc77de02b7a82"
 depends = "['kio5>=5.116.0']"
 reverse_depends = "['cervisia', 'kalzium', 'kdelibs4support5', 'khtml5', 'kig', 'kmediaplayer5', 'kross5', 'krusader', 'ktexteditor5', 'libmarble', 'okteta', 'skrooge']"
 +++

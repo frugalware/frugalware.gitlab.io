@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kross5 5.116.0-2"
-version = "5.116.0-2"
+title = "kross5 5.116.0-3"
+version = "5.116.0-3"
 description = "Embedding of scripting into applications."
-date = "2024-05-26T17:20:59"
+date = "2024-09-02T09:43:58"
 aliases = "/packages/221346"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "374428"
-usize = "1937877"
-sha1sum = "e61c444b590e09c41d199add545d56648d736f64"
+size = "373796"
+usize = "1933281"
+sha1sum = "2d898940e9ee3a9db6da73463883f67fac8990d2"
 depends = "['kparts5>=5.116.0']"
 reverse_depends = "['kross-interpreters']"
 +++

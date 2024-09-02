@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kquickcharts5 5.116.0-2"
-version = "5.116.0-2"
+title = "kquickcharts5 5.116.0-3"
+version = "5.116.0-3"
 description = "A QtQuick plugin providing high-performance charts"
-date = "2024-05-26T16:17:00"
+date = "2024-09-02T09:42:38"
 aliases = "/packages/221345"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "126048"
-usize = "544080"
-sha1sum = "0fdd868bcc6c411917b6e6f3c28c75545620d260"
-depends = "['qt5-quickcontrols2>=5.15.14']"
+size = "126316"
+usize = "560360"
+sha1sum = "d2521cf40b2eba731168e5cf0bbd1309864d2889"
+depends = "['qt5-quickcontrols2>=5.15.15']"
 +++
 ### Description: 
 A QtQuick plugin providing high-performance charts

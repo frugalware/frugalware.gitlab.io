@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knotifyconfig5 5.116.0-2"
-version = "5.116.0-2"
+title = "knotifyconfig5 5.116.0-3"
+version = "5.116.0-3"
 description = "Configuration dialog for desktop notifications."
-date = "2024-05-26T17:14:50"
+date = "2024-09-02T09:31:07"
 aliases = "/packages/221339"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "71920"
-usize = "361961"
-sha1sum = "5e72d8a56a67b0460fa4ac8361934ab14b923d7f"
+size = "72348"
+usize = "354783"
+sha1sum = "c8b45848e286a2030ff4c95b135099ee38a42df3"
 depends = "['kio5>=5.116.0']"
 reverse_depends = "['kstars', 'quassel', 'rsibreak', 'skrooge']"
 +++

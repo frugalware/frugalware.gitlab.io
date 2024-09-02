@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpty5 5.116.0-2"
-version = "5.116.0-2"
+title = "kpty5 5.116.0-3"
+version = "5.116.0-3"
 description = "Interfacing with pseudo terminal devices."
-date = "2024-05-26T16:42:40"
+date = "2024-09-02T09:40:57"
 aliases = "/packages/221344"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "41108"
-usize = "154593"
-sha1sum = "0d0a5c4002a5c7e7b2ed309e3f2837b50f526d96"
+size = "41184"
+usize = "150583"
+sha1sum = "c99665a6cba497682b8b5a8f9cc2d76665f6badb"
 depends = "['kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'libutempter']"
 reverse_depends = "['kdesu5', 'kio-extras-kf5']"
 +++

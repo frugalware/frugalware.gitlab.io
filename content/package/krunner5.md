@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krunner5 5.116.0-2"
-version = "5.116.0-2"
+title = "krunner5 5.116.0-4"
+version = "5.116.0-4"
 description = "Framework for providing different actions given a string query."
-date = "2024-05-26T17:34:08"
+date = "2024-09-02T09:49:56"
 aliases = "/packages/218348"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "150056"
-usize = "448378"
-sha1sum = "30fd8120efc5400b9ebef5216fe1ba21166cef7c"
+size = "150244"
+usize = "449720"
+sha1sum = "dd5edd05d72073cbf6d84194d4f04ca9b6f72dff"
 depends = "['plasma-framework5>=5.116.0', 'threadweaver5>=5.116.0']"
 reverse_depends = "['libmarble', 'skrooge']"
 +++

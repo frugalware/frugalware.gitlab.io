@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifications5 5.116.0-2"
-version = "5.116.0-2"
+title = "knotifications5 5.116.0-3"
+version = "5.116.0-3"
 description = "KDE Desktop notifications."
-date = "2024-05-26T16:55:45"
+date = "2024-09-02T09:10:09"
 aliases = "/packages/221338"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "131788"
-usize = "509885"
-sha1sum = "469f7541a496b61459f45dcd2589e640bcfc55db"
-depends = "['kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'libcanberra', 'libcanberra-alsa', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'phonon-qt5>=4.9.1-5', 'qt5-speech>=5.15.14']"
+size = "131536"
+usize = "506515"
+sha1sum = "7640fef77bbf008d10050898a2515093ebd6fbb4"
+depends = "['kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'libcanberra', 'libcanberra-alsa', 'libdbusmenu-qt5>=0.9.3+16.04.20160218-9', 'phonon-qt5>=4.9.1-5', 'qt5-speech>=5.15.15']"
 reverse_depends = "['babe', 'kwallet5']"
 +++
 ### Description: 

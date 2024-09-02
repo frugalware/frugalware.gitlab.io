@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpackage5 5.116.0-2"
-version = "5.116.0-2"
+title = "kpackage5 5.116.0-3"
+version = "5.116.0-3"
 description = "Framework that lets applications manage user installable packages of non-binary assets."
-date = "2024-05-26T16:39:54"
+date = "2024-09-02T09:33:58"
 aliases = "/packages/221340"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "167452"
-usize = "754427"
-sha1sum = "5eaaececa715509734abb5f539dfb5f7ad019627"
+size = "167352"
+usize = "743825"
+sha1sum = "11cfdd728c66a306342d2de072167d761a4a7a86"
 depends = "['karchive5>=5.116.0', 'kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0']"
 reverse_depends = "['frameworkintegration5', 'kdeclarative5', 'knewstuff5']"
 +++
