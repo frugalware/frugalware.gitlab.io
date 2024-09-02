@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcodecs5 5.116.0-2"
-version = "5.116.0-2"
+title = "kcodecs5 5.116.0-3"
+version = "5.116.0-3"
 description = "Plugins allowing Qt applications to access further types of images."
-date = "2024-05-26T16:24:58"
+date = "2024-09-02T07:11:10"
 aliases = "/packages/221292"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "140652"
-usize = "686140"
-sha1sum = "a2e26854a53669c657403b2ed8e6ef2290d3d31e"
-depends = "['qt5-base>=5.15.14']"
+size = "141972"
+usize = "681674"
+sha1sum = "20325ee6583d2387b8f24b3ec3e8be69b4e01f36"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['kconfigwidgets5', 'kcontacts5']"
 +++
 ### Description: 

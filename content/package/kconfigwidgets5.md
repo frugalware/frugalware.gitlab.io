@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kconfigwidgets5 5.116.0-2"
-version = "5.116.0-2"
+title = "kconfigwidgets5 5.116.0-3"
+version = "5.116.0-3"
 description = "Widgets for KConfig."
-date = "2024-05-26T16:46:33"
+date = "2024-09-02T07:13:42"
 aliases = "/packages/221296"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "365092"
-usize = "1624264"
-sha1sum = "5c00372834ee8e578436473539bccb5836314308"
-depends = "['kauth5>=5.116.0', 'kcodecs5>=5.116.0', 'kconfig5>=5.116.0', 'kguiaddons5>=5.116.0', 'ki18n5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-x11extras>=5.15.14']"
+size = "366840"
+usize = "1615830"
+sha1sum = "52941deb10398d4ca5440dd204d558fcaf63b0cc"
+depends = "['kauth5>=5.116.0', 'kcodecs5>=5.116.0', 'kconfig5>=5.116.0', 'kguiaddons5>=5.116.0', 'ki18n5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-x11extras>=5.15.15']"
 reverse_depends = "['kiconthemes5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
