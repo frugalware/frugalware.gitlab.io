@@ -12,7 +12,7 @@ size = "147480"
 usize = "513227"
 sha1sum = "dfe4e0ababb9c3d880443932f1c71e31c88b82d0"
 depends = "['qt5-base>=5.15.6']"
-reverse_depends = "['firetools', 'flightgear', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami2', 'kirigami25', 'kjsembed5', 'krita', 'krusader', 'kuserfeedback5', 'kxmlgui5', 'librecad', 'lyx', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'nitroshare', 'nomacs', 'otter-browser', 'q4wine', 'qbittorrent', 'qownnotes', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'qtractor', 'quassel', 'rolisteam', 'skrooge', 'sqlitestudio', 'texstudio', 'tiled', 'vlc', 'vulkan-lunarg-tools', 'wireshark-qt']"
+reverse_depends = "['firetools', 'flightgear', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami2', 'kirigami25', 'kjsembed5', 'krita', 'krusader', 'kuserfeedback5', 'kxmlgui5', 'librecad', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'nitroshare', 'nomacs', 'otter-browser', 'q4wine', 'qbittorrent', 'qownnotes', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'qtractor', 'quassel', 'rolisteam', 'skrooge', 'sqlitestudio', 'texstudio', 'tiled', 'vlc', 'vulkan-lunarg-tools', 'wireshark-qt']"
 +++
 ### Description: 
 The Qt5 toolkit, qtsvg
