@@ -12,7 +12,7 @@ size = "14252"
 usize = "35573"
 sha1sum = "0b3e83bf328fdae82fdfbcc5726fe8c2948b9eef"
 depends = "['qt5-base>=5.15.15']"
-reverse_depends = "['kconfigwidgets5', 'kdbusaddons5', 'keepassxc', 'kguiaddons5', 'kidletime5', 'kjobwidgets5', 'kwindowsystem5', 'kxmlgui5', 'libkipi', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'pinentry-qt5', 'qownnotes', 'qqc2-desktop-style5', 'qtractor', 'retroshare', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
+reverse_depends = "['kconfigwidgets5', 'kdbusaddons5', 'keepassxc', 'kguiaddons5', 'kidletime5', 'kjobwidgets5', 'kwindowsystem5', 'kxmlgui5', 'libkscreen5', 'libportal-qt5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'lumina-desktop', 'mixxx', 'phonon-backend-gstreamer', 'pinentry-qt5', 'qownnotes', 'qqc2-desktop-style5', 'qtractor', 'retroshare', 'virtualbox', 'vlc', 'vokoscreenng', 'vtk-qt5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtx11extras

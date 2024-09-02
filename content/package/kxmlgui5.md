@@ -12,7 +12,7 @@ size = "672540"
 usize = "3565756"
 sha1sum = "ddf3212b40022b5421fd6a9f4791208bd2f173e1"
 depends = "['attica5>=5.116.0', 'kglobalaccel5>=5.116.0', 'ktextwidgets5>=5.116.0', 'qt5-svg>=5.15.15', 'qt5-x11extras>=5.15.15']"
-reverse_depends = "['kbookmarks5', 'kdesignerplugin5', 'krename', 'libkipi', 'skanlite']"
+reverse_depends = "['kbookmarks5', 'kdesignerplugin5', 'krename', 'skanlite']"
 +++
 ### Description: 
 Framework for managing menu and toolbar actions.
