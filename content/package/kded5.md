@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kded5 5.116.0-2"
-version = "5.116.0-2"
+title = "kded5 5.116.0-3"
+version = "5.116.0-3"
 description = "Central daemon of KDE workspaces."
-date = "2024-05-26T17:15:51"
+date = "2024-09-02T08:01:41"
 aliases = "/packages/221303"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "56672"
-usize = "121248"
-sha1sum = "6dd9f8ed4751728788b81aa7e13136006ec0542b"
+size = "56400"
+usize = "113280"
+sha1sum = "ae03024b9556d25519d1ad2c527181134772cacb"
 depends = "['kinit5>=5.116.0']"
 reverse_depends = "['kdelibs4support5', 'kio5']"
 +++

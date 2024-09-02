@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalendarcore5 5.116.0-2"
-version = "5.116.0-2"
+title = "kcalendarcore5 5.116.0-3"
+version = "5.116.0-3"
 description = "The KDE calendar access library"
-date = "2024-05-26T17:37:19"
+date = "2024-09-02T07:24:28"
 aliases = "/packages/221290"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "301532"
-usize = "1470451"
-sha1sum = "0fa03f3e2438637e49758b31f2764fa83cdcca2d"
+size = "303464"
+usize = "1490159"
+sha1sum = "e58d4a53d6b8fba99b6572ef06b2f13d075e984e"
 depends = "['libical>=3.0.3']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdesignerplugin5 5.116.0-2"
-version = "5.116.0-2"
+title = "kdesignerplugin5 5.116.0-3"
+version = "5.116.0-3"
 description = "Integrating KDE frameworks widgets with Qt Designer."
-date = "2024-05-26T17:25:56"
+date = "2024-09-02T08:06:30"
 aliases = "/packages/221306"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "79400"
-usize = "184841"
-sha1sum = "34416ef0e1ef9e7339ddf9861a9b1683b3fa0261"
+size = "79424"
+usize = "180801"
+sha1sum = "69aac366435df5a67ec497109bff800fcf77d6e7"
 depends = "['kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kiconthemes5>=5.116.0', 'kio5>=5.116.0', 'kplotting5>=5.116.0', 'kxmlgui5>=5.116.0']"
 reverse_depends = "['kdelibs4support5', 'skrooge']"
 +++

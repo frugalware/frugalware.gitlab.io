@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcompletion5 5.116.0-2"
-version = "5.116.0-2"
+title = "kcompletion5 5.116.0-3"
+version = "5.116.0-3"
 description = "Provides widgets with advanced completion support."
-date = "2024-05-26T16:35:39"
+date = "2024-09-02T07:28:49"
 aliases = "/packages/221294"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111416"
-usize = "423643"
-sha1sum = "832044c76105c2c333fbd5b1f9a177b23b069fd4"
+size = "111836"
+usize = "417057"
+sha1sum = "6d3fa343301db9e0df8cbde7404af9de85cc73ad"
 depends = "['kconfig5>=5.116.0', 'kwidgetsaddons5>=5.116.0']"
 reverse_depends = "['krename', 'krita', 'ktextwidgets5', 'smb4k']"
 +++

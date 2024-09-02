@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdesu5 5.116.0-2"
-version = "5.116.0-2"
+title = "kdesu5 5.116.0-3"
+version = "5.116.0-3"
 description = "User interface for running shell commands with root privileges."
-date = "2024-05-26T16:52:34"
+date = "2024-09-02T08:08:01"
 aliases = "/packages/221307"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "66092"
-usize = "253738"
-sha1sum = "02739d8c0a0e9e1817d42124fae7236c84917322"
+size = "66192"
+usize = "238936"
+sha1sum = "4c04142f39f146c46d8316be57b65bfd2c25d7ef"
 depends = "['kpty5>=5.116.0', 'kservice5>=5.116.0']"
 reverse_depends = "['cervisia']"
 +++

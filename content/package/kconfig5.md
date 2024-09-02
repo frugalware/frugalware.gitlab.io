@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kconfig5 5.116.0-2"
-version = "5.116.0-2"
+title = "kconfig5 5.116.0-3"
+version = "5.116.0-3"
 description = "Provides an advanced configuration system."
-date = "2024-05-26T16:30:33"
+date = "2024-09-02T07:15:10"
 aliases = "/packages/221295"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "347636"
-usize = "1607993"
-sha1sum = "e93d6d69e97506af7bca397586563828e539e814"
-depends = "['qt5-base>=5.15.14']"
+size = "348908"
+usize = "1584867"
+sha1sum = "520b4e3f34baca97e8583b2c7adc211fa4298122"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['kamoso', 'kcompletion5', 'kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5', 'ktux', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'smb4k']"
 +++
 ### Description: 

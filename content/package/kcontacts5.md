@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcontacts5 5.116.0-2"
-version = "5.116.0-2"
+title = "kcontacts5 5.116.0-3"
+version = "5.116.0-3"
 description = "Address book API for KDE"
-date = "2024-05-26T16:49:30"
+date = "2024-09-02T07:31:02"
 aliases = "/packages/221297"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "250780"
-usize = "1145071"
-sha1sum = "4033e31a2a584cd8f31466f6769bbfb8b2b88178"
+size = "254444"
+usize = "1161493"
+sha1sum = "2170675dd7426dde66fa2abef6b1fc2cbda48808"
 depends = "['kcodecs5>=5.116.0', 'kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0']"
 +++
 ### Description: 
