@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "minuet 24.08.0-1"
-version = "24.08.0-1"
+title = "minuet 24.08.0-2"
+version = "24.08.0-2"
 description = "A KDE Software for Music Education"
-date = "2024-08-23T20:43:48"
+date = "2024-09-02T23:06:42"
 aliases = "/packages/219343"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27484840"
+size = "27487072"
 usize = "33327113"
-sha1sum = "020a73e4a80b9d73af94c562c2583a7f23a2743a"
-depends = "['fluidsynth>=2.0.0', 'kcoreaddons5>=5.116.0', 'kcrash5>=5.116.0', 'ki18n5>=5.116.0', 'libkdegames>=24.08.0', 'qt5-quickcontrols2>=5.15.14', 'qt5-svg>=5.15.14']"
+sha1sum = "80da34d0967b545e41b0bffb224ef73bf236be8a"
+depends = "['fluidsynth>=2.0.0', 'kcoreaddons5>=5.116.0', 'kcrash5>=5.116.0', 'ki18n5>=5.116.0', 'libkdegames>=24.08.0', 'qt5-quickcontrols2>=5.15.15', 'qt5-svg>=5.15.15']"
 +++
 ### Description: 
 A KDE Software for Music Education
