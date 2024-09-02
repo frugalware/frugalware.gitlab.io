@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "doxywizard 1.11.0-1"
-version = "1.11.0-1"
-description = "QT5 GUI for doxygen"
-date = "2024-07-18T09:10:55"
+title = "doxywizard 1.12.0-1"
+version = "1.12.0-1"
+description = "QT6 GUI for doxygen"
+date = "2024-09-02T17:14:06"
 aliases = "/packages/218066"
 categories = ['xapps-extra']
 upstreamurl = "http://www.doxygen.nl/"
 arch = "x86_64"
-size = "268880"
-usize = "611696"
-sha1sum = "2208bff7359f489a6f048406727173101ab46c18"
-depends = "['doxygen>=1.11.0', 'qt5-base>=5.15.10']"
+size = "275188"
+usize = "648048"
+sha1sum = "98187a2f2aa0e5474108ccc25fed6f7a79d6c664"
+depends = "['doxygen>=1.12.0', 'qt6-base']"
 +++
 ### Description: 
-QT5 GUI for doxygen
+QT6 GUI for doxygen
 
 ### Files: 
 * /usr/bin/doxywizard

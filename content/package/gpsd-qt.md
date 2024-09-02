@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gpsd-qt 3.25-8"
-version = "3.25-8"
+title = "gpsd-qt 3.25-9"
+version = "3.25-9"
 description = "GPSD Qt5 bindings"
-date = "2024-06-18T14:16:35"
+date = "2024-09-02T17:47:51"
 aliases = "/packages/221203"
 categories = ['xlib-extra']
 upstreamurl = "http://www.catb.org/gpsd"
 arch = "x86_64"
-size = "54752"
+size = "55028"
 usize = "155540"
-sha1sum = "7deaa386bf889a5c64ceef8467da37e6d732df96"
-depends = "['gpsd', 'qt5-base']"
+sha1sum = "a83fa0ad1269ca39c9099ac07d7831a4727865b7"
+depends = "['gpsd', 'qt5-base>=5.15.15']"
 +++
 ### Description: 
 GPSD Qt5 bindings
