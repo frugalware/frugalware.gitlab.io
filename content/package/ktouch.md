@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktouch 24.08.0-1"
-version = "24.08.0-1"
+title = "ktouch 24.08.0-2"
+version = "24.08.0-2"
 description = "Touch Typing Tutor."
-date = "2024-08-23T20:42:51"
+date = "2024-09-02T16:21:11"
 aliases = "/packages/152835"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4421892"
+size = "4421188"
 usize = "8703029"
-sha1sum = "ea2c21428b073dbdeafea4b1dc4761ce8a339558"
+sha1sum = "3c626abddcc6baaf092d525f0461e8c7e193097a"
 depends = "['kcmutils5>=5.116.0', 'kdeclarative5>=5.116.0', 'kio5>=5.116.0', 'knewstuff5>=5.116.0', 'kqtquickcharts>=24.08.0', 'ktexteditor5>=5.116.0']"
 +++
 ### Description: 

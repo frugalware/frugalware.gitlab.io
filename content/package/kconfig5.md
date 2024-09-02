@@ -12,7 +12,7 @@ size = "348908"
 usize = "1584867"
 sha1sum = "520b4e3f34baca97e8583b2c7adc211fa4298122"
 depends = "['qt5-base>=5.15.15']"
-reverse_depends = "['kamoso', 'kcompletion5', 'kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5', 'ktux', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'smb4k']"
+reverse_depends = "['kamoso', 'kcompletion5', 'kconfigwidgets5', 'kcontacts5', 'kdesignerplugin5', 'kpackage5', 'krename', 'kservice5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'smb4k']"
 +++
 ### Description: 
 Provides an advanced configuration system.

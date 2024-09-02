@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-ipc-qt6 0.2.0-2"
-version = "0.2.0-2"
+title = "dfl-ipc-qt6 0.2.0-3"
+version = "0.2.0-3"
 description = "A very simple set of IPC classes for inter-process communication Qt6"
-date = "2024-07-30T09:40:07"
+date = "2024-09-02T16:55:43"
 aliases = "/packages/221550"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/ipc"
 arch = "x86_64"
-size = "25712"
-usize = "76767"
-sha1sum = "b15e759c5fc968c14154953f4d6e10170a1a0b3c"
+size = "25856"
+usize = "77183"
+sha1sum = "9962b0bf1525ac8eee133ba64985c32598524f63"
 depends = "['qt6-base']"
 reverse_depends = "['dfl-applications-qt6']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cervisia 24.08.0-1"
-version = "24.08.0-1"
+title = "cervisia 24.08.0-2"
+version = "24.08.0-2"
 description = "CVS Frontend"
-date = "2024-08-24T09:58:51"
+date = "2024-09-02T16:49:08"
 aliases = "/packages/219319"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2360672"
-usize = "6433838"
-sha1sum = "0ac5ccd369ffe4cb9a296dd2a73b9e6e25d0f7dd"
+size = "2335404"
+usize = "6368026"
+sha1sum = "8867998e5ebe2cfe196d19246da3da9dd8133e97"
 depends = "['kdesu5>=5.116.0', 'kinit5>=5.116.0', 'kparts5>=5.116.0']"
 +++
 ### Description: 
@@ -30,14 +30,11 @@ CVS Frontend
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
-* /usr/share/doc/cervisia-24.08.0/AUTHORS
 * /usr/share/doc/cervisia-24.08.0/ChangeLog
 * /usr/share/doc/cervisia-24.08.0/COPYING
 * /usr/share/doc/cervisia-24.08.0/COPYING.DOC
 * /usr/share/doc/cervisia-24.08.0/COPYING.LIB
 * /usr/share/doc/cervisia-24.08.0/HACKING
-* /usr/share/doc/cervisia-24.08.0/INSTALL
-* /usr/share/doc/cervisia-24.08.0/NEWS
 * /usr/share/doc/cervisia-24.08.0/README
 * /usr/share/doc/cervisia-24.08.0/TODO
 * /usr/share/doc/HTML/ca/cervisia/checkout.png

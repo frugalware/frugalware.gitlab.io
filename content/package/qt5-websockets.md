@@ -12,7 +12,7 @@ size = "79448"
 usize = "326624"
 sha1sum = "fad25432b0a7ce076fa7ad1ed5088b7d65fed004"
 depends = "['qt5-declarative>=5.15.15']"
-reverse_depends = "['babe', 'kstars', 'qownnotes', 'qt5-webglplugin', 'snorenotify']"
+reverse_depends = "['kstars', 'qownnotes', 'qt5-webglplugin', 'snorenotify']"
 +++
 ### Description: 
 The Qt5 toolkit, qtwebsockets

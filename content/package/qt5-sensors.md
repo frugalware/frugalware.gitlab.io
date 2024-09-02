@@ -12,7 +12,6 @@ size = "178288"
 usize = "1067233"
 sha1sum = "fbf3fca763cdab5464c5a494ce615acfcb7d0d97"
 depends = "['iio-sensor-proxy', 'qt5-declarative>=5.15.15']"
-reverse_depends = "['aseman-qt-tools']"
 +++
 ### Description: 
 The Qt5 toolkit, qtsensors

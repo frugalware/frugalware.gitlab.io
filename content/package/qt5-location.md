@@ -12,7 +12,7 @@ size = "2427812"
 usize = "9792432"
 sha1sum = "925cbe31fe70c5c92e15fce258c1e18a71767e2e"
 depends = "['icu4c>=75.1', 'qt5-declarative>=5.15.15']"
-reverse_depends = "['aseman-qt-tools', 'marble', 'meshroom', 'qsyncthingtray', 'qt5-tools', 'qt5-webengine']"
+reverse_depends = "['marble', 'meshroom', 'qsyncthingtray', 'qt5-tools', 'qt5-webengine']"
 +++
 ### Description: 
 The Qt5 toolkit, qtlocation

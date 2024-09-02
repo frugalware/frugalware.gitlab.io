@@ -12,7 +12,7 @@ size = "52596"
 usize = "198108"
 sha1sum = "d6b730b099178cbee5bfe3a61a80e2f7c5182de4"
 depends = "['libsecret', 'qt5-base']"
-reverse_depends = "['aseman-qt-tools', 'kstars', 'mixxx']"
+reverse_depends = "['kstars', 'mixxx']"
 +++
 ### Description: 
 qtkeychain QT5
