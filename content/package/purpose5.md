@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "purpose5 5.116.0-2"
-version = "5.116.0-2"
+title = "purpose5 5.116.0-3"
+version = "5.116.0-3"
 description = "Offers the possibility to create integrate services and actions on any application."
-date = "2024-05-26T17:24:57"
+date = "2024-09-02T12:09:08"
 aliases = "/packages/221381"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "271624"
-usize = "1605154"
-sha1sum = "884b92ae576d07d19d795c70473442f56d0a0570"
+size = "273128"
+usize = "1528062"
+sha1sum = "d5463c95c6d0faf5d6023f4f26f2554745dd67a5"
 depends = "['kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kdeclarative5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'kirigami25>=5.116.0']"
 reverse_depends = "['kamoso']"
 +++

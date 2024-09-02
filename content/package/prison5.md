@@ -1,32 +1,32 @@
 +++
 draft = false
-title = "prison5 5.116.0-2"
-version = "5.116.0-2"
+title = "prison5 5.116.0-3"
+version = "5.116.0-3"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-05-26T16:20:23"
+date = "2024-09-02T12:07:18"
 aliases = "/packages/221380"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "57944"
-usize = "252662"
-sha1sum = "92fa686eaa1c75685947d83f0a5c60b69e393dd9"
-depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.14', 'qt5-multimedia>=5.15.14', 'zxing-cpp']"
+size = "58608"
+usize = "241720"
+sha1sum = "9e74a70fa82574c81b31b99638f8fdf94790fb02"
+depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.15', 'qt5-multimedia>=5.15.15', 'zxing-cpp']"
 +++
 ### Description: 
 Qt library to access Open Collaboration Services
 
 ### Files: 
-* /usr/include/KF5/Prison/prison/AbstractBarcode
 * /usr/include/KF5/Prison/Prison/AbstractBarcode
-* /usr/include/KF5/Prison/prison/abstractbarcode.h
+* /usr/include/KF5/Prison/prison/AbstractBarcode
 * /usr/include/KF5/Prison/Prison/abstractbarcode.h
-* /usr/include/KF5/Prison/prison/Prison
+* /usr/include/KF5/Prison/prison/abstractbarcode.h
 * /usr/include/KF5/Prison/Prison/Prison
-* /usr/include/KF5/Prison/prison/prison.h
+* /usr/include/KF5/Prison/prison/Prison
 * /usr/include/KF5/Prison/Prison/prison.h
-* /usr/include/KF5/Prison/prison/prison_export.h
+* /usr/include/KF5/Prison/prison/prison.h
 * /usr/include/KF5/Prison/Prison/prison_export.h
+* /usr/include/KF5/Prison/prison/prison_export.h
 * /usr/include/KF5/Prison/prison/prison_version.h
 * /usr/include/KF5/Prison/prison_version.h
 * /usr/include/KF5/PrisonScanner/Prison/Format

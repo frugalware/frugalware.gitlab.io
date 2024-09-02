@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kunitconversion5 5.116.0-2"
-version = "5.116.0-2"
+title = "kunitconversion5 5.116.0-3"
+version = "5.116.0-3"
 description = "Converting physical units."
-date = "2024-05-26T16:44:03"
+date = "2024-09-02T11:47:17"
 aliases = "/packages/221352"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "822952"
-usize = "11113218"
-sha1sum = "5ab2162b2ee6216f0d851784c846033bae13353d"
-depends = "['ki18n5>=5.116.0', 'qt5-base>=5.15.14']"
+size = "827904"
+usize = "11112712"
+sha1sum = "5b9bc0c800bec8552de07e5ebc545aaed14e2fe6"
+depends = "['ki18n5>=5.116.0', 'qt5-base>=5.15.15']"
 reverse_depends = "['kalzium', 'kdelibs4support5']"
 +++
 ### Description: 

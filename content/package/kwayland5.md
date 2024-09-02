@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwayland5 5.116.0-2"
-version = "5.116.0-2"
+title = "kwayland5 5.116.0-3"
+version = "5.116.0-3"
 description = "KDE Wayland"
-date = "2024-05-26T16:21:09"
+date = "2024-09-02T11:53:10"
 aliases = "/packages/221355"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2326816"
-usize = "6444464"
-sha1sum = "e0afb96eaa722b393b60e4bbdde90e258ffe32ac"
-depends = "['qt5-wayland>=5.15.14']"
+size = "2493996"
+usize = "6634213"
+sha1sum = "7a09d555f97f85a7e52b4ed7e31d5e577dd86174"
+depends = "['qt5-wayland>=5.15.15']"
 reverse_depends = "['kwayland-integration', 'pinentry-qt5', 'plasma-framework5']"
 +++
 ### Description: 

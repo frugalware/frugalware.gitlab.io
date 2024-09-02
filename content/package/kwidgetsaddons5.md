@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwidgetsaddons5 5.116.0-2"
-version = "5.116.0-2"
+title = "kwidgetsaddons5 5.116.0-3"
+version = "5.116.0-3"
 description = "Large set of desktop widgets."
-date = "2024-05-26T16:33:38"
+date = "2024-09-02T11:55:29"
 aliases = "/packages/221356"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1518364"
-usize = "7380563"
-sha1sum = "2626dfedecd8979293f8ffaec64044f17a04c91b"
-depends = "['qt5-base>=5.15.14']"
+size = "1521352"
+usize = "7400081"
+sha1sum = "f0e137ceb45ddd2f899fc75e2b2922a0c00ec20d"
+depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['kcompletion5', 'kconfigwidgets5', 'kjobwidgets5', 'kpeople5']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwallet5 5.116.0-2"
-version = "5.116.0-2"
+title = "kwallet5 5.116.0-3"
+version = "5.116.0-3"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-05-26T16:56:52"
+date = "2024-09-02T11:50:25"
 aliases = "/packages/218360"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "239636"
-usize = "1648553"
-sha1sum = "7f94b09e80bc55a3b8ed25602538354b66c20fcc"
+size = "239436"
+usize = "1639935"
+sha1sum = "34b68e2580f6741725a8b5084e14857431b699d6"
 depends = "['knotifications5>=5.116.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['kio5', 'ksshaskpass5', 'libksane5', 'remmina-kwallet']"
 +++
