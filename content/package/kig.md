@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kig 24.08.0-1"
-version = "24.08.0-1"
+title = "kig 24.08.0-2"
+version = "24.08.0-2"
 description = "Interactive Geometry."
-date = "2024-08-23T20:27:18"
+date = "2024-09-02T15:01:48"
 aliases = "/packages/152830"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3486592"
+size = "3486104"
 usize = "10896810"
-sha1sum = "e33b0281c23f1e89a14fd794599967dd05fa96f8"
-depends = "['kparts5>=5.116.0', 'libboost>=1.85.0', 'python3>=3.12', 'qt5-svg>=5.15.14', 'qt5-xmlpatterns>=5.15.14']"
+sha1sum = "598a3b177051eaa5cf97a1ebaba30b5a9db7625a"
+depends = "['kparts5>=5.116.0', 'libboost>=1.85.0', 'python3>=3.12', 'qt5-svg>=5.15.15', 'qt5-xmlpatterns>=5.15.15']"
 +++
 ### Description: 
 Interactive Geometry.

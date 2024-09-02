@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4974220"
 usize = "17421081"
 sha1sum = "e3c86f40e039cfa46be84e8043ce2a981999e150"
-depends = "['grantlee>=5.1.0-2', 'kcmutils>=5.115.0', 'khtml>=5.115.0', 'xapian-core>=1.4.0-2']"
+depends = "['grantlee>=5.1.0-2', 'kcmutils>=5.115.0', 'xapian-core>=1.4.0-2']"
 +++
 ### Description: 
 Application to show KDE Applications documentation.
