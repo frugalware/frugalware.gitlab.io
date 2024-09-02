@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krita 5.2.3-1"
-version = "5.2.3-1"
+title = "krita 5.2.3-2"
+version = "5.2.3-2"
 description = "Krita is a FREE sketching and painting program"
-date = "2024-06-27T09:02:01"
+date = "2024-09-02T15:34:32"
 aliases = "/packages/218645"
 categories = ['kde5-extra']
 upstreamurl = "https://krita.org/"
 arch = "x86_64"
-size = "76878464"
-usize = "172421683"
-sha1sum = "6f35137d57e9a6ed8460de1cbbfd14bd69e13dfb"
+size = "76884100"
+usize = "173066857"
+sha1sum = "470cf0b6451a842cf92bc58f852ef1f1e3b58889"
 depends = "['eigen', 'exiv2>=0.28.1', 'gsl>=2.8', 'kcompletion5', 'kcrash5', 'kguiaddons5', 'ki18n5', 'kitemviews5', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5', 'qt5-svg', 'quazip']"
 +++
 ### Description: 

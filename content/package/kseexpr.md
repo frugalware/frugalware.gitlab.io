@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kseexpr 4.0.4.0-3"
-version = "4.0.4.0-3"
+title = "kseexpr 4.0.4.0-4"
+version = "4.0.4.0-4"
 description = "An embeddable expression evaluation engine (Krita fork)"
-date = "2024-04-02T08:53:51"
+date = "2024-09-02T16:12:25"
 aliases = "/packages/221125"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "392404"
-usize = "1996801"
-sha1sum = "c03ac9cc9d88f7d620026b018ece8e532db3227b"
+size = "402340"
+usize = "2022999"
+sha1sum = "ea091180b2cff1127148763a8c0eb22c5fa26f45"
 depends = "['qt5-base>=']"
 reverse_depends = "['krita']"
 +++

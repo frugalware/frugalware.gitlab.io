@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krename 5.0.2-6"
-version = "5.0.2-6"
+title = "krename 5.0.2-7"
+version = "5.0.2-7"
 description = "KRename is a powerful batch renamer for KDE."
-date = "2024-03-26T10:32:27"
+date = "2024-09-02T15:19:01"
 aliases = "/packages/10237"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "464676"
-usize = "2307749"
-sha1sum = "fab546ba4e6061218af76712b59b9cca8e91c3e7"
-depends = "['exiv2>=0.28.1', 'kcompletion5>=5.115.0', 'kconfig5>=5.115.0', 'kcoreaddons5>=5.115.0', 'kcrash5>=5.115.0', 'ki18n5>=5.115.0', 'kiconthemes5>=5.115.0', 'kio5>=5.115.0', 'kitemviews5>=5.115.0', 'kjobwidgets5>=5.115.0', 'kjs5>=5.115.0', 'podofo>=0.10.1', 'taglib>=2.0']"
+size = "468516"
+usize = "2309493"
+sha1sum = "1dc56119a805c223d7c9134373a8876f2294b69d"
+depends = "['exiv2>=0.28.1', 'kcompletion5>=5.116.0', 'kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kcrash5>=5.116.0', 'ki18n5>=5.116.0', 'kiconthemes5>=5.116.0', 'kio5>=5.116.0', 'kitemviews5>=5.116.0', 'kjobwidgets5>=5.116.0', 'kjs5>=5.116.0', 'kservice5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'kxmlgui5>=5.116.0', 'podofo>=0.10.1', 'taglib>=2.0']"
 license = "GPL-2"
 +++
 ### Description: 
