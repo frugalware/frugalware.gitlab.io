@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qownnotes 24.5.8-1"
-version = "24.5.8-1"
+title = "qownnotes 24.9.0-1"
+version = "24.9.0-1"
 description = "Plain-text file notepad with markdown support and ownCloud integration"
-date = "2024-05-27T07:03:52"
+date = "2024-09-03T13:54:15"
 aliases = "/packages/218639"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qownnotes.org/"
 arch = "x86_64"
-size = "3906768"
-usize = "23625276"
-sha1sum = "f74179e34665a5c449fd50e42b12df6667de3b6a"
-depends = "['hicolor-icon-theme>=0.15-3', 'qt5-declarative>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-websockets>=5.15.10', 'qt5-x11extras>=5.15.10', 'qt5-xmlpatterns>=5.15.10']"
+size = "3967004"
+usize = "23939330"
+sha1sum = "f87822c9effea8b5b6a1d1e264eed52fd4526829"
+depends = "['hicolor-icon-theme>=0.15-3', 'qt5-declarative>=5.15.15', 'qt5-svg>=5.15.15', 'qt5-websockets>=5.15.15', 'qt5-x11extras>=5.15.15', 'qt5-xmlpatterns>=5.15.15']"
 +++
 ### Description: 
 Plain-text file notepad with markdown support and ownCloud integration
@@ -19,8 +19,8 @@ Plain-text file notepad with markdown support and ownCloud integration
 ### Files: 
 * /usr/bin/QOwnNotes
 * /usr/share/applications/PBE.QOwnNotes.desktop
-* /usr/share/doc/qownnotes-24.5.8/LICENSE
-* /usr/share/doc/qownnotes-24.5.8/README.md
+* /usr/share/doc/qownnotes-24.9.0/LICENSE
+* /usr/share/doc/qownnotes-24.9.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/QOwnNotes.png
 * /usr/share/icons/hicolor/16x16/apps/QOwnNotes.png
 * /usr/share/icons/hicolor/24x24/apps/QOwnNotes.png

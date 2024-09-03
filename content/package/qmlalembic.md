@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qmlalembic 2023.2.0-1"
-version = "2023.2.0-1"
+title = "qmlalembic 2023.2.0-2"
+version = "2023.2.0-2"
 description = "Qml Alembic plugin to visualize Alembic Point Clouds"
-date = "2024-07-22T11:42:33"
+date = "2024-09-03T13:41:22"
 aliases = "/packages/220131"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/alicevision/qmlalembic"
 arch = "x86_64"
-size = "63024"
-usize = "271776"
-sha1sum = "2d201613185ae71a82a19485a64ee587077f16e0"
-depends = "['alembic', 'openexr', 'qt5-3d>=5.15.10', 'qt5-declarative>=5.15.10']"
+size = "62116"
+usize = "272496"
+sha1sum = "9d8d6833db992a4f2714c336cda11dc68a808ad2"
+depends = "['alembic', 'openexr', 'qt5-3d>=5.15.15', 'qt5-declarative>=5.15.15']"
 reverse_depends = "['meshroom']"
 +++
 ### Description: 
