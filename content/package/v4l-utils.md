@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l-utils 1.28.1-1"
-version = "1.28.1-1"
+title = "v4l-utils 1.28.1-2"
+version = "1.28.1-2"
 description = "Userspace tools and conversion library for Video 4 Linux"
-date = "2024-07-24T20:31:25"
+date = "2024-09-03T19:22:19"
 aliases = "/packages/103450"
 categories = ['multimedia']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1369468"
-usize = "4905320"
-sha1sum = "1adeccc2b8c95ae3f6a825109a74c371206461de"
+size = "1368944"
+usize = "4921432"
+sha1sum = "39ac0399cdd1a4fe9191627047d7818c1171635e"
 depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++

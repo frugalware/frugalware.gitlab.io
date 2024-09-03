@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-v4l-utils 1.28.1-1"
-version = "1.28.1-1"
+title = "lib32-v4l-utils 1.28.1-2"
+version = "1.28.1-2"
 description = "v4l-utils (32-bit)"
-date = "2024-07-24T20:31:25"
+date = "2024-09-03T19:22:19"
 aliases = "/packages/219239"
 categories = ['lib32-extra']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1156936"
-usize = "4269844"
-sha1sum = "f67238ff09304255f1a4a4dc3393a52a7604d273"
+size = "1154660"
+usize = "4283400"
+sha1sum = "29a64dd6ab03b005dd2cc8c258064ba2a3affd49"
 depends = "['lib32-elfutils', 'lib32-json-c', 'lib32-libglu', 'lib32-libjpeg-turbo', 'lib32-libsystemd', 'lib32-libudev', 'lib32-libx11', 'lib32-sdl2', 'lib32-sdl2_image', 'v4l-utils>=1.28.1']"
 +++
 ### Description: 
