@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pyqtwebengine 5.15.6-8"
-version = "5.15.6-8"
+title = "pyqtwebengine 5.15.7-1"
+version = "5.15.7-1"
 description = "Python bindings for QtWebEngine"
-date = "2024-05-27T07:08:21"
+date = "2024-09-03T12:07:46"
 aliases = "/packages/220269"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "119468"
-usize = "686535"
-sha1sum = "10cdc76ba53b91a07e0069de729b19b063152566"
-depends = "['pyqt5', 'qt5-webengine>=5.15.14']"
+size = "120096"
+usize = "673122"
+sha1sum = "8c9e63190408f2b0104f08bef20ef3e6c1e6f5a1"
+depends = "['pyqt5', 'qt5-webengine>=5.15.15']"
 +++
 ### Description: 
 Python bindings for QtWebEngine
@@ -53,11 +53,11 @@ Python bindings for QtWebEngine
 * /usr/lib/python3.12/site-packages/PyQt5/QtWebEngine.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt5/QtWebEngineCore.abi3.so
 * /usr/lib/python3.12/site-packages/PyQt5/QtWebEngineWidgets.abi3.so
-* /usr/lib/python3.12/site-packages/PyQtWebEngine-5.15.6.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQtWebEngine-5.15.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQtWebEngine-5.15.6.dist-info/RECORD
-* /usr/share/doc/pyqtwebengine-5.15.6/ChangeLog
-* /usr/share/doc/pyqtwebengine-5.15.6/LICENSE
-* /usr/share/doc/pyqtwebengine-5.15.6/NEWS
-* /usr/share/doc/pyqtwebengine-5.15.6/README
+* /usr/lib/python3.12/site-packages/PyQtWebEngine-5.15.7.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQtWebEngine-5.15.7.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQtWebEngine-5.15.7.dist-info/RECORD
+* /usr/share/doc/pyqtwebengine-5.15.7/ChangeLog
+* /usr/share/doc/pyqtwebengine-5.15.7/LICENSE
+* /usr/share/doc/pyqtwebengine-5.15.7/NEWS
+* /usr/share/doc/pyqtwebengine-5.15.7/README.md
 * /usr/share/qt/qsci/api/python/PyQtWebEngine.api

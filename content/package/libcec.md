@@ -12,7 +12,6 @@ size = "206372"
 usize = "797388"
 sha1sum = "4c739e90d312175a56f174a375c3c1780e0069ef"
 depends = "['libudev', 'libxrandr', 'ncurses>=6.5', 'p8-platform']"
-reverse_depends = "['plasma-remotecontrollers']"
 +++
 ### Description: 
 Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter

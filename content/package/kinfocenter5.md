@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "955528"
 usize = "3902574"
 sha1sum = "b10b44bb6fb71fb4669f96952b56f0b713aa76e9"
-depends = "['kcmutils>=5.115.0', 'kpackage>=5.115.0', 'kwayland>=5.115.0', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'plasma-framework>=5.115.0', 'solid>=5.115.0', 'wayland-utils']"
+depends = "['kcmutils>=5.115.0', 'kpackage>=5.115.0', 'kwayland>=5.115.0', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=5.115.0', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.

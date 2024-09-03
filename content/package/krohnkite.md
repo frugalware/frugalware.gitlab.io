@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "25436"
 usize = "161650"
 sha1sum = "45e86a781bce4bd16289cfe30b67f62617e0ebdb"
-depends = "['plasma-framework>=5.97.0']"
+depends = "[]"
 +++
 ### Description: 
 A dynamic tiling extension for KWin
