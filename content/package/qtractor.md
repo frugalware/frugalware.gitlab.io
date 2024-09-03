@@ -1,29 +1,29 @@
 +++
 draft = false
-title = "qtractor 1.1.1-1"
-version = "1.1.1-1"
-description = "Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework"
-date = "2024-08-05T09:14:17"
+title = "qtractor 1.2.0-1"
+version = "1.2.0-1"
+description = "Audio/MIDI multi-track sequencer written in C++ with the Qt6 framework"
+date = "2024-09-03T15:13:27"
 aliases = "/packages/218531"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://sourceforge.net/projects/qtractor"
 arch = "x86_64"
-size = "1933424"
-usize = "7298219"
-sha1sum = "17169560d0d1fbd43e41e8cdc47bec37f4a2beea"
-depends = "['dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt5-base>=5.15.10', 'qt5-svg>=5.15.10', 'qt5-x11extras>=5.15.10', 'rubberband']"
+size = "2009692"
+usize = "7746604"
+sha1sum = "bed303cf029800693a3bda47af90e9f5229405d3"
+depends = "['aubio', 'dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt6-base', 'qt6-svg', 'rubberband']"
 +++
 ### Description: 
-Audio/MIDI multi-track sequencer written in C++ with the Qt5 framework
+Audio/MIDI multi-track sequencer written in C++ with the Qt6 framework
 
 ### Files: 
 * /usr/bin/qtractor
 * /usr/lib/qtractor/qtractor_plugin_scan
 * /usr/share/applications/org.rncbc.qtractor.desktop
-* /usr/share/doc/qtractor-1.1.1/ChangeLog
-* /usr/share/doc/qtractor-1.1.1/LICENSE
-* /usr/share/doc/qtractor-1.1.1/README
-* /usr/share/doc/qtractor-1.1.1/README.VST2
+* /usr/share/doc/qtractor-1.2.0/ChangeLog
+* /usr/share/doc/qtractor-1.2.0/LICENSE
+* /usr/share/doc/qtractor-1.2.0/README
+* /usr/share/doc/qtractor-1.2.0/README.VST2
 * /usr/share/icons/hicolor/32x32/apps/org.rncbc.qtractor.png
 * /usr/share/icons/hicolor/32x32/mimetypes/org.rncbc.qtractor.application-x-qtractor-archive.png
 * /usr/share/icons/hicolor/32x32/mimetypes/org.rncbc.qtractor.application-x-qtractor-session.png

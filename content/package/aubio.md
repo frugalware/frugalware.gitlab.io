@@ -12,7 +12,7 @@ size = "1321812"
 usize = "5465913"
 sha1sum = "ba3db33222b54371a0488e69c58994ebb6602f27"
 depends = "['ffmpeg>=7.0', 'jack2', 'python3-numpy']"
-reverse_depends = "['performous']"
+reverse_depends = "['performous', 'qtractor']"
 +++
 ### Description: 
 A tool for extracting annotations from audio signals
