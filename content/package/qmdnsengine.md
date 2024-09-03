@@ -12,7 +12,6 @@ size = "59712"
 usize = "234891"
 sha1sum = "855cc19a0b70aa0615d7da560bebcb93e34cb3a2"
 depends = "['qt5-base']"
-reverse_depends = "['nitroshare']"
 +++
 ### Description: 
 Simple multicast DNS library for Qt

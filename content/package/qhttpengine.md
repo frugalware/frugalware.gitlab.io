@@ -12,7 +12,6 @@ size = "61588"
 usize = "250372"
 sha1sum = "90e6abc28ddbd403ccc2acdfd3708561ce27e0a8"
 depends = "['qt5-base']"
-reverse_depends = "['nitroshare']"
 +++
 ### Description: 
 Simple and secure HTTP server for Qt
