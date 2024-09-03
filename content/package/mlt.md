@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "mlt 7.26.0-1"
-version = "7.26.0-1"
+title = "mlt 7.26.0-2"
+version = "7.26.0-2"
 description = "MLT is an open source multimedia framework, designed and developed for television broadcasting."
-date = "2024-08-27T14:14:06"
+date = "2024-09-03T00:02:00"
 aliases = "/packages/218378"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "619468"
-usize = "2183985"
-sha1sum = "e1cb0cebfc19ef9c15fa238b002e42e96ad4d037"
+size = "702184"
+usize = "2743760"
+sha1sum = "e05804ad4e392a1c56636246711df6f7624d6362"
 depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=7.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libdv', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
-reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-qt', 'mlt-sdl']"
+reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-opencv', 'mlt-qt', 'mlt-qt6', 'mlt-rubberband', 'mlt-sdl']"
 +++
 ### Description: 
 MLT is an open source multimedia framework, designed and developed for television broadcasting.
@@ -109,6 +109,8 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/lib/mlt-7/libmltxml.so
 * /usr/lib/pkgconfig/mlt++-7.pc
 * /usr/lib/pkgconfig/mlt-framework-7.pc
+* /usr/lib/python3.12/site-packages/mlt7.py
+* /usr/lib/python3.12/site-packages/_mlt7.so
 * /usr/share/doc/mlt-7.26.0/AUTHORS
 * /usr/share/doc/mlt-7.26.0/COPYING
 * /usr/share/doc/mlt-7.26.0/NEWS
@@ -189,8 +191,10 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/share/mlt-7/jackrack/filter_jack.yml
 * /usr/share/mlt-7/jackrack/filter_jackrack.yml
 * /usr/share/mlt-7/jackrack/filter_ladspa.yml
+* /usr/share/mlt-7/jackrack/filter_lv2.yml
 * /usr/share/mlt-7/jackrack/filter_vst2.yml
 * /usr/share/mlt-7/jackrack/producer_ladspa.yml
+* /usr/share/mlt-7/jackrack/producer_lv2.yml
 * /usr/share/mlt-7/jackrack/producer_vst2.yml
 * /usr/share/mlt-7/kdenlive/filter_boxblur.yml
 * /usr/share/mlt-7/kdenlive/filter_freeze.yml
@@ -216,6 +220,7 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/share/mlt-7/oldfilm/oldfilm.svg
 * /usr/share/mlt-7/oldfilm/tcolor.svg
 * /usr/share/mlt-7/oldfilm/vignette.svg
+* /usr/share/mlt-7/opencv/filter_opencv_tracker.yml
 * /usr/share/mlt-7/plus/consumer_blipflash.yml
 * /usr/share/mlt-7/plus/filter_affine.yml
 * /usr/share/mlt-7/plus/filter_charcoal.yml
@@ -451,9 +456,26 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/share/mlt-7/qt/producer_qtext.yml
 * /usr/share/mlt-7/qt/transition_qtblend.yml
 * /usr/share/mlt-7/qt/transition_vqm.yml
+* /usr/share/mlt-7/qt6/filter_audiolevelgraph.yml
+* /usr/share/mlt-7/qt6/filter_audiospectrum.yml
+* /usr/share/mlt-7/qt6/filter_audiowaveform.yml
+* /usr/share/mlt-7/qt6/filter_dropshadow.yml
+* /usr/share/mlt-7/qt6/filter_gpsgraphic.yml
+* /usr/share/mlt-7/qt6/filter_gpstext.yml
+* /usr/share/mlt-7/qt6/filter_lightshow.yml
+* /usr/share/mlt-7/qt6/filter_qtblend.yml
+* /usr/share/mlt-7/qt6/filter_qtcrop.yml
+* /usr/share/mlt-7/qt6/filter_qtext.yml
+* /usr/share/mlt-7/qt6/filter_typewriter.yml
+* /usr/share/mlt-7/qt6/producer_kdenlivetitle.yml
+* /usr/share/mlt-7/qt6/producer_qimage.yml
+* /usr/share/mlt-7/qt6/producer_qtext.yml
+* /usr/share/mlt-7/qt6/transition_qtblend.yml
+* /usr/share/mlt-7/qt6/transition_vqm.yml
 * /usr/share/mlt-7/resample/filter_resample.yml
 * /usr/share/mlt-7/resample/link_resample.yml
 * /usr/share/mlt-7/rtaudio/consumer_rtaudio.yml
+* /usr/share/mlt-7/rubberband/filter_rbpitch.yml
 * /usr/share/mlt-7/sdl/consumer_sdl.yml
 * /usr/share/mlt-7/sdl/consumer_sdl_audio.yml
 * /usr/share/mlt-7/sdl/consumer_sdl_preview.yml

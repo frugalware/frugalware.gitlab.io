@@ -12,7 +12,7 @@ size = "97580"
 usize = "420292"
 sha1sum = "04d661f28083c449165f62b7a458cceb5fd4b65d"
 depends = "['lv2>=1.18.0', 'python3>=3.12', 'sratom']"
-reverse_depends = "['gst1-plugins-bad', 'mixxx', 'pipewire', 'qtractor']"
+reverse_depends = "['gst1-plugins-bad', 'mixxx', 'mlt-jack', 'pipewire', 'qtractor']"
 +++
 ### Description: 
 Lilv is a C library to make the use of LV2 plugins as simple as possible for applications.

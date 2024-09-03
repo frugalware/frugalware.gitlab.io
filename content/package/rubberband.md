@@ -12,7 +12,7 @@ size = "277272"
 usize = "1338946"
 sha1sum = "74ea5a02705a1e488a4d1499701f14d74678ae2d"
 depends = "['flac', 'libsamplerate', 'vamp-plugin-sdk>=2.2.1-2']"
-reverse_depends = "['easyeffects', 'mixxx', 'qtractor']"
+reverse_depends = "['easyeffects', 'mixxx', 'mlt-rubberband', 'qtractor']"
 +++
 ### Description: 
 An audio time-stretching and pitch-shifting library and utility program
