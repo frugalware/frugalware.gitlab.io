@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qtoiio 2021.1.0-11"
-version = "2021.1.0-11"
+title = "qtoiio 2021.1.0-12"
+version = "2021.1.0-12"
 description = "Qt Image IO plugin based on OpenImageIO"
-date = "2024-05-27T13:56:52"
+date = "2024-09-03T14:50:37"
 aliases = "/packages/220132"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/alicevision/qtoiio"
 arch = "x86_64"
-size = "35876"
-usize = "142919"
-sha1sum = "5d9c714097f3d9d354e9fb53d84749bace22126e"
-depends = "['openimageio>=2.5.4.0', 'qt5-3d>=5.15.10']"
+size = "36744"
+usize = "156903"
+sha1sum = "fdbc8696601a653d6b5cdc7b417f8a46c4521965"
+depends = "['openimageio>=2.5.4.0', 'qt5-3d>=5.15.15']"
 reverse_depends = "['meshroom']"
 +++
 ### Description: 
