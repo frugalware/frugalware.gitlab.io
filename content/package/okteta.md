@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "okteta 0.26.16-1"
-version = "0.26.16-1"
+title = "okteta 0.26.16-2"
+version = "0.26.16-2"
 description = "Okteta is a simple hexadecimal editor or binary editor."
-date = "2024-08-09T19:26:18"
+date = "2024-09-03T09:53:50"
 aliases = "/packages/88681"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1363564"
+size = "1362840"
 usize = "7490434"
-sha1sum = "6178254c6ab04dd9ed84c49430dbf173d4d78336"
-depends = "['kcmutils5>=5.116.0', 'knewstuff5>=5.116.0', 'kparts5>=5.116.0', 'qca>=2.1.1-6', 'qt5-declarative>=5.15.14']"
+sha1sum = "aa522a85a502e0f9693f59f501bbff2e507dabd9"
+depends = "['kcmutils5>=5.116.0', 'knewstuff5>=5.116.0', 'kparts5>=5.116.0', 'qca>=2.1.1-6', 'qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 Okteta is a simple hexadecimal editor or binary editor.

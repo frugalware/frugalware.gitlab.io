@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nomacs 3.17.2295-1"
-version = "3.17.2295-1"
+title = "nomacs 3.19.1-1"
+version = "3.19.1-1"
 description = "Small and fast image viewer."
-date = "2024-06-07T19:47:54"
+date = "2024-09-03T09:46:12"
 aliases = "/packages/136894"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/nomacs/nomacs"
 arch = "x86_64"
-size = "1623140"
-usize = "8029245"
-sha1sum = "6f6b1d1dff9d06f00e962e6cada577aa87c72dcf"
-depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.10.0', 'qt5-svg>=5.15.10', 'quazip']"
+size = "1665696"
+usize = "8275363"
+sha1sum = "df73fe20d5913da7ca65d2d4346a95dfda6eccce"
+depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.10.0', 'qt5-svg>=5.15.15', 'quazip']"
 +++
 ### Description: 
 Small and fast image viewer.
@@ -20,10 +20,10 @@ Small and fast image viewer.
 * /usr/bin/nomacs
 * /usr/lib/libnomacsCore.so
 * /usr/lib/libnomacsCore.so.3
-* /usr/lib/libnomacsCore.so.3.17.0
+* /usr/lib/libnomacsCore.so.3.19.1
 * /usr/share/applications/org.nomacs.ImageLounge.desktop
-* /usr/share/doc/nomacs-3.17.2295/LICENSE
-* /usr/share/doc/nomacs-3.17.2295/README.md
+* /usr/share/doc/nomacs-3.19.1/LICENSE
+* /usr/share/doc/nomacs-3.19.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.nomacs.ImageLounge.svg
 * /usr/share/man/man1/nomacs.1.gz
 * /usr/share/metainfo/org.nomacs.ImageLounge.appdata.xml

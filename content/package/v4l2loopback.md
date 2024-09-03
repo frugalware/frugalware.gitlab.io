@@ -12,7 +12,6 @@ size = "226800"
 usize = "270291"
 sha1sum = "62116f07c8e767b2f500043a3ce8d0206b226a3e"
 depends = "['kernel=6.10.7-1']"
-reverse_depends = "['obs-v4l2sink']"
 +++
 ### Description: 
 v4l2-loopback device
