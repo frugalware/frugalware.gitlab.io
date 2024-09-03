@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qbs 1.24.0-5"
-version = "1.24.0-5"
+title = "qbs 2.4.1-1"
+version = "2.4.1-1"
 description = "A tool that helps simplify the build process for developing projects across multiple platforms"
-date = "2024-05-26T21:52:19"
+date = "2024-09-03T12:54:01"
 aliases = "/packages/217269"
 categories = ['devel-extra']
 upstreamurl = "http://doc.qt.io/qbs/index.html"
 arch = "x86_64"
-size = "2305440"
-usize = "9506979"
-sha1sum = "c75cdc85fea30651f353c5190348f8a257c044cf"
-depends = "['qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
+size = "2871244"
+usize = "11295157"
+sha1sum = "205ef8718e5da41c1f147c5f2bb6a1ade5386fa4"
+depends = "['qt6-5compat']"
 +++
 ### Description: 
 A tool that helps simplify the build process for developing projects across multiple platforms
@@ -37,7 +37,6 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/include/qbs/language/forward_decls.h
 * /usr/include/qbs/logging/ilogsink.h
 * /usr/include/qbs/qbs.h
-* /usr/include/qbs/qbs_version.pri
 * /usr/include/qbs/tools/architectures.h
 * /usr/include/qbs/tools/buildoptions.h
 * /usr/include/qbs/tools/cleanoptions.h
@@ -48,6 +47,7 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/include/qbs/tools/generateoptions.h
 * /usr/include/qbs/tools/installoptions.h
 * /usr/include/qbs/tools/joblimits.h
+* /usr/include/qbs/tools/mutexdata.h
 * /usr/include/qbs/tools/preferences.h
 * /usr/include/qbs/tools/processresult.h
 * /usr/include/qbs/tools/profile.h
@@ -59,13 +59,9 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/include/qbs/tools/setupprojectparameters.h
 * /usr/include/qbs/tools/toolchains.h
 * /usr/include/qbs/tools/version.h
-* /usr/include/qbs/use_installed_corelib.pri
-* /usr/lib/libqbscore.prl
 * /usr/lib/libqbscore.so
-* /usr/lib/libqbscore.so.1
-* /usr/lib/libqbscore.so.1.24
-* /usr/lib/libqbscore.so.1.24.0
-* /usr/lib/qbs/dmgbuild
+* /usr/lib/libqbscore.so.2.4
+* /usr/lib/libqbscore.so.2.4.1
 * /usr/lib/qbs/plugins/libclangcompilationdbgenerator.so
 * /usr/lib/qbs/plugins/libiarewgenerator.so
 * /usr/lib/qbs/plugins/libkeiluvgenerator.so
@@ -74,10 +70,9 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/lib/qbs/plugins/libqbs_qt_scanner.so
 * /usr/lib/qbs/plugins/libvisualstudiogenerator.so
 * /usr/lib/qbs/qbs_processlauncher
-* /usr/share/doc/qbs-1.24.0/README.md
-* /usr/share/doc/qbs-1.24.0/RELEASE.md
-* /usr/share/doc/qbs-1.24.0/VERSION
-* /usr/share/man/man1/qbs.1.gz
+* /usr/share/doc/qbs-2.4.1/README.md
+* /usr/share/doc/qbs-2.4.1/RELEASE.md
+* /usr/share/doc/qbs-2.4.1/VERSION
 * /usr/share/qbs/examples/app-and-lib/app-and-lib.qbs
 * /usr/share/qbs/examples/app-and-lib/app/app.qbs
 * /usr/share/qbs/examples/app-and-lib/app/main.cpp
@@ -288,6 +283,22 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/examples/compiled-qml/MainForm.ui.qml
 * /usr/share/qbs/examples/compiled-qml/qml.qrc
 * /usr/share/qbs/examples/examples.qbs
+* /usr/share/qbs/examples/exporters/exporters.qbs
+* /usr/share/qbs/examples/exporters/lib_a/lib_a.cpp
+* /usr/share/qbs/examples/exporters/lib_a/lib_a.h
+* /usr/share/qbs/examples/exporters/lib_a/lib_a.qbs
+* /usr/share/qbs/examples/exporters/lib_b/lib_b.cpp
+* /usr/share/qbs/examples/exporters/lib_b/lib_b.h
+* /usr/share/qbs/examples/exporters/lib_b/lib_b.qbs
+* /usr/share/qbs/examples/exporters/qbs/imports/MyLibrary.qbs
+* /usr/share/qbs/examples/flatbuffers/.clang-format
+* /usr/share/qbs/examples/flatbuffers/monster-c/conanfile.txt
+* /usr/share/qbs/examples/flatbuffers/monster-c/monster-c.qbs
+* /usr/share/qbs/examples/flatbuffers/monster-c/monster.c
+* /usr/share/qbs/examples/flatbuffers/monster-cpp/conanfile.txt
+* /usr/share/qbs/examples/flatbuffers/monster-cpp/monster-cpp.qbs
+* /usr/share/qbs/examples/flatbuffers/monster-cpp/monster.cpp
+* /usr/share/qbs/examples/flatbuffers/shared/monster.fbs
 * /usr/share/qbs/examples/grpc/client.cpp
 * /usr/share/qbs/examples/grpc/grpc.qbs
 * /usr/share/qbs/examples/grpc/ping-pong-grpc.proto
@@ -318,6 +329,9 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/examples/install-bundle/white.iconset/icon_16x16@2x.png
 * /usr/share/qbs/examples/pkgconfig-provider/main.c
 * /usr/share/qbs/examples/pkgconfig-provider/pkgconfig-provider.qbs
+* /usr/share/qbs/examples/protobuf/addressbook_conan/addressbook_conan.qbs
+* /usr/share/qbs/examples/protobuf/addressbook_conan/conanfile.txt
+* /usr/share/qbs/examples/protobuf/addressbook_conan/main.cpp
 * /usr/share/qbs/examples/protobuf/addressbook_cpp/addressbook_cpp.qbs
 * /usr/share/qbs/examples/protobuf/addressbook_cpp/main.cpp
 * /usr/share/qbs/examples/protobuf/addressbook_cpp/README.md
@@ -353,6 +367,8 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/imports/qbs/base/NSISSetup.qbs
 * /usr/share/qbs/imports/qbs/base/QtApplication.qbs
 * /usr/share/qbs/imports/qbs/base/QtGuiApplication.qbs
+* /usr/share/qbs/imports/qbs/base/QtModule.qbs
+* /usr/share/qbs/imports/qbs/base/QtPlugin.qbs
 * /usr/share/qbs/imports/qbs/base/StaticLibrary.qbs
 * /usr/share/qbs/imports/qbs/base/WindowsInstallerPackage.qbs
 * /usr/share/qbs/imports/qbs/base/WindowsSetupPackage.qbs
@@ -388,14 +404,21 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/imports/qbs/Probes/path-probe.js
 * /usr/share/qbs/imports/qbs/Probes/PathProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/PkgConfigProbe.qbs
+* /usr/share/qbs/imports/qbs/Probes/qbs-pkg-config-probe.js
+* /usr/share/qbs/imports/qbs/Probes/QbsPkgConfigProbe.qbs
+* /usr/share/qbs/imports/qbs/Probes/qmake-probe.js
+* /usr/share/qbs/imports/qbs/Probes/QmakeProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/SdccProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/TypeScriptProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/WatcomProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/WiXProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/XcodeLocationProbe.qbs
 * /usr/share/qbs/imports/qbs/Probes/XcodeProbe.qbs
+* /usr/share/qbs/imports/qbs/ProviderUtils/provider-utils.js
 * /usr/share/qbs/imports/qbs/UnixUtils/unix-utils.js
 * /usr/share/qbs/imports/qbs/WindowsUtils/windows-utils.js
+* /usr/share/qbs/module-providers/conan.js
+* /usr/share/qbs/module-providers/conan.qbs
 * /usr/share/qbs/module-providers/qbspkgconfig.qbs
 * /usr/share/qbs/module-providers/Qt/provider.qbs
 * /usr/share/qbs/module-providers/Qt/setup-qt.js
@@ -412,8 +435,6 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/module-providers/Qt/templates/qml.js
 * /usr/share/qbs/module-providers/Qt/templates/qml.qbs
 * /usr/share/qbs/module-providers/Qt/templates/qmlcache.qbs
-* /usr/share/qbs/module-providers/Qt/templates/QtModule.qbs
-* /usr/share/qbs/module-providers/Qt/templates/QtPlugin.qbs
 * /usr/share/qbs/module-providers/Qt/templates/quick.js
 * /usr/share/qbs/module-providers/Qt/templates/quick.qbs
 * /usr/share/qbs/module-providers/Qt/templates/rcc.js
@@ -483,10 +504,17 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/modules/cpufeatures/cpufeatures.qbs
 * /usr/share/qbs/modules/dmg/dmg.js
 * /usr/share/qbs/modules/dmg/DMGModule.qbs
+* /usr/share/qbs/modules/Exporter/cmake/cmakeexporter.js
+* /usr/share/qbs/modules/Exporter/cmake/cmakeexporter.qbs
+* /usr/share/qbs/modules/Exporter/exporter.js
 * /usr/share/qbs/modules/Exporter/pkgconfig/pkgconfig.js
 * /usr/share/qbs/modules/Exporter/pkgconfig/pkgconfig.qbs
 * /usr/share/qbs/modules/Exporter/qbs/qbsexporter.js
 * /usr/share/qbs/modules/Exporter/qbs/qbsexporter.qbs
+* /usr/share/qbs/modules/flatbuf/c/flatbuffers-c.qbs
+* /usr/share/qbs/modules/flatbuf/cpp/flatbuffers-cpp.qbs
+* /usr/share/qbs/modules/flatbuf/flatbuffers.js
+* /usr/share/qbs/modules/flatbuf/flatbuffersbase.qbs
 * /usr/share/qbs/modules/freedesktop/freedesktop.js
 * /usr/share/qbs/modules/freedesktop/FreeDesktop.qbs
 * /usr/share/qbs/modules/ib/ib.js
@@ -526,27 +554,19 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/modules/wix/WiXModule.qbs
 * /usr/share/qbs/modules/xcode/xcode.js
 * /usr/share/qbs/modules/xcode/xcode.qbs
-* /usr/share/qbs/python/biplist/LICENSE
-* /usr/share/qbs/python/biplist/qt_attribution.json
-* /usr/share/qbs/python/biplist/__init__.py
 * /usr/share/qbs/python/dmgbuild/badge.py
 * /usr/share/qbs/python/dmgbuild/colors.py
 * /usr/share/qbs/python/dmgbuild/core.py
-* /usr/share/qbs/python/dmgbuild/LICENSE
 * /usr/share/qbs/python/dmgbuild/licensing.py
-* /usr/share/qbs/python/dmgbuild/qt_attribution.json
-* /usr/share/qbs/python/dmgbuild/resources.py
 * /usr/share/qbs/python/dmgbuild/__init__.py
+* /usr/share/qbs/python/dmgbuild/__main__.py
 * /usr/share/qbs/python/ds_store/buddy.py
-* /usr/share/qbs/python/ds_store/LICENSE
-* /usr/share/qbs/python/ds_store/qt_attribution.json
 * /usr/share/qbs/python/ds_store/store.py
 * /usr/share/qbs/python/ds_store/__init__.py
+* /usr/share/qbs/python/ds_store/__main__.py
 * /usr/share/qbs/python/mac_alias/alias.py
 * /usr/share/qbs/python/mac_alias/bookmark.py
-* /usr/share/qbs/python/mac_alias/LICENSE
 * /usr/share/qbs/python/mac_alias/osx.py
-* /usr/share/qbs/python/mac_alias/qt_attribution.json
 * /usr/share/qbs/python/mac_alias/utils.py
 * /usr/share/qbs/python/mac_alias/__init__.py
 * /usr/share/qbs/qml-type-descriptions/qbs-bundle.json
