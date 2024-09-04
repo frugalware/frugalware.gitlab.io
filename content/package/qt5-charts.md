@@ -12,7 +12,7 @@ size = "638344"
 usize = "3714494"
 sha1sum = "4f6ccb8b9ec3d1970714dc5aa1494548a7e7d057"
 depends = "['qt5-declarative>=5.15.15']"
-reverse_depends = "['clight-gui', 'kuserfeedback5', 'stellarium']"
+reverse_depends = "['clight-gui', 'kuserfeedback5']"
 +++
 ### Description: 
 The Qt5 toolkit, qtcharts

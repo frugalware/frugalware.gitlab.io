@@ -1,30 +1,30 @@
 +++
 draft = false
-title = "stellarium 24.1-1"
-version = "24.1-1"
+title = "stellarium 24.2-1"
+version = "24.2-1"
 description = "A free open source planetarium for your computer."
-date = "2024-05-27T13:06:45"
+date = "2024-09-04T09:35:53"
 aliases = "/packages/217758"
 categories = ['xapps-extra']
 upstreamurl = "http://www.stellarium.org/"
 arch = "x86_64"
-size = "269187184"
-usize = "469760978"
-sha1sum = "4e990cfdb0eccf9bd6d471a17698ab39cc20b81f"
-depends = "['nlopt', 'qt5-charts>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-script>=5.15.10', 'qt5-serialport>=5.15.10']"
+size = "270936408"
+usize = "470763389"
+sha1sum = "62cddab2d8c81c80db670cf79ce40188e3ef0ad2"
+depends = "['exiv2', 'gst1-plugins-good', 'nlopt', 'qt6-charts', 'qt6-webengine']"
 +++
 ### Description: 
 A free open source planetarium for your computer.
 
 ### Files: 
 * /usr/bin/stellarium
-* /usr/lib/libShowMySky-Qt5.so
-* /usr/lib/libShowMySky-Qt5.so.15
-* /usr/lib/libShowMySky-Qt5.so.15.0.0
+* /usr/lib/libShowMySky-Qt6.so
+* /usr/lib/libShowMySky-Qt6.so.15
+* /usr/lib/libShowMySky-Qt6.so.15.0.0
 * /usr/share/applications/org.stellarium.Stellarium.desktop
-* /usr/share/doc/stellarium-24.1/ChangeLog
-* /usr/share/doc/stellarium-24.1/COPYING
-* /usr/share/doc/stellarium-24.1/README.md
+* /usr/share/doc/stellarium-24.2/ChangeLog
+* /usr/share/doc/stellarium-24.2/COPYING
+* /usr/share/doc/stellarium-24.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/stellarium.png
 * /usr/share/icons/hicolor/16x16/apps/stellarium.png
 * /usr/share/icons/hicolor/256x256/apps/stellarium.png
@@ -390,7 +390,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/garching/description.de.utf8
 * /usr/share/stellarium/landscapes/garching/description.en.utf8
 * /usr/share/stellarium/landscapes/garching/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/garching/description.en_US.utf8
 * /usr/share/stellarium/landscapes/garching/description.es.utf8
 * /usr/share/stellarium/landscapes/garching/description.et.utf8
 * /usr/share/stellarium/landscapes/garching/description.fi.utf8
@@ -439,7 +438,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/geneva/description.de.utf8
 * /usr/share/stellarium/landscapes/geneva/description.en.utf8
 * /usr/share/stellarium/landscapes/geneva/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/geneva/description.en_US.utf8
 * /usr/share/stellarium/landscapes/geneva/description.es.utf8
 * /usr/share/stellarium/landscapes/geneva/description.et.utf8
 * /usr/share/stellarium/landscapes/geneva/description.fi.utf8
@@ -525,7 +523,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/guereins/description.de.utf8
 * /usr/share/stellarium/landscapes/guereins/description.en.utf8
 * /usr/share/stellarium/landscapes/guereins/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/guereins/description.en_US.utf8
 * /usr/share/stellarium/landscapes/guereins/description.es.utf8
 * /usr/share/stellarium/landscapes/guereins/description.et.utf8
 * /usr/share/stellarium/landscapes/guereins/description.fi.utf8
@@ -577,7 +574,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/hurricane/description.de.utf8
 * /usr/share/stellarium/landscapes/hurricane/description.en.utf8
 * /usr/share/stellarium/landscapes/hurricane/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/hurricane/description.en_US.utf8
 * /usr/share/stellarium/landscapes/hurricane/description.es.utf8
 * /usr/share/stellarium/landscapes/hurricane/description.et.utf8
 * /usr/share/stellarium/landscapes/hurricane/description.fi.utf8
@@ -628,7 +624,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/jupiter/description.de.utf8
 * /usr/share/stellarium/landscapes/jupiter/description.en.utf8
 * /usr/share/stellarium/landscapes/jupiter/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/jupiter/description.en_US.utf8
 * /usr/share/stellarium/landscapes/jupiter/description.es.utf8
 * /usr/share/stellarium/landscapes/jupiter/description.et.utf8
 * /usr/share/stellarium/landscapes/jupiter/description.fi.utf8
@@ -670,7 +665,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/mars/description.de.utf8
 * /usr/share/stellarium/landscapes/mars/description.en.utf8
 * /usr/share/stellarium/landscapes/mars/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/mars/description.en_US.utf8
 * /usr/share/stellarium/landscapes/mars/description.es.utf8
 * /usr/share/stellarium/landscapes/mars/description.et.utf8
 * /usr/share/stellarium/landscapes/mars/description.fi.utf8
@@ -714,7 +708,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/moon/description.de.utf8
 * /usr/share/stellarium/landscapes/moon/description.en.utf8
 * /usr/share/stellarium/landscapes/moon/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/moon/description.en_US.utf8
 * /usr/share/stellarium/landscapes/moon/description.es.utf8
 * /usr/share/stellarium/landscapes/moon/description.et.utf8
 * /usr/share/stellarium/landscapes/moon/description.fi.utf8
@@ -758,7 +751,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/neptune/description.de.utf8
 * /usr/share/stellarium/landscapes/neptune/description.en.utf8
 * /usr/share/stellarium/landscapes/neptune/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/neptune/description.en_US.utf8
 * /usr/share/stellarium/landscapes/neptune/description.es.utf8
 * /usr/share/stellarium/landscapes/neptune/description.et.utf8
 * /usr/share/stellarium/landscapes/neptune/description.fi.utf8
@@ -800,7 +792,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/ocean/description.de.utf8
 * /usr/share/stellarium/landscapes/ocean/description.en.utf8
 * /usr/share/stellarium/landscapes/ocean/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/ocean/description.en_US.utf8
 * /usr/share/stellarium/landscapes/ocean/description.es.utf8
 * /usr/share/stellarium/landscapes/ocean/description.et.utf8
 * /usr/share/stellarium/landscapes/ocean/description.fi.utf8
@@ -853,7 +844,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/saturn/description.de.utf8
 * /usr/share/stellarium/landscapes/saturn/description.en.utf8
 * /usr/share/stellarium/landscapes/saturn/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/saturn/description.en_US.utf8
 * /usr/share/stellarium/landscapes/saturn/description.es.utf8
 * /usr/share/stellarium/landscapes/saturn/description.et.utf8
 * /usr/share/stellarium/landscapes/saturn/description.fi.utf8
@@ -894,7 +884,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/sun/description.de.utf8
 * /usr/share/stellarium/landscapes/sun/description.en.utf8
 * /usr/share/stellarium/landscapes/sun/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/sun/description.en_US.utf8
 * /usr/share/stellarium/landscapes/sun/description.es.utf8
 * /usr/share/stellarium/landscapes/sun/description.et.utf8
 * /usr/share/stellarium/landscapes/sun/description.fi.utf8
@@ -935,7 +924,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/trees/description.de.utf8
 * /usr/share/stellarium/landscapes/trees/description.en.utf8
 * /usr/share/stellarium/landscapes/trees/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/trees/description.en_US.utf8
 * /usr/share/stellarium/landscapes/trees/description.es.utf8
 * /usr/share/stellarium/landscapes/trees/description.et.utf8
 * /usr/share/stellarium/landscapes/trees/description.fi.utf8
@@ -984,7 +972,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/uranus/description.de.utf8
 * /usr/share/stellarium/landscapes/uranus/description.en.utf8
 * /usr/share/stellarium/landscapes/uranus/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/uranus/description.en_US.utf8
 * /usr/share/stellarium/landscapes/uranus/description.es.utf8
 * /usr/share/stellarium/landscapes/uranus/description.et.utf8
 * /usr/share/stellarium/landscapes/uranus/description.fi.utf8
@@ -1026,7 +1013,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/landscapes/zero/description.de.utf8
 * /usr/share/stellarium/landscapes/zero/description.en.utf8
 * /usr/share/stellarium/landscapes/zero/description.en_GB.utf8
-* /usr/share/stellarium/landscapes/zero/description.en_US.utf8
 * /usr/share/stellarium/landscapes/zero/description.es.utf8
 * /usr/share/stellarium/landscapes/zero/description.et.utf8
 * /usr/share/stellarium/landscapes/zero/description.fi.utf8
@@ -1668,10 +1654,10 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/scenery3d/Sterngarten/description.bg.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.bn.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.ca.utf8
+* /usr/share/stellarium/scenery3d/Sterngarten/description.cs.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.de.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.en.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.en_GB.utf8
-* /usr/share/stellarium/scenery3d/Sterngarten/description.en_US.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.es.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.et.utf8
 * /usr/share/stellarium/scenery3d/Sterngarten/description.fi.utf8
@@ -1719,10 +1705,10 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/scenery3d/Testscene/description.bg.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.bn.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.ca.utf8
+* /usr/share/stellarium/scenery3d/Testscene/description.cs.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.de.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.en.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.en_GB.utf8
-* /usr/share/stellarium/scenery3d/Testscene/description.en_US.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.es.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.et.utf8
 * /usr/share/stellarium/scenery3d/Testscene/description.fi.utf8
@@ -1833,8 +1819,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/anutan/description.cs.utf8
 * /usr/share/stellarium/skycultures/anutan/description.de.utf8
 * /usr/share/stellarium/skycultures/anutan/description.en.utf8
-* /usr/share/stellarium/skycultures/anutan/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/anutan/description.en_US.utf8
 * /usr/share/stellarium/skycultures/anutan/description.es.utf8
 * /usr/share/stellarium/skycultures/anutan/description.fi.utf8
 * /usr/share/stellarium/skycultures/anutan/description.fr.utf8
@@ -1883,8 +1867,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/arabic_al-sufi/description.cs.utf8
 * /usr/share/stellarium/skycultures/arabic_al-sufi/description.de.utf8
 * /usr/share/stellarium/skycultures/arabic_al-sufi/description.en.utf8
-* /usr/share/stellarium/skycultures/arabic_al-sufi/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/arabic_al-sufi/description.en_US.utf8
 * /usr/share/stellarium/skycultures/arabic_al-sufi/description.es.utf8
 * /usr/share/stellarium/skycultures/arabic_al-sufi/description.fi.utf8
 * /usr/share/stellarium/skycultures/arabic_al-sufi/description.gl.utf8
@@ -1935,8 +1917,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.cs.utf8
 * /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.de.utf8
 * /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.en.utf8
-* /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.en_US.utf8
 * /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.es.utf8
 * /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.fi.utf8
 * /usr/share/stellarium/skycultures/arabic_arabian_peninsula/description.gl.utf8
@@ -1956,8 +1936,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/arabic_indigenous/description.cs.utf8
 * /usr/share/stellarium/skycultures/arabic_indigenous/description.de.utf8
 * /usr/share/stellarium/skycultures/arabic_indigenous/description.en.utf8
-* /usr/share/stellarium/skycultures/arabic_indigenous/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/arabic_indigenous/description.en_US.utf8
 * /usr/share/stellarium/skycultures/arabic_indigenous/description.es.utf8
 * /usr/share/stellarium/skycultures/arabic_indigenous/description.fi.utf8
 * /usr/share/stellarium/skycultures/arabic_indigenous/description.gl.utf8
@@ -1976,8 +1954,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.ar.utf8
 * /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.cs.utf8
 * /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.en.utf8
-* /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.en_US.utf8
 * /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.es.utf8
 * /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.fi.utf8
 * /usr/share/stellarium/skycultures/arabic_lunar_mansions/description.gl.utf8
@@ -2006,8 +1982,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/aztec/description.cs.utf8
 * /usr/share/stellarium/skycultures/aztec/description.de.utf8
 * /usr/share/stellarium/skycultures/aztec/description.en.utf8
-* /usr/share/stellarium/skycultures/aztec/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/aztec/description.en_US.utf8
 * /usr/share/stellarium/skycultures/aztec/description.es.utf8
 * /usr/share/stellarium/skycultures/aztec/description.fi.utf8
 * /usr/share/stellarium/skycultures/aztec/description.fr.utf8
@@ -2054,8 +2028,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/babylonian_mulapin/description.cs.utf8
 * /usr/share/stellarium/skycultures/babylonian_mulapin/description.de.utf8
 * /usr/share/stellarium/skycultures/babylonian_mulapin/description.en.utf8
-* /usr/share/stellarium/skycultures/babylonian_mulapin/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/babylonian_mulapin/description.en_US.utf8
 * /usr/share/stellarium/skycultures/babylonian_mulapin/description.es.utf8
 * /usr/share/stellarium/skycultures/babylonian_mulapin/description.fi.utf8
 * /usr/share/stellarium/skycultures/babylonian_mulapin/description.gl.utf8
@@ -2110,8 +2082,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/babylonian_seleucid/description.bn.utf8
 * /usr/share/stellarium/skycultures/babylonian_seleucid/description.de.utf8
 * /usr/share/stellarium/skycultures/babylonian_seleucid/description.en.utf8
-* /usr/share/stellarium/skycultures/babylonian_seleucid/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/babylonian_seleucid/description.en_US.utf8
 * /usr/share/stellarium/skycultures/babylonian_seleucid/description.es.utf8
 * /usr/share/stellarium/skycultures/babylonian_seleucid/description.fi.utf8
 * /usr/share/stellarium/skycultures/babylonian_seleucid/description.gl.utf8
@@ -2141,8 +2111,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/belarusian/description.be.utf8
 * /usr/share/stellarium/skycultures/belarusian/description.bn.utf8
 * /usr/share/stellarium/skycultures/belarusian/description.en.utf8
-* /usr/share/stellarium/skycultures/belarusian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/belarusian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/belarusian/description.es.utf8
 * /usr/share/stellarium/skycultures/belarusian/description.fi.utf8
 * /usr/share/stellarium/skycultures/belarusian/description.fr.utf8
@@ -2190,8 +2158,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/boorong/description.bn.utf8
 * /usr/share/stellarium/skycultures/boorong/description.de.utf8
 * /usr/share/stellarium/skycultures/boorong/description.en.utf8
-* /usr/share/stellarium/skycultures/boorong/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/boorong/description.en_US.utf8
 * /usr/share/stellarium/skycultures/boorong/description.es.utf8
 * /usr/share/stellarium/skycultures/boorong/description.fi.utf8
 * /usr/share/stellarium/skycultures/boorong/description.fr.utf8
@@ -2240,8 +2206,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/chinese/description.bn.utf8
 * /usr/share/stellarium/skycultures/chinese/description.de.utf8
 * /usr/share/stellarium/skycultures/chinese/description.en.utf8
-* /usr/share/stellarium/skycultures/chinese/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/chinese/description.en_US.utf8
 * /usr/share/stellarium/skycultures/chinese/description.es.utf8
 * /usr/share/stellarium/skycultures/chinese/description.fi.utf8
 * /usr/share/stellarium/skycultures/chinese/description.fr.utf8
@@ -2274,8 +2238,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/chinese_medieval/constellation_names.zh_CN.fab
 * /usr/share/stellarium/skycultures/chinese_medieval/description.bn.utf8
 * /usr/share/stellarium/skycultures/chinese_medieval/description.en.utf8
-* /usr/share/stellarium/skycultures/chinese_medieval/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/chinese_medieval/description.en_US.utf8
 * /usr/share/stellarium/skycultures/chinese_medieval/description.es.utf8
 * /usr/share/stellarium/skycultures/chinese_medieval/description.fi.utf8
 * /usr/share/stellarium/skycultures/chinese_medieval/description.gl.utf8
@@ -2304,8 +2266,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/egyptian/description.bs.utf8
 * /usr/share/stellarium/skycultures/egyptian/description.de.utf8
 * /usr/share/stellarium/skycultures/egyptian/description.en.utf8
-* /usr/share/stellarium/skycultures/egyptian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/egyptian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/egyptian/description.es.utf8
 * /usr/share/stellarium/skycultures/egyptian/description.fi.utf8
 * /usr/share/stellarium/skycultures/egyptian/description.fr.utf8
@@ -2343,7 +2303,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/egyptian_dendera/Dendera_zodiac_Louvre.jpg
 * /usr/share/stellarium/skycultures/egyptian_dendera/description.de.utf8
 * /usr/share/stellarium/skycultures/egyptian_dendera/description.en.utf8
-* /usr/share/stellarium/skycultures/egyptian_dendera/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/egyptian_dendera/description.es.utf8
 * /usr/share/stellarium/skycultures/egyptian_dendera/description.fi.utf8
 * /usr/share/stellarium/skycultures/egyptian_dendera/description.gl.utf8
@@ -2391,8 +2350,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/greek_almagest/description.cs.utf8
 * /usr/share/stellarium/skycultures/greek_almagest/description.de.utf8
 * /usr/share/stellarium/skycultures/greek_almagest/description.en.utf8
-* /usr/share/stellarium/skycultures/greek_almagest/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/greek_almagest/description.en_US.utf8
 * /usr/share/stellarium/skycultures/greek_almagest/description.es.utf8
 * /usr/share/stellarium/skycultures/greek_almagest/description.fi.utf8
 * /usr/share/stellarium/skycultures/greek_almagest/description.fr.utf8
@@ -2422,7 +2379,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/greek_dante/CrB_Aratea_bg.jpg
 * /usr/share/stellarium/skycultures/greek_dante/description.cs.utf8
 * /usr/share/stellarium/skycultures/greek_dante/description.en.utf8
-* /usr/share/stellarium/skycultures/greek_dante/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/greek_dante/description.es.utf8
 * /usr/share/stellarium/skycultures/greek_dante/description.fi.utf8
 * /usr/share/stellarium/skycultures/greek_dante/description.gl.utf8
@@ -2469,8 +2425,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/greek_farnese/description.cs.utf8
 * /usr/share/stellarium/skycultures/greek_farnese/description.de.utf8
 * /usr/share/stellarium/skycultures/greek_farnese/description.en.utf8
-* /usr/share/stellarium/skycultures/greek_farnese/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/greek_farnese/description.en_US.utf8
 * /usr/share/stellarium/skycultures/greek_farnese/description.es.utf8
 * /usr/share/stellarium/skycultures/greek_farnese/description.fi.utf8
 * /usr/share/stellarium/skycultures/greek_farnese/description.gl.utf8
@@ -2529,8 +2483,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/greek_leidenAratea/description.cs.utf8
 * /usr/share/stellarium/skycultures/greek_leidenAratea/description.de.utf8
 * /usr/share/stellarium/skycultures/greek_leidenAratea/description.en.utf8
-* /usr/share/stellarium/skycultures/greek_leidenAratea/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/greek_leidenAratea/description.en_US.utf8
 * /usr/share/stellarium/skycultures/greek_leidenAratea/description.es.utf8
 * /usr/share/stellarium/skycultures/greek_leidenAratea/description.fi.utf8
 * /usr/share/stellarium/skycultures/greek_leidenAratea/description.gl.utf8
@@ -2601,8 +2553,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/hawaiian_starlines/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/hawaiian_starlines/description.bn.utf8
 * /usr/share/stellarium/skycultures/hawaiian_starlines/description.en.utf8
-* /usr/share/stellarium/skycultures/hawaiian_starlines/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/hawaiian_starlines/description.en_US.utf8
 * /usr/share/stellarium/skycultures/hawaiian_starlines/description.es.utf8
 * /usr/share/stellarium/skycultures/hawaiian_starlines/description.fi.utf8
 * /usr/share/stellarium/skycultures/hawaiian_starlines/description.gl.utf8
@@ -2644,8 +2594,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/indian/description.bs.utf8
 * /usr/share/stellarium/skycultures/indian/description.de.utf8
 * /usr/share/stellarium/skycultures/indian/description.en.utf8
-* /usr/share/stellarium/skycultures/indian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/indian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/indian/description.es.utf8
 * /usr/share/stellarium/skycultures/indian/description.fi.utf8
 * /usr/share/stellarium/skycultures/indian/description.fr.utf8
@@ -2698,8 +2646,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/inuit/description.cs.utf8
 * /usr/share/stellarium/skycultures/inuit/description.de.utf8
 * /usr/share/stellarium/skycultures/inuit/description.en.utf8
-* /usr/share/stellarium/skycultures/inuit/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/inuit/description.en_US.utf8
 * /usr/share/stellarium/skycultures/inuit/description.es.utf8
 * /usr/share/stellarium/skycultures/inuit/description.fi.utf8
 * /usr/share/stellarium/skycultures/inuit/description.fr.utf8
@@ -2731,8 +2677,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/japanese_moon_stations/description.be.utf8
 * /usr/share/stellarium/skycultures/japanese_moon_stations/description.bn.utf8
 * /usr/share/stellarium/skycultures/japanese_moon_stations/description.en.utf8
-* /usr/share/stellarium/skycultures/japanese_moon_stations/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/japanese_moon_stations/description.en_US.utf8
 * /usr/share/stellarium/skycultures/japanese_moon_stations/description.es.utf8
 * /usr/share/stellarium/skycultures/japanese_moon_stations/description.fi.utf8
 * /usr/share/stellarium/skycultures/japanese_moon_stations/description.gl.utf8
@@ -2784,8 +2728,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/kamilaroi/description.be.utf8
 * /usr/share/stellarium/skycultures/kamilaroi/description.bn.utf8
 * /usr/share/stellarium/skycultures/kamilaroi/description.en.utf8
-* /usr/share/stellarium/skycultures/kamilaroi/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/kamilaroi/description.en_US.utf8
 * /usr/share/stellarium/skycultures/kamilaroi/description.es.utf8
 * /usr/share/stellarium/skycultures/kamilaroi/description.fi.utf8
 * /usr/share/stellarium/skycultures/kamilaroi/description.gl.utf8
@@ -2813,7 +2755,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/khoi-san/constellationship.fab
 * /usr/share/stellarium/skycultures/khoi-san/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/khoi-san/description.en.utf8
-* /usr/share/stellarium/skycultures/khoi-san/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/khoi-san/description.es.utf8
 * /usr/share/stellarium/skycultures/khoi-san/description.fi.utf8
 * /usr/share/stellarium/skycultures/khoi-san/description.gl.utf8
@@ -2836,8 +2777,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/korean/description.bn.utf8
 * /usr/share/stellarium/skycultures/korean/description.de.utf8
 * /usr/share/stellarium/skycultures/korean/description.en.utf8
-* /usr/share/stellarium/skycultures/korean/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/korean/description.en_US.utf8
 * /usr/share/stellarium/skycultures/korean/description.es.utf8
 * /usr/share/stellarium/skycultures/korean/description.fi.utf8
 * /usr/share/stellarium/skycultures/korean/description.fr.utf8
@@ -2861,8 +2800,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/lokono/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/lokono/description.bn.utf8
 * /usr/share/stellarium/skycultures/lokono/description.en.utf8
-* /usr/share/stellarium/skycultures/lokono/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/lokono/description.en_US.utf8
 * /usr/share/stellarium/skycultures/lokono/description.es.utf8
 * /usr/share/stellarium/skycultures/lokono/description.fi.utf8
 * /usr/share/stellarium/skycultures/lokono/description.gl.utf8
@@ -2882,8 +2819,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/macedonian/description.be.utf8
 * /usr/share/stellarium/skycultures/macedonian/description.bn.utf8
 * /usr/share/stellarium/skycultures/macedonian/description.en.utf8
-* /usr/share/stellarium/skycultures/macedonian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/macedonian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/macedonian/description.es.utf8
 * /usr/share/stellarium/skycultures/macedonian/description.fi.utf8
 * /usr/share/stellarium/skycultures/macedonian/description.gl.utf8
@@ -2924,8 +2859,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/maori/description.bn.utf8
 * /usr/share/stellarium/skycultures/maori/description.de.utf8
 * /usr/share/stellarium/skycultures/maori/description.en.utf8
-* /usr/share/stellarium/skycultures/maori/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/maori/description.en_US.utf8
 * /usr/share/stellarium/skycultures/maori/description.es.utf8
 * /usr/share/stellarium/skycultures/maori/description.fi.utf8
 * /usr/share/stellarium/skycultures/maori/description.fr.utf8
@@ -2971,8 +2904,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/maya/Death_PC.png
 * /usr/share/stellarium/skycultures/maya/description.bn.utf8
 * /usr/share/stellarium/skycultures/maya/description.en.utf8
-* /usr/share/stellarium/skycultures/maya/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/maya/description.en_US.utf8
 * /usr/share/stellarium/skycultures/maya/description.es.utf8
 * /usr/share/stellarium/skycultures/maya/description.fi.utf8
 * /usr/share/stellarium/skycultures/maya/description.gl.utf8
@@ -3037,7 +2968,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/modern/delphinus.png
 * /usr/share/stellarium/skycultures/modern/description.cs.utf8
 * /usr/share/stellarium/skycultures/modern/description.en.utf8
-* /usr/share/stellarium/skycultures/modern/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/modern/description.es.utf8
 * /usr/share/stellarium/skycultures/modern/description.fi.utf8
 * /usr/share/stellarium/skycultures/modern/description.gl.utf8
@@ -3142,7 +3072,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/modern_chinese/description.cs.utf8
 * /usr/share/stellarium/skycultures/modern_chinese/description.de.utf8
 * /usr/share/stellarium/skycultures/modern_chinese/description.en.utf8
-* /usr/share/stellarium/skycultures/modern_chinese/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/modern_chinese/description.es.utf8
 * /usr/share/stellarium/skycultures/modern_chinese/description.fi.utf8
 * /usr/share/stellarium/skycultures/modern_chinese/description.gl.utf8
@@ -3217,8 +3146,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/modern_hlad/description.cs.utf8
 * /usr/share/stellarium/skycultures/modern_hlad/description.de.utf8
 * /usr/share/stellarium/skycultures/modern_hlad/description.en.utf8
-* /usr/share/stellarium/skycultures/modern_hlad/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/modern_hlad/description.en_US.utf8
 * /usr/share/stellarium/skycultures/modern_hlad/description.es.utf8
 * /usr/share/stellarium/skycultures/modern_hlad/description.fi.utf8
 * /usr/share/stellarium/skycultures/modern_hlad/description.gl.utf8
@@ -3238,7 +3165,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/modern_iau/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/modern_iau/description.cs.utf8
 * /usr/share/stellarium/skycultures/modern_iau/description.en.utf8
-* /usr/share/stellarium/skycultures/modern_iau/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/modern_iau/description.es.utf8
 * /usr/share/stellarium/skycultures/modern_iau/description.fi.utf8
 * /usr/share/stellarium/skycultures/modern_iau/description.gl.utf8
@@ -3259,8 +3185,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/modern_rey/description.cs.utf8
 * /usr/share/stellarium/skycultures/modern_rey/description.de.utf8
 * /usr/share/stellarium/skycultures/modern_rey/description.en.utf8
-* /usr/share/stellarium/skycultures/modern_rey/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/modern_rey/description.en_US.utf8
 * /usr/share/stellarium/skycultures/modern_rey/description.es.utf8
 * /usr/share/stellarium/skycultures/modern_rey/description.fi.utf8
 * /usr/share/stellarium/skycultures/modern_rey/description.gl.utf8
@@ -3282,8 +3206,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/modern_st/description.cs.utf8
 * /usr/share/stellarium/skycultures/modern_st/description.de.utf8
 * /usr/share/stellarium/skycultures/modern_st/description.en.utf8
-* /usr/share/stellarium/skycultures/modern_st/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/modern_st/description.en_US.utf8
 * /usr/share/stellarium/skycultures/modern_st/description.es.utf8
 * /usr/share/stellarium/skycultures/modern_st/description.fi.utf8
 * /usr/share/stellarium/skycultures/modern_st/description.fr.utf8
@@ -3305,8 +3227,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/mongolian/description.be.utf8
 * /usr/share/stellarium/skycultures/mongolian/description.bn.utf8
 * /usr/share/stellarium/skycultures/mongolian/description.en.utf8
-* /usr/share/stellarium/skycultures/mongolian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/mongolian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/mongolian/description.es.utf8
 * /usr/share/stellarium/skycultures/mongolian/description.fi.utf8
 * /usr/share/stellarium/skycultures/mongolian/description.fr.utf8
@@ -3332,8 +3252,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/navajo/description.bs.utf8
 * /usr/share/stellarium/skycultures/navajo/description.de.utf8
 * /usr/share/stellarium/skycultures/navajo/description.en.utf8
-* /usr/share/stellarium/skycultures/navajo/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/navajo/description.en_US.utf8
 * /usr/share/stellarium/skycultures/navajo/description.es.utf8
 * /usr/share/stellarium/skycultures/navajo/description.fi.utf8
 * /usr/share/stellarium/skycultures/navajo/description.fr.utf8
@@ -3357,8 +3275,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/norse/description.bs.utf8
 * /usr/share/stellarium/skycultures/norse/description.de.utf8
 * /usr/share/stellarium/skycultures/norse/description.en.utf8
-* /usr/share/stellarium/skycultures/norse/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/norse/description.en_US.utf8
 * /usr/share/stellarium/skycultures/norse/description.es.utf8
 * /usr/share/stellarium/skycultures/norse/description.fi.utf8
 * /usr/share/stellarium/skycultures/norse/description.fr.utf8
@@ -3385,8 +3301,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/northern_andes/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/northern_andes/description.bn.utf8
 * /usr/share/stellarium/skycultures/northern_andes/description.en.utf8
-* /usr/share/stellarium/skycultures/northern_andes/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/northern_andes/description.en_US.utf8
 * /usr/share/stellarium/skycultures/northern_andes/description.es.utf8
 * /usr/share/stellarium/skycultures/northern_andes/description.fi.utf8
 * /usr/share/stellarium/skycultures/northern_andes/description.gl.utf8
@@ -3425,8 +3339,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/romanian/description.be.utf8
 * /usr/share/stellarium/skycultures/romanian/description.bn.utf8
 * /usr/share/stellarium/skycultures/romanian/description.en.utf8
-* /usr/share/stellarium/skycultures/romanian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/romanian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/romanian/description.es.utf8
 * /usr/share/stellarium/skycultures/romanian/description.fi.utf8
 * /usr/share/stellarium/skycultures/romanian/description.gl.utf8
@@ -3469,8 +3381,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/russian_siberian/description.be.utf8
 * /usr/share/stellarium/skycultures/russian_siberian/description.bn.utf8
 * /usr/share/stellarium/skycultures/russian_siberian/description.en.utf8
-* /usr/share/stellarium/skycultures/russian_siberian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/russian_siberian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/russian_siberian/description.es.utf8
 * /usr/share/stellarium/skycultures/russian_siberian/description.fi.utf8
 * /usr/share/stellarium/skycultures/russian_siberian/description.gl.utf8
@@ -3494,8 +3404,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/sami/description.be.utf8
 * /usr/share/stellarium/skycultures/sami/description.bn.utf8
 * /usr/share/stellarium/skycultures/sami/description.en.utf8
-* /usr/share/stellarium/skycultures/sami/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/sami/description.en_US.utf8
 * /usr/share/stellarium/skycultures/sami/description.es.utf8
 * /usr/share/stellarium/skycultures/sami/description.fi.utf8
 * /usr/share/stellarium/skycultures/sami/description.fr.utf8
@@ -3516,7 +3424,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/samoan/constellationship.fab
 * /usr/share/stellarium/skycultures/samoan/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/samoan/description.en.utf8
-* /usr/share/stellarium/skycultures/samoan/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/samoan/description.es.utf8
 * /usr/share/stellarium/skycultures/samoan/description.fi.utf8
 * /usr/share/stellarium/skycultures/samoan/description.gl.utf8
@@ -3536,8 +3443,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/sardinian/description.bn.utf8
 * /usr/share/stellarium/skycultures/sardinian/description.de.utf8
 * /usr/share/stellarium/skycultures/sardinian/description.en.utf8
-* /usr/share/stellarium/skycultures/sardinian/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/sardinian/description.en_US.utf8
 * /usr/share/stellarium/skycultures/sardinian/description.es.utf8
 * /usr/share/stellarium/skycultures/sardinian/description.fi.utf8
 * /usr/share/stellarium/skycultures/sardinian/description.fr.utf8
@@ -3565,7 +3470,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/seri/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/seri/coozactim.png
 * /usr/share/stellarium/skycultures/seri/description.en.utf8
-* /usr/share/stellarium/skycultures/seri/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/seri/description.es.utf8
 * /usr/share/stellarium/skycultures/seri/description.fi.utf8
 * /usr/share/stellarium/skycultures/seri/description.gl.utf8
@@ -3597,6 +3501,7 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/tibetan/constellationship.fab
 * /usr/share/stellarium/skycultures/tibetan/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/tibetan/description.en.utf8
+* /usr/share/stellarium/skycultures/tibetan/description.es.utf8
 * /usr/share/stellarium/skycultures/tibetan/description.fi.utf8
 * /usr/share/stellarium/skycultures/tibetan/description.gl.utf8
 * /usr/share/stellarium/skycultures/tibetan/description.ru.utf8
@@ -3606,7 +3511,7 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/tibetan/info.ini
 * /usr/share/stellarium/skycultures/tibetan/leo.png
 * /usr/share/stellarium/skycultures/tibetan/libra.png
-* /usr/share/stellarium/skycultures/tibetan/MenTseeKhang_Emblem.jpg
+* /usr/share/stellarium/skycultures/tibetan/MenTseeKhang_emblem.jpg
 * /usr/share/stellarium/skycultures/tibetan/pisces.png
 * /usr/share/stellarium/skycultures/tibetan/reference.fab
 * /usr/share/stellarium/skycultures/tibetan/sagittarius.png
@@ -3634,7 +3539,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/tikuna/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/tikuna/Coyatchicura.png
 * /usr/share/stellarium/skycultures/tikuna/description.en.utf8
-* /usr/share/stellarium/skycultures/tikuna/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/tikuna/description.es.utf8
 * /usr/share/stellarium/skycultures/tikuna/description.fi.utf8
 * /usr/share/stellarium/skycultures/tikuna/description.gl.utf8
@@ -3656,8 +3560,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/tongan/description.bn.utf8
 * /usr/share/stellarium/skycultures/tongan/description.de.utf8
 * /usr/share/stellarium/skycultures/tongan/description.en.utf8
-* /usr/share/stellarium/skycultures/tongan/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/tongan/description.en_US.utf8
 * /usr/share/stellarium/skycultures/tongan/description.es.utf8
 * /usr/share/stellarium/skycultures/tongan/description.fi.utf8
 * /usr/share/stellarium/skycultures/tongan/description.fr.utf8
@@ -3682,8 +3584,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/tukano/description.be.utf8
 * /usr/share/stellarium/skycultures/tukano/description.bn.utf8
 * /usr/share/stellarium/skycultures/tukano/description.en.utf8
-* /usr/share/stellarium/skycultures/tukano/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/tukano/description.en_US.utf8
 * /usr/share/stellarium/skycultures/tukano/description.es.utf8
 * /usr/share/stellarium/skycultures/tukano/description.fi.utf8
 * /usr/share/stellarium/skycultures/tukano/description.gl.utf8
@@ -3702,8 +3602,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/tupi/description.bn.utf8
 * /usr/share/stellarium/skycultures/tupi/description.de.utf8
 * /usr/share/stellarium/skycultures/tupi/description.en.utf8
-* /usr/share/stellarium/skycultures/tupi/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/tupi/description.en_US.utf8
 * /usr/share/stellarium/skycultures/tupi/description.es.utf8
 * /usr/share/stellarium/skycultures/tupi/description.fi.utf8
 * /usr/share/stellarium/skycultures/tupi/description.fr.utf8
@@ -3728,8 +3626,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/vanuatu_netwar/description.bn.utf8
 * /usr/share/stellarium/skycultures/vanuatu_netwar/description.cs.utf8
 * /usr/share/stellarium/skycultures/vanuatu_netwar/description.en.utf8
-* /usr/share/stellarium/skycultures/vanuatu_netwar/description.en_GB.utf8
-* /usr/share/stellarium/skycultures/vanuatu_netwar/description.en_US.utf8
 * /usr/share/stellarium/skycultures/vanuatu_netwar/description.es.utf8
 * /usr/share/stellarium/skycultures/vanuatu_netwar/description.fi.utf8
 * /usr/share/stellarium/skycultures/vanuatu_netwar/description.fr.utf8
@@ -3759,7 +3655,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/xhosa/constellationship.fab
 * /usr/share/stellarium/skycultures/xhosa/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/xhosa/description.en.utf8
-* /usr/share/stellarium/skycultures/xhosa/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/xhosa/description.es.utf8
 * /usr/share/stellarium/skycultures/xhosa/description.fi.utf8
 * /usr/share/stellarium/skycultures/xhosa/description.gl.utf8
@@ -3778,7 +3673,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/skycultures/zulu/constellation_names.eng.fab
 * /usr/share/stellarium/skycultures/zulu/crossing.png
 * /usr/share/stellarium/skycultures/zulu/description.en.utf8
-* /usr/share/stellarium/skycultures/zulu/description.en_GB.utf8
 * /usr/share/stellarium/skycultures/zulu/description.es.utf8
 * /usr/share/stellarium/skycultures/zulu/description.fi.utf8
 * /usr/share/stellarium/skycultures/zulu/description.gl.utf8

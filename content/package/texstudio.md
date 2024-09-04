@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texstudio 4.5.2-4"
-version = "4.5.2-4"
+title = "texstudio 4.8.2-1"
+version = "4.8.2-1"
 description = "Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents"
-date = "2024-05-27T05:40:50"
+date = "2024-09-04T09:58:40"
 aliases = "/packages/168583"
 categories = ['xapps-extra']
 upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
-size = "62046000"
-usize = "369693076"
-sha1sum = "db59a43687a975bfa8e5686f84950b295bf7844a"
-depends = "['hunspell>=1.7.0', 'poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'qt5-svg>=5.15.10']"
+size = "59383284"
+usize = "362633713"
+sha1sum = "c48494918618f34c049c3c0a263f208a4cbbecc5"
+depends = "['hunspell>=1.7.0', 'poppler-qt6>=0.60.1-2', 'qt6-5compat', 'qt6-declarative', 'qt6-svg', 'quazip-qt6']"
 +++
 ### Description: 
 Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents
@@ -19,9 +19,9 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 ### Files: 
 * /usr/bin/texstudio
 * /usr/share/applications/texstudio.desktop
-* /usr/share/doc/texstudio-4.5.2/COPYING
-* /usr/share/doc/texstudio-4.5.2/INSTALL
-* /usr/share/doc/texstudio-4.5.2/README.md
+* /usr/share/doc/texstudio-4.8.2/COPYING
+* /usr/share/doc/texstudio-4.8.2/INSTALL
+* /usr/share/doc/texstudio-4.8.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/texstudio.svg
 * /usr/share/metainfo/texstudio.metainfo.xml
 * /usr/share/texstudio/advanced.html
@@ -295,6 +295,7 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 * /usr/share/texstudio/texstudio_es.qm
 * /usr/share/texstudio/texstudio_fa.qm
 * /usr/share/texstudio/texstudio_fr.qm
+* /usr/share/texstudio/texstudio_gsw.qm
 * /usr/share/texstudio/texstudio_hu.qm
 * /usr/share/texstudio/texstudio_id_ID.qm
 * /usr/share/texstudio/texstudio_ie.qm
@@ -311,6 +312,7 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 * /usr/share/texstudio/texstudio_ru_RU.qm
 * /usr/share/texstudio/texstudio_si.qm
 * /usr/share/texstudio/texstudio_sk.qm
+* /usr/share/texstudio/texstudio_sq.qm
 * /usr/share/texstudio/texstudio_sv.qm
 * /usr/share/texstudio/texstudio_tr_TR.qm
 * /usr/share/texstudio/texstudio_ug.qm
@@ -336,119 +338,116 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 * /usr/share/texstudio/viewing.html
 * /usr/share/texstudio/vi_VI-Vietnamese.aff
 * /usr/share/texstudio/vi_VI-Vietnamese.dic
-* /usr/share/texstudio/_images/active_language.png
-* /usr/share/texstudio/_images/blockCursor.png
-* /usr/share/texstudio/_images/blockCursor_selection.png
-* /usr/share/texstudio/_images/block_selection.png
-* /usr/share/texstudio/_images/bookmark1.png
-* /usr/share/texstudio/_images/bookmark2.png
-* /usr/share/texstudio/_images/bookmark3.png
-* /usr/share/texstudio/_images/bookmark4.png
-* /usr/share/texstudio/_images/bookmark5.png
-* /usr/share/texstudio/_images/bookmark6.png
-* /usr/share/texstudio/_images/compile_toolbar.png
-* /usr/share/texstudio/_images/completer.png
-* /usr/share/texstudio/_images/completer_env.png
-* /usr/share/texstudio/_images/completer_env_before.png
-* /usr/share/texstudio/_images/completer_filename.png
-* /usr/share/texstudio/_images/completer_filename_preview.png
-* /usr/share/texstudio/_images/completer_keys.png
-* /usr/share/texstudio/_images/completer_length.png
-* /usr/share/texstudio/_images/completer_ref.png
-* /usr/share/texstudio/_images/completer_reference.png
-* /usr/share/texstudio/_images/completer_text.png
-* /usr/share/texstudio/_images/completer_usertag.png
-* /usr/share/texstudio/_images/completer_usertag_text.png
-* /usr/share/texstudio/_images/configure_advancedEditor.png
-* /usr/share/texstudio/_images/configure_build.png
-* /usr/share/texstudio/_images/configure_commands.png
-* /usr/share/texstudio/_images/configure_completion.png
-* /usr/share/texstudio/_images/configure_completion_adv.png
-* /usr/share/texstudio/_images/configure_customizeMenu.png
-* /usr/share/texstudio/_images/configure_customToolbar.png
-* /usr/share/texstudio/_images/configure_editor.png
-* /usr/share/texstudio/_images/configure_editor_adv.png
-* /usr/share/texstudio/_images/configure_general.png
-* /usr/share/texstudio/_images/configure_general_adv.png
-* /usr/share/texstudio/_images/configure_guiscaling.png
-* /usr/share/texstudio/_images/configure_language.png
-* /usr/share/texstudio/_images/configure_preview.png
-* /usr/share/texstudio/_images/configure_shortcuts.png
-* /usr/share/texstudio/_images/configure_svn.png
-* /usr/share/texstudio/_images/configure_syntaxhighlighting.png
-* /usr/share/texstudio/_images/conf_grammar_internal.png
-* /usr/share/texstudio/_images/conf_LT.png
-* /usr/share/texstudio/_images/conf_LT_adv.png
-* /usr/share/texstudio/_images/conf_structurepanel.png
-* /usr/share/texstudio/_images/conf_tableautoformating.png
-* /usr/share/texstudio/_images/conf_thesaurus.png
-* /usr/share/texstudio/_images/doc16.png
-* /usr/share/texstudio/_images/doc17.png
-* /usr/share/texstudio/_images/doc18.png
-* /usr/share/texstudio/_images/doc19.png
-* /usr/share/texstudio/_images/doc21.png
-* /usr/share/texstudio/_images/doc3.png
-* /usr/share/texstudio/_images/down.png
-* /usr/share/texstudio/_images/errorlog.png
-* /usr/share/texstudio/_images/extendedSearch.png
-* /usr/share/texstudio/_images/findUsage.png
-* /usr/share/texstudio/_images/format_example.png
-* /usr/share/texstudio/_images/grid4x2_book_col1.png
-* /usr/share/texstudio/_images/grid4x2_book_col2.png
-* /usr/share/texstudio/_images/hide_panes.png
-* /usr/share/texstudio/_images/insertImage_menu.png
-* /usr/share/texstudio/_images/insert_ref.png
-* /usr/share/texstudio/_images/insert_ref_fromStructure.png
-* /usr/share/texstudio/_images/menu_session.png
-* /usr/share/texstudio/_images/menu_svn.png
-* /usr/share/texstudio/_images/preview_color.png
-* /usr/share/texstudio/_images/preview_context.png
-* /usr/share/texstudio/_images/preview_image.png
-* /usr/share/texstudio/_images/preview_inline.png
-* /usr/share/texstudio/_images/preview_inline_context.png
-* /usr/share/texstudio/_images/preview_tooltip.png
-* /usr/share/texstudio/_images/quickstartwizard.png
-* /usr/share/texstudio/_images/searchpanel.png
-* /usr/share/texstudio/_images/spellcheck_menu.png
-* /usr/share/texstudio/_images/spellcheck_options.png
-* /usr/share/texstudio/_images/speller_dialog.png
-* /usr/share/texstudio/_images/spelling_error.png
-* /usr/share/texstudio/_images/structureview.png
-* /usr/share/texstudio/_images/symbol_panel.png
-* /usr/share/texstudio/_images/syntax_error.png
-* /usr/share/texstudio/_images/syntax_error_tooltip.png
-* /usr/share/texstudio/_images/table_addCol.png
-* /usr/share/texstudio/_images/table_addRow.png
-* /usr/share/texstudio/_images/table_alignCol.png
-* /usr/share/texstudio/_images/table_cutCol.png
-* /usr/share/texstudio/_images/table_pasteCol.png
-* /usr/share/texstudio/_images/table_remCol.png
-* /usr/share/texstudio/_images/table_remRow.png
-* /usr/share/texstudio/_images/tb_central_format.png
-* /usr/share/texstudio/_images/tb_central_math.png
-* /usr/share/texstudio/_images/tb_math.png
-* /usr/share/texstudio/_images/tb_pdf_magnifyPan.png
-* /usr/share/texstudio/_images/tb_reference.png
-* /usr/share/texstudio/_images/template.png
-* /usr/share/texstudio/_images/thesaurus.png
-* /usr/share/texstudio/_images/TOC_file.png
-* /usr/share/texstudio/_images/TOC_standard.png
-* /usr/share/texstudio/_images/Tool_Bar_Menu.png
-* /usr/share/texstudio/_images/Tool_Bar_Move.png
-* /usr/share/texstudio/_images/txs_compile.png
-* /usr/share/texstudio/_images/txs_equation.png
-* /usr/share/texstudio/_images/txs_overview.png
-* /usr/share/texstudio/_images/txs_section.png
-* /usr/share/texstudio/_images/txs_symbol.png
-* /usr/share/texstudio/_images/txs_view.png
-* /usr/share/texstudio/_images/txs_wizard.png
-* /usr/share/texstudio/_images/up.png
-* /usr/share/texstudio/_images/userfoldmarker.png
-* /usr/share/texstudio/_images/viewbutton.png
-* /usr/share/texstudio/_images/wizard_array.png
-* /usr/share/texstudio/_images/wizard_figure.png
-* /usr/share/texstudio/_images/wizard_tabbing.png
-* /usr/share/texstudio/_images/wizard_tabular.png
+* /usr/share/texstudio/_images/active_language.webp
+* /usr/share/texstudio/_images/ai_wizard.webp
+* /usr/share/texstudio/_images/blockCursor.webp
+* /usr/share/texstudio/_images/blockCursor_selection.webp
+* /usr/share/texstudio/_images/block_selection.webp
+* /usr/share/texstudio/_images/bookmark1.webp
+* /usr/share/texstudio/_images/bookmark2.webp
+* /usr/share/texstudio/_images/bookmark3.webp
+* /usr/share/texstudio/_images/bookmark4.webp
+* /usr/share/texstudio/_images/bookmark5.webp
+* /usr/share/texstudio/_images/bookmark6.webp
+* /usr/share/texstudio/_images/compile_toolbar.webp
+* /usr/share/texstudio/_images/completer.webp
+* /usr/share/texstudio/_images/completer_env.webp
+* /usr/share/texstudio/_images/completer_env_before.webp
+* /usr/share/texstudio/_images/completer_filename.webp
+* /usr/share/texstudio/_images/completer_filename_preview.webp
+* /usr/share/texstudio/_images/completer_keys.webp
+* /usr/share/texstudio/_images/completer_length.webp
+* /usr/share/texstudio/_images/completer_ref.webp
+* /usr/share/texstudio/_images/completer_reference.webp
+* /usr/share/texstudio/_images/completer_text.webp
+* /usr/share/texstudio/_images/completer_usertag.webp
+* /usr/share/texstudio/_images/completer_usertag_text.webp
+* /usr/share/texstudio/_images/configure_advancedEditor.webp
+* /usr/share/texstudio/_images/configure_build.webp
+* /usr/share/texstudio/_images/configure_commands.webp
+* /usr/share/texstudio/_images/configure_completion.webp
+* /usr/share/texstudio/_images/configure_completion_adv.webp
+* /usr/share/texstudio/_images/configure_customizeMenu.webp
+* /usr/share/texstudio/_images/configure_customToolbar.webp
+* /usr/share/texstudio/_images/configure_editor.webp
+* /usr/share/texstudio/_images/configure_editor_adv.webp
+* /usr/share/texstudio/_images/configure_general.webp
+* /usr/share/texstudio/_images/configure_general_adv.webp
+* /usr/share/texstudio/_images/configure_guiscaling.webp
+* /usr/share/texstudio/_images/configure_language.webp
+* /usr/share/texstudio/_images/configure_preview.webp
+* /usr/share/texstudio/_images/configure_shortcuts.webp
+* /usr/share/texstudio/_images/configure_svn.webp
+* /usr/share/texstudio/_images/configure_syntaxhighlighting.webp
+* /usr/share/texstudio/_images/conf_ai.webp
+* /usr/share/texstudio/_images/conf_grammar_internal.webp
+* /usr/share/texstudio/_images/conf_LT.webp
+* /usr/share/texstudio/_images/conf_LT_adv.webp
+* /usr/share/texstudio/_images/conf_structurepanel.webp
+* /usr/share/texstudio/_images/conf_tableautoformating.webp
+* /usr/share/texstudio/_images/conf_thesaurus.webp
+* /usr/share/texstudio/_images/doc16.webp
+* /usr/share/texstudio/_images/doc17.webp
+* /usr/share/texstudio/_images/doc18.webp
+* /usr/share/texstudio/_images/doc19.webp
+* /usr/share/texstudio/_images/doc21.webp
+* /usr/share/texstudio/_images/doc3.webp
+* /usr/share/texstudio/_images/dock_move.webp
+* /usr/share/texstudio/_images/dock_split.webp
+* /usr/share/texstudio/_images/dock_start.webp
+* /usr/share/texstudio/_images/errorlog.webp
+* /usr/share/texstudio/_images/extendedSearch.webp
+* /usr/share/texstudio/_images/findUsage.webp
+* /usr/share/texstudio/_images/format_example.webp
+* /usr/share/texstudio/_images/grid4x2_book_col1.webp
+* /usr/share/texstudio/_images/grid4x2_book_col2.webp
+* /usr/share/texstudio/_images/hide_panes.webp
+* /usr/share/texstudio/_images/insertImage_menu.webp
+* /usr/share/texstudio/_images/insert_ref.webp
+* /usr/share/texstudio/_images/insert_ref_fromStructure.webp
+* /usr/share/texstudio/_images/menu_session.webp
+* /usr/share/texstudio/_images/menu_svn.webp
+* /usr/share/texstudio/_images/preview_color.webp
+* /usr/share/texstudio/_images/preview_context.webp
+* /usr/share/texstudio/_images/preview_image.webp
+* /usr/share/texstudio/_images/preview_inline.webp
+* /usr/share/texstudio/_images/preview_inline_context.webp
+* /usr/share/texstudio/_images/preview_tooltip.webp
+* /usr/share/texstudio/_images/quickstartwizard.webp
+* /usr/share/texstudio/_images/searchpanel.webp
+* /usr/share/texstudio/_images/spellcheck_menu.webp
+* /usr/share/texstudio/_images/spellcheck_options.webp
+* /usr/share/texstudio/_images/speller_dialog.webp
+* /usr/share/texstudio/_images/spelling_error.webp
+* /usr/share/texstudio/_images/structureview.webp
+* /usr/share/texstudio/_images/symbol_panel.webp
+* /usr/share/texstudio/_images/syntax_error.webp
+* /usr/share/texstudio/_images/syntax_error_tooltip.webp
+* /usr/share/texstudio/_images/tb_central_format.webp
+* /usr/share/texstudio/_images/tb_central_math.webp
+* /usr/share/texstudio/_images/tb_math.webp
+* /usr/share/texstudio/_images/tb_pdf_magnifyPan.webp
+* /usr/share/texstudio/_images/tb_reference.webp
+* /usr/share/texstudio/_images/template.webp
+* /usr/share/texstudio/_images/thesaurus.webp
+* /usr/share/texstudio/_images/TOC_file.webp
+* /usr/share/texstudio/_images/TOC_standard.webp
+* /usr/share/texstudio/_images/Tool_Bar_Menu.webp
+* /usr/share/texstudio/_images/Tool_Bar_Move.webp
+* /usr/share/texstudio/_images/txs_compile.webp
+* /usr/share/texstudio/_images/txs_equation.webp
+* /usr/share/texstudio/_images/txs_overview.webp
+* /usr/share/texstudio/_images/txs_section.webp
+* /usr/share/texstudio/_images/txs_symbol.webp
+* /usr/share/texstudio/_images/txs_view.webp
+* /usr/share/texstudio/_images/txs_wizard.webp
+* /usr/share/texstudio/_images/userfoldmarker.webp
+* /usr/share/texstudio/_images/viewbutton.webp
+* /usr/share/texstudio/_images/view_docks.webp
+* /usr/share/texstudio/_images/wizard_array.webp
+* /usr/share/texstudio/_images/wizard_figure.webp
+* /usr/share/texstudio/_images/wizard_tabbing.webp
+* /usr/share/texstudio/_images/wizard_tabular.webp
 * /usr/share/texstudio/_sphinx_design_static/design-style.4045f2051d55cab465a707391d5b2007.min.css
 * /usr/share/texstudio/_sphinx_design_static/design-tabs.js
 * /usr/share/texstudio/_static/basic.css

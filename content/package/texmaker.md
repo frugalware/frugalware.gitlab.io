@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texmaker 5.1.4-4"
-version = "5.1.4-4"
+title = "texmaker 6.0.0-1"
+version = "6.0.0-1"
 description = "Texmaker is a free LaTeX editor."
-date = "2024-05-27T05:38:13"
+date = "2024-09-04T09:52:13"
 aliases = "/packages/30512"
 categories = ['xapps-extra']
 upstreamurl = "http://www.xm1math.net/texmaker/"
 arch = "x86_64"
-size = "10293340"
-usize = "38789052"
-sha1sum = "0274d4adc3701a46dbe489fcb3c7723bf418633b"
-depends = "['poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10', 'xghostscript']"
+size = "10140572"
+usize = "38232744"
+sha1sum = "c1ca08cb0bc43f7e853690f66de184bf8defa260"
+depends = "['qt6-5compat', 'qt6-webengine', 'xghostscript']"
 +++
 ### Description: 
 Texmaker is a free LaTeX editor.
@@ -19,7 +19,9 @@ Texmaker is a free LaTeX editor.
 ### Files: 
 * /usr/bin/texmaker
 * /usr/share/applications/texmaker.desktop
-* /usr/share/doc/texmaker-5.1.4/INSTALL
+* /usr/share/doc/texmaker-6.0.0/AUTHORS
+* /usr/share/doc/texmaker-6.0.0/COPYING
+* /usr/share/doc/texmaker-6.0.0/INSTALL
 * /usr/share/metainfo/texmaker.metainfo.xml
 * /usr/share/pixmaps/texmaker.png
 * /usr/share/texmaker/AUTHORS

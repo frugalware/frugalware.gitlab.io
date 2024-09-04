@@ -12,6 +12,7 @@ size = "115440"
 usize = "394326"
 sha1sum = "12286840ba44a54537a2c8279b44dfb826516dcf"
 depends = "['qt6-5compat']"
+reverse_depends = "['texstudio']"
 +++
 ### Description: 
 Wrapper for ZIP/UNZIP package QT6

@@ -12,7 +12,7 @@ size = "718400"
 usize = "4443951"
 sha1sum = "090a6da41e8c01ce46bfbf35d0cd741fd430c834"
 depends = "['qt6-declarative', 'qt6-multimedia']"
-reverse_depends = "['kuserfeedback', 'kweather', 'socnetv']"
+reverse_depends = "['kuserfeedback', 'kweather', 'socnetv', 'stellarium']"
 +++
 ### Description: 
 The Qt6 toolkit, qtcharts
