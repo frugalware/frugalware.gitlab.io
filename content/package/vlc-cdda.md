@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-cdda 3.0.21-7"
-version = "3.0.21-7"
+title = "vlc-cdda 3.0.21-8"
+version = "3.0.21-8"
 description = "vlc CDDA support"
-date = "2024-08-29T14:26:07"
+date = "2024-09-04T12:59:34"
 aliases = "/packages/219595"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "36556"
+size = "36604"
 usize = "57944"
-sha1sum = "d238e758d0e233bc9a411f60345b146df7beca1a"
+sha1sum = "f8e04db15c0609d612ab6711c801ad5cbba8107f"
 depends = "['libcddb', 'libvlc>=3.0.21']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "415700"
 usize = "1102574"
 sha1sum = "aba95d0585ec91e58b4e61e317575ab06884a192"
 depends = "['qt6-base>=']"
-reverse_depends = "['kdevelop', 'umbrello']"
+reverse_depends = "['kdevelop']"
 +++
 ### Description: 
 KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins

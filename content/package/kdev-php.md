@@ -12,7 +12,6 @@ size = "1304844"
 usize = "8233860"
 sha1sum = "3a38d0ce663334329398969090dea9aec823ec65"
 depends = "['kdevelop', 'php']"
-reverse_depends = "['umbrello']"
 +++
 ### Description: 
 PHP Language Plugin for KDevelop

@@ -12,7 +12,7 @@ size = "2511048"
 usize = "13122401"
 sha1sum = "d93f554618a07903533e48efeb81b47e6d196af8"
 depends = "['editorconfig-core-c', 'kparts5>=5.116.0', 'libgit2>=1.3.0', 'syntax-highlighting5>=5.116.0']"
-reverse_depends = "['cantor', 'ktouch', 'rocs']"
+reverse_depends = "['cantor', 'ktouch', 'rocs', 'umbrello']"
 +++
 ### Description: 
 Provides a powerful text editor component.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-gstreamer 3.0.21-7"
-version = "3.0.21-7"
+title = "vlc-gstreamer 3.0.21-8"
+version = "3.0.21-8"
 description = "vlc Gstreamer support"
-date = "2024-08-29T14:26:07"
+date = "2024-09-04T12:59:34"
 aliases = "/packages/219586"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "27632"
+size = "27676"
 usize = "39888"
-sha1sum = "e8c83b5f52b406bcebb8ef8ff26911a30a966ada"
+sha1sum = "a08216839fec0f4fe8ac8c547969fe881430fc9c"
 depends = "['gst1-plugins-base', 'libvlc>=3.0.21']"
 +++
 ### Description: 

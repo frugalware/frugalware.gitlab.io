@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-mpeg2 3.0.21-7"
-version = "3.0.21-7"
+title = "vlc-mpeg2 3.0.21-8"
+version = "3.0.21-8"
 description = "vlc MPEG-1 and MPEG2 support"
-date = "2024-08-29T14:26:07"
+date = "2024-09-04T12:59:34"
 aliases = "/packages/219573"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "23400"
+size = "23452"
 usize = "22048"
-sha1sum = "51e0c7839a12d18389cf8229280f00b4a211c791"
+sha1sum = "7cb3f5ddd229fe972f437f4a2a87cfdaeeeca40f"
 depends = "['libvlc>=3.0.21']"
 +++
 ### Description: 

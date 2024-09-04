@@ -12,7 +12,7 @@ size = "4913040"
 usize = "20835923"
 sha1sum = "6847e0a070197316a214a920d113f675246d8391"
 depends = "['libpng', 'libstdc++>=7.3.0-4']"
-reverse_depends = "['doxywizard']"
+reverse_depends = "['doxywizard', 'umbrello']"
 +++
 ### Description: 
 Doxygen is the documentation system for C/C++
