@@ -12,6 +12,7 @@ size = "25792"
 usize = "55184"
 sha1sum = "8e3bf1e0de959aedb89afe2ac0b83bd04cd0a791"
 depends = "['gst1-plugins-base>=1.24.6', 'gstreamer1>=1.24.6', 'libffi>=3.2.1-2', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5']"
+reverse_depends = "['vokoscreenng']"
 +++
 ### Description: 
 GStreamer vorbis plugin (Base).

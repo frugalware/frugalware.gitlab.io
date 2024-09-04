@@ -12,7 +12,7 @@ size = "459792"
 usize = "565273"
 sha1sum = "446d09c3ae14cf76f03e6138cf2dce5832cb3e71"
 depends = "['glibc>=2.34']"
-reverse_depends = "['easyeffects', 'libpulse', 'mumble', 'speex']"
+reverse_depends = "['easyeffects', 'libpulse', 'mumble', 'speex', 'wireshark']"
 +++
 ### Description: 
 Speex DSP lib

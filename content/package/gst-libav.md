@@ -12,7 +12,7 @@ size = "146236"
 usize = "428370"
 sha1sum = "188797001a3dc34acd8aec173345f9aeddd988ec"
 depends = "['ffmpeg>=7.0', 'gst1-plugins-base>=1.24.7', 'libffi>=3.2.1-2']"
-reverse_depends = "['spice', 'spice-glib', 'webkit-gtk3']"
+reverse_depends = "['spice', 'spice-glib', 'vokoscreenng', 'webkit-gtk3']"
 +++
 ### Description: 
 GStreamer plugin for the libav* library (former FFmpeg)

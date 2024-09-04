@@ -12,6 +12,7 @@ size = "49748"
 usize = "132448"
 sha1sum = "b9e6fc13be7d5bfb4b738b389273537dba55fd2c"
 depends = "['gst1-plugins-base', 'wireplumber']"
+reverse_depends = "['vokoscreenng']"
 +++
 ### Description: 
 GStreamer Pipewire Plugin

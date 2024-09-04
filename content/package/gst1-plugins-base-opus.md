@@ -12,6 +12,7 @@ size = "29012"
 usize = "62944"
 sha1sum = "d1c6d385c4a2032ac872af8416c81744f243f250"
 depends = "['gst1-plugins-base>=1.24.6', 'gstreamer1>=1.24.6', 'opus>=1.1.3-2']"
+reverse_depends = "['vokoscreenng']"
 +++
 ### Description: 
 GStreamer opus plugin (Base).

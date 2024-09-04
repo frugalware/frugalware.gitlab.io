@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "wireshark-qt 4.0.10-3"
-version = "4.0.10-3"
-description = "The world's most popular network protocol analyzer. (Qt5 frontend)"
-date = "2024-05-27T06:05:39"
+title = "wireshark-qt 4.4.0-1"
+version = "4.4.0-1"
+description = "The world's most popular network protocol analyzer. (Qt6 frontend)"
+date = "2024-09-04T14:08:44"
 aliases = "/packages/201209"
 categories = ['xapps-extra']
 upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
-size = "4275872"
-usize = "9987777"
-sha1sum = "739670e1f6948dfe1fed8d0491d9299a70abee2d"
-depends = "['c-ares', 'geoip', 'libnl', 'lua51', 'qt5-base>=5.15.10', 'qt5-multimedia>=5.15.10', 'qt5-svg>=5.15.10', 'sbc', 'wireshark>=4.0.10']"
+size = "4650964"
+usize = "11285989"
+sha1sum = "d774404588636186764cc4f43bfb2607a1a77824"
+depends = "['c-ares', 'geoip', 'libnl', 'lua51', 'qt6-5compat', 'qt6-multimedia', 'qt6-svg', 'sbc', 'wireshark>=4.4.0']"
 +++
 ### Description: 
-The world's most popular network protocol analyzer. (Qt5 frontend)
+The world's most popular network protocol analyzer. (Qt6 frontend)
 
 ### Files: 
 * /usr/bin/wireshark
@@ -33,4 +33,3 @@ The world's most popular network protocol analyzer. (Qt5 frontend)
 * /usr/share/icons/hicolor/48x48/mimetypes/org.wireshark.Wireshark-mimetype.png
 * /usr/share/icons/hicolor/64x64/apps/org.wireshark.Wireshark.png
 * /usr/share/icons/hicolor/64x64/mimetypes/org.wireshark.Wireshark-mimetype.png
-* /usr/share/icons/hicolor/scalable/apps/org.wireshark.Wireshark.svg
