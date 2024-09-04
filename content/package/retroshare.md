@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "retroshare 0.6.7.2.g3461da7-1"
-version = "0.6.7.2.g3461da7-1"
+title = "retroshare 0.6.7.2.g3461da7-2"
+version = "0.6.7.2.g3461da7-2"
 description = "RetroShare is a Open Source cross-platform, private and secure decentralised communication and file sharing platform."
-date = "2024-07-07T16:17:27"
+date = "2024-09-04T08:37:58"
 aliases = "/packages/221399"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/retroshare/retroshare"
 arch = "x86_64"
-size = "13888992"
-usize = "34363048"
-sha1sum = "bd625b43dddc632f7b29e2ee0676140076674c1c"
-depends = "['libupnp', 'libxscrnsaver', 'qt5-multimedia', 'qt5-x11extras', 'sqlcipher']"
+size = "13892952"
+usize = "34452584"
+sha1sum = "2033e7f4675ce1407f469783b78d792a98178068"
+depends = "['libupnp', 'libxscrnsaver', 'qt5-multimedia>=5.15.15', 'qt5-x11extras>=5.15.15', 'sqlcipher']"
 +++
 ### Description: 
 RetroShare is a Open Source cross-platform, private and secure decentralised communication and file sharing platform.

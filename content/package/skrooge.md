@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skrooge 2.32.0-1"
-version = "2.32.0-1"
+title = "skrooge 2.32.0-2"
+version = "2.32.0-2"
 description = "Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses"
-date = "2024-04-08T09:32:02"
+date = "2024-09-04T09:03:28"
 aliases = "/packages/74103"
 categories = ['kde5-extra']
 upstreamurl = "http://skrooge.org"
 arch = "x86_64"
-size = "13270132"
-usize = "28588066"
-sha1sum = "fce62c8220bd022d1b3c660b9754f4fa8740ba96"
-depends = "['grantlee>=5.0.0', 'kdesignerplugin5>=5.115.0', 'knewstuff5>=5.115.0', 'knotifyconfig5>=5.115.0', 'kparts5>=5.115.0', 'krunner5>=5.115.0', 'libofx>=0.9.11', 'qca-qt5', 'qt5-svg>=5.15.12', 'qt5-webengine>=', 'qt5-xmlpatterns>=5.15.12', 'sqlcipher>=3.3.1']"
+size = "13268712"
+usize = "28378786"
+sha1sum = "6a0fbc39958877c2b84b3d1f6bb4070a716f635e"
+depends = "['grantlee>=5.0.0', 'kdesignerplugin5>=5.116.0', 'knewstuff5>=5.116.0', 'knotifyconfig5>=5.116.0', 'kparts5>=5.116.0', 'krunner5>=5.116.0', 'libofx>=0.9.11', 'qca-qt5', 'qt5-svg>=5.15.15', 'qt5-webengine>=', 'qt5-xmlpatterns>=5.15.15', 'sqlcipher>=3.3.1']"
 +++
 ### Description: 
 Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses

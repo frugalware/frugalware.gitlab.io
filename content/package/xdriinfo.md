@@ -12,7 +12,6 @@ size = "17228"
 usize = "49034"
 sha1sum = "322f8f60150a079c98f984daf19358aa165f6b1c"
 depends = "['libglvnd']"
-reverse_depends = "['radeon-profile']"
 license = "GPL2"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-shiboken2 5.15.14-1"
-version = "5.15.14-1"
+title = "python3-shiboken2 5.15.15-1"
+version = "5.15.15-1"
 description = "Shiboken lib python only"
-date = "2024-07-12T21:08:14"
+date = "2024-09-04T08:59:14"
 aliases = "/packages/220145"
 categories = ['lib']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "188116"
-usize = "447843"
-sha1sum = "b62b1de256e887c3a2b51840464d011819a0a209"
+size = "187240"
+usize = "458099"
+sha1sum = "40278138be9395f5f2d6bbb30aa344de7d22bfed"
 depends = "['python3>=3.11']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Shiboken lib python only
 ### Files: 
 * /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so.5.15
-* /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so.5.15.14
+* /usr/lib/libshiboken2.cpython-312-x86_64-linux-gnu.so.5.15.15
 * /usr/lib/python3.12/site-packages/shiboken2/files.dir/shibokensupport/feature.py
 * /usr/lib/python3.12/site-packages/shiboken2/files.dir/shibokensupport/signature/errorhandler.py
 * /usr/lib/python3.12/site-packages/shiboken2/files.dir/shibokensupport/signature/importhandler.py

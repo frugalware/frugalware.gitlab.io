@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "smplayer 22.7.0-5"
-version = "22.7.0-5"
+title = "smplayer 24.5.0-1"
+version = "24.5.0-1"
 description = "SMPlayer intends to be a complete front-end for MPlayer."
-date = "2024-05-27T05:28:25"
+date = "2024-09-04T09:11:12"
 aliases = "/packages/152656"
 categories = ['xapps-extra']
-upstreamurl = "https://sourceforge.net/projects/smplayer"
+upstreamurl = "https://github.com/smplayer-dev/smplayer"
 arch = "x86_64"
-size = "3468888"
-usize = "16204233"
-sha1sum = "747539efd4d4e5d17dafe031747956c0d28cb704"
-depends = "['mplayer', 'qt5-base>=5.15.10', 'qt5-script>=5.15.10']"
+size = "3525072"
+usize = "16330752"
+sha1sum = "904197c53fcafaf3fb46953e79cd35cd5d544c74"
+depends = "['mplayer', 'qt5-base>=5.15.15', 'qt5-script>=5.15.15']"
 +++
 ### Description: 
 SMPlayer intends to be a complete front-end for MPlayer.
@@ -41,8 +41,8 @@ SMPlayer intends to be a complete front-end for MPlayer.
 * /usr/share/doc/packages/smplayer/ro/gpl.html
 * /usr/share/doc/packages/smplayer/ru/gpl.html
 * /usr/share/doc/packages/smplayer/zh_CN/gpl.html
-* /usr/share/doc/smplayer-22.7.0/README.md
-* /usr/share/doc/smplayer-22.7.0/Readme.txt
+* /usr/share/doc/smplayer-24.5.0/README.md
+* /usr/share/doc/smplayer-24.5.0/Readme.txt
 * /usr/share/icons/hicolor/128x128/apps/smplayer.png
 * /usr/share/icons/hicolor/16x16/apps/smplayer.png
 * /usr/share/icons/hicolor/192x192/apps/smplayer.png

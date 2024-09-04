@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scribus 1.6.2-4"
-version = "1.6.2-4"
+title = "scribus 1.6.2-5"
+version = "1.6.2-5"
 description = "A professional desktop publishing application."
-date = "2024-08-02T14:27:29"
+date = "2024-09-04T08:53:06"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "75471264"
-usize = "138428370"
-sha1sum = "e216ea1bcad1fef6095d91f127fb74d944b3a06c"
-depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=75.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.08.0', 'python3>=3.12', 'qt5-declarative>=5.15.0']"
+size = "75432232"
+usize = "138433650"
+sha1sum = "e0f8a9c01a7525284972ba06f2b8bca91127097f"
+depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=75.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.08.0', 'python3>=3.12', 'qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 A professional desktop publishing application.

@@ -12,7 +12,7 @@ size = "1611320"
 usize = "9663400"
 sha1sum = "5afaf8ca257d2ece9780d9b4991ccbf4fcd10d2f"
 depends = "[]"
-reverse_depends = "['libgusb', 'pciutils', 'systemd', 'usbutils']"
+reverse_depends = "['lact', 'libgusb', 'pciutils', 'systemd', 'usbutils']"
 +++
 ### Description: 
 Hardware identification and configuration data

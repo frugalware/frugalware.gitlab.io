@@ -12,7 +12,7 @@ size = "327360"
 usize = "1789096"
 sha1sum = "4ee9eb6ab922e37ac3a37cad897b2c8775abf25b"
 depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt5-declarative>=5.15.15', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
-reverse_depends = "['kio5']"
+reverse_depends = "['kio5', 'smb4k']"
 +++
 ### Description: 
 KDE Desktop hardware abstraction.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina-www 1.4.35-1"
-version = "1.4.35-1"
+title = "remmina-www 1.4.35-2"
+version = "1.4.35-2"
 description = "ww plugin for remmina"
-date = "2024-06-12T08:49:11"
+date = "2024-09-04T08:25:24"
 aliases = "/packages/220631"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "12972"
-usize = "32112"
-sha1sum = "ca4eae004672a8b6d3d7200d9c1cf5060943d288"
+size = "12864"
+usize = "32336"
+sha1sum = "39650e835ad4e185d9ac5104a598249d9a04a63e"
 depends = "['webkit-gtk3>=2.44.2']"
 +++
 ### Description: 

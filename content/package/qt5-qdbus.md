@@ -12,7 +12,7 @@ size = "61452"
 usize = "206140"
 sha1sum = "7a96494102346b653a57c5c50bd6d29a99ca160d"
 depends = "['dbus-x11', 'qt5-base>=5.15.2']"
-reverse_depends = "['murmur', 'qt5-tools', 'snorenotify', 'telepathy-qt5']"
+reverse_depends = "['murmur', 'qt5-tools', 'telepathy-qt5']"
 +++
 ### Description: 
 D-Bus tools for qt5

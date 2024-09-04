@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rsibreak 0.12.15-2"
-version = "0.12.15-2"
+title = "rsibreak 0.12.15-3"
+version = "0.12.15-3"
 description = "RSIBreak bothers you at certain intervals, to prevent Repetive Strain Injury."
-date = "2024-03-18T13:46:01"
+date = "2024-09-04T08:46:40"
 aliases = "/packages/10410"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "595968"
-usize = "1809766"
-sha1sum = "601c65caa8071f1235c652fad7dd3daed26c4b8e"
-depends = "['kidletime5>=5.115.0', 'knotifyconfig5>=5.115.0']"
+size = "596380"
+usize = "1808958"
+sha1sum = "2ce43af01b23ebb10bf9b7562313ffac73c711f6"
+depends = "['kidletime5>=5.116.0', 'knotifyconfig5>=5.116.0']"
 +++
 ### Description: 
 RSIBreak bothers you at certain intervals, to prevent Repetive Strain Injury.
