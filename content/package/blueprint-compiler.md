@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "blueprint-compiler 0.14.0-1"
-version = "0.14.0-1"
+title = "blueprint-compiler 0.14.0-2"
+version = "0.14.0-2"
 description = "A markup language for GTK user interfaces"
-date = "2024-09-03T22:06:52"
+date = "2024-09-04T08:07:44"
 aliases = "/packages/222524"
 categories = ['devel-extra']
 upstreamurl = "https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/"
 arch = "x86_64"
-size = "192120"
+size = "192284"
 usize = "826479"
-sha1sum = "82d5e9b1d6efef6209192dfc2230e42defc2a1f1"
-depends = "['pygobject3']"
+sha1sum = "61129481fa830f1a415b6e367b023d3f366631d3"
+depends = "['pygobject3-cairo']"
 +++
 ### Description: 
 A markup language for GTK user interfaces
