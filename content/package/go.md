@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.23.0-1"
-version = "1.23.0-1"
+title = "go 1.23.0-2"
+version = "1.23.0-2"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-08-16T08:56:51"
+date = "2024-09-05T14:49:35"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "144263868"
-usize = "318829558"
-sha1sum = "83caddb8e77963168bab2b8aebc23faf289c6ed7"
+size = "145245000"
+usize = "327232943"
+sha1sum = "cf5af44a23869b12f5f22e03a23bf47c4a38f3cf"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -9879,6 +9879,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/vendor/modules.txt
 * /usr/share/doc/go-1.23.0/LICENSE
 * /usr/share/doc/go-1.23.0/README.md
+* /usr/share/doc/go-1.23.0/README.rst
 * /usr/share/doc/go-1.23.0/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
