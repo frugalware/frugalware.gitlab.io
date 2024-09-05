@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.23.0-2"
-version = "1.23.0-2"
+title = "go 1.23.1-1"
+version = "1.23.1-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-09-05T14:49:35"
+date = "2024-09-05T16:22:36"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "145245000"
-usize = "327232943"
-sha1sum = "cf5af44a23869b12f5f22e03a23bf47c4a38f3cf"
+size = "145286112"
+usize = "327276006"
+sha1sum = "1147e4cf9ae7543f9f9f715b7c56999e686e87fe"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['audit-go']"
 Compiler and tools for the Go programming language from Google
 
 ### Files: 
-* /etc/profile.d/go.sh
 * /usr/bin/go
 * /usr/bin/gofmt
 * /usr/lib/go/bin
@@ -6667,6 +6666,8 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/internal/types/testdata/check/go1_19_20.go
 * /usr/lib/go/src/internal/types/testdata/check/go1_20_19.go
 * /usr/lib/go/src/internal/types/testdata/check/go1_21_19.go
+* /usr/lib/go/src/internal/types/testdata/check/go1_21_22.go
+* /usr/lib/go/src/internal/types/testdata/check/go1_22_21.go
 * /usr/lib/go/src/internal/types/testdata/check/go1_8.go
 * /usr/lib/go/src/internal/types/testdata/check/go1_xx_19.go
 * /usr/lib/go/src/internal/types/testdata/check/gotos.go
@@ -6943,6 +6944,8 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue67683.go
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue67872.go
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue67962.go
+* /usr/lib/go/src/internal/types/testdata/fixedbugs/issue68903.go
+* /usr/lib/go/src/internal/types/testdata/fixedbugs/issue68935.go
 * /usr/lib/go/src/internal/types/testdata/fixedbugs/issue6977.go
 * /usr/lib/go/src/internal/types/testdata/spec/assignability.go
 * /usr/lib/go/src/internal/types/testdata/spec/comparable.go
@@ -9877,10 +9880,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/transform.go
 * /usr/lib/go/src/vendor/golang.org/x/text/unicode/norm/trie.go
 * /usr/lib/go/src/vendor/modules.txt
-* /usr/share/doc/go-1.23.0/LICENSE
-* /usr/share/doc/go-1.23.0/README.md
-* /usr/share/doc/go-1.23.0/README.rst
-* /usr/share/doc/go-1.23.0/VERSION
+* /usr/share/doc/go-1.23.1/LICENSE
+* /usr/share/doc/go-1.23.1/README.md
+* /usr/share/doc/go-1.23.1/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md

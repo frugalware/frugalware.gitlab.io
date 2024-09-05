@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffmpeg 7.0.2-1"
-version = "7.0.2-1"
+title = "ffmpeg 7.0.2-2"
+version = "7.0.2-2"
 description = "FFMpeg is a complete and free Internet live audio and video broadcasting solution for Linux/Unix."
-date = "2024-08-03T14:26:45"
+date = "2024-09-05T17:03:51"
 aliases = "/packages/16224"
 categories = ['xmultimedia']
 upstreamurl = "http://ffmpeg.sourceforge.net/"
 arch = "x86_64"
-size = "10003336"
-usize = "39303024"
-sha1sum = "018da2eb7e3ae9866d1e4df72e116cff2fbd8415"
+size = "10001940"
+usize = "39362635"
+sha1sum = "3ad43cc1902e975c8aa8d0cce1f82614726ab540"
 depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'aom', 'dav1d>=1.3.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.22', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libopenmpt', 'libpulse>=12.2-8', 'librist', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpl', 'libvpx>=1.14.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'libxv', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'srt', 'svt-av1>=2.0.0', 'v4l-utils>=1.8.1-3', 'x264>=20230712.ga8b68eb', 'x265>=3.6', 'xvidcore>=1.3.4-3', 'zimg', 'zlib>=1.2.12']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'aubio', 'chromaprint', 'faudio', 'ffmpegthumbnailer', 'ffmpegthumbs', 'firefox', 'freerdp', 'freerdp2', 'gegl', 'gst-libav', 'gtk-handbrake', 'guvcview', 'handbrake', 'kfilemetadata', 'kfilemetadata5', 'kpipewire', 'minidlna', 'mlt', 'mpd', 'mpv', 'obs-studio', 'openal', 'opencv', 'picard', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'scrcpy', 'sherlock265', 'streamlink', 'telegram-desktop', 'tox-core', 'ultrastardx', 'unpaper', 'vscode', 'vtk-ffmpeg', 'xine-lib', 'yt-dlp']"
 +++
