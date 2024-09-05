@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl 3.3.1-1"
-version = "3.3.1-1"
+title = "openssl 3.3.2-1"
+version = "3.3.2-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security"
-date = "2024-06-04T18:42:14"
+date = "2024-09-05T21:10:44"
 aliases = "/packages/2422"
 categories = ['base']
-upstreamurl = "https://openssl.org"
+upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "5160144"
-usize = "12652141"
-sha1sum = "9cd7d3959e85fe5a61908af9144e849f2e8894e7"
+size = "5210096"
+usize = "12744724"
+sha1sum = "b01700abd2a1fa0ff8778718a4cb9bb9baa38544"
 depends = "['glibc>=2.35']"
 reverse_depends = "['aircrack-ng', 'apache', 'apr-util', 'bind', 'bip', 'bitchx', 'ca-certificates', 'castor', 'cgit', 'chntpw', 'clamav', 'courier-imap', 'cryptsetup-luks', 'curl', 'cyrus-sasl', 'dd-rescue', 'dhcpcd', 'dovecot', 'efl', 'eiskaltdc', 'elinks', 'encfs', 'enlightenment', 'erlang', 'facter', 'falkon', 'fetchmail', 'gammu', 'gdal', 'gfpm', 'gftp', 'git', 'git-crypt', 'gocryptfs', 'grpc', 'gsoap', 'gst1-plugins-bad', 'gutenprint', 'hexchat', 'hfsprogs', 'hostapd', 'icecast', 'imapfilter', 'iputils', 'irssi', 'john', 'kicad', 'kmod', 'krb5', 'kup', 'kvirc', 'ldns', 'libarchive', 'libcups', 'libetpan', 'libevent', 'libfido2', 'libimobiledevice', 'libldap', 'libnvme', 'libp11', 'libpq', 'librdf', 'libshout', 'libssh', 'libssh2', 'libsystemd', 'libtorrent', 'libtorrent-rasterbar', 'libwebsockets', 'libzip', 'lighttpd', 'links', 'lynx', 'mariadb', 'mariadb-libs', 'mcabber', 'minizip-ng', 'mktorrent', 'mold', 'monit', 'mosh', 'mtd-utils', 'mupdf-gl', 'murmur', 'mutt-devel', 'ncat', 'neon', 'net-snmp', 'nginx', 'nmap', 'nodejs', 'nping', 'ntp', 'nushell', 'open-isns', 'openimageio', 'openntpd', 'opensc', 'openslp', 'openssh', 'openvpn', 'openvswitch', 'pacman-g2', 'pacman-tools', 'paho-mqtt-c', 'partclone', 'partimage', 'pdns', 'pdns-recursor', 'perl', 'perl-crypt-openssl-rsa', 'perl-net-ssleay', 'php', 'php-embed', 'poco', 'podofo', 'popa3d', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'ppp', 'proftpd', 'pulseaudio-avahi', 'pure-ftpd', 'pycurl', 'python3', 'python3-cryptography', 'python3-m2crypto', 'python3-openssl', 'qca-ossl', 'qpdf', 'qt5-base', 'raptor', 'restbed', 'rsync', 'rtorrent', 'ruby', 's-nail', 'samba', 'sccache', 'sequoia-sq', 'serf', 'sim', 'socat', 'sofia-sip', 'spamassassin', 'spice', 'spice-glib', 'sqlcipher', 'srt', 'ssmtp', 'strongswan', 'stunnel', 'sudo', 'sylpheed', 'systemd', 'systemd-pull', 'systemd-remote', 'tcpdump', 'telegram-desktop', 'telegram-qt5', 'telepathy-idle', 'terminology', 'tor', 'tpm2-tss', 'transmission-cli', 'uget', 'unbound', 'uwsgi', 'vde2', 'virtualbox', 'vlc-shout', 'vpnc', 'vsftpd', 'vtun', 'w3m', 'wget', 'wget2', 'wimlib', 'wpa_supplicant', 'x11vnc', 'xmlrpc-c', 'xrdp', 'xrdp', 'znc']"
 +++
@@ -347,12 +347,12 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/lib/pkgconfig/libcrypto.pc
 * /usr/lib/pkgconfig/libssl.pc
 * /usr/lib/pkgconfig/openssl.pc
-* /usr/share/doc/openssl-3.3.1/INSTALL.md
-* /usr/share/doc/openssl-3.3.1/README-ENGINES.md
-* /usr/share/doc/openssl-3.3.1/README-FIPS.md
-* /usr/share/doc/openssl-3.3.1/README-PROVIDERS.md
-* /usr/share/doc/openssl-3.3.1/README-QUIC.md
-* /usr/share/doc/openssl-3.3.1/README.md
+* /usr/share/doc/openssl-3.3.2/INSTALL.md
+* /usr/share/doc/openssl-3.3.2/README-ENGINES.md
+* /usr/share/doc/openssl-3.3.2/README-FIPS.md
+* /usr/share/doc/openssl-3.3.2/README-PROVIDERS.md
+* /usr/share/doc/openssl-3.3.2/README-QUIC.md
+* /usr/share/doc/openssl-3.3.2/README.md
 * /usr/share/man/man1/asn1parse.1openssl.gz
 * /usr/share/man/man1/ca.1openssl.gz
 * /usr/share/man/man1/CA.pl.1openssl.gz
@@ -3486,19 +3486,19 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OPENSSL_thread_stop.3openssl.gz
 * /usr/share/man/man3/OPENSSL_thread_stop_ex.3openssl.gz
 * /usr/share/man/man3/OpenSSL_version.3openssl.gz
-* /usr/share/man/man3/OPENSSL_version_build_metadata.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_BUILD_METADATA.3openssl.gz
-* /usr/share/man/man3/OPENSSL_version_major.3openssl.gz
+* /usr/share/man/man3/OPENSSL_version_build_metadata.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_MAJOR.3openssl.gz
-* /usr/share/man/man3/OPENSSL_version_minor.3openssl.gz
+* /usr/share/man/man3/OPENSSL_version_major.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_MINOR.3openssl.gz
+* /usr/share/man/man3/OPENSSL_version_minor.3openssl.gz
 * /usr/share/man/man3/OpenSSL_version_num.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_NUMBER.3openssl.gz
-* /usr/share/man/man3/OPENSSL_version_patch.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_PATCH.3openssl.gz
+* /usr/share/man/man3/OPENSSL_version_patch.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_PREREQ.3openssl.gz
-* /usr/share/man/man3/OPENSSL_version_pre_release.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_PRE_RELEASE.3openssl.gz
+* /usr/share/man/man3/OPENSSL_version_pre_release.3openssl.gz
 * /usr/share/man/man3/OPENSSL_VERSION_TEXT.3openssl.gz
 * /usr/share/man/man3/OPENSSL_zalloc.3openssl.gz
 * /usr/share/man/man3/OSSL_ALGORITHM.3openssl.gz
@@ -4141,22 +4141,22 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_TRACE8.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE9.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACEV.3openssl.gz
-* /usr/share/man/man3/OSSL_trace_begin.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_BEGIN.3openssl.gz
+* /usr/share/man/man3/OSSL_trace_begin.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_CANCEL.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_cb.3openssl.gz
-* /usr/share/man/man3/OSSL_trace_enabled.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_ENABLED.3openssl.gz
-* /usr/share/man/man3/OSSL_trace_end.3openssl.gz
+* /usr/share/man/man3/OSSL_trace_enabled.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_END.3openssl.gz
+* /usr/share/man/man3/OSSL_trace_end.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_get_category_name.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_get_category_num.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_set_callback.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_set_channel.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_set_prefix.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_set_suffix.3openssl.gz
-* /usr/share/man/man3/OSSL_trace_string.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_STRING.3openssl.gz
+* /usr/share/man/man3/OSSL_trace_string.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_STRING_MAX.3openssl.gz
 * /usr/share/man/man3/OTHERNAME_free.3openssl.gz
 * /usr/share/man/man3/OTHERNAME_new.3openssl.gz

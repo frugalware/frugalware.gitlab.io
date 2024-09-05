@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-openssl 3.3.1-1"
-version = "3.3.1-1"
+title = "lib32-openssl 3.3.2-1"
+version = "3.3.2-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )"
-date = "2024-06-04T18:42:14"
+date = "2024-09-05T21:10:44"
 aliases = "/packages/217921"
 categories = ['lib32-extra']
-upstreamurl = "https://openssl.org"
+upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "26497100"
-usize = "39143460"
-sha1sum = "733e162f3eb7d275e00dc21ad505dc252013412a"
+size = "26492276"
+usize = "39313506"
+sha1sum = "686df815aa7cd9d43f69392f2f91e5b2e9b3e094"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libsystemd', 'lib32-libzip']"
 +++
