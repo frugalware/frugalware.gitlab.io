@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "darktable 4.8.1-1"
-version = "4.8.1-1"
+title = "darktable 4.8.1-2"
+version = "4.8.1-2"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2024-08-04T17:12:35"
+date = "2024-09-05T13:48:38"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "6553564"
-usize = "31988837"
-sha1sum = "1254b1f18a349415bdc7fa2aaa75fa7f50b53505"
-depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.2.6', 'gnuplot', 'graphicsmagick', 'icu4c>=75.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
+size = "6534516"
+usize = "32215493"
+sha1sum = "5c662269a6a75a17bd039bac4523a16206283bf5"
+depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.4.2', 'gnuplot', 'graphicsmagick', 'icu4c>=75.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml', 'zlib']"
 reverse_depends = "['gimp']"
 +++
 ### Description: 
