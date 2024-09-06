@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ca-valencia 24.2.5.2-2"
-version = "24.2.5.2-2"
+title = "libreoffice-l10n-ca-valencia 24.8.0.2-1"
+version = "24.8.0.2-1"
 description = "Installs Catalan (Valencian) support in LibreOffice"
-date = "2024-08-02T17:26:42"
+date = "2024-09-06T21:07:07"
 aliases = "/packages/200511"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5066456"
-usize = "35927529"
-sha1sum = "059f13a20cc73a1fbaff171fce5a8ce3603bbc40"
-depends = "['libreoffice>=24.2.5.2']"
+size = "4947536"
+usize = "36287466"
+sha1sum = "8f56ed2c5ba59b4e641a6f6bdb18a1f474382641"
+depends = "['libreoffice>=24.8.0.2']"
 +++
 ### Description: 
 Installs Catalan (Valencian) support in LibreOffice

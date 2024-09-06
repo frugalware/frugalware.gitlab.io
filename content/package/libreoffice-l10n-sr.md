@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-sr 24.2.5.2-2"
-version = "24.2.5.2-2"
+title = "libreoffice-l10n-sr 24.8.0.2-1"
+version = "24.8.0.2-1"
 description = "Installs Serbian (Cyrillic) support in LibreOffice"
-date = "2024-08-02T17:26:42"
+date = "2024-09-06T21:07:07"
 aliases = "/packages/104118"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "513912"
-usize = "3065727"
-sha1sum = "ceeaebf5e620a995d3175f9f722420d764395c34"
-depends = "['libreoffice>=24.2.5.2']"
+size = "511004"
+usize = "3039807"
+sha1sum = "dc0c8a324639626acb1d0d578a1c286d038bd6bd"
+depends = "['libreoffice>=24.8.0.2']"
 +++
 ### Description: 
 Installs Serbian (Cyrillic) support in LibreOffice

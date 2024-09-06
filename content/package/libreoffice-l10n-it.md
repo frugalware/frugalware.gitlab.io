@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-it 24.2.5.2-2"
-version = "24.2.5.2-2"
+title = "libreoffice-l10n-it 24.8.0.2-1"
+version = "24.8.0.2-1"
 description = "Installs Italian support in LibreOffice"
-date = "2024-08-02T17:26:42"
+date = "2024-09-06T21:07:07"
 aliases = "/packages/104070"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5196840"
-usize = "36870757"
-sha1sum = "9a4ed30ec0c6e500e8605567d3b8382a66d2b648"
-depends = "['libreoffice>=24.2.5.2']"
+size = "5097984"
+usize = "37316350"
+sha1sum = "b2d5b9a14f9d63a076d1c23f309e97e69e8bb99b"
+depends = "['libreoffice>=24.8.0.2']"
 +++
 ### Description: 
 Installs Italian support in LibreOffice

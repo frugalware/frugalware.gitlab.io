@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-gl 24.2.5.2-2"
-version = "24.2.5.2-2"
+title = "libreoffice-l10n-gl 24.8.0.2-1"
+version = "24.8.0.2-1"
 description = "Installs Galician support in LibreOffice"
-date = "2024-08-02T17:26:42"
+date = "2024-09-06T21:07:07"
 aliases = "/packages/104062"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4910584"
-usize = "35008944"
-sha1sum = "506cba1be0a422f7cc5279e8e3577a1051f2385d"
-depends = "['libreoffice>=24.2.5.2']"
+size = "4816996"
+usize = "35432833"
+sha1sum = "73c578700e57494455a16471a1e2e589f1485dba"
+depends = "['libreoffice>=24.8.0.2']"
 +++
 ### Description: 
 Installs Galician support in LibreOffice

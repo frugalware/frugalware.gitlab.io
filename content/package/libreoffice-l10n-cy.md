@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-cy 24.2.5.2-2"
-version = "24.2.5.2-2"
+title = "libreoffice-l10n-cy 24.8.0.2-1"
+version = "24.8.0.2-1"
 description = "Installs Welsh support in LibreOffice"
-date = "2024-08-02T17:26:42"
+date = "2024-09-06T21:07:07"
 aliases = "/packages/104045"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "768996"
-usize = "3930179"
-sha1sum = "08dac258f8fbf650ca6f19dee6d9fcd530ae40f9"
-depends = "['libreoffice>=24.2.5.2']"
+size = "776600"
+usize = "3956901"
+sha1sum = "aef0cccc07b50199f601e2ed67af7232bb900eb6"
+depends = "['libreoffice>=24.8.0.2']"
 +++
 ### Description: 
 Installs Welsh support in LibreOffice
