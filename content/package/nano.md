@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nano 8.1-1"
-version = "8.1-1"
+title = "nano 8.2-1"
+version = "8.2-1"
 description = "Free Pico clone with some new features."
-date = "2024-07-12T21:34:49"
+date = "2024-09-06T08:41:36"
 aliases = "/packages/3241"
 categories = ['base']
 upstreamurl = "http://www.nano-editor.org/"
 arch = "x86_64"
-size = "660200"
-usize = "3026276"
-sha1sum = "d5e2886a6861ee70efe84565a5be98a25600ca8b"
+size = "638432"
+usize = "2917099"
+sha1sum = "d30f4d6c99a34046b3f7e208e29e95c7bdbd92ed"
 depends = "['file>=5.28-3', 'ncurses>=6.1-2']"
 +++
 ### Description: 
@@ -20,18 +20,18 @@ Free Pico clone with some new features.
 * /etc/nanorc
 * /usr/bin/nano
 * /usr/bin/rnano
-* /usr/share/doc/nano-8.1/AUTHORS
-* /usr/share/doc/nano-8.1/ChangeLog
-* /usr/share/doc/nano-8.1/COPYING
-* /usr/share/doc/nano-8.1/COPYING.DOC
-* /usr/share/doc/nano-8.1/faq.html
-* /usr/share/doc/nano-8.1/INSTALL
-* /usr/share/doc/nano-8.1/nano.html
-* /usr/share/doc/nano-8.1/NEWS
-* /usr/share/doc/nano-8.1/README
-* /usr/share/doc/nano-8.1/sample.nanorc
-* /usr/share/doc/nano-8.1/THANKS
-* /usr/share/doc/nano-8.1/TODO
+* /usr/share/doc/nano-8.2/AUTHORS
+* /usr/share/doc/nano-8.2/ChangeLog
+* /usr/share/doc/nano-8.2/COPYING
+* /usr/share/doc/nano-8.2/COPYING.DOC
+* /usr/share/doc/nano-8.2/faq.html
+* /usr/share/doc/nano-8.2/INSTALL
+* /usr/share/doc/nano-8.2/nano.html
+* /usr/share/doc/nano-8.2/NEWS
+* /usr/share/doc/nano-8.2/README
+* /usr/share/doc/nano-8.2/sample.nanorc
+* /usr/share/doc/nano-8.2/THANKS
+* /usr/share/doc/nano-8.2/TODO
 * /usr/share/info/nano.info.gz
 * /usr/share/locale/bg/LC_MESSAGES/nano.mo
 * /usr/share/locale/ca/LC_MESSAGES/nano.mo
