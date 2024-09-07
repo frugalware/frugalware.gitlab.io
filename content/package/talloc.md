@@ -12,7 +12,7 @@ size = "37308"
 usize = "164741"
 sha1sum = "289b9c55a795093f88100315fb7e0f17259de556"
 depends = "['glibc>=2.35', 'python3>=3.12']"
-reverse_depends = "['cifs-utils', 'libsmbclient', 'mpd', 'nss-wins', 'samba', 'samba-client']"
+reverse_depends = "['cifs-utils', 'libsmbclient', 'mpd', 'nss-wins', 'samba', 'samba-client', 'tevent']"
 +++
 ### Description: 
 talloc is a hierarchical, reference counted memory pool system with destructors
