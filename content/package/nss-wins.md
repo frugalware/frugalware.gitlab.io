@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nss-wins 4.20.4-1"
-version = "4.20.4-1"
+title = "nss-wins 4.21.0-1"
+version = "4.21.0-1"
 description = "WINS Lookup Support for NSS."
-date = "2024-08-07T18:59:57"
+date = "2024-09-07T14:28:02"
 aliases = "/packages/136715"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
 size = "18032"
 usize = "14688"
-sha1sum = "b54cd890cf70a771ae464a47dbbf5bd33fd8506e"
-depends = "['samba>=4.20.4', 'talloc>=2.3.0']"
+sha1sum = "1ec871a3e7f3d801b0064d487c09b087f18aef89"
+depends = "['samba>=4.21.0', 'talloc>=2.3.0']"
 +++
 ### Description: 
 WINS Lookup Support for NSS.

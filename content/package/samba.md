@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "samba 4.20.4-1"
-version = "4.20.4-1"
+title = "samba 4.21.0-1"
+version = "4.21.0-1"
 description = "SMB file and print server."
-date = "2024-08-07T18:59:57"
+date = "2024-09-07T14:28:02"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "8078544"
-usize = "60394506"
-sha1sum = "61eed2acbbfa85ae34774f926fa287edb9965616"
-depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.20.4', 'talloc>=2.4.0', 'tdb>=1.4.6']"
+size = "8082092"
+usize = "60899701"
+sha1sum = "54f64beb01344202cb86169f7238f7d6e4908873"
+depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.21.0', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
 ### Description: 
@@ -20,6 +20,7 @@ SMB file and print server.
 ### Files: 
 * /etc/logrotate.d/samba
 * /etc/samba/smb.conf
+* /etc/sysconfig/samba
 * /usr/bin/cifsdd
 * /usr/bin/dbwrap_tool
 * /usr/bin/dumpmscat
@@ -110,6 +111,11 @@ SMB file and print server.
 * /usr/include/samba-4.0/gen_ndr/security.h
 * /usr/include/samba-4.0/gen_ndr/server_id.h
 * /usr/include/samba-4.0/gen_ndr/svcctl.h
+* /usr/include/samba-4.0/ldb.h
+* /usr/include/samba-4.0/ldb_errors.h
+* /usr/include/samba-4.0/ldb_handlers.h
+* /usr/include/samba-4.0/ldb_module.h
+* /usr/include/samba-4.0/ldb_version.h
 * /usr/include/samba-4.0/ldb_wrap.h
 * /usr/include/samba-4.0/lookup_sid.h
 * /usr/include/samba-4.0/machine_sid.h
@@ -153,6 +159,9 @@ SMB file and print server.
 * /usr/include/samba-4.0/util/tfork.h
 * /usr/include/samba-4.0/util/time.h
 * /usr/include/samba-4.0/util_ldb.h
+* /usr/lib/libldb.so
+* /usr/lib/libldb.so.2
+* /usr/lib/libldb.so.2.10.0
 * /usr/lib/python3.12/site-packages/ldb.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/auth.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/auth_util.py
@@ -214,6 +223,29 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/descriptor.py
 * /usr/lib/python3.12/site-packages/samba/dnsresolver.py
 * /usr/lib/python3.12/site-packages/samba/dnsserver.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/auth_policy.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/auth_silo.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/claim_type.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/computer.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/constants.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/container.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/exceptions.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/fields.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/gmsa.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/group.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/model.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/org.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/person.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/query.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/registry.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/schema.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/site.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/subnet.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/types.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/user.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/value_type.py
+* /usr/lib/python3.12/site-packages/samba/domain/models/__init__.py
+* /usr/lib/python3.12/site-packages/samba/domain/__init__.py
 * /usr/lib/python3.12/site-packages/samba/domain_update.py
 * /usr/lib/python3.12/site-packages/samba/drs_utils.py
 * /usr/lib/python3.12/site-packages/samba/dsdb.cpython-312-x86_64-linux-gnu.so
@@ -270,6 +302,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/kcc/ldif_import_export.py
 * /usr/lib/python3.12/site-packages/samba/kcc/__init__.py
 * /usr/lib/python3.12/site-packages/samba/logger.py
+* /usr/lib/python3.12/site-packages/samba/lsa_utils.py
 * /usr/lib/python3.12/site-packages/samba/mdb_util.py
 * /usr/lib/python3.12/site-packages/samba/messaging.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/ms_display_specifiers.py
@@ -285,9 +318,16 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/netcmd/dbcheck.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/delegation.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/dns.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/silo.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/silo_member.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/computer_allowed_to_authenticate_to.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/policy.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/service_allowed_to_authenticate_from.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/service_allowed_to_authenticate_to.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/user_allowed_to_authenticate_from.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/user_allowed_to_authenticate_to.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/policy/__init__.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/silo/member.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/silo/silo.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/silo/__init__.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/auth/__init__.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/backup.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/claim/claim_type.py
@@ -300,23 +340,11 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/functional_prep.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/info.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/join.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/kds/root_key.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/domain/kds/__init__.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/keytab.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/leave.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/level.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/auth_policy.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/auth_silo.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/claim_type.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/exceptions.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/fields.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/group.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/model.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/query.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/schema.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/site.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/subnet.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/user.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/value_type.py
-* /usr/lib/python3.12/site-packages/samba/netcmd/domain/models/__init__.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/passwordsettings.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/provision.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/domain/samba3upgrade.py
@@ -341,6 +369,9 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/netcmd/pso.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/rodc.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/schema.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/service_account/group_msa_membership.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/service_account/service_account.py
+* /usr/lib/python3.12/site-packages/samba/netcmd/service_account/__init__.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/shell.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/sites.py
 * /usr/lib/python3.12/site-packages/samba/netcmd/spn.py
@@ -426,6 +457,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/check_output.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/claims.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/downgradedatabase.py
+* /usr/lib/python3.12/site-packages/samba/tests/blackbox/gmsa.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/http_chunk.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/http_content.py
 * /usr/lib/python3.12/site-packages/samba/tests/blackbox/mdsearch.py
@@ -458,10 +490,10 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/array.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/bare.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/binding.py
-* /usr/lib/python3.12/site-packages/samba/tests/dcerpc/createtrustrelax.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/dnsserver.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/integer.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/lsa.py
+* /usr/lib/python3.12/site-packages/samba/tests/dcerpc/lsa_utils.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/mdssvc.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/misc.py
 * /usr/lib/python3.12/site-packages/samba/tests/dcerpc/raw_protocol.py
@@ -493,6 +525,8 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/dsdb_api.py
 * /usr/lib/python3.12/site-packages/samba/tests/dsdb_dns.py
 * /usr/lib/python3.12/site-packages/samba/tests/dsdb_lock.py
+* /usr/lib/python3.12/site-packages/samba/tests/dsdb_quiet_env_tests.py
+* /usr/lib/python3.12/site-packages/samba/tests/dsdb_quiet_provision_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/dsdb_schema_attributes.py
 * /usr/lib/python3.12/site-packages/samba/tests/emulate/traffic.py
 * /usr/lib/python3.12/site-packages/samba/tests/emulate/traffic_packet.py
@@ -527,6 +561,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/etype_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/fast_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/gkdi_tests.py
+* /usr/lib/python3.12/site-packages/samba/tests/krb5/gmsa_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/group_tests.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kcrypto.py
 * /usr/lib/python3.12/site-packages/samba/tests/krb5/kdc_base_test.py
@@ -620,6 +655,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_auth_policy.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_auth_silo.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_claim.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_kds_root_key.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/domain_models.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/drs_clone_dc_data_lmdb_size.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/dsacl.py
@@ -642,6 +678,7 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/provision_userPassword_crypt.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/rodc.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/schema.py
+* /usr/lib/python3.12/site-packages/samba/tests/samba_tool/service_account.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/silo_base.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/sites.py
 * /usr/lib/python3.12/site-packages/samba/tests/samba_tool/timecmd.py
@@ -688,7 +725,6 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/tests/usage.py
 * /usr/lib/python3.12/site-packages/samba/tests/xattr.py
 * /usr/lib/python3.12/site-packages/samba/tests/__init__.py
-* /usr/lib/python3.12/site-packages/samba/trust_utils.py
 * /usr/lib/python3.12/site-packages/samba/upgrade.py
 * /usr/lib/python3.12/site-packages/samba/upgradehelpers.py
 * /usr/lib/python3.12/site-packages/samba/uptodateness.py
@@ -699,22 +735,22 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/_glue.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/_ldb.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/__init__.py
-* /usr/lib/python3.12/site-packages/tevent.py
 * /usr/lib/python3.12/site-packages/_ldb_text.py
-* /usr/lib/python3.12/site-packages/_tevent.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/systemd/system/nmb.service
+* /usr/lib/systemd/system/samba-bgqd.service
 * /usr/lib/systemd/system/samba.service
 * /usr/lib/systemd/system/smb.service
 * /usr/lib/systemd/system/smb.socket
 * /usr/lib/systemd/system/smb@.service
+* /usr/lib/systemd/system/winbind.service
 * /usr/lib/systemd/system/winbindd.service
 * /usr/lib/tmpfiles.d/samba.conf
-* /usr/share/doc/samba-4.20.4/COPYING
-* /usr/share/doc/samba-4.20.4/README.cifs-utils
-* /usr/share/doc/samba-4.20.4/README.Coding.md
-* /usr/share/doc/samba-4.20.4/README.contributing
-* /usr/share/doc/samba-4.20.4/README.md
-* /usr/share/doc/samba-4.20.4/VERSION
+* /usr/share/doc/samba-4.21.0/COPYING
+* /usr/share/doc/samba-4.21.0/README.cifs-utils
+* /usr/share/doc/samba-4.21.0/README.Coding.md
+* /usr/share/doc/samba-4.21.0/README.contributing
+* /usr/share/doc/samba-4.21.0/README.md
+* /usr/share/doc/samba-4.21.0/VERSION
 * /usr/share/man/man1/dbwrap_tool.1.gz
 * /usr/share/man/man1/gentest.1.gz
 * /usr/share/man/man1/ldbadd.1.gz
@@ -795,6 +831,7 @@ SMB file and print server.
 * /usr/share/man/man8/vfs_cap.8.gz
 * /usr/share/man/man8/vfs_catia.8.gz
 * /usr/share/man/man8/vfs_ceph.8.gz
+* /usr/share/man/man8/vfs_ceph_new.8.gz
 * /usr/share/man/man8/vfs_ceph_snapshots.8.gz
 * /usr/share/man/man8/vfs_commit.8.gz
 * /usr/share/man/man8/vfs_crossrename.8.gz

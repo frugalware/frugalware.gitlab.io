@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsmbclient 4.20.4-1"
-version = "4.20.4-1"
+title = "libsmbclient 4.21.0-1"
+version = "4.21.0-1"
 description = "SMB client library."
-date = "2024-08-07T18:59:57"
+date = "2024-09-07T14:28:02"
 aliases = "/packages/10586"
 categories = ['lib']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "8042792"
-usize = "34041241"
-sha1sum = "fa4fa684a11663a50cf83568f0df57e91911830e"
-depends = "['gpgme', 'icu4c>=75.1', 'jansson', 'libldap>=2.5.4', 'libwbclient>=4.20.4', 'libxcrypt', 'lmdb', 'python3>=3.12', 'talloc']"
+size = "7921792"
+usize = "33876676"
+sha1sum = "f09924f45be119ccea58ff8c7a99dc10a516f04c"
+depends = "['gpgme', 'icu4c>=75.1', 'jansson', 'libldap>=2.5.4', 'libwbclient>=4.21.0', 'libxcrypt', 'lmdb', 'python3>=3.12', 'tevent']"
 reverse_depends = "['gvfs-smb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
 ### Description: 
@@ -45,8 +45,8 @@ SMB client library.
 * /usr/lib/libndr-standard.so.0
 * /usr/lib/libndr-standard.so.0.0.1
 * /usr/lib/libndr.so
-* /usr/lib/libndr.so.4
-* /usr/lib/libndr.so.4.0.0
+* /usr/lib/libndr.so.5
+* /usr/lib/libndr.so.5.0.0
 * /usr/lib/libnetapi.so
 * /usr/lib/libnetapi.so.1
 * /usr/lib/libnetapi.so.1.0.0
@@ -61,10 +61,10 @@ SMB client library.
 * /usr/lib/libsamba-hostconfig.so.0.0.1
 * /usr/lib/libsamba-passdb.so
 * /usr/lib/libsamba-passdb.so.0
-* /usr/lib/libsamba-passdb.so.0.28.0
-* /usr/lib/libsamba-policy.cpython-312-x86-64-linux-gnu.so
-* /usr/lib/libsamba-policy.cpython-312-x86-64-linux-gnu.so.0
-* /usr/lib/libsamba-policy.cpython-312-x86-64-linux-gnu.so.0.0.1
+* /usr/lib/libsamba-passdb.so.0.29.0
+* /usr/lib/libsamba-policy.so
+* /usr/lib/libsamba-policy.so.0
+* /usr/lib/libsamba-policy.so.0.0.1
 * /usr/lib/libsamba-util.so
 * /usr/lib/libsamba-util.so.0
 * /usr/lib/libsamba-util.so.0.0.1
@@ -86,6 +86,7 @@ SMB client library.
 * /usr/lib/pkgconfig/dcerpc.pc
 * /usr/lib/pkgconfig/dcerpc_samr.pc
 * /usr/lib/pkgconfig/dcerpc_server.pc
+* /usr/lib/pkgconfig/ldb.pc
 * /usr/lib/pkgconfig/ndr.pc
 * /usr/lib/pkgconfig/ndr_krb5pac.pc
 * /usr/lib/pkgconfig/ndr_nbt.pc
@@ -93,7 +94,7 @@ SMB client library.
 * /usr/lib/pkgconfig/netapi.pc
 * /usr/lib/pkgconfig/samba-credentials.pc
 * /usr/lib/pkgconfig/samba-hostconfig.pc
-* /usr/lib/pkgconfig/samba-policy.cpython-312-x86_64-linux-gnu.pc
+* /usr/lib/pkgconfig/samba-policy.pc
 * /usr/lib/pkgconfig/samba-util.pc
 * /usr/lib/pkgconfig/samdb.pc
 * /usr/lib/pkgconfig/smbclient.pc
@@ -133,6 +134,7 @@ SMB client library.
 * /usr/lib/samba/ldb/ildap.so
 * /usr/lib/samba/ldb/instancetype.so
 * /usr/lib/samba/ldb/lazy_commit.so
+* /usr/lib/samba/ldb/ldap.so
 * /usr/lib/samba/ldb/ldb.so
 * /usr/lib/samba/ldb/ldbsamba_extensions.so
 * /usr/lib/samba/ldb/linked_attributes.so
@@ -231,7 +233,6 @@ SMB client library.
 * /usr/lib/samba/libldb-cmdline-private-samba.so
 * /usr/lib/samba/libldb-key-value-private-samba.so
 * /usr/lib/samba/libldb-mdb-int-private-samba.so
-* /usr/lib/samba/libldb-private-samba.so
 * /usr/lib/samba/libldb-tdb-err-map-private-samba.so
 * /usr/lib/samba/libldb-tdb-int-private-samba.so
 * /usr/lib/samba/libldbsamba-private-samba.so
@@ -267,7 +268,8 @@ SMB client library.
 * /usr/lib/samba/libsamba-cluster-support-private-samba.so
 * /usr/lib/samba/libsamba-debug-private-samba.so
 * /usr/lib/samba/libsamba-modules-private-samba.so
-* /usr/lib/samba/libsamba-net.cpython-312-x86-64-linux-gnu-private-samba.so
+* /usr/lib/samba/libsamba-net-join.cpython-312-x86-64-linux-gnu-private-samba.so
+* /usr/lib/samba/libsamba-net-private-samba.so
 * /usr/lib/samba/libsamba-python.cpython-312-x86-64-linux-gnu-private-samba.so
 * /usr/lib/samba/libsamba-security-private-samba.so
 * /usr/lib/samba/libsamba-sockets-private-samba.so
@@ -291,10 +293,8 @@ SMB client library.
 * /usr/lib/samba/libtalloc-report-printf-private-samba.so
 * /usr/lib/samba/libtalloc-report-private-samba.so
 * /usr/lib/samba/libtdb-wrap-private-samba.so
-* /usr/lib/samba/libtevent-private-samba.so
 * /usr/lib/samba/libtime-basic-private-samba.so
 * /usr/lib/samba/libtorture-private-samba.so
-* /usr/lib/samba/libtrusts-util-private-samba.so
 * /usr/lib/samba/libutil-reg-private-samba.so
 * /usr/lib/samba/libutil-setid-private-samba.so
 * /usr/lib/samba/libutil-tdb-private-samba.so

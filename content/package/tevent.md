@@ -12,6 +12,7 @@ size = "52040"
 usize = "201480"
 sha1sum = "27bc0a869e83f8fea95cf9c297185fe5dbd5a6c4"
 depends = "['talloc']"
+reverse_depends = "['libsmbclient', 'samba-client']"
 +++
 ### Description: 
 Event system based on the talloc memory management library
