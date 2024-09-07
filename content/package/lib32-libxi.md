@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxi 1.8.1-3"
-version = "1.8.1-3"
+title = "lib32-libxi 1.8.2-1"
+version = "1.8.2-1"
 description = "X inputextension library ( 32bit )"
-date = "2024-05-16T03:06:53"
+date = "2024-09-07T10:03:59"
 aliases = "/packages/217898"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "38104"
-usize = "133306"
-sha1sum = "13055dde9b466c10902f753b59fab16bb2ceb91d"
+size = "38268"
+usize = "128282"
+sha1sum = "533a041c34b66c873cf9b94e715f0fc63949de2a"
 depends = "['lib32-libx11>=1.6.8', 'lib32-libxext>=1.3.3-3', 'lib32-libxfixes>=5.0.3']"
 reverse_depends = "['lib32-gtk+2-libs', 'lib32-libxtst', 'wine', 'wine-devel']"
 +++

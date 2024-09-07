@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxi 1.8.1-3"
-version = "1.8.1-3"
+title = "libxi 1.8.2-1"
+version = "1.8.2-1"
 description = "X inputextension library"
-date = "2024-05-16T03:06:53"
+date = "2024-09-07T10:03:59"
 aliases = "/packages/4796"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "196784"
-usize = "697353"
-sha1sum = "eb616b7aa3b57d54317a3b2d2ee92bf1b8423afa"
+size = "197148"
+usize = "695111"
+sha1sum = "0d15249f69b083c88aa0fdb959b12a97be8a357c"
 depends = "['libx11>=1.6.8', 'libxext>=1.3.3-3', 'libxfixes>=5.0.3']"
 reverse_depends = "['blender', 'box2d', 'efl', 'enlightenment', 'flightgear', 'fox', 'freeglut', 'geogram', 'gtk+2-libs', 'gtk+3', 'gtk+4', 'guarddog', 'kasablanca', 'kat', 'kitty', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'kzenexplorer', 'libxtst', 'maxemumtvguide', 'mlt-qt', 'mupdf', 'opendiablo2', 'qscintilla2', 'qt5-base', 'qt6-base', 'terminology', 'whalebird', 'wine', 'wine-devel', 'xeyes', 'xf86-input-synaptics', 'xf86-input-wacom', 'xinput', 'xsetmode', 'xsetpointer']"
 license = "GPL2"
@@ -25,13 +25,13 @@ X inputextension library
 * /usr/lib/libXi.so.6
 * /usr/lib/libXi.so.6.1.0
 * /usr/lib/pkgconfig/xi.pc
-* /usr/share/doc/libxi-1.8.1/ChangeLog
-* /usr/share/doc/libxi-1.8.1/COPYING
-* /usr/share/doc/libxi-1.8.1/encoding.xml
-* /usr/share/doc/libxi-1.8.1/inputlib.xml
-* /usr/share/doc/libxi-1.8.1/INSTALL
-* /usr/share/doc/libxi-1.8.1/library.xml
-* /usr/share/doc/libxi-1.8.1/README.md
+* /usr/share/doc/libxi-1.8.2/ChangeLog
+* /usr/share/doc/libxi-1.8.2/COPYING
+* /usr/share/doc/libxi-1.8.2/encoding.xml
+* /usr/share/doc/libxi-1.8.2/inputlib.xml
+* /usr/share/doc/libxi-1.8.2/INSTALL
+* /usr/share/doc/libxi-1.8.2/library.xml
+* /usr/share/doc/libxi-1.8.2/README.md
 * /usr/share/man/man3/XAllowDeviceEvents.3.gz
 * /usr/share/man/man3/XChangeDeviceControl.3.gz
 * /usr/share/man/man3/XChangeDeviceDontPropagateList.3.gz
