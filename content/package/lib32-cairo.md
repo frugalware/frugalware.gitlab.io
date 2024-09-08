@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-cairo 1.18.0-6"
-version = "1.18.0-6"
+title = "lib32-cairo 1.18.2-1"
+version = "1.18.2-1"
 description = "A vector graphics library with cross-device output support ( 32bit )"
-date = "2024-08-18T19:09:58"
+date = "2024-09-08T21:08:03"
 aliases = "/packages/218971"
 categories = ['lib32-extra']
 upstreamurl = "https://cairographics.org"
 arch = "x86_64"
-size = "584224"
-usize = "1651192"
-sha1sum = "92f49c7a0175f26c5c90da5f10cd3417f602609c"
+size = "585304"
+usize = "1655250"
+sha1sum = "7d437faee2d5528fdc10eac0cd0ffa0815057300"
 depends = "['lib32-binutils>=2.43.1', 'lib32-fontconfig>=2.12.1-2', 'lib32-freetype2', 'lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.24', 'lib32-libx11', 'lib32-libxcb', 'lib32-libxext', 'lib32-libxrender>=0.9.9-5', 'lib32-lzo', 'lib32-pixman>=0.32.8-3']"
 reverse_depends = "['lib32-harfbuzz', 'lib32-pango', 'steam-native']"
 +++
@@ -38,13 +38,13 @@ A vector graphics library with cross-device output support ( 32bit )
 * /usr/lib32/cairo/libcairo-trace.so
 * /usr/lib32/libcairo-gobject.so
 * /usr/lib32/libcairo-gobject.so.2
-* /usr/lib32/libcairo-gobject.so.2.11800.0
+* /usr/lib32/libcairo-gobject.so.2.11802.2
 * /usr/lib32/libcairo-script-interpreter.so
 * /usr/lib32/libcairo-script-interpreter.so.2
-* /usr/lib32/libcairo-script-interpreter.so.2.11800.0
+* /usr/lib32/libcairo-script-interpreter.so.2.11802.2
 * /usr/lib32/libcairo.so
 * /usr/lib32/libcairo.so.2
-* /usr/lib32/libcairo.so.2.11800.0
+* /usr/lib32/libcairo.so.2.11802.2
 * /usr/lib32/pkgconfig/cairo-fc.pc
 * /usr/lib32/pkgconfig/cairo-ft.pc
 * /usr/lib32/pkgconfig/cairo-gobject.pc
