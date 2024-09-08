@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texinfo 7.1-2"
-version = "7.1-2"
+title = "texinfo 7.1.1-1"
+version = "7.1.1-1"
 description = "The GNU info program and utilities"
-date = "2024-05-16T04:33:49"
+date = "2024-09-08T20:50:07"
 aliases = "/packages/2450"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnu.org/software/texinfo/"
 arch = "x86_64"
-size = "1756708"
-usize = "11028710"
-sha1sum = "06845bcd1a43f995a752e3fb0774309abea6a68e"
+size = "1661776"
+usize = "10600977"
+sha1sum = "3565401b23e43f0e0ad63c35a6d8f4b82a44890d"
 depends = "['gawk>=4.1.3-4', 'grep>=3.1-2', 'ncurses>=6.0-18', 'perl>=5.34', 'sed>=4.4-3', 'shadow>=4.1.2.1-2']"
 reverse_depends = "['a2ps', 'libtasn1']"
 +++
@@ -29,18 +29,15 @@ The GNU info program and utilities
 * /usr/bin/texi2dvi
 * /usr/bin/texi2pdf
 * /usr/bin/texindex
-* /usr/lib/texinfo/MiscXS.so
-* /usr/lib/texinfo/Parsetexi.so
-* /usr/lib/texinfo/XSParagraph.so
-* /usr/share/doc/texinfo-7.1/AUTHORS
-* /usr/share/doc/texinfo-7.1/ChangeLog
-* /usr/share/doc/texinfo-7.1/COPYING
-* /usr/share/doc/texinfo-7.1/INSTALL
-* /usr/share/doc/texinfo-7.1/INSTALL.generic
-* /usr/share/doc/texinfo-7.1/NEWS
-* /usr/share/doc/texinfo-7.1/README
-* /usr/share/doc/texinfo-7.1/README-hacking
-* /usr/share/doc/texinfo-7.1/TODO
+* /usr/share/doc/texinfo-7.1.1/AUTHORS
+* /usr/share/doc/texinfo-7.1.1/ChangeLog
+* /usr/share/doc/texinfo-7.1.1/COPYING
+* /usr/share/doc/texinfo-7.1.1/INSTALL
+* /usr/share/doc/texinfo-7.1.1/INSTALL.generic
+* /usr/share/doc/texinfo-7.1.1/NEWS
+* /usr/share/doc/texinfo-7.1.1/README
+* /usr/share/doc/texinfo-7.1.1/README-hacking
+* /usr/share/doc/texinfo-7.1.1/TODO
 * /usr/share/info/info-stnd.info.gz
 * /usr/share/info/texi2any_api.info.gz
 * /usr/share/info/texi2any_internals.info.gz
@@ -76,6 +73,7 @@ The GNU info program and utilities
 * /usr/share/locale/it/LC_MESSAGES/texinfo_document.mo
 * /usr/share/locale/ja/LC_MESSAGES/texinfo.mo
 * /usr/share/locale/ka/LC_MESSAGES/texinfo.mo
+* /usr/share/locale/ka/LC_MESSAGES/texinfo_document.mo
 * /usr/share/locale/nb/LC_MESSAGES/texinfo.mo
 * /usr/share/locale/nl/LC_MESSAGES/texinfo.mo
 * /usr/share/locale/nl/LC_MESSAGES/texinfo_document.mo
@@ -571,5 +569,4 @@ The GNU info program and utilities
 * /usr/share/texinfo/Texinfo/Structuring.pm
 * /usr/share/texinfo/Texinfo/Transformations.pm
 * /usr/share/texinfo/Texinfo/Translations.pm
-* /usr/share/texinfo/Texinfo/XS/parsetexi/Parsetexi.pm
 * /usr/share/texinfo/Texinfo/XSLoader.pm

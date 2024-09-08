@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libisl 0.26-3"
-version = "0.26-3"
+title = "libisl 0.27-1"
+version = "0.27-1"
 description = "Library for manipulating sets and relations of integer points bounded by linear constraints"
-date = "2024-05-10T14:34:48"
+date = "2024-09-08T20:55:50"
 aliases = "/packages/220818"
 categories = ['chroot-core']
 upstreamurl = "https://sourceforge.net/projects/libisl"
 arch = "x86_64"
-size = "9745984"
-usize = "17816540"
-sha1sum = "b32e32fb205d6a48c17297eb6abdd14ed8ee23e7"
+size = "9857004"
+usize = "17940435"
+sha1sum = "ba8effeca51ad1f836c9168af6cf45b99e746b83"
 depends = "['gmp']"
 reverse_depends = "['gcc', 'gcc-12', 'gcc-13']"
 +++
@@ -83,10 +83,10 @@ Library for manipulating sets and relations of integer points bounded by linear 
 * /usr/lib/libisl.a
 * /usr/lib/libisl.so
 * /usr/lib/libisl.so.23
-* /usr/lib/libisl.so.23.3.0
-* /usr/lib/libisl.so.23.3.0-gdb.py
+* /usr/lib/libisl.so.23.4.0
+* /usr/lib/libisl.so.23.4.0-gdb.py
 * /usr/lib/pkgconfig/isl.pc
-* /usr/share/doc/libisl-0.26/AUTHORS
-* /usr/share/doc/libisl-0.26/ChangeLog
-* /usr/share/doc/libisl-0.26/LICENSE
-* /usr/share/doc/libisl-0.26/README
+* /usr/share/doc/libisl-0.27/AUTHORS
+* /usr/share/doc/libisl-0.27/ChangeLog
+* /usr/share/doc/libisl-0.27/LICENSE
+* /usr/share/doc/libisl-0.27/README
