@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-uri 5.28-2"
-version = "5.28-2"
+title = "perl-uri 5.29-1"
+version = "5.29-1"
 description = "Uniform Resource Identifiers (absolute and relative)"
-date = "2024-06-11T13:16:10"
+date = "2024-09-08T20:08:47"
 aliases = "/packages/3286"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "91668"
-usize = "213754"
-sha1sum = "bd83ebd01e0cbee47ec51a41e09f723cdc81d352"
+size = "96048"
+usize = "225188"
+sha1sum = "a029d1279f08093a5d21e0ad191901bc78b42871"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 'perl-www-robotrules']"
 +++
@@ -46,6 +46,7 @@ Uniform Resource Identifiers (absolute and relative)
 * /usr/lib/perl5/site_perl/URI/news.pm
 * /usr/lib/perl5/site_perl/URI/nntp.pm
 * /usr/lib/perl5/site_perl/URI/nntps.pm
+* /usr/lib/perl5/site_perl/URI/otpauth.pm
 * /usr/lib/perl5/site_perl/URI/pop.pm
 * /usr/lib/perl5/site_perl/URI/QueryParam.pm
 * /usr/lib/perl5/site_perl/URI/rlogin.pm
@@ -75,9 +76,9 @@ Uniform Resource Identifiers (absolute and relative)
 * /usr/lib/perl5/site_perl/URI/_segment.pm
 * /usr/lib/perl5/site_perl/URI/_server.pm
 * /usr/lib/perl5/site_perl/URI/_userpass.pm
-* /usr/share/doc/perl-uri-5.28/LICENSE
-* /usr/share/doc/perl-uri-5.28/MANIFEST
-* /usr/share/doc/perl-uri-5.28/README
+* /usr/share/doc/perl-uri-5.29/LICENSE
+* /usr/share/doc/perl-uri-5.29/MANIFEST
+* /usr/share/doc/perl-uri-5.29/README
 * /usr/share/man/man3/URI.3perl.gz
 * /usr/share/man/man3/URI::data.3perl.gz
 * /usr/share/man/man3/URI::Escape.3perl.gz
@@ -87,6 +88,7 @@ Uniform Resource Identifiers (absolute and relative)
 * /usr/share/man/man3/URI::icap.3perl.gz
 * /usr/share/man/man3/URI::icaps.3perl.gz
 * /usr/share/man/man3/URI::ldap.3perl.gz
+* /usr/share/man/man3/URI::otpauth.3perl.gz
 * /usr/share/man/man3/URI::QueryParam.3perl.gz
 * /usr/share/man/man3/URI::Split.3perl.gz
 * /usr/share/man/man3/URI::URL.3perl.gz

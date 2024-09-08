@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "json-glib 1.9.2-1"
-version = "1.9.2-1"
+title = "json-glib 1.10.0-1"
+version = "1.10.0-1"
 description = "JSON library built on GLib"
-date = "2024-07-14T14:45:25"
+date = "2024-09-08T19:38:56"
 aliases = "/packages/49906"
 categories = ['devel']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1340372"
-usize = "4687453"
-sha1sum = "800ae3d2866186ba4833ac57c9e0673181eb7739"
+size = "1342460"
+usize = "4695880"
+sha1sum = "b4997f3da93ae7e4bebd5a32da97f5c9f950967a"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1-3', 'pcre>=8.37-3']"
 reverse_depends = "['appstream-glib', 'chromium-browser', 'conky-manager', 'darktable', 'flatpak', 'gegl', 'geoclue2', 'gst1-plugins-bad-json', 'jsonrpc-glib', 'libgusb', 'libjcat', 'librest', 'openvas-scanner', 'pavucontrol', 'pidgin-facebookchat', 'pidgin-skypeweb', 'remmina', 'spice-glib', 'sysprof', 'tootle', 'zeitgeist']"
 +++
@@ -53,7 +53,7 @@ JSON library built on GLib
 * /usr/lib/json-glib/installed-tests/json-glib-1.0/stream-load.json
 * /usr/lib/libjson-glib-1.0.so
 * /usr/lib/libjson-glib-1.0.so.0
-* /usr/lib/libjson-glib-1.0.so.0.902.0
+* /usr/lib/libjson-glib-1.0.so.0.1000.0
 * /usr/lib/pkgconfig/json-glib-1.0.pc
 * /usr/share/doc/json-glib-1.0/callback.ArrayForeach.html
 * /usr/share/doc/json-glib-1.0/callback.BoxedDeserializeFunc.html
@@ -379,9 +379,9 @@ JSON library built on GLib
 * /usr/share/doc/json-glib-1.0/vfunc.Serializable.list_properties.html
 * /usr/share/doc/json-glib-1.0/vfunc.Serializable.serialize_property.html
 * /usr/share/doc/json-glib-1.0/vfunc.Serializable.set_property.html
-* /usr/share/doc/json-glib-1.9.2/COPYING
-* /usr/share/doc/json-glib-1.9.2/NEWS
-* /usr/share/doc/json-glib-1.9.2/README.md
+* /usr/share/doc/json-glib-1.10.0/COPYING
+* /usr/share/doc/json-glib-1.10.0/NEWS
+* /usr/share/doc/json-glib-1.10.0/README.md
 * /usr/share/gir-1.0/Json-1.0.gir
 * /usr/share/installed-tests/json-glib-1.0/array.test
 * /usr/share/installed-tests/json-glib-1.0/boxed.test
