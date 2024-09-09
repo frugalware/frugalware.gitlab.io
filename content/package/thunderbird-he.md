@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-he 128.1.0-1"
-version = "128.1.0-1"
+title = "thunderbird-he 128.2.0-1"
+version = "128.2.0-1"
 description = "Hebrew language support for Thunderbird"
-date = "2024-08-08T11:49:00"
+date = "2024-09-09T15:45:41"
 aliases = "/packages/60882"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "631920"
-usize = "698228"
-sha1sum = "f83da67cef9e8a7cb86b39a48092e30b987b0f2b"
-depends = "['thunderbird>=128.1.0']"
+size = "633812"
+usize = "700301"
+sha1sum = "548b537ba4b0514ae2bb68f91e0a3bbb126212be"
+depends = "['thunderbird>=128.2.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
