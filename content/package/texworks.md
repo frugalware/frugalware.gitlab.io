@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texworks 0.6.9-1"
-version = "0.6.9-1"
+title = "texworks 0.6.9-2"
+version = "0.6.9-2"
 description = "A simple interface for working with TeX documents"
-date = "2024-09-04T10:02:44"
+date = "2024-09-09T13:47:26"
 aliases = "/packages/168956"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/TeXworks/texworks"
 arch = "x86_64"
-size = "2721160"
+size = "2720144"
 usize = "6516536"
-sha1sum = "4c4325a691f83e166b5157abcd5e71a6bfe5414c"
-depends = "['ghostscript', 'hunspell>=1.6.1', 'hunspell>=1.7.0', 'lua>=5.4', 'poppler-qt5>=0.60.1-2', 'qt5-base>=5.15.15', 'qt5-script>=5.15.15', 'texlive']"
+sha1sum = "94daf7fb29aed85f5e001c8f042300c205c76e5e"
+depends = "['ghostscript', 'hunspell>=1.6.1', 'hunspell>=1.7.0', 'lua>=5.4', 'poppler-qt5>=24.09.0', 'qt5-base>=5.15.15', 'qt5-script>=5.15.15', 'texlive']"
 +++
 ### Description: 
 A simple interface for working with TeX documents

@@ -12,7 +12,7 @@ size = "46512"
 usize = "182076"
 sha1sum = "efa8e72b6f679d13e762dff720522358f029cb93"
 depends = "['qt6-base']"
-reverse_depends = "['qt6-positioning', 'qt6-serialbus']"
+reverse_depends = "['labplot', 'qt6-positioning', 'qt6-serialbus']"
 +++
 ### Description: 
 The Qt6 toolkit, qtserialport

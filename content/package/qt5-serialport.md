@@ -12,7 +12,7 @@ size = "42000"
 usize = "148892"
 sha1sum = "daffcf004c45f2e058d90fce9e87efe59e9428e3"
 depends = "['qt5-declarative>=5.15.15']"
-reverse_depends = "['labplot', 'libmarble', 'qt5-serialbus']"
+reverse_depends = "['libmarble', 'qt5-serialbus']"
 +++
 ### Description: 
 The Qt5 toolkit, qtserialport

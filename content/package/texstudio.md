@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texstudio 4.8.2-1"
-version = "4.8.2-1"
+title = "texstudio 4.8.2-2"
+version = "4.8.2-2"
 description = "Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents"
-date = "2024-09-04T09:58:40"
+date = "2024-09-09T13:44:49"
 aliases = "/packages/168583"
 categories = ['xapps-extra']
 upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
-size = "59383284"
-usize = "362633713"
-sha1sum = "c48494918618f34c049c3c0a263f208a4cbbecc5"
-depends = "['hunspell>=1.7.0', 'poppler-qt6>=0.60.1-2', 'qt6-5compat', 'qt6-declarative', 'qt6-svg', 'quazip-qt6']"
+size = "62956952"
+usize = "366207569"
+sha1sum = "9fcadadf91e6ce88e4cf5a83f889bc6e11a58acb"
+depends = "['hunspell>=1.7.0', 'poppler-qt6>=24.09.0', 'qt6-5compat', 'qt6-declarative', 'qt6-svg', 'quazip-qt6']"
 +++
 ### Description: 
 Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents
