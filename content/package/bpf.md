@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bpf 6.10.8-1"
-version = "6.10.8-1"
+title = "bpf 6.10.9-1"
+version = "6.10.9-1"
 description = "BPF Tools"
-date = "2024-09-05T14:52:16"
+date = "2024-09-09T08:28:36"
 aliases = "/packages/222514"
 categories = ['network-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "355168"
+size = "354936"
 usize = "875689"
-sha1sum = "9d83b6cc39bf962d2354748465d7726f8547c31b"
+sha1sum = "7cdfe59f1251bfced1c0950af01b9f2448408d86"
 depends = "['binutils>=2.43.1', 'libcap']"
 +++
 ### Description: 

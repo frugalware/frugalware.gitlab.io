@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lmdb 0.9.33-1"
-version = "0.9.33-1"
+title = "lmdb 0.9.33-2"
+version = "0.9.33-2"
 description = "Symas Lightning Memory-Mapped Database"
-date = "2024-05-28T08:25:03"
+date = "2024-09-09T08:57:21"
 aliases = "/packages/218376"
 categories = ['apps']
 upstreamurl = "https://symas.com/lmdb"
 arch = "x86_64"
-size = "107580"
-usize = "411380"
-sha1sum = "17cbdff7c0c4904807be9a62ede99057781a0e7a"
+size = "119948"
+usize = "411996"
+sha1sum = "163b6007841bfdab5c962779928092f69766d957"
 depends = "['glibc>=2.34']"
 reverse_depends = "['baloo', 'baloo5', 'libsmbclient', 'postfix']"
 +++
