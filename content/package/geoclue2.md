@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "geoclue2 2.7.1-3"
-version = "2.7.1-3"
+title = "geoclue2 2.7.2-1"
+version = "2.7.2-1"
 description = "A D-Bus service that provides location information"
-date = "2024-01-30T11:51:04"
+date = "2024-09-09T11:10:04"
 aliases = "/packages/200119"
 categories = ['xlib']
 upstreamurl = "https://gitlab.freedesktop.org/geoclue/geoclue/-/wikis/home"
 arch = "x86_64"
-size = "209760"
-usize = "1630069"
-sha1sum = "4c19b682199dcfe34af7b9edc3e864e0bc7823f7"
+size = "196412"
+usize = "1521294"
+sha1sum = "0502a1c3322fe5a6b7ab652ebddb4c31cdf95715"
 depends = "['avahi>=0.6.31-9', 'avahi-glib>=0.6.31-9', 'json-glib>=1.4.2-3', 'libnotify', 'libsoup3', 'modemmanager>=1.6.2']"
 reverse_depends = "['clight', 'xdg-desktop-portal']"
 +++
@@ -50,10 +50,10 @@ A D-Bus service that provides location information
 * /usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service
 * /usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.conf
-* /usr/share/doc/geoclue2-2.7.1/COPYING
-* /usr/share/doc/geoclue2-2.7.1/COPYING.LIB
-* /usr/share/doc/geoclue2-2.7.1/NEWS
-* /usr/share/doc/geoclue2-2.7.1/README.md
+* /usr/share/doc/geoclue2-2.7.2/COPYING
+* /usr/share/doc/geoclue2-2.7.2/COPYING.LIB
+* /usr/share/doc/geoclue2-2.7.2/NEWS
+* /usr/share/doc/geoclue2-2.7.2/README.md
 * /usr/share/gir-1.0/Geoclue-2.0.gir
 * /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Agent.html
 * /usr/share/gtk-doc/html/geoclue/gdbus-org.freedesktop.GeoClue2.Client.html

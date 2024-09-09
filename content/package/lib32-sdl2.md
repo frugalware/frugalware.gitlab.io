@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sdl2 2.30.6-1"
-version = "2.30.6-1"
+title = "lib32-sdl2 2.30.7-1"
+version = "2.30.7-1"
 description = "Simple DirectMedia Layer library v2 ( 32bit )"
-date = "2024-08-02T13:49:42"
+date = "2024-09-09T11:13:23"
 aliases = "/packages/219183"
 categories = ['lib32-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "906736"
-usize = "4433428"
-sha1sum = "1bac3fb0dc9bb19e4e5de1c781386e5ffbf744f6"
+size = "905556"
+usize = "4434260"
+sha1sum = "395d35fe745af5919939da13e2ecab2f36d721f3"
 depends = "[]"
 reverse_depends = "['lib32-faudio', 'lib32-openal', 'lib32-sdl2_image', 'lib32-sdl2_mixer', 'lib32-v4l-utils']"
 +++
@@ -100,6 +100,6 @@ Simple DirectMedia Layer library v2 ( 32bit )
 * /usr/lib32/cmake/SDL2/sdl2-config-version.cmake
 * /usr/lib32/cmake/SDL2/sdl2-config.cmake
 * /usr/lib32/libSDL2-2.0.so.0
-* /usr/lib32/libSDL2-2.0.so.0.3000.6
+* /usr/lib32/libSDL2-2.0.so.0.3000.7
 * /usr/lib32/libSDL2.so
 * /usr/lib32/pkgconfig/sdl2.pc
