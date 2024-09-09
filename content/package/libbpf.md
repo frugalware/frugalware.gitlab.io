@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libbpf 1.4.5-3"
-version = "1.4.5-3"
+title = "libbpf 1.4.6-1"
+version = "1.4.6-1"
 description = "Library for loading eBPF programs and reading and manipulating eBPF objects from user-space"
-date = "2024-07-21T09:02:00"
+date = "2024-09-09T12:06:37"
 aliases = "/packages/221542"
 categories = ['lib']
 upstreamurl = "https://github.com/libbpf/libbpf"
 arch = "x86_64"
-size = "238652"
-usize = "806030"
-sha1sum = "62b63a8fec4189c9f7d219d88dc409572d5d5909"
+size = "238304"
+usize = "807926"
+sha1sum = "61544ecd9e3749dedb1e070d30f220f2ae1ff972"
 depends = "['elfutils']"
 reverse_depends = "['iproute2', 'pahole', 'qemu', 'sysdig', 'v4l-utils']"
 +++
@@ -33,7 +33,7 @@ Library for loading eBPF programs and reading and manipulating eBPF objects from
 * /usr/include/bpf/usdt.bpf.h
 * /usr/lib/libbpf.so
 * /usr/lib/libbpf.so.1
-* /usr/lib/libbpf.so.1.4.5
+* /usr/lib/libbpf.so.1.4.6
 * /usr/lib/pkgconfig/libbpf.pc
-* /usr/share/doc/libbpf-1.4.5/LICENSE
-* /usr/share/doc/libbpf-1.4.5/README.md
+* /usr/share/doc/libbpf-1.4.6/LICENSE
+* /usr/share/doc/libbpf-1.4.6/README.md

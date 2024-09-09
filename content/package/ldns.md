@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ldns 1.8.3-3"
-version = "1.8.3-3"
+title = "ldns 1.8.4-1"
+version = "1.8.4-1"
 description = "Fast DNS library supporting recent RFCs"
-date = "2023-03-15T20:51:34"
+date = "2024-09-09T11:41:41"
 aliases = "/packages/219278"
 categories = ['lib']
 upstreamurl = "https://www.nlnetlabs.nl/projects/ldns/"
 arch = "x86_64"
-size = "466380"
-usize = "2068875"
-sha1sum = "2346499a9017cf8dbe221cefb52505d515df1dc5"
+size = "465536"
+usize = "1882463"
+sha1sum = "8753d8371884fbf480a989206fbbd8aba6533a3b"
 depends = "['dnssec-anchors', 'libpcap', 'openssl>=3.1.0']"
 reverse_depends = "['libreswan', 'openssh']"
 +++
@@ -80,14 +80,13 @@ Fast DNS library supporting recent RFCs
 * /usr/include/ldns/zone.h
 * /usr/lib/libldns.so
 * /usr/lib/libldns.so.3
-* /usr/lib/libldns.so.3.5.0
+* /usr/lib/libldns.so.3.6.0
 * /usr/lib/pkgconfig/ldns.pc
-* /usr/share/doc/ldns-1.8.3/Changelog
-* /usr/share/doc/ldns-1.8.3/LICENSE
-* /usr/share/doc/ldns-1.8.3/README
-* /usr/share/doc/ldns-1.8.3/README-Travis.md
-* /usr/share/doc/ldns-1.8.3/README.git
-* /usr/share/doc/ldns-1.8.3/README.snapshots
+* /usr/share/doc/ldns-1.8.4/Changelog
+* /usr/share/doc/ldns-1.8.4/LICENSE
+* /usr/share/doc/ldns-1.8.4/README
+* /usr/share/doc/ldns-1.8.4/README.git
+* /usr/share/doc/ldns-1.8.4/README.snapshots
 * /usr/share/man/man1/drill.1.gz
 * /usr/share/man/man1/ldns-chaos.1.gz
 * /usr/share/man/man1/ldns-compare-zones.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libevdev 1.13.2-1"
-version = "1.13.2-1"
+title = "libevdev 1.13.3-1"
+version = "1.13.3-1"
 description = "Wrapper library for evdev devices"
-date = "2024-06-03T08:43:54"
+date = "2024-09-09T11:45:14"
 aliases = "/packages/200940"
 categories = ['lib']
-upstreamurl = "http://www.freedesktop.org/wiki/Software/libevdev/"
+upstreamurl = "https://www.freedesktop.org/wiki/Software/libevdev/"
 arch = "x86_64"
-size = "58128"
-usize = "262349"
-sha1sum = "9d923fa0eebb86f7cb31be92e91641a21c6f1647"
+size = "60840"
+usize = "246604"
+sha1sum = "f22f197b010974babbd8774b67b2a37f3c939d06"
 depends = "['glibc>=2.34']"
 reverse_depends = "['efl', 'enlightenment', 'libei', 'libinput', 'libinput-debug-events', 'libmanette', 'libratbag', 'libwacom', 'python3-evdev', 'qt5-base', 'terminology', 'xf86-input-evdev', 'xf86-input-synaptics']"
 +++
@@ -27,8 +27,8 @@ Wrapper library for evdev devices
 * /usr/lib/libevdev.so.2
 * /usr/lib/libevdev.so.2.3.0
 * /usr/lib/pkgconfig/libevdev.pc
-* /usr/share/doc/libevdev-1.13.2/COPYING
-* /usr/share/doc/libevdev-1.13.2/README.md
+* /usr/share/doc/libevdev-1.13.3/COPYING
+* /usr/share/doc/libevdev-1.13.3/README.md
 * /usr/share/man/man1/libevdev-tweak-device.1.gz
 * /usr/share/man/man1/mouse-dpi-tool.1.gz
 * /usr/share/man/man1/touchpad-edge-detector.1.gz
