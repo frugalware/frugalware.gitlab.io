@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "python3-zeroconf 0.133.0-1"
-version = "0.133.0-1"
+title = "python3-zeroconf 0.134.0-1"
+version = "0.134.0-1"
 description = "A pure python implementation of multicast DNS service discovery"
-date = "2024-08-27T08:58:22"
+date = "2024-09-09T20:57:33"
 aliases = "/packages/220272"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/jstasiak/python-zeroconf"
+upstreamurl = "https://github.com/python-zeroconf/python-zeroconf"
 arch = "x86_64"
-size = "1027720"
-usize = "5618716"
-sha1sum = "69d49e49afe86afefed9ff02d54aa15536388bda"
+size = "1031732"
+usize = "5621791"
+sha1sum = "2e8a76f2570da3b5c89602bfdabf734298fb5330"
 depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
 ### Description: 
 A pure python implementation of multicast DNS service discovery
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/zeroconf-0.133.0.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/zeroconf-0.134.0.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/zeroconf-0.134.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/zeroconf-0.134.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/zeroconf-0.134.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/zeroconf/asyncio.py
 * /usr/lib/python3.12/site-packages/zeroconf/const.py
 * /usr/lib/python3.12/site-packages/zeroconf/py.typed
@@ -157,5 +157,5 @@ A pure python implementation of multicast DNS service discovery
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/_updates.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/zeroconf/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-zeroconf-0.133.0/COPYING
-* /usr/share/doc/python3-zeroconf-0.133.0/README.rst
+* /usr/share/doc/python3-zeroconf-0.134.0/COPYING
+* /usr/share/doc/python3-zeroconf-0.134.0/README.rst

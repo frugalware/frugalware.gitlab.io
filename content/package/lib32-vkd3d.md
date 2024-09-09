@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-vkd3d 1.12-1"
-version = "1.12-1"
+title = "lib32-vkd3d 1.13-1"
+version = "1.13-1"
 description = "Direct3D 12 to Vulkan translation library ( 32bit )"
-date = "2024-06-01T10:56:36"
+date = "2024-09-09T21:05:45"
 aliases = "/packages/219841"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/d3d12/vkd3d"
 arch = "x86_64"
-size = "619120"
-usize = "3150680"
-sha1sum = "20adb205de24fdf8c4ec4a3b41ebd7c79a6f9874"
+size = "657964"
+usize = "3235116"
+sha1sum = "653df1627b48757b4a3b27a7aaec0fbd9aba748c"
 depends = "['lib32-ncurses>=6.5', 'lib32-vulkan-icd-loader']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
@@ -37,13 +37,13 @@ Direct3D 12 to Vulkan translation library ( 32bit )
 * /usr/i686-frugalware-linux/include/vkd3d/vkd3d_windows.h
 * /usr/lib32/libvkd3d-shader.so
 * /usr/lib32/libvkd3d-shader.so.1
-* /usr/lib32/libvkd3d-shader.so.1.10.0
+* /usr/lib32/libvkd3d-shader.so.1.11.0
 * /usr/lib32/libvkd3d-utils.so
 * /usr/lib32/libvkd3d-utils.so.1
-* /usr/lib32/libvkd3d-utils.so.1.5.1
+* /usr/lib32/libvkd3d-utils.so.1.5.2
 * /usr/lib32/libvkd3d.so
 * /usr/lib32/libvkd3d.so.1
-* /usr/lib32/libvkd3d.so.1.12.0
+* /usr/lib32/libvkd3d.so.1.13.0
 * /usr/lib32/pkgconfig/libvkd3d-shader.pc
 * /usr/lib32/pkgconfig/libvkd3d-utils.pc
 * /usr/lib32/pkgconfig/libvkd3d.pc
