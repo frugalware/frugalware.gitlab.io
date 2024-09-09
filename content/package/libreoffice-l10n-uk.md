@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-uk 24.8.0.2-1"
-version = "24.8.0.2-1"
+title = "libreoffice-l10n-uk 24.8.0.2-2"
+version = "24.8.0.2-2"
 description = "Installs Ukrainian support in LibreOffice"
-date = "2024-09-06T21:07:07"
+date = "2024-09-09T14:07:45"
 aliases = "/packages/104133"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5085544"
+size = "5084636"
 usize = "39796701"
-sha1sum = "a30dc2e963fe92d184748e6a0e104a894a9e8f5e"
+sha1sum = "f56ba3694695f407830fc15a2168680feab38e22"
 depends = "['libreoffice>=24.8.0.2']"
 +++
 ### Description: 
