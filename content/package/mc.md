@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mc 4.8.31-2"
-version = "4.8.31-2"
+title = "mc 4.8.32-1"
+version = "4.8.32-1"
 description = "The GNU Midnight Commander is a CLI-based file manager"
-date = "2024-01-30T10:27:13"
+date = "2024-09-09T09:50:55"
 aliases = "/packages/2415"
 categories = ['base']
 upstreamurl = "https://www.midnight-commander.org/"
 arch = "x86_64"
-size = "1793924"
-usize = "7458179"
-sha1sum = "2034c1ef564d4e926a05f9d8b56049574e2bdd40"
+size = "1807536"
+usize = "7572382"
+sha1sum = "7b2a191c2e460295b93bf706cdf52ee605db197f"
 depends = "['glib2>=2.70', 'libssh2>=1.8.0-4', 'slang>=2.3.1a-5']"
 +++
 ### Description: 
@@ -98,12 +98,12 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/lib/mc/mc/shell/send
 * /usr/lib/mc/mc/shell/unlink
 * /usr/lib/mc/mc/shell/utime
-* /usr/share/doc/mc-4.8.31/AUTHORS
-* /usr/share/doc/mc-4.8.31/ChangeLog
-* /usr/share/doc/mc-4.8.31/COPYING
-* /usr/share/doc/mc-4.8.31/INSTALL
-* /usr/share/doc/mc-4.8.31/NEWS
-* /usr/share/doc/mc-4.8.31/README
+* /usr/share/doc/mc-4.8.32/AUTHORS
+* /usr/share/doc/mc-4.8.32/ChangeLog
+* /usr/share/doc/mc-4.8.32/COPYING
+* /usr/share/doc/mc-4.8.32/INSTALL
+* /usr/share/doc/mc-4.8.32/NEWS
+* /usr/share/doc/mc-4.8.32/README
 * /usr/share/locale/af/LC_MESSAGES/mc.mo
 * /usr/share/locale/ar/LC_MESSAGES/mc.mo
 * /usr/share/locale/az/LC_MESSAGES/mc.mo
@@ -168,6 +168,7 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/share/man/hu/man1/mc.1.gz
 * /usr/share/man/it/man1/mc.1.gz
 * /usr/share/man/man1/mc.1.gz
+* /usr/share/man/man1/mcdiff.1.gz
 * /usr/share/man/man1/mcedit.1.gz
 * /usr/share/man/man1/mcview.1.gz
 * /usr/share/man/pl/man1/mc.1.gz
@@ -237,14 +238,23 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/share/mc/skins/gray-green-purple256.ini
 * /usr/share/mc/skins/gray-orange-blue256.ini
 * /usr/share/mc/skins/julia256.ini
+* /usr/share/mc/skins/julia256root.ini
 * /usr/share/mc/skins/mc46.ini
+* /usr/share/mc/skins/modarcon16-defbg-thin.ini
 * /usr/share/mc/skins/modarcon16-defbg.ini
+* /usr/share/mc/skins/modarcon16-thin.ini
 * /usr/share/mc/skins/modarcon16.ini
+* /usr/share/mc/skins/modarcon16root-defbg-thin.ini
 * /usr/share/mc/skins/modarcon16root-defbg.ini
+* /usr/share/mc/skins/modarcon16root-thin.ini
 * /usr/share/mc/skins/modarcon16root.ini
+* /usr/share/mc/skins/modarin256-defbg-thin.ini
 * /usr/share/mc/skins/modarin256-defbg.ini
+* /usr/share/mc/skins/modarin256-thin.ini
 * /usr/share/mc/skins/modarin256.ini
+* /usr/share/mc/skins/modarin256root-defbg-thin.ini
 * /usr/share/mc/skins/modarin256root-defbg.ini
+* /usr/share/mc/skins/modarin256root-thin.ini
 * /usr/share/mc/skins/modarin256root.ini
 * /usr/share/mc/skins/nicedark.ini
 * /usr/share/mc/skins/sand256.ini
@@ -252,7 +262,9 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/share/mc/skins/seasons-spring16M.ini
 * /usr/share/mc/skins/seasons-summer16M.ini
 * /usr/share/mc/skins/seasons-winter16M.ini
+* /usr/share/mc/skins/xoria256-thin.ini
 * /usr/share/mc/skins/xoria256.ini
+* /usr/share/mc/skins/xoria256root-thin.ini
 * /usr/share/mc/skins/yadt256-defbg.ini
 * /usr/share/mc/skins/yadt256.ini
 * /usr/share/mc/syntax/ada95.syntax
