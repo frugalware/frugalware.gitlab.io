@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "weston 13.0.3-3"
-version = "13.0.3-3"
+title = "weston 14.0.0-1"
+version = "14.0.0-1"
 description = "Wayland Default Display Compositor"
-date = "2024-06-24T21:13:00"
+date = "2024-09-10T07:55:21"
 aliases = "/packages/168990"
 categories = ['x11-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "1234676"
-usize = "4724373"
-sha1sum = "e97f340b87a33f1c6fdcd7a7f77b04ce8a1d1f76"
-depends = "['freerdp2', 'gst1-plugins-base', 'lcms2', 'libdisplay-info>=0.2.0', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'neatvnc', 'pango', 'pipewire', 'seatd', 'wayland']"
+size = "1278716"
+usize = "5000771"
+sha1sum = "a1abb5a43d97e619be4ee9c32ce1bd721875f5ed"
+depends = "['freerdp', 'gst1-plugins-base', 'lcms2', 'libdisplay-info>=0.2.0', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'neatvnc', 'pango', 'pipewire', 'seatd', 'wayland']"
 +++
 ### Description: 
 Wayland Default Display Compositor
@@ -51,44 +51,44 @@ Wayland Default Display Compositor
 * /usr/bin/weston-terminal
 * /usr/bin/weston-touch-calibrator
 * /usr/bin/weston-transformed
-* /usr/include/libweston-13/libweston/backend-drm.h
-* /usr/include/libweston-13/libweston/backend-headless.h
-* /usr/include/libweston-13/libweston/backend-pipewire.h
-* /usr/include/libweston-13/libweston/backend-rdp.h
-* /usr/include/libweston-13/libweston/backend-vnc.h
-* /usr/include/libweston-13/libweston/backend-wayland.h
-* /usr/include/libweston-13/libweston/backend-x11.h
-* /usr/include/libweston-13/libweston/config-parser.h
-* /usr/include/libweston-13/libweston/desktop.h
-* /usr/include/libweston-13/libweston/libweston.h
-* /usr/include/libweston-13/libweston/matrix.h
-* /usr/include/libweston-13/libweston/pipewire-plugin.h
-* /usr/include/libweston-13/libweston/plugin-registry.h
-* /usr/include/libweston-13/libweston/remoting-plugin.h
-* /usr/include/libweston-13/libweston/shell-utils.h
-* /usr/include/libweston-13/libweston/version.h
-* /usr/include/libweston-13/libweston/weston-log.h
-* /usr/include/libweston-13/libweston/windowed-output-api.h
-* /usr/include/libweston-13/libweston/xwayland-api.h
-* /usr/include/libweston-13/libweston/zalloc.h
+* /usr/include/libweston-14/libweston/backend-drm.h
+* /usr/include/libweston-14/libweston/backend-headless.h
+* /usr/include/libweston-14/libweston/backend-pipewire.h
+* /usr/include/libweston-14/libweston/backend-rdp.h
+* /usr/include/libweston-14/libweston/backend-vnc.h
+* /usr/include/libweston-14/libweston/backend-wayland.h
+* /usr/include/libweston-14/libweston/backend-x11.h
+* /usr/include/libweston-14/libweston/config-parser.h
+* /usr/include/libweston-14/libweston/desktop.h
+* /usr/include/libweston-14/libweston/libweston.h
+* /usr/include/libweston-14/libweston/matrix.h
+* /usr/include/libweston-14/libweston/pipewire-plugin.h
+* /usr/include/libweston-14/libweston/plugin-registry.h
+* /usr/include/libweston-14/libweston/remoting-plugin.h
+* /usr/include/libweston-14/libweston/shell-utils.h
+* /usr/include/libweston-14/libweston/version.h
+* /usr/include/libweston-14/libweston/weston-log.h
+* /usr/include/libweston-14/libweston/windowed-output-api.h
+* /usr/include/libweston-14/libweston/xwayland-api.h
+* /usr/include/libweston-14/libweston/zalloc.h
 * /usr/include/weston/ivi-layout-export.h
 * /usr/include/weston/weston.h
-* /usr/lib/libweston-13.so
-* /usr/lib/libweston-13.so.0
-* /usr/lib/libweston-13.so.0.0.3
-* /usr/lib/libweston-13/color-lcms.so
-* /usr/lib/libweston-13/drm-backend.so
-* /usr/lib/libweston-13/gl-renderer.so
-* /usr/lib/libweston-13/headless-backend.so
-* /usr/lib/libweston-13/pipewire-backend.so
-* /usr/lib/libweston-13/pipewire-plugin.so
-* /usr/lib/libweston-13/rdp-backend.so
-* /usr/lib/libweston-13/remoting-plugin.so
-* /usr/lib/libweston-13/vnc-backend.so
-* /usr/lib/libweston-13/wayland-backend.so
-* /usr/lib/libweston-13/x11-backend.so
-* /usr/lib/libweston-13/xwayland.so
-* /usr/lib/pkgconfig/libweston-13.pc
+* /usr/lib/libweston-14.so
+* /usr/lib/libweston-14.so.0
+* /usr/lib/libweston-14.so.0.0.0
+* /usr/lib/libweston-14/color-lcms.so
+* /usr/lib/libweston-14/drm-backend.so
+* /usr/lib/libweston-14/gl-renderer.so
+* /usr/lib/libweston-14/headless-backend.so
+* /usr/lib/libweston-14/pipewire-backend.so
+* /usr/lib/libweston-14/pipewire-plugin.so
+* /usr/lib/libweston-14/rdp-backend.so
+* /usr/lib/libweston-14/remoting-plugin.so
+* /usr/lib/libweston-14/vnc-backend.so
+* /usr/lib/libweston-14/wayland-backend.so
+* /usr/lib/libweston-14/x11-backend.so
+* /usr/lib/libweston-14/xwayland.so
+* /usr/lib/pkgconfig/libweston-14.pc
 * /usr/lib/pkgconfig/weston.pc
 * /usr/lib/weston/desktop-shell.so
 * /usr/lib/weston/fullscreen-shell.so
@@ -104,12 +104,12 @@ Wayland Default Display Compositor
 * /usr/lib/weston/weston-ivi-shell-user-interface
 * /usr/lib/weston/weston-keyboard
 * /usr/lib/weston/weston-simple-im
-* /usr/share/doc/weston-13.0.3/COPYING
-* /usr/share/doc/weston-13.0.3/README.md
-* /usr/share/libweston-13/protocols/weston-content-protection.xml
-* /usr/share/libweston-13/protocols/weston-debug.xml
-* /usr/share/libweston-13/protocols/weston-direct-display.xml
-* /usr/share/libweston-13/protocols/weston-output-capture.xml
+* /usr/share/doc/weston-14.0.0/COPYING
+* /usr/share/doc/weston-14.0.0/README.md
+* /usr/share/libweston-14/protocols/weston-content-protection.xml
+* /usr/share/libweston-14/protocols/weston-debug.xml
+* /usr/share/libweston-14/protocols/weston-direct-display.xml
+* /usr/share/libweston-14/protocols/weston-output-capture.xml
 * /usr/share/man/man1/weston-debug.1.gz
 * /usr/share/man/man1/weston.1.gz
 * /usr/share/man/man5/weston.ini.5.gz
@@ -117,7 +117,7 @@ Wayland Default Display Compositor
 * /usr/share/man/man7/weston-drm.7.gz
 * /usr/share/man/man7/weston-rdp.7.gz
 * /usr/share/man/man7/weston-vnc.7.gz
-* /usr/share/pkgconfig/libweston-13-protocols.pc
+* /usr/share/pkgconfig/libweston-14-protocols.pc
 * /usr/share/wayland-sessions/weston.desktop
 * /usr/share/weston/background.png
 * /usr/share/weston/border.png

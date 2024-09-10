@@ -12,7 +12,7 @@ size = "1533648"
 usize = "6307917"
 sha1sum = "48bd9f1be46847c6bf70fa32b050e40fffcb7f36"
 depends = "['ffmpeg>=7.0', 'fuse3', 'icu4c>=75.1', 'libcups', 'libkrb5', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
-reverse_depends = "['krdc', 'krdp', 'weston']"
+reverse_depends = "['krdc', 'krdp']"
 +++
 ### Description: 
 Remote Desktop Protocol cliente
