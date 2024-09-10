@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-activities 6.1.4-1"
-version = "6.1.4-1"
+title = "plasma-activities 6.1.5-1"
+version = "6.1.5-1"
 description = "The KActivity Manager Daemon."
-date = "2024-08-07T07:14:49"
+date = "2024-09-10T11:57:38"
 aliases = "/packages/221374"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "116272"
-usize = "435246"
-sha1sum = "d2946355068822ee57da2bf89d51897533e46c5c"
-depends = "['kio>=6.4.0']"
+size = "115384"
+usize = "435646"
+sha1sum = "f20b0917505ee1e1586f69f8cc57db49fbbc3649"
+depends = "['kio>=6.5.0']"
 reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'krdc', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'systemsettings']"
 +++
 ### Description: 
@@ -39,16 +39,16 @@ The KActivity Manager Daemon.
 * /usr/lib/cmake/PlasmaActivities/PlasmaActivitiesLibraryTargets.cmake
 * /usr/lib/libPlasmaActivities.so
 * /usr/lib/libPlasmaActivities.so.6
-* /usr/lib/libPlasmaActivities.so.6.1.4
+* /usr/lib/libPlasmaActivities.so.6.1.5
 * /usr/lib/pkgconfig/PlasmaActivities.pc
 * /usr/lib/qt6/qml/org/kde/activities/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/activities/libplasmaactivitiesextensionplugin.so
 * /usr/lib/qt6/qml/org/kde/activities/plasmaactivitiesextensionplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/activities/qmldir
-* /usr/share/doc/plasma-activities-6.1.4/README
-* /usr/share/doc/plasma-activities-6.1.4/README.developers
-* /usr/share/doc/plasma-activities-6.1.4/README.md
-* /usr/share/doc/plasma-activities-6.1.4/README.packagers
-* /usr/share/doc/plasma-activities-6.1.4/TODO
+* /usr/share/doc/plasma-activities-6.1.5/README
+* /usr/share/doc/plasma-activities-6.1.5/README.developers
+* /usr/share/doc/plasma-activities-6.1.5/README.md
+* /usr/share/doc/plasma-activities-6.1.5/README.packagers
+* /usr/share/doc/plasma-activities-6.1.5/TODO
 * /usr/share/qlogging-categories6/plasma-activities.categories
 * /usr/share/qlogging-categories6/plasma-activities.renamecategories

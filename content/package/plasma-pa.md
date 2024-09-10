@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "plasma-pa 6.1.4-1"
-version = "6.1.4-1"
+title = "plasma-pa 6.1.5-1"
+version = "6.1.5-1"
 description = "Plasma applet written in QML for PulseAudio"
-date = "2024-08-07T07:29:10"
+date = "2024-09-10T12:13:03"
 aliases = "/packages/218400"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "239152"
-usize = "1043510"
-sha1sum = "dc2e90f2111d695b515755e781dd9d1cbd95626d"
-depends = "['kcmutils>=6.4.0', 'kdeclarative>=6.4.0', 'kirigami-addons', 'kitemmodels>=6.4.0', 'kstatusnotifieritem>=6.4.0', 'ksvg>=6.4.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.1.4', 'pulseaudio-qt', 'sound-theme-freedesktop']"
+size = "238696"
+usize = "1048889"
+sha1sum = "e4f492897c5673bbfd504086c89e933f60852650"
+depends = "['kcmutils>=6.5.0', 'kdeclarative>=6.5.0', 'kirigami-addons', 'kitemmodels>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'ksvg>=6.5.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.1.5', 'pulseaudio-qt', 'sound-theme-freedesktop']"
 +++
 ### Description: 
 Plasma applet written in QML for PulseAudio
 
 ### Files: 
 * /usr/lib/libplasma-volume.so.6
-* /usr/lib/libplasma-volume.so.6.1.4
+* /usr/lib/libplasma-volume.so.6.1.5
 * /usr/lib/qt6/plugins/kf6/kded/audioshortcutsservice.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/volume/kde-qmlmodule.version
