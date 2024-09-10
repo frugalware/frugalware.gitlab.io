@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crawl-tiles 0.31.0-2"
-version = "0.31.0-2"
+title = "crawl-tiles 0.32.0-1"
+version = "0.32.0-1"
 description = "Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game"
-date = "2024-04-08T14:15:51"
+date = "2024-09-10T09:32:21"
 aliases = "/packages/168736"
 categories = ['games-extra']
 upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "19937664"
-usize = "39275684"
-sha1sum = "47141997780da45ece22c1cc6883768ccce93ce6"
+size = "21466016"
+usize = "54668232"
+sha1sum = "d8cc785f69c596a3b849292e2db2f8e07848cb40"
 depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -23,13 +23,17 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/clua/delays.lua
 * /usr/share/games/crawl-tiles/data/dat/clua/kills.lua
 * /usr/share/games/crawl-tiles/data/dat/clua/stash.lua
+* /usr/share/games/crawl-tiles/data/dat/database/colourname.txt
+* /usr/share/games/crawl-tiles/data/dat/database/decorlines.txt
 * /usr/share/games/crawl-tiles/data/dat/database/el/monflee.txt
 * /usr/share/games/crawl-tiles/data/dat/database/el/rand_all.txt
 * /usr/share/games/crawl-tiles/data/dat/database/FAQ.txt
+* /usr/share/games/crawl-tiles/data/dat/database/gizmo.txt
 * /usr/share/games/crawl-tiles/data/dat/database/godname.txt
 * /usr/share/games/crawl-tiles/data/dat/database/godspeak.txt
 * /usr/share/games/crawl-tiles/data/dat/database/help.txt
 * /usr/share/games/crawl-tiles/data/dat/database/insult.txt
+* /usr/share/games/crawl-tiles/data/dat/database/miscast.txt
 * /usr/share/games/crawl-tiles/data/dat/database/miscname.txt
 * /usr/share/games/crawl-tiles/data/dat/database/monflee.txt
 * /usr/share/games/crawl-tiles/data/dat/database/monname.txt
@@ -54,6 +58,7 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/database/zh/monspell.txt
 * /usr/share/games/crawl-tiles/data/dat/database/zh/montitle.txt
 * /usr/share/games/crawl-tiles/data/dat/database/zh/shout.txt
+* /usr/share/games/crawl-tiles/data/dat/database/zh/wpnnoise.txt
 * /usr/share/games/crawl-tiles/data/dat/defaults/autopickup_exceptions.txt
 * /usr/share/games/crawl-tiles/data/dat/defaults/glyph_colours.txt
 * /usr/share/games/crawl-tiles/data/dat/defaults/menu_colours.txt
@@ -141,6 +146,7 @@ Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-pla
 * /usr/share/games/crawl-tiles/data/dat/des/portals/arena.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/bailey.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/bazaar.des
+* /usr/share/games/crawl-tiles/data/dat/des/portals/crucible.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/desolation.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/gauntlet.des
 * /usr/share/games/crawl-tiles/data/dat/des/portals/icecave.des

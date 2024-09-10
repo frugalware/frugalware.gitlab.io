@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.77-1"
-version = "5.77-1"
+title = "bluez 5.78-1"
+version = "5.78-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2024-07-13T19:13:35"
+date = "2024-09-10T09:48:55"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1932072"
-usize = "6518128"
-sha1sum = "1f224d06fbbeb691cce014524d36a85c7aecfc7d"
+size = "1942468"
+usize = "6574384"
+sha1sum = "36c6df27bef0531a57f7196e36c15e7e5a44057a"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'ell', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -95,7 +95,7 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/lib/cups/backend/bluetooth
 * /usr/lib/libbluetooth.so
 * /usr/lib/libbluetooth.so.3
-* /usr/lib/libbluetooth.so.3.19.14
+* /usr/lib/libbluetooth.so.3.19.15
 * /usr/lib/modprobe.d/bluetooth-usb.conf
 * /usr/lib/modules-load.d/bluez.conf
 * /usr/lib/pkgconfig/bluez.pc
@@ -110,15 +110,16 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system-services/org.bluez.service
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
-* /usr/share/doc/bluez-5.77/AUTHORS
-* /usr/share/doc/bluez-5.77/ChangeLog
-* /usr/share/doc/bluez-5.77/COPYING
-* /usr/share/doc/bluez-5.77/COPYING.LIB
-* /usr/share/doc/bluez-5.77/INSTALL
-* /usr/share/doc/bluez-5.77/README
-* /usr/share/doc/bluez-5.77/TODO
+* /usr/share/doc/bluez-5.78/AUTHORS
+* /usr/share/doc/bluez-5.78/ChangeLog
+* /usr/share/doc/bluez-5.78/COPYING
+* /usr/share/doc/bluez-5.78/COPYING.LIB
+* /usr/share/doc/bluez-5.78/INSTALL
+* /usr/share/doc/bluez-5.78/README
+* /usr/share/doc/bluez-5.78/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
+* /usr/share/man/man1/bluetoothctl-assistant.1.gz
 * /usr/share/man/man1/bluetoothctl-endpoint.1.gz
 * /usr/share/man/man1/bluetoothctl-gatt.1.gz
 * /usr/share/man/man1/bluetoothctl-mgmt.1.gz
@@ -162,6 +163,7 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/man/man5/org.bluez.LEAdvertisement.5.gz
 * /usr/share/man/man5/org.bluez.LEAdvertisingManager.5.gz
 * /usr/share/man/man5/org.bluez.Media.5.gz
+* /usr/share/man/man5/org.bluez.MediaAssistant.5.gz
 * /usr/share/man/man5/org.bluez.MediaControl.5.gz
 * /usr/share/man/man5/org.bluez.MediaEndpoint.5.gz
 * /usr/share/man/man5/org.bluez.MediaFolder.5.gz
