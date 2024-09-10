@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-breeze-style 6.1.4-1"
-version = "6.1.4-1"
+title = "qqc2-breeze-style 6.1.5-1"
+version = "6.1.5-1"
 description = "Breeze inspired QQC2 Style"
-date = "2024-08-07T07:33:47"
+date = "2024-09-10T12:17:16"
 aliases = "/packages/220309"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "350820"
-usize = "2284494"
-sha1sum = "ef919c56cb1d2c33dc54a8b652ebf2c2a1b8897c"
-depends = "['kconfig>=6.4.0', 'kguiaddons>=6.4.0', 'kiconthemes>=6.4.0', 'kirigami>=6.4.0', 'kquickcharts>=6.4.0']"
+size = "349596"
+usize = "2275278"
+sha1sum = "7a02b2fc4f6943577c70c1d6030dc5717eab33cb"
+depends = "['kconfig>=6.5.0', 'kguiaddons>=6.5.0', 'kiconthemes>=6.5.0', 'kirigami>=6.5.0', 'kquickcharts>=6.5.0']"
 +++
 ### Description: 
 Breeze inspired QQC2 Style
@@ -110,4 +110,4 @@ Breeze inspired QQC2 Style
 * /usr/lib/qt6/qml/org/kde/breeze/ToolTip.qml
 * /usr/lib/qt6/qml/org/kde/breeze/Tumbler.qml
 * /usr/lib/qt6/qml/org/kde/breeze/VerticalHeaderView.qml
-* /usr/share/doc/qqc2-breeze-style-6.1.4/README.md
+* /usr/share/doc/qqc2-breeze-style-6.1.5/README.md
