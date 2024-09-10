@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeplasma-addons 6.1.4-1"
-version = "6.1.4-1"
+title = "kdeplasma-addons 6.1.5-1"
+version = "6.1.5-1"
 description = "Plasma AddOns"
-date = "2024-08-07T08:10:45"
+date = "2024-09-10T14:11:38"
 aliases = "/packages/221305"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1027680"
-usize = "6285170"
-sha1sum = "05513de0276b4a15dc2999b84cbd43a87e0a707f"
-depends = "['icu4c>=75.1', 'kcmutils>=6.4.0', 'kconfig>=6.4.0', 'kconfigwidgets>=6.4.0', 'kcoreaddons>=6.4.0', 'ki18n>=6.4.0', 'kio>=6.4.0', 'kirigami-addons', 'kitemmodels>=6.4.0', 'knewstuff>=6.4.0', 'krunner>=6.4.0', 'kservice>=6.4.0', 'kunitconversion>=6.4.0', 'plasma-activities>=6.1.4', 'plasma-workspace>=6.1.4', 'purpose>=6.4.0']"
+size = "1032384"
+usize = "6385906"
+sha1sum = "c21d385eef40551960ce005df5b57f497bd48e05"
+depends = "['icu4c>=75.1', 'kcmutils>=6.5.0', 'kconfig>=6.5.0', 'kconfigwidgets>=6.5.0', 'kcoreaddons>=6.5.0', 'ki18n>=6.5.0', 'kio>=6.5.0', 'kirigami-addons', 'kitemmodels>=6.5.0', 'knewstuff>=6.5.0', 'krunner>=6.5.0', 'kservice>=6.5.0', 'kunitconversion>=6.5.0', 'plasma-activities>=6.1.5', 'plasma-workspace>=6.1.5', 'purpose>=6.5.0']"
 +++
 ### Description: 
 Plasma AddOns
@@ -110,7 +110,7 @@ Plasma AddOns
 * /usr/lib/qt6/qml/org/kde/plasmacalendar/astronomicaleventsconfig/qmldir
 * /usr/share/dbus-1/system-services/org.kde.kameleonhelper.service
 * /usr/share/dbus-1/system.d/org.kde.kameleonhelper.conf
-* /usr/share/doc/kdeplasma-addons-6.1.4/README.md
+* /usr/share/doc/kdeplasma-addons-6.1.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/accessories-dictionary.svgz
 * /usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 * /usr/share/kdevappwizard/templates/plasmapotdprovider.tar.bz2

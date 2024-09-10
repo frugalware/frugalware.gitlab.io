@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-firewall 6.1.4-1"
-version = "6.1.4-1"
+title = "plasma-firewall 6.1.5-1"
+version = "6.1.5-1"
 description = "Control Panel for your system firewall"
-date = "2024-08-07T08:12:08"
+date = "2024-09-10T14:12:44"
 aliases = "/packages/220307"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "471272"
-usize = "1296052"
-sha1sum = "6cb59f59e6e53585651c95d219bf939c25962884"
-depends = "['systemsettings>=6.1.4']"
+size = "470532"
+usize = "1298041"
+sha1sum = "87ea1fe8c8bc505e3441e6639844b32d535165d8"
+depends = "['systemsettings>=6.1.5']"
 +++
 ### Description: 
 Control Panel for your system firewall
@@ -26,8 +26,8 @@ Control Panel for your system firewall
 * /usr/share/applications/kcm_firewall.desktop
 * /usr/share/dbus-1/system-services/org.kde.ufw.service
 * /usr/share/dbus-1/system.d/org.kde.ufw.conf
-* /usr/share/doc/plasma-firewall-6.1.4/INSTALL
-* /usr/share/doc/plasma-firewall-6.1.4/README.md
+* /usr/share/doc/plasma-firewall-6.1.5/INSTALL
+* /usr/share/doc/plasma-firewall-6.1.5/README.md
 * /usr/share/kcm_ufw/defaults
 * /usr/share/locale/ar/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_firewall.mo
