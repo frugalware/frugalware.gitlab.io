@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitty 0.36.1-1"
-version = "0.36.1-1"
+title = "kitty 0.36.2-1"
+version = "0.36.2-1"
 description = "A modern, hackable, featureful, OpenGL-based terminal emulator"
-date = "2024-08-24T10:25:43"
+date = "2024-09-10T18:34:44"
 aliases = "/packages/220895"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "13481520"
-usize = "47961026"
-sha1sum = "23726085ccbe64c190b1118786169bd6cdab331a"
+size = "13428664"
+usize = "47981122"
+sha1sum = "999bec5f1ba1dc9ffee44ea92ae53928127ea8dd"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.12', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
@@ -731,9 +731,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/applications/kitty-open.desktop
 * /usr/share/applications/kitty.desktop
 * /usr/share/bash-completion/completions/kitty
-* /usr/share/doc/kitty-0.36.1/INSTALL.md
-* /usr/share/doc/kitty-0.36.1/LICENSE
-* /usr/share/doc/kitty-0.36.1/README.asciidoc
+* /usr/share/doc/kitty-0.36.2/INSTALL.md
+* /usr/share/doc/kitty-0.36.2/LICENSE
+* /usr/share/doc/kitty-0.36.2/README.asciidoc
 * /usr/share/doc/kitty/html/.buildinfo
 * /usr/share/doc/kitty/html/.nojekyll
 * /usr/share/doc/kitty/html/actions.html
