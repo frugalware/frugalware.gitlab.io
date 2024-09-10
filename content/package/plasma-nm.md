@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nm 6.1.4-1"
-version = "6.1.4-1"
+title = "plasma-nm 6.1.5-1"
+version = "6.1.5-1"
 description = "Plasma applet written in QML for managing network connections."
-date = "2024-08-07T08:14:37"
+date = "2024-09-10T14:15:06"
 aliases = "/packages/218399"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1337160"
-usize = "8829614"
-sha1sum = "a91f5c93c33734fce810bf8e1930158f873861b9"
-depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.4.0', 'networkmanager-qt>=6.4.0', 'plasma-workspace>=6.1.4', 'qca>=2.1.1-6', 'qcoro']"
+size = "1329528"
+usize = "8857474"
+sha1sum = "6a6d6c39f9c69782d88d89c0cc23720aa13b6783"
+depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.5.0', 'networkmanager-qt>=6.5.0', 'plasma-workspace>=6.1.5', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.
@@ -36,7 +36,7 @@ Plasma applet written in QML for managing network connections.
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/plasmanm_internal.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/qmldir
 * /usr/share/applications/kcm_networkmanagement.desktop
-* /usr/share/doc/plasma-nm-6.1.4/README.md
+* /usr/share/doc/plasma-nm-6.1.5/README.md
 * /usr/share/kcm_networkmanagement/qml/AddConnectionDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConfigurationDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConnectionItem.qml
