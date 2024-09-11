@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "imath 3.1.11-1"
-version = "3.1.11-1"
+title = "imath 3.1.12-1"
+version = "3.1.12-1"
 description = "Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics"
-date = "2024-05-02T11:18:57"
+date = "2024-09-11T10:58:07"
 aliases = "/packages/220384"
 categories = ['xlib']
 upstreamurl = "http://www.openexr.com"
 arch = "x86_64"
-size = "101792"
-usize = "880829"
-sha1sum = "ec479492c43a14cd6cfc1abfe1e240c3dfbc5d08"
+size = "117424"
+usize = "876661"
+sha1sum = "b468dfc88a05f72a90eb6f1c103f32558b61cce0"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['alembic', 'alicevision', 'opencolorio', 'openexr']"
 +++
@@ -59,7 +59,7 @@ Imath is a C++ and python library of 2D and 3D vector, matrix, and math operatio
 * /usr/lib/cmake/Imath/ImathTargets.cmake
 * /usr/lib/libImath-3_1.so
 * /usr/lib/libImath-3_1.so.29
-* /usr/lib/libImath-3_1.so.29.10.0
+* /usr/lib/libImath-3_1.so.29.11.0
 * /usr/lib/libImath.so
 * /usr/lib/pkgconfig/Imath.pc
-* /usr/share/doc/imath-3.1.11/README.md
+* /usr/share/doc/imath-3.1.12/README.md
