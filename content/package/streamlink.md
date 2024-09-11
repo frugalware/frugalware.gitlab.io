@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 6.9.0-1"
-version = "6.9.0-1"
+title = "streamlink 6.10.0-1"
+version = "6.10.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-08-13T09:44:54"
+date = "2024-09-11T15:13:05"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "808024"
-usize = "3997852"
-sha1sum = "5e0824dea506902c05b1959b8e4f55dcdc086efd"
+size = "801016"
+usize = "3981118"
+sha1sum = "a2a91c08d967dd57766b66a036fa404ac85601f8"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -78,7 +78,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/bilibili.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/blazetv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/bloomberg.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/booyah.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/brightcove.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/btv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cbsnews.py
@@ -104,7 +103,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/euronews.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/facebook.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/filmon.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/galatasaraytv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/goltelevision.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/goodgame.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/googledrive.py
@@ -115,12 +113,10 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/htv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/huajiao.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/huya.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/idf1.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/indihometv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/invintus.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/kick.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/kugou.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/linelive.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/livestream.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/lnk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/lrt.py
@@ -231,7 +227,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/bilibili.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/blazetv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/bloomberg.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/booyah.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/brightcove.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/btv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cbsnews.cpython-312.pyc
@@ -257,7 +252,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/euronews.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/facebook.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/filmon.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/galatasaraytv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/goltelevision.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/goodgame.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/googledrive.cpython-312.pyc
@@ -268,12 +262,10 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/htv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/huajiao.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/huya.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/idf1.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/indihometv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/invintus.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/kick.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/kugou.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/linelive.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/livestream.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/lnk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/lrt.cpython-312.pyc
@@ -554,6 +546,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/_parser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/streamlink-6.9.0/AUTHORS
-* /usr/share/doc/streamlink-6.9.0/LICENSE
-* /usr/share/doc/streamlink-6.9.0/README.md
+* /usr/share/doc/streamlink-6.10.0/AUTHORS
+* /usr/share/doc/streamlink-6.10.0/LICENSE
+* /usr/share/doc/streamlink-6.10.0/README.md

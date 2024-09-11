@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vtk-python3-ffmpeg 9.3.0-11"
-version = "9.3.0-11"
+title = "vtk-python3-ffmpeg 9.3.1-1"
+version = "9.3.1-1"
 description = "Python2 Ffmpeg interface and bindings for vtk"
-date = "2024-06-27T12:21:06"
+date = "2024-09-11T14:18:43"
 aliases = "/packages/220829"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "15812"
-usize = "49616"
-sha1sum = "b0fbdac8158e9ca0cca24b9e493b9593879fa9fc"
-depends = "['vtk>=9.3.0', 'vtk-ffmpeg>=9.3.0', 'vtk-python3>=9.3.0']"
+size = "15892"
+usize = "50032"
+sha1sum = "c1eacc0eb00fb067621628f6604e303de17b150c"
+depends = "['vtk>=9.3.1', 'vtk-ffmpeg>=9.3.1', 'vtk-python3>=9.3.1']"
 +++
 ### Description: 
 Python2 Ffmpeg interface and bindings for vtk

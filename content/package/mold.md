@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mold 2.33.0-1"
-version = "2.33.0-1"
+title = "mold 2.33.0-2"
+version = "2.33.0-2"
 description = "A Modern Linker"
-date = "2024-08-07T18:29:28"
+date = "2024-09-11T15:11:37"
 aliases = "/packages/220928"
 categories = ['devel-core']
 upstreamurl = "https://github.com/rui314/mold"
 arch = "x86_64"
-size = "1950292"
-usize = "17690043"
-sha1sum = "cdd8bc24eacfaa538475335f612aba06b50b4a67"
-depends = "['intel-tbb', 'libstdc++', 'openssl>=3.1.0', 'zstd']"
+size = "1858168"
+usize = "17265939"
+sha1sum = "2e9dc7110b0197b3a724d95eef934add517bb406"
+depends = "['intel-tbb', 'libstdc++', 'mimalloc', 'openssl>=3.1.0', 'zstd']"
 +++
 ### Description: 
 A Modern Linker

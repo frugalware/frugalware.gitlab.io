@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "android-tools 35.0.1-7"
-version = "35.0.1-7"
+title = "android-tools 35.0.2-1"
+version = "35.0.2-1"
 description = "Android platform tools"
-date = "2024-08-29T14:33:29"
+date = "2024-09-11T15:02:13"
 aliases = "/packages/220939"
 categories = ['apps-extra']
 upstreamurl = "http://tools.android.com/"
 arch = "x86_64"
-size = "1832172"
-usize = "6123957"
-sha1sum = "6abd2e17dded3097e396c6b2072521e39245b857"
-depends = "['brotli', 'libcap', 'libusb1', 'pcre2', 'protobuf>=28.0', 'zstd']"
+size = "1838612"
+usize = "6128555"
+sha1sum = "6e9e0cfcd4aa357d8823cd495a0f3eb7158dc24b"
+depends = "['brotli', 'libcap', 'pcre2', 'protobuf>=28.0', 'zstd']"
 reverse_depends = "['scrcpy']"
 +++
 ### Description: 
@@ -44,5 +44,6 @@ Android platform tools
 * /usr/share/android-tools/mkbootimg/mkbootimg.py
 * /usr/share/bash-completion/completions/adb
 * /usr/share/bash-completion/completions/fastboot
-* /usr/share/doc/android-tools-35.0.1/LICENSE
-* /usr/share/doc/android-tools-35.0.1/README.md
+* /usr/share/doc/android-tools-35.0.2/LICENSE
+* /usr/share/doc/android-tools-35.0.2/README.md
+* /usr/share/man/man1/adb.1.gz

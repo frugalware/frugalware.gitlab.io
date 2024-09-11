@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-devel 9.3.0-11"
-version = "9.3.0-11"
+title = "vtk-devel 9.3.1-1"
+version = "9.3.1-1"
 description = "Headers and cmake files for vtk"
-date = "2024-06-27T12:21:06"
+date = "2024-09-11T14:18:43"
 aliases = "/packages/219065"
 categories = ['devel-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "6436776"
-usize = "48142130"
-sha1sum = "89a92c3c3e371b13c4eadeb76d3b9aa2d087b4f3"
+size = "6379240"
+usize = "48174298"
+sha1sum = "b4931db3d6c767c89fbf2c6eb52ea1a70138a932"
 depends = "[]"
 +++
 ### Description: 
@@ -1446,19 +1446,19 @@ Headers and cmake files for vtk
 * /usr/include/vtk-9.3/vtkFlyingEdges2D.h
 * /usr/include/vtk-9.3/vtkFlyingEdges3D.h
 * /usr/include/vtk-9.3/vtkFlyingEdgesPlaneCutter.h
-* /usr/include/vtk-9.3/vtkfmt/args.h
-* /usr/include/vtk-9.3/vtkfmt/chrono.h
-* /usr/include/vtk-9.3/vtkfmt/color.h
-* /usr/include/vtk-9.3/vtkfmt/compile.h
-* /usr/include/vtk-9.3/vtkfmt/core.h
-* /usr/include/vtk-9.3/vtkfmt/format-inl.h
-* /usr/include/vtk-9.3/vtkfmt/format.h
-* /usr/include/vtk-9.3/vtkfmt/os.h
-* /usr/include/vtk-9.3/vtkfmt/ostream.h
-* /usr/include/vtk-9.3/vtkfmt/printf.h
-* /usr/include/vtk-9.3/vtkfmt/ranges.h
-* /usr/include/vtk-9.3/vtkfmt/std.h
-* /usr/include/vtk-9.3/vtkfmt/xchar.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/args.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/chrono.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/color.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/compile.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/core.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/format-inl.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/format.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/os.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/ostream.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/printf.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/ranges.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/std.h
+* /usr/include/vtk-9.3/vtkfmt/vtkfmt/xchar.h
 * /usr/include/vtk-9.3/vtkFocalPlaneContourRepresentation.h
 * /usr/include/vtk-9.3/vtkFocalPlanePointPlacer.h
 * /usr/include/vtk-9.3/vtkFollower.h
