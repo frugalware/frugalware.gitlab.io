@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ar 24.8.0.2-2"
-version = "24.8.0.2-2"
+title = "libreoffice-l10n-ar 24.8.1.2-1"
+version = "24.8.1.2-1"
 description = "Installs Arabic support in LibreOffice"
-date = "2024-09-09T14:07:45"
+date = "2024-09-11T09:41:53"
 aliases = "/packages/104032"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4146048"
-usize = "33074254"
-sha1sum = "d39c0d6dd6d32ee0f6bcc34a3a1875368b0a16be"
-depends = "['libreoffice>=24.8.0.2']"
+size = "4146504"
+usize = "33074627"
+sha1sum = "ab068712e7934f2f7e037c93af46e546cc3e3919"
+depends = "['libreoffice>=24.8.1.2']"
 +++
 ### Description: 
 Installs Arabic support in LibreOffice
