@@ -12,7 +12,7 @@ size = "10331844"
 usize = "46177630"
 sha1sum = "b830bf756d6ca72033d6b5d914e84584d8bfaec6"
 depends = "['gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0', 'zlib>=1.2.12']"
-reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-hiera', 'ruby-hpricot', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount', 'ruby-rdiscount', 'ruby-ronn', 'ruby-sass', 'ruby-sdoc', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
+reverse_depends = "['facter', 'facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-hiera', 'ruby-hpricot', 'ruby-hpricot', 'ruby-mustache', 'ruby-rdiscount', 'ruby-rdiscount', 'ruby-ronn', 'ruby-sass', 'ruby-sdoc', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
 +++
 ### Description: 
 An object-oriented programming language.

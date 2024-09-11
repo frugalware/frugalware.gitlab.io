@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dtc 1.7.1-1"
-version = "1.7.1-1"
+title = "dtc 1.7.1-2"
+version = "1.7.1-2"
 description = "Device Tree Compiler"
-date = "2024-08-21T12:52:02"
+date = "2024-09-11T12:44:54"
 aliases = "/packages/221425"
 categories = ['devel-extra']
 upstreamurl = "https://www.devicetree.org/"
 arch = "x86_64"
-size = "144160"
+size = "143032"
 usize = "594367"
-sha1sum = "1d0378b5e30d75d28de8f133dfb12741a6d4d9fb"
+sha1sum = "9bbb38545560f38a92e63b0190bdcaea4d18943e"
 depends = "['libyaml', 'python3']"
 reverse_depends = "['qemu']"
 +++

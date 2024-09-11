@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libportal 0.7.1-4"
-version = "0.7.1-4"
+title = "libportal 0.8.1-1"
+version = "0.8.1-1"
 description = "GIO-style async APIs for most Flatpak portals"
-date = "2024-05-26T22:04:18"
+date = "2024-09-11T12:33:58"
 aliases = "/packages/220842"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "1159788"
-usize = "3255988"
-sha1sum = "1fd3a9fbb5f23aa01be8a911de0777194db3f1c3"
+size = "1202444"
+usize = "3745363"
+sha1sum = "5f3eac2618ab30cda0070f19845ba92e85163c94"
 depends = "['glib2']"
-reverse_depends = "['libportal-gtk3', 'libportal-gtk4', 'libportal-qt5', 'xdg-desktop-portal']"
+reverse_depends = "['libportal-gtk3', 'libportal-gtk4', 'libportal-qt5', 'libportal-qt6', 'xdg-desktop-portal']"
 +++
 ### Description: 
 GIO-style async APIs for most Flatpak portals
@@ -25,6 +25,9 @@ GIO-style async APIs for most Flatpak portals
 * /usr/include/libportal/email.h
 * /usr/include/libportal/filechooser.h
 * /usr/include/libportal/inhibit.h
+* /usr/include/libportal/inputcapture-pointerbarrier.h
+* /usr/include/libportal/inputcapture-zone.h
+* /usr/include/libportal/inputcapture.h
 * /usr/include/libportal/location.h
 * /usr/include/libportal/notification.h
 * /usr/include/libportal/openuri.h
@@ -35,6 +38,8 @@ GIO-style async APIs for most Flatpak portals
 * /usr/include/libportal/print.h
 * /usr/include/libportal/remote.h
 * /usr/include/libportal/screenshot.h
+* /usr/include/libportal/session.h
+* /usr/include/libportal/settings.h
 * /usr/include/libportal/spawn.h
 * /usr/include/libportal/trash.h
 * /usr/include/libportal/types.h
@@ -45,11 +50,15 @@ GIO-style async APIs for most Flatpak portals
 * /usr/lib/libportal.so.1
 * /usr/lib/libportal.so.1.0.0
 * /usr/lib/pkgconfig/libportal.pc
-* /usr/share/doc/libportal-0.7.1/COPYING
-* /usr/share/doc/libportal-0.7.1/NEWS
-* /usr/share/doc/libportal-0.7.1/README.md
+* /usr/share/doc/libportal-0.8.1/COPYING
+* /usr/share/doc/libportal-0.8.1/NEWS
+* /usr/share/doc/libportal-0.8.1/README.md
+* /usr/share/doc/libportal-1/class.InputCapturePointerBarrier.html
+* /usr/share/doc/libportal-1/class.InputCaptureSession.html
+* /usr/share/doc/libportal-1/class.InputCaptureZone.html
 * /usr/share/doc/libportal-1/class.Portal.html
 * /usr/share/doc/libportal-1/class.Session.html
+* /usr/share/doc/libportal-1/class.Settings.html
 * /usr/share/doc/libportal-1/classes_hierarchy.html
 * /usr/share/doc/libportal-1/const.WALLPAPER_TARGET_BOTH.html
 * /usr/share/doc/libportal-1/ctor.Portal.initable_new.html
@@ -73,10 +82,15 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/enum.UpdateMonitorFlags.html
 * /usr/share/doc/libportal-1/enum.UpdateStatus.html
 * /usr/share/doc/libportal-1/enum.UserInformationFlags.html
+* /usr/share/doc/libportal-1/favicon-128x128.png
+* /usr/share/doc/libportal-1/favicon-180x180.png
+* /usr/share/doc/libportal-1/favicon-192x192.png
+* /usr/share/doc/libportal-1/favicon-32x32.png
 * /usr/share/doc/libportal-1/flags.BackgroundFlags.html
 * /usr/share/doc/libportal-1/flags.CursorMode.html
 * /usr/share/doc/libportal-1/flags.DeviceType.html
 * /usr/share/doc/libportal-1/flags.InhibitFlags.html
+* /usr/share/doc/libportal-1/flags.InputCapability.html
 * /usr/share/doc/libportal-1/flags.LauncherType.html
 * /usr/share/doc/libportal-1/flags.OpenFileFlags.html
 * /usr/share/doc/libportal-1/flags.OpenUriFlags.html
@@ -95,6 +109,15 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/libportal.html
 * /usr/share/doc/libportal-1/libportal.svg
 * /usr/share/doc/libportal-1/main.js
+* /usr/share/doc/libportal-1/method.InputCaptureSession.connect_to_eis.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.disable.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.enable.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.get_session.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.get_zones.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.release.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.release_at.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.set_pointer_barriers.html
+* /usr/share/doc/libportal-1/method.InputCaptureSession.set_pointer_barriers_finish.html
 * /usr/share/doc/libportal-1/method.Parent.copy.html
 * /usr/share/doc/libportal-1/method.Parent.free.html
 * /usr/share/doc/libportal-1/method.Portal.access_camera.html
@@ -103,8 +126,11 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/method.Portal.add_notification_finish.html
 * /usr/share/doc/libportal-1/method.Portal.compose_email.html
 * /usr/share/doc/libportal-1/method.Portal.compose_email_finish.html
+* /usr/share/doc/libportal-1/method.Portal.create_input_capture_session.html
+* /usr/share/doc/libportal-1/method.Portal.create_input_capture_session_finish.html
 * /usr/share/doc/libportal-1/method.Portal.create_remote_desktop_session.html
 * /usr/share/doc/libportal-1/method.Portal.create_remote_desktop_session_finish.html
+* /usr/share/doc/libportal-1/method.Portal.create_remote_desktop_session_full.html
 * /usr/share/doc/libportal-1/method.Portal.create_screencast_session.html
 * /usr/share/doc/libportal-1/method.Portal.create_screencast_session_finish.html
 * /usr/share/doc/libportal-1/method.Portal.dynamic_launcher_get_desktop_entry.html
@@ -115,6 +141,7 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/method.Portal.dynamic_launcher_prepare_install_finish.html
 * /usr/share/doc/libportal-1/method.Portal.dynamic_launcher_request_install_token.html
 * /usr/share/doc/libportal-1/method.Portal.dynamic_launcher_uninstall.html
+* /usr/share/doc/libportal-1/method.Portal.get_settings.html
 * /usr/share/doc/libportal-1/method.Portal.get_user_information.html
 * /usr/share/doc/libportal-1/method.Portal.get_user_information_finish.html
 * /usr/share/doc/libportal-1/method.Portal.is_camera_present.html
@@ -184,7 +211,24 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/method.Session.touch_down.html
 * /usr/share/doc/libportal-1/method.Session.touch_position.html
 * /usr/share/doc/libportal-1/method.Session.touch_up.html
+* /usr/share/doc/libportal-1/method.Settings.read.html
+* /usr/share/doc/libportal-1/method.Settings.read_all_values.html
+* /usr/share/doc/libportal-1/method.Settings.read_string.html
+* /usr/share/doc/libportal-1/method.Settings.read_uint.html
+* /usr/share/doc/libportal-1/method.Settings.read_value.html
 * /usr/share/doc/libportal-1/opensearch.xml
+* /usr/share/doc/libportal-1/property.InputCapturePointerBarrier.id.html
+* /usr/share/doc/libportal-1/property.InputCapturePointerBarrier.is-active.html
+* /usr/share/doc/libportal-1/property.InputCapturePointerBarrier.x1.html
+* /usr/share/doc/libportal-1/property.InputCapturePointerBarrier.x2.html
+* /usr/share/doc/libportal-1/property.InputCapturePointerBarrier.y1.html
+* /usr/share/doc/libportal-1/property.InputCapturePointerBarrier.y2.html
+* /usr/share/doc/libportal-1/property.InputCaptureZone.height.html
+* /usr/share/doc/libportal-1/property.InputCaptureZone.is-valid.html
+* /usr/share/doc/libportal-1/property.InputCaptureZone.width.html
+* /usr/share/doc/libportal-1/property.InputCaptureZone.x.html
+* /usr/share/doc/libportal-1/property.InputCaptureZone.y.html
+* /usr/share/doc/libportal-1/property.InputCaptureZone.zone-set.html
 * /usr/share/doc/libportal-1/RedHatDisplay-Black.woff
 * /usr/share/doc/libportal-1/RedHatDisplay-Black.woff2
 * /usr/share/doc/libportal-1/RedHatDisplay-BlackItalic.woff
@@ -214,6 +258,10 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/RedHatText-Regular.woff
 * /usr/share/doc/libportal-1/RedHatText-Regular.woff2
 * /usr/share/doc/libportal-1/search.js
+* /usr/share/doc/libportal-1/signal.InputCaptureSession.activated.html
+* /usr/share/doc/libportal-1/signal.InputCaptureSession.deactivated.html
+* /usr/share/doc/libportal-1/signal.InputCaptureSession.disabled.html
+* /usr/share/doc/libportal-1/signal.InputCaptureSession.zones-changed.html
 * /usr/share/doc/libportal-1/signal.Portal.location-updated.html
 * /usr/share/doc/libportal-1/signal.Portal.notification-action-invoked.html
 * /usr/share/doc/libportal-1/signal.Portal.session-state-changed.html
@@ -221,6 +269,7 @@ GIO-style async APIs for most Flatpak portals
 * /usr/share/doc/libportal-1/signal.Portal.update-available.html
 * /usr/share/doc/libportal-1/signal.Portal.update-progress.html
 * /usr/share/doc/libportal-1/signal.Session.closed.html
+* /usr/share/doc/libportal-1/signal.Settings.changed.html
 * /usr/share/doc/libportal-1/solarized-dark.css
 * /usr/share/doc/libportal-1/solarized-light.css
 * /usr/share/doc/libportal-1/SourceCodePro-It.ttf.woff

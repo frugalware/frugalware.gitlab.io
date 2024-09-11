@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+4 4.16.0-1"
-version = "4.16.0-1"
+title = "gtk+4 4.16.0-2"
+version = "4.16.0-2"
 description = "The GTK+ Toolkit (3.x series)"
-date = "2024-09-09T11:33:15"
+date = "2024-09-11T12:26:46"
 aliases = "/packages/220420"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "10872296"
-usize = "42224129"
-sha1sum = "a66ddbdd75fcc975aa6d32dd3978bd3fb0132aea"
+size = "11846800"
+usize = "53717587"
+sha1sum = "9ea8d2554fed4144b0d74ace3922ff3de4f75961"
 depends = "['adwaita-icon-theme', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'graphene', 'gst1-plugins-bad>=1.22.1', 'gtk+3-tools', 'gtk-update-icon-cache', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxinerama', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'sassc', 'shared-mime-info', 'vulkan-icd-loader', 'wayland-protocols>=1.7-2']"
 reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'gnome-desktop', 'granite', 'gssdp', 'gtk+4-demos', 'gtk+4-tools', 'gtk-handbrake', 'gtkmm', 'ibus', 'lact', 'libadwaita', 'libnma-gtk4', 'libpanel', 'libportal-gtk4', 'vte3']"
 +++
@@ -427,6 +427,11 @@ The GTK+ Toolkit (3.x series)
 * /usr/include/gtk-4.0/unix-print/gtk/print/gtkprinter.h
 * /usr/include/gtk-4.0/unix-print/gtk/print/gtkprintjob.h
 * /usr/include/gtk-4.0/unix-print/gtk/print/gtkprintunixdialog.h
+* /usr/lib/girepository-1.0/Gdk-4.0.typelib
+* /usr/lib/girepository-1.0/GdkWayland-4.0.typelib
+* /usr/lib/girepository-1.0/GdkX11-4.0.typelib
+* /usr/lib/girepository-1.0/Gsk-4.0.typelib
+* /usr/lib/girepository-1.0/Gtk-4.0.typelib
 * /usr/lib/gtk-4.0/4.0.0/media/libmedia-gstreamer.so
 * /usr/lib/gtk-4.0/4.0.0/printbackends/libprintbackend-cups.so
 * /usr/lib/gtk-4.0/4.0.0/printbackends/libprintbackend-file.so
@@ -450,6 +455,11 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/doc/gtk+4-4.16.0/README.md
 * /usr/share/gettext/its/gtk4builder.its
 * /usr/share/gettext/its/gtk4builder.loc
+* /usr/share/gir-1.0/Gdk-4.0.gir
+* /usr/share/gir-1.0/GdkWayland-4.0.gir
+* /usr/share/gir-1.0/GdkX11-4.0.gir
+* /usr/share/gir-1.0/Gsk-4.0.gir
+* /usr/share/gir-1.0/Gtk-4.0.gir
 * /usr/share/glib-2.0/schemas/org.gtk.Demo4.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.ColorChooser.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.Debug.gschema.xml
