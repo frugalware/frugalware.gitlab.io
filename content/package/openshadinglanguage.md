@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openshadinglanguage 1.13.10.0-1"
-version = "1.13.10.0-1"
+title = "openshadinglanguage 1.13.11.0-1"
+version = "1.13.11.0-1"
 description = "Advanced shading language for production GI renderers"
-date = "2024-07-12T19:41:30"
+date = "2024-09-11T20:29:12"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
-upstreamurl = "https://github.com/imageworks/openshadinglanguage"
+upstreamurl = "https://github.com/AcademySoftwareFoundation/openshadinglanguage"
 arch = "x86_64"
-size = "2291964"
-usize = "7434509"
-sha1sum = "280fbef81eceb020bc1329b35decd45e7450600d"
+size = "2291452"
+usize = "7546396"
+sha1sum = "c34d937466778448841456ed2f1989281729d29d"
 depends = "['clang-libs', 'intel-tbb', 'libboost>=1.85.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.12']"
 reverse_depends = "['blender']"
 +++
@@ -72,26 +72,26 @@ Advanced shading language for production GI renderers
 * /usr/lib/cmake/OSL/OSLTargets.cmake
 * /usr/lib/liboslcomp.so
 * /usr/lib/liboslcomp.so.1.13
-* /usr/lib/liboslcomp.so.1.13.10
+* /usr/lib/liboslcomp.so.1.13.11
 * /usr/lib/liboslexec.so
 * /usr/lib/liboslexec.so.1.13
-* /usr/lib/liboslexec.so.1.13.10
+* /usr/lib/liboslexec.so.1.13.11
 * /usr/lib/liboslnoise.so
 * /usr/lib/liboslnoise.so.1.13
-* /usr/lib/liboslnoise.so.1.13.10
+* /usr/lib/liboslnoise.so.1.13.11
 * /usr/lib/liboslquery.so
 * /usr/lib/liboslquery.so.1.13
-* /usr/lib/liboslquery.so.1.13.10
+* /usr/lib/liboslquery.so.1.13.11
 * /usr/lib/libtestshade.so
 * /usr/lib/libtestshade.so.1.13
-* /usr/lib/libtestshade.so.1.13.10
+* /usr/lib/libtestshade.so.1.13.11
 * /usr/lib/osl.imageio.so
 * /usr/lib/pkgconfig/oslcomp.pc
 * /usr/lib/pkgconfig/oslexec.pc
 * /usr/lib/pkgconfig/oslquery.pc
 * /usr/lib/python3.12/site-packages/oslquery.so
-* /usr/share/doc/openshadinglanguage-1.13.10.0/INSTALL.md
-* /usr/share/doc/openshadinglanguage-1.13.10.0/README.md
+* /usr/share/doc/openshadinglanguage-1.13.11.0/INSTALL.md
+* /usr/share/doc/openshadinglanguage-1.13.11.0/README.md
 * /usr/share/doc/OSL/CHANGES.md
 * /usr/share/doc/OSL/docdeep.md.html
 * /usr/share/doc/OSL/docs.css

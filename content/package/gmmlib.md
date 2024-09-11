@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmmlib 22.5.1-1"
-version = "22.5.1-1"
+title = "gmmlib 22.5.2-1"
+version = "22.5.2-1"
 description = "Intel Graphics Memory Management Library"
-date = "2024-09-09T11:46:10"
+date = "2024-09-11T20:11:35"
 aliases = "/packages/220080"
 categories = ['lib']
 upstreamurl = "https://github.com/intel/gmmlib"
 arch = "x86_64"
-size = "286388"
-usize = "1888935"
-sha1sum = "beb46e065b9584358964b276ab6cb439dfea0f35"
+size = "285880"
+usize = "1888999"
+sha1sum = "0fb40bd55c3f9496bd964d6c1a759a84e7d77bd4"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['intel-compute-runtime', 'media-driver']"
 +++
@@ -87,4 +87,4 @@ Intel Graphics Memory Management Library
 * /usr/lib/libigdgmm.so.12
 * /usr/lib/libigdgmm.so.12.5.0
 * /usr/lib/pkgconfig/igdgmm.pc
-* /usr/share/doc/gmmlib-22.5.1/README.rst
+* /usr/share/doc/gmmlib-22.5.2/README.rst
