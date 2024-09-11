@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "connman 1.42-1"
-version = "1.42-1"
+title = "connman 1.43-1"
+version = "1.43-1"
 description = "open source connection manager"
-date = "2024-01-09T09:36:26"
+date = "2024-09-11T20:04:21"
 aliases = "/packages/74582"
 categories = ['network-extra']
 upstreamurl = "http://connman.net/"
 arch = "x86_64"
-size = "533872"
-usize = "1784083"
-sha1sum = "e6f0520a0f027bd2879971f6167092a3b946763b"
+size = "560632"
+usize = "1777205"
+sha1sum = "e6468e96d1f186c997c11dfab2afc694a71d113f"
 depends = "['dhclient>=4.3.3', 'gnutls>=3.4.2', 'iptables>=1.6.1', 'libsystemd>=229', 'openvpn>=2.3.10', 'polkit', 'ppp>=2.4.7-2', 'readline>=8.0', 'wireless_tools', 'wpa_supplicant']"
 reverse_depends = "['econnman']"
 +++
@@ -61,12 +61,12 @@ open source connection manager
 * /usr/share/dbus-1/system.d/connman-nmcompat.conf
 * /usr/share/dbus-1/system.d/connman-vpn-dbus.conf
 * /usr/share/dbus-1/system.d/connman.conf
-* /usr/share/doc/connman-1.42/AUTHORS
-* /usr/share/doc/connman-1.42/ChangeLog
-* /usr/share/doc/connman-1.42/COPYING
-* /usr/share/doc/connman-1.42/INSTALL
-* /usr/share/doc/connman-1.42/README
-* /usr/share/doc/connman-1.42/TODO
+* /usr/share/doc/connman-1.43/AUTHORS
+* /usr/share/doc/connman-1.43/ChangeLog
+* /usr/share/doc/connman-1.43/COPYING
+* /usr/share/doc/connman-1.43/INSTALL
+* /usr/share/doc/connman-1.43/README
+* /usr/share/doc/connman-1.43/TODO
 * /usr/share/man/man1/connmanctl.1.gz
 * /usr/share/man/man5/connman-service.config.5.gz
 * /usr/share/man/man5/connman-vpn-provider.config.5.gz
