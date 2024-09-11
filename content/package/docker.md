@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "docker 27.2.0-1"
-version = "27.2.0-1"
+title = "docker 27.2.1-1"
+version = "27.2.1-1"
 description = "Docker - the Linux container runtime"
-date = "2024-08-28T07:32:54"
+date = "2024-09-11T15:19:38"
 aliases = "/packages/217244"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/docker/cli"
 arch = "x86_64"
-size = "29298360"
-usize = "124079071"
-sha1sum = "ef0d1a33df120bef80a5767fae2d2aa385613569"
+size = "29267908"
+usize = "124061902"
+sha1sum = "6593afbfef6013e67a36089ef4b5c35a1ecbd570"
 depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'lvm2', 'runc', 'sqlite3', 'tini']"
 reverse_depends = "['docker-compose']"
 +++
@@ -25,11 +25,6 @@ Docker - the Linux container runtime
 * /usr/lib/systemd/system/docker.socket
 * /usr/lib/sysusers.d/docker.conf
 * /usr/share/bash-completion/completions/docker
-* /usr/share/doc/docker-27.2.0/AUTHORS
-* /usr/share/doc/docker-27.2.0/INSTALL.txt
-* /usr/share/doc/docker-27.2.0/README.Copyright.txt
-* /usr/share/doc/docker-27.2.0/README.md
-* /usr/share/doc/docker-27.2.0/TODO
 * /usr/share/fish/vendor_completions.d/docker.fish
 * /usr/share/man/man1/docker-attach.1.gz
 * /usr/share/man/man1/docker-build.1.gz

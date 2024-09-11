@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.0.9.104-1"
-version = "2.0.9.104-1"
+title = "duplicati 2.0.9.107-1"
+version = "2.0.9.107-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-08-23T18:24:15"
+date = "2024-09-11T15:39:09"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "56906308"
-usize = "179655278"
-sha1sum = "44b5cf457140776a83206a1f90e5b970f660336a"
+size = "57052260"
+usize = "180436355"
+sha1sum = "cc7282ba912e37ae0d452e75c879ed6491c78682"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -48,6 +48,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/COSXML.dll
 * /opt/duplicati/Crc32.NET.dll
 * /opt/duplicati/createdump
+* /opt/duplicati/cs/System.CommandLine.resources.dll
+* /opt/duplicati/de/System.CommandLine.resources.dll
 * /opt/duplicati/default_compressed_extensions.txt
 * /opt/duplicati/DnsClient.dll
 * /opt/duplicati/duplicati
@@ -56,13 +58,13 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/duplicati-backend-tester
 * /opt/duplicati/duplicati-backend-tool
 * /opt/duplicati/duplicati-cli
-* /opt/duplicati/duplicati-configuration-importer
 * /opt/duplicati/duplicati-recovery-tool
 * /opt/duplicati/duplicati-server
+* /opt/duplicati/duplicati-server-util
+* /opt/duplicati/duplicati-service
 * /opt/duplicati/duplicati-snapshots
 * /opt/duplicati/Duplicati.CommandLine.AutoUpdater.deps.json
 * /opt/duplicati/Duplicati.CommandLine.AutoUpdater.dll
-* /opt/duplicati/Duplicati.CommandLine.AutoUpdater.Implementation.dll
 * /opt/duplicati/Duplicati.CommandLine.AutoUpdater.runtimeconfig.json
 * /opt/duplicati/Duplicati.CommandLine.BackendTester.deps.json
 * /opt/duplicati/Duplicati.CommandLine.BackendTester.dll
@@ -72,12 +74,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.CommandLine.BackendTool.dll
 * /opt/duplicati/Duplicati.CommandLine.BackendTool.Implementation.dll
 * /opt/duplicati/Duplicati.CommandLine.BackendTool.runtimeconfig.json
-* /opt/duplicati/Duplicati.CommandLine.ConfigurationImporter.deps.json
-* /opt/duplicati/Duplicati.CommandLine.ConfigurationImporter.dll
-* /opt/duplicati/Duplicati.CommandLine.ConfigurationImporter.Implementation
-* /opt/duplicati/Duplicati.CommandLine.ConfigurationImporter.Implementation.dll
-* /opt/duplicati/Duplicati.CommandLine.ConfigurationImporter.Implementation.runtimeconfig.json
-* /opt/duplicati/Duplicati.CommandLine.ConfigurationImporter.runtimeconfig.json
 * /opt/duplicati/Duplicati.CommandLine.deps.json
 * /opt/duplicati/Duplicati.CommandLine.dll
 * /opt/duplicati/Duplicati.CommandLine.Implementation.dll
@@ -86,6 +82,10 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.CommandLine.RecoveryTool.Implementation.dll
 * /opt/duplicati/Duplicati.CommandLine.RecoveryTool.runtimeconfig.json
 * /opt/duplicati/Duplicati.CommandLine.runtimeconfig.json
+* /opt/duplicati/Duplicati.CommandLine.ServerUtil.deps.json
+* /opt/duplicati/Duplicati.CommandLine.ServerUtil.dll
+* /opt/duplicati/Duplicati.CommandLine.ServerUtil.Implementation.dll
+* /opt/duplicati/Duplicati.CommandLine.ServerUtil.runtimeconfig.json
 * /opt/duplicati/Duplicati.CommandLine.SharpAESCrypt.deps.json
 * /opt/duplicati/Duplicati.CommandLine.SharpAESCrypt.dll
 * /opt/duplicati/Duplicati.CommandLine.SharpAESCrypt.runtimeconfig.json
@@ -142,15 +142,19 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.Server.Implementation.dll
 * /opt/duplicati/Duplicati.Server.runtimeconfig.json
 * /opt/duplicati/Duplicati.Server.Serialization.dll
-* /opt/duplicati/Duplicati.Service
 * /opt/duplicati/Duplicati.Service.deps.json
 * /opt/duplicati/Duplicati.Service.dll
 * /opt/duplicati/Duplicati.Service.Implementation.dll
 * /opt/duplicati/Duplicati.Service.runtimeconfig.json
 * /opt/duplicati/Duplicati.Tools.dll
 * /opt/duplicati/Duplicati.WebserverCore.dll
+* /opt/duplicati/es/System.CommandLine.resources.dll
 * /opt/duplicati/FluentFTP.dll
+* /opt/duplicati/fr/System.CommandLine.resources.dll
 * /opt/duplicati/HarfBuzzSharp.dll
+* /opt/duplicati/it/System.CommandLine.resources.dll
+* /opt/duplicati/ja/System.CommandLine.resources.dll
+* /opt/duplicati/ko/System.CommandLine.resources.dll
 * /opt/duplicati/libclrgc.so
 * /opt/duplicati/libclrjit.so
 * /opt/duplicati/libcoreclr.so
@@ -415,8 +419,11 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/NGettext.dll
 * /opt/duplicati/Otp.NET.dll
 * /opt/duplicati/package_type_id.txt
+* /opt/duplicati/pl/System.CommandLine.resources.dll
+* /opt/duplicati/pt-BR/System.CommandLine.resources.dll
 * /opt/duplicati/Renci.SshNet.dll
 * /opt/duplicati/RestSharp.dll
+* /opt/duplicati/ru/System.CommandLine.resources.dll
 * /opt/duplicati/run-script-example.sh
 * /opt/duplicati/set-permissions.sh
 * /opt/duplicati/SharePointPnP.Client.dll
@@ -447,6 +454,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/System.Collections.Immutable.dll
 * /opt/duplicati/System.Collections.NonGeneric.dll
 * /opt/duplicati/System.Collections.Specialized.dll
+* /opt/duplicati/System.CommandLine.dll
+* /opt/duplicati/System.CommandLine.NamingConventionBinder.dll
 * /opt/duplicati/System.ComponentModel.Annotations.dll
 * /opt/duplicati/System.ComponentModel.DataAnnotations.dll
 * /opt/duplicati/System.ComponentModel.dll
@@ -612,6 +621,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/System.Xml.XPath.dll
 * /opt/duplicati/System.Xml.XPath.XDocument.dll
 * /opt/duplicati/Tmds.DBus.Protocol.dll
+* /opt/duplicati/tr/System.CommandLine.resources.dll
 * /opt/duplicati/uplink.NET.dll
 * /opt/duplicati/utility-scripts/DuplicatiVerify.py
 * /opt/duplicati/utility-scripts/README.txt
@@ -879,6 +889,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/scripts/controllers/AppController.js
 * /opt/duplicati/webroot/ngax/scripts/controllers/BackupLogController.js
 * /opt/duplicati/webroot/ngax/scripts/controllers/CaptchaController.js
+* /opt/duplicati/webroot/ngax/scripts/controllers/ChangePasswordController.js
 * /opt/duplicati/webroot/ngax/scripts/controllers/CommandlineController.js
 * /opt/duplicati/webroot/ngax/scripts/controllers/DeleteController.js
 * /opt/duplicati/webroot/ngax/scripts/controllers/DialogController.js
@@ -997,6 +1008,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/templates/backup-result/top-right-box.html
 * /opt/duplicati/webroot/ngax/templates/backuplog.html
 * /opt/duplicati/webroot/ngax/templates/captcha.html
+* /opt/duplicati/webroot/ngax/templates/changepassword.html
 * /opt/duplicati/webroot/ngax/templates/commandline.html
 * /opt/duplicati/webroot/ngax/templates/copy_clipboard_buttons.html
 * /opt/duplicati/webroot/ngax/templates/delete.html
@@ -1036,6 +1048,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/signin/signin.js
 * /opt/duplicati/webroot/theme.html
 * /opt/duplicati/WindowsBase.dll
+* /opt/duplicati/zh-Hans/System.CommandLine.resources.dll
+* /opt/duplicati/zh-Hant/System.CommandLine.resources.dll
 * /opt/duplicati/ZstdSharp.dll
 * /usr/bin/duplicati
 * /usr/bin/duplicati-aescrypt

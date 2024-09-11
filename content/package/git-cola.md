@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-cola 4.8.1-1"
-version = "4.8.1-1"
+title = "git-cola 4.8.2-1"
+version = "4.8.2-1"
 description = "Git-cola is a sleek and powerful Git GUI."
-date = "2024-08-04T13:51:50"
+date = "2024-09-11T15:37:40"
 aliases = "/packages/200469"
 categories = ['xapps-extra']
 upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "990900"
-usize = "7892930"
-sha1sum = "62702fa61591d6c01b2248dcfd33790017daa662"
+size = "990640"
+usize = "7910283"
+sha1sum = "516208842afa5ada67b277662cb14b0b0b7d9cdd"
 depends = "['pyinotify', 'pyqt5']"
 +++
 ### Description: 
@@ -437,18 +437,18 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/cola/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/git_cola-4.8.1.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/git_cola-4.8.1.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/git_cola-4.8.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/git_cola-4.8.1.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/git_cola-4.8.1.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/git_cola-4.8.1.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/git_cola-4.8.2.dist-info/COPYING
+* /usr/lib/python3.12/site-packages/git_cola-4.8.2.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/git_cola-4.8.2.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/git_cola-4.8.2.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/git_cola-4.8.2.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/git_cola-4.8.2.dist-info/WHEEL
 * /usr/share/applications/git-cola-folder-handler.desktop
 * /usr/share/applications/git-cola.desktop
 * /usr/share/applications/git-dag.desktop
-* /usr/share/doc/git-cola-4.8.1/COPYING
-* /usr/share/doc/git-cola-4.8.1/COPYRIGHT
-* /usr/share/doc/git-cola-4.8.1/README.md
+* /usr/share/doc/git-cola-4.8.2/COPYING
+* /usr/share/doc/git-cola-4.8.2/COPYRIGHT
+* /usr/share/doc/git-cola-4.8.2/README.md
 * /usr/share/doc/git-cola/hotkeys.html
 * /usr/share/doc/git-cola/hotkeys_de.html
 * /usr/share/doc/git-cola/hotkeys_zh_CN.html

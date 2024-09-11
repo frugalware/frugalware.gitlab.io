@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "stress-ng 0.18.02-1"
-version = "0.18.02-1"
+title = "stress-ng 0.18.04-1"
+version = "0.18.04-1"
 description = "A tool that stress tests your system (CPU, memory, I/O, disks) (NG)"
-date = "2024-08-03T16:33:12"
+date = "2024-09-11T15:25:20"
 aliases = "/packages/220245"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ColinIanKing/stress-ng"
 arch = "x86_64"
-size = "2679784"
-usize = "11829764"
-sha1sum = "8834d0b355995ab55f5e7d0edffad6a8c8e69220"
+size = "2696736"
+usize = "11896877"
+sha1sum = "d3d37e4f5f3fa2888cd46a6d14b4afd7a11c2808"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -19,10 +19,10 @@ A tool that stress tests your system (CPU, memory, I/O, disks) (NG)
 ### Files: 
 * /usr/bin/stress-ng
 * /usr/share/bash-completion/completions/stress-ng
-* /usr/share/doc/stress-ng-0.18.02/COPYING
-* /usr/share/doc/stress-ng-0.18.02/README.Android
-* /usr/share/doc/stress-ng-0.18.02/README.md
-* /usr/share/doc/stress-ng-0.18.02/TODO
+* /usr/share/doc/stress-ng-0.18.04/COPYING
+* /usr/share/doc/stress-ng-0.18.04/README.Android
+* /usr/share/doc/stress-ng-0.18.04/README.md
+* /usr/share/doc/stress-ng-0.18.04/TODO
 * /usr/share/man/man1/stress-ng.1.gz
 * /usr/share/stress-ng/example-jobs/cpu-cache.job
 * /usr/share/stress-ng/example-jobs/cpu.job

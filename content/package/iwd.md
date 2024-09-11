@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iwd 2.19-1"
-version = "2.19-1"
+title = "iwd 2.21-1"
+version = "2.21-1"
 description = "Internet Wireless Daemon"
-date = "2024-07-14T21:11:20"
+date = "2024-09-11T15:34:37"
 aliases = "/packages/221492"
 categories = ['apps-extra']
 upstreamurl = "https://git.kernel.org/cgit/network/wireless/iwd.git/"
 arch = "x86_64"
-size = "571284"
-usize = "2097698"
-sha1sum = "585bf90598d0fd4bdc197cb15f575c0d4ea31082"
+size = "575804"
+usize = "2119347"
+sha1sum = "6354cd40037f7882d4419ef7f474b254769a5b87"
 depends = "['ell>=0.66', 'ncurses', 'readline']"
 +++
 ### Description: 
@@ -31,12 +31,12 @@ Internet Wireless Daemon
 * /usr/share/dbus-1/system.d/ead-dbus.conf
 * /usr/share/dbus-1/system.d/hwsim-dbus.conf
 * /usr/share/dbus-1/system.d/iwd-dbus.conf
-* /usr/share/doc/iwd-2.19/AUTHORS
-* /usr/share/doc/iwd-2.19/ChangeLog
-* /usr/share/doc/iwd-2.19/COPYING
-* /usr/share/doc/iwd-2.19/INSTALL
-* /usr/share/doc/iwd-2.19/README
-* /usr/share/doc/iwd-2.19/TODO
+* /usr/share/doc/iwd-2.21/AUTHORS
+* /usr/share/doc/iwd-2.21/ChangeLog
+* /usr/share/doc/iwd-2.21/COPYING
+* /usr/share/doc/iwd-2.21/INSTALL
+* /usr/share/doc/iwd-2.21/README
+* /usr/share/doc/iwd-2.21/TODO
 * /usr/share/man/man1/hwsim.1.gz
 * /usr/share/man/man1/iwctl.1.gz
 * /usr/share/man/man1/iwmon.1.gz
