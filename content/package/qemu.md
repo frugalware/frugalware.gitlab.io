@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qemu 9.0.2-1"
-version = "9.0.2-1"
+title = "qemu 9.1.0-1"
+version = "9.1.0-1"
 description = "QEMU is a FAST! processor emulator"
-date = "2024-08-04T20:35:18"
+date = "2024-09-11T13:12:41"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "127464136"
-usize = "742822655"
-sha1sum = "9e4a597e486b6742f20ec4ecd2715d50c9086a73"
+size = "127522000"
+usize = "813387265"
+sha1sum = "aa35dd56b47aa516e6636f323b60d22994a77cfc"
 depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'sdl2', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
@@ -43,7 +43,6 @@ QEMU is a FAST! processor emulator
 * /usr/bin/qemu-system-mips64
 * /usr/bin/qemu-system-mips64el
 * /usr/bin/qemu-system-mipsel
-* /usr/bin/qemu-system-nios2
 * /usr/bin/qemu-system-or1k
 * /usr/bin/qemu-system-ppc
 * /usr/bin/qemu-system-ppc64
@@ -59,6 +58,7 @@ QEMU is a FAST! processor emulator
 * /usr/bin/qemu-system-x86_64
 * /usr/bin/qemu-system-xtensa
 * /usr/bin/qemu-system-xtensaeb
+* /usr/bin/qemu-vmsr-helper
 * /usr/include/qemu-plugin.h
 * /usr/lib/qemu/accel-qtest-aarch64.so
 * /usr/lib/qemu/accel-qtest-alpha.so
@@ -75,7 +75,6 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/accel-qtest-mips64.so
 * /usr/lib/qemu/accel-qtest-mips64el.so
 * /usr/lib/qemu/accel-qtest-mipsel.so
-* /usr/lib/qemu/accel-qtest-nios2.so
 * /usr/lib/qemu/accel-qtest-or1k.so
 * /usr/lib/qemu/accel-qtest-ppc.so
 * /usr/lib/qemu/accel-qtest-ppc64.so
@@ -107,7 +106,6 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/hw-display-qxl.so
 * /usr/lib/qemu/hw-display-virtio-gpu-pci.so
 * /usr/lib/qemu/hw-display-virtio-gpu.so
-* /usr/lib/qemu/hw-display-virtio-vga-gl.so
 * /usr/lib/qemu/hw-display-virtio-vga.so
 * /usr/lib/qemu/hw-s390x-virtio-gpu-ccw.so
 * /usr/lib/qemu/hw-usb-host.so
@@ -123,12 +121,12 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-spice-core.so
 * /usr/lib/qemu/virtfs-proxy-helper
 * /usr/share/applications/qemu.desktop
-* /usr/share/doc/qemu-9.0.2/COPYING
-* /usr/share/doc/qemu-9.0.2/COPYING.LIB
-* /usr/share/doc/qemu-9.0.2/LICENSE
-* /usr/share/doc/qemu-9.0.2/README.Frugalware
-* /usr/share/doc/qemu-9.0.2/README.rst
-* /usr/share/doc/qemu-9.0.2/VERSION
+* /usr/share/doc/qemu-9.1.0/COPYING
+* /usr/share/doc/qemu-9.1.0/COPYING.LIB
+* /usr/share/doc/qemu-9.1.0/LICENSE
+* /usr/share/doc/qemu-9.1.0/README.Frugalware
+* /usr/share/doc/qemu-9.1.0/README.rst
+* /usr/share/doc/qemu-9.1.0/VERSION
 * /usr/share/doc/qemu/.buildinfo
 * /usr/share/doc/qemu/about/build-platforms.html
 * /usr/share/doc/qemu/about/deprecated.html
@@ -147,6 +145,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/devel/code-of-conduct.html
 * /usr/share/doc/qemu/devel/conflict-resolution.html
 * /usr/share/doc/qemu/devel/control-flow-integrity.html
+* /usr/share/doc/qemu/devel/crypto.html
 * /usr/share/doc/qemu/devel/decodetree.html
 * /usr/share/doc/qemu/devel/docs.html
 * /usr/share/doc/qemu/devel/ebpf_rss.html
@@ -159,6 +158,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/devel/index.html
 * /usr/share/doc/qemu/devel/kconfig.html
 * /usr/share/doc/qemu/devel/loads-stores.html
+* /usr/share/doc/qemu/devel/luks-detached-header.html
 * /usr/share/doc/qemu/devel/maintainers.html
 * /usr/share/doc/qemu/devel/memory.html
 * /usr/share/doc/qemu/devel/migration/best-practices.html
@@ -170,6 +170,8 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/devel/migration/main.html
 * /usr/share/doc/qemu/devel/migration/mapped-ram.html
 * /usr/share/doc/qemu/devel/migration/postcopy.html
+* /usr/share/doc/qemu/devel/migration/qpl-compression.html
+* /usr/share/doc/qemu/devel/migration/uadk-compression.html
 * /usr/share/doc/qemu/devel/migration/vfio.html
 * /usr/share/doc/qemu/devel/migration/virtio.html
 * /usr/share/doc/qemu/devel/modules.html
@@ -212,7 +214,10 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/interop/dbus.html
 * /usr/share/doc/qemu/interop/index.html
 * /usr/share/doc/qemu/interop/live-block-operations.html
+* /usr/share/doc/qemu/interop/nbd.html
+* /usr/share/doc/qemu/interop/parallels.html
 * /usr/share/doc/qemu/interop/pr-helper.html
+* /usr/share/doc/qemu/interop/prl-xml.html
 * /usr/share/doc/qemu/interop/qemu-ga-ref.html
 * /usr/share/doc/qemu/interop/qemu-ga.html
 * /usr/share/doc/qemu/interop/qemu-qmp-ref.html
@@ -248,7 +253,10 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/specs/ppc-spapr-xive.html
 * /usr/share/doc/qemu/specs/ppc-xive.html
 * /usr/share/doc/qemu/specs/pvpanic.html
+* /usr/share/doc/qemu/specs/rapl-msr.html
+* /usr/share/doc/qemu/specs/rocker.html
 * /usr/share/doc/qemu/specs/sev-guest-firmware.html
+* /usr/share/doc/qemu/specs/spdm.html
 * /usr/share/doc/qemu/specs/standard-vga.html
 * /usr/share/doc/qemu/specs/tpm.html
 * /usr/share/doc/qemu/specs/virt-ctlr.html
@@ -290,6 +298,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/system/arm/virt.html
 * /usr/share/doc/qemu/system/arm/xenpvh.html
 * /usr/share/doc/qemu/system/arm/xlnx-versal-virt.html
+* /usr/share/doc/qemu/system/arm/xlnx-zynq.html
 * /usr/share/doc/qemu/system/arm/xscale.html
 * /usr/share/doc/qemu/system/authz.html
 * /usr/share/doc/qemu/system/barrier.html
@@ -390,6 +399,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/tools/qemu-pr-helper.html
 * /usr/share/doc/qemu/tools/qemu-storage-daemon.html
 * /usr/share/doc/qemu/tools/qemu-trace-stap.html
+* /usr/share/doc/qemu/tools/qemu-vmsr-helper.html
 * /usr/share/doc/qemu/tools/virtfs-proxy-helper.html
 * /usr/share/doc/qemu/user/index.html
 * /usr/share/doc/qemu/user/main.html
@@ -466,6 +476,8 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/edk2-i386-secure-code.fd
 * /usr/share/qemu/edk2-i386-vars.fd
 * /usr/share/qemu/edk2-licenses.txt
+* /usr/share/qemu/edk2-riscv-code.fd
+* /usr/share/qemu/edk2-riscv-vars.fd
 * /usr/share/qemu/edk2-x86_64-code.fd
 * /usr/share/qemu/edk2-x86_64-secure-code.fd
 * /usr/share/qemu/efi-e1000.rom
