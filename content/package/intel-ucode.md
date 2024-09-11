@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-ucode 20240813-1"
-version = "20240813-1"
+title = "intel-ucode 20240910-1"
+version = "20240910-1"
 description = "Microcode for Intel processors."
-date = "2024-08-14T07:39:25"
+date = "2024-09-11T08:33:33"
 aliases = "/packages/168450"
 categories = ['base']
 upstreamurl = "http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&keyword=%22microcode%22"
 arch = "x86_64"
-size = "7338056"
-usize = "13111918"
-sha1sum = "2d7eaa2acc3aa465afc779146f76f142b80ee25a"
+size = "7062472"
+usize = "13115462"
+sha1sum = "b5036fd172a52e55bb0acf8c6d5e791ba79c1cf2"
 depends = "['kernel']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -168,7 +168,7 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/0f-06-04
 * /usr/lib/firmware/intel-ucode/0f-06-05
 * /usr/lib/firmware/intel-ucode/0f-06-08
-* /usr/share/doc/intel-ucode-20240813/license
-* /usr/share/doc/intel-ucode-20240813/LICENSE
-* /usr/share/doc/intel-ucode-20240813/README.md
-* /usr/share/doc/intel-ucode-20240813/releasenote.md
+* /usr/share/doc/intel-ucode-20240910/LICENSE
+* /usr/share/doc/intel-ucode-20240910/license
+* /usr/share/doc/intel-ucode-20240910/README.md
+* /usr/share/doc/intel-ucode-20240910/releasenote.md
