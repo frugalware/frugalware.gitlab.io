@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pdal 2.7.2-1"
-version = "2.7.2-1"
+title = "pdal 2.8.0-1"
+version = "2.8.0-1"
 description = "A C++ library for translating and manipulating point cloud data"
-date = "2024-06-29T19:18:06"
+date = "2024-09-11T12:04:12"
 aliases = "/packages/220256"
 categories = ['lib-extra']
 upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
-size = "2150504"
-usize = "8133478"
-sha1sum = "bd03776f7781b72850e4420e19eeb81b4f196f13"
+size = "2155648"
+usize = "8194438"
+sha1sum = "fc0d766a54d30179d1778013c6e74bb69b95c616"
 depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'openscenegraph', 'zstd']"
 reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
@@ -54,6 +54,7 @@ A C++ library for translating and manipulating point cloud data
 * /usr/include/pdal/filters/ELMFilter.hpp
 * /usr/include/pdal/filters/EstimateRankFilter.hpp
 * /usr/include/pdal/filters/ExpressionFilter.hpp
+* /usr/include/pdal/filters/ExpressionStatsFilter.hpp
 * /usr/include/pdal/filters/FaceRasterFilter.hpp
 * /usr/include/pdal/filters/FarthestPointSamplingFilter.hpp
 * /usr/include/pdal/filters/FerryFilter.hpp
@@ -72,6 +73,7 @@ A C++ library for translating and manipulating point cloud data
 * /usr/include/pdal/filters/InfoFilter.hpp
 * /usr/include/pdal/filters/IQRFilter.hpp
 * /usr/include/pdal/filters/IterativeClosestPoint.hpp
+* /usr/include/pdal/filters/LabelDuplicatesFilter.hpp
 * /usr/include/pdal/filters/LiTreeFilter.hpp
 * /usr/include/pdal/filters/LloydKMeansFilter.hpp
 * /usr/include/pdal/filters/LocateFilter.hpp
@@ -347,13 +349,13 @@ A C++ library for translating and manipulating point cloud data
 * /usr/lib/cmake/PDAL/PDALTargets.cmake
 * /usr/lib/cmake/PDAL/pluginmacros.cmake
 * /usr/lib/libpdalcpp.so
-* /usr/lib/libpdalcpp.so.17
-* /usr/lib/libpdalcpp.so.17.1.0
+* /usr/lib/libpdalcpp.so.18
+* /usr/lib/libpdalcpp.so.18.0.0
 * /usr/lib/libpdal_plugin_kernel_fauxplugin.so
-* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17
-* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.17.1.0
+* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.18
+* /usr/lib/libpdal_plugin_kernel_fauxplugin.so.18.0.0
 * /usr/lib/pkgconfig/pdal.pc
 * /usr/share/bash-completion/completions/pdal
-* /usr/share/doc/pdal-2.7.2/HOWTORELEASE.txt
-* /usr/share/doc/pdal-2.7.2/README.md
-* /usr/share/doc/pdal-2.7.2/RELEASENOTES.txt
+* /usr/share/doc/pdal-2.8.0/HOWTORELEASE.txt
+* /usr/share/doc/pdal-2.8.0/README.md
+* /usr/share/doc/pdal-2.8.0/RELEASENOTES.txt

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "syncthingtray 1.6.0-1"
-version = "1.6.0-1"
+title = "syncthingtray 1.6.2-1"
+version = "1.6.2-1"
 description = "tray app for syncthing"
-date = "2024-09-03T14:47:49"
+date = "2024-09-11T11:59:33"
 aliases = "/packages/222522"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Martchus/syncthingtray"
 arch = "x86_64"
-size = "765720"
-usize = "3135228"
-sha1sum = "595a92032e6b1723d630760ab06ffc0adbedd4c2"
-depends = "['libboost', 'qt5-webengine', 'qtforkawesome', 'syncthing']"
+size = "838576"
+usize = "3490606"
+sha1sum = "3721f421fa293635b4c54d4f9eb952a8e2719985"
+depends = "['cpp-utilities', 'libboost', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
 tray app for syncthing
@@ -70,29 +70,27 @@ tray app for syncthing
 * /usr/include/syncthingwidgets/webview/webpage.h
 * /usr/include/syncthingwidgets/webview/webviewdialog.h
 * /usr/lib/libsyncthingconnector.so
-* /usr/lib/libsyncthingconnector.so.1.6.0
-* /usr/lib/libsyncthingconnector.so.17
+* /usr/lib/libsyncthingconnector.so.1.6.2
+* /usr/lib/libsyncthingconnector.so.18
 * /usr/lib/libsyncthingmodel.so
-* /usr/lib/libsyncthingmodel.so.1.6.0
-* /usr/lib/libsyncthingmodel.so.17
+* /usr/lib/libsyncthingmodel.so.1.6.2
+* /usr/lib/libsyncthingmodel.so.18
 * /usr/lib/libsyncthingwidgets.so
-* /usr/lib/libsyncthingwidgets.so.1.6.0
-* /usr/lib/libsyncthingwidgets.so.17
+* /usr/lib/libsyncthingwidgets.so.1.6.2
+* /usr/lib/libsyncthingwidgets.so.18
 * /usr/lib/pkgconfig/syncthingconnector.pc
 * /usr/lib/pkgconfig/syncthingfileitemaction.pc
 * /usr/lib/pkgconfig/syncthingmodel.pc
 * /usr/lib/pkgconfig/syncthingplasmoid.pc
 * /usr/lib/pkgconfig/syncthingwidgets.pc
-* /usr/lib/qt5/plugins/libsyncthingfileitemaction.so
-* /usr/lib/qt5/plugins/plasma/applets/libsyncthingplasmoid.so
+* /usr/lib/qt6/plugins/kf6/kfileitemaction/libsyncthingfileitemaction.so
+* /usr/lib/qt6/plugins/plasma/applets/martchus.syncthingplasmoid.so
 * /usr/share/applications/syncthingtray.desktop
 * /usr/share/bash-completion/completions/syncthingctl
 * /usr/share/bash-completion/completions/syncthingtray
-* /usr/share/doc/syncthingtray-1.6.0/LICENSE
-* /usr/share/doc/syncthingtray-1.6.0/README.md
+* /usr/share/doc/syncthingtray-1.6.2/LICENSE
+* /usr/share/doc/syncthingtray-1.6.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/syncthingtray.svg
-* /usr/share/kservices5/plasma-applet-martchus.syncthingplasmoid.desktop
-* /usr/share/kservices5/syncthingfileitemaction.desktop
 * /usr/share/metainfo/syncthingfileitemaction.metainfo.xml
 * /usr/share/metainfo/syncthingplasmoid.metainfo.xml
 * /usr/share/metainfo/syncthingtray.metainfo.xml
@@ -115,7 +113,7 @@ tray app for syncthing
 * /usr/share/plasma/plasmoids/martchus.syncthingplasmoid/contents/ui/ToolTipView.qml
 * /usr/share/plasma/plasmoids/martchus.syncthingplasmoid/contents/ui/TopLevelItem.qml
 * /usr/share/plasma/plasmoids/martchus.syncthingplasmoid/contents/ui/TopLevelView.qml
-* /usr/share/plasma/plasmoids/martchus.syncthingplasmoid/metadata.desktop
+* /usr/share/plasma/plasmoids/martchus.syncthingplasmoid/metadata.json
 * /usr/share/syncthingconnector/cmake/syncthingconnectorConfig.cmake
 * /usr/share/syncthingconnector/cmake/syncthingconnectorConfigVersion.cmake
 * /usr/share/syncthingconnector/cmake/syncthingconnectorTargets-release.cmake

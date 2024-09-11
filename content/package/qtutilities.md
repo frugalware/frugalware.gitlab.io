@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "qtutilities 6.14.2-1"
-version = "6.14.2-1"
+title = "qtutilities 6.14.3-1"
+version = "6.14.3-1"
 description = "Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models"
-date = "2024-09-03T14:27:28"
+date = "2024-09-11T11:49:26"
 aliases = "/packages/222519"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/qtutilities"
 arch = "x86_64"
-size = "178248"
-usize = "722908"
-sha1sum = "d870cfc09be143a5b6c55fad554f3b70310e4cb9"
-depends = "['cpp-utilities', 'qt5-base']"
-reverse_depends = "['qtforkawesome']"
+size = "201108"
+usize = "800191"
+sha1sum = "b8b865cd5f408a0e665e94e26f331017d71be4ee"
+depends = "['cpp-utilities', 'qt6-base']"
+reverse_depends = "['syncthingtray']"
 +++
 ### Description: 
 Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models
@@ -54,10 +54,10 @@ Common Qt related C++ classes and routines used by my applications such as dialo
 * /usr/include/qtutilities/widgets/pathselection.h
 * /usr/lib/libqtutilities.so
 * /usr/lib/libqtutilities.so.6
-* /usr/lib/libqtutilities.so.6.14.2
+* /usr/lib/libqtutilities.so.6.14.3
 * /usr/lib/pkgconfig/qtutilities.pc
-* /usr/share/doc/qtutilities-6.14.2/LICENSE
-* /usr/share/doc/qtutilities-6.14.2/README.md
+* /usr/share/doc/qtutilities-6.14.3/LICENSE
+* /usr/share/doc/qtutilities-6.14.3/README.md
 * /usr/share/qtutilities/cmake/modules/AndroidApk.cmake
 * /usr/share/qtutilities/cmake/modules/QtConfig.cmake
 * /usr/share/qtutilities/cmake/modules/QtGuiConfig.cmake

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qtforkawesome 0.2.1-1"
-version = "0.2.1-1"
+title = "qtforkawesome 0.2.1-2"
+version = "0.2.1-2"
 description = "Library that bundles ForkAwesome for use within Qt applications"
-date = "2024-09-10T21:30:46"
+date = "2024-09-11T11:53:42"
 aliases = "/packages/222521"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/qtforkawesome"
 arch = "x86_64"
-size = "171088"
-usize = "437812"
-sha1sum = "9c7b61b00d14a17056c5d175918955ce2918c73c"
-depends = "['qt5-declarative', 'qtutilities']"
+size = "184248"
+usize = "469804"
+sha1sum = "6dea9fba0b7c171c1669ea8191819caaef4a60ae"
+depends = "['qt6-declarative']"
 reverse_depends = "['syncthingtray']"
 +++
 ### Description: 
@@ -39,7 +39,7 @@ Library that bundles ForkAwesome for use within Qt applications
 * /usr/lib/pkgconfig/qtforkawesome.pc
 * /usr/lib/pkgconfig/qtforkawesomeiconengine.pc
 * /usr/lib/pkgconfig/qtquickforkawesome.pc
-* /usr/lib/qt5/plugins/iconengines/libqtforkawesomeiconengine.so
+* /usr/lib/qt6/plugins/iconengines/libqtforkawesomeiconengine.so
 * /usr/share/doc/qtforkawesome-0.2.1/LICENSE
 * /usr/share/doc/qtforkawesome-0.2.1/README.md
 * /usr/share/qtforkawesome/cmake/qtforkawesomeConfig.cmake
