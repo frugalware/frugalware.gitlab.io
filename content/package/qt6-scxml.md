@@ -12,7 +12,7 @@ size = "474036"
 usize = "2120037"
 sha1sum = "a3e6e280fdcecee0c5730bafe56b09f670ee9fc3"
 depends = "['qt6-declarative']"
-reverse_depends = "['digikam', 'konquest']"
+reverse_depends = "['digikam', 'konquest', 'virtualbox']"
 +++
 ### Description: 
 The Qt6 toolkit, qtscxml
