@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktnef 24.08.0-1"
-version = "24.08.0-1"
+title = "ktnef 24.08.1-1"
+version = "24.08.1-1"
 description = "Desc: C++ API for the handling of TNEF data."
-date = "2024-08-22T15:07:39"
+date = "2024-09-13T13:37:52"
 aliases = "/packages/218356"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "124996"
-usize = "682825"
-sha1sum = "0506af1119f4db1eb19834d6b89fd1ebc33107e8"
-depends = "['kcalutils>=24.08.0', 'kcontacts>=6.5.0']"
+size = "125364"
+usize = "682826"
+sha1sum = "b60e48c97b6d91a5a4488be50cf949520925db02"
+depends = "['kcalutils>=24.08.1', 'kcontacts>=6.5.0']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
@@ -42,9 +42,9 @@ Desc: C++ API for the handling of TNEF data.
 * /usr/lib/cmake/KPim6Tnef/KPim6TnefTargets.cmake
 * /usr/lib/libKPim6Tnef.so
 * /usr/lib/libKPim6Tnef.so.6
-* /usr/lib/libKPim6Tnef.so.6.2.0
-* /usr/share/doc/ktnef-24.08.0/AUTHORS
-* /usr/share/doc/ktnef-24.08.0/README.md
+* /usr/lib/libKPim6Tnef.so.6.2.1
+* /usr/share/doc/ktnef-24.08.1/AUTHORS
+* /usr/share/doc/ktnef-24.08.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libktnef6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libktnef6.mo
 * /usr/share/locale/be/LC_MESSAGES/libktnef6.mo

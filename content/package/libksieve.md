@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libksieve 24.08.0-1"
-version = "24.08.0-1"
+title = "libksieve 24.08.1-1"
+version = "24.08.1-1"
 description = "This lib manages sieve support"
-date = "2024-08-22T16:21:34"
+date = "2024-09-13T14:13:16"
 aliases = "/packages/218492"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "738920"
-usize = "4121054"
-sha1sum = "f6f151a6481be41a8cc86e9b4d362fe127d2dc9a"
-depends = "['akonadi>=24.08.0', 'kidentitymanagement>=24.08.0', 'kmailtransport>=24.08.0', 'pimcommon>=24.08.0']"
+size = "739896"
+usize = "4139336"
+sha1sum = "74011f14475ac1ac66ddab2bcb5cec6fd6a226ab"
+depends = "['akonadi>=24.08.1', 'kidentitymanagement>=24.08.1', 'kmailtransport>=24.08.1', 'pimcommon>=24.08.1']"
 reverse_depends = "['kdepim-addons', 'kmail', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -100,17 +100,17 @@ This lib manages sieve support
 * /usr/lib/cmake/KPim6KSieveUi/KPim6KSieveUiTargets.cmake
 * /usr/lib/libKPim6KManageSieve.so
 * /usr/lib/libKPim6KManageSieve.so.6
-* /usr/lib/libKPim6KManageSieve.so.6.2.0
+* /usr/lib/libKPim6KManageSieve.so.6.2.1
 * /usr/lib/libKPim6KSieve.so
 * /usr/lib/libKPim6KSieve.so.6
-* /usr/lib/libKPim6KSieve.so.6.2.0
+* /usr/lib/libKPim6KSieve.so.6.2.1
 * /usr/lib/libKPim6KSieveCore.so
 * /usr/lib/libKPim6KSieveCore.so.6
-* /usr/lib/libKPim6KSieveCore.so.6.2.0
+* /usr/lib/libKPim6KSieveCore.so.6.2.1
 * /usr/lib/libKPim6KSieveUi.so
 * /usr/lib/libKPim6KSieveUi.so.6
-* /usr/lib/libKPim6KSieveUi.so.6.2.0
-* /usr/share/doc/libksieve-24.08.0/TODO
+* /usr/lib/libKPim6KSieveUi.so.6.2.1
+* /usr/share/doc/libksieve-24.08.1/TODO
 * /usr/share/knsrcfiles/ksieve_script.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libksieve6.mo

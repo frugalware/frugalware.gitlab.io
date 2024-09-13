@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "messagelib 24.08.0-1"
-version = "24.08.0-1"
+title = "messagelib 24.08.1-1"
+version = "24.08.1-1"
 description = "KdePim message library."
-date = "2024-08-22T15:27:09"
+date = "2024-09-13T13:56:41"
 aliases = "/packages/218480"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2647492"
-usize = "14525856"
-sha1sum = "3d38e3362252985392ab9066de3a2e73147992d9"
-depends = "['akonadi-notes>=24.08.0', 'kidentitymanagement>=24.08.0', 'kmailtransport>=24.08.0', 'ktextaddons>=1.3.1', 'libgravatar>=24.08.0', 'qca']"
+size = "2644516"
+usize = "14537298"
+sha1sum = "a8d515ac5bd8ca6180f1035e60a3e6dff9dff407"
+depends = "['akonadi-notes>=24.08.1', 'kidentitymanagement>=24.08.1', 'kmailtransport>=24.08.1', 'ktextaddons>=1.3.1', 'libgravatar>=24.08.1', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -578,25 +578,25 @@ KdePim message library.
 * /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
 * /usr/lib/libKPim6MessageComposer.so
 * /usr/lib/libKPim6MessageComposer.so.6
-* /usr/lib/libKPim6MessageComposer.so.6.2.0
+* /usr/lib/libKPim6MessageComposer.so.6.2.1
 * /usr/lib/libKPim6MessageCore.so
 * /usr/lib/libKPim6MessageCore.so.6
-* /usr/lib/libKPim6MessageCore.so.6.2.0
+* /usr/lib/libKPim6MessageCore.so.6.2.1
 * /usr/lib/libKPim6MessageList.so
 * /usr/lib/libKPim6MessageList.so.6
-* /usr/lib/libKPim6MessageList.so.6.2.0
+* /usr/lib/libKPim6MessageList.so.6.2.1
 * /usr/lib/libKPim6MessageViewer.so
 * /usr/lib/libKPim6MessageViewer.so.6
-* /usr/lib/libKPim6MessageViewer.so.6.2.0
+* /usr/lib/libKPim6MessageViewer.so.6.2.1
 * /usr/lib/libKPim6MimeTreeParser.so
 * /usr/lib/libKPim6MimeTreeParser.so.6
-* /usr/lib/libKPim6MimeTreeParser.so.6.2.0
+* /usr/lib/libKPim6MimeTreeParser.so.6.2.1
 * /usr/lib/libKPim6TemplateParser.so
 * /usr/lib/libKPim6TemplateParser.so.6
-* /usr/lib/libKPim6TemplateParser.so.6.2.0
+* /usr/lib/libKPim6TemplateParser.so.6.2.1
 * /usr/lib/libKPim6WebEngineViewer.so
 * /usr/lib/libKPim6WebEngineViewer.so.6
-* /usr/lib/libKPim6WebEngineViewer.so.6.2.0
+* /usr/lib/libKPim6WebEngineViewer.so.6.2.1
 * /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
 * /usr/share/config.kcfg/customtemplates_kfg.kcfg

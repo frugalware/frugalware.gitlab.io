@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mailimporter 24.08.0-1"
-version = "24.08.0-1"
+title = "mailimporter 24.08.1-1"
+version = "24.08.1-1"
 description = "Mail importer library."
-date = "2024-08-22T15:31:46"
+date = "2024-09-13T14:01:12"
 aliases = "/packages/218472"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "238976"
-usize = "1726381"
-sha1sum = "f9ddf2c85bb6e33871162b2c253cbb45d532834f"
-depends = "['libkdepim>=24.08.0', 'pimcommon>=24.08.0']"
+size = "238684"
+usize = "1726400"
+sha1sum = "867aa5fa6551708bf8807cecd7e6bf78bbf31cbe"
+depends = "['libkdepim>=24.08.1', 'pimcommon>=24.08.1']"
 reverse_depends = "['mailcommon']"
 +++
 ### Description: 
@@ -90,10 +90,10 @@ Mail importer library.
 * /usr/lib/cmake/KPim6MailImporterAkonadi/KPim6MailImporterAkonadiTargets.cmake
 * /usr/lib/libKPim6MailImporter.so
 * /usr/lib/libKPim6MailImporter.so.6
-* /usr/lib/libKPim6MailImporter.so.6.2.0
+* /usr/lib/libKPim6MailImporter.so.6.2.1
 * /usr/lib/libKPim6MailImporterAkonadi.so
 * /usr/lib/libKPim6MailImporterAkonadi.so.6
-* /usr/lib/libKPim6MailImporterAkonadi.so.6.2.0
+* /usr/lib/libKPim6MailImporterAkonadi.so.6.2.1
 * /usr/share/locale/af/LC_MESSAGES/libmailimporter6.mo
 * /usr/share/locale/ar/LC_MESSAGES/libmailimporter6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmailimporter6.mo

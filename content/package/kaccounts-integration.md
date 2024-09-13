@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-integration 24.08.0-1"
-version = "24.08.0-1"
+title = "kaccounts-integration 24.08.1-1"
+version = "24.08.1-1"
 description = "Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2024-08-22T15:09:20"
+date = "2024-09-13T13:39:35"
 aliases = "/packages/218267"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "128352"
-usize = "569077"
-sha1sum = "87f6b5c7b58786e36743d1dd283d476d598af39d"
-depends = "['kcmutils>=6.5.0', 'kconfigwidgets>=6.5.0', 'kdbusaddons>=6.5.0', 'kdeclarative>=6.5.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.7.1', 'signon-kwallet-extension>=24.08.0']"
+size = "128316"
+usize = "570190"
+sha1sum = "e00840b2ca17a9d703fd5c1646546689f297b477"
+depends = "['kcmutils>=6.5.0', 'kconfigwidgets>=6.5.0', 'kdbusaddons>=6.5.0', 'kdeclarative>=6.5.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.7.1', 'signon-kwallet-extension>=24.08.1']"
 reverse_depends = "['akonadi', 'kaccounts-provider-opendesktop', 'kaccounts-providers', 'plasma-welcome']"
 +++
 ### Description: 
@@ -49,7 +49,7 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/lib/cmake/KAccounts6/KAccountsMacros.cmake
 * /usr/lib/libkaccounts6.so
 * /usr/lib/libkaccounts6.so.2
-* /usr/lib/libkaccounts6.so.24.08.0
+* /usr/lib/libkaccounts6.so.24.08.1
 * /usr/lib/qt6/plugins/kaccounts/daemonplugins/kaccounts_kio_webdav_plugin.so
 * /usr/lib/qt6/plugins/kf6/kded/kded_accounts.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_kaccounts.so
@@ -58,8 +58,8 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/lib/qt6/qml/org/kde/kaccounts/libkaccountsdeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/kaccounts/qmldir
 * /usr/share/applications/kcm_kaccounts.desktop
-* /usr/share/doc/kaccounts-integration-24.08.0/README
-* /usr/share/doc/kaccounts-integration-24.08.0/README.md
+* /usr/share/doc/kaccounts-integration-24.08.1/README
+* /usr/share/doc/kaccounts-integration-24.08.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/ast/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/az/LC_MESSAGES/kaccounts-integration.mo
