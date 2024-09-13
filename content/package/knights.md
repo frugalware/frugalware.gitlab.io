@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knights 24.08.0-1"
-version = "24.08.0-1"
+title = "knights 24.08.1-1"
+version = "24.08.1-1"
 description = "Chess board program."
-date = "2024-08-22T17:46:24"
+date = "2024-09-13T15:31:11"
 aliases = "/packages/38796"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3539628"
-usize = "5324265"
-sha1sum = "b966a7c7c6af2e050070b81e3de36002e4b2521d"
-depends = "['kplotting>=6.5.0', 'ksvg>=6.5.0', 'libkdegames>=24.08.0', 'libplasma>=6.1.4']"
+size = "3539388"
+usize = "5329080"
+sha1sum = "73545c9847dbce4f1b63b7a7889e03334451ccd2"
+depends = "['kplotting>=6.5.0', 'ksvg>=6.5.0', 'libkdegames>=24.08.1', 'libplasma>=6.1.5']"
 +++
 ### Description: 
 Chess board program.
@@ -90,11 +90,11 @@ Chess board program.
 * /usr/share/doc/HTML/uk/knights/Knights-server-challenges.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-graph.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-list.png
-* /usr/share/doc/knights-24.08.0/ChangeLog
-* /usr/share/doc/knights-24.08.0/LICENSE
-* /usr/share/doc/knights-24.08.0/README.md
-* /usr/share/doc/knights-24.08.0/README.themes
-* /usr/share/doc/knights-24.08.0/README.translation
+* /usr/share/doc/knights-24.08.1/ChangeLog
+* /usr/share/doc/knights-24.08.1/LICENSE
+* /usr/share/doc/knights-24.08.1/README.md
+* /usr/share/doc/knights-24.08.1/README.themes
+* /usr/share/doc/knights-24.08.1/README.translation
 * /usr/share/icons/hicolor/16x16/apps/knights.png
 * /usr/share/icons/hicolor/32x32/apps/knights.png
 * /usr/share/icons/hicolor/48x48/apps/knights.png

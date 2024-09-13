@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kosmindoormap 24.08.0-1"
-version = "24.08.0-1"
+title = "kosmindoormap 24.08.1-1"
+version = "24.08.1-1"
 description = "OSM multi-floor indoor map renderer"
-date = "2024-08-22T21:31:57"
+date = "2024-09-13T15:50:00"
 aliases = "/packages/220317"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "845444"
-usize = "2936674"
-sha1sum = "47ed2945cc483ed5e3879ab27556f94caf6892b1"
-depends = "['ki18n>=6.5.0', 'kopeninghours>=24.08.0', 'kpublictransport=>24.08.0']"
+size = "843508"
+usize = "2939441"
+sha1sum = "60b7a794668008f66f83e3605f46e27bc1371344"
+depends = "['ki18n>=6.5.0', 'kopeninghours>=24.08.1', 'kpublictransport=>24.08.1']"
 reverse_depends = "['itinerary', 'kongress']"
 +++
 ### Description: 
@@ -100,13 +100,13 @@ OSM multi-floor indoor map renderer
 * /usr/lib/cmake/KOSMIndoorMap/KOSMIndoorMapTargets.cmake
 * /usr/lib/libKOSM.so
 * /usr/lib/libKOSM.so.1
-* /usr/lib/libKOSM.so.24.08.0
+* /usr/lib/libKOSM.so.24.08.1
 * /usr/lib/libKOSMIndoorMap.so
 * /usr/lib/libKOSMIndoorMap.so.1
-* /usr/lib/libKOSMIndoorMap.so.24.08.0
+* /usr/lib/libKOSMIndoorMap.so.24.08.1
 * /usr/lib/libKOSMIndoorRouting.so
 * /usr/lib/libKOSMIndoorRouting.so.1
-* /usr/lib/libKOSMIndoorRouting.so.24.08.0
+* /usr/lib/libKOSMIndoorRouting.so.24.08.1
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/AmenityListDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/AmenitySearchDialog.qml
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/FloorLevelSelector.qml
@@ -136,8 +136,8 @@ OSM multi-floor indoor map renderer
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/kosmeditorcontrollerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/libkosmeditorcontrollerplugin.so
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/qmldir
-* /usr/share/doc/kosmindoormap-24.08.0/README.md
-* /usr/share/doc/kosmindoormap-24.08.0/README.md.license
+* /usr/share/doc/kosmindoormap-24.08.1/README.md
+* /usr/share/doc/kosmindoormap-24.08.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ast/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ca/LC_MESSAGES/kosmindoormap.mo

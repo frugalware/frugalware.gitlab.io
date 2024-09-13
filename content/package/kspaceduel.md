@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kspaceduel 24.08.0-1"
-version = "24.08.0-1"
+title = "kspaceduel 24.08.1-1"
+version = "24.08.1-1"
 description = "KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun"
-date = "2024-08-22T17:38:15"
+date = "2024-09-13T15:23:29"
 aliases = "/packages/219340"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "656616"
-usize = "1731151"
-sha1sum = "c2fd9bd1970694620d7332468f98f1fe01f0f167"
-depends = "['libkdegames>=24.08.0']"
+size = "656528"
+usize = "1732598"
+sha1sum = "ab1e8c1eb6c9063c9938c112df301fbc22363fd6"
+depends = "['libkdegames>=24.08.1']"
 +++
 ### Description: 
 KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun
@@ -60,11 +60,11 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/doc/HTML/uk/kspaceduel/index.cache.bz2
 * /usr/share/doc/HTML/uk/kspaceduel/index.docbook
 * /usr/share/doc/HTML/uk/kspaceduel/kspaceduel3.png
-* /usr/share/doc/kspaceduel-24.08.0/AUTHORS
-* /usr/share/doc/kspaceduel-24.08.0/ChangeLog
-* /usr/share/doc/kspaceduel-24.08.0/README
-* /usr/share/doc/kspaceduel-24.08.0/README.PACKAGERS
-* /usr/share/doc/kspaceduel-24.08.0/TODO
+* /usr/share/doc/kspaceduel-24.08.1/AUTHORS
+* /usr/share/doc/kspaceduel-24.08.1/ChangeLog
+* /usr/share/doc/kspaceduel-24.08.1/README
+* /usr/share/doc/kspaceduel-24.08.1/README.PACKAGERS
+* /usr/share/doc/kspaceduel-24.08.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kspaceduel.png
 * /usr/share/icons/hicolor/16x16/apps/kspaceduel.png
 * /usr/share/icons/hicolor/22x22/apps/kspaceduel.png

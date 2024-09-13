@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpublictransport 24.08.0-1"
-version = "24.08.0-1"
+title = "kpublictransport 24.08.1-1"
+version = "24.08.1-1"
 description = "Library to assist with accessing public transport timetables and other data"
-date = "2024-08-22T21:29:03"
+date = "2024-09-13T15:46:47"
 aliases = "/packages/220314"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "865280"
-usize = "3067652"
-sha1sum = "6a89857e3c4a217d637aa26ff824a0663ecba2ed"
+size = "899416"
+usize = "3006494"
+sha1sum = "bc591c4e14452e67a7cdccc85b1e7fda6a616c89"
 depends = "['ki18n>=6.5.0', 'networkmanager-qt>=6.5.0', 'qt6-declarative>=6.7.1']"
 reverse_depends = "['kosmindoormap', 'ktrip']"
 +++
@@ -101,10 +101,10 @@ Library to assist with accessing public transport timetables and other data
 * /usr/lib/cmake/KPublicTransport/KPublicTransportTargets.cmake
 * /usr/lib/libKPublicTransport.so
 * /usr/lib/libKPublicTransport.so.1
-* /usr/lib/libKPublicTransport.so.24.08.0
+* /usr/lib/libKPublicTransport.so.24.08.1
 * /usr/lib/libKPublicTransportOnboard.so
 * /usr/lib/libKPublicTransportOnboard.so.1
-* /usr/lib/libKPublicTransportOnboard.so.24.08.0
+* /usr/lib/libKPublicTransportOnboard.so.24.08.1
 * /usr/lib/qt6/qml/org/kde/kpublictransport/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kpublictransport/kpublictransportqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kpublictransport/libkpublictransportqmlplugin.so
@@ -120,8 +120,8 @@ Library to assist with accessing public transport timetables and other data
 * /usr/lib/qt6/qml/org/kde/kpublictransport/ui/OccupancyIndicator.qml
 * /usr/lib/qt6/qml/org/kde/kpublictransport/ui/qmldir
 * /usr/lib/qt6/qml/org/kde/kpublictransport/ui/VehicleSectionItem.qml
-* /usr/share/doc/kpublictransport-24.08.0/README.md
-* /usr/share/doc/kpublictransport-24.08.0/README.md.license
+* /usr/share/doc/kpublictransport-24.08.1/README.md
+* /usr/share/doc/kpublictransport-24.08.1/README.md.license
 * /usr/share/locale/ca/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/cs/LC_MESSAGES/kpublictransport.mo
@@ -137,6 +137,7 @@ Library to assist with accessing public transport timetables and other data
 * /usr/share/locale/ia/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/it/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/ka/LC_MESSAGES/kpublictransport.mo
+* /usr/share/locale/ko/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/nl/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/pl/LC_MESSAGES/kpublictransport.mo
 * /usr/share/locale/sl/LC_MESSAGES/kpublictransport.mo

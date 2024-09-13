@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neochat 24.08.0-1"
-version = "24.08.0-1"
+title = "neochat 24.08.1-1"
+version = "24.08.1-1"
 description = "A client for matrix, the decentralized communication protocol"
-date = "2024-08-23T08:17:32"
+date = "2024-09-13T16:12:00"
 aliases = "/packages/220990"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1766532"
-usize = "9218327"
-sha1sum = "ddf12e9e73884f98551b8fb612ba9fda697ad6c9"
+size = "1767136"
+usize = "9231041"
+sha1sum = "edb7688b9fedf05982c72bb990138a8c2827cc19"
 depends = "['cmark>=0.31.1', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'kstatusnotifieritem', 'libquotient', 'purpose', 'qqc2-desktop-style', 'qt6-webview', 'syntax-highlighting']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ A client for matrix, the decentralized communication protocol
 * /usr/bin/neochat
 * /usr/lib/qt6/plugins/kf6/purpose/neochatshareplugin.so
 * /usr/share/applications/org.kde.neochat.desktop
-* /usr/share/doc/neochat-24.08.0/README.md
+* /usr/share/doc/neochat-24.08.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.neochat.tray.svg
 * /usr/share/knotifications6/neochat.notifyrc

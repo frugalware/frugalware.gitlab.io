@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kopeninghours 24.08.0-1"
-version = "24.08.0-1"
+title = "kopeninghours 24.08.1-1"
+version = "24.08.1-1"
 description = "Library for parsing and evaluating OSM opening hours expressions"
-date = "2024-08-22T21:30:32"
+date = "2024-09-13T15:48:28"
 aliases = "/packages/220984"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "103808"
+size = "104008"
 usize = "385295"
-sha1sum = "a1af30e9aaf6eb410cced96a3cd0161bd43fa30c"
+sha1sum = "16f102e1dd5b2ec9e3e7247473b8f5ee5502b186"
 depends = "['kholidays', 'ki18n', 'qt6-declarative']"
 reverse_depends = "['kosmindoormap']"
 +++
@@ -34,13 +34,13 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/lib/cmake/KOpeningHours/KOpeningHoursTargets.cmake
 * /usr/lib/libKOpeningHours.so
 * /usr/lib/libKOpeningHours.so.1
-* /usr/lib/libKOpeningHours.so.24.8.0
+* /usr/lib/libKOpeningHours.so.24.8.1
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kopeninghoursqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/kopeninghours/qmldir
-* /usr/share/doc/kopeninghours-24.08.0/README.md
-* /usr/share/doc/kopeninghours-24.08.0/README.md.license
+* /usr/share/doc/kopeninghours-24.08.1/README.md
+* /usr/share/doc/kopeninghours-24.08.1/README.md.license
 * /usr/share/locale/ast/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kopeninghours.mo

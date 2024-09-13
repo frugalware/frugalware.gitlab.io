@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kjournald 24.08.0-1"
-version = "24.08.0-1"
+title = "kjournald 24.08.1-1"
+version = "24.08.1-1"
 description = "Framework for interacting with systemd-journald"
-date = "2024-08-23T08:05:40"
+date = "2024-09-13T16:03:03"
 aliases = "/packages/220980"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "149692"
-usize = "579440"
-sha1sum = "9570e41e9787fa280e9f1b0172e905df31777419"
+size = "149824"
+usize = "579246"
+sha1sum = "1d7a71cae3b069e47fbdc4479f43f189ad664914"
 depends = "['kcoreaddons', 'ki18n', 'kirigami']"
 +++
 ### Description: 
@@ -20,9 +20,9 @@ Framework for interacting with systemd-journald
 * /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0
-* /usr/lib/libkjournald.so.24.08.0
+* /usr/lib/libkjournald.so.24.08.1
 * /usr/share/applications/org.kde.kjournaldbrowser.desktop
-* /usr/share/doc/kjournald-24.08.0/README.md
+* /usr/share/doc/kjournald-24.08.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ast/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca/LC_MESSAGES/kjournald.mo

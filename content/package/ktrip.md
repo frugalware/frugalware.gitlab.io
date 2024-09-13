@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktrip 24.08.0-1"
-version = "24.08.0-1"
+title = "ktrip 24.08.1-1"
+version = "24.08.1-1"
 description = "Public Transport Assistance for Mobile Devices"
-date = "2024-08-23T08:13:02"
+date = "2024-09-13T16:07:06"
 aliases = "/packages/220986"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "101712"
-usize = "413749"
-sha1sum = "0b5935efff0608f9402e5510440e886aa6ae9b02"
+size = "101744"
+usize = "413800"
+sha1sum = "9e64754c5858a37adfb31e8fafa2865ab25d9a51"
 depends = "['kconfig', 'kcoreaddons', 'kirigami-addons', 'kitemmodels', 'kpublictransport', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Public Transport Assistance for Mobile Devices
 ### Files: 
 * /usr/bin/ktrip
 * /usr/share/applications/org.kde.ktrip.desktop
-* /usr/share/doc/ktrip-24.08.0/README.md
+* /usr/share/doc/ktrip-24.08.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.ktrip.svg
 * /usr/share/locale/ast/LC_MESSAGES/ktrip.mo
 * /usr/share/locale/ca/LC_MESSAGES/ktrip.mo
