@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "merkuro 24.08.0-1"
-version = "24.08.0-1"
+title = "merkuro 24.08.1-1"
+version = "24.08.1-1"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2024-08-23T08:27:04"
+date = "2024-09-13T16:37:11"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1229404"
-usize = "5351867"
-sha1sum = "ba6737523da7509cc5242d0a2bd8f52e73d01a78"
+size = "1225168"
+usize = "5331487"
+sha1sum = "51916714f9ea05ec605b4fd9b94fa14e8e77c2c4"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -21,11 +21,11 @@ A calendar application using Akonadi to sync with external services
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail
 * /usr/lib/libMerkuroComponents.so
-* /usr/lib/libMerkuroComponents.so.24.08.0
+* /usr/lib/libMerkuroComponents.so.24.08.1
 * /usr/lib/libMerkuroComponents.so.6
-* /usr/lib/libmerkuro_contact_plugin.so
-* /usr/lib/libmerkuro_contact_plugin.so.24.08.0
-* /usr/lib/libmerkuro_contact_plugin.so.6
+* /usr/lib/libmerkuro_contact.so
+* /usr/lib/libmerkuro_contact.so.24.08.1
+* /usr/lib/libmerkuro_contact.so.6
 * /usr/lib/qt6/qml/org/kde/akonadi/AgentConfigurationForm.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/akonadi_quick_plugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/akonadi/CollectionComboBox.qml
@@ -65,7 +65,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/ContactView.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/GlobalMenuBar.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/merkuro/contact/libmerkuro_contact_pluginplugin.so
+* /usr/lib/qt6/qml/org/kde/merkuro/contact/libmerkuro_contact_plugin.so
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/Main.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/MenuBar.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/merkuro_contact_plugin.qmltypes
@@ -93,7 +93,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/applications/org.kde.merkuro.calendar.desktop
 * /usr/share/applications/org.kde.merkuro.contact.desktop
 * /usr/share/applications/org.kde.merkuro.mail.desktop
-* /usr/share/doc/merkuro-24.08.0/README.md
+* /usr/share/doc/merkuro-24.08.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png
