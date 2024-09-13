@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telly-skout 24.08.0-1"
-version = "24.08.0-1"
+title = "telly-skout 24.08.1-1"
+version = "24.08.1-1"
 description = "Convergent TV guide based on Kirigami"
-date = "2024-08-23T08:49:36"
+date = "2024-09-13T17:23:39"
 aliases = "/packages/220995"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "152856"
-usize = "607949"
-sha1sum = "b39f348caa62f61fd4d4e13f2bdda5f5f00e2926"
+size = "153484"
+usize = "611055"
+sha1sum = "33d4753dc7ab99d5c1a40acdf9d16662001154db"
 depends = "['kconfig', 'kcrash', 'ki18n', 'kirigami-addons', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Convergent TV guide based on Kirigami
 ### Files: 
 * /usr/bin/telly-skout
 * /usr/share/applications/org.kde.telly-skout.desktop
-* /usr/share/doc/telly-skout-24.08.0/README.md
+* /usr/share/doc/telly-skout-24.08.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.telly-skout.svg
 * /usr/share/locale/ast/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ca/LC_MESSAGES/telly-skout.mo

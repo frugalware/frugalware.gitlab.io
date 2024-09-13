@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweathercore 24.08.0-1"
-version = "24.08.0-1"
+title = "kweathercore 24.08.1-1"
+version = "24.08.1-1"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2024-08-23T12:30:22"
+date = "2024-09-13T17:46:25"
 aliases = "/packages/220987"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "81672"
-usize = "376238"
-sha1sum = "6f2f52e6817efcaa234745a3419bbcf7a07c5e47"
+size = "81640"
+usize = "376239"
+sha1sum = "8c7fd4ecdf54af634af28a8192f59150dfd92b49"
 depends = "['kholidays', 'ki18n', 'qt6-location']"
 reverse_depends = "['kweather']"
 +++
@@ -57,10 +57,10 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets-release.cmake
 * /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets.cmake
 * /usr/lib/libKWeatherCore.so
-* /usr/lib/libKWeatherCore.so.24.8.0
+* /usr/lib/libKWeatherCore.so.24.8.1
 * /usr/lib/libKWeatherCore.so.6
 * /usr/lib/qt6/mkspecs/modules/qt_KWeatherCore.pri
-* /usr/share/doc/kweathercore-24.08.0/README.md
+* /usr/share/doc/kweathercore-24.08.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/az/LC_MESSAGES/kweathercore6.mo

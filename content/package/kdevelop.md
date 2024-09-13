@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdevelop 24.08.0-1"
-version = "24.08.0-1"
+title = "kdevelop 24.08.1-1"
+version = "24.08.1-1"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-08-23T10:13:57"
+date = "2024-09-13T17:35:40"
 aliases = "/packages/10830"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "10440012"
-usize = "37921678"
-sha1sum = "789a780fce73520976919b48e2c0ffa5f175c4a5"
-depends = "['kcmutils>=6.5.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.5.0', 'krunner>=6.5.0', 'ktexteditor>=6.5.0', 'ktexttemplate>=6.5.0', 'libkomparediff2', 'libksysguard>=6.1.4', 'libplasma>=6.1.4', 'qt6-tools>=6.7.1', 'subversion']"
+size = "10351860"
+usize = "38002545"
+sha1sum = "45ead452d33c2a70cfc23f2fd5c9e3b14737e0d1"
+depends = "['kcmutils>=6.5.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.5.0', 'krunner>=6.5.0', 'ktexteditor>=6.5.0', 'ktexttemplate>=6.5.0', 'libkomparediff2', 'libksysguard>=6.1.5', 'libplasma>=6.1.5', 'qt6-tools>=6.7.1', 'subversion']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
 ### Description: 
@@ -408,37 +408,37 @@ The KDevelop integrated C/C++ application development environment
 * /usr/lib/libKDevCompileAnalyzerCommon.so.60
 * /usr/lib/libKDevelopSessionsWatch.so
 * /usr/lib/libKDevPlatformDebugger.so
-* /usr/lib/libKDevPlatformDebugger.so.6.0.240800
+* /usr/lib/libKDevPlatformDebugger.so.6.0.240801
 * /usr/lib/libKDevPlatformDebugger.so.60
 * /usr/lib/libKDevPlatformDocumentation.so
-* /usr/lib/libKDevPlatformDocumentation.so.6.0.240800
+* /usr/lib/libKDevPlatformDocumentation.so.6.0.240801
 * /usr/lib/libKDevPlatformDocumentation.so.60
 * /usr/lib/libKDevPlatformInterfaces.so
-* /usr/lib/libKDevPlatformInterfaces.so.6.0.240800
+* /usr/lib/libKDevPlatformInterfaces.so.6.0.240801
 * /usr/lib/libKDevPlatformInterfaces.so.60
 * /usr/lib/libKDevPlatformLanguage.so
-* /usr/lib/libKDevPlatformLanguage.so.6.0.240800
+* /usr/lib/libKDevPlatformLanguage.so.6.0.240801
 * /usr/lib/libKDevPlatformLanguage.so.60
 * /usr/lib/libKDevPlatformOutputView.so
-* /usr/lib/libKDevPlatformOutputView.so.6.0.240800
+* /usr/lib/libKDevPlatformOutputView.so.6.0.240801
 * /usr/lib/libKDevPlatformOutputView.so.60
 * /usr/lib/libKDevPlatformProject.so
-* /usr/lib/libKDevPlatformProject.so.6.0.240800
+* /usr/lib/libKDevPlatformProject.so.6.0.240801
 * /usr/lib/libKDevPlatformProject.so.60
 * /usr/lib/libKDevPlatformSerialization.so
-* /usr/lib/libKDevPlatformSerialization.so.6.0.240800
+* /usr/lib/libKDevPlatformSerialization.so.6.0.240801
 * /usr/lib/libKDevPlatformSerialization.so.60
 * /usr/lib/libKDevPlatformShell.so
-* /usr/lib/libKDevPlatformShell.so.6.0.240800
+* /usr/lib/libKDevPlatformShell.so.6.0.240801
 * /usr/lib/libKDevPlatformShell.so.60
 * /usr/lib/libKDevPlatformSublime.so
-* /usr/lib/libKDevPlatformSublime.so.6.0.240800
+* /usr/lib/libKDevPlatformSublime.so.6.0.240801
 * /usr/lib/libKDevPlatformSublime.so.60
 * /usr/lib/libKDevPlatformUtil.so
-* /usr/lib/libKDevPlatformUtil.so.6.0.240800
+* /usr/lib/libKDevPlatformUtil.so.6.0.240801
 * /usr/lib/libKDevPlatformUtil.so.60
 * /usr/lib/libKDevPlatformVcs.so
-* /usr/lib/libKDevPlatformVcs.so.6.0.240800
+* /usr/lib/libKDevPlatformVcs.so.6.0.240801
 * /usr/lib/libKDevPlatformVcs.so.60
 * /usr/lib/qt6/plugins/kdevplatform/60/kdevandroid.so
 * /usr/lib/qt6/plugins/kdevplatform/60/kdevappwizard.so
@@ -580,10 +580,10 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/doc/HTML/sv/kdevelop/index.docbook
 * /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdevelop/index.docbook
-* /usr/share/doc/kdevelop-24.08.0/AUTHORS
-* /usr/share/doc/kdevelop-24.08.0/COPYING.DOC
-* /usr/share/doc/kdevelop-24.08.0/INSTALL
-* /usr/share/doc/kdevelop-24.08.0/README.md
+* /usr/share/doc/kdevelop-24.08.1/AUTHORS
+* /usr/share/doc/kdevelop-24.08.1/COPYING.DOC
+* /usr/share/doc/kdevelop-24.08.1/INSTALL
+* /usr/share/doc/kdevelop-24.08.1/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
 * /usr/share/icons/hicolor/128x128/apps/bazaar.png
 * /usr/share/icons/hicolor/128x128/apps/clazy.png
@@ -1532,27 +1532,34 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/locale/eu/LC_MESSAGES/kdevbazaar.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevclassbrowser.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevcodeutils.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevcontextbrowser.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevcustommake.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevcustomscript.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevdocker.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevdocumentswitcher.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevdocumentview.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevelop.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevexecuteplasmoid.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevfilemanager.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevflatpak.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevgit.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevgrepview.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevkonsole.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevmanpage.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevninja.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevokteta.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevopenwith.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevoutlineview.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevplatform.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevprojectfilter.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevqmakebuilder.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevqthelp.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevsourceformatter.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevsubversion.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevswitchtobuddy.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevtestview.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdevvcsprojectintegration.mo
+* /usr/share/locale/eu/LC_MESSAGES/kdevwelcomepage.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
 * /usr/share/locale/fa/LC_MESSAGES/kdevelop.mo
@@ -1864,6 +1871,7 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/locale/hu/LC_MESSAGES/kdevswitchtobuddy.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdevtestview.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdevvcsprojectintegration.mo
+* /usr/share/locale/hu/LC_MESSAGES/kdevwelcomepage.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_kdevelopsessions.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_kdevelopsessions.mo
 * /usr/share/locale/is/LC_MESSAGES/kdevelop.mo

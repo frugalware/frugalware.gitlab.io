@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "itinerary 24.08.0-1"
-version = "24.08.0-1"
+title = "itinerary 24.08.1-1"
+version = "24.08.1-1"
 description = "Itinerary and boarding pass management application"
-date = "2024-08-25T16:15:45"
+date = "2024-09-13T18:03:47"
 aliases = "/packages/220318"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1159340"
-usize = "5791604"
-sha1sum = "9c4215d8cf685a7a56b681e4cd15cf35cc50a6fc"
-depends = "['kfilemetadata>=6.5.0', 'khealthcertificate>=24.08.0', 'kirigami-addons', 'kitemmodels>=6.5.0', 'kitinerary>=24.08.0', 'kosmindoormap>=24.08.0', 'kunitconversion>=6.5.0', 'libquotient', 'prison>=6.5.0', 'qqc2-desktop-style>=6.5.0', 'qt6-positioning>=6.7.1']"
+size = "1168564"
+usize = "5877912"
+sha1sum = "478b49476ee5e3d7c2cf5491614e9e2e32439fb7"
+depends = "['kfilemetadata>=6.5.0', 'khealthcertificate>=24.08.1', 'kirigami-addons', 'kitemmodels>=6.5.0', 'kitinerary>=24.08.1', 'kosmindoormap>=24.08.1', 'kunitconversion>=6.5.0', 'libquotient', 'prison>=6.5.0', 'qqc2-desktop-style>=6.5.0', 'qt6-positioning>=6.7.1']"
 +++
 ### Description: 
 Itinerary and boarding pass management application
@@ -24,8 +24,8 @@ Itinerary and boarding pass management application
 * /usr/lib/qt6/qml/org/kde/solidextras/libsolidextrasqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/solidextras/qmldir
 * /usr/share/applications/org.kde.itinerary.desktop
-* /usr/share/doc/itinerary-24.08.0/README.md
-* /usr/share/doc/itinerary-24.08.0/README.md.license
+* /usr/share/doc/itinerary-24.08.1/README.md
+* /usr/share/doc/itinerary-24.08.1/README.md.license
 * /usr/share/icons/hicolor/scalable/apps/org.kde.itinerary.svg
 * /usr/share/knotifications6/itinerary.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kde-itinerary.mo
@@ -42,6 +42,7 @@ Itinerary and boarding pass management application
 * /usr/share/locale/fi/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/fr/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/gl/LC_MESSAGES/kde-itinerary.mo
+* /usr/share/locale/he/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/hu/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/ia/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/it/LC_MESSAGES/kde-itinerary.mo
