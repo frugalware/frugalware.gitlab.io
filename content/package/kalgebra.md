@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalgebra 24.08.0-1"
-version = "24.08.0-1"
+title = "kalgebra 24.08.1-1"
+version = "24.08.1-1"
 description = "2D and 3D Graph Calculator."
-date = "2024-08-22T13:39:05"
+date = "2024-09-13T12:06:32"
 aliases = "/packages/152824"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1037956"
-usize = "2172239"
-sha1sum = "eb60d8ffa69edebca6ccaa1d9cd409436ae1179e"
-depends = "['analitza>=24.08.0', 'kio>=6.5.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.1', 'readline>=8.0']"
+size = "1037976"
+usize = "2172296"
+sha1sum = "b502732faef92a40aab5fd286e45a50f2483e558"
+depends = "['analitza>=24.08.1', 'kio>=6.5.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.1', 'readline>=8.0']"
 +++
 ### Description: 
 2D and 3D Graph Calculator.
@@ -75,10 +75,10 @@ depends = "['analitza>=24.08.0', 'kio>=6.5.0', 'libglu>=9.0.0-3', 'qt6-webengine
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-console-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-dictionary-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/kalgebra-24.08.0/COPYING
-* /usr/share/doc/kalgebra-24.08.0/COPYING.DOC
-* /usr/share/doc/kalgebra-24.08.0/COPYING.LIB
-* /usr/share/doc/kalgebra-24.08.0/TODO
+* /usr/share/doc/kalgebra-24.08.1/COPYING
+* /usr/share/doc/kalgebra-24.08.1/COPYING.DOC
+* /usr/share/doc/kalgebra-24.08.1/COPYING.LIB
+* /usr/share/doc/kalgebra-24.08.1/TODO
 * /usr/share/icons/hicolor/64x64/apps/kalgebra.png
 * /usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
 * /usr/share/katepart5/syntax/kalgebra.xml
