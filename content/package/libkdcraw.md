@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkdcraw 24.08.0-1"
-version = "24.08.0-1"
+title = "libkdcraw 24.08.1-1"
+version = "24.08.1-1"
 description = "KDE Paint Program."
-date = "2024-08-22T14:19:12"
+date = "2024-09-13T12:48:34"
 aliases = "/packages/74204"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "40212"
+size = "40200"
 usize = "130261"
-sha1sum = "727265d89ba57c8ff50e80523ee8503328b980f6"
+sha1sum = "b6cff75fbbce42796e213eeabc43afe24cf03d01"
 depends = "['libraw>=0.21.1', 'qt6-base>=6.7.1']"
 reverse_depends = "['gwenview', 'kdegraphics-thumbnailers', 'krita']"
 +++
@@ -35,7 +35,7 @@ KDE Paint Program.
 * /usr/lib/libKDcrawQt6.so
 * /usr/lib/libKDcrawQt6.so.5
 * /usr/lib/libKDcrawQt6.so.5.0.0
-* /usr/share/doc/libkdcraw-24.08.0/AUTHORS
-* /usr/share/doc/libkdcraw-24.08.0/README
-* /usr/share/doc/libkdcraw-24.08.0/TODO
+* /usr/share/doc/libkdcraw-24.08.1/AUTHORS
+* /usr/share/doc/libkdcraw-24.08.1/README
+* /usr/share/doc/libkdcraw-24.08.1/TODO
 * /usr/share/qlogging-categories6/libkdcraw.categories

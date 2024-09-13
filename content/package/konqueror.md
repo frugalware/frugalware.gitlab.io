@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konqueror 24.08.0-1"
-version = "24.08.0-1"
+title = "konqueror 24.08.1-1"
+version = "24.08.1-1"
 description = "Web browser and file manager"
-date = "2024-08-22T13:56:08"
+date = "2024-09-13T12:21:17"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8377108"
-usize = "26434746"
-sha1sum = "a27e0c5c7964f8226f010283b472a59fe9fcf26d"
-depends = "['hunspell', 'kcmutils>=6.5.0', 'kdesu>=6.5.0', 'kparts>=6.5.0', 'plasma-activities>=6.1.4', 'qt6-speech>=6.7.1', 'qt6-webengine>=6.7.1', 'tidy>=5.6.0']"
+size = "8343936"
+usize = "26459569"
+sha1sum = "04316673b1a082a6fe2edcbf05be3c904de760ad"
+depends = "['hunspell', 'kcmutils>=6.5.0', 'kdesu>=6.5.0', 'kparts>=6.5.0', 'plasma-activities>=6.1.5', 'qt6-speech>=6.7.1', 'qt6-webengine>=6.7.1', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager
@@ -52,9 +52,9 @@ Web browser and file manager
 * /usr/lib/libKF6KonqSettings.so.5.97.0
 * /usr/lib/libKF6KonqSettings.so.7
 * /usr/lib/libkonqsidebarplugin.so
-* /usr/lib/libkonqsidebarplugin.so.24.08.0
+* /usr/lib/libkonqsidebarplugin.so.24.08.1
 * /usr/lib/libkonqsidebarplugin.so.6
-* /usr/lib/libkonquerorprivate.so.24.08.0
+* /usr/lib/libkonquerorprivate.so.24.08.1
 * /usr/lib/libkonquerorprivate.so.5
 * /usr/lib/libkwebenginepart.so
 * /usr/lib/qt6/plugins/akregatorkonqfeedicon.so
@@ -607,8 +607,8 @@ Web browser and file manager
 * /usr/share/doc/HTML/uk/konqueror/viewproperties-dialog.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.docbook
-* /usr/share/doc/konqueror-24.08.0/AUTHORS
-* /usr/share/doc/konqueror-24.08.0/ChangeLog
+* /usr/share/doc/konqueror-24.08.1/AUTHORS
+* /usr/share/doc/konqueror-24.08.1/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/konqueror.png
 * /usr/share/icons/hicolor/128x128/apps/webengine.png
 * /usr/share/icons/hicolor/16x16/actions/babelfish.png

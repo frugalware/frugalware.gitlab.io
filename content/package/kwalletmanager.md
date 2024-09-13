@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwalletmanager 24.08.0-1"
-version = "24.08.0-1"
+title = "kwalletmanager 24.08.1-1"
+version = "24.08.1-1"
 description = "Passwords managing tool."
-date = "2024-08-22T14:03:36"
+date = "2024-09-13T12:31:58"
 aliases = "/packages/200641"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1189312"
-usize = "2876125"
-sha1sum = "e4352a5b0ede62fde1670ded2f01931d12752522"
+size = "1188608"
+usize = "2876697"
+sha1sum = "989cc5fcf370e5ae28209d26b1833fbd29912cde"
 depends = "['kstatusnotifieritem>=6.5.0']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ Passwords managing tool.
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kwallet5.so
 * /usr/share/applications/kwalletmanager5-kwalletd.desktop
 * /usr/share/applications/org.kde.kwalletmanager.desktop
-* /usr/share/dbus-1/services/org.kde.kwalletmanager5.service
+* /usr/share/dbus-1/services/org.kde.kwalletmanager.service
 * /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmkwallet5.service
 * /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmkwallet5.conf
 * /usr/share/doc/HTML/ca/kwalletmanager/index.cache.bz2
@@ -86,7 +86,7 @@ Passwords managing tool.
 * /usr/share/doc/HTML/uk/kwalletmanager/kwalletmanager.png
 * /usr/share/doc/HTML/uk/kwalletmanager/openwallet-request.png
 * /usr/share/doc/HTML/uk/kwalletmanager/save-login-information.png
-* /usr/share/doc/kwalletmanager-24.08.0/TODO
+* /usr/share/doc/kwalletmanager-24.08.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
 * /usr/share/icons/hicolor/16x16/apps/kwalletmanager.png

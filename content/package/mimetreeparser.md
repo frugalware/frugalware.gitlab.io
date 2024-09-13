@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 24.08.0-1"
-version = "24.08.0-1"
+title = "mimetreeparser 24.08.1-1"
+version = "24.08.1-1"
 description = "Parser for MIME trees"
-date = "2024-08-22T14:15:39"
+date = "2024-09-13T12:45:10"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "218328"
-usize = "987116"
-sha1sum = "fc33c19db6db054059191dcbc24e8ba79e6c0568"
-depends = "['kcalendarcore>=6.5.0', 'kcodecs>=6.5.0', 'ki18n>=6.5.0', 'kmbox>=24.08.0', 'kmime>=24.08.0', 'libkleo>=24.08.0']"
+size = "218056"
+usize = "991192"
+sha1sum = "30b4036e969537da87d88be25787f0e474cc4097"
+depends = "['kcalendarcore>=6.5.0', 'kcodecs>=6.5.0', 'ki18n>=6.5.0', 'kmbox>=24.08.1', 'kmime>=24.08.1', 'libkleo>=24.08.1']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -56,10 +56,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.2.0
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.2.1
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.2.0
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.2.1
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -76,7 +76,7 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.08.0/README.md
+* /usr/share/doc/mimetreeparser-24.08.1/README.md
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/mimetreeparser6.mo

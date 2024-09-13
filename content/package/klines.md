@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klines 24.08.0-1"
-version = "24.08.0-1"
+title = "klines 24.08.1-1"
+version = "24.08.1-1"
 description = "A simple but highly addictive, one player game."
-date = "2024-08-22T14:42:26"
+date = "2024-09-13T13:12:04"
 aliases = "/packages/184187"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1752924"
-usize = "2208813"
-sha1sum = "63742d474f623a58dd0ba303457a3a747aa7d5e3"
-depends = "['knotifyconfig>=6.5.0', 'libkdegames>=24.08.0']"
+size = "1753048"
+usize = "2209597"
+sha1sum = "a0244251ca48c3a8b2198c3b9a3cf80ef5f4f65c"
+depends = "['knotifyconfig>=6.5.0', 'libkdegames>=24.08.1']"
 +++
 ### Description: 
 A simple but highly addictive, one player game.
@@ -48,9 +48,9 @@ A simple but highly addictive, one player game.
 * /usr/share/doc/HTML/uk/klines/gamescreen.png
 * /usr/share/doc/HTML/uk/klines/index.cache.bz2
 * /usr/share/doc/HTML/uk/klines/index.docbook
-* /usr/share/doc/klines-24.08.0/AUTHORS
-* /usr/share/doc/klines-24.08.0/README.PACKAGERS
-* /usr/share/doc/klines-24.08.0/README.themes
+* /usr/share/doc/klines-24.08.1/AUTHORS
+* /usr/share/doc/klines-24.08.1/README.PACKAGERS
+* /usr/share/doc/klines-24.08.1/README.themes
 * /usr/share/icons/hicolor/128x128/apps/klines.png
 * /usr/share/icons/hicolor/16x16/apps/klines.png
 * /usr/share/icons/hicolor/22x22/apps/klines.png
