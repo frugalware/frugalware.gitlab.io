@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "spectacle 24.08.0-1"
-version = "24.08.0-1"
+title = "spectacle 24.08.1-1"
+version = "24.08.1-1"
 description = "KDE screenshot capture utility"
-date = "2024-08-22T17:11:51"
+date = "2024-09-13T14:41:59"
 aliases = "/packages/218413"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1966236"
-usize = "5665027"
-sha1sum = "72af50619302d32a76aac9f69297e2c683799b9e"
-depends = "['kdeclarative>=6.5.0', 'kio>=6.5.0', 'knewstuff>=6.5.0', 'kpipewire>=6.1.4', 'kscreen>=6.1.4', 'kstatusnotifieritem>=6.5.0', 'openblas', 'opencv>=4.10.0', 'prison>=6.5.0zxing-cpp', 'purpose>=6.5.0', 'xcb-util-cursor']"
+size = "1965788"
+usize = "5669184"
+sha1sum = "4c66df7df06734cb485e12a0376b2f0134ca6d8a"
+depends = "['kdeclarative>=6.5.0', 'kio>=6.5.0', 'knewstuff>=6.5.0', 'kpipewire>=6.1.5', 'kscreen>=6.1.5', 'kstatusnotifieritem>=6.5.0', 'openblas', 'opencv>=4.10.0', 'prison>=6.5.0zxing-cpp', 'purpose>=6.5.0', 'xcb-util-cursor']"
 +++
 ### Description: 
 KDE screenshot capture utility
@@ -67,7 +67,7 @@ KDE screenshot capture utility
 * /usr/share/doc/HTML/uk/spectacle/index.docbook
 * /usr/share/doc/HTML/uk/spectacle/MainWindow.png
 * /usr/share/doc/HTML/uk/spectacle/SaveOptions.png
-* /usr/share/doc/spectacle-24.08.0/README.md
+* /usr/share/doc/spectacle-24.08.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/spectacle.svg
 * /usr/share/kconf_update/spectacle.upd
 * /usr/share/kglobalaccel/org.kde.spectacle.desktop

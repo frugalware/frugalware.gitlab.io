@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail 24.08.0-1"
-version = "24.08.0-1"
+title = "kmail 24.08.1-1"
+version = "24.08.1-1"
 description = "Email client, supporting POP3 and IMAP mailboxes"
-date = "2024-08-22T16:52:00"
+date = "2024-09-13T14:27:33"
 aliases = "/packages/218934"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7120068"
-usize = "23302091"
-sha1sum = "302f57418ac43d69aa6d2e7458974a28cd2dfd27"
-depends = "['akonadi-import-wizard>=24.08.0', 'kcalutils>=24.08.0', 'kdepim-runtime>=24.08.0', 'kmail-account-wizard>=24.08.0', 'knotifyconfig>=6.5.0', 'kontactinterface>=24.08.0', 'kstatusnotifieritem>=6.5.0', 'ktnef>=24.08.0', 'libksieve>=24.08.0', 'mailcommon>=24.08.0', 'mbox-importer>=']"
+size = "7095412"
+usize = "23377330"
+sha1sum = "fd455c1e7375a61ffdbbf01928da58de0f184716"
+depends = "['akonadi-import-wizard>=24.08.1', 'kcalutils>=24.08.1', 'kdepim-runtime>=24.08.1', 'kmail-account-wizard>=24.08.1', 'knotifyconfig>=6.5.0', 'kontactinterface>=24.08.1', 'kstatusnotifieritem>=6.5.0', 'ktnef>=24.08.1', 'libksieve>=24.08.1', 'mailcommon>=24.08.1', 'mbox-importer>=']"
 +++
 ### Description: 
 Email client, supporting POP3 and IMAP mailboxes
@@ -27,9 +27,9 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/bin/kmail-refresh-settings
 * /usr/bin/ktnef
 * /usr/lib/libkmailprivate.so.6
-* /usr/lib/libkmailprivate.so.6.2.0
+* /usr/lib/libkmailprivate.so.6.2.1
 * /usr/lib/libmailfilteragentprivate.so.6
-* /usr/lib/libmailfilteragentprivate.so.6.2.0
+* /usr/lib/libmailfilteragentprivate.so.6.2.1
 * /usr/lib/qt6/plugins/kmailpart.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/archivemailagentconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/followupreminderagentconfig.so
@@ -848,6 +848,10 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/locale/sv/LC_MESSAGES/kmail-refresh-settings.mo
 * /usr/share/locale/sv/LC_MESSAGES/kmail.mo
 * /usr/share/locale/sv/LC_MESSAGES/ktnef.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadi_archivemail_agent.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadi_followupreminder_agent.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadi_mailfilter_agent.mo
+* /usr/share/locale/ta/LC_MESSAGES/akonadi_mailmerge_agent.mo
 * /usr/share/locale/ta/LC_MESSAGES/akonadi_sendlater_agent.mo
 * /usr/share/locale/ta/LC_MESSAGES/akonadi_unifiedmailbox_agent.mo
 * /usr/share/locale/ta/LC_MESSAGES/kmail-refresh-settings.mo

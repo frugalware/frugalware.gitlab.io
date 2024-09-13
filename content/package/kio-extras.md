@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-extras 24.08.0-1"
-version = "24.08.0-1"
+title = "kio-extras 24.08.1-1"
+version = "24.08.1-1"
 description = "Additional components to increase the functionality of KIO."
-date = "2024-08-22T16:57:08"
+date = "2024-09-13T14:32:06"
 aliases = "/packages/218324"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1762184"
-usize = "7295845"
-sha1sum = "299ae386e0c24b888187b881144cf136d290d57a"
-depends = "['kcmutils>=6.5.0', 'kdnssd>=6.5.0', 'kdsoap-ws-discovery-client', 'kpty>=6.5.0', 'libappimage', 'libkexiv2>=24.08.0', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.1.4', 'qcoro', 'qt6-webengine>=6.7.1', 'samba-client>=4.5.0', 'syntax-highlighting>=6.5.0', 'taglib>=2.0']"
+size = "1764936"
+usize = "7301288"
+sha1sum = "796b34283dad25382a27dea466a56099f65ebb11"
+depends = "['kcmutils>=6.5.0', 'kdnssd>=6.5.0', 'kdsoap-ws-discovery-client', 'kpty>=6.5.0', 'libappimage', 'libkexiv2>=24.08.1', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.2.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.1.5', 'qcoro', 'qt6-webengine>=6.7.1', 'samba-client>=4.5.0', 'syntax-highlighting>=6.5.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO.
@@ -1130,10 +1130,12 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ko/LC_MESSAGES/kio6_activities.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_afc.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_archive.mo
+* /usr/share/locale/ko/LC_MESSAGES/kio6_filenamesearch.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ko/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_thumbnail.mo

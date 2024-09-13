@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 24.08.0-1"
-version = "24.08.0-1"
+title = "kget 24.08.1-1"
+version = "24.08.1-1"
 description = "A free download manager for KDE."
-date = "2024-08-22T17:23:57"
+date = "2024-09-13T15:02:39"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5280068"
-usize = "11418742"
-sha1sum = "e0a5e801f5d42ec62492126cb4452be8e59b5624"
-depends = "['kcmutils>=6.5.0', 'knotifyconfig>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.4']"
+size = "5281444"
+usize = "11427401"
+sha1sum = "4d8fe17a5dfcfae2366cf6e5df1386be5d4d5e6e"
+depends = "['kcmutils>=6.5.0', 'knotifyconfig>=6.5.0', 'kstatusnotifieritem>=6.5.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.5']"
 +++
 ### Description: 
 A free download manager for KDE.
@@ -197,14 +197,14 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/uk/kget/metalink1.png
 * /usr/share/doc/HTML/uk/kget/metalink2.png
 * /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-24.08.0/AUTHORS
-* /usr/share/doc/kget-24.08.0/Changelog
-* /usr/share/doc/kget-24.08.0/COPYING
-* /usr/share/doc/kget-24.08.0/COPYING.DOC
-* /usr/share/doc/kget-24.08.0/COPYING.LIB
-* /usr/share/doc/kget-24.08.0/HACKING
-* /usr/share/doc/kget-24.08.0/README
-* /usr/share/doc/kget-24.08.0/TODO
+* /usr/share/doc/kget-24.08.1/AUTHORS
+* /usr/share/doc/kget-24.08.1/Changelog
+* /usr/share/doc/kget-24.08.1/COPYING
+* /usr/share/doc/kget-24.08.1/COPYING.DOC
+* /usr/share/doc/kget-24.08.1/COPYING.LIB
+* /usr/share/doc/kget-24.08.1/HACKING
+* /usr/share/doc/kget-24.08.1/README
+* /usr/share/doc/kget-24.08.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kget.png
 * /usr/share/icons/hicolor/16x16/apps/kget.png
 * /usr/share/icons/hicolor/22x22/apps/kget.png

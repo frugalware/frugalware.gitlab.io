@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kturtle 24.08.0-1"
-version = "24.08.0-1"
+title = "kturtle 24.08.1-1"
+version = "24.08.1-1"
 description = "Educational Programming Environment."
-date = "2024-08-22T17:27:57"
+date = "2024-09-13T15:06:18"
 aliases = "/packages/152836"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2144612"
-usize = "5811082"
-sha1sum = "77c61280d638c4a9569c729f88826b654ead62fd"
+size = "2140612"
+usize = "5811133"
+sha1sum = "dffc33047e1c93640105c3c8d2a6e8b12a5b1c7c"
 depends = "['kio>=6.5.0', 'knewstuff>=6.5.0']"
 +++
 ### Description: 
@@ -159,10 +159,10 @@ Educational Programming Environment.
 * /usr/share/doc/HTML/uk/kturtle/programming-reference.docbook
 * /usr/share/doc/HTML/uk/kturtle/translator-guide.docbook
 * /usr/share/doc/HTML/uk/kturtle/using-kturtle.docbook
-* /usr/share/doc/kturtle-24.08.0/AUTHORS
-* /usr/share/doc/kturtle-24.08.0/COPYING.DOC
-* /usr/share/doc/kturtle-24.08.0/INSTALL.md
-* /usr/share/doc/kturtle-24.08.0/README.md
+* /usr/share/doc/kturtle-24.08.1/AUTHORS
+* /usr/share/doc/kturtle-24.08.1/COPYING.DOC
+* /usr/share/doc/kturtle-24.08.1/INSTALL.md
+* /usr/share/doc/kturtle-24.08.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/kturtle.png
 * /usr/share/icons/hicolor/16x16/apps/kturtle.png
 * /usr/share/icons/hicolor/22x22/apps/kturtle.png
