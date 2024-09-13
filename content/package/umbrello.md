@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "umbrello 24.08.0-1"
-version = "24.08.0-1"
+title = "umbrello 24.08.1-1"
+version = "24.08.1-1"
 description = "UML Modeller."
-date = "2024-09-04T12:47:15"
+date = "2024-09-13T18:45:55"
 aliases = "/packages/220997"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "25263920"
-usize = "143047647"
-sha1sum = "bc3914c1946c6f4a564a8487bc1fc36fbbdd3c06"
+size = "25013604"
+usize = "143037529"
+sha1sum = "1b49623e078eb746bd0abbfb8b3eaca11be3ff49"
 depends = "['doxygen', 'ktexteditor5>=5.116.0']"
 +++
 ### Description: 
@@ -255,15 +255,15 @@ UML Modeller.
 * /usr/share/doc/HTML/uk/umbrello/user-interface-settings.png
 * /usr/share/doc/HTML/uk/umbrello/working_with_umbrello.docbook
 * /usr/share/doc/qt5/umbrello.qch
-* /usr/share/doc/umbrello-24.08.0/AUTHORS
-* /usr/share/doc/umbrello-24.08.0/ChangeLog
-* /usr/share/doc/umbrello-24.08.0/COPYING
-* /usr/share/doc/umbrello-24.08.0/COPYING.DOC
-* /usr/share/doc/umbrello-24.08.0/COPYING.LIB
-* /usr/share/doc/umbrello-24.08.0/INSTALL
-* /usr/share/doc/umbrello-24.08.0/README
-* /usr/share/doc/umbrello-24.08.0/THANKS
-* /usr/share/doc/umbrello-24.08.0/TODO
+* /usr/share/doc/umbrello-24.08.1/AUTHORS
+* /usr/share/doc/umbrello-24.08.1/ChangeLog
+* /usr/share/doc/umbrello-24.08.1/COPYING
+* /usr/share/doc/umbrello-24.08.1/COPYING.DOC
+* /usr/share/doc/umbrello-24.08.1/COPYING.LIB
+* /usr/share/doc/umbrello-24.08.1/INSTALL
+* /usr/share/doc/umbrello-24.08.1/README
+* /usr/share/doc/umbrello-24.08.1/THANKS
+* /usr/share/doc/umbrello-24.08.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/mimetypes/application-x-uml.png
@@ -3858,7 +3858,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/plus.svg
 * /usr/share/umbrello5/apidoc/html/plusd.svg
 * /usr/share/umbrello5/apidoc/html/po2xmi_8cpp.html
-* /usr/share/umbrello5/apidoc/html/po2xmi__autogen_2mocs__compilation_8cpp.html
 * /usr/share/umbrello5/apidoc/html/portwidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/portwidget_8h.html
 * /usr/share/umbrello5/apidoc/html/portwidget_8h_source.html
@@ -4889,7 +4888,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/xhtmlgenerator_8h.html
 * /usr/share/umbrello5/apidoc/html/xhtmlgenerator_8h_source.html
 * /usr/share/umbrello5/apidoc/html/xmi2pot_8cpp.html
-* /usr/share/umbrello5/apidoc/html/xmi2pot__autogen_2mocs__compilation_8cpp.html
 * /usr/share/umbrello5/apidoc/html/xmlcodecomment_8cpp.html
 * /usr/share/umbrello5/apidoc/html/xmlcodecomment_8h.html
 * /usr/share/umbrello5/apidoc/html/xmlcodecomment_8h_source.html

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "step 24.08.0-2"
-version = "24.08.0-2"
+title = "step 24.08.1-1"
+version = "24.08.1-1"
 description = "Interactive Physics Simulator."
-date = "2024-09-04T09:42:27"
+date = "2024-09-13T18:26:46"
 aliases = "/packages/152841"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1244576"
-usize = "12117443"
-sha1sum = "c9a95064fe7b60938b164ee131d924518c2048c1"
+size = "1273884"
+usize = "12117519"
+sha1sum = "45c91b216f30ca0ddcbcbbaef9f090e96f8b324b"
 depends = "['gsl>=2.8', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstuff5>=5.116.0', 'libqalculate>=5.0.0']"
 +++
 ### Description: 
@@ -82,11 +82,11 @@ Interactive Physics Simulator.
 * /usr/share/doc/HTML/uk/step/index.docbook
 * /usr/share/doc/HTML/uk/step/mainwindow.png
 * /usr/share/doc/HTML/uk/step/tutorials.docbook
-* /usr/share/doc/step-24.08.0/AUTHORS
-* /usr/share/doc/step-24.08.0/ChangeLog
-* /usr/share/doc/step-24.08.0/INSTALL
-* /usr/share/doc/step-24.08.0/README
-* /usr/share/doc/step-24.08.0/TODO
+* /usr/share/doc/step-24.08.1/AUTHORS
+* /usr/share/doc/step-24.08.1/ChangeLog
+* /usr/share/doc/step-24.08.1/INSTALL
+* /usr/share/doc/step-24.08.1/README
+* /usr/share/doc/step-24.08.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/step.png
 * /usr/share/icons/hicolor/16x16/apps/step.png
 * /usr/share/icons/hicolor/22x22/actions/pointer.png

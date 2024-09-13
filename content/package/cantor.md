@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cantor 24.08.0-3"
-version = "24.08.0-3"
+title = "cantor 24.08.1-1"
+version = "24.08.1-1"
 description = "KDE Frontend to Mathematical Software."
-date = "2024-09-09T12:23:34"
+date = "2024-09-13T18:36:40"
 aliases = "/packages/152823"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2249884"
-usize = "8408889"
-sha1sum = "73add388aaeeb6858badca357d756f06e52eef2c"
-depends = "['analitza>=24.08.0', 'julia>=1.0.2', 'knewstuff5>=5.116.0', 'kpty>=5.116.0', 'ktexteditor5>=5.116.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5>=24.09.0', 'python3>=3.12', 'qt5-webengine>=5.15.15', 'r']"
+size = "2248824"
+usize = "8419430"
+sha1sum = "f3b7f4887417449749e5e91b813f9e0bed281e3d"
+depends = "['analitza>=24.08.1', 'julia>=1.0.2', 'knewstuff5>=5.116.0', 'kpty>=5.116.0', 'ktexteditor5>=5.116.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'poppler-qt5>=24.09.0', 'python3>=3.12', 'qt5-webengine>=5.15.15', 'r']"
 reverse_depends = "['labplot']"
 +++
 ### Description: 
@@ -55,7 +55,7 @@ KDE Frontend to Mathematical Software.
 * /usr/lib/cmake/Cantor/CantorTargets-release.cmake
 * /usr/lib/cmake/Cantor/CantorTargets.cmake
 * /usr/lib/libcantorlibs.so
-* /usr/lib/libcantorlibs.so.24.08.0
+* /usr/lib/libcantorlibs.so.24.08.1
 * /usr/lib/libcantorlibs.so.28
 * /usr/lib/libcantor_config.so
 * /usr/lib/qt5/plugins/cantor/assistants/cantor_advancedplotassistant.so
@@ -110,7 +110,7 @@ KDE Frontend to Mathematical Software.
 * /usr/share/config.kcfg/rserver.kcfg
 * /usr/share/config.kcfg/sagebackend.kcfg
 * /usr/share/config.kcfg/scilabbackend.kcfg
-* /usr/share/doc/cantor-24.08.0/README.md
+* /usr/share/doc/cantor-24.08.1/README.md
 * /usr/share/doc/HTML/ca/cantor/create-dlg.png
 * /usr/share/doc/HTML/ca/cantor/differentiate-dlg.png
 * /usr/share/doc/HTML/ca/cantor/import-dlg.png
