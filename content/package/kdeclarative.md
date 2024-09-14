@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeclarative 6.5.0-1"
-version = "6.5.0-1"
+title = "kdeclarative 6.6.0-1"
+version = "6.6.0-1"
 description = "Integration of QML and KDE workspaces."
-date = "2024-08-09T18:59:05"
+date = "2024-09-14T12:17:29"
 aliases = "/packages/218294"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "142840"
-usize = "644486"
-sha1sum = "961258a44b767e5a243d0ba3e29f6a895be2e7ad"
-depends = "['kio>=6.5.0', 'kpackage>=6.5.0', 'libepoxy>=1.3.1-6']"
+size = "143784"
+usize = "647639"
+sha1sum = "72f67685910bed0ecb2854abc9b78c9efdfc0391"
+depends = "['kio>=6.6.0', 'kpackage>=6.6.0', 'libepoxy>=1.3.1-6']"
 reverse_depends = "['blinken', 'colord-kde', 'discover', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'kwin', 'libkdegames', 'plasma-disks', 'plasma-pa', 'plasma-systemmonitor', 'plasma-workspace', 'purpose', 'sddm-kcm', 'spectacle', 'systemsettings']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ Integration of QML and KDE workspaces.
 * /usr/lib/cmake/KF6Declarative/KF6DeclarativeTargets.cmake
 * /usr/lib/libKF6CalendarEvents.so
 * /usr/lib/libKF6CalendarEvents.so.6
-* /usr/lib/libKF6CalendarEvents.so.6.5.0
+* /usr/lib/libKF6CalendarEvents.so.6.6.0
 * /usr/lib/qt6/qml/org/kde/draganddrop/draganddropplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/draganddrop/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/draganddrop/libdraganddropplugin.so
@@ -48,7 +48,7 @@ Integration of QML and KDE workspaces.
 * /usr/lib/qt6/qml/org/kde/kquickcontrolsaddons/qmldir
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/qmldir
-* /usr/share/doc/kdeclarative-6.5.0/README.md
+* /usr/share/doc/kdeclarative-6.6.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdeclarative6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdeclarative6.mo
 * /usr/share/locale/as/LC_MESSAGES/kdeclarative6.mo
