@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpackage 6.5.0-1"
-version = "6.5.0-1"
+title = "kpackage 6.6.0-1"
+version = "6.6.0-1"
 description = "Framework that lets applications manage user installable packages of non-binary assets."
-date = "2024-08-09T18:21:12"
+date = "2024-09-14T11:52:58"
 aliases = "/packages/218340"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "162832"
-usize = "665982"
-sha1sum = "11d8a77bc761723269ea5ef7594f99a70c733d97"
-depends = "['karchive>=6.5.0', 'kconfig>=6.5.0', 'kcoreaddons>=6.5.0', 'ki18n>=6.5.0']"
+size = "162756"
+usize = "666094"
+sha1sum = "baca2fc9b980fda894f662bcb27b99005fffd13e"
+depends = "['karchive>=6.6.0', 'kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'ki18n>=6.6.0']"
 reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter', 'kinfocenter5', 'knewstuff', 'kwin', 'plasma-workspace']"
 +++
 ### Description: 
@@ -40,9 +40,9 @@ Framework that lets applications manage user installable packages of non-binary 
 * /usr/lib/cmake/KF6Package/KF6PackageToolsTargets.cmake
 * /usr/lib/libKF6Package.so
 * /usr/lib/libKF6Package.so.6
-* /usr/lib/libKF6Package.so.6.5.0
-* /usr/share/doc/kpackage-6.5.0/README.KF6.md
-* /usr/share/doc/kpackage-6.5.0/README.md
+* /usr/lib/libKF6Package.so.6.6.0
+* /usr/share/doc/kpackage-6.6.0/README.KF6.md
+* /usr/share/doc/kpackage-6.6.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkpackage6.mo

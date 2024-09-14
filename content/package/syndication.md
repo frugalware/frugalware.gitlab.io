@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "syndication 6.5.0-1"
-version = "6.5.0-1"
+title = "syndication 6.6.0-1"
+version = "6.6.0-1"
 description = "KParts Kontact interface."
-date = "2024-08-09T18:51:21"
+date = "2024-09-14T12:11:18"
 aliases = "/packages/218415"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "196428"
+size = "196212"
 usize = "719533"
-sha1sum = "dd833cafa0130107cf872d431d8cf4a1a5630485"
-depends = "['kio>=6.5.0']"
+sha1sum = "8e3582f0cbd8935714a0c13066cd8212b00ee70d"
+depends = "['kio>=6.6.0']"
 reverse_depends = "['akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewstuff', 'ktorrent']"
 +++
 ### Description: 
@@ -90,7 +90,7 @@ KParts Kontact interface.
 * /usr/lib/cmake/KF6Syndication/KF6SyndicationTargets.cmake
 * /usr/lib/libKF6Syndication.so
 * /usr/lib/libKF6Syndication.so.6
-* /usr/lib/libKF6Syndication.so.6.5.0
-* /usr/share/doc/syndication-6.5.0/README.md
+* /usr/lib/libKF6Syndication.so.6.6.0
+* /usr/share/doc/syndication-6.6.0/README.md
 * /usr/share/qlogging-categories6/syndication.categories
 * /usr/share/qlogging-categories6/syndication.renamecategories

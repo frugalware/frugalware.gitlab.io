@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes 6.5.0-1"
-version = "6.5.0-1"
+title = "kiconthemes 6.6.0-1"
+version = "6.6.0-1"
 description = "Icon GUI utilities."
-date = "2024-08-09T18:16:58"
+date = "2024-09-14T11:49:11"
 aliases = "/packages/218316"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "150104"
-usize = "574005"
-sha1sum = "10a3a7e9d101f9492d6edce2005f169b6fd9cb31"
-depends = "['breeze-icons>=6.5.0', 'karchive>=6.5.0', 'kconfigwidgets>=6.5.0', 'kitemviews>=6.5.0', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
+usize = "575029"
+sha1sum = "e8f2751ef4dd6125f8927af27a4d8d30c8b57a8a"
+depends = "['breeze-icons>=6.6.0', 'karchive>=6.6.0', 'kconfigwidgets>=6.6.0', 'kitemviews>=6.6.0', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
 reverse_depends = "['audex', 'breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdiff3', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -46,17 +46,17 @@ Icon GUI utilities.
 * /usr/lib/cmake/KF6IconThemes/KF6IconThemesTargets.cmake
 * /usr/lib/libKF6IconThemes.so
 * /usr/lib/libKF6IconThemes.so.6
-* /usr/lib/libKF6IconThemes.so.6.5.0
+* /usr/lib/libKF6IconThemes.so.6.6.0
 * /usr/lib/libKF6IconWidgets.so
 * /usr/lib/libKF6IconWidgets.so.6
-* /usr/lib/libKF6IconWidgets.so.6.5.0
+* /usr/lib/libKF6IconWidgets.so.6.6.0
 * /usr/lib/qt6/plugins/designer/kiconthemes6widgets.so
 * /usr/lib/qt6/plugins/kiconthemes6/iconengines/KIconEnginePlugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/iconthemesplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/iconthemes/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/iconthemes/libiconthemesplugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/qmldir
-* /usr/share/doc/kiconthemes-6.5.0/README.md
+* /usr/share/doc/kiconthemes-6.6.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kiconthemes6.mo

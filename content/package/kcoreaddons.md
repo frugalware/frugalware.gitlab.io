@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcoreaddons 6.5.0-1"
-version = "6.5.0-1"
+title = "kcoreaddons 6.6.0-1"
+version = "6.6.0-1"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2024-08-09T18:01:09"
+date = "2024-09-14T11:38:32"
 aliases = "/packages/218286"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "454888"
-usize = "1970531"
-sha1sum = "272c560af5f3bc7844056147ec0ad4bba47075ee"
+size = "454608"
+usize = "1971843"
+sha1sum = "62bbf88210f15ba4c81036cb0ffcc26b473853b1"
 depends = "['qt6-base>=6.7.1', 'shared-mime-info']"
 reverse_depends = "['accessibility-inspector', 'alligator', 'audex', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'francis', 'isoimagewriter', 'kalk', 'kalm', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdiff3', 'kfilemetadata', 'kglobalacceld', 'kirigami-addons', 'kjournald', 'kongress', 'kontrast', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'skladnik', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
@@ -98,12 +98,12 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsTargets.cmake
 * /usr/lib/libKF6CoreAddons.so
 * /usr/lib/libKF6CoreAddons.so.6
-* /usr/lib/libKF6CoreAddons.so.6.5.0
+* /usr/lib/libKF6CoreAddons.so.6.6.0
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/qmldir
-* /usr/share/doc/kcoreaddons-6.5.0/README.md
+* /usr/share/doc/kcoreaddons-6.6.0/README.md
 * /usr/share/kf6/jsonschema/kpluginmetadata.schema.json
 * /usr/share/locale/af/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcoreaddons6_qt.qm
