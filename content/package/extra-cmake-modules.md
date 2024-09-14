@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "extra-cmake-modules 6.5.0-1"
-version = "6.5.0-1"
+title = "extra-cmake-modules 6.6.0-1"
+version = "6.6.0-1"
 description = "Extra CMake modules."
-date = "2024-08-09T16:03:33"
+date = "2024-09-14T10:01:14"
 aliases = "/packages/218262"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "287072"
-usize = "1862897"
-sha1sum = "e5824d9f48a3e17d94a21993b84f67a7841bf601"
+size = "288464"
+usize = "1861362"
+sha1sum = "b765ebc58d865805285823c6ef00ea29fc101b38"
 depends = "[]"
 +++
 ### Description: 
@@ -207,9 +207,9 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/_static/searchtools.js
 * /usr/share/doc/ECM/html/_static/sidebar.js
 * /usr/share/doc/ECM/html/_static/sphinx_highlight.js
-* /usr/share/doc/extra-cmake-modules-6.5.0/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/extra-cmake-modules-6.5.0/README.md
-* /usr/share/doc/extra-cmake-modules-6.5.0/README.rst
+* /usr/share/doc/extra-cmake-modules-6.6.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/extra-cmake-modules-6.6.0/README.md
+* /usr/share/doc/extra-cmake-modules-6.6.0/README.rst
 * /usr/share/ECM/cmake/ECMConfig.cmake
 * /usr/share/ECM/cmake/ECMConfigVersion.cmake
 * /usr/share/ECM/find-modules/ECMFindModuleHelpersStub.cmake

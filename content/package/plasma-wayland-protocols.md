@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-wayland-protocols 1.13.0-1"
-version = "1.13.0-1"
+title = "plasma-wayland-protocols 1.14.0-1"
+version = "1.14.0-1"
 description = "Plasma Specific Protocols for Wayland"
-date = "2024-05-31T14:37:17"
+date = "2024-09-14T09:58:01"
 aliases = "/packages/220165"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "40508"
-usize = "224177"
-sha1sum = "799efa01d7fbc5ad0fb9b14092986237f9134f42"
+size = "41308"
+usize = "231692"
+sha1sum = "51bd1dabf89f6686ecee803f6e7381ccab4a74a6"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Plasma Specific Protocols for Wayland
 ### Files: 
 * /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
 * /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfigVersion.cmake
-* /usr/share/doc/plasma-wayland-protocols-1.13.0/COPYING.LIB
-* /usr/share/doc/plasma-wayland-protocols-1.13.0/README.md
+* /usr/share/doc/plasma-wayland-protocols-1.14.0/COPYING.LIB
+* /usr/share/doc/plasma-wayland-protocols-1.14.0/README.md
 * /usr/share/plasma-wayland-protocols/appmenu.xml
 * /usr/share/plasma-wayland-protocols/blur.xml
 * /usr/share/plasma-wayland-protocols/contrast.xml
@@ -28,6 +28,7 @@ Plasma Specific Protocols for Wayland
 * /usr/share/plasma-wayland-protocols/fake-input.xml
 * /usr/share/plasma-wayland-protocols/fullscreen-shell.xml
 * /usr/share/plasma-wayland-protocols/idle.xml
+* /usr/share/plasma-wayland-protocols/kde-external-brightness-v1.xml
 * /usr/share/plasma-wayland-protocols/kde-lockscreen-overlay-v1.xml
 * /usr/share/plasma-wayland-protocols/kde-output-device-v2.xml
 * /usr/share/plasma-wayland-protocols/kde-output-management-v2.xml

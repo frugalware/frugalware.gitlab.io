@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulseaudio-qt 1.5.0-2"
-version = "1.5.0-2"
+title = "pulseaudio-qt 1.6.0-1"
+version = "1.6.0-1"
 description = "Qt bindings for libpulse"
-date = "2024-06-21T07:46:21"
+date = "2024-09-14T09:56:21"
 aliases = "/packages/220016"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "102228"
-usize = "489106"
-sha1sum = "e0d095b60f15f8de4a33600344a54f0fa7cf3270"
+size = "104044"
+usize = "500905"
+sha1sum = "c0eba969914f1316a20dc7ca8ba6bcc03f82653d"
 depends = "['libpulse', 'qt6-base>=6.7.1']"
 reverse_depends = "['kdeconnect-kde', 'plasma-pa']"
 +++
@@ -63,7 +63,7 @@ Qt bindings for libpulse
 * /usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtTargets-release.cmake
 * /usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtTargets.cmake
 * /usr/lib/libKF6PulseAudioQt.so
-* /usr/lib/libKF6PulseAudioQt.so.1.5.0
+* /usr/lib/libKF6PulseAudioQt.so.1.6.0
 * /usr/lib/libKF6PulseAudioQt.so.5
 * /usr/lib/pkgconfig/KF6PulseAudioQt.pc
-* /usr/share/doc/pulseaudio-qt-1.5.0/README.md
+* /usr/share/doc/pulseaudio-qt-1.6.0/README.md
