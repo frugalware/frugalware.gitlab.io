@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-python 24.08.0-1"
-version = "24.08.0-1"
+title = "kdev-python 24.08.1-1"
+version = "24.08.1-1"
 description = "Python Language Plugin for KDevelop"
-date = "2024-08-23T10:18:59"
+date = "2024-09-15T14:16:53"
 aliases = "/packages/220976"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1280132"
-usize = "11679249"
-sha1sum = "d9ccac19785426b5fb449055ac1d3bb493af8837"
+size = "1274320"
+usize = "11680764"
+sha1sum = "6d2183e15829ae0dbb5e806cb7e7b3b3bde88465"
 depends = "['kdevelop', 'python3>=3.12']"
 +++
 ### Description: 
@@ -22,9 +22,9 @@ Python Language Plugin for KDevelop
 * /usr/lib/libkdevpythonparser.so
 * /usr/lib/qt6/plugins/kdevplatform/60/kdevpdb.so
 * /usr/lib/qt6/plugins/kdevplatform/60/kdevpythonlanguagesupport.so
-* /usr/share/doc/kdev-python-24.08.0/INSTALL
-* /usr/share/doc/kdev-python-24.08.0/README
-* /usr/share/doc/kdev-python-24.08.0/README.packagers
+* /usr/share/doc/kdev-python-24.08.1/INSTALL
+* /usr/share/doc/kdev-python-24.08.1/README
+* /usr/share/doc/kdev-python-24.08.1/README.packagers
 * /usr/share/kdevappwizard/templates/django_project.tar.bz2
 * /usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2
 * /usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2

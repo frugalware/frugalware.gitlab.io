@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "appmenu-gtk 24.02-1"
-version = "24.02-1"
+title = "appmenu-gtk 24.05-1"
+version = "24.05-1"
 description = "Application menu module for GTK+"
-date = "2024-03-19T09:50:09"
+date = "2024-09-15T14:49:50"
 aliases = "/packages/221279"
 categories = ['gnome-extra']
 upstreamurl = "https://gitlab.com/vala-panel-project/vala-panel-appmenu"
 arch = "x86_64"
-size = "41660"
-usize = "226100"
-sha1sum = "6ab8aba8358596129dfe6d507ec7dada6c6e7d1b"
+size = "42532"
+usize = "203161"
+sha1sum = "48f05c85342c178814f8764220abf15326fe5a78"
 depends = "['gtk+2-libs', 'gtk+3']"
 reverse_depends = "['plasma-wayland-session']"
 +++
@@ -31,10 +31,10 @@ Application menu module for GTK+
 * /usr/lib/libappmenu-gtk3-parser.so.24.02
 * /usr/lib/pkgconfig/appmenu-gtk2-parser.pc
 * /usr/lib/pkgconfig/appmenu-gtk3-parser.pc
-* /usr/share/doc/appmenu-gtk-24.02/AUTHORS
-* /usr/share/doc/appmenu-gtk-24.02/LICENSE
-* /usr/share/doc/appmenu-gtk-24.02/README.md
-* /usr/share/doc/appmenu-gtk-24.02/TODO
+* /usr/share/doc/appmenu-gtk-24.05/AUTHORS
+* /usr/share/doc/appmenu-gtk-24.05/LICENSE
+* /usr/share/doc/appmenu-gtk-24.05/README.md
+* /usr/share/doc/appmenu-gtk-24.05/TODO
 * /usr/share/doc/appmenu-gtk-module/AUTHORS
 * /usr/share/doc/appmenu-gtk-module/README.md
 * /usr/share/doc/appmenu-gtk-module/TODO

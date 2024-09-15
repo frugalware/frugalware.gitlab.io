@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "r2modman 3.1.49-1"
-version = "3.1.49-1"
+title = "r2modman 3.1.50-1"
+version = "3.1.50-1"
 description = "A simple and easy to use mod manager for several games using Thunderstore."
-date = "2024-06-25T07:58:34"
+date = "2024-09-15T15:03:25"
 aliases = "/packages/221449"
 categories = ['games-extra']
 upstreamurl = "https://github.com/ebkr/r2modmanPlus"
 arch = "x86_64"
-size = "89295500"
-usize = "299142951"
-sha1sum = "22a87237ef3aa89938a05b7c857373646422de92"
+size = "89986952"
+usize = "299955243"
+sha1sum = "7db6249a44c83021bff064154a6b14fdfdc2c208"
 depends = "['c-ares', 'ffmpeg', 'gtk+3', 'http-parser', 'libappindicator', 'libevent', 'libnotify', 'libvpx', 'libxscrnsaver', 'libxslt', 'nss', 're2', 'snappy', 'zlib']"
 +++
 ### Description: 
@@ -19,15 +19,8 @@ A simple and easy to use mod manager for several games using Thunderstore.
 ### Files: 
 * /usr/bin/r2modman
 * /usr/share/applications/r2modman.desktop
-* /usr/share/doc/r2modman-3.1.49/AUTHORS
-* /usr/share/doc/r2modman-3.1.49/BUGS
-* /usr/share/doc/r2modman-3.1.49/COPYING
-* /usr/share/doc/r2modman-3.1.49/COPYING.LIB
-* /usr/share/doc/r2modman-3.1.49/INSTALL
-* /usr/share/doc/r2modman-3.1.49/LICENSE
-* /usr/share/doc/r2modman-3.1.49/README
-* /usr/share/doc/r2modman-3.1.49/README.md
-* /usr/share/doc/r2modman-3.1.49/README_MACOSX.txt
+* /usr/share/doc/r2modman-3.1.50/LICENSE
+* /usr/share/doc/r2modman-3.1.50/README.md
 * /usr/share/icons/hicolor/128x128/apps/r2modman.png
 * /usr/share/icons/hicolor/16x16/apps/r2modman.png
 * /usr/share/icons/hicolor/24x24/apps/r2modman.png

@@ -12,7 +12,7 @@ size = "8315192"
 usize = "24387196"
 sha1sum = "c479c48773624908794bf89793fbad0359923c49"
 depends = "['glibc']"
-reverse_depends = "['syncthing-gtk', 'syncthingtray']"
+reverse_depends = "['syncthingtray']"
 license = "MIT"
 +++
 ### Description: 

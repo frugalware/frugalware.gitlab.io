@@ -12,7 +12,7 @@ size = "1342460"
 usize = "4695880"
 sha1sum = "b4997f3da93ae7e4bebd5a32da97f5c9f950967a"
 depends = "['glib2>=2.60.0', 'libffi>=3.2.1-3', 'pcre>=8.37-3']"
-reverse_depends = "['appstream-glib', 'chromium-browser', 'conky-manager', 'darktable', 'flatpak', 'gegl', 'geoclue2', 'gst1-plugins-bad-json', 'jsonrpc-glib', 'libgusb', 'libjcat', 'librest', 'openvas-scanner', 'pavucontrol', 'pidgin-facebookchat', 'pidgin-skypeweb', 'remmina', 'spice-glib', 'sysprof', 'tootle', 'zeitgeist']"
+reverse_depends = "['appstream-glib', 'chromium-browser', 'conky-manager', 'darktable', 'flatpak', 'gegl', 'geoclue2', 'gst1-plugins-bad-json', 'jsonrpc-glib', 'libblockdev', 'libgusb', 'libjcat', 'librest', 'openvas-scanner', 'pavucontrol', 'pidgin-facebookchat', 'pidgin-skypeweb', 'remmina', 'spice-glib', 'sysprof', 'tootle', 'zeitgeist']"
 +++
 ### Description: 
 JSON library built on GLib

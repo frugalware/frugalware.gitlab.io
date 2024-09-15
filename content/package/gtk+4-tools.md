@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtk+4-tools 4.16.0-2"
-version = "4.16.0-2"
+title = "gtk+4-tools 4.16.1-1"
+version = "4.16.1-1"
 description = "GTK+4 commandline tools."
-date = "2024-09-11T12:26:46"
+date = "2024-09-15T15:10:56"
 aliases = "/packages/220421"
 categories = ['xapps']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "3900"
+size = "3952"
 usize = "7832"
-sha1sum = "4e5e3d243fdb3ac933849938481eb4f894df4b4d"
-depends = "['glib2>=2.60.0', 'gtk+4>=4.16.0', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
+sha1sum = "3fc5602243b05c577254bceadf9b9af6e42d6647"
+depends = "['glib2>=2.60.0', 'gtk+4>=4.16.1', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
 ### Description: 
 GTK+4 commandline tools.

@@ -12,7 +12,6 @@ size = "194624"
 usize = "520604"
 sha1sum = "c40d79f8c6731e546a63430900d7860490d95346"
 depends = "['python3-cffi', 'python3-six']"
-reverse_depends = "['syncthing-gtk']"
 +++
 ### Description: 
 Modern password hashing for your software and your servers

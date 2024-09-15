@@ -12,7 +12,7 @@ size = "26852"
 usize = "105536"
 sha1sum = "854ed64a7dfe7d21d636e34fa1f38d2d9e22a9df"
 depends = "['libudev>=242']"
-reverse_depends = "['udisks2']"
+reverse_depends = "['libblockdev', 'udisks2']"
 +++
 ### Description: 
 Lean and small library for ATA S.M.A.R.T. hard disks

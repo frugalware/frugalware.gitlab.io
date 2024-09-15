@@ -12,7 +12,7 @@ size = "304408"
 usize = "793620"
 sha1sum = "cd795ad2aae6be99b675d86eccbd6b275ce9bfc3"
 depends = "['python3-six']"
-reverse_depends = "['python3-suntime', 'syncthing-gtk', 'yokadi']"
+reverse_depends = "['python3-suntime', 'yokadi']"
 +++
 ### Description: 
 Provides powerful extensions to the standard datetime module.

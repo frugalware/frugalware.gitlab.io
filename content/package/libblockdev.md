@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libblockdev 3.1.1-1"
-version = "3.1.1-1"
+title = "libblockdev 3.2.0-1"
+version = "3.2.0-1"
 description = "A library for manipulating block devices"
-date = "2024-05-02T08:50:55"
+date = "2024-09-15T15:07:50"
 aliases = "/packages/219656"
 categories = ['lib']
 upstreamurl = "https://github.com/storaged-project/libblockdev"
 arch = "x86_64"
-size = "291748"
-usize = "2027038"
-sha1sum = "1fb695bbc6f3c58e16e6daf2cbac554d40d25231"
-depends = "['dmraid', 'libbytesize', 'libndctl', 'libnvme', 'libyaml', 'nss', 'parted>=3.3', 'python3>=3.12', 'volume_key']"
+size = "324960"
+usize = "2155947"
+sha1sum = "c754811da4745935e012a8ff0bf7d23b245db0f2"
+depends = "['dmraid', 'json-glib', 'libatasmart', 'libbytesize', 'libndctl', 'libnvme', 'libyaml', 'nss', 'parted>=3.3', 'python3>=3.12', 'volume_key']"
 reverse_depends = "['udisks2']"
 +++
 ### Description: 
@@ -53,6 +53,7 @@ A library for manipulating block devices
 * /usr/include/blockdev/part.h
 * /usr/include/blockdev/plugins.h
 * /usr/include/blockdev/sizes.h
+* /usr/include/blockdev/smart.h
 * /usr/include/blockdev/swap.h
 * /usr/include/blockdev/utils.h
 * /usr/lib/girepository-1.0/BlockDev-3.0.typelib
@@ -92,6 +93,12 @@ A library for manipulating block devices
 * /usr/lib/libbd_part.so
 * /usr/lib/libbd_part.so.3
 * /usr/lib/libbd_part.so.3.0.0
+* /usr/lib/libbd_smart.so
+* /usr/lib/libbd_smart.so.3
+* /usr/lib/libbd_smart.so.3.0.0
+* /usr/lib/libbd_smartmontools.so
+* /usr/lib/libbd_smartmontools.so.3
+* /usr/lib/libbd_smartmontools.so.3.0.0
 * /usr/lib/libbd_swap.so
 * /usr/lib/libbd_swap.so.3
 * /usr/lib/libbd_swap.so.3.0.0
@@ -104,6 +111,6 @@ A library for manipulating block devices
 * /usr/lib/pkgconfig/blockdev-utils.pc
 * /usr/lib/pkgconfig/blockdev.pc
 * /usr/lib/python3.12/site-packages/gi/overrides/BlockDev.py
-* /usr/share/doc/libblockdev-3.1.1/LICENSE
-* /usr/share/doc/libblockdev-3.1.1/README.md
+* /usr/share/doc/libblockdev-3.2.0/LICENSE
+* /usr/share/doc/libblockdev-3.2.0/README.md
 * /usr/share/gir-1.0/BlockDev-3.0.gir

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wxmaxima 23.08.0-1"
-version = "23.08.0-1"
+title = "wxmaxima 24.08.0-1"
+version = "24.08.0-1"
 description = "wxMaxima is a wxWidgets GUI for the computer algebra system Maxima."
-date = "2023-09-29T09:15:44"
+date = "2024-09-15T14:23:14"
 aliases = "/packages/39079"
 categories = ['xapps-extra']
 upstreamurl = "http://andrejv.github.io/wxmaxima"
 arch = "x86_64"
-size = "3552152"
-usize = "13697956"
-sha1sum = "64940c964d908c1f94014512ad0a352a587e37ee"
+size = "4113504"
+usize = "13311505"
+sha1sum = "7586fd774a121ced461b233eb8981f949bd6fcba"
 depends = "['libxml2>=2.7.8', 'maxima>=5.42.2', 'wxwidgets>=3.2.2.1']"
 +++
 ### Description: 
@@ -20,10 +20,10 @@ wxMaxima is a wxWidgets GUI for the computer algebra system Maxima.
 * /usr/bin/wxmaxima
 * /usr/share/applications/io.github.wxmaxima_developers.wxMaxima.desktop
 * /usr/share/bash-completion/completions/wxmaxima
-* /usr/share/doc/wxmaxima-23.08.0/ChangeLog
-* /usr/share/doc/wxmaxima-23.08.0/COPYING
-* /usr/share/doc/wxmaxima-23.08.0/README
-* /usr/share/doc/wxmaxima-23.08.0/README.md
+* /usr/share/doc/wxmaxima-24.08.0/ChangeLog
+* /usr/share/doc/wxmaxima-24.08.0/COPYING
+* /usr/share/doc/wxmaxima-24.08.0/README
+* /usr/share/doc/wxmaxima-24.08.0/README.md
 * /usr/share/doc/wxmaxima/AUTHORS.md
 * /usr/share/doc/wxmaxima/BatchImage.png
 * /usr/share/doc/wxmaxima/cell-example.png
@@ -31,7 +31,10 @@ wxMaxima is a wxWidgets GUI for the computer algebra system Maxima.
 * /usr/share/doc/wxmaxima/ezUnits.png
 * /usr/share/doc/wxmaxima/GPL.txt
 * /usr/share/doc/wxmaxima/header.html
+* /usr/share/doc/wxmaxima/horizontal-cursor-between-cells.png
+* /usr/share/doc/wxmaxima/horizontal-cursor-only.png
 * /usr/share/doc/wxmaxima/InputCell.png
+* /usr/share/doc/wxmaxima/locale-warning.png
 * /usr/share/doc/wxmaxima/MatrixTableExample.png
 * /usr/share/doc/wxmaxima/maxima_screenshot.png
 * /usr/share/doc/wxmaxima/NEWS.md
@@ -53,6 +56,27 @@ wxMaxima is a wxWidgets GUI for the computer algebra system Maxima.
 * /usr/share/doc/wxmaxima/wxMaximaLogo.png
 * /usr/share/doc/wxmaxima/wxMaximaWindow.png
 * /usr/share/doc/wxmaxima/wxMaxima_configuration_001.png
+* /usr/share/doc/wxmaxima/wxsubscripts.png
+* /usr/share/icons/hicolor/1024x1024/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/128x128/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/150x150/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/16x16/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/192x192/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/22x22/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/24x24/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/256x256/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/310x310/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/32x32/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/36x36/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/42x42/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/44x44/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/48x48/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/512x512/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/64x64/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/72x72/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/8x8/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/96x96/apps/io.github.wxmaxima_developers.wxMaxima.png
+* /usr/share/icons/hicolor/scalable/apps/io.github.wxmaxima_developers.wxMaxima.svg
 * /usr/share/locale/ca/LC_MESSAGES/wxMaxima.mo
 * /usr/share/locale/cs/LC_MESSAGES/wxMaxima.mo
 * /usr/share/locale/da/LC_MESSAGES/wxMaxima.mo
