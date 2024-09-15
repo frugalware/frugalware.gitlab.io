@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "murmur 1.5.634-10"
-version = "1.5.634-10"
+title = "murmur 1.5.634-11"
+version = "1.5.634-11"
 description = "Mumble server component"
-date = "2024-09-03T08:36:08"
+date = "2024-09-15T15:37:30"
 aliases = "/packages/218804"
 categories = ['network-extra']
 upstreamurl = "https://github.com/mumble-voip/mumble"
 arch = "x86_64"
-size = "364188"
+size = "364392"
 usize = "1129337"
-sha1sum = "ab92c4d40d09a6042f8f6dcf8546906701021879"
+sha1sum = "9e30979cd328e58db3a848a89710177d594d2398"
 depends = "['avahi', 'avahi-compat', 'openssl>=1.1.1', 'protobuf>=28.0', 'qt5-base>=5.15.15', 'qt5-qdbus>=5.12.0']"
 +++
 ### Description: 
