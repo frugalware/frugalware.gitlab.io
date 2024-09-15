@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-cuda 1.24.6-2"
-version = "1.24.6-2"
+title = "gst1-plugins-bad-cuda 1.24.7-2"
+version = "1.24.7-2"
 description = "GStreamer CUDA plugin (Bad)."
-date = "2024-08-09T09:32:12"
+date = "2024-09-15T17:36:12"
 aliases = "/packages/221257"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "293788"
+size = "292852"
 usize = "877114"
-sha1sum = "7e390e120611740d3665a3fbd14052f2147acd4b"
-depends = "['cuda', 'gst1-plugins-bad>=1.24.6', 'gst1-plugins-base>=1.24.6']"
+sha1sum = "75f570a9638a731ece298cdc206e542bbb689972"
+depends = "['cuda', 'gst1-plugins-bad>=1.24.7', 'gst1-plugins-base>=1.24.7']"
 +++
 ### Description: 
 GStreamer CUDA plugin (Bad).
@@ -30,5 +30,5 @@ GStreamer CUDA plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstnvcodec.so
 * /usr/lib/libgstcuda-1.0.so
 * /usr/lib/libgstcuda-1.0.so.0
-* /usr/lib/libgstcuda-1.0.so.0.2406.0
+* /usr/lib/libgstcuda-1.0.so.0.2407.0
 * /usr/lib/pkgconfig/gstreamer-cuda-1.0.pc
