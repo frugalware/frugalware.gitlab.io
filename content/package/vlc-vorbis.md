@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-vorbis 3.0.21-8"
-version = "3.0.21-8"
+title = "vlc-vorbis 3.0.21-9"
+version = "3.0.21-9"
 description = "vlc vorbis support"
-date = "2024-09-04T12:59:34"
+date = "2024-09-15T18:28:11"
 aliases = "/packages/219599"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "75116"
+size = "75128"
 usize = "156360"
-sha1sum = "31ec8207f6be4dad6569835f786b91dcd3089990"
+sha1sum = "dc82b5c6f47b76afa0dbddcd7034fc2d4efd9d2e"
 depends = "['libvlc>=3.0.21', 'libvorbis']"
 +++
 ### Description: 
