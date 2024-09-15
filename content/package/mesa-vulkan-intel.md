@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-vulkan-intel 24.2.2-1"
-version = "24.2.2-1"
+title = "mesa-vulkan-intel 24.2.2-2"
+version = "24.2.2-2"
 description = "Intel Mesa Support for Vulkan"
-date = "2024-09-06T14:23:01"
+date = "2024-09-15T13:52:29"
 aliases = "/packages/218909"
 categories = ['x11-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "7507956"
+size = "7508332"
 usize = "43026212"
-sha1sum = "379a00b94816e2e9c7b8561633bcd7e78882cc6e"
+sha1sum = "3504547e148094afdab8558d64308491f5ec5fbd"
 depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 ### Description: 

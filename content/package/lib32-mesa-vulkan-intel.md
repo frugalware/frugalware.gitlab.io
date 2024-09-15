@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-vulkan-intel 24.2.2-1"
-version = "24.2.2-1"
+title = "lib32-mesa-vulkan-intel 24.2.2-2"
+version = "24.2.2-2"
 description = "Intel Mesa Support for Vulkan (32-bit)"
-date = "2024-09-06T14:23:01"
+date = "2024-09-15T13:52:29"
 aliases = "/packages/218910"
 categories = ['lib32-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "6172796"
+size = "6171300"
 usize = "47596988"
-sha1sum = "bde69e96872a46769926fd134a5ec80222bc9941"
+sha1sum = "99dec9b2d55e01587691c008b475dcf6807f9335"
 depends = "['lib32-libudev', 'lib32-vulkan-icd-loader', 'lib32-xcb-util-keysyms', 'lib32-zstd']"
 +++
 ### Description: 
