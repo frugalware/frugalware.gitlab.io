@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.93.0-1"
-version = "1.93.0-1"
+title = "vscode 1.93.1-1"
+version = "1.93.1-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2024-09-10T21:02:16"
+date = "2024-09-16T15:03:28"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "92795724"
-usize = "364114388"
-sha1sum = "a9ea67a9f8303d18c86bb92941995ab046f0ed7b"
+size = "92785740"
+usize = "364043789"
+sha1sum = "1980156818f59302945e51d9eddc4f65934f226f"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.93.0/README.md
+* /usr/share/doc/vscode-1.93.1/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -842,14 +842,9 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/xml/syntaxes/xsl.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/xml/xml.language-configuration.json
 * /usr/share/vscode/resources/app/extensions/xml/xsl.language-configuration.json
-* /usr/share/vscode/resources/app/extensions/yaml/build/update-grammar.js
 * /usr/share/vscode/resources/app/extensions/yaml/language-configuration.json
 * /usr/share/vscode/resources/app/extensions/yaml/package.json
 * /usr/share/vscode/resources/app/extensions/yaml/package.nls.json
-* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.0.tmLanguage.json
-* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.1.tmLanguage.json
-* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.2.tmLanguage.json
-* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.3.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml.tmLanguage.json
 * /usr/share/vscode/resources/app/LICENSE.txt
 * /usr/share/vscode/resources/app/node_modules.asar
