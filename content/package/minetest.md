@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "minetest 5.9.0-1"
-version = "5.9.0-1"
+title = "minetest 5.9.1-1"
+version = "5.9.1-1"
 description = "Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft."
-date = "2024-08-19T14:22:13"
+date = "2024-09-16T13:26:30"
 aliases = "/packages/200098"
 categories = ['games-extra']
 upstreamurl = "http://minetest.net/"
 arch = "x86_64"
-size = "6802016"
-usize = "19447509"
-sha1sum = "8d104b8db1445688d99d7037de864fb8d5dcb322"
+size = "6805920"
+usize = "19454527"
+sha1sum = "5d11191e122866bbfb5e34cec505192105edf361"
 depends = "['curl', 'libpq', 'luajit2', 'openal']"
 reverse_depends = "['minetest-game']"
 +++
@@ -20,8 +20,9 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 ### Files: 
 * /usr/bin/minetest
 * /usr/share/applications/net.minetest.minetest.desktop
-* /usr/share/doc/minetest-5.9.0/COPYING.LESSER
-* /usr/share/doc/minetest-5.9.0/README.md
+* /usr/share/doc/minetest-5.9.1/COPYING.LESSER
+* /usr/share/doc/minetest-5.9.1/README.md
+* /usr/share/doc/minetest-5.9.1/Readme.md
 * /usr/share/doc/minetest/client_lua_api.md
 * /usr/share/doc/minetest/lua_api.md
 * /usr/share/doc/minetest/menu_lua_api.md
@@ -153,7 +154,15 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/minetest/client/shaders/extract_bloom/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/fxaa/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/fxaa/opengl_vertex.glsl
-* /usr/share/minetest/client/shaders/Irrlicht
+* /usr/share/minetest/client/shaders/Irrlicht/OneTextureBlend.fsh
+* /usr/share/minetest/client/shaders/Irrlicht/Renderer2D.fsh
+* /usr/share/minetest/client/shaders/Irrlicht/Renderer2D.vsh
+* /usr/share/minetest/client/shaders/Irrlicht/Renderer2D_noTex.fsh
+* /usr/share/minetest/client/shaders/Irrlicht/Solid.fsh
+* /usr/share/minetest/client/shaders/Irrlicht/Solid.vsh
+* /usr/share/minetest/client/shaders/Irrlicht/TransparentAlphaChannel.fsh
+* /usr/share/minetest/client/shaders/Irrlicht/TransparentAlphaChannelRef.fsh
+* /usr/share/minetest/client/shaders/Irrlicht/TransparentVertexAlpha.fsh
 * /usr/share/minetest/client/shaders/minimap_shader/opengl_fragment.glsl
 * /usr/share/minetest/client/shaders/minimap_shader/opengl_vertex.glsl
 * /usr/share/minetest/client/shaders/nodes_shader/opengl_fragment.glsl

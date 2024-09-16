@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cmake 3.30.3-1"
-version = "3.30.3-1"
+title = "cmake 3.30.3-2"
+version = "3.30.3-2"
 description = "Cross platform make"
-date = "2024-09-10T18:27:40"
+date = "2024-09-16T13:53:30"
 aliases = "/packages/9148"
 categories = ['devel-extra']
 upstreamurl = "https://cmake.org"
 arch = "x86_64"
-size = "12605964"
-usize = "74091800"
-sha1sum = "b952073be910493facaae221990c143453fcb1f0"
-depends = "['cppdap', 'curl', 'jsoncpp', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
+size = "12605372"
+usize = "74091805"
+sha1sum = "a90264f410f2699b7a608e5a5f08603ad2f51455"
+depends = "['cppdap', 'curl', 'jsoncpp>=1.9.6', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build', 'scikit-build-core']"
 +++
 ### Description: 

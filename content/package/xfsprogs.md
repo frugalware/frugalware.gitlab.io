@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xfsprogs 6.10.0-1"
-version = "6.10.0-1"
+title = "xfsprogs 6.10.1-1"
+version = "6.10.1-1"
 description = "XFS filesystem-specific static libraries and headers."
-date = "2024-08-26T13:12:36"
+date = "2024-09-16T13:34:37"
 aliases = "/packages/2462"
 categories = ['apps']
 upstreamurl = "http://xfs.org"
 arch = "x86_64"
-size = "1104100"
-usize = "4162893"
-sha1sum = "cad6826d9ae38880844e54799e127747ad33b626"
+size = "1106280"
+usize = "4163016"
+sha1sum = "8b56e48cbc7aeb7e2cd77a46f5fd2df2de93f3f2"
 depends = "['glibc>=2.35', 'icu4c>=75.1', 'inih', 'liburcu', 'libuuid>=2.40.2', 'readline>=8.0']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'partitionmanager', 'qtparted']"
 +++
@@ -68,8 +68,8 @@ XFS filesystem-specific static libraries and headers.
 * /usr/lib/systemd/system/xfs_scrub_media_fail@.service
 * /usr/lib/udev/rules.d/64-xfs.rules
 * /usr/lib/xfsprogs/xfsprogs/xfs_scrub_fail
-* /usr/share/doc/xfsprogs-6.10.0/README
-* /usr/share/doc/xfsprogs-6.10.0/VERSION
+* /usr/share/doc/xfsprogs-6.10.1/README
+* /usr/share/doc/xfsprogs-6.10.1/VERSION
 * /usr/share/doc/xfsprogs/CHANGES.gz
 * /usr/share/doc/xfsprogs/CREDITS
 * /usr/share/doc/xfsprogs/README
