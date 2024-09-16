@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-urllib3 2.2.2-1"
-version = "2.2.2-1"
+title = "python3-urllib3 2.2.3-1"
+version = "2.2.3-1"
 description = "HTTP library with thread-safe connection pooling and file post support"
-date = "2024-06-18T07:51:00"
+date = "2024-09-16T12:55:14"
 aliases = "/packages/219478"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/urllib3"
 arch = "x86_64"
-size = "198872"
-usize = "1240931"
-sha1sum = "5415f801155aa0220abb9fa7ee033c235475cfbd"
+size = "205428"
+usize = "1286293"
+sha1sum = "7fdb2c1756d749125eeb4b810c2623f52ffcfb61"
 depends = "['python3-pysocks']"
 reverse_depends = "['lutris', 'python3-cachecontrol', 'python3-dulwich', 'python3-poetry', 'python3-requests', 'python3-selenium', 'python3-sentry-sdk']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['lutris', 'python3-cachecontrol', 'python3-dulwich', 'python
 HTTP library with thread-safe connection pooling and file post support
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/urllib3-2.2.2.dist-info/licenses/LICENSE.txt
-* /usr/lib/python3.12/site-packages/urllib3-2.2.2.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/urllib3-2.2.2.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/urllib3-2.2.2.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/urllib3-2.2.3.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.12/site-packages/urllib3-2.2.3.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/urllib3-2.2.3.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/urllib3-2.2.3.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/urllib3/connection.py
 * /usr/lib/python3.12/site-packages/urllib3/connectionpool.py
 * /usr/lib/python3.12/site-packages/urllib3/contrib/emscripten/connection.py
@@ -52,7 +52,15 @@ HTTP library with thread-safe connection pooling and file post support
 * /usr/lib/python3.12/site-packages/urllib3/exceptions.py
 * /usr/lib/python3.12/site-packages/urllib3/fields.py
 * /usr/lib/python3.12/site-packages/urllib3/filepost.py
-* /usr/lib/python3.12/site-packages/urllib3/http2.py
+* /usr/lib/python3.12/site-packages/urllib3/http2/connection.py
+* /usr/lib/python3.12/site-packages/urllib3/http2/probe.py
+* /usr/lib/python3.12/site-packages/urllib3/http2/__init__.py
+* /usr/lib/python3.12/site-packages/urllib3/http2/__pycache__/connection.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/urllib3/http2/__pycache__/connection.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/urllib3/http2/__pycache__/probe.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/urllib3/http2/__pycache__/probe.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/urllib3/http2/__pycache__/__init__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/urllib3/http2/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/urllib3/poolmanager.py
 * /usr/lib/python3.12/site-packages/urllib3/py.typed
 * /usr/lib/python3.12/site-packages/urllib3/response.py
@@ -110,8 +118,6 @@ HTTP library with thread-safe connection pooling and file post support
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/fields.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/filepost.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/filepost.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/urllib3/__pycache__/http2.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/urllib3/__pycache__/http2.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/poolmanager.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/poolmanager.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/response.cpython-312.opt-1.pyc
@@ -126,4 +132,4 @@ HTTP library with thread-safe connection pooling and file post support
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/_version.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/urllib3/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-urllib3-2.2.2/README.md
+* /usr/share/doc/python3-urllib3-2.2.3/README.md
