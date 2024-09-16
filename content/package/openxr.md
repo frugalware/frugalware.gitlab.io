@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openxr 1.1.40-1"
-version = "1.1.40-1"
+title = "openxr 1.1.40-2"
+version = "1.1.40-2"
 description = "An open standard for virtual reality and augmented reality platforms and devices"
-date = "2024-08-27T14:20:09"
+date = "2024-09-16T14:19:02"
 aliases = "/packages/220880"
 categories = ['xlib-extra']
 upstreamurl = "https://www.khronos.org/openxr/"
 arch = "x86_64"
-size = "1029260"
+size = "1029652"
 usize = "5150416"
-sha1sum = "0221aaaf505a34daa8145495c8f51515db036f96"
-depends = "['jsoncpp', 'libglvnd', 'libx11', 'libxrandr', 'libxxf86vm', 'vulkan-icd-loader']"
+sha1sum = "70c7cb7cc776e3c072b10869946ac151bbb23dbd"
+depends = "['jsoncpp>=1.9.6', 'libglvnd', 'libx11', 'libxrandr', 'libxxf86vm', 'vulkan-icd-loader']"
 reverse_depends = "['vtk']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "minetest 5.9.1-1"
-version = "5.9.1-1"
+title = "minetest 5.9.1-2"
+version = "5.9.1-2"
 description = "Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft."
-date = "2024-09-16T13:26:30"
+date = "2024-09-16T14:24:41"
 aliases = "/packages/200098"
 categories = ['games-extra']
 upstreamurl = "http://minetest.net/"
 arch = "x86_64"
-size = "6805920"
-usize = "19454527"
-sha1sum = "5d11191e122866bbfb5e34cec505192105edf361"
-depends = "['curl', 'libpq', 'luajit2', 'openal']"
+size = "6803756"
+usize = "19453173"
+sha1sum = "df261bf3098d849e85f0fe6283ff3d1cc54ae9c5"
+depends = "['curl', 'jsoncpp>=1.9.6', 'libpq', 'luajit2', 'openal']"
 reverse_depends = "['minetest-game']"
 +++
 ### Description: 
@@ -22,7 +22,6 @@ Minetest is an infinite-world block sandbox game and a game engine, inspired by 
 * /usr/share/applications/net.minetest.minetest.desktop
 * /usr/share/doc/minetest-5.9.1/COPYING.LESSER
 * /usr/share/doc/minetest-5.9.1/README.md
-* /usr/share/doc/minetest-5.9.1/Readme.md
 * /usr/share/doc/minetest/client_lua_api.md
 * /usr/share/doc/minetest/lua_api.md
 * /usr/share/doc/minetest/menu_lua_api.md

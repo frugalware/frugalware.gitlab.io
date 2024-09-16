@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "easyeffects 7.1.8-1"
-version = "7.1.8-1"
+title = "easyeffects 7.1.9-1"
+version = "7.1.9-1"
 description = "Audio Effects for Pipewire Applications"
-date = "2024-08-18T08:01:20"
+date = "2024-09-16T14:26:30"
 aliases = "/packages/220894"
 categories = ['xapps-extra']
-upstreamurl = "https://github.com/wwmm/pulseeffects"
+upstreamurl = "https://github.com/wwmm/easyeffects"
 arch = "x86_64"
-size = "1176152"
-usize = "8354682"
-sha1sum = "13f8a6919a887599debb241e26046e2cdfceb8c7"
+size = "1181980"
+usize = "8373152"
+sha1sum = "dad80149132adb8333d24d24a1214be65950d33b"
 depends = "['fmtlib>=11.0.1', 'gsl>=2.8', 'intel-tbb', 'ladspa_sdk', 'libadwaita', 'libbs2b', 'libebur128', 'libsigc++3', 'lsp-plugins', 'lzo', 'pipewire', 'rnnoise', 'rubberband', 'soundtouch', 'speexdsp', 'zita-convolver']"
 +++
 ### Description: 
@@ -20,8 +20,8 @@ Audio Effects for Pipewire Applications
 * /usr/bin/easyeffects
 * /usr/share/applications/com.github.wwmm.easyeffects.desktop
 * /usr/share/dbus-1/services/com.github.wwmm.easyeffects.service
-* /usr/share/doc/easyeffects-7.1.8/LICENSE
-* /usr/share/doc/easyeffects-7.1.8/README.md
+* /usr/share/doc/easyeffects-7.1.9/LICENSE
+* /usr/share/doc/easyeffects-7.1.9/README.md
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.autogain.gschema.xml
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.bassenhancer.gschema.xml
 * /usr/share/glib-2.0/schemas/com.github.wwmm.easyeffects.bassloudness.gschema.xml

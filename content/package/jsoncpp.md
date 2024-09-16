@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "jsoncpp 1.9.6-1"
-version = "1.9.6-1"
+title = "jsoncpp 1.9.6-2"
+version = "1.9.6-2"
 description = "JSON C++ library."
-date = "2024-09-16T13:31:53"
+date = "2024-09-16T14:17:01"
 aliases = "/packages/184725"
 categories = ['lib']
 upstreamurl = "https://github.com/open-source-parsers/jsoncpp"
 arch = "x86_64"
-size = "100020"
-usize = "323795"
-sha1sum = "2854d46606a46b834ec8ab3eb8031473b87a38a6"
+size = "101180"
+usize = "327527"
+sha1sum = "5bad35e21c74f4899d8c2d9d400ac10bb040486f"
 depends = "['glibc>=2.34']"
-reverse_depends = "['cmake', 'opendht', 'openvr', 'openxr', 'qt5-webengine', 'sysdig']"
+reverse_depends = "['cmake', 'minetest', 'opendht', 'openvr', 'openxr', 'qt5-webengine', 'sysdig']"
 +++
 ### Description: 
 JSON C++ library.
@@ -28,11 +28,10 @@ JSON C++ library.
 * /usr/include/json/value.h
 * /usr/include/json/version.h
 * /usr/include/json/writer.h
-* /usr/lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake
-* /usr/lib/cmake/jsoncpp/jsoncppConfig.cmake
 * /usr/lib/libjsoncpp.so
 * /usr/lib/libjsoncpp.so.26
 * /usr/lib/pkgconfig/jsoncpp.pc
 * /usr/share/doc/jsoncpp-1.9.6/AUTHORS
+* /usr/share/doc/jsoncpp-1.9.6/COPYING.adoc
 * /usr/share/doc/jsoncpp-1.9.6/LICENSE
 * /usr/share/doc/jsoncpp-1.9.6/README.md

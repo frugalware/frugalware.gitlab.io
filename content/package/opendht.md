@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opendht 3.2.0-1"
-version = "3.2.0-1"
+title = "opendht 3.2.0-2"
+version = "3.2.0-2"
 description = "A C++11 implementation of the Kademlia DHT (Distributed Hash Table)"
-date = "2024-08-27T14:06:36"
+date = "2024-09-16T14:21:41"
 aliases = "/packages/219645"
 categories = ['network-extra']
 upstreamurl = "https://github.com/savoirfairelinux/opendht"
 arch = "x86_64"
-size = "1179760"
+size = "1178792"
 usize = "4170236"
-sha1sum = "fd6885330241a1dd29b9e38184f78bc3aa31713f"
-depends = "['argon2', 'asio', 'fmtlib>=11.0.1', 'gnutls', 'jsoncpp>=1.9.5', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
+sha1sum = "e9edcbc1f7006c9a45a3e86e054ad273bd82a6cb"
+depends = "['argon2', 'asio', 'fmtlib>=11.0.1', 'gnutls', 'jsoncpp>=1.9.6', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
 +++
 ### Description: 
 A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
