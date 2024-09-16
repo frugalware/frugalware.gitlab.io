@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "json-c 0.17-3"
-version = "0.17-3"
+title = "json-c 0.18-1"
+version = "0.18-1"
 description = "JSON-C - A JSON implementation in C"
-date = "2024-05-15T17:09:41"
+date = "2024-09-16T11:53:05"
 aliases = "/packages/217485"
 categories = ['base']
 upstreamurl = "https://github.com/json-c/json-c/wiki"
 arch = "x86_64"
-size = "70072"
-usize = "238114"
-sha1sum = "24899aa5e883ff2d590f08aa28680369fe5f8e31"
+size = "71284"
+usize = "238675"
+sha1sum = "b621b27bcfd9dd552b4ad0511f7c4f9662c81063"
 depends = "['glibc>=2.34']"
 reverse_depends = "['cryptsetup-luks', 'efl', 'enlightenment', 'fontconfig', 'gdal', 'gdal', 'libmypaint', 'libnvme', 'libu2f-host', 'multipath-tools', 'ndctl', 'strongswan', 'terminology', 'tpm2-tss', 'v4l-utils']"
 +++
@@ -39,14 +39,14 @@ JSON-C - A JSON implementation in C
 * /usr/lib/cmake/json-c/json-c-targets.cmake
 * /usr/lib/libjson-c.so
 * /usr/lib/libjson-c.so.5
-* /usr/lib/libjson-c.so.5.3.0
+* /usr/lib/libjson-c.so.5.4.0
 * /usr/lib/pkgconfig/json-c.pc
-* /usr/share/doc/json-c-0.17/AUTHORS
-* /usr/share/doc/json-c-0.17/ChangeLog
-* /usr/share/doc/json-c-0.17/COPYING
-* /usr/share/doc/json-c-0.17/INSTALL
-* /usr/share/doc/json-c-0.17/NEWS
-* /usr/share/doc/json-c-0.17/README
-* /usr/share/doc/json-c-0.17/README.html
-* /usr/share/doc/json-c-0.17/README.md
-* /usr/share/doc/json-c-0.17/RELEASE_CHECKLIST.txt
+* /usr/share/doc/json-c-0.18/AUTHORS
+* /usr/share/doc/json-c-0.18/ChangeLog
+* /usr/share/doc/json-c-0.18/COPYING
+* /usr/share/doc/json-c-0.18/INSTALL
+* /usr/share/doc/json-c-0.18/NEWS
+* /usr/share/doc/json-c-0.18/README
+* /usr/share/doc/json-c-0.18/README.html
+* /usr/share/doc/json-c-0.18/README.md
+* /usr/share/doc/json-c-0.18/RELEASE_CHECKLIST.txt

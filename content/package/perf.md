@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.10.10-1"
-version = "6.10.10-1"
+title = "perf 6.11-1"
+version = "6.11-1"
 description = "Kernel performance profiling tool"
-date = "2024-09-13T09:23:33"
+date = "2024-09-16T09:20:12"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2265268"
-usize = "11508784"
-sha1sum = "83960bc2a8fd04c3b25ff756067296b7a632907a"
+size = "2242948"
+usize = "11652799"
+sha1sum = "47041dcdb71b221f5fe6e5a5269c6eb1b70b066b"
 depends = "['binutils>=2.43.1', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -228,6 +228,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/test_uprobe_from_different_cu.sh
 * /usr/lib/perf/perf-core/tests/shell/trace+probe_vfs_getname.sh
 * /usr/share/doc/perf-tip/tips.txt
+* /usr/share/man/man1/perf-amd-ibs.1.gz
 * /usr/share/man/man1/perf-annotate.1.gz
 * /usr/share/man/man1/perf-archive.1.gz
 * /usr/share/man/man1/perf-arm-spe.1.gz

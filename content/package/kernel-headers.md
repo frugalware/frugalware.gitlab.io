@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.10.10-1"
-version = "6.10.10-1"
+title = "kernel-headers 6.11-1"
+version = "6.11-1"
 description = "Linux kernel include files"
-date = "2024-09-13T09:23:33"
+date = "2024-09-16T09:20:12"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1217136"
-usize = "5743733"
-sha1sum = "4ea41ffa7dcc1dbfe36f8e3c1ee98ed31db18a40"
+size = "1232652"
+usize = "5826076"
+sha1sum = "4a8ece718600c804b1fc27084028bb5923a70857"
 depends = "[]"
 +++
 ### Description: 
@@ -419,6 +419,8 @@ Linux kernel include files
 * /usr/include/linux/mdio.h
 * /usr/include/linux/media-bus-format.h
 * /usr/include/linux/media.h
+* /usr/include/linux/media/raspberrypi/pisp_be_config.h
+* /usr/include/linux/media/raspberrypi/pisp_common.h
 * /usr/include/linux/mei.h
 * /usr/include/linux/mei_uuid.h
 * /usr/include/linux/membarrier.h
@@ -902,6 +904,7 @@ Linux kernel include files
 * /usr/include/linux/zorro_ids.h
 * /usr/include/misc/cxl.h
 * /usr/include/misc/fastrpc.h
+* /usr/include/misc/mrvl_cn10k_dpi.h
 * /usr/include/misc/ocxl.h
 * /usr/include/misc/pvpanic.h
 * /usr/include/misc/uacce/hisi_qm.h
