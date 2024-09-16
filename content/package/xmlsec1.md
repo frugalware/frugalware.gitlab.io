@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xmlsec1 1.3.4-1"
-version = "1.3.4-1"
+title = "xmlsec1 1.3.5-1"
+version = "1.3.5-1"
 description = "Library providing support for 'XML Signature' and 'XML Encryption' standards"
-date = "2024-04-20T21:08:38"
+date = "2024-09-16T07:54:03"
 aliases = "/packages/219507"
 categories = ['xoffice']
 upstreamurl = "https://www.aleksey.com/xmlsec/"
 arch = "x86_64"
-size = "260452"
-usize = "1291240"
-sha1sum = "8f23ecf3ec7179299473be125d500e0c89e050e1"
+size = "262380"
+usize = "1280867"
+sha1sum = "f20712f959cb4fe091eee8c806c6d65c06c1f0ae"
 depends = "['libxml2', 'nss']"
 reverse_depends = "['libreoffice']"
 +++
@@ -54,21 +54,21 @@ Library providing support for 'XML Signature' and 'XML Encryption' standards
 * /usr/include/xmlsec1/xmlsec/xmltree.h
 * /usr/lib/libxmlsec1-nss.so
 * /usr/lib/libxmlsec1-nss.so.1
-* /usr/lib/libxmlsec1-nss.so.1.3.4
+* /usr/lib/libxmlsec1-nss.so.1.3.5
 * /usr/lib/libxmlsec1.so
 * /usr/lib/libxmlsec1.so.1
-* /usr/lib/libxmlsec1.so.1.3.4
+* /usr/lib/libxmlsec1.so.1.3.5
 * /usr/lib/pkgconfig/xmlsec1-nss.pc
 * /usr/lib/pkgconfig/xmlsec1.pc
 * /usr/lib/xmlsec1Conf.sh
 * /usr/share/aclocal/xmlsec1.m4
-* /usr/share/doc/xmlsec1-1.3.4/AUTHORS
-* /usr/share/doc/xmlsec1-1.3.4/ChangeLog
-* /usr/share/doc/xmlsec1-1.3.4/COPYING
-* /usr/share/doc/xmlsec1-1.3.4/HACKING
-* /usr/share/doc/xmlsec1-1.3.4/INSTALL
-* /usr/share/doc/xmlsec1-1.3.4/NEWS
-* /usr/share/doc/xmlsec1-1.3.4/README.md
-* /usr/share/doc/xmlsec1-1.3.4/TODO
+* /usr/share/doc/xmlsec1-1.3.5/AUTHORS
+* /usr/share/doc/xmlsec1-1.3.5/ChangeLog
+* /usr/share/doc/xmlsec1-1.3.5/COPYING
+* /usr/share/doc/xmlsec1-1.3.5/HACKING
+* /usr/share/doc/xmlsec1-1.3.5/INSTALL
+* /usr/share/doc/xmlsec1-1.3.5/NEWS
+* /usr/share/doc/xmlsec1-1.3.5/README.md
+* /usr/share/doc/xmlsec1-1.3.5/TODO
 * /usr/share/man/man1/xmlsec1-config.1.gz
 * /usr/share/man/man1/xmlsec1.1.gz
