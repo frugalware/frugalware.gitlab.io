@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "btrfs-progs 6.10.1-1"
-version = "6.10.1-1"
+title = "btrfs-progs 6.11-1"
+version = "6.11-1"
 description = "Utilities for managing btrfs filesystems."
-date = "2024-08-15T17:26:25"
+date = "2024-09-17T17:42:16"
 aliases = "/packages/219969"
 categories = ['base']
 upstreamurl = "https://btrfs.wiki.kernel.org"
 arch = "x86_64"
-size = "1250604"
-usize = "7316772"
-sha1sum = "e7ba1b6476f8e8c9625287c4b4251f6b105d7662"
+size = "1259208"
+usize = "7347447"
+sha1sum = "770ea4bd2ab694937d1821ac6960e72b2dc19f50"
 depends = "['e2fsprogs>=1.43.8-2', 'lzo>=2.10-3', 'zstd>=1.3.3-2']"
 reverse_depends = "['docker', 'kernel-initrd', 'kernel-lts-initrd', 'udisks2']"
 +++
@@ -48,11 +48,12 @@ Utilities for managing btrfs filesystems.
 * /usr/lib/pkgconfig/libbtrfsutil.pc
 * /usr/lib/udev/rules.d/64-btrfs-dm.rules
 * /usr/lib/udev/rules.d/64-btrfs-zoned.rules
-* /usr/share/doc/btrfs-progs-6.10.1/CHANGES
-* /usr/share/doc/btrfs-progs-6.10.1/COPYING
-* /usr/share/doc/btrfs-progs-6.10.1/INSTALL
-* /usr/share/doc/btrfs-progs-6.10.1/README.md
-* /usr/share/doc/btrfs-progs-6.10.1/VERSION
+* /usr/share/doc/btrfs-progs-6.11/CHANGES
+* /usr/share/doc/btrfs-progs-6.11/COPYING
+* /usr/share/doc/btrfs-progs-6.11/INSTALL
+* /usr/share/doc/btrfs-progs-6.11/README.md
+* /usr/share/doc/btrfs-progs-6.11/VERSION
+* /usr/share/man/man2/btrfs-ioctl.2.gz
 * /usr/share/man/man5/btrfs.5.gz
 * /usr/share/man/man8/btrfs-balance.8.gz
 * /usr/share/man/man8/btrfs-check.8.gz

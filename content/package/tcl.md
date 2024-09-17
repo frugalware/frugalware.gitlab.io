@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tcl 8.6.14-2"
-version = "8.6.14-2"
+title = "tcl 8.6.15-1"
+version = "8.6.15-1"
 description = "The Tcl scripting language"
-date = "2024-05-15T12:33:34"
+date = "2024-09-17T17:48:55"
 aliases = "/packages/3350"
 categories = ['devel']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "3275928"
-usize = "14300267"
-sha1sum = "418162f954e6a7a323caa300ae12f25064d1f1f8"
+size = "3327860"
+usize = "14462915"
+sha1sum = "b77b658a4eebcb5824e8935690abecc1dd26aaef"
 depends = "['zlib>=1.2.12']"
 reverse_depends = "['expect', 'insight-toolkit', 'postgresql-pltcl', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++
@@ -89,17 +89,17 @@ The Tcl scripting language
 * /usr/include/tdbc.h
 * /usr/include/tdbcDecls.h
 * /usr/include/tdbcInt.h
-* /usr/lib/itcl4.2.4/itcl.tcl
-* /usr/lib/itcl4.2.4/itclConfig.sh
-* /usr/lib/itcl4.2.4/itclHullCmds.tcl
-* /usr/lib/itcl4.2.4/itclWidget.tcl
-* /usr/lib/itcl4.2.4/libitcl4.2.4.so
-* /usr/lib/itcl4.2.4/pkgIndex.tcl
+* /usr/lib/itcl4.3.0/itcl.tcl
+* /usr/lib/itcl4.3.0/itclConfig.sh
+* /usr/lib/itcl4.3.0/itclHullCmds.tcl
+* /usr/lib/itcl4.3.0/itclWidget.tcl
+* /usr/lib/itcl4.3.0/libitcl4.3.0.so
+* /usr/lib/itcl4.3.0/pkgIndex.tcl
 * /usr/lib/libtcl.so
 * /usr/lib/libtcl8.6.so
 * /usr/lib/pkgconfig/tcl.pc
-* /usr/lib/sqlite3.44.2/libsqlite3.44.2.so
-* /usr/lib/sqlite3.44.2/pkgIndex.tcl
+* /usr/lib/sqlite3.45.3/libsqlite3.45.3.so
+* /usr/lib/sqlite3.45.3/pkgIndex.tcl
 * /usr/lib/tcl8.6/auto.tcl
 * /usr/lib/tcl8.6/clock.tcl
 * /usr/lib/tcl8.6/encoding/ascii.enc
@@ -165,6 +165,8 @@ The Tcl scripting language
 * /usr/lib/tcl8.6/encoding/jis0208.enc
 * /usr/lib/tcl8.6/encoding/jis0212.enc
 * /usr/lib/tcl8.6/encoding/koi8-r.enc
+* /usr/lib/tcl8.6/encoding/koi8-ru.enc
+* /usr/lib/tcl8.6/encoding/koi8-t.enc
 * /usr/lib/tcl8.6/encoding/koi8-u.enc
 * /usr/lib/tcl8.6/encoding/ksc5601.enc
 * /usr/lib/tcl8.6/encoding/macCentEuro.enc
@@ -325,29 +327,30 @@ The Tcl scripting language
 * /usr/lib/tcl8/8.4/platform-1.0.19.tm
 * /usr/lib/tcl8/8.4/platform/shell-1.1.4.tm
 * /usr/lib/tcl8/8.5/msgcat-1.6.1.tm
-* /usr/lib/tcl8/8.5/tcltest-2.5.7.tm
+* /usr/lib/tcl8/8.5/tcltest-2.5.8.tm
 * /usr/lib/tcl8/8.6/http-2.9.8.tm
-* /usr/lib/tcl8/8.6/tdbc/sqlite3-1.1.7.tm
+* /usr/lib/tcl8/8.6/tdbc/sqlite3-1.1.9.tm
+* /usr/lib/tcl8/8.6/tdbc/sqlite3-1.1.9.uuid
 * /usr/lib/tclConfig.sh
 * /usr/lib/tclooConfig.sh
-* /usr/lib/tdbc1.1.7/libtdbc1.1.7.so
-* /usr/lib/tdbc1.1.7/pkgIndex.tcl
-* /usr/lib/tdbc1.1.7/tdbc.tcl
-* /usr/lib/tdbc1.1.7/tdbcConfig.sh
-* /usr/lib/tdbcmysql1.1.7/libtdbcmysql1.1.7.so
-* /usr/lib/tdbcmysql1.1.7/pkgIndex.tcl
-* /usr/lib/tdbcmysql1.1.7/tdbcmysql.tcl
-* /usr/lib/tdbcodbc1.1.7/libtdbcodbc1.1.7.so
-* /usr/lib/tdbcodbc1.1.7/pkgIndex.tcl
-* /usr/lib/tdbcodbc1.1.7/tdbcodbc.tcl
-* /usr/lib/tdbcpostgres1.1.7/libtdbcpostgres1.1.7.so
-* /usr/lib/tdbcpostgres1.1.7/pkgIndex.tcl
-* /usr/lib/tdbcpostgres1.1.7/tdbcpostgres.tcl
-* /usr/lib/thread2.8.9/libthread2.8.9.so
-* /usr/lib/thread2.8.9/pkgIndex.tcl
-* /usr/lib/thread2.8.9/ttrace.tcl
-* /usr/share/doc/tcl-8.6.14/ChangeLog
-* /usr/share/doc/tcl-8.6.14/README.md
+* /usr/lib/tdbc1.1.9/libtdbc1.1.9.so
+* /usr/lib/tdbc1.1.9/pkgIndex.tcl
+* /usr/lib/tdbc1.1.9/tdbc.tcl
+* /usr/lib/tdbc1.1.9/tdbcConfig.sh
+* /usr/lib/tdbcmysql1.1.9/libtdbcmysql1.1.9.so
+* /usr/lib/tdbcmysql1.1.9/pkgIndex.tcl
+* /usr/lib/tdbcmysql1.1.9/tdbcmysql.tcl
+* /usr/lib/tdbcodbc1.1.9/libtdbcodbc1.1.9.so
+* /usr/lib/tdbcodbc1.1.9/pkgIndex.tcl
+* /usr/lib/tdbcodbc1.1.9/tdbcodbc.tcl
+* /usr/lib/tdbcpostgres1.1.9/libtdbcpostgres1.1.9.so
+* /usr/lib/tdbcpostgres1.1.9/pkgIndex.tcl
+* /usr/lib/tdbcpostgres1.1.9/tdbcpostgres.tcl
+* /usr/lib/thread2.8.10/libthread2.8.10.so
+* /usr/lib/thread2.8.10/pkgIndex.tcl
+* /usr/lib/thread2.8.10/ttrace.tcl
+* /usr/share/doc/tcl-8.6.15/ChangeLog
+* /usr/share/doc/tcl-8.6.15/README.md
 * /usr/share/man/man1/tclsh.1.gz
 * /usr/share/man/man3/attemptckalloc.3.gz
 * /usr/share/man/man3/attemptckrealloc.3.gz
@@ -1115,6 +1118,7 @@ The Tcl scripting language
 * /usr/share/man/mann/oo_define.n.gz
 * /usr/share/man/mann/oo_objdefine.n.gz
 * /usr/share/man/mann/oo_object.n.gz
+* /usr/share/man/mann/oo_Slot.n.gz
 * /usr/share/man/mann/open.n.gz
 * /usr/share/man/mann/package.n.gz
 * /usr/share/man/mann/packagens.n.gz
