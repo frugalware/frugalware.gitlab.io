@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-tr 128.2.0-1"
-version = "128.2.0-1"
+title = "thunderbird-tr 128.2.2-1"
+version = "128.2.2-1"
 description = "Turkish language support for Thunderbird"
-date = "2024-09-09T15:45:41"
+date = "2024-09-18T16:09:09"
 aliases = "/packages/5204"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "696836"
-usize = "758166"
-sha1sum = "dc9d4d93b69ed38aa6464edba3388c13fb39ba5c"
-depends = "['thunderbird>=128.2.0']"
+size = "696828"
+usize = "758165"
+sha1sum = "c7f1c10a2753e29bcc8a6f9c70dd23dd9a8fb371"
+depends = "['thunderbird>=128.2.2']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

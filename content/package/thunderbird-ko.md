@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ko 128.2.0-1"
-version = "128.2.0-1"
+title = "thunderbird-ko 128.2.2-1"
+version = "128.2.2-1"
 description = "Korean language support for Thunderbird"
-date = "2024-09-09T15:45:41"
+date = "2024-09-18T16:09:09"
 aliases = "/packages/60750"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "692584"
+size = "692660"
 usize = "755165"
-sha1sum = "d92009d6e85d137f475ed635bd5fb50c8401a876"
-depends = "['thunderbird>=128.2.0']"
+sha1sum = "c1ecd830b54b845f2b7e8676e0af5391d71156e9"
+depends = "['thunderbird>=128.2.2']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

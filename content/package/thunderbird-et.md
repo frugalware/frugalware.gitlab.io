@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-et 128.2.0-1"
-version = "128.2.0-1"
+title = "thunderbird-et 128.2.2-1"
+version = "128.2.2-1"
 description = "Estonian language support for Thunderbird"
-date = "2024-09-09T15:45:41"
+date = "2024-09-18T16:09:09"
 aliases = "/packages/73774"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
 size = "632500"
-usize = "696280"
-sha1sum = "e24a3b0fb4759cf365c8cea8dfe145a776b26da3"
-depends = "['thunderbird>=128.2.0']"
+usize = "696279"
+sha1sum = "ee17f60ea37431162b78dab65b63bd48108e7ea7"
+depends = "['thunderbird>=128.2.2']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
