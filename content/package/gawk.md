@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gawk 5.3.0-2"
-version = "5.3.0-2"
+title = "gawk 5.3.1-1"
+version = "5.3.1-1"
 description = "Gnu version of awk"
-date = "2024-05-16T01:00:49"
+date = "2024-09-18T14:50:44"
 aliases = "/packages/2378"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/gawk/"
 arch = "x86_64"
-size = "1329148"
-usize = "3629067"
-sha1sum = "a839b4659da00cb98b6e2b906cfa02593c3cc18d"
+size = "1336584"
+usize = "3496433"
+sha1sum = "ab9a05ccb66f364d73edea1b86ca5fc5f1f5dafd"
 depends = "['mpfr>=4.0.2-3', 'ncurses>=6.1', 'readline>=8.0-3']"
 reverse_depends = "['autoconf', 'backupninja', 'go', 'inxi', 'parted', 'prettyping', 'quilt', 'texinfo']"
 +++
@@ -22,7 +22,7 @@ Gnu version of awk
 * /etc/profile.d/gawk.sh
 * /usr/bin/awk
 * /usr/bin/gawk
-* /usr/bin/gawk-5.3.0
+* /usr/bin/gawk-5.3.1
 * /usr/bin/gawkbug
 * /usr/include/gawkapi.h
 * /usr/lib/gawk/awk/grcat
@@ -68,13 +68,13 @@ Gnu version of awk
 * /usr/share/awk/tocsv.awk
 * /usr/share/awk/walkarray.awk
 * /usr/share/awk/zerofile.awk
-* /usr/share/doc/gawk-5.3.0/AUTHORS
-* /usr/share/doc/gawk-5.3.0/ChangeLog
-* /usr/share/doc/gawk-5.3.0/COPYING
-* /usr/share/doc/gawk-5.3.0/INSTALL
-* /usr/share/doc/gawk-5.3.0/NEWS
-* /usr/share/doc/gawk-5.3.0/README
-* /usr/share/doc/gawk-5.3.0/TODO
+* /usr/share/doc/gawk-5.3.1/AUTHORS
+* /usr/share/doc/gawk-5.3.1/ChangeLog
+* /usr/share/doc/gawk-5.3.1/COPYING
+* /usr/share/doc/gawk-5.3.1/INSTALL
+* /usr/share/doc/gawk-5.3.1/NEWS
+* /usr/share/doc/gawk-5.3.1/README
+* /usr/share/doc/gawk-5.3.1/TODO
 * /usr/share/info/gawk.info.gz
 * /usr/share/info/gawkinet.info.gz
 * /usr/share/info/gawkworkflow.info.gz
@@ -96,6 +96,7 @@ Gnu version of awk
 * /usr/share/locale/id/LC_MESSAGES/gawk.mo
 * /usr/share/locale/it/LC_MESSAGES/gawk.mo
 * /usr/share/locale/ja/LC_MESSAGES/gawk.mo
+* /usr/share/locale/ka/LC_MESSAGES/gawk.mo
 * /usr/share/locale/ko/LC_MESSAGES/gawk.mo
 * /usr/share/locale/ms/LC_MESSAGES/gawk.mo
 * /usr/share/locale/nl/LC_MESSAGES/gawk.mo
