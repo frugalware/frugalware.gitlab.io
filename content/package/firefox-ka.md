@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ka 129.0.1-1"
-version = "129.0.1-1"
+title = "firefox-ka 130.0.1-1"
+version = "130.0.1-1"
 description = "Georgian language support for Firefox"
-date = "2024-08-14T08:01:48"
+date = "2024-09-18T18:32:59"
 aliases = "/packages/219027"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "609820"
-usize = "663166"
-sha1sum = "d6e62bd4b0a7294294c5f61595c1d2a3428b1461"
-depends = "['firefox>=129.0.1']"
+size = "610128"
+usize = "664728"
+sha1sum = "5cebf7c36cf2762cc6a28cde991a7870476492be"
+depends = "['firefox>=130.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

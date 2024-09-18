@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ast 129.0.1-1"
-version = "129.0.1-1"
+title = "firefox-ast 130.0.1-1"
+version = "130.0.1-1"
 description = "Asturian language support for Firefox"
-date = "2024-08-14T08:01:48"
+date = "2024-09-18T18:32:59"
 aliases = "/packages/200920"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "437024"
-usize = "498510"
-sha1sum = "1c5fe24848dc3e17f7d56042c4ac7b0d018b6fda"
-depends = "['firefox>=129.0.1']"
+size = "437876"
+usize = "499640"
+sha1sum = "c4355304c4d6a6d3fcc07591ca92fb213b4ca0f2"
+depends = "['firefox>=130.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

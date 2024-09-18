@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-br 129.0.1-1"
-version = "129.0.1-1"
+title = "firefox-br 130.0.1-1"
+version = "130.0.1-1"
 description = "Breton language support for Firefox"
-date = "2024-08-14T08:01:48"
+date = "2024-09-18T18:32:59"
 aliases = "/packages/118577"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "537120"
-usize = "591227"
-sha1sum = "0f0509ea9e986a184ceb725533791eaaf58fa805"
-depends = "['firefox>=129.0.1']"
+size = "538976"
+usize = "593551"
+sha1sum = "ef36da65671bf793d65293827d5d3921bb22f9f2"
+depends = "['firefox>=130.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

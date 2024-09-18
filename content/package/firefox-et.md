@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-et 129.0.1-1"
-version = "129.0.1-1"
+title = "firefox-et 130.0.1-1"
+version = "130.0.1-1"
 description = "Estonian language support for Firefox"
-date = "2024-08-14T08:01:48"
+date = "2024-09-18T18:32:59"
 aliases = "/packages/73625"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "482448"
-usize = "541839"
-sha1sum = "3f64abc4242ca0c3867e4057d41c5c54b8f87e33"
-depends = "['firefox>=129.0.1']"
+size = "483856"
+usize = "543284"
+sha1sum = "f3fe33bc82e5598886ff8dfc745bf07bae67d25f"
+depends = "['firefox>=130.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
