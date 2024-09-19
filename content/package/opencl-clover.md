@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencl-clover 24.2.2-2"
-version = "24.2.2-2"
+title = "opencl-clover 24.2.3-1"
+version = "24.2.3-1"
 description = "Mesa OpenCL Clover"
-date = "2024-09-15T13:52:29"
+date = "2024-09-19T11:33:19"
 aliases = "/packages/220860"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "947332"
+size = "946356"
 usize = "3200715"
-sha1sum = "5c52318375cf2d6807906a6af4c062b78bfc15e3"
+sha1sum = "ba893193694c5e0cd7348560eee6f4bc97043974"
 depends = "['libclc', 'spirv-llvm-translator']"
 +++
 ### Description: 

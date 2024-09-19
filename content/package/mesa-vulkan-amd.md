@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-vulkan-amd 24.2.2-2"
-version = "24.2.2-2"
+title = "mesa-vulkan-amd 24.2.3-1"
+version = "24.2.3-1"
 description = "AMD Mesa Support for Vulkan"
-date = "2024-09-15T13:52:29"
+date = "2024-09-19T11:33:19"
 aliases = "/packages/218911"
 categories = ['x11-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "3069844"
-usize = "14240779"
-sha1sum = "eb987ae2b708f8dfdd4be0cfba299758881e2124"
+size = "3069584"
+usize = "14239499"
+sha1sum = "d3c82d9214ed1dd9aef166e6a5c6bfc991b5467f"
 depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 ### Description: 

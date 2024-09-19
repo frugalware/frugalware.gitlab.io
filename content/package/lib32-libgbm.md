@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgbm 24.2.2-2"
-version = "24.2.2-2"
+title = "lib32-libgbm 24.2.3-1"
+version = "24.2.3-1"
 description = "Mesa gbm library. (32-Bit)"
-date = "2024-09-15T13:52:29"
+date = "2024-09-19T11:33:19"
 aliases = "/packages/217960"
 categories = ['lib32-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "50616"
+size = "50668"
 usize = "91022"
-sha1sum = "e1ca28426b8b41abb70870f7a959252e43eafeab"
+sha1sum = "701e8bb4da6454124084ab4a67ccfd0ef3d9de6c"
 depends = "['lib32-libdrm>=2.4.71', 'lib32-libglapi', 'lib32-wayland>=1.11.0-3']"
 reverse_depends = "['lib32-libegl', 'lib32-mesa-libegl', 'lib32-xorg-server']"
 +++
