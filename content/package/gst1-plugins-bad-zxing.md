@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-zxing 1.24.7-2"
-version = "1.24.7-2"
+title = "gst1-plugins-bad-zxing 1.24.8-1"
+version = "1.24.8-1"
 description = "GStreamer zxing plugin (Bad)."
-date = "2024-09-15T17:36:12"
+date = "2024-09-21T19:05:32"
 aliases = "/packages/221274"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "12564"
+size = "12620"
 usize = "16928"
-sha1sum = "a244b3999a0382bbf38b10bba93519d8e1f7c8d9"
-depends = "['gst1-plugins-bad>=1.24.7', 'gst1-plugins-base>=1.24.7', 'zxing-cpp']"
+sha1sum = "66e8fb18f7f291ffcb2a65f809374920f7c788b3"
+depends = "['gst1-plugins-bad>=1.24.8', 'gst1-plugins-base>=1.24.8', 'zxing-cpp']"
 +++
 ### Description: 
 GStreamer zxing plugin (Bad).

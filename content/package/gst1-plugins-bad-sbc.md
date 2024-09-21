@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-sbc 1.24.7-2"
-version = "1.24.7-2"
+title = "gst1-plugins-bad-sbc 1.24.8-1"
+version = "1.24.8-1"
 description = "GStreamer SBC plugin (Bad)."
-date = "2024-09-15T17:36:12"
+date = "2024-09-21T19:05:32"
 aliases = "/packages/221270"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "13628"
+size = "13696"
 usize = "20280"
-sha1sum = "d0bd3eab18d40edf993ba0de03b67417aa2d2591"
-depends = "['gst1-plugins-bad>=1.24.7', 'gst1-plugins-base>=1.24.7', 'sbc']"
+sha1sum = "2461105c0762adcd76240eb19ee9ba57bb6861cd"
+depends = "['gst1-plugins-bad>=1.24.8', 'gst1-plugins-base>=1.24.8', 'sbc']"
 +++
 ### Description: 
 GStreamer SBC plugin (Bad).

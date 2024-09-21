@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libzip 1.10.1-1"
-version = "1.10.1-1"
+title = "libzip 1.11.1-1"
+version = "1.11.1-1"
 description = "libzip is a C library for reading, creating, and modifying zip archives."
-date = "2023-08-27T13:00:28"
+date = "2024-09-21T18:26:09"
 aliases = "/packages/23306"
 categories = ['lib']
 upstreamurl = "http://www.nih.at/libzip/"
 arch = "x86_64"
-size = "125672"
-usize = "1123699"
-sha1sum = "5171b67fd7cf4953e9b9a05754d825309a824fed"
+size = "128996"
+usize = "1115187"
+sha1sum = "f4ea3e1e0ca0f96444a1910cf2c47b06e709b036"
 depends = "['bzip2', 'gnutls', 'openssl>=3.0.7', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['ark', 'ebook-tools', 'libykneomgr', 'naev', 'okular', 'warzone2100']"
 +++
@@ -34,11 +34,11 @@ libzip is a C library for reading, creating, and modifying zip archives.
 * /usr/lib/libzip.so.5
 * /usr/lib/libzip.so.5.5
 * /usr/lib/pkgconfig/libzip.pc
-* /usr/share/doc/libzip-1.10.1/AUTHORS
-* /usr/share/doc/libzip-1.10.1/INSTALL.md
-* /usr/share/doc/libzip-1.10.1/LICENSE
-* /usr/share/doc/libzip-1.10.1/README.md
-* /usr/share/doc/libzip-1.10.1/THANKS
+* /usr/share/doc/libzip-1.11.1/AUTHORS
+* /usr/share/doc/libzip-1.11.1/INSTALL.md
+* /usr/share/doc/libzip-1.11.1/LICENSE
+* /usr/share/doc/libzip-1.11.1/README.md
+* /usr/share/doc/libzip-1.11.1/THANKS
 * /usr/share/doc/libzip/libzip/libzip.html
 * /usr/share/doc/libzip/libzip/zipcmp.html
 * /usr/share/doc/libzip/libzip/zipmerge.html

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssh 9.8-1"
-version = "9.8-1"
+title = "openssh 9.9-1"
+version = "9.9-1"
 description = "Secure Shell daemon and clients"
-date = "2024-07-01T10:19:37"
+date = "2024-09-21T17:39:21"
 aliases = "/packages/2421"
 categories = ['network']
 upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
-size = "1232680"
-usize = "5639188"
-sha1sum = "5f94727c655b50d0df09ab0502f42da58e7f104a"
+size = "1268424"
+usize = "5734631"
+sha1sum = "49da6a3e5b4deeb92fdc96769120576b86d6f5fc"
 depends = "['glibc>=2.35', 'ldns', 'libedit', 'libfido2>=1.10', 'openssl>=3.1', 'pam', 'zlib>=1.2.12']"
 reverse_depends = "['autossh', 'gnome-keyring', 'keychain', 'kssh', 'seahorse', 'ssh-contact', 'sshcode']"
 +++
@@ -42,17 +42,17 @@ Secure Shell daemon and clients
 * /usr/lib/systemd/system/sshd-keygen.service
 * /usr/lib/systemd/system/sshd.service
 * /usr/lib/systemd/user/ssh-agent.service
-* /usr/share/doc/openssh-9.8/ChangeLog
-* /usr/share/doc/openssh-9.8/CREDITS
-* /usr/share/doc/openssh-9.8/INSTALL
-* /usr/share/doc/openssh-9.8/README
-* /usr/share/doc/openssh-9.8/README.dns
-* /usr/share/doc/openssh-9.8/README.Frugalware
-* /usr/share/doc/openssh-9.8/README.md
-* /usr/share/doc/openssh-9.8/README.platform
-* /usr/share/doc/openssh-9.8/README.privsep
-* /usr/share/doc/openssh-9.8/README.tun
-* /usr/share/doc/openssh-9.8/TODO
+* /usr/share/doc/openssh-9.9/ChangeLog
+* /usr/share/doc/openssh-9.9/CREDITS
+* /usr/share/doc/openssh-9.9/INSTALL
+* /usr/share/doc/openssh-9.9/README
+* /usr/share/doc/openssh-9.9/README.dns
+* /usr/share/doc/openssh-9.9/README.Frugalware
+* /usr/share/doc/openssh-9.9/README.md
+* /usr/share/doc/openssh-9.9/README.platform
+* /usr/share/doc/openssh-9.9/README.privsep
+* /usr/share/doc/openssh-9.9/README.tun
+* /usr/share/doc/openssh-9.9/TODO
 * /usr/share/man/man1/scp.1.gz
 * /usr/share/man/man1/sftp.1.gz
 * /usr/share/man/man1/ssh-add.1.gz

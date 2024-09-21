@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libraw 0.21.2-1"
-version = "0.21.2-1"
+title = "libraw 0.21.3-1"
+version = "0.21.3-1"
 description = "A library for reading RAW files obtained from digital photo cameras."
-date = "2024-02-20T15:38:41"
+date = "2024-09-21T18:34:09"
 aliases = "/packages/88880"
 categories = ['lib']
 upstreamurl = "http://www.libraw.org/"
 arch = "x86_64"
-size = "432716"
-usize = "2817175"
-sha1sum = "f1b9b587c60df8bc4aa1a1abdd471d00144ceb31"
+size = "443872"
+usize = "2771423"
+sha1sum = "c844dc26dc15f81d8b0c465b4fc0ab01a6f72054"
 depends = "['lcms2>=2.8-2', 'libjpeg-turbo']"
 reverse_depends = "['efl', 'freeimage', 'gegl', 'imagemagick', 'kimageformats', 'kimageformats5', 'kstars', 'libkdcraw', 'nomacs', 'openimageio']"
 +++
@@ -44,14 +44,14 @@ A library for reading RAW files obtained from digital photo cameras.
 * /usr/lib/libraw_r.so.23.0.0
 * /usr/lib/pkgconfig/libraw.pc
 * /usr/lib/pkgconfig/libraw_r.pc
-* /usr/share/doc/libraw-0.21.2/Changelog.txt
-* /usr/share/doc/libraw-0.21.2/COPYRIGHT
-* /usr/share/doc/libraw-0.21.2/INSTALL
-* /usr/share/doc/libraw-0.21.2/LICENSE.CDDL
-* /usr/share/doc/libraw-0.21.2/LICENSE.LGPL
-* /usr/share/doc/libraw-0.21.2/README.cmake
-* /usr/share/doc/libraw-0.21.2/README.demosaic-packs
-* /usr/share/doc/libraw-0.21.2/README.DNGSDK.txt
-* /usr/share/doc/libraw-0.21.2/README.GoPro.txt
-* /usr/share/doc/libraw-0.21.2/README.md
-* /usr/share/doc/libraw-0.21.2/README.RawSpeed.txt
+* /usr/share/doc/libraw-0.21.3/Changelog.txt
+* /usr/share/doc/libraw-0.21.3/COPYRIGHT
+* /usr/share/doc/libraw-0.21.3/INSTALL
+* /usr/share/doc/libraw-0.21.3/LICENSE.CDDL
+* /usr/share/doc/libraw-0.21.3/LICENSE.LGPL
+* /usr/share/doc/libraw-0.21.3/README.cmake
+* /usr/share/doc/libraw-0.21.3/README.demosaic-packs
+* /usr/share/doc/libraw-0.21.3/README.DNGSDK.txt
+* /usr/share/doc/libraw-0.21.3/README.GoPro.txt
+* /usr/share/doc/libraw-0.21.3/README.md
+* /usr/share/doc/libraw-0.21.3/README.RawSpeed.txt
