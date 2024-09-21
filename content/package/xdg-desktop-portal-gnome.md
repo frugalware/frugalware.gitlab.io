@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal-gnome 46.2-1"
-version = "46.2-1"
+title = "xdg-desktop-portal-gnome 47.1-1"
+version = "47.1-1"
 description = "A backend implementation for xdg-desktop-portal using GNOME"
-date = "2024-06-11T14:37:12"
+date = "2024-09-21T20:02:23"
 aliases = "/packages/221512"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "178696"
-usize = "864983"
-sha1sum = "c7ea7a5f9806073bee26a695232f106299202bf0"
+size = "180312"
+usize = "881320"
+sha1sum = "303182cb9d5cc6a178326c3e3f6e64013300a2a8"
 depends = "['gnome-desktop', 'gtk+3', 'libadwaita', 'xdg-desktop-portal-gtk']"
 +++
 ### Description: 
@@ -20,9 +20,9 @@ A backend implementation for xdg-desktop-portal using GNOME
 * /usr/lib/xdg-desktop-portal-gnome/xdg-desktop-portal-gnome
 * /usr/share/applications/xdg-desktop-portal-gnome.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.gnome.service
-* /usr/share/doc/xdg-desktop-portal-gnome-46.2/COPYING
-* /usr/share/doc/xdg-desktop-portal-gnome-46.2/NEWS
-* /usr/share/doc/xdg-desktop-portal-gnome-46.2/README.md
+* /usr/share/doc/xdg-desktop-portal-gnome-47.1/COPYING
+* /usr/share/doc/xdg-desktop-portal-gnome-47.1/NEWS
+* /usr/share/doc/xdg-desktop-portal-gnome-47.1/README.md
 * /usr/share/glib-2.0/schemas/xdg-desktop-portal-gnome.gschema.xml
 * /usr/share/locale/ab/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/be/LC_MESSAGES/xdg-desktop-portal-gnome.mo
