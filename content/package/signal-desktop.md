@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.21.0-1"
-version = "7.21.0-1"
+title = "signal-desktop 7.25.0-1"
+version = "7.25.0-1"
 description = "Signal Private Messenger for Linux"
-date = "2024-08-23T20:02:48"
+date = "2024-09-21T09:58:12"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "120338204"
-usize = "451176611"
-sha1sum = "52572b198b359898377d29e27444a71ad5a36f54"
+size = "119793456"
+usize = "430619582"
+sha1sum = "4f51983f786ea3b933ac65abbc10990cfca45536"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -125,12 +125,10 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/resources.pak
 * /usr/lib/signal-desktop/resources/app-update.yml
 * /usr/lib/signal-desktop/resources/app.asar
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.data.xml.dom/build/Release/binding.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@nodert-win10-rs4/windows.ui.notifications/build/Release/binding.node
+* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@indutny/simple-windows-notifications/build/Release/simple-windows-notifications.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/better-sqlite3/build/Release/better_sqlite3.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/libsignal-client/prebuilds/linux-x64/@signalapp+libsignal-client.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/ringrtc/build/linux/libringrtc-x64.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/windows-dummy-keystroke/build/Release/NativeExtension.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/fs-xattr/build/Release/xattr.node
 * /usr/lib/signal-desktop/resources/package-type
 * /usr/lib/signal-desktop/signal-desktop
@@ -138,8 +136,8 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.21.0/LICENSE
-* /usr/share/doc/signal-desktop-7.21.0/README.md
+* /usr/share/doc/signal-desktop-7.25.0/LICENSE
+* /usr/share/doc/signal-desktop-7.25.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png
