@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chromium-browser 129.0.6668.58-1"
-version = "129.0.6668.58-1"
+title = "chromium-browser 129.0.6668.58-2"
+version = "129.0.6668.58-2"
 description = "Chromium browser"
-date = "2024-09-20T16:17:33"
+date = "2024-09-21T16:13:54"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "115727612"
-usize = "444227852"
-sha1sum = "99a2f054af6041f2cac0963ce96aecdb3ce39265"
+size = "116016804"
+usize = "445493307"
+sha1sum = "1351af0088d3951196fd298f9db6587335b80b44"
 depends = "['curl', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=75.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
@@ -36,6 +36,7 @@ Chromium browser
 * /usr/lib/chromium/libqt6_shim.so
 * /usr/lib/chromium/libVkICD_mock_icd.so
 * /usr/lib/chromium/libvk_swiftshader.so
+* /usr/lib/chromium/libvulkan.so.1
 * /usr/lib/chromium/locales/af.pak
 * /usr/lib/chromium/locales/af.pak.info
 * /usr/lib/chromium/locales/am.pak
@@ -159,8 +160,15 @@ Chromium browser
 * /usr/lib/chromium/vk_swiftshader_icd.json
 * /usr/share/applications/chromium.desktop
 * /usr/share/doc/chromium-browser-129.0.6668.58/AUTHORS
+* /usr/share/doc/chromium-browser-129.0.6668.58/ChangeLog
+* /usr/share/doc/chromium-browser-129.0.6668.58/COPYING
+* /usr/share/doc/chromium-browser-129.0.6668.58/COPYING.LIB
+* /usr/share/doc/chromium-browser-129.0.6668.58/COPYING3
+* /usr/share/doc/chromium-browser-129.0.6668.58/COPYING3.LIB
 * /usr/share/doc/chromium-browser-129.0.6668.58/LICENSE
 * /usr/share/doc/chromium-browser-129.0.6668.58/LICENSE.chromium_os
+* /usr/share/doc/chromium-browser-129.0.6668.58/README
+* /usr/share/doc/chromium-browser-129.0.6668.58/README-maintainer-mode
 * /usr/share/doc/chromium-browser-129.0.6668.58/README.md
 * /usr/share/icons/hicolor/128x128/apps/chromium.png
 * /usr/share/icons/hicolor/16x16/apps/chromium.png
