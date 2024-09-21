@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libadwaita 1.5.3-2"
-version = "1.5.3-2"
+title = "libadwaita 1.6.0-1"
+version = "1.6.0-1"
 description = "Building blocks for modern adaptive GNOME applications"
-date = "2024-08-06T07:52:59"
+date = "2024-09-21T19:34:31"
 aliases = "/packages/220893"
 categories = ['lib']
 upstreamurl = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
 arch = "x86_64"
-size = "641312"
-usize = "4922406"
-sha1sum = "66b5c5f8888a9710e174f8efea8c4d1655e59839"
+size = "842100"
+usize = "7029054"
+sha1sum = "64bde2b4076ab21712b8faa6800f1087ff0f56af"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome', 'zenity']"
 +++
@@ -21,6 +21,7 @@ Building blocks for modern adaptive GNOME applications
 * /usr/bin/adwaita-1-demo
 * /usr/include/libadwaita-1/adw-about-dialog.h
 * /usr/include/libadwaita-1/adw-about-window.h
+* /usr/include/libadwaita-1/adw-accent-color.h
 * /usr/include/libadwaita-1/adw-action-row.h
 * /usr/include/libadwaita-1/adw-alert-dialog.h
 * /usr/include/libadwaita-1/adw-animation-target.h
@@ -31,9 +32,11 @@ Building blocks for modern adaptive GNOME applications
 * /usr/include/libadwaita-1/adw-avatar.h
 * /usr/include/libadwaita-1/adw-banner.h
 * /usr/include/libadwaita-1/adw-bin.h
+* /usr/include/libadwaita-1/adw-bottom-sheet.h
 * /usr/include/libadwaita-1/adw-breakpoint-bin.h
 * /usr/include/libadwaita-1/adw-breakpoint.h
 * /usr/include/libadwaita-1/adw-button-content.h
+* /usr/include/libadwaita-1/adw-button-row.h
 * /usr/include/libadwaita-1/adw-carousel-indicator-dots.h
 * /usr/include/libadwaita-1/adw-carousel-indicator-lines.h
 * /usr/include/libadwaita-1/adw-carousel.h
@@ -50,10 +53,13 @@ Building blocks for modern adaptive GNOME applications
 * /usr/include/libadwaita-1/adw-flap.h
 * /usr/include/libadwaita-1/adw-fold-threshold-policy.h
 * /usr/include/libadwaita-1/adw-header-bar.h
+* /usr/include/libadwaita-1/adw-layout-slot.h
+* /usr/include/libadwaita-1/adw-layout.h
 * /usr/include/libadwaita-1/adw-leaflet.h
 * /usr/include/libadwaita-1/adw-length-unit.h
 * /usr/include/libadwaita-1/adw-main.h
 * /usr/include/libadwaita-1/adw-message-dialog.h
+* /usr/include/libadwaita-1/adw-multi-layout-view.h
 * /usr/include/libadwaita-1/adw-navigation-direction.h
 * /usr/include/libadwaita-1/adw-navigation-split-view.h
 * /usr/include/libadwaita-1/adw-navigation-view.h
@@ -65,6 +71,8 @@ Building blocks for modern adaptive GNOME applications
 * /usr/include/libadwaita-1/adw-preferences-row.h
 * /usr/include/libadwaita-1/adw-preferences-window.h
 * /usr/include/libadwaita-1/adw-spin-row.h
+* /usr/include/libadwaita-1/adw-spinner-paintable.h
+* /usr/include/libadwaita-1/adw-spinner.h
 * /usr/include/libadwaita-1/adw-split-button.h
 * /usr/include/libadwaita-1/adw-spring-animation.h
 * /usr/include/libadwaita-1/adw-spring-params.h
@@ -91,14 +99,16 @@ Building blocks for modern adaptive GNOME applications
 * /usr/include/libadwaita-1/adw-window.h
 * /usr/include/libadwaita-1/adwaita.h
 * /usr/lib/girepository-1.0/Adw-1.typelib
+* /usr/lib/libadwaita-1-internal.so
+* /usr/lib/libadwaita-1-internal.so.0
 * /usr/lib/libadwaita-1.so
 * /usr/lib/libadwaita-1.so.0
 * /usr/lib/pkgconfig/libadwaita-1.pc
 * /usr/share/applications/org.gnome.Adwaita1.Demo.desktop
-* /usr/share/doc/libadwaita-1.5.3/AUTHORS
-* /usr/share/doc/libadwaita-1.5.3/COPYING
-* /usr/share/doc/libadwaita-1.5.3/NEWS
-* /usr/share/doc/libadwaita-1.5.3/README.md
+* /usr/share/doc/libadwaita-1.6.0/AUTHORS
+* /usr/share/doc/libadwaita-1.6.0/COPYING
+* /usr/share/doc/libadwaita-1.6.0/NEWS
+* /usr/share/doc/libadwaita-1.6.0/README.md
 * /usr/share/gir-1.0/Adw-1.gir
 * /usr/share/icons/hicolor/scalable/apps/org.gnome.Adwaita1.Demo.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gnome.Adwaita1.Demo-symbolic.svg
@@ -132,11 +142,11 @@ Building blocks for modern adaptive GNOME applications
 * /usr/share/locale/ko/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/lt/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/lv/LC_MESSAGES/libadwaita.mo
-* /usr/share/locale/ml/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/nb/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/ne/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/nl/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/oc/LC_MESSAGES/libadwaita.mo
+* /usr/share/locale/pa/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/pl/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/pt/LC_MESSAGES/libadwaita.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/libadwaita.mo

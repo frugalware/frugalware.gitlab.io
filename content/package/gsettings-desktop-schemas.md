@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsettings-desktop-schemas 46.1-1"
-version = "46.1-1"
+title = "gsettings-desktop-schemas 47.1-1"
+version = "47.1-1"
 description = "Shared GSettings schemas for the desktop"
-date = "2024-09-10T09:39:19"
+date = "2024-09-21T19:45:39"
 aliases = "/packages/103187"
 categories = ['apps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "672432"
-usize = "5441300"
-sha1sum = "a7a380c15dbb0ca12db340085e63dec76ebaab25"
+size = "698240"
+usize = "5668758"
+sha1sum = "177661dc24c828879d71e24bcec393f6c58362da"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config', 'xdg-desktop-portal-gtk']"
 +++
@@ -20,12 +20,12 @@ Shared GSettings schemas for the desktop
 ### Files: 
 * /usr/include/gsettings-desktop-schemas/gdesktop-enums.h
 * /usr/lib/girepository-1.0/GDesktopEnums-3.0.typelib
-* /usr/share/doc/gsettings-desktop-schemas-46.1/AUTHORS
-* /usr/share/doc/gsettings-desktop-schemas-46.1/ChangeLog
-* /usr/share/doc/gsettings-desktop-schemas-46.1/COPYING
-* /usr/share/doc/gsettings-desktop-schemas-46.1/HACKING
-* /usr/share/doc/gsettings-desktop-schemas-46.1/NEWS
-* /usr/share/doc/gsettings-desktop-schemas-46.1/README
+* /usr/share/doc/gsettings-desktop-schemas-47.1/AUTHORS
+* /usr/share/doc/gsettings-desktop-schemas-47.1/ChangeLog
+* /usr/share/doc/gsettings-desktop-schemas-47.1/COPYING
+* /usr/share/doc/gsettings-desktop-schemas-47.1/HACKING
+* /usr/share/doc/gsettings-desktop-schemas-47.1/NEWS
+* /usr/share/doc/gsettings-desktop-schemas-47.1/README
 * /usr/share/GConf/gsettings/gsettings-desktop-schemas.convert
 * /usr/share/GConf/gsettings/wm-schemas.convert
 * /usr/share/gir-1.0/GDesktopEnums-3.0.gir
@@ -37,6 +37,7 @@ Shared GSettings schemas for the desktop
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.mouse.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.app-folders.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.background.gschema.xml
+* /usr/share/glib-2.0/schemas/org.gnome.desktop.break-reminders.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.calendar.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.datetime.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.default-applications.gschema.xml
