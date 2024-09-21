@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "seahorse 43.0-1"
-version = "43.0-1"
+title = "seahorse 47.0.1-1"
+version = "47.0.1-1"
 description = "A GNOME application for managing PGP keys."
-date = "2023-09-28T08:11:23"
+date = "2024-09-21T21:18:12"
 aliases = "/packages/9219"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1168136"
-usize = "7496856"
-sha1sum = "12255b9093101d42a6a03a1b4b4da0a96ab950f7"
-depends = "['desktop-file-utils', 'gcr-1', 'libhandy', 'libldap', 'libpwquality', 'libsecret-vala', 'libsoup3', 'openssh']"
+size = "1171980"
+usize = "7523193"
+sha1sum = "c9569ba164de1daff6d33e9fe56c28104103de01"
+depends = "['desktop-file-utils', 'gcr-1', 'gnupg2', 'libhandy', 'libldap', 'libpwquality', 'libsecret-vala', 'libsoup3', 'openssh']"
 +++
 ### Description: 
 A GNOME application for managing PGP keys.
@@ -22,12 +22,12 @@ A GNOME application for managing PGP keys.
 * /usr/lib/seahorse/seahorse/xloadimage
 * /usr/share/applications/org.gnome.seahorse.Application.desktop
 * /usr/share/dbus-1/services/org.gnome.seahorse.Application.service
-* /usr/share/doc/seahorse-43.0/COPYING
-* /usr/share/doc/seahorse-43.0/COPYING-DOCS
-* /usr/share/doc/seahorse-43.0/COPYING.LIB
-* /usr/share/doc/seahorse-43.0/NEWS
-* /usr/share/doc/seahorse-43.0/README.md
-* /usr/share/doc/seahorse-43.0/THANKS
+* /usr/share/doc/seahorse-47.0.1/COPYING
+* /usr/share/doc/seahorse-47.0.1/COPYING-DOCS
+* /usr/share/doc/seahorse-47.0.1/COPYING.LIB
+* /usr/share/doc/seahorse-47.0.1/NEWS
+* /usr/share/doc/seahorse-47.0.1/README.md
+* /usr/share/doc/seahorse-47.0.1/THANKS
 * /usr/share/glib-2.0/schemas/org.gnome.seahorse.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.seahorse.manager.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.seahorse.window.gschema.xml
@@ -781,7 +781,7 @@ A GNOME application for managing PGP keys.
 * /usr/share/help/uk/seahorse/subkeys-examine.page
 * /usr/share/help/uk/seahorse/subkeys-revoke.page
 * /usr/share/icons/hicolor/scalable/apps/org.gnome.seahorse.Application.svg
-* /usr/share/icons/hicolor/symbolic/apps/org.gnome.seahorse.Application-symbolic.svg
+* /usr/share/icons/hicolor/symbolic/apps/org.gnome.seahorse.Application.svg
 * /usr/share/locale/ab/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/ar/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/as/LC_MESSAGES/seahorse.mo
@@ -822,6 +822,7 @@ A GNOME application for managing PGP keys.
 * /usr/share/locale/hr/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/hu/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/id/LC_MESSAGES/seahorse.mo
+* /usr/share/locale/ie/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/is/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/it/LC_MESSAGES/seahorse.mo
 * /usr/share/locale/ja/LC_MESSAGES/seahorse.mo
