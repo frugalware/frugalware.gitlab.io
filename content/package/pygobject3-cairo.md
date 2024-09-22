@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pygobject3-cairo 3.48.2-2"
-version = "3.48.2-2"
+title = "pygobject3-cairo 3.50.0-1"
+version = "3.50.0-1"
 description = "pygobject3 with cairo support"
-date = "2024-07-27T11:01:02"
+date = "2024-09-22T18:06:42"
 aliases = "/packages/136198"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "257248"
-usize = "967035"
-sha1sum = "fc4198e9b896f10866e827826d7ff0de333e4da7"
-depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.48.2', 'python3-pycairo>=1.20.1']"
+size = "272020"
+usize = "1034388"
+sha1sum = "394c074af379d8fa0f9546a31ae577e30284b3cf"
+depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.50.0', 'python3-pycairo>=1.20.1']"
 reverse_depends = "['blueprint-compiler', 'hplip', 'input-remapper', 'piper', 'sunflower', 'virt-manager']"
 +++
 ### Description: 
@@ -19,6 +19,7 @@ pygobject3 with cairo support
 
 ### Files: 
 * /usr/lib/python3.12/site-packages/gi/docstring.py
+* /usr/lib/python3.12/site-packages/gi/events.py
 * /usr/lib/python3.12/site-packages/gi/importer.py
 * /usr/lib/python3.12/site-packages/gi/module.py
 * /usr/lib/python3.12/site-packages/gi/overrides/Gdk.py
@@ -56,6 +57,7 @@ pygobject3 with cairo support
 * /usr/lib/python3.12/site-packages/gi/_signalhelper.py
 * /usr/lib/python3.12/site-packages/gi/__init__.py
 * /usr/lib/python3.12/site-packages/gi/__pycache__/docstring.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/gi/__pycache__/events.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/importer.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/module.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gi/__pycache__/pygtkcompat.cpython-312.pyc
