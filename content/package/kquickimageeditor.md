@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kquickimageeditor 0.3.0-2"
-version = "0.3.0-2"
+title = "kquickimageeditor 0.4.0-1"
+version = "0.4.0-1"
 description = "QML image editing components"
-date = "2024-03-31T19:49:14"
+date = "2024-09-22T16:08:18"
 aliases = "/packages/220981"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "76004"
-usize = "354542"
-sha1sum = "f5292e1f4fa7cc1f5de05648d366ca74b17933b5"
+size = "77608"
+usize = "363966"
+sha1sum = "ab8b9c2c589f80746917533fa6f97a01876bcc06"
 depends = "['qt6-declarative']"
 reverse_depends = "['koko', 'neochat', 'skanpage']"
 +++
@@ -31,4 +31,4 @@ QML image editing components
 * /usr/lib/qt6/qml/org/kde/kquickimageeditor/SelectionBackground.qml
 * /usr/lib/qt6/qml/org/kde/kquickimageeditor/SelectionHandle.qml
 * /usr/lib/qt6/qml/org/kde/kquickimageeditor/SelectionTool.qml
-* /usr/share/doc/kquickimageeditor-0.3.0/README.md
+* /usr/share/doc/kquickimageeditor-0.4.0/README.md
