@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffmpegthumbnailer 2.2.2-5"
-version = "2.2.2-5"
+title = "ffmpegthumbnailer 2.2.3-1"
+version = "2.2.3-1"
 description = "Creates thumbnails for your video files"
-date = "2024-06-05T18:02:22"
+date = "2024-09-22T17:40:03"
 aliases = "/packages/39926"
 categories = ['xapps']
 upstreamurl = "https://github.com/dirkvdb/ffmpegthumbnailer"
 arch = "x86_64"
-size = "89532"
-usize = "282631"
-sha1sum = "a73c541e50ad49c47bea44af03168397571ce66a"
+size = "90264"
+usize = "286943"
+sha1sum = "17261107d58ca7e3e496f550e1fa16c7157228af"
 depends = "['ffmpeg>=7.0']"
 +++
 ### Description: 
@@ -29,12 +29,14 @@ Creates thumbnails for your video files
 * /usr/lib/libffmpegthumbnailer.so.4
 * /usr/lib/libffmpegthumbnailer.so.4.15.1
 * /usr/lib/pkgconfig/libffmpegthumbnailer.pc
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/AUTHORS
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/ChangeLog
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/COPYING
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/INSTALL
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/README
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/README.md
-* /usr/share/doc/ffmpegthumbnailer-2.2.2/TODO
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/AUTHORS
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/ChangeLog
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/COPYING
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/CREDITS
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/INSTALL
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/INSTALL.md
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/README
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/README.md
+* /usr/share/doc/ffmpegthumbnailer-2.2.3/TODO
 * /usr/share/man/man1/ffmpegthumbnailer.1.gz
 * /usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer

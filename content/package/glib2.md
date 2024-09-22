@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib2 2.80.4-2"
-version = "2.80.4-2"
+title = "glib2 2.82.1-1"
+version = "2.82.1-1"
 description = "Common C routines used by GTK+ and other libraries"
-date = "2024-07-29T19:02:21"
+date = "2024-09-22T18:00:15"
 aliases = "/packages/2384"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "11450408"
-usize = "97581263"
-sha1sum = "a1ba30dfd7ccb61d6a9387f2a0b1f82528acc2c8"
+size = "11739944"
+usize = "100519274"
+sha1sum = "ee9d8d4205e8396e644b942fec325cc65fb2d2fd"
 depends = "['elfutils>=0.170-2', 'glibc>=2.34', 'libblkid>=2.33.2-2', 'libffi>=3.4', 'pcre>=8.42-2', 'python3', 'util-linux', 'zlib>=1.2.12']"
 reverse_depends = "['at-spi2-core', 'avahi-glib', 'bitlbee-common', 'bluez', 'cairo', 'colord', 'dbus-c++', 'dbus-glib', 'dbus-sharp-glib', 'ddcutil', 'desktop-file-utils', 'efl', 'enchant', 'enlightenment', 'gcab', 'gdk-pixbuf2', 'glib-networking', 'glibmm', 'glibmm24', 'glyr', 'gmime2', 'gmime3', 'gnokii-mysql', 'gnokii-pq', 'gobject-introspection', 'graphene', 'gsettings-desktop-schemas', 'gst1-plugins-base-gio', 'gstreamer1', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4-tools', 'gvfs', 'harfbuzz', 'ifuse', 'iio-sensor-proxy', 'irqbalance', 'irssi', 'json-glib', 'keximdb', 'lensfun', 'libaccounts-glib', 'libatspi', 'libcroco', 'libdbusmenu', 'libdex', 'libgee', 'libgee8', 'libgexiv2', 'libgovirt', 'libgudev', 'libguestfs', 'libgusb', 'libhandy', 'libibus', 'libidl', 'liblqr', 'libmbim', 'libmms', 'libosinfo', 'libportal', 'libqalculate', 'libqrtr-glib', 'libseafile', 'libslirp', 'libsoup', 'libsoup3', 'libvterm', 'libwacom', 'libxmlb', 'loudmouth', 'mc', 'mcabber', 'mdbtools', 'meanwhile', 'msmtp', 'nm-libreswan', 'nm-openvpn', 'ofono', 'packagekit-glib', 'pacman-tools', 'pinentry', 'pkgconfig', 'qt5-base', 'redshift', 'rspamd', 'scribus', 'scummvm', 'shared-mime-info', 'sofia-sip', 'sshfs', 'switcheroo-control', 'sylpheed', 'telegram-desktop', 'template-glib', 'terminology', 'threema-desktop', 'tootle', 'vala', 'whalebird', 'wireshark', 'wpebackend-fdo', 'xdg-dbus-proxy', 'xdg-desktop-portal']"
 +++
@@ -355,22 +355,22 @@ Common C routines used by GTK+ and other libraries
 * /usr/lib/glib2/gio-launch-desktop
 * /usr/lib/libgio-2.0.so
 * /usr/lib/libgio-2.0.so.0
-* /usr/lib/libgio-2.0.so.0.8000.4
+* /usr/lib/libgio-2.0.so.0.8200.1
 * /usr/lib/libgirepository-2.0.so
 * /usr/lib/libgirepository-2.0.so.0
-* /usr/lib/libgirepository-2.0.so.0.8000.4
+* /usr/lib/libgirepository-2.0.so.0.8200.1
 * /usr/lib/libglib-2.0.so
 * /usr/lib/libglib-2.0.so.0
-* /usr/lib/libglib-2.0.so.0.8000.4
+* /usr/lib/libglib-2.0.so.0.8200.1
 * /usr/lib/libgmodule-2.0.so
 * /usr/lib/libgmodule-2.0.so.0
-* /usr/lib/libgmodule-2.0.so.0.8000.4
+* /usr/lib/libgmodule-2.0.so.0.8200.1
 * /usr/lib/libgobject-2.0.so
 * /usr/lib/libgobject-2.0.so.0
-* /usr/lib/libgobject-2.0.so.0.8000.4
+* /usr/lib/libgobject-2.0.so.0.8200.1
 * /usr/lib/libgthread-2.0.so
 * /usr/lib/libgthread-2.0.so.0
-* /usr/lib/libgthread-2.0.so.0.8000.4
+* /usr/lib/libgthread-2.0.so.0.8200.1
 * /usr/lib/pkgconfig/gio-2.0.pc
 * /usr/lib/pkgconfig/gio-unix-2.0.pc
 * /usr/lib/pkgconfig/girepository-2.0.pc
@@ -978,6 +978,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.DEPRECATED_ENUMERATOR_IN_2_76_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_ENUMERATOR_IN_2_78_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_ENUMERATOR_IN_2_80_FOR.html
+* /usr/share/doc/gio-2.0/func.DEPRECATED_ENUMERATOR_IN_2_82_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_IN_2_26_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_IN_2_28_FOR.html
@@ -1007,6 +1008,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.DEPRECATED_IN_2_76_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_IN_2_78_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_IN_2_80_FOR.html
+* /usr/share/doc/gio-2.0/func.DEPRECATED_IN_2_82_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_26_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_28_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_30_FOR.html
@@ -1035,6 +1037,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_76_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_78_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_80_FOR.html
+* /usr/share/doc/gio-2.0/func.DEPRECATED_MACRO_IN_2_82_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_26_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_28_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_30_FOR.html
@@ -1063,6 +1066,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_76_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_78_FOR.html
 * /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_80_FOR.html
+* /usr/share/doc/gio-2.0/func.DEPRECATED_TYPE_IN_2_82_FOR.html
 * /usr/share/doc/gio-2.0/func.io_error_from_errno.html
 * /usr/share/doc/gio-2.0/func.io_error_from_file_error.html
 * /usr/share/doc/gio-2.0/func.io_error_quark.html
@@ -1098,6 +1102,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.unix_is_system_fs_type.html
 * /usr/share/doc/gio-2.0/func.unix_mounts_changed_since.html
 * /usr/share/doc/gio-2.0/func.unix_mounts_get.html
+* /usr/share/doc/gio-2.0/func.unix_mounts_get_from_file.html
 * /usr/share/doc/gio-2.0/func.unix_mount_at.html
 * /usr/share/doc/gio-2.0/func.unix_mount_compare.html
 * /usr/share/doc/gio-2.0/func.unix_mount_copy.html
@@ -1117,9 +1122,19 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.unix_mount_is_system_internal.html
 * /usr/share/doc/gio-2.0/func.unix_mount_points_changed_since.html
 * /usr/share/doc/gio-2.0/func.unix_mount_points_get.html
+* /usr/share/doc/gio-2.0/func.unix_mount_points_get_from_file.html
 * /usr/share/doc/gio-2.0/fzy.js
+* /usr/share/doc/gio-2.0/gapplication.html
+* /usr/share/doc/gio-2.0/gdbus-codegen.html
+* /usr/share/doc/gio-2.0/gdbus.html
 * /usr/share/doc/gio-2.0/gio-2.0.devhelp2
+* /usr/share/doc/gio-2.0/gio-querymodules.html
+* /usr/share/doc/gio-2.0/gio.html
+* /usr/share/doc/gio-2.0/glib-compile-resources.html
+* /usr/share/doc/gio-2.0/glib-compile-schemas.html
 * /usr/share/doc/gio-2.0/go-up-symbolic.png
+* /usr/share/doc/gio-2.0/gresource.html
+* /usr/share/doc/gio-2.0/gsettings.html
 * /usr/share/doc/gio-2.0/gvfs-overview.png
 * /usr/share/doc/gio-2.0/iface.Action.html
 * /usr/share/doc/gio-2.0/iface.ActionGroup.html
@@ -1166,7 +1181,8 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/main.js
 * /usr/share/doc/gio-2.0/menu-example.png
 * /usr/share/doc/gio-2.0/menu-exporter.html
-* /usr/share/doc/gio-2.0/menu-model.png
+* /usr/share/doc/gio-2.0/menu-model-dark.svg
+* /usr/share/doc/gio-2.0/menu-model-light.svg
 * /usr/share/doc/gio-2.0/method.Action.activate.html
 * /usr/share/doc/gio-2.0/method.Action.change_state.html
 * /usr/share/doc/gio-2.0/method.Action.get_enabled.html
@@ -1314,6 +1330,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/method.CharsetConverter.get_use_fallback.html
 * /usr/share/doc/gio-2.0/method.CharsetConverter.set_use_fallback.html
 * /usr/share/doc/gio-2.0/method.Converter.convert.html
+* /usr/share/doc/gio-2.0/method.Converter.convert_bytes.html
 * /usr/share/doc/gio-2.0/method.Converter.reset.html
 * /usr/share/doc/gio-2.0/method.ConverterInputStream.get_converter.html
 * /usr/share/doc/gio-2.0/method.ConverterOutputStream.get_converter.html
@@ -1648,6 +1665,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/method.File.build_attribute_list_for_copy.html
 * /usr/share/doc/gio-2.0/method.File.copy.html
 * /usr/share/doc/gio-2.0/method.File.copy_async.html
+* /usr/share/doc/gio-2.0/method.File.copy_async_with_closures.html
 * /usr/share/doc/gio-2.0/method.File.copy_attributes.html
 * /usr/share/doc/gio-2.0/method.File.copy_finish.html
 * /usr/share/doc/gio-2.0/method.File.create.html
@@ -1712,6 +1730,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/method.File.mount_mountable_finish.html
 * /usr/share/doc/gio-2.0/method.File.move.html
 * /usr/share/doc/gio-2.0/method.File.move_async.html
+* /usr/share/doc/gio-2.0/method.File.move_async_with_closures.html
 * /usr/share/doc/gio-2.0/method.File.move_finish.html
 * /usr/share/doc/gio-2.0/method.File.open_readwrite.html
 * /usr/share/doc/gio-2.0/method.File.open_readwrite_async.html
@@ -2208,6 +2227,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/method.Settings.apply.html
 * /usr/share/doc/gio-2.0/method.Settings.bind.html
 * /usr/share/doc/gio-2.0/method.Settings.bind_with_mapping.html
+* /usr/share/doc/gio-2.0/method.Settings.bind_with_mapping_closures.html
 * /usr/share/doc/gio-2.0/method.Settings.bind_writable.html
 * /usr/share/doc/gio-2.0/method.Settings.create_action.html
 * /usr/share/doc/gio-2.0/method.Settings.delay.html
@@ -3795,6 +3815,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-unix-2.0/func.is_system_fs_type.html
 * /usr/share/doc/gio-unix-2.0/func.mounts_changed_since.html
 * /usr/share/doc/gio-unix-2.0/func.mounts_get.html
+* /usr/share/doc/gio-unix-2.0/func.mounts_get_from_file.html
 * /usr/share/doc/gio-unix-2.0/func.mount_at.html
 * /usr/share/doc/gio-unix-2.0/func.mount_compare.html
 * /usr/share/doc/gio-unix-2.0/func.mount_copy.html
@@ -3814,6 +3835,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-unix-2.0/func.mount_is_system_internal.html
 * /usr/share/doc/gio-unix-2.0/func.mount_points_changed_since.html
 * /usr/share/doc/gio-unix-2.0/func.mount_points_get.html
+* /usr/share/doc/gio-unix-2.0/func.mount_points_get_from_file.html
 * /usr/share/doc/gio-unix-2.0/fzy.js
 * /usr/share/doc/gio-unix-2.0/gio-unix-2.0.devhelp2
 * /usr/share/doc/gio-unix-2.0/go-up-symbolic.png
@@ -3988,6 +4010,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_ENUMERATOR_IN_2_76_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_ENUMERATOR_IN_2_78_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_ENUMERATOR_IN_2_80_FOR.html
+* /usr/share/doc/girepository-2.0/func.DEPRECATED_ENUMERATOR_IN_2_82_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_IN_2_26_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_IN_2_28_FOR.html
@@ -4017,6 +4040,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_IN_2_76_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_IN_2_78_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_IN_2_80_FOR.html
+* /usr/share/doc/girepository-2.0/func.DEPRECATED_IN_2_82_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_26_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_28_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_30_FOR.html
@@ -4045,6 +4069,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_76_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_78_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_80_FOR.html
+* /usr/share/doc/girepository-2.0/func.DEPRECATED_MACRO_IN_2_82_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_26_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_28_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_30_FOR.html
@@ -4073,6 +4098,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_76_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_78_FOR.html
 * /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_80_FOR.html
+* /usr/share/doc/girepository-2.0/func.DEPRECATED_TYPE_IN_2_82_FOR.html
 * /usr/share/doc/girepository-2.0/func.invoke_error_quark.html
 * /usr/share/doc/girepository-2.0/func.type_tag_argument_from_hash_pointer.html
 * /usr/share/doc/girepository-2.0/func.type_tag_hash_pointer_from_argument.html
@@ -4381,6 +4407,10 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/callback.SourceDisposeFunc.html
 * /usr/share/doc/glib-2.0/callback.SourceDummyMarshal.html
 * /usr/share/doc/glib-2.0/callback.SourceFunc.html
+* /usr/share/doc/glib-2.0/callback.SourceFuncsCheckFunc.html
+* /usr/share/doc/glib-2.0/callback.SourceFuncsDispatchFunc.html
+* /usr/share/doc/glib-2.0/callback.SourceFuncsFinalizeFunc.html
+* /usr/share/doc/glib-2.0/callback.SourceFuncsPrepareFunc.html
 * /usr/share/doc/glib-2.0/callback.SourceOnceFunc.html
 * /usr/share/doc/glib-2.0/callback.SpawnChildSetupFunc.html
 * /usr/share/doc/glib-2.0/callback.TestDataFunc.html
@@ -5101,6 +5131,8 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/func.open.html
 * /usr/share/doc/glib-2.0/func.option_error_quark.html
 * /usr/share/doc/glib-2.0/func.parse_debug_string.html
+* /usr/share/doc/glib-2.0/func.PASTE.html
+* /usr/share/doc/glib-2.0/func.PASTE_ARGS.html
 * /usr/share/doc/glib-2.0/func.path_get_basename.html
 * /usr/share/doc/glib-2.0/func.path_get_dirname.html
 * /usr/share/doc/glib-2.0/func.path_is_absolute.html
@@ -5205,6 +5237,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/func.slice_set_config.html
 * /usr/share/doc/glib-2.0/func.slist_next.html
 * /usr/share/doc/glib-2.0/func.snprintf.html
+* /usr/share/doc/glib-2.0/func.sort_array.html
 * /usr/share/doc/glib-2.0/func.SOURCE_FUNC.html
 * /usr/share/doc/glib-2.0/func.spaced_primes_closest.html
 * /usr/share/doc/glib-2.0/func.spawn_async.html
@@ -5221,6 +5254,8 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/func.spawn_sync.html
 * /usr/share/doc/glib-2.0/func.sprintf.html
 * /usr/share/doc/glib-2.0/func.stat.html
+* /usr/share/doc/glib-2.0/func.STATIC_ASSERT.html
+* /usr/share/doc/glib-2.0/func.STATIC_ASSERT_EXPR.html
 * /usr/share/doc/glib-2.0/func.static_mutex_lock.html
 * /usr/share/doc/glib-2.0/func.static_mutex_trylock.html
 * /usr/share/doc/glib-2.0/func.static_mutex_unlock.html
@@ -5472,8 +5507,11 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/func.WIN32_DLLMAIN_FOR_DLL_NAME.html
 * /usr/share/doc/glib-2.0/fzy.js
 * /usr/share/doc/glib-2.0/glib-2.0.devhelp2
+* /usr/share/doc/glib-2.0/glib-gettextize.html
 * /usr/share/doc/glib-2.0/go-up-symbolic.png
 * /usr/share/doc/glib-2.0/goption.html
+* /usr/share/doc/glib-2.0/gtester-report.html
+* /usr/share/doc/glib-2.0/gtester.html
 * /usr/share/doc/glib-2.0/gvariant-byte-boundaries.svg
 * /usr/share/doc/glib-2.0/gvariant-format-strings.html
 * /usr/share/doc/glib-2.0/gvariant-integer-and-string-structure.svg
@@ -6168,6 +6206,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/method.StrvBuilder.ref.html
 * /usr/share/doc/glib-2.0/method.StrvBuilder.take.html
 * /usr/share/doc/glib-2.0/method.StrvBuilder.unref.html
+* /usr/share/doc/glib-2.0/method.StrvBuilder.unref_to_strv.html
 * /usr/share/doc/glib-2.0/method.TestCase.free.html
 * /usr/share/doc/glib-2.0/method.TestLogBuffer.free.html
 * /usr/share/doc/glib-2.0/method.TestLogBuffer.pop.html
@@ -6397,9 +6436,13 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/shell.html
 * /usr/share/doc/glib-2.0/solarized-dark.css
 * /usr/share/doc/glib-2.0/solarized-light.css
+* /usr/share/doc/glib-2.0/Sorted_binary_tree_breadth-first_traversal-dark.svg
 * /usr/share/doc/glib-2.0/Sorted_binary_tree_breadth-first_traversal.svg
+* /usr/share/doc/glib-2.0/Sorted_binary_tree_inorder-dark.svg
 * /usr/share/doc/glib-2.0/Sorted_binary_tree_inorder.svg
+* /usr/share/doc/glib-2.0/Sorted_binary_tree_postorder-dark.svg
 * /usr/share/doc/glib-2.0/Sorted_binary_tree_postorder.svg
+* /usr/share/doc/glib-2.0/Sorted_binary_tree_preorder-dark.svg
 * /usr/share/doc/glib-2.0/Sorted_binary_tree_preorder.svg
 * /usr/share/doc/glib-2.0/SourceCodePro-It.ttf.woff
 * /usr/share/doc/glib-2.0/SourceCodePro-Regular.ttf.woff
@@ -6882,10 +6925,10 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-unix-2.0/style.css
 * /usr/share/doc/glib-unix-2.0/unix.html
 * /usr/share/doc/glib-unix-2.0/urlmap.js
-* /usr/share/doc/glib2-2.80.4/COPYING
-* /usr/share/doc/glib2-2.80.4/INSTALL.md
-* /usr/share/doc/glib2-2.80.4/NEWS
-* /usr/share/doc/glib2-2.80.4/README.md
+* /usr/share/doc/glib2-2.82.1/COPYING
+* /usr/share/doc/glib2-2.82.1/INSTALL.md
+* /usr/share/doc/glib2-2.82.1/NEWS
+* /usr/share/doc/glib2-2.82.1/README.md
 * /usr/share/doc/gmodule-2.0/callback.ModuleCheckInit.html
 * /usr/share/doc/gmodule-2.0/callback.ModuleUnload.html
 * /usr/share/doc/gmodule-2.0/classes_hierarchy.html
@@ -6924,6 +6967,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_ENUMERATOR_IN_2_76_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_ENUMERATOR_IN_2_78_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_ENUMERATOR_IN_2_80_FOR.html
+* /usr/share/doc/gmodule-2.0/func.DEPRECATED_ENUMERATOR_IN_2_82_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_IN_2_26_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_IN_2_28_FOR.html
@@ -6953,6 +6997,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_IN_2_76_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_IN_2_78_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_IN_2_80_FOR.html
+* /usr/share/doc/gmodule-2.0/func.DEPRECATED_IN_2_82_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_26_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_28_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_30_FOR.html
@@ -6981,6 +7026,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_76_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_78_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_80_FOR.html
+* /usr/share/doc/gmodule-2.0/func.DEPRECATED_MACRO_IN_2_82_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_26_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_28_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_30_FOR.html
@@ -7009,6 +7055,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_76_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_78_FOR.html
 * /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_80_FOR.html
+* /usr/share/doc/gmodule-2.0/func.DEPRECATED_TYPE_IN_2_82_FOR.html
 * /usr/share/doc/gmodule-2.0/func.UNAVAILABLE.html
 * /usr/share/doc/gmodule-2.0/func.UNAVAILABLE_STATIC_INLINE.html
 * /usr/share/doc/gmodule-2.0/fzy.js
@@ -7243,6 +7290,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_ENUMERATOR_IN_2_76_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_ENUMERATOR_IN_2_78_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_ENUMERATOR_IN_2_80_FOR.html
+* /usr/share/doc/gobject-2.0/func.DEPRECATED_ENUMERATOR_IN_2_82_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_IN_2_26_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_IN_2_28_FOR.html
@@ -7272,6 +7320,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_IN_2_76_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_IN_2_78_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_IN_2_80_FOR.html
+* /usr/share/doc/gobject-2.0/func.DEPRECATED_IN_2_82_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_26_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_28_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_30_FOR.html
@@ -7300,6 +7349,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_76_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_78_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_80_FOR.html
+* /usr/share/doc/gobject-2.0/func.DEPRECATED_MACRO_IN_2_82_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_26_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_28_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_30_FOR.html
@@ -7328,6 +7378,7 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_76_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_78_FOR.html
 * /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_80_FOR.html
+* /usr/share/doc/gobject-2.0/func.DEPRECATED_TYPE_IN_2_82_FOR.html
 * /usr/share/doc/gobject-2.0/func.ENUM_CLASS_TYPE.html
 * /usr/share/doc/gobject-2.0/func.ENUM_CLASS_TYPE_NAME.html
 * /usr/share/doc/gobject-2.0/func.enum_complete_type_info.html
@@ -7543,9 +7594,12 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/func.VALUE_TYPE_NAME.html
 * /usr/share/doc/gobject-2.0/func.variant_get_gtype.html
 * /usr/share/doc/gobject-2.0/fzy.js
+* /usr/share/doc/gobject-2.0/glib-genmarshal.html
+* /usr/share/doc/gobject-2.0/glib-mkenums.html
 * /usr/share/doc/gobject-2.0/glue.png
 * /usr/share/doc/gobject-2.0/go-up-symbolic.png
 * /usr/share/doc/gobject-2.0/gobject-2.0.devhelp2
+* /usr/share/doc/gobject-2.0/gobject-query.html
 * /usr/share/doc/gobject-2.0/gvalue.html
 * /usr/share/doc/gobject-2.0/iface.TypePlugin.html
 * /usr/share/doc/gobject-2.0/index.html
@@ -7912,8 +7966,8 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/vfunc.ParamSpec.value_validate.html
 * /usr/share/doc/gobject-2.0/vfunc.TypeModule.load.html
 * /usr/share/doc/gobject-2.0/vfunc.TypeModule.unload.html
-* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8000.4-gdb.py
-* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8000.4-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8200.1-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8200.1-gdb.py
 * /usr/share/gettext/its/gschema.its
 * /usr/share/gettext/its/gschema.loc
 * /usr/share/gir-1.0/Gio-2.0.gir

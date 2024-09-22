@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gobject-introspection 1.80.1-4"
-version = "1.80.1-4"
+title = "gobject-introspection 1.82.0-1"
+version = "1.82.0-1"
 description = "Generate interface introspection data for GObject libraries."
-date = "2024-07-29T16:48:53"
+date = "2024-09-22T18:03:42"
 aliases = "/packages/103233"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "590896"
-usize = "3010372"
-sha1sum = "6301d2b9240ab74abc1613ddbbc4f09f748a1229"
+size = "607864"
+usize = "3197735"
+sha1sum = "72768883a1f2a37dd6ebaa5ef561b7bafcf1002c"
 depends = "['glib2>=$_glib2_ver', 'libffi>=3.4', 'python3>=3.12']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'libnma', 'lutris', 'piper', 'vte3']"
 +++
@@ -158,14 +158,14 @@ Generate interface introspection data for GObject libraries.
 * /usr/lib/pkgconfig/gobject-introspection-1.0.pc
 * /usr/lib/pkgconfig/gobject-introspection-no-export-1.0.pc
 * /usr/share/aclocal/introspection.m4
-* /usr/share/doc/gobject-introspection-1.80.1/COPYING
-* /usr/share/doc/gobject-introspection-1.80.1/COPYING.GPL
-* /usr/share/doc/gobject-introspection-1.80.1/COPYING.LGPL
-* /usr/share/doc/gobject-introspection-1.80.1/INSTALL.md
-* /usr/share/doc/gobject-introspection-1.80.1/MSVC.README.rst
-* /usr/share/doc/gobject-introspection-1.80.1/NEWS
-* /usr/share/doc/gobject-introspection-1.80.1/README.md
-* /usr/share/doc/gobject-introspection-1.80.1/README.rst
+* /usr/share/doc/gobject-introspection-1.82.0/COPYING
+* /usr/share/doc/gobject-introspection-1.82.0/COPYING.GPL
+* /usr/share/doc/gobject-introspection-1.82.0/COPYING.LGPL
+* /usr/share/doc/gobject-introspection-1.82.0/INSTALL.md
+* /usr/share/doc/gobject-introspection-1.82.0/MSVC.README.rst
+* /usr/share/doc/gobject-introspection-1.82.0/NEWS
+* /usr/share/doc/gobject-introspection-1.82.0/README.md
+* /usr/share/doc/gobject-introspection-1.82.0/README.rst
 * /usr/share/gir-1.0/cairo-1.0.gir
 * /usr/share/gir-1.0/DBus-1.0.gir
 * /usr/share/gir-1.0/DBusGLib-1.0.gir
@@ -194,6 +194,8 @@ Generate interface introspection data for GObject libraries.
 * /usr/share/gobject-introspection-1.0/tests/gimarshallingtests.c
 * /usr/share/gobject-introspection-1.0/tests/gimarshallingtests.h
 * /usr/share/gobject-introspection-1.0/tests/gitestmacros.h
+* /usr/share/gobject-introspection-1.0/tests/regress-unix.c
+* /usr/share/gobject-introspection-1.0/tests/regress-unix.h
 * /usr/share/gobject-introspection-1.0/tests/regress.c
 * /usr/share/gobject-introspection-1.0/tests/regress.h
 * /usr/share/gobject-introspection-1.0/tests/utility.c
