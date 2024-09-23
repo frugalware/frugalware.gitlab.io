@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qbittorrent 4.6.6-1"
-version = "4.6.6-1"
+title = "qbittorrent 4.6.7-1"
+version = "4.6.7-1"
 description = "A Bittorrent client."
-date = "2024-08-21T09:30:19"
+date = "2024-09-23T09:20:46"
 aliases = "/packages/14441"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qbittorrent.org/"
 arch = "x86_64"
-size = "8070668"
-usize = "13166265"
-sha1sum = "141b7b2c65544658fe92dc747b020173eea2ca84"
-depends = "['geoip', 'libboost>=1.70.0', 'libtorrent-rasterbar>=2.0', 'python3', 'qt5-svg>=5.15.10']"
+size = "8119428"
+usize = "13215037"
+sha1sum = "c526a6d06b2ee43654c1a06c859da5546263beaa"
+depends = "['geoip', 'libboost>=1.70.0', 'libtorrent-rasterbar>=2.0', 'python3', 'qt5-svg>=5.15.15']"
 +++
 ### Description: 
 A Bittorrent client.
@@ -19,13 +19,13 @@ A Bittorrent client.
 ### Files: 
 * /usr/bin/qbittorrent
 * /usr/share/applications/org.qbittorrent.qBittorrent.desktop
-* /usr/share/doc/qbittorrent-4.6.6/AUTHORS
-* /usr/share/doc/qbittorrent-4.6.6/Changelog
-* /usr/share/doc/qbittorrent-4.6.6/COPYING
-* /usr/share/doc/qbittorrent-4.6.6/COPYING.GPLv2
-* /usr/share/doc/qbittorrent-4.6.6/COPYING.GPLv3
-* /usr/share/doc/qbittorrent-4.6.6/INSTALL
-* /usr/share/doc/qbittorrent-4.6.6/README.md
+* /usr/share/doc/qbittorrent-4.6.7/AUTHORS
+* /usr/share/doc/qbittorrent-4.6.7/Changelog
+* /usr/share/doc/qbittorrent-4.6.7/COPYING
+* /usr/share/doc/qbittorrent-4.6.7/COPYING.GPLv2
+* /usr/share/doc/qbittorrent-4.6.7/COPYING.GPLv3
+* /usr/share/doc/qbittorrent-4.6.7/INSTALL
+* /usr/share/doc/qbittorrent-4.6.7/README.md
 * /usr/share/icons/hicolor/128x128/apps/qbittorrent.png
 * /usr/share/icons/hicolor/128x128/status/qbittorrent-tray.png
 * /usr/share/icons/hicolor/16x16/apps/qbittorrent.png
