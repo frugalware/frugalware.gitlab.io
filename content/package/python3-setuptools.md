@@ -12,7 +12,7 @@ size = "2496168"
 usize = "11377366"
 sha1sum = "146f438a89960504af214e735d1ab526fcb8a84b"
 depends = "['python3>=3.12', 'python3-appdirs', 'python3-packaging', 'python3-six']"
-reverse_depends = "['glad', 'meson', 'nodejs', 'nodejs20', 'py3status', 'python3-pbr', 'python3-setuptools-git', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-sphinx', 'scikit-build', 'sip']"
+reverse_depends = "['glad', 'meson', 'nodejs', 'nodejs18', 'nodejs20', 'py3status', 'python3-pbr', 'python3-setuptools-git', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-sphinx', 'scikit-build', 'sip']"
 +++
 ### Description: 
 Tool to build and install python packages
