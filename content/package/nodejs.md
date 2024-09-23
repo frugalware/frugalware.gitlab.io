@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nodejs 22.8.0-1"
-version = "22.8.0-1"
+title = "nodejs 22.9.0-1"
+version = "22.9.0-1"
 description = "Evented I/O for V8 javascript"
-date = "2024-09-10T18:21:58"
+date = "2024-09-23T14:52:12"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "14897532"
-usize = "65717381"
-sha1sum = "fc79918d3ab359a8ed379b675839336a0a131eca"
-depends = "['c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
+size = "14715760"
+usize = "65849109"
+sha1sum = "0eb6851a9dfa88b32cbc55dbac1db3d09d914941"
+depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
 ### Description: 
@@ -1479,7 +1479,16 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js
 * /usr/lib/node_modules/npm/node_modules/node-gyp/CHANGELOG.md
 * /usr/lib/node_modules/npm/node_modules/node-gyp/CONTRIBUTING.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/.release-please-manifest.json
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/data/ninja/build.ninja
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/data/win/large-pdb-shim.cc
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/GypVsCMake.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/Hacking.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/InputFormatReference.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/LanguageSpecification.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/README.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/Testing.md
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/docs/UserDocumentation.md
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp.bat
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py
@@ -1522,6 +1531,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/win_tool.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation_test.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xcode_ninja.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/xml_fix.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/__init__.py
@@ -1544,6 +1554,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/packaging/_tokenizer.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pylib/packaging/__init__.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/pyproject.toml
+* /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/release-please-config.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/gyp/test_gyp.py
 * /usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js
 * /usr/lib/node_modules/npm/node_modules/node-gyp/lib/clean.js
@@ -1564,9 +1575,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/node-gyp/lib/util.js
 * /usr/lib/node_modules/npm/node_modules/node-gyp/LICENSE
 * /usr/lib/node_modules/npm/node_modules/node-gyp/macOS_Catalina_acid_test.sh
-* /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/proc-log/lib/index.js
-* /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/proc-log/LICENSE
-* /usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/proc-log/package.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/package.json
 * /usr/lib/node_modules/npm/node_modules/node-gyp/README.md
 * /usr/lib/node_modules/npm/node_modules/node-gyp/release-please-config.json
@@ -2080,6 +2088,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-22.8.0/LICENSE
-* /usr/share/doc/nodejs-22.8.0/README.md
+* /usr/share/doc/nodejs-22.9.0/LICENSE
+* /usr/share/doc/nodejs-22.9.0/README.md
 * /usr/share/man/man1/node.1.gz
