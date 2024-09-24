@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libratbag 0.18-1"
-version = "0.18-1"
+title = "libratbag 0.18-2"
+version = "0.18-2"
 description = "A library to configure gaming mice"
-date = "2024-09-24T19:04:42"
+date = "2024-09-24T19:19:32"
 aliases = "/packages/219313"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/libratbag/libratbag"
 arch = "x86_64"
-size = "142032"
-usize = "459265"
-sha1sum = "6de7fdf9fdd88513f0d77ae90017a6ccc6a3103d"
-depends = "['libevdev', 'libsystemd', 'libunistring>=1.1']"
+size = "146984"
+usize = "473106"
+sha1sum = "7fd69ee5b95e3768a0c0987b90bee2a8ce70eea1"
+depends = "['json-glib', 'libevdev', 'libsystemd', 'libunistring>=1.1']"
 reverse_depends = "['piper']"
 +++
 ### Description: 
