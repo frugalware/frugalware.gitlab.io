@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libratbag 0.17-2"
-version = "0.17-2"
+title = "libratbag 0.18-1"
+version = "0.18-1"
 description = "A library to configure gaming mice"
-date = "2024-01-14T14:24:54"
+date = "2024-09-24T19:04:42"
 aliases = "/packages/219313"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/libratbag/libratbag"
 arch = "x86_64"
-size = "129856"
-usize = "424301"
-sha1sum = "2e5cd81c6f97b6a309380f5528eea859cc39857e"
+size = "142032"
+usize = "459265"
+sha1sum = "6de7fdf9fdd88513f0d77ae90017a6ccc6a3103d"
 depends = "['libevdev', 'libsystemd', 'libunistring>=1.1']"
 reverse_depends = "['piper']"
 +++
@@ -29,36 +29,45 @@ A library to configure gaming mice
 * /usr/lib/systemd/system/ratbagd.service
 * /usr/share/dbus-1/system-services/org.freedesktop.ratbag1.service
 * /usr/share/dbus-1/system.d/org.freedesktop.ratbag1.conf
-* /usr/share/doc/libratbag-0.17/COPYING
-* /usr/share/doc/libratbag-0.17/README.md
-* /usr/share/doc/libratbag-0.17/TODO
+* /usr/share/doc/libratbag-0.18/COPYING
+* /usr/share/doc/libratbag-0.18/README.md
+* /usr/share/doc/libratbag-0.18/TODO
 * /usr/share/libratbag/asus-rog-buzzard.device
+* /usr/share/libratbag/asus-rog-chakram-core.device
+* /usr/share/libratbag/asus-rog-chakram-x.device
 * /usr/share/libratbag/asus-rog-chakram.device
 * /usr/share/libratbag/asus-rog-gladius2-origin-pink.device
 * /usr/share/libratbag/asus-rog-gladius2-origin.device
 * /usr/share/libratbag/asus-rog-gladius2.device
+* /usr/share/libratbag/asus-rog-harpe-wireless.device
+* /usr/share/libratbag/asus-rog-keris-wireless-aimpoint.device
 * /usr/share/libratbag/asus-rog-keris-wireless.device
 * /usr/share/libratbag/asus-rog-pugio.device
+* /usr/share/libratbag/asus-rog-spatha-x.device
 * /usr/share/libratbag/asus-rog-strix-carry.device
 * /usr/share/libratbag/asus-rog-strix-impact.device
 * /usr/share/libratbag/asus-rog-strix-impact2-wireless.device
+* /usr/share/libratbag/asus-rog-strix-impact2.device
 * /usr/share/libratbag/etekcity-scroll-alpha.device
 * /usr/share/libratbag/glorious-model-d.device
 * /usr/share/libratbag/glorious-model-o.device
 * /usr/share/libratbag/gskill-MX-780.device
 * /usr/share/libratbag/logitech-g-powerplay.device
+* /usr/share/libratbag/logitech-g-pro-keyboard.device
 * /usr/share/libratbag/logitech-g-pro-wireless.device
 * /usr/share/libratbag/logitech-g-pro-x-wireless-superlight.device
 * /usr/share/libratbag/logitech-g-pro.device
 * /usr/share/libratbag/logitech-g102-g203.device
 * /usr/share/libratbag/logitech-g300.device
 * /usr/share/libratbag/logitech-g302.device
+* /usr/share/libratbag/logitech-g303-shroud.device
 * /usr/share/libratbag/logitech-g303.device
 * /usr/share/libratbag/logitech-g305.device
 * /usr/share/libratbag/logitech-g402.device
 * /usr/share/libratbag/logitech-g403-hero.device
 * /usr/share/libratbag/logitech-g403-wireless.device
 * /usr/share/libratbag/logitech-g403.device
+* /usr/share/libratbag/logitech-g413.device
 * /usr/share/libratbag/logitech-g5-2007.device
 * /usr/share/libratbag/logitech-g5.device
 * /usr/share/libratbag/logitech-g500.device
@@ -102,17 +111,21 @@ A library to configure gaming mice
 * /usr/share/libratbag/logitech-M720.device
 * /usr/share/libratbag/logitech-Marathon-M705.device
 * /usr/share/libratbag/logitech-MX-Anywhere-3.device
+* /usr/share/libratbag/logitech-MX-Anywhere-3S.device
 * /usr/share/libratbag/logitech-MX-Anywhere2.device
 * /usr/share/libratbag/logitech-MX-Anywhere2S.device
 * /usr/share/libratbag/logitech-MX-Anywhere3B.device
 * /usr/share/libratbag/logitech-MX-Ergo.device
 * /usr/share/libratbag/logitech-MX-Master-2S.device
 * /usr/share/libratbag/logitech-MX-Master-3.device
+* /usr/share/libratbag/logitech-MX-Master-3S-for-Business.device
+* /usr/share/libratbag/logitech-MX-Master-3S.device
 * /usr/share/libratbag/logitech-MX-Master.device
 * /usr/share/libratbag/logitech-MX-Vertical.device
 * /usr/share/libratbag/logitech-MX518.device
 * /usr/share/libratbag/logitech-T650.device
 * /usr/share/libratbag/logitech-Wireless-Touchpad.device
+* /usr/share/libratbag/marsgaming-mm4.device
 * /usr/share/libratbag/nubwo-x7-spectrum.device
 * /usr/share/libratbag/openinput.device
 * /usr/share/libratbag/roccat-kone-emp.device
@@ -120,6 +133,7 @@ A library to configure gaming mice
 * /usr/share/libratbag/roccat-kone-xtd.device
 * /usr/share/libratbag/sinowealth-0027.device
 * /usr/share/libratbag/sinowealth-0029.device
+* /usr/share/libratbag/sinowealth-0051.device
 * /usr/share/libratbag/sinowealth-1007.device
 * /usr/share/libratbag/steelseries-kinzu-v2-pro.device
 * /usr/share/libratbag/steelseries-kinzu-v2.device
@@ -127,6 +141,7 @@ A library to configure gaming mice
 * /usr/share/libratbag/steelseries-rival-100.device
 * /usr/share/libratbag/steelseries-rival-310.device
 * /usr/share/libratbag/steelseries-rival-600.device
+* /usr/share/libratbag/steelseries-rival-650-wireless.device
 * /usr/share/libratbag/steelseries-rival.device
 * /usr/share/libratbag/steelseries-sensei-310.device
 * /usr/share/libratbag/steelseries-sensei-raw.device
