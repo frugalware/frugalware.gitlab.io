@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glad 2.0.6-1"
-version = "2.0.6-1"
+title = "glad 2.0.7-1"
+version = "2.0.7-1"
 description = "Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs"
-date = "2024-06-28T12:52:38"
+date = "2024-09-24T20:47:55"
 aliases = "/packages/220869"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/Dav1dde/glad"
 arch = "x86_64"
-size = "468220"
-usize = "6346949"
-sha1sum = "a4e776a5e5dc2071552f2d43bc9349b1e3b4cfeb"
+size = "467676"
+usize = "6347165"
+sha1sum = "e70d36c2b8606d559fd943a206f0079c7d2acea6"
 depends = "['python3-jinja', 'python3-lxml', 'python3-setuptools']"
 +++
 ### Description: 
@@ -120,11 +120,11 @@ Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official
 * /usr/lib/python3.12/site-packages/glad/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/glad/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/glad/__pycache__/__main__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/LICENSE
-* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/glad2-2.0.6.dist-info/WHEEL
-* /usr/share/doc/glad-2.0.6/LICENSE
-* /usr/share/doc/glad-2.0.6/README.md
+* /usr/lib/python3.12/site-packages/glad2-2.0.7.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/glad2-2.0.7.dist-info/LICENSE
+* /usr/lib/python3.12/site-packages/glad2-2.0.7.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/glad2-2.0.7.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/glad2-2.0.7.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/glad2-2.0.7.dist-info/WHEEL
+* /usr/share/doc/glad-2.0.7/LICENSE
+* /usr/share/doc/glad-2.0.7/README.md
