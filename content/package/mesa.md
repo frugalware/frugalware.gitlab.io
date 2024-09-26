@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa 24.2.3-1"
-version = "24.2.3-1"
+title = "mesa 24.2.3-2"
+version = "24.2.3-2"
 description = "Mesa is a 3D graphics library"
-date = "2024-09-19T11:33:19"
+date = "2024-09-26T11:26:24"
 aliases = "/packages/4137"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "7436724"
-usize = "86116331"
-sha1sum = "b0f8efa7c354b441c174d406b348dd7f698cf5af"
+size = "7435304"
+usize = "86112313"
+sha1sum = "6058ef4d9de3aff1078f9fadfc717ba4efe25249"
 depends = "[]"
 +++
 ### Description: 
@@ -1119,6 +1119,5 @@ Mesa is a 3D graphics library
 * /usr/share/doc/mesa-24.2.3/docs_html/_static/screen.css
 * /usr/share/doc/mesa-24.2.3/docs_html/_static/searchtools.js
 * /usr/share/doc/mesa-24.2.3/docs_html/_static/sphinx_highlight.js
-* /usr/share/doc/mesa-24.2.3/README.md
 * /usr/share/doc/mesa-24.2.3/README.rst
 * /usr/share/doc/mesa-24.2.3/VERSION

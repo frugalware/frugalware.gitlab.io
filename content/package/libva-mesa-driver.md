@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libva-mesa-driver 24.2.3-1"
-version = "24.2.3-1"
+title = "libva-mesa-driver 24.2.3-2"
+version = "24.2.3-2"
 description = "VAAPI mesa driver"
-date = "2024-09-19T11:33:19"
+date = "2024-09-26T11:26:24"
 aliases = "/packages/217325"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "25592"
+size = "25640"
 usize = "69"
-sha1sum = "e1984e72cc4f2163ad9200be9347d37121269511"
+sha1sum = "af788f3f7dfa41259b3d6cf055c9fe3dae667f56"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'llvm-libs>=18.1.8']"
 reverse_depends = "['vlc']"
 +++
