@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 1.9.24-1"
-version = "1.9.24-1"
+title = "fwupd 1.9.25-1"
+version = "1.9.25-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-08-22T12:58:08"
+date = "2024-09-26T10:32:08"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "7327824"
-usize = "46737727"
-sha1sum = "98ecad229ba2e86b06c832c06740838c10a2068e"
+size = "7348620"
+usize = "46812896"
+sha1sum = "4f035fcc4764a966d01185e734acd6a91faaf1ce"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.2.0', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -49,11 +49,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-1/libfwupd/fwupd-request.h
 * /usr/include/fwupd-1/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-1/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-1.9.24/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-1.9.24/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-1.9.24/libfwupdengine.so
-* /usr/lib/fwupd-1.9.24/libfwupdplugin.so
-* /usr/lib/fwupd-1.9.24/libfwupdutil.so
+* /usr/lib/fwupd-1.9.25/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-1.9.25/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-1.9.25/libfwupdengine.so
+* /usr/lib/fwupd-1.9.25/libfwupdplugin.so
+* /usr/lib/fwupd-1.9.25/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/fwupd/fwupdoffline
@@ -99,9 +99,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-1.9.24/COPYING
-* /usr/share/doc/fwupd-1.9.24/README.md
-* /usr/share/doc/fwupd-1.9.24/RELEASE
+* /usr/share/doc/fwupd-1.9.25/COPYING
+* /usr/share/doc/fwupd-1.9.25/README.md
+* /usr/share/doc/fwupd-1.9.25/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -2062,6 +2062,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/debug_breakpoint.png
 * /usr/share/doc/libfwupdplugin/debug_tool_selector.png
 * /usr/share/doc/libfwupdplugin/dell-dock-README.html
+* /usr/share/doc/libfwupdplugin/dell-k2-README.html
 * /usr/share/doc/libfwupdplugin/dell-README.html
 * /usr/share/doc/libfwupdplugin/device-emulation.html
 * /usr/share/doc/libfwupdplugin/dfu-csr-README.html
@@ -3016,8 +3017,10 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.version_compare.html
 * /usr/share/doc/libfwupdplugin/func.version_ensure_semver.html
 * /usr/share/doc/libfwupdplugin/func.version_from_uint16.html
+* /usr/share/doc/libfwupdplugin/func.version_from_uint16_hex.html
 * /usr/share/doc/libfwupdplugin/func.version_from_uint24.html
 * /usr/share/doc/libfwupdplugin/func.version_from_uint32.html
+* /usr/share/doc/libfwupdplugin/func.version_from_uint32_hex.html
 * /usr/share/doc/libfwupdplugin/func.version_from_uint64.html
 * /usr/share/doc/libfwupdplugin/func.version_guess_format.html
 * /usr/share/doc/libfwupdplugin/func.version_parse_from_format.html
