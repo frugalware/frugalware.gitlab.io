@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc 3.0.21-9"
-version = "3.0.21-9"
+title = "vlc 3.0.21-10"
+version = "3.0.21-10"
 description = "The cross-platform media player and streaming server."
-date = "2024-09-15T18:28:11"
+date = "2024-09-26T22:02:11"
 aliases = "/packages/14226"
 categories = ['xmultimedia']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "10039996"
-usize = "55350838"
-sha1sum = "9206f3829b65f7425d9d7c58b88eb371339da2de"
+size = "10045440"
+usize = "55410063"
+sha1sum = "99c321e76dda056457518d99a5d31346ecf9f54a"
 depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.21', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.15', 'qt5-x11extras>=5.15.15']"
 reverse_depends = "['elisa', 'kaffeine', 'kalarm', 'kasts', 'obs-studio']"
 +++
@@ -448,6 +448,7 @@ The cross-platform media player and streaming server.
 * /usr/share/doc/vlc-3.0.21/libvlc/vlc-thumb.c
 * /usr/share/doc/vlc-3.0.21/libvlc/win_player.c
 * /usr/share/doc/vlc-3.0.21/libvlc/wx_player.cpp
+* /usr/share/doc/vlc-3.0.21/LICENSE
 * /usr/share/doc/vlc-3.0.21/lua/extensions/README.txt
 * /usr/share/doc/vlc-3.0.21/lua/http/requests/README.txt
 * /usr/share/doc/vlc-3.0.21/lua/intf/dumpmeta.lua
@@ -467,6 +468,7 @@ The cross-platform media player and streaming server.
 * /usr/share/doc/vlc-3.0.21/lua/sd/README.txt
 * /usr/share/doc/vlc-3.0.21/NEWS
 * /usr/share/doc/vlc-3.0.21/README
+* /usr/share/doc/vlc-3.0.21/README.md
 * /usr/share/doc/vlc-3.0.21/THANKS
 * /usr/share/icons/hicolor/128x128/apps/vlc-kb.png
 * /usr/share/icons/hicolor/128x128/apps/vlc-xmas.png
