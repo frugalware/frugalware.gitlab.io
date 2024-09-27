@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups-browsed 2.0.1-1"
-version = "2.0.1-1"
+title = "cups-browsed 2.0.1-2"
+version = "2.0.1-2"
 description = "a helper daemon to browse the network for remote CUPS queues and IPP network printers"
-date = "2024-08-15T18:49:53"
+date = "2024-09-27T11:58:50"
 aliases = "/packages/221457"
 categories = ['network']
 upstreamurl = "https://github.com/OpenPrinting/cups-browsed"
 arch = "x86_64"
-size = "169636"
-usize = "582709"
-sha1sum = "0fa4b43e32bdf657cc3b3ecc09b8560eafcba0ce"
+size = "169668"
+usize = "582832"
+sha1sum = "aad31593d2f1225666291e8d3bee54ed413c42c9"
 depends = "['avahi-glib', 'libppd']"
 reverse_depends = "['cups']"
 +++

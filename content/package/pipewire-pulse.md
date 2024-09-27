@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire-pulse 1.2.4-1"
-version = "1.2.4-1"
+title = "pipewire-pulse 1.2.5-1"
+version = "1.2.5-1"
 description = "Pipewire alsa config"
-date = "2024-09-21T19:19:44"
+date = "2024-09-27T12:02:08"
 aliases = "/packages/220836"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "171424"
-usize = "498248"
-sha1sum = "8bbfdaecc07804525e4de2473c6f2c3e918ffb2a"
+size = "170980"
+usize = "498344"
+sha1sum = "76fedd8a0b21fe642ebc04f9c9bdcdada9b61a51"
 depends = "['avahi', 'libpulse', 'wireplumber']"
 +++
 ### Description: 

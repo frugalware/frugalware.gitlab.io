@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtool 2.4.7-3"
-version = "2.4.7-3"
+title = "libtool 2.5.3-1"
+version = "2.5.3-1"
 description = "A generic library support script"
-date = "2024-05-16T02:38:29"
+date = "2024-09-27T12:09:11"
 aliases = "/packages/2408"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/libtool"
 arch = "x86_64"
-size = "701676"
-usize = "3638054"
-sha1sum = "8315fe107dc83ba4c98ef2b431b85dc45aa6b89d"
+size = "721168"
+usize = "3731790"
+sha1sum = "e80a1b1048514ceed4fd51f7795f74bc20595757"
 depends = "['bash>=3.2_039-3', 'glibc>=2.34']"
 reverse_depends = "['clamav', 'courier-authlib', 'guile', 'imagemagick', 'libcanberra', 'libextractor', 'libgphoto2', 'libmp3splt', 'libmpg123', 'libpulse', 'librdf', 'openldap', 'pulseaudio', 'scim', 'squid', 'unixodbc']"
 +++
@@ -34,14 +34,14 @@ A generic library support script
 * /usr/share/aclocal/ltsugar.m4
 * /usr/share/aclocal/ltversion.m4
 * /usr/share/aclocal/lt~obsolete.m4
-* /usr/share/doc/libtool-2.4.7/AUTHORS
-* /usr/share/doc/libtool-2.4.7/ChangeLog
-* /usr/share/doc/libtool-2.4.7/COPYING
-* /usr/share/doc/libtool-2.4.7/INSTALL
-* /usr/share/doc/libtool-2.4.7/NEWS
-* /usr/share/doc/libtool-2.4.7/README
-* /usr/share/doc/libtool-2.4.7/THANKS
-* /usr/share/doc/libtool-2.4.7/TODO
+* /usr/share/doc/libtool-2.5.3/AUTHORS
+* /usr/share/doc/libtool-2.5.3/ChangeLog
+* /usr/share/doc/libtool-2.5.3/COPYING
+* /usr/share/doc/libtool-2.5.3/INSTALL
+* /usr/share/doc/libtool-2.5.3/NEWS
+* /usr/share/doc/libtool-2.5.3/README
+* /usr/share/doc/libtool-2.5.3/THANKS
+* /usr/share/doc/libtool-2.5.3/TODO
 * /usr/share/info/libtool.info-1.gz
 * /usr/share/info/libtool.info-2.gz
 * /usr/share/info/libtool.info.gz

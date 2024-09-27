@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php 8.3.11-1"
-version = "8.3.11-1"
+title = "php 8.3.12-1"
+version = "8.3.12-1"
 description = "A widely-used general-purpose scripting language"
-date = "2024-09-08T19:43:37"
+date = "2024-09-27T12:13:02"
 aliases = "/packages/3288"
 categories = ['devel']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "7834316"
-usize = "45129484"
-sha1sum = "9b37046a1809179adbc92a14bbf042a9116144b5"
+size = "7837932"
+usize = "45156866"
+sha1sum = "eb7cccce29e39567abca0661e33d1728bfb34ed2"
 depends = "['curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3', 'zlib>=1.2.12']"
 reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++
@@ -389,11 +389,11 @@ A widely-used general-purpose scripting language
 * /usr/lib/php/sysvshm.so
 * /usr/lib/php/tidy.so
 * /usr/lib/php/xsl.so
-* /usr/share/doc/php-8.3.11/LICENSE
-* /usr/share/doc/php-8.3.11/NEWS
-* /usr/share/doc/php-8.3.11/README.Frugalware
-* /usr/share/doc/php-8.3.11/README.md
-* /usr/share/doc/php-8.3.11/README.REDIST.BINS
+* /usr/share/doc/php-8.3.12/LICENSE
+* /usr/share/doc/php-8.3.12/NEWS
+* /usr/share/doc/php-8.3.12/README.Frugalware
+* /usr/share/doc/php-8.3.12/README.md
+* /usr/share/doc/php-8.3.12/README.REDIST.BINS
 * /usr/share/man/man1/phar.1.gz
 * /usr/share/man/man1/phar.phar.1.gz
 * /usr/share/man/man1/php-config.1.gz
