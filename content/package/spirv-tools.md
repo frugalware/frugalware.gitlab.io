@@ -12,7 +12,7 @@ size = "1521940"
 usize = "6771399"
 sha1sum = "2f1384dc075161fa3d3cfb77f7fbb46676eda3d1"
 depends = "['python3']"
-reverse_depends = "['intel-graphics-compiler', 'shaderc', 'spirv-llvm-translator']"
+reverse_depends = "['glslang', 'intel-graphics-compiler', 'shaderc', 'spirv-llvm-translator']"
 +++
 ### Description: 
 API and commands for processing SPIR-V modules
