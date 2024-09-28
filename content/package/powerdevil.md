@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "powerdevil 6.1.5-1"
-version = "6.1.5-1"
+title = "powerdevil 6.1.5-2"
+version = "6.1.5-2"
 description = "KDE power management tools."
-date = "2024-09-10T14:07:00"
+date = "2024-09-28T21:22:49"
 aliases = "/packages/221379"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1034220"
-usize = "3348141"
-sha1sum = "99fe71f0332febbdf6e93e5ab895f385caca9a6b"
-depends = "['bluez-qt>=6.5.0', 'ddcutil', 'plasma-workspace>=6.1.5', 'power-profiles-daemon']"
+size = "1033624"
+usize = "3346125"
+sha1sum = "b6ec789e3eb40a3d1a63203c7aaeca142c7f7da7"
+depends = "['bluez-qt>=6.6.0', 'ddcutil', 'plasma-workspace>=6.1.5', 'power-profiles-daemon']"
 +++
 ### Description: 
 KDE power management tools.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nano 6.1.5-1"
-version = "6.1.5-1"
+title = "plasma-nano 6.1.5-2"
+version = "6.1.5-2"
 description = "A minimal Plasma shell package"
-date = "2024-09-10T17:06:37"
+date = "2024-09-28T22:03:06"
 aliases = "/packages/220612"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "41644"
-usize = "201833"
-sha1sum = "fd3d9f2c67e90991deb2e64bcab033845e9c1e82"
-depends = "['kitemmodels>=6.5.0', 'kwayland>=', 'libplasma>=6.1.5']"
+size = "41700"
+usize = "201865"
+sha1sum = "a110179b954d4efdd3293cb40f7472b69e6d2f29"
+depends = "['kitemmodels>=6.6.0', 'kwayland>=', 'libplasma>=6.1.5']"
 +++
 ### Description: 
 A minimal Plasma shell package
