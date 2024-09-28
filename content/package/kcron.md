@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcron 24.08.1-1"
-version = "24.08.1-1"
+title = "kcron 24.08.1-2"
+version = "24.08.1-2"
 description = "KDE module for configure and schedule tasks."
-date = "2024-09-13T12:11:39"
+date = "2024-09-28T22:44:42"
 aliases = "/packages/135945"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "930292"
-usize = "1985695"
-sha1sum = "71454af2851fdd8aca3523dd2d140bf8e311bfcc"
-depends = "['kcmutils>=6.5.0', 'kio>=6.5.0', 'qt6-svg>=6.7.1']"
+size = "930552"
+usize = "1985983"
+sha1sum = "93d0f8fafd78afc5810a9612c2598ca19561f403"
+depends = "['kcmutils>=6.6.0', 'kio>=6.6.0', 'qt6-svg>=6.7.3']"
 +++
 ### Description: 
 KDE module for configure and schedule tasks.
