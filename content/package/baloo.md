@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "baloo 6.6.0-1"
-version = "6.6.0-1"
+title = "baloo 6.6.0-2"
+version = "6.6.0-2"
 description = "A framework for searching and managing metadata."
-date = "2024-09-14T12:10:15"
+date = "2024-09-28T19:38:05"
 aliases = "/packages/221281"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "474624"
-usize = "2356812"
-sha1sum = "06c6d91727e2fba0a590b917bc738bc2ea894404"
+size = "474052"
+usize = "2356300"
+sha1sum = "555518f63f688530c08890349d2b33d5a74e5d56"
 depends = "['kfilemetadata>=6.6.0', 'kidletime>=6.6.0', 'kio>=6.6.0', 'lmdb>=0.9.18-3']"
 reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-grub 6.1.5-1"
-version = "6.1.5-1"
+title = "breeze-grub 6.1.5-2"
+version = "6.1.5-2"
 description = "Breeze theme for GRUB"
-date = "2024-09-10T11:51:16"
+date = "2024-09-28T20:09:54"
 aliases = "/packages/218257"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1431388"
+size = "1432868"
 usize = "4901363"
-sha1sum = "ed0f4fd4cc7da9b3cc05d24286aa744b7651b24c"
+sha1sum = "0288df54606d683004b575688fe0280ba7676558"
 depends = "['grub2']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkscreen 6.1.5-1"
-version = "6.1.5-1"
+title = "libkscreen 6.1.5-2"
+version = "6.1.5-2"
 description = "KDE screen management software."
-date = "2024-09-10T11:55:03"
+date = "2024-09-28T20:12:53"
 aliases = "/packages/221362"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "259724"
-usize = "1013285"
-sha1sum = "333e676ead8f4250368becb3a518086fa90af7e8"
-depends = "['kconfig>=6.5.0', 'kwayland>=6.1.5', 'libxrandr>=1.5.0-5']"
+size = "259420"
+usize = "1012485"
+sha1sum = "7c73d365cfb9471d7cf6b30cccdbb12b05cac1d4"
+depends = "['kconfig>=6.6.0', 'kwayland>=6.1.5', 'libxrandr>=1.5.0-5']"
 reverse_depends = "['kscreen']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kuserfeedback 6.6.0-1"
-version = "6.6.0-1"
+title = "kuserfeedback 6.6.0-2"
+version = "6.6.0-2"
 description = "Framework for collecting user feedback for applications via telemetry and surveys"
-date = "2024-09-14T12:43:30"
+date = "2024-09-28T20:03:15"
 aliases = "/packages/220607"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "508952"
-usize = "2734715"
-sha1sum = "a82707eb76363b3f7e280c913429c5898e8fd10a"
+size = "294340"
+usize = "1934614"
+sha1sum = "6ec1067983e8eea19c9e9d2c9a1b49c674d985cf"
 depends = "['qt6-charts>=_F_kdever_qt6', 'qt6-declarative>=', 'qt6-svg>=_F_kdever_qt6']"
 reverse_depends = "['discover', 'labplot', 'plasma-welcome', 'plasma-workspace']"
 +++
@@ -18,8 +18,6 @@ reverse_depends = "['discover', 'labplot', 'plasma-welcome', 'plasma-workspace']
 Framework for collecting user feedback for applications via telemetry and surveys
 
 ### Files: 
-* /usr/bin/UserFeedbackConsole
-* /usr/bin/userfeedbackctl
 * /usr/include/KF6/KUserFeedback/kuserfeedback_version.h
 * /usr/include/KF6/KUserFeedbackCore/KUserFeedback/AbstractDataSource
 * /usr/include/KF6/KUserFeedbackCore/kuserfeedback/abstractdatasource.h
@@ -79,7 +77,6 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/lib/qt6/qml/org/kde/userfeedback/KF6UserFeedbackQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/userfeedback/libKF6UserFeedbackQml.so
 * /usr/lib/qt6/qml/org/kde/userfeedback/qmldir
-* /usr/share/applications/org.kde.kuserfeedback-console.desktop
 * /usr/share/doc/kuserfeedback-6.6.0/COPYING.LIB
 * /usr/share/doc/kuserfeedback-6.6.0/INSTALL
 * /usr/share/doc/kuserfeedback-6.6.0/README.md
@@ -165,5 +162,4 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/share/locale/zh_CN/LC_MESSAGES/userfeedbackprovider6_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/userfeedbackconsole6_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/userfeedbackprovider6_qt.qm
-* /usr/share/metainfo/org.kde.kuserfeedback-console.appdata.xml
 * /usr/share/qlogging-categories6/org_kde_UserFeedback.categories

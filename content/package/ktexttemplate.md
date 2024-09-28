@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktexttemplate 6.6.0-1"
-version = "6.6.0-1"
+title = "ktexttemplate 6.6.0-2"
+version = "6.6.0-2"
 description = "Library to allow application developers to separate the structure of documents from the data they contain"
-date = "2024-09-14T13:17:51"
+date = "2024-09-28T20:04:18"
 aliases = "/packages/221404"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "303440"
-usize = "1181862"
-sha1sum = "84e0ff5dba6b0c3fa2a493aae9042d435b38301c"
-depends = "['qt6-declarative>=6.7.1']"
+size = "304528"
+usize = "1182086"
+sha1sum = "909cf841e475d2c2f97fb67796781df557842c52"
+depends = "['qt6-declarative>=6.7.3']"
 reverse_depends = "['grantleetheme', 'kdevelop', 'khelpcenter', 'kpimtextedit']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knotifyconfig 6.6.0-1"
-version = "6.6.0-1"
+title = "knotifyconfig 6.6.0-2"
+version = "6.6.0-2"
 description = "Configuration dialog for desktop notifications."
-date = "2024-09-14T12:16:30"
+date = "2024-09-28T19:44:23"
 aliases = "/packages/218338"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "52496"
-usize = "205141"
-sha1sum = "3e63e7f30c38a724412f52ce6ed351a000cd246b"
+size = "52736"
+usize = "205205"
+sha1sum = "74695cc77a2d0b1b402641b7ae204ede3ee7c3e4"
 depends = "['kio>=6.6.0']"
 reverse_depends = "['akregator', 'digikam', 'k3b', 'kalarm', 'kdenlive', 'kdepim-runtime', 'kdevelop', 'kdiamond', 'kfourinline', 'kget', 'kgoldrunner', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmail', 'kmail-account-wizard', 'kmines', 'knavalbattle', 'knetwalk', 'knotes', 'kollision', 'konsole', 'konversation', 'kpat', 'krdc', 'ksquares', 'kteatime', 'ktuberling', 'kwordquiz', 'picmi', 'plasma-desktop', 'plasma-workspace', 'yakuake']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.6.0-1"
-version = "6.6.0-1"
+title = "qqc2-desktop-style 6.6.0-2"
+version = "6.6.0-2"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-09-14T12:23:04"
+date = "2024-09-28T19:58:55"
 aliases = "/packages/219485"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "406956"
-usize = "2372630"
-sha1sum = "2c887928d1acbc33482a354946a8dca895a30a8c"
+size = "406864"
+usize = "2372982"
+sha1sum = "362f877e116bb196aabf199fac19d65ab248a49d"
 depends = "['kconfigwidgets>=6.6.0', 'kiconthemes>=6.6.0', 'kirigami>=6.6.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'telly-skout', 'tokodon']"
 +++

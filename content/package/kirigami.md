@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami 6.6.0-1"
-version = "6.6.0-1"
+title = "kirigami 6.6.0-2"
+version = "6.6.0-2"
 description = "UI framework for mobile and convergent applications written in Qt."
-date = "2024-09-14T12:12:33"
+date = "2024-09-28T19:40:26"
 aliases = "/packages/221327"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "649016"
-usize = "2716125"
-sha1sum = "6998090bb1eee796ff4e026d770268cf00d97e9b"
-depends = "['libgomp', 'qt6-declarative>=6.7.1', 'qt6-svg>=6.7.1']"
+size = "648844"
+usize = "2715204"
+sha1sum = "4d8061d96f4b3ff882d4098de91cfd190d4caf84"
+depends = "['libgomp', 'qt6-declarative>=6.7.3', 'qt6-svg>=6.7.3']"
 reverse_depends = "['breeze', 'calindori', 'drkonqi', 'francis', 'kalk', 'kalm', 'keysmith', 'kinfocenter', 'kirigami-addons', 'kirigami-gallery', 'kjournald', 'knewstuff', 'kontrast', 'ksvg', 'okular', 'plasma-welcome', 'purpose', 'qqc2-breeze-style', 'qqc2-desktop-style', 'skanpage', 'systemsettings', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 

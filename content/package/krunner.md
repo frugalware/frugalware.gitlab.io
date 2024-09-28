@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krunner 6.6.0-1"
-version = "6.6.0-1"
+title = "krunner 6.6.0-2"
+version = "6.6.0-2"
 description = "Framework for providing different actions given a string query."
-date = "2024-09-14T12:21:54"
+date = "2024-09-28T19:57:45"
 aliases = "/packages/221403"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "194856"
-usize = "460850"
-sha1sum = "49220bf43b18b3a598ccf81397f81767048d8b97"
+size = "194740"
+usize = "460593"
+sha1sum = "da60c3e6a5b1f48aefa34fdba491d6004ffd686a"
 depends = "['kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'ki18n>=6.6.0', 'kitemmodels>=6.6.0', 'threadweaver>=6.6.0']"
 reverse_depends = "['akonadi-search', 'kdeplasma-addons', 'kdevelop', 'milou', 'plasma-browser-integration', 'plasma-desktop', 'plasma-workspace', 'systemsettings']"
 +++
