@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma5support 6.1.5-1"
-version = "6.1.5-1"
+title = "plasma5support 6.1.5-2"
+version = "6.1.5-2"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2024-09-10T13:28:46"
+date = "2024-09-28T20:52:28"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "164776"
-usize = "726690"
-sha1sum = "65ad2c9c07445ceb05587f938965bfe526ac49dc"
-depends = "['kconfig>=6.5.0', 'kcoreaddons>=6.5.0', 'kguiaddons>=6.5.0', 'ki18n>=6.5.0', 'knotifications>=6.5.0', 'libksysguard>=6.1.5', 'solid>=6.5.0']"
+size = "164932"
+usize = "726498"
+sha1sum = "40f0525bd430ee4a9888f9f1fd8f412ac4343a05"
+depends = "['kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'kguiaddons>=6.6.0', 'ki18n>=6.6.0', 'knotifications>=6.6.0', 'libksysguard>=6.1.5', 'solid>=6.6.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 

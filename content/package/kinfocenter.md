@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinfocenter 6.1.5-1"
-version = "6.1.5-1"
+title = "kinfocenter 6.1.5-2"
+version = "6.1.5-2"
 description = "Utility that provides information about a computer system."
-date = "2024-09-10T12:07:09"
+date = "2024-09-28T20:20:22"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "822148"
-usize = "2637174"
-sha1sum = "046dbf7d2c007d1307c466de533a5b455417e2b2"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.5.0', 'kirigami>=6.5.0', 'kpackage>=6.5.0', 'kwayland>=6.1.5', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.5.0', 'systemsettings>=6.1.5', 'vulkan-tools', 'wayland-utils']"
+size = "821784"
+usize = "2638006"
+sha1sum = "b05594fe8b412c3eeabf2d8a45a3c2c0d0ae5ee4"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.6.0', 'kirigami>=6.6.0', 'kpackage>=6.6.0', 'kwayland>=6.1.5', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.6.0', 'systemsettings>=6.1.5', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.

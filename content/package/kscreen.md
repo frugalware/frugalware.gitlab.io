@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kscreen 6.1.5-1"
-version = "6.1.5-1"
+title = "kscreen 6.1.5-2"
+version = "6.1.5-2"
 description = "KDE's screen management utility."
-date = "2024-09-10T12:09:00"
+date = "2024-09-28T20:22:23"
 aliases = "/packages/221347"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "276556"
-usize = "1211986"
-sha1sum = "d695e0058dd53b56986c0f26dc73fe29c015aabb"
-depends = "['ksvg>=6.5.0', 'layer-shell-qt>=6.1.5', 'libkscreen>=6.1.5', 'libplasma>=6.1.5', 'qt6-sensors>=6.7.1']"
+size = "276524"
+usize = "1211634"
+sha1sum = "c8e74d1dec7995d119331078a6f5fb5c90745312"
+depends = "['ksvg>=6.6.0', 'layer-shell-qt>=6.1.5', 'libkscreen>=6.1.5', 'libplasma>=6.1.5', 'qt6-sensors>=6.7.3']"
 reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-activities-stats 6.1.5-1"
-version = "6.1.5-1"
+title = "plasma-activities-stats 6.1.5-2"
+version = "6.1.5-2"
 description = "Library for accessing the usage statistics data collected by the KDE activity manager."
-date = "2024-09-10T13:36:11"
+date = "2024-09-28T20:53:17"
 aliases = "/packages/221375"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "84788"
-usize = "287130"
-sha1sum = "41f4778d300348c1c8a671560d12bf686dd4d049"
-depends = "['kio>=6.5.0', 'plasma-activities>=6.1.5']"
+size = "85244"
+usize = "287194"
+sha1sum = "ca2d93b78e1215434fed9a9263b2e509a5b59446"
+depends = "['kio>=6.6.0', 'plasma-activities>=6.1.5']"
 reverse_depends = "['kio-extras', 'plasma-desktop', 'plasma-workspace', 'sweeper']"
 +++
 ### Description: 

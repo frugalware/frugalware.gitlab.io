@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sddm-kcm 6.1.5-1"
-version = "6.1.5-1"
+title = "sddm-kcm 6.1.5-2"
+version = "6.1.5-2"
 description = "KCM module for SDDM"
-date = "2024-09-10T13:27:41"
+date = "2024-09-28T20:51:26"
 aliases = "/packages/218406"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "129776"
-usize = "523170"
-sha1sum = "e9eee8fc3d65c92992c4cbca6d2142132e09a9b6"
-depends = "['kcmutils>=6.5.0', 'kdeclarative>=6.5.0', 'knewstuff>=6.5.0', 'sddm>=0.16.0']"
+size = "129896"
+usize = "522674"
+sha1sum = "ed7ac343f71e211ce84b51a1ade645f64a24f8e8"
+depends = "['kcmutils>=6.6.0', 'kdeclarative>=6.6.0', 'knewstuff>=6.6.0', 'sddm>=0.16.0']"
 +++
 ### Description: 
 KCM module for SDDM

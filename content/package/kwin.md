@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwin 6.1.5-1"
-version = "6.1.5-1"
+title = "kwin 6.1.5-2"
+version = "6.1.5-2"
 description = "KDE Window Manager."
-date = "2024-09-10T13:16:54"
+date = "2024-09-28T20:44:38"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10172564"
-usize = "31682057"
-sha1sum = "c8afca1c863fa8380bfb67515f46edad53dec42f"
-depends = "['breeze>=6.1.5', 'kauth>=6.5.0', 'kcmutils>=6.5.0', 'kconfig>=6.5.0', 'kconfigwidgets>=6.5.0', 'kcoreaddons>=6.5.0', 'kcrash>=6.5.0', 'kdbusaddons>=6.5.0', 'kdeclarative>=6.5.0', 'kglobalacceld>=6.1.5', 'kguiaddons>=6.5.0', 'ki18n>=6.5.0', 'kidletime>=6.5.0', 'knewstuff>=6.5.0', 'kpackage>=6.5.0', 'kscreenlocker>=6.1.5', 'kservice>=6.5.0', 'ksvg>=6.5.0', 'kwayland>=6.1.5', 'kwidgetsaddons>=6.5.0', 'kwindowsystem>=6.5.0', 'kxmlgui>=6.5.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.1.5', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.1.5', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.7.1', 'qt6-tools>=6.7.1', 'qt6-wayland>=6.7.1']"
+size = "10175248"
+usize = "31691737"
+sha1sum = "d9ab16bd7cefb0971567f7ca265048ed147e7ac8"
+depends = "['breeze>=6.1.5', 'kauth>=6.6.0', 'kcmutils>=6.6.0', 'kconfig>=6.6.0', 'kconfigwidgets>=6.6.0', 'kcoreaddons>=6.6.0', 'kcrash>=6.6.0', 'kdbusaddons>=6.6.0', 'kdeclarative>=6.6.0', 'kglobalacceld>=6.1.5', 'kguiaddons>=6.6.0', 'ki18n>=6.6.0', 'kidletime>=6.6.0', 'knewstuff>=6.6.0', 'kpackage>=6.6.0', 'kscreenlocker>=6.1.5', 'kservice>=6.6.0', 'ksvg>=6.6.0', 'kwayland>=6.1.5', 'kwidgetsaddons>=6.6.0', 'kwindowsystem>=6.6.0', 'kxmlgui>=6.6.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.1.5', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.1.5', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.7.3', 'qt6-tools>=6.7.3', 'qt6-wayland>=6.7.3']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 

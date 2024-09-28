@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kscreenlocker 6.1.5-1"
-version = "6.1.5-1"
+title = "kscreenlocker 6.1.5-2"
+version = "6.1.5-2"
 description = "KDE Screenlocker"
-date = "2024-09-10T12:19:13"
+date = "2024-09-28T20:32:37"
 aliases = "/packages/218350"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "234716"
-usize = "1022633"
-sha1sum = "0db230ec9dd6050d45391b08f68b4483d2ab9317"
+size = "234276"
+usize = "1022185"
+sha1sum = "0b1ff89e4b168795cd6d04af96be9ccb5499b2c2"
 depends = "['kidletime>=', 'kscreen>=6.1.5', 'layer-shell-qt>=6.1.5', 'libseccomp', 'systemd']"
 reverse_depends = "['kwin']"
 +++
