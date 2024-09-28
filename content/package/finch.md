@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "finch 2.14.12-1"
-version = "2.14.12-1"
+title = "finch 2.14.13-1"
+version = "2.14.13-1"
 description = "A ncurses-based messaging client"
-date = "2023-04-25T13:11:37"
+date = "2024-09-28T11:01:24"
 aliases = "/packages/103277"
 categories = ['xapps-extra']
 upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
-size = "102704"
-usize = "399994"
-sha1sum = "8300db4437c7ab00e243e516311cef1f3bdf4f06"
-depends = "['libgnt', 'libpurple']"
+size = "103696"
+usize = "365570"
+sha1sum = "b429d000824d0fe715dd8aa176a13227a1123204"
+depends = "['libgnt', 'libpurple', 'tk>=9.0.0']"
 +++
 ### Description: 
 A ncurses-based messaging client

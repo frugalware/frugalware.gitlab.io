@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpurple 2.14.12-1"
-version = "2.14.12-1"
+title = "libpurple 2.14.13-1"
+version = "2.14.13-1"
 description = "Library intended to be used by programmers seeking to write an IM client that connects to many IM networks."
-date = "2023-04-25T13:11:37"
+date = "2024-09-28T11:01:24"
 aliases = "/packages/50023"
 categories = ['xlib']
 upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
-size = "1546596"
-usize = "7043240"
-sha1sum = "4dcc3cb298f67c0f365dd7d10d8ab5571d9efc38"
+size = "1610000"
+usize = "7169992"
+sha1sum = "943e7b4fe57dfc4e4acd54adf7311e2378475c5d"
 depends = "['cyrus-sasl', 'dbus-glib', 'farstream', 'libgadu', 'libidn>=1.35', 'meanwhile', 'nss']"
 reverse_depends = "['bitlbee-libpurple', 'finch', 'pidgin', 'pidgin-facebookchat', 'pidgin-skypeweb', 'telepathy-haze']"
 +++
@@ -92,10 +92,10 @@ Library intended to be used by programmers seeking to write an IM client that co
 * /usr/include/libpurple/xmlnode.h
 * /usr/lib/libpurple-client.so
 * /usr/lib/libpurple-client.so.0
-* /usr/lib/libpurple-client.so.0.14.12
+* /usr/lib/libpurple-client.so.0.14.13
 * /usr/lib/libpurple.so
 * /usr/lib/libpurple.so.0
-* /usr/lib/libpurple.so.0.14.12
+* /usr/lib/libpurple.so.0.14.13
 * /usr/lib/pkgconfig/purple.pc
 * /usr/lib/purple-2/autoaccept.so
 * /usr/lib/purple-2/buddynote.so
@@ -126,5 +126,4 @@ Library intended to be used by programmers seeking to write an IM client that co
 * /usr/lib/purple-2/ssl-nss.so
 * /usr/lib/purple-2/ssl.so
 * /usr/lib/purple-2/statenotify.so
-* /usr/lib/purple-2/tcl.so
 * /usr/share/aclocal/purple.m4
