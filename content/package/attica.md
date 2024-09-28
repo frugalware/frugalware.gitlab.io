@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "attica 6.6.0-1"
-version = "6.6.0-1"
+title = "attica 6.6.0-2"
+version = "6.6.0-2"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-09-14T11:16:15"
+date = "2024-09-28T18:27:14"
 aliases = "/packages/87758"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "186084"
-usize = "892411"
-sha1sum = "17a8761875ee9b190ff41f889846c48a889b1e60"
-depends = "['qt6-base>=6.7.1']"
+size = "185868"
+usize = "890651"
+sha1sum = "a8d2f61653473e508c17f9e2526f6ab3cbe05d61"
+depends = "['qt6-base>=6.7.3']"
 reverse_depends = "['kxmlgui', 'okular']"
 +++
 ### Description: 

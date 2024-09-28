@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwindowsystem 6.6.0-1"
-version = "6.6.0-1"
+title = "kwindowsystem 6.6.0-2"
+version = "6.6.0-2"
 description = "KDE Access to window manager."
-date = "2024-09-14T11:23:46"
+date = "2024-09-28T18:31:16"
 aliases = "/packages/218365"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "208432"
-usize = "811374"
-sha1sum = "73488f7d27eb0cfdd4ac202a1055445945a3119f"
-depends = "['qt6-wayland>=6.7.1', 'xcb-util-keysyms>=0.4.0-3']"
+size = "208532"
+usize = "811758"
+sha1sum = "241accb28a9ca9905bdb749ce0b975eb4be7d65c"
+depends = "['qt6-wayland>=6.7.3', 'xcb-util-keysyms>=0.4.0-3']"
 reverse_depends = "['audiotube', 'breeze', 'dolphin', 'kauth', 'kcrash', 'keysmith', 'krecorder', 'kstatusnotifieritem', 'kwin', 'libksysguard', 'libksysguard5', 'pinentry-qt6', 'plasma-browser-integration', 'plasmatube', 'qmlkonsole', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 

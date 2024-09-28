@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kauth 6.6.0-1"
-version = "6.6.0-1"
+title = "kauth 6.6.0-2"
+version = "6.6.0-2"
 description = "Framework which lets applications perform actions as a privileged user."
-date = "2024-09-14T11:41:23"
+date = "2024-09-28T18:48:13"
 aliases = "/packages/218275"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "106092"
-usize = "424390"
-sha1sum = "dbe1b5153a6c31a30dd7828d69883483d34a8e36"
+size = "105768"
+usize = "421254"
+sha1sum = "ba16c37b0e1d5a7989586f12fbbefa0b4c3d5dfe"
 depends = "['kcoreaddons>=6.6.0', 'kwindowsystem>=6.6.0', 'polkit-qt6-1>=0.112.0-11']"
 reverse_depends = "['kde-inotify-survey', 'kio', 'kpmcore', 'kwin', 'plasma-desktop']"
 +++

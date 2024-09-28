@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kservice 6.6.0-1"
-version = "6.6.0-1"
+title = "kservice 6.6.0-2"
+version = "6.6.0-2"
 description = "Plugin framework for desktop services."
-date = "2024-09-14T11:45:05"
+date = "2024-09-28T18:51:52"
 aliases = "/packages/218351"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "209892"
-usize = "658299"
-sha1sum = "0c709b452e7f824e67708e0b6fd36754d01c83b9"
+size = "211056"
+usize = "660011"
+sha1sum = "0ab7225eb8a90e704f4ccf25ac9f06310ac53759"
 depends = "['kconfig>=6.6.0', 'kcrash>=6.6.0', 'kdbusaddons>=6.6.0', 'ki18n>=6.6.0']"
 reverse_depends = "['kded', 'kdeplasma-addons', 'kdesu', 'kglobalaccel', 'knotifications', 'ktextwidgets', 'kwin']"
 +++

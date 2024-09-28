@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpackage 6.6.0-1"
-version = "6.6.0-1"
+title = "kpackage 6.6.0-2"
+version = "6.6.0-2"
 description = "Framework that lets applications manage user installable packages of non-binary assets."
-date = "2024-09-14T11:52:58"
+date = "2024-09-28T18:59:43"
 aliases = "/packages/218340"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "162756"
+size = "162876"
 usize = "666094"
-sha1sum = "baca2fc9b980fda894f662bcb27b99005fffd13e"
+sha1sum = "421182d81ae8412853780cd083ddb0c57ea72fb8"
 depends = "['karchive>=6.6.0', 'kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'ki18n>=6.6.0']"
 reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter', 'kinfocenter5', 'knewstuff', 'kwin', 'plasma-workspace']"
 +++

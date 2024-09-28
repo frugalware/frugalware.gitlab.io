@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdesu 6.6.0-1"
-version = "6.6.0-1"
+title = "kdesu 6.6.0-2"
+version = "6.6.0-2"
 description = "User interface for running shell commands with root privileges."
-date = "2024-09-14T11:59:00"
+date = "2024-09-28T19:04:52"
 aliases = "/packages/218302"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "63316"
-usize = "220503"
-sha1sum = "399911812eef426bc8de96f82abb3bd5be1cebec"
+size = "63468"
+usize = "220727"
+sha1sum = "64be0868fe7544d9dca60bf72fe0b7005f4aef77"
 depends = "['kpty>=6.6.0', 'kservice>=6.6.0']"
 reverse_depends = "['kde-cli-tools', 'konqueror']"
 +++

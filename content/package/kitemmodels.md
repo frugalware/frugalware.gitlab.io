@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitemmodels 6.6.0-1"
-version = "6.6.0-1"
+title = "kitemmodels 6.6.0-2"
+version = "6.6.0-2"
 description = "Set of item models extending the Qt model-view framework."
-date = "2024-09-14T11:37:33"
+date = "2024-09-28T18:44:33"
 aliases = "/packages/218325"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "138520"
-usize = "530072"
-sha1sum = "ca6f6c302bc59dc0dc05c36d433b1479c56e287c"
-depends = "['qt6-base>=6.7.1']"
+size = "138660"
+usize = "529880"
+sha1sum = "bd3d08c776e39f1198c7b362d62db794947b1c17"
+depends = "['qt6-base>=6.7.3']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'ark', 'colord-kde', 'discover', 'drkonqi', 'itinerary', 'kate', 'kdeplasma-addons', 'kirigami-gallery', 'kleopatra', 'krunner', 'ktrip', 'libkleo', 'milou', 'neochat', 'plasma-nano', 'plasma-pa', 'plasma-systemmonitor', 'plasma-vault', 'systemsettings', 'tokodon']"
 +++
 ### Description: 

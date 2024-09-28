@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdbusaddons 6.6.0-1"
-version = "6.6.0-1"
+title = "kdbusaddons 6.6.0-2"
+version = "6.6.0-2"
 description = "Convenience classes for QtDBus."
-date = "2024-09-14T11:35:44"
+date = "2024-09-28T18:42:56"
 aliases = "/packages/218288"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "64048"
-usize = "232705"
-sha1sum = "237d6819ff6f5bfbd3bd8f1f49b2506c7b2ec661"
-depends = "['qt6-base>=6.7.1']"
+size = "64044"
+usize = "232785"
+sha1sum = "c3171123cb778c421afe2313e0d02d43611660b1"
+depends = "['qt6-base>=6.7.3']"
 reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'calamares-frugalware', 'dolphin', 'francis', 'kaccounts-integration', 'kdebugsettings', 'keysmith', 'kglobalacceld', 'kmousetool', 'kongress', 'kservice', 'kwin', 'plasma-browser-integration', 'plasmatube', 'polkit-kde-agent-1', 'skladnik', 'tokodon', 'wacomtablet']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpeople 6.6.0-1"
-version = "6.6.0-1"
+title = "kpeople 6.6.0-2"
+version = "6.6.0-2"
 description = "A library that provides access to all contacts and the people who hold them."
-date = "2024-09-14T12:01:58"
+date = "2024-09-28T19:07:52"
 aliases = "/packages/221342"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "157160"
-usize = "624570"
-sha1sum = "97460fa093e3f576c6c750982bca3d1db0221592"
+size = "157120"
+usize = "624890"
+sha1sum = "2a93bf309a0b54f2eca5e26350463e3e1c5a2c84"
 depends = "['kcontacts>=6.6.0', 'kitemviews=>6.6.0', 'kwidgetsaddons>=6.6.0']"
 reverse_depends = "['calindori', 'kdeconnect-kde', 'kpeoplevcard', 'plasma-desktop']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "prison 6.6.0-1"
-version = "6.6.0-1"
+title = "prison 6.6.0-2"
+version = "6.6.0-2"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-09-14T10:07:43"
+date = "2024-09-28T18:22:21"
 aliases = "/packages/218991"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "67932"
-usize = "243871"
-sha1sum = "af2d4f2ab963cb158ded65de94039cc401df6043"
-depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt6-base>=6.7.1', 'qt6-multimedia>=6.7.1', 'zxing-cpp']"
+size = "67976"
+usize = "244063"
+sha1sum = "bfab92f6d71902997fd6eed5a16565c96cdefe77"
+depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt6-base>=6.7.3', 'qt6-multimedia>=6.7.3', 'zxing-cpp']"
 reverse_depends = "['akonadi-contacts', 'itinerary', 'plasma-workspace', 'spectacle']"
 +++
 ### Description: 

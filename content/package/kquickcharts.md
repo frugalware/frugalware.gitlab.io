@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kquickcharts 6.6.0-1"
-version = "6.6.0-1"
+title = "kquickcharts 6.6.0-2"
+version = "6.6.0-2"
 description = "A QtQuick plugin providing high-performance charts"
-date = "2024-09-14T11:29:47"
+date = "2024-09-28T18:36:54"
 aliases = "/packages/220015"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "168660"
-usize = "661801"
-sha1sum = "b24e57b256ad74614c71b76fe0181573c4d7ce64"
-depends = "['qt6-declarative>=6.7.1']"
+size = "168416"
+usize = "660841"
+sha1sum = "15806869ef0c944e428a7ae9ec70a3f47c696c31"
+depends = "['qt6-declarative>=6.7.3']"
 reverse_depends = "['arianna', 'plasma-workspace', 'qqc2-breeze-style']"
 +++
 ### Description: 

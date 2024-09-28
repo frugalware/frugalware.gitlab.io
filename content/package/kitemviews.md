@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitemviews 6.6.0-1"
-version = "6.6.0-1"
+title = "kitemviews 6.6.0-2"
+version = "6.6.0-2"
 description = "Set of item views extending the Qt model-view framework."
-date = "2024-09-14T11:36:35"
+date = "2024-09-28T18:43:45"
 aliases = "/packages/218326"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "112004"
-usize = "401326"
-sha1sum = "b290025e66439e5f49737ba0eca3f2aa63b27287"
-depends = "['qt6-base>=6.7.1']"
+size = "111900"
+usize = "401230"
+sha1sum = "ff82f8747173512a0ec16b54110aecccfb66d217"
+depends = "['qt6-base>=6.7.3']"
 reverse_depends = "['akonadi', 'discover', 'kdebugsettings', 'kiconthemes', 'kpeople']"
 +++
 ### Description: 
