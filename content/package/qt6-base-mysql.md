@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-base-mysql 6.7.2-2"
-version = "6.7.2-2"
+title = "qt6-base-mysql 6.7.3-1"
+version = "6.7.3-1"
 description = "Mysql support for qt6"
-date = "2024-06-25T14:12:28"
+date = "2024-09-28T11:17:42"
 aliases = "/packages/220752"
 categories = ['xlib-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "32156"
-usize = "99698"
-sha1sum = "826b2096538befd41cc9f5ed5b431a098df83862"
-depends = "['mariadb-libs>=10.3.14', 'qt6-base>=6.7.2', 'qt6-base-sql-common']"
+size = "32368"
+usize = "99954"
+sha1sum = "2634a26bec840fd002cb39763a0946293887259d"
+depends = "['mariadb-libs>=10.3.14', 'qt6-base>=6.7.3', 'qt6-base-sql-common']"
 +++
 ### Description: 
 Mysql support for qt6
