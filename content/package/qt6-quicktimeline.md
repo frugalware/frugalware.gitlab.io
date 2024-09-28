@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-quicktimeline 6.7.2-1"
-version = "6.7.2-1"
+title = "qt6-quicktimeline 6.7.3-1"
+version = "6.7.3-1"
 description = "The Qt6 toolkit, qtquicktimeline"
-date = "2024-06-19T15:03:02"
+date = "2024-09-28T12:20:59"
 aliases = "/packages/220773"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "63600"
-usize = "353738"
-sha1sum = "8a86e2cbc56973b4ad0bf706665bd665e11ea6b4"
+size = "62956"
+usize = "356086"
+sha1sum = "d8663d40e38bcb66d72781715a65b52466cae7e5"
 depends = "['qt6-declarative']"
 reverse_depends = "['qt6-quick3d']"
 +++
@@ -18,23 +18,23 @@ reverse_depends = "['qt6-quick3d']"
 The Qt6 toolkit, qtquicktimeline
 
 ### Files: 
-* /usr/include/qt6/QtQuickTimeline/6.7.2/QtQuickTimeline/private/qquickkeyframedatautils_p.h
-* /usr/include/qt6/QtQuickTimeline/6.7.2/QtQuickTimeline/private/qquickkeyframe_p.h
-* /usr/include/qt6/QtQuickTimeline/6.7.2/QtQuickTimeline/private/qquicktimelineanimation_p.h
-* /usr/include/qt6/QtQuickTimeline/6.7.2/QtQuickTimeline/private/qquicktimeline_p.h
-* /usr/include/qt6/QtQuickTimeline/6.7.2/QtQuickTimeline/private/qtquicktimelineexports_p.h
-* /usr/include/qt6/QtQuickTimeline/6.7.2/QtQuickTimeline/private/qtquicktimelineglobal_p.h
+* /usr/include/qt6/QtQuickTimeline/6.7.3/QtQuickTimeline/private/qquickkeyframedatautils_p.h
+* /usr/include/qt6/QtQuickTimeline/6.7.3/QtQuickTimeline/private/qquickkeyframe_p.h
+* /usr/include/qt6/QtQuickTimeline/6.7.3/QtQuickTimeline/private/qquicktimelineanimation_p.h
+* /usr/include/qt6/QtQuickTimeline/6.7.3/QtQuickTimeline/private/qquicktimeline_p.h
+* /usr/include/qt6/QtQuickTimeline/6.7.3/QtQuickTimeline/private/qtquicktimelineexports_p.h
+* /usr/include/qt6/QtQuickTimeline/6.7.3/QtQuickTimeline/private/qtquicktimelineglobal_p.h
 * /usr/include/qt6/QtQuickTimeline/QtQuickTimeline
 * /usr/include/qt6/QtQuickTimeline/QtQuickTimelineDepends
 * /usr/include/qt6/QtQuickTimeline/qtquicktimelineexports.h
 * /usr/include/qt6/QtQuickTimeline/qtquicktimelineglobal.h
 * /usr/include/qt6/QtQuickTimeline/QtQuickTimelineVersion
 * /usr/include/qt6/QtQuickTimeline/qtquicktimelineversion.h
-* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.2/QtQuickTimelineBlendTrees/private/qblendanimationnode_p.h
-* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.2/QtQuickTimelineBlendTrees/private/qblendtreenode_p.h
-* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.2/QtQuickTimelineBlendTrees/private/qtimelineanimationnode_p.h
-* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.2/QtQuickTimelineBlendTrees/private/qtquicktimelineblendtreesexports_p.h
-* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.2/QtQuickTimelineBlendTrees/private/qtquicktimelineblendtreesglobal_p.h
+* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.3/QtQuickTimelineBlendTrees/private/qblendanimationnode_p.h
+* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.3/QtQuickTimelineBlendTrees/private/qblendtreenode_p.h
+* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.3/QtQuickTimelineBlendTrees/private/qtimelineanimationnode_p.h
+* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.3/QtQuickTimelineBlendTrees/private/qtquicktimelineblendtreesexports_p.h
+* /usr/include/qt6/QtQuickTimelineBlendTrees/6.7.3/QtQuickTimelineBlendTrees/private/qtquicktimelineblendtreesglobal_p.h
 * /usr/include/qt6/QtQuickTimelineBlendTrees/QtQuickTimelineBlendTrees
 * /usr/include/qt6/QtQuickTimelineBlendTrees/QtQuickTimelineBlendTreesDepends
 * /usr/include/qt6/QtQuickTimelineBlendTrees/qtquicktimelineblendtreesexports.h
@@ -73,11 +73,11 @@ The Qt6 toolkit, qtquicktimeline
 * /usr/lib/libQt6QuickTimeline.prl
 * /usr/lib/libQt6QuickTimeline.so
 * /usr/lib/libQt6QuickTimeline.so.6
-* /usr/lib/libQt6QuickTimeline.so.6.7.2
+* /usr/lib/libQt6QuickTimeline.so.6.7.3
 * /usr/lib/libQt6QuickTimelineBlendTrees.prl
 * /usr/lib/libQt6QuickTimelineBlendTrees.so
 * /usr/lib/libQt6QuickTimelineBlendTrees.so.6
-* /usr/lib/libQt6QuickTimelineBlendTrees.so.6.7.2
+* /usr/lib/libQt6QuickTimelineBlendTrees.so.6.7.3
 * /usr/lib/pkgconfig/Qt6QuickTimeline.pc
 * /usr/lib/pkgconfig/Qt6QuickTimelineBlendTrees.pc
 * /usr/lib/qt6/metatypes/qt6quicktimelineblendtrees_release_metatypes.json
