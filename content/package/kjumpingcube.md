@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjumpingcube 24.08.1-1"
-version = "24.08.1-1"
+title = "kjumpingcube 24.08.1-2"
+version = "24.08.1-2"
 description = "A simple tactical game."
-date = "2024-09-13T13:08:47"
+date = "2024-09-29T13:07:31"
 aliases = "/packages/184185"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "455472"
+size = "455248"
 usize = "1263789"
-sha1sum = "e861134b232c49a019817de5c938124726131af5"
-depends = "['knotifyconfig>=6.5.0', 'libkdegames>=24.08.1']"
+sha1sum = "bf8e395b7d6ba41a2123a5e55fe92e98789faace"
+depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1']"
 +++
 ### Description: 
 A simple tactical game.
