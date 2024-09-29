@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmime 24.08.1-1"
-version = "24.08.1-1"
+title = "kmime 24.08.1-2"
+version = "24.08.1-2"
 description = "Desc: C++ API for MIME handling."
-date = "2024-09-13T12:34:14"
+date = "2024-09-29T09:37:48"
 aliases = "/packages/218335"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "156232"
-usize = "593909"
-sha1sum = "f73746f03b377758005f7d1766ccd3d32326c23f"
-depends = "['kcodecs>=6.5.0', 'ki18n>=6.5.0']"
+size = "156020"
+usize = "593525"
+sha1sum = "d5ce625700c4d436f1baef461011970af85b8185"
+depends = "['kcodecs>=6.6.0', 'ki18n>=6.6.0']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'akonadi-notes', 'kimap', 'kitinerary', 'kleopatra', 'kmbox', 'ksmtp', 'mimetreeparser']"
 +++
 ### Description: 

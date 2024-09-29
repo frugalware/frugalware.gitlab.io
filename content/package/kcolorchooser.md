@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcolorchooser 24.08.1-2"
-version = "24.08.1-2"
+title = "kcolorchooser 24.08.1-3"
+version = "24.08.1-3"
 description = "KDE Color Selector."
-date = "2024-09-28T22:05:45"
+date = "2024-09-29T10:10:39"
 aliases = "/packages/88167"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "32480"
+size = "32536"
 usize = "131476"
-sha1sum = "656bf74849587b01e2947de3ff358f207324b445"
+sha1sum = "8d8f683d24124c3f62f078ea4e0f5c8b48c7671f"
 depends = "['ki18n>=6.6.0', 'kxmlgui>=6.6.0']"
 +++
 ### Description: 
