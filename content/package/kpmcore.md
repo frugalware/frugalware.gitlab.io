@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpmcore 24.08.1-1"
-version = "24.08.1-1"
+title = "kpmcore 24.08.1-2"
+version = "24.08.1-2"
 description = "Library for managing partitions"
-date = "2024-09-13T14:33:17"
+date = "2024-09-29T21:37:19"
 aliases = "/packages/218345"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "671124"
-usize = "4321847"
-sha1sum = "b62460d89c12137de83e45da00064ccebf896df9"
-depends = "['kauth>=6.5.0', 'ki18n>=>=6.5.0', 'kwidgetsaddons>=6.5.0', 'qca', 'qca-ossl', 'qt6-svg>=6.7.1', 'util-linux']"
+size = "670852"
+usize = "4322191"
+sha1sum = "1068a00c7fd11370823eaaa3138935d928e518ec"
+depends = "['kauth>=6.6.0', 'ki18n>=>=6.6.0', 'kwidgetsaddons>=6.6.0', 'qca', 'qca-ossl', 'qt6-svg>=6.7.3', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeedu-data 24.08.1-1"
-version = "24.08.1-1"
+title = "kdeedu-data 24.08.1-2"
+version = "24.08.1-2"
 description = "Common libraries for KDE Edu release-service"
-date = "2024-09-13T14:47:35"
+date = "2024-09-29T21:55:17"
 aliases = "/packages/218297"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "331312"
+size = "331452"
 usize = "4291193"
-sha1sum = "97596a0614869a9d4455909def7b2ac13c1ce8cc"
-depends = "['qt6-base>=6.7.1']"
+sha1sum = "40eb17b87ec9c117be1b2dce19007f569abb2327"
+depends = "['qt6-base>=6.7.3']"
 +++
 ### Description: 
 Common libraries for KDE Edu release-service

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "k3b 24.08.1-1"
-version = "24.08.1-1"
+title = "k3b 24.08.1-2"
+version = "24.08.1-2"
 description = "The CD Kreator"
-date = "2024-09-13T14:46:42"
+date = "2024-09-29T21:54:28"
 aliases = "/packages/218657"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11590648"
-usize = "35609473"
-sha1sum = "39a9a1f88c319506f21530718c26e25fee282519"
-depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'kfilemetadata>=6.5.0', 'knewstuff>=6.5.0', 'knotifyconfig>=6.5.0', 'libdvdread', 'libkcddb>=24.08.1', 'libmad', 'libmpcdec', 'libsamplerate', 'qt6-webengine>=6.7.1']"
+size = "11590664"
+usize = "35598849"
+sha1sum = "10a10b2cc10c3fe0a15f9246c2cb5c2e55f85b2a"
+depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'kfilemetadata>=6.6.0', 'knewstuff>=6.6.0', 'knotifyconfig>=6.6.0', 'libdvdread', 'libkcddb>=24.08.1', 'libmad', 'libmpcdec', 'libsamplerate', 'qt6-webengine>=6.7.3']"
 +++
 ### Description: 
 The CD Kreator

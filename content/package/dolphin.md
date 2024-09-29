@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin 24.08.1-1"
-version = "24.08.1-1"
+title = "dolphin 24.08.1-2"
+version = "24.08.1-2"
 description = "File Manager"
-date = "2024-09-13T14:29:23"
+date = "2024-09-29T21:33:41"
 aliases = "/packages/88149"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4608816"
-usize = "14539574"
-sha1sum = "fb92bcb1348419f77775d8f2056c932363dbcde7"
-depends = "['baloo-widgets>=24.08.1', 'ffmpegthumbs', 'kbookmarks>=6.5.0', 'kcmutils>=6.5.0', 'kcompletion>=6.5.0', 'kconfig>=6.5.0', 'kcoreaddons>=6.5.0', 'kcrash>=6.5.0', 'kdbusaddons>=6.5.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.5.0', 'ki18n>=6.5.0', 'kiconthemes>=6.5.0', 'kio>=6.5.0', 'knewstuff>=6.5.0', 'knotifications>=6.5.0', 'kparts>=6.5.0', 'ktextwidgets>=6.5.0', 'kwindowsystem>=6.5.0', 'plasma-activities>=6.1.5', 'qt6-declarative>=6.7.1', 'solid>=6.5.0']"
+size = "4607188"
+usize = "14539222"
+sha1sum = "fb1e726ce30779d61cf5e0fa38968d36fd6e0d55"
+depends = "['baloo-widgets>=24.08.1', 'ffmpegthumbs', 'kbookmarks>=6.6.0', 'kcmutils>=6.6.0', 'kcompletion>=6.6.0', 'kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'kcrash>=6.6.0', 'kdbusaddons>=6.6.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.6.0', 'ki18n>=6.6.0', 'kiconthemes>=6.6.0', 'kio>=6.6.0', 'knewstuff>=6.6.0', 'knotifications>=6.6.0', 'kparts>=6.6.0', 'ktextwidgets>=6.6.0', 'kwindowsystem>=6.6.0', 'plasma-activities>=6.1.5', 'qt6-declarative>=6.7.3', 'solid>=6.6.0']"
 reverse_depends = "['dolphin-plugins', 'kio-gdrive']"
 +++
 ### Description: 

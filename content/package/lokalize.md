@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lokalize 24.08.1-1"
-version = "24.08.1-1"
+title = "lokalize 24.08.1-2"
+version = "24.08.1-2"
 description = "Computer-Aided Translation System."
-date = "2024-09-13T14:52:49"
+date = "2024-09-29T22:04:35"
 aliases = "/packages/118455"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2289156"
-usize = "7860207"
-sha1sum = "a3c74b06cba5ec4b7bb0a4fc7dff63ef7335f27f"
-depends = "['hunspell>=1.7.0', 'kio>=6.5.0']"
+size = "2289844"
+usize = "7861583"
+sha1sum = "ff61d301c0872274dd05754a65b5f7d0ab169c69"
+depends = "['hunspell>=1.7.0', 'kio>=6.6.0']"
 +++
 ### Description: 
 Computer-Aided Translation System.
