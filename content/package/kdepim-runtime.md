@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-runtime 24.08.1-1"
-version = "24.08.1-1"
+title = "kdepim-runtime 24.08.1-2"
+version = "24.08.1-2"
 description = "KDE PIM Runtime"
-date = "2024-09-13T14:18:41"
+date = "2024-09-29T21:02:11"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2649556"
-usize = "14839206"
-sha1sum = "43385f6eddc9e97436ce4b9ca560b722fa8a4ec1"
-depends = "['akonadi-calendar>=24.08.1', 'akonadi-notes>=24.08.1', 'kalarm>=24.08.1', 'kdav>=6.5.0', 'kimap>=24.08.1', 'kmbox>=24.08.1', 'knotifyconfig>=6.5.0', 'libkgapi>=24.08.1', 'pimcommon>=24.08.1', 'qca', 'qt6-networkauth>=6.7.1', 'syndication>=6.5.0']"
+size = "2196040"
+usize = "13057559"
+sha1sum = "eb78576f5bfb6d6796c4ae586dc811e2d8dc745f"
+depends = "['akonadi-calendar>=24.08.1', 'akonadi-notes>=24.08.1', 'kalarm>=24.08.1', 'kdav>=6.6.0', 'kimap>=24.08.1', 'kmbox>=24.08.1', 'knotifyconfig>=6.6.0', 'libkgapi>=24.08.1', 'pimcommon>=24.08.1', 'qca', 'qt6-networkauth>=6.7.3', 'syndication>=6.6.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 
@@ -22,8 +22,6 @@ KDE PIM Runtime
 * /usr/bin/akonadi_birthdays_resource
 * /usr/bin/akonadi_contacts_resource
 * /usr/bin/akonadi_davgroupware_resource
-* /usr/bin/akonadi_ewsmta_resource
-* /usr/bin/akonadi_ews_resource
 * /usr/bin/akonadi_google_resource
 * /usr/bin/akonadi_icaldir_resource
 * /usr/bin/akonadi_ical_resource
@@ -75,8 +73,6 @@ KDE PIM Runtime
 * /usr/share/akonadi/agents/birthdaysresource.desktop
 * /usr/share/akonadi/agents/contactsresource.desktop
 * /usr/share/akonadi/agents/davgroupwareresource.desktop
-* /usr/share/akonadi/agents/ewsmtaresource.desktop
-* /usr/share/akonadi/agents/ewsresource.desktop
 * /usr/share/akonadi/agents/googleresource.desktop
 * /usr/share/akonadi/agents/icaldirresource.desktop
 * /usr/share/akonadi/agents/icalresource.desktop
@@ -112,7 +108,6 @@ KDE PIM Runtime
 * /usr/share/akonadi/firstrun/defaultnotebook
 * /usr/share/applications/org.kde.akonadi_contacts_resource.desktop
 * /usr/share/applications/org.kde.akonadi_davgroupware_resource.desktop
-* /usr/share/applications/org.kde.akonadi_ews_resource.desktop
 * /usr/share/applications/org.kde.akonadi_google_resource.desktop
 * /usr/share/applications/org.kde.akonadi_imap_resource.desktop
 * /usr/share/applications/org.kde.akonadi_openxchange_resource.desktop
@@ -121,21 +116,11 @@ KDE PIM Runtime
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.MixedMaildir.Settings.xml
 * /usr/share/doc/kdepim-runtime-24.08.1/README.md
-* /usr/share/icons/hicolor/128x128/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/128x128/apps/ox.png
-* /usr/share/icons/hicolor/16x16/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/16x16/apps/ox.png
-* /usr/share/icons/hicolor/22x22/apps/akonadi-ews.png
-* /usr/share/icons/hicolor/24x24/apps/akonadi-ews.png
-* /usr/share/icons/hicolor/32x32/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/32x32/apps/ox.png
-* /usr/share/icons/hicolor/48x48/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/48x48/apps/ox.png
-* /usr/share/icons/hicolor/64x64/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/64x64/apps/ox.png
-* /usr/share/icons/hicolor/72x72/apps/akonadi-ews.png
-* /usr/share/icons/hicolor/96x96/apps/akonadi-ews.png
-* /usr/share/knotifications6/akonadi_ews_resource.notifyrc
 * /usr/share/knotifications6/akonadi_google_resource.notifyrc
 * /usr/share/knotifications6/akonadi_imap_resource.notifyrc
 * /usr/share/knotifications6/akonadi_maildispatcher_agent.notifyrc
