@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmailtransport 24.08.1-1"
-version = "24.08.1-1"
+title = "kmailtransport 24.08.1-2"
+version = "24.08.1-2"
 description = "Mail Transport Service"
-date = "2024-09-13T13:53:32"
+date = "2024-09-29T17:50:33"
 aliases = "/packages/218331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "248556"
-usize = "1229656"
-sha1sum = "1b68300be8e285b035e39844c4c8a3c5961bed59"
-depends = "['akonadi-contacts>=24.08.1', 'kcmutils>=6.5.0', 'ksmtp>=24.08.1', 'libkgapi>=24.08.1', 'qtkeychain']"
+size = "248564"
+usize = "1229240"
+sha1sum = "1d5d947d643c1ef02269b35c8ed7b4bfbaa0a476"
+depends = "['akonadi-contacts>=24.08.1', 'kcmutils>=6.6.0', 'ksmtp>=24.08.1', 'libkgapi>=24.08.1', 'qtkeychain']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 

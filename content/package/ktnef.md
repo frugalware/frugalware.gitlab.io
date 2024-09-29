@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktnef 24.08.1-1"
-version = "24.08.1-1"
+title = "ktnef 24.08.1-2"
+version = "24.08.1-2"
 description = "Desc: C++ API for the handling of TNEF data."
-date = "2024-09-13T13:37:52"
+date = "2024-09-29T17:24:05"
 aliases = "/packages/218356"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "125364"
-usize = "682826"
-sha1sum = "b60e48c97b6d91a5a4488be50cf949520925db02"
-depends = "['kcalutils>=24.08.1', 'kcontacts>=6.5.0']"
+size = "124920"
+usize = "682730"
+sha1sum = "bcbe89820f9bf25f1c53948e19962c578821aed9"
+depends = "['kcalutils>=24.08.1', 'kcontacts>=6.6.0']"
 reverse_depends = "['kdepim-addons', 'kmail']"
 +++
 ### Description: 
