@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bovo 24.08.1-1"
-version = "24.08.1-1"
+title = "bovo 24.08.1-2"
+version = "24.08.1-2"
 description = "A Gomoku like game for two players."
-date = "2024-09-13T12:54:36"
+date = "2024-09-29T11:12:59"
 aliases = "/packages/184171"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "314752"
-usize = "784521"
-sha1sum = "60e6cbc7047e09e205a12e3379208b78a8d3eea3"
+size = "314492"
+usize = "784713"
+sha1sum = "0192a52ed54671b200276ece5461d472b955dfd3"
 depends = "['libkdegames>=24.08.1']"
 +++
 ### Description: 

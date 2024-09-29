@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krfb 24.08.1-2"
-version = "24.08.1-2"
+title = "krfb 24.08.1-3"
+version = "24.08.1-3"
 description = "KRfb is a RFB protocol server (VNC)."
-date = "2024-09-29T09:28:54"
+date = "2024-09-29T10:36:20"
 aliases = "/packages/74082"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1260116"
+size = "1260252"
 usize = "2531313"
-sha1sum = "65f3711d694add5b416dbde24bbd3c84eb5e2b2a"
+sha1sum = "dd347d0b7c54295e2c84381434c3d718bd864c93"
 depends = "['kdnssd>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kwallet>=6.6.0', 'kwayland>=6.1.5', 'kxmlgui>=6.6.0', 'libvncserver>=0.9.11', 'libxtst']"
 reverse_depends = "['krfb-pipewire']"
 +++
