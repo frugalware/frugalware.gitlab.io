@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sweeper 24.08.1-1"
-version = "24.08.1-1"
+title = "sweeper 24.08.1-2"
+version = "24.08.1-2"
 description = "System cleaner."
-date = "2024-09-13T15:07:59"
+date = "2024-09-30T08:11:05"
 aliases = "/packages/218528"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "390604"
+size = "390640"
 usize = "857540"
-sha1sum = "4ac3a9fedb6ed6fe8a97a0c8f2afd3a91b48c3a5"
-depends = "['kconfig>=6.5.0', 'kconfigwidgets>=6.5.0', 'kcoreaddons>=6.5.0', 'kcrash>=6.5.0', 'kdoctools>=6.5.0', 'ki18n>=6.5.0', 'plasma-activities-stats>=6.1.5']"
+sha1sum = "377ed699fd7fe2f88d5295c30d0e3b0d4922e4f9"
+depends = "['kconfig>=6.6.0', 'kconfigwidgets>=6.6.0', 'kcoreaddons>=6.6.0', 'kcrash>=6.6.0', 'kdoctools>=6.6.0', 'ki18n>=6.6.0', 'plasma-activities-stats>=6.1.5']"
 +++
 ### Description: 
 System cleaner.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libktorrent 24.08.1-1"
-version = "24.08.1-1"
+title = "libktorrent 24.08.1-2"
+version = "24.08.1-2"
 description = "A BitTorrent library for KDE applications."
-date = "2024-09-13T15:00:53"
+date = "2024-09-30T07:53:21"
 aliases = "/packages/219531"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "733948"
-usize = "2819247"
-sha1sum = "a82aa77a200fcc7d4d18d181a838fcf6d2ee2115"
-depends = "['kio>=6.5.0', 'pcre2', 'qca']"
+size = "734156"
+usize = "2818607"
+sha1sum = "911c66037c40a73f248acda8c9d3ea35d925830a"
+depends = "['kio>=6.6.0', 'pcre2', 'qca']"
 reverse_depends = "['kget', 'ktorrent']"
 +++
 ### Description: 
