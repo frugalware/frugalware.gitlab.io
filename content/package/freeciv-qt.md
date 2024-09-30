@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "freeciv-qt 3.1.2-1"
-version = "3.1.2-1"
+title = "freeciv-qt 3.1.2-2"
+version = "3.1.2-2"
 description = "Qt client for freeciv"
-date = "2024-08-02T13:44:11"
+date = "2024-09-30T21:08:55"
 aliases = "/packages/217366"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "3636824"
-usize = "5790552"
-sha1sum = "4749a4cf0bcca944e0ce8dd08f21048b187e5a7c"
-depends = "['freeciv', 'qt6-base']"
+size = "3749956"
+usize = "6264640"
+sha1sum = "4b23bb5619b1d3d8ee4695c6c9763e3a1306e17b"
+depends = "['freeciv', 'qt6-base>=6.7.3']"
 +++
 ### Description: 
 Qt client for freeciv
 
 ### Files: 
 * /usr/bin/freeciv-qt
+* /usr/bin/freeciv-ruledit
 * /usr/share/applications/org.freeciv.qt.desktop
 * /usr/share/freeciv/themes/gui-qt/Classic/arrow-down.png
 * /usr/share/freeciv/themes/gui-qt/Classic/arrow-left.png

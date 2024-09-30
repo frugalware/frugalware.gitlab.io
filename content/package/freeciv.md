@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeciv 3.1.2-1"
-version = "3.1.2-1"
+title = "freeciv 3.1.2-2"
+version = "3.1.2-2"
 description = "A multiuser clone of the famous Microprose game of Civilization."
-date = "2024-08-02T13:44:11"
+date = "2024-09-30T21:08:55"
 aliases = "/packages/4179"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "31738876"
-usize = "87988542"
-sha1sum = "b0cca5c1d80fc245921b663febca1db2fe5dd655"
+size = "31484236"
+usize = "87530902"
+sha1sum = "6538a6b19201efe355cc845159f306355b207c2b"
 depends = "['curl>=7.46.0', 'icu4c>=75.1', 'libxdamage', 'libxpm', 'ncurses', 'readline>=8.0', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3']"
 reverse_depends = "['freeciv-gtk2', 'freeciv-gtk3', 'freeciv-qt']"
 +++
@@ -20,7 +20,6 @@ A multiuser clone of the famous Microprose game of Civilization.
 ### Files: 
 * /etc/freeciv/database.lua
 * /usr/bin/freeciv-manual
-* /usr/bin/freeciv-ruledit
 * /usr/bin/freeciv-ruleup
 * /usr/bin/freeciv-sdl2
 * /usr/bin/freeciv-server

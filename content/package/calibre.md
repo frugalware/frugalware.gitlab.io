@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 7.12.0-1"
-version = "7.12.0-1"
+title = "calibre 7.19.0-1"
+version = "7.19.0-1"
 description = "Ebook management application"
-date = "2024-06-21T11:07:30"
+date = "2024-09-30T21:00:48"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "29554592"
-usize = "68377073"
-sha1sum = "3984b9c2fa28682f6ad5fbb83f36c89ccb9a0c28"
+size = "28910696"
+usize = "69985398"
+sha1sum = "cdc7d3aa050227dd26cc91e33e2ae786f8adf32b"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=75.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
@@ -1089,18 +1089,14 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/toc/__init__.py
 * /usr/lib/calibre/calibre/gui2/tools.py
 * /usr/lib/calibre/calibre/gui2/trash.py
-* /usr/lib/calibre/calibre/gui2/tts/common.py
+* /usr/lib/calibre/calibre/gui2/tts/config.py
 * /usr/lib/calibre/calibre/gui2/tts/develop.py
-* /usr/lib/calibre/calibre/gui2/tts/errors.py
-* /usr/lib/calibre/calibre/gui2/tts/implementation.py
-* /usr/lib/calibre/calibre/gui2/tts/linux.py
-* /usr/lib/calibre/calibre/gui2/tts/linux_config.py
-* /usr/lib/calibre/calibre/gui2/tts/macos.py
-* /usr/lib/calibre/calibre/gui2/tts/macos_config.py
-* /usr/lib/calibre/calibre/gui2/tts/windows.py
-* /usr/lib/calibre/calibre/gui2/tts/windows_config.py
-* /usr/lib/calibre/calibre/gui2/tts/windows_sapi.py
-* /usr/lib/calibre/calibre/gui2/tts/windows_sapi_config.py
+* /usr/lib/calibre/calibre/gui2/tts/download.py
+* /usr/lib/calibre/calibre/gui2/tts/manager.py
+* /usr/lib/calibre/calibre/gui2/tts/piper.py
+* /usr/lib/calibre/calibre/gui2/tts/qt.py
+* /usr/lib/calibre/calibre/gui2/tts/speechd.py
+* /usr/lib/calibre/calibre/gui2/tts/types.py
 * /usr/lib/calibre/calibre/gui2/tts/__init__.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/boss.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/char_select.py
@@ -1226,6 +1222,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/plugins/certgen.so
 * /usr/lib/calibre/calibre/plugins/cPalmdoc.so
 * /usr/lib/calibre/calibre/plugins/fast_css_transform.so
+* /usr/lib/calibre/calibre/plugins/fast_html_entities.so
 * /usr/lib/calibre/calibre/plugins/freetype.so
 * /usr/lib/calibre/calibre/plugins/html_as_json.so
 * /usr/lib/calibre/calibre/plugins/html_syntax_highlighter.so
@@ -1253,8 +1250,11 @@ Ebook management application
 * /usr/lib/calibre/calibre/prints.py
 * /usr/lib/calibre/calibre/ptempfile.py
 * /usr/lib/calibre/calibre/rpdb.py
+* /usr/lib/calibre/calibre/scraper/qt.py
+* /usr/lib/calibre/calibre/scraper/qt_backend.py
 * /usr/lib/calibre/calibre/scraper/simple.py
-* /usr/lib/calibre/calibre/scraper/simple_backend.py
+* /usr/lib/calibre/calibre/scraper/test_fetch_backend.py
+* /usr/lib/calibre/calibre/scraper/webengine_backend.py
 * /usr/lib/calibre/calibre/scraper/__init__.py
 * /usr/lib/calibre/calibre/spell/break_iterator.py
 * /usr/lib/calibre/calibre/spell/dictionary.py
@@ -1427,8 +1427,6 @@ Ebook management application
 * /usr/lib/calibre/calibre/utils/unrar.py
 * /usr/lib/calibre/calibre/utils/unsmarten.py
 * /usr/lib/calibre/calibre/utils/webengine.py
-* /usr/lib/calibre/calibre/utils/windows/winsapi.py
-* /usr/lib/calibre/calibre/utils/windows/winspeech.py
 * /usr/lib/calibre/calibre/utils/windows/wintest.py
 * /usr/lib/calibre/calibre/utils/windows/__init__.py
 * /usr/lib/calibre/calibre/utils/winreg/dde.py
@@ -1915,6 +1913,7 @@ Ebook management application
 * /usr/share/calibre/pdf-mathjax-loader.js
 * /usr/share/calibre/pdf-preprint.js
 * /usr/share/calibre/pin-template.svg
+* /usr/share/calibre/piper-voices.json
 * /usr/share/calibre/quick_start/deu.epub
 * /usr/share/calibre/quick_start/eng.epub
 * /usr/share/calibre/quick_start/fra.epub
@@ -1943,10 +1942,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.12.0/COPYRIGHT
-* /usr/share/doc/calibre-7.12.0/INSTALL.rst
-* /usr/share/doc/calibre-7.12.0/LICENSE
-* /usr/share/doc/calibre-7.12.0/README.md
+* /usr/share/doc/calibre-7.19.0/COPYRIGHT
+* /usr/share/doc/calibre-7.19.0/INSTALL.rst
+* /usr/share/doc/calibre-7.19.0/LICENSE
+* /usr/share/doc/calibre-7.19.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png
