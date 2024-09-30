@@ -1,19 +1,19 @@
 +++
 draft = false
-title = "qca 2.3.9-2"
-version = "2.3.9-2"
+title = "qca 2.3.9-3"
+version = "2.3.9-3"
 description = "QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions."
-date = "2024-07-13T15:56:28"
+date = "2024-09-30T11:44:16"
 aliases = "/packages/5422"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "576964"
-usize = "2309632"
-sha1sum = "901b9e5cc06cd9479e78abe2bb25254ae9bade79"
-depends = "['cyrus-sasl>=2.1.26-3', 'nss>=3.26', 'qt6-5compat']"
+size = "575640"
+usize = "2314494"
+sha1sum = "7d6e1dc1da62babde21253735d69e22f07623776"
+depends = "['cyrus-sasl>=2.1.26-3', 'nss>=3.26', 'qt6-5compat>=6.7.3']"
 reverse_depends = "['kdeconnect-kde', 'kdepim-runtime', 'konversation', 'kpmcore', 'ksirk', 'kwallet', 'kwallet5', 'libktorrent', 'messagelib', 'okteta', 'okular', 'plasma-nm', 'qca-botan', 'qca-cyrus-sasl', 'qca-gcrypt', 'qca-gnupg', 'qca-nss', 'qca-ossl', 'qca-qt5', 'quassel']"
-license = "2.1"
+license = "LGPL"
 +++
 ### Description: 
 QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions.

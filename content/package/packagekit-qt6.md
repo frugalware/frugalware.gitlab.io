@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "packagekit-qt6 1.1.2-1"
-version = "1.1.2-1"
+title = "packagekit-qt6 1.1.2-2"
+version = "1.1.2-2"
 description = "A system designed to make installation and updates of packages easier"
-date = "2024-07-14T14:58:25"
+date = "2024-09-30T11:36:48"
 aliases = "/packages/221372"
 categories = ['xapps']
 upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
-size = "116064"
-usize = "469334"
-sha1sum = "1a5c016ed395d2c838d9e2261fcb890f08e8bb45"
-depends = "['qt6-base']"
+size = "115124"
+usize = "468406"
+sha1sum = "aec6c43e3611a16e45021f7c47f575a2adc860c9"
+depends = "['qt6-base>=6.7.3']"
 reverse_depends = "['discover', 'frameworkintegration', 'kdenetwork-filesharing', 'plasma-desktop']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "massif-visualizer 24.08.1-1"
-version = "24.08.1-1"
+title = "massif-visualizer 24.08.1-2"
+version = "24.08.1-2"
 description = "Visualizer for Valgrind Massif data files"
-date = "2024-09-13T17:48:44"
+date = "2024-09-30T11:17:32"
 aliases = "/packages/222506"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "176708"
-usize = "749648"
-sha1sum = "b2221bf7de7ca14ddbbd30a9d16a95049ff46699"
+size = "176672"
+usize = "749200"
+sha1sum = "1011f9c8d85972d0f681354bb38c3f4cca6b09ec"
 depends = "['kdiagram', 'kgraphviewer>=']"
 +++
 ### Description: 

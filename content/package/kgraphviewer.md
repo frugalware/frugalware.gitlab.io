@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgraphviewer 24.08.1-1"
-version = "24.08.1-1"
+title = "kgraphviewer 24.08.1-2"
+version = "24.08.1-2"
 description = "GraphViz dot graph viewer"
-date = "2024-09-14T09:53:03"
+date = "2024-09-30T11:21:30"
 aliases = "/packages/222504"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1377260"
-usize = "3214678"
-sha1sum = "f426b51ddae02bc19194f1b8a77f3e5104fb6c1b"
-depends = "['graphviz', 'kparts>=6.5.0']"
+size = "1328708"
+usize = "3014132"
+sha1sum = "79c07d541f0b837db0413abf4dd7df7689e07437"
+depends = "['graphviz', 'kparts>=6.6.0']"
 reverse_depends = "['massif-visualizer']"
 +++
 ### Description: 
@@ -98,24 +98,11 @@ GraphViz dot graph viewer
 * /usr/share/doc/HTML/uk/kgraphviewer/index.docbook
 * /usr/share/doc/kgraphviewer-24.08.1/AUTHORS
 * /usr/share/doc/kgraphviewer-24.08.1/ChangeLog
-* /usr/share/doc/kgraphviewer-24.08.1/Changelog
 * /usr/share/doc/kgraphviewer-24.08.1/COPYING
 * /usr/share/doc/kgraphviewer-24.08.1/COPYING.DOC
-* /usr/share/doc/kgraphviewer-24.08.1/COPYING.GPLv2
-* /usr/share/doc/kgraphviewer-24.08.1/COPYING.GPLv3
-* /usr/share/doc/kgraphviewer-24.08.1/COPYING.LGPLv2.1
-* /usr/share/doc/kgraphviewer-24.08.1/COPYING.LGPLv3
-* /usr/share/doc/kgraphviewer-24.08.1/CREDITS
 * /usr/share/doc/kgraphviewer-24.08.1/INSTALL
-* /usr/share/doc/kgraphviewer-24.08.1/INSTALL.md
-* /usr/share/doc/kgraphviewer-24.08.1/LICENSE
 * /usr/share/doc/kgraphviewer-24.08.1/README
-* /usr/share/doc/kgraphviewer-24.08.1/README.markdown
-* /usr/share/doc/kgraphviewer-24.08.1/README.md
-* /usr/share/doc/kgraphviewer-24.08.1/RELEASE
-* /usr/share/doc/kgraphviewer-24.08.1/RELEASE_NOTES
 * /usr/share/doc/kgraphviewer-24.08.1/TODO
-* /usr/share/doc/kgraphviewer-24.08.1/VERSION
 * /usr/share/icons/hicolor/16x16/apps/kgraphviewer.png
 * /usr/share/icons/hicolor/32x32/apps/kgraphviewer.png
 * /usr/share/locale/ar/LC_MESSAGES/kgraphviewer.mo

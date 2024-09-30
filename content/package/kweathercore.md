@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweathercore 24.08.1-1"
-version = "24.08.1-1"
+title = "kweathercore 24.08.1-2"
+version = "24.08.1-2"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2024-09-13T17:46:25"
+date = "2024-09-30T11:15:38"
 aliases = "/packages/220987"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "81640"
-usize = "376239"
-sha1sum = "8c7fd4ecdf54af634af28a8192f59150dfd92b49"
+size = "81824"
+usize = "375919"
+sha1sum = "194bfd3d296192e2196b26b1a33102bb8bde7a86"
 depends = "['kholidays', 'ki18n', 'qt6-location']"
 reverse_depends = "['kweather']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libportal-gtk3 0.8.1-1"
-version = "0.8.1-1"
+title = "libportal-gtk3 0.8.1-2"
+version = "0.8.1-2"
 description = "libportal gtk+3 backend"
-date = "2024-09-11T12:33:58"
+date = "2024-09-30T11:57:05"
 aliases = "/packages/220843"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "8928"
-usize = "29226"
-sha1sum = "8460012af9ccd226ed5a13c00b2c51c7f237d9b6"
+size = "8980"
+usize = "29290"
+sha1sum = "61d95a57fe7b2d3274c27081c027ab84568a0a6a"
 depends = "['gtk+3', 'libportal']"
 +++
 ### Description: 
