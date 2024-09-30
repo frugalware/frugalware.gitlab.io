@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-gpgme 1.23.2-8"
-version = "1.23.2-8"
+title = "python3-gpgme 1.23.2-9"
+version = "1.23.2-9"
 description = "Python3 bindings for gpgme"
-date = "2024-06-24T18:15:31"
+date = "2024-09-30T14:21:51"
 aliases = "/packages/218791"
 categories = ['devel']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "244172"
-usize = "1449488"
-sha1sum = "001b9276c5f08d480df53480a5d8e18e8110c39e"
+size = "51824"
+usize = "237531"
+sha1sum = "4298d4f7761df1360c52f38a97acf600c6d6b4d4"
 depends = "['gpgme>=1.23.2', 'python3>=3.12']"
 reverse_depends = "['python3-dulwich']"
 +++
@@ -67,7 +67,6 @@ Python3 bindings for gpgme
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/constants/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/core.py
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/errors.py
-* /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/gpgme.py
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/results.py
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/util.py
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/version.py
@@ -77,7 +76,6 @@ Python3 bindings for gpgme
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/callbacks.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/core.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/errors.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/gpgme.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/results.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/gpg-1.23.2-py3.12-linux-x86_64.egg/gpg/__pycache__/version.cpython-312.pyc

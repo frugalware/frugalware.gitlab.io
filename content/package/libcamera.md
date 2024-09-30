@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcamera 0.3.2-1"
-version = "0.3.2-1"
+title = "libcamera 0.3.2-2"
+version = "0.3.2-2"
 description = "A complex camera support library for Linux, Android, and ChromeOS"
-date = "2024-09-24T19:00:30"
+date = "2024-09-30T14:44:53"
 aliases = "/packages/220848"
 categories = ['multimedia']
 upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
-size = "4795544"
-usize = "32825087"
-sha1sum = "f922e3e1295e85e403556dd1994d4a866ecbda4f"
+size = "6982560"
+usize = "37058791"
+sha1sum = "1423e55b856ec51b416e1118919275b9eae0b2a8"
 depends = "['gnutls', 'libdrm', 'libjpeg-turbo', 'libyaml']"
 reverse_depends = "['gst1-plugin-libcamera', 'libcamera-tools', 'pipewire']"
 +++

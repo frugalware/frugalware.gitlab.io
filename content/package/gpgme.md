@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gpgme 1.23.2-8"
-version = "1.23.2-8"
+title = "gpgme 1.23.2-9"
+version = "1.23.2-9"
 description = "A high-level crypto API for encryption"
-date = "2024-06-24T18:15:31"
+date = "2024-09-30T14:21:51"
 aliases = "/packages/3620"
 categories = ['apps']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "2357684"
-usize = "4105272"
-sha1sum = "ab234db3588a132f75f48934714f0bd27f3de072"
+size = "2356376"
+usize = "4109267"
+sha1sum = "f21e6708e0a4ccd43f543fec26a53ee68d8298e9"
 depends = "['glibc>=2.34', 'libassuan>=3.0.1', 'libgpg-error>=1.27-3']"
 reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-smime', 'fwupd', 'gmime2', 'gmime3', 'kgpg', 'libgpgmepp', 'libjcat', 'libqgpgme', 'libsmbclient', 'mcabber', 'mutt-devel', 'openvas-libraries', 'openvas-manager', 'ostree', 'python3-gpgme', 'sylpheed', 'volume_key', 'wget2']"
 +++
