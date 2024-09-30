@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler 24.09.0-1"
-version = "24.09.0-1"
+title = "poppler 24.09.0-2"
+version = "24.09.0-2"
 description = "A PDF rendering library"
-date = "2024-09-09T11:37:23"
+date = "2024-09-30T12:15:24"
 aliases = "/packages/3295"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "2013828"
-usize = "10083561"
-sha1sum = "100f351cee0aa30ab2b467873727ea12401f9223"
+size = "2015744"
+usize = "10083773"
+sha1sum = "0bf9613c42e813df635f074b898b2e9a5090ea07"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data', 'poppler-data']"
 reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pinentry 1.3.1-1"
-version = "1.3.1-1"
+title = "pinentry 1.3.1-2"
+version = "1.3.1-2"
 description = "Applications for entering PINs or Passphrases."
-date = "2024-07-14T20:38:52"
+date = "2024-09-30T12:17:40"
 aliases = "/packages/217776"
 categories = ['apps-extra']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/pinentry/"
 arch = "x86_64"
-size = "110080"
-usize = "321828"
-sha1sum = "91d0108a69243043de6644389525e627aa604f97"
+size = "109932"
+usize = "322884"
+sha1sum = "f31a1d5df46411ea08d92849382085f917b0f4ad"
 depends = "['glib2', 'libassuan>=3.0.1', 'libsecret']"
 reverse_depends = "['pinentry-enlightment', 'pinentry-fltk', 'pinentry-gnome', 'pinentry-gtk+2', 'pinentry-qt5', 'pinentry-qt6']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6webengine 6.7.0-1"
-version = "6.7.0-1"
+title = "pyqt6webengine 6.7.0-2"
+version = "6.7.0-2"
 description = "Python bindings for Qt6WebEngine"
-date = "2024-06-18T07:59:54"
+date = "2024-09-30T12:42:18"
 aliases = "/packages/220813"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "126592"
-usize = "686646"
-sha1sum = "3f57c3d273da258d53460ad3fd2441805db9b99b"
+size = "126948"
+usize = "688086"
+sha1sum = "ccb27b3b546233dbaec3cd3d2951f764a5820211"
 depends = "['pyqt6', 'qt6-webengine']"
 reverse_depends = "['calibre', 'polychromatic']"
 +++

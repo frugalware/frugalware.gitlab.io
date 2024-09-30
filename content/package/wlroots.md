@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wlroots 0.18.0-1"
-version = "0.18.0-1"
+title = "wlroots 0.18.1-1"
+version = "0.18.1-1"
 description = "Modular Wayland compositor library"
-date = "2024-07-22T09:52:52"
+date = "2024-09-30T12:52:48"
 aliases = "/packages/220461"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.freedesktop.org/wlroots/wlroots"
 arch = "x86_64"
-size = "329488"
-usize = "1193726"
-sha1sum = "c4fc2251e71ef026a76aa6b0f67a9dc00822edbc"
+size = "329232"
+usize = "1197718"
+sha1sum = "3c858f957507cf5612126abc01f28ecc4f3c7594"
 depends = "['libdrm', 'libgbm', 'libglvnd', 'libinput', 'libxcb', 'libxkbcommon', 'pixman', 'seatd', 'vulkan-icd-loader', 'wayland', 'xcb-util', 'xcb-util-renderutil', 'xcb-util-wm']"
 reverse_depends = "['greetd-qt6greet']"
 +++
@@ -130,5 +130,5 @@ Modular Wayland compositor library
 * /usr/include/wlroots-0.18/wlr/xwayland/xwayland.h
 * /usr/lib/libwlroots-0.18.so
 * /usr/lib/pkgconfig/wlroots-0.18.pc
-* /usr/share/doc/wlroots-0.18.0/LICENSE
-* /usr/share/doc/wlroots-0.18.0/README.md
+* /usr/share/doc/wlroots-0.18.1/LICENSE
+* /usr/share/doc/wlroots-0.18.1/README.md

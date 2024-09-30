@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt 7.26.0-2"
-version = "7.26.0-2"
+title = "mlt 7.28.0-1"
+version = "7.28.0-1"
 description = "MLT is an open source multimedia framework, designed and developed for television broadcasting."
-date = "2024-09-03T00:02:00"
+date = "2024-09-30T12:21:09"
 aliases = "/packages/218378"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "702184"
-usize = "2743760"
-sha1sum = "e05804ad4e392a1c56636246711df6f7624d6362"
+size = "701864"
+usize = "2746000"
+sha1sum = "3117324656e4d7f25c54207ec4879395dbce6769"
 depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=7.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libdv', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
 reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-opencv', 'mlt-qt', 'mlt-qt6', 'mlt-rubberband', 'mlt-sdl']"
 +++
@@ -86,10 +86,10 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/lib/cmake/Mlt7/Mlt7Targets.cmake
 * /usr/lib/libmlt++-7.so
 * /usr/lib/libmlt++-7.so.7
-* /usr/lib/libmlt++-7.so.7.26.0
+* /usr/lib/libmlt++-7.so.7.28.0
 * /usr/lib/libmlt-7.so
 * /usr/lib/libmlt-7.so.7
-* /usr/lib/libmlt-7.so.7.26.0
+* /usr/lib/libmlt-7.so.7.28.0
 * /usr/lib/mlt-7/libmltavformat.so
 * /usr/lib/mlt-7/libmltcore.so
 * /usr/lib/mlt-7/libmltdecklink.so
@@ -111,10 +111,10 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/lib/pkgconfig/mlt-framework-7.pc
 * /usr/lib/python3.12/site-packages/mlt7.py
 * /usr/lib/python3.12/site-packages/_mlt7.so
-* /usr/share/doc/mlt-7.26.0/AUTHORS
-* /usr/share/doc/mlt-7.26.0/COPYING
-* /usr/share/doc/mlt-7.26.0/NEWS
-* /usr/share/doc/mlt-7.26.0/README.md
+* /usr/share/doc/mlt-7.28.0/AUTHORS
+* /usr/share/doc/mlt-7.28.0/COPYING
+* /usr/share/doc/mlt-7.28.0/NEWS
+* /usr/share/doc/mlt-7.28.0/README.md
 * /usr/share/man/man1/melt-7.1.gz
 * /usr/share/mlt-7/avformat/blacklist.txt
 * /usr/share/mlt-7/avformat/consumer_avformat.yml
