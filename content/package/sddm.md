@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sddm 0.21.0-16"
-version = "0.21.0-16"
+title = "sddm 0.21.0-17"
+version = "0.21.0-17"
 description = "QML based X11 display manager"
-date = "2024-09-02T12:21:03"
+date = "2024-09-30T21:58:18"
 aliases = "/packages/217437"
 categories = ['x11']
 upstreamurl = "https://github.com/sddm/sddm"
 arch = "x86_64"
-size = "3662524"
-usize = "5535298"
-sha1sum = "1573d0686bbbbb4e0b7346be775ad10f9fbf86c6"
-depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative', 'qt6-declarative', 'xauth']"
+size = "3662760"
+usize = "5534722"
+sha1sum = "09a69489b7e56981a5268e644805e04b5b26b267"
+depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative', 'qt6-declarative>=6.7.3', 'xauth']"
 reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-desktop', 'sddm-deepin', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
 +++
 ### Description: 
