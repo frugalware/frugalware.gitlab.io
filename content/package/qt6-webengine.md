@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-webengine 6.7.3-1"
-version = "6.7.3-1"
+title = "qt6-webengine 6.7.3-2"
+version = "6.7.3-2"
 description = "The Qt6 toolkit, qtwebengine"
-date = "2024-09-28T14:49:12"
+date = "2024-09-30T13:28:06"
 aliases = "/packages/220791"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "82666700"
+size = "82656808"
 usize = "252283626"
-sha1sum = "6f76dcc5cc17718341357e23ed48320ab851f326"
-depends = "['ffmpeg>=7.0', 'icu4c>=75.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libvpx', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxrandr', 'libxshmfence', 'libxslt', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
+sha1sum = "f82e9b248b3be2ab361d18082ac90e1156dc2525"
+depends = "['ffmpeg>=7.0', 'icu4c>=75.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libvpx', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxrandr', 'libxshmfence', 'libxslt', 'mesa-dri-drivers', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
 reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'sigil', 'skanpage', 'stellarium', 'syncthingtray', 'texmaker']"
 +++
 ### Description: 

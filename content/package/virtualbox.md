@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "virtualbox 7.1.0-3"
-version = "7.1.0-3"
+title = "virtualbox 7.1.2-1"
+version = "7.1.2-1"
 description = "Oracle VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use."
-date = "2024-09-16T11:39:36"
+date = "2024-09-30T14:02:19"
 aliases = "/packages/136016"
 categories = ['xapps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "43899368"
-usize = "127629621"
-sha1sum = "493d73faaf4c57b4bdaba6dcbd91887f907ad9d2"
-depends = "['alsa-lib>=1.1.4.1', 'curl', 'iasl', 'iproute2', 'kernel=6.11-1', 'libcap', 'libglu', 'libglvnd', 'libidl', 'libinput', 'libpulse', 'libuuid', 'libvncserver', 'libvpx>=1.13.0', 'libx11', 'libxcomposite', 'libxcursor', 'libxext', 'libxinerama', 'libxmu', 'libxrandr', 'libxslt', 'lvm2', 'mesa-libegl>=17.3.0-3', 'mesa-libglx>=17.3.0-3', 'openssl>=3.1.0', 'opus', 'python3', 'qt6-base', 'qt6-scxml', 'sdl', 'virtualbox-modules>=7.1.0', 'xalan-c>=1.10.0-2', 'xerces-c>=2.8.0', 'xrandr']"
+size = "43924032"
+usize = "127687445"
+sha1sum = "96d9eda7dd180fb424a85300585335f1cde5bb31"
+depends = "['alsa-lib>=1.1.4.1', 'curl', 'iasl', 'iproute2', 'kernel=6.11-1', 'libcap', 'libglu', 'libglvnd', 'libidl', 'libinput', 'libpulse', 'libuuid', 'libvncserver', 'libvpx>=1.13.0', 'libx11', 'libxcomposite', 'libxcursor', 'libxext', 'libxinerama', 'libxmu', 'libxrandr', 'libxslt', 'lvm2', 'mesa-libegl>=17.3.0-3', 'mesa-libglx>=17.3.0-3', 'openssl>=3.1.0', 'opus', 'python3', 'qt6-base>=6.7.3', 'qt6-scxml>=6.7.3', 'sdl', 'virtualbox-modules>=7.1.2', 'xalan-c>=1.10.0-2', 'xerces-c>=2.8.0', 'xrandr']"
 +++
 ### Description: 
 Oracle VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use.
@@ -85,18 +85,18 @@ Oracle VirtualBox is a family of powerful x86 virtualization products for enterp
 * /usr/lib/virtualbox/VirtualBoxVM.so
 * /usr/lib/virtualbox/VMMR0.r0
 * /usr/share/applications/virtualbox.desktop
-* /usr/share/doc/virtualbox-7.1.0/AUTHORS
-* /usr/share/doc/virtualbox-7.1.0/CHANGES
-* /usr/share/doc/virtualbox-7.1.0/COPYING
-* /usr/share/doc/virtualbox-7.1.0/COPYING.CDDL
-* /usr/share/doc/virtualbox-7.1.0/FAQ
-* /usr/share/doc/virtualbox-7.1.0/INSTALL
-* /usr/share/doc/virtualbox-7.1.0/LICENSE
-* /usr/share/doc/virtualbox-7.1.0/NEWS
-* /usr/share/doc/virtualbox-7.1.0/README
-* /usr/share/doc/virtualbox-7.1.0/README.ENGINE
-* /usr/share/doc/virtualbox-7.1.0/README.FIPS
-* /usr/share/doc/virtualbox-7.1.0/README.GuestAdditionsPackaging
+* /usr/share/doc/virtualbox-7.1.2/AUTHORS
+* /usr/share/doc/virtualbox-7.1.2/CHANGES
+* /usr/share/doc/virtualbox-7.1.2/COPYING
+* /usr/share/doc/virtualbox-7.1.2/COPYING.CDDL
+* /usr/share/doc/virtualbox-7.1.2/FAQ
+* /usr/share/doc/virtualbox-7.1.2/INSTALL
+* /usr/share/doc/virtualbox-7.1.2/LICENSE
+* /usr/share/doc/virtualbox-7.1.2/NEWS
+* /usr/share/doc/virtualbox-7.1.2/README
+* /usr/share/doc/virtualbox-7.1.2/README.ENGINE
+* /usr/share/doc/virtualbox-7.1.2/README.FIPS
+* /usr/share/doc/virtualbox-7.1.2/README.GuestAdditionsPackaging
 * /usr/share/icons/hicolor/128x128/apps/virtualbox.png
 * /usr/share/icons/hicolor/128x128/mimetypes/virtualbox-hdd.png
 * /usr/share/icons/hicolor/128x128/mimetypes/virtualbox-ova.png
@@ -194,7 +194,7 @@ Oracle VirtualBox is a family of powerful x86 virtualization products for enterp
 * /usr/share/icons/hicolor/scalable/apps/virtualbox.svg
 * /usr/share/licenses/virtualbox/LICENSE
 * /usr/share/mime/packages/virtualbox.xml
-* /usr/share/virtualbox/extensions/VNC-7.1.0.vbox-extpack
+* /usr/share/virtualbox/extensions/VNC-7.1.2.vbox-extpack
 * /usr/share/virtualbox/nls/qt_bg.qm
 * /usr/share/virtualbox/nls/qt_ca.qm
 * /usr/share/virtualbox/nls/qt_ca_VA.qm

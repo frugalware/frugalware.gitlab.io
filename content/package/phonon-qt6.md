@@ -12,7 +12,7 @@ size = "388052"
 usize = "1780792"
 sha1sum = "c983ea4239b8c5adbaf653a66b3bfdf63869d142"
 depends = "['libpulse>=9.0-2', 'libuuid>=2.40.2', 'libxml2>=2.9.4-3', 'qt6-5compat>=6.7.3']"
-reverse_depends = "['kamoso', 'knotifications', 'konversation', 'kvirc', 'libkcompactdisc', 'phonon-backend-gstreamer']"
+reverse_depends = "['kamoso', 'knotifications', 'konversation', 'kvirc', 'libkcompactdisc', 'phonon-backend-gstreamer', 'phonon-backend-vlc']"
 +++
 ### Description: 
 The multimedia API for KDE 6.

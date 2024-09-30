@@ -12,7 +12,7 @@ size = "5094604"
 usize = "15885437"
 sha1sum = "fcc97ce649340f1a4c2046b533d745eb1d28e9ce"
 depends = "['clang-libs>=16.0.6', 'qt5-declarative>=5.15.6', 'qt5-location>=5.15.6', 'qt5-qdbus>=5.15.15']"
-reverse_depends = "['librecad', 'marble', 'qscintilla2-qt5', 'qtkeychain']"
+reverse_depends = "['librecad', 'marble', 'qscintilla2-qt5']"
 +++
 ### Description: 
 The Qt5 toolkit, qttools
