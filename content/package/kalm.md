@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalm 24.08.1-1"
-version = "24.08.1-1"
+title = "kalm 24.08.1-2"
+version = "24.08.1-2"
 description = "Kalm can teach you different breathing techniques"
-date = "2024-09-13T17:27:24"
+date = "2024-09-30T09:49:06"
 aliases = "/packages/221489"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "65528"
-usize = "405720"
-sha1sum = "faa69e2cfd1446467b98ba6d11df4227fa861c57"
+size = "65616"
+usize = "405912"
+sha1sum = "76c219a91be04f2585f23a3504bf7d025fde4bf1"
 depends = "['kconfig', 'kcoreaddons', 'kcrash', 'ki18n', 'kirigami', 'kirigami-addons', 'qqc2-desktop-style']"
 +++
 ### Description: 

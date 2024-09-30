@@ -12,6 +12,7 @@ size = "155220"
 usize = "555730"
 sha1sum = "a85e4503c67400f4d76b54880639123b69c2ecac"
 depends = "['gst1-plugins-base']"
+reverse_depends = "['audiotube']"
 +++
 ### Description: 
 The Qt6 toolkit, qtmultimedia Gestreamer plugin

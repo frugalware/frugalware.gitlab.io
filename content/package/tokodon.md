@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tokodon 24.08.1-1"
-version = "24.08.1-1"
+title = "tokodon 24.08.1-2"
+version = "24.08.1-2"
 description = "A Mastodon client for Plasma"
-date = "2024-09-13T16:17:50"
+date = "2024-09-30T09:14:36"
 aliases = "/packages/220996"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1449116"
-usize = "7949910"
-sha1sum = "bcfb779a56a33a28912774c9e7c008f94febd6f8"
+size = "1428904"
+usize = "7949846"
+sha1sum = "a6fb76f9b4b2a17f199f3f5092527246f3cab17d"
 depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'mpvqt', 'purpose', 'qqc2-desktop-style', 'qt6-websockets', 'qt6-webview', 'qtkeychain']"
 +++
 ### Description: 
