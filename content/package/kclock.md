@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kclock 24.08.1-1"
-version = "24.08.1-1"
+title = "kclock 24.08.1-2"
+version = "24.08.1-2"
 description = "Clock app for Plasma Mobile"
-date = "2024-09-13T16:00:16"
+date = "2024-09-30T08:59:44"
 aliases = "/packages/220972"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "214684"
-usize = "956827"
-sha1sum = "102fcf2166de8e8c49f9714285aa22e9143f6dbf"
+size = "214592"
+usize = "956187"
+sha1sum = "a9fb30098016c95d10620d2f8856cd09a5fd6edc"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kstatusnotifieritem', 'libplasma', 'qt6-multimedia']"
 +++
 ### Description: 

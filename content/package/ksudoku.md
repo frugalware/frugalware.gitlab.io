@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksudoku 24.08.1-1"
-version = "24.08.1-1"
+title = "ksudoku 24.08.1-2"
+version = "24.08.1-2"
 description = "KSudoku is a logic-based symbol placement puzzle"
-date = "2024-09-13T15:24:28"
+date = "2024-09-30T08:19:59"
 aliases = "/packages/219460"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1876688"
-usize = "3667035"
-sha1sum = "876a657d3f68bcb1bef60dc0c0fb19f8edc3e8cc"
+size = "1876452"
+usize = "3666011"
+sha1sum = "79cfa8ceb974a2e06e4a1fed227e8d466005e7c6"
 depends = "['libglu', 'libkdegames>=24.08.1']"
 +++
 ### Description: 

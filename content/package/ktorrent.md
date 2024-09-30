@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 24.08.1-1"
-version = "24.08.1-1"
+title = "ktorrent 24.08.1-2"
+version = "24.08.1-2"
 description = "A BitTorrent application for KDE."
-date = "2024-09-13T15:41:19"
+date = "2024-09-30T08:43:36"
 aliases = "/packages/219530"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2573652"
-usize = "12121431"
-sha1sum = "7141b11499a2c905a49aba41ff833f93d13a8d57"
-depends = "['kstatusnotifieritem>=6.5.0', 'libktorrent>=24.08.1', 'plasma-workspace>=6.1.5', 'syndication']"
+size = "1979728"
+usize = "11035578"
+sha1sum = "fd96af3f655cea220424dd11e29a4f795c384516"
+depends = "['kstatusnotifieritem>=6.6.0', 'libktorrent>=24.08.1', 'plasma-workspace>=6.1.5', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.
@@ -31,9 +31,7 @@ A BitTorrent application for KDE.
 * /usr/lib/qt6/plugins/ktorrent_plugins/MediaPlayerPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/ScanFolderPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/ScanForLostFilesPlugin.so
-* /usr/lib/qt6/plugins/ktorrent_plugins/SearchPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/ShutdownPlugin.so
-* /usr/lib/qt6/plugins/ktorrent_plugins/SyndicationPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/UPnPPlugin.so
 * /usr/share/applications/org.kde.ktorrent.desktop
 * /usr/share/doc/HTML/ca/ktorrent/index.cache.bz2
@@ -68,20 +66,12 @@ A BitTorrent application for KDE.
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.docbook
 * /usr/share/doc/ktorrent-24.08.1/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/ktorrent.png
-* /usr/share/icons/hicolor/16x16/actions/kt-add-feeds.png
-* /usr/share/icons/hicolor/16x16/actions/kt-add-filters.png
-* /usr/share/icons/hicolor/16x16/actions/kt-remove-feeds.png
-* /usr/share/icons/hicolor/16x16/actions/kt-remove-filters.png
 * /usr/share/icons/hicolor/16x16/actions/kt-stop-all.png
 * /usr/share/icons/hicolor/16x16/actions/kt-stop.png
 * /usr/share/icons/hicolor/16x16/actions/kt-upnp.png
 * /usr/share/icons/hicolor/16x16/apps/ktorrent.png
-* /usr/share/icons/hicolor/22x22/actions/kt-add-feeds.png
-* /usr/share/icons/hicolor/22x22/actions/kt-add-filters.png
 * /usr/share/icons/hicolor/22x22/actions/kt-magnet.png
 * /usr/share/icons/hicolor/22x22/actions/kt-pause.png
-* /usr/share/icons/hicolor/22x22/actions/kt-remove-feeds.png
-* /usr/share/icons/hicolor/22x22/actions/kt-remove-filters.png
 * /usr/share/icons/hicolor/22x22/actions/kt-remove.png
 * /usr/share/icons/hicolor/22x22/actions/kt-set-max-download-speed.png
 * /usr/share/icons/hicolor/22x22/actions/kt-set-max-upload-speed.png
@@ -91,14 +81,10 @@ A BitTorrent application for KDE.
 * /usr/share/icons/hicolor/22x22/actions/kt-stop-all.png
 * /usr/share/icons/hicolor/22x22/actions/kt-stop.png
 * /usr/share/icons/hicolor/22x22/apps/ktorrent.png
-* /usr/share/icons/hicolor/32x32/actions/kt-add-feeds.png
-* /usr/share/icons/hicolor/32x32/actions/kt-add-filters.png
 * /usr/share/icons/hicolor/32x32/actions/kt-info-widget.png
 * /usr/share/icons/hicolor/32x32/actions/kt-magnet.png
 * /usr/share/icons/hicolor/32x32/actions/kt-pause.png
 * /usr/share/icons/hicolor/32x32/actions/kt-queue-manager.png
-* /usr/share/icons/hicolor/32x32/actions/kt-remove-feeds.png
-* /usr/share/icons/hicolor/32x32/actions/kt-remove-filters.png
 * /usr/share/icons/hicolor/32x32/actions/kt-remove.png
 * /usr/share/icons/hicolor/32x32/actions/kt-set-max-download-speed.png
 * /usr/share/icons/hicolor/32x32/actions/kt-set-max-upload-speed.png
@@ -138,36 +124,12 @@ A BitTorrent application for KDE.
 * /usr/share/icons/hicolor/scalable/actions/kt-set-max-upload-speed.svgz
 * /usr/share/icons/hicolor/scalable/actions/kt-speed-limits.svgz
 * /usr/share/knotifications6/ktorrent.notifyrc
-* /usr/share/ktorrent/opensearch/btdb.in/favicon.ico
-* /usr/share/ktorrent/opensearch/btdb.in/opensearch.xml
-* /usr/share/ktorrent/opensearch/btdig.com/favicon.ico
-* /usr/share/ktorrent/opensearch/btdig.com/opensearch.xml
-* /usr/share/ktorrent/opensearch/duckduckgo.com/favicon.ico
-* /usr/share/ktorrent/opensearch/duckduckgo.com/opensearch.xml
-* /usr/share/ktorrent/opensearch/torrentproject.se/favicon.ico
-* /usr/share/ktorrent/opensearch/torrentproject.se/opensearch.xml
-* /usr/share/ktorrent/search/home/body-background.jpg
-* /usr/share/ktorrent/search/home/box-bottom-left.png
-* /usr/share/ktorrent/search/home/box-bottom-middle.png
-* /usr/share/ktorrent/search/home/box-bottom-right.png
-* /usr/share/ktorrent/search/home/box-center.png
-* /usr/share/ktorrent/search/home/box-middle-left.png
-* /usr/share/ktorrent/search/home/box-middle-right.png
-* /usr/share/ktorrent/search/home/box-top-left.png
-* /usr/share/ktorrent/search/home/box-top-middle.png
-* /usr/share/ktorrent/search/home/box-top-right.png
-* /usr/share/ktorrent/search/home/home.css
-* /usr/share/ktorrent/search/home/home.html
-* /usr/share/ktorrent/search/home/ktorrent-icon.png
-* /usr/share/ktorrent/search/home/ktorrent_infopage.css
 * /usr/share/kxmlgui5/ktorrent/ktorrentui.rc
 * /usr/share/kxmlgui5/ktorrent/ktorrent_bwschedulerui.rc
 * /usr/share/kxmlgui5/ktorrent/ktorrent_downloadorderui.rc
 * /usr/share/kxmlgui5/ktorrent/ktorrent_magnetgeneratorui.rc
 * /usr/share/kxmlgui5/ktorrent/ktorrent_mediaplayerui.rc
-* /usr/share/kxmlgui5/ktorrent/ktorrent_searchui.rc
 * /usr/share/kxmlgui5/ktorrent/ktorrent_shutdownui.rc
-* /usr/share/kxmlgui5/ktorrent/ktorrent_syndicationui.rc
 * /usr/share/kxmlgui5/ktorrent/kttorrentactivityui.rc
 * /usr/share/locale/ar/LC_MESSAGES/ktorrent.mo
 * /usr/share/locale/ast/LC_MESSAGES/ktorrent.mo

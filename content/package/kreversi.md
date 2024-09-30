@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kreversi 24.08.1-1"
-version = "24.08.1-1"
+title = "kreversi 24.08.1-2"
+version = "24.08.1-2"
 description = "KReversi is is a simple one player strategy game played against the computer"
-date = "2024-09-13T15:20:36"
+date = "2024-09-30T08:16:03"
 aliases = "/packages/219338"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1022732"
-usize = "1957759"
-sha1sum = "68e1317d9093781a9521b4c8128a165f2ad3571d"
+size = "1022448"
+usize = "1957375"
+sha1sum = "dd699c5167f390eb4a98591e037667433b70fa9d"
 depends = "['libkdegames>=24.08.1']"
 +++
 ### Description: 

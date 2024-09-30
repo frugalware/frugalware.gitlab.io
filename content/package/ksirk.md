@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksirk 24.08.1-1"
-version = "24.08.1-1"
+title = "ksirk 24.08.1-2"
+version = "24.08.1-2"
 description = "KsirK is a computerized version of the well known strategic board game Risk."
-date = "2024-09-13T15:21:44"
+date = "2024-09-30T08:17:03"
 aliases = "/packages/219528"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4497492"
-usize = "10411830"
-sha1sum = "39591cbd657962606459cf384a05190777197449"
+size = "4496340"
+usize = "10409334"
+sha1sum = "3bb605fd3ca418ee5b5f79695a3b1982a266f0e7"
 depends = "['libkdegames>=24.08.1', 'qca']"
 +++
 ### Description: 

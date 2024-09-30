@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalk 24.08.1-1"
-version = "24.08.1-1"
+title = "kalk 24.08.1-2"
+version = "24.08.1-2"
 description = "A powerful cross-platform calculator application built with the Kirigami framework"
-date = "2024-09-13T15:57:42"
+date = "2024-09-30T08:57:37"
 aliases = "/packages/220970"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "71364"
-usize = "245907"
-sha1sum = "76e8bcccc1a0814ba2642ae7719ff766b51f36b6"
+size = "71408"
+usize = "246035"
+sha1sum = "923aa859d22831480dbdf0b6df7a78bea715e16d"
 depends = "['kconfig', 'kcoreaddons', 'kirigami', 'kunitconversion', 'libqalculate>=5.0.0', 'mpfr']"
 +++
 ### Description: 
