@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ffmpeg 7.0.2-3"
-version = "7.0.2-3"
+title = "ffmpeg 7.1-1"
+version = "7.1-1"
 description = "FFMpeg is a complete and free Internet live audio and video broadcasting solution for Linux/Unix."
-date = "2024-09-13T20:29:37"
+date = "2024-10-01T19:40:41"
 aliases = "/packages/16224"
 categories = ['xmultimedia']
 upstreamurl = "http://ffmpeg.sourceforge.net/"
 arch = "x86_64"
-size = "9950320"
-usize = "39362569"
-sha1sum = "bcd586ee2ccc32c01e6f3dc0702c664c25a298a4"
+size = "10066500"
+usize = "39852793"
+sha1sum = "fbff871c2a5dd14912e70e6b9eea8a24e31ccac0"
 depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'aom', 'dav1d>=1.3.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.22', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libopenmpt', 'libpulse>=12.2-8', 'librist', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpl', 'libvpx>=1.14.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'libxv', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'srt', 'svt-av1>=2.0.0', 'v4l-utils>=1.8.1-3', 'x264>=20230712.ga8b68eb', 'x265>=4.0', 'xvidcore>=1.3.4-3', 'zimg', 'zlib>=1.2.12']"
 reverse_depends = "['alsa-plugin-ffmpeg', 'aubio', 'chromaprint', 'faudio', 'ffmpegthumbnailer', 'ffmpegthumbs', 'firefox', 'freerdp', 'freerdp2', 'gegl', 'gst-libav', 'gtk-handbrake', 'guvcview', 'handbrake', 'kfilemetadata', 'kfilemetadata5', 'kpipewire', 'minidlna', 'mlt', 'mpd', 'mpv', 'obs-studio', 'openal', 'opencv', 'picard', 'qt5-webengine', 'qt6-multimedia-ffmpeg', 'qt6-webengine', 'r2modman', 'scrcpy', 'sherlock265', 'streamlink', 'telegram-desktop', 'tox-core', 'ultrastardx', 'unpaper', 'vscode', 'vtk-ffmpeg', 'xine-lib', 'yt-dlp']"
 +++
@@ -164,28 +164,28 @@ FFMpeg is a complete and free Internet live audio and video broadcasting solutio
 * /usr/include/libswscale/version_major.h
 * /usr/lib/libavcodec.so
 * /usr/lib/libavcodec.so.61
-* /usr/lib/libavcodec.so.61.3.100
+* /usr/lib/libavcodec.so.61.19.100
 * /usr/lib/libavdevice.so
 * /usr/lib/libavdevice.so.61
-* /usr/lib/libavdevice.so.61.1.100
+* /usr/lib/libavdevice.so.61.3.100
 * /usr/lib/libavfilter.so
 * /usr/lib/libavfilter.so.10
-* /usr/lib/libavfilter.so.10.1.100
+* /usr/lib/libavfilter.so.10.4.100
 * /usr/lib/libavformat.so
 * /usr/lib/libavformat.so.61
-* /usr/lib/libavformat.so.61.1.100
+* /usr/lib/libavformat.so.61.7.100
 * /usr/lib/libavutil.so
 * /usr/lib/libavutil.so.59
-* /usr/lib/libavutil.so.59.8.100
+* /usr/lib/libavutil.so.59.39.100
 * /usr/lib/libpostproc.so
 * /usr/lib/libpostproc.so.58
-* /usr/lib/libpostproc.so.58.1.100
+* /usr/lib/libpostproc.so.58.3.100
 * /usr/lib/libswresample.so
 * /usr/lib/libswresample.so.5
-* /usr/lib/libswresample.so.5.1.100
+* /usr/lib/libswresample.so.5.3.100
 * /usr/lib/libswscale.so
 * /usr/lib/libswscale.so.8
-* /usr/lib/libswscale.so.8.1.100
+* /usr/lib/libswscale.so.8.3.100
 * /usr/lib/pkgconfig/libavcodec.pc
 * /usr/lib/pkgconfig/libavdevice.pc
 * /usr/lib/pkgconfig/libavfilter.pc
@@ -194,48 +194,52 @@ FFMpeg is a complete and free Internet live audio and video broadcasting solutio
 * /usr/lib/pkgconfig/libpostproc.pc
 * /usr/lib/pkgconfig/libswresample.pc
 * /usr/lib/pkgconfig/libswscale.pc
-* /usr/share/doc/ffmpeg-7.0.2/bootstrap.min.css
-* /usr/share/doc/ffmpeg-7.0.2/Changelog
-* /usr/share/doc/ffmpeg-7.0.2/community.html
-* /usr/share/doc/ffmpeg-7.0.2/COPYING.GPLv2
-* /usr/share/doc/ffmpeg-7.0.2/COPYING.GPLv3
-* /usr/share/doc/ffmpeg-7.0.2/COPYING.LGPLv2.1
-* /usr/share/doc/ffmpeg-7.0.2/COPYING.LGPLv3
-* /usr/share/doc/ffmpeg-7.0.2/CREDITS
-* /usr/share/doc/ffmpeg-7.0.2/default.css
-* /usr/share/doc/ffmpeg-7.0.2/developer.html
-* /usr/share/doc/ffmpeg-7.0.2/faq.html
-* /usr/share/doc/ffmpeg-7.0.2/fate.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-all.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-bitstream-filters.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-codecs.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-devices.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-filters.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-formats.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-protocols.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-resampler.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-scaler.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg-utils.html
-* /usr/share/doc/ffmpeg-7.0.2/ffmpeg.html
-* /usr/share/doc/ffmpeg-7.0.2/ffplay-all.html
-* /usr/share/doc/ffmpeg-7.0.2/ffplay.html
-* /usr/share/doc/ffmpeg-7.0.2/ffprobe-all.html
-* /usr/share/doc/ffmpeg-7.0.2/ffprobe.html
-* /usr/share/doc/ffmpeg-7.0.2/general.html
-* /usr/share/doc/ffmpeg-7.0.2/git-howto.html
-* /usr/share/doc/ffmpeg-7.0.2/INSTALL.md
-* /usr/share/doc/ffmpeg-7.0.2/libavcodec.html
-* /usr/share/doc/ffmpeg-7.0.2/libavdevice.html
-* /usr/share/doc/ffmpeg-7.0.2/libavfilter.html
-* /usr/share/doc/ffmpeg-7.0.2/libavformat.html
-* /usr/share/doc/ffmpeg-7.0.2/libavutil.html
-* /usr/share/doc/ffmpeg-7.0.2/libswresample.html
-* /usr/share/doc/ffmpeg-7.0.2/libswscale.html
-* /usr/share/doc/ffmpeg-7.0.2/mailing-list-faq.html
-* /usr/share/doc/ffmpeg-7.0.2/nut.html
-* /usr/share/doc/ffmpeg-7.0.2/platform.html
-* /usr/share/doc/ffmpeg-7.0.2/README.md
-* /usr/share/doc/ffmpeg-7.0.2/RELEASE
-* /usr/share/doc/ffmpeg-7.0.2/RELEASE_NOTES
-* /usr/share/doc/ffmpeg-7.0.2/style.min.css
-* /usr/share/doc/ffmpeg-7.0.2/VERSION
+* /usr/share/doc/ffmpeg-7.1/bootstrap.min.css
+* /usr/share/doc/ffmpeg-7.1/ChangeLog
+* /usr/share/doc/ffmpeg-7.1/Changelog
+* /usr/share/doc/ffmpeg-7.1/community.html
+* /usr/share/doc/ffmpeg-7.1/COPYING
+* /usr/share/doc/ffmpeg-7.1/COPYING.GPLv2
+* /usr/share/doc/ffmpeg-7.1/COPYING.GPLv3
+* /usr/share/doc/ffmpeg-7.1/COPYING.LGPLv2.1
+* /usr/share/doc/ffmpeg-7.1/COPYING.LGPLv3
+* /usr/share/doc/ffmpeg-7.1/CREDITS
+* /usr/share/doc/ffmpeg-7.1/default.css
+* /usr/share/doc/ffmpeg-7.1/developer.html
+* /usr/share/doc/ffmpeg-7.1/faq.html
+* /usr/share/doc/ffmpeg-7.1/fate.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-all.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-bitstream-filters.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-codecs.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-devices.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-filters.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-formats.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-protocols.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-resampler.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-scaler.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg-utils.html
+* /usr/share/doc/ffmpeg-7.1/ffmpeg.html
+* /usr/share/doc/ffmpeg-7.1/ffplay-all.html
+* /usr/share/doc/ffmpeg-7.1/ffplay.html
+* /usr/share/doc/ffmpeg-7.1/ffprobe-all.html
+* /usr/share/doc/ffmpeg-7.1/ffprobe.html
+* /usr/share/doc/ffmpeg-7.1/general.html
+* /usr/share/doc/ffmpeg-7.1/git-howto.html
+* /usr/share/doc/ffmpeg-7.1/INSTALL
+* /usr/share/doc/ffmpeg-7.1/INSTALL.md
+* /usr/share/doc/ffmpeg-7.1/libavcodec.html
+* /usr/share/doc/ffmpeg-7.1/libavdevice.html
+* /usr/share/doc/ffmpeg-7.1/libavfilter.html
+* /usr/share/doc/ffmpeg-7.1/libavformat.html
+* /usr/share/doc/ffmpeg-7.1/libavutil.html
+* /usr/share/doc/ffmpeg-7.1/libswresample.html
+* /usr/share/doc/ffmpeg-7.1/libswscale.html
+* /usr/share/doc/ffmpeg-7.1/mailing-list-faq.html
+* /usr/share/doc/ffmpeg-7.1/nut.html
+* /usr/share/doc/ffmpeg-7.1/platform.html
+* /usr/share/doc/ffmpeg-7.1/README
+* /usr/share/doc/ffmpeg-7.1/README.md
+* /usr/share/doc/ffmpeg-7.1/RELEASE
+* /usr/share/doc/ffmpeg-7.1/RELEASE_NOTES
+* /usr/share/doc/ffmpeg-7.1/style.min.css
+* /usr/share/doc/ffmpeg-7.1/VERSION
