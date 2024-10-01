@@ -12,7 +12,7 @@ size = "2493996"
 usize = "6634213"
 sha1sum = "7a09d555f97f85a7e52b4ed7e31d5e577dd86174"
 depends = "['qt5-wayland>=5.15.15']"
-reverse_depends = "['kwayland-integration', 'pinentry-qt5', 'plasma-framework5']"
+reverse_depends = "['kwayland-integration', 'pinentry-qt5', 'plasma-framework5', 'plasma5-integration']"
 +++
 ### Description: 
 KDE Wayland

@@ -12,7 +12,7 @@ size = "33959568"
 usize = "117531122"
 sha1sum = "8a3c55aeb587dac75d8b7c7907a791a8258d4eb2"
 depends = "['fontconfig', 'mkfontscale']"
-reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumina-desktop', 'plasma-integration']"
+reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumina-desktop', 'plasma-integration', 'plasma5-integration']"
 +++
 ### Description: 
 Noto fonts

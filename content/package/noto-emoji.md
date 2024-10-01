@@ -12,7 +12,7 @@ size = "39656968"
 usize = "54175108"
 sha1sum = "baef7aa7f19d1a02d7d801081997cc2a9171fd91"
 depends = "['fontconfig', 'mkfontscale']"
-reverse_depends = "['plasma-integration', 'tootle']"
+reverse_depends = "['plasma-integration', 'plasma5-integration', 'tootle']"
 +++
 ### Description: 
 Noto Emoji fonts

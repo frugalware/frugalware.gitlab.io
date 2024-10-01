@@ -12,7 +12,7 @@ size = "4403520"
 usize = "24121827"
 sha1sum = "3f8394c586a68c8fac9b3fde209f1f2d269ade49"
 depends = "['karchive5>=5.116.0', 'kbookmarks5>=5.116.0', 'kded5', 'kdoctools5>=5.116.0', 'kjobwidgets5>=5.116.0', 'kwallet5>=5.116.0', 'libkrb5>=1.14.4', 'libxslt', 'solid5>=5.116.0', 'switcheroo-control']"
-reverse_depends = "['baloo5', 'frameworkintegration5', 'kactivities-stats5', 'kactivities5', 'kaffeine', 'kamoso', 'kdav5', 'kdeclarative5', 'kdesignerplugin5', 'kinit5', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'kstars', 'ktouch', 'kwave', 'kxmlrpcclient5', 'libkcddb5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'purpose5', 'skanlite', 'syndication5']"
+reverse_depends = "['baloo5', 'frameworkintegration5', 'kactivities-stats5', 'kactivities5', 'kaffeine', 'kamoso', 'kdav5', 'kdeclarative5', 'kdesignerplugin5', 'kinit5', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'kstars', 'ktouch', 'kwave', 'kxmlrpcclient5', 'libkcddb5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma5-integration', 'purpose5', 'skanlite', 'syndication5']"
 +++
 ### Description: 
 Network transparent access to files and data.

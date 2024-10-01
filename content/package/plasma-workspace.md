@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.1.5-2"
-version = "6.1.5-2"
+title = "plasma-workspace 6.1.5-3"
+version = "6.1.5-3"
 description = "KDE Plasma Workspace."
-date = "2024-09-28T21:05:51"
+date = "2024-10-01T11:50:42"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20391792"
-usize = "56837072"
-sha1sum = "08cef200d3685a2700ef10774383263730d2b883"
-depends = "['appstream-qt', 'baloo>=6.6.0', 'kcmutils>=6.6.0', 'kdeclarative>=6.6.0', 'kholidays>=6.6.0', 'kidletime>=6.6.0', 'kirigami-addons', 'knewstuff>=6.6.0', 'knotifyconfig>=6.6.0', 'kpackage>=6.6.0', 'kparts>=6.6.0', 'kquickcharts>=6.6.0', 'krunner>=6.6.0', 'ksvg>=6.6.0', 'ktexteditor>=6.6.0', 'kunitconversion>=6.6.0', 'kuserfeedback>=6.6.0', 'kwin>=6.1.5', 'libkexiv2', 'libksysguard>=6.1.5', 'libplasma>=6.1.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.6.0', 'plasma-activities-stats>=6.1.5', 'plasma5support>=6.1.5', 'prison>=6.6.0', 'qcoro']"
+size = "20385228"
+usize = "56808130"
+sha1sum = "ab09f4c79fa5c24d1a04cba59d87a7d9c1523858"
+depends = "['appstream-qt', 'baloo>=6.6.0', 'kcmutils>=6.6.0', 'kdeclarative>=6.6.0', 'kholidays>=6.6.0', 'kidletime>=6.6.0', 'kirigami-addons', 'knewstuff>=6.6.0', 'knotifyconfig>=6.6.0', 'kpackage>=6.6.0', 'kparts>=6.6.0', 'kquickcharts>=6.6.0', 'krunner>=6.6.0', 'ksvg>=6.6.0', 'ktexteditor>=6.6.0', 'kunitconversion>=6.6.0', 'kuserfeedback>=6.6.0', 'kwin>=6.1.5', 'libkexiv2', 'libksysguard>=6.1.5', 'libplasma>=6.1.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.6.0', 'plasma-activities-stats>=6.1.5', 'plasma5-integration>=6.1.5', 'plasma5support>=6.1.5', 'prison>=6.6.0', 'qcoro', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
@@ -43,7 +43,6 @@ KDE Plasma Workspace.
 * /usr/bin/plasma-apply-lookandfeel
 * /usr/bin/plasma-apply-wallpaperimage
 * /usr/bin/plasma-interactiveconsole
-* /usr/bin/plasma-localegen-helper
 * /usr/bin/plasma-shutdown
 * /usr/bin/plasmashell
 * /usr/bin/plasmawindowed
@@ -254,6 +253,7 @@ KDE Plasma Workspace.
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_time.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_weather.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_wettercom.so
+* /usr/lib/qt6/plugins/plasma5support/geolocationprovider/plasma-geolocation-gps.so
 * /usr/lib/qt6/plugins/plasma5support/geolocationprovider/plasma-geolocation-ip.so
 * /usr/lib/qt6/plugins/plasmacalendarplugins/holidays/HolidaysConfig.qml
 * /usr/lib/qt6/plugins/plasmacalendarplugins/holidaysevents.so
@@ -432,9 +432,7 @@ KDE Plasma Workspace.
 * /usr/share/dbus-1/services/org.kde.runners.baloo.service
 * /usr/share/dbus-1/services/org.kde.Shutdown.service
 * /usr/share/dbus-1/system-services/org.kde.fontinst.service
-* /usr/share/dbus-1/system-services/org.kde.localegenhelper.service
 * /usr/share/dbus-1/system.d/org.kde.fontinst.conf
-* /usr/share/dbus-1/system.d/org.kde.localegenhelper.conf
 * /usr/share/desktop-directories/kf5-development-translation.directory
 * /usr/share/desktop-directories/kf5-development-webdevelopment.directory
 * /usr/share/desktop-directories/kf5-development.directory
@@ -6544,7 +6542,6 @@ KDE Plasma Workspace.
 * /usr/share/plasma5support/services/soliddevice.operations
 * /usr/share/plasma5support/services/statusnotifieritem.operations
 * /usr/share/polkit-1/actions/org.kde.fontinst.policy
-* /usr/share/polkit-1/actions/org.kde.localegenhelper.policy
 * /usr/share/qlogging-categories6/batterycontrol.categories
 * /usr/share/qlogging-categories6/batterymonitor.categories
 * /usr/share/qlogging-categories6/kcmusers.categories

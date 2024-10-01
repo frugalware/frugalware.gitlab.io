@@ -12,7 +12,7 @@ size = "369460"
 usize = "1291007"
 sha1sum = "68763b648583f0cc7f02835b738892627334dfa0"
 depends = "['fontconfig', 'mkfontscale']"
-reverse_depends = "['plasma-desktop', 'plasma-integration', 'sddm']"
+reverse_depends = "['plasma-desktop', 'plasma-integration', 'plasma5-integration', 'sddm']"
 +++
 ### Description: 
 A hand groomed and optically balanced typeface based on Bitstream Vera Mono
