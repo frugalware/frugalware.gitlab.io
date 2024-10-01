@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-or 24.8.1.2-1"
-version = "24.8.1.2-1"
+title = "libreoffice-l10n-or 24.8.2.1-1"
+version = "24.8.2.1-1"
 description = "Installs Odia support in LibreOffice"
-date = "2024-09-11T09:41:53"
+date = "2024-10-01T08:53:54"
 aliases = "/packages/104100"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "398968"
+size = "399120"
 usize = "2599969"
-sha1sum = "0c905eed597d806806c270aa9fc69fe778dedfea"
-depends = "['libreoffice>=24.8.1.2']"
+sha1sum = "053eb6a6f9779d060956d84b71b31060fce2cd0d"
+depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 
 Installs Odia support in LibreOffice

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-sr-latn 24.8.1.2-1"
-version = "24.8.1.2-1"
+title = "libreoffice-l10n-sr-latn 24.8.2.1-1"
+version = "24.8.2.1-1"
 description = "Installs Serbian (Latin) support in LibreOffice"
-date = "2024-09-11T09:41:53"
+date = "2024-10-01T08:53:54"
 aliases = "/packages/200513"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "195908"
-usize = "1228655"
-sha1sum = "627ab6a9726adb625dfd9fa833cee417cea3faea"
-depends = "['libreoffice>=24.8.1.2']"
+size = "195816"
+usize = "1228767"
+sha1sum = "b7ac5812d0aba6b359bc5b6f44640127d38eed19"
+depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 
 Installs Serbian (Latin) support in LibreOffice
