@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-pa-in 128.2.2-1"
-version = "128.2.2-1"
+title = "thunderbird-pa-in 128.2.3-1"
+version = "128.2.3-1"
 description = "Panjabi language support for Thunderbird"
-date = "2024-09-18T16:09:09"
+date = "2024-10-01T17:53:22"
 aliases = "/packages/220174"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "606232"
-usize = "683077"
-sha1sum = "4e7e6c14b4a71e25f2ad0909448c6501dc8b1b80"
-depends = "['thunderbird>=128.2.2']"
+size = "606296"
+usize = "683075"
+sha1sum = "69070e0cdbc3c830cb872330f89527933a543a7b"
+depends = "['thunderbird>=128.2.3']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
