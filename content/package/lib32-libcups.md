@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libcups 2.4.10-3"
-version = "2.4.10-3"
+title = "lib32-libcups 2.4.11-1"
+version = "2.4.11-1"
 description = "Main library of the CUPS printing system. ( 32bit )"
-date = "2024-06-18T21:36:51"
+date = "2024-10-01T14:08:05"
 aliases = "/packages/218969"
 categories = ['lib32-extra']
 upstreamurl = "http://www.cups.org/"
 arch = "x86_64"
-size = "239296"
-usize = "673218"
-sha1sum = "b116e0cb3480c072eca510a45e4ace85d6de1ffd"
+size = "239800"
+usize = "676418"
+sha1sum = "4984f932bd9bfdff7ad5d885650f5c8dec424039"
 depends = "['lib32-gnutls', 'lib32-libsystemd', 'lib32-openssl', 'lib32-pam']"
 reverse_depends = "['lib32-gtk+2-libs', 'steam-native']"
 +++
