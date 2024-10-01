@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "courier-authlib 0.72.0-3"
-version = "0.72.0-3"
+title = "courier-authlib 0.72.3-1"
+version = "0.72.3-1"
 description = "The Courier authentication library & daemon"
-date = "2024-06-18T13:55:46"
+date = "2024-10-01T14:22:45"
 aliases = "/packages/2951"
 categories = ['network-extra']
 upstreamurl = "http://www.courier-mta.org/"
 arch = "x86_64"
-size = "243008"
-usize = "891942"
-sha1sum = "80cb9e12228623db6fc1c01ef446f45d326de67e"
-depends = "['courier-unicode>=2.1', 'expect', 'gdbm>=1.15', 'libldap>=2.5.4', 'libpq>=11.2-2', 'libtool', 'mariadb-libs>=10.3.14', 'sqlite3>=3.10.2']"
+size = "318180"
+usize = "1121656"
+sha1sum = "dcd83bd09bbec6dd8c7d395e3142b7798f30009c"
+depends = "['courier-unicode>=2.1', 'gdbm>=1.15', 'libldap>=2.5.4', 'libpq>=11.2-2', 'libtool', 'mariadb-libs>=10.3.14', 'sqlite3>=3.10.2']"
 reverse_depends = "['courier-imap', 'courier-maildrop']"
 +++
 ### Description: 
@@ -77,30 +77,32 @@ The Courier authentication library & daemon
 * /usr/lib/courier/courier-authlib/makedatprog
 * /usr/lib/systemd/system/courier-authlib.service
 * /usr/lib/tmpfiles.d/courier-authlib.conf
-* /usr/share/doc/courier-authlib-0.72.0/AUTHORS
-* /usr/share/doc/courier-authlib-0.72.0/ChangeLog
-* /usr/share/doc/courier-authlib-0.72.0/COPYING
-* /usr/share/doc/courier-authlib-0.72.0/COPYING.GPL
-* /usr/share/doc/courier-authlib-0.72.0/examples/authdaemonrc.dist
-* /usr/share/doc/courier-authlib-0.72.0/examples/authldaprc.dist
-* /usr/share/doc/courier-authlib-0.72.0/examples/authlib/authsqliterc.dist
-* /usr/share/doc/courier-authlib-0.72.0/examples/authmysqlrc.dist
-* /usr/share/doc/courier-authlib-0.72.0/examples/authpgsqlrc.dist
-* /usr/share/doc/courier-authlib-0.72.0/INSTALL
-* /usr/share/doc/courier-authlib-0.72.0/INSTALL.html
-* /usr/share/doc/courier-authlib-0.72.0/NEWS
-* /usr/share/doc/courier-authlib-0.72.0/README
-* /usr/share/doc/courier-authlib-0.72.0/README.authdebug.html
-* /usr/share/doc/courier-authlib-0.72.0/README.authdebug.html.in
-* /usr/share/doc/courier-authlib-0.72.0/README.authmysql.html
-* /usr/share/doc/courier-authlib-0.72.0/README.authmysql.myownquery
-* /usr/share/doc/courier-authlib-0.72.0/README.authpostgres.html
-* /usr/share/doc/courier-authlib-0.72.0/README.authsqlite.html
-* /usr/share/doc/courier-authlib-0.72.0/README.frugalware
-* /usr/share/doc/courier-authlib-0.72.0/README.html
-* /usr/share/doc/courier-authlib-0.72.0/README.ldap
-* /usr/share/doc/courier-authlib-0.72.0/README_authlib.html
-* /usr/share/doc/courier-authlib-0.72.0/README_authlib.html.in
+* /usr/share/doc/courier-authlib-0.72.3/AUTHORS
+* /usr/share/doc/courier-authlib-0.72.3/ChangeLog
+* /usr/share/doc/courier-authlib-0.72.3/COPYING
+* /usr/share/doc/courier-authlib-0.72.3/COPYING.GPL
+* /usr/share/doc/courier-authlib-0.72.3/examples/authdaemonrc.dist
+* /usr/share/doc/courier-authlib-0.72.3/examples/authldaprc.dist
+* /usr/share/doc/courier-authlib-0.72.3/examples/authlib/authsqliterc.dist
+* /usr/share/doc/courier-authlib-0.72.3/examples/authmysqlrc.dist
+* /usr/share/doc/courier-authlib-0.72.3/examples/authpgsqlrc.dist
+* /usr/share/doc/courier-authlib-0.72.3/FAQ
+* /usr/share/doc/courier-authlib-0.72.3/HISTORY
+* /usr/share/doc/courier-authlib-0.72.3/INSTALL
+* /usr/share/doc/courier-authlib-0.72.3/INSTALL.html
+* /usr/share/doc/courier-authlib-0.72.3/NEWS
+* /usr/share/doc/courier-authlib-0.72.3/README
+* /usr/share/doc/courier-authlib-0.72.3/README.authdebug.html
+* /usr/share/doc/courier-authlib-0.72.3/README.authdebug.html.in
+* /usr/share/doc/courier-authlib-0.72.3/README.authmysql.html
+* /usr/share/doc/courier-authlib-0.72.3/README.authmysql.myownquery
+* /usr/share/doc/courier-authlib-0.72.3/README.authpostgres.html
+* /usr/share/doc/courier-authlib-0.72.3/README.authsqlite.html
+* /usr/share/doc/courier-authlib-0.72.3/README.frugalware
+* /usr/share/doc/courier-authlib-0.72.3/README.html
+* /usr/share/doc/courier-authlib-0.72.3/README.ldap
+* /usr/share/doc/courier-authlib-0.72.3/README_authlib.html
+* /usr/share/doc/courier-authlib-0.72.3/README_authlib.html.in
 * /usr/share/man/man1/authpasswd.1.gz
 * /usr/share/man/man1/authtest.1.gz
 * /usr/share/man/man1/courierlogger.1.gz

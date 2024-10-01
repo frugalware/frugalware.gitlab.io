@@ -12,7 +12,6 @@ size = "283096"
 usize = "731350"
 sha1sum = "5cca30f0454f22ae873d9c8968ff2d95d0a1d6d3"
 depends = "['glibc>=2.34', 'tcl>=8.6.6-3']"
-reverse_depends = "['courier-authlib']"
 +++
 ### Description: 
 Expect interpreter
