@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xz 5.6.2-1"
-version = "5.6.2-1"
+title = "xz 5.6.3-1"
+version = "5.6.3-1"
 description = "XZ Utils is free general-purpose data compression software with high compression ratio."
-date = "2024-06-05T06:55:49"
+date = "2024-10-02T18:44:29"
 aliases = "/packages/74189"
 categories = ['base']
 upstreamurl = "http://tukaani.org/xz/"
 arch = "x86_64"
-size = "685660"
-usize = "2231285"
-sha1sum = "6f105f67f12fba106471647e9167e5f449db5e35"
+size = "699464"
+usize = "2288562"
+sha1sum = "8c90dbc3a4ffbbc063763c0e011ae5567a337629"
 depends = "['glibc>=2.37']"
 reverse_depends = "['aria2', 'binwalk', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'squashfs', 'squashfuse', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++
@@ -58,32 +58,32 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/include/lzma/vli.h
 * /usr/lib/liblzma.so
 * /usr/lib/liblzma.so.5
-* /usr/lib/liblzma.so.5.6.2
+* /usr/lib/liblzma.so.5.6.3
 * /usr/lib/pkgconfig/liblzma.pc
-* /usr/share/doc/xz-5.6.2/AUTHORS
-* /usr/share/doc/xz-5.6.2/ChangeLog
-* /usr/share/doc/xz-5.6.2/COPYING
-* /usr/share/doc/xz-5.6.2/COPYING.0BSD
-* /usr/share/doc/xz-5.6.2/COPYING.GPLv2
-* /usr/share/doc/xz-5.6.2/COPYING.GPLv3
-* /usr/share/doc/xz-5.6.2/COPYING.LGPLv2.1
-* /usr/share/doc/xz-5.6.2/examples/00_README.txt
-* /usr/share/doc/xz-5.6.2/examples/01_compress_easy.c
-* /usr/share/doc/xz-5.6.2/examples/02_decompress.c
-* /usr/share/doc/xz-5.6.2/examples/03_compress_custom.c
-* /usr/share/doc/xz-5.6.2/examples/04_compress_easy_mt.c
-* /usr/share/doc/xz-5.6.2/examples/11_file_info.c
-* /usr/share/doc/xz-5.6.2/examples/Makefile
-* /usr/share/doc/xz-5.6.2/faq.txt
-* /usr/share/doc/xz-5.6.2/history.txt
-* /usr/share/doc/xz-5.6.2/INSTALL
-* /usr/share/doc/xz-5.6.2/INSTALL.generic
-* /usr/share/doc/xz-5.6.2/lzma-file-format.txt
-* /usr/share/doc/xz-5.6.2/NEWS
-* /usr/share/doc/xz-5.6.2/README
-* /usr/share/doc/xz-5.6.2/THANKS
-* /usr/share/doc/xz-5.6.2/TODO
-* /usr/share/doc/xz-5.6.2/xz-file-format.txt
+* /usr/share/doc/xz-5.6.3/AUTHORS
+* /usr/share/doc/xz-5.6.3/ChangeLog
+* /usr/share/doc/xz-5.6.3/COPYING
+* /usr/share/doc/xz-5.6.3/COPYING.0BSD
+* /usr/share/doc/xz-5.6.3/COPYING.GPLv2
+* /usr/share/doc/xz-5.6.3/COPYING.GPLv3
+* /usr/share/doc/xz-5.6.3/COPYING.LGPLv2.1
+* /usr/share/doc/xz-5.6.3/examples/00_README.txt
+* /usr/share/doc/xz-5.6.3/examples/01_compress_easy.c
+* /usr/share/doc/xz-5.6.3/examples/02_decompress.c
+* /usr/share/doc/xz-5.6.3/examples/03_compress_custom.c
+* /usr/share/doc/xz-5.6.3/examples/04_compress_easy_mt.c
+* /usr/share/doc/xz-5.6.3/examples/11_file_info.c
+* /usr/share/doc/xz-5.6.3/examples/Makefile
+* /usr/share/doc/xz-5.6.3/faq.txt
+* /usr/share/doc/xz-5.6.3/history.txt
+* /usr/share/doc/xz-5.6.3/INSTALL
+* /usr/share/doc/xz-5.6.3/INSTALL.generic
+* /usr/share/doc/xz-5.6.3/lzma-file-format.txt
+* /usr/share/doc/xz-5.6.3/NEWS
+* /usr/share/doc/xz-5.6.3/README
+* /usr/share/doc/xz-5.6.3/THANKS
+* /usr/share/doc/xz-5.6.3/TODO
+* /usr/share/doc/xz-5.6.3/xz-file-format.txt
 * /usr/share/locale/ca/LC_MESSAGES/xz.mo
 * /usr/share/locale/cs/LC_MESSAGES/xz.mo
 * /usr/share/locale/da/LC_MESSAGES/xz.mo

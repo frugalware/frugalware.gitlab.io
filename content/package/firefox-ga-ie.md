@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ga-ie 130.0.1-1"
-version = "130.0.1-1"
+title = "firefox-ga-ie 131.0-1"
+version = "131.0-1"
 description = "Irish language support for Firefox"
-date = "2024-09-18T18:32:59"
+date = "2024-10-02T18:24:35"
 aliases = "/packages/39356"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "406136"
-usize = "474437"
-sha1sum = "7a2903cd4d5a06cc25218db2ab484b44169103b3"
-depends = "['firefox>=130.0.1']"
+size = "407472"
+usize = "475192"
+sha1sum = "664af62704a1084d5ed93bab49099514cca7ff96"
+depends = "['firefox>=131.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

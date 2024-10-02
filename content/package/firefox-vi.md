@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-vi 130.0.1-1"
-version = "130.0.1-1"
+title = "firefox-vi 131.0-1"
+version = "131.0-1"
 description = "Vietnamese language support for Firefox"
-date = "2024-09-18T18:32:59"
+date = "2024-10-02T18:24:35"
 aliases = "/packages/73657"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "612140"
-usize = "666090"
-sha1sum = "dcafa25ecfc8222679fc0d51625d2fd592007d4c"
-depends = "['firefox>=130.0.1']"
+size = "614760"
+usize = "667583"
+sha1sum = "85f2cfd7a1607fb30303f5285d14e2ae6084dedd"
+depends = "['firefox>=131.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

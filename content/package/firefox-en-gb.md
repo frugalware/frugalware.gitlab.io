@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-en-gb 130.0.1-1"
-version = "130.0.1-1"
+title = "firefox-en-gb 131.0-1"
+version = "131.0-1"
 description = "British English language support for Firefox"
-date = "2024-09-18T18:32:59"
+date = "2024-10-02T18:24:35"
 aliases = "/packages/73620"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "537352"
-usize = "594144"
-sha1sum = "e7920b5801c74d8a5bb72d13cc63e1c4ee312175"
-depends = "['firefox>=130.0.1']"
+size = "538832"
+usize = "595556"
+sha1sum = "f6e5fd2fe78d00b53ba8ca64db709ec6fa95c263"
+depends = "['firefox>=131.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

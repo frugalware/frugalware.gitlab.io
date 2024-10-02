@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-uz 130.0.1-1"
-version = "130.0.1-1"
+title = "firefox-uz 131.0-1"
+version = "131.0-1"
 description = "Uzbek language support for Firefox"
-date = "2024-09-18T18:32:59"
+date = "2024-10-02T18:24:35"
 aliases = "/packages/217286"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "417920"
-usize = "482286"
-sha1sum = "30412832a9e45b5f019068bc5bc53bdaadfe59a0"
-depends = "['firefox>=130.0.1']"
+size = "418396"
+usize = "483057"
+sha1sum = "b4bc0ec76824aa88b874d7662ab33cf50eb51ed6"
+depends = "['firefox>=131.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

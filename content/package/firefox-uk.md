@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-uk 130.0.1-1"
-version = "130.0.1-1"
+title = "firefox-uk 131.0-1"
+version = "131.0-1"
 description = "Ukrainian language support for Firefox"
-date = "2024-09-18T18:32:59"
+date = "2024-10-02T18:24:35"
 aliases = "/packages/73656"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "662168"
-usize = "714785"
-sha1sum = "35878ffc85e5ce6983d7f6269a64d8a095b54875"
-depends = "['firefox>=130.0.1']"
+size = "672124"
+usize = "724261"
+sha1sum = "474fba7b5424861b297d233e1533df704651dd88"
+depends = "['firefox>=131.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
