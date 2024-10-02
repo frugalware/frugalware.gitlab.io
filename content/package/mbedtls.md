@@ -12,7 +12,7 @@ size = "782620"
 usize = "4112261"
 sha1sum = "789b2ac7119a6fc17a503ec12dfd58994e16142a"
 depends = "['glibc>=2.34']"
-reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'obs-studio', 'openrgb']"
+reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'obs-studio', 'openrgb', 'ortp']"
 +++
 ### Description: 
 Portable cryptographic and SSL/TLS library, aka polarssl

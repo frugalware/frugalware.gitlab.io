@@ -1,18 +1,17 @@
 +++
 draft = false
-title = "bctoolbox 5.3.87-1"
-version = "5.3.87-1"
+title = "bctoolbox 5.3.87-2"
+version = "5.3.87-2"
 description = "A library written in C that allows you to create and run audio and video streams"
-date = "2024-10-02T10:40:01"
+date = "2024-10-02T12:21:10"
 aliases = "/packages/218828"
 categories = ['lib-extra']
 upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
-size = "163180"
-usize = "567954"
-sha1sum = "2d82637974771c06b10016ac162e6c68abd2ad26"
+size = "2252832"
+usize = "3686188"
+sha1sum = "42cb2bfb33528c47b3ab7a7ebd7a7120189d8985"
 depends = "['mbedtls>=2.27.0']"
-reverse_depends = "['ortp']"
 +++
 ### Description: 
 A library written in C that allows you to create and run audio and video streams
@@ -39,6 +38,8 @@ A library written in C that allows you to create and run audio and video streams
 * /usr/include/bctoolbox/vfs.h
 * /usr/include/bctoolbox/vfs_encrypted.hh
 * /usr/include/bctoolbox/vfs_standard.h
+* /usr/lib/libbctoolbox-tester.a
+* /usr/lib/libbctoolbox.a
 * /usr/lib/pkgconfig/bctoolbox-tester.pc
 * /usr/lib/pkgconfig/bctoolbox.pc
 * /usr/share/BCToolbox/cmake/BCGitVersion.cmake
