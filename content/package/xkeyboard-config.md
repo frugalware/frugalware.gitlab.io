@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xkeyboard-config 2.42-1"
-version = "2.42-1"
+title = "xkeyboard-config 2.43-1"
+version = "2.43-1"
 description = "X.org XML-based XKB configuration registry"
-date = "2024-06-09T14:46:00"
+date = "2024-10-02T07:42:29"
 aliases = "/packages/14767"
 categories = ['x11']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/XKeyboardConfig"
 arch = "x86_64"
-size = "343160"
-usize = "3269165"
-sha1sum = "2fc0669213eee2c23cdd3fdd08ef8b67f2c09fef"
+size = "344688"
+usize = "3292444"
+sha1sum = "db72c14ba9d2434a9bf5d2b2d5a2bfd67e9a15e4"
 depends = "['xkbcomp>=1.3.1-2']"
 reverse_depends = "['ckbcomp', 'gnome-desktop', 'plasma-desktop', 'qemu']"
 +++
@@ -20,11 +20,10 @@ X.org XML-based XKB configuration registry
 ### Files: 
 * /usr/lib/pkgconfig/xkeyboard-config.pc
 * /usr/lib/X11/xkb
-* /usr/share/doc/xkeyboard-config-2.42/AUTHORS
-* /usr/share/doc/xkeyboard-config-2.42/ChangeLog
-* /usr/share/doc/xkeyboard-config-2.42/COPYING
-* /usr/share/doc/xkeyboard-config-2.42/NEWS
-* /usr/share/doc/xkeyboard-config-2.42/README
+* /usr/share/doc/xkeyboard-config-2.43/AUTHORS
+* /usr/share/doc/xkeyboard-config-2.43/COPYING
+* /usr/share/doc/xkeyboard-config-2.43/NEWS
+* /usr/share/doc/xkeyboard-config-2.43/README
 * /usr/share/X11/xkb/compat/accessx
 * /usr/share/X11/xkb/compat/basic
 * /usr/share/X11/xkb/compat/caps
@@ -157,6 +156,7 @@ X.org XML-based XKB configuration registry
 * /usr/share/X11/xkb/symbols/eu
 * /usr/share/X11/xkb/symbols/eurosign
 * /usr/share/X11/xkb/symbols/fi
+* /usr/share/X11/xkb/symbols/fkeys
 * /usr/share/X11/xkb/symbols/fo
 * /usr/share/X11/xkb/symbols/fr
 * /usr/share/X11/xkb/symbols/fujitsu_vndr/jp

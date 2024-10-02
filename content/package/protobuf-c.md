@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "protobuf-c 1.5.0-12"
-version = "1.5.0-12"
+title = "protobuf-c 1.5.0-13"
+version = "1.5.0-13"
 description = "C bindings for Google's Protocol Buffers"
-date = "2024-09-15T15:22:40"
+date = "2024-10-02T08:13:08"
 aliases = "/packages/200131"
 categories = ['lib']
 upstreamurl = "https://github.com/protobuf-c/protobuf-c"
 arch = "x86_64"
-size = "90608"
-usize = "272536"
-sha1sum = "7369373c97c057abfbb07fd8c55174636db6ed80"
-depends = "['protobuf>=28.1']"
+size = "90716"
+usize = "272600"
+sha1sum = "0e67bab924dcab2a7cc9d93bbd82b260fd7e5f20"
+depends = "['protobuf>=28.2']"
 reverse_depends = "['criu', 'fwupd']"
 +++
 ### Description: 
