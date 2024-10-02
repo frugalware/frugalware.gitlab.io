@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hwloc 2.11.1-1"
-version = "2.11.1-1"
+title = "hwloc 2.11.2-1"
+version = "2.11.2-1"
 description = "Portable Hardware Locality is a portable abstraction of hierarchical architectures"
-date = "2024-07-14T20:19:44"
+date = "2024-10-02T10:07:39"
 aliases = "/packages/221188"
 categories = ['lib-extra']
 upstreamurl = "https://www.open-mpi.org"
 arch = "x86_64"
-size = "2499144"
-usize = "3916467"
-sha1sum = "5f78e427d81f37fc5ed3eed652718d7cb0601ce9"
+size = "2509288"
+usize = "3938252"
+sha1sum = "b6a67758ef026b167610e8ad9547a544ff129cd0"
 depends = "['libcap', 'libudev', 'libxml2', 'ncurses']"
 reverse_depends = "['openpmix']"
 +++
@@ -61,17 +61,17 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/lib/hwloc/hwloc_xml_libxml.so
 * /usr/lib/libhwloc.so
 * /usr/lib/libhwloc.so.15
-* /usr/lib/libhwloc.so.15.8.0
+* /usr/lib/libhwloc.so.15.8.1
 * /usr/lib/pkgconfig/hwloc.pc
 * /usr/share/bash-completion/completions/hwloc
-* /usr/share/doc/hwloc-2.11.1/AUTHORS
-* /usr/share/doc/hwloc-2.11.1/COPYING
-* /usr/share/doc/hwloc-2.11.1/dynamic_SVG_example.html
-* /usr/share/doc/hwloc-2.11.1/hwloc-a4.pdf
-* /usr/share/doc/hwloc-2.11.1/hwloc-letter.pdf
-* /usr/share/doc/hwloc-2.11.1/NEWS
-* /usr/share/doc/hwloc-2.11.1/README
-* /usr/share/doc/hwloc-2.11.1/VERSION
+* /usr/share/doc/hwloc-2.11.2/AUTHORS
+* /usr/share/doc/hwloc-2.11.2/COPYING
+* /usr/share/doc/hwloc-2.11.2/dynamic_SVG_example.html
+* /usr/share/doc/hwloc-2.11.2/hwloc-a4.pdf
+* /usr/share/doc/hwloc-2.11.2/hwloc-letter.pdf
+* /usr/share/doc/hwloc-2.11.2/NEWS
+* /usr/share/doc/hwloc-2.11.2/README
+* /usr/share/doc/hwloc-2.11.2/VERSION
 * /usr/share/hwloc/hwloc-dump-hwdata.service
 * /usr/share/hwloc/hwloc-ps.www/assets/index.html
 * /usr/share/hwloc/hwloc-ps.www/assets/main.css

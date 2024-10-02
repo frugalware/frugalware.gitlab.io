@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "faudio 24.09-1"
-version = "24.09-1"
+title = "faudio 24.10-1"
+version = "24.10-1"
 description = "XAudio2 reimplementation"
-date = "2024-09-11T12:01:57"
+date = "2024-10-02T09:54:49"
 aliases = "/packages/220096"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/FNA-XNA/FAudio/"
 arch = "x86_64"
-size = "111068"
-usize = "348031"
-sha1sum = "018ac34b4ac0c9abf60c509c760eb99132b4450c"
+size = "111388"
+usize = "348596"
+sha1sum = "034f2e55ea6f509f28543825bd9b1d52a338c28e"
 depends = "['ffmpeg', 'sdl2']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
@@ -26,12 +26,12 @@ XAudio2 reimplementation
 * /usr/include/FAPOFX.h
 * /usr/include/FAudio.h
 * /usr/include/FAudioFX.h
-* /usr/lib/cmake/FAudio/FAudio-targets-release.cmake
-* /usr/lib/cmake/FAudio/FAudio-targets.cmake
+* /usr/lib/cmake/FAudio/FAudio-targets-shared-release.cmake
+* /usr/lib/cmake/FAudio/FAudio-targets-shared.cmake
 * /usr/lib/cmake/FAudio/FAudioConfig.cmake
 * /usr/lib/libFAudio.so
 * /usr/lib/libFAudio.so.0
-* /usr/lib/libFAudio.so.0.24.09
+* /usr/lib/libFAudio.so.0.24.10
 * /usr/lib/pkgconfig/FAudio.pc
-* /usr/share/doc/faudio-24.09/LICENSE
-* /usr/share/doc/faudio-24.09/README
+* /usr/share/doc/faudio-24.10/LICENSE
+* /usr/share/doc/faudio-24.10/README

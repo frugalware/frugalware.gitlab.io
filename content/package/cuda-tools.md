@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda-tools 12.6.1-1"
-version = "12.6.1-1"
+title = "cuda-tools 12.6.2-1"
+version = "12.6.2-1"
 description = "NVIDIA GPU programming toolkit extra tools: nvvp, nsight"
-date = "2024-09-11T11:06:10"
+date = "2024-10-02T09:16:54"
 aliases = "/packages/220620"
 categories = ['devel-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "863323084"
-usize = "2234878487"
-sha1sum = "b7d4a9e621d5b3f5d37149caf17051f7f2cf12a1"
+size = "864592992"
+usize = "2225441568"
+sha1sum = "c4371b3d7516682f4e74920eadaca5eee358b016"
 depends = "['cuda', 'libjpeg6-turbo', 'openucx']"
 reverse_depends = "['opencv-cuda']"
 +++
@@ -24,20 +24,20 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/libnvvp/configuration/config.ini
 * /opt/cuda/libnvvp/configuration/org.eclipse.update/platform.xml
 * /opt/cuda/libnvvp/epl-v10.html
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202408142139/feature.xml
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202408142139/META-INF/MANIFEST.MF
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202408142139/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.properties
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202408142139/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.xml
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202408142139/feature.properties
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202408142139/feature.xml
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202408142139/license.html
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202408142139/META-INF/MANIFEST.MF
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202408142139/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.properties
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202408142139/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.xml
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202408142139/feature.xml
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202408142139/META-INF/MANIFEST.MF
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202408142139/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.properties
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202408142139/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202409191455/feature.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202409191455/META-INF/MANIFEST.MF
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202409191455/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.properties
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.6.0.202409191455/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202409191455/feature.properties
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202409191455/feature.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202409191455/license.html
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202409191455/META-INF/MANIFEST.MF
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202409191455/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.properties
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.6.0.202409191455/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.xml
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202409191455/feature.xml
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202409191455/META-INF/MANIFEST.MF
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202409191455/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.properties
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.6.0.202409191455/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.xml
 * /opt/cuda/libnvvp/features/org.eclipse.e4.rcp_1.3.100.v20140909-1633/epl-v10.html
 * /opt/cuda/libnvvp/features/org.eclipse.e4.rcp_1.3.100.v20140909-1633/feature.properties
 * /opt/cuda/libnvvp/features/org.eclipse.e4.rcp_1.3.100.v20140909-1633/feature.xml
@@ -199,30 +199,30 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/libnvvp/nvvp
 * /opt/cuda/libnvvp/nvvp.ini
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/artifacts.xml
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/com.nvidia.viper.application.product.executable.gtk.linux.x86_64_12.6.0.202408142139
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/com.nvidia.viper.application.product.executable.gtk.linux.x86_64_12.6.0.202409191455
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/org.eclipse.platform_root_4.4.0.v20140925-0400
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/org.eclipse.rcp_root_4.4.0.v20140925-0400
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/.settings/org.eclipse.equinox.p2.artifact.repository.prefs
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/.settings/org.eclipse.equinox.p2.metadata.repository.prefs
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.lock
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1723671590955.profile.gz
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1723671590978.profile.gz
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1723671593256.profile.gz
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1723671593680.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1726757732557.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1726757732576.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1726757733893.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1726757734188.profile.gz
 * /opt/cuda/libnvvp/plugins/com.ibm.icu_52.1.0.v201404241930.jar
 * /opt/cuda/libnvvp/plugins/com.jcraft.jsch_0.1.50.v201403120620.jar
 * /opt/cuda/libnvvp/plugins/com.lowagie.text_2.1.7.v201004222200.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.common_12.6.0.202408142139.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.editor_12.6.0.202408142139.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.remote.connection_12.6.0.202408142139.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.common_12.6.0.202409191455.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.editor_12.6.0.202409191455.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.remote.connection_12.6.0.202409191455.jar
 * /opt/cuda/libnvvp/plugins/com.nvidia.help.bpg_12.6.0.jar
 * /opt/cuda/libnvvp/plugins/com.nvidia.help.pug_12.6.0.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.pgprof.application_12.6.0.202408142139.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.pgprof.application_12.6.0.202409191455.jar
 * /opt/cuda/libnvvp/plugins/com.nvidia.pgprof.help.pug_12.6.0.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper.application_12.6.0.202408142139.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper.birt_12.6.0.202408142139.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper.help_12.6.0.202408142139.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper_12.6.0.202408142139.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper.application_12.6.0.202409191455.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper.birt_12.6.0.202409191455.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper.help_12.6.0.202409191455.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper_12.6.0.202409191455.jar
 * /opt/cuda/libnvvp/plugins/com.sun.el_2.2.0.v201303151357.jar
 * /opt/cuda/libnvvp/plugins/javax.annotation_1.2.0.v201401042248.jar
 * /opt/cuda/libnvvp/plugins/javax.el_2.2.0.v201303151357.jar
@@ -478,7 +478,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/libnvvp/plugins/org.eclipse.jsch.ui_1.1.500.v20131112-1442.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.ltk.core.refactoring_3.6.101.v20140817-1500.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.ltk.ui.refactoring_3.7.100.v20140324-1358.jar
-* /opt/cuda/libnvvp/plugins/org.eclipse.nebula.widgets.pshelf_1.0.0.202408142139.jar
+* /opt/cuda/libnvvp/plugins/org.eclipse.nebula.widgets.pshelf_1.0.0.202409191455.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.osgi.compatibility.state_1.0.1.v20140709-1414.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.osgi.services_3.4.0.v20140312-2051.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.osgi.util_3.3.0.v20131023-1243.jar
@@ -1175,6 +1175,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2024-2-1.html
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2024-2.html
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2024-3-1.html
+* /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2024-3-2.html
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2024-3.html
 * /opt/cuda/nsight_compute/docs/search.html
 * /opt/cuda/nsight_compute/docs/searchindex.js
@@ -2114,10 +2115,19 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/documentation/_images/python-backtrace-sampling.png
 * /opt/cuda/nsight_systems/documentation/_images/python-functions-trace.png
 * /opt/cuda/nsight_systems/documentation/_images/python-gil-tracing.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-box-plot.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-heatmap.png
 * /opt/cuda/nsight_systems/documentation/_images/recipe-jupyter1.png
 * /opt/cuda/nsight_systems/documentation/_images/recipe-jupyter2.png
 * /opt/cuda/nsight_systems/documentation/_images/recipe-jupyter3.png
 * /opt/cuda/nsight_systems/documentation/_images/recipe-jupyter4.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-line-graph.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-overlap-table.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-pace-graph.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-summary-graph.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-summary-table.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-top-n.png
+* /opt/cuda/nsight_systems/documentation/_images/recipe-trace-table.png
 * /opt/cuda/nsight_systems/documentation/_images/recipe-tutorial.png
 * /opt/cuda/nsight_systems/documentation/_images/reflex_sdk.png
 * /opt/cuda/nsight_systems/documentation/_images/report-alignment-source-TSC.png
@@ -2133,6 +2143,8 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/documentation/_images/stderr-log.png
 * /opt/cuda/nsight_systems/documentation/_images/stutter_row.png
 * /opt/cuda/nsight_systems/documentation/_images/symbols_location_dialog.png
+* /opt/cuda/nsight_systems/documentation/_images/syscall-trace-gui-selection.png
+* /opt/cuda/nsight_systems/documentation/_images/syscall-trace-timeline-example.png
 * /opt/cuda/nsight_systems/documentation/_images/system-time.png
 * /opt/cuda/nsight_systems/documentation/_images/target-sampling-options-windows.png
 * /opt/cuda/nsight_systems/documentation/_images/throttling.png
@@ -2223,6 +2235,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/documentation/_static/_sphinx_javascript_frameworks_compat.js
 * /opt/cuda/nsight_systems/EULA.txt
 * /opt/cuda/nsight_systems/host-linux-x64/CrashReporter
+* /opt/cuda/nsight_systems/host-linux-x64/DumpTimeline
 * /opt/cuda/nsight_systems/host-linux-x64/ImportNvtxt
 * /opt/cuda/nsight_systems/host-linux-x64/libAgentAPI.so
 * /opt/cuda/nsight_systems/host-linux-x64/libAnalysis.so
@@ -2253,7 +2266,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/host-linux-x64/libCommonProtoStreamSections.so
 * /opt/cuda/nsight_systems/host-linux-x64/libCore.so
 * /opt/cuda/nsight_systems/host-linux-x64/libcrypto.so
-* /opt/cuda/nsight_systems/host-linux-x64/libcrypto.so.3
+* /opt/cuda/nsight_systems/host-linux-x64/libcrypto.so.1.1
 * /opt/cuda/nsight_systems/host-linux-x64/libCudaDrvApiWrapper.so
 * /opt/cuda/nsight_systems/host-linux-x64/libDeviceProperty.so
 * /opt/cuda/nsight_systems/host-linux-x64/libDevicePropertyProto.so
@@ -2262,7 +2275,6 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/host-linux-x64/libexec/qt.conf
 * /opt/cuda/nsight_systems/host-linux-x64/libexec/QtWebEngineProcess
 * /opt/cuda/nsight_systems/host-linux-x64/libexporter.so
-* /opt/cuda/nsight_systems/host-linux-x64/libfreetype.so.6
 * /opt/cuda/nsight_systems/host-linux-x64/libGenericHierarchy.so
 * /opt/cuda/nsight_systems/host-linux-x64/libGpuInfo.so
 * /opt/cuda/nsight_systems/host-linux-x64/libGpuTraits.so
@@ -2341,7 +2353,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/host-linux-x64/libssh.so
 * /opt/cuda/nsight_systems/host-linux-x64/libSshClient.so
 * /opt/cuda/nsight_systems/host-linux-x64/libssl.so
-* /opt/cuda/nsight_systems/host-linux-x64/libssl.so.3
+* /opt/cuda/nsight_systems/host-linux-x64/libssl.so.1.1
 * /opt/cuda/nsight_systems/host-linux-x64/libstdc++.so.6
 * /opt/cuda/nsight_systems/host-linux-x64/libStreamSections.so
 * /opt/cuda/nsight_systems/host-linux-x64/libSymbolAnalyzerLight.so
@@ -2425,6 +2437,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/host-linux-x64/reports/openmp_sum.py
 * /opt/cuda/nsight_systems/host-linux-x64/reports/osrt_sum.py
 * /opt/cuda/nsight_systems/host-linux-x64/reports/README.txt
+* /opt/cuda/nsight_systems/host-linux-x64/reports/syscall_sum.py
 * /opt/cuda/nsight_systems/host-linux-x64/reports/um_cpu_page_faults_sum.py
 * /opt/cuda/nsight_systems/host-linux-x64/reports/um_sum.py
 * /opt/cuda/nsight_systems/host-linux-x64/reports/um_total_sum.py
@@ -2560,13 +2573,17 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/host-linux-x64/translations/qtwebengine_locales/zh-TW.pak
 * /opt/cuda/nsight_systems/target-linux-x64/CollectX/clx
 * /opt/cuda/nsight_systems/target-linux-x64/CollectX/CollectXCountersToCollect.txt
+* /opt/cuda/nsight_systems/target-linux-x64/CollectX/counters_collector
+* /opt/cuda/nsight_systems/target-linux-x64/CollectX/lib/providers/libevents_ngauge_high_freq_provider.so
 * /opt/cuda/nsight_systems/target-linux-x64/CollectX/lib/providers/libevents_switch_provider.so
 * /opt/cuda/nsight_systems/target-linux-x64/CollectX/lib/providers/libsysfs_provider.so
 * /opt/cuda/nsight_systems/target-linux-x64/CollectX/libclx_api.so
-* /opt/cuda/nsight_systems/target-linux-x64/CollectX/libcrypto.so.10
-* /opt/cuda/nsight_systems/target-linux-x64/CollectX/libssl.so.10
 * /opt/cuda/nsight_systems/target-linux-x64/CollectX/pmc
 * /opt/cuda/nsight_systems/target-linux-x64/CudaGpuInfoDumper
+* /opt/cuda/nsight_systems/target-linux-x64/eBPF/empty.bpf.c
+* /opt/cuda/nsight_systems/target-linux-x64/eBPF/syscall_trace.bpf.c
+* /opt/cuda/nsight_systems/target-linux-x64/eBPF/syscall_trace.h
+* /opt/cuda/nsight_systems/target-linux-x64/eBPF/vmlinux.h
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/ad10x-gfxt.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/ad10x.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/ga100.config
@@ -2574,15 +2591,16 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/ga10x-gfxact.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/ga10x-gfxt.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/ga10x.config
+* /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/gh100-ct.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/gh100.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/index.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/tu10x-gfxt.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/tu10x.config
 * /opt/cuda/nsight_systems/target-linux-x64/GpuMetrics/tu11x.config
 * /opt/cuda/nsight_systems/target-linux-x64/launcher
-* /opt/cuda/nsight_systems/target-linux-x64/libarrow.so
-* /opt/cuda/nsight_systems/target-linux-x64/libarrow.so.500
-* /opt/cuda/nsight_systems/target-linux-x64/libarrow.so.500.0.0
+* /opt/cuda/nsight_systems/target-linux-x64/libbpf.so
+* /opt/cuda/nsight_systems/target-linux-x64/libbpf.so.1
+* /opt/cuda/nsight_systems/target-linux-x64/libbpf.so.1.3.0
 * /opt/cuda/nsight_systems/target-linux-x64/libcupti.so.10.0
 * /opt/cuda/nsight_systems/target-linux-x64/libcupti.so.10.1
 * /opt/cuda/nsight_systems/target-linux-x64/libcupti.so.10.2
@@ -2603,14 +2621,9 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/libLinuxKeyboardInterceptorProxy.so
 * /opt/cuda/nsight_systems/target-linux-x64/libnvlog.so
 * /opt/cuda/nsight_systems/target-linux-x64/libnvperf_grfx_host.so
-* /opt/cuda/nsight_systems/target-linux-x64/libparquet.so
-* /opt/cuda/nsight_systems/target-linux-x64/libparquet.so.500
-* /opt/cuda/nsight_systems/target-linux-x64/libparquet.so.500.0.0
 * /opt/cuda/nsight_systems/target-linux-x64/libPreRunProcessInjector.so
 * /opt/cuda/nsight_systems/target-linux-x64/libsqlite3.so.0
 * /opt/cuda/nsight_systems/target-linux-x64/libToolsInjection64.so
-* /opt/cuda/nsight_systems/target-linux-x64/libToolsInjectionCuBLAS64_10.so
-* /opt/cuda/nsight_systems/target-linux-x64/libToolsInjectionCuBLAS64_11.so
 * /opt/cuda/nsight_systems/target-linux-x64/libToolsInjectionCuDNN64_7.so
 * /opt/cuda/nsight_systems/target-linux-x64/libToolsInjectionCuDNN64_8.so
 * /opt/cuda/nsight_systems/target-linux-x64/libToolsInjectionMemoryAllocator.so
@@ -2650,6 +2663,15 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/nvtx/include/nvtx3/nvtxDetail/nvtxInitDefs.h
 * /opt/cuda/nsight_systems/target-linux-x64/nvtx/include/nvtx3/nvtxDetail/nvtxLinkOnce.h
 * /opt/cuda/nsight_systems/target-linux-x64/nvtx/include/nvtx3/nvtxDetail/nvtxTypes.h
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/efa_metrics/Licenses.txt
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/efa_metrics/nic_sampler
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/efa_metrics/nsys-plugin.yaml
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/network_interface/network_plugin
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/network_interface/nsys-plugin.yaml
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/nvml_metrics/nsys-plugin.yaml
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/nvml_metrics/nvml_plugin
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/StorageMetrics/nsys-plugin.yaml
+* /opt/cuda/nsight_systems/target-linux-x64/plugins/StorageMetrics/NsysStorageMetricsPlugin
 * /opt/cuda/nsight_systems/target-linux-x64/python/bin/python
 * /opt/cuda/nsight_systems/target-linux-x64/python/lib/gpustats.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/lib/kernel_helper.py
@@ -2664,8 +2686,10 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/args.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/collective_loader.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/cuda.py
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/data_reader.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/data_utils.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/exceptions.py
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/export.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/gpu_metrics.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/heatmap.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/helpers.py
@@ -2679,6 +2703,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/recipe.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/recipe_loader.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/summary.py
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/table_config.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/lib/__init__.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/log.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/nsys_constants.py
@@ -2689,6 +2714,9 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_api_sync/analysis.ipynb
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_api_sync/cuda_api_sync.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_api_sync/metadata.json
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_gpu_kern_hist/cuda_gpu_kern_hist.py
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_gpu_kern_hist/histogram.ipynb
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_gpu_kern_hist/metadata.json
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_gpu_kern_pace/cuda_gpu_kern_pace.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_gpu_kern_pace/metadata.json
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/cuda_gpu_kern_pace/pace.ipynb
@@ -2746,6 +2774,9 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/nccl_sum/metadata.json
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/nccl_sum/nccl_sum.py
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/nccl_sum/stats.ipynb
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/network_sum/metadata.json
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/network_sum/network_sum.py
+* /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/network_sum/stats.ipynb
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/network_traffic_map/heatmap.ipynb
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/network_traffic_map/metadata.json
 * /opt/cuda/nsight_systems/target-linux-x64/python/packages/nsys_recipe/recipes/network_traffic_map/network_traffic_map.py
@@ -2817,6 +2848,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/reports/openmp_sum.py
 * /opt/cuda/nsight_systems/target-linux-x64/reports/osrt_sum.py
 * /opt/cuda/nsight_systems/target-linux-x64/reports/README.txt
+* /opt/cuda/nsight_systems/target-linux-x64/reports/syscall_sum.py
 * /opt/cuda/nsight_systems/target-linux-x64/reports/um_cpu_page_faults_sum.py
 * /opt/cuda/nsight_systems/target-linux-x64/reports/um_sum.py
 * /opt/cuda/nsight_systems/target-linux-x64/reports/um_total_sum.py
@@ -2837,6 +2869,6 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_systems/target-linux-x64/rules/gpu_gaps.py
 * /opt/cuda/nsight_systems/target-linux-x64/rules/gpu_time_util.py
 * /opt/cuda/nsight_systems/target-linux-x64/rules/README.txt
+* /opt/cuda/nsight_systems/target-linux-x64/samples/NetworkPlugin.cpp
 * /opt/cuda/nsight_systems/target-linux-x64/sqlite3
-* /opt/cuda/nsight_systems/target-linux-x64/StorageMetricsCollector
 * /opt/cuda/nsight_systems/target-linux-x64/vulkan-layers/VkLayer_nsight-sys_linux.json
