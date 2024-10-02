@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "typescript 5.5.4-1"
-version = "5.5.4-1"
+title = "typescript 5.6.2-1"
+version = "5.6.2-1"
 description = "TypeScript is a language for application scale JavaScript development"
-date = "2024-08-04T15:42:56"
+date = "2024-10-02T14:15:30"
 aliases = "/packages/220286"
 categories = ['devel-extra']
 upstreamurl = "http://typescriptlang.org"
 arch = "x86_64"
-size = "2625464"
-usize = "21922955"
-sha1sum = "8d77cb1ad7708ecf47cb532512388b68eb48ecd9"
+size = "2699996"
+usize = "22491153"
+sha1sum = "b6e43194be9d8311486908c6b868e6f140985ba4"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -164,6 +164,7 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/lib/lib.esnext.disposable.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.full.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.iterator.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.object.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.promise.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.regexp.d.ts
@@ -193,4 +194,4 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/README.md
 * /usr/lib/node_modules/typescript/SECURITY.md
 * /usr/lib/node_modules/typescript/ThirdPartyNoticeText.txt
-* /usr/share/doc/typescript-5.5.4/README.md
+* /usr/share/doc/typescript-5.6.2/README.md
