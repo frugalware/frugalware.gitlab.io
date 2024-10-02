@@ -1,32 +1,32 @@
 +++
 draft = false
-title = "erlang-odbc 27.0.1-1"
-version = "27.0.1-1"
+title = "erlang-odbc 27.1.1-1"
+version = "27.1.1-1"
 description = "The Erlang ODBC application."
-date = "2024-07-15T16:05:01"
+date = "2024-10-02T14:12:59"
 aliases = "/packages/73591"
 categories = ['devel-extra']
 upstreamurl = "http://www.erlang.org/"
 arch = "x86_64"
-size = "79992"
-usize = "248917"
-sha1sum = "39559e23333252d1f04453e75eee89f8d89bbea7"
-depends = "['erlang=27.0.1']"
+size = "80076"
+usize = "249169"
+sha1sum = "6dd348c5865176e1bdf60b1f2a5411856cd05982"
+depends = "['erlang=27.1.1']"
 +++
 ### Description: 
 The Erlang ODBC application.
 
 ### Files: 
-* /usr/lib/erlang/lib/odbc-2.14.3/c_src/odbcserver.c
-* /usr/lib/erlang/lib/odbc-2.14.3/c_src/odbcserver.h
-* /usr/lib/erlang/lib/odbc-2.14.3/ebin/odbc.app
-* /usr/lib/erlang/lib/odbc-2.14.3/ebin/odbc.appup
-* /usr/lib/erlang/lib/odbc-2.14.3/ebin/odbc.beam
-* /usr/lib/erlang/lib/odbc-2.14.3/ebin/odbc_app.beam
-* /usr/lib/erlang/lib/odbc-2.14.3/ebin/odbc_sup.beam
-* /usr/lib/erlang/lib/odbc-2.14.3/include/odbc.hrl
-* /usr/lib/erlang/lib/odbc-2.14.3/priv/bin/odbcserver
-* /usr/lib/erlang/lib/odbc-2.14.3/src/odbc.erl
-* /usr/lib/erlang/lib/odbc-2.14.3/src/odbc_app.erl
-* /usr/lib/erlang/lib/odbc-2.14.3/src/odbc_internal.hrl
-* /usr/lib/erlang/lib/odbc-2.14.3/src/odbc_sup.erl
+* /usr/lib/erlang/lib/odbc-2.15/c_src/odbcserver.c
+* /usr/lib/erlang/lib/odbc-2.15/c_src/odbcserver.h
+* /usr/lib/erlang/lib/odbc-2.15/ebin/odbc.app
+* /usr/lib/erlang/lib/odbc-2.15/ebin/odbc.appup
+* /usr/lib/erlang/lib/odbc-2.15/ebin/odbc.beam
+* /usr/lib/erlang/lib/odbc-2.15/ebin/odbc_app.beam
+* /usr/lib/erlang/lib/odbc-2.15/ebin/odbc_sup.beam
+* /usr/lib/erlang/lib/odbc-2.15/include/odbc.hrl
+* /usr/lib/erlang/lib/odbc-2.15/priv/bin/odbcserver
+* /usr/lib/erlang/lib/odbc-2.15/src/odbc.erl
+* /usr/lib/erlang/lib/odbc-2.15/src/odbc_app.erl
+* /usr/lib/erlang/lib/odbc-2.15/src/odbc_internal.hrl
+* /usr/lib/erlang/lib/odbc-2.15/src/odbc_sup.erl
