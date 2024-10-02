@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cgal 5.6.1-1"
-version = "5.6.1-1"
+title = "cgal 6.0-1"
+version = "6.0-1"
 description = "An efficient C++ software library of geometric data structures and algorithms"
-date = "2024-06-04T12:18:38"
+date = "2024-10-02T09:12:45"
 aliases = "/packages/60204"
 categories = ['lib-extra']
 upstreamurl = "http://www.cgal.org/"
 arch = "x86_64"
-size = "5235880"
-usize = "40977201"
-sha1sum = "5e2b46b068024cf449ba1c42c780cc5e350db609"
+size = "5357288"
+usize = "41821602"
+sha1sum = "905b2f2837d9a04034e2ad0b7835d9d060e5f59a"
 depends = "['libboost>=1.78.0', 'mpfr>=4.0.0-3']"
 +++
 ### Description: 
@@ -22,25 +22,34 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/bin/cgal_make_macosx_app
 * /usr/include/CGAL/AABB_face_graph_triangle_primitive.h
 * /usr/include/CGAL/AABB_halfedge_graph_segment_primitive.h
+* /usr/include/CGAL/AABB_indexed_triangle_primitive_2.h
 * /usr/include/CGAL/AABB_polyhedral_oracle.h
-* /usr/include/CGAL/AABB_polyhedron_segment_primitive.h
-* /usr/include/CGAL/AABB_polyhedron_triangle_primitive.h
+* /usr/include/CGAL/AABB_polyline_segment_primitive_2.h
 * /usr/include/CGAL/AABB_primitive.h
 * /usr/include/CGAL/AABB_segment_primitive.h
+* /usr/include/CGAL/AABB_segment_primitive_2.h
+* /usr/include/CGAL/AABB_segment_primitive_3.h
 * /usr/include/CGAL/AABB_traits.h
+* /usr/include/CGAL/AABB_traits_2.h
+* /usr/include/CGAL/AABB_traits_3.h
 * /usr/include/CGAL/AABB_tree.h
 * /usr/include/CGAL/AABB_tree/internal/AABB_drawing_traits.h
 * /usr/include/CGAL/AABB_tree/internal/AABB_node.h
 * /usr/include/CGAL/AABB_tree/internal/AABB_ray_intersection.h
 * /usr/include/CGAL/AABB_tree/internal/AABB_search_tree.h
+* /usr/include/CGAL/AABB_tree/internal/AABB_traits_base.h
 * /usr/include/CGAL/AABB_tree/internal/AABB_traversal_traits.h
 * /usr/include/CGAL/AABB_tree/internal/Has_nested_type_Shared_data.h
 * /usr/include/CGAL/AABB_tree/internal/Is_ray_intersection_geomtraits.h
 * /usr/include/CGAL/AABB_tree/internal/Primitive_helper.h
+* /usr/include/CGAL/AABB_tree/internal/Remove_optional.h
 * /usr/include/CGAL/AABB_tree/internal/triangle_datum_covering.h
 * /usr/include/CGAL/AABB_triangle_primitive.h
+* /usr/include/CGAL/AABB_triangle_primitive_2.h
+* /usr/include/CGAL/AABB_triangle_primitive_3.h
 * /usr/include/CGAL/AABB_triangulation_3_cell_primitive.h
 * /usr/include/CGAL/AABB_triangulation_3_triangle_primitive.h
+* /usr/include/CGAL/Adaptive_remeshing_sizing_field.h
 * /usr/include/CGAL/Advancing_front_surface_reconstruction.h
 * /usr/include/CGAL/Advancing_front_surface_reconstruction/internal/construct_polyhedron.h
 * /usr/include/CGAL/Advancing_front_surface_reconstruction/internal/construct_surface_2.h
@@ -121,6 +130,8 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/alpha_wrap_3.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/Alpha_wrap_3.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/Alpha_wrap_AABB_geom_traits.h
+* /usr/include/CGAL/Alpha_wrap_3/internal/Alpha_wrap_triangulation_cell_base_3.h
+* /usr/include/CGAL/Alpha_wrap_3/internal/Alpha_wrap_triangulation_vertex_base_3.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/gate_priority_queue.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/geometry_utils.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/offset_intersection.h
@@ -131,6 +142,8 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Alpha_wrap_3/internal/splitting_helper.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/Triangle_mesh_oracle.h
 * /usr/include/CGAL/Alpha_wrap_3/internal/Triangle_soup_oracle.h
+* /usr/include/CGAL/Alpha_wrap_3/internal/validation.h
+* /usr/include/CGAL/Aos_observer.h
 * /usr/include/CGAL/Apollonius_graph_2.h
 * /usr/include/CGAL/Apollonius_graph_2/Apollonius_graph_2_impl.h
 * /usr/include/CGAL/Apollonius_graph_2/Apollonius_graph_hierarchy_2_impl.h
@@ -218,6 +231,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Arr_consolidated_curve_data_traits_2.h
 * /usr/include/CGAL/Arr_counting_traits_2.h
 * /usr/include/CGAL/Arr_curve_data_traits_2.h
+* /usr/include/CGAL/Arr_dcel.h
 * /usr/include/CGAL/Arr_dcel_base.h
 * /usr/include/CGAL/Arr_default_dcel.h
 * /usr/include/CGAL/Arr_default_overlay_traits.h
@@ -523,6 +537,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/boost/iterator/transform_iterator.hpp
 * /usr/include/CGAL/boost_mp.h
 * /usr/include/CGAL/BOOST_MP_arithmetic_kernel.h
+* /usr/include/CGAL/boost_mp_type.h
 * /usr/include/CGAL/Bounded_kernel.h
 * /usr/include/CGAL/bounding_box.h
 * /usr/include/CGAL/box_intersection_d.h
@@ -727,6 +742,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Compact_container.h
 * /usr/include/CGAL/Compact_container_with_index.h
 * /usr/include/CGAL/Compact_mesh_cell_base_3.h
+* /usr/include/CGAL/Compact_simplicial_mesh_cell_base_3.h
 * /usr/include/CGAL/Compare_handles_with_or_without_timestamps.h
 * /usr/include/CGAL/compare_vertices.h
 * /usr/include/CGAL/Complexity_tags.h
@@ -820,15 +836,12 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/CORE/CoreAux_impl.h
 * /usr/include/CGAL/CORE/CoreDefs.h
 * /usr/include/CGAL/CORE/CoreDefs_impl.h
-* /usr/include/CGAL/CORE/CoreIO_impl.h
 * /usr/include/CGAL/CORE/Expr.h
 * /usr/include/CGAL/CORE/ExprRep.h
 * /usr/include/CGAL/CORE/Expr_impl.h
 * /usr/include/CGAL/CORE/extLong.h
 * /usr/include/CGAL/CORE/extLong_impl.h
 * /usr/include/CGAL/CORE/Filter.h
-* /usr/include/CGAL/CORE/Gmp.h
-* /usr/include/CGAL/CORE/Gmp_impl.h
 * /usr/include/CGAL/CORE/Impl.h
 * /usr/include/CGAL/CORE/linearAlgebra.h
 * /usr/include/CGAL/CORE/MemoryPool.h
@@ -962,6 +975,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/draw_face_graph.h
 * /usr/include/CGAL/draw_face_graph_with_paths.h
 * /usr/include/CGAL/draw_linear_cell_complex.h
+* /usr/include/CGAL/draw_multipolygon_with_holes_2.h
 * /usr/include/CGAL/draw_nef_3.h
 * /usr/include/CGAL/draw_periodic_2_triangulation_2.h
 * /usr/include/CGAL/draw_point_set_3.h
@@ -1069,6 +1083,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Is_degenerate_3.h
 * /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Orientation_2.h
 * /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Orientation_3.h
+* /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Power_side_of_oriented_power_circle_2.h
 * /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Power_side_of_oriented_power_sphere_3.h
 * /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Side_of_oriented_circle_2.h
 * /usr/include/CGAL/Filtered_kernel/internal/Static_filters/Side_of_oriented_sphere_3.h
@@ -1156,12 +1171,13 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Gps_segment_traits_2.h
 * /usr/include/CGAL/Gps_traits_2.h
 * /usr/include/CGAL/grabbers.h
+* /usr/include/CGAL/Graphics_scene.h
+* /usr/include/CGAL/Graphics_scene_options.h
 * /usr/include/CGAL/graph_traits_Arrangement_2.h
 * /usr/include/CGAL/graph_traits_dual_arrangement_2.h
 * /usr/include/CGAL/graph_traits_dual_arrangement_on_surface_2.h
 * /usr/include/CGAL/graph_traits_dual_arrangement_on_surface_with_history_2.h
 * /usr/include/CGAL/graph_traits_dual_arrangement_with_history_2.h
-* /usr/include/CGAL/Gray_image_mesh_domain_3.h
 * /usr/include/CGAL/Gray_level_image_3.h
 * /usr/include/CGAL/grid_simplify_point_set.h
 * /usr/include/CGAL/halfedgeds_connected_components.h
@@ -1295,7 +1311,6 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Image_3.h
 * /usr/include/CGAL/Image_3_impl.h
 * /usr/include/CGAL/Image_3_vtk_interface.h
-* /usr/include/CGAL/Implicit_mesh_domain_3.h
 * /usr/include/CGAL/Implicit_surface_3.h
 * /usr/include/CGAL/Implicit_to_labeled_subdomains_function_wrapper.h
 * /usr/include/CGAL/Implicit_to_labeling_function_wrapper.h
@@ -1582,6 +1597,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/IO/PLY.h
 * /usr/include/CGAL/IO/PLY/PLY_reader.h
 * /usr/include/CGAL/IO/PLY/PLY_writer.h
+* /usr/include/CGAL/IO/polygon_mesh_io.h
 * /usr/include/CGAL/IO/polygon_soup_io.h
 * /usr/include/CGAL/IO/Polyhedron_inventor_ostream.h
 * /usr/include/CGAL/IO/Polyhedron_iostream.h
@@ -1726,9 +1742,20 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/kernel_to_kernel.h
 * /usr/include/CGAL/Kernel_traits.h
 * /usr/include/CGAL/Kernel_traits_fwd.h
+* /usr/include/CGAL/Kinetic_space_partition_3.h
+* /usr/include/CGAL/Kinetic_surface_reconstruction_3.h
 * /usr/include/CGAL/known_bit_size_integers.h
+* /usr/include/CGAL/KSP/debug.h
+* /usr/include/CGAL/KSP/parameters.h
+* /usr/include/CGAL/KSP/utils.h
+* /usr/include/CGAL/KSP_3/Data_structure.h
+* /usr/include/CGAL/KSP_3/Finalizer.h
+* /usr/include/CGAL/KSP_3/Initializer.h
+* /usr/include/CGAL/KSP_3/Intersection_graph.h
+* /usr/include/CGAL/KSP_3/Propagation.h
+* /usr/include/CGAL/KSP_3/Support_plane.h
+* /usr/include/CGAL/KSR_3/Graphcut.h
 * /usr/include/CGAL/K_neighbor_search.h
-* /usr/include/CGAL/Labeled_image_mesh_domain_3.h
 * /usr/include/CGAL/Labeled_mesh_domain_3.h
 * /usr/include/CGAL/Largest_empty_iso_rectangle_2.h
 * /usr/include/CGAL/Lazy.h
@@ -1773,6 +1800,8 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/license/Interpolation.h
 * /usr/include/CGAL/license/Interval_skip_list.h
 * /usr/include/CGAL/license/Jet_fitting_3.h
+* /usr/include/CGAL/license/Kinetic_space_partition.h
+* /usr/include/CGAL/license/Kinetic_surface_reconstruction.h
 * /usr/include/CGAL/license/lgpl.h
 * /usr/include/CGAL/license/Matrix_search.h
 * /usr/include/CGAL/license/Mesh_2.h
@@ -1796,6 +1825,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/license/Poisson_surface_reconstruction_3.h
 * /usr/include/CGAL/license/Polygonal_surface_reconstruction.h
 * /usr/include/CGAL/license/Polygon_mesh_processing.h
+* /usr/include/CGAL/license/Polygon_mesh_processing/autorefinement.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/collision_detection.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/combinatorial_repair.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/Compute_normal.h
@@ -1805,6 +1835,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/license/Polygon_mesh_processing/detect_features.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/distance.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/geometric_repair.h
+* /usr/include/CGAL/license/Polygon_mesh_processing/interpolated_corrected_curvatures.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/locate.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/measure.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/meshing_hole_filling.h
@@ -1812,6 +1843,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/license/Polygon_mesh_processing/orientation.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/Polyhedral_envelope.h
 * /usr/include/CGAL/license/Polygon_mesh_processing/predicate.h
+* /usr/include/CGAL/license/Polygon_repair.h
 * /usr/include/CGAL/license/Polyhedron.h
 * /usr/include/CGAL/license/Polyline_simplification_2.h
 * /usr/include/CGAL/license/Polytope_distance_d.h
@@ -2113,6 +2145,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/MP_Float_arithmetic_kernel.h
 * /usr/include/CGAL/MP_Float_impl.h
 * /usr/include/CGAL/mst_orient_normals.h
+* /usr/include/CGAL/Multipolygon_with_holes_2.h
 * /usr/include/CGAL/Multiscale_sort.h
 * /usr/include/CGAL/Multiset.h
 * /usr/include/CGAL/Multi_surface_3.h
@@ -2286,6 +2319,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/normal_vector_newell_3.h
 * /usr/include/CGAL/No_intersection_surface_sweep_2.h
 * /usr/include/CGAL/NT_converter.h
+* /usr/include/CGAL/NT_wrapper.h
 * /usr/include/CGAL/Null_matrix.h
 * /usr/include/CGAL/Number_types/internal/Exact_type_selector.h
 * /usr/include/CGAL/Number_types/internal_functions_comparison_root_of_2.h
@@ -2303,13 +2337,6 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/OFF_to_nef_3.h
 * /usr/include/CGAL/OpenGR/compute_registration_transformation.h
 * /usr/include/CGAL/OpenGR/register_point_sets.h
-* /usr/include/CGAL/OpenNL/bicgstab.h
-* /usr/include/CGAL/OpenNL/blas.h
-* /usr/include/CGAL/OpenNL/conjugate_gradient.h
-* /usr/include/CGAL/OpenNL/full_vector.h
-* /usr/include/CGAL/OpenNL/linear_solver.h
-* /usr/include/CGAL/OpenNL/preconditioner.h
-* /usr/include/CGAL/OpenNL/sparse_matrix.h
 * /usr/include/CGAL/optimal_bounding_box.h
 * /usr/include/CGAL/Optimal_bounding_box/internal/evolution.h
 * /usr/include/CGAL/Optimal_bounding_box/internal/fitness_function.h
@@ -2344,13 +2371,14 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Orthtree.h
 * /usr/include/CGAL/Orthtree/Cartesian_ranges.h
 * /usr/include/CGAL/Orthtree/IO.h
-* /usr/include/CGAL/Orthtree/Node.h
 * /usr/include/CGAL/Orthtree/Split_predicates.h
 * /usr/include/CGAL/Orthtree/Traversals.h
 * /usr/include/CGAL/Orthtree/Traversal_iterator.h
-* /usr/include/CGAL/Orthtree_traits_2.h
-* /usr/include/CGAL/Orthtree_traits_3.h
-* /usr/include/CGAL/Orthtree_traits_d.h
+* /usr/include/CGAL/Orthtree_traits.h
+* /usr/include/CGAL/Orthtree_traits_base.h
+* /usr/include/CGAL/Orthtree_traits_face_graph.h
+* /usr/include/CGAL/Orthtree_traits_point.h
+* /usr/include/CGAL/Orthtree_traits_polygons.h
 * /usr/include/CGAL/OSQP_quadratic_program_traits.h
 * /usr/include/CGAL/OTR_2/Cost.h
 * /usr/include/CGAL/OTR_2/Reconstruction_edge_2.h
@@ -2495,6 +2523,8 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Poisson_reconstruction_function.h
 * /usr/include/CGAL/poisson_refine_triangulation.h
 * /usr/include/CGAL/poisson_surface_reconstruction.h
+* /usr/include/CGAL/Poisson_surface_reconstruction_3/internal/Poisson_mesh_traits_generator_3.h
+* /usr/include/CGAL/Poisson_surface_reconstruction_3/internal/Poisson_sphere_oracle_3.h
 * /usr/include/CGAL/Polychain_2.h
 * /usr/include/CGAL/Polygonal_schema.h
 * /usr/include/CGAL/Polygonal_schema_fwd.h
@@ -2516,7 +2546,9 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Polygon_convex_decomposition_2.h
 * /usr/include/CGAL/polygon_function_objects.h
 * /usr/include/CGAL/polygon_mesh_processing.h
+* /usr/include/CGAL/Polygon_mesh_processing/Adaptive_sizing_field.h
 * /usr/include/CGAL/Polygon_mesh_processing/angle_and_area_smoothing.h
+* /usr/include/CGAL/Polygon_mesh_processing/autorefinement.h
 * /usr/include/CGAL/Polygon_mesh_processing/bbox.h
 * /usr/include/CGAL/Polygon_mesh_processing/border.h
 * /usr/include/CGAL/Polygon_mesh_processing/clip.h
@@ -2544,7 +2576,6 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Polygon_mesh_processing/internal/do_no_use_CDT2.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/fair_impl.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/do_not_use_DT3.h
-* /usr/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/experimental/experimental_code.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polygon_mesh.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polyline.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Isotropic_remeshing/AABB_filtered_projection_traits.h
@@ -2557,6 +2588,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Side_of_triangle_mesh/Point_inside_vertical_ray_cast.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Side_of_triangle_mesh/Ray_3_Triangle_3_traversal_traits.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/simplify_polyline.h
+* /usr/include/CGAL/Polygon_mesh_processing/internal/Sizing_field_base.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Smoothing/ceres_support.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Smoothing/curvature_flow_impl.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Smoothing/mesh_smoothing_impl.h
@@ -2564,6 +2596,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Snapping/helper.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Snapping/snap.h
 * /usr/include/CGAL/Polygon_mesh_processing/internal/Snapping/snap_vertices.h
+* /usr/include/CGAL/Polygon_mesh_processing/interpolated_corrected_curvatures.h
 * /usr/include/CGAL/Polygon_mesh_processing/intersection.h
 * /usr/include/CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h
 * /usr/include/CGAL/Polygon_mesh_processing/locate.h
@@ -2578,6 +2611,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Polygon_mesh_processing/polygon_soup_to_polygon_mesh.h
 * /usr/include/CGAL/Polygon_mesh_processing/random_perturbation.h
 * /usr/include/CGAL/Polygon_mesh_processing/refine.h
+* /usr/include/CGAL/Polygon_mesh_processing/refine_mesh_at_isolevel.h
 * /usr/include/CGAL/Polygon_mesh_processing/region_growing.h
 * /usr/include/CGAL/Polygon_mesh_processing/remesh.h
 * /usr/include/CGAL/Polygon_mesh_processing/remesh_planar_patches.h
@@ -2596,10 +2630,15 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Polygon_mesh_processing/triangle.h
 * /usr/include/CGAL/Polygon_mesh_processing/triangulate_faces.h
 * /usr/include/CGAL/Polygon_mesh_processing/triangulate_hole.h
+* /usr/include/CGAL/Polygon_mesh_processing/Uniform_sizing_field.h
 * /usr/include/CGAL/Polygon_mesh_slicer.h
 * /usr/include/CGAL/Polygon_nop_decomposition_2.h
 * /usr/include/CGAL/Polygon_offset_builder_2.h
 * /usr/include/CGAL/Polygon_offset_builder_traits_2.h
+* /usr/include/CGAL/Polygon_repair/Even_odd_rule.h
+* /usr/include/CGAL/Polygon_repair/internal/Triangulation_face_base_with_repair_info_2.h
+* /usr/include/CGAL/Polygon_repair/internal/Triangulation_with_even_odd_constraints_2.h
+* /usr/include/CGAL/Polygon_repair/repair.h
 * /usr/include/CGAL/Polygon_set_2.h
 * /usr/include/CGAL/Polygon_traits_2.h
 * /usr/include/CGAL/Polygon_triangulation_decomposition_2.h
@@ -2692,6 +2731,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Projection_traits_xy_3.h
 * /usr/include/CGAL/Projection_traits_xz_3.h
 * /usr/include/CGAL/Projection_traits_yz_3.h
+* /usr/include/CGAL/Property_container.h
 * /usr/include/CGAL/property_map.h
 * /usr/include/CGAL/QP_functions.h
 * /usr/include/CGAL/QP_models.h
@@ -2722,7 +2762,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/QP_solver/Unbounded_direction.h
 * /usr/include/CGAL/Qt/AlphaShapeGraphicsItem.h
 * /usr/include/CGAL/Qt/ApolloniusGraphGraphicsItem.h
-* /usr/include/CGAL/Qt/Basic_viewer_qt.h
+* /usr/include/CGAL/Qt/Basic_viewer.h
 * /usr/include/CGAL/Qt/camera.h
 * /usr/include/CGAL/Qt/camera_impl.h
 * /usr/include/CGAL/Qt/CGAL_Qt_config.h
@@ -3345,6 +3385,9 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Tetrahedral_remeshing/internal/compute_c3t3_statistics.h
 * /usr/include/CGAL/Tetrahedral_remeshing/internal/flip_edges.h
 * /usr/include/CGAL/Tetrahedral_remeshing/internal/FMLS.h
+* /usr/include/CGAL/Tetrahedral_remeshing/internal/Medial_axis_kd_tree.h
+* /usr/include/CGAL/Tetrahedral_remeshing/internal/peel_slivers.h
+* /usr/include/CGAL/Tetrahedral_remeshing/internal/property_maps.h
 * /usr/include/CGAL/Tetrahedral_remeshing/internal/smooth_vertices.h
 * /usr/include/CGAL/Tetrahedral_remeshing/internal/split_long_edges.h
 * /usr/include/CGAL/Tetrahedral_remeshing/internal/tetrahedral_adaptive_remeshing_impl.h
@@ -3352,19 +3395,18 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Tetrahedral_remeshing/Remeshing_cell_base_3.h
 * /usr/include/CGAL/Tetrahedral_remeshing/Remeshing_triangulation_3.h
 * /usr/include/CGAL/Tetrahedral_remeshing/Remeshing_vertex_base_3.h
-* /usr/include/CGAL/Tetrahedral_remeshing/Sizing_field.h
 * /usr/include/CGAL/Tetrahedral_remeshing/tetrahedral_remeshing_io.h
-* /usr/include/CGAL/Tetrahedral_remeshing/Uniform_sizing_field.h
+* /usr/include/CGAL/Tetrahedral_remeshing_sizing_field.h
 * /usr/include/CGAL/Tetrahedron_3.h
 * /usr/include/CGAL/tetrahedron_soup_to_triangulation_3.h
 * /usr/include/CGAL/thread.h
 * /usr/include/CGAL/Three/Buffer_objects.h
+* /usr/include/CGAL/Three/CGAL_Lab_io_plugin_interface.h
+* /usr/include/CGAL/Three/CGAL_Lab_plugin_helper.h
+* /usr/include/CGAL/Three/CGAL_Lab_plugin_interface.h
 * /usr/include/CGAL/Three/Edge_container.h
 * /usr/include/CGAL/Three/exceptions.h
 * /usr/include/CGAL/Three/Point_container.h
-* /usr/include/CGAL/Three/Polyhedron_demo_io_plugin_interface.h
-* /usr/include/CGAL/Three/Polyhedron_demo_plugin_helper.h
-* /usr/include/CGAL/Three/Polyhedron_demo_plugin_interface.h
 * /usr/include/CGAL/Three/Primitive_container.h
 * /usr/include/CGAL/Three/Scene_draw_interface.h
 * /usr/include/CGAL/Three/Scene_group_item.h
@@ -3476,6 +3518,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Umbilics.h
 * /usr/include/CGAL/Uncertain.h
 * /usr/include/CGAL/Unfiltered_predicate_adaptor.h
+* /usr/include/CGAL/Uniform_sizing_field.h
 * /usr/include/CGAL/Union_find.h
 * /usr/include/CGAL/Union_of_balls_3.h
 * /usr/include/CGAL/Unique_hash_map.h
@@ -3485,6 +3528,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/utils.h
 * /usr/include/CGAL/utils_classes.h
 * /usr/include/CGAL/value_type_traits.h
+* /usr/include/CGAL/variant.h
 * /usr/include/CGAL/Variational_shape_approximation.h
 * /usr/include/CGAL/vcm_estimate_edges.h
 * /usr/include/CGAL/vcm_estimate_normals.h
@@ -3492,6 +3536,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/include/CGAL/Vector_2.h
 * /usr/include/CGAL/Vector_3.h
 * /usr/include/CGAL/version.h
+* /usr/include/CGAL/version_checker.h
 * /usr/include/CGAL/version_macros.h
 * /usr/include/CGAL/Vertex2Data_Property_Map_with_std_map.h
 * /usr/include/CGAL/Visibility_2/visibility_utils.h
@@ -3588,18 +3633,18 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/CGAL_METIS_support.cmake
 * /usr/lib/cmake/CGAL/CGAL_OpenCV_support.cmake
 * /usr/lib/cmake/CGAL/CGAL_OpenGR_support.cmake
+* /usr/lib/cmake/CGAL/CGAL_OpenMesh_support.cmake
 * /usr/lib/cmake/CGAL/CGAL_OSQP_support.cmake
 * /usr/lib/cmake/CGAL/CGAL_parse_version_h.cmake
 * /usr/lib/cmake/CGAL/CGAL_pointmatcher_support.cmake
-* /usr/lib/cmake/CGAL/CGAL_Qt5_moc_and_resource_files.cmake
+* /usr/lib/cmake/CGAL/CGAL_Qt6_moc_and_resource_files.cmake
 * /usr/lib/cmake/CGAL/CGAL_SCIP_support.cmake
 * /usr/lib/cmake/CGAL/CGAL_SCM.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupBoost.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupCGAL_CoreDependencies.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupCGAL_ImageIODependencies.cmake
-* /usr/lib/cmake/CGAL/CGAL_SetupCGAL_Qt5Dependencies.cmake
-* /usr/lib/cmake/CGAL/CGAL_SetupDependencies.cmake
+* /usr/lib/cmake/CGAL/CGAL_SetupCGAL_Qt6Dependencies.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupFlags.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupGMP.cmake
 * /usr/lib/cmake/CGAL/CGAL_SetupLEDA.cmake
@@ -3623,7 +3668,6 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/config/support/print_MPFI_version.cpp
 * /usr/lib/cmake/CGAL/config/support/print_MPFR_version.cpp
 * /usr/lib/cmake/CGAL/config/support/print_OPENGL_version.cpp
-* /usr/lib/cmake/CGAL/config/support/print_QT4_version.cpp
 * /usr/lib/cmake/CGAL/config/support/print_QT_version.cpp
 * /usr/lib/cmake/CGAL/config/support/print_ZLIB_version.cpp
 * /usr/lib/cmake/CGAL/config/support/test_BOOST.cpp
@@ -3676,6 +3720,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/demo/resources/CGAL.qrc
 * /usr/lib/cmake/CGAL/demo/resources/cgal_logo.xpm
 * /usr/lib/cmake/CGAL/demo/resources/cgal_logo_ipe_2013.png
+* /usr/lib/cmake/CGAL/display-third-party-libs-versions.cmake
 * /usr/lib/cmake/CGAL/FindCORE.cmake
 * /usr/lib/cmake/CGAL/FindEigen3.cmake
 * /usr/lib/cmake/CGAL/FindESBTL.cmake
@@ -3693,7 +3738,6 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/FindMPFI.cmake
 * /usr/lib/cmake/CGAL/FindMPFR.cmake
 * /usr/lib/cmake/CGAL/FindNTL.cmake
-* /usr/lib/cmake/CGAL/FindOpenMesh.cmake
 * /usr/lib/cmake/CGAL/FindOSQP.cmake
 * /usr/lib/cmake/CGAL/FindRS.cmake
 * /usr/lib/cmake/CGAL/FindRS3.cmake
@@ -3703,7 +3747,7 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/Help/CGAL_SetupCGALDependencies.rst
 * /usr/lib/cmake/CGAL/Help/CGAL_SetupCGAL_CoreDependencies.rst
 * /usr/lib/cmake/CGAL/Help/CGAL_SetupCGAL_ImageIODependencies.rst
-* /usr/lib/cmake/CGAL/Help/CGAL_SetupCGAL_Qt5Dependencies.rst
+* /usr/lib/cmake/CGAL/Help/CGAL_SetupCGAL_Qt6Dependencies.rst
 * /usr/lib/cmake/CGAL/Help/CGAL_SetupGMP.rst
 * /usr/lib/cmake/CGAL/Help/CGAL_SetupLEDA.rst
 * /usr/lib/cmake/CGAL/Help/cmake.py
@@ -3715,17 +3759,15 @@ An efficient C++ software library of geometric data structures and algorithms
 * /usr/lib/cmake/CGAL/run_cmd_redirection_cerr.cmake
 * /usr/lib/cmake/CGAL/run_test_with_cin.cmake
 * /usr/lib/cmake/CGAL/test_MPFI.cpp
-* /usr/lib/cmake/CGAL/UseCGAL.cmake
 * /usr/lib/cmake/CGAL/UseEigen3.cmake
 * /usr/lib/cmake/CGAL/UseESBTL.cmake
 * /usr/lib/cmake/CGAL/UseLASLIB.cmake
-* /usr/lib/cmake/CGAL/UseOpenMesh.cmake
 * /usr/lib/cmake/CGAL/UseTBB.cmake
-* /usr/share/doc/cgal-5.6.1/AUTHORS
-* /usr/share/doc/cgal-5.6.1/INSTALL.md
-* /usr/share/doc/cgal-5.6.1/LICENSE
-* /usr/share/doc/cgal-5.6.1/README
-* /usr/share/doc/cgal-5.6.1/VERSION
+* /usr/share/doc/cgal-6.0/AUTHORS
+* /usr/share/doc/cgal-6.0/INSTALL.md
+* /usr/share/doc/cgal-6.0/LICENSE
+* /usr/share/doc/cgal-6.0/README.md
+* /usr/share/doc/cgal-6.0/VERSION
 * /usr/share/doc/CGAL/AUTHORS
 * /usr/share/doc/CGAL/CHANGES.md
 * /usr/share/doc/CGAL/LICENSE

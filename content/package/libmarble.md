@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmarble 24.08.1-2"
-version = "24.08.1-2"
+title = "libmarble 24.08.1-3"
+version = "24.08.1-3"
 description = "Marble libs"
-date = "2024-09-15T15:43:45"
+date = "2024-10-02T08:39:54"
 aliases = "/packages/220195"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3312180"
-usize = "12153413"
-sha1sum = "5c6668f436ee805b7a79d4419473e0211fbba2d2"
-depends = "['gpsd>=3.25', 'knewstuff5', 'kparts5', 'krunner5', 'protobuf>=28.1', 'qt5-serialport', 'qt5-webengine']"
+size = "3310564"
+usize = "12157381"
+sha1sum = "2b85259dfab8a135f49856a7ed26f4c10c549da0"
+depends = "['gpsd>=3.25', 'knewstuff5', 'kparts5', 'krunner5', 'protobuf>=28.2', 'qt5-serialport', 'qt5-webengine']"
 reverse_depends = "['marble']"
 +++
 ### Description: 
