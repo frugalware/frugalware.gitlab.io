@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "firefox 130.0.1-1"
-version = "130.0.1-1"
+title = "firefox 131.0-1"
+version = "131.0-1"
 description = "Mozilla Firefox web browser"
-date = "2024-09-18T17:06:58"
+date = "2024-10-02T15:39:39"
 aliases = "/packages/2997"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mozilla.org/products/firefox/"
 arch = "x86_64"
-size = "68109912"
-usize = "270218468"
-sha1sum = "751d2c0f7f6b3372c32fb6cbf8c6a381d2e1dc91"
+size = "65466900"
+usize = "239586089"
+sha1sum = "97e1cc76e16076e917ac41e68323b24e8561b049"
 depends = "['alsa-lib', 'aom', 'bzip2', 'cairo', 'curl>=7.50.3-2', 'dav1d>=1.3.0', 'dbus-glib', 'desktop-file-utils', 'ffmpeg>=3.3.2', 'gtk+2', 'gtk+3>=3.22.4', 'hunspell>=1.6.1', 'icu4c>=75.1', 'jemalloc', 'lcms', 'lcms2', 'libevent>=2.1.11', 'libffi>=3.4', 'libice', 'libidl', 'libnotify', 'libpulse>=9.0-2', 'libstdc++>=6.2.1-5', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxft>=2.1.13-2', 'libxt', 'nspr>=4.9.2', 'nss>=3.76', 'sqlite3>=3.25.1-2', 'startup-notification', 'wireless_tools']"
 reverse_depends = "['firefox-ach', 'firefox-af', 'firefox-an', 'firefox-ar', 'firefox-ast', 'firefox-az', 'firefox-be', 'firefox-bg', 'firefox-bn', 'firefox-br', 'firefox-bs', 'firefox-ca', 'firefox-ca-valencia', 'firefox-cak', 'firefox-cs', 'firefox-cy', 'firefox-da', 'firefox-de', 'firefox-dsb', 'firefox-el', 'firefox-en-ca', 'firefox-en-gb', 'firefox-en-us', 'firefox-eo', 'firefox-es', 'firefox-es-ar', 'firefox-es-cl', 'firefox-es-es', 'firefox-es-mx', 'firefox-et', 'firefox-eu', 'firefox-fa', 'firefox-ff', 'firefox-fi', 'firefox-fr', 'firefox-fur', 'firefox-fy-nl', 'firefox-ga', 'firefox-ga-ie', 'firefox-gd', 'firefox-gl', 'firefox-gn', 'firefox-gu-in', 'firefox-he', 'firefox-hi-in', 'firefox-hr', 'firefox-hsb', 'firefox-hu', 'firefox-hy-am', 'firefox-i18n', 'firefox-ia', 'firefox-id', 'firefox-is', 'firefox-it', 'firefox-ja', 'firefox-ka', 'firefox-kab', 'firefox-kk', 'firefox-km', 'firefox-kn', 'firefox-ko', 'firefox-lij', 'firefox-lt', 'firefox-lv', 'firefox-mk', 'firefox-mn', 'firefox-mr', 'firefox-ms', 'firefox-my', 'firefox-nb', 'firefox-nb-no', 'firefox-ne-np', 'firefox-nl', 'firefox-nn-no', 'firefox-oc', 'firefox-pa', 'firefox-pa-in', 'firefox-pl', 'firefox-pt-br', 'firefox-pt-pt', 'firefox-pt_BR', 'firefox-pt_PT', 'firefox-rm', 'firefox-ro', 'firefox-ru', 'firefox-sat', 'firefox-sc', 'firefox-sco', 'firefox-si', 'firefox-sk', 'firefox-skr', 'firefox-sl', 'firefox-son', 'firefox-sq', 'firefox-sr', 'firefox-sv-se', 'firefox-szl', 'firefox-ta', 'firefox-tabswitcher', 'firefox-te', 'firefox-tg', 'firefox-th', 'firefox-tl', 'firefox-tr', 'firefox-trs', 'firefox-uk', 'firefox-ur', 'firefox-uz', 'firefox-vi', 'firefox-xh', 'firefox-zh-cn', 'firefox-zh-tw', 'firefox-zh_CN', 'firefox-zh_TW']"
 +++
@@ -59,9 +59,9 @@ Mozilla Firefox web browser
 * /usr/lib/firefox/removed-files
 * /usr/lib/firefox/vaapitest
 * /usr/share/applications/firefox.desktop
-* /usr/share/doc/firefox-130.0.1/AUTHORS
-* /usr/share/doc/firefox-130.0.1/LICENSE
-* /usr/share/doc/firefox-130.0.1/README.txt
+* /usr/share/doc/firefox-131.0/AUTHORS
+* /usr/share/doc/firefox-131.0/LICENSE
+* /usr/share/doc/firefox-131.0/README.txt
 * /usr/share/icons/hicolor/16x16/apps/firefox.png
 * /usr/share/icons/hicolor/22x22/apps/firefox.png
 * /usr/share/icons/hicolor/24x24/apps/firefox.png
