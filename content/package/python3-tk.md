@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-tk 3.12.6-1"
-version = "3.12.6-1"
+title = "python3-tk 3.12.7-1"
+version = "3.12.7-1"
 description = "Python3 support for tk/tcl"
-date = "2024-09-08T20:03:05"
+date = "2024-10-02T21:22:11"
 aliases = "/packages/217991"
 categories = ['xlib-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "204092"
+size = "204012"
 usize = "1781108"
-sha1sum = "30ccaf48443aec49f524e617dc8dfd888d5f56cb"
-depends = "['python3>=3.12.6', 'tk>=8.6.9-2']"
+sha1sum = "f4b67284f7cda622457ab22228f4618f2c14715f"
+depends = "['python3>=3.12.7', 'tk>=8.6.9-2']"
 reverse_depends = "['fetchmailconf']"
 +++
 ### Description: 
