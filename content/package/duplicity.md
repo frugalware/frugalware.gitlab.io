@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicity 1.0.0-2"
-version = "1.0.0-2"
+title = "duplicity 3.0.2-1"
+version = "3.0.2-1"
 description = "Encrypted bandwidth-efficient backup using the rsync algorithm."
-date = "2023-10-12T12:18:39"
+date = "2024-10-02T11:31:04"
 aliases = "/packages/50298"
 categories = ['apps-extra']
-upstreamurl = "http://duplicity.nongnu.org/"
+upstreamurl = "https://duplicity.us"
 arch = "x86_64"
-size = "655488"
-usize = "4077534"
-sha1sum = "1b1a5e98bccc3a3eb044a3bdf7f77794cf679dbe"
+size = "808200"
+usize = "5500244"
+sha1sum = "fdbc18fc581c5cb8cf1154913c4c50821c8d60cb"
 depends = "['librsync>=0.9.7', 'ncftp', 'python3-boto>=2.5.2', 'python3-fasteners', 'python3-gnupginterface>=0.3.2', 'python3-lockfile', 'python3-setuptools_scm']"
 +++
 ### Description: 
@@ -18,13 +18,13 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 
 ### Files: 
 * /usr/bin/duplicity
-* /usr/bin/rdiffdir
-* /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/duplicity-1.0.0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/duplicity/asyncscheduler.py
+* /usr/lib/python3.12/site-packages/duplicity-3.0.2-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/duplicity-3.0.2-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/duplicity-3.0.2-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/duplicity-3.0.2-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/duplicity-3.0.2-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/duplicity-3.0.2-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/duplicity/argparse311.py
 * /usr/lib/python3.12/site-packages/duplicity/backend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/adbackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/azurebackend.py
@@ -59,10 +59,8 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/backends/pyrax_identity/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/pyrax_identity/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/rclonebackend.py
-* /usr/lib/python3.12/site-packages/duplicity/backends/README
 * /usr/lib/python3.12/site-packages/duplicity/backends/rsyncbackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/s3_boto3_backend.py
-* /usr/lib/python3.12/site-packages/duplicity/backends/s3_boto_backend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/slatebackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/ssh_paramiko_backend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/ssh_pexpect_backend.py
@@ -70,10 +68,10 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/backends/sxbackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/tahoebackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/webdavbackend.py
-* /usr/lib/python3.12/site-packages/duplicity/backends/_boto_multi.py
-* /usr/lib/python3.12/site-packages/duplicity/backends/_boto_single.py
+* /usr/lib/python3.12/site-packages/duplicity/backends/xorrisobackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/_cf_cloudfiles.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/_cf_pyrax.py
+* /usr/lib/python3.12/site-packages/duplicity/backends/_testbackend.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/__init__.py
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/adbackend.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/adbackend.cpython-312.pyc
@@ -133,8 +131,6 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/rsyncbackend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/s3_boto3_backend.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/s3_boto3_backend.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/s3_boto_backend.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/s3_boto_backend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/slatebackend.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/slatebackend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/ssh_paramiko_backend.cpython-312.opt-1.pyc
@@ -149,24 +145,27 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/tahoebackend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/webdavbackend.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/webdavbackend.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_boto_multi.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_boto_multi.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_boto_single.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_boto_single.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/xorrisobackend.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/xorrisobackend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_cf_cloudfiles.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_cf_cloudfiles.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_cf_pyrax.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_cf_pyrax.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_testbackend.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/_testbackend.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/backends/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/backend_pool.py
 * /usr/lib/python3.12/site-packages/duplicity/cached_ops.py
-* /usr/lib/python3.12/site-packages/duplicity/commandline.py
+* /usr/lib/python3.12/site-packages/duplicity/cli_data.py
+* /usr/lib/python3.12/site-packages/duplicity/cli_main.py
+* /usr/lib/python3.12/site-packages/duplicity/cli_util.py
 * /usr/lib/python3.12/site-packages/duplicity/config.py
 * /usr/lib/python3.12/site-packages/duplicity/diffdir.py
 * /usr/lib/python3.12/site-packages/duplicity/dup_collections.py
 * /usr/lib/python3.12/site-packages/duplicity/dup_main.py
+* /usr/lib/python3.12/site-packages/duplicity/dup_tarfile.py
 * /usr/lib/python3.12/site-packages/duplicity/dup_temp.py
-* /usr/lib/python3.12/site-packages/duplicity/dup_threading.py
 * /usr/lib/python3.12/site-packages/duplicity/dup_time.py
 * /usr/lib/python3.12/site-packages/duplicity/errors.py
 * /usr/lib/python3.12/site-packages/duplicity/filechunkio.py
@@ -174,7 +173,6 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/globmatch.py
 * /usr/lib/python3.12/site-packages/duplicity/gpg.py
 * /usr/lib/python3.12/site-packages/duplicity/gpginterface.py
-* /usr/lib/python3.12/site-packages/duplicity/gpg_error_codes.py
 * /usr/lib/python3.12/site-packages/duplicity/lazy.py
 * /usr/lib/python3.12/site-packages/duplicity/librsync.py
 * /usr/lib/python3.12/site-packages/duplicity/log.py
@@ -185,20 +183,26 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/robust.py
 * /usr/lib/python3.12/site-packages/duplicity/selection.py
 * /usr/lib/python3.12/site-packages/duplicity/statistics.py
-* /usr/lib/python3.12/site-packages/duplicity/tarfile.py
 * /usr/lib/python3.12/site-packages/duplicity/tempdir.py
 * /usr/lib/python3.12/site-packages/duplicity/util.py
 * /usr/lib/python3.12/site-packages/duplicity/_librsync.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/duplicity/_librsyncmodule.c
 * /usr/lib/python3.12/site-packages/duplicity/__init__.py
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/asyncscheduler.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/asyncscheduler.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__main__.py
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/argparse311.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/argparse311.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/backend.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/backend.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/backend_pool.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/backend_pool.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/cached_ops.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/cached_ops.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/commandline.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/commandline.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/cli_data.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/cli_data.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/cli_main.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/cli_main.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/cli_util.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/cli_util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/config.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/config.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/diffdir.cpython-312.opt-1.pyc
@@ -207,10 +211,10 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_collections.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_main.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_main.cpython-312.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_tarfile.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_tarfile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_temp.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_temp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_threading.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_threading.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_time.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/dup_time.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/errors.cpython-312.opt-1.pyc
@@ -225,8 +229,6 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/gpg.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/gpginterface.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/gpginterface.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/gpg_error_codes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/gpg_error_codes.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/lazy.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/lazy.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/librsync.cpython-312.opt-1.pyc
@@ -247,59 +249,66 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/selection.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/statistics.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/statistics.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/tarfile.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/duplicity/__pycache__/tarfile.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/tempdir.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/tempdir.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/util.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/util.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/duplicity/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/duplicity-1.0.0/CHANGELOG.md
-* /usr/share/doc/duplicity-1.0.0/CONTRIBUTING.md
-* /usr/share/doc/duplicity-1.0.0/COPYING
-* /usr/share/doc/duplicity-1.0.0/README-LOG.md
-* /usr/share/doc/duplicity-1.0.0/README-REPO.md
-* /usr/share/doc/duplicity-1.0.0/README-SNAP.md
-* /usr/share/doc/duplicity-1.0.0/README-TESTING.md
-* /usr/share/doc/duplicity-1.0.0/README.md
-* /usr/share/locale/bg/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/bs/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/ca/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/cs/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/de/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/el/LC_MESSAGES/duplicity.mo
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/__main__.cpython-312.opt-1.pyc
+* /usr/lib/python3.12/site-packages/duplicity/__pycache__/__main__.cpython-312.pyc
+* /usr/share/doc/duplicity-3.0.2/AUTHORS.md
+* /usr/share/doc/duplicity-3.0.2/CHANGELOG.md
+* /usr/share/doc/duplicity-3.0.2/COPYING
+* /usr/share/doc/duplicity-3.0.2/README-LOG.md
+* /usr/share/doc/duplicity-3.0.2/README-REPO.md
+* /usr/share/doc/duplicity-3.0.2/README-SNAP.md
+* /usr/share/doc/duplicity-3.0.2/README-TESTING.md
+* /usr/share/doc/duplicity-3.0.2/README.md
+* /usr/share/locale/af_ZA/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ar_SA/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ca_ES/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/cs_CZ/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/da_DK/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/de_AT/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/de_DE/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/el_GR/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/en_AU/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/eo/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/es/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/fi/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/fr/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/gl/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/he/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/hu/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/id/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/io/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/it/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/ja/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/km/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/ms/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/nb/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/nl/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/oc/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/pl/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/pt/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/en_PR/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/en_US/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/es_EM/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/es_ES/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/es_MX/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/es_PR/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/es_US/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/fi_FI/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/fr_FR/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/he_IL/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/hu_HU/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/it_IT/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ja_JP/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ko_KR/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/nl_BE/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/nl_NL/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/nl_SR/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/no_NO/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/pl_PL/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/ru/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/sl/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/sq/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/sr/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/sv/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/tr/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/ug/LC_MESSAGES/duplicity.mo
-* /usr/share/locale/uk/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/pt_PT/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ro_RO/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ru_BY/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ru_MD/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ru_RU/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/ru_UA/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/sr_SP/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/sv_SE/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/tr_TR/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/uk_UA/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/vi_VN/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/zh_MO/LC_MESSAGES/duplicity.mo
+* /usr/share/locale/zh_SG/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/duplicity.mo
 * /usr/share/man/man1/duplicity.1.gz
-* /usr/share/man/man1/rdiffdir.1.gz

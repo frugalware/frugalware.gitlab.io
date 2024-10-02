@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 6.10.0-1"
-version = "6.10.0-1"
+title = "streamlink 6.11.0-1"
+version = "6.11.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-09-11T15:13:05"
+date = "2024-10-02T11:56:42"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "801016"
-usize = "3981118"
-sha1sum = "a2a91c08d967dd57766b66a036fa404ac85601f8"
+size = "800712"
+usize = "4001501"
+sha1sum = "6cce360efce5805d123f1488fbdf12af403b0091"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -89,7 +89,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cmmedia.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cnbce.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/cnews.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/crunchyroll.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/dailymotion.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/dash.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/delfi.py
@@ -101,7 +100,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/drdk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/earthcam.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/euronews.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/facebook.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/filmon.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/goltelevision.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/goodgame.py
@@ -125,7 +123,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mdstrm.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mediaklikk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mediavitrina.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/mildom.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mitele.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mixcloud.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/mjunoon.py
@@ -185,8 +182,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/tvibo.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/tviplayer.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/tvp.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/tvrby.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/tvrplus.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/tvtoya.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/twitcasting.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/twitch.py
@@ -198,7 +193,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/vk.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/vkplay.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/vtvgo.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/webtv.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/welt.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/wwenetwork.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/youtube.py
@@ -206,8 +200,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/zattoo.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/zdf_mediathek.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/zeenews.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/zengatv.py
-* /usr/lib/python3.12/site-packages/streamlink/plugins/zhanqi.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/_plugins.json
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__init__.py
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/abematv.cpython-312.pyc
@@ -238,7 +230,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cmmedia.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cnbce.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/cnews.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/crunchyroll.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/dailymotion.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/dash.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/delfi.cpython-312.pyc
@@ -250,7 +241,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/drdk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/earthcam.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/euronews.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/facebook.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/filmon.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/goltelevision.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/goodgame.cpython-312.pyc
@@ -274,7 +264,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mdstrm.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mediaklikk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mediavitrina.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mildom.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mitele.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mixcloud.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/mjunoon.cpython-312.pyc
@@ -334,8 +323,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tvibo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tviplayer.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tvp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tvrby.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tvrplus.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/tvtoya.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/twitcasting.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/twitch.cpython-312.pyc
@@ -347,7 +334,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/vk.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/vkplay.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/vtvgo.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/webtv.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/welt.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/wwenetwork.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/youtube.cpython-312.pyc
@@ -355,8 +341,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/zattoo.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/zdf_mediathek.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/zeenews.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/zengatv.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/zhanqi.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/plugins/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink/py.typed
 * /usr/lib/python3.12/site-packages/streamlink/session/http.py
@@ -546,6 +530,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/_parser.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/streamlink_cli/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/streamlink-6.10.0/AUTHORS
-* /usr/share/doc/streamlink-6.10.0/LICENSE
-* /usr/share/doc/streamlink-6.10.0/README.md
+* /usr/share/doc/streamlink-6.11.0/AUTHORS
+* /usr/share/doc/streamlink-6.11.0/LICENSE
+* /usr/share/doc/streamlink-6.11.0/README.md

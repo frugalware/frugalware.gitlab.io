@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lynis 3.1.1-1"
-version = "3.1.1-1"
+title = "lynis 3.1.2-1"
+version = "3.1.2-1"
 description = "Open source security auditing tool."
-date = "2024-06-04T15:10:03"
+date = "2024-10-02T11:57:19"
 aliases = "/packages/219085"
 categories = ['apps-extra']
 upstreamurl = "https://cisofy.com/lynis/"
 arch = "x86_64"
-size = "224732"
-usize = "1641730"
-sha1sum = "bffd089ba542569cbe6ad5f4691d0bee02a6b183"
+size = "229464"
+usize = "1666189"
+sha1sum = "17c466a1d359cdc5b33bfa025c5eb96aba5482f1"
 depends = "['bash']"
 +++
 ### Description: 
@@ -22,10 +22,10 @@ Open source security auditing tool.
 * /etc/lynis/README
 * /usr/bin/lynis
 * /usr/share/applications/lynis.desktop
-* /usr/share/doc/lynis-3.1.1/FAQ
-* /usr/share/doc/lynis-3.1.1/INSTALL
-* /usr/share/doc/lynis-3.1.1/LICENSE
-* /usr/share/doc/lynis-3.1.1/README
+* /usr/share/doc/lynis-3.1.2/FAQ
+* /usr/share/doc/lynis-3.1.2/INSTALL
+* /usr/share/doc/lynis-3.1.2/LICENSE
+* /usr/share/doc/lynis-3.1.2/README
 * /usr/share/lynis/db/fileperms.db
 * /usr/share/lynis/db/hints.db
 * /usr/share/lynis/db/integrity.db
@@ -100,6 +100,7 @@ Open source security auditing tool.
 * /usr/share/lynis/include/tests_hardening
 * /usr/share/lynis/include/tests_homedirs
 * /usr/share/lynis/include/tests_insecure_services
+* /usr/share/lynis/include/tests_kerberos
 * /usr/share/lynis/include/tests_kernel
 * /usr/share/lynis/include/tests_kernel_hardening
 * /usr/share/lynis/include/tests_ldap
