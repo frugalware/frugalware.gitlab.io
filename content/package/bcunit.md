@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcunit 5.2.0-2"
-version = "5.2.0-2"
+title = "bcunit 5.3.86-2"
+version = "5.3.86-2"
 description = "Lightweight system for writing, administering, and running unit tests in C"
-date = "2024-05-13T20:47:45"
+date = "2024-10-02T10:37:41"
 aliases = "/packages/220419"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/BelledonneCommunications/bcunit"
+upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
-size = "271320"
-usize = "505952"
-sha1sum = "8d23f417deb7b9dbf99f1065f7d1989c1b02c168"
+size = "254592"
+usize = "447509"
+sha1sum = "37df95ab4bf64c7c5cb1bb16501ab7f376a179b5"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -28,23 +28,21 @@ Lightweight system for writing, administering, and running unit tests in C
 * /usr/include/BCUnit/TestRun.h
 * /usr/include/BCUnit/Util.h
 * /usr/lib/libbcunit.a
-* /usr/lib/libbcunit.so
-* /usr/lib/libbcunit.so.1.0.1
 * /usr/lib/pkgconfig/bcunit.pc
 * /usr/share/BCUnit/BCUnit-List.dtd
 * /usr/share/BCUnit/BCUnit-List.xsl
 * /usr/share/BCUnit/BCUnit-Run.dtd
 * /usr/share/BCUnit/BCUnit-Run.xsl
-* /usr/share/BCunit/cmake/BcUnitConfig.cmake
-* /usr/share/BCunit/cmake/BcUnitConfigVersion.cmake
-* /usr/share/BCunit/cmake/BcUnitTargets-release.cmake
-* /usr/share/BCunit/cmake/BcUnitTargets.cmake
+* /usr/share/BCUnit/cmake/BCUnitConfig.cmake
+* /usr/share/BCUnit/cmake/BCUnitConfigVersion.cmake
+* /usr/share/BCUnit/cmake/BCUnitTargets-release.cmake
+* /usr/share/BCUnit/cmake/BCUnitTargets.cmake
 * /usr/share/BCUnit/Memory-Dump.dtd
 * /usr/share/BCUnit/Memory-Dump.xsl
-* /usr/share/doc/bcunit-5.2.0/AUTHORS
-* /usr/share/doc/bcunit-5.2.0/ChangeLog
-* /usr/share/doc/bcunit-5.2.0/COPYING
-* /usr/share/doc/bcunit-5.2.0/NEWS
-* /usr/share/doc/bcunit-5.2.0/README.md
-* /usr/share/doc/bcunit-5.2.0/TODO
-* /usr/share/doc/bcunit-5.2.0/VERSION
+* /usr/share/doc/bcunit-5.3.86/AUTHORS
+* /usr/share/doc/bcunit-5.3.86/ChangeLog
+* /usr/share/doc/bcunit-5.3.86/COPYING
+* /usr/share/doc/bcunit-5.3.86/NEWS
+* /usr/share/doc/bcunit-5.3.86/README.md
+* /usr/share/doc/bcunit-5.3.86/TODO
+* /usr/share/doc/bcunit-5.3.86/VERSION
