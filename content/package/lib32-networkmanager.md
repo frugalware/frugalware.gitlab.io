@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-networkmanager 1.48.8-1"
-version = "1.48.8-1"
+title = "lib32-networkmanager 1.50.0-1"
+version = "1.50.0-1"
 description = "Network Management daemon ( 32bit )"
-date = "2024-08-09T19:37:14"
+date = "2024-10-03T12:07:15"
 aliases = "/packages/218960"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2581820"
-usize = "10414394"
-sha1sum = "5bdb94a61526b204cf79e7b9222c0279532860ac"
+size = "2574836"
+usize = "10394100"
+sha1sum = "1966cb0180c601f4ed6c866209f9e306653e1d00"
 depends = "['lib32-curl', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-jansson', 'lib32-libgudev', 'lib32-libndp', 'lib32-libnl', 'lib32-libpsl', 'lib32-modemmanager', 'lib32-newt', 'lib32-nss', 'lib32-polkit', 'lib32-readline']"
 reverse_depends = "['steam-native']"
 +++
@@ -151,13 +151,13 @@ Network Management daemon ( 32bit )
 * /usr/lib32/libnm.so
 * /usr/lib32/libnm.so.0
 * /usr/lib32/libnm.so.0.1.0
-* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-adsl.so
-* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-bluetooth.so
-* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-ovs.so
-* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-wifi.so
-* /usr/lib32/NetworkManager/1.48.8/libnm-device-plugin-wwan.so
-* /usr/lib32/NetworkManager/1.48.8/libnm-ppp-plugin.so
-* /usr/lib32/NetworkManager/1.48.8/libnm-wwan.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-adsl.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-bluetooth.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-ovs.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-wifi.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-wwan.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-ppp-plugin.so
+* /usr/lib32/NetworkManager/1.50.0/libnm-wwan.so
 * /usr/lib32/networkmanager/nm-cloud-setup
 * /usr/lib32/networkmanager/nm-daemon-helper
 * /usr/lib32/networkmanager/nm-dhcp-helper
@@ -165,4 +165,4 @@ Network Management daemon ( 32bit )
 * /usr/lib32/networkmanager/nm-initrd-generator
 * /usr/lib32/networkmanager/nm-priv-helper
 * /usr/lib32/pkgconfig/libnm.pc
-* /usr/lib32/pppd/2.5.0/nm-pppd-plugin.so
+* /usr/lib32/pppd/2.5.1/nm-pppd-plugin.so

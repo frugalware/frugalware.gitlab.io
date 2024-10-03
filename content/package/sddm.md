@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sddm 0.21.0-17"
-version = "0.21.0-17"
+title = "sddm 0.21.0-18"
+version = "0.21.0-18"
 description = "QML based X11 display manager"
-date = "2024-09-30T21:58:18"
+date = "2024-10-03T11:49:49"
 aliases = "/packages/217437"
 categories = ['x11']
 upstreamurl = "https://github.com/sddm/sddm"
 arch = "x86_64"
-size = "3662760"
-usize = "5534722"
-sha1sum = "09a69489b7e56981a5268e644805e04b5b26b267"
-depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative', 'qt6-declarative>=6.7.3', 'xauth']"
+size = "3600960"
+usize = "4981120"
+sha1sum = "dbaa19cb45602fc9873dd72023d015b96e58e225"
+depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative', 'qt5-virtualkeyboard', 'qt6-declarative>=6.7.3', 'qt6-virtualkeyboard', 'xauth']"
 reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-desktop', 'sddm-deepin', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
 +++
 ### Description: 
@@ -22,7 +22,6 @@ QML based X11 display manager
 * /etc/pam.d/sddm-autologin
 * /etc/pam.d/sddm-greeter
 * /usr/bin/sddm
-* /usr/bin/sddm-greeter
 * /usr/bin/sddm-greeter-qt6
 * /usr/lib/qt6/qml/SddmComponents/Background.qml
 * /usr/lib/qt6/qml/SddmComponents/Button.qml
@@ -54,19 +53,6 @@ QML based X11 display manager
 * /usr/share/man/man1/sddm.1.gz
 * /usr/share/man/man5/sddm-state.conf.5.gz
 * /usr/share/man/man5/sddm.conf.5.gz
-* /usr/share/qt5/qml/SddmComponents/Background.qml
-* /usr/share/qt5/qml/SddmComponents/Button.qml
-* /usr/share/qt5/qml/SddmComponents/Clock.qml
-* /usr/share/qt5/qml/SddmComponents/ComboBox.qml
-* /usr/share/qt5/qml/SddmComponents/ImageButton.qml
-* /usr/share/qt5/qml/SddmComponents/LayoutBox.qml
-* /usr/share/qt5/qml/SddmComponents/Menu.qml
-* /usr/share/qt5/qml/SddmComponents/PasswordBox.qml
-* /usr/share/qt5/qml/SddmComponents/PictureBox.qml
-* /usr/share/qt5/qml/SddmComponents/qmldir
-* /usr/share/qt5/qml/SddmComponents/TextBox.qml
-* /usr/share/qt5/qml/SddmComponents/TextConstants.qml
-* /usr/share/qt5/qml/SddmComponents/warning.png
 * /usr/share/sddm/faces/.face.icon
 * /usr/share/sddm/faces/root.face.icon
 * /usr/share/sddm/flags/ae.png

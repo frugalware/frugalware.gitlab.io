@@ -12,6 +12,7 @@ size = "2192272"
 usize = "5951354"
 sha1sum = "ee0bd7464f8d017bc27a4236a47d3fe578ada38f"
 depends = "['hunspell>=1.7.0', 'qt5-declarative>=5.15.15', 'qt5-svg>=5.15.15']"
+reverse_depends = "['sddm']"
 +++
 ### Description: 
 The Qt5 toolkit, qtvirtualkeyboard
