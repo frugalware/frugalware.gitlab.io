@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mtools 4.0.44-1"
-version = "4.0.44-1"
+title = "mtools 4.0.45-1"
+version = "4.0.45-1"
 description = "A is a collection of utilities to access MS-DOS disks from Unix without mounting them"
-date = "2024-06-03T09:01:37"
+date = "2024-10-03T12:34:41"
 aliases = "/packages/4237"
 categories = ['xapps']
 upstreamurl = "https://www.gnu.org/software/mtools/"
 arch = "x86_64"
-size = "216196"
-usize = "442735"
-sha1sum = "923286626bad4c8b771b17e80e8c8bb0772c0f9f"
+size = "217076"
+usize = "417700"
+sha1sum = "acd42e2a71d2d3686a5a834679d6bedd6ca67aea"
 depends = "['libx11>=1.6.3-4']"
 reverse_depends = "['udisks2', 'wimlib']"
 +++
@@ -52,11 +52,11 @@ A is a collection of utilities to access MS-DOS disks from Unix without mounting
 * /usr/bin/mzip
 * /usr/bin/tgz
 * /usr/bin/uz
-* /usr/share/doc/mtools-4.0.44/COPYING
-* /usr/share/doc/mtools-4.0.44/INSTALL
-* /usr/share/doc/mtools-4.0.44/NEWS
-* /usr/share/doc/mtools-4.0.44/README
-* /usr/share/doc/mtools-4.0.44/README.BEBOX
+* /usr/share/doc/mtools-4.0.45/COPYING
+* /usr/share/doc/mtools-4.0.45/INSTALL
+* /usr/share/doc/mtools-4.0.45/NEWS
+* /usr/share/doc/mtools-4.0.45/README
+* /usr/share/doc/mtools-4.0.45/README.BEBOX
 * /usr/share/info/mtools.info.gz
 * /usr/share/man/man1/floppyd.1.gz
 * /usr/share/man/man1/floppyd_installtest.1.gz

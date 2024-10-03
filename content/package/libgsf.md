@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgsf 1.14.52-1"
-version = "1.14.52-1"
+title = "libgsf 1.14.53-1"
+version = "1.14.53-1"
 description = "A library for reading and writing structured files (eg MS OLE and Zip)"
-date = "2024-02-05T21:56:48"
+date = "2024-10-03T12:15:29"
 aliases = "/packages/3178"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "365124"
-usize = "2561770"
-sha1sum = "01b7e1dc267de00e791bb7d099ae1bdb3893697e"
+size = "369072"
+usize = "2563202"
+sha1sum = "c6d3b90ddf3011e714d4ecf9581e1c35c45066be"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libxml2>=2.9.4-3']"
 reverse_depends = "['libextractor', 'libpst', 'libvips']"
 +++
@@ -73,17 +73,17 @@ A library for reading and writing structured files (eg MS OLE and Zip)
 * /usr/lib/girepository-1.0/Gsf-1.typelib
 * /usr/lib/libgsf-1.so
 * /usr/lib/libgsf-1.so.114
-* /usr/lib/libgsf-1.so.114.0.52
+* /usr/lib/libgsf-1.so.114.0.53
 * /usr/lib/pkgconfig/libgsf-1.pc
-* /usr/share/doc/libgsf-1.14.52/AUTHORS
-* /usr/share/doc/libgsf-1.14.52/BUGS
-* /usr/share/doc/libgsf-1.14.52/ChangeLog
-* /usr/share/doc/libgsf-1.14.52/COPYING
-* /usr/share/doc/libgsf-1.14.52/HACKING
-* /usr/share/doc/libgsf-1.14.52/INSTALL
-* /usr/share/doc/libgsf-1.14.52/NEWS
-* /usr/share/doc/libgsf-1.14.52/README
-* /usr/share/doc/libgsf-1.14.52/TODO
+* /usr/share/doc/libgsf-1.14.53/AUTHORS
+* /usr/share/doc/libgsf-1.14.53/BUGS
+* /usr/share/doc/libgsf-1.14.53/ChangeLog
+* /usr/share/doc/libgsf-1.14.53/COPYING
+* /usr/share/doc/libgsf-1.14.53/HACKING
+* /usr/share/doc/libgsf-1.14.53/INSTALL
+* /usr/share/doc/libgsf-1.14.53/NEWS
+* /usr/share/doc/libgsf-1.14.53/README
+* /usr/share/doc/libgsf-1.14.53/TODO
 * /usr/share/gir-1.0/Gsf-1.gir
 * /usr/share/gtk-doc/html/gsf/annotation-glossary.html
 * /usr/share/gtk-doc/html/gsf/api.html
@@ -140,6 +140,7 @@ A library for reading and writing structured files (eg MS OLE and Zip)
 * /usr/share/locale/fr/LC_MESSAGES/libgsf.mo
 * /usr/share/locale/gl/LC_MESSAGES/libgsf.mo
 * /usr/share/locale/he/LC_MESSAGES/libgsf.mo
+* /usr/share/locale/hi/LC_MESSAGES/libgsf.mo
 * /usr/share/locale/hr/LC_MESSAGES/libgsf.mo
 * /usr/share/locale/hu/LC_MESSAGES/libgsf.mo
 * /usr/share/locale/id/LC_MESSAGES/libgsf.mo

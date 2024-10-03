@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "igsc 0.9.3-1"
-version = "0.9.3-1"
+title = "igsc 0.9.4-1"
+version = "0.9.4-1"
 description = "Intel graphics system controller firmware update library"
-date = "2024-07-29T12:05:59"
+date = "2024-10-03T12:32:19"
 aliases = "/packages/220867"
 categories = ['lib']
 upstreamurl = "https://github.com/intel/igsc"
 arch = "x86_64"
-size = "93848"
-usize = "306842"
-sha1sum = "9be1aa1ef77c80f899b6694fbeab2ee0c65031db"
+size = "93280"
+usize = "307370"
+sha1sum = "f2a16dc971e08c98f68b607271028a7b60542bcd"
 depends = "['intel-metee>=4.1.0']"
 reverse_depends = "['intel-compute-runtime']"
 +++
@@ -27,5 +27,5 @@ Intel graphics system controller firmware update library
 * /usr/lib/libigsc.so
 * /usr/lib/libigsc.so.0
 * /usr/lib/libigsc.so.0.9.3
-* /usr/share/doc/igsc-0.9.3/README.md
-* /usr/share/doc/igsc-0.9.3/VERSION
+* /usr/share/doc/igsc-0.9.4/README.md
+* /usr/share/doc/igsc-0.9.4/VERSION

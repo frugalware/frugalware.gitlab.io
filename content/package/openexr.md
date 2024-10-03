@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openexr 3.2.4-1"
-version = "3.2.4-1"
+title = "openexr 3.3.0-1"
+version = "3.3.0-1"
 description = "OpenEXR is a high dynamic-range (HDR) image file format."
-date = "2024-04-22T12:26:57"
+date = "2024-10-03T12:36:11"
 aliases = "/packages/4221"
 categories = ['xapps']
 upstreamurl = "http://www.openexr.com"
 arch = "x86_64"
-size = "1060028"
-usize = "7452361"
-sha1sum = "fb0fec633af7fbeb5c23e5727cc6e258e4be660c"
+size = "1049660"
+usize = "5418716"
+sha1sum = "ad5fc5578fa10dd2541656310ede2492122f716c"
 depends = "['imath>=3.1.10', 'libdeflate', 'zlib>=1.2.12']"
 reverse_depends = "['alicevision', 'blender', 'darktable', 'devil', 'freeimage', 'gegl', 'gmic', 'imagemagick', 'kimageformats', 'kimageformats5', 'kio-extras', 'kio-extras-kf5', 'libvips', 'opencv', 'openimageio', 'openshadinglanguage', 'qmlalembic', 'vigra']"
 +++
@@ -25,6 +25,7 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/bin/exrmakepreview
 * /usr/bin/exrmaketiled
 * /usr/bin/exrmanifest
+* /usr/bin/exrmetrics
 * /usr/bin/exrmultipart
 * /usr/bin/exrmultiview
 * /usr/bin/exrstdattr
@@ -47,6 +48,7 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/include/OpenEXR/IlmThreadMutex.h
 * /usr/include/OpenEXR/IlmThreadNamespace.h
 * /usr/include/OpenEXR/IlmThreadPool.h
+* /usr/include/OpenEXR/IlmThreadProcessGroup.h
 * /usr/include/OpenEXR/IlmThreadSemaphore.h
 * /usr/include/OpenEXR/ImfAcesFile.h
 * /usr/include/OpenEXR/ImfArray.h
@@ -61,6 +63,8 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/include/OpenEXR/ImfCompression.h
 * /usr/include/OpenEXR/ImfCompressionAttribute.h
 * /usr/include/OpenEXR/ImfCompressor.h
+* /usr/include/OpenEXR/ImfContext.h
+* /usr/include/OpenEXR/ImfContextInit.h
 * /usr/include/OpenEXR/ImfConvert.h
 * /usr/include/OpenEXR/ImfCRgbaFile.h
 * /usr/include/OpenEXR/ImfDeepCompositing.h
@@ -175,28 +179,28 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/lib/cmake/OpenEXR/OpenEXRConfigVersion.cmake
 * /usr/lib/cmake/OpenEXR/OpenEXRTargets-release.cmake
 * /usr/lib/cmake/OpenEXR/OpenEXRTargets.cmake
-* /usr/lib/libIex-3_2.so
-* /usr/lib/libIex-3_2.so.31
-* /usr/lib/libIex-3_2.so.31.3.2.4
+* /usr/lib/libIex-3_3.so
+* /usr/lib/libIex-3_3.so.32
+* /usr/lib/libIex-3_3.so.32.3.3.0
 * /usr/lib/libIex.so
-* /usr/lib/libIlmThread-3_2.so
-* /usr/lib/libIlmThread-3_2.so.31
-* /usr/lib/libIlmThread-3_2.so.31.3.2.4
+* /usr/lib/libIlmThread-3_3.so
+* /usr/lib/libIlmThread-3_3.so.32
+* /usr/lib/libIlmThread-3_3.so.32.3.3.0
 * /usr/lib/libIlmThread.so
-* /usr/lib/libOpenEXR-3_2.so
-* /usr/lib/libOpenEXR-3_2.so.31
-* /usr/lib/libOpenEXR-3_2.so.31.3.2.4
+* /usr/lib/libOpenEXR-3_3.so
+* /usr/lib/libOpenEXR-3_3.so.32
+* /usr/lib/libOpenEXR-3_3.so.32.3.3.0
 * /usr/lib/libOpenEXR.so
-* /usr/lib/libOpenEXRCore-3_2.so
-* /usr/lib/libOpenEXRCore-3_2.so.31
-* /usr/lib/libOpenEXRCore-3_2.so.31.3.2.4
+* /usr/lib/libOpenEXRCore-3_3.so
+* /usr/lib/libOpenEXRCore-3_3.so.32
+* /usr/lib/libOpenEXRCore-3_3.so.32.3.3.0
 * /usr/lib/libOpenEXRCore.so
-* /usr/lib/libOpenEXRUtil-3_2.so
-* /usr/lib/libOpenEXRUtil-3_2.so.31
-* /usr/lib/libOpenEXRUtil-3_2.so.31.3.2.4
+* /usr/lib/libOpenEXRUtil-3_3.so
+* /usr/lib/libOpenEXRUtil-3_3.so.32
+* /usr/lib/libOpenEXRUtil-3_3.so.32.3.3.0
 * /usr/lib/libOpenEXRUtil.so
 * /usr/lib/pkgconfig/OpenEXR.pc
-* /usr/share/doc/openexr-3.2.4/README.md
+* /usr/share/doc/openexr-3.3.0/README.md
 * /usr/share/doc/OpenEXR/examples/deepExamples.cpp
 * /usr/share/doc/OpenEXR/examples/deepExamples.h
 * /usr/share/doc/OpenEXR/examples/deepTiledExamples.cpp
