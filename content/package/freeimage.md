@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freeimage 3.18.0-10"
-version = "3.18.0-10"
+title = "freeimage 3.18.0-11"
+version = "3.18.0-11"
 description = "Image library"
-date = "2024-05-12T19:45:25"
+date = "2024-10-03T14:41:16"
 aliases = "/packages/39053"
 categories = ['xlib-extra']
 upstreamurl = "http://freeimage.sourceforge.net/"
 arch = "x86_64"
-size = "4087592"
-usize = "6003018"
-sha1sum = "ed9b1923e3f6e7abc8223dfa566021d06645b35b"
-depends = "['jxrlib', 'libraw>=0.21.1', 'libtiff', 'libwebp', 'openexr>=3.2.0', 'openjpeg', 'zstd']"
+size = "4105548"
+usize = "6018916"
+sha1sum = "c78ea5519f95a79dda529ef050627eee43f65822"
+depends = "['jxrlib', 'libraw>=0.21.1', 'libtiff', 'libwebp', 'openexr>=3.3.0', 'openjpeg', 'zstd']"
 reverse_depends = "['ogre', 'opencascade']"
 +++
 ### Description: 
