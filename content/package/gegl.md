@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gegl 0.4.48-1"
-version = "0.4.48-1"
+title = "gegl 0.4.48-2"
+version = "0.4.48-2"
 description = "GEGL is a graph based image processing framework."
-date = "2024-06-07T14:41:35"
+date = "2024-10-12T07:30:14"
 aliases = "/packages/38778"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gegl.org/"
 arch = "x86_64"
-size = "1907960"
-usize = "9189473"
-sha1sum = "5c9aff3c7af0e6f6207e58dde30c911cdf9b111a"
-depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=7.0', 'jasper>=2.0.10', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'openexr>=3.2.0', 'suitesparse>=7.0.1']"
+size = "1872484"
+usize = "9260663"
+sha1sum = "f88025af0e119480fa7579def9b6e3285662270c"
+depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=7.0', 'jasper>=2.0.10', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'openexr>=3.3.0', 'suitesparse>=7.0.1']"
 reverse_depends = "['gimp', 'libmypaint']"
 +++
 ### Description: 

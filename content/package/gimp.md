@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gimp 2.10.38-1"
-version = "2.10.38-1"
+title = "gimp 2.10.38-2"
+version = "2.10.38-2"
 description = "The GNU Image Manipulation Program"
-date = "2024-07-29T13:41:11"
+date = "2024-10-12T07:42:27"
 aliases = "/packages/3029"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gimp.org/"
 arch = "x86_64"
-size = "20171724"
-usize = "117989720"
-sha1sum = "5b3e8627e197735052ec3d6305cd6dcd153415c6"
+size = "20241168"
+usize = "118117304"
+sha1sum = "ff718c9545a29d5bde9af7cf9c2836d645e37189"
 depends = "['aalib', 'darktable>=2.2.5-4', 'gegl>=0.4.42', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'xdg-utils']"
 reverse_depends = "['gmic', 'gmic-gimp-plugin', 'xsane-gimp']"
 +++
