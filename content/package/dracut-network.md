@@ -1,25 +1,23 @@
 +++
 draft = false
-title = "dracut-network 103-1"
-version = "103-1"
+title = "dracut-network 104-1"
+version = "104-1"
 description = "Dracut modules to build a dracut initramfs with network support"
-date = "2024-07-14T14:38:37"
+date = "2024-10-12T10:56:06"
 aliases = "/packages/103624"
 categories = ['base-extra']
 upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "24156"
-usize = "85041"
-sha1sum = "8ef0239ddea35dcc8765c06e5e133e8072fdcd8d"
-depends = "['bridge-utils', 'dhclient', 'dracut=103', 'iproute2', 'iputils', 'iscsi', 'nfs-utils']"
+size = "22320"
+usize = "76199"
+sha1sum = "95e5bee60eb8e1113e74bac686293713bb5d17e4"
+depends = "['bridge-utils', 'dhclient', 'dracut=104', 'iproute2', 'iputils', 'iscsi', 'nfs-utils']"
 +++
 ### Description: 
 Dracut modules to build a dracut initramfs with network support
 
 ### Files: 
 * /usr/lib/dracut/modules.d/40network/module-setup.sh
-* /usr/lib/dracut/modules.d/45ifcfg/module-setup.sh
-* /usr/lib/dracut/modules.d/45ifcfg/write-ifcfg.sh
 * /usr/lib/dracut/modules.d/45url-lib/module-setup.sh
 * /usr/lib/dracut/modules.d/45url-lib/url-lib.sh
 * /usr/lib/dracut/modules.d/90dmsquash-live-ntfs/module-setup.sh

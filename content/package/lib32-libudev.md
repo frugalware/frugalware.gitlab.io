@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libudev 256.6-1"
-version = "256.6-1"
+title = "lib32-libudev 256.7-1"
+version = "256.7-1"
 description = "Udev library (32bit)"
-date = "2024-09-10T17:56:22"
+date = "2024-10-12T11:01:21"
 aliases = "/packages/220552"
 categories = ['lib32-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "132924"
-usize = "298973"
-sha1sum = "24692665a2b07a5185521168033a944951cf721c"
+size = "132928"
+usize = "299037"
+sha1sum = "e658c358acf9dfddaeb89c9c4dd0caf724176404"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libdc1394', 'lib32-libgudev', 'lib32-libpulse', 'lib32-libudev0-shim', 'lib32-libusb1', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-v4l-utils', 'lib32-xorg-server']"
 +++
