@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "polly 18.1.8-1"
-version = "18.1.8-1"
+title = "polly 19.1.1-1"
+version = "19.1.1-1"
 description = "High-level loop and data-locality optimizer and optimization infrastructure for LLVM"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/220521"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2950216"
-usize = "18655369"
-sha1sum = "2bd0a08111a837beeb431f0615424a13208e4f24"
-depends = "['llvm-libs>=18.1.8']"
+size = "2923088"
+usize = "18609082"
+sha1sum = "519a9e7f6474c1c1a06c69a970e8c52e1c1b55c5"
+depends = "['llvm-libs>=19.1.1']"
 +++
 ### Description: 
 High-level loop and data-locality optimizer and optimization infrastructure for LLVM
@@ -122,6 +122,7 @@ High-level loop and data-locality optimizer and optimization infrastructure for 
 * /usr/include/polly/Support/ISLOperators.h
 * /usr/include/polly/Support/ISLOStream.h
 * /usr/include/polly/Support/ISLTools.h
+* /usr/include/polly/Support/PollyDebug.h
 * /usr/include/polly/Support/SCEVAffinator.h
 * /usr/include/polly/Support/SCEVValidator.h
 * /usr/include/polly/Support/ScopHelper.h

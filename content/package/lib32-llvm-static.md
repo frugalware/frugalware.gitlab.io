@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm-static 18.1.8-1"
-version = "18.1.8-1"
+title = "lib32-llvm-static 19.1.1-1"
+version = "19.1.1-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/219972"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "123861336"
-usize = "1526321628"
-sha1sum = "c3220413cabf67b47280289afea13dd27315bb89"
+size = "134049860"
+usize = "1673694204"
+sha1sum = "d86308dcc8bccafe36b73f74910f101a1ae76f53"
 depends = "[]"
 +++
 ### Description: 
@@ -57,6 +57,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMCFGuard.a
 * /usr/lib32/libLLVMCFIVerify.a
 * /usr/lib32/libLLVMCodeGen.a
+* /usr/lib32/libLLVMCodeGenData.a
 * /usr/lib32/libLLVMCodeGenTypes.a
 * /usr/lib32/libLLVMCore.a
 * /usr/lib32/libLLVMCoroutines.a
@@ -143,6 +144,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMObjCopy.a
 * /usr/lib32/libLLVMObject.a
 * /usr/lib32/libLLVMObjectYAML.a
+* /usr/lib32/libLLVMOptDriver.a
 * /usr/lib32/libLLVMOption.a
 * /usr/lib32/libLLVMOrcDebugging.a
 * /usr/lib32/libLLVMOrcJIT.a
@@ -164,6 +166,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMRISCVInfo.a
 * /usr/lib32/libLLVMRISCVTargetMCA.a
 * /usr/lib32/libLLVMRuntimeDyld.a
+* /usr/lib32/libLLVMSandboxIR.a
 * /usr/lib32/libLLVMScalarOpts.a
 * /usr/lib32/libLLVMSelectionDAG.a
 * /usr/lib32/libLLVMSparcAsmParser.a
@@ -179,8 +182,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMSystemZDisassembler.a
 * /usr/lib32/libLLVMSystemZInfo.a
 * /usr/lib32/libLLVMTableGen.a
+* /usr/lib32/libLLVMTableGenBasic.a
 * /usr/lib32/libLLVMTableGenCommon.a
-* /usr/lib32/libLLVMTableGenGlobalISel.a
 * /usr/lib32/libLLVMTarget.a
 * /usr/lib32/libLLVMTargetParser.a
 * /usr/lib32/libLLVMTextAPI.a

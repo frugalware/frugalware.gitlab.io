@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lldb 18.1.8-1"
-version = "18.1.8-1"
+title = "lldb 19.1.1-1"
+version = "19.1.1-1"
 description = "Next generation, high-performance debugger"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/220526"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "6425796"
-usize = "25080379"
-sha1sum = "0bf394696e5fcbd140a4f19c842fd344b8b734af"
-depends = "['clang>=18.1.8', 'ncurses>=6.5']"
+size = "6380256"
+usize = "25680330"
+sha1sum = "b784eabd0b2f2c28913df42200857f9d314c7208"
+depends = "['clang>=19.1.1', 'ncurses>=6.5']"
 +++
 ### Description: 
 Next generation, high-performance debugger
@@ -24,6 +24,8 @@ Next generation, high-performance debugger
 * /usr/bin/lldb-server
 * /usr/include/lldb/API/LLDB.h
 * /usr/include/lldb/API/SBAddress.h
+* /usr/include/lldb/API/SBAddressRange.h
+* /usr/include/lldb/API/SBAddressRangeList.h
 * /usr/include/lldb/API/SBAttachInfo.h
 * /usr/include/lldb/API/SBBlock.h
 * /usr/include/lldb/API/SBBreakpoint.h
@@ -54,6 +56,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/API/SBInstruction.h
 * /usr/include/lldb/API/SBInstructionList.h
 * /usr/include/lldb/API/SBLanguageRuntime.h
+* /usr/include/lldb/API/SBLanguages.h
 * /usr/include/lldb/API/SBLaunchInfo.h
 * /usr/include/lldb/API/SBLineEntry.h
 * /usr/include/lldb/API/SBListener.h
@@ -68,9 +71,11 @@ Next generation, high-performance debugger
 * /usr/include/lldb/API/SBQueue.h
 * /usr/include/lldb/API/SBQueueItem.h
 * /usr/include/lldb/API/SBReproducer.h
+* /usr/include/lldb/API/SBSaveCoreOptions.h
 * /usr/include/lldb/API/SBScriptObject.h
 * /usr/include/lldb/API/SBSection.h
 * /usr/include/lldb/API/SBSourceManager.h
+* /usr/include/lldb/API/SBStatisticsOptions.h
 * /usr/include/lldb/API/SBStream.h
 * /usr/include/lldb/API/SBStringList.h
 * /usr/include/lldb/API/SBStructuredData.h
@@ -120,12 +125,13 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Breakpoint/StoppointSite.h
 * /usr/include/lldb/Breakpoint/StopPointSiteList.h
 * /usr/include/lldb/Breakpoint/Watchpoint.h
+* /usr/include/lldb/Breakpoint/WatchpointAlgorithms.h
 * /usr/include/lldb/Breakpoint/WatchpointList.h
 * /usr/include/lldb/Breakpoint/WatchpointOptions.h
 * /usr/include/lldb/Breakpoint/WatchpointResource.h
-* /usr/include/lldb/Breakpoint/WatchpointResourceList.h
 * /usr/include/lldb/Core/Address.h
 * /usr/include/lldb/Core/AddressRange.h
+* /usr/include/lldb/Core/AddressRangeListImpl.h
 * /usr/include/lldb/Core/AddressResolver.h
 * /usr/include/lldb/Core/AddressResolverFileLine.h
 * /usr/include/lldb/Core/Architecture.h
@@ -220,6 +226,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Expression/REPL.h
 * /usr/include/lldb/Expression/UserExpression.h
 * /usr/include/lldb/Expression/UtilityFunction.h
+* /usr/include/lldb/Host/Alarm.h
 * /usr/include/lldb/Host/android/HostInfoAndroid.h
 * /usr/include/lldb/Host/common/GetOptInc.h
 * /usr/include/lldb/Host/common/NativeBreakpointList.h
@@ -319,6 +326,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedPlatformInterface.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedProcessInterface.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedThreadInterface.h
+* /usr/include/lldb/Interpreter/Interfaces/ScriptedThreadPlanInterface.h
 * /usr/include/lldb/Interpreter/OptionArgParser.h
 * /usr/include/lldb/Interpreter/OptionGroupArchitecture.h
 * /usr/include/lldb/Interpreter/OptionGroupBoolean.h
@@ -390,12 +398,14 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Symbol/ObjectContainer.h
 * /usr/include/lldb/Symbol/ObjectFile.h
 * /usr/include/lldb/Symbol/PostfixExpression.h
+* /usr/include/lldb/Symbol/SaveCoreOptions.h
 * /usr/include/lldb/Symbol/SourceModule.h
 * /usr/include/lldb/Symbol/Symbol.h
 * /usr/include/lldb/Symbol/SymbolContext.h
 * /usr/include/lldb/Symbol/SymbolContextScope.h
 * /usr/include/lldb/Symbol/SymbolFile.h
 * /usr/include/lldb/Symbol/SymbolFileOnDemand.h
+* /usr/include/lldb/Symbol/SymbolLocation.h
 * /usr/include/lldb/Symbol/SymbolLocator.h
 * /usr/include/lldb/Symbol/SymbolVendor.h
 * /usr/include/lldb/Symbol/Symtab.h
@@ -488,6 +498,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Target/Unwind.h
 * /usr/include/lldb/Target/UnwindAssembly.h
 * /usr/include/lldb/Target/UnwindLLDB.h
+* /usr/include/lldb/Target/VerboseTrapFrameRecognizer.h
 * /usr/include/lldb/Utility/AddressableBits.h
 * /usr/include/lldb/Utility/AnsiTerminal.h
 * /usr/include/lldb/Utility/AppleUuidCompatibility.h
@@ -508,6 +519,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Utility/Diagnostics.h
 * /usr/include/lldb/Utility/Endian.h
 * /usr/include/lldb/Utility/Environment.h
+* /usr/include/lldb/Utility/ErrorMessages.h
 * /usr/include/lldb/Utility/Event.h
 * /usr/include/lldb/Utility/FileSpec.h
 * /usr/include/lldb/Utility/FileSpecList.h
@@ -560,7 +572,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Utility/ZipFile.h
 * /usr/include/lldb/Version/Version.h
 * /usr/lib/liblldb.so
-* /usr/lib/liblldb.so.18.1
-* /usr/lib/liblldb.so.18.1.8
+* /usr/lib/liblldb.so.19.1
+* /usr/lib/liblldb.so.19.1.1
 * /usr/lib/liblldbIntelFeatures.so
-* /usr/lib/liblldbIntelFeatures.so.18.1
+* /usr/lib/liblldbIntelFeatures.so.19.1

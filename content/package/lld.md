@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lld 18.1.8-1"
-version = "18.1.8-1"
+title = "lld 19.1.1-1"
+version = "19.1.1-1"
 description = "LLVM Linker"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/220519"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "3298628"
-usize = "21428899"
-sha1sum = "d5561eb1e695ba4976bb92edf5148510d6f6f428"
-depends = "['llvm-libs>=18.1.8']"
+size = "3454928"
+usize = "22449634"
+sha1sum = "9f1727c3574ebd6b666ba443eeb48a1d4da2c493"
+depends = "['llvm-libs>=19.1.1']"
 reverse_depends = "['julia', 'rust-wasm']"
 +++
 ### Description: 
@@ -48,6 +48,7 @@ LLVM Linker
 * /usr/lib/liblldMinGW.a
 * /usr/lib/liblldWasm.a
 * /usr/share/doc/LLVM/lld/html/.buildinfo
+* /usr/share/doc/LLVM/lld/html/ELF/large_sections.html
 * /usr/share/doc/LLVM/lld/html/ELF/linker_script.html
 * /usr/share/doc/LLVM/lld/html/ELF/start-stop-gc.html
 * /usr/share/doc/LLVM/lld/html/ELF/warn_backrefs.html
@@ -65,7 +66,11 @@ LLVM Linker
 * /usr/share/doc/LLVM/lld/html/searchindex.js
 * /usr/share/doc/LLVM/lld/html/WebAssembly.html
 * /usr/share/doc/LLVM/lld/html/windows_support.html
+* /usr/share/doc/LLVM/lld/html/_images/large_section_layout_nopic.png
+* /usr/share/doc/LLVM/lld/html/_images/large_section_layout_pic.png
 * /usr/share/doc/LLVM/lld/html/_images/partitions.svg
+* /usr/share/doc/LLVM/lld/html/_images/section_layout.png
+* /usr/share/doc/LLVM/lld/html/_sources/ELF/large_sections.rst.txt
 * /usr/share/doc/LLVM/lld/html/_sources/ELF/linker_script.rst.txt
 * /usr/share/doc/LLVM/lld/html/_sources/ELF/start-stop-gc.rst.txt
 * /usr/share/doc/LLVM/lld/html/_sources/ELF/warn_backrefs.rst.txt

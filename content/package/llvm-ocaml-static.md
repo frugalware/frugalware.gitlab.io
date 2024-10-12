@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-ocaml-static 18.1.8-1"
-version = "18.1.8-1"
+title = "llvm-ocaml-static 19.1.1-1"
+version = "19.1.1-1"
 description = "OCaml bindings for LLVM (static)"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/219977"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "579800"
-usize = "1342824"
-sha1sum = "25af2106027f0b2ce2aefb8426db643bfc387d4f"
+size = "581716"
+usize = "1347900"
+sha1sum = "771395b7e96332eec225b53af2459c3de71ef903"
 depends = "[]"
 +++
 ### Description: 

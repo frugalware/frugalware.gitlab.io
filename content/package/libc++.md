@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libc++ 18.1.8-1"
-version = "18.1.8-1"
+title = "libc++ 19.1.1-1"
+version = "19.1.1-1"
 description = "A new implementation of the C++ standard library"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/219307"
 categories = ['lib-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1047976"
-usize = "8717548"
-sha1sum = "e2296635d2e36cad468a55e7b9d2a5e49db32b0d"
+size = "1078056"
+usize = "8903239"
+sha1sum = "899b9475661e064cd68c6c0d455ea3c9192ddc09"
 depends = "['libgcc']"
 +++
 ### Description: 
@@ -72,7 +72,6 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/experimental/type_traits
 * /usr/include/c++/v1/experimental/utility
 * /usr/include/c++/v1/experimental/__config
-* /usr/include/c++/v1/experimental/__memory
 * /usr/include/c++/v1/experimental/__simd/aligned_tag.h
 * /usr/include/c++/v1/experimental/__simd/declaration.h
 * /usr/include/c++/v1/experimental/__simd/reference.h
@@ -237,37 +236,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__algorithm/partition_point.h
 * /usr/include/c++/v1/__algorithm/pop_heap.h
 * /usr/include/c++/v1/__algorithm/prev_permutation.h
-* /usr/include/c++/v1/__algorithm/pstl_any_all_none_of.h
-* /usr/include/c++/v1/__algorithm/pstl_backend.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backend.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/any_of.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/fill.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/libdispatch.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/serial.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/stable_sort.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/thread.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h
-* /usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h
-* /usr/include/c++/v1/__algorithm/pstl_copy.h
-* /usr/include/c++/v1/__algorithm/pstl_count.h
-* /usr/include/c++/v1/__algorithm/pstl_equal.h
-* /usr/include/c++/v1/__algorithm/pstl_fill.h
-* /usr/include/c++/v1/__algorithm/pstl_find.h
-* /usr/include/c++/v1/__algorithm/pstl_for_each.h
-* /usr/include/c++/v1/__algorithm/pstl_frontend_dispatch.h
-* /usr/include/c++/v1/__algorithm/pstl_generate.h
-* /usr/include/c++/v1/__algorithm/pstl_is_partitioned.h
-* /usr/include/c++/v1/__algorithm/pstl_merge.h
-* /usr/include/c++/v1/__algorithm/pstl_move.h
-* /usr/include/c++/v1/__algorithm/pstl_replace.h
-* /usr/include/c++/v1/__algorithm/pstl_rotate_copy.h
-* /usr/include/c++/v1/__algorithm/pstl_sort.h
-* /usr/include/c++/v1/__algorithm/pstl_stable_sort.h
-* /usr/include/c++/v1/__algorithm/pstl_transform.h
+* /usr/include/c++/v1/__algorithm/pstl.h
 * /usr/include/c++/v1/__algorithm/push_heap.h
 * /usr/include/c++/v1/__algorithm/ranges_adjacent_find.h
 * /usr/include/c++/v1/__algorithm/ranges_all_of.h
@@ -275,6 +244,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__algorithm/ranges_binary_search.h
 * /usr/include/c++/v1/__algorithm/ranges_clamp.h
 * /usr/include/c++/v1/__algorithm/ranges_contains.h
+* /usr/include/c++/v1/__algorithm/ranges_contains_subrange.h
 * /usr/include/c++/v1/__algorithm/ranges_copy.h
 * /usr/include/c++/v1/__algorithm/ranges_copy_backward.h
 * /usr/include/c++/v1/__algorithm/ranges_copy_if.h
@@ -291,6 +261,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__algorithm/ranges_find_first_of.h
 * /usr/include/c++/v1/__algorithm/ranges_find_if.h
 * /usr/include/c++/v1/__algorithm/ranges_find_if_not.h
+* /usr/include/c++/v1/__algorithm/ranges_find_last.h
 * /usr/include/c++/v1/__algorithm/ranges_for_each.h
 * /usr/include/c++/v1/__algorithm/ranges_for_each_n.h
 * /usr/include/c++/v1/__algorithm/ranges_generate.h
@@ -381,6 +352,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__algorithm/shift_right.h
 * /usr/include/c++/v1/__algorithm/shuffle.h
 * /usr/include/c++/v1/__algorithm/sift_down.h
+* /usr/include/c++/v1/__algorithm/simd_utils.h
 * /usr/include/c++/v1/__algorithm/sort.h
 * /usr/include/c++/v1/__algorithm/sort_heap.h
 * /usr/include/c++/v1/__algorithm/stable_partition.h
@@ -402,6 +374,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__atomic/atomic_flag.h
 * /usr/include/c++/v1/__atomic/atomic_init.h
 * /usr/include/c++/v1/__atomic/atomic_lock_free.h
+* /usr/include/c++/v1/__atomic/atomic_ref.h
 * /usr/include/c++/v1/__atomic/atomic_sync.h
 * /usr/include/c++/v1/__atomic/check_memory_order.h
 * /usr/include/c++/v1/__atomic/contention_t.h
@@ -410,7 +383,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__atomic/is_always_lock_free.h
 * /usr/include/c++/v1/__atomic/kill_dependency.h
 * /usr/include/c++/v1/__atomic/memory_order.h
-* /usr/include/c++/v1/__availability
+* /usr/include/c++/v1/__atomic/to_gcc_order.h
 * /usr/include/c++/v1/__bit/bit_cast.h
 * /usr/include/c++/v1/__bit/bit_ceil.h
 * /usr/include/c++/v1/__bit/bit_floor.h
@@ -442,11 +415,14 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__chrono/convert_to_tm.h
 * /usr/include/c++/v1/__chrono/day.h
 * /usr/include/c++/v1/__chrono/duration.h
+* /usr/include/c++/v1/__chrono/exception.h
 * /usr/include/c++/v1/__chrono/file_clock.h
 * /usr/include/c++/v1/__chrono/formatter.h
 * /usr/include/c++/v1/__chrono/hh_mm_ss.h
 * /usr/include/c++/v1/__chrono/high_resolution_clock.h
+* /usr/include/c++/v1/__chrono/leap_second.h
 * /usr/include/c++/v1/__chrono/literals.h
+* /usr/include/c++/v1/__chrono/local_info.h
 * /usr/include/c++/v1/__chrono/month.h
 * /usr/include/c++/v1/__chrono/monthday.h
 * /usr/include/c++/v1/__chrono/month_weekday.h
@@ -455,7 +431,10 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__chrono/statically_widen.h
 * /usr/include/c++/v1/__chrono/steady_clock.h
 * /usr/include/c++/v1/__chrono/system_clock.h
+* /usr/include/c++/v1/__chrono/sys_info.h
 * /usr/include/c++/v1/__chrono/time_point.h
+* /usr/include/c++/v1/__chrono/time_zone.h
+* /usr/include/c++/v1/__chrono/time_zone_link.h
 * /usr/include/c++/v1/__chrono/tzdb.h
 * /usr/include/c++/v1/__chrono/tzdb_list.h
 * /usr/include/c++/v1/__chrono/weekday.h
@@ -463,6 +442,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__chrono/year_month.h
 * /usr/include/c++/v1/__chrono/year_month_day.h
 * /usr/include/c++/v1/__chrono/year_month_weekday.h
+* /usr/include/c++/v1/__chrono/zoned_time.h
 * /usr/include/c++/v1/__compare/common_comparison_category.h
 * /usr/include/c++/v1/__compare/compare_partial_order_fallback.h
 * /usr/include/c++/v1/__compare/compare_strong_order_fallback.h
@@ -500,12 +480,18 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__concepts/totally_ordered.h
 * /usr/include/c++/v1/__condition_variable/condition_variable.h
 * /usr/include/c++/v1/__config
+* /usr/include/c++/v1/__configuration/abi.h
+* /usr/include/c++/v1/__configuration/availability.h
+* /usr/include/c++/v1/__configuration/compiler.h
+* /usr/include/c++/v1/__configuration/language.h
+* /usr/include/c++/v1/__configuration/platform.h
 * /usr/include/c++/v1/__coroutine/coroutine_handle.h
 * /usr/include/c++/v1/__coroutine/coroutine_traits.h
 * /usr/include/c++/v1/__coroutine/noop_coroutine_handle.h
 * /usr/include/c++/v1/__coroutine/trivial_awaitables.h
 * /usr/include/c++/v1/__cxxabi_config.h
 * /usr/include/c++/v1/__debug_utils/randomize_range.h
+* /usr/include/c++/v1/__debug_utils/sanitizers.h
 * /usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h
 * /usr/include/c++/v1/__exception/exception.h
 * /usr/include/c++/v1/__exception/exception_ptr.h
@@ -554,10 +540,10 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__format/format_context.h
 * /usr/include/c++/v1/__format/format_error.h
 * /usr/include/c++/v1/__format/format_functions.h
-* /usr/include/c++/v1/__format/format_fwd.h
 * /usr/include/c++/v1/__format/format_parse_context.h
 * /usr/include/c++/v1/__format/format_string.h
 * /usr/include/c++/v1/__format/format_to_n_result.h
+* /usr/include/c++/v1/__format/indic_conjunct_break_table.h
 * /usr/include/c++/v1/__format/parser_std_format_spec.h
 * /usr/include/c++/v1/__format/range_default_formatter.h
 * /usr/include/c++/v1/__format/range_formatter.h
@@ -593,26 +579,33 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__functional/weak_result_type.h
 * /usr/include/c++/v1/__fwd/array.h
 * /usr/include/c++/v1/__fwd/bit_reference.h
+* /usr/include/c++/v1/__fwd/complex.h
+* /usr/include/c++/v1/__fwd/deque.h
+* /usr/include/c++/v1/__fwd/format.h
 * /usr/include/c++/v1/__fwd/fstream.h
-* /usr/include/c++/v1/__fwd/get.h
-* /usr/include/c++/v1/__fwd/hash.h
+* /usr/include/c++/v1/__fwd/functional.h
 * /usr/include/c++/v1/__fwd/ios.h
 * /usr/include/c++/v1/__fwd/istream.h
 * /usr/include/c++/v1/__fwd/mdspan.h
+* /usr/include/c++/v1/__fwd/memory.h
 * /usr/include/c++/v1/__fwd/memory_resource.h
 * /usr/include/c++/v1/__fwd/ostream.h
 * /usr/include/c++/v1/__fwd/pair.h
+* /usr/include/c++/v1/__fwd/queue.h
 * /usr/include/c++/v1/__fwd/span.h
 * /usr/include/c++/v1/__fwd/sstream.h
+* /usr/include/c++/v1/__fwd/stack.h
 * /usr/include/c++/v1/__fwd/streambuf.h
 * /usr/include/c++/v1/__fwd/string.h
 * /usr/include/c++/v1/__fwd/string_view.h
 * /usr/include/c++/v1/__fwd/subrange.h
 * /usr/include/c++/v1/__fwd/tuple.h
+* /usr/include/c++/v1/__fwd/vector.h
 * /usr/include/c++/v1/__hash_table
 * /usr/include/c++/v1/__ios/fpos.h
 * /usr/include/c++/v1/__iterator/access.h
 * /usr/include/c++/v1/__iterator/advance.h
+* /usr/include/c++/v1/__iterator/aliasing_iterator.h
 * /usr/include/c++/v1/__iterator/back_insert_iterator.h
 * /usr/include/c++/v1/__iterator/bounded_iter.h
 * /usr/include/c++/v1/__iterator/common_iterator.h
@@ -654,9 +647,17 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__iterator/unreachable_sentinel.h
 * /usr/include/c++/v1/__iterator/wrap_iter.h
 * /usr/include/c++/v1/__locale
+* /usr/include/c++/v1/__locale_dir/locale_base_api.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/android.h
 * /usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h
 * /usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/fuchsia.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/ibm.h
 * /usr/include/c++/v1/__locale_dir/locale_base_api/locale_guard.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/musl.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/newlib.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/openbsd.h
+* /usr/include/c++/v1/__locale_dir/locale_base_api/win32.h
 * /usr/include/c++/v1/__math/abs.h
 * /usr/include/c++/v1/__math/copysign.h
 * /usr/include/c++/v1/__math/error_functions.h
@@ -674,6 +675,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__math/remainder.h
 * /usr/include/c++/v1/__math/roots.h
 * /usr/include/c++/v1/__math/rounding_functions.h
+* /usr/include/c++/v1/__math/special_functions.h
 * /usr/include/c++/v1/__math/traits.h
 * /usr/include/c++/v1/__math/trigonometric_functions.h
 * /usr/include/c++/v1/__mbstate_t.h
@@ -699,6 +701,8 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__memory/concepts.h
 * /usr/include/c++/v1/__memory/construct_at.h
 * /usr/include/c++/v1/__memory/destruct_n.h
+* /usr/include/c++/v1/__memory/inout_ptr.h
+* /usr/include/c++/v1/__memory/out_ptr.h
 * /usr/include/c++/v1/__memory/pointer_traits.h
 * /usr/include/c++/v1/__memory/ranges_construct_at.h
 * /usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h
@@ -733,13 +737,31 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__numeric/iota.h
 * /usr/include/c++/v1/__numeric/midpoint.h
 * /usr/include/c++/v1/__numeric/partial_sum.h
-* /usr/include/c++/v1/__numeric/pstl_reduce.h
-* /usr/include/c++/v1/__numeric/pstl_transform_reduce.h
+* /usr/include/c++/v1/__numeric/pstl.h
 * /usr/include/c++/v1/__numeric/reduce.h
 * /usr/include/c++/v1/__numeric/saturation_arithmetic.h
 * /usr/include/c++/v1/__numeric/transform_exclusive_scan.h
 * /usr/include/c++/v1/__numeric/transform_inclusive_scan.h
 * /usr/include/c++/v1/__numeric/transform_reduce.h
+* /usr/include/c++/v1/__ostream/basic_ostream.h
+* /usr/include/c++/v1/__ostream/print.h
+* /usr/include/c++/v1/__pstl/backend.h
+* /usr/include/c++/v1/__pstl/backends/default.h
+* /usr/include/c++/v1/__pstl/backends/libdispatch.h
+* /usr/include/c++/v1/__pstl/backends/serial.h
+* /usr/include/c++/v1/__pstl/backends/std_thread.h
+* /usr/include/c++/v1/__pstl/backend_fwd.h
+* /usr/include/c++/v1/__pstl/cpu_algos/any_of.h
+* /usr/include/c++/v1/__pstl/cpu_algos/cpu_traits.h
+* /usr/include/c++/v1/__pstl/cpu_algos/fill.h
+* /usr/include/c++/v1/__pstl/cpu_algos/find_if.h
+* /usr/include/c++/v1/__pstl/cpu_algos/for_each.h
+* /usr/include/c++/v1/__pstl/cpu_algos/merge.h
+* /usr/include/c++/v1/__pstl/cpu_algos/stable_sort.h
+* /usr/include/c++/v1/__pstl/cpu_algos/transform.h
+* /usr/include/c++/v1/__pstl/cpu_algos/transform_reduce.h
+* /usr/include/c++/v1/__pstl/dispatch.h
+* /usr/include/c++/v1/__pstl/handle_exception.h
 * /usr/include/c++/v1/__random/bernoulli_distribution.h
 * /usr/include/c++/v1/__random/binomial_distribution.h
 * /usr/include/c++/v1/__random/cauchy_distribution.h
@@ -833,16 +855,9 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__string/char_traits.h
 * /usr/include/c++/v1/__string/constexpr_c_functions.h
 * /usr/include/c++/v1/__string/extern_template_lists.h
-* /usr/include/c++/v1/__support/android/locale_bionic.h
-* /usr/include/c++/v1/__support/fuchsia/xlocale.h
 * /usr/include/c++/v1/__support/ibm/gettod_zos.h
 * /usr/include/c++/v1/__support/ibm/locale_mgmt_zos.h
 * /usr/include/c++/v1/__support/ibm/nanosleep.h
-* /usr/include/c++/v1/__support/ibm/xlocale.h
-* /usr/include/c++/v1/__support/musl/xlocale.h
-* /usr/include/c++/v1/__support/newlib/xlocale.h
-* /usr/include/c++/v1/__support/openbsd/xlocale.h
-* /usr/include/c++/v1/__support/win32/locale_win32.h
 * /usr/include/c++/v1/__support/xlocale/__nop_locale_mgmt.h
 * /usr/include/c++/v1/__support/xlocale/__posix_l_fallback.h
 * /usr/include/c++/v1/__support/xlocale/__strtonum_fallback.h
@@ -855,18 +870,24 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__thread/id.h
 * /usr/include/c++/v1/__thread/jthread.h
 * /usr/include/c++/v1/__thread/poll_with_backoff.h
+* /usr/include/c++/v1/__thread/support.h
+* /usr/include/c++/v1/__thread/support/c11.h
+* /usr/include/c++/v1/__thread/support/external.h
+* /usr/include/c++/v1/__thread/support/pthread.h
+* /usr/include/c++/v1/__thread/support/windows.h
 * /usr/include/c++/v1/__thread/this_thread.h
 * /usr/include/c++/v1/__thread/thread.h
 * /usr/include/c++/v1/__thread/timed_backoff_policy.h
-* /usr/include/c++/v1/__threading_support
 * /usr/include/c++/v1/__tree
+* /usr/include/c++/v1/__tuple/find_index.h
+* /usr/include/c++/v1/__tuple/ignore.h
 * /usr/include/c++/v1/__tuple/make_tuple_types.h
-* /usr/include/c++/v1/__tuple/pair_like.h
 * /usr/include/c++/v1/__tuple/sfinae_helpers.h
 * /usr/include/c++/v1/__tuple/tuple_element.h
 * /usr/include/c++/v1/__tuple/tuple_indices.h
 * /usr/include/c++/v1/__tuple/tuple_like.h
 * /usr/include/c++/v1/__tuple/tuple_like_ext.h
+* /usr/include/c++/v1/__tuple/tuple_like_no_subrange.h
 * /usr/include/c++/v1/__tuple/tuple_size.h
 * /usr/include/c++/v1/__tuple/tuple_types.h
 * /usr/include/c++/v1/__type_traits/add_const.h
@@ -878,7 +899,6 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/aligned_storage.h
 * /usr/include/c++/v1/__type_traits/aligned_union.h
 * /usr/include/c++/v1/__type_traits/alignment_of.h
-* /usr/include/c++/v1/__type_traits/apply_cv.h
 * /usr/include/c++/v1/__type_traits/can_extract_key.h
 * /usr/include/c++/v1/__type_traits/common_reference.h
 * /usr/include/c++/v1/__type_traits/common_type.h
@@ -889,6 +909,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/datasizeof.h
 * /usr/include/c++/v1/__type_traits/decay.h
 * /usr/include/c++/v1/__type_traits/dependent_type.h
+* /usr/include/c++/v1/__type_traits/desugars_to.h
 * /usr/include/c++/v1/__type_traits/disjunction.h
 * /usr/include/c++/v1/__type_traits/enable_if.h
 * /usr/include/c++/v1/__type_traits/extent.h
@@ -913,10 +934,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/is_constant_evaluated.h
 * /usr/include/c++/v1/__type_traits/is_constructible.h
 * /usr/include/c++/v1/__type_traits/is_convertible.h
-* /usr/include/c++/v1/__type_traits/is_copy_assignable.h
-* /usr/include/c++/v1/__type_traits/is_copy_constructible.h
 * /usr/include/c++/v1/__type_traits/is_core_convertible.h
-* /usr/include/c++/v1/__type_traits/is_default_constructible.h
 * /usr/include/c++/v1/__type_traits/is_destructible.h
 * /usr/include/c++/v1/__type_traits/is_empty.h
 * /usr/include/c++/v1/__type_traits/is_enum.h
@@ -929,20 +947,11 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h
 * /usr/include/c++/v1/__type_traits/is_integral.h
 * /usr/include/c++/v1/__type_traits/is_literal_type.h
-* /usr/include/c++/v1/__type_traits/is_member_function_pointer.h
-* /usr/include/c++/v1/__type_traits/is_member_object_pointer.h
 * /usr/include/c++/v1/__type_traits/is_member_pointer.h
-* /usr/include/c++/v1/__type_traits/is_move_assignable.h
-* /usr/include/c++/v1/__type_traits/is_move_constructible.h
 * /usr/include/c++/v1/__type_traits/is_nothrow_assignable.h
 * /usr/include/c++/v1/__type_traits/is_nothrow_constructible.h
 * /usr/include/c++/v1/__type_traits/is_nothrow_convertible.h
-* /usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h
-* /usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h
-* /usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h
 * /usr/include/c++/v1/__type_traits/is_nothrow_destructible.h
-* /usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h
-* /usr/include/c++/v1/__type_traits/is_nothrow_move_constructible.h
 * /usr/include/c++/v1/__type_traits/is_null_pointer.h
 * /usr/include/c++/v1/__type_traits/is_object.h
 * /usr/include/c++/v1/__type_traits/is_pod.h
@@ -954,7 +963,6 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/is_reference_wrapper.h
 * /usr/include/c++/v1/__type_traits/is_same.h
 * /usr/include/c++/v1/__type_traits/is_scalar.h
-* /usr/include/c++/v1/__type_traits/is_scoped_enum.h
 * /usr/include/c++/v1/__type_traits/is_signed.h
 * /usr/include/c++/v1/__type_traits/is_signed_integer.h
 * /usr/include/c++/v1/__type_traits/is_specialization.h
@@ -964,13 +972,9 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/is_trivially_assignable.h
 * /usr/include/c++/v1/__type_traits/is_trivially_constructible.h
 * /usr/include/c++/v1/__type_traits/is_trivially_copyable.h
-* /usr/include/c++/v1/__type_traits/is_trivially_copy_assignable.h
-* /usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h
-* /usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h
 * /usr/include/c++/v1/__type_traits/is_trivially_destructible.h
 * /usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h
-* /usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h
-* /usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h
+* /usr/include/c++/v1/__type_traits/is_trivially_relocatable.h
 * /usr/include/c++/v1/__type_traits/is_unbounded_array.h
 * /usr/include/c++/v1/__type_traits/is_union.h
 * /usr/include/c++/v1/__type_traits/is_unsigned.h
@@ -987,7 +991,6 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__type_traits/nat.h
 * /usr/include/c++/v1/__type_traits/negation.h
 * /usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h
-* /usr/include/c++/v1/__type_traits/operation_traits.h
 * /usr/include/c++/v1/__type_traits/promote.h
 * /usr/include/c++/v1/__type_traits/rank.h
 * /usr/include/c++/v1/__type_traits/remove_all_extents.h
@@ -1021,11 +1024,13 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__utility/integer_sequence.h
 * /usr/include/c++/v1/__utility/in_place.h
 * /usr/include/c++/v1/__utility/is_pointer_in_range.h
+* /usr/include/c++/v1/__utility/is_valid_range.h
 * /usr/include/c++/v1/__utility/move.h
 * /usr/include/c++/v1/__utility/no_destroy.h
 * /usr/include/c++/v1/__utility/pair.h
 * /usr/include/c++/v1/__utility/piecewise_construct.h
 * /usr/include/c++/v1/__utility/priority_tag.h
+* /usr/include/c++/v1/__utility/private_constructor_tag.h
 * /usr/include/c++/v1/__utility/rel_ops.h
 * /usr/include/c++/v1/__utility/small_buffer.h
 * /usr/include/c++/v1/__utility/swap.h
@@ -1033,6 +1038,7 @@ A new implementation of the C++ standard library
 * /usr/include/c++/v1/__utility/unreachable.h
 * /usr/include/c++/v1/__variant/monostate.h
 * /usr/include/c++/v1/__verbose_abort
+* /usr/lib/x86_64-frugalware-linux/libc++.modules.json
 * /usr/lib/x86_64-frugalware-linux/libc++.so
 * /usr/lib/x86_64-frugalware-linux/libc++.so.1
 * /usr/lib/x86_64-frugalware-linux/libc++.so.1.0

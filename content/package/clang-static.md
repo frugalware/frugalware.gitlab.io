@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang-static 18.1.8-1"
-version = "18.1.8-1"
+title = "clang-static 19.1.1-1"
+version = "19.1.1-1"
 description = "C/C++ language family frontend for LLVM (static)"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/219971"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "40977064"
-usize = "663010296"
-sha1sum = "51cee71ecd61d5a5a6cceca60d2d794501e387b0"
+size = "42836324"
+usize = "690864170"
+sha1sum = "7224702db732cb027b22183e9cc51e7786db46e4"
 depends = "[]"
 +++
 ### Description: 
@@ -51,6 +51,7 @@ C/C++ language family frontend for LLVM (static)
 * /usr/lib/libclangIncludeFixerPlugin.a
 * /usr/lib/libclangIndex.a
 * /usr/lib/libclangIndexSerialization.a
+* /usr/lib/libclangInstallAPI.a
 * /usr/lib/libclangInterpreter.a
 * /usr/lib/libclangLex.a
 * /usr/lib/libclangMove.a

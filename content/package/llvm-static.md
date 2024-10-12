@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-static 18.1.8-1"
-version = "18.1.8-1"
+title = "llvm-static 19.1.1-1"
+version = "19.1.1-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (static)"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/219970"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "41692348"
-usize = "298108256"
-sha1sum = "00870779fbc8788d732066e10509df1dc836b031"
+size = "43745252"
+usize = "313706494"
+sha1sum = "ae78d8f789ce80daac204cd35a7674e6fd4b0908"
 depends = "[]"
 +++
 ### Description: 
@@ -57,6 +57,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMCFGuard.a
 * /usr/lib/libLLVMCFIVerify.a
 * /usr/lib/libLLVMCodeGen.a
+* /usr/lib/libLLVMCodeGenData.a
 * /usr/lib/libLLVMCodeGenTypes.a
 * /usr/lib/libLLVMCore.a
 * /usr/lib/libLLVMCoroutines.a
@@ -143,6 +144,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMObjCopy.a
 * /usr/lib/libLLVMObject.a
 * /usr/lib/libLLVMObjectYAML.a
+* /usr/lib/libLLVMOptDriver.a
 * /usr/lib/libLLVMOption.a
 * /usr/lib/libLLVMOrcDebugging.a
 * /usr/lib/libLLVMOrcJIT.a
@@ -164,6 +166,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMRISCVInfo.a
 * /usr/lib/libLLVMRISCVTargetMCA.a
 * /usr/lib/libLLVMRuntimeDyld.a
+* /usr/lib/libLLVMSandboxIR.a
 * /usr/lib/libLLVMScalarOpts.a
 * /usr/lib/libLLVMSelectionDAG.a
 * /usr/lib/libLLVMSparcAsmParser.a
@@ -179,8 +182,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMSystemZDisassembler.a
 * /usr/lib/libLLVMSystemZInfo.a
 * /usr/lib/libLLVMTableGen.a
+* /usr/lib/libLLVMTableGenBasic.a
 * /usr/lib/libLLVMTableGenCommon.a
-* /usr/lib/libLLVMTableGenGlobalISel.a
 * /usr/lib/libLLVMTarget.a
 * /usr/lib/libLLVMTargetParser.a
 * /usr/lib/libLLVMTextAPI.a

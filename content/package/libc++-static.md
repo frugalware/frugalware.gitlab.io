@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libc++-static 18.1.8-1"
-version = "18.1.8-1"
+title = "libc++-static 19.1.1-1"
+version = "19.1.1-1"
 description = "A new implementation of the C++ standard library (static)"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/219975"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "393584"
-usize = "2881684"
-sha1sum = "9ab77483935f74466beda30f8b86f6680f93708e"
+size = "501716"
+usize = "3889724"
+sha1sum = "c24e58b7c2705299f3f07b21f9df4ed4dceedc35"
 depends = "[]"
 +++
 ### Description: 

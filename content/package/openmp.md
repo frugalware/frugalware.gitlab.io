@@ -1,77 +1,28 @@
 +++
 draft = false
-title = "openmp 18.1.8-1"
-version = "18.1.8-1"
+title = "openmp 19.1.1-1"
+version = "19.1.1-1"
 description = "LLVM OpenMP Runtime Library"
-date = "2024-07-12T14:09:22"
+date = "2024-10-12T20:47:51"
 aliases = "/packages/220451"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1294936"
-usize = "28140798"
-sha1sum = "d01eb65e141c742f1a79e71fe99d5e05be7d78ed"
-depends = "['llvm-libs>=18.1.8']"
+size = "525056"
+usize = "2006997"
+sha1sum = "4005aec5105d32e7f3104fdf8e4200c9dd6755ac"
+depends = "['llvm-libs>=19.1.1']"
 reverse_depends = "['darktable']"
 +++
 ### Description: 
 LLVM OpenMP Runtime Library
 
 ### Files: 
-* /usr/bin/llvm-omp-device-info
-* /usr/lib/cmake/openmp/FindOpenMPTarget.cmake
-* /usr/lib/libarcher.so
-* /usr/lib/libarcher_static.a
-* /usr/lib/libomp.so
-* /usr/lib/libompd.so
-* /usr/lib/libomptarget-amdgpu-gfx1010.bc
-* /usr/lib/libomptarget-amdgpu-gfx1030.bc
-* /usr/lib/libomptarget-amdgpu-gfx1031.bc
-* /usr/lib/libomptarget-amdgpu-gfx1032.bc
-* /usr/lib/libomptarget-amdgpu-gfx1033.bc
-* /usr/lib/libomptarget-amdgpu-gfx1034.bc
-* /usr/lib/libomptarget-amdgpu-gfx1035.bc
-* /usr/lib/libomptarget-amdgpu-gfx1036.bc
-* /usr/lib/libomptarget-amdgpu-gfx1100.bc
-* /usr/lib/libomptarget-amdgpu-gfx1101.bc
-* /usr/lib/libomptarget-amdgpu-gfx1102.bc
-* /usr/lib/libomptarget-amdgpu-gfx1103.bc
-* /usr/lib/libomptarget-amdgpu-gfx1150.bc
-* /usr/lib/libomptarget-amdgpu-gfx1151.bc
-* /usr/lib/libomptarget-amdgpu-gfx700.bc
-* /usr/lib/libomptarget-amdgpu-gfx701.bc
-* /usr/lib/libomptarget-amdgpu-gfx801.bc
-* /usr/lib/libomptarget-amdgpu-gfx803.bc
-* /usr/lib/libomptarget-amdgpu-gfx900.bc
-* /usr/lib/libomptarget-amdgpu-gfx902.bc
-* /usr/lib/libomptarget-amdgpu-gfx906.bc
-* /usr/lib/libomptarget-amdgpu-gfx908.bc
-* /usr/lib/libomptarget-amdgpu-gfx90a.bc
-* /usr/lib/libomptarget-amdgpu-gfx90c.bc
-* /usr/lib/libomptarget-amdgpu-gfx940.bc
-* /usr/lib/libomptarget-amdgpu-gfx941.bc
-* /usr/lib/libomptarget-amdgpu-gfx942.bc
-* /usr/lib/libomptarget-nvptx-sm_35.bc
-* /usr/lib/libomptarget-nvptx-sm_37.bc
-* /usr/lib/libomptarget-nvptx-sm_50.bc
-* /usr/lib/libomptarget-nvptx-sm_52.bc
-* /usr/lib/libomptarget-nvptx-sm_53.bc
-* /usr/lib/libomptarget-nvptx-sm_60.bc
-* /usr/lib/libomptarget-nvptx-sm_61.bc
-* /usr/lib/libomptarget-nvptx-sm_62.bc
-* /usr/lib/libomptarget-nvptx-sm_70.bc
-* /usr/lib/libomptarget-nvptx-sm_72.bc
-* /usr/lib/libomptarget-nvptx-sm_75.bc
-* /usr/lib/libomptarget-nvptx-sm_80.bc
-* /usr/lib/libomptarget-nvptx-sm_86.bc
-* /usr/lib/libomptarget-nvptx-sm_87.bc
-* /usr/lib/libomptarget-nvptx-sm_89.bc
-* /usr/lib/libomptarget-nvptx-sm_90.bc
-* /usr/lib/libomptarget.devicertl.a
-* /usr/lib/libomptarget.rtl.x86_64.so
-* /usr/lib/libomptarget.rtl.x86_64.so.18.1
-* /usr/lib/libomptarget.so
-* /usr/lib/libomptarget.so.18.1
+* /usr/lib/x86_64-frugalware-linux/cmake/openmp/FindOpenMPTarget.cmake
+* /usr/lib/x86_64-frugalware-linux/libarcher.so
+* /usr/lib/x86_64-frugalware-linux/libarcher_static.a
+* /usr/lib/x86_64-frugalware-linux/libomp.so
+* /usr/lib/x86_64-frugalware-linux/libompd.so
 * /usr/share/doc/LLVM/openmp/html/.buildinfo
 * /usr/share/doc/LLVM/openmp/html/CommandLineArgumentReference.html
 * /usr/share/doc/LLVM/openmp/html/design/GPUGenericMode.html
