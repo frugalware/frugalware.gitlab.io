@@ -12,7 +12,7 @@ size = "484656"
 usize = "1471250"
 sha1sum = "a6b03742a78ec54a43e874cf5e7b0ad0cdc46480"
 depends = "['libarchive>=3.2.1', 'libkrb5', 'libsmbclient>=4.21.0', 'libsystemd>=231-7', 'libwbclient>=4.21.0', 'popt>=1.16-6', 'readline>=8.0', 'tdb>=1.4.3-2', 'tevent']"
-reverse_depends = "['gvfs-smb', 'kio-extras', 'kio-extras-kf5', 'mpv', 'samba', 'smb4k']"
+reverse_depends = "['gvfs-smb', 'kio-extras', 'mpv', 'samba', 'smb4k']"
 +++
 ### Description: 
 SMB client tools.

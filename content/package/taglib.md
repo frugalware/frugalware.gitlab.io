@@ -12,7 +12,7 @@ size = "422736"
 usize = "2025985"
 sha1sum = "ca5f8cb52a59fd401d63a883378c478c460fda12"
 depends = "['libstdc++>=11.3', 'zlib>=1.2.12']"
-reverse_depends = "['ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', 'kasts', 'kfilemetadata', 'kfilemetadata5', 'kio-extras', 'kio-extras-kf5', 'krename', 'kzenexplorer', 'ncmpcpp', 'qmmp', 'vlc-taglib', 'xcfa']"
+reverse_depends = "['ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', 'kasts', 'kfilemetadata', 'kfilemetadata5', 'kio-extras', 'krename', 'kzenexplorer', 'ncmpcpp', 'qmmp', 'vlc-taglib', 'xcfa']"
 +++
 ### Description: 
 A library for reading and editing the meta-data of several popular audio formats.

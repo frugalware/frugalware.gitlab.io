@@ -12,7 +12,7 @@ size = "1049660"
 usize = "5418716"
 sha1sum = "ad5fc5578fa10dd2541656310ede2492122f716c"
 depends = "['imath>=3.1.10', 'libdeflate', 'zlib>=1.2.12']"
-reverse_depends = "['alicevision', 'blender', 'darktable', 'devil', 'freeimage', 'gegl', 'gmic', 'imagemagick', 'kimageformats', 'kimageformats5', 'kio-extras', 'kio-extras-kf5', 'libvips', 'opencv', 'openimageio', 'openshadinglanguage', 'qmlalembic', 'vigra']"
+reverse_depends = "['alicevision', 'blender', 'darktable', 'devil', 'freeimage', 'gegl', 'gmic', 'imagemagick', 'kimageformats', 'kimageformats5', 'kio-extras', 'libvips', 'opencv', 'openimageio', 'openshadinglanguage', 'qmlalembic', 'vigra']"
 +++
 ### Description: 
 OpenEXR is a high dynamic-range (HDR) image file format.

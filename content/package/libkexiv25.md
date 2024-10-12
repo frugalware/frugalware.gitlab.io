@@ -12,7 +12,6 @@ size = "127764"
 usize = "406699"
 sha1sum = "1152b6c920d245f01b57faf22b6393fb884db26d"
 depends = "['exiv2', 'qt5-base']"
-reverse_depends = "['kio-extras-kf5']"
 +++
 ### Description: 
 A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library. KF5

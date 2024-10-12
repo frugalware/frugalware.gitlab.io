@@ -12,7 +12,6 @@ size = "74992"
 usize = "259422"
 sha1sum = "45b20d190e1baa8cdc9b9d8a30b547e6b22fb143"
 depends = "['kactivities5>=5.116.0', 'kio5>=5.116.0']"
-reverse_depends = "['kio-extras-kf5']"
 +++
 ### Description: 
 Library for accessing the usage statistics data collected by the KDE activity manager.

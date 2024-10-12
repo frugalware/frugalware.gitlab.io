@@ -12,7 +12,6 @@ size = "381888"
 usize = "1183004"
 sha1sum = "74608de3de1294a6f4485c683cf8f093b3f32a35"
 depends = "['qt5-base']"
-reverse_depends = "['kio-extras-kf5']"
 +++
 ### Description: 
 Qt-based client-side and server-side SOAP component KF5

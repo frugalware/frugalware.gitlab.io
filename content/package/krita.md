@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krita 5.2.3-4"
-version = "5.2.3-4"
+title = "krita 5.2.6-1"
+version = "5.2.6-1"
 description = "Krita is a FREE sketching and painting program"
-date = "2024-09-09T12:37:14"
+date = "2024-10-12T08:36:47"
 aliases = "/packages/218645"
 categories = ['kde5-extra']
 upstreamurl = "https://krita.org/"
 arch = "x86_64"
-size = "76017440"
-usize = "173066953"
-sha1sum = "a6fed5709f21391642061d31f81131cab9a376b8"
+size = "76142008"
+usize = "173139349"
+sha1sum = "bf3152ec2d541d5029806f373665d1c57b01dce6"
 depends = "['eigen', 'exiv2>=0.28.1', 'gsl>=2.8', 'kcompletion5', 'kcrash5', 'kguiaddons5', 'ki18n5', 'kitemviews5', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5>=24.09.0', 'qt5-svg', 'quazip>=1.4']"
 +++
 ### Description: 
@@ -348,13 +348,13 @@ Krita is a FREE sketching and painting program
 * /usr/share/color/icc/krita/sRGB-elle-V2-srgbtrc.icc
 * /usr/share/color/icc/krita/WideRGB-elle-V2-g22.icc
 * /usr/share/color/icc/krita/XYZ-D50-Identity-elle-V4.icc
-* /usr/share/doc/krita-5.2.3/AUTHORS
-* /usr/share/doc/krita-5.2.3/COPYING
-* /usr/share/doc/krita-5.2.3/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/krita-5.2.3/HACKING
-* /usr/share/doc/krita-5.2.3/README.android.md
-* /usr/share/doc/krita-5.2.3/README.md
-* /usr/share/doc/krita-5.2.3/README.packagers.md
+* /usr/share/doc/krita-5.2.6/AUTHORS
+* /usr/share/doc/krita-5.2.6/COPYING
+* /usr/share/doc/krita-5.2.6/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/krita-5.2.6/HACKING
+* /usr/share/doc/krita-5.2.6/README.android.md
+* /usr/share/doc/krita-5.2.6/README.md
+* /usr/share/doc/krita-5.2.6/README.packagers.md
 * /usr/share/icons/hicolor/1024x1024/apps/krita.png
 * /usr/share/icons/hicolor/1024x1024/mimetypes/application-x-krita.png
 * /usr/share/icons/hicolor/128x128/apps/krita.png
