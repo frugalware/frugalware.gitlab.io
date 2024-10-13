@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dracut 104-1"
-version = "104-1"
+title = "dracut 105-1"
+version = "105-1"
 description = "Generic initramfs generationtool"
-date = "2024-10-12T10:56:06"
+date = "2024-10-13T22:56:07"
 aliases = "/packages/103623"
 categories = ['base']
 upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "290588"
-usize = "1213494"
-sha1sum = "5c960206ad3d5fbd4e81ab4b1a69615662879dfa"
+size = "290660"
+usize = "1213533"
+sha1sum = "bcd38096a81fe1592753c8ef719c93c9ab89781c"
 depends = "['bash>=4.4', 'binutils', 'cpio>=2.12-3', 'dash>=0.5.8', 'dmraid', 'elfutils', 'file', 'grep', 'kbd>=2.0.3-3', 'keyutils>=1.5.9-5', 'kmod', 'lvm2>=2.03.01-3', 'multipath-tools', 'pkgconfig', 'popt>=1.16-5', 'systemd>=227-15', 'util-linux>=2.27.1-4']"
 reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -62,6 +62,7 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/01systemd-bsod/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-coredump/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-creds/module-setup.sh
+* /usr/lib/dracut/modules.d/01systemd-cryptsetup/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-hostnamed/99-systemd-networkd-dracut.conf
 * /usr/lib/dracut/modules.d/01systemd-hostnamed/module-setup.sh
 * /usr/lib/dracut/modules.d/01systemd-hostnamed/org.freedesktop.hostname1_dracut.conf
@@ -236,7 +237,6 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/90ppcmac/load-thermal.sh
 * /usr/lib/dracut/modules.d/90ppcmac/module-setup.sh
 * /usr/lib/dracut/modules.d/90qemu/module-setup.sh
-* /usr/lib/dracut/modules.d/90systemd-cryptsetup/module-setup.sh
 * /usr/lib/dracut/modules.d/91crypt-gpg/crypt-gpg-lib.sh
 * /usr/lib/dracut/modules.d/91crypt-gpg/module-setup.sh
 * /usr/lib/dracut/modules.d/91crypt-gpg/README
@@ -548,9 +548,9 @@ Generic initramfs generationtool
 * /usr/lib/systemd/system/sysinit.target.wants/dracut-shutdown.service
 * /usr/share/bash-completion/completions/dracut
 * /usr/share/bash-completion/completions/lsinitrd
-* /usr/share/doc/dracut-104/AUTHORS
-* /usr/share/doc/dracut-104/COPYING
-* /usr/share/doc/dracut-104/README.md
+* /usr/share/doc/dracut-105/AUTHORS
+* /usr/share/doc/dracut-105/COPYING
+* /usr/share/doc/dracut-105/README.md
 * /usr/share/man/man1/lsinitrd.1.gz
 * /usr/share/man/man5/dracut.conf.5.gz
 * /usr/share/man/man7/dracut.bootup.7.gz
