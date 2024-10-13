@@ -12,7 +12,7 @@ size = "3454928"
 usize = "22449634"
 sha1sum = "9f1727c3574ebd6b666ba443eeb48a1d4da2c493"
 depends = "['llvm-libs>=19.1.1']"
-reverse_depends = "['julia', 'rust-wasm']"
+reverse_depends = "['julia']"
 +++
 ### Description: 
 LLVM Linker
