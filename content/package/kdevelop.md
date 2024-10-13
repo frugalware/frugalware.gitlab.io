@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdevelop 24.08.1-2"
-version = "24.08.1-2"
+title = "kdevelop 24.08.1-3"
+version = "24.08.1-3"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-09-30T11:11:14"
+date = "2024-10-13T20:51:10"
 aliases = "/packages/10830"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "10354252"
+size = "10354452"
 usize = "38005729"
-sha1sum = "b7128a5b14d4c969bfa4b48b7270bc8de44ddea4"
+sha1sum = "8c4b8c73bb091ca617a6f7f5fce7b9531e7586ab"
 depends = "['kcmutils>=6.6.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.6.0', 'krunner>=6.6.0', 'ktexteditor>=6.6.0', 'ktexttemplate>=6.6.0', 'libkomparediff2', 'libksysguard>=6.1.5', 'libplasma>=6.1.5', 'qt6-tools>=6.7.3', 'subversion']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
