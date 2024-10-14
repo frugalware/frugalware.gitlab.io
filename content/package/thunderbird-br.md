@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-br 128.2.3-1"
-version = "128.2.3-1"
+title = "thunderbird-br 128.3.1-1"
+version = "128.3.1-1"
 description = "Breton language support for Thunderbird"
-date = "2024-10-01T17:53:22"
+date = "2024-10-14T11:31:22"
 aliases = "/packages/119957"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "584876"
-usize = "652475"
-sha1sum = "5f5e3a213f3f21e3d18838c5bc1d505d434ad4e1"
-depends = "['thunderbird>=128.2.3']"
+size = "584924"
+usize = "652476"
+sha1sum = "5ea809638cf770717a19050bdc0b36c5330d74ee"
+depends = "['thunderbird>=128.3.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

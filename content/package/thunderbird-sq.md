@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-sq 128.2.3-1"
-version = "128.2.3-1"
+title = "thunderbird-sq 128.3.1-1"
+version = "128.3.1-1"
 description = "Albanian language support for Thunderbird"
-date = "2024-10-01T17:53:22"
+date = "2024-10-14T11:31:22"
 aliases = "/packages/73785"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "704840"
-usize = "765887"
-sha1sum = "f6bca9be915916bc29f5d2e0d3f642280422754e"
-depends = "['thunderbird>=128.2.3']"
+size = "705856"
+usize = "767154"
+sha1sum = "483349579117be81725971123f2cb3c44875a667"
+depends = "['thunderbird>=128.3.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

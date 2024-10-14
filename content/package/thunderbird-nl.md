@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-nl 128.2.3-1"
-version = "128.2.3-1"
+title = "thunderbird-nl 128.3.1-1"
+version = "128.3.1-1"
 description = "Dutch language support for Thunderbird"
-date = "2024-10-01T17:53:22"
+date = "2024-10-14T11:31:22"
 aliases = "/packages/5197"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "682852"
-usize = "744106"
-sha1sum = "4cb71f21a52ff34cd03e5b78ba6e32e3b9bd714e"
-depends = "['thunderbird>=128.2.3']"
+size = "683644"
+usize = "745562"
+sha1sum = "6ba352dc642d7e55c8a2567395bce6c723ddb0c4"
+depends = "['thunderbird>=128.3.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

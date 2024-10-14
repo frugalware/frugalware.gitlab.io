@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-fy-nl 128.2.3-1"
-version = "128.2.3-1"
+title = "thunderbird-fy-nl 128.3.1-1"
+version = "128.3.1-1"
 description = "Western Frisian language support for Thunderbird"
-date = "2024-10-01T17:53:22"
+date = "2024-10-14T11:31:22"
 aliases = "/packages/73775"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "686752"
-usize = "752849"
-sha1sum = "774b27b037aa0c51b6e25b4ab58b50bb0025faf3"
-depends = "['thunderbird>=128.2.3']"
+size = "687568"
+usize = "754305"
+sha1sum = "124d5e6a0a3bfaed8d3ae6a1db34d12308141a34"
+depends = "['thunderbird>=128.3.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
