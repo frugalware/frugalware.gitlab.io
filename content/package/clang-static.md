@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang-static 19.1.1-1"
-version = "19.1.1-1"
+title = "clang-static 19.1.1-2"
+version = "19.1.1-2"
 description = "C/C++ language family frontend for LLVM (static)"
-date = "2024-10-12T20:47:51"
+date = "2024-10-13T23:59:47"
 aliases = "/packages/219971"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "42836324"
+size = "42844272"
 usize = "690864170"
-sha1sum = "7224702db732cb027b22183e9cc51e7786db46e4"
+sha1sum = "5e6751b522505c9e0ce25c97644edc272475a40e"
 depends = "[]"
 +++
 ### Description: 

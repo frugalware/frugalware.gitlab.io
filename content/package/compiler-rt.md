@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "compiler-rt 19.1.1-1"
-version = "19.1.1-1"
+title = "compiler-rt 19.1.1-2"
+version = "19.1.1-2"
 description = "Compiler runtime libraries for clang"
-date = "2024-10-12T20:47:51"
+date = "2024-10-13T23:59:47"
 aliases = "/packages/219834"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2506292"
+size = "2507268"
 usize = "21497411"
-sha1sum = "4effa287bcd0facd7b37af6b66cde69841add30a"
+sha1sum = "396a6f5dbcb02078452e570017a42f402c0d31cb"
 depends = "[]"
 +++
 ### Description: 

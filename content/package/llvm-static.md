@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-static 19.1.1-1"
-version = "19.1.1-1"
+title = "llvm-static 19.1.1-2"
+version = "19.1.1-2"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (static)"
-date = "2024-10-12T20:47:51"
+date = "2024-10-13T23:59:47"
 aliases = "/packages/219970"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "43745252"
+size = "43752296"
 usize = "313706494"
-sha1sum = "ae78d8f789ce80daac204cd35a7674e6fd4b0908"
+sha1sum = "13cd2c82410ae2d043696903005e2f047dd29ae6"
 depends = "[]"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-clang-static 18.1.8-1"
-version = "18.1.8-1"
+title = "lib32-clang-static 19.1.1-2"
+version = "19.1.1-2"
 description = "C/C++ language family frontend for LLVM (32-bit static)"
-date = "2024-07-12T14:09:22"
+date = "2024-10-13T23:59:47"
 aliases = "/packages/219973"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "84550760"
-usize = "1248026104"
-sha1sum = "3d682977bae9bda4851dfd796344ab73b5f3f53c"
+size = "92037148"
+usize = "1360272978"
+sha1sum = "f4bdc510ff6f703c808f61db3c4aa932ee1b7846"
 depends = "[]"
 +++
 ### Description: 
@@ -40,6 +40,7 @@ C/C++ language family frontend for LLVM (32-bit static)
 * /usr/lib32/libclangHandleLLVM.a
 * /usr/lib32/libclangIndex.a
 * /usr/lib32/libclangIndexSerialization.a
+* /usr/lib32/libclangInstallAPI.a
 * /usr/lib32/libclangInterpreter.a
 * /usr/lib32/libclangLex.a
 * /usr/lib32/libclangParse.a

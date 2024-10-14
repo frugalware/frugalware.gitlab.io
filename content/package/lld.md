@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lld 19.1.1-1"
-version = "19.1.1-1"
+title = "lld 19.1.1-2"
+version = "19.1.1-2"
 description = "LLVM Linker"
-date = "2024-10-12T20:47:51"
+date = "2024-10-13T23:59:47"
 aliases = "/packages/220519"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "3454928"
+size = "3454276"
 usize = "22449634"
-sha1sum = "9f1727c3574ebd6b666ba443eeb48a1d4da2c493"
+sha1sum = "f169cea4f086f496484a658bd13be9d9c72e8a64"
 depends = "['llvm-libs>=19.1.1']"
 reverse_depends = "['julia']"
 +++

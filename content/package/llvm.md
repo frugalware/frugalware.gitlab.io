@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm 19.1.1-1"
-version = "19.1.1-1"
+title = "llvm 19.1.1-2"
+version = "19.1.1-2"
 description = "Low Level Virtual Machine (Compiler , Tools and Libs)"
-date = "2024-10-12T20:47:51"
+date = "2024-10-13T23:59:47"
 aliases = "/packages/74178"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "34701968"
-usize = "172213988"
-sha1sum = "bcd3aa5511820be677d1f7bd2b4e6ffb6f861e60"
+size = "34696656"
+usize = "172214002"
+sha1sum = "08efe9fca03d4c9ddc8478d7addb63a50fab89f2"
 depends = "['libstdc++>=14.1.0', 'llvm-libs', 'python3>=3.12']"
 reverse_depends = "['llvm-ocaml']"
 +++
