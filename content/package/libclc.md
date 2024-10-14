@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libclc 18.1.8-1"
-version = "18.1.8-1"
+title = "libclc 19.1.1-1"
+version = "19.1.1-1"
 description = "Library requirements of the OpenCL C programming language"
-date = "2024-07-13T12:05:16"
+date = "2024-10-14T08:26:14"
 aliases = "/packages/217322"
 categories = ['lib']
 upstreamurl = "http://libclc.llvm.org/"
 arch = "x86_64"
-size = "12521288"
-usize = "82236043"
-sha1sum = "a29e8bc8785b79a774b0e258506d68abeaa2e5cd"
+size = "14004032"
+usize = "87573626"
+sha1sum = "68ce3ec1e2d03aba8f5efe16b00b3bade7d3c71c"
 depends = "['glibc']"
 reverse_depends = "['lib32-opencl-clover', 'opencl-clover', 'opencl-rusticl']"
 +++
@@ -344,6 +344,8 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/gfx1150-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx1151-amdgcn--.bc
 * /usr/share/clc/gfx1151-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1152-amdgcn--.bc
+* /usr/share/clc/gfx1152-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx1200-amdgcn--.bc
 * /usr/share/clc/gfx1200-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx1201-amdgcn--.bc
@@ -419,5 +421,5 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/turks-r600--.bc
 * /usr/share/clc/verde-amdgcn--.bc
 * /usr/share/clc/verde-amdgcn-mesa-mesa3d.bc
-* /usr/share/doc/libclc-18.1.8/README.md
+* /usr/share/doc/libclc-19.1.1/README.md
 * /usr/share/pkgconfig/libclc.pc

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxmlb 0.3.14-1"
-version = "0.3.14-1"
+title = "libxmlb 0.3.19-1"
+version = "0.3.19-1"
 description = "A library to help create and query binary XML blobs"
-date = "2023-08-27T13:04:19"
+date = "2024-10-14T08:49:55"
 aliases = "/packages/219815"
 categories = ['lib']
 upstreamurl = "https://github.com/hughsie/libxmlb"
 arch = "x86_64"
-size = "211128"
-usize = "1535939"
-sha1sum = "27a6a52a0db7eb82af7987fc0147139af376c0cf"
+size = "219004"
+usize = "1560948"
+sha1sum = "dba3ec23fd1bc5ac04abf250a59b8fbfca68148c"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['appstream', 'fwupd']"
 +++
@@ -24,6 +24,7 @@ A library to help create and query binary XML blobs
 * /usr/include/libxmlb-2/libxmlb/xb-builder-source-ctx.h
 * /usr/include/libxmlb-2/libxmlb/xb-builder-source.h
 * /usr/include/libxmlb-2/libxmlb/xb-builder.h
+* /usr/include/libxmlb-2/libxmlb/xb-compile.h
 * /usr/include/libxmlb-2/libxmlb/xb-machine.h
 * /usr/include/libxmlb-2/libxmlb/xb-node-query.h
 * /usr/include/libxmlb-2/libxmlb/xb-node-silo.h
@@ -48,13 +49,13 @@ A library to help create and query binary XML blobs
 * /usr/lib/libxmlb/installed-tests/libxmlb/test.xml
 * /usr/lib/libxmlb/installed-tests/libxmlb/test.xml.gz.gz.gz
 * /usr/lib/libxmlb/installed-tests/libxmlb/test.xml.xz
-* /usr/lib/libxmlb/installed-tests/libxmlb/test.xml.zstd
+* /usr/lib/libxmlb/installed-tests/libxmlb/test.xml.zst
 * /usr/lib/libxmlb/installed-tests/libxmlb/xb-self-test
 * /usr/lib/pkgconfig/xmlb.pc
-* /usr/share/doc/libxmlb-0.3.14/LICENSE
-* /usr/share/doc/libxmlb-0.3.14/NEWS
-* /usr/share/doc/libxmlb-0.3.14/README.md
-* /usr/share/doc/libxmlb-0.3.14/RELEASE
+* /usr/share/doc/libxmlb-0.3.19/LICENSE
+* /usr/share/doc/libxmlb-0.3.19/NEWS
+* /usr/share/doc/libxmlb-0.3.19/README.md
+* /usr/share/doc/libxmlb-0.3.19/RELEASE
 * /usr/share/gir-1.0/Xmlb-2.0.gir
 * /usr/share/gtk-doc/html/libxmlb/annotation-glossary.html
 * /usr/share/gtk-doc/html/libxmlb/api-index-full.html

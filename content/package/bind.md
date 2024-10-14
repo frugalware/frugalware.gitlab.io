@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.21.0-1"
-version = "9.21.0-1"
+title = "bind 9.21.1-1"
+version = "9.21.1-1"
 description = "DNS server and utilities"
-date = "2024-08-23T18:12:13"
+date = "2024-10-14T08:40:57"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "2183964"
-usize = "9228100"
-sha1sum = "7aaf3c690ec119a05f4a2f111d017ef768038632"
+size = "2168252"
+usize = "9226801"
+sha1sum = "58b96a4d6d99f54460d632cb77b575daf4572357"
 depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -90,7 +90,6 @@ DNS server and utilities
 * /usr/include/dns/keytable.h
 * /usr/include/dns/keyvalues.h
 * /usr/include/dns/librpz.h
-* /usr/include/dns/log.h
 * /usr/include/dns/master.h
 * /usr/include/dns/masterdump.h
 * /usr/include/dns/message.h
@@ -126,6 +125,7 @@ DNS server and utilities
 * /usr/include/dns/sdlz.h
 * /usr/include/dns/secalg.h
 * /usr/include/dns/secproto.h
+* /usr/include/dns/skr.h
 * /usr/include/dns/soa.h
 * /usr/include/dns/ssu.h
 * /usr/include/dns/stats.h
@@ -258,13 +258,11 @@ DNS server and utilities
 * /usr/include/isccfg/duration.h
 * /usr/include/isccfg/grammar.h
 * /usr/include/isccfg/kaspconf.h
-* /usr/include/isccfg/log.h
 * /usr/include/isccfg/namedconf.h
 * /usr/include/ns/client.h
 * /usr/include/ns/hooks.h
 * /usr/include/ns/interfacemgr.h
 * /usr/include/ns/listenlist.h
-* /usr/include/ns/log.h
 * /usr/include/ns/notify.h
 * /usr/include/ns/query.h
 * /usr/include/ns/server.h
@@ -275,25 +273,25 @@ DNS server and utilities
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libdns-9.21.0.so
+* /usr/lib/libdns-9.21.1.so
 * /usr/lib/libdns.so
-* /usr/lib/libisc-9.21.0.so
+* /usr/lib/libisc-9.21.1.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.21.0.so
+* /usr/lib/libisccc-9.21.1.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.21.0.so
+* /usr/lib/libisccfg-9.21.1.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.21.0.so
+* /usr/lib/libns-9.21.1.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.21.0/AUTHORS
-* /usr/share/doc/bind-9.21.0/ChangeLog
-* /usr/share/doc/bind-9.21.0/CHANGES
-* /usr/share/doc/bind-9.21.0/COPYING
-* /usr/share/doc/bind-9.21.0/COPYRIGHT
-* /usr/share/doc/bind-9.21.0/LICENSE
-* /usr/share/doc/bind-9.21.0/NEWS
-* /usr/share/doc/bind-9.21.0/README.md
+* /usr/share/doc/bind-9.21.1/AUTHORS
+* /usr/share/doc/bind-9.21.1/ChangeLog
+* /usr/share/doc/bind-9.21.1/CHANGES
+* /usr/share/doc/bind-9.21.1/COPYING
+* /usr/share/doc/bind-9.21.1/COPYRIGHT
+* /usr/share/doc/bind-9.21.1/LICENSE
+* /usr/share/doc/bind-9.21.1/NEWS
+* /usr/share/doc/bind-9.21.1/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz

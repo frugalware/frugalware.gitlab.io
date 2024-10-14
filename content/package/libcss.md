@@ -12,6 +12,7 @@ size = "152912"
 usize = "644576"
 sha1sum = "475f770dffdd147b6a44bc023dc04bb30430b99c"
 depends = "['libparserutils', 'libwapcaplet']"
+reverse_depends = "['elinks']"
 +++
 ### Description: 
 A CSS parser and selection engine library, written in C.
