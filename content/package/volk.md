@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "volk 1.3.290.0-1"
-version = "1.3.290.0-1"
+title = "volk 1.3.296.0-1"
+version = "1.3.296.0-1"
 description = "Meta loader for Vulkan API"
-date = "2024-07-23T07:47:22"
+date = "2024-10-14T12:53:11"
 aliases = "/packages/221206"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/zeux/volk"
 arch = "x86_64"
-size = "222832"
-usize = "634392"
-sha1sum = "70cec45f3ab2bd960a1b0a8f57af0d15bf987d30"
+size = "229388"
+usize = "649456"
+sha1sum = "edac6092d26f4ea0fbc9a2f26bcac64ca31acf74"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -24,4 +24,4 @@ Meta loader for Vulkan API
 * /usr/lib/cmake/volk/volkTargets-release.cmake
 * /usr/lib/cmake/volk/volkTargets.cmake
 * /usr/lib/libvolk.a
-* /usr/share/doc/volk-1.3.290.0/README.md
+* /usr/share/doc/volk-1.3.296.0/README.md

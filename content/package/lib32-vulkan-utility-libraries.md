@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-vulkan-utility-libraries 1.3.290.0-1"
-version = "1.3.290.0-1"
+title = "lib32-vulkan-utility-libraries 1.3.296.0-1"
+version = "1.3.296.0-1"
 description = "Utility libraries for Vulkan developers ( 32bit )"
-date = "2024-07-23T07:21:16"
+date = "2024-10-14T12:51:55"
 aliases = "/packages/221134"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/KhronosGroup/Vulkan-Utility-Libraries"
 arch = "x86_64"
-size = "164712"
-usize = "2208130"
-sha1sum = "e73cbfb10e53707a18e4ad65b645d740ee96c94e"
+size = "169092"
+usize = "2270851"
+sha1sum = "108014c1d8272e27d58b3d70394e5ffbf579f409"
 depends = "[]"
 +++
 ### Description: 
