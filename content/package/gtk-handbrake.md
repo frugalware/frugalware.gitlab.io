@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk-handbrake 1.8.2-2"
-version = "1.8.2-2"
+title = "gtk-handbrake 1.8.2-3"
+version = "1.8.2-3"
 description = "gtk gui for handbrake"
-date = "2024-09-27T12:26:46"
+date = "2024-10-15T09:37:42"
 aliases = "/packages/88670"
 categories = ['xapps-extra']
 upstreamurl = "https://handbrake.fr"
 arch = "x86_64"
-size = "1276052"
-usize = "5462849"
-sha1sum = "0b67f1a54406c253142fb9d9cc8675ccd02c9631"
+size = "1276664"
+usize = "5462593"
+sha1sum = "050b0d61bd98facd7a05de01ea49d0420b67ced0"
 depends = "['ffmpeg>=7.0', 'gst1-plugins-base', 'gtk+4', 'handbrake', 'lame', 'libass', 'libnotify', 'libsamplerate', 'libtheora', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 

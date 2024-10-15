@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pavucontrol 6.1-1"
-version = "6.1-1"
+title = "pavucontrol 6.1-2"
+version = "6.1-2"
 description = "PulseAudio Volume Control"
-date = "2024-09-11T20:16:03"
+date = "2024-10-15T09:19:15"
 aliases = "/packages/217680"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://freedesktop.org/software/pulseaudio/pavucontrol/"
 arch = "x86_64"
-size = "179600"
-usize = "973739"
-sha1sum = "1c8bdcfe24aa42f44d39f5912862d63f57d694ad"
+size = "179612"
+usize = "973803"
+sha1sum = "ff4247c0e9af7916697a8de9f6a133572456019a"
 depends = "['gtkmm', 'json-glib', 'libcanberra-gtk', 'libpulse']"
 +++
 ### Description: 

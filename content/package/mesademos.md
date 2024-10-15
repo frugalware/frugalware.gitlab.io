@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesademos 9.0.0-2"
-version = "9.0.0-2"
+title = "mesademos 9.0.0-3"
+version = "9.0.0-3"
 description = "OpenGL demonstration and test programs."
-date = "2023-03-24T09:55:49"
+date = "2024-10-15T09:43:51"
 aliases = "/packages/4821"
 categories = ['x11']
 upstreamurl = "https://ww.mesa3d.org"
 arch = "x86_64"
-size = "2746236"
-usize = "25342950"
-sha1sum = "8b9d1536f9fd64d92c6705c67a120c9a4fc85909"
+size = "3161508"
+usize = "23628050"
+sha1sum = "a7fbc888d8102e958dd478ff56f8b77ea27419b8"
 depends = "['freeglut', 'gtk+3', 'libglu', 'libosmesa', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -333,7 +333,7 @@ OpenGL demonstration and test programs.
 * /usr/include/libdecor-0/libdecor.h
 * /usr/lib/libdecor-0.so
 * /usr/lib/libdecor-0.so.0
-* /usr/lib/libdecor-0.so.0.100.99
+* /usr/lib/libdecor-0.so.0.200.2
 * /usr/lib/libdecor/plugins-1/libdecor-cairo.so
 * /usr/lib/libdecor/plugins-1/libdecor-gtk.so
 * /usr/lib/pkgconfig/libdecor-0.pc

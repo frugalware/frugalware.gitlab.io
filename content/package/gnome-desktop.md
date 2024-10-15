@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnome-desktop 44.1-1"
-version = "44.1-1"
+title = "gnome-desktop 44.1-2"
+version = "44.1-2"
 description = "The GNOME Desktop"
-date = "2024-08-23T12:59:44"
+date = "2024-10-15T09:21:09"
 aliases = "/packages/220201"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "618464"
-usize = "3920064"
-sha1sum = "514ece6383c5928be1ba7feadecd06d8611f4218"
+size = "619612"
+usize = "3920704"
+sha1sum = "a9b7aa9915a030f97f4d6627174d447819fceed9"
 depends = "['gsettings-desktop-schemas>=3.28.0', 'gtk+4', 'iso-codes>=3.70-2', 'libseccomp', 'libxkbfile>=1.0.9-3', 'xkeyboard-config>=2.18-2']"
 reverse_depends = "['gnome-desktop-doc', 'lutris', 'xdg-desktop-portal-gnome']"
 +++

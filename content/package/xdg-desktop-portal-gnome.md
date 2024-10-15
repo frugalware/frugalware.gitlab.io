@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal-gnome 47.1-1"
-version = "47.1-1"
+title = "xdg-desktop-portal-gnome 47.1-2"
+version = "47.1-2"
 description = "A backend implementation for xdg-desktop-portal using GNOME"
-date = "2024-09-21T20:02:23"
+date = "2024-10-15T09:50:53"
 aliases = "/packages/221512"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "180312"
-usize = "881320"
-sha1sum = "303182cb9d5cc6a178326c3e3f6e64013300a2a8"
+size = "180392"
+usize = "881416"
+sha1sum = "54f2794b9738e4498ab79b4f8995a1f6d463d287"
 depends = "['gnome-desktop', 'gtk+3', 'libadwaita', 'xdg-desktop-portal-gtk']"
 +++
 ### Description: 
