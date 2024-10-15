@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wlroots 0.18.1-1"
-version = "0.18.1-1"
+title = "wlroots 0.18.1-2"
+version = "0.18.1-2"
 description = "Modular Wayland compositor library"
-date = "2024-09-30T12:52:48"
+date = "2024-10-15T08:30:10"
 aliases = "/packages/220461"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.freedesktop.org/wlroots/wlroots"
 arch = "x86_64"
-size = "329232"
+size = "329080"
 usize = "1197718"
-sha1sum = "3c858f957507cf5612126abc01f28ecc4f3c7594"
+sha1sum = "82b09372cd74cb5dbc5402d7358ced21a8f39d86"
 depends = "['libdrm', 'libgbm', 'libglvnd', 'libinput', 'libxcb', 'libxkbcommon', 'pixman', 'seatd', 'vulkan-icd-loader', 'wayland', 'xcb-util', 'xcb-util-renderutil', 'xcb-util-wm']"
 reverse_depends = "['greetd-qt6greet']"
 +++
