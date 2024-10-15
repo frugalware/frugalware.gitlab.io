@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.17-1"
-version = "1.2.17-1"
+title = "lsp-plugins 1.2.19-1"
+version = "1.2.19-1"
 description = "Collection of open-source plugins"
-date = "2024-08-04T13:41:13"
+date = "2024-10-15T07:35:22"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "31442120"
-usize = "80931497"
-sha1sum = "3009499f21d16ecfa6aab43b726e5ef35a762c3d"
+size = "32819976"
+usize = "84933083"
+sha1sum = "1dbf0cd1142fb8b0679a9cc60a8989f7ad3aeda9"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
@@ -137,6 +137,8 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-phase-detector
 * /usr/bin/lsp-plugins-profiler-mono
 * /usr/bin/lsp-plugins-profiler-stereo
+* /usr/bin/lsp-plugins-return-mono
+* /usr/bin/lsp-plugins-return-stereo
 * /usr/bin/lsp-plugins-room-builder-mono
 * /usr/bin/lsp-plugins-room-builder-stereo
 * /usr/bin/lsp-plugins-sampler-mono
@@ -183,6 +185,8 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-sc-mb-gate-stereo
 * /usr/bin/lsp-plugins-sc-mb-limiter-mono
 * /usr/bin/lsp-plugins-sc-mb-limiter-stereo
+* /usr/bin/lsp-plugins-send-mono
+* /usr/bin/lsp-plugins-send-stereo
 * /usr/bin/lsp-plugins-slap-delay-mono
 * /usr/bin/lsp-plugins-slap-delay-stereo
 * /usr/bin/lsp-plugins-spectrum-analyzer-x1
@@ -199,7 +203,7 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-trigger-stereo
 * /usr/lib/clap/lsp-plugins.clap
 * /usr/lib/ladspa/lsp-plugins-ladspa.so
-* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.17.so
+* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.19.so
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x4_mono.ttl
@@ -320,6 +324,8 @@ Collection of open-source plugins
 * /usr/lib/lv2/lsp-plugins.lv2/phase_detector.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/profiler_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/profiler_stereo.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/return_mono.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/return_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/room_builder_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/room_builder_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/sampler_mono.ttl
@@ -366,6 +372,8 @@ Collection of open-source plugins
 * /usr/lib/lv2/lsp-plugins.lv2/sc_mb_gate_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/sc_mb_limiter_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/sc_mb_limiter_stereo.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/send_mono.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/send_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/slap_delay_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/slap_delay_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/spectrum_analyzer_x1.ttl
@@ -499,6 +507,8 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins.vst/phase-detector.so
 * /usr/lib/vst/lsp-plugins.vst/profiler-mono.so
 * /usr/lib/vst/lsp-plugins.vst/profiler-stereo.so
+* /usr/lib/vst/lsp-plugins.vst/return-mono.so
+* /usr/lib/vst/lsp-plugins.vst/return-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/room-builder-mono.so
 * /usr/lib/vst/lsp-plugins.vst/room-builder-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/sampler-mono.so
@@ -545,6 +555,8 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins.vst/sc-mb-gate-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/sc-mb-limiter-mono.so
 * /usr/lib/vst/lsp-plugins.vst/sc-mb-limiter-stereo.so
+* /usr/lib/vst/lsp-plugins.vst/send-mono.so
+* /usr/lib/vst/lsp-plugins.vst/send-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/slap-delay-mono.so
 * /usr/lib/vst/lsp-plugins.vst/slap-delay-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/spectrum-analyzer-x1.so
@@ -673,6 +685,8 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_phase_detector.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_profiler_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_profiler_stereo.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_return_mono.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_return_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_room_builder_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_room_builder_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_sampler_mono.desktop
@@ -719,6 +733,8 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_sc_mb_gate_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_sc_mb_limiter_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_sc_mb_limiter_stereo.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_send_mono.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_send_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_slap_delay_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_slap_delay_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_spectrum_analyzer_x1.desktop
@@ -734,20 +750,208 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
 * /usr/share/desktop-directories/lsp-plugins.directory
-* /usr/share/doc/lsp-plugins-1.2.17/CHANGELOG
-* /usr/share/doc/lsp-plugins-1.2.17/COPYING
-* /usr/share/doc/lsp-plugins-1.2.17/COPYING.LESSER
-* /usr/share/doc/lsp-plugins-1.2.17/README.md
+* /usr/share/doc/lsp-plugins-1.2.19/CHANGELOG
+* /usr/share/doc/lsp-plugins-1.2.19/COPYING
+* /usr/share/doc/lsp-plugins-1.2.19/COPYING.LESSER
+* /usr/share/doc/lsp-plugins-1.2.19/README.md
 * /usr/share/doc/lsp-plugins/css/style.css
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff2
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed.ttf
 * /usr/share/doc/lsp-plugins/html/controls.html
+* /usr/share/doc/lsp-plugins/html/development/building.html
+* /usr/share/doc/lsp-plugins/html/development/eclipse.html
+* /usr/share/doc/lsp-plugins/html/development/testing.html
+* /usr/share/doc/lsp-plugins/html/development/ui_guidelines.html
+* /usr/share/doc/lsp-plugins/html/development/versioning.html
 * /usr/share/doc/lsp-plugins/html/installation.html
 * /usr/share/doc/lsp-plugins/html/licensing.html
 * /usr/share/doc/lsp-plugins/html/overview.html
+* /usr/share/doc/lsp-plugins/html/plugins/ab_tester_x2_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/ab_tester_x2_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/ab_tester_x4_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/ab_tester_x4_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/ab_tester_x8_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/ab_tester_x8_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/art_delay_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/art_delay_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/autogain_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/autogain_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/beat_breather_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/beat_breather_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/chorus_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/chorus_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/clipper_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/clipper_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/compressor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/compressor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/compressor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/compressor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/comp_delay_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/comp_delay_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/comp_delay_x2_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/crossover_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/crossover_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/crossover_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/crossover_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/dyna_processor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/dyna_processor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/dyna_processor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/dyna_processor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/expander_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/expander_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/expander_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/expander_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/filter_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/filter_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/flanger_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/flanger_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/gate_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/gate_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/gate_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/gate_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/gott_compressor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/gott_compressor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/gott_compressor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/gott_compressor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x16_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x16_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x16_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x16_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x32_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x32_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x32_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/graph_equalizer_x32_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/impulse_responses_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/impulse_responses_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/impulse_reverb_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/impulse_reverb_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/latency_meter.html
+* /usr/share/doc/lsp-plugins/html/plugins/limiter_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/limiter_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/loud_comp_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/loud_comp_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_clipper_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_clipper_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_compressor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_compressor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_compressor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_compressor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_dyna_processor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_dyna_processor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_dyna_processor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_dyna_processor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_expander_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_expander_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_expander_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_expander_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_gate_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_gate_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_gate_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_gate_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_limiter_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mb_limiter_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mixer_x16_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mixer_x16_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mixer_x4_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mixer_x4_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/mixer_x8_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/mixer_x8_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/multisampler_x12.html
+* /usr/share/doc/lsp-plugins/html/plugins/multisampler_x12_do.html
+* /usr/share/doc/lsp-plugins/html/plugins/multisampler_x24.html
+* /usr/share/doc/lsp-plugins/html/plugins/multisampler_x24_do.html
+* /usr/share/doc/lsp-plugins/html/plugins/multisampler_x48.html
+* /usr/share/doc/lsp-plugins/html/plugins/multisampler_x48_do.html
+* /usr/share/doc/lsp-plugins/html/plugins/noise_generator_x1.html
+* /usr/share/doc/lsp-plugins/html/plugins/noise_generator_x2.html
+* /usr/share/doc/lsp-plugins/html/plugins/noise_generator_x4.html
+* /usr/share/doc/lsp-plugins/html/plugins/oscillator_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/oscilloscope_x1.html
+* /usr/share/doc/lsp-plugins/html/plugins/oscilloscope_x2.html
+* /usr/share/doc/lsp-plugins/html/plugins/oscilloscope_x4.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x16_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x16_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x16_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x16_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x32_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x32_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x32_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x32_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/phase_detector.html
+* /usr/share/doc/lsp-plugins/html/plugins/profiler_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/profiler_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/return_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/return_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/room_builder_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/room_builder_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sampler_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sampler_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_autogain_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_autogain_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_compressor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_compressor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_compressor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_compressor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_dyna_processor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_dyna_processor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_dyna_processor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_dyna_processor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_expander_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_expander_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_expander_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_expander_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gate_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gate_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gate_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gate_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gott_compressor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gott_compressor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gott_compressor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_gott_compressor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_limiter_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_limiter_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_compressor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_compressor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_compressor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_compressor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_dyna_processor_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_dyna_processor_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_dyna_processor_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_dyna_processor_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_expander_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_expander_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_expander_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_expander_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_gate_lr.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_gate_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_gate_ms.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_gate_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_limiter_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/sc_mb_limiter_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/send_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/send_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/slap_delay_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/slap_delay_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/spectrum_analyzer_x1.html
+* /usr/share/doc/lsp-plugins/html/plugins/spectrum_analyzer_x12.html
+* /usr/share/doc/lsp-plugins/html/plugins/spectrum_analyzer_x16.html
+* /usr/share/doc/lsp-plugins/html/plugins/spectrum_analyzer_x2.html
+* /usr/share/doc/lsp-plugins/html/plugins/spectrum_analyzer_x4.html
+* /usr/share/doc/lsp-plugins/html/plugins/spectrum_analyzer_x8.html
+* /usr/share/doc/lsp-plugins/html/plugins/surge_filter_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/surge_filter_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/trigger_midi_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/trigger_midi_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/trigger_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/trigger_stereo.html
 * /usr/share/doc/lsp-plugins/html/requirements.html
 * /usr/share/doc/lsp-plugins/html/troubleshooting.html
+* /usr/share/doc/lsp-plugins/html/tutorials/sampler_import_hydrogen_kit.html
 * /usr/share/doc/lsp-plugins/html/video.html
 * /usr/share/doc/lsp-plugins/img/box.png
 * /usr/share/doc/lsp-plugins/img/controls/button_active.png
@@ -797,6 +1001,9 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/controls/save_v1.png
 * /usr/share/doc/lsp-plugins/img/controls/save_v2.png
 * /usr/share/doc/lsp-plugins/img/controls/save_v3.png
+* /usr/share/doc/lsp-plugins/img/controls/shmlink_connected.png
+* /usr/share/doc/lsp-plugins/img/controls/shmlink_not_connected.png
+* /usr/share/doc/lsp-plugins/img/controls/shmlink_popup.png
 * /usr/share/doc/lsp-plugins/img/controls/tab_control.png
 * /usr/share/doc/lsp-plugins/img/cover.png
 * /usr/share/doc/lsp-plugins/img/devel/eclipse-cpp-debug.png
@@ -958,6 +1165,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/plugins/phase_detector.png
 * /usr/share/doc/lsp-plugins/img/plugins/profiler_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/profiler_stereo.png
+* /usr/share/doc/lsp-plugins/img/plugins/return_mono.png
+* /usr/share/doc/lsp-plugins/img/plugins/return_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/room_builder_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/room_builder_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/sampler_mono.png
@@ -1004,6 +1213,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/plugins/sc_mb_gate_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/sc_mb_limiter_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/sc_mb_limiter_stereo.png
+* /usr/share/doc/lsp-plugins/img/plugins/send_mono.png
+* /usr/share/doc/lsp-plugins/img/plugins/send_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/slap_delay_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/slap_delay_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/spectrum_analyzer_x1.png

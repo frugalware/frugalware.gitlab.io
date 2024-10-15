@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.2.5-1"
-version = "1.2.5-1"
+title = "pipewire 1.2.5-2"
+version = "1.2.5-2"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2024-09-27T12:02:08"
+date = "2024-10-15T08:02:04"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3960448"
+size = "3961032"
 usize = "38634942"
-sha1sum = "035f39101246f3c9a769c60b001a6c49fc08f68f"
+sha1sum = "575bcab7e2dc533136c9203fd41ebfda9ee11cf8"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.1.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
