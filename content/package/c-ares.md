@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "c-ares 1.34.1-1"
-version = "1.34.1-1"
+title = "c-ares 1.34.2-1"
+version = "1.34.2-1"
 description = "C library that performs DNS requests and name resolves asynchronously."
-date = "2024-10-14T08:42:04"
+date = "2024-10-15T12:28:48"
 aliases = "/packages/15211"
 categories = ['network']
 upstreamurl = "https://c-ares.org/"
 arch = "x86_64"
-size = "221996"
-usize = "537995"
-sha1sum = "4fec1621b1bcc53b5b72441f75f982cacf096519"
+size = "222540"
+usize = "538503"
+sha1sum = "71b2e5aff46f29c3e69fadff9e187cc25b8055ad"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['aria2', 'curl', 'grpc', 'nodejs', 'nodejs18', 'nodejs20', 'python3-gevent', 'r2modman', 'rtorrent', 'wireshark', 'wireshark-qt']"
 +++
@@ -34,11 +34,11 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/lib/libcares.so.2
 * /usr/lib/libcares.so.2.19.1
 * /usr/lib/pkgconfig/libcares.pc
-* /usr/share/doc/c-ares-1.34.1/AUTHORS
-* /usr/share/doc/c-ares-1.34.1/INSTALL.md
-* /usr/share/doc/c-ares-1.34.1/README.md
-* /usr/share/doc/c-ares-1.34.1/README.msvc
-* /usr/share/doc/c-ares-1.34.1/RELEASE-NOTES.md
+* /usr/share/doc/c-ares-1.34.2/AUTHORS
+* /usr/share/doc/c-ares-1.34.2/INSTALL.md
+* /usr/share/doc/c-ares-1.34.2/README.md
+* /usr/share/doc/c-ares-1.34.2/README.msvc
+* /usr/share/doc/c-ares-1.34.2/RELEASE-NOTES.md
 * /usr/share/man/man1/adig.1.gz
 * /usr/share/man/man1/ahost.1.gz
 * /usr/share/man/man3/ares_cancel.3.gz
@@ -84,6 +84,7 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_dns_rr.3.gz
 * /usr/share/man/man3/ares_dns_rr_add_abin.3.gz
 * /usr/share/man/man3/ares_dns_rr_del_abin.3.gz
+* /usr/share/man/man3/ares_dns_rr_del_opt_byid.3.gz
 * /usr/share/man/man3/ares_dns_rr_get_abin.3.gz
 * /usr/share/man/man3/ares_dns_rr_get_abin_cnt.3.gz
 * /usr/share/man/man3/ares_dns_rr_get_addr.3.gz
@@ -181,6 +182,7 @@ C library that performs DNS requests and name resolves asynchronously.
 * /usr/share/man/man3/ares_set_socket_callback.3.gz
 * /usr/share/man/man3/ares_set_socket_configure_callback.3.gz
 * /usr/share/man/man3/ares_set_socket_functions.3.gz
+* /usr/share/man/man3/ares_set_socket_functions_ex.3.gz
 * /usr/share/man/man3/ares_set_sortlist.3.gz
 * /usr/share/man/man3/ares_strerror.3.gz
 * /usr/share/man/man3/ares_svcb_param_t.3.gz

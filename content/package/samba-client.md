@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "samba-client 4.21.0-1"
-version = "4.21.0-1"
+title = "samba-client 4.21.1-1"
+version = "4.21.1-1"
 description = "SMB client tools."
-date = "2024-09-07T14:28:02"
+date = "2024-10-15T12:35:53"
 aliases = "/packages/15146"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "484656"
-usize = "1471250"
-sha1sum = "a6b03742a78ec54a43e874cf5e7b0ad0cdc46480"
-depends = "['libarchive>=3.2.1', 'libkrb5', 'libsmbclient>=4.21.0', 'libsystemd>=231-7', 'libwbclient>=4.21.0', 'popt>=1.16-6', 'readline>=8.0', 'tdb>=1.4.3-2', 'tevent']"
+size = "485072"
+usize = "1472019"
+sha1sum = "d0e41c12144cfb9acdf02b2b3760071e65840c62"
+depends = "['libarchive>=3.2.1', 'libkrb5', 'libsmbclient>=4.21.1', 'libsystemd>=231-7', 'libwbclient>=4.21.1', 'popt>=1.16-6', 'readline>=8.0', 'tdb>=1.4.3-2', 'tevent']"
 reverse_depends = "['gvfs-smb', 'kio-extras', 'mpv', 'samba', 'smb4k']"
 +++
 ### Description: 
