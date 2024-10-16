@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "19756"
 usize = "40935"
 sha1sum = "96f2d04dca09f7a8c1e730ec034d561070ba33d5"
-depends = "['dbus-sharp-glib', 'gtk2-sharp', 'mono', 'mono>=2.8']"
+depends = "['dbus-sharp-glib', 'gtk2-sharp', 'mono>=2.8', 'mono']"
 +++
 ### Description: 
 notify-sharp is a C# client implementation for Desktop Notifications.
