@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liblangtag 0.6.4-1"
-version = "0.6.4-1"
+title = "liblangtag 0.6.7-1"
+version = "0.6.7-1"
 description = "An interface library to access tags for identifying languages"
-date = "2022-07-25T09:29:54"
+date = "2024-10-16T09:38:34"
 aliases = "/packages/169015"
 categories = ['xoffice']
 upstreamurl = "http://tagoh.bitbucket.org/liblangtag/"
 arch = "x86_64"
-size = "314088"
-usize = "3427663"
-sha1sum = "2d6413623701f361d393b270da7cd23769548722"
+size = "314892"
+usize = "3409488"
+sha1sum = "af736bc5879436466b91765a687c925e662d12b9"
 depends = "['libxml2>=2.9.4-3']"
 reverse_depends = "['libe-book', 'libreoffice']"
 +++
@@ -60,11 +60,11 @@ An interface library to access tags for identifying languages
 * /usr/lib/liblangtag/liblangtag-ext-ldml-u.so
 * /usr/lib/pkgconfig/liblangtag-gobject.pc
 * /usr/lib/pkgconfig/liblangtag.pc
-* /usr/share/doc/liblangtag-0.6.4/AUTHORS
-* /usr/share/doc/liblangtag-0.6.4/COPYING
-* /usr/share/doc/liblangtag-0.6.4/INSTALL
-* /usr/share/doc/liblangtag-0.6.4/NEWS
-* /usr/share/doc/liblangtag-0.6.4/README
+* /usr/share/doc/liblangtag-0.6.7/AUTHORS
+* /usr/share/doc/liblangtag-0.6.7/COPYING
+* /usr/share/doc/liblangtag-0.6.7/INSTALL
+* /usr/share/doc/liblangtag-0.6.7/NEWS
+* /usr/share/doc/liblangtag-0.6.7/README
 * /usr/share/gir-1.0/LangTag-0.6.gir
 * /usr/share/gtk-doc/html/liblangtag/annotation-glossary.html
 * /usr/share/gtk-doc/html/liblangtag/api-index-full.html

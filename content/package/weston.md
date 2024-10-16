@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "weston 14.0.0-1"
-version = "14.0.0-1"
+title = "weston 14.0.0-2"
+version = "14.0.0-2"
 description = "Wayland Default Display Compositor"
-date = "2024-09-10T07:55:21"
+date = "2024-10-16T09:47:28"
 aliases = "/packages/168990"
 categories = ['x11-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "1278716"
-usize = "5000771"
-sha1sum = "a1abb5a43d97e619be4ee9c32ce1bd721875f5ed"
+size = "1279172"
+usize = "5005539"
+sha1sum = "ce3db60d4536b31fd46d0a69297143f6fb51ebe2"
 depends = "['freerdp', 'gst1-plugins-base', 'lcms2', 'libdisplay-info>=0.2.0', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'neatvnc', 'pango', 'pipewire', 'seatd', 'wayland']"
 +++
 ### Description: 
