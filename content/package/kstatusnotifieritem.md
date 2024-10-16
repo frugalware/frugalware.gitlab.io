@@ -12,7 +12,7 @@ size = "107624"
 usize = "377092"
 sha1sum = "44d733b56696f8d028b99ac645ee14802f845ac0"
 depends = "['kwindowsystem>=6.6.0']"
-reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmousetool', 'knotes', 'konversation', 'krdc', 'krdp', 'krfb', 'kruler', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'spectacle', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
+reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmousetool', 'konversation', 'krdc', 'krdp', 'krfb', 'kruler', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'spectacle', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++
 ### Description: 
 Status Notifier Items

@@ -12,7 +12,7 @@ size = "48136"
 usize = "189206"
 sha1sum = "9ebee97c3db29123fb7e0cced796643093d9b891"
 depends = "['kparts>=6.6.0']"
-reverse_depends = "['akregator', 'kaddressbook', 'kdepim-addons', 'kmail', 'knotes', 'kontact', 'korganizer', 'zanshin']"
+reverse_depends = "['akregator', 'kaddressbook', 'kdepim-addons', 'kmail', 'kontact', 'korganizer', 'zanshin']"
 +++
 ### Description: 
 KParts Kontact interface.

@@ -12,7 +12,7 @@ size = "62448"
 usize = "223169"
 sha1sum = "502ffeb5c259e2510c231a97aba999e978dd0fd8"
 depends = "['knewstuff>=6.6.0', 'ktexttemplate>=6.6.0']"
-reverse_depends = "['akonadi-contacts', 'knotes']"
+reverse_depends = "['akonadi-contacts']"
 +++
 ### Description: 
 This lib provides grantlee theme support

@@ -12,7 +12,7 @@ size = "30348"
 usize = "101757"
 sha1sum = "cecad75878c15df524fe762cc7c5ae651e184a23"
 depends = "['akonadi>=24.08.1', 'ki18n>=6.6.0', 'kmime>=24.08.1']"
-reverse_depends = "['calendarsupport', 'kdepim-runtime', 'knotes', 'messagelib']"
+reverse_depends = "['calendarsupport', 'kdepim-runtime', 'messagelib']"
 +++
 ### Description: 
 Libraries and daemons to implement searching in Akonad

@@ -12,7 +12,7 @@ size = "285396"
 usize = "1928168"
 sha1sum = "aaeb08f9b63c52f5c4da7178187bf1585b0a3412"
 depends = "['kcalendarcore>=6.6.0', 'kidentitymanagement>=24.08.1']"
-reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'knotes', 'ktnef']"
+reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'ktnef']"
 +++
 ### Description: 
 The KDE calendar utility library

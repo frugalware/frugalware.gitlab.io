@@ -12,7 +12,7 @@ size = "430680"
 usize = "1989803"
 sha1sum = "1f0cf784c12a5167f11985d91258bf37d6d70368"
 depends = "['kimap>=24.08.1', 'knewstuff>=6.6.0', 'kpimtextedit>=24.08.1', 'ktextaddons>=1.3.1', 'libkdepim>=24.08.1', 'purpose>=6.6.0']"
-reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'knotes', 'libgravatar', 'libksieve', 'mailimporter']"
+reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'libgravatar', 'libksieve', 'mailimporter']"
 +++
 ### Description: 
 KdePim common files
