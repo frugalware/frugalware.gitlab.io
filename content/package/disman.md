@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "disman 0.601.0-2"
-version = "0.601.0-2"
+title = "disman 0.602.0-1"
+version = "0.602.0-1"
 description = "Qt/C++ display management library"
-date = "2024-10-16T08:28:06"
+date = "2024-10-17T20:34:08"
 aliases = "/packages/220462"
 categories = ['kde6-extra']
 upstreamurl = "https://github.com/winft/disman"
 arch = "x86_64"
-size = "270696"
+size = "270992"
 usize = "1117734"
-sha1sum = "e3df64db7dbb0acd6fece827225a13a54d988109"
+sha1sum = "a0fe771c22ae62a58b74b6ac08f514911f5642b3"
 depends = "['kcoreaddons>=', 'wrapland']"
 +++
 ### Description: 
@@ -39,13 +39,13 @@ Qt/C++ display management library
 * /usr/lib/disman/disman-launcher
 * /usr/lib/libdisman.so
 * /usr/lib/libdisman.so.0
-* /usr/lib/libdisman.so.0.601.0
+* /usr/lib/libdisman.so.0.602.0
 * /usr/lib/pkgconfig/disman.pc
 * /usr/lib/qt6/plugins/disman/fake.so
 * /usr/lib/qt6/plugins/disman/qscreen.so
 * /usr/lib/qt6/plugins/disman/randr.so
 * /usr/lib/qt6/plugins/disman/wayland.so
 * /usr/share/dbus-1/services/org.kwinft.disman.service
-* /usr/share/doc/disman-0.601.0/COPYING.LIB
-* /usr/share/doc/disman-0.601.0/README.md
+* /usr/share/doc/disman-0.602.0/COPYING.LIB
+* /usr/share/doc/disman-0.602.0/README.md
 * /usr/share/qlogging-categories6/disman.categories

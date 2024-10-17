@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami-addons 1.4.0-1"
-version = "1.4.0-1"
+title = "kirigami-addons 1.5.0-1"
+version = "1.5.0-1"
 description = "Add-ons for the Kirigami framework"
-date = "2024-07-29T12:40:49"
+date = "2024-10-17T20:29:00"
 aliases = "/packages/220616"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "727732"
-usize = "3762158"
-sha1sum = "252fcc904678f471eadd819a4bbb822b031b95ec"
-depends = "['kconfig>=6.4.0', 'kcoreaddons>=6.4.0', 'kglobalaccel>=6.4.0', 'kguiaddons>=6.4.0', 'kirigami>=6.4.0']"
+size = "889748"
+usize = "3951709"
+sha1sum = "5b6f75f18deb7745be8331d170b5e80d04908e7a"
+depends = "['kconfig>=6.7.0', 'kcoreaddons>=6.7.0', 'kglobalaccel>=6.7.0', 'kguiaddons>=6.7.0', 'kirigami>=6.7.0']"
 reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kde', 'discover', 'elisa', 'filelight', 'francis', 'itinerary', 'kalm', 'kasts', 'kclock', 'kdeconnect-kde', 'kdeconnect-kde', 'kdeplasma-addons', 'kidentitymanagement', 'kongress', 'kontrast', 'krecorder', 'ktrip', 'kweather', 'kwordquiz', 'merkuro', 'neochat', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-welcome', 'plasma-workspace', 'plasmatube', 'qmlkonsole', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/cmake/KF6KirigamiAddons/KirigamiAddonsTargets-release.cmake
 * /usr/lib/cmake/KF6KirigamiAddons/KirigamiAddonsTargets.cmake
 * /usr/lib/libKirigamiAddonsStatefulApp.so
-* /usr/lib/libKirigamiAddonsStatefulApp.so.1.4.0
+* /usr/lib/libKirigamiAddonsStatefulApp.so.1.5.0
 * /usr/lib/libKirigamiAddonsStatefulApp.so.6
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/Avatar.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/AvatarButton.qml
@@ -65,6 +65,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/RoundedTreeDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/SubtitleContentItem.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/AboutKDE.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/AboutKDEPage.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/AboutPage.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/AbstractFormDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormArrow.qml
@@ -166,8 +167,9 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/styles/org.kde.desktop/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/treeviewplugin.qmltypes
-* /usr/share/doc/kirigami-addons-1.4.0/README.md
+* /usr/share/doc/kirigami-addons-1.5.0/README.md
 * /usr/share/kdevappwizard/templates/kirigamiaddons6.tar.bz2
+* /usr/share/kdevappwizard/templates/librarymanager6.tar.bz2
 * /usr/share/locale/ar/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kirigami-addons6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kirigami-addons6.mo
