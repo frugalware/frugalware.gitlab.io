@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-quickeffectmaker 6.7.3-1"
-version = "6.7.3-1"
+title = "qt6-quickeffectmaker 6.8.0-1"
+version = "6.8.0-1"
 description = "The Qt6 toolkit, qtquickeffectmaker"
-date = "2024-09-28T18:15:46"
+date = "2024-10-14T16:49:19"
 aliases = "/packages/220949"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "3862312"
-usize = "4892248"
-sha1sum = "7e32d6869581f0f008dc6a3375c4a646cc613478"
+size = "3891808"
+usize = "4946989"
+sha1sum = "f5a6fe02cac3eae62208181d2129f623877b0cc2"
 depends = "['qt6-quick3d', 'qt6-shadertools']"
 +++
 ### Description: 
@@ -26,6 +26,7 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/dropshadow.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/fastblur.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/gamma_adjust.qen
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/glow.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/innershadow.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/leveladjust.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/basic/mipmapblur.qen
@@ -44,10 +45,14 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/common/bluritems.vert.qsb
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/common/mathhelper.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/common/noisehelper.qen
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/bars.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/bend.qen
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/circlebend.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/colorlut.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/ledscreen.qen
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/maskedblur.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/normalmapping.qen
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/spriteanimation.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/sunburst.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/swirl.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/blackcircle.png
@@ -101,6 +106,7 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/lut_512_warm.png
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/mask.png
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/mask2.png
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/qt-logo-sheet.png
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/qt_logo_green_rgb.png
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/qt_logo_green_rgb_n.png
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/images/quit_logo.png

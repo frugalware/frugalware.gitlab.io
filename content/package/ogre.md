@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "ogre 14.0.0-1"
-version = "14.0.0-1"
+title = "ogre 14.3.0-1"
+version = "14.3.0-1"
 description = "A scene-oriented flexible 3D engine written in C++"
-date = "2023-07-10T09:53:14"
+date = "2024-10-16T10:24:47"
 aliases = "/packages/39056"
 categories = ['xlib-extra']
 upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
-size = "3651488"
-usize = "16114931"
-sha1sum = "2656a7b6293c548dde3c1419f3ace26a5a4a0ea5"
-depends = "['freeimage>=3.17.0-3', 'freetype2>=2.7.1', 'harfbuzz', 'libatomic>=6.2.1-5', 'libboost>=1.72.0', 'libglu', 'libxaw', 'libxrandr', 'pugixml', 'zziplib>=0.13.62-2']"
+size = "7769528"
+usize = "37148467"
+sha1sum = "b4cbd435f171259b18b6c14053beab6164f2905d"
+depends = "['assimp', 'bullet', 'freeimage', 'glslang', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base', 'sdl2']"
 reverse_depends = "['ogre-media']"
 +++
 ### Description: 
 A scene-oriented flexible 3D engine written in C++
 
 ### Files: 
-* /etc/ld.so.conf.d/ogre.conf
+* /usr/bin/OgreAssimpConverter
 * /usr/bin/OgreMeshUpgrader
 * /usr/bin/OgreXMLConverter
 * /usr/bin/VRMLConverter
@@ -36,6 +36,8 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/include/OGRE/Bites/OgreStaticPluginLoader.h
 * /usr/include/OGRE/Bites/OgreTrays.h
 * /usr/include/OGRE/Bites/OgreWindowEventUtilities.h
+* /usr/include/OGRE/Bullet/OgreBullet.h
+* /usr/include/OGRE/Bullet/OgreBulletExports.h
 * /usr/include/OGRE/MeshLodGenerator/OgreLod0Stripifier.h
 * /usr/include/OGRE/MeshLodGenerator/OgreLodCollapseCost.h
 * /usr/include/OGRE/MeshLodGenerator/OgreLodCollapseCostCurvature.h
@@ -311,6 +313,8 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/include/OGRE/Paging/OgrePaging.h
 * /usr/include/OGRE/Paging/OgrePagingPrerequisites.h
 * /usr/include/OGRE/Paging/OgreSimplePageContentCollection.h
+* /usr/include/OGRE/Plugins/Assimp/OgreAssimpExports.h
+* /usr/include/OGRE/Plugins/Assimp/OgreAssimpLoader.h
 * /usr/include/OGRE/Plugins/BSPSceneManager/OgreBspLevel.h
 * /usr/include/OGRE/Plugins/BSPSceneManager/OgreBspNode.h
 * /usr/include/OGRE/Plugins/BSPSceneManager/OgreBspPrerequisites.h
@@ -326,6 +330,8 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/include/OGRE/Plugins/DotScene/OgreDotScenePluginExports.h
 * /usr/include/OGRE/Plugins/FreeImageCodec/OgreFreeImageCodec.h
 * /usr/include/OGRE/Plugins/FreeImageCodec/OgreFreeImageCodecExports.h
+* /usr/include/OGRE/Plugins/GLSLang/OgreGLSLangProgramManager.h
+* /usr/include/OGRE/Plugins/GLSLang/OgreGLSLangProgramManagerExports.h
 * /usr/include/OGRE/Plugins/OctreeSceneManager/OgreOctree.h
 * /usr/include/OGRE/Plugins/OctreeSceneManager/OgreOctreeCamera.h
 * /usr/include/OGRE/Plugins/OctreeSceneManager/OgreOctreeNode.h
@@ -521,6 +527,39 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/include/OGRE/RenderSystems/GLES2/OgreGLVertexArrayObject.h
 * /usr/include/OGRE/RenderSystems/GLES2/OgreGLWindow.h
 * /usr/include/OGRE/RenderSystems/KHR/KHR/khrplatform.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanDescriptorPool.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanDevice.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanHardwareBuffer.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanHardwareBufferManager.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanMappings.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanPlugin.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanPrerequisites.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanProgram.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanQueue.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanRenderPassDescriptor.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanRenderSystem.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanTextureGpu.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanTextureGpuManager.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanTextureGpuWindow.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanUtils.h
+* /usr/include/OGRE/RenderSystems/Vulkan/include/OgreVulkanWindow.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanDescriptorPool.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanDevice.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanExports.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanHardwareBuffer.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanHardwareBufferManager.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanMappings.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanPlugin.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanPrerequisites.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanProgram.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanQueue.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanRenderPassDescriptor.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanRenderSystem.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanTextureGpu.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanTextureGpuManager.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanTextureGpuWindow.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanUtils.h
+* /usr/include/OGRE/RenderSystems/Vulkan/OgreVulkanWindow.h
 * /usr/include/OGRE/RTShaderSystem/OgreRTShader.i
 * /usr/include/OGRE/RTShaderSystem/OgreRTShaderConfig.h
 * /usr/include/OGRE/RTShaderSystem/OgreRTShaderExports.h
@@ -570,7 +609,6 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/include/OGRE/Volume/OgreVolumeHalfFloatGridSource.h
 * /usr/include/OGRE/Volume/OgreVolumeIsoSurface.h
 * /usr/include/OGRE/Volume/OgreVolumeIsoSurfaceMC.h
-* /usr/include/OGRE/Volume/OgreVolumeIsoSurfaceTablesMC.h
 * /usr/include/OGRE/Volume/OgreVolumeMeshBuilder.h
 * /usr/include/OGRE/Volume/OgreVolumeOctreeNode.h
 * /usr/include/OGRE/Volume/OgreVolumeOctreeNodeSplitPolicy.h
@@ -579,50 +617,60 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/include/OGRE/Volume/OgreVolumeSource.h
 * /usr/include/OGRE/Volume/OgreVolumeTextureSource.h
 * /usr/lib/libOgreBites.so
-* /usr/lib/libOgreBites.so.14.0
+* /usr/lib/libOgreBites.so.14.3
+* /usr/lib/libOgreBitesQt.so
+* /usr/lib/libOgreBitesQt.so.14.3
+* /usr/lib/libOgreBullet.so
 * /usr/lib/libOgreMain.so
-* /usr/lib/libOgreMain.so.14.0
+* /usr/lib/libOgreMain.so.14.3
 * /usr/lib/libOgreMeshLodGenerator.so
-* /usr/lib/libOgreMeshLodGenerator.so.14.0
+* /usr/lib/libOgreMeshLodGenerator.so.14.3
 * /usr/lib/libOgreOverlay.so
-* /usr/lib/libOgreOverlay.so.14.0
+* /usr/lib/libOgreOverlay.so.14.3
 * /usr/lib/libOgrePaging.so
-* /usr/lib/libOgrePaging.so.14.0
+* /usr/lib/libOgrePaging.so.14.3
 * /usr/lib/libOgreProperty.so
-* /usr/lib/libOgreProperty.so.14.0
+* /usr/lib/libOgreProperty.so.14.3
 * /usr/lib/libOgreRTShaderSystem.so
-* /usr/lib/libOgreRTShaderSystem.so.14.0
+* /usr/lib/libOgreRTShaderSystem.so.14.3
 * /usr/lib/libOgreTerrain.so
-* /usr/lib/libOgreTerrain.so.14.0
+* /usr/lib/libOgreTerrain.so.14.3
 * /usr/lib/libOgreVolume.so
-* /usr/lib/libOgreVolume.so.14.0
+* /usr/lib/libOgreVolume.so.14.3
 * /usr/lib/OGRE/cmake/OGREConfig.cmake
 * /usr/lib/OGRE/cmake/OGREConfigVersion.cmake
 * /usr/lib/OGRE/cmake/OgreTargets-release.cmake
 * /usr/lib/OGRE/cmake/OgreTargets.cmake
+* /usr/lib/OGRE/Codec_Assimp.so
+* /usr/lib/OGRE/Codec_Assimp.so.14.3
 * /usr/lib/OGRE/Codec_FreeImage.so
-* /usr/lib/OGRE/Codec_FreeImage.so.14.0
+* /usr/lib/OGRE/Codec_FreeImage.so.14.3
 * /usr/lib/OGRE/Codec_STBI.so
-* /usr/lib/OGRE/Codec_STBI.so.14.0
+* /usr/lib/OGRE/Codec_STBI.so.14.3
 * /usr/lib/OGRE/Plugin_BSPSceneManager.so
-* /usr/lib/OGRE/Plugin_BSPSceneManager.so.14.0
+* /usr/lib/OGRE/Plugin_BSPSceneManager.so.14.3
 * /usr/lib/OGRE/Plugin_DotScene.so
-* /usr/lib/OGRE/Plugin_DotScene.so.14.0
+* /usr/lib/OGRE/Plugin_DotScene.so.14.3
+* /usr/lib/OGRE/Plugin_GLSLangProgramManager.so
+* /usr/lib/OGRE/Plugin_GLSLangProgramManager.so.14.3
 * /usr/lib/OGRE/Plugin_OctreeSceneManager.so
-* /usr/lib/OGRE/Plugin_OctreeSceneManager.so.14.0
+* /usr/lib/OGRE/Plugin_OctreeSceneManager.so.14.3
 * /usr/lib/OGRE/Plugin_OctreeZone.so
-* /usr/lib/OGRE/Plugin_OctreeZone.so.14.0
+* /usr/lib/OGRE/Plugin_OctreeZone.so.14.3
 * /usr/lib/OGRE/Plugin_ParticleFX.so
-* /usr/lib/OGRE/Plugin_ParticleFX.so.14.0
+* /usr/lib/OGRE/Plugin_ParticleFX.so.14.3
 * /usr/lib/OGRE/Plugin_PCZSceneManager.so
-* /usr/lib/OGRE/Plugin_PCZSceneManager.so.14.0
+* /usr/lib/OGRE/Plugin_PCZSceneManager.so.14.3
 * /usr/lib/OGRE/RenderSystem_GL.so
-* /usr/lib/OGRE/RenderSystem_GL.so.14.0
+* /usr/lib/OGRE/RenderSystem_GL.so.14.3
 * /usr/lib/OGRE/RenderSystem_GL3Plus.so
-* /usr/lib/OGRE/RenderSystem_GL3Plus.so.14.0
+* /usr/lib/OGRE/RenderSystem_GL3Plus.so.14.3
 * /usr/lib/OGRE/RenderSystem_GLES2.so
-* /usr/lib/OGRE/RenderSystem_GLES2.so.14.0
+* /usr/lib/OGRE/RenderSystem_GLES2.so.14.3
+* /usr/lib/OGRE/RenderSystem_Vulkan.so
+* /usr/lib/OGRE/RenderSystem_Vulkan.so.14.3
 * /usr/lib/pkgconfig/OGRE-Bites.pc
+* /usr/lib/pkgconfig/OGRE-BitesQt.pc
 * /usr/lib/pkgconfig/OGRE-MeshLodGenerator.pc
 * /usr/lib/pkgconfig/OGRE-Overlay.pc
 * /usr/lib/pkgconfig/OGRE-Paging.pc
@@ -632,9 +680,49 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/lib/pkgconfig/OGRE-Terrain.pc
 * /usr/lib/pkgconfig/OGRE-Volume.pc
 * /usr/lib/pkgconfig/OGRE.pc
-* /usr/share/doc/ogre-14.0.0/AUTHORS
-* /usr/share/doc/ogre-14.0.0/LICENSE
-* /usr/share/doc/ogre-14.0.0/README.md
-* /usr/share/OGRE-14.0/GLX_backdrop.png
-* /usr/share/OGRE-14.0/plugins.cfg
-* /usr/share/OGRE-14.0/resources.cfg
+* /usr/lib/python3.12/dist-packages/Ogre/Bites.py
+* /usr/lib/python3.12/dist-packages/Ogre/Bullet.py
+* /usr/lib/python3.12/dist-packages/Ogre/HighPy.py
+* /usr/lib/python3.12/dist-packages/Ogre/ImGui.py
+* /usr/lib/python3.12/dist-packages/Ogre/Numpy.py
+* /usr/lib/python3.12/dist-packages/Ogre/Ogre.py
+* /usr/lib/python3.12/dist-packages/Ogre/Overlay.py
+* /usr/lib/python3.12/dist-packages/Ogre/RTShader.py
+* /usr/lib/python3.12/dist-packages/Ogre/Terrain.py
+* /usr/lib/python3.12/dist-packages/Ogre/_Bites.so
+* /usr/lib/python3.12/dist-packages/Ogre/_Bullet.so
+* /usr/lib/python3.12/dist-packages/Ogre/_ImGui.so
+* /usr/lib/python3.12/dist-packages/Ogre/_Ogre.so
+* /usr/lib/python3.12/dist-packages/Ogre/_Overlay.so
+* /usr/lib/python3.12/dist-packages/Ogre/_RTShader.so
+* /usr/lib/python3.12/dist-packages/Ogre/_Terrain.so
+* /usr/lib/python3.12/dist-packages/Ogre/__init__.py
+* /usr/share/doc/ogre-14.3.0/AUTHORS
+* /usr/share/doc/ogre-14.3.0/LICENSE
+* /usr/share/doc/ogre-14.3.0/README.md
+* /usr/share/doc/OGRE/1.10-Notes.md
+* /usr/share/doc/OGRE/1.11-Notes.md
+* /usr/share/doc/OGRE/1.12-Notes.md
+* /usr/share/doc/OGRE/13-Notes.md
+* /usr/share/doc/OGRE/14-Notes.md
+* /usr/share/doc/OGRE/ChangeLog.md
+* /usr/share/doc/OGRE/CMakeLists.txt
+* /usr/share/doc/OGRE/CodingStandards.md
+* /usr/share/doc/OGRE/doxygen-awesome.css
+* /usr/share/doc/OGRE/License.md
+* /usr/share/doc/OGRE/licenses/bsd.txt
+* /usr/share/doc/OGRE/licenses/freeimage.txt
+* /usr/share/doc/OGRE/licenses/freetype.txt
+* /usr/share/doc/OGRE/licenses/libjpeg.txt
+* /usr/share/doc/OGRE/licenses/libmng.txt
+* /usr/share/doc/OGRE/licenses/libpng.txt
+* /usr/share/doc/OGRE/licenses/libtiff.txt
+* /usr/share/doc/OGRE/licenses/mit.txt
+* /usr/share/doc/OGRE/licenses/mpl.txt
+* /usr/share/doc/OGRE/licenses/uiuc.txt
+* /usr/share/doc/OGRE/licenses/zlib.txt
+* /usr/share/doc/OGRE/ogre-logo.png
+* /usr/share/doc/OGRE/ogre_style.css
+* /usr/share/OGRE-14.3/GLX_backdrop.png
+* /usr/share/OGRE-14.3/plugins.cfg
+* /usr/share/OGRE-14.3/resources.cfg

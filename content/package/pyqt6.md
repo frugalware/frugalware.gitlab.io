@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6 6.7.1-2"
-version = "6.7.1-2"
+title = "pyqt6 6.8.0.dev2410141303-1"
+version = "6.8.0.dev2410141303-1"
 description = "PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit."
-date = "2024-09-30T12:36:43"
+date = "2024-10-16T17:48:12"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "3971748"
-usize = "28527468"
-sha1sum = "a041f832a483cbcdef3a3885ad3b3584784aa560"
+size = "4011740"
+usize = "28842655"
+sha1sum = "290ed7f3bd9008043d6bcdf405abee33fff211e0"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'pyqt6webengine', 'yin-yang']"
 +++
@@ -21,9 +21,9 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt6.abi3.so
-* /usr/lib/python3.12/site-packages/PyQt6-6.7.1.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQt6-6.7.1.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQt6-6.7.1.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410141303.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410141303.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410141303.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -280,6 +280,7 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpainter.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpainterpath.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpalette.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpdfoutputintent.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpdfwriter.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpen.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpicture.sip
@@ -325,6 +326,7 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qwindow.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qwindowdefs.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qcompressedhelpinfo.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpcontentitem.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpcontentwidget.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpengine.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpenginecore.sip
@@ -334,12 +336,16 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpindexwidget.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelplink.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpsearchengine.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpsearchenginecore.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpsearchquerywidget.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpsearchresult.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/qhelpsearchresultwidget.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/QtHelp.toml
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtHelp/QtHelpmod.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudio.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudiobuffer.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudiobufferinput.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudiobufferoutput.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudiodecoder.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudiodevice.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qaudioformat.sip
@@ -366,6 +372,7 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qtvideo.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideoframe.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideoframeformat.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideoframeinput.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qvideosink.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimedia/qwindowcapture.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtMultimediaWidgets/qgraphicsvideoitem.sip
@@ -376,6 +383,7 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qabstractsocket.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qauthenticator.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qdnslookup.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qformdatabuilder.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhostaddress.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhostinfo.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qhstspolicy.sip
@@ -395,11 +403,14 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qnetworkproxy.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qnetworkreply.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qnetworkrequest.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qnetworkrequestfactory.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qocspresponse.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qpassworddigestor.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qpynetwork_qhash.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qpynetwork_qlist.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qpynetwork_qmap.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qrestaccessmanager.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qrestreply.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qssl.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qsslcertificate.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtNetwork/qsslcertificateextension.sip
@@ -938,8 +949,8 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/qt6/plugins/designer/libpyqt6.so
 * /usr/lib/qt6/plugins/PyQt6/libpyqt6qmlplugin.so
-* /usr/share/doc/pyqt6-6.7.1/ChangeLog
-* /usr/share/doc/pyqt6-6.7.1/LICENSE
-* /usr/share/doc/pyqt6-6.7.1/NEWS
-* /usr/share/doc/pyqt6-6.7.1/README.md
+* /usr/share/doc/pyqt6-6.8.0.dev2410141303/ChangeLog
+* /usr/share/doc/pyqt6-6.8.0.dev2410141303/LICENSE
+* /usr/share/doc/pyqt6-6.8.0.dev2410141303/NEWS
+* /usr/share/doc/pyqt6-6.8.0.dev2410141303/README.md
 * /usr/share/qt6/qsci/api/python/PyQt6.api

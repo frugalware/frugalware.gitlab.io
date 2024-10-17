@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "picmi 24.08.1-2"
-version = "24.08.1-2"
+title = "picmi 24.08.2-1"
+version = "24.08.2-1"
 description = "A nonogram logic game for KDE."
-date = "2024-09-29T13:27:23"
+date = "2024-10-15T13:39:06"
 aliases = "/packages/184207"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1301544"
-usize = "1945565"
-sha1sum = "857cd7679ed0fddc97f4663b1fdeeb08cbd56ee1"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1']"
+size = "1310488"
+usize = "1966258"
+sha1sum = "86517ed10de9494f39a6f1d01dc227518f57ea30"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2']"
 +++
 ### Description: 
 A nonogram logic game for KDE.
@@ -41,15 +41,17 @@ A nonogram logic game for KDE.
 * /usr/share/doc/HTML/pt/picmi/index.docbook
 * /usr/share/doc/HTML/pt_BR/picmi/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/picmi/index.docbook
+* /usr/share/doc/HTML/sl/picmi/index.cache.bz2
+* /usr/share/doc/HTML/sl/picmi/index.docbook
 * /usr/share/doc/HTML/sv/picmi/index.cache.bz2
 * /usr/share/doc/HTML/sv/picmi/index.docbook
 * /usr/share/doc/HTML/uk/picmi/gameboard.png
 * /usr/share/doc/HTML/uk/picmi/index.cache.bz2
 * /usr/share/doc/HTML/uk/picmi/index.docbook
-* /usr/share/doc/picmi-24.08.1/AUTHORS
-* /usr/share/doc/picmi-24.08.1/INSTALL
-* /usr/share/doc/picmi-24.08.1/README
-* /usr/share/doc/picmi-24.08.1/TODO
+* /usr/share/doc/picmi-24.08.2/AUTHORS
+* /usr/share/doc/picmi-24.08.2/INSTALL
+* /usr/share/doc/picmi-24.08.2/README
+* /usr/share/doc/picmi-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/picmi.png
 * /usr/share/icons/hicolor/16x16/apps/picmi.png
 * /usr/share/icons/hicolor/22x22/apps/picmi.png

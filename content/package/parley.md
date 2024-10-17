@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "parley 24.08.1-2"
-version = "24.08.1-2"
+title = "parley 24.08.2-1"
+version = "24.08.2-1"
 description = "Vocabulary Trainer."
-date = "2024-09-29T13:43:36"
+date = "2024-10-15T13:41:52"
 aliases = "/packages/152839"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7556904"
-usize = "12342635"
-sha1sum = "722d00f5f2bd6f778f726cee91107c15c331ba9e"
-depends = "['kcmutils>=6.6.0', 'knewstuff>=6.6.0', 'libkeduvocdocument>=24.08.1', 'qt6-multimedia>=6.7.3', 'qt6-webengine>=6.7.3']"
+size = "7587196"
+usize = "12444269"
+sha1sum = "e80057bce06fe308ea51ce1ce7863b7bcaf19834"
+depends = "['kcmutils>=6.7.0', 'knewstuff>=6.7.0', 'libkeduvocdocument>=24.08.2', 'qt6-multimedia>=6.8.0', 'qt6-webengine>=6.8.0']"
 +++
 ### Description: 
 Vocabulary Trainer.
@@ -186,13 +186,15 @@ Vocabulary Trainer.
 * /usr/share/doc/HTML/pt_BR/parley/index.docbook
 * /usr/share/doc/HTML/ru/parley/index.cache.bz2
 * /usr/share/doc/HTML/ru/parley/index.docbook
+* /usr/share/doc/HTML/sl/parley/index.cache.bz2
+* /usr/share/doc/HTML/sl/parley/index.docbook
 * /usr/share/doc/HTML/sv/parley/index.cache.bz2
 * /usr/share/doc/HTML/sv/parley/index.docbook
 * /usr/share/doc/HTML/uk/parley/index.cache.bz2
 * /usr/share/doc/HTML/uk/parley/index.docbook
-* /usr/share/doc/parley-24.08.1/AUTHORS
-* /usr/share/doc/parley-24.08.1/README.md
-* /usr/share/doc/parley-24.08.1/TODO
+* /usr/share/doc/parley-24.08.2/AUTHORS
+* /usr/share/doc/parley-24.08.2/README.md
+* /usr/share/doc/parley-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/parley.png
 * /usr/share/icons/hicolor/16x16/apps/parley.png
 * /usr/share/icons/hicolor/32x32/apps/parley.png

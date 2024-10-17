@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klickety 24.08.1-2"
-version = "24.08.1-2"
+title = "klickety 24.08.2-1"
+version = "24.08.2-1"
 description = "An adaptation of the Clickomania game."
-date = "2024-09-29T13:09:52"
+date = "2024-10-15T13:30:23"
 aliases = "/packages/184186"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1481288"
-usize = "2076547"
-sha1sum = "54a639e593d74ddab59b0179f2e446c633f50e80"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1']"
+size = "1491292"
+usize = "2104243"
+sha1sum = "b8e902eaf626ddf324e83cf36e500cef7608de1e"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2']"
 +++
 ### Description: 
 An adaptation of the Clickomania game.
@@ -63,6 +63,8 @@ An adaptation of the Clickomania game.
 * /usr/share/doc/HTML/pt/klickety/index.docbook
 * /usr/share/doc/HTML/pt_BR/klickety/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/klickety/index.docbook
+* /usr/share/doc/HTML/sl/klickety/index.cache.bz2
+* /usr/share/doc/HTML/sl/klickety/index.docbook
 * /usr/share/doc/HTML/sv/klickety/index.cache.bz2
 * /usr/share/doc/HTML/sv/klickety/index.docbook
 * /usr/share/doc/HTML/uk/klickety/config-background.png
@@ -75,8 +77,8 @@ An adaptation of the Clickomania game.
 * /usr/share/doc/HTML/uk/klickety/index.docbook
 * /usr/share/doc/HTML/uk/klickety/ksamemode.png
 * /usr/share/doc/HTML/uk/klickety/numbered.png
-* /usr/share/doc/klickety-24.08.1/README.PACKAGERS
-* /usr/share/doc/klickety-24.08.1/README.THEMES
+* /usr/share/doc/klickety-24.08.2/README.PACKAGERS
+* /usr/share/doc/klickety-24.08.2/README.THEMES
 * /usr/share/icons/hicolor/128x128/apps/klickety.png
 * /usr/share/icons/hicolor/128x128/apps/ksame.png
 * /usr/share/icons/hicolor/16x16/apps/klickety.png

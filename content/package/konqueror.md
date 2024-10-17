@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konqueror 24.08.1-3"
-version = "24.08.1-3"
+title = "konqueror 24.08.2-1"
+version = "24.08.2-1"
 description = "Web browser and file manager"
-date = "2024-09-29T10:34:05"
+date = "2024-10-15T12:37:54"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8343564"
-usize = "26459825"
-sha1sum = "a6c86c5f757442fc3febdc99f6ef26a49674c420"
-depends = "['hunspell', 'kcmutils>=6.6.0', 'kdesu>=6.6.0', 'kparts>=6.6.0', 'plasma-activities>=6.1.5', 'qt6-speech>=6.7.3', 'qt6-webengine>=6.7.3', 'tidy>=5.6.0']"
+size = "8432540"
+usize = "26717443"
+sha1sum = "6128c46f15230ba50dd0c05a2ce61783e29c1b5a"
+depends = "['hunspell', 'kcmutils>=6.7.0', 'kdesu>=6.7.0', 'kparts>=6.7.0', 'plasma-activities>=6.2.0', 'qt6-speech>=6.8.0', 'qt6-webengine>=6.8.0', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager
@@ -52,9 +52,9 @@ Web browser and file manager
 * /usr/lib/libKF6KonqSettings.so.5.97.0
 * /usr/lib/libKF6KonqSettings.so.7
 * /usr/lib/libkonqsidebarplugin.so
-* /usr/lib/libkonqsidebarplugin.so.24.08.1
+* /usr/lib/libkonqsidebarplugin.so.24.08.2
 * /usr/lib/libkonqsidebarplugin.so.6
-* /usr/lib/libkonquerorprivate.so.24.08.1
+* /usr/lib/libkonquerorprivate.so.24.08.2
 * /usr/lib/libkonquerorprivate.so.5
 * /usr/lib/libkwebenginepart.so
 * /usr/lib/qt6/plugins/akregatorkonqfeedicon.so
@@ -469,6 +469,26 @@ Web browser and file manager
 * /usr/share/doc/HTML/ru/kcontrol/khtml-java-js/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/performance/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/performance/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/bookmarks/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/bookmarks/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/filemanager/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/filemanager/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/history/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/history/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kcmcss/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kcmcss/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/khtml-adblock/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/khtml-adblock/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/khtml-behavior/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/khtml-behavior/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/khtml-general/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/khtml-general/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/khtml-java-js/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/khtml-java-js/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/performance/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/performance/index.docbook
+* /usr/share/doc/HTML/sl/konqueror/index.cache.bz2
+* /usr/share/doc/HTML/sl/konqueror/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol/bookmarks/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol/bookmarks/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol/filemanager/index.cache.bz2
@@ -607,8 +627,8 @@ Web browser and file manager
 * /usr/share/doc/HTML/uk/konqueror/viewproperties-dialog.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.docbook
-* /usr/share/doc/konqueror-24.08.1/AUTHORS
-* /usr/share/doc/konqueror-24.08.1/ChangeLog
+* /usr/share/doc/konqueror-24.08.2/AUTHORS
+* /usr/share/doc/konqueror-24.08.2/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/konqueror.png
 * /usr/share/icons/hicolor/128x128/apps/webengine.png
 * /usr/share/icons/hicolor/16x16/actions/babelfish.png

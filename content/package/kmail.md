@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail 24.08.1-2"
-version = "24.08.1-2"
+title = "kmail 24.08.2-1"
+version = "24.08.2-1"
 description = "Email client, supporting POP3 and IMAP mailboxes"
-date = "2024-09-29T21:30:14"
+date = "2024-10-15T14:34:03"
 aliases = "/packages/218934"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7093768"
-usize = "23374274"
-sha1sum = "b2770693a302edecb4f9649a75029d742d96eaf0"
-depends = "['akonadi-import-wizard>=24.08.1', 'kcalutils>=24.08.1', 'kdepim-runtime>=24.08.1', 'kmail-account-wizard>=24.08.1', 'knotifyconfig>=6.6.0', 'kontactinterface>=24.08.1', 'kstatusnotifieritem>=6.6.0', 'ktnef>=24.08.1', 'libksieve>=24.08.1', 'mailcommon>=24.08.1', 'mbox-importer>=']"
+size = "7108424"
+usize = "23455019"
+sha1sum = "f5ea6cc6c97de1362c80dd90d994368f3413497d"
+depends = "['akonadi-import-wizard>=24.08.2', 'kcalutils>=24.08.2', 'kdepim-runtime>=24.08.2', 'kmail-account-wizard>=24.08.2', 'knotifyconfig>=6.7.0', 'kontactinterface>=24.08.2', 'kstatusnotifieritem>=6.7.0', 'ktnef>=24.08.2', 'libksieve>=24.08.2', 'mailcommon>=24.08.2', 'mbox-importer>=']"
 +++
 ### Description: 
 Email client, supporting POP3 and IMAP mailboxes
@@ -27,9 +27,9 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/bin/kmail-refresh-settings
 * /usr/bin/ktnef
 * /usr/lib/libkmailprivate.so.6
-* /usr/lib/libkmailprivate.so.6.2.1
+* /usr/lib/libkmailprivate.so.6.2.2
 * /usr/lib/libmailfilteragentprivate.so.6
-* /usr/lib/libmailfilteragentprivate.so.6.2.1
+* /usr/lib/libmailfilteragentprivate.so.6.2.2
 * /usr/lib/qt6/plugins/kmailpart.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/archivemailagentconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/followupreminderagentconfig.so
@@ -320,6 +320,14 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/share/doc/HTML/ru/kmail2/using-kmail.docbook
 * /usr/share/doc/HTML/ru/ktnef/index.cache.bz2
 * /usr/share/doc/HTML/ru/ktnef/index.docbook
+* /usr/share/doc/HTML/sl/akonadi_archivemail_agent/index.cache.bz2
+* /usr/share/doc/HTML/sl/akonadi_archivemail_agent/index.docbook
+* /usr/share/doc/HTML/sl/akonadi_followupreminder_agent/index.cache.bz2
+* /usr/share/doc/HTML/sl/akonadi_followupreminder_agent/index.docbook
+* /usr/share/doc/HTML/sl/akonadi_sendlater_agent/index.cache.bz2
+* /usr/share/doc/HTML/sl/akonadi_sendlater_agent/index.docbook
+* /usr/share/doc/HTML/sl/ktnef/index.cache.bz2
+* /usr/share/doc/HTML/sl/ktnef/index.docbook
 * /usr/share/doc/HTML/sv/akonadi_archivemail_agent/index.cache.bz2
 * /usr/share/doc/HTML/sv/akonadi_archivemail_agent/index.docbook
 * /usr/share/doc/HTML/sv/akonadi_followupreminder_agent/index.cache.bz2

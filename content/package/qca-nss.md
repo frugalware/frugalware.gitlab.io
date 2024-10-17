@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca-nss 2.3.9-4"
-version = "2.3.9-4"
+title = "qca-nss 2.3.9-5"
+version = "2.3.9-5"
 description = "Plugins for qca with nss"
-date = "2024-09-30T14:27:45"
+date = "2024-10-15T20:09:50"
 aliases = "/packages/217817"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "16732"
+size = "16784"
 usize = "46776"
-sha1sum = "dc2a301a3903580d877575484a196ea598419626"
+sha1sum = "24d1f215babb3ff87ee1df55c6e672733d4a47a0"
 depends = "['nss', 'qca']"
 +++
 ### Description: 

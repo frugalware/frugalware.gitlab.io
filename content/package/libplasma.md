@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libplasma 6.1.5-2"
-version = "6.1.5-2"
+title = "libplasma 6.2.1-1"
+version = "6.2.1-1"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2024-09-28T20:15:34"
+date = "2024-10-17T01:22:38"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2691084"
-usize = "6284972"
-sha1sum = "c6dca4a7748d71971b2559bb1174c9dad28e2487"
-depends = "['kcmutils>=6.6.0', 'ksvg>=6.6.0', 'plasma-activities>=6.1.5']"
+size = "2455296"
+usize = "6097290"
+sha1sum = "49c117b1e8ba225b3892565951a6e61336f163da"
+depends = "['kcmutils>=6.7.0', 'ksvg>=6.7.0', 'plasma-activities>=6.2.1']"
 reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -68,10 +68,10 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/cmake/PlasmaQuick/PlasmaQuickTargets.cmake
 * /usr/lib/libPlasma.so
 * /usr/lib/libPlasma.so.6
-* /usr/lib/libPlasma.so.6.1.5
+* /usr/lib/libPlasma.so.6.2.1
 * /usr/lib/libPlasmaQuick.so
 * /usr/lib/libPlasmaQuick.so.6
-* /usr/lib/libPlasmaQuick.so.6.1.5
+* /usr/lib/libPlasmaQuick.so.6.2.1
 * /usr/lib/qt6/plugins/kf6/kirigami/platform/KirigamiPlasmaStyle.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_applet.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_containmentactions.so
@@ -80,7 +80,6 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_theme.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_wallpaper.so
 * /usr/lib/qt6/qml/org/kde/kirigami/styles/Plasma/AbstractApplicationHeader.qml
-* /usr/lib/qt6/qml/org/kde/kirigami/styles/Plasma/Icon.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/AbstractButton.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/BusyIndicator.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/Button.qml
@@ -146,6 +145,8 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/components/ToolButton.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/ToolTip.qml
 * /usr/lib/qt6/qml/org/kde/plasma/core/corebindingsplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/core/DefaultToolTip.qml
+* /usr/lib/qt6/qml/org/kde/plasma/core/DialogBackground.qml
 * /usr/lib/qt6/qml/org/kde/plasma/core/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/core/libcorebindingsplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/core/qmldir
@@ -174,7 +175,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/extras/Representation.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/SearchField.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/ShadowedLabel.qml
-* /usr/share/doc/libplasma-6.1.5/README.md
+* /usr/share/doc/libplasma-6.2.1/README.md
 * /usr/share/kdevappwizard/templates/cpp-plasmoid6.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper-with-qml-extension.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper.tar.bz2
@@ -368,47 +369,5 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/share/plasma/desktoptheme/default/widgets/tooltip.svgz
 * /usr/share/plasma/desktoptheme/default/widgets/translucentbackground.svgz
 * /usr/share/plasma/desktoptheme/default/widgets/viewitem.svgz
-* /usr/share/plasma/desktoptheme/oxygen/colors
-* /usr/share/plasma/desktoptheme/oxygen/dialogs/background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/metadata.json
-* /usr/share/plasma/desktoptheme/oxygen/opaque/dialogs/background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/opaque/dialogs/krunner.svgz
-* /usr/share/plasma/desktoptheme/oxygen/opaque/widgets/extender-background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/opaque/widgets/panel-background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/opaque/widgets/tooltip.svgz
-* /usr/share/plasma/desktoptheme/oxygen/plasmarc
-* /usr/share/plasma/desktoptheme/oxygen/widgets/action-overlays.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/actionbutton.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/analog_meter.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/arrows.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/bar_meter_horizontal.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/bar_meter_vertical.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/branding.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/busywidget.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/button.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/clock.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/containment-controls.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/dragger.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/extender-background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/extender-dragger.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/frame.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/glowbar.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/line.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/lineedit.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/media-delegate.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/monitor.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/pager.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/panel-background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/plot-background.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/scrollbar.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/scrollwidget.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/slider.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/tabbar.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/tasks.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/timer.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/tooltip.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/translucentbackground.svgz
-* /usr/share/plasma/desktoptheme/oxygen/widgets/viewitem.svgz
 * /usr/share/qlogging-categories6/plasma-framework.categories
 * /usr/share/qlogging-categories6/plasma-framework.renamecategories

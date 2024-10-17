@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konsole 24.08.1-3"
-version = "24.08.1-3"
+title = "konsole 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Terminal emulator."
-date = "2024-09-29T10:35:18"
+date = "2024-10-15T12:39:19"
 aliases = "/packages/88141"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1944520"
-usize = "9332453"
-sha1sum = "1fc688404682c6de5f9f5ee7221760e6e3e9af0d"
-depends = "['knewstuff>=6.6.0', 'knotifyconfig>=6.6.0', 'kparts>=6.6.0', 'kpty>=6.6.0']"
+size = "1980424"
+usize = "9437605"
+sha1sum = "5a402dd8eaf87b08b6a322338b2df9940dd65f5b"
+depends = "['knewstuff>=6.7.0', 'knotifyconfig>=6.7.0', 'kparts>=6.7.0', 'kpty>=6.7.0']"
 +++
 ### Description: 
 KDE Terminal emulator.
@@ -21,8 +21,8 @@ KDE Terminal emulator.
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel
 * /usr/lib/kconf_update_bin/konsole_show_menubar
-* /usr/lib/libkonsoleapp.so.24.08.1
-* /usr/lib/libkonsoleprivate.so.24.08.1
+* /usr/lib/libkonsoleapp.so.24.08.2
+* /usr/lib/libkonsoleprivate.so.24.08.2
 * /usr/lib/qt6/plugins/kf6/parts/konsolepart.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_quickcommandsplugin.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_sshmanagerplugin.so
@@ -47,6 +47,8 @@ KDE Terminal emulator.
 * /usr/share/doc/HTML/pt_BR/konsole/index.docbook
 * /usr/share/doc/HTML/ru/konsole/index.cache.bz2
 * /usr/share/doc/HTML/ru/konsole/index.docbook
+* /usr/share/doc/HTML/sl/konsole/index.cache.bz2
+* /usr/share/doc/HTML/sl/konsole/index.docbook
 * /usr/share/doc/HTML/sr/konsole/index.cache.bz2
 * /usr/share/doc/HTML/sr/konsole/index.docbook
 * /usr/share/doc/HTML/sr@latin/konsole/index.cache.bz2
@@ -60,10 +62,10 @@ KDE Terminal emulator.
 * /usr/share/doc/HTML/uk/konsole/index.docbook
 * /usr/share/doc/HTML/zh_CN/konsole/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/konsole/index.docbook
-* /usr/share/doc/konsole-24.08.1/COPYING
-* /usr/share/doc/konsole-24.08.1/COPYING.DOC
-* /usr/share/doc/konsole-24.08.1/COPYING.LIB
-* /usr/share/doc/konsole-24.08.1/README.md
+* /usr/share/doc/konsole-24.08.2/COPYING
+* /usr/share/doc/konsole-24.08.2/COPYING.DOC
+* /usr/share/doc/konsole-24.08.2/COPYING.LIB
+* /usr/share/doc/konsole-24.08.2/README.md
 * /usr/share/kconf_update/konsole.upd
 * /usr/share/kconf_update/konsole_add_hamburgermenu_to_toolbar.sh
 * /usr/share/kglobalaccel/org.kde.konsole.desktop

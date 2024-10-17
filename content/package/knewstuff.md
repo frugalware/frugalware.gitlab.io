@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knewstuff 6.6.0-2"
-version = "6.6.0-2"
+title = "knewstuff 6.7.0-1"
+version = "6.7.0-1"
 description = "Framework for downloading and sharing additional application data."
-date = "2024-09-28T19:41:44"
+date = "2024-10-14T17:46:44"
 aliases = "/packages/218336"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "594496"
-usize = "2827063"
-sha1sum = "9c73313d3a7a0d767e5e90eeb4572b212801dcd3"
-depends = "['kio>=6.6.0', 'kirigami>=6.6.0', 'kpackage>=6.6.0', 'syndication>=6.6.0']"
+size = "592348"
+usize = "2803939"
+sha1sum = "7e945274e4dcae1c31f9655953a9a5b90bc2c1dd"
+depends = "['kio>=6.7.0', 'kirigami>=6.7.0', 'kpackage>=6.7.0', 'syndication>=6.7.0']"
 reverse_depends = "['blinken', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'k3b', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'ksysguard5', 'kturtle', 'kwin', 'labplot', 'libkdegames', 'libksysguard', 'libksysguard5', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'spectacle', 'yakuake']"
 +++
 ### Description: 
@@ -66,10 +66,10 @@ Framework for downloading and sharing additional application data.
 * /usr/lib/cmake/KF6NewStuffCore/KF6NewStuffCoreTargets.cmake
 * /usr/lib/libKF6NewStuffCore.so
 * /usr/lib/libKF6NewStuffCore.so.6
-* /usr/lib/libKF6NewStuffCore.so.6.6.0
+* /usr/lib/libKF6NewStuffCore.so.6.7.0
 * /usr/lib/libKF6NewStuffWidgets.so
 * /usr/lib/libKF6NewStuffWidgets.so.6
-* /usr/lib/libKF6NewStuffWidgets.so.6.6.0
+* /usr/lib/libKF6NewStuffWidgets.so.6.7.0
 * /usr/lib/qt6/plugins/designer/knewstuff6widgets.so
 * /usr/lib/qt6/qml/org/kde/newstuff/Action.qml
 * /usr/lib/qt6/qml/org/kde/newstuff/Button.qml
@@ -100,8 +100,8 @@ Framework for downloading and sharing additional application data.
 * /usr/lib/qt6/qml/org/kde/newstuff/QuestionAsker.qml
 * /usr/lib/qt6/qml/org/kde/newstuff/UploadPage.qml
 * /usr/share/applications/org.kde.knewstuff-dialog6.desktop
-* /usr/share/doc/knewstuff-6.6.0/README.md
-* /usr/share/doc/knewstuff-6.6.0/TODO
+* /usr/share/doc/knewstuff-6.7.0/README.md
+* /usr/share/doc/knewstuff-6.7.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/knewstuff6.mo
 * /usr/share/locale/ar/LC_MESSAGES/knewstuff6.mo
 * /usr/share/locale/as/LC_MESSAGES/knewstuff6.mo

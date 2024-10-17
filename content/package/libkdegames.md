@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkdegames 24.08.1-2"
-version = "24.08.1-2"
+title = "libkdegames 24.08.2-1"
+version = "24.08.2-1"
 description = "Library for KDE games."
-date = "2024-09-29T11:11:05"
+date = "2024-10-15T12:58:50"
 aliases = "/packages/184209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9173144"
-usize = "10663599"
-sha1sum = "65a2960a87cfcd88b03e7a7b066338bc01e4a196"
-depends = "['kdeclarative>=6.6.0', 'kdnssd>=6.6.0', 'knewstuff>=6.6.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.7.3']"
+size = "9172972"
+usize = "10666159"
+sha1sum = "c1e4075b62d37b4c9cdc55015c0c66032b62c401"
+depends = "['kdeclarative>=6.7.0', 'kdnssd>=6.7.0', 'knewstuff>=6.7.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.8.0']"
 reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi', 'skladnik']"
 +++
 ### Description: 
@@ -79,10 +79,10 @@ Library for KDE games.
 * /usr/lib/cmake/KDEGames6/KDEGames6Targets.cmake
 * /usr/lib/libKDEGames6.so
 * /usr/lib/libKDEGames6.so.6
-* /usr/lib/libKDEGames6.so.6.0.240801
+* /usr/lib/libKDEGames6.so.6.0.240802
 * /usr/lib/libKDEGames6Private.so
 * /usr/lib/libKDEGames6Private.so.6
-* /usr/lib/libKDEGames6Private.so.6.0.240801
+* /usr/lib/libKDEGames6Private.so.6.0.240802
 * /usr/lib/qt6/qml/org/kde/games/core/corebindingsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/games/core/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/games/core/KGameItem.qml
@@ -143,8 +143,8 @@ Library for KDE games.
 * /usr/share/carddecks/svg-xskat-german/COPYRIGHT
 * /usr/share/carddecks/svg-xskat-german/german.svgz
 * /usr/share/carddecks/svg-xskat-german/index.desktop
-* /usr/share/doc/libkdegames-24.08.1/README
-* /usr/share/doc/libkdegames-24.08.1/TODO
+* /usr/share/doc/libkdegames-24.08.2/README
+* /usr/share/doc/libkdegames-24.08.2/TODO
 * /usr/share/locale/af/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkdegames6.mo

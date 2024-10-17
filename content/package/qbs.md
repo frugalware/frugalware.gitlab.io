@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qbs 2.4.1-2"
-version = "2.4.1-2"
+title = "qbs 2.4.1-3"
+version = "2.4.1-3"
 description = "A tool that helps simplify the build process for developing projects across multiple platforms"
-date = "2024-09-30T14:35:28"
+date = "2024-10-16T12:30:24"
 aliases = "/packages/217269"
 categories = ['devel-extra']
 upstreamurl = "http://doc.qt.io/qbs/index.html"
 arch = "x86_64"
-size = "2869096"
-usize = "11282901"
-sha1sum = "ccc76ecc672e63346e9c7ec5939714416a5704e9"
-depends = "['qt6-5compat>=6.7.3']"
+size = "2866720"
+usize = "11285957"
+sha1sum = "65094129f8997fc523da16f5b9752a3259c6408e"
+depends = "['qt6-5compat>=6.8.0']"
 +++
 ### Description: 
 A tool that helps simplify the build process for developing projects across multiple platforms

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krfb 24.08.1-3"
-version = "24.08.1-3"
+title = "krfb 24.08.2-2"
+version = "24.08.2-2"
 description = "KRfb is a RFB protocol server (VNC)."
-date = "2024-09-29T10:36:20"
+date = "2024-10-16T08:53:58"
 aliases = "/packages/74082"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1260252"
-usize = "2531313"
-sha1sum = "dd347d0b7c54295e2c84381434c3d718bd864c93"
-depends = "['kdnssd>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kwallet>=6.6.0', 'kwayland>=6.1.5', 'kxmlgui>=6.6.0', 'libvncserver>=0.9.11', 'libxtst']"
+size = "1268048"
+usize = "2548918"
+sha1sum = "cf5f6e019fcad844ee6f4e0e1b701cc0beb161b9"
+depends = "['kdnssd>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'kwallet>=6.7.0', 'kwayland>=6.2.0', 'kxmlgui>=6.7.0', 'libvncserver>=0.9.11', 'libxtst']"
 reverse_depends = "['krfb-pipewire']"
 +++
 ### Description: 
@@ -66,6 +66,8 @@ KRfb is a RFB protocol server (VNC).
 * /usr/share/doc/HTML/pt_BR/krfb/index.docbook
 * /usr/share/doc/HTML/ru/krfb/index.cache.bz2
 * /usr/share/doc/HTML/ru/krfb/index.docbook
+* /usr/share/doc/HTML/sl/krfb/index.cache.bz2
+* /usr/share/doc/HTML/sl/krfb/index.docbook
 * /usr/share/doc/HTML/sr/krfb/index.cache.bz2
 * /usr/share/doc/HTML/sr/krfb/index.docbook
 * /usr/share/doc/HTML/sr@latin/krfb/index.cache.bz2
@@ -82,12 +84,12 @@ KRfb is a RFB protocol server (VNC).
 * /usr/share/doc/HTML/sv/krfb/screenshot.png
 * /usr/share/doc/HTML/uk/krfb/index.cache.bz2
 * /usr/share/doc/HTML/uk/krfb/index.docbook
-* /usr/share/doc/krfb-24.08.1/AUTHORS
-* /usr/share/doc/krfb-24.08.1/COPYING
-* /usr/share/doc/krfb-24.08.1/COPYING.DOC
-* /usr/share/doc/krfb-24.08.1/COPYING.LIB
-* /usr/share/doc/krfb-24.08.1/README
-* /usr/share/doc/krfb-24.08.1/TODO
+* /usr/share/doc/krfb-24.08.2/AUTHORS
+* /usr/share/doc/krfb-24.08.2/COPYING
+* /usr/share/doc/krfb-24.08.2/COPYING.DOC
+* /usr/share/doc/krfb-24.08.2/COPYING.LIB
+* /usr/share/doc/krfb-24.08.2/README
+* /usr/share/doc/krfb-24.08.2/TODO
 * /usr/share/icons/hicolor/48x48/apps/krfb.png
 * /usr/share/icons/hicolor/scalable/apps/krfb.svgz
 * /usr/share/krfb/krfb.notifyrc

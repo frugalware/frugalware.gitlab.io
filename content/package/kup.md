@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kup 0.10.0-1"
-version = "0.10.0-1"
+title = "kup 0.10.0-2"
+version = "0.10.0-2"
 description = "Kup is a KDE-based frontend for the bup backup software"
-date = "2024-07-24T13:57:23"
+date = "2024-10-16T08:57:12"
 aliases = "/packages/218506"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "384016"
-usize = "2025025"
-sha1sum = "089adfe4f040ebbb429f7b943ef68efc24908619"
-depends = "['kcmutils>=6.4.0', 'kidletime>=6.4.0', 'libgit2>=1.8.0', 'libplasma>=6.1.3', 'openssl>=3.1.0', 'pcre2', 'plasma5support>=6.1.3']"
+size = "383392"
+usize = "2032353"
+sha1sum = "6bc6d38b3523f504caac26678d9608def4950218"
+depends = "['kcmutils>=6.7.0', 'kidletime>=6.7.0', 'libgit2>=1.8.0', 'libplasma>=6.2.0', 'openssl>=3.1.0', 'pcre2', 'plasma5support>=6.2.0']"
 +++
 ### Description: 
 Kup is a KDE-based frontend for the bup backup software

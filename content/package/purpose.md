@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "purpose 6.6.0-2"
-version = "6.6.0-2"
+title = "purpose 6.7.0-1"
+version = "6.7.0-1"
 description = "Offers the possibility to create integrate services and actions on any application."
-date = "2024-09-28T19:47:36"
+date = "2024-10-14T17:51:35"
 aliases = "/packages/219557"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "304984"
-usize = "1568846"
-sha1sum = "97bd1ee1ed30799dcd482920bbdd1186cd43dafe"
-depends = "['accounts-qml-module', 'kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'kdeclarative>=6.6.0', 'ki18n>=6.6.0', 'kio>=6.6.0', 'kirigami>=6.6.0']"
+size = "307060"
+usize = "1579209"
+sha1sum = "c8e3eb2bce66658ab5467831ac528394ebeb1628"
+depends = "['accounts-qml-module', 'kconfig>=6.7.0', 'kcoreaddons>=6.7.0', 'kdeclarative>=6.7.0', 'ki18n>=6.7.0', 'kio>=6.7.0', 'kirigami>=6.7.0']"
 reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'gwenview', 'kdenlive', 'kdeplasma-addons', 'labplot', 'neochat', 'okular', 'pimcommon', 'plasma-browser-integration', 'plasmatube', 'skanpage', 'spectacle', 'tokodon']"
 +++
 ### Description: 
@@ -37,10 +37,10 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/cmake/KF6Purpose/KF6PurposeTargets.cmake
 * /usr/lib/libKF6Purpose.so
 * /usr/lib/libKF6Purpose.so.6
-* /usr/lib/libKF6Purpose.so.6.6.0
+* /usr/lib/libKF6Purpose.so.6.7.0
 * /usr/lib/libKF6PurposeWidgets.so
 * /usr/lib/libKF6PurposeWidgets.so.6
-* /usr/lib/libKF6PurposeWidgets.so.6.6.0
+* /usr/lib/libKF6PurposeWidgets.so.6.7.0
 * /usr/lib/purpose/kf6/purposeprocess
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/sharefileitemaction.so
 * /usr/lib/qt6/plugins/kf6/purpose/barcodeplugin.so
@@ -65,7 +65,7 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/qt6/qml/org/kde/purpose/qmldir
 * /usr/lib/qt6/qml/org/kde/purpose/reviewboard/librbpurposequickplugin.so
 * /usr/lib/qt6/qml/org/kde/purpose/reviewboard/qmldir
-* /usr/share/doc/purpose-6.6.0/README.md
+* /usr/share/doc/purpose-6.7.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/phabricator-purpose6.png
 * /usr/share/icons/hicolor/128x128/apps/reviewboard-purpose6.png
 * /usr/share/icons/hicolor/16x16/apps/phabricator-purpose6.png

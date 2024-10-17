@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konversation 24.08.1-2"
-version = "24.08.1-2"
+title = "konversation 24.08.2-1"
+version = "24.08.2-1"
 description = "IRC clinet for KDE5"
-date = "2024-09-30T08:46:38"
+date = "2024-10-15T15:58:35"
 aliases = "/packages/218844"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4823804"
-usize = "16559075"
-sha1sum = "ea34d88544c777048c484d61ee16264229610217"
-depends = "['kidletime>=6.6.0', 'knewstuff>=6.6.0', 'knotifyconfig>=6.6.0', 'kparts>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.7.3']"
+size = "4871292"
+usize = "16737421"
+sha1sum = "ee34057220e6ff31cbbe8b9af132b1e4d6e9228f"
+depends = "['kidletime>=6.7.0', 'knewstuff>=6.7.0', 'knotifyconfig>=6.7.0', 'kparts>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.8.0']"
 +++
 ### Description: 
 IRC clinet for KDE5
@@ -101,6 +101,8 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/it/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/nl/konversation/index.cache.bz2
 * /usr/share/doc/HTML/nl/konversation/index.docbook
+* /usr/share/doc/HTML/sl/konversation/index.cache.bz2
+* /usr/share/doc/HTML/sl/konversation/index.docbook
 * /usr/share/doc/HTML/sv/konversation/addchannel.png
 * /usr/share/doc/HTML/sv/konversation/addnetwork_co.png
 * /usr/share/doc/HTML/sv/konversation/addserver_co.png
@@ -133,11 +135,11 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/uk/konversation/index.cache.bz2
 * /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-24.08.1/AUTHORS
-* /usr/share/doc/konversation-24.08.1/ChangeLog
-* /usr/share/doc/konversation-24.08.1/INSTALL
-* /usr/share/doc/konversation-24.08.1/NEWS
-* /usr/share/doc/konversation-24.08.1/README
+* /usr/share/doc/konversation-24.08.2/AUTHORS
+* /usr/share/doc/konversation-24.08.2/ChangeLog
+* /usr/share/doc/konversation-24.08.2/INSTALL
+* /usr/share/doc/konversation-24.08.2/NEWS
+* /usr/share/doc/konversation-24.08.2/README
 * /usr/share/icons/hicolor/128x128/actions/konv_message.png
 * /usr/share/icons/hicolor/128x128/apps/konversation.png
 * /usr/share/icons/hicolor/16x16/actions/konv_message.png

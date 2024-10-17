@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lokalize 24.08.1-2"
-version = "24.08.1-2"
+title = "lokalize 24.08.2-1"
+version = "24.08.2-1"
 description = "Computer-Aided Translation System."
-date = "2024-09-29T22:04:35"
+date = "2024-10-15T15:07:29"
 aliases = "/packages/118455"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2289844"
-usize = "7861583"
-sha1sum = "ff61d301c0872274dd05754a65b5f7d0ab169c69"
-depends = "['hunspell>=1.7.0', 'kio>=6.6.0']"
+size = "2308452"
+usize = "7921535"
+sha1sum = "bc39c481a6716ba28f2d3fe64dd8c980847bb8f4"
+depends = "['hunspell>=1.7.0', 'kio>=6.7.0']"
 +++
 ### Description: 
 Computer-Aided Translation System.
@@ -50,6 +50,8 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/it/lokalize/tmview.png
 * /usr/share/doc/HTML/nl/lokalize/index.cache.bz2
 * /usr/share/doc/HTML/nl/lokalize/index.docbook
+* /usr/share/doc/HTML/sl/lokalize/index.cache.bz2
+* /usr/share/doc/HTML/sl/lokalize/index.docbook
 * /usr/share/doc/HTML/sr/lokalize/glossary.png
 * /usr/share/doc/HTML/sr/lokalize/index.cache.bz2
 * /usr/share/doc/HTML/sr/lokalize/index.docbook
@@ -68,8 +70,8 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/uk/lokalize/project_overview.png
 * /usr/share/doc/HTML/uk/lokalize/sync.png
 * /usr/share/doc/HTML/uk/lokalize/tmview.png
-* /usr/share/doc/lokalize-24.08.1/README.md
-* /usr/share/doc/lokalize-24.08.1/TODO
+* /usr/share/doc/lokalize-24.08.2/README.md
+* /usr/share/doc/lokalize-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/lokalize.png
 * /usr/share/icons/hicolor/32x32/apps/lokalize.png
 * /usr/share/icons/hicolor/64x64/apps/lokalize.png

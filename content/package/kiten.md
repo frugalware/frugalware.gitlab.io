@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiten 24.08.1-3"
-version = "24.08.1-3"
+title = "kiten 24.08.2-1"
+version = "24.08.2-1"
 description = "Japanese Reference/Study Tool."
-date = "2024-09-29T10:32:44"
+date = "2024-10-15T12:34:52"
 aliases = "/packages/152831"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11549132"
-usize = "33075813"
-sha1sum = "8b28a6053241d08b32e87fe4ff3c1c092269517c"
-depends = "['kio>=6.6.0']"
+size = "11558168"
+usize = "33100004"
+sha1sum = "a508d194ddd0a01d7fe540ddc36eb49657f79241"
+depends = "['kio>=6.7.0']"
 +++
 ### Description: 
 Japanese Reference/Study Tool.
@@ -75,6 +75,8 @@ Japanese Reference/Study Tool.
 * /usr/share/doc/HTML/pt_BR/kiten/index.docbook
 * /usr/share/doc/HTML/ru/kiten/index.cache.bz2
 * /usr/share/doc/HTML/ru/kiten/index.docbook
+* /usr/share/doc/HTML/sl/kiten/index.cache.bz2
+* /usr/share/doc/HTML/sl/kiten/index.docbook
 * /usr/share/doc/HTML/sv/kiten/index.cache.bz2
 * /usr/share/doc/HTML/sv/kiten/index.docbook
 * /usr/share/doc/HTML/sv/kiten/kiten1.png
@@ -95,10 +97,10 @@ Japanese Reference/Study Tool.
 * /usr/share/doc/HTML/uk/kiten/verb_deinflection.png
 * /usr/share/doc/HTML/uk/kiten/with_filtering.png
 * /usr/share/doc/HTML/uk/kiten/word_type_results.png
-* /usr/share/doc/kiten-24.08.1/AUTHORS
-* /usr/share/doc/kiten-24.08.1/COPYING.DOC
-* /usr/share/doc/kiten-24.08.1/README.md
-* /usr/share/doc/kiten-24.08.1/TODO
+* /usr/share/doc/kiten-24.08.2/AUTHORS
+* /usr/share/doc/kiten-24.08.2/COPYING.DOC
+* /usr/share/doc/kiten-24.08.2/README.md
+* /usr/share/doc/kiten-24.08.2/TODO
 * /usr/share/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf
 * /usr/share/icons/hicolor/128x128/apps/kiten.png
 * /usr/share/icons/hicolor/16x16/apps/kiten.png

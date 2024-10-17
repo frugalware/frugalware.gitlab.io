@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmag 24.08.1-2"
-version = "24.08.1-2"
+title = "kmag 24.08.2-1"
+version = "24.08.2-1"
 description = "Screen Magnifier"
-date = "2024-09-30T07:57:53"
+date = "2024-10-15T15:30:52"
 aliases = "/packages/153195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "754624"
-usize = "1577908"
-sha1sum = "a70fa10c25fc4eb40213451b7aa5a6eaa320564b"
-depends = "['kio>=6.6.0', 'libqaccessibilityclient']"
+size = "764492"
+usize = "1602236"
+sha1sum = "29d847478d85a8383f6b2a00c80e27749d8a4e59"
+depends = "['kio>=6.7.0', 'libqaccessibilityclient']"
 +++
 ### Description: 
 Screen Magnifier
@@ -48,14 +48,16 @@ Screen Magnifier
 * /usr/share/doc/HTML/pt_BR/kmag/screenshot.png
 * /usr/share/doc/HTML/ru/kmag/index.cache.bz2
 * /usr/share/doc/HTML/ru/kmag/index.docbook
+* /usr/share/doc/HTML/sl/kmag/index.cache.bz2
+* /usr/share/doc/HTML/sl/kmag/index.docbook
 * /usr/share/doc/HTML/sv/kmag/index.cache.bz2
 * /usr/share/doc/HTML/sv/kmag/index.docbook
 * /usr/share/doc/HTML/sv/kmag/screenshot.png
 * /usr/share/doc/HTML/uk/kmag/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmag/index.docbook
 * /usr/share/doc/HTML/uk/kmag/screenshot.png
-* /usr/share/doc/kmag-24.08.1/ChangeLog
-* /usr/share/doc/kmag-24.08.1/README.md
+* /usr/share/doc/kmag-24.08.2/ChangeLog
+* /usr/share/doc/kmag-24.08.2/README.md
 * /usr/share/icons/hicolor/16x16/apps/kmag.png
 * /usr/share/icons/hicolor/32x32/apps/kmag.png
 * /usr/share/icons/hicolor/scalable/apps/kmag.svg
@@ -146,6 +148,7 @@ Screen Magnifier
 * /usr/share/man/pt/man1/kmag.1.gz
 * /usr/share/man/pt_BR/man1/kmag.1.gz
 * /usr/share/man/ru/man1/kmag.1.gz
+* /usr/share/man/sl/man1/kmag.1.gz
 * /usr/share/man/sv/man1/kmag.1.gz
 * /usr/share/man/uk/man1/kmag.1.gz
 * /usr/share/metainfo/org.kde.kmag.metainfo.xml

@@ -12,7 +12,7 @@ size = "17522784"
 usize = "31822879"
 sha1sum = "43ab6b244b67a7f6fce9a26e9af99c2b893cc869"
 depends = "['spirv-tools']"
-reverse_depends = "['shaderc', 'vkbasalt']"
+reverse_depends = "['ogre', 'shaderc', 'vkbasalt']"
 +++
 ### Description: 
 An OpenGL and OpenGL ES shader front end and validator

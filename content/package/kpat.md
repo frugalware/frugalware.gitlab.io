@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpat 24.08.1-2"
-version = "24.08.1-2"
+title = "kpat 24.08.2-1"
+version = "24.08.2-1"
 description = "Offers a selection of solitaire card games."
-date = "2024-09-30T08:26:05"
+date = "2024-10-15T15:46:19"
 aliases = "/packages/184195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3893732"
-usize = "5707461"
-sha1sum = "74439a4d666ff494443518c3d3a6786ec02b689b"
-depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.6.0', 'libkdegames>=24.08.1']"
+size = "3918440"
+usize = "5777971"
+sha1sum = "b67d862318eb46a91825f18be75c04b938810cff"
+depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.7.0', 'libkdegames>=24.08.2']"
 +++
 ### Description: 
 Offers a selection of solitaire card games.
@@ -57,12 +57,14 @@ Offers a selection of solitaire card games.
 * /usr/share/doc/HTML/pt_BR/kpat/index.docbook
 * /usr/share/doc/HTML/ru/kpat/index.cache.bz2
 * /usr/share/doc/HTML/ru/kpat/index.docbook
+* /usr/share/doc/HTML/sl/kpat/index.cache.bz2
+* /usr/share/doc/HTML/sl/kpat/index.docbook
 * /usr/share/doc/HTML/sv/kpat/index.cache.bz2
 * /usr/share/doc/HTML/sv/kpat/index.docbook
 * /usr/share/doc/HTML/uk/kpat/index.cache.bz2
 * /usr/share/doc/HTML/uk/kpat/index.docbook
-* /usr/share/doc/kpat-24.08.1/COPYING
-* /usr/share/doc/kpat-24.08.1/COPYING.DOC
+* /usr/share/doc/kpat-24.08.2/COPYING
+* /usr/share/doc/kpat-24.08.2/COPYING.DOC
 * /usr/share/icons/hicolor/128x128/apps/kpat.png
 * /usr/share/icons/hicolor/16x16/apps/kpat.png
 * /usr/share/icons/hicolor/22x22/apps/kpat.png
@@ -188,6 +190,7 @@ Offers a selection of solitaire card games.
 * /usr/share/man/pt/man6/kpat.6.gz
 * /usr/share/man/pt_BR/man6/kpat.6.gz
 * /usr/share/man/ru/man6/kpat.6.gz
+* /usr/share/man/sl/man6/kpat.6.gz
 * /usr/share/man/sv/man6/kpat.6.gz
 * /usr/share/man/uk/man6/kpat.6.gz
 * /usr/share/metainfo/org.kde.kpat.appdata.xml

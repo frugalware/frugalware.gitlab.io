@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmousetool 24.08.1-2"
-version = "24.08.1-2"
+title = "kmousetool 24.08.2-1"
+version = "24.08.2-1"
 description = "KMouseTool is a program that clicks the mouse for you."
-date = "2024-09-30T08:01:16"
+date = "2024-10-15T15:31:33"
 aliases = "/packages/219336"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "210064"
-usize = "599596"
-sha1sum = "ed26f3cb87fa01863e9563a6937fb2fb768592ae"
-depends = "['kdbusaddons>=6.6.0', 'ki18n>=6.6.0', 'kiconthemes>=6.6.0', 'knotifications>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kxmlgui>=6.6.0', 'libxt']"
+size = "220740"
+usize = "619899"
+sha1sum = "91479d3767a25b5265abc4e8867ade1fad7715ea"
+depends = "['kdbusaddons>=6.7.0', 'ki18n>=6.7.0', 'kiconthemes>=6.7.0', 'knotifications>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'kxmlgui>=6.7.0', 'libxt']"
 +++
 ### Description: 
 KMouseTool is a program that clicks the mouse for you.
@@ -39,14 +39,16 @@ KMouseTool is a program that clicks the mouse for you.
 * /usr/share/doc/HTML/pt_BR/kmousetool/index.docbook
 * /usr/share/doc/HTML/ru/kmousetool/index.cache.bz2
 * /usr/share/doc/HTML/ru/kmousetool/index.docbook
+* /usr/share/doc/HTML/sl/kmousetool/index.cache.bz2
+* /usr/share/doc/HTML/sl/kmousetool/index.docbook
 * /usr/share/doc/HTML/sv/kmousetool/index.cache.bz2
 * /usr/share/doc/HTML/sv/kmousetool/index.docbook
 * /usr/share/doc/HTML/uk/kmousetool/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmousetool/index.docbook
-* /usr/share/doc/kmousetool-24.08.1/AUTHORS
-* /usr/share/doc/kmousetool-24.08.1/ChangeLog
-* /usr/share/doc/kmousetool-24.08.1/README
-* /usr/share/doc/kmousetool-24.08.1/TODO
+* /usr/share/doc/kmousetool-24.08.2/AUTHORS
+* /usr/share/doc/kmousetool-24.08.2/ChangeLog
+* /usr/share/doc/kmousetool-24.08.2/README
+* /usr/share/doc/kmousetool-24.08.2/TODO
 * /usr/share/icons/hicolor/16x16/actions/kmousetool_off.png
 * /usr/share/icons/hicolor/16x16/actions/kmousetool_on.png
 * /usr/share/icons/hicolor/16x16/apps/kmousetool.png
@@ -137,6 +139,7 @@ KMouseTool is a program that clicks the mouse for you.
 * /usr/share/man/nl/man1/kmousetool.1.gz
 * /usr/share/man/pt/man1/kmousetool.1.gz
 * /usr/share/man/pt_BR/man1/kmousetool.1.gz
+* /usr/share/man/sl/man1/kmousetool.1.gz
 * /usr/share/man/sv/man1/kmousetool.1.gz
 * /usr/share/man/uk/man1/kmousetool.1.gz
 * /usr/share/metainfo/org.kde.kmousetool.appdata.xml

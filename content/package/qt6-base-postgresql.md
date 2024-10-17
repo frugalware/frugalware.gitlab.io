@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-base-postgresql 6.7.3-1"
-version = "6.7.3-1"
+title = "qt6-base-postgresql 6.8.0-1"
+version = "6.8.0-1"
 description = "Postgresql support for qt6"
-date = "2024-09-28T11:17:42"
+date = "2024-10-14T12:08:13"
 aliases = "/packages/220753"
 categories = ['xlib-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "34952"
-usize = "105131"
-sha1sum = "3ad9bf7e1009d2036d8e2b7459f99a0f430f2deb"
-depends = "['libpq>=11.2-2', 'qt6-base>=6.7.3', 'qt6-base-sql-common']"
+size = "36064"
+usize = "108256"
+sha1sum = "5b99457d8134819ad1af5c2b9b377d7420cac113"
+depends = "['libpq>=11.2-2', 'qt6-base>=6.8.0', 'qt6-base-sql-common']"
 +++
 ### Description: 
 Postgresql support for qt6

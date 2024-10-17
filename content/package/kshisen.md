@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kshisen 24.08.1-2"
-version = "24.08.1-2"
+title = "kshisen 24.08.2-1"
+version = "24.08.2-1"
 description = "A solitaire-like game played using the standard set of Mahjong tiles."
-date = "2024-09-29T13:15:08"
+date = "2024-10-15T13:34:51"
 aliases = "/packages/184197"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1055392"
-usize = "2012888"
-sha1sum = "fd417118b28026c35358662011d5e1ea3ffc5aed"
-depends = "['libkdegames>=24.08.1', 'libkmahjongg>=24.08.1']"
+size = "1066652"
+usize = "2047558"
+sha1sum = "299db7619a48aa3975d001899b72e2eb3953b815"
+depends = "['libkdegames>=24.08.2', 'libkmahjongg>=24.08.2']"
 +++
 ### Description: 
 A solitaire-like game played using the standard set of Mahjong tiles.
@@ -57,6 +57,8 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/doc/HTML/pt_BR/kshisen/index.docbook
 * /usr/share/doc/HTML/ru/kshisen/index.cache.bz2
 * /usr/share/doc/HTML/ru/kshisen/index.docbook
+* /usr/share/doc/HTML/sl/kshisen/index.cache.bz2
+* /usr/share/doc/HTML/sl/kshisen/index.docbook
 * /usr/share/doc/HTML/sv/kshisen/index.cache.bz2
 * /usr/share/doc/HTML/sv/kshisen/index.docbook
 * /usr/share/doc/HTML/sv/kshisen/kshisen-configuration.png
@@ -64,8 +66,8 @@ A solitaire-like game played using the standard set of Mahjong tiles.
 * /usr/share/doc/HTML/uk/kshisen/index.cache.bz2
 * /usr/share/doc/HTML/uk/kshisen/index.docbook
 * /usr/share/doc/HTML/uk/kshisen/kshisen-configuration.png
-* /usr/share/doc/kshisen-24.08.1/ChangeLog
-* /usr/share/doc/kshisen-24.08.1/TODO
+* /usr/share/doc/kshisen-24.08.2/ChangeLog
+* /usr/share/doc/kshisen-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kshisen.png
 * /usr/share/icons/hicolor/16x16/apps/kshisen.png
 * /usr/share/icons/hicolor/22x22/apps/kshisen.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiriki 24.08.1-2"
-version = "24.08.1-2"
+title = "kiriki 24.08.2-1"
+version = "24.08.2-1"
 description = "An addictive and fun dice game."
-date = "2024-09-29T12:49:38"
+date = "2024-10-15T13:27:51"
 aliases = "/packages/184184"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "475560"
-usize = "997256"
-sha1sum = "361ae6339b37676860bb58afb35a37df0c44ed3d"
-depends = "['libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "487440"
+usize = "1027327"
+sha1sum = "808603eb1fc42219fbf10d0cb00b7b1f58cf7860"
+depends = "['libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 An addictive and fun dice game.
@@ -45,14 +45,16 @@ An addictive and fun dice game.
 * /usr/share/doc/HTML/pt/kiriki/index.docbook
 * /usr/share/doc/HTML/pt_BR/kiriki/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kiriki/index.docbook
+* /usr/share/doc/HTML/sl/kiriki/index.cache.bz2
+* /usr/share/doc/HTML/sl/kiriki/index.docbook
 * /usr/share/doc/HTML/sv/kiriki/index.cache.bz2
 * /usr/share/doc/HTML/sv/kiriki/index.docbook
 * /usr/share/doc/HTML/uk/kiriki/configuration.png
 * /usr/share/doc/HTML/uk/kiriki/gameboard.png
 * /usr/share/doc/HTML/uk/kiriki/index.cache.bz2
 * /usr/share/doc/HTML/uk/kiriki/index.docbook
-* /usr/share/doc/kiriki-24.08.1/COPYING
-* /usr/share/doc/kiriki-24.08.1/COPYING.DOC
+* /usr/share/doc/kiriki-24.08.2/COPYING
+* /usr/share/doc/kiriki-24.08.2/COPYING.DOC
 * /usr/share/icons/hicolor/128x128/apps/kiriki.png
 * /usr/share/icons/hicolor/16x16/apps/kiriki.png
 * /usr/share/icons/hicolor/22x22/apps/kiriki.png

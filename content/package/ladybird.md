@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ladybird 20240328-4"
-version = "20240328-4"
+title = "ladybird 20240328-5"
+version = "20240328-5"
 description = "Web browser built from scratch using the SerenityOS LibWeb engine"
-date = "2024-06-21T11:27:43"
+date = "2024-10-16T10:36:38"
 aliases = "/packages/220941"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/SerenityOS/serenity"
 arch = "x86_64"
-size = "33744816"
-usize = "169713536"
-sha1sum = "06c99caba12d6fb4a769457485efd8e9408c31e6"
+size = "34359340"
+usize = "171596600"
+sha1sum = "0cd68471539ebf01776ec816527c77cb1b14628e"
 depends = "['brotli', 'libgl', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
 +++
 ### Description: 
@@ -529,6 +529,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F38B.png
 * /usr/share/Lagom/emoji/U+1F38C.png
 * /usr/share/Lagom/emoji/U+1F38D.png
+* /usr/share/Lagom/emoji/U+1F38E.png
 * /usr/share/Lagom/emoji/U+1F38F.png
 * /usr/share/Lagom/emoji/U+1F390.png
 * /usr/share/Lagom/emoji/U+1F391.png
@@ -617,12 +618,16 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F3E0.png
 * /usr/share/Lagom/emoji/U+1F3E1.png
 * /usr/share/Lagom/emoji/U+1F3E2.png
+* /usr/share/Lagom/emoji/U+1F3E3.png
 * /usr/share/Lagom/emoji/U+1F3E4.png
 * /usr/share/Lagom/emoji/U+1F3E5.png
 * /usr/share/Lagom/emoji/U+1F3E6.png
 * /usr/share/Lagom/emoji/U+1F3E7.png
+* /usr/share/Lagom/emoji/U+1F3E8.png
+* /usr/share/Lagom/emoji/U+1F3E9.png
 * /usr/share/Lagom/emoji/U+1F3EA.png
 * /usr/share/Lagom/emoji/U+1F3EB.png
+* /usr/share/Lagom/emoji/U+1F3EC.png
 * /usr/share/Lagom/emoji/U+1F3ED.png
 * /usr/share/Lagom/emoji/U+1F3EE.png
 * /usr/share/Lagom/emoji/U+1F3EF.png
@@ -1366,6 +1371,10 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F686.png
 * /usr/share/Lagom/emoji/U+1F687.png
 * /usr/share/Lagom/emoji/U+1F689.png
+* /usr/share/Lagom/emoji/U+1F68A.png
+* /usr/share/Lagom/emoji/U+1F68B.png
+* /usr/share/Lagom/emoji/U+1F68C.png
+* /usr/share/Lagom/emoji/U+1F68D.png
 * /usr/share/Lagom/emoji/U+1F68E.png
 * /usr/share/Lagom/emoji/U+1F68F.png
 * /usr/share/Lagom/emoji/U+1F690.png
@@ -1382,6 +1391,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F69B.png
 * /usr/share/Lagom/emoji/U+1F69C.png
 * /usr/share/Lagom/emoji/U+1F69D.png
+* /usr/share/Lagom/emoji/U+1F69F.png
 * /usr/share/Lagom/emoji/U+1F6A0.png
 * /usr/share/Lagom/emoji/U+1F6A1.png
 * /usr/share/Lagom/emoji/U+1F6A2.png
@@ -1461,6 +1471,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F6F9.png
 * /usr/share/Lagom/emoji/U+1F6FA.png
 * /usr/share/Lagom/emoji/U+1F6FB.png
+* /usr/share/Lagom/emoji/U+1F6FC.png
 * /usr/share/Lagom/emoji/U+1F7E0.png
 * /usr/share/Lagom/emoji/U+1F7E1.png
 * /usr/share/Lagom/emoji/U+1F7E2.png
@@ -1602,6 +1613,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F98A.png
 * /usr/share/Lagom/emoji/U+1F98B.png
 * /usr/share/Lagom/emoji/U+1F98C.png
+* /usr/share/Lagom/emoji/U+1F98D.png
 * /usr/share/Lagom/emoji/U+1F98E.png
 * /usr/share/Lagom/emoji/U+1F990.png
 * /usr/share/Lagom/emoji/U+1F991.png
@@ -1617,6 +1629,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F99C.png
 * /usr/share/Lagom/emoji/U+1F99D.png
 * /usr/share/Lagom/emoji/U+1F99E.png
+* /usr/share/Lagom/emoji/U+1F99F.png
 * /usr/share/Lagom/emoji/U+1F9A0.png
 * /usr/share/Lagom/emoji/U+1F9A1.png
 * /usr/share/Lagom/emoji/U+1F9A2.png
@@ -1710,6 +1723,9 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F9D7.png
 * /usr/share/Lagom/emoji/U+1F9D7_U+200D_U+2640.png
 * /usr/share/Lagom/emoji/U+1F9D7_U+200D_U+2642.png
+* /usr/share/Lagom/emoji/U+1F9D9.png
+* /usr/share/Lagom/emoji/U+1F9D9_U+200D_U+2640.png
+* /usr/share/Lagom/emoji/U+1F9D9_U+200D_U+2642.png
 * /usr/share/Lagom/emoji/U+1F9DC_U+200D_U+2640.png
 * /usr/share/Lagom/emoji/U+1F9DD_U+200D_U+2642.png
 * /usr/share/Lagom/emoji/U+1F9DE.png
@@ -1745,6 +1761,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F9FD.png
 * /usr/share/Lagom/emoji/U+1F9FE.png
 * /usr/share/Lagom/emoji/U+1F9FF.png
+* /usr/share/Lagom/emoji/U+1FA70.png
 * /usr/share/Lagom/emoji/U+1FA71.png
 * /usr/share/Lagom/emoji/U+1FA72.png
 * /usr/share/Lagom/emoji/U+1FA73.png
@@ -1795,6 +1812,7 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1FAA9.png
 * /usr/share/Lagom/emoji/U+1FAAA.png
 * /usr/share/Lagom/emoji/U+1FAAB.png
+* /usr/share/Lagom/emoji/U+1FAAC.png
 * /usr/share/Lagom/emoji/U+1FAAD.png
 * /usr/share/Lagom/emoji/U+1FAAE.png
 * /usr/share/Lagom/emoji/U+1FAAF.png

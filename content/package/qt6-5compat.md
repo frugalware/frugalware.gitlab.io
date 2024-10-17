@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-5compat 6.7.3-1"
-version = "6.7.3-1"
+title = "qt6-5compat 6.8.0-1"
+version = "6.8.0-1"
 description = "The Qt6 toolkit, qt5compat"
-date = "2024-09-28T12:11:22"
+date = "2024-10-14T12:57:44"
 aliases = "/packages/220762"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "427896"
-usize = "1718269"
-sha1sum = "8464f474fd4acf03ed28ba5b4f5944e44644b0af"
+size = "431124"
+usize = "1733604"
+sha1sum = "0fd2d2469c1172bed9ec3d31f06cc4e5e16513f6"
 depends = "['icu4c>=75.1', 'qt6-declarative']"
 reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mlt-qt6', 'opencv', 'phonon-qt6', 'qbs', 'qca', 'qmlkonsole', 'qtcreator', 'quazip-qt6', 'seafile-client', 'socnetv', 'telegram-desktop', 'texmaker', 'texstudio', 'wireshark-qt']"
 +++
@@ -18,23 +18,22 @@ reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mlt-q
 The Qt6 toolkit, qt5compat
 
 ### Files: 
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qbinaryjsonarray_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qbinaryjsonobject_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qbinaryjsonvalue_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qbinaryjson_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qcodecmacros_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qicucodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qisciicodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qlatincodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qsimplecodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qtcore5compat-config_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qtextcodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qtsciicodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qutfcodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.7.3/QtCore5Compat/private/qxml_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qbinaryjsonarray_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qbinaryjsonobject_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qbinaryjsonvalue_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qbinaryjson_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qcodecmacros_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qicucodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qisciicodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qlatincodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qsimplecodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qtcore5compat-config_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qtextcodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qtsciicodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qutfcodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.0/QtCore5Compat/private/qxml_p.h
 * /usr/include/qt6/QtCore5Compat/QBinaryJson
 * /usr/include/qt6/QtCore5Compat/qbinaryjson.h
-* /usr/include/qt6/QtCore5Compat/QConcatenable
 * /usr/include/qt6/QtCore5Compat/qcore5global.h
 * /usr/include/qt6/QtCore5Compat/QLinkedList
 * /usr/include/qt6/QtCore5Compat/qlinkedlist.h
@@ -79,6 +78,7 @@ The Qt6 toolkit, qt5compat
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatDependencies.cmake
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets-release.cmake
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatTargets.cmake
+* /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6Core5Compat/Qt6Core5CompatVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake
@@ -95,7 +95,7 @@ The Qt6 toolkit, qt5compat
 * /usr/lib/libQt6Core5Compat.prl
 * /usr/lib/libQt6Core5Compat.so
 * /usr/lib/libQt6Core5Compat.so.6
-* /usr/lib/libQt6Core5Compat.so.6.7.3
+* /usr/lib/libQt6Core5Compat.so.6.8.0
 * /usr/lib/pkgconfig/Qt6Core5Compat.pc
 * /usr/lib/qt6/metatypes/qt6core5compat_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_core5compat.pri

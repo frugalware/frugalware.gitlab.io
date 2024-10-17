@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kuserfeedback 6.6.0-2"
-version = "6.6.0-2"
+title = "kuserfeedback 6.7.0-1"
+version = "6.7.0-1"
 description = "Framework for collecting user feedback for applications via telemetry and surveys"
-date = "2024-09-28T20:03:15"
+date = "2024-10-14T17:58:06"
 aliases = "/packages/220607"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "294340"
-usize = "1934614"
-sha1sum = "6ec1067983e8eea19c9e9d2c9a1b49c674d985cf"
+size = "296312"
+usize = "1947657"
+sha1sum = "64bc708213c7370a637b51a54e540207d1573b01"
 depends = "['qt6-charts>=_F_kdever_qt6', 'qt6-declarative>=', 'qt6-svg>=_F_kdever_qt6']"
 reverse_depends = "['discover', 'labplot', 'plasma-welcome', 'plasma-workspace']"
 +++
@@ -67,19 +67,19 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/lib/cmake/KF6UserFeedback/KF6UserFeedbackTarget.cmake
 * /usr/lib/libKF6UserFeedbackCore.so
 * /usr/lib/libKF6UserFeedbackCore.so.6
-* /usr/lib/libKF6UserFeedbackCore.so.6.6.0
+* /usr/lib/libKF6UserFeedbackCore.so.6.7.0
 * /usr/lib/libKF6UserFeedbackWidgets.so
 * /usr/lib/libKF6UserFeedbackWidgets.so.6
-* /usr/lib/libKF6UserFeedbackWidgets.so.6.6.0
+* /usr/lib/libKF6UserFeedbackWidgets.so.6.7.0
 * /usr/lib/qt6/mkspecs/modules/qt_KF6UserFeedbackCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_KF6UserFeedbackWidgets.pri
 * /usr/lib/qt6/qml/org/kde/userfeedback/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/userfeedback/KF6UserFeedbackQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/userfeedback/libKF6UserFeedbackQml.so
 * /usr/lib/qt6/qml/org/kde/userfeedback/qmldir
-* /usr/share/doc/kuserfeedback-6.6.0/COPYING.LIB
-* /usr/share/doc/kuserfeedback-6.6.0/INSTALL
-* /usr/share/doc/kuserfeedback-6.6.0/README.md
+* /usr/share/doc/kuserfeedback-6.7.0/COPYING.LIB
+* /usr/share/doc/kuserfeedback-6.7.0/INSTALL
+* /usr/share/doc/kuserfeedback-6.7.0/README.md
 * /usr/share/KDE/UserFeedbackConsole/user-feedback-manual.qch
 * /usr/share/locale/ar/LC_MESSAGES/userfeedbackconsole6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/userfeedbackprovider6_qt.qm

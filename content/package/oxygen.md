@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oxygen 6.1.5-2"
-version = "6.1.5-2"
+title = "oxygen 6.2.1-1"
+version = "6.2.1-1"
 description = "KDE Oxygen style."
-date = "2024-09-28T22:01:08"
+date = "2024-10-17T05:41:38"
 aliases = "/packages/218391"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2877588"
-usize = "18810022"
-sha1sum = "06e8e7059b66c197120702098e7969296c08a09e"
-depends = "['frameworkintegration>=6.6.0', 'kwin>=6.1.5']"
+size = "3142456"
+usize = "19092734"
+sha1sum = "3dd5b9ad7403b33c891316b72b578396c1d3b38f"
+depends = "['frameworkintegration>=6.7.0', 'kwin>=6.2.1']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
@@ -21,9 +21,9 @@ KDE Oxygen style.
 * /usr/bin/oxygen-demo6
 * /usr/bin/oxygen-settings6
 * /usr/lib/liboxygenstyle6.so.6
-* /usr/lib/liboxygenstyle6.so.6.1.5
+* /usr/lib/liboxygenstyle6.so.6.2.1
 * /usr/lib/liboxygenstyleconfig6.so.6
-* /usr/lib/liboxygenstyleconfig6.so.6.1.5
+* /usr/lib/liboxygenstyleconfig6.so.6.2.1
 * /usr/lib/qt6/plugins/kstyle_config/kstyle_oxygen_config.so
 * /usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/kcm_oxygendecoration.so
 * /usr/lib/qt6/plugins/org.kde.kdecoration2/org.kde.oxygen.so
@@ -799,6 +799,48 @@ KDE Oxygen style.
 * /usr/share/locale/zh_TW/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/metainfo/org.kde.oxygen.appdata.xml
+* /usr/share/plasma/desktoptheme/oxygen/colors
+* /usr/share/plasma/desktoptheme/oxygen/dialogs/background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/metadata.json
+* /usr/share/plasma/desktoptheme/oxygen/opaque/dialogs/background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/opaque/dialogs/krunner.svgz
+* /usr/share/plasma/desktoptheme/oxygen/opaque/widgets/extender-background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/opaque/widgets/panel-background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/opaque/widgets/tooltip.svgz
+* /usr/share/plasma/desktoptheme/oxygen/plasmarc
+* /usr/share/plasma/desktoptheme/oxygen/widgets/action-overlays.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/actionbutton.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/analog_meter.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/arrows.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/bar_meter_horizontal.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/bar_meter_vertical.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/branding.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/busywidget.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/button.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/clock.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/containment-controls.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/dragger.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/extender-background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/extender-dragger.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/frame.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/glowbar.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/line.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/lineedit.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/media-delegate.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/monitor.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/pager.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/panel-background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/plot-background.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/scrollbar.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/scrollwidget.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/slider.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/tabbar.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/tasks.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/timer.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/tooltip.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/translucentbackground.svgz
+* /usr/share/plasma/desktoptheme/oxygen/widgets/viewitem.svgz
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/defaults
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/preview.png
 * /usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/splash.png

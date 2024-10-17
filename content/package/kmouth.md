@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmouth 24.08.1-2"
-version = "24.08.1-2"
+title = "kmouth 24.08.2-1"
+version = "24.08.2-1"
 description = "Speech Synthesizer Frontend"
-date = "2024-09-30T08:04:32"
+date = "2024-10-15T15:32:17"
 aliases = "/packages/219526"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1793524"
-usize = "4014022"
-sha1sum = "de0b69f126bb7607742c8ffb38a687514636b37e"
-depends = "['kio>=6.6.0', 'pcre2', 'qt6-speech>=6.7.3']"
+size = "1806296"
+usize = "4054404"
+sha1sum = "7d9b79133b3e7f363a4d89aac5bc26887428fc36"
+depends = "['kio>=6.7.0', 'pcre2', 'qt6-speech>=6.8.0']"
 +++
 ### Description: 
 Speech Synthesizer Frontend
@@ -89,6 +89,8 @@ Speech Synthesizer Frontend
 * /usr/share/doc/HTML/pt_BR/kmouth/kmouthwizard3.png
 * /usr/share/doc/HTML/ru/kmouth/index.cache.bz2
 * /usr/share/doc/HTML/ru/kmouth/index.docbook
+* /usr/share/doc/HTML/sl/kmouth/index.cache.bz2
+* /usr/share/doc/HTML/sl/kmouth/index.docbook
 * /usr/share/doc/HTML/sv/kmouth/index.cache.bz2
 * /usr/share/doc/HTML/sv/kmouth/index.docbook
 * /usr/share/doc/HTML/sv/kmouth/kmouthcpref.png
@@ -99,9 +101,9 @@ Speech Synthesizer Frontend
 * /usr/share/doc/HTML/sv/kmouth/kmouthwizard.png
 * /usr/share/doc/HTML/uk/kmouth/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmouth/index.docbook
-* /usr/share/doc/kmouth-24.08.1/AUTHORS
-* /usr/share/doc/kmouth-24.08.1/COPYING
-* /usr/share/doc/kmouth-24.08.1/COPYING.DOC
+* /usr/share/doc/kmouth-24.08.2/AUTHORS
+* /usr/share/doc/kmouth-24.08.2/COPYING
+* /usr/share/doc/kmouth-24.08.2/COPYING.DOC
 * /usr/share/icons/hicolor/16x16/actions/phrase.png
 * /usr/share/icons/hicolor/16x16/actions/phrasebook.png
 * /usr/share/icons/hicolor/16x16/apps/kmouth.png
@@ -218,6 +220,7 @@ Speech Synthesizer Frontend
 * /usr/share/man/pt/man1/kmouth.1.gz
 * /usr/share/man/pt_BR/man1/kmouth.1.gz
 * /usr/share/man/ru/man1/kmouth.1.gz
+* /usr/share/man/sl/man1/kmouth.1.gz
 * /usr/share/man/sv/man1/kmouth.1.gz
 * /usr/share/man/uk/man1/kmouth.1.gz
 * /usr/share/metainfo/org.kde.kmouth.appdata.xml

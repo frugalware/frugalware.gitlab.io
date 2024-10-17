@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmlkonsole 24.08.1-2"
-version = "24.08.1-2"
+title = "qmlkonsole 24.08.2-1"
+version = "24.08.2-1"
 description = "Terminal app for Plasma Mobile"
-date = "2024-09-30T09:11:53"
+date = "2024-10-15T16:22:45"
 aliases = "/packages/220993"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "186296"
-usize = "656902"
-sha1sum = "2fee0dc7fc5d634b74dda52bc4269021e594afbf"
+size = "186424"
+usize = "657753"
+sha1sum = "468d6f474d8e07c8bd478b4fedba123b0f4aee93"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kpty', 'kwindowsystem', 'qmltermwidget', 'qt6-5compat', 'qt6-svg']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ Terminal app for Plasma Mobile
 * /usr/bin/qmlkonsole
 * /usr/share/applications/org.kde.qmlkonsole.desktop
 * /usr/share/config.kcfg/terminalsettings.kcfg
-* /usr/share/doc/qmlkonsole-24.08.1/README.md
+* /usr/share/doc/qmlkonsole-24.08.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.qmlkonsole.svg
 * /usr/share/locale/ast/LC_MESSAGES/qmlkonsole.mo
 * /usr/share/locale/ca/LC_MESSAGES/qmlkonsole.mo

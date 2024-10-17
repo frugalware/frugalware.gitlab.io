@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-sdk 6.1.5-2"
-version = "6.1.5-2"
+title = "plasma-sdk 6.2.1-1"
+version = "6.2.1-1"
 description = "Plasma SDK"
-date = "2024-09-28T22:02:20"
+date = "2024-10-17T05:42:44"
 aliases = "/packages/218401"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "463720"
-usize = "2323151"
-sha1sum = "a29f7734c0a8da5c631a7cdfbe069a12af3c308a"
-depends = "['ktexteditor>=6.6.0', 'libplasma>=6.1.5', 'plasma5support>=6.1.5']"
+size = "483608"
+usize = "2429043"
+sha1sum = "0c6f376192533760ef92f13363b32bb707a4dc11"
+depends = "['ktexteditor>=6.7.0', 'libplasma>=6.2.1', 'plasma5support>=6.2.1']"
 +++
 ### Description: 
 Plasma SDK
@@ -487,6 +487,8 @@ Plasma SDK
 * /usr/share/man/pt_BR/man1/plasmoidviewer.1.gz
 * /usr/share/man/ru/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/ru/man1/plasmoidviewer.1.gz
+* /usr/share/man/sl/man1/plasmaengineexplorer.1.gz
+* /usr/share/man/sl/man1/plasmoidviewer.1.gz
 * /usr/share/man/sv/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/sv/man1/plasmoidviewer.1.gz
 * /usr/share/man/tr/man1/plasmaengineexplorer.1.gz

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kldap 24.08.1-2"
-version = "24.08.1-2"
+title = "kldap 24.08.2-1"
+version = "24.08.2-1"
 description = "Desc: C++ API for LDAP access."
-date = "2024-09-29T09:40:22"
+date = "2024-10-15T12:47:05"
 aliases = "/packages/218330"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "226164"
-usize = "923251"
-sha1sum = "c9c827a6ade62ce4932b742ba487e99214120f99"
-depends = "['kcompletion>=6.6.0', 'ki18n>=6.6.0', 'kio>=6.6.0', 'kmbox>=24.08.1', 'libldap>=2.5.4', 'qtkeychain']"
+size = "227472"
+usize = "929998"
+sha1sum = "d1eea665acaba7fd68501290650b8a6cb964e648"
+depends = "['kcompletion>=6.7.0', 'ki18n>=6.7.0', 'kio>=6.7.0', 'kmbox>=24.08.2', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -80,10 +80,10 @@ Desc: C++ API for LDAP access.
 * /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
 * /usr/lib/libKPim6LdapCore.so
 * /usr/lib/libKPim6LdapCore.so.6
-* /usr/lib/libKPim6LdapCore.so.6.2.1
+* /usr/lib/libKPim6LdapCore.so.6.2.2
 * /usr/lib/libKPim6LdapWidgets.so
 * /usr/lib/libKPim6LdapWidgets.so.6
-* /usr/lib/libKPim6LdapWidgets.so.6.2.1
+* /usr/lib/libKPim6LdapWidgets.so.6.2.2
 * /usr/lib/qt6/plugins/kf6/kio/ldap.so
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
@@ -111,6 +111,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/doc/HTML/pt_BR/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/ru/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/ru/kioworker6/ldap/index.docbook
+* /usr/share/doc/HTML/sl/kioworker6/ldap/index.cache.bz2
+* /usr/share/doc/HTML/sl/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/sr/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/ldap/index.cache.bz2
@@ -121,8 +123,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
-* /usr/share/doc/kldap-24.08.1/README.md
-* /usr/share/doc/kldap-24.08.1/README.md.license
+* /usr/share/doc/kldap-24.08.2/README.md
+* /usr/share/doc/kldap-24.08.2/README.md.license
 * /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo

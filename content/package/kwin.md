@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwin 6.1.5-2"
-version = "6.1.5-2"
+title = "kwin 6.2.1.1-1"
+version = "6.2.1.1-1"
 description = "KDE Window Manager."
-date = "2024-09-28T20:44:38"
+date = "2024-10-17T01:48:31"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10175248"
-usize = "31691737"
-sha1sum = "d9ab16bd7cefb0971567f7ca265048ed147e7ac8"
-depends = "['breeze>=6.1.5', 'kauth>=6.6.0', 'kcmutils>=6.6.0', 'kconfig>=6.6.0', 'kconfigwidgets>=6.6.0', 'kcoreaddons>=6.6.0', 'kcrash>=6.6.0', 'kdbusaddons>=6.6.0', 'kdeclarative>=6.6.0', 'kglobalacceld>=6.1.5', 'kguiaddons>=6.6.0', 'ki18n>=6.6.0', 'kidletime>=6.6.0', 'knewstuff>=6.6.0', 'kpackage>=6.6.0', 'kscreenlocker>=6.1.5', 'kservice>=6.6.0', 'ksvg>=6.6.0', 'kwayland>=6.1.5', 'kwidgetsaddons>=6.6.0', 'kwindowsystem>=6.6.0', 'kxmlgui>=6.6.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.1.5', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.1.5', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.7.3', 'qt6-tools>=6.7.3', 'qt6-wayland>=6.7.3']"
+size = "10262908"
+usize = "32083828"
+sha1sum = "d61774cf9b6f5cc831b27837a1cbd295684e7ba1"
+depends = "['breeze>=6.2.1', 'kauth>=6.7.0', 'kcmutils>=6.7.0', 'kconfig>=6.7.0', 'kconfigwidgets>=6.7.0', 'kcoreaddons>=6.7.0', 'kcrash>=6.7.0', 'kdbusaddons>=6.7.0', 'kdeclarative>=6.7.0', 'kglobalacceld>=6.2.1', 'kguiaddons>=6.7.0', 'ki18n>=6.7.0', 'kidletime>=6.7.0', 'knewstuff>=6.7.0', 'kpackage>=6.7.0', 'kscreenlocker>=6.2.1', 'kservice>=6.7.0', 'ksvg>=6.7.0', 'kwayland>=6.2.1', 'kwidgetsaddons>=6.7.0', 'kwindowsystem>=6.7.0', 'kxmlgui>=6.7.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.2.1', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.2.1', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.8.0', 'qt6-tools>=6.8.0', 'qt6-wayland>=6.8.0']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 
@@ -27,8 +27,8 @@ KDE Window Manager.
 * /usr/include/kwin/client_machine.h
 * /usr/include/kwin/compositor.h
 * /usr/include/kwin/config-kwin.h
-* /usr/include/kwin/core/colorlut.h
 * /usr/include/kwin/core/colorlut3d.h
+* /usr/include/kwin/core/colorpipeline.h
 * /usr/include/kwin/core/colorpipelinestage.h
 * /usr/include/kwin/core/colorspace.h
 * /usr/include/kwin/core/colortransformation.h
@@ -134,8 +134,29 @@ KDE Window Manager.
 * /usr/include/kwin/pointer_input.h
 * /usr/include/kwin/rulebooksettings.h
 * /usr/include/kwin/rules.h
+* /usr/include/kwin/scene/cursordelegate_opengl.h
+* /usr/include/kwin/scene/cursordelegate_qpainter.h
+* /usr/include/kwin/scene/cursoritem.h
+* /usr/include/kwin/scene/cursorscene.h
+* /usr/include/kwin/scene/decorationitem.h
+* /usr/include/kwin/scene/dndiconitem.h
+* /usr/include/kwin/scene/imageitem.h
 * /usr/include/kwin/scene/item.h
 * /usr/include/kwin/scene/itemgeometry.h
+* /usr/include/kwin/scene/itemrenderer.h
+* /usr/include/kwin/scene/itemrenderer_opengl.h
+* /usr/include/kwin/scene/itemrenderer_qpainter.h
+* /usr/include/kwin/scene/rootitem.h
+* /usr/include/kwin/scene/scene.h
+* /usr/include/kwin/scene/shadowitem.h
+* /usr/include/kwin/scene/surfaceitem.h
+* /usr/include/kwin/scene/surfaceitem_internal.h
+* /usr/include/kwin/scene/surfaceitem_wayland.h
+* /usr/include/kwin/scene/surfaceitem_x11.h
+* /usr/include/kwin/scene/windowitem.h
+* /usr/include/kwin/scene/workspacescene.h
+* /usr/include/kwin/scene/workspacescene_opengl.h
+* /usr/include/kwin/scene/workspacescene_qpainter.h
 * /usr/include/kwin/screenedge.h
 * /usr/include/kwin/screenlockerwatcher.h
 * /usr/include/kwin/shadow.h
@@ -145,6 +166,7 @@ KDE Window Manager.
 * /usr/include/kwin/touch_input.h
 * /usr/include/kwin/useractions.h
 * /usr/include/kwin/utils/common.h
+* /usr/include/kwin/utils/cursortheme.h
 * /usr/include/kwin/utils/c_ptr.h
 * /usr/include/kwin/utils/damagejournal.h
 * /usr/include/kwin/utils/drm_format_helper.h
@@ -164,10 +186,10 @@ KDE Window Manager.
 * /usr/include/kwin/utils/version.h
 * /usr/include/kwin/utils/vsyncmonitor.h
 * /usr/include/kwin/utils/xcbutils.h
-* /usr/include/kwin/utils/xcursortheme.h
 * /usr/include/kwin/virtualdesktops.h
 * /usr/include/kwin/virtualdesktopsdbustypes.h
 * /usr/include/kwin/virtualkeyboard_dbus.h
+* /usr/include/kwin/wayland/alphamodifier_v1.h
 * /usr/include/kwin/wayland/appmenu.h
 * /usr/include/kwin/wayland/blur.h
 * /usr/include/kwin/wayland/clientconnection.h
@@ -186,6 +208,7 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/display.h
 * /usr/include/kwin/wayland/dpms.h
 * /usr/include/kwin/wayland/drmlease_v1.h
+* /usr/include/kwin/wayland/externalbrightness_v1.h
 * /usr/include/kwin/wayland/fractionalscale_v1.h
 * /usr/include/kwin/wayland/frog_colormanagement_v1.h
 * /usr/include/kwin/wayland/idle.h
@@ -214,11 +237,13 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/primaryselectionoffer_v1.h
 * /usr/include/kwin/wayland/primaryselectionsource_v1.h
 * /usr/include/kwin/wayland/quirks.h
+* /usr/include/kwin/wayland/qwayland-server-alpha-modifier-v1.h
 * /usr/include/kwin/wayland/qwayland-server-content-type-v1.h
 * /usr/include/kwin/wayland/qwayland-server-frog-color-management-v1.h
+* /usr/include/kwin/wayland/qwayland-server-kde-external-brightness-v1.h
 * /usr/include/kwin/wayland/qwayland-server-linux-drm-syncobj-v1.h
 * /usr/include/kwin/wayland/qwayland-server-presentation-time.h
-* /usr/include/kwin/wayland/qwayland-server-xx-color-management-v2.h
+* /usr/include/kwin/wayland/qwayland-server-xx-color-management-v4.h
 * /usr/include/kwin/wayland/relativepointer_v1.h
 * /usr/include/kwin/wayland/screencast_v1.h
 * /usr/include/kwin/wayland/screenedge_v1.h
@@ -237,11 +262,13 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/textinput_v3.h
 * /usr/include/kwin/wayland/touch.h
 * /usr/include/kwin/wayland/viewporter.h
+* /usr/include/kwin/wayland/wayland-alpha-modifier-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-content-type-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-frog-color-management-v1-server-protocol.h
+* /usr/include/kwin/wayland/wayland-kde-external-brightness-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-linux-drm-syncobj-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-presentation-time-server-protocol.h
-* /usr/include/kwin/wayland/wayland-xx-color-management-v2-server-protocol.h
+* /usr/include/kwin/wayland/wayland-xx-color-management-v4-server-protocol.h
 * /usr/include/kwin/wayland/xdgactivation_v1.h
 * /usr/include/kwin/wayland/xdgdecoration_v1.h
 * /usr/include/kwin/wayland/xdgdialog_v1.h
@@ -250,7 +277,7 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/xdgshell.h
 * /usr/include/kwin/wayland/xwaylandkeyboardgrab_v1.h
 * /usr/include/kwin/wayland/xwaylandshell_v1.h
-* /usr/include/kwin/wayland/xx_colormanagement_v2.h
+* /usr/include/kwin/wayland/xx_colormanagement_v4.h
 * /usr/include/kwin/waylandshellintegration.h
 * /usr/include/kwin/waylandwindow.h
 * /usr/include/kwin/wayland_server.h
@@ -275,10 +302,10 @@ KDE Window Manager.
 * /usr/lib/kwin/kwin-applywindowdecoration
 * /usr/lib/kwin/kwin_killer_helper
 * /usr/lib/libkcmkwincommon.so.6
-* /usr/lib/libkcmkwincommon.so.6.1.5
+* /usr/lib/libkcmkwincommon.so.6.2.1
 * /usr/lib/libkwin.so
 * /usr/lib/libkwin.so.6
-* /usr/lib/libkwin.so.6.1.5
+* /usr/lib/libkwin.so.6.2.1
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_aurorae.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_decoration.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_effect.so
@@ -286,7 +313,6 @@ KDE Window Manager.
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_windowswitcher.so
 * /usr/lib/qt6/plugins/kwin/effects/configs/kcm_kwin4_genericscripted.so
 * /usr/lib/qt6/plugins/kwin/effects/configs/kwin_blur_config.so
-* /usr/lib/qt6/plugins/kwin/effects/configs/kwin_colorblindnesscorrection_config.so
 * /usr/lib/qt6/plugins/kwin/effects/configs/kwin_diminactive_config.so
 * /usr/lib/qt6/plugins/kwin/effects/configs/kwin_glide_config.so
 * /usr/lib/qt6/plugins/kwin/effects/configs/kwin_hidecursor_config.so
@@ -307,6 +333,7 @@ KDE Window Manager.
 * /usr/lib/qt6/plugins/kwin/plugins/BounceKeysPlugin.so
 * /usr/lib/qt6/plugins/kwin/plugins/buttonsrebind.so
 * /usr/lib/qt6/plugins/kwin/plugins/eis.so
+* /usr/lib/qt6/plugins/kwin/plugins/KeyNotificationPlugin.so
 * /usr/lib/qt6/plugins/kwin/plugins/krunnerintegration.so
 * /usr/lib/qt6/plugins/kwin/plugins/nightlight.so
 * /usr/lib/qt6/plugins/kwin/plugins/screencast.so
@@ -630,6 +657,22 @@ KDE Window Manager.
 * /usr/share/doc/HTML/ru/kcontrol/windowspecific/window-matching-tbird-compose.png
 * /usr/share/doc/HTML/ru/kcontrol/windowspecific/window-matching-tbird-main.png
 * /usr/share/doc/HTML/ru/kcontrol/windowspecific/window-matching-tbird-reminder.png
+* /usr/share/doc/HTML/sl/kcontrol/desktop/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/desktop/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kwindecoration/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kwindecoration/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kwineffects/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kwineffects/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kwinscreenedges/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kwinscreenedges/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kwintabbox/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kwintabbox/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kwintouchscreen/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kwintouchscreen/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kwinvirtualkeyboard/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kwinvirtualkeyboard/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/windowbehaviour/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/windowbehaviour/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol/desktop/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol/desktop/index.docbook
 * /usr/share/doc/HTML/sr@latin/kcontrol/desktop/index.cache.bz2
@@ -691,7 +734,7 @@ KDE Window Manager.
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.docbook
-* /usr/share/doc/kwin-6.1.5/README.md
+* /usr/share/doc/kwin-6.2.1.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin.png
 * /usr/share/icons/hicolor/32x32/apps/kwin.png
 * /usr/share/icons/hicolor/48x48/apps/kwin.png
@@ -735,6 +778,7 @@ KDE Window Manager.
 * /usr/share/kwin/builtin-effects/screentransform.json
 * /usr/share/kwin/builtin-effects/shakecursor.json
 * /usr/share/kwin/builtin-effects/sheet.json
+* /usr/share/kwin/builtin-effects/showcompositing.json
 * /usr/share/kwin/builtin-effects/showfps.json
 * /usr/share/kwin/builtin-effects/showpaint.json
 * /usr/share/kwin/builtin-effects/slide.json
@@ -742,6 +786,7 @@ KDE Window Manager.
 * /usr/share/kwin/builtin-effects/slidingpopups.json
 * /usr/share/kwin/builtin-effects/snaphelper.json
 * /usr/share/kwin/builtin-effects/startupfeedback.json
+* /usr/share/kwin/builtin-effects/systembell.json
 * /usr/share/kwin/builtin-effects/thumbnailaside.json
 * /usr/share/kwin/builtin-effects/tileseditor.json
 * /usr/share/kwin/builtin-effects/touchpoints.json
@@ -779,8 +824,6 @@ KDE Window Manager.
 * /usr/share/kwin/effects/logout/metadata.json
 * /usr/share/kwin/effects/maximize/contents/code/main.js
 * /usr/share/kwin/effects/maximize/metadata.json
-* /usr/share/kwin/effects/morphingpopups/contents/code/main.js
-* /usr/share/kwin/effects/morphingpopups/metadata.json
 * /usr/share/kwin/effects/outputlocator/qml/OutputLabel.qml
 * /usr/share/kwin/effects/scale/contents/code/main.js
 * /usr/share/kwin/effects/scale/contents/config/main.xml
@@ -788,6 +831,8 @@ KDE Window Manager.
 * /usr/share/kwin/effects/scale/metadata.json
 * /usr/share/kwin/effects/sessionquit/contents/code/main.js
 * /usr/share/kwin/effects/sessionquit/metadata.json
+* /usr/share/kwin/effects/showcompositing/qml/main.qml
+* /usr/share/kwin/effects/showfps/qml/main-fallback.qml
 * /usr/share/kwin/effects/showfps/qml/main.qml
 * /usr/share/kwin/effects/squash/contents/code/main.js
 * /usr/share/kwin/effects/squash/metadata.json
@@ -1649,6 +1694,7 @@ KDE Window Manager.
 * /usr/share/locale/th/LC_MESSAGES/kcm_kwintabbox.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_kwin_virtualdesktops.mo
 * /usr/share/locale/th/LC_MESSAGES/kwin.mo
+* /usr/share/locale/tok/LC_MESSAGES/kcm_kwinrules.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcmkwincommon.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcmkwincompositing.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcmkwinscreenedges.mo

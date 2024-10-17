@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktuberling 24.08.1-2"
-version = "24.08.1-2"
+title = "ktuberling 24.08.2-1"
+version = "24.08.2-1"
 description = "A simple constructor game suitable for children and adults alike."
-date = "2024-09-29T13:23:56"
+date = "2024-10-15T13:37:03"
 aliases = "/packages/184203"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72086008"
-usize = "100055479"
-sha1sum = "667e369ff55c3e572fa19245c7b30c6a9b45a707"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1', 'qt6-multimedia>=6.7.3']"
+size = "72102808"
+usize = "100090699"
+sha1sum = "afe08d7e013dcb6d4857ec2a5912bca2c5751309"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2', 'qt6-multimedia>=6.8.0']"
 +++
 ### Description: 
 A simple constructor game suitable for children and adults alike.
@@ -92,6 +92,9 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/doc/HTML/ru/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/ru/ktuberling/index.docbook
 * /usr/share/doc/HTML/ru/ktuberling/technical-reference.docbook
+* /usr/share/doc/HTML/sl/ktuberling/index.cache.bz2
+* /usr/share/doc/HTML/sl/ktuberling/index.docbook
+* /usr/share/doc/HTML/sl/ktuberling/technical-reference.docbook
 * /usr/share/doc/HTML/sv/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/sv/ktuberling/index.docbook
 * /usr/share/doc/HTML/sv/ktuberling/menu-edit.png
@@ -102,8 +105,8 @@ A simple constructor game suitable for children and adults alike.
 * /usr/share/doc/HTML/uk/ktuberling/index.cache.bz2
 * /usr/share/doc/HTML/uk/ktuberling/index.docbook
 * /usr/share/doc/HTML/uk/ktuberling/technical-reference.docbook
-* /usr/share/doc/ktuberling-24.08.1/README.PACKAGERS
-* /usr/share/doc/ktuberling-24.08.1/TODO
+* /usr/share/doc/ktuberling-24.08.2/README.PACKAGERS
+* /usr/share/doc/ktuberling-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/ktuberling.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-tuberling.png
 * /usr/share/icons/hicolor/16x16/apps/ktuberling.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca-cyrus-sasl 2.3.9-4"
-version = "2.3.9-4"
+title = "qca-cyrus-sasl 2.3.9-5"
+version = "2.3.9-5"
 description = "Plugins for qca providing SASL"
-date = "2024-09-30T14:27:45"
+date = "2024-10-15T20:09:50"
 aliases = "/packages/217814"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "19480"
+size = "19516"
 usize = "48120"
-sha1sum = "bb83ffb03ff505ce7e9271fb73d9671a4ad50588"
+sha1sum = "e6b0397911d5d8ed4c957aba8213a04132d40d28"
 depends = "['cyrus-sasl>=2.1.26-3', 'qca']"
 +++
 ### Description: 

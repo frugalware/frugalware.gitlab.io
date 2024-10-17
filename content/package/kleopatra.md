@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kleopatra 24.08.1-2"
-version = "24.08.1-2"
+title = "kleopatra 24.08.2-1"
+version = "24.08.2-1"
 description = "Certificate manager and GUI for OpenPGP and CMS cryptography."
-date = "2024-09-29T11:04:53"
+date = "2024-10-15T12:55:15"
 aliases = "/packages/219334"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3480920"
-usize = "16634036"
-sha1sum = "28484532340e45e6793342a361c71414efc96bf4"
-depends = "['kcmutils>=6.6.0', 'kitemmodels>=6.6.0', 'kmime>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'libkleo>=24.08.1', 'mimetreeparser>=24.08.1']"
+size = "3535672"
+usize = "16812121"
+sha1sum = "37d484da317acbed50da041a7da5ccde1a4a47cf"
+depends = "['kcmutils>=6.7.0', 'kitemmodels>=6.7.0', 'kmime>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'libkleo>=24.08.2', 'mimetreeparser>=24.08.2']"
 +++
 ### Description: 
 Certificate manager and GUI for OpenPGP and CMS cryptography.
@@ -71,6 +71,10 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/doc/HTML/ru/kleopatra/index.docbook
 * /usr/share/doc/HTML/ru/kwatchgnupg/index.cache.bz2
 * /usr/share/doc/HTML/ru/kwatchgnupg/index.docbook
+* /usr/share/doc/HTML/sl/kleopatra/index.cache.bz2
+* /usr/share/doc/HTML/sl/kleopatra/index.docbook
+* /usr/share/doc/HTML/sl/kwatchgnupg/index.cache.bz2
+* /usr/share/doc/HTML/sl/kwatchgnupg/index.docbook
 * /usr/share/doc/HTML/sv/kleopatra/index.cache.bz2
 * /usr/share/doc/HTML/sv/kleopatra/index.docbook
 * /usr/share/doc/HTML/sv/kwatchgnupg/index.cache.bz2
@@ -79,7 +83,7 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/doc/HTML/uk/kleopatra/index.docbook
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.docbook
-* /usr/share/doc/kleopatra-24.08.1/README.packagers
+* /usr/share/doc/kleopatra-24.08.2/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/kleopatra.png
 * /usr/share/icons/hicolor/16x16/apps/kleopatra.png
 * /usr/share/icons/hicolor/22x22/apps/kleopatra.png

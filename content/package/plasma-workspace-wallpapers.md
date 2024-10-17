@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "plasma-workspace-wallpapers 6.1.5-2"
-version = "6.1.5-2"
+title = "plasma-workspace-wallpapers 6.2.1-1"
+version = "6.2.1-1"
 description = "Additional wallpapers for the Plasma Workspace."
-date = "2024-09-28T21:24:40"
+date = "2024-10-17T02:07:05"
 aliases = "/packages/218404"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "100319528"
-usize = "101215805"
-sha1sum = "5908f517a21d7b68f45ac5182ad3ec3fb6863f63"
+size = "111422216"
+usize = "112323178"
+sha1sum = "0d5c84ab7c1d66f6443fefb74339f8c12cf785a1"
 depends = "[]"
 +++
 ### Description: 
 Additional wallpapers for the Plasma Workspace.
 
 ### Files: 
-* /usr/share/doc/plasma-workspace-wallpapers-6.1.5/AUTHORS
-* /usr/share/doc/plasma-workspace-wallpapers-6.1.5/COPYING
-* /usr/share/doc/plasma-workspace-wallpapers-6.1.5/COPYING.LGPL3
-* /usr/share/doc/plasma-workspace-wallpapers-6.1.5/README.md
+* /usr/share/doc/plasma-workspace-wallpapers-6.2.1/AUTHORS
+* /usr/share/doc/plasma-workspace-wallpapers-6.2.1/COPYING
+* /usr/share/doc/plasma-workspace-wallpapers-6.2.1/COPYING.LGPL3
+* /usr/share/doc/plasma-workspace-wallpapers-6.2.1/README.md
 * /usr/share/wallpapers/Altai/contents/images/1080x1920.png
 * /usr/share/wallpapers/Altai/contents/images/5120x2880.png
 * /usr/share/wallpapers/Altai/contents/screenshot.png
@@ -250,6 +250,11 @@ Additional wallpapers for the Plasma Workspace.
 * /usr/share/wallpapers/SafeLanding/contents/images/5120x2880.jpg
 * /usr/share/wallpapers/SafeLanding/contents/screenshot.jpg
 * /usr/share/wallpapers/SafeLanding/metadata.json
+* /usr/share/wallpapers/ScarletTree/contents/images/1080x1920.png
+* /usr/share/wallpapers/ScarletTree/contents/images/5120x2880.png
+* /usr/share/wallpapers/ScarletTree/contents/images_dark/1080x1920.png
+* /usr/share/wallpapers/ScarletTree/contents/images_dark/5120x2880.png
+* /usr/share/wallpapers/ScarletTree/metadata.json
 * /usr/share/wallpapers/Shell/contents/images/5120x2880.jpg
 * /usr/share/wallpapers/Shell/contents/images/720x1440.jpg
 * /usr/share/wallpapers/Shell/contents/screenshot.png

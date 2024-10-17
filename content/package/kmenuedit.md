@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmenuedit 6.1.5-2"
-version = "6.1.5-2"
+title = "kmenuedit 6.2.1-1"
+version = "6.2.1-1"
 description = "KDE menu editor."
-date = "2024-09-28T20:49:44"
+date = "2024-10-17T01:53:19"
 aliases = "/packages/221336"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1011488"
-usize = "1954965"
-sha1sum = "ebfc8fae1e62a87ce60f97b4a7fc6f16dae6038f"
-depends = "['kio>=6.6.0']"
+size = "1025212"
+usize = "1979062"
+sha1sum = "03cfc0f1874b24f379e228b5303793a55e3942a3"
+depends = "['kio>=6.7.0']"
 +++
 ### Description: 
 KDE menu editor.
@@ -67,6 +67,8 @@ KDE menu editor.
 * /usr/share/doc/HTML/ru/kmenuedit/new.png
 * /usr/share/doc/HTML/ru/kmenuedit/selecticon.png
 * /usr/share/doc/HTML/ru/kmenuedit/selectinternet.png
+* /usr/share/doc/HTML/sl/kmenuedit/index.cache.bz2
+* /usr/share/doc/HTML/sl/kmenuedit/index.docbook
 * /usr/share/doc/HTML/sv/kmenuedit/index.cache.bz2
 * /usr/share/doc/HTML/sv/kmenuedit/index.docbook
 * /usr/share/doc/HTML/tr/kmenuedit/index.cache.bz2

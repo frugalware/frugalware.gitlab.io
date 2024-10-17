@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpimtextedit 24.08.1-2"
-version = "24.08.1-2"
+title = "kpimtextedit 24.08.2-1"
+version = "24.08.2-1"
 description = "Desc: A library for textedit with PIM-specific features."
-date = "2024-09-29T09:41:18"
+date = "2024-10-15T12:47:48"
 aliases = "/packages/218343"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "175988"
-usize = "837933"
-sha1sum = "024d334570844aa0b1e903cb84de5364cce14762"
-depends = "['kcoreaddons>=6.6.0', 'kio>=6.6.0', 'ktextaddons', 'ktexteditor>=6.6.0', 'ktexttemplate>=6.6.0', 'qt6-speech>=6.7.3', 'sonnet>=6.6.0', 'syntax-highlighting>=6.6.0']"
+size = "176768"
+usize = "838509"
+sha1sum = "2b91b6470d29b8c91124ad0d57da1da5dc12c9a3"
+depends = "['kcoreaddons>=6.7.0', 'kio>=6.7.0', 'ktextaddons', 'ktexteditor>=6.7.0', 'ktexttemplate>=6.7.0', 'qt6-speech>=6.8.0', 'sonnet>=6.7.0', 'syntax-highlighting>=6.7.0']"
 reverse_depends = "['kidentitymanagement', 'libkleo', 'pimcommon']"
 +++
 ### Description: 
@@ -50,7 +50,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/lib/cmake/KPim6TextEdit/KPim6TextEditTargets.cmake
 * /usr/lib/libKPim6TextEdit.so
 * /usr/lib/libKPim6TextEdit.so.6
-* /usr/lib/libKPim6TextEdit.so.6.2.1
+* /usr/lib/libKPim6TextEdit.so.6.2.2
 * /usr/share/locale/ar/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkpimtextedit6.mo

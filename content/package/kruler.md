@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kruler 24.08.1-3"
-version = "24.08.1-3"
+title = "kruler 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Ruler Widget."
-date = "2024-09-29T10:37:40"
+date = "2024-10-15T12:40:53"
 aliases = "/packages/88170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "275576"
-usize = "626299"
-sha1sum = "6c4fb1b2f58985a2e6cbd4302cae9de4fd60432c"
-depends = "['knotifications>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kxmlgui>=6.6.0']"
+size = "281092"
+usize = "637482"
+sha1sum = "fe6b23a3e2b14d09871ae2caf531a63da5a943c1"
+depends = "['knotifications>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'kxmlgui>=6.7.0']"
 +++
 ### Description: 
 KDE Ruler Widget.
@@ -47,6 +47,8 @@ KDE Ruler Widget.
 * /usr/share/doc/HTML/pt_BR/kruler/kruler.png
 * /usr/share/doc/HTML/ru/kruler/index.cache.bz2
 * /usr/share/doc/HTML/ru/kruler/index.docbook
+* /usr/share/doc/HTML/sl/kruler/index.cache.bz2
+* /usr/share/doc/HTML/sl/kruler/index.docbook
 * /usr/share/doc/HTML/sv/kruler/index.cache.bz2
 * /usr/share/doc/HTML/sv/kruler/index.docbook
 * /usr/share/doc/HTML/tr/kruler/index.cache.bz2
@@ -54,7 +56,7 @@ KDE Ruler Widget.
 * /usr/share/doc/HTML/uk/kruler/index.cache.bz2
 * /usr/share/doc/HTML/uk/kruler/index.docbook
 * /usr/share/doc/HTML/uk/kruler/kruler-settings.png
-* /usr/share/doc/kruler-24.08.1/TODO
+* /usr/share/doc/kruler-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kruler.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-east.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-north.png

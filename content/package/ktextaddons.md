@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktextaddons 1.5.4-1"
-version = "1.5.4-1"
+title = "ktextaddons 1.5.4-2"
+version = "1.5.4-2"
 description = "Various text handling addons"
-date = "2024-04-08T09:35:12"
+date = "2024-10-16T08:56:17"
 aliases = "/packages/220956"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "576692"
-usize = "2819910"
-sha1sum = "4ab7251c33b7d87f5719612abe3ef4a93168aee2"
+size = "578332"
+usize = "2727362"
+sha1sum = "bfeeb05bcc46fc9bbf95be03db3d42ff230575d0"
 depends = "['kio>=', 'kxmlgui>=', 'qt6-speech>=', 'qtkeychain', 'syntax-highlighting>=']"
 reverse_depends = "['kpimtextedit', 'messagelib', 'pimcommon']"
 +++
@@ -124,86 +124,86 @@ Various text handling addons
 * /usr/include/KF6/TextEmoticonsWidgets/textemoticonswidgets/textemoticonswidgets_export.h
 * /usr/include/KF6/TextEmoticonsWidgets/textemoticonswidgets_version.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammalecteConfigDialog
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteconfigdialog.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammalecteconfigdialog.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteconfigdialog.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammalecteConfigWidget
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteconfigwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammalecteconfigwidget.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteconfigwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammalecteGenerateConfigOptionJob
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalectegenerateconfigoptionjob.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammalectegenerateconfigoptionjob.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalectegenerateconfigoptionjob.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammalecteManager
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalectemanager.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammalectemanager.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalectemanager.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammalecteResultJob
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteresultjob.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammalecteresultjob.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteresultjob.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammalecteResultWidget
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteresultwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammalecteresultwidget.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammalecteresultwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarAction
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammaraction.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammaraction.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammaraction.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarError
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarerror.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammarerror.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarerror.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarResultTextEdit
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarresulttextedit.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammarresulttextedit.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarresulttextedit.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarResultWidget
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarresultwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/grammarresultwidget.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarresultwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolComboBox
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolcombobox.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/languagetoolcombobox.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolcombobox.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolConfigDialog
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolconfigdialog.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/languagetoolconfigdialog.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolconfigdialog.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolConfigWidget
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolconfigwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/languagetoolconfigwidget.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolconfigwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolGetListOfLanguageJob
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolgetlistoflanguagejob.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/languagetoolgetlistoflanguagejob.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolgetlistoflanguagejob.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolManager
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolmanager.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/languagetoolmanager.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolmanager.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolResultWidget
-* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolresultwidget.h
 * /usr/include/KF6/TextGrammarCheck/TextGrammarCheck/languagetoolresultwidget.h
+* /usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolresultwidget.h
 * /usr/include/KF6/TextGrammarCheck/textgrammarcheck/textgrammarcheck_export.h
 * /usr/include/KF6/TextGrammarCheck/textgrammarcheck_version.h
 * /usr/include/KF6/TextTranslator/texttranslator/texttranslator_export.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorConfigureDialog
-* /usr/include/KF6/TextTranslator/texttranslator/translatorconfiguredialog.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorconfiguredialog.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorconfiguredialog.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorConfigureLanguageListWidget
-* /usr/include/KF6/TextTranslator/texttranslator/translatorconfigurelanguagelistwidget.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorconfigurelanguagelistwidget.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorconfigurelanguagelistwidget.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorConfigureListsWidget
-* /usr/include/KF6/TextTranslator/texttranslator/translatorconfigurelistswidget.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorconfigurelistswidget.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorconfigurelistswidget.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorEngineAccessManager
-* /usr/include/KF6/TextTranslator/texttranslator/translatorengineaccessmanager.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorengineaccessmanager.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorengineaccessmanager.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorEngineClient
-* /usr/include/KF6/TextTranslator/texttranslator/translatorengineclient.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorengineclient.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorengineclient.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorEngineLoader
-* /usr/include/KF6/TextTranslator/texttranslator/translatorengineloader.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorengineloader.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorengineloader.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorEnginePlugin
-* /usr/include/KF6/TextTranslator/texttranslator/translatorengineplugin.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorengineplugin.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorengineplugin.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorMenu
-* /usr/include/KF6/TextTranslator/texttranslator/translatormenu.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatormenu.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatormenu.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorUtil
-* /usr/include/KF6/TextTranslator/texttranslator/translatorutil.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorutil.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorutil.h
 * /usr/include/KF6/TextTranslator/TextTranslator/TranslatorWidget
-* /usr/include/KF6/TextTranslator/texttranslator/translatorwidget.h
 * /usr/include/KF6/TextTranslator/TextTranslator/translatorwidget.h
+* /usr/include/KF6/TextTranslator/texttranslator/translatorwidget.h
 * /usr/include/KF6/TextTranslator/texttranslator_version.h
 * /usr/include/KF6/TextUtils/TextUtils/ConvertText
 * /usr/include/KF6/TextUtils/textutils/converttext.h

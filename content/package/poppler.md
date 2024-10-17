@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler 24.09.0-2"
-version = "24.09.0-2"
+title = "poppler 24.10.0-1"
+version = "24.10.0-1"
 description = "A PDF rendering library"
-date = "2024-09-30T12:15:24"
+date = "2024-10-16T17:15:05"
 aliases = "/packages/3295"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "2015744"
-usize = "10083773"
-sha1sum = "0bf9613c42e813df635f074b898b2e9a5090ea07"
+size = "2019232"
+usize = "10110866"
+sha1sum = "89d6c8ef327c589a0504fe3e9a0f262f3a4b42e0"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data', 'poppler-data']"
 reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
@@ -162,17 +162,17 @@ A PDF rendering library
 * /usr/lib/libpoppler-cpp.so.1
 * /usr/lib/libpoppler-cpp.so.1.0.0
 * /usr/lib/libpoppler.so
-* /usr/lib/libpoppler.so.141
-* /usr/lib/libpoppler.so.141.0.0
+* /usr/lib/libpoppler.so.142
+* /usr/lib/libpoppler.so.142.0.0
 * /usr/lib/pkgconfig/poppler-cpp.pc
 * /usr/lib/pkgconfig/poppler.pc
-* /usr/share/doc/poppler-24.09.0/AUTHORS
-* /usr/share/doc/poppler-24.09.0/ChangeLog
-* /usr/share/doc/poppler-24.09.0/COPYING
-* /usr/share/doc/poppler-24.09.0/COPYING3
-* /usr/share/doc/poppler-24.09.0/INSTALL
-* /usr/share/doc/poppler-24.09.0/NEWS
-* /usr/share/doc/poppler-24.09.0/README-XPDF
-* /usr/share/doc/poppler-24.09.0/README.contributors
-* /usr/share/doc/poppler-24.09.0/README.md
+* /usr/share/doc/poppler-24.10.0/AUTHORS
+* /usr/share/doc/poppler-24.10.0/ChangeLog
+* /usr/share/doc/poppler-24.10.0/COPYING
+* /usr/share/doc/poppler-24.10.0/COPYING3
+* /usr/share/doc/poppler-24.10.0/INSTALL
+* /usr/share/doc/poppler-24.10.0/NEWS
+* /usr/share/doc/poppler-24.10.0/README-XPDF
+* /usr/share/doc/poppler-24.10.0/README.contributors
+* /usr/share/doc/poppler-24.10.0/README.md
 * /usr/share/gir-1.0/Poppler-0.18.gir

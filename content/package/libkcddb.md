@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkcddb 24.08.1-2"
-version = "24.08.1-2"
+title = "libkcddb 24.08.2-1"
+version = "24.08.2-1"
 description = "A library for retrieving and sending cddb information."
-date = "2024-09-29T21:45:08"
+date = "2024-10-15T14:44:22"
 aliases = "/packages/74490"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "512928"
-usize = "1511436"
-sha1sum = "c094f18256b5d7e3dfd66cbb595cdb1151a21247"
-depends = "['kcmutils>=6.6.0', 'kio>=6.6.0', 'libmusicbrainz>=5.1.0-3']"
+size = "512752"
+usize = "1511212"
+sha1sum = "6c7f0f17ed9061daae9e938ecdc30a8bc3216f11"
+depends = "['kcmutils>=6.7.0', 'kio>=6.7.0', 'libmusicbrainz>=5.1.0-3']"
 reverse_depends = "['audex', 'audiocd-kio', 'k3b']"
 +++
 ### Description: 
@@ -79,7 +79,7 @@ A library for retrieving and sending cddb information.
 * /usr/share/doc/HTML/sv/kcontrol/cddbretrieval5/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/cddbretrieval5/index.docbook
-* /usr/share/doc/libkcddb-24.08.1/TODO
+* /usr/share/doc/libkcddb-24.08.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/kcmcddb.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkcddb.mo
 * /usr/share/locale/be/LC_MESSAGES/kcmcddb.mo

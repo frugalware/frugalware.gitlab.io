@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libaccounts-qt 1.17-2"
-version = "1.17-2"
+title = "libaccounts-qt 1.17-3"
+version = "1.17-3"
 description = "Qt-based client library for accessing the online accounts database."
-date = "2024-06-21T12:32:06"
+date = "2024-10-16T10:37:33"
 aliases = "/packages/200094"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-qt"
 arch = "x86_64"
-size = "252660"
-usize = "1810563"
-sha1sum = "345536906f7768eac8213f0744ed20a52fa8f541"
+size = "251696"
+usize = "1855142"
+sha1sum = "36d3c29e17e3e6f5ef614f4e52ddc9f01e50a181"
 depends = "['libaccounts-glib>=1.25', 'qt6-base']"
 reverse_depends = "['accounts-qml-module', 'kaccounts-integration']"
 +++
@@ -85,7 +85,9 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1ServiceType.html
 * /usr/share/doc/accounts-qt/html/classAccounts_1_1ServiceType.js
 * /usr/share/doc/accounts-qt/html/classes.html
+* /usr/share/doc/accounts-qt/html/clipboard.js
 * /usr/share/doc/accounts-qt/html/closed.png
+* /usr/share/doc/accounts-qt/html/cookie.js
 * /usr/share/doc/accounts-qt/html/deprecated.html
 * /usr/share/doc/accounts-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9.html
 * /usr/share/doc/accounts-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.dot
@@ -96,6 +98,8 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/docd.svg
 * /usr/share/doc/accounts-qt/html/doxygen.css
 * /usr/share/doc/accounts-qt/html/doxygen.svg
+* /usr/share/doc/accounts-qt/html/doxygen_blank.html
+* /usr/share/doc/accounts-qt/html/doxygen_crawl.html
 * /usr/share/doc/accounts-qt/html/dynsections.js
 * /usr/share/doc/accounts-qt/html/error_8cpp_source.html
 * /usr/share/doc/accounts-qt/html/error_8h_source.html
@@ -120,6 +124,8 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/manager__p_8h_source.html
 * /usr/share/doc/accounts-qt/html/menu.js
 * /usr/share/doc/accounts-qt/html/menudata.js
+* /usr/share/doc/accounts-qt/html/minus.svg
+* /usr/share/doc/accounts-qt/html/minusd.svg
 * /usr/share/doc/accounts-qt/html/navtree.css
 * /usr/share/doc/accounts-qt/html/navtree.js
 * /usr/share/doc/accounts-qt/html/navtreedata.js
@@ -131,6 +137,8 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/nav_hd.png
 * /usr/share/doc/accounts-qt/html/open.png
 * /usr/share/doc/accounts-qt/html/pages.html
+* /usr/share/doc/accounts-qt/html/plus.svg
+* /usr/share/doc/accounts-qt/html/plusd.svg
 * /usr/share/doc/accounts-qt/html/provider_8cpp_source.html
 * /usr/share/doc/accounts-qt/html/provider_8h_source.html
 * /usr/share/doc/accounts-qt/html/resize.js

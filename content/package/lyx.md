@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lyx 2.4.1-2"
-version = "2.4.1-2"
+title = "lyx 2.4.1-3"
+version = "2.4.1-3"
 description = "An advanced open-source document processor based on TeX"
-date = "2024-09-30T14:17:30"
+date = "2024-10-16T10:43:00"
 aliases = "/packages/3726"
 categories = ['xapps-extra']
 upstreamurl = "http://www.lyx.org"
 arch = "x86_64"
-size = "17726664"
-usize = "80647600"
-sha1sum = "5fcf6ad6555ddc32fbba82f4487ecb6a8a67ea1b"
-depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.0', 'mythes', 'qt6-base>=6.7.3', 'qt6-svg>=6.7.3', 'texlive']"
+size = "17726048"
+usize = "80639632"
+sha1sum = "006ac1b3c1dd6378340c4d394609fbb92407fe52"
+depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.0', 'mythes', 'qt6-base>=6.8.0', 'qt6-svg>=6.7.3', 'texlive']"
 +++
 ### Description: 
 An advanced open-source document processor based on TeX

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-nm-openconnect 6.1.5-2"
-version = "6.1.5-2"
+title = "plasma-nm-openconnect 6.2.1-1"
+version = "6.2.1-1"
 description = "Openconnect Plugin for Plasma network manager"
-date = "2024-09-28T21:35:04"
+date = "2024-10-17T02:13:17"
 aliases = "/packages/218675"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "112348"
-usize = "1447356"
-sha1sum = "7a11715a759984d8ddc8720a9423f3ce4ace6987"
+size = "139176"
+usize = "1718446"
+sha1sum = "a84d1d854e654546e70a23c997bfdf71334dfd5a"
 depends = "['openconnect']"
 +++
 ### Description: 
@@ -47,6 +47,7 @@ Openconnect Plugin for Plasma network manager
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo

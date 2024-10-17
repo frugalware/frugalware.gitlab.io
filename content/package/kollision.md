@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kollision 24.08.1-2"
-version = "24.08.1-2"
+title = "kollision 24.08.2-1"
+version = "24.08.2-1"
 description = "A simple ball dodging game."
-date = "2024-09-29T13:14:16"
+date = "2024-10-15T13:34:06"
 aliases = "/packages/184193"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "381260"
-usize = "752658"
-sha1sum = "2a13a9c572ecd32a1ab3b5e2753497109e67af64"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1']"
+size = "387948"
+usize = "766552"
+sha1sum = "7166e839f280ba92d01c42c58b339bae82c94036"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2']"
 +++
 ### Description: 
 A simple ball dodging game.
@@ -51,6 +51,8 @@ A simple ball dodging game.
 * /usr/share/doc/HTML/pt/kollision/index.docbook
 * /usr/share/doc/HTML/pt_BR/kollision/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kollision/index.docbook
+* /usr/share/doc/HTML/sl/kollision/index.cache.bz2
+* /usr/share/doc/HTML/sl/kollision/index.docbook
 * /usr/share/doc/HTML/sv/kollision/index.cache.bz2
 * /usr/share/doc/HTML/sv/kollision/index.docbook
 * /usr/share/doc/HTML/uk/kollision/gameboard.png

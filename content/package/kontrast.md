@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontrast 24.08.1-2"
-version = "24.08.1-2"
+title = "kontrast 24.08.2-1"
+version = "24.08.2-1"
 description = "Tool to check contrast for colors that allows verifying that your colors are correctly accessible"
-date = "2024-09-30T08:45:17"
+date = "2024-10-15T15:57:17"
 aliases = "/packages/220313"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "192180"
-usize = "562241"
-sha1sum = "a6fe5a334d327490154a9935506ee8256a76ad35"
-depends = "['futuresql', 'kcoreaddons>=6.6.0', 'kdeclarative>=6.6.0', 'ki18n>=6.6.0', 'kirigami>=6.6.0', 'kirigami-addons', 'qcoro']"
+size = "199032"
+usize = "576475"
+sha1sum = "db3e62a0fb5976eb0fccd36eb59dcbf44d86f08c"
+depends = "['futuresql', 'kcoreaddons>=6.7.0', 'kdeclarative>=6.7.0', 'ki18n>=6.7.0', 'kirigami>=6.7.0', 'kirigami-addons', 'qcoro']"
 +++
 ### Description: 
 Tool to check contrast for colors that allows verifying that your colors are correctly accessible
@@ -30,11 +30,13 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/doc/HTML/it/kontrast/index.docbook
 * /usr/share/doc/HTML/nl/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/nl/kontrast/index.docbook
+* /usr/share/doc/HTML/sl/kontrast/index.cache.bz2
+* /usr/share/doc/HTML/sl/kontrast/index.docbook
 * /usr/share/doc/HTML/sv/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/sv/kontrast/index.docbook
 * /usr/share/doc/HTML/uk/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/uk/kontrast/index.docbook
-* /usr/share/doc/kontrast-24.08.1/README.md
+* /usr/share/doc/kontrast-24.08.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kontrast.svg
 * /usr/share/locale/ast/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ca/LC_MESSAGES/kontrast.mo

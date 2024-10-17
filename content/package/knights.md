@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knights 24.08.1-2"
-version = "24.08.1-2"
+title = "knights 24.08.2-1"
+version = "24.08.2-1"
 description = "Chess board program."
-date = "2024-09-30T08:27:05"
+date = "2024-10-15T15:47:12"
 aliases = "/packages/38796"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3539760"
-usize = "5330360"
-sha1sum = "6983558d28f7414dabcc7b57047a6f2c27b899ee"
-depends = "['kplotting>=6.6.0', 'ksvg>=6.6.0', 'libkdegames>=24.08.1', 'libplasma>=6.1.5']"
+size = "3563404"
+usize = "5387027"
+sha1sum = "5f758913fcc64a8ac5ec793d7729bfef4d77c59a"
+depends = "['kplotting>=6.7.0', 'ksvg>=6.7.0', 'libkdegames>=24.08.2', 'libplasma>=6.2.0']"
 +++
 ### Description: 
 Chess board program.
@@ -80,6 +80,8 @@ Chess board program.
 * /usr/share/doc/HTML/ru/knights/Knights-server-challenges.png
 * /usr/share/doc/HTML/ru/knights/Knights-server-graph.png
 * /usr/share/doc/HTML/ru/knights/Knights-server-list.png
+* /usr/share/doc/HTML/sl/knights/index.cache.bz2
+* /usr/share/doc/HTML/sl/knights/index.docbook
 * /usr/share/doc/HTML/sv/knights/index.cache.bz2
 * /usr/share/doc/HTML/sv/knights/index.docbook
 * /usr/share/doc/HTML/uk/knights/index.cache.bz2
@@ -90,11 +92,11 @@ Chess board program.
 * /usr/share/doc/HTML/uk/knights/Knights-server-challenges.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-graph.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-list.png
-* /usr/share/doc/knights-24.08.1/ChangeLog
-* /usr/share/doc/knights-24.08.1/LICENSE
-* /usr/share/doc/knights-24.08.1/README.md
-* /usr/share/doc/knights-24.08.1/README.themes
-* /usr/share/doc/knights-24.08.1/README.translation
+* /usr/share/doc/knights-24.08.2/ChangeLog
+* /usr/share/doc/knights-24.08.2/LICENSE
+* /usr/share/doc/knights-24.08.2/README.md
+* /usr/share/doc/knights-24.08.2/README.themes
+* /usr/share/doc/knights-24.08.2/README.translation
 * /usr/share/icons/hicolor/16x16/apps/knights.png
 * /usr/share/icons/hicolor/32x32/apps/knights.png
 * /usr/share/icons/hicolor/48x48/apps/knights.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 24.08.1-2"
-version = "24.08.1-2"
+title = "ktorrent 24.08.2-1"
+version = "24.08.2-1"
 description = "A BitTorrent application for KDE."
-date = "2024-09-30T08:43:36"
+date = "2024-10-15T15:55:36"
 aliases = "/packages/219530"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1979728"
-usize = "11035578"
-sha1sum = "fd96af3f655cea220424dd11e29a4f795c384516"
-depends = "['kstatusnotifieritem>=6.6.0', 'libktorrent>=24.08.1', 'plasma-workspace>=6.1.5', 'syndication']"
+size = "1983248"
+usize = "11047268"
+sha1sum = "7ac23aa5fb35a5aa0a1ce12fa930855f4a6acfbe"
+depends = "['kstatusnotifieritem>=6.7.0', 'libktorrent>=24.08.2', 'plasma-workspace>=6.2.0', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.
@@ -56,6 +56,8 @@ A BitTorrent application for KDE.
 * /usr/share/doc/HTML/pt_BR/ktorrent/index.docbook
 * /usr/share/doc/HTML/ru/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/ru/ktorrent/index.docbook
+* /usr/share/doc/HTML/sl/ktorrent/index.cache.bz2
+* /usr/share/doc/HTML/sl/ktorrent/index.docbook
 * /usr/share/doc/HTML/sv/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/sv/ktorrent/index.docbook
 * /usr/share/doc/HTML/tr/ktorrent/index.cache.bz2
@@ -64,7 +66,7 @@ A BitTorrent application for KDE.
 * /usr/share/doc/HTML/uk/ktorrent/index.docbook
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.docbook
-* /usr/share/doc/ktorrent-24.08.1/ChangeLog
+* /usr/share/doc/ktorrent-24.08.2/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/ktorrent.png
 * /usr/share/icons/hicolor/16x16/actions/kt-stop-all.png
 * /usr/share/icons/hicolor/16x16/actions/kt-stop.png

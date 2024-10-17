@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.6.0-2"
-version = "6.6.0-2"
+title = "qqc2-desktop-style 6.7.0-1"
+version = "6.7.0-1"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-09-28T19:58:55"
+date = "2024-10-14T17:54:38"
 aliases = "/packages/219485"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "406864"
-usize = "2372982"
-sha1sum = "362f877e116bb196aabf199fac19d65ab248a49d"
-depends = "['kconfigwidgets>=6.6.0', 'kiconthemes>=6.6.0', 'kirigami>=6.6.0']"
+size = "424284"
+usize = "2368429"
+sha1sum = "f7a4da772510385509378253eeb9674a798d836f"
+depends = "['kconfigwidgets>=6.7.0', 'kiconthemes>=6.7.0', 'kirigami>=6.7.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
@@ -93,7 +93,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.6.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.7.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
@@ -114,6 +114,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/share/locale/ko/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/lv/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/nl/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/nn/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/pl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/qqc2desktopstyle_qt.qm

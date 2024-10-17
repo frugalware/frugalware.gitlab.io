@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-settings 24.02.0-2"
-version = "24.02.0-2"
+title = "plasma-settings 24.02.0-3"
+version = "24.02.0-3"
 description = "Settings application for Plasma Mobile"
-date = "2024-03-26T10:01:55"
+date = "2024-10-16T12:17:08"
 aliases = "/packages/220617"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "55632"
-usize = "212562"
-sha1sum = "846c6a1f29c61d60629560c519e42d5141beb266"
+size = "56152"
+usize = "207522"
+sha1sum = "4b9ffe4df5279cfc4d9124d708f3ebffc8b2fbdd"
 depends = "['kcmutils', 'kirigami-addons', 'modemmanager-qt', 'networkmanager-qt']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knetwalk 24.08.1-2"
-version = "24.08.1-2"
+title = "knetwalk 24.08.2-1"
+version = "24.08.2-1"
 description = "Connect all the terminals to the server, in as few turns as possible."
-date = "2024-09-29T13:13:24"
+date = "2024-10-15T13:33:27"
 aliases = "/packages/184191"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1191196"
-usize = "1724377"
-sha1sum = "bb9c276b4d2d13f2da4ce0df1c681d50152b586d"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1']"
+size = "1200752"
+usize = "1744783"
+sha1sum = "6ef2dadfa1f3e9e33735518f054e8fc13588ecb2"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2']"
 +++
 ### Description: 
 Connect all the terminals to the server, in as few turns as possible.
@@ -51,13 +51,15 @@ Connect all the terminals to the server, in as few turns as possible.
 * /usr/share/doc/HTML/pt_BR/knetwalk/index.docbook
 * /usr/share/doc/HTML/ru/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/ru/knetwalk/index.docbook
+* /usr/share/doc/HTML/sl/knetwalk/index.cache.bz2
+* /usr/share/doc/HTML/sl/knetwalk/index.docbook
 * /usr/share/doc/HTML/sv/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/sv/knetwalk/index.docbook
 * /usr/share/doc/HTML/uk/knetwalk/gameboard.png
 * /usr/share/doc/HTML/uk/knetwalk/index.cache.bz2
 * /usr/share/doc/HTML/uk/knetwalk/index.docbook
-* /usr/share/doc/knetwalk-24.08.1/AUTHORS
-* /usr/share/doc/knetwalk-24.08.1/TODO
+* /usr/share/doc/knetwalk-24.08.2/AUTHORS
+* /usr/share/doc/knetwalk-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/knetwalk.png
 * /usr/share/icons/hicolor/16x16/apps/knetwalk.png
 * /usr/share/icons/hicolor/22x22/apps/knetwalk.png

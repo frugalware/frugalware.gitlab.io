@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmplot 24.08.1-2"
-version = "24.08.1-2"
+title = "kmplot 24.08.2-1"
+version = "24.08.2-1"
 description = "Mathematical Function Plotter."
-date = "2024-09-29T21:57:51"
+date = "2024-10-15T15:04:43"
 aliases = "/packages/152833"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3294364"
-usize = "7406475"
-sha1sum = "8d410530d6af384acad2340766c2578a04c5f206"
-depends = "['kparts>=6.6.0']"
+size = "3322656"
+usize = "7492925"
+sha1sum = "335d2193b042486a33d78c3e9d4528c46541250b"
+depends = "['kparts>=6.7.0']"
 +++
 ### Description: 
 Mathematical Function Plotter.
@@ -208,6 +208,8 @@ Mathematical Function Plotter.
 * /usr/share/doc/HTML/ru/kmplot/introduction.docbook
 * /usr/share/doc/HTML/ru/kmplot/reference.docbook
 * /usr/share/doc/HTML/ru/kmplot/using.docbook
+* /usr/share/doc/HTML/sl/kmplot/index.cache.bz2
+* /usr/share/doc/HTML/sl/kmplot/index.docbook
 * /usr/share/doc/HTML/sv/kmplot/commands.docbook
 * /usr/share/doc/HTML/sv/kmplot/configuration.docbook
 * /usr/share/doc/HTML/sv/kmplot/credits.docbook
@@ -230,8 +232,8 @@ Mathematical Function Plotter.
 * /usr/share/doc/HTML/uk/kmplot/settings-diagram.png
 * /usr/share/doc/HTML/uk/kmplot/settings-fonts.png
 * /usr/share/doc/HTML/uk/kmplot/settings-general.png
-* /usr/share/doc/kmplot-24.08.1/README.md
-* /usr/share/doc/kmplot-24.08.1/TODO
+* /usr/share/doc/kmplot-24.08.2/README.md
+* /usr/share/doc/kmplot-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kmplot.png
 * /usr/share/icons/hicolor/16x16/apps/kmplot.png
 * /usr/share/icons/hicolor/22x22/apps/kmplot.png
@@ -323,6 +325,7 @@ Mathematical Function Plotter.
 * /usr/share/man/pt/man1/kmplot.1.gz
 * /usr/share/man/pt_BR/man1/kmplot.1.gz
 * /usr/share/man/ru/man1/kmplot.1.gz
+* /usr/share/man/sl/man1/kmplot.1.gz
 * /usr/share/man/sv/man1/kmplot.1.gz
 * /usr/share/man/uk/man1/kmplot.1.gz
 * /usr/share/metainfo/org.kde.kmplot.appdata.xml

@@ -12,7 +12,7 @@ size = "2313084"
 usize = "8694190"
 sha1sum = "cf635bb57c0edc4d26d3da6b818bb23274833214"
 depends = "['libstdc++', 'zlib']"
-reverse_depends = "['alicevision', 'qt5-3d', 'qt6-3d', 'qt6-quick3d']"
+reverse_depends = "['alicevision', 'ogre', 'qt5-3d', 'qt6-3d', 'qt6-quick3d']"
 +++
 ### Description: 
 Library to import various well-known 3D model formats in an uniform manner

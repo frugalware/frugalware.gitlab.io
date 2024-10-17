@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "partitionmanager 24.08.1-2"
-version = "24.08.1-2"
+title = "partitionmanager 24.08.2-1"
+version = "24.08.2-1"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2024-09-30T08:44:34"
+date = "2024-10-15T15:56:34"
 aliases = "/packages/118282"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2393160"
-usize = "6713945"
-sha1sum = "8fc1342445bdc67270a4772ae9a7b19d9b51c38b"
-depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.6.0', 'kio>=6.6.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
+size = "2420020"
+usize = "6797205"
+sha1sum = "b4ab11fc04281909dfdf5b28a313eebde56330eb"
+depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.7.0', 'kio>=6.7.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 
 A Kf5 utility that allows you to manage disks, partitions, and file systems.
@@ -175,6 +175,17 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/pt_BR/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/pt_BR/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/pt_BR/partitionmanager/usermanual.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/copyhowto.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/credits.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/faq.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/glossary.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/index.cache.bz2
+* /usr/share/doc/HTML/sl/partitionmanager/index.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/installoshowto.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/introduction.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/referencemanual.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/resizehowto.docbook
+* /usr/share/doc/HTML/sl/partitionmanager/usermanual.docbook
 * /usr/share/doc/HTML/sv/partitionmanager/appendix.docbook
 * /usr/share/doc/HTML/sv/partitionmanager/copyhowto.docbook
 * /usr/share/doc/HTML/sv/partitionmanager/credits.docbook
@@ -229,8 +240,8 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/uk/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/usermanual.docbook
-* /usr/share/doc/partitionmanager-24.08.1/INSTALL.md
-* /usr/share/doc/partitionmanager-24.08.1/README.md
+* /usr/share/doc/partitionmanager-24.08.2/INSTALL.md
+* /usr/share/doc/partitionmanager-24.08.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/partitionmanager.svg
 * /usr/share/locale/ar/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ast/LC_MESSAGES/partitionmanager.mo

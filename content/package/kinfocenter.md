@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinfocenter 6.1.5-2"
-version = "6.1.5-2"
+title = "kinfocenter 6.2.1-1"
+version = "6.2.1-1"
 description = "Utility that provides information about a computer system."
-date = "2024-09-28T20:20:22"
+date = "2024-10-17T01:26:40"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "821784"
-usize = "2638006"
-sha1sum = "b05594fe8b412c3eeabf2d8a45a3c2c0d0ae5ee4"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.6.0', 'kirigami>=6.6.0', 'kpackage>=6.6.0', 'kwayland>=6.1.5', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.6.0', 'systemsettings>=6.1.5', 'vulkan-tools', 'wayland-utils']"
+size = "845928"
+usize = "2717434"
+sha1sum = "e11be4cf7dc2879e8314553db9116be0a66c9478"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.7.0', 'kirigami>=6.7.0', 'kpackage>=6.7.0', 'kwayland>=6.2.1', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.7.0', 'systemsettings>=6.2.1', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.
@@ -31,6 +31,7 @@ Utility that provides information about a computer system.
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_glx.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_interrupts.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_kwinsupportinfo.so
+* /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_memory.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_network.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_opencl.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_pci.so
@@ -71,6 +72,8 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/pt_BR/kinfocenter/kinfocenter.png
 * /usr/share/doc/HTML/ru/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/ru/kinfocenter/index.docbook
+* /usr/share/doc/HTML/sl/kinfocenter/index.cache.bz2
+* /usr/share/doc/HTML/sl/kinfocenter/index.docbook
 * /usr/share/doc/HTML/sr/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/sr/kinfocenter/index.docbook
 * /usr/share/doc/HTML/sr@latin/kinfocenter/index.cache.bz2
@@ -82,7 +85,7 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/uk/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/uk/kinfocenter/index.docbook
 * /usr/share/doc/HTML/uk/kinfocenter/kinfocenter.png
-* /usr/share/doc/kinfocenter-6.1.5/README.md
+* /usr/share/doc/kinfocenter-6.2.1/README.md
 * /usr/share/kinfocenter/categories/basicinformation.desktop
 * /usr/share/kinfocenter/categories/deviceinfocategory.desktop
 * /usr/share/kinfocenter/categories/graphicalinfocategory.desktop

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kubrick 24.08.1-2"
-version = "24.08.1-2"
+title = "kubrick 24.08.2-1"
+version = "24.08.2-1"
 description = "Kubrick is based on the famous Rubik's Cube"
-date = "2024-09-30T08:21:50"
+date = "2024-10-15T15:42:26"
 aliases = "/packages/219341"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "490184"
-usize = "1790614"
-sha1sum = "c15a406825557a6c2170b42a0898f58d641fb1b3"
-depends = "['libglu', 'libkdegames>=24.08.1']"
+size = "511236"
+usize = "1844628"
+sha1sum = "c80bf064a07600e0702d40b2d8c5ac3d9fc4c994"
+depends = "['libglu', 'libkdegames>=24.08.2']"
 +++
 ### Description: 
 Kubrick is based on the famous Rubik's Cube
@@ -41,14 +41,16 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/doc/HTML/pt/kubrick/index.docbook
 * /usr/share/doc/HTML/pt_BR/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kubrick/index.docbook
+* /usr/share/doc/HTML/sl/kubrick/index.cache.bz2
+* /usr/share/doc/HTML/sl/kubrick/index.docbook
 * /usr/share/doc/HTML/sv/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/sv/kubrick/index.docbook
 * /usr/share/doc/HTML/uk/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/uk/kubrick/index.docbook
-* /usr/share/doc/kubrick-24.08.1/AUTHORS
-* /usr/share/doc/kubrick-24.08.1/README
-* /usr/share/doc/kubrick-24.08.1/README.PACKAGERS
-* /usr/share/doc/kubrick-24.08.1/TODO
+* /usr/share/doc/kubrick-24.08.2/AUTHORS
+* /usr/share/doc/kubrick-24.08.2/README
+* /usr/share/doc/kubrick-24.08.2/README.PACKAGERS
+* /usr/share/doc/kubrick-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kubrick.png
 * /usr/share/icons/hicolor/16x16/apps/kubrick.png
 * /usr/share/icons/hicolor/22x22/apps/kubrick.png

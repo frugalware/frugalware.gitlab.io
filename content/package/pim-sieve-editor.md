@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-sieve-editor 24.08.1-2"
-version = "24.08.1-2"
+title = "pim-sieve-editor 24.08.2-1"
+version = "24.08.2-1"
 description = "Assistant for editing IMAP Sieve filters"
-date = "2024-09-29T21:21:07"
+date = "2024-10-15T14:30:35"
 aliases = "/packages/218942"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "546228"
-usize = "1353353"
-sha1sum = "17b097a7519392bcb455729ad04a94a47e39fec3"
-depends = "['libksieve>=24.08.1', 'messagelib>=24.08.1']"
+size = "550508"
+usize = "1363414"
+sha1sum = "64a603adf488e3abbe657f7e985bafd9db8951f7"
+depends = "['libksieve>=24.08.2', 'messagelib>=24.08.2']"
 +++
 ### Description: 
 Assistant for editing IMAP Sieve filters
@@ -19,7 +19,7 @@ Assistant for editing IMAP Sieve filters
 ### Files: 
 * /usr/bin/sieveeditor
 * /usr/lib/libsieveeditor.so.6
-* /usr/lib/libsieveeditor.so.6.2.1
+* /usr/lib/libsieveeditor.so.6.2.2
 * /usr/share/applications/org.kde.sieveeditor.desktop
 * /usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/sieveeditor/first-start.png
@@ -47,6 +47,8 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/doc/HTML/pt_BR/sieveeditor/index.docbook
 * /usr/share/doc/HTML/ru/sieveeditor/index.cache.bz2
 * /usr/share/doc/HTML/ru/sieveeditor/index.docbook
+* /usr/share/doc/HTML/sl/sieveeditor/index.cache.bz2
+* /usr/share/doc/HTML/sl/sieveeditor/index.docbook
 * /usr/share/doc/HTML/sv/sieveeditor/index.cache.bz2
 * /usr/share/doc/HTML/sv/sieveeditor/index.docbook
 * /usr/share/doc/HTML/uk/sieveeditor/index.cache.bz2

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kspaceduel 24.08.1-2"
-version = "24.08.1-2"
+title = "kspaceduel 24.08.2-1"
+version = "24.08.2-1"
 description = "KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun"
-date = "2024-09-30T08:18:36"
+date = "2024-10-15T15:40:57"
 aliases = "/packages/219340"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "656664"
-usize = "1733270"
-sha1sum = "d2f2b54a99c9a6f83550fafbb58406dcb39cd8f7"
-depends = "['libkdegames>=24.08.1']"
+size = "669228"
+usize = "1772053"
+sha1sum = "6b9de66c6aa274849edb69e2c408d0072091b947"
+depends = "['libkdegames>=24.08.2']"
 +++
 ### Description: 
 KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun
@@ -54,17 +54,19 @@ KSpaceDuel: each of two possible players controls a satellite spaceship orbiting
 * /usr/share/doc/HTML/pt_BR/kspaceduel/kspaceduel3.png
 * /usr/share/doc/HTML/ru/kspaceduel/index.cache.bz2
 * /usr/share/doc/HTML/ru/kspaceduel/index.docbook
+* /usr/share/doc/HTML/sl/kspaceduel/index.cache.bz2
+* /usr/share/doc/HTML/sl/kspaceduel/index.docbook
 * /usr/share/doc/HTML/sv/kspaceduel/index.cache.bz2
 * /usr/share/doc/HTML/sv/kspaceduel/index.docbook
 * /usr/share/doc/HTML/sv/kspaceduel/kspaceduel3.png
 * /usr/share/doc/HTML/uk/kspaceduel/index.cache.bz2
 * /usr/share/doc/HTML/uk/kspaceduel/index.docbook
 * /usr/share/doc/HTML/uk/kspaceduel/kspaceduel3.png
-* /usr/share/doc/kspaceduel-24.08.1/AUTHORS
-* /usr/share/doc/kspaceduel-24.08.1/ChangeLog
-* /usr/share/doc/kspaceduel-24.08.1/README
-* /usr/share/doc/kspaceduel-24.08.1/README.PACKAGERS
-* /usr/share/doc/kspaceduel-24.08.1/TODO
+* /usr/share/doc/kspaceduel-24.08.2/AUTHORS
+* /usr/share/doc/kspaceduel-24.08.2/ChangeLog
+* /usr/share/doc/kspaceduel-24.08.2/README
+* /usr/share/doc/kspaceduel-24.08.2/README.PACKAGERS
+* /usr/share/doc/kspaceduel-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kspaceduel.png
 * /usr/share/icons/hicolor/16x16/apps/kspaceduel.png
 * /usr/share/icons/hicolor/22x22/apps/kspaceduel.png

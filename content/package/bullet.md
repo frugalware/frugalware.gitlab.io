@@ -12,7 +12,7 @@ size = "4585764"
 usize = "27982795"
 sha1sum = "5e110910f20ad31d9e459c15a56f72129bdbf9a4"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['efl', 'enlightenment', 'terminology']"
+reverse_depends = "['efl', 'enlightenment', 'ogre', 'terminology']"
 +++
 ### Description: 
 Bullet is a professional free 3D Game Multiphysics Library

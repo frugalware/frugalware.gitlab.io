@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifyconfig 6.6.0-2"
-version = "6.6.0-2"
+title = "knotifyconfig 6.7.0-1"
+version = "6.7.0-1"
 description = "Configuration dialog for desktop notifications."
-date = "2024-09-28T19:44:23"
+date = "2024-10-14T17:48:50"
 aliases = "/packages/218338"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "52736"
-usize = "205205"
-sha1sum = "74695cc77a2d0b1b402641b7ae204ede3ee7c3e4"
-depends = "['kio>=6.6.0']"
+size = "52912"
+usize = "205938"
+sha1sum = "7823ab8b69c33681345563e7655abf3a5b2f5476"
+depends = "['kio>=6.7.0']"
 reverse_depends = "['akregator', 'digikam', 'k3b', 'kalarm', 'kdenlive', 'kdepim-runtime', 'kdevelop', 'kdiamond', 'kfourinline', 'kget', 'kgoldrunner', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmail', 'kmail-account-wizard', 'kmines', 'knavalbattle', 'knetwalk', 'kollision', 'konsole', 'konversation', 'kpat', 'krdc', 'ksquares', 'kteatime', 'ktuberling', 'kwordquiz', 'picmi', 'plasma-desktop', 'plasma-workspace', 'yakuake']"
 +++
 ### Description: 
@@ -28,8 +28,8 @@ Configuration dialog for desktop notifications.
 * /usr/lib/cmake/KF6NotifyConfig/KF6NotifyConfigTargets.cmake
 * /usr/lib/libKF6NotifyConfig.so
 * /usr/lib/libKF6NotifyConfig.so.6
-* /usr/lib/libKF6NotifyConfig.so.6.6.0
-* /usr/share/doc/knotifyconfig-6.6.0/README.md
+* /usr/lib/libKF6NotifyConfig.so.6.7.0
+* /usr/share/doc/knotifyconfig-6.7.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/knotifyconfig6.mo
 * /usr/share/locale/ar/LC_MESSAGES/knotifyconfig6.mo
 * /usr/share/locale/as/LC_MESSAGES/knotifyconfig6.mo

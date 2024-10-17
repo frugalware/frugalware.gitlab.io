@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-data-exporter 24.08.1-2"
-version = "24.08.1-2"
+title = "pim-data-exporter 24.08.2-1"
+version = "24.08.2-1"
 description = "Assistant to backup and archive PIM data and configuration"
-date = "2024-09-29T20:59:18"
+date = "2024-10-15T14:23:44"
 aliases = "/packages/218941"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "487636"
-usize = "1871834"
-sha1sum = "21d0dd5eb1e18e0cb747f4b47b6ca4ce6f562303"
-depends = "['calendarsupport>=24.08.1', 'kalarm>=24.08.1', 'mailcommon>=24.08.1']"
+size = "492476"
+usize = "1882015"
+sha1sum = "94d4de2b5e67c080f79a868ac2763e77938da48d"
+depends = "['calendarsupport>=24.08.2', 'kalarm>=24.08.2', 'mailcommon>=24.08.2']"
 +++
 ### Description: 
 Assistant to backup and archive PIM data and configuration
@@ -20,7 +20,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/bin/pimdataexporter
 * /usr/bin/pimdataexporterconsole
 * /usr/lib/libpimdataexporterprivate.so.6
-* /usr/lib/libpimdataexporterprivate.so.6.2.1
+* /usr/lib/libpimdataexporterprivate.so.6.2.2
 * /usr/share/applications/org.kde.pimdataexporter.desktop
 * /usr/share/config.kcfg/pimdataexporterglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/pimsettingexporter/index.cache.bz2
@@ -45,11 +45,13 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/doc/HTML/pt_BR/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/ru/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/ru/pimsettingexporter/index.docbook
+* /usr/share/doc/HTML/sl/pimsettingexporter/index.cache.bz2
+* /usr/share/doc/HTML/sl/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/sv/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/sv/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.docbook
-* /usr/share/doc/pim-data-exporter-24.08.1/TODO
+* /usr/share/doc/pim-data-exporter-24.08.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ast/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/az/LC_MESSAGES/pimdataexporter.mo
