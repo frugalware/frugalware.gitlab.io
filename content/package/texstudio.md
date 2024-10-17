@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texstudio 4.8.4-1"
-version = "4.8.4-1"
+title = "texstudio 4.8.4-2"
+version = "4.8.4-2"
 description = "Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents"
-date = "2024-10-16T15:40:04"
+date = "2024-10-17T12:31:50"
 aliases = "/packages/168583"
 categories = ['xapps-extra']
 upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
-size = "62971436"
-usize = "366293168"
-sha1sum = "1cd38faf38b8d8b9a3e545b097c56d0f8682f746"
-depends = "['hunspell>=1.7.0', 'poppler-qt6>=24.09.0', 'qt6-5compat', 'qt6-declarative', 'qt6-svg', 'quazip-qt6']"
+size = "62997932"
+usize = "366997476"
+sha1sum = "ed8985a12fb48aff66c5b0bf85aab51950bcacf9"
+depends = "['hunspell>=1.7.0', 'poppler-qt6>=24.10.0', 'qt6-5compat', 'qt6-declarative', 'qt6-svg', 'quazip-qt6']"
 +++
 ### Description: 
 Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents
@@ -19,9 +19,16 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 ### Files: 
 * /usr/bin/texstudio
 * /usr/share/applications/texstudio.desktop
+* /usr/share/doc/texstudio-4.8.4/AUTHORS
+* /usr/share/doc/texstudio-4.8.4/ChangeLog
 * /usr/share/doc/texstudio-4.8.4/COPYING
 * /usr/share/doc/texstudio-4.8.4/INSTALL
+* /usr/share/doc/texstudio-4.8.4/NEWS
+* /usr/share/doc/texstudio-4.8.4/README
+* /usr/share/doc/texstudio-4.8.4/README.MacOSX
 * /usr/share/doc/texstudio-4.8.4/README.md
+* /usr/share/doc/texstudio-4.8.4/README_150Manual
+* /usr/share/doc/texstudio-4.8.4/TODO
 * /usr/share/icons/hicolor/scalable/apps/texstudio.svg
 * /usr/share/metainfo/texstudio.metainfo.xml
 * /usr/share/texstudio/advanced.html
