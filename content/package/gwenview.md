@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gwenview 24.08.1-2"
-version = "24.08.1-2"
+title = "gwenview 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Image Viewer."
-date = "2024-09-29T17:18:09"
+date = "2024-10-15T13:46:20"
 aliases = "/packages/74209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6735856"
-usize = "11723618"
-sha1sum = "19b693e9b5408c837c361e8f61490fa0c0310d23"
-depends = "['baloo>=6.6.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.6.0', 'libkdcraw>=24.08.1', 'libtiff', 'plasma-activities>=6.1.5', 'purpose>=6.6.0', 'qt6-imageformats>=6.7.3']"
+size = "6757256"
+usize = "11783086"
+sha1sum = "f30198b523e31fa5f3a78fe1e431533d8484266d"
+depends = "['baloo>=6.7.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.7.0', 'libkdcraw>=24.08.2', 'libtiff', 'plasma-activities>=6.2.0', 'purpose>=6.7.0', 'qt6-imageformats>=6.8.0']"
 +++
 ### Description: 
 KDE Image Viewer.
@@ -25,10 +25,10 @@ KDE Image Viewer.
 * /usr/lib/qt6/plugins/kf6/parts/gvpart.so
 * /usr/share/applications/org.kde.gwenview.desktop
 * /usr/share/applications/org.kde.gwenview_importer.desktop
-* /usr/share/doc/gwenview-24.08.1/COPYING
-* /usr/share/doc/gwenview-24.08.1/COPYING.DOC
-* /usr/share/doc/gwenview-24.08.1/NEWS
-* /usr/share/doc/gwenview-24.08.1/README.md
+* /usr/share/doc/gwenview-24.08.2/COPYING
+* /usr/share/doc/gwenview-24.08.2/COPYING.DOC
+* /usr/share/doc/gwenview-24.08.2/NEWS
+* /usr/share/doc/gwenview-24.08.2/README.md
 * /usr/share/doc/HTML/ca/gwenview/browse_mode.png
 * /usr/share/doc/HTML/ca/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/ca/gwenview/index.docbook
@@ -72,6 +72,8 @@ KDE Image Viewer.
 * /usr/share/doc/HTML/pt_BR/gwenview/index.docbook
 * /usr/share/doc/HTML/ru/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/ru/gwenview/index.docbook
+* /usr/share/doc/HTML/sl/gwenview/index.cache.bz2
+* /usr/share/doc/HTML/sl/gwenview/index.docbook
 * /usr/share/doc/HTML/sr/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/sr/gwenview/index.docbook
 * /usr/share/doc/HTML/sr@latin/gwenview/index.cache.bz2

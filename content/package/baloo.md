@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "baloo 6.6.0-2"
-version = "6.6.0-2"
+title = "baloo 6.7.0-1"
+version = "6.7.0-1"
 description = "A framework for searching and managing metadata."
-date = "2024-09-28T19:38:05"
+date = "2024-10-14T17:43:28"
 aliases = "/packages/221281"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "474052"
-usize = "2356300"
-sha1sum = "555518f63f688530c08890349d2b33d5a74e5d56"
-depends = "['kfilemetadata>=6.6.0', 'kidletime>=6.6.0', 'kio>=6.6.0', 'lmdb>=0.9.18-3']"
+size = "478256"
+usize = "2362415"
+sha1sum = "58b4111ceb72e7a76d7fa6d7585ce393aaf4810d"
+depends = "['kfilemetadata>=6.7.0', 'kidletime>=6.7.0', 'kio>=6.7.0', 'lmdb>=0.9.18-3']"
 reverse_depends = "['arianna', 'baloo-widgets', 'elisa', 'gwenview', 'plasma-workspace']"
 +++
 ### Description: 
@@ -46,9 +46,9 @@ A framework for searching and managing metadata.
 * /usr/lib/cmake/KF6Baloo/KF6BalooTargets.cmake
 * /usr/lib/libKF6Baloo.so
 * /usr/lib/libKF6Baloo.so.6
-* /usr/lib/libKF6Baloo.so.6.6.0
+* /usr/lib/libKF6Baloo.so.6.7.0
 * /usr/lib/libKF6BalooEngine.so.6
-* /usr/lib/libKF6BalooEngine.so.6.6.0
+* /usr/lib/libKF6BalooEngine.so.6.7.0
 * /usr/lib/pkgconfig/KF6Baloo.pc
 * /usr/lib/qt6/plugins/kf6/kded/baloosearchmodule.so
 * /usr/lib/qt6/plugins/kf6/kio/baloosearch.so
@@ -68,7 +68,7 @@ A framework for searching and managing metadata.
 * /usr/share/dbus-1/interfaces/org.kde.baloo.main.xml
 * /usr/share/dbus-1/interfaces/org.kde.baloo.scheduler.xml
 * /usr/share/dbus-1/interfaces/org.kde.BalooWatcherApplication.xml
-* /usr/share/doc/baloo-6.6.0/README.md
+* /usr/share/doc/baloo-6.7.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/balooctl6.mo
 * /usr/share/locale/ar/LC_MESSAGES/baloodb6.mo
 * /usr/share/locale/ar/LC_MESSAGES/balooengine6.mo
@@ -168,6 +168,8 @@ A framework for searching and managing metadata.
 * /usr/share/locale/el/LC_MESSAGES/balooengine6.mo
 * /usr/share/locale/el/LC_MESSAGES/baloosearch6.mo
 * /usr/share/locale/el/LC_MESSAGES/balooshow6.mo
+* /usr/share/locale/el/LC_MESSAGES/baloo_file6.mo
+* /usr/share/locale/el/LC_MESSAGES/baloo_file_extractor6.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_baloosearch.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_tags.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_timeline.mo

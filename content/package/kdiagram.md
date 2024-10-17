@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiagram 3.0.1-1"
-version = "3.0.1-1"
+title = "kdiagram 3.0.1-2"
+version = "3.0.1-2"
 description = "Libraries for creating business diagrams"
-date = "2024-03-12T22:01:14"
+date = "2024-10-16T08:33:59"
 aliases = "/packages/218931"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "587404"
-usize = "2528169"
-sha1sum = "995ccf26dbced22f4dc1fc43f67ec7e716090591"
-depends = "['qt6-svg>=6.6.2']"
+size = "600556"
+usize = "2546327"
+sha1sum = "0b2e9e3508094207d92480e9f98049cd6a6a9f3f"
+depends = "['qt6-svg>=6.8.0']"
 reverse_depends = "['eventviews', 'massif-visualizer']"
 +++
 ### Description: 
@@ -216,7 +216,6 @@ Libraries for creating business diagrams
 * /usr/lib/libKGantt6.so.3.0.1
 * /usr/lib/qt6/mkspecs/modules/qt_KChart6.pri
 * /usr/lib/qt6/mkspecs/modules/qt_KGantt6.pri
-* /usr/share/doc/kdiagram-3.0.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kchart6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kgantt6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/kchart6_qt.qm

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblocks 24.08.1-2"
-version = "24.08.1-2"
+title = "kblocks 24.08.2-1"
+version = "24.08.2-1"
 description = "The classic falling blocks game."
-date = "2024-09-29T11:17:41"
+date = "2024-10-15T13:21:57"
 aliases = "/packages/184176"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2288400"
-usize = "2844279"
-sha1sum = "bfee2dd466cbddfe8b30b9ce89b3276009c4ba6e"
-depends = "['libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "2295028"
+usize = "2859923"
+sha1sum = "cad8c4ecc70cf2a6cc127d1a4abeab107e147701"
+depends = "['libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 The classic falling blocks game.
@@ -46,14 +46,16 @@ The classic falling blocks game.
 * /usr/share/doc/HTML/pt/kblocks/index.docbook
 * /usr/share/doc/HTML/pt_BR/kblocks/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kblocks/index.docbook
+* /usr/share/doc/HTML/sl/kblocks/index.cache.bz2
+* /usr/share/doc/HTML/sl/kblocks/index.docbook
 * /usr/share/doc/HTML/sv/kblocks/index.cache.bz2
 * /usr/share/doc/HTML/sv/kblocks/index.docbook
 * /usr/share/doc/HTML/uk/kblocks/gameboard.png
 * /usr/share/doc/HTML/uk/kblocks/index.cache.bz2
 * /usr/share/doc/HTML/uk/kblocks/index.docbook
-* /usr/share/doc/kblocks-24.08.1/COPYING
-* /usr/share/doc/kblocks-24.08.1/COPYING.DOC
-* /usr/share/doc/kblocks-24.08.1/README.PACKAGERS
+* /usr/share/doc/kblocks-24.08.2/COPYING
+* /usr/share/doc/kblocks-24.08.2/COPYING.DOC
+* /usr/share/doc/kblocks-24.08.2/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/kblocks.png
 * /usr/share/icons/hicolor/16x16/apps/kblocks.png
 * /usr/share/icons/hicolor/22x22/apps/kblocks.png

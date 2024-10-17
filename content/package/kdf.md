@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdf 24.08.1-3"
-version = "24.08.1-3"
+title = "kdf 24.08.2-1"
+version = "24.08.2-1"
 description = "KDiskFree displays the available file devices"
-date = "2024-09-29T10:28:49"
+date = "2024-10-15T12:30:31"
 aliases = "/packages/219331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "607932"
-usize = "1329895"
-sha1sum = "adf5a8a31ff02951067f3de116e81a5c54eac0eb"
-depends = "['kcmutils>=6.6.0', 'kio>=6.6.0', 'kstatusnotifieritem>=6.6.0']"
+size = "616772"
+usize = "1347493"
+sha1sum = "52201baa96beedc58df19af40e9f5f9145a24115"
+depends = "['kcmutils>=6.7.0', 'kio>=6.7.0', 'kstatusnotifieritem>=6.7.0']"
 +++
 ### Description: 
 KDiskFree displays the available file devices
@@ -20,7 +20,7 @@ KDiskFree displays the available file devices
 * /usr/bin/kdf
 * /usr/bin/kwikdisk
 * /usr/lib/libkdfprivate.so.24
-* /usr/lib/libkdfprivate.so.24.08.1
+* /usr/lib/libkdfprivate.so.24.08.2
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdf.so
 * /usr/share/applications/kcm_kdf.desktop
 * /usr/share/applications/org.kde.kdf.desktop
@@ -81,6 +81,10 @@ KDiskFree displays the available file devices
 * /usr/share/doc/HTML/ru/kcontrol/blockdevices/index.docbook
 * /usr/share/doc/HTML/ru/kdf/index.cache.bz2
 * /usr/share/doc/HTML/ru/kdf/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/blockdevices/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/blockdevices/index.docbook
+* /usr/share/doc/HTML/sl/kdf/index.cache.bz2
+* /usr/share/doc/HTML/sl/kdf/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol/blockdevices/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol/blockdevices/index.docbook
 * /usr/share/doc/HTML/sr/kdf/index.cache.bz2

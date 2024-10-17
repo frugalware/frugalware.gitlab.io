@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kapidox 6.6.0-2"
-version = "6.6.0-2"
+title = "kapidox 6.7.0-1"
+version = "6.7.0-1"
 description = "Frameworks API Documentation Tools."
-date = "2024-09-28T20:01:25"
+date = "2024-10-14T17:56:38"
 aliases = "/packages/218273"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "69892"
-usize = "242197"
-sha1sum = "050ba1bf66255345a91634fb5c3bd00c9cdb7f95"
+size = "69924"
+usize = "242191"
+sha1sum = "ae9f45cbbd5c398276e3a08b8d24e69a7c5e47a1"
 depends = "['python3>=3.10']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Frameworks API Documentation Tools.
 * /usr/bin/kapidox-depdiagram-generate
 * /usr/bin/kapidox-depdiagram-prepare
 * /usr/bin/kapidox-generate
-* /usr/lib/python3.12/site-packages/kapidox-6.6.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/kapidox-6.6.0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/kapidox-6.6.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/kapidox-6.6.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/kapidox-6.6.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/kapidox-6.6.0-py3.12.egg-info/top_level.txt
+* /usr/lib/python3.12/site-packages/kapidox-6.7.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/kapidox-6.7.0-py3.12.egg-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/kapidox-6.7.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/kapidox-6.7.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/kapidox-6.7.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/kapidox-6.7.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/kapidox/argparserutils.py
 * /usr/lib/python3.12/site-packages/kapidox/depdiagram/block.py
 * /usr/lib/python3.12/site-packages/kapidox/depdiagram/framework.py
@@ -61,4 +61,4 @@ Frameworks API Documentation Tools.
 * /usr/lib/python3.12/site-packages/kapidox/__pycache__/preprocessing.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/kapidox/__pycache__/utils.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/kapidox/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/kapidox-6.6.0/README.md
+* /usr/share/doc/kapidox-6.7.0/README.md

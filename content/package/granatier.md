@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "granatier 24.08.1-2"
-version = "24.08.1-2"
+title = "granatier 24.08.2-1"
+version = "24.08.2-1"
 description = "A clone of the classic Bomberman game."
-date = "2024-09-29T11:13:55"
+date = "2024-10-15T13:18:55"
 aliases = "/packages/184172"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2166724"
-usize = "3464020"
-sha1sum = "650667780d2c6bde3148ce6a2cb22edacbf93094"
-depends = "['libkdegames>=24.08.1']"
+size = "2176496"
+usize = "3493326"
+sha1sum = "9171b66d9d737c119b057ebc32a3a67ccf9846ca"
+depends = "['libkdegames>=24.08.2']"
 +++
 ### Description: 
 A clone of the classic Bomberman game.
@@ -80,6 +80,8 @@ A clone of the classic Bomberman game.
 * /usr/share/doc/HTML/pt_BR/granatier/index.docbook
 * /usr/share/doc/HTML/ru/granatier/index.cache.bz2
 * /usr/share/doc/HTML/ru/granatier/index.docbook
+* /usr/share/doc/HTML/sl/granatier/index.cache.bz2
+* /usr/share/doc/HTML/sl/granatier/index.docbook
 * /usr/share/doc/HTML/sv/granatier/index.cache.bz2
 * /usr/share/doc/HTML/sv/granatier/index.docbook
 * /usr/share/doc/HTML/uk/granatier/config_arena.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbackup 24.08.1-2"
-version = "24.08.1-2"
+title = "kbackup 24.08.2-1"
+version = "24.08.2-1"
 description = "Backup program for KDE."
-date = "2024-09-30T07:51:11"
+date = "2024-10-15T15:26:11"
 aliases = "/packages/219632"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "510648"
-usize = "1301737"
-sha1sum = "76e2ab7e3f1729e1937ed0c750cb66737b15b98a"
-depends = "['karchive>=6.6.0', 'ki18n>=6.6.0', 'kiconthemes>=6.6.0', 'kio>=6.6.0', 'knotifications>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kwidgetsaddons>=6.6.0', 'kxmlgui>=6.6.0']"
+size = "527460"
+usize = "1348933"
+sha1sum = "a924d6f4e3c2cfe2f33cbadee3d0b49303e73fcf"
+depends = "['karchive>=6.7.0', 'ki18n>=6.7.0', 'kiconthemes>=6.7.0', 'kio>=6.7.0', 'knotifications>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'kwidgetsaddons>=6.7.0', 'kxmlgui>=6.7.0']"
 +++
 ### Description: 
 Backup program for KDE.
@@ -33,6 +33,8 @@ Backup program for KDE.
 * /usr/share/doc/HTML/it/kbackup/index.docbook
 * /usr/share/doc/HTML/nl/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/nl/kbackup/index.docbook
+* /usr/share/doc/HTML/sl/kbackup/index.cache.bz2
+* /usr/share/doc/HTML/sl/kbackup/index.docbook
 * /usr/share/doc/HTML/sv/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/sv/kbackup/index.docbook
 * /usr/share/doc/HTML/tr/kbackup/index.cache.bz2
@@ -40,11 +42,11 @@ Backup program for KDE.
 * /usr/share/doc/HTML/uk/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbackup/index.docbook
 * /usr/share/doc/HTML/uk/kbackup/mainwindow.png
-* /usr/share/doc/kbackup-24.08.1/AUTHORS
-* /usr/share/doc/kbackup-24.08.1/ChangeLog
-* /usr/share/doc/kbackup-24.08.1/COPYING
-* /usr/share/doc/kbackup-24.08.1/README
-* /usr/share/doc/kbackup-24.08.1/TODO
+* /usr/share/doc/kbackup-24.08.2/AUTHORS
+* /usr/share/doc/kbackup-24.08.2/ChangeLog
+* /usr/share/doc/kbackup-24.08.2/COPYING
+* /usr/share/doc/kbackup-24.08.2/README
+* /usr/share/doc/kbackup-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbackup.png
 * /usr/share/icons/hicolor/16x16/apps/kbackup.png
 * /usr/share/icons/hicolor/16x16/mimetypes/text-x-kbp.png
@@ -55,6 +57,7 @@ Backup program for KDE.
 * /usr/share/icons/hicolor/32x32/mimetypes/text-x-kbp.png
 * /usr/share/locale/ar/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ast/LC_MESSAGES/kbackup.mo
+* /usr/share/locale/bg/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ca/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kbackup.mo
 * /usr/share/locale/cs/LC_MESSAGES/kbackup.mo
@@ -98,6 +101,7 @@ Backup program for KDE.
 * /usr/share/man/it/man1/kbackup.1.gz
 * /usr/share/man/man1/kbackup.1.gz
 * /usr/share/man/nl/man1/kbackup.1.gz
+* /usr/share/man/sl/man1/kbackup.1.gz
 * /usr/share/man/sv/man1/kbackup.1.gz
 * /usr/share/man/tr/man1/kbackup.1.gz
 * /usr/share/man/uk/man1/kbackup.1.gz

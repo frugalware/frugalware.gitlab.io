@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbounce 24.08.1-2"
-version = "24.08.1-2"
+title = "kbounce 24.08.2-1"
+version = "24.08.2-1"
 description = "A single player arcade game with the elements of puzzle."
-date = "2024-09-29T11:18:38"
+date = "2024-10-15T13:22:39"
 aliases = "/packages/184177"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3292040"
-usize = "3924100"
-sha1sum = "c25c65a6697e8648c27853093be148f7cb1cfc5b"
-depends = "['libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "3303304"
+usize = "3945609"
+sha1sum = "4735d06444910aaa9d1ac073b1b1810808e443b7"
+depends = "['libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A single player arcade game with the elements of puzzle.
@@ -58,6 +58,8 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/doc/HTML/pt_BR/kbounce/index.docbook
 * /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor1.png
 * /usr/share/doc/HTML/pt_BR/kbounce/kbounce_corridor2.png
+* /usr/share/doc/HTML/sl/kbounce/index.cache.bz2
+* /usr/share/doc/HTML/sl/kbounce/index.docbook
 * /usr/share/doc/HTML/sv/kbounce/index.cache.bz2
 * /usr/share/doc/HTML/sv/kbounce/index.docbook
 * /usr/share/doc/HTML/tr/kbounce/index.cache.bz2

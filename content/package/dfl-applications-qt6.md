@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-applications-qt6 0.2.0-4"
-version = "0.2.0-4"
+title = "dfl-applications-qt6 0.2.0-5"
+version = "0.2.0-5"
 description = "A class that extends QApplications Qt6"
-date = "2024-09-30T12:50:15"
+date = "2024-10-16T17:29:07"
 aliases = "/packages/221552"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/applications"
 arch = "x86_64"
-size = "19592"
+size = "19552"
 usize = "122921"
-sha1sum = "f77102abcccc25871320a352e95d1b8a730eaaf3"
+sha1sum = "9f67cbb2d056e407e63659ec7de6916d9a269886"
 depends = "['dfl-ipc-qt6']"
 reverse_depends = "['greetd-qt6greet']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khangman 24.08.1-2"
-version = "24.08.1-2"
+title = "khangman 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE hangman game."
-date = "2024-09-29T13:29:25"
+date = "2024-10-15T13:40:40"
 aliases = "/packages/152829"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6214220"
-usize = "9530174"
-sha1sum = "df2d4d3261da1a08db912b2443c9a5febb9d95db"
-depends = "['kdeclarative>=6.6.0', 'knewstuff>=6.6.0', 'libkeduvocdocument>=24.08.1', 'qt6-declarative>=6.7.3', 'qt6-svg>=6.7.3']"
+size = "6227720"
+usize = "9563479"
+sha1sum = "0cbbac462c392debfbdc119bd7929d0b67c41f47"
+depends = "['kdeclarative>=6.7.0', 'knewstuff>=6.7.0', 'libkeduvocdocument>=24.08.2', 'qt6-declarative>=6.8.0', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 KDE hangman game.
@@ -90,6 +90,8 @@ KDE hangman game.
 * /usr/share/doc/HTML/ru/khangman/khangman-desert.png
 * /usr/share/doc/HTML/ru/khangman/khangman-main.png
 * /usr/share/doc/HTML/ru/khangman/settings.png
+* /usr/share/doc/HTML/sl/khangman/index.cache.bz2
+* /usr/share/doc/HTML/sl/khangman/index.docbook
 * /usr/share/doc/HTML/sv/khangman/getnewstuff.png
 * /usr/share/doc/HTML/sv/khangman/index.cache.bz2
 * /usr/share/doc/HTML/sv/khangman/index.docbook
@@ -102,16 +104,16 @@ KDE hangman game.
 * /usr/share/doc/HTML/uk/khangman/settings-languages.png
 * /usr/share/doc/HTML/uk/khangman/settings-timers.png
 * /usr/share/doc/HTML/uk/khangman/settings.png
-* /usr/share/doc/khangman-24.08.1/AUTHORS
-* /usr/share/doc/khangman-24.08.1/ChangeLog
-* /usr/share/doc/khangman-24.08.1/COPYING
-* /usr/share/doc/khangman-24.08.1/COPYING.DOC
-* /usr/share/doc/khangman-24.08.1/INSTALL
-* /usr/share/doc/khangman-24.08.1/README
-* /usr/share/doc/khangman-24.08.1/README.developer
-* /usr/share/doc/khangman-24.08.1/README.languages
-* /usr/share/doc/khangman-24.08.1/README_packagers
-* /usr/share/doc/khangman-24.08.1/TODO
+* /usr/share/doc/khangman-24.08.2/AUTHORS
+* /usr/share/doc/khangman-24.08.2/ChangeLog
+* /usr/share/doc/khangman-24.08.2/COPYING
+* /usr/share/doc/khangman-24.08.2/COPYING.DOC
+* /usr/share/doc/khangman-24.08.2/INSTALL
+* /usr/share/doc/khangman-24.08.2/README
+* /usr/share/doc/khangman-24.08.2/README.developer
+* /usr/share/doc/khangman-24.08.2/README.languages
+* /usr/share/doc/khangman-24.08.2/README_packagers
+* /usr/share/doc/khangman-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/khangman.png
 * /usr/share/icons/hicolor/16x16/apps/khangman.png
 * /usr/share/icons/hicolor/22x22/apps/khangman.png
@@ -235,6 +237,7 @@ KDE hangman game.
 * /usr/share/man/pt/man6/khangman.6.gz
 * /usr/share/man/pt_BR/man6/khangman.6.gz
 * /usr/share/man/ru/man6/khangman.6.gz
+* /usr/share/man/sl/man6/khangman.6.gz
 * /usr/share/man/sv/man6/khangman.6.gz
 * /usr/share/man/uk/man6/khangman.6.gz
 * /usr/share/metainfo/org.kde.khangman.appdata.xml

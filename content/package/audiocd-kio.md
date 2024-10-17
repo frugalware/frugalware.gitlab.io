@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "audiocd-kio 24.08.1-2"
-version = "24.08.1-2"
+title = "audiocd-kio 24.08.2-1"
+version = "24.08.2-1"
 description = "Kioslave for accessing audio CDs"
-date = "2024-09-29T21:45:52"
+date = "2024-10-15T14:45:06"
 aliases = "/packages/219318"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "683420"
-usize = "2443405"
-sha1sum = "f8b07b9523854533bf63678c02be02ff14ff07fb"
-depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=6.6.0', 'libkcddb>=24.08.1', 'libkcompactdisc>=24.08.1']"
+size = "697360"
+usize = "2475381"
+sha1sum = "bb1a0011a7340d58916dc1183a2dc42b0e830713"
+depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=6.7.0', 'libkcddb>=24.08.2', 'libkcompactdisc>=24.08.2']"
 +++
 ### Description: 
 Kioslave for accessing audio CDs
@@ -35,9 +35,9 @@ Kioslave for accessing audio CDs
 * /usr/share/config.kcfg/audiocd_lame_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_opus_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_vorbis_encoder.kcfg
-* /usr/share/doc/audiocd-kio-24.08.1/COPYING
-* /usr/share/doc/audiocd-kio-24.08.1/COPYING.DOC
-* /usr/share/doc/audiocd-kio-24.08.1/HACKING
+* /usr/share/doc/audiocd-kio-24.08.2/COPYING
+* /usr/share/doc/audiocd-kio-24.08.2/COPYING.DOC
+* /usr/share/doc/audiocd-kio-24.08.2/HACKING
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/audiocd/index.cache.bz2
@@ -82,6 +82,10 @@ Kioslave for accessing audio CDs
 * /usr/share/doc/HTML/ru/kcontrol/kcmaudiocd/index.docbook
 * /usr/share/doc/HTML/ru/kioworker6/audiocd/index.cache.bz2
 * /usr/share/doc/HTML/ru/kioworker6/audiocd/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kcmaudiocd/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kcmaudiocd/index.docbook
+* /usr/share/doc/HTML/sl/kioworker6/audiocd/index.cache.bz2
+* /usr/share/doc/HTML/sl/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/audiocd/index.cache.bz2
 * /usr/share/doc/HTML/sr/kioworker6/audiocd/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/audiocd/index.cache.bz2

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblackbox 24.08.1-2"
-version = "24.08.1-2"
+title = "kblackbox 24.08.2-1"
+version = "24.08.2-1"
 description = "A game of hide and seek played on a grid of boxes."
-date = "2024-09-29T11:16:42"
+date = "2024-10-15T13:21:09"
 aliases = "/packages/184175"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "614228"
-usize = "1904843"
-sha1sum = "064257fe7751b4e86cb4d3d2a5952a0a670f1950"
-depends = "['libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "624372"
+usize = "1930256"
+sha1sum = "738193903ba604601f201a1b4b9849e06f6f8811"
+depends = "['libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A game of hide and seek played on a grid of boxes.
@@ -41,13 +41,15 @@ A game of hide and seek played on a grid of boxes.
 * /usr/share/doc/HTML/pt/kblackbox/index.docbook
 * /usr/share/doc/HTML/pt_BR/kblackbox/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kblackbox/index.docbook
+* /usr/share/doc/HTML/sl/kblackbox/index.cache.bz2
+* /usr/share/doc/HTML/sl/kblackbox/index.docbook
 * /usr/share/doc/HTML/sv/kblackbox/index.cache.bz2
 * /usr/share/doc/HTML/sv/kblackbox/index.docbook
 * /usr/share/doc/HTML/uk/kblackbox/gameboard.png
 * /usr/share/doc/HTML/uk/kblackbox/index.cache.bz2
 * /usr/share/doc/HTML/uk/kblackbox/index.docbook
-* /usr/share/doc/kblackbox-24.08.1/CHANGES
-* /usr/share/doc/kblackbox-24.08.1/README
+* /usr/share/doc/kblackbox-24.08.2/CHANGES
+* /usr/share/doc/kblackbox-24.08.2/README
 * /usr/share/icons/hicolor/128x128/apps/kblackbox.png
 * /usr/share/icons/hicolor/16x16/apps/kblackbox.png
 * /usr/share/icons/hicolor/22x22/apps/kblackbox.png

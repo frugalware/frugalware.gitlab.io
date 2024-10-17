@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-runtime 24.08.1-2"
-version = "24.08.1-2"
+title = "kdepim-runtime 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE PIM Runtime"
-date = "2024-09-29T21:02:11"
+date = "2024-10-15T14:26:18"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2196040"
-usize = "13057559"
-sha1sum = "eb78576f5bfb6d6796c4ae586dc811e2d8dc745f"
-depends = "['akonadi-calendar>=24.08.1', 'akonadi-notes>=24.08.1', 'kalarm>=24.08.1', 'kdav>=6.6.0', 'kimap>=24.08.1', 'kmbox>=24.08.1', 'knotifyconfig>=6.6.0', 'libkgapi>=24.08.1', 'pimcommon>=24.08.1', 'qca', 'qt6-networkauth>=6.7.3', 'syndication>=6.6.0']"
+size = "2180660"
+usize = "12959574"
+sha1sum = "e63ba599f1594bd7e8ca1940bd624e80ed96f57a"
+depends = "['akonadi-calendar>=24.08.2', 'akonadi-notes>=24.08.2', 'kalarm>=24.08.2', 'kdav>=6.7.0', 'kimap>=24.08.2', 'kmbox>=24.08.2', 'knotifyconfig>=6.7.0', 'libkgapi>=24.08.2', 'pimcommon>=24.08.2', 'qca', 'qt6-networkauth>=6.8.0', 'syndication>=6.7.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 
@@ -39,17 +39,17 @@ KDE PIM Runtime
 * /usr/bin/akonadi_vcard_resource
 * /usr/bin/gidmigrator
 * /usr/lib/libakonadi-filestore.so.6
-* /usr/lib/libakonadi-filestore.so.6.2.1
+* /usr/lib/libakonadi-filestore.so.6.2.2
 * /usr/lib/libakonadi-singlefileresource.so.6
-* /usr/lib/libakonadi-singlefileresource.so.6.2.1
+* /usr/lib/libakonadi-singlefileresource.so.6.2.2
 * /usr/lib/libfolderarchivesettings.so.6
-* /usr/lib/libfolderarchivesettings.so.6.2.1
+* /usr/lib/libfolderarchivesettings.so.6.2.2
 * /usr/lib/libkmindexreader.so.6
-* /usr/lib/libkmindexreader.so.6.2.1
+* /usr/lib/libkmindexreader.so.6.2.2
 * /usr/lib/libmaildir.so.6
-* /usr/lib/libmaildir.so.6.2.1
+* /usr/lib/libmaildir.so.6.2.2
 * /usr/lib/libnewmailnotifier.so.6
-* /usr/lib/libnewmailnotifier.so.6.2.1
+* /usr/lib/libnewmailnotifier.so.6.2.2
 * /usr/lib/qt6/plugins/kf6/kio/akonadi.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/akonotesconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/birthdaysconfig.so
@@ -115,7 +115,7 @@ KDE PIM Runtime
 * /usr/share/applications/org.kde.akonadi_vcard_resource.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.MixedMaildir.Settings.xml
-* /usr/share/doc/kdepim-runtime-24.08.1/README.md
+* /usr/share/doc/kdepim-runtime-24.08.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/ox.png
 * /usr/share/icons/hicolor/16x16/apps/ox.png
 * /usr/share/icons/hicolor/32x32/apps/ox.png
@@ -145,7 +145,6 @@ KDE PIM Runtime
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ar/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ar/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ar/LC_MESSAGES/gid-migrator.mo
@@ -170,7 +169,6 @@ KDE PIM Runtime
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ast/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ast/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ast/LC_MESSAGES/gid-migrator.mo
@@ -195,7 +193,6 @@ KDE PIM Runtime
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/bg/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/bg/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/bg/LC_MESSAGES/gid-migrator.mo
@@ -242,7 +239,6 @@ KDE PIM Runtime
 * /usr/share/locale/ca/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ca/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ca/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ca/LC_MESSAGES/gid-migrator.mo
@@ -267,7 +263,6 @@ KDE PIM Runtime
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/gid-migrator.mo
@@ -292,7 +287,6 @@ KDE PIM Runtime
 * /usr/share/locale/cs/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/cs/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/cs/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/cs/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/cs/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/cs/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/cs/LC_MESSAGES/gid-migrator.mo
@@ -316,7 +310,6 @@ KDE PIM Runtime
 * /usr/share/locale/da/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/da/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/da/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/da/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/da/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/da/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/da/LC_MESSAGES/gid-migrator.mo
@@ -341,7 +334,6 @@ KDE PIM Runtime
 * /usr/share/locale/de/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/de/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/de/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/de/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/de/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/de/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/de/LC_MESSAGES/gid-migrator.mo
@@ -364,7 +356,6 @@ KDE PIM Runtime
 * /usr/share/locale/el/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/el/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/el/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/el/LC_MESSAGES/gid-migrator.mo
@@ -389,7 +380,6 @@ KDE PIM Runtime
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/gid-migrator.mo
@@ -414,7 +404,6 @@ KDE PIM Runtime
 * /usr/share/locale/eo/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/eo/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/eo/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/eo/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/eo/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/eo/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/eo/LC_MESSAGES/gid-migrator.mo
@@ -439,7 +428,6 @@ KDE PIM Runtime
 * /usr/share/locale/es/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/es/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/es/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/es/LC_MESSAGES/gid-migrator.mo
@@ -463,7 +451,6 @@ KDE PIM Runtime
 * /usr/share/locale/et/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/et/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/et/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/et/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/et/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/et/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/et/LC_MESSAGES/gid-migrator.mo
@@ -488,7 +475,6 @@ KDE PIM Runtime
 * /usr/share/locale/eu/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/eu/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/eu/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/eu/LC_MESSAGES/gid-migrator.mo
@@ -513,7 +499,6 @@ KDE PIM Runtime
 * /usr/share/locale/fi/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/fi/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/fi/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/fi/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/fi/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/fi/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/fi/LC_MESSAGES/gid-migrator.mo
@@ -538,7 +523,6 @@ KDE PIM Runtime
 * /usr/share/locale/fr/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/fr/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/fr/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/fr/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/fr/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/fr/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/fr/LC_MESSAGES/gid-migrator.mo
@@ -582,7 +566,6 @@ KDE PIM Runtime
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/gl/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/gl/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/gl/LC_MESSAGES/gid-migrator.mo
@@ -607,7 +590,6 @@ KDE PIM Runtime
 * /usr/share/locale/he/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/he/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/he/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/he/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/he/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/he/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/he/LC_MESSAGES/gid-migrator.mo
@@ -634,7 +616,6 @@ KDE PIM Runtime
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/hu/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/hu/LC_MESSAGES/gid-migrator.mo
@@ -659,7 +640,6 @@ KDE PIM Runtime
 * /usr/share/locale/ia/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ia/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ia/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ia/LC_MESSAGES/gid-migrator.mo
@@ -685,7 +665,6 @@ KDE PIM Runtime
 * /usr/share/locale/it/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/it/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/it/LC_MESSAGES/gid-migrator.mo
@@ -710,7 +689,6 @@ KDE PIM Runtime
 * /usr/share/locale/ja/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ja/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ja/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ja/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ja/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ja/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ja/LC_MESSAGES/gid-migrator.mo
@@ -735,7 +713,6 @@ KDE PIM Runtime
 * /usr/share/locale/ka/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ka/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ka/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ka/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ka/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ka/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ka/LC_MESSAGES/gid-migrator.mo
@@ -798,7 +775,6 @@ KDE PIM Runtime
 * /usr/share/locale/ko/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ko/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ko/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ko/LC_MESSAGES/gid-migrator.mo
@@ -823,7 +799,6 @@ KDE PIM Runtime
 * /usr/share/locale/lt/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/lt/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/lt/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/lt/LC_MESSAGES/gid-migrator.mo
@@ -932,7 +907,6 @@ KDE PIM Runtime
 * /usr/share/locale/nl/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/nl/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/nl/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/nl/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/nl/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/nl/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/nl/LC_MESSAGES/gid-migrator.mo
@@ -987,7 +961,6 @@ KDE PIM Runtime
 * /usr/share/locale/pl/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/pl/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/pl/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/pl/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/pl/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/pl/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/pl/LC_MESSAGES/gid-migrator.mo
@@ -1012,7 +985,6 @@ KDE PIM Runtime
 * /usr/share/locale/pt/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/pt/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/pt/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/pt/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/pt/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/pt/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/pt/LC_MESSAGES/gid-migrator.mo
@@ -1037,7 +1009,6 @@ KDE PIM Runtime
 * /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/gid-migrator.mo
@@ -1079,7 +1050,6 @@ KDE PIM Runtime
 * /usr/share/locale/ru/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/ru/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/ru/LC_MESSAGES/gid-migrator.mo
@@ -1104,7 +1074,6 @@ KDE PIM Runtime
 * /usr/share/locale/sk/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sk/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sk/LC_MESSAGES/gid-migrator.mo
@@ -1129,7 +1098,6 @@ KDE PIM Runtime
 * /usr/share/locale/sl/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sl/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sl/LC_MESSAGES/gid-migrator.mo
@@ -1160,7 +1128,6 @@ KDE PIM Runtime
 * /usr/share/locale/sr/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sr/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sr/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sr/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sr/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sr/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sr/LC_MESSAGES/gid-migrator.mo
@@ -1183,7 +1150,6 @@ KDE PIM Runtime
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/gid-migrator.mo
@@ -1206,7 +1172,6 @@ KDE PIM Runtime
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/gid-migrator.mo
@@ -1229,7 +1194,6 @@ KDE PIM Runtime
 * /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/gid-migrator.mo
@@ -1254,7 +1218,6 @@ KDE PIM Runtime
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/sv/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/sv/LC_MESSAGES/gid-migrator.mo
@@ -1287,7 +1250,6 @@ KDE PIM Runtime
 * /usr/share/locale/tr/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/tr/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/tr/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/tr/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/tr/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/tr/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/tr/LC_MESSAGES/gid-migrator.mo
@@ -1331,7 +1293,6 @@ KDE PIM Runtime
 * /usr/share/locale/uk/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/uk/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/uk/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/uk/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/uk/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/uk/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/uk/LC_MESSAGES/gid-migrator.mo
@@ -1356,7 +1317,6 @@ KDE PIM Runtime
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gid-migrator.mo
@@ -1381,7 +1341,6 @@ KDE PIM Runtime
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_openxchange_resource.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_pop3_resource.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_singlefile_resource.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_tomboynotes_resource.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_vcarddir_resource.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/akonadi_vcard_resource.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/gid-migrator.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalgebra 24.08.1-3"
-version = "24.08.1-3"
+title = "kalgebra 24.08.2-1"
+version = "24.08.2-1"
 description = "2D and 3D Graph Calculator."
-date = "2024-09-29T10:19:07"
+date = "2024-10-15T12:23:26"
 aliases = "/packages/152824"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1038028"
-usize = "2172696"
-sha1sum = "c8269ec8bbd230501dfb3de560eff2369c2def6a"
-depends = "['analitza>=24.08.1', 'kio>=6.6.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.7.3', 'readline>=8.0']"
+size = "1056700"
+usize = "2233536"
+sha1sum = "6318ac3759b46486d9e5b9274511db550c909af2"
+depends = "['analitza>=24.08.2', 'kio>=6.7.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.8.0', 'readline>=8.0']"
 +++
 ### Description: 
 2D and 3D Graph Calculator.
@@ -64,6 +64,9 @@ depends = "['analitza>=24.08.1', 'kio>=6.6.0', 'libglu>=9.0.0-3', 'qt6-webengine
 * /usr/share/doc/HTML/ru/kalgebra/index.cache.bz2
 * /usr/share/doc/HTML/ru/kalgebra/index.docbook
 * /usr/share/doc/HTML/ru/kalgebra/kalgebra-main-window.png
+* /usr/share/doc/HTML/sl/kalgebra/commands.docbook
+* /usr/share/doc/HTML/sl/kalgebra/index.cache.bz2
+* /usr/share/doc/HTML/sl/kalgebra/index.docbook
 * /usr/share/doc/HTML/sv/kalgebra/commands.docbook
 * /usr/share/doc/HTML/sv/kalgebra/index.cache.bz2
 * /usr/share/doc/HTML/sv/kalgebra/index.docbook
@@ -75,10 +78,10 @@ depends = "['analitza>=24.08.1', 'kio>=6.6.0', 'libglu>=9.0.0-3', 'qt6-webengine
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-console-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-dictionary-window.png
 * /usr/share/doc/HTML/uk/kalgebra/kalgebra-main-window.png
-* /usr/share/doc/kalgebra-24.08.1/COPYING
-* /usr/share/doc/kalgebra-24.08.1/COPYING.DOC
-* /usr/share/doc/kalgebra-24.08.1/COPYING.LIB
-* /usr/share/doc/kalgebra-24.08.1/TODO
+* /usr/share/doc/kalgebra-24.08.2/COPYING
+* /usr/share/doc/kalgebra-24.08.2/COPYING.DOC
+* /usr/share/doc/kalgebra-24.08.2/COPYING.LIB
+* /usr/share/doc/kalgebra-24.08.2/TODO
 * /usr/share/icons/hicolor/64x64/apps/kalgebra.png
 * /usr/share/icons/hicolor/scalable/apps/kalgebra.svgz
 * /usr/share/katepart5/syntax/kalgebra.xml

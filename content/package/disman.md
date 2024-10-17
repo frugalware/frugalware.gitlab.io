@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "disman 0.601.0-1"
-version = "0.601.0-1"
+title = "disman 0.601.0-2"
+version = "0.601.0-2"
 description = "Qt/C++ display management library"
-date = "2024-06-25T07:47:59"
+date = "2024-10-16T08:28:06"
 aliases = "/packages/220462"
 categories = ['kde6-extra']
 upstreamurl = "https://github.com/winft/disman"
 arch = "x86_64"
-size = "272692"
-usize = "1114472"
-sha1sum = "409cf422afc12ea4f760d228ffac7efd573eca56"
+size = "270696"
+usize = "1117734"
+sha1sum = "e3df64db7dbb0acd6fece827225a13a54d988109"
 depends = "['kcoreaddons>=', 'wrapland']"
 +++
 ### Description: 

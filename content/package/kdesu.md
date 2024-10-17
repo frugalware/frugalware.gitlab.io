@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdesu 6.6.0-2"
-version = "6.6.0-2"
+title = "kdesu 6.7.0-1"
+version = "6.7.0-1"
 description = "User interface for running shell commands with root privileges."
-date = "2024-09-28T19:04:52"
+date = "2024-10-14T17:33:50"
 aliases = "/packages/218302"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "63468"
-usize = "220727"
-sha1sum = "64be0868fe7544d9dca60bf72fe0b7005f4aef77"
-depends = "['kpty>=6.6.0', 'kservice>=6.6.0']"
+size = "63608"
+usize = "220474"
+sha1sum = "d5cca38f7ea8655985793781bcab60ab9ccbdcf0"
+depends = "['kpty>=6.7.0', 'kservice>=6.7.0']"
 reverse_depends = "['kde-cli-tools', 'konqueror']"
 +++
 ### Description: 
@@ -39,8 +39,8 @@ User interface for running shell commands with root privileges.
 * /usr/lib/kdesu/kf6/kdesu_stub
 * /usr/lib/libKF6Su.so
 * /usr/lib/libKF6Su.so.6
-* /usr/lib/libKF6Su.so.6.6.0
-* /usr/share/doc/kdesu-6.6.0/README.md
+* /usr/lib/libKF6Su.so.6.7.0
+* /usr/share/doc/kdesu-6.7.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdesud6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdesud6.mo
 * /usr/share/locale/az/LC_MESSAGES/kdesud6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdoctools 6.6.0-2"
-version = "6.6.0-2"
+title = "kdoctools 6.7.0-1"
+version = "6.7.0-1"
 description = "Create documentation from DocBook."
-date = "2024-09-28T18:50:55"
+date = "2024-10-14T17:22:24"
 aliases = "/packages/218305"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "419200"
-usize = "2459573"
-sha1sum = "aba862d0b04ae4ea4e21193259aead3ddfbeecbf"
-depends = "['docbook-xsl', 'karchive>=6.6.0', 'libxslt']"
+size = "425368"
+usize = "2465603"
+sha1sum = "79d652f391770eb60bb120c5f381a84c0b44e123"
+depends = "['docbook-xsl', 'karchive>=6.7.0', 'libxslt']"
 reverse_depends = "['kcachegrind', 'sweeper']"
 +++
 ### Description: 
@@ -32,7 +32,7 @@ Create documentation from DocBook.
 * /usr/lib/cmake/KF6DocTools/KF6DocToolsToolsTargets.cmake
 * /usr/lib/libKF6DocTools.so
 * /usr/lib/libKF6DocTools.so.6
-* /usr/lib/libKF6DocTools.so.6.6.0
+* /usr/lib/libKF6DocTools.so.6.7.0
 * /usr/share/doc/HTML/af/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/ca/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/cs/kdoctools6-common/kde-localised.css
@@ -111,8 +111,8 @@ Create documentation from DocBook.
 * /usr/share/doc/HTML/uk/kdoctools6-common/lgpl-translated.html
 * /usr/share/doc/HTML/wa/kdoctools6-common/kde-localised.css
 * /usr/share/doc/HTML/xh/kdoctools6-common/kde-localised.css
-* /usr/share/doc/kdoctools-6.6.0/README.md
-* /usr/share/doc/kdoctools-6.6.0/TODO
+* /usr/share/doc/kdoctools-6.7.0/README.md
+* /usr/share/doc/kdoctools-6.7.0/TODO
 * /usr/share/kf6/kdoctools/customization/af/catalog.xml
 * /usr/share/kf6/kdoctools/customization/af/entities/fdl-notice.docbook
 * /usr/share/kf6/kdoctools/customization/af/entities/gpl-notice.docbook
@@ -1163,6 +1163,10 @@ Create documentation from DocBook.
 * /usr/share/man/nl/man1/meinproc6.1.gz
 * /usr/share/man/nl/man7/kf6options.7.gz
 * /usr/share/man/nl/man7/qt6options.7.gz
+* /usr/share/man/sl/man1/checkXML6.1.gz
+* /usr/share/man/sl/man1/meinproc6.1.gz
+* /usr/share/man/sl/man7/kf6options.7.gz
+* /usr/share/man/sl/man7/qt6options.7.gz
 * /usr/share/man/tr/man1/checkXML6.1.gz
 * /usr/share/man/tr/man1/meinproc6.1.gz
 * /usr/share/man/tr/man7/kf6options.7.gz

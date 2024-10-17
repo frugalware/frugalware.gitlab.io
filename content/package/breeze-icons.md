@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.6.0-2"
-version = "6.6.0-2"
+title = "breeze-icons 6.7.0-1"
+version = "6.7.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2024-09-28T18:25:53"
+date = "2024-10-14T17:00:21"
 aliases = "/packages/218259"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7804804"
-usize = "57620055"
-sha1sum = "e7ca6560837081df7f3403ae5fd697e34bc54251"
+size = "7809972"
+usize = "57636015"
+sha1sum = "55c672fabfdb03e9777b5bb50b3a0cbd66f5898d"
 depends = "[]"
 reverse_depends = "['kiconthemes']"
 +++
@@ -28,10 +28,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsTargets.cmake
 * /usr/lib/libKF6BreezeIcons.so
 * /usr/lib/libKF6BreezeIcons.so.6
-* /usr/lib/libKF6BreezeIcons.so.6.6.0
-* /usr/share/doc/breeze-icons-6.6.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.6.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.6.0/README.md
+* /usr/lib/libKF6BreezeIcons.so.6.7.0
+* /usr/share/doc/breeze-icons-6.7.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.7.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.7.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
@@ -2640,6 +2640,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/16/shapes.svg
 * /usr/share/icons/breeze-dark/actions/16/shear-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/shear.svg
+* /usr/share/icons/breeze-dark/actions/16/show-background.svg
 * /usr/share/icons/breeze-dark/actions/16/show-dialogs-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/16/show-dialogs.svg
 * /usr/share/icons/breeze-dark/actions/16/show-grid-symbolic.svg
@@ -8926,7 +8927,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/actions/32/folder-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/folder-sync-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/folder-sync.svg
-* /usr/share/icons/breeze-dark/actions/32/folder.svg
 * /usr/share/icons/breeze-dark/actions/32/format-stroke-color-symbolic.svg
 * /usr/share/icons/breeze-dark/actions/32/format-stroke-color.svg
 * /usr/share/icons/breeze-dark/actions/32/games-config-custom-symbolic.svg
@@ -9640,6 +9640,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/22/kgpg-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/22/kleopatra-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/22/kmail-symbolic.svg
+* /usr/share/icons/breeze-dark/apps/22/knotes-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/22/konversation-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/22/kopete-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/22/korg-todo-symbolic.svg
@@ -9683,6 +9684,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/24/kgpg-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/24/kleopatra-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/24/kmail-symbolic.svg
+* /usr/share/icons/breeze-dark/apps/24/knotes-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/24/konversation-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/24/kopete-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/24/korgac-symbolic.svg
@@ -9713,6 +9715,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/32/kate-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/32/kdeconnect-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/32/klipper-symbolic.svg
+* /usr/share/icons/breeze-dark/apps/32/knotes-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/32/ktimetracker.svg
 * /usr/share/icons/breeze-dark/apps/32/kup.svg
 * /usr/share/icons/breeze-dark/apps/32/kwrite.svg
@@ -9943,6 +9946,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/kmymoney.svg
 * /usr/share/icons/breeze-dark/apps/48/knetattach.svg
 * /usr/share/icons/breeze-dark/apps/48/knights.svg
+* /usr/share/icons/breeze-dark/apps/48/knotes-symbolic.svg
 * /usr/share/icons/breeze-dark/apps/48/knotes.svg
 * /usr/share/icons/breeze-dark/apps/48/kolf.svg
 * /usr/share/icons/breeze-dark/apps/48/kolourpaint.svg
@@ -10314,8 +10318,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/categories/24/applications-education-mathematics-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-education-science-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-education-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-engineering-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-games-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-graphics-symbolic.svg
+* /usr/share/icons/breeze-dark/categories/24/applications-multimedia-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-office-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-other-symbolic.svg
 * /usr/share/icons/breeze-dark/categories/24/applications-science-symbolic.svg
@@ -18636,6 +18642,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/16/shapes.svg
 * /usr/share/icons/breeze/actions/16/shear-symbolic.svg
 * /usr/share/icons/breeze/actions/16/shear.svg
+* /usr/share/icons/breeze/actions/16/show-background.svg
 * /usr/share/icons/breeze/actions/16/show-dialogs-symbolic.svg
 * /usr/share/icons/breeze/actions/16/show-dialogs.svg
 * /usr/share/icons/breeze/actions/16/show-grid-symbolic.svg
@@ -24937,7 +24944,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/32/folder-symbolic.svg
 * /usr/share/icons/breeze/actions/32/folder-sync-symbolic.svg
 * /usr/share/icons/breeze/actions/32/folder-sync.svg
-* /usr/share/icons/breeze/actions/32/folder.svg
 * /usr/share/icons/breeze/actions/32/format-stroke-color-symbolic.svg
 * /usr/share/icons/breeze/actions/32/format-stroke-color.svg
 * /usr/share/icons/breeze/actions/32/games-config-custom-symbolic.svg
@@ -25657,6 +25663,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/22/kgpg-symbolic.svg
 * /usr/share/icons/breeze/apps/22/kleopatra-symbolic.svg
 * /usr/share/icons/breeze/apps/22/kmail-symbolic.svg
+* /usr/share/icons/breeze/apps/22/knotes-symbolic.svg
 * /usr/share/icons/breeze/apps/22/konversation-symbolic.svg
 * /usr/share/icons/breeze/apps/22/kopete-symbolic.svg
 * /usr/share/icons/breeze/apps/22/korg-todo-symbolic.svg
@@ -25703,6 +25710,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/24/kgpg-symbolic.svg
 * /usr/share/icons/breeze/apps/24/kleopatra-symbolic.svg
 * /usr/share/icons/breeze/apps/24/kmail-symbolic.svg
+* /usr/share/icons/breeze/apps/24/knotes-symbolic.svg
 * /usr/share/icons/breeze/apps/24/konversation-symbolic.svg
 * /usr/share/icons/breeze/apps/24/kopete-symbolic.svg
 * /usr/share/icons/breeze/apps/24/korgac-symbolic.svg
@@ -25737,6 +25745,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/32/kate-symbolic.svg
 * /usr/share/icons/breeze/apps/32/kdeconnect-symbolic.svg
 * /usr/share/icons/breeze/apps/32/klipper-symbolic.svg
+* /usr/share/icons/breeze/apps/32/knotes-symbolic.svg
 * /usr/share/icons/breeze/apps/32/ktimetracker.svg
 * /usr/share/icons/breeze/apps/32/kup.svg
 * /usr/share/icons/breeze/apps/32/kwrite.svg
@@ -25967,6 +25976,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/kmymoney.svg
 * /usr/share/icons/breeze/apps/48/knetattach.svg
 * /usr/share/icons/breeze/apps/48/knights.svg
+* /usr/share/icons/breeze/apps/48/knotes-symbolic.svg
 * /usr/share/icons/breeze/apps/48/knotes.svg
 * /usr/share/icons/breeze/apps/48/kolf.svg
 * /usr/share/icons/breeze/apps/48/kolourpaint.svg

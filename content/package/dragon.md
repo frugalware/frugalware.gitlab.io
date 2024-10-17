@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dragon 24.08.1-3"
-version = "24.08.1-3"
+title = "dragon 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Video Player."
-date = "2024-09-29T10:15:26"
+date = "2024-10-15T12:20:14"
 aliases = "/packages/168469"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1926784"
-usize = "2760721"
-sha1sum = "c58b80f0262806b41427d171c126c9060ded3230"
-depends = "['kparts>=6.6.0']"
+size = "1933160"
+usize = "2774127"
+sha1sum = "1111e49330f3e7ec733bd2ce79ed2aaa437555e0"
+depends = "['kparts>=6.7.0']"
 +++
 ### Description: 
 KDE Video Player.
@@ -57,6 +57,8 @@ KDE Video Player.
 * /usr/share/doc/HTML/pt_BR/dragonplayer/main.png
 * /usr/share/doc/HTML/ru/dragonplayer/index.cache.bz2
 * /usr/share/doc/HTML/ru/dragonplayer/index.docbook
+* /usr/share/doc/HTML/sl/dragonplayer/index.cache.bz2
+* /usr/share/doc/HTML/sl/dragonplayer/index.docbook
 * /usr/share/doc/HTML/sr/dragonplayer/index.cache.bz2
 * /usr/share/doc/HTML/sr/dragonplayer/index.docbook
 * /usr/share/doc/HTML/sr@latin/dragonplayer/index.cache.bz2
@@ -157,6 +159,7 @@ KDE Video Player.
 * /usr/share/man/nl/man1/dragon.1.gz
 * /usr/share/man/pt/man1/dragon.1.gz
 * /usr/share/man/pt_BR/man1/dragon.1.gz
+* /usr/share/man/sl/man1/dragon.1.gz
 * /usr/share/man/sr/man1/dragon.1.gz
 * /usr/share/man/sr@latin/man1/dragon.1.gz
 * /usr/share/man/sv/man1/dragon.1.gz

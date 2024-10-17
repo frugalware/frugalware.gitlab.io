@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kimageannotator 0.7.1-1"
-version = "0.7.1-1"
+title = "kimageannotator 0.7.1-2"
+version = "0.7.1-2"
 description = "Tool for annotating images"
-date = "2024-03-12T16:03:50"
+date = "2024-10-16T08:52:50"
 aliases = "/packages/220583"
-categories = []
+categories = ['kde6']
 upstreamurl = "https://github.com/ksnip/kimageannotator"
 arch = "x86_64"
-size = "382776"
-usize = "1804101"
-sha1sum = "ea90d23ed23eefdee9caf2e3236b10989c52e99e"
+size = "378088"
+usize = "1789749"
+sha1sum = "95d1450206cab0caed36a3624a7b9ab6a94886a7"
 depends = "['kcolorpicker', 'qt6-svg>=5.15.6']"
 reverse_depends = "['gwenview']"
 +++

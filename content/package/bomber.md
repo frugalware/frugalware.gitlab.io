@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bomber 24.08.1-2"
-version = "24.08.1-2"
+title = "bomber 24.08.2-1"
+version = "24.08.2-1"
 description = "A single player arcade game."
-date = "2024-09-29T11:12:08"
+date = "2024-10-15T13:17:26"
 aliases = "/packages/184170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "956544"
-usize = "1258061"
-sha1sum = "fa40584f339df8837c31c280c514dd59640a9829"
-depends = "['libkdegames>=24.08.1']"
+size = "961224"
+usize = "1266073"
+sha1sum = "95e34412ad447e900c9d0fed4b060cb85dfdf828"
+depends = "['libkdegames>=24.08.2']"
 +++
 ### Description: 
 A single player arcade game.
@@ -28,9 +28,9 @@ A single player arcade game.
 * /usr/share/bomber/themes/lava-Island.png
 * /usr/share/bomber/themes/Lava-Island.svgz
 * /usr/share/config.kcfg/bomber.kcfg
-* /usr/share/doc/bomber-24.08.1/AUTHORS
-* /usr/share/doc/bomber-24.08.1/Changelog
-* /usr/share/doc/bomber-24.08.1/README.themes
+* /usr/share/doc/bomber-24.08.2/AUTHORS
+* /usr/share/doc/bomber-24.08.2/Changelog
+* /usr/share/doc/bomber-24.08.2/README.themes
 * /usr/share/doc/HTML/ca/bomber/index.cache.bz2
 * /usr/share/doc/HTML/ca/bomber/index.docbook
 * /usr/share/doc/HTML/cs/bomber/index.cache.bz2
@@ -58,6 +58,8 @@ A single player arcade game.
 * /usr/share/doc/HTML/pt/bomber/index.docbook
 * /usr/share/doc/HTML/pt_BR/bomber/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/bomber/index.docbook
+* /usr/share/doc/HTML/sl/bomber/index.cache.bz2
+* /usr/share/doc/HTML/sl/bomber/index.docbook
 * /usr/share/doc/HTML/sv/bomber/index.cache.bz2
 * /usr/share/doc/HTML/sv/bomber/index.docbook
 * /usr/share/doc/HTML/uk/bomber/index.cache.bz2

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantlee-editor 24.08.1-2"
-version = "24.08.1-2"
+title = "grantlee-editor 24.08.2-1"
+version = "24.08.2-1"
 description = "gantt editor for PIM application."
-date = "2024-09-29T21:25:46"
+date = "2024-10-15T14:31:31"
 aliases = "/packages/218927"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "245676"
-usize = "1290949"
-sha1sum = "ba6cc3190a8050fcfe2983dab08c95c5951197ce"
-depends = "['ktexteditor>=6.6.0', 'messagelib>=24.08.1']"
+size = "251452"
+usize = "1302438"
+sha1sum = "a12af3ce91d54aa2c837a35ff4ee718fec7179a3"
+depends = "['ktexteditor>=6.7.0', 'messagelib>=24.08.2']"
 +++
 ### Description: 
 gantt editor for PIM application.
@@ -21,7 +21,7 @@ gantt editor for PIM application.
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor
 * /usr/lib/libgrantleethemeeditor.so.6
-* /usr/lib/libgrantleethemeeditor.so.6.2.1
+* /usr/lib/libgrantleethemeeditor.so.6.2.2
 * /usr/share/applications/org.kde.contactprintthemeeditor.desktop
 * /usr/share/applications/org.kde.contactthemeeditor.desktop
 * /usr/share/applications/org.kde.headerthemeeditor.desktop
@@ -66,6 +66,10 @@ gantt editor for PIM application.
 * /usr/share/doc/HTML/ru/contactthemeeditor/index.docbook
 * /usr/share/doc/HTML/ru/headerthemeeditor/index.cache.bz2
 * /usr/share/doc/HTML/ru/headerthemeeditor/index.docbook
+* /usr/share/doc/HTML/sl/contactthemeeditor/index.cache.bz2
+* /usr/share/doc/HTML/sl/contactthemeeditor/index.docbook
+* /usr/share/doc/HTML/sl/headerthemeeditor/index.cache.bz2
+* /usr/share/doc/HTML/sl/headerthemeeditor/index.docbook
 * /usr/share/doc/HTML/sv/contactthemeeditor/index.cache.bz2
 * /usr/share/doc/HTML/sv/contactthemeeditor/index.docbook
 * /usr/share/doc/HTML/sv/headerthemeeditor/index.cache.bz2

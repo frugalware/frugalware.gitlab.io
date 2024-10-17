@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcodecs 6.6.0-2"
-version = "6.6.0-2"
+title = "kcodecs 6.7.0-1"
+version = "6.7.0-1"
 description = "Plugins allowing Qt applications to access further types of images."
-date = "2024-09-28T18:42:09"
+date = "2024-10-14T17:15:17"
 aliases = "/packages/218281"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "142724"
-usize = "694240"
-sha1sum = "2bbb77087a45b9246f7f81ffc64dd5e7c14ce963"
-depends = "['qt6-base>=6.7.3']"
+size = "142876"
+usize = "694336"
+sha1sum = "7de95e9c4a97d8bd9a25957933d834b3027ea187"
+depends = "['qt6-base>=6.8.0']"
 reverse_depends = "['akonadi-contacts', 'kcompletion', 'kconfigwidgets', 'kcontacts', 'khealthcertificate', 'kmime', 'mimetreeparser']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Plugins allowing Qt applications to access further types of images.
 * /usr/lib/cmake/KF6Codecs/KF6CodecsTargets.cmake
 * /usr/lib/libKF6Codecs.so
 * /usr/lib/libKF6Codecs.so.6
-* /usr/lib/libKF6Codecs.so.6.6.0
-* /usr/share/doc/kcodecs-6.6.0/README.md
+* /usr/lib/libKF6Codecs.so.6.7.0
+* /usr/share/doc/kcodecs-6.7.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kcodecs6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcodecs6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kcodecs6_qt.qm

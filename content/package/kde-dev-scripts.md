@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-dev-scripts 24.08.1-1"
-version = "24.08.1-1"
+title = "kde-dev-scripts 24.08.2-1"
+version = "24.08.2-1"
 description = "Scripts and setting files useful during development of KDE software"
-date = "2024-09-15T14:15:04"
+date = "2024-10-15T17:55:58"
 aliases = "/packages/219329"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "309532"
-usize = "536681"
-sha1sum = "b78ae91334db1e8ce7b5b3250419f67e7582d2fa"
+size = "325248"
+usize = "552489"
+sha1sum = "350c93cd68fa48befe8486335042aceb3ea5da2c"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -80,9 +80,9 @@ Scripts and setting files useful during development of KDE software
 * /usr/bin/uncrustify-kf5
 * /usr/bin/wcgrep
 * /usr/bin/zonetab2pot.py
-* /usr/share/doc/kde-dev-scripts-24.08.1/COPYING
-* /usr/share/doc/kde-dev-scripts-24.08.1/COPYING.DOC
-* /usr/share/doc/kde-dev-scripts-24.08.1/README
+* /usr/share/doc/kde-dev-scripts-24.08.2/COPYING
+* /usr/share/doc/kde-dev-scripts-24.08.2/COPYING.DOC
+* /usr/share/doc/kde-dev-scripts-24.08.2/README
 * /usr/share/man/ca/man1/adddebug.1.gz
 * /usr/share/man/ca/man1/cheatmake.1.gz
 * /usr/share/man/ca/man1/create_cvsignore.1.gz
@@ -261,6 +261,21 @@ Scripts and setting files useful during development of KDE software
 * /usr/share/man/ru/man1/fixincludes.1.gz
 * /usr/share/man/ru/man1/pruneemptydirs.1.gz
 * /usr/share/man/ru/man1/zonetab2pot.py.1.gz
+* /usr/share/man/sl/man1/adddebug.1.gz
+* /usr/share/man/sl/man1/cheatmake.1.gz
+* /usr/share/man/sl/man1/create_cvsignore.1.gz
+* /usr/share/man/sl/man1/create_makefile.1.gz
+* /usr/share/man/sl/man1/create_makefiles.1.gz
+* /usr/share/man/sl/man1/cvscheck.1.gz
+* /usr/share/man/sl/man1/cvslastchange.1.gz
+* /usr/share/man/sl/man1/cvslastlog.1.gz
+* /usr/share/man/sl/man1/cvsrevertlast.1.gz
+* /usr/share/man/sl/man1/cxxmetric.1.gz
+* /usr/share/man/sl/man1/extend_dmalloc.1.gz
+* /usr/share/man/sl/man1/extractrc.1.gz
+* /usr/share/man/sl/man1/fixincludes.1.gz
+* /usr/share/man/sl/man1/pruneemptydirs.1.gz
+* /usr/share/man/sl/man1/zonetab2pot.py.1.gz
 * /usr/share/man/sv/man1/adddebug.1.gz
 * /usr/share/man/sv/man1/cheatmake.1.gz
 * /usr/share/man/sv/man1/create_cvsignore.1.gz

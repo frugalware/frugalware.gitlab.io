@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 24.08.1-2"
-version = "24.08.1-2"
+title = "kate 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Advanced Text Editor."
-date = "2024-09-29T17:20:24"
+date = "2024-10-15T13:48:02"
 aliases = "/packages/118445"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10090532"
-usize = "34694985"
-sha1sum = "e90ee1f3c47dad6183a5d438b8416ec27c9e7caa"
-depends = "['kitemmodels>=6.6.0', 'knewstuff>=6.6.0', 'ktexteditor>=6.6.0', 'libgit2>=0.26', 'libplasma>=6.1.5', 'qt6-declarative>=6.7.3', 'threadweaver>=6.6.0']"
+size = "10100328"
+usize = "34725724"
+sha1sum = "72681d10f48dd17b5bddc1328f79c25be41c8208"
+depends = "['kitemmodels>=6.7.0', 'knewstuff>=6.7.0', 'ktexteditor>=6.7.0', 'libgit2>=0.26', 'libplasma>=6.2.0', 'qt6-declarative>=6.8.0', 'threadweaver>=6.7.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.
@@ -19,7 +19,7 @@ KDE Advanced Text Editor.
 ### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
-* /usr/lib/libkateprivate.so.24.08.1
+* /usr/lib/libkateprivate.so.24.08.2
 * /usr/lib/qt6/plugins/kf6/ktexteditor/cmaketoolsplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/compilerexplorer.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/eslintplugin.so
@@ -412,7 +412,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/uk/katepart/vi.docbook
 * /usr/share/doc/HTML/uk/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwrite/index.docbook
-* /usr/share/doc/kate-24.08.1/README.md
+* /usr/share/doc/kate-24.08.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/kate.png
 * /usr/share/icons/hicolor/128x128/apps/kwrite.png
 * /usr/share/icons/hicolor/150x150/apps/kate.png

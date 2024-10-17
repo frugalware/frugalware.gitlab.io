@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "greetd-qtgreet 2.0.2-2"
-version = "2.0.2-2"
+title = "greetd-qtgreet 2.0.2-3"
+version = "2.0.2-3"
 description = "Qt based greeter for greetd"
-date = "2024-09-30T12:58:00"
+date = "2024-10-16T17:30:35"
 aliases = "/packages/220859"
 categories = ['x11-extra']
 upstreamurl = "https://gitlab.com/marcusbritanicus/QtGreet"
 arch = "x86_64"
-size = "3085976"
+size = "3086160"
 usize = "5432674"
-sha1sum = "9d77c79dc86f33797aa6162888a764237519b2fb"
+sha1sum = "397bc4f24e7309a0353aa8d1bc5a4f18811b792a"
 depends = "['dfl-applications', 'dfl-login1', 'dfl-utils', 'dfl-wayqt', 'greetd', 'mpv', 'wlroots0.17']"
 +++
 ### Description: 

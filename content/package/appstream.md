@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "appstream 1.0.3-5"
-version = "1.0.3-5"
+title = "appstream 1.0.3-6"
+version = "1.0.3-6"
 description = "Provides a standard for creating app stores across distributions"
-date = "2024-06-21T09:53:00"
+date = "2024-10-16T07:46:33"
 aliases = "/packages/218251"
 categories = ['lib']
 upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
-size = "3467040"
-usize = "16579570"
-sha1sum = "7192398fe68de5ab80802637f18b8f02bac72bd7"
+size = "3453616"
+usize = "16579300"
+sha1sum = "588f12a513bcbaeb3ff2ea5968211c49da925c91"
 depends = "['curl', 'gobject-introspection>=1.50.0', 'libstemmer', 'libxmlb', 'libyaml']"
 reverse_depends = "['appstream-qt', 'flatpak', 'libadwaita']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcachegrind 24.08.1-2"
-version = "24.08.1-2"
+title = "kcachegrind 24.08.2-1"
+version = "24.08.2-1"
 description = "Visualization of Performance Profiling Data."
-date = "2024-09-30T07:52:06"
+date = "2024-10-15T15:27:08"
 aliases = "/packages/218525"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1049992"
-usize = "4565106"
-sha1sum = "1b6bfa61ac18af9b79dce19a36b41c4bd84c84d1"
-depends = "['karchive>=6.6.0', 'kconfig>=6.6.0', 'kcoreaddons>=6.6.0', 'kdoctools>=6.6.0', 'ki18n>=6.6.0', 'kio>=6.6.0', 'kwidgetsaddons>=6.6.0', 'kxmlgui>=6.6.0']"
+size = "1075616"
+usize = "4623614"
+sha1sum = "951f567b2cade923dd2547384ddfe0d5322e7601"
+depends = "['karchive>=6.7.0', 'kconfig>=6.7.0', 'kcoreaddons>=6.7.0', 'kdoctools>=6.7.0', 'ki18n>=6.7.0', 'kio>=6.7.0', 'kwidgetsaddons>=6.7.0', 'kxmlgui>=6.7.0']"
 +++
 ### Description: 
 Visualization of Performance Profiling Data.
@@ -48,16 +48,18 @@ Visualization of Performance Profiling Data.
 * /usr/share/doc/HTML/pt_BR/kcachegrind/index.docbook
 * /usr/share/doc/HTML/ru/kcachegrind/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcachegrind/index.docbook
+* /usr/share/doc/HTML/sl/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcachegrind/index.docbook
 * /usr/share/doc/HTML/sv/kcachegrind/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcachegrind/index.docbook
 * /usr/share/doc/HTML/uk/kcachegrind/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcachegrind/index.docbook
-* /usr/share/doc/kcachegrind-24.08.1/AUTHORS
-* /usr/share/doc/kcachegrind-24.08.1/ChangeLog
-* /usr/share/doc/kcachegrind-24.08.1/INSTALL
-* /usr/share/doc/kcachegrind-24.08.1/README
-* /usr/share/doc/kcachegrind-24.08.1/README_DEVELOPER
-* /usr/share/doc/kcachegrind-24.08.1/TODO
+* /usr/share/doc/kcachegrind-24.08.2/AUTHORS
+* /usr/share/doc/kcachegrind-24.08.2/ChangeLog
+* /usr/share/doc/kcachegrind-24.08.2/INSTALL
+* /usr/share/doc/kcachegrind-24.08.2/README
+* /usr/share/doc/kcachegrind-24.08.2/README_DEVELOPER
+* /usr/share/doc/kcachegrind-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kcachegrind.png
 * /usr/share/icons/hicolor/32x32/apps/kcachegrind.png
 * /usr/share/icons/hicolor/48x48/apps/kcachegrind.png

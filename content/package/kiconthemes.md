@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes 6.6.0-2"
-version = "6.6.0-2"
+title = "kiconthemes 6.7.0-1"
+version = "6.7.0-1"
 description = "Icon GUI utilities."
-date = "2024-09-28T18:55:58"
+date = "2024-10-14T17:26:33"
 aliases = "/packages/218316"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "150400"
-usize = "575573"
-sha1sum = "4d1c89e16257457e4a529a2c35a5422da1da332e"
-depends = "['breeze-icons>=6.6.0', 'karchive>=6.6.0', 'kconfigwidgets>=6.6.0', 'kitemviews>=6.6.0', 'qt6-declarative>=6.7.3', 'qt6-svg>=6.7.3']"
+size = "151048"
+usize = "576475"
+sha1sum = "50ddd2c0006cd4e7e1c368c2640740a7db5ca307"
+depends = "['breeze-icons>=6.7.0', 'karchive>=6.7.0', 'kconfigwidgets>=6.7.0', 'kitemviews>=6.7.0', 'qt6-declarative>=6.8.0', 'qt6-svg>=6.8.0']"
 reverse_depends = "['audex', 'breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdiff3', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -46,17 +46,17 @@ Icon GUI utilities.
 * /usr/lib/cmake/KF6IconThemes/KF6IconThemesTargets.cmake
 * /usr/lib/libKF6IconThemes.so
 * /usr/lib/libKF6IconThemes.so.6
-* /usr/lib/libKF6IconThemes.so.6.6.0
+* /usr/lib/libKF6IconThemes.so.6.7.0
 * /usr/lib/libKF6IconWidgets.so
 * /usr/lib/libKF6IconWidgets.so.6
-* /usr/lib/libKF6IconWidgets.so.6.6.0
+* /usr/lib/libKF6IconWidgets.so.6.7.0
 * /usr/lib/qt6/plugins/designer/kiconthemes6widgets.so
 * /usr/lib/qt6/plugins/kiconthemes6/iconengines/KIconEnginePlugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/iconthemesplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/iconthemes/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/iconthemes/libiconthemesplugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/qmldir
-* /usr/share/doc/kiconthemes-6.6.0/README.md
+* /usr/share/doc/kiconthemes-6.7.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kiconthemes6.mo

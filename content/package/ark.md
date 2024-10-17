@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ark 24.08.1-2"
-version = "24.08.1-2"
+title = "ark 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Archiving Tool."
-date = "2024-09-29T17:21:53"
+date = "2024-10-15T13:49:23"
 aliases = "/packages/153200"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1388360"
-usize = "5068549"
-sha1sum = "1ab753c4fc7cb0c920453c68bdb88a41f32ccd1a"
-depends = "['kfilemetadata>=6.6.0', 'kitemmodels>=6.6.0', 'kparts>=6.6.0', 'kpty>=6.6.0', 'libarchive>=3.1.2-8', 'libzip']"
+size = "1403416"
+usize = "5100585"
+sha1sum = "d48298c661151f68bcae0a1e5b52a0b103cfe55b"
+depends = "['kfilemetadata>=6.7.0', 'kitemmodels>=6.7.0', 'kparts>=6.7.0', 'kpty>=6.7.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
 ### Description: 
 KDE Archiving Tool.
@@ -20,7 +20,7 @@ KDE Archiving Tool.
 * /etc/xdg/arkrc
 * /usr/bin/ark
 * /usr/lib/libkerfuffle.so.24
-* /usr/lib/libkerfuffle.so.24.08.1
+* /usr/lib/libkerfuffle.so.24.08.2
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cli7z.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cliarj.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_clirar.so
@@ -35,9 +35,9 @@ KDE Archiving Tool.
 * /usr/lib/qt6/plugins/kf6/parts/arkpart.so
 * /usr/share/applications/org.kde.ark.desktop
 * /usr/share/config.kcfg/ark.kcfg
-* /usr/share/doc/ark-24.08.1/COPYING.icons
-* /usr/share/doc/ark-24.08.1/README.md
-* /usr/share/doc/ark-24.08.1/README.packagers
+* /usr/share/doc/ark-24.08.2/COPYING.icons
+* /usr/share/doc/ark-24.08.2/README.md
+* /usr/share/doc/ark-24.08.2/README.packagers
 * /usr/share/doc/HTML/ca/ark/index.cache.bz2
 * /usr/share/doc/HTML/ca/ark/index.docbook
 * /usr/share/doc/HTML/en/ark/ark-comment.png
@@ -72,6 +72,8 @@ KDE Archiving Tool.
 * /usr/share/doc/HTML/pt_BR/ark/index.docbook
 * /usr/share/doc/HTML/ru/ark/index.cache.bz2
 * /usr/share/doc/HTML/ru/ark/index.docbook
+* /usr/share/doc/HTML/sl/ark/index.cache.bz2
+* /usr/share/doc/HTML/sl/ark/index.docbook
 * /usr/share/doc/HTML/sr/ark/index.cache.bz2
 * /usr/share/doc/HTML/sr/ark/index.docbook
 * /usr/share/doc/HTML/sr@latin/ark/index.cache.bz2
@@ -180,6 +182,7 @@ KDE Archiving Tool.
 * /usr/share/man/man1/ark.1.gz
 * /usr/share/man/nl/man1/ark.1.gz
 * /usr/share/man/pt_BR/man1/ark.1.gz
+* /usr/share/man/sl/man1/ark.1.gz
 * /usr/share/man/sr/man1/ark.1.gz
 * /usr/share/man/sr@latin/man1/ark.1.gz
 * /usr/share/man/sv/man1/ark.1.gz

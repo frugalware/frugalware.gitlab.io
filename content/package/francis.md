@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "francis 24.08.1-2"
-version = "24.08.1-2"
+title = "francis 24.08.2-1"
+version = "24.08.2-1"
 description = "Track your time"
-date = "2024-09-30T09:48:25"
+date = "2024-10-15T16:39:54"
 aliases = "/packages/221488"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "36248"
-usize = "149225"
-sha1sum = "bbc0fe9c0dc32405154c6420636542fb38a4833c"
+size = "36296"
+usize = "149276"
+sha1sum = "99efdb422f2ad818239b96d4b41dd3ed4ddc9500"
 depends = "['kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami', 'kirigami-addons', 'knotifications']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Track your time
 ### Files: 
 * /usr/bin/francis
 * /usr/share/applications/org.kde.francis.desktop
-* /usr/share/doc/francis-24.08.1/README.md
+* /usr/share/doc/francis-24.08.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.francis.svg
 * /usr/share/locale/ast/LC_MESSAGES/francis.mo
 * /usr/share/locale/ca/LC_MESSAGES/francis.mo

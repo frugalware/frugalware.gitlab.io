@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbruch 24.08.1-3"
-version = "24.08.1-3"
+title = "kbruch 24.08.2-1"
+version = "24.08.2-1"
 description = "Practice Fractions."
-date = "2024-09-29T10:21:57"
+date = "2024-10-15T12:25:27"
 aliases = "/packages/152827"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4673736"
-usize = "6444335"
-sha1sum = "073f303e9df24f516fb3929320b1e310d65022b3"
-depends = "['kxmlgui>=6.6.0', 'qt6-svg>=6.7.3']"
+size = "4685808"
+usize = "6484049"
+sha1sum = "f3df850a1a7913488819547224a2a902dd6f5f1c"
+depends = "['kxmlgui>=6.7.0', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 Practice Fractions.
@@ -122,6 +122,8 @@ Practice Fractions.
 * /usr/share/doc/HTML/ru/kbruch/reduced.png
 * /usr/share/doc/HTML/ru/kbruch/settings.png
 * /usr/share/doc/HTML/ru/kbruch/statistics.png
+* /usr/share/doc/HTML/sl/kbruch/index.cache.bz2
+* /usr/share/doc/HTML/sl/kbruch/index.docbook
 * /usr/share/doc/HTML/sv/kbruch/checked.png
 * /usr/share/doc/HTML/sv/kbruch/compare.png
 * /usr/share/doc/HTML/sv/kbruch/convert.png
@@ -145,11 +147,11 @@ Practice Fractions.
 * /usr/share/doc/HTML/uk/kbruch/reduced.png
 * /usr/share/doc/HTML/uk/kbruch/settings.png
 * /usr/share/doc/HTML/uk/kbruch/statistics.png
-* /usr/share/doc/kbruch-24.08.1/AUTHORS
-* /usr/share/doc/kbruch-24.08.1/ChangeLog
-* /usr/share/doc/kbruch-24.08.1/NEWS
-* /usr/share/doc/kbruch-24.08.1/README
-* /usr/share/doc/kbruch-24.08.1/TODO
+* /usr/share/doc/kbruch-24.08.2/AUTHORS
+* /usr/share/doc/kbruch-24.08.2/ChangeLog
+* /usr/share/doc/kbruch-24.08.2/NEWS
+* /usr/share/doc/kbruch-24.08.2/README
+* /usr/share/doc/kbruch-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbruch.png
 * /usr/share/icons/hicolor/16x16/apps/kbruch.png
 * /usr/share/icons/hicolor/22x22/apps/kbruch.png
@@ -251,6 +253,7 @@ Practice Fractions.
 * /usr/share/man/pt/man1/kbruch.1.gz
 * /usr/share/man/pt_BR/man1/kbruch.1.gz
 * /usr/share/man/ru/man1/kbruch.1.gz
+* /usr/share/man/sl/man1/kbruch.1.gz
 * /usr/share/man/sv/man1/kbruch.1.gz
 * /usr/share/man/uk/man1/kbruch.1.gz
 * /usr/share/metainfo/org.kde.kbruch.appdata.xml

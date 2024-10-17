@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akregator 24.08.1-2"
-version = "24.08.1-2"
+title = "akregator 24.08.2-1"
+version = "24.08.2-1"
 description = "Feed Reader"
-date = "2024-09-29T20:06:34"
+date = "2024-10-15T14:16:12"
 aliases = "/packages/218925"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2342268"
-usize = "6311338"
-sha1sum = "1492ddf255611df17630096da535b56040221fc4"
-depends = "['knotifyconfig>=6.6.0', 'kontactinterface>=24.08.1', 'kstatusnotifieritem>=6.6.0', 'ktexteditor>=6.6.0', 'messagelib>=24.08.1', 'syndication>=6.6.0']"
+size = "2359616"
+usize = "6367855"
+sha1sum = "a4611355d9ccfb47c7e1acc3bd9a0816baa7085f"
+depends = "['knotifyconfig>=6.7.0', 'kontactinterface>=24.08.2', 'kstatusnotifieritem>=6.7.0', 'ktexteditor>=6.7.0', 'messagelib>=24.08.2', 'syndication>=6.7.0']"
 +++
 ### Description: 
 Feed Reader
@@ -20,9 +20,9 @@ Feed Reader
 * /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
 * /usr/lib/libakregatorinterfaces.so.6
-* /usr/lib/libakregatorinterfaces.so.6.2.1
+* /usr/lib/libakregatorinterfaces.so.6.2.2
 * /usr/lib/libakregatorprivate.so.6
-* /usr/lib/libakregatorprivate.so.6.2.1
+* /usr/lib/libakregatorprivate.so.6.2.2
 * /usr/lib/qt6/plugins/akregatorpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_advanced.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_appearance.so
@@ -35,8 +35,8 @@ Feed Reader
 * /usr/share/applications/org.kde.akregator.desktop
 * /usr/share/config.kcfg/akregator.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
-* /usr/share/doc/akregator-24.08.1/AUTHORS
-* /usr/share/doc/akregator-24.08.1/README
+* /usr/share/doc/akregator-24.08.2/AUTHORS
+* /usr/share/doc/akregator-24.08.2/README
 * /usr/share/doc/HTML/ca/akregator/add-feed.png
 * /usr/share/doc/HTML/ca/akregator/add-feed2.png
 * /usr/share/doc/HTML/ca/akregator/add-folder.png
@@ -92,6 +92,8 @@ Feed Reader
 * /usr/share/doc/HTML/pt_BR/akregator/index.docbook
 * /usr/share/doc/HTML/ru/akregator/index.cache.bz2
 * /usr/share/doc/HTML/ru/akregator/index.docbook
+* /usr/share/doc/HTML/sl/akregator/index.cache.bz2
+* /usr/share/doc/HTML/sl/akregator/index.docbook
 * /usr/share/doc/HTML/sv/akregator/index.cache.bz2
 * /usr/share/doc/HTML/sv/akregator/index.docbook
 * /usr/share/doc/HTML/uk/akregator/add-feed.png

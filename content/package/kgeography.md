@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgeography 24.08.1-3"
-version = "24.08.1-3"
+title = "kgeography 24.08.2-1"
+version = "24.08.2-1"
 description = "Geography Trainer."
-date = "2024-09-29T10:31:30"
+date = "2024-10-15T12:33:10"
 aliases = "/packages/152828"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11143052"
-usize = "32322381"
-sha1sum = "5ec32feee83c7991a0053548d868dbbe781e2aa4"
-depends = "['kxmlgui>=6.6.0', 'qt6-svg>=6.7.3']"
+size = "11160248"
+usize = "32360270"
+sha1sum = "65bef1dcf4907f9d982620945216d1299e7c3d4d"
+depends = "['kxmlgui>=6.7.0', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 Geography Trainer.
@@ -107,6 +107,8 @@ Geography Trainer.
 * /usr/share/doc/HTML/pt_BR/kgeography/zoom.png
 * /usr/share/doc/HTML/ru/kgeography/index.cache.bz2
 * /usr/share/doc/HTML/ru/kgeography/index.docbook
+* /usr/share/doc/HTML/sl/kgeography/index.cache.bz2
+* /usr/share/doc/HTML/sl/kgeography/index.docbook
 * /usr/share/doc/HTML/sv/kgeography/first-start1.png
 * /usr/share/doc/HTML/sv/kgeography/first-start10.png
 * /usr/share/doc/HTML/sv/kgeography/first-start11.png
@@ -139,11 +141,11 @@ Geography Trainer.
 * /usr/share/doc/HTML/uk/kgeography/index.docbook
 * /usr/share/doc/HTML/uk/kgeography/kgeography.png
 * /usr/share/doc/HTML/uk/kgeography/zoom.png
-* /usr/share/doc/kgeography-24.08.1/AUTHORS
-* /usr/share/doc/kgeography-24.08.1/COPYING
-* /usr/share/doc/kgeography-24.08.1/COPYING.DOC
-* /usr/share/doc/kgeography-24.08.1/README
-* /usr/share/doc/kgeography-24.08.1/TODO
+* /usr/share/doc/kgeography-24.08.2/AUTHORS
+* /usr/share/doc/kgeography-24.08.2/COPYING
+* /usr/share/doc/kgeography-24.08.2/COPYING.DOC
+* /usr/share/doc/kgeography-24.08.2/README
+* /usr/share/doc/kgeography-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgeography.png
 * /usr/share/icons/hicolor/16x16/apps/kgeography.png
 * /usr/share/icons/hicolor/22x22/apps/kgeography.png

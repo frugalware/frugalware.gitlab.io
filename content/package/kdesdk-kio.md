@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kdesdk-kio 24.08.1-2"
-version = "24.08.1-2"
+title = "kdesdk-kio 24.08.2-1"
+version = "24.08.2-1"
 description = "KIO-Slaves."
-date = "2024-09-30T09:31:50"
+date = "2024-10-15T16:33:19"
 aliases = "/packages/220582"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "45664"
-usize = "211829"
-sha1sum = "3f6d281b863c13a2565de2f679670cf71d12734d"
-depends = "['ki18n>=6.6.0', 'kio>=6.6.0']"
+size = "45740"
+usize = "211733"
+sha1sum = "49dc3f9dc883b2134f3b7abe3cf01c42023ea515"
+depends = "['ki18n>=6.7.0', 'kio>=6.7.0']"
 +++
 ### Description: 
 KIO-Slaves.
 
 ### Files: 
 * /usr/lib/qt6/plugins/kf6/kio/perldoc.so
-* /usr/share/doc/kdesdk-kio-24.08.1/COPYING
+* /usr/share/doc/kdesdk-kio-24.08.2/COPYING
 * /usr/share/kio_perldoc/pod2html.pl
 * /usr/share/locale/bs/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_perldoc.mo

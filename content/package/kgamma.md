@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgamma 6.1.5-2"
-version = "6.1.5-2"
+title = "kgamma 6.2.1-1"
+version = "6.2.1-1"
 description = "Adjust your monitor's gamma settings"
-date = "2024-09-28T20:10:45"
+date = "2024-10-17T01:18:22"
 aliases = "/packages/221313"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "138612"
-usize = "377080"
-sha1sum = "2e9ff95fc520f367658cb056c49b5536e8aee7d5"
-depends = "['kcmutils>=6.6.0', 'kconfigwidgets>=6.6.0']"
+size = "143668"
+usize = "386447"
+sha1sum = "5e0d3a791d682750c4825ebfe0c443cabbb769b4"
+depends = "['kcmutils>=6.7.0', 'kconfigwidgets>=6.7.0']"
 +++
 ### Description: 
 Adjust your monitor's gamma settings
@@ -46,13 +46,15 @@ Adjust your monitor's gamma settings
 * /usr/share/doc/HTML/pt_BR/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/kgamma/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kgamma/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.docbook
-* /usr/share/doc/kgamma-6.1.5/ChangeLog
+* /usr/share/doc/kgamma-6.2.1/ChangeLog
 * /usr/share/kgamma/pics/background.png
 * /usr/share/kgamma/pics/cmyscale.png
 * /usr/share/kgamma/pics/darkgrey.png

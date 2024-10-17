@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kajongg 24.08.1-2"
-version = "24.08.1-2"
+title = "kajongg 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Mahjongg game."
-date = "2024-09-30T08:54:17"
+date = "2024-10-15T16:05:59"
 aliases = "/packages/219325"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5215368"
-usize = "10925905"
-sha1sum = "08eb6447f00dfed2a652b8660e0f15d1f050c6f6"
-depends = "['libkmahjongg>=24.08.1', 'python3-twisted']"
+size = "5245032"
+usize = "11002145"
+sha1sum = "fc5453703e78c1298a9678a87b793a1189c3f57a"
+depends = "['libkmahjongg>=24.08.2', 'python3-twisted']"
 +++
 ### Description: 
 KDE Mahjongg game.
@@ -54,6 +54,8 @@ KDE Mahjongg game.
 * /usr/share/doc/HTML/pt/kajongg/index.docbook
 * /usr/share/doc/HTML/pt_BR/kajongg/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kajongg/index.docbook
+* /usr/share/doc/HTML/sl/kajongg/index.cache.bz2
+* /usr/share/doc/HTML/sl/kajongg/index.docbook
 * /usr/share/doc/HTML/sv/kajongg/index.cache.bz2
 * /usr/share/doc/HTML/sv/kajongg/index.docbook
 * /usr/share/doc/HTML/uk/kajongg/config_background.png
@@ -66,11 +68,11 @@ KDE Mahjongg game.
 * /usr/share/doc/HTML/uk/kajongg/index.docbook
 * /usr/share/doc/HTML/uk/kajongg/ruleseteditor.png
 * /usr/share/doc/HTML/uk/kajongg/scoretable.png
-* /usr/share/doc/kajongg-24.08.1/COPYING.DOC
-* /usr/share/doc/kajongg-24.08.1/LICENSE
-* /usr/share/doc/kajongg-24.08.1/README
-* /usr/share/doc/kajongg-24.08.1/README.packagers
-* /usr/share/doc/kajongg-24.08.1/README.windows
+* /usr/share/doc/kajongg-24.08.2/COPYING.DOC
+* /usr/share/doc/kajongg-24.08.2/LICENSE
+* /usr/share/doc/kajongg-24.08.2/README
+* /usr/share/doc/kajongg-24.08.2/README.packagers
+* /usr/share/doc/kajongg-24.08.2/README.windows
 * /usr/share/icons/hicolor/128x128/apps/kajongg.png
 * /usr/share/icons/hicolor/16x16/apps/kajongg.png
 * /usr/share/icons/hicolor/22x22/apps/kajongg.png

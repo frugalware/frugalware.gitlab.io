@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kguiaddons 6.6.0-2"
-version = "6.6.0-2"
+title = "kguiaddons 6.7.0-1"
+version = "6.7.0-1"
 description = "Utilities for graphical user interfaces."
-date = "2024-09-28T18:46:21"
+date = "2024-10-14T17:18:49"
 aliases = "/packages/218310"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "115300"
-usize = "415416"
-sha1sum = "efb01b92158824d686af561111585e6c133b5677"
-depends = "['qt6-base>=6.7.3', 'qt6-wayland>=6.7.3']"
+size = "121392"
+usize = "440233"
+sha1sum = "09cc2029d894a246e5acde702f1383098b79ae87"
+depends = "['qt6-base>=6.8.0', 'qt6-wayland>=6.8.0']"
 reverse_depends = "['breeze', 'kcolorscheme', 'kirigami-addons', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
 +++
 ### Description: 
@@ -51,6 +51,8 @@ Utilities for graphical user interfaces.
 * /usr/include/KF6/KGuiAddons/kmodifierkeyinfoprovider_p.h
 * /usr/include/KF6/KGuiAddons/KSystemClipboard
 * /usr/include/KF6/KGuiAddons/ksystemclipboard.h
+* /usr/include/KF6/KGuiAddons/KWindowInsetsController
+* /usr/include/KF6/KGuiAddons/kwindowinsetscontroller.h
 * /usr/include/KF6/KGuiAddons/KWordWrap
 * /usr/include/KF6/KGuiAddons/kwordwrap.h
 * /usr/lib/cmake/KF6GuiAddons/KF6GuiAddonsConfig.cmake
@@ -59,12 +61,16 @@ Utilities for graphical user interfaces.
 * /usr/lib/cmake/KF6GuiAddons/KF6GuiAddonsTargets.cmake
 * /usr/lib/libKF6GuiAddons.so
 * /usr/lib/libKF6GuiAddons.so.6
-* /usr/lib/libKF6GuiAddons.so.6.6.0
+* /usr/lib/libKF6GuiAddons.so.6.7.0
 * /usr/lib/pkgconfig/KF6GuiAddons.pc
+* /usr/lib/qt6/qml/org/kde/guiaddons/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/guiaddons/kguiaddonsqml.qmltypes
+* /usr/lib/qt6/qml/org/kde/guiaddons/libkguiaddonsqml.so
+* /usr/lib/qt6/qml/org/kde/guiaddons/qmldir
 * /usr/share/applications/google-maps-geo-handler.desktop
 * /usr/share/applications/openstreetmap-geo-handler.desktop
 * /usr/share/applications/qwant-maps-geo-handler.desktop
 * /usr/share/applications/wheelmap-geo-handler.desktop
-* /usr/share/doc/kguiaddons-6.6.0/README.md
-* /usr/share/doc/kguiaddons-6.6.0/README.md.license
+* /usr/share/doc/kguiaddons-6.7.0/README.md
+* /usr/share/doc/kguiaddons-6.7.0/README.md.license
 * /usr/share/qlogging-categories6/kguiaddons.categories

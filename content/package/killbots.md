@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "killbots 24.08.1-2"
-version = "24.08.1-2"
+title = "killbots 24.08.2-1"
+version = "24.08.2-1"
 description = "A simple game of evading killer robots."
-date = "2024-09-29T11:25:20"
+date = "2024-10-15T13:27:08"
 aliases = "/packages/184183"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1364500"
-usize = "2562083"
-sha1sum = "c08a2ca983dc80d2da25da057768c2ca59bae68f"
-depends = "['libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "1382972"
+usize = "2613523"
+sha1sum = "ecf5a6400c89a4ca776afc5799f8e10656b490aa"
+depends = "['libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A simple game of evading killer robots.
@@ -51,13 +51,15 @@ A simple game of evading killer robots.
 * /usr/share/doc/HTML/pt/killbots/index.docbook
 * /usr/share/doc/HTML/pt_BR/killbots/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/killbots/index.docbook
+* /usr/share/doc/HTML/sl/killbots/index.cache.bz2
+* /usr/share/doc/HTML/sl/killbots/index.docbook
 * /usr/share/doc/HTML/sv/killbots/index.cache.bz2
 * /usr/share/doc/HTML/sv/killbots/index.docbook
 * /usr/share/doc/HTML/uk/killbots/index.cache.bz2
 * /usr/share/doc/HTML/uk/killbots/index.docbook
 * /usr/share/doc/HTML/uk/killbots/status.png
-* /usr/share/doc/killbots-24.08.1/README.codestyle
-* /usr/share/doc/killbots-24.08.1/README.translators
+* /usr/share/doc/killbots-24.08.2/README.codestyle
+* /usr/share/doc/killbots-24.08.2/README.translators
 * /usr/share/icons/hicolor/128x128/apps/killbots.png
 * /usr/share/icons/hicolor/16x16/apps/killbots.png
 * /usr/share/icons/hicolor/22x22/apps/killbots.png

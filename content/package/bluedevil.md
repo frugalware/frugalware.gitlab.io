@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bluedevil 6.1.5-2"
-version = "6.1.5-2"
+title = "bluedevil 6.2.1-1"
+version = "6.2.1-1"
 description = "KDE Bluetooth Framework"
-date = "2024-09-28T21:53:48"
+date = "2024-10-17T02:24:28"
 aliases = "/packages/221282"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "496060"
-usize = "2058683"
-sha1sum = "e8c55d7a67d865ef19a48180788dbc2f7e2412ad"
-depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.6.0', 'ksvg>=6.6.0', 'libplasma>=6.1.5']"
+size = "517912"
+usize = "2163823"
+sha1sum = "d8e926b40463a6c698a9aa4c9e93638044ab9dd2"
+depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.7.0', 'ksvg>=6.7.0', 'libplasma>=6.2.1']"
 +++
 ### Description: 
 KDE Bluetooth Framework
@@ -27,11 +27,12 @@ KDE Bluetooth Framework
 * /usr/lib/qt6/qml/org/kde/plasma/private/bluetooth/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/bluetooth/libbluetoothplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/bluetooth/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/bluetooth/SharedDevicesStateProxyModel.qml
 * /usr/share/applications/kcm_bluetooth.desktop
 * /usr/share/applications/org.kde.bluedevilsendfile.desktop
 * /usr/share/applications/org.kde.bluedevilwizard.desktop
 * /usr/share/bluedevilwizard/pin-code-database.xml
-* /usr/share/doc/bluedevil-6.1.5/README
+* /usr/share/doc/bluedevil-6.2.1/README
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/bluedevil/bluetooth-add.png
@@ -52,6 +53,8 @@ KDE Bluetooth Framework
 * /usr/share/doc/HTML/nl/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/bluedevil/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/bluedevil/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/bluedevil/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/bluedevil/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/bluedevil/index.cache.bz2

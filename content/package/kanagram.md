@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kanagram 24.08.1-2"
-version = "24.08.1-2"
+title = "kanagram 24.08.2-1"
+version = "24.08.2-1"
 description = "Letter Order Game."
-date = "2024-09-29T13:28:14"
+date = "2024-10-15T13:39:48"
 aliases = "/packages/152826"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7030884"
-usize = "8124886"
-sha1sum = "389b6bbad34c114d5e01b67dc7a46b7400e0a2c0"
-depends = "['kdeclarative>=6.6.0', 'knewstuff>=6.6.0', 'libkeduvocdocument>=24.08.1', 'qt6-declarative>=6.7.3', 'qt6-svg>=6.7.3']"
+size = "7039352"
+usize = "8145625"
+sha1sum = "ece19f90515d0d63185e268bfac23f6f3daf5e52"
+depends = "['kdeclarative>=6.7.0', 'knewstuff>=6.7.0', 'libkeduvocdocument>=24.08.2', 'qt6-declarative>=6.8.0', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 Letter Order Game.
@@ -86,6 +86,8 @@ Letter Order Game.
 * /usr/share/doc/HTML/pt_BR/kanagram/index.docbook
 * /usr/share/doc/HTML/ru/kanagram/index.cache.bz2
 * /usr/share/doc/HTML/ru/kanagram/index.docbook
+* /usr/share/doc/HTML/sl/kanagram/index.cache.bz2
+* /usr/share/doc/HTML/sl/kanagram/index.docbook
 * /usr/share/doc/HTML/sv/kanagram/answer-highlight.png
 * /usr/share/doc/HTML/sv/kanagram/general-settings.png
 * /usr/share/doc/HTML/sv/kanagram/helpstates.png
@@ -106,10 +108,10 @@ Letter Order Game.
 * /usr/share/doc/HTML/uk/kanagram/newstuff-dialog.png
 * /usr/share/doc/HTML/uk/kanagram/vocab-editor.png
 * /usr/share/doc/HTML/uk/kanagram/vocab-settings.png
-* /usr/share/doc/kanagram-24.08.1/ChangeLog
-* /usr/share/doc/kanagram-24.08.1/COPYING
-* /usr/share/doc/kanagram-24.08.1/COPYING.DOC
-* /usr/share/doc/kanagram-24.08.1/TODO
+* /usr/share/doc/kanagram-24.08.2/ChangeLog
+* /usr/share/doc/kanagram-24.08.2/COPYING
+* /usr/share/doc/kanagram-24.08.2/COPYING.DOC
+* /usr/share/doc/kanagram-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kanagram.png
 * /usr/share/icons/hicolor/16x16/apps/kanagram.png
 * /usr/share/icons/hicolor/24x24/apps/kanagram.png

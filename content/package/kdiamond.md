@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiamond 24.08.1-2"
-version = "24.08.1-2"
+title = "kdiamond 24.08.2-1"
+version = "24.08.2-1"
 description = "A single player puzzle game."
-date = "2024-09-29T11:20:40"
+date = "2024-10-15T13:24:06"
 aliases = "/packages/184179"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4825120"
-usize = "5226844"
-sha1sum = "e703ab422d750dbebf63c09c4bb197ccdf126c0d"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "4832556"
+usize = "5241741"
+sha1sum = "9c2475cd93591b6564beba640813277d3409e1a7"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A single player puzzle game.
@@ -44,6 +44,8 @@ A single player puzzle game.
 * /usr/share/doc/HTML/pt/kdiamond/index.docbook
 * /usr/share/doc/HTML/pt_BR/kdiamond/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kdiamond/index.docbook
+* /usr/share/doc/HTML/sl/kdiamond/index.cache.bz2
+* /usr/share/doc/HTML/sl/kdiamond/index.docbook
 * /usr/share/doc/HTML/sv/kdiamond/index.cache.bz2
 * /usr/share/doc/HTML/sv/kdiamond/index.docbook
 * /usr/share/doc/HTML/uk/kdiamond/gameboard.png

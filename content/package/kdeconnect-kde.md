@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.08.1-2"
-version = "24.08.1-2"
+title = "kdeconnect-kde 24.08.2-1"
+version = "24.08.2-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2024-09-30T08:41:43"
+date = "2024-10-15T15:53:49"
 aliases = "/packages/220147"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5481068"
-usize = "14321711"
-sha1sum = "e333ec8b32bd363a0246a35f7b1eecb7ba6384e7"
-depends = "['kcmutils>=6.6.0', 'kio>=6.6.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kwayland>=6.1.5', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.6.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.6.0', 'qt6-multimedia>=6.7.3', 'qt6-sensors>=6.7.3']"
+size = "5519820"
+usize = "14385615"
+sha1sum = "c97a96b52607bd9f56bc93e5dfdbd3a734715a9e"
+depends = "['kcmutils>=6.7.0', 'kio>=6.7.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'kwayland>=6.2.0', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.7.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.7.0', 'qt6-multimedia>=6.8.0', 'qt6-sensors>=6.8.0']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.08.1
+* /usr/lib/libkdeconnectcore.so.24.08.2
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.08.1
+* /usr/lib/libkdeconnectpluginkcm.so.24.08.2
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -105,6 +105,8 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/pt_BR/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/ru/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/ru/kdeconnect-kde/index.docbook
+* /usr/share/doc/HTML/sl/kdeconnect-kde/index.cache.bz2
+* /usr/share/doc/HTML/sl/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/sv/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/sv/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/tr/kdeconnect-kde/index.cache.bz2
@@ -113,7 +115,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.08.1/README.md
+* /usr/share/doc/kdeconnect-kde-24.08.2/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg

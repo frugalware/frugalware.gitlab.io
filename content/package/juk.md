@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "juk 24.08.1-2"
-version = "24.08.1-2"
+title = "juk 24.08.2-1"
+version = "24.08.2-1"
 description = "JuK is an audio jukebox application."
-date = "2024-09-30T07:50:25"
+date = "2024-10-15T15:25:30"
 aliases = "/packages/219523"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1808788"
-usize = "5071779"
-sha1sum = "00400ab106a3ec81cd38b2438eed99339553abba"
-depends = "['kio>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'pcre2', 'taglib>=2.0']"
+size = "1836024"
+usize = "5157138"
+sha1sum = "193318fa6d25caba8e1f4c4eb4b4dc1ea8341fb5"
+depends = "['kio>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'pcre2', 'taglib>=2.0']"
 +++
 ### Description: 
 JuK is an audio jukebox application.
@@ -71,6 +71,8 @@ JuK is an audio jukebox application.
 * /usr/share/doc/HTML/nl/juk/index.cache.bz2
 * /usr/share/doc/HTML/nl/juk/index.docbook
 * /usr/share/doc/HTML/nl/juk/juk-main.png
+* /usr/share/doc/HTML/sl/juk/index.cache.bz2
+* /usr/share/doc/HTML/sl/juk/index.docbook
 * /usr/share/doc/HTML/sr/juk/index.cache.bz2
 * /usr/share/doc/HTML/sr/juk/index.docbook
 * /usr/share/doc/HTML/sr@latin/juk/index.cache.bz2
@@ -82,10 +84,10 @@ JuK is an audio jukebox application.
 * /usr/share/doc/HTML/uk/juk/juk-main.png
 * /usr/share/doc/HTML/uk/juk/juk-manage-folders.png
 * /usr/share/doc/HTML/uk/juk/juk-tag-guesser.png
-* /usr/share/doc/juk-24.08.1/COPYING
-* /usr/share/doc/juk-24.08.1/HACKING
-* /usr/share/doc/juk-24.08.1/README.md
-* /usr/share/doc/juk-24.08.1/TODO
+* /usr/share/doc/juk-24.08.2/COPYING
+* /usr/share/doc/juk-24.08.2/HACKING
+* /usr/share/doc/juk-24.08.2/README.md
+* /usr/share/doc/juk-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/juk.png
 * /usr/share/icons/hicolor/16x16/apps/juk.png
 * /usr/share/icons/hicolor/32x32/apps/juk.png

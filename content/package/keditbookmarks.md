@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "keditbookmarks 24.08.1-3"
-version = "24.08.1-3"
+title = "keditbookmarks 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE's bookmarks editor"
-date = "2024-09-29T10:30:39"
+date = "2024-10-15T12:32:16"
 aliases = "/packages/88143"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "362036"
-usize = "1563410"
-sha1sum = "f887c76639cd413e67a056b470ae1bfb0216583d"
-depends = "['kparts>=6.6.0']"
+size = "367836"
+usize = "1572426"
+sha1sum = "95a466f9d9198037f812f2bdb7ea2dc17c10f995"
+depends = "['kparts>=6.7.0']"
 +++
 ### Description: 
 KDE's bookmarks editor
@@ -43,6 +43,8 @@ KDE's bookmarks editor
 * /usr/share/doc/HTML/pt_BR/keditbookmarks/index.docbook
 * /usr/share/doc/HTML/ru/keditbookmarks/index.cache.bz2
 * /usr/share/doc/HTML/ru/keditbookmarks/index.docbook
+* /usr/share/doc/HTML/sl/keditbookmarks/index.cache.bz2
+* /usr/share/doc/HTML/sl/keditbookmarks/index.docbook
 * /usr/share/doc/HTML/sv/keditbookmarks/index.cache.bz2
 * /usr/share/doc/HTML/sv/keditbookmarks/index.docbook
 * /usr/share/doc/HTML/tr/keditbookmarks/index.cache.bz2
@@ -51,9 +53,9 @@ KDE's bookmarks editor
 * /usr/share/doc/HTML/uk/keditbookmarks/index.docbook
 * /usr/share/doc/HTML/zh_CN/keditbookmarks/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/keditbookmarks/index.docbook
-* /usr/share/doc/keditbookmarks-24.08.1/COPYING
-* /usr/share/doc/keditbookmarks-24.08.1/COPYING.DOC
-* /usr/share/doc/keditbookmarks-24.08.1/TODO
+* /usr/share/doc/keditbookmarks-24.08.2/COPYING
+* /usr/share/doc/keditbookmarks-24.08.2/COPYING.DOC
+* /usr/share/doc/keditbookmarks-24.08.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/ast/LC_MESSAGES/keditbookmarks.mo
 * /usr/share/locale/be/LC_MESSAGES/keditbookmarks.mo
@@ -153,6 +155,7 @@ KDE's bookmarks editor
 * /usr/share/man/pt/man1/kbookmarkmerger.1.gz
 * /usr/share/man/pt_BR/man1/kbookmarkmerger.1.gz
 * /usr/share/man/ru/man1/kbookmarkmerger.1.gz
+* /usr/share/man/sl/man1/kbookmarkmerger.1.gz
 * /usr/share/man/sr/man1/kbookmarkmerger.1.gz
 * /usr/share/man/sr@latin/man1/kbookmarkmerger.1.gz
 * /usr/share/man/sv/man1/kbookmarkmerger.1.gz

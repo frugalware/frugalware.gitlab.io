@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-addons 24.08.1-2"
-version = "24.08.1-2"
+title = "kdepim-addons 24.08.2-1"
+version = "24.08.2-1"
 description = "Addons for PIM release-service."
-date = "2024-09-30T08:36:09"
+date = "2024-10-15T15:51:08"
 aliases = "/packages/219159"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1345728"
-usize = "8403436"
-sha1sum = "50dc8f7b6c62b2eb99df3927ce9283d354da14c3"
-depends = "['akonadi-import-wizard>=24.08.1', 'discount>=3.0.0', 'incidenceeditor>=24.08.1', 'kaddressbook>=24.08.1', 'kitinerary>=24.08.1', 'kontactinterface>=24.08.1', 'ktnef>=24.08.1', 'libksieve>=24.08.1', 'mailcommon>=24.08.1', 'poppler-qt6']"
+size = "1346320"
+usize = "8413223"
+sha1sum = "c1ff577916b3956afdfadb853db70f48e5612d4d"
+depends = "['akonadi-import-wizard>=24.08.2', 'discount>=3.0.0', 'incidenceeditor>=24.08.2', 'kaddressbook>=24.08.2', 'kitinerary>=24.08.2', 'kontactinterface>=24.08.2', 'ktnef>=24.08.2', 'libksieve>=24.08.2', 'mailcommon>=24.08.2', 'poppler-qt6']"
 +++
 ### Description: 
 Addons for PIM release-service.
@@ -24,25 +24,25 @@ Addons for PIM release-service.
 * /usr/bin/kmail_fprot.sh
 * /usr/bin/kmail_sav.sh
 * /usr/lib/libakonadidatasetools.so.6
-* /usr/lib/libakonadidatasetools.so.6.2.1
+* /usr/lib/libakonadidatasetools.so.6.2.2
 * /usr/lib/libdkimverifyconfigure.so.6
-* /usr/lib/libdkimverifyconfigure.so.6.2.1
+* /usr/lib/libdkimverifyconfigure.so.6.2.2
 * /usr/lib/libexpireaccounttrashfolderconfig.so.6
-* /usr/lib/libexpireaccounttrashfolderconfig.so.6.2.1
+* /usr/lib/libexpireaccounttrashfolderconfig.so.6.2.2
 * /usr/lib/libfolderconfiguresettings.so.6
-* /usr/lib/libfolderconfiguresettings.so.6.2.1
+* /usr/lib/libfolderconfiguresettings.so.6.2.2
 * /usr/lib/libkaddressbookmergelibprivate.so.6
-* /usr/lib/libkaddressbookmergelibprivate.so.6.2.1
+* /usr/lib/libkaddressbookmergelibprivate.so.6.2.2
 * /usr/lib/libkmailconfirmbeforedeleting.so.6
-* /usr/lib/libkmailconfirmbeforedeleting.so.6.2.1
+* /usr/lib/libkmailconfirmbeforedeleting.so.6.2.2
 * /usr/lib/libkmailmarkdown.so.6
-* /usr/lib/libkmailmarkdown.so.6.2.1
+* /usr/lib/libkmailmarkdown.so.6.2.2
 * /usr/lib/libkmailquicktextpluginprivate.so.6
-* /usr/lib/libkmailquicktextpluginprivate.so.6.2.1
+* /usr/lib/libkmailquicktextpluginprivate.so.6.2.2
 * /usr/lib/libopenurlwithconfigure.so.6
-* /usr/lib/libopenurlwithconfigure.so.6.2.1
+* /usr/lib/libopenurlwithconfigure.so.6.2.2
 * /usr/lib/libshorturlpluginprivate.so.6
-* /usr/lib/libshorturlpluginprivate.so.6.2.1
+* /usr/lib/libshorturlpluginprivate.so.6.2.2
 * /usr/lib/qt6/plugins/pim6/akonadi/emailaddressselectionldapdialogplugin.so
 * /usr/lib/qt6/plugins/pim6/contacteditor/editorpageplugins/cryptopageplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/evolutionv1importerplugin.so

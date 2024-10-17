@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcharselect 24.08.1-3"
-version = "24.08.1-3"
+title = "kcharselect 24.08.2-1"
+version = "24.08.2-1"
 description = "Character selector."
-date = "2024-09-29T10:23:53"
+date = "2024-10-15T12:26:50"
 aliases = "/packages/153202"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "441080"
-usize = "735977"
-sha1sum = "218d2d831e4d4489fe457efd67ed0c476ed051b7"
-depends = "['kbookmarks>=6.6.0', 'kxmlgui>=6.6.0']"
+size = "443172"
+usize = "740220"
+sha1sum = "27345d5254d9f5471e6e9ca6e3631aa56f92e761"
+depends = "['kbookmarks>=6.7.0', 'kxmlgui>=6.7.0']"
 +++
 ### Description: 
 Character selector.
@@ -54,6 +54,8 @@ Character selector.
 * /usr/share/doc/HTML/pt_BR/kcharselect/kcharselect.png
 * /usr/share/doc/HTML/ru/kcharselect/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcharselect/index.docbook
+* /usr/share/doc/HTML/sl/kcharselect/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcharselect/index.docbook
 * /usr/share/doc/HTML/sr/kcharselect/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcharselect/index.docbook
 * /usr/share/doc/HTML/sr@latin/kcharselect/index.cache.bz2
@@ -66,7 +68,7 @@ Character selector.
 * /usr/share/doc/HTML/uk/kcharselect/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcharselect/index.docbook
 * /usr/share/doc/HTML/uk/kcharselect/kcharselect.png
-* /usr/share/doc/kcharselect-24.08.1/COPYING
+* /usr/share/doc/kcharselect-24.08.2/COPYING
 * /usr/share/locale/af/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcharselect.mo

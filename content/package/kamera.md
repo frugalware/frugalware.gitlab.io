@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kamera 24.08.1-3"
-version = "24.08.1-3"
+title = "kamera 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE Webcam Configurator Tool."
-date = "2024-09-29T10:20:02"
+date = "2024-10-15T12:24:06"
 aliases = "/packages/88166"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "157376"
-usize = "643514"
-sha1sum = "203dfaa44e6ac7dd666dc20c06e63209533b02a0"
-depends = "['gphoto2>=2.5.11-2', 'kcmutils>=6.6.0', 'kio>=6.6.0']"
+size = "159272"
+usize = "647430"
+sha1sum = "d7de498588defb514453d660a840aa47e0dabf9c"
+depends = "['gphoto2>=2.5.11-2', 'kcmutils>=6.7.0', 'kio>=6.7.0']"
 +++
 ### Description: 
 KDE Webcam Configurator Tool.
@@ -48,14 +48,16 @@ KDE Webcam Configurator Tool.
 * /usr/share/doc/HTML/pt_BR/kcontrol/kamera/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/kamera/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/kamera/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/kamera/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/kamera/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/kamera/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kamera/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kamera/index.docbook
-* /usr/share/doc/kamera-24.08.1/AUTHORS
-* /usr/share/doc/kamera-24.08.1/README
+* /usr/share/doc/kamera-24.08.2/AUTHORS
+* /usr/share/doc/kamera-24.08.2/README
 * /usr/share/locale/af/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcmkamera.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_kamera.mo

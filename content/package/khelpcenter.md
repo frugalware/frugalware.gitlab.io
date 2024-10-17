@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khelpcenter 24.08.1-3"
-version = "24.08.1-3"
+title = "khelpcenter 24.08.2-1"
+version = "24.08.2-1"
 description = "Application to show KDE Applications documentation."
-date = "2024-09-29T10:11:36"
+date = "2024-10-15T12:17:27"
 aliases = "/packages/221317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3602444"
-usize = "6910699"
-sha1sum = "e4d846b4789f4fd9c314c7dd5ccb7a9d9d73aece"
-depends = "['kcmutils>=6.6.0', 'ktexttemplate>=6.6.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
+size = "3651732"
+usize = "7052622"
+sha1sum = "b51da3ee32ccb54f4bd68dfa27864af2bc4c31c3"
+depends = "['kcmutils>=6.7.0', 'ktexttemplate>=6.7.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
 +++
 ### Description: 
 Application to show KDE Applications documentation.
@@ -228,6 +228,13 @@ Application to show KDE Applications documentation.
 * /usr/share/doc/HTML/ru/khelpcenter/index.docbook
 * /usr/share/doc/HTML/ru/onlinehelp/index.cache.bz2
 * /usr/share/doc/HTML/ru/onlinehelp/index.docbook
+* /usr/share/doc/HTML/sl/khelpcenter/glossary/index.cache.bz2
+* /usr/share/doc/HTML/sl/khelpcenter/glossary/index.docbook
+* /usr/share/doc/HTML/sl/khelpcenter/glossary/kdeprintingglossary.docbook
+* /usr/share/doc/HTML/sl/khelpcenter/index.cache.bz2
+* /usr/share/doc/HTML/sl/khelpcenter/index.docbook
+* /usr/share/doc/HTML/sl/onlinehelp/index.cache.bz2
+* /usr/share/doc/HTML/sl/onlinehelp/index.docbook
 * /usr/share/doc/HTML/sr/khelpcenter/index.cache.bz2
 * /usr/share/doc/HTML/sr/khelpcenter/index.docbook
 * /usr/share/doc/HTML/sr/onlinehelp/index.cache.bz2
@@ -294,7 +301,7 @@ Application to show KDE Applications documentation.
 * /usr/share/doc/HTML/uk/khelpcenter/index.docbook
 * /usr/share/doc/HTML/uk/onlinehelp/index.cache.bz2
 * /usr/share/doc/HTML/uk/onlinehelp/index.docbook
-* /usr/share/doc/khelpcenter-24.08.1/README.metadata
+* /usr/share/doc/khelpcenter-24.08.2/README.metadata
 * /usr/share/khelpcenter/glossary.xslt
 * /usr/share/khelpcenter/plugins/Applications/.directory
 * /usr/share/khelpcenter/plugins/fundamentals.desktop

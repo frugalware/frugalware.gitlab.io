@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgoldrunner 24.08.1-2"
-version = "24.08.1-2"
+title = "kgoldrunner 24.08.2-1"
+version = "24.08.2-1"
 description = "A game of action and puzzle solving."
-date = "2024-09-29T11:23:11"
+date = "2024-10-15T13:25:36"
 aliases = "/packages/184181"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5116152"
-usize = "17895780"
-sha1sum = "c3e803062c779d562e3693d0929be184f7bc5b9b"
-depends = "['kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt6-svg>=6.7.3']"
+size = "5156024"
+usize = "18015582"
+sha1sum = "c327ebd4fc06920ee8c10ebca699a8967aa4e275"
+depends = "['kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A game of action and puzzle solving.
@@ -52,6 +52,8 @@ A game of action and puzzle solving.
 * /usr/share/doc/HTML/pt/kgoldrunner/index.docbook
 * /usr/share/doc/HTML/pt_BR/kgoldrunner/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kgoldrunner/index.docbook
+* /usr/share/doc/HTML/sl/kgoldrunner/index.cache.bz2
+* /usr/share/doc/HTML/sl/kgoldrunner/index.docbook
 * /usr/share/doc/HTML/sv/kgoldrunner/editbar.png
 * /usr/share/doc/HTML/sv/kgoldrunner/index.cache.bz2
 * /usr/share/doc/HTML/sv/kgoldrunner/index.docbook
@@ -61,12 +63,12 @@ A game of action and puzzle solving.
 * /usr/share/doc/HTML/uk/kgoldrunner/index.docbook
 * /usr/share/doc/HTML/uk/kgoldrunner/select.png
 * /usr/share/doc/HTML/uk/kgoldrunner/tute008.png
-* /usr/share/doc/kgoldrunner-24.08.1/AUTHORS
-* /usr/share/doc/kgoldrunner-24.08.1/BUGS
-* /usr/share/doc/kgoldrunner-24.08.1/README
-* /usr/share/doc/kgoldrunner-24.08.1/README.PACKAGERS
-* /usr/share/doc/kgoldrunner-24.08.1/TODO
-* /usr/share/doc/kgoldrunner-24.08.1/VERSION
+* /usr/share/doc/kgoldrunner-24.08.2/AUTHORS
+* /usr/share/doc/kgoldrunner-24.08.2/BUGS
+* /usr/share/doc/kgoldrunner-24.08.2/README
+* /usr/share/doc/kgoldrunner-24.08.2/README.PACKAGERS
+* /usr/share/doc/kgoldrunner-24.08.2/TODO
+* /usr/share/doc/kgoldrunner-24.08.2/VERSION
 * /usr/share/icons/hicolor/128x128/apps/kgoldrunner.png
 * /usr/share/icons/hicolor/16x16/apps/kgoldrunner.png
 * /usr/share/icons/hicolor/22x22/apps/kgoldrunner.png

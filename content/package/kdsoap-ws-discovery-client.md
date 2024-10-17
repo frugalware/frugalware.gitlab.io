@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdsoap-ws-discovery-client 0.4.0-2"
-version = "0.4.0-2"
+title = "kdsoap-ws-discovery-client 0.4.0-3"
+version = "0.4.0-3"
 description = "WS-Discovery client library based on KDSoap"
-date = "2024-03-13T09:15:26"
+date = "2024-10-16T08:46:07"
 aliases = "/packages/221310"
-categories = []
+categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "47504"
-usize = "150558"
-sha1sum = "e12e6c12717a5b2676168836e6174c6386e7f6b7"
+size = "48076"
+usize = "145972"
+sha1sum = "e16e83187e3a9feb0a386ea5a641a9b99e719c2d"
 depends = "['kdsoap>=2.2.0']"
 reverse_depends = "['kio-extras']"
 +++

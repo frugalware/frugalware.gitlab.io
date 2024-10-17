@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-cli-tools 6.1.5-2"
-version = "6.1.5-2"
+title = "kde-cli-tools 6.2.1-1"
+version = "6.2.1-1"
 description = "Tools based on KDE Frameworks 5 to better interact with the system."
-date = "2024-09-28T21:43:52"
+date = "2024-10-17T02:14:43"
 aliases = "/packages/218291"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "815292"
-usize = "3783037"
-sha1sum = "0704f955998a5ff20ca9d0ccb1dbd91ca8691cec"
-depends = "['kcmutils>=6.6.0', 'kdesu>=6.6.0', 'plasma-workspace>=6.1.5']"
+size = "835520"
+usize = "3826491"
+sha1sum = "1c24382eaca407f83f1e5e72c3d7c038a60c6aa5"
+depends = "['kcmutils>=6.7.0', 'kdesu>=6.7.0', 'plasma-workspace>=6.2.1']"
 +++
 ### Description: 
 Tools based on KDE Frameworks 5 to better interact with the system.
@@ -90,6 +90,10 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/doc/HTML/ru/kcontrol6/filetypes/index.docbook
 * /usr/share/doc/HTML/ru/kdesu/index.cache.bz2
 * /usr/share/doc/HTML/ru/kdesu/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol6/filetypes/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol6/filetypes/index.docbook
+* /usr/share/doc/HTML/sl/kdesu/index.cache.bz2
+* /usr/share/doc/HTML/sl/kdesu/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol6/filetypes/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol6/filetypes/index.docbook
 * /usr/share/doc/HTML/sr/kdesu/index.cache.bz2
@@ -688,6 +692,7 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/man/pt/man1/kdesu.1.gz
 * /usr/share/man/pt_BR/man1/kdesu.1.gz
 * /usr/share/man/ru/man1/kdesu.1.gz
+* /usr/share/man/sl/man1/kdesu.1.gz
 * /usr/share/man/sr/man1/kdesu.1.gz
 * /usr/share/man/sr@latin/man1/kdesu.1.gz
 * /usr/share/man/sv/man1/kdesu.1.gz

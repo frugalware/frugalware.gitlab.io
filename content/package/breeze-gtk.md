@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "breeze-gtk 6.1.5-2"
-version = "6.1.5-2"
+title = "breeze-gtk 6.2.1-1"
+version = "6.2.1-1"
 description = "Artwork, styles and assets for the Breeze visual style for GTK"
-date = "2024-09-28T21:51:38"
+date = "2024-10-17T02:22:27"
 aliases = "/packages/218258"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "179168"
-usize = "1212591"
-sha1sum = "0e270ffc0842a116898fa86d99a5d5430a0183e6"
-depends = "['qt6-base>=6.7.3']"
+size = "179256"
+usize = "1213251"
+sha1sum = "d0a25b75d7e7b944bb8a0409786452aa82debbd9"
+depends = "['qt6-base>=6.8.0']"
 +++
 ### Description: 
 Artwork, styles and assets for the Breeze visual style for GTK
 
 ### Files: 
-* /usr/share/doc/breeze-gtk-6.1.5/README.md
-* /usr/share/doc/breeze-gtk-6.1.5/TODO
+* /usr/share/doc/breeze-gtk-6.2.1/README.md
+* /usr/share/doc/breeze-gtk-6.2.1/TODO
 * /usr/share/themes/Breeze-Dark/assets/arrow-down-active.png
 * /usr/share/themes/Breeze-Dark/assets/arrow-down-hover.png
 * /usr/share/themes/Breeze-Dark/assets/arrow-down-insensitive.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdbusaddons 6.6.0-2"
-version = "6.6.0-2"
+title = "kdbusaddons 6.7.0-1"
+version = "6.7.0-1"
 description = "Convenience classes for QtDBus."
-date = "2024-09-28T18:42:56"
+date = "2024-10-14T17:15:57"
 aliases = "/packages/218288"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "64044"
-usize = "232785"
-sha1sum = "c3171123cb778c421afe2313e0d02d43611660b1"
-depends = "['qt6-base>=6.7.3']"
+size = "64060"
+usize = "233120"
+sha1sum = "8a9095ac371172d95ce6b2f7254d7082d1eaf326"
+depends = "['qt6-base>=6.8.0']"
 reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'calamares-frugalware', 'dolphin', 'francis', 'kaccounts-integration', 'kdebugsettings', 'keysmith', 'kglobalacceld', 'kmousetool', 'kongress', 'kservice', 'kwin', 'plasma-browser-integration', 'plasmatube', 'polkit-kde-agent-1', 'skladnik', 'tokodon', 'wacomtablet']"
 +++
 ### Description: 
@@ -35,8 +35,8 @@ Convenience classes for QtDBus.
 * /usr/lib/cmake/KF6DBusAddons/KF6DBusAddonsTargets.cmake
 * /usr/lib/libKF6DBusAddons.so
 * /usr/lib/libKF6DBusAddons.so.6
-* /usr/lib/libKF6DBusAddons.so.6.6.0
-* /usr/share/doc/kdbusaddons-6.6.0/README.md
+* /usr/lib/libKF6DBusAddons.so.6.7.0
+* /usr/share/doc/kdbusaddons-6.7.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdbusaddons6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kdbusaddons6_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/kdbusaddons6_qt.qm

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfind 24.08.1-2"
-version = "24.08.1-2"
+title = "kfind 24.08.2-1"
+version = "24.08.2-1"
 description = "A standalone search too."
-date = "2024-09-29T09:37:03"
+date = "2024-10-15T12:44:19"
 aliases = "/packages/218932"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "394400"
-usize = "1442718"
-sha1sum = "0fe85e00830b6c2fc7667306dc89a5a5bd81088d"
-depends = "['kfilemetadata>==6.6.0']"
+size = "404036"
+usize = "1462939"
+sha1sum = "244b7747ff3c9965fc4b800010dfb370e2a3a3cc"
+depends = "['kfilemetadata>==6.7.0']"
 +++
 ### Description: 
 A standalone search too.
@@ -31,6 +31,8 @@ A standalone search too.
 * /usr/share/doc/HTML/it/kfind/index.docbook
 * /usr/share/doc/HTML/nl/kfind/index.cache.bz2
 * /usr/share/doc/HTML/nl/kfind/index.docbook
+* /usr/share/doc/HTML/sl/kfind/index.cache.bz2
+* /usr/share/doc/HTML/sl/kfind/index.docbook
 * /usr/share/doc/HTML/tr/kfind/index.cache.bz2
 * /usr/share/doc/HTML/tr/kfind/index.docbook
 * /usr/share/doc/HTML/uk/kfind/index.cache.bz2
@@ -148,6 +150,7 @@ A standalone search too.
 * /usr/share/man/pt/man1/kfind.1.gz
 * /usr/share/man/pt_BR/man1/kfind.1.gz
 * /usr/share/man/ru/man1/kfind.1.gz
+* /usr/share/man/sl/man1/kfind.1.gz
 * /usr/share/man/sr/man1/kfind.1.gz
 * /usr/share/man/sr@latin/man1/kfind.1.gz
 * /usr/share/man/sv/man1/kfind.1.gz

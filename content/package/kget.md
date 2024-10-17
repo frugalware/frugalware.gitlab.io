@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 24.08.1-2"
-version = "24.08.1-2"
+title = "kget 24.08.2-1"
+version = "24.08.2-1"
 description = "A free download manager for KDE."
-date = "2024-09-30T07:55:00"
+date = "2024-10-15T15:30:01"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5281732"
-usize = "11425449"
-sha1sum = "c139460d669aaabb72dcbe668132fce2c93e8ca0"
-depends = "['kcmutils>=6.6.0', 'knotifyconfig>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.1.5']"
+size = "5290592"
+usize = "11451129"
+sha1sum = "7ea5b0be87b70201e667c93e55e537102bb704fd"
+depends = "['kcmutils>=6.7.0', 'knotifyconfig>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.2.0']"
 +++
 ### Description: 
 A free download manager for KDE.
@@ -168,6 +168,8 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/ru/kget/metalink1.png
 * /usr/share/doc/HTML/ru/kget/metalink2.png
 * /usr/share/doc/HTML/ru/kget/metalink3.png
+* /usr/share/doc/HTML/sl/kget/index.cache.bz2
+* /usr/share/doc/HTML/sl/kget/index.docbook
 * /usr/share/doc/HTML/sr/kget/index.cache.bz2
 * /usr/share/doc/HTML/sr/kget/index.docbook
 * /usr/share/doc/HTML/sr@latin/kget/index.cache.bz2
@@ -197,14 +199,14 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/uk/kget/metalink1.png
 * /usr/share/doc/HTML/uk/kget/metalink2.png
 * /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-24.08.1/AUTHORS
-* /usr/share/doc/kget-24.08.1/Changelog
-* /usr/share/doc/kget-24.08.1/COPYING
-* /usr/share/doc/kget-24.08.1/COPYING.DOC
-* /usr/share/doc/kget-24.08.1/COPYING.LIB
-* /usr/share/doc/kget-24.08.1/HACKING
-* /usr/share/doc/kget-24.08.1/README
-* /usr/share/doc/kget-24.08.1/TODO
+* /usr/share/doc/kget-24.08.2/AUTHORS
+* /usr/share/doc/kget-24.08.2/Changelog
+* /usr/share/doc/kget-24.08.2/COPYING
+* /usr/share/doc/kget-24.08.2/COPYING.DOC
+* /usr/share/doc/kget-24.08.2/COPYING.LIB
+* /usr/share/doc/kget-24.08.2/HACKING
+* /usr/share/doc/kget-24.08.2/README
+* /usr/share/doc/kget-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kget.png
 * /usr/share/icons/hicolor/16x16/apps/kget.png
 * /usr/share/icons/hicolor/22x22/apps/kget.png

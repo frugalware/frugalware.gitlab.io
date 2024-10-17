@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgpg 24.08.1-2"
-version = "24.08.1-2"
+title = "kgpg 24.08.2-1"
+version = "24.08.2-1"
 description = "KGpg is a simple interface for GnuPG"
-date = "2024-09-29T17:39:24"
+date = "2024-10-15T14:03:45"
 aliases = "/packages/218933"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3198096"
-usize = "8811538"
-sha1sum = "31850dd5ab40d7753139157496045d8575b9f959"
-depends = "['akonadi-contacts>=24.08.1', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.6.0']"
+size = "3218720"
+usize = "8856826"
+sha1sum = "f4075fc946d8436c46825146d4d0080f02cca571"
+depends = "['akonadi-contacts>=24.08.2', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.7.0']"
 +++
 ### Description: 
 KGpg is a simple interface for GnuPG
@@ -87,6 +87,8 @@ KGpg is a simple interface for GnuPG
 * /usr/share/doc/HTML/pt_BR/kgpg/systray.png
 * /usr/share/doc/HTML/ru/kgpg/index.cache.bz2
 * /usr/share/doc/HTML/ru/kgpg/index.docbook
+* /usr/share/doc/HTML/sl/kgpg/index.cache.bz2
+* /usr/share/doc/HTML/sl/kgpg/index.docbook
 * /usr/share/doc/HTML/sr/kgpg/index.cache.bz2
 * /usr/share/doc/HTML/sr/kgpg/index.docbook
 * /usr/share/doc/HTML/sr@latin/kgpg/index.cache.bz2
@@ -109,8 +111,8 @@ KGpg is a simple interface for GnuPG
 * /usr/share/doc/HTML/uk/kgpg/keys.png
 * /usr/share/doc/HTML/uk/kgpg/options.png
 * /usr/share/doc/HTML/uk/kgpg/select-secret-key.png
-* /usr/share/doc/kgpg-24.08.1/AUTHORS
-* /usr/share/doc/kgpg-24.08.1/TODO
+* /usr/share/doc/kgpg-24.08.2/AUTHORS
+* /usr/share/doc/kgpg-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgpg.png
 * /usr/share/icons/hicolor/16x16/actions/document-export-key.png
 * /usr/share/icons/hicolor/16x16/actions/document-import-key.png

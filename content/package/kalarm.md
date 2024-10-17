@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalarm 24.08.1-2"
-version = "24.08.1-2"
+title = "kalarm 24.08.2-1"
+version = "24.08.2-1"
 description = "Personal Alarm Scheduler"
-date = "2024-09-29T20:32:02"
+date = "2024-10-15T14:20:18"
 aliases = "/packages/218930"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2917800"
-usize = "14781594"
-sha1sum = "cda2f800fc8cec0f063282b266295c6d1e486f29"
-depends = "['kcalutils>=24.08.1', 'kholidays>=6.6.0', 'kidletime>=6.6.0', 'kmailtransport>=24.08.1', 'knotifyconfig>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'mailcommon>=24.08.1', 'pimcommon>=24.08.1', 'vlc']"
+size = "2983416"
+usize = "15015730"
+sha1sum = "ab4e95847bcbf7a8d41a0918e61623778fa8afe4"
+depends = "['kcalutils>=24.08.2', 'kholidays>=6.7.0', 'kidletime>=6.7.0', 'kmailtransport>=24.08.2', 'knotifyconfig>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'mailcommon>=24.08.2', 'pimcommon>=24.08.2', 'vlc']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -23,9 +23,9 @@ Personal Alarm Scheduler
 * /usr/bin/kalarmautostart
 * /usr/lib/kauth/kf6/kauth/kalarm_helper
 * /usr/lib/libkalarmcalendar.so.6
-* /usr/lib/libkalarmcalendar.so.6.2.1
+* /usr/lib/libkalarmcalendar.so.6.2.2
 * /usr/lib/libkalarmplugin.so.6
-* /usr/lib/libkalarmplugin.so.6.2.1
+* /usr/lib/libkalarmplugin.so.6.2.2
 * /usr/lib/qt6/plugins/pim6/kalarm/akonadiplugin.so
 * /usr/share/applications/org.kde.kalarm.desktop
 * /usr/share/config.kcfg/kalarmconfig.kcfg
@@ -63,14 +63,16 @@ Personal Alarm Scheduler
 * /usr/share/doc/HTML/pt_BR/kalarm/index.docbook
 * /usr/share/doc/HTML/ru/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/ru/kalarm/index.docbook
+* /usr/share/doc/HTML/sl/kalarm/index.cache.bz2
+* /usr/share/doc/HTML/sl/kalarm/index.docbook
 * /usr/share/doc/HTML/sv/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/sv/kalarm/index.docbook
 * /usr/share/doc/HTML/uk/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/uk/kalarm/index.docbook
-* /usr/share/doc/kalarm-24.08.1/AUTHORS
-* /usr/share/doc/kalarm-24.08.1/Changelog
-* /usr/share/doc/kalarm-24.08.1/INSTALL
-* /usr/share/doc/kalarm-24.08.1/README
+* /usr/share/doc/kalarm-24.08.2/AUTHORS
+* /usr/share/doc/kalarm-24.08.2/Changelog
+* /usr/share/doc/kalarm-24.08.2/INSTALL
+* /usr/share/doc/kalarm-24.08.2/README
 * /usr/share/icons/hicolor/128x128/apps/kalarm.png
 * /usr/share/icons/hicolor/16x16/apps/kalarm.png
 * /usr/share/icons/hicolor/22x22/apps/kalarm.png

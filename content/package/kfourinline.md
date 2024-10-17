@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfourinline 24.08.1-2"
-version = "24.08.1-2"
+title = "kfourinline 24.08.2-1"
+version = "24.08.2-1"
 description = "A four-in-a-row game."
-date = "2024-09-29T11:21:59"
+date = "2024-10-15T13:24:53"
 aliases = "/packages/184180"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1136908"
-usize = "2112699"
-sha1sum = "2f76cced9f9ff24336384850fd02eac85d16fcf5"
-depends = "['knotifyconfig>=6.6.0', 'libkdegames>=24.08.1', 'qt6-svg>=6.7.3']"
+size = "1147220"
+usize = "2138600"
+sha1sum = "1e898b6c2ba91d1995c06df60c3813a2076635fc"
+depends = "['knotifyconfig>=6.7.0', 'libkdegames>=24.08.2', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A four-in-a-row game.
@@ -47,14 +47,16 @@ A four-in-a-row game.
 * /usr/share/doc/HTML/pt/kfourinline/index.docbook
 * /usr/share/doc/HTML/pt_BR/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kfourinline/index.docbook
+* /usr/share/doc/HTML/sl/kfourinline/index.cache.bz2
+* /usr/share/doc/HTML/sl/kfourinline/index.docbook
 * /usr/share/doc/HTML/sv/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/sv/kfourinline/index.docbook
 * /usr/share/doc/HTML/uk/kfourinline/gameboard.png
 * /usr/share/doc/HTML/uk/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/uk/kfourinline/index.docbook
 * /usr/share/doc/HTML/uk/kfourinline/settings.png
-* /usr/share/doc/kfourinline-24.08.1/AUTHORS
-* /usr/share/doc/kfourinline-24.08.1/README.md
+* /usr/share/doc/kfourinline-24.08.2/AUTHORS
+* /usr/share/doc/kfourinline-24.08.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/kfourinline.png
 * /usr/share/icons/hicolor/16x16/apps/kfourinline.png
 * /usr/share/icons/hicolor/22x22/apps/kfourinline.png
