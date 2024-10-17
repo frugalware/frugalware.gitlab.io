@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qterminal 2.0.1-2"
-version = "2.0.1-2"
+title = "qterminal 2.0.1-3"
+version = "2.0.1-3"
 description = "The lightweight Qt6 terminal emulator"
-date = "2024-09-30T14:59:46"
+date = "2024-10-16T12:47:47"
 aliases = "/packages/218429"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "271144"
-usize = "1307677"
-sha1sum = "890e310da275b2baca5c7a61ed6ac91fc245dc3e"
+size = "272388"
+usize = "1310109"
+sha1sum = "6954bc028d60bcb55934858a5d7cfc59902d32dd"
 depends = "['layer-shell-qt', 'qtermwidget>=2.0.1']"
 reverse_depends = "['lumina-desktop']"
 +++

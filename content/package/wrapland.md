@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wrapland 0.601.0-1"
-version = "0.601.0-1"
+title = "wrapland 0.602.0-1"
+version = "0.602.0-1"
 description = "Qt/C++ library wrapping libwayland"
-date = "2024-08-01T12:45:07"
+date = "2024-10-16T16:00:57"
 aliases = "/packages/220135"
 categories = ['kde6-extra']
 upstreamurl = "https://github.com/winft/wrapland"
 arch = "x86_64"
-size = "640400"
-usize = "3797264"
-sha1sum = "550916a2abe0c15477ff93f14f121bcc455a7239"
+size = "654772"
+usize = "3834177"
+sha1sum = "121781e09c4185e0bad6c657fb94ae263a6f87a7"
 depends = "['microsoft-gsl', 'qt6-base>=', 'wayland']"
 reverse_depends = "['disman']"
 +++
@@ -159,10 +159,10 @@ Qt/C++ library wrapping libwayland
 * /usr/lib/cmake/Wrapland/WraplandTargets.cmake
 * /usr/lib/libWraplandClient.so
 * /usr/lib/libWraplandClient.so.0
-* /usr/lib/libWraplandClient.so.0.601.0
+* /usr/lib/libWraplandClient.so.0.602.0
 * /usr/lib/libWraplandServer.so
 * /usr/lib/libWraplandServer.so.0
-* /usr/lib/libWraplandServer.so.0.601.0
-* /usr/share/doc/wrapland-0.601.0/COPYING.LIB
-* /usr/share/doc/wrapland-0.601.0/README.md
+* /usr/lib/libWraplandServer.so.0.602.0
+* /usr/share/doc/wrapland-0.602.0/COPYING.LIB
+* /usr/share/doc/wrapland-0.602.0/README.md
 * /usr/share/qlogging-categories6/org_kde_wrapland.categories

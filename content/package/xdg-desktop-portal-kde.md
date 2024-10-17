@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xdg-desktop-portal-kde 6.1.5-2"
-version = "6.1.5-2"
+title = "xdg-desktop-portal-kde 6.2.1-1"
+version = "6.2.1-1"
 description = "A backend implementation for xdg-desktop-portal using Qt/KF5"
-date = "2024-09-28T20:47:47"
+date = "2024-10-17T01:51:13"
 aliases = "/packages/220562"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "380172"
-usize = "1592936"
-sha1sum = "b25f20636da794fe00faf727ff817c741fa456a3"
-depends = "['kio>=6.6.0', 'kio-fuse', 'kirigami>=6.6.0', 'kstatusnotifieritem>=6.6.0', 'kwayland>=_6.1.5']"
+size = "387924"
+usize = "1633275"
+sha1sum = "124dc4c25a237f39a6eb002ba293126bc0dfd8bd"
+depends = "['kio>=6.7.0', 'kio-fuse', 'kirigami>=6.7.0', 'kstatusnotifieritem>=6.7.0', 'kwayland>=_6.2.1']"
 reverse_depends = "['plasma-integration', 'plasma-integration', 'plasma-wayland-session']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/lib/xdg-desktop-portal-kde/xdg-desktop-portal-kde
 * /usr/share/applications/org.freedesktop.impl.portal.desktop.kde.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kde.service
-* /usr/share/doc/xdg-desktop-portal-kde-6.1.5/README.md
-* /usr/share/doc/xdg-desktop-portal-kde-6.1.5/TODO
+* /usr/share/doc/xdg-desktop-portal-kde-6.2.1/README.md
+* /usr/share/doc/xdg-desktop-portal-kde-6.2.1/TODO
 * /usr/share/knotifications6/xdg-desktop-portal-kde.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ast/LC_MESSAGES/xdg-desktop-portal-kde.mo
@@ -47,6 +47,7 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/share/locale/hu/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ia/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/id/LC_MESSAGES/xdg-desktop-portal-kde.mo
+* /usr/share/locale/is/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/it/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ja/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ka/LC_MESSAGES/xdg-desktop-portal-kde.mo
@@ -75,5 +76,4 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/share/locale/zh_CN/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/qlogging-categories6/xdp-kde.categories
-* /usr/share/xdg-desktop-portal/kde-portals.conf
 * /usr/share/xdg-desktop-portal/portals/kde.portal

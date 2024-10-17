@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtutilities 6.14.3-1"
-version = "6.14.3-1"
+title = "qtutilities 6.14.3-2"
+version = "6.14.3-2"
 description = "Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models"
-date = "2024-09-11T11:49:26"
+date = "2024-10-16T12:51:45"
 aliases = "/packages/222519"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/qtutilities"
 arch = "x86_64"
-size = "201108"
-usize = "800191"
-sha1sum = "b8b865cd5f408a0e665e94e26f331017d71be4ee"
+size = "200096"
+usize = "797759"
+sha1sum = "76e52e3e3d342c337050c2d85022b76f328e8e21"
 depends = "['cpp-utilities', 'qt6-base']"
 reverse_depends = "['syncthingtray']"
 +++

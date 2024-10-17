@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "spectacle 24.08.1-2"
-version = "24.08.1-2"
+title = "spectacle 24.08.2-1"
+version = "24.08.2-1"
 description = "KDE screenshot capture utility"
-date = "2024-09-29T21:49:41"
+date = "2024-10-15T18:28:08"
 aliases = "/packages/218413"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1965332"
-usize = "5668096"
-sha1sum = "98ecf4a9f7d648d3532318232646c4574dd9187c"
-depends = "['kdeclarative>=6.6.0', 'kio>=6.6.0', 'knewstuff>=6.6.0', 'kpipewire>=6.1.5', 'kscreen>=6.1.5', 'kstatusnotifieritem>=6.6.0', 'openblas', 'opencv>=4.10.0', 'prison>=6.6.0zxing-cpp', 'purpose>=6.6.0', 'xcb-util-cursor']"
+size = "1995496"
+usize = "5740045"
+sha1sum = "98b627bdfd817f0a75482d14036321cf803db8c3"
+depends = "['kdeclarative>=6.7.0', 'kio>=6.7.0', 'knewstuff>=6.7.0', 'kpipewire>=6.2.0', 'kscreen>=6.2.0', 'kstatusnotifieritem>=6.7.0', 'openblas', 'opencv>=4.10.0', 'prison>=6.7.0zxing-cpp', 'purpose>=6.7.0', 'xcb-util-cursor']"
 +++
 ### Description: 
 KDE screenshot capture utility
@@ -57,6 +57,8 @@ KDE screenshot capture utility
 * /usr/share/doc/HTML/pt_BR/spectacle/index.docbook
 * /usr/share/doc/HTML/ru/spectacle/index.cache.bz2
 * /usr/share/doc/HTML/ru/spectacle/index.docbook
+* /usr/share/doc/HTML/sl/spectacle/index.cache.bz2
+* /usr/share/doc/HTML/sl/spectacle/index.docbook
 * /usr/share/doc/HTML/sv/spectacle/index.cache.bz2
 * /usr/share/doc/HTML/sv/spectacle/index.docbook
 * /usr/share/doc/HTML/tr/spectacle/index.cache.bz2
@@ -67,7 +69,7 @@ KDE screenshot capture utility
 * /usr/share/doc/HTML/uk/spectacle/index.docbook
 * /usr/share/doc/HTML/uk/spectacle/MainWindow.png
 * /usr/share/doc/HTML/uk/spectacle/SaveOptions.png
-* /usr/share/doc/spectacle-24.08.1/README.md
+* /usr/share/doc/spectacle-24.08.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/spectacle.svg
 * /usr/share/kconf_update/spectacle.upd
 * /usr/share/kglobalaccel/org.kde.spectacle.desktop
@@ -130,6 +132,7 @@ KDE screenshot capture utility
 * /usr/share/man/it/man1/spectacle.1.gz
 * /usr/share/man/man1/spectacle.1.gz
 * /usr/share/man/nl/man1/spectacle.1.gz
+* /usr/share/man/sl/man1/spectacle.1.gz
 * /usr/share/man/sv/man1/spectacle.1.gz
 * /usr/share/man/tr/man1/spectacle.1.gz
 * /usr/share/man/uk/man1/spectacle.1.gz

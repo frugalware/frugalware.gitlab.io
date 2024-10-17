@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sonnet 6.6.0-2"
-version = "6.6.0-2"
+title = "sonnet 6.7.0-1"
+version = "6.7.0-1"
 description = "Spelling framework for Qt, plugin-based."
-date = "2024-09-28T18:33:41"
+date = "2024-10-14T17:06:27"
 aliases = "/packages/218412"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "319344"
-usize = "1467235"
-sha1sum = "5be49faa64033617d0436cd0e94f2f6869708a5d"
-depends = "['qt6-base>=6.7.3']"
+size = "322156"
+usize = "1477492"
+sha1sum = "da26c11760db3bf71c21259a773ec7a7035e5925"
+depends = "['qt6-base>=6.8.0']"
 reverse_depends = "['kpimtextedit', 'ktextwidgets']"
 +++
 ### Description: 
@@ -50,16 +50,16 @@ Spelling framework for Qt, plugin-based.
 * /usr/lib/cmake/KF6Sonnet/KF6SonnetTargets.cmake
 * /usr/lib/libKF6SonnetCore.so
 * /usr/lib/libKF6SonnetCore.so.6
-* /usr/lib/libKF6SonnetCore.so.6.6.0
+* /usr/lib/libKF6SonnetCore.so.6.7.0
 * /usr/lib/libKF6SonnetUi.so
 * /usr/lib/libKF6SonnetUi.so.6
-* /usr/lib/libKF6SonnetUi.so.6.6.0
+* /usr/lib/libKF6SonnetUi.so.6.7.0
 * /usr/lib/qt6/plugins/designer/sonnet6widgets.so
 * /usr/lib/qt6/qml/org/kde/sonnet/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/sonnet/libsonnetquickplugin.so
 * /usr/lib/qt6/qml/org/kde/sonnet/qmldir
 * /usr/lib/qt6/qml/org/kde/sonnet/sonnetquickplugin.qmltypes
-* /usr/share/doc/sonnet-6.6.0/README.md
+* /usr/share/doc/sonnet-6.7.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/sonnet6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/sonnet6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/sonnet6_qt.qm

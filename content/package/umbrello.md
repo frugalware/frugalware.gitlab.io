@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "umbrello 24.08.1-1"
-version = "24.08.1-1"
+title = "umbrello 24.08.2-1"
+version = "24.08.2-1"
 description = "UML Modeller."
-date = "2024-09-13T18:45:55"
+date = "2024-10-15T17:55:07"
 aliases = "/packages/220997"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "25013604"
-usize = "143037529"
-sha1sum = "1b49623e078eb746bd0abbfb8b3eaca11be3ff49"
+size = "25020832"
+usize = "143042477"
+sha1sum = "98df5a9360026616c19a125f16699a7d452b7f7c"
 depends = "['doxygen', 'ktexteditor5>=5.116.0']"
 +++
 ### Description: 
@@ -207,6 +207,8 @@ UML Modeller.
 * /usr/share/doc/HTML/ru/umbrello/settings.docbook
 * /usr/share/doc/HTML/ru/umbrello/uml_basics.docbook
 * /usr/share/doc/HTML/ru/umbrello/working_with_umbrello.docbook
+* /usr/share/doc/HTML/sl/umbrello/apphelp/index.cache.bz2
+* /usr/share/doc/HTML/sl/umbrello/apphelp/index.docbook
 * /usr/share/doc/HTML/sv/umbrello/apphelp/index.cache.bz2
 * /usr/share/doc/HTML/sv/umbrello/apphelp/index.docbook
 * /usr/share/doc/HTML/sv/umbrello/authors.docbook
@@ -255,15 +257,15 @@ UML Modeller.
 * /usr/share/doc/HTML/uk/umbrello/user-interface-settings.png
 * /usr/share/doc/HTML/uk/umbrello/working_with_umbrello.docbook
 * /usr/share/doc/qt5/umbrello.qch
-* /usr/share/doc/umbrello-24.08.1/AUTHORS
-* /usr/share/doc/umbrello-24.08.1/ChangeLog
-* /usr/share/doc/umbrello-24.08.1/COPYING
-* /usr/share/doc/umbrello-24.08.1/COPYING.DOC
-* /usr/share/doc/umbrello-24.08.1/COPYING.LIB
-* /usr/share/doc/umbrello-24.08.1/INSTALL
-* /usr/share/doc/umbrello-24.08.1/README
-* /usr/share/doc/umbrello-24.08.1/THANKS
-* /usr/share/doc/umbrello-24.08.1/TODO
+* /usr/share/doc/umbrello-24.08.2/AUTHORS
+* /usr/share/doc/umbrello-24.08.2/ChangeLog
+* /usr/share/doc/umbrello-24.08.2/COPYING
+* /usr/share/doc/umbrello-24.08.2/COPYING.DOC
+* /usr/share/doc/umbrello-24.08.2/COPYING.LIB
+* /usr/share/doc/umbrello-24.08.2/INSTALL
+* /usr/share/doc/umbrello-24.08.2/README
+* /usr/share/doc/umbrello-24.08.2/THANKS
+* /usr/share/doc/umbrello-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/mimetypes/application-x-uml.png

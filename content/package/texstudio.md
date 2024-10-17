@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texstudio 4.8.2-2"
-version = "4.8.2-2"
+title = "texstudio 4.8.4-1"
+version = "4.8.4-1"
 description = "Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents"
-date = "2024-09-09T13:44:49"
+date = "2024-10-16T15:40:04"
 aliases = "/packages/168583"
 categories = ['xapps-extra']
 upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
-size = "62956952"
-usize = "366207569"
-sha1sum = "9fcadadf91e6ce88e4cf5a83f889bc6e11a58acb"
+size = "62971436"
+usize = "366293168"
+sha1sum = "1cd38faf38b8d8b9a3e545b097c56d0f8682f746"
 depends = "['hunspell>=1.7.0', 'poppler-qt6>=24.09.0', 'qt6-5compat', 'qt6-declarative', 'qt6-svg', 'quazip-qt6']"
 +++
 ### Description: 
@@ -19,9 +19,9 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 ### Files: 
 * /usr/bin/texstudio
 * /usr/share/applications/texstudio.desktop
-* /usr/share/doc/texstudio-4.8.2/COPYING
-* /usr/share/doc/texstudio-4.8.2/INSTALL
-* /usr/share/doc/texstudio-4.8.2/README.md
+* /usr/share/doc/texstudio-4.8.4/COPYING
+* /usr/share/doc/texstudio-4.8.4/INSTALL
+* /usr/share/doc/texstudio-4.8.4/README.md
 * /usr/share/icons/hicolor/scalable/apps/texstudio.svg
 * /usr/share/metainfo/texstudio.metainfo.xml
 * /usr/share/texstudio/advanced.html
@@ -448,10 +448,11 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 * /usr/share/texstudio/_images/wizard_figure.webp
 * /usr/share/texstudio/_images/wizard_tabbing.webp
 * /usr/share/texstudio/_images/wizard_tabular.webp
-* /usr/share/texstudio/_sphinx_design_static/design-style.4045f2051d55cab465a707391d5b2007.min.css
+* /usr/share/texstudio/_sphinx_design_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css
 * /usr/share/texstudio/_sphinx_design_static/design-tabs.js
 * /usr/share/texstudio/_static/basic.css
 * /usr/share/texstudio/_static/debug.css
+* /usr/share/texstudio/_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css
 * /usr/share/texstudio/_static/design-style.4045f2051d55cab465a707391d5b2007.min.css
 * /usr/share/texstudio/_static/design-tabs.js
 * /usr/share/texstudio/_static/doctools.js
@@ -467,6 +468,7 @@ Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily cr
 * /usr/share/texstudio/_static/scripts/furo.js
 * /usr/share/texstudio/_static/scripts/furo.js.LICENSE.txt
 * /usr/share/texstudio/_static/scripts/furo.js.map
+* /usr/share/texstudio/_static/scripts/gumshoe-patched.js
 * /usr/share/texstudio/_static/searchtools.js
 * /usr/share/texstudio/_static/skeleton.css
 * /usr/share/texstudio/_static/sphinx_highlight.js

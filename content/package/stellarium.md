@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "stellarium 24.2-1"
-version = "24.2-1"
+title = "stellarium 24.2-2"
+version = "24.2-2"
 description = "A free open source planetarium for your computer."
-date = "2024-09-04T09:35:53"
+date = "2024-10-16T13:38:42"
 aliases = "/packages/217758"
 categories = ['xapps-extra']
 upstreamurl = "http://www.stellarium.org/"
 arch = "x86_64"
-size = "270936408"
-usize = "470763389"
-sha1sum = "62cddab2d8c81c80db670cf79ce40188e3ef0ad2"
+size = "270477448"
+usize = "470657980"
+sha1sum = "7062665801f2d766a567135d8449db5119bed916"
 depends = "['exiv2', 'gst1-plugins-good', 'nlopt', 'qt6-charts', 'qt6-webengine']"
 +++
 ### Description: 

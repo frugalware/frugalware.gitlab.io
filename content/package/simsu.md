@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simsu 1.4.3-3"
-version = "1.4.3-3"
+title = "simsu 1.4.3-4"
+version = "1.4.3-4"
 description = "Simsu is a basic Sudoku game."
-date = "2024-06-21T09:25:00"
+date = "2024-10-16T13:34:45"
 aliases = "/packages/184380"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/simsu"
 arch = "x86_64"
-size = "289896"
-usize = "617424"
-sha1sum = "7dba56a8b044a544fb76843c0367231296c7e5db"
+size = "292480"
+usize = "659582"
+sha1sum = "807781e1cdbfb159d23b13a77f564cf8bf445c77"
 depends = "['qt6-base']"
 +++
 ### Description: 
@@ -21,9 +21,11 @@ Simsu is a basic Sudoku game.
 * /usr/share/applications/simsu.desktop
 * /usr/share/doc/simsu-1.4.3/ChangeLog
 * /usr/share/doc/simsu-1.4.3/COPYING
+* /usr/share/doc/simsu-1.4.3/COPYING.txt
 * /usr/share/doc/simsu-1.4.3/CREDITS
 * /usr/share/doc/simsu-1.4.3/INSTALL
 * /usr/share/doc/simsu-1.4.3/README
+* /usr/share/doc/simsu-1.4.3/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/simsu.png
 * /usr/share/icons/hicolor/128x128/apps/simsu.png
 * /usr/share/icons/hicolor/16x16/apps/simsu.png

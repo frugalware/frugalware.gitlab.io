@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wacomtablet 6.1.5-2"
-version = "6.1.5-2"
+title = "wacomtablet 6.2.1-1"
+version = "6.2.1-1"
 description = "GUI for Wacom Linux drivers that supports different button/pen layout profiles"
-date = "2024-09-28T21:59:39"
+date = "2024-10-17T05:40:14"
 aliases = "/packages/221410"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "779296"
-usize = "2668424"
-sha1sum = "1000c6833badb06c10ec9024b6b136b19c3423c5"
-depends = "['kcmutils>=6.6.0', 'kdbusaddons>=6.6.0', 'kglobalaccel>=6.6.0', 'kio>=6.6.0', 'knotifications>=6.6.0', 'kwidgetsaddons>=6.6.0', 'kwindowsystem>=6.6.0', 'kxmlgui>=6.6.0', 'libplasma>=6.1.5', 'plasma5support>=6.1.5', 'xf86-input-wacom']"
+size = "792048"
+usize = "2695414"
+sha1sum = "a0cb5c8ddf8a3b05f54a2ededee6576677bbbad0"
+depends = "['kcmutils>=6.7.0', 'kdbusaddons>=6.7.0', 'kglobalaccel>=6.7.0', 'kio>=6.7.0', 'knotifications>=6.7.0', 'kwidgetsaddons>=6.7.0', 'kwindowsystem>=6.7.0', 'kxmlgui>=6.7.0', 'libplasma>=6.2.1', 'plasma5support>=6.2.1', 'xf86-input-wacom']"
 +++
 ### Description: 
 GUI for Wacom Linux drivers that supports different button/pen layout profiles
@@ -44,6 +44,8 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/doc/HTML/pt/kcontrol/wacomtablet/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/wacomtablet/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol/wacomtablet/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/wacomtablet/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/wacomtablet/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/wacomtablet/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/wacomtablet/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/wacomtablet/index.cache.bz2
@@ -52,9 +54,9 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/doc/HTML/uk/kcontrol/wacomtablet/tabletarea.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.docbook
-* /usr/share/doc/wacomtablet-6.1.5/AUTHORS
-* /usr/share/doc/wacomtablet-6.1.5/COPYING
-* /usr/share/doc/wacomtablet-6.1.5/README.md
+* /usr/share/doc/wacomtablet-6.2.1/AUTHORS
+* /usr/share/doc/wacomtablet-6.2.1/COPYING
+* /usr/share/doc/wacomtablet-6.2.1/README.md
 * /usr/share/knotifications6/wacomtablet.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/ar/LC_MESSAGES/wacomtablet.mo

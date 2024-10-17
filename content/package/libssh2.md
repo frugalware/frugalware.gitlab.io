@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssh2 1.11.0-3"
-version = "1.11.0-3"
+title = "libssh2 1.11.1-1"
+version = "1.11.1-1"
 description = "libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts."
-date = "2024-05-15T15:00:27"
+date = "2024-10-17T09:32:13"
 aliases = "/packages/23505"
 categories = ['base']
 upstreamurl = "http://www.libssh2.org"
 arch = "x86_64"
-size = "311364"
-usize = "789479"
-sha1sum = "0e3a307639dc008ad67fbdb22b8904df2e36e43c"
+size = "347304"
+usize = "871496"
+sha1sum = "53f4a073a432b23a4ed5b4521a58a8eb931df08c"
 depends = "['openssl>=3.1.0', 'zlib>=1.2.12']"
 reverse_depends = "['aria2', 'curl', 'libgit2', 'libvirt', 'mc', 'nmap', 'qemu', 'uwsgi-plugin-airbrake', 'vlc-sftp']"
 +++
@@ -25,12 +25,12 @@ libssh2 is a library implementing the SSH2 protocol as defined by Internet Draft
 * /usr/lib/libssh2.so.1
 * /usr/lib/libssh2.so.1.0.1
 * /usr/lib/pkgconfig/libssh2.pc
-* /usr/share/doc/libssh2-1.11.0/ChangeLog
-* /usr/share/doc/libssh2-1.11.0/COPYING
-* /usr/share/doc/libssh2-1.11.0/NEWS
-* /usr/share/doc/libssh2-1.11.0/README
-* /usr/share/doc/libssh2-1.11.0/README.md
-* /usr/share/doc/libssh2-1.11.0/RELEASE-NOTES
+* /usr/share/doc/libssh2-1.11.1/ChangeLog
+* /usr/share/doc/libssh2-1.11.1/COPYING
+* /usr/share/doc/libssh2-1.11.1/NEWS
+* /usr/share/doc/libssh2-1.11.1/README
+* /usr/share/doc/libssh2-1.11.1/README.md
+* /usr/share/doc/libssh2-1.11.1/RELEASE-NOTES
 * /usr/share/man/man3/libssh2_agent_connect.3.gz
 * /usr/share/man/man3/libssh2_agent_disconnect.3.gz
 * /usr/share/man/man3/libssh2_agent_free.3.gz
@@ -132,6 +132,7 @@ libssh2 is a library implementing the SSH2 protocol as defined by Internet Draft
 * /usr/share/man/man3/libssh2_session_banner_set.3.gz
 * /usr/share/man/man3/libssh2_session_block_directions.3.gz
 * /usr/share/man/man3/libssh2_session_callback_set.3.gz
+* /usr/share/man/man3/libssh2_session_callback_set2.3.gz
 * /usr/share/man/man3/libssh2_session_disconnect.3.gz
 * /usr/share/man/man3/libssh2_session_disconnect_ex.3.gz
 * /usr/share/man/man3/libssh2_session_flag.3.gz
@@ -172,6 +173,8 @@ libssh2 is a library implementing the SSH2 protocol as defined by Internet Draft
 * /usr/share/man/man3/libssh2_sftp_open_ex.3.gz
 * /usr/share/man/man3/libssh2_sftp_open_ex_r.3.gz
 * /usr/share/man/man3/libssh2_sftp_open_r.3.gz
+* /usr/share/man/man3/libssh2_sftp_posix_rename.3.gz
+* /usr/share/man/man3/libssh2_sftp_posix_rename_ex.3.gz
 * /usr/share/man/man3/libssh2_sftp_read.3.gz
 * /usr/share/man/man3/libssh2_sftp_readdir.3.gz
 * /usr/share/man/man3/libssh2_sftp_readdir_ex.3.gz

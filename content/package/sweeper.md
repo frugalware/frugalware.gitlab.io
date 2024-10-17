@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sweeper 24.08.1-2"
-version = "24.08.1-2"
+title = "sweeper 24.08.2-1"
+version = "24.08.2-1"
 description = "System cleaner."
-date = "2024-09-30T08:11:05"
+date = "2024-10-15T15:34:22"
 aliases = "/packages/218528"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "390640"
-usize = "857540"
-sha1sum = "377ed699fd7fe2f88d5295c30d0e3b0d4922e4f9"
-depends = "['kconfig>=6.6.0', 'kconfigwidgets>=6.6.0', 'kcoreaddons>=6.6.0', 'kcrash>=6.6.0', 'kdoctools>=6.6.0', 'ki18n>=6.6.0', 'plasma-activities-stats>=6.1.5']"
+size = "392940"
+usize = "861699"
+sha1sum = "c074e914e14c823c15a436f0298da8a4726321ee"
+depends = "['kconfig>=6.7.0', 'kconfigwidgets>=6.7.0', 'kcoreaddons>=6.7.0', 'kcrash>=6.7.0', 'kdoctools>=6.7.0', 'ki18n>=6.7.0', 'plasma-activities-stats>=6.2.0']"
 +++
 ### Description: 
 System cleaner.
@@ -48,6 +48,8 @@ System cleaner.
 * /usr/share/doc/HTML/pt_BR/sweeper/sweeper.png
 * /usr/share/doc/HTML/ru/sweeper/index.cache.bz2
 * /usr/share/doc/HTML/ru/sweeper/index.docbook
+* /usr/share/doc/HTML/sl/sweeper/index.cache.bz2
+* /usr/share/doc/HTML/sl/sweeper/index.docbook
 * /usr/share/doc/HTML/sv/sweeper/index.cache.bz2
 * /usr/share/doc/HTML/sv/sweeper/index.docbook
 * /usr/share/doc/HTML/tr/sweeper/index.cache.bz2
@@ -56,7 +58,7 @@ System cleaner.
 * /usr/share/doc/HTML/uk/sweeper/index.cache.bz2
 * /usr/share/doc/HTML/uk/sweeper/index.docbook
 * /usr/share/doc/HTML/uk/sweeper/sweeper.png
-* /usr/share/doc/sweeper-24.08.1/TODO
+* /usr/share/doc/sweeper-24.08.2/TODO
 * /usr/share/locale/af/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/ar/LC_MESSAGES/sweeper.mo
 * /usr/share/locale/ast/LC_MESSAGES/sweeper.mo

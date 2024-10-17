@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zanshin 24.08.1-2"
-version = "24.08.1-2"
+title = "zanshin 24.08.2-1"
+version = "24.08.2-1"
 description = "To-do management application based on Akonadi"
-date = "2024-09-30T09:15:52"
+date = "2024-10-15T16:26:33"
 aliases = "/packages/220998"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "731880"
-usize = "3859947"
-sha1sum = "8460d6d567264982c6849f0b311d20b653e0252c"
+size = "734016"
+usize = "3868887"
+sha1sum = "90df514d8a370d9fb93a67251197adbc63e2354f"
 depends = "['kdepim-runtime', 'kontactinterface']"
 +++
 ### Description: 
@@ -23,15 +23,16 @@ To-do management application based on Akonadi
 * /usr/lib/qt6/plugins/pim6/kontact/kontact_zanshinplugin.so
 * /usr/lib/qt6/plugins/zanshin_part.so
 * /usr/share/applications/org.kde.zanshin.desktop
-* /usr/share/doc/zanshin-24.08.1/AUTHORS
-* /usr/share/doc/zanshin-24.08.1/HACKING
-* /usr/share/doc/zanshin-24.08.1/README.md
-* /usr/share/doc/zanshin-24.08.1/TODO
+* /usr/share/doc/zanshin-24.08.2/AUTHORS
+* /usr/share/doc/zanshin-24.08.2/HACKING
+* /usr/share/doc/zanshin-24.08.2/README.md
+* /usr/share/doc/zanshin-24.08.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/zanshin.png
 * /usr/share/icons/hicolor/256x256/apps/zanshin.png
 * /usr/share/icons/hicolor/48x48/apps/zanshin.png
 * /usr/share/icons/hicolor/64x64/apps/zanshin.png
 * /usr/share/icons/hicolor/scalable/apps/zanshin.svgz
+* /usr/share/locale/ar/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/ast/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/bg/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/bs/LC_MESSAGES/zanshin.mo

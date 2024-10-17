@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qtforkawesome 0.2.1-3"
-version = "0.2.1-3"
+title = "qtforkawesome 0.2.1-4"
+version = "0.2.1-4"
 description = "Library that bundles ForkAwesome for use within Qt applications"
-date = "2024-09-30T14:57:51"
+date = "2024-10-16T12:49:03"
 aliases = "/packages/222521"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/qtforkawesome"
 arch = "x86_64"
-size = "184292"
-usize = "469996"
-sha1sum = "4152afcc29537d3084c49402f6b7c72f197ccdea"
-depends = "['qt6-declarative>=6.7.3']"
+size = "184420"
+usize = "470124"
+sha1sum = "c2dcd5eb21c0119896dddafdbdcc0f19bd29dd83"
+depends = "['qt6-declarative>=6.8.0']"
 reverse_depends = "['syncthingtray']"
 +++
 ### Description: 

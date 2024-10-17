@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-translations 6.7.3-1"
-version = "6.7.3-1"
+title = "qt6-translations 6.8.0-1"
+version = "6.8.0-1"
 description = "The Qt6 toolkit, qttranslations"
-date = "2024-09-28T12:21:43"
+date = "2024-10-14T13:11:23"
 aliases = "/packages/220787"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1788520"
-usize = "14312902"
-sha1sum = "0d1ffe334712b86a49ec54c373419baf05cf7d10"
+size = "1789480"
+usize = "14327625"
+sha1sum = "eb5ebfb048cc281a8c8a96f8ae68ef267985629d"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++

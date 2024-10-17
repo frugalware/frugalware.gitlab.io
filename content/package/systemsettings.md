@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemsettings 6.1.5-2"
-version = "6.1.5-2"
+title = "systemsettings 6.2.1-1"
+version = "6.2.1-1"
 description = "KDE system settings."
-date = "2024-09-28T20:19:17"
+date = "2024-10-17T01:25:39"
 aliases = "/packages/221390"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "326416"
-usize = "1116889"
-sha1sum = "fecb59533b55588eabc4dc2ba37cb3bdbb44a336"
-depends = "['kcmutils>=6.6.0', 'kdeclarative>=6.6.0', 'kirigami>=6.6.0', 'kitemmodels>=6.6.0', 'krunner>=6.6.0', 'plasma-activities>=6.1.5']"
+size = "333540"
+usize = "1117023"
+sha1sum = "ef27503f70d8d0d0486d0286212270b5de6b5b3a"
+depends = "['kcmutils>=6.7.0', 'kdeclarative>=6.7.0', 'kirigami>=6.7.0', 'kitemmodels>=6.7.0', 'krunner>=6.7.0', 'plasma-activities>=6.2.1']"
 reverse_depends = "['flatpak-kcm', 'kinfocenter', 'plasma-firewall']"
 +++
 ### Description: 
@@ -44,6 +44,8 @@ KDE system settings.
 * /usr/share/doc/HTML/pt_BR/systemsettings/index.docbook
 * /usr/share/doc/HTML/ru/systemsettings/index.cache.bz2
 * /usr/share/doc/HTML/ru/systemsettings/index.docbook
+* /usr/share/doc/HTML/sl/systemsettings/index.cache.bz2
+* /usr/share/doc/HTML/sl/systemsettings/index.docbook
 * /usr/share/doc/HTML/sv/systemsettings/index.cache.bz2
 * /usr/share/doc/HTML/sv/systemsettings/index.docbook
 * /usr/share/doc/HTML/tr/systemsettings/index.cache.bz2
@@ -86,6 +88,7 @@ KDE system settings.
 * /usr/share/locale/hu/LC_MESSAGES/systemsettings.mo
 * /usr/share/locale/ia/LC_MESSAGES/systemsettings.mo
 * /usr/share/locale/id/LC_MESSAGES/systemsettings.mo
+* /usr/share/locale/ie/LC_MESSAGES/systemsettings.mo
 * /usr/share/locale/is/LC_MESSAGES/systemsettings.mo
 * /usr/share/locale/it/LC_MESSAGES/systemsettings.mo
 * /usr/share/locale/ja/LC_MESSAGES/systemsettings.mo

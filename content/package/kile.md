@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kile 2.9.94-2"
-version = "2.9.94-2"
+title = "kile 2.9.94-3"
+version = "2.9.94-3"
 description = "A qt latex environment."
-date = "2024-10-16T08:50:04"
+date = "2024-10-17T09:49:54"
 aliases = "/packages/3697"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7367988"
-usize = "20839642"
-sha1sum = "8548aaf12e9dc1db4851f291b714e759cbb6262e"
-depends = "['ktexteditor>=6.7.0', 'okular>=24.08.2', 'poppler-qt6>=0.53.0', 'qt6-svg>=6.8.0']"
+size = "7368768"
+usize = "20844362"
+sha1sum = "c492fab972e069f083cfb31521eaf6c478c32cf9"
+depends = "['ktexteditor>=6.7.0', 'okular>=24.08.2', 'poppler-qt6>=24.10.0', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A qt latex environment.
@@ -246,10 +246,12 @@ A qt latex environment.
 * /usr/share/doc/kile-2.9.94/ChangeLog
 * /usr/share/doc/kile-2.9.94/COPYING
 * /usr/share/doc/kile-2.9.94/COPYING.DOC
+* /usr/share/doc/kile-2.9.94/INSTALL.md
 * /usr/share/doc/kile-2.9.94/README
 * /usr/share/doc/kile-2.9.94/README-win.txt
 * /usr/share/doc/kile-2.9.94/README.cwl
 * /usr/share/doc/kile-2.9.94/README.MacOSX
+* /usr/share/doc/kile-2.9.94/README.md
 * /usr/share/doc/kile/AUTHORS
 * /usr/share/doc/kile/ChangeLog
 * /usr/share/doc/kile/kile-remote-control.txt

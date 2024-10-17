@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "quazip 1.4-3"
-version = "1.4-3"
+title = "quazip 1.4-4"
+version = "1.4-4"
 description = "Wrapper for ZIP/UNZIP package"
-date = "2024-09-30T14:25:35"
+date = "2024-10-16T17:12:11"
 aliases = "/packages/118372"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/stachenov/quazip"
 arch = "x86_64"
-size = "111952"
+size = "111804"
 usize = "390932"
-sha1sum = "3a99e652bcf00dc8a90f9c2f37f219f0228e7126"
+sha1sum = "989c3643449ab51b02e82c5947b8caecfbf52629"
 depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['krita', 'nomacs']"
 +++
