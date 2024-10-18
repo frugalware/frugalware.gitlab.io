@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcupsfilters 2.0.0-2"
-version = "2.0.0-2"
+title = "libcupsfilters 2.1.0-1"
+version = "2.1.0-1"
 description = "OpenPrinting CUPS Filters - contains all the code of the filters of the former cups-filters package as library functions"
-date = "2024-05-02T19:09:48"
+date = "2024-10-18T10:02:19"
 aliases = "/packages/221455"
 categories = ['lib']
 upstreamurl = "https://github.com/OpenPrinting/libcupsfilters"
 arch = "x86_64"
-size = "588048"
-usize = "1749029"
-sha1sum = "404aea7bb5b9280247085b568e06115984a0a18d"
+size = "602404"
+usize = "1780457"
+sha1sum = "9b6969fc6000c19708c2191a2d2686469787c9cb"
 depends = "['libcups', 'libexif', 'poppler>=24.05.0', 'qpdf']"
 reverse_depends = "['libppd']"
 +++
@@ -57,14 +57,14 @@ OpenPrinting CUPS Filters - contains all the code of the filters of the former c
 * /usr/share/cups/data/testprint
 * /usr/share/cups/data/topsecret.pdf
 * /usr/share/cups/data/unclassified.pdf
-* /usr/share/doc/libcupsfilters-2.0.0/ABOUT-NLS
-* /usr/share/doc/libcupsfilters-2.0.0/AUTHORS
-* /usr/share/doc/libcupsfilters-2.0.0/CHANGES-1.x.md
-* /usr/share/doc/libcupsfilters-2.0.0/CHANGES.md
-* /usr/share/doc/libcupsfilters-2.0.0/CONTRIBUTING.md
-* /usr/share/doc/libcupsfilters-2.0.0/COPYING
-* /usr/share/doc/libcupsfilters-2.0.0/DEVELOPING.md
-* /usr/share/doc/libcupsfilters-2.0.0/INSTALL
-* /usr/share/doc/libcupsfilters-2.0.0/LICENSE
-* /usr/share/doc/libcupsfilters-2.0.0/NOTICE
-* /usr/share/doc/libcupsfilters-2.0.0/README.md
+* /usr/share/doc/libcupsfilters-2.1.0/ABOUT-NLS
+* /usr/share/doc/libcupsfilters-2.1.0/AUTHORS
+* /usr/share/doc/libcupsfilters-2.1.0/CHANGES-1.x.md
+* /usr/share/doc/libcupsfilters-2.1.0/CHANGES.md
+* /usr/share/doc/libcupsfilters-2.1.0/CONTRIBUTING.md
+* /usr/share/doc/libcupsfilters-2.1.0/COPYING
+* /usr/share/doc/libcupsfilters-2.1.0/DEVELOPING.md
+* /usr/share/doc/libcupsfilters-2.1.0/INSTALL.md
+* /usr/share/doc/libcupsfilters-2.1.0/LICENSE
+* /usr/share/doc/libcupsfilters-2.1.0/NOTICE
+* /usr/share/doc/libcupsfilters-2.1.0/README.md

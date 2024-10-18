@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.21.1-1"
-version = "9.21.1-1"
+title = "bind 9.21.2-1"
+version = "9.21.2-1"
 description = "DNS server and utilities"
-date = "2024-10-14T08:40:57"
+date = "2024-10-18T09:54:51"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "2168252"
-usize = "9226801"
-sha1sum = "58b96a4d6d99f54460d632cb77b575daf4572357"
+size = "1952572"
+usize = "6773456"
+sha1sum = "3d3cda62850660a5fb79997765a5f0a7ba8da006"
 depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -66,7 +66,6 @@ DNS server and utilities
 * /usr/include/dns/dlz.h
 * /usr/include/dns/dlz_dlopen.h
 * /usr/include/dns/dns64.h
-* /usr/include/dns/dnsrps.h
 * /usr/include/dns/dnssec.h
 * /usr/include/dns/dnstap.h
 * /usr/include/dns/ds.h
@@ -89,7 +88,6 @@ DNS server and utilities
 * /usr/include/dns/keystore.h
 * /usr/include/dns/keytable.h
 * /usr/include/dns/keyvalues.h
-* /usr/include/dns/librpz.h
 * /usr/include/dns/master.h
 * /usr/include/dns/masterdump.h
 * /usr/include/dns/message.h
@@ -174,6 +172,7 @@ DNS server and utilities
 * /usr/include/isc/hash.h
 * /usr/include/isc/hashmap.h
 * /usr/include/isc/heap.h
+* /usr/include/isc/helper.h
 * /usr/include/isc/hex.h
 * /usr/include/isc/histo.h
 * /usr/include/isc/hmac.h
@@ -273,25 +272,25 @@ DNS server and utilities
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libdns-9.21.1.so
+* /usr/lib/libdns-9.21.2.so
 * /usr/lib/libdns.so
-* /usr/lib/libisc-9.21.1.so
+* /usr/lib/libisc-9.21.2.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.21.1.so
+* /usr/lib/libisccc-9.21.2.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.21.1.so
+* /usr/lib/libisccfg-9.21.2.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.21.1.so
+* /usr/lib/libns-9.21.2.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.21.1/AUTHORS
-* /usr/share/doc/bind-9.21.1/ChangeLog
-* /usr/share/doc/bind-9.21.1/CHANGES
-* /usr/share/doc/bind-9.21.1/COPYING
-* /usr/share/doc/bind-9.21.1/COPYRIGHT
-* /usr/share/doc/bind-9.21.1/LICENSE
-* /usr/share/doc/bind-9.21.1/NEWS
-* /usr/share/doc/bind-9.21.1/README.md
+* /usr/share/doc/bind-9.21.2/AUTHORS
+* /usr/share/doc/bind-9.21.2/ChangeLog
+* /usr/share/doc/bind-9.21.2/CHANGES
+* /usr/share/doc/bind-9.21.2/COPYING
+* /usr/share/doc/bind-9.21.2/COPYRIGHT
+* /usr/share/doc/bind-9.21.2/LICENSE
+* /usr/share/doc/bind-9.21.2/NEWS
+* /usr/share/doc/bind-9.21.2/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz
