@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libjcat 0.2.1-3"
-version = "0.2.1-3"
+title = "libjcat 0.2.2-1"
+version = "0.2.2-1"
 description = "Library for reading and writing Jcat files"
-date = "2024-04-02T13:28:33"
+date = "2024-10-18T15:15:32"
 aliases = "/packages/220149"
 categories = ['lib']
 upstreamurl = "https://github.com/hughsie/libjcat"
 arch = "x86_64"
-size = "105404"
-usize = "488524"
-sha1sum = "c232ff3fbddac0a4748c1c90411e7e1f112e0122"
+size = "108272"
+usize = "479037"
+sha1sum = "54cb0147706ad8bea1d2d7bc6ad9616177d0e13e"
 depends = "['gnutls', 'gpgme', 'json-glib']"
 reverse_depends = "['fwupd']"
 +++
@@ -37,10 +37,10 @@ Library for reading and writing Jcat files
 * /usr/lib/libjcat.so.1.0.0
 * /usr/lib/libjcat/installed-tests/libjcat/jcat-self-test
 * /usr/lib/pkgconfig/jcat.pc
-* /usr/share/doc/libjcat-0.2.1/LICENSE
-* /usr/share/doc/libjcat-0.2.1/NEWS
-* /usr/share/doc/libjcat-0.2.1/README.md
-* /usr/share/doc/libjcat-0.2.1/RELEASE
+* /usr/share/doc/libjcat-0.2.2/LICENSE
+* /usr/share/doc/libjcat-0.2.2/NEWS
+* /usr/share/doc/libjcat-0.2.2/README.md
+* /usr/share/doc/libjcat-0.2.2/RELEASE
 * /usr/share/gir-1.0/Jcat-1.0.gir
 * /usr/share/installed-tests/libjcat/colorhug/firmware.bin
 * /usr/share/installed-tests/libjcat/colorhug/firmware.bin.asc

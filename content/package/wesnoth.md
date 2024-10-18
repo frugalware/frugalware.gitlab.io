@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "wesnoth 1.19.2-1"
-version = "1.19.2-1"
+title = "wesnoth 1.19.4-1"
+version = "1.19.4-1"
 description = "Wesnoth is a turn based strategy game played in the fantasy world"
-date = "2024-08-02T13:40:56"
+date = "2024-10-18T15:59:18"
 aliases = "/packages/219188"
 categories = ['games-extra']
 upstreamurl = "http://www.wesnoth.org/"

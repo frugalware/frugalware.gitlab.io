@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crawl 0.32.0-1"
-version = "0.32.0-1"
+title = "crawl 0.32.1-1"
+version = "0.32.1-1"
 description = "Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting"
-date = "2024-09-10T09:32:21"
+date = "2024-10-18T15:45:30"
 aliases = "/packages/153713"
 categories = ['games-extra']
 upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "21456588"
-usize = "54709950"
-sha1sum = "05fa4915ebf16e7b1cce4f65b54b9342bfddde50"
+size = "21468368"
+usize = "54715284"
+sha1sum = "126b0df4b3b39f54447bd8d52b99a08ba32b70eb"
 depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua51', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3', 'zlib>=1.2.12']"
 +++
 ### Description: 
@@ -18,8 +18,8 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 
 ### Files: 
 * /usr/bin/crawl
-* /usr/share/doc/crawl-0.32.0/INSTALL.md
-* /usr/share/doc/crawl-0.32.0/LICENSE
+* /usr/share/doc/crawl-0.32.1/INSTALL.md
+* /usr/share/doc/crawl-0.32.1/LICENSE
 * /usr/share/games/crawl/data/dat/clua/autofight.lua
 * /usr/share/games/crawl/data/dat/clua/automagic.lua
 * /usr/share/games/crawl/data/dat/clua/delays.lua

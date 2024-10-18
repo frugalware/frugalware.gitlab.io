@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crawl-tiles 0.32.0-1"
-version = "0.32.0-1"
+title = "crawl-tiles 0.32.1-1"
+version = "0.32.1-1"
 description = "Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game"
-date = "2024-09-10T09:32:21"
+date = "2024-10-18T15:45:30"
 aliases = "/packages/168736"
 categories = ['games-extra']
 upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "21466016"
-usize = "54668232"
-sha1sum = "d8cc785f69c596a3b849292e2db2f8e07848cb40"
+size = "21457192"
+usize = "54673566"
+sha1sum = "afa397488e827713b90749ec17e2b1328fdaefcc"
 depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3', 'zlib>=1.2.12']"
 +++
 ### Description: 
