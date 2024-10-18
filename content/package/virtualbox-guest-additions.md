@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "virtualbox-guest-additions 7.1.2-5"
-version = "7.1.2-5"
+title = "virtualbox-guest-additions 7.1.2-6"
+version = "7.1.2-6"
 description = "VirtualBox guest Additions"
-date = "2024-10-16T15:53:38"
+date = "2024-10-18T06:21:33"
 aliases = "/packages/219162"
 categories = ['xapps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "856364"
-usize = "3419948"
-sha1sum = "b03b1721151684ceace5804a4cc3053e159f5094"
-depends = "['kernel=6.11.3-2', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrandr', 'mesa-dri-drivers', 'pam', 'xf86-video-vmware']"
+size = "855044"
+usize = "3420014"
+sha1sum = "1db0a41dd50404f6a96d58607953559a60c2394f"
+depends = "['kernel=6.11.4-1', 'libxcomposite', 'libxdamage', 'libxmu', 'libxrandr', 'mesa-dri-drivers', 'pam', 'xf86-video-vmware']"
 +++
 ### Description: 
 VirtualBox guest Additions
@@ -24,8 +24,8 @@ VirtualBox guest Additions
 * /usr/bin/VBoxControl
 * /usr/bin/VBoxDRMClient
 * /usr/bin/VBoxService
-* /usr/lib/modules/6.11.3-fw2/kernel/misc/vboxguest.ko.zst
-* /usr/lib/modules/6.11.3-fw2/kernel/misc/vboxsf.ko.zst
+* /usr/lib/modules/6.11.4-fw1/kernel/misc/vboxguest.ko.zst
+* /usr/lib/modules/6.11.4-fw1/kernel/misc/vboxsf.ko.zst
 * /usr/lib/security/pam_vbox.so
 * /usr/lib/systemd/system/multi-user.target.wants/vboxdrmclient.path
 * /usr/lib/systemd/system/multi-user.target.wants/vboxdrmclient.service
