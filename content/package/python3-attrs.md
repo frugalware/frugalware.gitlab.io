@@ -12,7 +12,7 @@ size = "97732"
 usize = "599963"
 sha1sum = "a1205175e288e994299b18b105a1fa9b0904c38f"
 depends = "['python3>=3.11']"
-reverse_depends = "['python3-jsonschema', 'python3-outcome', 'python3-trio', 'python3-twisted']"
+reverse_depends = "['python3-jsonschema', 'python3-outcome', 'python3-reuse', 'python3-trio', 'python3-twisted']"
 +++
 ### Description: 
 Attributes without boilerplate.

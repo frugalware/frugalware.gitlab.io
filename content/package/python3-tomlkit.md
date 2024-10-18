@@ -12,7 +12,7 @@ size = "92416"
 usize = "593982"
 sha1sum = "e5efbdd226827200d20ed2e05daf580322f81b66"
 depends = "['python3']"
-reverse_depends = "['python3-poetry']"
+reverse_depends = "['python3-poetry', 'python3-reuse']"
 +++
 ### Description: 
 Style-preserving TOML library for Python

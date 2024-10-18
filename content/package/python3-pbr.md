@@ -12,7 +12,7 @@ size = "154852"
 usize = "649824"
 sha1sum = "254770d436fa3ba22068439ac1ce5bca71003d3c"
 depends = "['python3>=3.11', 'python3-setuptools']"
-reverse_depends = "['python3-pysol_cards']"
+reverse_depends = "['python3-pysol_cards', 'python3-sphinx-apidoc']"
 +++
 ### Description: 
 Python Build Reasonableness
