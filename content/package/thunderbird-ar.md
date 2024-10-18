@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ar 128.3.1-1"
-version = "128.3.1-1"
+title = "thunderbird-ar 128.3.2-1"
+version = "128.3.2-1"
 description = "Arabic language support for Thunderbird"
-date = "2024-10-14T11:31:22"
+date = "2024-10-18T14:10:43"
 aliases = "/packages/73771"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "607692"
-usize = "679867"
-sha1sum = "b80a51e10c73d8cc47bf4e23bd142564411f1fb8"
-depends = "['thunderbird>=128.3.1']"
+size = "607736"
+usize = "679865"
+sha1sum = "3f467c8378a30dbad1d91bb0669a5fc1aa9ed5c7"
+depends = "['thunderbird>=128.3.2']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

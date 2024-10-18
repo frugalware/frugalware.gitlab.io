@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qcoro 0.10.0-7"
-version = "0.10.0-7"
+title = "qcoro 0.11.0-1"
+version = "0.11.0-1"
 description = "C++ Coroutines for Qt"
-date = "2024-06-21T13:26:14"
+date = "2024-10-18T15:06:01"
 aliases = "/packages/220955"
 categories = ['xlib']
-upstreamurl = "https://github.com/danvratil/qcoro"
+upstreamurl = "https://github.com/qcoro/qcoro"
 arch = "x86_64"
-size = "2651816"
-usize = "5036948"
-sha1sum = "b139c2420db1aa9303b9ab580e54acbb31d37e39"
+size = "2847228"
+usize = "5672965"
+sha1sum = "643d851bfd403be55c410843449f174694da109a"
 depends = "['qt6-declarative', 'qt6-websockets']"
 reverse_depends = "['angelfish', 'audiotube', 'discover', 'kaccounts-integration', 'kdenetwork-filesharing', 'kio-extras', 'kontrast', 'plasma-nm', 'plasma-workspace']"
 +++
@@ -23,8 +23,10 @@ C++ Coroutines for Qt
 * /usr/include/qcoro6/qcoro/coroutine.h
 * /usr/include/qcoro6/qcoro/impl/connect.h
 * /usr/include/qcoro6/qcoro/impl/isqprivatesignal.h
+* /usr/include/qcoro6/qcoro/impl/lazytask.h
 * /usr/include/qcoro6/qcoro/impl/task.h
 * /usr/include/qcoro6/qcoro/impl/taskawaiterbase.h
+* /usr/include/qcoro6/qcoro/impl/taskbase.h
 * /usr/include/qcoro6/qcoro/impl/taskfinalsuspend.h
 * /usr/include/qcoro6/qcoro/impl/taskpromise.h
 * /usr/include/qcoro6/qcoro/impl/taskpromisebase.h
@@ -56,6 +58,8 @@ C++ Coroutines for Qt
 * /usr/include/qcoro6/qcoro/qcoroimageprovider.h
 * /usr/include/qcoro6/QCoro/QCoroIODevice
 * /usr/include/qcoro6/qcoro/qcoroiodevice.h
+* /usr/include/qcoro6/QCoro/QCoroLazyTask
+* /usr/include/qcoro6/qcoro/qcorolazytask.h
 * /usr/include/qcoro6/QCoro/QCoroLocalSocket
 * /usr/include/qcoro6/qcoro/qcorolocalsocket.h
 * /usr/include/qcoro6/QCoro/QCoroNetwork
@@ -140,5 +144,5 @@ C++ Coroutines for Qt
 * /usr/lib/qt6/mkspecs/modules/qt_QCoroQuick.pri
 * /usr/lib/qt6/mkspecs/modules/qt_QCoroTest.pri
 * /usr/lib/qt6/mkspecs/modules/qt_QCoroWebSockets.pri
-* /usr/share/doc/qcoro-0.10.0/LICENSE
-* /usr/share/doc/qcoro-0.10.0/README.md
+* /usr/share/doc/qcoro-0.11.0/LICENSE
+* /usr/share/doc/qcoro-0.11.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "samba 4.21.1-1"
-version = "4.21.1-1"
+title = "samba 4.21.1-2"
+version = "4.21.1-2"
 description = "SMB file and print server."
-date = "2024-10-15T12:35:53"
+date = "2024-10-18T14:46:40"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "8122588"
-usize = "61242285"
-sha1sum = "757718b4162dfd1b3061518827891be74e8ef9e1"
+size = "7998152"
+usize = "60756344"
+sha1sum = "996bc9db7ae595b5f87f395776dddb510e808647"
 depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.21.1', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
@@ -26,12 +26,6 @@ SMB file and print server.
 * /usr/bin/dumpmscat
 * /usr/bin/eventlogadm
 * /usr/bin/gentest
-* /usr/bin/ldbadd
-* /usr/bin/ldbdel
-* /usr/bin/ldbedit
-* /usr/bin/ldbmodify
-* /usr/bin/ldbrename
-* /usr/bin/ldbsearch
 * /usr/bin/locktest
 * /usr/bin/masktest
 * /usr/bin/mdsearch
@@ -111,12 +105,6 @@ SMB file and print server.
 * /usr/include/samba-4.0/gen_ndr/security.h
 * /usr/include/samba-4.0/gen_ndr/server_id.h
 * /usr/include/samba-4.0/gen_ndr/svcctl.h
-* /usr/include/samba-4.0/ldb.h
-* /usr/include/samba-4.0/ldb_errors.h
-* /usr/include/samba-4.0/ldb_handlers.h
-* /usr/include/samba-4.0/ldb_module.h
-* /usr/include/samba-4.0/ldb_version.h
-* /usr/include/samba-4.0/ldb_wrap.h
 * /usr/include/samba-4.0/lookup_sid.h
 * /usr/include/samba-4.0/machine_sid.h
 * /usr/include/samba-4.0/ndr.h
@@ -159,10 +147,6 @@ SMB file and print server.
 * /usr/include/samba-4.0/util/tfork.h
 * /usr/include/samba-4.0/util/time.h
 * /usr/include/samba-4.0/util_ldb.h
-* /usr/lib/libldb.so
-* /usr/lib/libldb.so.2
-* /usr/lib/libldb.so.2.10.0
-* /usr/lib/python3.12/site-packages/ldb.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/auth.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/auth_util.py
 * /usr/lib/python3.12/site-packages/samba/colour.py
@@ -735,7 +719,6 @@ SMB file and print server.
 * /usr/lib/python3.12/site-packages/samba/_glue.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/_ldb.cpython-312-x86_64-linux-gnu.so
 * /usr/lib/python3.12/site-packages/samba/__init__.py
-* /usr/lib/python3.12/site-packages/_ldb_text.py
 * /usr/lib/systemd/system/nmb.service
 * /usr/lib/systemd/system/samba-bgqd.service
 * /usr/lib/systemd/system/samba.service
@@ -753,12 +736,6 @@ SMB file and print server.
 * /usr/share/doc/samba-4.21.1/VERSION
 * /usr/share/man/man1/dbwrap_tool.1.gz
 * /usr/share/man/man1/gentest.1.gz
-* /usr/share/man/man1/ldbadd.1.gz
-* /usr/share/man/man1/ldbdel.1.gz
-* /usr/share/man/man1/ldbedit.1.gz
-* /usr/share/man/man1/ldbmodify.1.gz
-* /usr/share/man/man1/ldbrename.1.gz
-* /usr/share/man/man1/ldbsearch.1.gz
 * /usr/share/man/man1/locktest.1.gz
 * /usr/share/man/man1/log2pcap.1.gz
 * /usr/share/man/man1/masktest.1.gz

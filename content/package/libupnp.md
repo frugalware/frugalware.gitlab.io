@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libupnp 1.14.19-1"
-version = "1.14.19-1"
+title = "libupnp 1.14.20-1"
+version = "1.14.20-1"
 description = "An Portable Open Source UPnP Development Kit"
-date = "2024-05-02T11:26:04"
+date = "2024-10-18T15:10:27"
 aliases = "/packages/50306"
 categories = ['lib']
 upstreamurl = "https://sourceforge.net/projects/pupnp"
 arch = "x86_64"
-size = "181276"
-usize = "764208"
-sha1sum = "e3a18f170e8f32e0800d79056149f302004491e7"
+size = "181752"
+usize = "757030"
+sha1sum = "19740104cc32fa5a872d45d669690d2dbc1aae3b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['mpd', 'openclonk', 'retroshare', 'vlc-upnp']"
 +++
@@ -49,9 +49,9 @@ An Portable Open Source UPnP Development Kit
 * /usr/lib/libixml.so.11.1.2
 * /usr/lib/libupnp.so
 * /usr/lib/libupnp.so.17
-* /usr/lib/libupnp.so.17.1.10
+* /usr/lib/libupnp.so.17.2.0
 * /usr/lib/pkgconfig/libupnp.pc
-* /usr/share/doc/libupnp-1.14.19/ChangeLog
-* /usr/share/doc/libupnp-1.14.19/COPYING
-* /usr/share/doc/libupnp-1.14.19/README.md
-* /usr/share/doc/libupnp-1.14.19/THANKS
+* /usr/share/doc/libupnp-1.14.20/ChangeLog
+* /usr/share/doc/libupnp-1.14.20/COPYING
+* /usr/share/doc/libupnp-1.14.20/README.md
+* /usr/share/doc/libupnp-1.14.20/THANKS

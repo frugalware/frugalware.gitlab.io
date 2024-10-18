@@ -12,7 +12,7 @@ size = "62692"
 usize = "197712"
 sha1sum = "9672b6aecd421250579be0c3fa3851391acd0501"
 depends = "['glibc>=2.35', 'python3>=3.12']"
-reverse_depends = "['libcanberra', 'libpulse', 'notification-daemon', 'samba', 'samba-client']"
+reverse_depends = "['libcanberra', 'libldb', 'libpulse', 'notification-daemon', 'samba', 'samba-client']"
 +++
 ### Description: 
 A Trivial Database

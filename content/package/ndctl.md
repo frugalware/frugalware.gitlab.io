@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ndctl 79-2"
-version = "79-2"
+title = "ndctl 80-1"
+version = "80-1"
 description = "Utility for managing the libnvdimm sub-system in the Linux kernel"
-date = "2024-07-06T20:38:57"
+date = "2024-10-18T14:53:54"
 aliases = "/packages/219663"
 categories = ['apps']
 upstreamurl = "https://github.com/pmem/ndctl"
 arch = "x86_64"
-size = "304576"
-usize = "756244"
-sha1sum = "c5e0b5199e299d4efe9ee5a3424862289fe254ed"
-depends = "['json-c>=0.14', 'keyutils', 'libdaxctl>=79', 'libndctl>=79', 'libtracefs', 'libudev>=242', 'libuuid>=2.40.2']"
+size = "305452"
+usize = "762337"
+sha1sum = "398213189fb3daa6a886732560a2bf07c4958742"
+depends = "['json-c>=0.14', 'keyutils', 'kmod', 'libdaxctl>=80', 'libndctl>=80', 'libtracefs', 'libudev>=242', 'libuuid>=2.40.2']"
 +++
 ### Description: 
 Utility for managing the libnvdimm sub-system in the Linux kernel
@@ -28,7 +28,7 @@ Utility for managing the libnvdimm sub-system in the Linux kernel
 * /usr/include/cxl/libcxl.h
 * /usr/lib/libcxl.so
 * /usr/lib/libcxl.so.1
-* /usr/lib/libcxl.so.1.0.6
+* /usr/lib/libcxl.so.1.0.7
 * /usr/lib/pkgconfig/libcxl.pc
 * /usr/lib/systemd/system/cxl-monitor.service
 * /usr/lib/systemd/system/daxdev-reconfigure@.service
@@ -38,8 +38,8 @@ Utility for managing the libnvdimm sub-system in the Linux kernel
 * /usr/share/bash-completion/completions/daxctl
 * /usr/share/bash-completion/completions/ndctl
 * /usr/share/daxctl/daxctl.conf
-* /usr/share/doc/ndctl-79/COPYING
-* /usr/share/doc/ndctl-79/README.md
+* /usr/share/doc/ndctl-80/COPYING
+* /usr/share/doc/ndctl-80/README.md
 * /usr/share/man/man1/cxl-create-region.1.gz
 * /usr/share/man/man1/cxl-destroy-region.1.gz
 * /usr/share/man/man1/cxl-disable-bus.1.gz

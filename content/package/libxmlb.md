@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxmlb 0.3.19-1"
-version = "0.3.19-1"
+title = "libxmlb 0.3.21-1"
+version = "0.3.21-1"
 description = "A library to help create and query binary XML blobs"
-date = "2024-10-14T08:49:55"
+date = "2024-10-18T15:08:22"
 aliases = "/packages/219815"
 categories = ['lib']
 upstreamurl = "https://github.com/hughsie/libxmlb"
 arch = "x86_64"
-size = "219004"
-usize = "1560948"
-sha1sum = "dba3ec23fd1bc5ac04abf250a59b8fbfca68148c"
+size = "218376"
+usize = "1563150"
+sha1sum = "d12df0d0619a2b56099be651639799f17275be53"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['appstream', 'fwupd']"
 +++
@@ -52,10 +52,10 @@ A library to help create and query binary XML blobs
 * /usr/lib/libxmlb/installed-tests/libxmlb/test.xml.zst
 * /usr/lib/libxmlb/installed-tests/libxmlb/xb-self-test
 * /usr/lib/pkgconfig/xmlb.pc
-* /usr/share/doc/libxmlb-0.3.19/LICENSE
-* /usr/share/doc/libxmlb-0.3.19/NEWS
-* /usr/share/doc/libxmlb-0.3.19/README.md
-* /usr/share/doc/libxmlb-0.3.19/RELEASE
+* /usr/share/doc/libxmlb-0.3.21/LICENSE
+* /usr/share/doc/libxmlb-0.3.21/NEWS
+* /usr/share/doc/libxmlb-0.3.21/README.md
+* /usr/share/doc/libxmlb-0.3.21/RELEASE
 * /usr/share/gir-1.0/Xmlb-2.0.gir
 * /usr/share/gtk-doc/html/libxmlb/annotation-glossary.html
 * /usr/share/gtk-doc/html/libxmlb/api-index-full.html

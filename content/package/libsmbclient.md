@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libsmbclient 4.21.1-1"
-version = "4.21.1-1"
+title = "libsmbclient 4.21.1-2"
+version = "4.21.1-2"
 description = "SMB client library."
-date = "2024-10-15T12:35:53"
+date = "2024-10-18T14:46:40"
 aliases = "/packages/10586"
 categories = ['lib']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7925368"
-usize = "33900277"
-sha1sum = "27122112d743cac4134e8a01233ba8975d098ab4"
+size = "7619580"
+usize = "32498047"
+sha1sum = "751e966c37b6c5423279c42e177b99de6cbe10db"
 depends = "['gpgme', 'icu4c>=75.1', 'jansson', 'libldap>=2.5.4', 'libwbclient>=4.21.1', 'libxcrypt', 'lmdb', 'python3>=3.12', 'tevent']"
-reverse_depends = "['gvfs-smb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
+reverse_depends = "['gvfs-smb', 'libldb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
 ### Description: 
 SMB client library.
@@ -86,7 +86,6 @@ SMB client library.
 * /usr/lib/pkgconfig/dcerpc.pc
 * /usr/lib/pkgconfig/dcerpc_samr.pc
 * /usr/lib/pkgconfig/dcerpc_server.pc
-* /usr/lib/pkgconfig/ldb.pc
 * /usr/lib/pkgconfig/ndr.pc
 * /usr/lib/pkgconfig/ndr_krb5pac.pc
 * /usr/lib/pkgconfig/ndr_nbt.pc
@@ -116,63 +115,6 @@ SMB client library.
 * /usr/lib/samba/idmap/tdb2.so
 * /usr/lib/samba/krb5/async_dns_krb5_locator.so
 * /usr/lib/samba/krb5/winbind_krb5_locator.so
-* /usr/lib/samba/ldb/acl.so
-* /usr/lib/samba/ldb/aclread.so
-* /usr/lib/samba/ldb/anr.so
-* /usr/lib/samba/ldb/asq.so
-* /usr/lib/samba/ldb/audit_log.so
-* /usr/lib/samba/ldb/count_attrs.so
-* /usr/lib/samba/ldb/descriptor.so
-* /usr/lib/samba/ldb/dirsync.so
-* /usr/lib/samba/ldb/dns_notify.so
-* /usr/lib/samba/ldb/dsdb_notification.so
-* /usr/lib/samba/ldb/encrypted_secrets.so
-* /usr/lib/samba/ldb/extended_dn_in.so
-* /usr/lib/samba/ldb/extended_dn_out.so
-* /usr/lib/samba/ldb/extended_dn_store.so
-* /usr/lib/samba/ldb/group_audit_log.so
-* /usr/lib/samba/ldb/ildap.so
-* /usr/lib/samba/ldb/instancetype.so
-* /usr/lib/samba/ldb/lazy_commit.so
-* /usr/lib/samba/ldb/ldap.so
-* /usr/lib/samba/ldb/ldb.so
-* /usr/lib/samba/ldb/ldbsamba_extensions.so
-* /usr/lib/samba/ldb/linked_attributes.so
-* /usr/lib/samba/ldb/mdb.so
-* /usr/lib/samba/ldb/new_partition.so
-* /usr/lib/samba/ldb/objectclass.so
-* /usr/lib/samba/ldb/objectclass_attrs.so
-* /usr/lib/samba/ldb/objectguid.so
-* /usr/lib/samba/ldb/operational.so
-* /usr/lib/samba/ldb/paged_results.so
-* /usr/lib/samba/ldb/paged_searches.so
-* /usr/lib/samba/ldb/partition.so
-* /usr/lib/samba/ldb/password_hash.so
-* /usr/lib/samba/ldb/ranged_results.so
-* /usr/lib/samba/ldb/rdn_name.so
-* /usr/lib/samba/ldb/repl_meta_data.so
-* /usr/lib/samba/ldb/resolve_oids.so
-* /usr/lib/samba/ldb/rootdse.so
-* /usr/lib/samba/ldb/samba3sam.so
-* /usr/lib/samba/ldb/samba3sid.so
-* /usr/lib/samba/ldb/samba_dsdb.so
-* /usr/lib/samba/ldb/samba_secrets.so
-* /usr/lib/samba/ldb/samldb.so
-* /usr/lib/samba/ldb/sample.so
-* /usr/lib/samba/ldb/schema_data.so
-* /usr/lib/samba/ldb/schema_load.so
-* /usr/lib/samba/ldb/secrets_tdb_sync.so
-* /usr/lib/samba/ldb/server_sort.so
-* /usr/lib/samba/ldb/show_deleted.so
-* /usr/lib/samba/ldb/skel.so
-* /usr/lib/samba/ldb/subtree_delete.so
-* /usr/lib/samba/ldb/subtree_rename.so
-* /usr/lib/samba/ldb/tdb.so
-* /usr/lib/samba/ldb/tombstone_reanimate.so
-* /usr/lib/samba/ldb/unique_object_sids.so
-* /usr/lib/samba/ldb/update_keytab.so
-* /usr/lib/samba/ldb/vlv.so
-* /usr/lib/samba/ldb/wins_ldb.so
 * /usr/lib/samba/libad-claims-private-samba.so
 * /usr/lib/samba/libaddns-private-samba.so
 * /usr/lib/samba/libads-private-samba.so

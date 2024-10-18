@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-psutil 6.0.0-1"
-version = "6.0.0-1"
+title = "python3-psutil 6.1.0-1"
+version = "6.1.0-1"
 description = "A cross-platform process ans system utilities module for Python"
-date = "2024-06-25T08:03:43"
+date = "2024-10-18T15:03:06"
 aliases = "/packages/220004"
 categories = ['lib']
 upstreamurl = "http://pypi.python.org/pypi/psutil"
 arch = "x86_64"
-size = "452116"
-usize = "3295653"
-sha1sum = "b22629043be34716192f0971c80ce5002fefc655"
+size = "446460"
+usize = "3234432"
+sha1sum = "0dd9dfa9f0037d7d593b79e45f2c3b0f12f0ff8d"
 depends = "['python3>=3.12']"
 reverse_depends = "['bpytop', 'drkonqi', 'meshroom', 'python3-pidfile', 'python3-xapp', 'yin-yang']"
 +++
@@ -18,13 +18,12 @@ reverse_depends = "['bpytop', 'drkonqi', 'meshroom', 'python3-pidfile', 'python3
 A cross-platform process ans system utilities module for Python
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/psutil-6.0.0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/psutil/tests/runner.py
+* /usr/lib/python3.12/site-packages/psutil-6.1.0-py3.12.egg-info/dependency_links.txt
+* /usr/lib/python3.12/site-packages/psutil-6.1.0-py3.12.egg-info/not-zip-safe
+* /usr/lib/python3.12/site-packages/psutil-6.1.0-py3.12.egg-info/PKG-INFO
+* /usr/lib/python3.12/site-packages/psutil-6.1.0-py3.12.egg-info/requires.txt
+* /usr/lib/python3.12/site-packages/psutil-6.1.0-py3.12.egg-info/SOURCES.txt
+* /usr/lib/python3.12/site-packages/psutil-6.1.0-py3.12.egg-info/top_level.txt
 * /usr/lib/python3.12/site-packages/psutil/tests/test_aix.py
 * /usr/lib/python3.12/site-packages/psutil/tests/test_bsd.py
 * /usr/lib/python3.12/site-packages/psutil/tests/test_connections.py
@@ -43,8 +42,6 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.12/site-packages/psutil/tests/test_windows.py
 * /usr/lib/python3.12/site-packages/psutil/tests/__init__.py
 * /usr/lib/python3.12/site-packages/psutil/tests/__main__.py
-* /usr/lib/python3.12/site-packages/psutil/tests/__pycache__/runner.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/psutil/tests/__pycache__/runner.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/psutil/tests/__pycache__/test_aix.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/psutil/tests/__pycache__/test_aix.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/psutil/tests/__pycache__/test_bsd.cpython-312.opt-1.pyc
@@ -89,8 +86,8 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.12/site-packages/psutil/_psosx.py
 * /usr/lib/python3.12/site-packages/psutil/_psposix.py
 * /usr/lib/python3.12/site-packages/psutil/_pssunos.py
-* /usr/lib/python3.12/site-packages/psutil/_psutil_linux.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/psutil/_psutil_posix.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.12/site-packages/psutil/_psutil_linux.abi3.so
+* /usr/lib/python3.12/site-packages/psutil/_psutil_posix.abi3.so
 * /usr/lib/python3.12/site-packages/psutil/_pswindows.py
 * /usr/lib/python3.12/site-packages/psutil/__init__.py
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/_common.cpython-312.opt-1.pyc
@@ -113,7 +110,7 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/_pswindows.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/__init__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/psutil/__pycache__/__init__.cpython-312.pyc
-* /usr/share/doc/python3-psutil-6.0.0/CREDITS
-* /usr/share/doc/python3-psutil-6.0.0/INSTALL.rst
-* /usr/share/doc/python3-psutil-6.0.0/LICENSE
-* /usr/share/doc/python3-psutil-6.0.0/README.rst
+* /usr/share/doc/python3-psutil-6.1.0/CREDITS
+* /usr/share/doc/python3-psutil-6.1.0/INSTALL.rst
+* /usr/share/doc/python3-psutil-6.1.0/LICENSE
+* /usr/share/doc/python3-psutil-6.1.0/README.rst
