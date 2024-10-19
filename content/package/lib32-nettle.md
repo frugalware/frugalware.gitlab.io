@@ -12,7 +12,7 @@ size = "490400"
 usize = "1466248"
 sha1sum = "b46aee7da8b4be5c093e11541b83b8db95a4dda3"
 depends = "['lib32-gmp>=6.1.2-12']"
-reverse_depends = "['lib32-gnutls', 'lib32-libcurl-gnutls']"
+reverse_depends = "['lib32-gnutls', 'lib32-libarchive', 'lib32-libcurl-gnutls']"
 +++
 ### Description: 
 A low-level cryptographic library ( 32bit )

@@ -12,7 +12,7 @@ size = "67052"
 usize = "319471"
 sha1sum = "84b3f072dd1b596059ab3a0df7f4138cdac6392c"
 depends = "[]"
-reverse_depends = "['lib32-cairo']"
+reverse_depends = "['lib32-cairo', 'lib32-libarchive']"
 +++
 ### Description: 
 A real-time data compression library ( 32bit )

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libarchive 3.7.7-1"
-version = "3.7.7-1"
+title = "libarchive 3.7.7-2"
+version = "3.7.7-2"
 description = "Library to create and read several different archive formats"
-date = "2024-10-14T07:48:47"
+date = "2024-10-19T09:48:12"
 aliases = "/packages/3144"
 categories = ['base']
 upstreamurl = "http://www.libarchive.org"
 arch = "x86_64"
-size = "743140"
-usize = "2847735"
-sha1sum = "b2a4d3f70822dbd758c7cf88f35d8e6603e969ef"
+size = "742436"
+usize = "2822871"
+sha1sum = "4e82c65c7d382bde7aade2e5ba4394d33a35b08b"
 depends = "['bzip2>=1.0.6-16', 'expat>=2.2.6-2', 'lzo>=1.9.2', 'nettle>=3.5.1', 'openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
-reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'fwupd', 'gvfs', 'libappimage', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
+reverse_depends = "['ark', 'claws-mail-plugin-archive', 'cmake', 'dracut-ykfde', 'elfutils', 'fwupd', 'gvfs', 'libappimage', 'networkmanager', 'ostree', 'pacman-g2', 'qmmp', 'samba-client', 'vlc-archive']"
 +++
 ### Description: 
 Library to create and read several different archive formats

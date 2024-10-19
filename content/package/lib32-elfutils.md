@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-elfutils 0.191-2"
-version = "0.191-2"
+title = "lib32-elfutils 0.192-1"
+version = "0.192-1"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information ( 32bit )"
-date = "2024-05-15T17:20:31"
+date = "2024-10-19T09:50:00"
 aliases = "/packages/217724"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "721316"
-usize = "3920211"
-sha1sum = "b0afa79521bee274cb00466fb4e929bc9badca83"
-depends = "['lib32-bzip2>=1.0.6-16', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
+size = "778892"
+usize = "4141369"
+sha1sum = "d69b428f0bd4ee8f2424208b3b25fe3021857da1"
+depends = "['lib32-bzip2>=1.0.6-16', 'lib32-json-c', 'lib32-libarchive', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
 reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-glib2', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils']"
 +++
 ### Description: 
@@ -47,15 +47,16 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/i686-frugalware-linux/include/gelf.h
 * /usr/i686-frugalware-linux/include/libelf.h
 * /usr/i686-frugalware-linux/include/nlist.h
-* /usr/lib32/libasm-0.191.so
+* /usr/lib32/libasm-0.192.so
 * /usr/lib32/libasm.so
 * /usr/lib32/libasm.so.1
-* /usr/lib32/libdw-0.191.so
+* /usr/lib32/libdw-0.192.so
 * /usr/lib32/libdw.so
 * /usr/lib32/libdw.so.1
-* /usr/lib32/libelf-0.191.so
+* /usr/lib32/libelf-0.192.so
 * /usr/lib32/libelf.so
 * /usr/lib32/libelf.so.1
 * /usr/lib32/pkgconfig/libdebuginfod.pc
 * /usr/lib32/pkgconfig/libdw.pc
 * /usr/lib32/pkgconfig/libelf.pc
+* /usr/share/fish/vendor_conf.d/debuginfod.fish

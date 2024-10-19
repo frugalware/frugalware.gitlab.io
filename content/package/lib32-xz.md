@@ -12,7 +12,7 @@ size = "201244"
 usize = "630533"
 sha1sum = "9c5468f1db174035da9894ebcec74ca77b992230"
 depends = "[]"
-reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-libsystemd', 'lib32-libtiff', 'lib32-libunwind', 'lib32-libxml2', 'lib32-rust', 'lib32-zstd']"
+reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-libarchive', 'lib32-libsystemd', 'lib32-libtiff', 'lib32-libunwind', 'lib32-libxml2', 'lib32-rust', 'lib32-zstd']"
 +++
 ### Description: 
 XZ Utils is free general-purpose data compression software with high compression ratio. ( 32bit )

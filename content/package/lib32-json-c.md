@@ -12,7 +12,7 @@ size = "56428"
 usize = "185728"
 sha1sum = "aa44f4c1e8d5b96ed5578b1a6a853e1656e2237f"
 depends = "[]"
-reverse_depends = "['lib32-fontconfig', 'lib32-v4l-utils']"
+reverse_depends = "['lib32-elfutils', 'lib32-fontconfig', 'lib32-v4l-utils']"
 +++
 ### Description: 
 JSON-C - A JSON implementation in C ( 32bit )

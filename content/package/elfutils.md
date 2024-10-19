@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "elfutils 0.191-2"
-version = "0.191-2"
+title = "elfutils 0.192-1"
+version = "0.192-1"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information"
-date = "2024-05-15T17:20:31"
+date = "2024-10-19T09:50:00"
 aliases = "/packages/137191"
 categories = ['base']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "825676"
-usize = "5011016"
-sha1sum = "99cd64285e06aa843614fa6d5105500724cbeba8"
-depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
+size = "882600"
+usize = "5091915"
+sha1sum = "fe6d5e89b29a76f58832c183a01e1134ef5783e5"
+depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'json-c', 'libarchive', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libbpf', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++
 ### Description: 
@@ -49,28 +49,29 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/include/gelf.h
 * /usr/include/libelf.h
 * /usr/include/nlist.h
-* /usr/lib/libasm-0.191.so
+* /usr/lib/libasm-0.192.so
 * /usr/lib/libasm.so
 * /usr/lib/libasm.so.1
-* /usr/lib/libdw-0.191.so
+* /usr/lib/libdw-0.192.so
 * /usr/lib/libdw.so
 * /usr/lib/libdw.so.1
-* /usr/lib/libelf-0.191.so
+* /usr/lib/libelf-0.192.so
 * /usr/lib/libelf.so
 * /usr/lib/libelf.so.1
 * /usr/lib/pkgconfig/libdebuginfod.pc
 * /usr/lib/pkgconfig/libdw.pc
 * /usr/lib/pkgconfig/libelf.pc
-* /usr/share/doc/elfutils-0.191/AUTHORS
-* /usr/share/doc/elfutils-0.191/ChangeLog
-* /usr/share/doc/elfutils-0.191/COPYING
-* /usr/share/doc/elfutils-0.191/COPYING-GPLV2
-* /usr/share/doc/elfutils-0.191/COPYING-LGPLV3
-* /usr/share/doc/elfutils-0.191/INSTALL
-* /usr/share/doc/elfutils-0.191/NEWS
-* /usr/share/doc/elfutils-0.191/README
-* /usr/share/doc/elfutils-0.191/THANKS
-* /usr/share/doc/elfutils-0.191/TODO
+* /usr/share/doc/elfutils-0.192/AUTHORS
+* /usr/share/doc/elfutils-0.192/ChangeLog
+* /usr/share/doc/elfutils-0.192/COPYING
+* /usr/share/doc/elfutils-0.192/COPYING-GPLV2
+* /usr/share/doc/elfutils-0.192/COPYING-LGPLV3
+* /usr/share/doc/elfutils-0.192/INSTALL
+* /usr/share/doc/elfutils-0.192/NEWS
+* /usr/share/doc/elfutils-0.192/README
+* /usr/share/doc/elfutils-0.192/THANKS
+* /usr/share/doc/elfutils-0.192/TODO
+* /usr/share/fish/vendor_conf.d/debuginfod.fish
 * /usr/share/locale/de/LC_MESSAGES/elfutils.mo
 * /usr/share/locale/en@boldquot/LC_MESSAGES/elfutils.mo
 * /usr/share/locale/en@quot/LC_MESSAGES/elfutils.mo
@@ -81,8 +82,38 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/share/man/man1/eu-elfclassify.1.gz
 * /usr/share/man/man1/eu-readelf.1.gz
 * /usr/share/man/man1/eu-srcfiles.1.gz
+* /usr/share/man/man3/elf32_checksum.3.gz
+* /usr/share/man/man3/elf32_fsize.3.gz
+* /usr/share/man/man3/elf32_getchdr.3.gz
+* /usr/share/man/man3/elf32_getehdr.3.gz
+* /usr/share/man/man3/elf32_getphdr.3.gz
+* /usr/share/man/man3/elf32_getshdr.3.gz
+* /usr/share/man/man3/elf32_newehdr.3.gz
+* /usr/share/man/man3/elf32_newphdr.3.gz
+* /usr/share/man/man3/elf32_offscn.3.gz
+* /usr/share/man/man3/elf32_xlatetof.3.gz
+* /usr/share/man/man3/elf32_xlatetom.3.gz
+* /usr/share/man/man3/elf64_checksum.3.gz
+* /usr/share/man/man3/elf64_fsize.3.gz
+* /usr/share/man/man3/elf64_getchdr.3.gz
+* /usr/share/man/man3/elf64_getehdr.3.gz
+* /usr/share/man/man3/elf64_getphdr.3.gz
+* /usr/share/man/man3/elf64_getshdr.3.gz
+* /usr/share/man/man3/elf64_newehdr.3.gz
+* /usr/share/man/man3/elf64_newphdr.3.gz
+* /usr/share/man/man3/elf64_offscn.3.gz
+* /usr/share/man/man3/elf64_xlatetof.3.gz
+* /usr/share/man/man3/elf64_xlatetom.3.gz
 * /usr/share/man/man3/elf_begin.3.gz
 * /usr/share/man/man3/elf_clone.3.gz
+* /usr/share/man/man3/elf_errmsg.3.gz
+* /usr/share/man/man3/elf_errno.3.gz
 * /usr/share/man/man3/elf_getdata.3.gz
+* /usr/share/man/man3/elf_getscn.3.gz
+* /usr/share/man/man3/elf_ndxscn.3.gz
 * /usr/share/man/man3/elf_update.3.gz
+* /usr/share/man/man3/elf_version.3.gz
+* /usr/share/man/man3/libelf.3.gz
 * /usr/share/man/man7/debuginfod-client-config.7.gz
+* /usr/share/man/man8/debuginfod.8.gz
+* /usr/share/man/man8/debuginfod.service.8.gz

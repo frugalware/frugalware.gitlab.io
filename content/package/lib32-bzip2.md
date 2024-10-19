@@ -12,7 +12,7 @@ size = "33616"
 usize = "80546"
 sha1sum = "d937041a568da5632087d21157cbc99dd6a79002"
 depends = "['glibc>=2.35']"
-reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-fontconfig', 'lib32-freetype2', 'lib32-libzip', 'lib32-pcre', 'lib32-pcre2']"
+reverse_depends = "['lib32-elfutils', 'lib32-file', 'lib32-fontconfig', 'lib32-freetype2', 'lib32-libarchive', 'lib32-libzip', 'lib32-pcre', 'lib32-pcre2']"
 +++
 ### Description: 
 A block-sorting file compressor ( 32bit )
