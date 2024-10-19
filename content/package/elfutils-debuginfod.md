@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils-debuginfod 0.192-1"
-version = "0.192-1"
+title = "elfutils-debuginfod 0.192-2"
+version = "0.192-2"
 description = "Elfutils debuginfod"
-date = "2024-10-19T09:50:00"
+date = "2024-10-19T13:30:54"
 aliases = "/packages/220226"
 categories = ['devel-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "29800"
+size = "29820"
 usize = "62088"
-sha1sum = "fcb636278526ab3beb9cd0eda1afccefbcb1a706"
+sha1sum = "e85d7fe4821b9077ff7df2c863c9e27af9b2838e"
 depends = "['curl', 'elfutils']"
 +++
 ### Description: 
