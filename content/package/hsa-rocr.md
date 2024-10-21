@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hsa-rocr 6.2.0-1"
-version = "6.2.0-1"
+title = "hsa-rocr 6.2.4-1"
+version = "6.2.4-1"
 description = "HSA Runtime API and runtime for ROCm"
-date = "2024-08-06T14:09:45"
+date = "2024-10-21T20:40:39"
 aliases = "/packages/221251"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/ROCR-Runtime"
 arch = "x86_64"
-size = "531508"
-usize = "3361263"
-sha1sum = "e50a67dac44ff934860d6492c17a41ce501bc534"
+size = "531828"
+usize = "3380911"
+sha1sum = "9a3db0e338b3529e4c284ccbdb7e482c7f442ed5"
 depends = "['hsakmt-roct', 'rocm-core', 'rocm-device-libs']"
 reverse_depends = "['rocminfo']"
 +++
@@ -42,4 +42,4 @@ HSA Runtime API and runtime for ROCm
 * /opt/rocm/lib/libhsa-runtime64.so.1
 * /opt/rocm/lib/libhsa-runtime64.so.1.14.0
 * /opt/rocm/share/doc/hsa-runtime64/LICENSE.md
-* /usr/share/doc/hsa-rocr-6.2.0/README.md
+* /usr/share/doc/hsa-rocr-6.2.4/README.md
