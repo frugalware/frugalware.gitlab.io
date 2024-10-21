@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-elfutils 0.192-2"
-version = "0.192-2"
+title = "lib32-elfutils 0.192-3"
+version = "0.192-3"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information ( 32bit )"
-date = "2024-10-19T13:30:54"
+date = "2024-10-21T13:25:07"
 aliases = "/packages/217724"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "778032"
+size = "779808"
 usize = "4140304"
-sha1sum = "907291abd9479b6953bf3c20377548b746deff74"
+sha1sum = "4283dedd6cee141ebb40daee21821f5f1f45442a"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-json-c', 'lib32-libarchive', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
 reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-glib2', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils']"
 +++

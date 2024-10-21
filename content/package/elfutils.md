@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils 0.192-2"
-version = "0.192-2"
+title = "elfutils 0.192-3"
+version = "0.192-3"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information"
-date = "2024-10-19T13:30:54"
+date = "2024-10-21T13:25:07"
 aliases = "/packages/137191"
 categories = ['base']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "883812"
-usize = "5091915"
-sha1sum = "faaa0924eb8dc0e8239f14746447f0318a9f4434"
+size = "875868"
+usize = "5060499"
+sha1sum = "91beb39d7b5f276091ce75c602332920343d7b33"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'json-c', 'libarchive', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libbpf', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++
@@ -33,7 +33,6 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/bin/eu-ranlib
 * /usr/bin/eu-readelf
 * /usr/bin/eu-size
-* /usr/bin/eu-srcfiles
 * /usr/bin/eu-stack
 * /usr/bin/eu-strings
 * /usr/bin/eu-strip
