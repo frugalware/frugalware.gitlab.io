@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nfs-utils 2.7.1-1"
-version = "2.7.1-1"
+title = "nfs-utils 2.8.1-1"
+version = "2.8.1-1"
 description = "Support programs for Network File Systems"
-date = "2024-08-23T18:09:25"
+date = "2024-10-21T08:34:41"
 aliases = "/packages/3261"
 categories = ['network']
 upstreamurl = "https://sourceforge.net/projects/nfs-utils"
 arch = "x86_64"
-size = "362356"
-usize = "1179665"
-sha1sum = "a25e03e8c2f53cfde0b841aba7e146377f7b95fa"
-depends = "['keyutils', 'libevent>=2.1.11', 'libxml2', 'lvm2-libs>=2.02.141', 'rpcbind', 'sqlite3>=3.10.2']"
+size = "374984"
+usize = "1227654"
+sha1sum = "90b366210c9d8eb3817eb9e1fbc111c0c66b7a8b"
+depends = "['keyutils', 'libevent>=2.1.11', 'libnl', 'libxml2', 'lvm2-libs>=2.02.141', 'rpcbind', 'sqlite3>=3.10.2']"
 reverse_depends = "['dracut-network']"
 +++
 ### Description: 
@@ -32,6 +32,7 @@ Support programs for Network File Systems
 * /usr/bin/nfsdclddb
 * /usr/bin/nfsdclnts
 * /usr/bin/nfsdcltrack
+* /usr/bin/nfsdctl
 * /usr/bin/nfsidmap
 * /usr/bin/nfsiostat
 * /usr/bin/nfsref
@@ -81,10 +82,10 @@ Support programs for Network File Systems
 * /usr/lib/systemd/system/var-lib-nfs-rpc_pipefs.mount
 * /usr/lib/udev/rules.d/60-nfs.rules
 * /usr/lib/udev/rules.d/99-nfs.rules
-* /usr/share/doc/nfs-utils-2.7.1/COPYING
-* /usr/share/doc/nfs-utils-2.7.1/INSTALL
-* /usr/share/doc/nfs-utils-2.7.1/NEWS
-* /usr/share/doc/nfs-utils-2.7.1/README
+* /usr/share/doc/nfs-utils-2.8.1/COPYING
+* /usr/share/doc/nfs-utils-2.8.1/INSTALL
+* /usr/share/doc/nfs-utils-2.8.1/NEWS
+* /usr/share/doc/nfs-utils-2.8.1/README
 * /usr/share/man/man3/nfs4_uid_to_name.3.gz
 * /usr/share/man/man5/exports.5.gz
 * /usr/share/man/man5/nfs.5.gz
@@ -105,6 +106,7 @@ Support programs for Network File Systems
 * /usr/share/man/man8/nfsdclddb.8.gz
 * /usr/share/man/man8/nfsdclnts.8.gz
 * /usr/share/man/man8/nfsdcltrack.8.gz
+* /usr/share/man/man8/nfsdctl.8.gz
 * /usr/share/man/man8/nfsidmap.8.gz
 * /usr/share/man/man8/nfsiostat.8.gz
 * /usr/share/man/man8/nfsref.8.gz
