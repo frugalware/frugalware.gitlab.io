@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syncthingtray 1.6.2-3"
-version = "1.6.2-3"
+title = "syncthingtray 1.6.3-1"
+version = "1.6.3-1"
 description = "tray app for syncthing"
-date = "2024-10-16T13:42:08"
+date = "2024-10-21T12:59:42"
 aliases = "/packages/222522"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Martchus/syncthingtray"
 arch = "x86_64"
-size = "827412"
-usize = "3439896"
-sha1sum = "2476e0d22fdcdf10a54d7b0678d1304f26149511"
+size = "839732"
+usize = "3490058"
+sha1sum = "c85d587ecd2be558d56ce9e991e38810da620967"
 depends = "['cpp-utilities', 'libboost', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
@@ -41,6 +41,7 @@ tray app for syncthing
 * /usr/include/syncthingmodel/syncthingdevicemodel.h
 * /usr/include/syncthingmodel/syncthingdirectorymodel.h
 * /usr/include/syncthingmodel/syncthingdownloadmodel.h
+* /usr/include/syncthingmodel/syncthingerrormodel.h
 * /usr/include/syncthingmodel/syncthingfilemodel.h
 * /usr/include/syncthingmodel/syncthingicons.h
 * /usr/include/syncthingmodel/syncthingmodel-definitions.h
@@ -70,14 +71,14 @@ tray app for syncthing
 * /usr/include/syncthingwidgets/webview/webpage.h
 * /usr/include/syncthingwidgets/webview/webviewdialog.h
 * /usr/lib/libsyncthingconnector.so
-* /usr/lib/libsyncthingconnector.so.1.6.2
-* /usr/lib/libsyncthingconnector.so.18
+* /usr/lib/libsyncthingconnector.so.1.6.3
+* /usr/lib/libsyncthingconnector.so.19
 * /usr/lib/libsyncthingmodel.so
-* /usr/lib/libsyncthingmodel.so.1.6.2
-* /usr/lib/libsyncthingmodel.so.18
+* /usr/lib/libsyncthingmodel.so.1.6.3
+* /usr/lib/libsyncthingmodel.so.19
 * /usr/lib/libsyncthingwidgets.so
-* /usr/lib/libsyncthingwidgets.so.1.6.2
-* /usr/lib/libsyncthingwidgets.so.18
+* /usr/lib/libsyncthingwidgets.so.1.6.3
+* /usr/lib/libsyncthingwidgets.so.19
 * /usr/lib/pkgconfig/syncthingconnector.pc
 * /usr/lib/pkgconfig/syncthingfileitemaction.pc
 * /usr/lib/pkgconfig/syncthingmodel.pc
@@ -88,8 +89,8 @@ tray app for syncthing
 * /usr/share/applications/syncthingtray.desktop
 * /usr/share/bash-completion/completions/syncthingctl
 * /usr/share/bash-completion/completions/syncthingtray
-* /usr/share/doc/syncthingtray-1.6.2/LICENSE
-* /usr/share/doc/syncthingtray-1.6.2/README.md
+* /usr/share/doc/syncthingtray-1.6.3/LICENSE
+* /usr/share/doc/syncthingtray-1.6.3/README.md
 * /usr/share/icons/hicolor/scalable/apps/syncthingtray.svg
 * /usr/share/metainfo/syncthingfileitemaction.metainfo.xml
 * /usr/share/metainfo/syncthingplasmoid.metainfo.xml
