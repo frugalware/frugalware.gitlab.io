@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "saturn 0.4.1-4"
-version = "0.4.1-4"
+title = "saturn 0.5.0-1"
+version = "0.5.0-1"
 description = "Lock-free data structures for multicore OCaml"
-date = "2024-06-11T17:57:57"
+date = "2024-10-21T14:34:00"
 aliases = "/packages/221060"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/saturn"
 arch = "x86_64"
-size = "294352"
-usize = "634895"
-sha1sum = "31a4ed8ccc3b66c618051805e16dcf53aa6e9e27"
-depends = "['ocaml-domain-shims']"
+size = "554344"
+usize = "1094151"
+sha1sum = "b4ec2933eb93a26049ea5d0dd4f2e95279566182"
+depends = "['backoff', 'multicore-magic', 'ocaml-domain-shims']"
 reverse_depends = "['domainslib']"
 +++
 ### Description: 
@@ -42,12 +42,14 @@ Lock-free data structures for multicore OCaml
 * /usr/lib/ocaml/saturn/saturn__Mpmc_relaxed_queue.cmti
 * /usr/lib/ocaml/saturn/saturn__Mpmc_relaxed_queue.cmx
 * /usr/lib/ocaml/saturn_lockfree/ArrayExtra.ml
-* /usr/lib/ocaml/saturn_lockfree/backoff.ml
-* /usr/lib/ocaml/saturn_lockfree/backoff.mli
 * /usr/lib/ocaml/saturn_lockfree/dune-package
 * /usr/lib/ocaml/saturn_lockfree/META
 * /usr/lib/ocaml/saturn_lockfree/michael_scott_queue.ml
 * /usr/lib/ocaml/saturn_lockfree/michael_scott_queue.mli
+* /usr/lib/ocaml/saturn_lockfree/michael_scott_queue_intf.ml
+* /usr/lib/ocaml/saturn_lockfree/michael_scott_queue_unsafe.ml
+* /usr/lib/ocaml/saturn_lockfree/michael_scott_queue_unsafe.mli
+* /usr/lib/ocaml/saturn_lockfree/michael_scott_queue_unsafe_node.ml
 * /usr/lib/ocaml/saturn_lockfree/mpmc_relaxed_queue.ml
 * /usr/lib/ocaml/saturn_lockfree/mpmc_relaxed_queue.mli
 * /usr/lib/ocaml/saturn_lockfree/mpsc_queue.ml
@@ -70,14 +72,20 @@ Lock-free data structures for multicore OCaml
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__ArrayExtra.cmi
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__ArrayExtra.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__ArrayExtra.cmx
-* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Backoff.cmi
-* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Backoff.cmt
-* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Backoff.cmti
-* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Backoff.cmx
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue.cmi
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue.cmti
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_intf.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_intf.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_intf.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe.cmti
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe_node.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe_node.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Michael_scott_queue_unsafe_node.cmx
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Mpmc_relaxed_queue.cmi
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Mpmc_relaxed_queue.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Mpmc_relaxed_queue.cmti
@@ -86,10 +94,25 @@ Lock-free data structures for multicore OCaml
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Mpsc_queue.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Mpsc_queue.cmti
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Mpsc_queue.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Size.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Size.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Size.cmti
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Size.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Skiplist.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Skiplist.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Skiplist.cmti
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Skiplist.cmx
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue.cmi
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue.cmti
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_intf.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_intf.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_intf.cmx
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_unsafe.cmi
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_unsafe.cmt
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_unsafe.cmti
+* /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Spsc_queue_unsafe.cmx
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Treiber_stack.cmi
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Treiber_stack.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Treiber_stack.cmti
@@ -98,16 +121,31 @@ Lock-free data structures for multicore OCaml
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Ws_deque.cmt
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Ws_deque.cmti
 * /usr/lib/ocaml/saturn_lockfree/saturn_lockfree__Ws_deque.cmx
+* /usr/lib/ocaml/saturn_lockfree/size.ml
+* /usr/lib/ocaml/saturn_lockfree/size.mli
+* /usr/lib/ocaml/saturn_lockfree/skiplist.ml
+* /usr/lib/ocaml/saturn_lockfree/skiplist.mli
 * /usr/lib/ocaml/saturn_lockfree/spsc_queue.ml
 * /usr/lib/ocaml/saturn_lockfree/spsc_queue.mli
+* /usr/lib/ocaml/saturn_lockfree/spsc_queue_intf.ml
+* /usr/lib/ocaml/saturn_lockfree/spsc_queue_unsafe.ml
+* /usr/lib/ocaml/saturn_lockfree/spsc_queue_unsafe.mli
 * /usr/lib/ocaml/saturn_lockfree/treiber_stack.ml
 * /usr/lib/ocaml/saturn_lockfree/treiber_stack.mli
 * /usr/lib/ocaml/saturn_lockfree/ws_deque.ml
 * /usr/lib/ocaml/saturn_lockfree/ws_deque.mli
-* /usr/share/doc/saturn-0.4.1/README.md
-* /usr/share/doc/saturn-0.4.1/saturn/CHANGES.md
-* /usr/share/doc/saturn-0.4.1/saturn/LICENSE.md
-* /usr/share/doc/saturn-0.4.1/saturn/README.md
-* /usr/share/doc/saturn-0.4.1/saturn_lockfree/CHANGES.md
-* /usr/share/doc/saturn-0.4.1/saturn_lockfree/LICENSE.md
-* /usr/share/doc/saturn-0.4.1/saturn_lockfree/README.md
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/.public_cmi/linked_set.cmi
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/.public_cmi/linked_set.cmt
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/linked_set.a
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/linked_set.cma
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/linked_set.cmx
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/linked_set.cmxa
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/linked_set.cmxs
+* /usr/lib/ocaml/saturn_lockfree/__private__/linked_set/linked_set.ml
+* /usr/share/doc/saturn-0.5.0/README.md
+* /usr/share/doc/saturn-0.5.0/saturn/CHANGES.md
+* /usr/share/doc/saturn-0.5.0/saturn/LICENSE.md
+* /usr/share/doc/saturn-0.5.0/saturn/README.md
+* /usr/share/doc/saturn-0.5.0/saturn_lockfree/CHANGES.md
+* /usr/share/doc/saturn-0.5.0/saturn_lockfree/LICENSE.md
+* /usr/share/doc/saturn-0.5.0/saturn_lockfree/README.md
