@@ -1,19 +1,19 @@
 +++
 draft = false
-title = "nspr 4.35-3"
-version = "4.35-3"
+title = "nspr 4.36-1"
+version = "4.36-1"
 description = "NSPR library from mozilla.org"
-date = "2024-05-16T03:25:35"
+date = "2024-10-22T07:47:07"
 aliases = "/packages/10503"
 categories = ['base']
 upstreamurl = "http://www.mozilla.org/projects/nspr/"
 arch = "x86_64"
-size = "190608"
-usize = "747271"
-sha1sum = "286415b7a577d16b740cb88d1144d88ec698b48b"
+size = "190596"
+usize = "736245"
+sha1sum = "59ca9f746ddb16d04d4330fd0864d2ff6286f54b"
 depends = "['glibc>=2.34']"
 reverse_depends = "['discord', 'firefox', 'nss', 'thunderbird', 'whalebird']"
-license = "GPL"
+license = "MPL"
 +++
 ### Description: 
 NSPR library from mozilla.org
@@ -76,7 +76,7 @@ NSPR library from mozilla.org
 * /usr/include/nspr4/prtrace.h
 * /usr/include/nspr4/prtypes.h
 * /usr/include/nspr4/prvrsion.h
-* /usr/include/nspr4/prwin16.h
+* /usr/include/nspr4/prwin.h
 * /usr/lib/libnspr4.so
 * /usr/lib/libplc4.so
 * /usr/lib/libplds4.so

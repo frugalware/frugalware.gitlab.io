@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nspr 4.35-3"
-version = "4.35-3"
+title = "lib32-nspr 4.36-1"
+version = "4.36-1"
 description = "NSPR library from mozilla.org ( 32bit )"
-date = "2024-05-16T03:25:35"
+date = "2024-10-22T07:47:07"
 aliases = "/packages/218888"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mozilla.org/projects/nspr/"
 arch = "x86_64"
-size = "198416"
-usize = "901602"
-sha1sum = "e962c4676f34bbf2227a90571f22cb6cbe7c5ba0"
+size = "198800"
+usize = "868355"
+sha1sum = "65453022bdcfbdcfde8ede886ca40105ba20c488"
 depends = "[]"
 reverse_depends = "['lib32-nss']"
 +++
@@ -23,7 +23,6 @@ NSPR library from mozilla.org ( 32bit )
 * /usr/i686-frugalware-linux/include/nspr
 * /usr/i686-frugalware-linux/include/nspr4/md/_aix32.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_aix64.cfg
-* /usr/i686-frugalware-linux/include/nspr4/md/_bsdi.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_darwin.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_freebsd.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_hpux32.cfg
@@ -32,13 +31,9 @@ NSPR library from mozilla.org ( 32bit )
 * /usr/i686-frugalware-linux/include/nspr4/md/_netbsd.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_nto.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_openbsd.cfg
-* /usr/i686-frugalware-linux/include/nspr4/md/_os2.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_qnx.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_riscos.cfg
-* /usr/i686-frugalware-linux/include/nspr4/md/_scoos.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_solaris.cfg
-* /usr/i686-frugalware-linux/include/nspr4/md/_unixware.cfg
-* /usr/i686-frugalware-linux/include/nspr4/md/_unixware7.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_win95.cfg
 * /usr/i686-frugalware-linux/include/nspr4/md/_winnt.cfg
 * /usr/i686-frugalware-linux/include/nspr4/nspr.h
@@ -95,7 +90,7 @@ NSPR library from mozilla.org ( 32bit )
 * /usr/i686-frugalware-linux/include/nspr4/prtrace.h
 * /usr/i686-frugalware-linux/include/nspr4/prtypes.h
 * /usr/i686-frugalware-linux/include/nspr4/prvrsion.h
-* /usr/i686-frugalware-linux/include/nspr4/prwin16.h
+* /usr/i686-frugalware-linux/include/nspr4/prwin.h
 * /usr/lib32/libnspr4.so
 * /usr/lib32/libplc4.so
 * /usr/lib32/libplds4.so
