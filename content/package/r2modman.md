@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "r2modman 3.1.50-2"
-version = "3.1.50-2"
+title = "r2modman 3.1.51-1"
+version = "3.1.51-1"
 description = "A simple and easy to use mod manager for several games using Thunderstore."
-date = "2024-09-24T17:58:51"
+date = "2024-10-22T16:43:48"
 aliases = "/packages/221449"
 categories = ['games-extra']
 upstreamurl = "https://github.com/ebkr/r2modmanPlus"
 arch = "x86_64"
-size = "89980040"
-usize = "299955484"
-sha1sum = "0dfc13f1d57d38a3ddf7f040ded5b22c6d2478b7"
+size = "90817664"
+usize = "301265422"
+sha1sum = "d7ed84239d6504f9f5fd5f45d64e256026dc8e47"
 depends = "['c-ares', 'ffmpeg', 'gtk+3', 'http-parser', 'libappindicator', 'libevent', 'libnotify', 'libvpx', 'libxscrnsaver', 'libxslt', 'nss', 're2', 'snappy', 'zlib']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ A simple and easy to use mod manager for several games using Thunderstore.
 ### Files: 
 * /usr/bin/r2modman
 * /usr/share/applications/r2modman.desktop
-* /usr/share/doc/r2modman-3.1.50/LICENSE
-* /usr/share/doc/r2modman-3.1.50/README.md
+* /usr/share/doc/r2modman-3.1.51/LICENSE
+* /usr/share/doc/r2modman-3.1.51/README.md
 * /usr/share/icons/hicolor/128x128/apps/r2modman.png
 * /usr/share/icons/hicolor/16x16/apps/r2modman.png
 * /usr/share/icons/hicolor/24x24/apps/r2modman.png
