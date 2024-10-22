@@ -12,6 +12,7 @@ size = "5878156"
 usize = "40531484"
 sha1sum = "c7cb8490dd2dfcc49b9fbef95357f22885a15d30"
 depends = "[]"
+reverse_depends = "['mingw-w64-gcc']"
 +++
 ### Description: 
 Cross binutils for the MinGW-w64 cross-compiler

@@ -12,6 +12,7 @@ size = "11938532"
 usize = "147276546"
 sha1sum = "efd5acbf188cca584c12a64e3c4daea2e58121e8"
 depends = "['glibc']"
+reverse_depends = "['mingw-w64-gcc']"
 +++
 ### Description: 
 MinGW-w64 winpthreads library
