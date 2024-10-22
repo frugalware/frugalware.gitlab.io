@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "tcl 9.0.0-3"
-version = "9.0.0-3"
+title = "tcl 9.0.0-4"
+version = "9.0.0-4"
 description = "The Tcl scripting language"
-date = "2024-10-22T08:05:40"
+date = "2024-10-22T08:17:23"
 aliases = "/packages/3350"
 categories = ['devel']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "4256420"
-usize = "15752709"
-sha1sum = "7781dc2365c2659f5f48f2841917042659dd947e"
-depends = "['libtommath', 'zlib>=1.2.12']"
+size = "3525572"
+usize = "12620044"
+sha1sum = "a57fd310201dccd76d8cbf92312f5c4359191e81"
+depends = "['zlib>=1.2.12']"
 reverse_depends = "['insight-toolkit', 'postgresql-pltcl', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++
 ### Description: 
 The Tcl scripting language
 
 ### Files: 
-* /usr/bin/sqlite3_analyzer
 * /usr/bin/tclsh
 * /usr/bin/tclsh9.0
 * /usr/include/fakemysql.h
@@ -95,9 +94,6 @@ The Tcl scripting language
 * /usr/lib/libtcl.so
 * /usr/lib/libtcl9.0.so
 * /usr/lib/pkgconfig/tcl.pc
-* /usr/lib/sqlite3.45.3/libsqlite3.45.3.so
-* /usr/lib/sqlite3.45.3/libtcl9sqlite3.45.3.so
-* /usr/lib/sqlite3.45.3/pkgIndex.tcl
 * /usr/lib/tcl9/9.0/tdbc/sqlite3-1.1.9.tm
 * /usr/lib/tcl9/9.0/tdbc/sqlite3-1.1.9.uuid
 * /usr/lib/tclConfig.sh
@@ -949,7 +945,6 @@ The Tcl scripting language
 * /usr/share/man/mann/socket.n.gz
 * /usr/share/man/mann/source.n.gz
 * /usr/share/man/mann/split.n.gz
-* /usr/share/man/mann/sqlite3.n.gz
 * /usr/share/man/mann/string.n.gz
 * /usr/share/man/mann/subst.n.gz
 * /usr/share/man/mann/switch.n.gz

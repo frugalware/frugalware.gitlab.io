@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "packagekit 1.2.8-2"
-version = "1.2.8-2"
+title = "packagekit 1.3.0-1"
+version = "1.3.0-1"
 description = "A system designed to make installation and updates of packages easier"
-date = "2024-01-30T10:38:03"
+date = "2024-10-22T09:05:19"
 aliases = "/packages/217762"
 categories = ['apps-extra']
 upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
-size = "606196"
-usize = "4383645"
-sha1sum = "56af4f930a46d0386744bda9865acccfac3c8df3"
+size = "612556"
+usize = "4313766"
+sha1sum = "90232f94a825d30515b77e8384e5d91b1a00b627"
 depends = "['bash-completion', 'gst1-plugins-base', 'networkmanager>=1.4.0-2', 'packagekit-glib', 'pango', 'polkit>=0.113-9', 'python3>=3.11']"
 +++
 ### Description: 
@@ -61,12 +61,12 @@ A system designed to make installation and updates of packages easier
 * /usr/share/dbus-1/interfaces/org.freedesktop.PackageKit.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.PackageKit.service
 * /usr/share/dbus-1/system.d/org.freedesktop.PackageKit.conf
-* /usr/share/doc/packagekit-1.2.8/AUTHORS
-* /usr/share/doc/packagekit-1.2.8/COPYING
-* /usr/share/doc/packagekit-1.2.8/HACKING
-* /usr/share/doc/packagekit-1.2.8/NEWS
-* /usr/share/doc/packagekit-1.2.8/README
-* /usr/share/doc/packagekit-1.2.8/RELEASE
+* /usr/share/doc/packagekit-1.3.0/AUTHORS
+* /usr/share/doc/packagekit-1.3.0/COPYING
+* /usr/share/doc/packagekit-1.3.0/HACKING
+* /usr/share/doc/packagekit-1.3.0/NEWS
+* /usr/share/doc/packagekit-1.3.0/README.md
+* /usr/share/doc/packagekit-1.3.0/RELEASE
 * /usr/share/gir-1.0/PackageKitGlib-1.0.gir
 * /usr/share/locale/ar/LC_MESSAGES/PackageKit.mo
 * /usr/share/locale/as/LC_MESSAGES/PackageKit.mo
