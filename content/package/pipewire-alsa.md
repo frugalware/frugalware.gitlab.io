@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire-alsa 1.2.5-2"
-version = "1.2.5-2"
+title = "pipewire-alsa 1.2.6-1"
+version = "1.2.6-1"
 description = "Pipewire alsa config"
-date = "2024-10-15T08:02:04"
+date = "2024-10-23T14:09:23"
 aliases = "/packages/220835"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3420"
+size = "3444"
 usize = "226"
-sha1sum = "e733ac2cb1d679c91da1fea052701f815a0cf90d"
+sha1sum = "62b9028443498119467d517baf32be04d68cfa60"
 depends = "['wireplumber']"
 +++
 ### Description: 
