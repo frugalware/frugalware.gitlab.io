@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-headers 12.0.0-5"
-version = "12.0.0-5"
+title = "mingw-w64-headers 12.0.0-6"
+version = "12.0.0-6"
 description = "MinGW-w64 headers for Windows"
-date = "2024-10-23T08:32:12"
+date = "2024-10-23T09:24:01"
 aliases = "/packages/222555"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "11936544"
+size = "11938856"
 usize = "147271572"
-sha1sum = "c2a127d29cb870f1624daccbdda6d7e8733a6986"
+sha1sum = "56e6c401522ad879120dcf56f36fc82a3f16e80f"
 depends = "['glibc']"
 +++
 ### Description: 
