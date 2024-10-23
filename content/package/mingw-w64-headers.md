@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-headers 12.0.0-3"
-version = "12.0.0-3"
+title = "mingw-w64-headers 12.0.0-5"
+version = "12.0.0-5"
 description = "MinGW-w64 headers for Windows"
-date = "2024-10-22T20:02:17"
+date = "2024-10-23T08:32:12"
 aliases = "/packages/222555"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "11937172"
-usize = "147272072"
-sha1sum = "7903d838340ae6c1b6119f81e28d44ae7c1798c4"
+size = "11936544"
+usize = "147271572"
+sha1sum = "c2a127d29cb870f1624daccbdda6d7e8733a6986"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -1098,9 +1098,6 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/pshpack8.h
 * /usr/i686-w64-mingw32/include/pshpck16.h
 * /usr/i686-w64-mingw32/include/pstore.h
-* /usr/i686-w64-mingw32/include/pthread_signal.h
-* /usr/i686-w64-mingw32/include/pthread_time.h
-* /usr/i686-w64-mingw32/include/pthread_unistd.h
 * /usr/i686-w64-mingw32/include/qedit.h
 * /usr/i686-w64-mingw32/include/qmgr.h
 * /usr/i686-w64-mingw32/include/qnetwork.h
@@ -2754,9 +2751,6 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/pshpack8.h
 * /usr/x86_64-w64-mingw32/include/pshpck16.h
 * /usr/x86_64-w64-mingw32/include/pstore.h
-* /usr/x86_64-w64-mingw32/include/pthread_signal.h
-* /usr/x86_64-w64-mingw32/include/pthread_time.h
-* /usr/x86_64-w64-mingw32/include/pthread_unistd.h
 * /usr/x86_64-w64-mingw32/include/qedit.h
 * /usr/x86_64-w64-mingw32/include/qmgr.h
 * /usr/x86_64-w64-mingw32/include/qnetwork.h

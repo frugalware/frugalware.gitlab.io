@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-crt 12.0.0-3"
-version = "12.0.0-3"
+title = "mingw-w64-crt 12.0.0-5"
+version = "12.0.0-5"
 description = "MinGW-w64 CRT for Windows"
-date = "2024-10-22T20:02:17"
+date = "2024-10-23T08:32:12"
 aliases = "/packages/222556"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "17801596"
-usize = "250374746"
-sha1sum = "1e291c21f585761c05f7daa8186169d2626b082b"
+size = "17803376"
+usize = "250376101"
+sha1sum = "db520059b45de7a2894c32f0f6920ba653d79bb3"
 depends = "['glibc']"
 +++
 ### Description: 
