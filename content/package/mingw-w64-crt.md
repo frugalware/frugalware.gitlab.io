@@ -12,6 +12,7 @@ size = "17804360"
 usize = "250377515"
 sha1sum = "d7e417e77b02adcc9686373fd6bd907ca785f3ff"
 depends = "['glibc']"
+reverse_depends = "['mingw-w64-gcc']"
 +++
 ### Description: 
 MinGW-w64 CRT for Windows

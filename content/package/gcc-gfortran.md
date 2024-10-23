@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc-gfortran 14.2.0-2"
-version = "14.2.0-2"
+title = "gcc-gfortran 14.2.0-3"
+version = "14.2.0-3"
 description = "Fortran 95 support for GCC"
-date = "2024-10-22T18:42:56"
+date = "2024-10-23T12:05:37"
 aliases = "/packages/3018"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "12862236"
+size = "12859744"
 usize = "44812609"
-sha1sum = "d22698ef48ec8db316eb36547d39a8319b3210ff"
+sha1sum = "c963186688e69668b0bd5c838539d1b0d5c7af12"
 depends = "['gcc', 'libgfortran']"
 +++
 ### Description: 

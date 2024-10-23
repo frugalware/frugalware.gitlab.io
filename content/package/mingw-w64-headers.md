@@ -12,6 +12,7 @@ size = "11938856"
 usize = "147271572"
 sha1sum = "56e6c401522ad879120dcf56f36fc82a3f16e80f"
 depends = "['glibc']"
+reverse_depends = "['mingw-w64-gcc']"
 +++
 ### Description: 
 MinGW-w64 headers for Windows

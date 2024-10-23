@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libatomic 14.2.0-2"
-version = "14.2.0-2"
+title = "libatomic 14.2.0-3"
+version = "14.2.0-3"
 description = "Atomic libraries from GCC"
-date = "2024-10-22T18:42:56"
+date = "2024-10-23T12:05:37"
 aliases = "/packages/217321"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "37052"
+size = "37044"
 usize = "285210"
-sha1sum = "8699fbe573c82d727e013ae726c64ca1a9f1890a"
+sha1sum = "d3a3d1928d4ae1ebf6ec72d7cc12acbb66a3b771"
 depends = "['glibc']"
 reverse_depends = "['chromium-browser', 'julia', 'kio-admin', 'libdex', 'mlt', 'qt6-webengine', 'roctracer', 'webkit-gtk3']"
 +++
