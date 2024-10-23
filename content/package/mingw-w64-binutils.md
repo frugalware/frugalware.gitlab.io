@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mingw-w64-binutils 2.43.1-2"
-version = "2.43.1-2"
+title = "mingw-w64-binutils 2.43.1-3"
+version = "2.43.1-3"
 description = "Cross binutils for the MinGW-w64 cross-compiler"
-date = "2024-10-22T10:59:11"
+date = "2024-10-23T07:42:10"
 aliases = "/packages/222552"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "5878156"
-usize = "40531484"
-sha1sum = "c7cb8490dd2dfcc49b9fbef95357f22885a15d30"
-depends = "[]"
+size = "5880360"
+usize = "40531486"
+sha1sum = "41cb5ea814c59a0b7f9d4dd10641a15cd6d15b33"
+depends = "['zstd']"
 reverse_depends = "['mingw-w64-gcc']"
 +++
 ### Description: 
