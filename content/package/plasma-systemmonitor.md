@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-systemmonitor 6.2.1-1"
-version = "6.2.1-1"
+title = "plasma-systemmonitor 6.2.2-1"
+version = "6.2.2-1"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2024-10-17T01:39:49"
+date = "2024-10-23T21:41:37"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "380108"
-usize = "2119611"
-sha1sum = "bb8b01ac629433bf2b818de452fa7624e5cd0d63"
-depends = "['kdeclarative>=6.7.0', 'kirigami-addons', 'kitemmodels>=6.7.0', 'ksystemstats>=6.2.1']"
+size = "380480"
+usize = "2122803"
+sha1sum = "935c115812167cb39d152191aa42de5b02172e3d"
+depends = "['kdeclarative>=6.7.0', 'kirigami-addons', 'kitemmodels>=6.7.0', 'ksystemstats>=6.2.2']"
 +++
 ### Description: 
 An interface for monitoring system sensors, process information and other system resources
@@ -58,7 +58,7 @@ An interface for monitoring system sensors, process information and other system
 * /usr/lib/qt6/qml/org/kde/ksysguard/table/UserCellDelegate.qml
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
-* /usr/share/doc/plasma-systemmonitor-6.2.1/README.md
+* /usr/share/doc/plasma-systemmonitor-6.2.2/README.md
 * /usr/share/kglobalaccel/org.kde.plasma-systemmonitor.desktop
 * /usr/share/knsrcfiles/plasma-systemmonitor.knsrc
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/config/main.xml
