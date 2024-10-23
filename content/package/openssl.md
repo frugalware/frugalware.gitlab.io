@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl 3.3.2-1"
-version = "3.3.2-1"
+title = "openssl 3.4.0-1"
+version = "3.4.0-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security"
-date = "2024-09-05T21:10:44"
+date = "2024-10-23T21:03:44"
 aliases = "/packages/2422"
 categories = ['base']
 upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "5210096"
-usize = "12744724"
-sha1sum = "b01700abd2a1fa0ff8778718a4cb9bb9baa38544"
+size = "5332580"
+usize = "13042336"
+sha1sum = "5b6e0efea43c01567e2a2309ab515a92390d0770"
 depends = "['glibc>=2.35']"
 reverse_depends = "['aircrack-ng', 'apache', 'apr-util', 'bind', 'bip', 'bitchx', 'ca-certificates', 'castor', 'cgit', 'chntpw', 'clamav', 'courier-imap', 'cryptsetup-luks', 'curl', 'cyrus-sasl', 'dd-rescue', 'dhcpcd', 'dovecot', 'efl', 'eiskaltdc', 'elinks', 'encfs', 'enlightenment', 'erlang', 'facter', 'falkon', 'fetchmail', 'gammu', 'gdal', 'gfpm', 'gftp', 'git', 'git-crypt', 'gocryptfs', 'grpc', 'gsoap', 'gst1-plugins-bad', 'gutenprint', 'hexchat', 'hfsprogs', 'hostapd', 'icecast', 'imapfilter', 'iputils', 'irssi', 'john', 'kicad', 'kmod', 'krb5', 'kup', 'kvirc', 'ldns', 'libarchive', 'libcups', 'libetpan', 'libevent', 'libfido2', 'libimobiledevice', 'libldap', 'libnvme', 'libp11', 'libpq', 'librdf', 'libshout', 'libssh', 'libssh2', 'libsystemd', 'libtorrent', 'libtorrent-rasterbar', 'libwebsockets', 'libzip', 'lighttpd', 'links', 'lynx', 'mariadb', 'mariadb-libs', 'mcabber', 'minizip-ng', 'mktorrent', 'mold', 'monit', 'mosh', 'mtd-utils', 'mupdf-gl', 'murmur', 'mutt-devel', 'ncat', 'neon', 'net-snmp', 'nginx', 'nmap', 'nodejs', 'nping', 'ntp', 'nushell', 'open-isns', 'openimageio', 'openntpd', 'opensc', 'openslp', 'openssh', 'openvpn', 'openvswitch', 'pacman-g2', 'pacman-tools', 'paho-mqtt-c', 'partclone', 'partimage', 'pdns', 'pdns-recursor', 'perl', 'perl-crypt-openssl-rsa', 'perl-net-ssleay', 'php', 'php-embed', 'poco', 'podofo', 'popa3d', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'ppp', 'proftpd', 'pulseaudio-avahi', 'pure-ftpd', 'pycurl', 'python3', 'python3-cryptography', 'python3-m2crypto', 'python3-openssl', 'qca-ossl', 'qpdf', 'qt5-base', 'raptor', 'restbed', 'rsync', 'rtorrent', 'ruby', 's-nail', 'samba', 'sccache', 'sequoia-sq', 'serf', 'sim', 'socat', 'sofia-sip', 'spamassassin', 'spice', 'spice-glib', 'sqlcipher', 'srt', 'ssmtp', 'strongswan', 'stunnel', 'sudo', 'sylpheed', 'systemd', 'systemd-pull', 'systemd-remote', 'tcpdump', 'telegram-desktop', 'telegram-qt5', 'telepathy-idle', 'terminology', 'tor', 'tpm2-tss', 'transmission-cli', 'uget', 'unbound', 'uwsgi', 'vde2', 'virtualbox', 'vlc-shout', 'vpnc', 'vsftpd', 'vtun', 'w3m', 'wget', 'wget2', 'wimlib', 'wpa_supplicant', 'x11vnc', 'xmlrpc-c', 'xrdp', 'xrdp', 'znc']"
 +++
@@ -265,6 +265,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/include/openssl/http.h
 * /usr/include/openssl/httperr.h
 * /usr/include/openssl/idea.h
+* /usr/include/openssl/indicator.h
 * /usr/include/openssl/kdf.h
 * /usr/include/openssl/kdferr.h
 * /usr/include/openssl/lhash.h
@@ -332,6 +333,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/include/openssl/x509err.h
 * /usr/include/openssl/x509v3.h
 * /usr/include/openssl/x509v3err.h
+* /usr/include/openssl/x509_acert.h
 * /usr/include/openssl/x509_vfy.h
 * /usr/lib/cmake/OpenSSL/OpenSSLConfig.cmake
 * /usr/lib/cmake/OpenSSL/OpenSSLConfigVersion.cmake
@@ -347,12 +349,12 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/lib/pkgconfig/libcrypto.pc
 * /usr/lib/pkgconfig/libssl.pc
 * /usr/lib/pkgconfig/openssl.pc
-* /usr/share/doc/openssl-3.3.2/INSTALL.md
-* /usr/share/doc/openssl-3.3.2/README-ENGINES.md
-* /usr/share/doc/openssl-3.3.2/README-FIPS.md
-* /usr/share/doc/openssl-3.3.2/README-PROVIDERS.md
-* /usr/share/doc/openssl-3.3.2/README-QUIC.md
-* /usr/share/doc/openssl-3.3.2/README.md
+* /usr/share/doc/openssl-3.4.0/INSTALL.md
+* /usr/share/doc/openssl-3.4.0/README-ENGINES.md
+* /usr/share/doc/openssl-3.4.0/README-FIPS.md
+* /usr/share/doc/openssl-3.4.0/README-PROVIDERS.md
+* /usr/share/doc/openssl-3.4.0/README-QUIC.md
+* /usr/share/doc/openssl-3.4.0/README.md
 * /usr/share/man/man1/asn1parse.1openssl.gz
 * /usr/share/man/man1/ca.1openssl.gz
 * /usr/share/man/man1/CA.pl.1openssl.gz
@@ -1070,6 +1072,16 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/BUF_reverse.3openssl.gz
 * /usr/share/man/man3/CERTIFICATEPOLICIES_free.3openssl.gz
 * /usr/share/man/man3/CERTIFICATEPOLICIES_new.3openssl.gz
+* /usr/share/man/man3/CMAC_CTX.3openssl.gz
+* /usr/share/man/man3/CMAC_CTX_cleanup.3openssl.gz
+* /usr/share/man/man3/CMAC_CTX_copy.3openssl.gz
+* /usr/share/man/man3/CMAC_CTX_free.3openssl.gz
+* /usr/share/man/man3/CMAC_CTX_get0_cipher_ctx.3openssl.gz
+* /usr/share/man/man3/CMAC_CTX_new.3openssl.gz
+* /usr/share/man/man3/CMAC_Final.3openssl.gz
+* /usr/share/man/man3/CMAC_Init.3openssl.gz
+* /usr/share/man/man3/CMAC_resume.3openssl.gz
+* /usr/share/man/man3/CMAC_Update.3openssl.gz
 * /usr/share/man/man3/CMS_add0_cert.3openssl.gz
 * /usr/share/man/man3/CMS_add0_crl.3openssl.gz
 * /usr/share/man/man3/CMS_add0_recipient_key.3openssl.gz
@@ -1188,11 +1200,15 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/CONF_modules_unload.3openssl.gz
 * /usr/share/man/man3/CRL_DIST_POINTS_free.3openssl.gz
 * /usr/share/man/man3/CRL_DIST_POINTS_new.3openssl.gz
+* /usr/share/man/man3/CRYPTO_aligned_alloc.3openssl.gz
 * /usr/share/man/man3/CRYPTO_alloc_ex_data.3openssl.gz
 * /usr/share/man/man3/CRYPTO_atomic_add.3openssl.gz
+* /usr/share/man/man3/CRYPTO_atomic_add64.3openssl.gz
+* /usr/share/man/man3/CRYPTO_atomic_and.3openssl.gz
 * /usr/share/man/man3/CRYPTO_atomic_load.3openssl.gz
 * /usr/share/man/man3/CRYPTO_atomic_load_int.3openssl.gz
 * /usr/share/man/man3/CRYPTO_atomic_or.3openssl.gz
+* /usr/share/man/man3/CRYPTO_atomic_store.3openssl.gz
 * /usr/share/man/man3/CRYPTO_clear_free.3openssl.gz
 * /usr/share/man/man3/CRYPTO_clear_realloc.3openssl.gz
 * /usr/share/man/man3/CRYPTO_EX_dup.3openssl.gz
@@ -1369,6 +1385,9 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/d2i_OCSP_SERVICELOC.3openssl.gz
 * /usr/share/man/man3/d2i_OCSP_SIGNATURE.3openssl.gz
 * /usr/share/man/man3/d2i_OCSP_SINGLERESP.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_ATTRIBUTES_SYNTAX.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_BASIC_ATTR_CONSTRAINTS.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_CMP_ATAVS.3openssl.gz
 * /usr/share/man/man3/d2i_OSSL_CMP_MSG.3openssl.gz
 * /usr/share/man/man3/d2i_OSSL_CMP_MSG_bio.3openssl.gz
 * /usr/share/man/man3/d2i_OSSL_CMP_PKIHEADER.3openssl.gz
@@ -1381,10 +1400,19 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/d2i_OSSL_CRMF_PBMPARAMETER.3openssl.gz
 * /usr/share/man/man3/d2i_OSSL_CRMF_PKIPUBLICATIONINFO.3openssl.gz
 * /usr/share/man/man3/d2i_OSSL_CRMF_SINGLEPUBINFO.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_IETF_ATTR_SYNTAX.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_ISSUER_SERIAL.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_OBJECT_DIGEST_INFO.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_TARGET.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_TARGETING_INFORMATION.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_TARGETS.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_TARGET_CERT.3openssl.gz
+* /usr/share/man/man3/d2i_OSSL_USER_NOTICE_SYNTAX.3openssl.gz
 * /usr/share/man/man3/d2i_OTHERNAME.3openssl.gz
 * /usr/share/man/man3/d2i_PBE2PARAM.3openssl.gz
 * /usr/share/man/man3/d2i_PBEPARAM.3openssl.gz
 * /usr/share/man/man3/d2i_PBKDF2PARAM.3openssl.gz
+* /usr/share/man/man3/d2i_PBMAC1PARAM.3openssl.gz
 * /usr/share/man/man3/d2i_PKCS12.3openssl.gz
 * /usr/share/man/man3/d2i_PKCS12_BAGS.3openssl.gz
 * /usr/share/man/man3/d2i_PKCS12_bio.3openssl.gz
@@ -1462,6 +1490,9 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/d2i_TS_TST_INFO_fp.3openssl.gz
 * /usr/share/man/man3/d2i_USERNOTICE.3openssl.gz
 * /usr/share/man/man3/d2i_X509.3openssl.gz
+* /usr/share/man/man3/d2i_X509_ACERT.3openssl.gz
+* /usr/share/man/man3/d2i_X509_ACERT_bio.3openssl.gz
+* /usr/share/man/man3/d2i_X509_ACERT_fp.3openssl.gz
 * /usr/share/man/man3/d2i_X509_ALGOR.3openssl.gz
 * /usr/share/man/man3/d2i_X509_ALGORS.3openssl.gz
 * /usr/share/man/man3/d2i_X509_ATTRIBUTE.3openssl.gz
@@ -1596,6 +1627,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/DISPLAYTEXT_free.3openssl.gz
 * /usr/share/man/man3/DISPLAYTEXT_new.3openssl.gz
 * /usr/share/man/man3/DIST_POINT_free.3openssl.gz
+* /usr/share/man/man3/DIST_POINT_NAME_dup.3openssl.gz
 * /usr/share/man/man3/DIST_POINT_NAME_free.3openssl.gz
 * /usr/share/man/man3/DIST_POINT_NAME_new.3openssl.gz
 * /usr/share/man/man3/DIST_POINT_new.3openssl.gz
@@ -2148,6 +2180,8 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_CIPHER_CTX_get0_name.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_get1_cipher.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_gettable_params.3openssl.gz
+* /usr/share/man/man3/EVP_CIPHER_CTX_get_algor.3openssl.gz
+* /usr/share/man/man3/EVP_CIPHER_CTX_get_algor_params.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_get_app_data.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_get_block_size.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_get_cipher_data.3openssl.gz
@@ -2173,6 +2207,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_CIPHER_CTX_original_iv.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_reset.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_settable_params.3openssl.gz
+* /usr/share/man/man3/EVP_CIPHER_CTX_set_algor_params.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_set_app_data.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_set_cipher_data.3openssl.gz
 * /usr/share/man/man3/EVP_CIPHER_CTX_set_flags.3openssl.gz
@@ -2363,6 +2398,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_KEYMGMT_do_all_provided.3openssl.gz
 * /usr/share/man/man3/EVP_KEYMGMT_fetch.3openssl.gz
 * /usr/share/man/man3/EVP_KEYMGMT_free.3openssl.gz
+* /usr/share/man/man3/EVP_KEYMGMT_gen_gettable_params.3openssl.gz
 * /usr/share/man/man3/EVP_KEYMGMT_gen_settable_params.3openssl.gz
 * /usr/share/man/man3/EVP_KEYMGMT_get0_description.3openssl.gz
 * /usr/share/man/man3/EVP_KEYMGMT_get0_name.3openssl.gz
@@ -2423,6 +2459,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_MD_CTX_get_params.3openssl.gz
 * /usr/share/man/man3/EVP_MD_CTX_get_pkey_ctx.3openssl.gz
 * /usr/share/man/man3/EVP_MD_CTX_get_size.3openssl.gz
+* /usr/share/man/man3/EVP_MD_CTX_get_size_ex.3openssl.gz
 * /usr/share/man/man3/EVP_MD_CTX_get_type.3openssl.gz
 * /usr/share/man/man3/EVP_MD_CTX_md.3openssl.gz
 * /usr/share/man/man3/EVP_MD_CTX_md_data.3openssl.gz
@@ -2486,6 +2523,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_MD_size.3openssl.gz
 * /usr/share/man/man3/EVP_MD_type.3openssl.gz
 * /usr/share/man/man3/EVP_MD_up_ref.3openssl.gz
+* /usr/share/man/man3/EVP_MD_xof.3openssl.gz
 * /usr/share/man/man3/EVP_OpenFinal.3openssl.gz
 * /usr/share/man/man3/EVP_OpenInit.3openssl.gz
 * /usr/share/man/man3/EVP_OpenUpdate.3openssl.gz
@@ -2565,6 +2603,8 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_PKEY_CTX_get1_id.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_get1_id_len.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_gettable_params.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_CTX_get_algor.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_CTX_get_algor_params.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_get_app_data.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_get_cb.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_get_dh_kdf_md.3openssl.gz
@@ -2602,6 +2642,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_PKEY_CTX_set1_scrypt_salt.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set1_tls1_prf_secret.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_settable_params.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_CTX_set_algor_params.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_app_data.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_cb.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_dhx_rfc5114.3openssl.gz
@@ -2654,6 +2695,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_PKEY_CTX_set_scrypt_N.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_scrypt_p.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_scrypt_r.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_CTX_set_signature.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_signature_md.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_CTX_set_tls1_prf_md.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_decapsulate.3openssl.gz
@@ -2826,6 +2868,10 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_PKEY_sign.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_sign_init.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_sign_init_ex.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_sign_init_ex2.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_sign_message_final.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_sign_message_init.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_sign_message_update.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_size.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_todata.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_type.3openssl.gz
@@ -2834,9 +2880,14 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EVP_PKEY_verify.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_verify_init.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_verify_init_ex.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_verify_init_ex2.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_verify_message_final.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_verify_message_init.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_verify_message_update.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_verify_recover.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_verify_recover_init.3openssl.gz
 * /usr/share/man/man3/EVP_PKEY_verify_recover_init_ex.3openssl.gz
+* /usr/share/man/man3/EVP_PKEY_verify_recover_init_ex2.3openssl.gz
 * /usr/share/man/man3/EVP_Q_digest.3openssl.gz
 * /usr/share/man/man3/EVP_Q_mac.3openssl.gz
 * /usr/share/man/man3/EVP_RAND.3openssl.gz
@@ -2946,11 +2997,13 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/EXTENDED_KEY_USAGE_free.3openssl.gz
 * /usr/share/man/man3/EXTENDED_KEY_USAGE_new.3openssl.gz
 * /usr/share/man/man3/EXT_UTF8STRING.3openssl.gz
+* /usr/share/man/man3/GENERAL_NAME.3openssl.gz
 * /usr/share/man/man3/GENERAL_NAMES_free.3openssl.gz
 * /usr/share/man/man3/GENERAL_NAMES_new.3openssl.gz
 * /usr/share/man/man3/GENERAL_NAME_dup.3openssl.gz
 * /usr/share/man/man3/GENERAL_NAME_free.3openssl.gz
 * /usr/share/man/man3/GENERAL_NAME_new.3openssl.gz
+* /usr/share/man/man3/GENERAL_NAME_set1_X509_NAME.3openssl.gz
 * /usr/share/man/man3/GENERAL_SUBTREE_free.3openssl.gz
 * /usr/share/man/man3/GENERAL_SUBTREE_new.3openssl.gz
 * /usr/share/man/man3/GEN_SESSION_CB.3openssl.gz
@@ -3069,6 +3122,9 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/i2d_OCSP_SERVICELOC.3openssl.gz
 * /usr/share/man/man3/i2d_OCSP_SIGNATURE.3openssl.gz
 * /usr/share/man/man3/i2d_OCSP_SINGLERESP.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_ATTRIBUTES_SYNTAX.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_BASIC_ATTR_CONSTRAINTS.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_CMP_ATAVS.3openssl.gz
 * /usr/share/man/man3/i2d_OSSL_CMP_MSG.3openssl.gz
 * /usr/share/man/man3/i2d_OSSL_CMP_MSG_bio.3openssl.gz
 * /usr/share/man/man3/i2d_OSSL_CMP_PKIHEADER.3openssl.gz
@@ -3081,10 +3137,19 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/i2d_OSSL_CRMF_PBMPARAMETER.3openssl.gz
 * /usr/share/man/man3/i2d_OSSL_CRMF_PKIPUBLICATIONINFO.3openssl.gz
 * /usr/share/man/man3/i2d_OSSL_CRMF_SINGLEPUBINFO.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_IETF_ATTR_SYNTAX.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_ISSUER_SERIAL.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_OBJECT_DIGEST_INFO.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_TARGET.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_TARGETING_INFORMATION.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_TARGETS.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_TARGET_CERT.3openssl.gz
+* /usr/share/man/man3/i2d_OSSL_USER_NOTICE_SYNTAX.3openssl.gz
 * /usr/share/man/man3/i2d_OTHERNAME.3openssl.gz
 * /usr/share/man/man3/i2d_PBE2PARAM.3openssl.gz
 * /usr/share/man/man3/i2d_PBEPARAM.3openssl.gz
 * /usr/share/man/man3/i2d_PBKDF2PARAM.3openssl.gz
+* /usr/share/man/man3/i2d_PBMAC1PARAM.3openssl.gz
 * /usr/share/man/man3/i2d_PKCS12.3openssl.gz
 * /usr/share/man/man3/i2d_PKCS12_BAGS.3openssl.gz
 * /usr/share/man/man3/i2d_PKCS12_bio.3openssl.gz
@@ -3164,6 +3229,9 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/i2d_TS_TST_INFO_fp.3openssl.gz
 * /usr/share/man/man3/i2d_USERNOTICE.3openssl.gz
 * /usr/share/man/man3/i2d_X509.3openssl.gz
+* /usr/share/man/man3/i2d_X509_ACERT.3openssl.gz
+* /usr/share/man/man3/i2d_X509_ACERT_bio.3openssl.gz
+* /usr/share/man/man3/i2d_X509_ACERT_fp.3openssl.gz
 * /usr/share/man/man3/i2d_X509_ALGOR.3openssl.gz
 * /usr/share/man/man3/i2d_X509_ALGORS.3openssl.gz
 * /usr/share/man/man3/i2d_X509_ATTRIBUTE.3openssl.gz
@@ -3377,6 +3445,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OpenSSL_add_all_ciphers.3openssl.gz
 * /usr/share/man/man3/OpenSSL_add_all_digests.3openssl.gz
 * /usr/share/man/man3/OpenSSL_add_ssl_algorithms.3openssl.gz
+* /usr/share/man/man3/OPENSSL_aligned_alloc.3openssl.gz
 * /usr/share/man/man3/OPENSSL_Applink.3openssl.gz
 * /usr/share/man/man3/OPENSSL_atexit.3openssl.gz
 * /usr/share/man/man3/OPENSSL_buf2hexstr.3openssl.gz
@@ -3446,6 +3515,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OPENSSL_MSTR_HELPER.3openssl.gz
 * /usr/share/man/man3/OPENSSL_no_config.3openssl.gz
 * /usr/share/man/man3/OPENSSL_realloc.3openssl.gz
+* /usr/share/man/man3/OPENSSL_riscvcap.3openssl.gz
 * /usr/share/man/man3/OPENSSL_s390xcap.3openssl.gz
 * /usr/share/man/man3/OPENSSL_secure_actual_size.3openssl.gz
 * /usr/share/man/man3/OPENSSL_secure_clear_free.3openssl.gz
@@ -3483,6 +3553,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OPENSSL_strlcpy.3openssl.gz
 * /usr/share/man/man3/OPENSSL_strncasecmp.3openssl.gz
 * /usr/share/man/man3/OPENSSL_strndup.3openssl.gz
+* /usr/share/man/man3/OPENSSL_strtoul.3openssl.gz
 * /usr/share/man/man3/OPENSSL_thread_stop.3openssl.gz
 * /usr/share/man/man3/OPENSSL_thread_stop_ex.3openssl.gz
 * /usr/share/man/man3/OpenSSL_version.3openssl.gz
@@ -3502,10 +3573,35 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OPENSSL_VERSION_TEXT.3openssl.gz
 * /usr/share/man/man3/OPENSSL_zalloc.3openssl.gz
 * /usr/share/man/man3/OSSL_ALGORITHM.3openssl.gz
+* /usr/share/man/man3/OSSL_ATTRIBUTES_SYNTAX_free.3openssl.gz
+* /usr/share/man/man3/OSSL_ATTRIBUTES_SYNTAX_it.3openssl.gz
+* /usr/share/man/man3/OSSL_ATTRIBUTES_SYNTAX_new.3openssl.gz
+* /usr/share/man/man3/OSSL_BASIC_ATTR_CONSTRAINTS_free.3openssl.gz
+* /usr/share/man/man3/OSSL_BASIC_ATTR_CONSTRAINTS_it.3openssl.gz
+* /usr/share/man/man3/OSSL_BASIC_ATTR_CONSTRAINTS_new.3openssl.gz
 * /usr/share/man/man3/OSSL_CALLBACK.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAVS.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAVS_free.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAVS_it.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAVS_new.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_create.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_free.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_get0_algId.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_get0_type.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_get0_value.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_get_rsaKeyLen.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_new_algId.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_new_rsaKeyLen.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_push1.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ATAV_set0.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_certConf_cb.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_certConf_cb_t.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_CR.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_CRLSTATUS_create.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_CRLSTATUS_free.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_CRLSTATUS_get0.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_CRLSTATUS_new1.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_CTX_build_cert_chain.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_CTX_free.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_CTX_get0_geninfo_ITAVs.3openssl.gz
@@ -3581,6 +3677,8 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_CMP_exec_P10CR_ses.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_exec_RR_ses.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_get1_caCerts.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_get1_certReqTemplate.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_get1_crlUpdate.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_get1_rootCaKeyUpdate.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_HDR_get0_geninfo_ITAVs.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_HDR_get0_recipNonce.3openssl.gz
@@ -3591,12 +3689,18 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_CMP_ITAV_free.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_get0_caCerts.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_get0_certProfile.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ITAV_get0_crls.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ITAV_get0_crlStatusList.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_get0_rootCaCert.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_get0_rootCaKeyUpdate.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_get0_type.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_get0_value.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ITAV_get1_certReqTemplate.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_new0_certProfile.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ITAV_new0_certReqTemplate.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ITAV_new0_crlStatusList.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_new_caCerts.3openssl.gz
+* /usr/share/man/man3/OSSL_CMP_ITAV_new_crls.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_new_rootCaCert.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_new_rootCaKeyUpdate.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_ITAV_push0_stack_item.3openssl.gz
@@ -3663,6 +3767,8 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_CMP_validate_cert_path.3openssl.gz
 * /usr/share/man/man3/OSSL_CMP_validate_msg.3openssl.gz
 * /usr/share/man/man3/OSSL_CORE_MAKE_FUNC.3openssl.gz
+* /usr/share/man/man3/OSSL_CRMF_ATTRIBUTETYPEANDVALUE_dup.3openssl.gz
+* /usr/share/man/man3/OSSL_CRMF_ATTRIBUTETYPEANDVALUE_free.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTID_dup.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTID_free.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTID_gen.3openssl.gz
@@ -3670,6 +3776,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_CRMF_CERTID_get0_serialNumber.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTID_it.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTID_new.3openssl.gz
+* /usr/share/man/man3/OSSL_CRMF_CERTTEMPLATE_dup.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTTEMPLATE_fill.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTTEMPLATE_free.3openssl.gz
 * /usr/share/man/man3/OSSL_CRMF_CERTTEMPLATE_get0_extensions.3openssl.gz
@@ -3828,6 +3935,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_ESS_check_signing_certs.3openssl.gz
 * /usr/share/man/man3/OSSL_ESS_signing_cert_new_init.3openssl.gz
 * /usr/share/man/man3/OSSL_ESS_signing_cert_v2_new_init.3openssl.gz
+* /usr/share/man/man3/OSSL_GENERAL_NAMES_print.3openssl.gz
 * /usr/share/man/man3/OSSL_get_max_threads.3openssl.gz
 * /usr/share/man/man3/OSSL_get_thread_support_flags.3openssl.gz
 * /usr/share/man/man3/OSSL_HPKE_CTX_free.3openssl.gz
@@ -3875,15 +3983,45 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_HTTP_REQ_CTX_set_request_line.3openssl.gz
 * /usr/share/man/man3/OSSL_HTTP_set1_request.3openssl.gz
 * /usr/share/man/man3/OSSL_HTTP_transfer.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_add1_value.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_free.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_get0_policyAuthority.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_get0_value.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_get_value_num.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_it.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_new.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_print.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_set0_policyAuthority.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_VALUE_free.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_VALUE_it.3openssl.gz
+* /usr/share/man/man3/OSSL_IETF_ATTR_SYNTAX_VALUE_new.3openssl.gz
+* /usr/share/man/man3/OSSL_INDICATOR_get_callback.3openssl.gz
+* /usr/share/man/man3/OSSL_INDICATOR_set_callback.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_free.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_get0_issuer.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_get0_issuerUID.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_get0_serial.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_new.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_set1_issuer.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_set1_issuerUID.3openssl.gz
+* /usr/share/man/man3/OSSL_ISSUER_SERIAL_set1_serial.3openssl.gz
 * /usr/share/man/man3/OSSL_ITEM.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_free.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_get0_global_default.3openssl.gz
+* /usr/share/man/man3/OSSL_LIB_CTX_get_conf_diagnostics.3openssl.gz
+* /usr/share/man/man3/OSSL_LIB_CTX_get_data.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_load_config.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_new.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_new_child.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_new_from_dispatch.3openssl.gz
 * /usr/share/man/man3/OSSL_LIB_CTX_set0_default.3openssl.gz
+* /usr/share/man/man3/OSSL_LIB_CTX_set_conf_diagnostics.3openssl.gz
+* /usr/share/man/man3/OSSL_OBJECT_DIGEST_INFO_free.3openssl.gz
+* /usr/share/man/man3/OSSL_OBJECT_DIGEST_INFO_get0_digest.3openssl.gz
+* /usr/share/man/man3/OSSL_OBJECT_DIGEST_INFO_new.3openssl.gz
+* /usr/share/man/man3/OSSL_OBJECT_DIGEST_INFO_set1_digest.3openssl.gz
 * /usr/share/man/man3/OSSL_PARAM.3openssl.gz
 * /usr/share/man/man3/OSSL_PARAM_allocate_from_text.3openssl.gz
 * /usr/share/man/man3/OSSL_PARAM_BLD.3openssl.gz
@@ -4128,6 +4266,18 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_STORE_SEARCH_get_type.3openssl.gz
 * /usr/share/man/man3/OSSL_STORE_supports_search.3openssl.gz
 * /usr/share/man/man3/OSSL_STORE_unregister_loader.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGETING_INFORMATION_free.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGETING_INFORMATION_it.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGETING_INFORMATION_new.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGETS_free.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGETS_it.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGETS_new.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGET_CERT_free.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGET_CERT_it.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGET_CERT_new.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGET_free.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGET_it.3openssl.gz
+* /usr/share/man/man3/OSSL_TARGET_new.3openssl.gz
 * /usr/share/man/man3/OSSL_THREAD_SUPPORT_FLAG_DEFAULT_SPAWN.3openssl.gz
 * /usr/share/man/man3/OSSL_THREAD_SUPPORT_FLAG_THREAD_POOL.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE.3openssl.gz
@@ -4158,6 +4308,9 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/OSSL_TRACE_STRING.3openssl.gz
 * /usr/share/man/man3/OSSL_trace_string.3openssl.gz
 * /usr/share/man/man3/OSSL_TRACE_STRING_MAX.3openssl.gz
+* /usr/share/man/man3/OSSL_USER_NOTICE_SYNTAX_free.3openssl.gz
+* /usr/share/man/man3/OSSL_USER_NOTICE_SYNTAX_it.3openssl.gz
+* /usr/share/man/man3/OSSL_USER_NOTICE_SYNTAX_new.3openssl.gz
 * /usr/share/man/man3/OTHERNAME_free.3openssl.gz
 * /usr/share/man/man3/OTHERNAME_new.3openssl.gz
 * /usr/share/man/man3/PBE2PARAM_free.3openssl.gz
@@ -4166,6 +4319,10 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PBEPARAM_new.3openssl.gz
 * /usr/share/man/man3/PBKDF2PARAM_free.3openssl.gz
 * /usr/share/man/man3/PBKDF2PARAM_new.3openssl.gz
+* /usr/share/man/man3/PBMAC1PARAM_free.3openssl.gz
+* /usr/share/man/man3/PBMAC1PARAM_it.3openssl.gz
+* /usr/share/man/man3/PBMAC1PARAM_new.3openssl.gz
+* /usr/share/man/man3/PBMAC1_get1_pbkdf2_param.3openssl.gz
 * /usr/share/man/man3/PEM_bytes_read_bio.3openssl.gz
 * /usr/share/man/man3/PEM_bytes_read_bio_secmem.3openssl.gz
 * /usr/share/man/man3/PEM_do_header.3openssl.gz
@@ -4199,6 +4356,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PEM_read_bio_RSA_PUBKEY.3openssl.gz
 * /usr/share/man/man3/PEM_read_bio_SSL_SESSION.3openssl.gz
 * /usr/share/man/man3/PEM_read_bio_X509.3openssl.gz
+* /usr/share/man/man3/PEM_read_bio_X509_ACERT.3openssl.gz
 * /usr/share/man/man3/PEM_read_bio_X509_AUX.3openssl.gz
 * /usr/share/man/man3/PEM_read_bio_X509_CRL.3openssl.gz
 * /usr/share/man/man3/PEM_read_bio_X509_PUBKEY.3openssl.gz
@@ -4224,6 +4382,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PEM_read_RSA_PUBKEY.3openssl.gz
 * /usr/share/man/man3/PEM_read_SSL_SESSION.3openssl.gz
 * /usr/share/man/man3/PEM_read_X509.3openssl.gz
+* /usr/share/man/man3/PEM_read_X509_ACERT.3openssl.gz
 * /usr/share/man/man3/PEM_read_X509_AUX.3openssl.gz
 * /usr/share/man/man3/PEM_read_X509_CRL.3openssl.gz
 * /usr/share/man/man3/PEM_read_X509_PUBKEY.3openssl.gz
@@ -4258,6 +4417,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PEM_write_bio_RSA_PUBKEY.3openssl.gz
 * /usr/share/man/man3/PEM_write_bio_SSL_SESSION.3openssl.gz
 * /usr/share/man/man3/PEM_write_bio_X509.3openssl.gz
+* /usr/share/man/man3/PEM_write_bio_X509_ACERT.3openssl.gz
 * /usr/share/man/man3/PEM_write_bio_X509_AUX.3openssl.gz
 * /usr/share/man/man3/PEM_write_bio_X509_CRL.3openssl.gz
 * /usr/share/man/man3/PEM_write_bio_X509_PUBKEY.3openssl.gz
@@ -4287,6 +4447,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PEM_write_RSA_PUBKEY.3openssl.gz
 * /usr/share/man/man3/PEM_write_SSL_SESSION.3openssl.gz
 * /usr/share/man/man3/PEM_write_X509.3openssl.gz
+* /usr/share/man/man3/PEM_write_X509_ACERT.3openssl.gz
 * /usr/share/man/man3/PEM_write_X509_AUX.3openssl.gz
 * /usr/share/man/man3/PEM_write_X509_CRL.3openssl.gz
 * /usr/share/man/man3/PEM_write_X509_PUBKEY.3openssl.gz
@@ -4321,6 +4482,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PKCS12_decrypt_skey_ex.3openssl.gz
 * /usr/share/man/man3/PKCS12_free.3openssl.gz
 * /usr/share/man/man3/PKCS12_gen_mac.3openssl.gz
+* /usr/share/man/man3/PKCS12_get0_mac.3openssl.gz
 * /usr/share/man/man3/PKCS12_get_attr_gen.3openssl.gz
 * /usr/share/man/man3/PKCS12_get_friendlyname.3openssl.gz
 * /usr/share/man/man3/PKCS12_init.3openssl.gz
@@ -4372,6 +4534,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/PKCS12_SAFEBAG_set0_attrs.3openssl.gz
 * /usr/share/man/man3/PKCS12_setup_mac.3openssl.gz
 * /usr/share/man/man3/PKCS12_set_mac.3openssl.gz
+* /usr/share/man/man3/PKCS12_set_pbmac1_pbkdf2.3openssl.gz
 * /usr/share/man/man3/PKCS12_verify_mac.3openssl.gz
 * /usr/share/man/man3/PKCS5_pbe2_set.3openssl.gz
 * /usr/share/man/man3/PKCS5_pbe2_set_iv.3openssl.gz
@@ -4838,6 +5001,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/SSL_CTX_disable_ct.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_enable_ct.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_flush_sessions.3openssl.gz
+* /usr/share/man/man3/SSL_CTX_flush_sessions_ex.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_free.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_generate_session_ticket_fn.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_get0_CA_list.3openssl.gz
@@ -4946,6 +5110,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/SSL_CTX_set_async_callback.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_set_async_callback_arg.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_set_block_padding.3openssl.gz
+* /usr/share/man/man3/SSL_CTX_set_block_padding_ex.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_set_cert_cb.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_set_cert_store.3openssl.gz
 * /usr/share/man/man3/SSL_CTX_set_cert_verify_callback.3openssl.gz
@@ -5088,6 +5253,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/SSL_get0_session.3openssl.gz
 * /usr/share/man/man3/SSL_get0_verified_chain.3openssl.gz
 * /usr/share/man/man3/SSL_get0_verify_cert_store.3openssl.gz
+* /usr/share/man/man3/SSL_get1_builtin_sigalgs.3openssl.gz
 * /usr/share/man/man3/SSL_get1_compressed_cert.3openssl.gz
 * /usr/share/man/man3/SSL_get1_curves.3openssl.gz
 * /usr/share/man/man3/SSL_get1_groups.3openssl.gz
@@ -5361,6 +5527,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/SSL_set_bio.3openssl.gz
 * /usr/share/man/man3/SSL_set_blocking_mode.3openssl.gz
 * /usr/share/man/man3/SSL_set_block_padding.3openssl.gz
+* /usr/share/man/man3/SSL_set_block_padding_ex.3openssl.gz
 * /usr/share/man/man3/SSL_set_cert_cb.3openssl.gz
 * /usr/share/man/man3/SSL_set_ciphersuites.3openssl.gz
 * /usr/share/man/man3/SSL_set_cipher_list.3openssl.gz
@@ -5543,7 +5710,21 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/TS_TST_INFO_free.3openssl.gz
 * /usr/share/man/man3/TS_TST_INFO_new.3openssl.gz
 * /usr/share/man/man3/TS_VERIFY_CTS_set_certs.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_add_flags.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_cleanup.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_free.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_init.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_new.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set0_certs.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set0_data.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set0_imprint.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set0_store.3openssl.gz
 * /usr/share/man/man3/TS_VERIFY_CTX_set_certs.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set_data.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set_flags.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set_imprint.3openssl.gz
+* /usr/share/man/man3/TS_VERIFY_CTX_set_store.3openssl.gz
 * /usr/share/man/man3/UI.3openssl.gz
 * /usr/share/man/man3/UI_add_error_string.3openssl.gz
 * /usr/share/man/man3/UI_add_info_string.3openssl.gz
@@ -5627,6 +5808,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/X509at_get_attr_count.3openssl.gz
 * /usr/share/man/man3/X509V3_add1_i2d.3openssl.gz
 * /usr/share/man/man3/X509v3_add_ext.3openssl.gz
+* /usr/share/man/man3/X509v3_add_extensions.3openssl.gz
 * /usr/share/man/man3/X509v3_delete_ext.3openssl.gz
 * /usr/share/man/man3/X509V3_EXT_d2i.3openssl.gz
 * /usr/share/man/man3/X509V3_EXT_i2d.3openssl.gz
@@ -5638,6 +5820,53 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man3/X509v3_get_ext_count.3openssl.gz
 * /usr/share/man/man3/X509V3_set_ctx.3openssl.gz
 * /usr/share/man/man3/X509V3_set_issuer_pkey.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_add1_attr.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_add1_attr_by_NID.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_add1_attr_by_OBJ.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_add1_attr_by_txt.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_add1_ext_i2d.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_add_attr_nconf.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_delete_attr.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_dup.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_free.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_extensions.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_holder_baseCertId.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_holder_digest.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_holder_entityName.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_info_sigalg.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_issuerName.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_issuerUID.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_notAfter.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_notBefore.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_serialNumber.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get0_signature.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_attr.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_attr_by_NID.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_attr_by_OBJ.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_attr_count.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_ext_d2i.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_signature_nid.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_get_version.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_INFO_free.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_INFO_it.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_INFO_new.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_ISSUER_V2FORM_free.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_ISSUER_V2FORM_new.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_it.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_new.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_print.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_print_ex.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set0_holder_baseCertId.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set0_holder_digest.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set0_holder_entityName.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set1_issuerName.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set1_notAfter.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set1_notBefore.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set1_serialNumber.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_set_version.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_sign.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_sign_ctx.3openssl.gz
+* /usr/share/man/man3/X509_ACERT_verify.3openssl.gz
 * /usr/share/man/man3/X509_add1_ext_i2d.3openssl.gz
 * /usr/share/man/man3/X509_add_cert.3openssl.gz
 * /usr/share/man/man3/X509_add_certs.3openssl.gz
@@ -6233,9 +6462,11 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man7/EVP_PKEY-SM2.7openssl.gz
 * /usr/share/man/man7/EVP_PKEY-X25519.7openssl.gz
 * /usr/share/man/man7/EVP_PKEY-X448.7openssl.gz
+* /usr/share/man/man7/EVP_RAND-CRNG-TEST.7openssl.gz
 * /usr/share/man/man7/EVP_RAND-CTR-DRBG.7openssl.gz
 * /usr/share/man/man7/EVP_RAND-HASH-DRBG.7openssl.gz
 * /usr/share/man/man7/EVP_RAND-HMAC-DRBG.7openssl.gz
+* /usr/share/man/man7/EVP_RAND-JITTER.7openssl.gz
 * /usr/share/man/man7/EVP_RAND-SEED-SRC.7openssl.gz
 * /usr/share/man/man7/EVP_RAND-TEST-RAND.7openssl.gz
 * /usr/share/man/man7/EVP_RAND.7openssl.gz
@@ -6279,6 +6510,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 * /usr/share/man/man7/ossl-guide-tls-client-block.7openssl.gz
 * /usr/share/man/man7/ossl-guide-tls-client-non-block.7openssl.gz
 * /usr/share/man/man7/ossl-guide-tls-introduction.7openssl.gz
+* /usr/share/man/man7/ossl-guide-tls-server-block.7openssl.gz
 * /usr/share/man/man7/OSSL_PROVIDER-base.7openssl.gz
 * /usr/share/man/man7/OSSL_PROVIDER-default.7openssl.gz
 * /usr/share/man/man7/OSSL_PROVIDER-FIPS.7openssl.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-openssl 3.3.2-1"
-version = "3.3.2-1"
+title = "lib32-openssl 3.4.0-1"
+version = "3.4.0-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )"
-date = "2024-09-05T21:10:44"
+date = "2024-10-23T21:03:44"
 aliases = "/packages/217921"
 categories = ['lib32-extra']
 upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "26492276"
-usize = "39313506"
-sha1sum = "686df815aa7cd9d43f69392f2f91e5b2e9b3e094"
+size = "27025272"
+usize = "40226430"
+sha1sum = "703645791ee4c5db72bf5eca14abf5599571f5e8"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-libarchive', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libsystemd', 'lib32-libzip']"
 +++
@@ -91,6 +91,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 
 * /usr/i686-frugalware-linux/include/openssl/http.h
 * /usr/i686-frugalware-linux/include/openssl/httperr.h
 * /usr/i686-frugalware-linux/include/openssl/idea.h
+* /usr/i686-frugalware-linux/include/openssl/indicator.h
 * /usr/i686-frugalware-linux/include/openssl/kdf.h
 * /usr/i686-frugalware-linux/include/openssl/kdferr.h
 * /usr/i686-frugalware-linux/include/openssl/lhash.h
@@ -158,6 +159,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 
 * /usr/i686-frugalware-linux/include/openssl/x509err.h
 * /usr/i686-frugalware-linux/include/openssl/x509v3.h
 * /usr/i686-frugalware-linux/include/openssl/x509v3err.h
+* /usr/i686-frugalware-linux/include/openssl/x509_acert.h
 * /usr/i686-frugalware-linux/include/openssl/x509_vfy.h
 * /usr/lib32/cmake/OpenSSL/OpenSSLConfig.cmake
 * /usr/lib32/cmake/OpenSSL/OpenSSLConfigVersion.cmake

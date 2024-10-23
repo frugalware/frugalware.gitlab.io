@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl-docs 3.3.2-1"
-version = "3.3.2-1"
+title = "openssl-docs 3.4.0-1"
+version = "3.4.0-1"
 description = "HTML documentation for openssl"
-date = "2024-09-05T21:10:44"
+date = "2024-10-23T21:03:44"
 aliases = "/packages/219932"
 categories = ['devel-extra']
 upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "1248272"
-usize = "6821871"
-sha1sum = "af42a3d0279f4fec3d2fadfe3eda6980c040d424"
+size = "1277748"
+usize = "7067041"
+sha1sum = "8118c3f6430bb9c90162d2b85855a08450733283"
 depends = "[]"
 +++
 ### Description: 
@@ -157,6 +157,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/BN_swap.html
 * /usr/share/doc/openssl/html/man3/BN_zero.html
 * /usr/share/doc/openssl/html/man3/BUF_MEM_new.html
+* /usr/share/doc/openssl/html/man3/CMAC_CTX.html
 * /usr/share/doc/openssl/html/man3/CMS_add0_cert.html
 * /usr/share/doc/openssl/html/man3/CMS_add1_recipient_cert.html
 * /usr/share/doc/openssl/html/man3/CMS_add1_signer.html
@@ -283,6 +284,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_ctrl.html
 * /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_get0_libctx.html
 * /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_get0_pkey.html
+* /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_get_algor.html
 * /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_new.html
 * /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_set1_pbe_pass.html
 * /usr/share/doc/openssl/html/man3/EVP_PKEY_CTX_set_hkdf_md.html
@@ -334,6 +336,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/EVP_sm4_cbc.html
 * /usr/share/doc/openssl/html/man3/EVP_VerifyInit.html
 * /usr/share/doc/openssl/html/man3/EVP_whirlpool.html
+* /usr/share/doc/openssl/html/man3/GENERAL_NAME.html
 * /usr/share/doc/openssl/html/man3/HMAC.html
 * /usr/share/doc/openssl/html/man3/i2d_CMS_bio_stream.html
 * /usr/share/doc/openssl/html/man3/i2d_PKCS7_bio_stream.html
@@ -364,12 +367,14 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/OPENSSL_LH_stats.html
 * /usr/share/doc/openssl/html/man3/OPENSSL_load_builtin_modules.html
 * /usr/share/doc/openssl/html/man3/OPENSSL_malloc.html
+* /usr/share/doc/openssl/html/man3/OPENSSL_riscvcap.html
 * /usr/share/doc/openssl/html/man3/OPENSSL_s390xcap.html
 * /usr/share/doc/openssl/html/man3/OPENSSL_secure_malloc.html
 * /usr/share/doc/openssl/html/man3/OPENSSL_strcasecmp.html
 * /usr/share/doc/openssl/html/man3/OpenSSL_version.html
 * /usr/share/doc/openssl/html/man3/OSSL_ALGORITHM.html
 * /usr/share/doc/openssl/html/man3/OSSL_CALLBACK.html
+* /usr/share/doc/openssl/html/man3/OSSL_CMP_ATAV_set0.html
 * /usr/share/doc/openssl/html/man3/OSSL_CMP_CTX_new.html
 * /usr/share/doc/openssl/html/man3/OSSL_CMP_exec_certreq.html
 * /usr/share/doc/openssl/html/man3/OSSL_CMP_HDR_get0_transactionID.html
@@ -398,12 +403,17 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/OSSL_ENCODER_to_bio.html
 * /usr/share/doc/openssl/html/man3/OSSL_ERR_STATE_save.html
 * /usr/share/doc/openssl/html/man3/OSSL_ESS_check_signing_certs.html
+* /usr/share/doc/openssl/html/man3/OSSL_GENERAL_NAMES_print.html
 * /usr/share/doc/openssl/html/man3/OSSL_HPKE_CTX_new.html
 * /usr/share/doc/openssl/html/man3/OSSL_HTTP_parse_url.html
 * /usr/share/doc/openssl/html/man3/OSSL_HTTP_REQ_CTX.html
 * /usr/share/doc/openssl/html/man3/OSSL_HTTP_transfer.html
+* /usr/share/doc/openssl/html/man3/OSSL_IETF_ATTR_SYNTAX.html
+* /usr/share/doc/openssl/html/man3/OSSL_IETF_ATTR_SYNTAX_print.html
+* /usr/share/doc/openssl/html/man3/OSSL_INDICATOR_set_callback.html
 * /usr/share/doc/openssl/html/man3/OSSL_ITEM.html
 * /usr/share/doc/openssl/html/man3/OSSL_LIB_CTX.html
+* /usr/share/doc/openssl/html/man3/OSSL_LIB_CTX_set_conf_diagnostics.html
 * /usr/share/doc/openssl/html/man3/OSSL_PARAM.html
 * /usr/share/doc/openssl/html/man3/OSSL_PARAM_allocate_from_text.html
 * /usr/share/doc/openssl/html/man3/OSSL_PARAM_BLD.html
@@ -423,6 +433,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/OSSL_trace_enabled.html
 * /usr/share/doc/openssl/html/man3/OSSL_trace_get_category_num.html
 * /usr/share/doc/openssl/html/man3/OSSL_trace_set_channel.html
+* /usr/share/doc/openssl/html/man3/PBMAC1_get1_pbkdf2_param.html
 * /usr/share/doc/openssl/html/man3/PEM_bytes_read_bio.html
 * /usr/share/doc/openssl/html/man3/PEM_read.html
 * /usr/share/doc/openssl/html/man3/PEM_read_bio_ex.html
@@ -589,6 +600,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/SSL_get0_group_name.html
 * /usr/share/doc/openssl/html/man3/SSL_get0_peer_rpk.html
 * /usr/share/doc/openssl/html/man3/SSL_get0_peer_scts.html
+* /usr/share/doc/openssl/html/man3/SSL_get1_builtin_sigalgs.html
 * /usr/share/doc/openssl/html/man3/SSL_get_all_async_fds.html
 * /usr/share/doc/openssl/html/man3/SSL_get_certificate.html
 * /usr/share/doc/openssl/html/man3/SSL_get_ciphers.html
@@ -665,7 +677,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/SSL_want.html
 * /usr/share/doc/openssl/html/man3/SSL_write.html
 * /usr/share/doc/openssl/html/man3/TS_RESP_CTX_new.html
-* /usr/share/doc/openssl/html/man3/TS_VERIFY_CTX_set_certs.html
+* /usr/share/doc/openssl/html/man3/TS_VERIFY_CTX.html
 * /usr/share/doc/openssl/html/man3/UI_create_method.html
 * /usr/share/doc/openssl/html/man3/UI_new.html
 * /usr/share/doc/openssl/html/man3/UI_STRING.html
@@ -673,6 +685,11 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man3/X509V3_get_d2i.html
 * /usr/share/doc/openssl/html/man3/X509v3_get_ext_by_NID.html
 * /usr/share/doc/openssl/html/man3/X509V3_set_ctx.html
+* /usr/share/doc/openssl/html/man3/X509_ACERT_add1_attr.html
+* /usr/share/doc/openssl/html/man3/X509_ACERT_add_attr_nconf.html
+* /usr/share/doc/openssl/html/man3/X509_ACERT_get0_holder_baseCertId.html
+* /usr/share/doc/openssl/html/man3/X509_ACERT_get_attr.html
+* /usr/share/doc/openssl/html/man3/X509_ACERT_print_ex.html
 * /usr/share/doc/openssl/html/man3/X509_add_cert.html
 * /usr/share/doc/openssl/html/man3/X509_ALGOR_dup.html
 * /usr/share/doc/openssl/html/man3/X509_ATTRIBUTE.html
@@ -800,9 +817,11 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man7/EVP_PKEY-RSA.html
 * /usr/share/doc/openssl/html/man7/EVP_PKEY-SM2.html
 * /usr/share/doc/openssl/html/man7/EVP_PKEY-X25519.html
+* /usr/share/doc/openssl/html/man7/EVP_RAND-CRNG-TEST.html
 * /usr/share/doc/openssl/html/man7/EVP_RAND-CTR-DRBG.html
 * /usr/share/doc/openssl/html/man7/EVP_RAND-HASH-DRBG.html
 * /usr/share/doc/openssl/html/man7/EVP_RAND-HMAC-DRBG.html
+* /usr/share/doc/openssl/html/man7/EVP_RAND-JITTER.html
 * /usr/share/doc/openssl/html/man7/EVP_RAND-SEED-SRC.html
 * /usr/share/doc/openssl/html/man7/EVP_RAND-TEST-RAND.html
 * /usr/share/doc/openssl/html/man7/EVP_RAND.html
@@ -845,6 +864,7 @@ HTML documentation for openssl
 * /usr/share/doc/openssl/html/man7/ossl-guide-tls-client-block.html
 * /usr/share/doc/openssl/html/man7/ossl-guide-tls-client-non-block.html
 * /usr/share/doc/openssl/html/man7/ossl-guide-tls-introduction.html
+* /usr/share/doc/openssl/html/man7/ossl-guide-tls-server-block.html
 * /usr/share/doc/openssl/html/man7/OSSL_PROVIDER-base.html
 * /usr/share/doc/openssl/html/man7/OSSL_PROVIDER-default.html
 * /usr/share/doc/openssl/html/man7/OSSL_PROVIDER-FIPS.html
