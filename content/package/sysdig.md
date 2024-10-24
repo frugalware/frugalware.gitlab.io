@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysdig 0.38.1-23"
-version = "0.38.1-23"
+title = "sysdig 0.39.0-1"
+version = "0.39.0-1"
 description = "Open source system-level exploration and troubleshooting tool"
-date = "2024-10-23T13:28:44"
+date = "2024-10-24T13:10:27"
 aliases = "/packages/219877"
 categories = ['apps-extra']
 upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
-size = "275528"
-usize = "1714551"
-sha1sum = "1029935a706d162774b905811cf7630520e831c4"
+size = "278652"
+usize = "1729664"
+sha1sum = "df20aaddd320b98c7500328b5db4911cbec904aa"
 depends = "['curl', 'grpc>=1.66.1-4', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.11.5-1', 'libb64', 'libbpf', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
 ### Description: 
@@ -232,9 +232,9 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/falcosecurity/plugin/plugin_types.h
 * /usr/lib/pkgconfig/libscap.pc
 * /usr/lib/pkgconfig/libsinsp.pc
-* /usr/share/doc/sysdig-0.38.1/COPYING
-* /usr/share/doc/sysdig-0.38.1/LICENSE
-* /usr/share/doc/sysdig-0.38.1/README.md
+* /usr/share/doc/sysdig-0.39.0/COPYING
+* /usr/share/doc/sysdig-0.39.0/LICENSE
+* /usr/share/doc/sysdig-0.39.0/README.md
 * /usr/src/scap-/bpf/bpf_helpers.h
 * /usr/src/scap-/bpf/builtins.h
 * /usr/src/scap-/bpf/capture_macro.h

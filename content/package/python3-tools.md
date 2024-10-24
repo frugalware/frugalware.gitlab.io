@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-tools 3.12.7-1"
-version = "3.12.7-1"
+title = "python3-tools 3.12.7-2"
+version = "3.12.7-2"
 description = "Optional development tools to extending Python3"
-date = "2024-10-02T21:22:11"
+date = "2024-10-24T14:11:10"
 aliases = "/packages/217992"
 categories = ['devel-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "632932"
+size = "632412"
 usize = "4107826"
-sha1sum = "fdceeabb1e0ef716c7d481291bc52137f98e3a2b"
+sha1sum = "ff648b71f253897a81070c776d51d3f51cf58a45"
 depends = "['python3>=3.12.7']"
 +++
 ### Description: 

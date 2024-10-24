@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sqlite3 3.12.7-1"
-version = "3.12.7-1"
+title = "python3-sqlite3 3.12.7-2"
+version = "3.12.7-2"
 description = "Python3 support for sqlite3"
-date = "2024-10-02T21:22:11"
+date = "2024-10-24T14:11:10"
 aliases = "/packages/217993"
 categories = ['devel-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "56708"
+size = "56548"
 usize = "183351"
-sha1sum = "47e7da89db1a809b08696a84257317883dc59150"
+sha1sum = "1ab25db806f448d9db3611ba6462f980a81a961a"
 depends = "['python3>=3.12.7', 'sqlite3>=3.22.0-2']"
 reverse_depends = "['fail2ban', 'gem', 'lutris', 'sunflower']"
 +++
