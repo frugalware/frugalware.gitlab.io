@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.2.1.1-1"
-version = "6.2.1.1-1"
+title = "plasma-workspace 6.2.2-1"
+version = "6.2.2-1"
 description = "KDE Plasma Workspace."
-date = "2024-10-17T02:03:02"
+date = "2024-10-24T09:04:12"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20464040"
-usize = "56716047"
-sha1sum = "b925cc4df24ea7414244edcf27c98124e9a02a75"
-depends = "['appstream-qt', 'baloo>=6.7.0', 'kcmutils>=6.7.0', 'kdeclarative>=6.7.0', 'kholidays>=6.7.0', 'kidletime>=6.7.0', 'kirigami-addons', 'knewstuff>=6.7.0', 'knotifyconfig>=6.7.0', 'kpackage>=6.7.0', 'kparts>=6.7.0', 'kquickcharts>=6.7.0', 'krunner>=6.7.0', 'ksvg>=6.7.0', 'ktexteditor>=6.7.0', 'kunitconversion>=6.7.0', 'kuserfeedback>=6.7.0', 'kwin>=6.2.1', 'libkexiv2', 'libksysguard>=6.2.1', 'libplasma>=6.2.1', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.7.0', 'plasma-activities-stats>=6.2.1', 'plasma5-integration>=6.2.1', 'plasma5support>=6.2.1', 'prison>=6.7.0', 'qcoro', 'qt6-tools']"
+size = "20399932"
+usize = "56727859"
+sha1sum = "0926efdeee51758f60e6ecfdcd4226bb8a81f9f7"
+depends = "['appstream-qt', 'baloo>=6.7.0', 'kcmutils>=6.7.0', 'kdeclarative>=6.7.0', 'kholidays>=6.7.0', 'kidletime>=6.7.0', 'kirigami-addons', 'knewstuff>=6.7.0', 'knotifyconfig>=6.7.0', 'kpackage>=6.7.0', 'kparts>=6.7.0', 'kquickcharts>=6.7.0', 'krunner>=6.7.0', 'ksvg>=6.7.0', 'ktexteditor>=6.7.0', 'kunitconversion>=6.7.0', 'kuserfeedback>=6.7.0', 'kwin>=6.2.2', 'libkexiv2', 'libksysguard>=6.2.2', 'libplasma>=6.2.2', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.7.0', 'plasma-activities-stats>=6.2.2', 'plasma5-integration>=6.2.2', 'plasma5support>=6.2.2', 'prison>=6.7.0', 'qcoro', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
@@ -126,35 +126,35 @@ KDE Plasma Workspace.
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 * /usr/lib/libbatterycontrol.so
 * /usr/lib/libbatterycontrol.so.6
-* /usr/lib/libbatterycontrol.so.6.2.1
+* /usr/lib/libbatterycontrol.so.6.2.2
 * /usr/lib/libcolorcorrect.so
 * /usr/lib/libcolorcorrect.so.6
-* /usr/lib/libcolorcorrect.so.6.2.1
+* /usr/lib/libcolorcorrect.so.6.2.2
 * /usr/lib/libkfontinst.so
 * /usr/lib/libkfontinst.so.6
-* /usr/lib/libkfontinst.so.6.2.1
+* /usr/lib/libkfontinst.so.6.2.2
 * /usr/lib/libkfontinstui.so
 * /usr/lib/libkfontinstui.so.6
-* /usr/lib/libkfontinstui.so.6.2.1
+* /usr/lib/libkfontinstui.so.6.2.2
 * /usr/lib/libklipper.so
 * /usr/lib/libklipper.so.6
-* /usr/lib/libklipper.so.6.2.1
+* /usr/lib/libklipper.so.6.2.2
 * /usr/lib/libkmpris.so
 * /usr/lib/libkmpris.so.6
-* /usr/lib/libkmpris.so.6.2.1
+* /usr/lib/libkmpris.so.6.2.2
 * /usr/lib/libkrdb.so
 * /usr/lib/libkworkspace6.so
 * /usr/lib/libkworkspace6.so.6
-* /usr/lib/libkworkspace6.so.6.2.1
+* /usr/lib/libkworkspace6.so.6.2.2
 * /usr/lib/libnotificationmanager.so
 * /usr/lib/libnotificationmanager.so.1
-* /usr/lib/libnotificationmanager.so.6.2.1
+* /usr/lib/libnotificationmanager.so.6.2.2
 * /usr/lib/libplasma-geolocation-interface.so
 * /usr/lib/libplasma-geolocation-interface.so.6
-* /usr/lib/libplasma-geolocation-interface.so.6.2.1
+* /usr/lib/libplasma-geolocation-interface.so.6.2.2
 * /usr/lib/libtaskmanager.so
 * /usr/lib/libtaskmanager.so.6
-* /usr/lib/libtaskmanager.so.6.2.1
+* /usr/lib/libtaskmanager.so.6.2.2
 * /usr/lib/libweather_ion.so
 * /usr/lib/libweather_ion.so.7
 * /usr/lib/libweather_ion.so.7.0.0
@@ -934,8 +934,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.2.1.1/HACKING
-* /usr/share/doc/plasma-workspace-6.2.1.1/README.md
+* /usr/share/doc/plasma-workspace-6.2.2/HACKING
+* /usr/share/doc/plasma-workspace-6.2.2/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.0.9.107-1"
-version = "2.0.9.107-1"
+title = "duplicati 2.0.9.108-1"
+version = "2.0.9.108-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2024-09-11T15:39:09"
+date = "2024-10-24T08:43:12"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "57052260"
-usize = "180436355"
-sha1sum = "cc7282ba912e37ae0d452e75c879ed6491c78682"
+size = "58038912"
+usize = "182859964"
+sha1sum = "6f93edfdbfd0f13948615a03f9160cbd82674db0"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -132,6 +132,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.Library.Main.dll
 * /opt/duplicati/Duplicati.Library.Modules.Builtin.dll
 * /opt/duplicati/Duplicati.Library.OAuthHelper.dll
+* /opt/duplicati/Duplicati.Library.RemoteControl.dll
 * /opt/duplicati/Duplicati.Library.RestAPI.dll
 * /opt/duplicati/Duplicati.Library.Snapshots.dll
 * /opt/duplicati/Duplicati.Library.UsageReporter.dll
@@ -154,6 +155,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/HarfBuzzSharp.dll
 * /opt/duplicati/it/System.CommandLine.resources.dll
 * /opt/duplicati/ja/System.CommandLine.resources.dll
+* /opt/duplicati/jose-jwt.dll
 * /opt/duplicati/ko/System.CommandLine.resources.dll
 * /opt/duplicati/libclrgc.so
 * /opt/duplicati/libclrjit.so
@@ -399,6 +401,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Microsoft.IdentityModel.Protocols.dll
 * /opt/duplicati/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 * /opt/duplicati/Microsoft.IdentityModel.Tokens.dll
+* /opt/duplicati/Microsoft.IO.RecyclableMemoryStream.dll
 * /opt/duplicati/Microsoft.JSInterop.dll
 * /opt/duplicati/Microsoft.Net.Http.Headers.dll
 * /opt/duplicati/Microsoft.OpenApi.dll
@@ -635,6 +638,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/login/jquery-2.0.3.min.map
 * /opt/duplicati/webroot/login/login.css
 * /opt/duplicati/webroot/login/login.js
+* /opt/duplicati/webroot/missing-spa.html
 * /opt/duplicati/webroot/ngax/crossdomain.xml
 * /opt/duplicati/webroot/ngax/favicon/android-icon-144x144.png
 * /opt/duplicati/webroot/ngax/favicon/android-icon-192x192.png
@@ -1032,6 +1036,64 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/templates/throttle.html
 * /opt/duplicati/webroot/ngax/templates/updatechangelog.html
 * /opt/duplicati/webroot/ngax/templates/waitarea.html
+* /opt/duplicati/webroot/ngclient/assets/duplicati-logo.png
+* /opt/duplicati/webroot/ngclient/assets/duplicati-logo.svg
+* /opt/duplicati/webroot/ngclient/assets/favicon.ico
+* /opt/duplicati/webroot/ngclient/assets/images/backup.png
+* /opt/duplicati/webroot/ngclient/assets/images/dark-theme.png
+* /opt/duplicati/webroot/ngclient/assets/images/folder.png
+* /opt/duplicati/webroot/ngclient/assets/images/light-theme.png
+* /opt/duplicati/webroot/ngclient/assets/images/new-backup.png
+* /opt/duplicati/webroot/ngclient/assets/images/restore.png
+* /opt/duplicati/webroot/ngclient/assets/images/system-theme.png
+* /opt/duplicati/webroot/ngclient/assets/spk.css
+* /opt/duplicati/webroot/ngclient/assets/spk.woff2
+* /opt/duplicati/webroot/ngclient/chunk-2AXNYUNT.js
+* /opt/duplicati/webroot/ngclient/chunk-4KQ5PO6F.js
+* /opt/duplicati/webroot/ngclient/chunk-4W77W5ES.js
+* /opt/duplicati/webroot/ngclient/chunk-5FHN6XPA.js
+* /opt/duplicati/webroot/ngclient/chunk-5SGHSZAK.js
+* /opt/duplicati/webroot/ngclient/chunk-5Y47Y3RB.js
+* /opt/duplicati/webroot/ngclient/chunk-6XCCSABS.js
+* /opt/duplicati/webroot/ngclient/chunk-AFUS3PYG.js
+* /opt/duplicati/webroot/ngclient/chunk-AVFON3HN.js
+* /opt/duplicati/webroot/ngclient/chunk-BQJJKX7Q.js
+* /opt/duplicati/webroot/ngclient/chunk-C52YH32J.js
+* /opt/duplicati/webroot/ngclient/chunk-CHPE3R64.js
+* /opt/duplicati/webroot/ngclient/chunk-CMP3TWYX.js
+* /opt/duplicati/webroot/ngclient/chunk-DMP4KFQP.js
+* /opt/duplicati/webroot/ngclient/chunk-H2IAZHJK.js
+* /opt/duplicati/webroot/ngclient/chunk-IYC3FMCU.js
+* /opt/duplicati/webroot/ngclient/chunk-JCO3FLHD.js
+* /opt/duplicati/webroot/ngclient/chunk-JDCFQ6PF.js
+* /opt/duplicati/webroot/ngclient/chunk-JZTRJKNF.js
+* /opt/duplicati/webroot/ngclient/chunk-K3HFPUKT.js
+* /opt/duplicati/webroot/ngclient/chunk-K4KGTWQK.js
+* /opt/duplicati/webroot/ngclient/chunk-KCVUEWQV.js
+* /opt/duplicati/webroot/ngclient/chunk-L4EVZZOM.js
+* /opt/duplicati/webroot/ngclient/chunk-LPWDGHUL.js
+* /opt/duplicati/webroot/ngclient/chunk-MVPI7URN.js
+* /opt/duplicati/webroot/ngclient/chunk-NN636EFZ.js
+* /opt/duplicati/webroot/ngclient/chunk-P4AWKIXG.js
+* /opt/duplicati/webroot/ngclient/chunk-RBNO3K72.js
+* /opt/duplicati/webroot/ngclient/chunk-RUP4GIVS.js
+* /opt/duplicati/webroot/ngclient/chunk-S3XM5X3R.js
+* /opt/duplicati/webroot/ngclient/chunk-SYBUINNV.js
+* /opt/duplicati/webroot/ngclient/chunk-TIGGJ4KF.js
+* /opt/duplicati/webroot/ngclient/chunk-V7LHB36E.js
+* /opt/duplicati/webroot/ngclient/chunk-VG4KZKV3.js
+* /opt/duplicati/webroot/ngclient/chunk-VSPW7AWV.js
+* /opt/duplicati/webroot/ngclient/chunk-WU4K3UNC.js
+* /opt/duplicati/webroot/ngclient/chunk-X2SVHSJM.js
+* /opt/duplicati/webroot/ngclient/chunk-XJ2LABT6.js
+* /opt/duplicati/webroot/ngclient/chunk-ZL5O2DGZ.js
+* /opt/duplicati/webroot/ngclient/chunk-ZYCMR5VM.js
+* /opt/duplicati/webroot/ngclient/index.html
+* /opt/duplicati/webroot/ngclient/main-BZZ56FAH.js
+* /opt/duplicati/webroot/ngclient/package.json
+* /opt/duplicati/webroot/ngclient/sparkle-ui-assets/fonts/InterTight-VariableFont_wght.ttf
+* /opt/duplicati/webroot/ngclient/sparkle-ui-assets/fonts/InterTight-VariableFont_wght.woff2
+* /opt/duplicati/webroot/ngclient/styles-7MWOIMAV.css
 * /opt/duplicati/webroot/oem/ngax/scripts/oem.js
 * /opt/duplicati/webroot/oem/ngax/styles/oem.css
 * /opt/duplicati/webroot/oem/root/index/oem.css
@@ -1047,6 +1109,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/signin/signin.css
 * /opt/duplicati/webroot/signin/signin.js
 * /opt/duplicati/webroot/theme.html
+* /opt/duplicati/Websocket.Client.dll
 * /opt/duplicati/WindowsBase.dll
 * /opt/duplicati/zh-Hans/System.CommandLine.resources.dll
 * /opt/duplicati/zh-Hant/System.CommandLine.resources.dll
