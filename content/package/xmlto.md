@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xmlto 0.0.28-5"
-version = "0.0.28-5"
+title = "xmlto 0.0.29-1"
+version = "0.0.29-1"
 description = "xmlto is a front-end to an XSL toolchain."
-date = "2021-10-12T14:36:15"
+date = "2024-10-24T13:04:52"
 aliases = "/packages/15078"
 categories = ['apps-extra']
 upstreamurl = "https://pagure.io/xmlto"
 arch = "x86_64"
-size = "40656"
-usize = "137717"
-sha1sum = "c00ad16bc5d8aa03c71563a316680cc0d5c6c898"
+size = "38436"
+usize = "126756"
+sha1sum = "cc42fbf05056fd766b04b870e88b36f21d169582"
 depends = "['glibc>=2.3.4']"
 +++
 ### Description: 
@@ -19,14 +19,11 @@ xmlto is a front-end to an XSL toolchain.
 ### Files: 
 * /usr/bin/xmlif
 * /usr/bin/xmlto
-* /usr/share/doc/xmlto-0.0.28/AUTHORS
-* /usr/share/doc/xmlto-0.0.28/ChangeLog
-* /usr/share/doc/xmlto-0.0.28/COPYING
-* /usr/share/doc/xmlto-0.0.28/FAQ
-* /usr/share/doc/xmlto-0.0.28/INSTALL
-* /usr/share/doc/xmlto-0.0.28/NEWS
-* /usr/share/doc/xmlto-0.0.28/README
-* /usr/share/doc/xmlto-0.0.28/THANKS
+* /usr/share/doc/xmlto-0.0.29/ChangeLog
+* /usr/share/doc/xmlto-0.0.29/COPYING
+* /usr/share/doc/xmlto-0.0.29/FAQ.md
+* /usr/share/doc/xmlto-0.0.29/INSTALL.md
+* /usr/share/doc/xmlto-0.0.29/README.md
 * /usr/share/man/man1/xmlif.1.gz
 * /usr/share/man/man1/xmlto.1.gz
 * /usr/share/xmlto/format/docbook/awt
