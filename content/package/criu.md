@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "criu 3.19-3"
-version = "3.19-3"
+title = "criu 4.0-1"
+version = "4.0-1"
 description = "Checkpoint/Restore in Userspace tool"
-date = "2024-01-09T12:51:03"
+date = "2024-10-24T14:21:08"
 aliases = "/packages/200132"
 categories = ['apps-extra']
 upstreamurl = "http://criu.org"
 arch = "x86_64"
-size = "642452"
-usize = "2194982"
-sha1sum = "3fedd80b0938f6db5dd4307dd7ed3cc9798c9435"
+size = "675720"
+usize = "2290522"
+sha1sum = "7c9a6265b3cbebaa78e3fb2105eedd1f542bc1ab"
 depends = "['libbsd', 'libdrm', 'libnet', 'libnl', 'libpthread-stubs', 'nftables', 'protobuf-c', 'python3>=3.11']"
 license = "GPL2"
 +++
@@ -63,6 +63,7 @@ Checkpoint/Restore in Userspace tool
 * /usr/lib/criu/amdgpu_plugin.so
 * /usr/lib/criu/compel/scripts/compel-pack.lds.S
 * /usr/lib/criu/criu/scripts/systemd-autofs-restart.sh
+* /usr/lib/criu/cuda_plugin.so
 * /usr/lib/libcompel.so
 * /usr/lib/libcompel.so.1
 * /usr/lib/libcompel.so.1.0
@@ -70,11 +71,11 @@ Checkpoint/Restore in Userspace tool
 * /usr/lib/libcriu.so.2
 * /usr/lib/libcriu.so.2.0
 * /usr/lib/pkgconfig/criu.pc
-* /usr/lib/python3.12/site-packages/crit-3.19.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/crit-3.19.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/crit-3.19.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/crit-3.19.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/crit-3.19.dist-info/WHEEL
+* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/entry_points.txt
+* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/top_level.txt
+* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/WHEEL
 * /usr/lib/python3.12/site-packages/crit/version.py
 * /usr/lib/python3.12/site-packages/crit/__init__.py
 * /usr/lib/python3.12/site-packages/crit/__main__.py
@@ -84,10 +85,10 @@ Checkpoint/Restore in Userspace tool
 * /usr/lib/python3.12/site-packages/crit/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/python3.12/site-packages/crit/__pycache__/__main__.cpython-312.opt-1.pyc
 * /usr/lib/python3.12/site-packages/crit/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/criu-3.19/COPYING
-* /usr/share/doc/criu-3.19/CREDITS
-* /usr/share/doc/criu-3.19/INSTALL.md
-* /usr/share/doc/criu-3.19/README.md
+* /usr/share/doc/criu-4.0/COPYING
+* /usr/share/doc/criu-4.0/CREDITS
+* /usr/share/doc/criu-4.0/INSTALL.md
+* /usr/share/doc/criu-4.0/README.md
 * /usr/share/man/man1/compel.1.gz
 * /usr/share/man/man1/crit.1.gz
 * /usr/share/man/man1/criu-amdgpu-plugin.1.gz
