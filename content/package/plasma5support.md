@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma5support 6.2.1-1"
-version = "6.2.1-1"
+title = "plasma5support 6.2.2-1"
+version = "6.2.2-1"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2024-10-17T01:55:48"
+date = "2024-10-24T08:06:05"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "295488"
+size = "295256"
 usize = "1508578"
-sha1sum = "2c24c85c84c026b966908bd6884e2a2c79e1a4a8"
-depends = "['kconfig>=6.7.0', 'kcoreaddons>=6.7.0', 'kguiaddons>=6.7.0', 'ki18n>=6.7.0', 'knotifications>=6.7.0', 'libksysguard>=6.2.1', 'solid>=6.7.0']"
+sha1sum = "28e1b420aa99cde4acab9f30dc538be036da4627"
+depends = "['kconfig>=6.7.0', 'kcoreaddons>=6.7.0', 'kguiaddons>=6.7.0', 'ki18n>=6.7.0', 'knotifications>=6.7.0', 'libksysguard>=6.2.2', 'solid>=6.7.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -42,7 +42,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets.cmake
 * /usr/lib/libPlasma5Support.so
 * /usr/lib/libPlasma5Support.so.6
-* /usr/lib/libPlasma5Support.so.6.2.1
+* /usr/lib/libPlasma5Support.so.6.2.2
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_devicenotifications.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_hotplug.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_keystate.so
@@ -51,7 +51,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/libplasma5supportplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/plasma5supportplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/qmldir
-* /usr/share/doc/plasma5support-6.2.1/README.md
+* /usr/share/doc/plasma5support-6.2.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libplasma5support.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_devicenotifications.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_hotplug.mo
