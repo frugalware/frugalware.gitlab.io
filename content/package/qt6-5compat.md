@@ -12,7 +12,7 @@ size = "431124"
 usize = "1733604"
 sha1sum = "0fd2d2469c1172bed9ec3d31f06cc4e5e16513f6"
 depends = "['icu4c>=75.1', 'qt6-declarative']"
-reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mlt-qt6', 'opencv', 'phonon-qt6', 'qbs', 'qca', 'qmlkonsole', 'qtcreator', 'quazip-qt6', 'seafile-client', 'socnetv', 'telegram-desktop', 'texmaker', 'texstudio', 'wireshark-qt']"
+reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mlt-qt6', 'opencv', 'phonon-qt6', 'qbs', 'qca', 'qmlkonsole', 'qtcreator', 'quazip-qt6', 'scribus', 'seafile-client', 'socnetv', 'telegram-desktop', 'texmaker', 'texstudio', 'wireshark-qt']"
 +++
 ### Description: 
 The Qt6 toolkit, qt5compat
