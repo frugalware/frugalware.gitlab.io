@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spring 106.0-2"
-version = "106.0-2"
+title = "spring 106.0-3"
+version = "106.0-3"
 description = "A free 3D game engine for the real-time-strategy (RTS) game Total Annihilation"
-date = "2023-01-18T21:15:31"
+date = "2024-10-25T13:11:23"
 aliases = "/packages/60597"
 categories = ['games-extra']
 upstreamurl = "http://spring.clan-sy.com"
 arch = "x86_64"
-size = "13318916"
-usize = "39056652"
-sha1sum = "f08f335a007b17d3dd8b29436fb76b813cdfba52"
+size = "12551832"
+usize = "34372793"
+sha1sum = "620eb1b77a3af1bf9454d90e0c0fa5300d9a2465"
 depends = "['curl>=7.47.0', 'devil>=1.8.0', 'freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.72', 'libunwind>=1.1-4', 'libxcursor>=1.1.14-2', 'openal>=1.20', 'openjre-x', 'sdl2>=2.0.4']"
 +++
 ### Description: 
@@ -57,33 +57,6 @@ A free 3D game engine for the real-time-strategy (RTS) game Total Annihilation
 * /usr/share/spring/AI/Skirmish/AAI/0.9/FAQ.txt
 * /usr/share/spring/AI/Skirmish/AAI/0.9/libSkirmishAI.so
 * /usr/share/spring/AI/Skirmish/AAI/0.9/README.md
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/AIInfo.lua
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/AIOptions.lua
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/behaviour.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/block_map.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/build_chain.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/commander.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/easy/economy.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/economy.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/factory.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/behaviour.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/block_map.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/build_chain.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/commander.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/economy.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/factory.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/previous/response.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/config/response.json
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/libSkirmishAI.so
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/commander.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/init.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/main.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/manager/builder.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/manager/economy.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/manager/factory.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/manager/military.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/role.as
-* /usr/share/spring/AI/Skirmish/CircuitAI/stable/script/side.as
 * /usr/share/spring/AI/Skirmish/CppTestAI/0.1/AIInfo.lua
 * /usr/share/spring/AI/Skirmish/CppTestAI/0.1/AIOptions.lua
 * /usr/share/spring/AI/Skirmish/CppTestAI/0.1/libSkirmishAI.so
