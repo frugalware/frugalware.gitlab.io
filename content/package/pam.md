@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pam 1.6.1-5"
-version = "1.6.1-5"
+title = "pam 1.7.0-1"
+version = "1.7.0-1"
 description = "Linux-PAM (Pluggable Authentication Modules)"
-date = "2024-06-18T14:06:06"
+date = "2024-10-25T08:27:53"
 aliases = "/packages/73298"
 categories = ['base']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "568228"
-usize = "2176746"
-sha1sum = "7165621b05915b7554cd18595bae7b9a492a653d"
+size = "573736"
+usize = "2860930"
+sha1sum = "41a83d7725a63a6ef4446cf96c8855a98d095daf"
 depends = "['gdbm', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
 reverse_depends = "['cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++
@@ -32,6 +32,7 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/bin/mkhomedir_helper
 * /usr/bin/pam_namespace_helper
 * /usr/bin/pam_timestamp_check
+* /usr/bin/pwhistory_helper
 * /usr/bin/unix_chkpwd
 * /usr/include/security/pam_appl.h
 * /usr/include/security/pam_client.h
@@ -98,18 +99,164 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/lib/security/pam_warn.so
 * /usr/lib/security/pam_wheel.so
 * /usr/lib/security/pam_xauth.so
-* /usr/lib/systemd/pam_namespace.service
+* /usr/lib/systemd/system/pam_namespace.service
 * /usr/lib/tmpfiles.d/pam.conf
-* /usr/share/doc/pam-1.6.1/AUTHORS
-* /usr/share/doc/pam-1.6.1/ChangeLog
-* /usr/share/doc/pam-1.6.1/CHANGELOG
-* /usr/share/doc/pam-1.6.1/COPYING
-* /usr/share/doc/pam-1.6.1/draft-morgan-pam-current.txt
-* /usr/share/doc/pam-1.6.1/index.html
-* /usr/share/doc/pam-1.6.1/INSTALL
-* /usr/share/doc/pam-1.6.1/NEWS
-* /usr/share/doc/pam-1.6.1/README
-* /usr/share/doc/pam-1.6.1/rfc86.0.txt
+* /usr/share/doc/Linux-PAM/adg-author.html
+* /usr/share/doc/Linux-PAM/adg-copyright.html
+* /usr/share/doc/Linux-PAM/adg-example.html
+* /usr/share/doc/Linux-PAM/adg-files.html
+* /usr/share/doc/Linux-PAM/adg-glossary.html
+* /usr/share/doc/Linux-PAM/adg-interface-by-app-expected.html
+* /usr/share/doc/Linux-PAM/adg-interface-of-app-expected.html
+* /usr/share/doc/Linux-PAM/adg-interface-programming-notes.html
+* /usr/share/doc/Linux-PAM/adg-interface.html
+* /usr/share/doc/Linux-PAM/adg-introduction-description.html
+* /usr/share/doc/Linux-PAM/adg-introduction-synopsis.html
+* /usr/share/doc/Linux-PAM/adg-introduction.html
+* /usr/share/doc/Linux-PAM/adg-libpam-functions.html
+* /usr/share/doc/Linux-PAM/adg-libpam_misc.html
+* /usr/share/doc/Linux-PAM/adg-overview.html
+* /usr/share/doc/Linux-PAM/adg-porting.html
+* /usr/share/doc/Linux-PAM/adg-security-conv-function.html
+* /usr/share/doc/Linux-PAM/adg-security-library-calls.html
+* /usr/share/doc/Linux-PAM/adg-security-resources.html
+* /usr/share/doc/Linux-PAM/adg-security-service-name.html
+* /usr/share/doc/Linux-PAM/adg-security-user-identity.html
+* /usr/share/doc/Linux-PAM/adg-security.html
+* /usr/share/doc/Linux-PAM/adg-see-also.html
+* /usr/share/doc/Linux-PAM/draft-morgan-pam-current.txt
+* /usr/share/doc/Linux-PAM/index.html
+* /usr/share/doc/Linux-PAM/Linux-PAM_ADG.html
+* /usr/share/doc/Linux-PAM/Linux-PAM_ADG.txt
+* /usr/share/doc/Linux-PAM/Linux-PAM_MWG.html
+* /usr/share/doc/Linux-PAM/Linux-PAM_MWG.txt
+* /usr/share/doc/Linux-PAM/Linux-PAM_SAG.html
+* /usr/share/doc/Linux-PAM/Linux-PAM_SAG.txt
+* /usr/share/doc/Linux-PAM/modules/pam_access.txt
+* /usr/share/doc/Linux-PAM/modules/pam_canonicalize_user.txt
+* /usr/share/doc/Linux-PAM/modules/pam_debug.txt
+* /usr/share/doc/Linux-PAM/modules/pam_deny.txt
+* /usr/share/doc/Linux-PAM/modules/pam_echo.txt
+* /usr/share/doc/Linux-PAM/modules/pam_env.txt
+* /usr/share/doc/Linux-PAM/modules/pam_exec.txt
+* /usr/share/doc/Linux-PAM/modules/pam_faildelay.txt
+* /usr/share/doc/Linux-PAM/modules/pam_faillock.txt
+* /usr/share/doc/Linux-PAM/modules/pam_filter.txt
+* /usr/share/doc/Linux-PAM/modules/pam_ftp.txt
+* /usr/share/doc/Linux-PAM/modules/pam_group.txt
+* /usr/share/doc/Linux-PAM/modules/pam_issue.txt
+* /usr/share/doc/Linux-PAM/modules/pam_keyinit.txt
+* /usr/share/doc/Linux-PAM/modules/pam_limits.txt
+* /usr/share/doc/Linux-PAM/modules/pam_listfile.txt
+* /usr/share/doc/Linux-PAM/modules/pam_localuser.txt
+* /usr/share/doc/Linux-PAM/modules/pam_loginuid.txt
+* /usr/share/doc/Linux-PAM/modules/pam_mail.txt
+* /usr/share/doc/Linux-PAM/modules/pam_mkhomedir.txt
+* /usr/share/doc/Linux-PAM/modules/pam_motd.txt
+* /usr/share/doc/Linux-PAM/modules/pam_namespace.txt
+* /usr/share/doc/Linux-PAM/modules/pam_nologin.txt
+* /usr/share/doc/Linux-PAM/modules/pam_permit.txt
+* /usr/share/doc/Linux-PAM/modules/pam_pwhistory.txt
+* /usr/share/doc/Linux-PAM/modules/pam_rhosts.txt
+* /usr/share/doc/Linux-PAM/modules/pam_rootok.txt
+* /usr/share/doc/Linux-PAM/modules/pam_securetty.txt
+* /usr/share/doc/Linux-PAM/modules/pam_setquota.txt
+* /usr/share/doc/Linux-PAM/modules/pam_shells.txt
+* /usr/share/doc/Linux-PAM/modules/pam_stress.txt
+* /usr/share/doc/Linux-PAM/modules/pam_succeed_if.txt
+* /usr/share/doc/Linux-PAM/modules/pam_time.txt
+* /usr/share/doc/Linux-PAM/modules/pam_timestamp.txt
+* /usr/share/doc/Linux-PAM/modules/pam_tty_audit.txt
+* /usr/share/doc/Linux-PAM/modules/pam_umask.txt
+* /usr/share/doc/Linux-PAM/modules/pam_unix.txt
+* /usr/share/doc/Linux-PAM/modules/pam_userdb.txt
+* /usr/share/doc/Linux-PAM/modules/pam_usertype.txt
+* /usr/share/doc/Linux-PAM/modules/pam_warn.txt
+* /usr/share/doc/Linux-PAM/modules/pam_wheel.txt
+* /usr/share/doc/Linux-PAM/modules/pam_xauth.txt
+* /usr/share/doc/Linux-PAM/mwg-author.html
+* /usr/share/doc/Linux-PAM/mwg-copyright.html
+* /usr/share/doc/Linux-PAM/mwg-example.html
+* /usr/share/doc/Linux-PAM/mwg-expected-by-module-item.html
+* /usr/share/doc/Linux-PAM/mwg-expected-by-module-other.html
+* /usr/share/doc/Linux-PAM/mwg-expected-by-module.html
+* /usr/share/doc/Linux-PAM/mwg-expected-of-module-acct.html
+* /usr/share/doc/Linux-PAM/mwg-expected-of-module-auth.html
+* /usr/share/doc/Linux-PAM/mwg-expected-of-module-chauthtok.html
+* /usr/share/doc/Linux-PAM/mwg-expected-of-module-overview.html
+* /usr/share/doc/Linux-PAM/mwg-expected-of-module-session.html
+* /usr/share/doc/Linux-PAM/mwg-expected-of-module.html
+* /usr/share/doc/Linux-PAM/mwg-introduction-description.html
+* /usr/share/doc/Linux-PAM/mwg-introduction-synopsis.html
+* /usr/share/doc/Linux-PAM/mwg-introduction.html
+* /usr/share/doc/Linux-PAM/mwg-see-also.html
+* /usr/share/doc/Linux-PAM/mwg-see-options.html
+* /usr/share/doc/Linux-PAM/mwg-see-programming-libs.html
+* /usr/share/doc/Linux-PAM/mwg-see-programming-sec.html
+* /usr/share/doc/Linux-PAM/mwg-see-programming-syslog.html
+* /usr/share/doc/Linux-PAM/mwg-see-programming.html
+* /usr/share/doc/Linux-PAM/rfc86.0.txt
+* /usr/share/doc/Linux-PAM/sag-author.html
+* /usr/share/doc/Linux-PAM/sag-configuration-directory.html
+* /usr/share/doc/Linux-PAM/sag-configuration-example.html
+* /usr/share/doc/Linux-PAM/sag-configuration-file.html
+* /usr/share/doc/Linux-PAM/sag-configuration.html
+* /usr/share/doc/Linux-PAM/sag-copyright.html
+* /usr/share/doc/Linux-PAM/sag-introduction.html
+* /usr/share/doc/Linux-PAM/sag-module-reference.html
+* /usr/share/doc/Linux-PAM/sag-overview.html
+* /usr/share/doc/Linux-PAM/sag-pam_access.html
+* /usr/share/doc/Linux-PAM/sag-pam_canonicalize_user.html
+* /usr/share/doc/Linux-PAM/sag-pam_debug.html
+* /usr/share/doc/Linux-PAM/sag-pam_deny.html
+* /usr/share/doc/Linux-PAM/sag-pam_echo.html
+* /usr/share/doc/Linux-PAM/sag-pam_env.html
+* /usr/share/doc/Linux-PAM/sag-pam_exec.html
+* /usr/share/doc/Linux-PAM/sag-pam_faildelay.html
+* /usr/share/doc/Linux-PAM/sag-pam_faillock.html
+* /usr/share/doc/Linux-PAM/sag-pam_filter.html
+* /usr/share/doc/Linux-PAM/sag-pam_ftp.html
+* /usr/share/doc/Linux-PAM/sag-pam_group.html
+* /usr/share/doc/Linux-PAM/sag-pam_issue.html
+* /usr/share/doc/Linux-PAM/sag-pam_keyinit.html
+* /usr/share/doc/Linux-PAM/sag-pam_lastlog.html
+* /usr/share/doc/Linux-PAM/sag-pam_limits.html
+* /usr/share/doc/Linux-PAM/sag-pam_listfile.html
+* /usr/share/doc/Linux-PAM/sag-pam_localuser.html
+* /usr/share/doc/Linux-PAM/sag-pam_loginuid.html
+* /usr/share/doc/Linux-PAM/sag-pam_mail.html
+* /usr/share/doc/Linux-PAM/sag-pam_mkhomedir.html
+* /usr/share/doc/Linux-PAM/sag-pam_motd.html
+* /usr/share/doc/Linux-PAM/sag-pam_namespace.html
+* /usr/share/doc/Linux-PAM/sag-pam_nologin.html
+* /usr/share/doc/Linux-PAM/sag-pam_permit.html
+* /usr/share/doc/Linux-PAM/sag-pam_pwhistory.html
+* /usr/share/doc/Linux-PAM/sag-pam_rhosts.html
+* /usr/share/doc/Linux-PAM/sag-pam_rootok.html
+* /usr/share/doc/Linux-PAM/sag-pam_securetty.html
+* /usr/share/doc/Linux-PAM/sag-pam_selinux.html
+* /usr/share/doc/Linux-PAM/sag-pam_sepermit.html
+* /usr/share/doc/Linux-PAM/sag-pam_setquota.html
+* /usr/share/doc/Linux-PAM/sag-pam_shells.html
+* /usr/share/doc/Linux-PAM/sag-pam_succeed_if.html
+* /usr/share/doc/Linux-PAM/sag-pam_time.html
+* /usr/share/doc/Linux-PAM/sag-pam_timestamp.html
+* /usr/share/doc/Linux-PAM/sag-pam_tty_audit.html
+* /usr/share/doc/Linux-PAM/sag-pam_umask.html
+* /usr/share/doc/Linux-PAM/sag-pam_unix.html
+* /usr/share/doc/Linux-PAM/sag-pam_userdb.html
+* /usr/share/doc/Linux-PAM/sag-pam_warn.html
+* /usr/share/doc/Linux-PAM/sag-pam_wheel.html
+* /usr/share/doc/Linux-PAM/sag-pam_xauth.html
+* /usr/share/doc/Linux-PAM/sag-security-issues-other.html
+* /usr/share/doc/Linux-PAM/sag-security-issues-wrong.html
+* /usr/share/doc/Linux-PAM/sag-security-issues.html
+* /usr/share/doc/Linux-PAM/sag-see-also.html
+* /usr/share/doc/Linux-PAM/sag-text-conventions.html
+* /usr/share/doc/pam-1.7.0/AUTHORS
+* /usr/share/doc/pam-1.7.0/COPYING
+* /usr/share/doc/pam-1.7.0/NEWS
+* /usr/share/doc/pam-1.7.0/README
 * /usr/share/locale/af/LC_MESSAGES/Linux-PAM.mo
 * /usr/share/locale/am/LC_MESSAGES/Linux-PAM.mo
 * /usr/share/locale/ar/LC_MESSAGES/Linux-PAM.mo

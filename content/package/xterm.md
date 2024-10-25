@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xterm 394-1"
-version = "394-1"
+title = "xterm 395-1"
+version = "395-1"
 description = "X terminal emulator"
-date = "2024-09-07T10:02:59"
+date = "2024-10-25T08:40:51"
 aliases = "/packages/4960"
 categories = ['x11']
 upstreamurl = "http://dickey.his.com/xterm/"
 arch = "x86_64"
-size = "480336"
-usize = "1320376"
-sha1sum = "3578ef9865531cf1eb1ba870cc8560b8ef578dca"
+size = "480868"
+usize = "1325017"
+sha1sum = "b5a5cc139c8899d3267b4575da4acfb8d555c043"
 depends = "['desktop-file-utils', 'fontconfig', 'freetype2', 'libx11>=1.6.3-3', 'libxaw>=1.0.6', 'libxft>=2.1.13-2', 'libxinerama', 'libxkbfile>=1.0.5', 'libxmu>=1.0.4-2', 'libxpm', 'libxrender>=0.9.4-3', 'libxt>=1.0.5-2', 'ncurses>=6.0-3']"
 +++
 ### Description: 
@@ -29,16 +29,14 @@ X terminal emulator
 * /usr/lib/X11/app-defaults/XTerm-color
 * /usr/share/applications/uxterm.desktop
 * /usr/share/applications/xterm.desktop
-* /usr/share/doc/xterm-394/AAA_README_VMS.txt
-* /usr/share/doc/xterm-394/COPYING
-* /usr/share/doc/xterm-394/ctlseqs.txt
-* /usr/share/doc/xterm-394/INSTALL
-* /usr/share/doc/xterm-394/MANIFEST
-* /usr/share/doc/xterm-394/NEWS
-* /usr/share/doc/xterm-394/README
-* /usr/share/doc/xterm-394/README.i18n
-* /usr/share/doc/xterm-394/README.os390
-* /usr/share/doc/xterm-394/THANKS
+* /usr/share/doc/xterm-395/COPYING
+* /usr/share/doc/xterm-395/ctlseqs.txt
+* /usr/share/doc/xterm-395/INSTALL
+* /usr/share/doc/xterm-395/MANIFEST
+* /usr/share/doc/xterm-395/NEWS
+* /usr/share/doc/xterm-395/README
+* /usr/share/doc/xterm-395/README.i18n
+* /usr/share/doc/xterm-395/THANKS
 * /usr/share/man/man1/koi8rxterm.1.gz
 * /usr/share/man/man1/resize.1.gz
 * /usr/share/man/man1/uxterm.1.gz

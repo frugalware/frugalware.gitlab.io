@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jazz2 2.8.0-1"
-version = "2.8.0-1"
+title = "jazz2 2.9.0-1"
+version = "2.9.0-1"
 description = "Native C++ reimplementation of Jazz Jackrabbit 2"
-date = "2024-08-05T09:25:05"
+date = "2024-10-25T08:59:42"
 aliases = "/packages/221245"
 categories = ['games-extra']
 upstreamurl = "https://deat.tk/jazz2/"
 arch = "x86_64"
-size = "1463176"
-usize = "4309658"
-sha1sum = "2fb85e971dc17da722b6de5e55ec7ad29d725c05"
+size = "1488700"
+usize = "4386661"
+sha1sum = "0fec6509e0ad86d20618c1561b5824644c904afd"
 depends = "['glew', 'glfw', 'libopenmpt', 'openal', 'sdl2']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 ### Files: 
 * /usr/bin/jazz2
 * /usr/share/applications/jazz2.desktop
-* /usr/share/doc/jazz2-2.8.0/LICENSE
-* /usr/share/doc/jazz2-2.8.0/README.md
+* /usr/share/doc/jazz2-2.9.0/LICENSE
+* /usr/share/doc/jazz2-2.9.0/README.md
 * /usr/share/doc/Jazz\302\262 Resurrection/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/jazz2.png
 * /usr/share/icons/hicolor/16x16/apps/jazz2.png
@@ -66,6 +66,7 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_misc1.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_right.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_start.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_touchpad.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_up.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_x.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_alt_y.aura
@@ -77,6 +78,7 @@ Native C++ reimplementation of Jazz Jackrabbit 2
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_left.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_ls.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_lt.aura
+* /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_misc1.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_rb.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_right.aura
 * /usr/share/Jazz\302\262 Resurrection/Content/Animations/UI/gamepad_rs.aura

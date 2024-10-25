@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pam 1.6.1-5"
-version = "1.6.1-5"
+title = "lib32-pam 1.7.0-1"
+version = "1.7.0-1"
 description = "Linux-PAM (Pluggable Authentication Modules) ( 32bit )"
-date = "2024-06-18T14:06:06"
+date = "2024-10-25T08:27:53"
 aliases = "/packages/218673"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "158400"
-usize = "648767"
-sha1sum = "56205799b9ae39ec46ff008a0160d7b64e827b27"
+size = "153448"
+usize = "615892"
+sha1sum = "ba1835ddbf55ae03edbc1e74e6f1e43b799f1ce9"
 depends = "['lib32-libsystemd', 'lib32-libxcrypt']"
 reverse_depends = "['lib32-libcups', 'lib32-polkit', 'lib32-util-linux', 'lib32-xorg-server']"
 +++
@@ -65,7 +65,6 @@ Linux-PAM (Pluggable Authentication Modules) ( 32bit )
 * /usr/lib32/security/pam_succeed_if.so
 * /usr/lib32/security/pam_time.so
 * /usr/lib32/security/pam_timestamp.so
-* /usr/lib32/security/pam_tty_audit.so
 * /usr/lib32/security/pam_umask.so
 * /usr/lib32/security/pam_unix.so
 * /usr/lib32/security/pam_usertype.so

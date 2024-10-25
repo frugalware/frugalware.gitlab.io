@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.9-2"
-version = "3.3.9-2"
+title = "calamares-frugalware 3.3.10-1"
+version = "3.3.10-1"
 description = "Distribution-independent installer framework"
-date = "2024-10-16T07:32:29"
+date = "2024-10-25T08:44:29"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4020756"
-usize = "9223968"
-sha1sum = "68c5e5faa7538e96b88774bc057e3f67d25aa5a7"
+size = "4026376"
+usize = "9255028"
+sha1sum = "8660e59bc3563b8b19b0e5123c5f84808d1273dd"
 depends = "['icu4c>=75.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.85.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=6.8.0', 'qt6-svg>=6.7.3', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
@@ -235,10 +235,10 @@ Distribution-independent installer framework
 * /usr/lib/fvbe/calamares-locale-setup
 * /usr/lib/libcalamares.so
 * /usr/lib/libcalamares.so.3.3
-* /usr/lib/libcalamares.so.3.3.9
+* /usr/lib/libcalamares.so.3.3.10
 * /usr/lib/libcalamaresui.so
 * /usr/lib/libcalamaresui.so.3.3
-* /usr/lib/libcalamaresui.so.3.3.9
+* /usr/lib/libcalamaresui.so.3.3.10
 * /usr/lib/systemd/system/calamares-locale.service
 * /usr/share/calamares/branding/default/banner.png
 * /usr/share/calamares/branding/default/banner.png.license
@@ -262,8 +262,8 @@ Distribution-independent installer framework
 * /usr/share/calamares/qml/calamares/slideshow/qmldir.license
 * /usr/share/calamares/qml/calamares/slideshow/Slide.qml
 * /usr/share/calamares/qml/calamares/slideshow/SlideCounter.qml
-* /usr/share/doc/calamares-frugalware-3.3.9/AUTHORS
-* /usr/share/doc/calamares-frugalware-3.3.9/README.md
+* /usr/share/doc/calamares-frugalware-3.3.10/AUTHORS
+* /usr/share/doc/calamares-frugalware-3.3.10/README.md
 * /usr/share/icons/hicolor/scalable/apps/calamares-frugalware.svg
 * /usr/share/icons/hicolor/scalable/apps/calamares.svg
 * /usr/share/locale/ar/LC_MESSAGES/calamares-python.mo

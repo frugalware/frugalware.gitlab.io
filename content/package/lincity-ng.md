@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lincity-ng 2.11.1-1"
-version = "2.11.1-1"
+title = "lincity-ng 2.11.2-1"
+version = "2.11.2-1"
 description = "A City Simulation Game. It is a polished and improved version of the classic LinCity game."
-date = "2024-08-02T12:20:09"
+date = "2024-10-25T08:48:38"
 aliases = "/packages/38889"
 categories = ['games-extra']
 upstreamurl = "https://github.com/lincity-ng/lincity-ng"
 arch = "x86_64"
-size = "47729792"
-usize = "61773404"
-sha1sum = "73ff4b3d6fc567aa1f48ee931a31a90630119f47"
+size = "47379488"
+usize = "59218222"
+sha1sum = "081f25680857512fc9c4ce9829261d26edb7b6c5"
 depends = "['libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
 license = "GPL"
 +++
@@ -20,11 +20,11 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 ### Files: 
 * /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
-* /usr/share/doc/lincity-ng-2.11.1/COPYING
-* /usr/share/doc/lincity-ng-2.11.1/COPYING-data.txt
-* /usr/share/doc/lincity-ng-2.11.1/COPYING-dll.txt
-* /usr/share/doc/lincity-ng-2.11.1/COPYING-fonts.txt
-* /usr/share/doc/lincity-ng-2.11.1/README.md
+* /usr/share/doc/lincity-ng-2.11.2/COPYING
+* /usr/share/doc/lincity-ng-2.11.2/COPYING-data.txt
+* /usr/share/doc/lincity-ng-2.11.2/COPYING-dll.txt
+* /usr/share/doc/lincity-ng-2.11.2/COPYING-fonts.txt
+* /usr/share/doc/lincity-ng-2.11.2/README.md
 * /usr/share/doc/lincity-ng/lincityconfig.xml
 * /usr/share/doc/lincity-ng/userconfig.xml
 * /usr/share/icons/hicolor/128x128/apps/lincity-ng.png
@@ -436,7 +436,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/es/housing.xml
 * /usr/share/lincity-ng/help/es/industryh.xml
 * /usr/share/lincity-ng/help/es/industryl.xml
-* /usr/share/lincity-ng/help/es/industyh.xml
 * /usr/share/lincity-ng/help/es/keys.xml
 * /usr/share/lincity-ng/help/es/labor.xml
 * /usr/share/lincity-ng/help/es/market.xml
@@ -662,7 +661,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/gl/index.xml
 * /usr/share/lincity-ng/help/gl/industryh.xml
 * /usr/share/lincity-ng/help/gl/industryl.xml
-* /usr/share/lincity-ng/help/gl/industyh.xml
 * /usr/share/lincity-ng/help/gl/keys.xml
 * /usr/share/lincity-ng/help/gl/labor.xml
 * /usr/share/lincity-ng/help/gl/market.xml
@@ -781,7 +779,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/nl/substation.xml
 * /usr/share/lincity-ng/help/nl/sustain.xml
 * /usr/share/lincity-ng/help/nl/tech-level.xml
-* /usr/share/lincity-ng/help/nl/test.xml
 * /usr/share/lincity-ng/help/nl/tip.xml
 * /usr/share/lincity-ng/help/nl/track.xml
 * /usr/share/lincity-ng/help/nl/transport.xml
@@ -1105,11 +1102,8 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/help/tr/windmill.xml
 * /usr/share/lincity-ng/images/gui/back.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/base/broom.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/base/broom.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/base/bulldozer.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/base/bulldozer.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/base/pointer.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/base/pointer.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/bed.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/bucket.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/bulldozer1.png
@@ -1121,83 +1115,46 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/buttonpanel/gui_tree.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry/blacksmith.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/industry/blacksmith.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry/heavyindustry.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/industry/heavyindustry.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry/heavyindustry2.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/industry/heavyindustry2.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry/lightindustry.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/industry/lightindustry.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry/market.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/industry/market.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/industry/pottery.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/industry/pottery.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/menu/game_menu.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/menu/game_menu.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/menu/settings_menu.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/menu/settings_menu.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/mining/coalmine.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/mining/coalmine.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/mining/commune.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/mining/commune.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/mining/oremine.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/mining/oremine.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/mining/recycling.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/mining/recycling.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/mining/trash.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/mining/trash.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/misc/book.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/misc/book.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/misc/fire.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/misc/fire.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/misc/health.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/misc/health.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/misc/sports.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/misc/sports.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/misc/university.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/misc/university.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/ore.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/parks/farm.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/parks/farm.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/parks/mills.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/parks/mills.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/parks/monument.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/parks/monument.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/parks/tree.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/parks/tree.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/parks/water.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/parks/water.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/pointer-query.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/pointer-yellow.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/pointer1.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/pottery.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/power/coalpower.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/power/coalpower.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/power/powerlines.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/power/powerlines.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/power/solarpower.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/power/solarpower.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/power/substation.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/power/substation.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/power/windmills.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/power/windmills.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/recycle.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec-high.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec-high.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec-lo.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec-lo.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec-med.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec-med.svg
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-hightec.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec-high.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec-high.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec-lo.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec-lo.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec-med.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec-med.svg
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence-lotec.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/residence/residence.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/resident.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/ship.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/shoes.png
@@ -1206,21 +1163,13 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/buttonpanel/substation.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/train.png
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/port.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/port.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/rails.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/rails.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/rails2.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/rails2.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/rails3.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/rails3.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/road.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/road.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/rocket.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/rocket.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/transport/tracks.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/transport/tracks.svg
 * /usr/share/lincity-ng/images/gui/buttonpanel/waterwell.png
-* /usr/share/lincity-ng/images/gui/buttonpanel/waterwell.xcf
 * /usr/share/lincity-ng/images/gui/buttonpanel/windmill.png
 * /usr/share/lincity-ng/images/gui/buttons/button-border-1.png
 * /usr/share/lincity-ng/images/gui/buttons/button-border-2.png
@@ -1232,7 +1181,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/buttons/button-clicked.png
 * /usr/share/lincity-ng/images/gui/buttons/button-hover.png
 * /usr/share/lincity-ng/images/gui/buttons/button.png
-* /usr/share/lincity-ng/images/gui/buttons/buttons.svg
 * /usr/share/lincity-ng/images/gui/buttons/menu-button-checked.png
 * /usr/share/lincity-ng/images/gui/buttons/menu-button-clicked.png
 * /usr/share/lincity-ng/images/gui/buttons/menu-button-hover.png
@@ -1257,26 +1205,19 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/buttons/round/button-round-hover-30.png
 * /usr/share/lincity-ng/images/gui/buttons/round/button-round-hover-40.png
 * /usr/share/lincity-ng/images/gui/buttons/round/button-round-hover-50.png
-* /usr/share/lincity-ng/images/gui/buttons/round/button-round.svg
 * /usr/share/lincity-ng/images/gui/buttons/savebutton-checked.png
 * /usr/share/lincity-ng/images/gui/buttons/savebutton-clicked.png
 * /usr/share/lincity-ng/images/gui/buttons/savebutton-hover.png
 * /usr/share/lincity-ng/images/gui/buttons/savebutton.png
-* /usr/share/lincity-ng/images/gui/buttons/savebutton.svg
 * /usr/share/lincity-ng/images/gui/buttons/tabbed/tabbed-clicked.png
 * /usr/share/lincity-ng/images/gui/buttons/tabbed/tabbed-hover.png
 * /usr/share/lincity-ng/images/gui/buttons/tabbed/tabbed.png
-* /usr/share/lincity-ng/images/gui/buttons/tabbed/tabbed.svg
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox.png
-* /usr/share/lincity-ng/images/gui/checkbox/checkbox.svg
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_checked.png
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_red.png
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_red_checked.png
-* /usr/share/lincity-ng/images/gui/dialogs/buttons.svg
-* /usr/share/lincity-ng/images/gui/dialogs/icons.svg
 * /usr/share/lincity-ng/images/gui/dialogs/info.png
 * /usr/share/lincity-ng/images/gui/dialogs/invention.png
-* /usr/share/lincity-ng/images/gui/dialogs/invention.svg
 * /usr/share/lincity-ng/images/gui/dialogs/nobutton-clicked.png
 * /usr/share/lincity-ng/images/gui/dialogs/nobutton-hover.png
 * /usr/share/lincity-ng/images/gui/dialogs/nobutton.png
@@ -1287,48 +1228,34 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/dialogs/yesbutton-hover.png
 * /usr/share/lincity-ng/images/gui/dialogs/yesbutton.png
 * /usr/share/lincity-ng/images/gui/import-export.png
-* /usr/share/lincity-ng/images/gui/import-export.svg
 * /usr/share/lincity-ng/images/gui/info/hidehigh.png
 * /usr/share/lincity-ng/images/gui/info/info.png
-* /usr/share/lincity-ng/images/gui/info/info.svg
 * /usr/share/lincity-ng/images/gui/info/mapoverlay.png
 * /usr/share/lincity-ng/images/gui/info/statistics.png
-* /usr/share/lincity-ng/images/gui/info/statistics.svg
 * /usr/share/lincity-ng/images/gui/info/terrainheight.png
 * /usr/share/lincity-ng/images/gui/mapview/minimap_bg.png
-* /usr/share/lincity-ng/images/gui/mapview/minimap_bg.svg
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_coal.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_electrics.png
-* /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_electrics.svg
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_fire.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_food.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_health.png
-* /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_health.svg
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_pollution.png
-* /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_pollution.svg
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_pollution2.png
-* /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_pollution2.svg
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_resident.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_resident2.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_resident3.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_road.png
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_sport.png
-* /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_sport.svg
 * /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_ub40.png
-* /usr/share/lincity-ng/images/gui/mapview/roundbuttons/round_ub40.svg
 * /usr/share/lincity-ng/images/gui/panel.png
-* /usr/share/lincity-ng/images/gui/panel.svg
 * /usr/share/lincity-ng/images/gui/pbar_bg.png
 * /usr/share/lincity-ng/images/gui/scrollbar/arrow_down.png
 * /usr/share/lincity-ng/images/gui/scrollbar/arrow_up.png
-* /usr/share/lincity-ng/images/gui/scrollbar/scrollbar.svg
 * /usr/share/lincity-ng/images/gui/speed/fast.png
 * /usr/share/lincity-ng/images/gui/speed/faster.png
 * /usr/share/lincity-ng/images/gui/speed/normal.png
 * /usr/share/lincity-ng/images/gui/speed/pause.png
-* /usr/share/lincity-ng/images/gui/speed/speed.svg
 * /usr/share/lincity-ng/images/gui/speedpanel.png
-* /usr/share/lincity-ng/images/gui/window/titlebar.svg
 * /usr/share/lincity-ng/images/gui/window/window_close.png
 * /usr/share/lincity-ng/images/gui/window/window_close_clicked.png
 * /usr/share/lincity-ng/images/gui/window/window_close_hover.png
@@ -1339,15 +1266,11 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/window/window_minimize_clicked.png
 * /usr/share/lincity-ng/images/gui/window/window_minimize_hover.png
 * /usr/share/lincity-ng/images/gui/window/window_title.png
-* /usr/share/lincity-ng/images/gui/zoom/zoom.svg
 * /usr/share/lincity-ng/images/gui/zoom/zoomin.png
 * /usr/share/lincity-ng/images/gui/zoom/zoomout.png
-* /usr/share/lincity-ng/images/help/powerscoal-example.png
 * /usr/share/lincity-ng/images/mainmenu/buttons/back-clicked.png
 * /usr/share/lincity-ng/images/mainmenu/buttons/back-hover.png
 * /usr/share/lincity-ng/images/mainmenu/buttons/back.png
-* /usr/share/lincity-ng/images/mainmenu/buttons/buttons.svg
-* /usr/share/lincity-ng/images/mainmenu/buttons/buttons2.svg
 * /usr/share/lincity-ng/images/mainmenu/buttons/continue-clicked.png
 * /usr/share/lincity-ng/images/mainmenu/buttons/continue-hover.png
 * /usr/share/lincity-ng/images/mainmenu/buttons/continue.png
@@ -1373,16 +1296,11 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/mainmenu/buttons/start-hover.png
 * /usr/share/lincity-ng/images/mainmenu/buttons/start.png
 * /usr/share/lincity-ng/images/mainmenu/credits_back.png
-* /usr/share/lincity-ng/images/mainmenu/credits_back.svg
 * /usr/share/lincity-ng/images/mainmenu/loadsave_back.png
-* /usr/share/lincity-ng/images/mainmenu/loadsave_back.svg
 * /usr/share/lincity-ng/images/mainmenu/menu_back.png
-* /usr/share/lincity-ng/images/mainmenu/menu_back.svg
 * /usr/share/lincity-ng/images/mainmenu/newgame_back.png
-* /usr/share/lincity-ng/images/mainmenu/newgame_back.svg
 * /usr/share/lincity-ng/images/mainmenu/progressbar/progressbar-item.png
 * /usr/share/lincity-ng/images/mainmenu/progressbar/progressbar.png
-* /usr/share/lincity-ng/images/mainmenu/progressbar/progressbar.svg
 * /usr/share/lincity-ng/images/mainmenu/progressbar/progressbar000.png
 * /usr/share/lincity-ng/images/mainmenu/progressbar/progressbar010.png
 * /usr/share/lincity-ng/images/mainmenu/progressbar/progressbar020.png
@@ -1401,25 +1319,19 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/mainmenu/progresswheel/progresswheel-060.png
 * /usr/share/lincity-ng/images/mainmenu/progresswheel/progresswheel-075.png
 * /usr/share/lincity-ng/images/mainmenu/progresswheel/progresswheel-100.png
-* /usr/share/lincity-ng/images/mainmenu/progresswheel/progresswheel.svg
 * /usr/share/lincity-ng/images/mainmenu/settings/fullscreen.png
-* /usr/share/lincity-ng/images/mainmenu/settings/fullscreen.svg
 * /usr/share/lincity-ng/images/mainmenu/settings/music-off.png
 * /usr/share/lincity-ng/images/mainmenu/settings/music-on.png
-* /usr/share/lincity-ng/images/mainmenu/settings/music.svg
 * /usr/share/lincity-ng/images/mainmenu/settings/sound-off.png
 * /usr/share/lincity-ng/images/mainmenu/settings/sound-on.png
-* /usr/share/lincity-ng/images/mainmenu/settings/sound.svg
 * /usr/share/lincity-ng/images/mainmenu/settings/windowed.png
 * /usr/share/lincity-ng/images/mainmenu/settings_back.png
-* /usr/share/lincity-ng/images/mainmenu/settings_back.svg
 * /usr/share/lincity-ng/images/mainmenu/slider/slider-down-highlight.png
 * /usr/share/lincity-ng/images/mainmenu/slider/slider-down.png
 * /usr/share/lincity-ng/images/mainmenu/slider/slider-position-hightlight.png
 * /usr/share/lincity-ng/images/mainmenu/slider/slider-position.png
 * /usr/share/lincity-ng/images/mainmenu/slider/slider-up-highlight.png
 * /usr/share/lincity-ng/images/mainmenu/slider/slider-up.png
-* /usr/share/lincity-ng/images/mainmenu/slider/slider.svg
 * /usr/share/lincity-ng/images/tiles/blacksmith0.png
 * /usr/share/lincity-ng/images/tiles/blacksmith1.png
 * /usr/share/lincity-ng/images/tiles/blacksmith2.png
@@ -1513,7 +1425,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/tiles/desert_3lru.png
 * /usr/share/lincity-ng/images/tiles/desert_3lud.png
 * /usr/share/lincity-ng/images/tiles/desert_3rud.png
-* /usr/share/lincity-ng/images/tiles/extend.sh
 * /usr/share/lincity-ng/images/tiles/ex_port.png
 * /usr/share/lincity-ng/images/tiles/farm0.png
 * /usr/share/lincity-ng/images/tiles/farm11.png
@@ -1598,7 +1509,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/tiles/industrylq2.png
 * /usr/share/lincity-ng/images/tiles/industrylq3.png
 * /usr/share/lincity-ng/images/tiles/industrylq4.png
-* /usr/share/lincity-ng/images/tiles/list
 * /usr/share/lincity-ng/images/tiles/market-empty.png
 * /usr/share/lincity-ng/images/tiles/market-full.png
 * /usr/share/lincity-ng/images/tiles/market-low.png
@@ -1688,7 +1598,6 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/tiles/railud.png
 * /usr/share/lincity-ng/images/tiles/railudr.png
 * /usr/share/lincity-ng/images/tiles/railur.png
-* /usr/share/lincity-ng/images/tiles/README.txt
 * /usr/share/lincity-ng/images/tiles/recycle-centre.png
 * /usr/share/lincity-ng/images/tiles/reshihi.png
 * /usr/share/lincity-ng/images/tiles/reshilow.png
