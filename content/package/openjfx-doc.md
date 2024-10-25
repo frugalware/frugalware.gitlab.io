@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjfx-doc 22.0.2+4-1"
-version = "22.0.2+4-1"
+title = "openjfx-doc 23+29-1"
+version = "23+29-1"
 description = "OpenJFX Documentation"
-date = "2024-07-22T13:14:52"
+date = "2024-10-25T13:54:05"
 aliases = "/packages/220280"
 categories = ['docs-extra']
 upstreamurl = "https://openjfx.io"
 arch = "x86_64"
-size = "12932900"
-usize = "74933201"
-sha1sum = "f99abc58a9e3f61d87f53ca54197f7f94ff2b859"
+size = "17060344"
+usize = "80841337"
+sha1sum = "d73400cfcf65144930d55b1ddb31f92eb149f990"
 depends = "[]"
 +++
 ### Description: 
@@ -1024,6 +1024,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/FillTransition.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/Interpolatable.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/Interpolator.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/Interpolator.StepPosition.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/KeyFrame.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/KeyValue.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/class-use/ParallelTransition.html
@@ -1042,6 +1043,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/FillTransition.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/Interpolatable.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/Interpolator.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/Interpolator.StepPosition.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/KeyFrame.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/KeyValue.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/animation/package-summary.html
@@ -1145,6 +1147,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/class-use/StyleConverter.StringStore.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/class-use/StyleOrigin.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/class-use/Stylesheet.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/class-use/TransitionEvent.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/CompoundSelector.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/BooleanConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/BooleanConverter.html
@@ -1153,6 +1156,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/DeriveColorConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/DeriveSizeConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/DurationConverter.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/DurationConverter.SequenceConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/EffectConverter.DropShadowConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/EffectConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/class-use/EffectConverter.InnerShadowConverter.html
@@ -1183,6 +1187,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/DeriveColorConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/DeriveSizeConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/DurationConverter.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/DurationConverter.SequenceConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/EffectConverter.DropShadowConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/EffectConverter.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/converter/EffectConverter.InnerShadowConverter.html
@@ -1255,6 +1260,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/StyleConverter.StringStore.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/StyleOrigin.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/Stylesheet.html
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/css/TransitionEvent.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/geometry/BoundingBox.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/geometry/Bounds.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/geometry/class-use/BoundingBox.html
@@ -1371,6 +1377,12 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/cssexample2.png
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/cssref.html
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/CustomNode01.png
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/easing-cubicbezier.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/easing-linear.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/easing-stepboth.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/easing-stepend.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/easing-stepnone.svg
+* /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/easing-stepstart.svg
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/fx_code_header.jpg
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/Group01.png
 * /usr/share/doc/java-openjfx/javafx.graphics/javafx/scene/doc-files/Scene1.png
@@ -1923,6 +1935,7 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/javafx.web/module-summary.html
 * /usr/share/doc/java-openjfx/legal/ADDITIONAL_LICENSE_INFO
 * /usr/share/doc/java-openjfx/legal/ASSEMBLY_EXCEPTION
+* /usr/share/doc/java-openjfx/legal/dejavufonts.md
 * /usr/share/doc/java-openjfx/legal/jquery.md
 * /usr/share/doc/java-openjfx/legal/jqueryUI.md
 * /usr/share/doc/java-openjfx/legal/LICENSE
@@ -1933,12 +1946,37 @@ OpenJFX Documentation
 * /usr/share/doc/java-openjfx/overview-tree.html
 * /usr/share/doc/java-openjfx/package-search-index.js
 * /usr/share/doc/java-openjfx/resource-files/copy.svg
+* /usr/share/doc/java-openjfx/resource-files/fonts/dejavu.css
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans-Bold.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans-Bold.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans-Oblique.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans-Oblique.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSans.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono-Bold.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSansMono.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif-Bold.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif-Bold.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif-Italic.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif-Italic.woff2
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif.woff
+* /usr/share/doc/java-openjfx/resource-files/fonts/DejaVuLGCSerif.woff2
 * /usr/share/doc/java-openjfx/resource-files/glass.png
 * /usr/share/doc/java-openjfx/resource-files/jquery-ui.min.css
 * /usr/share/doc/java-openjfx/resource-files/link.svg
 * /usr/share/doc/java-openjfx/resource-files/stylesheet.css
 * /usr/share/doc/java-openjfx/resource-files/x.png
-* /usr/share/doc/java-openjfx/script-files/jquery-3.6.1.min.js
+* /usr/share/doc/java-openjfx/script-files/jquery-3.7.1.min.js
 * /usr/share/doc/java-openjfx/script-files/jquery-ui.min.js
 * /usr/share/doc/java-openjfx/script-files/script.js
 * /usr/share/doc/java-openjfx/script-files/search-page.js
