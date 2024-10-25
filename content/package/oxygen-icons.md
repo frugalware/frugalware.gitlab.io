@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "oxygen-icons 6.0.0-2"
-version = "6.0.0-2"
+title = "oxygen-icons 6.1.0-1"
+version = "6.1.0-1"
 description = "KDE Icons Oxygen style."
-date = "2024-04-02T09:07:59"
+date = "2024-10-25T20:34:20"
 aliases = "/packages/221406"
-categories = []
+categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "31731044"
-usize = "33061664"
-sha1sum = "e57d406866c4bf75d460b42153d0a9a2971786d0"
+size = "31852960"
+usize = "33504088"
+sha1sum = "fb2423e6e9063e5aced183c56683ff8f3d4ca55f"
 depends = "[]"
 reverse_depends = "['lumina-desktop']"
 +++
@@ -18,10 +18,188 @@ reverse_depends = "['lumina-desktop']"
 KDE Icons Oxygen style.
 
 ### Files: 
-* /usr/share/doc/oxygen-icons-6.0.0/AUTHORS
-* /usr/share/doc/oxygen-icons-6.0.0/COPYING
-* /usr/share/doc/oxygen-icons-6.0.0/COPYING.LIB
-* /usr/share/doc/oxygen-icons-6.0.0/README.md
+* /usr/share/doc/oxygen-icons-6.1.0/AUTHORS
+* /usr/share/doc/oxygen-icons-6.1.0/COPYING
+* /usr/share/doc/oxygen-icons-6.1.0/COPYING.LIB
+* /usr/share/doc/oxygen-icons-6.1.0/README.md
+* /usr/share/icons/oxygen/applets/22x22/audio-headphones-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-headset-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-input-microphone-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-off-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-on-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-volume-high-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-volume-low-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-volume-medium-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/audio-volume-muted-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-000-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-010-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-010-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-020-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-020-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-030-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-030-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-040-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-040-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-050-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-050-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-060-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-060-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-070-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-070-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-080-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-080-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-090-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-090-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-100-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-empty-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-empty-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-full-charging-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-full-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-missing-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/battery-profile-performance-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/camera-photo-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/camera-video-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/camera-web-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/car-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/computer-laptop-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/drive-harddisk-encrypted-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/drive-harddisk-root-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/drive-harddisk-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/handset-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/input-mouse-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/input-tablet-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/input-touchpad-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/input-tvremote-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/kdeconnect-tray-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/klipper-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/media-playback-paused-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/media-playback-playing-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/media-playback-stopped-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/mic-off-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/mic-on-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/mic-ready-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/microphone-sensitivity-high-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/microphone-sensitivity-low-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/microphone-sensitivity-medium-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/microphone-sensitivity-muted-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/monitor-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-bluetooth-activated-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-bluetooth-activated-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-bluetooth-inactive-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-bluetooth-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-flightmode-on-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-00-5g-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-00-5g.symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-00-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-100-5g-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-100-5g.symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-100-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-20-5g-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-20-5g.symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-20-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-40-5g-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-40-5g.symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-40-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-60-5g-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-60-5g.symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-60-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-80-5g-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-80-5g.symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-mobile-80-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-offline-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-unavailable-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wired-activated-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wired-activated-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wired-available-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wired-disconnected-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wired-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wired-unavailable-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-0-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-0-locked.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-00.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-100-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-100-locked.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-100.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-20-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-20-locked.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-20.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-40-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-40-locked.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-40.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-60-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-60-locked.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-60.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-80-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-80-locked.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-80.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-connected-00-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-connected-100-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-connected-100.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-connected-25-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-connected-50-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-connected-75-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-disconnected-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-off-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-signal-excellent.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-signal-good-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-signal-none-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-signal-ok-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/network-wireless-signal-weak-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-device-wired-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-no-connection-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-signal-00-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-signal-100-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-signal-25-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-signal-50-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/nm-signal-75-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/phone-battery-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/phone-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/smartphone-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/speaker-symbolic-danger-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/speaker-symbolic-warning-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/speaker-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/tablet-symbolic.svg
+* /usr/share/icons/oxygen/applets/22x22/video-television-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/handset-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/kdeconnect-tray-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/klipper-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-flightmode-on-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-unavailable-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wired-available-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wired-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-0-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-0-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-0-locked.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-00-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-00.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-100-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-100-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-100-locked.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-100-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-100.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-20-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-20-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-20-locked.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-20-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-20.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-40-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-40-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-40-locked.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-40-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-40.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-60-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-60-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-60-locked.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-60-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-60.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-80-limited-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-80-locked-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-80-locked.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-80-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-80.svg
+* /usr/share/icons/oxygen/applets/32x32/network-wireless-bluetooth-symbolic.svg
+* /usr/share/icons/oxygen/applets/32x32/tablet-symbolic.svg
 * /usr/share/icons/oxygen/base/128x128/actions/address-book-new.png
 * /usr/share/icons/oxygen/base/128x128/actions/application-exit.png
 * /usr/share/icons/oxygen/base/128x128/actions/application-menu.png
@@ -89,6 +267,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/actions/system-suspend-hibernate.png
 * /usr/share/icons/oxygen/base/128x128/actions/system-suspend.png
 * /usr/share/icons/oxygen/base/128x128/actions/system-switch-user.png
+* /usr/share/icons/oxygen/base/128x128/actions/system-user-prompt.png
 * /usr/share/icons/oxygen/base/128x128/actions/tool-animator.png
 * /usr/share/icons/oxygen/base/128x128/actions/tools-media-optical-burn-image.png
 * /usr/share/icons/oxygen/base/128x128/actions/tools-media-optical-burn.png
@@ -393,6 +572,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/emotes/face-wink.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-msword-template.png
@@ -409,7 +589,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.ms-excel.png
@@ -432,6 +612,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-vnd.stardivision.calc.png
@@ -546,6 +727,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-skgc.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-srt.png
@@ -558,6 +740,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-xhtml+xml.png
@@ -566,10 +750,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/audio-vn.rn-realvideo.png
@@ -599,6 +785,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/128x128/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/image-vnd.dgn.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/128x128/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/128x128/mimetypes/image-x-emf.png
@@ -989,6 +1176,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/actions/dialog-object-properties.png
 * /usr/share/icons/oxygen/base/16x16/actions/dialog-ok-apply.png
 * /usr/share/icons/oxygen/base/16x16/actions/dialog-ok.png
+* /usr/share/icons/oxygen/base/16x16/actions/dialog-scripts.png
 * /usr/share/icons/oxygen/base/16x16/actions/dialog-transform.png
 * /usr/share/icons/oxygen/base/16x16/actions/dirsync.png
 * /usr/share/icons/oxygen/base/16x16/actions/distribute-horizontal-center.png
@@ -1586,6 +1774,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/actions/system-suspend.png
 * /usr/share/icons/oxygen/base/16x16/actions/system-switch-user.png
 * /usr/share/icons/oxygen/base/16x16/actions/system-upgrade.png
+* /usr/share/icons/oxygen/base/16x16/actions/system-user-prompt.png
 * /usr/share/icons/oxygen/base/16x16/actions/tab-close-other.png
 * /usr/share/icons/oxygen/base/16x16/actions/tab-close.png
 * /usr/share/icons/oxygen/base/16x16/actions/tab-detach.png
@@ -1699,6 +1888,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/actions/view-fullscreen.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-grid.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-group.png
+* /usr/share/icons/oxygen/base/16x16/actions/view-hidden.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-history.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-ldap-resource.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-left-close.png
@@ -1754,6 +1944,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/actions/view-time-schedule-edit.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-time-schedule-insert.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-time-schedule.png
+* /usr/share/icons/oxygen/base/16x16/actions/view-visible.png
 * /usr/share/icons/oxygen/base/16x16/actions/view-web-browser-dom-tree.png
 * /usr/share/icons/oxygen/base/16x16/actions/viewimage.png
 * /usr/share/icons/oxygen/base/16x16/actions/visibility.png
@@ -2096,6 +2287,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/emotes/face-wink.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-msword-template.png
@@ -2115,7 +2307,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.ms-excel.png
@@ -2138,6 +2330,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-vnd.stardivision.calc.png
@@ -2252,6 +2445,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-skgc.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-srt.png
@@ -2264,6 +2458,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-xhtml+xml.png
@@ -2272,10 +2468,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/audio-vnd.rn-realvideo.png
@@ -2304,6 +2502,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/image-vnd.dgn.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/16x16/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/16x16/mimetypes/image-x-emf.png
@@ -2549,6 +2748,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/16x16/status/battery-charging-caution.png
 * /usr/share/icons/oxygen/base/16x16/status/battery-charging-low.png
 * /usr/share/icons/oxygen/base/16x16/status/battery-charging.png
+* /usr/share/icons/oxygen/base/16x16/status/battery-full-charging.png
 * /usr/share/icons/oxygen/base/16x16/status/battery-low.png
 * /usr/share/icons/oxygen/base/16x16/status/battery-missing.png
 * /usr/share/icons/oxygen/base/16x16/status/cloudstatus.png
@@ -2756,6 +2956,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/actions/dialog-close.png
 * /usr/share/icons/oxygen/base/22x22/actions/dialog-ok-apply.png
 * /usr/share/icons/oxygen/base/22x22/actions/dialog-ok.png
+* /usr/share/icons/oxygen/base/22x22/actions/dialog-scripts.png
 * /usr/share/icons/oxygen/base/22x22/actions/dirsync.png
 * /usr/share/icons/oxygen/base/22x22/actions/distortionfx.png
 * /usr/share/icons/oxygen/base/22x22/actions/distribute-horizontal-center.png
@@ -3369,6 +3570,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/actions/system-suspend.png
 * /usr/share/icons/oxygen/base/22x22/actions/system-switch-user.png
 * /usr/share/icons/oxygen/base/22x22/actions/system-upgrade.png
+* /usr/share/icons/oxygen/base/22x22/actions/system-user-prompt.png
 * /usr/share/icons/oxygen/base/22x22/actions/tab-close-other.png
 * /usr/share/icons/oxygen/base/22x22/actions/tab-close.png
 * /usr/share/icons/oxygen/base/22x22/actions/tab-detach.png
@@ -3483,6 +3685,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/actions/view-fullscreen.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-grid.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-group.png
+* /usr/share/icons/oxygen/base/22x22/actions/view-hidden.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-history.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-ldap-resource.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-left-close.png
@@ -3540,6 +3743,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/actions/view-time-schedule-edit.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-time-schedule-insert.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-time-schedule.png
+* /usr/share/icons/oxygen/base/22x22/actions/view-visible.png
 * /usr/share/icons/oxygen/base/22x22/actions/view-web-browser-dom-tree.png
 * /usr/share/icons/oxygen/base/22x22/actions/viewimage.png
 * /usr/share/icons/oxygen/base/22x22/actions/visibility.png
@@ -3927,6 +4131,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/emotes/rose.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-msword-template.png
@@ -3946,7 +4151,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.ms-excel.png
@@ -3969,6 +4174,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-vnd.stardivision.calc.png
@@ -4083,6 +4289,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-skgc.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-srt.png
@@ -4095,6 +4302,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-xhtml+xml.png
@@ -4103,10 +4312,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/audio-vnd.rn-realvideo.png
@@ -4135,6 +4346,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/image-vnd.dgn.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/22x22/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/22x22/mimetypes/image-x-emf.png
@@ -4380,6 +4592,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/22x22/status/battery-charging-caution.png
 * /usr/share/icons/oxygen/base/22x22/status/battery-charging-low.png
 * /usr/share/icons/oxygen/base/22x22/status/battery-charging.png
+* /usr/share/icons/oxygen/base/22x22/status/battery-full-charging.png
 * /usr/share/icons/oxygen/base/22x22/status/battery-low.png
 * /usr/share/icons/oxygen/base/22x22/status/battery-missing.png
 * /usr/share/icons/oxygen/base/22x22/status/cloudstatus.png
@@ -4633,6 +4846,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/devices/video-display.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-msword-template.png
@@ -4649,7 +4863,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.ms-excel.png
@@ -4671,6 +4885,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.stardivision.calc.png
@@ -4782,6 +4997,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-sif.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-srt.png
@@ -4794,6 +5010,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-xhtml+xml.png
@@ -4802,10 +5020,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/audio-vn.rn-realvideo.png
@@ -4834,6 +5054,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/256x256/mimetypes/image-tiff.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/256x256/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/256x256/mimetypes/image-x-emf.png
@@ -5119,6 +5340,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/actions/dialog-close.png
 * /usr/share/icons/oxygen/base/32x32/actions/dialog-ok-apply.png
 * /usr/share/icons/oxygen/base/32x32/actions/dialog-ok.png
+* /usr/share/icons/oxygen/base/32x32/actions/dialog-scripts.png
 * /usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-center.png
 * /usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-equal.png
 * /usr/share/icons/oxygen/base/32x32/actions/distribute-horizontal-gaps.png
@@ -5526,6 +5748,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/actions/system-suspend-hibernate.png
 * /usr/share/icons/oxygen/base/32x32/actions/system-suspend.png
 * /usr/share/icons/oxygen/base/32x32/actions/system-switch-user.png
+* /usr/share/icons/oxygen/base/32x32/actions/system-user-prompt.png
 * /usr/share/icons/oxygen/base/32x32/actions/tab-close-other.png
 * /usr/share/icons/oxygen/base/32x32/actions/tab-close.png
 * /usr/share/icons/oxygen/base/32x32/actions/tab-detach.png
@@ -5631,6 +5854,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/actions/view-fullscreen.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-grid.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-group.png
+* /usr/share/icons/oxygen/base/32x32/actions/view-hidden.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-history.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-income-categories.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-investment.png
@@ -5692,6 +5916,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/actions/view-time-schedule-edit.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-time-schedule-insert.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-time-schedule.png
+* /usr/share/icons/oxygen/base/32x32/actions/view-visible.png
 * /usr/share/icons/oxygen/base/32x32/actions/view-web-browser-dom-tree.png
 * /usr/share/icons/oxygen/base/32x32/actions/visibility.png
 * /usr/share/icons/oxygen/base/32x32/actions/window-close.png
@@ -6039,6 +6264,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/emotes/face-wink.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-msword-template.png
@@ -6058,7 +6284,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.ms-excel.png
@@ -6081,6 +6307,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-vnd.stardivision.calc.png
@@ -6195,6 +6422,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-skgc.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-srt.png
@@ -6207,6 +6435,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-xhtml+xml.png
@@ -6215,10 +6445,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/audio-vnd.rn-realvideo.png
@@ -6247,6 +6479,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/image-vnd.dgn.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/32x32/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/32x32/mimetypes/image-x-emf.png
@@ -6489,6 +6722,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/32x32/status/battery-charging-caution.png
 * /usr/share/icons/oxygen/base/32x32/status/battery-charging-low.png
 * /usr/share/icons/oxygen/base/32x32/status/battery-charging.png
+* /usr/share/icons/oxygen/base/32x32/status/battery-full-charging.png
 * /usr/share/icons/oxygen/base/32x32/status/battery-low.png
 * /usr/share/icons/oxygen/base/32x32/status/battery-missing.png
 * /usr/share/icons/oxygen/base/32x32/status/data-error.png
@@ -6641,6 +6875,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/actions/dialog-close.png
 * /usr/share/icons/oxygen/base/48x48/actions/dialog-ok-apply.png
 * /usr/share/icons/oxygen/base/48x48/actions/dialog-ok.png
+* /usr/share/icons/oxygen/base/48x48/actions/dialog-scripts.png
 * /usr/share/icons/oxygen/base/48x48/actions/document-close.png
 * /usr/share/icons/oxygen/base/48x48/actions/document-decrypt.png
 * /usr/share/icons/oxygen/base/48x48/actions/document-edit-decrypt-verify.png
@@ -7010,6 +7245,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/actions/system-suspend-hibernate.png
 * /usr/share/icons/oxygen/base/48x48/actions/system-suspend.png
 * /usr/share/icons/oxygen/base/48x48/actions/system-switch-user.png
+* /usr/share/icons/oxygen/base/48x48/actions/system-user-prompt.png
 * /usr/share/icons/oxygen/base/48x48/actions/tab-close-other.png
 * /usr/share/icons/oxygen/base/48x48/actions/tab-close.png
 * /usr/share/icons/oxygen/base/48x48/actions/tab-detach.png
@@ -7101,6 +7337,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/actions/view-fullscreen.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-grid.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-group.png
+* /usr/share/icons/oxygen/base/48x48/actions/view-hidden.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-history.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-income-categories.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-investment-account.png
@@ -7160,6 +7397,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/actions/view-time-schedule-edit.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-time-schedule-insert.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-time-schedule.png
+* /usr/share/icons/oxygen/base/48x48/actions/view-visible.png
 * /usr/share/icons/oxygen/base/48x48/actions/view-web-browser-dom-tree.png
 * /usr/share/icons/oxygen/base/48x48/actions/visibility.png
 * /usr/share/icons/oxygen/base/48x48/actions/window-close.png
@@ -7473,6 +7711,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/emotes/face-wink.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-msword-template.png
@@ -7492,7 +7731,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.ms-excel.png
@@ -7515,6 +7754,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-vnd.stardivision.calc.png
@@ -7629,6 +7869,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-skgc.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-srt.png
@@ -7641,6 +7882,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-xhtml+xml.png
@@ -7649,10 +7892,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/audio-vnd.rn-realvideo.png
@@ -7681,6 +7926,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/48x48/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/image-vnd.dgn.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/48x48/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/48x48/mimetypes/image-x-emf.png
@@ -8049,6 +8295,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/actions/system-suspend-hibernate.png
 * /usr/share/icons/oxygen/base/64x64/actions/system-suspend.png
 * /usr/share/icons/oxygen/base/64x64/actions/system-switch-user.png
+* /usr/share/icons/oxygen/base/64x64/actions/system-user-prompt.png
 * /usr/share/icons/oxygen/base/64x64/actions/tool-animator.png
 * /usr/share/icons/oxygen/base/64x64/actions/tools-media-optical-burn-image.png
 * /usr/share/icons/oxygen/base/64x64/actions/tools-media-optical-burn.png
@@ -8336,6 +8583,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/emotes/face-wink.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-atom+xml.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-epub+zip.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/application-gzip.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-illustrator.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-javascript.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-msword-template.png
@@ -8352,7 +8600,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-rtf.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-sxw.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd-google-earth-kml.png
-* /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd-rar.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.debian.binary-package.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.iccprofile.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.ms-access.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.ms-excel.png
@@ -8375,6 +8623,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.oasis.opendocument.text.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.oasis.opendocument.web.template.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.openxmlformats-officedocument.wordprocessingml.document.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.rar.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.rn-realmedia.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.scribus.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-vnd.stardivision.calc.png
@@ -8490,6 +8739,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-skgc.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-smb-server.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-smb-workgroup.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-source-rpm.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-sqlite2.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-sqlite3.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-srt.png
@@ -8502,6 +8752,8 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-troff-man.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-tzo.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-wmf.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-xz-compressed-tar.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-xz-pkg.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-zerosize.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-x-zoo.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-xhtml+xml.png
@@ -8510,10 +8762,12 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-xslt+xml.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/application-zip.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-ac3.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/audio-flac.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-midi.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-mp2.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-mp3.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-mp4.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/audio-mpeg.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-prs.sid.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-vn.rn-realmedia.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/audio-vn.rn-realvideo.png
@@ -8542,6 +8796,7 @@ KDE Icons Oxygen style.
 * /usr/share/icons/oxygen/base/64x64/mimetypes/image-tiff.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/image-vnd.adobe.photoshop.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/image-vnd.dwg.png
+* /usr/share/icons/oxygen/base/64x64/mimetypes/image-webp.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/image-x-adobe-dng.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/image-x-compressed-xcf.png
 * /usr/share/icons/oxygen/base/64x64/mimetypes/image-x-emf.png
