@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flashrom 1.3.0-1"
-version = "1.3.0-1"
+title = "flashrom 1.4.0-1"
+version = "1.4.0-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-04-24T15:34:58"
+date = "2024-10-25T19:29:13"
 aliases = "/packages/221453"
 categories = ['apps']
 upstreamurl = "https://www.flashrom.org/"
 arch = "x86_64"
-size = "319708"
-usize = "2164246"
-sha1sum = "01cce39b51e63c20ac66d791a5c2a99c890f6b0d"
+size = "308736"
+usize = "2058599"
+sha1sum = "628386d0999968d5768ee3232b28854f7d252172"
 depends = "['libftdi']"
 reverse_depends = "['fwupd']"
 +++
@@ -27,6 +27,7 @@ A simple daemon to allow session software to update firmware
 * /usr/lib/libflashrom.so.1
 * /usr/lib/libflashrom.so.1.0.0
 * /usr/lib/pkgconfig/flashrom.pc
-* /usr/share/doc/flashrom-1.3.0/COPYING
-* /usr/share/doc/flashrom-1.3.0/README
-* /usr/share/man/man8/flashrom.8.gz
+* /usr/share/bash-completion/completions/flashrom.bash
+* /usr/share/doc/flashrom-1.4.0/COPYING
+* /usr/share/doc/flashrom-1.4.0/README.rst
+* /usr/share/doc/flashrom-1.4.0/VERSION
