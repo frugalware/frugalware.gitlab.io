@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-eu 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-l10n-eu 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "Installs Basque support in LibreOffice"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/104056"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4947512"
+size = "4948892"
 usize = "35997719"
-sha1sum = "c114e89f870d186106b7064303785900a0dfba14"
+sha1sum = "55ff7ad67491f4244bab603a0f09c6d1854a4f58"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

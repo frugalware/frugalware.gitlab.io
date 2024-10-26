@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-postgresql 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-postgresql 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "libreoffice postgresql SDBC driver"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/152623"
 categories = ['xapps-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "263492"
+size = "265168"
 usize = "1106301"
-sha1sum = "4082fd2543f2efb3f324e5d676414529733115a8"
+sha1sum = "0f91907ca6e182895b6da8310e4c295071d48f4e"
 depends = "['libkrb5>=1.14.3', 'libpq', 'libreoffice>=24.8.2.1']"
 +++
 ### Description: 

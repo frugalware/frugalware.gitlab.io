@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-pl 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-l10n-pl 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "Installs Polish support in LibreOffice"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/104103"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5142744"
+size = "5143212"
 usize = "36579376"
-sha1sum = "b75ed1a4b7f9eea67ba64bd0cb229c7eb5a0e182"
+sha1sum = "8157a2285529ffd42cd9ce5d1b8dbeb348ce402e"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

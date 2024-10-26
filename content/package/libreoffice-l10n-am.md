@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-am 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-l10n-am 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "Installs Amharic support in LibreOffice"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/168475"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4791216"
+size = "4790380"
 usize = "38528866"
-sha1sum = "74a528ad08c9245142455807218f02ed9bd54674"
+sha1sum = "2ce5f7bc4fdd085de0d94853b9448484675c5574"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

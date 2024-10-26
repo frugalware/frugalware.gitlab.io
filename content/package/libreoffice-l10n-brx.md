@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-brx 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-l10n-brx 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "Installs Bodo support in LibreOffice"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/104039"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "239940"
+size = "240256"
 usize = "1771569"
-sha1sum = "ec4baaf7cd6719917c3995d41fa7c792a7873cf7"
+sha1sum = "13275e847ee5181139b184ae83d652cdc9a5085f"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

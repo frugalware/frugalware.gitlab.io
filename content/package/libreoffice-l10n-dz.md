@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-dz 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-l10n-dz 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "Installs Dzongkha support in LibreOffice"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/104049"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5100640"
+size = "5099560"
 usize = "43372328"
-sha1sum = "e62910ff7b3c123eb8fca643ae763601bc979fa4"
+sha1sum = "bc595d9cf6d9047b10036c11c85148287254a179"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

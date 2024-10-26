@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-de 24.8.2.1-1"
-version = "24.8.2.1-1"
+title = "libreoffice-l10n-de 24.8.2.1-2"
+version = "24.8.2.1-2"
 description = "Installs German support in LibreOffice"
-date = "2024-10-01T08:53:54"
+date = "2024-10-26T15:01:10"
 aliases = "/packages/104047"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5154248"
+size = "5154044"
 usize = "37493832"
-sha1sum = "617826aac69a08857fb635add68a9aa9a90b38a4"
+sha1sum = "560d28babc640a0613fa86abe3f2a9629343b813"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 
