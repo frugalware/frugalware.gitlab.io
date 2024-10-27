@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liburing 2.7-1"
-version = "2.7-1"
+title = "liburing 2.8-1"
+version = "2.8-1"
 description = "Linux-native io_uring I/O access library"
-date = "2024-08-18T16:13:03"
+date = "2024-10-27T13:36:22"
 aliases = "/packages/221115"
 categories = ['lib']
 upstreamurl = "https://git.kernel.dk/cgit/liburing"
 arch = "x86_64"
-size = "185796"
-usize = "395159"
-sha1sum = "9c11bed1a65d8181066215cfda23ae87da6342ad"
+size = "197480"
+usize = "419115"
+sha1sum = "93eb48c2d470586a217ea49a98e43863d60b54d0"
 depends = "['glibc']"
 reverse_depends = "['libdex', 'mariadb-libs', 'mpd', 'qemu', 'qemu-guest']"
 +++
@@ -23,19 +23,20 @@ Linux-native io_uring I/O access library
 * /usr/include/liburing/compat.h
 * /usr/include/liburing/io_uring.h
 * /usr/include/liburing/io_uring_version.h
+* /usr/include/liburing/sanitize.h
 * /usr/lib/liburing-ffi.so
 * /usr/lib/liburing-ffi.so.2
-* /usr/lib/liburing-ffi.so.2.7
+* /usr/lib/liburing-ffi.so.2.8
 * /usr/lib/liburing.so
 * /usr/lib/liburing.so.2
-* /usr/lib/liburing.so.2.7
+* /usr/lib/liburing.so.2.8
 * /usr/lib/pkgconfig/liburing-ffi.pc
 * /usr/lib/pkgconfig/liburing.pc
-* /usr/share/doc/liburing-2.7/CHANGELOG
-* /usr/share/doc/liburing-2.7/COPYING
-* /usr/share/doc/liburing-2.7/COPYING.GPL
-* /usr/share/doc/liburing-2.7/LICENSE
-* /usr/share/doc/liburing-2.7/README
+* /usr/share/doc/liburing-2.8/CHANGELOG
+* /usr/share/doc/liburing-2.8/COPYING
+* /usr/share/doc/liburing-2.8/COPYING.GPL
+* /usr/share/doc/liburing-2.8/LICENSE
+* /usr/share/doc/liburing-2.8/README
 * /usr/share/man/man2/io_uring_enter.2.gz
 * /usr/share/man/man2/io_uring_enter2.2.gz
 * /usr/share/man/man2/io_uring_register.2.gz
@@ -46,8 +47,9 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_buf_ring_cq_advance.3.gz
 * /usr/share/man/man3/io_uring_buf_ring_init.3.gz
 * /usr/share/man/man3/io_uring_buf_ring_mask.3.gz
-* /usr/share/man/man3/io_uring_check_version.3.gz
 * /usr/share/man/man3/IO_URING_CHECK_VERSION.3.gz
+* /usr/share/man/man3/io_uring_check_version.3.gz
+* /usr/share/man/man3/io_uring_clone_buffers.3.gz
 * /usr/share/man/man3/io_uring_close_ring_fd.3.gz
 * /usr/share/man/man3/io_uring_cqe_get_data.3.gz
 * /usr/share/man/man3/io_uring_cqe_get_data64.3.gz
@@ -65,6 +67,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_major_version.3.gz
 * /usr/share/man/man3/io_uring_minor_version.3.gz
 * /usr/share/man/man3/io_uring_opcode_supported.3.gz
+* /usr/share/man/man3/io_uring_peek_batch_cqe.3.gz
 * /usr/share/man/man3/io_uring_peek_cqe.3.gz
 * /usr/share/man/man3/io_uring_prep_accept.3.gz
 * /usr/share/man/man3/io_uring_prep_accept_direct.3.gz
@@ -75,6 +78,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_prep_close.3.gz
 * /usr/share/man/man3/io_uring_prep_close_direct.3.gz
 * /usr/share/man/man3/io_uring_prep_cmd.3.gz
+* /usr/share/man/man3/io_uring_prep_cmd_discard.3.gz
 * /usr/share/man/man3/io_uring_prep_connect.3.gz
 * /usr/share/man/man3/io_uring_prep_fadvise.3.gz
 * /usr/share/man/man3/io_uring_prep_fadvise64.3.gz
@@ -104,10 +108,12 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_prep_multishot_accept.3.gz
 * /usr/share/man/man3/io_uring_prep_multishot_accept_direct.3.gz
 * /usr/share/man/man3/io_uring_prep_nop.3.gz
+* /usr/share/man/man3/io_uring_prep_open.3.gz
 * /usr/share/man/man3/io_uring_prep_openat.3.gz
 * /usr/share/man/man3/io_uring_prep_openat2.3.gz
 * /usr/share/man/man3/io_uring_prep_openat2_direct.3.gz
 * /usr/share/man/man3/io_uring_prep_openat_direct.3.gz
+* /usr/share/man/man3/io_uring_prep_open_direct.3.gz
 * /usr/share/man/man3/io_uring_prep_poll_add.3.gz
 * /usr/share/man/man3/io_uring_prep_poll_multishot.3.gz
 * /usr/share/man/man3/io_uring_prep_poll_remove.3.gz
@@ -170,6 +176,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_register_buffers_tags.3.gz
 * /usr/share/man/man3/io_uring_register_buffers_update_tag.3.gz
 * /usr/share/man/man3/io_uring_register_buf_ring.3.gz
+* /usr/share/man/man3/io_uring_register_clock.3.gz
 * /usr/share/man/man3/io_uring_register_eventfd.3.gz
 * /usr/share/man/man3/io_uring_register_eventfd_async.3.gz
 * /usr/share/man/man3/io_uring_register_files.3.gz
@@ -193,6 +200,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_submit.3.gz
 * /usr/share/man/man3/io_uring_submit_and_get_events.3.gz
 * /usr/share/man/man3/io_uring_submit_and_wait.3.gz
+* /usr/share/man/man3/io_uring_submit_and_wait_min_timeout.3.gz
 * /usr/share/man/man3/io_uring_submit_and_wait_timeout.3.gz
 * /usr/share/man/man3/io_uring_unregister_buffers.3.gz
 * /usr/share/man/man3/io_uring_unregister_buf_ring.3.gz
@@ -205,6 +213,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/IO_URING_VERSION_MINOR.3.gz
 * /usr/share/man/man3/io_uring_wait_cqe.3.gz
 * /usr/share/man/man3/io_uring_wait_cqes.3.gz
+* /usr/share/man/man3/io_uring_wait_cqes_min_timeout.3.gz
 * /usr/share/man/man3/io_uring_wait_cqe_nr.3.gz
 * /usr/share/man/man3/io_uring_wait_cqe_timeout.3.gz
 * /usr/share/man/man3/__io_uring_buf_ring_cq_advance.3.gz
