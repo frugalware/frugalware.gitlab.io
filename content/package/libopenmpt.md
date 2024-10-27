@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libopenmpt 0.7.10-1"
-version = "0.7.10-1"
+title = "libopenmpt 0.7.11-1"
+version = "0.7.11-1"
 description = "A library to render tracker music to a PCM audio stream"
-date = "2024-10-03T12:26:44"
+date = "2024-10-27T11:39:17"
 aliases = "/packages/221244"
 categories = ['lib']
 upstreamurl = "https://lib.openmpt.org/libopenmpt"
 arch = "x86_64"
-size = "770420"
-usize = "2303887"
-sha1sum = "0d2878e9232f85adbf4184d7e04df5e846b3f64f"
+size = "773840"
+usize = "2306392"
+sha1sum = "a4899b2b4132652884d6f3c9e435d3ee6f580658"
 depends = "['libmpg123', 'libpulse', 'portaudio']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-openmpt', 'jazz2']"
 +++
@@ -36,13 +36,13 @@ A library to render tracker music to a PCM audio stream
 * /usr/lib/libopenmpt.so.0
 * /usr/lib/libopenmpt.so.0.4.4
 * /usr/lib/pkgconfig/libopenmpt.pc
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_c.c
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_cxx.cpp
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_c_mem.c
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_c_pipe.c
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_c_probe.c
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_c_stdout.c
-* /usr/share/doc/libopenmpt-0.7.10/examples/libopenmpt_example_c_unsafe.c
-* /usr/share/doc/libopenmpt-0.7.10/LICENSE
-* /usr/share/doc/libopenmpt-0.7.10/README.md
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_c.c
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_cxx.cpp
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_c_mem.c
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_c_pipe.c
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_c_probe.c
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_c_stdout.c
+* /usr/share/doc/libopenmpt-0.7.11/examples/libopenmpt_example_c_unsafe.c
+* /usr/share/doc/libopenmpt-0.7.11/LICENSE
+* /usr/share/doc/libopenmpt-0.7.11/README.md
 * /usr/share/man/man1/openmpt123.1.gz
