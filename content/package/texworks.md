@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2720576"
 usize = "6517720"
 sha1sum = "88f1d2accff51cacd6ef40bd1fd5cfbf1c540ac6"
-depends = "['ghostscript', 'hunspell>=1.6.1', 'hunspell>=1.7.0', 'lua>=5.4', 'poppler-qt5>=24.10.0', 'qt5-base>=5.15.15', 'qt5-script>=5.15.15', 'texlive']"
+depends = "['ghostscript', 'hunspell>=1.7.0', 'hunspell>=1.6.1', 'lua>=5.4', 'poppler-qt5>=24.10.0', 'qt5-base>=5.15.15', 'qt5-script>=5.15.15', 'texlive']"
 +++
 ### Description: 
 A simple interface for working with TeX documents
