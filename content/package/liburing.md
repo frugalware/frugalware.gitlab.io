@@ -12,7 +12,7 @@ size = "197480"
 usize = "419115"
 sha1sum = "93eb48c2d470586a217ea49a98e43863d60b54d0"
 depends = "['glibc']"
-reverse_depends = "['libdex', 'mariadb-libs', 'mpd', 'qemu', 'qemu-guest']"
+reverse_depends = "['libdex', 'mariadb-libs', 'mpd', 'plocate', 'qemu', 'qemu-guest']"
 +++
 ### Description: 
 Linux-native io_uring I/O access library
