@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libe-book 0.1.3-14"
-version = "0.1.3-14"
+title = "libe-book 0.1.3-15"
+version = "0.1.3-15"
 description = "A library for import of non-HTML reflowable e-book formats"
-date = "2024-04-21T13:46:24"
+date = "2024-10-30T21:15:28"
 aliases = "/packages/200102"
 categories = ['xoffice']
 upstreamurl = "https://sourceforge.net/projects/libebook"
 arch = "x86_64"
-size = "171632"
-usize = "618182"
-sha1sum = "7097a99277e1ed9c532fdb5ff6adacc4bad084a6"
-depends = "['icu4c>=75.1', 'libboost>=1.85.0', 'liblangtag', 'libwpd>=0.10.1-5']"
+size = "175928"
+usize = "607166"
+sha1sum = "b4a71e7d634245da8ca7abb5eee7edbe19c1ad8a"
+depends = "['icu4c>=76.1', 'libboost>=1.85.0', 'liblangtag', 'libwpd>=0.10.1-5']"
 reverse_depends = "['libreoffice']"
 +++
 ### Description: 

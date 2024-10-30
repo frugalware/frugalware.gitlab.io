@@ -1,21 +1,21 @@
 +++
 draft = false
-title = "libqxp 0.0.2-14"
-version = "0.0.2-14"
-description = "A library that parses the file format of QuarkXPress documents."
-date = "2024-04-21T13:51:01"
+title = "libqxp 0.0.2-15"
+version = "0.0.2-15"
+description = "A library that parses t5he file format of QuarkXPress documents."
+date = "2024-10-30T21:25:47"
 aliases = "/packages/219540"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libqxp"
 arch = "x86_64"
-size = "124236"
-usize = "405228"
-sha1sum = "9f889edf8cbb9fdd3fda4c0687467a9bd90173da"
+size = "123992"
+usize = "384396"
+sha1sum = "ac77446d744ca28c06ec31c3a0f242324e33c2f2"
 depends = "['librevenge']"
 reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
-A library that parses the file format of QuarkXPress documents.
+A library that parses t5he file format of QuarkXPress documents.
 
 ### Files: 
 * /usr/bin/qxp2raw

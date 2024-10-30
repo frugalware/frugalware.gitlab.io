@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libphonenumber 8.13.48-1"
-version = "8.13.48-1"
+title = "libphonenumber 8.13.49-1"
+version = "8.13.49-1"
 description = "Google's common library for parsing, formatting, and validating international phone numbers"
-date = "2024-10-18T12:05:03"
+date = "2024-10-30T21:23:08"
 aliases = "/packages/222537"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/libphonenumber"
 arch = "x86_64"
-size = "1672500"
-usize = "17243657"
-sha1sum = "39548d0edd19563da2bd4ca5d525f0da030b65a7"
-depends = "['icu4c', 'protobuf']"
+size = "1668528"
+usize = "17244009"
+sha1sum = "7abe138d4b5618fdf50e8df8316d885fa83f4a37"
+depends = "['icu4c>=76.1', 'protobuf']"
 reverse_depends = "['kitinerary']"
 +++
 ### Description: 
@@ -61,8 +61,8 @@ Google's common library for parsing, formatting, and validating international ph
 * /usr/lib/libphonenumber.so
 * /usr/lib/libphonenumber.so.8
 * /usr/lib/libphonenumber.so.8.13
-* /usr/share/doc/libphonenumber-8.13.48/AUTHORS
-* /usr/share/doc/libphonenumber-8.13.48/CONTRIBUTORS
-* /usr/share/doc/libphonenumber-8.13.48/FAQ.md
-* /usr/share/doc/libphonenumber-8.13.48/LICENSE
-* /usr/share/doc/libphonenumber-8.13.48/README.md
+* /usr/share/doc/libphonenumber-8.13.49/AUTHORS
+* /usr/share/doc/libphonenumber-8.13.49/CONTRIBUTORS
+* /usr/share/doc/libphonenumber-8.13.49/FAQ.md
+* /usr/share/doc/libphonenumber-8.13.49/LICENSE
+* /usr/share/doc/libphonenumber-8.13.49/README.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xerces-c 3.2.5-1"
-version = "3.2.5-1"
+title = "xerces-c 3.3.0-1"
+version = "3.3.0-1"
 description = "Xerces2 C++ Parser"
-date = "2024-04-20T11:27:51"
+date = "2024-10-30T21:33:06"
 aliases = "/packages/14649"
 categories = ['devel-extra']
 upstreamurl = "http://xml.apache.org/xerces-c/"
 arch = "x86_64"
-size = "1321040"
-usize = "8570791"
-sha1sum = "a8927fb11117fd159c69c701d5c2554cf6ed3cf5"
-depends = "['icu4c>=75.1']"
+size = "1341464"
+usize = "8505199"
+sha1sum = "567802746c1283f23aab92afe5f99134c1e762f9"
+depends = "['icu4c>=76.1']"
 reverse_depends = "['enigma', 'megaglest', 'virtualbox', 'xalan-c', 'xqilla']"
 +++
 ### Description: 
@@ -503,10 +503,10 @@ Xerces2 C++ Parser
 * /usr/include/xercesc/xinclude/XIncludeDOMDocumentProcessor.hpp
 * /usr/include/xercesc/xinclude/XIncludeLocation.hpp
 * /usr/include/xercesc/xinclude/XIncludeUtils.hpp
-* /usr/lib/libxerces-c-3.2.so
+* /usr/lib/libxerces-c-3.3.so
 * /usr/lib/libxerces-c.so
 * /usr/lib/pkgconfig/xerces-c.pc
-* /usr/share/doc/xerces-c-3.2.5/CREDITS
-* /usr/share/doc/xerces-c-3.2.5/INSTALL
-* /usr/share/doc/xerces-c-3.2.5/LICENSE
-* /usr/share/doc/xerces-c-3.2.5/README
+* /usr/share/doc/xerces-c-3.3.0/CREDITS
+* /usr/share/doc/xerces-c-3.3.0/INSTALL
+* /usr/share/doc/xerces-c-3.3.0/LICENSE
+* /usr/share/doc/xerces-c-3.3.0/README

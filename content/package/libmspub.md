@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmspub 0.1.4-13"
-version = "0.1.4-13"
+title = "libmspub 0.1.4-14"
+version = "0.1.4-14"
 description = "libmspub import filter library"
-date = "2024-04-21T13:48:44"
+date = "2024-10-30T21:21:18"
 aliases = "/packages/184054"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libmspub"
 arch = "x86_64"
-size = "481396"
-usize = "8225506"
-sha1sum = "c633157af9502e43890eb85e7bcf6293cbf702ab"
-depends = "['icu4c>=75.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
+size = "526628"
+usize = "8606502"
+sha1sum = "6a5594c7429dfe3a7b4f30b82f14b06150054757"
+depends = "['icu4c>=76.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
 reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
@@ -93,6 +93,7 @@ libmspub import filter library
 * /usr/share/doc/libmspub-0.1.4/html/dir_c85d3e3c5052e9ad9ce18c6863244a25.html
 * /usr/share/doc/libmspub-0.1.4/html/dir_cb1e1682f2c8ac4c74870a53f3b74dc5.html
 * /usr/share/doc/libmspub-0.1.4/html/doxygen.css
+* /usr/share/doc/libmspub-0.1.4/html/doxygen_crawl.html
 * /usr/share/doc/libmspub-0.1.4/html/EmbeddedFontInfo_8h.html
 * /usr/share/doc/libmspub-0.1.4/html/EmbeddedFontInfo_8h_source.html
 * /usr/share/doc/libmspub-0.1.4/html/EscherContainerType_8h.html

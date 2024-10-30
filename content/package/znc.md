@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "znc 1.9.0-1"
-version = "1.9.0-1"
+title = "znc 1.9.1-1"
+version = "1.9.1-1"
 description = "An IRC bouncer with modules and scripts support."
-date = "2024-04-21T14:16:10"
+date = "2024-10-30T21:38:28"
 aliases = "/packages/135816"
 categories = ['network-extra']
 upstreamurl = "http://znc.in"
 arch = "x86_64"
-size = "1710972"
-usize = "6987248"
-sha1sum = "6a9655ce98485c242cfa0fce0698858e2047419f"
-depends = "['cyrus-sasl', 'icu4c>=75.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12', 'zlib>=1.2.12']"
+size = "1729804"
+usize = "6806272"
+sha1sum = "9553a469cea9214045147e89373671aeb07180f8"
+depends = "['cyrus-sasl', 'icu4c>=76.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12', 'zlib>=1.2.12']"
 +++
 ### Description: 
 An IRC bouncer with modules and scripts support.
@@ -109,8 +109,8 @@ An IRC bouncer with modules and scripts support.
 * /usr/lib/znc/stripcontrols.so
 * /usr/lib/znc/watch.so
 * /usr/lib/znc/webadmin.so
-* /usr/share/doc/znc-1.9.0/LICENSE
-* /usr/share/doc/znc-1.9.0/README.md
+* /usr/share/doc/znc-1.9.1/LICENSE
+* /usr/share/doc/znc-1.9.1/README.md
 * /usr/share/man/man1/znc-buildmod.1.gz
 * /usr/share/man/man1/znc.1.gz
 * /usr/share/znc/cmake/CMakeFindDependencyMacroPC.cmake
