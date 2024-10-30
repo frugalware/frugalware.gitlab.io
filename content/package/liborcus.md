@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "liborcus 0.19.2-2"
-version = "0.19.2-2"
+title = "liborcus 0.19.2-3"
+version = "0.19.2-3"
 description = "Standalone file import filter library for spreadsheet documents"
-date = "2024-05-07T07:41:54"
+date = "2024-10-30T14:20:19"
 aliases = "/packages/169011"
 categories = ['xoffice']
 upstreamurl = "https://gitlab.com/orcus/orcus"
 arch = "x86_64"
-size = "584556"
-usize = "2309881"
-sha1sum = "c49ba803ce954b4813af8597ebe0cab4f2a475cd"
-depends = "['libboost>=1.85.0']"
+size = "605676"
+usize = "2278257"
+sha1sum = "c6146bfc04169ea50a8db5c7df22a5e13bf93a6e"
+depends = "['libboost>=1.86.0']"
 reverse_depends = "['libreoffice']"
 +++
 ### Description: 

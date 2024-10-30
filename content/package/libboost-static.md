@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libboost-static 1.85.0-2"
-version = "1.85.0-2"
+title = "libboost-static 1.86.0-1"
+version = "1.86.0-1"
 description = "Boost libraries statically linked."
-date = "2024-05-15T20:00:48"
+date = "2024-10-28T12:40:43"
 aliases = "/packages/49946"
 categories = ['devel-extra']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "49537580"
-usize = "94353382"
-sha1sum = "9ec393e226d4df38801b13661dfd357033201e28"
+size = "50596408"
+usize = "95821980"
+sha1sum = "77f18b23f8aeb48b6b259c48a8d98cb5d39460dd"
 depends = "[]"
 +++
 ### Description: 
@@ -45,6 +45,7 @@ Boost libraries statically linked.
 * /usr/lib/libboost_mpi_python312.a
 * /usr/lib/libboost_nowide.a
 * /usr/lib/libboost_prg_exec_monitor.a
+* /usr/lib/libboost_process.a
 * /usr/lib/libboost_program_options.a
 * /usr/lib/libboost_python312.a
 * /usr/lib/libboost_random.a
@@ -52,6 +53,7 @@ Boost libraries statically linked.
 * /usr/lib/libboost_serialization.a
 * /usr/lib/libboost_stacktrace_addr2line.a
 * /usr/lib/libboost_stacktrace_basic.a
+* /usr/lib/libboost_stacktrace_from_exception.a
 * /usr/lib/libboost_stacktrace_noop.a
 * /usr/lib/libboost_system.a
 * /usr/lib/libboost_test_exec_monitor.a

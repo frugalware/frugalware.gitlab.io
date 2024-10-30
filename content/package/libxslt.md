@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxslt 1.1.42-1"
-version = "1.1.42-1"
+title = "libxslt 1.1.42-2"
+version = "1.1.42-2"
 description = "XML stylesheet transformation library"
-date = "2024-07-13T15:45:30"
+date = "2024-10-27T18:18:03"
 aliases = "/packages/3213"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "276476"
-usize = "1440567"
-sha1sum = "2dce4c7ea059a10ebc04fba5ac9f00fc890e40a8"
+size = "274836"
+usize = "1443127"
+sha1sum = "697beddbd993d29ff2c5018468374a30e0d24d18"
 depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.9.7-3', 'python3']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', 'colord', 'docbook-xsl', 'docbook2x', 'geany-plugins', 'icecast', 'inkscape', 'kdoctools', 'kdoctools5', 'kio5', 'libosinfo', 'libreoffice', 'lincity-ng', 'nginx', 'php', 'python3-lxml', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'raptor', 'shiboken2', 'shiboken6', 'sim', 'telepathy-sofiasip', 'uwsgi-plugin-webdav', 'virtualbox', 'webkit-gtk3', 'wine', 'wine-devel', 'wxwidgets', 'xmlstarlet']"
 +++

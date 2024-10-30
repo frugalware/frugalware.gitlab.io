@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6 6.8.0.dev2410141303-1"
-version = "6.8.0.dev2410141303-1"
+title = "pyqt6 6.8.0.dev2410211537-1"
+version = "6.8.0.dev2410211537-1"
 description = "PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit."
-date = "2024-10-16T17:48:12"
+date = "2024-10-29T12:54:56"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "4011740"
-usize = "28842655"
-sha1sum = "290ed7f3bd9008043d6bcdf405abee33fff211e0"
+size = "4028440"
+usize = "28883576"
+sha1sum = "33f926345b83e5422b9be74f03dafcbfb1141f39"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'git-cola', 'pyqt6webengine', 'yin-yang']"
 +++
@@ -21,9 +21,9 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.12/site-packages/dbus/mainloop/pyqt6.abi3.so
-* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410141303.dist-info/INSTALLER
-* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410141303.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410141303.dist-info/RECORD
+* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410211537.dist-info/INSTALLER
+* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410211537.dist-info/METADATA
+* /usr/lib/python3.12/site-packages/PyQt6-6.8.0.dev2410211537.dist-info/RECORD
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -290,6 +290,7 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpointingdevice.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpolygon.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpygui_qlist.sip
+* /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qpygui_vulkan.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qquaternion.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qrasterwindow.sip
 * /usr/lib/python3.12/site-packages/PyQt6/bindings/QtGui/qrawfont.sip
@@ -949,8 +950,10 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.12/site-packages/PyQt6/__pycache__/__init__.cpython-312.pyc
 * /usr/lib/qt6/plugins/designer/libpyqt6.so
 * /usr/lib/qt6/plugins/PyQt6/libpyqt6qmlplugin.so
-* /usr/share/doc/pyqt6-6.8.0.dev2410141303/ChangeLog
-* /usr/share/doc/pyqt6-6.8.0.dev2410141303/LICENSE
-* /usr/share/doc/pyqt6-6.8.0.dev2410141303/NEWS
-* /usr/share/doc/pyqt6-6.8.0.dev2410141303/README.md
+* /usr/share/doc/pyqt6-6.8.0.dev2410211537/ChangeLog
+* /usr/share/doc/pyqt6-6.8.0.dev2410211537/COPYRIGHT
+* /usr/share/doc/pyqt6-6.8.0.dev2410211537/INSTALL.rst
+* /usr/share/doc/pyqt6-6.8.0.dev2410211537/LICENSE
+* /usr/share/doc/pyqt6-6.8.0.dev2410211537/NEWS
+* /usr/share/doc/pyqt6-6.8.0.dev2410211537/README.md
 * /usr/share/qt6/qsci/api/python/PyQt6.api

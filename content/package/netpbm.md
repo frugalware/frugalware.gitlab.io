@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "netpbm 10.86.43-1"
-version = "10.86.43-1"
+title = "netpbm 10.86.43-2"
+version = "10.86.43-2"
 description = "A toolkit for manipulation of graphic images"
-date = "2024-10-02T13:18:25"
+date = "2024-10-28T13:42:52"
 aliases = "/packages/3258"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/netpbm"
 arch = "x86_64"
-size = "2414164"
-usize = "6816183"
-sha1sum = "58923225fbe25b1caa28500661a697a451d5acb5"
-depends = "['icu4c>=75.1', 'libjpeg-turbo', 'libpng', 'libtiff', 'libx11', 'libxml2']"
+size = "2414300"
+usize = "6816031"
+sha1sum = "3defb6b07d557adc7544db17825a557bc3f33e72"
+depends = "['icu4c>=76.1', 'libjpeg-turbo', 'libpng', 'libtiff', 'libx11', 'libxml2']"
 reverse_depends = "['latex2html']"
 +++
 ### Description: 

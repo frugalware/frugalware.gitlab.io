@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nodejs 23.0.0-1"
-version = "23.0.0-1"
+title = "nodejs 23.1.0-2"
+version = "23.1.0-2"
 description = "Evented I/O for V8 javascript"
-date = "2024-10-19T12:36:24"
+date = "2024-10-29T16:10:05"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "15430288"
-usize = "69563078"
-sha1sum = "d3d152d34fad77d887056cc3dadda8c02b1c8943"
-depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
+size = "15661052"
+usize = "71659834"
+sha1sum = "54d5144d75d3995913d8a7ed565994f79981b7c3"
+depends = "['brotli', 'c-ares', 'icu4c>=76.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools', 'zlib']"
 license = "MIT"
 +++
 ### Description: 
@@ -2639,6 +2639,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-23.0.0/LICENSE
-* /usr/share/doc/nodejs-23.0.0/README.md
+* /usr/share/doc/nodejs-23.1.0/LICENSE
+* /usr/share/doc/nodejs-23.1.0/README.md
 * /usr/share/man/man1/node.1.gz

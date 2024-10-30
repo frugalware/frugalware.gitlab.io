@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ckb 24.8.2.1-2"
-version = "24.8.2.1-2"
+title = "libreoffice-l10n-ckb 24.8.2.1-3"
+version = "24.8.2.1-3"
 description = "Installs Central Kurdish support in LibreOffice"
-date = "2024-10-26T15:01:10"
+date = "2024-10-30T20:18:36"
 aliases = "/packages/220191"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "253708"
+size = "253880"
 usize = "1636713"
-sha1sum = "0cbda8092e96fb93bcaf63901014222b293248ce"
+sha1sum = "b3d7ea7771bcc29f40da078b74d3c352648a62c7"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

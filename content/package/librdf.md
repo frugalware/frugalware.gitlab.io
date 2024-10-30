@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "librdf 1.0.17-9"
-version = "1.0.17-9"
+title = "librdf 1.0.17-10"
+version = "1.0.17-10"
 description = "RDF Application Framework"
-date = "2024-05-16T12:45:41"
+date = "2024-10-30T18:14:52"
 aliases = "/packages/23436"
 categories = ['lib']
 upstreamurl = "http://librdf.org/"
 arch = "x86_64"
-size = "274284"
-usize = "2116090"
-sha1sum = "f77c5746f3f729387e1e18a1585c8acf2ddab6f8"
+size = "273468"
+usize = "2100675"
+sha1sum = "918b125a553b998e0782f152e2b6cf8b874b750f"
 depends = "['libpq>=10.1-2', 'libtool>=2.4.6-6', 'libxml2>=2.9.4-3', 'openssl>=1.1.1-2', 'rasqal>=0.9.33-6', 'sqlite3>=3.14.2-3']"
 reverse_depends = "['libreoffice']"
 +++

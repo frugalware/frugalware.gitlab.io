@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postfix 3.9.0-4"
-version = "3.9.0-4"
+title = "postfix 3.9.0-5"
+version = "3.9.0-5"
 description = "A fast, easy to administer, and secure MTA"
-date = "2024-05-29T08:47:46"
+date = "2024-10-28T13:47:40"
 aliases = "/packages/3296"
 categories = ['network']
 upstreamurl = "https://www.postfix.org/"
 arch = "x86_64"
-size = "1489116"
-usize = "4907819"
-sha1sum = "acaf939d12af184f674a89f5209ce66454c01c23"
-depends = "['cyrus-sasl>=2.1.26-3', 'icu4c>=75.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'lmdb', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
+size = "1473336"
+usize = "4621583"
+sha1sum = "1e726d789aac69d62084be7f075f70e76d23954b"
+depends = "['cyrus-sasl>=2.1.26-3', 'icu4c>=76.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'lmdb', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
 reverse_depends = "['arpwatch', 'postfixadmin']"
 +++
 ### Description: 
@@ -93,19 +93,11 @@ A fast, easy to administer, and secure MTA
 * /usr/lib/sendmail
 * /usr/lib/systemd/system/postfix.service
 * /usr/share/doc/postfix-3.9.0/AAAREADME
-* /usr/share/doc/postfix-3.9.0/AUTHORS
-* /usr/share/doc/postfix-3.9.0/BUGS
-* /usr/share/doc/postfix-3.9.0/ChangeLog
-* /usr/share/doc/postfix-3.9.0/COPYING
-* /usr/share/doc/postfix-3.9.0/COPYING.DOC
-* /usr/share/doc/postfix-3.9.0/COPYING.LIB
 * /usr/share/doc/postfix-3.9.0/COPYRIGHT
 * /usr/share/doc/postfix-3.9.0/HISTORY
 * /usr/share/doc/postfix-3.9.0/INSTALL
 * /usr/share/doc/postfix-3.9.0/LICENSE
-* /usr/share/doc/postfix-3.9.0/NEWS
 * /usr/share/doc/postfix-3.9.0/README.Frugalware
-* /usr/share/doc/postfix-3.9.0/README.md
 * /usr/share/doc/postfix-3.9.0/RELEASE_NOTES
 * /usr/share/doc/postfix-3.9.0/RELEASE_NOTES-1.0
 * /usr/share/doc/postfix-3.9.0/RELEASE_NOTES-1.1

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gspell 1.14.0-1"
-version = "1.14.0-1"
+title = "gspell 1.14.0-2"
+version = "1.14.0-2"
 description = "Spell-checking library for GTK+"
-date = "2024-09-15T14:41:33"
+date = "2024-10-28T12:56:24"
 aliases = "/packages/218047"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "109872"
-usize = "749296"
-sha1sum = "9438ee1c1b36241de85a9e553e8ca7e35e521f24"
-depends = "['enchant>=2.2.3', 'gtk+3>=3.24.0', 'icu4c>=75.1', 'iso-codes>=3.70-2']"
+size = "109800"
+usize = "749520"
+sha1sum = "90580b2273865652c14d75a6ded98f61d4e4d817"
+depends = "['enchant>=2.2.3', 'gtk+3>=3.24.0', 'icu4c>=76.1', 'iso-codes>=3.70-2']"
 reverse_depends = "['inkscape', 'wxwidgets']"
 +++
 ### Description: 

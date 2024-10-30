@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-fa 24.8.2.1-2"
-version = "24.8.2.1-2"
+title = "libreoffice-l10n-fa 24.8.2.1-3"
+version = "24.8.2.1-3"
 description = "Installs Persian support in LibreOffice"
-date = "2024-10-26T15:01:10"
+date = "2024-10-30T20:18:36"
 aliases = "/packages/104057"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "287520"
+size = "287824"
 usize = "1746480"
-sha1sum = "baf886d5f5dd0acd3702dbbaa4cb2950b1cf4af9"
+sha1sum = "62edd0c1312e7008a0aab02110a61fce24d87c9e"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-xh 24.8.2.1-2"
-version = "24.8.2.1-2"
+title = "libreoffice-l10n-xh 24.8.2.1-3"
+version = "24.8.2.1-3"
 description = "Installs Xhosa support in LibreOffice"
-date = "2024-10-26T15:01:10"
+date = "2024-10-30T20:18:36"
 aliases = "/packages/104137"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "215632"
+size = "215852"
 usize = "1341004"
-sha1sum = "fa4bb0ab5156b6a932ab6714eb323e8ecbbd8a93"
+sha1sum = "b096b2bd0a6ea3cd258f9ab711bfc31c68777500"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

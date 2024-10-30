@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freeciv 3.1.3-1"
-version = "3.1.3-1"
+title = "freeciv 3.1.3-2"
+version = "3.1.3-2"
 description = "A multiuser clone of the famous Microprose game of Civilization."
-date = "2024-10-16T16:55:08"
+date = "2024-10-28T14:18:20"
 aliases = "/packages/4179"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "31509244"
-usize = "87660431"
-sha1sum = "e6a8c76831e57ed6d08b1f4711734f065420ac21"
-depends = "['curl>=7.46.0', 'icu4c>=75.1', 'libxdamage', 'libxpm', 'ncurses', 'readline>=8.0', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3']"
+size = "31497752"
+usize = "87660399"
+sha1sum = "2034ad5fbcf44aaec1f6b56552356a3c53a61db6"
+depends = "['curl>=7.46.0', 'icu4c>=76.1', 'libxdamage', 'libxpm', 'ncurses', 'readline>=8.0', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3']"
 reverse_depends = "['freeciv-gtk2', 'freeciv-gtk3', 'freeciv-qt']"
 +++
 ### Description: 

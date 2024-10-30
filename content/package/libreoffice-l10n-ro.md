@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ro 24.8.2.1-2"
-version = "24.8.2.1-2"
+title = "libreoffice-l10n-ro 24.8.2.1-3"
+version = "24.8.2.1-3"
 description = "Installs Romanian support in LibreOffice"
-date = "2024-10-26T15:01:10"
+date = "2024-10-30T20:18:36"
 aliases = "/packages/104107"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4089420"
+size = "4090184"
 usize = "32651929"
-sha1sum = "792dcea845099d42e92f6e0cb93620f87039b5d3"
+sha1sum = "44f5a763071e2a96c98be6b49a24967589ea6ba3"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

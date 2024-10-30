@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "syncthingtray 1.6.3-1"
-version = "1.6.3-1"
+title = "syncthingtray 1.6.3-2"
+version = "1.6.3-2"
 description = "tray app for syncthing"
-date = "2024-10-21T12:59:42"
+date = "2024-10-30T16:22:47"
 aliases = "/packages/222522"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Martchus/syncthingtray"
 arch = "x86_64"
-size = "839732"
-usize = "3490058"
-sha1sum = "c85d587ecd2be558d56ce9e991e38810da620967"
-depends = "['cpp-utilities', 'libboost', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
+size = "839736"
+usize = "3490506"
+sha1sum = "c07a11b48c746add6840bc15a8fbd57296a600ca"
+depends = "['cpp-utilities', 'libboost>=1.86.0', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
 tray app for syncthing

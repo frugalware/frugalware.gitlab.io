@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freeorion 0.5.0.1-2"
-version = "0.5.0.1-2"
+title = "freeorion 0.5.0.1-3"
+version = "0.5.0.1-3"
 description = "Free Clone of Master of Orion"
-date = "2024-05-22T07:18:38"
+date = "2024-10-30T16:34:04"
 aliases = "/packages/136117"
 categories = ['games-extra']
 upstreamurl = "http://freeorion.org/"
 arch = "x86_64"
-size = "156543552"
-usize = "187535889"
-sha1sum = "c3c6e25f01da061b95f8db27ff4fadc7b2d935de"
-depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.85.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.12', 'sdl2>=2.0.4']"
+size = "156652404"
+usize = "187559801"
+sha1sum = "30ab6aa846f128bfb27975d17688a48975b4113d"
+depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.86.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.12', 'sdl2>=2.0.4']"
 +++
 ### Description: 
 Free Clone of Master of Orion

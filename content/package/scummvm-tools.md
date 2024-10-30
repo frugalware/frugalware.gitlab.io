@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scummvm-tools 2.7.0-3"
-version = "2.7.0-3"
+title = "scummvm-tools 2.7.0-4"
+version = "2.7.0-4"
 description = "The ScummVM tools enable you to convert, compress and decode game datafiles for ScummVM"
-date = "2024-05-22T15:53:14"
+date = "2024-10-30T15:56:35"
 aliases = "/packages/88948"
 categories = ['games-extra']
 upstreamurl = "http://www.scummvm.org/"
 arch = "x86_64"
-size = "1331352"
-usize = "7170512"
-sha1sum = "b83c7283eacdd415950bf6eb5833649f8f376e7e"
-depends = "['flac>=1.4.0', 'libboost>=1.85', 'libpng>=1.4.3', 'libvorbis', 'scummvm>=2.7.0', 'wxwidgets>=3.2.2.1']"
+size = "1317024"
+usize = "6965685"
+sha1sum = "fed99536f0b97c50cc9fcae86ead02594df784d6"
+depends = "['flac>=1.4.0', 'libboost>=1.86', 'libpng>=1.4.3', 'libvorbis', 'scummvm>=2.7.0', 'wxwidgets>=3.2.2.1']"
 +++
 ### Description: 
 The ScummVM tools enable you to convert, compress and decode game datafiles for ScummVM
@@ -59,14 +59,12 @@ The ScummVM tools enable you to convert, compress and decode game datafiles for 
 * /usr/bin/scummvm-tools
 * /usr/bin/scummvm-tools-cli
 * /usr/share/applications/scummvm-tools.desktop
-* /usr/share/doc/scummvm-tools-2.7.0/AUTHORS
 * /usr/share/doc/scummvm-tools-2.7.0/COPYING
 * /usr/share/doc/scummvm-tools-2.7.0/COPYING.BSD2
 * /usr/share/doc/scummvm-tools-2.7.0/COPYING.LUA
 * /usr/share/doc/scummvm-tools-2.7.0/COPYRIGHT
 * /usr/share/doc/scummvm-tools-2.7.0/NEWS
 * /usr/share/doc/scummvm-tools-2.7.0/README
-* /usr/share/doc/scummvm-tools-2.7.0/README.md
 * /usr/share/doc/scummvm-tools-2.7.0/TODO
 * /usr/share/scummvm-tools/detaillogo.jpg
 * /usr/share/scummvm-tools/logo.jpg

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-extras 16.4-1"
-version = "16.4-1"
+title = "postgresql-extras 17.0-1"
+version = "17.0-1"
 description = "PostgreSQL extra tools"
-date = "2024-08-09T11:49:07"
+date = "2024-10-30T12:55:55"
 aliases = "/packages/14944"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "487924"
-usize = "2018541"
-sha1sum = "058aab4bf3aecdf00adf04fb91c75185bde253d7"
-depends = "['libpq>=16.4', 'libxml2>=2.9.4-3', 'openssl>=3.0.7']"
+size = "487248"
+usize = "2011874"
+sha1sum = "f23a18dd8560083a16e32f719f535c51dbe3a906"
+depends = "['libpq>=17.0', 'libxml2>=2.9.4-3', 'openssl>=3.0.7']"
 +++
 ### Description: 
 PostgreSQL extra tools
@@ -24,7 +24,6 @@ PostgreSQL extra tools
 * /usr/include/postgresql/server/extension/isn/isn.h
 * /usr/include/postgresql/server/extension/ltree/ltree.h
 * /usr/include/postgresql/server/extension/seg/segdata.h
-* /usr/lib/postgresql/adminpack.so
 * /usr/lib/postgresql/amcheck.so
 * /usr/lib/postgresql/auth_delay.so
 * /usr/lib/postgresql/autoinc.so
@@ -54,7 +53,6 @@ PostgreSQL extra tools
 * /usr/lib/postgresql/ltree.so
 * /usr/lib/postgresql/ltree_plpython3.so
 * /usr/lib/postgresql/moddatetime.so
-* /usr/lib/postgresql/old_snapshot.so
 * /usr/lib/postgresql/pageinspect.so
 * /usr/lib/postgresql/passwordcheck.so
 * /usr/lib/postgresql/pgcrypto.so
@@ -80,19 +78,15 @@ PostgreSQL extra tools
 * /usr/lib/postgresql/tsm_system_time.so
 * /usr/lib/postgresql/unaccent.so
 * /usr/lib/postgresql/_int.so
-* /usr/share/doc/postgresql-16.4/extension/autoinc.example
-* /usr/share/doc/postgresql-16.4/extension/insert_username.example
-* /usr/share/doc/postgresql-16.4/extension/moddatetime.example
-* /usr/share/doc/postgresql-16.4/extension/refint.example
-* /usr/share/pgsql/extension/adminpack--1.0--1.1.sql
-* /usr/share/pgsql/extension/adminpack--1.0.sql
-* /usr/share/pgsql/extension/adminpack--1.1--2.0.sql
-* /usr/share/pgsql/extension/adminpack--2.0--2.1.sql
-* /usr/share/pgsql/extension/adminpack.control
+* /usr/share/doc/postgresql-17.0/extension/autoinc.example
+* /usr/share/doc/postgresql-17.0/extension/insert_username.example
+* /usr/share/doc/postgresql-17.0/extension/moddatetime.example
+* /usr/share/doc/postgresql-17.0/extension/refint.example
 * /usr/share/pgsql/extension/amcheck--1.0--1.1.sql
 * /usr/share/pgsql/extension/amcheck--1.0.sql
 * /usr/share/pgsql/extension/amcheck--1.1--1.2.sql
 * /usr/share/pgsql/extension/amcheck--1.2--1.3.sql
+* /usr/share/pgsql/extension/amcheck--1.3--1.4.sql
 * /usr/share/pgsql/extension/amcheck.control
 * /usr/share/pgsql/extension/autoinc--1.0.sql
 * /usr/share/pgsql/extension/autoinc.control
@@ -191,13 +185,12 @@ PostgreSQL extra tools
 * /usr/share/pgsql/extension/ltree--1.0--1.1.sql
 * /usr/share/pgsql/extension/ltree--1.1--1.2.sql
 * /usr/share/pgsql/extension/ltree--1.1.sql
+* /usr/share/pgsql/extension/ltree--1.2--1.3.sql
 * /usr/share/pgsql/extension/ltree.control
 * /usr/share/pgsql/extension/ltree_plpython3u--1.0.sql
 * /usr/share/pgsql/extension/ltree_plpython3u.control
 * /usr/share/pgsql/extension/moddatetime--1.0.sql
 * /usr/share/pgsql/extension/moddatetime.control
-* /usr/share/pgsql/extension/old_snapshot--1.0.sql
-* /usr/share/pgsql/extension/old_snapshot.control
 * /usr/share/pgsql/extension/pageinspect--1.0--1.1.sql
 * /usr/share/pgsql/extension/pageinspect--1.1--1.2.sql
 * /usr/share/pgsql/extension/pageinspect--1.10--1.11.sql
@@ -233,6 +226,7 @@ PostgreSQL extra tools
 * /usr/share/pgsql/extension/pg_buffercache--1.2--1.3.sql
 * /usr/share/pgsql/extension/pg_buffercache--1.2.sql
 * /usr/share/pgsql/extension/pg_buffercache--1.3--1.4.sql
+* /usr/share/pgsql/extension/pg_buffercache--1.4--1.5.sql
 * /usr/share/pgsql/extension/pg_buffercache.control
 * /usr/share/pgsql/extension/pg_freespacemap--1.0--1.1.sql
 * /usr/share/pgsql/extension/pg_freespacemap--1.1--1.2.sql
@@ -244,6 +238,7 @@ PostgreSQL extra tools
 * /usr/share/pgsql/extension/pg_prewarm.control
 * /usr/share/pgsql/extension/pg_stat_statements--1.0--1.1.sql
 * /usr/share/pgsql/extension/pg_stat_statements--1.1--1.2.sql
+* /usr/share/pgsql/extension/pg_stat_statements--1.10--1.11.sql
 * /usr/share/pgsql/extension/pg_stat_statements--1.2--1.3.sql
 * /usr/share/pgsql/extension/pg_stat_statements--1.3--1.4.sql
 * /usr/share/pgsql/extension/pg_stat_statements--1.4--1.5.sql

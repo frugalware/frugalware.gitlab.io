@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-harfbuzz 10.0.1-1"
-version = "10.0.1-1"
+title = "lib32-harfbuzz 10.0.1-2"
+version = "10.0.1-2"
 description = "Is an implementation of the OpenType Layout engine. ( 32bit )"
-date = "2024-10-03T12:23:19"
+date = "2024-10-28T12:25:29"
 aliases = "/packages/218973"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1003944"
-usize = "3292243"
-sha1sum = "13fb9ae79c144a11bf1426bdedbd7a0abbc18737"
+size = "1003776"
+usize = "3292203"
+sha1sum = "eabf26b0bc1d286268ee34a3b986ce8c836beb17"
 depends = "['lib32-cairo', 'lib32-glib2', 'lib32-icu4c', 'lib32-libffi', 'lib32-util-linux']"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++

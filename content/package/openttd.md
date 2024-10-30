@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openttd 14.1-2"
-version = "14.1-2"
+title = "openttd 14.1-3"
+version = "14.1-3"
 description = "An open source clone of the Microprose game Transport Tycoon Deluxe."
-date = "2024-08-14T17:40:43"
+date = "2024-10-29T17:47:18"
 aliases = "/packages/3755"
 categories = ['games-extra']
 upstreamurl = "http://www.openttd.org"
 arch = "x86_64"
-size = "6580568"
-usize = "25729982"
-sha1sum = "4df7b4e9b579e0aa2422fa0d1a764b80b65d8305"
-depends = "['fontconfig>=2.11.94-3', 'icu4c>=75.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl2', 'xz>=5.2.2-4']"
+size = "6574608"
+usize = "25717502"
+sha1sum = "f5143eb9b606afa8c2d04b6aee5c82aad09a4143"
+depends = "['fontconfig>=2.11.94-3', 'icu4c>=76.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl2', 'xz>=5.2.2-4']"
 +++
 ### Description: 
 An open source clone of the Microprose game Transport Tycoon Deluxe.

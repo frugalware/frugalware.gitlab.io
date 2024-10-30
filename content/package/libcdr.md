@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libcdr 0.1.7-9"
-version = "0.1.7-9"
+title = "libcdr 0.1.7-10"
+version = "0.1.7-10"
 description = "A library providing ability to interpret and import Corel Draw drawings into various applications."
-date = "2024-04-21T13:43:39"
+date = "2024-10-30T21:13:49"
 aliases = "/packages/153691"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libcdr"
 arch = "x86_64"
-size = "409136"
-usize = "947674"
-sha1sum = "0f9b0ebd6e97d3471ba6ffbc9b6d28035a6636ba"
-depends = "['icu4c>=75.1', 'lcms2>=2.8-2', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
+size = "411428"
+usize = "928426"
+sha1sum = "b8958fc052467c4765c17c70f933a1bab84e2ee9"
+depends = "['icu4c>=76.1', 'lcms2>=2.8-2', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
 reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
 ### Description: 

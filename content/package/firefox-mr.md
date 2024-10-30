@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-mr 131.0.3-1"
-version = "131.0.3-1"
+title = "firefox-mr 132.0-1"
+version = "132.0-1"
 description = "Marathi language support for Firefox"
-date = "2024-10-14T12:16:56"
+date = "2024-10-29T09:53:53"
 aliases = "/packages/73642"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "473376"
-usize = "536279"
-sha1sum = "508cc33e62155acc446664a60d8a263b94bbfaae"
-depends = "['firefox>=131.0.3']"
+size = "471856"
+usize = "535306"
+sha1sum = "257aa0044eca2d441f7953d7a4e3ba68b9578f9b"
+depends = "['firefox>=132.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

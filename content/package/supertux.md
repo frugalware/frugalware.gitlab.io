@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "supertux 0.6.3-6"
-version = "0.6.3-6"
+title = "supertux 0.6.3-7"
+version = "0.6.3-7"
 description = "SuperTux is a classic 2D jump'n run sidescroller game in a style similar to the original SuperMario games."
-date = "2024-05-22T16:05:17"
+date = "2024-10-30T16:19:06"
 aliases = "/packages/3846"
 categories = ['games-extra']
 upstreamurl = "http://supertux.lethargik.org/"
 arch = "x86_64"
-size = "164891768"
-usize = "250723289"
-sha1sum = "fac7915d065597cdb8174e8ad7c825554776c79b"
-depends = "['curl', 'glew>=2.2.0', 'glm', 'libboost>=1.85.0', 'libvorbis', 'openal>=1.7.411', 'physfs>=2.0.2', 'sdl2_image', 'sdl2_mixer']"
+size = "164741652"
+usize = "250829273"
+sha1sum = "4c2fce210ce048765aad2d335d2df89485ffadf1"
+depends = "['curl', 'glew>=2.2.0', 'libboost>=1.86.0', 'libvorbis', 'openal>=1.7.411', 'physfs>=2.0.2', 'sdl2_image', 'sdl2_mixer']"
 license = "GPL"
 +++
 ### Description: 

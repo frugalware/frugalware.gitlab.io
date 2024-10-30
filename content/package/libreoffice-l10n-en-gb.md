@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-en-gb 24.8.2.1-2"
-version = "24.8.2.1-2"
+title = "libreoffice-l10n-en-gb 24.8.2.1-3"
+version = "24.8.2.1-3"
 description = "Installs English (United Kingdom) support in LibreOffice"
-date = "2024-10-26T15:01:10"
+date = "2024-10-30T20:18:36"
 aliases = "/packages/104051"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4192400"
+size = "4191524"
 usize = "33735969"
-sha1sum = "4ac7bf8359c38d207e5c696d5b4e394de84e907a"
+sha1sum = "cf46210c31c0475eed61ea9b8534811757b1cac6"
 depends = "['libreoffice>=24.8.2.1']"
 +++
 ### Description: 

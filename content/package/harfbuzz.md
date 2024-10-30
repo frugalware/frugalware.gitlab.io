@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz 10.0.1-1"
-version = "10.0.1-1"
+title = "harfbuzz 10.0.1-2"
+version = "10.0.1-2"
 description = "Is an implementation of the OpenType Layout engine."
-date = "2024-10-03T12:23:19"
+date = "2024-10-28T12:25:29"
 aliases = "/packages/168883"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1249244"
+size = "1249192"
 usize = "7611450"
-sha1sum = "d165bb9b567d0960497529579fcb04154f399c65"
+sha1sum = "7025e656d7e883629c631d1de6bfa9db99acda6f"
 depends = "['freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++

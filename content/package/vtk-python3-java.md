@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-python3-java 9.3.1-1"
-version = "9.3.1-1"
+title = "vtk-python3-java 9.3.1-2"
+version = "9.3.1-2"
 description = "Java Python2 interface and bindings for vtk"
-date = "2024-09-11T14:18:43"
+date = "2024-10-30T15:36:38"
 aliases = "/packages/220830"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "7784"
-usize = "9768"
-sha1sum = "3dc9f32c49ea5abe57bd2a8a56b2e55b8e4a5ad9"
+size = "7836"
+usize = "9816"
+sha1sum = "572ebcec4d07e89fdfb665e0e4d855b45c7e2caf"
 depends = "['vtk>=9.3.1', 'vtk-java>=9.3.1', 'vtk-python3>=9.3.1']"
 +++
 ### Description: 

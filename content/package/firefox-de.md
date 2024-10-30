@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-de 131.0.3-1"
-version = "131.0.3-1"
+title = "firefox-de 132.0-1"
+version = "132.0-1"
 description = "German language support for Firefox"
-date = "2024-10-14T12:16:56"
+date = "2024-10-29T09:53:53"
 aliases = "/packages/3574"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "592668"
-usize = "645495"
-sha1sum = "9504b6127ea04c96da3fa86ccae5fa3392b9c53e"
-depends = "['firefox>=131.0.3']"
+size = "594144"
+usize = "647683"
+sha1sum = "541aba68e00b0ab2ed4dd449ceeb4121d11ccd67"
+depends = "['firefox>=132.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

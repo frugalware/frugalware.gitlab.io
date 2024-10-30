@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "glm 1.0.1-1"
-version = "1.0.1-1"
+title = "glm 1.0.1-2"
+version = "1.0.1-2"
 description = "OpenGL Mathematics"
-date = "2024-07-29T08:37:15"
+date = "2024-10-30T16:16:01"
 aliases = "/packages/200695"
 categories = ['x11-extra']
 upstreamurl = "https://github.com/g-truc/glm"
 arch = "x86_64"
-size = "169528"
-usize = "2196017"
-sha1sum = "222c10704cc1ebc1bd1d50e4341034eba81d83b5"
+size = "853552"
+usize = "4600279"
+sha1sum = "783ea5fa7b0462af910ee070fe29d51a86695ad6"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['kicad', 'performous', 'solarus', 'supertux']"
+reverse_depends = "['kicad', 'performous', 'solarus']"
 +++
 ### Description: 
 OpenGL Mathematics
@@ -446,6 +446,7 @@ OpenGL Mathematics
 * /usr/include/glm/vec3.hpp
 * /usr/include/glm/vec4.hpp
 * /usr/include/glm/vector_relational.hpp
+* /usr/lib/libglm.a
 * /usr/share/glm/glmConfig-release.cmake
 * /usr/share/glm/glmConfig.cmake
 * /usr/share/glm/glmConfigVersion.cmake

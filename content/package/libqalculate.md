@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libqalculate 5.3.0-1"
-version = "5.3.0-1"
+title = "libqalculate 5.3.0-2"
+version = "5.3.0-2"
 description = "A multi-purpose desktop calculator library"
-date = "2024-10-18T15:04:29"
+date = "2024-10-28T13:38:40"
 aliases = "/packages/74147"
 categories = ['lib']
 upstreamurl = "https://github.com/Qalculate/libqalculate"
 arch = "x86_64"
-size = "2692336"
-usize = "16164073"
-sha1sum = "a3dd5683408c5b655be3832a8f61694ca7723fcb"
-depends = "['cln>=1.3.4-3', 'curl', 'glib2>=2.49.7-2', 'icu4c>=75.1', 'libstdc++>=9.1.0-3', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'readline>=8.0']"
+size = "2688736"
+usize = "16164015"
+sha1sum = "24a4d468d56a7796a6b6c0bc194f9f7534fae323"
+depends = "['cln>=1.3.4-3', 'curl', 'glib2>=2.49.7-2', 'icu4c>=76.1', 'libstdc++>=9.1.0-3', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'readline>=8.0']"
 reverse_depends = "['cantor', 'kalk', 'plasma-workspace', 'step']"
 +++
 ### Description: 

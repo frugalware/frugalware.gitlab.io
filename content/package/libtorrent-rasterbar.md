@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtorrent-rasterbar 2.0.10-3"
-version = "2.0.10-3"
+title = "libtorrent-rasterbar 2.0.10-4"
+version = "2.0.10-4"
 description = "LibTorrent Rasterbar is a BitTorrent library written in C++"
-date = "2024-05-22T10:06:55"
+date = "2024-10-30T16:01:26"
 aliases = "/packages/39605"
 categories = ['lib-extra']
 upstreamurl = "http://www.libtorrent.org"
 arch = "x86_64"
-size = "1860792"
-usize = "6914995"
-sha1sum = "afa5f063acdff1045bd421fde7f5a83291ae40f9"
+size = "1860024"
+usize = "6923091"
+sha1sum = "b5c1bad90ff3c6d57328f087f5b71a643874b58f"
 depends = "['geoip>=1.4.8-2', 'openssl>=3.1.0']"
 reverse_depends = "['libtorrent-rasterbar-python', 'qbittorrent']"
 +++

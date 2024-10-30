@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "samba 4.21.1-2"
-version = "4.21.1-2"
+title = "samba 4.21.1-3"
+version = "4.21.1-3"
 description = "SMB file and print server."
-date = "2024-10-18T14:46:40"
+date = "2024-10-28T13:35:34"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7998152"
-usize = "60756344"
-sha1sum = "996bc9db7ae595b5f87f395776dddb510e808647"
+size = "7994284"
+usize = "60752856"
+sha1sum = "2bce5022de0d68747e7d036bf7d3e438d41df10a"
 depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.12', 'readline>=8.0', 'samba-client>=4.21.1', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++

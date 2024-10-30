@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "alicevision 3.2.0-1"
-version = "3.2.0-1"
+title = "alicevision 3.2.0-2"
+version = "3.2.0-2"
 description = "Photogrammetric Computer Vision Framework"
-date = "2024-05-14T13:52:27"
+date = "2024-10-30T16:28:34"
 aliases = "/packages/220130"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/alicevision/alicevision"
 arch = "x86_64"
-size = "10717200"
-usize = "49498622"
-sha1sum = "1eba58e33461930713428ed44b1abdf7f6849709"
-depends = "['alembic', 'assimp', 'ceres-solver>=2.2.0', 'coin-or-coinutils', 'coin-or-lemon', 'eigen', 'flann', 'geogram', 'imath', 'libboost>=1.83.0', 'libgomp', 'openexr', 'opengv', 'openimageio>=2.5.4.0', 'zlib>=1.2.12']"
+size = "10245836"
+usize = "47680166"
+sha1sum = "b5d59db9e664eac89b3e7df019b6aaa2ac723295"
+depends = "['alembic', 'assimp', 'ceres-solver>=2.2.0', 'coin-or-coinutils', 'coin-or-lemon', 'eigen', 'flann', 'geogram', 'imath', 'libboost>=1.86.0', 'libgomp', 'lz4', 'openexr', 'opengv', 'openimageio>=2.5.4.0', 'zlib>=1.2.12']"
 reverse_depends = "['meshroom']"
 +++
 ### Description: 

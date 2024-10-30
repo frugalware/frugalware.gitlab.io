@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "poedit 3.4.4-1"
-version = "3.4.4-1"
+title = "poedit 3.5.1-1"
+version = "3.5.1-1"
 description = "cross-platform gettext catalogs (.po files) editor"
-date = "2024-05-16T12:40:46"
+date = "2024-10-30T13:35:43"
 aliases = "/packages/3970"
 categories = ['xapps-extra']
 upstreamurl = "http://www.poedit.net/"
 arch = "x86_64"
-size = "1485156"
-usize = "7235246"
-sha1sum = "5d4758be05c6501cb61958c3fb17ce7c653b7295"
-depends = "['gtkspell3', 'icu4c>=75.1', 'libboost>=1.83.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
+size = "1490600"
+usize = "7251209"
+sha1sum = "434158722052f6da47f0b9d0d22e20bbb5d6b9e6"
+depends = "['gtkspell3', 'icu4c>=76.1', 'libboost>=1.86.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
 license = "MIT"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ cross-platform gettext catalogs (.po files) editor
 * /usr/bin/poedit
 * /usr/share/applications/net.poedit.Poedit.desktop
 * /usr/share/applications/net.poedit.PoeditURI.desktop
-* /usr/share/doc/poedit-3.4.4/AUTHORS
-* /usr/share/doc/poedit-3.4.4/COPYING
-* /usr/share/doc/poedit-3.4.4/NEWS
-* /usr/share/doc/poedit-3.4.4/README.md
+* /usr/share/doc/poedit-3.5.1/AUTHORS
+* /usr/share/doc/poedit-3.5.1/COPYING
+* /usr/share/doc/poedit-3.5.1/NEWS
+* /usr/share/doc/poedit-3.5.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/net.poedit.Poedit.png
 * /usr/share/icons/hicolor/16x16/apps/net.poedit.Poedit.png
 * /usr/share/icons/hicolor/24x24/apps/net.poedit.Poedit.png
@@ -106,7 +106,6 @@ cross-platform gettext catalogs (.po files) editor
 * /usr/share/poedit/icons/hicolor/scalable/actions/poedit-update-symbolic.svg
 * /usr/share/poedit/icons/hicolor/scalable/actions/poedit-validate-symbolic.svg
 * /usr/share/poedit/icons/hicolor/scalable/actions/sidebar-symbolic.svg
-* /usr/share/poedit/icons/ItemBookmarkTemplate.png
 * /usr/share/poedit/icons/ItemCommentTemplate.png
 * /usr/share/poedit/icons/LocalazyLogo.png
 * /usr/share/poedit/icons/poedit-status-cat-mid.png

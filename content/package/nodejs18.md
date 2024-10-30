@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs18 18.20.4-2"
-version = "18.20.4-2"
+title = "nodejs18 18.20.4-4"
+version = "18.20.4-4"
 description = "Evented I/O for V8 javascript (LTS release: Hydrogen)"
-date = "2024-09-23T15:41:59"
+date = "2024-10-29T17:41:27"
 aliases = "/packages/222532"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "10882724"
-usize = "50403050"
-sha1sum = "4df3fa940a60882c95170b12b20b26214d86e856"
+size = "10881172"
+usize = "50403037"
+sha1sum = "c4dfa95b9d6b127c1ad4db3d7bb536564439424f"
 depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools', 'zlib>=1.2.12']"
 license = "MIT"
 +++

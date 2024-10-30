@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scribus 1.7.0.26352-1"
-version = "1.7.0.26352-1"
+title = "scribus 1.7.0.26352-2"
+version = "1.7.0.26352-2"
 description = "A professional desktop publishing application."
-date = "2024-10-25T21:21:51"
+date = "2024-10-28T21:55:54"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "76413796"
-usize = "142950611"
-sha1sum = "a4298cbf12a3b98c8c4252a115f20b13cc60f772"
-depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=75.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.10.0', 'python3>=3.12', 'qt6-5compat>=6.8.0', 'qt6-svg>=6.8.0']"
+size = "76425448"
+usize = "143007963"
+sha1sum = "b295b2860add65b96152e960ea0a896a9b27fffd"
+depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=76.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.10.0', 'python3>=3.12', 'qt6-5compat>=6.8.0', 'qt6-svg>=6.8.0']"
 +++
 ### Description: 
 A professional desktop publishing application.
@@ -121,6 +121,11 @@ A professional desktop publishing application.
 * /usr/share/doc/scribus-1.7.0.26352/AUTHORS
 * /usr/share/doc/scribus-1.7.0.26352/ChangeLog
 * /usr/share/doc/scribus-1.7.0.26352/COPYING
+* /usr/share/doc/scribus-1.7.0.26352/COPYING.md
+* /usr/share/doc/scribus-1.7.0.26352/COPYRIGHT
+* /usr/share/doc/scribus-1.7.0.26352/HISTORY
+* /usr/share/doc/scribus-1.7.0.26352/INSTALL.rst
+* /usr/share/doc/scribus-1.7.0.26352/LICENSE
 * /usr/share/doc/scribus-1.7.0.26352/NEWS
 * /usr/share/doc/scribus-1.7.0.26352/README
 * /usr/share/doc/scribus-1.7.0.26352/README.MacOSX

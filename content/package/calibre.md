@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calibre 7.19.0-2"
-version = "7.19.0-2"
+title = "calibre 7.20.0-1"
+version = "7.20.0-1"
 description = "Ebook management application"
-date = "2024-10-16T07:34:23"
+date = "2024-10-29T13:04:23"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "28922332"
-usize = "69992190"
-sha1sum = "59c11c2819fd3d0ed4fc9fdd564ba42cdf3b4b63"
-depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=75.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
+size = "28488196"
+usize = "68850774"
+sha1sum = "38b3d44898495ca7b0451f5bf09a7a168fd6cd99"
+depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=76.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
 Ebook management application
@@ -512,6 +512,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/structure.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/__init__.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/toc.py
+* /usr/lib/calibre/calibre/ebooks/oeb/polish/tts.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/upgrade.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/utils.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/__init__.py
@@ -1154,6 +1155,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/tweak_book/templates.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/text_search.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/toc.py
+* /usr/lib/calibre/calibre/gui2/tweak_book/tts.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/ui.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/undo.py
 * /usr/lib/calibre/calibre/gui2/tweak_book/widgets.py
@@ -1223,6 +1225,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/plugins/cPalmdoc.so
 * /usr/lib/calibre/calibre/plugins/fast_css_transform.so
 * /usr/lib/calibre/calibre/plugins/fast_html_entities.so
+* /usr/lib/calibre/calibre/plugins/ffmpeg.so
 * /usr/lib/calibre/calibre/plugins/freetype.so
 * /usr/lib/calibre/calibre/plugins/html_as_json.so
 * /usr/lib/calibre/calibre/plugins/html_syntax_highlighter.so
@@ -1449,6 +1452,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/web/fetch/simple.py
 * /usr/lib/calibre/calibre/web/fetch/utils.py
 * /usr/lib/calibre/calibre/web/fetch/__init__.py
+* /usr/lib/calibre/calibre/web/site_parsers/natgeo.py
 * /usr/lib/calibre/calibre/web/site_parsers/nytimes.py
 * /usr/lib/calibre/calibre/web/site_parsers/__init__.py
 * /usr/lib/calibre/calibre/web/__init__.py
@@ -1942,10 +1946,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.19.0/COPYRIGHT
-* /usr/share/doc/calibre-7.19.0/INSTALL.rst
-* /usr/share/doc/calibre-7.19.0/LICENSE
-* /usr/share/doc/calibre-7.19.0/README.md
+* /usr/share/doc/calibre-7.20.0/COPYRIGHT
+* /usr/share/doc/calibre-7.20.0/INSTALL.rst
+* /usr/share/doc/calibre-7.20.0/LICENSE
+* /usr/share/doc/calibre-7.20.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png

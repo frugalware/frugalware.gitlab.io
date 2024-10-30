@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vte3 0.78.1-1"
-version = "0.78.1-1"
+title = "vte3 0.78.1-2"
+version = "0.78.1-2"
 description = "Virtual Terminal Emulator (gtk+4)"
-date = "2024-10-25T19:26:05"
+date = "2024-10-28T13:45:51"
 aliases = "/packages/118797"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "985116"
-usize = "5581705"
-sha1sum = "e7f667dcac8f625404db07d6d3077b57e5472b7d"
-depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=75.1']"
+size = "984556"
+usize = "5581513"
+sha1sum = "ac610f4209dfb3cde8992f6397f037e96d4b439f"
+depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=76.1']"
 reverse_depends = "['gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager', 'xcfa']"
 +++
 ### Description: 

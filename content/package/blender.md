@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "blender 4.2.2-1"
-version = "4.2.2-1"
+title = "blender 4.2.3-1"
+version = "4.2.3-1"
 description = "A 3D modeling/rendering/animation/gaming application"
-date = "2024-10-12T07:56:55"
+date = "2024-10-30T16:51:03"
 aliases = "/packages/2933"
 categories = ['xapps-extra']
 upstreamurl = "https://www.blender.org"
 arch = "x86_64"
-size = "60535868"
-usize = "209655253"
-sha1sum = "b0b42ea821d41f715daa06bdb8cf7aec9be1dd29"
-depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.82.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.3.0', 'openimageio>=2.1.12.0', 'openjpeg', 'openshadinglanguage', 'openvdb>=10.1.0', 'potrace', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl2']"
+size = "60533388"
+usize = "209678121"
+sha1sum = "0f02f59ca2701ff7a90b125a751d9e416d00d6da"
+depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.86.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.3.0', 'openimageio>=2.1.12.0', 'openjpeg', 'openshadinglanguage', 'openvdb>=10.1.0', 'potrace', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl2']"
 +++
 ### Description: 
 A 3D modeling/rendering/animation/gaming application
@@ -2174,9 +2174,9 @@ A 3D modeling/rendering/animation/gaming application
 * /usr/share/blender/4.2/scripts/templates_py/__pycache__/ui_previews_dynamic_enum.cpython-312.pyc
 * /usr/share/blender/4.2/scripts/templates_py/__pycache__/ui_tool_simple.cpython-312.pyc
 * /usr/share/blender/4.2/scripts/templates_toml/blender_manifest.toml
-* /usr/share/doc/blender-4.2.2/AUTHORS
-* /usr/share/doc/blender-4.2.2/COPYING
-* /usr/share/doc/blender-4.2.2/README.md
+* /usr/share/doc/blender-4.2.3/AUTHORS
+* /usr/share/doc/blender-4.2.3/COPYING
+* /usr/share/doc/blender-4.2.3/README.md
 * /usr/share/doc/blender/license/Apache-2.0.txt
 * /usr/share/doc/blender/license/bfont.ttf.txt
 * /usr/share/doc/blender/license/bmonofont-i18n.ttf.txt
