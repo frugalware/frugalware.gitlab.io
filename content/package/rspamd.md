@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rspamd 3.9.1-1"
-version = "3.9.1-1"
+title = "rspamd 3.10.2-1"
+version = "3.10.2-1"
 description = "Rapid spam filtering system."
-date = "2024-07-30T14:59:35"
+date = "2024-10-31T11:29:18"
 aliases = "/packages/219819"
 categories = ['network-extra']
 upstreamurl = "https://github.com/rspamd/rspamd"
 arch = "x86_64"
-size = "3809528"
-usize = "13609586"
-sha1sum = "3fd99deb728c4bcf8c1a425bcb46315141cb1caf"
-depends = "['glib2', 'hyperscan', 'icu4c>=75.1', 'libsodium>=1.0.19', 'luajit2']"
+size = "3838900"
+usize = "13752621"
+sha1sum = "44a2ca1856ca10b9e38b3d5fecf22ec431712f82"
+depends = "['glib2', 'hyperscan', 'icu4c>=76.1', 'libsodium>=1.0.19', 'luajit2']"
 +++
 ### Description: 
 Rapid spam filtering system.
@@ -109,11 +109,11 @@ Rapid spam filtering system.
 * /etc/rspamd/worker-normal.inc
 * /etc/rspamd/worker-proxy.inc
 * /usr/bin/rspamadm
-* /usr/bin/rspamadm-3.9.1
+* /usr/bin/rspamadm-3.10.2
 * /usr/bin/rspamc
-* /usr/bin/rspamc-3.9.1
+* /usr/bin/rspamc-3.10.2
 * /usr/bin/rspamd
-* /usr/bin/rspamd-3.9.1
+* /usr/bin/rspamd-3.10.2
 * /usr/bin/rspamd_stats
 * /usr/lib/rspamd/librspamd-actrie.so
 * /usr/lib/rspamd/librspamd-ev.so
@@ -123,8 +123,8 @@ Rapid spam filtering system.
 * /usr/lib/systemd/system/rspamd.service
 * /usr/lib/sysusers.d/rspamd.conf
 * /usr/lib/tmpfiles.d/rspamd.conf
-* /usr/share/doc/rspamd-3.9.1/ChangeLog
-* /usr/share/doc/rspamd-3.9.1/README.md
+* /usr/share/doc/rspamd-3.10.2/ChangeLog
+* /usr/share/doc/rspamd-3.10.2/README.md
 * /usr/share/man/man1/rspamadm.1.gz
 * /usr/share/man/man1/rspamc.1.gz
 * /usr/share/man/man8/rspamd.8.gz
@@ -246,6 +246,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/lupa.lua
 * /usr/share/rspamd/lualib/plugins/dmarc.lua
 * /usr/share/rspamd/lualib/plugins/neural.lua
+* /usr/share/rspamd/lualib/plugins/ratelimit.lua
 * /usr/share/rspamd/lualib/plugins/rbl.lua
 * /usr/share/rspamd/lualib/plugins_stats.lua
 * /usr/share/rspamd/lualib/redis_scripts/bayes_cache_check.lua
@@ -278,6 +279,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/rspamadm/mime.lua
 * /usr/share/rspamd/lualib/rspamadm/neural_test.lua
 * /usr/share/rspamd/lualib/rspamadm/publicsuffix.lua
+* /usr/share/rspamd/lualib/rspamadm/secretbox.lua
 * /usr/share/rspamd/lualib/rspamadm/statistics_dump.lua
 * /usr/share/rspamd/lualib/rspamadm/stat_convert.lua
 * /usr/share/rspamd/lualib/rspamadm/template.lua
