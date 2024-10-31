@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "webkit-gtk3 2.44.2-1"
-version = "2.44.2-1"
+title = "webkit-gtk3 2.46.3-1"
+version = "2.46.3-1"
 description = "Open source web browser engine gtk+3"
-date = "2024-06-12T08:30:36"
+date = "2024-10-31T17:22:37"
 aliases = "/packages/118799"
 categories = ['xlib-extra']
 upstreamurl = "http://www.webkitgtk.org"
 arch = "x86_64"
-size = "30011372"
-usize = "133912043"
-sha1sum = "2ceb25edd68ac3a9626abf488765ab871bdada4e"
-depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad-webrtc', 'gst1-plugins-good', 'gtk+3', 'harfbuzz-icu', 'hyphen', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
+size = "34794624"
+usize = "148660836"
+sha1sum = "f5853edcc3fbae7d7000e15914797fa7e0d0bc81"
+depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad-webrtc', 'gst1-plugins-good', 'gtk+3', 'harfbuzz-icu', 'hyphen', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup', 'libsysprof-capture', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
 reverse_depends = "['geany-plugins', 'nm-openconnect', 'remmina-www', 'telegram-desktop', 'wxwidgets']"
 +++
 ### Description: 
@@ -243,10 +243,10 @@ Open source web browser engine gtk+3
 * /usr/lib/girepository-1.0/WebKit2WebExtension-4.0.typelib
 * /usr/lib/libjavascriptcoregtk-4.0.so
 * /usr/lib/libjavascriptcoregtk-4.0.so.18
-* /usr/lib/libjavascriptcoregtk-4.0.so.18.24.6
+* /usr/lib/libjavascriptcoregtk-4.0.so.18.25.12
 * /usr/lib/libwebkit2gtk-4.0.so
 * /usr/lib/libwebkit2gtk-4.0.so.37
-* /usr/lib/libwebkit2gtk-4.0.so.37.68.6
+* /usr/lib/libwebkit2gtk-4.0.so.37.71.5
 * /usr/lib/pkgconfig/javascriptcoregtk-4.0.pc
 * /usr/lib/pkgconfig/webkit2gtk-4.0.pc
 * /usr/lib/pkgconfig/webkit2gtk-web-extension-4.0.pc
@@ -459,7 +459,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/javascriptcoregtk-4.0/style.css
 * /usr/share/doc/javascriptcoregtk-4.0/type_func.Context.get_current.html
 * /usr/share/doc/javascriptcoregtk-4.0/urlmap.js
-* /usr/share/doc/webkit-gtk3-2.44.2/NEWS
+* /usr/share/doc/webkit-gtk3-2.46.3/NEWS
 * /usr/share/doc/webkit2gtk-4.0/callback.URISchemeRequestCallback.html
 * /usr/share/doc/webkit2gtk-4.0/class.AuthenticationRequest.html
 * /usr/share/doc/webkit2gtk-4.0/class.AutomationSession.html
@@ -942,6 +942,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.SecurityOrigin.ref.html
 * /usr/share/doc/webkit2gtk-4.0/method.SecurityOrigin.to_string.html
 * /usr/share/doc/webkit2gtk-4.0/method.SecurityOrigin.unref.html
+* /usr/share/doc/webkit2gtk-4.0/method.Settings.apply_from_key_file.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_allow_file_access_from_file_urls.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_allow_modal_dialogs.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_allow_top_navigation_to_data_urls.html
@@ -954,6 +955,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_default_monospace_font_size.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_disable_web_security.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_draw_compositing_indicators.html
+* /usr/share/doc/webkit2gtk-4.0/method.Settings.get_enable_2d_canvas_acceleration.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_enable_accelerated_2d_canvas.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_enable_back_forward_navigation_gestures.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_enable_caret_browsing.html
@@ -1016,6 +1018,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_default_monospace_font_size.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_disable_web_security.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_draw_compositing_indicators.html
+* /usr/share/doc/webkit2gtk-4.0/method.Settings.set_enable_2d_canvas_acceleration.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_enable_accelerated_2d_canvas.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_enable_back_forward_navigation_gestures.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_enable_caret_browsing.html
@@ -1372,6 +1375,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.default-monospace-font-size.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.disable-web-security.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.draw-compositing-indicators.html
+* /usr/share/doc/webkit2gtk-4.0/property.Settings.enable-2d-canvas-acceleration.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.enable-accelerated-2d-canvas.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.enable-back-forward-navigation-gestures.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.enable-caret-browsing.html
@@ -1526,6 +1530,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/signal.AuthenticationRequest.authenticated.html
 * /usr/share/doc/webkit2gtk-4.0/signal.AuthenticationRequest.cancelled.html
 * /usr/share/doc/webkit2gtk-4.0/signal.AutomationSession.create-web-view.html
+* /usr/share/doc/webkit2gtk-4.0/signal.AutomationSession.will-close.html
 * /usr/share/doc/webkit2gtk-4.0/signal.BackForwardList.changed.html
 * /usr/share/doc/webkit2gtk-4.0/signal.ColorChooserRequest.finished.html
 * /usr/share/doc/webkit2gtk-4.0/signal.CookieManager.changed.html

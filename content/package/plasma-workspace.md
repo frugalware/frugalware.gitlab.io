@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-workspace 6.2.2-1"
-version = "6.2.2-1"
+title = "plasma-workspace 6.2.2-2"
+version = "6.2.2-2"
 description = "KDE Plasma Workspace."
-date = "2024-10-24T09:04:12"
+date = "2024-10-31T17:31:23"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20399932"
+size = "20464912"
 usize = "56727859"
-sha1sum = "0926efdeee51758f60e6ecfdcd4226bb8a81f9f7"
+sha1sum = "29be95ebd136e8632cfc9c69e8375bb87ad90672"
 depends = "['appstream-qt', 'baloo>=6.7.0', 'kcmutils>=6.7.0', 'kdeclarative>=6.7.0', 'kholidays>=6.7.0', 'kidletime>=6.7.0', 'kirigami-addons', 'knewstuff>=6.7.0', 'knotifyconfig>=6.7.0', 'kpackage>=6.7.0', 'kparts>=6.7.0', 'kquickcharts>=6.7.0', 'krunner>=6.7.0', 'ksvg>=6.7.0', 'ktexteditor>=6.7.0', 'kunitconversion>=6.7.0', 'kuserfeedback>=6.7.0', 'kwin>=6.2.2', 'libkexiv2', 'libksysguard>=6.2.2', 'libplasma>=6.2.2', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.7.0', 'plasma-activities-stats>=6.2.2', 'plasma5-integration>=6.2.2', 'plasma5support>=6.2.2', 'prison>=6.7.0', 'qcoro', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
 +++
