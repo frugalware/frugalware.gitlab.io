@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-kpathsea 2024.2-2"
-version = "2024.2-2"
+title = "texlive-kpathsea 2024.2-3"
+version = "2024.2-3"
 description = "Libkpathsea"
-date = "2024-04-29T13:48:09"
+date = "2024-10-31T12:55:43"
 aliases = "/packages/217875"
 categories = ['xlib']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "44044"
-usize = "100484"
-sha1sum = "dabaf1de8cd2122d3c69d7f1d19cf9ef53d70709"
+size = "44724"
+usize = "95476"
+sha1sum = "febd5f401e1aa61a3cabdb448923566864a4257f"
 depends = "[]"
 reverse_depends = "['texlive', 'texlive-utils']"
 +++

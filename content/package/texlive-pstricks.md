@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-pstricks 2024.2-2"
-version = "2024.2-2"
+title = "texlive-pstricks 2024.2-3"
+version = "2024.2-3"
 description = "Extra PsTricks packages for TeX Live"
-date = "2024-04-29T13:48:09"
+date = "2024-10-31T12:55:43"
 aliases = "/packages/102983"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "26385148"
+size = "26404644"
 usize = "37294676"
-sha1sum = "bcf5cf6187e958f9cef7377ed03f973b09a77370"
+sha1sum = "8136f556a7bdcf39780e3f083e5d462271fd7b35"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

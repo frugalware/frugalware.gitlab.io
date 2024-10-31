@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-graphics 2024.2-2"
-version = "2024.2-2"
+title = "texlive-graphics 2024.2-3"
+version = "2024.2-3"
 description = "Graphics packages for TeX Live"
-date = "2024-04-29T13:48:09"
+date = "2024-10-31T12:55:43"
 aliases = "/packages/102986"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6064600"
+size = "6132448"
 usize = "36589527"
-sha1sum = "f6b4decd9bcac9521754962420bf7b85276d5306"
+sha1sum = "2c0688b232167c5acd75055285962687131c42c1"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

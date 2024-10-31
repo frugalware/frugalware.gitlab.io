@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-ptexen 2024.2-2"
-version = "2024.2-2"
+title = "texlive-ptexen 2024.2-3"
+version = "2024.2-3"
 description = "Libptexen"
-date = "2024-04-29T13:48:09"
+date = "2024-10-31T12:55:43"
 aliases = "/packages/217876"
 categories = ['xlib-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "33124"
-usize = "55568"
-sha1sum = "2c512bec4d6f1d2570f3e4ff4625b9bde2994ba1"
+size = "33676"
+usize = "50952"
+sha1sum = "3fc7ce625f8925e55badb52b84a4b8b79dbd44b7"
 depends = "[]"
 reverse_depends = "['texlive', 'texlive-utils']"
 +++

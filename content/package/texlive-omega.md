@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-omega 2024.2-2"
-version = "2024.2-2"
+title = "texlive-omega 2024.2-3"
+version = "2024.2-3"
 description = "A 16-bit extended TeX"
-date = "2024-04-29T13:48:09"
+date = "2024-10-31T12:55:43"
 aliases = "/packages/219467"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1235032"
+size = "1238972"
 usize = "6449046"
-sha1sum = "a3a3b46455f373f9d869f92ee98fb16e7dcc7e76"
+sha1sum = "043c770719829094cf9fd22b3efaa6eb271e9693"
 depends = "['texlive=2024.2']"
 +++
 ### Description: 

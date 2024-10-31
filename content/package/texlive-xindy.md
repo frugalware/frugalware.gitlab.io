@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-xindy 2024.2-2"
-version = "2024.2-2"
+title = "texlive-xindy 2024.2-3"
+version = "2024.2-3"
 description = "Xindy package for TeX Live"
-date = "2024-04-29T13:48:09"
+date = "2024-10-31T12:55:43"
 aliases = "/packages/102976"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1910100"
-usize = "6912337"
-sha1sum = "920d02e70b103b62e6cfabb60a4daa21413d9c82"
+size = "1909192"
+usize = "6907807"
+sha1sum = "0b360afeb6a24f140a6083887573c6a3beb46754"
 depends = "['ffcall', 'libsigsegv', 'readline>=8.0', 'texlive=2024.2']"
 +++
 ### Description: 
