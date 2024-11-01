@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-webrtc 1.24.8-3"
-version = "1.24.8-3"
+title = "gst1-plugins-bad-webrtc 1.24.9-1"
+version = "1.24.9-1"
 description = "GStreamer WebRTC plugin (Bad)."
-date = "2024-10-15T09:25:37"
+date = "2024-11-01T15:54:57"
 aliases = "/packages/221259"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "138188"
-usize = "450141"
-sha1sum = "52c9ce82126af66df75bf8680ed00955d5c9cde6"
-depends = "['gst1-plugins-bad>=1.24.8', 'gst1-plugins-base>=1.24.8', 'webrtc-audio-processing']"
+size = "138368"
+usize = "450365"
+sha1sum = "0b8461c4d881803d50ce0ea5bcb18503fb38e3f3"
+depends = "['gst1-plugins-bad>=1.24.9', 'gst1-plugins-base>=1.24.9', 'webrtc-audio-processing']"
 reverse_depends = "['webkit-gtk3']"
 +++
 ### Description: 
@@ -39,9 +39,9 @@ GStreamer WebRTC plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstwebrtcdsp.so
 * /usr/lib/libgstwebrtc-1.0.so
 * /usr/lib/libgstwebrtc-1.0.so.0
-* /usr/lib/libgstwebrtc-1.0.so.0.2408.0
+* /usr/lib/libgstwebrtc-1.0.so.0.2409.0
 * /usr/lib/libgstwebrtcnice-1.0.so
 * /usr/lib/libgstwebrtcnice-1.0.so.0
-* /usr/lib/libgstwebrtcnice-1.0.so.0.2408.0
+* /usr/lib/libgstwebrtcnice-1.0.so.0.2409.0
 * /usr/lib/pkgconfig/gstreamer-webrtc-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-webrtc-nice-1.0.pc

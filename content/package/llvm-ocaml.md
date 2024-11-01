@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "llvm-ocaml 19.1.2-1"
-version = "19.1.2-1"
+title = "llvm-ocaml 19.1.3-1"
+version = "19.1.3-1"
 description = "OCaml bindings for LLVM"
-date = "2024-10-17T16:18:31"
+date = "2024-11-01T15:15:22"
 aliases = "/packages/136476"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "613256"
-usize = "932884"
-sha1sum = "b7a3659c3af50d0d80adf95fca03cfba423d3dd1"
-depends = "['llvm>=19.1.2', 'ocaml>=4.10.0']"
+size = "613700"
+usize = "932891"
+sha1sum = "e571e2568b28aec4d085f1ca98947693c49b6f66"
+depends = "['llvm>=19.1.3', 'ocaml>=4.10.0']"
 +++
 ### Description: 
 OCaml bindings for LLVM

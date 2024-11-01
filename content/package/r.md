@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "r 4.4.2-1"
-version = "4.4.2-1"
+title = "r 4.4.2-2"
+version = "4.4.2-2"
 description = "R is a language and environment for statistical computing and graphics."
-date = "2024-10-31T11:40:38"
+date = "2024-11-01T15:36:50"
 aliases = "/packages/73359"
 categories = ['xapps-extra']
 upstreamurl = "http://www.r-project.org"
 arch = "x86_64"
-size = "46736980"
-usize = "76013221"
-sha1sum = "839d51705584ebae5e0cbfd2890217a42cb80c88"
-depends = "['curl', 'icu4c>=76.1', 'lapack>=3.6.0-2', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'pango>=1.38.1-2', 'readline>=8.0']"
+size = "46747184"
+usize = "76039604"
+sha1sum = "c275f0bbe102e85ab4eb6fa3d76739117b54c6c3"
+depends = "['curl', 'icu4c>=76.1', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'openblas', 'pango>=1.38.1-2', 'readline>=8.0']"
 reverse_depends = "['cantor', 'rkward']"
 +++
 ### Description: 

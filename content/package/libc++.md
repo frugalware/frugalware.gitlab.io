@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libc++ 19.1.2-1"
-version = "19.1.2-1"
+title = "libc++ 19.1.3-1"
+version = "19.1.3-1"
 description = "A new implementation of the C++ standard library"
-date = "2024-10-17T16:18:31"
+date = "2024-11-01T15:15:22"
 aliases = "/packages/219307"
 categories = ['lib-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1078040"
+size = "1078356"
 usize = "8903402"
-sha1sum = "b88e0691e0efff0d688cf0a4bf847907a4badf1b"
+sha1sum = "b9cd0e0ac389b60dd96d02df500e94e36b49d4ce"
 depends = "['libgcc']"
 +++
 ### Description: 

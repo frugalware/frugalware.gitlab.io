@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mlir 19.1.2-1"
-version = "19.1.2-1"
+title = "mlir 19.1.3-1"
+version = "19.1.3-1"
 description = "Multi-Level Intermediate Representation"
-date = "2024-10-17T16:18:31"
+date = "2024-11-01T15:15:22"
 aliases = "/packages/220528"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "96689628"
+size = "96689700"
 usize = "761319479"
-sha1sum = "7f955ab865c82fbed4f57b884a36e136ca313551"
-depends = "['llvm-libs>=19.1.2']"
+sha1sum = "245a36be247d0f6d398b73b5905e7a2ae6e68aa7"
+depends = "['llvm-libs>=19.1.3']"
 +++
 ### Description: 
 Multi-Level Intermediate Representation

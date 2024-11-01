@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-fonts 24.9.1-1"
-version = "24.9.1-1"
+title = "noto-fonts 2024.11.01-1"
+version = "2024.11.01-1"
 description = "Noto fonts"
-date = "2024-09-01T11:26:24"
+date = "2024-11-01T16:04:59"
 aliases = "/packages/218387"
 categories = ['x11']
 upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
-size = "33959568"
-usize = "117531122"
-sha1sum = "8a3c55aeb587dac75d8b7c7907a791a8258d4eb2"
+size = "34286652"
+usize = "117452222"
+sha1sum = "5eee4f2335274094ddaa4fd816bf655318f5ecff"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumina-desktop', 'plasma-integration', 'plasma5-integration']"
 +++
@@ -18,8 +18,8 @@ reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumi
 Noto fonts
 
 ### Files: 
-* /usr/share/doc/noto-fonts-24.9.1/LICENSE
-* /usr/share/doc/noto-fonts-24.9.1/README.md
+* /usr/share/doc/noto-fonts-2024.11.01/LICENSE
+* /usr/share/doc/noto-fonts-2024.11.01/README.md
 * /usr/share/fontconfig/conf.avail/46-noto-mono.conf
 * /usr/share/fontconfig/conf.avail/46-noto-sans.conf
 * /usr/share/fontconfig/conf.avail/46-noto-serif.conf

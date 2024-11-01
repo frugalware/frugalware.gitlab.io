@@ -12,7 +12,7 @@ size = "1341464"
 usize = "8505199"
 sha1sum = "567802746c1283f23aab92afe5f99134c1e762f9"
 depends = "['icu4c>=76.1']"
-reverse_depends = "['enigma', 'megaglest', 'virtualbox', 'xalan-c', 'xqilla']"
+reverse_depends = "['enigma', 'megaglest', 'virtualbox', 'xalan-c']"
 +++
 ### Description: 
 Xerces2 C++ Parser

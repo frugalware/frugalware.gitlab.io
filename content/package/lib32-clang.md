@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-clang 19.1.2-1"
-version = "19.1.2-1"
+title = "lib32-clang 19.1.3-1"
+version = "19.1.3-1"
 description = "C/C++ language family frontend for LLVM (32-bit)"
-date = "2024-10-17T16:18:31"
+date = "2024-11-01T15:15:22"
 aliases = "/packages/218875"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "23037116"
-usize = "188005714"
-sha1sum = "9d3fa0290b932f04db98992ef3c8dfe799626beb"
-depends = "['lib32-clang-libs>=19.1.2', 'lib32-libffi>=3.4', 'lib32-libxml2']"
+size = "23075592"
+usize = "188020482"
+sha1sum = "198ab2baa13d590b46a56c7b04e0e101c7a8d13e"
+depends = "['lib32-clang-libs>=19.1.3', 'lib32-libffi>=3.4', 'lib32-libxml2']"
 +++
 ### Description: 
 C/C++ language family frontend for LLVM (32-bit)
