@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxml2 2.13.4-4"
-version = "2.13.4-4"
+title = "libxml2 2.13.4-5"
+version = "2.13.4-5"
 description = "XML parsing library"
-date = "2024-10-28T17:55:43"
+date = "2024-11-01T22:00:13"
 aliases = "/packages/3212"
 categories = ['lib']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "684896"
+size = "684116"
 usize = "2211526"
-sha1sum = "cf5901e8b6aa3d94420b50f64700b97dfbabdd8e"
+sha1sum = "b451cf3747127e57a9120fc155f3d60f26ffb16b"
 depends = "['icu4c>=76.1', 'xz>=5.2.4-2', 'zlib>=1.2.12']"
 reverse_depends = "['apache', 'aria2', 'at-spi2-core', 'augeas', 'autogen', 'autopano-sift-c', 'bind', 'clamav', 'clang', 'clang-libs', 'clang15', 'clang15-libs', 'conky', 'distcc-gui', 'docbook-xml', 'ebook-tools', 'fluxbox', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'gdal', 'glade', 'graphicsmagick', 'gtk2-sharp', 'gtk3-sharp', 'gtksourceview4', 'gtkspell', 'gutenprint', 'guvcview', 'hivex', 'hwloc', 'ices', 'intel-graphics-compiler', 'libbluray', 'libcmis', 'libcroco', 'libgnt', 'libgsf', 'libguestfs', 'libical', 'libiio', 'liblangtag', 'libmusicbrainz', 'libplist', 'libqalculate', 'librdf', 'libreoffice', 'librest', 'libsoup', 'libvips', 'libvirt', 'libvisio', 'libxkbcommon', 'libxml++2', 'libxml2-docs', 'libxml2-python', 'libxslt', 'llvm15-libs', 'm17n-lib', 'mariadb', 'mlt-jack', 'mod_security', 'naev', 'netpbm', 'nfs-utils', 'notification-daemon', 'ocaml', 'opencollada', 'openconnect', 'openslide', 'openturns', 'pdal-postgresql', 'phonon-qt5', 'phonon-qt6', 'php', 'php-embed', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'printoxx', 'ptabtools', 'python3-html5-parser', 'python3-lxml', 'qt5-webengine', 'raptor', 'rng-tools', 'rrdtool', 'ruby', 'rust', 'shared-mime-info', 'sim', 'spirv-llvm-translator', 'telepathy-logger', 'tk', 'uwsgi', 'uwsgi-plugin-airbrake', 'uwsgi-plugin-xslt', 'vcdimager', 'wayland', 'wimlib', 'wine', 'wine-devel', 'wxmaxima', 'xcfa', 'xmlrpc-c', 'xmlsec1', 'xpad']"
 +++
