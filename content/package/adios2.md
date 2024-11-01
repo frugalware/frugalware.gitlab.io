@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "adios2 2.10.1-1"
-version = "2.10.1-1"
+title = "adios2 2.10.1-2"
+version = "2.10.1-2"
 description = "Next generation of ADIOS developed in the Exascale Computing Program"
-date = "2024-06-27T11:43:38"
+date = "2024-11-01T17:43:23"
 aliases = "/packages/220262"
 categories = ['lib-extra']
 upstreamurl = "https://adios2.readthedocs.io/en/latest/index.html"
 arch = "x86_64"
-size = "3320652"
-usize = "15426174"
-sha1sum = "7f3f4a370d34c6ff359dcde98058368c236067e3"
+size = "3304624"
+usize = "15508270"
+sha1sum = "0025065720c0f8d1d25b0aa2eb817f3cd27ae392"
 depends = "['blosc', 'hdf5', 'libfabric', 'libpng', 'libsodium>=1.0.19', 'python3-numpy', 'sz', 'zeromq', 'zfp>=1.0.0']"
 reverse_depends = "['vtk']"
 +++
@@ -361,27 +361,27 @@ Next generation of ADIOS developed in the Exascale Computing Program
 * /usr/lib/libadios2_perfstubs.so.2.10
 * /usr/lib/libadios2_perfstubs.so.2.10.1
 * /usr/lib/libEncryptionOperator.so
-* /usr/lib/python3.12/site-packages/adios2/adios.py
-* /usr/lib/python3.12/site-packages/adios2/attribute.py
-* /usr/lib/python3.12/site-packages/adios2/bindings/adios2_bindings.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/adios2/bindings/__init__.py
-* /usr/lib/python3.12/site-packages/adios2/bp4dbg/data.py
-* /usr/lib/python3.12/site-packages/adios2/bp4dbg/idxtable.py
-* /usr/lib/python3.12/site-packages/adios2/bp4dbg/metadata.py
-* /usr/lib/python3.12/site-packages/adios2/bp4dbg/utils.py
-* /usr/lib/python3.12/site-packages/adios2/bp4dbg/__init__.py
-* /usr/lib/python3.12/site-packages/adios2/bp5dbg/idxtable.py
-* /usr/lib/python3.12/site-packages/adios2/bp5dbg/metadata.py
-* /usr/lib/python3.12/site-packages/adios2/bp5dbg/metametadata.py
-* /usr/lib/python3.12/site-packages/adios2/bp5dbg/utils.py
-* /usr/lib/python3.12/site-packages/adios2/bp5dbg/__init__.py
-* /usr/lib/python3.12/site-packages/adios2/engine.py
-* /usr/lib/python3.12/site-packages/adios2/file_reader.py
-* /usr/lib/python3.12/site-packages/adios2/io.py
-* /usr/lib/python3.12/site-packages/adios2/operator.py
-* /usr/lib/python3.12/site-packages/adios2/stream.py
-* /usr/lib/python3.12/site-packages/adios2/test/simple_read_write.py
-* /usr/lib/python3.12/site-packages/adios2/test/__init__.py
-* /usr/lib/python3.12/site-packages/adios2/variable.py
-* /usr/lib/python3.12/site-packages/adios2/__init__.py
+* /usr/lib/python3.13/site-packages/adios2/adios.py
+* /usr/lib/python3.13/site-packages/adios2/attribute.py
+* /usr/lib/python3.13/site-packages/adios2/bindings/adios2_bindings.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/adios2/bindings/__init__.py
+* /usr/lib/python3.13/site-packages/adios2/bp4dbg/data.py
+* /usr/lib/python3.13/site-packages/adios2/bp4dbg/idxtable.py
+* /usr/lib/python3.13/site-packages/adios2/bp4dbg/metadata.py
+* /usr/lib/python3.13/site-packages/adios2/bp4dbg/utils.py
+* /usr/lib/python3.13/site-packages/adios2/bp4dbg/__init__.py
+* /usr/lib/python3.13/site-packages/adios2/bp5dbg/idxtable.py
+* /usr/lib/python3.13/site-packages/adios2/bp5dbg/metadata.py
+* /usr/lib/python3.13/site-packages/adios2/bp5dbg/metametadata.py
+* /usr/lib/python3.13/site-packages/adios2/bp5dbg/utils.py
+* /usr/lib/python3.13/site-packages/adios2/bp5dbg/__init__.py
+* /usr/lib/python3.13/site-packages/adios2/engine.py
+* /usr/lib/python3.13/site-packages/adios2/file_reader.py
+* /usr/lib/python3.13/site-packages/adios2/io.py
+* /usr/lib/python3.13/site-packages/adios2/operator.py
+* /usr/lib/python3.13/site-packages/adios2/stream.py
+* /usr/lib/python3.13/site-packages/adios2/test/simple_read_write.py
+* /usr/lib/python3.13/site-packages/adios2/test/__init__.py
+* /usr/lib/python3.13/site-packages/adios2/variable.py
+* /usr/lib/python3.13/site-packages/adios2/__init__.py
 * /usr/share/doc/adios2-2.10.1/LICENSE

@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "python3-static 3.12.7-2"
-version = "3.12.7-2"
+title = "python3-static 3.13.0-1"
+version = "3.13.0-1"
 description = "Static files for python3"
-date = "2024-10-24T14:11:10"
+date = "2024-11-01T17:21:58"
 aliases = "/packages/219941"
 categories = ['devel-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "29540352"
-usize = "42957208"
-sha1sum = "a05bd99d1e24e0f266039a5dd23115fba0ec127b"
+size = "30628912"
+usize = "40804162"
+sha1sum = "f76f87032400ea9958fb052740e10b386ae267c7"
 depends = "[]"
 +++
 ### Description: 
 Static files for python3
 
 ### Files: 
-* /usr/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a
+* /usr/lib/python3.13/config-3.13-x86_64-linux-gnu/libpython3.13.a
