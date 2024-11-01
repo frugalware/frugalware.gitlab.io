@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "konsole 24.08.2-1"
-version = "24.08.2-1"
+title = "konsole 24.08.2-2"
+version = "24.08.2-2"
 description = "KDE Terminal emulator."
-date = "2024-10-15T12:39:19"
+date = "2024-11-01T09:38:53"
 aliases = "/packages/88141"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1980424"
+size = "1980460"
 usize = "9437605"
-sha1sum = "5a402dd8eaf87b08b6a322338b2df9940dd65f5b"
+sha1sum = "1c7c6109a6f93a9e9e302c7bc3220c81e5970ad0"
 depends = "['knewstuff>=6.7.0', 'knotifyconfig>=6.7.0', 'kparts>=6.7.0', 'kpty>=6.7.0']"
 +++
 ### Description: 

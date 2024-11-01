@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "chromium-browser 130.0.6723.69-1"
-version = "130.0.6723.69-1"
+title = "chromium-browser 130.0.6723.69-2"
+version = "130.0.6723.69-2"
 description = "Chromium browser"
-date = "2024-10-28T13:19:06"
+date = "2024-11-01T02:19:40"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "116324260"
-usize = "448013528"
-sha1sum = "c1a9fb4d9748c73d225f2bfa646965d39d4c4474"
-depends = "['curl', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'icu4c>=75.1', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
+size = "121985652"
+usize = "464113238"
+sha1sum = "48618a46124c93cef72b382b9303046006792355"
+depends = "['curl', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
 ### Description: 
@@ -29,6 +29,7 @@ Chromium browser
 * /usr/lib/chromium/headless_command_resources.pak
 * /usr/lib/chromium/headless_lib_data.pak
 * /usr/lib/chromium/headless_lib_strings.pak
+* /usr/lib/chromium/icudtl.dat
 * /usr/lib/chromium/libEGL.so
 * /usr/lib/chromium/libffmpeg.so
 * /usr/lib/chromium/libGLESv2.so
