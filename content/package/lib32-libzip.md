@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libzip 1.11.1-1"
-version = "1.11.1-1"
+title = "lib32-libzip 1.11.2-1"
+version = "1.11.2-1"
 description = "libzip is a C library for reading, creating, and modifying zip archives. ( 32bit )"
-date = "2024-09-21T18:26:09"
+date = "2024-11-01T16:55:15"
 aliases = "/packages/220330"
 categories = ['lib32-extra']
 upstreamurl = "http://www.nih.at/libzip/"
 arch = "x86_64"
-size = "78848"
-usize = "212042"
-sha1sum = "0b0cef6e8c16798188c5c8837049d9e9b64cf011"
+size = "78932"
+usize = "212170"
+sha1sum = "2a32612d078db83cd83996df0479547f09efa859"
 depends = "['lib32-bzip2', 'lib32-gnutls', 'lib32-openssl>=3.0.7', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
 +++
 ### Description: 

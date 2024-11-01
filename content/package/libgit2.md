@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgit2 1.8.3-1"
-version = "1.8.3-1"
+title = "libgit2 1.8.4-1"
+version = "1.8.4-1"
 description = "portable, pure C implementation of the Git core methods"
-date = "2024-10-27T11:18:08"
+date = "2024-11-01T16:52:23"
 aliases = "/packages/200575"
 categories = ['lib']
 upstreamurl = "http://libgit2.github.com/"
 arch = "x86_64"
-size = "888904"
-usize = "3052185"
-sha1sum = "b829f27596f5c74fb3733afee4ab653b0cb444cf"
+size = "889156"
+usize = "3052182"
+sha1sum = "85b123b2b5267eee5216c1546c35843a83478971"
 depends = "['http-parser', 'libssh2', 'pcre2']"
 reverse_depends = "['julia', 'kate', 'kicad', 'ktexteditor', 'ktexteditor5', 'kup']"
 +++
@@ -115,8 +115,8 @@ portable, pure C implementation of the Git core methods
 * /usr/include/git2/worktree.h
 * /usr/lib/libgit2.so
 * /usr/lib/libgit2.so.1.8
-* /usr/lib/libgit2.so.1.8.3
+* /usr/lib/libgit2.so.1.8.4
 * /usr/lib/pkgconfig/libgit2.pc
-* /usr/share/doc/libgit2-1.8.3/AUTHORS
-* /usr/share/doc/libgit2-1.8.3/COPYING
-* /usr/share/doc/libgit2-1.8.3/README.md
+* /usr/share/doc/libgit2-1.8.4/AUTHORS
+* /usr/share/doc/libgit2-1.8.4/COPYING
+* /usr/share/doc/libgit2-1.8.4/README.md

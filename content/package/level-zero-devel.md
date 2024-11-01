@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "level-zero-devel 1.18.4-1"
-version = "1.18.4-1"
+title = "level-zero-devel 1.18.5-1"
+version = "1.18.5-1"
 description = "level-zero devel"
-date = "2024-10-27T11:47:19"
+date = "2024-11-01T16:56:14"
 aliases = "/packages/220868"
 categories = ['devel-extra']
 upstreamurl = "https://spec.oneapi.com/versions/latest/elements/l0/source/index.html"
 arch = "x86_64"
-size = "129236"
+size = "129192"
 usize = "1811559"
-sha1sum = "0203340808558e655461b3c6c102dc1c0fc3c1a3"
+sha1sum = "a67d7ab53199293dbf4097019e43211c8ecceab4"
 depends = "['glibc']"
 +++
 ### Description: 

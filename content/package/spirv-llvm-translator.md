@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spirv-llvm-translator 19.1.0-1"
-version = "19.1.0-1"
+title = "spirv-llvm-translator 19.1.1-1"
+version = "19.1.1-1"
 description = "Tool and a library for bi-directional translation between SPIR-V and LLVM IR"
-date = "2024-10-12T21:18:41"
+date = "2024-11-01T16:50:48"
 aliases = "/packages/220082"
 categories = ['devel']
 upstreamurl = "https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
 arch = "x86_64"
-size = "798928"
-usize = "4059300"
-sha1sum = "cb42b3d75aa79b47da0e8d4063381906bf0e8deb"
+size = "801996"
+usize = "4066768"
+sha1sum = "3b8b8aa154c1bfccb406a579bd0a6358231d58dd"
 depends = "['libxml2', 'llvm-libs>=19.1.1', 'spirv-tools']"
 reverse_depends = "['opencl-clover', 'opencl-rusticl']"
 +++
@@ -25,4 +25,4 @@ Tool and a library for bi-directional translation between SPIR-V and LLVM IR
 * /usr/lib/libLLVMSPIRVLib.so
 * /usr/lib/libLLVMSPIRVLib.so.19.1
 * /usr/lib/pkgconfig/LLVMSPIRVLib.pc
-* /usr/share/doc/spirv-llvm-translator-19.1.0/README.md
+* /usr/share/doc/spirv-llvm-translator-19.1.1/README.md

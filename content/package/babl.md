@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "babl 0.1.108-1"
-version = "0.1.108-1"
+title = "babl 0.1.110-1"
+version = "0.1.110-1"
 description = "Babl is a dynamic, any to any, pixel format conversion library."
-date = "2024-02-20T10:12:44"
+date = "2024-11-01T16:53:23"
 aliases = "/packages/38617"
 categories = ['lib']
 upstreamurl = "http://www.gegl.org/babl"
 arch = "x86_64"
-size = "449992"
-usize = "2170310"
-sha1sum = "ff41716778fda38953fe89fa93b7bc3de75510e5"
+size = "432092"
+usize = "1822860"
+sha1sum = "c89e6acf0ae5a704faf3be94c1ccbe030111ab0e"
 depends = "['lcms2']"
 reverse_depends = "['gegl']"
 +++
@@ -81,13 +81,13 @@ Babl is a dynamic, any to any, pixel format conversion library.
 * /usr/lib/girepository-1.0/Babl-0.1.typelib
 * /usr/lib/libbabl-0.1.so
 * /usr/lib/libbabl-0.1.so.0
-* /usr/lib/libbabl-0.1.so.0.207.1
+* /usr/lib/libbabl-0.1.so.0.209.1
 * /usr/lib/pkgconfig/babl-0.1.pc
-* /usr/share/doc/babl-0.1.108/AUTHORS
-* /usr/share/doc/babl-0.1.108/COPYING
-* /usr/share/doc/babl-0.1.108/INSTALL.in
-* /usr/share/doc/babl-0.1.108/NEWS
-* /usr/share/doc/babl-0.1.108/TODO
+* /usr/share/doc/babl-0.1.110/AUTHORS
+* /usr/share/doc/babl-0.1.110/COPYING
+* /usr/share/doc/babl-0.1.110/INSTALL.in
+* /usr/share/doc/babl-0.1.110/NEWS
+* /usr/share/doc/babl-0.1.110/TODO
 * /usr/share/gir-1.0/Babl-0.1.gir
 * /usr/share/vala/vapi/babl-0.1.deps
 * /usr/share/vala/vapi/babl-0.1.vapi
