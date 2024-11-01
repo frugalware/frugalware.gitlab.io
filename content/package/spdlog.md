@@ -12,7 +12,7 @@ size = "148656"
 usize = "711970"
 sha1sum = "edd5327b69be0b4438d603ae4bcaa6ae4669a3f0"
 depends = "['fmtlib']"
-reverse_depends = "['level-zero']"
+reverse_depends = "['cryfs', 'level-zero']"
 +++
 ### Description: 
 Very fast, header-only/compiled, C++ logging library

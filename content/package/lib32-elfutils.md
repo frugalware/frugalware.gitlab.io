@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-elfutils 0.192-3"
-version = "0.192-3"
+title = "lib32-elfutils 0.192-4"
+version = "0.192-4"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information ( 32bit )"
-date = "2024-10-21T13:25:07"
+date = "2024-11-01T12:58:02"
 aliases = "/packages/217724"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "779808"
-usize = "4140304"
-sha1sum = "4283dedd6cee141ebb40daee21821f5f1f45442a"
+size = "767888"
+usize = "4098442"
+sha1sum = "5493f5c510bb2fe58efd24c5bb5e9408f0326896"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-json-c', 'lib32-libarchive', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
 reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-glib2', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-opemax', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils']"
 +++
@@ -31,7 +31,6 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/i686-frugalware-linux/bin/eu-ranlib
 * /usr/i686-frugalware-linux/bin/eu-readelf
 * /usr/i686-frugalware-linux/bin/eu-size
-* /usr/i686-frugalware-linux/bin/eu-srcfiles
 * /usr/i686-frugalware-linux/bin/eu-stack
 * /usr/i686-frugalware-linux/bin/eu-strings
 * /usr/i686-frugalware-linux/bin/eu-strip

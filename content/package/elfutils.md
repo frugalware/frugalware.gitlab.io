@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils 0.192-3"
-version = "0.192-3"
+title = "elfutils 0.192-4"
+version = "0.192-4"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information"
-date = "2024-10-21T13:25:07"
+date = "2024-11-01T12:58:02"
 aliases = "/packages/137191"
 categories = ['base']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "875868"
+size = "873464"
 usize = "5060499"
-sha1sum = "91beb39d7b5f276091ce75c602332920343d7b33"
+sha1sum = "9f53ccdc1c37f6901023060236f1b8c3b1f6a87d"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.35', 'json-c', 'libarchive', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib>=1.2.12', 'zstd']"
 reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libbpf', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-nine', 'mesa-opemax', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++

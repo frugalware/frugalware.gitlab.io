@@ -12,7 +12,7 @@ size = "3525572"
 usize = "12620044"
 sha1sum = "a57fd310201dccd76d8cbf92312f5c4359191e81"
 depends = "['zlib>=1.2.12']"
-reverse_depends = "['insight-toolkit', 'postgresql-pltcl', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
+reverse_depends = "['insight-toolkit', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++
 ### Description: 
 The Tcl scripting language

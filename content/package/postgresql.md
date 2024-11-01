@@ -12,7 +12,7 @@ size = "9452092"
 usize = "44331662"
 sha1sum = "471117adeea255285b75690846a7312d142f1c4b"
 depends = "['icu4c>=76.1', 'libpq>=17.0', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
-reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', 'postgresql-plpython', 'postgresql-pltcl', 'vtk']"
+reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', 'postgresql-plpython', 'vtk']"
 +++
 ### Description: 
 An advanced Object-Relational database management system (DBMS)
