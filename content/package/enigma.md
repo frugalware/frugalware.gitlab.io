@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "enigma 1.30-1"
-version = "1.30-1"
+title = "enigma 1.30-2"
+version = "1.30-2"
 description = "Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the Amiga."
-date = "2023-03-14T09:24:03"
+date = "2024-11-01T10:51:15"
 aliases = "/packages/49341"
 categories = ['games-extra']
 upstreamurl = "http://www.nongnu.org/enigma"
 arch = "x86_64"
-size = "41086204"
-usize = "63690452"
-sha1sum = "7c014dc5712dfbf84cdcc2c088deb8b18ff73710"
-depends = "['curl', 'enet', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'xerces-c']"
+size = "41168524"
+usize = "63639574"
+sha1sum = "005ddb141c2ed80f81994b7872d3f1dbec8802ba"
+depends = "['curl', 'enet', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'xerces-c>=3.3.0']"
 +++
 ### Description: 
 Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the Amiga.
@@ -21,6 +21,7 @@ Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the 
 * /usr/share/appdata/enigma.appdata.xml
 * /usr/share/applications/enigma.desktop
 * /usr/share/doc/enigma-1.30/AUTHORS
+* /usr/share/doc/enigma-1.30/ChangeLog
 * /usr/share/doc/enigma-1.30/CHANGES
 * /usr/share/doc/enigma-1.30/COPYING
 * /usr/share/doc/enigma-1.30/gpl.txt
@@ -37,6 +38,7 @@ Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the 
 * /usr/share/doc/enigma-1.30/index.html
 * /usr/share/doc/enigma-1.30/INSTALL
 * /usr/share/doc/enigma-1.30/lgpl.txt
+* /usr/share/doc/enigma-1.30/LICENSE
 * /usr/share/doc/enigma-1.30/manual/enigma.html
 * /usr/share/doc/enigma-1.30/manual/enigma_de.html
 * /usr/share/doc/enigma-1.30/manual/enigma_fr.html
@@ -701,6 +703,7 @@ Enigma is a puzzle game inspired by Oxyd on the Atari ST and Rock n Roll on the 
 * /usr/share/doc/enigma-1.30/reference/sounds.txt
 * /usr/share/doc/enigma-1.30/reference/soundset.lua
 * /usr/share/doc/enigma-1.30/reference/xml2lua
+* /usr/share/doc/enigma-1.30/TODO
 * /usr/share/doc/enigma/ACKNOWLEDGEMENTS
 * /usr/share/doc/enigma/CHANGES
 * /usr/share/doc/enigma/COPYING
