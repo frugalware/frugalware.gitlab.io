@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pybind11 2.13.5-1"
-version = "2.13.5-1"
+title = "pybind11 2.13.6-1"
+version = "2.13.6-1"
 description = "A lightweight header-only library that exposes C++ types in Python and vice versa"
-date = "2024-08-26T09:52:53"
+date = "2024-11-02T21:54:39"
 aliases = "/packages/220212"
 categories = ['devel-extra']
 upstreamurl = "https://pybind11.readthedocs.org/"
 arch = "x86_64"
-size = "182252"
-usize = "1778521"
-sha1sum = "1e9e428d89a68620cec2aba94b4647a2b93a95c2"
-depends = "['python3>=3.12']"
+size = "183004"
+usize = "1788119"
+sha1sum = "9ad65afeb4b5cbea80b97ae73c89c885c2ac870a"
+depends = "['python3>=3.13']"
 reverse_depends = "['audiotube', 'dlib', 'opencolorio', 'openimageio', 'python3-scipy']"
 +++
 ### Description: 
@@ -27,7 +27,9 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/include/pybind11/complex.h
 * /usr/include/pybind11/detail/class.h
 * /usr/include/pybind11/detail/common.h
+* /usr/include/pybind11/detail/cpp_conduit.h
 * /usr/include/pybind11/detail/descr.h
+* /usr/include/pybind11/detail/exception_translation.h
 * /usr/include/pybind11/detail/init.h
 * /usr/include/pybind11/detail/internals.h
 * /usr/include/pybind11/detail/typeid.h
@@ -54,67 +56,69 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/include/pybind11/type_caster_pyobject_ptr.h
 * /usr/include/pybind11/typing.h
 * /usr/lib/pkgconfig/pybind11.pc
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pybind11-2.13.5-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/pybind11/commands.py
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/attr.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/buffer_info.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/cast.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/chrono.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/common.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/complex.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/class.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/common.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/descr.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/init.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/internals.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/typeid.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/type_caster_base.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/value_and_holder.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen/common.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen/matrix.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen/tensor.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/embed.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/eval.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/functional.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil_safe_call_once.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/iostream.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/numpy.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/operators.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/options.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/pybind11.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/pytypes.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl/filesystem.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl_bind.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/type_caster_pyobject_ptr.h
-* /usr/lib/python3.12/site-packages/pybind11/include/pybind11/typing.h
-* /usr/lib/python3.12/site-packages/pybind11/py.typed
-* /usr/lib/python3.12/site-packages/pybind11/setup_helpers.py
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11GuessPythonExtSuffix.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake
-* /usr/lib/python3.12/site-packages/pybind11/share/pkgconfig/pybind11.pc
-* /usr/lib/python3.12/site-packages/pybind11/_version.py
-* /usr/lib/python3.12/site-packages/pybind11/__init__.py
-* /usr/lib/python3.12/site-packages/pybind11/__main__.py
-* /usr/lib/python3.12/site-packages/pybind11/__pycache__/commands.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pybind11/__pycache__/setup_helpers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pybind11/__pycache__/_version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pybind11/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pybind11/__pycache__/__main__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pybind11-2.13.6-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pybind11/commands.py
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/attr.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/buffer_info.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/cast.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/chrono.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/common.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/complex.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/class.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/common.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/cpp_conduit.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/descr.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/exception_translation.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/init.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/internals.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/typeid.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/type_caster_base.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/detail/value_and_holder.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/eigen.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/eigen/common.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/eigen/matrix.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/eigen/tensor.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/embed.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/eval.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/functional.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/gil.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/gil_safe_call_once.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/iostream.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/numpy.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/operators.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/options.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/pybind11.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/pytypes.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/stl.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/stl/filesystem.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/stl_bind.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/type_caster_pyobject_ptr.h
+* /usr/lib/python3.13/site-packages/pybind11/include/pybind11/typing.h
+* /usr/lib/python3.13/site-packages/pybind11/py.typed
+* /usr/lib/python3.13/site-packages/pybind11/setup_helpers.py
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11ConfigVersion.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11GuessPythonExtSuffix.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake
+* /usr/lib/python3.13/site-packages/pybind11/share/pkgconfig/pybind11.pc
+* /usr/lib/python3.13/site-packages/pybind11/_version.py
+* /usr/lib/python3.13/site-packages/pybind11/__init__.py
+* /usr/lib/python3.13/site-packages/pybind11/__main__.py
+* /usr/lib/python3.13/site-packages/pybind11/__pycache__/commands.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pybind11/__pycache__/setup_helpers.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pybind11/__pycache__/_version.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pybind11/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pybind11/__pycache__/__main__.cpython-313.pyc
 * /usr/share/cmake/pybind11/FindPythonLibsNew.cmake
 * /usr/share/cmake/pybind11/pybind11Common.cmake
 * /usr/share/cmake/pybind11/pybind11Config.cmake
@@ -123,5 +127,5 @@ A lightweight header-only library that exposes C++ types in Python and vice vers
 * /usr/share/cmake/pybind11/pybind11NewTools.cmake
 * /usr/share/cmake/pybind11/pybind11Targets.cmake
 * /usr/share/cmake/pybind11/pybind11Tools.cmake
-* /usr/share/doc/pybind11-2.13.5/LICENSE
-* /usr/share/doc/pybind11-2.13.5/README.rst
+* /usr/share/doc/pybind11-2.13.6/LICENSE
+* /usr/share/doc/pybind11-2.13.6/README.rst
