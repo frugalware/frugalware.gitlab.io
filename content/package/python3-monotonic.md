@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-monotonic 1.6-5"
-version = "1.6-5"
+title = "python3-monotonic 1.6-6"
+version = "1.6-6"
 description = "An implementation of time.monotonic()."
-date = "2023-10-11T18:31:45"
+date = "2024-11-02T18:18:26"
 aliases = "/packages/219793"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/monotonic"
 arch = "x86_64"
-size = "11444"
-usize = "29080"
-sha1sum = "007839e54ffa018c63ceb6d0400d85d1fab88e0a"
+size = "11464"
+usize = "29221"
+sha1sum = "2f141e66b4d7155889e13a35408901f0c002e1dc"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-eventlet']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-eventlet']"
 An implementation of time.monotonic().
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/monotonic-1.6-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/monotonic.py
-* /usr/lib/python3.12/site-packages/__pycache__/monotonic.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/monotonic-1.6-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/monotonic-1.6-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/monotonic-1.6-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/monotonic-1.6-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/monotonic.py
+* /usr/lib/python3.13/site-packages/__pycache__/monotonic.cpython-313.pyc
 * /usr/share/doc/python3-monotonic-1.6/LICENSE
 * /usr/share/doc/python3-monotonic-1.6/README.md

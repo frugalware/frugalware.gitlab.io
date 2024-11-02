@@ -12,6 +12,7 @@ size = "5324"
 usize = "21610"
 sha1sum = "573ae7989e35a47957544fa8d078f6e065a85d37"
 depends = "['python3']"
+reverse_depends = "['python3-mdurl']"
 +++
 ### Description: 
 Micro subset of unicode data files for linkify-it-py projects

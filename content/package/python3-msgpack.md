@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-msgpack 1.0.8-1"
-version = "1.0.8-1"
+title = "python3-msgpack 1.0.8-2"
+version = "1.0.8-2"
 description = "Python module for MessagePack serialization/deserialization library"
-date = "2024-06-26T13:58:50"
+date = "2024-11-02T18:26:49"
 aliases = "/packages/220266"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/msgpack/msgpack-python"
 arch = "x86_64"
-size = "85020"
-usize = "290002"
-sha1sum = "5aeab7f578459eeb5f4feb944d366484c9f74173"
+size = "88060"
+usize = "299140"
+sha1sum = "0bdc1663df2bd3dfa7462e26ed2fa91362dc856e"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-cachecontrol']"
 +++
@@ -18,18 +18,18 @@ reverse_depends = "['python3-cachecontrol']"
 Python module for MessagePack serialization/deserialization library
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/msgpack-1.0.8-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/msgpack-1.0.8-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/msgpack-1.0.8-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/msgpack-1.0.8-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/msgpack/exceptions.py
-* /usr/lib/python3.12/site-packages/msgpack/ext.py
-* /usr/lib/python3.12/site-packages/msgpack/fallback.py
-* /usr/lib/python3.12/site-packages/msgpack/_cmsgpack.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/msgpack/__init__.py
-* /usr/lib/python3.12/site-packages/msgpack/__pycache__/exceptions.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/msgpack/__pycache__/ext.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/msgpack/__pycache__/fallback.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/msgpack/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/msgpack-1.0.8-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/msgpack-1.0.8-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/msgpack-1.0.8-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/msgpack-1.0.8-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/msgpack/exceptions.py
+* /usr/lib/python3.13/site-packages/msgpack/ext.py
+* /usr/lib/python3.13/site-packages/msgpack/fallback.py
+* /usr/lib/python3.13/site-packages/msgpack/_cmsgpack.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/msgpack/__init__.py
+* /usr/lib/python3.13/site-packages/msgpack/__pycache__/exceptions.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/msgpack/__pycache__/ext.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/msgpack/__pycache__/fallback.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/msgpack/__pycache__/__init__.cpython-313.pyc
 * /usr/share/doc/python3-msgpack-1.0.8/COPYING
 * /usr/share/doc/python3-msgpack-1.0.8/README.md
