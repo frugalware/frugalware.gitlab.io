@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxslt 1.1.42-2"
-version = "1.1.42-2"
+title = "libxslt 1.1.42-3"
+version = "1.1.42-3"
 description = "XML stylesheet transformation library"
-date = "2024-10-27T18:18:03"
+date = "2024-11-02T16:49:32"
 aliases = "/packages/3213"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "274836"
-usize = "1443127"
-sha1sum = "697beddbd993d29ff2c5018468374a30e0d24d18"
-depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.9.7-3', 'python3']"
+size = "275580"
+usize = "1440554"
+sha1sum = "15a5ce64282f3b0eb8d20caf8828ce3264e78b14"
+depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.9.7-3', 'python3>=3.13']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', 'colord', 'docbook-xsl', 'docbook2x', 'geany-plugins', 'icecast', 'inkscape', 'kdoctools', 'kdoctools5', 'kio5', 'libosinfo', 'libreoffice', 'lincity-ng', 'nginx', 'php', 'python3-lxml', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'raptor', 'shiboken2', 'shiboken6', 'sim', 'telepathy-sofiasip', 'uwsgi-plugin-webdav', 'virtualbox', 'webkit-gtk3', 'wine', 'wine-devel', 'wxwidgets', 'xmlstarlet']"
 +++
 ### Description: 
@@ -54,15 +54,16 @@ XML stylesheet transformation library
 * /usr/lib/libxslt.so.1.1.42
 * /usr/lib/pkgconfig/libexslt.pc
 * /usr/lib/pkgconfig/libxslt.pc
-* /usr/lib/python3.12/site-packages/libxslt.py
-* /usr/lib/python3.12/site-packages/libxsltmod.so
-* /usr/lib/python3.12/site-packages/__pycache__/libxslt.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/__pycache__/libxslt.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/libxslt.py
+* /usr/lib/python3.13/site-packages/libxsltmod.so
+* /usr/lib/python3.13/site-packages/__pycache__/libxslt.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/__pycache__/libxslt.cpython-313.pyc
 * /usr/lib/xsltConf.sh
 * /usr/share/doc/libxslt-1.1.42/AUTHORS
 * /usr/share/doc/libxslt-1.1.42/COPYING
 * /usr/share/doc/libxslt-1.1.42/Copyright
 * /usr/share/doc/libxslt-1.1.42/FEATURES
+* /usr/share/doc/libxslt-1.1.42/HACKING
 * /usr/share/doc/libxslt-1.1.42/INSTALL
 * /usr/share/doc/libxslt-1.1.42/NEWS
 * /usr/share/doc/libxslt-1.1.42/python/examples/basic.py

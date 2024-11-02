@@ -12,7 +12,7 @@ size = "24204"
 usize = "139082"
 sha1sum = "c0948f24368d26a6f4793652b173603ef56648dc"
 depends = "['python3>=3.13']"
-reverse_depends = "['python3-cachecontrol', 'python3-poetry', 'python3-virtualenv']"
+reverse_depends = "['python3-cachecontrol', 'python3-cx-freeze', 'python3-poetry', 'python3-virtualenv']"
 +++
 ### Description: 
 A platform independent file lock
