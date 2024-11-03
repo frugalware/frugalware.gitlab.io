@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "speech-dispatcher 0.11.5-3"
-version = "0.11.5-3"
+title = "speech-dispatcher 0.11.5-4"
+version = "0.11.5-4"
 description = "speech-dispatcher speech synthesis interface"
-date = "2024-01-06T14:14:00"
+date = "2024-11-03T12:21:44"
 aliases = "/packages/119250"
 categories = ['xapps']
 upstreamurl = "https://devel.freebsoft.org/speechd"
 arch = "x86_64"
-size = "3945584"
-usize = "27875587"
-sha1sum = "58e1445f8dc385dddbd00b397930fe89b792f6b6"
-depends = "['dotconf', 'libao', 'libpulse>=9.0-2', 'libsndfile', 'libsystemd', 'python3>=3.12']"
+size = "3950396"
+usize = "27824272"
+sha1sum = "5402f2531bf440b0ea171f8ff3173a10a9dcdfe8"
+depends = "['dotconf', 'libao', 'libpulse>=9.0-2', 'libsndfile', 'libsystemd', 'python3>=3.13']"
 reverse_depends = "['chromium-browser', 'mumble', 'qt5-speech', 'qt6-speech']"
 +++
 ### Description: 
@@ -47,27 +47,27 @@ speech-dispatcher speech synthesis interface
 * /usr/lib/libspeechd.so.2
 * /usr/lib/libspeechd.so.2.6.0
 * /usr/lib/pkgconfig/speech-dispatcher.pc
-* /usr/lib/python3.12/site-packages/speechd/client.py
-* /usr/lib/python3.12/site-packages/speechd/paths.py
-* /usr/lib/python3.12/site-packages/speechd/_test.py
-* /usr/lib/python3.12/site-packages/speechd/__init__.py
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/client.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/paths.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/paths.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/_test.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/speechd_config/buildconfig.py
-* /usr/lib/python3.12/site-packages/speechd_config/config.py
-* /usr/lib/python3.12/site-packages/speechd_config/__init__.py
-* /usr/lib/python3.12/site-packages/speechd_config/__pycache__/buildconfig.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd_config/__pycache__/buildconfig.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/speechd_config/__pycache__/config.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd_config/__pycache__/config.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/speechd_config/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/speechd_config/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/speechd/client.py
+* /usr/lib/python3.13/site-packages/speechd/paths.py
+* /usr/lib/python3.13/site-packages/speechd/_test.py
+* /usr/lib/python3.13/site-packages/speechd/__init__.py
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/client.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/client.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/paths.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/paths.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/_test.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/buildconfig.py
+* /usr/lib/python3.13/site-packages/speechd_config/config.py
+* /usr/lib/python3.13/site-packages/speechd_config/__init__.py
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/buildconfig.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/buildconfig.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/config.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/speech-dispatcher/spd_alsa.so
 * /usr/lib/speech-dispatcher/spd_libao.so
 * /usr/lib/speech-dispatcher/spd_oss.so

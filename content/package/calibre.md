@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 7.20.0-1"
-version = "7.20.0-1"
+title = "calibre 7.20.0-2"
+version = "7.20.0-2"
 description = "Ebook management application"
-date = "2024-10-29T13:04:23"
+date = "2024-11-03T13:07:03"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "28488196"
-usize = "68850774"
-sha1sum = "38b3d44898495ca7b0451f5bf09a7a168fd6cd99"
+size = "28507744"
+usize = "68844861"
+sha1sum = "b5c08c4509e00f1362c19968b718db93272a687a"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=76.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
@@ -1542,7 +1542,7 @@ Ebook management application
 * /usr/lib/calibre/tinycss/token_data.py
 * /usr/lib/calibre/tinycss/version.py
 * /usr/lib/calibre/tinycss/__init__.py
-* /usr/lib/python3.12/site-packages/init_calibre.py
+* /usr/lib/python3.13/site-packages/init_calibre.py
 * /usr/share/applications/calibre-ebook-edit.desktop
 * /usr/share/applications/calibre-ebook-viewer.desktop
 * /usr/share/applications/calibre-gui.desktop
