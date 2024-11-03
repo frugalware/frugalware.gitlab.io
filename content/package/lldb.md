@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lldb 19.1.3-1"
-version = "19.1.3-1"
+title = "lldb 19.1.3-2"
+version = "19.1.3-2"
 description = "Next generation, high-performance debugger"
-date = "2024-11-01T15:15:22"
+date = "2024-11-03T15:38:40"
 aliases = "/packages/220526"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "6384584"
+size = "6380304"
 usize = "25679738"
-sha1sum = "9b3f295ca444f8e214647c52fc09614007e3f9de"
+sha1sum = "329a26763ecd0f87d4fc28c0df1b09df63f55586"
 depends = "['clang>=19.1.3', 'ncurses>=6.5']"
 +++
 ### Description: 

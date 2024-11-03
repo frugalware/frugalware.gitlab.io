@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt 7.28.0-2"
-version = "7.28.0-2"
+title = "mlt 7.28.0-3"
+version = "7.28.0-3"
 description = "MLT is an open source multimedia framework, designed and developed for television broadcasting."
-date = "2024-10-15T20:42:24"
+date = "2024-11-03T15:58:30"
 aliases = "/packages/218378"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "701680"
-usize = "2746000"
-sha1sum = "b07be799e63c880cd6765532fcba94e66f817106"
+size = "700464"
+usize = "2746208"
+sha1sum = "743f457e1e1eae70d7afc1565d7cd573a1149a04"
 depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=7.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libdv', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
 reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-opencv', 'mlt-qt', 'mlt-qt6', 'mlt-rubberband', 'mlt-sdl']"
 +++
@@ -109,8 +109,8 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/lib/mlt-7/libmltxml.so
 * /usr/lib/pkgconfig/mlt++-7.pc
 * /usr/lib/pkgconfig/mlt-framework-7.pc
-* /usr/lib/python3.12/site-packages/mlt7.py
-* /usr/lib/python3.12/site-packages/_mlt7.so
+* /usr/lib/python3.13/site-packages/mlt7.py
+* /usr/lib/python3.13/site-packages/_mlt7.so
 * /usr/share/doc/mlt-7.28.0/AUTHORS
 * /usr/share/doc/mlt-7.28.0/COPYING
 * /usr/share/doc/mlt-7.28.0/NEWS

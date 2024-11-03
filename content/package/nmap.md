@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nmap 7.95-1"
-version = "7.95-1"
+title = "nmap 7.95-2"
+version = "7.95-2"
 description = "A network exploration tool and security scanner"
-date = "2024-07-30T15:04:00"
+date = "2024-11-03T16:01:16"
 aliases = "/packages/3263"
 categories = ['network-extra']
 upstreamurl = "http://www.nmap.org"
 arch = "x86_64"
-size = "5917644"
-usize = "26856374"
-sha1sum = "e7278864aa8a84adb016c9540651c99855a15083"
+size = "5913116"
+usize = "26867949"
+sha1sum = "8a4148b5211592a16fa81f71f9f12e3156a74ba7"
 depends = "['libpcap>=1.2.0', 'libssh2', 'ncat', 'openssl>=3.1.0']"
 reverse_depends = "['nmapsi4']"
 +++
@@ -21,8 +21,8 @@ A network exploration tool and security scanner
 * /usr/bin/ndiff
 * /usr/bin/nmap
 * /usr/bin/uninstall_ndiff
-* /usr/lib/python3.12/site-packages/ndiff.py
-* /usr/lib/python3.12/site-packages/__pycache__/ndiff.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/ndiff.py
+* /usr/lib/python3.13/site-packages/__pycache__/ndiff.cpython-313.pyc
 * /usr/share/doc/nmap-7.95/CHANGELOG
 * /usr/share/doc/nmap-7.95/HACKING
 * /usr/share/doc/nmap-7.95/INSTALL

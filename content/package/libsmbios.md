@@ -1,19 +1,19 @@
 +++
 draft = false
-title = "libsmbios 2.4.3-9"
-version = "2.4.3-9"
+title = "libsmbios 2.4.3-10"
+version = "2.4.3-10"
 description = "libsmbios is a library and set of tools that provide access to BIOS information."
-date = "2024-04-02T13:00:50"
+date = "2024-11-03T15:22:40"
 aliases = "/packages/219166"
 categories = ['lib']
 upstreamurl = "https://github.com/dell/libsmbios"
 arch = "x86_64"
-size = "190028"
-usize = "1075352"
-sha1sum = "f3b0e46e378b7e57326dad7592c9fcded27d30b0"
-depends = "['libstdc++>=9.1.0-3', 'python3>=3.9.6']"
+size = "193560"
+usize = "1143513"
+sha1sum = "22536e437f1d03cf7b20b983e3e0b5fc9dc3f54d"
+depends = "['libstdc++>=9.1.0-3', 'python3>=3.13']"
 reverse_depends = "['fwupd']"
-license = "OSL"
+license = "GPL"
 +++
 ### Description: 
 libsmbios is a library and set of tools that provide access to BIOS information.
@@ -71,36 +71,46 @@ libsmbios is a library and set of tools that provide access to BIOS information.
 * /usr/lib/libsmbios_c.so.2
 * /usr/lib/libsmbios_c.so.2.2.1
 * /usr/lib/pkgconfig/libsmbios_c.pc
-* /usr/lib/python3.12/site-packages/libsmbios_c/cmos.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/memory.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/smbios.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/smbios_token.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/smi.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/system_info.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/trace_decorator.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/_common.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/_vars.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/__init__.py
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/cmos.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/cmos.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/memory.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/memory.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/smbios.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/smbios.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/smi.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/smi.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/system_info.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/system_info.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/_common.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/_common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/_vars.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/_vars.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libsmbios_c/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/cmos.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/memory.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/smbios.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/smbios_token.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/smi.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/system_info.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/trace_decorator.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/_common.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/_vars.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/__init__.py
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/cmos.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/cmos.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/cmos.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/memory.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/memory.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/memory.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smbios.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smbios.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smbios.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smbios_token.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smi.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smi.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/smi.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/system_info.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/system_info.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/system_info.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/trace_decorator.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/_common.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/_common.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/_common.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/_vars.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/_vars.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/_vars.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/__init__.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/libsmbios_c/__pycache__/__init__.cpython-313.pyc
 * /usr/share/doc/libsmbios-2.4.3/COPYING
 * /usr/share/doc/libsmbios-2.4.3/COPYING-GPL
 * /usr/share/doc/libsmbios-2.4.3/COPYING-OSL
@@ -133,5 +143,6 @@ libsmbios is a library and set of tools that provide access to BIOS information.
 * /usr/share/smbios-utils/cli.py
 * /usr/share/smbios-utils/token_blacklist.csv
 * /usr/share/smbios-utils/token_list.csv
-* /usr/share/smbios-utils/__pycache__/cli.cpython-312.opt-1.pyc
-* /usr/share/smbios-utils/__pycache__/cli.cpython-312.pyc
+* /usr/share/smbios-utils/__pycache__/cli.cpython-313.opt-1.pyc
+* /usr/share/smbios-utils/__pycache__/cli.cpython-313.opt-2.pyc
+* /usr/share/smbios-utils/__pycache__/cli.cpython-313.pyc

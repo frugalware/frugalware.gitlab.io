@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang 19.1.3-1"
-version = "19.1.3-1"
+title = "clang 19.1.3-2"
+version = "19.1.3-2"
 description = "C/C++ language family frontend for LLVM"
-date = "2024-11-01T15:15:22"
+date = "2024-11-03T15:38:40"
 aliases = "/packages/136475"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "24103360"
-usize = "141027763"
-sha1sum = "d6aad2c19c68c33ad130de1e65fc0d46d71843f6"
+size = "24092268"
+usize = "141035440"
+sha1sum = "2a83b3277970cf7dbb33b82506dc74a63cbb2b4d"
 depends = "['clang-libs>=19.1.3', 'libffi>=3.4', 'libxml2']"
 reverse_depends = "['insight-toolkit', 'lldb', 'qtcreator']"
 +++
@@ -1523,38 +1523,38 @@ C/C++ language family frontend for LLVM
 * /usr/lib/cmake/clang/ClangConfigVersion.cmake
 * /usr/lib/cmake/clang/ClangTargets-release.cmake
 * /usr/lib/cmake/clang/ClangTargets.cmake
-* /usr/lib/python3.12/site-packages/libear/config.h.in
-* /usr/lib/python3.12/site-packages/libear/ear.c
-* /usr/lib/python3.12/site-packages/libear/__init__.py
-* /usr/lib/python3.12/site-packages/libear/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libear/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/analyze.py
-* /usr/lib/python3.12/site-packages/libscanbuild/arguments.py
-* /usr/lib/python3.12/site-packages/libscanbuild/clang.py
-* /usr/lib/python3.12/site-packages/libscanbuild/compilation.py
-* /usr/lib/python3.12/site-packages/libscanbuild/intercept.py
-* /usr/lib/python3.12/site-packages/libscanbuild/report.py
-* /usr/lib/python3.12/site-packages/libscanbuild/resources/scanview.css
-* /usr/lib/python3.12/site-packages/libscanbuild/resources/selectable.js
-* /usr/lib/python3.12/site-packages/libscanbuild/resources/sorttable.js
-* /usr/lib/python3.12/site-packages/libscanbuild/shell.py
-* /usr/lib/python3.12/site-packages/libscanbuild/__init__.py
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/analyze.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/analyze.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/arguments.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/arguments.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/clang.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/clang.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/compilation.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/compilation.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/intercept.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/intercept.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/report.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/report.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/shell.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/shell.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/libscanbuild/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/libear/config.h.in
+* /usr/lib/python3.13/site-packages/libear/ear.c
+* /usr/lib/python3.13/site-packages/libear/__init__.py
+* /usr/lib/python3.13/site-packages/libear/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libear/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/analyze.py
+* /usr/lib/python3.13/site-packages/libscanbuild/arguments.py
+* /usr/lib/python3.13/site-packages/libscanbuild/clang.py
+* /usr/lib/python3.13/site-packages/libscanbuild/compilation.py
+* /usr/lib/python3.13/site-packages/libscanbuild/intercept.py
+* /usr/lib/python3.13/site-packages/libscanbuild/report.py
+* /usr/lib/python3.13/site-packages/libscanbuild/resources/scanview.css
+* /usr/lib/python3.13/site-packages/libscanbuild/resources/selectable.js
+* /usr/lib/python3.13/site-packages/libscanbuild/resources/sorttable.js
+* /usr/lib/python3.13/site-packages/libscanbuild/shell.py
+* /usr/lib/python3.13/site-packages/libscanbuild/__init__.py
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/analyze.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/analyze.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/arguments.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/arguments.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/clang.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/clang.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/compilation.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/compilation.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/intercept.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/intercept.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/report.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/report.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/shell.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/shell.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/libscanbuild/__pycache__/__init__.cpython-313.pyc
 * /usr/share/clang/bash-autocomplete.sh
 * /usr/share/clang/clang-format-bbedit.applescript
 * /usr/share/clang/clang-format-diff.py
@@ -1567,20 +1567,20 @@ C/C++ language family frontend for LLVM
 * /usr/share/clang/clang-rename.py
 * /usr/share/clang/clang-tidy-diff.py
 * /usr/share/clang/run-find-all-symbols.py
-* /usr/share/clang/__pycache__/clang-format-diff.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/clang-format-diff.cpython-312.pyc
-* /usr/share/clang/__pycache__/clang-format-sublime.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/clang-format-sublime.cpython-312.pyc
-* /usr/share/clang/__pycache__/clang-format.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/clang-format.cpython-312.pyc
-* /usr/share/clang/__pycache__/clang-include-fixer.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/clang-include-fixer.cpython-312.pyc
-* /usr/share/clang/__pycache__/clang-rename.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/clang-rename.cpython-312.pyc
-* /usr/share/clang/__pycache__/clang-tidy-diff.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/clang-tidy-diff.cpython-312.pyc
-* /usr/share/clang/__pycache__/run-find-all-symbols.cpython-312.opt-1.pyc
-* /usr/share/clang/__pycache__/run-find-all-symbols.cpython-312.pyc
+* /usr/share/clang/__pycache__/clang-format-diff.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/clang-format-diff.cpython-313.pyc
+* /usr/share/clang/__pycache__/clang-format-sublime.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/clang-format-sublime.cpython-313.pyc
+* /usr/share/clang/__pycache__/clang-format.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/clang-format.cpython-313.pyc
+* /usr/share/clang/__pycache__/clang-include-fixer.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/clang-include-fixer.cpython-313.pyc
+* /usr/share/clang/__pycache__/clang-rename.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/clang-rename.cpython-313.pyc
+* /usr/share/clang/__pycache__/clang-tidy-diff.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/clang-tidy-diff.cpython-313.pyc
+* /usr/share/clang/__pycache__/run-find-all-symbols.cpython-313.opt-1.pyc
+* /usr/share/clang/__pycache__/run-find-all-symbols.cpython-313.pyc
 * /usr/share/doc/LLVM/clang-tools/html/.buildinfo
 * /usr/share/doc/LLVM/clang-tools/html/clang-doc.html
 * /usr/share/doc/LLVM/clang-tools/html/clang-include-fixer.html
@@ -2984,25 +2984,25 @@ C/C++ language family frontend for LLVM
 * /usr/share/opt-viewer/optpmap.py
 * /usr/share/opt-viewer/optrecord.py
 * /usr/share/opt-viewer/style.css
-* /usr/share/opt-viewer/__pycache__/opt-diff.cpython-312.opt-1.pyc
-* /usr/share/opt-viewer/__pycache__/opt-diff.cpython-312.pyc
-* /usr/share/opt-viewer/__pycache__/opt-stats.cpython-312.opt-1.pyc
-* /usr/share/opt-viewer/__pycache__/opt-stats.cpython-312.pyc
-* /usr/share/opt-viewer/__pycache__/opt-viewer.cpython-312.opt-1.pyc
-* /usr/share/opt-viewer/__pycache__/opt-viewer.cpython-312.pyc
-* /usr/share/opt-viewer/__pycache__/optpmap.cpython-312.opt-1.pyc
-* /usr/share/opt-viewer/__pycache__/optpmap.cpython-312.pyc
-* /usr/share/opt-viewer/__pycache__/optrecord.cpython-312.opt-1.pyc
-* /usr/share/opt-viewer/__pycache__/optrecord.cpython-312.pyc
+* /usr/share/opt-viewer/__pycache__/opt-diff.cpython-313.opt-1.pyc
+* /usr/share/opt-viewer/__pycache__/opt-diff.cpython-313.pyc
+* /usr/share/opt-viewer/__pycache__/opt-stats.cpython-313.opt-1.pyc
+* /usr/share/opt-viewer/__pycache__/opt-stats.cpython-313.pyc
+* /usr/share/opt-viewer/__pycache__/opt-viewer.cpython-313.opt-1.pyc
+* /usr/share/opt-viewer/__pycache__/opt-viewer.cpython-313.pyc
+* /usr/share/opt-viewer/__pycache__/optpmap.cpython-313.opt-1.pyc
+* /usr/share/opt-viewer/__pycache__/optpmap.cpython-313.pyc
+* /usr/share/opt-viewer/__pycache__/optrecord.cpython-313.opt-1.pyc
+* /usr/share/opt-viewer/__pycache__/optrecord.cpython-313.pyc
 * /usr/share/scan-build/scanview.css
 * /usr/share/scan-build/sorttable.js
 * /usr/share/scan-view/bugcatcher.ico
 * /usr/share/scan-view/Reporter.py
 * /usr/share/scan-view/ScanView.py
 * /usr/share/scan-view/startfile.py
-* /usr/share/scan-view/__pycache__/Reporter.cpython-312.opt-1.pyc
-* /usr/share/scan-view/__pycache__/Reporter.cpython-312.pyc
-* /usr/share/scan-view/__pycache__/ScanView.cpython-312.opt-1.pyc
-* /usr/share/scan-view/__pycache__/ScanView.cpython-312.pyc
-* /usr/share/scan-view/__pycache__/startfile.cpython-312.opt-1.pyc
-* /usr/share/scan-view/__pycache__/startfile.cpython-312.pyc
+* /usr/share/scan-view/__pycache__/Reporter.cpython-313.opt-1.pyc
+* /usr/share/scan-view/__pycache__/Reporter.cpython-313.pyc
+* /usr/share/scan-view/__pycache__/ScanView.cpython-313.opt-1.pyc
+* /usr/share/scan-view/__pycache__/ScanView.cpython-313.pyc
+* /usr/share/scan-view/__pycache__/startfile.cpython-313.opt-1.pyc
+* /usr/share/scan-view/__pycache__/startfile.cpython-313.pyc

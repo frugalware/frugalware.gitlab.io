@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm 19.1.3-1"
-version = "19.1.3-1"
+title = "lib32-llvm 19.1.3-2"
+version = "19.1.3-2"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)"
-date = "2024-11-01T15:15:22"
+date = "2024-11-03T15:38:40"
 aliases = "/packages/218876"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "45685484"
+size = "45674484"
 usize = "328313840"
-sha1sum = "1b32ea592b47722616cd1f33c30fa5a18b04e85c"
+sha1sum = "6c1b132a7217fe193b46d4a8979014b2d0e53b9d"
 depends = "['libstdc++>=14.1.0']"
 +++
 ### Description: 

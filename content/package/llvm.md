@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "llvm 19.1.3-1"
-version = "19.1.3-1"
+title = "llvm 19.1.3-2"
+version = "19.1.3-2"
 description = "Low Level Virtual Machine (Compiler , Tools and Libs)"
-date = "2024-11-01T15:15:22"
+date = "2024-11-03T15:38:40"
 aliases = "/packages/74178"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "34701940"
-usize = "172215563"
-sha1sum = "5d3ce5af9bf15cab46f736f25b2a12de11531377"
-depends = "['libstdc++>=14.1.0', 'llvm-libs', 'python3>=3.12']"
+size = "34705796"
+usize = "172232033"
+sha1sum = "9dca3c1e1359edb63fb1903a52d267058c23f723"
+depends = "['libstdc++>=14.1.0', 'llvm-libs', 'python3>=3.13']"
 reverse_depends = "['llvm-ocaml']"
 +++
 ### Description: 
@@ -2202,99 +2202,99 @@ Low Level Virtual Machine (Compiler , Tools and Libs)
 * /usr/lib/objects-Release/obj.MLIRCAPITransforms/Passes.cpp.o
 * /usr/lib/objects-Release/obj.MLIRCAPITransforms/Rewrite.cpp.o
 * /usr/lib/objects-Release/obj.MLIRCAPIVector/Vector.cpp.o
-* /usr/lib/python3.12/site-packages/lit-19.1.3.dev0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/lit-19.1.3.dev0-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/lit-19.1.3.dev0-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/lit-19.1.3.dev0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/lit-19.1.3.dev0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/lit-19.1.3.dev0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/lit/BooleanExpression.py
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/cat.py
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/diff.py
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__init__.py
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__pycache__/cat.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__pycache__/cat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__pycache__/diff.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__pycache__/diff.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/builtin_commands/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/cl_arguments.py
-* /usr/lib/python3.12/site-packages/lit/discovery.py
-* /usr/lib/python3.12/site-packages/lit/display.py
-* /usr/lib/python3.12/site-packages/lit/formats/base.py
-* /usr/lib/python3.12/site-packages/lit/formats/googletest.py
-* /usr/lib/python3.12/site-packages/lit/formats/shtest.py
-* /usr/lib/python3.12/site-packages/lit/formats/__init__.py
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/base.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/base.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/googletest.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/googletest.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/shtest.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/shtest.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/formats/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/LitConfig.py
-* /usr/lib/python3.12/site-packages/lit/LitTestCase.py
-* /usr/lib/python3.12/site-packages/lit/llvm/config.py
-* /usr/lib/python3.12/site-packages/lit/llvm/subst.py
-* /usr/lib/python3.12/site-packages/lit/llvm/__init__.py
-* /usr/lib/python3.12/site-packages/lit/llvm/__pycache__/config.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/llvm/__pycache__/config.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/llvm/__pycache__/subst.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/llvm/__pycache__/subst.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/llvm/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/llvm/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/main.py
-* /usr/lib/python3.12/site-packages/lit/ProgressBar.py
-* /usr/lib/python3.12/site-packages/lit/reports.py
-* /usr/lib/python3.12/site-packages/lit/run.py
-* /usr/lib/python3.12/site-packages/lit/ShCommands.py
-* /usr/lib/python3.12/site-packages/lit/ShUtil.py
-* /usr/lib/python3.12/site-packages/lit/Test.py
-* /usr/lib/python3.12/site-packages/lit/TestingConfig.py
-* /usr/lib/python3.12/site-packages/lit/TestRunner.py
-* /usr/lib/python3.12/site-packages/lit/TestTimes.py
-* /usr/lib/python3.12/site-packages/lit/util.py
-* /usr/lib/python3.12/site-packages/lit/worker.py
-* /usr/lib/python3.12/site-packages/lit/__init__.py
-* /usr/lib/python3.12/site-packages/lit/__pycache__/BooleanExpression.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/BooleanExpression.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/cl_arguments.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/cl_arguments.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/discovery.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/discovery.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/display.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/display.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/LitConfig.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/LitConfig.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/LitTestCase.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/LitTestCase.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/main.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/main.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/ProgressBar.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/ProgressBar.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/reports.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/reports.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/run.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/run.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/ShCommands.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/ShCommands.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/ShUtil.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/ShUtil.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/Test.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/Test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/TestingConfig.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/TestingConfig.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/TestRunner.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/TestRunner.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/TestTimes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/TestTimes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/util.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/util.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/worker.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/worker.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lit/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/lit-19.1.3.dev0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/lit-19.1.3.dev0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/lit-19.1.3.dev0-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/lit-19.1.3.dev0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/lit-19.1.3.dev0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/lit-19.1.3.dev0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/lit/BooleanExpression.py
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/cat.py
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/diff.py
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__init__.py
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__pycache__/cat.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__pycache__/cat.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__pycache__/diff.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__pycache__/diff.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/builtin_commands/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/cl_arguments.py
+* /usr/lib/python3.13/site-packages/lit/discovery.py
+* /usr/lib/python3.13/site-packages/lit/display.py
+* /usr/lib/python3.13/site-packages/lit/formats/base.py
+* /usr/lib/python3.13/site-packages/lit/formats/googletest.py
+* /usr/lib/python3.13/site-packages/lit/formats/shtest.py
+* /usr/lib/python3.13/site-packages/lit/formats/__init__.py
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/base.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/base.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/googletest.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/googletest.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/shtest.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/shtest.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/formats/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/LitConfig.py
+* /usr/lib/python3.13/site-packages/lit/LitTestCase.py
+* /usr/lib/python3.13/site-packages/lit/llvm/config.py
+* /usr/lib/python3.13/site-packages/lit/llvm/subst.py
+* /usr/lib/python3.13/site-packages/lit/llvm/__init__.py
+* /usr/lib/python3.13/site-packages/lit/llvm/__pycache__/config.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/llvm/__pycache__/config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/llvm/__pycache__/subst.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/llvm/__pycache__/subst.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/llvm/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/llvm/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/main.py
+* /usr/lib/python3.13/site-packages/lit/ProgressBar.py
+* /usr/lib/python3.13/site-packages/lit/reports.py
+* /usr/lib/python3.13/site-packages/lit/run.py
+* /usr/lib/python3.13/site-packages/lit/ShCommands.py
+* /usr/lib/python3.13/site-packages/lit/ShUtil.py
+* /usr/lib/python3.13/site-packages/lit/Test.py
+* /usr/lib/python3.13/site-packages/lit/TestingConfig.py
+* /usr/lib/python3.13/site-packages/lit/TestRunner.py
+* /usr/lib/python3.13/site-packages/lit/TestTimes.py
+* /usr/lib/python3.13/site-packages/lit/util.py
+* /usr/lib/python3.13/site-packages/lit/worker.py
+* /usr/lib/python3.13/site-packages/lit/__init__.py
+* /usr/lib/python3.13/site-packages/lit/__pycache__/BooleanExpression.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/BooleanExpression.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/cl_arguments.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/cl_arguments.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/discovery.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/discovery.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/display.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/display.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/LitConfig.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/LitConfig.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/LitTestCase.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/LitTestCase.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/main.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/main.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/ProgressBar.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/ProgressBar.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/reports.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/reports.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/run.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/run.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/ShCommands.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/ShCommands.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/ShUtil.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/ShUtil.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/Test.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/Test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/TestingConfig.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/TestingConfig.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/TestRunner.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/TestRunner.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/TestTimes.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/TestTimes.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/util.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/util.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/worker.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/worker.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lit/__pycache__/__init__.cpython-313.pyc
 * /usr/share/clang-doc/clang-doc-default-stylesheet.css
 * /usr/share/clang-doc/index.js
 * /usr/share/doc/llvm-19.1.3/ocamldoc/index.html
@@ -5084,18 +5084,18 @@ Low Level Virtual Machine (Compiler , Tools and Libs)
 * /usr/share/gdb/python/ompd/ompd_callbacks.py
 * /usr/share/gdb/python/ompd/ompd_handles.py
 * /usr/share/gdb/python/ompd/__init__.py
-* /usr/share/gdb/python/ompd/__pycache__/frame_filter.cpython-312.opt-1.pyc
-* /usr/share/gdb/python/ompd/__pycache__/frame_filter.cpython-312.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd.cpython-312.opt-1.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd.cpython-312.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd_address_space.cpython-312.opt-1.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd_address_space.cpython-312.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd_callbacks.cpython-312.opt-1.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd_callbacks.cpython-312.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd_handles.cpython-312.opt-1.pyc
-* /usr/share/gdb/python/ompd/__pycache__/ompd_handles.cpython-312.pyc
-* /usr/share/gdb/python/ompd/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/share/gdb/python/ompd/__pycache__/__init__.cpython-312.pyc
+* /usr/share/gdb/python/ompd/__pycache__/frame_filter.cpython-313.opt-1.pyc
+* /usr/share/gdb/python/ompd/__pycache__/frame_filter.cpython-313.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd.cpython-313.opt-1.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd.cpython-313.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd_address_space.cpython-313.opt-1.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd_address_space.cpython-313.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd_callbacks.cpython-313.opt-1.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd_callbacks.cpython-313.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd_handles.cpython-313.opt-1.pyc
+* /usr/share/gdb/python/ompd/__pycache__/ompd_handles.cpython-313.pyc
+* /usr/share/gdb/python/ompd/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/share/gdb/python/ompd/__pycache__/__init__.cpython-313.pyc
 * /usr/share/libc++/v1/std.compat.cppm
 * /usr/share/libc++/v1/std.compat/cassert.inc
 * /usr/share/libc++/v1/std.compat/cctype.inc
