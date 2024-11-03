@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openshadinglanguage 1.13.11.0-4"
-version = "1.13.11.0-4"
+title = "openshadinglanguage 1.13.11.0-5"
+version = "1.13.11.0-5"
 description = "Advanced shading language for production GI renderers"
-date = "2024-10-30T14:45:26"
+date = "2024-11-03T16:31:17"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openshadinglanguage"
 arch = "x86_64"
-size = "2237516"
-usize = "7372358"
-sha1sum = "d4e78026cce8e0765624b561bf28c9ac785b4354"
-depends = "['clang-libs>=19.1.1', 'intel-tbb', 'libboost>=1.86.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.12']"
+size = "2240804"
+usize = "7384646"
+sha1sum = "7b843fbdc83cde13129f1ccf4f14de7dd8e3ca53"
+depends = "['clang-libs>=19.1.1', 'intel-tbb', 'libboost>=1.86.0', 'openexr', 'openimageio>=2.5.4.0', 'pugixml', 'python3>=3.13']"
 reverse_depends = "['blender']"
 +++
 ### Description: 
@@ -89,7 +89,7 @@ Advanced shading language for production GI renderers
 * /usr/lib/pkgconfig/oslcomp.pc
 * /usr/lib/pkgconfig/oslexec.pc
 * /usr/lib/pkgconfig/oslquery.pc
-* /usr/lib/python3.12/site-packages/oslquery.so
+* /usr/lib/python3.13/site-packages/oslquery.so
 * /usr/share/doc/openshadinglanguage-1.13.11.0/INSTALL.md
 * /usr/share/doc/openshadinglanguage-1.13.11.0/README.md
 * /usr/share/doc/OSL/CHANGES.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openimageio 2.5.16.0-3"
-version = "2.5.16.0-3"
+title = "openimageio 2.5.16.0-4"
+version = "2.5.16.0-4"
 description = "A library for reading and writing images, including classes, utilities, and applications."
-date = "2024-10-30T14:36:09"
+date = "2024-11-03T16:28:13"
 aliases = "/packages/169088"
 categories = ['xlib-extra']
 upstreamurl = "http://www.openimageio.org/"
 arch = "x86_64"
-size = "4135948"
-usize = "17621620"
-sha1sum = "b1728de3da1300f5b03edee23e293d3e250487b4"
+size = "4143312"
+usize = "17637108"
+sha1sum = "243633d8a4d3ea6eec7610f74bc21707ba8d4a26"
 depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.86.0', 'libheif', 'libraw>=0.21.1', 'openblas', 'opencv>=4.10.0', 'openexr>=3.3.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb', 'pybind11', 'zlib>=1.2.12']"
 reverse_depends = "['alicevision', 'blender', 'embree', 'openshadinglanguage', 'qtoiio']"
 +++
@@ -101,8 +101,8 @@ A library for reading and writing images, including classes, utilities, and appl
 * /usr/lib/libOpenImageIO_Util.so.2.5
 * /usr/lib/libOpenImageIO_Util.so.2.5.16
 * /usr/lib/pkgconfig/OpenImageIO.pc
-* /usr/lib/python3.12/site-packages/OpenImageIO/OpenImageIO.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/OpenImageIO/__init__.py
+* /usr/lib/python3.13/site-packages/OpenImageIO/OpenImageIO.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/OpenImageIO/__init__.py
 * /usr/share/doc/openimageio-2.5.16.0/INSTALL.md
 * /usr/share/doc/openimageio-2.5.16.0/README.md
 * /usr/share/doc/OpenImageIO/CHANGES-0.x.md

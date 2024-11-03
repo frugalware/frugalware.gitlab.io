@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ogre 14.3.0-1"
-version = "14.3.0-1"
+title = "ogre 14.3.1-1"
+version = "14.3.1-1"
 description = "A scene-oriented flexible 3D engine written in C++"
-date = "2024-10-16T10:24:47"
+date = "2024-11-03T16:22:20"
 aliases = "/packages/39056"
 categories = ['xlib-extra']
 upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
-size = "7769528"
-usize = "37148467"
-sha1sum = "b4cbd435f171259b18b6c14053beab6164f2905d"
+size = "7786768"
+usize = "37153538"
+sha1sum = "a8c020b513919f97bcaf79d602903d87b3dea521"
 depends = "['assimp', 'bullet', 'freeimage', 'glslang', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base', 'sdl2']"
 reverse_depends = "['ogre-media']"
 +++
@@ -680,26 +680,26 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/lib/pkgconfig/OGRE-Terrain.pc
 * /usr/lib/pkgconfig/OGRE-Volume.pc
 * /usr/lib/pkgconfig/OGRE.pc
-* /usr/lib/python3.12/dist-packages/Ogre/Bites.py
-* /usr/lib/python3.12/dist-packages/Ogre/Bullet.py
-* /usr/lib/python3.12/dist-packages/Ogre/HighPy.py
-* /usr/lib/python3.12/dist-packages/Ogre/ImGui.py
-* /usr/lib/python3.12/dist-packages/Ogre/Numpy.py
-* /usr/lib/python3.12/dist-packages/Ogre/Ogre.py
-* /usr/lib/python3.12/dist-packages/Ogre/Overlay.py
-* /usr/lib/python3.12/dist-packages/Ogre/RTShader.py
-* /usr/lib/python3.12/dist-packages/Ogre/Terrain.py
-* /usr/lib/python3.12/dist-packages/Ogre/_Bites.so
-* /usr/lib/python3.12/dist-packages/Ogre/_Bullet.so
-* /usr/lib/python3.12/dist-packages/Ogre/_ImGui.so
-* /usr/lib/python3.12/dist-packages/Ogre/_Ogre.so
-* /usr/lib/python3.12/dist-packages/Ogre/_Overlay.so
-* /usr/lib/python3.12/dist-packages/Ogre/_RTShader.so
-* /usr/lib/python3.12/dist-packages/Ogre/_Terrain.so
-* /usr/lib/python3.12/dist-packages/Ogre/__init__.py
-* /usr/share/doc/ogre-14.3.0/AUTHORS
-* /usr/share/doc/ogre-14.3.0/LICENSE
-* /usr/share/doc/ogre-14.3.0/README.md
+* /usr/lib/python3.13/dist-packages/Ogre/Bites.py
+* /usr/lib/python3.13/dist-packages/Ogre/Bullet.py
+* /usr/lib/python3.13/dist-packages/Ogre/HighPy.py
+* /usr/lib/python3.13/dist-packages/Ogre/ImGui.py
+* /usr/lib/python3.13/dist-packages/Ogre/Numpy.py
+* /usr/lib/python3.13/dist-packages/Ogre/Ogre.py
+* /usr/lib/python3.13/dist-packages/Ogre/Overlay.py
+* /usr/lib/python3.13/dist-packages/Ogre/RTShader.py
+* /usr/lib/python3.13/dist-packages/Ogre/Terrain.py
+* /usr/lib/python3.13/dist-packages/Ogre/_Bites.so
+* /usr/lib/python3.13/dist-packages/Ogre/_Bullet.so
+* /usr/lib/python3.13/dist-packages/Ogre/_ImGui.so
+* /usr/lib/python3.13/dist-packages/Ogre/_Ogre.so
+* /usr/lib/python3.13/dist-packages/Ogre/_Overlay.so
+* /usr/lib/python3.13/dist-packages/Ogre/_RTShader.so
+* /usr/lib/python3.13/dist-packages/Ogre/_Terrain.so
+* /usr/lib/python3.13/dist-packages/Ogre/__init__.py
+* /usr/share/doc/ogre-14.3.1/AUTHORS
+* /usr/share/doc/ogre-14.3.1/LICENSE
+* /usr/share/doc/ogre-14.3.1/README.md
 * /usr/share/doc/OGRE/1.10-Notes.md
 * /usr/share/doc/OGRE/1.11-Notes.md
 * /usr/share/doc/OGRE/1.12-Notes.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencolorio 2.3.2-1"
-version = "2.3.2-1"
+title = "opencolorio 2.3.2-2"
+version = "2.3.2-2"
 description = "Color management framework for visual effects and animation"
-date = "2024-02-16T15:45:08"
+date = "2024-11-03T16:25:27"
 aliases = "/packages/218642"
 categories = ['xlib-extra']
 upstreamurl = "http://opencolorio.org/"
 arch = "x86_64"
-size = "1784592"
-usize = "7206524"
-sha1sum = "87d60cff57ac84bf458a280655cac071897e1972"
+size = "1849200"
+usize = "7398678"
+sha1sum = "5dd559ee378f4ae401396d10864b3b7a10d820bb"
 depends = "['freeglut', 'glew', 'imath>=3.1.10', 'lcms2', 'minizip-ng', 'pybind11', 'pystring', 'yaml-cpp>=0.8.0']"
 reverse_depends = "['blender', 'krita']"
 +++
@@ -40,8 +40,8 @@ Color management framework for visual effects and animation
 * /usr/lib/libOpenColorIO.so.2.3
 * /usr/lib/libOpenColorIO.so.2.3.2
 * /usr/lib/pkgconfig/OpenColorIO.pc
-* /usr/lib/python3.12/site-packages/PyOpenColorIO/PyOpenColorIO.so
-* /usr/lib/python3.12/site-packages/PyOpenColorIO/__init__.py
+* /usr/lib/python3.13/site-packages/PyOpenColorIO/PyOpenColorIO.so
+* /usr/lib/python3.13/site-packages/PyOpenColorIO/__init__.py
 * /usr/share/doc/opencolorio-2.3.2/INSTALL.md
 * /usr/share/doc/opencolorio-2.3.2/LICENSE
 * /usr/share/doc/opencolorio-2.3.2/README.md

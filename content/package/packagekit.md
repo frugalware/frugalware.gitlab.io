@@ -1,33 +1,29 @@
 +++
 draft = false
-title = "packagekit 1.3.0-1"
-version = "1.3.0-1"
+title = "packagekit 1.3.0-3"
+version = "1.3.0-3"
 description = "A system designed to make installation and updates of packages easier"
-date = "2024-10-22T09:05:19"
+date = "2024-11-03T16:35:54"
 aliases = "/packages/217762"
 categories = ['apps-extra']
 upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
-size = "612556"
-usize = "4313766"
-sha1sum = "90232f94a825d30515b77e8384e5d91b1a00b627"
-depends = "['bash-completion', 'gst1-plugins-base', 'networkmanager>=1.4.0-2', 'packagekit-glib', 'pango', 'polkit>=0.113-9', 'python3>=3.11']"
+size = "606276"
+usize = "4283337"
+sha1sum = "deec1f3b95b80f9f542a267269eae82976d5229d"
+depends = "['bash-completion', 'gst1-plugins-base', 'networkmanager>=1.4.0-2', 'packagekit-glib', 'pango', 'polkit>=0.113-9', 'python3>=3.13']"
 +++
 ### Description: 
 A system designed to make installation and updates of packages easier
 
 ### Files: 
-* /etc/cron.daily/packagekit-background.cron
 * /etc/PackageKit/CommandNotFound.conf
 * /etc/PackageKit/PackageKit.conf
 * /etc/PackageKit/Vendor.conf
 * /etc/profile.d/PackageKit.sh
-* /etc/sysconfig/packagekit-background
 * /usr/bin/pkcon
 * /usr/bin/pkmon
 * /usr/lib/girepository-1.0/PackageKitGlib-1.0.typelib
-* /usr/lib/gnome-settings-daemon-3.0/gtk-modules/pk-gtk-module.desktop
-* /usr/lib/gtk-3.0/modules/libpk-gtk-module.so
 * /usr/lib/packagekit-backend/libpk_backend_dummy.so
 * /usr/lib/packagekit-backend/libpk_backend_test_fail.so
 * /usr/lib/packagekit-backend/libpk_backend_test_nop.so
@@ -37,22 +33,21 @@ A system designed to make installation and updates of packages easier
 * /usr/lib/packagekit/packagekit-direct
 * /usr/lib/packagekit/packagekitd
 * /usr/lib/packagekit/pk-command-not-found
-* /usr/lib/packagekit/pk-gstreamer-install
 * /usr/lib/packagekit/pk-offline-update
-* /usr/lib/python3.12/site-packages/packagekit/backend.py
-* /usr/lib/python3.12/site-packages/packagekit/enums.py
-* /usr/lib/python3.12/site-packages/packagekit/filter.py
-* /usr/lib/python3.12/site-packages/packagekit/misc.py
-* /usr/lib/python3.12/site-packages/packagekit/package.py
-* /usr/lib/python3.12/site-packages/packagekit/progress.py
-* /usr/lib/python3.12/site-packages/packagekit/__init__.py
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/backend.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/enums.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/filter.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/misc.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/package.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/progress.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/packagekit/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/packagekit/backend.py
+* /usr/lib/python3.13/site-packages/packagekit/enums.py
+* /usr/lib/python3.13/site-packages/packagekit/filter.py
+* /usr/lib/python3.13/site-packages/packagekit/misc.py
+* /usr/lib/python3.13/site-packages/packagekit/package.py
+* /usr/lib/python3.13/site-packages/packagekit/progress.py
+* /usr/lib/python3.13/site-packages/packagekit/__init__.py
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/backend.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/enums.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/filter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/misc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/package.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/progress.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/packagekit/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/systemd/system/packagekit-offline-update.service
 * /usr/lib/systemd/system/packagekit.service
 * /usr/lib/systemd/system/system-update.target.wants/packagekit-offline-update.service

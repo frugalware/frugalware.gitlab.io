@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pahole 1.27-1"
-version = "1.27-1"
+title = "pahole 1.27-2"
+version = "1.27-2"
 description = "Pahole and other DWARF utils"
-date = "2024-07-19T18:35:55"
+date = "2024-11-03T16:36:33"
 aliases = "/packages/221543"
 categories = ['devel-extra']
 upstreamurl = "https://git.kernel.org/pub/scm/devel/pahole/pahole.git"
 arch = "x86_64"
-size = "199444"
-usize = "642816"
-sha1sum = "e0bf2fa04e0aaa445c5895403f178598dfe3f739"
+size = "198708"
+usize = "646880"
+sha1sum = "ed6d14cc4303586959ddd27fc965ebfea6839ff7"
 depends = "['libbpf']"
 +++
 ### Description: 
@@ -53,7 +53,7 @@ Pahole and other DWARF utils
 * /usr/lib/libdwarves_reorganize.so
 * /usr/lib/libdwarves_reorganize.so.1
 * /usr/lib/libdwarves_reorganize.so.1.0.0
-* /usr/lib/python3.12/site-packages/ostra.py
+* /usr/lib/python3.13/site-packages/ostra.py
 * /usr/share/doc/pahole-1.27/COPYING
 * /usr/share/doc/pahole-1.27/MANIFEST
 * /usr/share/doc/pahole-1.27/NEWS

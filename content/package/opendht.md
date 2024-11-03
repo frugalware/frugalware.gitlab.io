@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opendht 3.2.0-2"
-version = "3.2.0-2"
+title = "opendht 3.2.0-3"
+version = "3.2.0-3"
 description = "A C++11 implementation of the Kademlia DHT (Distributed Hash Table)"
-date = "2024-09-16T14:21:41"
+date = "2024-11-03T16:26:36"
 aliases = "/packages/219645"
 categories = ['network-extra']
 upstreamurl = "https://github.com/savoirfairelinux/opendht"
 arch = "x86_64"
-size = "1178792"
-usize = "4170236"
-sha1sum = "e9edcbc1f7006c9a45a3e86e054ad273bd82a6cb"
+size = "1178052"
+usize = "4168956"
+sha1sum = "df06e0f1c2980112008251a34175e33a9111ce66"
 depends = "['argon2', 'asio', 'fmtlib>=11.0.1', 'gnutls', 'jsoncpp>=1.9.6', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
 +++
 ### Description: 
@@ -69,11 +69,11 @@ A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
 * /usr/lib/libopendht.so.3.2.0
 * /usr/lib/pkgconfig/libllhttp.pc
 * /usr/lib/pkgconfig/opendht.pc
-* /usr/lib/python3.12/site-packages/opendht-3.2.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/opendht-3.2.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/opendht-3.2.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/opendht-3.2.0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/opendht.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/opendht-3.2.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/opendht-3.2.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/opendht-3.2.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/opendht-3.2.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/opendht.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/systemd/system/dhtcluster.service
 * /usr/lib/systemd/system/dhtnode.service
 * /usr/share/doc/opendht-3.2.0/COPYING

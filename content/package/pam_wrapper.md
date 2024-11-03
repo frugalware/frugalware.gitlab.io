@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pam_wrapper 1.1.7-1"
-version = "1.1.7-1"
+title = "pam_wrapper 1.1.7-2"
+version = "1.1.7-2"
 description = "Tool to test PAM applications and PAM modules"
-date = "2024-08-16T18:13:07"
+date = "2024-11-03T16:37:05"
 aliases = "/packages/220594"
 categories = ['devel-extra']
 upstreamurl = "https://cwrap.org/pam_wrapper.html"
 arch = "x86_64"
-size = "46052"
-usize = "144657"
-sha1sum = "904a4c7ce4c39550362ac37e33b444cf2d3ebea7"
-depends = "['pam', 'python3>=3.12']"
+size = "46048"
+usize = "145025"
+sha1sum = "a48c2f7e2ae2c96ffcef8c31976bd77322c48688"
+depends = "['pam', 'python3>=3.13']"
 +++
 ### Description: 
 Tool to test PAM applications and PAM modules
@@ -35,7 +35,7 @@ Tool to test PAM applications and PAM modules
 * /usr/lib/pam_wrapper/pam_set_items.so
 * /usr/lib/pkgconfig/libpamtest.pc
 * /usr/lib/pkgconfig/pam_wrapper.pc
-* /usr/lib/python3.12/site-packages/pypamtest.so
+* /usr/lib/python3.13/site-packages/pypamtest.so
 * /usr/share/doc/pam_wrapper-1.1.7/AUTHORS
 * /usr/share/doc/pam_wrapper-1.1.7/CHANGELOG
 * /usr/share/doc/pam_wrapper-1.1.7/LICENSE
