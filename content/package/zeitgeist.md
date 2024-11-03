@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zeitgeist 1.0.4-2"
-version = "1.0.4-2"
+title = "zeitgeist 1.0.4-3"
+version = "1.0.4-3"
 description = "Zeitgeist Framework"
-date = "2023-11-08T17:35:29"
+date = "2024-11-03T21:45:59"
 aliases = "/packages/102888"
 categories = ['xapps-extra']
 upstreamurl = "https://launchpad.net/zeitgeist"
 arch = "x86_64"
-size = "356108"
-usize = "2048571"
-sha1sum = "e5c7e14c74c445adc2c3942704783a52c75f94b9"
-depends = "['gtk+3>=3.18.6-2', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libpng>=1.6.20', 'python3>=3.11', 'telepathy-glib>=0.24.1-4']"
+size = "358696"
+usize = "2035416"
+sha1sum = "0a84ddba4baf4312d59056a1717b557853fb6168"
+depends = "['gtk+3>=3.18.6-2', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libpng>=1.6.20', 'python3>=3.13', 'telepathy-glib>=0.24.1-4']"
 +++
 ### Description: 
 Zeitgeist Framework
@@ -27,21 +27,21 @@ Zeitgeist Framework
 * /usr/lib/libzeitgeist-2.0.so.0
 * /usr/lib/libzeitgeist-2.0.so.0.0.0
 * /usr/lib/pkgconfig/zeitgeist-2.0.pc
-* /usr/lib/python3.12/site-packages/zeitgeist/client.py
-* /usr/lib/python3.12/site-packages/zeitgeist/datamodel.py
-* /usr/lib/python3.12/site-packages/zeitgeist/mimetypes.py
-* /usr/lib/python3.12/site-packages/zeitgeist/_ontology.py
-* /usr/lib/python3.12/site-packages/zeitgeist/__init__.py
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/client.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/datamodel.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/datamodel.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/mimetypes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/mimetypes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/_ontology.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/_ontology.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/zeitgeist/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/client.py
+* /usr/lib/python3.13/site-packages/zeitgeist/datamodel.py
+* /usr/lib/python3.13/site-packages/zeitgeist/mimetypes.py
+* /usr/lib/python3.13/site-packages/zeitgeist/_ontology.py
+* /usr/lib/python3.13/site-packages/zeitgeist/__init__.py
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/client.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/client.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/datamodel.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/datamodel.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/mimetypes.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/mimetypes.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/_ontology.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/_ontology.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/zeitgeist/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/systemd/user/zeitgeist.service
 * /usr/share/bash-completion/completions/zeitgeist-daemon
 * /usr/share/dbus-1/services/org.gnome.zeitgeist.Engine.service

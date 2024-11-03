@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vde2 2.3.2-9"
-version = "2.3.2-9"
+title = "vde2 2.3.3-1"
+version = "2.3.3-1"
 description = "Emulates ethernet switches over existing connections."
-date = "2024-01-10T20:45:20"
+date = "2024-11-03T21:28:47"
 aliases = "/packages/23321"
 categories = ['network-extra']
-upstreamurl = "http://vde.sourceforge.net/"
+upstreamurl = "https://github.com/virtualsquare/vde-2"
 arch = "x86_64"
-size = "230940"
-usize = "891770"
-sha1sum = "b0ac910476c6402c50c937ccbbefbe47971c7662"
+size = "175920"
+usize = "525559"
+sha1sum = "5643968db9ed823f299058b270add3f2560acb94"
 depends = "['glibc', 'libpcap', 'openssl>=3.1.0', 'python3']"
 +++
 ### Description: 
@@ -23,25 +23,16 @@ Emulates ethernet switches over existing connections.
 * /etc/vde2/libvdemgmt/sendcmd.rc
 * /etc/vde2/vdecmd
 * /usr/bin/dpipe
-* /usr/bin/slirpvde
 * /usr/bin/unixcmd
-* /usr/bin/unixterm
 * /usr/bin/vdecmd
-* /usr/bin/vdekvm
-* /usr/bin/vdeq
-* /usr/bin/vdeqemu
 * /usr/bin/vdeterm
 * /usr/bin/vde_autolink
-* /usr/bin/vde_cryptcab
-* /usr/bin/vde_l3
 * /usr/bin/vde_over_ns
 * /usr/bin/vde_pcapplug
 * /usr/bin/vde_plug
 * /usr/bin/vde_plug2tap
 * /usr/bin/vde_router
 * /usr/bin/vde_switch
-* /usr/bin/vde_tunctl
-* /usr/bin/vde_vxlan
 * /usr/bin/wirefilter
 * /usr/include/libvdehist.h
 * /usr/include/libvdemgmt.h
@@ -64,19 +55,13 @@ Emulates ethernet switches over existing connections.
 * /usr/lib/pkgconfig/vdemgmt.pc
 * /usr/lib/pkgconfig/vdeplug.pc
 * /usr/lib/pkgconfig/vdesnmp.pc
-* /usr/lib/python3.12/site-packages/VdePlug.py
-* /usr/lib/python3.12/site-packages/vdeplug_python.so
 * /usr/lib/vde2/libvdetap.so
 * /usr/lib/vde2/vdetap
-* /usr/lib/vde2/vde_l3/bfifo.so
-* /usr/lib/vde2/vde_l3/pfifo.so
-* /usr/lib/vde2/vde_l3/tbf.so
-* /usr/share/doc/vde2-2.3.2/Changelog
-* /usr/share/doc/vde2-2.3.2/COPYING
-* /usr/share/doc/vde2-2.3.2/COPYING.libvdeplug
-* /usr/share/doc/vde2-2.3.2/COPYING.slirpvde
-* /usr/share/doc/vde2-2.3.2/INSTALL
-* /usr/share/doc/vde2-2.3.2/README
+* /usr/share/doc/vde2-2.3.3/Changelog
+* /usr/share/doc/vde2-2.3.3/COPYING
+* /usr/share/doc/vde2-2.3.3/COPYING.libvdeplug
+* /usr/share/doc/vde2-2.3.3/INSTALL
+* /usr/share/doc/vde2-2.3.3/README
 * /usr/share/man/man1/dpipe.1.gz
 * /usr/share/man/man1/slirpvde.1.gz
 * /usr/share/man/man1/unixcmd.1.gz
