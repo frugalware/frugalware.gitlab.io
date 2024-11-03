@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libldb 4.21.1-3"
-version = "4.21.1-3"
+title = "libldb 4.21.1-4"
+version = "4.21.1-4"
 description = "Schema-less, ldap like, API and database"
-date = "2024-10-28T13:35:34"
+date = "2024-11-03T19:51:13"
 aliases = "/packages/222544"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "448776"
-usize = "1886511"
-sha1sum = "6d804c716d93a7aa63d8eaf0afefa2441857e076"
+size = "448768"
+usize = "1886474"
+sha1sum = "e7239d7fb0f7346caadfded88c94f69088043d3b"
 depends = "['libsmbclient', 'lmdb', 'talloc', 'tdb']"
 reverse_depends = "['libsmbclient']"
 +++
@@ -34,8 +34,8 @@ Schema-less, ldap like, API and database
 * /usr/lib/libldb.so.2
 * /usr/lib/libldb.so.2.10.0
 * /usr/lib/pkgconfig/ldb.pc
-* /usr/lib/python3.12/site-packages/ldb.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/_ldb_text.py
+* /usr/lib/python3.13/site-packages/ldb.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/_ldb_text.py
 * /usr/lib/samba/ldb/acl.so
 * /usr/lib/samba/ldb/aclread.so
 * /usr/lib/samba/ldb/anr.so

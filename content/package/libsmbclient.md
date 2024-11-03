@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsmbclient 4.21.1-3"
-version = "4.21.1-3"
+title = "libsmbclient 4.21.1-4"
+version = "4.21.1-4"
 description = "SMB client library."
-date = "2024-10-28T13:35:34"
+date = "2024-11-03T19:51:13"
 aliases = "/packages/10586"
 categories = ['lib']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7625336"
-usize = "32491455"
-sha1sum = "e82c4f6bd9228e1735f10e10a51fdc2b6fdd89bb"
-depends = "['gpgme', 'icu4c>=76.1', 'jansson', 'libldap>=2.5.4', 'libldb>=4.21.1', 'libwbclient>=4.21.1', 'libxcrypt', 'lmdb', 'python3>=3.12', 'tevent']"
+size = "7625024"
+usize = "32501551"
+sha1sum = "70d34823713b8210113295953ed8de01be0d1a2e"
+depends = "['gpgme', 'icu4c>=76.1', 'jansson', 'libldap>=2.5.4', 'libldb>=4.21.1', 'libwbclient>=4.21.1', 'libxcrypt', 'lmdb', 'python3>=3.13', 'tevent']"
 reverse_depends = "['gvfs-smb', 'libldb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
 ### Description: 
@@ -200,7 +200,8 @@ SMB client library.
 * /usr/lib/samba/libprinter-driver-private-samba.so
 * /usr/lib/samba/libprinting-migrate-private-samba.so
 * /usr/lib/samba/libprocess-model-private-samba.so
-* /usr/lib/samba/libpyldb-util.cpython-312-x86-64-linux-gnu-private-samba.so
+* /usr/lib/samba/libpyldb-util.cpython-313-x86-64-linux-gnu-private-samba.so
+* /usr/lib/samba/libpytalloc-util.cpython-313-x86-64-linux-gnu-private-samba.so
 * /usr/lib/samba/libREG-FULL-private-samba.so
 * /usr/lib/samba/libregistry-private-samba.so
 * /usr/lib/samba/libreplace-private-samba.so
@@ -210,9 +211,9 @@ SMB client library.
 * /usr/lib/samba/libsamba-cluster-support-private-samba.so
 * /usr/lib/samba/libsamba-debug-private-samba.so
 * /usr/lib/samba/libsamba-modules-private-samba.so
-* /usr/lib/samba/libsamba-net-join.cpython-312-x86-64-linux-gnu-private-samba.so
+* /usr/lib/samba/libsamba-net-join.cpython-313-x86-64-linux-gnu-private-samba.so
 * /usr/lib/samba/libsamba-net-private-samba.so
-* /usr/lib/samba/libsamba-python.cpython-312-x86-64-linux-gnu-private-samba.so
+* /usr/lib/samba/libsamba-python.cpython-313-x86-64-linux-gnu-private-samba.so
 * /usr/lib/samba/libsamba-security-private-samba.so
 * /usr/lib/samba/libsamba-sockets-private-samba.so
 * /usr/lib/samba/libsamba3-util-private-samba.so
