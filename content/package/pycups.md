@@ -1,28 +1,28 @@
 +++
 draft = false
-title = "pycups 1.9.73-10"
-version = "1.9.73-10"
+title = "pycups 2.0.4-1"
+version = "2.0.4-1"
 description = "The python bindings for cups."
-date = "2023-10-11T21:06:13"
+date = "2024-11-03T18:15:13"
 aliases = "/packages/39409"
 categories = ['devel']
 upstreamurl = "http://cyberelk.net/tim/software/pycups/"
 arch = "x86_64"
-size = "65192"
-usize = "230869"
-sha1sum = "668768fdd1a08f1b0699bd3c47126dee575bba1a"
+size = "67476"
+usize = "225895"
+sha1sum = "ee55bc59f1f8d00a14d42f11cdf4f5073d275859"
 depends = "['libcups', 'python3']"
 +++
 ### Description: 
 The python bindings for cups.
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/cups.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/pycups-1.9.73-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pycups-1.9.73-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pycups-1.9.73-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pycups-1.9.73-py3.12.egg-info/top_level.txt
-* /usr/share/doc/pycups-1.9.73/COPYING
-* /usr/share/doc/pycups-1.9.73/NEWS
-* /usr/share/doc/pycups-1.9.73/README
-* /usr/share/doc/pycups-1.9.73/TODO
+* /usr/lib/python3.13/site-packages/cups.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/pycups-2.0.4-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pycups-2.0.4-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pycups-2.0.4-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pycups-2.0.4-py3.13.egg-info/top_level.txt
+* /usr/share/doc/pycups-2.0.4/COPYING
+* /usr/share/doc/pycups-2.0.4/NEWS
+* /usr/share/doc/pycups-2.0.4/README
+* /usr/share/doc/pycups-2.0.4/TODO
