@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "system-config-printer 1.5.11-12"
-version = "1.5.11-12"
+title = "system-config-printer 1.5.11-13"
+version = "1.5.11-13"
 description = "The purpose of the tool is to configure a CUPS server using the CUPS API."
-date = "2024-01-07T17:11:05"
+date = "2024-11-03T21:05:04"
 aliases = "/packages/74107"
 categories = ['xapps']
 upstreamurl = "https://github.com/zdohnal/system-config-printer"
 arch = "x86_64"
-size = "773300"
-usize = "5568802"
-sha1sum = "d5bc114ebfbbfdf0327ef11f3f9e834dbd58fbfa"
-depends = "['cups-pk-helper', 'pycurl', 'python3>=3.9.6', 'python3-requests']"
+size = "776880"
+usize = "5562763"
+sha1sum = "64fb9d757b4d4c27843d271096d71b2bc2d68602"
+depends = "['cups-pk-helper', 'pycurl', 'python3>=3.13', 'python3-requests']"
 +++
 ### Description: 
 The purpose of the tool is to configure a CUPS server using the CUPS API.
@@ -25,25 +25,25 @@ The purpose of the tool is to configure a CUPS server using the CUPS API.
 * /usr/bin/scp-dbus-service
 * /usr/bin/system-config-printer
 * /usr/bin/system-config-printer-applet
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/config.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/cupshelpers.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/installdriver.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/openprinting.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/ppds.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/xmldriverprefs.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__init__.py
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/config.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/cupshelpers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/installdriver.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/openprinting.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/ppds.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/xmldriverprefs.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/cupshelpers/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/EGG-INFO/dependency_links.txt
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/EGG-INFO/not-zip-safe
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/EGG-INFO/PKG-INFO
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/EGG-INFO/SOURCES.txt
-* /usr/lib/python3.12/site-packages/cupshelpers-1.0-py3.12.egg/EGG-INFO/top_level.txt
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/config.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/cupshelpers.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/installdriver.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/openprinting.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/ppds.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/xmldriverprefs.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__init__.py
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/cupshelpers.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/installdriver.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/openprinting.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/ppds.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/xmldriverprefs.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/cupshelpers/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/EGG-INFO/dependency_links.txt
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/EGG-INFO/not-zip-safe
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/EGG-INFO/PKG-INFO
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/EGG-INFO/SOURCES.txt
+* /usr/lib/python3.13/site-packages/cupshelpers-1.0-py3.13.egg/EGG-INFO/top_level.txt
 * /usr/lib/udev/rules.d/70-printers.rules
 * /usr/lib/udev/udev-add-printer
 * /usr/lib/udev/udev-configure-printer

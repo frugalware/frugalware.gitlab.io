@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "volume_key 0.3.12-10"
-version = "0.3.12-10"
+title = "volume_key 0.3.12-11"
+version = "0.3.12-11"
 description = "A tiny library providing a C class for working with arbitrary big sizes in bytes"
-date = "2023-10-08T15:11:35"
+date = "2024-11-03T21:11:08"
 aliases = "/packages/219661"
 categories = ['lib']
 upstreamurl = "https://pagure.io/volume_key/"
 arch = "x86_64"
-size = "155592"
-usize = "892355"
-sha1sum = "633e1d5f859708c236b69302efd05022444d3a23"
-depends = "['cryptsetup-luks', 'gpgme', 'libblkid', 'nss', 'python3>=3.12']"
+size = "156288"
+usize = "890249"
+sha1sum = "3093d9884e3a45e0b3125a91da65e7824903d1a1"
+depends = "['cryptsetup-luks', 'gpgme', 'libblkid', 'nss', 'python3>=3.13']"
 reverse_depends = "['libblockdev']"
 +++
 ### Description: 
@@ -23,10 +23,11 @@ A tiny library providing a C class for working with arbitrary big sizes in bytes
 * /usr/lib/libvolume_key.so
 * /usr/lib/libvolume_key.so.1
 * /usr/lib/libvolume_key.so.1.2.3
-* /usr/lib/python3.12/site-packages/volume_key.py
-* /usr/lib/python3.12/site-packages/_volume_key.so
-* /usr/lib/python3.12/site-packages/__pycache__/volume_key.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/__pycache__/volume_key.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/volume_key.py
+* /usr/lib/python3.13/site-packages/_volume_key.so
+* /usr/lib/python3.13/site-packages/__pycache__/volume_key.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/__pycache__/volume_key.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/__pycache__/volume_key.cpython-313.pyc
 * /usr/share/doc/volume_key-0.3.12/AUTHORS
 * /usr/share/doc/volume_key-0.3.12/ChangeLog
 * /usr/share/doc/volume_key-0.3.12/COPYING

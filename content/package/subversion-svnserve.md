@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "subversion-svnserve 1.14.3-4"
-version = "1.14.3-4"
+title = "subversion-svnserve 1.14.3-5"
+version = "1.14.3-5"
 description = "Standalone SVN server daemon"
-date = "2024-08-28T14:22:18"
+date = "2024-11-03T21:01:22"
 aliases = "/packages/14125"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
 size = "42776"
 usize = "102413"
-sha1sum = "90b7ca016c6be6569ea829171299d59b23610c9f"
+sha1sum = "e7cdff9151efe3f2851c6691ab8b13ae961589d8"
 depends = "['apr-util>=1.5.4-3', 'subversion=1.14.3']"
 +++
 ### Description: 

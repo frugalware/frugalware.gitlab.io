@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "subversion-bindings 1.14.3-4"
-version = "1.14.3-4"
+title = "subversion-bindings 1.14.3-5"
+version = "1.14.3-5"
 description = "Python,Perl and Java bindings for subversion"
-date = "2024-08-28T14:22:18"
+date = "2024-11-03T21:01:22"
 aliases = "/packages/14126"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
-size = "4886808"
-usize = "25076259"
-sha1sum = "cf5f5571a3a47d902530279902570c848a4b0dde"
+size = "4908816"
+usize = "25087678"
+sha1sum = "62db7e0fc266b47ac0532501062617bc9cd6be57"
 depends = "['openjre', 'perl>=5.22.0', 'python3', 'subversion=1.14.3']"
 +++
 ### Description: 
@@ -40,58 +40,58 @@ Python,Perl and Java bindings for subversion
 * /usr/lib/perl5/5.40/site_perl/SVN/Ra.pm
 * /usr/lib/perl5/5.40/site_perl/SVN/Repos.pm
 * /usr/lib/perl5/5.40/site_perl/SVN/Wc.pm
-* /usr/lib/python3.12/site-packages/libsvn/client.py
-* /usr/lib/python3.12/site-packages/libsvn/core.py
-* /usr/lib/python3.12/site-packages/libsvn/delta.py
-* /usr/lib/python3.12/site-packages/libsvn/diff.py
-* /usr/lib/python3.12/site-packages/libsvn/fs.py
-* /usr/lib/python3.12/site-packages/libsvn/ra.py
-* /usr/lib/python3.12/site-packages/libsvn/repos.py
-* /usr/lib/python3.12/site-packages/libsvn/wc.py
-* /usr/lib/python3.12/site-packages/libsvn/_client.la
-* /usr/lib/python3.12/site-packages/libsvn/_client.so
-* /usr/lib/python3.12/site-packages/libsvn/_core.la
-* /usr/lib/python3.12/site-packages/libsvn/_core.so
-* /usr/lib/python3.12/site-packages/libsvn/_delta.la
-* /usr/lib/python3.12/site-packages/libsvn/_delta.so
-* /usr/lib/python3.12/site-packages/libsvn/_diff.la
-* /usr/lib/python3.12/site-packages/libsvn/_diff.so
-* /usr/lib/python3.12/site-packages/libsvn/_fs.la
-* /usr/lib/python3.12/site-packages/libsvn/_fs.so
-* /usr/lib/python3.12/site-packages/libsvn/_ra.la
-* /usr/lib/python3.12/site-packages/libsvn/_ra.so
-* /usr/lib/python3.12/site-packages/libsvn/_repos.la
-* /usr/lib/python3.12/site-packages/libsvn/_repos.so
-* /usr/lib/python3.12/site-packages/libsvn/_wc.la
-* /usr/lib/python3.12/site-packages/libsvn/_wc.so
-* /usr/lib/python3.12/site-packages/libsvn/__init__.py
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/core.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/delta.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/diff.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/fs.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/ra.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/repos.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/wc.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/libsvn/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/client.py
-* /usr/lib/python3.12/site-packages/svn/core.py
-* /usr/lib/python3.12/site-packages/svn/delta.py
-* /usr/lib/python3.12/site-packages/svn/diff.py
-* /usr/lib/python3.12/site-packages/svn/fs.py
-* /usr/lib/python3.12/site-packages/svn/ra.py
-* /usr/lib/python3.12/site-packages/svn/repos.py
-* /usr/lib/python3.12/site-packages/svn/wc.py
-* /usr/lib/python3.12/site-packages/svn/__init__.py
-* /usr/lib/python3.12/site-packages/svn/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/core.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/delta.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/diff.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/fs.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/ra.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/repos.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/wc.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/svn/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/libsvn/client.py
+* /usr/lib/python3.13/site-packages/libsvn/core.py
+* /usr/lib/python3.13/site-packages/libsvn/delta.py
+* /usr/lib/python3.13/site-packages/libsvn/diff.py
+* /usr/lib/python3.13/site-packages/libsvn/fs.py
+* /usr/lib/python3.13/site-packages/libsvn/ra.py
+* /usr/lib/python3.13/site-packages/libsvn/repos.py
+* /usr/lib/python3.13/site-packages/libsvn/wc.py
+* /usr/lib/python3.13/site-packages/libsvn/_client.la
+* /usr/lib/python3.13/site-packages/libsvn/_client.so
+* /usr/lib/python3.13/site-packages/libsvn/_core.la
+* /usr/lib/python3.13/site-packages/libsvn/_core.so
+* /usr/lib/python3.13/site-packages/libsvn/_delta.la
+* /usr/lib/python3.13/site-packages/libsvn/_delta.so
+* /usr/lib/python3.13/site-packages/libsvn/_diff.la
+* /usr/lib/python3.13/site-packages/libsvn/_diff.so
+* /usr/lib/python3.13/site-packages/libsvn/_fs.la
+* /usr/lib/python3.13/site-packages/libsvn/_fs.so
+* /usr/lib/python3.13/site-packages/libsvn/_ra.la
+* /usr/lib/python3.13/site-packages/libsvn/_ra.so
+* /usr/lib/python3.13/site-packages/libsvn/_repos.la
+* /usr/lib/python3.13/site-packages/libsvn/_repos.so
+* /usr/lib/python3.13/site-packages/libsvn/_wc.la
+* /usr/lib/python3.13/site-packages/libsvn/_wc.so
+* /usr/lib/python3.13/site-packages/libsvn/__init__.py
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/client.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/core.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/delta.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/diff.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/fs.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/ra.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/repos.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/wc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/libsvn/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/client.py
+* /usr/lib/python3.13/site-packages/svn/core.py
+* /usr/lib/python3.13/site-packages/svn/delta.py
+* /usr/lib/python3.13/site-packages/svn/diff.py
+* /usr/lib/python3.13/site-packages/svn/fs.py
+* /usr/lib/python3.13/site-packages/svn/ra.py
+* /usr/lib/python3.13/site-packages/svn/repos.py
+* /usr/lib/python3.13/site-packages/svn/wc.py
+* /usr/lib/python3.13/site-packages/svn/__init__.py
+* /usr/lib/python3.13/site-packages/svn/__pycache__/client.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/core.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/delta.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/diff.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/fs.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/ra.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/repos.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/wc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/svn/__pycache__/__init__.cpython-313.pyc
 * /usr/share/man/man3/SVN::Base.3perl.gz
 * /usr/share/man/man3/SVN::Client.3perl.gz
 * /usr/share/man/man3/SVN::Core.3perl.gz

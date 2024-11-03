@@ -12,7 +12,7 @@ size = "2616476"
 usize = "9666631"
 sha1sum = "86cd94f3f223d2579c056f9ebfb901082dba9e5f"
 depends = "['libblas', 'libgfortran>=11.2']"
-reverse_depends = "['coin-or-coinutils', 'dlib', 'julia', 'liblapacke', 'liblapacke64', 'octave', 'sphinxbase', 'suitesparse']"
+reverse_depends = "['coin-or-coinutils', 'dlib', 'julia', 'liblapacke', 'liblapacke64', 'octave', 'suitesparse']"
 +++
 ### Description: 
 Linear Algebra PACKage.
