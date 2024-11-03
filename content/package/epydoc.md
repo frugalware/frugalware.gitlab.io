@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "epydoc 3.0.1-9"
-version = "3.0.1-9"
+title = "epydoc 3.0.1-10"
+version = "3.0.1-10"
 description = "Epydoc is a tool for generating API documentation for Python modules, based on their docstrings."
-date = "2023-10-11T17:58:41"
+date = "2024-11-03T13:44:33"
 aliases = "/packages/14276"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/epydoc"
 arch = "x86_64"
-size = "1063376"
-usize = "15573642"
-sha1sum = "dd3ef94fd1e377dc1b3b984cd0f5ad3808f642f5"
+size = "1090696"
+usize = "15574816"
+sha1sum = "bfbc45eaea84645bde91593bdd2c0dfd37504e41"
 depends = "['python3']"
 +++
 ### Description: 
@@ -20,51 +20,51 @@ Epydoc is a tool for generating API documentation for Python modules, based on t
 * /usr/bin/apirst2html.py
 * /usr/bin/epydoc
 * /usr/bin/epydocgui
-* /usr/lib/python3.12/site-packages/epydoc-3.0.1-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/epydoc-3.0.1-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/epydoc-3.0.1-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/epydoc-3.0.1-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/epydoc/apidoc.py
-* /usr/lib/python3.12/site-packages/epydoc/checker.py
-* /usr/lib/python3.12/site-packages/epydoc/cli.py
-* /usr/lib/python3.12/site-packages/epydoc/compat.py
-* /usr/lib/python3.12/site-packages/epydoc/docbuilder.py
-* /usr/lib/python3.12/site-packages/epydoc/docintrospecter.py
-* /usr/lib/python3.12/site-packages/epydoc/docparser.py
-* /usr/lib/python3.12/site-packages/epydoc/docstringparser.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/dotgraph.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/html.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/html_colorize.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/html_css.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/html_help.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/latex.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/plaintext.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/xlink.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/__init__.py
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/__pycache__/html_css.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/__pycache__/html_help.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/__pycache__/latex.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/docwriter/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/gui.py
-* /usr/lib/python3.12/site-packages/epydoc/log.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/doctest.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/epytext.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/javadoc.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/plaintext.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/pyval_repr.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/restructuredtext.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/__init__.py
-* /usr/lib/python3.12/site-packages/epydoc/markup/__pycache__/doctest.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/markup/__pycache__/javadoc.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/markup/__pycache__/pyval_repr.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/test/util.py
-* /usr/lib/python3.12/site-packages/epydoc/test/__init__.py
-* /usr/lib/python3.12/site-packages/epydoc/test/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/util.py
-* /usr/lib/python3.12/site-packages/epydoc/__init__.py
-* /usr/lib/python3.12/site-packages/epydoc/__pycache__/checker.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/__pycache__/compat.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/epydoc/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/epydoc-3.0.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/epydoc-3.0.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/epydoc-3.0.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/epydoc-3.0.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/epydoc/apidoc.py
+* /usr/lib/python3.13/site-packages/epydoc/checker.py
+* /usr/lib/python3.13/site-packages/epydoc/cli.py
+* /usr/lib/python3.13/site-packages/epydoc/compat.py
+* /usr/lib/python3.13/site-packages/epydoc/docbuilder.py
+* /usr/lib/python3.13/site-packages/epydoc/docintrospecter.py
+* /usr/lib/python3.13/site-packages/epydoc/docparser.py
+* /usr/lib/python3.13/site-packages/epydoc/docstringparser.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/dotgraph.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/html.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/html_colorize.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/html_css.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/html_help.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/latex.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/plaintext.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/xlink.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/__init__.py
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/__pycache__/html_css.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/__pycache__/html_help.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/__pycache__/latex.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/docwriter/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/gui.py
+* /usr/lib/python3.13/site-packages/epydoc/log.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/doctest.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/epytext.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/javadoc.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/plaintext.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/pyval_repr.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/restructuredtext.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/__init__.py
+* /usr/lib/python3.13/site-packages/epydoc/markup/__pycache__/doctest.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/markup/__pycache__/javadoc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/markup/__pycache__/pyval_repr.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/test/util.py
+* /usr/lib/python3.13/site-packages/epydoc/test/__init__.py
+* /usr/lib/python3.13/site-packages/epydoc/test/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/util.py
+* /usr/lib/python3.13/site-packages/epydoc/__init__.py
+* /usr/lib/python3.13/site-packages/epydoc/__pycache__/checker.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/__pycache__/compat.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/epydoc/__pycache__/__init__.cpython-313.pyc
 * /usr/share/doc/epydoc-3.0.1/api/bug-index.html
 * /usr/share/doc/epydoc-3.0.1/api/class-tree.html
 * /usr/share/doc/epydoc-3.0.1/api/crarr.png

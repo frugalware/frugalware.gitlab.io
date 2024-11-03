@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "criu 4.0-1"
-version = "4.0-1"
+title = "criu 4.0-2"
+version = "4.0-2"
 description = "Checkpoint/Restore in Userspace tool"
-date = "2024-10-24T14:21:08"
+date = "2024-11-03T13:21:36"
 aliases = "/packages/200132"
 categories = ['apps-extra']
 upstreamurl = "http://criu.org"
 arch = "x86_64"
-size = "675720"
-usize = "2290522"
-sha1sum = "7c9a6265b3cbebaa78e3fb2105eedd1f542bc1ab"
-depends = "['libbsd', 'libdrm', 'libnet', 'libnl', 'libpthread-stubs', 'nftables', 'protobuf-c', 'python3>=3.11']"
+size = "676824"
+usize = "2291214"
+sha1sum = "31e4dec38442a0dcfef8e6d322984dda39b9d3bb"
+depends = "['libbsd', 'libdrm', 'libnet', 'libnl', 'libpthread-stubs', 'nftables', 'protobuf-c', 'python3>=3.12']"
 license = "GPL2"
 +++
 ### Description: 
@@ -71,20 +71,20 @@ Checkpoint/Restore in Userspace tool
 * /usr/lib/libcriu.so.2
 * /usr/lib/libcriu.so.2.0
 * /usr/lib/pkgconfig/criu.pc
-* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/crit-4.0.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/crit/version.py
-* /usr/lib/python3.12/site-packages/crit/__init__.py
-* /usr/lib/python3.12/site-packages/crit/__main__.py
-* /usr/lib/python3.12/site-packages/crit/__pycache__/version.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/crit/__pycache__/version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/crit/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/crit/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/crit/__pycache__/__main__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/crit/__pycache__/__main__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/crit/version.py
+* /usr/lib/python3.13/site-packages/crit/__init__.py
+* /usr/lib/python3.13/site-packages/crit/__main__.py
+* /usr/lib/python3.13/site-packages/crit/__pycache__/version.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/crit/__pycache__/version.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/crit/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/crit/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/crit/__pycache__/__main__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/crit/__pycache__/__main__.cpython-313.pyc
 * /usr/share/doc/criu-4.0/COPYING
 * /usr/share/doc/criu-4.0/CREDITS
 * /usr/share/doc/criu-4.0/INSTALL.md

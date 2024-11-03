@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hplip 3.24.4-1"
-version = "3.24.4-1"
+title = "hplip 3.24.4-2"
+version = "3.24.4-2"
 description = "HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux."
-date = "2024-06-17T09:55:58"
+date = "2024-11-03T14:07:55"
 aliases = "/packages/9747"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
-size = "7304324"
-usize = "12908629"
-sha1sum = "32ad550e6971a446275edfe4784b788b26a6f3ac"
+size = "7310412"
+usize = "12910525"
+sha1sum = "94bbfa984ea9339114c2c1c525b0840154dcc70e"
 depends = "['hplip-driver>=3.24.4', 'libcups>=2.2', 'libusb1', 'pygobject3-cairo', 'pyqt5', 'python3-distro', 'rpcbind', 'sane-backends>=1.0.25-2']"
 +++
 ### Description: 
@@ -61,9 +61,9 @@ HPLIP is an HP developed solution for printing, scanning, and faxing with HP ink
 * /usr/lib/libhpipp.so
 * /usr/lib/libhpipp.so.0
 * /usr/lib/libhpipp.so.0.0.1
-* /usr/lib/python3.12/site-packages/cupsext.so
-* /usr/lib/python3.12/site-packages/hpmudext.so
-* /usr/lib/python3.12/site-packages/scanext.so
+* /usr/lib/python3.13/site-packages/cupsext.so
+* /usr/lib/python3.13/site-packages/hpmudext.so
+* /usr/lib/python3.13/site-packages/scanext.so
 * /usr/lib/systemd/system/hplip-printer@.service
 * /usr/lib/x86_64-linux-gnu
 * /usr/share/applications/hp-uiscan.desktop

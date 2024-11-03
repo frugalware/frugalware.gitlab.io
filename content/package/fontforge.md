@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fontforge 20230101-2"
-version = "20230101-2"
+title = "fontforge 20230101-3"
+version = "20230101-3"
 description = "Font editor and converter"
-date = "2023-10-05T15:29:51"
+date = "2024-11-03T13:51:03"
 aliases = "/packages/3001"
 categories = ['misc-fonts']
 upstreamurl = "https://github.com/fontforge/fontforge"
 arch = "x86_64"
-size = "9483672"
-usize = "31181431"
-sha1sum = "ba31f755be0fc6066c0f5a4b2b8b7b9e06c68491"
-depends = "['gtk+3', 'libgif', 'libjpeg-turbo', 'libspiro', 'libtiff', 'libuninameslist', 'pango', 'python3>=3.12', 'readline>=8.0']"
+size = "9519360"
+usize = "31232891"
+sha1sum = "dc187963a1a44addc28ec1732f9f41a3970e154b"
+depends = "['gtk+3', 'libgif', 'libjpeg-turbo', 'libspiro', 'libtiff', 'libuninameslist', 'pango', 'python3>=3.13', 'readline>=8.0']"
 reverse_depends = "['mftrace']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Font editor and converter
 * /usr/bin/woff
 * /usr/lib/libfontforge.so
 * /usr/lib/libfontforge.so.4
-* /usr/lib/python3.12/site-packages/fontforge.so
-* /usr/lib/python3.12/site-packages/psMat.so
+* /usr/lib/python3.13/site-packages/fontforge.so
+* /usr/lib/python3.13/site-packages/psMat.so
 * /usr/share/applications/org.fontforge.FontForge.desktop
 * /usr/share/doc/fontforge-20230101/AUTHORS
 * /usr/share/doc/fontforge-20230101/COPYING.gplv3
@@ -949,6 +949,7 @@ Font editor and converter
 * /usr/share/doc/fontforge/_static/documentation_options.js
 * /usr/share/doc/fontforge/_static/fftype16.png
 * /usr/share/doc/fontforge/_static/file.png
+* /usr/share/doc/fontforge/_static/github-banner.svg
 * /usr/share/doc/fontforge/_static/language_data.js
 * /usr/share/doc/fontforge/_static/minus.png
 * /usr/share/doc/fontforge/_static/plus.png

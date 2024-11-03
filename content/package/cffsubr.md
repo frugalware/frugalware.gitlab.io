@@ -1,36 +1,38 @@
 +++
 draft = false
-title = "cffsubr 0.2.9-5"
-version = "0.2.9-5"
+title = "cffsubr 0.3.0-1"
+version = "0.3.0-1"
 description = "Standalone CFF subroutinizer based on AFDKO tx"
-date = "2023-10-11T15:26:34"
+date = "2024-11-03T13:18:31"
 aliases = "/packages/220492"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cffsubr"
 arch = "x86_64"
-size = "297624"
-usize = "1696856"
-sha1sum = "0955b252d3d57cd231e52678c08fb5229d4cff68"
-depends = "['python3>=3.10']"
+size = "15636"
+usize = "67654"
+sha1sum = "e969f32af7222d5095f40e3309f49b53864336b2"
+depends = "['python3>=3.12']"
 +++
 ### Description: 
 Standalone CFF subroutinizer based on AFDKO tx
 
 ### Files: 
 * /usr/bin/cffsubr
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/not-zip-safe
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/requires.txt
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/cffsubr-0.2.9-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/cffsubr/tx
-* /usr/lib/python3.12/site-packages/cffsubr/_version.py
-* /usr/lib/python3.12/site-packages/cffsubr/__init__.py
-* /usr/lib/python3.12/site-packages/cffsubr/__main__.py
-* /usr/lib/python3.12/site-packages/cffsubr/__pycache__/_version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cffsubr/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/cffsubr/__pycache__/__main__.cpython-312.pyc
-* /usr/share/doc/cffsubr-0.2.9/LICENSE
-* /usr/share/doc/cffsubr-0.2.9/README.md
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/NOTICE
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/cffsubr-0.3.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/cffsubr/_version.py
+* /usr/lib/python3.13/site-packages/cffsubr/__init__.py
+* /usr/lib/python3.13/site-packages/cffsubr/__main__.py
+* /usr/lib/python3.13/site-packages/cffsubr/__pycache__/_version.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/cffsubr/__pycache__/_version.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cffsubr/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/cffsubr/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/cffsubr/__pycache__/__main__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/cffsubr/__pycache__/__main__.cpython-313.pyc
+* /usr/share/doc/cffsubr-0.3.0/LICENSE
+* /usr/share/doc/cffsubr-0.3.0/README.md

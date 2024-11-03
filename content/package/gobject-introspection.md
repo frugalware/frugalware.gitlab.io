@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gobject-introspection 1.82.0-1"
-version = "1.82.0-1"
+title = "gobject-introspection 1.82.0-2"
+version = "1.82.0-2"
 description = "Generate interface introspection data for GObject libraries."
-date = "2024-09-22T18:03:42"
+date = "2024-11-03T13:54:55"
 aliases = "/packages/103233"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "607864"
-usize = "3197735"
-sha1sum = "72768883a1f2a37dd6ebaa5ef561b7bafcf1002c"
-depends = "['glib2>=$_glib2_ver', 'libffi>=3.4', 'python3>=3.12']"
+size = "608008"
+usize = "3198055"
+sha1sum = "c9232b8dc5f2ed50fef2c3ea03a15aa427cb9bef"
+depends = "['glib2>=$_glib2_ver', 'libffi>=3.4', 'python3>=3.13']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'libnma', 'lutris', 'piper', 'vte3']"
 +++
 ### Description: 
@@ -149,7 +149,7 @@ Generate interface introspection data for GObject libraries.
 * /usr/lib/gobject-introspection/giscanner/transformer.py
 * /usr/lib/gobject-introspection/giscanner/utils.py
 * /usr/lib/gobject-introspection/giscanner/xmlwriter.py
-* /usr/lib/gobject-introspection/giscanner/_giscanner.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/gobject-introspection/giscanner/_giscanner.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/gobject-introspection/giscanner/_version.py
 * /usr/lib/gobject-introspection/giscanner/__init__.py
 * /usr/lib/libgirepository-1.0.so

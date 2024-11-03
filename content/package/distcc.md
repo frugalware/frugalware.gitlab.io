@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "distcc 3.4-7"
-version = "3.4-7"
+title = "distcc 3.4-8"
+version = "3.4-8"
 description = "A distributed C, C++, Obj C compiler"
-date = "2024-06-17T14:07:37"
+date = "2024-11-03T13:38:36"
 aliases = "/packages/4212"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/distcc/distcc"
 arch = "x86_64"
-size = "487768"
-usize = "1926285"
-sha1sum = "f8565e9648b5de9aa90c33ed8a977289618b3fc9"
-depends = "['lzo', 'popt>=1.14-2', 'python3>=3.10', 'shadow>=4.1.2.1-2']"
+size = "490920"
+usize = "1929923"
+sha1sum = "3dfb9d52d69eda2b489d6f800d6bb1d53303eaf6"
+depends = "['lzo', 'popt>=1.14-2', 'python3>=3.13', 'shadow>=4.1.2.1-2']"
 reverse_depends = "['distcc-gui']"
 +++
 ### Description: 
@@ -42,57 +42,57 @@ A distributed C, C++, Obj C compiler
 * /usr/lib/distcc/bin/x86_64-frugalware-linux-g++
 * /usr/lib/distcc/bin/x86_64-frugalware-linux-gcc
 * /usr/lib/distcc/bin/x86_64-frugalware-linux-wrapper
-* /usr/lib/python3.12/site-packages/include_server-3.4-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/include_server-3.4-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/include_server-3.4-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/include_server-3.4-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/include_server/basics.py
-* /usr/lib/python3.12/site-packages/include_server/basics_test.py
-* /usr/lib/python3.12/site-packages/include_server/cache_basics.py
-* /usr/lib/python3.12/site-packages/include_server/compiler_defaults.py
-* /usr/lib/python3.12/site-packages/include_server/compress_files.py
-* /usr/lib/python3.12/site-packages/include_server/c_extensions_test.py
-* /usr/lib/python3.12/site-packages/include_server/distcc_pump_c_extensions.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/include_server/include_analyzer.py
-* /usr/lib/python3.12/site-packages/include_server/include_analyzer_memoizing_node.py
-* /usr/lib/python3.12/site-packages/include_server/include_analyzer_memoizing_node_test.py
-* /usr/lib/python3.12/site-packages/include_server/include_analyzer_test.py
-* /usr/lib/python3.12/site-packages/include_server/include_server.py
-* /usr/lib/python3.12/site-packages/include_server/include_server_test.py
-* /usr/lib/python3.12/site-packages/include_server/macro_eval.py
-* /usr/lib/python3.12/site-packages/include_server/macro_eval_test.py
-* /usr/lib/python3.12/site-packages/include_server/mirror_path.py
-* /usr/lib/python3.12/site-packages/include_server/mirror_path_test.py
-* /usr/lib/python3.12/site-packages/include_server/parse_command.py
-* /usr/lib/python3.12/site-packages/include_server/parse_command_test.py
-* /usr/lib/python3.12/site-packages/include_server/parse_file.py
-* /usr/lib/python3.12/site-packages/include_server/parse_file_test.py
-* /usr/lib/python3.12/site-packages/include_server/run.py
-* /usr/lib/python3.12/site-packages/include_server/setup.py
-* /usr/lib/python3.12/site-packages/include_server/statistics.py
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/basics.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/basics_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/cache_basics.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/compiler_defaults.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/compress_files.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/c_extensions_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/include_analyzer.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/include_analyzer_memoizing_node.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/include_analyzer_memoizing_node_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/include_analyzer_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/include_server.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/include_server_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/macro_eval.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/macro_eval_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/mirror_path.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/mirror_path_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/parse_command.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/parse_command_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/parse_file.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/parse_file_test.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/run.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/setup.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/include_server/__pycache__/statistics.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/include_server-3.4-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/include_server-3.4-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/include_server-3.4-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/include_server-3.4-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/include_server/basics.py
+* /usr/lib/python3.13/site-packages/include_server/basics_test.py
+* /usr/lib/python3.13/site-packages/include_server/cache_basics.py
+* /usr/lib/python3.13/site-packages/include_server/compiler_defaults.py
+* /usr/lib/python3.13/site-packages/include_server/compress_files.py
+* /usr/lib/python3.13/site-packages/include_server/c_extensions_test.py
+* /usr/lib/python3.13/site-packages/include_server/distcc_pump_c_extensions.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/include_server/include_analyzer.py
+* /usr/lib/python3.13/site-packages/include_server/include_analyzer_memoizing_node.py
+* /usr/lib/python3.13/site-packages/include_server/include_analyzer_memoizing_node_test.py
+* /usr/lib/python3.13/site-packages/include_server/include_analyzer_test.py
+* /usr/lib/python3.13/site-packages/include_server/include_server.py
+* /usr/lib/python3.13/site-packages/include_server/include_server_test.py
+* /usr/lib/python3.13/site-packages/include_server/macro_eval.py
+* /usr/lib/python3.13/site-packages/include_server/macro_eval_test.py
+* /usr/lib/python3.13/site-packages/include_server/mirror_path.py
+* /usr/lib/python3.13/site-packages/include_server/mirror_path_test.py
+* /usr/lib/python3.13/site-packages/include_server/parse_command.py
+* /usr/lib/python3.13/site-packages/include_server/parse_command_test.py
+* /usr/lib/python3.13/site-packages/include_server/parse_file.py
+* /usr/lib/python3.13/site-packages/include_server/parse_file_test.py
+* /usr/lib/python3.13/site-packages/include_server/run.py
+* /usr/lib/python3.13/site-packages/include_server/setup.py
+* /usr/lib/python3.13/site-packages/include_server/statistics.py
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/basics.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/basics_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/cache_basics.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/compiler_defaults.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/compress_files.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/c_extensions_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/include_analyzer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/include_analyzer_memoizing_node.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/include_analyzer_memoizing_node_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/include_analyzer_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/include_server.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/include_server_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/macro_eval.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/macro_eval_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/mirror_path.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/mirror_path_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/parse_command.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/parse_command_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/parse_file.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/parse_file_test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/run.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/setup.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/include_server/__pycache__/statistics.cpython-313.pyc
 * /usr/lib/systemd/system/distccd.service
 * /usr/lib/sysusers.d/distccd.conf
 * /usr/share/doc/distcc-3.4/AUTHORS
