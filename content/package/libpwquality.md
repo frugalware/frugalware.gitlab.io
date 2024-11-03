@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpwquality 1.4.5-3"
-version = "1.4.5-3"
+title = "libpwquality 1.4.5-4"
+version = "1.4.5-4"
 description = "A library for password generation and password quality checking"
-date = "2024-01-08T08:17:22"
+date = "2024-11-03T15:14:04"
 aliases = "/packages/168886"
 categories = ['lib']
 upstreamurl = "https://github.com/libpwquality/libpwquality"
 arch = "x86_64"
-size = "93452"
-usize = "473853"
-sha1sum = "4455d6b2fa2023944d3386265341cc539abcb954"
+size = "94152"
+usize = "453677"
+sha1sum = "43fe8244c168a0835c449099de847e473c6f1fa1"
 depends = "['cracklib>=2.9.5-6', 'pam>=1.1.8-4', 'python3']"
 reverse_depends = "['calamares-frugalware', 'seahorse', 'zulucrypt']"
 +++
@@ -26,15 +26,15 @@ A library for password generation and password quality checking
 * /usr/lib/libpwquality.so.1
 * /usr/lib/libpwquality.so.1.0.2
 * /usr/lib/pkgconfig/pwquality.pc
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/EGG-INFO/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/EGG-INFO/native_libs.txt
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/EGG-INFO/not-zip-safe
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/EGG-INFO/PKG-INFO
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/EGG-INFO/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/EGG-INFO/top_level.txt
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/pwquality.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/pwquality.py
-* /usr/lib/python3.12/site-packages/pwquality-1.4.5-py3.12-linux-x86_64.egg/__pycache__/pwquality.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/EGG-INFO/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/EGG-INFO/native_libs.txt
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/EGG-INFO/not-zip-safe
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/EGG-INFO/PKG-INFO
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/EGG-INFO/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/EGG-INFO/top_level.txt
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/pwquality.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/pwquality.py
+* /usr/lib/python3.13/site-packages/pwquality-1.4.5-py3.13-linux-x86_64.egg/__pycache__/pwquality.cpython-313.pyc
 * /usr/lib/security/pam_pwquality.so
 * /usr/share/doc/libpwquality-1.4.5/AUTHORS
 * /usr/share/doc/libpwquality-1.4.5/ChangeLog

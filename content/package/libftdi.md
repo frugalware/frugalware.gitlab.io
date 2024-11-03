@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libftdi 1.5-3"
-version = "1.5-3"
+title = "libftdi 1.5-4"
+version = "1.5-4"
 description = "A library to talk to FTDI chips"
-date = "2024-05-17T11:52:07"
+date = "2024-11-03T14:51:53"
 aliases = "/packages/221452"
 categories = ['lib']
 upstreamurl = "http://www.intra2net.com/en/developer/libftdi/"
 arch = "x86_64"
-size = "109500"
-usize = "518295"
-sha1sum = "a8381207a482e6d1cf9c2eb618351876f735c99d"
+size = "110808"
+usize = "496119"
+sha1sum = "62bb43427d7508ada18b6e12a5aaa6222959b1b9"
 depends = "['confuse', 'libboost', 'libusb1']"
 reverse_depends = "['flashrom']"
 +++
@@ -33,8 +33,8 @@ A library to talk to FTDI chips
 * /usr/lib/libftdipp1.so.3
 * /usr/lib/pkgconfig/libftdi1.pc
 * /usr/lib/pkgconfig/libftdipp1.pc
-* /usr/lib/python3.12/site-packages/ftdi1.py
-* /usr/lib/python3.12/site-packages/_ftdi1.so
+* /usr/lib/python3.13/site-packages/ftdi1.py
+* /usr/lib/python3.13/site-packages/_ftdi1.so
 * /usr/share/doc/libftdi-1.5/AUTHORS
 * /usr/share/doc/libftdi-1.5/ChangeLog
 * /usr/share/doc/libftdi-1.5/COPYING-CMAKE-SCRIPTS

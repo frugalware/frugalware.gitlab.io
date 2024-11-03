@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lilv 0.24.24-2"
-version = "0.24.24-2"
+title = "lilv 0.24.24-3"
+version = "0.24.24-3"
 description = "Lilv is a C library to make the use of LV2 plugins as simple as possible for applications."
-date = "2024-05-16T03:19:42"
+date = "2024-11-03T14:17:20"
 aliases = "/packages/219687"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/lilv"
 arch = "x86_64"
-size = "97580"
-usize = "420292"
-sha1sum = "04d661f28083c449165f62b7a458cceb5fd4b65d"
-depends = "['lv2>=1.18.0', 'python3>=3.12', 'sratom']"
+size = "110840"
+usize = "437883"
+sha1sum = "4734bd32a59a801ea238338f3cdb0978a8456795"
+depends = "['lv2>=1.18.0', 'python3>=3.13', 'sratom']"
 reverse_depends = "['gst1-plugins-bad', 'mixxx', 'mlt-jack', 'pipewire', 'qtractor']"
 +++
 ### Description: 
@@ -29,11 +29,14 @@ Lilv is a C library to make the use of LV2 plugins as simple as possible for app
 * /usr/lib/liblilv-0.so.0
 * /usr/lib/liblilv-0.so.0.24.24
 * /usr/lib/pkgconfig/lilv-0.pc
-* /usr/lib/python3.12/site-packages/lilv.py
-* /usr/lib/python3.12/site-packages/__pycache__/lilv.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/lilv.py
+* /usr/lib/python3.13/site-packages/__pycache__/lilv.cpython-313.pyc
 * /usr/share/doc/lilv-0.24.24/AUTHORS
 * /usr/share/doc/lilv-0.24.24/COPYING
 * /usr/share/doc/lilv-0.24.24/INSTALL.md
+* /usr/share/doc/lilv-0.24.24/INSTALL.txt
+* /usr/share/doc/lilv-0.24.24/LICENSE
+* /usr/share/doc/lilv-0.24.24/LICENSE.README
 * /usr/share/doc/lilv-0.24.24/NEWS
 * /usr/share/doc/lilv-0.24.24/README.md
 * /usr/share/man/man1/lv2apply.1.gz

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libbytesize 2.11-1"
-version = "2.11-1"
+title = "libbytesize 2.11-2"
+version = "2.11-2"
 description = "A tiny library providing a C class for working with arbitrary big sizes in bytes"
-date = "2024-08-20T20:08:14"
+date = "2024-11-03T14:35:10"
 aliases = "/packages/219657"
 categories = ['lib']
 upstreamurl = "https://github.com/storaged-project/libbytesize"
 arch = "x86_64"
-size = "29728"
-usize = "115618"
-sha1sum = "ac30dc12f739506ad7d365c8bad025b2f2f2a64f"
-depends = "['python3>=3.12']"
+size = "29812"
+usize = "115682"
+sha1sum = "9e87dba5efeee45728d29b6e7e35d2701ad9cbff"
+depends = "['python3>=3.13']"
 reverse_depends = "['libblockdev']"
 +++
 ### Description: 
@@ -24,8 +24,8 @@ A tiny library providing a C class for working with arbitrary big sizes in bytes
 * /usr/lib/libbytesize.so.1
 * /usr/lib/libbytesize.so.1.0.0
 * /usr/lib/pkgconfig/bytesize.pc
-* /usr/lib/python3.12/site-packages/bytesize/bytesize.py
-* /usr/lib/python3.12/site-packages/bytesize/__init__.py
+* /usr/lib/python3.13/site-packages/bytesize/bytesize.py
+* /usr/lib/python3.13/site-packages/bytesize/__init__.py
 * /usr/share/doc/libbytesize-2.11/LICENSE
 * /usr/share/doc/libbytesize-2.11/README.md
 * /usr/share/locale/ast/LC_MESSAGES/libbytesize.mo

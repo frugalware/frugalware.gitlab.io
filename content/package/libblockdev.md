@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libblockdev 3.2.0-1"
-version = "3.2.0-1"
+title = "libblockdev 3.2.0-2"
+version = "3.2.0-2"
 description = "A library for manipulating block devices"
-date = "2024-09-15T15:07:50"
+date = "2024-11-03T14:34:37"
 aliases = "/packages/219656"
 categories = ['lib']
 upstreamurl = "https://github.com/storaged-project/libblockdev"
 arch = "x86_64"
-size = "324960"
-usize = "2155947"
-sha1sum = "c754811da4745935e012a8ff0bf7d23b245db0f2"
-depends = "['dmraid', 'json-glib', 'libatasmart', 'libbytesize', 'libndctl', 'libnvme', 'libyaml', 'nss', 'parted>=3.3', 'python3>=3.12', 'volume_key']"
+size = "324376"
+usize = "2157099"
+sha1sum = "e6da066a797feccf26d4f2c3784508d5bb409d81"
+depends = "['dmraid', 'json-glib', 'libatasmart', 'libbytesize', 'libndctl', 'libnvme', 'libyaml', 'nss', 'parted>=3.3', 'python3>=3.13', 'volume_key']"
 reverse_depends = "['udisks2']"
 +++
 ### Description: 
@@ -110,7 +110,7 @@ A library for manipulating block devices
 * /usr/lib/libblockdev.so.3.0.0
 * /usr/lib/pkgconfig/blockdev-utils.pc
 * /usr/lib/pkgconfig/blockdev.pc
-* /usr/lib/python3.12/site-packages/gi/overrides/BlockDev.py
+* /usr/lib/python3.13/site-packages/gi/overrides/BlockDev.py
 * /usr/share/doc/libblockdev-3.2.0/LICENSE
 * /usr/share/doc/libblockdev-3.2.0/README.md
 * /usr/share/gir-1.0/BlockDev-3.0.gir

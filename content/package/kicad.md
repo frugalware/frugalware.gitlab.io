@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kicad 8.0.1-1"
-version = "8.0.1-1"
+title = "kicad 8.0.6-1"
+version = "8.0.6-1"
 description = "Electronic schematic and printed circuid board design tools."
-date = "2024-04-18T14:22:02"
+date = "2024-11-03T14:32:56"
 aliases = "/packages/200581"
 categories = ['xapps-extra']
 upstreamurl = "https://www.kicad.org"
 arch = "x86_64"
-size = "43303588"
-usize = "188848027"
-sha1sum = "c998ddc49064e438a760713b780068cfda808d23"
-depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2', 'ngspice', 'opencascade>=7.8.1', 'openssl>=1.1.1', 'python3>=3.12', 'wxwidgets>=3.2.2.1']"
+size = "43772636"
+usize = "195604537"
+sha1sum = "6d3954d92710444ea58f74cc5a35572d39d4f382"
+depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2', 'ngspice', 'opencascade>=7.8.1', 'openssl>=1.1.1', 'python3>=3.13', 'wxwidgets>=3.2.2.1']"
 +++
 ### Description: 
 Electronic schematic and printed circuid board design tools.
@@ -42,21 +42,21 @@ Electronic schematic and printed circuid board design tools.
 * /usr/lib/libkicad_3dsg.so
 * /usr/lib/libkicad_3dsg.so.2.0.0
 * /usr/lib/libkicommon.so
-* /usr/lib/libkicommon.so.8.0.1
+* /usr/lib/libkicommon.so.8.0.6
 * /usr/lib/libkigal.so
-* /usr/lib/libkigal.so.8.0.1
-* /usr/lib/python3.12/site-packages/pcbnew.py
-* /usr/lib/python3.12/site-packages/_pcbnew.so
+* /usr/lib/libkigal.so.8.0.6
+* /usr/lib/python3.13/site-packages/pcbnew.py
+* /usr/lib/python3.13/site-packages/_pcbnew.so
 * /usr/share/applications/org.kicad.bitmap2component.desktop
 * /usr/share/applications/org.kicad.eeschema.desktop
 * /usr/share/applications/org.kicad.gerbview.desktop
 * /usr/share/applications/org.kicad.kicad.desktop
 * /usr/share/applications/org.kicad.pcbcalculator.desktop
 * /usr/share/applications/org.kicad.pcbnew.desktop
-* /usr/share/doc/kicad-8.0.1/INSTALL.txt
-* /usr/share/doc/kicad-8.0.1/LICENSE
-* /usr/share/doc/kicad-8.0.1/LICENSE.README
-* /usr/share/doc/kicad-8.0.1/README.md
+* /usr/share/doc/kicad-8.0.6/INSTALL.txt
+* /usr/share/doc/kicad-8.0.6/LICENSE
+* /usr/share/doc/kicad-8.0.6/LICENSE.README
+* /usr/share/doc/kicad-8.0.6/README.md
 * /usr/share/icons/hicolor/128x128/apps/bitmap2component.png
 * /usr/share/icons/hicolor/128x128/apps/eeschema.png
 * /usr/share/icons/hicolor/128x128/apps/gerbview.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libiio 0.26-2"
-version = "0.26-2"
+title = "libiio 0.26-3"
+version = "0.26-3"
 description = "Interface to the Linux Industrial Input/Output (IIO) Subsystem"
-date = "2024-10-28T12:57:26"
+date = "2024-11-03T15:00:39"
 aliases = "/packages/221223"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/analogdevicesinc/libiio"
 arch = "x86_64"
-size = "177180"
-usize = "634592"
-sha1sum = "cef5f38036eb5bc73ec4e00f4d7936eddf2ab261"
+size = "177676"
+usize = "633630"
+sha1sum = "817269f6bf30e2b42458638c0e20d2064122d9de"
 depends = "['avahi', 'libaio', 'libserialport', 'libusb1', 'libxml2']"
 reverse_depends = "['clightd']"
 +++
@@ -31,12 +31,12 @@ Interface to the Linux Industrial Input/Output (IIO) Subsystem
 * /usr/lib/libiio.so.0
 * /usr/lib/libiio.so.0.26
 * /usr/lib/pkgconfig/libiio.pc
-* /usr/lib/python3.12/site-packages/iio.py
-* /usr/lib/python3.12/site-packages/pylibiio-0.26-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/pylibiio-0.26-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/pylibiio-0.26-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/pylibiio-0.26-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/__pycache__/iio.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/iio.py
+* /usr/lib/python3.13/site-packages/pylibiio-0.26-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pylibiio-0.26-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pylibiio-0.26-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pylibiio-0.26-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/__pycache__/iio.cpython-313.pyc
 * /usr/lib/systemd/system/iiod.service
 * /usr/lib/udev/rules.d/90-libiio.rules
 * /usr/share/doc/libiio-0.26/COPYING.txt

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libguestfs 1.52.1-1"
-version = "1.52.1-1"
+title = "libguestfs 1.52.2-1"
+version = "1.52.2-1"
 description = "tools for accessing and modifying virtual machine disk images"
-date = "2024-05-14T16:55:19"
+date = "2024-11-03T14:59:16"
 aliases = "/packages/200067"
 categories = ['apps-extra']
 upstreamurl = "http://libguestfs.org/"
 arch = "x86_64"
-size = "8041344"
-usize = "14231661"
-sha1sum = "da5180c62a4d35d65efadf92a708562bb8e17f29"
+size = "8076140"
+usize = "14200714"
+sha1sum = "4cfbf2d4ea21cc11efcbab24a02303e6e8582331"
 depends = "['augeas>=1.9.0', 'cdrtools', 'cpio', 'fuse>=2.9.4', 'glib2>=2.50.1', 'gperf', 'jansson', 'libconfig', 'libvirt>=3.8.0', 'libxml2>=2.9.3-3', 'qemu>=2.10.1', 'readline>=8.0', 'yajl']"
 +++
 ### Description: 
@@ -141,12 +141,12 @@ tools for accessing and modifying virtual machine disk images
 * /usr/share/bash-completion/completions/virt-rescue
 * /usr/share/bash-completion/completions/virt-tar-in
 * /usr/share/bash-completion/completions/virt-tar-out
-* /usr/share/doc/libguestfs-1.52.1/AUTHORS
-* /usr/share/doc/libguestfs-1.52.1/COPYING
-* /usr/share/doc/libguestfs-1.52.1/COPYING.LIB
-* /usr/share/doc/libguestfs-1.52.1/HACKING
-* /usr/share/doc/libguestfs-1.52.1/README
-* /usr/share/doc/libguestfs-1.52.1/TODO
+* /usr/share/doc/libguestfs-1.52.2/AUTHORS
+* /usr/share/doc/libguestfs-1.52.2/COPYING
+* /usr/share/doc/libguestfs-1.52.2/COPYING.LIB
+* /usr/share/doc/libguestfs-1.52.2/HACKING
+* /usr/share/doc/libguestfs-1.52.2/README
+* /usr/share/doc/libguestfs-1.52.2/TODO
 * /usr/share/gir-1.0/Guestfs-1.0.gir
 * /usr/share/man/man1/guestfish.1.gz
 * /usr/share/man/man1/guestfs-building.1.gz
