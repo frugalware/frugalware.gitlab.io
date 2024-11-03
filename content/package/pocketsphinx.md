@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pocketsphinx 5prealpha-4"
-version = "5prealpha-4"
+title = "pocketsphinx 5prealpha-5"
+version = "5prealpha-5"
 description = "Lightweight speech recognition engine, specifically tuned for handheld and mobile devices, though it works equally well on the desktop"
-date = "2023-11-02T11:14:51"
+date = "2024-11-03T18:03:14"
 aliases = "/packages/219153"
 categories = ['multimedia-extra']
 upstreamurl = "https://sourceforge.net/projects/cmusphinx"
 arch = "x86_64"
-size = "24615488"
-usize = "38550131"
-sha1sum = "db529e9e89644636b09b5d12952176527553e6c7"
+size = "24482576"
+usize = "38544849"
+sha1sum = "0f1959c7a6b2b613067a4ab4d5b039f0b98f0346"
 depends = "['gst1-plugins-base', 'libpulse>=6.0', 'libsamplerate', 'python3', 'sphinxbase>=0.8', 'xz']"
 +++
 ### Description: 
@@ -31,15 +31,15 @@ Lightweight speech recognition engine, specifically tuned for handheld and mobil
 * /usr/lib/libpocketsphinx.so.3
 * /usr/lib/libpocketsphinx.so.3.0.0
 * /usr/lib/pkgconfig/pocketsphinx.pc
-* /usr/lib/python3.12/site-packages/pocketsphinx/pocketsphinx.py
-* /usr/lib/python3.12/site-packages/pocketsphinx/_pocketsphinx.so
-* /usr/lib/python3.12/site-packages/pocketsphinx/_pocketsphinx.so.0
-* /usr/lib/python3.12/site-packages/pocketsphinx/_pocketsphinx.so.0.0.0
-* /usr/lib/python3.12/site-packages/pocketsphinx/__init__.py
-* /usr/lib/python3.12/site-packages/pocketsphinx/__pycache__/pocketsphinx.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/pocketsphinx/__pycache__/pocketsphinx.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/pocketsphinx/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/pocketsphinx/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/pocketsphinx/pocketsphinx.py
+* /usr/lib/python3.13/site-packages/pocketsphinx/_pocketsphinx.so
+* /usr/lib/python3.13/site-packages/pocketsphinx/_pocketsphinx.so.0
+* /usr/lib/python3.13/site-packages/pocketsphinx/_pocketsphinx.so.0.0.0
+* /usr/lib/python3.13/site-packages/pocketsphinx/__init__.py
+* /usr/lib/python3.13/site-packages/pocketsphinx/__pycache__/pocketsphinx.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pocketsphinx/__pycache__/pocketsphinx.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pocketsphinx/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pocketsphinx/__pycache__/__init__.cpython-313.pyc
 * /usr/share/doc/pocketsphinx-5prealpha/AUTHORS
 * /usr/share/doc/pocketsphinx-5prealpha/LICENSE
 * /usr/share/doc/pocketsphinx-5prealpha/NEWS

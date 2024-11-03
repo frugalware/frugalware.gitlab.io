@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "piper 0.8-1"
-version = "0.8-1"
+title = "piper 0.8-2"
+version = "0.8-2"
 description = "Piper is a GUI interface to ratbagd, the system daemon for configurable mice"
-date = "2024-09-24T19:22:06"
+date = "2024-11-03T18:01:52"
 aliases = "/packages/219314"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/libratbag/piper"
 arch = "x86_64"
-size = "270812"
-usize = "2536636"
-sha1sum = "77474cd164abca1407d68014da72a8aa10c4bb33"
+size = "271800"
+usize = "2537536"
+sha1sum = "76325bb4fc5be84364307a1cd65191ee43c21f58"
 depends = "['gobject-introspection', 'libratbag>=0.9.906', 'pygobject3-cairo', 'python3-evdev', 'python3-lxml']"
 +++
 ### Description: 
@@ -18,48 +18,48 @@ Piper is a GUI interface to ratbagd, the system daemon for configurable mice
 
 ### Files: 
 * /usr/bin/piper
-* /usr/lib/python3.12/site-packages/piper/advancedpage.py
-* /usr/lib/python3.12/site-packages/piper/application.py
-* /usr/lib/python3.12/site-packages/piper/buttondialog.py
-* /usr/lib/python3.12/site-packages/piper/buttonspage.py
-* /usr/lib/python3.12/site-packages/piper/devicerow.py
-* /usr/lib/python3.12/site-packages/piper/errorperspective.py
-* /usr/lib/python3.12/site-packages/piper/leddialog.py
-* /usr/lib/python3.12/site-packages/piper/ledspage.py
-* /usr/lib/python3.12/site-packages/piper/mousemap.py
-* /usr/lib/python3.12/site-packages/piper/mouseperspective.py
-* /usr/lib/python3.12/site-packages/piper/optionbutton.py
-* /usr/lib/python3.12/site-packages/piper/profilerow.py
-* /usr/lib/python3.12/site-packages/piper/ratbagd.py
-* /usr/lib/python3.12/site-packages/piper/resolutionrow.py
-* /usr/lib/python3.12/site-packages/piper/resolutionspage.py
-* /usr/lib/python3.12/site-packages/piper/svg.py
-* /usr/lib/python3.12/site-packages/piper/util/gobject.py
-* /usr/lib/python3.12/site-packages/piper/util/__init__.py
-* /usr/lib/python3.12/site-packages/piper/util/__pycache__/gobject.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/util/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/welcomeperspective.py
-* /usr/lib/python3.12/site-packages/piper/window.py
-* /usr/lib/python3.12/site-packages/piper/__init__.py
-* /usr/lib/python3.12/site-packages/piper/__pycache__/advancedpage.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/application.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/buttondialog.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/buttonspage.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/devicerow.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/errorperspective.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/leddialog.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/ledspage.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/mousemap.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/mouseperspective.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/optionbutton.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/profilerow.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/ratbagd.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/resolutionrow.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/resolutionspage.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/svg.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/welcomeperspective.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/window.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/piper/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/piper/advancedpage.py
+* /usr/lib/python3.13/site-packages/piper/application.py
+* /usr/lib/python3.13/site-packages/piper/buttondialog.py
+* /usr/lib/python3.13/site-packages/piper/buttonspage.py
+* /usr/lib/python3.13/site-packages/piper/devicerow.py
+* /usr/lib/python3.13/site-packages/piper/errorperspective.py
+* /usr/lib/python3.13/site-packages/piper/leddialog.py
+* /usr/lib/python3.13/site-packages/piper/ledspage.py
+* /usr/lib/python3.13/site-packages/piper/mousemap.py
+* /usr/lib/python3.13/site-packages/piper/mouseperspective.py
+* /usr/lib/python3.13/site-packages/piper/optionbutton.py
+* /usr/lib/python3.13/site-packages/piper/profilerow.py
+* /usr/lib/python3.13/site-packages/piper/ratbagd.py
+* /usr/lib/python3.13/site-packages/piper/resolutionrow.py
+* /usr/lib/python3.13/site-packages/piper/resolutionspage.py
+* /usr/lib/python3.13/site-packages/piper/svg.py
+* /usr/lib/python3.13/site-packages/piper/util/gobject.py
+* /usr/lib/python3.13/site-packages/piper/util/__init__.py
+* /usr/lib/python3.13/site-packages/piper/util/__pycache__/gobject.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/util/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/welcomeperspective.py
+* /usr/lib/python3.13/site-packages/piper/window.py
+* /usr/lib/python3.13/site-packages/piper/__init__.py
+* /usr/lib/python3.13/site-packages/piper/__pycache__/advancedpage.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/application.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/buttondialog.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/buttonspage.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/devicerow.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/errorperspective.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/leddialog.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/ledspage.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/mousemap.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/mouseperspective.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/optionbutton.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/profilerow.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/ratbagd.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/resolutionrow.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/resolutionspage.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/svg.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/welcomeperspective.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/window.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/piper/__pycache__/__init__.cpython-313.pyc
 * /usr/share/applications/org.freedesktop.Piper.desktop
 * /usr/share/doc/piper-0.8/COPYING
 * /usr/share/doc/piper-0.8/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polychromatic 0.9.2-1"
-version = "0.9.2-1"
+title = "polychromatic 0.9.2-2"
+version = "0.9.2-2"
 description = "A graphical front end for managing Razer peripherals under GNU/Linux."
-date = "2024-07-30T14:36:23"
+date = "2024-11-03T18:04:09"
 aliases = "/packages/220392"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/polychromatic/polychromatic"
 arch = "x86_64"
-size = "716516"
-usize = "4513429"
-sha1sum = "9b69ffec4ea55c49d04a7e0b488cd40363f02b1f"
+size = "721888"
+usize = "4512843"
+sha1sum = "321f5182944614646ce9e1ef002810eb16831212"
 depends = "['hicolor-icon-theme', 'imagemagick>=7.1.1', 'libappindicator', 'openrazer', 'pyqt6webengine', 'python3-colorama', 'python3-colour']"
 +++
 ### Description: 
@@ -22,56 +22,56 @@ A graphical front end for managing Razer peripherals under GNU/Linux.
 * /usr/bin/polychromatic-controller
 * /usr/bin/polychromatic-helper
 * /usr/bin/polychromatic-tray-applet
-* /usr/lib/python3.12/site-packages/polychromatic/backends/openrazer.py
-* /usr/lib/python3.12/site-packages/polychromatic/backends/_backend.py
-* /usr/lib/python3.12/site-packages/polychromatic/backends/__pycache__/openrazer.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/backends/__pycache__/_backend.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/base.py
-* /usr/lib/python3.12/site-packages/polychromatic/bulkapply.py
-* /usr/lib/python3.12/site-packages/polychromatic/common.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/devices.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/editor.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/effects.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/menubar.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/preferences.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/procviewer.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/shared.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/troubleshooter.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__init__.py
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/devices.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/editor.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/effects.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/menubar.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/preferences.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/procviewer.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/shared.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/troubleshooter.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/controller/__pycache__/__init__.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/effects.py
-* /usr/lib/python3.12/site-packages/polychromatic/fileman.py
-* /usr/lib/python3.12/site-packages/polychromatic/fx.py
-* /usr/lib/python3.12/site-packages/polychromatic/locales.py
-* /usr/lib/python3.12/site-packages/polychromatic/middleman.py
-* /usr/lib/python3.12/site-packages/polychromatic/paths.py
-* /usr/lib/python3.12/site-packages/polychromatic/preferences.py
-* /usr/lib/python3.12/site-packages/polychromatic/procpid.py
-* /usr/lib/python3.12/site-packages/polychromatic/qt/flowlayout.py
-* /usr/lib/python3.12/site-packages/polychromatic/qt/__pycache__/flowlayout.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/troubleshoot/openrazer.py
-* /usr/lib/python3.12/site-packages/polychromatic/troubleshoot/__pycache__/openrazer.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__init__.py
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/base.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/bulkapply.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/common.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/effects.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/fileman.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/fx.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/locales.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/middleman.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/paths.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/preferences.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/procpid.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/polychromatic/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/backends/openrazer.py
+* /usr/lib/python3.13/site-packages/polychromatic/backends/_backend.py
+* /usr/lib/python3.13/site-packages/polychromatic/backends/__pycache__/openrazer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/backends/__pycache__/_backend.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/base.py
+* /usr/lib/python3.13/site-packages/polychromatic/bulkapply.py
+* /usr/lib/python3.13/site-packages/polychromatic/common.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/devices.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/editor.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/effects.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/menubar.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/preferences.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/procviewer.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/shared.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/troubleshooter.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__init__.py
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/devices.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/editor.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/effects.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/menubar.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/preferences.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/procviewer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/shared.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/troubleshooter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/controller/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/effects.py
+* /usr/lib/python3.13/site-packages/polychromatic/fileman.py
+* /usr/lib/python3.13/site-packages/polychromatic/fx.py
+* /usr/lib/python3.13/site-packages/polychromatic/locales.py
+* /usr/lib/python3.13/site-packages/polychromatic/middleman.py
+* /usr/lib/python3.13/site-packages/polychromatic/paths.py
+* /usr/lib/python3.13/site-packages/polychromatic/preferences.py
+* /usr/lib/python3.13/site-packages/polychromatic/procpid.py
+* /usr/lib/python3.13/site-packages/polychromatic/qt/flowlayout.py
+* /usr/lib/python3.13/site-packages/polychromatic/qt/__pycache__/flowlayout.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/troubleshoot/openrazer.py
+* /usr/lib/python3.13/site-packages/polychromatic/troubleshoot/__pycache__/openrazer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__init__.py
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/base.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/bulkapply.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/common.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/effects.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/fileman.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/fx.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/locales.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/middleman.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/paths.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/preferences.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/procpid.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/polychromatic/__pycache__/__init__.cpython-313.pyc
 * /usr/share/applications/polychromatic.desktop
 * /usr/share/doc/polychromatic-0.9.2/CHANGELOG
 * /usr/share/doc/polychromatic-0.9.2/LICENSE
