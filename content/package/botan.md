@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "botan 3.6.1-1"
-version = "3.6.1-1"
+title = "botan 3.6.1-2"
+version = "3.6.1-2"
 description = "Crypto library written in C++"
-date = "2024-10-27T11:32:35"
+date = "2024-11-03T11:55:06"
 aliases = "/packages/118822"
 categories = ['lib']
 upstreamurl = "http://botan.randombit.net/"
 arch = "x86_64"
-size = "2792736"
+size = "2791972"
 usize = "10308229"
-sha1sum = "540d8b63b608d313e3e0a087c068b146fedb347e"
+sha1sum = "0fa4d3208c558671265ba96e381c82b341cd8143"
 depends = "['bzip2', 'libgcc', 'libstdc++', 'python3', 'sqlite3', 'xz', 'zlib>=1.2.12']"
 reverse_depends = "['keepassxc', 'qca-botan', 'qca-qt5']"
 +++
@@ -205,7 +205,7 @@ Crypto library written in C++
 * /usr/lib/libbotan-3.so.6
 * /usr/lib/libbotan-3.so.6.6.1
 * /usr/lib/pkgconfig/botan-3.pc
-* /usr/lib/python3.12/site-packages/botan3.py
+* /usr/lib/python3.13/site-packages/botan3.py
 * /usr/share/doc/botan-3.6.1/authors.txt
 * /usr/share/doc/botan-3.6.1/handbook/abi.rst
 * /usr/share/doc/botan-3.6.1/handbook/api_ref/bigint.rst

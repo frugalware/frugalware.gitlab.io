@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "aubio 0.4.9-10"
-version = "0.4.9-10"
+title = "aubio 0.4.9-11"
+version = "0.4.9-11"
 description = "A tool for extracting annotations from audio signals"
-date = "2024-06-05T18:00:52"
+date = "2024-11-03T11:50:58"
 aliases = "/packages/220466"
 categories = ['multimedia-extra']
 upstreamurl = "https://aubio.org"
 arch = "x86_64"
-size = "1321812"
-usize = "5465913"
-sha1sum = "ba3db33222b54371a0488e69c58994ebb6602f27"
+size = "1330900"
+usize = "5614753"
+sha1sum = "7877c903d00c54af568effa4f350f597331fcd0f"
 depends = "['ffmpeg>=7.0', 'jack2', 'python3-numpy']"
 reverse_depends = "['performous', 'qtractor']"
 +++
@@ -84,29 +84,29 @@ A tool for extracting annotations from audio signals
 * /usr/lib/libaubio.so.5
 * /usr/lib/libaubio.so.5.4.8
 * /usr/lib/pkgconfig/aubio.pc
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/AUTHORS
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/COPYING
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/entry_points.txt
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/METADATA
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/RECORD
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/top_level.txt
-* /usr/lib/python3.12/site-packages/aubio-0.4.9.dist-info/WHEEL
-* /usr/lib/python3.12/site-packages/aubio/cmd.py
-* /usr/lib/python3.12/site-packages/aubio/cut.py
-* /usr/lib/python3.12/site-packages/aubio/midiconv.py
-* /usr/lib/python3.12/site-packages/aubio/slicing.py
-* /usr/lib/python3.12/site-packages/aubio/_aubio.cpython-312-x86_64-linux-gnu.so
-* /usr/lib/python3.12/site-packages/aubio/__init__.py
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/cmd.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/cmd.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/cut.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/cut.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/midiconv.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/midiconv.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/slicing.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/slicing.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/aubio/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/AUTHORS
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/COPYING
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/aubio-0.4.9.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/aubio/cmd.py
+* /usr/lib/python3.13/site-packages/aubio/cut.py
+* /usr/lib/python3.13/site-packages/aubio/midiconv.py
+* /usr/lib/python3.13/site-packages/aubio/slicing.py
+* /usr/lib/python3.13/site-packages/aubio/_aubio.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/aubio/__init__.py
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/cmd.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/cmd.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/cut.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/cut.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/midiconv.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/midiconv.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/slicing.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/slicing.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/aubio/__pycache__/__init__.cpython-313.pyc
 * /usr/share/doc/aubio-0.4.9/AUTHORS
 * /usr/share/doc/aubio-0.4.9/ChangeLog
 * /usr/share/doc/aubio-0.4.9/COPYING
@@ -124,7 +124,9 @@ A tool for extracting annotations from audio signals
 * /usr/share/doc/libaubio-doc/api/biquad_8h.html
 * /usr/share/doc/libaubio-doc/api/biquad_8h_source.html
 * /usr/share/doc/libaubio-doc/api/classes.html
+* /usr/share/doc/libaubio-doc/api/clipboard.js
 * /usr/share/doc/libaubio-doc/api/closed.png
+* /usr/share/doc/libaubio-doc/api/cookie.js
 * /usr/share/doc/libaubio-doc/api/cvec_8h.html
 * /usr/share/doc/libaubio-doc/api/cvec_8h_source.html
 * /usr/share/doc/libaubio-doc/api/c__weighting_8h.html
@@ -144,6 +146,7 @@ A tool for extracting annotations from audio signals
 * /usr/share/doc/libaubio-doc/api/docd.svg
 * /usr/share/doc/libaubio-doc/api/doxygen.css
 * /usr/share/doc/libaubio-doc/api/doxygen.svg
+* /usr/share/doc/libaubio-doc/api/doxygen_crawl.html
 * /usr/share/doc/libaubio-doc/api/dynsections.js
 * /usr/share/doc/libaubio-doc/api/examples.html
 * /usr/share/doc/libaubio-doc/api/examples_2aubionotes_8c-example.html
@@ -200,8 +203,11 @@ A tool for extracting annotations from audio signals
 * /usr/share/doc/libaubio-doc/api/menudata.js
 * /usr/share/doc/libaubio-doc/api/mfcc_8h.html
 * /usr/share/doc/libaubio-doc/api/mfcc_8h_source.html
+* /usr/share/doc/libaubio-doc/api/minus.svg
+* /usr/share/doc/libaubio-doc/api/minusd.svg
 * /usr/share/doc/libaubio-doc/api/musicutils_8h.html
 * /usr/share/doc/libaubio-doc/api/musicutils_8h_source.html
+* /usr/share/doc/libaubio-doc/api/navtree.css
 * /usr/share/doc/libaubio-doc/api/nav_f.png
 * /usr/share/doc/libaubio-doc/api/nav_fd.png
 * /usr/share/doc/libaubio-doc/api/nav_g.png
@@ -220,13 +226,18 @@ A tool for extracting annotations from audio signals
 * /usr/share/doc/libaubio-doc/api/pitch_2test-pitch_8c-example.html
 * /usr/share/doc/libaubio-doc/api/pitch_8h.html
 * /usr/share/doc/libaubio-doc/api/pitch_8h_source.html
+* /usr/share/doc/libaubio-doc/api/plus.svg
+* /usr/share/doc/libaubio-doc/api/plusd.svg
 * /usr/share/doc/libaubio-doc/api/resampler_8h.html
 * /usr/share/doc/libaubio-doc/api/resampler_8h_source.html
+* /usr/share/doc/libaubio-doc/api/resize.js
 * /usr/share/doc/libaubio-doc/api/sampler_8h.html
 * /usr/share/doc/libaubio-doc/api/sampler_8h_source.html
 * /usr/share/doc/libaubio-doc/api/search/all_0.js
 * /usr/share/doc/libaubio-doc/api/search/all_1.js
 * /usr/share/doc/libaubio-doc/api/search/all_10.js
+* /usr/share/doc/libaubio-doc/api/search/all_11.js
+* /usr/share/doc/libaubio-doc/api/search/all_12.js
 * /usr/share/doc/libaubio-doc/api/search/all_2.js
 * /usr/share/doc/libaubio-doc/api/search/all_3.js
 * /usr/share/doc/libaubio-doc/api/search/all_4.js

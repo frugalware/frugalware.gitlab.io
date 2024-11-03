@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libieee1284 0.2.11-13"
-version = "0.2.11-13"
+title = "libieee1284 0.2.11-14"
+version = "0.2.11-14"
 description = "A library for applications communicates with pralallel port devices"
-date = "2023-10-06T20:00:19"
+date = "2024-11-03T12:05:18"
 aliases = "/packages/3183"
 categories = ['multimedia']
 upstreamurl = "http://cyberelk.net/tim/libieee1284"
 arch = "x86_64"
-size = "70800"
-usize = "190044"
-sha1sum = "6b375baaaacb5e74d1f7486afc7352db539c64e3"
-depends = "['glibc>=2.29-6', 'python3>=3.12']"
+size = "70980"
+usize = "181719"
+sha1sum = "4429fe9ff6b7e832dc80af11f46cb74708e8b712"
+depends = "['glibc>=2.29-6', 'python3>=3.13']"
 reverse_depends = "['sane-backends']"
 +++
 ### Description: 
@@ -23,7 +23,7 @@ A library for applications communicates with pralallel port devices
 * /usr/lib/libieee1284.so
 * /usr/lib/libieee1284.so.3
 * /usr/lib/libieee1284.so.3.2.2
-* /usr/lib/python3.12/site-packages/ieee1284module.so
+* /usr/lib/python3.13/site-packages/ieee1284module.so
 * /usr/share/doc/libieee1284-0.2.11/AUTHORS
 * /usr/share/doc/libieee1284-0.2.11/ChangeLog
 * /usr/share/doc/libieee1284-0.2.11/COPYING

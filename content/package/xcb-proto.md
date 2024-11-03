@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xcb-proto 1.17.0-1"
-version = "1.17.0-1"
+title = "xcb-proto 1.17.0-2"
+version = "1.17.0-2"
 description = "X.org X protocol descriptions for XCB"
-date = "2024-04-16T14:22:09"
+date = "2024-11-03T11:27:26"
 aliases = "/packages/14765"
 categories = ['x11']
 upstreamurl = "http://xcb.freedesktop.org"
 arch = "x86_64"
-size = "130424"
-usize = "1088743"
-sha1sum = "297cf1f2331edbc9d717e6057ee0efdd294ca990"
-depends = "['libpthread-stubs', 'python3>=3.12']"
+size = "131464"
+usize = "1092937"
+sha1sum = "d6729766d3ef8537cddafe769fbfcf4293428425"
+depends = "['libpthread-stubs', 'python3>=3.13']"
 reverse_depends = "['x11-protos']"
 +++
 ### Description: 
@@ -19,34 +19,34 @@ X.org X protocol descriptions for XCB
 
 ### Files: 
 * /usr/lib/pkgconfig/xcb-proto.pc
-* /usr/lib/python3.12/site-packages/xcbgen/align.py
-* /usr/lib/python3.12/site-packages/xcbgen/error.py
-* /usr/lib/python3.12/site-packages/xcbgen/expr.py
-* /usr/lib/python3.12/site-packages/xcbgen/matcher.py
-* /usr/lib/python3.12/site-packages/xcbgen/state.py
-* /usr/lib/python3.12/site-packages/xcbgen/xtypes.py
-* /usr/lib/python3.12/site-packages/xcbgen/__init__.py
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/align.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/align.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/align.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/error.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/error.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/error.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/expr.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/expr.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/expr.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/matcher.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/matcher.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/matcher.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/state.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/state.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/state.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/xtypes.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/xtypes.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/xtypes.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.opt-2.pyc
-* /usr/lib/python3.12/site-packages/xcbgen/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/align.py
+* /usr/lib/python3.13/site-packages/xcbgen/error.py
+* /usr/lib/python3.13/site-packages/xcbgen/expr.py
+* /usr/lib/python3.13/site-packages/xcbgen/matcher.py
+* /usr/lib/python3.13/site-packages/xcbgen/state.py
+* /usr/lib/python3.13/site-packages/xcbgen/xtypes.py
+* /usr/lib/python3.13/site-packages/xcbgen/__init__.py
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/align.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/align.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/align.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/error.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/error.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/error.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/expr.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/expr.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/expr.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/matcher.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/matcher.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/matcher.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/state.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/state.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/state.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/xtypes.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/xtypes.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/xtypes.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/__init__.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/xcbgen/__pycache__/__init__.cpython-313.pyc
 * /usr/share/doc/xcb-proto-1.17.0/COPYING
 * /usr/share/doc/xcb-proto-1.17.0/INSTALL
 * /usr/share/doc/xcb-proto-1.17.0/NEWS

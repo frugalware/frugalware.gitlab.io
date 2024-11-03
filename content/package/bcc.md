@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bcc 0.31.0-2"
-version = "0.31.0-2"
+title = "bcc 0.31.0-3"
+version = "0.31.0-3"
 description = "BPF Compiler Collection"
-date = "2024-10-13T17:02:00"
+date = "2024-11-03T11:52:28"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "1416748"
-usize = "5717037"
-sha1sum = "95d9f87647c7be6dd51f1c3cb985627381310842"
-depends = "['clang-libs>=19.1.1', 'elfutils', 'python3>=3.11']"
+size = "1417404"
+usize = "5718476"
+sha1sum = "a389e7602ff0791d1a6de24556f8c112bc3732c2"
+depends = "['clang-libs>=19.1.1', 'elfutils', 'python3>=3.12']"
 +++
 ### Description: 
 BPF Compiler Collection
@@ -39,32 +39,32 @@ BPF Compiler Collection
 * /usr/lib/libbcc_bpf.so.0
 * /usr/lib/libbcc_bpf.so.0.31.0
 * /usr/lib/pkgconfig/libbcc.pc
-* /usr/lib/python3.12/site-packages/bcc-0.31.0-py3.12.egg-info/dependency_links.txt
-* /usr/lib/python3.12/site-packages/bcc-0.31.0-py3.12.egg-info/PKG-INFO
-* /usr/lib/python3.12/site-packages/bcc-0.31.0-py3.12.egg-info/SOURCES.txt
-* /usr/lib/python3.12/site-packages/bcc-0.31.0-py3.12.egg-info/top_level.txt
-* /usr/lib/python3.12/site-packages/bcc/containers.py
-* /usr/lib/python3.12/site-packages/bcc/disassembler.py
-* /usr/lib/python3.12/site-packages/bcc/libbcc.py
-* /usr/lib/python3.12/site-packages/bcc/perf.py
-* /usr/lib/python3.12/site-packages/bcc/syscall.py
-* /usr/lib/python3.12/site-packages/bcc/table.py
-* /usr/lib/python3.12/site-packages/bcc/tcp.py
-* /usr/lib/python3.12/site-packages/bcc/usdt.py
-* /usr/lib/python3.12/site-packages/bcc/utils.py
-* /usr/lib/python3.12/site-packages/bcc/version.py
-* /usr/lib/python3.12/site-packages/bcc/__init__.py
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/containers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/disassembler.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/libbcc.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/perf.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/syscall.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/table.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/tcp.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/usdt.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/utils.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/version.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/bcc/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/bcc-0.31.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/bcc-0.31.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/bcc-0.31.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/bcc-0.31.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/bcc/containers.py
+* /usr/lib/python3.13/site-packages/bcc/disassembler.py
+* /usr/lib/python3.13/site-packages/bcc/libbcc.py
+* /usr/lib/python3.13/site-packages/bcc/perf.py
+* /usr/lib/python3.13/site-packages/bcc/syscall.py
+* /usr/lib/python3.13/site-packages/bcc/table.py
+* /usr/lib/python3.13/site-packages/bcc/tcp.py
+* /usr/lib/python3.13/site-packages/bcc/usdt.py
+* /usr/lib/python3.13/site-packages/bcc/utils.py
+* /usr/lib/python3.13/site-packages/bcc/version.py
+* /usr/lib/python3.13/site-packages/bcc/__init__.py
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/containers.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/disassembler.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/libbcc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/perf.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/syscall.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/table.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/tcp.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/usdt.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/utils.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/version.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/bcc/__pycache__/__init__.cpython-313.pyc
 * /usr/share/bcc/examples/hello_world.py
 * /usr/share/bcc/examples/lua/bashreadline.c
 * /usr/share/bcc/examples/lua/bashreadline.lua

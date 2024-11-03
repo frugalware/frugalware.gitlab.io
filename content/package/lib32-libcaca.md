@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libcaca 0.99.beta20-2"
-version = "0.99.beta20-2"
+title = "lib32-libcaca 0.99.beta20-3"
+version = "0.99.beta20-3"
 description = "A graphics library that outputs text instead of pixels. ( 32bit )"
-date = "2024-05-16T01:45:03"
+date = "2024-11-03T11:28:57"
 aliases = "/packages/219247"
 categories = ['lib32-extra']
 upstreamurl = "http://libcaca.zoy.org"
 arch = "x86_64"
-size = "289928"
-usize = "1410649"
-sha1sum = "36ac94b8b08aaa00615011b5dd016beb02d3cdfc"
+size = "292448"
+usize = "1391077"
+sha1sum = "65c6d49ac13a537d319e800121339cc05a0426fd"
 depends = "['lib32-imlib2', 'lib32-ncurses', 'lib32-slang']"
 +++
 ### Description: 
