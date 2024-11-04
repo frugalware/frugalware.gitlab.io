@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "newt 0.52.24-1"
-version = "0.52.24-1"
+title = "newt 0.52.24-2"
+version = "0.52.24-2"
 description = "A programming library for color text mode, widget based user interfaces."
-date = "2023-10-27T20:21:34"
+date = "2024-11-04T09:06:30"
 aliases = "/packages/137202"
 categories = ['base']
 upstreamurl = "https://pagure.io/newt"
 arch = "x86_64"
-size = "77088"
-usize = "226000"
-sha1sum = "95e54ab6e6764197eba03ad3987e8c9b3e5e6082"
+size = "77800"
+usize = "219096"
+sha1sum = "aa545ec5442570ff5ecb2fb7f2ed1af9870abe66"
 depends = "['popt>=1.16-7', 'slang>=2.3.0-4']"
 reverse_depends = "['networkmanager', 'partimage']"
 +++

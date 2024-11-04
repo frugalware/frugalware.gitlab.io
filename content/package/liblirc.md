@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "liblirc 0.10.2-5"
-version = "0.10.2-5"
+title = "liblirc 0.10.2-6"
+version = "0.10.2-6"
 description = "Client library for lirc."
-date = "2024-06-18T14:32:25"
+date = "2024-11-04T08:56:34"
 aliases = "/packages/73218"
 categories = ['lib']
 upstreamurl = "http://www.lirc.org/"
 arch = "x86_64"
-size = "318728"
-usize = "1543768"
-sha1sum = "cef12449006a9756a14440ea24ee7bcdaa8c32f0"
-depends = "['glibc>=2.35', 'python3>=3.12']"
+size = "325244"
+usize = "1732463"
+sha1sum = "d03c336992eb17aa87d33798329357f3fe232e26"
+depends = "['glibc>=2.35', 'python3>=3.13']"
 reverse_depends = "['lirc', 'mencoder', 'mplayer', 'mpv', 'pulseaudio-lirc']"
 +++
 ### Description: 
@@ -102,43 +102,54 @@ Client library for lirc.
 * /usr/lib/lirc/plugins/zotac.so
 * /usr/lib/pkgconfig/lirc-driver.pc
 * /usr/lib/pkgconfig/lirc.pc
-* /usr/lib/python3.12/site-packages/lirc-setup/baseview.py
-* /usr/lib/python3.12/site-packages/lirc-setup/choosers.py
-* /usr/lib/python3.12/site-packages/lirc-setup/configs
-* /usr/lib/python3.12/site-packages/lirc-setup/lirc-setup
-* /usr/lib/python3.12/site-packages/lirc-setup/lirc-setup.ui
-* /usr/lib/python3.12/site-packages/lirc-setup/mvc_control.py
-* /usr/lib/python3.12/site-packages/lirc-setup/mvc_model.py
-* /usr/lib/python3.12/site-packages/lirc-setup/mvc_view.py
-* /usr/lib/python3.12/site-packages/lirc-setup/util.py
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/baseview.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/baseview.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/choosers.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/choosers.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/mvc_control.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/mvc_control.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/mvc_model.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/mvc_model.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/mvc_view.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/mvc_view.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/util.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc-setup/__pycache__/util.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc/async_client.py
-* /usr/lib/python3.12/site-packages/lirc/client.py
-* /usr/lib/python3.12/site-packages/lirc/database.py
-* /usr/lib/python3.12/site-packages/lirc/paths.py
-* /usr/lib/python3.12/site-packages/lirc/_client.so
-* /usr/lib/python3.12/site-packages/lirc/__init__.py
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/async_client.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/async_client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/client.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/client.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/database.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/database.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/paths.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/paths.cpython-312.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/__init__.cpython-312.opt-1.pyc
-* /usr/lib/python3.12/site-packages/lirc/__pycache__/__init__.cpython-312.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/baseview.py
+* /usr/lib/python3.13/site-packages/lirc-setup/choosers.py
+* /usr/lib/python3.13/site-packages/lirc-setup/configs
+* /usr/lib/python3.13/site-packages/lirc-setup/lirc-setup
+* /usr/lib/python3.13/site-packages/lirc-setup/lirc-setup.ui
+* /usr/lib/python3.13/site-packages/lirc-setup/mvc_control.py
+* /usr/lib/python3.13/site-packages/lirc-setup/mvc_model.py
+* /usr/lib/python3.13/site-packages/lirc-setup/mvc_view.py
+* /usr/lib/python3.13/site-packages/lirc-setup/util.py
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/baseview.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/baseview.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/baseview.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/choosers.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/choosers.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/choosers.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_control.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_control.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_control.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_model.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_model.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_model.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_view.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_view.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/mvc_view.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/util.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/util.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc-setup/__pycache__/util.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc/async_client.py
+* /usr/lib/python3.13/site-packages/lirc/client.py
+* /usr/lib/python3.13/site-packages/lirc/database.py
+* /usr/lib/python3.13/site-packages/lirc/paths.py
+* /usr/lib/python3.13/site-packages/lirc/_client.so
+* /usr/lib/python3.13/site-packages/lirc/__init__.py
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/async_client.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/async_client.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/async_client.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/client.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/client.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/client.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/database.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/database.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/database.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/paths.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/paths.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/paths.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/__init__.cpython-313.opt-2.pyc
+* /usr/lib/python3.13/site-packages/lirc/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/systemd/system/irexec.service
 * /usr/lib/systemd/system/lircd-setup.service
 * /usr/lib/systemd/system/lircd-uinput.service

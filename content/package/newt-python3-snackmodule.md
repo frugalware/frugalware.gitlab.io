@@ -1,21 +1,21 @@
 +++
 draft = false
-title = "newt-python3-snackmodule 0.52.24-1"
-version = "0.52.24-1"
+title = "newt-python3-snackmodule 0.52.24-2"
+version = "0.52.24-2"
 description = "Python3 snackmodule for newt"
-date = "2023-10-27T20:21:34"
+date = "2024-11-04T09:06:30"
 aliases = "/packages/220167"
 categories = ['apps-extra']
 upstreamurl = "https://pagure.io/newt"
 arch = "x86_64"
-size = "18848"
-usize = "73726"
-sha1sum = "ceeec6f3b37653bcf3b922a745623dbe707149fd"
-depends = "['python3>=3.12']"
+size = "18960"
+usize = "72702"
+sha1sum = "36fc3ee18314bf79ed578009c9852c1a430d7b05"
+depends = "['python3>=3.13']"
 +++
 ### Description: 
 Python3 snackmodule for newt
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/snack.py
-* /usr/lib/python3.12/site-packages/_snack.so
+* /usr/lib/python3.13/site-packages/snack.py
+* /usr/lib/python3.13/site-packages/_snack.so

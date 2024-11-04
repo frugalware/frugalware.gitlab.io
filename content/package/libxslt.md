@@ -12,7 +12,7 @@ size = "275580"
 usize = "1440554"
 sha1sum = "15a5ce64282f3b0eb8d20caf8828ce3264e78b14"
 depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.9.7-3', 'python3>=3.13']"
-reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', 'colord', 'docbook-xsl', 'docbook2x', 'geany-plugins', 'icecast', 'inkscape', 'kdoctools', 'kdoctools5', 'kio5', 'libosinfo', 'libreoffice', 'lincity-ng', 'nginx', 'php', 'python3-lxml', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'raptor', 'shiboken2', 'shiboken6', 'sim', 'telepathy-sofiasip', 'uwsgi-plugin-webdav', 'virtualbox', 'webkit-gtk3', 'wine', 'wine-devel', 'wxwidgets', 'xmlstarlet']"
+reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', 'colord', 'docbook-xsl', 'docbook2x', 'geany-plugins', 'icecast', 'inkscape', 'kdoctools', 'kdoctools5', 'kio5', 'libosinfo', 'libreoffice', 'lincity-ng', 'nginx', 'php', 'python3-lxml', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'raptor', 'shiboken6', 'sim', 'telepathy-sofiasip', 'uwsgi-plugin-webdav', 'virtualbox', 'webkit-gtk3', 'wine', 'wine-devel', 'wxwidgets', 'xmlstarlet']"
 +++
 ### Description: 
 XML stylesheet transformation library

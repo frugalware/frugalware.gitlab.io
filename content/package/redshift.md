@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "redshift 1.12-7"
-version = "1.12-7"
+title = "redshift 1.12-8"
+version = "1.12-8"
 description = "Redshift color temperature adjustment."
-date = "2023-11-02T11:02:45"
+date = "2024-11-04T09:02:50"
 aliases = "/packages/217646"
 categories = ['xapps-extra']
 upstreamurl = "http://jonls.dk/redshift/"
 arch = "x86_64"
-size = "124068"
-usize = "570346"
-sha1sum = "38c268135b416a9f3085f0dae37ac8f1a642f88b"
+size = "120032"
+usize = "558464"
+sha1sum = "e9cf754763004434367ee584f72633754cc582f6"
 depends = "['glib2>=2.46.2-4', 'libdrm', 'libxcb', 'libxxf86vm']"
 reverse_depends = "['plasma-applet-redshift-control']"
 +++
@@ -22,13 +22,10 @@ Redshift color temperature adjustment.
 * /usr/lib/systemd/user/redshift-gtk.service
 * /usr/lib/systemd/user/redshift.service
 * /usr/share/applications/redshift.desktop
-* /usr/share/doc/redshift-1.12/CONTRIBUTORS
 * /usr/share/doc/redshift-1.12/COPYING
-* /usr/share/doc/redshift-1.12/LICENSE
 * /usr/share/doc/redshift-1.12/NEWS
 * /usr/share/doc/redshift-1.12/README
 * /usr/share/doc/redshift-1.12/README-colorramp
-* /usr/share/doc/redshift-1.12/README.md
 * /usr/share/locale/ar/LC_MESSAGES/redshift.mo
 * /usr/share/locale/be/LC_MESSAGES/redshift.mo
 * /usr/share/locale/bg/LC_MESSAGES/redshift.mo

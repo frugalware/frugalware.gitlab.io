@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lirc 0.10.2-5"
-version = "0.10.2-5"
+title = "lirc 0.10.2-6"
+version = "0.10.2-6"
 description = "LIRC is a package that allows you to decode and send infra-red signals of many commonly used remote controls."
-date = "2024-06-18T14:32:25"
+date = "2024-11-04T08:56:34"
 aliases = "/packages/15069"
 categories = ['apps-extra']
 upstreamurl = "http://www.lirc.org/"
 arch = "x86_64"
-size = "1255056"
-usize = "8220905"
-sha1sum = "d8f47581f7ca321d395d241387c436119a43e335"
+size = "1267952"
+usize = "8377060"
+sha1sum = "feeb0a50d8ab9c25b6a9f14b2b67f59fc48980e6"
 depends = "['alsa-lib>=1.1.2-2', 'liblirc=0.10.2', 'libusb>=0.1.5-4', 'pyyaml3']"
 +++
 ### Description: 
@@ -81,6 +81,7 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/classLineBuffer.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/classLineBuffer.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/client_8py_source.html
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/clipboard.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/closed.png
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/config_8h_source.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/config_8py_source.html
@@ -93,6 +94,7 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/config__flags_8h.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/config__flags_8h.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/config__flags_8h_source.html
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/cookie.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/curl__poll_8c.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/curl__poll_8c_source.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/curl__poll_8h.html
@@ -115,6 +117,7 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/docd.svg
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/doxygen.css
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/doxygen.svg
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/doxygen_crawl.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/drivers_2default_2Makefile-example.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/driver_8c.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/driver_8c.js
@@ -266,8 +269,8 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/lirc__private_8h_source.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/menu.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/menudata.js
-* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/modules.html
-* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/modules.js
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/minus.svg
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/minusd.svg
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/navtree.css
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/navtree.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/navtreedata.js
@@ -283,6 +286,8 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/pages.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/paths_8h_source.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/paths_8py_source.html
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/plus.svg
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/plusd.svg
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/receive_8c.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/receive_8c.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/receive_8c_source.html
@@ -375,6 +380,10 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_1.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_2.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_3.js
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_4.js
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_5.js
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_6.js
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/groups_7.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/mag.svg
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/mag_d.svg
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/search/mag_sel.svg
@@ -478,6 +487,8 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/tab_hd.png
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/tab_s.png
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/tab_sd.png
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/topics.html
+* /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/topics.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/transmit_8c.html
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/transmit_8c.js
 * /usr/share/doc/lirc-0.10.2/lirc.org/api-docs/html/transmit_8c_source.html
@@ -717,8 +728,9 @@ LIRC is a package that allows you to decode and send infra-red signals of many c
 * /usr/share/lirc/python-pkg/tests/dummy-server
 * /usr/share/lirc/python-pkg/tests/lircrc.conf
 * /usr/share/lirc/python-pkg/tests/test_client.py
-* /usr/share/lirc/python-pkg/__pycache__/config.cpython-312.opt-1.pyc
-* /usr/share/lirc/python-pkg/__pycache__/config.cpython-312.pyc
+* /usr/share/lirc/python-pkg/__pycache__/config.cpython-313.opt-1.pyc
+* /usr/share/lirc/python-pkg/__pycache__/config.cpython-313.opt-2.pyc
+* /usr/share/lirc/python-pkg/__pycache__/config.cpython-313.pyc
 * /usr/share/man/man1/ircat.1.gz
 * /usr/share/man/man1/irdb-get.1.gz
 * /usr/share/man/man1/irexec.1.gz

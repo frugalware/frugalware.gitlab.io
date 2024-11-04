@@ -12,7 +12,7 @@ size = "75416"
 usize = "374190"
 sha1sum = "8e0f681c0d0433e6c98048ab708167394f191611"
 depends = "['python3-setuptools', 'python3-tomli', 'python3-typing_extensions']"
-reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatch-vcs', 'python3-setuptools-git-ls-files', 'python3-setuptools-rust', 'python3-setuptools_scm-git-archive']"
+reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatch-vcs', 'python3-setuptools-git-ls-files', 'python3-setuptools-rust']"
 +++
 ### Description: 
 Handles managing your python package versions in scm metadata.
