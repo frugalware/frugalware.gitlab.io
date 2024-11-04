@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-java-ffmpeg 9.3.1-2"
-version = "9.3.1-2"
+title = "vtk-java-ffmpeg 9.3.1-3"
+version = "9.3.1-3"
 description = "Java Ffmpeg interface and bindings for vtk"
-date = "2024-10-30T15:36:38"
+date = "2024-11-04T10:29:58"
 aliases = "/packages/219046"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "8940"
+size = "8984"
 usize = "14944"
-sha1sum = "3125bf4c036b54d926ced60f49f0537009b7edf2"
+sha1sum = "11cadea9bf425f9af325f4e38a39575fa2ea0b78"
 depends = "['vtk>=9.3.1', 'vtk-ffmpeg>=9.3.1', 'vtk-java>=9.3.1']"
 +++
 ### Description: 

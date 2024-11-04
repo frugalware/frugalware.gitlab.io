@@ -1,20 +1,20 @@
 +++
 draft = false
-title = "libtorrent-rasterbar-python 2.0.10-4"
-version = "2.0.10-4"
+title = "libtorrent-rasterbar-python 2.0.10-5"
+version = "2.0.10-5"
 description = "libtorrent-rasterbar python bindings"
-date = "2024-10-30T16:01:26"
+date = "2024-11-04T10:35:35"
 aliases = "/packages/73886"
 categories = ['lib-extra']
 upstreamurl = "http://www.libtorrent.org"
 arch = "x86_64"
-size = "555120"
+size = "554908"
 usize = "3552272"
-sha1sum = "0614232d6415065efaeb757f43d8747ff33c01e7"
-depends = "['libboost>=1.86.0', 'libtorrent-rasterbar=2.0.10', 'python3>=3.12']"
+sha1sum = "047b8bf38073676720e7bd8590e50a7e2f088cae"
+depends = "['libboost>=1.86.0', 'libtorrent-rasterbar=2.0.10', 'python3>=3.13']"
 +++
 ### Description: 
 libtorrent-rasterbar python bindings
 
 ### Files: 
-* /usr/lib/python3.12/site-packages/libtorrent.cpython-312-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/libtorrent.cpython-313-x86_64-linux-gnu.so

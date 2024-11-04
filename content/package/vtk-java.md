@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-java 9.3.1-2"
-version = "9.3.1-2"
+title = "vtk-java 9.3.1-3"
+version = "9.3.1-3"
 description = "Java interface and bindings for vtk"
-date = "2024-10-30T15:36:38"
+date = "2024-11-04T10:29:58"
 aliases = "/packages/219043"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "5900336"
+size = "5892456"
 usize = "17440852"
-sha1sum = "de118c72d4d9b669f6ffe2cbd3b7bae4a4ee04cc"
+sha1sum = "0ff948029698c9dfdd565bed80505ac4f9983eb6"
 depends = "['openjre', 'vtk>=9.3.1']"
 reverse_depends = "['vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-python3-java']"
 +++

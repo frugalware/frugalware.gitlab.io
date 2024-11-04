@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk 9.3.1-2"
-version = "9.3.1-2"
+title = "vtk 9.3.1-3"
+version = "9.3.1-3"
 description = "Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization."
-date = "2024-10-30T15:36:38"
+date = "2024-11-04T10:29:58"
 aliases = "/packages/219042"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "40040280"
+size = "40047052"
 usize = "209772021"
-sha1sum = "ba1fc6765247655c42bab1c5bd06553ff9a838a7"
+sha1sum = "87d4466f6aa07d2367070c303abc17263860b8fb"
 depends = "['adios2', 'libboost', 'openslide>=4.0.0', 'openturns>=1.23', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.8.0', 'postgresql']"
 reverse_depends = "['opencascade', 'opencv', 'vtk-ffmpeg', 'vtk-java', 'vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-mysql', 'vtk-python3', 'vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl', 'vtk-qt5']"
 license = "GPL-2"
