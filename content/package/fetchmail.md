@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fetchmail 6.5.0-1"
-version = "6.5.0-1"
+title = "fetchmail 6.5.0-2"
+version = "6.5.0-2"
 description = "A remote-mail retrieval and forwarding utility."
-date = "2024-11-01T15:43:02"
+date = "2024-11-04T09:56:30"
 aliases = "/packages/2994"
 categories = ['network']
 upstreamurl = "http://www.fetchmail.info"
 arch = "x86_64"
-size = "564380"
+size = "564488"
 usize = "2026023"
-sha1sum = "6d0a3d22999fc387f66274e0dd36f18d7836a50e"
+sha1sum = "5c80ff448669f4648a0468ae13f9617d00fe9704"
 depends = "['openssl>=3.1.0']"
 reverse_depends = "['fetchmailconf']"
 +++

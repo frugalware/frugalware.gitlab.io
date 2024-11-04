@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shiboken6 6.8.0.1-1"
-version = "6.8.0.1-1"
+title = "shiboken6 6.8.0.2-1"
+version = "6.8.0.2-1"
 description = "Support library for Python bindings."
-date = "2024-10-15T19:31:42"
+date = "2024-11-04T09:55:20"
 aliases = "/packages/220852"
 categories = ['devel-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "996644"
+size = "997316"
 usize = "3013960"
-sha1sum = "7558424feb4f7c33aae5e4b714dab947fc8adfc7"
+sha1sum = "4143305e9fc274708e6722475312f3e4ca8bf0c0"
 depends = "['clang-libs>=19.1.1', 'libxslt', 'qt6-base>=6.8.0']"
 +++
 ### Description: 
@@ -65,10 +65,10 @@ Support library for Python bindings.
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake
 * /usr/lib/pkgconfig/shiboken6.pc
-* /usr/share/doc/shiboken6-6.8.0.1/README.md
-* /usr/share/doc/shiboken6-6.8.0.1/README.pyside6.md
-* /usr/share/doc/shiboken6-6.8.0.1/README.pyside6_addons.md
-* /usr/share/doc/shiboken6-6.8.0.1/README.pyside6_essentials.md
-* /usr/share/doc/shiboken6-6.8.0.1/README.pyside6_examples.md
-* /usr/share/doc/shiboken6-6.8.0.1/README.shiboken6-generator.md
-* /usr/share/doc/shiboken6-6.8.0.1/README.shiboken6.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.pyside6.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.pyside6_addons.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.pyside6_essentials.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.pyside6_examples.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.shiboken6-generator.md
+* /usr/share/doc/shiboken6-6.8.0.2/README.shiboken6.md
