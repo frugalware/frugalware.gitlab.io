@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flake8 6.0.0-3"
-version = "6.0.0-3"
+title = "flake8 7.1.1-1"
+version = "7.1.1-1"
 description = "The modular source code checker: pep8, pyflakes and co"
-date = "2024-11-03T13:49:27"
+date = "2025-01-07T20:12:13"
 aliases = "/packages/219616"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/flake8"
 arch = "x86_64"
-size = "102264"
-usize = "377685"
-sha1sum = "c7e6272173e9711d88cb077807cb41135fea8ae7"
+size = "100936"
+usize = "368563"
+sha1sum = "a66e7cd37782213f0a14e8391bc6b18d08797900"
 depends = "['python3>=3.13']"
 +++
 ### Description: 
@@ -18,12 +18,12 @@ The modular source code checker: pep8, pyflakes and co
 
 ### Files: 
 * /usr/bin/flake8
-* /usr/lib/python3.13/site-packages/flake8-6.0.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/flake8-6.0.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/flake8-6.0.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/flake8-6.0.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/flake8-6.0.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/flake8-6.0.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/flake8-7.1.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/flake8-7.1.1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/flake8-7.1.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/flake8-7.1.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/flake8-7.1.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/flake8-7.1.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/flake8/api/legacy.py
 * /usr/lib/python3.13/site-packages/flake8/api/__init__.py
 * /usr/lib/python3.13/site-packages/flake8/api/__pycache__/legacy.cpython-313.pyc
@@ -75,6 +75,7 @@ The modular source code checker: pep8, pyflakes and co
 * /usr/lib/python3.13/site-packages/flake8/style_guide.py
 * /usr/lib/python3.13/site-packages/flake8/utils.py
 * /usr/lib/python3.13/site-packages/flake8/violation.py
+* /usr/lib/python3.13/site-packages/flake8/_compat.py
 * /usr/lib/python3.13/site-packages/flake8/__init__.py
 * /usr/lib/python3.13/site-packages/flake8/__main__.py
 * /usr/lib/python3.13/site-packages/flake8/__pycache__/checker.cpython-313.pyc
@@ -86,7 +87,8 @@ The modular source code checker: pep8, pyflakes and co
 * /usr/lib/python3.13/site-packages/flake8/__pycache__/style_guide.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/flake8/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/flake8/__pycache__/violation.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/flake8/__pycache__/_compat.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/flake8/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/flake8/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/flake8-6.0.0/LICENSE
-* /usr/share/doc/flake8-6.0.0/README.rst
+* /usr/share/doc/flake8-7.1.1/LICENSE
+* /usr/share/doc/flake8-7.1.1/README.rst

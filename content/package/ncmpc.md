@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncmpc 0.49-1"
-version = "0.49-1"
+title = "ncmpc 0.51-1"
+version = "0.51-1"
 description = "ncmpc is a ncurses based music manager for mpd"
-date = "2023-09-14T08:26:44"
+date = "2025-01-07T19:53:55"
 aliases = "/packages/23441"
 categories = ['multimedia-extra']
 upstreamurl = "http://www.musicpd.org"
 arch = "x86_64"
-size = "191604"
-usize = "749627"
-sha1sum = "6e0523f5e31ed082c7192fc861713e6a3b10d426"
+size = "216372"
+usize = "807538"
+sha1sum = "931fd54b979b98bf8715008913ff73397ffece85"
 depends = "['libboost>=1.72.0', 'libmpdclient', 'ncurses>=6.0-12']"
 license = "GPL2"
 +++
@@ -19,10 +19,10 @@ ncmpc is a ncurses based music manager for mpd
 
 ### Files: 
 * /usr/bin/ncmpc
-* /usr/share/doc/ncmpc-0.49/AUTHORS
-* /usr/share/doc/ncmpc-0.49/COPYING
-* /usr/share/doc/ncmpc-0.49/NEWS
-* /usr/share/doc/ncmpc-0.49/README.rst
+* /usr/share/doc/ncmpc-0.51/AUTHORS
+* /usr/share/doc/ncmpc-0.51/COPYING
+* /usr/share/doc/ncmpc-0.51/NEWS
+* /usr/share/doc/ncmpc-0.51/README.rst
 * /usr/share/doc/ncmpc/AUTHORS
 * /usr/share/doc/ncmpc/config.sample
 * /usr/share/doc/ncmpc/COPYING
