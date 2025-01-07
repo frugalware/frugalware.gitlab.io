@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "24347764"
 usize = "100304302"
 sha1sum = "d3691443425f8e2d7272da04cf1da97d7cde5b9d"
-depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper>=2.0.10', 'jasper', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
+depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper', 'jasper>=2.0.10', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
 reverse_depends = "['digikam', 'gmic', 'gst1-plugins-bad-opencv', 'howdy', 'mlt-opencv', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous', 'spectacle']"
 +++
 ### Description: 
