@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ufolib2 0.14.0-3"
-version = "0.14.0-3"
+title = "ufolib2 0.16.0-1"
+version = "0.16.0-1"
 description = "ufoLib2 is a UFO font library."
-date = "2024-11-03T21:19:58"
+date = "2025-01-07T20:49:25"
 aliases = "/packages/220034"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/ufoLib2"
 arch = "x86_64"
-size = "87496"
-usize = "551828"
-sha1sum = "b70c31e0c5de7f39f7cb023d826e143cbdc45b96"
+size = "88200"
+usize = "557157"
+sha1sum = "bf779d958e3055e97b25c426afdfba9010aebf7c"
 depends = "['python3>=3.13']"
 +++
 ### Description: 
@@ -116,5 +116,5 @@ ufoLib2 is a UFO font library.
 * /usr/lib/python3.13/site-packages/ufoLib2/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/ufoLib2/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/ufoLib2/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/ufolib2-0.14.0/LICENSE
-* /usr/share/doc/ufolib2-0.14.0/README.md
+* /usr/share/doc/ufolib2-0.16.0/LICENSE
+* /usr/share/doc/ufolib2-0.16.0/README.md

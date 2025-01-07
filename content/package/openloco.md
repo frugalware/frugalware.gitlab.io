@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openloco 24.11-1"
-version = "24.11-1"
+title = "openloco 24.12-1"
+version = "24.12-1"
 description = "An open source re-implementation of Locomotion"
-date = "2024-12-01T13:11:46"
+date = "2025-01-07T20:52:04"
 aliases = "/packages/220332"
 categories = ['games-extra']
 upstreamurl = "https://github.com/openloco/openloco"
 arch = "x86_64"
-size = "2395800"
-usize = "28335398"
-sha1sum = "359544cb3be7be4b4c4a43f1a0f1a820b80f2f04"
+size = "2387772"
+usize = "28733697"
+sha1sum = "e96196b214a4e5f8b44dbb648bdcee519677f4bc"
 depends = "['lib32-libpng', 'lib32-openal', 'lib32-sdl2_mixer', 'lib32-yaml-cpp', 'libstdc++']"
 +++
 ### Description: 
@@ -67,14 +67,41 @@ An open source re-implementation of Locomotion
 * /usr/include/fmt/std.h
 * /usr/include/fmt/xchar.h
 * /usr/include/sfl/compact_vector.hpp
+* /usr/include/sfl/detail/allocator_traits.hpp
+* /usr/include/sfl/detail/container_compatible_range.hpp
+* /usr/include/sfl/detail/cpp.hpp
+* /usr/include/sfl/detail/exceptions.hpp
+* /usr/include/sfl/detail/functional.hpp
+* /usr/include/sfl/detail/ignore_unused.hpp
+* /usr/include/sfl/detail/index_sequence.hpp
+* /usr/include/sfl/detail/initialized_memory_algorithms.hpp
+* /usr/include/sfl/detail/node_small_allocator.hpp
+* /usr/include/sfl/detail/node_static_allocator.hpp
+* /usr/include/sfl/detail/normal_iterator.hpp
+* /usr/include/sfl/detail/optional_value.hpp
+* /usr/include/sfl/detail/rb_tree.hpp
+* /usr/include/sfl/detail/scope_guard.hpp
+* /usr/include/sfl/detail/segmented_iterator.hpp
+* /usr/include/sfl/detail/static_pool.hpp
+* /usr/include/sfl/detail/tags.hpp
+* /usr/include/sfl/detail/to_address.hpp
+* /usr/include/sfl/detail/type_traits.hpp
+* /usr/include/sfl/detail/uninitialized_memory_algorithms.hpp
 * /usr/include/sfl/devector.hpp
-* /usr/include/sfl/private.hpp
+* /usr/include/sfl/map.hpp
+* /usr/include/sfl/multimap.hpp
+* /usr/include/sfl/multiset.hpp
 * /usr/include/sfl/segmented_devector.hpp
 * /usr/include/sfl/segmented_vector.hpp
+* /usr/include/sfl/set.hpp
 * /usr/include/sfl/small_flat_map.hpp
 * /usr/include/sfl/small_flat_multimap.hpp
 * /usr/include/sfl/small_flat_multiset.hpp
 * /usr/include/sfl/small_flat_set.hpp
+* /usr/include/sfl/small_map.hpp
+* /usr/include/sfl/small_multimap.hpp
+* /usr/include/sfl/small_multiset.hpp
+* /usr/include/sfl/small_set.hpp
 * /usr/include/sfl/small_unordered_flat_map.hpp
 * /usr/include/sfl/small_unordered_flat_multimap.hpp
 * /usr/include/sfl/small_unordered_flat_multiset.hpp
@@ -84,6 +111,10 @@ An open source re-implementation of Locomotion
 * /usr/include/sfl/static_flat_multimap.hpp
 * /usr/include/sfl/static_flat_multiset.hpp
 * /usr/include/sfl/static_flat_set.hpp
+* /usr/include/sfl/static_map.hpp
+* /usr/include/sfl/static_multimap.hpp
+* /usr/include/sfl/static_multiset.hpp
+* /usr/include/sfl/static_set.hpp
 * /usr/include/sfl/static_unordered_flat_map.hpp
 * /usr/include/sfl/static_unordered_flat_multimap.hpp
 * /usr/include/sfl/static_unordered_flat_multiset.hpp
@@ -96,8 +127,8 @@ An open source re-implementation of Locomotion
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/pkgconfig/fmt.pc
 * /usr/share/applications/openloco.desktop
-* /usr/share/doc/openloco-24.11/LICENSE
-* /usr/share/doc/openloco-24.11/README.md
+* /usr/share/doc/openloco-24.12/LICENSE
+* /usr/share/doc/openloco-24.12/README.md
 * /usr/share/doc/openloco/CHANGELOG.md
 * /usr/share/doc/openloco/CONTRIBUTORS.md
 * /usr/share/doc/openloco/LICENSE

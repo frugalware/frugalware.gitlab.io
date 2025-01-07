@@ -1,39 +1,40 @@
 +++
 draft = false
-title = "pylint 2.16.2-3"
-version = "2.16.2-3"
+title = "pylint 3.3.3-1"
+version = "3.3.3-1"
 description = "Python code checker."
-date = "2024-11-03T18:17:36"
+date = "2025-01-07T20:28:49"
 aliases = "/packages/219604"
 categories = ['devel-extra']
 upstreamurl = "http://www.logilab.org/project/pylint"
 arch = "x86_64"
-size = "883080"
-usize = "5955894"
-sha1sum = "c8c100ced72f6e0ef989a1cbe38e456f2a86d82f"
+size = "881716"
+usize = "5927495"
+sha1sum = "e1f0f58abb6e7cfe8d26c500225236c9359a7b03"
 depends = "['python3>=3.13', 'python3-astroid', 'python3-isort', 'python3-mccabe']"
 +++
 ### Description: 
 Python code checker.
 
 ### Files: 
-* /usr/bin/epylint
 * /usr/bin/pylint
 * /usr/bin/pylint-config
 * /usr/bin/pyreverse
 * /usr/bin/symilar
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/CONTRIBUTORS.txt
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pylint-2.16.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/CONTRIBUTORS.txt
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pylint/checkers/async.py
+* /usr/lib/python3.13/site-packages/pylint/checkers/bad_chained_comparison.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/basic_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/basic_error_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/comparison_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/docstring_checker.py
+* /usr/lib/python3.13/site-packages/pylint/checkers/base/function_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/name_checker/checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/name_checker/naming_style.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/name_checker/__init__.py
@@ -53,6 +54,8 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/comparison_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/docstring_checker.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/docstring_checker.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/function_checker.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/function_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/pass_checker.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/pass_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/__pycache__/__init__.cpython-313.opt-1.pyc
@@ -67,6 +70,7 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/classes/__pycache__/special_methods_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/classes/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/classes/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/dataclass_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/deprecated.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/design_analysis.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/dunder_methods.py
@@ -76,7 +80,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/imports.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/lambda_expressions.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/logging.py
-* /usr/lib/python3.13/site-packages/pylint/checkers/mapreduce_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/method_args.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/misc.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/modified_iterating_checker.py
@@ -99,10 +102,10 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/refactoring/__pycache__/refactoring_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/refactoring/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/refactoring/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/checkers/similar.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/spelling.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/stdlib.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/strings.py
+* /usr/lib/python3.13/site-packages/pylint/checkers/symilar.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/threading_checker.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/typecheck.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/unicode.py
@@ -112,8 +115,12 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/__init__.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/async.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/async.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/bad_chained_comparison.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/bad_chained_comparison.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/base_checker.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/base_checker.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/dataclass_checker.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/dataclass_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/deprecated.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/deprecated.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/design_analysis.cpython-313.opt-1.pyc
@@ -132,8 +139,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/lambda_expressions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/logging.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/logging.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/mapreduce_checker.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/mapreduce_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/method_args.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/method_args.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/misc.cpython-313.opt-1.pyc
@@ -148,14 +153,14 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/non_ascii_names.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/raw_metrics.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/raw_metrics.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/similar.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/similar.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/spelling.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/spelling.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/stdlib.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/stdlib.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/strings.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/strings.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/symilar.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/symilar.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/threading_checker.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/threading_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/checkers/__pycache__/typecheck.cpython-313.opt-1.pyc
@@ -174,19 +179,14 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/config/arguments_manager.py
 * /usr/lib/python3.13/site-packages/pylint/config/arguments_provider.py
 * /usr/lib/python3.13/site-packages/pylint/config/callback_actions.py
-* /usr/lib/python3.13/site-packages/pylint/config/configuration_mixin.py
 * /usr/lib/python3.13/site-packages/pylint/config/config_file_parser.py
 * /usr/lib/python3.13/site-packages/pylint/config/config_initialization.py
 * /usr/lib/python3.13/site-packages/pylint/config/deprecation_actions.py
-* /usr/lib/python3.13/site-packages/pylint/config/environment_variable.py
 * /usr/lib/python3.13/site-packages/pylint/config/exceptions.py
 * /usr/lib/python3.13/site-packages/pylint/config/find_default_config_files.py
 * /usr/lib/python3.13/site-packages/pylint/config/help_formatter.py
-* /usr/lib/python3.13/site-packages/pylint/config/option.py
-* /usr/lib/python3.13/site-packages/pylint/config/options_provider_mixin.py
-* /usr/lib/python3.13/site-packages/pylint/config/option_manager_mixin.py
-* /usr/lib/python3.13/site-packages/pylint/config/option_parser.py
 * /usr/lib/python3.13/site-packages/pylint/config/utils.py
+* /usr/lib/python3.13/site-packages/pylint/config/_breaking_changes.py
 * /usr/lib/python3.13/site-packages/pylint/config/_pylint_config/generate_command.py
 * /usr/lib/python3.13/site-packages/pylint/config/_pylint_config/help_message.py
 * /usr/lib/python3.13/site-packages/pylint/config/_pylint_config/main.py
@@ -214,42 +214,30 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/arguments_provider.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/callback_actions.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/callback_actions.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/configuration_mixin.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/configuration_mixin.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/config_file_parser.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/config_file_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/config_initialization.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/config_initialization.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/deprecation_actions.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/deprecation_actions.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/environment_variable.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/environment_variable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/exceptions.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/find_default_config_files.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/find_default_config_files.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/help_formatter.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/help_formatter.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/option.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/option.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/options_provider_mixin.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/options_provider_mixin.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/option_manager_mixin.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/option_manager_mixin.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/option_parser.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/option_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/utils.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/utils.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/_breaking_changes.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pylint/config/__pycache__/_breaking_changes.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/config/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/constants.py
-* /usr/lib/python3.13/site-packages/pylint/epylint.py
 * /usr/lib/python3.13/site-packages/pylint/exceptions.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/bad_builtin.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/broad_try_clause.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/check_elif.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/code_style.py
-* /usr/lib/python3.13/site-packages/pylint/extensions/comparetozero.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/comparison_placement.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/confusing_elif.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/consider_refactoring_into_while_condition.py
@@ -258,7 +246,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/extensions/docparams.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/docstyle.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/dunder.py
-* /usr/lib/python3.13/site-packages/pylint/extensions/emptystring.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/empty_comment.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/eq_without_hash.py
 * /usr/lib/python3.13/site-packages/pylint/extensions/for_any_all.py
@@ -282,8 +269,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/check_elif.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/code_style.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/code_style.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/comparetozero.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/comparetozero.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/comparison_placement.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/comparison_placement.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/confusing_elif.cpython-313.opt-1.pyc
@@ -300,8 +285,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/docstyle.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/dunder.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/dunder.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/emptystring.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/emptystring.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/empty_comment.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/empty_comment.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/extensions/__pycache__/eq_without_hash.cpython-313.opt-1.pyc
@@ -382,6 +365,7 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/message/__pycache__/_deleted_message_ids.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/message/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/message/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pylint/py.typed
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/diadefslib.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/diagrams.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/dot_printer.py
@@ -392,7 +376,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/printer.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/printer_factory.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/utils.py
-* /usr/lib/python3.13/site-packages/pylint/pyreverse/vcg_printer.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/writer.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__init__.py
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/diadefslib.cpython-313.opt-1.pyc
@@ -415,8 +398,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/printer_factory.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/utils.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/utils.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/vcg_printer.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/vcg_printer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/writer.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/writer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/pyreverse/__pycache__/__init__.cpython-313.opt-1.pyc
@@ -470,7 +451,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/testutils/functional/__pycache__/test_file.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/functional/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/functional/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/testutils/functional_test_file.py
 * /usr/lib/python3.13/site-packages/pylint/testutils/get_test_info.py
 * /usr/lib/python3.13/site-packages/pylint/testutils/global_test_linter.py
 * /usr/lib/python3.13/site-packages/pylint/testutils/lint_module_test.py
@@ -512,8 +492,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/constants.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/decorator.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/decorator.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/functional_test_file.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/functional_test_file.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/get_test_info.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/get_test_info.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/testutils/__pycache__/global_test_linter.cpython-313.opt-1.pyc
@@ -563,8 +541,6 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/__pkginfo__.py
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/constants.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/constants.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pylint/__pycache__/epylint.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/pylint/__pycache__/epylint.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/exceptions.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/graph.cpython-313.opt-1.pyc
@@ -579,5 +555,5 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/__pkginfo__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/__pkginfo__.cpython-313.pyc
-* /usr/share/doc/pylint-2.16.2/LICENSE
-* /usr/share/doc/pylint-2.16.2/README.rst
+* /usr/share/doc/pylint-3.3.3/LICENSE
+* /usr/share/doc/pylint-3.3.3/README.rst

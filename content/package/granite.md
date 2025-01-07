@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "granite 7.2.0-1"
-version = "7.2.0-1"
+title = "granite 7.6.0-1"
+version = "7.6.0-1"
 description = "A development library for elementary development."
-date = "2023-03-29T13:32:42"
+date = "2025-01-07T20:54:12"
 aliases = "/packages/219276"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/elementary/granite"
 arch = "x86_64"
-size = "132108"
-usize = "684468"
-sha1sum = "f8217e875c8a3e6c48f0abc78a24a0dbd96b5bfa"
+size = "157136"
+usize = "737473"
+sha1sum = "7b3ebdf596a9d398d934e4864cfbec5e5cd84849"
 depends = "['cairo', 'gdk-pixbuf2', 'gtk+4', 'libgee8', 'pango']"
 reverse_depends = "['tootle']"
 +++
@@ -23,11 +23,11 @@ A development library for elementary development.
 * /usr/lib/girepository-1.0/Granite-7.0.typelib
 * /usr/lib/libgranite-7.so
 * /usr/lib/libgranite-7.so.7
-* /usr/lib/libgranite-7.so.7.2.0
+* /usr/lib/libgranite-7.so.7.6.0
 * /usr/lib/pkgconfig/granite-7.pc
 * /usr/share/applications/io.elementary.granite-7.demo.desktop
-* /usr/share/doc/granite-7.2.0/COPYING
-* /usr/share/doc/granite-7.2.0/README.md
+* /usr/share/doc/granite-7.6.0/COPYING
+* /usr/share/doc/granite-7.6.0/README.md
 * /usr/share/gir-1.0/Granite-7.0.gir
 * /usr/share/icons/hicolor/48x48/apps/io.elementary.granite-7.svg
 * /usr/share/icons/hicolor/48x48@2/apps/io.elementary.granite-7.svg
@@ -56,6 +56,7 @@ A development library for elementary development.
 * /usr/share/locale/br/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/bs/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ca/LC_MESSAGES/granite-7.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ce/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ch/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ckb/LC_MESSAGES/granite-7.mo
@@ -74,6 +75,7 @@ A development library for elementary development.
 * /usr/share/locale/en_AU/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/en_CA/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/granite-7.mo
+* /usr/share/locale/en_ZA/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/eo/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/es/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/et/LC_MESSAGES/granite-7.mo
@@ -85,6 +87,7 @@ A development library for elementary development.
 * /usr/share/locale/fj/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/fo/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/fr/LC_MESSAGES/granite-7.mo
+* /usr/share/locale/frp/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/fr_CA/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/fy/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ga/LC_MESSAGES/granite-7.mo
@@ -104,6 +107,7 @@ A development library for elementary development.
 * /usr/share/locale/hz/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ia/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/id/LC_MESSAGES/granite-7.mo
+* /usr/share/locale/id_ID/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ie/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ig/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ii/LC_MESSAGES/granite-7.mo
@@ -166,6 +170,7 @@ A development library for elementary development.
 * /usr/share/locale/or/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/os/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/pa/LC_MESSAGES/granite-7.mo
+* /usr/share/locale/pap/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/pi/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/pl/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/ps/LC_MESSAGES/granite-7.mo
@@ -231,6 +236,8 @@ A development library for elementary development.
 * /usr/share/locale/zh_HK/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/granite-7.mo
 * /usr/share/locale/zu/LC_MESSAGES/granite-7.mo
-* /usr/share/metainfo/granite-7.appdata.xml
+* /usr/share/metainfo/granite-7.metainfo.xml
+* /usr/share/themes/Granite/gtk-4.0/gtk-dark.css
+* /usr/share/themes/Granite/gtk-4.0/gtk.css
 * /usr/share/vala/vapi/granite-7.deps
 * /usr/share/vala/vapi/granite-7.vapi
