@@ -1,0 +1,189 @@
++++
+draft = false
+title = "ffmpeg4.4 4.4.5-3"
+version = "4.4.5-3"
+description = "FFMpeg compatibility version"
+date = "2024-11-25T13:36:43"
+aliases = "/packages/221503"
+categories = ['xmultimedia-extra']
+upstreamurl = "https://www.ffmpeg.org"
+arch = "x86_64"
+size = "8408700"
+usize = "25437995"
+sha1sum = "c1c010ae8af11c3fa2ffd8140cfb98e98e07c49c"
+depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.13.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'sdl2>=2.0.5', 'speex>=1.2rc2-4', 'svt-av1', 'v4l-utils>=1.8.1-3', 'x264>==20230712.ga8b68eb', 'x265>=4.1', 'xvidcore>=1.3.4-3']"
+reverse_depends = "['openjfx', 'vlc-ffmpeg']"
++++
+### Description: 
+FFMpeg compatibility version
+
+### Files: 
+* /usr/include/ffmpeg4.4/libavcodec/ac3_parser.h
+* /usr/include/ffmpeg4.4/libavcodec/adts_parser.h
+* /usr/include/ffmpeg4.4/libavcodec/avcodec.h
+* /usr/include/ffmpeg4.4/libavcodec/avdct.h
+* /usr/include/ffmpeg4.4/libavcodec/avfft.h
+* /usr/include/ffmpeg4.4/libavcodec/bsf.h
+* /usr/include/ffmpeg4.4/libavcodec/codec.h
+* /usr/include/ffmpeg4.4/libavcodec/codec_desc.h
+* /usr/include/ffmpeg4.4/libavcodec/codec_id.h
+* /usr/include/ffmpeg4.4/libavcodec/codec_par.h
+* /usr/include/ffmpeg4.4/libavcodec/d3d11va.h
+* /usr/include/ffmpeg4.4/libavcodec/dirac.h
+* /usr/include/ffmpeg4.4/libavcodec/dv_profile.h
+* /usr/include/ffmpeg4.4/libavcodec/dxva2.h
+* /usr/include/ffmpeg4.4/libavcodec/jni.h
+* /usr/include/ffmpeg4.4/libavcodec/mediacodec.h
+* /usr/include/ffmpeg4.4/libavcodec/packet.h
+* /usr/include/ffmpeg4.4/libavcodec/qsv.h
+* /usr/include/ffmpeg4.4/libavcodec/vaapi.h
+* /usr/include/ffmpeg4.4/libavcodec/vdpau.h
+* /usr/include/ffmpeg4.4/libavcodec/version.h
+* /usr/include/ffmpeg4.4/libavcodec/videotoolbox.h
+* /usr/include/ffmpeg4.4/libavcodec/vorbis_parser.h
+* /usr/include/ffmpeg4.4/libavcodec/xvmc.h
+* /usr/include/ffmpeg4.4/libavdevice/avdevice.h
+* /usr/include/ffmpeg4.4/libavdevice/version.h
+* /usr/include/ffmpeg4.4/libavfilter/avfilter.h
+* /usr/include/ffmpeg4.4/libavfilter/buffersink.h
+* /usr/include/ffmpeg4.4/libavfilter/buffersrc.h
+* /usr/include/ffmpeg4.4/libavfilter/version.h
+* /usr/include/ffmpeg4.4/libavformat/avformat.h
+* /usr/include/ffmpeg4.4/libavformat/avio.h
+* /usr/include/ffmpeg4.4/libavformat/version.h
+* /usr/include/ffmpeg4.4/libavutil/adler32.h
+* /usr/include/ffmpeg4.4/libavutil/aes.h
+* /usr/include/ffmpeg4.4/libavutil/aes_ctr.h
+* /usr/include/ffmpeg4.4/libavutil/attributes.h
+* /usr/include/ffmpeg4.4/libavutil/audio_fifo.h
+* /usr/include/ffmpeg4.4/libavutil/avassert.h
+* /usr/include/ffmpeg4.4/libavutil/avconfig.h
+* /usr/include/ffmpeg4.4/libavutil/avstring.h
+* /usr/include/ffmpeg4.4/libavutil/avutil.h
+* /usr/include/ffmpeg4.4/libavutil/base64.h
+* /usr/include/ffmpeg4.4/libavutil/blowfish.h
+* /usr/include/ffmpeg4.4/libavutil/bprint.h
+* /usr/include/ffmpeg4.4/libavutil/bswap.h
+* /usr/include/ffmpeg4.4/libavutil/buffer.h
+* /usr/include/ffmpeg4.4/libavutil/camellia.h
+* /usr/include/ffmpeg4.4/libavutil/cast5.h
+* /usr/include/ffmpeg4.4/libavutil/channel_layout.h
+* /usr/include/ffmpeg4.4/libavutil/common.h
+* /usr/include/ffmpeg4.4/libavutil/cpu.h
+* /usr/include/ffmpeg4.4/libavutil/crc.h
+* /usr/include/ffmpeg4.4/libavutil/des.h
+* /usr/include/ffmpeg4.4/libavutil/dict.h
+* /usr/include/ffmpeg4.4/libavutil/display.h
+* /usr/include/ffmpeg4.4/libavutil/dovi_meta.h
+* /usr/include/ffmpeg4.4/libavutil/downmix_info.h
+* /usr/include/ffmpeg4.4/libavutil/encryption_info.h
+* /usr/include/ffmpeg4.4/libavutil/error.h
+* /usr/include/ffmpeg4.4/libavutil/eval.h
+* /usr/include/ffmpeg4.4/libavutil/ffversion.h
+* /usr/include/ffmpeg4.4/libavutil/fifo.h
+* /usr/include/ffmpeg4.4/libavutil/file.h
+* /usr/include/ffmpeg4.4/libavutil/film_grain_params.h
+* /usr/include/ffmpeg4.4/libavutil/frame.h
+* /usr/include/ffmpeg4.4/libavutil/hash.h
+* /usr/include/ffmpeg4.4/libavutil/hdr_dynamic_metadata.h
+* /usr/include/ffmpeg4.4/libavutil/hmac.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_cuda.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_d3d11va.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_drm.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_dxva2.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_mediacodec.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_opencl.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_qsv.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_vaapi.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_vdpau.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_videotoolbox.h
+* /usr/include/ffmpeg4.4/libavutil/hwcontext_vulkan.h
+* /usr/include/ffmpeg4.4/libavutil/imgutils.h
+* /usr/include/ffmpeg4.4/libavutil/intfloat.h
+* /usr/include/ffmpeg4.4/libavutil/intreadwrite.h
+* /usr/include/ffmpeg4.4/libavutil/lfg.h
+* /usr/include/ffmpeg4.4/libavutil/log.h
+* /usr/include/ffmpeg4.4/libavutil/lzo.h
+* /usr/include/ffmpeg4.4/libavutil/macros.h
+* /usr/include/ffmpeg4.4/libavutil/mastering_display_metadata.h
+* /usr/include/ffmpeg4.4/libavutil/mathematics.h
+* /usr/include/ffmpeg4.4/libavutil/md5.h
+* /usr/include/ffmpeg4.4/libavutil/mem.h
+* /usr/include/ffmpeg4.4/libavutil/motion_vector.h
+* /usr/include/ffmpeg4.4/libavutil/murmur3.h
+* /usr/include/ffmpeg4.4/libavutil/opt.h
+* /usr/include/ffmpeg4.4/libavutil/parseutils.h
+* /usr/include/ffmpeg4.4/libavutil/pixdesc.h
+* /usr/include/ffmpeg4.4/libavutil/pixelutils.h
+* /usr/include/ffmpeg4.4/libavutil/pixfmt.h
+* /usr/include/ffmpeg4.4/libavutil/random_seed.h
+* /usr/include/ffmpeg4.4/libavutil/rational.h
+* /usr/include/ffmpeg4.4/libavutil/rc4.h
+* /usr/include/ffmpeg4.4/libavutil/replaygain.h
+* /usr/include/ffmpeg4.4/libavutil/ripemd.h
+* /usr/include/ffmpeg4.4/libavutil/samplefmt.h
+* /usr/include/ffmpeg4.4/libavutil/sha.h
+* /usr/include/ffmpeg4.4/libavutil/sha512.h
+* /usr/include/ffmpeg4.4/libavutil/spherical.h
+* /usr/include/ffmpeg4.4/libavutil/stereo3d.h
+* /usr/include/ffmpeg4.4/libavutil/tea.h
+* /usr/include/ffmpeg4.4/libavutil/threadmessage.h
+* /usr/include/ffmpeg4.4/libavutil/time.h
+* /usr/include/ffmpeg4.4/libavutil/timecode.h
+* /usr/include/ffmpeg4.4/libavutil/timestamp.h
+* /usr/include/ffmpeg4.4/libavutil/tree.h
+* /usr/include/ffmpeg4.4/libavutil/twofish.h
+* /usr/include/ffmpeg4.4/libavutil/tx.h
+* /usr/include/ffmpeg4.4/libavutil/version.h
+* /usr/include/ffmpeg4.4/libavutil/video_enc_params.h
+* /usr/include/ffmpeg4.4/libavutil/xtea.h
+* /usr/include/ffmpeg4.4/libpostproc/postprocess.h
+* /usr/include/ffmpeg4.4/libpostproc/version.h
+* /usr/include/ffmpeg4.4/libswresample/swresample.h
+* /usr/include/ffmpeg4.4/libswresample/version.h
+* /usr/include/ffmpeg4.4/libswscale/swscale.h
+* /usr/include/ffmpeg4.4/libswscale/version.h
+* /usr/lib/ffmpeg4.4/libavcodec.so
+* /usr/lib/ffmpeg4.4/libavdevice.so
+* /usr/lib/ffmpeg4.4/libavfilter.so
+* /usr/lib/ffmpeg4.4/libavformat.so
+* /usr/lib/ffmpeg4.4/libavutil.so
+* /usr/lib/ffmpeg4.4/libpostproc.so
+* /usr/lib/ffmpeg4.4/libswresample.so
+* /usr/lib/ffmpeg4.4/libswscale.so
+* /usr/lib/ffmpeg4.4/pkgconfig/libavcodec.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libavdevice.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libavfilter.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libavformat.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libavutil.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libpostproc.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libswresample.pc
+* /usr/lib/ffmpeg4.4/pkgconfig/libswscale.pc
+* /usr/lib/libavcodec.so.58
+* /usr/lib/libavcodec.so.58.134.100
+* /usr/lib/libavdevice.so.58
+* /usr/lib/libavdevice.so.58.13.100
+* /usr/lib/libavfilter.so.7
+* /usr/lib/libavfilter.so.7.110.100
+* /usr/lib/libavformat.so.58
+* /usr/lib/libavformat.so.58.76.100
+* /usr/lib/libavutil.so.56
+* /usr/lib/libavutil.so.56.70.100
+* /usr/lib/libpostproc.so.55
+* /usr/lib/libpostproc.so.55.9.100
+* /usr/lib/libswresample.so.3
+* /usr/lib/libswresample.so.3.9.100
+* /usr/lib/libswscale.so.5
+* /usr/lib/libswscale.so.5.9.100
+* /usr/share/doc/ffmpeg4.4-4.4.5/Changelog
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.GPLv2
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.GPLv3
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.LGPLv2.1
+* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.LGPLv3
+* /usr/share/doc/ffmpeg4.4-4.4.5/CREDITS
+* /usr/share/doc/ffmpeg4.4-4.4.5/INSTALL.md
+* /usr/share/doc/ffmpeg4.4-4.4.5/README.md
+* /usr/share/doc/ffmpeg4.4-4.4.5/RELEASE
+* /usr/share/doc/ffmpeg4.4-4.4.5/RELEASE_NOTES
+* /usr/share/doc/ffmpeg4.4-4.4.5/VERSION

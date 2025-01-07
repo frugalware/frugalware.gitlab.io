@@ -1,0 +1,61 @@
++++
+draft = false
+title = "alpaca 3.1.0-1"
+version = "3.1.0-1"
+description = "Alpaca is an Ollama client where you can manage and chat with multiple models, Alpaca provides an easy and begginer friendly way of interacting with local AI, everything is open source and powered by Ollama."
+date = "2024-12-28T18:52:04"
+aliases = "/packages/222580"
+categories = ['xapps-extra']
+upstreamurl = "https://github.com/Jeffser/alpaca"
+arch = "x86_64"
+size = "302412"
+usize = "2082119"
+sha1sum = "3cae2b3c6a36869946aed0f02dc8e8d88baded85"
+depends = "['appstream', 'gtksourceview5', 'ollama', 'python3-html2text', 'python3-pypdf', 'python3-pytube', 'python3-youtube-transcript-api', 'vte3']"
++++
+### Description: 
+Alpaca is an Ollama client where you can manage and chat with multiple models, Alpaca provides an easy and begginer friendly way of interacting with local AI, everything is open source and powered by Ollama.
+
+### Files: 
+* /usr/bin/alpaca
+* /usr/bin/alpaca_search_provider
+* /usr/share/Alpaca/alpaca.gresource
+* /usr/share/Alpaca/alpaca/available_models.json
+* /usr/share/Alpaca/alpaca/available_models_descriptions.py
+* /usr/share/Alpaca/alpaca/connection_handler.py
+* /usr/share/Alpaca/alpaca/custom_widgets/chat_widget.py
+* /usr/share/Alpaca/alpaca/custom_widgets/dialog_widget.py
+* /usr/share/Alpaca/alpaca/custom_widgets/message_widget.py
+* /usr/share/Alpaca/alpaca/custom_widgets/model_widget.py
+* /usr/share/Alpaca/alpaca/custom_widgets/table_widget.py
+* /usr/share/Alpaca/alpaca/custom_widgets/terminal_widget.py
+* /usr/share/Alpaca/alpaca/generic_actions.py
+* /usr/share/Alpaca/alpaca/internal.py
+* /usr/share/Alpaca/alpaca/main.py
+* /usr/share/Alpaca/alpaca/window.py
+* /usr/share/Alpaca/alpaca/__init__.py
+* /usr/share/applications/com.jeffser.Alpaca.desktop
+* /usr/share/applications/com.jeffser.Alpaca.SearchProvider.desktop
+* /usr/share/dbus-1/services/com.jeffser.Alpaca.SearchProvider.service
+* /usr/share/doc/alpaca-3.1.0/COPYING
+* /usr/share/doc/alpaca-3.1.0/README.md
+* /usr/share/glib-2.0/schemas/com.jeffser.Alpaca.gschema.xml
+* /usr/share/gnome-shell/search-providers/com.jeffser.Alpaca.search-provider.ini
+* /usr/share/icons/hicolor/512x512/apps/com.jeffser.Alpaca.png
+* /usr/share/icons/hicolor/scalable/apps/com.jeffser.Alpaca.svg
+* /usr/share/icons/hicolor/symbolic/apps/com.jeffser.Alpaca-symbolic.svg
+* /usr/share/locale/bn/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/de/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/es/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/fr/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/he/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/hi/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/it/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/nb_NO/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/ru/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/te/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/tr/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/uk/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/alpaca.mo
+* /usr/share/metainfo/com.jeffser.Alpaca.metainfo.xml

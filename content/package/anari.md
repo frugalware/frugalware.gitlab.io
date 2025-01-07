@@ -1,0 +1,197 @@
++++
+draft = false
+title = "anari 0.11.1-2"
+version = "0.11.1-2"
+description = "ANARI Software Development Kit"
+date = "2024-11-25T09:57:33"
+aliases = "/packages/222588"
+categories = ['xlib-extra']
+upstreamurl = "https://github.com/KhronosGroup/ANARI-SDK"
+arch = "x86_64"
+size = "2859504"
+usize = "11607773"
+sha1sum = "d6ec7252f016474cb40d5c56f16933f787089c38"
+depends = "['libstdc++']"
+reverse_depends = "['vtk']"
++++
+### Description: 
+ANARI Software Development Kit
+
+### Files: 
+* /usr/bin/anariInfo
+* /usr/bin/anariRenderTests
+* /usr/include/anari/anari.h
+* /usr/include/anari/anari_cpp.hpp
+* /usr/include/anari/anari_cpp/anari_cpp_impl.hpp
+* /usr/include/anari/anari_cpp/ext/glm.h
+* /usr/include/anari/anari_cpp/ext/linalg.h
+* /usr/include/anari/anari_cpp/ext/std.h
+* /usr/include/anari/anari_cpp/Traits.h
+* /usr/include/anari/anari_test_scenes/anari_test_scenes.h
+* /usr/include/anari/anari_test_scenes/anari_test_scenes_export.h
+* /usr/include/anari/anari_test_scenes/scene.h
+* /usr/include/anari/backend/DeviceImpl.h
+* /usr/include/anari/backend/helium/array/Array.h
+* /usr/include/anari/backend/helium/array/Array1D.h
+* /usr/include/anari/backend/helium/array/Array2D.h
+* /usr/include/anari/backend/helium/array/Array3D.h
+* /usr/include/anari/backend/helium/array/ObjectArray.h
+* /usr/include/anari/backend/helium/BaseArray.h
+* /usr/include/anari/backend/helium/BaseDevice.h
+* /usr/include/anari/backend/helium/BaseFrame.h
+* /usr/include/anari/backend/helium/BaseGlobalDeviceState.h
+* /usr/include/anari/backend/helium/BaseObject.h
+* /usr/include/anari/backend/helium/helium_math.h
+* /usr/include/anari/backend/helium/LockableObject.h
+* /usr/include/anari/backend/helium/utility/AnariAny.h
+* /usr/include/anari/backend/helium/utility/ChangeObserverPtr.h
+* /usr/include/anari/backend/helium/utility/DeferredCommitBuffer.h
+* /usr/include/anari/backend/helium/utility/IntrusivePtr.h
+* /usr/include/anari/backend/helium/utility/ParameterizedObject.h
+* /usr/include/anari/backend/helium/utility/TimeStamp.h
+* /usr/include/anari/backend/LibraryImpl.h
+* /usr/include/anari/ext/anari_debug.h
+* /usr/include/anari/ext/anari_ext_interface.h
+* /usr/include/anari/ext/helide/anariNewHelideDevice.h
+* /usr/include/anari/ext/helide/anari_library_helide_export.h
+* /usr/include/anari/frontend/anari_enums.h
+* /usr/include/anari/frontend/anari_extension_utility.h
+* /usr/include/anari/frontend/anari_sdk_version.h
+* /usr/include/anari/frontend/type_utility.h
+* /usr/lib/cmake/anari-0.11.1/anariConfig.cmake
+* /usr/lib/cmake/anari-0.11.1/anariConfigVersion.cmake
+* /usr/lib/cmake/anari-0.11.1/anari_Exports-release.cmake
+* /usr/lib/cmake/anari-0.11.1/anari_Exports.cmake
+* /usr/lib/cmake/anari-0.11.1/cmake/anari_generate_codegen.cmake
+* /usr/lib/cmake/anari-0.11.1/cmake/anari_generate_frontend.cmake
+* /usr/lib/cmake/anari-0.11.1/cmake/anari_sdk_fetch_project.cmake
+* /usr/lib/cmake/anari-0.11.1/cmake/cmake_project_commands.cmake
+* /usr/lib/cmake/anari-0.11.1/cmake/mark_cache_variables_as_advanced.cmake
+* /usr/lib/libanari.so
+* /usr/lib/libanari.so.0
+* /usr/lib/libanari.so.0.11.1
+* /usr/lib/libanari_library_debug.so
+* /usr/lib/libanari_library_hecore.so
+* /usr/lib/libanari_library_helide.so
+* /usr/lib/libanari_library_sink.so
+* /usr/lib/libanari_static.a
+* /usr/lib/libanari_test_scenes.so
+* /usr/lib/libhelium.a
+* /usr/share/anari/anari_viewer/Application.cpp
+* /usr/share/anari/anari_viewer/Application.h
+* /usr/share/anari/anari_viewer/CMakeLists.txt
+* /usr/share/anari/anari_viewer/external/CMakeLists.txt
+* /usr/share/anari/anari_viewer/external/glad/CMakeLists.txt
+* /usr/share/anari/anari_viewer/external/glad/glad.c
+* /usr/share/anari/anari_viewer/external/glad/glad.h
+* /usr/share/anari/anari_viewer/external/glad/khrplatform.h
+* /usr/share/anari/anari_viewer/external/imgui/CMakeLists.txt
+* /usr/share/anari/anari_viewer/external/nativefiledialog/CMakeLists.txt
+* /usr/share/anari/anari_viewer/external/stb_image/CMakeLists.txt
+* /usr/share/anari/anari_viewer/external/stb_image/stb_image.c
+* /usr/share/anari/anari_viewer/external/stb_image/stb_image.h
+* /usr/share/anari/anari_viewer/external/stb_image/stb_image_resize.h
+* /usr/share/anari/anari_viewer/external/stb_image/stb_image_write.c
+* /usr/share/anari/anari_viewer/external/stb_image/stb_image_write.h
+* /usr/share/anari/anari_viewer/external/tinyexr/tinyexr.h
+* /usr/share/anari/anari_viewer/HDRImage.cpp
+* /usr/share/anari/anari_viewer/HDRImage.h
+* /usr/share/anari/anari_viewer/Orbit.cpp
+* /usr/share/anari/anari_viewer/Orbit.h
+* /usr/share/anari/anari_viewer/ui_anari.cpp
+* /usr/share/anari/anari_viewer/ui_anari.h
+* /usr/share/anari/anari_viewer/windows/LightsEditor.cpp
+* /usr/share/anari/anari_viewer/windows/LightsEditor.h
+* /usr/share/anari/anari_viewer/windows/SceneSelector.cpp
+* /usr/share/anari/anari_viewer/windows/SceneSelector.h
+* /usr/share/anari/anari_viewer/windows/Viewport.cpp
+* /usr/share/anari/anari_viewer/windows/Viewport.h
+* /usr/share/anari/anari_viewer/windows/Window.cpp
+* /usr/share/anari/anari_viewer/windows/Window.h
+* /usr/share/anari/code_gen/api/anari_core_1_0.json
+* /usr/share/anari/code_gen/api/anari_core_objects_all_1_0.json
+* /usr/share/anari/code_gen/api/anari_core_objects_base_1_0.json
+* /usr/share/anari/code_gen/api/experimental/exp_volume_sample_rate.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_astc.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_bc123.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_bc45.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_bc67.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_eac.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_etc.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_format_etc2.json
+* /usr/share/anari/code_gen/api/ext_sampler_compressed_image2d.json
+* /usr/share/anari/code_gen/api/khr_area_lights.json
+* /usr/share/anari/code_gen/api/khr_array1d_region.json
+* /usr/share/anari/code_gen/api/khr_camera_depth_of_field.json
+* /usr/share/anari/code_gen/api/khr_camera_motion_transformation.json
+* /usr/share/anari/code_gen/api/khr_camera_omnidirectional.json
+* /usr/share/anari/code_gen/api/khr_camera_orthographic.json
+* /usr/share/anari/code_gen/api/khr_camera_perspective.json
+* /usr/share/anari/code_gen/api/khr_camera_rolling_shutter.json
+* /usr/share/anari/code_gen/api/khr_camera_shutter.json
+* /usr/share/anari/code_gen/api/khr_camera_stereo.json
+* /usr/share/anari/code_gen/api/khr_device_synchronization.json
+* /usr/share/anari/code_gen/api/khr_frame_accumulation.json
+* /usr/share/anari/code_gen/api/khr_frame_channel_albedo.json
+* /usr/share/anari/code_gen/api/khr_frame_channel_instance_id.json
+* /usr/share/anari/code_gen/api/khr_frame_channel_normal.json
+* /usr/share/anari/code_gen/api/khr_frame_channel_object_id.json
+* /usr/share/anari/code_gen/api/khr_frame_channel_primitive_id.json
+* /usr/share/anari/code_gen/api/khr_frame_completion_callback.json
+* /usr/share/anari/code_gen/api/khr_geometry_cone.json
+* /usr/share/anari/code_gen/api/khr_geometry_curve.json
+* /usr/share/anari/code_gen/api/khr_geometry_cylinder.json
+* /usr/share/anari/code_gen/api/khr_geometry_isosurface.json
+* /usr/share/anari/code_gen/api/khr_geometry_quad.json
+* /usr/share/anari/code_gen/api/khr_geometry_quad_motion_deformation.json
+* /usr/share/anari/code_gen/api/khr_geometry_sphere.json
+* /usr/share/anari/code_gen/api/khr_geometry_triangle.json
+* /usr/share/anari/code_gen/api/khr_geometry_triangle_motion_deformation.json
+* /usr/share/anari/code_gen/api/khr_instance_motion_scale_rotation_translation.json
+* /usr/share/anari/code_gen/api/khr_instance_motion_transform.json
+* /usr/share/anari/code_gen/api/khr_instance_transform.json
+* /usr/share/anari/code_gen/api/khr_instance_transform_array.json
+* /usr/share/anari/code_gen/api/khr_light_directional.json
+* /usr/share/anari/code_gen/api/khr_light_hdri.json
+* /usr/share/anari/code_gen/api/khr_light_point.json
+* /usr/share/anari/code_gen/api/khr_light_quad.json
+* /usr/share/anari/code_gen/api/khr_light_ring.json
+* /usr/share/anari/code_gen/api/khr_light_spot.json
+* /usr/share/anari/code_gen/api/khr_material_matte.json
+* /usr/share/anari/code_gen/api/khr_material_physically_based.json
+* /usr/share/anari/code_gen/api/khr_renderer_ambient_light.json
+* /usr/share/anari/code_gen/api/khr_renderer_background_color.json
+* /usr/share/anari/code_gen/api/khr_renderer_background_image.json
+* /usr/share/anari/code_gen/api/khr_sampler_image1d.json
+* /usr/share/anari/code_gen/api/khr_sampler_image2d.json
+* /usr/share/anari/code_gen/api/khr_sampler_image3d.json
+* /usr/share/anari/code_gen/api/khr_sampler_primitive.json
+* /usr/share/anari/code_gen/api/khr_sampler_transform.json
+* /usr/share/anari/code_gen/api/khr_spatial_field_structured_regular.json
+* /usr/share/anari/code_gen/api/khr_volume_transfer_function1d.json
+* /usr/share/anari/code_gen/devices/experimental_device.json
+* /usr/share/anari/code_gen/devices/generic_device.json
+* /usr/share/anari/code_gen/generate_device_frontend.py
+* /usr/share/anari/code_gen/generate_extension_utility.py
+* /usr/share/anari/code_gen/generate_headers.py
+* /usr/share/anari/code_gen/generate_lists.py
+* /usr/share/anari/code_gen/generate_queries.py
+* /usr/share/anari/code_gen/hash_gen.py
+* /usr/share/anari/code_gen/merge_anari.py
+* /usr/share/anari/code_gen/misc/descriptions.json
+* /usr/share/anari/code_gen/pyanari_build.py
+* /usr/share/anari/code_gen/templates/ArrayObjects.cpp
+* /usr/share/anari/code_gen/templates/ArrayObjects.h
+* /usr/share/anari/code_gen/templates/CMakeLists.txt
+* /usr/share/anari/code_gen/templates/Device.cpp
+* /usr/share/anari/code_gen/templates/Device.h
+* /usr/share/anari/code_gen/templates/DeviceObject.cpp
+* /usr/share/anari/code_gen/templates/DeviceObject.h
+* /usr/share/anari/code_gen/templates/FrameObject.cpp
+* /usr/share/anari/code_gen/templates/FrameObject.h
+* /usr/share/anari/code_gen/templates/Object.h
+* /usr/share/anari/code_gen/templates/Parameter.h
+* /usr/share/anari/code_gen/templates/Specializations.h
+* /usr/share/anari/code_gen/validate_device.py
+* /usr/share/doc/anari-0.11.1/LICENSE
+* /usr/share/doc/anari-0.11.1/README.md

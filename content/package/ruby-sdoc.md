@@ -1,0 +1,185 @@
++++
+draft = false
+title = "ruby-sdoc 2.6.1-1"
+version = "2.6.1-1"
+description = "Standalone sdoc generator"
+date = "2024-08-14T07:32:22"
+aliases = "/packages/221567"
+categories = ['devel-extra']
+upstreamurl = "https://github.com/rails/sdoc"
+arch = "x86_64"
+size = "480520"
+usize = "1195154"
+sha1sum = "baf9e6e1d0fe8c76b36373662ac60caa35c862b4"
+depends = "['ruby>=3.3.0']"
++++
+### Description: 
+Standalone sdoc generator
+
+### Files: 
+* /usr/bin/sdoc
+* /usr/bin/sdoc-merge
+* /usr/lib/ruby/gems/3.3.0/cache/sdoc-2.6.1.gem
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/cache.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-class_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-file_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-index_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-search_index_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-_context_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-_head_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/page-_panel_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/css/page-github_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/css/page-main_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/css/page-panel_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/css/page-reset_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/js/page-highlight_pack_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/js/page-jquery-3_5_1_min_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/js/page-main_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/js/page-searchdoc_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/rails/resources/js/page-turbolinks_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/page-class_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/page-file_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/page-index_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/page-search_index_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/page-_context_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/page-_head_rhtml.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/css/page-github_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/css/page-main_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/css/page-panel_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/css/page-reset_css.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/js/page-highlight_pack_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/js/page-jquery-1_3_2_min_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/js/page-main_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/js/page-searchdoc_js.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/lib/rdoc/generator/template/sdoc/resources/panel/page-index_html.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/page-README_md.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/cdesc-RDoc.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/ClassModule/cdesc-ClassModule.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/ClassModule/with_documentation%3f-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/cdesc-Generator.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/base_dir-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/cdesc-SDoc.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/class_dir-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/copy_resources-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/debug_msg-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/FilesTree/add-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/FilesTree/cdesc-FilesTree.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/FilesTree/children-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/file_dir-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_class_files-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_class_tree-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_class_tree_level-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_file_files-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_file_tree-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_file_tree_level-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_index_file-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/generate_search_index-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/index-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/index_path-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/new-c.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/options-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/setup_options-c.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Generator/SDoc/store-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Options/cdesc-Options.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Options/github-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/RDoc/Options/search_index-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/cdesc-SDoc.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/cdesc-GitHub.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/github_url-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/have_git%3f-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/last_commit_sha1-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/path_relative_to_repository-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/path_to_git_dir-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/GitHub/repository_url-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Helpers/cdesc-Helpers.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Helpers/each_letter_group-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Helpers/group_name-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Helpers/strip_tags-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Helpers/truncate-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/append_path-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/cdesc-Merge.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/check_directories-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/copy_docs-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/copy_files-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/copy_index_file-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/error-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/merge-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/merge_search_index-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/merge_tree-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/new-c.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/parse_options-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/setup_names-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Merge/setup_output_dir-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Templatable/cdesc-Templatable.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Templatable/eval_template-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Templatable/include_template-i.ri
+* /usr/lib/ruby/gems/3.3.0/doc/sdoc-2.6.1/ri/SDoc/Templatable/render_template-i.ri
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/.github/workflows/test.yml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/.gitignore
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/bin/sdoc
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/bin/sdoc-merge
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/CHANGELOG.md
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/config.ru
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/Gemfile
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/discover.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/class.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/file.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/index.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/apple-touch-icon.png
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/css/github.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/css/main.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/css/panel.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/css/reset.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/favicon.ico
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/i/arrow-down-current.svg
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/i/arrow-down.svg
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/i/arrow-right-current.svg
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/i/arrow-right.svg
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/i/search.svg
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/i/tree_bg.svg
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/js/highlight.pack.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/js/jquery-3.5.1.min.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/js/main.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/js/searchdoc.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/resources/js/turbolinks.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/search_index.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/_context.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/_head.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/rails/_panel.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/class.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/file.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/index.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/apple-touch-icon.png
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/css/github.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/css/main.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/css/panel.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/css/reset.css
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/favicon.ico
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/i/arrows.png
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/i/results_bg.png
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/i/tree_bg.png
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/js/highlight.pack.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/js/jquery-1.3.2.min.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/js/main.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/js/searchdoc.js
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/resources/panel/index.html
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/search_index.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/_context.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/rdoc/generator/template/sdoc/_head.rhtml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc/generator.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc/github.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc/helpers.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc/merge.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc/templatable.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/lib/sdoc/version.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/LICENSE
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/netlify.toml
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/Rakefile
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/README.md
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/sdoc.gemspec
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/spec/helpers_spec.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/spec/rdoc_generator_spec.rb
+* /usr/lib/ruby/gems/3.3.0/gems/sdoc-2.6.1/spec/spec_helper.rb
+* /usr/lib/ruby/gems/3.3.0/specifications/sdoc-2.6.1.gemspec

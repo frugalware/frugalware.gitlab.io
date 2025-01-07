@@ -1,0 +1,183 @@
++++
+draft = false
+title = "kcachegrind 24.12.0-1"
+version = "24.12.0-1"
+description = "Visualization of Performance Profiling Data."
+date = "2024-12-13T12:53:30"
+aliases = "/packages/218525"
+categories = ['kde6-extra']
+upstreamurl = "http://www.kde.org"
+arch = "x86_64"
+size = "1132724"
+usize = "4878805"
+sha1sum = "85b35b49eb2c05554f02fb36eaadd3bdcbef7a8e"
+depends = "['karchive>=6.8.0', 'kconfig>=6.8.0', 'kcoreaddons>=6.8.0', 'kdoctools>=6.8.0', 'ki18n>=6.8.0', 'kio>=6.8.0', 'kwidgetsaddons>=6.8.0', 'kxmlgui>=6.8.0']"
++++
+### Description: 
+Visualization of Performance Profiling Data.
+
+### Files: 
+* /usr/bin/dprof2calltree
+* /usr/bin/hotshot2calltree
+* /usr/bin/kcachegrind
+* /usr/bin/memprof2calltree
+* /usr/bin/op2calltree
+* /usr/bin/pprof2calltree
+* /usr/share/applications/org.kde.kcachegrind.desktop
+* /usr/share/doc/HTML/ca/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/ca/kcachegrind/index.docbook
+* /usr/share/doc/HTML/de/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/de/kcachegrind/index.docbook
+* /usr/share/doc/HTML/en/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/en/kcachegrind/index.docbook
+* /usr/share/doc/HTML/es/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/es/kcachegrind/index.docbook
+* /usr/share/doc/HTML/et/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/et/kcachegrind/index.docbook
+* /usr/share/doc/HTML/fr/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/fr/kcachegrind/index.docbook
+* /usr/share/doc/HTML/gl/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/gl/kcachegrind/index.docbook
+* /usr/share/doc/HTML/it/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/it/kcachegrind/index.docbook
+* /usr/share/doc/HTML/nl/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/nl/kcachegrind/index.docbook
+* /usr/share/doc/HTML/pt/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/pt/kcachegrind/index.docbook
+* /usr/share/doc/HTML/pt_BR/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kcachegrind/index.docbook
+* /usr/share/doc/HTML/ru/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/ru/kcachegrind/index.docbook
+* /usr/share/doc/HTML/sl/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcachegrind/index.docbook
+* /usr/share/doc/HTML/sv/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/sv/kcachegrind/index.docbook
+* /usr/share/doc/HTML/uk/kcachegrind/index.cache.bz2
+* /usr/share/doc/HTML/uk/kcachegrind/index.docbook
+* /usr/share/doc/kcachegrind-24.12.0/AUTHORS
+* /usr/share/doc/kcachegrind-24.12.0/ChangeLog
+* /usr/share/doc/kcachegrind-24.12.0/INSTALL
+* /usr/share/doc/kcachegrind-24.12.0/README
+* /usr/share/doc/kcachegrind-24.12.0/README_DEVELOPER
+* /usr/share/doc/kcachegrind-24.12.0/TODO
+* /usr/share/icons/hicolor/128x128/apps/kcachegrind.png
+* /usr/share/icons/hicolor/32x32/apps/kcachegrind.png
+* /usr/share/icons/hicolor/48x48/apps/kcachegrind.png
+* /usr/share/icons/hicolor/64x64/apps/kcachegrind.png
+* /usr/share/kcachegrind/icons/hicolor/16x16/actions/move.png
+* /usr/share/kcachegrind/icons/hicolor/16x16/actions/percent.png
+* /usr/share/kcachegrind/icons/hicolor/22x22/actions/hidetemplates.png
+* /usr/share/kcachegrind/icons/hicolor/22x22/actions/move.png
+* /usr/share/kcachegrind/icons/hicolor/22x22/actions/percent.png
+* /usr/share/kcachegrind/icons/hicolor/32x32/actions/percent.png
+* /usr/share/kcachegrind/tips
+* /usr/share/locale/ar/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/be/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/br/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/bs/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/bs/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ca/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/cs/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/cy/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/da/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/da/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/de/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/de/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/el/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/el/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/en/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/en_GB/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/eo/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/es/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/es/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/et/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/et/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/eu/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/fa/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/fr/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ga/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ga/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/gl/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/hne/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/hr/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/hr/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/hu/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ia/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/it/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/it/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ja/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ka/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/kk/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/kk/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/km/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/lt/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/mai/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/mai/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/mr/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/mr/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ms/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/nds/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/nds/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ne/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/nn/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/oc/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/pt/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ro/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/se/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/se/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/sk/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/sl/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/sq/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ta/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/tg/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/ug/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/ug/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/uk/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcachegrind.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcachegrind_qt.qm
+* /usr/share/metainfo/org.kde.kcachegrind.appdata.xml
