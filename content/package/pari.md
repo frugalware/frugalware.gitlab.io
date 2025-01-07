@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pari 2.15.2-1"
-version = "2.15.2-1"
+title = "pari 2.17.1-1"
+version = "2.17.1-1"
 description = "PARI/GP is a computer algebra system designed for fast computations in number theory."
-date = "2023-01-23T10:14:05"
+date = "2025-01-07T16:16:30"
 aliases = "/packages/59958"
 categories = ['xapps-extra']
 upstreamurl = "http://pari.math.u-bordeaux.fr"
 arch = "x86_64"
-size = "4363100"
-usize = "14889243"
-sha1sum = "eb019ad86a5eafcf19060088035e0c4fca291403"
+size = "4476192"
+usize = "15423547"
+sha1sum = "410187d5d4d25d90a749d479b810aa921487e686"
 depends = "['gmp>=5.0.5-2', 'libx11', 'readline>=8.0']"
 +++
 ### Description: 
@@ -18,7 +18,7 @@ PARI/GP is a computer algebra system designed for fast computations in number th
 
 ### Files: 
 * /usr/bin/gp
-* /usr/bin/gp-2.15
+* /usr/bin/gp-2.17
 * /usr/bin/gphelp
 * /usr/bin/tex2mail
 * /usr/include/pari/genpari.h
@@ -39,18 +39,18 @@ PARI/GP is a computer algebra system designed for fast computations in number th
 * /usr/include/pari/paristio.h
 * /usr/include/pari/parisys.h
 * /usr/include/pari/paritune.h
-* /usr/lib/libpari-gmp.so.2.15.2
-* /usr/lib/libpari-gmp.so.8
+* /usr/lib/libpari-gmp.so.2.17.1
+* /usr/lib/libpari-gmp.so.9
 * /usr/lib/libpari.so
 * /usr/lib/pari/pari.cfg
-* /usr/share/doc/pari-2.15.2/AUTHORS
-* /usr/share/doc/pari-2.15.2/CHANGES
-* /usr/share/doc/pari-2.15.2/COPYING
-* /usr/share/doc/pari-2.15.2/INSTALL
-* /usr/share/doc/pari-2.15.2/LICENSE
-* /usr/share/doc/pari-2.15.2/README
-* /usr/share/doc/pari-2.15.2/README-git
-* /usr/share/man/man1/gp-2.15.1.gz
+* /usr/share/doc/pari-2.17.1/AUTHORS
+* /usr/share/doc/pari-2.17.1/CHANGES
+* /usr/share/doc/pari-2.17.1/COPYING
+* /usr/share/doc/pari-2.17.1/INSTALL
+* /usr/share/doc/pari-2.17.1/LICENSE
+* /usr/share/doc/pari-2.17.1/README
+* /usr/share/doc/pari-2.17.1/README-git
+* /usr/share/man/man1/gp-2.17.1.gz
 * /usr/share/man/man1/gp.1.gz
 * /usr/share/man/man1/gphelp.1.gz
 * /usr/share/man/man1/pari.1.gz
