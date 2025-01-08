@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libsystemd 257.1-2"
-version = "257.1-2"
+title = "lib32-libsystemd 257.2-1"
+version = "257.2-1"
 description = "systemd libs ( 32bit )"
-date = "2025-01-02T10:59:08"
+date = "2025-01-08T08:08:42"
 aliases = "/packages/217739"
 categories = ['lib32-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "2780468"
-usize = "9974587"
-sha1sum = "c3ed7884bd81126bcbbc85fa2d3951d45d3192b7"
+size = "2780300"
+usize = "9974651"
+sha1sum = "1cbd3b055810cda9270bd2b36eecf4300e2addcb"
 depends = "['glibc>=2.34', 'lib32-glib2', 'lib32-gnutls', 'lib32-libblkid>=2.28.2-4', 'lib32-libcap>=2.25-5', 'lib32-libgcrypt>=1.7.3-3', 'lib32-libgpg-error>=1.24-3', 'lib32-libidn2', 'lib32-libuuid>=2.40.2', 'lib32-libxcrypt', 'lib32-openssl', 'lib32-p11-kit', 'lib32-util-linux', 'lib32-xfsprogs-acl', 'lib32-xz', 'lib32-zstd', 'libgcc>=11.2']"
 reverse_depends = "['lib32-gamemode', 'lib32-libcups', 'lib32-modemmanager', 'lib32-p11-kit', 'lib32-pam', 'lib32-pipewire', 'lib32-polkit', 'lib32-v4l-utils', 'lib32-xorg-server', 'lib32-xorg-server-fbdev', 'lib32-xorg-server-xephyr']"
 +++

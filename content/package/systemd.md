@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd 257.1-2"
-version = "257.1-2"
+title = "systemd 257.2-1"
+version = "257.2-1"
 description = "A System and Service Manager"
-date = "2025-01-02T10:59:08"
+date = "2025-01-08T08:08:42"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4757960"
-usize = "21471949"
-sha1sum = "0d278ef8e09756fe10444d13e0682b76be64a101"
-depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=257.1', 'libudev>=257.1', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=257.1', 'systemd-sysvinit']"
+size = "4779660"
+usize = "21649469"
+sha1sum = "909a2f404ec2be04c651da80949bffc39b449834"
+depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=257.2', 'libudev>=257.2', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=257.2', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'plocate', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
 ### Description: 
@@ -719,10 +719,11 @@ A System and Service Manager
 * /usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
-* /usr/share/doc/systemd-257.1/NEWS
-* /usr/share/doc/systemd-257.1/README
-* /usr/share/doc/systemd-257.1/README.md
-* /usr/share/doc/systemd-257.1/TODO
+* /usr/share/doc/systemd-257.2/LICENSE
+* /usr/share/doc/systemd-257.2/NEWS
+* /usr/share/doc/systemd-257.2/README
+* /usr/share/doc/systemd-257.2/README.md
+* /usr/share/doc/systemd-257.2/TODO
 * /usr/share/doc/systemd/CODING_STYLE.md
 * /usr/share/doc/systemd/DISTRO_PORTING.md
 * /usr/share/doc/systemd/ENVIRONMENT.md
