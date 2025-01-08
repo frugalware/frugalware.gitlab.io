@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cutemaze 1.3.3-6"
-version = "1.3.3-6"
+title = "cutemaze 1.3.4-1"
+version = "1.3.4-1"
 description = "CuteMaze is a simple, top-down game in which mazes are randomly generated."
-date = "2024-12-05T12:17:05"
+date = "2025-01-08T19:20:06"
 aliases = "/packages/184382"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/cutemaze/"
 arch = "x86_64"
-size = "322080"
-usize = "644409"
-sha1sum = "58141da41fc32990ca9af04c2cbc276372644c4f"
+size = "322276"
+usize = "645936"
+sha1sum = "0ef52c23c5884bfa26573689e907517a09026f80"
 depends = "['qt6-svg>=6.8.0']"
 +++
 ### Description: 
@@ -38,11 +38,11 @@ CuteMaze is a simple, top-down game in which mazes are randomly generated.
 * /usr/share/cutemaze/translations/cutemaze_ru.qm
 * /usr/share/cutemaze/translations/cutemaze_tr.qm
 * /usr/share/cutemaze/translations/cutemaze_zh.qm
-* /usr/share/doc/cutemaze-1.3.3/ChangeLog
-* /usr/share/doc/cutemaze-1.3.3/COPYING
-* /usr/share/doc/cutemaze-1.3.3/CREDITS
-* /usr/share/doc/cutemaze-1.3.3/INSTALL
-* /usr/share/doc/cutemaze-1.3.3/README
+* /usr/share/doc/cutemaze-1.3.4/ChangeLog
+* /usr/share/doc/cutemaze-1.3.4/COPYING
+* /usr/share/doc/cutemaze-1.3.4/CREDITS
+* /usr/share/doc/cutemaze-1.3.4/INSTALL
+* /usr/share/doc/cutemaze-1.3.4/README
 * /usr/share/icons/hicolor/1024x1024/apps/cutemaze.png
 * /usr/share/icons/hicolor/128x128/apps/cutemaze.png
 * /usr/share/icons/hicolor/16x16/apps/cutemaze.png
