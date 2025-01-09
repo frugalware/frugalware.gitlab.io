@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cups-browsed 2.1.0-1"
-version = "2.1.0-1"
+title = "cups-browsed 2.1.1-1"
+version = "2.1.1-1"
 description = "a helper daemon to browse the network for remote CUPS queues and IPP network printers"
-date = "2024-10-18T09:52:56"
+date = "2025-01-09T15:30:57"
 aliases = "/packages/221457"
 categories = ['network']
 upstreamurl = "https://github.com/OpenPrinting/cups-browsed"
 arch = "x86_64"
-size = "166388"
-usize = "575041"
-sha1sum = "8a04b454475168d1326f4db5935dbb3bd942d9b6"
+size = "173232"
+usize = "600072"
+sha1sum = "6f8b215d7dd8f4ed827d8687457a2ef6ed79e005"
 depends = "['avahi-glib', 'libppd']"
 reverse_depends = "['cups']"
 +++
@@ -30,16 +30,18 @@ a helper daemon to browse the network for remote CUPS queues and IPP network pri
 * /usr/lib/cups/backend/implicitclass
 * /usr/lib/systemd/system/cups-browsed.service
 * /usr/sbin/cups-browsed
-* /usr/share/doc/cups-browsed-2.1.0/ABOUT-NLS
-* /usr/share/doc/cups-browsed-2.1.0/AUTHORS
-* /usr/share/doc/cups-browsed-2.1.0/CHANGES-1.x.md
-* /usr/share/doc/cups-browsed-2.1.0/CHANGES.md
-* /usr/share/doc/cups-browsed-2.1.0/CONTRIBUTING.md
-* /usr/share/doc/cups-browsed-2.1.0/COPYING
-* /usr/share/doc/cups-browsed-2.1.0/DEVELOPING.md
-* /usr/share/doc/cups-browsed-2.1.0/INSTALL
-* /usr/share/doc/cups-browsed-2.1.0/LICENSE
-* /usr/share/doc/cups-browsed-2.1.0/NOTICE
-* /usr/share/doc/cups-browsed-2.1.0/README.md
+* /usr/share/doc/cups-browsed-2.1.1/ABOUT-NLS
+* /usr/share/doc/cups-browsed-2.1.1/AUTHORS
+* /usr/share/doc/cups-browsed-2.1.1/CHANGES-1.x.md
+* /usr/share/doc/cups-browsed-2.1.1/CHANGES.md
+* /usr/share/doc/cups-browsed-2.1.1/CONTRIBUTING.md
+* /usr/share/doc/cups-browsed-2.1.1/COPYING
+* /usr/share/doc/cups-browsed-2.1.1/COPYING.md
+* /usr/share/doc/cups-browsed-2.1.1/DEVELOPING.md
+* /usr/share/doc/cups-browsed-2.1.1/INSTALL
+* /usr/share/doc/cups-browsed-2.1.1/INSTALL.md
+* /usr/share/doc/cups-browsed-2.1.1/LICENSE
+* /usr/share/doc/cups-browsed-2.1.1/NOTICE
+* /usr/share/doc/cups-browsed-2.1.1/README.md
 * /usr/share/man/man5/cups-browsed.conf.5.gz
 * /usr/share/man/man8/cups-browsed.8.gz
