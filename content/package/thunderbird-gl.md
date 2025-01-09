@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-gl 128.5.2-1"
-version = "128.5.2-1"
+title = "thunderbird-gl 128.6.0-1"
+version = "128.6.0-1"
 description = "Galician language support for Thunderbird"
-date = "2024-12-12T10:38:02"
+date = "2025-01-09T16:33:00"
 aliases = "/packages/103326"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "680564"
-usize = "742175"
-sha1sum = "a68d14d4e538dbef2c2092fc0b00e17e01a104f6"
-depends = "['thunderbird>=128.5.2']"
+size = "680576"
+usize = "742174"
+sha1sum = "b83df2550054e9796576162007aff45012fcf04b"
+depends = "['thunderbird>=128.6.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

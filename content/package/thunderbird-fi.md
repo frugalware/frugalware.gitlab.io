@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-fi 128.5.2-1"
-version = "128.5.2-1"
+title = "thunderbird-fi 128.6.0-1"
+version = "128.6.0-1"
 description = "Finnish language support for Thunderbird"
-date = "2024-12-12T10:38:02"
+date = "2025-01-09T16:33:00"
 aliases = "/packages/5191"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "677256"
-usize = "738931"
-sha1sum = "384bc4affe95a2f2dbde75f7f385b3ca32f51b1f"
-depends = "['thunderbird>=128.5.2']"
+size = "677288"
+usize = "738929"
+sha1sum = "6718c473e301b157f94d631bbe8e9f4e39867c28"
+depends = "['thunderbird>=128.6.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
