@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmediainfo 24.12-1"
-version = "24.12-1"
+title = "libmediainfo 24.12-2"
+version = "24.12-2"
 description = "shared library for mediainfo"
-date = "2024-12-11T12:58:21"
+date = "2025-01-09T09:05:44"
 aliases = "/packages/136857"
 categories = ['lib-extra']
 upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
-size = "3000932"
+size = "3000148"
 usize = "10292590"
-sha1sum = "549b99c52466b32814c9e5c8453a151115e9e5ec"
-depends = "['curl', 'graphviz', 'libmms', 'libzen>=0.4.40', 'tinyxml2']"
+sha1sum = "dc7387a3d4c4626afad1b13b6a10e22621652166"
+depends = "['curl', 'graphviz', 'libmms', 'libzen>=0.4.40', 'tinyxml2>=10.0.0']"
 reverse_depends = "['mediainfo']"
 +++
 ### Description: 
