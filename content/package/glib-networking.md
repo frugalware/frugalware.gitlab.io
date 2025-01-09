@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib-networking 2.80.0-1"
-version = "2.80.0-1"
+title = "glib-networking 2.80.1-1"
+version = "2.80.1-1"
 description = "Network extensions for GLib"
-date = "2024-06-25T15:14:29"
+date = "2025-01-09T18:24:20"
 aliases = "/packages/118754"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "152228"
-usize = "711240"
-sha1sum = "a9e383de20689f92db5092f9f03adcfd68f61313"
+size = "164984"
+usize = "780464"
+sha1sum = "69e3eb68e7e6ada60cd04d53d00cdaea6b4cad75"
 depends = "['ca-certificates', 'glib2', 'gnutls', 'libproxy>=0.5.7']"
 reverse_depends = "['gimp', 'libsoup', 'libsoup3']"
 +++
@@ -24,9 +24,11 @@ Network extensions for GLib
 * /usr/lib/glib-networking/glib-pacrunner
 * /usr/lib/systemd/user/glib-pacrunner.service
 * /usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service
-* /usr/share/doc/glib-networking-2.80.0/COPYING
-* /usr/share/doc/glib-networking-2.80.0/NEWS
-* /usr/share/doc/glib-networking-2.80.0/README
+* /usr/share/doc/glib-networking-2.80.1/COPYING
+* /usr/share/doc/glib-networking-2.80.1/LICENSE
+* /usr/share/doc/glib-networking-2.80.1/NEWS
+* /usr/share/doc/glib-networking-2.80.1/README
+* /usr/share/doc/glib-networking-2.80.1/README.md
 * /usr/share/locale/ab/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/an/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/ar/LC_MESSAGES/glib-networking.mo
@@ -62,6 +64,7 @@ Network extensions for GLib
 * /usr/share/locale/it/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/ja/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/ka/LC_MESSAGES/glib-networking.mo
+* /usr/share/locale/kab/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/kk/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/km/LC_MESSAGES/glib-networking.mo
 * /usr/share/locale/kn/LC_MESSAGES/glib-networking.mo
