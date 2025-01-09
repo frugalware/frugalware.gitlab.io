@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zlib-ng 2.2.3-1"
-version = "2.2.3-1"
+title = "zlib-ng 2.2.3-2"
+version = "2.2.3-2"
 description = "zlib replacement with optimizations for 'next generation' systems."
-date = "2025-01-01T15:28:00"
+date = "2025-01-09T13:50:10"
 aliases = "/packages/222613"
 categories = ['base']
 upstreamurl = "https://github.com/zlib-ng/zlib-ng"
 arch = "x86_64"
-size = "120912"
-usize = "332019"
-sha1sum = "d3b1300c52322b9b693230dd49839bc48785e5f6"
+size = "97348"
+usize = "231530"
+sha1sum = "e5ce7a87fcd9e09e454a5caa367858c23e015818"
 depends = "['glibc>=2.37']"
 reverse_depends = "['assimp', 'cracklib', 'elfutils', 'file', 'geogram', 'glib2', 'kmod', 'libarchive', 'libssh', 'libssh2', 'libsystemd', 'nss', 'pcre', 'pcre2', 'zstd']"
 +++
@@ -18,9 +18,6 @@ reverse_depends = "['assimp', 'cracklib', 'elfutils', 'file', 'geogram', 'glib2'
 zlib replacement with optimizations for 'next generation' systems.
 
 ### Files: 
-* /usr/include/zconf.h
-* /usr/include/zlib.h
-* /usr/include/zlib_name_mangling.h
 * /usr/lib/cmake/ZLIB/zlib-config-version.cmake
 * /usr/lib/cmake/ZLIB/zlib-config.cmake
 * /usr/lib/cmake/ZLIB/ZLIB-release.cmake
