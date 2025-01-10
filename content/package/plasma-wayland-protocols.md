@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-wayland-protocols 1.15.0-1"
-version = "1.15.0-1"
+title = "plasma-wayland-protocols 1.16.0-1"
+version = "1.16.0-1"
 description = "Plasma Specific Protocols for Wayland"
-date = "2024-12-10T14:37:33"
+date = "2025-01-10T12:57:09"
 aliases = "/packages/220165"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "50220"
-usize = "264406"
-sha1sum = "617b1c275b97fb293ab0ba73050b127e6f25681b"
+size = "42068"
+usize = "237738"
+sha1sum = "5111f3da652be496f41149a24856f5500a6d76ae"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -19,10 +19,8 @@ Plasma Specific Protocols for Wayland
 ### Files: 
 * /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfig.cmake
 * /usr/lib/cmake/PlasmaWaylandProtocols/PlasmaWaylandProtocolsConfigVersion.cmake
-* /usr/share/doc/plasma-wayland-protocols-1.15.0/COPYING.LIB
-* /usr/share/doc/plasma-wayland-protocols-1.15.0/COPYING.md
-* /usr/share/doc/plasma-wayland-protocols-1.15.0/INSTALL.md
-* /usr/share/doc/plasma-wayland-protocols-1.15.0/README.md
+* /usr/share/doc/plasma-wayland-protocols-1.16.0/COPYING.LIB
+* /usr/share/doc/plasma-wayland-protocols-1.16.0/README.md
 * /usr/share/plasma-wayland-protocols/appmenu.xml
 * /usr/share/plasma-wayland-protocols/blur.xml
 * /usr/share/plasma-wayland-protocols/contrast.xml

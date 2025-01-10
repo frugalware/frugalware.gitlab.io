@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kidletime 6.9.0-1"
-version = "6.9.0-1"
+title = "kidletime 6.10.0-1"
+version = "6.10.0-1"
 description = "Reporting of idle time of user and system."
-date = "2024-12-16T11:44:09"
+date = "2025-01-10T13:13:56"
 aliases = "/packages/218318"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "54556"
-usize = "207016"
-sha1sum = "cc05b46742983740510d9985c9b2017199f9c17f"
+size = "54532"
+usize = "206310"
+sha1sum = "b0b28d5407323e7bb71cc709644c466442072120"
 depends = "['libxscrnsaver']"
 reverse_depends = "['baloo', 'discover', 'drkonqi', 'kalarm', 'konversation', 'kscreenlocker', 'kup', 'kwin', 'plasma-workspace']"
 +++
@@ -29,10 +29,10 @@ Reporting of idle time of user and system.
 * /usr/lib/cmake/KF6IdleTime/KF6IdleTimeTargets.cmake
 * /usr/lib/libKF6IdleTime.so
 * /usr/lib/libKF6IdleTime.so.6
-* /usr/lib/libKF6IdleTime.so.6.9.0
+* /usr/lib/libKF6IdleTime.so.6.10.0
 * /usr/lib/qt6/plugins/kf6/org.kde.kidletime.platforms/KF6IdleTimeWaylandPlugin.so
 * /usr/lib/qt6/plugins/kf6/org.kde.kidletime.platforms/KF6IdleTimeXcbPlugin0.so
 * /usr/lib/qt6/plugins/kf6/org.kde.kidletime.platforms/KF6IdleTimeXcbPlugin1.so
-* /usr/share/doc/kidletime-6.9.0/README.md
+* /usr/share/doc/kidletime-6.10.0/README.md
 * /usr/share/qlogging-categories6/kidletime.categories
 * /usr/share/qlogging-categories6/kidletime.renamecategories

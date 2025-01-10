@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "karchive 6.9.0-1"
-version = "6.9.0-1"
+title = "karchive 6.10.0-1"
+version = "6.10.0-1"
 description = "Qt 5 addon providing access to numerous types of archives."
-date = "2024-12-16T11:35:04"
+date = "2025-01-10T13:05:13"
 aliases = "/packages/218274"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "152768"
-usize = "723051"
-sha1sum = "fafcadb4189535e2584e8f8796aca065ae34c1f0"
+size = "156320"
+usize = "746115"
+sha1sum = "40f14d72ebc76376e394a87fbdc3bbf5017e17b1"
 depends = "['qt6-base>=6.8.1']"
 reverse_depends = "['discover', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kdoctools', 'kfilemetadata', 'khealthcertificate', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'ksvg']"
 +++
@@ -50,10 +50,10 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/lib/cmake/KF6Archive/KF6ArchiveTargets.cmake
 * /usr/lib/libKF6Archive.so
 * /usr/lib/libKF6Archive.so.6
-* /usr/lib/libKF6Archive.so.6.9.0
-* /usr/share/doc/karchive-6.9.0/AUTHORS
-* /usr/share/doc/karchive-6.9.0/INSTALL
-* /usr/share/doc/karchive-6.9.0/README.md
+* /usr/lib/libKF6Archive.so.6.10.0
+* /usr/share/doc/karchive-6.10.0/AUTHORS
+* /usr/share/doc/karchive-6.10.0/INSTALL
+* /usr/share/doc/karchive-6.10.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/karchive6_qt.qm
@@ -69,6 +69,7 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/share/locale/fr/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/karchive6_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/id/LC_MESSAGES/karchive6_qt.qm
@@ -85,6 +86,7 @@ Qt 5 addon providing access to numerous types of archives.
 * /usr/share/locale/pt/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/karchive6_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/karchive6_qt.qm
 * /usr/share/locale/sv/LC_MESSAGES/karchive6_qt.qm
