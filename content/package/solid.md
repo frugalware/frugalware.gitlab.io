@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "solid 6.9.1-1"
-version = "6.9.1-1"
+title = "solid 6.10.0-1"
+version = "6.10.0-1"
 description = "KDE Desktop hardware abstraction."
-date = "2024-12-20T22:08:55"
+date = "2025-01-10T14:33:09"
 aliases = "/packages/218411"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "387016"
-usize = "2019817"
-sha1sum = "0c14b4650b9f87e808819984de75a417d89ccba9"
+size = "391740"
+usize = "2062211"
+sha1sum = "386d3a612f57a970922fc1ec9e8915089ce47145"
 depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt6-declarative>=6.8.1', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
 reverse_depends = "['discover', 'dolphin', 'isoimagewriter', 'kamoso', 'kinfocenter', 'kio', 'kmix', 'libkcompactdisc', 'plasma5support']"
 +++
@@ -61,9 +61,9 @@ KDE Desktop hardware abstraction.
 * /usr/lib/cmake/KF6Solid/KF6SolidTargets.cmake
 * /usr/lib/libKF6Solid.so
 * /usr/lib/libKF6Solid.so.6
-* /usr/lib/libKF6Solid.so.6.9.1
-* /usr/share/doc/solid-6.9.1/README.md
-* /usr/share/doc/solid-6.9.1/TODO
+* /usr/lib/libKF6Solid.so.6.10.0
+* /usr/share/doc/solid-6.10.0/README.md
+* /usr/share/doc/solid-6.10.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/solid6_qt.qm
@@ -86,6 +86,7 @@ KDE Desktop hardware abstraction.
 * /usr/share/locale/gd/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/solid6_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/hr/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/solid6_qt.qm
@@ -112,6 +113,7 @@ KDE Desktop hardware abstraction.
 * /usr/share/locale/pt_BR/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/solid6_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/se/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/solid6_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/solid6_qt.qm
