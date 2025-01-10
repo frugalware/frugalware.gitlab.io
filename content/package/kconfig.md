@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kconfig 6.9.0-1"
-version = "6.9.0-1"
+title = "kconfig 6.10.0-1"
+version = "6.10.0-1"
 description = "Provides an advanced configuration system."
-date = "2024-12-16T12:04:57"
+date = "2025-01-10T13:34:38"
 aliases = "/packages/218283"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "454740"
-usize = "2167659"
-sha1sum = "1738e775b3d7acab4fa82f7e843175f977da63a6"
+size = "458508"
+usize = "2200819"
+sha1sum = "9b9f7541c7d5bf184ed7dc21bad1ec7a2aa0e072"
 depends = "['qt6-base>=6.8.1']"
 reverse_depends = "['akonadi-mime', 'alligator', 'audex', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'francis', 'kalk', 'kalm', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kglobalacceld', 'kirigami-addons', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'skladnik', 'sweeper', 'telly-skout']"
 +++
@@ -76,19 +76,19 @@ Provides an advanced configuration system.
 * /usr/lib/kconfig/kf6/kconf_update
 * /usr/lib/libKF6ConfigCore.so
 * /usr/lib/libKF6ConfigCore.so.6
-* /usr/lib/libKF6ConfigCore.so.6.9.0
+* /usr/lib/libKF6ConfigCore.so.6.10.0
 * /usr/lib/libKF6ConfigGui.so
 * /usr/lib/libKF6ConfigGui.so.6
-* /usr/lib/libKF6ConfigGui.so.6.9.0
+* /usr/lib/libKF6ConfigGui.so.6.10.0
 * /usr/lib/libKF6ConfigQml.so
 * /usr/lib/libKF6ConfigQml.so.6
-* /usr/lib/libKF6ConfigQml.so.6.9.0
+* /usr/lib/libKF6ConfigQml.so.6.10.0
 * /usr/lib/qt6/qml/org/kde/config/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/config/KF6ConfigQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/config/libKF6ConfigQmlplugin.so
 * /usr/lib/qt6/qml/org/kde/config/qmldir
-* /usr/share/doc/kconfig-6.9.0/README.md
-* /usr/share/doc/kconfig-6.9.0/TODO
+* /usr/share/doc/kconfig-6.10.0/README.md
+* /usr/share/doc/kconfig-6.10.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kconfig6_qt.qm
@@ -159,6 +159,7 @@ Provides an advanced configuration system.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/kconfig6_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/se/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/si/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/kconfig6_qt.qm

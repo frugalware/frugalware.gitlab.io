@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpackage 6.9.0-1"
-version = "6.9.0-1"
+title = "kpackage 6.10.0-1"
+version = "6.10.0-1"
 description = "Framework that lets applications manage user installable packages of non-binary assets."
-date = "2024-12-16T12:18:14"
+date = "2025-01-10T13:51:40"
 aliases = "/packages/218340"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "165304"
-usize = "668428"
-sha1sum = "9468f70b5dd0271ae32a388ad7c112be8b0eeb56"
-depends = "['karchive>=6.9.0', 'kconfig>=6.9.0', 'kcoreaddons>=6.9.0', 'ki18n>=6.9.0']"
+size = "168192"
+usize = "688895"
+sha1sum = "2fd84387369b456856e007e038017d24c9d3fcc2"
+depends = "['karchive>=6.10.0', 'kconfig>=6.10.0', 'kcoreaddons>=6.10.0', 'ki18n>=6.10.0']"
 reverse_depends = "['frameworkintegration', 'kdeclarative', 'kinfocenter', 'knewstuff', 'kwin', 'plasma-workspace']"
 +++
 ### Description: 
@@ -40,9 +40,9 @@ Framework that lets applications manage user installable packages of non-binary 
 * /usr/lib/cmake/KF6Package/KF6PackageToolsTargets.cmake
 * /usr/lib/libKF6Package.so
 * /usr/lib/libKF6Package.so.6
-* /usr/lib/libKF6Package.so.6.9.0
-* /usr/share/doc/kpackage-6.9.0/README.KF6.md
-* /usr/share/doc/kpackage-6.9.0/README.md
+* /usr/lib/libKF6Package.so.6.10.0
+* /usr/share/doc/kpackage-6.10.0/README.KF6.md
+* /usr/share/doc/kpackage-6.10.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkpackage6.mo
@@ -64,6 +64,7 @@ Framework that lets applications manage user installable packages of non-binary 
 * /usr/share/locale/gd/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/he/LC_MESSAGES/libkpackage6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/id/LC_MESSAGES/libkpackage6.mo
@@ -85,6 +86,7 @@ Framework that lets applications manage user installable packages of non-binary 
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkpackage6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkpackage6.mo
 * /usr/share/locale/sr/LC_MESSAGES/libkpackage6.mo

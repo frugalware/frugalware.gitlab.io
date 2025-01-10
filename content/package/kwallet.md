@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwallet 6.9.0-1"
-version = "6.9.0-1"
+title = "kwallet 6.10.0-1"
+version = "6.10.0-1"
 description = "Safe desktop-wide storage for passwords."
-date = "2024-12-16T12:26:23"
+date = "2025-01-10T14:01:28"
 aliases = "/packages/221354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "466236"
-usize = "2440781"
-sha1sum = "ddda430423a9b4fc05c91209735f62a3f9f88b33"
-depends = "['knotifications>=6.9.0', 'libgpgmepp>=1.10.0', 'qca']"
+size = "470180"
+usize = "2479431"
+sha1sum = "175fb53ec941ce198eb42e96e429b4258e26ea67"
+depends = "['knotifications>=6.10.0', 'libgpgmepp>=1.10.0', 'qca']"
 reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'ksshaskpass', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension']"
 +++
 ### Description: 
@@ -30,14 +30,14 @@ Safe desktop-wide storage for passwords.
 * /usr/lib/cmake/KF6Wallet/KF6WalletTargets.cmake
 * /usr/lib/libKF6Wallet.so
 * /usr/lib/libKF6Wallet.so.6
-* /usr/lib/libKF6Wallet.so.6.9.0
+* /usr/lib/libKF6Wallet.so.6.10.0
 * /usr/lib/libKF6WalletBackend.so.6
-* /usr/lib/libKF6WalletBackend.so.6.9.0
+* /usr/lib/libKF6WalletBackend.so.6.10.0
 * /usr/share/applications/org.kde.kwalletd6.desktop
 * /usr/share/dbus-1/interfaces/kf6_org.kde.KWallet.xml
 * /usr/share/dbus-1/services/org.kde.kwalletd5.service
 * /usr/share/dbus-1/services/org.kde.kwalletd6.service
-* /usr/share/doc/kwallet-6.9.0/README.md
+* /usr/share/doc/kwallet-6.10.0/README.md
 * /usr/share/knotifications6/kwalletd6.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletd6.mo
@@ -87,6 +87,7 @@ Safe desktop-wide storage for passwords.
 * /usr/share/locale/gu/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/he/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/he/LC_MESSAGES/kwalletd6.mo
+* /usr/share/locale/hi/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/hi/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/hr/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kwalletd6.mo
@@ -139,6 +140,8 @@ Safe desktop-wide storage for passwords.
 * /usr/share/locale/ro/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/ru/LC_MESSAGES/kwalletd6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kwallet6-query.mo
+* /usr/share/locale/sa/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/si/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/sk/LC_MESSAGES/kwalletd6.mo

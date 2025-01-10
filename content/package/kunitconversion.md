@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kunitconversion 6.9.0-1"
-version = "6.9.0-1"
+title = "kunitconversion 6.10.0-1"
+version = "6.10.0-1"
 description = "Converting physical units."
-date = "2024-12-16T12:19:59"
+date = "2025-01-10T13:55:21"
 aliases = "/packages/218358"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "857816"
-usize = "11330359"
-sha1sum = "d0dfff1e30e88a039a45828af62954dfe3c8349a"
-depends = "['ki18n>=6.9.0', 'qt6-base>=6.8.1']"
+size = "899616"
+usize = "11891762"
+sha1sum = "e7d8a997d10dc76d81b59fb4610501a95d16f4c0"
+depends = "['ki18n>=6.10.0', 'qt6-base>=6.8.1']"
 reverse_depends = "['itinerary', 'kalk', 'kdeplasma-addons', 'plasma-workspace']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Converting physical units.
 * /usr/lib/cmake/KF6UnitConversion/KF6UnitConversionTargets.cmake
 * /usr/lib/libKF6UnitConversion.so
 * /usr/lib/libKF6UnitConversion.so.6
-* /usr/lib/libKF6UnitConversion.so.6.9.0
-* /usr/share/doc/kunitconversion-6.9.0/README.md
+* /usr/lib/libKF6UnitConversion.so.6.10.0
+* /usr/share/doc/kunitconversion-6.10.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/az/LC_MESSAGES/kunitconversion6.mo
@@ -57,6 +57,7 @@ Converting physical units.
 * /usr/share/locale/ga/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/gd/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kunitconversion6.mo
+* /usr/share/locale/hi/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/hr/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/hu/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kunitconversion6.mo
@@ -82,6 +83,7 @@ Converting physical units.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/ro/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kunitconversion6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/se/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/sl/LC_MESSAGES/kunitconversion6.mo

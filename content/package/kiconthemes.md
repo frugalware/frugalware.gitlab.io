@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes 6.9.0-1"
-version = "6.9.0-1"
+title = "kiconthemes 6.10.0-1"
+version = "6.10.0-1"
 description = "Icon GUI utilities."
-date = "2024-12-16T12:14:18"
+date = "2025-01-10T13:45:07"
 aliases = "/packages/218316"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "151312"
-usize = "576375"
-sha1sum = "358a7f66ac3c14a2128a39a7baf78c73235767b3"
-depends = "['breeze-icons>=6.9.0', 'karchive>=6.9.0', 'kconfigwidgets>=6.9.0', 'kitemviews>=6.9.0', 'qt6-declarative>=6.8.1', 'qt6-svg>=6.8.1']"
+size = "152008"
+usize = "577544"
+sha1sum = "c2b5a42e8e0bf1ea90f233a61a9a95a14d8ea83c"
+depends = "['breeze-icons>=6.10.0', 'karchive>=6.10.0', 'kconfigwidgets>=6.10.0', 'kitemviews>=6.10.0', 'qt6-declarative>=6.8.1', 'qt6-svg>=6.8.1']"
 reverse_depends = "['audex', 'breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdiff3', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -46,17 +46,17 @@ Icon GUI utilities.
 * /usr/lib/cmake/KF6IconThemes/KF6IconThemesTargets.cmake
 * /usr/lib/libKF6IconThemes.so
 * /usr/lib/libKF6IconThemes.so.6
-* /usr/lib/libKF6IconThemes.so.6.9.0
+* /usr/lib/libKF6IconThemes.so.6.10.0
 * /usr/lib/libKF6IconWidgets.so
 * /usr/lib/libKF6IconWidgets.so.6
-* /usr/lib/libKF6IconWidgets.so.6.9.0
+* /usr/lib/libKF6IconWidgets.so.6.10.0
 * /usr/lib/qt6/plugins/designer/kiconthemes6widgets.so
 * /usr/lib/qt6/plugins/kiconthemes6/iconengines/KIconEnginePlugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/iconthemesplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/iconthemes/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/iconthemes/libiconthemesplugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/qmldir
-* /usr/share/doc/kiconthemes-6.9.0/README.md
+* /usr/share/doc/kiconthemes-6.10.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kiconthemes6.mo
@@ -122,6 +122,7 @@ Icon GUI utilities.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ro/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kiconthemes6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/se/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/sl/LC_MESSAGES/kiconthemes6.mo

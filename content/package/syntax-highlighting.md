@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syntax-highlighting 6.9.0-1"
-version = "6.9.0-1"
+title = "syntax-highlighting 6.10.0-1"
+version = "6.10.0-1"
 description = "Syntax highlighting Engine for Structured Text and Code"
-date = "2024-12-16T11:55:09"
+date = "2025-01-10T13:24:55"
 aliases = "/packages/218944"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1458616"
-usize = "2320560"
-sha1sum = "297f44b8befd1669a9bf860a1b2150e45d9838ff"
+size = "1465664"
+usize = "2345448"
+sha1sum = "ffa4b0cbdb6b9a52c4c16a42002087994857cd31"
 depends = "['qt6-base>=6.8.1']"
 reverse_depends = "['drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'ktexteditor', 'neochat']"
 +++
@@ -47,12 +47,12 @@ Syntax highlighting Engine for Structured Text and Code
 * /usr/lib/cmake/KF6SyntaxHighlighting/KF6SyntaxHighlightingTargets.cmake
 * /usr/lib/libKF6SyntaxHighlighting.so
 * /usr/lib/libKF6SyntaxHighlighting.so.6
-* /usr/lib/libKF6SyntaxHighlighting.so.6.9.0
+* /usr/lib/libKF6SyntaxHighlighting.so.6.10.0
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/kquicksyntaxhighlightingplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/libkquicksyntaxhighlightingplugin.so
 * /usr/lib/qt6/qml/org/kde/syntaxhighlighting/qmldir
-* /usr/share/doc/syntax-highlighting-6.9.0/README.md
+* /usr/share/doc/syntax-highlighting-6.10.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/syntaxhighlighting6_qt.qm
@@ -116,6 +116,7 @@ Syntax highlighting Engine for Structured Text and Code
 * /usr/share/locale/pt_BR/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/syntaxhighlighting6_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/se/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/si/LC_MESSAGES/syntaxhighlighting6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/syntaxhighlighting6_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwindowsystem 6.9.0-1"
-version = "6.9.0-1"
+title = "kwindowsystem 6.10.0-1"
+version = "6.10.0-1"
 description = "KDE Access to window manager."
-date = "2024-12-16T11:46:15"
+date = "2025-01-10T13:15:46"
 aliases = "/packages/218365"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "208916"
-usize = "807042"
-sha1sum = "1bbb3ec279a091b4594c330655a91c3c995591a5"
+size = "208636"
+usize = "805997"
+sha1sum = "80a7183ad2ad2c04f627fc97ee038153fe8d6f99"
 depends = "['qt6-wayland>=6.8.1', 'xcb-util-keysyms>=0.4.0-3']"
 reverse_depends = "['audiotube', 'breeze', 'dolphin', 'kauth', 'kcrash', 'keysmith', 'krecorder', 'kstatusnotifieritem', 'kwin', 'libksysguard', 'pinentry-qt6', 'plasma-browser-integration', 'plasmatube', 'qmlkonsole', 'wacomtablet', 'xwaylandvideobridge']"
 +++
@@ -60,7 +60,7 @@ KDE Access to window manager.
 * /usr/lib/cmake/KF6WindowSystem/KF6WindowSystemTargets.cmake
 * /usr/lib/libKF6WindowSystem.so
 * /usr/lib/libKF6WindowSystem.so.6
-* /usr/lib/libKF6WindowSystem.so.6.9.0
+* /usr/lib/libKF6WindowSystem.so.6.10.0
 * /usr/lib/pkgconfig/KF6WindowSystem.pc
 * /usr/lib/qt6/plugins/kf6/kwindowsystem/KF6WindowSystemKWaylandPlugin.so
 * /usr/lib/qt6/plugins/kf6/kwindowsystem/KF6WindowSystemX11Plugin.so
@@ -68,7 +68,7 @@ KDE Access to window manager.
 * /usr/lib/qt6/qml/org/kde/kwindowsystem/KWindowSystem.qmltypes
 * /usr/lib/qt6/qml/org/kde/kwindowsystem/libKWindowSystem.so
 * /usr/lib/qt6/qml/org/kde/kwindowsystem/qmldir
-* /usr/share/doc/kwindowsystem-6.9.0/README.md
+* /usr/share/doc/kwindowsystem-6.10.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kwindowsystem6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kwindowsystem6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kwindowsystem6_qt.qm

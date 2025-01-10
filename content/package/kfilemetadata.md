@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfilemetadata 6.9.0-1"
-version = "6.9.0-1"
+title = "kfilemetadata 6.10.0-1"
+version = "6.10.0-1"
 description = "A library for extracting file metadata."
-date = "2024-12-16T12:21:10"
+date = "2025-01-10T13:56:33"
 aliases = "/packages/221312"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "220360"
-usize = "1205530"
-sha1sum = "18ff884a76662e9ced08cca4d693692916c2f6a3"
-depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive>=6.9.0', 'kcoreaddons>=6.9.0', 'kdegraphics-mobipocket', 'ki18n>=6.9.0', 'libappimage', 'poppler-qt6>=24.11.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
+size = "222824"
+usize = "1230637"
+sha1sum = "46a085bbcc29bbe312f70ccf0f97063c99ae4bd9"
+depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive>=6.10.0', 'kcoreaddons>=6.10.0', 'kdegraphics-mobipocket', 'ki18n>=6.10.0', 'libappimage', 'poppler-qt6>=24.11.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['ark', 'baloo', 'digikam', 'dolphin', 'itinerary', 'k3b', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++
 ### Description: 
@@ -58,7 +58,7 @@ A library for extracting file metadata.
 * /usr/lib/cmake/KF6FileMetaData/KF6FileMetaDataTargets.cmake
 * /usr/lib/libKF6FileMetaData.so
 * /usr/lib/libKF6FileMetaData.so.3
-* /usr/lib/libKF6FileMetaData.so.6.9.0
+* /usr/lib/libKF6FileMetaData.so.6.10.0
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_appimageextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_epubextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_exiv2extractor.so
@@ -77,7 +77,7 @@ A library for extracting file metadata.
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_taglibextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_xmlextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/writers/kfilemetadata_taglibwriter.so
-* /usr/share/doc/kfilemetadata-6.9.0/README.md
+* /usr/share/doc/kfilemetadata-6.10.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/az/LC_MESSAGES/kfilemetadata6.mo
@@ -99,6 +99,7 @@ A library for extracting file metadata.
 * /usr/share/locale/gd/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/he/LC_MESSAGES/kfilemetadata6.mo
+* /usr/share/locale/hi/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/hu/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/id/LC_MESSAGES/kfilemetadata6.mo
@@ -120,6 +121,7 @@ A library for extracting file metadata.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ro/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kfilemetadata6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/sl/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/sr/LC_MESSAGES/kfilemetadata6.mo

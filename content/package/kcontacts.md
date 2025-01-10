@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcontacts 6.9.0-1"
-version = "6.9.0-1"
+title = "kcontacts 6.10.0-1"
+version = "6.10.0-1"
 description = "Address book API for KDE"
-date = "2024-12-16T12:22:15"
+date = "2025-01-10T13:57:36"
 aliases = "/packages/220115"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "293292"
-usize = "1401871"
-sha1sum = "59f02f45a9081c2a467456aeb4386f8626e50417"
-depends = "['kcodecs>=6.9.0', 'kconfig>=6.9.0', 'kcoreaddons>=6.9.0', 'ki18n>=6.9.0']"
+size = "293760"
+usize = "1413784"
+sha1sum = "cf5e5ab168c156f6be1eb63a4b7fec36e5bdec1c"
+depends = "['kcodecs>=6.10.0', 'kconfig>=6.10.0', 'kcoreaddons>=6.10.0', 'ki18n>=6.10.0']"
 reverse_depends = "['akonadi-contacts', 'kitinerary', 'kpeople', 'kpeoplevcard', 'ktnef', 'libkgapi']"
 +++
 ### Description: 
@@ -88,12 +88,12 @@ Address book API for KDE
 * /usr/lib/cmake/KF6Contacts/KF6ContactsTargets.cmake
 * /usr/lib/libKF6Contacts.so
 * /usr/lib/libKF6Contacts.so.6
-* /usr/lib/libKF6Contacts.so.6.9.0
+* /usr/lib/libKF6Contacts.so.6.10.0
 * /usr/lib/qt6/qml/org/kde/contacts/kcontactsqml.qmltypes
 * /usr/lib/qt6/qml/org/kde/contacts/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/contacts/libkcontactsqml.so
 * /usr/lib/qt6/qml/org/kde/contacts/qmldir
-* /usr/share/doc/kcontacts-6.9.0/README.md
+* /usr/share/doc/kcontacts-6.10.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/az/LC_MESSAGES/kcontacts6.mo
@@ -142,6 +142,7 @@ Address book API for KDE
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcontacts6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/se/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcontacts6.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcontacts6.mo

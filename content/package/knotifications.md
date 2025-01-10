@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifications 6.9.0-1"
-version = "6.9.0-1"
+title = "knotifications 6.10.0-1"
+version = "6.10.0-1"
 description = "KDE Desktop notifications."
-date = "2024-12-16T12:15:19"
+date = "2025-01-10T13:46:13"
 aliases = "/packages/218337"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "106476"
-usize = "365445"
-sha1sum = "7e1d82a116432ce592a2774c6c760712448948e4"
-depends = "['kiconthemes>=6.9.0', 'kservice>=6.9.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.8.1']"
+size = "106208"
+usize = "364331"
+sha1sum = "2d2ea8997b4c0a1a4093b2f5c116c97ec7878846"
+depends = "['kiconthemes>=6.10.0', 'kservice>=6.10.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.8.1']"
 reverse_depends = "['calindori', 'dolphin', 'francis', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmix', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'plasma-browser-integration', 'plasma5support', 'tokodon', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -34,12 +34,12 @@ KDE Desktop notifications.
 * /usr/lib/cmake/KF6Notifications/KF6NotificationsTargets.cmake
 * /usr/lib/libKF6Notifications.so
 * /usr/lib/libKF6Notifications.so.6
-* /usr/lib/libKF6Notifications.so.6.9.0
+* /usr/lib/libKF6Notifications.so.6.10.0
 * /usr/lib/qt6/qml/org/kde/notification/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/notification/knotificationqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/notification/libknotificationqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/notification/qmldir
-* /usr/share/doc/knotifications-6.9.0/README.md
+* /usr/share/doc/knotifications-6.10.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/knotifications6_qt.qm
@@ -115,6 +115,7 @@ KDE Desktop notifications.
 * /usr/share/locale/pt_BR/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/knotifications6_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/se/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/si/LC_MESSAGES/knotifications6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/knotifications6_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcoreaddons 6.9.0-1"
-version = "6.9.0-1"
+title = "kcoreaddons 6.10.0-1"
+version = "6.10.0-1"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2024-12-16T12:02:55"
+date = "2025-01-10T13:32:30"
 aliases = "/packages/218286"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "465472"
-usize = "2017815"
-sha1sum = "12e38cfca40b989da7898a4a2f91bcf0fc6e2eb6"
+size = "470132"
+usize = "2045752"
+sha1sum = "507b08bafc77558b7be9a328b5171b0f0d4d410b"
 depends = "['qt6-base>=6.8.1', 'shared-mime-info']"
 reverse_depends = "['accessibility-inspector', 'alligator', 'audex', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'francis', 'isoimagewriter', 'kalk', 'kalm', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdiff3', 'kfilemetadata', 'kglobalacceld', 'kirigami-addons', 'kjournald', 'kongress', 'kontrast', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'skanlite', 'skladnik', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
@@ -98,12 +98,12 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsTargets.cmake
 * /usr/lib/libKF6CoreAddons.so
 * /usr/lib/libKF6CoreAddons.so.6
-* /usr/lib/libKF6CoreAddons.so.6.9.0
+* /usr/lib/libKF6CoreAddons.so.6.10.0
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/qmldir
-* /usr/share/doc/kcoreaddons-6.9.0/README.md
+* /usr/share/doc/kcoreaddons-6.10.0/README.md
 * /usr/share/kf6/jsonschema/kpluginmetadata.schema.json
 * /usr/share/locale/af/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcoreaddons6_qt.qm
@@ -162,6 +162,7 @@ Utilities for core application functionality and accessing the OS.
 * /usr/share/locale/ko/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/ku/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/lb/LC_MESSAGES/kcoreaddons6_qt.qm
+* /usr/share/locale/lg/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/lt/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/lv/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/mai/LC_MESSAGES/kcoreaddons6_qt.qm
