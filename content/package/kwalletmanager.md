@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwalletmanager 24.12.0-1"
-version = "24.12.0-1"
+title = "kwalletmanager 24.12.1-1"
+version = "24.12.1-1"
 description = "Passwords managing tool."
-date = "2024-12-13T09:54:44"
+date = "2025-01-10T20:07:51"
 aliases = "/packages/200641"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1200272"
-usize = "2885326"
-sha1sum = "32fa700cd88a7b47ae48821eaea80adc653ec50b"
-depends = "['kstatusnotifieritem>=6.8.0']"
+size = "1200564"
+usize = "2886222"
+sha1sum = "f0d29be03ba9b1c11a87d8550dc62b90bdd87efb"
+depends = "['kstatusnotifieritem>=6.10.0']"
 +++
 ### Description: 
 Passwords managing tool.
@@ -88,7 +88,7 @@ Passwords managing tool.
 * /usr/share/doc/HTML/uk/kwalletmanager/kwalletmanager.png
 * /usr/share/doc/HTML/uk/kwalletmanager/openwallet-request.png
 * /usr/share/doc/HTML/uk/kwalletmanager/save-login-information.png
-* /usr/share/doc/kwalletmanager-24.12.0/TODO
+* /usr/share/doc/kwalletmanager-24.12.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager.png
 * /usr/share/icons/hicolor/128x128/apps/kwalletmanager2.png
 * /usr/share/icons/hicolor/16x16/apps/kwalletmanager.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksmtp 24.12.0-1"
-version = "24.12.0-1"
+title = "ksmtp 24.12.1-1"
+version = "24.12.1-1"
 description = "Job-based library to send email through an SMTP server."
-date = "2024-12-13T10:00:50"
+date = "2025-01-10T20:14:22"
 aliases = "/packages/219529"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "58280"
-usize = "215699"
-sha1sum = "ee50dfc1c8bf7f8e72ef1906fbdce79186bcc8bc"
-depends = "['cyrus-sasl', 'kcoreaddons>=6.8.0', 'kio>=6.8.0', 'kmime>=24.12.0', 'pcre2']"
+size = "58192"
+usize = "215686"
+sha1sum = "f055b3e867aeb565aefdc51597928708d50c5e03"
+depends = "['cyrus-sasl', 'kcoreaddons>=6.10.0', 'kio>=6.10.0', 'kmime>=24.12.1', 'pcre2']"
 reverse_depends = "['kmailtransport']"
 +++
 ### Description: 
@@ -36,7 +36,7 @@ Job-based library to send email through an SMTP server.
 * /usr/lib/cmake/KPim6SMTP/KPim6SMTPTargets.cmake
 * /usr/lib/libKPim6SMTP.so
 * /usr/lib/libKPim6SMTP.so.6
-* /usr/lib/libKPim6SMTP.so.6.3.0
+* /usr/lib/libKPim6SMTP.so.6.3.1
 * /usr/share/locale/ar/LC_MESSAGES/libksmtp6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libksmtp6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libksmtp6.mo
