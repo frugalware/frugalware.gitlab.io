@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khelpcenter 24.12.0-1"
-version = "24.12.0-1"
+title = "khelpcenter 24.12.1-1"
+version = "24.12.1-1"
 description = "Application to show KDE Applications documentation."
-date = "2024-12-13T09:21:17"
+date = "2025-01-10T15:56:07"
 aliases = "/packages/221317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3651792"
-usize = "7052413"
-sha1sum = "d02f86a215924124abf3428862fab1dfef2f78b4"
-depends = "['kcmutils>=6.8.0', 'ktexttemplate>=6.8.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
+size = "3651940"
+usize = "7051933"
+sha1sum = "46c1a7c680a182722471dcff0a043c617c7a1668"
+depends = "['kcmutils>=6.10.0', 'ktexttemplate>=6.10.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
 +++
 ### Description: 
 Application to show KDE Applications documentation.
@@ -301,7 +301,7 @@ Application to show KDE Applications documentation.
 * /usr/share/doc/HTML/uk/khelpcenter/index.docbook
 * /usr/share/doc/HTML/uk/onlinehelp/index.cache.bz2
 * /usr/share/doc/HTML/uk/onlinehelp/index.docbook
-* /usr/share/doc/khelpcenter-24.12.0/README.metadata
+* /usr/share/doc/khelpcenter-24.12.1/README.metadata
 * /usr/share/khelpcenter/glossary.xslt
 * /usr/share/khelpcenter/plugins/Applications/.directory
 * /usr/share/khelpcenter/plugins/fundamentals.desktop

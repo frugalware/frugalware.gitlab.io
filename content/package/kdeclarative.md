@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeclarative 6.9.0-1"
-version = "6.9.0-1"
+title = "kdeclarative 6.10.0-1"
+version = "6.10.0-1"
 description = "Integration of QML and KDE workspaces."
-date = "2024-12-16T12:44:26"
+date = "2025-01-10T15:36:51"
 aliases = "/packages/218294"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "142300"
-usize = "648722"
-sha1sum = "e9fe2f5b366697af6671ff5063e26bcbc8f3f83e"
-depends = "['kio>=6.9.0', 'kpackage>=6.9.0', 'libepoxy>=1.3.1-6']"
+size = "154916"
+usize = "755210"
+sha1sum = "9e4cb074db1986f45bbaa16c10f9c15be14912bc"
+depends = "['kio>=6.10.0', 'kpackage>=6.10.0', 'libepoxy>=1.3.1-6']"
 reverse_depends = "['blinken', 'colord-kde', 'discover', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'kwin', 'libkdegames', 'plasma-disks', 'plasma-pa', 'plasma-systemmonitor', 'plasma-workspace', 'purpose', 'sddm-kcm', 'spectacle', 'systemsettings']"
 +++
 ### Description: 
@@ -28,7 +28,9 @@ Integration of QML and KDE workspaces.
 * /usr/lib/cmake/KF6Declarative/KF6DeclarativeTargets.cmake
 * /usr/lib/libKF6CalendarEvents.so
 * /usr/lib/libKF6CalendarEvents.so.6
-* /usr/lib/libKF6CalendarEvents.so.6.9.0
+* /usr/lib/libKF6CalendarEvents.so.6.10.0
+* /usr/lib/libkquickcontrolsprivate.so.0
+* /usr/lib/libkquickcontrolsprivate.so.6.10.0
 * /usr/lib/qt6/qml/org/kde/draganddrop/draganddropplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/draganddrop/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/draganddrop/libdraganddropplugin.so
@@ -40,15 +42,20 @@ Integration of QML and KDE workspaces.
 * /usr/lib/qt6/qml/org/kde/graphicaleffects/libgraphicaleffects.so
 * /usr/lib/qt6/qml/org/kde/graphicaleffects/qmldir
 * /usr/lib/qt6/qml/org/kde/kquickcontrols/ColorButton.qml
+* /usr/lib/qt6/qml/org/kde/kquickcontrols/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kquickcontrols/KeySequenceItem.qml
+* /usr/lib/qt6/qml/org/kde/kquickcontrols/kquickcontrols.qmltypes
+* /usr/lib/qt6/qml/org/kde/kquickcontrols/libkquickcontrols.so
 * /usr/lib/qt6/qml/org/kde/kquickcontrols/qmldir
 * /usr/lib/qt6/qml/org/kde/kquickcontrolsaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kquickcontrolsaddons/kquickcontrolsaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kquickcontrolsaddons/libkquickcontrolsaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/kquickcontrolsaddons/qmldir
+* /usr/lib/qt6/qml/org/kde/private/kquickcontrols/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/private/kquickcontrols/kquickcontrolsprivate.qmltypes
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/qmldir
-* /usr/share/doc/kdeclarative-6.9.0/README.md
+* /usr/share/doc/kdeclarative-6.10.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdeclarative6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdeclarative6.mo
 * /usr/share/locale/as/LC_MESSAGES/kdeclarative6.mo

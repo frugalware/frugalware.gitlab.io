@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kstatusnotifieritem 6.9.0-1"
-version = "6.9.0-1"
+title = "kstatusnotifieritem 6.10.0-1"
+version = "6.10.0-1"
 description = "Status Notifier Items"
-date = "2024-12-16T12:54:19"
+date = "2025-01-10T15:46:13"
 aliases = "/packages/221402"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "108788"
-usize = "378971"
-sha1sum = "2384652889af8867d81e0375423fa2dda55cb2bf"
-depends = "['kwindowsystem>=6.9.0']"
+size = "108944"
+usize = "378651"
+sha1sum = "bbe7d2b7a7ee4c45bb83694ffb3a064f24ecfabd"
+depends = "['kwindowsystem>=6.10.0']"
 reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmix', 'kmousetool', 'konversation', 'krdc', 'krdp', 'krfb', 'kruler', 'krusader', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'spectacle', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ Status Notifier Items
 * /usr/lib/cmake/KF6StatusNotifierItem/KF6StatusNotifierItemTargets.cmake
 * /usr/lib/libKF6StatusNotifierItem.so
 * /usr/lib/libKF6StatusNotifierItem.so.6
-* /usr/lib/libKF6StatusNotifierItem.so.6.9.0
+* /usr/lib/libKF6StatusNotifierItem.so.6.10.0
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierItem.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierWatcher.xml
 * /usr/share/locale/ar/LC_MESSAGES/kstatusnotifieritem6_qt.qm
@@ -46,6 +46,7 @@ Status Notifier Items
 * /usr/share/locale/fr/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/kstatusnotifieritem6_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/kstatusnotifieritem6_qt.qm

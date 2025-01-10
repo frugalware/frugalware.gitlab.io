@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktexteditor 6.9.0-1"
-version = "6.9.0-1"
+title = "ktexteditor 6.10.0-1"
+version = "6.10.0-1"
 description = "Provides a powerful text editor component."
-date = "2024-12-16T12:48:19"
+date = "2025-01-10T15:40:35"
 aliases = "/packages/218354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2684128"
-usize = "13826190"
-sha1sum = "24b870659c24f55f83cc5d845368ca87de89d486"
-depends = "['editorconfig-core-c', 'kparts>=6.9.0', 'libgit2>=1.3.0', 'syntax-highlighting>=6.9.0']"
+size = "2706508"
+usize = "14100840"
+sha1sum = "dc93717a3c1fd6bb5c38750147b59b24dd0b410c"
+depends = "['editorconfig-core-c', 'kparts>=6.10.0', 'libgit2>=1.3.0', 'syntax-highlighting>=6.10.0']"
 reverse_depends = "['akregator', 'cantor', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kdevelop', 'kile', 'kmail-account-wizard', 'kompare', 'kpimtextedit', 'plasma-sdk', 'plasma-workspace', 'rkward']"
 +++
 ### Description: 
@@ -78,11 +78,11 @@ Provides a powerful text editor component.
 * /usr/lib/kauth/kf6/kauth/kauth_ktexteditor_helper
 * /usr/lib/libKF6TextEditor.so
 * /usr/lib/libKF6TextEditor.so.6
-* /usr/lib/libKF6TextEditor.so.6.9.0
+* /usr/lib/libKF6TextEditor.so.6.10.0
 * /usr/lib/qt6/plugins/kf6/parts/katepart.so
 * /usr/share/dbus-1/system-services/org.kde.ktexteditor6.katetextbuffer.service
 * /usr/share/dbus-1/system.d/org.kde.ktexteditor6.katetextbuffer.conf
-* /usr/share/doc/ktexteditor-6.9.0/README.md
+* /usr/share/doc/ktexteditor-6.10.0/README.md
 * /usr/share/kdevappwizard/templates/ktexteditor6-plugin.tar.bz2
 * /usr/share/locale/af/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktexteditor6.mo
@@ -147,6 +147,7 @@ Provides a powerful text editor component.
 * /usr/share/locale/pt_BR/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/ro/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/ru/LC_MESSAGES/ktexteditor6.mo
+* /usr/share/locale/sa/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/se/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/si/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/sk/LC_MESSAGES/ktexteditor6.mo

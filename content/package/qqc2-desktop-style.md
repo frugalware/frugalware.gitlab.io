@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.9.0-1"
-version = "6.9.0-1"
+title = "qqc2-desktop-style 6.10.0-1"
+version = "6.10.0-1"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-12-16T12:50:39"
+date = "2025-01-10T15:42:45"
 aliases = "/packages/219485"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "433692"
-usize = "2432778"
-sha1sum = "7be64fb0c0436403075f141b567ff8085238f6a2"
-depends = "['kconfigwidgets>=6.9.0', 'kiconthemes>=6.9.0', 'kirigami>=6.9.0']"
+size = "433164"
+usize = "2436285"
+sha1sum = "6eb7ce4d60dda186f54702753ef2bb14caedf7d2"
+depends = "['kconfigwidgets>=6.10.0', 'kiconthemes>=6.10.0', 'kirigami>=6.10.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
@@ -94,7 +94,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.9.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.10.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
@@ -109,6 +109,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/share/locale/fr/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/qqc2desktopstyle_qt.qm
@@ -120,6 +121,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/share/locale/pl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/sv/LC_MESSAGES/qqc2desktopstyle_qt.qm
