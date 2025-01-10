@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbreakout 24.12.0-1"
-version = "24.12.0-1"
+title = "kbreakout 24.12.1-1"
+version = "24.12.1-1"
 description = "A Breakout-like game."
-date = "2024-12-13T10:22:37"
+date = "2025-01-10T20:36:57"
 aliases = "/packages/184178"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3083648"
-usize = "3661715"
-sha1sum = "819c4c981c30288ce2e154d79c635e87e60c9d5e"
-depends = "['libkdegames>=24.12.0', 'qt6-svg>=6.8.1']"
+size = "3083684"
+usize = "3661354"
+sha1sum = "48062a1f28f8eaacc695d77b6e09dfc698022a68"
+depends = "['libkdegames>=24.12.1', 'qt6-svg>=6.8.1']"
 +++
 ### Description: 
 A Breakout-like game.
@@ -72,7 +72,7 @@ A Breakout-like game.
 * /usr/share/doc/HTML/uk/kbreakout/gameboard.png
 * /usr/share/doc/HTML/uk/kbreakout/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbreakout/index.docbook
-* /usr/share/doc/kbreakout-24.12.0/TODO
+* /usr/share/doc/kbreakout-24.12.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbreakout.png
 * /usr/share/icons/hicolor/16x16/apps/kbreakout.png
 * /usr/share/icons/hicolor/22x22/apps/kbreakout.png

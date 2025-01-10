@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 24.12.0-1"
-version = "24.12.0-1"
+title = "mimetreeparser 24.12.1-1"
+version = "24.12.1-1"
 description = "Parser for MIME trees"
-date = "2024-12-13T10:06:32"
+date = "2025-01-10T20:20:28"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "215880"
-usize = "959560"
-sha1sum = "e89f5e3f39d1e85177c62d18e1f8327122206ddf"
-depends = "['kcalendarcore>=6.8.0', 'kcodecs>=6.8.0', 'ki18n>=6.8.0', 'kmbox>=24.12.0', 'kmime>=24.12.0', 'libkleo>=24.12.0']"
+size = "216988"
+usize = "962507"
+sha1sum = "2d5bad917ad91b051f00afc4a660ca0cd55b0b2c"
+depends = "['kcalendarcore>=6.10.0', 'kcodecs>=6.10.0', 'ki18n>=6.10.0', 'kmbox>=24.12.1', 'kmime>=24.12.1', 'libkleo>=24.12.1']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -58,10 +58,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.3.0
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.3.1
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.3.0
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.3.1
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -78,7 +78,7 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.12.0/README.md
+* /usr/share/doc/mimetreeparser-24.12.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcalutils 24.12.0-1"
-version = "24.12.0-1"
+title = "kcalutils 24.12.1-1"
+version = "24.12.1-1"
 description = "The KDE calendar utility library"
-date = "2024-12-13T10:02:43"
+date = "2025-01-10T20:16:19"
 aliases = "/packages/218279"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "288444"
-usize = "1944435"
-sha1sum = "a8fd8d50d6ea5ab3990c11dc37cc11b13c428147"
-depends = "['kcalendarcore>=6.8.0', 'kidentitymanagement>=24.12.0']"
+size = "288540"
+usize = "1944167"
+sha1sum = "94edf4b313b540b63c404a6447b2d7d41c0cd663"
+depends = "['kcalendarcore>=6.10.0', 'kidentitymanagement>=24.12.1']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'ktnef']"
 +++
 ### Description: 
@@ -38,10 +38,10 @@ The KDE calendar utility library
 * /usr/lib/cmake/KPim6CalendarUtils/KPim6CalendarUtilsTargets.cmake
 * /usr/lib/libKPim6CalendarUtils.so
 * /usr/lib/libKPim6CalendarUtils.so.6
-* /usr/lib/libKPim6CalendarUtils.so.6.3.0
+* /usr/lib/libKPim6CalendarUtils.so.6.3.1
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/kcalendar_grantlee_plugin.so
-* /usr/share/doc/kcalutils-24.12.0/README.md
-* /usr/share/doc/kcalutils-24.12.0/README.md.license
+* /usr/share/doc/kcalutils-24.12.1/README.md
+* /usr/share/doc/kcalutils-24.12.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkcalutils6.mo
