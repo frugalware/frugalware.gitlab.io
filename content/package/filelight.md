@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "filelight 24.12.0-1"
-version = "24.12.0-1"
+title = "filelight 24.12.1-1"
+version = "24.12.1-1"
 description = "View disk usage information."
-date = "2024-12-13T09:26:31"
+date = "2025-01-10T18:38:37"
 aliases = "/packages/153203"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "756480"
-usize = "1516428"
-sha1sum = "6da7a18e65e1e12020497ec93b528106196b0143"
-depends = "['kdeclarative>=6.8.0', 'kirigami-addons', 'kparts>=6.8.0', 'qqc2-desktop-style>=6.8.0']"
+size = "756264"
+usize = "1517137"
+sha1sum = "0b080c45a11d8549692d99e43fed6995461413af"
+depends = "['kdeclarative>=6.10.0', 'kirigami-addons', 'kparts>=6.10.0', 'qqc2-desktop-style>=6.10.0']"
 +++
 ### Description: 
 View disk usage information.
@@ -20,9 +20,9 @@ View disk usage information.
 * /etc/xdg/filelightrc
 * /usr/bin/filelight
 * /usr/share/applications/org.kde.filelight.desktop
-* /usr/share/doc/filelight-24.12.0/AUTHORS
-* /usr/share/doc/filelight-24.12.0/README.md
-* /usr/share/doc/filelight-24.12.0/TODO
+* /usr/share/doc/filelight-24.12.1/AUTHORS
+* /usr/share/doc/filelight-24.12.1/README.md
+* /usr/share/doc/filelight-24.12.1/TODO
 * /usr/share/doc/HTML/ca/filelight/index.cache.bz2
 * /usr/share/doc/HTML/ca/filelight/index.docbook
 * /usr/share/doc/HTML/de/filelight/config_appear.png

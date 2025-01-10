@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdf 24.12.0-1"
-version = "24.12.0-1"
+title = "kdf 24.12.1-1"
+version = "24.12.1-1"
 description = "KDiskFree displays the available file devices"
-date = "2024-12-13T09:41:18"
+date = "2025-01-10T18:49:58"
 aliases = "/packages/219331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "616812"
-usize = "1347767"
-sha1sum = "018a84023199f01b8841e7357a1d52093278fb5e"
-depends = "['kcmutils>=6.8.0', 'kio>=6.8.0', 'kstatusnotifieritem>=6.8.0']"
+size = "616576"
+usize = "1345947"
+sha1sum = "8c13ac56ed57f69e82dda91bd5b6a50170f586ac"
+depends = "['kcmutils>=6.10.0', 'kio>=6.10.0', 'kstatusnotifieritem>=6.10.0']"
 +++
 ### Description: 
 KDiskFree displays the available file devices
@@ -20,7 +20,7 @@ KDiskFree displays the available file devices
 * /usr/bin/kdf
 * /usr/bin/kwikdisk
 * /usr/lib/libkdfprivate.so.24
-* /usr/lib/libkdfprivate.so.24.12.0
+* /usr/lib/libkdfprivate.so.24.12.1
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdf.so
 * /usr/share/applications/kcm_kdf.desktop
 * /usr/share/applications/org.kde.kdf.desktop
