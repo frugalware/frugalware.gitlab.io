@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3116084"
 usize = "8858171"
 sha1sum = "02d534de2e7d615d5d910118b5010eee365b0e72"
-depends = "['glade', 'gtk+3', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono', 'mono>=2.8']"
+depends = "['glade', 'gtk+3', 'libxdamage>=1.1.1-3', 'libxml2>=2.7.8', 'mono>=2.8', 'mono']"
 +++
 ### Description: 
 A C# language binding for the GTK+2 toolkit
