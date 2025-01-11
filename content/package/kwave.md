@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwave 24.12.0-1"
-version = "24.12.0-1"
+title = "kwave 24.12.1-1"
+version = "24.12.1-1"
 description = "Kwave is a sound editor for KDE"
-date = "2024-12-13T15:21:58"
+date = "2025-01-11T13:51:33"
 aliases = "/packages/218945"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5352564"
-usize = "15071214"
-sha1sum = "7a670327804a86d37940136cb90f563651aa3d96"
-depends = "['audiofile', 'flac>=1.4.0', 'id3lib', 'kio>=6.8.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
+size = "5360132"
+usize = "15083687"
+sha1sum = "f8cf037a068b39de047ce1874041cfde093151e8"
+depends = "['audiofile', 'flac>=1.4.0', 'id3lib', 'kio>=6.10.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
 +++
 ### Description: 
 Kwave is a sound editor for KDE
@@ -19,9 +19,9 @@ Kwave is a sound editor for KDE
 ### Files: 
 * /usr/bin/kwave
 * /usr/lib/libkwave.so.24
-* /usr/lib/libkwave.so.24.12.0
+* /usr/lib/libkwave.so.24.12.1
 * /usr/lib/libkwavegui.so.24
-* /usr/lib/libkwavegui.so.24.12.0
+* /usr/lib/libkwavegui.so.24.12.1
 * /usr/lib/qt6/plugins/kwave/about.so
 * /usr/lib/qt6/plugins/kwave/amplifyfree.so
 * /usr/lib/qt6/plugins/kwave/band_pass.so
@@ -239,10 +239,10 @@ Kwave is a sound editor for KDE
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-sonagram-window.png
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-stringenter.png
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-volume.png
-* /usr/share/doc/kwave-24.12.0/AUTHORS
-* /usr/share/doc/kwave-24.12.0/CHANGES
-* /usr/share/doc/kwave-24.12.0/README.md
-* /usr/share/doc/kwave-24.12.0/TODO
+* /usr/share/doc/kwave-24.12.1/AUTHORS
+* /usr/share/doc/kwave-24.12.1/CHANGES
+* /usr/share/doc/kwave-24.12.1/README.md
+* /usr/share/doc/kwave-24.12.1/TODO
 * /usr/share/icons/hicolor/scalable/apps/kwave.svgz
 * /usr/share/kwave/menus.config
 * /usr/share/kwave/pics/amplify_free.png
@@ -259,6 +259,7 @@ Kwave is a sound editor for KDE
 * /usr/share/kwave/pics/sound_device.png
 * /usr/share/kwave/pics/sound_note.png
 * /usr/share/kwave/pics/sound_subdevice.png
+* /usr/share/locale/ar/LC_MESSAGES/kwave.mo
 * /usr/share/locale/bs/LC_MESSAGES/kwave.mo
 * /usr/share/locale/ca/LC_MESSAGES/kwave.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kwave.mo
