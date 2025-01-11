@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbackup 24.12.0-1"
-version = "24.12.0-1"
+title = "kbackup 24.12.1-1"
+version = "24.12.1-1"
 description = "Backup program for KDE."
-date = "2024-12-13T12:52:18"
+date = "2025-01-11T14:18:01"
 aliases = "/packages/219632"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "528276"
-usize = "1351055"
-sha1sum = "0755673c40cc12677146d7993ae21ff853a689e9"
-depends = "['karchive>=6.8.0', 'ki18n>=6.8.0', 'kiconthemes>=6.8.0', 'kio>=6.8.0', 'knotifications>=6.8.0', 'kstatusnotifieritem>=6.8.0', 'kwidgetsaddons>=6.8.0', 'kxmlgui>=6.8.0']"
+size = "528124"
+usize = "1350665"
+sha1sum = "5146e6f64ec8dfa1f37df0c6a8e6b76b73b785e4"
+depends = "['karchive>=6.10.0', 'ki18n>=6.10.0', 'kiconthemes>=6.10.0', 'kio>=6.10.0', 'knotifications>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'kwidgetsaddons>=6.10.0', 'kxmlgui>=6.10.0']"
 +++
 ### Description: 
 Backup program for KDE.
@@ -42,11 +42,11 @@ Backup program for KDE.
 * /usr/share/doc/HTML/uk/kbackup/index.cache.bz2
 * /usr/share/doc/HTML/uk/kbackup/index.docbook
 * /usr/share/doc/HTML/uk/kbackup/mainwindow.png
-* /usr/share/doc/kbackup-24.12.0/AUTHORS
-* /usr/share/doc/kbackup-24.12.0/ChangeLog
-* /usr/share/doc/kbackup-24.12.0/COPYING
-* /usr/share/doc/kbackup-24.12.0/README
-* /usr/share/doc/kbackup-24.12.0/TODO
+* /usr/share/doc/kbackup-24.12.1/AUTHORS
+* /usr/share/doc/kbackup-24.12.1/ChangeLog
+* /usr/share/doc/kbackup-24.12.1/COPYING
+* /usr/share/doc/kbackup-24.12.1/README
+* /usr/share/doc/kbackup-24.12.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kbackup.png
 * /usr/share/icons/hicolor/16x16/apps/kbackup.png
 * /usr/share/icons/hicolor/16x16/mimetypes/text-x-kbp.png
