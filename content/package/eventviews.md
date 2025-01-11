@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "eventviews 24.12.0-1"
-version = "24.12.0-1"
+title = "eventviews 24.12.1-1"
+version = "24.12.1-1"
 description = "Library for creating events."
-date = "2024-12-13T11:47:02"
+date = "2025-01-11T11:32:07"
 aliases = "/packages/218488"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "656576"
-usize = "3599475"
-sha1sum = "cfbc4c28d040168294b05b24ec060e978fde1ce0"
-depends = "['calendarsupport>=24.12.0', 'kdiagram>=3.0.1']"
+size = "656724"
+usize = "3599610"
+sha1sum = "0b6e4e953a34cef82facd9594c0b381fa88d4a96"
+depends = "['calendarsupport>=24.12.1', 'kdiagram>=3.0.1']"
 reverse_depends = "['incidenceeditor', 'merkuro']"
 +++
 ### Description: 
@@ -60,7 +60,7 @@ Library for creating events.
 * /usr/lib/cmake/KPim6EventViews/KPim6EventViewsTargets.cmake
 * /usr/lib/libKPim6EventViews.so
 * /usr/lib/libKPim6EventViews.so.6
-* /usr/lib/libKPim6EventViews.so.6.3.0
+* /usr/lib/libKPim6EventViews.so.6.3.1
 * /usr/share/locale/ar/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libeventviews6.mo

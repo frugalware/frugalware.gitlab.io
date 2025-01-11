@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin 24.12.0.1-1"
-version = "24.12.0.1-1"
+title = "dolphin 24.12.1-1"
+version = "24.12.1-1"
 description = "File Manager"
-date = "2024-12-24T15:09:14"
+date = "2025-01-11T11:43:03"
 aliases = "/packages/88149"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4678848"
-usize = "14964118"
-sha1sum = "daf6483b155d5d9d76d2673e352bfb5e302c476e"
-depends = "['baloo-widgets>=24.12.0', 'ffmpegthumbs', 'kbookmarks>=6.9.0', 'kcmutils>=6.9.0', 'kcompletion>=6.9.0', 'kconfig>=6.9.0', 'kcoreaddons>=6.9.0', 'kcrash>=6.9.0', 'kdbusaddons>=6.9.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.9.0', 'ki18n>=6.9.0', 'kiconthemes>=6.9.0', 'kio>=6.9.0', 'knewstuff>=6.9.0', 'knotifications>=6.9.0', 'kparts>=6.9.0', 'ktextwidgets>=6.9.0', 'kwindowsystem>=6.9.0', 'plasma-activities>=6.2.4', 'qt6-declarative>=6.8.1', 'solid>=6.9.0']"
+size = "4683924"
+usize = "14961312"
+sha1sum = "0bf37616651c0054face7d81cf7772f0c1317de2"
+depends = "['baloo-widgets>=24.12.1', 'ffmpegthumbs', 'kbookmarks>=6.10.0', 'kcmutils>=6.10.0', 'kcompletion>=6.10.0', 'kconfig>=6.10.0', 'kcoreaddons>=6.10.0', 'kcrash>=6.10.0', 'kdbusaddons>=6.10.0', 'kdegraphics-thumbnailers', 'kdesdk-thumbnailers', 'kfilemetadata>=6.10.0', 'ki18n>=6.10.0', 'kiconthemes>=6.10.0', 'kio>=6.10.0', 'knewstuff>=6.10.0', 'knotifications>=6.10.0', 'kparts>=6.10.0', 'ktextwidgets>=6.10.0', 'kwindowsystem>=6.10.0', 'plasma-activities>=6.2.5', 'qt6-declarative>=6.8.1', 'solid>=6.10.0']"
 reverse_depends = "['dolphin-plugins', 'kio-gdrive']"
 +++
 ### Description: 
@@ -29,10 +29,10 @@ File Manager
 * /usr/lib/cmake/DolphinVcs/DolphinVcsConfigVersion.cmake
 * /usr/lib/cmake/DolphinVcs/DolphinVcsTargets-release.cmake
 * /usr/lib/cmake/DolphinVcs/DolphinVcsTargets.cmake
-* /usr/lib/libdolphinprivate.so.24.12.0
+* /usr/lib/libdolphinprivate.so.24.12.1
 * /usr/lib/libdolphinprivate.so.6
 * /usr/lib/libdolphinvcs.so
-* /usr/lib/libdolphinvcs.so.24.12.0
+* /usr/lib/libdolphinvcs.so.24.12.1
 * /usr/lib/libdolphinvcs.so.6
 * /usr/lib/qt6/plugins/dolphin/kcms/kcm_dolphingeneral.so
 * /usr/lib/qt6/plugins/dolphin/kcms/kcm_dolphinviewmodes.so
@@ -50,9 +50,9 @@ File Manager
 * /usr/share/config.kcfg/dolphin_versioncontrolsettings.kcfg
 * /usr/share/dbus-1/interfaces/org.freedesktop.FileManager1.xml
 * /usr/share/dbus-1/services/org.kde.dolphin.FileManager1.service
-* /usr/share/doc/dolphin-24.12.0.1/COPYING
-* /usr/share/doc/dolphin-24.12.0.1/COPYING.DOC
-* /usr/share/doc/dolphin-24.12.0.1/README.md
+* /usr/share/doc/dolphin-24.12.1/COPYING
+* /usr/share/doc/dolphin-24.12.1/COPYING.DOC
+* /usr/share/doc/dolphin-24.12.1/README.md
 * /usr/share/doc/HTML/ca/dolphin/default-ui.png
 * /usr/share/doc/HTML/ca/dolphin/grouping-view.png
 * /usr/share/doc/HTML/ca/dolphin/index.cache.bz2

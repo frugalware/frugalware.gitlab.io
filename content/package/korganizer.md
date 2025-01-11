@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "korganizer 24.12.0-1"
-version = "24.12.0-1"
+title = "korganizer 24.12.1-1"
+version = "24.12.1-1"
 description = "KDE Personal Organizer."
-date = "2024-12-13T11:50:02"
+date = "2025-01-11T11:35:27"
 aliases = "/packages/218939"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2431844"
-usize = "11298518"
-sha1sum = "fab34bd3873ad0ecbb45cdbf3c38979c6844b845"
-depends = "['incidenceeditor>=24.12.0', 'kdepim-runtime>=24.12.0', 'kontactinterface>=24.12.0', 'mailcommon>=24.12.0']"
+size = "2431904"
+usize = "11335217"
+sha1sum = "1b4034e311963655b6dea1da1ef4199808bd06b8"
+depends = "['incidenceeditor>=24.12.1', 'kdepim-runtime>=24.12.1', 'kontactinterface>=24.12.1', 'mailcommon>=24.12.1']"
 +++
 ### Description: 
 KDE Personal Organizer.
@@ -19,11 +19,11 @@ KDE Personal Organizer.
 ### Files: 
 * /usr/bin/korganizer
 * /usr/lib/libkorganizerprivate.so.6
-* /usr/lib/libkorganizerprivate.so.6.3.0
+* /usr/lib/libkorganizerprivate.so.6.3.1
 * /usr/lib/libkorganizer_core.so.6
-* /usr/lib/libkorganizer_core.so.6.3.0
+* /usr/lib/libkorganizer_core.so.6.3.1
 * /usr/lib/libkorganizer_interfaces.so.6
-* /usr/lib/libkorganizer_interfaces.so.6.3.0
+* /usr/lib/libkorganizer_interfaces.so.6.3.1
 * /usr/lib/qt6/plugins/korganizerpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configcolorsandfonts.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configfreebusy.so
@@ -111,9 +111,9 @@ KDE Personal Organizer.
 * /usr/share/doc/HTML/sv/korganizer/index.docbook
 * /usr/share/doc/HTML/uk/korganizer/index.cache.bz2
 * /usr/share/doc/HTML/uk/korganizer/index.docbook
-* /usr/share/doc/korganizer-24.12.0/AUTHORS
-* /usr/share/doc/korganizer-24.12.0/README.md
-* /usr/share/doc/korganizer-24.12.0/README.md.license
+* /usr/share/doc/korganizer-24.12.1/AUTHORS
+* /usr/share/doc/korganizer-24.12.1/README.md
+* /usr/share/doc/korganizer-24.12.1/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/korg-journal.png
 * /usr/share/icons/hicolor/128x128/apps/korg-todo.png
 * /usr/share/icons/hicolor/128x128/apps/korganizer.png

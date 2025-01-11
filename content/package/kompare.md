@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kompare 24.12.0-1"
-version = "24.12.0-1"
+title = "kompare 24.12.1-1"
+version = "24.12.1-1"
 description = "Diff/Patch Frontend."
-date = "2024-12-13T12:16:07"
+date = "2025-01-11T12:03:40"
 aliases = "/packages/118450"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "921332"
-usize = "2839055"
-sha1sum = "f511ef3bd9a08e1887ee81c69e1b40cc0b6dea08"
-depends = "['ktexteditor>=6.8.0', 'libkomparediff2>=24.12.0']"
+size = "921356"
+usize = "2836810"
+sha1sum = "22565b847c4133a62845422b465dc183cdfd23cd"
+depends = "['ktexteditor>=6.10.0', 'libkomparediff2>=24.12.1']"
 +++
 ### Description: 
 Diff/Patch Frontend.
@@ -77,10 +77,10 @@ Diff/Patch Frontend.
 * /usr/share/doc/HTML/uk/kompare/settings-diff4.png
 * /usr/share/doc/HTML/uk/kompare/settings-view1.png
 * /usr/share/doc/HTML/uk/kompare/settings-view2.png
-* /usr/share/doc/kompare-24.12.0/AUTHORS
-* /usr/share/doc/kompare-24.12.0/ChangeLog
-* /usr/share/doc/kompare-24.12.0/README
-* /usr/share/doc/kompare-24.12.0/TODO
+* /usr/share/doc/kompare-24.12.1/AUTHORS
+* /usr/share/doc/kompare-24.12.1/ChangeLog
+* /usr/share/doc/kompare-24.12.1/README
+* /usr/share/doc/kompare-24.12.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kompare.png
 * /usr/share/icons/hicolor/16x16/apps/kompare.png
 * /usr/share/icons/hicolor/22x22/apps/kompare.png
