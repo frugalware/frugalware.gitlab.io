@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkgapi 24.12.0-1"
-version = "24.12.0-1"
+title = "libkgapi 24.12.1-1"
+version = "24.12.1-1"
 description = "A KDE-based library for accessing various Google services via their public API."
-date = "2024-12-13T10:57:53"
+date = "2025-01-11T10:44:16"
 aliases = "/packages/168642"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "550116"
-usize = "3205243"
-sha1sum = "766cbb85a63415a54c85eaf562f683b0fdf5acac"
-depends = "['cyrus-sasl', 'kcalendarcore>=6.8.0', 'kcontacts>=6.8.0', 'kio>=6.8.0', 'kwallet>=6.8.0', 'qt6-svg>=6.8.1', 'qt6-webengine>=6.8.1']"
+size = "549468"
+usize = "3207819"
+sha1sum = "5b487e31ec6d2d43a4f78096415c7beaef724657"
+depends = "['cyrus-sasl', 'kcalendarcore>=6.10.0', 'kcontacts>=6.10.0', 'kio>=6.10.0', 'kwallet>=6.10.0', 'qt6-svg>=6.8.1', 'qt6-webengine>=6.8.1']"
 reverse_depends = "['kdepim-runtime', 'kio-gdrive', 'kmailtransport']"
 +++
 ### Description: 
@@ -385,34 +385,34 @@ A KDE-based library for accessing various Google services via their public API.
 * /usr/lib/cmake/KPim6GAPI/KPim6GAPITargets.cmake
 * /usr/lib/libKPim6GAPIBlogger.so
 * /usr/lib/libKPim6GAPIBlogger.so.6
-* /usr/lib/libKPim6GAPIBlogger.so.6.3.0
+* /usr/lib/libKPim6GAPIBlogger.so.6.3.1
 * /usr/lib/libKPim6GAPICalendar.so
 * /usr/lib/libKPim6GAPICalendar.so.6
-* /usr/lib/libKPim6GAPICalendar.so.6.3.0
+* /usr/lib/libKPim6GAPICalendar.so.6.3.1
 * /usr/lib/libKPim6GAPICore.so
 * /usr/lib/libKPim6GAPICore.so.6
-* /usr/lib/libKPim6GAPICore.so.6.3.0
+* /usr/lib/libKPim6GAPICore.so.6.3.1
 * /usr/lib/libKPim6GAPIDrive.so
 * /usr/lib/libKPim6GAPIDrive.so.6
-* /usr/lib/libKPim6GAPIDrive.so.6.3.0
+* /usr/lib/libKPim6GAPIDrive.so.6.3.1
 * /usr/lib/libKPim6GAPILatitude.so
 * /usr/lib/libKPim6GAPILatitude.so.6
-* /usr/lib/libKPim6GAPILatitude.so.6.3.0
+* /usr/lib/libKPim6GAPILatitude.so.6.3.1
 * /usr/lib/libKPim6GAPIMaps.so
 * /usr/lib/libKPim6GAPIMaps.so.6
-* /usr/lib/libKPim6GAPIMaps.so.6.3.0
+* /usr/lib/libKPim6GAPIMaps.so.6.3.1
 * /usr/lib/libKPim6GAPIPeople.so
 * /usr/lib/libKPim6GAPIPeople.so.6
-* /usr/lib/libKPim6GAPIPeople.so.6.3.0
+* /usr/lib/libKPim6GAPIPeople.so.6.3.1
 * /usr/lib/libKPim6GAPITasks.so
 * /usr/lib/libKPim6GAPITasks.so.6
-* /usr/lib/libKPim6GAPITasks.so.6.3.0
+* /usr/lib/libKPim6GAPITasks.so.6.3.1
 * /usr/lib/sasl2/libkdexoauth2.so
 * /usr/lib/sasl2/libkdexoauth2.so.3
 * /usr/lib/sasl2/libkdexoauth2.so.3.0.0
-* /usr/share/doc/libkgapi-24.12.0/AUTHORS
-* /usr/share/doc/libkgapi-24.12.0/README.md
-* /usr/share/doc/libkgapi-24.12.0/README.md.license
+* /usr/share/doc/libkgapi-24.12.1/AUTHORS
+* /usr/share/doc/libkgapi-24.12.1/README.md
+* /usr/share/doc/libkgapi-24.12.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/bs/LC_MESSAGES/libkgapi6_qt.qm

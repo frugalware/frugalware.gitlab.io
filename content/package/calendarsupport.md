@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calendarsupport 24.12.0-1"
-version = "24.12.0-1"
+title = "calendarsupport 24.12.1-1"
+version = "24.12.1-1"
 description = "This lib provides calendar support"
-date = "2024-12-13T11:24:45"
+date = "2025-01-11T11:07:56"
 aliases = "/packages/218484"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "574504"
-usize = "3642936"
-sha1sum = "ed01670f41b1ae71045b791a2885aaa758125248"
-depends = "['akonadi>=24.12.0', 'akonadi-calendar>=24.12.0', 'kholidays>=6.8.0', 'pimcommon>=24.12.0']"
+size = "574156"
+usize = "3643012"
+sha1sum = "be22509ca0a3f3a97a40b2964d07199ba12b5d76"
+depends = "['akonadi>=24.12.1', 'akonadi-calendar>=24.12.1', 'kholidays>=6.10.0', 'pimcommon>=24.12.1']"
 reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -72,9 +72,9 @@ This lib provides calendar support
 * /usr/lib/cmake/KPim6CalendarSupport/KPim6CalendarSupportTargets.cmake
 * /usr/lib/libKPim6CalendarSupport.so
 * /usr/lib/libKPim6CalendarSupport.so.6
-* /usr/lib/libKPim6CalendarSupport.so.6.3.0
-* /usr/share/doc/calendarsupport-24.12.0/README.md
-* /usr/share/doc/calendarsupport-24.12.0/README.md.license
+* /usr/lib/libKPim6CalendarSupport.so.6.3.1
+* /usr/share/doc/calendarsupport-24.12.1/README.md
+* /usr/share/doc/calendarsupport-24.12.1/README.md.license
 * /usr/share/locale/af/LC_MESSAGES/calendarsupport6.mo
 * /usr/share/locale/ar/LC_MESSAGES/calendarsupport6.mo
 * /usr/share/locale/ast/LC_MESSAGES/calendarsupport6.mo

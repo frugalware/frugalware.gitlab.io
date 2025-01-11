@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "messagelib 24.12.0-1"
-version = "24.12.0-1"
+title = "messagelib 24.12.1-1"
+version = "24.12.1-1"
 description = "KdePim message library."
-date = "2024-12-13T11:22:00"
+date = "2025-01-11T11:05:07"
 aliases = "/packages/218480"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2645912"
-usize = "14497579"
-sha1sum = "bcdd6f7bb72372145b52678312604bbae9d11415"
-depends = "['kidentitymanagement>=24.12.0', 'kmailtransport>=24.12.0', 'ktextaddons>=1.3.1', 'libgravatar>=24.12.0', 'qca']"
+size = "2652232"
+usize = "14569658"
+sha1sum = "93687f2689a3b9dd7bd30511afe26c5e5fc59307"
+depends = "['kidentitymanagement>=24.12.1', 'kmailtransport>=24.12.1', 'ktextaddons>=1.3.1', 'libgravatar>=24.12.1', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -252,6 +252,8 @@ KdePim message library.
 * /usr/include/KPim6/MessageList/messagelist/pane.h
 * /usr/include/KPim6/MessageList/MessageList/QuickSearchLine
 * /usr/include/KPim6/MessageList/messagelist/quicksearchline.h
+* /usr/include/KPim6/MessageList/MessageList/SearchLineCommand
+* /usr/include/KPim6/MessageList/messagelist/searchlinecommand.h
 * /usr/include/KPim6/MessageList/MessageList/SearchMessageByButtons
 * /usr/include/KPim6/MessageList/messagelist/searchmessagebybuttons.h
 * /usr/include/KPim6/MessageList/MessageList/StorageModel
@@ -579,25 +581,25 @@ KdePim message library.
 * /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
 * /usr/lib/libKPim6MessageComposer.so
 * /usr/lib/libKPim6MessageComposer.so.6
-* /usr/lib/libKPim6MessageComposer.so.6.3.0
+* /usr/lib/libKPim6MessageComposer.so.6.3.1
 * /usr/lib/libKPim6MessageCore.so
 * /usr/lib/libKPim6MessageCore.so.6
-* /usr/lib/libKPim6MessageCore.so.6.3.0
+* /usr/lib/libKPim6MessageCore.so.6.3.1
 * /usr/lib/libKPim6MessageList.so
 * /usr/lib/libKPim6MessageList.so.6
-* /usr/lib/libKPim6MessageList.so.6.3.0
+* /usr/lib/libKPim6MessageList.so.6.3.1
 * /usr/lib/libKPim6MessageViewer.so
 * /usr/lib/libKPim6MessageViewer.so.6
-* /usr/lib/libKPim6MessageViewer.so.6.3.0
+* /usr/lib/libKPim6MessageViewer.so.6.3.1
 * /usr/lib/libKPim6MimeTreeParser.so
 * /usr/lib/libKPim6MimeTreeParser.so.6
-* /usr/lib/libKPim6MimeTreeParser.so.6.3.0
+* /usr/lib/libKPim6MimeTreeParser.so.6.3.1
 * /usr/lib/libKPim6TemplateParser.so
 * /usr/lib/libKPim6TemplateParser.so.6
-* /usr/lib/libKPim6TemplateParser.so.6.3.0
+* /usr/lib/libKPim6TemplateParser.so.6.3.1
 * /usr/lib/libKPim6WebEngineViewer.so
 * /usr/lib/libKPim6WebEngineViewer.so.6
-* /usr/lib/libKPim6WebEngineViewer.so.6.3.0
+* /usr/lib/libKPim6WebEngineViewer.so.6.3.1
 * /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
 * /usr/share/config.kcfg/customtemplates_kfg.kcfg
