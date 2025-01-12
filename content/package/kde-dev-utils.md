@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-dev-utils 24.12.0-1"
-version = "24.12.0-1"
+title = "kde-dev-utils 24.12.1-1"
+version = "24.12.1-1"
 description = "Developer utilities for kde."
-date = "2024-12-13T13:04:11"
+date = "2025-01-12T11:35:55"
 aliases = "/packages/219158"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "86272"
-usize = "376626"
-sha1sum = "13f9ef10fbf4955770cc607e1b2c265a95e7d0cc"
-depends = "['kparts>=6.8.0', 'qt6-tools']"
+usize = "375273"
+sha1sum = "c02c5c19989117cdac7a53f0847c769b4cd90b0b"
+depends = "['kparts>=6.10.0', 'qt6-tools']"
 +++
 ### Description: 
 Developer utilities for kde.
