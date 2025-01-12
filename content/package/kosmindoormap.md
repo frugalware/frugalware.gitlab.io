@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kosmindoormap 24.12.0-1"
-version = "24.12.0-1"
+title = "kosmindoormap 24.12.1-1"
+version = "24.12.1-1"
 description = "OSM multi-floor indoor map renderer"
-date = "2024-12-13T13:37:07"
+date = "2025-01-12T19:30:46"
 aliases = "/packages/220317"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "868184"
-usize = "3060301"
-sha1sum = "ecfb005c4bdcf65d4c3e828b1c7335529bf7e554"
-depends = "['ki18n>=6.8.0', 'kopeninghours>=24.12.0', 'kpublictransport=>24.12.0']"
+size = "869444"
+usize = "3068883"
+sha1sum = "5d61fe9c8a6226450f19629d7a41ba8bf99c3618"
+depends = "['kcoreaddons>=6.10.0', 'ki18n>=6.10.0', 'kopeninghours>=24.12.1', 'kpublictransport=>24.12.1', 'kservice>=6.10.0']"
 reverse_depends = "['itinerary', 'kongress']"
 +++
 ### Description: 
@@ -100,13 +100,13 @@ OSM multi-floor indoor map renderer
 * /usr/lib/cmake/KOSMIndoorMap/KOSMIndoorMapTargets.cmake
 * /usr/lib/libKOSM.so
 * /usr/lib/libKOSM.so.1
-* /usr/lib/libKOSM.so.24.12.0
+* /usr/lib/libKOSM.so.24.12.1
 * /usr/lib/libKOSMIndoorMap.so
 * /usr/lib/libKOSMIndoorMap.so.1
-* /usr/lib/libKOSMIndoorMap.so.24.12.0
+* /usr/lib/libKOSMIndoorMap.so.24.12.1
 * /usr/lib/libKOSMIndoorRouting.so
 * /usr/lib/libKOSMIndoorRouting.so.1
-* /usr/lib/libKOSMIndoorRouting.so.24.12.0
+* /usr/lib/libKOSMIndoorRouting.so.24.12.1
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/AmenityListDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/AmenitySearchDialog.qml
 * /usr/lib/qt6/qml/org/kde/kosmindoormap/FloorLevelSelector.qml
@@ -136,8 +136,8 @@ OSM multi-floor indoor map renderer
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/kosmeditorcontrollerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/libkosmeditorcontrollerplugin.so
 * /usr/lib/qt6/qml/org/kde/osm/editorcontroller/qmldir
-* /usr/share/doc/kosmindoormap-24.12.0/README.md
-* /usr/share/doc/kosmindoormap-24.12.0/README.md.license
+* /usr/share/doc/kosmindoormap-24.12.1/README.md
+* /usr/share/doc/kosmindoormap-24.12.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ast/LC_MESSAGES/kosmindoormap.mo
 * /usr/share/locale/ca/LC_MESSAGES/kosmindoormap.mo

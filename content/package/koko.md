@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "koko 24.12.0-1"
-version = "24.12.0-1"
+title = "koko 24.12.1-1"
+version = "24.12.1-1"
 description = "Image gallery application"
-date = "2024-12-13T13:52:30"
+date = "2025-01-12T19:45:52"
 aliases = "/packages/220982"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8049736"
-usize = "31697087"
-sha1sum = "648c674c1d933cb4098d58e5046d55d441c57f42"
+size = "8104392"
+usize = "31906301"
+sha1sum = "a89e0dbd2c0d480530ee1672922bf1686b3d22fb"
 depends = "['exiv2>=0.28.1', 'kdeclarative', 'kfilemetadata', 'kio', 'kirigami-addons', 'kquickimageeditor', 'qt6-location']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Image gallery application
 ### Files: 
 * /usr/bin/koko
 * /usr/share/applications/org.kde.koko.desktop
-* /usr/share/doc/koko-24.12.0/README.md
+* /usr/share/doc/koko-24.12.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.koko.svg
 * /usr/share/knotifications6/koko.notifyrc
 * /usr/share/koko/admin1Codes.txt
