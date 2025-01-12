@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweather 24.12.0-1"
-version = "24.12.0-1"
+title = "kweather 24.12.1-1"
+version = "24.12.1-1"
 description = "'Weather application for Plasma Mobile"
-date = "2024-12-13T14:00:08"
+date = "2025-01-12T20:15:40"
 aliases = "/packages/220988"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "400036"
-usize = "1652588"
-sha1sum = "bd26b79a1a831b6d68fccc714e18d5f7b391c62d"
+size = "400404"
+usize = "1653394"
+sha1sum = "932d5a4c1a2e27e4c3a180339e98017843dc1319"
 depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 * /usr/lib/qt6/plugins/plasma/applets/plasma_applet_kweather_1x4.so
 * /usr/share/applications/org.kde.kweather.desktop
 * /usr/share/dbus-1/services/org.kde.kweather.service
-* /usr/share/doc/kweather-24.12.0/README.md
+* /usr/share/doc/kweather-24.12.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kweather.svg
 * /usr/share/locale/ast/LC_MESSAGES/kweather.mo
 * /usr/share/locale/az/LC_MESSAGES/kweather.mo

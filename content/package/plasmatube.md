@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasmatube 24.12.0-1"
-version = "24.12.0-1"
+title = "plasmatube 24.12.1-1"
+version = "24.12.1-1"
 description = "Kirigami YouTube video player based on QtMultimedia and youtube-dl"
-date = "2024-12-13T14:05:21"
+date = "2025-01-12T20:21:04"
 aliases = "/packages/220991"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "486436"
-usize = "2367252"
-sha1sum = "b8448f18ffc8418036b4704f82229d11cf8bbff4"
+size = "487168"
+usize = "2370948"
+sha1sum = "750eaa7363d647f673deccfe717d87e4fdcf3b40"
 depends = "['kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'mpvqt', 'purpose', 'qt6-svg', 'qtkeychain', 'yt-dlp']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Kirigami YouTube video player based on QtMultimedia and youtube-dl
 ### Files: 
 * /usr/bin/plasmatube
 * /usr/share/applications/org.kde.plasmatube.desktop
-* /usr/share/doc/plasmatube-24.12.0/README.md
+* /usr/share/doc/plasmatube-24.12.1/README.md
 * /usr/share/icons/hicolor/scalable/actions/plasmatube-invidious.svg
 * /usr/share/icons/hicolor/scalable/actions/plasmatube-peertube.svg
 * /usr/share/icons/hicolor/scalable/actions/plasmatube-piped.svg

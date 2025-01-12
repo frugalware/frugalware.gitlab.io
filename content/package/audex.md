@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audex 24.12.0-1"
-version = "24.12.0-1"
+title = "audex 24.12.1-1"
+version = "24.12.1-1"
 description = "Tool for ripping compact discs"
-date = "2024-12-13T14:31:14"
+date = "2025-01-12T20:51:49"
 aliases = "/packages/221487"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "687296"
-usize = "2573524"
-sha1sum = "334d54b9d60d66dd477ff4f364583729812995bf"
+size = "688908"
+usize = "2578146"
+sha1sum = "a84f8e0311b2b08c3ece54994ac3797ca6d3a92a"
 depends = "['kcmutils', 'kcolorscheme', 'kcompletion', 'kconfig', 'kconfigwidgets', 'kcoreaddons', 'kcrash', 'ki18n', 'kiconthemes', 'kio', 'ktextwidgets', 'kwidgetsaddons', 'kxmlgui', 'libcdio-paranoia', 'libkcddb']"
 +++
 ### Description: 
@@ -21,8 +21,9 @@ Tool for ripping compact discs
 * /usr/share/applications/org.kde.audex.desktop
 * /usr/share/audex/images/cdcase_wo_latches.png
 * /usr/share/audex/images/latches.png
-* /usr/share/doc/audex-24.12.0/README.md
+* /usr/share/doc/audex-24.12.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.audex.svg
+* /usr/share/locale/ar/LC_MESSAGES/audex.mo
 * /usr/share/locale/ast/LC_MESSAGES/audex.mo
 * /usr/share/locale/bs/LC_MESSAGES/audex.mo
 * /usr/share/locale/ca/LC_MESSAGES/audex.mo

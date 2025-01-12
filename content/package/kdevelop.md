@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdevelop 24.12.0-1"
-version = "24.12.0-1"
+title = "kdevelop 24.12.1-1"
+version = "24.12.1-1"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2024-12-13T14:40:43"
+date = "2025-01-12T21:02:48"
 aliases = "/packages/10830"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "10480592"
-usize = "38463998"
-sha1sum = "e0b0e0701f67c5e72ae6e7aff8b2cf9b5d5f6c48"
-depends = "['kcmutils>=6.8.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.8.0', 'krunner>=6.8.0', 'ktexteditor>=6.8.0', 'ktexttemplate>=6.8.0', 'libkomparediff2', 'libksysguard>=6.2.4', 'libplasma>=6.2.4', 'qt6-tools>=6.8.1', 'subversion']"
+size = "10452708"
+usize = "38404431"
+sha1sum = "ff086a4743494297e0fb99ad6958432104144a65"
+depends = "['kcmutils>=6.10.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.10.0', 'krunner>=6.10.0', 'ktexteditor>=6.10.0', 'ktexttemplate>=6.10.0', 'libkomparediff2', 'libksysguard>=6.2.5', 'libplasma>=6.2.5', 'qt6-tools>=6.8.1', 'subversion']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
 ### Description: 
@@ -408,37 +408,37 @@ The KDevelop integrated C/C++ application development environment
 * /usr/lib/libKDevCompileAnalyzerCommon.so.61
 * /usr/lib/libKDevelopSessionsWatch.so
 * /usr/lib/libKDevPlatformDebugger.so
-* /usr/lib/libKDevPlatformDebugger.so.6.1.241200
+* /usr/lib/libKDevPlatformDebugger.so.6.1.241201
 * /usr/lib/libKDevPlatformDebugger.so.61
 * /usr/lib/libKDevPlatformDocumentation.so
-* /usr/lib/libKDevPlatformDocumentation.so.6.1.241200
+* /usr/lib/libKDevPlatformDocumentation.so.6.1.241201
 * /usr/lib/libKDevPlatformDocumentation.so.61
 * /usr/lib/libKDevPlatformInterfaces.so
-* /usr/lib/libKDevPlatformInterfaces.so.6.1.241200
+* /usr/lib/libKDevPlatformInterfaces.so.6.1.241201
 * /usr/lib/libKDevPlatformInterfaces.so.61
 * /usr/lib/libKDevPlatformLanguage.so
-* /usr/lib/libKDevPlatformLanguage.so.6.1.241200
+* /usr/lib/libKDevPlatformLanguage.so.6.1.241201
 * /usr/lib/libKDevPlatformLanguage.so.61
 * /usr/lib/libKDevPlatformOutputView.so
-* /usr/lib/libKDevPlatformOutputView.so.6.1.241200
+* /usr/lib/libKDevPlatformOutputView.so.6.1.241201
 * /usr/lib/libKDevPlatformOutputView.so.61
 * /usr/lib/libKDevPlatformProject.so
-* /usr/lib/libKDevPlatformProject.so.6.1.241200
+* /usr/lib/libKDevPlatformProject.so.6.1.241201
 * /usr/lib/libKDevPlatformProject.so.61
 * /usr/lib/libKDevPlatformSerialization.so
-* /usr/lib/libKDevPlatformSerialization.so.6.1.241200
+* /usr/lib/libKDevPlatformSerialization.so.6.1.241201
 * /usr/lib/libKDevPlatformSerialization.so.61
 * /usr/lib/libKDevPlatformShell.so
-* /usr/lib/libKDevPlatformShell.so.6.1.241200
+* /usr/lib/libKDevPlatformShell.so.6.1.241201
 * /usr/lib/libKDevPlatformShell.so.61
 * /usr/lib/libKDevPlatformSublime.so
-* /usr/lib/libKDevPlatformSublime.so.6.1.241200
+* /usr/lib/libKDevPlatformSublime.so.6.1.241201
 * /usr/lib/libKDevPlatformSublime.so.61
 * /usr/lib/libKDevPlatformUtil.so
-* /usr/lib/libKDevPlatformUtil.so.6.1.241200
+* /usr/lib/libKDevPlatformUtil.so.6.1.241201
 * /usr/lib/libKDevPlatformUtil.so.61
 * /usr/lib/libKDevPlatformVcs.so
-* /usr/lib/libKDevPlatformVcs.so.6.1.241200
+* /usr/lib/libKDevPlatformVcs.so.6.1.241201
 * /usr/lib/libKDevPlatformVcs.so.61
 * /usr/lib/qt6/plugins/kdevplatform/61/kdevandroid.so
 * /usr/lib/qt6/plugins/kdevplatform/61/kdevappwizard.so
@@ -582,10 +582,10 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/doc/HTML/sv/kdevelop/index.docbook
 * /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdevelop/index.docbook
-* /usr/share/doc/kdevelop-24.12.0/AUTHORS
-* /usr/share/doc/kdevelop-24.12.0/COPYING.DOC
-* /usr/share/doc/kdevelop-24.12.0/INSTALL
-* /usr/share/doc/kdevelop-24.12.0/README.md
+* /usr/share/doc/kdevelop-24.12.1/AUTHORS
+* /usr/share/doc/kdevelop-24.12.1/COPYING.DOC
+* /usr/share/doc/kdevelop-24.12.1/INSTALL
+* /usr/share/doc/kdevelop-24.12.1/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
 * /usr/share/icons/hicolor/128x128/apps/bazaar.png
 * /usr/share/icons/hicolor/128x128/apps/clazy.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "merkuro 24.12.0-1"
-version = "24.12.0-1"
+title = "merkuro 24.12.1-1"
+version = "24.12.1-1"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2024-12-13T14:13:23"
+date = "2025-01-12T20:29:31"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1250276"
-usize = "5497228"
-sha1sum = "2291883ab78dc41104fab5549fdb3944d78072ae"
+size = "1249500"
+usize = "5498963"
+sha1sum = "7ea72c12d6998d685e7c5c20ca852dc63c2b7fcb"
 depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ A calendar application using Akonadi to sync with external services
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail
 * /usr/lib/libMerkuroComponents.so
-* /usr/lib/libMerkuroComponents.so.24.12.0
+* /usr/lib/libMerkuroComponents.so.24.12.1
 * /usr/lib/libMerkuroComponents.so.6
 * /usr/lib/libmerkuro_contact.so
-* /usr/lib/libmerkuro_contact.so.24.12.0
+* /usr/lib/libmerkuro_contact.so.24.12.1
 * /usr/lib/libmerkuro_contact.so.6
 * /usr/lib/qt6/qml/org/kde/akonadi/AgentConfigurationForm.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/akonadi_quick_plugin.qmltypes
@@ -94,7 +94,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/applications/org.kde.merkuro.contact.desktop
 * /usr/share/applications/org.kde.merkuro.desktop
 * /usr/share/applications/org.kde.merkuro.mail.desktop
-* /usr/share/doc/merkuro-24.12.0/README.md
+* /usr/share/doc/merkuro-24.12.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png
@@ -175,6 +175,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/locale/ka/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/ko/LC_MESSAGES/merkuro.mo
+* /usr/share/locale/ko/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/lt/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo

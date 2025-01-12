@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimagemapeditor 24.12.0-1"
-version = "24.12.0-1"
+title = "kimagemapeditor 24.12.1-1"
+version = "24.12.1-1"
 description = "KImageMapEditor is an HTML imagemap editor."
-date = "2024-12-13T14:41:55"
+date = "2025-01-12T21:04:05"
 aliases = "/packages/219525"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1165932"
-usize = "2193625"
-sha1sum = "3f69cacc77368c63dcd3357bae7f46dc83a42c70"
-depends = "['kparts>=6.8.0', 'qt6-webengine>=6.8.1']"
+size = "1165092"
+usize = "2196794"
+sha1sum = "c002301df0b555adc1ad4b0df2ed5c5b47a4ae6c"
+depends = "['kparts>=6.10.0', 'qt6-webengine>=6.8.1']"
 +++
 ### Description: 
 KImageMapEditor is an HTML imagemap editor.
@@ -59,14 +59,14 @@ KImageMapEditor is an HTML imagemap editor.
 * /usr/share/doc/HTML/uk/kimagemapeditor/index.cache.bz2
 * /usr/share/doc/HTML/uk/kimagemapeditor/index.docbook
 * /usr/share/doc/HTML/uk/kimagemapeditor/mainwindow.png
-* /usr/share/doc/kimagemapeditor-24.12.0/AUTHORS
-* /usr/share/doc/kimagemapeditor-24.12.0/ChangeLog
-* /usr/share/doc/kimagemapeditor-24.12.0/COPYING
-* /usr/share/doc/kimagemapeditor-24.12.0/INSTALL
-* /usr/share/doc/kimagemapeditor-24.12.0/NEWS
-* /usr/share/doc/kimagemapeditor-24.12.0/README
-* /usr/share/doc/kimagemapeditor-24.12.0/TODO
-* /usr/share/doc/kimagemapeditor-24.12.0/VERSION
+* /usr/share/doc/kimagemapeditor-24.12.1/AUTHORS
+* /usr/share/doc/kimagemapeditor-24.12.1/ChangeLog
+* /usr/share/doc/kimagemapeditor-24.12.1/COPYING
+* /usr/share/doc/kimagemapeditor-24.12.1/INSTALL
+* /usr/share/doc/kimagemapeditor-24.12.1/NEWS
+* /usr/share/doc/kimagemapeditor-24.12.1/README
+* /usr/share/doc/kimagemapeditor-24.12.1/TODO
+* /usr/share/doc/kimagemapeditor-24.12.1/VERSION
 * /usr/share/icons/hicolor/128x128/apps/kimagemapeditor.png
 * /usr/share/icons/hicolor/16x16/apps/kimagemapeditor.png
 * /usr/share/icons/hicolor/22x22/actions/addpoint.png
