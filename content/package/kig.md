@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kig 24.12.0-2"
-version = "24.12.0-2"
+title = "kig 24.12.1-1"
+version = "24.12.1-1"
 description = "Interactive Geometry."
-date = "2025-01-05T13:25:34"
+date = "2025-01-12T22:59:07"
 aliases = "/packages/152830"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3485128"
-usize = "10898803"
-sha1sum = "ace2d3746a2e593e16ebc842f5c958a0aa65ccf6"
+size = "3506596"
+usize = "10949430"
+sha1sum = "2d895d5190ed184852a8b2aacf91f770a4a3f27e"
 depends = "['kparts5>=5.116.0', 'libboost>=1.87.0', 'python3>=3.13', 'qt5-svg>=5.15.16', 'qt5-xmlpatterns>=5.15.16']"
 +++
 ### Description: 
@@ -67,6 +67,8 @@ Interactive Geometry.
 * /usr/share/doc/HTML/es/kig/index.docbook
 * /usr/share/doc/HTML/et/kig/index.cache.bz2
 * /usr/share/doc/HTML/et/kig/index.docbook
+* /usr/share/doc/HTML/fr/kig/index.cache.bz2
+* /usr/share/doc/HTML/fr/kig/index.docbook
 * /usr/share/doc/HTML/it/kig/index.cache.bz2
 * /usr/share/doc/HTML/it/kig/index.docbook
 * /usr/share/doc/HTML/nl/kig/index.cache.bz2
@@ -94,12 +96,12 @@ Interactive Geometry.
 * /usr/share/doc/HTML/uk/kig/text_label_attaching.png
 * /usr/share/doc/HTML/uk/kig/text_label_wizard.png
 * /usr/share/doc/HTML/uk/kig/text_label_wizard__select_property.png
-* /usr/share/doc/kig-24.12.0/AUTHORS
-* /usr/share/doc/kig-24.12.0/ChangeLog
-* /usr/share/doc/kig-24.12.0/FEATURES
-* /usr/share/doc/kig-24.12.0/README.Developers
-* /usr/share/doc/kig-24.12.0/README.in
-* /usr/share/doc/kig-24.12.0/TODO
+* /usr/share/doc/kig-24.12.1/AUTHORS
+* /usr/share/doc/kig-24.12.1/ChangeLog
+* /usr/share/doc/kig-24.12.1/FEATURES
+* /usr/share/doc/kig-24.12.1/README.Developers
+* /usr/share/doc/kig-24.12.1/README.in
+* /usr/share/doc/kig-24.12.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/kig.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kig.png
 * /usr/share/icons/hicolor/16x16/apps/kig.png

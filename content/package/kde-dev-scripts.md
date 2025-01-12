@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-dev-scripts 24.12.0-1"
-version = "24.12.0-1"
+title = "kde-dev-scripts 24.12.1-1"
+version = "24.12.1-1"
 description = "Scripts and setting files useful during development of KDE software"
-date = "2024-12-13T15:18:29"
+date = "2025-01-12T22:48:04"
 aliases = "/packages/219329"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "325320"
+size = "325388"
 usize = "552506"
-sha1sum = "002627b9745c182e1b259208d912ab73ef3ff7af"
+sha1sum = "3fbb641091ad4013de6effe3214f240b9a90effd"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -80,9 +80,9 @@ Scripts and setting files useful during development of KDE software
 * /usr/bin/uncrustify-kf5
 * /usr/bin/wcgrep
 * /usr/bin/zonetab2pot.py
-* /usr/share/doc/kde-dev-scripts-24.12.0/COPYING
-* /usr/share/doc/kde-dev-scripts-24.12.0/COPYING.DOC
-* /usr/share/doc/kde-dev-scripts-24.12.0/README
+* /usr/share/doc/kde-dev-scripts-24.12.1/COPYING
+* /usr/share/doc/kde-dev-scripts-24.12.1/COPYING.DOC
+* /usr/share/doc/kde-dev-scripts-24.12.1/README
 * /usr/share/man/ca/man1/adddebug.1.gz
 * /usr/share/man/ca/man1/cheatmake.1.gz
 * /usr/share/man/ca/man1/create_cvsignore.1.gz

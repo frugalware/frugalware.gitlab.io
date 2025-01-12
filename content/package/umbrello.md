@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "umbrello 24.12.0-1"
-version = "24.12.0-1"
+title = "umbrello 24.12.1-1"
+version = "24.12.1-1"
 description = "UML Modeller."
-date = "2024-12-15T21:17:55"
+date = "2025-01-12T23:08:01"
 aliases = "/packages/220997"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "25020100"
-usize = "142947524"
-sha1sum = "bba883e06e10eb512f1d3e1192271a097fb563c8"
+size = "24160020"
+usize = "138285676"
+sha1sum = "420a32f0a2735ad3904e5a849df2c09f8a17ca76"
 depends = "['doxygen', 'ktexteditor5>=5.116.0']"
 +++
 ### Description: 
@@ -255,15 +255,15 @@ UML Modeller.
 * /usr/share/doc/HTML/uk/umbrello/user-interface-settings.png
 * /usr/share/doc/HTML/uk/umbrello/working_with_umbrello.docbook
 * /usr/share/doc/qt5/umbrello.qch
-* /usr/share/doc/umbrello-24.12.0/AUTHORS
-* /usr/share/doc/umbrello-24.12.0/ChangeLog
-* /usr/share/doc/umbrello-24.12.0/COPYING
-* /usr/share/doc/umbrello-24.12.0/COPYING.DOC
-* /usr/share/doc/umbrello-24.12.0/COPYING.LIB
-* /usr/share/doc/umbrello-24.12.0/INSTALL
-* /usr/share/doc/umbrello-24.12.0/README
-* /usr/share/doc/umbrello-24.12.0/THANKS
-* /usr/share/doc/umbrello-24.12.0/TODO
+* /usr/share/doc/umbrello-24.12.1/AUTHORS
+* /usr/share/doc/umbrello-24.12.1/ChangeLog
+* /usr/share/doc/umbrello-24.12.1/COPYING
+* /usr/share/doc/umbrello-24.12.1/COPYING.DOC
+* /usr/share/doc/umbrello-24.12.1/COPYING.LIB
+* /usr/share/doc/umbrello-24.12.1/INSTALL
+* /usr/share/doc/umbrello-24.12.1/README
+* /usr/share/doc/umbrello-24.12.1/THANKS
+* /usr/share/doc/umbrello-24.12.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/mimetypes/application-x-uml.png
@@ -2888,7 +2888,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/listpopupmenu_8h_source.html
 * /usr/share/umbrello5/apidoc/html/Mainpage_8dox.html
 * /usr/share/umbrello5/apidoc/html/main_8cpp.html
-* /usr/share/umbrello5/apidoc/html/menudata.js
 * /usr/share/umbrello5/apidoc/html/messagewidgetlist_8h.html
 * /usr/share/umbrello5/apidoc/html/messagewidgetlist_8h_source.html
 * /usr/share/umbrello5/apidoc/html/messagewidgetpropertiesdialog_8cpp.html

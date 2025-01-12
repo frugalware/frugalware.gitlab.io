@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "minuet 24.12.0-1"
-version = "24.12.0-1"
+title = "minuet 24.12.1-1"
+version = "24.12.1-1"
 description = "A KDE Software for Music Education"
-date = "2024-12-15T21:13:10"
+date = "2025-01-12T23:04:20"
 aliases = "/packages/219343"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27496520"
-usize = "33343653"
-sha1sum = "fad0976938feebbadf2ce0b64f0e796d2f36338c"
-depends = "['fluidsynth>=2.0.0', 'kcoreaddons5>=5.116.0', 'kcrash5>=5.116.0', 'ki18n5>=5.116.0', 'libkdegames>=24.12.0', 'qt5-quickcontrols2>=5.15.16', 'qt5-svg>=5.15.16']"
+size = "27488928"
+usize = "33343340"
+sha1sum = "e727c2fdffe54ee9a328bff4aa414765ea524dbc"
+depends = "['fluidsynth>=2.0.0', 'kcoreaddons5>=5.116.0', 'kcrash5>=5.116.0', 'ki18n5>=5.116.0', 'libkdegames>=24.12.1', 'qt5-quickcontrols2>=5.15.16', 'qt5-svg>=5.15.16']"
 +++
 ### Description: 
 A KDE Software for Music Education
@@ -58,9 +58,9 @@ A KDE Software for Music Education
 * /usr/share/doc/HTML/sv/minuet/index.docbook
 * /usr/share/doc/HTML/uk/minuet/index.cache.bz2
 * /usr/share/doc/HTML/uk/minuet/index.docbook
-* /usr/share/doc/minuet-24.12.0/COPYING
-* /usr/share/doc/minuet-24.12.0/COPYING.DOC
-* /usr/share/doc/minuet-24.12.0/README
+* /usr/share/doc/minuet-24.12.1/COPYING
+* /usr/share/doc/minuet-24.12.1/COPYING.DOC
+* /usr/share/doc/minuet-24.12.1/README
 * /usr/share/icons/hicolor/128x128/apps/minuet.png
 * /usr/share/icons/hicolor/128x128/apps/minuet.svg
 * /usr/share/icons/hicolor/16x16/actions/minuet-chords.svg
