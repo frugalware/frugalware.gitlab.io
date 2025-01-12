@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "partitionmanager 24.12.0-1"
-version = "24.12.0-1"
+title = "partitionmanager 24.12.1-1"
+version = "24.12.1-1"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2024-12-13T13:29:49"
+date = "2025-01-12T13:16:55"
 aliases = "/packages/118282"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2420716"
-usize = "6799586"
-sha1sum = "60277ec594ecd256a02b3203ab07f815ebeb2638"
-depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.8.0', 'kio>=6.8.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
+size = "2421768"
+usize = "6801340"
+sha1sum = "63ee388a8ce025695cd226e80361b5374744fda8"
+depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.10.0', 'kio>=6.10.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 
 A Kf5 utility that allows you to manage disks, partitions, and file systems.
@@ -240,8 +240,8 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/uk/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/usermanual.docbook
-* /usr/share/doc/partitionmanager-24.12.0/INSTALL.md
-* /usr/share/doc/partitionmanager-24.12.0/README.md
+* /usr/share/doc/partitionmanager-24.12.1/INSTALL.md
+* /usr/share/doc/partitionmanager-24.12.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/partitionmanager.svg
 * /usr/share/locale/ar/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ast/LC_MESSAGES/partitionmanager.mo

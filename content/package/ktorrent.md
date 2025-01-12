@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 24.12.0-1"
-version = "24.12.0-1"
+title = "ktorrent 24.12.1-1"
+version = "24.12.1-1"
 description = "A BitTorrent application for KDE."
-date = "2024-12-13T13:28:36"
+date = "2025-01-12T13:15:44"
 aliases = "/packages/219530"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2573344"
-usize = "12144032"
-sha1sum = "87768fca44ab8bb3c0807476e6f0fb067f7f6b42"
-depends = "['kstatusnotifieritem>=6.8.0', 'libktorrent>=24.12.0', 'plasma-workspace>=6.2.4', 'syndication']"
+size = "2584216"
+usize = "12204949"
+sha1sum = "1612668a016aeea619e64c3ab24adff07c3935ff"
+depends = "['kstatusnotifieritem>=6.10.0', 'libktorrent>=24.12.1', 'plasma-workspace>=6.2.5', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.
@@ -68,7 +68,7 @@ A BitTorrent application for KDE.
 * /usr/share/doc/HTML/uk/ktorrent/index.docbook
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.docbook
-* /usr/share/doc/ktorrent-24.12.0/ChangeLog
+* /usr/share/doc/ktorrent-24.12.1/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/ktorrent.png
 * /usr/share/icons/hicolor/16x16/actions/kt-add-feeds.png
 * /usr/share/icons/hicolor/16x16/actions/kt-add-filters.png
