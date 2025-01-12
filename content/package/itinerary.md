@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "itinerary 24.12.0-1"
-version = "24.12.0-1"
+title = "itinerary 24.12.1-1"
+version = "24.12.1-1"
 description = "Itinerary and boarding pass management application"
-date = "2024-12-13T14:46:38"
+date = "2025-01-12T21:23:13"
 aliases = "/packages/220318"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1272520"
-usize = "6328395"
-sha1sum = "fe9b599183a7e7bff4ef96fb44b28100c77f598f"
-depends = "['kfilemetadata>=6.8.0', 'khealthcertificate>=24.12.0', 'kirigami-addons', 'kitemmodels>=6.8.0', 'kitinerary>=24.12.0', 'kosmindoormap>=24.12.0', 'kunitconversion>=6.8.0', 'libquotient>=0.9.0', 'prison>=6.8.0', 'qqc2-desktop-style>=6.8.0', 'qt6-positioning>=6.8.1']"
+size = "1271440"
+usize = "6353931"
+sha1sum = "f655829d61a54c38d652a867e58a5860b8a8e827"
+depends = "['kfilemetadata>=6.10.0', 'khealthcertificate>=24.12.1', 'kirigami-addons', 'kitemmodels>=6.10.0', 'kitinerary>=24.12.1', 'kosmindoormap>=24.12.1', 'kunitconversion>=6.10.0', 'libquotient>=0.9.0', 'prison>=6.10.0', 'qqc2-desktop-style>=6.10.0', 'qt6-positioning>=6.8.1']"
 +++
 ### Description: 
 Itinerary and boarding pass management application
@@ -24,8 +24,8 @@ Itinerary and boarding pass management application
 * /usr/lib/qt6/qml/org/kde/solidextras/libsolidextrasqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/solidextras/qmldir
 * /usr/share/applications/org.kde.itinerary.desktop
-* /usr/share/doc/itinerary-24.12.0/README.md
-* /usr/share/doc/itinerary-24.12.0/README.md.license
+* /usr/share/doc/itinerary-24.12.1/README.md
+* /usr/share/doc/itinerary-24.12.1/README.md.license
 * /usr/share/icons/hicolor/scalable/apps/org.kde.itinerary.svg
 * /usr/share/knotifications6/itinerary.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kde-itinerary.mo
