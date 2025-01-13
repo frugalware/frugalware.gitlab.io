@@ -12,7 +12,7 @@ size = "52684"
 usize = "198435"
 sha1sum = "260d1c50601bdf46b3619b776cd641202c1f9064"
 depends = "['libsecret', 'qt5-base']"
-reverse_depends = "['kstars', 'mixxx']"
+reverse_depends = "['kstars']"
 +++
 ### Description: 
 qtkeychain QT5

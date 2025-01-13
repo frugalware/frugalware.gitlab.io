@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mixxx 2.4.2-3"
-version = "2.4.2-3"
+title = "mixxx 2.5.0-1"
+version = "2.5.0-1"
 description = "An open source DJ tool."
-date = "2024-12-19T11:18:36"
+date = "2025-01-13T14:43:37"
 aliases = "/packages/218622"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
-size = "13905324"
-usize = "47334420"
-sha1sum = "20ef0d5d3bccd40fda8cafa57073dbea6dd973fd"
-depends = "['chromaprint', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'portaudio', 'portmidi', 'protobuf>=29.2', 'qt5-script>=5.15.15', 'qt5-svg>=5.15.15', 'qt5-x11extras>=5.15.15', 'qtkeychain-qt5', 'rubberband', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
+size = "15051696"
+usize = "51526776"
+sha1sum = "4227938e2be7e7a400e266126e21290387d60de0"
+depends = "['chromaprint', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=29.3', 'qt6-5compat', 'qt6-shadertools', 'qt6-svg', 'qtkeychain', 'rubberband', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
 ### Description: 
 An open source DJ tool.
@@ -20,9 +20,9 @@ An open source DJ tool.
 * /usr/bin/mixxx
 * /usr/lib/udev/rules.d/69-mixxx-usb-uaccess.rules
 * /usr/share/applications/org.mixxx.Mixxx.desktop
-* /usr/share/doc/mixxx-2.4.2/COPYING
-* /usr/share/doc/mixxx-2.4.2/LICENSE
-* /usr/share/doc/mixxx-2.4.2/README.md
+* /usr/share/doc/mixxx-2.5.0/COPYING
+* /usr/share/doc/mixxx-2.5.0/LICENSE
+* /usr/share/doc/mixxx-2.5.0/README.md
 * /usr/share/doc/mixxx/COPYING
 * /usr/share/doc/mixxx/LICENSE
 * /usr/share/doc/mixxx/Mixxx-Keyboard-Shortcuts.pdf
@@ -33,6 +33,7 @@ An open source DJ tool.
 * /usr/share/icons/hicolor/512x512/apps/mixxx.png
 * /usr/share/icons/hicolor/64x64/apps/mixxx.png
 * /usr/share/icons/hicolor/scalable/apps/mixxx.svg
+* /usr/share/icons/hicolor/scalable/apps/mixxx_ios.svg
 * /usr/share/icons/hicolor/scalable/apps/mixxx_macos.svg
 * /usr/share/metainfo/org.mixxx.Mixxx.metainfo.xml
 * /usr/share/mixxx/controllers/Akai MPD24.midi.xml
@@ -68,7 +69,6 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/color-mapper-api.d.ts
 * /usr/share/mixxx/controllers/common-bulk-midi.js
 * /usr/share/mixxx/controllers/common-controller-scripts.js
-* /usr/share/mixxx/controllers/common-hid-devices.js
 * /usr/share/mixxx/controllers/common-hid-packet-parser.js
 * /usr/share/mixxx/controllers/console-api.d.ts
 * /usr/share/mixxx/controllers/CueColorsReference.svg
@@ -157,11 +157,7 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/Hercules_DJControl_Inpulse_300.midi.xml
 * /usr/share/mixxx/controllers/Hercules_DJControl_Jogvision-scripts.js
 * /usr/share/mixxx/controllers/Hercules_DJControl_Jogvision.midi.xml
-* /usr/share/mixxx/controllers/HID Keyboard.hid.xml.example
-* /usr/share/mixxx/controllers/HID Trackpad.hid.xml.example
 * /usr/share/mixxx/controllers/hid-controller-api.d.ts
-* /usr/share/mixxx/controllers/HID-Keyboard.js
-* /usr/share/mixxx/controllers/HID-Trackpad.js
 * /usr/share/mixxx/controllers/Intech TEK2.midi.xml
 * /usr/share/mixxx/controllers/Intech TEK2.scripts.js
 * /usr/share/mixxx/controllers/Ion Discover DJ.midi.xml
@@ -352,6 +348,93 @@ An open source DJ tool.
 * /usr/share/mixxx/keyboard/fr_FR.kbd.cfg
 * /usr/share/mixxx/keyboard/it_IT.kbd.cfg
 * /usr/share/mixxx/keyboard/ru_RU.kbd.cfg
+* /usr/share/mixxx/qml/AuxiliaryUnit.qml
+* /usr/share/mixxx/qml/Button.qml
+* /usr/share/mixxx/qml/ComboBox.qml
+* /usr/share/mixxx/qml/ControlButton.qml
+* /usr/share/mixxx/qml/ControlKnob.qml
+* /usr/share/mixxx/qml/ControlMiniKnob.qml
+* /usr/share/mixxx/qml/ControlSlider.qml
+* /usr/share/mixxx/qml/CrossfaderRow.qml
+* /usr/share/mixxx/qml/Deck.qml
+* /usr/share/mixxx/qml/DeckInfoBar.qml
+* /usr/share/mixxx/qml/DeckRow.qml
+* /usr/share/mixxx/qml/DeveloperToolsWindow.qml
+* /usr/share/mixxx/qml/EffectRow.qml
+* /usr/share/mixxx/qml/EffectSlot.qml
+* /usr/share/mixxx/qml/EffectUnit.qml
+* /usr/share/mixxx/qml/EmbeddedBackground.qml
+* /usr/share/mixxx/qml/EmbeddedText.qml
+* /usr/share/mixxx/qml/EqColumn.qml
+* /usr/share/mixxx/qml/EqKnob.qml
+* /usr/share/mixxx/qml/FadeBehavior.qml
+* /usr/share/mixxx/qml/FocusedWidgetControl.qml
+* /usr/share/mixxx/qml/Hotcue.qml
+* /usr/share/mixxx/qml/HotcueButton.qml
+* /usr/share/mixxx/qml/HotcuePopup.qml
+* /usr/share/mixxx/qml/images/auto@2x.png
+* /usr/share/mixxx/qml/images/button.svg
+* /usr/share/mixxx/qml/images/button_pressed.svg
+* /usr/share/mixxx/qml/images/icon_passthrough.svg
+* /usr/share/mixxx/qml/images/icon_quantize.svg
+* /usr/share/mixxx/qml/images/knob.svg
+* /usr/share/mixxx/qml/images/knob_shadow.svg
+* /usr/share/mixxx/qml/images/mark_intro.svg
+* /usr/share/mixxx/qml/images/mark_loop.svg
+* /usr/share/mixxx/qml/images/mark_outro.svg
+* /usr/share/mixxx/qml/images/miniknob.svg
+* /usr/share/mixxx/qml/images/miniknob_shadow.svg
+* /usr/share/mixxx/qml/images/realty@2x.png
+* /usr/share/mixxx/qml/images/section.svg
+* /usr/share/mixxx/qml/images/services@2x.png
+* /usr/share/mixxx/qml/images/slider_bpm.svg
+* /usr/share/mixxx/qml/images/slider_crossfader.svg
+* /usr/share/mixxx/qml/images/slider_handle.svg
+* /usr/share/mixxx/qml/images/slider_handle_crossfader.svg
+* /usr/share/mixxx/qml/images/slider_handle_micducking.svg
+* /usr/share/mixxx/qml/images/slider_micducking.svg
+* /usr/share/mixxx/qml/images/slider_volume.svg
+* /usr/share/mixxx/qml/images/work@2x.png
+* /usr/share/mixxx/qml/InfoBarButton.qml
+* /usr/share/mixxx/qml/Knob.qml
+* /usr/share/mixxx/qml/Library.qml
+* /usr/share/mixxx/qml/LibraryControl.qml
+* /usr/share/mixxx/qml/LibraryControlLoadSelectedTrackHandler.qml
+* /usr/share/mixxx/qml/main.qml
+* /usr/share/mixxx/qml/MicrophoneDuckingPanel.qml
+* /usr/share/mixxx/qml/MicrophoneUnit.qml
+* /usr/share/mixxx/qml/MiniKnob.qml
+* /usr/share/mixxx/qml/Mixer.qml
+* /usr/share/mixxx/qml/MixerColumn.qml
+* /usr/share/mixxx/qml/Mixxx/Controls/Knob.qml
+* /usr/share/mixxx/qml/Mixxx/Controls/Slider.qml
+* /usr/share/mixxx/qml/Mixxx/Controls/Spinny.qml
+* /usr/share/mixxx/qml/Mixxx/Controls/WaveformOverview.qml
+* /usr/share/mixxx/qml/Mixxx/Controls/WaveformOverviewHotcueMarker.qml
+* /usr/share/mixxx/qml/Mixxx/Controls/WaveformOverviewMarker.qml
+* /usr/share/mixxx/qml/Mixxx/MathUtils.mjs
+* /usr/share/mixxx/qml/Mixxx/PlayerDropArea.qml
+* /usr/share/mixxx/qml/Mixxx/qmldir
+* /usr/share/mixxx/qml/OrientationToggleButton.qml
+* /usr/share/mixxx/qml/Sampler.qml
+* /usr/share/mixxx/qml/SamplerRow.qml
+* /usr/share/mixxx/qml/SectionBackground.qml
+* /usr/share/mixxx/qml/SectionText.qml
+* /usr/share/mixxx/qml/skin.ini
+* /usr/share/mixxx/qml/skin_preview.png
+* /usr/share/mixxx/qml/Slider.qml
+* /usr/share/mixxx/qml/SyncButton.qml
+* /usr/share/mixxx/qml/TextField.qml
+* /usr/share/mixxx/qml/Theme/qmldir
+* /usr/share/mixxx/qml/Theme/Theme.qml
+* /usr/share/mixxx/qml/VuMeter.qml
+* /usr/share/mixxx/qml/WaveformCue.qml
+* /usr/share/mixxx/qml/WaveformHotcue.qml
+* /usr/share/mixxx/qml/WaveformIntroOutro.qml
+* /usr/share/mixxx/qml/WaveformLoop.qml
+* /usr/share/mixxx/qml/WaveformOverview.qml
+* /usr/share/mixxx/qml/WaveformRow.qml
+* /usr/share/mixxx/qml/WaveformShader.qml
 * /usr/share/mixxx/skins/Deere (64 Samplers)/sample_decks.xml
 * /usr/share/mixxx/skins/Deere (64 Samplers)/skin.xml
 * /usr/share/mixxx/skins/Deere (64 Samplers)/skinsettings_sampler_buttons.xml
@@ -443,6 +526,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Deere/icon/ic_beats_translate_curpos_48px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_beats_translate_earlier_48px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_beats_translate_later_48px.svg
+* /usr/share/mixxx/skins/Deere/icon/ic_bpm_locked_48px.svg
+* /usr/share/mixxx/skins/Deere/icon/ic_bpm_unlocked_48px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_broadcast_0_32px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_broadcast_1_32px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_broadcast_2_32px.svg
@@ -521,6 +606,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Deere/icon/ic_sync_leader_off.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_sync_leader_off_plain.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_sync_leader_on.svg
+* /usr/share/mixxx/skins/Deere/icon/ic_undo_48px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_unfold_less_48px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_unfold_more_48px.svg
 * /usr/share/mixxx/skins/Deere/icon/ic_vinylcontrol_1_32px.svg
@@ -570,6 +656,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Deere/left_display_4state_button.xml
 * /usr/share/mixxx/skins/Deere/left_gutter.xml
 * /usr/share/mixxx/skins/Deere/left_right_1state_button.xml
+* /usr/share/mixxx/skins/Deere/left_right_1state_button_optional.xml
+* /usr/share/mixxx/skins/Deere/left_right_1state_button_optional_invert.xml
 * /usr/share/mixxx/skins/Deere/left_right_2state_button.xml
 * /usr/share/mixxx/skins/Deere/left_right_display_2state_button.xml
 * /usr/share/mixxx/skins/Deere/library.xml
@@ -749,6 +837,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__beat_curpos_active_12.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__beat_curpos_active_34.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__beat_curpos_large.svg
+* /usr/share/mixxx/skins/LateNight/classic/buttons/btn__bpm_locked.svg
+* /usr/share/mixxx/skins/LateNight/classic/buttons/btn__bpm_unlocked.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__broadcast_off.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__broadcast_on.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__collapse.svg
@@ -815,6 +905,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__lib_sort_down.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__lib_sort_up.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__loop.svg
+* /usr/share/mixxx/skins/LateNight/classic/buttons/btn__loop_anchor_end.svg
+* /usr/share/mixxx/skins/LateNight/classic/buttons/btn__loop_anchor_start.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__loop_in.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__loop_out.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__menu_checkbox.svg
@@ -860,6 +952,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__sync_leader.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__sync_leader_active.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__sync_sampler.svg
+* /usr/share/mixxx/skins/LateNight/classic/buttons/btn__undo.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__xfader_aux_left.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__xfader_aux_left_off.svg
 * /usr/share/mixxx/skins/LateNight/classic/buttons/btn__xfader_aux_mid.svg
@@ -954,7 +1047,10 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/classic/style/mark_outro.svg
 * /usr/share/mixxx/skins/LateNight/classic/style/menu_arrow_white.svg
 * /usr/share/mixxx/skins/LateNight/classic/style/menu_arrow_yellow.svg
+* /usr/share/mixxx/skins/LateNight/classic/style/mixxx_logo.svg
 * /usr/share/mixxx/skins/LateNight/classic/style/mixxx_logo_small.svg
+* /usr/share/mixxx/skins/LateNight/classic/style/progressbar.svg
+* /usr/share/mixxx/skins/LateNight/classic/style/progressbar_bg.svg
 * /usr/share/mixxx/skins/LateNight/classic/style/spinny_bg.svg
 * /usr/share/mixxx/skins/LateNight/classic/style/spinny_indicator.svg
 * /usr/share/mixxx/skins/LateNight/classic/style/spinny_indicator_ghost.svg
@@ -988,7 +1084,10 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/classic/style/vu_sampler_level_active.png
 * /usr/share/mixxx/skins/LateNight/classic/style/vu_sampler_level_bg_.png
 * /usr/share/mixxx/skins/LateNight/controls/button_1state.xml
+* /usr/share/mixxx/skins/LateNight/controls/button_1state_optional.xml
+* /usr/share/mixxx/skins/LateNight/controls/button_1state_optional_invert.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_1state_right.xml
+* /usr/share/mixxx/skins/LateNight/controls/button_1state_right_optional.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_2state.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_2state_persist.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_2state_right.xml
@@ -996,6 +1095,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/controls/button_3state.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_3state_display.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_3state_persist.xml
+* /usr/share/mixxx/skins/LateNight/controls/button_4state_display.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_5state.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_hotcue.xml
 * /usr/share/mixxx/skins/LateNight/controls/button_special_cue.xml
@@ -1223,12 +1323,15 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__beat_curpos_active_34.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__beat_curpos_large.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__beat_curpos_large_active.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__bpm_locked.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__bpm_unlocked.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__broadcast_off.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__broadcast_on.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__collapse_dim.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__cue_deck.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__cue_deck_active.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__delete.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__delete_active.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__effect_selected.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__eject.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__eject_active_12.svg
@@ -1282,6 +1385,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__lib_spinbox_up.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop_active.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop_anchor_end.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop_anchor_start.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop_in.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop_in_active.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__loop_out.svg
@@ -1325,6 +1430,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__repeat_active_34.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__reverse.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__reverse_active.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__search.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__search_disabled.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__settings_off.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__settings_on.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__slip.svg
@@ -1342,6 +1449,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__sync_leader_implicit.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__sync_sampler.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__sync_sampler_active.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__undo.svg
+* /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__undo_active.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__xfader_aux_left.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__xfader_aux_left_off.svg
 * /usr/share/mixxx/skins/LateNight/palemoon/buttons/btn__xfader_aux_mid.svg
@@ -1638,6 +1747,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Shade/btn/btn_kill_overdown_summer.png
 * /usr/share/mixxx/skins/Shade/btn/btn_lib_bpm_locked.svg
 * /usr/share/mixxx/skins/Shade/btn/btn_lib_bpm_unlocked.svg
+* /usr/share/mixxx/skins/Shade/btn/btn_lib_bpm_unlocked_black.svg
+* /usr/share/mixxx/skins/Shade/btn/btn_lib_bpm_unlocked_white.svg
 * /usr/share/mixxx/skins/Shade/btn/btn_lib_checkbox.svg
 * /usr/share/mixxx/skins/Shade/btn/btn_lib_checkbox_checked.svg
 * /usr/share/mixxx/skins/Shade/btn/btn_lib_checkmark.svg
@@ -1768,6 +1879,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Shade/btn/btn_sampler_plus.xcf
 * /usr/share/mixxx/skins/Shade/btn/btn_save.png
 * /usr/share/mixxx/skins/Shade/btn/btn_search_down_grey.svg
+* /usr/share/mixxx/skins/Shade/btn/btn_search_menu.svg
 * /usr/share/mixxx/skins/Shade/btn/btn_seek.png
 * /usr/share/mixxx/skins/Shade/btn/btn_seek_minus.png
 * /usr/share/mixxx/skins/Shade/btn/btn_seek_plus.png
@@ -2229,6 +2341,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Tango/buttons/btn_beats_faster.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_beats_later.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_beats_slower.svg
+* /usr/share/mixxx/skins/Tango/buttons/btn_bpm_locked.svg
+* /usr/share/mixxx/skins/Tango/buttons/btn_bpm_unlocked.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_broadcast_connected.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_broadcast_connecting.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_broadcast_failure.svg
@@ -2296,6 +2410,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Tango/buttons/btn_loop.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_loop_beatjump_off.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_loop_beatjump_on.svg
+* /usr/share/mixxx/skins/Tango/buttons/btn_loop_beatjump_on_black.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_loop_in.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_loop_indicator_on.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_loop_in_active.svg
@@ -2355,6 +2470,8 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Tango/buttons/btn_sampler_xfader_center.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_sampler_xfader_left_white.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_sampler_xfader_right_white.svg
+* /usr/share/mixxx/skins/Tango/buttons/btn_search.svg
+* /usr/share/mixxx/skins/Tango/buttons/btn_search_disabled.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_skinsettings_close.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_skinsettings_close_hover.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_skinsettings_off.svg
@@ -2366,6 +2483,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Tango/buttons/btn_stars_hidden.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_stars_visible.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_sync.svg
+* /usr/share/mixxx/skins/Tango/buttons/btn_undo.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_vinyl_left.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_vinyl_left_hover.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_vinyl_pass_left.svg
@@ -2384,8 +2502,11 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Tango/buttons/btn_xfader_right_attention.svg
 * /usr/share/mixxx/skins/Tango/buttons/btn_xfader_visible.svg
 * /usr/share/mixxx/skins/Tango/controls/button_1state.xml
+* /usr/share/mixxx/skins/Tango/controls/button_1state_optional.xml
+* /usr/share/mixxx/skins/Tango/controls/button_1state_optional_invert.xml
 * /usr/share/mixxx/skins/Tango/controls/button_1state_right.xml
 * /usr/share/mixxx/skins/Tango/controls/button_1state_right_display.xml
+* /usr/share/mixxx/skins/Tango/controls/button_1state_right_optional.xml
 * /usr/share/mixxx/skins/Tango/controls/button_1state_right_persist.xml
 * /usr/share/mixxx/skins/Tango/controls/button_2state.xml
 * /usr/share/mixxx/skins/Tango/controls/button_2state_display.xml
@@ -2589,6 +2710,7 @@ An open source DJ tool.
 * /usr/share/mixxx/skins/Tango/waveform.xml
 * /usr/share/mixxx/skins/Tango/waveforms_container.xml
 * /usr/share/mixxx/translations/mixxx_ar.qm
+* /usr/share/mixxx/translations/mixxx_ar_DZ.qm
 * /usr/share/mixxx/translations/mixxx_ast.qm
 * /usr/share/mixxx/translations/mixxx_bg.qm
 * /usr/share/mixxx/translations/mixxx_br.qm

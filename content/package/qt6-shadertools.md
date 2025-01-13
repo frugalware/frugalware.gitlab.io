@@ -12,7 +12,7 @@ size = "1531572"
 usize = "4947612"
 sha1sum = "5e8b4d6d08037547c7f6e70d296c4f4d6c0892cd"
 depends = "['qt6-base']"
-reverse_depends = "['qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
+reverse_depends = "['mixxx', 'qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
 +++
 ### Description: 
 The Qt6 toolkit, qtshadertools
