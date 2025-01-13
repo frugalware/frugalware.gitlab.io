@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "484144"
 usize = "2864493"
 sha1sum = "9b84d00c92a374835a8b062536a9faa154c22f83"
-depends = "['curl>=7.50.3-2', 'libboost>=1.85.0', 'openssl>=3.1.0', 'ruby>=3.3.0', 'ruby>=2.3.1-3', 'yaml-cpp>=0.8.0']"
+depends = "['curl>=7.50.3-2', 'libboost>=1.85.0', 'openssl>=3.1.0', 'ruby>=2.3.1-3', 'ruby>=3.3.0', 'yaml-cpp>=0.8.0']"
 reverse_depends = "['puppet']"
 license = "APACHE"
 +++
