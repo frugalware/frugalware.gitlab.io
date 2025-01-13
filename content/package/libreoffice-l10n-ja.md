@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ja 24.8.4.2-2"
-version = "24.8.4.2-2"
+title = "libreoffice-l10n-ja 24.8.4.2-3"
+version = "24.8.4.2-3"
 description = "Installs Japanese support in LibreOffice"
-date = "2025-01-06T09:19:30"
+date = "2025-01-13T18:59:04"
 aliases = "/packages/104071"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "6514664"
+size = "6514900"
 usize = "40684487"
-sha1sum = "17794f2d1f4ad9dff5c5a8d7d0bdb3c8a4bfa3b6"
+sha1sum = "27c1cca2c9837993e099d3296b4e676d03341913"
 depends = "['libreoffice>=24.8.4.2']"
 +++
 ### Description: 
