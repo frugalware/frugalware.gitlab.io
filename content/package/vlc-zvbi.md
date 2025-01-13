@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-zvbi 3.0.21-18"
-version = "3.0.21-18"
+title = "vlc-zvbi 3.0.21-19"
+version = "3.0.21-19"
 description = "vlc plugin for zvbi"
-date = "2024-12-19T11:48:32"
+date = "2025-01-13T15:50:23"
 aliases = "/packages/219498"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "35576"
-usize = "53424"
-sha1sum = "e90e28e536588b3760c5af2325f9ad8398ac002d"
+size = "35604"
+usize = "53040"
+sha1sum = "6124e60669cff898792a9067ca235986f4a30521"
 depends = "['libvlc>=3.0.21', 'zvbi']"
 +++
 ### Description: 

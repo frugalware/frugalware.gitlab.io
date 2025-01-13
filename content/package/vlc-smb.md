@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-smb 3.0.21-18"
-version = "3.0.21-18"
+title = "vlc-smb 3.0.21-19"
+version = "3.0.21-19"
 description = "vlc plugin for Samba"
-date = "2024-12-19T11:48:32"
+date = "2025-01-13T15:50:23"
 aliases = "/packages/219570"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17872"
-usize = "11992"
-sha1sum = "825b2e5763a991c228f4af4cb2f8f1a8140be483"
+size = "17856"
+usize = "11864"
+sha1sum = "3c22da5cf1eebdd6840086e179316f209cc7a4a0"
 depends = "['libsmbclient', 'libvlc>=3.0.21']"
 +++
 ### Description: 

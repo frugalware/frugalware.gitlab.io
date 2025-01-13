@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-svg 3.0.21-18"
-version = "3.0.21-18"
+title = "vlc-svg 3.0.21-19"
+version = "3.0.21-19"
 description = "vlc plugin for SVG"
-date = "2024-12-19T11:48:32"
+date = "2025-01-13T15:50:23"
 aliases = "/packages/219571"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "19592"
-usize = "20952"
-sha1sum = "b209988ae17c749ff06c7e3fba2cab2398c8df22"
+size = "19472"
+usize = "19688"
+sha1sum = "00ad68038105988761182c296ee30d1be66c8ef7"
 depends = "['librsvg>=2.26.3', 'libvlc>=3.0.21']"
 +++
 ### Description: 
