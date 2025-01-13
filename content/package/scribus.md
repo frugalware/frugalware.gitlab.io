@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scribus 1.6.2-7"
-version = "1.6.2-7"
+title = "scribus 1.6.3-1"
+version = "1.6.3-1"
 description = "A professional desktop publishing application."
-date = "2024-12-06T10:30:49"
+date = "2025-01-13T17:07:26"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "74829076"
-usize = "138436730"
-sha1sum = "ebb19287c5fb006836d55b67a7058a83276b3275"
-depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=76.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=24.12.0', 'python3>=3.13', 'python3>=3.12', 'qt5-declarative>=5.15.15']"
+size = "75319888"
+usize = "140745284"
+sha1sum = "8dca39348b3df10c3f2174c128c3ce6ad3f6f3fb"
+depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=76.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=25.01.0', 'python3>=3.13', 'python3>=3.12', 'qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 A professional desktop publishing application.
@@ -87,15 +87,15 @@ A professional desktop publishing application.
 * /usr/lib/scribus/plugins/libxpsexplugin.so
 * /usr/lib/scribus/scribus.css
 * /usr/share/applications/scribus.desktop
-* /usr/share/doc/scribus-1.6.2/AUTHORS
-* /usr/share/doc/scribus-1.6.2/ChangeLog
-* /usr/share/doc/scribus-1.6.2/COPYING
-* /usr/share/doc/scribus-1.6.2/NEWS
-* /usr/share/doc/scribus-1.6.2/README
-* /usr/share/doc/scribus-1.6.2/README.MacOSX
-* /usr/share/doc/scribus-1.6.2/README.md
-* /usr/share/doc/scribus-1.6.2/README_150Manual
-* /usr/share/doc/scribus-1.6.2/TODO
+* /usr/share/doc/scribus-1.6.3/AUTHORS
+* /usr/share/doc/scribus-1.6.3/ChangeLog
+* /usr/share/doc/scribus-1.6.3/COPYING
+* /usr/share/doc/scribus-1.6.3/NEWS
+* /usr/share/doc/scribus-1.6.3/README
+* /usr/share/doc/scribus-1.6.3/README.MacOSX
+* /usr/share/doc/scribus-1.6.3/README.md
+* /usr/share/doc/scribus-1.6.3/README_150Manual
+* /usr/share/doc/scribus-1.6.3/TODO
 * /usr/share/doc/scribus/AUTHORS
 * /usr/share/doc/scribus/ChangeLog
 * /usr/share/doc/scribus/COPYING
@@ -1824,9 +1824,10 @@ A professional desktop publishing application.
 * /usr/share/scribus/dicts/hyph/hyph_ca.dic
 * /usr/share/scribus/dicts/hyph/hyph_cs.dic
 * /usr/share/scribus/dicts/hyph/hyph_da.dic
-* /usr/share/scribus/dicts/hyph/hyph_de.dic
 * /usr/share/scribus/dicts/hyph/hyph_de_1901.dic
+* /usr/share/scribus/dicts/hyph/hyph_de_AT.dic
 * /usr/share/scribus/dicts/hyph/hyph_de_CH.dic
+* /usr/share/scribus/dicts/hyph/hyph_de_DE.dic
 * /usr/share/scribus/dicts/hyph/hyph_el.dic
 * /usr/share/scribus/dicts/hyph/hyph_en_GB.dic
 * /usr/share/scribus/dicts/hyph/hyph_en_US.dic
@@ -1866,6 +1867,7 @@ A professional desktop publishing application.
 * /usr/share/scribus/dicts/hyph/README_fi_FI.txt
 * /usr/share/scribus/dicts/hyph/README_hu_HU.txt
 * /usr/share/scribus/dicts/hyph/README_hyph_da_DK.txt
+* /usr/share/scribus/dicts/hyph/README_hyph_de_AT.txt
 * /usr/share/scribus/dicts/hyph/README_hyph_de_CH.txt
 * /usr/share/scribus/dicts/hyph/README_hyph_de_DE.txt
 * /usr/share/scribus/dicts/hyph/README_hyph_en_GB.txt
@@ -3577,7 +3579,6 @@ A professional desktop publishing application.
 * /usr/share/scribus/translations/scribus.oc.qm
 * /usr/share/scribus/translations/scribus.pl_PL.qm
 * /usr/share/scribus/translations/scribus.pms.qm
-* /usr/share/scribus/translations/scribus.pt.qm
 * /usr/share/scribus/translations/scribus.pt_BR.qm
 * /usr/share/scribus/translations/scribus.pt_PT.qm
 * /usr/share/scribus/translations/scribus.ro.qm

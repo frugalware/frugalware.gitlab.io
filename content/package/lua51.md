@@ -12,7 +12,7 @@ size = "1129600"
 usize = "1780240"
 sha1sum = "37e2a4064fc8508907ee4babc74eaaa36aa5c0b7"
 depends = "['glibc>=2.34', 'ncurses>=6.0-18', 'readline>=8.0']"
-reverse_depends = "['crawl', 'libmpack-lua', 'lua51-lpeg', 'netpanzer', 'wireshark', 'wireshark-qt']"
+reverse_depends = "['crawl', 'efl', 'libmpack-lua', 'lua51-lpeg', 'netpanzer', 'wireshark', 'wireshark-qt']"
 +++
 ### Description: 
 A powerful light-weight programming language designed for extending applications.
