@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz 10.1.0-1"
-version = "10.1.0-1"
+title = "harfbuzz 10.2.0-1"
+version = "10.2.0-1"
 description = "Is an implementation of the OpenType Layout engine."
-date = "2024-11-06T09:42:26"
+date = "2025-01-13T13:04:42"
 aliases = "/packages/168883"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1264820"
-usize = "7888296"
-sha1sum = "2984fbec0bf45674236cae6ad45a9905abb171af"
+size = "1269912"
+usize = "7918522"
+sha1sum = "565b08001d503e1e9cba45175adf9d40c36d10a6"
 depends = "['freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive']"
 +++
@@ -52,7 +52,7 @@ Is an implementation of the OpenType Layout engine.
 * /usr/include/harfbuzz/hb-shape-plan.h
 * /usr/include/harfbuzz/hb-shape.h
 * /usr/include/harfbuzz/hb-style.h
-* /usr/include/harfbuzz/hb-subset-repacker.h
+* /usr/include/harfbuzz/hb-subset-serialize.h
 * /usr/include/harfbuzz/hb-subset.h
 * /usr/include/harfbuzz/hb-unicode.h
 * /usr/include/harfbuzz/hb-version.h
@@ -61,22 +61,22 @@ Is an implementation of the OpenType Layout engine.
 * /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib
 * /usr/lib/libharfbuzz-gobject.so
 * /usr/lib/libharfbuzz-gobject.so.0
-* /usr/lib/libharfbuzz-gobject.so.0.61010.0
+* /usr/lib/libharfbuzz-gobject.so.0.61020.0
 * /usr/lib/libharfbuzz-subset.so
 * /usr/lib/libharfbuzz-subset.so.0
-* /usr/lib/libharfbuzz-subset.so.0.61010.0
+* /usr/lib/libharfbuzz-subset.so.0.61020.0
 * /usr/lib/libharfbuzz.so
 * /usr/lib/libharfbuzz.so.0
-* /usr/lib/libharfbuzz.so.0.61010.0
+* /usr/lib/libharfbuzz.so.0.61020.0
 * /usr/lib/pkgconfig/harfbuzz-gobject.pc
 * /usr/lib/pkgconfig/harfbuzz-subset.pc
 * /usr/lib/pkgconfig/harfbuzz.pc
-* /usr/share/doc/harfbuzz-10.1.0/AUTHORS
-* /usr/share/doc/harfbuzz-10.1.0/COPYING
-* /usr/share/doc/harfbuzz-10.1.0/NEWS
-* /usr/share/doc/harfbuzz-10.1.0/README.md
-* /usr/share/doc/harfbuzz-10.1.0/README.python.md
-* /usr/share/doc/harfbuzz-10.1.0/THANKS
+* /usr/share/doc/harfbuzz-10.2.0/AUTHORS
+* /usr/share/doc/harfbuzz-10.2.0/COPYING
+* /usr/share/doc/harfbuzz-10.2.0/NEWS
+* /usr/share/doc/harfbuzz-10.2.0/README.md
+* /usr/share/doc/harfbuzz-10.2.0/README.python.md
+* /usr/share/doc/harfbuzz-10.2.0/THANKS
 * /usr/share/gir-1.0/HarfBuzz-0.0.gir
 * /usr/share/gtk-doc/html/harfbuzz/a-clustering-example-for-levels-0-and-1.html
 * /usr/share/gtk-doc/html/harfbuzz/a-simple-shaping-example.html
@@ -121,6 +121,7 @@ Is an implementation of the OpenType Layout engine.
 * /usr/share/gtk-doc/html/harfbuzz/api-index-1-9-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-10-0-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-10-1-0.html
+* /usr/share/gtk-doc/html/harfbuzz/api-index-10-2-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-2-0-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-2-1-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-2-2-0.html
