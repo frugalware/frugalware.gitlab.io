@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler-qt6 24.12.0-2"
-version = "24.12.0-2"
+title = "poppler-qt6 25.01.0-1"
+version = "25.01.0-1"
 description = "Poppler QT6 bindings"
-date = "2024-12-04T21:53:46"
+date = "2025-01-13T13:24:14"
 aliases = "/packages/221154"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "193264"
-usize = "701593"
-sha1sum = "042daff54ec9bc3bdf5368db97a52ddb442477ba"
+size = "194564"
+usize = "704265"
+sha1sum = "2ea8c12255b7888dc91fc487451b8346847be246"
 depends = "['poppler', 'qt6-base>=6.8.1']"
 reverse_depends = "['calligra', 'kdepim-addons', 'kfilemetadata', 'kile', 'okular', 'texstudio']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libyuv 20241117.g75f7cfd-1"
-version = "20241117.g75f7cfd-1"
+title = "libyuv 20250113.g10592b6-1"
+version = "20250113.g10592b6-1"
 description = "Library for YUV scaling"
-date = "2024-11-17T11:31:24"
+date = "2025-01-13T13:52:57"
 aliases = "/packages/220806"
 categories = ['lib']
 upstreamurl = "https://chromium.googlesource.com/libyuv/libyuv"
 arch = "x86_64"
-size = "293872"
-usize = "1938529"
-sha1sum = "a0687f6762038929d180d3ad8dc3ceff1ddd7a87"
+size = "299328"
+usize = "2042974"
+sha1sum = "68cc733c5fb0fde95e2fe809d6a73fcad8218181"
 depends = "['libjpeg-turbo']"
 reverse_depends = "['libavif']"
 +++
@@ -37,6 +37,7 @@ Library for YUV scaling
 * /usr/include/libyuv/rotate_argb.h
 * /usr/include/libyuv/rotate_row.h
 * /usr/include/libyuv/row.h
+* /usr/include/libyuv/row_sve.h
 * /usr/include/libyuv/scale.h
 * /usr/include/libyuv/scale_argb.h
 * /usr/include/libyuv/scale_rgb.h
@@ -45,7 +46,7 @@ Library for YUV scaling
 * /usr/include/libyuv/version.h
 * /usr/include/libyuv/video_common.h
 * /usr/lib/libyuv.so
-* /usr/share/doc/libyuv-20241117.g75f7cfd/AUTHORS
-* /usr/share/doc/libyuv-20241117.g75f7cfd/LICENSE
-* /usr/share/doc/libyuv-20241117.g75f7cfd/README.chromium
-* /usr/share/doc/libyuv-20241117.g75f7cfd/README.md
+* /usr/share/doc/libyuv-20250113.g10592b6/AUTHORS
+* /usr/share/doc/libyuv-20250113.g10592b6/LICENSE
+* /usr/share/doc/libyuv-20250113.g10592b6/README.chromium
+* /usr/share/doc/libyuv-20250113.g10592b6/README.md

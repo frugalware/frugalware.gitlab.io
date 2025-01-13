@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-openal 1.24.1-1"
-version = "1.24.1-1"
+title = "lib32-openal 1.24.2-1"
+version = "1.24.2-1"
 description = "A cross-platform 3D audio API appropriate for use with gaming applications. (32-bit)"
-date = "2024-12-01T14:36:35"
+date = "2025-01-13T14:03:48"
 aliases = "/packages/217743"
 categories = ['lib32-extra']
 upstreamurl = "http://openal-soft.org"
 arch = "x86_64"
-size = "548724"
-usize = "1543559"
-sha1sum = "4ef50c5b2ca4c0332c0e64ac6c569f16500ac9c5"
-depends = "['lib32-libsndfile', 'lib32-sdl2', 'openal=1.24.1']"
+size = "612372"
+usize = "1686471"
+sha1sum = "16ee3a567e37c9b122c649558ebf336ab199c10e"
+depends = "['lib32-libsndfile', 'lib32-sdl2', 'openal=1.24.2']"
 reverse_depends = "['get_steam', 'openloco']"
 +++
 ### Description: 
@@ -30,5 +30,5 @@ A cross-platform 3D audio API appropriate for use with gaming applications. (32-
 * /usr/lib32/cmake/OpenAL/OpenALTargets.cmake
 * /usr/lib32/libopenal.so
 * /usr/lib32/libopenal.so.1
-* /usr/lib32/libopenal.so.1.24.1
+* /usr/lib32/libopenal.so.1.24.2
 * /usr/lib32/pkgconfig/openal.pc

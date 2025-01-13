@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf 29.2-1"
-version = "29.2-1"
+title = "protobuf 29.3-1"
+version = "29.3-1"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2024-12-19T09:46:52"
+date = "2025-01-13T13:48:54"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "2508132"
-usize = "12151147"
-sha1sum = "0dd6caec53528ccab7d9f2f16d33715cd4004075"
+size = "2501432"
+usize = "12131785"
+sha1sum = "6dec234d41e50d504c9d0b7af94ce2d1168020db"
 depends = "['abseil-cpp>=20240722.0', 'libstdc++>=11.3']"
 reverse_depends = "['android-tools', 'grpc', 'libmarble', 'libphonenumber', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
@@ -19,13 +19,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 
 ### Files: 
 * /usr/bin/protoc
-* /usr/bin/protoc-29.2.0
+* /usr/bin/protoc-29.3.0
 * /usr/bin/protoc-gen-upb
-* /usr/bin/protoc-gen-upb-29.2.0
+* /usr/bin/protoc-gen-upb-29.3.0
 * /usr/bin/protoc-gen-upbdefs
-* /usr/bin/protoc-gen-upbdefs-29.2.0
+* /usr/bin/protoc-gen-upbdefs-29.3.0
 * /usr/bin/protoc-gen-upb_minitable
-* /usr/bin/protoc-gen-upb_minitable-29.2.0
+* /usr/bin/protoc-gen-upb_minitable-29.3.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
 * /usr/include/google/protobuf/any.proto
@@ -201,6 +201,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/generated_message_tctable_gen.h
 * /usr/include/google/protobuf/generated_message_tctable_impl.h
 * /usr/include/google/protobuf/generated_message_util.h
+* /usr/include/google/protobuf/go_features.proto
 * /usr/include/google/protobuf/has_bits.h
 * /usr/include/google/protobuf/implicit_weak_message.h
 * /usr/include/google/protobuf/inlined_string_field.h
@@ -215,6 +216,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/io/zero_copy_stream.h
 * /usr/include/google/protobuf/io/zero_copy_stream_impl.h
 * /usr/include/google/protobuf/io/zero_copy_stream_impl_lite.h
+* /usr/include/google/protobuf/java_features.proto
 * /usr/include/google/protobuf/json/internal/descriptor_traits.h
 * /usr/include/google/protobuf/json/internal/lexer.h
 * /usr/include/google/protobuf/json/internal/message_path.h
@@ -283,7 +285,6 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/wire_format_lite.h
 * /usr/include/google/protobuf/wrappers.pb.h
 * /usr/include/google/protobuf/wrappers.proto
-* /usr/include/java/core/src/main/resources/google/protobuf/java_features.proto
 * /usr/include/upb/base/descriptor_constants.h
 * /usr/include/upb/base/internal/endian.h
 * /usr/include/upb/base/internal/log2.h
@@ -415,16 +416,16 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 * /usr/lib/cmake/utf8_range/utf8_range-targets.cmake
 * /usr/lib/libprotobuf-lite.so
-* /usr/lib/libprotobuf-lite.so.29.2.0
+* /usr/lib/libprotobuf-lite.so.29.3.0
 * /usr/lib/libprotobuf.so
-* /usr/lib/libprotobuf.so.29.2.0
+* /usr/lib/libprotobuf.so.29.3.0
 * /usr/lib/libprotoc.so
-* /usr/lib/libprotoc.so.29.2.0
+* /usr/lib/libprotoc.so.29.3.0
 * /usr/lib/libutf8_range.so
 * /usr/lib/libutf8_validity.so
 * /usr/lib/pkgconfig/protobuf-lite.pc
 * /usr/lib/pkgconfig/protobuf.pc
 * /usr/lib/pkgconfig/upb.pc
 * /usr/lib/pkgconfig/utf8_range.pc
-* /usr/share/doc/protobuf-29.2/LICENSE
-* /usr/share/doc/protobuf-29.2/README.md
+* /usr/share/doc/protobuf-29.3/LICENSE
+* /usr/share/doc/protobuf-29.3/README.md

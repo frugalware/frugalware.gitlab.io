@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libadwaita 1.6.2-1"
-version = "1.6.2-1"
+title = "libadwaita 1.6.3-1"
+version = "1.6.3-1"
 description = "Building blocks for modern adaptive GNOME applications"
-date = "2024-11-23T13:45:51"
+date = "2025-01-13T13:51:25"
 aliases = "/packages/220893"
 categories = ['lib']
 upstreamurl = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
 arch = "x86_64"
-size = "844388"
-usize = "7044901"
-sha1sum = "63176f8cfa17ae4a8caa883980b7aee6713073e1"
+size = "845492"
+usize = "7045395"
+sha1sum = "c9c3aec610c810482febb8f9168598331f438add"
 depends = "['appstream>=1.0.0', 'gtk+4']"
 reverse_depends = "['celluloid', 'easyeffects', 'libpanel', 'sysprof', 'xdg-desktop-portal-gnome', 'zenity']"
 +++
@@ -105,10 +105,10 @@ Building blocks for modern adaptive GNOME applications
 * /usr/lib/libadwaita-1.so.0
 * /usr/lib/pkgconfig/libadwaita-1.pc
 * /usr/share/applications/org.gnome.Adwaita1.Demo.desktop
-* /usr/share/doc/libadwaita-1.6.2/AUTHORS
-* /usr/share/doc/libadwaita-1.6.2/COPYING
-* /usr/share/doc/libadwaita-1.6.2/NEWS
-* /usr/share/doc/libadwaita-1.6.2/README.md
+* /usr/share/doc/libadwaita-1.6.3/AUTHORS
+* /usr/share/doc/libadwaita-1.6.3/COPYING
+* /usr/share/doc/libadwaita-1.6.3/NEWS
+* /usr/share/doc/libadwaita-1.6.3/README.md
 * /usr/share/gir-1.0/Adw-1.gir
 * /usr/share/icons/hicolor/scalable/apps/org.gnome.Adwaita1.Demo.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gnome.Adwaita1.Demo-symbolic.svg

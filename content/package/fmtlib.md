@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fmtlib 11.1.1-1"
-version = "11.1.1-1"
+title = "fmtlib 11.1.2-1"
+version = "11.1.2-1"
 description = "Open-source formatting library for C++"
-date = "2024-12-28T17:51:26"
+date = "2025-01-13T13:32:58"
 aliases = "/packages/220117"
 categories = ['devel-core']
 upstreamurl = "https://fmtlib.net"
 arch = "x86_64"
-size = "173460"
-usize = "724622"
-sha1sum = "1f6f6e9f2253388c13e9e62317f4fff7d58dd35a"
+size = "173564"
+usize = "725697"
+sha1sum = "fdd4dd7f43cd983d7fbb15604c49bbb4aaa21719"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ccache', 'cppgir', 'easyeffects', 'easyrpg-player', 'mpd', 'opendht', 'openimageio', 'performous', 'spdlog', 'telegram-desktop', 'warzone2100']"
 +++
@@ -38,7 +38,7 @@ Open-source formatting library for C++
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/libfmt.so
 * /usr/lib/libfmt.so.11
-* /usr/lib/libfmt.so.11.1.1
+* /usr/lib/libfmt.so.11.1.2
 * /usr/lib/pkgconfig/fmt.pc
-* /usr/share/doc/fmtlib-11.1.1/LICENSE
-* /usr/share/doc/fmtlib-11.1.1/README.md
+* /usr/share/doc/fmtlib-11.1.2/LICENSE
+* /usr/share/doc/fmtlib-11.1.2/README.md
