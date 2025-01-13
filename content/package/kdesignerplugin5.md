@@ -12,7 +12,7 @@ size = "79600"
 usize = "180865"
 sha1sum = "4d5e4ff3da9da2e92b01b6cd1a83dd2891c98c76"
 depends = "['kconfig5>=5.116.0', 'kcoreaddons5>=5.116.0', 'kiconthemes5>=5.116.0', 'kio5>=5.116.0', 'kplotting5>=5.116.0', 'kxmlgui5>=5.116.0']"
-reverse_depends = "['kdelibs4support5', 'skrooge']"
+reverse_depends = "['kdelibs4support5']"
 +++
 ### Description: 
 Integrating KDE frameworks widgets with Qt Designer.

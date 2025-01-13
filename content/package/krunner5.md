@@ -12,7 +12,6 @@ size = "150156"
 usize = "449827"
 sha1sum = "89a06bda6666a4c8751e49b88dfb30ebe293eeac"
 depends = "['plasma-framework5>=5.116.0', 'threadweaver5>=5.116.0']"
-reverse_depends = "['skrooge']"
 +++
 ### Description: 
 Framework for providing different actions given a string query.

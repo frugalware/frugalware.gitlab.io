@@ -12,7 +12,7 @@ size = "72436"
 usize = "354848"
 sha1sum = "9f3032918ae503d256775a671003da4b027fb986"
 depends = "['kio5>=5.116.0']"
-reverse_depends = "['kstars', 'quassel', 'rsibreak', 'skrooge']"
+reverse_depends = "['kstars', 'quassel', 'rsibreak']"
 +++
 ### Description: 
 Configuration dialog for desktop notifications.

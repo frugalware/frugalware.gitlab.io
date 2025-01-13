@@ -12,7 +12,7 @@ size = "52836"
 usize = "204939"
 sha1sum = "7c6f4607343b25125d769fbb31492083d4b7656d"
 depends = "['kio>=6.10.0']"
-reverse_depends = "['akregator', 'calligra', 'digikam', 'k3b', 'kalarm', 'kdenlive', 'kdepim-runtime', 'kdevelop', 'kdiamond', 'kfourinline', 'kget', 'kgoldrunner', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmail', 'kmail-account-wizard', 'kmines', 'knavalbattle', 'knetwalk', 'kollision', 'konsole', 'konversation', 'kpat', 'krdc', 'ksquares', 'kteatime', 'ktuberling', 'kwordquiz', 'picmi', 'plasma-desktop', 'plasma-workspace', 'yakuake']"
+reverse_depends = "['akregator', 'calligra', 'digikam', 'k3b', 'kalarm', 'kdenlive', 'kdepim-runtime', 'kdevelop', 'kdiamond', 'kfourinline', 'kget', 'kgoldrunner', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmail', 'kmail-account-wizard', 'kmines', 'knavalbattle', 'knetwalk', 'kollision', 'konsole', 'konversation', 'kpat', 'krdc', 'ksquares', 'kteatime', 'ktuberling', 'kwordquiz', 'picmi', 'plasma-desktop', 'plasma-workspace', 'skrooge', 'yakuake']"
 +++
 ### Description: 
 Configuration dialog for desktop notifications.

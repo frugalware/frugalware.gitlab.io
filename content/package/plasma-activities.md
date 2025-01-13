@@ -12,7 +12,7 @@ size = "116412"
 usize = "441042"
 sha1sum = "9e398f4917a3416eccdd099c8e1c141c8386a335"
 depends = "['kio>=6.9.0']"
-reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'krdc', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'systemsettings']"
+reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'krdc', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'skrooge', 'systemsettings']"
 +++
 ### Description: 
 The KActivity Manager Daemon.

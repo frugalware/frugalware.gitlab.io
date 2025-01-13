@@ -12,7 +12,7 @@ size = "147268"
 usize = "512811"
 sha1sum = "dbeac65bf3e83ac4879d4e213b8ce60871f24b5d"
 depends = "['qt5-base>=5.15.6']"
-reverse_depends = "['firetools', 'flightgear', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami25', 'kjsembed5', 'krita', 'kxmlgui5', 'librecad', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'otter-browser', 'q4wine', 'qownnotes', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'quassel', 'rolisteam', 'skrooge', 'sqlitestudio', 'tiled', 'vlc', 'vulkan-lunarg-tools']"
+reverse_depends = "['firetools', 'flightgear', 'keepassxc', 'kiconthemes5', 'kig', 'kirigami25', 'kjsembed5', 'krita', 'kxmlgui5', 'librecad', 'meshroom', 'minuet', 'mixxx', 'mlt-qt', 'mumble', 'otter-browser', 'q4wine', 'qownnotes', 'qt5-virtualkeyboard', 'qtcurve-qt5', 'quassel', 'rolisteam', 'sqlitestudio', 'tiled', 'vlc', 'vulkan-lunarg-tools']"
 +++
 ### Description: 
 The Qt5 toolkit, qtsvg

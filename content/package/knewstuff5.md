@@ -12,7 +12,7 @@ size = "823956"
 usize = "4296689"
 sha1sum = "74eef1993888ab985e678ac12752d2c9f59f4a1f"
 depends = "['kio5>=5.116.0', 'kirigami25>=5.116.0', 'kpackage5>=5.116.0', 'syndication5>=5.116.0']"
-reverse_depends = "['artikulate', 'frameworkintegration5', 'kalzium', 'kstars', 'ktouch', 'okteta', 'skrooge', 'step']"
+reverse_depends = "['artikulate', 'frameworkintegration5', 'kalzium', 'kstars', 'ktouch', 'okteta', 'step']"
 +++
 ### Description: 
 Framework for downloading and sharing additional application data.

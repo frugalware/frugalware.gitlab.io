@@ -12,7 +12,7 @@ size = "690364"
 usize = "2860071"
 sha1sum = "41db58f40e487c693bdd6e014a77e7ea297fcb71"
 depends = "['botan>=3.6.0', 'cyrus-sasl', 'nss', 'qt5-base']"
-reverse_depends = "['kwallet5', 'okteta', 'skrooge']"
+reverse_depends = "['kwallet5', 'okteta']"
 +++
 ### Description: 
 QCA qt5

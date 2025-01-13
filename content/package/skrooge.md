@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skrooge 2.33.0-1"
-version = "2.33.0-1"
+title = "skrooge 25.1.0-1"
+version = "25.1.0-1"
 description = "Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses"
-date = "2024-12-24T15:01:30"
+date = "2025-01-13T09:30:34"
 aliases = "/packages/74103"
-categories = ['kde5-extra']
+categories = ['kde6-extra']
 upstreamurl = "http://skrooge.org"
 arch = "x86_64"
-size = "13074344"
-usize = "28330267"
-sha1sum = "162b6d66e082ecbdce554692c8b00b36d49fd87f"
-depends = "['grantlee>=5.0.0', 'kdesignerplugin5>=5.116.0', 'knewstuff5>=5.116.0', 'knotifyconfig5>=5.116.0', 'kparts5>=5.116.0', 'krunner5>=5.116.0', 'libofx>=0.9.11', 'qca-qt5', 'qt5-svg>=5.15.16', 'qt5-webengine>=', 'qt5-xmlpatterns>=5.15.16', 'sqlcipher>=3.3.1']"
+size = "13396496"
+usize = "28961243"
+sha1sum = "b18bd70198d35cfa27d3561d885b4716e21dc04c"
+depends = "['grantlee>=5.0.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kparts>=6.10.0', 'krunner>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'ktexttemplate>=6.10.0', 'libofx>=0.9.11', 'plasma-activities>=6.2.5', 'qca', 'qt6-svg>=6.8.1', 'qt6-webengine>=', 'sqlcipher>=3.3.1']"
 +++
 ### Description: 
 Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses
@@ -20,58 +20,58 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/bin/skrooge
 * /usr/bin/skroogeconvert
 * /usr/lib/libskgbankgui.so.2
-* /usr/lib/libskgbankgui.so.2.33.0
+* /usr/lib/libskgbankgui.so.25.1.0
 * /usr/lib/libskgbankmodeler.so.2
-* /usr/lib/libskgbankmodeler.so.2.33.0
+* /usr/lib/libskgbankmodeler.so.25.1.0
 * /usr/lib/libskgbasegui.so.2
-* /usr/lib/libskgbasegui.so.2.33.0
+* /usr/lib/libskgbasegui.so.25.1.0
 * /usr/lib/libskgbasemodeler.so.2
-* /usr/lib/libskgbasemodeler.so.2.33.0
-* /usr/lib/qt5/plugins/grantlee/5.3/grantlee_skgfilters.so
-* /usr/lib/qt5/plugins/skg_gui/skg_advice.so
-* /usr/lib/qt5/plugins/skg_gui/skg_bookmark.so
-* /usr/lib/qt5/plugins/skg_gui/skg_dashboard.so
-* /usr/lib/qt5/plugins/skg_gui/skg_debug.so
-* /usr/lib/qt5/plugins/skg_gui/skg_delete.so
-* /usr/lib/qt5/plugins/skg_gui/skg_file.so
-* /usr/lib/qt5/plugins/skg_gui/skg_highlight.so
-* /usr/lib/qt5/plugins/skg_gui/skg_monthly.so
-* /usr/lib/qt5/plugins/skg_gui/skg_print.so
-* /usr/lib/qt5/plugins/skg_gui/skg_properties.so
-* /usr/lib/qt5/plugins/skg_gui/skg_selectall.so
-* /usr/lib/qt5/plugins/skg_gui/skg_statistic.so
-* /usr/lib/qt5/plugins/skg_gui/skg_undoredo.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_bank.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_budget.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_calculator.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_categories.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_importexport.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_operation.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_payee.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_report.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_scheduled.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_search.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_tracker.so
-* /usr/lib/qt5/plugins/skg_gui/skrooge_unit.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_afb120.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_backend.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_csv.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_gnc.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_gsb.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_iif.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_json.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_kmy.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_ledger.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_mmb.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_mny.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_mt940.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_ofx.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_pdf.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_qif.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_skg.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_xhb.so
-* /usr/lib/qt5/plugins/skrooge/import/skrooge_import_xml.so
-* /usr/lib/qt5/plugins/sqldrivers/libskgsqlcipher.so
+* /usr/lib/libskgbasemodeler.so.25.1.0
+* /usr/lib/qt6/plugins/kf6/ktexttemplate/grantlee_skgfilters.so
+* /usr/lib/qt6/plugins/skg_gui/skg_advice.so
+* /usr/lib/qt6/plugins/skg_gui/skg_bookmark.so
+* /usr/lib/qt6/plugins/skg_gui/skg_dashboard.so
+* /usr/lib/qt6/plugins/skg_gui/skg_debug.so
+* /usr/lib/qt6/plugins/skg_gui/skg_delete.so
+* /usr/lib/qt6/plugins/skg_gui/skg_file.so
+* /usr/lib/qt6/plugins/skg_gui/skg_highlight.so
+* /usr/lib/qt6/plugins/skg_gui/skg_monthly.so
+* /usr/lib/qt6/plugins/skg_gui/skg_print.so
+* /usr/lib/qt6/plugins/skg_gui/skg_properties.so
+* /usr/lib/qt6/plugins/skg_gui/skg_selectall.so
+* /usr/lib/qt6/plugins/skg_gui/skg_statistic.so
+* /usr/lib/qt6/plugins/skg_gui/skg_undoredo.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_bank.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_budget.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_calculator.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_categories.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_importexport.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_operation.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_payee.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_report.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_scheduled.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_search.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_tracker.so
+* /usr/lib/qt6/plugins/skg_gui/skrooge_unit.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_afb120.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_backend.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_csv.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_gnc.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_gsb.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_iif.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_json.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_kmy.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_ledger.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_mmb.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_mny.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_mt940.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_ofx.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_pdf.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_qif.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_skg.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_xhb.so
+* /usr/lib/qt6/plugins/skrooge_import/skrooge_import_xml.so
+* /usr/lib/qt6/plugins/sqldrivers/libskgsqlcipher.so
 * /usr/share/applications/org.kde.skrooge.desktop
 * /usr/share/config.kcfg/skgbasegui_settings.kcfg
 * /usr/share/config.kcfg/skgbookmark_settings.kcfg
@@ -185,7 +185,6 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/doc/HTML/en/skrooge/search_result.png
 * /usr/share/doc/HTML/en/skrooge/secondary_unit_display.png
 * /usr/share/doc/HTML/en/skrooge/settings_bookmarks.png
-* /usr/share/doc/HTML/en/skrooge/settings_dashboard.png
 * /usr/share/doc/HTML/en/skrooge/settings_file.png
 * /usr/share/doc/HTML/en/skrooge/settings_general.png
 * /usr/share/doc/HTML/en/skrooge/settings_history.png
@@ -293,10 +292,10 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/doc/HTML/uk/skrooge/table_menu.png
 * /usr/share/doc/HTML/uk/skrooge/tab_state_management.png
 * /usr/share/doc/HTML/uk/skrooge/transfer_operation.png
-* /usr/share/doc/skrooge-2.33.0/AUTHORS
-* /usr/share/doc/skrooge-2.33.0/CHANGELOG
-* /usr/share/doc/skrooge-2.33.0/COPYING
-* /usr/share/doc/skrooge-2.33.0/README.md
+* /usr/share/doc/skrooge-25.1.0/AUTHORS
+* /usr/share/doc/skrooge-25.1.0/CHANGELOG
+* /usr/share/doc/skrooge-25.1.0/COPYING
+* /usr/share/doc/skrooge-25.1.0/README.md
 * /usr/share/icons/breeze-dark/actions/22/skg-chart-bubble.svgz
 * /usr/share/icons/breeze-dark/actions/22/skrooge_credit_card.svgz
 * /usr/share/icons/breeze-dark/actions/22/skrooge_less.svgz
@@ -415,25 +414,9 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/icons/hicolor/scalable/apps/skrooge.svgz
 * /usr/share/icons/hicolor/scalable/mimetypes/application-x-skg.svgz
 * /usr/share/icons/hicolor/scalable/mimetypes/application-x-skgc.svgz
-* /usr/share/knotifications5/skrooge.notifyrc
+* /usr/share/knotifications6/skrooge.notifyrc
 * /usr/share/knsrcfiles/skrooge_monthly.knsrc
 * /usr/share/knsrcfiles/skrooge_unit.knsrc
-* /usr/share/kservices5/org.kde.skrooge-import-backend-aqbanking.desktop
-* /usr/share/kservices5/org.kde.skrooge-import-backend-weboob.desktop
-* /usr/share/kservices5/org.kde.skrooge-import-backend-weboob_coming.desktop
-* /usr/share/kservices5/org.kde.skrooge-import-backend-woob-ofx.desktop
-* /usr/share/kservices5/org.kde.skrooge-import-backend-woob.desktop
-* /usr/share/kservices5/org.kde.skrooge-import-backend-woob_coming.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-coinmarketcap.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-cryptocompare.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-exchangerates.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-exchangerates_apilayer.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-grandtrunk.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-skrooge.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-stooq.desktop
-* /usr/share/kservices5/sources/org.kde.skrooge-source-yahoo.desktop
-* /usr/share/kservicetypes5/org.kde.skrooge-import-backend-type.desktop
-* /usr/share/kservicetypes5/org.kde.skrooge-source-plugin.desktop
 * /usr/share/kxmlgui5/skg/skgmainpanel.rc
 * /usr/share/kxmlgui5/skg_advice/skg_advice.rc
 * /usr/share/kxmlgui5/skg_bookmark/skg_bookmark.rc
@@ -939,10 +922,24 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/skrooge/images/logo/yomoni.png
 * /usr/share/skrooge/images/splash.png
 * /usr/share/skrooge/ISO20022.xslt
+* /usr/share/skrooge/skrooge-boursorama.py
 * /usr/share/skrooge/skrooge-coinmarketcap.py
 * /usr/share/skrooge/skrooge-cryptocompare.py
 * /usr/share/skrooge/skrooge-exchangerates.py
 * /usr/share/skrooge/skrooge-exchangerates_apilayer.py
 * /usr/share/skrooge/skrooge-sabb.py
 * /usr/share/skrooge/skrooge-woob.py
-* /usr/share/skrooge/skrooge-yahoodl.py
+* /usr/share/skrooge_import_backend/org.kde.skrooge-import-backend-aqbanking.json
+* /usr/share/skrooge_import_backend/org.kde.skrooge-import-backend-weboob.json
+* /usr/share/skrooge_import_backend/org.kde.skrooge-import-backend-weboob_coming.json
+* /usr/share/skrooge_import_backend/org.kde.skrooge-import-backend-woob-ofx.json
+* /usr/share/skrooge_import_backend/org.kde.skrooge-import-backend-woob.json
+* /usr/share/skrooge_import_backend/org.kde.skrooge-import-backend-woob_coming.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-boursorama.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-coinmarketcap.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-cryptocompare.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-exchangeratesapi.io.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-exchangerates_apilayer.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-grandtrunk.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-skrooge.json
+* /usr/share/skrooge_source/org.kde.skrooge-source-stooq.json
