@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "nvidia 565.77-7"
-version = "565.77-7"
+title = "nvidia 565.77-8"
+version = "565.77-8"
 description = "3D accelerated display driver for Nvidia cards"
-date = "2025-01-10T11:45:46"
+date = "2025-01-14T13:02:57"
 aliases = "/packages/3749"
 categories = ['x11-extra']
 upstreamurl = "http://www.nvidia.com/object/unix.html"
 arch = "x86_64"
-size = "124315556"
-usize = "389832400"
-sha1sum = "edcce5bfd86ae4d7c1c630cf8ed46a02ecf05117"
-depends = "['kernel=6.12.9-1', 'libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=565.77']"
+size = "60344376"
+usize = "325944127"
+sha1sum = "41d4325b14ed4469e921845cb159613bfb8e4dd7"
+depends = "['libglvnd', 'nvidia-settings>=', 'nvidia-xconfig>=565.77', 'open-gpu-kernel-modules>=']"
 reverse_depends = "['cuda', 'lib32-nvidia']"
 +++
 ### Description: 
 3D accelerated display driver for Nvidia cards
 
 ### Files: 
-* /etc/modprobe.d/nvidia.conf
 * /etc/OpenCL/vendors/nvidia.icd
 * /etc/X11/xorg.conf.d/15-nvidia.conf
 * /usr/bin/nvidia-bug-report.sh
@@ -72,10 +71,6 @@ reverse_depends = "['cuda', 'lib32-nvidia']"
 * /usr/lib/libnvidia-ptxjitcompiler.so.565.77
 * /usr/lib/libnvidia-tls.so
 * /usr/lib/libnvidia-tls.so.565.77
-* /usr/lib/modules/6.12.9-fw1/kernel/drivers/video/nvidia-drm.ko.zst
-* /usr/lib/modules/6.12.9-fw1/kernel/drivers/video/nvidia-modeset.ko.zst
-* /usr/lib/modules/6.12.9-fw1/kernel/drivers/video/nvidia-uvm.ko.zst
-* /usr/lib/modules/6.12.9-fw1/kernel/drivers/video/nvidia.ko.zst
 * /usr/lib/vdpau/libvdpau_nvidia.so
 * /usr/lib/vdpau/libvdpau_nvidia.so.1
 * /usr/lib/vdpau/libvdpau_nvidia.so.1.0
