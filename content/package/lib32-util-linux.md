@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-util-linux 2.40.3-1"
-version = "2.40.3-1"
+title = "lib32-util-linux 2.40.4-1"
+version = "2.40.4-1"
 description = "Miscellaneous system utilities for Linux ( 32bit )"
-date = "2025-01-13T09:10:35"
+date = "2025-01-14T08:36:00"
 aliases = "/packages/217925"
 categories = ['lib32-extra']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "334688"
-usize = "1020351"
-sha1sum = "c3f04f8276006a533b1a499803d976ff66a48bf0"
-depends = "['lib32-file', 'lib32-libcap-ng>=0.7.8-5', 'lib32-libuuid>=2.40.3', 'lib32-libxcrypt', 'lib32-ncurses>=6.0-13', 'lib32-pam>=1.1.8-5', 'lib32-pcre2', 'lib32-sqlite3', 'lib32-zlib>=1.2.8-10']"
+size = "334524"
+usize = "1020095"
+sha1sum = "89ebaa5e0d69c14e20cb5cbbd4f06edef1468606"
+depends = "['lib32-file', 'lib32-libcap-ng>=0.7.8-5', 'lib32-libuuid>=2.40.4', 'lib32-libxcrypt', 'lib32-ncurses>=6.0-13', 'lib32-pam>=1.1.8-5', 'lib32-pcre2', 'lib32-sqlite3', 'lib32-zlib>=1.2.8-10']"
 reverse_depends = "['lib32-glib2', 'lib32-harfbuzz', 'lib32-libsystemd', 'lib32-pango']"
 +++
 ### Description: 

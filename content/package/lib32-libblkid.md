@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-libblkid 2.40.3-1"
-version = "2.40.3-1"
+title = "lib32-libblkid 2.40.4-1"
+version = "2.40.4-1"
 description = "Block device id library ( 32bit )"
-date = "2025-01-13T09:10:35"
+date = "2025-01-14T08:36:00"
 aliases = "/packages/217924"
 categories = ['lib32-extra']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "140684"
+size = "140708"
 usize = "357794"
-sha1sum = "0bc2e0b69dbeb60af58d75522eafbfeffc1e6fff"
-depends = "['glibc>=2.36', 'lib32-libuuid>=2.40.3']"
+sha1sum = "5f33edb0442370657db21ffa191efa16e5cc1eae"
+depends = "['glibc>=2.36', 'lib32-libuuid>=2.40.4']"
 reverse_depends = "['lib32-glib2', 'lib32-libsystemd']"
 +++
 ### Description: 
