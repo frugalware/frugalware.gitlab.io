@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lapack 3.12.0-7"
-version = "3.12.0-7"
+title = "lapack 3.12.1-1"
+version = "3.12.1-1"
 description = "Linear Algebra PACKage."
-date = "2024-05-22T10:01:44"
+date = "2025-01-14T08:59:58"
 aliases = "/packages/9231"
 categories = ['lib']
 upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
-size = "2616476"
-usize = "9666631"
-sha1sum = "86cd94f3f223d2579c056f9ebfb901082dba9e5f"
+size = "4781540"
+usize = "17559447"
+sha1sum = "2aea9f8b962f5bba95bd3d35b215a6ff3e04af25"
 depends = "['libblas', 'libgfortran>=11.2']"
 reverse_depends = "['coin-or-coinutils', 'dlib', 'julia', 'liblapacke', 'liblapacke64', 'octave', 'suitesparse']"
 +++
@@ -38,5 +38,5 @@ Linear Algebra PACKage.
 * /usr/lib/libtmglib.so.3
 * /usr/lib/libtmglib.so.3.12.0
 * /usr/lib/pkgconfig/lapack.pc
-* /usr/share/doc/lapack-3.12.0/LICENSE
-* /usr/share/doc/lapack-3.12.0/README.md
+* /usr/share/doc/lapack-3.12.1/LICENSE
+* /usr/share/doc/lapack-3.12.1/README.md

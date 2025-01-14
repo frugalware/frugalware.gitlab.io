@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vulkan-tools 1.3.296.0-1"
-version = "1.3.296.0-1"
+title = "vulkan-tools 1.4.304.0-1"
+version = "1.4.304.0-1"
 description = "Vulkan Utilities and Tools"
-date = "2024-10-14T12:46:27"
+date = "2025-01-14T09:45:55"
 aliases = "/packages/219806"
 categories = ['apps']
 upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
-size = "278264"
-usize = "1543245"
-sha1sum = "9778c00fdf9d5dd46fcdb57de1d7a90309c7c9ca"
+size = "284664"
+usize = "1356293"
+sha1sum = "a5ea1b3a5cde64e50db7259383dd4eca16f689fc"
 depends = "['libstdc++', 'libxcb', 'vulkan-icd-loader']"
 reverse_depends = "['kinfocenter']"
 +++
@@ -19,7 +19,6 @@ Vulkan Utilities and Tools
 
 ### Files: 
 * /usr/bin/vkcube
-* /usr/bin/vkcube-wayland
 * /usr/bin/vkcubepp
 * /usr/bin/vulkaninfo
-* /usr/share/doc/vulkan-tools-1.3.296.0/README.md
+* /usr/share/doc/vulkan-tools-1.4.304.0/README.md

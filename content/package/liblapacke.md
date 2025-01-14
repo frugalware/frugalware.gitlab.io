@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "liblapacke 3.12.0-7"
-version = "3.12.0-7"
+title = "liblapacke 3.12.1-1"
+version = "3.12.1-1"
 description = "C Standard Interface to LAPACK Linear Algebra Package."
-date = "2024-05-22T10:01:44"
+date = "2025-01-14T08:59:58"
 aliases = "/packages/219018"
 categories = ['lib']
 upstreamurl = "http://www.netlib.org/lapack"
 arch = "x86_64"
-size = "387884"
-usize = "2560172"
-sha1sum = "cf238078a441f1d35d808ce80366d13de9562d3b"
-depends = "['lapack>=3.12.0', 'libblas>=3.12.0', 'libgfortran>=11.2']"
+size = "755220"
+usize = "5080092"
+sha1sum = "2a963caee2223f3aa40e9abba7f93235a25b15de"
+depends = "['lapack>=3.12.1', 'libblas>=3.12.1', 'libgfortran>=11.2']"
 +++
 ### Description: 
 C Standard Interface to LAPACK Linear Algebra Package.
