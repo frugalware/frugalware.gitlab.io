@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-dri-drivers 24.3.3-1"
-version = "24.3.3-1"
+title = "mesa-dri-drivers 24.3.3-2"
+version = "24.3.3-2"
 description = "Mesa OpenGL DRI drivers."
-date = "2025-01-04T11:50:24"
+date = "2025-01-14T10:21:43"
 aliases = "/packages/136774"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "11872920"
-usize = "47492696"
-sha1sum = "d95b78d1911bcadcbd6d82f66a0fb292205b0f69"
+size = "11871592"
+usize = "47492600"
+sha1sum = "d139d7e43593975d54cc3804253e0e384e50e833"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'libgbm', 'libunwind', 'libxshmfence', 'llvm-libs>=19.1.1', 'lmsensors>=3.5.0', 'spirv-tools', 'zstd']"
 reverse_depends = "['libgl', 'qt6-webengine', 'virtualbox-guest-additions', 'xorg-server']"
 +++

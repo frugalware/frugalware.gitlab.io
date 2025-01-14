@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ogre 14.3.2-1"
-version = "14.3.2-1"
+title = "ogre 14.3.2-2"
+version = "14.3.2-2"
 description = "A scene-oriented flexible 3D engine written in C++"
-date = "2025-01-01T15:41:26"
+date = "2025-01-14T10:34:02"
 aliases = "/packages/39056"
 categories = ['xlib-extra']
 upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
-size = "7786240"
-usize = "37154421"
-sha1sum = "8b31714e1108a395c39097660e620bc9f68d56ce"
-depends = "['assimp', 'bullet', 'freeimage', 'glslang', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base', 'sdl2']"
+size = "7079304"
+usize = "34522165"
+sha1sum = "b33eec115e88492b520d68b90254d69b86095288"
+depends = "['assimp', 'bullet', 'freeimage', 'glslang>=15.1', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base', 'sdl2']"
 reverse_depends = "['ogre-media']"
 +++
 ### Description: 

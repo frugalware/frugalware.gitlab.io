@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libplacebo 7.349.0-3"
-version = "7.349.0-3"
+title = "libplacebo 7.349.0-4"
+version = "7.349.0-4"
 description = "Reusable library for GPU-accelerated video/image rendering primitives"
-date = "2024-10-15T08:16:23"
+date = "2025-01-14T10:42:41"
 aliases = "/packages/220396"
 categories = ['lib']
-upstreamurl = "https://github.com/haasn/libplacebo"
+upstreamurl = "https://code.videolan.org/videolan/libplacebo"
 arch = "x86_64"
-size = "495728"
-usize = "1660008"
-sha1sum = "d6a2d8b71fbadd79f1084f8b0d00ce7a83701d39"
-depends = "['lcms2', 'libepoxy', 'libglvnd', 'shaderc>=-2024.3', 'vulkan-icd-loader']"
+size = "498724"
+usize = "1667327"
+sha1sum = "75bebef5227c1f388b43eef6cf204335b1ef8946"
+depends = "['lcms2', 'libepoxy', 'libglvnd', 'shaderc>=2024.4', 'vulkan-icd-loader']"
 reverse_depends = "['mpv']"
 +++
 ### Description: 
