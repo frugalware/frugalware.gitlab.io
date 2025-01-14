@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnupg2 2.5.2-2"
-version = "2.5.2-2"
+title = "gnupg2 2.5.3-1"
+version = "2.5.3-1"
 description = "GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME"
-date = "2024-12-19T15:10:41"
+date = "2025-01-14T16:02:16"
 aliases = "/packages/14925"
 categories = ['apps']
 upstreamurl = "https://www.gnupg.org"
 arch = "x86_64"
-size = "2856872"
-usize = "11138767"
-sha1sum = "de1e03c01bab1e5cf0e684e295c43da14aa29bc0"
+size = "2857780"
+usize = "11193483"
+sha1sum = "3ed8375857b342409ddf789a7c5c5d93fdd7647b"
 depends = "['libassuan>=3.0.1', 'libksba>=1.3.5-2', 'libsystemd>=231-22', 'libusb1', 'ncurses>=6.0-12', 'npth>=1.5-2', 'readline>=8.0', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg', 'seahorse']"
 +++
@@ -41,36 +41,36 @@ GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME
 * /usr/lib/gnupg2/gpg-wks-client
 * /usr/lib/gnupg2/keyboxd
 * /usr/lib/gnupg2/scdaemon
-* /usr/share/doc/gnupg2-2.5.2/AUTHORS
-* /usr/share/doc/gnupg2-2.5.2/ChangeLog
-* /usr/share/doc/gnupg2-2.5.2/COPYING
-* /usr/share/doc/gnupg2-2.5.2/COPYING.CC0
-* /usr/share/doc/gnupg2-2.5.2/COPYING.GPL2
-* /usr/share/doc/gnupg2-2.5.2/COPYING.LGPL21
-* /usr/share/doc/gnupg2-2.5.2/COPYING.LGPL3
-* /usr/share/doc/gnupg2-2.5.2/COPYING.other
-* /usr/share/doc/gnupg2-2.5.2/DCO
-* /usr/share/doc/gnupg2-2.5.2/DETAILS
-* /usr/share/doc/gnupg2-2.5.2/examples/common.conf
-* /usr/share/doc/gnupg2-2.5.2/examples/gpgconf.conf
-* /usr/share/doc/gnupg2-2.5.2/examples/gpgconf.rnames
-* /usr/share/doc/gnupg2-2.5.2/examples/pwpattern.list
-* /usr/share/doc/gnupg2-2.5.2/examples/qualified.txt
-* /usr/share/doc/gnupg2-2.5.2/examples/README
-* /usr/share/doc/gnupg2-2.5.2/examples/scd-event
-* /usr/share/doc/gnupg2-2.5.2/examples/trustlist.txt
-* /usr/share/doc/gnupg2-2.5.2/FAQ
-* /usr/share/doc/gnupg2-2.5.2/HACKING
-* /usr/share/doc/gnupg2-2.5.2/INSTALL
-* /usr/share/doc/gnupg2-2.5.2/KEYSERVER
-* /usr/share/doc/gnupg2-2.5.2/NEWS
-* /usr/share/doc/gnupg2-2.5.2/OpenPGP
-* /usr/share/doc/gnupg2-2.5.2/README
-* /usr/share/doc/gnupg2-2.5.2/README.GIT
-* /usr/share/doc/gnupg2-2.5.2/THANKS
-* /usr/share/doc/gnupg2-2.5.2/TODO
-* /usr/share/doc/gnupg2-2.5.2/TRANSLATE
-* /usr/share/doc/gnupg2-2.5.2/VERSION
+* /usr/share/doc/gnupg2-2.5.3/AUTHORS
+* /usr/share/doc/gnupg2-2.5.3/ChangeLog
+* /usr/share/doc/gnupg2-2.5.3/COPYING
+* /usr/share/doc/gnupg2-2.5.3/COPYING.CC0
+* /usr/share/doc/gnupg2-2.5.3/COPYING.GPL2
+* /usr/share/doc/gnupg2-2.5.3/COPYING.LGPL21
+* /usr/share/doc/gnupg2-2.5.3/COPYING.LGPL3
+* /usr/share/doc/gnupg2-2.5.3/COPYING.other
+* /usr/share/doc/gnupg2-2.5.3/DCO
+* /usr/share/doc/gnupg2-2.5.3/DETAILS
+* /usr/share/doc/gnupg2-2.5.3/examples/common.conf
+* /usr/share/doc/gnupg2-2.5.3/examples/gpgconf.conf
+* /usr/share/doc/gnupg2-2.5.3/examples/gpgconf.rnames
+* /usr/share/doc/gnupg2-2.5.3/examples/pwpattern.list
+* /usr/share/doc/gnupg2-2.5.3/examples/qualified.txt
+* /usr/share/doc/gnupg2-2.5.3/examples/README
+* /usr/share/doc/gnupg2-2.5.3/examples/scd-event
+* /usr/share/doc/gnupg2-2.5.3/examples/trustlist.txt
+* /usr/share/doc/gnupg2-2.5.3/FAQ
+* /usr/share/doc/gnupg2-2.5.3/HACKING
+* /usr/share/doc/gnupg2-2.5.3/INSTALL
+* /usr/share/doc/gnupg2-2.5.3/KEYSERVER
+* /usr/share/doc/gnupg2-2.5.3/NEWS
+* /usr/share/doc/gnupg2-2.5.3/OpenPGP
+* /usr/share/doc/gnupg2-2.5.3/README
+* /usr/share/doc/gnupg2-2.5.3/README.GIT
+* /usr/share/doc/gnupg2-2.5.3/THANKS
+* /usr/share/doc/gnupg2-2.5.3/TODO
+* /usr/share/doc/gnupg2-2.5.3/TRANSLATE
+* /usr/share/doc/gnupg2-2.5.3/VERSION
 * /usr/share/gnupg/distsigkey.gpg
 * /usr/share/gnupg/help.be.txt
 * /usr/share/gnupg/help.ca.txt

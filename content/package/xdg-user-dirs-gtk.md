@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-user-dirs-gtk 0.11-1"
-version = "0.11-1"
+title = "xdg-user-dirs-gtk 0.12-1"
+version = "0.12-1"
 description = "Gnome integration of special directories"
-date = "2023-03-14T12:13:55"
+date = "2025-01-14T15:44:32"
 aliases = "/packages/200127"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "47496"
-usize = "216355"
-sha1sum = "6c856ad28d256b908e4b1ac7334ebe21f34b2d92"
+size = "46488"
+usize = "193053"
+sha1sum = "634a5d64533a37384d18d306e9ec4e5cd98212cb"
 depends = "['gtk+3', 'xdg-user-dirs']"
 +++
 ### Description: 
@@ -19,11 +19,12 @@ Gnome integration of special directories
 ### Files: 
 * /etc/xdg/autostart/user-dirs-update-gtk.desktop
 * /usr/bin/xdg-user-dirs-gtk-update
-* /usr/share/doc/xdg-user-dirs-gtk-0.11/AUTHORS
-* /usr/share/doc/xdg-user-dirs-gtk-0.11/ChangeLog
-* /usr/share/doc/xdg-user-dirs-gtk-0.11/COPYING
-* /usr/share/doc/xdg-user-dirs-gtk-0.11/NEWS
-* /usr/share/doc/xdg-user-dirs-gtk-0.11/README
+* /usr/data/applications/user-dirs-update-gtk.desktop
+* /usr/share/doc/xdg-user-dirs-gtk-0.12/AUTHORS
+* /usr/share/doc/xdg-user-dirs-gtk-0.12/ChangeLog
+* /usr/share/doc/xdg-user-dirs-gtk-0.12/COPYING
+* /usr/share/doc/xdg-user-dirs-gtk-0.12/NEWS
+* /usr/share/doc/xdg-user-dirs-gtk-0.12/README
 * /usr/share/locale/af/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/an/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs-gtk.mo
@@ -58,10 +59,12 @@ Gnome integration of special directories
 * /usr/share/locale/hr/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/hu/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/id/LC_MESSAGES/xdg-user-dirs-gtk.mo
+* /usr/share/locale/ie/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/is/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/it/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/ja/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/ka/LC_MESSAGES/xdg-user-dirs-gtk.mo
+* /usr/share/locale/kab/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/kg/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/kk/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/kn/LC_MESSAGES/xdg-user-dirs-gtk.mo

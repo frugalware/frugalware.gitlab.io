@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "upower 1.90.6-1"
-version = "1.90.6-1"
+title = "upower 1.90.7-1"
+version = "1.90.7-1"
 description = "upower provides a daemon, API and command line tools for managing power devices attached to the system."
-date = "2024-09-22T17:44:47"
+date = "2025-01-14T15:46:27"
 aliases = "/packages/103197"
 categories = ['xapps']
 upstreamurl = "http://upower.freedesktop.org"
 arch = "x86_64"
-size = "173668"
-usize = "1084330"
-sha1sum = "7884995716c69cec7d21a208737c81d5b2d0d06c"
+size = "175364"
+usize = "1110588"
+sha1sum = "a61393ef977b9a4049746d279023912ca810501d"
 depends = "['dbus-glib>=0.108-3', 'libgudev>=230-7', 'libimobiledevice>=1.3.0', 'libsystemd>=231-6', 'libusb1>=1.0.20-5']"
 reverse_depends = "['clight', 'mixxx', 'power-profiles-daemon', 'solid', 'solid5']"
 +++
@@ -54,12 +54,11 @@ upower provides a daemon, API and command line tools for managing power devices 
 * /usr/share/dbus-1/interfaces/org.freedesktop.UPower.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.UPower.service
 * /usr/share/dbus-1/system.d/org.freedesktop.UPower.conf
-* /usr/share/doc/upower-1.90.6/AUTHORS
-* /usr/share/doc/upower-1.90.6/COPYING
-* /usr/share/doc/upower-1.90.6/HACKING
-* /usr/share/doc/upower-1.90.6/NEWS
-* /usr/share/doc/upower-1.90.6/README
-* /usr/share/doc/upower-1.90.6/RELEASE
+* /usr/share/doc/upower-1.90.7/AUTHORS
+* /usr/share/doc/upower-1.90.7/COPYING
+* /usr/share/doc/upower-1.90.7/NEWS
+* /usr/share/doc/upower-1.90.7/README.md
+* /usr/share/doc/upower-1.90.7/RELEASE
 * /usr/share/gir-1.0/UPowerGlib-1.0.gir
 * /usr/share/gtk-doc/html/UPower/annotation-glossary.html
 * /usr/share/gtk-doc/html/UPower/Device.html
@@ -85,6 +84,7 @@ upower provides a daemon, API and command line tools for managing power devices 
 * /usr/share/gtk-doc/html/UPower/UPower-up-types.html
 * /usr/share/gtk-doc/html/UPower/upower.1.html
 * /usr/share/gtk-doc/html/UPower/UPower.7.html
+* /usr/share/gtk-doc/html/UPower/UPower.devhelp2
 * /usr/share/gtk-doc/html/UPower/UPower.html
 * /usr/share/gtk-doc/html/UPower/upowerd.8.html
 * /usr/share/gtk-doc/html/UPower/UpStatsItem.html
@@ -92,3 +92,4 @@ upower provides a daemon, API and command line tools for managing power devices 
 * /usr/share/man/man1/upower.1.gz
 * /usr/share/man/man7/UPower.7.gz
 * /usr/share/man/man8/upowerd.8.gz
+* /usr/share/zsh/site-functions/_upower
