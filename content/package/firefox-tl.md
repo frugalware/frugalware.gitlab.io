@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-tl 134.0-1"
-version = "134.0-1"
+title = "firefox-tl 134.0.1-1"
+version = "134.0.1-1"
 description = "Tagalog language support for Firefox"
-date = "2025-01-07T12:15:34"
+date = "2025-01-15T12:17:43"
 aliases = "/packages/220013"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "480052"
-usize = "538552"
-sha1sum = "1d7b4d9c2f76279c6e2ec9f7c3ed51a3b0d549e6"
-depends = "['firefox>=134.0']"
+size = "479456"
+usize = "538547"
+sha1sum = "53bed6b113bf0ccc1f4b99b2d22997f35c3c1e7c"
+depends = "['firefox>=134.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

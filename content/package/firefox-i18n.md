@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-i18n 134.0-1"
-version = "134.0-1"
+title = "firefox-i18n 134.0.1-1"
+version = "134.0.1-1"
 description = "Language support for Firefox"
-date = "2025-01-07T12:15:34"
+date = "2025-01-15T12:17:43"
 aliases = "/packages/73527"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "10344"
+size = "10360"
 usize = "0"
-sha1sum = "bfdf27d61e59b2e20cc7ac70fa8ef71e17bc3282"
-depends = "['firefox>=134.0', 'firefox-ach', 'firefox-af', 'firefox-an', 'firefox-ar', 'firefox-ast', 'firefox-az', 'firefox-be', 'firefox-bg', 'firefox-bn', 'firefox-br', 'firefox-bs', 'firefox-ca', 'firefox-ca-valencia', 'firefox-cak', 'firefox-cs', 'firefox-cy', 'firefox-da', 'firefox-de', 'firefox-dsb', 'firefox-el', 'firefox-en-ca', 'firefox-en-gb', 'firefox-en-us', 'firefox-eo', 'firefox-es-ar', 'firefox-es-cl', 'firefox-es-es', 'firefox-es-mx', 'firefox-et', 'firefox-eu', 'firefox-fa', 'firefox-ff', 'firefox-fi', 'firefox-fr', 'firefox-fur', 'firefox-fy-nl', 'firefox-ga-ie', 'firefox-gd', 'firefox-gl', 'firefox-gn', 'firefox-gu-in', 'firefox-he', 'firefox-hi-in', 'firefox-hr', 'firefox-hsb', 'firefox-hu', 'firefox-hy-am', 'firefox-ia', 'firefox-id', 'firefox-is', 'firefox-it', 'firefox-ja', 'firefox-ka', 'firefox-kab', 'firefox-kk', 'firefox-km', 'firefox-kn', 'firefox-ko', 'firefox-lij', 'firefox-lt', 'firefox-lv', 'firefox-mk', 'firefox-mr', 'firefox-ms', 'firefox-my', 'firefox-nb-no', 'firefox-ne-np', 'firefox-nl', 'firefox-nn-no', 'firefox-oc', 'firefox-pa-in', 'firefox-pl', 'firefox-pt-br', 'firefox-pt-pt', 'firefox-rm', 'firefox-ro', 'firefox-ru', 'firefox-sat', 'firefox-sc', 'firefox-sco', 'firefox-si', 'firefox-sk', 'firefox-skr', 'firefox-sl', 'firefox-son', 'firefox-sq', 'firefox-sr', 'firefox-sv-se', 'firefox-szl', 'firefox-ta', 'firefox-te', 'firefox-tg', 'firefox-th', 'firefox-tl', 'firefox-tr', 'firefox-trs', 'firefox-uk', 'firefox-ur', 'firefox-uz', 'firefox-vi', 'firefox-xh', 'firefox-zh-cn', 'firefox-zh-tw']"
+sha1sum = "55a76da4665e49e537638dc834e51fc077e7f888"
+depends = "['firefox>=134.0.1', 'firefox-ach', 'firefox-af', 'firefox-an', 'firefox-ar', 'firefox-ast', 'firefox-az', 'firefox-be', 'firefox-bg', 'firefox-bn', 'firefox-br', 'firefox-bs', 'firefox-ca', 'firefox-ca-valencia', 'firefox-cak', 'firefox-cs', 'firefox-cy', 'firefox-da', 'firefox-de', 'firefox-dsb', 'firefox-el', 'firefox-en-ca', 'firefox-en-gb', 'firefox-en-us', 'firefox-eo', 'firefox-es-ar', 'firefox-es-cl', 'firefox-es-es', 'firefox-es-mx', 'firefox-et', 'firefox-eu', 'firefox-fa', 'firefox-ff', 'firefox-fi', 'firefox-fr', 'firefox-fur', 'firefox-fy-nl', 'firefox-ga-ie', 'firefox-gd', 'firefox-gl', 'firefox-gn', 'firefox-gu-in', 'firefox-he', 'firefox-hi-in', 'firefox-hr', 'firefox-hsb', 'firefox-hu', 'firefox-hy-am', 'firefox-ia', 'firefox-id', 'firefox-is', 'firefox-it', 'firefox-ja', 'firefox-ka', 'firefox-kab', 'firefox-kk', 'firefox-km', 'firefox-kn', 'firefox-ko', 'firefox-lij', 'firefox-lt', 'firefox-lv', 'firefox-mk', 'firefox-mr', 'firefox-ms', 'firefox-my', 'firefox-nb-no', 'firefox-ne-np', 'firefox-nl', 'firefox-nn-no', 'firefox-oc', 'firefox-pa-in', 'firefox-pl', 'firefox-pt-br', 'firefox-pt-pt', 'firefox-rm', 'firefox-ro', 'firefox-ru', 'firefox-sat', 'firefox-sc', 'firefox-sco', 'firefox-si', 'firefox-sk', 'firefox-skr', 'firefox-sl', 'firefox-son', 'firefox-sq', 'firefox-sr', 'firefox-sv-se', 'firefox-szl', 'firefox-ta', 'firefox-te', 'firefox-tg', 'firefox-th', 'firefox-tl', 'firefox-tr', 'firefox-trs', 'firefox-uk', 'firefox-ur', 'firefox-uz', 'firefox-vi', 'firefox-xh', 'firefox-zh-cn', 'firefox-zh-tw']"
 +++
 ### Description: 
 Language support for Firefox

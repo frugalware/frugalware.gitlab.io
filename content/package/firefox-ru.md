@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ru 134.0-1"
-version = "134.0-1"
+title = "firefox-ru 134.0.1-1"
+version = "134.0.1-1"
 description = "Russian language support for Firefox"
-date = "2025-01-07T12:15:34"
+date = "2025-01-15T12:17:43"
 aliases = "/packages/3591"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "698896"
-usize = "750993"
-sha1sum = "e389ef3fa89c346b98eb6bf2b9c337b06617bef6"
-depends = "['firefox>=134.0']"
+size = "698668"
+usize = "750985"
+sha1sum = "f1aee876344fe250a8592809e66aeb33c5b2a5a9"
+depends = "['firefox>=134.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

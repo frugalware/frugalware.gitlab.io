@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-pa-in 134.0-1"
-version = "134.0-1"
+title = "firefox-pa-in 134.0.1-1"
+version = "134.0.1-1"
 description = "Panjabi language support for Firefox"
-date = "2025-01-07T12:15:34"
+date = "2025-01-15T12:17:43"
 aliases = "/packages/73646"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "667424"
-usize = "723083"
-sha1sum = "774ae62cdc34eda38ed3e85c41a13e018d2a0ca6"
-depends = "['firefox>=134.0']"
+size = "667668"
+usize = "723077"
+sha1sum = "0bac8eb9799c1bf3a5cdde198de32dfe3daf776f"
+depends = "['firefox>=134.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
