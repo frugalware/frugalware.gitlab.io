@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libclc 19.1.6-1"
-version = "19.1.6-1"
+title = "libclc 19.1.7-1"
+version = "19.1.7-1"
 description = "Library requirements of the OpenCL C programming language"
-date = "2024-12-18T11:46:42"
+date = "2025-01-15T17:11:17"
 aliases = "/packages/217322"
 categories = ['lib']
 upstreamurl = "http://libclc.llvm.org/"
 arch = "x86_64"
-size = "14007796"
+size = "14008760"
 usize = "87573626"
-sha1sum = "cb84e1b6678593695774231401c22c46665d1e33"
+sha1sum = "0b22f9b5cc48afc9b6e2f479e71a42cfb2829706"
 depends = "['glibc']"
 reverse_depends = "['lib32-opencl-clover', 'opencl-clover', 'opencl-rusticl']"
 +++
@@ -421,5 +421,5 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/turks-r600--.bc
 * /usr/share/clc/verde-amdgcn--.bc
 * /usr/share/clc/verde-amdgcn-mesa-mesa3d.bc
-* /usr/share/doc/libclc-19.1.6/README.md
+* /usr/share/doc/libclc-19.1.7/README.md
 * /usr/share/pkgconfig/libclc.pc

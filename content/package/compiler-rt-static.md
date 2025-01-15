@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "compiler-rt-static 19.1.6-1"
-version = "19.1.6-1"
+title = "compiler-rt-static 19.1.7-1"
+version = "19.1.7-1"
 description = "Compiler runtime libraries for clang (static)"
-date = "2024-12-18T10:54:02"
+date = "2025-01-15T16:19:20"
 aliases = "/packages/219974"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2103548"
-usize = "32670988"
-sha1sum = "b32dac673be0d1a5dce6e73de692751f05e925a7"
+size = "2102872"
+usize = "32671036"
+sha1sum = "d06e48347626d8a71aac5f33549c1e56a3db0070"
 depends = "[]"
 +++
 ### Description: 
