@@ -1,21 +1,21 @@
 +++
 draft = false
-title = "sqlite3-tcl 3.47.2-1"
-version = "3.47.2-1"
+title = "sqlite3-tcl 3.48.0-1"
+version = "3.48.0-1"
 description = "sqlite Tcl Extension Architecture (TEA)"
-date = "2024-12-09T12:25:38"
+date = "2025-01-15T13:52:14"
 aliases = "/packages/221179"
 categories = ['devel-extra']
 upstreamurl = "http://www.sqlite.org/"
 arch = "x86_64"
-size = "686320"
-usize = "1534737"
-sha1sum = "8fa0920317f2e2cf74040fd5bf2a33ab42f1aa4e"
+size = "687676"
+usize = "1539300"
+sha1sum = "fc95b0fda6d5c3d21af29d949657ba72ac59b705"
 depends = "['tcl']"
 +++
 ### Description: 
 sqlite Tcl Extension Architecture (TEA)
 
 ### Files: 
-* /usr/lib/sqlite3.47.2/libtcl9sqlite3.47.2.so
-* /usr/lib/sqlite3.47.2/pkgIndex.tcl
+* /usr/lib/sqlite3.48.0/libtclsqlite3.so
+* /usr/lib/sqlite3.48.0/pkgIndex.tcl

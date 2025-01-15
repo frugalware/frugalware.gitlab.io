@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxcrypt 4.4.37-1"
-version = "4.4.37-1"
+title = "libxcrypt 4.4.38-1"
+version = "4.4.38-1"
 description = "Modern library for one-way hashing of passwords"
-date = "2024-12-30T16:50:48"
+date = "2025-01-15T13:38:49"
 aliases = "/packages/221225"
 categories = ['base']
 upstreamurl = "https://github.com/besser82/libxcrypt"
 arch = "x86_64"
-size = "109272"
-usize = "287453"
-sha1sum = "5660d302067635cae15d00f14d62738ad9ce8582"
+size = "109468"
+usize = "287777"
+sha1sum = "6a9a068e96ff02087e8ce924eb4bdd3dc798b082"
 depends = "['glibc']"
 reverse_depends = "['inetutils', 'lib32-libxcrypt', 'libreswan', 'libsmbclient', 'libsystemd', 'libxcrypt-compat', 'openldap', 'openvas-libraries', 'pam', 'ppp', 'saslauthd', 'shadow', 'squid', 'sudo', 'util-linux', 'uwsgi-plugin-router', 'xscreensaver-data']"
 +++
@@ -26,14 +26,14 @@ Modern library for one-way hashing of passwords
 * /usr/lib/libcrypt.so.2.0.0
 * /usr/lib/pkgconfig/libcrypt.pc
 * /usr/lib/pkgconfig/libxcrypt.pc
-* /usr/share/doc/libxcrypt-4.4.37/AUTHORS
-* /usr/share/doc/libxcrypt-4.4.37/ChangeLog
-* /usr/share/doc/libxcrypt-4.4.37/COPYING.LIB
-* /usr/share/doc/libxcrypt-4.4.37/INSTALL
-* /usr/share/doc/libxcrypt-4.4.37/NEWS
-* /usr/share/doc/libxcrypt-4.4.37/README
-* /usr/share/doc/libxcrypt-4.4.37/THANKS
-* /usr/share/doc/libxcrypt-4.4.37/TODO
+* /usr/share/doc/libxcrypt-4.4.38/AUTHORS
+* /usr/share/doc/libxcrypt-4.4.38/ChangeLog
+* /usr/share/doc/libxcrypt-4.4.38/COPYING.LIB
+* /usr/share/doc/libxcrypt-4.4.38/INSTALL
+* /usr/share/doc/libxcrypt-4.4.38/NEWS
+* /usr/share/doc/libxcrypt-4.4.38/README
+* /usr/share/doc/libxcrypt-4.4.38/THANKS
+* /usr/share/doc/libxcrypt-4.4.38/TODO
 * /usr/share/man/man3/crypt.3.gz
 * /usr/share/man/man3/crypt_checksalt.3.gz
 * /usr/share/man/man3/crypt_gensalt.3.gz

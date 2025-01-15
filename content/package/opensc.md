@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opensc 0.26.0-1"
-version = "0.26.0-1"
+title = "opensc 0.26.1-1"
+version = "0.26.1-1"
 description = "Tools and libraries for smart cards"
-date = "2024-11-13T12:42:30"
+date = "2025-01-15T12:52:27"
 aliases = "/packages/219996"
 categories = ['base']
 upstreamurl = "https://github.com/OpenSC/OpenSC/wiki"
 arch = "x86_64"
-size = "1218228"
-usize = "3709042"
-sha1sum = "0d98d615c6808e4b2569cc977954b7542361e446"
+size = "1198544"
+usize = "3647866"
+sha1sum = "ec034148e441dd33cd576c1ce3d00d668482a88d"
 depends = "['openssl>=3.1.0', 'pcsc-lite']"
 reverse_depends = "['rng-tools']"
 +++
@@ -68,10 +68,10 @@ Tools and libraries for smart cards
 * /usr/bin/westcos-tool
 * /usr/lib/libopensc.so
 * /usr/lib/libopensc.so.12
-* /usr/lib/libopensc.so.12.0.1
+* /usr/lib/libopensc.so.12.0.2
 * /usr/lib/libsmm-local.so
 * /usr/lib/libsmm-local.so.12
-* /usr/lib/libsmm-local.so.12.0.1
+* /usr/lib/libsmm-local.so.12.0.2
 * /usr/lib/onepin-opensc-pkcs11.so
 * /usr/lib/opensc-pkcs11.so
 * /usr/lib/pkcs11-spy.so
@@ -80,10 +80,10 @@ Tools and libraries for smart cards
 * /usr/lib/pkcs11/pkcs11-spy.so
 * /usr/lib/pkgconfig/opensc-pkcs11.pc
 * /usr/share/applications/org.opensc.notify.desktop
-* /usr/share/doc/opensc-0.26.0/COPYING
-* /usr/share/doc/opensc-0.26.0/NEWS
-* /usr/share/doc/opensc-0.26.0/opensc.conf
-* /usr/share/doc/opensc-0.26.0/README
+* /usr/share/doc/opensc-0.26.1/COPYING
+* /usr/share/doc/opensc-0.26.1/NEWS
+* /usr/share/doc/opensc-0.26.1/opensc.conf
+* /usr/share/doc/opensc-0.26.1/README
 * /usr/share/man/man1/cardos-tool.1.gz
 * /usr/share/man/man1/cryptoflex-tool.1.gz
 * /usr/share/man/man1/dnie-tool.1.gz
