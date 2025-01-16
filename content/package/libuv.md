@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libuv 1.49.2-1"
-version = "1.49.2-1"
+title = "libuv 1.50.0-1"
+version = "1.50.0-1"
 description = "Multi-platform support library with a focus on asynchronous I/O"
-date = "2024-10-21T14:44:36"
+date = "2025-01-16T09:41:03"
 aliases = "/packages/219701"
 categories = ['lib']
 upstreamurl = "https://github.com/libuv/libuv"
 arch = "x86_64"
-size = "156960"
-usize = "537124"
-sha1sum = "0101942335c5b99bc7423897cb99346020d7bf5e"
+size = "159000"
+usize = "542106"
+sha1sum = "1c8c30f5751ab0a2851168d97327deeca7944936"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bind', 'cmake', 'libluv', 'libwebsockets', 'nodejs', 'nodejs20', 'ocaml-luv']"
 +++
@@ -28,7 +28,7 @@ Multi-platform support library with a focus on asynchronous I/O
 * /usr/lib/libuv.so.1
 * /usr/lib/libuv.so.1.0.0
 * /usr/lib/pkgconfig/libuv.pc
-* /usr/share/doc/libuv-1.49.2/AUTHORS
-* /usr/share/doc/libuv-1.49.2/ChangeLog
-* /usr/share/doc/libuv-1.49.2/LICENSE
-* /usr/share/doc/libuv-1.49.2/README.md
+* /usr/share/doc/libuv-1.50.0/AUTHORS
+* /usr/share/doc/libuv-1.50.0/ChangeLog
+* /usr/share/doc/libuv-1.50.0/LICENSE
+* /usr/share/doc/libuv-1.50.0/README.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-ladspa 1.24.11-1"
-version = "1.24.11-1"
+title = "gst1-plugins-bad-ladspa 1.25.1-1"
+version = "1.25.1-1"
 description = "GStreamer ladspa plugin (Bad)."
-date = "2025-01-07T09:58:53"
+date = "2025-01-16T10:10:05"
 aliases = "/packages/221277"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "24080"
-usize = "47120"
-sha1sum = "31e86a0468af9b9d8c210e9cce163fe1a54a77ee"
-depends = "['gst1-plugins-bad>=1.24.11', 'gst1-plugins-base>=1.24.11', 'ladspa_sdk']"
+size = "24112"
+usize = "47104"
+sha1sum = "bb92a9b584d61661b73593fdb2a42631fc66d860"
+depends = "['gst1-plugins-bad>=1.25.1', 'gst1-plugins-base>=1.25.1', 'ladspa_sdk']"
 +++
 ### Description: 
 GStreamer ladspa plugin (Bad).

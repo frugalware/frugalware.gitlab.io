@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsecret-vala 0.21.4-1"
-version = "0.21.4-1"
+title = "libsecret-vala 0.21.6-1"
+version = "0.21.6-1"
 description = "Libsecret Vala Bindings"
-date = "2024-02-25T15:03:49"
+date = "2025-01-16T09:35:02"
 aliases = "/packages/200135"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "4956"
-usize = "27373"
-sha1sum = "3bdee205c48e03e27940727777a1ad13cd1a1f97"
+size = "5012"
+usize = "27527"
+sha1sum = "d3f12d926a6c55756967eb5ee129d4fa9a108618"
 depends = "['vala>=0.40.0']"
 reverse_depends = "['seahorse']"
 +++

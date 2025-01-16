@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsecret 0.21.4-1"
-version = "0.21.4-1"
+title = "libsecret 0.21.6-1"
+version = "0.21.6-1"
 description = "Library for storing and retrieving passwords and other secrets"
-date = "2024-02-25T15:03:49"
+date = "2025-01-16T09:35:02"
 aliases = "/packages/168887"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1311224"
-usize = "5525377"
-sha1sum = "7af30701dab3eda0bf16b781313637105d064070"
+size = "1301684"
+usize = "5357702"
+sha1sum = "53114f99378eabd4f314eb25d1723eccec086633"
 depends = "['libgcrypt>=1.7.3-2']"
 reverse_depends = "['darktable', 'element', 'gcr', 'gcr-1', 'gvfs', 'msmtp', 'nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'pinentry', 'pulsar', 'qtkeychain', 'qtkeychain-qt5', 'quba', 'remmina-secret', 'slack-desktop', 'teams-for-linux', 'vlc-secret', 'vscode', 'webkit-gtk3', 'zulucrypt']"
 +++
@@ -41,10 +41,10 @@ Library for storing and retrieving passwords and other secrets
 * /usr/lib/libsecret-1.so.0.0.0
 * /usr/lib/pkgconfig/libsecret-1.pc
 * /usr/lib/pkgconfig/libsecret-unstable.pc
-* /usr/share/doc/libsecret-0.21.4/COPYING
-* /usr/share/doc/libsecret-0.21.4/COPYING.TESTS
-* /usr/share/doc/libsecret-0.21.4/NEWS
-* /usr/share/doc/libsecret-0.21.4/README.md
+* /usr/share/doc/libsecret-0.21.6/COPYING
+* /usr/share/doc/libsecret-0.21.6/COPYING.TESTS
+* /usr/share/doc/libsecret-0.21.6/NEWS
+* /usr/share/doc/libsecret-0.21.6/README.md
 * /usr/share/doc/libsecret-1/class.Collection.html
 * /usr/share/doc/libsecret-1/class.Item.html
 * /usr/share/doc/libsecret-1/class.Prompt.html
@@ -365,64 +365,4 @@ Library for storing and retrieving passwords and other secrets
 * /usr/share/doc/libsecret-1/vfunc.Service.prompt_finish.html
 * /usr/share/doc/libsecret-1/vfunc.Service.prompt_sync.html
 * /usr/share/gir-1.0/Secret-1.gir
-* /usr/share/locale/ab/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/an/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ar/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/as/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/be/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/bg/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/bs/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ca/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ckb/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/cs/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/da/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/de/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/el/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/eo/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/es/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/eu/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/fa/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/fi/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/fr/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/fur/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/gl/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/he/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/hr/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/hu/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/id/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ie/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/it/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ja/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ka/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/kk/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ko/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/lt/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/lv/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ml/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ms/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/nb/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ne/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/nl/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/oc/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/pa/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/pl/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/pt/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ro/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ru/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/sk/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/sl/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/sr/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/sv/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/ta/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/tg/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/tr/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/uk/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/vi/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/libsecret.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libsecret.mo
 * /usr/share/man/man1/secret-tool.1.gz
