@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-ugly-dvdread 1.24.11-1"
-version = "1.24.11-1"
+title = "gst1-plugins-ugly-dvdread 1.25.1-1"
+version = "1.25.1-1"
 description = "GStreamer dvdread plugin (Ugly)."
-date = "2025-01-07T10:28:10"
+date = "2025-01-16T10:16:59"
 aliases = "/packages/168875"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "23116"
-usize = "43184"
-sha1sum = "3406ef4bb48cdd2923102c46c188372228f65eb9"
-depends = "['gst1-plugins-base>=1.24.11', 'gst1-plugins-ugly>=1.24.11', 'libdvdread>=6.1.1', 'libffi>=3.2.1-2']"
+size = "23172"
+usize = "43152"
+sha1sum = "7b2961990fadbc27cc4c494e811ce49fa364df1a"
+depends = "['gst1-plugins-base>=1.25.1', 'gst1-plugins-ugly>=1.25.1', 'libdvdread>=6.1.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer dvdread plugin (Ugly).
