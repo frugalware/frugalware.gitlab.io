@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chromium-browser 131.0.6778.264-1"
-version = "131.0.6778.264-1"
+title = "chromium-browser 132.0.6834.83-1"
+version = "132.0.6834.83-1"
 description = "Chromium browser"
-date = "2025-01-08T14:23:22"
+date = "2025-01-16T15:55:28"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "130632108"
-usize = "493184414"
-sha1sum = "410876f7b269e9b63c203ba8c85a04e94c6f2dfd"
+size = "125331020"
+usize = "484923546"
+sha1sum = "0f246a04adc8a0e52cec635b4aaad60f82054a99"
 depends = "['curl', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
@@ -27,8 +27,6 @@ Chromium browser
 * /usr/lib/chromium/chrome_crashpad_handler
 * /usr/lib/chromium/chromium
 * /usr/lib/chromium/headless_command_resources.pak
-* /usr/lib/chromium/headless_lib_data.pak
-* /usr/lib/chromium/headless_lib_strings.pak
 * /usr/lib/chromium/libEGL.so
 * /usr/lib/chromium/libffmpeg.so
 * /usr/lib/chromium/libGLESv2.so
@@ -159,10 +157,10 @@ Chromium browser
 * /usr/lib/chromium/v8_context_snapshot.bin
 * /usr/lib/chromium/vk_swiftshader_icd.json
 * /usr/share/applications/chromium.desktop
-* /usr/share/doc/chromium-browser-131.0.6778.264/AUTHORS
-* /usr/share/doc/chromium-browser-131.0.6778.264/LICENSE
-* /usr/share/doc/chromium-browser-131.0.6778.264/LICENSE.chromium_os
-* /usr/share/doc/chromium-browser-131.0.6778.264/README.md
+* /usr/share/doc/chromium-browser-132.0.6834.83/AUTHORS
+* /usr/share/doc/chromium-browser-132.0.6834.83/LICENSE
+* /usr/share/doc/chromium-browser-132.0.6834.83/LICENSE.chromium_os
+* /usr/share/doc/chromium-browser-132.0.6834.83/README.md
 * /usr/share/icons/hicolor/128x128/apps/chromium.png
 * /usr/share/icons/hicolor/16x16/apps/chromium.png
 * /usr/share/icons/hicolor/24x24/apps/chromium.png
