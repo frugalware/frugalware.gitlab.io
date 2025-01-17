@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitty 0.38.1-1"
-version = "0.38.1-1"
+title = "kitty 0.39.0-1"
+version = "0.39.0-1"
 description = "A modern, hackable, featureful, OpenGL-based terminal emulator"
-date = "2024-12-28T19:58:52"
+date = "2025-01-17T19:24:51"
 aliases = "/packages/220895"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/kovidgoyal/kitty"
 arch = "x86_64"
-size = "13764056"
-usize = "49004695"
-sha1sum = "ab1e5a61f2ef25bad8bba018d5d81b04e4a6899b"
+size = "13780616"
+usize = "49209497"
+sha1sum = "22447a6a870cd9cbf22061b157d1a53f9d0f7c8e"
 depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.13', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
@@ -383,6 +383,7 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/options/__pycache__/__init__.cpython-313.opt-2.pyc
 * /usr/lib/kitty/kitty/options/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/kitty/kitty/os_window_size.py
+* /usr/lib/kitty/kitty/progress.py
 * /usr/lib/kitty/kitty/rc/action.py
 * /usr/lib/kitty/kitty/rc/base.py
 * /usr/lib/kitty/kitty/rc/close_tab.py
@@ -652,6 +653,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/lib/kitty/kitty/__pycache__/os_window_size.cpython-313.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/os_window_size.cpython-313.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/os_window_size.cpython-313.pyc
+* /usr/lib/kitty/kitty/__pycache__/progress.cpython-313.opt-1.pyc
+* /usr/lib/kitty/kitty/__pycache__/progress.cpython-313.opt-2.pyc
+* /usr/lib/kitty/kitty/__pycache__/progress.cpython-313.pyc
 * /usr/lib/kitty/kitty/__pycache__/remote_control.cpython-313.opt-1.pyc
 * /usr/lib/kitty/kitty/__pycache__/remote_control.cpython-313.opt-2.pyc
 * /usr/lib/kitty/kitty/__pycache__/remote_control.cpython-313.pyc
@@ -737,9 +741,9 @@ A modern, hackable, featureful, OpenGL-based terminal emulator
 * /usr/share/applications/kitty-open.desktop
 * /usr/share/applications/kitty.desktop
 * /usr/share/bash-completion/completions/kitty
-* /usr/share/doc/kitty-0.38.1/INSTALL.md
-* /usr/share/doc/kitty-0.38.1/LICENSE
-* /usr/share/doc/kitty-0.38.1/README.asciidoc
+* /usr/share/doc/kitty-0.39.0/INSTALL.md
+* /usr/share/doc/kitty-0.39.0/LICENSE
+* /usr/share/doc/kitty-0.39.0/README.asciidoc
 * /usr/share/doc/kitty/html/.buildinfo
 * /usr/share/doc/kitty/html/.nojekyll
 * /usr/share/doc/kitty/html/actions.html

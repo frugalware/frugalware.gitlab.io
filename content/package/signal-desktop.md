@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.36.1-1"
-version = "7.36.1-1"
+title = "signal-desktop 7.38.0-1"
+version = "7.38.0-1"
 description = "Signal Private Messenger for Linux"
-date = "2024-12-22T13:31:42"
+date = "2025-01-17T20:07:09"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "120766432"
-usize = "437010638"
-sha1sum = "800c980a4f676a5e25d82b3fc8dbc460c3f6d81b"
+size = "121072424"
+usize = "437950238"
+sha1sum = "73d6b421195b6357c583dc01e95ad75e3a56e1c9"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -129,14 +129,16 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/libsignal-client/prebuilds/linux-x64/@signalapp+libsignal-client.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/ringrtc/build/linux/libringrtc-x64.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/fs-xattr/build/Release/xattr.node
+* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/mac-screen-capture-permissions/build/Release/screencapturepermissions.node
+* /usr/lib/signal-desktop/resources/apparmor-profile
 * /usr/lib/signal-desktop/resources/package-type
 * /usr/lib/signal-desktop/signal-desktop
 * /usr/lib/signal-desktop/snapshot_blob.bin
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.36.1/LICENSE
-* /usr/share/doc/signal-desktop-7.36.1/README.md
+* /usr/share/doc/signal-desktop-7.38.0/LICENSE
+* /usr/share/doc/signal-desktop-7.38.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png
