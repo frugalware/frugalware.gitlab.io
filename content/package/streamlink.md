@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 7.1.1-1"
-version = "7.1.1-1"
+title = "streamlink 7.1.2-1"
+version = "7.1.2-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2024-12-30T17:27:38"
+date = "2025-01-17T13:30:42"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "806612"
-usize = "4044543"
-sha1sum = "d8bc62dfbe9188c0217dab96dd8976aff1101655"
+size = "808628"
+usize = "4056834"
+sha1sum = "8f4ea5a36b4b263be8c6875671b3856c1e7b2510"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -530,6 +530,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/streamlink-7.1.1/AUTHORS
-* /usr/share/doc/streamlink-7.1.1/LICENSE
-* /usr/share/doc/streamlink-7.1.1/README.md
+* /usr/share/doc/streamlink-7.1.2/AUTHORS
+* /usr/share/doc/streamlink-7.1.2/LICENSE
+* /usr/share/doc/streamlink-7.1.2/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vale 3.9.2-1"
-version = "3.9.2-1"
+title = "vale 3.9.3-1"
+version = "3.9.3-1"
 description = "A customizable, syntax-aware linter for prose"
-date = "2024-12-28T18:51:03"
+date = "2025-01-17T13:44:04"
 aliases = "/packages/221023"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/errata-ai/vale"
 arch = "x86_64"
-size = "8044268"
-usize = "44735458"
-sha1sum = "2aa3a6cf15b06a9e9547c6d87998b4f2fe01990c"
+size = "8048840"
+usize = "44735074"
+sha1sum = "ca665de2f7410da10bc297188b5a768ca26288f9"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -18,5 +18,5 @@ A customizable, syntax-aware linter for prose
 
 ### Files: 
 * /usr/bin/vale
-* /usr/share/doc/vale-3.9.2/LICENSE
-* /usr/share/doc/vale-3.9.2/README.md
+* /usr/share/doc/vale-3.9.3/LICENSE
+* /usr/share/doc/vale-3.9.3/README.md

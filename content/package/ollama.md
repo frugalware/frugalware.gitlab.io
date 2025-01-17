@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ollama 0.5.4-1"
-version = "0.5.4-1"
+title = "ollama 0.5.7-1"
+version = "0.5.7-1"
 description = "Create, run and share large language models (LLMs)"
-date = "2024-12-18T13:50:24"
+date = "2025-01-17T14:10:39"
 aliases = "/packages/222576"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ollama/ollama"
 arch = "x86_64"
-size = "7519344"
-usize = "27338600"
-sha1sum = "f1c6244d09dd4c42a4b72ff2bb8dbaf47daa7058"
+size = "7494180"
+usize = "27455307"
+sha1sum = "61f500f5d0150d22c54d09ea6079741316d21d2c"
 depends = "['glibc']"
 reverse_depends = "['alpaca']"
 +++
@@ -22,6 +22,6 @@ Create, run and share large language models (LLMs)
 * /usr/lib/systemd/system/ollama.service
 * /usr/lib/sysusers.d/ollama.conf
 * /usr/lib/tmpfiles.d/ollama.conf
-* /usr/share/doc/ollama-0.5.4/LICENSE
-* /usr/share/doc/ollama-0.5.4/README.md
+* /usr/share/doc/ollama-0.5.7/LICENSE
+* /usr/share/doc/ollama-0.5.7/README.md
 * /usr/share/ollama
