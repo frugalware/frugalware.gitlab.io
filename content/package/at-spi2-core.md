@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "at-spi2-core 2.55.0-1"
-version = "2.55.0-1"
+title = "at-spi2-core 2.55.0.1-1"
+version = "2.55.0.1-1"
 description = "Gnome Accessibility Toolkit"
-date = "2025-01-13T13:02:05"
+date = "2025-01-17T10:57:35"
 aliases = "/packages/118746"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "181032"
-usize = "790747"
-sha1sum = "8f38cd199e5bf0cefef032d9322a96853108d5f4"
-depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.55.0', 'libxml2', 'libxtst>=1.2.2-3']"
+size = "180172"
+usize = "790862"
+sha1sum = "d9bde087ea506d94954fb2941aa9da6d5def59f0"
+depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.55.0.1', 'libxml2', 'libxtst>=1.2.2-3']"
 reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++
 ### Description: 
@@ -72,8 +72,8 @@ Gnome Accessibility Toolkit
 * /usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service
 * /usr/share/dbus-1/services/org.a11y.Bus.service
 * /usr/share/defaults/at-spi2/accessibility.conf
-* /usr/share/doc/at-spi2-core-2.55.0/COPYING
-* /usr/share/doc/at-spi2-core-2.55.0/INSTALL
-* /usr/share/doc/at-spi2-core-2.55.0/NEWS
-* /usr/share/doc/at-spi2-core-2.55.0/README.md
-* /usr/share/doc/at-spi2-core-2.55.0/README.msvc
+* /usr/share/doc/at-spi2-core-2.55.0.1/COPYING
+* /usr/share/doc/at-spi2-core-2.55.0.1/INSTALL
+* /usr/share/doc/at-spi2-core-2.55.0.1/NEWS
+* /usr/share/doc/at-spi2-core-2.55.0.1/README.md
+* /usr/share/doc/at-spi2-core-2.55.0.1/README.msvc

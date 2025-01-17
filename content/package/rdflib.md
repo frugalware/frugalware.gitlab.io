@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rdflib 7.1.1-1"
-version = "7.1.1-1"
+title = "rdflib 7.1.2-1"
+version = "7.1.2-1"
 description = "A Python library for working with RDF, a simple yet powerful language for representing information"
-date = "2024-11-10T01:19:01"
+date = "2025-01-17T11:05:50"
 aliases = "/packages/88823"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/RDFLib/rdflib"
 arch = "x86_64"
-size = "844972"
-usize = "5512158"
-sha1sum = "1f1b95dbe01659effcf53e1c9ea2d9cf2e7ae2b5"
+size = "853388"
+usize = "5566060"
+sha1sum = "4ab3d02324dae807ed69ca79a444360460982054"
 depends = "['python3-isodate>=0.5.4', 'python3-six']"
 +++
 ### Description: 
@@ -22,11 +22,11 @@ A Python library for working with RDF, a simple yet powerful language for repres
 * /usr/bin/rdfgraphisomorphism
 * /usr/bin/rdfpipe
 * /usr/bin/rdfs2dot
-* /usr/lib/python3.13/site-packages/rdflib-7.1.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/rdflib-7.1.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/rdflib-7.1.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/rdflib-7.1.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/rdflib-7.1.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/rdflib-7.1.2.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/rdflib-7.1.2.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/rdflib-7.1.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/rdflib-7.1.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/rdflib-7.1.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/rdflib/collection.py
 * /usr/lib/python3.13/site-packages/rdflib/compare.py
 * /usr/lib/python3.13/site-packages/rdflib/compat.py
@@ -397,6 +397,6 @@ A Python library for working with RDF, a simple yet powerful language for repres
 * /usr/lib/python3.13/site-packages/rdflib/__pycache__/_type_checking.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/rdflib/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/rdflib/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/rdflib-7.1.1/CONTRIBUTORS
-* /usr/share/doc/rdflib-7.1.1/LICENSE
-* /usr/share/doc/rdflib-7.1.1/README.md
+* /usr/share/doc/rdflib-7.1.2/CONTRIBUTORS
+* /usr/share/doc/rdflib-7.1.2/LICENSE
+* /usr/share/doc/rdflib-7.1.2/README.md

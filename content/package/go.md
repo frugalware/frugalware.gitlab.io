@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.23.4-4"
-version = "1.23.4-4"
+title = "go 1.23.5-1"
+version = "1.23.5-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2024-12-17T21:16:31"
+date = "2025-01-17T10:44:06"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "146963524"
-usize = "342830892"
-sha1sum = "74f0b05d37aa91fa4566188c68ae24de15ac4bcc"
+size = "146961788"
+usize = "342829479"
+sha1sum = "5e75fb4fe174e28c4fe94bcfbe6eec0747796a44"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -470,6 +470,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/cgo/internal/test/typeparam.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/carchive_test.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo/libgo.go
+* /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo10/a.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo2/libgo2.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo3/libgo3.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo4/libgo4.go
@@ -478,6 +479,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo8/a.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/libgo9/a.go
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/main.c
+* /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/main10.c
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/main2.c
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/main3.c
 * /usr/lib/go/src/cmd/cgo/internal/testcarchive/testdata/main4.c
@@ -790,6 +792,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/compile/internal/importer/iimport.go
 * /usr/lib/go/src/cmd/compile/internal/importer/support.go
 * /usr/lib/go/src/cmd/compile/internal/importer/testdata/a.go
+* /usr/lib/go/src/cmd/compile/internal/importer/testdata/alias.go
 * /usr/lib/go/src/cmd/compile/internal/importer/testdata/b.go
 * /usr/lib/go/src/cmd/compile/internal/importer/testdata/exports.go
 * /usr/lib/go/src/cmd/compile/internal/importer/testdata/generics.go
@@ -7674,6 +7677,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/net/sendfile_stub.go
 * /usr/lib/go/src/net/sendfile_test.go
 * /usr/lib/go/src/net/sendfile_unix_alt.go
+* /usr/lib/go/src/net/sendfile_unix_test.go
 * /usr/lib/go/src/net/sendfile_windows.go
 * /usr/lib/go/src/net/server_test.go
 * /usr/lib/go/src/net/smtp/auth.go
@@ -13254,9 +13258,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/writebarrier.go
 * /usr/lib/go/test/zerodivide.go
 * /usr/lib/go/test/zerosize.go
-* /usr/share/doc/go-1.23.4/LICENSE
-* /usr/share/doc/go-1.23.4/README.md
-* /usr/share/doc/go-1.23.4/VERSION
+* /usr/share/doc/go-1.23.5/LICENSE
+* /usr/share/doc/go-1.23.5/README.md
+* /usr/share/doc/go-1.23.5/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md

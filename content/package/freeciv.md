@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeciv 3.1.3-3"
-version = "3.1.3-3"
+title = "freeciv 3.1.4-1"
+version = "3.1.4-1"
 description = "A multiuser clone of the famous Microprose game of Civilization."
-date = "2024-12-05T21:27:35"
+date = "2025-01-17T10:38:21"
 aliases = "/packages/4179"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "31500648"
-usize = "87660399"
-sha1sum = "a2880d4c184bf920baac48fa4def6b28f3c8d8ab"
+size = "31684020"
+usize = "88950178"
+sha1sum = "5d58d2626dbde6b14af5ebb354dce73f7f6d61cd"
 depends = "['curl>=7.46.0', 'icu4c>=76.1', 'libxdamage', 'libxpm', 'ncurses', 'readline>=8.0', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3']"
 reverse_depends = "['freeciv-gtk3', 'freeciv-qt']"
 +++
@@ -32,44 +32,45 @@ A multiuser clone of the famous Microprose game of Civilization.
 * /usr/share/applications/org.freeciv.ruledit.desktop
 * /usr/share/applications/org.freeciv.sdl2.desktop
 * /usr/share/applications/org.freeciv.server.desktop
-* /usr/share/doc/freeciv-3.1.3/ABOUT-NLS
-* /usr/share/doc/freeciv-3.1.3/AUTHORS
-* /usr/share/doc/freeciv-3.1.3/BUGS
-* /usr/share/doc/freeciv-3.1.3/ChangeLog
-* /usr/share/doc/freeciv-3.1.3/ChangeLog-1.0-S3_0
-* /usr/share/doc/freeciv-3.1.3/CodingStyle
-* /usr/share/doc/freeciv-3.1.3/COPYING
-* /usr/share/doc/freeciv-3.1.3/FAQ
-* /usr/share/doc/freeciv-3.1.3/HACKING
-* /usr/share/doc/freeciv-3.1.3/HOWTOPLAY
-* /usr/share/doc/freeciv-3.1.3/INSTALL
-* /usr/share/doc/freeciv-3.1.3/INSTALL.Cygwin
-* /usr/share/doc/freeciv-3.1.3/INSTALL.meson
-* /usr/share/doc/freeciv-3.1.3/NEWS
-* /usr/share/doc/freeciv-3.1.3/NEWS-3.1
-* /usr/share/doc/freeciv-3.1.3/README
-* /usr/share/doc/freeciv-3.1.3/README.achievements
-* /usr/share/doc/freeciv-3.1.3/README.actions
-* /usr/share/doc/freeciv-3.1.3/README.agents
-* /usr/share/doc/freeciv-3.1.3/README.AI
-* /usr/share/doc/freeciv-3.1.3/README.AI_modules
-* /usr/share/doc/freeciv-3.1.3/README.attributes
-* /usr/share/doc/freeciv-3.1.3/README.crosser
-* /usr/share/doc/freeciv-3.1.3/README.delta
-* /usr/share/doc/freeciv-3.1.3/README.effects
-* /usr/share/doc/freeciv-3.1.3/README.fcdb
-* /usr/share/doc/freeciv-3.1.3/README.governor
-* /usr/share/doc/freeciv-3.1.3/README.graphics
-* /usr/share/doc/freeciv-3.1.3/README.modpack_installer
-* /usr/share/doc/freeciv-3.1.3/README.msys2
-* /usr/share/doc/freeciv-3.1.3/README.nations
-* /usr/share/doc/freeciv-3.1.3/README.packaging
-* /usr/share/doc/freeciv-3.1.3/README.rulesets
-* /usr/share/doc/freeciv-3.1.3/README.scenarios
-* /usr/share/doc/freeciv-3.1.3/README.scorelog
-* /usr/share/doc/freeciv-3.1.3/README.sound
-* /usr/share/doc/freeciv-3.1.3/README.tilesets
-* /usr/share/doc/freeciv-3.1.3/TODO
+* /usr/share/doc/freeciv-3.1.4/ABOUT-NLS
+* /usr/share/doc/freeciv-3.1.4/AUTHORS
+* /usr/share/doc/freeciv-3.1.4/BUGS
+* /usr/share/doc/freeciv-3.1.4/ChangeLog
+* /usr/share/doc/freeciv-3.1.4/ChangeLog-1.0-S3_0
+* /usr/share/doc/freeciv-3.1.4/CodingStyle
+* /usr/share/doc/freeciv-3.1.4/COPYING
+* /usr/share/doc/freeciv-3.1.4/doxygen.md
+* /usr/share/doc/freeciv-3.1.4/FAQ
+* /usr/share/doc/freeciv-3.1.4/HACKING
+* /usr/share/doc/freeciv-3.1.4/HOWTOPLAY
+* /usr/share/doc/freeciv-3.1.4/INSTALL
+* /usr/share/doc/freeciv-3.1.4/INSTALL.Cygwin
+* /usr/share/doc/freeciv-3.1.4/INSTALL.meson
+* /usr/share/doc/freeciv-3.1.4/NEWS
+* /usr/share/doc/freeciv-3.1.4/NEWS-3.1
+* /usr/share/doc/freeciv-3.1.4/README
+* /usr/share/doc/freeciv-3.1.4/README.achievements
+* /usr/share/doc/freeciv-3.1.4/README.actions
+* /usr/share/doc/freeciv-3.1.4/README.agents
+* /usr/share/doc/freeciv-3.1.4/README.AI
+* /usr/share/doc/freeciv-3.1.4/README.AI_modules
+* /usr/share/doc/freeciv-3.1.4/README.attributes
+* /usr/share/doc/freeciv-3.1.4/README.crosser
+* /usr/share/doc/freeciv-3.1.4/README.delta
+* /usr/share/doc/freeciv-3.1.4/README.effects
+* /usr/share/doc/freeciv-3.1.4/README.fcdb
+* /usr/share/doc/freeciv-3.1.4/README.governor
+* /usr/share/doc/freeciv-3.1.4/README.graphics
+* /usr/share/doc/freeciv-3.1.4/README.modpack_installer
+* /usr/share/doc/freeciv-3.1.4/README.msys2
+* /usr/share/doc/freeciv-3.1.4/README.nations
+* /usr/share/doc/freeciv-3.1.4/README.packaging
+* /usr/share/doc/freeciv-3.1.4/README.rulesets
+* /usr/share/doc/freeciv-3.1.4/README.scenarios
+* /usr/share/doc/freeciv-3.1.4/README.scorelog
+* /usr/share/doc/freeciv-3.1.4/README.sound
+* /usr/share/doc/freeciv-3.1.4/README.tilesets
+* /usr/share/doc/freeciv-3.1.4/TODO
 * /usr/share/freeciv/alien.serv
 * /usr/share/freeciv/alien/buildings.ruleset
 * /usr/share/freeciv/alien/cities.ruleset
@@ -3671,6 +3672,9 @@ A multiuser clone of the famous Microprose game of Civilization.
 * /usr/share/locale/gd/LC_MESSAGES/freeciv-core.mo
 * /usr/share/locale/gd/LC_MESSAGES/freeciv-nations.mo
 * /usr/share/locale/gd/LC_MESSAGES/freeciv-ruledit.mo
+* /usr/share/locale/gl_ES/LC_MESSAGES/freeciv-core.mo
+* /usr/share/locale/gl_ES/LC_MESSAGES/freeciv-nations.mo
+* /usr/share/locale/gl_ES/LC_MESSAGES/freeciv-ruledit.mo
 * /usr/share/locale/he/LC_MESSAGES/freeciv-core.mo
 * /usr/share/locale/he/LC_MESSAGES/freeciv-nations.mo
 * /usr/share/locale/he/LC_MESSAGES/freeciv-ruledit.mo
@@ -3713,6 +3717,9 @@ A multiuser clone of the famous Microprose game of Civilization.
 * /usr/share/locale/ru/LC_MESSAGES/freeciv-core.mo
 * /usr/share/locale/ru/LC_MESSAGES/freeciv-nations.mo
 * /usr/share/locale/ru/LC_MESSAGES/freeciv-ruledit.mo
+* /usr/share/locale/sk/LC_MESSAGES/freeciv-core.mo
+* /usr/share/locale/sk/LC_MESSAGES/freeciv-nations.mo
+* /usr/share/locale/sk/LC_MESSAGES/freeciv-ruledit.mo
 * /usr/share/locale/sr/LC_MESSAGES/freeciv-core.mo
 * /usr/share/locale/sr/LC_MESSAGES/freeciv-nations.mo
 * /usr/share/locale/sr/LC_MESSAGES/freeciv-ruledit.mo

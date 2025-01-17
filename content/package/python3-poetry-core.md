@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-poetry-core 1.9.1-1"
-version = "1.9.1-1"
+title = "python3-poetry-core 2.0.1-1"
+version = "2.0.1-1"
 description = "Poetry PEP 517 Build Backend & Core Utilities"
-date = "2024-11-01T22:18:54"
+date = "2025-01-17T11:04:55"
 aliases = "/packages/221114"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/poetry_core"
 arch = "x86_64"
-size = "576288"
-usize = "3525605"
-sha1sum = "9c7a65c99d032c2993616e3c3821cd1a33d0518b"
+size = "613852"
+usize = "3786815"
+sha1sum = "24e6bbebbccbbefdede360bc7bed3b3fa84375a9"
 depends = "['python3-jsonschema', 'python3-lark-parser', 'python3-packaging']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -86,11 +86,11 @@ Poetry PEP 517 Build Backend & Core Utilities
 * /usr/lib/python3.13/site-packages/poetry/core/exceptions/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/factory.py
 * /usr/lib/python3.13/site-packages/poetry/core/json/schemas/poetry-schema.json
+* /usr/lib/python3.13/site-packages/poetry/core/json/schemas/project-schema.json
 * /usr/lib/python3.13/site-packages/poetry/core/json/__init__.py
 * /usr/lib/python3.13/site-packages/poetry/core/json/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/json/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/api.py
-* /usr/lib/python3.13/site-packages/poetry/core/masonry/builder.py
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/builders/builder.py
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/builders/sdist.py
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/builders/wheel.py
@@ -122,8 +122,6 @@ Poetry PEP 517 Build Backend & Core Utilities
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/__init__.py
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/api.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/builder.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/builder.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/metadata.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/metadata.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/masonry/__pycache__/__init__.cpython-313.opt-1.pyc
@@ -395,6 +393,12 @@ Poetry PEP 517 Build Backend & Core Utilities
 * /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/LICENSE
 * /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/LICENSE.APACHE
 * /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/LICENSE.BSD
+* /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/licenses/_spdx.py
+* /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/licenses/__init__.py
+* /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/licenses/__pycache__/_spdx.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/licenses/__pycache__/_spdx.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/licenses/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/licenses/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/markers.py
 * /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/metadata.py
 * /usr/lib/python3.13/site-packages/poetry/core/_vendor/packaging/py.typed
@@ -460,9 +464,9 @@ Poetry PEP 517 Build Backend & Core Utilities
 * /usr/lib/python3.13/site-packages/poetry/core/__pycache__/poetry.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry_core-1.9.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/poetry_core-1.9.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/poetry_core-1.9.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/poetry_core-1.9.1.dist-info/WHEEL
-* /usr/share/doc/python3-poetry-core-1.9.1/LICENSE
-* /usr/share/doc/python3-poetry-core-1.9.1/README.md
+* /usr/lib/python3.13/site-packages/poetry_core-2.0.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/poetry_core-2.0.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/poetry_core-2.0.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/poetry_core-2.0.1.dist-info/WHEEL
+* /usr/share/doc/python3-poetry-core-2.0.1/LICENSE
+* /usr/share/doc/python3-poetry-core-2.0.1/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libatspi 2.55.0-1"
-version = "2.55.0-1"
+title = "libatspi 2.55.0.1-1"
+version = "2.55.0.1-1"
 description = "Accessibility Technology software library"
-date = "2025-01-13T13:02:05"
+date = "2025-01-17T10:57:35"
 aliases = "/packages/218070"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "229592"
-usize = "2305649"
-sha1sum = "103a4fd05af6463e6916e9c71d86c35a0daf6a7a"
+size = "229656"
+usize = "2305683"
+sha1sum = "71f4bc22f7799a8e8a7c96ed603ea15a1e3e6cd3"
 depends = "['dbus', 'glib2', 'libx11']"
 reverse_depends = "['at-spi2-core', 'gtk+3', 'gtk+4']"
 +++

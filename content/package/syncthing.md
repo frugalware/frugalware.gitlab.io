@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syncthing 1.29.0-1"
-version = "1.29.0-1"
+title = "syncthing 1.29.2-1"
+version = "1.29.2-1"
 description = "Open Source Continuous Replication / Cluster Synchronization Thing"
-date = "2025-01-06T16:18:28"
+date = "2025-01-17T10:48:42"
 aliases = "/packages/201168"
 categories = ['network-extra']
 upstreamurl = "http://syncthing.net/"
 arch = "x86_64"
-size = "8043900"
-usize = "22940585"
-sha1sum = "db0617ae0de7c990c26f182ce535c0c6218024bc"
+size = "8083408"
+usize = "23088201"
+sha1sum = "e417f2d6660ba7d443f5c1432c17b48ea9541da4"
 depends = "['glibc']"
 reverse_depends = "['syncthingtray']"
 license = "MIT"
@@ -22,7 +22,7 @@ Open Source Continuous Replication / Cluster Synchronization Thing
 * /usr/bin/syncthing
 * /usr/lib/systemd/system/syncthing@.service
 * /usr/lib/systemd/user/syncthing.service
-* /usr/share/doc/syncthing-1.29.0/AUTHORS
-* /usr/share/doc/syncthing-1.29.0/LICENSE
-* /usr/share/doc/syncthing-1.29.0/README-Docker.md
-* /usr/share/doc/syncthing-1.29.0/README.md
+* /usr/share/doc/syncthing-1.29.2/AUTHORS
+* /usr/share/doc/syncthing-1.29.2/LICENSE
+* /usr/share/doc/syncthing-1.29.2/README-Docker.md
+* /usr/share/doc/syncthing-1.29.2/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsoup3 3.6.3-1"
-version = "3.6.3-1"
+title = "libsoup3 3.6.4-1"
+version = "3.6.4-1"
 description = "An HTTP library implementation in C"
-date = "2025-01-13T13:27:40"
+date = "2025-01-17T10:58:53"
 aliases = "/packages/220901"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1607380"
-usize = "8753532"
-sha1sum = "4012b4488d64aa76a59db21eb7b4cb94647546f3"
+size = "1607492"
+usize = "8753659"
+sha1sum = "84245fce677126212a0246f7284a1e96c77aeaed"
 depends = "['brotli', 'glib-networking', 'glib2', 'libpsl', 'libsysprof-capture', 'nghttp2', 'sqlite3']"
 reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'passim', 'remmina', 'seahorse']"
 +++
@@ -63,7 +63,7 @@ An HTTP library implementation in C
 * /usr/lib/girepository-1.0/Soup-3.0.typelib
 * /usr/lib/libsoup-3.0.so
 * /usr/lib/libsoup-3.0.so.0
-* /usr/lib/libsoup-3.0.so.0.7.2
+* /usr/lib/libsoup-3.0.so.0.7.3
 * /usr/lib/pkgconfig/libsoup-3.0.pc
 * /usr/share/doc/libsoup-3.0/build-howto.html
 * /usr/share/doc/libsoup-3.0/callback.AuthDomainBasicAuthCallback.html
@@ -751,10 +751,10 @@ An HTTP library implementation in C
 * /usr/share/doc/libsoup-3.0/vfunc.WebsocketExtension.get_response_params.html
 * /usr/share/doc/libsoup-3.0/vfunc.WebsocketExtension.process_incoming_message.html
 * /usr/share/doc/libsoup-3.0/vfunc.WebsocketExtension.process_outgoing_message.html
-* /usr/share/doc/libsoup3-3.6.3/AUTHORS
-* /usr/share/doc/libsoup3-3.6.3/COPYING
-* /usr/share/doc/libsoup3-3.6.3/HACKING
-* /usr/share/doc/libsoup3-3.6.3/NEWS
-* /usr/share/doc/libsoup3-3.6.3/README
-* /usr/share/doc/libsoup3-3.6.3/README.msvc
+* /usr/share/doc/libsoup3-3.6.4/AUTHORS
+* /usr/share/doc/libsoup3-3.6.4/COPYING
+* /usr/share/doc/libsoup3-3.6.4/HACKING
+* /usr/share/doc/libsoup3-3.6.4/NEWS
+* /usr/share/doc/libsoup3-3.6.4/README
+* /usr/share/doc/libsoup3-3.6.4/README.msvc
 * /usr/share/gir-1.0/Soup-3.0.gir
