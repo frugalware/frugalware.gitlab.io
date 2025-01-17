@@ -12,7 +12,7 @@ size = "262808"
 usize = "738002"
 sha1sum = "3cbb40926c2e6d5790f4eab9e8391b5444ad7621"
 depends = "['openssl>=3.1.0', 'readline>=8.0']"
-reverse_depends = "['kwallet-pam']"
+reverse_depends = "['flatpak', 'kwallet-pam']"
 +++
 ### Description: 
 Relay for bidirectional data transfer between two independent data channels

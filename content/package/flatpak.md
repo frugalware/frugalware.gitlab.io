@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "flatpak 1.14.10-1"
-version = "1.14.10-1"
+title = "flatpak 1.16.0-1"
+version = "1.16.0-1"
 description = "Linux application sandboxing and distribution framework (formerly xdg-app)"
-date = "2024-08-16T08:53:53"
+date = "2025-01-17T13:02:46"
 aliases = "/packages/220841"
 categories = ['apps-extra']
 upstreamurl = "https://flatpak.org"
 arch = "x86_64"
-size = "1521068"
-usize = "7725915"
-sha1sum = "79cb02fee31e59012318e7f17199677e7719ec17"
-depends = "['appstream>=1.0.0', 'bubblewrap>=0.10.0', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'xdg-dbus-proxy']"
+size = "1580456"
+usize = "8191459"
+sha1sum = "b3a093064e177afa1860b0fa871dde8648571e35"
+depends = "['appstream>=1.0.0', 'bubblewrap>=0.10.0', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'socat', 'xdg-dbus-proxy']"
 reverse_depends = "['discover', 'flatpak-kcm']"
 +++
 ### Description: 
 Linux application sandboxing and distribution framework (formerly xdg-app)
 
 ### Files: 
+* /etc/profile.d/flatpak.csh
 * /etc/profile.d/flatpak.sh
 * /usr/bin/flatpak
 * /usr/bin/flatpak-bisect
@@ -45,7 +46,7 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/lib/girepository-1.0/Flatpak-1.0.typelib
 * /usr/lib/libflatpak.so
 * /usr/lib/libflatpak.so.0
-* /usr/lib/libflatpak.so.0.11410.0
+* /usr/lib/libflatpak.so.0.11600.0
 * /usr/lib/pkgconfig/flatpak.pc
 * /usr/lib/systemd/system-environment-generators/60-flatpak-system-only
 * /usr/lib/systemd/system/flatpak-system-helper.service
@@ -64,11 +65,11 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/dbus-1/services/org.freedesktop.portal.Flatpak.service
 * /usr/share/dbus-1/system-services/org.freedesktop.Flatpak.SystemHelper.service
 * /usr/share/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
-* /usr/share/doc/flatpak-1.14.10/COPYING
-* /usr/share/doc/flatpak-1.14.10/docbook.css
-* /usr/share/doc/flatpak-1.14.10/flatpak-docs.html
-* /usr/share/doc/flatpak-1.14.10/NEWS
-* /usr/share/doc/flatpak-1.14.10/README.md
+* /usr/share/doc/flatpak-1.16.0/COPYING
+* /usr/share/doc/flatpak-1.16.0/NEWS
+* /usr/share/doc/flatpak-1.16.0/README.md
+* /usr/share/doc/flatpak/docbook.css
+* /usr/share/doc/flatpak/flatpak-docs.html
 * /usr/share/fish/vendor_completions.d/flatpak.fish
 * /usr/share/fish/vendor_conf.d/flatpak.fish
 * /usr/share/flatpak/triggers/desktop-database.trigger
@@ -123,6 +124,8 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/locale/hr/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/hu/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/id/LC_MESSAGES/flatpak.mo
+* /usr/share/locale/ka/LC_MESSAGES/flatpak.mo
+* /usr/share/locale/nl/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/oc/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/pl/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/pt/LC_MESSAGES/flatpak.mo
@@ -185,6 +188,8 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/man/man5/flatpak-installation.5.gz
 * /usr/share/man/man5/flatpak-metadata.5.gz
 * /usr/share/man/man5/flatpak-remote.5.gz
+* /usr/share/man/man5/flatpakref.5.gz
+* /usr/share/man/man5/flatpakrepo.5.gz
 * /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy
 * /usr/share/polkit-1/rules.d/org.freedesktop.Flatpak.rules
 * /usr/share/zsh/site-functions/_flatpak
