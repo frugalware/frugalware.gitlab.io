@@ -12,7 +12,7 @@ size = "141991988"
 usize = "153865331"
 sha1sum = "658c1f11a62d3074f52ba2424199ca6c231d7d08"
 depends = "['kmod', 'sed']"
-reverse_depends = "['acpi_call', 'ddcci-driver-linux', 'evdi', 'ieee80211', 'intel-ucode', 'ipw2200', 'ipw3945', 'kernel-initrd', 'open-gpu-kernel-modules', 'openrazer', 'r8168', 'rtl8821ce', 'shfs', 'submount', 'sysdig', 'tp-smapi', 'v4l2loopback', 'vhba-module', 'virtualbox', 'virtualbox-guest-additions', 'virtualbox-modules', 'zenpower', 'zfs']"
+reverse_depends = "['acpi_call', 'ddcci-driver-linux', 'evdi', 'ieee80211', 'intel-ucode', 'ipw2200', 'ipw3945', 'kernel-initrd', 'open-gpu-kernel-modules', 'openrazer', 'r8168', 'rtl8821ce', 'shfs', 'submount', 'sysdig', 'tp-smapi', 'v4l2loopback', 'vhba-module', 'virtualbox', 'virtualbox-guest-additions', 'virtualbox-modules', 'zfs']"
 +++
 ### Description: 
 The Linux Kernel and modules
