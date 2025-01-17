@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alpaca 3.1.0-1"
-version = "3.1.0-1"
+title = "alpaca 3.5.0-1"
+version = "3.5.0-1"
 description = "Alpaca is an Ollama client where you can manage and chat with multiple models, Alpaca provides an easy and begginer friendly way of interacting with local AI, everything is open source and powered by Ollama."
-date = "2024-12-28T18:52:04"
+date = "2025-01-17T20:11:57"
 aliases = "/packages/222580"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Jeffser/alpaca"
 arch = "x86_64"
-size = "302412"
-usize = "2082119"
-sha1sum = "3cae2b3c6a36869946aed0f02dc8e8d88baded85"
+size = "352888"
+usize = "2468273"
+sha1sum = "b774ca32b9c275e52caf51e0b4f8cd3af0629fd2"
 depends = "['appstream', 'gtksourceview5', 'ollama', 'python3-html2text', 'python3-pypdf', 'python3-pytube', 'python3-youtube-transcript-api', 'vte3']"
 +++
 ### Description: 
@@ -32,13 +32,14 @@ Alpaca is an Ollama client where you can manage and chat with multiple models, A
 * /usr/share/Alpaca/alpaca/generic_actions.py
 * /usr/share/Alpaca/alpaca/internal.py
 * /usr/share/Alpaca/alpaca/main.py
+* /usr/share/Alpaca/alpaca/sql_manager.py
 * /usr/share/Alpaca/alpaca/window.py
 * /usr/share/Alpaca/alpaca/__init__.py
 * /usr/share/applications/com.jeffser.Alpaca.desktop
 * /usr/share/applications/com.jeffser.Alpaca.SearchProvider.desktop
 * /usr/share/dbus-1/services/com.jeffser.Alpaca.SearchProvider.service
-* /usr/share/doc/alpaca-3.1.0/COPYING
-* /usr/share/doc/alpaca-3.1.0/README.md
+* /usr/share/doc/alpaca-3.5.0/COPYING
+* /usr/share/doc/alpaca-3.5.0/README.md
 * /usr/share/glib-2.0/schemas/com.jeffser.Alpaca.gschema.xml
 * /usr/share/gnome-shell/search-providers/com.jeffser.Alpaca.search-provider.ini
 * /usr/share/icons/hicolor/512x512/apps/com.jeffser.Alpaca.png
@@ -51,7 +52,9 @@ Alpaca is an Ollama client where you can manage and chat with multiple models, A
 * /usr/share/locale/he/LC_MESSAGES/alpaca.mo
 * /usr/share/locale/hi/LC_MESSAGES/alpaca.mo
 * /usr/share/locale/it/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/ja/LC_MESSAGES/alpaca.mo
 * /usr/share/locale/nb_NO/LC_MESSAGES/alpaca.mo
+* /usr/share/locale/nl/LC_MESSAGES/alpaca.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/alpaca.mo
 * /usr/share/locale/ru/LC_MESSAGES/alpaca.mo
 * /usr/share/locale/te/LC_MESSAGES/alpaca.mo
