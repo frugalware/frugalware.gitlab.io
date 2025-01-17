@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "867412"
 usize = "3592405"
 sha1sum = "7dd3baf5c9484ee23d177213e90dff4dc680cd44"
-depends = "['cpp-utilities', 'libboost>=1.87.0', 'libboost>=1.86.0', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
+depends = "['cpp-utilities', 'libboost>=1.86.0', 'libboost>=1.87.0', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
 tray app for syncthing
