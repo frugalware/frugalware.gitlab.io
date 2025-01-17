@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.19-1"
-version = "1.2.19-1"
+title = "lsp-plugins 1.2.20-1"
+version = "1.2.20-1"
 description = "Collection of open-source plugins"
-date = "2024-10-15T07:35:22"
+date = "2025-01-17T19:09:48"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "32819976"
-usize = "84933083"
-sha1sum = "1dbf0cd1142fb8b0679a9cc60a8989f7ad3aeda9"
+size = "33410060"
+usize = "86353217"
+sha1sum = "8f1c63962f272aa486cdf586c6eb5149839b7c1a"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
@@ -137,6 +137,8 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-phase-detector
 * /usr/bin/lsp-plugins-profiler-mono
 * /usr/bin/lsp-plugins-profiler-stereo
+* /usr/bin/lsp-plugins-referencer-mono
+* /usr/bin/lsp-plugins-referencer-stereo
 * /usr/bin/lsp-plugins-return-mono
 * /usr/bin/lsp-plugins-return-stereo
 * /usr/bin/lsp-plugins-room-builder-mono
@@ -203,7 +205,7 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-trigger-stereo
 * /usr/lib/clap/lsp-plugins.clap
 * /usr/lib/ladspa/lsp-plugins-ladspa.so
-* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.19.so
+* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.20.so
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x4_mono.ttl
@@ -324,6 +326,8 @@ Collection of open-source plugins
 * /usr/lib/lv2/lsp-plugins.lv2/phase_detector.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/profiler_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/profiler_stereo.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/referencer_mono.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/referencer_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/return_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/return_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/room_builder_mono.ttl
@@ -507,6 +511,8 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins.vst/phase-detector.so
 * /usr/lib/vst/lsp-plugins.vst/profiler-mono.so
 * /usr/lib/vst/lsp-plugins.vst/profiler-stereo.so
+* /usr/lib/vst/lsp-plugins.vst/referencer-mono.so
+* /usr/lib/vst/lsp-plugins.vst/referencer-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/return-mono.so
 * /usr/lib/vst/lsp-plugins.vst/return-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/room-builder-mono.so
@@ -685,6 +691,8 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_phase_detector.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_profiler_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_profiler_stereo.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_referencer_mono.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_referencer_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_return_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_return_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_room_builder_mono.desktop
@@ -750,10 +758,10 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
 * /usr/share/desktop-directories/lsp-plugins.directory
-* /usr/share/doc/lsp-plugins-1.2.19/CHANGELOG
-* /usr/share/doc/lsp-plugins-1.2.19/COPYING
-* /usr/share/doc/lsp-plugins-1.2.19/COPYING.LESSER
-* /usr/share/doc/lsp-plugins-1.2.19/README.md
+* /usr/share/doc/lsp-plugins-1.2.20/CHANGELOG
+* /usr/share/doc/lsp-plugins-1.2.20/COPYING
+* /usr/share/doc/lsp-plugins-1.2.20/COPYING.LESSER
+* /usr/share/doc/lsp-plugins-1.2.20/README.md
 * /usr/share/doc/lsp-plugins/css/style.css
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff2
@@ -885,6 +893,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/html/plugins/phase_detector.html
 * /usr/share/doc/lsp-plugins/html/plugins/profiler_mono.html
 * /usr/share/doc/lsp-plugins/html/plugins/profiler_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/referencer_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/referencer_stereo.html
 * /usr/share/doc/lsp-plugins/html/plugins/return_mono.html
 * /usr/share/doc/lsp-plugins/html/plugins/return_stereo.html
 * /usr/share/doc/lsp-plugins/html/plugins/room_builder_mono.html
@@ -1165,6 +1175,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/plugins/phase_detector.png
 * /usr/share/doc/lsp-plugins/img/plugins/profiler_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/profiler_stereo.png
+* /usr/share/doc/lsp-plugins/img/plugins/referencer_mono.png
+* /usr/share/doc/lsp-plugins/img/plugins/referencer_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/return_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/return_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/room_builder_mono.png
