@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php 8.4.2-1"
-version = "8.4.2-1"
+title = "php 8.4.3-1"
+version = "8.4.3-1"
 description = "A widely-used general-purpose scripting language"
-date = "2024-12-25T17:03:24"
+date = "2025-01-17T09:42:42"
 aliases = "/packages/3288"
 categories = ['devel']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "9395436"
-usize = "54498763"
-sha1sum = "5c11691beb1cb466f17f406310e411fb78ef1666"
+size = "9402844"
+usize = "54512439"
+sha1sum = "dc5a3001f929c4ef44b1afb0c93d9e7571a920a1"
 depends = "['curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3']"
 reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++
@@ -395,11 +395,11 @@ A widely-used general-purpose scripting language
 * /usr/lib/php/sysvshm.so
 * /usr/lib/php/tidy.so
 * /usr/lib/php/xsl.so
-* /usr/share/doc/php-8.4.2/LICENSE
-* /usr/share/doc/php-8.4.2/NEWS
-* /usr/share/doc/php-8.4.2/README.Frugalware
-* /usr/share/doc/php-8.4.2/README.md
-* /usr/share/doc/php-8.4.2/README.REDIST.BINS
+* /usr/share/doc/php-8.4.3/LICENSE
+* /usr/share/doc/php-8.4.3/NEWS
+* /usr/share/doc/php-8.4.3/README.Frugalware
+* /usr/share/doc/php-8.4.3/README.md
+* /usr/share/doc/php-8.4.3/README.REDIST.BINS
 * /usr/share/man/man1/phar.1.gz
 * /usr/share/man/man1/phar.phar.1.gz
 * /usr/share/man/man1/php-config.1.gz
@@ -534,7 +534,6 @@ A widely-used general-purpose scripting language
 * /usr/share/pear/test/Console_Getopt/tests/bug11068.phpt
 * /usr/share/pear/test/Console_Getopt/tests/bug13140.phpt
 * /usr/share/pear/test/Structures_Graph/tests/AcyclicTestTest.php
-* /usr/share/pear/test/Structures_Graph/tests/AllTests.php
 * /usr/share/pear/test/Structures_Graph/tests/BasicGraphTest.php
 * /usr/share/pear/test/Structures_Graph/tests/helper.inc
 * /usr/share/pear/test/Structures_Graph/tests/TopologicalSorterTest.php
