@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "wasi-libc++ 19.1.6-1"
-version = "19.1.6-1"
+title = "wasi-libc++ 19.1.7-1"
+version = "19.1.7-1"
 description = "WASI LLVM C++ standard library"
-date = "2024-12-18T11:39:52"
+date = "2025-01-17T11:40:47"
 aliases = "/packages/220952"
 categories = ['lib-extra']
 upstreamurl = "https://libcxx.llvm.org/"
 arch = "x86_64"
-size = "1018152"
+size = "1019100"
 usize = "9301464"
-sha1sum = "07ef03b2eca373f6e3a0b9a151e1776097c150d1"
+sha1sum = "b3602a1cb709df82353728365977ab1e3ad813df"
 depends = "['glibc']"
 +++
 ### Description: 
 WASI LLVM C++ standard library
 
 ### Files: 
-* /usr/share/doc/wasi-libc++-19.1.6/README.md
+* /usr/share/doc/wasi-libc++-19.1.7/README.md
 * /usr/share/wasi-sysroot/include/c++/v1/algorithm
 * /usr/share/wasi-sysroot/include/c++/v1/any
 * /usr/share/wasi-sysroot/include/c++/v1/array

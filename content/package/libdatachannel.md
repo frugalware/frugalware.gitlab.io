@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdatachannel 0.22.3-1"
-version = "0.22.3-1"
+title = "libdatachannel 0.22.4-1"
+version = "0.22.4-1"
 description = "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
-date = "2024-12-16T21:27:59"
+date = "2025-01-17T11:50:37"
 aliases = "/packages/222607"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/paullouisageneau/libdatachannel"
 arch = "x86_64"
-size = "538220"
-usize = "2058082"
-sha1sum = "c5c7f2c664d117172612a412e5ba07ff30b07f1a"
+size = "536492"
+usize = "2047666"
+sha1sum = "b8f3bc0fe9f897c2a9b7faf2eb71f8d7c966921d"
 depends = "['libjuice', 'libsrtp', 'libstdc++', 'openssl', 'usrsctp']"
 reverse_depends = "['obs-studio']"
 +++
@@ -30,7 +30,6 @@ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSo
 * /usr/include/rtc/h264rtpdepacketizer.hpp
 * /usr/include/rtc/h264rtppacketizer.hpp
 * /usr/include/rtc/h265nalunit.hpp
-* /usr/include/rtc/h265rtpdepacketizer.hpp
 * /usr/include/rtc/h265rtppacketizer.hpp
 * /usr/include/rtc/mediahandler.hpp
 * /usr/include/rtc/message.hpp
@@ -60,6 +59,6 @@ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSo
 * /usr/lib/cmake/LibDataChannel/LibDataChannelTargets.cmake
 * /usr/lib/libdatachannel.so
 * /usr/lib/libdatachannel.so.0.22
-* /usr/lib/libdatachannel.so.0.22.3
-* /usr/share/doc/libdatachannel-0.22.3/LICENSE
-* /usr/share/doc/libdatachannel-0.22.3/README.md
+* /usr/lib/libdatachannel.so.0.22.4
+* /usr/share/doc/libdatachannel-0.22.4/LICENSE
+* /usr/share/doc/libdatachannel-0.22.4/README.md

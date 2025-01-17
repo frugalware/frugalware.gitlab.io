@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpp-utilities 5.27.0-1"
-version = "5.27.0-1"
+title = "cpp-utilities 5.27.2-1"
+version = "5.27.2-1"
 description = "Common C++ classes and routines such as argument parser, IO and conversion utilities"
-date = "2024-12-05T16:26:12"
+date = "2025-01-17T11:36:35"
 aliases = "/packages/222518"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/cpp-utilities"
 arch = "x86_64"
-size = "162396"
-usize = "720817"
-sha1sum = "70e219a838c45c6a999b7fea27c2735553200ec1"
+size = "162728"
+usize = "722193"
+sha1sum = "c542b3e1e32393376965ce516af8819a6ce615f9"
 depends = "['glibc']"
 reverse_depends = "['qtutilities', 'syncthingtray']"
 +++
@@ -55,13 +55,14 @@ Common C++ classes and routines such as argument parser, IO and conversion utili
 * /usr/include/c++utilities/version.h
 * /usr/lib/libc++utilities.so
 * /usr/lib/libc++utilities.so.5
-* /usr/lib/libc++utilities.so.5.27.0
+* /usr/lib/libc++utilities.so.5.27.2
 * /usr/lib/pkgconfig/c++utilities.pc
 * /usr/share/c++utilities/cmake/c++utilitiesConfig.cmake
 * /usr/share/c++utilities/cmake/c++utilitiesConfigVersion.cmake
 * /usr/share/c++utilities/cmake/c++utilitiesTargets-release.cmake
 * /usr/share/c++utilities/cmake/c++utilitiesTargets.cmake
 * /usr/share/c++utilities/cmake/modules/3rdParty.cmake
+* /usr/share/c++utilities/cmake/modules/3rdPartyFunctions.cmake
 * /usr/share/c++utilities/cmake/modules/AppTarget.cmake
 * /usr/share/c++utilities/cmake/modules/AppUtilities.cmake
 * /usr/share/c++utilities/cmake/modules/BasicConfig.cmake
@@ -86,5 +87,5 @@ Common C++ classes and routines such as argument parser, IO and conversion utili
 * /usr/share/c++utilities/cmake/templates/version.h.in
 * /usr/share/c++utilities/coding-style.clang-format
 * /usr/share/c++utilities/tests/calculateoverallcoverage.awk
-* /usr/share/doc/cpp-utilities-5.27.0/LICENSE
-* /usr/share/doc/cpp-utilities-5.27.0/README.md
+* /usr/share/doc/cpp-utilities-5.27.2/LICENSE
+* /usr/share/doc/cpp-utilities-5.27.2/README.md

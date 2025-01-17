@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bctoolbox 5.3.100-1"
-version = "5.3.100-1"
+title = "bctoolbox 5.3.102-1"
+version = "5.3.102-1"
 description = "A library written in C that allows you to create and run audio and video streams"
-date = "2024-12-18T13:05:39"
+date = "2025-01-17T11:48:40"
 aliases = "/packages/218828"
 categories = ['lib-extra']
 upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
-size = "2257748"
-usize = "3690856"
-sha1sum = "40a8a846e08f300ddb019f2aa953956da46eafee"
+size = "2258212"
+usize = "3691408"
+sha1sum = "c84e4d2576267c0e7c3914f01990edea93c9fc50"
 depends = "['mbedtls>=2.27.0']"
 +++
 ### Description: 
@@ -52,4 +52,4 @@ A library written in C that allows you to create and run audio and video streams
 * /usr/share/BCToolbox/cmake/FindMbedTLS.cmake
 * /usr/share/BCToolbox/cmake/gitversion.h.in
 * /usr/share/BCToolbox/cmake/MakeArchive.cmake
-* /usr/share/doc/bctoolbox-5.3.100/README.md
+* /usr/share/doc/bctoolbox-5.3.102/README.md

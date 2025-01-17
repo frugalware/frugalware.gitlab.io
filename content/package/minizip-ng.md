@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "minizip-ng 4.0.7-2"
-version = "4.0.7-2"
+title = "minizip-ng 4.0.8-1"
+version = "4.0.8-1"
 description = "Fork of the popular zip manipulation library found in the zlib distribution"
-date = "2025-01-01T21:19:01"
+date = "2025-01-17T11:39:32"
 aliases = "/packages/221240"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/zlib-ng/minizip-ng"
 arch = "x86_64"
-size = "65060"
-usize = "240637"
-sha1sum = "7f64a2b6d3693921700d7113529c069fe583158e"
+size = "65460"
+usize = "243624"
+sha1sum = "ef97295b892dad37748d3c6a90f593ec6bec543b"
 depends = "['bzip2', 'openssl', 'xz', 'zstd']"
 reverse_depends = "['keepassxc', 'opencolorio']"
 +++
@@ -20,7 +20,6 @@ Fork of the popular zip manipulation library found in the zlib distribution
 ### Files: 
 * /usr/include/minizip/ioapi.h
 * /usr/include/minizip/mz.h
-* /usr/include/minizip/mz_compat.h
 * /usr/include/minizip/mz_crypt.h
 * /usr/include/minizip/mz_os.h
 * /usr/include/minizip/mz_strm.h
@@ -44,7 +43,7 @@ Fork of the popular zip manipulation library found in the zlib distribution
 * /usr/lib/cmake/minizip/minizip.cmake
 * /usr/lib/libminizip.so
 * /usr/lib/libminizip.so.1
-* /usr/lib/libminizip.so.4.0.7
+* /usr/lib/libminizip.so.4.0.8
 * /usr/lib/pkgconfig/minizip.pc
-* /usr/share/doc/minizip-ng-4.0.7/LICENSE
-* /usr/share/doc/minizip-ng-4.0.7/README.md
+* /usr/share/doc/minizip-ng-4.0.8/LICENSE
+* /usr/share/doc/minizip-ng-4.0.8/README.md
