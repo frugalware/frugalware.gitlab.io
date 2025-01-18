@@ -1,22 +1,22 @@
 +++
 draft = false
-title = "rtl8821ce 1.0.4.r76.g7c4f827-374"
-version = "1.0.4.r76.g7c4f827-374"
+title = "rtl8821ce 1.0.4.r76.g7c4f827-375"
+version = "1.0.4.r76.g7c4f827-375"
 description = "rtl8821CE driver with firmware"
-date = "2025-01-10T11:42:34"
+date = "2025-01-17T23:31:34"
 aliases = "/packages/220026"
 categories = ['network-extra']
 upstreamurl = "https://github.com/tomaspinho/rtl8821ce"
 arch = "x86_64"
-size = "824104"
+size = "824404"
 usize = "5875775"
-sha1sum = "008ac1ede864f0d66acaf916a3e8094c39f34c17"
-depends = "['kernel=6.12.9-1']"
+sha1sum = "353c9df58c13969a80d89c09614f706fdb6e3c8a"
+depends = "['kernel=6.12.10-1']"
 +++
 ### Description: 
 rtl8821CE driver with firmware
 
 ### Files: 
-* /usr/lib/modules/6.12.9-fw1/updates/drivers/net/wireless/8821ce.ko
+* /usr/lib/modules/6.12.10-fw1/updates/drivers/net/wireless/8821ce.ko
 * /usr/share/doc/rtl8821ce-1.0.4.r76.g7c4f827/COPYING
 * /usr/share/doc/rtl8821ce-1.0.4.r76.g7c4f827/README.md

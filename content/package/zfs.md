@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zfs 2.3.0-1"
-version = "2.3.0-1"
+title = "zfs 2.3.0-2"
+version = "2.3.0-2"
 description = "ZFS"
-date = "2025-01-14T12:09:14"
+date = "2025-01-17T23:21:12"
 aliases = "/packages/220123"
 categories = ['base-extra']
 upstreamurl = "http://zfsonlinux.org"
 arch = "x86_64"
-size = "45359216"
-usize = "61438850"
-sha1sum = "c561cb0b70a1cbdcd3721b8af79220852c2f6aab"
-depends = "['kernel=6.12.9-1', 'libtirpc']"
+size = "45365136"
+usize = "61414666"
+sha1sum = "de08c48e6f647be110d25e0b954255142ce142c2"
+depends = "['kernel=6.12.10-1', 'libtirpc']"
 +++
 ### Description: 
 ZFS
@@ -366,8 +366,8 @@ ZFS
 * /usr/lib/libzpool.so.6
 * /usr/lib/libzpool.so.6.0.0
 * /usr/lib/modules-load.d/zfs.conf
-* /usr/lib/modules/6.12.9-fw1/extra/spl.ko.zst
-* /usr/lib/modules/6.12.9-fw1/extra/zfs.ko.zst
+* /usr/lib/modules/6.12.10-fw1/extra/spl.ko.zst
+* /usr/lib/modules/6.12.10-fw1/extra/zfs.ko.zst
 * /usr/lib/pam-configs/zfs_key
 * /usr/lib/pkgconfig/libzfs.pc
 * /usr/lib/pkgconfig/libzfsbootenv.pc
@@ -2724,9 +2724,7 @@ ZFS
 * /usr/lib/zfs/zloop.sh
 * /usr/lib/zvol_id
 * /usr/share/doc/zfs-2.3.0/AUTHORS
-* /usr/share/doc/zfs-2.3.0/COPYING.md
 * /usr/share/doc/zfs-2.3.0/COPYRIGHT
-* /usr/share/doc/zfs-2.3.0/INSTALL.md
 * /usr/share/doc/zfs-2.3.0/LICENSE
 * /usr/share/doc/zfs-2.3.0/NEWS
 * /usr/share/doc/zfs-2.3.0/README.md
@@ -2838,9 +2836,9 @@ ZFS
 * /usr/share/man/man8/zpool_influxdb.8.gz
 * /usr/share/man/man8/zstream.8.gz
 * /usr/share/man/man8/zstreamdump.8.gz
-* /usr/src/zfs-2.3.0/6.12.9-fw1/Module.symvers
-* /usr/src/zfs-2.3.0/6.12.9-fw1/zfs.release
-* /usr/src/zfs-2.3.0/6.12.9-fw1/zfs_config.h
+* /usr/src/zfs-2.3.0/6.12.10-fw1/Module.symvers
+* /usr/src/zfs-2.3.0/6.12.10-fw1/zfs.release
+* /usr/src/zfs-2.3.0/6.12.10-fw1/zfs_config.h
 * /usr/src/zfs-2.3.0/include/cityhash.h
 * /usr/src/zfs-2.3.0/include/linux/blkdev_compat.h
 * /usr/src/zfs-2.3.0/include/linux/compiler_compat.h
