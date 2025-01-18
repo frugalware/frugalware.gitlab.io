@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flutter 3.27.1-1"
-version = "3.27.1-1"
+title = "flutter 3.27.2-1"
+version = "3.27.2-1"
 description = "A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android."
-date = "2024-12-22T23:14:24"
+date = "2025-01-18T17:12:14"
 aliases = "/packages/220938"
 categories = ['devel-extra']
 upstreamurl = "https://flutter.dev"
 arch = "x86_64"
-size = "849388924"
-usize = "1858815952"
-sha1sum = "355cca94ad57fd63f1b10264fc05a958823b96dc"
+size = "772809304"
+usize = "1776463930"
+sha1sum = "67b32bfb4cf312f3479f5bf73b12c20330c7d4cb"
 depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
 ### Description: 
@@ -42,33 +42,30 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.git/info/refs
 * /opt/flutter/.git/logs/HEAD
 * /opt/flutter/.git/logs/refs/heads/stable
-* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.28-candidate.1
-* /opt/flutter/.git/logs/refs/remotes/origin/flutter_doctor_validator_execution_duration
+* /opt/flutter/.git/logs/refs/remotes/origin/chunhtai-patch-1
+* /opt/flutter/.git/logs/refs/remotes/origin/fix/159223
+* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.27-candidate.0
+* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.29-candidate.0
 * /opt/flutter/.git/logs/refs/remotes/origin/HEAD
-* /opt/flutter/.git/logs/refs/remotes/origin/i156111-java-17-template-update
 * /opt/flutter/.git/logs/refs/remotes/origin/main
 * /opt/flutter/.git/logs/refs/remotes/origin/master
-* /opt/flutter/.git/logs/refs/remotes/origin/roll-dart-native
-* /opt/flutter/.git/logs/refs/remotes/origin/yjbanov-monorepo-web-long-running-tests
 * /opt/flutter/.git/objects/info/commit-graph
 * /opt/flutter/.git/objects/info/packs
-* /opt/flutter/.git/objects/pack/pack-7d58133c101c42c7f50abe02dacd64e7e6017e6e.idx
-* /opt/flutter/.git/objects/pack/pack-7d58133c101c42c7f50abe02dacd64e7e6017e6e.pack
-* /opt/flutter/.git/objects/pack/pack-7d58133c101c42c7f50abe02dacd64e7e6017e6e.rev
-* /opt/flutter/.git/objects/pack/pack-8fab4262732b8d5fbcd339f652bb816cac38bb3f.idx
-* /opt/flutter/.git/objects/pack/pack-8fab4262732b8d5fbcd339f652bb816cac38bb3f.pack
-* /opt/flutter/.git/objects/pack/pack-8fab4262732b8d5fbcd339f652bb816cac38bb3f.rev
+* /opt/flutter/.git/objects/pack/pack-25ff1adf3326d9951082f0a6372a377052d56c53.idx
+* /opt/flutter/.git/objects/pack/pack-25ff1adf3326d9951082f0a6372a377052d56c53.pack
+* /opt/flutter/.git/objects/pack/pack-25ff1adf3326d9951082f0a6372a377052d56c53.rev
+* /opt/flutter/.git/objects/pack/pack-9ebeac400411104fb0eeb31c0490887c3f206b0a.idx
+* /opt/flutter/.git/objects/pack/pack-9ebeac400411104fb0eeb31c0490887c3f206b0a.pack
+* /opt/flutter/.git/objects/pack/pack-9ebeac400411104fb0eeb31c0490887c3f206b0a.rev
 * /opt/flutter/.git/ORIG_HEAD
 * /opt/flutter/.git/packed-refs
-* /opt/flutter/.git/refs/remotes/origin/flutter-3.28-candidate.1
-* /opt/flutter/.git/refs/remotes/origin/flutter_doctor_validator_execution_duration
+* /opt/flutter/.git/refs/remotes/origin/chunhtai-patch-1
+* /opt/flutter/.git/refs/remotes/origin/fix/159223
+* /opt/flutter/.git/refs/remotes/origin/flutter-3.27-candidate.0
+* /opt/flutter/.git/refs/remotes/origin/flutter-3.29-candidate.0
 * /opt/flutter/.git/refs/remotes/origin/HEAD
-* /opt/flutter/.git/refs/remotes/origin/i156111-java-17-template-update
 * /opt/flutter/.git/refs/remotes/origin/main
 * /opt/flutter/.git/refs/remotes/origin/master
-* /opt/flutter/.git/refs/remotes/origin/roll-dart-native
-* /opt/flutter/.git/refs/remotes/origin/yjbanov-monorepo-web-long-running-tests
-* /opt/flutter/.git/refs/tags/3.28.0-1.0.pre
 * /opt/flutter/.gitattributes
 * /opt/flutter/.github/dependabot.yml
 * /opt/flutter/.github/ISSUE_TEMPLATE/10_feature.yml
@@ -205,6 +202,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.pub-preload-cache/leak_tracker_flutter_testing-3.0.8.tar.gz
 * /opt/flutter/.pub-preload-cache/leak_tracker_testing-3.0.1.tar.gz
 * /opt/flutter/.pub-preload-cache/lints-5.1.0.tar.gz
+* /opt/flutter/.pub-preload-cache/lints-5.1.1.tar.gz
 * /opt/flutter/.pub-preload-cache/logging-1.2.0.tar.gz
 * /opt/flutter/.pub-preload-cache/macros-0.1.3-main.0.tar.gz
 * /opt/flutter/.pub-preload-cache/matcher-0.12.16+1.tar.gz
@@ -10200,7 +10198,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/packages/flutter_tools/templates/module/android/host_app_common/app.tmpl/src/main/res/mipmap-hdpi/ic_launcher.png
 * /opt/flutter/packages/flutter_tools/templates/module/android/host_app_common/app.tmpl/src/main/res/values/styles.xml
 * /opt/flutter/packages/flutter_tools/templates/module/android/host_app_editable/settings.gradle.copy.tmpl
-* /opt/flutter/packages/flutter_tools/templates/module/android/host_app_ephemeral/settings.gradle.copy.tmpl
+* /opt/flutter/packages/flutter_tools/templates/module/android/host_app_ephemeral/settings.gradle.tmpl
 * /opt/flutter/packages/flutter_tools/templates/module/android/library_new_embedding/Flutter.tmpl/build.gradle.tmpl
 * /opt/flutter/packages/flutter_tools/templates/module/android/library_new_embedding/Flutter.tmpl/flutter.iml.copy.tmpl
 * /opt/flutter/packages/flutter_tools/templates/module/android/library_new_embedding/Flutter.tmpl/src/main/AndroidManifest.xml.tmpl
@@ -11029,6 +11027,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/TESTOWNERS
 * /opt/flutter/version
 * /usr/bin/flutter
-* /usr/share/doc/flutter-3.27.1/AUTHORS
-* /usr/share/doc/flutter-3.27.1/LICENSE
-* /usr/share/doc/flutter-3.27.1/README.md
+* /usr/share/doc/flutter-3.27.2/AUTHORS
+* /usr/share/doc/flutter-3.27.2/LICENSE
+* /usr/share/doc/flutter-3.27.2/README.md
