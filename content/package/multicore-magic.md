@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "multicore-magic 2.3.0-1"
-version = "2.3.0-1"
+title = "multicore-magic 2.3.1-1"
+version = "2.3.1-1"
 description = "Low-level multicore utilities for OCaml"
-date = "2024-10-21T14:30:30"
+date = "2025-01-18T13:59:57"
 aliases = "/packages/222550"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-multicore/multicore-magic"
 arch = "x86_64"
-size = "163828"
-usize = "381484"
-sha1sum = "33e341fa529b756de220316b74a63a309e4c37de"
+size = "165700"
+usize = "384006"
+sha1sum = "b2118cbf218522e5347509a961e4c3d8f2a82af3"
 depends = "['ocaml']"
 reverse_depends = "['saturn']"
 +++
@@ -74,16 +74,17 @@ Low-level multicore utilities for OCaml
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/.public_cmi/multicore_magic_atomic_array.cmt
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/libmulticore_magic_atomic_array_unboxed5_stubs.a
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array.cmx
+* /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array.js
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array.ml
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array_unboxed5.a
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array_unboxed5.cma
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array_unboxed5.cmxa
 * /usr/lib/ocaml/multicore-magic/__private__/multicore_magic_atomic_array_unboxed5/multicore_magic_atomic_array_unboxed5.cmxs
 * /usr/lib/ocaml/stublibs/dllmulticore_magic_atomic_array_unboxed5_stubs.so
-* /usr/share/doc/multicore-magic-2.3.0/multicore-magic-dscheck/CHANGES.md
-* /usr/share/doc/multicore-magic-2.3.0/multicore-magic-dscheck/LICENSE.md
-* /usr/share/doc/multicore-magic-2.3.0/multicore-magic-dscheck/README.md
-* /usr/share/doc/multicore-magic-2.3.0/multicore-magic/CHANGES.md
-* /usr/share/doc/multicore-magic-2.3.0/multicore-magic/LICENSE.md
-* /usr/share/doc/multicore-magic-2.3.0/multicore-magic/README.md
-* /usr/share/doc/multicore-magic-2.3.0/README.md
+* /usr/share/doc/multicore-magic-2.3.1/multicore-magic-dscheck/CHANGES.md
+* /usr/share/doc/multicore-magic-2.3.1/multicore-magic-dscheck/LICENSE.md
+* /usr/share/doc/multicore-magic-2.3.1/multicore-magic-dscheck/README.md
+* /usr/share/doc/multicore-magic-2.3.1/multicore-magic/CHANGES.md
+* /usr/share/doc/multicore-magic-2.3.1/multicore-magic/LICENSE.md
+* /usr/share/doc/multicore-magic-2.3.1/multicore-magic/README.md
+* /usr/share/doc/multicore-magic-2.3.1/README.md

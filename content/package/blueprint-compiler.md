@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blueprint-compiler 0.14.0-3"
-version = "0.14.0-3"
+title = "blueprint-compiler 0.16.0-1"
+version = "0.16.0-1"
 description = "A markup language for GTK user interfaces"
-date = "2024-11-03T11:54:13"
+date = "2025-01-18T14:04:38"
 aliases = "/packages/222524"
 categories = ['devel-extra']
 upstreamurl = "https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/"
 arch = "x86_64"
-size = "193952"
-usize = "839533"
-sha1sum = "44491310139b4bbfeb6eadd6852aa4bb5df1a4d2"
+size = "212140"
+usize = "924317"
+sha1sum = "90fb34818e7636b5848db99172283c1e5b4fb5ae"
 depends = "['pygobject3-cairo']"
 +++
 ### Description: 
@@ -18,6 +18,7 @@ A markup language for GTK user interfaces
 
 ### Files: 
 * /usr/bin/blueprint-compiler
+* /usr/lib/python3.13/site-packages/blueprintcompiler/annotations.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/ast_utils.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/completions.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/completions_utils.py
@@ -28,7 +29,6 @@ A markup language for GTK user interfaces
 * /usr/lib/python3.13/site-packages/blueprintcompiler/interactive_port.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/adw_breakpoint.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/adw_response_dialog.py
-* /usr/lib/python3.13/site-packages/blueprintcompiler/language/attributes.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/binding.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/common.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/contexts.py
@@ -57,7 +57,6 @@ A markup language for GTK user interfaces
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/__init__.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/__pycache__/adw_breakpoint.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/__pycache__/adw_response_dialog.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/blueprintcompiler/language/__pycache__/attributes.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/__pycache__/binding.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/__pycache__/common.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/language/__pycache__/contexts.cpython-313.pyc
@@ -95,11 +94,13 @@ A markup language for GTK user interfaces
 * /usr/lib/python3.13/site-packages/blueprintcompiler/outputs/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/parser.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/parse_tree.py
+* /usr/lib/python3.13/site-packages/blueprintcompiler/reference_docs.json
 * /usr/lib/python3.13/site-packages/blueprintcompiler/tokenizer.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/typelib.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/utils.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/xml_reader.py
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__init__.py
+* /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/annotations.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/ast_utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/completions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/completions_utils.cpython-313.pyc
@@ -118,6 +119,6 @@ A markup language for GTK user interfaces
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/xml_reader.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/blueprintcompiler/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/blueprint-compiler-0.14.0/COPYING
-* /usr/share/doc/blueprint-compiler-0.14.0/README.md
+* /usr/share/doc/blueprint-compiler-0.16.0/COPYING
+* /usr/share/doc/blueprint-compiler-0.16.0/README.md
 * /usr/share/pkgconfig/blueprint-compiler.pc
