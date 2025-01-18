@@ -1,26 +1,30 @@
 +++
 draft = false
-title = "ppxlib 0.33.0-1"
-version = "0.33.0-1"
+title = "ppxlib 0.34.0-1"
+version = "0.34.0-1"
 description = "Standard infrastructure for ppx rewriters"
-date = "2024-08-04T16:24:06"
+date = "2025-01-18T11:23:32"
 aliases = "/packages/221069"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-ppx/ppxlib"
 arch = "x86_64"
-size = "25807068"
-usize = "69091100"
-sha1sum = "943c036b211218d6decdd526144855a98209f30b"
-depends = "['ocaml-compiler-libs-repackaged', 'ocaml-stdlib-shims', 'ppx_derivers', 'sexplib0']"
+size = "30219244"
+usize = "88727532"
+sha1sum = "806b64a68d28f4b22af2789919346125ce26a3dc"
+depends = "['ocaml-cmdliner', 'ocaml-compiler-libs-repackaged', 'ocaml-stdlib-shims', 'ppx_derivers', 'sexplib0']"
 reverse_depends = "['lwt']"
 +++
 ### Description: 
 Standard infrastructure for ppx rewriters
 
 ### Files: 
+* /usr/bin/ppxlib-pp-ast
 * /usr/lib/ocaml/ppxlib-bench/dune-package
 * /usr/lib/ocaml/ppxlib-bench/META
 * /usr/lib/ocaml/ppxlib-bench/opam
+* /usr/lib/ocaml/ppxlib-tools/dune-package
+* /usr/lib/ocaml/ppxlib-tools/META
+* /usr/lib/ocaml/ppxlib-tools/opam
 * /usr/lib/ocaml/ppxlib/ast/ast.ml
 * /usr/lib/ocaml/ppxlib/ast/ast_helper_lite.ml
 * /usr/lib/ocaml/ppxlib/ast/ast_helper_lite.mli
@@ -515,6 +519,10 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/ppxlib__Options.cmi
 * /usr/lib/ocaml/ppxlib/ppxlib__Options.cmt
 * /usr/lib/ocaml/ppxlib/ppxlib__Options.cmx
+* /usr/lib/ocaml/ppxlib/ppxlib__Pp_ast.cmi
+* /usr/lib/ocaml/ppxlib/ppxlib__Pp_ast.cmt
+* /usr/lib/ocaml/ppxlib/ppxlib__Pp_ast.cmti
+* /usr/lib/ocaml/ppxlib/ppxlib__Pp_ast.cmx
 * /usr/lib/ocaml/ppxlib/ppxlib__Quoter.cmi
 * /usr/lib/ocaml/ppxlib/ppxlib__Quoter.cmt
 * /usr/lib/ocaml/ppxlib/ppxlib__Quoter.cmti
@@ -534,6 +542,8 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/ppxlib__Utils.cmt
 * /usr/lib/ocaml/ppxlib/ppxlib__Utils.cmti
 * /usr/lib/ocaml/ppxlib/ppxlib__Utils.cmx
+* /usr/lib/ocaml/ppxlib/pp_ast.ml
+* /usr/lib/ocaml/ppxlib/pp_ast.mli
 * /usr/lib/ocaml/ppxlib/print_diff/ppxlib_print_diff.a
 * /usr/lib/ocaml/ppxlib/print_diff/ppxlib_print_diff.cma
 * /usr/lib/ocaml/ppxlib/print_diff/ppxlib_print_diff.cmi
@@ -601,21 +611,33 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/traverse_builtins/ppxlib_traverse_builtins.ml
 * /usr/lib/ocaml/ppxlib/utils.ml
 * /usr/lib/ocaml/ppxlib/utils.mli
-* /usr/share/doc/ppxlib-0.33.0/ppxlib-bench/CHANGES.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib-bench/HISTORY.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib-bench/LICENSE.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib-bench/README.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/CHANGES.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/HISTORY.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/LICENSE.md
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/ast-traversal.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/driver.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/examples.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/generating-code.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/good-practices.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/index.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/matching-code.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/quick_intro.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/odoc-pages/writing-ppxs.mld
-* /usr/share/doc/ppxlib-0.33.0/ppxlib/README.md
-* /usr/share/doc/ppxlib-0.33.0/README.md
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/.public_cmi/ppx_foo_deriver.cmi
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/.public_cmi/ppx_foo_deriver.cmt
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.a
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cma
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmx
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmxa
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmxs
+* /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.ml
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/CHANGES.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/HISTORY.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/LICENSE.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/README.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/CHANGES.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/HISTORY.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/LICENSE.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/README.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/CHANGES.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/HISTORY.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/LICENSE.md
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/ast-traversal.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/driver.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/examples.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/generating-code.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/good-practices.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/index.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/matching-code.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/quick_intro.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/writing-ppxs.mld
+* /usr/share/doc/ppxlib-0.34.0/ppxlib/README.md
+* /usr/share/doc/ppxlib-0.34.0/README.md

@@ -12,7 +12,7 @@ size = "1271816"
 usize = "2698328"
 sha1sum = "fdeabb114e234ca3194d3c0b9e5ef6a20abd95b1"
 depends = "['ocaml']"
-reverse_depends = "['ocaml-fmt']"
+reverse_depends = "['ocaml-fmt', 'ppxlib']"
 +++
 ### Description: 
 Declarative definition of command line interfaces for OCaml
