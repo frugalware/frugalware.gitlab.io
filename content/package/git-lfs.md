@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-lfs 3.6.0-1"
-version = "3.6.0-1"
+title = "git-lfs 3.6.1-1"
+version = "3.6.1-1"
 description = "An open source Git extension for versioning large files"
-date = "2024-11-22T15:18:56"
+date = "2025-01-18T14:37:33"
 aliases = "/packages/219492"
 categories = ['devel-extra']
 upstreamurl = "https://git-lfs.github.com/"
 arch = "x86_64"
-size = "3760888"
-usize = "12288300"
-sha1sum = "a32230393e13aa7b20e255ac6749632c0b4bf754"
+size = "3762208"
+usize = "12296492"
+sha1sum = "722be72f7ea32358190cbcbb335727ea71f86a93"
 depends = "['git>=1.8.5']"
 +++
 ### Description: 
@@ -18,8 +18,8 @@ An open source Git extension for versioning large files
 
 ### Files: 
 * /usr/bin/git-lfs
-* /usr/share/doc/git-lfs-3.6.0/INSTALLING.md
-* /usr/share/doc/git-lfs-3.6.0/README.md
+* /usr/share/doc/git-lfs-3.6.1/INSTALLING.md
+* /usr/share/doc/git-lfs-3.6.1/README.md
 * /usr/share/man/man1/git-lfs-checkout.1.gz
 * /usr/share/man/man1/git-lfs-clean.1.gz
 * /usr/share/man/man1/git-lfs-clone.1.gz

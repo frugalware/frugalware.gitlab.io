@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "valijson 1.0.2-1"
-version = "1.0.2-1"
+title = "valijson 1.0.3-1"
+version = "1.0.3-1"
 description = "Header-only C++ library for JSON Schema validation"
-date = "2024-06-29T19:40:36"
+date = "2025-01-18T15:12:23"
 aliases = "/packages/221135"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/tristanpenman/valijson"
 arch = "x86_64"
-size = "67864"
-usize = "574092"
-sha1sum = "963bab4e1854426f14027aa25e657fbb85478322"
+size = "68540"
+usize = "577084"
+sha1sum = "eaed2d10e6de3b733ab4132d30a31179cb33df8b"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -64,5 +64,5 @@ Header-only C++ library for JSON Schema validation
 * /usr/include/valijson/validation_visitor.hpp
 * /usr/include/valijson/validator.hpp
 * /usr/lib/cmake/valijson/valijsonConfig.cmake
-* /usr/share/doc/valijson-1.0.2/LICENSE
-* /usr/share/doc/valijson-1.0.2/README.md
+* /usr/share/doc/valijson-1.0.3/LICENSE
+* /usr/share/doc/valijson-1.0.3/README.md
