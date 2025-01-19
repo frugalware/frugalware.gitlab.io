@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-numpy 2.2.1-1"
-version = "2.2.1-1"
+title = "python3-numpy 2.2.2-1"
+version = "2.2.2-1"
 description = "Numerical Python adds a fast array facility to the Python3 language."
-date = "2024-12-24T12:21:51"
+date = "2025-01-19T19:51:32"
 aliases = "/packages/219648"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "7830784"
-usize = "49424666"
-sha1sum = "cd686553700791f192829c03696012d06ff5d950"
+size = "7850368"
+usize = "49455773"
+sha1sum = "9ea87e84b985d6f69991c38685982836e279906e"
 depends = "['python3>=3.12']"
 reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'git-cola', 'howdy', 'opencv-python3', 'openrazer', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn']"
 +++
@@ -20,11 +20,11 @@ Numerical Python adds a fast array facility to the Python3 language.
 ### Files: 
 * /usr/bin/f2py
 * /usr/bin/numpy-config
-* /usr/lib/python3.13/site-packages/numpy-2.2.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/numpy-2.2.1.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/numpy-2.2.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/numpy-2.2.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/numpy-2.2.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/numpy-2.2.2.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/numpy-2.2.2.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/numpy-2.2.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/numpy-2.2.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/numpy-2.2.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/numpy/char/__init__.py
 * /usr/lib/python3.13/site-packages/numpy/char/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/char/__pycache__/__init__.cpython-313.opt-1.pyc
@@ -190,6 +190,7 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/f90continuation.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/incfile.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/inout.f90
+* /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/lower_f2py_fortran.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/return_character/foo77.f
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/return_character/foo90.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/return_complex/foo77.f
@@ -1110,7 +1111,6 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/dtype.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/einsumfunc.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/emath.pyi
-* /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/false_positives.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/fft.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/flatiter.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/fromnumeric.pyi
@@ -1665,6 +1665,5 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__config__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-numpy-2.2.1/INSTALL.rst
-* /usr/share/doc/python3-numpy-2.2.1/README.md
-* /usr/share/doc/python3-numpy-2.2.1/README.rst
+* /usr/share/doc/python3-numpy-2.2.2/INSTALL.rst
+* /usr/share/doc/python3-numpy-2.2.2/README.md
