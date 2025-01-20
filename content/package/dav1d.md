@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dav1d 1.5.0-1"
-version = "1.5.0-1"
+title = "dav1d 1.5.1-1"
+version = "1.5.1-1"
 description = "dav1d is an AV1 decoder"
-date = "2024-10-18T14:51:39"
+date = "2025-01-20T15:24:54"
 aliases = "/packages/219851"
 categories = ['multimedia']
 upstreamurl = "https://code.videolan.org/videolan/dav1d"
 arch = "x86_64"
-size = "585600"
-usize = "1856056"
-sha1sum = "5c87ac87debcf8b08422ac45793a945908b798eb"
+size = "596464"
+usize = "1886220"
+sha1sum = "fa64e694be5b31395290e20badfbb28a6581ca66"
 depends = "[]"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'firefox', 'libavif', 'libheif', 'librsvg', 'thunderbird', 'vlc-dav1d', 'xine-lib']"
 +++
@@ -29,6 +29,6 @@ dav1d is an AV1 decoder
 * /usr/lib/libdav1d.so.7
 * /usr/lib/libdav1d.so.7.0.0
 * /usr/lib/pkgconfig/dav1d.pc
-* /usr/share/doc/dav1d-1.5.0/COPYING
-* /usr/share/doc/dav1d-1.5.0/NEWS
-* /usr/share/doc/dav1d-1.5.0/README.md
+* /usr/share/doc/dav1d-1.5.1/COPYING
+* /usr/share/doc/dav1d-1.5.1/NEWS
+* /usr/share/doc/dav1d-1.5.1/README.md

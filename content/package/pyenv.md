@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyenv 2.5.0-1"
-version = "2.5.0-1"
+title = "pyenv 2.5.1-1"
+version = "2.5.1-1"
 description = "Easily switch between multiple versions of Python"
-date = "2024-12-23T00:19:22"
+date = "2025-01-20T16:02:08"
 aliases = "/packages/221127"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/pyenv/pyenv"
 arch = "x86_64"
-size = "281476"
-usize = "3379782"
-sha1sum = "af7ab30e3a11822cb34c8f4631a9c71dcd7c7e40"
+size = "282228"
+usize = "3384226"
+sha1sum = "e3d105be3ed313fecb2dc8b1e42575138c329b50"
 depends = "['bash']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ Easily switch between multiple versions of Python
 * /usr/bin/pyenv-uninstall
 * /usr/bin/python-build
 * /usr/share/bash-completion/completions/pyenv
-* /usr/share/doc/pyenv-2.5.0/LICENSE
-* /usr/share/doc/pyenv-2.5.0/README.md
+* /usr/share/doc/pyenv-2.5.1/LICENSE
+* /usr/share/doc/pyenv-2.5.1/README.md
 * /usr/share/doc/pyenv/CHANGELOG.md
 * /usr/share/doc/pyenv/COMMANDS.md
 * /usr/share/doc/pyenv/README-python-build.md
@@ -161,8 +161,8 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.1t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13t-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.14-dev
-* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a3
-* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a3t
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a4
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a4t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.14t-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.2.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.2.1
@@ -646,6 +646,8 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.1.2-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.0-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.0-1
+* /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.2-0
+* /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.2-1
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.3.0-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.5.0-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.7.1-0

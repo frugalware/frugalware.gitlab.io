@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gdb 16.1-1"
-version = "16.1-1"
+title = "gdb 16.1-2"
+version = "16.1-2"
 description = "Gnu Project Debugger"
-date = "2025-01-20T15:13:16"
+date = "2025-01-20T15:50:53"
 aliases = "/packages/2380"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/gdb/download/"
 arch = "x86_64"
-size = "4863072"
-usize = "13496674"
-sha1sum = "b3ecaa16f38a7e208bf8161500281616b660e538"
-depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.13', 'readline>=8.0']"
+size = "4757704"
+usize = "13355929"
+sha1sum = "8add862c4ea13abfb4d898f5a24a7fb2e90427db"
+depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.13', 'readline>=8.0', 'xxhash']"
 reverse_depends = "['python3-pygdbmi', 'qtcreator', 'rr']"
 +++
 ### Description: 
@@ -24,10 +24,7 @@ Gnu Project Debugger
 * /usr/bin/gdbserver
 * /usr/bin/gstack
 * /usr/include/gdb/jit-reader.h
-* /usr/include/sframe-api.h
-* /usr/include/sframe.h
 * /usr/lib/libinproctrace.so
-* /usr/lib/libsframe.a
 * /usr/share/doc/gdb-16.1/ChangeLog
 * /usr/share/doc/gdb-16.1/COPYING
 * /usr/share/doc/gdb-16.1/COPYING.LIB

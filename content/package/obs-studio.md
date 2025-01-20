@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "obs-studio 31.0.0-1"
-version = "31.0.0-1"
+title = "obs-studio 31.0.1-1"
+version = "31.0.1-1"
 description = "Free, open source software for live streaming and recording"
-date = "2024-12-16T21:34:15"
+date = "2025-01-20T15:38:18"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "7730264"
-usize = "30774404"
-sha1sum = "55db4cbf76d24f996dba467a43ed9a6016f05040"
+size = "7760236"
+usize = "30848021"
+sha1sum = "b5a7a514671147149ca735f11db9f5a7a7834330"
 depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libdatachannel', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.13', 'qr-code-generator', 'qt6-svg', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
@@ -174,10 +174,10 @@ Free, open source software for live streaming and recording
 * /usr/lib/pkgconfig/libobs.pc
 * /usr/lib/pkgconfig/obs-frontend-api.pc
 * /usr/share/applications/com.obsproject.Studio.desktop
-* /usr/share/doc/obs-studio-31.0.0/AUTHORS
-* /usr/share/doc/obs-studio-31.0.0/COPYING
-* /usr/share/doc/obs-studio-31.0.0/INSTALL
-* /usr/share/doc/obs-studio-31.0.0/README.rst
+* /usr/share/doc/obs-studio-31.0.1/AUTHORS
+* /usr/share/doc/obs-studio-31.0.1/COPYING
+* /usr/share/doc/obs-studio-31.0.1/INSTALL
+* /usr/share/doc/obs-studio-31.0.1/README.rst
 * /usr/share/icons/hicolor/128x128/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/256x256/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/512x512/apps/com.obsproject.Studio.png
@@ -247,6 +247,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/aja-output-ui/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/aja-output-ui/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/aja-output-ui/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/aja-output-ui/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/aja-output-ui/locale/sv-SE.ini
 * /usr/share/obs/obs-plugins/aja-output-ui/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/aja-output-ui/locale/tl-PH.ini
@@ -302,6 +303,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/aja/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/aja/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/aja/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/aja/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/aja/locale/sv-SE.ini
 * /usr/share/obs/obs-plugins/aja/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/aja/locale/tr-TR.ini
@@ -1058,6 +1060,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/bg-BG.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ca-ES.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/cs-CZ.ini
+* /usr/share/obs/obs-plugins/obs-nvenc/locale/da-DK.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/de-DE.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/en-GB.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/en-US.ini
@@ -1086,6 +1089,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ru-RU.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/sv-SE.ini
+* /usr/share/obs/obs-plugins/obs-nvenc/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/tr-TR.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/tt-RU.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ug-CN.ini
@@ -1415,11 +1419,13 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/pl-PL.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/pt-BR.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/pt-PT.ini
+* /usr/share/obs/obs-plugins/obs-webrtc/locale/ro-RO.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/ru-RU.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/sl-SI.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/sv-SE.ini
+* /usr/share/obs/obs-plugins/obs-webrtc/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/tr-TR.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/ug-CN.ini
 * /usr/share/obs/obs-plugins/obs-webrtc/locale/uk-UA.ini

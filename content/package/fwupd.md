@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 2.0.3-1"
-version = "2.0.3-1"
+title = "fwupd 2.0.4-1"
+version = "2.0.4-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2024-12-06T22:13:01"
+date = "2025-01-20T15:29:01"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "8114600"
-usize = "50175381"
-sha1sum = "73dd808d0087d48a64462fefd5545a0580de6a58"
+size = "8222044"
+usize = "50396156"
+sha1sum = "131774ba312a1ea2265b349809a924d95a7b4e7e"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.3.19', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -50,11 +50,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-3/libfwupd/fwupd-request.h
 * /usr/include/fwupd-3/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-3/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-2.0.3/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-2.0.3/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-2.0.3/libfwupdengine.so
-* /usr/lib/fwupd-2.0.3/libfwupdplugin.so
-* /usr/lib/fwupd-2.0.3/libfwupdutil.so
+* /usr/lib/fwupd-2.0.4/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-2.0.4/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-2.0.4/libfwupdengine.so
+* /usr/lib/fwupd-2.0.4/libfwupdplugin.so
+* /usr/lib/fwupd-2.0.4/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/girepository-1.0/Fwupd-2.0.typelib
@@ -70,6 +70,7 @@ A simple daemon to allow session software to update firmware
 * /usr/lib/installed-tests/fwupd/fu-dfu-self-test
 * /usr/lib/installed-tests/fwupd/fwupdplugin-self-test
 * /usr/lib/installed-tests/fwupd/linux-swap-self-test
+* /usr/lib/installed-tests/fwupd/logitech-hidpp-self-test
 * /usr/lib/installed-tests/fwupd/mtd-self-test
 * /usr/lib/installed-tests/fwupd/nvme-self-test
 * /usr/lib/installed-tests/fwupd/pxi-self-test
@@ -77,6 +78,7 @@ A simple daemon to allow session software to update firmware
 * /usr/lib/installed-tests/fwupd/synaptics-mst-self-test
 * /usr/lib/installed-tests/fwupd/synaptics-prometheus-self-test
 * /usr/lib/installed-tests/fwupd/synaptics-rmi-self-test
+* /usr/lib/installed-tests/fwupd/tpm-self-test
 * /usr/lib/installed-tests/fwupd/uefi-dbx-self-test
 * /usr/lib/installed-tests/fwupd/uf2-self-test
 * /usr/lib/installed-tests/fwupd/vli-self-test
@@ -96,9 +98,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-2.0.3/COPYING
-* /usr/share/doc/fwupd-2.0.3/README.md
-* /usr/share/doc/fwupd-2.0.3/RELEASE
+* /usr/share/doc/fwupd-2.0.4/COPYING
+* /usr/share/doc/fwupd-2.0.4/README.md
+* /usr/share/doc/fwupd-2.0.4/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -312,6 +314,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/func.guid_hash_string.html
 * /usr/share/doc/libfwupd/func.guid_is_valid.html
 * /usr/share/doc/libfwupd/func.guid_to_string.html
+* /usr/share/doc/libfwupd/func.install_flags_from_string.html
 * /usr/share/doc/libfwupd/func.install_flags_to_string.html
 * /usr/share/doc/libfwupd/func.status_from_string.html
 * /usr/share/doc/libfwupd/func.status_to_string.html
@@ -1183,6 +1186,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/class.LinearFirmware.html
 * /usr/share/doc/libfwupdplugin/class.MeiDevice.html
 * /usr/share/doc/libfwupdplugin/class.MsgpackItem.html
+* /usr/share/doc/libfwupdplugin/class.OpromDevice.html
 * /usr/share/doc/libfwupdplugin/class.OpromFirmware.html
 * /usr/share/doc/libfwupdplugin/class.PartialInputStream.html
 * /usr/share/doc/libfwupdplugin/class.PciDevice.html
@@ -1221,6 +1225,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.BLUEZ_DEVICE_UUID_DI_SERIAL_NUMBER.html
 * /usr/share/doc/libfwupdplugin/const.BLUEZ_DEVICE_UUID_DI_SOFTWARE_REVISION.html
 * /usr/share/doc/libfwupdplugin/const.BLUEZ_DEVICE_UUID_DI_SYSTEM_ID.html
+* /usr/share/doc/libfwupdplugin/const.CFI_DEVICE_CMD_LAST.html
 * /usr/share/doc/libfwupdplugin/const.CHUNK_ADDR_OFFSET_NONE.html
 * /usr/share/doc/libfwupdplugin/const.CHUNK_PAGESZ_NONE.html
 * /usr/share/doc/libfwupdplugin/const.COSWID_ENTITY_ROLE_LAST.html
@@ -1237,6 +1242,8 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_ATTACH_EXTRA_RESET.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_AUTO_PARENT_CHILDREN.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_AUTO_PAUSE_POLLING.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_COUNTERPART_VISIBLE.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_DELAYED_REMOVAL.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_DISPLAY_REQUIRED.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_ENFORCE_REQUIRES.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_ENSURE_SEMVER.html
@@ -1268,7 +1275,6 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_NO_PROBE.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_NO_SERIAL_NUMBER.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_ONLY_SUPPORTED.html
-* /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_ONLY_WAIT_FOR_REPLUG.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_REFCOUNTED_PROXY.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_REGISTERED.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_PRIVATE_FLAG_REPLUG_MATCH_GUID.html
@@ -1376,13 +1382,6 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.IFWI_FPT_FIRMWARE_IDX_IMGI.html
 * /usr/share/doc/libfwupdplugin/const.IFWI_FPT_FIRMWARE_IDX_INFO.html
 * /usr/share/doc/libfwupdplugin/const.IFWI_FPT_FIRMWARE_IDX_SDTA.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_DATA.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_EOF.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_EXTENDED_LINEAR.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_EXTENDED_SEGMENT.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_SIGNATURE.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_START_LINEAR.html
-* /usr/share/doc/libfwupdplugin/const.IHEX_FIRMWARE_RECORD_TYPE_START_SEGMENT.html
 * /usr/share/doc/libfwupdplugin/const.INTEL_THUNDERBOLT_NVM_FAMILY_LAST.html
 * /usr/share/doc/libfwupdplugin/const.INTEL_THUNDERBOLT_NVM_SECTION_LAST.html
 * /usr/share/doc/libfwupdplugin/const.LID_STATE_LAST.html
@@ -1439,6 +1438,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.SMBIOS_CHASSIS_KIND_LAST.html
 * /usr/share/doc/libfwupdplugin/const.SMBIOS_STRUCTURE_TYPE_LAST.html
 * /usr/share/doc/libfwupdplugin/const.UDEV_DEVICE_ATTR_READ_TIMEOUT_DEFAULT.html
+* /usr/share/doc/libfwupdplugin/const.USB_DEVICE_MS_DS20_DESC_LAST.html
 * /usr/share/doc/libfwupdplugin/const.USB_DIRECTION_LAST.html
 * /usr/share/doc/libfwupdplugin/const.USB_RECIPIENT_LAST.html
 * /usr/share/doc/libfwupdplugin/const.USB_REQUEST_TYPE_LAST.html
@@ -1593,6 +1593,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/enum.HidItemKind.html
 * /usr/share/doc/libfwupdplugin/enum.HidItemTag.html
 * /usr/share/doc/libfwupdplugin/enum.IfdRegion.html
+* /usr/share/doc/libfwupdplugin/enum.IhexFirmwareRecordType.html
 * /usr/share/doc/libfwupdplugin/enum.IntegerBase.html
 * /usr/share/doc/libfwupdplugin/enum.IntelThunderboltNvmFamily.html
 * /usr/share/doc/libfwupdplugin/enum.IntelThunderboltNvmSection.html
@@ -1600,6 +1601,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/enum.MsgpackCmd.html
 * /usr/share/doc/libfwupdplugin/enum.MsgpackItemKind.html
 * /usr/share/doc/libfwupdplugin/enum.PathKind.html
+* /usr/share/doc/libfwupdplugin/enum.PciDeviceBaseCls.html
 * /usr/share/doc/libfwupdplugin/enum.PeCoffMachine.html
 * /usr/share/doc/libfwupdplugin/enum.PeCoffMagic.html
 * /usr/share/doc/libfwupdplugin/enum.PluginRule.html
@@ -1609,6 +1611,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/enum.SmbiosStructureType.html
 * /usr/share/doc/libfwupdplugin/enum.UsbClass.html
 * /usr/share/doc/libfwupdplugin/enum.UsbDescriptorKind.html
+* /usr/share/doc/libfwupdplugin/enum.UsbDeviceMsDs20Desc.html
 * /usr/share/doc/libfwupdplugin/enum.UsbDirection.html
 * /usr/share/doc/libfwupdplugin/enum.UsbLangid.html
 * /usr/share/doc/libfwupdplugin/enum.UsbRecipient.html
@@ -1625,7 +1628,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/flags.ContextFlags.html
 * /usr/share/doc/libfwupdplugin/flags.ContextHwidFlags.html
 * /usr/share/doc/libfwupdplugin/flags.DeviceIncorporateFlags.html
-* /usr/share/doc/libfwupdplugin/flags.DeviceInstanceFlags.html
+* /usr/share/doc/libfwupdplugin/flags.DeviceInstanceFlag.html
 * /usr/share/doc/libfwupdplugin/flags.DumpFlags.html
 * /usr/share/doc/libfwupdplugin/flags.FirmwareExportFlags.html
 * /usr/share/doc/libfwupdplugin/flags.FirmwareFlags.html
@@ -1655,6 +1658,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.bytes_new_offset.html
 * /usr/share/doc/libfwupdplugin/func.bytes_pad.html
 * /usr/share/doc/libfwupdplugin/func.bytes_set_contents.html
+* /usr/share/doc/libfwupdplugin/func.bytes_to_string.html
 * /usr/share/doc/libfwupdplugin/func.byte_array_align_up.html
 * /usr/share/doc/libfwupdplugin/func.byte_array_append_bytes.html
 * /usr/share/doc/libfwupdplugin/func.byte_array_append_uint16.html
@@ -1674,7 +1678,6 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.common_get_memory_size.html
 * /usr/share/doc/libfwupdplugin/func.common_get_olson_timezone_id.html
 * /usr/share/doc/libfwupdplugin/func.common_guid_is_plausible.html
-* /usr/share/doc/libfwupdplugin/func.common_is_live_media.html
 * /usr/share/doc/libfwupdplugin/func.coswid_entity_role_from_string.html
 * /usr/share/doc/libfwupdplugin/func.coswid_entity_role_to_string.html
 * /usr/share/doc/libfwupdplugin/func.coswid_hash_alg_from_string.html
@@ -1737,7 +1740,6 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.device_has_checksum.html
 * /usr/share/doc/libfwupdplugin/func.device_has_flag.html
 * /usr/share/doc/libfwupdplugin/func.device_has_icon.html
-* /usr/share/doc/libfwupdplugin/func.device_has_instance_id.html
 * /usr/share/doc/libfwupdplugin/func.device_has_protocol.html
 * /usr/share/doc/libfwupdplugin/func.device_has_request_flag.html
 * /usr/share/doc/libfwupdplugin/func.device_has_vendor_id.html
@@ -1844,6 +1846,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.plugin_remove_flag.html
 * /usr/share/doc/libfwupdplugin/func.power_state_is_ac.html
 * /usr/share/doc/libfwupdplugin/func.power_state_to_string.html
+* /usr/share/doc/libfwupdplugin/func.snap_is_in_snap.html
 * /usr/share/doc/libfwupdplugin/func.strdup.html
 * /usr/share/doc/libfwupdplugin/func.strjoin.html
 * /usr/share/doc/libfwupdplugin/func.strpassmask.html
@@ -2916,11 +2919,8 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.CsvFirmware.set_write_column_ids.html
 * /usr/share/doc/libfwupdplugin/method.Device.activate.html
 * /usr/share/doc/libfwupdplugin/method.Device.add_child.html
-* /usr/share/doc/libfwupdplugin/method.Device.add_counterpart_guid.html
 * /usr/share/doc/libfwupdplugin/method.Device.add_event.html
 * /usr/share/doc/libfwupdplugin/method.Device.add_flag.html
-* /usr/share/doc/libfwupdplugin/method.Device.add_guid.html
-* /usr/share/doc/libfwupdplugin/method.Device.add_guid_full.html
 * /usr/share/doc/libfwupdplugin/method.Device.add_instance_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.add_instance_id_full.html
 * /usr/share/doc/libfwupdplugin/method.Device.add_instance_str.html
@@ -3001,9 +3001,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Device.get_update_message.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_update_request_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_vid.html
-* /usr/share/doc/libfwupdplugin/method.Device.has_counterpart_guid.html
 * /usr/share/doc/libfwupdplugin/method.Device.has_guid.html
 * /usr/share/doc/libfwupdplugin/method.Device.has_inhibit.html
+* /usr/share/doc/libfwupdplugin/method.Device.has_instance_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.has_parent_backend_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.has_parent_guid.html
 * /usr/share/doc/libfwupdplugin/method.Device.has_parent_physical_id.html
@@ -3471,6 +3471,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.parse_number.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.pread.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.pwrite.html
+* /usr/share/doc/libfwupdplugin/method.UdevDevice.read.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.read_property.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.read_sysfs.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.read_sysfs_bytes.html
@@ -3483,6 +3484,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.set_number.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.set_physical_id.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.set_subsystem.html
+* /usr/share/doc/libfwupdplugin/method.UdevDevice.write.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.write_sysfs.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.write_sysfs_bytes.html
 * /usr/share/doc/libfwupdplugin/method.UdevDevice.write_sysfs_byte_array.html
@@ -3503,6 +3505,8 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.UsbDevice.get_hid_descriptors.html
 * /usr/share/doc/libfwupdplugin/method.UsbDevice.get_interface.html
 * /usr/share/doc/libfwupdplugin/method.UsbDevice.get_interfaces.html
+* /usr/share/doc/libfwupdplugin/method.UsbDevice.get_manufacturer_index.html
+* /usr/share/doc/libfwupdplugin/method.UsbDevice.get_product_index.html
 * /usr/share/doc/libfwupdplugin/method.UsbDevice.get_release.html
 * /usr/share/doc/libfwupdplugin/method.UsbDevice.get_serial_number_index.html
 * /usr/share/doc/libfwupdplugin/method.UsbDevice.get_spec.html
@@ -3698,9 +3702,11 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/type_func.Archive.compression_to_string.html
 * /usr/share/doc/libfwupdplugin/type_func.Archive.format_from_string.html
 * /usr/share/doc/libfwupdplugin/type_func.Archive.format_to_string.html
+* /usr/share/doc/libfwupdplugin/type_func.CfiDevice.cmd_to_string.html
 * /usr/share/doc/libfwupdplugin/type_func.ChunkArray.mutable_new.html
 * /usr/share/doc/libfwupdplugin/type_func.ChunkArray.new.html
 * /usr/share/doc/libfwupdplugin/type_func.ChunkArray.to_string.html
+* /usr/share/doc/libfwupdplugin/type_func.Device.instance_flag_to_string.html
 * /usr/share/doc/libfwupdplugin/type_func.EfiFile.type_to_string.html
 * /usr/share/doc/libfwupdplugin/type_func.EfiHardDriveDevicePath.partition_format_from_string.html
 * /usr/share/doc/libfwupdplugin/type_func.EfiHardDriveDevicePath.partition_format_to_string.html
@@ -3755,6 +3761,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/type_func.UsbDevice.hdr_get_usb.html
 * /usr/share/doc/libfwupdplugin/type_func.UsbDevice.hdr_get_vendor.html
 * /usr/share/doc/libfwupdplugin/type_func.UsbDevice.hdr_parse_stream.html
+* /usr/share/doc/libfwupdplugin/type_func.UsbDeviceMsDs20.desc_to_string.html
 * /usr/share/doc/libfwupdplugin/type_func.UsbEndpoint.hdr_get_attributes.html
 * /usr/share/doc/libfwupdplugin/type_func.UsbEndpoint.hdr_get_descriptor_type.html
 * /usr/share/doc/libfwupdplugin/type_func.UsbEndpoint.hdr_get_endpoint_address.html
@@ -3900,6 +3907,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/device-tests/dell-kh08p.json
 * /usr/share/installed-tests/fwupd/device-tests/dell-wd19tb.json
 * /usr/share/installed-tests/fwupd/device-tests/dfu-gd32vf103.json
+* /usr/share/installed-tests/fwupd/device-tests/elan-p1515e.json
 * /usr/share/installed-tests/fwupd/device-tests/fastboot-google-sargo.json
 * /usr/share/installed-tests/fwupd/device-tests/fpc-lenfy-moh.json
 * /usr/share/installed-tests/fwupd/device-tests/framework-hdmi.json
@@ -4013,6 +4021,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/fwupdmgr.test
 * /usr/share/installed-tests/fwupd/fwupdtool.sh
 * /usr/share/installed-tests/fwupd/fwupdtool.test
+* /usr/share/installed-tests/fwupd/lsan-suppressions.txt
 * /usr/share/installed-tests/fwupd/tests/America/New_York
 * /usr/share/installed-tests/fwupd/tests/bcm57xx.builder.xml
 * /usr/share/installed-tests/fwupd/tests/bios-attrs/dell-xps13-9310/dell-wmi-sysman/attributes/Asset/current_value
@@ -4089,6 +4098,11 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/tests/efi/efivars/SecureBoot-8be4df61-93ca-11d2-aa0d-00e098032b8c
 * /usr/share/installed-tests/fwupd/tests/elantp.builder.xml
 * /usr/share/installed-tests/fwupd/tests/elf.builder.xml
+* /usr/share/installed-tests/fwupd/tests/empty_pcr/tpm0/active
+* /usr/share/installed-tests/fwupd/tests/empty_pcr/tpm0/caps
+* /usr/share/installed-tests/fwupd/tests/empty_pcr/tpm0/enabled
+* /usr/share/installed-tests/fwupd/tests/empty_pcr/tpm0/owned
+* /usr/share/installed-tests/fwupd/tests/empty_pcr/tpm0/pcrs
 * /usr/share/installed-tests/fwupd/tests/fdt.builder.xml
 * /usr/share/installed-tests/fwupd/tests/firmware.zip
 * /usr/share/installed-tests/fwupd/tests/fit.builder.xml
@@ -4119,6 +4133,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/tests/redfish-smbios.builder.xml
 * /usr/share/installed-tests/fwupd/tests/redfish.conf
 * /usr/share/installed-tests/fwupd/tests/sbatlevel.builder.xml
+* /usr/share/installed-tests/fwupd/tests/snapd.py
 * /usr/share/installed-tests/fwupd/tests/srec-addr32.builder.xml
 * /usr/share/installed-tests/fwupd/tests/srec.builder.xml
 * /usr/share/installed-tests/fwupd/tests/synaptics-mst.builder.xml
@@ -4126,12 +4141,18 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/tests/synaptics-rmi-0x.builder.xml
 * /usr/share/installed-tests/fwupd/tests/synaptics-rmi-10.builder.xml
 * /usr/share/installed-tests/fwupd/tests/sys_vendor
+* /usr/share/installed-tests/fwupd/tests/tpm0/active
+* /usr/share/installed-tests/fwupd/tests/tpm0/caps
+* /usr/share/installed-tests/fwupd/tests/tpm0/enabled
+* /usr/share/installed-tests/fwupd/tests/tpm0/owned
+* /usr/share/installed-tests/fwupd/tests/tpm0/pcrs
 * /usr/share/installed-tests/fwupd/tests/uf2.builder.xml
 * /usr/share/installed-tests/fwupd/tests/usb.ids
 * /usr/share/installed-tests/fwupd/tests/uswid-compressed.builder.xml
 * /usr/share/installed-tests/fwupd/tests/uswid.builder.xml
 * /usr/share/installed-tests/fwupd/tests/wacom-usb.builder.xml
 * /usr/share/locale/af/LC_MESSAGES/fwupd.mo
+* /usr/share/locale/ar/LC_MESSAGES/fwupd.mo
 * /usr/share/locale/ast/LC_MESSAGES/fwupd.mo
 * /usr/share/locale/ca/LC_MESSAGES/fwupd.mo
 * /usr/share/locale/cs/LC_MESSAGES/fwupd.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-user-dirs-gtk 0.12-1"
-version = "0.12-1"
+title = "xdg-user-dirs-gtk 0.14-1"
+version = "0.14-1"
 description = "Gnome integration of special directories"
-date = "2025-01-14T15:44:32"
+date = "2025-01-20T15:26:20"
 aliases = "/packages/200127"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "46488"
-usize = "193053"
-sha1sum = "634a5d64533a37384d18d306e9ec4e5cd98212cb"
+size = "48312"
+usize = "218382"
+sha1sum = "cb73e2571e2eba6faf6e35dbf4ec13c6fcd61058"
 depends = "['gtk+3', 'xdg-user-dirs']"
 +++
 ### Description: 
@@ -19,12 +19,12 @@ Gnome integration of special directories
 ### Files: 
 * /etc/xdg/autostart/user-dirs-update-gtk.desktop
 * /usr/bin/xdg-user-dirs-gtk-update
-* /usr/data/applications/user-dirs-update-gtk.desktop
-* /usr/share/doc/xdg-user-dirs-gtk-0.12/AUTHORS
-* /usr/share/doc/xdg-user-dirs-gtk-0.12/ChangeLog
-* /usr/share/doc/xdg-user-dirs-gtk-0.12/COPYING
-* /usr/share/doc/xdg-user-dirs-gtk-0.12/NEWS
-* /usr/share/doc/xdg-user-dirs-gtk-0.12/README
+* /usr/share/applications/user-dirs-update-gtk.desktop
+* /usr/share/doc/xdg-user-dirs-gtk-0.14/AUTHORS
+* /usr/share/doc/xdg-user-dirs-gtk-0.14/ChangeLog
+* /usr/share/doc/xdg-user-dirs-gtk-0.14/COPYING
+* /usr/share/doc/xdg-user-dirs-gtk-0.14/NEWS
+* /usr/share/doc/xdg-user-dirs-gtk-0.14/README
 * /usr/share/locale/af/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/an/LC_MESSAGES/xdg-user-dirs-gtk.mo
 * /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs-gtk.mo

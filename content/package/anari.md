@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "anari 0.11.1-2"
-version = "0.11.1-2"
+title = "anari 0.12.1-1"
+version = "0.12.1-1"
 description = "ANARI Software Development Kit"
-date = "2024-11-25T09:57:33"
+date = "2025-01-20T16:07:53"
 aliases = "/packages/222588"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/KhronosGroup/ANARI-SDK"
 arch = "x86_64"
-size = "2859504"
-usize = "11607773"
-sha1sum = "d6ec7252f016474cb40d5c56f16933f787089c38"
+size = "2902328"
+usize = "11650834"
+sha1sum = "11c86b6fc96ad57800f056c7c52f92ff1676ffbc"
 depends = "['libstdc++']"
 reverse_depends = "['vtk']"
 +++
@@ -47,6 +47,7 @@ ANARI Software Development Kit
 * /usr/include/anari/backend/helium/utility/ChangeObserverPtr.h
 * /usr/include/anari/backend/helium/utility/DeferredCommitBuffer.h
 * /usr/include/anari/backend/helium/utility/IntrusivePtr.h
+* /usr/include/anari/backend/helium/utility/ParameterInfo.h
 * /usr/include/anari/backend/helium/utility/ParameterizedObject.h
 * /usr/include/anari/backend/helium/utility/TimeStamp.h
 * /usr/include/anari/backend/LibraryImpl.h
@@ -58,20 +59,20 @@ ANARI Software Development Kit
 * /usr/include/anari/frontend/anari_extension_utility.h
 * /usr/include/anari/frontend/anari_sdk_version.h
 * /usr/include/anari/frontend/type_utility.h
-* /usr/lib/cmake/anari-0.11.1/anariConfig.cmake
-* /usr/lib/cmake/anari-0.11.1/anariConfigVersion.cmake
-* /usr/lib/cmake/anari-0.11.1/anari_Exports-release.cmake
-* /usr/lib/cmake/anari-0.11.1/anari_Exports.cmake
-* /usr/lib/cmake/anari-0.11.1/cmake/anari_generate_codegen.cmake
-* /usr/lib/cmake/anari-0.11.1/cmake/anari_generate_frontend.cmake
-* /usr/lib/cmake/anari-0.11.1/cmake/anari_sdk_fetch_project.cmake
-* /usr/lib/cmake/anari-0.11.1/cmake/cmake_project_commands.cmake
-* /usr/lib/cmake/anari-0.11.1/cmake/mark_cache_variables_as_advanced.cmake
+* /usr/lib/cmake/anari-0.12.1/anariConfig.cmake
+* /usr/lib/cmake/anari-0.12.1/anariConfigVersion.cmake
+* /usr/lib/cmake/anari-0.12.1/anari_Exports-release.cmake
+* /usr/lib/cmake/anari-0.12.1/anari_Exports.cmake
+* /usr/lib/cmake/anari-0.12.1/cmake/anari_generate_codegen.cmake
+* /usr/lib/cmake/anari-0.12.1/cmake/anari_generate_frontend.cmake
+* /usr/lib/cmake/anari-0.12.1/cmake/anari_sdk_fetch_project.cmake
+* /usr/lib/cmake/anari-0.12.1/cmake/cmake_project_commands.cmake
+* /usr/lib/cmake/anari-0.12.1/cmake/mark_cache_variables_as_advanced.cmake
 * /usr/lib/libanari.so
 * /usr/lib/libanari.so.0
-* /usr/lib/libanari.so.0.11.1
+* /usr/lib/libanari.so.0.12.1
+* /usr/lib/libanari_backend.a
 * /usr/lib/libanari_library_debug.so
-* /usr/lib/libanari_library_hecore.so
 * /usr/lib/libanari_library_helide.so
 * /usr/lib/libanari_library_sink.so
 * /usr/lib/libanari_static.a
@@ -102,8 +103,6 @@ ANARI Software Development Kit
 * /usr/share/anari/anari_viewer/ui_anari.h
 * /usr/share/anari/anari_viewer/windows/LightsEditor.cpp
 * /usr/share/anari/anari_viewer/windows/LightsEditor.h
-* /usr/share/anari/anari_viewer/windows/SceneSelector.cpp
-* /usr/share/anari/anari_viewer/windows/SceneSelector.h
 * /usr/share/anari/anari_viewer/windows/Viewport.cpp
 * /usr/share/anari/anari_viewer/windows/Viewport.h
 * /usr/share/anari/anari_viewer/windows/Window.cpp
@@ -193,5 +192,5 @@ ANARI Software Development Kit
 * /usr/share/anari/code_gen/templates/Parameter.h
 * /usr/share/anari/code_gen/templates/Specializations.h
 * /usr/share/anari/code_gen/validate_device.py
-* /usr/share/doc/anari-0.11.1/LICENSE
-* /usr/share/doc/anari-0.11.1/README.md
+* /usr/share/doc/anari-0.12.1/LICENSE
+* /usr/share/doc/anari-0.12.1/README.md

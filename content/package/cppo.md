@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cppo 1.6.9-3"
-version = "1.6.9-3"
+title = "cppo 1.8.0-1"
+version = "1.8.0-1"
 description = "An equivalent of the C preprocessor for OCaml programs"
-date = "2024-05-11T09:53:54"
+date = "2025-01-20T16:01:21"
 aliases = "/packages/220493"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-community/cppo"
 arch = "x86_64"
-size = "505548"
-usize = "1942558"
-sha1sum = "dd178bb07147ea4665dede4e2653d85d221c482c"
+size = "539340"
+usize = "2157993"
+sha1sum = "51019dc5f6b555dcd4ce7c909407b6fa357ff870"
 depends = "['ocaml>=5.1.1']"
 +++
 ### Description: 
@@ -34,10 +34,9 @@ An equivalent of the C preprocessor for OCaml programs
 * /usr/lib/ocaml/cppo_ocamlbuild/ocamlbuild_cppo.ml
 * /usr/lib/ocaml/cppo_ocamlbuild/ocamlbuild_cppo.mli
 * /usr/lib/ocaml/cppo_ocamlbuild/opam
-* /usr/share/doc/cppo-1.6.9/cppo/LICENSE.md
-* /usr/share/doc/cppo-1.6.9/cppo/README.md
-* /usr/share/doc/cppo-1.6.9/cppo_ocamlbuild/LICENSE.md
-* /usr/share/doc/cppo-1.6.9/cppo_ocamlbuild/README.md
-* /usr/share/doc/cppo-1.6.9/INSTALL.md
-* /usr/share/doc/cppo-1.6.9/README.md
-* /usr/share/doc/cppo-1.6.9/VERSION
+* /usr/share/doc/cppo-1.8.0/cppo/LICENSE.md
+* /usr/share/doc/cppo-1.8.0/cppo/README.md
+* /usr/share/doc/cppo-1.8.0/cppo_ocamlbuild/LICENSE.md
+* /usr/share/doc/cppo-1.8.0/cppo_ocamlbuild/README.md
+* /usr/share/doc/cppo-1.8.0/INSTALL.md
+* /usr/share/doc/cppo-1.8.0/README.md

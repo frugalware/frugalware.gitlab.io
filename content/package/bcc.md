@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcc 0.32.0-1"
-version = "0.32.0-1"
+title = "bcc 0.33.0-1"
+version = "0.33.0-1"
 description = "BPF Compiler Collection"
-date = "2024-12-23T00:30:33"
+date = "2025-01-20T16:03:53"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "1420644"
-usize = "5729941"
-sha1sum = "9b6ba728115b1fcd2844608bcfb0ec30975ebe75"
+size = "1422548"
+usize = "5736898"
+sha1sum = "04abda32b08b642d28831aafb46777f73cae2e2f"
 depends = "['clang-libs>=19.1.1', 'elfutils', 'python3>=3.12']"
 +++
 ### Description: 
@@ -34,15 +34,15 @@ BPF Compiler Collection
 * /usr/include/bcc/table_storage.h
 * /usr/lib/libbcc.so
 * /usr/lib/libbcc.so.0
-* /usr/lib/libbcc.so.0.32.0
+* /usr/lib/libbcc.so.0.33.0
 * /usr/lib/libbcc_bpf.so
 * /usr/lib/libbcc_bpf.so.0
-* /usr/lib/libbcc_bpf.so.0.32.0
+* /usr/lib/libbcc_bpf.so.0.33.0
 * /usr/lib/pkgconfig/libbcc.pc
-* /usr/lib/python3.13/site-packages/bcc-0.32.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/bcc-0.32.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/bcc-0.32.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/bcc-0.32.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/bcc/containers.py
 * /usr/lib/python3.13/site-packages/bcc/disassembler.py
 * /usr/lib/python3.13/site-packages/bcc/libbcc.py
@@ -229,6 +229,7 @@ BPF Compiler Collection
 * /usr/share/bcc/man/man8/nfsslower.8.gz
 * /usr/share/bcc/man/man8/nodegc.8.gz
 * /usr/share/bcc/man/man8/nodestat.8.gz
+* /usr/share/bcc/man/man8/numasched.8.gz
 * /usr/share/bcc/man/man8/offcputime.8.gz
 * /usr/share/bcc/man/man8/offwaketime.8.gz
 * /usr/share/bcc/man/man8/oomkill.8.gz
@@ -401,6 +402,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/doc/nfsslower_example.txt
 * /usr/share/bcc/tools/doc/nodegc_example.txt
 * /usr/share/bcc/tools/doc/nodestat_example.txt
+* /usr/share/bcc/tools/doc/numasched_example.txt
 * /usr/share/bcc/tools/doc/offcputime_example.txt
 * /usr/share/bcc/tools/doc/offwaketime_example.txt
 * /usr/share/bcc/tools/doc/oomkill_example.txt
@@ -513,6 +515,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/nfsslower
 * /usr/share/bcc/tools/nodegc
 * /usr/share/bcc/tools/nodestat
+* /usr/share/bcc/tools/numasched
 * /usr/share/bcc/tools/offcputime
 * /usr/share/bcc/tools/offwaketime
 * /usr/share/bcc/tools/old/bashreadline
@@ -604,6 +607,6 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/xfsslower
 * /usr/share/bcc/tools/zfsdist
 * /usr/share/bcc/tools/zfsslower
-* /usr/share/doc/bcc-0.32.0/FAQ.txt
-* /usr/share/doc/bcc-0.32.0/INSTALL.md
-* /usr/share/doc/bcc-0.32.0/README.md
+* /usr/share/doc/bcc-0.33.0/FAQ.txt
+* /usr/share/doc/bcc-0.33.0/INSTALL.md
+* /usr/share/doc/bcc-0.33.0/README.md

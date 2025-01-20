@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zix 0.4.2-2"
-version = "0.4.2-2"
+title = "zix 0.6.2-1"
+version = "0.6.2-1"
 description = "A lightweight C99 portability and data structure library"
-date = "2024-05-16T05:04:18"
+date = "2025-01-20T15:16:55"
 aliases = "/packages/221153"
 categories = ['lib']
 upstreamurl = "http://drobilla.net/software/zix"
 arch = "x86_64"
-size = "36156"
-usize = "123209"
-sha1sum = "b4972b6db1d1e3c3156494ada81910bcfd282e1d"
+size = "37620"
+usize = "124503"
+sha1sum = "59cba3333b550a876ff93c87ebe96a9cb83360ab"
 depends = "['glibc']"
 reverse_depends = "['sord']"
 +++
@@ -23,6 +23,7 @@ A lightweight C99 portability and data structure library
 * /usr/include/zix-0/zix/btree.h
 * /usr/include/zix-0/zix/bump_allocator.h
 * /usr/include/zix-0/zix/digest.h
+* /usr/include/zix-0/zix/environment.h
 * /usr/include/zix-0/zix/filesystem.h
 * /usr/include/zix-0/zix/hash.h
 * /usr/include/zix-0/zix/path.h
@@ -35,9 +36,9 @@ A lightweight C99 portability and data structure library
 * /usr/include/zix-0/zix/zix.h
 * /usr/lib/libzix-0.so
 * /usr/lib/libzix-0.so.0
-* /usr/lib/libzix-0.so.0.4.2
+* /usr/lib/libzix-0.so.0.6.2
 * /usr/lib/pkgconfig/zix-0.pc
-* /usr/share/doc/zix-0.4.2/COPYING
-* /usr/share/doc/zix-0.4.2/INSTALL.md
-* /usr/share/doc/zix-0.4.2/NEWS
-* /usr/share/doc/zix-0.4.2/README.md
+* /usr/share/doc/zix-0.6.2/COPYING
+* /usr/share/doc/zix-0.6.2/INSTALL.md
+* /usr/share/doc/zix-0.6.2/NEWS
+* /usr/share/doc/zix-0.6.2/README.md
