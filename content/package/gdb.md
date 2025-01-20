@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdb 15.2-2"
-version = "15.2-2"
+title = "gdb 16.1-1"
+version = "16.1-1"
 description = "Gnu Project Debugger"
-date = "2024-11-05T14:10:34"
+date = "2025-01-20T15:13:16"
 aliases = "/packages/2380"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/gdb/download/"
 arch = "x86_64"
-size = "4679072"
-usize = "13108643"
-sha1sum = "fdc144345f2338609b77a9a250a44b03aec4dbf8"
+size = "4863072"
+usize = "13496674"
+sha1sum = "b3ecaa16f38a7e208bf8161500281616b660e538"
 depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.13', 'readline>=8.0']"
 reverse_depends = "['python3-pygdbmi', 'qtcreator', 'rr']"
 +++
@@ -22,18 +22,22 @@ Gnu Project Debugger
 * /usr/bin/gdb
 * /usr/bin/gdb-add-index
 * /usr/bin/gdbserver
+* /usr/bin/gstack
 * /usr/include/gdb/jit-reader.h
+* /usr/include/sframe-api.h
+* /usr/include/sframe.h
 * /usr/lib/libinproctrace.so
-* /usr/share/doc/gdb-15.2/ChangeLog
-* /usr/share/doc/gdb-15.2/COPYING
-* /usr/share/doc/gdb-15.2/COPYING.LIB
-* /usr/share/doc/gdb-15.2/COPYING3
-* /usr/share/doc/gdb-15.2/COPYING3.LIB
-* /usr/share/doc/gdb-15.2/README
-* /usr/share/doc/gdb-15.2/README-maintainer-mode
+* /usr/lib/libsframe.a
+* /usr/share/doc/gdb-16.1/ChangeLog
+* /usr/share/doc/gdb-16.1/COPYING
+* /usr/share/doc/gdb-16.1/COPYING.LIB
+* /usr/share/doc/gdb-16.1/COPYING3
+* /usr/share/doc/gdb-16.1/COPYING3.LIB
+* /usr/share/doc/gdb-16.1/README
+* /usr/share/doc/gdb-16.1/README-maintainer-mode
 * /usr/share/gdb/python/gdb/command/explore.py
 * /usr/share/gdb/python/gdb/command/frame_filters.py
-* /usr/share/gdb/python/gdb/command/missing_debug.py
+* /usr/share/gdb/python/gdb/command/missing_files.py
 * /usr/share/gdb/python/gdb/command/pretty_printers.py
 * /usr/share/gdb/python/gdb/command/prompt.py
 * /usr/share/gdb/python/gdb/command/type_printers.py
@@ -46,6 +50,7 @@ Gnu Project Debugger
 * /usr/share/gdb/python/gdb/dap/evaluate.py
 * /usr/share/gdb/python/gdb/dap/events.py
 * /usr/share/gdb/python/gdb/dap/frames.py
+* /usr/share/gdb/python/gdb/dap/globalvars.py
 * /usr/share/gdb/python/gdb/dap/io.py
 * /usr/share/gdb/python/gdb/dap/launch.py
 * /usr/share/gdb/python/gdb/dap/locations.py
@@ -71,10 +76,12 @@ Gnu Project Debugger
 * /usr/share/gdb/python/gdb/function/strfns.py
 * /usr/share/gdb/python/gdb/function/__init__.py
 * /usr/share/gdb/python/gdb/missing_debug.py
-* /usr/share/gdb/python/gdb/printer/bound_registers.py
+* /usr/share/gdb/python/gdb/missing_files.py
+* /usr/share/gdb/python/gdb/missing_objfile.py
 * /usr/share/gdb/python/gdb/printer/__init__.py
 * /usr/share/gdb/python/gdb/printing.py
 * /usr/share/gdb/python/gdb/prompt.py
+* /usr/share/gdb/python/gdb/ptwrite.py
 * /usr/share/gdb/python/gdb/styling.py
 * /usr/share/gdb/python/gdb/types.py
 * /usr/share/gdb/python/gdb/unwinder.py
@@ -115,4 +122,5 @@ Gnu Project Debugger
 * /usr/share/man/man1/gdb-add-index.1.gz
 * /usr/share/man/man1/gdb.1.gz
 * /usr/share/man/man1/gdbserver.1.gz
+* /usr/share/man/man1/gstack.1.gz
 * /usr/share/man/man5/gdbinit.5.gz

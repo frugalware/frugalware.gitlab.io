@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dlib 19.24-5"
-version = "19.24-5"
+title = "dlib 19.24.6-1"
+version = "19.24.6-1"
 description = "Dlib is a general purpose cross-platform C++ library designed using contract programming and modern C++ techniques."
-date = "2022-11-04T11:41:29"
+date = "2025-01-20T14:15:07"
 aliases = "/packages/220483"
 categories = ['devel-extra']
 upstreamurl = "http://www.dlib.net"
 arch = "x86_64"
-size = "1707260"
-usize = "13366324"
-sha1sum = "f51b23dd536ed959253e45913ba2abef47e80dc6"
+size = "4861908"
+usize = "25610635"
+sha1sum = "90976695505edbf79a1e7c4115ee943f0fc40289"
 depends = "['lapack', 'libcblas', 'libgif', 'libjpeg-turbo', 'libpng', 'libx11', 'pybind11', 'sqlite3']"
 reverse_depends = "['face_recognition', 'howdy']"
 +++
@@ -26,10 +26,9 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/any/any_decision_function_abstract.h
 * /usr/include/dlib/any/any_function.h
 * /usr/include/dlib/any/any_function_abstract.h
-* /usr/include/dlib/any/any_function_impl.h
-* /usr/include/dlib/any/any_function_impl2.h
 * /usr/include/dlib/any/any_trainer.h
 * /usr/include/dlib/any/any_trainer_abstract.h
+* /usr/include/dlib/any/storage.h
 * /usr/include/dlib/array.h
 * /usr/include/dlib/array/array_kernel.h
 * /usr/include/dlib/array/array_kernel_abstract.h
@@ -87,17 +86,17 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/clustering/modularity_clustering_abstract.h
 * /usr/include/dlib/clustering/spectral_cluster.h
 * /usr/include/dlib/clustering/spectral_cluster_abstract.h
-* /usr/include/dlib/cmake_utils/add_global_compiler_switch.cmake
 * /usr/include/dlib/cmake_utils/check_if_avx_instructions_executable_on_host.cmake
 * /usr/include/dlib/cmake_utils/check_if_neon_available.cmake
 * /usr/include/dlib/cmake_utils/check_if_sse4_instructions_executable_on_host.cmake
 * /usr/include/dlib/cmake_utils/find_blas.cmake
+* /usr/include/dlib/cmake_utils/find_ffmpeg.cmake
 * /usr/include/dlib/cmake_utils/find_libjpeg.cmake
+* /usr/include/dlib/cmake_utils/find_libjxl.cmake
 * /usr/include/dlib/cmake_utils/find_libpng.cmake
 * /usr/include/dlib/cmake_utils/find_libwebp.cmake
 * /usr/include/dlib/cmake_utils/set_compiler_specific_options.cmake
 * /usr/include/dlib/cmake_utils/tell_visual_studio_to_use_static_runtime.cmake
-* /usr/include/dlib/cmake_utils/use_cpp_11.cmake
 * /usr/include/dlib/cmd_line_parser.h
 * /usr/include/dlib/cmd_line_parser/cmd_line_parser_check_1.h
 * /usr/include/dlib/cmd_line_parser/cmd_line_parser_check_c.h
@@ -126,6 +125,7 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/config_reader/config_reader_thread_safe_1.h
 * /usr/include/dlib/config_reader/config_reader_thread_safe_abstract.h
 * /usr/include/dlib/console_progress_indicator.h
+* /usr/include/dlib/constexpr_if.h
 * /usr/include/dlib/control.h
 * /usr/include/dlib/control/approximate_linear_models.h
 * /usr/include/dlib/control/approximate_linear_models_abstract.h
@@ -267,10 +267,16 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/external/pybind11/include/pybind11/detail/init.h
 * /usr/include/dlib/external/pybind11/include/pybind11/detail/internals.h
 * /usr/include/dlib/external/pybind11/include/pybind11/detail/typeid.h
+* /usr/include/dlib/external/pybind11/include/pybind11/detail/type_caster_base.h
 * /usr/include/dlib/external/pybind11/include/pybind11/eigen.h
+* /usr/include/dlib/external/pybind11/include/pybind11/eigen/common.h
+* /usr/include/dlib/external/pybind11/include/pybind11/eigen/matrix.h
+* /usr/include/dlib/external/pybind11/include/pybind11/eigen/tensor.h
 * /usr/include/dlib/external/pybind11/include/pybind11/embed.h
 * /usr/include/dlib/external/pybind11/include/pybind11/eval.h
 * /usr/include/dlib/external/pybind11/include/pybind11/functional.h
+* /usr/include/dlib/external/pybind11/include/pybind11/gil.h
+* /usr/include/dlib/external/pybind11/include/pybind11/gil_safe_call_once.h
 * /usr/include/dlib/external/pybind11/include/pybind11/iostream.h
 * /usr/include/dlib/external/pybind11/include/pybind11/numpy.h
 * /usr/include/dlib/external/pybind11/include/pybind11/operators.h
@@ -278,10 +284,16 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/external/pybind11/include/pybind11/pybind11.h
 * /usr/include/dlib/external/pybind11/include/pybind11/pytypes.h
 * /usr/include/dlib/external/pybind11/include/pybind11/stl.h
+* /usr/include/dlib/external/pybind11/include/pybind11/stl/filesystem.h
 * /usr/include/dlib/external/pybind11/include/pybind11/stl_bind.h
+* /usr/include/dlib/external/pybind11/include/pybind11/type_caster_pyobject_ptr.h
+* /usr/include/dlib/external/pybind11/include/pybind11/typing.h
 * /usr/include/dlib/external/pybind11/tools/FindCatch.cmake
 * /usr/include/dlib/external/pybind11/tools/FindEigen3.cmake
 * /usr/include/dlib/external/pybind11/tools/FindPythonLibsNew.cmake
+* /usr/include/dlib/external/pybind11/tools/JoinPaths.cmake
+* /usr/include/dlib/external/pybind11/tools/pybind11Common.cmake
+* /usr/include/dlib/external/pybind11/tools/pybind11NewTools.cmake
 * /usr/include/dlib/external/pybind11/tools/pybind11Tools.cmake
 * /usr/include/dlib/external/zlib/crc32.h
 * /usr/include/dlib/external/zlib/deflate.h
@@ -294,6 +306,11 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/external/zlib/zconf.h
 * /usr/include/dlib/external/zlib/zlib.h
 * /usr/include/dlib/external/zlib/zutil.h
+* /usr/include/dlib/fft/fft.h
+* /usr/include/dlib/fft/fft_size.h
+* /usr/include/dlib/fft/fft_stl.h
+* /usr/include/dlib/fft/kiss_fft.h
+* /usr/include/dlib/fft/mkl_fft.h
 * /usr/include/dlib/filtering.h
 * /usr/include/dlib/filtering/kalman_filter.h
 * /usr/include/dlib/filtering/kalman_filter_abstract.h
@@ -301,6 +318,7 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/filtering/rls_filter_abstract.h
 * /usr/include/dlib/float_details.h
 * /usr/include/dlib/fstream
+* /usr/include/dlib/functional.h
 * /usr/include/dlib/general_hash/count_bits.h
 * /usr/include/dlib/general_hash/count_bits_abstract.h
 * /usr/include/dlib/general_hash/general_hash.h
@@ -319,6 +337,8 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/geometry/line_abstract.h
 * /usr/include/dlib/geometry/point_transforms.h
 * /usr/include/dlib/geometry/point_transforms_abstract.h
+* /usr/include/dlib/geometry/polygon.h
+* /usr/include/dlib/geometry/polygon_abstract.h
 * /usr/include/dlib/geometry/rectangle.h
 * /usr/include/dlib/geometry/rectangle_abstract.h
 * /usr/include/dlib/geometry/vector.h
@@ -417,6 +437,8 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/image_loader/image_loader_abstract.h
 * /usr/include/dlib/image_loader/jpeg_loader.h
 * /usr/include/dlib/image_loader/jpeg_loader_abstract.h
+* /usr/include/dlib/image_loader/jxl_loader.h
+* /usr/include/dlib/image_loader/jxl_loader_abstract.h
 * /usr/include/dlib/image_loader/load_image.h
 * /usr/include/dlib/image_loader/load_image_abstract.h
 * /usr/include/dlib/image_loader/png_loader.h
@@ -464,6 +486,8 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/image_saver/image_saver_abstract.h
 * /usr/include/dlib/image_saver/save_jpeg.h
 * /usr/include/dlib/image_saver/save_jpeg_abstract.h
+* /usr/include/dlib/image_saver/save_jxl.h
+* /usr/include/dlib/image_saver/save_jxl_abstract.h
 * /usr/include/dlib/image_saver/save_png.h
 * /usr/include/dlib/image_saver/save_png_abstract.h
 * /usr/include/dlib/image_saver/save_webp.h
@@ -553,12 +577,15 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/map/map_kernel_1.h
 * /usr/include/dlib/map/map_kernel_abstract.h
 * /usr/include/dlib/map/map_kernel_c.h
+* /usr/include/dlib/math.h
+* /usr/include/dlib/math/bessel.h
+* /usr/include/dlib/math/details/bessel.h
+* /usr/include/dlib/math/windows.h
 * /usr/include/dlib/matlab/call_matlab.h
+* /usr/include/dlib/matlab/sig_traits.h
 * /usr/include/dlib/matlab/subprocess_stream.h
 * /usr/include/dlib/matrix.h
 * /usr/include/dlib/matrix/cblas_constants.h
-* /usr/include/dlib/matrix/fft_size.h
-* /usr/include/dlib/matrix/kiss_fft.h
 * /usr/include/dlib/matrix/lapack/fortran_id.h
 * /usr/include/dlib/matrix/lapack/gees.h
 * /usr/include/dlib/matrix/lapack/geev.h
@@ -606,12 +633,17 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/matrix/matrix_trsm.h
 * /usr/include/dlib/matrix/matrix_utilities.h
 * /usr/include/dlib/matrix/matrix_utilities_abstract.h
-* /usr/include/dlib/matrix/mkl_fft.h
 * /usr/include/dlib/matrix/symmetric_matrix_cache.h
 * /usr/include/dlib/matrix/symmetric_matrix_cache_abstract.h
 * /usr/include/dlib/md5.h
 * /usr/include/dlib/md5/md5_kernel_1.h
 * /usr/include/dlib/md5/md5_kernel_abstract.h
+* /usr/include/dlib/media.h
+* /usr/include/dlib/media/ffmpeg_demuxer.h
+* /usr/include/dlib/media/ffmpeg_details.h
+* /usr/include/dlib/media/ffmpeg_muxer.h
+* /usr/include/dlib/media/ffmpeg_utils.h
+* /usr/include/dlib/media/sink.h
 * /usr/include/dlib/member_function_pointer.h
 * /usr/include/dlib/member_function_pointer/make_mfp.h
 * /usr/include/dlib/member_function_pointer/make_mfp_abstract.h
@@ -690,7 +722,9 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/optimization/optimization_stop_strategies_abstract.h
 * /usr/include/dlib/optimization/optimization_trust_region.h
 * /usr/include/dlib/optimization/optimization_trust_region_abstract.h
+* /usr/include/dlib/optional.h
 * /usr/include/dlib/ostream
+* /usr/include/dlib/overloaded.h
 * /usr/include/dlib/pipe.h
 * /usr/include/dlib/pipe/pipe_kernel_1.h
 * /usr/include/dlib/pipe/pipe_kernel_abstract.h
@@ -723,6 +757,7 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/reference_counter/reference_counter_kernel_1.h
 * /usr/include/dlib/reference_counter/reference_counter_kernel_abstract.h
 * /usr/include/dlib/revision.h
+* /usr/include/dlib/scope.h
 * /usr/include/dlib/sequence.h
 * /usr/include/dlib/sequence/sequence_compare_1.h
 * /usr/include/dlib/sequence/sequence_compare_abstract.h
@@ -988,6 +1023,7 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/test/create_iris_datafile.h
 * /usr/include/dlib/test/fftr_good_data.h
 * /usr/include/dlib/test/optimization_test_functions.h
+* /usr/include/dlib/test/stft_good_data.h
 * /usr/include/dlib/test/tester.h
 * /usr/include/dlib/test_for_odr_violations.h
 * /usr/include/dlib/threads.h
@@ -1043,6 +1079,7 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/include/dlib/type_safe_union.h
 * /usr/include/dlib/type_safe_union/type_safe_union_kernel.h
 * /usr/include/dlib/type_safe_union/type_safe_union_kernel_abstract.h
+* /usr/include/dlib/type_traits.h
 * /usr/include/dlib/uintn.h
 * /usr/include/dlib/unicode.h
 * /usr/include/dlib/unicode/unicode.h
@@ -1064,4 +1101,12 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/lib/cmake/dlib/dlibConfig.cmake
 * /usr/lib/cmake/dlib/dlibConfigVersion.cmake
 * /usr/lib/pkgconfig/dlib-1.pc
-* /usr/share/doc/dlib-19.24/README.md
+* /usr/lib/python3.13/site-packages/dlib-19.24.6-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/dlib-19.24.6-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/dlib-19.24.6-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/dlib-19.24.6-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/dlib-19.24.6-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/dlib/__init__.py
+* /usr/lib/python3.13/site-packages/dlib/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/_dlib_pybind11.cpython-313-x86_64-linux-gnu.so
+* /usr/share/doc/dlib-19.24.6/README.md
