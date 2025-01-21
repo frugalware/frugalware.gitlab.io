@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtractor 1.5.0-1"
-version = "1.5.0-1"
+title = "qtractor 1.5.2-1"
+version = "1.5.2-1"
 description = "Audio/MIDI multi-track sequencer written in C++ with the Qt6 framework"
-date = "2024-12-23T22:35:23"
+date = "2025-01-21T13:50:52"
 aliases = "/packages/218531"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://sourceforge.net/projects/qtractor"
 arch = "x86_64"
-size = "2035852"
-usize = "7820719"
-sha1sum = "8f4fe6c8543eeb4b7d75851a93225d090dff587c"
+size = "2030688"
+usize = "7811157"
+sha1sum = "fc4f1039b10a92e3b00e7fc7c1df95001e548bda"
 depends = "['aubio', 'dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt6-base', 'qt6-svg', 'rubberband']"
 +++
 ### Description: 
@@ -20,12 +20,10 @@ Audio/MIDI multi-track sequencer written in C++ with the Qt6 framework
 * /usr/bin/qtractor
 * /usr/lib/qtractor/qtractor_plugin_scan
 * /usr/share/applications/org.rncbc.qtractor.desktop
-* /usr/share/doc/qtractor-1.5.0/ChangeLog
-* /usr/share/doc/qtractor-1.5.0/LICENSE
-* /usr/share/doc/qtractor-1.5.0/README
-* /usr/share/doc/qtractor-1.5.0/README-spirv-remap.txt
-* /usr/share/doc/qtractor-1.5.0/README.md
-* /usr/share/doc/qtractor-1.5.0/README.VST2
+* /usr/share/doc/qtractor-1.5.2/ChangeLog
+* /usr/share/doc/qtractor-1.5.2/LICENSE
+* /usr/share/doc/qtractor-1.5.2/README
+* /usr/share/doc/qtractor-1.5.2/README.VST2
 * /usr/share/icons/hicolor/32x32/apps/org.rncbc.qtractor.png
 * /usr/share/icons/hicolor/32x32/mimetypes/org.rncbc.qtractor.application-x-qtractor-archive.png
 * /usr/share/icons/hicolor/32x32/mimetypes/org.rncbc.qtractor.application-x-qtractor-session.png
