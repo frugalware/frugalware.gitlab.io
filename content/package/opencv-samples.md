@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencv-samples 4.10.0-9"
-version = "4.10.0-9"
+title = "opencv-samples 4.11.0-1"
+version = "4.11.0-1"
 description = "Intel(R) Open Source Computer Vision Library Examples"
-date = "2024-12-05T14:55:49"
+date = "2025-01-21T14:51:17"
 aliases = "/packages/218388"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "33660616"
-usize = "56720420"
-sha1sum = "bbe6738c6f6e50630590bdcfb9ed769a543c097e"
-depends = "['opencv>=4.10.0']"
+size = "33624180"
+usize = "56724786"
+sha1sum = "78354cd4ae65880f43ce38083112f521d07d4ca8"
+depends = "['opencv>=4.11.0']"
 +++
 ### Description: 
 Intel(R) Open Source Computer Vision Library Examples
@@ -78,7 +78,6 @@ Intel(R) Open Source Computer Vision Library Examples
 * /usr/share/opencv4/samples/cpp/falsecolor.cpp
 * /usr/share/opencv4/samples/cpp/fback.cpp
 * /usr/share/opencv4/samples/cpp/ffilldemo.cpp
-* /usr/share/opencv4/samples/cpp/filestorage.cpp
 * /usr/share/opencv4/samples/cpp/fitellipse.cpp
 * /usr/share/opencv4/samples/cpp/flann_search_dataset.cpp
 * /usr/share/opencv4/samples/cpp/grabcut.cpp
@@ -423,6 +422,7 @@ Intel(R) Open Source Computer Vision Library Examples
 * /usr/share/opencv4/samples/opencl/va_intel_interop.cpp
 * /usr/share/opencv4/samples/opengl/CMakeLists.txt
 * /usr/share/opencv4/samples/opengl/opengl.cpp
+* /usr/share/opencv4/samples/opengl/opengl3_2.cpp
 * /usr/share/opencv4/samples/opengl/opengl_interop.cpp
 * /usr/share/opencv4/samples/opengl/winapp.hpp
 * /usr/share/opencv4/samples/optflow/gpc_evaluate.cpp

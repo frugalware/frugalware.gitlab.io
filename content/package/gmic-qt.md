@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmic-qt 3.5.0-1"
-version = "3.5.0-1"
+title = "gmic-qt 3.5.0-2"
+version = "3.5.0-2"
 description = "Image procession framework QT Gui"
-date = "2024-12-31T15:42:55"
+date = "2025-01-21T15:52:58"
 aliases = "/packages/222527"
 categories = ['xapps-extra']
 upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "960536"
-usize = "2922400"
-sha1sum = "ef75bdc62f520f61947a2f8bb3d971ef977e4c69"
+size = "960704"
+usize = "2921888"
+sha1sum = "70b9bdc747f8739af335e325e2a9781247a6430b"
 depends = "['gmic', 'qt5-base']"
 +++
 ### Description: 

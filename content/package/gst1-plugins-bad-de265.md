@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-de265 1.25.1-1"
-version = "1.25.1-1"
+title = "gst1-plugins-bad-de265 1.25.1-2"
+version = "1.25.1-2"
 description = "GStreamer de265 plugin (Bad)."
-date = "2025-01-16T10:10:05"
+date = "2025-01-21T15:56:00"
 aliases = "/packages/221262"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "17544"
+size = "17580"
 usize = "28664"
-sha1sum = "8da690f97a3177e5b6e9f84bd6b9ea7b1ce034d8"
+sha1sum = "57657ce83b1d0857830d7ba613ca091786d89508"
 depends = "['gst1-plugins-bad>=1.25.1', 'gst1-plugins-base>=1.25.1', 'libde265']"
 +++
 ### Description: 

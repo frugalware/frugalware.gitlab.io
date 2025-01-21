@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nomacs 3.19.1-2"
-version = "3.19.1-2"
+title = "nomacs 3.19.1-3"
+version = "3.19.1-3"
 description = "Small and fast image viewer."
-date = "2024-11-16T14:41:40"
+date = "2025-01-21T16:01:47"
 aliases = "/packages/136894"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/nomacs/nomacs"
 arch = "x86_64"
-size = "1722992"
-usize = "8615267"
-sha1sum = "539ec969f4e091fdcea2e71fe2ba5364b32e8fdb"
-depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.10.0', 'qt6-svg>=5.15.15', 'quazip']"
+size = "1720784"
+usize = "8611299"
+sha1sum = "aee3ad8af7d02890ae1d3010470efe4446f6cb25"
+depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.11.0', 'qt6-svg>=5.15.15', 'quazip']"
 +++
 ### Description: 
 Small and fast image viewer.

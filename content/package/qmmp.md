@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qmmp 2.1.9-4"
-version = "2.1.9-4"
+title = "qmmp 2.2.3-1"
+version = "2.2.3-1"
 description = "A music player written in Qt that supports Winamp skins."
-date = "2024-12-05T15:20:49"
+date = "2025-01-21T15:35:13"
 aliases = "/packages/119458"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://qmmp.ylsoftware.com"
 arch = "x86_64"
-size = "2215636"
-usize = "10490042"
-sha1sum = "90bf6a09963fc79e4ae1a9ad90a758eeb3d01a51"
+size = "2416896"
+usize = "10583832"
+sha1sum = "8275502b956776a9bfbae3b8c21750f0fb8c4ecb"
 depends = "['curl', 'libarchive', 'libbs2b', 'libcdio-paranoia', 'libmad', 'libmms', 'libmpg123', 'qt6-multimedia>=6.8.0', 'taglib>=2.0', 'wavpack']"
 +++
 ### Description: 
@@ -48,6 +48,7 @@ A music player written in Qt that supports Winamp skins.
 * /usr/include/qmmp/visualfactory.h
 * /usr/include/qmmp/volume.h
 * /usr/include/qmmp/volumehandler.h
+* /usr/include/qmmpui/colorwidget.h
 * /usr/include/qmmpui/commandlinehandler.h
 * /usr/include/qmmpui/commandlinemanager.h
 * /usr/include/qmmpui/configdialog.h
@@ -70,81 +71,83 @@ A music player written in Qt that supports Winamp skins.
 * /usr/include/qmmpui/playlisttrack.h
 * /usr/include/qmmpui/qmmpuisettings.h
 * /usr/include/qmmpui/qmmpui_export.h
+* /usr/include/qmmpui/shortcutdialog.h
 * /usr/include/qmmpui/templateeditor.h
 * /usr/include/qmmpui/uifactory.h
 * /usr/include/qmmpui/uihelper.h
 * /usr/include/qmmpui/uiloader.h
+* /usr/include/qmmpui/visualmenu.h
 * /usr/lib/libqmmp.so
 * /usr/lib/libqmmp.so.2
-* /usr/lib/libqmmp.so.2.1.9
+* /usr/lib/libqmmp.so.2.2.3
 * /usr/lib/libqmmpui.so
 * /usr/lib/libqmmpui.so.2
-* /usr/lib/libqmmpui.so.2.1.9
+* /usr/lib/libqmmpui.so.2.2.3
 * /usr/lib/pkgconfig/qmmp.pc
 * /usr/lib/pkgconfig/qmmpui.pc
-* /usr/lib/qmmp-2.1/CommandLineOptions/libincdecvolumeoption.so
-* /usr/lib/qmmp-2.1/CommandLineOptions/libplaylistoption.so
-* /usr/lib/qmmp-2.1/CommandLineOptions/libseekoption.so
-* /usr/lib/qmmp-2.1/CommandLineOptions/libstatusoption.so
-* /usr/lib/qmmp-2.1/Effect/libbs2b.so
-* /usr/lib/qmmp-2.1/Effect/libcrossfade.so
-* /usr/lib/qmmp-2.1/Effect/libfilewriter.so
-* /usr/lib/qmmp-2.1/Effect/libladspa.so
-* /usr/lib/qmmp-2.1/Effect/libmonotostereo.so
-* /usr/lib/qmmp-2.1/Effect/libstereo.so
-* /usr/lib/qmmp-2.1/Engines/libmplayer.so
-* /usr/lib/qmmp-2.1/FileDialogs/libqmmpfiledialog.so
-* /usr/lib/qmmp-2.1/FileDialogs/libtwopanelfiledialog.so
-* /usr/lib/qmmp-2.1/General/libconverter.so
-* /usr/lib/qmmp-2.1/General/libcopypaste.so
-* /usr/lib/qmmp-2.1/General/libcovermanager.so
-* /usr/lib/qmmp-2.1/General/libfileops.so
-* /usr/lib/qmmp-2.1/General/libgnomehotkey.so
-* /usr/lib/qmmp-2.1/General/libhistory.so
-* /usr/lib/qmmp-2.1/General/libhotkey.so
-* /usr/lib/qmmp-2.1/General/libkdenotify.so
-* /usr/lib/qmmp-2.1/General/liblibrary.so
-* /usr/lib/qmmp-2.1/General/liblistenbrainz.so
-* /usr/lib/qmmp-2.1/General/liblyrics.so
-* /usr/lib/qmmp-2.1/General/libmpris.so
-* /usr/lib/qmmp-2.1/General/libnotifier.so
-* /usr/lib/qmmp-2.1/General/librgscan.so
-* /usr/lib/qmmp-2.1/General/libscrobbler.so
-* /usr/lib/qmmp-2.1/General/libsleepinhibitor.so
-* /usr/lib/qmmp-2.1/General/libstatusicon.so
-* /usr/lib/qmmp-2.1/General/libstreambrowser.so
-* /usr/lib/qmmp-2.1/General/libtrackchange.so
-* /usr/lib/qmmp-2.1/General/libudisks.so
-* /usr/lib/qmmp-2.1/Input/libarchive.so
-* /usr/lib/qmmp-2.1/Input/libcdaudio.so
-* /usr/lib/qmmp-2.1/Input/libcue.so
-* /usr/lib/qmmp-2.1/Input/libflac.so
-* /usr/lib/qmmp-2.1/Input/libmpeg.so
-* /usr/lib/qmmp-2.1/Input/libsndfile.so
-* /usr/lib/qmmp-2.1/Input/libvorbis.so
-* /usr/lib/qmmp-2.1/Input/libwavpack.so
-* /usr/lib/qmmp-2.1/Output/libalsa.so
-* /usr/lib/qmmp-2.1/Output/libnull.so
-* /usr/lib/qmmp-2.1/Output/libpipewire.so
-* /usr/lib/qmmp-2.1/Output/libqtmultimedia.so
-* /usr/lib/qmmp-2.1/PlayListFormats/libm3uplaylistformat.so
-* /usr/lib/qmmp-2.1/PlayListFormats/libplsplaylistformat.so
-* /usr/lib/qmmp-2.1/PlayListFormats/libxspfplaylistformat.so
-* /usr/lib/qmmp-2.1/Transports/libhttp.so
-* /usr/lib/qmmp-2.1/Transports/libmms.so
-* /usr/lib/qmmp-2.1/Ui/libqsui.so
-* /usr/lib/qmmp-2.1/Ui/libskinned.so
-* /usr/lib/qmmp-2.1/Visual/libanalyzer.so
+* /usr/lib/qmmp-2.2/CommandLineOptions/libincdecvolumeoption.so
+* /usr/lib/qmmp-2.2/CommandLineOptions/libplaylistoption.so
+* /usr/lib/qmmp-2.2/CommandLineOptions/libseekoption.so
+* /usr/lib/qmmp-2.2/CommandLineOptions/libstatusoption.so
+* /usr/lib/qmmp-2.2/Effect/libbs2b.so
+* /usr/lib/qmmp-2.2/Effect/libcrossfade.so
+* /usr/lib/qmmp-2.2/Effect/libfilewriter.so
+* /usr/lib/qmmp-2.2/Effect/libladspa.so
+* /usr/lib/qmmp-2.2/Effect/libmonotostereo.so
+* /usr/lib/qmmp-2.2/Effect/libstereo.so
+* /usr/lib/qmmp-2.2/Engines/libmplayer.so
+* /usr/lib/qmmp-2.2/FileDialogs/libqmmpfiledialog.so
+* /usr/lib/qmmp-2.2/FileDialogs/libtwopanelfiledialog.so
+* /usr/lib/qmmp-2.2/General/libconverter.so
+* /usr/lib/qmmp-2.2/General/libcopypaste.so
+* /usr/lib/qmmp-2.2/General/libcovermanager.so
+* /usr/lib/qmmp-2.2/General/libfileops.so
+* /usr/lib/qmmp-2.2/General/libgnomehotkey.so
+* /usr/lib/qmmp-2.2/General/libhistory.so
+* /usr/lib/qmmp-2.2/General/libhotkey.so
+* /usr/lib/qmmp-2.2/General/libkdenotify.so
+* /usr/lib/qmmp-2.2/General/liblibrary.so
+* /usr/lib/qmmp-2.2/General/liblistenbrainz.so
+* /usr/lib/qmmp-2.2/General/liblyrics.so
+* /usr/lib/qmmp-2.2/General/libmpris.so
+* /usr/lib/qmmp-2.2/General/libnotifier.so
+* /usr/lib/qmmp-2.2/General/librgscan.so
+* /usr/lib/qmmp-2.2/General/libscrobbler.so
+* /usr/lib/qmmp-2.2/General/libsleepinhibitor.so
+* /usr/lib/qmmp-2.2/General/libstatusicon.so
+* /usr/lib/qmmp-2.2/General/libstreambrowser.so
+* /usr/lib/qmmp-2.2/General/libtrackchange.so
+* /usr/lib/qmmp-2.2/General/libudisks.so
+* /usr/lib/qmmp-2.2/Input/libarchive.so
+* /usr/lib/qmmp-2.2/Input/libcdaudio.so
+* /usr/lib/qmmp-2.2/Input/libcue.so
+* /usr/lib/qmmp-2.2/Input/libflac.so
+* /usr/lib/qmmp-2.2/Input/libmpeg.so
+* /usr/lib/qmmp-2.2/Input/libsndfile.so
+* /usr/lib/qmmp-2.2/Input/libvorbis.so
+* /usr/lib/qmmp-2.2/Input/libwavpack.so
+* /usr/lib/qmmp-2.2/Output/libalsa.so
+* /usr/lib/qmmp-2.2/Output/libnull.so
+* /usr/lib/qmmp-2.2/Output/libpipewire.so
+* /usr/lib/qmmp-2.2/Output/libqtmultimedia.so
+* /usr/lib/qmmp-2.2/PlayListFormats/libm3uplaylistformat.so
+* /usr/lib/qmmp-2.2/PlayListFormats/libplsplaylistformat.so
+* /usr/lib/qmmp-2.2/PlayListFormats/libxspfplaylistformat.so
+* /usr/lib/qmmp-2.2/Transports/libhttp.so
+* /usr/lib/qmmp-2.2/Transports/libmms.so
+* /usr/lib/qmmp-2.2/Ui/libqsui.so
+* /usr/lib/qmmp-2.2/Ui/libskinned.so
+* /usr/lib/qmmp-2.2/Visual/libanalyzer.so
 * /usr/share/applications/qmmp-dir.desktop
 * /usr/share/applications/qmmp-enqueue.desktop
 * /usr/share/applications/qmmp.desktop
-* /usr/share/doc/qmmp-2.1.9/AUTHORS
-* /usr/share/doc/qmmp-2.1.9/ChangeLog
-* /usr/share/doc/qmmp-2.1.9/COPYING
-* /usr/share/doc/qmmp-2.1.9/COPYING.CC-by-sa_V4
-* /usr/share/doc/qmmp-2.1.9/README
-* /usr/share/doc/qmmp-2.1.9/README.RUS
-* /usr/share/doc/qmmp-2.1.9/README.UKR
+* /usr/share/doc/qmmp-2.2.3/AUTHORS
+* /usr/share/doc/qmmp-2.2.3/ChangeLog
+* /usr/share/doc/qmmp-2.2.3/COPYING
+* /usr/share/doc/qmmp-2.2.3/COPYING.CC-by-sa_V4
+* /usr/share/doc/qmmp-2.2.3/README
+* /usr/share/doc/qmmp-2.2.3/README.RUS
+* /usr/share/doc/qmmp-2.2.3/README.UKR
 * /usr/share/icons/hicolor/128x128/apps/qmmp.png
 * /usr/share/icons/hicolor/16x16/apps/qmmp.png
 * /usr/share/icons/hicolor/256x256/apps/qmmp.png
@@ -154,7 +157,7 @@ A music player written in Qt that supports Winamp skins.
 * /usr/share/icons/hicolor/64x64/apps/qmmp.png
 * /usr/share/icons/hicolor/scalable/apps/qmmp-simple.svgz
 * /usr/share/icons/hicolor/scalable/apps/qmmp.svgz
-* /usr/share/metainfo/qmmp.appdata.xml
+* /usr/share/metainfo/com.ylsoftware.qmmp.metainfo.xml
 * /usr/share/qmmp/images/app_icon.png
 * /usr/share/qmmp/images/empty_cover.png
 * /usr/share/qmmp/scripts/kwin.sh

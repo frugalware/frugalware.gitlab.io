@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openimageio 2.5.18.0-2"
-version = "2.5.18.0-2"
+title = "openimageio 2.5.18.0-3"
+version = "2.5.18.0-3"
 description = "A library for reading and writing images, including classes, utilities, and applications."
-date = "2025-01-05T12:22:18"
+date = "2025-01-21T15:40:30"
 aliases = "/packages/169088"
 categories = ['xlib-extra']
 upstreamurl = "http://www.openimageio.org/"
 arch = "x86_64"
-size = "4132404"
-usize = "17550589"
-sha1sum = "2c9f2d704f7f9b0f2037451b6301d78572d88374"
-depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.87.0', 'libheif', 'libraw>=0.21.1', 'libwebp', 'openblas', 'opencolorio', 'opencv>=4.10.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb>=12.0.0', 'pybind11']"
+size = "4127928"
+usize = "17542209"
+sha1sum = "1fbec7140f32f12e1c2a19a33bc3f681b6f7725d"
+depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.87.0', 'libheif', 'libraw>=0.21.1', 'libwebp', 'openblas', 'opencolorio', 'opencv>=4.11.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb>=12.0.0', 'pybind11']"
 reverse_depends = "['alicevision', 'blender', 'embree', 'openshadinglanguage', 'qtoiio']"
 +++
 ### Description: 

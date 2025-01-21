@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yt-dlp 2025.01.12-1"
-version = "2025.01.12-1"
+title = "yt-dlp 2025.01.15-1"
+version = "2025.01.15-1"
 description = "A youtube-dl fork with additional features and fixes"
-date = "2025-01-14T16:07:35"
+date = "2025-01-21T15:37:04"
 aliases = "/packages/220963"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/yt-dlp/yt-dlp"
 arch = "x86_64"
-size = "6179996"
-usize = "32463788"
-sha1sum = "936e514c46f9be36be7898cc917975d989c85835"
+size = "6179716"
+usize = "32459742"
+sha1sum = "89574f744c2c2bb75d09b41cfbf9c700fc0d0ac5"
 depends = "['ffmpeg', 'mutagen', 'rtmpdump']"
 reverse_depends = "['audiotube', 'plasmatube']"
 +++
@@ -19,12 +19,12 @@ A youtube-dl fork with additional features and fixes
 
 ### Files: 
 * /usr/bin/yt-dlp
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.12.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.12.dist-info/licenses/AUTHORS
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.12.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.12.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.12.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.12.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.15.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.15.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.15.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.15.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.15.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.1.15.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/yt_dlp/aes.py
 * /usr/lib/python3.13/site-packages/yt_dlp/cache.py
 * /usr/lib/python3.13/site-packages/yt_dlp/compat/compat_utils.py
@@ -3278,11 +3278,11 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/__pyinstaller/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pyinstaller/__pycache__/__init__.cpython-313.pyc
 * /usr/share/bash-completion/completions/yt-dlp
-* /usr/share/doc/yt-dlp-2025.01.12/AUTHORS
-* /usr/share/doc/yt-dlp-2025.01.12/CONTRIBUTORS
-* /usr/share/doc/yt-dlp-2025.01.12/LICENSE
-* /usr/share/doc/yt-dlp-2025.01.12/README.md
-* /usr/share/doc/yt-dlp-2025.01.12/README.txt
+* /usr/share/doc/yt-dlp-2025.01.15/AUTHORS
+* /usr/share/doc/yt-dlp-2025.01.15/CONTRIBUTORS
+* /usr/share/doc/yt-dlp-2025.01.15/LICENSE
+* /usr/share/doc/yt-dlp-2025.01.15/README.md
+* /usr/share/doc/yt-dlp-2025.01.15/README.txt
 * /usr/share/doc/yt_dlp/README.txt
 * /usr/share/fish/vendor_completions.d/yt-dlp.fish
 * /usr/share/man/man1/yt-dlp.1.gz
