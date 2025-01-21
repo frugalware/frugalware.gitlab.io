@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpupower 6.12.10-1"
-version = "6.12.10-1"
+title = "cpupower 6.13-1"
+version = "6.13-1"
 description = "Kernel cpu powersaving tool"
-date = "2025-01-17T22:38:50"
+date = "2025-01-20T09:56:53"
 aliases = "/packages/137197"
 categories = ['apps-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "99060"
-usize = "239671"
-sha1sum = "70917dde0484bfbd521375af60ed8aafa353ebbe"
+size = "102640"
+usize = "259453"
+sha1sum = "a393eecac82efed2da08acc465952d8d64a69b6e"
 depends = "['pciutils']"
 +++
 ### Description: 
@@ -39,6 +39,7 @@ Kernel cpu powersaving tool
 * /usr/share/locale/it/LC_MESSAGES/cpupower.mo
 * /usr/share/locale/ka/LC_MESSAGES/cpupower.mo
 * /usr/share/locale/pt/LC_MESSAGES/cpupower.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/cpupower.mo
 * /usr/share/man/man1/cpupower-frequency-info.1.gz
 * /usr/share/man/man1/cpupower-frequency-set.1.gz
 * /usr/share/man/man1/cpupower-idle-info.1.gz

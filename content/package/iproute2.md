@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iproute2 6.12.0-1"
-version = "6.12.0-1"
+title = "iproute2 6.13.0-1"
+version = "6.13.0-1"
 description = "kernel routing and traffic control utilities."
-date = "2024-11-19T20:22:12"
+date = "2025-01-21T09:07:07"
 aliases = "/packages/3104"
 categories = ['base']
 upstreamurl = "http://www.kernel.org"
 arch = "x86_64"
-size = "1101236"
-usize = "2956764"
-sha1sum = "5def7e11b6b10c81feaf4a8507377b6cc6899c18"
+size = "1105712"
+usize = "2970408"
+sha1sum = "ec7031ae181b5c60e13fff606493ad35e8ed54ea"
 depends = "['iptables>=1.6.1-4', 'libbpf']"
 reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
@@ -43,10 +43,12 @@ kernel routing and traffic control utilities.
 * /usr/lib/tc/paretonormal.dist
 * /usr/share/bash-completion/completions/devlink
 * /usr/share/bash-completion/completions/tc
-* /usr/share/doc/iproute2-6.12.0/COPYING
-* /usr/share/doc/iproute2-6.12.0/CREDITS
-* /usr/share/doc/iproute2-6.12.0/README
-* /usr/share/doc/iproute2-6.12.0/README.devel
+* /usr/share/doc/iproute2-6.13.0/COPYING
+* /usr/share/doc/iproute2-6.13.0/CREDITS
+* /usr/share/doc/iproute2-6.13.0/LICENSE
+* /usr/share/doc/iproute2-6.13.0/README
+* /usr/share/doc/iproute2-6.13.0/README.devel
+* /usr/share/doc/iproute2-6.13.0/README.md
 * /usr/share/iproute2/bpf_pinning
 * /usr/share/iproute2/ematch_map
 * /usr/share/iproute2/group
@@ -115,6 +117,7 @@ kernel routing and traffic control utilities.
 * /usr/share/man/man8/nstat.8.gz
 * /usr/share/man/man8/rdma-dev.8.gz
 * /usr/share/man/man8/rdma-link.8.gz
+* /usr/share/man/man8/rdma-monitor.8.gz
 * /usr/share/man/man8/rdma-resource.8.gz
 * /usr/share/man/man8/rdma-statistic.8.gz
 * /usr/share/man/man8/rdma-system.8.gz

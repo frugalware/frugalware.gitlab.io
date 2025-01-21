@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.12.10-1"
-version = "6.12.10-1"
+title = "kernel-headers 6.13-1"
+version = "6.13-1"
 description = "Linux kernel include files"
-date = "2025-01-17T22:38:50"
+date = "2025-01-20T09:56:53"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1241988"
-usize = "5878198"
-sha1sum = "dc3236947759d262b864190e042452a82e5d04a5"
+size = "1251460"
+usize = "5924037"
+sha1sum = "780c511b2533da386b75c61274964f94b1d78faf"
 depends = "[]"
 +++
 ### Description: 
@@ -424,6 +424,8 @@ Linux kernel include files
 * /usr/include/linux/media.h
 * /usr/include/linux/media/raspberrypi/pisp_be_config.h
 * /usr/include/linux/media/raspberrypi/pisp_common.h
+* /usr/include/linux/media/raspberrypi/pisp_fe_config.h
+* /usr/include/linux/media/raspberrypi/pisp_fe_statistics.h
 * /usr/include/linux/mei.h
 * /usr/include/linux/mei_uuid.h
 * /usr/include/linux/membarrier.h
@@ -602,6 +604,7 @@ Linux kernel include files
 * /usr/include/linux/netrom.h
 * /usr/include/linux/net_dropmon.h
 * /usr/include/linux/net_namespace.h
+* /usr/include/linux/net_shaper.h
 * /usr/include/linux/net_tstamp.h
 * /usr/include/linux/nexthop.h
 * /usr/include/linux/nfc.h
@@ -684,8 +687,6 @@ Linux kernel include files
 * /usr/include/linux/random.h
 * /usr/include/linux/rds.h
 * /usr/include/linux/reboot.h
-* /usr/include/linux/reiserfs_fs.h
-* /usr/include/linux/reiserfs_xattr.h
 * /usr/include/linux/remoteproc_cdev.h
 * /usr/include/linux/resource.h
 * /usr/include/linux/rfkill.h
@@ -886,6 +887,7 @@ Linux kernel include files
 * /usr/include/linux/virtio_snd.h
 * /usr/include/linux/virtio_types.h
 * /usr/include/linux/virtio_vsock.h
+* /usr/include/linux/vmclock-abi.h
 * /usr/include/linux/vmcore.h
 * /usr/include/linux/vm_sockets.h
 * /usr/include/linux/vm_sockets_diag.h

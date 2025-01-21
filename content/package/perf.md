@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.12.10-1"
-version = "6.12.10-1"
+title = "perf 6.13-1"
+version = "6.13-1"
 description = "Kernel performance profiling tool"
-date = "2025-01-17T22:38:50"
+date = "2025-01-20T09:56:53"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2282416"
-usize = "11829472"
-sha1sum = "98f6bea99d35d19d89a1d17958d8f9aa28672efb"
+size = "2307548"
+usize = "11953551"
+sha1sum = "1304ca905a1187463c2bd905aef8566d1243ac2f"
 depends = "['binutils>=2.43.1', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -113,57 +113,60 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/scripts/python/syscall-counts-by-pid.py
 * /usr/lib/perf/perf-core/scripts/python/syscall-counts.py
 * /usr/lib/perf/perf-core/scripts/python/task-analyzer.py
-* /usr/lib/perf/perf-core/tests/attr.py
-* /usr/lib/perf/perf-core/tests/attr/base-record
-* /usr/lib/perf/perf-core/tests/attr/base-record-spe
-* /usr/lib/perf/perf-core/tests/attr/base-stat
-* /usr/lib/perf/perf-core/tests/attr/README
-* /usr/lib/perf/perf-core/tests/attr/system-wide-dummy
-* /usr/lib/perf/perf-core/tests/attr/test-record-basic
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-any
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-any
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-any_call
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-any_ret
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-hv
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-ind_call
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-k
-* /usr/lib/perf/perf-core/tests/attr/test-record-branch-filter-u
-* /usr/lib/perf/perf-core/tests/attr/test-record-C0
-* /usr/lib/perf/perf-core/tests/attr/test-record-count
-* /usr/lib/perf/perf-core/tests/attr/test-record-data
-* /usr/lib/perf/perf-core/tests/attr/test-record-dummy-C0
-* /usr/lib/perf/perf-core/tests/attr/test-record-freq
-* /usr/lib/perf/perf-core/tests/attr/test-record-graph-default
-* /usr/lib/perf/perf-core/tests/attr/test-record-graph-default-aarch64
-* /usr/lib/perf/perf-core/tests/attr/test-record-graph-dwarf
-* /usr/lib/perf/perf-core/tests/attr/test-record-graph-fp
-* /usr/lib/perf/perf-core/tests/attr/test-record-graph-fp-aarch64
-* /usr/lib/perf/perf-core/tests/attr/test-record-group-sampling
-* /usr/lib/perf/perf-core/tests/attr/test-record-group1
-* /usr/lib/perf/perf-core/tests/attr/test-record-group2
-* /usr/lib/perf/perf-core/tests/attr/test-record-no-buffering
-* /usr/lib/perf/perf-core/tests/attr/test-record-no-inherit
-* /usr/lib/perf/perf-core/tests/attr/test-record-no-samples
-* /usr/lib/perf/perf-core/tests/attr/test-record-period
-* /usr/lib/perf/perf-core/tests/attr/test-record-pfm-period
-* /usr/lib/perf/perf-core/tests/attr/test-record-raw
-* /usr/lib/perf/perf-core/tests/attr/test-record-spe-period
-* /usr/lib/perf/perf-core/tests/attr/test-record-spe-period-term
-* /usr/lib/perf/perf-core/tests/attr/test-record-spe-physical-address
-* /usr/lib/perf/perf-core/tests/attr/test-record-user-regs-no-sve-aarch64
-* /usr/lib/perf/perf-core/tests/attr/test-record-user-regs-old-sve-aarch64
-* /usr/lib/perf/perf-core/tests/attr/test-record-user-regs-sve-aarch64
-* /usr/lib/perf/perf-core/tests/attr/test-stat-basic
-* /usr/lib/perf/perf-core/tests/attr/test-stat-C0
-* /usr/lib/perf/perf-core/tests/attr/test-stat-default
-* /usr/lib/perf/perf-core/tests/attr/test-stat-detailed-1
-* /usr/lib/perf/perf-core/tests/attr/test-stat-detailed-2
-* /usr/lib/perf/perf-core/tests/attr/test-stat-detailed-3
-* /usr/lib/perf/perf-core/tests/attr/test-stat-group1
-* /usr/lib/perf/perf-core/tests/attr/test-stat-no-inherit
 * /usr/lib/perf/perf-core/tests/pe-file.exe
 * /usr/lib/perf/perf-core/tests/pe-file.exe.debug
 * /usr/lib/perf/perf-core/tests/shell/annotate.sh
+* /usr/lib/perf/perf-core/tests/shell/attr.sh
+* /usr/lib/perf/perf-core/tests/shell/attr/base-record
+* /usr/lib/perf/perf-core/tests/shell/attr/base-record-spe
+* /usr/lib/perf/perf-core/tests/shell/attr/base-stat
+* /usr/lib/perf/perf-core/tests/shell/attr/README
+* /usr/lib/perf/perf-core/tests/shell/attr/system-wide-dummy
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-basic
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-any
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-any
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-any_call
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-any_ret
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-hv
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-ind_call
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-k
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-branch-filter-u
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-C0
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-count
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-data
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-dummy-C0
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-freq
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-graph-default
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-graph-default-aarch64
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-graph-dwarf
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-graph-fp
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-graph-fp-aarch64
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-group-sampling
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-group-sampling1
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-group-sampling2
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-group1
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-group2
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-group3
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-no-buffering
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-no-inherit
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-no-samples
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-period
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-pfm-period
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-raw
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-spe-period
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-spe-period-term
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-spe-physical-address
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-user-regs-no-sve-aarch64
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-user-regs-old-sve-aarch64
+* /usr/lib/perf/perf-core/tests/shell/attr/test-record-user-regs-sve-aarch64
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-basic
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-C0
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-default
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-detailed-1
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-detailed-2
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-detailed-3
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-group1
+* /usr/lib/perf/perf-core/tests/shell/attr/test-stat-no-inherit
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_adding_blacklisted.sh
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_adding_kernel.sh
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_basic.sh
@@ -190,6 +193,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/daemon.sh
 * /usr/lib/perf/perf-core/tests/shell/diff.sh
 * /usr/lib/perf/perf-core/tests/shell/ftrace.sh
+* /usr/lib/perf/perf-core/tests/shell/lib/attr.py
 * /usr/lib/perf/perf-core/tests/shell/lib/coresight.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/perf_has_symbol.sh
 * /usr/lib/perf/perf-core/tests/shell/lib/perf_json_output_lint.py
@@ -229,6 +233,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/stat_metrics_values.sh
 * /usr/lib/perf/perf-core/tests/shell/test_arm_callgraph_fp.sh
 * /usr/lib/perf/perf-core/tests/shell/test_arm_coresight.sh
+* /usr/lib/perf/perf-core/tests/shell/test_arm_coresight_disasm.sh
 * /usr/lib/perf/perf-core/tests/shell/test_arm_spe.sh
 * /usr/lib/perf/perf-core/tests/shell/test_arm_spe_fork.sh
 * /usr/lib/perf/perf-core/tests/shell/test_brstack.sh
@@ -241,6 +246,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/test_uprobe_from_different_cu.sh
 * /usr/lib/perf/perf-core/tests/shell/trace+probe_vfs_getname.sh
 * /usr/lib/perf/perf-core/tests/shell/trace_btf_enum.sh
+* /usr/lib/perf/perf-core/tests/shell/trace_exit_race.sh
 * /usr/share/doc/perf-tip/tips.txt
 * /usr/share/man/man1/perf-amd-ibs.1.gz
 * /usr/share/man/man1/perf-annotate.1.gz
