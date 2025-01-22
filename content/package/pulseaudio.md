@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulseaudio 17.0-5"
-version = "17.0-5"
+title = "pulseaudio 17.0-6"
+version = "17.0-6"
 description = "PulseAudio is a sound server with an advanced plugin system"
-date = "2024-08-09T09:22:52"
+date = "2025-01-22T11:00:39"
 aliases = "/packages/136525"
 categories = ['xmultimedia']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "461460"
+size = "460688"
 usize = "3161218"
-sha1sum = "dc2bac2c9dfddaa83f8843a150e551d1f4af3797"
+sha1sum = "b5c537c08013aed4753af4790edc41c45c4d7e01"
 depends = "['dbus>=1.10.10-4', 'libpulse', 'libsndfile>=1.0.26-3', 'libtool>=2.4.6-5']"
 reverse_depends = "['get_steam', 'pavucontrol-qt', 'pulseaudio-avahi', 'pulseaudio-bluetooth', 'pulseaudio-lirc', 'pulseaudio-x11', 'qemu']"
 +++

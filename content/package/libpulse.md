@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libpulse 17.0-5"
-version = "17.0-5"
+title = "libpulse 17.0-6"
+version = "17.0-6"
 description = "pulseaduio client library"
-date = "2024-08-09T09:22:52"
+date = "2025-01-22T11:00:39"
 aliases = "/packages/136453"
 categories = ['xmultimedia']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "1215712"
-usize = "4841803"
-sha1sum = "fc3cb416f08fd12e659ef3ae2c731271011b7dc5"
-depends = "['alsa-lib', 'dbus>=1.10.10-4', 'fftw>=3.3.4-4', 'flac', 'libasyncns>=0.8-3', 'libogg', 'libsm', 'libsndfile>=1.0.26-2', 'libsystemd>=242-3', 'libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis', 'libx11>=1.6.3-4', 'libxtst', 'orc>=0.4.24-2', 'soxr', 'speexdsp>=1.2rc3-3', 'tdb>=1.3.10-2', 'webrtc-audio-processing']"
+size = "1211552"
+usize = "4826659"
+sha1sum = "5b8a3de8eeddafe28eca685c6709bbbfc64e9e9e"
+depends = "['alsa-lib', 'dbus>=1.10.10-4', 'fftw>=3.3.4-4', 'flac', 'libasyncns>=0.8-3', 'libogg', 'libsm', 'libsndfile>=1.0.26-2', 'libsystemd>=242-3', 'libtool>=2.4.6-4', 'libudev>=242-3', 'libvorbis', 'libx11>=1.6.3-4', 'libxtst', 'orc>=0.4.24-2', 'soxr', 'speexdsp>=1.2rc3-3', 'tdb>=1.3.10-2']"
 reverse_depends = "['alsa-plugin-pulseaudio', 'chromium-browser', 'conky', 'efl', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'fluidsynth', 'gst1-plugins-good-pulseaudio', 'gtk-vnc', 'guvcview', 'i3status', 'libao-pulse', 'libcanberra-pulseaudio', 'libmikmod', 'libopenmpt', 'mencoder', 'mplayer', 'mpv', 'openjre', 'pavucontrol', 'pavucontrol-qt', 'pcaudiolib', 'phonon-qt5', 'phonon-qt6', 'pipewire-pulse', 'pocketsphinx', 'pulse-autoconf', 'pulseaudio', 'pulseaudio-qt', 'python3-pulsectl', 'qt5-multimedia', 'sdlmame', 'sox', 'speech-dispatcher', 'spice-glib', 'terminology', 'thunderbird', 'virtualbox', 'vlc-pulseaudio', 'wine', 'wine-devel']"
 +++
 ### Description: 
@@ -77,7 +77,6 @@ pulseaduio client library
 * /usr/lib/pulseaudio/modules/libprotocol-native.so
 * /usr/lib/pulseaudio/modules/libprotocol-simple.so
 * /usr/lib/pulseaudio/modules/librtp.so
-* /usr/lib/pulseaudio/modules/libwebrtc-util.so
 * /usr/lib/pulseaudio/modules/module-allow-passthrough.so
 * /usr/lib/pulseaudio/modules/module-alsa-card.so
 * /usr/lib/pulseaudio/modules/module-alsa-sink.so

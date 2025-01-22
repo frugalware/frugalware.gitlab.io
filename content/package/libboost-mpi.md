@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libboost-mpi 1.87.0-1"
-version = "1.87.0-1"
+title = "libboost-mpi 1.87.0-2"
+version = "1.87.0-2"
 description = "Boost MPI Interface."
-date = "2025-01-04T12:35:06"
+date = "2025-01-22T10:20:33"
 aliases = "/packages/118930"
 categories = ['lib-extra']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "90996"
-usize = "296359"
-sha1sum = "6d4a973462c213702d5b3d87eef6ab823b31ce1e"
+size = "90916"
+usize = "296103"
+sha1sum = "0a25529302815b9f570be82c7d60b2f98da4abd1"
 depends = "['libboost>=1.87.0', 'libstdc++>=12.2', 'openmpi>=4.0.1-3']"
 +++
 ### Description: 
