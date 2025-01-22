@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "teams-for-linux 1.12.5-1"
-version = "1.12.5-1"
+title = "teams-for-linux 1.12.6-1"
+version = "1.12.6-1"
 description = "Unofficial Microsoft Teams client for Linux using Electron."
-date = "2024-12-22T13:37:04"
+date = "2025-01-22T07:46:10"
 aliases = "/packages/222591"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/IsmaelMartinez/teams-for-linux"
 arch = "x86_64"
-size = "91350896"
-usize = "297552065"
-sha1sum = "97a4417e95e69606af4e9fa832be877b193a189c"
+size = "91332612"
+usize = "297541699"
+sha1sum = "66a3dd30980bfa674ecafd82772757cdf456cf4d"
 depends = "['alsa-lib', 'gtk+3', 'libsecret', 'libxscrnsaver', 'libxtst', 'nss']"
 +++
 ### Description: 
@@ -95,7 +95,7 @@ Unofficial Microsoft Teams client for Linux using Electron.
 * /opt/teams-for-linux/vk_swiftshader_icd.json
 * /usr/bin/teams-for-linux
 * /usr/share/applications/teams-for-linux.desktop
-* /usr/share/doc/teams-for-linux-1.12.5/README.md
+* /usr/share/doc/teams-for-linux-1.12.6/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/teams-for-linux.png
 * /usr/share/icons/hicolor/128x128/apps/teams-for-linux.png
 * /usr/share/icons/hicolor/16x16/apps/teams-for-linux.png
