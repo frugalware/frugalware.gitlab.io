@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.2.7-2"
-version = "1.2.7-2"
+title = "pipewire 1.2.7-3"
+version = "1.2.7-3"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2024-12-24T12:07:14"
+date = "2025-01-22T09:42:13"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3973692"
-usize = "38741227"
-sha1sum = "b75430db82266b6d283dbf1ed3d66e66074a09ad"
+size = "3985200"
+usize = "39470122"
+sha1sum = "bcbf5d9b29fac542784cd11b5ce9db90edd93992"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.4.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -965,8 +965,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/main-loop_8h_source.html
 * /usr/share/doc/pipewire/html/map_8h.html
 * /usr/share/doc/pipewire/html/map_8h_source.html
-* /usr/share/doc/pipewire/html/menu.js
-* /usr/share/doc/pipewire/html/menudata.js
 * /usr/share/doc/pipewire/html/metadata_8h.html
 * /usr/share/doc/pipewire/html/metadata_8h_source.html
 * /usr/share/doc/pipewire/html/meta_8h.html
