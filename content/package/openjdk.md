@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openjdk 23.0.1-2"
-version = "23.0.1-2"
+title = "openjdk 23.0.2-1"
+version = "23.0.2-1"
 description = "Open-source Java Development Kit implementation."
-date = "2024-10-25T13:18:33"
+date = "2025-01-23T14:53:53"
 aliases = "/packages/102857"
 categories = ['devel-extra']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "85880672"
-usize = "95580723"
-sha1sum = "d076a184a8bb129d51e0a5614c747114caa76e44"
-depends = "['openjre=23.0.1-2']"
+size = "86316520"
+usize = "96102899"
+sha1sum = "69fd7bb185afc39eabdc0f5831311796e3976f33"
+depends = "['openjre=23.0.2-1']"
 reverse_depends = "['flutter', 'maven', 'openjdk-source', 'testng']"
 +++
 ### Description: 
@@ -221,9 +221,8 @@ Open-source Java Development Kit implementation.
 * /usr/lib/jvm/java-23-openjdk/jmods/jdk.unsupported.jmod
 * /usr/lib/jvm/java-23-openjdk/jmods/jdk.xml.dom.jmod
 * /usr/lib/jvm/java-23-openjdk/jmods/jdk.zipfs.jmod
-* /usr/share/doc/openjdk-23.0.1/LICENSE
-* /usr/share/doc/openjdk-23.0.1/README-code-reviews.md
-* /usr/share/doc/openjdk-23.0.1/README.md
+* /usr/share/doc/openjdk-23.0.2/LICENSE
+* /usr/share/doc/openjdk-23.0.2/README.md
 * /usr/share/man/man1/jar.1.gz
 * /usr/share/man/man1/jarsigner.1.gz
 * /usr/share/man/man1/java.1.gz

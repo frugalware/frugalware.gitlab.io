@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openucx 1.17.0-3"
-version = "1.17.0-3"
+title = "openucx 1.18.0-1"
+version = "1.18.0-1"
 description = "Unified Communication X"
-date = "2024-08-18T20:01:23"
+date = "2025-01-23T14:37:48"
 aliases = "/packages/220865"
 categories = ['network-extra']
 upstreamurl = "http://www.openucx.org"
 arch = "x86_64"
-size = "1415148"
-usize = "4903495"
-sha1sum = "2b721bdd37c2421637478e61de82918e1f5981f9"
+size = "1461328"
+usize = "5054672"
+sha1sum = "7e1331dba0d91c0d820f7a5e38484efaacdeb9bf"
 depends = "['binutils>=2.43.1', 'libgomp', 'numactl', 'rdma-core']"
 reverse_depends = "['cuda-tools']"
 +++
@@ -119,6 +119,7 @@ Unified Communication X
 * /usr/lib/libuct.so.0
 * /usr/lib/libuct.so.0.0.0
 * /usr/lib/pkgconfig/ucx-cma.pc
+* /usr/lib/pkgconfig/ucx-ib-mlx5.pc
 * /usr/lib/pkgconfig/ucx-ib.pc
 * /usr/lib/pkgconfig/ucx-rdmacm.pc
 * /usr/lib/pkgconfig/ucx-ucs.pc
@@ -130,14 +131,20 @@ Unified Communication X
 * /usr/lib/ucx/libuct_ib.so
 * /usr/lib/ucx/libuct_ib.so.0
 * /usr/lib/ucx/libuct_ib.so.0.0.0
+* /usr/lib/ucx/libuct_ib_mlx5.so
+* /usr/lib/ucx/libuct_ib_mlx5.so.0
+* /usr/lib/ucx/libuct_ib_mlx5.so.0.0.0
 * /usr/lib/ucx/libuct_rdmacm.so
 * /usr/lib/ucx/libuct_rdmacm.so.0
 * /usr/lib/ucx/libuct_rdmacm.so.0.0.0
-* /usr/share/doc/openucx-1.17.0/AUTHORS
-* /usr/share/doc/openucx-1.17.0/LICENSE
-* /usr/share/doc/openucx-1.17.0/NEWS
-* /usr/share/doc/openucx-1.17.0/README
-* /usr/share/doc/openucx-1.17.0/README.md
+* /usr/lib/ucx/libucx_perftest_mad.so
+* /usr/lib/ucx/libucx_perftest_mad.so.0
+* /usr/lib/ucx/libucx_perftest_mad.so.0.0.0
+* /usr/share/doc/openucx-1.18.0/AUTHORS
+* /usr/share/doc/openucx-1.18.0/LICENSE
+* /usr/share/doc/openucx-1.18.0/NEWS
+* /usr/share/doc/openucx-1.18.0/README
+* /usr/share/doc/openucx-1.18.0/README.md
 * /usr/share/ucx/examples/hello_world_util.h
 * /usr/share/ucx/examples/ucp_client_server.c
 * /usr/share/ucx/examples/ucp_hello_world.c

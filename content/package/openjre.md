@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openjre 23.0.1-2"
-version = "23.0.1-2"
+title = "openjre 23.0.2-1"
+version = "23.0.2-1"
 description = "Open-source Java Runtime Environment."
-date = "2024-10-25T13:18:33"
+date = "2025-01-23T14:53:53"
 aliases = "/packages/102858"
 categories = ['apps']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "52505752"
-usize = "214675830"
-sha1sum = "e1b5bdcd4b0501492e4eedb805b50ac2e1c25fdf"
+size = "52546380"
+usize = "214694164"
+sha1sum = "ed4253d3be3f41132ee68042af4bc5e8f255cf5b"
 depends = "['ca-certificates-java', 'harfbuzz', 'lcms2', 'libkrb5', 'libpulse>=7.1', 'libuuid>=2.40.2', 'lksctp-tools>=1.0.18-2', 'nss', 'pcsc-lite']"
 reverse_depends = "['antlr-openjava', 'apache-ant', 'apache-log4j1', 'bcel', 'bcprov', 'bouncycastle-mail', 'commons-cli', 'commons-codec', 'commons-io', 'commons-logging', 'dom4j', 'freerapid', 'gnu-crypto', 'gnuinetlib', 'gradle', 'insight-toolkit', 'iso-relax', 'itext-core', 'jaf', 'jakarta-oro', 'jakarta-regexp', 'java-hamcrest', 'javacup', 'libreoffice', 'lxmed', 'ntru', 'oneswarm', 'openjdk', 'openjre-x', 'rhino', 'sac', 'servletapi', 'subversion-bindings', 'sweethome3d', 'swt', 'vtk-java', 'xalan-j-serializer', 'xjavac', 'xml-commons-resolver', 'xpp3']"
 +++
