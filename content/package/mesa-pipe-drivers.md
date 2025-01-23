@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-pipe-drivers 24.3.3-2"
-version = "24.3.3-2"
+title = "mesa-pipe-drivers 24.3.4-1"
+version = "24.3.4-1"
 description = "Mesa gallium pipe drivers."
-date = "2025-01-14T10:21:43"
+date = "2025-01-23T08:59:09"
 aliases = "/packages/184684"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "20618660"
-usize = "108160520"
-sha1sum = "77d43862a5039bb6c4e6edfd4ecf777f5ef39294"
+size = "20618076"
+usize = "108159176"
+sha1sum = "b27161462420a5fd6141b2167b9b83becd1e59bc"
 depends = "['elfutils>=0.167-2', 'libdrm>=2.4.70', 'libffi>=3.2.1-2', 'llvm-libs>=19.1.1']"
 +++
 ### Description: 

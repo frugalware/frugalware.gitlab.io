@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "webrtc-audio-processing 2.0-2"
-version = "2.0-2"
+title = "webrtc-audio-processing 2.1-1"
+version = "2.1-1"
 description = "AudioProcessing library based on Google's implementation of WebRTC"
-date = "2025-01-22T09:39:57"
+date = "2025-01-23T09:09:57"
 aliases = "/packages/219889"
 categories = ['lib']
 upstreamurl = "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/"
 arch = "x86_64"
-size = "487440"
-usize = "1517980"
-sha1sum = "2e47f0bdbfc5fe7393718ae296856cc8bb542a8d"
+size = "411896"
+usize = "1210836"
+sha1sum = "a5021c9300453f6ea3ce9ae92d5ac389c22b22f8"
 depends = "['abseil-cpp>=20230125', 'libstdc++>=11.2']"
 reverse_depends = "['gst1-plugins-bad-webrtc', 'pipewire']"
 +++
@@ -47,13 +47,11 @@ AudioProcessing library based on Google's implementation of WebRTC
 * /usr/include/webrtc-audio-processing-2/system_wrappers/include/metrics.h
 * /usr/include/webrtc-audio-processing-2/system_wrappers/include/sleep.h
 * /usr/lib/libwebrtc-audio-processing-2.so
-* /usr/lib/libwebrtc-audio-processing-2.so.0
+* /usr/lib/libwebrtc-audio-processing-2.so.1
 * /usr/lib/pkgconfig/webrtc-audio-processing-2.pc
-* /usr/share/doc/webrtc-audio-processing-2.0/AUTHORS
-* /usr/share/doc/webrtc-audio-processing-2.0/COPYING
-* /usr/share/doc/webrtc-audio-processing-2.0/INSTALL
-* /usr/share/doc/webrtc-audio-processing-2.0/INSTALL.md
-* /usr/share/doc/webrtc-audio-processing-2.0/LICENSE
-* /usr/share/doc/webrtc-audio-processing-2.0/NEWS
-* /usr/share/doc/webrtc-audio-processing-2.0/README
-* /usr/share/doc/webrtc-audio-processing-2.0/README.md
+* /usr/share/doc/webrtc-audio-processing-2.1/AUTHORS
+* /usr/share/doc/webrtc-audio-processing-2.1/COPYING
+* /usr/share/doc/webrtc-audio-processing-2.1/INSTALL
+* /usr/share/doc/webrtc-audio-processing-2.1/NEWS
+* /usr/share/doc/webrtc-audio-processing-2.1/README
+* /usr/share/doc/webrtc-audio-processing-2.1/README.md

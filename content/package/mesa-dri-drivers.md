@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-dri-drivers 24.3.3-2"
-version = "24.3.3-2"
+title = "mesa-dri-drivers 24.3.4-1"
+version = "24.3.4-1"
 description = "Mesa OpenGL DRI drivers."
-date = "2025-01-14T10:21:43"
+date = "2025-01-23T08:59:09"
 aliases = "/packages/136774"
 categories = ['x11']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "11871592"
-usize = "47492600"
-sha1sum = "d139d7e43593975d54cc3804253e0e384e50e833"
+size = "11875320"
+usize = "47491832"
+sha1sum = "4f43dc397b1e9096965ab25f033e0cdf1e8c9c16"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'libgbm', 'libunwind', 'libxshmfence', 'llvm-libs>=19.1.1', 'lmsensors>=3.5.0', 'spirv-tools', 'zstd']"
 reverse_depends = "['libgl', 'qt6-webengine', 'virtualbox-guest-additions', 'xorg-server']"
 +++
@@ -35,7 +35,7 @@ Mesa OpenGL DRI drivers.
 * /usr/lib/dri/virtio_gpu_drv_video.so
 * /usr/lib/dri/vmwgfx_dri.so
 * /usr/lib/dri/zink_dri.so
-* /usr/lib/libgallium-24.3.3.so
+* /usr/lib/libgallium-24.3.4.so
 * /usr/lib/pkgconfig/dri.pc
 * /usr/share/drirc.d/00-mesa-defaults.conf
 * /usr/share/drirc.d/00-radv-defaults.conf

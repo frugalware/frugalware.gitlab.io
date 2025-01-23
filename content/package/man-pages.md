@@ -1,26 +1,30 @@
 +++
 draft = false
-title = "man-pages 6.9.1-1"
-version = "6.9.1-1"
+title = "man-pages 6.10-1"
+version = "6.10-1"
 description = "Man pages are online documentation for Linux"
-date = "2024-06-20T15:28:03"
+date = "2025-01-23T09:13:44"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5711252"
-usize = "5741315"
-sha1sum = "3e585d41d5c96e49b57404b0d574d116bb05fa53"
+size = "5745940"
+usize = "5777232"
+sha1sum = "583b29a365638cfe79784b675d8545e0965b454b"
 depends = "[]"
 +++
 ### Description: 
 Man pages are online documentation for Linux
 
 ### Files: 
-* /usr/share/doc/man-pages-6.9.1/INSTALL
-* /usr/share/doc/man-pages-6.9.1/POSIX-COPYRIGHT
-* /usr/share/doc/man-pages-6.9.1/README
-* /usr/share/doc/man-pages-6.9.1/RELEASE
+* /usr/bin/diffman-git
+* /usr/bin/mansect
+* /usr/bin/pdfman
+* /usr/bin/sortman
+* /usr/share/doc/man-pages-6.10/INSTALL
+* /usr/share/doc/man-pages-6.10/POSIX-COPYRIGHT
+* /usr/share/doc/man-pages-6.10/README
+* /usr/share/doc/man-pages-6.10/RELEASE
 * /usr/share/man/man0p/aio.h.0p.gz
 * /usr/share/man/man0p/arpa_inet.h.0p.gz
 * /usr/share/man/man0p/assert.h.0p.gz
@@ -103,16 +107,20 @@ Man pages are online documentation for Linux
 * /usr/share/man/man0p/wchar.h.0p.gz
 * /usr/share/man/man0p/wctype.h.0p.gz
 * /usr/share/man/man0p/wordexp.h.0p.gz
+* /usr/share/man/man1/diffman-git.1.gz
 * /usr/share/man/man1/getent.1.gz
 * /usr/share/man/man1/iconv.1.gz
 * /usr/share/man/man1/intro.1.gz
 * /usr/share/man/man1/ldd.1.gz
 * /usr/share/man/man1/locale.1.gz
 * /usr/share/man/man1/localedef.1.gz
+* /usr/share/man/man1/mansect.1.gz
 * /usr/share/man/man1/memusage.1.gz
 * /usr/share/man/man1/memusagestat.1.gz
 * /usr/share/man/man1/mtrace.1.gz
+* /usr/share/man/man1/pdfman.1.gz
 * /usr/share/man/man1/pldd.1.gz
+* /usr/share/man/man1/sortman.1.gz
 * /usr/share/man/man1/sprof.1.gz
 * /usr/share/man/man1/time.1.gz
 * /usr/share/man/man1p/admin.1p.gz
@@ -475,6 +483,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2/link.2.gz
 * /usr/share/man/man2/linkat.2.gz
 * /usr/share/man/man2/listen.2.gz
+* /usr/share/man/man2/listmount.2.gz
 * /usr/share/man/man2/llseek.2.gz
 * /usr/share/man/man2/lock.2.gz
 * /usr/share/man/man2/lookup_dcookie.2.gz
@@ -601,6 +610,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2/renameat2.2.gz
 * /usr/share/man/man2/request_key.2.gz
 * /usr/share/man/man2/restart_syscall.2.gz
+* /usr/share/man/man2/riscv_flush_icache.2.gz
 * /usr/share/man/man2/rmdir.2.gz
 * /usr/share/man/man2/rt_sigaction.2.gz
 * /usr/share/man/man2/rt_sigpending.2.gz
@@ -708,6 +718,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2/stat64.2.gz
 * /usr/share/man/man2/statfs.2.gz
 * /usr/share/man/man2/statfs64.2.gz
+* /usr/share/man/man2/statmount.2.gz
 * /usr/share/man/man2/statx.2.gz
 * /usr/share/man/man2/stime.2.gz
 * /usr/share/man/man2/stty.2.gz
@@ -751,6 +762,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2/unlink.2.gz
 * /usr/share/man/man2/unlinkat.2.gz
 * /usr/share/man/man2/unshare.2.gz
+* /usr/share/man/man2/uretprobe.2.gz
 * /usr/share/man/man2/uselib.2.gz
 * /usr/share/man/man2/userfaultfd.2.gz
 * /usr/share/man/man2/ustat.2.gz
@@ -770,8 +782,8 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2/waitpid.2.gz
 * /usr/share/man/man2/write.2.gz
 * /usr/share/man/man2/writev.2.gz
-* /usr/share/man/man2/_exit.2.gz
 * /usr/share/man/man2/_Exit.2.gz
+* /usr/share/man/man2/_exit.2.gz
 * /usr/share/man/man2/_llseek.2.gz
 * /usr/share/man/man2/_newselect.2.gz
 * /usr/share/man/man2/_syscall.2.gz
@@ -821,6 +833,31 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2const/KDSKBMETA.2const.gz
 * /usr/share/man/man2const/KDSKBMODE.2const.gz
 * /usr/share/man/man2const/KDSKBSENT.2const.gz
+* /usr/share/man/man2const/KEYCTL_ASSUME_AUTHORITY.2const.gz
+* /usr/share/man/man2const/KEYCTL_CHOWN.2const.gz
+* /usr/share/man/man2const/KEYCTL_CLEAR.2const.gz
+* /usr/share/man/man2const/KEYCTL_DESCRIBE.2const.gz
+* /usr/share/man/man2const/KEYCTL_DH_COMPUTE.2const.gz
+* /usr/share/man/man2const/KEYCTL_GET_KEYRING_ID.2const.gz
+* /usr/share/man/man2const/KEYCTL_GET_PERSISTENT.2const.gz
+* /usr/share/man/man2const/KEYCTL_GET_SECURITY.2const.gz
+* /usr/share/man/man2const/KEYCTL_INSTANTIATE.2const.gz
+* /usr/share/man/man2const/KEYCTL_INSTANTIATE_IOV.2const.gz
+* /usr/share/man/man2const/KEYCTL_INVALIDATE.2const.gz
+* /usr/share/man/man2const/KEYCTL_JOIN_SESSION_KEYRING.2const.gz
+* /usr/share/man/man2const/KEYCTL_LINK.2const.gz
+* /usr/share/man/man2const/KEYCTL_NEGATE.2const.gz
+* /usr/share/man/man2const/KEYCTL_READ.2const.gz
+* /usr/share/man/man2const/KEYCTL_REJECT.2const.gz
+* /usr/share/man/man2const/KEYCTL_RESTRICT_KEYRING.2const.gz
+* /usr/share/man/man2const/KEYCTL_REVOKE.2const.gz
+* /usr/share/man/man2const/KEYCTL_SEARCH.2const.gz
+* /usr/share/man/man2const/KEYCTL_SESSION_TO_PARENT.2const.gz
+* /usr/share/man/man2const/KEYCTL_SETPERM.2const.gz
+* /usr/share/man/man2const/KEYCTL_SET_REQKEY_KEYRING.2const.gz
+* /usr/share/man/man2const/KEYCTL_SET_TIMEOUT.2const.gz
+* /usr/share/man/man2const/KEYCTL_UNLINK.2const.gz
+* /usr/share/man/man2const/KEYCTL_UPDATE.2const.gz
 * /usr/share/man/man2const/KIOCSOUND.2const.gz
 * /usr/share/man/man2const/NS_GET_NSTYPE.2const.gz
 * /usr/share/man/man2const/NS_GET_OWNER_UID.2const.gz
@@ -872,6 +909,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2const/PR_MPX_DISABLE_MANAGEMENT.2const.gz
 * /usr/share/man/man2const/PR_MPX_ENABLE_MANAGEMENT.2const.gz
 * /usr/share/man/man2const/PR_PAC_RESET_KEYS.2const.gz
+* /usr/share/man/man2const/PR_RISCV_SET_ICACHE_FLUSH_CTX.2const.gz
 * /usr/share/man/man2const/PR_SET_CHILD_SUBREAPER.2const.gz
 * /usr/share/man/man2const/PR_SET_DUMPABLE.2const.gz
 * /usr/share/man/man2const/PR_SET_ENDIAN.2const.gz
@@ -1918,8 +1956,8 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/mrand48_r.3.gz
 * /usr/share/man/man3/mtrace.3.gz
 * /usr/share/man/man3/muntrace.3.gz
-* /usr/share/man/man3/nan.3.gz
 * /usr/share/man/man3/NAN.3.gz
+* /usr/share/man/man3/nan.3.gz
 * /usr/share/man/man3/nanf.3.gz
 * /usr/share/man/man3/nanl.3.gz
 * /usr/share/man/man3/nearbyint.3.gz
@@ -2489,6 +2527,8 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/timercmp.3.gz
 * /usr/share/man/man3/timerisset.3.gz
 * /usr/share/man/man3/timersub.3.gz
+* /usr/share/man/man3/timespec_get.3.gz
+* /usr/share/man/man3/timespec_getres.3.gz
 * /usr/share/man/man3/TIMESPEC_TO_TIMEVAL.3.gz
 * /usr/share/man/man3/TIMEVAL_TO_TIMESPEC.3.gz
 * /usr/share/man/man3/timezone.3.gz
@@ -2684,6 +2724,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/__ppc_set_ppr_very_low.3.gz
 * /usr/share/man/man3/__ppc_yield.3.gz
 * /usr/share/man/man3/__realloc_hook.3.gz
+* /usr/share/man/man3/__riscv_flush_icache.3.gz
 * /usr/share/man/man3/__setfpucw.3.gz
 * /usr/share/man/man3const/EOF.3const.gz
 * /usr/share/man/man3const/EXIT_FAILURE.3const.gz

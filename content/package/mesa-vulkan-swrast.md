@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-vulkan-swrast 24.3.3-2"
-version = "24.3.3-2"
+title = "mesa-vulkan-swrast 24.3.4-1"
+version = "24.3.4-1"
 description = "SWRast Support for Vulkan"
-date = "2025-01-14T10:21:43"
+date = "2025-01-23T08:59:09"
 aliases = "/packages/220857"
 categories = ['x11-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "2544264"
-usize = "12193912"
-sha1sum = "3b277f9e4b470bf7ea2f38ae8067d4d134b3702b"
+size = "2544440"
+usize = "12194040"
+sha1sum = "1406e536d0a7804e645232c22b960ab715d3e0f6"
 depends = "['vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 ### Description: 
