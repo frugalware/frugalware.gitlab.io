@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mc 4.8.32-1"
-version = "4.8.32-1"
+title = "mc 4.8.33-1"
+version = "4.8.33-1"
 description = "The GNU Midnight Commander is a CLI-based file manager"
-date = "2024-09-09T09:50:55"
+date = "2025-01-24T14:33:31"
 aliases = "/packages/2415"
 categories = ['base']
 upstreamurl = "https://www.midnight-commander.org/"
 arch = "x86_64"
-size = "1807536"
-usize = "7572382"
-sha1sum = "7b2a191c2e460295b93bf706cdf52ee605db197f"
+size = "1809740"
+usize = "7598298"
+sha1sum = "bdcc02e3ff8d8c3cbbf049f29f084bf4cbc76b3a"
 depends = "['glib2>=2.70', 'libssh2>=1.8.0-4', 'slang>=2.3.1a-5']"
 +++
 ### Description: 
@@ -24,6 +24,7 @@ The GNU Midnight Commander is a CLI-based file manager
 * /etc/mc/mc.ext.ini
 * /etc/mc/mc.keymap
 * /etc/mc/mc.menu
+* /etc/mc/mc.vim.keymap
 * /etc/mc/mcedit.menu
 * /etc/mc/sfs.ini
 * /usr/bin/mc
@@ -61,6 +62,7 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/lib/mc/mc/extfs.d/rpm
 * /usr/lib/mc/mc/extfs.d/rpms+
 * /usr/lib/mc/mc/extfs.d/s3+
+* /usr/lib/mc/mc/extfs.d/torrent
 * /usr/lib/mc/mc/extfs.d/trpm
 * /usr/lib/mc/mc/extfs.d/u7z
 * /usr/lib/mc/mc/extfs.d/uace
@@ -98,12 +100,12 @@ The GNU Midnight Commander is a CLI-based file manager
 * /usr/lib/mc/mc/shell/send
 * /usr/lib/mc/mc/shell/unlink
 * /usr/lib/mc/mc/shell/utime
-* /usr/share/doc/mc-4.8.32/AUTHORS
-* /usr/share/doc/mc-4.8.32/ChangeLog
-* /usr/share/doc/mc-4.8.32/COPYING
-* /usr/share/doc/mc-4.8.32/INSTALL
-* /usr/share/doc/mc-4.8.32/NEWS
-* /usr/share/doc/mc-4.8.32/README
+* /usr/share/doc/mc-4.8.33/AUTHORS
+* /usr/share/doc/mc-4.8.33/ChangeLog
+* /usr/share/doc/mc-4.8.33/COPYING
+* /usr/share/doc/mc-4.8.33/INSTALL
+* /usr/share/doc/mc-4.8.33/NEWS
+* /usr/share/doc/mc-4.8.33/README
 * /usr/share/locale/af/LC_MESSAGES/mc.mo
 * /usr/share/locale/ar/LC_MESSAGES/mc.mo
 * /usr/share/locale/az/LC_MESSAGES/mc.mo
