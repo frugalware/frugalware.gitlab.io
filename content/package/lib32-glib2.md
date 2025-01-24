@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-glib2 2.83.2-3"
-version = "2.83.2-3"
+title = "lib32-glib2 2.83.3-1"
+version = "2.83.3-1"
 description = "Common C routines used by GTK+ and other libraries ( 32bit )"
-date = "2025-01-02T09:58:12"
+date = "2025-01-24T07:11:36"
 aliases = "/packages/217903"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1575756"
-usize = "8142535"
-sha1sum = "9f326a8a393b826d2c9a59898c358733f09c1bc3"
+size = "1577116"
+usize = "8142806"
+sha1sum = "14ec9c7e66b327afd8b97e94472497a45b73b0c4"
 depends = "['glibc', 'lib32-elfutils', 'lib32-libblkid', 'lib32-libdbus', 'lib32-libffi', 'lib32-pcre2', 'lib32-util-linux', 'lib32-zlib-ng']"
 reverse_depends = "['lib32-at-spi2-core', 'lib32-cairo', 'lib32-dbus-glib', 'lib32-gdk-pixbuf2', 'lib32-harfbuzz', 'lib32-libcroco', 'lib32-libgudev', 'lib32-libsystemd', 'lib32-networkmanager', 'lib32-pipewire', 'lib32-polkit', 'lib32-shared-mime-info']"
 +++
@@ -345,22 +345,22 @@ Common C routines used by GTK+ and other libraries ( 32bit )
 * /usr/lib32/glib2/gio-launch-desktop
 * /usr/lib32/libgio-2.0.so
 * /usr/lib32/libgio-2.0.so.0
-* /usr/lib32/libgio-2.0.so.0.8302.0
+* /usr/lib32/libgio-2.0.so.0.8303.0
 * /usr/lib32/libgirepository-2.0.so
 * /usr/lib32/libgirepository-2.0.so.0
-* /usr/lib32/libgirepository-2.0.so.0.8302.0
+* /usr/lib32/libgirepository-2.0.so.0.8303.0
 * /usr/lib32/libglib-2.0.so
 * /usr/lib32/libglib-2.0.so.0
-* /usr/lib32/libglib-2.0.so.0.8302.0
+* /usr/lib32/libglib-2.0.so.0.8303.0
 * /usr/lib32/libgmodule-2.0.so
 * /usr/lib32/libgmodule-2.0.so.0
-* /usr/lib32/libgmodule-2.0.so.0.8302.0
+* /usr/lib32/libgmodule-2.0.so.0.8303.0
 * /usr/lib32/libgobject-2.0.so
 * /usr/lib32/libgobject-2.0.so.0
-* /usr/lib32/libgobject-2.0.so.0.8302.0
+* /usr/lib32/libgobject-2.0.so.0.8303.0
 * /usr/lib32/libgthread-2.0.so
 * /usr/lib32/libgthread-2.0.so.0
-* /usr/lib32/libgthread-2.0.so.0.8302.0
+* /usr/lib32/libgthread-2.0.so.0.8303.0
 * /usr/lib32/pkgconfig/gio-2.0.pc
 * /usr/lib32/pkgconfig/gio-unix-2.0.pc
 * /usr/lib32/pkgconfig/girepository-2.0.pc
@@ -370,5 +370,5 @@ Common C routines used by GTK+ and other libraries ( 32bit )
 * /usr/lib32/pkgconfig/gmodule-no-export-2.0.pc
 * /usr/lib32/pkgconfig/gobject-2.0.pc
 * /usr/lib32/pkgconfig/gthread-2.0.pc
-* /usr/share/gdb/auto-load/usr/lib32/libglib-2.0.so.0.8302.0-gdb.py
-* /usr/share/gdb/auto-load/usr/lib32/libgobject-2.0.so.0.8302.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib32/libglib-2.0.so.0.8303.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib32/libgobject-2.0.so.0.8303.0-gdb.py

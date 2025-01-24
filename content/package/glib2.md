@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib2 2.83.2-3"
-version = "2.83.2-3"
+title = "glib2 2.83.3-1"
+version = "2.83.3-1"
 description = "Common C routines used by GTK+ and other libraries"
-date = "2025-01-02T09:58:12"
+date = "2025-01-24T07:11:36"
 aliases = "/packages/2384"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "12024476"
-usize = "100992190"
-sha1sum = "b29a4bf2ac3cf11f1b542cd27a6304390d785b4e"
+size = "11573636"
+usize = "100001843"
+sha1sum = "f96961a8f61143540da47b395ebd0b01f46a6153"
 depends = "['elfutils>=0.170-2', 'glibc>=2.34', 'libblkid>=2.33.2-2', 'libffi>=3.4', 'pcre2', 'python3', 'util-linux', 'zlib-ng']"
 reverse_depends = "['at-spi2-core', 'avahi-glib', 'bitlbee-common', 'bluez', 'cairo', 'colord', 'dbus-c++', 'dbus-glib', 'dbus-sharp-glib', 'ddcutil', 'desktop-file-utils', 'efl', 'enchant', 'enlightenment', 'gcab', 'gdk-pixbuf2', 'glib-networking', 'glibmm', 'glibmm24', 'glyr', 'gmime2', 'gmime3', 'gnokii-mysql', 'gnokii-pq', 'gobject-introspection', 'graphene', 'gsettings-desktop-schemas', 'gst1-plugins-base-gio', 'gstreamer1', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4-tools', 'gvfs', 'harfbuzz', 'ifuse', 'iio-sensor-proxy', 'irqbalance', 'irssi', 'json-glib', 'keximdb', 'lensfun', 'libaccounts-glib', 'libatspi', 'libcroco', 'libdbusmenu', 'libdex', 'libgee', 'libgee8', 'libgexiv2', 'libgovirt', 'libgudev', 'libguestfs', 'libgusb', 'libhandy', 'libibus', 'libidl', 'liblqr', 'libmbim', 'libmms', 'libosinfo', 'libportal', 'libqalculate', 'libqrtr-glib', 'libseafile', 'libslirp', 'libsoup', 'libsoup3', 'libvterm', 'libwacom', 'libxmlb', 'loudmouth', 'mc', 'mcabber', 'mdbtools', 'meanwhile', 'msmtp', 'nm-libreswan', 'nm-openvpn', 'ofono', 'packagekit-glib', 'pacman-tools', 'pinentry', 'qt5-base', 'redshift', 'rspamd', 'scribus', 'scummvm', 'shared-mime-info', 'sofia-sip', 'sshfs', 'switcheroo-control', 'sylpheed', 'telegram-desktop', 'template-glib', 'terminology', 'threema-desktop', 'tootle', 'vala', 'whalebird', 'wireshark', 'wpebackend-fdo', 'xdg-dbus-proxy', 'xdg-desktop-portal']"
 +++
@@ -355,22 +355,22 @@ Common C routines used by GTK+ and other libraries
 * /usr/lib/glib2/gio-launch-desktop
 * /usr/lib/libgio-2.0.so
 * /usr/lib/libgio-2.0.so.0
-* /usr/lib/libgio-2.0.so.0.8302.0
+* /usr/lib/libgio-2.0.so.0.8303.0
 * /usr/lib/libgirepository-2.0.so
 * /usr/lib/libgirepository-2.0.so.0
-* /usr/lib/libgirepository-2.0.so.0.8302.0
+* /usr/lib/libgirepository-2.0.so.0.8303.0
 * /usr/lib/libglib-2.0.so
 * /usr/lib/libglib-2.0.so.0
-* /usr/lib/libglib-2.0.so.0.8302.0
+* /usr/lib/libglib-2.0.so.0.8303.0
 * /usr/lib/libgmodule-2.0.so
 * /usr/lib/libgmodule-2.0.so.0
-* /usr/lib/libgmodule-2.0.so.0.8302.0
+* /usr/lib/libgmodule-2.0.so.0.8303.0
 * /usr/lib/libgobject-2.0.so
 * /usr/lib/libgobject-2.0.so.0
-* /usr/lib/libgobject-2.0.so.0.8302.0
+* /usr/lib/libgobject-2.0.so.0.8303.0
 * /usr/lib/libgthread-2.0.so
 * /usr/lib/libgthread-2.0.so.0
-* /usr/lib/libgthread-2.0.so.0.8302.0
+* /usr/lib/libgthread-2.0.so.0.8303.0
 * /usr/lib/pkgconfig/gio-2.0.pc
 * /usr/lib/pkgconfig/gio-unix-2.0.pc
 * /usr/lib/pkgconfig/girepository-2.0.pc
@@ -516,14 +516,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/class.TlsDatabase.html
 * /usr/share/doc/gio-2.0/class.TlsInteraction.html
 * /usr/share/doc/gio-2.0/class.TlsPassword.html
-* /usr/share/doc/gio-2.0/class.UnixConnection.html
-* /usr/share/doc/gio-2.0/class.UnixCredentialsMessage.html
-* /usr/share/doc/gio-2.0/class.UnixFDList.html
-* /usr/share/doc/gio-2.0/class.UnixFDMessage.html
-* /usr/share/doc/gio-2.0/class.UnixInputStream.html
-* /usr/share/doc/gio-2.0/class.UnixMountMonitor.html
-* /usr/share/doc/gio-2.0/class.UnixOutputStream.html
-* /usr/share/doc/gio-2.0/class.UnixSocketAddress.html
 * /usr/share/doc/gio-2.0/class.Vfs.html
 * /usr/share/doc/gio-2.0/class.VolumeMonitor.html
 * /usr/share/doc/gio-2.0/class.ZlibCompressor.html
@@ -775,18 +767,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/ctor.TlsCertificate.new_from_pkcs11_uris.html
 * /usr/share/doc/gio-2.0/ctor.TlsCertificate.new_from_pkcs12.html
 * /usr/share/doc/gio-2.0/ctor.TlsPassword.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixCredentialsMessage.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixCredentialsMessage.new_with_credentials.html
-* /usr/share/doc/gio-2.0/ctor.UnixFDList.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixFDList.new_from_array.html
-* /usr/share/doc/gio-2.0/ctor.UnixFDMessage.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixFDMessage.new_with_fd_list.html
-* /usr/share/doc/gio-2.0/ctor.UnixInputStream.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixMountMonitor.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixOutputStream.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixSocketAddress.new.html
-* /usr/share/doc/gio-2.0/ctor.UnixSocketAddress.new_abstract.html
-* /usr/share/doc/gio-2.0/ctor.UnixSocketAddress.new_with_type.html
 * /usr/share/doc/gio-2.0/ctor.ZlibCompressor.new.html
 * /usr/share/doc/gio-2.0/ctor.ZlibDecompressor.new.html
 * /usr/share/doc/gio-2.0/dbus-error.html
@@ -829,7 +809,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/enum.TlsInteractionResult.html
 * /usr/share/doc/gio-2.0/enum.TlsProtocolVersion.html
 * /usr/share/doc/gio-2.0/enum.TlsRehandshakeMode.html
-* /usr/share/doc/gio-2.0/enum.UnixSocketAddressType.html
 * /usr/share/doc/gio-2.0/enum.ZlibCompressorFormat.html
 * /usr/share/doc/gio-2.0/error.DBusError.html
 * /usr/share/doc/gio-2.0/error.html
@@ -1102,35 +1081,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/func.TEST_DBUS.html
 * /usr/share/doc/gio-2.0/func.UNAVAILABLE.html
 * /usr/share/doc/gio-2.0/func.UNAVAILABLE_STATIC_INLINE.html
-* /usr/share/doc/gio-2.0/func.unix_is_mount_path_system_internal.html
-* /usr/share/doc/gio-2.0/func.unix_is_system_device_path.html
-* /usr/share/doc/gio-2.0/func.unix_is_system_fs_type.html
-* /usr/share/doc/gio-2.0/func.unix_mounts_changed_since.html
-* /usr/share/doc/gio-2.0/func.unix_mounts_get.html
-* /usr/share/doc/gio-2.0/func.unix_mounts_get_from_file.html
-* /usr/share/doc/gio-2.0/func.unix_mount_at.html
-* /usr/share/doc/gio-2.0/func.unix_mount_compare.html
-* /usr/share/doc/gio-2.0/func.unix_mount_copy.html
-* /usr/share/doc/gio-2.0/func.unix_mount_entries_changed_since.html
-* /usr/share/doc/gio-2.0/func.unix_mount_entries_get.html
-* /usr/share/doc/gio-2.0/func.unix_mount_entries_get_from_file.html
-* /usr/share/doc/gio-2.0/func.unix_mount_for.html
-* /usr/share/doc/gio-2.0/func.unix_mount_free.html
-* /usr/share/doc/gio-2.0/func.unix_mount_get_device_path.html
-* /usr/share/doc/gio-2.0/func.unix_mount_get_fs_type.html
-* /usr/share/doc/gio-2.0/func.unix_mount_get_mount_path.html
-* /usr/share/doc/gio-2.0/func.unix_mount_get_options.html
-* /usr/share/doc/gio-2.0/func.unix_mount_get_root_path.html
-* /usr/share/doc/gio-2.0/func.unix_mount_guess_can_eject.html
-* /usr/share/doc/gio-2.0/func.unix_mount_guess_icon.html
-* /usr/share/doc/gio-2.0/func.unix_mount_guess_name.html
-* /usr/share/doc/gio-2.0/func.unix_mount_guess_should_display.html
-* /usr/share/doc/gio-2.0/func.unix_mount_guess_symbolic_icon.html
-* /usr/share/doc/gio-2.0/func.unix_mount_is_readonly.html
-* /usr/share/doc/gio-2.0/func.unix_mount_is_system_internal.html
-* /usr/share/doc/gio-2.0/func.unix_mount_points_changed_since.html
-* /usr/share/doc/gio-2.0/func.unix_mount_points_get.html
-* /usr/share/doc/gio-2.0/func.unix_mount_points_get_from_file.html
 * /usr/share/doc/gio-2.0/fzy.js
 * /usr/share/doc/gio-2.0/gapplication.html
 * /usr/share/doc/gio-2.0/gdbus-codegen.html
@@ -2630,63 +2580,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/method.TlsPassword.set_value.html
 * /usr/share/doc/gio-2.0/method.TlsPassword.set_value_full.html
 * /usr/share/doc/gio-2.0/method.TlsPassword.set_warning.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.receive_credentials.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.receive_credentials_async.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.receive_credentials_finish.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.receive_fd.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.send_credentials.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.send_credentials_async.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.send_credentials_finish.html
-* /usr/share/doc/gio-2.0/method.UnixConnection.send_fd.html
-* /usr/share/doc/gio-2.0/method.UnixCredentialsMessage.get_credentials.html
-* /usr/share/doc/gio-2.0/method.UnixFDList.append.html
-* /usr/share/doc/gio-2.0/method.UnixFDList.get.html
-* /usr/share/doc/gio-2.0/method.UnixFDList.get_length.html
-* /usr/share/doc/gio-2.0/method.UnixFDList.peek_fds.html
-* /usr/share/doc/gio-2.0/method.UnixFDList.steal_fds.html
-* /usr/share/doc/gio-2.0/method.UnixFDMessage.append_fd.html
-* /usr/share/doc/gio-2.0/method.UnixFDMessage.get_fd_list.html
-* /usr/share/doc/gio-2.0/method.UnixFDMessage.steal_fds.html
-* /usr/share/doc/gio-2.0/method.UnixInputStream.get_close_fd.html
-* /usr/share/doc/gio-2.0/method.UnixInputStream.get_fd.html
-* /usr/share/doc/gio-2.0/method.UnixInputStream.set_close_fd.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.compare.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.copy.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.free.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.get_device_path.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.get_fs_type.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.get_mount_path.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.get_options.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.get_root_path.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.guess_can_eject.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.guess_icon.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.guess_name.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.guess_should_display.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.guess_symbolic_icon.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.is_readonly.html
-* /usr/share/doc/gio-2.0/method.UnixMountEntry.is_system_internal.html
-* /usr/share/doc/gio-2.0/method.UnixMountMonitor.set_rate_limit.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.compare.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.copy.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.free.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.get_device_path.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.get_fs_type.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.get_mount_path.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.get_options.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.guess_can_eject.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.guess_icon.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.guess_name.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.guess_symbolic_icon.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.is_loopback.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.is_readonly.html
-* /usr/share/doc/gio-2.0/method.UnixMountPoint.is_user_mountable.html
-* /usr/share/doc/gio-2.0/method.UnixOutputStream.get_close_fd.html
-* /usr/share/doc/gio-2.0/method.UnixOutputStream.get_fd.html
-* /usr/share/doc/gio-2.0/method.UnixOutputStream.set_close_fd.html
-* /usr/share/doc/gio-2.0/method.UnixSocketAddress.get_address_type.html
-* /usr/share/doc/gio-2.0/method.UnixSocketAddress.get_is_abstract.html
-* /usr/share/doc/gio-2.0/method.UnixSocketAddress.get_path.html
-* /usr/share/doc/gio-2.0/method.UnixSocketAddress.get_path_len.html
 * /usr/share/doc/gio-2.0/method.Vfs.get_file_for_path.html
 * /usr/share/doc/gio-2.0/method.Vfs.get_file_for_uri.html
 * /usr/share/doc/gio-2.0/method.Vfs.get_supported_uri_schemes.html
@@ -2991,16 +2884,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/property.TlsPassword.flags.html
 * /usr/share/doc/gio-2.0/property.TlsPassword.warning.html
 * /usr/share/doc/gio-2.0/property.TlsServerConnection.authentication-mode.html
-* /usr/share/doc/gio-2.0/property.UnixCredentialsMessage.credentials.html
-* /usr/share/doc/gio-2.0/property.UnixFDMessage.fd-list.html
-* /usr/share/doc/gio-2.0/property.UnixInputStream.close-fd.html
-* /usr/share/doc/gio-2.0/property.UnixInputStream.fd.html
-* /usr/share/doc/gio-2.0/property.UnixOutputStream.close-fd.html
-* /usr/share/doc/gio-2.0/property.UnixOutputStream.fd.html
-* /usr/share/doc/gio-2.0/property.UnixSocketAddress.abstract.html
-* /usr/share/doc/gio-2.0/property.UnixSocketAddress.address-type.html
-* /usr/share/doc/gio-2.0/property.UnixSocketAddress.path-as-array.html
-* /usr/share/doc/gio-2.0/property.UnixSocketAddress.path.html
 * /usr/share/doc/gio-2.0/property.ZlibCompressor.file-info.html
 * /usr/share/doc/gio-2.0/property.ZlibCompressor.format.html
 * /usr/share/doc/gio-2.0/property.ZlibCompressor.level.html
@@ -3100,8 +2983,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/signal.SocketService.incoming.html
 * /usr/share/doc/gio-2.0/signal.ThreadedSocketService.run.html
 * /usr/share/doc/gio-2.0/signal.TlsConnection.accept-certificate.html
-* /usr/share/doc/gio-2.0/signal.UnixMountMonitor.mountpoints-changed.html
-* /usr/share/doc/gio-2.0/signal.UnixMountMonitor.mounts-changed.html
 * /usr/share/doc/gio-2.0/signal.Volume.changed.html
 * /usr/share/doc/gio-2.0/signal.Volume.removed.html
 * /usr/share/doc/gio-2.0/signal.VolumeMonitor.drive-changed.html
@@ -3150,8 +3031,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/struct.SettingsSchemaSource.html
 * /usr/share/doc/gio-2.0/struct.SrvTarget.html
 * /usr/share/doc/gio-2.0/struct.StaticResource.html
-* /usr/share/doc/gio-2.0/struct.UnixMountEntry.html
-* /usr/share/doc/gio-2.0/struct.UnixMountPoint.html
 * /usr/share/doc/gio-2.0/style.css
 * /usr/share/doc/gio-2.0/tls-overview.html
 * /usr/share/doc/gio-2.0/type_func.Action.name_is_valid.html
@@ -3265,12 +3144,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gio-2.0/type_func.TlsError.quark.html
 * /usr/share/doc/gio-2.0/type_func.TlsFileDatabase.new.html
 * /usr/share/doc/gio-2.0/type_func.TlsServerConnection.new.html
-* /usr/share/doc/gio-2.0/type_func.UnixCredentialsMessage.is_supported.html
-* /usr/share/doc/gio-2.0/type_func.UnixMountEntry.at.html
-* /usr/share/doc/gio-2.0/type_func.UnixMountEntry.for.html
-* /usr/share/doc/gio-2.0/type_func.UnixMountMonitor.get.html
-* /usr/share/doc/gio-2.0/type_func.UnixMountPoint.at.html
-* /usr/share/doc/gio-2.0/type_func.UnixSocketAddress.abstract_names_supported.html
 * /usr/share/doc/gio-2.0/type_func.Vfs.get_default.html
 * /usr/share/doc/gio-2.0/type_func.Vfs.get_local.html
 * /usr/share/doc/gio-2.0/type_func.VolumeMonitor.adopt_orphan_mount.html
@@ -4476,7 +4349,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/callback.TranslateFunc.html
 * /usr/share/doc/glib-2.0/callback.TraverseFunc.html
 * /usr/share/doc/glib-2.0/callback.TraverseNodeFunc.html
-* /usr/share/doc/glib-2.0/callback.UnixFDSourceFunc.html
 * /usr/share/doc/glib-2.0/callback.VoidFunc.html
 * /usr/share/doc/glib-2.0/character-set.html
 * /usr/share/doc/glib-2.0/checked-math.html
@@ -4743,7 +4615,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/enum.UnicodeBreakType.html
 * /usr/share/doc/glib-2.0/enum.UnicodeScript.html
 * /usr/share/doc/glib-2.0/enum.UnicodeType.html
-* /usr/share/doc/glib-2.0/enum.UnixPipeEnd.html
 * /usr/share/doc/glib-2.0/enum.UserDirectory.html
 * /usr/share/doc/glib-2.0/enum.VariantClass.html
 * /usr/share/doc/glib-2.0/error-reporting.html
@@ -5505,16 +5376,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/func.unichar_xdigit_value.html
 * /usr/share/doc/glib-2.0/func.unicode_canonical_decomposition.html
 * /usr/share/doc/glib-2.0/func.unicode_canonical_ordering.html
-* /usr/share/doc/glib-2.0/func.unix_error_quark.html
-* /usr/share/doc/glib-2.0/func.unix_fd_add.html
-* /usr/share/doc/glib-2.0/func.unix_fd_add_full.html
-* /usr/share/doc/glib-2.0/func.unix_fd_source_new.html
-* /usr/share/doc/glib-2.0/func.unix_get_passwd_entry.html
-* /usr/share/doc/glib-2.0/func.unix_open_pipe.html
-* /usr/share/doc/glib-2.0/func.unix_set_fd_nonblocking.html
-* /usr/share/doc/glib-2.0/func.unix_signal_add.html
-* /usr/share/doc/glib-2.0/func.unix_signal_add_full.html
-* /usr/share/doc/glib-2.0/func.unix_signal_source_new.html
 * /usr/share/doc/glib-2.0/func.UNLIKELY.html
 * /usr/share/doc/glib-2.0/func.unlink.html
 * /usr/share/doc/glib-2.0/func.UNLOCK.html
@@ -6597,7 +6458,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/struct.Tree.html
 * /usr/share/doc/glib-2.0/struct.TreeNode.html
 * /usr/share/doc/glib-2.0/struct.Tuples.html
-* /usr/share/doc/glib-2.0/struct.UnixPipe.html
 * /usr/share/doc/glib-2.0/struct.Uri.html
 * /usr/share/doc/glib-2.0/struct.UriParamsIter.html
 * /usr/share/doc/glib-2.0/struct.Variant.html
@@ -6997,10 +6857,10 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-unix-2.0/type_func.Pipe.steal.html
 * /usr/share/doc/glib-unix-2.0/unix.html
 * /usr/share/doc/glib-unix-2.0/urlmap.js
-* /usr/share/doc/glib2-2.83.2/COPYING
-* /usr/share/doc/glib2-2.83.2/INSTALL.md
-* /usr/share/doc/glib2-2.83.2/NEWS
-* /usr/share/doc/glib2-2.83.2/README.md
+* /usr/share/doc/glib2-2.83.3/COPYING
+* /usr/share/doc/glib2-2.83.3/INSTALL.md
+* /usr/share/doc/glib2-2.83.3/NEWS
+* /usr/share/doc/glib2-2.83.3/README.md
 * /usr/share/doc/gmodule-2.0/callback.ModuleCheckInit.html
 * /usr/share/doc/gmodule-2.0/callback.ModuleUnload.html
 * /usr/share/doc/gmodule-2.0/classes_hierarchy.html
@@ -8046,8 +7906,8 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/vfunc.ParamSpec.value_validate.html
 * /usr/share/doc/gobject-2.0/vfunc.TypeModule.load.html
 * /usr/share/doc/gobject-2.0/vfunc.TypeModule.unload.html
-* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8302.0-gdb.py
-* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8302.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8303.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8303.0-gdb.py
 * /usr/share/gettext/its/gschema.its
 * /usr/share/gettext/its/gschema.loc
 * /usr/share/gir-1.0/Gio-2.0.gir
