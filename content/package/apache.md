@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "apache 2.4.62-1"
-version = "2.4.62-1"
+title = "apache 2.4.63-1"
+version = "2.4.63-1"
 description = "A high performance Unix-based HTTP server (with SSL)"
-date = "2024-07-18T08:19:30"
+date = "2025-01-24T09:00:55"
 aliases = "/packages/2915"
 categories = ['network']
 upstreamurl = "http://httpd.apache.org/"
 arch = "x86_64"
-size = "5708456"
-usize = "29752903"
-sha1sum = "06538ae4adb1c8fab1b2d37a02f900a4cf3eebce"
+size = "5693820"
+usize = "29717552"
+sha1sum = "41ee8324ff03d4c9409b1587c8b937a87d336c26"
 depends = "['apr-util>=1.6.0-2', 'curl', 'expat', 'gdbm>=1.10', 'jansson', 'libxml2', 'lua53', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 reverse_depends = "['mod_evasive', 'mod_security', 'mod_svn', 'mod_wsgi', 'phpbb-php5mod', 'postfixadmin']"
 +++
@@ -261,16 +261,14 @@ A high performance Unix-based HTTP server (with SSL)
 * /usr/lib/apache/mod_watchdog.so
 * /usr/lib/apache/mod_xml2enc.so
 * /usr/lib/systemd/system/httpd.service
-* /usr/share/doc/apache-2.4.62/AUTHORS
-* /usr/share/doc/apache-2.4.62/CHANGES
-* /usr/share/doc/apache-2.4.62/INSTALL
-* /usr/share/doc/apache-2.4.62/LICENSE
-* /usr/share/doc/apache-2.4.62/README
-* /usr/share/doc/apache-2.4.62/README.CHANGES
-* /usr/share/doc/apache-2.4.62/README.cmake
-* /usr/share/doc/apache-2.4.62/README.Frugalware
-* /usr/share/doc/apache-2.4.62/README.platforms
-* /usr/share/doc/apache-2.4.62/README.txt
+* /usr/share/doc/apache-2.4.63/CHANGES
+* /usr/share/doc/apache-2.4.63/INSTALL
+* /usr/share/doc/apache-2.4.63/LICENSE
+* /usr/share/doc/apache-2.4.63/README
+* /usr/share/doc/apache-2.4.63/README.CHANGES
+* /usr/share/doc/apache-2.4.63/README.cmake
+* /usr/share/doc/apache-2.4.63/README.Frugalware
+* /usr/share/doc/apache-2.4.63/README.platforms
 * /usr/share/man/man1/ab.1.gz
 * /usr/share/man/man1/apxs.1.gz
 * /usr/share/man/man1/dbmmanage.1.gz
@@ -1319,8 +1317,6 @@ A high performance Unix-based HTTP server (with SSL)
 * /var/www/manual/mod/mod_systemd.html
 * /var/www/manual/mod/mod_systemd.html.en
 * /var/www/manual/mod/mod_systemd.html.fr.utf8
-* /var/www/manual/mod/mod_tls.html
-* /var/www/manual/mod/mod_tls.html.en
 * /var/www/manual/mod/mod_unique_id.html
 * /var/www/manual/mod/mod_unique_id.html.en
 * /var/www/manual/mod/mod_unique_id.html.fr.utf8
