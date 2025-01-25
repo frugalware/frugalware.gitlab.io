@@ -12,7 +12,7 @@ size = "410124"
 usize = "593367"
 sha1sum = "7196fb2973a8140d9055e8cfb77747c8d93726a8"
 depends = "['glibc']"
-reverse_depends = "['libsoup3', 'qemu', 'sysprof', 'webkit-gtk3']"
+reverse_depends = "['libsoup3', 'pango', 'qemu', 'sysprof', 'webkit-gtk3']"
 +++
 ### Description: 
 sysprof capture library

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pango 1.56.1-1"
-version = "1.56.1-1"
+title = "lib32-pango 1.56.1-2"
+version = "1.56.1-2"
 description = "A library for layout and rendering of text ( 32bit )"
-date = "2025-01-20T19:38:19"
+date = "2025-01-25T20:35:17"
 aliases = "/packages/220204"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "300500"
-usize = "1077450"
-sha1sum = "7aab630b173d680468eaa9a15a6a4527baa344de"
+size = "300516"
+usize = "1077658"
+sha1sum = "89aaa818eae507e5c95ed08c8ce911f2947e47cf"
 depends = "['lib32-cairo>=1.17.2-2', 'lib32-fribidi>=1.0.5', 'lib32-harfbuzz>=2.5.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.25', 'lib32-libxft>=2.3.2-2', 'lib32-util-linux']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++

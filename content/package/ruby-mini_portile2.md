@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "64916"
 usize = "145114"
 sha1sum = "835f75d935e62de6667e670c3b6d714ae8eb2f44"
-depends = "['ruby>=3.4.0', 'ruby>=3.4.1']"
+depends = "['ruby>=3.4.1', 'ruby>=3.4.0']"
 reverse_depends = "['ruby-nokogiri']"
 +++
 ### Description: 

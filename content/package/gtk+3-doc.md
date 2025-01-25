@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtk+3-doc 3.24.43-2"
-version = "3.24.43-2"
+title = "gtk+3-doc 3.24.48-1"
+version = "3.24.48-1"
 description = "gtk+3 documention"
-date = "2024-07-28T21:22:58"
+date = "2025-01-25T20:38:51"
 aliases = "/packages/217859"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "3261820"
-usize = "23726638"
-sha1sum = "e98b6a1a292a0d63a5eb51b4279f4da7568e447c"
-depends = "['gtk+3>=3.24.43']"
+size = "3296104"
+usize = "23821393"
+sha1sum = "a79562acdea3a8deebbd4b5ec1b41116753f272d"
+depends = "['gtk+3>=3.24.48']"
 +++
 ### Description: 
 gtk+3 documention
@@ -19,6 +19,7 @@ gtk+3 documention
 ### Files: 
 * /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailMisc.html
 * /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3-GailTextUtil.html
+* /usr/share/gtk-doc/html/gail-libgail-util3/gail-libgail-util3.devhelp2
 * /usr/share/gtk-doc/html/gail-libgail-util3/home.png
 * /usr/share/gtk-doc/html/gail-libgail-util3/index.html
 * /usr/share/gtk-doc/html/gail-libgail-util3/left-insensitive.png
@@ -32,20 +33,6 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gdk3/alias_cursor.png
 * /usr/share/gtk-doc/html/gdk3/all_scroll_cursor.png
 * /usr/share/gtk-doc/html/gdk3/annotation-glossary.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-0.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-10.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-12.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-14.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-16.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-18.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-2.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-20.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-22.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-24.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-4.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-6.html
-* /usr/share/gtk-doc/html/gdk3/api-index-3-8.html
-* /usr/share/gtk-doc/html/gdk3/api-index-deprecated.html
 * /usr/share/gtk-doc/html/gdk3/api-index-full.html
 * /usr/share/gtk-doc/html/gdk3/arrow.png
 * /usr/share/gtk-doc/html/gdk3/based_arrow_down.png
@@ -103,6 +90,7 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gdk3/gdk3-Wayland-Interaction.html
 * /usr/share/gtk-doc/html/gdk3/gdk3-Windows.html
 * /usr/share/gtk-doc/html/gdk3/gdk3-X-Window-System-Interaction.html
+* /usr/share/gtk-doc/html/gdk3/gdk3.devhelp2
 * /usr/share/gtk-doc/html/gdk3/GdkDevice.html
 * /usr/share/gtk-doc/html/gdk3/GdkDeviceManager.html
 * /usr/share/gtk-doc/html/gdk3/GdkDevicePad.html
@@ -207,20 +195,6 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gtk3/accel-label.png
 * /usr/share/gtk-doc/html/gtk3/action-bar.png
 * /usr/share/gtk-doc/html/gtk3/annotation-glossary.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-0.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-10.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-12.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-14.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-16.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-18.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-2.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-20.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-22.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-24.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-4.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-6.html
-* /usr/share/gtk-doc/html/gtk3/api-index-3-8.html
-* /usr/share/gtk-doc/html/gtk3/api-index-deprecated.html
 * /usr/share/gtk-doc/html/gtk3/api-index-full.html
 * /usr/share/gtk-doc/html/gtk3/appchooserbutton.png
 * /usr/share/gtk-doc/html/gtk3/appchooserdialog.png
@@ -378,6 +352,7 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gtk3/gtk3-Testing.html
 * /usr/share/gtk-doc/html/gtk3/gtk3-Themeable-Stock-Images.html
 * /usr/share/gtk-doc/html/gtk3/gtk3-widget-factory.html
+* /usr/share/gtk-doc/html/gtk3/gtk3.devhelp2
 * /usr/share/gtk-doc/html/gtk3/GtkAboutDialog.html
 * /usr/share/gtk-doc/html/gtk3/GtkAccelLabel.html
 * /usr/share/gtk-doc/html/gtk3/GtkAccessible.html
