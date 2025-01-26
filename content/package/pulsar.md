@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulsar 1.124.0-1"
-version = "1.124.0-1"
+title = "pulsar 1.125.0-1"
+version = "1.125.0-1"
 description = "A community-led hyper-hackable text editor, built on electron"
-date = "2024-12-16T21:35:28"
+date = "2025-01-26T11:35:39"
 aliases = "/packages/220902"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/pulsar-edit/pulsar"
 arch = "x86_64"
-size = "160510476"
-usize = "768162269"
-sha1sum = "fd3465436e3a4d4b1ec7bb1444c4a5e8a71e4d1c"
+size = "160538480"
+usize = "768184984"
+sha1sum = "d460fde66fb18cf24fc6cbd1348b1809f65ad401"
 depends = "['libsecret', 'libxkbfile', 'ripgrep']"
 +++
 ### Description: 
