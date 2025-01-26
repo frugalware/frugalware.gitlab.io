@@ -12,7 +12,7 @@ size = "166476"
 usize = "1032692"
 sha1sum = "668ec8af1226ac0d189824e8b4b6d40635dbf5b6"
 depends = "['python3-importlib-metadata']"
-reverse_depends = "['gi-docgen', 'meshroom']"
+reverse_depends = "['gi-docgen']"
 +++
 ### Description: 
 Python implementation of Markdown.

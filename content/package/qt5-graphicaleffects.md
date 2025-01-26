@@ -12,7 +12,7 @@ size = "73108"
 usize = "581966"
 sha1sum = "5b79037d09423aa4be458301a7ea78f45443a499"
 depends = "['qt5-declarative>=5.15.16']"
-reverse_depends = "['kirigami25', 'meshroom']"
+reverse_depends = "['kirigami25']"
 +++
 ### Description: 
 The Qt5 toolkit, qtgraphicaleffects

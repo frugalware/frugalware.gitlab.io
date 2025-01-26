@@ -12,7 +12,6 @@ size = "990656"
 usize = "4428731"
 sha1sum = "2e6986905dcd18622f152e27c646cdc99dafaeb6"
 depends = "['eigen>=3.4.0', 'google-glog>=0.7.0', 'libgomp', 'suitesparse>=7.3.1']"
-reverse_depends = "['alicevision']"
 +++
 ### Description: 
 Solver for nonlinear least squares problems

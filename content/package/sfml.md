@@ -12,7 +12,6 @@ size = "562880"
 usize = "2406730"
 sha1sum = "0105790248632397ff63c2ec7db5298f9edf291a"
 depends = "['flac>=1.4.0', 'freetype2', 'glew>=1.10.0', 'libjpeg-turbo', 'libsndfile', 'libudev', 'libxcursor', 'libxrandr', 'openal', 'xcb-util-image']"
-reverse_depends = "['extreme-tuxracer']"
 +++
 ### Description: 
 SFML is a free multimedia C++ API.

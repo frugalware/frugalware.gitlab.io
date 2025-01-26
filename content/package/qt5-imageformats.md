@@ -12,7 +12,7 @@ size = "54116"
 usize = "192210"
 sha1sum = "f64e1edb44f4e3bfaeccead3a1da29205cc9af50"
 depends = "['jasper>=2.0.10', 'libmng>=2.0.3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'qt5-base>=5.15.16']"
-reverse_depends = "['meshroom', 'otter-browser']"
+reverse_depends = "['otter-browser']"
 +++
 ### Description: 
 The Qt5 toolkit, qtimageformats

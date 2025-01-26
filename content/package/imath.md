@@ -12,7 +12,7 @@ size = "117424"
 usize = "876661"
 sha1sum = "b468dfc88a05f72a90eb6f1c103f32558b61cce0"
 depends = "[]"
-reverse_depends = "['alembic', 'alicevision', 'opencolorio', 'openexr']"
+reverse_depends = "['alembic', 'opencolorio', 'openexr']"
 +++
 ### Description: 
 Imath is a C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics

@@ -12,7 +12,7 @@ size = "564712"
 usize = "1928348"
 sha1sum = "4129cbb843248c4b0198efabb752ac23f3cab770"
 depends = "['bzip2', 'coin-or-data-sample', 'glpk', 'lapack']"
-reverse_depends = "['alicevision', 'coin-or-cbc', 'coin-or-cgl', 'coin-or-clp', 'coin-or-osi']"
+reverse_depends = "['coin-or-cbc', 'coin-or-cgl', 'coin-or-clp', 'coin-or-osi']"
 +++
 ### Description: 
 COIN-OR collection of utility classes

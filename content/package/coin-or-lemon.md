@@ -12,7 +12,6 @@ size = "1487552"
 usize = "5070984"
 sha1sum = "4d738d38b31afb110bc13887c885a05dda0fa0f3"
 depends = "['coin-or-cbc', 'coin-or-clp']"
-reverse_depends = "['alicevision']"
 +++
 ### Description: 
 A C++ template library providing many common graph algorithms

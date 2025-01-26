@@ -12,7 +12,7 @@ size = "765400"
 usize = "3302327"
 sha1sum = "326211ecd8e3be5317152dc68c854762a2a38241"
 depends = "['hdf5', 'imath>=3.1.9', 'libboost']"
-reverse_depends = "['alicevision', 'blender', 'qmlalembic', 'vtk']"
+reverse_depends = "['blender', 'vtk']"
 +++
 ### Description: 
 A open framework for storing and sharing scene data

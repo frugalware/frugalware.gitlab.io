@@ -12,7 +12,6 @@ size = "30371636"
 usize = "47216774"
 sha1sum = "a2658cf7df42cd436c79cfe076bda50a10a35cd0"
 depends = "['eigen', 'libboost>=1.83']"
-reverse_depends = "['alicevision']"
 +++
 ### Description: 
 An efficient C++ library for calibrated camera pose computation using geometric computer vision algorithms.

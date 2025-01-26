@@ -12,7 +12,6 @@ size = "2024348"
 usize = "12206670"
 sha1sum = "53e6ae0595133757bc559217f6f7e2bd6cf95839"
 depends = "['assimp', 'qt5-declarative>=5.15.16']"
-reverse_depends = "['meshroom', 'qmlalembic', 'qtoiio']"
 +++
 ### Description: 
 The Qt5 toolkit, qt3d

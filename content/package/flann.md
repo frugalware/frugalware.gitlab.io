@@ -12,7 +12,6 @@ size = "818808"
 usize = "5303810"
 sha1sum = "0f40d96058f4edc5c7a62d0d51d9b86acbf3ec2d"
 depends = "['hdf5', 'libgomp', 'octave']"
-reverse_depends = "['alicevision']"
 +++
 ### Description: 
 Library for performing fast approximate nearest neighbor searches in high dimensional spaces

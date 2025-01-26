@@ -12,7 +12,7 @@ size = "2424876"
 usize = "9791536"
 sha1sum = "6d249f50239b39b936908d06dcf15d3aaace201a"
 depends = "['icu4c>=76.1', 'qt5-declarative>=5.15.16']"
-reverse_depends = "['meshroom', 'qt5-tools', 'qt5-webengine']"
+reverse_depends = "['qt5-tools', 'qt5-webengine']"
 +++
 ### Description: 
 The Qt5 toolkit, qtlocation

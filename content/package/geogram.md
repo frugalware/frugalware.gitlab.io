@@ -12,7 +12,6 @@ size = "4524172"
 usize = "18513837"
 sha1sum = "5880e05ea2e53a0336f5002f7046bb78000c6859"
 depends = "['glfw', 'libglu', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libxxf86vm', 'zlib-ng']"
-reverse_depends = "['alicevision']"
 +++
 ### Description: 
 Library of geometric algorithms. It includes a simple yet efficient Mesh data structure.

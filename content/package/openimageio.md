@@ -12,7 +12,7 @@ size = "4127928"
 usize = "17542209"
 sha1sum = "1fbec7140f32f12e1c2a19a33bc3f681b6f7725d"
 depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.87.0', 'libheif', 'libraw>=0.21.1', 'libwebp', 'openblas', 'opencolorio', 'opencv>=4.11.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb>=12.0.0', 'pybind11']"
-reverse_depends = "['alicevision', 'blender', 'embree', 'openshadinglanguage', 'qtoiio']"
+reverse_depends = "['blender', 'embree', 'openshadinglanguage']"
 +++
 ### Description: 
 A library for reading and writing images, including classes, utilities, and applications.
