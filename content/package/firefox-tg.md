@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-tg 134.0.1-1"
-version = "134.0.1-1"
+title = "firefox-tg 134.0.2-1"
+version = "134.0.2-1"
 description = "Tajik language support for Firefox"
-date = "2025-01-15T12:17:43"
+date = "2025-01-27T09:54:12"
 aliases = "/packages/220999"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "693704"
-usize = "746369"
-sha1sum = "ee468b2e1552aa8b26f818f2562563d829561412"
-depends = "['firefox>=134.0.1']"
+size = "694356"
+usize = "746372"
+sha1sum = "d45a8ed5924d4621dfb739fb3f3a406127856ba1"
+depends = "['firefox>=134.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

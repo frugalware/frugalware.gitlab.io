@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-gu-in 134.0.1-1"
-version = "134.0.1-1"
+title = "firefox-gu-in 134.0.2-1"
+version = "134.0.2-1"
 description = "Gujarati language support for Firefox"
-date = "2025-01-15T12:17:43"
+date = "2025-01-27T09:54:12"
 aliases = "/packages/73629"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "465904"
-usize = "531505"
-sha1sum = "20bc50218ffe37176613f2b04bc306feef9e798f"
-depends = "['firefox>=134.0.1']"
+size = "465844"
+usize = "531506"
+sha1sum = "23cbfa1266ef0f2e45fc45b57114a523987a9249"
+depends = "['firefox>=134.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

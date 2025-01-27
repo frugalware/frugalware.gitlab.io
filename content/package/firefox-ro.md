@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ro 134.0.1-1"
-version = "134.0.1-1"
+title = "firefox-ro 134.0.2-1"
+version = "134.0.2-1"
 description = "Romanian language support for Firefox"
-date = "2025-01-15T12:17:43"
+date = "2025-01-27T09:54:12"
 aliases = "/packages/3590"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "494348"
-usize = "554201"
-sha1sum = "958c39b1192745d0cbedec2a08babf7765843744"
-depends = "['firefox>=134.0.1']"
+size = "494564"
+usize = "554203"
+sha1sum = "9f22cb4a20665263f3f3384cd653448f9f37b687"
+depends = "['firefox>=134.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

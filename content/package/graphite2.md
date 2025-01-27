@@ -12,7 +12,7 @@ size = "86964"
 usize = "240768"
 sha1sum = "17225c879b91a9568a304e869881be83d8f629f2"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['efl', 'enlightenment', 'harfbuzz', 'libreoffice', 'terminology', 'texlive']"
+reverse_depends = "['efl', 'enlightenment', 'firefox', 'harfbuzz', 'libreoffice', 'terminology', 'texlive']"
 +++
 ### Description: 
 Font rendering capabilities for complex non-Roman writing systems
