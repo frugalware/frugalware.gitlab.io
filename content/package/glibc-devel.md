@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibc-devel 2.40-2"
-version = "2.40-2"
+title = "glibc-devel 2.41-1"
+version = "2.41-1"
 description = "Development files for glibc."
-date = "2025-01-02T09:30:35"
+date = "2025-01-30T14:40:32"
 aliases = "/packages/219907"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/libc/libc.html"
 arch = "x86_64"
-size = "3209080"
-usize = "20603122"
-sha1sum = "e1176884c45827641c69adb3bc90c66e65abe791"
+size = "3259528"
+usize = "20858964"
+sha1sum = "faf17ec413d21b883f5fdf597b2e7f29b22bac90"
 depends = "[]"
 +++
 ### Description: 
@@ -84,6 +84,7 @@ Development files for glibc.
 * /usr/include/bits/long-double.h
 * /usr/include/bits/math-vector.h
 * /usr/include/bits/mathcalls-helper-functions.h
+* /usr/include/bits/mathcalls-macros.h
 * /usr/include/bits/mathcalls-narrow.h
 * /usr/include/bits/mathcalls.h
 * /usr/include/bits/mathdef.h
@@ -511,7 +512,7 @@ Development files for glibc.
 * /usr/lib/libc_nonshared.a
 * /usr/lib/libdl.a
 * /usr/lib/libg.a
-* /usr/lib/libm-2.40.a
+* /usr/lib/libm-2.41.a
 * /usr/lib/libm.a
 * /usr/lib/libm.so
 * /usr/lib/libmcheck.a
