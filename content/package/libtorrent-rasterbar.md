@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtorrent-rasterbar 2.0.10-7"
-version = "2.0.10-7"
+title = "libtorrent-rasterbar 2.0.11-1"
+version = "2.0.11-1"
 description = "LibTorrent Rasterbar is a BitTorrent library written in C++"
-date = "2025-01-06T13:32:42"
+date = "2025-01-30T09:34:18"
 aliases = "/packages/39605"
 categories = ['lib-extra']
 upstreamurl = "http://www.libtorrent.org"
 arch = "x86_64"
-size = "1861864"
-usize = "6932212"
-sha1sum = "bc37011d4ddf8307d811b46b8ffc74f6e252e84a"
+size = "1864996"
+usize = "6936964"
+sha1sum = "098c927eaca2a4465abafc9162269e3fc3fff4fd"
 depends = "['geoip>=1.4.8-2', 'openssl>=3.1.0']"
 reverse_depends = "['libtorrent-rasterbar-python', 'qbittorrent']"
 +++
@@ -25,7 +25,6 @@ LibTorrent Rasterbar is a BitTorrent library written in C++
 * /usr/include/libtorrent/announce_entry.hpp
 * /usr/include/libtorrent/assert.hpp
 * /usr/include/libtorrent/aux_/alert_manager.hpp
-* /usr/include/libtorrent/aux_/aligned_storage.hpp
 * /usr/include/libtorrent/aux_/aligned_union.hpp
 * /usr/include/libtorrent/aux_/alloca.hpp
 * /usr/include/libtorrent/aux_/allocating_handler.hpp
@@ -298,12 +297,12 @@ LibTorrent Rasterbar is a BitTorrent library written in C++
 * /usr/lib/cmake/LibtorrentRasterbar/LibtorrentRasterbarTargets.cmake
 * /usr/lib/libtorrent-rasterbar.so
 * /usr/lib/libtorrent-rasterbar.so.2.0
-* /usr/lib/libtorrent-rasterbar.so.2.0.10
+* /usr/lib/libtorrent-rasterbar.so.2.0.11
 * /usr/lib/pkgconfig/libtorrent-rasterbar.pc
 * /usr/share/cmake/Modules/FindLibtorrentRasterbar.cmake
-* /usr/share/doc/libtorrent-rasterbar-2.0.10/AUTHORS
-* /usr/share/doc/libtorrent-rasterbar-2.0.10/ChangeLog
-* /usr/share/doc/libtorrent-rasterbar-2.0.10/COPYING
-* /usr/share/doc/libtorrent-rasterbar-2.0.10/LICENSE
-* /usr/share/doc/libtorrent-rasterbar-2.0.10/NEWS
-* /usr/share/doc/libtorrent-rasterbar-2.0.10/README.rst
+* /usr/share/doc/libtorrent-rasterbar-2.0.11/AUTHORS
+* /usr/share/doc/libtorrent-rasterbar-2.0.11/ChangeLog
+* /usr/share/doc/libtorrent-rasterbar-2.0.11/COPYING
+* /usr/share/doc/libtorrent-rasterbar-2.0.11/LICENSE
+* /usr/share/doc/libtorrent-rasterbar-2.0.11/NEWS
+* /usr/share/doc/libtorrent-rasterbar-2.0.11/README.rst

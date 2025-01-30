@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neovim 0.10.3-1"
-version = "0.10.3-1"
+title = "neovim 0.10.4-1"
+version = "0.10.4-1"
 description = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
-date = "2024-12-23T16:51:03"
+date = "2025-01-30T09:37:03"
 aliases = "/packages/222573"
 categories = ['apps-extra']
 upstreamurl = "https://neovim.io"
 arch = "x86_64"
-size = "6684504"
-usize = "29298900"
-sha1sum = "f5f4500e3121015f4b2284fb0ab4b7df7b41d3f6"
+size = "6685668"
+usize = "29302354"
+sha1sum = "ad8dea15fbfd53cdaad10afa653889ac6dfb0b9e"
 depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter', 'unibilium']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 ### Files: 
 * /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
-* /usr/share/doc/neovim-0.10.3/INSTALL.md
-* /usr/share/doc/neovim-0.10.3/README.md
+* /usr/share/doc/neovim-0.10.4/INSTALL.md
+* /usr/share/doc/neovim-0.10.4/README.md
 * /usr/share/icons/hicolor/128x128/apps/nvim.png
 * /usr/share/locale/af/LC_MESSAGES/nvim.mo
 * /usr/share/locale/ca/LC_MESSAGES/nvim.mo

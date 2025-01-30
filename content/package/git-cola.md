@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-cola 4.10.1-1"
-version = "4.10.1-1"
+title = "git-cola 4.11.0-1"
+version = "4.11.0-1"
 description = "Git-cola is a sleek and powerful Git GUI."
-date = "2024-12-16T21:43:47"
+date = "2025-01-30T09:55:36"
 aliases = "/packages/200469"
 categories = ['xapps-extra']
 upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "1017788"
-usize = "8084199"
-sha1sum = "d62e8f1eefce7dd972799ea157cb3876c24d7de8"
+size = "1026076"
+usize = "8110463"
+sha1sum = "6c2e3028a638d0cd11f0269d55ce5e9747cc6008"
 depends = "['pyinotify', 'pyqt6', 'python3-numpy', 'python3-qtpy']"
 +++
 ### Description: 
@@ -441,13 +441,13 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/lib/python3.13/site-packages/cola/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/cola/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/cola/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/git_cola-4.10.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/git_cola-4.10.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/git_cola-4.10.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/git_cola-4.10.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/git_cola-4.10.1.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/git_cola-4.10.1.dist-info/WHEEL
-* /usr/share/doc/git-cola-4.10.1/LICENSE
-* /usr/share/doc/git-cola-4.10.1/README.md
+* /usr/lib/python3.13/site-packages/git_cola-4.11.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/git_cola-4.11.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/git_cola-4.11.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/git_cola-4.11.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/git_cola-4.11.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/git_cola-4.11.0.dist-info/WHEEL
+* /usr/share/doc/git-cola-4.11.0/LICENSE
+* /usr/share/doc/git-cola-4.11.0/README.md
 * /usr/share/man/man1/git-cola.1.gz
 * /usr/share/man/man1/git-dag.1.gz
