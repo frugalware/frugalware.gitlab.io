@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "e2fsprogs 1.47.1-2"
-version = "1.47.1-2"
+title = "e2fsprogs 1.47.2-1"
+version = "1.47.2-1"
 description = "Utilities needed to create and maintain ext2 and ext3 filesystems"
-date = "2024-07-06T13:41:53"
+date = "2025-01-30T08:50:41"
 aliases = "/packages/2367"
 categories = ['base']
 upstreamurl = "http://e2fsprogs.sourceforge.net/"
 arch = "x86_64"
-size = "1197240"
-usize = "5260538"
-sha1sum = "c01328a05d95bf4556fcff2d5bd44fd534321249"
+size = "1207744"
+usize = "5368993"
+sha1sum = "fb020f68280860610293929709faf7a329a22345"
 depends = "['coreutils>=8.29-5', 'glibc>=2.34', 'libblkid>=2.31.1-2', 'libuuid>=2.40.2', 'util-linux>=2.31.1-2']"
 reverse_depends = "['aide', 'btrfs-progs', 'cyrus-sasl', 'cyrus-sasl-sql', 'dovecot', 'e2fsimage', 'fsarchiver', 'kernel-initrd', 'kernel-lts-initrd', 'krb5', 'libkrb5', 'partclone', 'parted', 'partitionmanager', 'quota-tools', 'reiserfsprogs']"
 +++
@@ -83,10 +83,10 @@ Utilities needed to create and maintain ext2 and ext3 filesystems
 * /usr/lib/pkgconfig/ss.pc
 * /usr/lib/udev/rules.d/64-ext4.rules
 * /usr/lib/udev/rules.d/96-e2scrub.rules
-* /usr/share/doc/e2fsprogs-1.47.1/INSTALL
-* /usr/share/doc/e2fsprogs-1.47.1/INSTALL.elfbin
-* /usr/share/doc/e2fsprogs-1.47.1/README
-* /usr/share/doc/e2fsprogs-1.47.1/RELEASE-NOTES
+* /usr/share/doc/e2fsprogs-1.47.2/INSTALL
+* /usr/share/doc/e2fsprogs-1.47.2/INSTALL.elfbin
+* /usr/share/doc/e2fsprogs-1.47.2/README
+* /usr/share/doc/e2fsprogs-1.47.2/RELEASE-NOTES
 * /usr/share/et/et_c.awk
 * /usr/share/et/et_h.awk
 * /usr/share/info/libext2fs.info.gz

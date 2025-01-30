@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libselinux 3.7-4"
-version = "3.7-4"
+title = "libselinux 3.8-1"
+version = "3.8-1"
 description = "SELinux library and simple utilities"
-date = "2025-01-02T09:53:45"
+date = "2025-01-30T08:53:53"
 aliases = "/packages/219881"
 categories = ['base']
 upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
-size = "399380"
-usize = "1693796"
-sha1sum = "d4057ad6cac0d2ecc1a27b9eda09c32f10c2d2d9"
+size = "1391764"
+usize = "2587037"
+sha1sum = "f974af52eab2926698107d04517a7846baded526"
 depends = "['libsepol>=3.3', 'pcre2', 'python3>=3.13', 'ruby>=3.4.1']"
 reverse_depends = "['networkmanager', 'steam-native']"
 +++
@@ -35,6 +35,7 @@ SELinux library and simple utilities
 * /usr/bin/matchpathcon
 * /usr/bin/policyvers
 * /usr/bin/sefcontext_compile
+* /usr/bin/selabel_compare
 * /usr/bin/selabel_digest
 * /usr/bin/selabel_get_digests_all_partial_matches
 * /usr/bin/selabel_lookup
@@ -59,10 +60,10 @@ SELinux library and simple utilities
 * /usr/lib/libselinux.so
 * /usr/lib/libselinux.so.1
 * /usr/lib/pkgconfig/libselinux.pc
-* /usr/lib/python3.13/site-packages/selinux-3.7-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/selinux-3.7-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/selinux-3.7-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/selinux-3.7-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/selinux/audit2why.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/selinux/_selinux.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/selinux/__init__.py
@@ -70,8 +71,8 @@ SELinux library and simple utilities
 * /usr/lib/python3.13/site-packages/_selinux.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/ruby/vendor_ruby/3.4.0/x86_64-linux/selinux.so
 * /usr/lib/tmpfiles.d/libselinux.conf
-* /usr/share/doc/libselinux-3.7/LICENSE
-* /usr/share/doc/libselinux-3.7/VERSION
+* /usr/share/doc/libselinux-3.8/LICENSE
+* /usr/share/doc/libselinux-3.8/VERSION
 * /usr/share/man/man3/avc_add_callback.3.gz
 * /usr/share/man/man3/avc_audit.3.gz
 * /usr/share/man/man3/avc_av_stats.3.gz

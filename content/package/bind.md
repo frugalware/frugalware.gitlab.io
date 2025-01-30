@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.21.3-1"
-version = "9.21.3-1"
+title = "bind 9.21.4-1"
+version = "9.21.4-1"
 description = "DNS server and utilities"
-date = "2024-12-12T09:17:44"
+date = "2025-01-30T09:13:56"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "1906036"
-usize = "6627302"
-sha1sum = "5dfbeeff3e9dc38c2d629bd134f4fb874758125e"
+size = "1909948"
+usize = "6621225"
+sha1sum = "baa6e97e0551c7219bef97846399124850d781eb"
 depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -181,7 +181,6 @@ DNS server and utilities
 * /usr/include/isc/interfaceiter.h
 * /usr/include/isc/iterated_hash.h
 * /usr/include/isc/job.h
-* /usr/include/isc/lang.h
 * /usr/include/isc/lex.h
 * /usr/include/isc/list.h
 * /usr/include/isc/log.h
@@ -265,30 +264,29 @@ DNS server and utilities
 * /usr/include/ns/notify.h
 * /usr/include/ns/query.h
 * /usr/include/ns/server.h
-* /usr/include/ns/sortlist.h
 * /usr/include/ns/stats.h
 * /usr/include/ns/types.h
 * /usr/include/ns/update.h
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libdns-9.21.3.so
+* /usr/lib/libdns-9.21.4.so
 * /usr/lib/libdns.so
-* /usr/lib/libisc-9.21.3.so
+* /usr/lib/libisc-9.21.4.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.21.3.so
+* /usr/lib/libisccc-9.21.4.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.21.3.so
+* /usr/lib/libisccfg-9.21.4.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.21.3.so
+* /usr/lib/libns-9.21.4.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.21.3/AUTHORS
-* /usr/share/doc/bind-9.21.3/COPYING
-* /usr/share/doc/bind-9.21.3/COPYRIGHT
-* /usr/share/doc/bind-9.21.3/LICENSE
-* /usr/share/doc/bind-9.21.3/NEWS
-* /usr/share/doc/bind-9.21.3/README.md
+* /usr/share/doc/bind-9.21.4/AUTHORS
+* /usr/share/doc/bind-9.21.4/COPYING
+* /usr/share/doc/bind-9.21.4/COPYRIGHT
+* /usr/share/doc/bind-9.21.4/LICENSE
+* /usr/share/doc/bind-9.21.4/NEWS
+* /usr/share/doc/bind-9.21.4/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz
