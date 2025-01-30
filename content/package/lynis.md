@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lynis 3.1.3-1"
-version = "3.1.3-1"
+title = "lynis 3.1.4-1"
+version = "3.1.4-1"
 description = "Open source security auditing tool."
-date = "2024-12-16T18:56:12"
+date = "2025-01-30T13:06:46"
 aliases = "/packages/219085"
 categories = ['apps-extra']
 upstreamurl = "https://cisofy.com/lynis/"
 arch = "x86_64"
-size = "231468"
-usize = "1677528"
-sha1sum = "6f7e903fcdd8974fe1664400279b9afa0db8c9d8"
+size = "231436"
+usize = "1675142"
+sha1sum = "ce1e171f7d9d5cc9ed3527d1db274e3f7196ac83"
 depends = "['bash']"
 +++
 ### Description: 
@@ -22,10 +22,10 @@ Open source security auditing tool.
 * /etc/lynis/README
 * /usr/bin/lynis
 * /usr/share/applications/lynis.desktop
-* /usr/share/doc/lynis-3.1.3/FAQ
-* /usr/share/doc/lynis-3.1.3/INSTALL
-* /usr/share/doc/lynis-3.1.3/LICENSE
-* /usr/share/doc/lynis-3.1.3/README
+* /usr/share/doc/lynis-3.1.4/FAQ
+* /usr/share/doc/lynis-3.1.4/INSTALL
+* /usr/share/doc/lynis-3.1.4/LICENSE
+* /usr/share/doc/lynis-3.1.4/README
 * /usr/share/lynis/db/control-links.db
 * /usr/share/lynis/db/fileperms.db
 * /usr/share/lynis/db/hints.db
