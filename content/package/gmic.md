@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmic 3.5.0-2"
-version = "3.5.0-2"
+title = "gmic 3.5.2-1"
+version = "3.5.2-1"
 description = "Image procession framework"
-date = "2025-01-21T15:52:58"
+date = "2025-01-30T09:59:05"
 aliases = "/packages/220087"
 categories = ['xapps-extra']
 upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "3857256"
-usize = "11205191"
-sha1sum = "300dc968b59d8bb8ea6a747e7382c07b3fc54b9a"
+size = "3865344"
+usize = "11221749"
+sha1sum = "20078578ec7528fd8d5276bd467798cb35391903"
 depends = "['curl', 'gimp', 'openblas', 'opencv>=4.11.0', 'openexr>=3.3.0']"
 reverse_depends = "['darktable', 'gmic-gimp-plugin', 'gmic-qt']"
 +++
@@ -26,6 +26,6 @@ Image procession framework
 * /usr/lib/libgmic.so
 * /usr/lib/libgmic.so.1
 * /usr/share/bash-completion/completions/gmic
-* /usr/share/doc/gmic-3.5.0/COPYING
-* /usr/share/doc/gmic-3.5.0/README
+* /usr/share/doc/gmic-3.5.2/COPYING
+* /usr/share/doc/gmic-3.5.2/README
 * /usr/share/man/man1/gmic.1.gz
