@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sof-firmware 2024.09.2-1"
-version = "2024.09.2-1"
+title = "sof-firmware 2025.01-1"
+version = "2025.01-1"
 description = "Sound Open Firmware"
-date = "2024-12-06T17:53:18"
+date = "2025-01-31T19:29:13"
 aliases = "/packages/220320"
 categories = ['base']
 upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
-size = "2078548"
-usize = "33696815"
-sha1sum = "af02bab468f2e78d7029913646360f7ee9c80cd1"
+size = "1685644"
+usize = "35546285"
+sha1sum = "335498f761e0b3122be9df867b3b136607810283"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -44,6 +44,10 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-idisp-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-idisp-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-idisp-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-idisp-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-idisp-2ch.tplg
@@ -52,7 +56,8 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-idisp-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-idisp.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic.tplg
-* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-imx8mp-wm8960.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3.tplg
@@ -60,12 +65,16 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt1318-l12-rt714-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt711-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt711-l0-rt1316-l23-rt714-l1.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt712-l2-rt1320-l1.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt712-l2-rt1712-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt713-l0-rt1318-l1-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt713-l2-rt1320-l13.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt722-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs35l56-l01-fb8.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l12.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l23.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l3-cs35l56-l01-spkagg.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1-hdmi-ssp02.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-hdmi-ssp02.tplg
@@ -96,8 +105,16 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt713-l0-rt1318-l12-rt1713-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt722-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-sdw-cs42l42-l0-max98363-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt712-l2-rt1320-l1.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt713-l2-rt1320-l13.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt721-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt721.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722-192k.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722-96k.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-rpl-cs42l43-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-cs35l56-l01-fb8.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-cs42l43-l3-cs35l56-l01.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-rt715.tplg
@@ -179,6 +196,7 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1015-nau8825.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1019-nau8825.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1019-rt5682.tplg
+* /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1316-l02-4ch.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1316-l1-mono-rt714-l0.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1316-l12-rt714-l0.tplg
 * /usr/lib/firmware/intel/sof-tplg/sof-adl-rt1316-l2-mono-rt714-l0.tplg
@@ -497,5 +515,5 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof/sof-tgl-h.ri
 * /usr/lib/firmware/intel/sof/sof-tgl.ldc
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
-* /usr/share/doc/sof-firmware-2024.09.2/README.Intel
-* /usr/share/doc/sof-firmware-2024.09.2/README.md
+* /usr/share/doc/sof-firmware-2025.01/README.Intel
+* /usr/share/doc/sof-firmware-2025.01/README.md
