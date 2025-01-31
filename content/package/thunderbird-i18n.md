@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-i18n 128.6.0-1"
-version = "128.6.0-1"
+title = "thunderbird-i18n 128.6.1-1"
+version = "128.6.1-1"
 description = "Language support for Thunderbird"
-date = "2025-01-09T16:33:00"
+date = "2025-01-31T12:45:39"
 aliases = "/packages/73528"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "9348"
+size = "9380"
 usize = "0"
-sha1sum = "ffc2dc6e0c97c001f633a8a733db1890dd734463"
-depends = "['thunderbird>=128.6.0', 'thunderbird-af', 'thunderbird-ar', 'thunderbird-ast', 'thunderbird-be', 'thunderbird-bg', 'thunderbird-br', 'thunderbird-ca', 'thunderbird-cak', 'thunderbird-cs', 'thunderbird-cy', 'thunderbird-da', 'thunderbird-de', 'thunderbird-dsb', 'thunderbird-el', 'thunderbird-en-ca', 'thunderbird-en-gb', 'thunderbird-en-us', 'thunderbird-es-ar', 'thunderbird-es-es', 'thunderbird-es-mx', 'thunderbird-et', 'thunderbird-eu', 'thunderbird-fi', 'thunderbird-fr', 'thunderbird-fy-nl', 'thunderbird-ga-ie', 'thunderbird-gd', 'thunderbird-gl', 'thunderbird-he', 'thunderbird-hr', 'thunderbird-hsb', 'thunderbird-hu', 'thunderbird-hy-am', 'thunderbird-id', 'thunderbird-is', 'thunderbird-it', 'thunderbird-ja', 'thunderbird-ka', 'thunderbird-kab', 'thunderbird-kk', 'thunderbird-ko', 'thunderbird-lt', 'thunderbird-lv', 'thunderbird-ms', 'thunderbird-nb-no', 'thunderbird-nl', 'thunderbird-nn-no', 'thunderbird-pa-in', 'thunderbird-pl', 'thunderbird-pt-br', 'thunderbird-pt-pt', 'thunderbird-rm', 'thunderbird-ro', 'thunderbird-ru', 'thunderbird-sk', 'thunderbird-sl', 'thunderbird-sq', 'thunderbird-sr', 'thunderbird-sv-se', 'thunderbird-th', 'thunderbird-tr', 'thunderbird-uk', 'thunderbird-uz', 'thunderbird-vi', 'thunderbird-zh-cn', 'thunderbird-zh-tw']"
+sha1sum = "b92fc7505aba1918330af483f0f7cb1e1f027773"
+depends = "['thunderbird>=128.6.1', 'thunderbird-af', 'thunderbird-ar', 'thunderbird-ast', 'thunderbird-be', 'thunderbird-bg', 'thunderbird-br', 'thunderbird-ca', 'thunderbird-cak', 'thunderbird-cs', 'thunderbird-cy', 'thunderbird-da', 'thunderbird-de', 'thunderbird-dsb', 'thunderbird-el', 'thunderbird-en-ca', 'thunderbird-en-gb', 'thunderbird-en-us', 'thunderbird-es-ar', 'thunderbird-es-es', 'thunderbird-es-mx', 'thunderbird-et', 'thunderbird-eu', 'thunderbird-fi', 'thunderbird-fr', 'thunderbird-fy-nl', 'thunderbird-ga-ie', 'thunderbird-gd', 'thunderbird-gl', 'thunderbird-he', 'thunderbird-hr', 'thunderbird-hsb', 'thunderbird-hu', 'thunderbird-hy-am', 'thunderbird-id', 'thunderbird-is', 'thunderbird-it', 'thunderbird-ja', 'thunderbird-ka', 'thunderbird-kab', 'thunderbird-kk', 'thunderbird-ko', 'thunderbird-lt', 'thunderbird-lv', 'thunderbird-ms', 'thunderbird-nb-no', 'thunderbird-nl', 'thunderbird-nn-no', 'thunderbird-pa-in', 'thunderbird-pl', 'thunderbird-pt-br', 'thunderbird-pt-pt', 'thunderbird-rm', 'thunderbird-ro', 'thunderbird-ru', 'thunderbird-sk', 'thunderbird-sl', 'thunderbird-sq', 'thunderbird-sr', 'thunderbird-sv-se', 'thunderbird-th', 'thunderbird-tr', 'thunderbird-uk', 'thunderbird-uz', 'thunderbird-vi', 'thunderbird-zh-cn', 'thunderbird-zh-tw']"
 +++
 ### Description: 
 Language support for Thunderbird

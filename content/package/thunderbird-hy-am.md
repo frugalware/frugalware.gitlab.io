@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-hy-am 128.6.0-1"
-version = "128.6.0-1"
+title = "thunderbird-hy-am 128.6.1-1"
+version = "128.6.1-1"
 description = "Armenian language support for Thunderbird"
-date = "2025-01-09T16:33:00"
+date = "2025-01-31T12:45:39"
 aliases = "/packages/152769"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "673264"
-usize = "743115"
-sha1sum = "08e1cd54f74194820fcb8cfd827cfee002aca161"
-depends = "['thunderbird>=128.6.0']"
+size = "673300"
+usize = "743116"
+sha1sum = "6ed4b21b55345685f87d09cf14152559a511a83f"
+depends = "['thunderbird>=128.6.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

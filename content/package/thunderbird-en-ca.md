@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-en-ca 128.6.0-1"
-version = "128.6.0-1"
+title = "thunderbird-en-ca 128.6.1-1"
+version = "128.6.1-1"
 description = "Canadian English language support for Thunderbird"
-date = "2025-01-09T16:33:00"
+date = "2025-01-31T12:45:39"
 aliases = "/packages/220172"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "638240"
+size = "638288"
 usize = "705212"
-sha1sum = "8586f1ffb74edb0689b3e293abadabf48716830f"
-depends = "['thunderbird>=128.6.0']"
+sha1sum = "d94c1c40b26373646d2fb405f08e21b82b94e123"
+depends = "['thunderbird>=128.6.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

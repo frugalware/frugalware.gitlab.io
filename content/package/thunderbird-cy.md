@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-cy 128.6.0-1"
-version = "128.6.0-1"
+title = "thunderbird-cy 128.6.1-1"
+version = "128.6.1-1"
 description = "Welsh language support for Thunderbird"
-date = "2025-01-09T16:33:00"
+date = "2025-01-31T12:45:39"
 aliases = "/packages/217442"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "695880"
-usize = "756814"
-sha1sum = "6be2a5977b3fc2c5eb2a25a0bf542f1a6d76d8e1"
-depends = "['thunderbird>=128.6.0']"
+size = "695916"
+usize = "756815"
+sha1sum = "52be8704b95025e4ca5feec88a5d337e3c6e9b60"
+depends = "['thunderbird>=128.6.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
