@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sdl2-compat 2.30.51-1"
-version = "2.30.51-1"
+title = "sdl2-compat 2.30.51-2"
+version = "2.30.51-2"
 description = "An SDL2 compatibility layer that uses SDL3 behind the scenes."
-date = "2025-02-01T16:11:38"
+date = "2025-02-01T16:17:05"
 aliases = "/packages/222620"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "391252"
+size = "391388"
 usize = "2884680"
-sha1sum = "bf5e924281db3e3662c276d4678c12fe53536579"
-depends = "[]"
+sha1sum = "e46e63794533fc2c961c4d636efe9e51b0aed612"
+depends = "['sdl3']"
 +++
 ### Description: 
 An SDL2 compatibility layer that uses SDL3 behind the scenes.

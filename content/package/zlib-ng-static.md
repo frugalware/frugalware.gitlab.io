@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zlib-ng-static 2.2.3-2"
-version = "2.2.3-2"
+title = "zlib-ng-static 2.2.3-3"
+version = "2.2.3-3"
 description = "Static files for zlib-ng"
-date = "2025-01-09T13:50:10"
+date = "2025-02-01T16:31:34"
 aliases = "/packages/222615"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/zlib-ng/zlib-ng"
 arch = "x86_64"
-size = "663284"
-usize = "863812"
-sha1sum = "bedd1d31f82aad4e941b5c537b91963d990accfb"
+size = "663236"
+usize = "863868"
+sha1sum = "f73ddabb8b8af82e6c1f93d7e26ebf43d3128d43"
 depends = "[]"
 +++
 ### Description: 

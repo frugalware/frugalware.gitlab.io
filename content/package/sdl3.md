@@ -12,6 +12,7 @@ size = "1292396"
 usize = "6243088"
 sha1sum = "ccde1ee7204f468f2eaf0d4b371447ca3a1ef624"
 depends = "['glibc>=2.34']"
+reverse_depends = "['sdl2-compat']"
 +++
 ### Description: 
 Simple DirectMedia Layer library v2
