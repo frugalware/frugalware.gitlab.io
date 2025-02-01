@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "77920"
 usize = "364684"
 sha1sum = "6546e338d298bb24ebeedfea7b3880aecf8463a5"
-depends = "['qt5-declarative>=5.15.16', 'sdl2']"
+depends = "['qt5-declarative>=5.15.16']"
 +++
 ### Description: 
 The Qt5 toolkit, qtgamepad

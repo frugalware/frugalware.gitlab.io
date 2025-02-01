@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "193040"
 usize = "348134"
 sha1sum = "d5620985c534cbdbac67f89c18dd913c891ced20"
-depends = "['android-tools', 'ffmpeg>=7.0', 'sdl2']"
+depends = "['android-tools', 'ffmpeg>=7.0']"
 +++
 ### Description: 
 Display and control your Android device

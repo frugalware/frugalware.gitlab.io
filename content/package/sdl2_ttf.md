@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "678264"
 usize = "1746199"
 sha1sum = "95460277bd31b8659b874204749e0a65b21737c9"
-depends = "['freetype2', 'libglvnd', 'sdl2>=1.2.12']"
+depends = "['freetype2', 'libglvnd']"
 reverse_depends = "['crawl', 'crawl-tiles', 'enigma', 'freeciv', 'freerdp', 'freerdp2', 'lincity-ng', 'manaplus', 'motiontestsuite', 'netpanzer', 'sdlmame', 'solarus', 'wesnoth']"
 +++
 ### Description: 

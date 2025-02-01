@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3364344"
 usize = "15871679"
 sha1sum = "29e2ebc9f63fd23ae2d436333ce9308ed1ff8135"
-depends = "['libglvnd', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libxxf86vm', 'sdl2', 'sdl2_mixer', 'sdl2_net']"
+depends = "['libglvnd', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libxxf86vm', 'sdl2_mixer', 'sdl2_net']"
 +++
 ### Description: 
 An open source re-implementation of Diablo 2

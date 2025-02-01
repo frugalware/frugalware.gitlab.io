@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1526988"
 usize = "4317802"
 sha1sum = "acca1b84eb7ab5068c2c875a01a4196d7ec73e91"
-depends = "['desktop-file-utils', 'freetype2', 'hicolor-icon-theme', 'libmodplug', 'libtheora', 'libvorbis', 'luajit2', 'mpg123', 'openal', 'sdl2', 'shared-mime-info']"
+depends = "['desktop-file-utils', 'freetype2', 'hicolor-icon-theme', 'libmodplug', 'libtheora', 'libvorbis', 'luajit2', 'mpg123', 'openal', 'shared-mime-info']"
 reverse_depends = "['vrrtest']"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "159520424"
 usize = "192348140"
 sha1sum = "4c3738e55f332cfee17a82786cc52096b1cfa404"
-depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.87.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.13', 'sdl2>=2.0.4']"
+depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.87.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.13']"
 +++
 ### Description: 
 Free Clone of Master of Orion

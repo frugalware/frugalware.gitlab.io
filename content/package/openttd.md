@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "6574608"
 usize = "25717502"
 sha1sum = "f5143eb9b606afa8c2d04b6aee5c82aad09a4143"
-depends = "['fontconfig>=2.11.94-3', 'icu4c>=76.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'sdl2', 'xz>=5.2.2-4']"
+depends = "['fontconfig>=2.11.94-3', 'icu4c>=76.1', 'libpng>=1.6.20', 'libtimidity>=0.1.0-2', 'lzo>=2.09-4', 'opengfx>=0.5.5', 'opensfx', 'xz>=5.2.2-4']"
 +++
 ### Description: 
 An open source clone of the Microprose game Transport Tycoon Deluxe.

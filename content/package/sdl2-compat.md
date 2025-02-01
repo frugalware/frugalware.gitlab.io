@@ -1,21 +1,20 @@
 +++
 draft = false
-title = "sdl2 2.30.11-1"
-version = "2.30.11-1"
-description = "Simple DirectMedia Layer library v2"
-date = "2025-01-02T22:10:47"
-aliases = "/packages/200474"
+title = "sdl2-compat 2.30.51-1"
+version = "2.30.51-1"
+description = "An SDL2 compatibility layer that uses SDL3 behind the scenes."
+date = "2025-02-01T16:11:38"
+aliases = "/packages/222620"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "905200"
-usize = "4358393"
-sha1sum = "5b4dfc1e5a41177358df09840e4db6cc21915bb8"
-depends = "['glibc>=2.34']"
-reverse_depends = "['blender', 'crawl', 'crawl-tiles', 'faudio', 'ffmpeg', 'ffmpeg4.4', 'freeorion', 'guvcview', 'jazz2', 'libcamera-tools', 'linuxconsole', 'love', 'mednafen', 'megaglest', 'naev', 'ogre', 'openal', 'opendiablo2', 'openscenegraph', 'openttd', 'qemu', 'qt5-gamepad', 'scrcpy', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_net', 'sdl2_ttf', 'sherlock265', 'smpeg2', 'solarus', 'spring', 'stella', 'ultrastardx', 'v4l-utils', 'xonotic']"
+size = "391252"
+usize = "2884680"
+sha1sum = "bf5e924281db3e3662c276d4678c12fe53536579"
+depends = "[]"
 +++
 ### Description: 
-Simple DirectMedia Layer library v2
+An SDL2 compatibility layer that uses SDL3 behind the scenes.
 
 ### Files: 
 * /usr/bin/sdl2-config
@@ -29,6 +28,19 @@ Simple DirectMedia Layer library v2
 * /usr/include/SDL2/SDL_blendmode.h
 * /usr/include/SDL2/SDL_clipboard.h
 * /usr/include/SDL2/SDL_config.h
+* /usr/include/SDL2/SDL_config_android.h
+* /usr/include/SDL2/SDL_config_emscripten.h
+* /usr/include/SDL2/SDL_config_iphoneos.h
+* /usr/include/SDL2/SDL_config_macosx.h
+* /usr/include/SDL2/SDL_config_minimal.h
+* /usr/include/SDL2/SDL_config_ngage.h
+* /usr/include/SDL2/SDL_config_os2.h
+* /usr/include/SDL2/SDL_config_pandora.h
+* /usr/include/SDL2/SDL_config_windows.h
+* /usr/include/SDL2/SDL_config_wingdk.h
+* /usr/include/SDL2/SDL_config_winrt.h
+* /usr/include/SDL2/SDL_config_xbox.h
+* /usr/include/SDL2/SDL_copying.h
 * /usr/include/SDL2/SDL_cpuinfo.h
 * /usr/include/SDL2/SDL_egl.h
 * /usr/include/SDL2/SDL_endian.h
@@ -97,14 +109,20 @@ Simple DirectMedia Layer library v2
 * /usr/include/SDL2/SDL_version.h
 * /usr/include/SDL2/SDL_video.h
 * /usr/include/SDL2/SDL_vulkan.h
-* /usr/lib/cmake/SDL2/sdl2-config-version.cmake
-* /usr/lib/cmake/SDL2/sdl2-config.cmake
+* /usr/lib/cmake/SDL2/SDL2Config.cmake
+* /usr/lib/cmake/SDL2/SDL2ConfigVersion.cmake
+* /usr/lib/cmake/SDL2/SDL2mainTargets-release.cmake
+* /usr/lib/cmake/SDL2/SDL2mainTargets.cmake
+* /usr/lib/cmake/SDL2/SDL2Targets-release.cmake
+* /usr/lib/cmake/SDL2/SDL2Targets.cmake
+* /usr/lib/cmake/SDL2/SDL2_testTargets-release.cmake
+* /usr/lib/cmake/SDL2/SDL2_testTargets.cmake
+* /usr/lib/libSDL2-2.0.so
 * /usr/lib/libSDL2-2.0.so.0
-* /usr/lib/libSDL2-2.0.so.0.3000.11
+* /usr/lib/libSDL2-2.0.so.0.3000.51
 * /usr/lib/libSDL2.so
-* /usr/lib/pkgconfig/sdl2.pc
+* /usr/lib/pkgconfig/sdl2_compat.pc
 * /usr/share/aclocal/sdl2.m4
-* /usr/share/doc/sdl2-2.30.11/BUGS.txt
-* /usr/share/doc/sdl2-2.30.11/INSTALL.txt
-* /usr/share/doc/sdl2-2.30.11/README-SDL.txt
-* /usr/share/doc/sdl2-2.30.11/README.md
+* /usr/share/doc/sdl2-compat-2.30.51/BUGS.md
+* /usr/share/doc/sdl2-compat-2.30.51/README.md
+* /usr/share/licenses/sdl2-compat/LICENSE.txt

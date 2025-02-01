@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "296004"
 usize = "909592"
 sha1sum = "7b985ec239822a7b3e3fe2a3358854c5e4dfa3c1"
-depends = "['libcamera', 'libtiff', 'libyaml', 'qt6-base>=6.8.1', 'sdl2']"
+depends = "['libcamera', 'libtiff', 'libyaml', 'qt6-base>=6.8.1']"
 +++
 ### Description: 
 libcamera tools

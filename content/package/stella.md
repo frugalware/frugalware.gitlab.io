@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2359272"
 usize = "9869868"
 sha1sum = "9a43970acf378aeae4fbc01cd6c78843d6d1fd54"
-depends = "['libstdc++', 'sdl2']"
+depends = "['libstdc++']"
 +++
 ### Description: 
 A multi-platform Atari 2600 VCS emulator

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1551156"
 usize = "4702855"
 sha1sum = "7bdc1e9ac79c6f8cf5170841ca1f203ad6d3f29a"
-depends = "['glew', 'glfw', 'libopenmpt', 'openal', 'sdl2']"
+depends = "['glew', 'glfw', 'libopenmpt', 'openal']"
 +++
 ### Description: 
 Native C++ reimplementation of Jazz Jackrabbit 2

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1336308"
 usize = "5724369"
 sha1sum = "15f69ccca9ed682ae7bbccdb0026f6a099932c64"
-depends = "['glm', 'libmodplug', 'libogg', 'libvorbis', 'luajit2', 'openal', 'physfs', 'qt5-base>=5.15.15', 'sdl2', 'sdl2_image', 'sdl2_ttf']"
+depends = "['glm', 'libmodplug', 'libogg', 'libvorbis', 'luajit2', 'openal', 'physfs', 'qt5-base>=5.15.15', 'sdl2_image', 'sdl2_ttf']"
 reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 +++
 ### Description: 

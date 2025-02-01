@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "111148"
 usize = "348085"
 sha1sum = "b627f1b67d7319ce7e0c8a789f707d7abf8997d5"
-depends = "['ffmpeg', 'sdl2']"
+depends = "['ffmpeg']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
 ### Description: 

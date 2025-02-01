@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "12581144"
 usize = "34537141"
 sha1sum = "7fdc2f7d9cd77a827b24ffebf2e53da99194fdee"
-depends = "['curl>=7.47.0', 'devil>=1.8.0', 'freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.72', 'libunwind>=1.1-4', 'libxcursor>=1.1.14-2', 'openal>=1.20', 'openjre-x', 'sdl2>=2.0.4']"
+depends = "['curl>=7.47.0', 'devil>=1.8.0', 'freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.72', 'libunwind>=1.1-4', 'libxcursor>=1.1.14-2', 'openal>=1.20', 'openjre-x']"
 +++
 ### Description: 
 A free 3D game engine for the real-time-strategy (RTS) game Total Annihilation

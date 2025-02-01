@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "7079304"
 usize = "34522165"
 sha1sum = "b33eec115e88492b520d68b90254d69b86095288"
-depends = "['assimp', 'bullet', 'freeimage', 'glslang>=15.1', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base', 'sdl2']"
+depends = "['assimp', 'bullet', 'freeimage', 'glslang>=15.1', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base']"
 reverse_depends = "['ogre-media']"
 +++
 ### Description: 

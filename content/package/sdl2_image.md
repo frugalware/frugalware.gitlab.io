@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "93420"
 usize = "260446"
 sha1sum = "e7bd3eb8c3e0ff2ee2aa6852ac6b1ff736bbcf5e"
-depends = "['jxrlib', 'libavif', 'libtiff>=4.0.6', 'libwebp>=0.5.0', 'sdl2>=2.0.8']"
+depends = "['jxrlib', 'libavif', 'libtiff>=4.0.6', 'libwebp>=0.5.0']"
 reverse_depends = "['assaultcube', 'crawl', 'crawl-tiles', 'enigma', 'freeciv', 'lincity-ng', 'manaplus', 'netpanzer', 'opencity', 'redeclipse', 'solarus', 'supertux', 'ultrastardx', 'v4l-utils', 'wesnoth']"
 +++
 ### Description: 

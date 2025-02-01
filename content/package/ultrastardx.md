@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "45805636"
 usize = "82707430"
 sha1sum = "8e9ce7224f5f0a7642dea47a2a63ccd32a114110"
-depends = "['ffmpeg>=7.0', 'freetype2', 'lua', 'sdl2', 'sdl2_image']"
+depends = "['ffmpeg>=7.0', 'freetype2', 'lua', 'sdl2_image']"
 +++
 ### Description: 
 Free and open source karaoke game

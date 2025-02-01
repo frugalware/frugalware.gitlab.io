@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "62168212"
 usize = "216804059"
 sha1sum = "f4226b5d7409800145b555687b7f399efb33f0ec"
-depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.87.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.3.0', 'openimageio>=2.5', 'openjpeg', 'openvdb>=12.0.0', 'potrace', 'pugixml', 'python3-numpy>=1.19.0', 'python3-requests', 'sdl2', 'shaderc']"
+depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.87.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.3.0', 'openimageio>=2.5', 'openjpeg', 'openvdb>=12.0.0', 'potrace', 'pugixml', 'python3-numpy>=1.19.0', 'python3-requests', 'shaderc']"
 +++
 ### Description: 
 A 3D modeling/rendering/animation/gaming application

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "624276"
 usize = "1874585"
 sha1sum = "a4506d134a4ace23e72513b760eb7a0192c63098"
-depends = "['ffmpeg>=3.3.2', 'freeglut', 'glibc>=2.29-6', 'sdl2>=2.0.4-2']"
+depends = "['ffmpeg>=3.3.2', 'freeglut', 'glibc>=2.29-6']"
 reverse_depends = "['alienarena', 'assaultcube', 'blender', 'filter_audio', 'freealut', 'freeorion', 'jazz2', 'lib32-openal', 'libkdegames', 'love', 'luanti', 'megaglest', 'mencoder', 'mplayer', 'mpv', 'naev', 'qt5-multimedia', 'sfml', 'solarus', 'spring', 'supertux', 'supertuxkart', 'telegram-desktop', 'tox-core', 'warzone2100', 'wildmidi', 'wine', 'wine-devel']"
 +++
 ### Description: 

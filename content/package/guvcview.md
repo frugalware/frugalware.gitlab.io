@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "184668"
 usize = "613043"
 sha1sum = "81f6d62861ce810d1119ab38e688f40ef2bcb714"
-depends = "['ffmpeg>=7.0', 'gsl>=2.8', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'sdl2', 'systemd>=188', 'twolame']"
+depends = "['ffmpeg>=7.0', 'gsl>=2.8', 'libogg', 'libpulse>=6.0', 'libraw1394', 'libxau>=1.0.4-1', 'libxdamage>=1.1.1-3', 'libxdmcp', 'libxext>=1.0.5-3', 'libxml2>=2.7.8', 'portaudio', 'systemd>=188', 'twolame']"
 +++
 ### Description: 
 A video viewer and capturer for the linux uvc driver

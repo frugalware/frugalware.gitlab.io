@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1369068"
 usize = "4917824"
 sha1sum = "4b7e20b97c2e3171cecfe24046510c7a5214e335"
-depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2', 'sdl2_image']"
+depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
 ### Description: 

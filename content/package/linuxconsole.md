@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "54944"
 usize = "211465"
 sha1sum = "bd43ee486de8981020b96254e953814b298331f4"
-depends = "['sdl2']"
+depends = "[]"
 license = "GPL"
 +++
 ### Description: 

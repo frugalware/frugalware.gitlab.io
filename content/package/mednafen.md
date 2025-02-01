@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "4347892"
 usize = "20183397"
 sha1sum = "a1095b3b8e961f88fd5543ead51474dbb57f63f9"
-depends = "['libsndfile>=1.0.28-6', 'sdl2']"
+depends = "['libsndfile>=1.0.28-6']"
 +++
 ### Description: 
 Mednafen is a command-line multi-system emulator

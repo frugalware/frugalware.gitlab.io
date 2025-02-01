@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "17184"
 usize = "64508"
 sha1sum = "3fba234fe3620a2aedc537eaafbaf48970e939f2"
-depends = "['sdl2']"
+depends = "[]"
 reverse_depends = "['dosbox-x', 'manaplus', 'maxr', 'opencity', 'opendiablo2', 'scummvm']"
 +++
 ### Description: 

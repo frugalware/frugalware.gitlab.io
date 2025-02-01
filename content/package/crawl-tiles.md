@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "21457192"
 usize = "54673566"
 sha1sum = "afa397488e827713b90749ec17e2b1328fdaefcc"
-depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2', 'sdl2_image', 'sdl2_ttf', 'sqlite3']"
+depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua', 'pyyaml3', 'sdl2_image', 'sdl2_ttf', 'sqlite3']"
 +++
 ### Description: 
 Dungeon Crawl Stone Soup (graphical Tiles version) is an open-source, single-player, role-playing roguelike game
