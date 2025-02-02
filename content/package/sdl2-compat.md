@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2-compat 2.30.51-2"
-version = "2.30.51-2"
+title = "sdl2-compat 2.30.52-1"
+version = "2.30.52-1"
 description = "An SDL2 compatibility layer that uses SDL3 behind the scenes."
-date = "2025-02-01T16:17:05"
+date = "2025-02-02T08:57:36"
 aliases = "/packages/222620"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "391388"
-usize = "2884680"
-sha1sum = "e46e63794533fc2c961c4d636efe9e51b0aed612"
+size = "391948"
+usize = "2887530"
+sha1sum = "91e5b62fcdf30d89e8998584c977aac6789d920b"
 depends = "['sdl3']"
 +++
 ### Description: 
@@ -36,6 +36,7 @@ An SDL2 compatibility layer that uses SDL3 behind the scenes.
 * /usr/include/SDL2/SDL_config_ngage.h
 * /usr/include/SDL2/SDL_config_os2.h
 * /usr/include/SDL2/SDL_config_pandora.h
+* /usr/include/SDL2/SDL_config_unix.h
 * /usr/include/SDL2/SDL_config_windows.h
 * /usr/include/SDL2/SDL_config_wingdk.h
 * /usr/include/SDL2/SDL_config_winrt.h
@@ -119,10 +120,10 @@ An SDL2 compatibility layer that uses SDL3 behind the scenes.
 * /usr/lib/cmake/SDL2/SDL2_testTargets.cmake
 * /usr/lib/libSDL2-2.0.so
 * /usr/lib/libSDL2-2.0.so.0
-* /usr/lib/libSDL2-2.0.so.0.3000.51
+* /usr/lib/libSDL2-2.0.so.0.3000.52
 * /usr/lib/libSDL2.so
 * /usr/lib/pkgconfig/sdl2_compat.pc
 * /usr/share/aclocal/sdl2.m4
-* /usr/share/doc/sdl2-compat-2.30.51/BUGS.md
-* /usr/share/doc/sdl2-compat-2.30.51/README.md
+* /usr/share/doc/sdl2-compat-2.30.52/BUGS.md
+* /usr/share/doc/sdl2-compat-2.30.52/README.md
 * /usr/share/licenses/sdl2-compat/LICENSE.txt
