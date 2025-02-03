@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zlib-ng 2.2.3-3"
-version = "2.2.3-3"
+title = "zlib-ng 2.2.3-4"
+version = "2.2.3-4"
 description = "zlib replacement with optimizations for 'next generation' systems."
-date = "2025-02-01T16:31:34"
+date = "2025-02-03T12:39:51"
 aliases = "/packages/222613"
 categories = ['base']
 upstreamurl = "https://github.com/zlib-ng/zlib-ng"
 arch = "x86_64"
-size = "121096"
-usize = "332019"
-sha1sum = "1238c5d9c55f1f6cb9b5f3b722cdaec831dc367c"
+size = "121208"
+usize = "332039"
+sha1sum = "5b947d51f0cb02bf75f16749efd799938a05358c"
 depends = "['glibc>=2.37']"
 reverse_depends = "['assimp', 'cracklib', 'elfutils', 'file', 'geogram', 'glib2', 'kmod', 'libarchive', 'libssh', 'libssh2', 'libsystemd', 'nss', 'pcre', 'pcre2', 'zstd']"
 +++
