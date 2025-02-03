@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vim 9.1.0918-1"
-version = "9.1.0918-1"
+title = "vim 9.1.1071-1"
+version = "9.1.1071-1"
 description = "VIM - Vi IMproved console"
-date = "2024-12-11T12:24:44"
+date = "2025-02-03T08:35:36"
 aliases = "/packages/218458"
 categories = ['base']
 upstreamurl = "http://www.vim.org"
 arch = "x86_64"
-size = "8097896"
-usize = "35165874"
-sha1sum = "d90b1598ea484d62b18c249066f693a94ccf23b3"
+size = "8174956"
+usize = "35561845"
+sha1sum = "367db863534496aeb603e4b99add8b7b948a8ab3"
 depends = "['ncurses>=6.1', 'xfsprogs-acl>=2.2.52-5']"
 reverse_depends = "['gvim']"
 +++
@@ -28,12 +28,11 @@ VIM - Vi IMproved console
 * /usr/bin/vimtutor
 * /usr/bin/xxd
 * /usr/share/applications/vim.desktop
-* /usr/share/doc/vim-9.1.0918/LICENSE
-* /usr/share/doc/vim-9.1.0918/README.Frugalware
-* /usr/share/doc/vim-9.1.0918/README.md
-* /usr/share/doc/vim-9.1.0918/README.rux.txt
-* /usr/share/doc/vim-9.1.0918/README.txt
-* /usr/share/doc/vim-9.1.0918/README_VIM9.md
+* /usr/share/doc/vim-9.1.1071/LICENSE
+* /usr/share/doc/vim-9.1.1071/README.Frugalware
+* /usr/share/doc/vim-9.1.1071/README.md
+* /usr/share/doc/vim-9.1.1071/README.txt
+* /usr/share/doc/vim-9.1.1071/README_VIM9.md
 * /usr/share/icons/hicolor/48x48/apps/gvim.png
 * /usr/share/icons/locolor/16x16/apps/gvim.png
 * /usr/share/icons/locolor/32x32/apps/gvim.png
@@ -239,9 +238,6 @@ VIM - Vi IMproved console
 * /usr/share/vim/autoload/javaformat.vim
 * /usr/share/vim/autoload/javascriptcomplete.vim
 * /usr/share/vim/autoload/modula2.vim
-* /usr/share/vim/autoload/netrw.vim
-* /usr/share/vim/autoload/netrwSettings.vim
-* /usr/share/vim/autoload/netrw_gitignore.vim
 * /usr/share/vim/autoload/paste.vim
 * /usr/share/vim/autoload/phpcomplete.vim
 * /usr/share/vim/autoload/python.vim
@@ -307,10 +303,12 @@ VIM - Vi IMproved console
 * /usr/share/vim/colors/sorbet.vim
 * /usr/share/vim/colors/tools/check_colors.vim
 * /usr/share/vim/colors/torte.vim
+* /usr/share/vim/colors/unokai.vim
 * /usr/share/vim/colors/wildcharm.vim
 * /usr/share/vim/colors/zaibatsu.vim
 * /usr/share/vim/colors/zellner.vim
 * /usr/share/vim/compiler/ant.vim
+* /usr/share/vim/compiler/bash.vim
 * /usr/share/vim/compiler/bcc.vim
 * /usr/share/vim/compiler/bdf.vim
 * /usr/share/vim/compiler/cargo.vim
@@ -532,7 +530,6 @@ VIM - Vi IMproved console
 * /usr/share/vim/doc/syntax.txt
 * /usr/share/vim/doc/tabpage.txt
 * /usr/share/vim/doc/tags
-* /usr/share/vim/doc/tags-ru
 * /usr/share/vim/doc/tagsrch.txt
 * /usr/share/vim/doc/term.txt
 * /usr/share/vim/doc/terminal.txt
@@ -540,7 +537,6 @@ VIM - Vi IMproved console
 * /usr/share/vim/doc/textprop.txt
 * /usr/share/vim/doc/tips.txt
 * /usr/share/vim/doc/todo.txt
-* /usr/share/vim/doc/uganda.rux
 * /usr/share/vim/doc/uganda.txt
 * /usr/share/vim/doc/undo.txt
 * /usr/share/vim/doc/userfunc.txt
@@ -705,6 +701,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/gdb.vim
 * /usr/share/vim/ftplugin/gdscript.vim
 * /usr/share/vim/ftplugin/gdshader.vim
+* /usr/share/vim/ftplugin/gel.vim
 * /usr/share/vim/ftplugin/git.vim
 * /usr/share/vim/ftplugin/gitattributes.vim
 * /usr/share/vim/ftplugin/gitcommit.vim
@@ -754,7 +751,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/javacc.vim
 * /usr/share/vim/ftplugin/javascript.vim
 * /usr/share/vim/ftplugin/javascriptreact.vim
-* /usr/share/vim/ftplugin/jj.vim
+* /usr/share/vim/ftplugin/jjdescription.vim
 * /usr/share/vim/ftplugin/jproperties.vim
 * /usr/share/vim/ftplugin/jq.vim
 * /usr/share/vim/ftplugin/json.vim
@@ -763,6 +760,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/jsonnet.vim
 * /usr/share/vim/ftplugin/jsp.vim
 * /usr/share/vim/ftplugin/julia.vim
+* /usr/share/vim/ftplugin/just.vim
 * /usr/share/vim/ftplugin/karel.vim
 * /usr/share/vim/ftplugin/kconfig.vim
 * /usr/share/vim/ftplugin/kdl.vim
@@ -782,6 +780,8 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/lisp.vim
 * /usr/share/vim/ftplugin/livebook.vim
 * /usr/share/vim/ftplugin/llvm.vim
+* /usr/share/vim/ftplugin/lnk.vim
+* /usr/share/vim/ftplugin/lnkmap.vim
 * /usr/share/vim/ftplugin/logcheck.vim
 * /usr/share/vim/ftplugin/loginaccess.vim
 * /usr/share/vim/ftplugin/logindefs.vim
@@ -907,6 +907,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/sexplib.vim
 * /usr/share/vim/ftplugin/sgml.vim
 * /usr/share/vim/ftplugin/sh.vim
+* /usr/share/vim/ftplugin/shaderslang.vim
 * /usr/share/vim/ftplugin/sieve.vim
 * /usr/share/vim/ftplugin/slint.vim
 * /usr/share/vim/ftplugin/slpconf.vim
@@ -942,6 +943,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/text.vim
 * /usr/share/vim/ftplugin/tf.vim
 * /usr/share/vim/ftplugin/thrift.vim
+* /usr/share/vim/ftplugin/tiasm.vim
 * /usr/share/vim/ftplugin/tidy.vim
 * /usr/share/vim/ftplugin/tmux.vim
 * /usr/share/vim/ftplugin/toml.vim
@@ -1047,6 +1049,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/indent/gitolite.vim
 * /usr/share/vim/indent/glsl.vim
 * /usr/share/vim/indent/go.vim
+* /usr/share/vim/indent/graphql.vim
 * /usr/share/vim/indent/gyp.vim
 * /usr/share/vim/indent/haml.vim
 * /usr/share/vim/indent/hamster.vim
@@ -1067,6 +1070,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/indent/jsonc.vim
 * /usr/share/vim/indent/jsp.vim
 * /usr/share/vim/indent/julia.vim
+* /usr/share/vim/indent/just.vim
 * /usr/share/vim/indent/kdl.vim
 * /usr/share/vim/indent/kotlin.vim
 * /usr/share/vim/indent/krl.vim
@@ -1400,6 +1404,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/lang/menu_zh_tw.cp950.vim
 * /usr/share/vim/lang/menu_zh_tw.utf-8.vim
 * /usr/share/vim/lang/README.txt
+* /usr/share/vim/LICENSE
 * /usr/share/vim/macros/editexisting.vim
 * /usr/share/vim/macros/hanoi/click.me
 * /usr/share/vim/macros/hanoi/hanoi.vim
@@ -1461,6 +1466,15 @@ VIM - Vi IMproved console
 * /usr/share/vim/pack/dist/opt/matchit/doc/matchit.txt
 * /usr/share/vim/pack/dist/opt/matchit/doc/tags
 * /usr/share/vim/pack/dist/opt/matchit/plugin/matchit.vim
+* /usr/share/vim/pack/dist/opt/netrw/autoload/netrw.vim
+* /usr/share/vim/pack/dist/opt/netrw/autoload/netrw/own.vim
+* /usr/share/vim/pack/dist/opt/netrw/autoload/netrwSettings.vim
+* /usr/share/vim/pack/dist/opt/netrw/autoload/netrw_gitignore.vim
+* /usr/share/vim/pack/dist/opt/netrw/doc/netrw.txt
+* /usr/share/vim/pack/dist/opt/netrw/LICENSE.txt
+* /usr/share/vim/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+* /usr/share/vim/pack/dist/opt/netrw/README.md
+* /usr/share/vim/pack/dist/opt/netrw/syntax/netrw.vim
 * /usr/share/vim/pack/dist/opt/nohlsearch/plugin/nohlsearch.vim
 * /usr/share/vim/pack/dist/opt/shellmenu/plugin/shellmenu.vim
 * /usr/share/vim/pack/dist/opt/swapmouse/plugin/swapmouse.vim
@@ -1471,6 +1485,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/plugin/manpager.vim
 * /usr/share/vim/plugin/matchparen.vim
 * /usr/share/vim/plugin/netrwPlugin.vim
+* /usr/share/vim/plugin/openPlugin.vim
 * /usr/share/vim/plugin/README.txt
 * /usr/share/vim/plugin/rrhelper.vim
 * /usr/share/vim/plugin/spellfile.vim
@@ -1512,6 +1527,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/print/latin1.ps
 * /usr/share/vim/print/mac-roman.ps
 * /usr/share/vim/print/prolog.ps
+* /usr/share/vim/README.txt
 * /usr/share/vim/scripts.vim
 * /usr/share/vim/spell/check_locales.vim
 * /usr/share/vim/spell/cleanadd.vim
@@ -1549,6 +1565,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/antlr4.vim
 * /usr/share/vim/syntax/apache.vim
 * /usr/share/vim/syntax/apachestyle.vim
+* /usr/share/vim/syntax/apkbuild.vim
 * /usr/share/vim/syntax/aptconf.vim
 * /usr/share/vim/syntax/arch.vim
 * /usr/share/vim/syntax/arduino.vim
@@ -1615,6 +1632,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/clean.vim
 * /usr/share/vim/syntax/clipper.vim
 * /usr/share/vim/syntax/clojure.vim
+* /usr/share/vim/syntax/cmacro.vim
 * /usr/share/vim/syntax/cmake.vim
 * /usr/share/vim/syntax/cmakecache.vim
 * /usr/share/vim/syntax/cmod.vim
@@ -1735,6 +1753,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/gdscript.vim
 * /usr/share/vim/syntax/gdshader.vim
 * /usr/share/vim/syntax/gedcom.vim
+* /usr/share/vim/syntax/gel.vim
 * /usr/share/vim/syntax/gemtext.vim
 * /usr/share/vim/syntax/gift.vim
 * /usr/share/vim/syntax/git.vim
@@ -1756,6 +1775,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/gpg.vim
 * /usr/share/vim/syntax/gprof.vim
 * /usr/share/vim/syntax/grads.vim
+* /usr/share/vim/syntax/graphql.vim
 * /usr/share/vim/syntax/gretl.vim
 * /usr/share/vim/syntax/groff.vim
 * /usr/share/vim/syntax/groovy.vim
@@ -1822,7 +1842,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/jess.vim
 * /usr/share/vim/syntax/jgraph.vim
 * /usr/share/vim/syntax/jinja.vim
-* /usr/share/vim/syntax/jj.vim
+* /usr/share/vim/syntax/jjdescription.vim
 * /usr/share/vim/syntax/jovial.vim
 * /usr/share/vim/syntax/jproperties.vim
 * /usr/share/vim/syntax/jq.vim
@@ -1831,6 +1851,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/jsonc.vim
 * /usr/share/vim/syntax/jsp.vim
 * /usr/share/vim/syntax/julia.vim
+* /usr/share/vim/syntax/just.vim
 * /usr/share/vim/syntax/karel.vim
 * /usr/share/vim/syntax/kconfig.vim
 * /usr/share/vim/syntax/kdl.vim
@@ -1861,6 +1882,8 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/lite.vim
 * /usr/share/vim/syntax/litestep.vim
 * /usr/share/vim/syntax/livebook.vim
+* /usr/share/vim/syntax/lnk.vim
+* /usr/share/vim/syntax/lnkmap.vim
 * /usr/share/vim/syntax/loginaccess.vim
 * /usr/share/vim/syntax/logindefs.vim
 * /usr/share/vim/syntax/logtalk.vim
@@ -1939,7 +1962,6 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/neomuttlog.vim
 * /usr/share/vim/syntax/neomuttrc.vim
 * /usr/share/vim/syntax/netrc.vim
-* /usr/share/vim/syntax/netrw.vim
 * /usr/share/vim/syntax/nginx.vim
 * /usr/share/vim/syntax/ninja.vim
 * /usr/share/vim/syntax/nix.vim
@@ -2086,6 +2108,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/sgmldecl.vim
 * /usr/share/vim/syntax/sgmllnx.vim
 * /usr/share/vim/syntax/sh.vim
+* /usr/share/vim/syntax/shaderslang.vim
 * /usr/share/vim/syntax/shared/context-data-context.vim
 * /usr/share/vim/syntax/shared/context-data-interfaces.vim
 * /usr/share/vim/syntax/shared/context-data-metafun.vim
@@ -2183,6 +2206,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/syntax/texmf.vim
 * /usr/share/vim/syntax/tf.vim
 * /usr/share/vim/syntax/thrift.vim
+* /usr/share/vim/syntax/tiasm.vim
 * /usr/share/vim/syntax/tidy.vim
 * /usr/share/vim/syntax/tilde.vim
 * /usr/share/vim/syntax/tli.vim
@@ -2302,10 +2326,14 @@ VIM - Vi IMproved console
 * /usr/share/vim/tools/xcmdsrv_client.c
 * /usr/share/vim/tutor/en/vim-01-beginner.tutor
 * /usr/share/vim/tutor/en/vim-01-beginner.tutor.json
+* /usr/share/vim/tutor/it/vim-01-beginner.tutor
+* /usr/share/vim/tutor/it/vim-01-beginner.tutor.json
 * /usr/share/vim/tutor/README.el.cp737.txt
 * /usr/share/vim/tutor/README.el.txt
 * /usr/share/vim/tutor/README.ru.utf-8.txt
 * /usr/share/vim/tutor/README.txt
+* /usr/share/vim/tutor/sr/vim-01-beginner.tutor
+* /usr/share/vim/tutor/sr/vim-01-beginner.tutor.json
 * /usr/share/vim/tutor/tutor.tutor
 * /usr/share/vim/tutor/tutor.tutor.json
 * /usr/share/vim/tutor/tutor.vim
@@ -2381,6 +2409,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/tutor/tutor2
 * /usr/share/vim/tutor/tutor2.it
 * /usr/share/vim/tutor/tutor2.it.utf-8
+* /usr/share/vim/tutor/tutor2.sr.utf-8
 * /usr/share/vim/tutor/tutor2.utf-8
 * /usr/share/vim/vimrc
 * /usr/share/vim/vimrc_example.vim

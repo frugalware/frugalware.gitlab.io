@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xhost 1.0.9-1"
-version = "1.0.9-1"
+title = "xhost 1.0.10-1"
+version = "1.0.10-1"
 description = "X.Org xgc application"
-date = "2022-12-15T13:59:47"
+date = "2025-02-03T08:42:33"
 aliases = "/packages/4920"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "27164"
-usize = "78914"
-sha1sum = "422792799eb75ad3efe91e51d170375ac98cc258"
+size = "28332"
+usize = "74296"
+sha1sum = "83cbcc2864930691c82a7ee1597e91a99b88f14e"
 depends = "['libxmu>=1.1.2-3']"
 license = "GPL2"
 +++
@@ -19,9 +19,9 @@ X.Org xgc application
 
 ### Files: 
 * /usr/bin/xhost
-* /usr/share/doc/xhost-1.0.9/AUTHORS
-* /usr/share/doc/xhost-1.0.9/ChangeLog
-* /usr/share/doc/xhost-1.0.9/COPYING
-* /usr/share/doc/xhost-1.0.9/INSTALL
-* /usr/share/doc/xhost-1.0.9/README.md
+* /usr/share/doc/xhost-1.0.10/AUTHORS
+* /usr/share/doc/xhost-1.0.10/ChangeLog
+* /usr/share/doc/xhost-1.0.10/COPYING
+* /usr/share/doc/xhost-1.0.10/INSTALL
+* /usr/share/doc/xhost-1.0.10/README.md
 * /usr/share/man/man1/xhost.1.gz
