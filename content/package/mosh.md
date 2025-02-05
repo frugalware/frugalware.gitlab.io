@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mosh 1.4.0-23"
-version = "1.4.0-23"
+title = "mosh 1.4.0-24"
+version = "1.4.0-24"
 description = "SSH replacement with roaming, supports intermittent connectivity"
-date = "2025-01-13T14:54:45"
+date = "2025-02-05T16:01:00"
 aliases = "/packages/217599"
 categories = ['apps-extra']
 upstreamurl = "https://mosh.org"
 arch = "x86_64"
-size = "206156"
-usize = "651137"
-sha1sum = "18073db0f794127665e58301db95a0470414eb34"
+size = "206904"
+usize = "655009"
+sha1sum = "2a4f1956be126e5cda1bda29d86c6839251f2eb3"
 depends = "['libstdc++', 'libutempter', 'ncurses>=6.5', 'openssl>=3.1.0', 'perl>=5.22.0', 'protobuf>=29.3']"
 +++
 ### Description: 

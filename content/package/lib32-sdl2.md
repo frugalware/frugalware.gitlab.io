@@ -12,7 +12,7 @@ size = "905328"
 usize = "4422916"
 sha1sum = "06b7a7c61486043afbe5747c7e0141889cc0a9d2"
 depends = "[]"
-reverse_depends = "['lib32-faudio', 'lib32-openal', 'lib32-sdl2_image', 'lib32-sdl2_mixer', 'lib32-v4l-utils']"
+reverse_depends = "['lib32-faudio', 'lib32-openal', 'lib32-sdl2_image', 'lib32-sdl2_mixer', 'lib32-sdl3_image', 'lib32-v4l-utils']"
 +++
 ### Description: 
 Simple DirectMedia Layer library v2 ( 32bit )

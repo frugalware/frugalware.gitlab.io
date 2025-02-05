@@ -12,7 +12,7 @@ size = "324832"
 usize = "1199912"
 sha1sum = "2eee11ff63f3604056dacd5516be2f7024e8121c"
 depends = "['lib32-xz>=5.2.2-5', 'lib32-zlib>=1.2.12']"
-reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-sdl2_image']"
+reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-sdl2_image', 'lib32-sdl3_image']"
 +++
 ### Description: 
 Library for manipulation of TIFF images ( 32bit )

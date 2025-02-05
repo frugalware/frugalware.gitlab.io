@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "botan 3.6.1-2"
-version = "3.6.1-2"
+title = "botan 3.7.1-1"
+version = "3.7.1-1"
 description = "Crypto library written in C++"
-date = "2024-11-03T11:55:06"
+date = "2025-02-05T15:23:30"
 aliases = "/packages/118822"
 categories = ['lib']
 upstreamurl = "http://botan.randombit.net/"
 arch = "x86_64"
-size = "2791972"
-usize = "10308229"
-sha1sum = "0fa4d3208c558671265ba96e381c82b341cd8143"
+size = "2834024"
+usize = "10480909"
+sha1sum = "48c3242f2f5b35ef17842b1f221dfd279ef0fce1"
 depends = "['bzip2', 'libgcc', 'libstdc++', 'python3', 'sqlite3', 'xz']"
 reverse_depends = "['keepassxc', 'qca-botan', 'qca-qt5']"
 +++
@@ -21,6 +21,7 @@ Crypto library written in C++
 * /usr/bin/botan
 * /usr/include/botan-3/botan/aead.h
 * /usr/include/botan-3/botan/allocator.h
+* /usr/include/botan-3/botan/api.h
 * /usr/include/botan-3/botan/argon2.h
 * /usr/include/botan-3/botan/argon2fmt.h
 * /usr/include/botan-3/botan/asn1_obj.h
@@ -45,6 +46,8 @@ Crypto library written in C++
 * /usr/include/botan-3/botan/certstor_system.h
 * /usr/include/botan-3/botan/chacha_rng.h
 * /usr/include/botan-3/botan/cipher_mode.h
+* /usr/include/botan-3/botan/cmce.h
+* /usr/include/botan-3/botan/cmce_parameter_set.h
 * /usr/include/botan-3/botan/compiler.h
 * /usr/include/botan-3/botan/compression.h
 * /usr/include/botan-3/botan/concepts.h
@@ -70,6 +73,7 @@ Crypto library written in C++
 * /usr/include/botan-3/botan/ec_apoint.h
 * /usr/include/botan-3/botan/ec_group.h
 * /usr/include/botan-3/botan/ec_point.h
+* /usr/include/botan-3/botan/ec_point_format.h
 * /usr/include/botan-3/botan/ec_scalar.h
 * /usr/include/botan-3/botan/ed25519.h
 * /usr/include/botan-3/botan/ed448.h
@@ -106,6 +110,7 @@ Crypto library written in C++
 * /usr/include/botan-3/botan/p11_ecc_key.h
 * /usr/include/botan-3/botan/p11_ecdh.h
 * /usr/include/botan-3/botan/p11_ecdsa.h
+* /usr/include/botan-3/botan/p11_mechanism.h
 * /usr/include/botan-3/botan/p11_object.h
 * /usr/include/botan-3/botan/p11_randomgenerator.h
 * /usr/include/botan-3/botan/p11_rsa.h
@@ -130,6 +135,7 @@ Crypto library written in C++
 * /usr/include/botan-3/botan/pk_ops_fwd.h
 * /usr/include/botan-3/botan/processor_rng.h
 * /usr/include/botan-3/botan/psk_db.h
+* /usr/include/botan-3/botan/pss_params.h
 * /usr/include/botan-3/botan/pubkey.h
 * /usr/include/botan-3/botan/pwdhash.h
 * /usr/include/botan-3/botan/reducer.h
@@ -199,83 +205,86 @@ Crypto library written in C++
 * /usr/include/botan-3/botan/xof.h
 * /usr/include/botan-3/botan/zfec.h
 * /usr/include/botan-3/botan/zlib.h
-* /usr/lib/cmake/Botan-3.6.1/botan-config-version.cmake
-* /usr/lib/cmake/Botan-3.6.1/botan-config.cmake
+* /usr/lib/cmake/Botan-3.7.1/botan-config-version.cmake
+* /usr/lib/cmake/Botan-3.7.1/botan-config.cmake
 * /usr/lib/libbotan-3.so
-* /usr/lib/libbotan-3.so.6
-* /usr/lib/libbotan-3.so.6.6.1
+* /usr/lib/libbotan-3.so.7
+* /usr/lib/libbotan-3.so.7.7.1
 * /usr/lib/pkgconfig/botan-3.pc
 * /usr/lib/python3.13/site-packages/botan3.py
-* /usr/share/doc/botan-3.6.1/authors.txt
-* /usr/share/doc/botan-3.6.1/handbook/abi.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/bigint.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/block_cipher.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/cipher_modes.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/compression.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/contents.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/credentials_manager.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/cryptobox.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/ecc.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/env_vars.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/ffi.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/filters.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/footguns.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/fpe.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/hash.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/kdf.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/keywrap.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/message_auth_codes.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/otp.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/passhash.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/pbkdf.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/pkcs11.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/providers.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/psk_db.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/pubkey.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/python.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/rng.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/roughtime.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/secmem.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/srp.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/stream_ciphers.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/tls.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/tpm.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/tss.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/versions.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/x509.rst
-* /usr/share/doc/botan-3.6.1/handbook/api_ref/zfec.rst
-* /usr/share/doc/botan-3.6.1/handbook/authors.txt
-* /usr/share/doc/botan-3.6.1/handbook/building.rst
-* /usr/share/doc/botan-3.6.1/handbook/cli.rst
-* /usr/share/doc/botan-3.6.1/handbook/contents.rst
-* /usr/share/doc/botan-3.6.1/handbook/credits.rst
-* /usr/share/doc/botan-3.6.1/handbook/deprecated.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/configure.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/contents.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/continuous_integration.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/contributing.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/fuzzing.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/mistakes.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/next_major.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/oids.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/os.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/reading_list.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/release_process.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/test_framework.rst
-* /usr/share/doc/botan-3.6.1/handbook/dev_ref/todo.rst
-* /usr/share/doc/botan-3.6.1/handbook/goals.rst
-* /usr/share/doc/botan-3.6.1/handbook/hardware_acceleration.rst
-* /usr/share/doc/botan-3.6.1/handbook/index.rst
-* /usr/share/doc/botan-3.6.1/handbook/migration_guide.rst
-* /usr/share/doc/botan-3.6.1/handbook/old_news.rst
-* /usr/share/doc/botan-3.6.1/handbook/openssl_migration_guide.rst
-* /usr/share/doc/botan-3.6.1/handbook/packaging.rst
-* /usr/share/doc/botan-3.6.1/handbook/pgpkey.txt
-* /usr/share/doc/botan-3.6.1/handbook/roadmap.rst
-* /usr/share/doc/botan-3.6.1/handbook/security.rst
-* /usr/share/doc/botan-3.6.1/handbook/sem_ver.rst
-* /usr/share/doc/botan-3.6.1/handbook/side_channels.rst
-* /usr/share/doc/botan-3.6.1/handbook/support.rst
-* /usr/share/doc/botan-3.6.1/license.txt
-* /usr/share/doc/botan-3.6.1/news.txt
-* /usr/share/doc/botan-3.6.1/pgpkey.txt
+* /usr/share/doc/botan-3.7.1/authors.txt
+* /usr/share/doc/botan-3.7.1/handbook/abi.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/bigint.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/block_cipher.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/cipher_modes.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/compression.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/contents.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/credentials_manager.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/cryptobox.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/ecc.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/ec_group.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/env_vars.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/ffi.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/filters.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/footguns.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/fpe.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/hash.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/kdf.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/keywrap.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/message_auth_codes.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/otp.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/passhash.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/pbkdf.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/pkcs11.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/providers.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/psk_db.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/pubkey.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/python.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/rng.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/roughtime.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/secmem.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/sodium.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/srp.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/stream_ciphers.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/tls.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/tpm.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/tss.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/versions.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/x509.rst
+* /usr/share/doc/botan-3.7.1/handbook/api_ref/zfec.rst
+* /usr/share/doc/botan-3.7.1/handbook/authors.txt
+* /usr/share/doc/botan-3.7.1/handbook/building.rst
+* /usr/share/doc/botan-3.7.1/handbook/cli.rst
+* /usr/share/doc/botan-3.7.1/handbook/contents.rst
+* /usr/share/doc/botan-3.7.1/handbook/credits.rst
+* /usr/share/doc/botan-3.7.1/handbook/deprecated.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/configure.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/contents.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/continuous_integration.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/contributing.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/fuzzing.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/mistakes.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/next_major.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/oids.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/os.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/reading_list.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/release_process.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/test_framework.rst
+* /usr/share/doc/botan-3.7.1/handbook/dev_ref/todo.rst
+* /usr/share/doc/botan-3.7.1/handbook/goals.rst
+* /usr/share/doc/botan-3.7.1/handbook/hardware_acceleration.rst
+* /usr/share/doc/botan-3.7.1/handbook/index.rst
+* /usr/share/doc/botan-3.7.1/handbook/migration_guide.rst
+* /usr/share/doc/botan-3.7.1/handbook/news_2x.rst
+* /usr/share/doc/botan-3.7.1/handbook/old_news.rst
+* /usr/share/doc/botan-3.7.1/handbook/openssl_migration_guide.rst
+* /usr/share/doc/botan-3.7.1/handbook/packaging.rst
+* /usr/share/doc/botan-3.7.1/handbook/pgpkey.txt
+* /usr/share/doc/botan-3.7.1/handbook/roadmap.rst
+* /usr/share/doc/botan-3.7.1/handbook/security.rst
+* /usr/share/doc/botan-3.7.1/handbook/sem_ver.rst
+* /usr/share/doc/botan-3.7.1/handbook/side_channels.rst
+* /usr/share/doc/botan-3.7.1/handbook/support.rst
+* /usr/share/doc/botan-3.7.1/license.txt
+* /usr/share/doc/botan-3.7.1/news.txt
+* /usr/share/doc/botan-3.7.1/pgpkey.txt

@@ -12,7 +12,7 @@ size = "237548"
 usize = "1556472"
 sha1sum = "9d63b773cee02d564da84ab913149f74ae8ead40"
 depends = "['glibc>=2.34']"
-reverse_depends = "['freeimage', 'sdl2_image']"
+reverse_depends = "['freeimage', 'sdl2_image', 'sdl3_image']"
 +++
 ### Description: 
 Open source implementation of jpegxr

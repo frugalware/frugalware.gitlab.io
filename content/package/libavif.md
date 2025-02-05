@@ -12,7 +12,7 @@ size = "148448"
 usize = "427699"
 sha1sum = "1e63ee883e6871df3de0685649956a5545305e5f"
 depends = "['aom', 'dav1d>=1.3.0', 'libpng', 'libyuv', 'rav1e', 'svt-av1>=2.0.0']"
-reverse_depends = "['darktable', 'gd', 'kimageformats', 'kimageformats5', 'sdl2_image', 'webkit-gtk3']"
+reverse_depends = "['darktable', 'gd', 'kimageformats', 'kimageformats5', 'sdl2_image', 'sdl3_image', 'webkit-gtk3']"
 +++
 ### Description: 
 Library for encoding and decoding .avif files

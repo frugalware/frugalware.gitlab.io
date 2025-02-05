@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spdlog 1.15.0-2"
-version = "1.15.0-2"
+title = "spdlog 1.15.1-1"
+version = "1.15.1-1"
 description = "Very fast, header-only/compiled, C++ logging library"
-date = "2025-01-05T21:56:18"
+date = "2025-02-05T15:40:16"
 aliases = "/packages/220551"
 categories = ['lib']
 upstreamurl = "https://github.com/gabime/spdlog"
 arch = "x86_64"
-size = "345584"
-usize = "1537959"
-sha1sum = "38cec2a27553b2c7af49d0a08c88d02e68d0c505"
+size = "145664"
+usize = "709342"
+sha1sum = "aa326e9ea14a3bb485d562d27841df0df63d71b7"
 depends = "['fmtlib>=11.1.1']"
 reverse_depends = "['cryfs', 'level-zero']"
 +++
@@ -114,17 +114,8 @@ Very fast, header-only/compiled, C++ logging library
 * /usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
 * /usr/lib/libspdlog.so
 * /usr/lib/libspdlog.so.1.15
-* /usr/lib/libspdlog.so.1.15.0
+* /usr/lib/libspdlog.so.1.15.1
 * /usr/lib/pkgconfig/spdlog.pc
-* /usr/share/doc/spdlog-1.15.0/AUTHORS
-* /usr/share/doc/spdlog-1.15.0/ChangeLog
-* /usr/share/doc/spdlog-1.15.0/COPYING
-* /usr/share/doc/spdlog-1.15.0/COPYING.LESSER
-* /usr/share/doc/spdlog-1.15.0/INSTALL
-* /usr/share/doc/spdlog-1.15.0/LICENSE
-* /usr/share/doc/spdlog-1.15.0/NEWS
-* /usr/share/doc/spdlog-1.15.0/README
-* /usr/share/doc/spdlog-1.15.0/README.md
-* /usr/share/doc/spdlog-1.15.0/THANKS
-* /usr/share/doc/spdlog-1.15.0/TODO
-* /usr/share/doc/spdlog-1.15.0/VERSION
+* /usr/share/doc/spdlog-1.15.1/INSTALL
+* /usr/share/doc/spdlog-1.15.1/LICENSE
+* /usr/share/doc/spdlog-1.15.1/README.md

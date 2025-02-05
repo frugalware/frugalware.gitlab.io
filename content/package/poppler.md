@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler 25.01.0-2"
-version = "25.01.0-2"
+title = "poppler 25.02.0-1"
+version = "25.02.0-1"
 description = "A PDF rendering library"
-date = "2025-02-03T15:57:33"
+date = "2025-02-05T15:18:27"
 aliases = "/packages/3295"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "2036468"
-usize = "10168394"
-sha1sum = "7f5746ce114d3e3dc8a70d421dabfe01fbe2cc71"
+size = "2043744"
+usize = "10210706"
+sha1sum = "273414d8fe766876c3bb5aa16d36ff485b2fbbfa"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data', 'poppler-data']"
 reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
@@ -137,18 +137,18 @@ A PDF rendering library
 * /usr/lib/libpoppler-cpp.so.2
 * /usr/lib/libpoppler-cpp.so.2.0.0
 * /usr/lib/libpoppler.so
-* /usr/lib/libpoppler.so.145
-* /usr/lib/libpoppler.so.145.0.0
+* /usr/lib/libpoppler.so.146
+* /usr/lib/libpoppler.so.146.0.0
 * /usr/lib/pkgconfig/poppler-cpp.pc
 * /usr/lib/pkgconfig/poppler.pc
-* /usr/share/doc/poppler-25.01.0/AUTHORS
-* /usr/share/doc/poppler-25.01.0/ChangeLog
-* /usr/share/doc/poppler-25.01.0/COPYING
-* /usr/share/doc/poppler-25.01.0/COPYING3
-* /usr/share/doc/poppler-25.01.0/INSTALL
-* /usr/share/doc/poppler-25.01.0/NEWS
-* /usr/share/doc/poppler-25.01.0/README-XPDF
-* /usr/share/doc/poppler-25.01.0/README.contributors
-* /usr/share/doc/poppler-25.01.0/README.md
+* /usr/share/doc/poppler-25.02.0/AUTHORS
+* /usr/share/doc/poppler-25.02.0/ChangeLog
+* /usr/share/doc/poppler-25.02.0/COPYING
+* /usr/share/doc/poppler-25.02.0/COPYING3
+* /usr/share/doc/poppler-25.02.0/INSTALL
+* /usr/share/doc/poppler-25.02.0/NEWS
+* /usr/share/doc/poppler-25.02.0/README-XPDF
+* /usr/share/doc/poppler-25.02.0/README.contributors
+* /usr/share/doc/poppler-25.02.0/README.md
 * /usr/share/gir-1.0/Poppler-0.18.gir
 * /usr/share/locale/ca/LC_MESSAGES/pdfsig.mo

@@ -12,7 +12,7 @@ size = "271936"
 usize = "914478"
 sha1sum = "44ba34e2d0a499e4645d7a28a2bf702d22a3805b"
 depends = "['lib32-libgif', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.10-2']"
-reverse_depends = "['lib32-sdl2_image']"
+reverse_depends = "['lib32-sdl2_image', 'lib32-sdl3_image']"
 +++
 ### Description: 
 A library for a new image format comparable to JPEG. ( 32bit )
