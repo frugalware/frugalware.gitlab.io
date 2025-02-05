@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-mr 25.2.0.3-1"
-version = "25.2.0.3-1"
+title = "libreoffice-l10n-mr 25.2.0.3-2"
+version = "25.2.0.3-2"
 description = "Installs Marathi support in LibreOffice"
-date = "2025-02-05T13:24:50"
+date = "2025-02-05T19:26:11"
 aliases = "/packages/104090"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "392136"
+size = "392396"
 usize = "2502304"
-sha1sum = "d5fb09f4f9e0bd24dbfac8c3172c2141a995e6f2"
+sha1sum = "0859acdce3b58c93d949443db9def4891c67a18d"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

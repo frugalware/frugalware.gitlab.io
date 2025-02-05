@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-nl 25.2.0.3-1"
-version = "25.2.0.3-1"
+title = "libreoffice-l10n-nl 25.2.0.3-2"
+version = "25.2.0.3-2"
 description = "Installs Dutch support in LibreOffice"
-date = "2025-02-05T13:24:50"
+date = "2025-02-05T19:26:11"
 aliases = "/packages/104094"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5076556"
+size = "5076496"
 usize = "37082312"
-sha1sum = "5ca199e8c6d3b6daf90bb5ce049eb741afa682b0"
+sha1sum = "66e7deccfb4e1ef1dc28c6a3c756bcfe1d7bf2f0"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sat-olck 25.2.0.3-1"
-version = "25.2.0.3-1"
+title = "libreoffice-l10n-sat-olck 25.2.0.3-2"
+version = "25.2.0.3-2"
 description = "Installs Santali (Ol-Chiki) support in LibreOffice"
-date = "2025-02-05T13:24:50"
+date = "2025-02-05T19:26:11"
 aliases = "/packages/222626"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "341596"
+size = "341568"
 usize = "2407711"
-sha1sum = "3fc42c3b5bcf9311c2e80f7d9b6f21fc7144208f"
+sha1sum = "f43570b0976faafe5edb6b57f7ee0f730c906ac6"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-scripting-javascript 25.2.0.3-1"
-version = "25.2.0.3-1"
+title = "libreoffice-scripting-javascript 25.2.0.3-2"
+version = "25.2.0.3-2"
 description = "Installs scripting javascript support in LibreOffice"
-date = "2025-02-05T13:24:50"
+date = "2025-02-05T19:26:11"
 aliases = "/packages/119427"
 categories = ['xapps-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "12364"
+size = "12368"
 usize = "0"
-sha1sum = "8f35b2e8944a3a1b8fd0ff083a5387c39efb4aaf"
+sha1sum = "12b24c19316064d2986c01e143a2266a27600d77"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 
