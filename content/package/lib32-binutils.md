@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-binutils 2.43.1-3"
-version = "2.43.1-3"
+title = "lib32-binutils 2.44-1"
+version = "2.44-1"
 description = "A set of programs to assemble and manipulate binary and object files ( 32bit )"
-date = "2024-10-23T07:42:10"
+date = "2025-02-05T14:18:34"
 aliases = "/packages/221229"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "4688600"
-usize = "22026256"
-sha1sum = "d170abc30a8373d61f9f90f002402da07803a17a"
+size = "3016072"
+usize = "14223231"
+sha1sum = "fff4899d2ef8fc9c176a171d9c4cd903b6e49596"
 depends = "['lib32-zstd']"
 reverse_depends = "['lib32-cairo']"
 +++
@@ -22,7 +22,6 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/i686-frugalware-linux/bin/ar
 * /usr/i686-frugalware-linux/bin/as
 * /usr/i686-frugalware-linux/bin/c++filt
-* /usr/i686-frugalware-linux/bin/dwp
 * /usr/i686-frugalware-linux/bin/elfedit
 * /usr/i686-frugalware-linux/bin/gp-archive
 * /usr/i686-frugalware-linux/bin/gp-collect-app
@@ -31,9 +30,13 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/i686-frugalware-linux/bin/gp-display-text
 * /usr/i686-frugalware-linux/bin/gprof
 * /usr/i686-frugalware-linux/bin/gprofng
+* /usr/i686-frugalware-linux/bin/gprofng-archive
+* /usr/i686-frugalware-linux/bin/gprofng-collect-app
+* /usr/i686-frugalware-linux/bin/gprofng-display-html
+* /usr/i686-frugalware-linux/bin/gprofng-display-src
+* /usr/i686-frugalware-linux/bin/gprofng-display-text
 * /usr/i686-frugalware-linux/bin/ld
 * /usr/i686-frugalware-linux/bin/ld.bfd
-* /usr/i686-frugalware-linux/bin/ld.gold
 * /usr/i686-frugalware-linux/bin/nm
 * /usr/i686-frugalware-linux/bin/objcopy
 * /usr/i686-frugalware-linux/bin/objdump
@@ -200,7 +203,7 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/lib32/gprofng/libgp-heap.so
 * /usr/lib32/gprofng/libgp-iotrace.so
 * /usr/lib32/gprofng/libgp-sync.so
-* /usr/lib32/libbfd-2.43.1.so
+* /usr/lib32/libbfd-2.44.so
 * /usr/lib32/libbfd.so
 * /usr/lib32/libctf-nobfd.so
 * /usr/lib32/libctf-nobfd.so.0
@@ -211,7 +214,7 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/lib32/libgprofng.so
 * /usr/lib32/libgprofng.so.0
 * /usr/lib32/libgprofng.so.0.0.0
-* /usr/lib32/libopcodes-2.43.1.so
+* /usr/lib32/libopcodes-2.44.so
 * /usr/lib32/libopcodes.so
 * /usr/lib32/libsframe.so
 * /usr/lib32/libsframe.so.1

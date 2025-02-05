@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "at-spi2-core 2.55.0.1-1"
-version = "2.55.0.1-1"
+title = "at-spi2-core 2.55.2-1"
+version = "2.55.2-1"
 description = "Gnome Accessibility Toolkit"
-date = "2025-01-17T10:57:35"
+date = "2025-02-05T15:10:54"
 aliases = "/packages/118746"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "180172"
-usize = "790862"
-sha1sum = "d9bde087ea506d94954fb2941aa9da6d5def59f0"
-depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.55.0.1', 'libxml2', 'libxtst>=1.2.2-3']"
+size = "180272"
+usize = "791335"
+sha1sum = "f6dd153196e92ec1300309e107bd4d3693f13f70"
+depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.55.2', 'libxml2', 'libxtst>=1.2.2-3']"
 reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++
 ### Description: 
@@ -62,7 +62,7 @@ Gnome Accessibility Toolkit
 * /usr/lib/gtk-2.0/modules/libatk-bridge.so
 * /usr/lib/libatk-1.0.so
 * /usr/lib/libatk-1.0.so.0
-* /usr/lib/libatk-1.0.so.0.25509.1
+* /usr/lib/libatk-1.0.so.0.25511.1
 * /usr/lib/libatk-bridge-2.0.so
 * /usr/lib/libatk-bridge-2.0.so.0
 * /usr/lib/libatk-bridge-2.0.so.0.0.0
@@ -72,8 +72,8 @@ Gnome Accessibility Toolkit
 * /usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service
 * /usr/share/dbus-1/services/org.a11y.Bus.service
 * /usr/share/defaults/at-spi2/accessibility.conf
-* /usr/share/doc/at-spi2-core-2.55.0.1/COPYING
-* /usr/share/doc/at-spi2-core-2.55.0.1/INSTALL
-* /usr/share/doc/at-spi2-core-2.55.0.1/NEWS
-* /usr/share/doc/at-spi2-core-2.55.0.1/README.md
-* /usr/share/doc/at-spi2-core-2.55.0.1/README.msvc
+* /usr/share/doc/at-spi2-core-2.55.2/COPYING
+* /usr/share/doc/at-spi2-core-2.55.2/INSTALL
+* /usr/share/doc/at-spi2-core-2.55.2/NEWS
+* /usr/share/doc/at-spi2-core-2.55.2/README.md
+* /usr/share/doc/at-spi2-core-2.55.2/README.msvc
