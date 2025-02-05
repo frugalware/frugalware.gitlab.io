@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-v4l2 3.0.21-19"
-version = "3.0.21-19"
+title = "vlc-v4l2 3.0.21-20"
+version = "3.0.21-20"
 description = "vlc plugin for Video4Linux 2"
-date = "2025-01-13T15:50:23"
+date = "2025-02-05T16:12:58"
 aliases = "/packages/219533"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "38668"
-usize = "68224"
-sha1sum = "7ac790d1a86cd34ea8c142fb9f5b4f5ab4b08014"
+size = "38696"
+usize = "68256"
+sha1sum = "18a7b1c6656e48f96053cdf6ca6de53a4711dbda"
 depends = "['libvlc>=3.0.21', 'zvbi']"
 +++
 ### Description: 

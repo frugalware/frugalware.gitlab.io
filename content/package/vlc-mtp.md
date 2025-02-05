@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-mtp 3.0.21-19"
-version = "3.0.21-19"
+title = "vlc-mtp 3.0.21-20"
+version = "3.0.21-20"
 description = "vlc plugin for mpt"
-date = "2025-01-13T15:50:23"
+date = "2025-02-05T16:12:58"
 aliases = "/packages/218051"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "19408"
-usize = "19648"
-sha1sum = "53a2ec69a30450a992b78b511bbe8f3b746bb4bd"
+size = "19428"
+usize = "19664"
+sha1sum = "08fedc62beb49001d69e95e54aad8a81872b238d"
 depends = "['libmtp', 'libvlc>=3.0.21']"
 +++
 ### Description: 
