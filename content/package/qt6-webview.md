@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-webview 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-webview 6.8.2-1"
+version = "6.8.2-1"
 description = "The Qt6 toolkit, qtwebview"
-date = "2024-12-03T10:28:33"
+date = "2025-02-01T18:55:40"
 aliases = "/packages/220792"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "68388"
-usize = "413522"
-sha1sum = "8d9f4604f3bfa79a74f7765913901cc86be91c1b"
+size = "68208"
+usize = "413071"
+sha1sum = "e117aae05dd719c8bda223f205d60a3713fd4094"
 depends = "['qt6-webengine']"
 reverse_depends = "['discover', 'neochat', 'tokodon']"
 +++
@@ -18,24 +18,24 @@ reverse_depends = "['discover', 'neochat', 'tokodon']"
 The Qt6 toolkit, qtwebview
 
 ### Files: 
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qabstractwebview_p.h
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qnativeviewcontroller_p.h
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qwebviewfactory_p.h
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qwebviewinterface_p.h
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qwebviewloadrequest_p.h
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qwebviewplugin_p.h
-* /usr/include/qt6/QtWebView/6.8.1/QtWebView/private/qwebview_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qabstractwebview_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qnativeviewcontroller_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qwebviewfactory_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qwebviewinterface_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qwebviewloadrequest_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qwebviewplugin_p.h
+* /usr/include/qt6/QtWebView/6.8.2/QtWebView/private/qwebview_p.h
 * /usr/include/qt6/QtWebView/QtWebView
 * /usr/include/qt6/QtWebView/QtWebViewDepends
 * /usr/include/qt6/QtWebView/qtwebviewfunctions.h
 * /usr/include/qt6/QtWebView/QtWebViewVersion
 * /usr/include/qt6/QtWebView/qtwebviewversion.h
 * /usr/include/qt6/QtWebView/qwebview_global.h
-* /usr/include/qt6/QtWebViewQuick/6.8.1/QtWebViewQuick/private/qquickviewcontroller_p.h
-* /usr/include/qt6/QtWebViewQuick/6.8.1/QtWebViewQuick/private/qquickwebviewloadrequest_p.h
-* /usr/include/qt6/QtWebViewQuick/6.8.1/QtWebViewQuick/private/qquickwebviewsettings_p.h
-* /usr/include/qt6/QtWebViewQuick/6.8.1/QtWebViewQuick/private/qquickwebview_p.h
-* /usr/include/qt6/QtWebViewQuick/6.8.1/QtWebViewQuick/private/qtwebviewquickglobal_p.h
+* /usr/include/qt6/QtWebViewQuick/6.8.2/QtWebViewQuick/private/qquickviewcontroller_p.h
+* /usr/include/qt6/QtWebViewQuick/6.8.2/QtWebViewQuick/private/qquickwebviewloadrequest_p.h
+* /usr/include/qt6/QtWebViewQuick/6.8.2/QtWebViewQuick/private/qquickwebviewsettings_p.h
+* /usr/include/qt6/QtWebViewQuick/6.8.2/QtWebViewQuick/private/qquickwebview_p.h
+* /usr/include/qt6/QtWebViewQuick/6.8.2/QtWebViewQuick/private/qtwebviewquickglobal_p.h
 * /usr/include/qt6/QtWebViewQuick/QtWebViewQuick
 * /usr/include/qt6/QtWebViewQuick/QtWebViewQuickDepends
 * /usr/include/qt6/QtWebViewQuick/qtwebviewquickexports.h
@@ -76,11 +76,11 @@ The Qt6 toolkit, qtwebview
 * /usr/lib/libQt6WebView.prl
 * /usr/lib/libQt6WebView.so
 * /usr/lib/libQt6WebView.so.6
-* /usr/lib/libQt6WebView.so.6.8.1
+* /usr/lib/libQt6WebView.so.6.8.2
 * /usr/lib/libQt6WebViewQuick.prl
 * /usr/lib/libQt6WebViewQuick.so
 * /usr/lib/libQt6WebViewQuick.so.6
-* /usr/lib/libQt6WebViewQuick.so.6.8.1
+* /usr/lib/libQt6WebViewQuick.so.6.8.2
 * /usr/lib/pkgconfig/Qt6WebView.pc
 * /usr/lib/pkgconfig/Qt6WebViewQuick.pc
 * /usr/lib/qt6/metatypes/qt6webviewquick_release_metatypes.json
@@ -95,4 +95,4 @@ The Qt6 toolkit, qtwebview
 * /usr/lib/qt6/qml/QtWebView/libqtwebviewquickplugin.so
 * /usr/lib/qt6/qml/QtWebView/plugins.qmltypes
 * /usr/lib/qt6/qml/QtWebView/qmldir
-* /usr/lib/qt6/sbom/qtwebview-6.8.1.spdx
+* /usr/lib/qt6/sbom/qtwebview-6.8.2.spdx

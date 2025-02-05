@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qtutilities 6.14.5-1"
-version = "6.14.5-1"
+title = "qtutilities 6.14.6-1"
+version = "6.14.6-1"
 description = "Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models"
-date = "2025-01-17T11:41:55"
+date = "2025-02-04T09:23:56"
 aliases = "/packages/222519"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/qtutilities"
 arch = "x86_64"
-size = "196844"
+size = "196768"
 usize = "777227"
-sha1sum = "fcdec93ef050fa83312e6c96d8804640adf68bc3"
-depends = "['cpp-utilities', 'qt6-base']"
+sha1sum = "ca91c88ecb7987a7d8f4cc583b585dc6a4ca5387"
+depends = "['cpp-utilities', 'qt6-base>=6.8.2']"
 reverse_depends = "['syncthingtray']"
 +++
 ### Description: 
@@ -54,10 +54,10 @@ Common Qt related C++ classes and routines used by my applications such as dialo
 * /usr/include/qtutilities/widgets/pathselection.h
 * /usr/lib/libqtutilities.so
 * /usr/lib/libqtutilities.so.6
-* /usr/lib/libqtutilities.so.6.14.5
+* /usr/lib/libqtutilities.so.6.14.6
 * /usr/lib/pkgconfig/qtutilities.pc
-* /usr/share/doc/qtutilities-6.14.5/LICENSE
-* /usr/share/doc/qtutilities-6.14.5/README.md
+* /usr/share/doc/qtutilities-6.14.6/LICENSE
+* /usr/share/doc/qtutilities-6.14.6/README.md
 * /usr/share/qtutilities/cmake/modules/QtConfig.cmake
 * /usr/share/qtutilities/cmake/modules/QtGuiConfig.cmake
 * /usr/share/qtutilities/cmake/modules/QtJsProviderConfig.cmake

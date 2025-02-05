@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "socnetv 3.1-10"
-version = "3.1-10"
+title = "socnetv 3.1-11"
+version = "3.1-11"
 description = "Social Networks Analysis and Visualisation"
-date = "2024-12-05T15:36:26"
+date = "2025-02-04T12:32:49"
 aliases = "/packages/73899"
 categories = ['xapps-extra']
 upstreamurl = "https://socnetv.org"
 arch = "x86_64"
-size = "1031212"
-usize = "3417320"
-sha1sum = "6cd2cab83e2a48ecc5f65d9fb497f4c3cfe63d37"
-depends = "['qt6-5compat', 'qt6-charts', 'qt6-svg']"
+size = "1032112"
+usize = "3419016"
+sha1sum = "0ecbd88080811ac548c911edbb6b02b46f44cec1"
+depends = "['qt6-5compat>=6.8.2', 'qt6-charts>=6.8.2', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
 Social Networks Analysis and Visualisation

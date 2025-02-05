@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "stellarium 24.3-1"
-version = "24.3-1"
+title = "stellarium 24.4-1"
+version = "24.4-1"
 description = "A free open source planetarium for your computer."
-date = "2024-12-05T16:20:05"
+date = "2025-02-04T16:01:56"
 aliases = "/packages/217758"
 categories = ['xapps-extra']
 upstreamurl = "http://www.stellarium.org/"
 arch = "x86_64"
-size = "269322292"
-usize = "476686244"
-sha1sum = "23cda1d46e877430731180e94bb5835735d9afa2"
-depends = "['exiv2', 'gst1-plugins-good', 'nlopt', 'qt6-charts', 'qt6-webengine']"
+size = "270289948"
+usize = "479318283"
+sha1sum = "1bfea7c8edde514bf16859ad5414bb2ecd530a74"
+depends = "['exiv2', 'gst1-plugins-good', 'nlopt', 'qt6-charts>=6.8.2', 'qt6-webengine>=6.8.2']"
 +++
 ### Description: 
 A free open source planetarium for your computer.
@@ -22,9 +22,9 @@ A free open source planetarium for your computer.
 * /usr/lib/libShowMySky-Qt6.so.15
 * /usr/lib/libShowMySky-Qt6.so.15.0.0
 * /usr/share/applications/org.stellarium.Stellarium.desktop
-* /usr/share/doc/stellarium-24.3/ChangeLog
-* /usr/share/doc/stellarium-24.3/COPYING
-* /usr/share/doc/stellarium-24.3/README.md
+* /usr/share/doc/stellarium-24.4/ChangeLog
+* /usr/share/doc/stellarium-24.4/COPYING
+* /usr/share/doc/stellarium-24.4/README.md
 * /usr/share/icons/hicolor/128x128/apps/stellarium.png
 * /usr/share/icons/hicolor/16x16/apps/stellarium.png
 * /usr/share/icons/hicolor/256x256/apps/stellarium.png
@@ -1291,7 +1291,6 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/nebulae/default/m99.png
 * /usr/share/stellarium/nebulae/default/Medusa-vasey.png
 * /usr/share/stellarium/nebulae/default/n1023.png
-* /usr/share/stellarium/nebulae/default/n104.png
 * /usr/share/stellarium/nebulae/default/n1042.png
 * /usr/share/stellarium/nebulae/default/n1055.png
 * /usr/share/stellarium/nebulae/default/n1097.png
@@ -4318,7 +4317,7 @@ A free open source planetarium for your computer.
 * /usr/share/stellarium/webroot/js/api/viewcontrol.js
 * /usr/share/stellarium/webroot/js/api/viewoptions.js
 * /usr/share/stellarium/webroot/js/globalize.js
-* /usr/share/stellarium/webroot/js/jquery-3.6.0.js
+* /usr/share/stellarium/webroot/js/jquery-3.7.1.js
 * /usr/share/stellarium/webroot/js/jquery-ui.js
 * /usr/share/stellarium/webroot/js/jquery.ui.touch-punch.js
 * /usr/share/stellarium/webroot/js/main.js

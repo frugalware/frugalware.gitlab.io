@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sigil 2.3.1-3"
-version = "2.3.1-3"
+title = "sigil 2.4.2-1"
+version = "2.4.2-1"
 description = "A WYSISYG ebook editor."
-date = "2024-12-07T10:49:03"
+date = "2025-02-04T13:53:50"
 aliases = "/packages/135763"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Sigil-Ebook/Sigil"
 arch = "x86_64"
-size = "6693680"
-usize = "31684035"
-sha1sum = "050a3a7e4bb74ec98b95f994f02292fc4b693280"
-depends = "['hunspell', 'python3>=3.13', 'python3-lxml', 'qt6-svg', 'qt6-webengine']"
+size = "6786648"
+usize = "32371453"
+sha1sum = "def56727fd88be5f2a11c3bc099683cee0bd3cc1"
+depends = "['hunspell', 'python3>=3.13', 'python3-lxml', 'qt6-svg>=6.8.2', 'qt6-webengine>=6.8.2']"
 +++
 ### Description: 
 A WYSISYG ebook editor.
@@ -22,8 +22,8 @@ A WYSISYG ebook editor.
 * /usr/lib/sigil/libsigilgumbo.so
 * /usr/lib/sigil/sigil
 * /usr/share/applications/sigil.desktop
-* /usr/share/doc/sigil-2.3.1/COPYING.txt
-* /usr/share/doc/sigil-2.3.1/README.md
+* /usr/share/doc/sigil-2.4.2/COPYING.txt
+* /usr/share/doc/sigil-2.4.2/README.md
 * /usr/share/pixmaps/sigil.png
 * /usr/share/sigil/examples/clip_entries.ini
 * /usr/share/sigil/examples/search_entries.ini
@@ -68,6 +68,7 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/plugin_launchers/python/compatibility_utils.py
 * /usr/share/sigil/plugin_launchers/python/epub_utils.py
 * /usr/share/sigil/plugin_launchers/python/hrefutils.py
+* /usr/share/sigil/plugin_launchers/python/imghdr.py
 * /usr/share/sigil/plugin_launchers/python/inputcontainer.py
 * /usr/share/sigil/plugin_launchers/python/launcher.py
 * /usr/share/sigil/plugin_launchers/python/navprocessor.py
@@ -311,6 +312,7 @@ A WYSISYG ebook editor.
 * /usr/share/sigil/python3lib/updatechecker.py
 * /usr/share/sigil/python3lib/xmlprocessor.py
 * /usr/share/sigil/python3lib/xmlsanitycheck.py
+* /usr/share/sigil/translations/sigil_ar.qm
 * /usr/share/sigil/translations/sigil_de.qm
 * /usr/share/sigil/translations/sigil_en.qm
 * /usr/share/sigil/translations/sigil_es.qm

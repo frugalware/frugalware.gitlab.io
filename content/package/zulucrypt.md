@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zulucrypt 7.0.0-3"
-version = "7.0.0-3"
+title = "zulucrypt 7.1.0-1"
+version = "7.1.0-1"
 description = "A cli and GUI front end to cryptsetup"
-date = "2024-12-05T17:20:02"
+date = "2025-02-04T09:42:02"
 aliases = "/packages/184321"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/mhogomchungu/zulucrypt"
 arch = "x86_64"
-size = "936220"
-usize = "4174116"
-sha1sum = "8375cb2c8ddb046d6bfea5e8e277aa86ca7d6274"
-depends = "['cryptsetup-luks>=2.0.1', 'libpwquality>=1.3.0-4', 'libsecret>=0.18.5-2', 'qt6-base', 'tcplay>=2.0-3']"
+size = "937740"
+usize = "4179690"
+sha1sum = "54e99d960415dae393613a9086f2a27270b4af18"
+depends = "['cryptsetup-luks>=2.0.1', 'libpwquality>=1.3.0-4', 'libsecret>=0.18.5-2', 'qt6-base>=6.8.2', 'tcplay>=2.0-3']"
 +++
 ### Description: 
 A cli and GUI front end to cryptsetup
@@ -43,12 +43,12 @@ A cli and GUI front end to cryptsetup
 * /usr/lib/zuluCrypt/zuluCrypt-testKey
 * /usr/share/applications/zuluCrypt.desktop
 * /usr/share/applications/zuluMount.desktop
-* /usr/share/doc/zulucrypt-7.0.0/COPYING
-* /usr/share/doc/zulucrypt-7.0.0/LICENSE
-* /usr/share/doc/zulucrypt-7.0.0/README
-* /usr/share/doc/zulucrypt-7.0.0/README.md
-* /usr/share/doc/zulucrypt-7.0.0/TODO
-* /usr/share/doc/zulucrypt-7.0.0/udev_support_README
+* /usr/share/doc/zulucrypt-7.1.0/COPYING
+* /usr/share/doc/zulucrypt-7.1.0/LICENSE
+* /usr/share/doc/zulucrypt-7.1.0/README
+* /usr/share/doc/zulucrypt-7.1.0/README.md
+* /usr/share/doc/zulucrypt-7.1.0/TODO
+* /usr/share/doc/zulucrypt-7.1.0/udev_support_README
 * /usr/share/doc/zuluCrypt/zuluCrypt.pdf
 * /usr/share/icons/hicolor/48x48/apps/zuluCrypt.nicolas.png
 * /usr/share/icons/hicolor/48x48/apps/zuluCrypt.papirus.dark.png

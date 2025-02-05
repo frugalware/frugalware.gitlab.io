@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "virtualbox-modules 7.1.6-3"
-version = "7.1.6-3"
+title = "virtualbox-modules 7.1.6-4"
+version = "7.1.6-4"
 description = "Kernel modules for VirtualBox"
-date = "2025-02-03T10:39:14"
+date = "2025-02-04T14:24:57"
 aliases = "/packages/49977"
 categories = ['apps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "298440"
+size = "298492"
 usize = "260526"
-sha1sum = "dc149f5319e070cf330c3b2de03a9165136e690b"
+sha1sum = "0f7907f12800cbc6cd6ca70078ab18604e3d29ca"
 depends = "['kernel=6.13.1-1']"
 reverse_depends = "['virtualbox']"
 +++
