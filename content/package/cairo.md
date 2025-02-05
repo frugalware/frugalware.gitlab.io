@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cairo 1.18.2-1"
-version = "1.18.2-1"
+title = "cairo 1.18.2-2"
+version = "1.18.2-2"
 description = "A vector graphics library with cross-device output support"
-date = "2024-09-08T21:08:03"
+date = "2025-02-05T18:28:58"
 aliases = "/packages/2940"
 categories = ['xlib']
 upstreamurl = "https://cairographics.org"
 arch = "x86_64"
-size = "702900"
-usize = "2042627"
-sha1sum = "eb188d535af597c6f448a50d6c8c9d7265281ca8"
-depends = "['binutils>=2.43.1', 'fontconfig>=2.12.1-2', 'freetype2', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libpng>=1.6.24', 'libx11', 'libxcb', 'libxext', 'libxrender>=0.9.9-5', 'lzo', 'pixman>=0.32.8-3']"
+size = "706420"
+usize = "2062483"
+sha1sum = "f13d28c5069ef06cb809bbf983eb59a0caa478a5"
+depends = "['binutils>=2.44', 'fontconfig>=2.12.1-2', 'freetype2', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libpng>=1.6.24', 'libx11', 'libxcb', 'libxext', 'libxrender>=0.9.9-5', 'lzo', 'pixman>=0.32.8-3']"
 reverse_depends = "['cairomm', 'castor', 'firefox', 'granite', 'gst1-plugins-good', 'harfbuzz-cairo', 'i3lock', 'intel-gpu-tools', 'libgdiplus', 'lsp-plugins', 'openscenegraph', 'openslide', 'pango', 'pdf2svg', 'poppler', 'poppler-glib', 'poppler-pdftools', 'pygobject3-cairo', 'python3-pycairo', 'scribus', 'whalebird']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qca-botan 2.3.9-10"
-version = "2.3.9-10"
+title = "qca-botan 2.3.9-11"
+version = "2.3.9-11"
 description = "Plugins for qca with botan"
-date = "2025-02-03T14:11:02"
+date = "2025-02-05T18:15:12"
 aliases = "/packages/217818"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "32356"
+size = "32448"
 usize = "100456"
-sha1sum = "050d1fbe38504574dac341fdff2d0007abeaf36f"
-depends = "['botan>=3.6.0', 'qca']"
+sha1sum = "1a5af08e7c634223a34e01845240bc6e81546c17"
+depends = "['botan>=3.7.1', 'qca']"
 +++
 ### Description: 
 Plugins for qca with botan

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calligra 24.12.1-3"
-version = "24.12.1-3"
+title = "calligra 24.12.1-4"
+version = "24.12.1-4"
 description = "An integrated Office suite for KDE"
-date = "2025-02-02T22:09:37"
+date = "2025-02-05T18:33:54"
 aliases = "/packages/222602"
 categories = ['kde6-extra']
 upstreamurl = "https://www.calligra-suite.org"
 arch = "x86_64"
-size = "35898348"
-usize = "105143632"
-sha1sum = "dd7d66ff9716be06e8538717355a33f8790a9f1c"
-depends = "['kcmutils>=', 'kio>=', 'knotifyconfig>=', 'poppler-qt6>=25.01', 'qtkeychain']"
+size = "35895664"
+usize = "105143792"
+sha1sum = "d6f9d6270505ae4967455e96a40500d1ff981693"
+depends = "['kcmutils>=', 'kio>=', 'knotifyconfig>=', 'poppler-qt6>=25.02', 'qtkeychain']"
 +++
 ### Description: 
 An integrated Office suite for KDE
