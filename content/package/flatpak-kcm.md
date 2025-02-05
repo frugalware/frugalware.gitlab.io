@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flatpak-kcm 6.2.5-1"
-version = "6.2.5-1"
+title = "flatpak-kcm 6.2.5-2"
+version = "6.2.5-2"
 description = "Flatpak Permissions Management KCM"
-date = "2025-01-02T20:11:48"
+date = "2025-02-02T15:36:11"
 aliases = "/packages/220918"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "105140"
-usize = "397127"
-sha1sum = "2c8a7cba4b7c4d43a1b97f122ea442c08c9f990f"
+size = "105320"
+usize = "397831"
+sha1sum = "5b4e2fe5ab3d4e80cb9f625d44959ed4b1d20108"
 depends = "['flatpak', 'systemsettings>=6.2.5']"
 +++
 ### Description: 

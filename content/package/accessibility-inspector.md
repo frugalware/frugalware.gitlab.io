@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "accessibility-inspector 24.12.1-1"
-version = "24.12.1-1"
+title = "accessibility-inspector 24.12.1-2"
+version = "24.12.1-2"
 description = "Inspect your application accessibility tree"
-date = "2025-01-12T20:50:46"
+date = "2025-02-02T21:06:37"
 aliases = "/packages/221486"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "102872"
-usize = "499562"
-sha1sum = "72bdd1c39004711decb6d1f3e4705f66e6325777"
+size = "103016"
+usize = "500138"
+sha1sum = "ef188d1091b79c707a6a41375580f2e5a1b4ec03"
 depends = "['kconfigwidgets', 'kcoreaddons', 'kcrash', 'kdbusaddons', 'ki18n', 'kxmlgui', 'libqaccessibilityclient']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadi-mime 24.12.1-1"
-version = "24.12.1-1"
+title = "akonadi-mime 24.12.1-2"
+version = "24.12.1-2"
 description = "Libraries and daemons to implement searching in Akonad"
-date = "2025-01-11T10:52:13"
+date = "2025-02-02T17:11:36"
 aliases = "/packages/218738"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "226352"
-usize = "1175490"
-sha1sum = "ba67f2656aeeff98691c6236756db07a5e1ce774"
+size = "226504"
+usize = "1176898"
+sha1sum = "a35fa922138771d213b8c1c5baa1c80496f83abc"
 depends = "['akonadi>=24.12.1', 'kconfig>=6.10.0', 'kdbusaddons>=6.10.0', 'ki18n>=6.10.0', 'kio>=6.10.0', 'kitemmodels>=6.10.0', 'kmime>=24.12.1', 'kxmlgui>=6.10.0', 'libxslt>=1.1.29-2', 'shared-mime-info>=1.7-2']"
 reverse_depends = "['akonadi-contacts']"
 +++

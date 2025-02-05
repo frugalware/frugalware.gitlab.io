@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cantor 24.12.1-1"
-version = "24.12.1-1"
+title = "cantor 24.12.1-2"
+version = "24.12.1-2"
 description = "KDE Frontend to Mathematical Software."
-date = "2025-01-12T22:16:59"
+date = "2025-02-02T21:32:54"
 aliases = "/packages/152823"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2354072"
-usize = "9133966"
-sha1sum = "b2b6ab66b2d50837483039e305b0623c34323594"
-depends = "['analitza>=24.12.1', 'julia>=1.0.2', 'knewstuff>=6.10.0', 'kpty>=6.10.0', 'ktexteditor>=6.10.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'python3>=3.13', 'qt6-webengine>=6.8.1', 'r']"
+size = "2308744"
+usize = "8865679"
+sha1sum = "24078ea5d20d3b7f7b8016e789af2e90029ebd7f"
+depends = "['analitza>=24.12.1', 'knewstuff>=6.10.0', 'kpty>=6.10.0', 'ktexteditor>=6.10.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'python3>=3.13', 'qt6-webengine>=6.8.2', 'r']"
 reverse_depends = "['labplot']"
 +++
 ### Description: 
@@ -19,7 +19,6 @@ KDE Frontend to Mathematical Software.
 
 ### Files: 
 * /usr/bin/cantor
-* /usr/bin/cantor_juliaserver
 * /usr/bin/cantor_pythonserver
 * /usr/bin/cantor_rserver
 * /usr/bin/cantor_scripteditor
@@ -71,7 +70,6 @@ KDE Frontend to Mathematical Software.
 * /usr/lib/qt6/plugins/cantor_plugins/assistants/cantor_qalculateplotassistant.so
 * /usr/lib/qt6/plugins/cantor_plugins/assistants/cantor_runscriptassistant.so
 * /usr/lib/qt6/plugins/cantor_plugins/assistants/cantor_solveassistant.so
-* /usr/lib/qt6/plugins/cantor_plugins/backends/cantor_juliabackend.so
 * /usr/lib/qt6/plugins/cantor_plugins/backends/cantor_kalgebrabackend.so
 * /usr/lib/qt6/plugins/cantor_plugins/backends/cantor_luabackend.so
 * /usr/lib/qt6/plugins/cantor_plugins/backends/cantor_maximabackend.so
@@ -88,10 +86,6 @@ KDE Frontend to Mathematical Software.
 * /usr/lib/qt6/plugins/cantor_plugins/panels/cantor_variablemanagerplugin.so
 * /usr/lib/qt6/plugins/kf6/parts/cantorpart.so
 * /usr/share/applications/org.kde.cantor.desktop
-* /usr/share/cantor/julia/graphic_packages.xml
-* /usr/share/cantor/juliabackend/scripts/variables_cleaner.jl
-* /usr/share/cantor/juliabackend/scripts/variables_loader.jl
-* /usr/share/cantor/juliabackend/scripts/variables_saver.jl
 * /usr/share/cantor/latex/preview.sty
 * /usr/share/cantor/maximabackend/cantor-initmaxima.lisp
 * /usr/share/cantor/octave/graphic_packages.xml
@@ -102,7 +96,6 @@ KDE Frontend to Mathematical Software.
 * /usr/share/cantor/xslt/latex.xsl
 * /usr/share/config.kcfg/cantor.kcfg
 * /usr/share/config.kcfg/cantor_libs.kcfg
-* /usr/share/config.kcfg/juliabackend.kcfg
 * /usr/share/config.kcfg/kalgebrabackend.kcfg
 * /usr/share/config.kcfg/luabackend.kcfg
 * /usr/share/config.kcfg/maximabackend.kcfg

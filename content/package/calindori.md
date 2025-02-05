@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calindori 24.12.1-1"
-version = "24.12.1-1"
+title = "calindori 24.12.1-2"
+version = "24.12.1-2"
 description = "Calendar for Plasma Mobil"
-date = "2025-01-12T20:48:55"
+date = "2025-02-02T21:05:06"
 aliases = "/packages/221484"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "232924"
-usize = "1013213"
-sha1sum = "4d6ce0408af19979c020bbbd8bc8a0eb1e28885e"
+size = "233344"
+usize = "1013917"
+sha1sum = "5ffd2941fed50c2537dcb4d601f693b00f4d277b"
 depends = "['kcalendarcore>=', 'kirigami>=', 'knotifications>=', 'kpeople>=']"
 +++
 ### Description: 

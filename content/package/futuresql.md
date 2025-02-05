@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "futuresql 0.1.1-5"
-version = "0.1.1-5"
+title = "futuresql 0.1.1-6"
+version = "0.1.1-6"
 description = "Non-blocking Qt database framework"
-date = "2024-12-05T12:41:03"
+date = "2025-02-04T08:57:49"
 aliases = "/packages/221077"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "21556"
-usize = "70390"
-sha1sum = "bd2a72ef4a6b8e05151ad38b0bdf0480b47a579f"
-depends = "['qt6-base-sql-common>=6.8.1']"
+size = "21648"
+usize = "70317"
+sha1sum = "81730304766df599b3f377de9ec37bc4509d8ff8"
+depends = "['qt6-base-sql-common>=6.8.2']"
 reverse_depends = "['angelfish', 'audiotube', 'kontrast']"
 +++
 ### Description: 

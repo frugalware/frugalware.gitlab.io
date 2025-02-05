@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalgebra 24.12.1-1"
-version = "24.12.1-1"
+title = "kalgebra 24.12.1-2"
+version = "24.12.1-2"
 description = "2D and 3D Graph Calculator."
-date = "2025-01-10T18:40:50"
+date = "2025-02-02T15:51:43"
 aliases = "/packages/152824"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1056836"
-usize = "2234491"
-sha1sum = "8d2bda97163f7c17968a78054122c728d1d9e75c"
-depends = "['analitza>=24.12.1', 'kio>=6.10.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.8.1', 'readline>=8.0']"
+size = "1056792"
+usize = "2234299"
+sha1sum = "142e37574b19eed12c14e3cf30ab4a0b4aa3da34"
+depends = "['analitza>=24.12.1', 'kio>=6.10.0', 'libglu>=9.0.0-3', 'qt6-webengine>=6.8.2', 'readline>=8.0']"
 +++
 ### Description: 
 2D and 3D Graph Calculator.

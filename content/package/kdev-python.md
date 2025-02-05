@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-python 24.12.1-1"
-version = "24.12.1-1"
+title = "kdev-python 24.12.1-2"
+version = "24.12.1-2"
 description = "Python Language Plugin for KDevelop"
-date = "2025-01-12T22:50:38"
+date = "2025-02-04T10:07:23"
 aliases = "/packages/220976"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1272088"
-usize = "11658590"
-sha1sum = "84166f09e8d6ddb4c72a1224ceb06cce01ee2963"
+size = "1273436"
+usize = "11660158"
+sha1sum = "7e531632e3033351ec722d59e3f9c35d639f22f6"
 depends = "['kdevelop', 'python3>=3.13']"
 +++
 ### Description: 

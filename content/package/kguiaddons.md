@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kguiaddons 6.10.0-1"
-version = "6.10.0-1"
+title = "kguiaddons 6.10.0-2"
+version = "6.10.0-2"
 description = "Utilities for graphical user interfaces."
-date = "2025-01-10T13:33:29"
+date = "2025-02-01T19:34:51"
 aliases = "/packages/218310"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "123668"
-usize = "446903"
-sha1sum = "092404c6b47bb1d41f5649566c52d0ab1080fdf6"
-depends = "['qt6-base>=6.8.1', 'qt6-wayland>=6.8.1']"
+size = "124084"
+usize = "447831"
+sha1sum = "52fefd68e2605d5def6a0823427cf8d03cee4221"
+depends = "['qt6-base>=6.8.2', 'qt6-wayland>=6.8.2']"
 reverse_depends = "['breeze', 'kcolorscheme', 'kirigami-addons', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
 +++
 ### Description: 

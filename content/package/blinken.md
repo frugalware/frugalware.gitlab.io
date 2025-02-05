@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blinken 24.12.1-1"
-version = "24.12.1-1"
+title = "blinken 24.12.1-2"
+version = "24.12.1-2"
 description = "Memory Enhancement Game."
-date = "2025-01-10T15:58:53"
+date = "2025-02-02T15:47:48"
 aliases = "/packages/152822"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2307216"
+size = "2307208"
 usize = "3192644"
-sha1sum = "8fc5fbb9ee8a016cbc1c58b2eaaeb08925599334"
+sha1sum = "11ae472ab4161828fc4eec4a46e47562ace39331"
 depends = "['kdeclarative>=6.10.0', 'knewstuff>=6.10.0']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 7.20.0-3"
-version = "7.20.0-3"
+title = "calibre 7.24.0-1"
+version = "7.24.0-1"
 description = "Ebook management application"
-date = "2024-12-05T12:16:08"
+date = "2025-02-04T17:38:12"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "28490160"
-usize = "68853173"
-sha1sum = "ecb5283639bd412a90b844868a3af5d877eaf2f1"
+size = "27123408"
+usize = "67156906"
+sha1sum = "058c50b52049ea8a50e61582a62ce4f1583f8659"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=76.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
@@ -660,12 +660,6 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/unihandecode/jadecoder.py
 * /usr/lib/calibre/calibre/ebooks/unihandecode/krcodepoints.py
 * /usr/lib/calibre/calibre/ebooks/unihandecode/krdecoder.py
-* /usr/lib/calibre/calibre/ebooks/unihandecode/pykakasi/h2a.py
-* /usr/lib/calibre/calibre/ebooks/unihandecode/pykakasi/j2h.py
-* /usr/lib/calibre/calibre/ebooks/unihandecode/pykakasi/jisyo.py
-* /usr/lib/calibre/calibre/ebooks/unihandecode/pykakasi/k2a.py
-* /usr/lib/calibre/calibre/ebooks/unihandecode/pykakasi/kakasi.py
-* /usr/lib/calibre/calibre/ebooks/unihandecode/pykakasi/__init__.py
 * /usr/lib/calibre/calibre/ebooks/unihandecode/unicodepoints.py
 * /usr/lib/calibre/calibre/ebooks/unihandecode/unidecoder.py
 * /usr/lib/calibre/calibre/ebooks/unihandecode/vncodepoints.py
@@ -846,6 +840,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/dialogs/edit_category_notes.py
 * /usr/lib/calibre/calibre/gui2/dialogs/enum_values_edit.py
 * /usr/lib/calibre/calibre/gui2/dialogs/exim.py
+* /usr/lib/calibre/calibre/gui2/dialogs/ff_doc_editor.py
 * /usr/lib/calibre/calibre/gui2/dialogs/jobs_ui.py
 * /usr/lib/calibre/calibre/gui2/dialogs/match_books.py
 * /usr/lib/calibre/calibre/gui2/dialogs/match_books_ui.py
@@ -880,6 +875,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/dialogs/template_dialog_box_layout.py
 * /usr/lib/calibre/calibre/gui2/dialogs/template_dialog_code_widget.py
 * /usr/lib/calibre/calibre/gui2/dialogs/template_dialog_ui.py
+* /usr/lib/calibre/calibre/gui2/dialogs/template_general_info.py
 * /usr/lib/calibre/calibre/gui2/dialogs/template_line_editor.py
 * /usr/lib/calibre/calibre/gui2/dialogs/trim_image.py
 * /usr/lib/calibre/calibre/gui2/dialogs/__init__.py
@@ -991,6 +987,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/save.py
 * /usr/lib/calibre/calibre/gui2/search_box.py
 * /usr/lib/calibre/calibre/gui2/search_restriction_mixin.py
+* /usr/lib/calibre/calibre/gui2/series_mapper.py
 * /usr/lib/calibre/calibre/gui2/splash_screen.py
 * /usr/lib/calibre/calibre/gui2/store/amazon_base.py
 * /usr/lib/calibre/calibre/gui2/store/amazon_live.py
@@ -1325,6 +1322,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/utils/copy_files_test.py
 * /usr/lib/calibre/calibre/utils/date.py
 * /usr/lib/calibre/calibre/utils/exim.py
+* /usr/lib/calibre/calibre/utils/ffml_processor.py
 * /usr/lib/calibre/calibre/utils/filenames.py
 * /usr/lib/calibre/calibre/utils/file_type_icons.py
 * /usr/lib/calibre/calibre/utils/fonts/free_type.py
@@ -1871,9 +1869,6 @@ Ebook management application
 * /usr/share/calibre/localization/iso3166.calibre_msgpack
 * /usr/share/calibre/localization/iso639.calibre_msgpack
 * /usr/share/calibre/localization/locales.zip
-* /usr/share/calibre/localization/pykakasi/itaijidict2.calibre_msgpack
-* /usr/share/calibre/localization/pykakasi/kanadict2.calibre_msgpack
-* /usr/share/calibre/localization/pykakasi/kanwadict2.calibre_msgpack
 * /usr/share/calibre/localization/stats.calibre_msgpack
 * /usr/share/calibre/localization/website-languages.txt
 * /usr/share/calibre/lookup.js
@@ -1946,10 +1941,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.20.0/COPYRIGHT
-* /usr/share/doc/calibre-7.20.0/INSTALL.rst
-* /usr/share/doc/calibre-7.20.0/LICENSE
-* /usr/share/doc/calibre-7.20.0/README.md
+* /usr/share/doc/calibre-7.24.0/COPYRIGHT
+* /usr/share/doc/calibre-7.24.0/INSTALL.rst
+* /usr/share/doc/calibre-7.24.0/LICENSE
+* /usr/share/doc/calibre-7.24.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiagram 3.0.1-3"
-version = "3.0.1-3"
+title = "kdiagram 3.0.1-4"
+version = "3.0.1-4"
 description = "Libraries for creating business diagrams"
-date = "2024-12-05T12:47:38"
+date = "2025-02-04T15:53:08"
 aliases = "/packages/218931"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "600568"
-usize = "2545753"
-sha1sum = "aae66cf1ec689926dcdd2c2573c8977461507460"
-depends = "['qt6-svg>=6.8.1']"
+size = "600892"
+usize = "2547841"
+sha1sum = "915aacd8b66a5c5e093c44678422016515b4bece"
+depends = "['qt6-svg>=6.8.2']"
 reverse_depends = "['eventviews', 'massif-visualizer']"
 +++
 ### Description: 

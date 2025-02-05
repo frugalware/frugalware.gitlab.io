@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfourinline 24.12.1-1"
-version = "24.12.1-1"
+title = "kfourinline 24.12.1-2"
+version = "24.12.1-2"
 description = "A four-in-a-row game."
-date = "2025-01-10T20:38:56"
+date = "2025-02-02T16:31:51"
 aliases = "/packages/184180"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1147708"
-usize = "2142881"
-sha1sum = "05f6d1305999bbf0e9183af81f40eddebcc3be10"
-depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.1', 'qt6-svg>=6.8.1']"
+size = "1147908"
+usize = "2142817"
+sha1sum = "2aeb6501c2e85d557079e962d903b04e5c478130"
+depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.1', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
 A four-in-a-row game.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenlive 24.12.1-1"
-version = "24.12.1-1"
+title = "kdenlive 24.12.1-2"
+version = "24.12.1-2"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2025-01-12T19:35:16"
+date = "2025-02-02T20:33:17"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "14064940"
-usize = "74235522"
-sha1sum = "bbbde6b163f86c7e3e2234a935a752b34d7a7a7b"
-depends = "['kfilemetadata>=6.10.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kplotting>=6.10.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.10.0', 'qt6-declarative>=6.8.1', 'qt6-networkauth>=6.8.1', 'qt6-svg>=6.8.1', 'qt6-webengine>=6.8.1']"
+size = "14072160"
+usize = "74235362"
+sha1sum = "1e99155a4aa86288d6d2f42891d49c7d138625b3"
+depends = "['kfilemetadata>=6.10.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kplotting>=6.10.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.10.0', 'qt6-declarative>=6.8.2', 'qt6-networkauth>=6.8.2', 'qt6-svg>=6.8.2', 'qt6-webengine>=6.8.2']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework

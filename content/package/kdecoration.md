@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdecoration 6.2.5-1"
-version = "6.2.5-1"
+title = "kdecoration 6.2.5-2"
+version = "6.2.5-2"
 description = "KDE Decoration"
-date = "2025-01-02T15:36:58"
+date = "2025-02-01T20:33:36"
 aliases = "/packages/218295"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "80336"
-usize = "332102"
-sha1sum = "80202079d70a2ed92129c8409fcc0ccc30985aee"
-depends = "['kcoreaddons>=6.9.0', 'ki18n>=6.9.0', 'qt6-base>=6.8.1']"
+size = "80384"
+usize = "332012"
+sha1sum = "f0bd943329beff46c880786fae5bbba1bcf79646"
+depends = "['kcoreaddons>=6.10.0', 'ki18n>=6.10.0', 'qt6-base>=6.8.2']"
 reverse_depends = "['breeze', 'kde-gtk-config']"
 +++
 ### Description: 

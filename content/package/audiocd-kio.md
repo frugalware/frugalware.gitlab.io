@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audiocd-kio 24.12.1-1"
-version = "24.12.1-1"
+title = "audiocd-kio 24.12.1-2"
+version = "24.12.1-2"
 description = "Kioslave for accessing audio CDs"
-date = "2025-01-11T11:55:11"
+date = "2025-02-02T18:01:02"
 aliases = "/packages/219318"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "699788"
+size = "699688"
 usize = "2477720"
-sha1sum = "621cdc21b46f92791ffbb1a34481ac688e93d287"
+sha1sum = "ee144b41bd3be0d232c9dfe8a4f9e7d105cfdc35"
 depends = "['cdparanoia', 'flac>=1.4.0', 'kcmutils>=6.10.0', 'libkcddb>=24.12.1', 'libkcompactdisc>=24.12.1']"
 +++
 ### Description: 

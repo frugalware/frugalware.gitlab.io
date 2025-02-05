@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gnuplot 6.0.1-4"
-version = "6.0.1-4"
+title = "gnuplot 6.0.2-1"
+version = "6.0.2-1"
 description = "Gnuplot is a portable command-line driven interactive data and function plotting utility."
-date = "2024-12-05T12:41:57"
+date = "2025-02-04T10:28:00"
 aliases = "/packages/5328"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnuplot.info/"
 arch = "x86_64"
-size = "1385160"
-usize = "3687194"
-sha1sum = "def845a6d5d2f30eedb23d20b368fb6de7f50148"
-depends = "['gd', 'pango', 'qt6-5compat>=6.7.3', 'qt6-base>=6.8.0', 'qt6-svg>=6.7.3', 'readline>=8.0']"
+size = "1393168"
+usize = "3711005"
+sha1sum = "83cfdec0a1885b49d696f1b2d7219b9a20b5c740"
+depends = "['gd', 'pango', 'qt6-5compat>=6.8.2', 'qt6-base>=6.8.2', 'qt6-svg>=6.8.2', 'readline>=8.0']"
 reverse_depends = "['darktable', 'octave']"
 +++
 ### Description: 
@@ -21,13 +21,13 @@ Gnuplot is a portable command-line driven interactive data and function plotting
 * /usr/bin/gnuplot
 * /usr/lib/gnuplot/gnuplot/6.0/gnuplot_qt
 * /usr/lib/gnuplot/gnuplot/6.0/gnuplot_x11
-* /usr/share/doc/gnuplot-6.0.1/BUGS
-* /usr/share/doc/gnuplot-6.0.1/FAQ.pdf
-* /usr/share/doc/gnuplot-6.0.1/INSTALL
-* /usr/share/doc/gnuplot-6.0.1/INSTALL.gnu
-* /usr/share/doc/gnuplot-6.0.1/NEWS
-* /usr/share/doc/gnuplot-6.0.1/README
-* /usr/share/doc/gnuplot-6.0.1/RELEASE_NOTES
+* /usr/share/doc/gnuplot-6.0.2/BUGS
+* /usr/share/doc/gnuplot-6.0.2/FAQ.pdf
+* /usr/share/doc/gnuplot-6.0.2/INSTALL
+* /usr/share/doc/gnuplot-6.0.2/INSTALL.gnu
+* /usr/share/doc/gnuplot-6.0.2/NEWS
+* /usr/share/doc/gnuplot-6.0.2/README
+* /usr/share/doc/gnuplot-6.0.2/RELEASE_NOTES
 * /usr/share/gnuplot/6.0/app-defaults/Gnuplot
 * /usr/share/gnuplot/6.0/colors_default.gp
 * /usr/share/gnuplot/6.0/colors_mono.gp

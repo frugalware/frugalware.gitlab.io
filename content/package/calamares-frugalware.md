@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.13-1"
-version = "3.3.13-1"
+title = "calamares-frugalware 3.3.13-2"
+version = "3.3.13-2"
 description = "Distribution-independent installer framework"
-date = "2025-01-03T21:41:38"
+date = "2025-02-04T16:20:22"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4087312"
-usize = "9411075"
-sha1sum = "927971d66e49057ca3aff82b7ee13083f3b3430a"
-depends = "['icu4c>=76.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.85.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=6.8.0', 'qt6-svg>=6.7.3', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
+size = "4086248"
+usize = "9402659"
+sha1sum = "decf942c282a641218bef64b28681dd2b438e22a"
+depends = "['icu4c>=76.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.85.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
 Distribution-independent installer framework

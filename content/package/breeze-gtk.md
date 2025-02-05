@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "breeze-gtk 6.2.5-1"
-version = "6.2.5-1"
+title = "breeze-gtk 6.2.5-2"
+version = "6.2.5-2"
 description = "Artwork, styles and assets for the Breeze visual style for GTK"
-date = "2025-01-02T20:02:17"
+date = "2025-02-02T15:28:11"
 aliases = "/packages/218258"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "173908"
+size = "173952"
 usize = "1205729"
-sha1sum = "89d1c7ecdf9ad06e96a21774617de8e24b41828f"
-depends = "['qt6-base>=6.8.1']"
+sha1sum = "d73fa827f2b30351eb11c481c4acce7ef65b77db"
+depends = "['qt6-base>=6.8.2']"
 +++
 ### Description: 
 Artwork, styles and assets for the Breeze visual style for GTK

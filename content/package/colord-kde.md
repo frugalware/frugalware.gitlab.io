@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord-kde 24.12.1-1"
-version = "24.12.1-1"
+title = "colord-kde 24.12.1-2"
+version = "24.12.1-2"
 description = "Interfaces and session daemon to colord for KDE"
-date = "2025-01-12T19:39:17"
+date = "2025-02-02T20:36:29"
 aliases = "/packages/220966"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "202924"
-usize = "907353"
-sha1sum = "4d8fb9bd42bad0b9ece7c26bebc2c25c96f8312c"
+size = "203076"
+usize = "907673"
+sha1sum = "152d7a925eb15de0f227c14ec5979ce98edbfa91"
 depends = "['colord', 'kcmutils', 'kdeclarative', 'kirigami-addons', 'kitemmodels', 'libxrandr']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "eventviews 24.12.1-1"
-version = "24.12.1-1"
+title = "eventviews 24.12.1-2"
+version = "24.12.1-2"
 description = "Library for creating events."
-date = "2025-01-11T11:32:07"
+date = "2025-02-02T17:42:49"
 aliases = "/packages/218488"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "656724"
-usize = "3599610"
-sha1sum = "0b6e4e953a34cef82facd9594c0b381fa88d4a96"
+size = "656536"
+usize = "3599962"
+sha1sum = "1aeefd7f0207ac696a2fc3ea4007adcd3641998e"
 depends = "['calendarsupport>=24.12.1', 'kdiagram>=3.0.1']"
 reverse_depends = "['incidenceeditor', 'merkuro']"
 +++
