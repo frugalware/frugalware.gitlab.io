@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pcre2-static 10.44-1"
-version = "10.44-1"
+title = "pcre2-static 10.45-1"
+version = "10.45-1"
 description = "Static files for pcre2"
-date = "2025-01-02T10:54:39"
+date = "2025-02-05T14:09:09"
 aliases = "/packages/220881"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/PCRE2Project/pcre2"
 arch = "x86_64"
-size = "4013792"
-usize = "5496492"
-sha1sum = "ed3b050346e1181d3fb28a26ad595eb6aee39d5e"
+size = "4385808"
+usize = "5944804"
+sha1sum = "49379b995468eb6e89191bfe6cc1daefb47ac86c"
 depends = "[]"
 +++
 ### Description: 

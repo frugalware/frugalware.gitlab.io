@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "diffutils 3.10-1"
-version = "3.10-1"
+title = "diffutils 3.11-1"
+version = "3.11-1"
 description = "Utility programs used for creating patch files"
-date = "2023-05-22T14:29:30"
+date = "2025-02-05T14:07:33"
 aliases = "/packages/2365"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/diffutils"
 arch = "x86_64"
-size = "390240"
-usize = "1846103"
-sha1sum = "e1722ec7ddc5a868f2d2e48f2c115cfb7ce79f0f"
+size = "407876"
+usize = "1902830"
+sha1sum = "5c1b5e0b29d877ff8c009c48332d609c74bfde8d"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35']"
 reverse_depends = "['autoconf', 'pacman-g2', 'quilt', 'rcs']"
 +++
@@ -22,14 +22,14 @@ Utility programs used for creating patch files
 * /usr/bin/diff
 * /usr/bin/diff3
 * /usr/bin/sdiff
-* /usr/share/doc/diffutils-3.10/AUTHORS
-* /usr/share/doc/diffutils-3.10/ChangeLog
-* /usr/share/doc/diffutils-3.10/COPYING
-* /usr/share/doc/diffutils-3.10/INSTALL
-* /usr/share/doc/diffutils-3.10/NEWS
-* /usr/share/doc/diffutils-3.10/README
-* /usr/share/doc/diffutils-3.10/THANKS
-* /usr/share/doc/diffutils-3.10/TODO
+* /usr/share/doc/diffutils-3.11/AUTHORS
+* /usr/share/doc/diffutils-3.11/ChangeLog
+* /usr/share/doc/diffutils-3.11/COPYING
+* /usr/share/doc/diffutils-3.11/INSTALL
+* /usr/share/doc/diffutils-3.11/NEWS
+* /usr/share/doc/diffutils-3.11/README
+* /usr/share/doc/diffutils-3.11/THANKS
+* /usr/share/doc/diffutils-3.11/TODO
 * /usr/share/info/diffutils.info.gz
 * /usr/share/locale/bg/LC_MESSAGES/diffutils.mo
 * /usr/share/locale/ca/LC_MESSAGES/diffutils.mo
