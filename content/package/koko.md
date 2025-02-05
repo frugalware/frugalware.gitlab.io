@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "koko 24.12.1-1"
-version = "24.12.1-1"
+title = "koko 24.12.1-2"
+version = "24.12.1-2"
 description = "Image gallery application"
-date = "2025-01-12T19:45:52"
+date = "2025-02-02T20:41:39"
 aliases = "/packages/220982"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8104392"
-usize = "31906301"
-sha1sum = "a89e0dbd2c0d480530ee1672922bf1686b3d22fb"
+size = "8110172"
+usize = "31927357"
+sha1sum = "2e5ae8ca13234a67c976373479eb7f851c956a42"
 depends = "['exiv2>=0.28.1', 'kdeclarative', 'kfilemetadata', 'kio', 'kirigami-addons', 'kquickimageeditor', 'qt6-location']"
 +++
 ### Description: 

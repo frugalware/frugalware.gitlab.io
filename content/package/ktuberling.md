@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktuberling 24.12.1-1"
-version = "24.12.1-1"
+title = "ktuberling 24.12.1-2"
+version = "24.12.1-2"
 description = "A simple constructor game suitable for children and adults alike."
-date = "2025-01-10T20:54:27"
+date = "2025-02-02T16:43:32"
 aliases = "/packages/184203"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "72097116"
-usize = "100094952"
-sha1sum = "3a043172a9054c601abb09b8b3058433c56c8756"
-depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.1', 'qt6-multimedia>=6.8.1']"
+size = "72097780"
+usize = "100095048"
+sha1sum = "6338fc396a0e02d3e2f9ae19b1baa682f38c252b"
+depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.1', 'qt6-multimedia>=6.8.2']"
 +++
 ### Description: 
 A simple constructor game suitable for children and adults alike.

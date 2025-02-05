@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkdegames 24.12.1-1"
-version = "24.12.1-1"
+title = "libkdegames 24.12.1-2"
+version = "24.12.1-2"
 description = "Library for KDE games."
-date = "2025-01-10T20:28:05"
+date = "2025-02-02T16:23:47"
 aliases = "/packages/184209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9174936"
-usize = "10674467"
-sha1sum = "4152b675fab05807d21745fc764a7cfe955b441e"
-depends = "['kdeclarative>=6.10.0', 'kdnssd>=6.10.0', 'knewstuff>=6.10.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.8.1']"
+size = "9175048"
+usize = "10674755"
+sha1sum = "350dcaadb80c5f91840920eb1f1cb77e022c36f6"
+depends = "['kdeclarative>=6.10.0', 'kdnssd>=6.10.0', 'knewstuff>=6.10.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.8.2']"
 reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi', 'skladnik']"
 +++
 ### Description: 

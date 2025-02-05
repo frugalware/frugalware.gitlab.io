@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkcompactdisc 24.12.1-1"
-version = "24.12.1-1"
+title = "libkcompactdisc 24.12.1-2"
+version = "24.12.1-2"
 description = "A library for interfacing with CDs."
-date = "2025-01-10T15:57:58"
+date = "2025-02-02T15:47:10"
 aliases = "/packages/168473"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "74348"
+size = "74444"
 usize = "258076"
-sha1sum = "86a1ce54191fe483935bd42dec3c837014b0c3f9"
+sha1sum = "8b9bdb9e150f7cc91a4b63e378912a480d49e5c5"
 depends = "['kcoreaddons>=$_F_kf6_full', 'ki18n>=$_F_kf6_full', 'phonon-qt6', 'solid>=$_F_kf6_full']"
 reverse_depends = "['audiocd-kio']"
 +++

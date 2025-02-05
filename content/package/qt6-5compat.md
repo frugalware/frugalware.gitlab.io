@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-5compat 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-5compat 6.8.2-1"
+version = "6.8.2-1"
 description = "The Qt6 toolkit, qt5compat"
-date = "2024-12-03T09:13:40"
+date = "2025-02-01T16:53:38"
 aliases = "/packages/220762"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "434912"
-usize = "1779363"
-sha1sum = "247dacbe1868833f0121818e56b7dea7a6d9f283"
+size = "435440"
+usize = "1780687"
+sha1sum = "7a876ca3108e70ced98bf891c3983236c824b792"
 depends = "['icu4c>=76.1', 'qt6-declarative']"
 reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mixxx', 'mlt-qt6', 'opencv', 'phonon-qt6', 'qbs', 'qca', 'qmlkonsole', 'qtcreator', 'quazip-qt6', 'seafile-client', 'socnetv', 'telegram-desktop', 'texmaker', 'texstudio', 'wireshark-qt']"
 +++
@@ -18,20 +18,20 @@ reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mixxx
 The Qt6 toolkit, qt5compat
 
 ### Files: 
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qbinaryjsonarray_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qbinaryjsonobject_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qbinaryjsonvalue_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qbinaryjson_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qcodecmacros_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qicucodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qisciicodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qlatincodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qsimplecodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qtcore5compat-config_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qtextcodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qtsciicodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qutfcodec_p.h
-* /usr/include/qt6/QtCore5Compat/6.8.1/QtCore5Compat/private/qxml_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qbinaryjsonarray_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qbinaryjsonobject_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qbinaryjsonvalue_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qbinaryjson_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qcodecmacros_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qicucodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qisciicodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qlatincodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qsimplecodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qtcore5compat-config_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qtextcodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qtsciicodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qutfcodec_p.h
+* /usr/include/qt6/QtCore5Compat/6.8.2/QtCore5Compat/private/qxml_p.h
 * /usr/include/qt6/QtCore5Compat/QBinaryJson
 * /usr/include/qt6/QtCore5Compat/qbinaryjson.h
 * /usr/include/qt6/QtCore5Compat/qcore5global.h
@@ -95,7 +95,7 @@ The Qt6 toolkit, qt5compat
 * /usr/lib/libQt6Core5Compat.prl
 * /usr/lib/libQt6Core5Compat.so
 * /usr/lib/libQt6Core5Compat.so.6
-* /usr/lib/libQt6Core5Compat.so.6.8.1
+* /usr/lib/libQt6Core5Compat.so.6.8.2
 * /usr/lib/pkgconfig/Qt6Core5Compat.pc
 * /usr/lib/qt6/metatypes/qt6core5compat_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_core5compat.pri
@@ -139,4 +139,4 @@ The Qt6 toolkit, qt5compat
 * /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/RecursiveBlur.qml
 * /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/ThresholdMask.qml
 * /usr/lib/qt6/qml/Qt5Compat/GraphicalEffects/ZoomBlur.qml
-* /usr/lib/qt6/sbom/qt5compat-6.8.1.spdx
+* /usr/lib/qt6/sbom/qt5compat-6.8.2.spdx

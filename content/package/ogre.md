@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ogre 14.3.2-2"
-version = "14.3.2-2"
+title = "ogre 14.3.4-1"
+version = "14.3.4-1"
 description = "A scene-oriented flexible 3D engine written in C++"
-date = "2025-01-14T10:34:02"
+date = "2025-02-04T11:59:44"
 aliases = "/packages/39056"
 categories = ['xlib-extra']
 upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
-size = "7079304"
-usize = "34522165"
-sha1sum = "b33eec115e88492b520d68b90254d69b86095288"
-depends = "['assimp', 'bullet', 'freeimage', 'glslang>=15.1', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base']"
+size = "7078764"
+usize = "34501104"
+sha1sum = "a5b986d94b9315ccb01518dd38da1257c36965f1"
+depends = "['assimp', 'bullet', 'freeimage', 'glslang>=15.1', 'libxaw', 'libxrandr', 'pugixml', 'qt6-base>=6.8.2']"
 reverse_depends = "['ogre-media']"
 +++
 ### Description: 
@@ -697,9 +697,9 @@ A scene-oriented flexible 3D engine written in C++
 * /usr/lib/python3.13/dist-packages/Ogre/_RTShader.so
 * /usr/lib/python3.13/dist-packages/Ogre/_Terrain.so
 * /usr/lib/python3.13/dist-packages/Ogre/__init__.py
-* /usr/share/doc/ogre-14.3.2/AUTHORS
-* /usr/share/doc/ogre-14.3.2/LICENSE
-* /usr/share/doc/ogre-14.3.2/README.md
+* /usr/share/doc/ogre-14.3.4/AUTHORS
+* /usr/share/doc/ogre-14.3.4/LICENSE
+* /usr/share/doc/ogre-14.3.4/README.md
 * /usr/share/doc/OGRE/1.10-Notes.md
 * /usr/share/doc/OGRE/1.11-Notes.md
 * /usr/share/doc/OGRE/1.12-Notes.md

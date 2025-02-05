@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knights 24.12.1-1"
-version = "24.12.1-1"
+title = "knights 24.12.1-2"
+version = "24.12.1-2"
 description = "Chess board program."
-date = "2025-01-12T11:48:02"
+date = "2025-02-02T20:19:36"
 aliases = "/packages/38796"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3565244"
-usize = "5395692"
-sha1sum = "6943ebd838e80076cd6f1d07eea3a96f4fc9d883"
+size = "3564744"
+usize = "5395820"
+sha1sum = "a232e215a51287907e3dc59875e0c6cb33aeed82"
 depends = "['kplotting>=6.10.0', 'ksvg>=6.10.0', 'libkdegames>=24.12.1', 'libplasma>=6.2.5']"
 +++
 ### Description: 

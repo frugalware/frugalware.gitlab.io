@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kparts 6.10.0-1"
-version = "6.10.0-1"
+title = "kparts 6.10.0-2"
+version = "6.10.0-2"
 description = "Plugin framework for user interface components."
-date = "2025-01-10T15:34:59"
+date = "2025-02-01T20:02:23"
 aliases = "/packages/218341"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "163564"
-usize = "537140"
-sha1sum = "91b0ee8dd45045f4fcbb5042a0dae41cf176b01b"
+size = "163676"
+usize = "537138"
+sha1sum = "78712d36772f29cdcf7974e8704c658be2ae9801"
 depends = "['kio>=6.10.0']"
 reverse_depends = "['ark', 'dolphin', 'dragon', 'filelight', 'gwenview', 'kde-dev-utils', 'kdiff3', 'keditbookmarks', 'kgraphviewer', 'kimagemapeditor', 'kmplot', 'konqueror', 'konsole', 'kontactinterface', 'konversation', 'krusader', 'ktexteditor', 'kvirc', 'libmarble', 'markdownpart', 'okular', 'plasma-workspace', 'skrooge', 'svgpart', 'yakuake']"
 +++

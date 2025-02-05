@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krusader 2.9.0-1"
-version = "2.9.0-1"
+title = "krusader 2.9.0-2"
+version = "2.9.0-2"
 description = "Twin Panel File Manager For Your Desktop"
-date = "2025-01-02T23:21:11"
+date = "2025-02-04T16:26:45"
 aliases = "/packages/3137"
 categories = ['kde6']
 upstreamurl = "https://krusader.org"
 arch = "x86_64"
-size = "3883828"
-usize = "15514316"
-sha1sum = "6fa226f20f0412b29a68904850474a579a63f99c"
-depends = "['kparts>=6.9.0', 'kstatusnotifieritem>=6.9.0', 'qt6-svg>=6.8.1']"
+size = "3885224"
+usize = "15514809"
+sha1sum = "e1ab6e15d6f2c8ec02b3fd959aff8feb7ffdfa17"
+depends = "['kparts>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
 Twin Panel File Manager For Your Desktop

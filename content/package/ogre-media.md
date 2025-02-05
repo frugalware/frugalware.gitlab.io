@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ogre-media 14.3.2-2"
-version = "14.3.2-2"
+title = "ogre-media 14.3.4-1"
+version = "14.3.4-1"
 description = "OGRE media files and packs."
-date = "2025-01-14T10:34:02"
+date = "2025-02-04T11:59:44"
 aliases = "/packages/219929"
 categories = ['devel-extra']
 upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
-size = "168964"
+size = "169224"
 usize = "398834"
-sha1sum = "4b49c936f82f1cdeba8b05e456ef04aeb2214a5a"
+sha1sum = "6e5ac6a9151bd3f14874a7bcc84a433bf05366d0"
 depends = "['ogre']"
 +++
 ### Description: 

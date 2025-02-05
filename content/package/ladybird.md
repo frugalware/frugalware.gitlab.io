@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ladybird 20240328-6"
-version = "20240328-6"
+title = "ladybird 20250204-1"
+version = "20250204-1"
 description = "Web browser built from scratch using the SerenityOS LibWeb engine"
-date = "2024-12-05T13:46:39"
+date = "2025-02-04T19:59:40"
 aliases = "/packages/220941"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/SerenityOS/serenity"
 arch = "x86_64"
-size = "36178660"
-usize = "183714234"
-sha1sum = "22ea3d8b75174d52dad2f5adc9cc29b6629c36c5"
+size = "36439876"
+usize = "184231099"
+sha1sum = "305ff9119072a6105a812c072548aa63ac4a9a1e"
 depends = "['brotli', 'libgl', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
 +++
 ### Description: 
@@ -26,8 +26,8 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/lib/ladybird/SQLServer
 * /usr/lib/ladybird/WebContent
 * /usr/lib/ladybird/WebWorker
-* /usr/share/doc/ladybird-20240328/LICENSE
-* /usr/share/doc/ladybird-20240328/README.md
+* /usr/share/doc/ladybird-20250204/LICENSE
+* /usr/share/doc/ladybird-20250204/README.md
 * /usr/share/Ladybird/LadybirdConfig.cmake
 * /usr/share/Ladybird/LadybirdConfigVersion.cmake
 * /usr/share/Ladybird/ladybirdTargets-release.cmake
@@ -643,7 +643,19 @@ Web browser built from scratch using the SerenityOS LibWeb engine
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0062_U+E0071_U+E0062_U+E006F_U+E007F.png
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0062_U+E0071_U+E0073_U+E0061_U+E007F.png
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0062_U+E0071_U+E0073_U+E0065_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E0061_U+E0062_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E0062_U+E0063_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006D_U+E0062_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006E_U+E0062_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006E_U+E006C_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006E_U+E0073_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006E_U+E0074_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006E_U+E0075_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E006F_U+E006E_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E0070_U+E0065_U+E007F.png
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E0071_U+E0063_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E0073_U+E006B_U+E007F.png
+* /usr/share/Lagom/emoji/U+1F3F4_U+E0063_U+E0061_U+E0079_U+E0074_U+E007F.png
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0064_U+E0065_U+E0062_U+E0062_U+E007F.png
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0064_U+E0065_U+E0062_U+E0065_U+E007F.png
 * /usr/share/Lagom/emoji/U+1F3F4_U+E0064_U+E0065_U+E0062_U+E0077_U+E007F.png

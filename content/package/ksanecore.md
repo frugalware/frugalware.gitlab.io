@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksanecore 24.12.1-1"
-version = "24.12.1-1"
+title = "ksanecore 24.12.1-2"
+version = "24.12.1-2"
 description = "Library providing logic to interface scanners"
-date = "2025-01-10T20:26:01"
+date = "2025-02-02T16:22:17"
 aliases = "/packages/220585"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "83888"
-usize = "294927"
-sha1sum = "9b36e2e4177bd61132eee99d581e16b1a002fdfa"
+size = "84604"
+usize = "296975"
+sha1sum = "3826b1fe1c89af79732e375e23b572c233957239"
 depends = "['ki18n>=6.10.0', 'sane-backends>=1.0.25-3']"
 reverse_depends = "['libksane', 'skanpage']"
 +++

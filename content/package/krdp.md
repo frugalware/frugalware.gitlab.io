@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdp 6.2.5-1"
-version = "6.2.5-1"
+title = "krdp 6.2.5-2"
+version = "6.2.5-2"
 description = "Library and examples for creating an RDP server"
-date = "2025-01-02T20:03:33"
+date = "2025-02-02T15:29:03"
 aliases = "/packages/221525"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "157344"
-usize = "647271"
-sha1sum = "cdc1d03ced9542734a67e5829f5677ccc51da601"
-depends = "['freerdp2', 'kcmutils>=6.9.0', 'kpipewire>=6.2.5', 'kstatusnotifieritem>=6.9.0', 'qtkeychain']"
+size = "157244"
+usize = "646791"
+sha1sum = "e70bd9bb5f86828a33623e5e1bb25dba6b41b5db"
+depends = "['freerdp2', 'kcmutils>=6.10.0', 'kpipewire>=6.2.5', 'kstatusnotifieritem>=6.10.0', 'qtkeychain']"
 +++
 ### Description: 
 Library and examples for creating an RDP server

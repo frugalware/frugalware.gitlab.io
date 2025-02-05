@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krdc 24.12.1-1"
-version = "24.12.1-1"
+title = "krdc 24.12.1-2"
+version = "24.12.1-2"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2025-01-11T12:33:12"
+date = "2025-02-02T18:09:02"
 aliases = "/packages/74081"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1657936"
-usize = "3632321"
-sha1sum = "5a491564c2c0e810876b7921a784053a952e6aa0"
+size = "1657588"
+usize = "3632481"
+sha1sum = "1fb5a1906614ed55dd0935ee61254c9c881e7f52"
 depends = "['freerdp2', 'kcmutils>=6.10.0', 'kdnssd>=6.10.0', 'knotifyconfig>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'libvncserver', 'plasma-activities>=6.2.5']"
 +++
 ### Description: 

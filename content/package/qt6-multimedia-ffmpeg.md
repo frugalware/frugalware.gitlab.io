@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-multimedia-ffmpeg 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-multimedia-ffmpeg 6.8.2-1"
+version = "6.8.2-1"
 description = "The Qt6 toolkit, qtmultimedia Ffmpeg plugin"
-date = "2024-12-03T12:12:36"
+date = "2025-02-01T19:08:06"
 aliases = "/packages/222533"
 categories = ['xlib-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "188236"
-usize = "595628"
-sha1sum = "33377ab8dded1e759fb39553d0a33ee667295c9b"
+size = "194516"
+usize = "613847"
+sha1sum = "99e8cffaeadc899e33740dd2ba03fa455a10bc20"
 depends = "['ffmpeg']"
 +++
 ### Description: 

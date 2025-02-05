@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmouth 24.12.1-1"
-version = "24.12.1-1"
+title = "kmouth 24.12.1-2"
+version = "24.12.1-2"
 description = "Speech Synthesizer Frontend"
-date = "2025-01-12T11:32:24"
+date = "2025-02-02T20:06:59"
 aliases = "/packages/219526"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1808744"
-usize = "4057994"
-sha1sum = "ac6a11701eb054f80a8d967dbc110b8306bfd7cf"
-depends = "['kio>=6.10.0', 'pcre2', 'qt6-speech>=6.8.1']"
+size = "1808564"
+usize = "4058314"
+sha1sum = "b06df4ef0f20fd2742d170df834a2ddaa74947e1"
+depends = "['kio>=6.10.0', 'pcre2', 'qt6-speech>=6.8.2']"
 +++
 ### Description: 
 Speech Synthesizer Frontend

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lyx 2.4.1-4"
-version = "2.4.1-4"
+title = "lyx 2.4.3-1"
+version = "2.4.3-1"
 description = "An advanced open-source document processor based on TeX"
-date = "2024-12-05T13:51:22"
+date = "2025-02-04T12:52:59"
 aliases = "/packages/3726"
 categories = ['xapps-extra']
 upstreamurl = "http://www.lyx.org"
 arch = "x86_64"
-size = "17730268"
-usize = "80661520"
-sha1sum = "d80024122e56bfd85dbf0d72e2834af869bdba36"
-depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.0', 'mythes', 'qt6-base>=6.8.0', 'qt6-svg>=6.7.3', 'texlive']"
+size = "17720228"
+usize = "81059729"
+sha1sum = "063cfde1c71f773b25cc66c3c68441f5e3fc0afe"
+depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.0', 'mythes', 'qt6-base>=6.8.2', 'qt6-svg>=6.8.2', 'texlive']"
 +++
 ### Description: 
 An advanced open-source document processor based on TeX
@@ -21,18 +21,18 @@ An advanced open-source document processor based on TeX
 * /usr/bin/lyxclient
 * /usr/bin/tex2lyx
 * /usr/share/applications/lyx.desktop
-* /usr/share/doc/lyx-2.4.1/ANNOUNCE
-* /usr/share/doc/lyx-2.4.1/COPYING
-* /usr/share/doc/lyx-2.4.1/INSTALL
-* /usr/share/doc/lyx-2.4.1/INSTALL.autoconf
-* /usr/share/doc/lyx-2.4.1/INSTALL.cmake
-* /usr/share/doc/lyx-2.4.1/INSTALL.Cygwin
-* /usr/share/doc/lyx-2.4.1/INSTALL.MacOSX
-* /usr/share/doc/lyx-2.4.1/INSTALL.Win32
-* /usr/share/doc/lyx-2.4.1/NEWS
-* /usr/share/doc/lyx-2.4.1/README
-* /usr/share/doc/lyx-2.4.1/README.localization
-* /usr/share/doc/lyx-2.4.1/RELEASE-NOTES
+* /usr/share/doc/lyx-2.4.3/ANNOUNCE
+* /usr/share/doc/lyx-2.4.3/COPYING
+* /usr/share/doc/lyx-2.4.3/INSTALL
+* /usr/share/doc/lyx-2.4.3/INSTALL.autoconf
+* /usr/share/doc/lyx-2.4.3/INSTALL.cmake
+* /usr/share/doc/lyx-2.4.3/INSTALL.Cygwin
+* /usr/share/doc/lyx-2.4.3/INSTALL.MacOSX
+* /usr/share/doc/lyx-2.4.3/INSTALL.Win32
+* /usr/share/doc/lyx-2.4.3/NEWS
+* /usr/share/doc/lyx-2.4.3/README
+* /usr/share/doc/lyx-2.4.3/README.localization
+* /usr/share/doc/lyx-2.4.3/RELEASE-NOTES
 * /usr/share/icons/hicolor/48x48/apps/lyx.png
 * /usr/share/icons/hicolor/scalable/apps/lyx.svg
 * /usr/share/locale/ar/LC_MESSAGES/lyx.mo

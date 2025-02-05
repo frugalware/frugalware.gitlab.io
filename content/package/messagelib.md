@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "messagelib 24.12.1-1"
-version = "24.12.1-1"
+title = "messagelib 24.12.1-2"
+version = "24.12.1-2"
 description = "KdePim message library."
-date = "2025-01-11T11:05:07"
+date = "2025-02-02T17:21:43"
 aliases = "/packages/218480"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2652232"
-usize = "14569658"
-sha1sum = "93687f2689a3b9dd7bd30511afe26c5e5fc59307"
+size = "2655128"
+usize = "14576730"
+sha1sum = "a056d8742bf002397a550b0e7b5b31e38372fb39"
 depends = "['kidentitymanagement>=24.12.1', 'kmailtransport>=24.12.1', 'ktextaddons>=1.3.1', 'libgravatar>=24.12.1', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-disks 6.2.5-1"
-version = "6.2.5-1"
+title = "plasma-disks 6.2.5-2"
+version = "6.2.5-2"
 description = "Monitors S.M.A.R.T. capable devices for imminent failure"
-date = "2025-01-02T15:33:48"
+date = "2025-02-01T20:31:06"
 aliases = "/packages/220244"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "138508"
-usize = "596192"
-sha1sum = "b0a9b316da6910b12e5b8a6ff811e39ae567a3c1"
-depends = "['kcmutils>=6.9.0', 'kdeclarative>=6.9.0', 'smartmontools']"
+size = "138860"
+usize = "596320"
+sha1sum = "bd0fe8166cf114e5b6f53369a119037b5c79bbff"
+depends = "['kcmutils>=6.10.0', 'kdeclarative>=6.10.0', 'smartmontools']"
 +++
 ### Description: 
 Monitors S.M.A.R.T. capable devices for imminent failure

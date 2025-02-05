@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kjobwidgets 6.10.0-1"
-version = "6.10.0-1"
+title = "kjobwidgets 6.10.0-2"
+version = "6.10.0-2"
 description = "Widgets for showing progress of asynchronous jobs."
-date = "2025-01-10T13:47:54"
+date = "2025-02-01T19:43:42"
 aliases = "/packages/218327"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "109036"
-usize = "495076"
-sha1sum = "0ff675e2e5503bb61760fa779bcd217ad13b2d38"
+size = "108768"
+usize = "495268"
+sha1sum = "6a2fb207d5a85d9f8d7e37f39901e08ebaf55200"
 depends = "['knotifications>=6.10.0']"
 reverse_depends = "['kio']"
 +++

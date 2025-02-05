@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "klettres 24.12.1-1"
-version = "24.12.1-1"
+title = "klettres 24.12.1-2"
+version = "24.12.1-2"
 description = "Learn The Alphabet."
-date = "2025-01-10T20:44:46"
+date = "2025-02-02T16:36:14"
 aliases = "/packages/152832"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39890436"
+size = "39890304"
 usize = "50554144"
-sha1sum = "f25fd06f2715722df770d46620f80dead541f0de"
+sha1sum = "1dab4aa4181e4df068a1f3fe75e3c5a84638811f"
 depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.1']"
 +++
 ### Description: 

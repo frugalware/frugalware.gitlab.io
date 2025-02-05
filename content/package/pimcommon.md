@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pimcommon 24.12.1-1"
-version = "24.12.1-1"
+title = "pimcommon 24.12.1-2"
+version = "24.12.1-2"
 description = "KdePim common files"
-date = "2025-01-11T10:57:38"
+date = "2025-02-02T17:15:50"
 aliases = "/packages/218468"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "449492"
-usize = "2091973"
-sha1sum = "5f0d4f701b952c132d5e716495d03dcdf595efc2"
+size = "449912"
+usize = "2092389"
+sha1sum = "5e39ae8750c6cd0c0fd9610dc931e428cff1cad5"
 depends = "['kimap>=24.12.1', 'knewstuff>=6.10.0', 'kpimtextedit>=24.12.1', 'ktextaddons>=1.3.1', 'libkdepim>=24.12.1', 'purpose>=6.10.0']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'libgravatar', 'libksieve', 'mailimporter']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "obs-studio 31.0.1-1"
-version = "31.0.1-1"
+title = "obs-studio 31.0.1-2"
+version = "31.0.1-2"
 description = "Free, open source software for live streaming and recording"
-date = "2025-01-20T15:38:18"
+date = "2025-02-04T20:04:13"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "7760236"
-usize = "30848021"
-sha1sum = "b5a7a514671147149ca735f11db9f5a7a7834330"
-depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libdatachannel', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.13', 'qr-code-generator', 'qt6-svg', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
+size = "7750624"
+usize = "30849653"
+sha1sum = "cdcb7eacb44b8bb65a5f3968795c2b0b229d9ad4"
+depends = "['asio', 'curl', 'fdk-aac', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libdatachannel', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.13', 'qr-code-generator', 'qt6-svg>=6.8.2', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
 Free, open source software for live streaming and recording

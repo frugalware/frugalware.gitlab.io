@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mailimporter 24.12.1-1"
-version = "24.12.1-1"
+title = "mailimporter 24.12.1-2"
+version = "24.12.1-2"
 description = "Mail importer library."
-date = "2025-01-11T11:10:05"
+date = "2025-02-02T17:25:28"
 aliases = "/packages/218472"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "239856"
-usize = "1734810"
-sha1sum = "c1553967538e954391822603be752b697cc2cda3"
+size = "240320"
+usize = "1734970"
+sha1sum = "7de59d3dc60f5c1d84478b92e312f46c6362df4b"
 depends = "['libkdepim>=24.12.1', 'pimcommon>=24.12.1']"
 reverse_depends = "['mailcommon']"
 +++

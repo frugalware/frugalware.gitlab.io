@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-base-platformtheme-gtk3 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-base-platformtheme-gtk3 6.8.2-1"
+version = "6.8.2-1"
 description = "Qt6 GTK3 Theme support"
-date = "2024-12-03T08:58:11"
+date = "2025-02-01T16:38:25"
 aliases = "/packages/220755"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "80844"
-usize = "256370"
-sha1sum = "0d4c5d66f27c71137b9f3d7a2ba9f09986b8b446"
-depends = "['gtk+3', 'qt6-base>=6.8.1']"
+size = "80816"
+usize = "256057"
+sha1sum = "065e8184ae7956ad52448618d129b914780fe2ba"
+depends = "['gtk+3', 'qt6-base>=6.8.2']"
 +++
 ### Description: 
 Qt6 GTK3 Theme support

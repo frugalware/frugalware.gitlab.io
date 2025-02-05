@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libquotient 0.9.2-1"
-version = "0.9.2-1"
+title = "libquotient 0.9.2-2"
+version = "0.9.2-2"
 description = "A Qt library to write cross-platform clients for Matrix"
-date = "2024-12-30T17:21:10"
+date = "2025-02-04T08:55:39"
 aliases = "/packages/220989"
 categories = ['lib-extra']
 upstreamurl = "https://matrix.org/docs/projects/sdk/quotient"
 arch = "x86_64"
-size = "945852"
-usize = "4127776"
-sha1sum = "9228759e942d3391c39f1f321163e155a74f721b"
-depends = "['olm', 'qt6-multimedia>=6.8.0', 'qtkeychain']"
+size = "948772"
+usize = "4128320"
+sha1sum = "3d21535f9f086d89efadd34db498e6a0404c57c9"
+depends = "['olm', 'qt6-multimedia>=6.8.2', 'qtkeychain']"
 reverse_depends = "['itinerary', 'neochat']"
 +++
 ### Description: 

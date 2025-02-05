@@ -1,101 +1,102 @@
 +++
 draft = false
-title = "qt6-graphs 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-graphs 6.8.2-1"
+version = "6.8.2-1"
 description = "The Qt6 toolkit, qtgraphs"
-date = "2024-12-03T12:19:56"
+date = "2025-02-01T19:12:44"
 aliases = "/packages/221137"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "761832"
-usize = "4257581"
-sha1sum = "7084bf9ae53cd050d4291a8338a46e8928540b1b"
+size = "766960"
+usize = "4274607"
+sha1sum = "1535eea1844bccd83d6f3d5d65090c46caa4aa4b"
 depends = "['qt6-quick3d']"
 +++
 ### Description: 
 The Qt6 toolkit, qtgraphs
 
 ### Files: 
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/abstractitemmodelhandler_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/arearenderer_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/axisgrid_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/axisline_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/axisrenderer_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/axisticker_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/barinstancing_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/baritemmodelhandler_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/barsrenderer_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/charthelpers_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/foreigntypesbars_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/foreigntypesscatter_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/foreigntypessurface_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/foreigntypes_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/gradientholder_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/pierenderer_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/pointrenderer_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/q3dscene_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qabstract3daxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qabstract3dseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qabstractaxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qabstractdataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qabstractseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qareaseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qbar3dseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qbarcategoryaxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qbardataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qbarmodelmapper_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qbarseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qbarset_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qcategory3daxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qcustom3ditem_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qcustom3dlabel_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qcustom3dvolume_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qdatetimeaxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphanimation_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphpointanimation_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphsglobal_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphsinputhandler_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphstheme_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphsview_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qgraphtransition_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qheightmapsurfacedataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qitemmodelbardataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qitemmodelscatterdataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qitemmodelsurfacedataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qlineseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qlogvalue3daxisformatter_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qpiemodelmapper_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qpieseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qpieslice_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphsbarsseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphsbars_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphscolor_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphsitem_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphsscatterseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphsscatter_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphssurfaceseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphssurface_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qquickgraphstexturedata_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qscatter3dseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qscatterdataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qscatterseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qsplinecontrolanimation_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qsplineseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qsurface3dseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qsurfacedataproxy_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qtgraphs-config_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qvalue3daxisformatter_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qvalue3daxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qvalueaxis_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qxymodelmapper_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qxypoint_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qxyseriesanimation_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/qxyseries_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/scatterinstancing_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/scatteritemmodelhandler_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/surfaceitemmodelhandler_p.h
-* /usr/include/qt6/QtGraphs/6.8.1/QtGraphs/private/utils_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/abstractitemmodelhandler_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/arearenderer_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/axisgrid_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/axisline_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/axisrenderer_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/axisticker_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/barinstancing_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/baritemmodelhandler_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/barsrenderer_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/charthelpers_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/commonutils_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/foreigntypesbars_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/foreigntypesscatter_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/foreigntypessurface_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/foreigntypes_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/gradientholder_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/pierenderer_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/pointrenderer_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/q3dscene_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qabstract3daxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qabstract3dseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qabstractaxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qabstractdataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qabstractseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qareaseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qbar3dseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qbarcategoryaxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qbardataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qbarmodelmapper_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qbarseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qbarset_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qcategory3daxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qcustom3ditem_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qcustom3dlabel_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qcustom3dvolume_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qdatetimeaxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphanimation_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphpointanimation_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphsglobal_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphsinputhandler_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphstheme_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphsview_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qgraphtransition_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qheightmapsurfacedataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qitemmodelbardataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qitemmodelscatterdataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qitemmodelsurfacedataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qlineseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qlogvalue3daxisformatter_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qpiemodelmapper_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qpieseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qpieslice_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphsbarsseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphsbars_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphscolor_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphsitem_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphsscatterseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphsscatter_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphssurfaceseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphssurface_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qquickgraphstexturedata_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qscatter3dseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qscatterdataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qscatterseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qsplinecontrolanimation_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qsplineseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qsurface3dseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qsurfacedataproxy_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qtgraphs-config_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qvalue3daxisformatter_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qvalue3daxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qvalueaxis_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qxymodelmapper_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qxypoint_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qxyseriesanimation_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/qxyseries_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/scatterinstancing_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/scatteritemmodelhandler_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/surfaceitemmodelhandler_p.h
+* /usr/include/qt6/QtGraphs/6.8.2/QtGraphs/private/utils_p.h
 * /usr/include/qt6/QtGraphs/Q3DScene
 * /usr/include/qt6/QtGraphs/q3dscene.h
 * /usr/include/qt6/QtGraphs/QAbstract3DAxis
@@ -192,10 +193,10 @@ The Qt6 toolkit, qtgraphs
 * /usr/include/qt6/QtGraphs/qxymodelmapper.h
 * /usr/include/qt6/QtGraphs/QXYSeries
 * /usr/include/qt6/QtGraphs/qxyseries.h
-* /usr/include/qt6/QtGraphsWidgets/6.8.1/QtGraphsWidgets/private/q3dbarswidgetitem_p.h
-* /usr/include/qt6/QtGraphsWidgets/6.8.1/QtGraphsWidgets/private/q3dgraphswidgetitem_p.h
-* /usr/include/qt6/QtGraphsWidgets/6.8.1/QtGraphsWidgets/private/q3dscatterwidgetitem_p.h
-* /usr/include/qt6/QtGraphsWidgets/6.8.1/QtGraphsWidgets/private/q3dsurfacewidgetitem_p.h
+* /usr/include/qt6/QtGraphsWidgets/6.8.2/QtGraphsWidgets/private/q3dbarswidgetitem_p.h
+* /usr/include/qt6/QtGraphsWidgets/6.8.2/QtGraphsWidgets/private/q3dgraphswidgetitem_p.h
+* /usr/include/qt6/QtGraphsWidgets/6.8.2/QtGraphsWidgets/private/q3dscatterwidgetitem_p.h
+* /usr/include/qt6/QtGraphsWidgets/6.8.2/QtGraphsWidgets/private/q3dsurfacewidgetitem_p.h
 * /usr/include/qt6/QtGraphsWidgets/Q3DBarsWidgetItem
 * /usr/include/qt6/QtGraphsWidgets/q3dbarswidgetitem.h
 * /usr/include/qt6/QtGraphsWidgets/Q3DGraphsWidgetItem
@@ -238,11 +239,11 @@ The Qt6 toolkit, qtgraphs
 * /usr/lib/libQt6Graphs.prl
 * /usr/lib/libQt6Graphs.so
 * /usr/lib/libQt6Graphs.so.6
-* /usr/lib/libQt6Graphs.so.6.8.1
+* /usr/lib/libQt6Graphs.so.6.8.2
 * /usr/lib/libQt6GraphsWidgets.prl
 * /usr/lib/libQt6GraphsWidgets.so
 * /usr/lib/libQt6GraphsWidgets.so.6
-* /usr/lib/libQt6GraphsWidgets.so.6.8.1
+* /usr/lib/libQt6GraphsWidgets.so.6.8.2
 * /usr/lib/pkgconfig/Qt6Graphs.pc
 * /usr/lib/pkgconfig/Qt6GraphsWidgets.pc
 * /usr/lib/qt6/metatypes/qt6graphswidgets_release_metatypes.json
@@ -291,4 +292,4 @@ The Qt6 toolkit, qtgraphs
 * /usr/lib/qt6/qml/QtGraphs/Graphs.qmltypes
 * /usr/lib/qt6/qml/QtGraphs/libgraphsplugin.so
 * /usr/lib/qt6/qml/QtGraphs/qmldir
-* /usr/lib/qt6/sbom/qtgraphs-6.8.1.spdx
+* /usr/lib/qt6/sbom/qtgraphs-6.8.2.spdx

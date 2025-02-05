@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kquickimageeditor 0.5.0-1"
-version = "0.5.0-1"
+title = "kquickimageeditor 0.5.0-2"
+version = "0.5.0-2"
 description = "QML image editing components"
-date = "2025-01-20T20:20:53"
+date = "2025-02-04T10:00:07"
 aliases = "/packages/220981"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "79084"
+size = "79188"
 usize = "351828"
-sha1sum = "f0c697a5bda9d596987308d05a588d26495cfecc"
-depends = "['qt6-declarative']"
+sha1sum = "e0f4467bc0564bdc9950699f6eb48483a150dee8"
+depends = "['qt6-declarative>=6.8.2']"
 reverse_depends = "['koko', 'neochat', 'skanpage']"
 +++
 ### Description: 

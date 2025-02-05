@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-shadertools 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-shadertools 6.8.2-1"
+version = "6.8.2-1"
 description = "The Qt6 toolkit, qtshadertools"
-date = "2024-12-03T08:59:55"
+date = "2025-02-01T16:40:01"
 aliases = "/packages/220757"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1531572"
-usize = "4947612"
-sha1sum = "5e8b4d6d08037547c7f6e70d296c4f4d6c0892cd"
+size = "1531384"
+usize = "4947396"
+sha1sum = "9981e295e8977cd840ae7095ce89a4bca774ca1e"
 depends = "['qt6-base']"
 reverse_depends = "['mixxx', 'qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['mixxx', 'qt6-3d', 'qt6-quick3d', 'qt6-quickeffectmaker']"
 The Qt6 toolkit, qtshadertools
 
 ### Files: 
-* /usr/include/qt6/QtShaderTools/6.8.1/QtShaderTools/private/qshaderrewriter_p.h
-* /usr/include/qt6/QtShaderTools/6.8.1/QtShaderTools/private/qspirvcompiler_p.h
-* /usr/include/qt6/QtShaderTools/6.8.1/QtShaderTools/private/qspirvshaderremap_p.h
-* /usr/include/qt6/QtShaderTools/6.8.1/QtShaderTools/private/qspirvshader_p.h
-* /usr/include/qt6/QtShaderTools/6.8.1/QtShaderTools/private/qtshadertoolsglobal_p.h
-* /usr/include/qt6/QtShaderTools/6.8.1/QtShaderTools/rhi/qshaderbaker.h
+* /usr/include/qt6/QtShaderTools/6.8.2/QtShaderTools/private/qshaderrewriter_p.h
+* /usr/include/qt6/QtShaderTools/6.8.2/QtShaderTools/private/qspirvcompiler_p.h
+* /usr/include/qt6/QtShaderTools/6.8.2/QtShaderTools/private/qspirvshaderremap_p.h
+* /usr/include/qt6/QtShaderTools/6.8.2/QtShaderTools/private/qspirvshader_p.h
+* /usr/include/qt6/QtShaderTools/6.8.2/QtShaderTools/private/qtshadertoolsglobal_p.h
+* /usr/include/qt6/QtShaderTools/6.8.2/QtShaderTools/rhi/qshaderbaker.h
 * /usr/include/qt6/QtShaderTools/QtShaderTools
 * /usr/include/qt6/QtShaderTools/QtShaderToolsDepends
 * /usr/include/qt6/QtShaderTools/qtshadertoolsexports.h
@@ -52,11 +52,11 @@ The Qt6 toolkit, qtshadertools
 * /usr/lib/libQt6ShaderTools.prl
 * /usr/lib/libQt6ShaderTools.so
 * /usr/lib/libQt6ShaderTools.so.6
-* /usr/lib/libQt6ShaderTools.so.6.8.1
+* /usr/lib/libQt6ShaderTools.so.6.8.2
 * /usr/lib/pkgconfig/Qt6ShaderTools.pc
 * /usr/lib/qt6/bin/qsb
 * /usr/lib/qt6/metatypes/qt6shadertools_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_shadertools.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_shadertools_private.pri
 * /usr/lib/qt6/modules/ShaderTools.json
-* /usr/lib/qt6/sbom/qtshadertools-6.8.1.spdx
+* /usr/lib/qt6/sbom/qtshadertools-6.8.2.spdx

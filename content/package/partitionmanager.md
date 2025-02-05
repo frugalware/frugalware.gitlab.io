@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "partitionmanager 24.12.1-1"
-version = "24.12.1-1"
+title = "partitionmanager 24.12.1-2"
+version = "24.12.1-2"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2025-01-12T13:16:55"
+date = "2025-02-02T20:24:30"
 aliases = "/packages/118282"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2421768"
+size = "2421904"
 usize = "6801340"
-sha1sum = "63ee388a8ce025695cd226e80361b5374744fda8"
+sha1sum = "bdf2077635d0462ee27341eefe3c4798e721fdcb"
 depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.10.0', 'kio>=6.10.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 

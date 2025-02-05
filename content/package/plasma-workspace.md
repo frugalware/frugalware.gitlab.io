@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.2.5-1"
-version = "6.2.5-1"
+title = "plasma-workspace 6.2.5-2"
+version = "6.2.5-2"
 description = "KDE Plasma Workspace."
-date = "2025-01-02T16:07:45"
+date = "2025-02-01T20:57:52"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20480296"
-usize = "56813316"
-sha1sum = "0c207caa93fa6b206e4140a7d59551a6eb5bf272"
-depends = "['appstream-qt', 'baloo>=6.9.0', 'kcmutils>=6.9.0', 'kdeclarative>=6.9.0', 'kholidays>=6.9.0', 'kidletime>=6.9.0', 'kirigami-addons', 'knewstuff>=6.9.0', 'knotifyconfig>=6.9.0', 'kpackage>=6.9.0', 'kparts>=6.9.0', 'kquickcharts>=6.9.0', 'krunner>=6.9.0', 'ksvg>=6.9.0', 'ktexteditor>=6.9.0', 'kunitconversion>=6.9.0', 'kuserfeedback>=6.9.0', 'kwin>=6.2.5', 'libkexiv2', 'libksysguard>=6.2.5', 'libplasma>=6.2.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.9.0', 'plasma-activities-stats>=6.2.5', 'plasma5-integration>=6.2.5', 'plasma5support>=6.2.5', 'prison>=6.9.0', 'qcoro', 'qt6-tools']"
+size = "20484936"
+usize = "56783780"
+sha1sum = "18f942b6f4ac95f9e56c2993f1da5156ac03664c"
+depends = "['appstream-qt', 'baloo>=6.10.0', 'kcmutils>=6.10.0', 'kdeclarative>=6.10.0', 'kholidays>=6.10.0', 'kidletime>=6.10.0', 'kirigami-addons', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kpackage>=6.10.0', 'kparts>=6.10.0', 'kquickcharts>=6.10.0', 'krunner>=6.10.0', 'ksvg>=6.10.0', 'ktexteditor>=6.10.0', 'kunitconversion>=6.10.0', 'kuserfeedback>=6.10.0', 'kwin>=6.2.5', 'libkexiv2', 'libksysguard>=6.2.5', 'libplasma>=6.2.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.10.0', 'plasma-activities-stats>=6.2.5', 'plasma5-integration>=6.2.5', 'plasma5support>=6.2.5', 'prison>=6.10.0', 'qcoro', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 

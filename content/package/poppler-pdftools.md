@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler-pdftools 25.01.0-1"
-version = "25.01.0-1"
+title = "poppler-pdftools 25.01.0-2"
+version = "25.01.0-2"
 description = "Poppler xpdf tools"
-date = "2025-01-13T13:24:14"
+date = "2025-02-03T15:57:33"
 aliases = "/packages/5057"
 categories = ['xapps']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "206924"
+size = "207144"
 usize = "610479"
-sha1sum = "c4cf1c0b5ca0722ab2a90aa978f263f7bdb1908a"
+sha1sum = "eba37da0fce7ad8c3c0fa6c8394585fe8bd1e3a6"
 depends = "['cairo>=1.14.6-4', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler']"
 +++
 ### Description: 

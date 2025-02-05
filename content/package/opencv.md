@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencv 4.11.0-1"
-version = "4.11.0-1"
+title = "opencv 4.11.0-2"
+version = "4.11.0-2"
 description = "Intel(R) Open Source Computer Vision Library"
-date = "2025-01-21T14:51:17"
+date = "2025-02-03T18:30:33"
 aliases = "/packages/118859"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "24435696"
-usize = "98938165"
-sha1sum = "60ecf25fbb3b9ffc30a48675cd23aa96ee886d9f"
-depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper', 'jasper>=2.0.10', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
+size = "24386628"
+usize = "98837491"
+sha1sum = "bee3c2357f1ea34844f46f338fec60ceca476dea"
+depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper', 'jasper>=2.0.10', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat>=6.8.2', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
 reverse_depends = "['digikam', 'gmic', 'gst1-plugins-bad-opencv', 'howdy', 'mlt-opencv', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous', 'spectacle']"
 +++
 ### Description: 
@@ -802,7 +802,6 @@ Intel(R) Open Source Computer Vision Library
 * /usr/share/licenses/opencv4/protobuf-README.md
 * /usr/share/licenses/opencv4/SoftFloat-COPYING.txt
 * /usr/share/licenses/opencv4/vasot-LICENSE.txt
-* /usr/share/licenses/opencv4/zlib-LICENSE
 * /usr/share/opencv4/haarcascades/haarcascade_eye.xml
 * /usr/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
 * /usr/share/opencv4/haarcascades/haarcascade_frontalcatface.xml

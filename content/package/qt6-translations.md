@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-translations 6.8.1-1"
-version = "6.8.1-1"
+title = "qt6-translations 6.8.2-1"
+version = "6.8.2-1"
 description = "The Qt6 toolkit, qttranslations"
-date = "2024-12-03T09:21:17"
+date = "2025-02-01T17:01:19"
 aliases = "/packages/220787"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1792900"
-usize = "14327625"
-sha1sum = "d12db936f02a60c841e131f9c5eb69406686046b"
+size = "1790080"
+usize = "14330219"
+sha1sum = "a51ddb2cb96ae22c555053ebd7bebf62055e5c72"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++
@@ -18,6 +18,7 @@ reverse_depends = "['qt6-base']"
 The Qt6 toolkit, qttranslations
 
 ### Files: 
+* /usr/lib/qt6/sbom/qttranslations-6.8.2.spdx
 * /usr/share/qt6/translations/assistant_ar.qm
 * /usr/share/qt6/translations/assistant_bg.qm
 * /usr/share/qt6/translations/assistant_cs.qm

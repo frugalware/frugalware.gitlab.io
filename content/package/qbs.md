@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qbs 2.4.1-4"
-version = "2.4.1-4"
+title = "qbs 2.5.1-1"
+version = "2.5.1-1"
 description = "A tool that helps simplify the build process for developing projects across multiple platforms"
-date = "2024-12-05T15:18:32"
+date = "2025-02-04T10:38:38"
 aliases = "/packages/217269"
 categories = ['devel-extra']
 upstreamurl = "http://doc.qt.io/qbs/index.html"
 arch = "x86_64"
-size = "2867012"
-usize = "11285893"
-sha1sum = "8ff7199b72414e752a72c55ee643d9249dae4036"
-depends = "['qt6-5compat>=6.8.0']"
+size = "2891084"
+usize = "11318455"
+sha1sum = "61786a0860d36f6070decd2b7ba46151266795e6"
+depends = "['qt6-5compat>=6.8.2']"
 +++
 ### Description: 
 A tool that helps simplify the build process for developing projects across multiple platforms
@@ -60,8 +60,8 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/include/qbs/tools/toolchains.h
 * /usr/include/qbs/tools/version.h
 * /usr/lib/libqbscore.so
-* /usr/lib/libqbscore.so.2.4
-* /usr/lib/libqbscore.so.2.4.1
+* /usr/lib/libqbscore.so.2.5
+* /usr/lib/libqbscore.so.2.5.1
 * /usr/lib/qbs/plugins/libclangcompilationdbgenerator.so
 * /usr/lib/qbs/plugins/libiarewgenerator.so
 * /usr/lib/qbs/plugins/libkeiluvgenerator.so
@@ -70,9 +70,9 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/lib/qbs/plugins/libqbs_qt_scanner.so
 * /usr/lib/qbs/plugins/libvisualstudiogenerator.so
 * /usr/lib/qbs/qbs_processlauncher
-* /usr/share/doc/qbs-2.4.1/README.md
-* /usr/share/doc/qbs-2.4.1/RELEASE.md
-* /usr/share/doc/qbs-2.4.1/VERSION
+* /usr/share/doc/qbs-2.5.1/README.md
+* /usr/share/doc/qbs-2.5.1/RELEASE.md
+* /usr/share/doc/qbs-2.5.1/VERSION
 * /usr/share/qbs/examples/app-and-lib/app-and-lib.qbs
 * /usr/share/qbs/examples/app-and-lib/app/app.qbs
 * /usr/share/qbs/examples/app-and-lib/app/main.cpp
@@ -282,6 +282,27 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/examples/compiled-qml/main.qml
 * /usr/share/qbs/examples/compiled-qml/MainForm.ui.qml
 * /usr/share/qbs/examples/compiled-qml/qml.qrc
+* /usr/share/qbs/examples/cxx-modules/mod0/mod0.cppm
+* /usr/share/qbs/examples/cxx-modules/mod0/mod0.qbs
+* /usr/share/qbs/examples/cxx-modules/mod0/mod0main.cpp
+* /usr/share/qbs/examples/cxx-modules/mod1/mod1.cppm
+* /usr/share/qbs/examples/cxx-modules/mod1/mod1.qbs
+* /usr/share/qbs/examples/cxx-modules/mod1/mod1io.cpp
+* /usr/share/qbs/examples/cxx-modules/mod1/mod1price.cpp
+* /usr/share/qbs/examples/cxx-modules/mod1/testmod1.cpp
+* /usr/share/qbs/examples/cxx-modules/mod2/mod2.cppm
+* /usr/share/qbs/examples/cxx-modules/mod2/mod2.qbs
+* /usr/share/qbs/examples/cxx-modules/mod2/mod2io.cpp
+* /usr/share/qbs/examples/cxx-modules/mod2/mod2order.cppm
+* /usr/share/qbs/examples/cxx-modules/mod2/mod2price.cpp
+* /usr/share/qbs/examples/cxx-modules/mod2/testmod2.cpp
+* /usr/share/qbs/examples/cxx-modules/mod3/mod3.cppm
+* /usr/share/qbs/examples/cxx-modules/mod3/mod3.qbs
+* /usr/share/qbs/examples/cxx-modules/mod3/mod3customer.cppm
+* /usr/share/qbs/examples/cxx-modules/mod3/mod3io.cpp
+* /usr/share/qbs/examples/cxx-modules/mod3/mod3order.cppm
+* /usr/share/qbs/examples/cxx-modules/mod3/mod3price.cpp
+* /usr/share/qbs/examples/cxx-modules/mod3/testmod3.cpp
 * /usr/share/qbs/examples/examples.qbs
 * /usr/share/qbs/examples/exporters/exporters.qbs
 * /usr/share/qbs/examples/exporters/lib_a/lib_a.cpp
@@ -422,7 +443,9 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/module-providers/qbspkgconfig.qbs
 * /usr/share/qbs/module-providers/Qt/provider.qbs
 * /usr/share/qbs/module-providers/Qt/setup-qt.js
+* /usr/share/qbs/module-providers/Qt/templates/android_support.js
 * /usr/share/qbs/module-providers/Qt/templates/android_support.qbs
+* /usr/share/qbs/module-providers/Qt/templates/core.js
 * /usr/share/qbs/module-providers/Qt/templates/core.qbs
 * /usr/share/qbs/module-providers/Qt/templates/dbus.js
 * /usr/share/qbs/module-providers/Qt/templates/dbus.qbs
@@ -474,6 +497,7 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/modules/cpp/DarwinGCC.qbs
 * /usr/share/qbs/modules/cpp/dmc.js
 * /usr/share/qbs/modules/cpp/dmc.qbs
+* /usr/share/qbs/modules/cpp/emcc.qbs
 * /usr/share/qbs/modules/cpp/freebsd-gcc.qbs
 * /usr/share/qbs/modules/cpp/freebsd.js
 * /usr/share/qbs/modules/cpp/gcc.js
@@ -504,6 +528,8 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/modules/cpufeatures/cpufeatures.qbs
 * /usr/share/qbs/modules/dmg/dmg.js
 * /usr/share/qbs/modules/dmg/DMGModule.qbs
+* /usr/share/qbs/modules/emsdk/emsdk.js
+* /usr/share/qbs/modules/emsdk/emsdk.qbs
 * /usr/share/qbs/modules/Exporter/cmake/cmakeexporter.js
 * /usr/share/qbs/modules/Exporter/cmake/cmakeexporter.qbs
 * /usr/share/qbs/modules/Exporter/exporter.js
@@ -546,7 +572,6 @@ A tool that helps simplify the build process for developing projects across mult
 * /usr/share/qbs/modules/qnx/qnx.qbs
 * /usr/share/qbs/modules/Sanitizers/address/asan.qbs
 * /usr/share/qbs/modules/texttemplate/texttemplate.qbs
-* /usr/share/qbs/modules/typescript/qbs-tsc-scan/.gitignore
 * /usr/share/qbs/modules/typescript/qbs-tsc-scan/qbs-tsc-scan.ts
 * /usr/share/qbs/modules/typescript/typescript.js
 * /usr/share/qbs/modules/typescript/TypeScriptModule.qbs

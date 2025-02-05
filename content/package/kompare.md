@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kompare 24.12.1-1"
-version = "24.12.1-1"
+title = "kompare 24.12.1-2"
+version = "24.12.1-2"
 description = "Diff/Patch Frontend."
-date = "2025-01-11T12:03:40"
+date = "2025-02-02T18:08:05"
 aliases = "/packages/118450"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "921356"
-usize = "2836810"
-sha1sum = "22565b847c4133a62845422b465dc183cdfd23cd"
+size = "920796"
+usize = "2835210"
+sha1sum = "6018b7a54d395cb36bd71992ccaa49f400f29874"
 depends = "['ktexteditor>=6.10.0', 'libkomparediff2>=24.12.1']"
 +++
 ### Description: 

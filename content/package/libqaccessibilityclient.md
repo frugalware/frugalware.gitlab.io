@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libqaccessibilityclient 0.6.0-9"
-version = "0.6.0-9"
+title = "libqaccessibilityclient 0.6.0-10"
+version = "0.6.0-10"
 description = "Helper library to make writing accessibility tools easier"
-date = "2024-12-05T13:47:35"
+date = "2025-02-04T08:50:22"
 aliases = "/packages/220306"
 categories = ['xlib']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "92140"
-usize = "332646"
-sha1sum = "1dce392da517ad979c5ce6ae8fdc230ecc5b9fde"
+size = "92372"
+usize = "333126"
+sha1sum = "0f0083a7c9020e14568bd2bfeb8ea8e81ba91d76"
 depends = "['qt6-base>=']"
 reverse_depends = "['accessibility-inspector', 'kmag', 'kwin']"
 +++

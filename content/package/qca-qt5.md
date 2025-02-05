@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca-qt5 2.3.9-9"
-version = "2.3.9-9"
+title = "qca-qt5 2.3.9-10"
+version = "2.3.9-10"
 description = "QCA qt5"
-date = "2024-12-24T14:54:24"
+date = "2025-02-03T14:11:02"
 aliases = "/packages/221384"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "690364"
-usize = "2860071"
-sha1sum = "41db58f40e487c693bdd6e014a77e7ea297fcb71"
+size = "689576"
+usize = "2859239"
+sha1sum = "8ae31e535392b8bac489cefadb45b5e647259e37"
 depends = "['botan>=3.6.0', 'cyrus-sasl', 'nss', 'qt5-base']"
 reverse_depends = "['kwallet5', 'okteta']"
 +++
