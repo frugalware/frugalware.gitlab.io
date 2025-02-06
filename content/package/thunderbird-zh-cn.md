@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-zh-cn 128.6.1-1"
-version = "128.6.1-1"
+title = "thunderbird-zh-cn 128.7.0-1"
+version = "128.7.0-1"
 description = "Chinese Simplified language support for Thunderbird"
-date = "2025-01-31T12:45:39"
+date = "2025-02-06T10:08:50"
 aliases = "/packages/135584"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "728704"
+size = "728700"
 usize = "794062"
-sha1sum = "5e3fd24091f9179cb326b6be4f9ca9d4b240dd92"
-depends = "['thunderbird>=128.6.1']"
+sha1sum = "547c26c743dc0999e1cd4730d672164219476909"
+depends = "['thunderbird>=128.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

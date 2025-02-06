@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-kab 128.6.1-1"
-version = "128.6.1-1"
+title = "thunderbird-kab 128.7.0-1"
+version = "128.7.0-1"
 description = "Kabyle language support for Thunderbird"
-date = "2025-01-31T12:45:39"
+date = "2025-02-06T10:08:50"
 aliases = "/packages/219147"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "672168"
-usize = "735475"
-sha1sum = "55e393524af27a1b7bcdb87a95753215d253cdd3"
-depends = "['thunderbird>=128.6.1']"
+size = "672196"
+usize = "735477"
+sha1sum = "3c939aab3f43ab0d5a03a779b94df50f075ad488"
+depends = "['thunderbird>=128.7.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
