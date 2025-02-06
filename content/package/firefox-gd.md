@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-gd 134.0.2-1"
-version = "134.0.2-1"
+title = "firefox-gd 135.0-1"
+version = "135.0-1"
 description = "Scottish Gaelic language support for Firefox"
-date = "2025-01-27T09:54:12"
+date = "2025-02-06T15:09:03"
 aliases = "/packages/102917"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "546996"
-usize = "603300"
-sha1sum = "97346305605bb6eec7bace59db20c4633f877997"
-depends = "['firefox>=134.0.2']"
+size = "352360"
+usize = "405574"
+sha1sum = "81209e4e8a45c019c73538cd1b7aee27243a8798"
+depends = "['firefox>=135.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

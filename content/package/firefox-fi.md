@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-fi 134.0.2-1"
-version = "134.0.2-1"
+title = "firefox-fi 135.0-1"
+version = "135.0-1"
 description = "Finnish language support for Firefox"
-date = "2025-01-27T09:54:12"
+date = "2025-02-06T15:09:03"
 aliases = "/packages/3577"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "579816"
-usize = "634175"
-sha1sum = "a5ed403874c8317a7335f341984c2c62027580b4"
-depends = "['firefox>=134.0.2']"
+size = "371508"
+usize = "423825"
+sha1sum = "65fe2941eda4b58cbdf3618de750bc0ffb358510"
+depends = "['firefox>=135.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

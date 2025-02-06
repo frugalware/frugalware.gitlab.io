@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-bn 134.0.2-1"
-version = "134.0.2-1"
+title = "firefox-bn 135.0-1"
+version = "135.0-1"
 description = "Bengali language support for Firefox"
-date = "2025-01-27T09:54:12"
+date = "2025-02-06T15:09:03"
 aliases = "/packages/219896"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "557512"
-usize = "615526"
-sha1sum = "71da91e919c4af65abd756251c91c153b02028c9"
-depends = "['firefox>=134.0.2']"
+size = "364484"
+usize = "417341"
+sha1sum = "83e071859d746c8a641ce995a11f793901dae748"
+depends = "['firefox>=135.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
