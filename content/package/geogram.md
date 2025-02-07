@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "geogram 1.9.2-1"
-version = "1.9.2-1"
+title = "geogram 1.9.3-1"
+version = "1.9.3-1"
 description = "Library of geometric algorithms. It includes a simple yet efficient Mesh data structure."
-date = "2025-01-01T22:02:12"
+date = "2025-02-07T22:05:26"
 aliases = "/packages/220122"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/BrunoLevy/geogram"
 arch = "x86_64"
-size = "4524172"
-usize = "18513837"
-sha1sum = "5880e05ea2e53a0336f5002f7046bb78000c6859"
+size = "4578996"
+usize = "18722479"
+sha1sum = "85226ce1bde6988d0db5461d7a5fd6716f7d9775"
 depends = "['glfw', 'libglu', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libxxf86vm', 'zlib-ng']"
 +++
 ### Description: 
@@ -388,6 +388,8 @@ Library of geometric algorithms. It includes a simple yet efficient Mesh data st
 * /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_osx.h
 * /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_sdl2.h
 * /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_sdl3.h
+* /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_sdlgpu3.h
+* /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_sdlgpu3_shaders.h
 * /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_sdlrenderer2.h
 * /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_sdlrenderer3.h
 * /usr/include/geogram1/geogram_gfx/third_party/imgui/backends/imgui_impl_vulkan.h
@@ -417,15 +419,15 @@ Library of geometric algorithms. It includes a simple yet efficient Mesh data st
 * /usr/lib/cmake/modules/FindGeogram.cmake
 * /usr/lib/libgeogram.so
 * /usr/lib/libgeogram.so.1
-* /usr/lib/libgeogram.so.1.9.2
+* /usr/lib/libgeogram.so.1.9.3
 * /usr/lib/libgeogram_gfx.so
 * /usr/lib/libgeogram_gfx.so.1
-* /usr/lib/libgeogram_gfx.so.1.9.2
+* /usr/lib/libgeogram_gfx.so.1.9.3
 * /usr/lib/libgeogram_num_3rdparty.so
 * /usr/lib/libgeogram_num_3rdparty.so.1
-* /usr/lib/libgeogram_num_3rdparty.so.1.9.2
+* /usr/lib/libgeogram_num_3rdparty.so.1.9.3
 * /usr/lib/pkgconfig/geogram1.pc
 * /usr/lib/pkgconfig/geogram_gfx1.pc
-* /usr/share/doc/geogram-1.9.2/geogram/VERSION.txt
-* /usr/share/doc/geogram-1.9.2/LICENSE
-* /usr/share/doc/geogram-1.9.2/README.md
+* /usr/share/doc/geogram-1.9.3/geogram/VERSION.txt
+* /usr/share/doc/geogram-1.9.3/LICENSE
+* /usr/share/doc/geogram-1.9.3/README.md

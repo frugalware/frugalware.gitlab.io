@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vulkan-utility-libraries 1.4.304.0-1"
-version = "1.4.304.0-1"
+title = "vulkan-utility-libraries 1.4.304.1-1"
+version = "1.4.304.1-1"
 description = "Utility libraries for Vulkan developers"
-date = "2025-01-14T09:46:45"
+date = "2025-02-07T21:50:33"
 aliases = "/packages/221133"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/KhronosGroup/Vulkan-Utility-Libraries"
 arch = "x86_64"
-size = "8855264"
-usize = "15967572"
-sha1sum = "28c537ce7faead5554b6f31da1db10a18e87376d"
+size = "8847716"
+usize = "15967820"
+sha1sum = "1b9b20ce0f913e00ce8a5babbf4f6b6c570d0b14"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -33,4 +33,4 @@ Utility libraries for Vulkan developers
 * /usr/lib/cmake/VulkanUtilityLibraries/VulkanUtilityLibrariesConfig.cmake
 * /usr/lib/libVulkanLayerSettings.a
 * /usr/lib/libVulkanSafeStruct.a
-* /usr/share/doc/vulkan-utility-libraries-1.4.304.0/README.md
+* /usr/share/doc/vulkan-utility-libraries-1.4.304.1/README.md

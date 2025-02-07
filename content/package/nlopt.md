@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nlopt 2.9.1-1"
-version = "2.9.1-1"
+title = "nlopt 2.10.0-1"
+version = "2.10.0-1"
 description = "Nonlinear optimization library"
-date = "2024-11-27T12:02:36"
+date = "2025-02-07T22:00:39"
 aliases = "/packages/221482"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/stevengj/nlopt"
 arch = "x86_64"
-size = "229848"
-usize = "604478"
-sha1sum = "6a1afe7bdb280831643acdb3c9fe954968983457"
+size = "230040"
+usize = "605557"
+sha1sum = "c72be812a34526e0b9650864a1c6f0ce8c5ddf96"
 depends = "['glibc>=2.34']"
 reverse_depends = "['stellarium']"
 +++
@@ -25,15 +25,15 @@ Nonlinear optimization library
 * /usr/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
 * /usr/lib/cmake/nlopt/NLoptLibraryDepends.cmake
 * /usr/lib/libnlopt.so
-* /usr/lib/libnlopt.so.0
-* /usr/lib/libnlopt.so.0.13.0
+* /usr/lib/libnlopt.so.1
+* /usr/lib/libnlopt.so.1.0.0
 * /usr/lib/pkgconfig/nlopt.pc
-* /usr/share/doc/nlopt-2.9.1/AUTHORS
-* /usr/share/doc/nlopt-2.9.1/ChangeLog
-* /usr/share/doc/nlopt-2.9.1/COPYING
-* /usr/share/doc/nlopt-2.9.1/COPYRIGHT
-* /usr/share/doc/nlopt-2.9.1/README.md
-* /usr/share/doc/nlopt-2.9.1/TODO
+* /usr/share/doc/nlopt-2.10.0/AUTHORS
+* /usr/share/doc/nlopt-2.10.0/ChangeLog
+* /usr/share/doc/nlopt-2.10.0/COPYING
+* /usr/share/doc/nlopt-2.10.0/COPYRIGHT
+* /usr/share/doc/nlopt-2.10.0/README.md
+* /usr/share/doc/nlopt-2.10.0/TODO
 * /usr/share/man/man3/nlopt.3.gz
 * /usr/share/man/man3/nlopt_minimize.3.gz
 * /usr/share/man/man3/nlopt_minimize_constrained.3.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "unicode-emoji 16.0-1"
-version = "16.0-1"
+title = "unicode-emoji 17.0-1"
+version = "17.0-1"
 description = "Unicode Emoji Data Files"
-date = "2024-08-27T14:12:21"
+date = "2025-02-07T21:34:06"
 aliases = "/packages/220578"
 categories = ['lib']
 upstreamurl = "https://www.unicode.org"
 arch = "x86_64"
-size = "68084"
-usize = "1084440"
-sha1sum = "53ec321b804bfd0f186b19879334ea16b69bddd2"
+size = "70716"
+usize = "1141303"
+sha1sum = "8d174e4d33791886ceeae66cf0c06ebf7ac79972"
 depends = "['unicode-character-database']"
 +++
 ### Description: 

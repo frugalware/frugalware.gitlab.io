@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtasn1 4.19.0-3"
-version = "4.19.0-3"
+title = "libtasn1 4.20.0-1"
+version = "4.20.0-1"
 description = "The ASN.1 library used in GNUTLS"
-date = "2024-05-16T02:34:05"
+date = "2025-02-07T21:39:45"
 aliases = "/packages/3202"
 categories = ['chroot-core']
 upstreamurl = "http://josefsson.org/libtasn1/"
 arch = "x86_64"
-size = "149620"
-usize = "377374"
-sha1sum = "e5209f48ee7c7eecee517ed8eba9b3f6ff5b7f6b"
+size = "147592"
+usize = "333127"
+sha1sum = "98fdc2bc7af4e971e854342de70c89a138030c44"
 depends = "['glibc>=2.34', 'texinfo>=6.5-2']"
 reverse_depends = "['p11-kit']"
 +++
@@ -24,16 +24,17 @@ The ASN.1 library used in GNUTLS
 * /usr/include/libtasn1.h
 * /usr/lib/libtasn1.so
 * /usr/lib/libtasn1.so.6
-* /usr/lib/libtasn1.so.6.6.3
+* /usr/lib/libtasn1.so.6.6.4
 * /usr/lib/pkgconfig/libtasn1.pc
-* /usr/share/doc/libtasn1-4.19.0/AUTHORS
-* /usr/share/doc/libtasn1-4.19.0/ChangeLog
-* /usr/share/doc/libtasn1-4.19.0/COPYING
-* /usr/share/doc/libtasn1-4.19.0/INSTALL
-* /usr/share/doc/libtasn1-4.19.0/NEWS
-* /usr/share/doc/libtasn1-4.19.0/README
-* /usr/share/doc/libtasn1-4.19.0/README.md
-* /usr/share/doc/libtasn1-4.19.0/THANKS
+* /usr/share/doc/libtasn1-4.20.0/AUTHORS
+* /usr/share/doc/libtasn1-4.20.0/ChangeLog
+* /usr/share/doc/libtasn1-4.20.0/COPYING
+* /usr/share/doc/libtasn1-4.20.0/COPYING.LESSERv2
+* /usr/share/doc/libtasn1-4.20.0/INSTALL
+* /usr/share/doc/libtasn1-4.20.0/NEWS
+* /usr/share/doc/libtasn1-4.20.0/README
+* /usr/share/doc/libtasn1-4.20.0/README.md
+* /usr/share/doc/libtasn1-4.20.0/THANKS
 * /usr/share/info/libtasn1.info.gz
 * /usr/share/man/man1/asn1Coding.1.gz
 * /usr/share/man/man1/asn1Decoding.1.gz
