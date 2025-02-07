@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdenlive 24.12.1-2"
-version = "24.12.1-2"
+title = "kdenlive 24.12.2-1"
+version = "24.12.2-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2025-02-02T20:33:17"
+date = "2025-02-07T16:59:05"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "14072160"
-usize = "74235362"
-sha1sum = "1e99155a4aa86288d6d2f42891d49c7d138625b3"
+size = "14072016"
+usize = "74279109"
+sha1sum = "04d537b06cceff9d3d144868de5c2e1d3b474c38"
 depends = "['kfilemetadata>=6.10.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kplotting>=6.10.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.10.0', 'qt6-declarative>=6.8.2', 'qt6-networkauth>=6.8.2', 'qt6-svg>=6.8.2', 'qt6-webengine>=6.8.2']"
 +++
 ### Description: 
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-24.12.1/AUTHORS
-* /usr/share/doc/kdenlive-24.12.1/COPYING
-* /usr/share/doc/kdenlive-24.12.1/README.md
-* /usr/share/doc/kdenlive-24.12.1/README.md.license
+* /usr/share/doc/kdenlive-24.12.2/AUTHORS
+* /usr/share/doc/kdenlive-24.12.2/COPYING
+* /usr/share/doc/kdenlive-24.12.2/README.md
+* /usr/share/doc/kdenlive-24.12.2/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt

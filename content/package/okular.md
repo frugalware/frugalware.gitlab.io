@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "okular 24.12.1-2"
-version = "24.12.1-2"
+title = "okular 24.12.2-1"
+version = "24.12.2-1"
 description = "KDE universal document viewer."
-date = "2025-02-02T20:21:31"
+date = "2025-02-07T16:45:35"
 aliases = "/packages/218510"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6922932"
-usize = "19608228"
-sha1sum = "2fdcd527dc3bd1ed9602b930e062be5180e122e5"
-depends = "['attica>=6.10.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.12.1', 'kirigami>=6.10.0', 'kparts>=6.10.0', 'kpty>=6.10.0', 'libkexiv2>=24.12.1', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.2.5', 'poppler-qt6>=24.11.0', 'purpose>=6.10.0', 'qca', 'qt6-speech>=6.8.2', 'qt6-svg>=6.8.2', 'threadweaver>=6.10.0']"
+size = "6923256"
+usize = "19601992"
+sha1sum = "cc1da72bd6407687fd623fabe5aa8644adf3cc83"
+depends = "['attica>=6.10.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.12.2', 'kirigami>=6.10.0', 'kparts>=6.10.0', 'kpty>=6.10.0', 'libkexiv2>=24.12.2', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.2.5', 'poppler-qt6>=24.11.0', 'purpose>=6.10.0', 'qca', 'qt6-speech>=6.8.2', 'qt6-svg>=6.8.2', 'threadweaver>=6.10.0']"
 reverse_depends = "['kile']"
 +++
 ### Description: 
@@ -85,7 +85,6 @@ KDE universal document viewer.
 * /usr/share/applications/okularApplication_tiff.desktop
 * /usr/share/applications/okularApplication_txt.desktop
 * /usr/share/applications/okularApplication_xps.desktop
-* /usr/share/applications/org.kde.mobile.okular_dvi.desktop
 * /usr/share/applications/org.kde.okular.desktop
 * /usr/share/config.kcfg/gssettings.kcfg
 * /usr/share/config.kcfg/okular.kcfg
@@ -279,10 +278,10 @@ KDE universal document viewer.
 * /usr/share/doc/HTML/uk/okular/mainwindow.png
 * /usr/share/doc/HTML/uk/okular/signatures-bar.png
 * /usr/share/doc/HTML/uk/okular/signatures-panel.png
-* /usr/share/doc/okular-24.12.1/README.clang-format
-* /usr/share/doc/okular-24.12.1/README.internals.png
-* /usr/share/doc/okular-24.12.1/README.md
-* /usr/share/doc/okular-24.12.1/TODO
+* /usr/share/doc/okular-24.12.2/README.clang-format
+* /usr/share/doc/okular-24.12.2/README.internals.png
+* /usr/share/doc/okular-24.12.2/README.md
+* /usr/share/doc/okular-24.12.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/okular.png
 * /usr/share/icons/hicolor/16x16/apps/okular.png
 * /usr/share/icons/hicolor/22x22/apps/okular.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kreversi 24.12.1-2"
-version = "24.12.1-2"
+title = "kreversi 24.12.2-1"
+version = "24.12.2-1"
 description = "KReversi is is a simple one player strategy game played against the computer"
-date = "2025-02-02T20:12:01"
+date = "2025-02-07T16:33:39"
 aliases = "/packages/219338"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1032308"
-usize = "1988252"
-sha1sum = "2b09a4d3102ad85ac350d4ac022539367dc1a272"
-depends = "['libkdegames>=24.12.1']"
+size = "1032484"
+usize = "1988305"
+sha1sum = "c8e42208e02bb842b4a770eab78b54e994f0192e"
+depends = "['libkdegames>=24.12.2']"
 +++
 ### Description: 
 KReversi is is a simple one player strategy game played against the computer
@@ -65,10 +65,10 @@ KReversi is is a simple one player strategy game played against the computer
 * /usr/share/doc/HTML/uk/kreversi/index.docbook
 * /usr/share/doc/HTML/uk/kreversi/kreversi1.png
 * /usr/share/doc/HTML/uk/kreversi/kreversi2.png
-* /usr/share/doc/kreversi-24.12.1/AUTHORS
-* /usr/share/doc/kreversi-24.12.1/ChangeLog
-* /usr/share/doc/kreversi-24.12.1/NEWS
-* /usr/share/doc/kreversi-24.12.1/TODO
+* /usr/share/doc/kreversi-24.12.2/AUTHORS
+* /usr/share/doc/kreversi-24.12.2/ChangeLog
+* /usr/share/doc/kreversi-24.12.2/NEWS
+* /usr/share/doc/kreversi-24.12.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kreversi.png
 * /usr/share/icons/hicolor/16x16/actions/lastmoves.png
 * /usr/share/icons/hicolor/16x16/actions/legalmoves.png
