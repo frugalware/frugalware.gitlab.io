@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akregator 24.12.1-2"
-version = "24.12.1-2"
+title = "akregator 24.12.2-1"
+version = "24.12.2-1"
 description = "Feed Reader"
-date = "2025-02-02T17:30:36"
+date = "2025-02-07T12:40:22"
 aliases = "/packages/218925"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2370932"
-usize = "6406656"
-sha1sum = "1fc3ee803173e2432e0705521779cbbe3791d6c1"
-depends = "['knotifyconfig>=6.10.0', 'kontactinterface>=24.12.1', 'kstatusnotifieritem>=6.10.0', 'ktexteditor>=6.10.0', 'messagelib>=24.12.1', 'syndication>=6.10.0']"
+size = "2368884"
+usize = "6408560"
+sha1sum = "fa994e7f01f1dd7bc3cb10ede406b59f4e922743"
+depends = "['knotifyconfig>=6.10.0', 'kontactinterface>=24.12.2', 'kstatusnotifieritem>=6.10.0', 'ktexteditor>=6.10.0', 'messagelib>=24.12.2', 'syndication>=6.10.0']"
 +++
 ### Description: 
 Feed Reader
@@ -20,9 +20,9 @@ Feed Reader
 * /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
 * /usr/lib/libakregatorinterfaces.so.6
-* /usr/lib/libakregatorinterfaces.so.6.3.1
+* /usr/lib/libakregatorinterfaces.so.6.3.2
 * /usr/lib/libakregatorprivate.so.6
-* /usr/lib/libakregatorprivate.so.6.3.1
+* /usr/lib/libakregatorprivate.so.6.3.2
 * /usr/lib/qt6/plugins/akregatorpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_advanced.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_appearance.so
@@ -35,8 +35,8 @@ Feed Reader
 * /usr/share/applications/org.kde.akregator.desktop
 * /usr/share/config.kcfg/akregator.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
-* /usr/share/doc/akregator-24.12.1/AUTHORS
-* /usr/share/doc/akregator-24.12.1/README
+* /usr/share/doc/akregator-24.12.2/AUTHORS
+* /usr/share/doc/akregator-24.12.2/README
 * /usr/share/doc/HTML/ca/akregator/add-feed.png
 * /usr/share/doc/HTML/ca/akregator/add-feed2.png
 * /usr/share/doc/HTML/ca/akregator/add-folder.png
