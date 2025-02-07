@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvas-cli 24.12.1-1"
-version = "24.12.1-1"
+title = "openvas-cli 25.1.1-1"
+version = "25.1.1-1"
 description = "OpenVAS command line client"
-date = "2025-01-07T15:08:42"
+date = "2025-02-07T20:15:36"
 aliases = "/packages/217467"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "35584"
-usize = "119472"
-sha1sum = "7ceb9f3189f884bec7ab43baeb3cf67255cbc7c4"
+size = "35636"
+usize = "119460"
+sha1sum = "667d0fe69805c2ca6045a4e94b4b72d86243df7b"
 depends = "['openvas-manager', 'openvas-scanner', 'python3>=3.13', 'python3-gvm']"
 +++
 ### Description: 
@@ -36,10 +36,10 @@ OpenVAS command line client
 * /usr/lib/python3.13/site-packages/gvmtools/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvmtools/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvmtools/__version__.py
-* /usr/lib/python3.13/site-packages/gvm_tools-24.12.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/gvm_tools-24.12.1-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/gvm_tools-24.12.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/gvm_tools-24.12.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/gvm_tools-24.12.1-py3.13.egg-info/top_level.txt
-* /usr/share/doc/openvas-cli-24.12.1/LICENSE
-* /usr/share/doc/openvas-cli-24.12.1/README.md
+* /usr/lib/python3.13/site-packages/gvm_tools-25.1.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/gvm_tools-25.1.1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/gvm_tools-25.1.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/gvm_tools-25.1.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/gvm_tools-25.1.1-py3.13.egg-info/top_level.txt
+* /usr/share/doc/openvas-cli-25.1.1/LICENSE
+* /usr/share/doc/openvas-cli-25.1.1/README.md
