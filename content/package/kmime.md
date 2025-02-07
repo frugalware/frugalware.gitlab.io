@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmime 24.12.1-2"
-version = "24.12.1-2"
+title = "kmime 24.12.2-1"
+version = "24.12.2-1"
 description = "Desc: C++ API for MIME handling."
-date = "2025-02-02T16:10:30"
+date = "2025-02-07T11:10:06"
 aliases = "/packages/218335"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "158156"
+size = "158284"
 usize = "600033"
-sha1sum = "d4eed1fa988c5b9a55d4e8102b8ff07cd61eeca8"
+sha1sum = "990b5bf146cfe3b0a689dea86db404025cffc62b"
 depends = "['kcodecs>=6.10.0', 'ki18n>=6.10.0']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'kimap', 'kitinerary', 'kleopatra', 'kmbox', 'ksmtp', 'mimetreeparser']"
 +++
@@ -42,11 +42,11 @@ Desc: C++ API for MIME handling.
 * /usr/lib/cmake/KPim6Mime/KPim6MimeTargets.cmake
 * /usr/lib/libKPim6Mime.so
 * /usr/lib/libKPim6Mime.so.6
-* /usr/lib/libKPim6Mime.so.6.3.1
-* /usr/share/doc/kmime-24.12.1/AUTHORS
-* /usr/share/doc/kmime-24.12.1/README.md
-* /usr/share/doc/kmime-24.12.1/README.md.license
-* /usr/share/doc/kmime-24.12.1/TODO
+* /usr/lib/libKPim6Mime.so.6.3.2
+* /usr/share/doc/kmime-24.12.2/AUTHORS
+* /usr/share/doc/kmime-24.12.2/README.md
+* /usr/share/doc/kmime-24.12.2/README.md.license
+* /usr/share/doc/kmime-24.12.2/TODO
 * /usr/share/locale/ar/LC_MESSAGES/libkmime6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkmime6_qt.qm
 * /usr/share/locale/be/LC_MESSAGES/libkmime6_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blinken 24.12.1-2"
-version = "24.12.1-2"
+title = "blinken 24.12.2-1"
+version = "24.12.2-1"
 description = "Memory Enhancement Game."
-date = "2025-02-02T15:47:48"
+date = "2025-02-07T10:41:16"
 aliases = "/packages/152822"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2307208"
-usize = "3192644"
-sha1sum = "11ae472ab4161828fc4eec4a46e47562ace39331"
+size = "2307440"
+usize = "3192695"
+sha1sum = "7e9a2b4c2f5738c0ce780f684f52dc3d3ad2decb"
 depends = "['kdeclarative>=6.10.0', 'knewstuff>=6.10.0']"
 +++
 ### Description: 
@@ -28,8 +28,8 @@ Memory Enhancement Game.
 * /usr/share/blinken/sounds/4.wav
 * /usr/share/blinken/sounds/lose.wav
 * /usr/share/config.kcfg/blinken.kcfg
-* /usr/share/doc/blinken-24.12.1/AUTHORS
-* /usr/share/doc/blinken-24.12.1/README.packagers
+* /usr/share/doc/blinken-24.12.2/AUTHORS
+* /usr/share/doc/blinken-24.12.2/README.packagers
 * /usr/share/doc/HTML/ca/blinken/blinken1.png
 * /usr/share/doc/HTML/ca/blinken/blinken2.png
 * /usr/share/doc/HTML/ca/blinken/blinken_accesskeys.png

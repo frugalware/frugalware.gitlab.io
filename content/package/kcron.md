@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcron 24.12.1-2"
-version = "24.12.1-2"
+title = "kcron 24.12.2-1"
+version = "24.12.2-1"
 description = "KDE module for configure and schedule tasks."
-date = "2025-02-02T15:55:41"
+date = "2025-02-07T10:51:22"
 aliases = "/packages/135945"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "895320"
+size = "895460"
 usize = "1778956"
-sha1sum = "ee758c5da5f75758d355b0a08d05d3d3e29f64f5"
+sha1sum = "0b6bffdbd573399f4607e04df33a28ad3054da54"
 depends = "['kcmutils>=6.10.0', 'kio>=6.10.0', 'kirigami-addons', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
@@ -81,10 +81,10 @@ KDE module for configure and schedule tasks.
 * /usr/share/doc/HTML/uk/kcontrol/kcron/newvariable.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/kcron/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/kcron/index.docbook
-* /usr/share/doc/kcron-24.12.1/AUTHORS
-* /usr/share/doc/kcron-24.12.1/ChangeLog
-* /usr/share/doc/kcron-24.12.1/README
-* /usr/share/doc/kcron-24.12.1/TODO
+* /usr/share/doc/kcron-24.12.2/AUTHORS
+* /usr/share/doc/kcron-24.12.2/ChangeLog
+* /usr/share/doc/kcron-24.12.2/README
+* /usr/share/doc/kcron-24.12.2/TODO
 * /usr/share/locale/af/LC_MESSAGES/kcron.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcron.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcron.mo
