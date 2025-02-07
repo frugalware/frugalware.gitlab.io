@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khangman 24.12.1-2"
-version = "24.12.1-2"
+title = "khangman 24.12.2-1"
+version = "24.12.2-1"
 description = "KDE hangman game."
-date = "2025-02-02T16:47:17"
+date = "2025-02-07T11:58:09"
 aliases = "/packages/152829"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6230552"
-usize = "9563700"
-sha1sum = "bd4874fc8f0d2da06b7c515a5754257aab8c4778"
-depends = "['kdeclarative>=6.10.0', 'knewstuff>=6.10.0', 'libkeduvocdocument>=24.12.1', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2']"
+size = "6229100"
+usize = "9563751"
+sha1sum = "1d7834d4dc6753212f34e10a2dddfe060f5530ad"
+depends = "['kdeclarative>=6.10.0', 'knewstuff>=6.10.0', 'libkeduvocdocument>=24.12.2', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
 KDE hangman game.
@@ -104,16 +104,16 @@ KDE hangman game.
 * /usr/share/doc/HTML/uk/khangman/settings-languages.png
 * /usr/share/doc/HTML/uk/khangman/settings-timers.png
 * /usr/share/doc/HTML/uk/khangman/settings.png
-* /usr/share/doc/khangman-24.12.1/AUTHORS
-* /usr/share/doc/khangman-24.12.1/ChangeLog
-* /usr/share/doc/khangman-24.12.1/COPYING
-* /usr/share/doc/khangman-24.12.1/COPYING.DOC
-* /usr/share/doc/khangman-24.12.1/INSTALL
-* /usr/share/doc/khangman-24.12.1/README
-* /usr/share/doc/khangman-24.12.1/README.developer
-* /usr/share/doc/khangman-24.12.1/README.languages
-* /usr/share/doc/khangman-24.12.1/README_packagers
-* /usr/share/doc/khangman-24.12.1/TODO
+* /usr/share/doc/khangman-24.12.2/AUTHORS
+* /usr/share/doc/khangman-24.12.2/ChangeLog
+* /usr/share/doc/khangman-24.12.2/COPYING
+* /usr/share/doc/khangman-24.12.2/COPYING.DOC
+* /usr/share/doc/khangman-24.12.2/INSTALL
+* /usr/share/doc/khangman-24.12.2/README
+* /usr/share/doc/khangman-24.12.2/README.developer
+* /usr/share/doc/khangman-24.12.2/README.languages
+* /usr/share/doc/khangman-24.12.2/README_packagers
+* /usr/share/doc/khangman-24.12.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/khangman.png
 * /usr/share/icons/hicolor/16x16/apps/khangman.png
 * /usr/share/icons/hicolor/22x22/apps/khangman.png

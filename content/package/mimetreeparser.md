@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 24.12.1-2"
-version = "24.12.1-2"
+title = "mimetreeparser 24.12.2-1"
+version = "24.12.2-1"
 description = "Parser for MIME trees"
-date = "2025-02-02T16:18:16"
+date = "2025-02-07T11:20:13"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "216804"
-usize = "963563"
-sha1sum = "c1086c8c2a18a2c5c470a8d7808beeb1dcb76c37"
-depends = "['kcalendarcore>=6.10.0', 'kcodecs>=6.10.0', 'ki18n>=6.10.0', 'kmbox>=24.12.1', 'kmime>=24.12.1', 'libkleo>=24.12.1']"
+size = "216516"
+usize = "963573"
+sha1sum = "6e8a2ac63be37ed3bb2008a77c790cc49cb357b4"
+depends = "['kcalendarcore>=6.10.0', 'kcodecs>=6.10.0', 'ki18n>=6.10.0', 'kmbox>=24.12.2', 'kmime>=24.12.2', 'libkleo>=24.12.2']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -58,10 +58,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.3.1
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.3.2
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.3.1
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.3.2
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -78,7 +78,7 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.12.1/README.md
+* /usr/share/doc/mimetreeparser-24.12.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo

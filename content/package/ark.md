@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ark 24.12.1-2"
-version = "24.12.1-2"
+title = "ark 24.12.2-1"
+version = "24.12.2-1"
 description = "KDE Archiving Tool."
-date = "2025-02-02T17:03:53"
+date = "2025-02-07T12:08:07"
 aliases = "/packages/153200"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1405620"
-usize = "5110281"
-sha1sum = "f8ad62a17f408d38f006a80c0a89af55d8aa5270"
+size = "1403928"
+usize = "5111688"
+sha1sum = "277cd9b34d1a3af69476ad770f131c98708b2503"
 depends = "['kfilemetadata>=6.10.0', 'kitemmodels>=6.10.0', 'kparts>=6.10.0', 'kpty>=6.10.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ KDE Archiving Tool.
 * /etc/xdg/arkrc
 * /usr/bin/ark
 * /usr/lib/libkerfuffle.so.24
-* /usr/lib/libkerfuffle.so.24.12.1
+* /usr/lib/libkerfuffle.so.24.12.2
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cli7z.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cliarj.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_clirar.so
@@ -35,9 +35,9 @@ KDE Archiving Tool.
 * /usr/lib/qt6/plugins/kf6/parts/arkpart.so
 * /usr/share/applications/org.kde.ark.desktop
 * /usr/share/config.kcfg/ark.kcfg
-* /usr/share/doc/ark-24.12.1/COPYING.icons
-* /usr/share/doc/ark-24.12.1/README.md
-* /usr/share/doc/ark-24.12.1/README.packagers
+* /usr/share/doc/ark-24.12.2/COPYING.icons
+* /usr/share/doc/ark-24.12.2/README.md
+* /usr/share/doc/ark-24.12.2/README.packagers
 * /usr/share/doc/HTML/ca/ark/index.cache.bz2
 * /usr/share/doc/HTML/ca/ark/index.docbook
 * /usr/share/doc/HTML/en/ark/ark-comment.png

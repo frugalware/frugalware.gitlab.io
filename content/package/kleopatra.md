@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kleopatra 24.12.1-2"
-version = "24.12.1-2"
+title = "kleopatra 24.12.2-1"
+version = "24.12.2-1"
 description = "Certificate manager and GUI for OpenPGP and CMS cryptography."
-date = "2025-02-02T16:20:32"
+date = "2025-02-07T11:22:47"
 aliases = "/packages/219334"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3319284"
-usize = "16704564"
-sha1sum = "9b3b4411167ab0d995fef18b2dbc742658dc21fe"
-depends = "['kcmutils>=6.10.0', 'kitemmodels>=6.10.0', 'kmime>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'libkleo>=24.12.1', 'mimetreeparser>=24.12.1']"
+size = "3322260"
+usize = "16766890"
+sha1sum = "e084b674e8369fd614a2c316eeff4e9a067fea93"
+depends = "['kcmutils>=6.10.0', 'kitemmodels>=6.10.0', 'kmime>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'libkleo>=24.12.2', 'mimetreeparser>=24.12.2']"
 +++
 ### Description: 
 Certificate manager and GUI for OpenPGP and CMS cryptography.
@@ -84,7 +84,7 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/doc/HTML/uk/kleopatra/index.docbook
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.docbook
-* /usr/share/doc/kleopatra-24.12.1/README.packagers
+* /usr/share/doc/kleopatra-24.12.2/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/kleopatra.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.kwatchgnupg.png
 * /usr/share/icons/hicolor/16x16/apps/kleopatra.png
