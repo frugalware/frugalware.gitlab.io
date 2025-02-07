@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kgraphviewer 24.12.1-2"
-version = "24.12.1-2"
+title = "kgraphviewer 24.12.2-1"
+version = "24.12.2-1"
 description = "GraphViz dot graph viewer"
-date = "2025-02-02T21:23:37"
+date = "2025-02-07T17:54:23"
 aliases = "/packages/222504"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1346952"
-usize = "3081128"
-sha1sum = "2f00a65e38b03087e71040ce0e2c603e26a4d1d0"
+size = "1347064"
+usize = "3081248"
+sha1sum = "b196715f25e3d60af3daaaec941ac4f7e829eec1"
 depends = "['graphviz', 'kparts>=6.10.0']"
 reverse_depends = "['massif-visualizer']"
 +++
@@ -25,7 +25,7 @@ GraphViz dot graph viewer
 * /usr/lib/cmake/KGraphViewerPart/KGraphViewerPartTargets.cmake
 * /usr/lib/libkgraphviewer.so
 * /usr/lib/libkgraphviewer.so.0
-* /usr/lib/libkgraphviewer.so.2.5.24121
+* /usr/lib/libkgraphviewer.so.2.5.24122
 * /usr/lib/qt6/plugins/kf6/parts/kgraphviewerpart.so
 * /usr/share/applications/org.kde.kgraphviewer.desktop
 * /usr/share/config.kcfg/kgraphviewersettings.kcfg
@@ -98,13 +98,13 @@ GraphViz dot graph viewer
 * /usr/share/doc/HTML/sv/kgraphviewer/kgraphviewer-snap-zmin.png
 * /usr/share/doc/HTML/uk/kgraphviewer/index.cache.bz2
 * /usr/share/doc/HTML/uk/kgraphviewer/index.docbook
-* /usr/share/doc/kgraphviewer-24.12.1/AUTHORS
-* /usr/share/doc/kgraphviewer-24.12.1/ChangeLog
-* /usr/share/doc/kgraphviewer-24.12.1/COPYING
-* /usr/share/doc/kgraphviewer-24.12.1/COPYING.DOC
-* /usr/share/doc/kgraphviewer-24.12.1/INSTALL
-* /usr/share/doc/kgraphviewer-24.12.1/README
-* /usr/share/doc/kgraphviewer-24.12.1/TODO
+* /usr/share/doc/kgraphviewer-24.12.2/AUTHORS
+* /usr/share/doc/kgraphviewer-24.12.2/ChangeLog
+* /usr/share/doc/kgraphviewer-24.12.2/COPYING
+* /usr/share/doc/kgraphviewer-24.12.2/COPYING.DOC
+* /usr/share/doc/kgraphviewer-24.12.2/INSTALL
+* /usr/share/doc/kgraphviewer-24.12.2/README
+* /usr/share/doc/kgraphviewer-24.12.2/TODO
 * /usr/share/icons/hicolor/16x16/apps/kgraphviewer.png
 * /usr/share/icons/hicolor/32x32/apps/kgraphviewer.png
 * /usr/share/locale/ar/LC_MESSAGES/kgraphviewer.mo

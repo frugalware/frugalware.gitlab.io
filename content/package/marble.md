@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "marble 24.12.1-3"
-version = "24.12.1-3"
+title = "marble 24.12.2-1"
+version = "24.12.2-1"
 description = "Desc: Virtual Globe and World Atlas."
-date = "2025-02-02T21:52:44"
+date = "2025-02-07T18:01:38"
 aliases = "/packages/152838"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "37666944"
-usize = "61604935"
-sha1sum = "be8ddd324e5a0589ba269b92f008b5cc26700cdd"
+size = "37717152"
+usize = "62062456"
+sha1sum = "54d0adbf1c65469c839b9f298e95201e881cd78d"
 depends = "['libmarble', 'qt6-location>=6.8.2', 'qt6-tools>=6.8.2']"
 +++
 ### Description: 
@@ -355,11 +355,11 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/doc/HTML/uk/marble/routing-6.png
 * /usr/share/doc/HTML/uk/marble/search-1.png
 * /usr/share/doc/HTML/uk/marble/search-2.png
-* /usr/share/doc/marble-24.12.1/BUGS
-* /usr/share/doc/marble-24.12.1/ChangeLog
-* /usr/share/doc/marble-24.12.1/COPYING.DOC
-* /usr/share/doc/marble-24.12.1/CREDITS
-* /usr/share/doc/marble-24.12.1/README.md
+* /usr/share/doc/marble-24.12.2/BUGS
+* /usr/share/doc/marble-24.12.2/ChangeLog
+* /usr/share/doc/marble-24.12.2/COPYING.DOC
+* /usr/share/doc/marble-24.12.2/CREDITS
+* /usr/share/doc/marble-24.12.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/marble.png
 * /usr/share/icons/hicolor/16x16/apps/marble.png
 * /usr/share/icons/hicolor/22x22/apps/marble.png
@@ -370,6 +370,7 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/icons/hicolor/scalable/apps/org.kde.marble.maps.svg
 * /usr/share/kxmlgui5/marble/marbleui.rc
 * /usr/share/kxmlgui5/marble/marble_part.rc
+* /usr/share/locale/ar/LC_MESSAGES/marble-behaim.mo
 * /usr/share/locale/ar/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/ar/LC_MESSAGES/marble.mo
 * /usr/share/locale/ar/LC_MESSAGES/marble_qt.qm
@@ -507,7 +508,9 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/locale/hu/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/hu/LC_MESSAGES/marble.mo
 * /usr/share/locale/hu/LC_MESSAGES/marble_qt.qm
+* /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.worldclock.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_marble.mo
+* /usr/share/locale/hu/LC_MESSAGES/plasma_wallpaper_org.kde.plasma.worldmap.mo
 * /usr/share/locale/id/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/id/LC_MESSAGES/marble.mo
 * /usr/share/locale/id/LC_MESSAGES/marble_qt.qm

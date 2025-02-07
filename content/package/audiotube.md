@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audiotube 24.12.1-2"
-version = "24.12.1-2"
+title = "audiotube 24.12.2-1"
+version = "24.12.2-1"
 description = "Client for YouTube Music"
-date = "2025-02-02T20:59:58"
+date = "2025-02-07T17:29:19"
 aliases = "/packages/220964"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "456740"
-usize = "1537590"
-sha1sum = "4b7a8695020f7d9f384014b41cdf4db1d7220134"
+size = "457068"
+usize = "1541047"
+sha1sum = "86165b50baf2feada8023ede646242ec4f7f16ea"
 depends = "['futuresql', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kirigami-addons', 'kwindowsystem>=', 'pybind11', 'python3-ytmusicapi', 'qcoro', 'qt6-multimedia>=', 'qt6-multimedia-gstreamer>=', 'yt-dlp']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Client for YouTube Music
 ### Files: 
 * /usr/bin/audiotube
 * /usr/share/applications/org.kde.audiotube.desktop
-* /usr/share/doc/audiotube-24.12.1/README.md
+* /usr/share/doc/audiotube-24.12.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.audiotube.svg
 * /usr/share/locale/ar/LC_MESSAGES/audiotube.mo
 * /usr/share/locale/ast/LC_MESSAGES/audiotube.mo

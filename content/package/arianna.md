@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "arianna 24.12.1-2"
-version = "24.12.1-2"
+title = "arianna 24.12.2-1"
+version = "24.12.2-1"
 description = "EPub Reader for mobile devices"
-date = "2025-02-02T20:58:57"
+date = "2025-02-07T17:28:10"
 aliases = "/packages/221079"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "314768"
-usize = "753383"
-sha1sum = "2c6cf9efca74cfaf395162ff269628d7933bac8a"
+size = "314820"
+usize = "753482"
+sha1sum = "1655320eaada21e8d1839b68900d19c877d57d12"
 depends = "['baloo>=', 'kirigami-addons', 'kquickcharts>=', 'qqc2-desktop-style>=', 'qt6-httpserver>=', 'qt6-webengine>=', 'qt6-websockets>=']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ EPub Reader for mobile devices
 ### Files: 
 * /usr/bin/arianna
 * /usr/share/applications/org.kde.arianna.desktop
-* /usr/share/doc/arianna-24.12.1/README.md
+* /usr/share/doc/arianna-24.12.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.arianna.svg
 * /usr/share/locale/ar/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ast/LC_MESSAGES/arianna.mo

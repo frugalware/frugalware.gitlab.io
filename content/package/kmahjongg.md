@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmahjongg 24.12.1-2"
-version = "24.12.1-2"
+title = "kmahjongg 24.12.2-1"
+version = "24.12.2-1"
 description = "KMahjongg is a tile matching game for one or two players"
-date = "2025-02-02T21:24:24"
+date = "2025-02-07T17:55:24"
 aliases = "/packages/219335"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3822736"
-usize = "5315470"
-sha1sum = "456201e53e25c99c049bb236c4b52d658684ea7f"
-depends = "['libkdegames>=24.12.1', 'libkmahjongg>=24.12.1']"
+size = "3822936"
+usize = "5315523"
+sha1sum = "8d0e7c016dc6f731bc2a9c24930f5963f6da4360"
+depends = "['libkdegames>=24.12.2', 'libkmahjongg>=24.12.2']"
 +++
 ### Description: 
 KMahjongg is a tile matching game for one or two players
@@ -115,8 +115,8 @@ KMahjongg is a tile matching game for one or two players
 * /usr/share/doc/HTML/uk/kmahjongg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmahjongg/index.docbook
 * /usr/share/doc/HTML/uk/kmahjongg/numbered.png
-* /usr/share/doc/kmahjongg-24.12.1/ChangeLog
-* /usr/share/doc/kmahjongg-24.12.1/README.PACKAGERS
+* /usr/share/doc/kmahjongg-24.12.2/ChangeLog
+* /usr/share/doc/kmahjongg-24.12.2/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/kmahjongg.png
 * /usr/share/icons/hicolor/16x16/apps/kmahjongg.png
 * /usr/share/icons/hicolor/22x22/apps/kmahjongg.png

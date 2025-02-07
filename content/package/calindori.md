@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calindori 24.12.1-2"
-version = "24.12.1-2"
+title = "calindori 24.12.2-1"
+version = "24.12.2-1"
 description = "Calendar for Plasma Mobil"
-date = "2025-02-02T21:05:06"
+date = "2025-02-07T17:35:09"
 aliases = "/packages/221484"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "233344"
-usize = "1013917"
-sha1sum = "5ffd2941fed50c2537dcb4d601f693b00f4d277b"
+size = "233464"
+usize = "1014352"
+sha1sum = "6565ab950fe79b8593e226fde4dc29e26c826ac4"
 depends = "['kcalendarcore>=', 'kirigami>=', 'knotifications>=', 'kpeople>=']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ Calendar for Plasma Mobil
 * /usr/bin/calindori
 * /usr/share/applications/org.kde.calindori.desktop
 * /usr/share/dbus-1/services/org.kde.calindac.service
-* /usr/share/doc/calindori-24.12.1/COPYING
-* /usr/share/doc/calindori-24.12.1/README.md
+* /usr/share/doc/calindori-24.12.2/COPYING
+* /usr/share/doc/calindori-24.12.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/calindori.svg
 * /usr/share/knotifications6/calindac.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/calindac.mo

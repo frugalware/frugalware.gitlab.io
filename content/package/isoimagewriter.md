@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "isoimagewriter 24.12.1-2"
-version = "24.12.1-2"
+title = "isoimagewriter 24.12.2-1"
+version = "24.12.2-1"
 description = "Program to write hybrid ISO files onto USB disks"
-date = "2025-02-02T21:03:24"
+date = "2025-02-07T17:33:10"
 aliases = "/packages/221411"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "133528"
-usize = "586665"
-sha1sum = "74374ecd9391b258d9a8b6e4d149019d3e43a29f"
+size = "133420"
+usize = "586700"
+sha1sum = "992bca31d234ce0a0b2d778d2e181ed5bbf8dd6c"
 depends = "['karchive>=', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kiconthemes>=', 'kwidgetsaddons>=', 'libgpgmepp', 'libqgpgme', 'solid>=']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Program to write hybrid ISO files onto USB disks
 ### Files: 
 * /usr/bin/isoimagewriter
 * /usr/share/applications/org.kde.isoimagewriter.desktop
-* /usr/share/doc/isoimagewriter-24.12.1/README.md
+* /usr/share/doc/isoimagewriter-24.12.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.isoimagewriter.svg
 * /usr/share/isoimagewriter/arch-signing-key.gpg
 * /usr/share/isoimagewriter/neon-signing-key.gpg
