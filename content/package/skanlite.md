@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skanlite 24.12.1-2"
-version = "24.12.1-2"
+title = "skanlite 24.12.2-1"
+version = "24.12.2-1"
 description = "Image Scanning Application for KDE"
-date = "2025-02-02T18:15:49"
+date = "2025-02-07T13:34:06"
 aliases = "/packages/103475"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2483000"
-usize = "3115153"
-sha1sum = "7cdaa17199775da58781699a59299ae5c95ca79c"
-depends = "['kcoreaddons>=6.10.0', 'ki18n>=6.10.0', 'kio>=6.10.0', 'kxmlgui>=6.10.0', 'libksane>=24.12.1']"
+size = "2483084"
+usize = "3115204"
+sha1sum = "00158f5c138a5751bdd185002ca58603237f8526"
+depends = "['kcoreaddons>=6.10.0', 'ki18n>=6.10.0', 'kio>=6.10.0', 'kxmlgui>=6.10.0', 'libksane>=24.12.2']"
 +++
 ### Description: 
 Image Scanning Application for KDE

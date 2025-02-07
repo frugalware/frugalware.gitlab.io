@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kolourpaint 24.12.1-2"
-version = "24.12.1-2"
+title = "kolourpaint 24.12.2-1"
+version = "24.12.2-1"
 description = "KDE Paint Program."
-date = "2025-02-02T18:02:23"
+date = "2025-02-07T13:18:06"
 aliases = "/packages/88169"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5465048"
-usize = "9762187"
-sha1sum = "5c0ccc58e06f5b0fc14acbc585784984ea7c9069"
-depends = "['kio>=6.10.0', 'libksane>=24.12.1']"
+size = "5465756"
+usize = "9762238"
+sha1sum = "f8d5accef8227c10188c1d9e4686250eac4d4cde"
+depends = "['kio>=6.10.0', 'libksane>=24.12.2']"
 +++
 ### Description: 
 KDE Paint Program.
@@ -266,14 +266,14 @@ KDE Paint Program.
 * /usr/share/doc/HTML/uk/kolourpaint/index.docbook
 * /usr/share/doc/HTML/uk/kolourpaint/KolourPaint.png
 * /usr/share/doc/HTML/uk/kolourpaint/screenshot_acquiring.png
-* /usr/share/doc/kolourpaint-24.12.1/AUTHORS
-* /usr/share/doc/kolourpaint-24.12.1/BUGS
-* /usr/share/doc/kolourpaint-24.12.1/ChangeLog
-* /usr/share/doc/kolourpaint-24.12.1/COPYING
-* /usr/share/doc/kolourpaint-24.12.1/COPYING.DOC
-* /usr/share/doc/kolourpaint-24.12.1/COPYING.LIB
-* /usr/share/doc/kolourpaint-24.12.1/NEWS
-* /usr/share/doc/kolourpaint-24.12.1/README.md
+* /usr/share/doc/kolourpaint-24.12.2/AUTHORS
+* /usr/share/doc/kolourpaint-24.12.2/BUGS
+* /usr/share/doc/kolourpaint-24.12.2/ChangeLog
+* /usr/share/doc/kolourpaint-24.12.2/COPYING
+* /usr/share/doc/kolourpaint-24.12.2/COPYING.DOC
+* /usr/share/doc/kolourpaint-24.12.2/COPYING.LIB
+* /usr/share/doc/kolourpaint-24.12.2/NEWS
+* /usr/share/doc/kolourpaint-24.12.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/kolourpaint.png
 * /usr/share/icons/hicolor/16x16/apps/kolourpaint.png
 * /usr/share/icons/hicolor/22x22/apps/kolourpaint.png

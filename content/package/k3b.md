@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "k3b 24.12.1-2"
-version = "24.12.1-2"
+title = "k3b 24.12.2-1"
+version = "24.12.2-1"
 description = "The CD Kreator"
-date = "2025-02-02T18:04:44"
+date = "2025-02-07T13:20:33"
 aliases = "/packages/218657"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11589700"
-usize = "35601437"
-sha1sum = "a7534cd599f2f2c18e59618f117ced3678dcd4de"
-depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'kfilemetadata>=6.10.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'libdvdread', 'libkcddb>=24.12.1', 'libmad', 'libmpcdec', 'libsamplerate', 'qt6-webengine>=6.8.2']"
+size = "11591608"
+usize = "35602731"
+sha1sum = "991df08b5c783088a285eede2691da5b72c43e45"
+depends = "['cdrdao>=1.2.3-6', 'cdrtools>=3.01-3', 'dvd+rw-tools>=7.1-4', 'kfilemetadata>=6.10.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'libdvdread', 'libkcddb>=24.12.2', 'libmad', 'libmpcdec', 'libsamplerate', 'qt6-webengine>=6.8.2']"
 +++
 ### Description: 
 The CD Kreator
@@ -235,10 +235,10 @@ The CD Kreator
 * /usr/share/doc/HTML/uk/k3b/K3bMoreActions.png
 * /usr/share/doc/HTML/uk/k3b/K3bsetup.png
 * /usr/share/doc/HTML/uk/k3b/K3bSetVerify.png
-* /usr/share/doc/k3b-24.12.1/ChangeLog
-* /usr/share/doc/k3b-24.12.1/FAQ.txt
-* /usr/share/doc/k3b-24.12.1/INSTALL.txt
-* /usr/share/doc/k3b-24.12.1/README.txt
+* /usr/share/doc/k3b-24.12.2/ChangeLog
+* /usr/share/doc/k3b-24.12.2/FAQ.txt
+* /usr/share/doc/k3b-24.12.2/INSTALL.txt
+* /usr/share/doc/k3b-24.12.2/README.txt
 * /usr/share/icons/hicolor/128x128/apps/k3b.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-k3b.png
 * /usr/share/icons/hicolor/16x16/apps/k3b.png

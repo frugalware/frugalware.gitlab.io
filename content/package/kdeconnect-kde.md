@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.12.1-2"
-version = "24.12.1-2"
+title = "kdeconnect-kde 24.12.2-1"
+version = "24.12.2-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2025-02-02T18:22:28"
+date = "2025-02-07T13:41:38"
 aliases = "/packages/220147"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5541896"
-usize = "14468709"
-sha1sum = "e16730735989497c60fa9f3d63ef7ce08832599b"
+size = "5541752"
+usize = "14469677"
+sha1sum = "a79b86b5b8b2cc43ac08370460003a8b39d994fd"
 depends = "['kcmutils>=6.10.0', 'kio>=6.10.0', 'kirigami-addons', 'kirigami-addons', 'kpeople>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'kwayland>=6.2.5', 'libfakekey', 'libxtst', 'modemmanager-qt>=6.10.0', 'pulseaudio-qt>=1.5.0', 'qca', 'qca-ossl', 'qqc2-desktop-style>=6.10.0', 'qt6-multimedia>=6.8.2', 'qt6-sensors>=6.8.2']"
 +++
 ### Description: 
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.12.1
+* /usr/lib/libkdeconnectcore.so.24.12.2
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.12.1
+* /usr/lib/libkdeconnectpluginkcm.so.24.12.2
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -119,7 +119,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.12.1/README.md
+* /usr/share/doc/kdeconnect-kde-24.12.2/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
