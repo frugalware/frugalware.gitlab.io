@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.23.5-1"
-version = "1.23.5-1"
+title = "go 1.23.6-1"
+version = "1.23.6-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2025-01-17T10:44:06"
+date = "2025-02-08T10:17:16"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "146961788"
-usize = "342829479"
-sha1sum = "5e75fb4fe174e28c4fe94bcfbe6eec0747796a44"
+size = "146958436"
+usize = "342835353"
+sha1sum = "00f53e2560e6ea28f1c7ded638dba7b8a973fe29"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -13258,9 +13258,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/writebarrier.go
 * /usr/lib/go/test/zerodivide.go
 * /usr/lib/go/test/zerosize.go
-* /usr/share/doc/go-1.23.5/LICENSE
-* /usr/share/doc/go-1.23.5/README.md
-* /usr/share/doc/go-1.23.5/VERSION
+* /usr/share/doc/go-1.23.6/LICENSE
+* /usr/share/doc/go-1.23.6/README.md
+* /usr/share/doc/go-1.23.6/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
