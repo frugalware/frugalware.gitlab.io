@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.96.4-1"
-version = "1.96.4-1"
+title = "vscode 1.97.0-1"
+version = "1.97.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2025-01-17T21:04:44"
+date = "2025-02-08T14:55:17"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "95014740"
-usize = "374318683"
-sha1sum = "bbdf9e2a4663f434ea2030cd1bd74fd678f9a031"
+size = "96125020"
+usize = "390050787"
+sha1sum = "43da55305bfcaa64bf5cd87d1fff4eeb13418251"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.96.4/README.md
+* /usr/share/doc/vscode-1.97.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -224,6 +224,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/git/resources/icons/light/status-type-changed.svg
 * /usr/share/vscode/resources/app/extensions/git/resources/icons/light/status-untracked.svg
 * /usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js
+* /usr/share/vscode/resources/app/extensions/github-authentication/dist/extension.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/github-authentication/images/icon.png
 * /usr/share/vscode/resources/app/extensions/github-authentication/media/auth.css
 * /usr/share/vscode/resources/app/extensions/github-authentication/media/favicon.ico
@@ -277,6 +278,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/hlsl/package.nls.json
 * /usr/share/vscode/resources/app/extensions/hlsl/syntaxes/hlsl.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js
+* /usr/share/vscode/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/html-language-features/icons/html.png
 * /usr/share/vscode/resources/app/extensions/html-language-features/package.json
 * /usr/share/vscode/resources/app/extensions/html-language-features/package.nls.json
@@ -326,6 +328,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/javascript/syntaxes/Regular Expressions (JavaScript).tmLanguage
 * /usr/share/vscode/resources/app/extensions/javascript/tags-language-configuration.json
 * /usr/share/vscode/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js
+* /usr/share/vscode/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/json-language-features/icons/json.png
 * /usr/share/vscode/resources/app/extensions/json-language-features/package.json
 * /usr/share/vscode/resources/app/extensions/json-language-features/package.nls.json
@@ -380,6 +383,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/markdown-basics/snippets/markdown.code-snippets
 * /usr/share/vscode/resources/app/extensions/markdown-basics/syntaxes/markdown.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/extension.js
+* /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/extension.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/markdown-language-features/icon.png
@@ -441,6 +445,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/media-preview/package.nls.json
 * /usr/share/vscode/resources/app/extensions/media-preview/README.md
 * /usr/share/vscode/resources/app/extensions/merge-conflict/dist/mergeConflictMain.js
+* /usr/share/vscode/resources/app/extensions/merge-conflict/dist/mergeConflictMain.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/merge-conflict/media/icon.png
 * /usr/share/vscode/resources/app/extensions/merge-conflict/package.json
 * /usr/share/vscode/resources/app/extensions/merge-conflict/package.nls.json
@@ -516,6 +521,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/hash.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/renameWorker.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+* /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/ui/basic-wat.configuration.json
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/ui/basic-wat.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn.js
@@ -538,8 +544,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/resources/icon.png
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/tsconfig.browser.json
-* /usr/share/vscode/resources/app/extensions/node_modules/@parcel/node-addon-api/node_api.Makefile
-* /usr/share/vscode/resources/app/extensions/node_modules/@parcel/node-addon-api/nothing.target.mk
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/cancellationToken.js
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/cs/diagnosticMessages.generated.json
 * /usr/share/vscode/resources/app/extensions/node_modules/typescript/lib/de/diagnosticMessages.generated.json
@@ -773,12 +777,18 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/swift/package.nls.json
 * /usr/share/vscode/resources/app/extensions/swift/snippets/swift.code-snippets
 * /usr/share/vscode/resources/app/extensions/swift/syntaxes/swift.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/terminal-suggest/.gitignore
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/cgmanifest.json
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/dist/media/icon.png
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/dist/terminalSuggestMain.js
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/package.json
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/package.nls.json
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/README.md
+* /usr/share/vscode/resources/app/extensions/terminal-suggest/scripts/clone-fig.ps1
+* /usr/share/vscode/resources/app/extensions/terminal-suggest/scripts/clone-fig.sh
+* /usr/share/vscode/resources/app/extensions/terminal-suggest/scripts/update-specs.js
+* /usr/share/vscode/resources/app/extensions/terminal-suggest/scripts/update-specs.ps1
+* /usr/share/vscode/resources/app/extensions/terminal-suggest/scripts/update-specs.sh
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/testWorkspace/parent/home/child/.keep
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/ThirdPartyNotices.txt
 * /usr/share/vscode/resources/app/extensions/theme-abyss/package.json
@@ -850,6 +860,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/typescript-basics/syntaxes/TypeScript.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/typescript-basics/syntaxes/TypeScriptReact.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/dist/extension.js
+* /usr/share/vscode/resources/app/extensions/typescript-language-features/dist/extension.js.LICENSE.txt
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/media/icon.png
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/package.json
 * /usr/share/vscode/resources/app/extensions/typescript-language-features/package.nls.json
@@ -880,6 +891,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.1.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.2.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-1.3.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml-embedded.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml.tmLanguage.json
 * /usr/share/vscode/resources/app/LICENSE.txt
 * /usr/share/vscode/resources/app/node_modules.asar
@@ -1042,12 +1054,17 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/@microsoft/dynamicproto-js/SECURITY.md
 * /usr/share/vscode/resources/app/node_modules/@microsoft/dynamicproto-js/tools/rollup/esm/removedynamic.js
 * /usr/share/vscode/resources/app/node_modules/@microsoft/dynamicproto-js/tools/rollup/node/removedynamic.js
-* /usr/share/vscode/resources/app/node_modules/@parcel/node-addon-api/node_api.Makefile
 * /usr/share/vscode/resources/app/node_modules/@parcel/watcher/build/Release/watcher.node
 * /usr/share/vscode/resources/app/node_modules/@parcel/watcher/index.js
 * /usr/share/vscode/resources/app/node_modules/@parcel/watcher/index.js.flow
 * /usr/share/vscode/resources/app/node_modules/@parcel/watcher/LICENSE
+* /usr/share/vscode/resources/app/node_modules/@parcel/watcher/node_modules/detect-libc/bin/detect-libc.js
+* /usr/share/vscode/resources/app/node_modules/@parcel/watcher/node_modules/detect-libc/lib/detect-libc.js
+* /usr/share/vscode/resources/app/node_modules/@parcel/watcher/node_modules/detect-libc/LICENSE
+* /usr/share/vscode/resources/app/node_modules/@parcel/watcher/node_modules/detect-libc/package.json
 * /usr/share/vscode/resources/app/node_modules/@parcel/watcher/package.json
+* /usr/share/vscode/resources/app/node_modules/@parcel/watcher/scripts/build-from-source.js
+* /usr/share/vscode/resources/app/node_modules/@parcel/watcher/wrapper.js
 * /usr/share/vscode/resources/app/node_modules/@tootallnate/once/dist/index.js
 * /usr/share/vscode/resources/app/node_modules/@tootallnate/once/dist/overloaded-parameters.js
 * /usr/share/vscode/resources/app/node_modules/@tootallnate/once/dist/types.js
@@ -1113,7 +1130,16 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/LICENSE
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/package.json
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/SECURITY.md
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-c-sharp.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-cpp.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-go.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-java.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-javascript.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-python.wasm
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-regex.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-ruby.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-rust.wasm
+* /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-tsx.wasm
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-typescript.wasm
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter.js
 * /usr/share/vscode/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter.wasm
@@ -1152,6 +1178,11 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/@xterm/addon-ligatures/lib/addon-ligatures.mjs.map
 * /usr/share/vscode/resources/app/node_modules/@xterm/addon-ligatures/LICENSE
 * /usr/share/vscode/resources/app/node_modules/@xterm/addon-ligatures/package.json
+* /usr/share/vscode/resources/app/node_modules/@xterm/addon-progress/lib/addon-progress.js
+* /usr/share/vscode/resources/app/node_modules/@xterm/addon-progress/lib/addon-progress.mjs
+* /usr/share/vscode/resources/app/node_modules/@xterm/addon-progress/lib/addon-progress.mjs.map
+* /usr/share/vscode/resources/app/node_modules/@xterm/addon-progress/LICENSE
+* /usr/share/vscode/resources/app/node_modules/@xterm/addon-progress/package.json
 * /usr/share/vscode/resources/app/node_modules/@xterm/addon-search/lib/addon-search.js
 * /usr/share/vscode/resources/app/node_modules/@xterm/addon-search/lib/addon-search.mjs
 * /usr/share/vscode/resources/app/node_modules/@xterm/addon-search/lib/addon-search.mjs.map
@@ -1537,13 +1568,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/node-abi/LICENSE
 * /usr/share/vscode/resources/app/node_modules/node-abi/package.json
 * /usr/share/vscode/resources/app/node_modules/node-abi/scripts/update-abi-registry.js
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/bin.js
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/build-test.js
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/index.js
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/LICENSE
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/node-gyp-build.js
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/optional.js
-* /usr/share/vscode/resources/app/node_modules/node-gyp-build/package.json
 * /usr/share/vscode/resources/app/node_modules/node-pty/build/Release/pty.node
 * /usr/share/vscode/resources/app/node_modules/node-pty/lib/conpty_console_list_agent.js
 * /usr/share/vscode/resources/app/node_modules/node-pty/lib/eventEmitter2.js
@@ -1826,6 +1850,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/api/index.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/api/readable.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/api/util.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/cache/memory-cache-store.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/cache/sqlite-cache-store.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/core/connect.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/core/constants.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/core/diagnostics.js
@@ -1849,11 +1875,16 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/proxy-agent.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/retry-agent.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/global.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/handler/cache-handler.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/handler/cache-revalidation-handler.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/handler/decorator-handler.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/handler/redirect-handler.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/handler/retry-handler.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/handler/unwrap-handler.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/handler/wrap-handler.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/cache.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/dns.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/dump.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/redirect-interceptor.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/redirect.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/response-error.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/interceptor/retry.js
@@ -1869,11 +1900,11 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-symbols.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-utils.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/pending-interceptors-formatter.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/mock/pluralizer.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/util/cache.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/util/date.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/util/timers.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cache/cache.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cache/cachestorage.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/cache/symbols.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cache/util.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cookies/constants.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cookies/index.js
@@ -1886,7 +1917,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/constants.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/data-url.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/dispatcher-weakref.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/file.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/formdata-parser.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/formdata.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/global.js
@@ -1895,14 +1925,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/LICENSE
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/request.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/response.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/symbols.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/util.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/fetch/webidl.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fileapi/encoding.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fileapi/filereader.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fileapi/progressevent.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fileapi/symbols.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/fileapi/util.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/connection.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/constants.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/events.js
@@ -1910,7 +1934,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/permessage-deflate.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/receiver.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/sender.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/symbols.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/stream/websocketerror.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/stream/websocketstream.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/util.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/websocket/websocket.js
 * /usr/share/vscode/resources/app/node_modules/undici/LICENSE
@@ -2014,7 +2039,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/vscode-textmate/LICENSE.md
 * /usr/share/vscode/resources/app/node_modules/vscode-textmate/package.json
 * /usr/share/vscode/resources/app/node_modules/vscode-textmate/release/main.js
-* /usr/share/vscode/resources/app/node_modules/vscode-textmate/SECURITY.md
 * /usr/share/vscode/resources/app/node_modules/windows-foreground-love/build/Release/foreground_love.node
 * /usr/share/vscode/resources/app/node_modules/windows-foreground-love/build/Release/obj.target/foreground_love.node
 * /usr/share/vscode/resources/app/node_modules/windows-foreground-love/index.js

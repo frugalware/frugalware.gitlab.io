@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gnutls 3.8.8-1"
-version = "3.8.8-1"
+title = "lib32-gnutls 3.8.9-1"
+version = "3.8.9-1"
 description = "A library which provides a secure layer over a reliable transport layer ( 32bit )"
-date = "2024-11-06T10:54:17"
+date = "2025-02-08T15:39:40"
 aliases = "/packages/218968"
 categories = ['lib32-extra']
 upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
-size = "1093596"
-usize = "3704216"
-sha1sum = "f366057c9ef16cdf564eb21daf3e558835d32a3b"
+size = "1098316"
+usize = "3717817"
+sha1sum = "962c3af87782fe6ee0e32660a2df1d69162b835a"
 depends = "['lib32-brotli', 'lib32-libidn2>=1.35', 'lib32-libunistring>=1.1', 'lib32-nettle>=3.6', 'lib32-p11-kit>=0.23.2-10', 'lib32-zstd']"
 reverse_depends = "['lib32-libcups', 'lib32-libcurl-gnutls', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-libzip', 'lib32-rtmpdump']"
 +++
@@ -49,7 +49,7 @@ A library which provides a secure layer over a reliable transport layer ( 32bit 
 * /usr/lib32/libgnutls-openssl.so.27.0.2
 * /usr/lib32/libgnutls.so
 * /usr/lib32/libgnutls.so.30
-* /usr/lib32/libgnutls.so.30.40.2
+* /usr/lib32/libgnutls.so.30.40.3
 * /usr/lib32/libgnutlsxx.so
 * /usr/lib32/libgnutlsxx.so.30
 * /usr/lib32/libgnutlsxx.so.30.0.0
