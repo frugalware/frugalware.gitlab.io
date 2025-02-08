@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.5.7-1"
-version = "0.5.7-1"
+title = "wireplumber 0.5.8-1"
+version = "0.5.8-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2024-12-04T09:28:46"
+date = "2025-02-08T12:35:40"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "338216"
-usize = "1429201"
-sha1sum = "1185ba8f7cd6908ed3cd7e7f2ff5c9afad793885"
+size = "340680"
+usize = "1440022"
+sha1sum = "a511d1a1b9c94f8604b1a9d49c8243b9d973d9ec"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
@@ -63,7 +63,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/wpversion.h
 * /usr/lib/libwireplumber-0.5.so
 * /usr/lib/libwireplumber-0.5.so.0
-* /usr/lib/libwireplumber-0.5.so.0.507.0
+* /usr/lib/libwireplumber-0.5.so.0.508.0
 * /usr/lib/pkgconfig/wireplumber-0.5.pc
 * /usr/lib/systemd/user/wireplumber.service
 * /usr/lib/systemd/user/wireplumber@.service
@@ -81,8 +81,8 @@ Session / policy manager implementation for PipeWire
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
-* /usr/share/doc/wireplumber-0.5.7/LICENSE
-* /usr/share/doc/wireplumber-0.5.7/README.rst
+* /usr/share/doc/wireplumber-0.5.8/LICENSE
+* /usr/share/doc/wireplumber-0.5.8/README.rst
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
@@ -151,6 +151,7 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/node/software-dsp.lua
 * /usr/share/wireplumber/scripts/node/state-stream.lua
 * /usr/share/wireplumber/scripts/node/suspend-node.lua
+* /usr/share/wireplumber/scripts/session-services.lua
 * /usr/share/wireplumber/scripts/sm-objects.lua
 * /usr/share/wireplumber/wireplumber.conf
 * /usr/share/wireplumber/wireplumber.conf.d/alsa-vm.conf
