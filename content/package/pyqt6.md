@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6 6.8.1.dev2502011625-1"
-version = "6.8.1.dev2502011625-1"
+title = "pyqt6 6.8.2.dev2502071027-1"
+version = "6.8.2.dev2502071027-1"
 description = "PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit."
-date = "2025-02-03T15:46:47"
+date = "2025-02-08T17:11:18"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "4064876"
-usize = "29261672"
-sha1sum = "e07e17e663aaaba8f5c5a78e8ce0a975e36ffa13"
+size = "4076444"
+usize = "29261997"
+sha1sum = "bcc1350fb69bc2d372bc88dc2b087d310631fff0"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'git-cola', 'pyqt6webengine', 'vorta', 'yin-yang']"
 +++
@@ -21,9 +21,9 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.13/site-packages/dbus/mainloop/pyqt6.abi3.so
-* /usr/lib/python3.13/site-packages/PyQt6-6.8.1.dev2502011625.dist-info/INSTALLER
-* /usr/lib/python3.13/site-packages/PyQt6-6.8.1.dev2502011625.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/PyQt6-6.8.1.dev2502011625.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/PyQt6-6.8.2.dev2502071027.dist-info/INSTALLER
+* /usr/lib/python3.13/site-packages/PyQt6-6.8.2.dev2502071027.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/PyQt6-6.8.2.dev2502071027.dist-info/RECORD
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -964,8 +964,8 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.13/site-packages/PyQt6/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/qt6/plugins/designer/libpyqt6.so
 * /usr/lib/qt6/plugins/PyQt6/libpyqt6qmlplugin.so
-* /usr/share/doc/pyqt6-6.8.1.dev2502011625/ChangeLog
-* /usr/share/doc/pyqt6-6.8.1.dev2502011625/LICENSE
-* /usr/share/doc/pyqt6-6.8.1.dev2502011625/NEWS
-* /usr/share/doc/pyqt6-6.8.1.dev2502011625/README.md
+* /usr/share/doc/pyqt6-6.8.2.dev2502071027/ChangeLog
+* /usr/share/doc/pyqt6-6.8.2.dev2502071027/LICENSE
+* /usr/share/doc/pyqt6-6.8.2.dev2502071027/NEWS
+* /usr/share/doc/pyqt6-6.8.2.dev2502071027/README.md
 * /usr/share/qt6/qsci/api/python/PyQt6.api

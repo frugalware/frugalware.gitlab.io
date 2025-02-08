@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lincity-ng 2.12.0-1"
-version = "2.12.0-1"
+title = "lincity-ng 2.13.0-1"
+version = "2.13.0-1"
 description = "A City Simulation Game. It is a polished and improved version of the classic LinCity game."
-date = "2024-11-14T09:21:19"
+date = "2025-02-08T16:35:38"
 aliases = "/packages/38889"
 categories = ['games-extra']
 upstreamurl = "https://github.com/lincity-ng/lincity-ng"
 arch = "x86_64"
-size = "45344168"
-usize = "56414093"
-sha1sum = "9d7d1973f3d0f95bf7cfc455d6b07efd18682050"
-depends = "['libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
+size = "45517060"
+usize = "56663607"
+sha1sum = "43919a27cf7d5a45bc299fd1ab33e81b9b595961"
+depends = "['libxml++2', 'libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
 license = "GPL"
 +++
 ### Description: 
@@ -20,12 +20,13 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 ### Files: 
 * /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
-* /usr/share/doc/lincity-ng-2.12.0/COPYING
-* /usr/share/doc/lincity-ng-2.12.0/COPYING-data.txt
-* /usr/share/doc/lincity-ng-2.12.0/COPYING-dll.txt
-* /usr/share/doc/lincity-ng-2.12.0/COPYING-fonts.txt
-* /usr/share/doc/lincity-ng-2.12.0/README.md
+* /usr/share/doc/lincity-ng-2.13.0/COPYING
+* /usr/share/doc/lincity-ng-2.13.0/COPYING-data.txt
+* /usr/share/doc/lincity-ng-2.13.0/COPYING-dll.txt
+* /usr/share/doc/lincity-ng-2.13.0/COPYING-fonts.txt
+* /usr/share/doc/lincity-ng-2.13.0/README.md
 * /usr/share/doc/lincity-ng/CHANGELOG.md
+* /usr/share/doc/lincity-ng/CONTRIBUTING.md
 * /usr/share/doc/lincity-ng/COPYING
 * /usr/share/doc/lincity-ng/COPYING-data.txt
 * /usr/share/doc/lincity-ng/COPYING-fonts.txt
@@ -33,11 +34,14 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/doc/lincity-ng/README.md
 * /usr/share/doc/lincity-ng/userconfig.xml
 * /usr/share/icons/hicolor/128x128/apps/lincity-ng.png
+* /usr/share/lincity-ng/1328-to-2130.sh
+* /usr/share/lincity-ng/1328-to-2130.xsl
 * /usr/share/lincity-ng/fonts/sans.ttf
 * /usr/share/lincity-ng/gui/app.xml
 * /usr/share/lincity-ng/gui/buttonpanel.xml
 * /usr/share/lincity-ng/gui/credits.xml
 * /usr/share/lincity-ng/gui/creditslist.xml
+* /usr/share/lincity-ng/gui/dialog.xml
 * /usr/share/lincity-ng/gui/dialogs/allgone.xml
 * /usr/share/lincity-ng/gui/dialogs/blacksmithup.xml
 * /usr/share/lincity-ng/gui/dialogs/bulldoze_monument_yn.xml
@@ -1187,6 +1191,7 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_checked.png
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_red.png
 * /usr/share/lincity-ng/images/gui/checkbox/checkbox_red_checked.png
+* /usr/share/lincity-ng/images/gui/dialogs/error.png
 * /usr/share/lincity-ng/images/gui/dialogs/info.png
 * /usr/share/lincity-ng/images/gui/dialogs/invention.png
 * /usr/share/lincity-ng/images/gui/dialogs/nobutton-clicked.png
@@ -1630,6 +1635,7 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/locale/gui/fr.po
 * /usr/share/lincity-ng/locale/gui/gd.po
 * /usr/share/lincity-ng/locale/gui/gl.po
+* /usr/share/lincity-ng/locale/gui/hu.po
 * /usr/share/lincity-ng/locale/gui/ja.po
 * /usr/share/lincity-ng/locale/gui/nl.po
 * /usr/share/lincity-ng/locale/gui/pl.po
@@ -1638,6 +1644,7 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/locale/gui/sv.po
 * /usr/share/lincity-ng/locale/gui/tr.po
 * /usr/share/lincity-ng/locale/gui/zh_CN.po
+* /usr/share/lincity-ng/locale/hu.po
 * /usr/share/lincity-ng/locale/ja.po
 * /usr/share/lincity-ng/locale/nl.po
 * /usr/share/lincity-ng/locale/pl.po

@@ -12,7 +12,7 @@ size = "111084"
 usize = "483202"
 sha1sum = "083d3f39f1304799d98d61f3b27941bf13dcde63"
 depends = "['glibmm>=2.68.1', 'libxml2>=2.9.3-3']"
-reverse_depends = "['libofx', 'performous']"
+reverse_depends = "['libofx', 'lincity-ng', 'performous']"
 +++
 ### Description: 
 libxml++ is a C++ wrapper for the libxml XML parser library

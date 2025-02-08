@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openloco 24.12-1"
-version = "24.12-1"
+title = "openloco 25.01-1"
+version = "25.01-1"
 description = "An open source re-implementation of Locomotion"
-date = "2025-01-07T20:52:04"
+date = "2025-02-08T16:37:50"
 aliases = "/packages/220332"
 categories = ['games-extra']
 upstreamurl = "https://github.com/openloco/openloco"
 arch = "x86_64"
-size = "2387772"
-usize = "28733697"
-sha1sum = "e96196b214a4e5f8b44dbb648bdcee519677f4bc"
+size = "2449404"
+usize = "29102348"
+sha1sum = "8fa380cf121f76319b6194e8bdd34c569c37eefa"
 depends = "['lib32-libpng', 'lib32-openal', 'lib32-sdl2_mixer', 'lib32-yaml-cpp', 'libstdc++']"
 +++
 ### Description: 
@@ -30,6 +30,7 @@ An open source re-implementation of Locomotion
 * /usr/bin/data/language/pt-BR.yml
 * /usr/bin/data/language/ru-RU.yml
 * /usr/bin/data/language/sk-SK.yml
+* /usr/bin/data/language/sv-SE.yml
 * /usr/bin/data/language/zh-CN.yml
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_CHEMICAL.dat
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_COAL.dat
@@ -45,6 +46,7 @@ An open source re-implementation of Locomotion
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_PASS.dat
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_STEEL.dat
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_TIMBER.dat
+* /usr/bin/data/objects/openloco_objects-src/Vehicle/OG656.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGCL41.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGFOWL.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGJINT.dat
@@ -54,6 +56,7 @@ An open source re-implementation of Locomotion
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGST8F.dat
 * /usr/bin/OpenLoco
 * /usr/include/fmt/args.h
+* /usr/include/fmt/base.h
 * /usr/include/fmt/chrono.h
 * /usr/include/fmt/color.h
 * /usr/include/fmt/compile.h
@@ -127,8 +130,8 @@ An open source re-implementation of Locomotion
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/pkgconfig/fmt.pc
 * /usr/share/applications/openloco.desktop
-* /usr/share/doc/openloco-24.12/LICENSE
-* /usr/share/doc/openloco-24.12/README.md
+* /usr/share/doc/openloco-25.01/LICENSE
+* /usr/share/doc/openloco-25.01/README.md
 * /usr/share/doc/openloco/CHANGELOG.md
 * /usr/share/doc/openloco/CONTRIBUTORS.md
 * /usr/share/doc/openloco/LICENSE
