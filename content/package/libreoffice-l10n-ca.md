@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ca 24.8.4.2-3"
-version = "24.8.4.2-3"
+title = "libreoffice-l10n-ca 25.2.0.3-3"
+version = "25.2.0.3-3"
 description = "Installs Catalan support in LibreOffice"
-date = "2025-01-13T18:59:04"
+date = "2025-02-09T17:01:50"
 aliases = "/packages/104042"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4976168"
-usize = "36433259"
-sha1sum = "50b988971c8049ac870585adc2b83f0996285282"
-depends = "['libreoffice>=24.8.4.2']"
+size = "5038832"
+usize = "36770346"
+sha1sum = "933d4c1818e009e655a7bdd710f6a1233711892e"
+depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 
 Installs Catalan support in LibreOffice

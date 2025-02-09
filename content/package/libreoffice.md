@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libreoffice 24.8.4.2-3"
-version = "24.8.4.2-3"
+title = "libreoffice 25.2.0.3-3"
+version = "25.2.0.3-3"
 description = "Free Software Productivity Suite"
-date = "2025-01-13T18:59:04"
+date = "2025-02-09T17:01:50"
 aliases = "/packages/104025"
 categories = ['xoffice']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "177660468"
-usize = "621370738"
-sha1sum = "9c31d1262cf0b542ed501813373c567e3331a9a4"
-depends = "['box2d', 'clucene', 'cups', 'desktop-file-utils', 'expat', 'flex', 'fontconfig', 'glew>=2.0.0-2', 'graphite2', 'harfbuzz-icu', 'hyphen', 'libabw', 'libboost>=1.87.0', 'libcdr>=0.0.10', 'libcmis>=0.6.2', 'libe-book', 'libepubgen', 'libetonyek', 'libexttextcat>=3.4.5', 'libfreehand', 'libgpgmepp', 'libjpeg-turbo', 'liblangtag', 'libmspub', 'libmwaw>=0.2.0', 'libnumbertext>=1.0.3', 'libodfgen', 'liborcus>=0.19.2', 'libpagemaker', 'libpng>=1.4.1', 'libpng>=1.6.25', 'libqxp', 'librdf', 'libsndfile', 'libstaroffice', 'libvisio>=0.0.24-2', 'libwps>=0.4.0', 'libxaw>=1.0.5', 'libxml2', 'libxrandr', 'libxrandr', 'libxslt', 'libzmf>=0.0.2', 'lp_solve', 'mariadb-libs>=10.3.14', 'mythes', 'openjre', 'openjre-x', 'perl-archive-zip', 'poppler-glib>=25.01.0', 'python3>=3.13', 'sane-backends', 'startup-notification>=0.9-3', 'unixodbc>=2.3.1', 'unzip', 'xmlsec1>=1.2.25-2', 'zip', 'zxcvbn-c']"
-reverse_depends = "['libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'libreoffice-l10n-af', 'libreoffice-l10n-am', 'libreoffice-l10n-ar', 'libreoffice-l10n-as', 'libreoffice-l10n-ast', 'libreoffice-l10n-be', 'libreoffice-l10n-bg', 'libreoffice-l10n-bn', 'libreoffice-l10n-bn-in', 'libreoffice-l10n-bo', 'libreoffice-l10n-br', 'libreoffice-l10n-brx', 'libreoffice-l10n-bs', 'libreoffice-l10n-ca', 'libreoffice-l10n-ca-valencia', 'libreoffice-l10n-ckb', 'libreoffice-l10n-cs', 'libreoffice-l10n-cy', 'libreoffice-l10n-da', 'libreoffice-l10n-de', 'libreoffice-l10n-dgo', 'libreoffice-l10n-dsb', 'libreoffice-l10n-dz', 'libreoffice-l10n-el', 'libreoffice-l10n-en-gb', 'libreoffice-l10n-en-za', 'libreoffice-l10n-eo', 'libreoffice-l10n-es', 'libreoffice-l10n-et', 'libreoffice-l10n-eu', 'libreoffice-l10n-fa', 'libreoffice-l10n-fi', 'libreoffice-l10n-fr', 'libreoffice-l10n-fur', 'libreoffice-l10n-fy', 'libreoffice-l10n-ga', 'libreoffice-l10n-gd', 'libreoffice-l10n-gl', 'libreoffice-l10n-gu', 'libreoffice-l10n-gug', 'libreoffice-l10n-he', 'libreoffice-l10n-hi', 'libreoffice-l10n-hr', 'libreoffice-l10n-hsb', 'libreoffice-l10n-hu', 'libreoffice-l10n-hy', 'libreoffice-l10n-id', 'libreoffice-l10n-is', 'libreoffice-l10n-it', 'libreoffice-l10n-ja', 'libreoffice-l10n-ka', 'libreoffice-l10n-kab', 'libreoffice-l10n-kk', 'libreoffice-l10n-km', 'libreoffice-l10n-kmr-latn', 'libreoffice-l10n-kn', 'libreoffice-l10n-ko', 'libreoffice-l10n-kok', 'libreoffice-l10n-ks', 'libreoffice-l10n-lb', 'libreoffice-l10n-lo', 'libreoffice-l10n-lt', 'libreoffice-l10n-lv', 'libreoffice-l10n-mai', 'libreoffice-l10n-mk', 'libreoffice-l10n-ml', 'libreoffice-l10n-mn', 'libreoffice-l10n-mni', 'libreoffice-l10n-mr', 'libreoffice-l10n-my', 'libreoffice-l10n-nb', 'libreoffice-l10n-ne', 'libreoffice-l10n-nl', 'libreoffice-l10n-nn', 'libreoffice-l10n-nr', 'libreoffice-l10n-nso', 'libreoffice-l10n-oc', 'libreoffice-l10n-om', 'libreoffice-l10n-or', 'libreoffice-l10n-pa-in', 'libreoffice-l10n-pl', 'libreoffice-l10n-pt', 'libreoffice-l10n-pt-br', 'libreoffice-l10n-ro', 'libreoffice-l10n-ru', 'libreoffice-l10n-rw', 'libreoffice-l10n-sa-in', 'libreoffice-l10n-sat', 'libreoffice-l10n-sat-olck', 'libreoffice-l10n-sd', 'libreoffice-l10n-si', 'libreoffice-l10n-sid', 'libreoffice-l10n-sk', 'libreoffice-l10n-sl', 'libreoffice-l10n-sq', 'libreoffice-l10n-sr', 'libreoffice-l10n-sr-latn', 'libreoffice-l10n-ss', 'libreoffice-l10n-st', 'libreoffice-l10n-sv', 'libreoffice-l10n-sw-tz', 'libreoffice-l10n-szl', 'libreoffice-l10n-ta', 'libreoffice-l10n-te', 'libreoffice-l10n-tg', 'libreoffice-l10n-th', 'libreoffice-l10n-tl', 'libreoffice-l10n-tn', 'libreoffice-l10n-tr', 'libreoffice-l10n-ts', 'libreoffice-l10n-tt', 'libreoffice-l10n-ug', 'libreoffice-l10n-uk', 'libreoffice-l10n-uz', 'libreoffice-l10n-ve', 'libreoffice-l10n-vec', 'libreoffice-l10n-vi', 'libreoffice-l10n-xh', 'libreoffice-l10n-zh-cn', 'libreoffice-l10n-zh-tw', 'libreoffice-l10n-zu', 'libreoffice-nlpsolver', 'libreoffice-postgresql', 'libreoffice-report-builder', 'libreoffice-scripting-beanshell', 'libreoffice-scripting-javascript', 'libreoffice-scripting-python', 'unoconv']"
+size = "176179460"
+usize = "624859976"
+sha1sum = "d2ce1abb21fe137a1ab428c7788313d6dadeb208"
+depends = "['box2d', 'clucene', 'cups', 'desktop-file-utils', 'expat', 'flex', 'fontconfig', 'glew>=2.0.0-2', 'graphite2', 'harfbuzz-icu', 'hyphen', 'libabw', 'libboost>=1.87.0', 'libcdr>=0.0.10', 'libcmis>=0.6.2', 'libe-book', 'libepubgen', 'libetonyek', 'libexttextcat>=3.4.5', 'libfreehand', 'libgpgmepp', 'libjpeg-turbo', 'liblangtag', 'libmspub', 'libmwaw>=0.2.0', 'libnumbertext>=1.0.3', 'libodfgen', 'liborcus>=0.19.2', 'libpagemaker', 'libpng>=1.4.1', 'libpng>=1.6.25', 'libqxp', 'librdf', 'libsndfile', 'libstaroffice', 'libvisio>=0.0.24-2', 'libwps>=0.4.0', 'libxaw>=1.0.5', 'libxml2', 'libxrandr', 'libxrandr', 'libxslt', 'libzmf>=0.0.2', 'lp_solve', 'mariadb-libs>=10.3.14', 'mythes', 'openjre', 'openjre-x', 'perl-archive-zip', 'poppler-glib>=25.02.0', 'python3>=3.13', 'sane-backends', 'startup-notification>=0.9-3', 'unixodbc>=2.3.1', 'unzip', 'xmlsec1>=1.2.25-2', 'zip', 'zxcvbn-c']"
+reverse_depends = "['libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'libreoffice-l10n-ab', 'libreoffice-l10n-af', 'libreoffice-l10n-am', 'libreoffice-l10n-ar', 'libreoffice-l10n-as', 'libreoffice-l10n-ast', 'libreoffice-l10n-be', 'libreoffice-l10n-bg', 'libreoffice-l10n-bn', 'libreoffice-l10n-bn-in', 'libreoffice-l10n-bo', 'libreoffice-l10n-br', 'libreoffice-l10n-brx', 'libreoffice-l10n-bs', 'libreoffice-l10n-ca', 'libreoffice-l10n-ca-valencia', 'libreoffice-l10n-ckb', 'libreoffice-l10n-cs', 'libreoffice-l10n-cy', 'libreoffice-l10n-da', 'libreoffice-l10n-de', 'libreoffice-l10n-dgo', 'libreoffice-l10n-dsb', 'libreoffice-l10n-dz', 'libreoffice-l10n-el', 'libreoffice-l10n-en-gb', 'libreoffice-l10n-en-za', 'libreoffice-l10n-eo', 'libreoffice-l10n-es', 'libreoffice-l10n-et', 'libreoffice-l10n-eu', 'libreoffice-l10n-fa', 'libreoffice-l10n-fi', 'libreoffice-l10n-fr', 'libreoffice-l10n-fur', 'libreoffice-l10n-fy', 'libreoffice-l10n-ga', 'libreoffice-l10n-gd', 'libreoffice-l10n-gl', 'libreoffice-l10n-gu', 'libreoffice-l10n-gug', 'libreoffice-l10n-he', 'libreoffice-l10n-hi', 'libreoffice-l10n-hr', 'libreoffice-l10n-hsb', 'libreoffice-l10n-hu', 'libreoffice-l10n-hy', 'libreoffice-l10n-id', 'libreoffice-l10n-is', 'libreoffice-l10n-it', 'libreoffice-l10n-ja', 'libreoffice-l10n-ka', 'libreoffice-l10n-kab', 'libreoffice-l10n-kk', 'libreoffice-l10n-km', 'libreoffice-l10n-kmr-latn', 'libreoffice-l10n-kn', 'libreoffice-l10n-ko', 'libreoffice-l10n-kok', 'libreoffice-l10n-ks', 'libreoffice-l10n-lb', 'libreoffice-l10n-lo', 'libreoffice-l10n-lt', 'libreoffice-l10n-lv', 'libreoffice-l10n-mai', 'libreoffice-l10n-mk', 'libreoffice-l10n-ml', 'libreoffice-l10n-mn', 'libreoffice-l10n-mni', 'libreoffice-l10n-mr', 'libreoffice-l10n-my', 'libreoffice-l10n-nb', 'libreoffice-l10n-ne', 'libreoffice-l10n-nl', 'libreoffice-l10n-nn', 'libreoffice-l10n-nr', 'libreoffice-l10n-nso', 'libreoffice-l10n-oc', 'libreoffice-l10n-om', 'libreoffice-l10n-or', 'libreoffice-l10n-pa-in', 'libreoffice-l10n-pl', 'libreoffice-l10n-pt', 'libreoffice-l10n-pt-br', 'libreoffice-l10n-ro', 'libreoffice-l10n-ru', 'libreoffice-l10n-rw', 'libreoffice-l10n-sa-in', 'libreoffice-l10n-sat', 'libreoffice-l10n-sat-olck', 'libreoffice-l10n-sd', 'libreoffice-l10n-si', 'libreoffice-l10n-sid', 'libreoffice-l10n-sk', 'libreoffice-l10n-sl', 'libreoffice-l10n-sq', 'libreoffice-l10n-sr', 'libreoffice-l10n-sr-latn', 'libreoffice-l10n-ss', 'libreoffice-l10n-st', 'libreoffice-l10n-sv', 'libreoffice-l10n-sw-tz', 'libreoffice-l10n-szl', 'libreoffice-l10n-ta', 'libreoffice-l10n-te', 'libreoffice-l10n-tg', 'libreoffice-l10n-th', 'libreoffice-l10n-tl', 'libreoffice-l10n-tn', 'libreoffice-l10n-tr', 'libreoffice-l10n-ts', 'libreoffice-l10n-tt', 'libreoffice-l10n-ug', 'libreoffice-l10n-uk', 'libreoffice-l10n-uz', 'libreoffice-l10n-ve', 'libreoffice-l10n-vec', 'libreoffice-l10n-vi', 'libreoffice-l10n-xh', 'libreoffice-l10n-zh-cn', 'libreoffice-l10n-zh-tw', 'libreoffice-l10n-zu', 'libreoffice-nlpsolver', 'libreoffice-postgresql', 'libreoffice-report-builder', 'libreoffice-scripting-beanshell', 'libreoffice-scripting-javascript', 'libreoffice-scripting-python', 'unoconv']"
 +++
 ### Description: 
 Free Software Productivity Suite
@@ -711,6 +711,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/basic/SFUnitTests/__License.xba
 * /usr/lib/libreoffice/share/basic/SFWidgets/dialog.xlb
 * /usr/lib/libreoffice/share/basic/SFWidgets/script.xlb
+* /usr/lib/libreoffice/share/basic/SFWidgets/SF_ContextMenu.xba
 * /usr/lib/libreoffice/share/basic/SFWidgets/SF_Menu.xba
 * /usr/lib/libreoffice/share/basic/SFWidgets/SF_MenuListener.xba
 * /usr/lib/libreoffice/share/basic/SFWidgets/SF_PopupMenu.xba
@@ -749,6 +750,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/calc/styles.xml
 * /usr/lib/libreoffice/share/classification/example.xml
 * /usr/lib/libreoffice/share/classification/example_ca-ES.xml
+* /usr/lib/libreoffice/share/classification/example_es-ES.xml
 * /usr/lib/libreoffice/share/classification/example_fr-FR.xml
 * /usr/lib/libreoffice/share/classification/example_hu-HU.xml
 * /usr/lib/libreoffice/share/classification/example_nl-NL.xml
@@ -785,6 +787,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/additionsdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/additionsfragment.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/agingdialog.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/appearance.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/applyautofmtpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/applylocalizedpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/areadialog.ui
@@ -804,7 +807,6 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/certdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/chapterfragment.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/charnamepage.ui
-* /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/colorconfigwin.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/colorfragment.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/colorpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/colorpickerdialog.ui
@@ -871,6 +873,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/listdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/macroassigndialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/macroassignpage.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/macromanagerdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/macroselectordialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/menuassignpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/mosaicdialog.ui
@@ -888,7 +891,6 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/objecttitledescdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/optaccessibilitypage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/optadvancedpage.ui
-* /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/optappearancepage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/optasianpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/optbasicidepage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/optchartcolorspage.ui
@@ -921,7 +923,6 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/pastespecial.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/patterntabpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/percentdialog.ui
-* /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/personalization_tab.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/pickbulletpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/pickgraphicpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/cui/ui/picknumberingpage.ui
@@ -1319,6 +1320,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/doubledialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/drawtemplatedialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/dropmenu.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/duplicaterecordsdlg.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/erroralerttabpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/exponentialsmoothingdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/externaldata.ui
@@ -1369,6 +1371,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/notebookbar_online.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/numberbox.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/numbertransformationentry.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/onlyactivesheetsaveddialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/optcalculatepage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/optchangespage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/scalc/ui/optcompatibilitypage.ui
@@ -1520,6 +1523,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/3dobject.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/3dscene.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/3dscene2.xml
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/annotation.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/bezier.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/connector.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/curve.xml
@@ -1677,6 +1681,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/3dobject.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/3dscene.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/3dscene2.xml
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/annotation.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/bezier.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/connector.xml
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/curve.xml
@@ -2135,6 +2140,10 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/columnwidth.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/combobox.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/comboboxfragment.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/commentcontextmenu.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/commentspanel.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/commentsthread.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/commentwidget.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/conditionpage.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/contentcontrolaliasbutton.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/contentcontrolcalendar.ui
@@ -2290,6 +2299,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/selectindexdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/selecttabledialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebarquickfind.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebarquickfindoptionsdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebarstylepresets.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebartableedit.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebartheme.ui
@@ -2489,6 +2499,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/absrecbox.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/acceptrejectchangesdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/accessibilitycheckentry.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/accessibilitychecklevel.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/addconditiondialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/adddataitemdialog.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/addinstancedialog.ui
@@ -2609,6 +2620,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/sidebarshadow.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/sidebarstylespanel.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/sidebartextcolumnspanel.ui
+* /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/sidebartexteffect.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/sidebartextpanel.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/stylemenu.ui
 * /usr/lib/libreoffice/share/config/soffice.cfg/svx/ui/stylespreview.ui
@@ -2949,6 +2961,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/Scripts/python/HelloWorld.py
 * /usr/lib/libreoffice/share/Scripts/python/InsertText.py
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo.py
+* /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_ab.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_af.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_am.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_ar.properties
@@ -3037,6 +3050,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_ru.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_rw.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_sat.properties
+* /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_sat_Olck.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_sa_IN.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_sd.properties
 * /usr/lib/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_si.properties
@@ -3076,7 +3090,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/Scripts/python/TableSample.py
 * /usr/lib/libreoffice/share/skia/skia_denylist_vulkan.xml
 * /usr/lib/libreoffice/share/template/common/draw/bpmn.otg
-* /usr/lib/libreoffice/share/template/common/internal/html.stw
+* /usr/lib/libreoffice/share/template/common/internal/html.oth
 * /usr/lib/libreoffice/share/template/common/internal/idxexample.odt
 * /usr/lib/libreoffice/share/template/common/l10n/ja_ott_normal.ott
 * /usr/lib/libreoffice/share/template/common/l10n/zh_CN_ott_normal.ott
@@ -3279,6 +3293,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/toolbarmode/notebookbar_single.png
 * /usr/lib/libreoffice/share/toolbarmode/sidebar.png
 * /usr/lib/libreoffice/share/toolbarmode/single.png
+* /usr/lib/libreoffice/share/wizards/resources_ab.properties
 * /usr/lib/libreoffice/share/wizards/resources_af.properties
 * /usr/lib/libreoffice/share/wizards/resources_am.properties
 * /usr/lib/libreoffice/share/wizards/resources_ar.properties
@@ -3367,6 +3382,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/wizards/resources_ru.properties
 * /usr/lib/libreoffice/share/wizards/resources_rw.properties
 * /usr/lib/libreoffice/share/wizards/resources_sat.properties
+* /usr/lib/libreoffice/share/wizards/resources_sat_Olck.properties
 * /usr/lib/libreoffice/share/wizards/resources_sa_IN.properties
 * /usr/lib/libreoffice/share/wizards/resources_sd.properties
 * /usr/lib/libreoffice/share/wizards/resources_si.properties
@@ -3416,7 +3432,7 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/xslt/common/copy.xsl
 * /usr/lib/libreoffice/share/xslt/common/math.xsl
 * /usr/lib/libreoffice/share/xslt/common/measure_conversion.xsl
-* /usr/lib/libreoffice/share/xslt/docbook/DocBookTemplate.stw
+* /usr/lib/libreoffice/share/xslt/docbook/DocBookTemplate.ott
 * /usr/lib/libreoffice/share/xslt/docbook/docbooktosoffheadings.xsl
 * /usr/lib/libreoffice/share/xslt/docbook/sofftodocbookheadings.xsl
 * /usr/lib/libreoffice/share/xslt/export/common/body.xsl
@@ -3476,14 +3492,14 @@ Free Software Productivity Suite
 * /usr/share/applications/libreoffice-startcenter.desktop
 * /usr/share/applications/libreoffice-writer.desktop
 * /usr/share/applications/libreoffice-xsltfilter.desktop
-* /usr/share/doc/libreoffice-24.8.4.2/ChangeLog
-* /usr/share/doc/libreoffice-24.8.4.2/COPYING
-* /usr/share/doc/libreoffice-24.8.4.2/COPYING.LGPL
-* /usr/share/doc/libreoffice-24.8.4.2/COPYING.MPL
-* /usr/share/doc/libreoffice-24.8.4.2/README.cross
-* /usr/share/doc/libreoffice-24.8.4.2/README.help.md
-* /usr/share/doc/libreoffice-24.8.4.2/README.md
-* /usr/share/doc/libreoffice-24.8.4.2/README.Solaris
+* /usr/share/doc/libreoffice-25.2.0.3/ChangeLog
+* /usr/share/doc/libreoffice-25.2.0.3/COPYING
+* /usr/share/doc/libreoffice-25.2.0.3/COPYING.LGPL
+* /usr/share/doc/libreoffice-25.2.0.3/COPYING.MPL
+* /usr/share/doc/libreoffice-25.2.0.3/README.cross
+* /usr/share/doc/libreoffice-25.2.0.3/README.help.md
+* /usr/share/doc/libreoffice-25.2.0.3/README.md
+* /usr/share/doc/libreoffice-25.2.0.3/README.Solaris
 * /usr/share/man/man1/libreoffice.1.gz
 * /usr/share/man/man1/unopkg.1.gz
 * /usr/share/mime/packages/libreoffice.xml

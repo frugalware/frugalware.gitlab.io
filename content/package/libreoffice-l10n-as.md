@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-as 24.8.4.2-3"
-version = "24.8.4.2-3"
+title = "libreoffice-l10n-as 25.2.0.3-3"
+version = "25.2.0.3-3"
 description = "Installs Assamese support in LibreOffice"
-date = "2025-01-13T18:59:04"
+date = "2025-02-09T17:01:50"
 aliases = "/packages/104033"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "360436"
-usize = "2395210"
-sha1sum = "637883ddf145848dd3bb4727821f64e3be341688"
-depends = "['libreoffice>=24.8.4.2']"
+size = "364988"
+usize = "2418181"
+sha1sum = "9286f79352337948b82b85ce1b1c54f15b5650de"
+depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 
 Installs Assamese support in LibreOffice

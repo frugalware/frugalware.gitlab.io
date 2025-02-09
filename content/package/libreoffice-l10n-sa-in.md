@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sa-in 25.2.0.3-2"
-version = "25.2.0.3-2"
+title = "libreoffice-l10n-sa-in 25.2.0.3-3"
+version = "25.2.0.3-3"
 description = "Installs Sanskrit (India) support in LibreOffice"
-date = "2025-02-05T19:26:11"
+date = "2025-02-09T17:01:50"
 aliases = "/packages/104111"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "309096"
+size = "309372"
 usize = "2102930"
-sha1sum = "472511c45e5aec41d6a28b834bcb9e0db13aa653"
+sha1sum = "46796630dcafadfbb365063296fccc3490dacf44"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 
