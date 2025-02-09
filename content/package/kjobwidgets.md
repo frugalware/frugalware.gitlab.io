@@ -12,7 +12,7 @@ size = "108768"
 usize = "495268"
 sha1sum = "6a2fb207d5a85d9f8d7e37f39901e08ebaf55200"
 depends = "['knotifications>=6.10.0']"
-reverse_depends = "['kio']"
+reverse_depends = "['kio', 'smb4k']"
 +++
 ### Description: 
 Widgets for showing progress of asynchronous jobs.

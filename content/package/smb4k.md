@@ -1,46 +1,50 @@
 +++
 draft = false
-title = "smb4k 3.2.5-5"
-version = "3.2.5-5"
+title = "smb4k 4.0.0-1"
+version = "4.0.0-1"
 description = "Smb4K is a SMB/CIFS share browser for KDE."
-date = "2024-11-16T13:06:54"
+date = "2025-02-09T13:55:02"
 aliases = "/packages/3338"
-categories = ['kde5-extra']
+categories = ['kde6-extra']
 upstreamurl = "https://sourceforge.net/projects/smb4k"
 arch = "x86_64"
-size = "4622808"
-usize = "11848776"
-sha1sum = "2348133ea983153b70a31a03c31f0b122ec9c945"
-depends = "['kauth5>=5.116.0', 'kcompletion5>=5.116.0', 'kconfig5>=5.116.0', 'kdnssd5>=5.116.0', 'kiconthemes5>=5.116.0', 'libsmbclient', 'plasma-framework5>=5.116.0', 'samba-client', 'solid5>=5.116.0']"
+size = "5133800"
+usize = "12447570"
+sha1sum = "f877f3e18a37cb5524ddca93760494ab9cebbf64"
+depends = "['kcrash>=6.10.0', 'kdbusaddons>=6.10.0', 'kdnssd', 'kio>=6.10.0', 'kjobwidgets>=6.10.0', 'knotifications>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'kwallet>=6.10.0', 'kxmlgui>=6.10.0', 'libplasma>=6.2.5', 'libsmbclient', 'qtkeychain', 'samba-client']"
 +++
 ### Description: 
 Smb4K is a SMB/CIFS share browser for KDE.
 
 ### Files: 
 * /usr/bin/smb4k
-* /usr/lib/kf5/kauth/mounthelper
+* /usr/lib/kauth/kf6/kauth/mounthelper
 * /usr/lib/libsmb4kcore.so
-* /usr/lib/qt5/plugins/smb4kconfigdialog.so
+* /usr/lib/libsmb4kdialogs.so
+* /usr/lib/qt6/plugins/smb4kconfigdialog.so
+* /usr/lib/qt6/qml/org/kde/smb4k/smb4kqmlplugin/libsmb4kqmlplugin.so
+* /usr/lib/qt6/qml/org/kde/smb4k/smb4kqmlplugin/qmldir
 * /usr/share/applications/org.kde.smb4k.desktop
 * /usr/share/config.kcfg/smb4k.kcfg
 * /usr/share/dbus-1/system-services/org.kde.smb4k.mounthelper.service
 * /usr/share/dbus-1/system.d/org.kde.smb4k.mounthelper.conf
 * /usr/share/doc/HTML/ca/smb4k/index.cache.bz2
 * /usr/share/doc/HTML/ca/smb4k/index.docbook
-* /usr/share/doc/HTML/de/smb4k/index.cache.bz2
-* /usr/share/doc/HTML/de/smb4k/index.docbook
 * /usr/share/doc/HTML/en/smb4k/bookmarks_add_bookmark_dialog.png
 * /usr/share/doc/HTML/en/smb4k/bookmarks_editor.png
 * /usr/share/doc/HTML/en/smb4k/bookmarks_editor_popup_menu.png
+* /usr/share/doc/HTML/en/smb4k/bookmarks_editor_with_input_widget.png
 * /usr/share/doc/HTML/en/smb4k/bookmarks_popup_menu.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_authentication.png
-* /usr/share/doc/HTML/en/smb4k/configuration_page_authentication_dialog_default_login.png
+* /usr/share/doc/HTML/en/smb4k/configuration_page_authentication_profile_indicator.png
+* /usr/share/doc/HTML/en/smb4k/configuration_page_bookmarks.png
+* /usr/share/doc/HTML/en/smb4k/configuration_page_bookmarks_editor.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_custom_settings.png
+* /usr/share/doc/HTML/en/smb4k/configuration_page_custom_settings_editor.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_mounting.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_network.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_profiles.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_profiles_add_profile.png
-* /usr/share/doc/HTML/en/smb4k/configuration_page_profiles_migration_assistant.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_synchronization.png
 * /usr/share/doc/HTML/en/smb4k/configuration_page_user_interface.png
 * /usr/share/doc/HTML/en/smb4k/custom_settings_editor.png
@@ -84,18 +88,16 @@ Smb4K is a SMB/CIFS share browser for KDE.
 * /usr/share/doc/HTML/nl/smb4k/index.docbook
 * /usr/share/doc/HTML/pt_BR/smb4k/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/smb4k/index.docbook
-* /usr/share/doc/HTML/ru/smb4k/index.cache.bz2
-* /usr/share/doc/HTML/ru/smb4k/index.docbook
 * /usr/share/doc/HTML/sv/smb4k/index.cache.bz2
 * /usr/share/doc/HTML/sv/smb4k/index.docbook
 * /usr/share/doc/HTML/uk/smb4k/index.cache.bz2
 * /usr/share/doc/HTML/uk/smb4k/index.docbook
-* /usr/share/doc/smb4k-3.2.5/AUTHORS
-* /usr/share/doc/smb4k-3.2.5/BUGS
-* /usr/share/doc/smb4k-3.2.5/BUGS.license
-* /usr/share/doc/smb4k-3.2.5/ChangeLog
-* /usr/share/doc/smb4k-3.2.5/README.license
-* /usr/share/doc/smb4k-3.2.5/README.md
+* /usr/share/doc/smb4k-4.0.0/AUTHORS
+* /usr/share/doc/smb4k-4.0.0/BUGS
+* /usr/share/doc/smb4k-4.0.0/BUGS.license
+* /usr/share/doc/smb4k-4.0.0/ChangeLog
+* /usr/share/doc/smb4k-4.0.0/README.license
+* /usr/share/doc/smb4k-4.0.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/smb4k.png
 * /usr/share/icons/hicolor/16x16/apps/smb4k.png
 * /usr/share/icons/hicolor/22x22/apps/smb4k.png
@@ -108,25 +110,10 @@ Smb4K is a SMB/CIFS share browser for KDE.
 * /usr/share/icons/oxygen/32x32/apps/smb4k.png
 * /usr/share/icons/oxygen/48x48/apps/smb4k.png
 * /usr/share/icons/oxygen/64x64/apps/smb4k.png
-* /usr/share/kconf_update/authentication1.sh
-* /usr/share/kconf_update/network1.sh
-* /usr/share/kconf_update/network2.sh
-* /usr/share/kconf_update/samba1.sh
-* /usr/share/kconf_update/samba2.sh
-* /usr/share/kconf_update/samba3.sh
-* /usr/share/kconf_update/smb4ksettings.upd
-* /usr/share/kconf_update/smb4k_3_0_0.upd
-* /usr/share/kconf_update/userinterface1.sh
-* /usr/share/kconf_update/userinterface2.sh
-* /usr/share/kconf_update/userinterface3.sh
-* /usr/share/kconf_update/userinterface4.sh
-* /usr/share/kconf_update/userinterface5.sh
-* /usr/share/knotifications5/smb4k.notifyrc
-* /usr/share/kservices5/plasma-applet-org.kde.smb4kqml.desktop
-* /usr/share/kxmlgui5/smb4k/smb4k_shell.rc
-* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
-* /usr/share/locale/ast/LC_MESSAGES/smb4k-core.mo
-* /usr/share/locale/ast/LC_MESSAGES/smb4k.mo
+* /usr/share/knotifications6/smb4k.notifyrc
+* /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
+* /usr/share/locale/ar/LC_MESSAGES/smb4k-core.mo
+* /usr/share/locale/ar/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
 * /usr/share/locale/bg/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/bg/LC_MESSAGES/smb4k.mo
@@ -154,6 +141,7 @@ Smb4K is a SMB/CIFS share browser for KDE.
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/smb4k.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
 * /usr/share/locale/eo/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/eo/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
@@ -177,12 +165,17 @@ Smb4K is a SMB/CIFS share browser for KDE.
 * /usr/share/locale/gl/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/gl/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
+* /usr/share/locale/he/LC_MESSAGES/smb4k-core.mo
+* /usr/share/locale/he/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
 * /usr/share/locale/hu/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/hu/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
 * /usr/share/locale/ia/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/ia/LC_MESSAGES/smb4k.mo
+* /usr/share/locale/ie/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
+* /usr/share/locale/ie/LC_MESSAGES/smb4k-core.mo
+* /usr/share/locale/ie/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/is/LC_MESSAGES/smb4k-core.mo
 * /usr/share/locale/is/LC_MESSAGES/smb4k.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.smb4kqml.mo
@@ -267,8 +260,5 @@ Smb4K is a SMB/CIFS share browser for KDE.
 * /usr/share/plasma/plasmoids/org.kde.smb4kqml/contents/ui/ProfilesPage.qml
 * /usr/share/plasma/plasmoids/org.kde.smb4kqml/contents/ui/SharesViewItemDelegate.qml
 * /usr/share/plasma/plasmoids/org.kde.smb4kqml/contents/ui/SharesViewPage.qml
-* /usr/share/plasma/plasmoids/org.kde.smb4kqml/metadata.desktop
 * /usr/share/plasma/plasmoids/org.kde.smb4kqml/metadata.json
 * /usr/share/polkit-1/actions/org.kde.smb4k.mounthelper.policy
-* /usr/share/qt5/qml/org/kde/smb4k/smb4kqmlplugin/libsmb4kqmlplugin.so
-* /usr/share/qt5/qml/org/kde/smb4k/smb4kqmlplugin/qmldir

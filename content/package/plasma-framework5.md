@@ -12,7 +12,7 @@ size = "1133428"
 usize = "4324816"
 sha1sum = "03851a1c19112150ece9248a3cdce66041399d9e"
 depends = "['kactivities5>=5.116.0', 'kdeclarative5>=5.116.0', 'kirigami25>=5.116.0', 'kwayland5>=5.116.0']"
-reverse_depends = "['krunner5', 'qqc2-desktop-style5', 'smb4k']"
+reverse_depends = "['krunner5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
 Plasma library and runtime components based upon KF5 and Qt5.

@@ -12,7 +12,6 @@ size = "67048"
 usize = "245758"
 sha1sum = "a10f6775d0e8ff8bdb69f6e66b7b317abe3d9045"
 depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.16']"
-reverse_depends = "['smb4k']"
 +++
 ### Description: 
 Zeroconf Support for KDE.

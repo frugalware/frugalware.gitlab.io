@@ -12,7 +12,7 @@ size = "130324"
 usize = "492362"
 sha1sum = "fc941b5400715f2a2bbae4e70bb15e89fd5da7ac"
 depends = "['karchive5>=5.116.0', 'kconfigwidgets5>=5.116.0', 'kitemviews5>=5.116.0', 'qt5-declarative>=5.15.16', 'qt5-svg>=5.15.16']"
-reverse_depends = "['kdesignerplugin5', 'knotifications5', 'krename', 'ktextwidgets5', 'qqc2-desktop-style5', 'smb4k']"
+reverse_depends = "['kdesignerplugin5', 'knotifications5', 'krename', 'ktextwidgets5', 'qqc2-desktop-style5']"
 +++
 ### Description: 
 Icon GUI utilities.

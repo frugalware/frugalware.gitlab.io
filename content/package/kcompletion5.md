@@ -12,7 +12,7 @@ size = "111848"
 usize = "417154"
 sha1sum = "122d62bfc97c4e77f7818203bfe75f10a51ab1c1"
 depends = "['kconfig5>=5.116.0', 'kwidgetsaddons5>=5.116.0']"
-reverse_depends = "['krename', 'krita', 'ktextwidgets5', 'smb4k']"
+reverse_depends = "['krename', 'krita', 'ktextwidgets5']"
 +++
 ### Description: 
 Provides widgets with advanced completion support.

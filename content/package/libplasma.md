@@ -12,7 +12,7 @@ size = "2458792"
 usize = "6099557"
 sha1sum = "659d7e77d440efda5b4c28a3ed97b0f33b64a0cd"
 depends = "['kcmutils>=6.10.0', 'ksvg>=6.10.0', 'plasma-activities>=6.2.5']"
-reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'wacomtablet']"
+reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'smb4k', 'wacomtablet']"
 +++
 ### Description: 
 Plasma library and runtime components based upon KF5 and Qt5.
