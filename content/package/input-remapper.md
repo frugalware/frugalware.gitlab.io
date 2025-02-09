@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "input-remapper 2.0.1-4"
-version = "2.0.1-4"
+title = "input-remapper 2.1.0-1"
+version = "2.1.0-1"
 description = "A tool to change and program the mapping of your input device buttons."
-date = "2024-11-03T14:10:01"
+date = "2025-02-09T11:47:49"
 aliases = "/packages/220472"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/sezanzeb/input-remapper"
 arch = "x86_64"
-size = "316040"
-usize = "1471297"
-sha1sum = "f790480ac18ef4140d65488f371ab59a1c43329a"
+size = "348168"
+usize = "1681799"
+sha1sum = "719808064c09b54bc91dd41da260f09e05a17851"
 depends = "['gtk+3', 'gtksourceview4', 'pygobject3', 'pygobject3-cairo', 'python3-evdev', 'python3-packaging', 'python3-pydantic', 'python3-pydbus', 'xmodmap']"
 +++
 ### Description: 
@@ -23,26 +23,38 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/bin/input-remapper-gtk
 * /usr/bin/input-remapper-reader-service
 * /usr/bin/input-remapper-service
+* /usr/lib/python3.13/site-packages/inputremapper/bin/input_remapper_control.py
+* /usr/lib/python3.13/site-packages/inputremapper/bin/input_remapper_gtk.py
+* /usr/lib/python3.13/site-packages/inputremapper/bin/input_remapper_reader_service.py
+* /usr/lib/python3.13/site-packages/inputremapper/bin/input_remapper_service.py
+* /usr/lib/python3.13/site-packages/inputremapper/bin/process_utils.py
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__init__.py
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__pycache__/input_remapper_control.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__pycache__/input_remapper_gtk.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__pycache__/input_remapper_reader_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__pycache__/input_remapper_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__pycache__/process_utils.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/bin/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/base_config.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/data.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/global_config.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/input_config.py
+* /usr/lib/python3.13/site-packages/inputremapper/configs/keyboard_layout.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/mapping.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/migrations.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/paths.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/preset.py
-* /usr/lib/python3.13/site-packages/inputremapper/configs/system_mapping.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/validation_errors.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__init__.py
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/base_config.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/data.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/global_config.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/input_config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/keyboard_layout.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/mapping.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/migrations.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/paths.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/preset.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/system_mapping.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/validation_errors.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/configs/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/daemon.py
@@ -53,12 +65,14 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/device_groups.py
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/editor.py
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/main.py
+* /usr/lib/python3.13/site-packages/inputremapper/gui/components/output_type_names.py
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/presets.py
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__init__.py
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/common.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/device_groups.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/editor.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/main.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/output_type_names.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/presets.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/gui/components/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/gui/controller.py
@@ -90,11 +104,65 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/lib/python3.13/site-packages/inputremapper/injection/event_reader.py
 * /usr/lib/python3.13/site-packages/inputremapper/injection/global_uinputs.py
 * /usr/lib/python3.13/site-packages/inputremapper/injection/injector.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/argument.py
 * /usr/lib/python3.13/site-packages/inputremapper/injection/macros/macro.py
 * /usr/lib/python3.13/site-packages/inputremapper/injection/macros/parse.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/raw_value.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/task.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/add.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/event.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/hold.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/hold_keys.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/ifeq.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/if_eq.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/if_led.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/if_single.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/if_tap.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/key.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/key_down.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/key_up.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/modify.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/mod_tap.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/mouse.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/mouse_xy.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/parallel.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/repeat.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/set.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/util.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/wait.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/wheel.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__init__.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/add.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/event.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/hold.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/hold_keys.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/ifeq.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/if_eq.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/if_led.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/if_single.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/if_tap.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/key.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/key_down.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/key_up.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/modify.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/mod_tap.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/mouse.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/mouse_xy.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/parallel.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/repeat.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/set.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/util.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/wait.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/wheel.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/tasks/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/variable.py
 * /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__init__.py
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/argument.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/macro.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/parse.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/raw_value.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/task.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/variable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/injection/macros/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/injection/mapping_handlers/abs_to_abs_handler.py
 * /usr/lib/python3.13/site-packages/inputremapper/injection/mapping_handlers/abs_to_btn_handler.py
@@ -145,7 +213,12 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/lib/python3.13/site-packages/inputremapper/ipc/__pycache__/shared_dict.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/ipc/__pycache__/socket.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/ipc/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/inputremapper/logger.py
+* /usr/lib/python3.13/site-packages/inputremapper/logging/formatter.py
+* /usr/lib/python3.13/site-packages/inputremapper/logging/logger.py
+* /usr/lib/python3.13/site-packages/inputremapper/logging/__init__.py
+* /usr/lib/python3.13/site-packages/inputremapper/logging/__pycache__/formatter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/logging/__pycache__/logger.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/inputremapper/logging/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/user.py
 * /usr/lib/python3.13/site-packages/inputremapper/utils.py
 * /usr/lib/python3.13/site-packages/inputremapper/__init__.py
@@ -153,20 +226,20 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/groups.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/input_event.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/inputremapper/__pycache__/logger.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/user.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/input_remapper-2.0.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/input_remapper-2.0.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/input_remapper-2.0.1-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/input_remapper-2.0.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/input_remapper-2.0.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/top_level.txt
 * /usr/lib/systemd/system/input-remapper.service
 * /usr/lib/udev/rules.d/99-input-remapper.rules
 * /usr/share/applications/input-remapper-gtk.desktop
-* /usr/share/doc/input-remapper-2.0.1/LICENSE
-* /usr/share/doc/input-remapper-2.0.1/README.md
+* /usr/share/doc/input-remapper-2.1.0/LICENSE
+* /usr/share/doc/input-remapper-2.1.0/README.md
+* /usr/share/icons/hicolor/scalable/apps/input-remapper.svg
 * /usr/share/input-remapper/99-input-remapper.rules
 * /usr/share/input-remapper/input-remapper-autoload.desktop
 * /usr/share/input-remapper/input-remapper-gtk.desktop

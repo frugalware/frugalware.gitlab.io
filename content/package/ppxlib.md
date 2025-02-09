@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ppxlib 0.34.0-1"
-version = "0.34.0-1"
+title = "ppxlib 0.35.0-1"
+version = "0.35.0-1"
 description = "Standard infrastructure for ppx rewriters"
-date = "2025-01-18T11:23:32"
+date = "2025-02-09T11:54:56"
 aliases = "/packages/221069"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-ppx/ppxlib"
 arch = "x86_64"
-size = "30219244"
-usize = "88727532"
-sha1sum = "806b64a68d28f4b22af2789919346125ce26a3dc"
+size = "26958004"
+usize = "79959954"
+sha1sum = "8e7557b1fc94f19ffebd3086649b726b8fa954ed"
 depends = "['ocaml-cmdliner', 'ocaml-compiler-libs-repackaged', 'ocaml-stdlib-shims', 'ppx_derivers', 'sexplib0']"
 reverse_depends = "['lwt']"
 +++
@@ -156,42 +156,6 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/astlib/astlib__Longident.cmt
 * /usr/lib/ocaml/ppxlib/astlib/astlib__Longident.cmti
 * /usr/lib/ocaml/ppxlib/astlib/astlib__Longident.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_402_403.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_402_403.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_402_403.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_403_402.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_403_402.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_403_402.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_403_404.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_403_404.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_403_404.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_404_403.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_404_403.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_404_403.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_404_405.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_404_405.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_404_405.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_405_404.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_405_404.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_405_404.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_405_406.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_405_406.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_405_406.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_406_405.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_406_405.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_406_405.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_406_407.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_406_407.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_406_407.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_407_406.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_407_406.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_407_406.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_407_408.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_407_408.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_407_408.cmx
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_408_407.cmi
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_408_407.cmt
-* /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_408_407.cmx
 * /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_408_409.cmi
 * /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_408_409.cmt
 * /usr/lib/ocaml/ppxlib/astlib/astlib__Migrate_408_409.cmx
@@ -290,18 +254,6 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/astlib/location.mli
 * /usr/lib/ocaml/ppxlib/astlib/longident.ml
 * /usr/lib/ocaml/ppxlib/astlib/longident.mli
-* /usr/lib/ocaml/ppxlib/astlib/migrate_402_403.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_403_402.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_403_404.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_404_403.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_404_405.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_405_404.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_405_406.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_406_405.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_406_407.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_407_406.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_407_408.ml
-* /usr/lib/ocaml/ppxlib/astlib/migrate_408_407.ml
 * /usr/lib/ocaml/ppxlib/astlib/migrate_408_409.ml
 * /usr/lib/ocaml/ppxlib/astlib/migrate_409_408.ml
 * /usr/lib/ocaml/ppxlib/astlib/migrate_409_410.ml
@@ -619,25 +571,25 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmxa
 * /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmxs
 * /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.ml
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/CHANGES.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/HISTORY.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/LICENSE.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-bench/README.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/CHANGES.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/HISTORY.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/LICENSE.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib-tools/README.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/CHANGES.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/HISTORY.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/LICENSE.md
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/ast-traversal.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/driver.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/examples.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/generating-code.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/good-practices.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/index.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/matching-code.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/quick_intro.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/odoc-pages/writing-ppxs.mld
-* /usr/share/doc/ppxlib-0.34.0/ppxlib/README.md
-* /usr/share/doc/ppxlib-0.34.0/README.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/CHANGES.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/HISTORY.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/LICENSE.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/README.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/CHANGES.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/HISTORY.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/LICENSE.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/README.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/CHANGES.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/HISTORY.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/LICENSE.md
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/ast-traversal.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/driver.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/examples.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/generating-code.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/good-practices.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/index.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/matching-code.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/quick_intro.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/writing-ppxs.mld
+* /usr/share/doc/ppxlib-0.35.0/ppxlib/README.md
+* /usr/share/doc/ppxlib-0.35.0/README.md
