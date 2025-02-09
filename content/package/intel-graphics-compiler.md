@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "intel-graphics-compiler 1.0.17193.4-1"
-version = "1.0.17193.4-1"
+title = "intel-graphics-compiler 2.5.6-1"
+version = "2.5.6-1"
 description = "Intel Graphics Compiler for OpenCL"
-date = "2024-08-16T13:04:55"
+date = "2025-02-09T15:49:39"
 aliases = "/packages/220084"
 categories = ['devel']
 upstreamurl = "https://github.com/intel/intel-graphics-compiler"
 arch = "x86_64"
-size = "68393944"
-usize = "244101430"
-sha1sum = "70679ae4520d4a6fbdf1eb846b2846be5c75119c"
-depends = "['libxml2', 'spirv-tools']"
+size = "67880228"
+usize = "246415704"
+sha1sum = "742c52ee0e869c1af1536225d4b63265e8c074b5"
+depends = "['libxml2']"
 reverse_depends = "['intel-compute-runtime']"
 +++
 ### Description: 
 Intel Graphics Compiler for OpenCL
 
 ### Files: 
-* /usr/bin/GenX_IR
 * /usr/bin/iga64
 * /usr/bin/lld
 * /usr/include/iga/iga.h
@@ -70,6 +69,7 @@ Intel Graphics Compiler for OpenCL
 * /usr/include/igc/cif/readme.txt
 * /usr/include/igc/common/StateSaveAreaHeader.h
 * /usr/include/igc/igc.opencl.h
+* /usr/include/igc/OCLAPI/oclapi.h
 * /usr/include/igc/ocl_igc_interface/code_type.h
 * /usr/include/igc/ocl_igc_interface/fcl_ocl_device_ctx.h
 * /usr/include/igc/ocl_igc_interface/fcl_ocl_translation_ctx.h
@@ -92,6 +92,7 @@ Intel Graphics Compiler for OpenCL
 * /usr/include/igc/ocl_igc_interface/impl/igc_ocl_device_ctx_impl.h
 * /usr/include/igc/ocl_igc_interface/impl/igc_ocl_translation_ctx_impl.cpp
 * /usr/include/igc/ocl_igc_interface/impl/igc_ocl_translation_ctx_impl.h
+* /usr/include/igc/ocl_igc_interface/impl/igc_signal_guard.h
 * /usr/include/igc/ocl_igc_interface/impl/ocl_gen_binary_impl.cpp
 * /usr/include/igc/ocl_igc_interface/impl/ocl_gen_binary_impl.h
 * /usr/include/igc/ocl_igc_interface/impl/ocl_translation_output_impl.cpp
@@ -120,17 +121,16 @@ Intel Graphics Compiler for OpenCL
 * /usr/include/opencl-c-base.h
 * /usr/include/opencl-c.h
 * /usr/include/visa/RelocationInfo.h
-* /usr/lib/igc/NOTICES.txt
-* /usr/lib/libiga64.so
-* /usr/lib/libiga64.so.1
-* /usr/lib/libiga64.so.1.0.1
-* /usr/lib/libigc.so
-* /usr/lib/libigc.so.1
-* /usr/lib/libigc.so.1.0.1
-* /usr/lib/libigdfcl.so
-* /usr/lib/libigdfcl.so.1
-* /usr/lib/libigdfcl.so.1.0.1
+* /usr/lib/igc2/NOTICES.txt
+* /usr/lib/libiga64.so.2
+* /usr/lib/libiga64.so.2.5.0
+* /usr/lib/libigc.so.2
+* /usr/lib/libigc.so.2.5.0
+* /usr/lib/libigdfcl.so.2
+* /usr/lib/libigdfcl.so.2.5.0
 * /usr/lib/libopencl-clang.so.14
 * /usr/lib/pkgconfig/igc-opencl.pc
-* /usr/share/doc/intel-graphics-compiler-1.0.17193.4/Readme.md
-* /usr/share/doc/intel-graphics-compiler-1.0.17193.4/README.md
+* /usr/share/doc/intel-graphics-compiler-2.5.6/CHANGES
+* /usr/share/doc/intel-graphics-compiler-2.5.6/LICENSE
+* /usr/share/doc/intel-graphics-compiler-2.5.6/README.md
+* /usr/share/doc/intel-graphics-compiler-2.5.6/Readme.md
