@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.13-2"
-version = "6.13-2"
+title = "kernel-headers 6.13.2-1"
+version = "6.13.2-1"
 description = "Linux kernel include files"
-date = "2025-01-23T11:22:05"
+date = "2025-02-09T10:25:28"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1252028"
+size = "1252136"
 usize = "5926928"
-sha1sum = "078e67ba649b6e231551c98631b2328ca848f870"
+sha1sum = "404256ce7695f00b8e1c182a8679a83094d33c69"
 depends = "[]"
 +++
 ### Description: 
