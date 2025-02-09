@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "picard 2.12.3-2"
-version = "2.12.3-2"
+title = "picard 2.13.2-1"
+version = "2.13.2-1"
 description = "The next generation MusicBrainz tagger"
-date = "2024-11-03T17:56:34"
+date = "2025-02-09T13:13:02"
 aliases = "/packages/219040"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://musicbrainz.org/doc/PicardTagger"
 arch = "x86_64"
-size = "2465528"
-usize = "12776003"
-sha1sum = "8e937c890deb7b06af815d809f18965cf2691e8d"
+size = "2536024"
+usize = "13278475"
+sha1sum = "4e91b26124c18053b1d74380e06bd9518c0330f5"
 depends = "['ffmpeg>=3.3.2', 'libdiscid', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt5>=5.9.2', 'python3>=3.13']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ The next generation MusicBrainz tagger
 
 ### Files: 
 * /usr/bin/picard
-* /usr/lib/python3.13/site-packages/picard-2.12.3-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/picard-2.12.3-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/picard-2.12.3-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/picard-2.12.3-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/picard-2.12.3-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/picard-2.13.2-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/picard-2.13.2-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/picard-2.13.2-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/picard-2.13.2-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/picard-2.13.2-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/picard/acoustid/json_helpers.py
 * /usr/lib/python3.13/site-packages/picard/acoustid/manager.py
 * /usr/lib/python3.13/site-packages/picard/acoustid/recordings.py
@@ -466,9 +466,9 @@ The next generation MusicBrainz tagger
 * /usr/lib/python3.13/site-packages/picard/__pycache__/track.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/picard/__pycache__/version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/picard/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/picard-2.12.3/COPYING.txt
-* /usr/share/doc/picard-2.12.3/INSTALL.md
-* /usr/share/doc/picard-2.12.3/README.md
+* /usr/share/doc/picard-2.13.2/COPYING.txt
+* /usr/share/doc/picard-2.13.2/INSTALL.md
+* /usr/share/doc/picard-2.13.2/README.md
 * /usr/share/share/applications/org.musicbrainz.Picard.desktop
 * /usr/share/share/icons/hicolor/128x128/apps/org.musicbrainz.Picard.png
 * /usr/share/share/icons/hicolor/16x16/apps/org.musicbrainz.Picard.png
@@ -581,6 +581,7 @@ The next generation MusicBrainz tagger
 * /usr/share/share/locale/ko/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/ko/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/ko/LC_MESSAGES/picard.mo
+* /usr/share/share/locale/lt/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/lt/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/lt/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/lt/LC_MESSAGES/picard.mo
@@ -668,7 +669,9 @@ The next generation MusicBrainz tagger
 * /usr/share/share/locale/zh_Hans/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/zh_Hans/LC_MESSAGES/picard-constants.mo
 * /usr/share/share/locale/zh_Hans/LC_MESSAGES/picard-countries.mo
+* /usr/share/share/locale/zh_Hant/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/zh_Hant/LC_MESSAGES/picard-constants.mo
+* /usr/share/share/locale/zh_Hant/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard-attributes.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard-countries.mo
 * /usr/share/share/locale/zh_TW/LC_MESSAGES/picard.mo

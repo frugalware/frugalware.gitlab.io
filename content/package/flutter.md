@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flutter 3.27.3-1"
-version = "3.27.3-1"
+title = "flutter 3.27.4-1"
+version = "3.27.4-1"
 description = "A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android."
-date = "2025-01-26T14:12:18"
+date = "2025-02-09T12:06:37"
 aliases = "/packages/220938"
 categories = ['devel-extra']
 upstreamurl = "https://flutter.dev"
 arch = "x86_64"
-size = "772097416"
-usize = "1776025069"
-sha1sum = "7cb4e3cf23faa06fd20823c674846b2ec17e887d"
+size = "772556152"
+usize = "1776320533"
+sha1sum = "2323ade9ea17ac8a47d345c3e79423badefa4d37"
 depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
 ### Description: 
@@ -42,46 +42,30 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.git/info/refs
 * /opt/flutter/.git/logs/HEAD
 * /opt/flutter/.git/logs/refs/heads/stable
-* /opt/flutter/.git/logs/refs/remotes/origin/bartekpacia/chore/native_plugin_loader_make_stateless
-* /opt/flutter/.git/logs/refs/remotes/origin/bartekpacia/chore/remove_old_agp_hacks
-* /opt/flutter/.git/logs/refs/remotes/origin/bartekpacia/chore/resolve_dependencies_gradle_to_kts
-* /opt/flutter/.git/logs/refs/remotes/origin/bartekpacia/fix/gradle_always_generates_lockfiles_slow
-* /opt/flutter/.git/logs/refs/remotes/origin/beta
-* /opt/flutter/.git/logs/refs/remotes/origin/chunhtai-patch-1
-* /opt/flutter/.git/logs/refs/remotes/origin/fix/161881
+* /opt/flutter/.git/logs/refs/remotes/origin/camsim99-changelog-patch-1
+* /opt/flutter/.git/logs/refs/remotes/origin/camsim99-changelog-patch-1-1
 * /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.29-candidate.0
-* /opt/flutter/.git/logs/refs/remotes/origin/generate_preview
 * /opt/flutter/.git/logs/refs/remotes/origin/HEAD
+* /opt/flutter/.git/logs/refs/remotes/origin/initial_preview_environment
 * /opt/flutter/.git/logs/refs/remotes/origin/main
 * /opt/flutter/.git/logs/refs/remotes/origin/master
-* /opt/flutter/.git/logs/refs/remotes/origin/packages-native-test-docs
-* /opt/flutter/.git/logs/refs/remotes/origin/revert-160496-5lI7ZT3ikn
 * /opt/flutter/.git/objects/info/commit-graph
 * /opt/flutter/.git/objects/info/packs
-* /opt/flutter/.git/objects/pack/pack-97fd41742f3c4202ab9eb8c3fa578b5fe1632c47.idx
-* /opt/flutter/.git/objects/pack/pack-97fd41742f3c4202ab9eb8c3fa578b5fe1632c47.pack
-* /opt/flutter/.git/objects/pack/pack-97fd41742f3c4202ab9eb8c3fa578b5fe1632c47.rev
-* /opt/flutter/.git/objects/pack/pack-e2d69ef8af0a982d2abeda31b41341f155d210da.idx
-* /opt/flutter/.git/objects/pack/pack-e2d69ef8af0a982d2abeda31b41341f155d210da.pack
-* /opt/flutter/.git/objects/pack/pack-e2d69ef8af0a982d2abeda31b41341f155d210da.rev
+* /opt/flutter/.git/objects/pack/pack-4dd869c6bb512290224d1fa187c0dea6ebd0318d.idx
+* /opt/flutter/.git/objects/pack/pack-4dd869c6bb512290224d1fa187c0dea6ebd0318d.pack
+* /opt/flutter/.git/objects/pack/pack-4dd869c6bb512290224d1fa187c0dea6ebd0318d.rev
+* /opt/flutter/.git/objects/pack/pack-b2ccd227a1998dbe0933ff0b3a9da59373455bbb.idx
+* /opt/flutter/.git/objects/pack/pack-b2ccd227a1998dbe0933ff0b3a9da59373455bbb.pack
+* /opt/flutter/.git/objects/pack/pack-b2ccd227a1998dbe0933ff0b3a9da59373455bbb.rev
 * /opt/flutter/.git/ORIG_HEAD
 * /opt/flutter/.git/packed-refs
-* /opt/flutter/.git/refs/remotes/origin/bartekpacia/chore/native_plugin_loader_make_stateless
-* /opt/flutter/.git/refs/remotes/origin/bartekpacia/chore/remove_old_agp_hacks
-* /opt/flutter/.git/refs/remotes/origin/bartekpacia/chore/resolve_dependencies_gradle_to_kts
-* /opt/flutter/.git/refs/remotes/origin/bartekpacia/fix/gradle_always_generates_lockfiles_slow
-* /opt/flutter/.git/refs/remotes/origin/beta
-* /opt/flutter/.git/refs/remotes/origin/chunhtai-patch-1
-* /opt/flutter/.git/refs/remotes/origin/fix/161881
+* /opt/flutter/.git/refs/remotes/origin/camsim99-changelog-patch-1
+* /opt/flutter/.git/refs/remotes/origin/camsim99-changelog-patch-1-1
 * /opt/flutter/.git/refs/remotes/origin/flutter-3.29-candidate.0
-* /opt/flutter/.git/refs/remotes/origin/generate_preview
 * /opt/flutter/.git/refs/remotes/origin/HEAD
+* /opt/flutter/.git/refs/remotes/origin/initial_preview_environment
 * /opt/flutter/.git/refs/remotes/origin/main
 * /opt/flutter/.git/refs/remotes/origin/master
-* /opt/flutter/.git/refs/remotes/origin/packages-native-test-docs
-* /opt/flutter/.git/refs/remotes/origin/revert-160496-5lI7ZT3ikn
-* /opt/flutter/.git/refs/tags/3.29.0-0.0.pre
-* /opt/flutter/.git/refs/tags/3.29.0-0.1.pre
 * /opt/flutter/.gitattributes
 * /opt/flutter/.github/dependabot.yml
 * /opt/flutter/.github/ISSUE_TEMPLATE/10_feature.yml
@@ -11043,6 +11027,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/TESTOWNERS
 * /opt/flutter/version
 * /usr/bin/flutter
-* /usr/share/doc/flutter-3.27.3/AUTHORS
-* /usr/share/doc/flutter-3.27.3/LICENSE
-* /usr/share/doc/flutter-3.27.3/README.md
+* /usr/share/doc/flutter-3.27.4/AUTHORS
+* /usr/share/doc/flutter-3.27.4/COPYING
+* /usr/share/doc/flutter-3.27.4/LICENSE
+* /usr/share/doc/flutter-3.27.4/README.md
