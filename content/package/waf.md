@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "waf 2.1.4-1"
-version = "2.1.4-1"
+title = "waf 2.1.5-1"
+version = "2.1.5-1"
 description = "General-purpose build system modelled after Scons"
-date = "2024-12-23T00:31:33"
+date = "2025-02-10T19:25:28"
 aliases = "/packages/221477"
 categories = ['devel-extra']
 upstreamurl = "http://waf.io/"
 arch = "x86_64"
-size = "805164"
-usize = "5380317"
-sha1sum = "686f334697f54ea202f7a302028fb2ea0db3384f"
+size = "811196"
+usize = "5414546"
+sha1sum = "5e81f399bf041e5e34fa37459992be118d565ccd"
 depends = "['python3>=3.13']"
 +++
 ### Description: 
@@ -579,7 +579,7 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.13/site-packages/waf/waflib/__pycache__/Utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/waf-2.1.4/ChangeLog
-* /usr/share/doc/waf-2.1.4/LICENSE
-* /usr/share/doc/waf-2.1.4/README.md
+* /usr/share/doc/waf-2.1.5/ChangeLog
+* /usr/share/doc/waf-2.1.5/LICENSE
+* /usr/share/doc/waf-2.1.5/README.md
 * /usr/share/waf/wscript

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "node-gyp 11.0.0-1"
-version = "11.0.0-1"
+title = "node-gyp 11.1.0-1"
+version = "11.1.0-1"
 description = "Node.js native addon build tool"
-date = "2024-12-22T23:35:32"
+date = "2025-02-10T18:52:05"
 aliases = "/packages/221182"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/nodejs/node-gyp"
 arch = "x86_64"
-size = "1304248"
-usize = "10067362"
-sha1sum = "3bd851ed0f67e081083a0a6f4b4a851195394b97"
+size = "1308756"
+usize = "10118823"
+sha1sum = "d1dc0e419a3539afbbab645ae547549ee015905e"
 depends = "['glibc']"
 reverse_depends = "['pnpm']"
 +++
@@ -25,6 +25,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/.github/scripts/check-engines.js
 * /usr/lib/node_modules/node-gyp/.github/workflows/release-please.yml
 * /usr/lib/node_modules/node-gyp/.github/workflows/tests.yml
+* /usr/lib/node_modules/node-gyp/.github/workflows/update-gyp-next.yml
 * /usr/lib/node_modules/node-gyp/.github/workflows/visual-studio.yml
 * /usr/lib/node_modules/node-gyp/.npmignore
 * /usr/lib/node_modules/node-gyp/.release-please-manifest.json
@@ -43,8 +44,8 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/eslint.config.js
 * /usr/lib/node_modules/node-gyp/gyp/.github/dependabot.yml
 * /usr/lib/node_modules/node-gyp/gyp/.github/workflows/node-gyp.yml
-* /usr/lib/node_modules/node-gyp/gyp/.github/workflows/nodejs-windows.yml
-* /usr/lib/node_modules/node-gyp/gyp/.github/workflows/Python_tests.yml
+* /usr/lib/node_modules/node-gyp/gyp/.github/workflows/nodejs.yml
+* /usr/lib/node_modules/node-gyp/gyp/.github/workflows/python_tests.yml
 * /usr/lib/node_modules/node-gyp/gyp/.github/workflows/release-please.yml
 * /usr/lib/node_modules/node-gyp/gyp/.npmignore
 * /usr/lib/node_modules/node-gyp/gyp/.release-please-manifest.json
@@ -406,6 +407,20 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/backoff.spec.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/backoff.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/delay/always/always.delay.spec.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/delay/always/always.delay.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/delay/delay.base.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/delay/delay.factory.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/delay/delay.interface.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/delay/skip-first/skip-first.delay.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/full/full.jitter.spec.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/full/full.jitter.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/jitter.factory.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/no/no.jitter.spec.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/no/no.jitter.ts
+* /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/options.ts
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.js
@@ -1692,6 +1707,7 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2019_BuildTools_minimal.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2019_Community_workload.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2019_Preview.txt
+* /usr/lib/node_modules/node-gyp/test/fixtures/VS_2022_BuildTools_arm64_only.txt
 * /usr/lib/node_modules/node-gyp/test/fixtures/VS_2022_Community_workload.txt
 * /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/binding.gyp
 * /usr/lib/node_modules/node-gyp/test/node_modules/hello_napi/common.gypi
@@ -1717,5 +1733,5 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/test-process-release.js
 * /usr/lib/node_modules/node-gyp/test/test-windows-make.js
 * /usr/lib/node_modules/node-gyp/update-gyp.py
-* /usr/share/doc/node-gyp-11.0.0/LICENSE
-* /usr/share/doc/node-gyp-11.0.0/README.md
+* /usr/share/doc/node-gyp-11.1.0/LICENSE
+* /usr/share/doc/node-gyp-11.1.0/README.md
