@@ -1,23 +1,22 @@
 +++
 draft = false
-title = "inkscape 1.4-6"
-version = "1.4-6"
+title = "inkscape 1.4-7"
+version = "1.4-7"
 description = "A vector illustrator program"
-date = "2025-01-13T16:35:59"
+date = "2025-02-10T17:01:36"
 aliases = "/packages/3102"
 categories = ['xapps-extra']
 upstreamurl = "https://www.inkscape.org/"
 arch = "x86_64"
-size = "18744744"
-usize = "137770712"
-sha1sum = "d33e07a3fd980168bef8c3eee97896cda9a63a2a"
-depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl>=2.8', 'gspell>=1.14.0', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'imagemagick', 'jemalloc', 'libboost>=1.87.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=25.01.0', 'potrace']"
+size = "25898664"
+usize = "183425203"
+sha1sum = "1e09190a786eeb4664d88c7c91d89dbdb7109896"
+depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl>=2.8', 'gspell>=1.14.0', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'imagemagick', 'jemalloc', 'libboost>=1.87.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=25.02.0', 'potrace']"
 +++
 ### Description: 
 A vector illustrator program
 
 ### Files: 
-* /etc/ld.so.conf.d/inkscape.conf
 * /usr/bin/inkscape
 * /usr/bin/inkview
 * /usr/include/2geom-1.4.0/2geom/2geom.h
@@ -4165,7 +4164,78 @@ A vector illustrator program
 * /usr/share/inkscape/templates/A4leaflet-3fold-Roll.svg
 * /usr/share/inkscape/templates/about_screen.svg
 * /usr/share/inkscape/templates/CD_label_120x120.svg
+* /usr/share/inkscape/templates/default.ar.svg
+* /usr/share/inkscape/templates/default.as.svg
+* /usr/share/inkscape/templates/default.be.svg
+* /usr/share/inkscape/templates/default.bg.svg
+* /usr/share/inkscape/templates/default.bn_BD.svg
+* /usr/share/inkscape/templates/default.br.svg
+* /usr/share/inkscape/templates/default.brx.svg
+* /usr/share/inkscape/templates/default.ca.svg
+* /usr/share/inkscape/templates/default.ca@valencia.svg
+* /usr/share/inkscape/templates/default.cs.svg
+* /usr/share/inkscape/templates/default.da.svg
+* /usr/share/inkscape/templates/default.de.svg
+* /usr/share/inkscape/templates/default.doi.svg
+* /usr/share/inkscape/templates/default.el.svg
+* /usr/share/inkscape/templates/default.eo.svg
+* /usr/share/inkscape/templates/default.es.svg
+* /usr/share/inkscape/templates/default.es_MX.svg
+* /usr/share/inkscape/templates/default.et.svg
+* /usr/share/inkscape/templates/default.eu.svg
+* /usr/share/inkscape/templates/default.fi.svg
+* /usr/share/inkscape/templates/default.fr.svg
+* /usr/share/inkscape/templates/default.ga.svg
+* /usr/share/inkscape/templates/default.gl.svg
+* /usr/share/inkscape/templates/default.gu.svg
+* /usr/share/inkscape/templates/default.he.svg
+* /usr/share/inkscape/templates/default.hi.svg
+* /usr/share/inkscape/templates/default.hr.svg
+* /usr/share/inkscape/templates/default.hu.svg
+* /usr/share/inkscape/templates/default.id.svg
+* /usr/share/inkscape/templates/default.is.svg
+* /usr/share/inkscape/templates/default.it.svg
+* /usr/share/inkscape/templates/default.ja.svg
+* /usr/share/inkscape/templates/default.km.svg
+* /usr/share/inkscape/templates/default.kn.svg
+* /usr/share/inkscape/templates/default.ko.svg
+* /usr/share/inkscape/templates/default.kok.svg
+* /usr/share/inkscape/templates/default.kok@latin.svg
+* /usr/share/inkscape/templates/default.ks@aran.svg
+* /usr/share/inkscape/templates/default.ks@deva.svg
+* /usr/share/inkscape/templates/default.lv.svg
+* /usr/share/inkscape/templates/default.mai.svg
+* /usr/share/inkscape/templates/default.ml.svg
+* /usr/share/inkscape/templates/default.mni.svg
+* /usr/share/inkscape/templates/default.mni@beng.svg
+* /usr/share/inkscape/templates/default.mr.svg
+* /usr/share/inkscape/templates/default.nb.svg
+* /usr/share/inkscape/templates/default.nl.svg
+* /usr/share/inkscape/templates/default.or.svg
+* /usr/share/inkscape/templates/default.pl.svg
+* /usr/share/inkscape/templates/default.pt.svg
+* /usr/share/inkscape/templates/default.pt_BR.svg
+* /usr/share/inkscape/templates/default.ro.svg
+* /usr/share/inkscape/templates/default.ru.svg
+* /usr/share/inkscape/templates/default.sa.svg
+* /usr/share/inkscape/templates/default.sat.svg
+* /usr/share/inkscape/templates/default.sat@deva.svg
+* /usr/share/inkscape/templates/default.sd.svg
+* /usr/share/inkscape/templates/default.sd@deva.svg
+* /usr/share/inkscape/templates/default.sk.svg
+* /usr/share/inkscape/templates/default.sl.svg
+* /usr/share/inkscape/templates/default.sr.svg
+* /usr/share/inkscape/templates/default.sr@latin.svg
+* /usr/share/inkscape/templates/default.sv.svg
 * /usr/share/inkscape/templates/default.svg
+* /usr/share/inkscape/templates/default.ta.svg
+* /usr/share/inkscape/templates/default.te.svg
+* /usr/share/inkscape/templates/default.tr.svg
+* /usr/share/inkscape/templates/default.uk.svg
+* /usr/share/inkscape/templates/default.ur.svg
+* /usr/share/inkscape/templates/default.vi.svg
+* /usr/share/inkscape/templates/default.zh_CN.svg
+* /usr/share/inkscape/templates/default.zh_TW.svg
 * /usr/share/inkscape/templates/default_pt.svg
 * /usr/share/inkscape/templates/default_px.svg
 * /usr/share/inkscape/templates/icons/about.svg
@@ -4687,6 +4757,94 @@ A vector illustrator program
 * /usr/share/inkscape/ui/user.css
 * /usr/share/inkscape/ui/widget-new-from-template.ui
 * /usr/share/inkscape/ui/win32.css
+* /usr/share/locale/ar/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/as/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/az/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/be/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/bg/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/bn/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/bn_BD/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/br/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/brx/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ca/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/cs/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/da/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/de/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/doi/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/dz/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/el/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/en_AU/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/en_CA/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/eo/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/es/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/es_MX/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/et/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/eu/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/fa/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/fi/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/fr/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ga/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/gl/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/gu/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/he/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/hi/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/hr/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/hu/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/hy/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/id/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/is/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/it/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ja/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/km/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/kn/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ko/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/kok/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/kok@latin/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ks@aran/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ks@deva/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/lt/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/lv/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/mai/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/mk/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ml/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/mn/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/mni/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/mni@beng/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/mr/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/nb/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ne/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/nl/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/nn/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/or/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/pa/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/pl/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/pt/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ro/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ru/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/rw/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sa/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sat/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sat@deva/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sd/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sd@deva/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sk/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sl/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sq/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sr/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/sv/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ta/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/te/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/th/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/tr/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/uk/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/ur/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/vi/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/inkscape.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo
 * /usr/share/man/de/man1/inkscape.1.gz
 * /usr/share/man/de/man1/inkview.1.gz
 * /usr/share/man/es/man1/inkview.1.gz
