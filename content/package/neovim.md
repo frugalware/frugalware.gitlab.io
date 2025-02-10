@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "neovim 0.10.4-1"
-version = "0.10.4-1"
+title = "neovim 0.10.4-2"
+version = "0.10.4-2"
 description = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
-date = "2025-01-30T09:37:03"
+date = "2025-02-10T10:44:10"
 aliases = "/packages/222573"
 categories = ['apps-extra']
 upstreamurl = "https://neovim.io"
 arch = "x86_64"
-size = "6685668"
-usize = "29302354"
-sha1sum = "ad8dea15fbfd53cdaad10afa653889ac6dfb0b9e"
-depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter', 'unibilium']"
+size = "6687024"
+usize = "29302290"
+sha1sum = "cf71684970bd897f52285a161906ce1493edea44"
+depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter>=0.25.1', 'unibilium']"
 +++
 ### Description: 
 Fork of Vim aiming to improve user experience, plugins, and GUIs

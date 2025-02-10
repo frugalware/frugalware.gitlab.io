@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-gtk-wayland 1.25.1-2"
-version = "1.25.1-2"
+title = "gst1-plugins-bad-gtk-wayland 1.24.12-1"
+version = "1.24.12-1"
 description = "GStreamer Gtk Wayland plugin (Bad)."
-date = "2025-01-21T15:56:00"
+date = "2025-02-10T10:13:31"
 aliases = "/packages/221266"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "23160"
-usize = "48624"
-sha1sum = "2ef1b5d0bda11f554c86b5a72df0f826ea32addf"
-depends = "['gst1-plugins-bad>=1.25.1', 'gst1-plugins-base>=1.25.1', 'gtk+3', 'wayland']"
+size = "23024"
+usize = "47888"
+sha1sum = "2e380e9721227106ba3ad93a4e8644f058f1ef55"
+depends = "['gst1-plugins-bad>=1.24.12', 'gst1-plugins-base>=1.24.12', 'gtk+3', 'wayland']"
 +++
 ### Description: 
 GStreamer Gtk Wayland plugin (Bad).
