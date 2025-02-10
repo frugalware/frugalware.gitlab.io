@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda 12.8.0-1"
-version = "12.8.0-1"
+title = "cuda 12.8.0-2"
+version = "12.8.0-2"
 description = "NVIDIA's GPU programming toolkit"
-date = "2025-01-24T09:19:45"
+date = "2025-02-10T10:50:04"
 aliases = "/packages/221200"
 categories = ['lib-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "1420550880"
-usize = "3372275169"
-sha1sum = "605fa9cf4035da7000b1d14b2d7b0c4d85b209d4"
+size = "1409910540"
+usize = "3357368193"
+sha1sum = "4336322885ce8216697a4a3acbe04d635053f633"
 depends = "['gcc-13', 'nvidia', 'python3']"
 reverse_depends = "['cuda-tools', 'gst1-plugins-bad-cuda']"
 +++
@@ -27,7 +27,6 @@ NVIDIA's GPU programming toolkit
 * /opt/cuda/bin/cu++filt
 * /opt/cuda/bin/cuda-gdb
 * /opt/cuda/bin/cuda-gdb-minimal
-* /opt/cuda/bin/cuda-gdb-python3.12-tui
 * /opt/cuda/bin/cuda-gdbserver
 * /opt/cuda/bin/cudafe++
 * /opt/cuda/bin/cuobjdump

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda-tools 12.8.0-1"
-version = "12.8.0-1"
+title = "cuda-tools 12.8.0-2"
+version = "12.8.0-2"
 description = "NVIDIA GPU programming toolkit extra tools: nvvp, nsight"
-date = "2025-01-24T09:19:45"
+date = "2025-02-10T10:50:04"
 aliases = "/packages/220620"
 categories = ['devel-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "772674952"
+size = "772674864"
 usize = "2308332843"
-sha1sum = "6d78f3689cadbad8a1c6445f960456b12925eba3"
+sha1sum = "573f8d7c07b35cfc2ddd07cd6c59844191509891"
 depends = "['cuda', 'libjpeg6-turbo', 'openucx']"
 reverse_depends = "['opencv-cuda']"
 +++
