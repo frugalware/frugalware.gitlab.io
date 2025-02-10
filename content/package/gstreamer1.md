@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1 1.25.1-1"
-version = "1.25.1-1"
+title = "gstreamer1 1.24.12-1"
+version = "1.24.12-1"
 description = "Open Source Multimedia Framework"
-date = "2025-01-16T09:43:00"
+date = "2025-02-10T09:08:36"
 aliases = "/packages/168881"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1648980"
-usize = "10119893"
-sha1sum = "6290d210abd7dd93fe1c333d3bd70b10398f8d88"
+size = "1647796"
+usize = "9947874"
+sha1sum = "fdb4da267a73aae081a33d4f61b34a42be4fa7ec"
 depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2']"
 reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libcanberra-gst', 'nice', 'spice', 'spice-gtk', 'uget']"
 +++
@@ -94,7 +94,6 @@ Open Source Multimedia Framework
 * /usr/include/gstreamer-1.0/gst/gstevent.h
 * /usr/include/gstreamer-1.0/gst/gstformat.h
 * /usr/include/gstreamer-1.0/gst/gstghostpad.h
-* /usr/include/gstreamer-1.0/gst/gstidstr.h
 * /usr/include/gstreamer-1.0/gst/gstinfo.h
 * /usr/include/gstreamer-1.0/gst/gstiterator.h
 * /usr/include/gstreamer-1.0/gst/gstmacros.h
@@ -136,7 +135,6 @@ Open Source Multimedia Framework
 * /usr/include/gstreamer-1.0/gst/gsturi.h
 * /usr/include/gstreamer-1.0/gst/gstutils.h
 * /usr/include/gstreamer-1.0/gst/gstvalue.h
-* /usr/include/gstreamer-1.0/gst/gstvecdeque.h
 * /usr/include/gstreamer-1.0/gst/gstversion.h
 * /usr/include/gstreamer-1.0/gst/math-compat.h
 * /usr/include/gstreamer-1.0/gst/net/gstnet.h
@@ -162,34 +160,33 @@ Open Source Multimedia Framework
 * /usr/lib/gstreamer1/gstreamer-1.0/gst-plugins-doc-cache-generator
 * /usr/lib/libgstbase-1.0.so
 * /usr/lib/libgstbase-1.0.so.0
-* /usr/lib/libgstbase-1.0.so.0.2501.0
+* /usr/lib/libgstbase-1.0.so.0.2412.0
 * /usr/lib/libgstcheck-1.0.so
 * /usr/lib/libgstcheck-1.0.so.0
-* /usr/lib/libgstcheck-1.0.so.0.2501.0
+* /usr/lib/libgstcheck-1.0.so.0.2412.0
 * /usr/lib/libgstcontroller-1.0.so
 * /usr/lib/libgstcontroller-1.0.so.0
-* /usr/lib/libgstcontroller-1.0.so.0.2501.0
+* /usr/lib/libgstcontroller-1.0.so.0.2412.0
 * /usr/lib/libgstnet-1.0.so
 * /usr/lib/libgstnet-1.0.so.0
-* /usr/lib/libgstnet-1.0.so.0.2501.0
+* /usr/lib/libgstnet-1.0.so.0.2412.0
 * /usr/lib/libgstreamer-1.0.so
 * /usr/lib/libgstreamer-1.0.so.0
-* /usr/lib/libgstreamer-1.0.so.0.2501.0
+* /usr/lib/libgstreamer-1.0.so.0.2412.0
 * /usr/lib/pkgconfig/gstreamer-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-base-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-check-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-controller-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-net-1.0.pc
 * /usr/share/aclocal/gst-element-check-1.0.m4
-* /usr/share/cmake/FindGStreamer.cmake
-* /usr/share/doc/gstreamer1-1.25.1/AUTHORS
-* /usr/share/doc/gstreamer1-1.25.1/ChangeLog
-* /usr/share/doc/gstreamer1-1.25.1/COPYING
-* /usr/share/doc/gstreamer1-1.25.1/NEWS
-* /usr/share/doc/gstreamer1-1.25.1/README.md
-* /usr/share/doc/gstreamer1-1.25.1/README.static-linking
-* /usr/share/doc/gstreamer1-1.25.1/RELEASE
-* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2501.0-gdb.py
+* /usr/share/doc/gstreamer1-1.24.12/AUTHORS
+* /usr/share/doc/gstreamer1-1.24.12/ChangeLog
+* /usr/share/doc/gstreamer1-1.24.12/COPYING
+* /usr/share/doc/gstreamer1-1.24.12/NEWS
+* /usr/share/doc/gstreamer1-1.24.12/README.md
+* /usr/share/doc/gstreamer1-1.24.12/README.static-linking
+* /usr/share/doc/gstreamer1-1.24.12/RELEASE
+* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2412.0-gdb.py
 * /usr/share/gir-1.0/Gst-1.0.gir
 * /usr/share/gir-1.0/GstBase-1.0.gir
 * /usr/share/gir-1.0/GstCheck-1.0.gir
