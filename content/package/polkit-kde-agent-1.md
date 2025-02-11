@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polkit-kde-agent-1 6.2.5-2"
-version = "6.2.5-2"
+title = "polkit-kde-agent-1 6.3.0-1"
+version = "6.3.0-1"
 description = "Daemon providing a polkit authentication UI for KDE"
-date = "2025-02-02T15:27:38"
+date = "2025-02-11T14:25:28"
 aliases = "/packages/118466"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "66052"
-usize = "237345"
-sha1sum = "4cebfe78732f8adb1054d2557387781e2e7c1ffd"
+size = "67460"
+usize = "244239"
+sha1sum = "61cc63963b0366b0d7400978af6d46b71a7cde7a"
 depends = "['kcrash>=6.10.0', 'kdbusaddons>=6.10.0', 'kiconthemes>=6.10.0', 'polkit-qt6-1']"
 +++
 ### Description: 
@@ -43,6 +43,7 @@ Daemon providing a polkit authentication UI for KDE
 * /usr/share/locale/ga/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/gl/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/he/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
+* /usr/share/locale/hi/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/hr/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/hsb/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/hu/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
@@ -57,6 +58,7 @@ Daemon providing a polkit authentication UI for KDE
 * /usr/share/locale/km/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/ko/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/lt/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
+* /usr/share/locale/lv/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/mai/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/ml/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/mr/LC_MESSAGES/polkit-kde-authentication-agent-1.mo

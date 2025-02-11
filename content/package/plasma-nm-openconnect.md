@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-nm-openconnect 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-nm-openconnect 6.3.0-1"
+version = "6.3.0-1"
 description = "Openconnect Plugin for Plasma network manager"
-date = "2025-02-01T21:07:18"
+date = "2025-02-11T14:15:52"
 aliases = "/packages/218675"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139504"
-usize = "1714998"
-sha1sum = "7ec4244399f11d8fed786f4be5fab55591eb759e"
+size = "145584"
+usize = "1766376"
+sha1sum = "bb06848e5efa629a9e2f3297bbfccac3f25480b4"
 depends = "['openconnect']"
 +++
 ### Description: 
@@ -27,6 +27,7 @@ Openconnect Plugin for Plasma network manager
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/be/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
@@ -44,6 +45,7 @@ Openconnect Plugin for Plasma network manager
 * /usr/share/locale/fr/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
@@ -65,6 +67,7 @@ Openconnect Plugin for Plasma network manager
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasmanetworkmanagement_openconnectui.mo

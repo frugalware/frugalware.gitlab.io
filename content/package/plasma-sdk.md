@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-sdk 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-sdk 6.3.0-1"
+version = "6.3.0-1"
 description = "Plasma SDK"
-date = "2025-02-02T15:39:34"
+date = "2025-02-11T14:40:17"
 aliases = "/packages/218401"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "484244"
-usize = "2428537"
-sha1sum = "f84caae6ad4c4bb454693e2d3af931b7164a1c11"
-depends = "['ktexteditor>=6.10.0', 'libplasma>=6.2.5', 'plasma5support>=6.2.5']"
+size = "498948"
+usize = "2489601"
+sha1sum = "4096e5d49a2a713243d3a18b0ee44782d3bf0d94"
+depends = "['ktexteditor>=6.10.0', 'libplasma>=6.3.0', 'plasma5support>=6.3.0']"
 +++
 ### Description: 
 Plasma SDK
@@ -28,6 +28,7 @@ Plasma SDK
 * /usr/share/applications/org.kde.plasma.themeexplorer.desktop
 * /usr/share/applications/org.kde.plasmaengineexplorer.desktop
 * /usr/share/applications/org.kde.plasmoidviewer.desktop
+* /usr/share/icons/hicolor/scalable/apps/org.kde.iconexplorer.svg
 * /usr/share/kpackage/genericqml/org.kde.plasma.lookandfeelexplorer/contents/ui/FormField.qml
 * /usr/share/kpackage/genericqml/org.kde.plasma.lookandfeelexplorer/contents/ui/main.qml
 * /usr/share/kpackage/genericqml/org.kde.plasma.lookandfeelexplorer/contents/ui/MetadataEditor.qml
@@ -219,7 +220,12 @@ Plasma SDK
 * /usr/share/locale/he/LC_MESSAGES/plasmaengineexplorer.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_shell_org.kde.plasmoidviewershell.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmoidviewer.mo
+* /usr/share/locale/hi/LC_MESSAGES/cuttlefish_editorplugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/iconexplorer.mo
+* /usr/share/locale/hi/LC_MESSAGES/org.kde.plasma.lookandfeelexplorer.mo
+* /usr/share/locale/hi/LC_MESSAGES/org.kde.plasma.themeexplorer.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasmaengineexplorer.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_shell_org.kde.plasmoidviewershell.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasmoidviewer.mo
 * /usr/share/locale/hne/LC_MESSAGES/plasmoidviewer.mo
 * /usr/share/locale/hr/LC_MESSAGES/plasmaengineexplorer.mo
@@ -363,6 +369,13 @@ Plasma SDK
 * /usr/share/locale/ru/LC_MESSAGES/plasmaengineexplorer.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_shell_org.kde.plasmoidviewershell.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmoidviewer.mo
+* /usr/share/locale/sa/LC_MESSAGES/cuttlefish_editorplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/iconexplorer.mo
+* /usr/share/locale/sa/LC_MESSAGES/org.kde.plasma.lookandfeelexplorer.mo
+* /usr/share/locale/sa/LC_MESSAGES/org.kde.plasma.themeexplorer.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasmaengineexplorer.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_shell_org.kde.plasmoidviewershell.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasmoidviewer.mo
 * /usr/share/locale/se/LC_MESSAGES/plasmaengineexplorer.mo
 * /usr/share/locale/si/LC_MESSAGES/plasmaengineexplorer.mo
 * /usr/share/locale/si/LC_MESSAGES/plasmoidviewer.mo
@@ -460,12 +473,14 @@ Plasma SDK
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmaengineexplorer.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_shell_org.kde.plasmoidviewershell.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmoidviewer.mo
+* /usr/share/man/ca/man1/kqml.1.gz
 * /usr/share/man/ca/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/ca/man1/plasmoidviewer.1.gz
 * /usr/share/man/de/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/de/man1/plasmoidviewer.1.gz
 * /usr/share/man/el/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/el/man1/plasmoidviewer.1.gz
+* /usr/share/man/es/man1/kqml.1.gz
 * /usr/share/man/es/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/es/man1/plasmoidviewer.1.gz
 * /usr/share/man/et/man1/plasmaengineexplorer.1.gz
@@ -474,11 +489,13 @@ Plasma SDK
 * /usr/share/man/fr/man1/plasmoidviewer.1.gz
 * /usr/share/man/id/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/id/man1/plasmoidviewer.1.gz
+* /usr/share/man/it/man1/kqml.1.gz
 * /usr/share/man/it/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/it/man1/plasmoidviewer.1.gz
 * /usr/share/man/man1/kqml.1.gz
 * /usr/share/man/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/man1/plasmoidviewer.1.gz
+* /usr/share/man/nl/man1/kqml.1.gz
 * /usr/share/man/nl/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/nl/man1/plasmoidviewer.1.gz
 * /usr/share/man/pt/man1/plasmaengineexplorer.1.gz
@@ -493,6 +510,7 @@ Plasma SDK
 * /usr/share/man/sv/man1/plasmoidviewer.1.gz
 * /usr/share/man/tr/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/tr/man1/plasmoidviewer.1.gz
+* /usr/share/man/uk/man1/kqml.1.gz
 * /usr/share/man/uk/man1/plasmaengineexplorer.1.gz
 * /usr/share/man/uk/man1/plasmoidviewer.1.gz
 * /usr/share/metainfo/org.kde.plasma.iconexplorer.appdata.xml

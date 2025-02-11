@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oxygen 6.2.5-2"
-version = "6.2.5-2"
+title = "oxygen 6.3.0-1"
+version = "6.3.0-1"
 description = "KDE Oxygen style."
-date = "2025-02-02T15:38:34"
+date = "2025-02-11T14:38:54"
 aliases = "/packages/218391"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3142812"
-usize = "19089319"
-sha1sum = "d557548cdc74d3e971b5f058298f77de9ea6ec3a"
-depends = "['frameworkintegration>=6.10.0', 'kwin>=6.2.5']"
+size = "3140864"
+usize = "19093720"
+sha1sum = "de8b47b7d2b2dc47b4122ecabcc4d21b806319f9"
+depends = "['frameworkintegration>=6.10.0', 'kwin>=6.3.0']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ KDE Oxygen style.
 * /usr/bin/oxygen-demo6
 * /usr/bin/oxygen-settings6
 * /usr/lib/liboxygenstyle6.so.6
-* /usr/lib/liboxygenstyle6.so.6.2.5
+* /usr/lib/liboxygenstyle6.so.6.3.0
 * /usr/lib/liboxygenstyleconfig6.so.6
-* /usr/lib/liboxygenstyleconfig6.so.6.2.5
+* /usr/lib/liboxygenstyleconfig6.so.6.3.0
 * /usr/lib/qt6/plugins/kstyle_config/kstyle_oxygen_config.so
-* /usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/kcm_oxygendecoration.so
-* /usr/lib/qt6/plugins/org.kde.kdecoration2/org.kde.oxygen.so
+* /usr/lib/qt6/plugins/org.kde.kdecoration3.kcm/kcm_oxygendecoration.so
+* /usr/lib/qt6/plugins/org.kde.kdecoration3/org.kde.oxygen.so
 * /usr/lib/qt6/plugins/styles/oxygen6.so
 * /usr/share/applications/kcm_oxygendecoration.desktop
 * /usr/share/color-schemes/Oxygen.colors
@@ -618,6 +618,8 @@ KDE Oxygen style.
 * /usr/share/locale/he/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/he/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/he/LC_MESSAGES/oxygen_style_demo.mo
+* /usr/share/locale/hi/LC_MESSAGES/liboxygenstyleconfig.mo
+* /usr/share/locale/hi/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/hi/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/hi/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/locale/hne/LC_MESSAGES/oxygen_style_config.mo
@@ -732,6 +734,10 @@ KDE Oxygen style.
 * /usr/share/locale/ru/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/ru/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/ru/LC_MESSAGES/oxygen_style_demo.mo
+* /usr/share/locale/sa/LC_MESSAGES/liboxygenstyleconfig.mo
+* /usr/share/locale/sa/LC_MESSAGES/oxygen_kdecoration.mo
+* /usr/share/locale/sa/LC_MESSAGES/oxygen_style_config.mo
+* /usr/share/locale/sa/LC_MESSAGES/oxygen_style_demo.mo
 * /usr/share/locale/se/LC_MESSAGES/oxygen_kdecoration.mo
 * /usr/share/locale/se/LC_MESSAGES/oxygen_style_config.mo
 * /usr/share/locale/se/LC_MESSAGES/oxygen_style_demo.mo

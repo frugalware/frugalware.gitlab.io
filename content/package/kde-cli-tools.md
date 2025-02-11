@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-cli-tools 6.2.5-2"
-version = "6.2.5-2"
+title = "kde-cli-tools 6.3.0-1"
+version = "6.3.0-1"
 description = "Tools based on KDE Frameworks 5 to better interact with the system."
-date = "2025-02-01T21:08:35"
+date = "2025-02-11T14:17:31"
 aliases = "/packages/218291"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "836168"
-usize = "3824403"
-sha1sum = "e0a93d5b9d65b9de31c48baa7e22d164e060a8f4"
-depends = "['kcmutils>=6.10.0', 'kdesu>=6.10.0', 'plasma-workspace>=6.2.5']"
+size = "843684"
+usize = "3889234"
+sha1sum = "4c54c260784f664d7eb3be0acdaaf9ac8cf63ef6"
+depends = "['kcmutils>=6.10.0', 'kdesu>=6.10.0', 'plasma-workspace>=6.3.0']"
 +++
 ### Description: 
 Tools based on KDE Frameworks 5 to better interact with the system.
@@ -315,11 +315,14 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/he/LC_MESSAGES/kmimetypefinder.mo
 * /usr/share/locale/he/LC_MESSAGES/kstart.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma-open-settings.mo
+* /usr/share/locale/hi/LC_MESSAGES/kbroadcastnotification.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/hi/LC_MESSAGES/kde-inhibit.mo
 * /usr/share/locale/hi/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/hi/LC_MESSAGES/kioclient.mo
 * /usr/share/locale/hi/LC_MESSAGES/kmimetypefinder.mo
 * /usr/share/locale/hi/LC_MESSAGES/kstart.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma-open-settings.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_filetypes.mo
 * /usr/share/locale/hne/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/hne/LC_MESSAGES/kioclient.mo
@@ -422,11 +425,14 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/lt/LC_MESSAGES/kmimetypefinder.mo
 * /usr/share/locale/lt/LC_MESSAGES/kstart.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma-open-settings.mo
+* /usr/share/locale/lv/LC_MESSAGES/kbroadcastnotification.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/lv/LC_MESSAGES/kde-inhibit.mo
 * /usr/share/locale/lv/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/lv/LC_MESSAGES/kioclient.mo
 * /usr/share/locale/lv/LC_MESSAGES/kmimetypefinder.mo
 * /usr/share/locale/lv/LC_MESSAGES/kstart.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma-open-settings.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_filetypes.mo
 * /usr/share/locale/mai/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/mai/LC_MESSAGES/kioclient.mo
@@ -536,6 +542,14 @@ Tools based on KDE Frameworks 5 to better interact with the system.
 * /usr/share/locale/ru/LC_MESSAGES/kmimetypefinder.mo
 * /usr/share/locale/ru/LC_MESSAGES/kstart.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma-open-settings.mo
+* /usr/share/locale/sa/LC_MESSAGES/kbroadcastnotification.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_filetypes.mo
+* /usr/share/locale/sa/LC_MESSAGES/kde-inhibit.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdesu.mo
+* /usr/share/locale/sa/LC_MESSAGES/kioclient.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmimetypefinder.mo
+* /usr/share/locale/sa/LC_MESSAGES/kstart.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma-open-settings.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_filetypes.mo
 * /usr/share/locale/se/LC_MESSAGES/kdesu.mo
 * /usr/share/locale/se/LC_MESSAGES/kioclient.mo

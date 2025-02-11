@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wacomtablet 6.2.5-2"
-version = "6.2.5-2"
+title = "wacomtablet 6.3.0-1"
+version = "6.3.0-1"
 description = "GUI for Wacom Linux drivers that supports different button/pen layout profiles"
-date = "2025-02-02T15:37:18"
+date = "2025-02-11T14:37:13"
 aliases = "/packages/221410"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "792732"
-usize = "2696507"
-sha1sum = "76a8ea2ca6194681bae6ae6eb1b55f0441cc8f3c"
-depends = "['kcmutils>=6.10.0', 'kdbusaddons>=6.10.0', 'kglobalaccel>=6.10.0', 'kio>=6.10.0', 'knotifications>=6.10.0', 'kwidgetsaddons>=6.10.0', 'kwindowsystem>=6.10.0', 'kxmlgui>=6.10.0', 'libplasma>=6.2.5', 'plasma5support>=6.2.5', 'xf86-input-wacom']"
+size = "799032"
+usize = "2746075"
+sha1sum = "42a05bf3cffabff709b7f1e6c988cece0a435118"
+depends = "['kcmutils>=6.10.0', 'kdbusaddons>=6.10.0', 'kglobalaccel>=6.10.0', 'kio>=6.10.0', 'knotifications>=6.10.0', 'kwidgetsaddons>=6.10.0', 'kwindowsystem>=6.10.0', 'kxmlgui>=6.10.0', 'libplasma>=6.3.0', 'plasma5support>=6.3.0', 'xf86-input-wacom']"
 +++
 ### Description: 
 GUI for Wacom Linux drivers that supports different button/pen layout profiles
@@ -54,9 +54,9 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/doc/HTML/uk/kcontrol/wacomtablet/tabletarea.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.docbook
-* /usr/share/doc/wacomtablet-6.2.5/AUTHORS
-* /usr/share/doc/wacomtablet-6.2.5/COPYING
-* /usr/share/doc/wacomtablet-6.2.5/README.md
+* /usr/share/doc/wacomtablet-6.3.0/AUTHORS
+* /usr/share/doc/wacomtablet-6.3.0/COPYING
+* /usr/share/doc/wacomtablet-6.3.0/README.md
 * /usr/share/knotifications6/wacomtablet.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/ar/LC_MESSAGES/wacomtablet.mo
@@ -97,6 +97,8 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/locale/gl/LC_MESSAGES/wacomtablet.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/he/LC_MESSAGES/wacomtablet.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
+* /usr/share/locale/hi/LC_MESSAGES/wacomtablet.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/hu/LC_MESSAGES/wacomtablet.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
@@ -135,6 +137,8 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/locale/ro/LC_MESSAGES/wacomtablet.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/ru/LC_MESSAGES/wacomtablet.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
+* /usr/share/locale/sa/LC_MESSAGES/wacomtablet.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/sk/LC_MESSAGES/wacomtablet.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
