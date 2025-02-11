@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libproxy-python3 0.5.9-2"
-version = "0.5.9-2"
+title = "libproxy-python3 0.5.9-3"
+version = "0.5.9-3"
 description = "libproxy python3 binding"
-date = "2024-10-16T09:01:01"
+date = "2025-02-11T18:25:05"
 aliases = "/packages/220411"
 categories = ['xlib']
 upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
-size = "4240"
+size = "4288"
 usize = "0"
-sha1sum = "c2ab5470a176a6f175b074cb52345fedeecfc9ff"
+sha1sum = "d5b854f172859adcee919b40ce8267708b31e24c"
 depends = "['libproxy>=0.5.9', 'python3>=3.11']"
 +++
 ### Description: 

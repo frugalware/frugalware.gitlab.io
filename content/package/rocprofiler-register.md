@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocprofiler-register 6.3.1-1"
-version = "6.3.1-1"
+title = "rocprofiler-register 6.3.2-1"
+version = "6.3.2-1"
 description = "ROC profiler library. Coordinates the modification of the intercept API table"
-date = "2024-12-29T20:27:00"
+date = "2025-02-11T18:19:21"
 aliases = "/packages/221586"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/rocprofiler-register"
 arch = "x86_64"
-size = "150576"
-usize = "479377"
-sha1sum = "16e0f03557f2133653913391995352ff73a88113"
+size = "149140"
+usize = "475044"
+sha1sum = "8ff1a6fa88f5df16eb5fa0168f4accd9641c35eb"
 depends = "['libstdc++']"
 reverse_depends = "['hip-runtime-amd']"
 +++
@@ -55,6 +55,6 @@ ROC profiler library. Coordinates the modification of the intercept API table
 * /opt/rocm/share/rocprofiler-register/tests/test-amdhip-hsart-roctx.cpp
 * /opt/rocm/share/rocprofiler-register/tests/test-amdhip-roctx-mt.cpp
 * /opt/rocm/share/rocprofiler-register/tests/test-amdhip-roctx.cpp
-* /usr/share/doc/rocprofiler-register-6.3.1/LICENSE
-* /usr/share/doc/rocprofiler-register-6.3.1/README.md
-* /usr/share/doc/rocprofiler-register-6.3.1/VERSION
+* /usr/share/doc/rocprofiler-register-6.3.2/LICENSE
+* /usr/share/doc/rocprofiler-register-6.3.2/README.md
+* /usr/share/doc/rocprofiler-register-6.3.2/VERSION
