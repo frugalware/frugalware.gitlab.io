@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-wrapt 1.17.0-1"
-version = "1.17.0-1"
+title = "python3-wrapt 1.17.2-1"
+version = "1.17.2-1"
 description = "A Python module for decorators, wrappers and monkey patching"
-date = "2024-12-24T12:37:41"
+date = "2025-02-11T11:57:40"
 aliases = "/packages/219612"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/wrapt"
 arch = "x86_64"
-size = "49344"
-usize = "201799"
-sha1sum = "5c6edc20e8c8525540ebb6bf0759b7ee4d04c369"
+size = "49384"
+usize = "201851"
+sha1sum = "9ebe9aab10c5bdf80a61a9d01664861410a92455"
 depends = "['python3']"
 reverse_depends = "['lutris', 'python3-astroid']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['lutris', 'python3-astroid']"
 A Python module for decorators, wrappers and monkey patching
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/wrapt-1.17.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/wrapt-1.17.0-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/wrapt-1.17.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/wrapt-1.17.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/wrapt-1.17.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/wrapt-1.17.2-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/wrapt-1.17.2-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/wrapt-1.17.2-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/wrapt-1.17.2-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/wrapt-1.17.2-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/wrapt/arguments.py
 * /usr/lib/python3.13/site-packages/wrapt/decorators.py
 * /usr/lib/python3.13/site-packages/wrapt/importer.py
@@ -40,5 +40,5 @@ A Python module for decorators, wrappers and monkey patching
 * /usr/lib/python3.13/site-packages/wrapt/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wrapt/__pycache__/__wrapt__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wrapt/__wrapt__.py
-* /usr/share/doc/python3-wrapt-1.17.0/LICENSE
-* /usr/share/doc/python3-wrapt-1.17.0/README.rst
+* /usr/share/doc/python3-wrapt-1.17.2/LICENSE
+* /usr/share/doc/python3-wrapt-1.17.2/README.rst

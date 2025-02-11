@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-ytmusicapi 1.9.0-1"
-version = "1.9.0-1"
+title = "python3-ytmusicapi 1.10.1-1"
+version = "1.10.1-1"
 description = "Unofficial API for YouTube Music"
-date = "2024-12-24T12:41:00"
+date = "2025-02-11T12:08:30"
 aliases = "/packages/220962"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/ytmusicapi"
 arch = "x86_64"
-size = "132704"
-usize = "793367"
-sha1sum = "c8d57d7dead955352b975de97afe514ba62d0517"
+size = "135144"
+usize = "808901"
+sha1sum = "c87aefc82d5fe23667ced5c939b3083101a72574"
 depends = "['python3-requests']"
 reverse_depends = "['audiotube']"
 +++
@@ -19,12 +19,13 @@ Unofficial API for YouTube Music
 
 ### Files: 
 * /usr/bin/ytmusicapi
-* /usr/lib/python3.13/site-packages/ytmusicapi-1.9.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/ytmusicapi-1.9.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/ytmusicapi-1.9.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/ytmusicapi-1.9.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/ytmusicapi-1.9.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/ytmusicapi-1.9.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/ytmusicapi-1.10.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/ytmusicapi-1.10.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/ytmusicapi-1.10.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/ytmusicapi-1.10.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/ytmusicapi-1.10.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/ytmusicapi-1.10.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/ytmusicapi/auth/auth_parse.py
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/browser.py
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/oauth/credentials.py
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/oauth/exceptions.py
@@ -43,6 +44,8 @@ Unofficial API for YouTube Music
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/oauth/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/types.py
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/__init__.py
+* /usr/lib/python3.13/site-packages/ytmusicapi/auth/__pycache__/auth_parse.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/ytmusicapi/auth/__pycache__/auth_parse.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/__pycache__/browser.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/__pycache__/browser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/ytmusicapi/auth/__pycache__/types.cpython-313.opt-1.pyc
@@ -171,5 +174,5 @@ Unofficial API for YouTube Music
 * /usr/lib/python3.13/site-packages/ytmusicapi/__pycache__/ytmusic.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/ytmusicapi/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/ytmusicapi/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-ytmusicapi-1.9.0/LICENSE
-* /usr/share/doc/python3-ytmusicapi-1.9.0/README.rst
+* /usr/share/doc/python3-ytmusicapi-1.10.1/LICENSE
+* /usr/share/doc/python3-ytmusicapi-1.10.1/README.rst

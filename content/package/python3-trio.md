@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-trio 0.27.0-1"
-version = "0.27.0-1"
+title = "python3-trio 0.28.0-1"
+version = "0.28.0-1"
 description = "A friendly Python library for async concurrency and I/O"
-date = "2024-11-03T10:53:03"
+date = "2025-02-11T11:53:16"
 aliases = "/packages/221145"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/trio"
 arch = "x86_64"
-size = "924620"
-usize = "5832292"
-sha1sum = "8512dbced33c29162df66dd675277bf440b331c4"
+size = "938496"
+usize = "5915347"
+sha1sum = "87be3575b9cc417d89f769118a09eda375088f5a"
 depends = "['python3-async_generator', 'python3-attrs', 'python3-exceptiongroup', 'python3-idna', 'python3-outcome', 'python3-sniffio', 'python3-sortedcontainers']"
 reverse_depends = "['python3-pyfuse3', 'python3-selenium', 'python3-trio-websocket']"
 +++
@@ -18,14 +18,14 @@ reverse_depends = "['python3-pyfuse3', 'python3-selenium', 'python3-trio-websock
 A friendly Python library for async concurrency and I/O
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/LICENSE.APACHE2
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/LICENSE.MIT
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/trio-0.27.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/LICENSE.APACHE2
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/LICENSE.MIT
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/trio/abc.py
 * /usr/lib/python3.13/site-packages/trio/from_thread.py
 * /usr/lib/python3.13/site-packages/trio/lowlevel.py
@@ -80,6 +80,7 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.13/site-packages/trio/_core/_mock_clock.py
 * /usr/lib/python3.13/site-packages/trio/_core/_parking_lot.py
 * /usr/lib/python3.13/site-packages/trio/_core/_run.py
+* /usr/lib/python3.13/site-packages/trio/_core/_run_context.py
 * /usr/lib/python3.13/site-packages/trio/_core/_tests/test_asyncgen.py
 * /usr/lib/python3.13/site-packages/trio/_core/_tests/test_exceptiongroup_gc.py
 * /usr/lib/python3.13/site-packages/trio/_core/_tests/test_guest_mode.py
@@ -178,6 +179,8 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_parking_lot.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_run.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_run.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_run_context.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_run_context.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_thread_cache.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_thread_cache.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/trio/_core/__pycache__/_traps.cpython-313.opt-1.pyc
@@ -219,6 +222,7 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.13/site-packages/trio/_subprocess_platform/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/trio/_subprocess_platform/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/trio/_sync.py
+* /usr/lib/python3.13/site-packages/trio/_tests/astrill-codesigning-cert.cer
 * /usr/lib/python3.13/site-packages/trio/_tests/check_type_completeness.py
 * /usr/lib/python3.13/site-packages/trio/_tests/module_with_deprecations.py
 * /usr/lib/python3.13/site-packages/trio/_tests/pytest_plugin.py
@@ -441,5 +445,5 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.13/site-packages/trio/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/trio/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/trio/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-trio-0.27.0/LICENSE
-* /usr/share/doc/python3-trio-0.27.0/README.rst
+* /usr/share/doc/python3-trio-0.28.0/LICENSE
+* /usr/share/doc/python3-trio-0.28.0/README.rst
