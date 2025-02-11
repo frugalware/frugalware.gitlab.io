@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2-compat 2.30.54-1"
-version = "2.30.54-1"
+title = "sdl2-compat 2.32.50-1"
+version = "2.32.50-1"
 description = "An SDL2 compatibility layer that uses SDL3 behind the scenes."
-date = "2025-02-07T21:31:52"
+date = "2025-02-11T09:43:59"
 aliases = "/packages/222620"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "393684"
-usize = "2894733"
-sha1sum = "f38d0ba6291a6bde85ad98792388567d4881b7d0"
+size = "393928"
+usize = "2894957"
+sha1sum = "6b34b3ddba0213ae0b96e733e323f3f7fcbb275c"
 depends = "['sdl3']"
 +++
 ### Description: 
@@ -120,10 +120,10 @@ An SDL2 compatibility layer that uses SDL3 behind the scenes.
 * /usr/lib/cmake/SDL2/SDL2_testTargets.cmake
 * /usr/lib/libSDL2-2.0.so
 * /usr/lib/libSDL2-2.0.so.0
-* /usr/lib/libSDL2-2.0.so.0.3000.54
+* /usr/lib/libSDL2-2.0.so.0.3200.50
 * /usr/lib/libSDL2.so
 * /usr/lib/pkgconfig/sdl2_compat.pc
 * /usr/share/aclocal/sdl2.m4
-* /usr/share/doc/sdl2-compat-2.30.54/BUGS.md
-* /usr/share/doc/sdl2-compat-2.30.54/README.md
+* /usr/share/doc/sdl2-compat-2.32.50/BUGS.md
+* /usr/share/doc/sdl2-compat-2.32.50/README.md
 * /usr/share/licenses/sdl2-compat/LICENSE.txt

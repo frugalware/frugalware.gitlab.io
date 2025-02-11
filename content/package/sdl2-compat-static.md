@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl2-compat-static 2.30.54-1"
-version = "2.30.54-1"
+title = "sdl2-compat-static 2.32.50-1"
+version = "2.32.50-1"
 description = "Static files for sdl2-compat"
-date = "2025-02-07T21:31:52"
+date = "2025-02-11T09:43:59"
 aliases = "/packages/222624"
 categories = ['devel-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "299468"
-usize = "366356"
-sha1sum = "9b079b111644ad2ca1cd76ad49449733eedd8951"
+size = "299424"
+usize = "366268"
+sha1sum = "d630491361d66e3fdd2dc408b2fb6c243fda0040"
 depends = "[]"
 +++
 ### Description: 
