@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "multipath-tools 0.11.0-1"
-version = "0.11.0-1"
+title = "multipath-tools 0.11.1-1"
+version = "0.11.1-1"
 description = "Device mapper target autoconfig"
-date = "2025-01-24T07:17:33"
+date = "2025-02-11T09:10:24"
 aliases = "/packages/218697"
 categories = ['base']
 upstreamurl = "http://christophe.varoqui.free.fr"
 arch = "x86_64"
-size = "359516"
-usize = "1063947"
-sha1sum = "16ab8f69f3f31ecb806e09a8fceea17b08532172"
+size = "359540"
+usize = "1065099"
+sha1sum = "1340340a0c3b6846cf9c21f124e6d011f72921da"
 depends = "['json-c>=0.14', 'libaio>=0.3.110-5', 'libsystemd>=242', 'libudev>=242', 'liburcu>=0.13', 'lvm2>=2.03', 'readline>=8.0']"
 reverse_depends = "['dracut']"
 +++
@@ -72,8 +72,8 @@ Device mapper target autoconfig
 * /usr/lib/udev/rules.d/66-kpartx.rules
 * /usr/lib/udev/rules.d/68-del-part-nodes.rules
 * /usr/lib/udev/rules.d/99-z-dm-mpath-late.rules
-* /usr/share/doc/multipath-tools-0.11.0/COPYING
-* /usr/share/doc/multipath-tools-0.11.0/README.md
+* /usr/share/doc/multipath-tools-0.11.1/COPYING
+* /usr/share/doc/multipath-tools-0.11.1/README.md
 * /usr/share/man/man3/dmmp_context_free.3.gz
 * /usr/share/man/man3/dmmp_context_log_func_set.3.gz
 * /usr/share/man/man3/dmmp_context_log_priority_get.3.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-zlib-ng 2.2.3-5"
-version = "2.2.3-5"
+title = "lib32-zlib-ng 2.2.4-1"
+version = "2.2.4-1"
 description = "zlib replacement with optimizations for 'next generation' systems. ( 32bit )"
-date = "2025-02-03T16:22:28"
+date = "2025-02-11T09:08:59"
 aliases = "/packages/222614"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/zlib-ng/zlib-ng"
 arch = "x86_64"
-size = "122600"
-usize = "332222"
-sha1sum = "60b79e7545cd9921c45533e0ec2397351b7942bd"
+size = "123540"
+usize = "335486"
+sha1sum = "430c484c8e137d64cd63c75bf3fcf062367c3702"
 depends = "[]"
 reverse_depends = "['lib32-cracklib', 'lib32-elfutils', 'lib32-file', 'lib32-glib2', 'lib32-libarchive', 'lib32-libssh2', 'lib32-nss', 'lib32-pcre', 'lib32-pcre2', 'lib32-zstd']"
 +++
