@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-keyring 25.5.0-1"
-version = "25.5.0-1"
+title = "python3-keyring 25.6.0-1"
+version = "25.6.0-1"
 description = "Store and access your passwords safely"
-date = "2024-12-24T11:43:40"
+date = "2025-02-11T10:33:07"
 aliases = "/packages/221166"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/keyring"
 arch = "x86_64"
-size = "66688"
-usize = "368950"
-sha1sum = "2cf8f9537dc486a57149697ffd020d2ffa13ebe5"
+size = "66680"
+usize = "368765"
+sha1sum = "30b63b37d0797e96068799335493f79b3571917d"
 depends = "['python3-importlib-metadata', 'python3-jaraco.classes', 'python3-secretstorage']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -19,12 +19,12 @@ Store and access your passwords safely
 
 ### Files: 
 * /usr/bin/keyring
-* /usr/lib/python3.13/site-packages/keyring-25.5.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/keyring-25.5.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/keyring-25.5.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/keyring-25.5.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/keyring-25.5.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/keyring-25.5.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/keyring-25.6.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/keyring-25.6.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/keyring-25.6.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/keyring-25.6.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/keyring-25.6.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/keyring-25.6.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/keyring/backend.py
 * /usr/lib/python3.13/site-packages/keyring/backends/chainer.py
 * /usr/lib/python3.13/site-packages/keyring/backends/fail.py
@@ -115,5 +115,5 @@ Store and access your passwords safely
 * /usr/lib/python3.13/site-packages/keyring/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/keyring/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/keyring/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-keyring-25.5.0/LICENSE
-* /usr/share/doc/python3-keyring-25.5.0/README.rst
+* /usr/share/doc/python3-keyring-25.6.0/LICENSE
+* /usr/share/doc/python3-keyring-25.6.0/README.rst

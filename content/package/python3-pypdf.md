@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pypdf 5.1.0-1"
-version = "5.1.0-1"
+title = "python3-pypdf 5.3.0-1"
+version = "5.3.0-1"
 description = "Python library for manipulating pages of PDF files"
-date = "2024-11-13T17:44:20"
+date = "2025-02-11T10:47:31"
 aliases = "/packages/222577"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pypdf"
 arch = "x86_64"
-size = "588072"
-usize = "4279179"
-sha1sum = "2f73fe269bfd698c573a501df1a4fcf468e7bcd5"
+size = "591444"
+usize = "4316750"
+sha1sum = "e09a3182ef51ec6863e7bb29fc4de2e7756a5dfb"
 depends = "['python3']"
 reverse_depends = "['alpaca']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['alpaca']"
 Python library for manipulating pages of PDF files
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pypdf-5.1.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/pypdf-5.1.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pypdf-5.1.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pypdf-5.1.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pypdf-5.3.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/pypdf-5.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pypdf-5.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pypdf-5.3.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pypdf/annotations/_base.py
 * /usr/lib/python3.13/site-packages/pypdf/annotations/_markup_annotations.py
 * /usr/lib/python3.13/site-packages/pypdf/annotations/_non_markup_annotations.py
@@ -39,6 +39,7 @@ Python library for manipulating pages of PDF files
 * /usr/lib/python3.13/site-packages/pypdf/filters.py
 * /usr/lib/python3.13/site-packages/pypdf/generic/_base.py
 * /usr/lib/python3.13/site-packages/pypdf/generic/_data_structures.py
+* /usr/lib/python3.13/site-packages/pypdf/generic/_files.py
 * /usr/lib/python3.13/site-packages/pypdf/generic/_fit.py
 * /usr/lib/python3.13/site-packages/pypdf/generic/_image_inline.py
 * /usr/lib/python3.13/site-packages/pypdf/generic/_outline.py
@@ -50,6 +51,8 @@ Python library for manipulating pages of PDF files
 * /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_base.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_data_structures.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_data_structures.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_files.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_files.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_fit.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_fit.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pypdf/generic/__pycache__/_image_inline.cpython-313.opt-1.pyc
@@ -179,5 +182,5 @@ Python library for manipulating pages of PDF files
 * /usr/lib/python3.13/site-packages/pypdf/__pycache__/_xobj_image_helpers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pypdf/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pypdf/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pypdf-5.1.0/LICENSE
-* /usr/share/doc/python3-pypdf-5.1.0/README.md
+* /usr/share/doc/python3-pypdf-5.3.0/LICENSE
+* /usr/share/doc/python3-pypdf-5.3.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-cachecontrol 0.14.1-1"
-version = "0.14.1-1"
+title = "python3-cachecontrol 0.14.2-1"
+version = "0.14.2-1"
 description = "httplib2 caching for requests"
-date = "2024-12-24T10:21:02"
+date = "2025-02-11T10:18:40"
 aliases = "/packages/221112"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cachecontrol"
 arch = "x86_64"
-size = "36536"
-usize = "176505"
-sha1sum = "1c909f4907d392bf9d19511fa05e9c8eee9e80e2"
+size = "36180"
+usize = "175483"
+sha1sum = "ce5b1934928b1dcb5b56f059ee9559104b65a73b"
 depends = "['python3-filelock', 'python3-msgpack', 'python3-requests', 'python3-urllib3']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -19,11 +19,11 @@ httplib2 caching for requests
 
 ### Files: 
 * /usr/bin/doesitcache
-* /usr/lib/python3.13/site-packages/cachecontrol-0.14.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/cachecontrol-0.14.1.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/cachecontrol-0.14.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/cachecontrol-0.14.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/cachecontrol-0.14.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/cachecontrol-0.14.2.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/cachecontrol-0.14.2.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/cachecontrol-0.14.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/cachecontrol-0.14.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/cachecontrol-0.14.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/cachecontrol/adapter.py
 * /usr/lib/python3.13/site-packages/cachecontrol/cache.py
 * /usr/lib/python3.13/site-packages/cachecontrol/caches/file_cache.py
@@ -61,4 +61,4 @@ httplib2 caching for requests
 * /usr/lib/python3.13/site-packages/cachecontrol/__pycache__/_cmd.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/cachecontrol/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/cachecontrol/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-cachecontrol-0.14.1/README.rst
+* /usr/share/doc/python3-cachecontrol-0.14.2/README.rst

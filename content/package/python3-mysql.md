@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "python3-mysql 2.2.6-1"
-version = "2.2.6-1"
+title = "python3-mysql 2.2.7-1"
+version = "2.2.7-1"
 description = "A brunch of tools for developing python applications"
-date = "2024-12-24T11:49:51"
+date = "2025-02-11T10:40:58"
 aliases = "/packages/221001"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/mysqlclient"
 arch = "x86_64"
-size = "81020"
-usize = "342320"
-sha1sum = "57d684e30f7b83fa2cd90bf6e86f1ae09f4a45a0"
+size = "81436"
+usize = "343383"
+sha1sum = "5cd5cd4111f02f6a8f9bd574f22b7f5705a1cf65"
 depends = "['python3']"
 +++
 ### Description: 
 A brunch of tools for developing python applications
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/mysqlclient-2.2.6-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/mysqlclient-2.2.6-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/mysqlclient-2.2.6-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/mysqlclient-2.2.6-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/mysqlclient-2.2.7-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/mysqlclient-2.2.7-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/mysqlclient-2.2.7-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/mysqlclient-2.2.7-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/MySQLdb/connections.py
 * /usr/lib/python3.13/site-packages/MySQLdb/constants/CLIENT.py
 * /usr/lib/python3.13/site-packages/MySQLdb/constants/CR.py
@@ -49,5 +49,5 @@ A brunch of tools for developing python applications
 * /usr/lib/python3.13/site-packages/MySQLdb/__pycache__/times.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/MySQLdb/__pycache__/_exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/MySQLdb/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-mysql-2.2.6/LICENSE
-* /usr/share/doc/python3-mysql-2.2.6/README.md
+* /usr/share/doc/python3-mysql-2.2.7/LICENSE
+* /usr/share/doc/python3-mysql-2.2.7/README.md

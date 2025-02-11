@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-auditwheel 6.1.0-2"
-version = "6.1.0-2"
+title = "python3-auditwheel 6.2.0-1"
+version = "6.2.0-1"
 description = "Auditing and relabeling cross-distribution Linux wheels"
-date = "2024-11-17T15:58:59"
+date = "2025-02-11T10:17:33"
 aliases = "/packages/222585"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/auditwheel"
 arch = "x86_64"
-size = "72640"
-usize = "331086"
-sha1sum = "78983774030fb94f9fb110a6bfb40020818b7991"
+size = "73988"
+usize = "336269"
+sha1sum = "d1952b3a86d37684f855067d43788a784d13f0e8"
 depends = "['patchelf', 'python3-pyelftools', 'python3-wheel', 'unzip']"
 +++
 ### Description: 
@@ -18,13 +18,13 @@ Auditing and relabeling cross-distribution Linux wheels
 
 ### Files: 
 * /usr/bin/auditwheel
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/auditwheel-6.1.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/auditwheel-6.2.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/auditwheel/condatools.py
 * /usr/lib/python3.13/site-packages/auditwheel/elfutils.py
 * /usr/lib/python3.13/site-packages/auditwheel/error.py
@@ -77,5 +77,5 @@ Auditing and relabeling cross-distribution Linux wheels
 * /usr/lib/python3.13/site-packages/auditwheel/__pycache__/wheel_abi.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/auditwheel/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/auditwheel/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-auditwheel-6.1.0/LICENSE
-* /usr/share/doc/python3-auditwheel-6.1.0/README.rst
+* /usr/share/doc/python3-auditwheel-6.2.0/LICENSE
+* /usr/share/doc/python3-auditwheel-6.2.0/README.rst

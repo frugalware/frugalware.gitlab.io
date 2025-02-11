@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pytz 2024.2-1"
-version = "2024.2-1"
+title = "python3-pytz 2025.1-1"
+version = "2025.1-1"
 description = "World Timezone Definitions for Python"
-date = "2024-11-02T17:03:30"
+date = "2025-02-11T10:48:12"
 aliases = "/packages/220033"
 categories = ['devel-extra']
 upstreamurl = "http://pythoinhosted.org/pytz/"
 arch = "x86_64"
-size = "151132"
-usize = "1061837"
-sha1sum = "714bef572b83a4a0d93f50b85aadbfd0dd3e3d83"
+size = "151336"
+usize = "1061728"
+sha1sum = "41a17e4f8fa7f41925d60d7e71e567c59fa83abc"
 depends = "['python3>=3.13']"
 reverse_depends = "['python3-babel', 'python3-pillow']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-babel', 'python3-pillow']"
 World Timezone Definitions for Python
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pytz-2024.2-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pytz-2024.2-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pytz-2024.2-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pytz-2024.2-py3.13.egg-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pytz-2024.2-py3.13.egg-info/zip-safe
+* /usr/lib/python3.13/site-packages/pytz-2025.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pytz-2025.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pytz-2025.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pytz-2025.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pytz-2025.1-py3.13.egg-info/zip-safe
 * /usr/lib/python3.13/site-packages/pytz/exceptions.py
 * /usr/lib/python3.13/site-packages/pytz/lazy.py
 * /usr/lib/python3.13/site-packages/pytz/reference.py
@@ -638,4 +638,4 @@ World Timezone Definitions for Python
 * /usr/lib/python3.13/site-packages/pytz/__pycache__/tzfile.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pytz/__pycache__/tzinfo.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pytz/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pytz-2024.2/README.rst
+* /usr/share/doc/python3-pytz-2025.1/README.rst

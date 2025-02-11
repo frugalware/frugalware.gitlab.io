@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-peewee 3.17.8-1"
-version = "3.17.8-1"
+title = "python3-peewee 3.17.9-1"
+version = "3.17.9-1"
 description = "a little orm"
-date = "2024-12-24T11:55:35"
+date = "2025-02-11T10:42:22"
 aliases = "/packages/222564"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/peewee"
 arch = "x86_64"
-size = "459588"
-usize = "2611996"
-sha1sum = "03b7c00a2d78b0d3f3960be710321797c724ffb0"
+size = "459152"
+usize = "2612558"
+sha1sum = "b4e762983099e4eef71fdf0b87c7c8d97694d421"
 depends = "['python3>=3.13', 'sqlite3']"
 reverse_depends = "['vorta']"
 +++
@@ -19,11 +19,11 @@ a little orm
 
 ### Files: 
 * /usr/bin/pwiz.py
-* /usr/lib/python3.13/site-packages/peewee-3.17.8.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/peewee-3.17.8.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/peewee-3.17.8.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/peewee-3.17.8.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/peewee-3.17.8.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/peewee-3.17.9.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/peewee-3.17.9.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/peewee-3.17.9.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/peewee-3.17.9.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/peewee-3.17.9.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/peewee.py
 * /usr/lib/python3.13/site-packages/playhouse/apsw_ext.py
 * /usr/lib/python3.13/site-packages/playhouse/cockroachdb.py
@@ -101,5 +101,5 @@ a little orm
 * /usr/lib/python3.13/site-packages/__pycache__/peewee.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/pwiz.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/pwiz.cpython-313.pyc
-* /usr/share/doc/python3-peewee-3.17.8/LICENSE
-* /usr/share/doc/python3-peewee-3.17.8/README.rst
+* /usr/share/doc/python3-peewee-3.17.9/LICENSE
+* /usr/share/doc/python3-peewee-3.17.9/README.rst

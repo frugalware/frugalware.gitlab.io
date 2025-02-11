@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-poetry 1.8.5-1"
-version = "1.8.5-1"
+title = "python3-poetry 2.0.1-1"
+version = "2.0.1-1"
 description = "Python dependency management and packaging made easy"
-date = "2024-12-24T11:58:09"
+date = "2025-02-11T10:43:02"
 aliases = "/packages/221177"
 categories = ['devel-extra']
 upstreamurl = "https://python-poetry.org"
 arch = "x86_64"
-size = "451868"
-usize = "2840072"
-sha1sum = "da15624b127fd0b1e2f7e4d2ccc27d9a774092b3"
+size = "459084"
+usize = "2914838"
+sha1sum = "72e202d07258c40fe52ecab081ec2abff96c81bd"
 depends = "['html5lib-python', 'pexpect', 'python3-build', 'python3-cachecontrol', 'python3-cachy', 'python3-cleo', 'python3-crashtest', 'python3-dulwich', 'python3-fastjsonschema', 'python3-filelock', 'python3-installer', 'python3-keyring', 'python3-lockfile', 'python3-packaging', 'python3-pkginfo', 'python3-platformdirs', 'python3-poetry-core', 'python3-poetry-plugin-export', 'python3-pyproject-hooks', 'python3-requests-toolbelt', 'python3-shellingham', 'python3-tomlkit', 'python3-trove-classifiers', 'python3-urllib3', 'python3-virtualenv']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ Python dependency management and packaging made easy
 
 ### Files: 
 * /usr/bin/poetry
-* /usr/lib/python3.13/site-packages/poetry-1.8.5.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/poetry-1.8.5.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/poetry-1.8.5.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/poetry-1.8.5.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/poetry-1.8.5.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/poetry-2.0.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/poetry-2.0.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/poetry-2.0.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/poetry-2.0.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/poetry-2.0.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/poetry/config/config.py
 * /usr/lib/python3.13/site-packages/poetry/config/config_source.py
 * /usr/lib/python3.13/site-packages/poetry/config/dict_config_source.py
@@ -66,11 +66,14 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/debug/__pycache__/resolve.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/debug/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/debug/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/env/activate.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/info.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/list.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/remove.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/use.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/__init__.py
+* /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/activate.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/activate.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/info.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/info.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/list.cpython-313.opt-1.pyc
@@ -82,7 +85,6 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/env_command.py
-* /usr/lib/python3.13/site-packages/poetry/console/commands/export.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/group_command.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/init.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/install.py
@@ -104,6 +106,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/show/__pycache__/plugins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/show/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/show/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/self/sync.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/update.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__init__.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/add.cpython-313.opt-1.pyc
@@ -116,11 +119,12 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/remove.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/self_command.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/self_command.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/sync.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/sync.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/update.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/update.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/self/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/console/commands/shell.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/show.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/source/add.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/source/remove.py
@@ -134,6 +138,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/source/__pycache__/show.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/source/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/source/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/sync.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/update.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/version.py
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__init__.py
@@ -151,8 +156,6 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/config.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/env_command.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/env_command.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/export.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/export.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/group_command.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/group_command.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/init.cpython-313.opt-1.pyc
@@ -173,10 +176,10 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/run.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/search.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/search.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/shell.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/shell.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/show.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/show.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/sync.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/sync.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/update.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/update.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/console/commands/__pycache__/version.cpython-313.opt-1.pyc
@@ -280,14 +283,11 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/json/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/layouts/layout.py
 * /usr/lib/python3.13/site-packages/poetry/layouts/src.py
-* /usr/lib/python3.13/site-packages/poetry/layouts/standard.py
 * /usr/lib/python3.13/site-packages/poetry/layouts/__init__.py
 * /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/layout.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/layout.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/src.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/src.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/standard.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/standard.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/layouts/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/locations.py
@@ -310,21 +310,6 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/mixology/partial_solution.py
 * /usr/lib/python3.13/site-packages/poetry/mixology/result.py
 * /usr/lib/python3.13/site-packages/poetry/mixology/set_relation.py
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/providers/python_requirement_solution_provider.py
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/providers/__init__.py
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/providers/__pycache__/python_requirement_solution_provider.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/providers/__pycache__/python_requirement_solution_provider.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/providers/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/providers/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/solutions/python_requirement_solution.py
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/solutions/__init__.py
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/solutions/__pycache__/python_requirement_solution.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/solutions/__pycache__/python_requirement_solution.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/solutions/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/solutions/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/__init__.py
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/mixology/solutions/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/mixology/term.py
 * /usr/lib/python3.13/site-packages/poetry/mixology/version_solver.py
 * /usr/lib/python3.13/site-packages/poetry/mixology/__init__.py
@@ -352,6 +337,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/packages/direct_origin.py
 * /usr/lib/python3.13/site-packages/poetry/packages/locker.py
 * /usr/lib/python3.13/site-packages/poetry/packages/package_collection.py
+* /usr/lib/python3.13/site-packages/poetry/packages/transitive_package_info.py
 * /usr/lib/python3.13/site-packages/poetry/packages/__init__.py
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/dependency_package.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/dependency_package.cpython-313.pyc
@@ -361,6 +347,8 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/locker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/package_collection.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/package_collection.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/transitive_package_info.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/transitive_package_info.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/packages/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/plugins/application_plugin.py
@@ -379,9 +367,12 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/plugins/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/plugins/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/poetry.py
+* /usr/lib/python3.13/site-packages/poetry/publishing/hash_manager.py
 * /usr/lib/python3.13/site-packages/poetry/publishing/publisher.py
 * /usr/lib/python3.13/site-packages/poetry/publishing/uploader.py
 * /usr/lib/python3.13/site-packages/poetry/publishing/__init__.py
+* /usr/lib/python3.13/site-packages/poetry/publishing/__pycache__/hash_manager.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/publishing/__pycache__/hash_manager.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/publishing/__pycache__/publisher.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/publishing/__pycache__/publisher.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/publishing/__pycache__/uploader.cpython-313.opt-1.pyc
@@ -486,6 +477,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/utils/env/generic_env.py
 * /usr/lib/python3.13/site-packages/poetry/utils/env/mock_env.py
 * /usr/lib/python3.13/site-packages/poetry/utils/env/null_env.py
+* /usr/lib/python3.13/site-packages/poetry/utils/env/python_manager.py
 * /usr/lib/python3.13/site-packages/poetry/utils/env/script_strings.py
 * /usr/lib/python3.13/site-packages/poetry/utils/env/site_packages.py
 * /usr/lib/python3.13/site-packages/poetry/utils/env/system_env.py
@@ -503,6 +495,8 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/mock_env.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/null_env.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/null_env.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/python_manager.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/python_manager.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/script_strings.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/script_strings.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/site_packages.cpython-313.opt-1.pyc
@@ -515,12 +509,10 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/utils/env/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/extras.py
 * /usr/lib/python3.13/site-packages/poetry/utils/helpers.py
+* /usr/lib/python3.13/site-packages/poetry/utils/isolated_build.py
 * /usr/lib/python3.13/site-packages/poetry/utils/password_manager.py
 * /usr/lib/python3.13/site-packages/poetry/utils/patterns.py
 * /usr/lib/python3.13/site-packages/poetry/utils/pip.py
-* /usr/lib/python3.13/site-packages/poetry/utils/setup_reader.py
-* /usr/lib/python3.13/site-packages/poetry/utils/shell.py
-* /usr/lib/python3.13/site-packages/poetry/utils/source.py
 * /usr/lib/python3.13/site-packages/poetry/utils/wheel.py
 * /usr/lib/python3.13/site-packages/poetry/utils/_compat.py
 * /usr/lib/python3.13/site-packages/poetry/utils/__init__.py
@@ -536,18 +528,14 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/extras.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/helpers.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/helpers.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/isolated_build.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/isolated_build.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/password_manager.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/password_manager.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/patterns.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/patterns.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/pip.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/pip.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/setup_reader.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/setup_reader.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/shell.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/shell.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/source.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/source.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/wheel.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/wheel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/utils/__pycache__/_compat.cpython-313.opt-1.pyc
@@ -587,7 +575,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/__version__.py
 * /usr/share/bash-completion/completions/poetry
-* /usr/share/doc/python3-poetry-1.8.5/LICENSE
-* /usr/share/doc/python3-poetry-1.8.5/README.md
+* /usr/share/doc/python3-poetry-2.0.1/LICENSE
+* /usr/share/doc/python3-poetry-2.0.1/README.md
 * /usr/share/fish/vendor_completions.d/poetry.fish
 * /usr/share/zsh/site-functions/_poetry

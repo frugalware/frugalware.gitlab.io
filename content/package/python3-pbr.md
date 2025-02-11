@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pbr 6.1.0-1"
-version = "6.1.0-1"
+title = "python3-pbr 6.1.1.0b1-1"
+version = "6.1.1.0b1-1"
 description = "Python Build Reasonableness"
-date = "2024-12-24T11:54:49"
+date = "2025-02-11T10:41:32"
 aliases = "/packages/219781"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pbr"
 arch = "x86_64"
-size = "156684"
-usize = "656264"
-sha1sum = "0b44bf8d1d9c78b33383783dd8bafd7d4e90f172"
+size = "157228"
+usize = "658589"
+sha1sum = "be72044a160fe40b6ca702a5c81867b86c8badce"
 depends = "['python3>=3.12', 'python3-setuptools']"
 reverse_depends = "['python3-pysol_cards', 'python3-sphinx-apidoc']"
 +++
@@ -19,12 +19,13 @@ Python Build Reasonableness
 
 ### Files: 
 * /usr/bin/pbr
-* /usr/lib/python3.13/site-packages/pbr-6.1.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pbr-6.1.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pbr-6.1.0-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/pbr-6.1.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pbr-6.1.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pbr-6.1.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pbr-6.1.1.0b1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/pbr/build.py
 * /usr/lib/python3.13/site-packages/pbr/cmd/main.py
 * /usr/lib/python3.13/site-packages/pbr/cmd/__init__.py
@@ -126,7 +127,7 @@ Python Build Reasonableness
 * /usr/lib/python3.13/site-packages/pbr/__pycache__/util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pbr/__pycache__/version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pbr/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pbr-6.1.0/AUTHORS
-* /usr/share/doc/python3-pbr-6.1.0/ChangeLog
-* /usr/share/doc/python3-pbr-6.1.0/LICENSE
-* /usr/share/doc/python3-pbr-6.1.0/README.rst
+* /usr/share/doc/python3-pbr-6.1.1.0b1/AUTHORS
+* /usr/share/doc/python3-pbr-6.1.1.0b1/ChangeLog
+* /usr/share/doc/python3-pbr-6.1.1.0b1/LICENSE
+* /usr/share/doc/python3-pbr-6.1.1.0b1/README.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-argcomplete 3.5.2-1"
-version = "3.5.2-1"
+title = "python3-argcomplete 3.5.3-1"
+version = "3.5.3-1"
 description = "Easy, extensible command line tab completion of arguments for your Python script"
-date = "2024-12-24T10:17:15"
+date = "2025-02-11T10:15:13"
 aliases = "/packages/222571"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/argcomplete"
 arch = "x86_64"
-size = "65308"
-usize = "338921"
-sha1sum = "2c31b3a42f68b0c02b5eda58b209c19105b6e8b5"
+size = "65676"
+usize = "340157"
+sha1sum = "e89c68d94d4f90576f183b8335cdf36ea133899e"
 depends = "['python3']"
 reverse_depends = "['python3-pipx']"
 +++
@@ -21,13 +21,12 @@ Easy, extensible command line tab completion of arguments for your Python script
 * /usr/bin/activate-global-python-argcomplete
 * /usr/bin/python-argcomplete-check-easy-install-script
 * /usr/bin/register-python-argcomplete
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/LICENSE.rst
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/NOTICE
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/argcomplete-3.5.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/argcomplete-3.5.3.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/argcomplete-3.5.3.dist-info/licenses/LICENSE.rst
+* /usr/lib/python3.13/site-packages/argcomplete-3.5.3.dist-info/licenses/NOTICE
+* /usr/lib/python3.13/site-packages/argcomplete-3.5.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/argcomplete-3.5.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/argcomplete-3.5.3.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/argcomplete/bash_completion.d/_python-argcomplete
 * /usr/lib/python3.13/site-packages/argcomplete/completers.py
 * /usr/lib/python3.13/site-packages/argcomplete/exceptions.py
@@ -78,4 +77,4 @@ Easy, extensible command line tab completion of arguments for your Python script
 * /usr/lib/python3.13/site-packages/argcomplete/__pycache__/_check_module.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/argcomplete/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/argcomplete/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-argcomplete-3.5.2/README.rst
+* /usr/share/doc/python3-argcomplete-3.5.3/README.rst

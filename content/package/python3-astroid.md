@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-astroid 3.3.8-1"
-version = "3.3.8-1"
+title = "python3-astroid 4.0.0a0-1"
+version = "4.0.0a0-1"
 description = "Python Abstract Syntax Tree New Generation."
-date = "2024-12-24T10:17:50"
+date = "2025-02-11T10:16:26"
 aliases = "/packages/219613"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/astroid"
 arch = "x86_64"
-size = "468416"
-usize = "3429796"
-sha1sum = "e54b5e6cbc15b3a70299fcfc3f978bab83e0b673"
+size = "469292"
+usize = "3442072"
+sha1sum = "936c74ef570f4bbf90256de9f7e2dd3d4be14820"
 depends = "['python3-lazy-object-proxy', 'python3-six', 'python3-wrapt']"
 reverse_depends = "['lutris', 'pylint']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['lutris', 'pylint']"
 Python Abstract Syntax Tree New Generation.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/astroid-3.3.8.dist-info/CONTRIBUTORS.txt
-* /usr/lib/python3.13/site-packages/astroid-3.3.8.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/astroid-3.3.8.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/astroid-3.3.8.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/astroid-3.3.8.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/astroid-3.3.8.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/astroid-4.0.0a0.dist-info/CONTRIBUTORS.txt
+* /usr/lib/python3.13/site-packages/astroid-4.0.0a0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/astroid-4.0.0a0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/astroid-4.0.0a0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/astroid-4.0.0a0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/astroid-4.0.0a0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/astroid/arguments.py
 * /usr/lib/python3.13/site-packages/astroid/astroid_manager.py
 * /usr/lib/python3.13/site-packages/astroid/bases.py
@@ -312,5 +312,5 @@ Python Abstract Syntax Tree New Generation.
 * /usr/lib/python3.13/site-packages/astroid/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/astroid/__pycache__/__pkginfo__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/astroid/__pycache__/__pkginfo__.cpython-313.pyc
-* /usr/share/doc/python3-astroid-3.3.8/LICENSE
-* /usr/share/doc/python3-astroid-3.3.8/README.rst
+* /usr/share/doc/python3-astroid-4.0.0a0/LICENSE
+* /usr/share/doc/python3-astroid-4.0.0a0/README.rst

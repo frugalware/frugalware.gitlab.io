@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-importlib-metadata 8.5.0-1"
-version = "8.5.0-1"
+title = "python3-importlib-metadata 8.6.1-1"
+version = "8.6.1-1"
 description = "Read metadata from Python packages"
-date = "2024-11-02T14:34:54"
+date = "2025-02-11T10:25:22"
 aliases = "/packages/220415"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/importlib_metadata"
 arch = "x86_64"
-size = "48584"
-usize = "257204"
-sha1sum = "89a74c010e30440aebdbf3b0d0d11a3f3b7945af"
+size = "48264"
+usize = "259195"
+sha1sum = "64885df6972149af6e9151c4e9b7b7ed6cb67577"
 depends = "['python3-zipp']"
 reverse_depends = "['python3-keyring', 'python3-markdown']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-keyring', 'python3-markdown']"
 Read metadata from Python packages
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/importlib_metadata-8.5.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/importlib_metadata-8.5.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/importlib_metadata-8.5.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/importlib_metadata-8.5.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/importlib_metadata-8.5.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/importlib_metadata-8.6.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/importlib_metadata-8.6.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/importlib_metadata-8.6.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/importlib_metadata-8.6.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/importlib_metadata-8.6.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/importlib_metadata/compat/py311.py
 * /usr/lib/python3.13/site-packages/importlib_metadata/compat/py39.py
 * /usr/lib/python3.13/site-packages/importlib_metadata/compat/__init__.py
@@ -60,6 +60,5 @@ Read metadata from Python packages
 * /usr/lib/python3.13/site-packages/importlib_metadata/__pycache__/_text.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/importlib_metadata/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/importlib_metadata/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-importlib-metadata-8.5.0/LICENSE
-* /usr/share/doc/python3-importlib-metadata-8.5.0/README.md
-* /usr/share/doc/python3-importlib-metadata-8.5.0/README.rst
+* /usr/share/doc/python3-importlib-metadata-8.6.1/LICENSE
+* /usr/share/doc/python3-importlib-metadata-8.6.1/README.rst
