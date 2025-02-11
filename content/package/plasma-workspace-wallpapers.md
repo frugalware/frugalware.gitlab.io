@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "plasma-workspace-wallpapers 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-workspace-wallpapers 6.3.0-1"
+version = "6.3.0-1"
 description = "Additional wallpapers for the Plasma Workspace."
-date = "2025-02-01T21:01:37"
+date = "2025-02-11T14:08:58"
 aliases = "/packages/218404"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111422892"
-usize = "112323252"
-sha1sum = "454b23eba81a10a773880feb9d3263a6486cc3d2"
+size = "131070356"
+usize = "131968285"
+sha1sum = "475202730342a3ce59ab5eef0ac0f61f825fdcb7"
 depends = "[]"
 +++
 ### Description: 
 Additional wallpapers for the Plasma Workspace.
 
 ### Files: 
-* /usr/share/doc/plasma-workspace-wallpapers-6.2.5/AUTHORS
-* /usr/share/doc/plasma-workspace-wallpapers-6.2.5/COPYING
-* /usr/share/doc/plasma-workspace-wallpapers-6.2.5/COPYING.LGPL3
-* /usr/share/doc/plasma-workspace-wallpapers-6.2.5/README.md
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.0/AUTHORS
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.0/COPYING
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.0/COPYING.LGPL3
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.0/README.md
 * /usr/share/wallpapers/Altai/contents/images/1080x1920.png
 * /usr/share/wallpapers/Altai/contents/images/5120x2880.png
 * /usr/share/wallpapers/Altai/contents/screenshot.png
@@ -196,6 +196,11 @@ Additional wallpapers for the Plasma Workspace.
 * /usr/share/wallpapers/Mountain/contents/images_dark/1080x1920.png
 * /usr/share/wallpapers/Mountain/contents/images_dark/5120x2880.png
 * /usr/share/wallpapers/Mountain/metadata.json
+* /usr/share/wallpapers/Nexus/contents/images/1080x1920.png
+* /usr/share/wallpapers/Nexus/contents/images/5120x2880.png
+* /usr/share/wallpapers/Nexus/contents/images_dark/1080x1920.png
+* /usr/share/wallpapers/Nexus/contents/images_dark/5120x2880.png
+* /usr/share/wallpapers/Nexus/metadata.json
 * /usr/share/wallpapers/OneStandsOut/contents/images/1280x1024.jpg
 * /usr/share/wallpapers/OneStandsOut/contents/images/1280x800.jpg
 * /usr/share/wallpapers/OneStandsOut/contents/images/1440x900.jpg

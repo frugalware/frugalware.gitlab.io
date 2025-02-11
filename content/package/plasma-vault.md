@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-vault 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-vault 6.3.0-1"
+version = "6.3.0-1"
 description = "Plasma applet and services for creating encrypted vaults"
-date = "2025-02-01T21:01:02"
+date = "2025-02-11T14:07:16"
 aliases = "/packages/219484"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "327196"
-usize = "1568268"
-sha1sum = "aa6c967ca6ec384e2578409287dacd9412c2c491"
-depends = "['cryfs', 'encfs', 'kitemmodels>=6.10.0', 'libksysguard>=6.2.5', 'libplasma>=6.2.5', 'networkmanager-qt>=6.10.0']"
+size = "330840"
+usize = "1596531"
+sha1sum = "5226d1b1690711b1f86f0c1ebfa030df4392f9ad"
+depends = "['cryfs', 'encfs', 'kitemmodels>=6.10.0', 'libksysguard>=6.3.0', 'libplasma>=6.3.0', 'networkmanager-qt>=6.10.0']"
 +++
 ### Description: 
 Plasma applet and services for creating encrypted vaults
@@ -40,6 +40,7 @@ Plasma applet and services for creating encrypted vaults
 * /usr/share/locale/fr/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmavault-kde.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmavault-kde.mo
@@ -59,6 +60,7 @@ Plasma applet and services for creating encrypted vaults
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmavault-kde.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasmavault-kde.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasmavault-kde.mo

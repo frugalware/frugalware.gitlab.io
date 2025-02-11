@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-firewall 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-firewall 6.3.0-1"
+version = "6.3.0-1"
 description = "Control Panel for your system firewall"
-date = "2025-02-01T21:05:00"
+date = "2025-02-11T14:13:12"
 aliases = "/packages/220307"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "471804"
-usize = "1308937"
-sha1sum = "8464f0738ddb820fa6b2852f0f000f4050d8fd93"
-depends = "['systemsettings>=6.2.5']"
+size = "476900"
+usize = "1344216"
+sha1sum = "4792faecf9a967dd7e35fcb9c74741b6b35a6afd"
+depends = "['systemsettings>=6.3.0']"
 +++
 ### Description: 
 Control Panel for your system firewall
@@ -26,8 +26,8 @@ Control Panel for your system firewall
 * /usr/share/applications/kcm_firewall.desktop
 * /usr/share/dbus-1/system-services/org.kde.ufw.service
 * /usr/share/dbus-1/system.d/org.kde.ufw.conf
-* /usr/share/doc/plasma-firewall-6.2.5/INSTALL
-* /usr/share/doc/plasma-firewall-6.2.5/README.md
+* /usr/share/doc/plasma-firewall-6.3.0/INSTALL
+* /usr/share/doc/plasma-firewall-6.3.0/README.md
 * /usr/share/kcm_ufw/defaults
 * /usr/share/locale/ar/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_firewall.mo
@@ -47,6 +47,7 @@ Control Panel for your system firewall
 * /usr/share/locale/fr/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_firewall.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_firewall.mo
@@ -65,6 +66,7 @@ Control Panel for your system firewall
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_firewall.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_firewall.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_firewall.mo
