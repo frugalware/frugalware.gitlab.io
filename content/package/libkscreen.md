@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkscreen 6.2.5-2"
-version = "6.2.5-2"
+title = "libkscreen 6.3.0-1"
+version = "6.3.0-1"
 description = "KDE screen management software."
-date = "2025-02-01T20:19:36"
+date = "2025-02-11T12:33:47"
 aliases = "/packages/221362"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "261024"
-usize = "1018450"
-sha1sum = "8afd19091854b9dbd780f342bfc1b21b622e6c97"
-depends = "['kconfig>=6.10.0', 'kwayland>=6.2.5', 'libxrandr>=1.5.0-5']"
+size = "264128"
+usize = "1033097"
+sha1sum = "31bb24b7426f3632bdef88d61a029799feaff586"
+depends = "['kconfig>=6.10.0', 'kwayland>=6.3.0', 'libxrandr>=1.5.0-5']"
 reverse_depends = "['kscreen']"
 +++
 ### Description: 
@@ -52,10 +52,10 @@ KDE screen management software.
 * /usr/lib/cmake/KF6Screen/KF6ScreenTargets-release.cmake
 * /usr/lib/cmake/KF6Screen/KF6ScreenTargets.cmake
 * /usr/lib/libKF6Screen.so
-* /usr/lib/libKF6Screen.so.6.2.5
+* /usr/lib/libKF6Screen.so.6.3.0
 * /usr/lib/libKF6Screen.so.8
 * /usr/lib/libKF6ScreenDpms.so
-* /usr/lib/libKF6ScreenDpms.so.6.2.5
+* /usr/lib/libKF6ScreenDpms.so.6.3.0
 * /usr/lib/libKF6ScreenDpms.so.8
 * /usr/lib/libkscreen/kf6/kscreen_backend_launcher
 * /usr/lib/pkgconfig/KF6Screen.pc
@@ -65,7 +65,7 @@ KDE screen management software.
 * /usr/lib/qt6/plugins/kf6/kscreen/KSC_XRandR.so
 * /usr/lib/systemd/user/plasma-kscreen.service
 * /usr/share/dbus-1/services/org.kde.kscreen.service
-* /usr/share/doc/libkscreen-6.2.5/README.md
+* /usr/share/doc/libkscreen-6.3.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/libkscreen6_qt.qm
@@ -81,6 +81,7 @@ KDE screen management software.
 * /usr/share/locale/fr/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/libkscreen6_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/id/LC_MESSAGES/libkscreen6_qt.qm

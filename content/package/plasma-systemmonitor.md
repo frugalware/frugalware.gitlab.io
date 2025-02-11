@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-systemmonitor 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-systemmonitor 6.3.0-1"
+version = "6.3.0-1"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2025-02-01T20:36:09"
+date = "2025-02-11T12:57:57"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "381632"
-usize = "2129668"
-sha1sum = "eecc4a499e896437f5113bc7ed8f9ea222da9899"
-depends = "['kdeclarative>=6.10.0', 'kirigami-addons', 'kitemmodels>=6.10.0', 'ksystemstats>=6.2.5']"
+size = "385304"
+usize = "2162356"
+sha1sum = "4d403276659029276e479195d1c3ebe5685cd8e5"
+depends = "['kdeclarative>=6.10.0', 'kirigami-addons', 'kitemmodels>=6.10.0', 'ksystemstats>=6.3.0']"
 +++
 ### Description: 
 An interface for monitoring system sensors, process information and other system resources
@@ -58,7 +58,9 @@ An interface for monitoring system sensors, process information and other system
 * /usr/lib/qt6/qml/org/kde/ksysguard/table/UserCellDelegate.qml
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
-* /usr/share/doc/plasma-systemmonitor-6.2.5/README.md
+* /usr/share/doc/plasma-systemmonitor-6.3.0/README.md
+* /usr/share/kconf_update/plasma-systemmonitor-replace-vmpss.py
+* /usr/share/kconf_update/plasma-systemmonitor.upd
 * /usr/share/kglobalaccel/org.kde.plasma-systemmonitor.desktop
 * /usr/share/knsrcfiles/plasma-systemmonitor.knsrc
 * /usr/share/ksysguard/sensorfaces/org.kde.ksysguard.applicationstable/contents/config/main.xml
@@ -132,6 +134,9 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/locale/he/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/he/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma-systemmonitor.mo
+* /usr/share/locale/hi/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
+* /usr/share/locale/hi/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma-systemmonitor.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.applicationstable.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.processtable.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma-systemmonitor.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdecoration 6.2.5-2"
-version = "6.2.5-2"
+title = "kdecoration 6.3.0-1"
+version = "6.3.0-1"
 description = "KDE Decoration"
-date = "2025-02-01T20:33:36"
+date = "2025-02-11T12:54:13"
 aliases = "/packages/218295"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "80384"
-usize = "332012"
-sha1sum = "f0bd943329beff46c880786fae5bbba1bcf79646"
+size = "85152"
+usize = "353544"
+sha1sum = "86cfd16b14392e49ad589922f5172a8fc983bf1d"
 depends = "['kcoreaddons>=6.10.0', 'ki18n>=6.10.0', 'qt6-base>=6.8.2']"
 reverse_depends = "['breeze', 'kde-gtk-config']"
 +++
@@ -18,41 +18,43 @@ reverse_depends = "['breeze', 'kde-gtk-config']"
 KDE Decoration
 
 ### Files: 
-* /usr/include/KDecoration2/KDecoration2/DecoratedClient
-* /usr/include/KDecoration2/kdecoration2/decoratedclient.h
-* /usr/include/KDecoration2/KDecoration2/Decoration
-* /usr/include/KDecoration2/kdecoration2/decoration.h
-* /usr/include/KDecoration2/KDecoration2/DecorationButton
-* /usr/include/KDecoration2/kdecoration2/decorationbutton.h
-* /usr/include/KDecoration2/KDecoration2/DecorationButtonGroup
-* /usr/include/KDecoration2/kdecoration2/decorationbuttongroup.h
-* /usr/include/KDecoration2/kdecoration2/decorationdefines.h
-* /usr/include/KDecoration2/KDecoration2/DecorationSettings
-* /usr/include/KDecoration2/kdecoration2/decorationsettings.h
-* /usr/include/KDecoration2/KDecoration2/DecorationShadow
-* /usr/include/KDecoration2/kdecoration2/decorationshadow.h
-* /usr/include/KDecoration2/KDecoration2/DecorationThemeProvider
-* /usr/include/KDecoration2/kdecoration2/decorationthemeprovider.h
-* /usr/include/KDecoration2/kdecoration2/kdecoration2_export.h
-* /usr/include/KDecoration2/KDecoration2/Private/DecoratedClientPrivate
-* /usr/include/KDecoration2/kdecoration2/private/decoratedclientprivate.h
-* /usr/include/KDecoration2/KDecoration2/Private/DecorationBridge
-* /usr/include/KDecoration2/kdecoration2/private/decorationbridge.h
-* /usr/include/KDecoration2/KDecoration2/Private/DecorationSettingsPrivate
-* /usr/include/KDecoration2/kdecoration2/private/decorationsettingsprivate.h
-* /usr/include/KDecoration2/kdecoration2/private/kdecoration2_private_export.h
-* /usr/include/KF6/kdecoration2_version.h
-* /usr/lib/cmake/KDecoration2/KDecoration2Config.cmake
-* /usr/lib/cmake/KDecoration2/KDecoration2ConfigVersion.cmake
-* /usr/lib/cmake/KDecoration2/KDecoration2Targets-release.cmake
-* /usr/lib/cmake/KDecoration2/KDecoration2Targets.cmake
-* /usr/lib/libkdecorations2.so
-* /usr/lib/libkdecorations2.so.6
-* /usr/lib/libkdecorations2.so.6.2.5
-* /usr/lib/libkdecorations2private.so
-* /usr/lib/libkdecorations2private.so.11
-* /usr/lib/libkdecorations2private.so.6.2.5
-* /usr/share/doc/kdecoration-6.2.5/README.md
+* /usr/include/KDecoration3/KDecoration3/DecoratedWindow
+* /usr/include/KDecoration3/kdecoration3/decoratedwindow.h
+* /usr/include/KDecoration3/KDecoration3/Decoration
+* /usr/include/KDecoration3/kdecoration3/decoration.h
+* /usr/include/KDecoration3/KDecoration3/DecorationButton
+* /usr/include/KDecoration3/kdecoration3/decorationbutton.h
+* /usr/include/KDecoration3/KDecoration3/DecorationButtonGroup
+* /usr/include/KDecoration3/kdecoration3/decorationbuttongroup.h
+* /usr/include/KDecoration3/kdecoration3/decorationdefines.h
+* /usr/include/KDecoration3/KDecoration3/DecorationSettings
+* /usr/include/KDecoration3/kdecoration3/decorationsettings.h
+* /usr/include/KDecoration3/KDecoration3/DecorationShadow
+* /usr/include/KDecoration3/kdecoration3/decorationshadow.h
+* /usr/include/KDecoration3/KDecoration3/DecorationThemeProvider
+* /usr/include/KDecoration3/kdecoration3/decorationthemeprovider.h
+* /usr/include/KDecoration3/kdecoration3/kdecoration3_export.h
+* /usr/include/KDecoration3/KDecoration3/Private/DecoratedWindowPrivate
+* /usr/include/KDecoration3/kdecoration3/private/decoratedwindowprivate.h
+* /usr/include/KDecoration3/KDecoration3/Private/DecorationBridge
+* /usr/include/KDecoration3/kdecoration3/private/decorationbridge.h
+* /usr/include/KDecoration3/KDecoration3/Private/DecorationSettingsPrivate
+* /usr/include/KDecoration3/kdecoration3/private/decorationsettingsprivate.h
+* /usr/include/KDecoration3/kdecoration3/private/kdecoration3_private_export.h
+* /usr/include/KDecoration3/KDecoration3/ScaleHelpers
+* /usr/include/KDecoration3/kdecoration3/scalehelpers.h
+* /usr/include/KF6/kdecoration3_version.h
+* /usr/lib/cmake/KDecoration3/KDecoration3Config.cmake
+* /usr/lib/cmake/KDecoration3/KDecoration3ConfigVersion.cmake
+* /usr/lib/cmake/KDecoration3/KDecoration3Targets-release.cmake
+* /usr/lib/cmake/KDecoration3/KDecoration3Targets.cmake
+* /usr/lib/libkdecorations3.so
+* /usr/lib/libkdecorations3.so.6
+* /usr/lib/libkdecorations3.so.6.3.0
+* /usr/lib/libkdecorations3private.so
+* /usr/lib/libkdecorations3private.so.1
+* /usr/lib/libkdecorations3private.so.6.3.0
+* /usr/share/doc/kdecoration-6.3.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/az/LC_MESSAGES/kdecoration.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "drkonqi 6.2.5-2"
-version = "6.2.5-2"
+title = "drkonqi 6.3.0-1"
+version = "6.3.0-1"
 description = "The KDE Crash Handler."
-date = "2025-02-01T20:22:44"
+date = "2025-02-11T12:38:12"
 aliases = "/packages/219483"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "593184"
-usize = "3208506"
-sha1sum = "6556c561a494fbbbcb4167fcf0397c9e40180b56"
+size = "607880"
+usize = "3293145"
+sha1sum = "fed7751500d12d3435b7b60b2abb6602b5c39825"
 depends = "['kcmutils>=6.10.0', 'kidletime>=6.10.0', 'kio>=6.10.0', 'kirigami>=6.10.0', 'kitemmodels>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'python3-psutil', 'python3-pygdbmi', 'python3-sentry-sdk', 'syntax-highlighting>=6.10.0']"
 +++
 ### Description: 
@@ -48,7 +48,7 @@ The KDE Crash Handler.
 * /usr/share/applications/org.kde.drkonqi.desktop
 * /usr/share/dbus-1/system-services/org.kde.drkonqi.service
 * /usr/share/dbus-1/system.d/org.kde.drkonqi.conf
-* /usr/share/doc/drkonqi-6.2.5/README.md
+* /usr/share/doc/drkonqi-6.3.0/README.md
 * /usr/share/drkonqi/gdb/python/gdb_preamble/preamble.py
 * /usr/share/drkonqi/gdb/python/gdb_preamble/__init__.py
 * /usr/share/drkonqi/mappings
@@ -119,6 +119,7 @@ The KDE Crash Handler.
 * /usr/share/locale/pt_BR/LC_MESSAGES/drkonqi.mo
 * /usr/share/locale/ro/LC_MESSAGES/drkonqi.mo
 * /usr/share/locale/ru/LC_MESSAGES/drkonqi.mo
+* /usr/share/locale/sa/LC_MESSAGES/drkonqi.mo
 * /usr/share/locale/se/LC_MESSAGES/drkonqi.mo
 * /usr/share/locale/si/LC_MESSAGES/drkonqi.mo
 * /usr/share/locale/sk/LC_MESSAGES/drkonqi.mo

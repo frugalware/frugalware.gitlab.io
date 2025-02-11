@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kscreen 6.2.5-2"
-version = "6.2.5-2"
+title = "kscreen 6.3.0-1"
+version = "6.3.0-1"
 description = "KDE's screen management utility."
-date = "2025-02-01T20:26:29"
+date = "2025-02-11T12:43:56"
 aliases = "/packages/221347"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "277620"
-usize = "1216374"
-sha1sum = "d07274eb44fd13211b16bf5468a3f0c01303a4b9"
-depends = "['ksvg>=6.10.0', 'layer-shell-qt>=6.2.5', 'libkscreen>=6.2.5', 'libplasma>=6.2.5', 'qt6-sensors>=6.8.2']"
+size = "290092"
+usize = "1290953"
+sha1sum = "598e2a68cf15864da85965448c66d2079875ffdf"
+depends = "['ksvg>=6.10.0', 'layer-shell-qt>=6.3.0', 'libkscreen>=6.3.0', 'libplasma>=6.3.0', 'qt6-sensors>=6.8.2']"
 reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 ### Description: 
@@ -26,7 +26,7 @@ KDE's screen management utility.
 * /usr/lib/systemd/user/plasma-kscreen-osd.service
 * /usr/share/applications/kcm_kscreen.desktop
 * /usr/share/dbus-1/services/org.kde.kscreen.osdService.service
-* /usr/share/doc/kscreen-6.2.5/README.md
+* /usr/share/doc/kscreen-6.3.0/README.md
 * /usr/share/kglobalaccel/org.kde.kscreen.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ar/LC_MESSAGES/kscreen_common.mo
@@ -86,6 +86,9 @@ KDE's screen management utility.
 * /usr/share/locale/he/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/he/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/hi/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/hsb/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -147,6 +150,9 @@ KDE's screen management utility.
 * /usr/share/locale/ru/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ru/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/sa/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/sk/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo

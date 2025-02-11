@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-thunderbolt 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-thunderbolt 6.3.0-1"
+version = "6.3.0-1"
 description = "Plasma integration for controlling Thunderbolt devices"
-date = "2025-02-01T20:30:22"
+date = "2025-02-11T12:49:33"
 aliases = "/packages/219992"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "122556"
-usize = "514832"
-sha1sum = "ec802654fb5d456f693b399610a71d3a176d2187"
+size = "125260"
+usize = "530875"
+sha1sum = "e836a7d69c626ae9b08436f17f17f486e8b9de60"
 depends = "['bolt', 'kcmutils>=6.10.0']"
 +++
 ### Description: 
@@ -21,8 +21,8 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/lib/qt6/plugins/kf6/kded/kded_bolt.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_bolt.so
 * /usr/share/applications/kcm_bolt.desktop
-* /usr/share/doc/plasma-thunderbolt-6.2.5/README.md
-* /usr/share/doc/plasma-thunderbolt-6.2.5/TODO
+* /usr/share/doc/plasma-thunderbolt-6.3.0/README.md
+* /usr/share/doc/plasma-thunderbolt-6.3.0/TODO
 * /usr/share/knotifications6/kded_bolt.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/ar/LC_MESSAGES/kded_bolt.mo
@@ -62,6 +62,8 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/share/locale/gl/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/he/LC_MESSAGES/kded_bolt.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_bolt.mo
+* /usr/share/locale/hi/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/hu/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_bolt.mo
@@ -100,6 +102,8 @@ Plasma integration for controlling Thunderbolt devices
 * /usr/share/locale/ro/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/ru/LC_MESSAGES/kded_bolt.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_bolt.mo
+* /usr/share/locale/sa/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_bolt.mo
 * /usr/share/locale/sk/LC_MESSAGES/kded_bolt.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_bolt.mo

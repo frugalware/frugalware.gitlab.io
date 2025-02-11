@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libplasma 6.2.5-2"
-version = "6.2.5-2"
+title = "libplasma 6.3.0-1"
+version = "6.3.0-1"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2025-02-01T20:21:40"
+date = "2025-02-11T12:36:42"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2458792"
-usize = "6099557"
-sha1sum = "659d7e77d440efda5b4c28a3ed97b0f33b64a0cd"
-depends = "['kcmutils>=6.10.0', 'ksvg>=6.10.0', 'plasma-activities>=6.2.5']"
+size = "2468368"
+usize = "6176043"
+sha1sum = "467a47b196e9f5c09f1644b4c94d56a1eab55460"
+depends = "['kcmutils>=6.10.0', 'ksvg>=6.10.0', 'plasma-activities>=6.3.0']"
 reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'smb4k', 'wacomtablet']"
 +++
 ### Description: 
@@ -68,10 +68,10 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/cmake/PlasmaQuick/PlasmaQuickTargets.cmake
 * /usr/lib/libPlasma.so
 * /usr/lib/libPlasma.so.6
-* /usr/lib/libPlasma.so.6.2.5
+* /usr/lib/libPlasma.so.6.3.0
 * /usr/lib/libPlasmaQuick.so
 * /usr/lib/libPlasmaQuick.so.6
-* /usr/lib/libPlasmaQuick.so.6.2.5
+* /usr/lib/libPlasmaQuick.so.6.3.0
 * /usr/lib/qt6/plugins/kf6/kirigami/platform/KirigamiPlasmaStyle.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_applet.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_containmentactions.so
@@ -133,6 +133,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/components/ScrollView.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/Slider.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/SpinBox.qml
+* /usr/lib/qt6/qml/org/kde/plasma/components/StackView.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/SwipeView.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/Switch.qml
 * /usr/lib/qt6/qml/org/kde/plasma/components/SwitchDelegate.qml
@@ -175,7 +176,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/extras/Representation.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/SearchField.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/ShadowedLabel.qml
-* /usr/share/doc/libplasma-6.2.5/README.md
+* /usr/share/doc/libplasma-6.3.0/README.md
 * /usr/share/kdevappwizard/templates/cpp-plasmoid6.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper-with-qml-extension.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper.tar.bz2
@@ -203,6 +204,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/share/locale/gd/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/he/LC_MESSAGES/libplasma6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libplasma6.mo
 * /usr/share/locale/id/LC_MESSAGES/libplasma6.mo

@@ -1,32 +1,33 @@
 +++
 draft = false
-title = "kinfocenter 6.2.5-2"
-version = "6.2.5-2"
+title = "kinfocenter 6.3.0-1"
+version = "6.3.0-1"
 description = "Utility that provides information about a computer system."
-date = "2025-02-01T20:25:10"
+date = "2025-02-11T12:41:50"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "847340"
-usize = "2718632"
-sha1sum = "1a66058d76e8b7e026ea3a19390392070b1f80d3"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.10.0', 'kirigami>=6.10.0', 'kpackage>=6.10.0', 'kwayland>=6.2.5', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.10.0', 'systemsettings>=6.2.5', 'vulkan-tools', 'wayland-utils']"
+size = "875200"
+usize = "2868703"
+sha1sum = "9c4819c1abb9489f453d728867178c758b97b8fd"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.10.0', 'kirigami>=6.10.0', 'kpackage>=6.10.0', 'kwayland>=6.3.0', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.10.0', 'systemsettings>=6.3.0', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.
 
 ### Files: 
 * /etc/xdg/kcm-about-distrorc
-* /etc/xdg/menus/kinfocenter.menu
 * /usr/bin/kinfocenter
 * /usr/lib/kauth/kf6/kauth/kinfocenter-dmidecode-helper
+* /usr/lib/kinfocenter/kinfocenter-opengl-helper
 * /usr/lib/libKInfoCenterInternal.so
 * /usr/lib/qt6/plugins/plasma/kcms/kcm_about-distro.so
 * /usr/lib/qt6/plugins/plasma/kcms/kcm_energyinfo.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_audio_information.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_block_devices.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_cpu.so
+* /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_edid.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_egl.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_firmware_security.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_glx.so
@@ -48,7 +49,6 @@ Utility that provides information about a computer system.
 * /usr/share/applications/org.kde.kinfocenter.desktop
 * /usr/share/dbus-1/system-services/org.kde.kinfocenter.dmidecode.service
 * /usr/share/dbus-1/system.d/org.kde.kinfocenter.dmidecode.conf
-* /usr/share/desktop-directories/kinfocenter.directory
 * /usr/share/doc/HTML/ca/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/ca/kinfocenter/index.docbook
 * /usr/share/doc/HTML/ca/kinfocenter/kinfocenter.png
@@ -86,13 +86,14 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/uk/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/uk/kinfocenter/index.docbook
 * /usr/share/doc/HTML/uk/kinfocenter/kinfocenter.png
-* /usr/share/doc/kinfocenter-6.2.5/README.md
+* /usr/share/doc/kinfocenter-6.3.0/README.md
 * /usr/share/kinfocenter/categories/basicinformation.desktop
 * /usr/share/kinfocenter/categories/deviceinfocategory.desktop
 * /usr/share/kinfocenter/categories/graphicalinfocategory.desktop
 * /usr/share/kinfocenter/categories/lostfoundcategory.desktop
 * /usr/share/kinfocenter/categories/networkinfocategory.desktop
 * /usr/share/kinfocenter/distributor-logo-frugalware.svg
+* /usr/share/kinfocenter/edid/edid.sh
 * /usr/share/kinfocenter/firmware_security/fwupdmgr.sh
 * /usr/share/locale/af/LC_MESSAGES/kcmusb.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_samba.mo
@@ -211,7 +212,10 @@ Utility that provides information about a computer system.
 * /usr/share/locale/he/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/he/LC_MESSAGES/kinfocenter.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcmusb.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_about-distro.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_energyinfo.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_samba.mo
+* /usr/share/locale/hi/LC_MESSAGES/kinfocenter.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcmusb.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcmusb.mo
@@ -268,7 +272,10 @@ Utility that provides information about a computer system.
 * /usr/share/locale/lt/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/lt/LC_MESSAGES/kinfocenter.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcmusb.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_about-distro.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_energyinfo.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_samba.mo
+* /usr/share/locale/lv/LC_MESSAGES/kinfocenter.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcmusb.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcmusb.mo
@@ -332,6 +339,11 @@ Utility that provides information about a computer system.
 * /usr/share/locale/ru/LC_MESSAGES/kcm_energyinfo.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/ru/LC_MESSAGES/kinfocenter.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcmusb.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_about-distro.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_energyinfo.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_samba.mo
+* /usr/share/locale/sa/LC_MESSAGES/kinfocenter.mo
 * /usr/share/locale/se/LC_MESSAGES/kcmusb.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_samba.mo
 * /usr/share/locale/si/LC_MESSAGES/kcmusb.mo

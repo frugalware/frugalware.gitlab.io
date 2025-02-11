@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-disks 6.2.5-2"
-version = "6.2.5-2"
+title = "plasma-disks 6.3.0-1"
+version = "6.3.0-1"
 description = "Monitors S.M.A.R.T. capable devices for imminent failure"
-date = "2025-02-01T20:31:06"
+date = "2025-02-11T12:50:39"
 aliases = "/packages/220244"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "138860"
-usize = "596320"
-sha1sum = "bd0fe8166cf114e5b6f53369a119037b5c79bbff"
+size = "141484"
+usize = "613409"
+sha1sum = "56984f0dfacbaa2806eb2322bd897d87c87fd37c"
 depends = "['kcmutils>=6.10.0', 'kdeclarative>=6.10.0', 'smartmontools']"
 +++
 ### Description: 
@@ -43,6 +43,7 @@ Monitors S.M.A.R.T. capable devices for imminent failure
 * /usr/share/locale/fr/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_disks.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_disks.mo
@@ -61,6 +62,7 @@ Monitors S.M.A.R.T. capable devices for imminent failure
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_disks.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_disks.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_disks.mo

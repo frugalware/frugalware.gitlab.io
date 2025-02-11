@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "breeze 6.2.5-2"
-version = "6.2.5-2"
+title = "breeze 6.3.0-1"
+version = "6.3.0-1"
 description = "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop."
-date = "2025-02-01T20:37:50"
+date = "2025-02-11T13:00:22"
 aliases = "/packages/218256"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "92730632"
-usize = "123192349"
-sha1sum = "c5eb0668ca88145416ea15d0ab093821e2d592ac"
-depends = "['frameworkintegration>=6.10.0', 'kcmutils>=6.10.0', 'kcolorscheme>=6.10.0', 'kconfig>=6.10.0', 'kcoreaddons>=6.10.0', 'kdecoration>=6.2.5', 'kguiaddons>=6.10.0', 'ki18n>=6.10.0', 'kiconthemes>=6.10.0', 'kirigami>=6.10.0', 'kwindowsystem>=6.10.0']"
+size = "44816004"
+usize = "75317418"
+sha1sum = "7835f163f2a30638a7b777983fff1a742d16dc61"
+depends = "['frameworkintegration>=6.10.0', 'kcmutils>=6.10.0', 'kcolorscheme>=6.10.0', 'kconfig>=6.10.0', 'kcoreaddons>=6.10.0', 'kdecoration>=6.3.0', 'kguiaddons>=6.10.0', 'ki18n>=6.10.0', 'kiconthemes>=6.10.0', 'kirigami>=6.10.0', 'kwindowsystem>=6.10.0']"
 reverse_depends = "['kwin', 'plasma-integration']"
 +++
 ### Description: 
@@ -19,19 +19,20 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 
 ### Files: 
 * /usr/bin/breeze-settings6
+* /usr/bin/kcursorgen
 * /usr/lib/cmake/Breeze/BreezeConfig.cmake
 * /usr/lib/cmake/Breeze/BreezeConfigVersion.cmake
 * /usr/lib/qt6/plugins/kstyle_config/breezestyleconfig.so
-* /usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/kcm_breezedecoration.so
-* /usr/lib/qt6/plugins/org.kde.kdecoration2/org.kde.breeze.so
+* /usr/lib/qt6/plugins/org.kde.kdecoration3.kcm/kcm_breezedecoration.so
+* /usr/lib/qt6/plugins/org.kde.kdecoration3/org.kde.breeze.so
 * /usr/lib/qt6/plugins/styles/breeze6.so
 * /usr/share/applications/breezestyleconfig.desktop
 * /usr/share/applications/kcm_breezedecoration.desktop
 * /usr/share/color-schemes/BreezeClassic.colors
 * /usr/share/color-schemes/BreezeDark.colors
 * /usr/share/color-schemes/BreezeLight.colors
-* /usr/share/doc/breeze-6.2.5/AUTHORS
-* /usr/share/doc/breeze-6.2.5/README.md
+* /usr/share/doc/breeze-6.3.0/AUTHORS
+* /usr/share/doc/breeze-6.3.0/README.md
 * /usr/share/icons/breeze_cursors/cursors/00000000000000020006000e7e9ffc3f
 * /usr/share/icons/breeze_cursors/cursors/00008160000006810000408080010102
 * /usr/share/icons/breeze_cursors/cursors/03b6e0fcb3499374a867c041f52298f0
@@ -762,6 +763,8 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/locale/ro/LC_MESSAGES/breeze_style_config.mo
 * /usr/share/locale/ru/LC_MESSAGES/breeze_kwin_deco.mo
 * /usr/share/locale/ru/LC_MESSAGES/breeze_style_config.mo
+* /usr/share/locale/sa/LC_MESSAGES/breeze_kwin_deco.mo
+* /usr/share/locale/sa/LC_MESSAGES/breeze_style_config.mo
 * /usr/share/locale/se/LC_MESSAGES/breeze_kwin_deco.mo
 * /usr/share/locale/sk/LC_MESSAGES/breeze_kwin_deco.mo
 * /usr/share/locale/sk/LC_MESSAGES/breeze_style_config.mo

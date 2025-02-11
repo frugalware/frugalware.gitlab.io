@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmenuedit 6.2.5-2"
-version = "6.2.5-2"
+title = "kmenuedit 6.3.0-1"
+version = "6.3.0-1"
 description = "KDE menu editor."
-date = "2025-02-01T20:42:43"
+date = "2025-02-11T13:06:36"
 aliases = "/packages/221336"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1025380"
-usize = "1980435"
-sha1sum = "5f4ca2779346c0de3349da1d83e72c7189d9f1cf"
+size = "1025188"
+usize = "1976636"
+sha1sum = "e6c2045567e75b8cb9b3713d4fdff6911b9fa24e"
 depends = "['kio>=6.10.0']"
 +++
 ### Description: 

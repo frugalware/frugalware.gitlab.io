@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sddm-kcm 6.2.5-2"
-version = "6.2.5-2"
+title = "sddm-kcm 6.3.0-1"
+version = "6.3.0-1"
 description = "KCM module for SDDM"
-date = "2025-02-01T20:44:04"
+date = "2025-02-11T13:08:33"
 aliases = "/packages/218406"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "135080"
-usize = "538954"
-sha1sum = "ef12d2566634e2dcf0ae5fc0f7943c9d7d0c9bc7"
+size = "139964"
+usize = "560024"
+sha1sum = "f85c94ec6be80f759a70b6a7f5b43e02d334cd8c"
 depends = "['kcmutils>=6.10.0', 'kdeclarative>=6.10.0', 'knewstuff>=6.10.0', 'sddm>=0.16.0']"
 +++
 ### Description: 
@@ -23,8 +23,8 @@ KCM module for SDDM
 * /usr/share/applications/kcm_sddm.desktop
 * /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmsddm.service
 * /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmsddm.conf
-* /usr/share/doc/sddm-kcm-6.2.5/CONTRIBUTORS
-* /usr/share/doc/sddm-kcm-6.2.5/README.md
+* /usr/share/doc/sddm-kcm-6.3.0/CONTRIBUTORS
+* /usr/share/doc/sddm-kcm-6.3.0/README.md
 * /usr/share/knsrcfiles/sddmtheme.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_sddm.mo
@@ -56,6 +56,7 @@ KCM module for SDDM
 * /usr/share/locale/ka/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_sddm.mo
@@ -66,6 +67,7 @@ KCM module for SDDM
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_sddm.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_sddm.mo

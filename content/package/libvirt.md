@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt 10.10.0-1"
-version = "10.10.0-1"
+title = "libvirt 11.0.0-1"
+version = "11.0.0-1"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2024-12-24T12:48:08"
+date = "2025-02-11T12:17:52"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "5715200"
-usize = "29646434"
-sha1sum = "531b461185b4964f132874d4314c9ef42cafe205"
+size = "8744296"
+usize = "51940635"
+sha1sum = "009e222b67f0776fbe0bb6284349911ede64b646"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3']"
 +++
@@ -123,16 +123,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libnss_libvirt_guest.so.2
 * /usr/lib/libvirt-admin.so
 * /usr/lib/libvirt-admin.so.0
-* /usr/lib/libvirt-admin.so.0.10010.0
+* /usr/lib/libvirt-admin.so.0.11000.0
 * /usr/lib/libvirt-lxc.so
 * /usr/lib/libvirt-lxc.so.0
-* /usr/lib/libvirt-lxc.so.0.10010.0
+* /usr/lib/libvirt-lxc.so.0.11000.0
 * /usr/lib/libvirt-qemu.so
 * /usr/lib/libvirt-qemu.so.0
-* /usr/lib/libvirt-qemu.so.0.10010.0
+* /usr/lib/libvirt-qemu.so.0.11000.0
 * /usr/lib/libvirt.so
 * /usr/lib/libvirt.so.0
-* /usr/lib/libvirt.so.0.10010.0
+* /usr/lib/libvirt.so.0.11000.0
 * /usr/lib/libvirt/connection-driver/libvirt_driver_ch.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_interface.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so
@@ -265,9 +265,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/augeas/lenses/virtsecretd.aug
 * /usr/share/augeas/lenses/virtstoraged.aug
 * /usr/share/augeas/lenses/virtvboxd.aug
-* /usr/share/doc/libvirt-10.10.0/COPYING
-* /usr/share/doc/libvirt-10.10.0/COPYING.LESSER
-* /usr/share/doc/libvirt-10.10.0/README.rst
+* /usr/share/doc/libvirt-11.0.0/COPYING
+* /usr/share/doc/libvirt-11.0.0/COPYING.LESSER
+* /usr/share/doc/libvirt-11.0.0/README.rst
 * /usr/share/doc/libvirt/examples/c/admin/client_close.c
 * /usr/share/doc/libvirt/examples/c/admin/client_info.c
 * /usr/share/doc/libvirt/examples/c/admin/client_limits.c
@@ -586,7 +586,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/cpu_map/ppc64_POWERPC_e5500.xml
 * /usr/share/libvirt/cpu_map/ppc64_POWERPC_e6500.xml
 * /usr/share/libvirt/cpu_map/ppc64_vendors.xml
+* /usr/share/libvirt/cpu_map/x86_486-v1.xml
 * /usr/share/libvirt/cpu_map/x86_486.xml
+* /usr/share/libvirt/cpu_map/x86_athlon-v1.xml
 * /usr/share/libvirt/cpu_map/x86_athlon.xml
 * /usr/share/libvirt/cpu_map/x86_Broadwell-IBRS.xml
 * /usr/share/libvirt/cpu_map/x86_Broadwell-noTSX-IBRS.xml
@@ -603,11 +605,14 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/cpu_map/x86_Cascadelake-Server-v4.xml
 * /usr/share/libvirt/cpu_map/x86_Cascadelake-Server-v5.xml
 * /usr/share/libvirt/cpu_map/x86_Cascadelake-Server.xml
+* /usr/share/libvirt/cpu_map/x86_Conroe-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Conroe.xml
 * /usr/share/libvirt/cpu_map/x86_Cooperlake-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Cooperlake-v2.xml
 * /usr/share/libvirt/cpu_map/x86_Cooperlake.xml
+* /usr/share/libvirt/cpu_map/x86_core2duo-v1.xml
 * /usr/share/libvirt/cpu_map/x86_core2duo.xml
+* /usr/share/libvirt/cpu_map/x86_coreduo-v1.xml
 * /usr/share/libvirt/cpu_map/x86_coreduo.xml
 * /usr/share/libvirt/cpu_map/x86_cpu64-rhel5.xml
 * /usr/share/libvirt/cpu_map/x86_cpu64-rhel6.xml
@@ -618,6 +623,7 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/cpu_map/x86_Dhyana-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Dhyana-v2.xml
 * /usr/share/libvirt/cpu_map/x86_Dhyana.xml
+* /usr/share/libvirt/cpu_map/x86_EPYC-Genoa-v1.xml
 * /usr/share/libvirt/cpu_map/x86_EPYC-Genoa.xml
 * /usr/share/libvirt/cpu_map/x86_EPYC-IBPB.xml
 * /usr/share/libvirt/cpu_map/x86_EPYC-Milan-v1.xml
@@ -635,6 +641,7 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/cpu_map/x86_EPYC.xml
 * /usr/share/libvirt/cpu_map/x86_features.xml
 * /usr/share/libvirt/cpu_map/x86_GraniteRapids-v1.xml
+* /usr/share/libvirt/cpu_map/x86_GraniteRapids-v2.xml
 * /usr/share/libvirt/cpu_map/x86_GraniteRapids.xml
 * /usr/share/libvirt/cpu_map/x86_Haswell-IBRS.xml
 * /usr/share/libvirt/cpu_map/x86_Haswell-noTSX-IBRS.xml
@@ -659,26 +666,42 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/cpu_map/x86_IvyBridge-v1.xml
 * /usr/share/libvirt/cpu_map/x86_IvyBridge-v2.xml
 * /usr/share/libvirt/cpu_map/x86_IvyBridge.xml
+* /usr/share/libvirt/cpu_map/x86_KnightsMill-v1.xml
 * /usr/share/libvirt/cpu_map/x86_KnightsMill.xml
+* /usr/share/libvirt/cpu_map/x86_kvm32-v1.xml
 * /usr/share/libvirt/cpu_map/x86_kvm32.xml
+* /usr/share/libvirt/cpu_map/x86_kvm64-v1.xml
 * /usr/share/libvirt/cpu_map/x86_kvm64.xml
+* /usr/share/libvirt/cpu_map/x86_n270-v1.xml
 * /usr/share/libvirt/cpu_map/x86_n270.xml
 * /usr/share/libvirt/cpu_map/x86_Nehalem-IBRS.xml
 * /usr/share/libvirt/cpu_map/x86_Nehalem-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Nehalem-v2.xml
 * /usr/share/libvirt/cpu_map/x86_Nehalem.xml
+* /usr/share/libvirt/cpu_map/x86_Opteron_G1-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Opteron_G1.xml
+* /usr/share/libvirt/cpu_map/x86_Opteron_G2-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Opteron_G2.xml
+* /usr/share/libvirt/cpu_map/x86_Opteron_G3-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Opteron_G3.xml
+* /usr/share/libvirt/cpu_map/x86_Opteron_G4-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Opteron_G4.xml
+* /usr/share/libvirt/cpu_map/x86_Opteron_G5-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Opteron_G5.xml
+* /usr/share/libvirt/cpu_map/x86_Penryn-v1.xml
 * /usr/share/libvirt/cpu_map/x86_Penryn.xml
+* /usr/share/libvirt/cpu_map/x86_pentium-v1.xml
 * /usr/share/libvirt/cpu_map/x86_pentium.xml
+* /usr/share/libvirt/cpu_map/x86_pentium2-v1.xml
 * /usr/share/libvirt/cpu_map/x86_pentium2.xml
+* /usr/share/libvirt/cpu_map/x86_pentium3-v1.xml
 * /usr/share/libvirt/cpu_map/x86_pentium3.xml
 * /usr/share/libvirt/cpu_map/x86_pentiumpro.xml
+* /usr/share/libvirt/cpu_map/x86_phenom-v1.xml
 * /usr/share/libvirt/cpu_map/x86_phenom.xml
+* /usr/share/libvirt/cpu_map/x86_qemu32-v1.xml
 * /usr/share/libvirt/cpu_map/x86_qemu32.xml
+* /usr/share/libvirt/cpu_map/x86_qemu64-v1.xml
 * /usr/share/libvirt/cpu_map/x86_qemu64.xml
 * /usr/share/libvirt/cpu_map/x86_SandyBridge-IBRS.xml
 * /usr/share/libvirt/cpu_map/x86_SandyBridge-v1.xml
@@ -742,6 +765,53 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/schemas/storagepoolcaps.rng
 * /usr/share/libvirt/schemas/storagevol.rng
 * /usr/share/libvirt/test-screenshot.png
+* /usr/share/locale/as/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/bg/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/bn_IN/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/bs/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ca/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/cs/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/da/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/de/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/el/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/es/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/fi/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/fr/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/gu/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/hi/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/hr/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/hu/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/id/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/it/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ja/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ka/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/kn/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ko/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/mk/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ml/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/mr/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ms/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/nb/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/nl/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/or/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/pa/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/pl/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/pt/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ro/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ru/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/si/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/sr/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/sv/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/ta/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/te/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/tr/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/uk/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/vi/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/libvirt.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/libvirt.mo
 * /usr/share/man/man1/virsh.1.gz
 * /usr/share/man/man1/virt-admin.1.gz
 * /usr/share/man/man1/virt-host-validate.1.gz

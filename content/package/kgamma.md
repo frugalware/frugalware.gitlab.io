@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kgamma 6.2.5-2"
-version = "6.2.5-2"
+title = "kgamma 6.3.0-1"
+version = "6.3.0-1"
 description = "Adjust your monitor's gamma settings"
-date = "2025-02-01T20:18:00"
+date = "2025-02-11T12:31:23"
 aliases = "/packages/221313"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "143704"
-usize = "385897"
-sha1sum = "1232cd75285c617aaef085d3130a160021641633"
+size = "144092"
+usize = "387517"
+sha1sum = "33bda13c122ab87f2235069e84a3d04f01ce5369"
 depends = "['kcmutils>=6.10.0', 'kconfigwidgets>=6.10.0']"
 +++
 ### Description: 
@@ -54,7 +54,7 @@ Adjust your monitor's gamma settings
 * /usr/share/doc/HTML/tr/kcontrol/kgamma/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/kgamma/index.docbook
-* /usr/share/doc/kgamma-6.2.5/ChangeLog
+* /usr/share/doc/kgamma-6.3.0/ChangeLog
 * /usr/share/kgamma/pics/background.png
 * /usr/share/kgamma/pics/cmyscale.png
 * /usr/share/kgamma/pics/darkgrey.png

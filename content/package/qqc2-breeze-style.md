@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qqc2-breeze-style 6.2.5-2"
-version = "6.2.5-2"
+title = "qqc2-breeze-style 6.3.0-1"
+version = "6.3.0-1"
 description = "Breeze inspired QQC2 Style"
-date = "2025-02-01T20:33:02"
+date = "2025-02-11T12:53:17"
 aliases = "/packages/220309"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "353104"
-usize = "2198759"
-sha1sum = "553d320501e0f1417cea6a38148e3ba03b41886a"
+size = "356904"
+usize = "2217009"
+sha1sum = "175f7d501cd0ff25dcc2b29e719b34a97859842b"
 depends = "['kconfig>=6.10.0', 'kguiaddons>=6.10.0', 'kiconthemes>=6.10.0', 'kirigami>=6.10.0', 'kquickcharts>=6.10.0']"
 +++
 ### Description: 
@@ -19,6 +19,8 @@ Breeze inspired QQC2 Style
 ### Files: 
 * /usr/lib/cmake/QQC2BreezeStyle/QQC2BreezeStyleConfig.cmake
 * /usr/lib/cmake/QQC2BreezeStyle/QQC2BreezeStyleConfigVersion.cmake
+* /usr/lib/cmake/QQC2BreezeStyle/QQC2BreezeStyleTargets-release.cmake
+* /usr/lib/cmake/QQC2BreezeStyle/QQC2BreezeStyleTargets.cmake
 * /usr/lib/qt6/plugins/kf6/kirigami/platform/org.kde.breeze.so
 * /usr/lib/qt6/qml/org/kde/breeze/AbstractButton.qml
 * /usr/lib/qt6/qml/org/kde/breeze/ApplicationWindow.qml
@@ -110,4 +112,4 @@ Breeze inspired QQC2 Style
 * /usr/lib/qt6/qml/org/kde/breeze/ToolTip.qml
 * /usr/lib/qt6/qml/org/kde/breeze/Tumbler.qml
 * /usr/lib/qt6/qml/org/kde/breeze/VerticalHeaderView.qml
-* /usr/share/doc/qqc2-breeze-style-6.2.5/README.md
+* /usr/share/doc/qqc2-breeze-style-6.3.0/README.md
