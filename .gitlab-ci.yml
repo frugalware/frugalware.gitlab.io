@@ -9,14 +9,30 @@ default:
     - apk add --no-cache go curl bash nodejs
     - hugo mod get -u $THEME_URL
 test:
+  cache:
+    key:
+      prefix: hugo-gen
+      files:
+        - config.yaml
+    paths:
+      - resources
+    unprotect: true
   script:
-    - hugo
+    - hugo --minify --cacheDir $CI_PROJECT_DIR/resources
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
+  cache:
+    key:
+      prefix: hugo-gen
+      files:
+        - config.yaml
+    paths:
+      - resources
+    unprotect: true
   script:
-    - hugo
+    - hugo --minify --cacheDir $CI_PROJECT_DIR/resources
   artifacts:
     paths:
       - public
