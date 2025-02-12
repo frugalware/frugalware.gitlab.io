@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-ucode 20241112-1"
-version = "20241112-1"
+title = "intel-ucode 20250211-1"
+version = "20250211-1"
 description = "Microcode for Intel processors."
-date = "2024-11-12T21:22:11"
+date = "2025-02-12T09:14:03"
 aliases = "/packages/168450"
 categories = ['base']
 upstreamurl = "http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&keyword=%22microcode%22"
 arch = "x86_64"
-size = "7817444"
-usize = "13163180"
-sha1sum = "5359cd61d25e057b0f3c2223684aaa8bb91c28fc"
+size = "9257292"
+usize = "12090340"
+sha1sum = "fcfa5ff03e9103e1d5101779c8d5babd8c43ec72"
 depends = "['kernel']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -115,8 +115,6 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/06-8e-0a
 * /usr/lib/firmware/intel-ucode/06-8e-0b
 * /usr/lib/firmware/intel-ucode/06-8e-0c
-* /usr/lib/firmware/intel-ucode/06-8f-05
-* /usr/lib/firmware/intel-ucode/06-8f-06
 * /usr/lib/firmware/intel-ucode/06-8f-07
 * /usr/lib/firmware/intel-ucode/06-8f-08
 * /usr/lib/firmware/intel-ucode/06-96-01
@@ -137,10 +135,10 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/06-a6-01
 * /usr/lib/firmware/intel-ucode/06-a7-01
 * /usr/lib/firmware/intel-ucode/06-aa-04
+* /usr/lib/firmware/intel-ucode/06-af-03
 * /usr/lib/firmware/intel-ucode/06-b7-01
 * /usr/lib/firmware/intel-ucode/06-ba-02
 * /usr/lib/firmware/intel-ucode/06-ba-03
-* /usr/lib/firmware/intel-ucode/06-ba-08
 * /usr/lib/firmware/intel-ucode/06-be-00
 * /usr/lib/firmware/intel-ucode/06-bf-02
 * /usr/lib/firmware/intel-ucode/06-bf-05
@@ -168,7 +166,7 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/0f-06-04
 * /usr/lib/firmware/intel-ucode/0f-06-05
 * /usr/lib/firmware/intel-ucode/0f-06-08
-* /usr/share/doc/intel-ucode-20241112/LICENSE
-* /usr/share/doc/intel-ucode-20241112/license
-* /usr/share/doc/intel-ucode-20241112/README.md
-* /usr/share/doc/intel-ucode-20241112/releasenote.md
+* /usr/share/doc/intel-ucode-20250211/LICENSE
+* /usr/share/doc/intel-ucode-20250211/license
+* /usr/share/doc/intel-ucode-20250211/README.md
+* /usr/share/doc/intel-ucode-20250211/releasenote.md
