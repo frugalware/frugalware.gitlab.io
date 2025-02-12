@@ -52,10 +52,10 @@ avatar = "images/frugalware.png"
   cached = true
 
 [Params.widgets.recent]
-  cached = false
+  cached = true
 
 [Params.widgets.updates]
-  cached = false
+  cached = true
 
 [Params.widgets.search]
   cached = true
