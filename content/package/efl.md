@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "efl 1.28.0-1"
-version = "1.28.0-1"
+title = "efl 1.28.0-3"
+version = "1.28.0-3"
 description = "Enlightenment Foundation Libraries"
-date = "2025-01-13T16:27:14"
+date = "2025-02-12T14:59:59"
 aliases = "/packages/218022"
 categories = ['e-libs']
 upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
-size = "31526208"
-usize = "73228054"
-sha1sum = "1f803ce12705f3117f70e00b611ff3423abf9b9c"
-depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid>=2.40.2', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'lua51', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=25.01.0', 'scim', 'util-linux', 'wayland', 'wayland', 'wayland-protocols', 'xz']"
+size = "31527184"
+usize = "73232622"
+sha1sum = "8fc2e11fb4281756b83e498e1be238a9af7a9917"
+depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgl', 'libglapi', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff', 'libunwind', 'libuuid>=2.40.2', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'lua51', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=25.01.0', 'scim', 'util-linux', 'wayland', 'wayland-protocols', 'xz']"
 reverse_depends = "['eflete', 'enlightenment', 'enventor', 'pinentry-enlightment', 'python-efl', 'rage', 'terminology']"
 license = "BSD,"
 +++

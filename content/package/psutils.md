@@ -12,7 +12,7 @@ size = "60480"
 usize = "243108"
 sha1sum = "69aa2fad91c155691233ca4e1971d670a6edf6e1"
 depends = "['glibc']"
-reverse_depends = "['a2ps', 'a2ps']"
+reverse_depends = "['a2ps']"
 +++
 ### Description: 
 Postscript utilities

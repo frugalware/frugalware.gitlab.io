@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dbus-sharp 0.8.1-1"
-version = "0.8.1-1"
+title = "dbus-sharp 0.8.1-2"
+version = "0.8.1-2"
 description = "Managed D-Bus IPC protocol library and CLR binding"
-date = "2024-04-11T14:30:32"
+date = "2025-02-12T14:16:49"
 aliases = "/packages/221439"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/mono/dbus-sharp"
 arch = "x86_64"
-size = "99900"
-usize = "252880"
-sha1sum = "ff8212ee0e7a176d80396d3a783b6992ed3ff2c1"
-depends = "['mono', 'mono']"
+size = "99972"
+usize = "253491"
+sha1sum = "d59643a6334417691cea0f5b1a02bc76500a5e4a"
+depends = "['mono']"
 reverse_depends = "['dbus-sharp-glib']"
 +++
 ### Description: 

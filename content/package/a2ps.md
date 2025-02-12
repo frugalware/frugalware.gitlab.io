@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "a2ps 4.15.6-1"
-version = "4.15.6-1"
+title = "a2ps 4.15.6-2"
+version = "4.15.6-2"
 description = "An Any to PostScript filter"
-date = "2024-12-28T18:54:00"
+date = "2025-02-12T14:15:01"
 aliases = "/packages/2908"
 categories = ['apps-extra']
 upstreamurl = "https://www.gnu.org/software/a2ps/"
 arch = "x86_64"
-size = "678520"
-usize = "3938685"
-sha1sum = "0617cfc6b0c94fe7d22ea72674d735549ba9122c"
-depends = "['groff', 'libgc', 'libpaper>=2.2.5', 'psutils', 'psutils', 'texinfo', 'urw-fonts']"
+size = "678304"
+usize = "3938749"
+sha1sum = "994dd897d688247d702a935d7983177cbea30114"
+depends = "['groff', 'libgc', 'libpaper>=2.2.5', 'psutils', 'texinfo', 'urw-fonts']"
 +++
 ### Description: 
 An Any to PostScript filter
