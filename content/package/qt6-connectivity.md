@@ -12,7 +12,7 @@ size = "477328"
 usize = "1998464"
 sha1sum = "c6db2d9663c8b16c913a5de0634c8b0060376aa3"
 depends = "['bluez', 'pcsc-lite', 'qt6-declarative']"
-reverse_depends = "['qt6-sensors']"
+reverse_depends = "['kdeconnect-kde', 'qt6-sensors']"
 +++
 ### Description: 
 The Qt6 toolkit, qtconnectivity

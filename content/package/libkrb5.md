@@ -12,7 +12,7 @@ size = "686248"
 usize = "2552530"
 sha1sum = "8baf49d272ad5ff06b93b44b9bc966027409e35b"
 depends = "['e2fsprogs>=1.43.3-2', 'libgssglue>=0.4-3']"
-reverse_depends = "['cifs-utils', 'cyrus-sasl', 'cyrus-sasl-gssapiv2', 'dante', 'dovecot', 'freerdp', 'freerdp', 'freerdp2', 'freerdp2', 'keyutils', 'kio5', 'krb5', 'libnfs', 'libreoffice-postgresql', 'libsoup', 'libtirpc', 'loudmouth', 'mscp', 'neon', 'openjre', 'qt6-webengine', 'rsyslog-gssapi', 's-nail', 'samba-client', 'saslauthd', 'wireshark']"
+reverse_depends = "['cifs-utils', 'cyrus-sasl', 'cyrus-sasl-gssapiv2', 'dante', 'dovecot', 'freerdp', 'freerdp2', 'keyutils', 'kio5', 'krb5', 'libnfs', 'libreoffice-postgresql', 'libsoup', 'libtirpc', 'loudmouth', 'mscp', 'neon', 'openjre', 'qt6-webengine', 'rsyslog-gssapi', 's-nail', 'samba-client', 'saslauthd', 'wireshark']"
 +++
 ### Description: 
 krb5 libraries files.

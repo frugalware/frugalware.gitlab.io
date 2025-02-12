@@ -12,7 +12,6 @@ size = "12152"
 usize = "27746"
 sha1sum = "f9f8b4995ac516c9f2e7b25fa285d6cfab26942f"
 depends = "['dbus-sharp', 'glib2', 'mono']"
-reverse_depends = "['notify-sharp']"
 +++
 ### Description: 
 C# GLib integration for DBus

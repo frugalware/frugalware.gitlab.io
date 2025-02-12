@@ -12,7 +12,7 @@ size = "71284"
 usize = "238675"
 sha1sum = "b621b27bcfd9dd552b4ad0511f7c4f9662c81063"
 depends = "['glibc>=2.34']"
-reverse_depends = "['cryptsetup-luks', 'efl', 'elfutils', 'enlightenment', 'fontconfig', 'gdal', 'gdal', 'libmypaint', 'libnvme', 'libu2f-host', 'multipath-tools', 'ndctl', 'strongswan', 'terminology', 'tpm2-tss', 'v4l-utils']"
+reverse_depends = "['cryptsetup-luks', 'efl', 'elfutils', 'enlightenment', 'fontconfig', 'gdal', 'libmypaint', 'libnvme', 'libu2f-host', 'multipath-tools', 'ndctl', 'strongswan', 'terminology', 'tpm2-tss', 'v4l-utils']"
 +++
 ### Description: 
 JSON-C - A JSON implementation in C
