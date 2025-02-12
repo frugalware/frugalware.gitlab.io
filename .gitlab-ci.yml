@@ -1,4 +1,4 @@
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.115.0
+image: hugomods/hugo:exts
 
 variables:
   HUGO_ENV: production
@@ -6,7 +6,6 @@ variables:
 
 default:
   before_script:
-    - apk add --no-cache go curl bash nodejs
     - hugo mod get -u $THEME_URL
 test:
   cache:
