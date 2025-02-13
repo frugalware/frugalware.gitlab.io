@@ -6,10 +6,10 @@ disqusShortname = "frugalware-1"
 
 [module]
 [[module.imports]]
-  path = 'github.com/vimux/mainroad'
+  path = 'github.com/mansoorbarri/roadster'
 
 [Author]
-path = 'github.com/vimux/mainroad'
+path = 'github.com/mansoorbarri/roadster'
 name = "Frugalware"
 bio = "Frugalware Development Team"
 avatar = "images/frugalware.png"

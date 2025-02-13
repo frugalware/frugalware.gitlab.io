@@ -2,7 +2,7 @@ image: hugomods/hugo:exts
 
 variables:
   HUGO_ENV: production
-  THEME_URL: "github.com/vimux/mainroad"
+  THEME_URL: "github.com/mansoorbarri/roadster"
 
 default:
   before_script:
