@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-om 25.2.0.3-3"
-version = "25.2.0.3-3"
+title = "libreoffice-l10n-om 25.2.0.3-4"
+version = "25.2.0.3-4"
 description = "Installs Oromo support in LibreOffice"
-date = "2025-02-09T17:01:50"
+date = "2025-02-13T14:29:14"
 aliases = "/packages/104098"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4646868"
+size = "4646180"
 usize = "33621524"
-sha1sum = "56a8aadadbcdb4a8938e99905c23f6708e37bf95"
+sha1sum = "f1dfbe0ae01b42c4a8332d7e119275cc543fd4e6"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "98012"
 usize = "282797"
 sha1sum = "f6d85cba47d40d7f8df46aa4a4b5eba3bd261732"
 depends = "['glibc>=2.34', 'popt>=1.16-9']"
-reverse_depends = "['gst1-plugins-good-dv', 'mencoder', 'mjpegtools', 'mlt', 'mlt', 'mplayer', 'mpv']"
+reverse_depends = "['gst1-plugins-good-dv', 'mencoder', 'mjpegtools', 'mlt', 'mplayer', 'mpv']"
 +++
 ### Description: 
 The Quasar DV codec (libdv) is a software codec for DV video

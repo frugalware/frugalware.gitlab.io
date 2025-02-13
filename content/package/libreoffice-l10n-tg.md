@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-tg 25.2.0.3-3"
-version = "25.2.0.3-3"
+title = "libreoffice-l10n-tg 25.2.0.3-4"
+version = "25.2.0.3-4"
 description = "Installs Tajik support in LibreOffice"
-date = "2025-02-09T17:01:50"
+date = "2025-02-13T14:29:14"
 aliases = "/packages/104130"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4113692"
+size = "4114040"
 usize = "33564991"
-sha1sum = "e59f611dc504ec5c0d4f2020a4c2433696e1dcc3"
+sha1sum = "d127954c332ca435f69475e3c764c7052fa27fa2"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

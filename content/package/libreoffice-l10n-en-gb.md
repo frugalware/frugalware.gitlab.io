@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-en-gb 25.2.0.3-3"
-version = "25.2.0.3-3"
+title = "libreoffice-l10n-en-gb 25.2.0.3-4"
+version = "25.2.0.3-4"
 description = "Installs English (United Kingdom) support in LibreOffice"
-date = "2025-02-09T17:01:50"
+date = "2025-02-13T14:29:14"
 aliases = "/packages/104051"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4218468"
+size = "4218980"
 usize = "34050267"
-sha1sum = "aebb153891d664f9cb9e1a63ab576b4d0dfa94af"
+sha1sum = "d078ba177350f4319bad40c8cfbacf0f71784fc4"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

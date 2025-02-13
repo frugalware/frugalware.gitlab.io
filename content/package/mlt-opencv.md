@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt-opencv 7.30.0-3"
-version = "7.30.0-3"
+title = "mlt-opencv 7.30.0-4"
+version = "7.30.0-4"
 description = "OpenCV Module for mlt"
-date = "2025-02-03T14:06:56"
+date = "2025-02-13T14:56:03"
 aliases = "/packages/222516"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "14284"
+size = "14304"
 usize = "22904"
-sha1sum = "c493584471cc2feedc20c4d1192a7fc9a80a04c1"
+sha1sum = "a835bfbd15ce6f4aabdd6a01d2676cddfb4db213"
 depends = "['mlt', 'opencv>=4.11']"
 +++
 ### Description: 

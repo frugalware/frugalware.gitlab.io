@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-or 25.2.0.3-3"
-version = "25.2.0.3-3"
+title = "libreoffice-l10n-or 25.2.0.3-4"
+version = "25.2.0.3-4"
 description = "Installs Odia support in LibreOffice"
-date = "2025-02-09T17:01:50"
+date = "2025-02-13T14:29:14"
 aliases = "/packages/104100"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "404504"
+size = "404580"
 usize = "2625209"
-sha1sum = "2b70fb25363932fff6ca80b0a76172aed9817b53"
+sha1sum = "ba0adbb9537c198ab4eb33aa2bfc6d2adddf8630"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 

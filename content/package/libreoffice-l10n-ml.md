@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ml 25.2.0.3-3"
-version = "25.2.0.3-3"
+title = "libreoffice-l10n-ml 25.2.0.3-4"
+version = "25.2.0.3-4"
 description = "Installs Malayalam support in LibreOffice"
-date = "2025-02-09T17:01:50"
+date = "2025-02-13T14:29:14"
 aliases = "/packages/104089"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "365940"
+size = "365660"
 usize = "2544009"
-sha1sum = "01eb85f513b7bdb6ec52768ec10856e2ca4f27fe"
+sha1sum = "f661c43dfa4e996f93e99c98fcb512aec7749b89"
 depends = "['libreoffice>=25.2.0.3']"
 +++
 ### Description: 
